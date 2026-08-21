@@ -1,0 +1,10 @@
+{
+  "all_pass": true,
+  "distinct_cases": 20000,
+  "independent_assertions": 280011,
+  "independent_cases": 20000,
+  "mutation_catches": 10,
+  "no_write_replay": true,
+  "production_assertions": 70,
+  "source_hashes": 8
+}

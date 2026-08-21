@@ -1,0 +1,11 @@
+id	status	detail
+S01	DERIVED_CONDITIONAL	quiet orbit has phi equals first and second log-areal derivatives zero
+S02	DERIVED_CONDITIONAL	analytic sign-changing crossing order is odd and at least three
+S03	DERIVED	vanishing order invariant under analytic local coordinate germs with nonzero linear term
+S04	DERIVED_WITHIN_SPHERICAL_AREAL_SLICE	positive areal radius rigid and quiet-orbit area recovers r0
+S05	DERIVED_WITHIN_DECLARED_CALIBRATION	leading coefficient is dimensionless log-areal metric jet
+S06	DERIVED	reversal preserves order quiet location and leading magnitude but not global oddness
+S07	DERIVED_COUNTERFAMILY	all odd n at least three positive r0 and positive a pass bounded gates
+S08	OPEN	numerical n r0 a and higher profile coefficients
+S09	CONDITIONAL	observations may calibrate an independently declared finite family
+S10	OPEN	mass or density bridge global completion Xmax transfer and downstream physics

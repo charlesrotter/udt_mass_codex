@@ -1,0 +1,9 @@
+{
+  "all_pass": true,
+  "assertions": 280011,
+  "cases": 20000,
+  "distinct_cases": 20000,
+  "production_artifact_read": false,
+  "production_imported": false,
+  "source_hashes": 8
+}

@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "catches": {
+    "areal_radius_not_free_gauge": true,
+    "depth_normalization_not_radial_steepness": true,
+    "dimensional_candidate_not_scale_law": true,
+    "even_order_sign_change": true,
+    "finite_anchors_not_unrestricted_history": true,
+    "linear_not_quiet": true,
+    "quadratic_not_quiet": true,
+    "reversal_not_global_argument_oddness": true,
+    "witness_not_selected_solution": true,
+    "xmax_absent_from_local_family": true
+  },
+  "caught": 10
+}

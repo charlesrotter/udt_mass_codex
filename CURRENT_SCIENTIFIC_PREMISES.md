@@ -31,6 +31,7 @@
 | G200 primary nonradial two-direction audit | independently verified with caveats | Same local two-mode tide; finite directional difference begins through opposite radial-gradient sampling |
 | G201 primary phi-jet amplitude audit | independently verified with caveats | Reciprocal magnitude is two-sided; angular modes depend on radial jets and need not share one envelope |
 | G202 quiet-overlap/profile-anchor audit | independently verified with caveats | Quietness is a zero logarithmic second jet; infinite profiles survive and anchors calibrate rather than derive |
+| G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -58,8 +59,8 @@ None selects completion or `X_max`.
   multiplicity theorem.
 - The current chain derives and tests the supplied-pair kernel. G199 prevents a chosen coframe's
   directional asymmetry from being promoted to the primary metric; G200 shows that native finite
-  differences arise by radial sampling; G201 permits non-lockstep volumes, and G202 makes quiet
-  overlap and finite-anchor nonselection exact.
+  differences arise by radial sampling; G201 permits non-lockstep volumes, G202 makes quiet overlap
+  exact, and G203 separates invariant profile descriptors from numerical selection.
   Population, transfer, profile ownership, and global realization stay open.
 
 ## Carrier, action, source, and matter
@@ -95,7 +96,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 186-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 187-row authority. On conflict, stop.
 
 Run:
 

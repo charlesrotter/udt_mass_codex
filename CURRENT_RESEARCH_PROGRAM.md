@@ -61,8 +61,10 @@ physical scalar after the working premise. They must not be conflated.
 - G202 derives quiet overlap as a zero logarithmic second jet, classifies infinite analytic odd
   crossing profiles, proves finite anchors do not select an unrestricted history, and types the
   extra mass/density dimension needed to form a candidate scale from `c_E,G_obs`.
+- G203 proves crossing order, quiet-orbit area, and leading log-areal steepness are invariant metric
+  descriptors after calibration, while the founded law does not select their values.
 
-Current structural package: `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`.
+Current structural package: `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -91,7 +93,7 @@ numerical IVP legs are formula-level regression evidence; G193--G196 contain the
 contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
-volumes need not be lockstep. Quiet overlap and the information content of finite anchors are now
-exact. The next bounded action is to PONDER ownership of the remaining analytic order, reference
-scale, and dimensionless steepness. Do not fit, invent channel coefficients, insert `X_max`, select
-transfer, construct a time-live metric by template, or use G116/G189 as inputs.
+volumes need not be lockstep. Quiet overlap and its local descriptors are now exact. Their values
+remain unselected. Next MAP whether global primary-metric regularity and asymptotics further restrict
+the descriptor family before any empirical calibration. Do not fit, invent channel coefficients,
+insert `X_max`, select transfer, or use G116/G189 as inputs.

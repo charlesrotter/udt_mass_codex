@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G202 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G203 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -20,9 +20,8 @@ G200 turns on both primary nonradial modes without that chosen coupling: same lo
 tide for both reversed germs, with the first finite difference caused by opposite radial-gradient
 sampling. G198's two-ray off-ray reconstruction ceiling remains active.
 
-G201 shows instruments are not lockstep. G202 derives quiet overlap as `phi=phi_s=phi_ss=0`, keeps
-cubic only as a minimal control, proves infinitely many odd crossings and finite-anchor
-nonselection, and shows `c_E,G_obs` need a mass or density input to form a candidate length.
+G201 shows instruments are not lockstep. G202 derives quiet overlap. G203 proves crossing order,
+orbit area, and log-areal steepness are metric descriptors, but their values remain unselected.
 
 G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs
@@ -55,9 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G202 closes local profile/anchor classification. Next PONDER ownership of profile order, scale, and
-steepness; keep any calibrated family conditional. No fits, `X_max`, transfer, time-live template,
-or G116/G189 inputs.
+G203 closes local descriptor ownership. Next test whether global primary-metric regularity and
+asymptotics restrict the family. No fits, `X_max`, transfer, templates, or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

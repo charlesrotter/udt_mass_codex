@@ -1,0 +1,12 @@
+object	status	role
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	supplies areal orbit metric and phi profile
+quiet_second_jet	DERIVED_CONDITIONAL	G202 local quiet criterion
+analytic_finite_order_crossing	CONDITIONAL	needed for discrete order n
+crossing_order_n	DERIVED_INVARIANT_DESCRIPTOR_VALUE_OPEN	odd integer at least three
+quiet_orbit_radius_r0	DERIVED_GEOMETRIC_DESCRIPTOR_ON_SUPPLIED_HISTORY_VALUE_OPEN	positive areal radius from orbit area
+leading_steepness_a_n	DERIVED_DIMENSIONLESS_DESCRIPTOR_AFTER_AREAL_AND_DEPTH_CALIBRATION_VALUE_OPEN	first nonzero log-areal jet
+monomial_counterfamily	FREE_AND_EXPLORED	proves nonselection; not physical profile
+reciprocal_reversal	DERIVED_ON_ARROW_DEPTH	preserves n r0 and coefficient magnitude; no radial argument involution
+observational_anchor	CONDITIONAL_CALIBRATION	may calibrate a declared finite family
+mass_density_scale_bridge	OPEN	dimensional candidate is not physical law
+Xmax_transfer_action_source_bootstrap	OPEN_OR_OMITTED	outside bounded theorem
