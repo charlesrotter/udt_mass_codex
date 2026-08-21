@@ -46,8 +46,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-MAP a second/opposite supplied germ or minimal multidirectional network from the same complete
-metric, without fits, `X_max`, transfer, or G116/G189 construction inputs.
+G198 has MAPped the opposite germ. The same G196 coframe freezes the independent `deta-dz` screen
+coupling, so next derive the incoming response without assuming mirror symmetry; interpret any
+quiet result as family-scoped. The independent `C_eta,C_z` extension remains mapped but inactive.
+No fits, `X_max`, transfer, or G116/G189 construction inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

@@ -78,8 +78,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-MAP a second/opposite supplied germ or minimal multidirectional network. The bounded question is
-whether two rays from the same supplied complete metric constrain shared off-ray structure beyond
-the one-germ G196 theorem. Do not fit functions, insert `X_max`, select transfer, or use G116/G189
-as construction inputs.
+G198 has MAPped the second/opposite supplied germ on the same G196 metric. The map exposes that the
+chosen G196 coframe itself contains only the `deta+dz` null screen coupling; the independent
+`deta-dz` component is frozen. First derive the same-metric opposite-germ response without imposing
+mirror symmetry. A quiet result classifies that family, not general UDT. The adjacent independent
+`C_eta,C_z` family is mapped but not yet active. Do not fit functions, insert `X_max`, select
+transfer, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

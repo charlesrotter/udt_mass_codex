@@ -25,12 +25,15 @@
 - Current longitudinal result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
 - Accepted provenance/startup audit:
   `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
+- Bidirectional same-metric germ MAP:
+  `udt_g198_bidirectional_null_germ_map_2026-08-21/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
 supplied completed-pair scalar chain. G185--G189 are application controls. G190--G196 are standard
 geometric evaluations on chosen metric families; they do not select physical histories or germs.
 G197 confirms that no earlier scaffold is load-bearing and records the formula-level numerical
-evidence ceiling for G190--G192.
+evidence ceiling for G190--G192. G198 maps the opposite-germ control and exposes the frozen
+independent null screen-connection component before any new derivation.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`

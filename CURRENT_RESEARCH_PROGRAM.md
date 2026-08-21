@@ -78,7 +78,9 @@ exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 wo
 numerical IVP legs are formula-level evidence; G193--G196 contain the independent metric-side
 contractions.
 
-Resume with MAP only: a second/opposite supplied germ or minimal multidirectional network from the
-same supplied complete metric. Test whether joint rays constrain common off-ray structure beyond
-G196. Do not fit functions, insert `X_max`, select transfer, or use G116/G189 as construction
-inputs.
+G198 completes the MAP for a second/opposite supplied germ on the same G196 metric. It identifies a
+load-bearing family restriction: the displayed coframe includes the `deta+dz` null screen coupling
+but freezes the independent `deta-dz` component. The next bounded derivation evaluates the
+same-metric incoming germ directly. A quiet or asymmetric response is family-scoped. The minimally
+less-frozen independent `C_eta,C_z` affine family is mapped for later consideration, not active.
+Do not fit functions, insert `X_max`, select transfer, or use G116/G189 as construction inputs.

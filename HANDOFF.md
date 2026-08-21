@@ -46,9 +46,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next MAP a second/opposite supplied germ or minimal multidirectional network from the same complete
-metric, asking whether joint rays constrain shared off-ray structure. Do not fit a profile, insert
-`X_max`, select transfer, or use G116/G189 as construction inputs. The physical carrier/`O(2)`,
+G198 MAPs the second/opposite supplied germ on the same G196 metric. The G196 coframe already keeps
+only the `deta+dz` null screen coupling and freezes the independent `deta-dz` component. Next derive
+the same-metric opposite-germ response directly; do not impose mirror symmetry or generalize a
+quiet control. The adjacent independent `C_eta,C_z` family is mapped but inactive. Do not fit a
+profile, insert `X_max`, select transfer, or use G116/G189 as construction inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.
