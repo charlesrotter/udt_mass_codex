@@ -49,9 +49,11 @@ re-reviewed, the package grade is
 
 Both preregistered repairs subsequently passed the full local no-write package replay under a
 mode-`0555` declared temporary directory, with the complete 204-history census, artifact identity,
-and zero runtime-directory entries. The current grade is therefore
-`EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING`. Repair-only external
-confirmation remains open.
+and zero runtime-directory entries. Fresh repair-only external review then ran the exact registered
+replay in a strictly read-only sandbox. It exited zero in `1336.947` seconds; all 38/38 scope hashes
+matched before and after and `.review_runtime` remained empty. R1 and R2 are therefore externally
+closed with landing `G196_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED`. The final bounded grade is
+`EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS`.
 
 No canonization is implied. The result does not cover arbitrary complete metrics or coframes, all
 directions, selected physical histories, transfer or observations, or `X_max`.

@@ -37,8 +37,8 @@ no-caustic proof survive. Fresh review and the R1 retry accept with caveats. G19
 family to arbitrary smooth `M(eta,z)` on the supplied outgoing germ. The metric selects
 `D_plus=partial_eta+partial_z`; factorization and the Gram proof survive. Internal exact and
 metric-side gates pass; the interval IVP comparison is formula-level regression. Fresh external
-review accepts the bounded theorem. Its two evidence repairs pass the full local no-write replay;
-repair-only external confirmation remains pending. One ray does not reconstruct off-ray structure.
+review accepts the bounded theorem, and repair-only follow-up externally closes both evidence
+repairs. One ray does not reconstruct off-ray structure.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G196 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
@@ -88,9 +88,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Obtain repair-only external confirmation for G196 R1/R2. If accepted, MAP a second/opposite supplied
-germ or minimal multidirectional network to test whether several directional restrictions constrain
-the surrounding field. Stay metric-led; do not fit a profile, insert `X_max`, select transfer, or
-use G116/G189.
+MAP a second/opposite supplied germ or minimal multidirectional network to test whether several
+directional restrictions constrain the surrounding field. Stay metric-led; do not fit a profile,
+insert `X_max`, select transfer, or use G116/G189.
 
 <!-- STARTUP_CURRENT_END -->

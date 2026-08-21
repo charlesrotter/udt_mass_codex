@@ -34,8 +34,8 @@ affine family and supplied central germ. Rotation is covariant screen carry, not
 arbitrary `M(eta,z)` on the supplied outgoing germ. The full metric selects
 `D_plus=partial_eta+partial_z`; ordered factorization and the scoped Gram sign theorem survive.
 Fresh external review accepts the bounded theorem. It regrades the Torch metric-side contractions
-as independent and the interval IVP comparison as formula-level regression. Both preregistered
-evidence repairs pass the full local no-write replay; repair-only external confirmation is pending.
+as independent and the interval IVP comparison as formula-level regression. Repair-only external
+follow-up closes both preregistered evidence repairs under the strict read-only replay.
 
 ## Controlling local evaluator
 
@@ -135,8 +135,8 @@ response, not an observed spectrum.
 
 ## Bounded next action
 
-G196 closes the first longitudinal extension of the displayed affine family on one outgoing germ.
-First obtain repair-only external confirmation of its locally passing R1/R2 repairs. If accepted,
-next MAP a second/opposite supplied germ or minimal multidirectional network and preregister whether
-its directional restrictions jointly constrain off-ray structure. Do not fit histories, insert
-`X_max`, select transfer, or use G116/G189.
+G196 closes the first longitudinal extension of the displayed affine family on one outgoing germ;
+external review and repair follow-up accept with caveats. Next MAP a second/opposite supplied germ
+or minimal multidirectional network and preregister whether its directional restrictions jointly
+constrain off-ray structure. Do not fit histories, insert `X_max`, select transfer, or use
+G116/G189.

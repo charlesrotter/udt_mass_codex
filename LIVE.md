@@ -43,9 +43,9 @@ extends that displayed family to arbitrary smooth `M(eta,z)` on the same supplie
 germ. Direct metric reconstruction selects `D_plus=partial_eta+partial_z`; factorization and the
 Gram sign proof survive. Fresh external review accepts the bounded theorem. It correctly regrades
 the Torch metric-side contractions as independent while the interval IVP comparison is formula-level
-regression. Both evidence-description and read-only replay repairs pass the full local no-write
-replay; repair-only external confirmation remains pending. One germ restricts the field along its
-ray but does not reconstruct off-ray data.
+regression. Both evidence-description and strict read-only replay repairs are externally accepted;
+the bounded landing is retained. One germ restricts the field along its ray but does not reconstruct
+off-ray data.
 
 ### Current dependency spine
 
@@ -123,10 +123,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 ### Immediate next action
 
 G196 closes longitudinal `M(eta,z)` descent only for one displayed affine family and supplied
-central outgoing pair. Obtain repair-only external confirmation of the already locally passing R1/R2
-evidence repairs. If accepted, next MAP a second/opposite supplied germ or a minimal
-multidirectional network to test whether directional restrictions jointly constrain the surrounding
-field. Do not fit functions, insert `X_max`, select transfer, or use G116/G189.
+central outgoing pair; its external review and repair follow-up accept with caveats. Next MAP a
+second/opposite supplied germ or a minimal multidirectional network to test whether directional
+restrictions jointly constrain the surrounding field. Do not fit functions, insert `X_max`, select
+transfer, or use G116/G189.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.

@@ -28,5 +28,7 @@ existing mode-`0555` directory. It exited zero with:
 - 8/8 source-manifest rows;
 - zero entries created in the non-writable runtime directory.
 
-This locally closes R1 and R2. Repair-only external confirmation remains pending. The bounded
-scientific landing is unchanged.
+Fresh repair-only external review subsequently ran the exact registered replay in a strictly
+read-only sandbox. It exited zero in `1336.947` seconds, all 38/38 sealed hashes matched before and
+after, and `.review_runtime` remained empty. R1 and R2 are externally closed with landing
+`G196_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED`. The bounded scientific theorem is unchanged.

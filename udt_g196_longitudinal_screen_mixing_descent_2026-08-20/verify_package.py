@@ -138,7 +138,7 @@ def main():
 
     result = {
         "status": "PASS",
-        "grade": "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING",
+        "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
         "no_write_replay": args.no_write,
         "source_rows": len(source_rows),
         "production_assertions": len(production["assertions"]),

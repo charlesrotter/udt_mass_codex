@@ -12,8 +12,7 @@
 - [x] Premise registry audited: repository verifier passed on the 180-row registry before verdict.
 - [x] Fresh external review complete: bounded theorem accepted with two evidence repairs.
 - [x] Both preregistered repairs pass the full local no-write replay under a non-writable temp path.
-- [ ] Repair-only external follow-up complete.
+- [x] Repair-only external follow-up complete: R1/R2 accepted; bounded landing retained.
 
-The current grade is
-`EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING`. Only repair-only external
-confirmation remains open; the bounded scientific theorem was retained.
+The final bounded grade is `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS`. Both evidence repairs are
+externally closed and the scientific theorem is unchanged.

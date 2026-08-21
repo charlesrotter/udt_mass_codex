@@ -62,8 +62,8 @@ applications. G190 derives the time-live frequency/screen join; G191 supplies on
 witness; G192 classifies a rank-one family; G193 adds noncommutativity; G194 closes arbitrary
 smooth symmetric mixing; G195 closes arbitrary smooth real `2 x 2` time-dependent mixing; G196
 adds longitudinal `M(eta,z)` descent through `D_plus` on one outgoing germ. G195 reviews accept with
-caveats; G196's bounded theorem is externally accepted, its evidence repairs pass locally, and
-repair-only confirmation plus other germs remain open.
+caveats; G196's bounded theorem and both evidence repairs are externally accepted. Other germs
+remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`

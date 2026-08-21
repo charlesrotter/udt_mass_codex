@@ -1,7 +1,11 @@
 {
   "artifact_identity": true,
   "fresh_source_rows": 8,
-  "grade": "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING",
+  "external_followup_landing": "G196_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED",
+  "external_followup_replay_seconds": 1336.947,
+  "external_followup_scope_hashes_after": "38_of_38_match",
+  "external_followup_scope_hashes_before": "38_of_38_match",
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
   "independent_assertions": 5313,
   "independent_histories": 204,
   "ivp_evidence_type": "formula_level_regression_from_shared_candidate_matrices",
@@ -15,6 +19,7 @@
   "production_assertions": 17,
   "r1_independence_scope_corrected": true,
   "r2_torch_import_read_only_replay": true,
+  "repair_only_external_followup": true,
   "registered_no_write_package_replay": true,
   "stale_artifact_mutation_caught": true,
   "status": "PASS"

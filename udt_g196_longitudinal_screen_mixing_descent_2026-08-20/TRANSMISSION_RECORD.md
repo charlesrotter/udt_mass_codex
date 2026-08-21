@@ -30,3 +30,17 @@ gzip has SHA-256 `e42704d2d27727bf74a0686f4f303933a5f0a57fa0c59a7aa3590b5ab060b4
 An earlier launch attempt failed before transmission because the current CLI rejected a retired
 approval flag. It carried no scientific evidence and is not the preserved review transcript.
 
+## Repair-only follow-up
+
+Charles subsequently authorized the sealed 39-file intake `/tmp/udt_g196_review_myxg_x_1`, defined
+by `REVIEW_SCOPE.json` SHA-256
+`83f33f919c2dcf45655dfb1b1e5068329e5a6f264c9da8c5a0ac02c4951f84ad`, for repair-only read-only
+follow-up. Reviewer session `01a0248a-02df-7d21-a72b-e951765ccad5` ran the exact registered replay
+in the strict read-only sandbox. It exited zero in `1336.947` seconds; 38/38 declared hashes matched
+before and after and `.review_runtime` had zero entries.
+
+The repair follow-up final has SHA-256
+`92beceef7c0a8d568e7e61de4a137b8ec375198aea699b1febb7c0a929fc2e8d`. The successful plain-text
+transcript had SHA-256
+`91530a0483d7b3275bdaaa9fbd2751071e131140a66628f20aeecbeb64dd0782`; its banked deterministic gzip
+has SHA-256 `2d8c20c2862352793284d24b43b86afe487da16d5e493454c42aae4ef14d41c3`.

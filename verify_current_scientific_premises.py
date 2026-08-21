@@ -759,7 +759,7 @@ def main() -> None:
     require(len(by_id) == 181, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
-            "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING__PREREGISTERED"
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
         ),
         "G196 external-review/repair grade changed",
     )
@@ -781,6 +781,8 @@ def main() -> None:
         "PACKAGE_VERIFICATION_RESULT.json",
         "EXTERNAL_REVIEW_RAW.md",
         "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "REPAIR_FOLLOWUP_ADJUDICATION.md",
         "REVIEW_REPAIR_PREREGISTRATION.md",
         "REPAIR_VERIFICATION_RESULT.json",
         "SOURCE_MANIFEST.tsv",
@@ -790,7 +792,7 @@ def main() -> None:
     require(g196_package["status"] == "PASS", "G196 package verification failed")
     require(
         g196_package["grade"]
-        == "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING",
+        == "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
         "G196 package grade changed",
     )
     require(g196_package["no_write_replay"] is True, "G196 repaired no-write replay absent")
@@ -801,6 +803,15 @@ def main() -> None:
     require(g196_repair["status"] == "PASS", "G196 repair verification failed")
     require(g196_repair["r1_independence_scope_corrected"] is True, "G196 R1 absent")
     require(g196_repair["r2_torch_import_read_only_replay"] is True, "G196 R2 absent")
+    require(
+        g196_repair["external_followup_landing"]
+        == "G196_REPAIRS_ACCEPTED__BOUNDED_LANDING_RETAINED",
+        "G196 repair follow-up acceptance absent",
+    )
+    require(
+        g196_repair["repair_only_external_followup"] is True,
+        "G196 repair follow-up gate absent",
+    )
     require(
         g196_repair["ivp_evidence_type"]
         == "formula_level_regression_from_shared_candidate_matrices",

@@ -20,8 +20,8 @@ turns, full tide, noncommutation, factorization, scoped noncausticity, sign-vari
 finite rotation occur. G195 adds antisymmetric rotation, closing arbitrary smooth real `M=S+Omega`
 in the displayed time-dependent family; rotation is screen carry. G196 adds arbitrary longitudinal
 `M(eta,z)` on one outgoing germ; the response uses `D_plus` and retains factorization and scoped
-no-caustics. Fresh external review accepts the bounded theorem; both evidence repairs pass locally,
-with repair-only confirmation pending.
+no-caustics. Fresh external review accepts the bounded theorem, and repair-only follow-up externally
+closes both evidence repairs.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
 transport freedoms and remove `X_max`; G164--G196 remove scaffolds, build the
@@ -56,7 +56,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Obtain G196 repair-only external confirmation. If accepted, map a second/opposite germ or minimal
-multidirectional network, without fits, `X_max`, transfer, or G116/G189.
+Map a second/opposite germ or minimal multidirectional network, without fits, `X_max`, transfer, or
+G116/G189.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

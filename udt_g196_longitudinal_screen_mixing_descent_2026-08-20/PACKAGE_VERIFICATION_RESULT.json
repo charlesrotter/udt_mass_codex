@@ -1,6 +1,6 @@
 {
   "fresh_artifact_identity": true,
-  "grade": "EXTERNAL_REVIEW_ACCEPTED__REPAIRS_LOCALLY_VERIFIED__FOLLOWUP_PENDING",
+  "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
   "independent_assertions": 5313,
   "independent_histories": 204,
   "maximum_factorization_error": 1.5420713317393364e-11,
