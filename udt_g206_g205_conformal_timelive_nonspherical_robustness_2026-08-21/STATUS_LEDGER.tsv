@@ -1,0 +1,14 @@
+object	status	claim
+G206_extension_class	FREE_AND_EXPLORED	smooth positive conformal common scale over every G205 base
+causal_curve_set	DERIVED_CONDITIONAL	identical to G205 for every registered Omega
+global_hyperbolicity	DERIVED_CONDITIONAL	G205 Cauchy slices survive every registered Omega
+null_affine_law	DERIVED_CONDITIONAL	dlambda_tilde=exp(2Omega)dlambda
+null_completeness_criterion	DERIVED_CONDITIONAL	weighted integral diverges at both ends of every base null geodesic
+bounded_live_nonspherical_witness	DERIVED_CONTROL	null complete by global lower bound
+decaying_live_nonspherical_witness	DERIVED_COUNTEREXAMPLE	globally hyperbolic but null incomplete
+completed_pair_common_scale_response	DERIVED_CONDITIONAL	Phi_tilde=Phi-Omega after full pullback
+timelike_spacelike_completeness	OPEN	not classified for arbitrary Omega
+tracefree_screen_and_mixing	OPEN	not activated in G206
+physical_Omega_history	OPEN	no selector derived
+Xmax_action_source_transfer_observations	OMITTED_OPEN	outside G206
+external_adversarial_review	VERIFIED_WITH_CAVEATS	no mathematical error; bounded landing retained

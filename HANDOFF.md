@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-21
 
-G166--G205 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G206 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -16,19 +16,12 @@ canon. It selects `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T` after the pu
 arbitrary-calibration formula is a control. Physical events, germs, functions, population, and
 global realization remain supplied or `OPEN`.
 
-G190--G198 are metric-evaluator results on chosen families and germs, not field equations. G196's
-outgoing germ gives `D_plus`, exact ordered factorization, and a scoped positive-Gram sign theorem;
-its interval IVP agreement is formula-level regression. G198 keeps that exact metric and adds the
-opposite central future null germ; its chiral split remains correct inside the chosen G196 family.
-G199 traces that coupling to G191's `CHOSE_MATHEMATICAL_FUNCTION_FAMILY` and computes both radial
-null germs directly in the primary metric: same endpoint-frequency law, zero radial optical tide,
-and `D=lambda I`. G200 then computes both reversed nonradial germs in that same primary metric.
-They have the same local frequency and two-mode tide. Their common Jacobi distortion begins at
-third order; the first possible difference is fourth order and proportional to the radial tidal
-gradient, because the branches sample opposite radial regimes. Production passes 64 assertions;
-independent exact-Fraction third-jet replay passes 2,000 cases and 38,160 assertions. Thus G198 is
-not promoted to a primary-metric direction law, the arbitrary `C_eta,C_z` extension is inactive,
-and the two-ray off-ray reconstruction ceiling remains.
+G190--G198 evaluate chosen families and germs, not field equations; G196's interval IVP is
+formula-level regression. G199 traces their chiral coupling to a chosen coframe and finds both
+primary radial germs share frequency, zero optical tide, and `D=lambda I`. G200 finds both primary
+nonradial germs share the local frequency and tide; their first finite difference is radial-gradient
+sampling. Thus G198 is not a primary-metric direction law, and the two-ray off-ray reconstruction
+ceiling remains.
 
 G201 classifies the regime magnitude directly in the primary metric. With `p=r phi'` and
 `q=r^2 phi''`, the two dimensionless angular modes depend on both jets, not `phi` alone. At
@@ -41,6 +34,12 @@ trough/asymptote family. G205 proves that family fully geodesically complete and
 hyperbolic on declared `R x R3`, with exact zero/one/two null-orbit strata. External review retained
 the analytic theorems; finite scripts verify only the algebraic core. Parameters, physical history,
 maximal extension, event horizon, and `X_max` remain unselected.
+
+G206 adds arbitrary smooth positive live/nonspherical common scale. Causal curves and global
+hyperbolicity survive; null completeness is exactly the two-ended `exp(2 Omega)` affine-integral
+test. Bounded and decaying witnesses respectively survive and fail. Completed pairs obey
+`Phi_tilde=Phi-Omega composed F`. External review found no mathematical error. `Omega` remains
+`FREE_AND_EXPLORED`; other completeness, screen/mixing, history, and `X_max` remain open.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -66,9 +65,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G205 closes bounded static-spherical geodesic/causal completion. Next ponder a metric-led
-nonspherical/time-live extension. Do not fit, activate arbitrary coframe terms, identify the outer
-limit with `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
+G206 closes the common-conformal time-live/nonspherical robustness tile. Next ponder the smallest
+metric-led trace-free screen or mixing extension. Do not fit, activate arbitrary coframe terms,
+identify any limit with `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

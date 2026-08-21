@@ -1,0 +1,25 @@
+{
+  "all_pass": true,
+  "catches": [
+    "production_pass_flip",
+    "production_assertion_drop",
+    "history_selection_smuggled",
+    "causal_cone_identity_removed",
+    "completed_depth_shift_removed",
+    "finite_integral_removed",
+    "global_theorem_falsely_mechanized",
+    "integral_iff_falsely_mechanized",
+    "global_analytic_scope_removed",
+    "integral_analytic_scope_removed",
+    "independent_case_drop",
+    "duplicate_cases",
+    "independent_assertion_drop",
+    "production_import_smuggled",
+    "production_artifact_smuggled",
+    "direct_geodesic_method_removed",
+    "selection_scope_overclaimed",
+    "diagnostic_precision_drop",
+    "diagnostic_repair_disclosure_removed"
+  ],
+  "caught": 19
+}

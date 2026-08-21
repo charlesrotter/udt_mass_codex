@@ -1,0 +1,47 @@
+{
+  "all_pass": true,
+  "analytic_theorems_recorded_not_mechanized": [
+    "global_hyperbolicity_conformal_transfer",
+    "all_null_geodesic_integral_iff_criterion",
+    "global_lower_bound_sufficient_for_null_completeness"
+  ],
+  "assertions": 27,
+  "checks": {
+    "G205_radial_null_affine_r": true,
+    "G205_radial_null_norm": true,
+    "affine_rescaling_cancellation_0": true,
+    "affine_rescaling_cancellation_1": true,
+    "affine_rescaling_cancellation_2": true,
+    "affine_rescaling_cancellation_3": true,
+    "angular_center_zero": true,
+    "angular_linear_in_u": true,
+    "angular_lower_endpoint": true,
+    "angular_upper_endpoint": true,
+    "causal_sign_scale": true,
+    "completed_Phi_shift": true,
+    "completed_product_base": true,
+    "completed_product_scaled": true,
+    "connection_contraction_0": true,
+    "connection_contraction_1": true,
+    "connection_contraction_2": true,
+    "connection_contraction_3": true,
+    "control_phi_ratio_invariant": true,
+    "gaussian_affine_integral": true,
+    "gaussian_affine_integral_finite": true,
+    "pair_L2_scale": true,
+    "pair_T2_scale": true,
+    "pair_beta_invariant": true,
+    "pair_det_scale": true,
+    "pair_m2_scale": true,
+    "physical_ruler_square_scale": true
+  },
+  "landing": "CONFORMAL_COMMON_SCALE_PRESERVES_G205_CAUSAL_ORDER_AND_GLOBAL_HYPERBOLICITY__NULL_COMPLETENESS_IFF_THE_CONFORMAL_AFFINE_WEIGHT_DIVERGES__BOUNDED_LIVE_NONSPHERICAL_SCALES_SURVIVE_WHILE_SMOOTH_DECAYING_SCALE_CAN_DESTROY_NULL_COMPLETENESS__COMPLETED_PAIR_PHI_SHIFTS_BY_MINUS_OMEGA_PULLBACK__NO_PHYSICAL_OMEGA_HISTORY_OR_XMAX_SELECTION",
+  "mechanized_scope": [
+    "pair_pullback_and_completed_readout_scaling",
+    "conformal_connection_null_contraction",
+    "affine_rescaling_power",
+    "G205_radial_null_identity",
+    "bounded_nonspherical_witness_algebra",
+    "failing_witness_gaussian_upper_bound"
+  ]
+}

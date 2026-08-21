@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G205. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G206. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -39,17 +39,12 @@ G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen
 `CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
 on that primary metric, both normalized future radial null germs are affine, share
 `Z=sqrt(f_o/f_s)=exp(phi_s-phi_o)`, carry parallel angular screens, have zero radial optical tide
-despite generically nonzero ambient curvature, and give `D=lambda I`.
+despite nonzero ambient curvature, and give `D=lambda I`.
 
-G200 turns on the primary metric's nonradial angular response for both reversed germs. At the same
-event they have one frequency law and one diagonal tidal matrix. Their common vertex distortion
-first appears at cubic order; the first possible difference is quartic,
-`D_A,+-D_A,-=-(q_o partial_r T_A)_o lambda^4/6+O(lambda^5)`, because they sample opposite radial
-directions of the same supplied metric history. Exact symbolic reconstruction passes 64 assertions;
-an independent exact-Fraction third-jet replay passes 2,000 cases and 38,160 assertions. Therefore
-there is no native chiral loud/quiet switch: direction chooses which radial regime is sampled, while
-the supplied regime controls magnitude. The G196/G198 result remains a chosen complete-coframe
-control, and the two-ray off-ray reconstruction ceiling remains.
+G200 turns on both reversed primary nonradial responses. They share the local frequency and tide;
+their first finite difference is quartic radial-gradient sampling of one supplied history. There is
+no native chiral loud/quiet switch: direction samples the regime, which controls magnitude. G196/G198
+remain chosen-family controls, and the two-ray off-ray reconstruction ceiling remains.
 
 G201 rewrites the exact primary nonradial tides using `p=r phi'` and `q=r^2 phi''`:
 `A_parallel=exp(-2phi)(2p^2+p-q)` and `A_perp=1-exp(-2phi)(1+p)`. Thus reciprocal depth has a
@@ -67,6 +62,14 @@ hyperbolic. Circular null orbits have exact zero/one/two strata across `a_crit(n
 the inner orbit is stable and the outer unstable. External review retained these analytic theorems;
 finite scripts verify only the algebraic core. No parameter, profile, physical history, maximal
 extension, event horizon, or `X_max` is selected.
+
+G206 applies arbitrary smooth positive live/nonspherical common scale
+`g_tilde=exp(2 Omega)g205`. Causal curves and global hyperbolicity survive. Null completeness is
+exactly divergence of `integral exp(2 Omega)d lambda` at both ends: a bounded quadrupolar witness
+survives; a smooth decaying witness fails while staying globally hyperbolic. On completed pairs,
+`omega=Omega composed F` and `Phi_tilde=Phi-omega`. External review found no mathematical error.
+This classifies supplied extensions; it selects no `Omega`, history, or `X_max`. Timelike/spacelike
+completeness and trace-free screen/mixing remain open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -106,7 +109,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G205 closes bounded static-spherical geodesic and causal completion. Next PONDER a metric-led
-nonspherical/time-live extension. Do not fit, identify the outer limit with `X_max`, select
-transfer, derive a metric by template, or use G116/G189 as construction inputs.
+G206 closes the common-conformal time-live/nonspherical robustness tile. Next PONDER the smallest
+metric-led trace-free screen or mixing extension and preregister its causal, affine, and completed-
+pair gates. Do not fit, identify any limit with `X_max`, select transfer, derive a metric by
+template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

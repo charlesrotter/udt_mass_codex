@@ -1,0 +1,15 @@
+{
+  "all_pass": true,
+  "assertions": 160006,
+  "cases": 10000,
+  "distinct_cases": 10000,
+  "method": "independent_direct_radial_coordinate_geodesic_plus_exact_rational_pair_affine_and_witness_algebraic_core",
+  "not_independently_verified_here": [
+    "global_hyperbolicity_conformal_transfer",
+    "all_null_geodesic_integral_iff_criterion",
+    "timelike_or_spacelike_completeness",
+    "physical_Omega_selection"
+  ],
+  "production_artifact_read": false,
+  "production_imported": false
+}

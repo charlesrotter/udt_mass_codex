@@ -70,8 +70,14 @@ physical scalar after the working premise. They must not be conflated.
 - G205 proves that exact supplied family fully geodesically complete and globally hyperbolic on
   declared `R x R3`. Its null circular orbits have exact subcritical/critical/supercritical strata.
   These are analytic theorems; finite replays independently certify only the algebraic core.
+- G206 turns on arbitrary smooth time-live/nonspherical common scale through
+  `g_tilde=exp(2 Omega)g205`. It preserves causal order and global hyperbolicity, while null
+  completeness is exactly the weighted-affine-integral condition. Completed-pair depth changes by
+  minus the pair pullback of `Omega`. The class is an externally verified conditional evaluator,
+  not a physical `Omega` or `X_max` selection.
 
-Current structural package: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`.
+Current structural package:
+`udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -102,5 +108,7 @@ contractions.
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. Quiet overlap, its descriptors, and the bounded smooth-center/outer
 asymptotic alternatives are exact; G205 closes their static-spherical geodesic/causal completion.
-Their values remain unselected. Next PONDER a metric-led nonspherical/time-live extension. Do not fit, invent channel
-coefficients, identify the outer limit with `X_max`, select transfer, or use G116/G189 as inputs.
+G206 closes the common-conformal live/nonspherical robustness tile without selecting `Omega`.
+Their values remain unselected. Next PONDER the smallest metric-led trace-free screen or mixing
+extension. Do not fit, invent channel coefficients, identify any limit with `X_max`, select
+transfer, or use G116/G189 as inputs.

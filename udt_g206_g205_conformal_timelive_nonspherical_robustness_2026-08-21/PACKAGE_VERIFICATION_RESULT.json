@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "diagnostic_precision_digits": 160,
+  "distinct_cases": 10000,
+  "external_adversarial_review": "VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 160006,
+  "independent_cases": 10000,
+  "live_source_hash_check": "SEPARATE_REPOSITORY_CONTEXT_GATE",
+  "live_source_hashes_recorded": 7,
+  "mutation_catches": 19,
+  "no_write_replay": true,
+  "production_assertions": 27,
+  "provenance_manifest_rows": 7
+}

@@ -34,6 +34,7 @@
 | G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
 | G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the monotone log extension; an infinite even-areal trough/asymptote family survives without parameter selection |
 | G205 geodesic/causal completion audit | externally verified with caveats | The supplied family is fully geodesically complete and globally hyperbolic; exact null-trapping strata do not select parameters or `X_max` |
+| G206 conformal live extension | externally verified with caveats | Causality survives; null completeness uses the affine-weight test; completed `Phi` hears pair-pulled scale; no `Omega` or `X_max` selection |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -64,7 +65,9 @@ None selects completion or `X_max`.
   differences arise by radial sampling; G201 permits non-lockstep volumes, G202 makes quiet overlap
   exact, G203 separates invariant profile descriptors from numerical selection, and G204 adds the
   bounded smooth-center/outer-asymptotic alternatives. G205 proves their declared static-spherical
-  geodesic/causal completion. Population, transfer, profile ownership, maximal extension, and
+  geodesic/causal completion. G206 then proves the common-conformal time-live/nonspherical causal
+  and null-affine classification, including its completed-pair response. Population, transfer,
+  profile/common-scale ownership, trace-free screen/mixing extension, maximal extension, and
   nonspherical/global realization stay open.
 
 ## Carrier, action, source, and matter
@@ -100,7 +103,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 189-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 190-row authority. On conflict, stop.
 
 Run:
 
