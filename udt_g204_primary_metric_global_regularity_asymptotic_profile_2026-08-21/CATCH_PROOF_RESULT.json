@@ -1,0 +1,19 @@
+{
+  "all_pass": true,
+  "catches": {
+    "angular_curvature_term_not_dropped": true,
+    "bounded_curvature_not_full_center_smoothness": true,
+    "center_regularity_not_field_equation": true,
+    "curvature_zero_not_standard_flat_asymptotics": true,
+    "finite_distance_needs_curvature_for_singularity": true,
+    "global_gate_does_not_select_parameters": true,
+    "inner_branch_not_monotone": true,
+    "log_center_not_regular": true,
+    "outer_limit_not_horizon_theorem": true,
+    "outer_limit_not_xmax": true,
+    "regular_control_not_selected_profile": true,
+    "repair_witness_not_hidden": true,
+    "static_slice_not_general_time_live_theory": true
+  },
+  "caught": 13
+}

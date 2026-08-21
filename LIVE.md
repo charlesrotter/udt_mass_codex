@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G203. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G204. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -34,7 +34,7 @@ parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, non
 G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`.
+Current structural result: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`.
 G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
 `CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
 on that primary metric, both normalized future radial null germs are affine, share
@@ -60,13 +60,15 @@ Independent exact replay passes 10,000 arbitrary jets, 1,000 cancellation cases,
 controls, and 23,606 assertions. This proves lawful regime-dependent instrument ratios, not a
 selected physical profile or universal response score.
 
-G202 derives quiet overlap as `phi=phi_s=phi_ss=0`; an analytic sign crossing starts at odd order at
-least three, and finite anchors do not select an unrestricted profile. G203 removes the remaining
-chart ambiguity: the order is a germ invariant, the quiet location is a spherical-orbit area, and
-the leading steepness is a dimensionless log-areal jet after founded depth calibration. Exact
-counterfamilies for every odd order at least three, positive quiet radius, and positive steepness
-prove that the founded law selects none of their values. Reversal does not force global radial
-oddness. Independent exact replay passes 20,000 distinct cases and 280,011 assertions.
+G202--G203 derive quiet overlap and show that its odd crossing order, orbit area, and log-areal
+steepness are invariant descriptors whose values remain unselected. G204 adds global
+static-spherical regularity. The monotone two-sided log profile is center-singular; a smooth center
+forces `phi=O(r^2)`. An exact even-areal family survives for every odd order, positive quiet radius,
+and positive steepness: it has one finite negative inner trough, returns through the quiet crossing,
+and grows to a curvature-decaying outer reciprocal asymptote. The first repair failed smoothness and
+was replaced only after explicit correction preregistration. Direct reconstruction passes 113
+assertions; independent exact replay passes 10,000 distinct cases and 160,010 assertions. The outer
+limit is not standard asymptotic flatness, a horizon, wall, completion, or `X_max`.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -106,7 +108,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G203 closes local descriptor ownership. Next MAP whether global primary-metric regularity and
-asymptotics restrict the profile family before any empirical calibration. Do not fit, insert
-`X_max`, select transfer, derive a time-live metric by template, or use G116/G189 as construction inputs.
+G204 closes the bounded static-spherical center/asymptotic classification. Next PONDER whether to
+test full geodesic/causal completion of the surviving family or extend beyond static spherical
+geometry. Do not fit, identify the outer limit with `X_max`, select transfer, derive a time-live
+metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

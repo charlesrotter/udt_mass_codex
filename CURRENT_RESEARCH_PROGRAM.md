@@ -63,8 +63,12 @@ physical scalar after the working premise. They must not be conflated.
   extra mass/density dimension needed to form a candidate scale from `c_E,G_obs`.
 - G203 proves crossing order, quiet-orbit area, and leading log-areal steepness are invariant metric
   descriptors after calibration, while the founded law does not select their values.
+- G204 proves the monotone log-profile extension is center-singular, derives `phi=O(r^2)` as a
+  necessary smooth-center condition, and supplies an infinite even-areal family with one finite
+  inner trough and a curvature-decaying outer reciprocal asymptote. Regularity does not select its
+  order, radius, steepness, completion, or `X_max`.
 
-Current structural package: `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`.
+Current structural package: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -93,7 +97,7 @@ numerical IVP legs are formula-level regression evidence; G193--G196 contain the
 contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
-volumes need not be lockstep. Quiet overlap and its local descriptors are now exact. Their values
-remain unselected. Next MAP whether global primary-metric regularity and asymptotics further restrict
-the descriptor family before any empirical calibration. Do not fit, invent channel coefficients,
-insert `X_max`, select transfer, or use G116/G189 as inputs.
+volumes need not be lockstep. Quiet overlap, its descriptors, and the bounded smooth-center/outer
+asymptotic alternatives are now exact. Their values and completion remain unselected. Next PONDER
+full geodesic/causal completion versus nonspherical extension. Do not fit, invent channel
+coefficients, identify the outer limit with `X_max`, select transfer, or use G116/G189 as inputs.

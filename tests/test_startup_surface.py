@@ -74,6 +74,7 @@ CURRENT_TARGETS = (
     "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/AUDIT_REPORT.md",
     "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/AUDIT_REPORT.md",
     "udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/AUDIT_REPORT.md",
+    "udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/AUDIT_REPORT.md",
 )
 
 
@@ -138,7 +139,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 187-row premise registry" in result.stdout
+    assert "PASS: 188-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
@@ -182,7 +183,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G203", "G196", "G197", "G198", "G199", "G200", "G201", "G202", "G203"))
+@pytest.mark.parametrize("token", ("G166--G204", "G196", "G197", "G198", "G199", "G200", "G201", "G202", "G203", "G204"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")

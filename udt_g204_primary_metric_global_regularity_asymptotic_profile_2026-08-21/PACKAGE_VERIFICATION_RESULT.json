@@ -1,0 +1,12 @@
+{
+  "all_pass": true,
+  "diagnostic_precision_digits": 80,
+  "distinct_cases": 10000,
+  "independent_assertions": 160010,
+  "independent_cases": 10000,
+  "mutation_catches": 13,
+  "no_write_replay": true,
+  "production_assertions": 113,
+  "repair_preregistered": true,
+  "source_hashes": 7
+}

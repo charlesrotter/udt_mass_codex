@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-21
 
-G166--G203 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G204 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -36,10 +36,11 @@ G201 classifies the regime magnitude directly in the primary metric. With `p=r p
 either signed `phi` extreme. The reciprocal block still has an even two-sided algebraic contrast.
 Therefore native instrument ratios may change by regime; no lockstep loudness score is derived.
 
-G202 makes quiet overlap exact: `phi=phi_s=phi_ss=0`, with odd analytic order at least three; finite
-anchors do not select an unrestricted profile. G203 shows order, quiet-orbit area, and leading
-log-areal steepness are genuine metric descriptors after calibration, but the founded law selects
-none of their values. Reversal does not force global radial oddness.
+G202--G203 make quiet overlap exact and type its invariant descriptors without selecting their
+values. G204 proves the monotone two-sided log extension is center-singular and that a smooth center
+requires `phi=O(r^2)`. A preregistered even-areal repair gives an infinite exact family with one
+finite negative inner trough, the retained quiet crossing, and a curvature-decaying outer
+reciprocal asymptote. It does not select order, radius, steepness, completion, or `X_max`.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -65,9 +66,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G203 closes local descriptor ownership. Next test whether global primary-metric regularity and
-asymptotics restrict the family. Do not fit, activate arbitrary coframe terms, insert `X_max`, select
-transfer, or use G116/G189 as construction inputs. The physical carrier/`O(2)`,
+G204 closes the bounded static-spherical center/asymptotic classification. Next ponder full
+geodesic/causal completion versus a nonspherical extension. Do not fit, activate arbitrary coframe
+terms, identify the outer limit with `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

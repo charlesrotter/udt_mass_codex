@@ -1,0 +1,11 @@
+id	status	detail
+S01	DERIVED	K equals f double prime squared plus four f prime over r squared plus four one minus f over r2 squared
+S02	DERIVED_CONDITIONAL	bounded center curvature forces f equals one plus O r2 and phi equals O r2
+S03	DERIVED	global log-monomial controls have finite-affine curvature-singular centers
+S04	FAILED_CLOSED	first bounded-curvature replacement is not Cartesian smooth
+S05	POST_FAILURE_PREREGISTERED_REPAIR_PASS	even-areal family is analytic in r2 and has finite center curvature
+S06	DERIVED_WITHIN_REPAIR	quiet leading order and coefficient retained exactly
+S07	DERIVED_WITHIN_REPAIR	one negative inner trough at r over r0 equals one over sqrt n plus one
+S08	DERIVED_WITHIN_CONTROLS	outer K tends to zero at infinite spatial and null-affine reach
+S09	OPEN	outer boundary type and global completion
+S10	NOT_SELECTED	n r0 a global profile Xmax transfer and downstream physics

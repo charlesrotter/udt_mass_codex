@@ -1,0 +1,10 @@
+{
+  "all_pass": true,
+  "assertions": 160010,
+  "cases": 10000,
+  "distinct_cases": 10000,
+  "method": "exact_rational_profile_jets_plus_orthonormal_sectional_curvature_sum",
+  "production_artifact_read": false,
+  "production_imported": false,
+  "source_hashes": 7
+}

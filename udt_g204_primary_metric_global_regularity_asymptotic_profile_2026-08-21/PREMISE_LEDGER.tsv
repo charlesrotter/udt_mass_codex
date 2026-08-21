@@ -1,0 +1,13 @@
+object	status	role
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	supplies f curvature and areal radius
+full_metric_curvature	DERIVED	standard Levi-Civita evaluation of supplied metric
+bounded_center_curvature	CONDITIONAL_GLOBAL_REGULARITY_GATE	forces f equals one plus O r2
+smooth_cartesian_center	CONDITIONAL_GLOBAL_REGULARITY_GATE	requires analytic even-areal dependence in registered control
+log_monomial_control	FREE_AND_EXPLORED	center-singular countercontrol
+first_x2_xminus1_control	FAILED_SMOOTHNESS__CENTER_CURVATURE_BOUNDED_ONLY	preserved repair ledger
+even_areal_control	POST_FAILURE_PREREGISTERED_REPAIR_WITNESS	exact smooth-center survivor family; not selected
+inner_trough	DERIVED_WITHIN_REPAIR_WITNESS	minimum at r over r0 equals one over sqrt n plus one
+outer_curvature_decay	DERIVED_WITHIN_CONTROLS	K tends to zero at infinite distance
+outer_boundary_interpretation	OPEN	not Xmax horizon wall or completion
+n_r0_a	INVARIANT_VALUES_OPEN	global regularity does not select them
+transfer_action_source_matter_bootstrap	OPEN_OR_OMITTED	outside bounded theorem

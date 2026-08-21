@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G203",
+            "G166--G204",
             "G196",
             "G197",
             "G198",
@@ -171,6 +171,7 @@ def validate_startup_surface(root: Path) -> None:
             "G201",
             "G202",
             "G203",
+            "G204",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -224,7 +225,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "187-row exact registry",
+            "188-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -257,7 +258,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/",
             "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/",
             "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/",
-            "udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/",
+            "udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -268,7 +269,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G203",
+            "G166--G204",
             "G197",
             "G198",
             "G199",
@@ -276,6 +277,7 @@ def validate_startup_surface(root: Path) -> None:
             "G201",
             "G202",
             "G203",
+            "G204",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -297,6 +299,7 @@ def validate_startup_surface(root: Path) -> None:
             "G201",
             "G202",
             "G203",
+            "G204",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -317,10 +320,11 @@ def validate_startup_surface(root: Path) -> None:
             "G201",
             "G202",
             "G203",
+            "G204",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "187-row",
+            "188-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -580,9 +584,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 187, "premise registry must contain exactly 187 rows")
+    require(len(rows) == 188, "premise registry must contain exactly 188 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 187, "duplicate premise id")
+    require(len(by_id) == 188, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -938,6 +942,62 @@ def main() -> None:
     require(g203_package["distinct_cases"] == 20000, "G203 distinct-case count changed")
     require(g203_package["mutation_catches"] == 10, "G203 hostile count changed")
     require(g203_package["source_hashes"] == 8, "G203 source count changed")
+    require(
+        by_id["G204"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_EA91F45E"
+        ),
+        "G204 bounded grade changed or promoted",
+    )
+    for guard in (
+        "POST_FAILURE_REPAIR_PREREGISTERED_AT_785B0447",
+        "ORIGINAL_X2_XMINUS1N_CONTROL_CENTER_CURVATURE_BOUNDED_NOT_CARTESIAN_SMOOTH",
+        "BOUNDED_CENTER_K_FORCES_PHI_O_R2",
+        "LOG_MONOMIAL_CENTER_CURVATURE_SINGULAR_AT_FINITE_AFFINE_REACH",
+        "EVEN_AREAL_REPAIR_ANALYTIC_IN_R2",
+        "ONE_NEGATIVE_INNER_TROUGH_AT_R_OVER_R0_EQUALS_ONE_OVER_SQRT_NPLUS1",
+        "QUIET_CROSSING_AND_LEADING_STEEPNESS_RETAINED",
+        "OUTER_K_TENDS_ZERO_AT_INFINITE_SPATIAL_AND_NULL_AFFINE_REACH",
+        "NOT_STANDARD_ASYMPTOTIC_FLATNESS_HORIZON_WALL_XMAX_OR_COMPLETION",
+        "GLOBAL_REGULARITY_DOES_NOT_SELECT_N_R0_A_OR_PROFILE",
+        "NO_FIT_TRANSFER_SOURCE_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G204"]["current_status"], f"G204 guard absent: {guard}")
+    require(
+        by_id["G204"]["active_use"]
+        == "ACTIVE_BOUNDED_PRIMARY_STATIC_SPHERICAL_POSITIVE_AREAL_CENTER_CURVATURE_SMOOTHNESS_REGISTERED_PROFILE_AND_OUTER_ASYMPTOTIC_CLASSIFICATION_ONLY",
+        "G204 active scope widened",
+    )
+    require(
+        by_id["G204"]["controlling_source"]
+        == "udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/AUDIT_REPORT.md",
+        "G204 controlling source changed",
+    )
+    g204 = ROOT / "udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "BOUNDARY_DIAGNOSTICS.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "CORRECTION_PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g204 / name).is_file(), f"G204 evidence missing: {name}")
+    g204_package = json.loads((g204 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g204_package["all_pass"] is True, "G204 package verification failed")
+    require(g204_package["no_write_replay"] is True, "G204 no-write replay absent")
+    require(g204_package["repair_preregistered"] is True, "G204 repair preregistration absent")
+    require(g204_package["production_assertions"] == 113, "G204 production count changed")
+    require(g204_package["independent_assertions"] == 160010, "G204 assertion count changed")
+    require(g204_package["independent_cases"] == 10000, "G204 case count changed")
+    require(g204_package["distinct_cases"] == 10000, "G204 distinct-case count changed")
+    require(g204_package["diagnostic_precision_digits"] == 80, "G204 diagnostic precision changed")
+    require(g204_package["mutation_catches"] == 13, "G204 hostile count changed")
+    require(g204_package["source_hashes"] == 7, "G204 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5154,7 +5214,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G203-extended premise guards; PASS: 187-row premise "
+        "PASS: G204-extended premise guards; PASS: 188-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
