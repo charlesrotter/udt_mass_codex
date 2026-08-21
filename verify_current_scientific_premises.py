@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import json
 import re
 from pathlib import Path
 
@@ -222,6 +223,7 @@ def validate_startup_surface(root: Path) -> None:
             "G193",
             "G194",
             "G195",
+            "G196",
             "physical carrier",
             "O(2)",
             "lambda",
@@ -263,7 +265,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "180-row exact registry",
+            "181-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -383,6 +385,7 @@ def validate_startup_surface(root: Path) -> None:
             "G193",
             "G194",
             "G195",
+            "G196",
             "bivector area bilinear",
             "numerical/global valuation",
             "R2--R5",
@@ -438,6 +441,7 @@ def validate_startup_surface(root: Path) -> None:
             "G193",
             "G194",
             "G195",
+            "G196",
             "rank ten",
             "positive conformal class",
             "common-scale ownership",
@@ -486,10 +490,11 @@ def validate_startup_surface(root: Path) -> None:
             "G193",
             "G194",
             "G195",
+            "G196",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "180-row",
+            "181-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -749,9 +754,39 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 180, "premise registry must contain exactly 180 rows")
+    require(len(rows) == 181, "premise registry must contain exactly 181 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 180, "duplicate premise id")
+    require(len(by_id) == 181, "duplicate premise id")
+    require(
+        by_id["G196"]["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS_PENDING_EXTERNAL_REVIEW__PREREGISTERED"
+        ),
+        "G196 internal bounded grade changed",
+    )
+    for guard in (
+        "ARBITRARY_REAL_C2_M_OF_ETA_Z_IN_DECLARED_AFFINE_FAMILY",
+        "CENTRAL_OUTGOING_GERM_SELECTS_DPLUS_EQUALS_PARTIAL_ETA_PLUS_PARTIAL_Z",
+        "ORDERED_FACTORIZATION_AND_POSITIVE_GRAM_NO_NONVERTEX_CAUSTIC_SURVIVE",
+        "SAME_RAY_ALIAS_PROVES_ONE_GERM_DOES_NOT_RECONSTRUCT_OFF_RAY_FIELD",
+        "NO_P1_G116_G189_XMAX_TRANSFER_SOURCE_FIT_OR_POST_READOUT_ORCHESTRA",
+    ):
+        require(guard in by_id["G196"]["current_status"], f"G196 guard absent: {guard}")
+    g196 = ROOT / "udt_g196_longitudinal_screen_mixing_descent_2026-08-20"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g196 / name).is_file(), f"G196 evidence missing: {name}")
+    g196_package = json.loads((g196 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g196_package["status"] == "PASS", "G196 package verification failed")
+    require(g196_package["independent_histories"] == 204, "G196 history count changed")
+    require(g196_package["independent_assertions"] == 5313, "G196 assertion count changed")
+    require(g196_package["mutation_catches"] == 9, "G196 hostile count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -4976,7 +5011,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G195-extended premise guards; PASS: 180-row premise "
+        "PASS: G196-extended premise guards; PASS: 181-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

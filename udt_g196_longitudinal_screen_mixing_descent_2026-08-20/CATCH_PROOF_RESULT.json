@@ -1,0 +1,28 @@
+{
+  "alias_off_ray_difference": "126/3125",
+  "catch_count": 9,
+  "catches": {
+    "commuting_exponential": true,
+    "drop_partial_z": true,
+    "force_symmetric_mixing": true,
+    "one_ray_equality_as_global": true,
+    "reverse_factor_order": true,
+    "reverse_null_derivative": true,
+    "rotation_as_independent_focusing": true,
+    "sampled_positivity_as_proof": true,
+    "wrong_connection_sign": true
+  },
+  "caught_count": 9,
+  "commutator": [
+    [
+      "1",
+      "1"
+    ],
+    [
+      "-1",
+      "-1"
+    ]
+  ],
+  "landing": "ALL_PREREGISTERED_HOSTILE_MUTATIONS_CAUGHT",
+  "status": "PASS"
+}

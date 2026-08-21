@@ -18,7 +18,7 @@
 - G134 area faithfulness: `udt_g134_full_metric_area_history_reframe_audit_2026-08-17/`
 - G135 projective pair-separation constitution: `udt_g135_projective_pair_separation_constitution_audit_2026-08-17/`
 - G136 continuous position classification: `udt_g136_copresent_projective_distance_constitution_2026-08-17/`
-- G137--G195 relational closure and first application chain:
+- G137--G196 relational closure and first application chain:
   `udt_g137_copresent_relational_position_join_2026-08-17/`; `udt_g138_copresent_relational_position_network_descent_2026-08-17/`;
   `udt_g139_endpoint_position_transport_join_2026-08-17/`; `udt_g140_rank_complete_atlas_positional_congruence_2026-08-17/`;
   `udt_g141_endpoint_triangular_transition_inverse_join_2026-08-17/`; `udt_g142_abstract_carrier_physical_carry_join_2026-08-17/`;
@@ -53,23 +53,25 @@
   `udt_g187_nonradial_finite_jacobi_screen_propagation_2026-08-20/`; `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`;
   `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`;
   `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`; `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`;
-  `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`; `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`
+  `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`; `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`;
+  `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
 G140--G165 control carry, scale, transport, `X_max`, and scaffolds. G166--G171 derive the primary
 pair pullback, supplied-germ plane, reversal, and pair-relative network. G172--G180 control turns,
 calibration, normalization, coframes, and smooth families. G181--G189 classify branches and radial
 applications. G190 derives the time-live frequency/screen join; G191 supplies one nonconformal
 witness; G192 classifies a rank-one family; G193 adds noncommutativity; G194 closes arbitrary
-smooth symmetric mixing; G195 closes arbitrary smooth real `2 x 2` mixing in the displayed
-time-dependent central family. Reviews accept with caveats; spatial dependence and other germs remain open.
+smooth symmetric mixing; G195 closes arbitrary smooth real `2 x 2` time-dependent mixing; G196
+adds longitudinal `M(eta,z)` descent through `D_plus` on one outgoing germ. G195 reviews accept with
+caveats; G196 external review and other germs remain open.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-G93--G128: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; the 180-row registry controls.
+G93--G128: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; the 181-row registry controls.
 ## Observational lane
-- `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`; `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`; `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`;
+- `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`; `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`; `udt_g194_general_symmetric_screen_mixing_closure_2026-08-20/`; `udt_g193_noncommuting_transverse_mixing_extension_2026-08-20/`;
   `udt_g192_smooth_timelive_mixing_family_classification_2026-08-20/`; `udt_g191_nonconformal_timelive_mixing_join_2026-08-20/`;
   `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`; `udt_g189_p1_free_metric_flux_interface_2026-08-20/`;
   `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`; `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

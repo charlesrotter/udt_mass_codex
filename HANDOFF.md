@@ -33,17 +33,20 @@ polar rotation. Reviews accept with caveats.
 G194 closes arbitrary smooth symmetric `M`. G195 adds arbitrary antisymmetric rotation and closes
 arbitrary smooth real `M=S+Omega` in the displayed time-dependent affine family. Rotation is screen
 connection carry, not an independent area-focusing term; factorization and the exact scoped
-no-caustic proof survive. Fresh review and the R1 retry accept with caveats.
+no-caustic proof survive. Fresh review and the R1 retry accept with caveats. G196 extends the same
+family to arbitrary smooth `M(eta,z)` on the supplied outgoing germ. The metric selects
+`D_plus=partial_eta+partial_z`; factorization and the Gram proof survive. Internal exact and
+independent gates pass; external review is pending. One ray does not reconstruct off-ray structure.
 
-G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G195 build,
+G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 remove `X_max`; G164--G196 build,
 test, and extend the scaffold-free kernel. `INDEX.md` lists milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
 `G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
-`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; rank ten, conformal,
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195,G196`; rank ten, conformal,
 density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 
-Open G195 first, then G194--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
+Open G196 first, then G195--G166 as needed. G163 controls `X_max`; G164--G165 control scaffolds;
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/` is conditional evidence.
 Provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -83,8 +86,8 @@ Directory presence does not prove banking.
 
 ### Next bounded action
 
-Next MAP the smallest extension beyond G195's time-dependent central affine family—spatial
-dependence versus another germ—before choosing one bounded failure-boundary derivation. Stay
-metric-led; do not fit a profile, insert `X_max`, select transfer, or use G116/G189.
+After G196 external review, MAP a second/opposite supplied germ or minimal multidirectional network
+to test whether several directional restrictions constrain the surrounding field. Stay metric-led;
+do not fit a profile, insert `X_max`, select transfer, or use G116/G189.
 
 <!-- STARTUP_CURRENT_END -->

@@ -30,7 +30,10 @@ arbitrary symmetric `M`, retaining ordered factorization and the positive-Gram s
 proof amid turns, `mu',mu^2`, noncommutation, sign-variable response, and finite rotation. G195 adds
 antisymmetric rotation, closing arbitrary smooth real `M=S+Omega` in the displayed time-dependent
 affine family and supplied central germ. Rotation is covariant screen carry, not an independent
-`R'` or `R^2` tide. External R1 accepts with caveats.
+`R'` or `R^2` tide. External R1 accepts with caveats. G196 extends that displayed family to
+arbitrary `M(eta,z)` on the supplied outgoing germ. The full metric selects
+`D_plus=partial_eta+partial_z`; ordered factorization and the scoped Gram sign theorem survive.
+Internal exact, independent, and hostile gates pass; external review is pending.
 
 ## Controlling local evaluator
 
@@ -63,7 +66,8 @@ resolves one local nonradial scalar/tape/shift/screen split; G187 propagates tha
 finite two-mode Jacobi map; G188 derives the general complete-metric matrix evaluator; G189 closes
 the bounded static metric-to-flux interface and rejects one provisional `R proportional chi` join;
 G190 derives the time-live parametric frequency/screen evaluator from the completed pair; G191
-verifies one exact live-mixing realization; G192--G195 classify nested smooth mixing families.
+verifies one exact live-mixing realization; G192--G196 classify nested smooth mixing families and
+the first longitudinal directional descent.
 
 Current structural result: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`.
 Current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`; then
@@ -87,11 +91,12 @@ G184--G166 in `INDEX.md`. Conditional complete evaluator:
   metric matrix propagation with live mixing. G189 then conditionally factors static flux and
   localizes the remaining static profile freedom. G190 replaces the separate `R(Z)` input in the
   native time-live core with one parametric frequency/screen branch. Query population, transfer,
-  branch aggregation, and complete history remain open. G191 is one analytic witness; G192--G195
+  branch aggregation, and complete history remain open. G191 is one analytic witness; G192--G196
   classify nested smooth mixing families without selecting their functions. G195 completes the
-  arbitrary real `2 x 2` time-dependent tile but not spatial dependence or other germs.
+  arbitrary real `2 x 2` time-dependent tile; G196 adds longitudinal dependence on one outgoing
+  germ but not transverse dependence, other directions, or multidirectional reconstruction.
 Guard index: `G129,G134,G135,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; rank ten, positive conformal class, common-scale ownership,
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195,G196`; rank ten, positive conformal class, common-scale ownership,
 bivector area bilinear, physical multidirectional carrier, first-order ceiling, and 184,300 rows.
 
 ## Observational anchors
@@ -104,7 +109,7 @@ G185 preserves the historical P1 SNe reference. G189 makes the current boundary 
 metric-to-flux factorization closes conditionally, but the simplest P1-free static `R proportional
 chi` control is type-invalid at a regular center and data-rejected. Neither result is a branch
 selector or native luminosity theory. G190 supplies the time-live frequency/screen joint before any
-radiative bridge; G192--G195 classify nested smooth families.
+  radiative bridge; G192--G196 classify nested smooth and longitudinal families.
 Existing CMB geometry packages map conditional screen/Jacobi
 response, not an observed spectrum.
 
@@ -128,7 +133,7 @@ response, not an observed spectrum.
 
 ## Bounded next action
 
-G195 closes the adjacent antisymmetric rotation boundary in the displayed time-dependent central
-family. Next MAP whether the smallest honest extension is longitudinal/spatial dependence on the
-same germ or a second supplied germ, then preregister one bounded factorization/caustic failure-
-boundary test. Do not fit histories, insert `X_max`, select transfer, or use G116/G189.
+G196 closes the first longitudinal extension of the displayed affine family on one outgoing germ.
+After external review, next MAP a second/opposite supplied germ or minimal multidirectional network
+and preregister whether its directional restrictions jointly constrain off-ray structure. Do not
+fit histories, insert `X_max`, select transfer, or use G116/G189.

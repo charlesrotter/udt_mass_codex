@@ -18,14 +18,16 @@ screen; mixing creates coefficient-free cross-response. G189 rejects `R=R0 tanh(
 realization. G192--G194 extend it from arbitrary smooth `a>0,mu` through arbitrary symmetric `M`;
 turns, full tide, noncommutation, factorization, scoped noncausticity, sign-variable response, and
 finite rotation occur. G195 adds antisymmetric rotation, closing arbitrary smooth real `M=S+Omega`
-in the displayed time-dependent family; rotation is screen carry. Reviews accept with caveats.
+in the displayed time-dependent family; rotation is screen carry. G196 adds arbitrary longitudinal
+`M(eta,z)` on one outgoing germ; the response uses `D_plus` and retains factorization and scoped
+no-caustics. Internal gates pass; external review is pending.
 
 G129--G145 reconstruct `g`, `chi`, and overlap carry; G146--G163 bound carrier, score, scale, and
-transport freedoms and remove `X_max`; G164--G195 remove scaffolds, build the
+transport freedoms and remove `X_max`; G164--G196 remove scaffolds, build the
 supplied-pair kernel, and test radial/nonradial channels.
 See `INDEX.md` for exact milestones.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
-`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; bivector area bilinear; numerical/global valuation stays open.
+`G163,G165,G166,G167,G168,G170,G171,G172,G173,G174,G175,G176,G177,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195,G196`; bivector area bilinear; numerical/global valuation stays open.
 
 Physical germ/global realization, ambient extension, completion, and `X_max` remain open.
 
@@ -53,7 +55,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-Next map spatial dependence versus another germ as the smallest extension beyond G195, without
+After G196 external review, map a second/opposite germ or minimal multidirectional network, without
 fits, `X_max`, transfer, or G116/G189.
 
 G93--G128 chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.

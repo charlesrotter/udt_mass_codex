@@ -1,0 +1,91 @@
+{
+  "assertions": {
+    "affine_jacobi_reduction": true,
+    "affine_ray": true,
+    "coframe_determinant": true,
+    "coordinate_tide": true,
+    "coordinate_tide_self_adjoint": true,
+    "covariant_factorization": true,
+    "frequency": true,
+    "g195_limit": true,
+    "general_factorization": true,
+    "gram_positive_template": true,
+    "metric_determinant": true,
+    "null_directional_derivative": true,
+    "pair_pullback": true,
+    "pure_rotation_no_tide": true,
+    "screen_connection": true,
+    "screen_connection_skew": true,
+    "screen_orthonormal": true
+  },
+  "caustic_sign": "det(D)>0 off the vertex on every connected regular outgoing-ray interval; the proof uses the positive Gram integrand and det(L)>0",
+  "coordinate_factorization": "(D_plus-2M^T)(D_plus+2M)Y=0",
+  "coordinate_tide": [
+    [
+      "-(4*A(eta, z)**2*a(eta)**2 + 4*N(eta, z)**2*a(eta)**2 - 8*N(eta, z)*R(eta, z)*a(eta)**2 - 2*a(eta)**2*Derivative(A(eta, z), eta) - 2*a(eta)**2*Derivative(A(eta, z), z) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6",
+      "-2*(2*A(eta, z)*N(eta, z) + 2*A(eta, z)*R(eta, z) + 2*B(eta, z)*N(eta, z) - 2*B(eta, z)*R(eta, z) - Derivative(N(eta, z), eta) - Derivative(N(eta, z), z))/a(eta)**4"
+    ],
+    [
+      "-2*(2*A(eta, z)*N(eta, z) + 2*A(eta, z)*R(eta, z) + 2*B(eta, z)*N(eta, z) - 2*B(eta, z)*R(eta, z) - Derivative(N(eta, z), eta) - Derivative(N(eta, z), z))/a(eta)**4",
+      "-(4*B(eta, z)**2*a(eta)**2 + 4*N(eta, z)**2*a(eta)**2 + 8*N(eta, z)*R(eta, z)*a(eta)**2 - 2*a(eta)**2*Derivative(B(eta, z), eta) - 2*a(eta)**2*Derivative(B(eta, z), z) + a(eta)*Derivative(a(eta), (eta, 2)) - 2*Derivative(a(eta), eta)**2)/a(eta)**6"
+    ]
+  ],
+  "det_coframe": "a(eta)**4",
+  "det_metric": "-a(eta)**8",
+  "family": {
+    "coordinates": [
+      "eta",
+      "z",
+      "p",
+      "w"
+    ],
+    "mixing": "M(eta,z) arbitrary real 2x2 C2",
+    "pair": "p=w=0, outgoing +z germ; gamma(s)=(s,s,0,0)",
+    "scale": "a(eta)>0, C3, a(0)=1"
+  },
+  "frequency": "1/a(eta)",
+  "fundamental_representation": "On each outgoing ray, M_bar(s)=M(s+eta0,s+z0); D=a L K, L'=-2 M_bar L, K=int L^-1 L^-T ds",
+  "landing": "NULL_DIRECTIONAL_DESCENT__FACTORIZATION_AND_NO_CAUSTIC_SURVIVE",
+  "mixing_tide": [
+    [
+      "-2*(2*A(eta, z)**2 + 2*N(eta, z)**2 - 4*N(eta, z)*R(eta, z) - Derivative(A(eta, z), eta) - Derivative(A(eta, z), z))",
+      "-2*(2*A(eta, z)*N(eta, z) + 2*A(eta, z)*R(eta, z) + 2*B(eta, z)*N(eta, z) - 2*B(eta, z)*R(eta, z) - Derivative(N(eta, z), eta) - Derivative(N(eta, z), z))"
+    ],
+    [
+      "-2*(2*A(eta, z)*N(eta, z) + 2*A(eta, z)*R(eta, z) + 2*B(eta, z)*N(eta, z) - 2*B(eta, z)*R(eta, z) - Derivative(N(eta, z), eta) - Derivative(N(eta, z), z))",
+      "-2*(2*B(eta, z)**2 + 2*N(eta, z)**2 + 4*N(eta, z)*R(eta, z) - Derivative(B(eta, z), eta) - Derivative(B(eta, z), z))"
+    ]
+  ],
+  "null_derivative": "D_plus=partial_eta+partial_z",
+  "pair_metric": [
+    [
+      "-a(eta)**2",
+      "0"
+    ],
+    [
+      "0",
+      "a(eta)**2"
+    ]
+  ],
+  "screen_connection_lambda": [
+    [
+      "0",
+      "2*R(eta, z)/a(eta)**2"
+    ],
+    [
+      "-2*R(eta, z)/a(eta)**2",
+      "0"
+    ]
+  ],
+  "screen_connection_s": [
+    [
+      "0",
+      "2*R(eta, z)"
+    ],
+    [
+      "-2*R(eta, z)",
+      "0"
+    ]
+  ],
+  "status": "PASS"
+}

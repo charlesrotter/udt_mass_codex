@@ -1,0 +1,17 @@
+{
+  "fresh_artifact_identity": true,
+  "grade": "VERIFIED_WITH_CAVEATS_PENDING_EXTERNAL_REVIEW",
+  "independent_assertions": 5313,
+  "independent_histories": 204,
+  "maximum_factorization_error": 1.5420713317393364e-11,
+  "maximum_screen_connection_error": 2.220446049250313e-16,
+  "maximum_tide_error": 8.881784197001252e-16,
+  "minimum_sampled_nonvertex_determinant": 0.00017099989610881957,
+  "mutation_catches": 9,
+  "no_write_replay": false,
+  "production_assertions": 17,
+  "repository_premise_gate": "PASS_RECORDED_SEPARATELY",
+  "source_rows": 8,
+  "stale_artifact_mutation_caught": true,
+  "status": "PASS"
+}

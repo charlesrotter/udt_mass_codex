@@ -38,30 +38,35 @@ factorization and a positive-Gram proof retain scoped noncausticity while turns,
 noncommutation, cross-response, and finite polar rotation occur. G195 adds antisymmetric rotation,
 closing arbitrary smooth real `2 x 2` `M=S+Omega` in the displayed time-dependent affine family.
 Rotation is Levi-Civita screen carry: it rotates parallel strain but supplies no independent `R'` or
-`R^2` tide. Factorization, scoped no-caustic proof, and external R1 replay pass with caveats.
+`R^2` tide. Factorization, scoped no-caustic proof, and external R1 replay pass with caveats. G196
+extends that displayed family to arbitrary smooth `M(eta,z)` on the same supplied central outgoing
+germ. Direct metric reconstruction selects `D_plus=partial_eta+partial_z`; factorization and the
+Gram sign proof survive. The 204-history independent replay and 9 hostile catches pass; external
+review is pending. One germ restricts the field along its ray but does not reconstruct off-ray data.
 
 ### Current dependency spine
 
 - **G129 G134--G163.** Reconstruct `g`/`chi`, require overlap carry, bound freedoms, remove `X_max`.
-- **G164--G195.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
+- **G164--G196.** Remove scaffolds; build/glue the pair kernel; classify carry, branches, and
   equivalence; check radial SNe channels; derive bounded nonradial channels and finite Jacobi map.
   Physical pair population, transfer, branch aggregation, and ambient extension stay open.
 Guard index: `G129,G134,G135,G139,G140,G144,G145,G146,G147,G148,G149,G150,G151,G152,G153,G154,G155,G156,G157,G158,G159,G160,G161,G162`;
 `G163,G165,G166,G167,G168,G169,G170,G171,G172,G173,G174,G175,G176,G177,G178`;
-`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195`; rank ten, conformal,
+`G179,G180,G181,G182,G183,G184,G185,G186,G187,G188,G189,G190,G191,G192,G193,G194,G195,G196`; rank ten, conformal,
 density, bivector area bilinear, codimension eleven;
 physical carrier/`O(2)`, covariant `lambda`, and numerical valuation remain `OPEN`.
 G146 parity-even candidates fail on the registered non-collinear witness.
 
 Maximum conclusion: the primary metric owns its reciprocal kernel on supplied completed pairs.
-G185--G195 extend radial and nonradial channels through the matrix evaluator. G190 joins frequency
+G185--G196 extend radial and nonradial channels through the matrix evaluator. G190 joins frequency
 and area; G191 supplies one live control; G192 classifies its first smooth two-function family;
 G193 proves the factorization survives one genuinely noncommuting symmetric extension; G194 closes
-the symmetric tile; G195 closes arbitrary smooth real `2 x 2` mixing in the same displayed
-time-dependent affine family and supplied central pair. Spatial dependence, transfer, physical
-population/history, other coframe families and germs, global extension, and numerical
+the symmetric tile; G195 closes arbitrary smooth real `2 x 2` time-dependent mixing; G196 shows
+that arbitrary longitudinal dependence in the same displayed family descends through `D_plus` on
+the supplied outgoing pair, while off-ray structure remains unresolved. Transfer, physical
+population/functions, other coframe families and directions, global extension, and numerical
 `X_max` remain open.
-Current structural result: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`;
+Current structural result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`;
 current application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 G163 controls `X_max`; the conditional uncompressed evaluator is
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
@@ -114,10 +119,10 @@ Preserve without staging, modifying, deleting, mining, or citing without a speci
 
 ### Immediate next action
 
-G195 closes arbitrary smooth real `2 x 2` mixing only for one time-dependent affine family and
-supplied central pair. Next MAP the smallest adjacent metric extension—longitudinal/spatial
-dependence versus another germ—then preregister one bounded failure-boundary test. Do not fit a
-history, insert `X_max`, select transfer, or use G116/G189.
+G196 closes longitudinal `M(eta,z)` descent only for one displayed affine family and supplied
+central outgoing pair. After fresh external review, next MAP a second/opposite supplied germ or a
+minimal multidirectional network to test whether directional restrictions jointly constrain the
+surrounding field. Do not fit functions, insert `X_max`, select transfer, or use G116/G189.
 
 ### Archive
 Startup provenance: `archive/startup_surface_2026-08-17_pre_zoomout/`; historical packages remain unchanged.
