@@ -162,10 +162,11 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G198",
+            "G166--G199",
             "G196",
             "G197",
             "G198",
+            "G199",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -219,7 +220,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "182-row exact registry",
+            "183-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -248,6 +249,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g196_longitudinal_screen_mixing_descent_2026-08-20/",
             "udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/",
             "udt_g198_bidirectional_null_germ_map_2026-08-21/",
+            "udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -258,9 +260,10 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G198",
+            "G166--G199",
             "G197",
             "G198",
+            "G199",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -277,6 +280,7 @@ def validate_startup_surface(root: Path) -> None:
             "G190--G198",
             "G197",
             "G198",
+            "G199",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -292,10 +296,11 @@ def validate_startup_surface(root: Path) -> None:
             "G181--G184",
             "G185--G189",
             "G190--G198",
+            "G199",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "182-row",
+            "183-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -555,9 +560,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 182, "premise registry must contain exactly 182 rows")
+    require(len(rows) == 183, "premise registry must contain exactly 183 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 182, "duplicate premise id")
+    require(len(by_id) == 183, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -659,6 +664,54 @@ def main() -> None:
     require(g198_package["independent_assertions"] == 1838, "G198 assertion count changed")
     require(g198_package["base_residual_evaluations"] == 816, "G198 base-residual count changed")
     require(g198_package["mutation_catches"] == 9, "G198 hostile count changed")
+    require(
+        by_id["G199"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_1514ED99"
+        ),
+        "G199 bounded grade changed or promoted",
+    )
+    for guard in (
+        "PRIMARY_STATIC_SPHERICAL_RECIPROCAL_AREAL_METRIC_ONLY",
+        "BOTH_NORMALIZED_FUTURE_RADIAL_NULL_GERMS_AFFINE",
+        "SAME_ENDPOINT_FREQUENCY_LAW",
+        "ZERO_RADIAL_OPTICAL_TIDE_DESPITE_NONZERO_AMBIENT_CURVATURE",
+        "BOTH_VERTEX_JACOBI_MAPS_EQUAL_LAMBDA_I",
+        "NO_NATIVE_CHIRAL_RADIAL_SPLIT",
+        "G198_ASYMMETRY_RETAINED_AS_CHOSEN_COMPLETE_COFRAME_CONTROL",
+        "NO_CETA_CZ_EXTENSION_P1_G116_G189_XMAX_TRANSFER_SOURCE_FIT_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G199"]["current_status"], f"G199 guard absent: {guard}")
+    require(
+        by_id["G199"]["active_use"]
+        == "ACTIVE_BOUNDED_TWO_RADIAL_NULL_GERMS_OF_THE_DECLARED_PRIMARY_STATIC_SPHERICAL_UDT_METRIC_ONLY",
+        "G199 active scope widened",
+    )
+    require(
+        by_id["G199"]["controlling_source"]
+        == "udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/AUDIT_REPORT.md",
+        "G199 controlling source changed",
+    )
+    g199 = ROOT / "udt_g199_primary_metric_bidirectional_radial_null_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g199 / name).is_file(), f"G199 evidence missing: {name}")
+    g199_package = json.loads((g199 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g199_package["all_pass"] is True, "G199 package verification failed")
+    require(g199_package["no_write_replay"] is True, "G199 no-write replay absent")
+    require(g199_package["production_assertions"] == 65, "G199 production count changed")
+    require(g199_package["independent_assertions"] == 60000, "G199 assertion count changed")
+    require(g199_package["independent_nonflat_cases"] == 2000, "G199 nonflat count changed")
+    require(g199_package["mutation_catches"] == 9, "G199 hostile count changed")
+    require(g199_package["source_hashes"] == 12, "G199 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -4875,7 +4928,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G198-extended premise guards; PASS: 182-row premise "
+        "PASS: G199-extended premise guards; PASS: 183-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

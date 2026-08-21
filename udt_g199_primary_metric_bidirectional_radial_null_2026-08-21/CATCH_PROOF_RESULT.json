@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "caught": 9,
+  "catches": {
+    "delete_areal_screen_connection": true,
+    "drop_minus_germ": true,
+    "drop_plus_germ": true,
+    "import_g196_chiral_term": true,
+    "inject_false_minus_tide": true,
+    "inject_false_plus_tide": true,
+    "nonaffine_radial_speed": true,
+    "reverse_curvature_sign": true,
+    "wrong_frequency_direction_dependence": true
+  },
+  "total": 9
+}

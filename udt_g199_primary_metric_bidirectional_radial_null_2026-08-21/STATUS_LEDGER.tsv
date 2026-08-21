@@ -1,0 +1,12 @@
+claim	status	scope
+primary_metric_pair_frame	DERIVED_CONDITIONAL	regular static-spherical event with f>0 and r>0
+two_normalized_future_radial_null_germs	DERIVED_CONDITIONAL	completed radial pair plane and source calibration
+both_radial_germs_affine	DERIVED_CONDITIONAL	connected regular interval
+endpoint_frequency_ratio	DERIVED_CONDITIONAL	static source and endpoint clocks on same branch
+parallel_angular_screen_both_signs	DERIVED_CONDITIONAL	strict radial germs
+zero_radial_optical_tide_both_signs	DERIVED_CONDITIONAL	primary reciprocal areal metric
+finite_jacobi_map_lambda_identity	DERIVED_CONDITIONAL	vertex-normalized regular branch
+G198_asymmetry	CONDITIONAL_CHOSEN_FAMILY_CONTROL	valid in G196 metric; not primary-metric native
+physical_phi_profile	OPEN	not selected
+nonspherical_timelive_metric	OPEN	not derived here
+observational_transfer_and_global_completion	OPEN	not attempted

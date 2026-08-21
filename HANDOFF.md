@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-21
 
-The active chain is G166--G198. The primary metric is pulled back to a **supplied** regular pair
+The active chain is G166--G199. The primary metric is pulled back to a **supplied** regular pair
 germ; `B,Q` are metric-fixed, `S=0` in the spherical slice, and `Y,Z` come from the germ. All
 `B,Q,S,Y,Z` channels enter before scalar readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -19,11 +19,12 @@ global realization remain supplied or `OPEN`.
 G190--G198 are metric-evaluator results on chosen families and germs, not field equations. G196's
 outgoing germ gives `D_plus`, exact ordered factorization, and a scoped positive-Gram sign theorem;
 its interval IVP agreement is formula-level regression. G198 keeps that exact metric and adds the
-opposite central future null germ. Direct full-metric and independent second-jet reconstructions
-give `C_minus=0`, `T_minus=tau0 I`, and `D_minus^2 Y=0`; the physical vertex map `a(u)uI` has
-positive nonvertex determinant. The outgoing germ exactly regresses G196. The asymmetry is encoded
-by the chosen `deta+dz` coupling and remains family-scoped; two rays still do not reconstruct the
-off-ray field.
+opposite central future null germ; its chiral split remains correct inside the chosen G196 family.
+G199 traces that coupling to G191's `CHOSE_MATHEMATICAL_FUNCTION_FAMILY` and then computes both
+radial null germs directly in the primary metric. They share the endpoint frequency law, parallel
+screen, zero radial optical tide, and `D=lambda I`; 2,000 exact nonflat metric-jet controls pass.
+Therefore G198 is not promoted to a primary-metric direction law, and the arbitrary `C_eta,C_z`
+extension is not activated. Its two-ray off-ray reconstruction ceiling remains in force.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -49,11 +50,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G198 now derives the second/opposite supplied germ on the same G196 metric and lands an exact quiet
-control. Next PONDER whether the primary metric excludes the frozen independent `deta-dz` component
-or whether the mapped `C_eta,C_z` family should be activated as the least-frozen adjacent test. Do
-not generalize the quiet result, fit a profile, insert `X_max`, select transfer, or use G116/G189 as
-construction inputs. The physical carrier/`O(2)`,
+G199 closes the radial frame audit. Next PONDER whether the two normalized nonradial directions of
+the same primary pair produce one reversal-related finite G187 family, with differences only from
+the metric regions and endpoints each branch samples. Do not activate an arbitrary second-null
+coframe term, fit a profile, insert `X_max`, select transfer, or use G116/G189 as construction
+inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

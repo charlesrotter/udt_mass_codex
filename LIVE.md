@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G198. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G199. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -34,14 +34,16 @@ parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, non
 G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
 `STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
 
-Current structural result: `udt_g198_bidirectional_null_germ_map_2026-08-21/`. On the same displayed
-G196 `a(eta),M(eta,z)` metric, the outgoing germ exactly retains `D_plus`, ordered factorization,
-and the positive-Gram sign theorem. The opposite future germ is an exact `M`-quiet control:
-`C_minus=0`, `T_minus=tau0 I`, and direct coordinate Jacobi law `D_minus^2 Y=0`; its physical
-vertex map is `a(u)uI` in null coordinate `u`, so its nonvertex determinant is positive. Independent second-metric-jet
-reconstruction passes. This directional asymmetry is encoded by the chosen `deta+dz` coframe
-coupling; it is not yet an arbitrary-complete-metric theorem. Two germs still do not reconstruct
-off-ray structure.
+Current structural result: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`.
+The frame audit proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
+`CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
+on that primary metric, both normalized future radial null germs are affine, share
+`Z=sqrt(f_o/f_s)=exp(phi_s-phi_o)`, carry parallel angular screens, have zero radial optical tide
+despite generically nonzero ambient curvature, and give the same vertex map `D=lambda I`.
+Independent exact-Fraction metric-two-jet reconstruction passes on 2,000 nonflat cases. Thus the
+primary radial pair has no native chiral loud/quiet split. The G196/G198 result remains correct as a chosen
+complete-coframe control, not as a primary-metric theorem. Nonradial G187 screen response and the
+general G188 evaluator remain active; the two-ray off-ray reconstruction ceiling is unchanged.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -81,11 +83,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G198 has derived both central future null germs on the same G196 metric. The outgoing channel is
-loud and the incoming channel is exactly `M`-quiet, with only the common-scale tide retained. This
-is a family-scoped metric result, not a fitted regime switch or universal UDT theorem. Next PONDER
-whether the intended primary metric itself excludes the frozen independent `deta-dz` screen
-component, or whether the minimally less-frozen `C_eta,C_z` family is the honest adjacent test.
-Do not activate that family before the frame audit; do not fit functions, insert `X_max`, select
-transfer, or use G116/G189 as construction inputs.
+G199 closes the frame audit: do **not** activate the arbitrary `C_eta,C_z` extension as if it were
+native. The smallest adjacent PONDER is whether the two normalized **nonradial** null directions of
+the same primary static-spherical pair yield one reversal-related finite G187 response family, with
+any observed difference arising only from the different metric regions/endpoints sampled. If that
+typing is clean, preregister the direct two-direction nonradial calculation. Do not fit functions,
+insert `X_max`, select transfer, derive a time-live metric by template, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

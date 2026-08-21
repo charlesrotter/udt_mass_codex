@@ -50,8 +50,11 @@ physical scalar after the working premise. They must not be conflated.
   and derives an exact opposite-germ null control: no `M`-dependent connection or tide and
   `D_minus^2Y=0`. The asymmetry is encoded by the chosen one-null-component coframe and remains
   family-scoped.
+- G199 audits that specialization against the primary static-spherical metric. Its two radial null
+  germs are reversal-related and have the same frequency law, parallel screen, zero radial optical
+  tide, and `D=lambda I`. The G198 split is therefore retained only as a chosen-family control.
 
-Current structural package: `udt_g198_bidirectional_null_germ_map_2026-08-21/`.
+Current structural package: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -79,10 +82,9 @@ exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 wo
 numerical IVP legs are formula-level regression evidence; G193--G196 contain the independent metric-side
 contractions.
 
-G198 completes the direct same-metric opposite-germ calculation. It identifies a load-bearing
-family restriction: the displayed coframe includes the `deta+dz` null screen coupling but freezes
-the independent `deta-dz` component. The result is an exact loud/quiet directional pair without a
-fitted switch. The next bounded action is a frame/ownership PONDER: decide whether the primary
-metric excludes the missing component or whether the mapped independent `C_eta,C_z` affine family
-is the least-frozen adjacent test. Do not activate it before that audit, fit functions, insert
-`X_max`, select transfer, or use G116/G189 as construction inputs.
+The latest frame/ownership audit shows that the primary static-spherical metric excludes the chosen
+chiral coupling because it is not one of its metric terms; both primary radial null directions are
+reversal-related. The arbitrary independent `C_eta,C_z` family is therefore an envelope extension,
+not the next native derivation. The next bounded action is to PONDER and, if clean, preregister the
+two-direction **nonradial** primary-metric calculation. Do not fit functions, insert `X_max`,
+select transfer, construct a time-live metric by template, or use G116/G189 as inputs.

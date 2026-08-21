@@ -1,0 +1,28 @@
+{
+  "affine_areal_relation": "r(lambda)=r_o+sign*sqrt(f_o)*lambda",
+  "all_pass": true,
+  "ambient_curvature_control_R0_101": "-Derivative(f(r), (r, 2))/(2*f(r))",
+  "assertions": 65,
+  "endpoint_frequency_ratio": "sqrt(f_o/f_s)=exp(phi_s-phi_o)",
+  "landing": "PRIMARY_METRIC_RADIAL_NULL_PAIR_IS_REVERSAL_SYMMETRIC__NO_NATIVE_CHIRAL_SPLIT",
+  "passed": 65,
+  "results": {
+    "minus": {
+      "frequency": "E/sqrt(f(r))",
+      "geodesic_residual": ["0", "0", "0", "0"],
+      "jacobi_map": [["lambda", "0"], ["0", "lambda"]],
+      "k": ["E/f(r)", "-E", "0", "0"],
+      "screen_connection": [["0", "0", "0", "0"], ["0", "0", "0", "0"]],
+      "tidal_matrix": [["0", "0"], ["0", "0"]]
+    },
+    "plus": {
+      "frequency": "E/sqrt(f(r))",
+      "geodesic_residual": ["0", "0", "0", "0"],
+      "jacobi_map": [["lambda", "0"], ["0", "lambda"]],
+      "k": ["E/f(r)", "E", "0", "0"],
+      "screen_connection": [["0", "0", "0", "0"], ["0", "0", "0", "0"]],
+      "tidal_matrix": [["0", "0"], ["0", "0"]]
+    }
+  },
+  "source_normalization": "E=sqrt(f_o)"
+}

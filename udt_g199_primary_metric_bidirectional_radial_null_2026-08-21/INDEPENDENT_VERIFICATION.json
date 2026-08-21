@@ -1,0 +1,10 @@
+{
+  "all_pass": true,
+  "assertions": 60000,
+  "cases": 2000,
+  "method": "independent exact-Fraction metric two-jet reconstruction",
+  "nonflat_cases": 2000,
+  "opposite_sign_pairs": 2000,
+  "production_artifacts_read": false,
+  "production_imports": false
+}

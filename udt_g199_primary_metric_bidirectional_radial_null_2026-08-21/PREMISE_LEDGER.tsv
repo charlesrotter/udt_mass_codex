@@ -1,0 +1,10 @@
+object	status	role
+c_E	OBSERVED	clock/ruler dimensional calibration; absorbed into x0=c_E t
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	full tested metric g=-f dx0^2+f^-1 dr^2+r^2 dOmega^2
+f_of_r	FREE_AND_EXPLORED	smooth positive supplied history within the slice; no profile selected
+completed_pair_dual_reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	applied after the full pair pullback
+source_event_static_clock_radial_ruler	SUPPLIED_QUERY	seeds the two normalized future radial null germs
+affine_source_normalization	SUPPLIED_QUERY_CALIBRATION	-g(Uo,ko)=1
+levi_civita_frequency_screen_jacobi	DERIVED_CONDITIONAL	metric evaluators
+G191_G198_chiral_coframe	OMITTED_CONTROL	provenance comparison only; not an input to the G199 derivation
+nonradial_nonspherical_timelive_global_transfer	OPEN_OR_OMITTED	outside the bounded theorem

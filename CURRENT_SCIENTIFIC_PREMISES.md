@@ -26,7 +26,8 @@
 | G176--G180 completed pair | conditional; externally accepted | Working completed-pair premise selects the reciprocal ruler; coframe/family evaluators do not select histories |
 | G181--G184 strata/equivalence | conditional; externally accepted | Endpoints, carry, branches, and typed quotient; equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
-| G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; latest result derives a loud outgoing and quiet incoming null channel on the same G196 metric, still family/germ scoped |
+| G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
+| G199 primary radial two-direction audit | independently verified with caveats | Both primary radial null germs are reversal-related with the same frequency/screen law; no native chiral radial split |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -38,7 +39,7 @@ None selects completion or `X_max`.
 | Common-factor cancellation | `DERIVED` algebra only | Not a Weyl-gauge theorem or proof UDT is scale-free |
 | Founded pair common scale | `FIXED` in bounded block | Determinant-one reciprocal clock/ruler block; not a general complete-metric theorem |
 | General complete pair scale | `CONDITIONAL/RETAINED` | Present after a complete assembly is supplied |
-| Common-scale principal rank | `DERIVED` source-bounded zero | G155 finds no active `kappa` equation; not a no-go |
+| Common-scale principal rank | `DERIVED` source-bounded zero | No active `kappa` equation in the bounded audit; not a no-go |
 | Pair scale carry | `DERIVED_CONDITIONAL` | Half-density character; incomplete closure |
 | Base channel balance | `DERIVED` bounded | `B+(2)` composition permits changing ratios; screen/mixing law open |
 | Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4` law and history velocity; not physical history |
@@ -48,11 +49,13 @@ None selects completion or `X_max`.
 
 - The kernel takes an ordered pair, not a path; route observables remain separate.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  Metricity is not dynamics. G138--G145 assign carry to overlaps, not endpoints.
-- G146--G163 bound carrier, `O(2)`, `lambda`, first jets, scale, score, transport, and `X_max`;
-  G165 is an envelope control rather than a physical multiplicity theorem.
-- G166--G198 derive and test the supplied-pair kernel. The latest directional asymmetry is metric-encoded
-  in one chosen coframe family; population, transfer, and global realization stay open.
+  Metricity is not dynamics. The overlap chain assigns carry to overlaps, not endpoints.
+- The bounded carrier/transport chain types `O(2)`, `lambda`, first jets, scale, score, transport,
+  and `X_max`; the conformal-family result is an envelope control rather than a physical
+  multiplicity theorem.
+- The current chain derives and tests the supplied-pair kernel. G199 prevents a chosen coframe's directional
+  asymmetry from being promoted to the primary metric; population, transfer, and global realization
+  stay open.
 
 ## Carrier, action, source, and matter
 
@@ -81,13 +84,13 @@ Do not:
   proper length, universe size, or seams into the kernel;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize the G166--G198 chain, turn G198's quiet germ into a universal switch, silently activate
+- globalize the current chain, turn a chosen-family quiet germ into a universal switch, silently activate
   the absent second null coupling, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
   import familiar mechanisms as UDT derivations.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 182-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 183-row authority. On conflict, stop.
 
 Run:
 
