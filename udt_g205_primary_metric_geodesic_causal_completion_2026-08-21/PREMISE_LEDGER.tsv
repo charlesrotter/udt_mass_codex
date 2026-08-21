@@ -1,0 +1,11 @@
+object	status	role
+primary_static_spherical_metric	PINNED_BY_THEORY_WITHIN_DECLARED_SLICE	supplied metric
+even_areal_G204_family	POST_FAILURE_PREREGISTERED_REPAIR_WITNESS	family under test not selected history
+n_odd_ge3_a_r0_positive	FREE_AND_EXPLORED	all registered parameter values
+manifold_R_times_R3	CONDITIONAL_GLOBAL_REALIZATION	smooth center included and outer end tested
+Levi_Civita_geodesics	STANDARD_GEOMETRIC_EVALUATOR	metric-derived trajectories
+optical_metric	STANDARD_GEOMETRIC_EVALUATOR	causal completeness and Cauchy test
+global_hyperbolicity	CONDITIONAL_HISTORY_PROPERTY	evaluated not adopted as founding postulate
+null_circular_orbits	DERIVED_IF_PRESENT	parameter strata not selection
+Xmax_horizon_wall	OPEN_OR_FORBIDDEN_AS_INPUT	not inferred from outer asymptote
+action_source_transfer_matter_bootstrap	OPEN_OR_OMITTED	outside bounded theorem
