@@ -1643,8 +1643,8 @@ def main() -> None:
     require(g213_package["independent_grading_completion_rank"] == 5, "G213 grading completion rank changed")
     require(
         by_id["G214"]["current_status"].startswith(
-            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_B15D5B4D__"
-            "EXTERNAL_REVIEW_PENDING__SUPPLIED_REGULAR_LORENTZ_PAIR_PULLBACK"
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_B15D5B4D__"
+            "FRESH_GPT54_REVIEW_ACCEPTED_NO_REPAIR__SUPPLIED_REGULAR_LORENTZ_PAIR_PULLBACK"
         ),
         "G214 bounded grade changed or promoted",
     )
@@ -1688,8 +1688,16 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
         "ADVERSARIAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
     ):
         require((g214 / name).is_file(), f"G214 evidence missing: {name}")
+    require(
+        "G214_VERIFIED_WITH_CAVEATS__LOCAL_TO_COVER_DESCENT_CLOSES__THREE_PAIR_PRODUCT_NOT_DERIVED"
+        in (g214 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G214 external-review acceptance absent",
+    )
     g214_package = json.loads((g214 / "VERIFICATION_RESULT.json").read_text())
     require(g214_package["status"] == "PASS", "G214 package verification failed")
     require(g214_package["no_write_replay"] is True, "G214 no-write replay absent")

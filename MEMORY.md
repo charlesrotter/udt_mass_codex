@@ -52,7 +52,7 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G214 closes local-to-cover tuple descent; external review is pending. Then test whether metric/query
+G214 externally closes local-to-cover tuple descent with caveats. Next test whether metric/query
 geometry supplies cross-pair incidence maps. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:

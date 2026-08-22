@@ -6,3 +6,4 @@ orientation_reversal	DERIVED_BOUNDED	oriented congruence flips shift	separate fr
 G130_transfer	DERIVED_CONDITIONAL	reconstruction transfers without density loss	compatible supplied cover only
 three_observer_full_tuple_product	NOT_DERIVED_NO_NATIVE_PRODUCT	G171 incidence defect retained	matched incidence sufficient only
 physical_population_values	OPEN	outside bounded algebra	no derivation
+external_review	PASS_WITH_CAVEATS	fresh sealed GPT-5.4 review accepted bounded theorem	no repair and no widening

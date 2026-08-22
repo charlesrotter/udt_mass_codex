@@ -96,8 +96,8 @@ physical scalar after the working premise. They must not be conflated.
   determinant and the normalized metric an `SL(2)` cocycle. G130 descent transfers; arbitrary
   pair composition does not.
 
-G206--G214 verified with caveats; G214 awaits review. None generates a sector
-function, finite-anchor flow, or `X_max`.
+G206--G214 are externally verified with caveats. None generates a sector function, finite-anchor
+flow, or `X_max`.
 
 Structural package:
 `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`.
@@ -133,5 +133,5 @@ volumes need not be lockstep. G205 closes the supplied static geodesic/causal co
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
 then close the diagonal dependency. G212--G214 remove the second-selector framing and close the
 compatible-cover information bridge while retaining open valuation and incidence ownership. Next
-review G214, then test whether metric/query geometry owns cross-pair incidence maps. Do not fit,
-identify `X_max`, select transfer, or revive historical application inputs.
+test whether metric/query geometry owns cross-pair incidence maps. Do not fit, identify `X_max`,
+select transfer, or revive historical application inputs.

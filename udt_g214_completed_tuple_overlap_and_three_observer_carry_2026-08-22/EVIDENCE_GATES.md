@@ -14,7 +14,7 @@
 | Source provenance | PASS | 14/14 hashes |
 | G130 transfer | PASS WITH CAVEATS | compatible supplied cover only; values not generated |
 | Arbitrary three-observer tuple product | NOT DERIVED | G171 incidence defect retained |
-| External review | PENDING | fresh bounded adversarial review not yet run |
+| External review | PASS WITH CAVEATS | fresh GPT-5.4 review accepted the bounded theorem; no repair required |
 
 The banked status cannot exceed
-`DERIVED_CONDITIONAL__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.
+`DERIVED_CONDITIONAL__INDEPENDENTLY_VERIFIED__EXTERNALLY_REVIEWED_WITH_CAVEATS`.

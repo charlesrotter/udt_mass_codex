@@ -75,11 +75,11 @@ A typed completed relation retains `(m,h_s)`, exactly recovering the full pullba
 G129 rank ten; without `m`, spatial rescaling is invisible. Its dependency-free repairs were
 externally accepted without changing the landing.
 
-G214 proves this tuple descends on supplied positive calibrated pair covers: density `m` carries the
-overlap determinant, `h_s` carries an induced `SL(2)` cocycle, and reconstruction commutes. Pure
-ruler reparameterization is absorbed by `m`. Distinct `AB`, `BC`, and `AC` pair surfaces have no
-automatic metric product; G171's unmatched-incidence defect survives. External review is pending;
-values, cross-pair incidence maps, and population stay open.
+Externally reviewed G214 proves this tuple descends on supplied positive calibrated pair covers:
+density `m` carries the overlap determinant, `h_s` carries an induced `SL(2)` cocycle, and
+reconstruction commutes. Distinct `AB`, `BC`, and `AC` pair surfaces have no automatic metric
+product; G171's unmatched-incidence defect survives. Values, incidence maps, and population stay
+open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the live families interlock after a metric and query are supplied. A valued rank-complete network
@@ -115,7 +115,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-First obtain fresh external review of G214. If retained, test whether the primary metric/query
-geometry supplies cross-pair incidence identifications or only a compatibility condition. Do not
-fit, identify `X_max`, select transfer, or use G116/G189 as construction inputs.
+Test whether the primary metric/query geometry supplies cross-pair incidence identifications or
+only a compatibility condition. Do not fit, identify `X_max`, select transfer, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

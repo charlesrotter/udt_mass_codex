@@ -41,7 +41,7 @@
 | G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
 | G212 history bridge | verified with caveats | A valued rank-complete network is the state; finite-anchor flow remains open |
-| G213--G214 rank and descent | repairs accepted; G214 review pending | Five modes; density-completed tuples retain rank ten and descend across calibrated covers |
+| G213--G214 rank and descent | externally accepted with caveats | Five modes; density-completed tuples retain rank ten and descend across calibrated covers |
 
 None selects completion or `X_max`.
 ## Scale and limits
