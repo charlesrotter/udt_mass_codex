@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G220 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G221 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -19,8 +19,11 @@ unifies their query-indexed correspondence. G219 shows moving-flat protocol slop
 differ; inverse is not return. G220 derives the covariant null clock slope on one supplied regular
 branch. In its exact time-only triangular base, active lapse/ruler/shift combine as `C_+=A-N beta`
 and give `r=C_+B/C_+A`; the same correspondence has completed clock leg `T_B=r`. This is a
-compatibility identity, not a full pair-plane construction or universal-null selection. Protocol
-ownership, angular screen/mixing, branch population, and full germ remain open. G197 excludes P1,
+compatibility identity, not a full pair-plane construction or universal-null selection. G221 lifts
+that clock chord to one supplied regular complete coframe: `Q`, `s_x`, and `s_t` enter upstream in
+the exact frequency before scalar readout, and G220 is recovered when transverse terms vanish.
+Protocol ownership, the second tangent/full plane, finite screen/Jacobi carry, branch population,
+and full germ remain open. G197 excludes P1,
 G116/G189 transfer, fits, `X_max`, and protected payload from the native core. G176 stays provisional
 and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
@@ -48,10 +51,10 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Lift G220 from the time-only triangular base to one supplied regular `2+2` complete-coframe germ.
-Derive how screen and base-screen mixing enter the null clock arrow before readout, recover G220 when
-transverse components vanish, and retain all regular branches. Null remains query-typed. No fits,
-`X_max`, transfer/history selection, or protected drafts.
+On the same supplied regular complete-coframe null query, derive the second independent pair tangent
+and full rank-two pullback from the Hamilton--Jacobi incidence family. Test its exact compatibility
+with G221's scalar chord and G188's finite screen/Jacobi transport. Null remains query-typed. No
+fits, `X_max`, transfer/history selection, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G220 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G221 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -30,8 +30,12 @@ regular future null branch,
 `r=-(sigma_A.U_A)/(sigma_B.U_B)=(k_A.U_A)/(k_B.U_B)=omega_A/omega_B`; in the exact time-only
 triangular base, `C_+=A-N beta` and `r=C_+B/C_+A`. The same correspondence has completed clock leg
 `T_B=r`; this is compatibility, not independent G176 confirmation or a full pair plane. Later return
-uses `C_-`. Null remains query-typed. The higher/full pair-plane, angular screen/mixing, branch population, and
-physical history remain open.
+uses `C_-`. G221 lifts this supplied null query to a regular complete `2+2` coframe and derives the
+exact frequency chord with `Q`, `s_x`, and `s_t` entering upstream before scalar readout. Passive
+screen covariance, affine cancellation, Hamilton--Jacobi incidence, and exact G220 reduction pass
+fresh external review without repairs. Null remains query-typed. The second pair tangent,
+higher/full rank-two carry, finite screen/Jacobi transport, branch population, and physical history
+remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,
@@ -57,11 +61,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Lift G220 from the time-only triangular base to one supplied regular `2+2` complete-coframe germ.
-Derive how screen and base-screen mixing enter null incidence and the same-correspondence completed
-clock leg before readout, with exact G220 recovery when transverse components vanish. Keep null
-query-typed, retain every regular branch, and keep return distinct from inversion. Do not fit,
-activate protected drafts, identify `X_max`, select transfer/history, or use G116/G189. All other
-open ownership remains controlled by the 204-row exact registry.
+On the same supplied regular complete-coframe null query, derive the second independent pair tangent
+and full rank-two pullback from the Hamilton--Jacobi incidence family. Test compatibility with G221's
+scalar clock chord and G188's finite screen/Jacobi transport without collapsing their types. Keep
+null query-typed and return distinct from inversion. Do not fit, activate protected drafts, identify
+`X_max`, select transfer/history, or use G116/G189. All other open ownership remains controlled by
+the 205-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->

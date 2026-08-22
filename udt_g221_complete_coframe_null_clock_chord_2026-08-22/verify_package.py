@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed no-write replay for the provisional G221 evidence package."""
+"""Fail-closed no-write replay for the externally accepted G221 evidence package."""
 
 from __future__ import annotations
 
@@ -35,6 +35,7 @@ REQUIRED = (
     "EVIDENCE_GATES.md",
     "STATUS_LEDGER.tsv",
     "ADVERSARIAL_REVIEW_REQUEST.md",
+    "FRESH_ADVERSARIAL_REVIEW.md",
     "VERIFICATION_RESULT.json",
 )
 
@@ -187,7 +188,7 @@ def main() -> None:
         "payload_contract_mutation_guard": True,
         "optimized_mode_rejected": True,
         "no_write_replay": True,
-        "fresh_adversarial_review": "PENDING",
+        "fresh_adversarial_review": "ACCEPT_NO_REPAIRS",
         "completed_clock_leg_compatibility_only": True,
         "physical_protocol_selected": False,
         "full_pair_plane_constructed": False,
@@ -197,9 +198,9 @@ def main() -> None:
     after = snapshot()
     require(before == after, "package replay wrote to evidence files")
     print(
-        "PASS: G221 provisional package; 12 sources; 21 symbolic; "
+        "PASS: G221 externally accepted package; 12 sources; 21 symbolic; "
         "154,000 independent exact; 18 injected catches; payload guard; "
-        "optimized-mode rejection; no-write; fresh review pending"
+        "optimized-mode rejection; no-write; fresh review accepted without repairs"
     )
 
 

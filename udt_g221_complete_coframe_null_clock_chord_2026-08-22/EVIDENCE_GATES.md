@@ -10,11 +10,11 @@ Date: 2026-08-22
 5. **Mutation proof:** yes; 18 injected mutations rejected.
 6. **Optimized mode:** must fail closed because evidence relies on enabled runtime checks.
 7. **No-write replay:** required from the final package verifier.
-8. **Fresh adversarial review:** pending explicit authorization and sealed intake.
+8. **Fresh adversarial review:** accepted with no repairs by external `gpt-5.4` from the authorized
+   sealed 33-file intake; algebraic landing and ownership boundary both survived.
 
 Current grade:
 
 ```text
-INDEPENDENTLY_VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REVIEW_PENDING
+FRESHLY_ADVERSARIALLY_VERIFIED_WITH_CAVEATS__NO_REPAIRS
 ```
-

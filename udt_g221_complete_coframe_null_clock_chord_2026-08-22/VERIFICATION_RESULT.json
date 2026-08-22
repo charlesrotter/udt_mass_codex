@@ -13,7 +13,7 @@
   "payload_contract_mutation_guard": true,
   "optimized_mode_rejected": true,
   "no_write_replay": true,
-  "fresh_adversarial_review": "PENDING",
+  "fresh_adversarial_review": "ACCEPT_NO_REPAIRS",
   "completed_clock_leg_compatibility_only": true,
   "physical_protocol_selected": false,
   "full_pair_plane_constructed": false,

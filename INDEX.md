@@ -46,11 +46,13 @@
   `udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`
 - Clock-arrow bridge: `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`; `udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`
 - Covariant time-live null tile: `udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/`
+- Complete-coframe null clock chord: `udt_g221_complete_coframe_null_clock_chord_2026-08-22/`
 G129--G165 are controls; G166--G184 build pairs; G185--G198 are application, chosen-family, and
 provenance controls. G199--G214 classify structure. G215--G217 close scalar incidence and first-jet
 typing; G218 PONDER unifies the query-indexed correspondence; G219 discriminates moving-flat
 protocols; G220 derives the covariant null clock slope and time-live base chord on one supplied
-query. Full pair-plane and screen/mixing carry remain open.
+query; G221 derives its complete-coframe scalar chord with screen and mixing upstream. The second
+tangent, full pair plane, and finite screen/Jacobi carry remain open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -59,7 +61,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 204-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 205-row registry controls.
 ## Observational lane
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`

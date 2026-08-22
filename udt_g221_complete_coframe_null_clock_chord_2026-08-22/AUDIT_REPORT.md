@@ -72,9 +72,11 @@ or branches, construct a full rank-two pair plane, collapse transverse transport
 scalar, or select a metric history. It has no `X_max`, transfer, observational, action, source,
 matter, bootstrap, mass, or signalling conclusion.
 
-Status before fresh adversarial review:
+Fresh external `gpt-5.4` adversarial review:
 
 ```text
-INDEPENDENTLY_VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REVIEW_PENDING
+ACCEPT__NO_LOAD_BEARING_DEFECTS_OR_REPAIRS__BOUNDED_SCIENTIFIC_LANDING_SURVIVES
 ```
 
+The reviewer independently reconstructed the algebra, replayed the registered bounded checks, and
+accepted both the formulas and the stated ownership ceiling. See `FRESH_ADVERSARIAL_REVIEW.md`.

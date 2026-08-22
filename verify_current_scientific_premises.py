@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G220",
+            "G166--G221",
             "G197",
             "G215",
             "G216",
@@ -201,6 +201,7 @@ def validate_startup_surface(root: Path) -> None:
             "G218",
             "G219",
             "G220",
+            "G221",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -243,7 +244,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "204-row exact registry",
+            "205-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -297,6 +298,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/",
             "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/",
             "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/",
+            "udt_g221_complete_coframe_null_clock_chord_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -310,7 +312,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G220",
+            "G166--G221",
             "G197",
             "G198",
             "G199",
@@ -336,6 +338,7 @@ def validate_startup_surface(root: Path) -> None:
             "G218",
             "G219",
             "G220",
+            "G221",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -374,6 +377,7 @@ def validate_startup_surface(root: Path) -> None:
             "G218",
             "G219",
             "G220",
+            "G221",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -407,10 +411,11 @@ def validate_startup_surface(root: Path) -> None:
             "G214",
             "G215",
             "G220",
+            "G221",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "204-row",
+            "205-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -751,9 +756,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 204, "premise registry must contain exactly 204 rows")
+    require(len(rows) == 205, "premise registry must contain exactly 205 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 204, "duplicate premise id")
+    require(len(by_id) == 205, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2314,6 +2319,94 @@ def main() -> None:
         g220_package["landing"]
         == "COVARIANT_NULL_CLOCK_ARROW_DERIVED__COMPLETED_CLOCK_LEG_COMPATIBLE__NULL_REMAINS_QUERY_TYPED",
         "G220 landing changed",
+    )
+    require(
+        by_id["G221"]["current_status"].startswith(
+            "FRESHLY_ADVERSARIALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_58F01F2C__"
+            "SUPPLIED_SMOOTH_COMPLETE_COFRAME_FIXED_REGULAR_2PLUS2_CHART"
+        ),
+        "G221 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "UNIQUE_FUTURE_COFRAME_ROOT_PHAT0_EQUALS_MINUS_N_BETA_PI_MINUS_A_R_OVER_D",
+        "MEASURED_FREQUENCY_W_EQUALS_MINUS_PT_OVER_P",
+        "Q_SX_AND_ST_ENTER_UPSTREAM_BEFORE_SCALAR_READOUT",
+        "HAMILTON_JACOBI_INCIDENCE_VELOCITY_COMES_FROM_SAME_FUTURE_ENERGY_ROOT",
+        "TRANSVERSE_OFF_LIMIT_RECOVERS_G220_W_EQUALS_PX_OVER_A_MINUS_N_BETA_AND_R_EQUALS_CPLUS_B_OVER_CPLUS_A",
+        "SAME_CORRESPONDENCE_COMPLETED_CLOCK_LEG_TB_EQUALS_RAB_IS_COMPATIBILITY_ONLY",
+        "154000_EXACT_CHECKS",
+        "18_INJECTED_MUTATION_CATCHES",
+        "FRESH_EXTERNAL_GPT54_ACCEPTED_NO_REPAIRS",
+        "NULL_AND_FULL_PAIR_REMAIN_QUERY_TYPED",
+        "NO_PHYSICAL_PROTOCOL_BRANCH_POPULATION_FULL_PAIR_PLANE_SCREEN_JACOBI_HISTORY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G221"]["current_status"], f"G221 guard absent: {guard}")
+    require(by_id["G221"]["epistemic_label"] == "MIXED", "G221 label changed")
+    require(
+        by_id["G221"]["active_use"]
+        == "ACTIVE_BOUNDED_COMPLETE_COFRAME_NULL_CLOCK_CHORD_ON_ONE_SUPPLIED_REGULAR_QUERY_AND_EXACT_G220_REDUCTION_ONLY",
+        "G221 active scope widened",
+    )
+    require(
+        "screen Jacobi transport collapsed into the scalar chord"
+        in by_id["G221"]["forbidden_regression"],
+        "G221 screen/Jacobi separation guard absent",
+    )
+    require(
+        by_id["G221"]["controlling_source"]
+        == "udt_g221_complete_coframe_null_clock_chord_2026-08-22/AUDIT_REPORT.md",
+        "G221 controlling source changed",
+    )
+    g221 = ROOT / "udt_g221_complete_coframe_null_clock_chord_2026-08-22"
+    for name in (
+        "MAP.md",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "derive_complete_coframe_null_chord.py",
+        "verify_complete_coframe_null_chord_independent.py",
+        "run_catch_proofs.py",
+        "build_review_intake.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "CONTROL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "STATUS_LEDGER.tsv",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "VERIFICATION_RESULT.json",
+        "verify_package.py",
+    ):
+        require((g221 / name).is_file(), f"G221 evidence missing: {name}")
+    g221_package = json.loads((g221 / "VERIFICATION_RESULT.json").read_text())
+    require(g221_package["status"] == "PASS", "G221 package verification failed")
+    require(g221_package["source_count"] == 12, "G221 source count changed")
+    require(g221_package["symbolic_checks"] == 21, "G221 symbolic count changed")
+    require(g221_package["independent_cases"] == 12000, "G221 case count changed")
+    require(g221_package["independent_exact_checks"] == 154000, "G221 exact count changed")
+    require(g221_package["full_sector_cases"] == 10000, "G221 full-sector count changed")
+    require(g221_package["screen_covariance_cases"] == 10000, "G221 covariance count changed")
+    require(g221_package["future_past_branch_cases"] == 10000, "G221 branch count changed")
+    require(g221_package["G220_reduction_pairs"] == 2000, "G221 G220 reduction count changed")
+    require(g221_package["injected_mutation_catches"] == 18, "G221 catch count changed")
+    require(g221_package["payload_contract_mutation_guard"] is True, "G221 payload guard absent")
+    require(g221_package["optimized_mode_rejected"] is True, "G221 optimized guard absent")
+    require(g221_package["no_write_replay"] is True, "G221 no-write replay absent")
+    require(
+        g221_package["fresh_adversarial_review"] == "ACCEPT_NO_REPAIRS",
+        "G221 fresh-review acceptance absent",
+    )
+    require(g221_package["completed_clock_leg_compatibility_only"] is True, "G221 clock ceiling absent")
+    require(not g221_package["physical_protocol_selected"], "G221 protocol falsely selected")
+    require(not g221_package["full_pair_plane_constructed"], "G221 widened to full pair plane")
+    require(not g221_package["screen_Jacobi_collapsed"], "G221 collapsed screen Jacobi")
+    require(
+        g221_package["landing"]
+        == "COMPLETE_COFRAME_NULL_CLOCK_CHORD_DERIVED_CONDITIONALLY__SCREEN_AND_MIXING_ENTER_UPSTREAM__G220_RECOVERED__NULL_AND_FULL_PAIR_REMAIN_QUERY_TYPED",
+        "G221 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6538,7 +6631,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G220-extended premise guards; PASS: 204-row premise "
+        "PASS: G221-extended premise guards; PASS: 205-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

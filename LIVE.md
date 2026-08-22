@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G220. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G221. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -44,8 +44,14 @@ universal protocol. G220 then derives one supplied regular future-null clock arr
 time-live triangular base metric, lapse, ruler, and shift combine upstream as `C_+=A-N beta`, giving
 `r_AB=C_+B/C_+A`. Using `y=tau_A` gives `T_B=r_AB` as a same-correspondence completed
 clock-leg compatibility identity—not an independent G176 proof or a full pair-plane construction.
-Null remains query-typed; later return uses `C_-=A+N beta`. Density, higher/full pair-plane, angular
-screen/mixing, branch population, and physical history remain open.
+Null remains query-typed; later return uses `C_-=A+N beta`. G221 lifts that same supplied null query
+to one regular complete `2+2` coframe. With `H=Q^T Q`,
+`Pi=p_x-s_x^T p_z`, and `q2=p_z^T H^-1 p_z`, the exact future frequency chord is
+`W=[N(A sqrt(Pi^2+D q2)+N beta Pi)/D-s_t^T p_z]/P`. Thus screen shape and both mixing columns enter
+inside the metric before `r_AB=W_A/W_B` and `delta_AB=-log r_AB`; they are not downstream
+modulation. Passive screen covariance, affine cancellation, Hamilton--Jacobi incidence, and exact
+G220 recovery all pass fresh external review without repairs. The full second tangent, higher/full
+pair carry, finite screen/Jacobi transport, branch population, and physical history remain open.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -59,7 +65,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 204-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 205-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -83,10 +89,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Lift G220's supplied regular null clock arrow from the complete time-only triangular base to one
-supplied regular `2+2` complete-coframe germ. Derive how screen and base-screen mixing enter the null
-incidence and same-correspondence completed clock leg before readout; recover G220 when transverse
-components vanish. Keep null query-typed and characterize every regular branch retained. Do not fit,
-identify `X_max`, select transfer/history, activate protected drafts, or use G116/G189 as construction
-inputs.
+On the same supplied regular complete-coframe null query, derive the second independent pair tangent
+and full rank-two pullback from the Hamilton--Jacobi incidence family, then test its compatibility
+with G221's clock chord and G188's finite screen/Jacobi transport. Keep null query-typed and do not
+collapse path-labelled screen transport into the scalar chord. Do not fit, identify `X_max`, select
+transfer/history, activate protected drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
