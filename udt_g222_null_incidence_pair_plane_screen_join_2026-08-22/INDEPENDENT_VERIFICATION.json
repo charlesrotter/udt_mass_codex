@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "implementation": "independent_standard_library_fraction_replay",
+  "cases": 12000,
+  "exact_checks": 276000,
+  "screen_isometry_cases": 12000,
+  "affine_reparameterization_cases": 12000,
+  "integrability_boundary_cases": 12000
+}

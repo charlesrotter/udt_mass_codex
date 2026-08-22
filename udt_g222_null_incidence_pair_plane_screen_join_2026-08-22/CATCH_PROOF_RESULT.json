@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "canonical_pass": true,
+  "injected_mutation_catches": 18,
+  "all_mutants_rejected": true
+}
