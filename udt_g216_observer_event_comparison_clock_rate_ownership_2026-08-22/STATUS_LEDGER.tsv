@@ -1,9 +1,10 @@
 item	status	claim	limit
 preregistration	PASS	bounded clock ownership and rate-interpretation alternatives frozen	outcomes not yet run
-proper_time_owner	TEST_REQUIRED	unit clock may trivialize rather than own nonzero scalar	must be derived exactly
-pair_rate_law	TEST_REQUIRED	candidate delta equals log ratio of proper-clock rates	one supplied pair parameter
-common_reparameterization	TEST_REQUIRED	candidate invariance of relative depth	positive shared reparameterization only
-independent_reparameterization	CONTROL	candidate exact incidence defect	not one shared calibrated pair parameter
-primary_static_recovery	TEST_REQUIRED	candidate dtau by dx0 equals exp minus phi	declared primary static chart only
+proper_time_owner	DERIVED_CONDITIONAL	unit proper clock gives T one and Phi zero	supplied timelike worldline
+pair_rate_law	DERIVED_CONDITIONAL	delta equals minus log of d tau B by d tau A	supplied regular G176-completed event-pair germ
+common_reparameterization	DERIVED_CONDITIONAL	relative depth invariant under positive common pair reparameterization	individual endpoint potential is chart weighted
+independent_reparameterization	DERIVED_COUNTEREXAMPLE	exact G215 incidence defect retained	not one shared calibrated pair parameter
+primary_static_recovery	DERIVED_BOUNDED	d tau by dx0 equals exp minus phi and Phi equals phi	declared primary static chart only
+G215_wording	RECLASSIFIED_PRECISION	shared clock means observer-incidence comparison clock tangent	not bare unit four velocity
+extra_clock_scale	CLOSED_CONDITIONALLY	fully supplied calibrated pair map fixes rate without another coefficient	physical pair germ remains supplied
 physical_pair_population	OPEN	outside bounded derivation	no history or query generation
-

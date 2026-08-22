@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G215",
+            "G166--G216",
             "G196",
             "G197",
             "G198",
@@ -183,6 +183,7 @@ def validate_startup_surface(root: Path) -> None:
             "G213",
             "G214",
             "G215",
+            "G216",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -236,7 +237,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "199-row exact registry",
+            "200-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -281,6 +282,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/",
             "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/",
             "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/",
+            "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -291,7 +293,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G215",
+            "G166--G216",
             "G197",
             "G198",
             "G199",
@@ -311,6 +313,8 @@ def validate_startup_surface(root: Path) -> None:
             "G213",
             "G214",
             "G215",
+            "G216",
+            "G216",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -344,6 +348,7 @@ def validate_startup_surface(root: Path) -> None:
             "G213",
             "G214",
             "G215",
+            "G216",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -379,7 +384,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "199-row",
+            "200-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -641,9 +646,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 199, "premise registry must contain exactly 199 rows")
+    require(len(rows) == 200, "premise registry must contain exactly 200 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 199, "duplicate premise id")
+    require(len(by_id) == 200, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1790,6 +1795,73 @@ def main() -> None:
         g215_package["landing"]
         == "COMPLETED_SCALAR_DESCENDS_TO_SHARED_CLOCK__G171_REGRADED__FULL_PAIR_CARRY_REMAINS_STRONGER",
         "G215 landing changed",
+    )
+    require(
+        by_id["G216"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__PREREGISTERED_AT_65C5CFE7__G176_WORKING_COMPLETION__"
+            "SUPPLIED_REGULAR_TIMELIKE_OBSERVER_WORLDLINES_EVENTS_AND_EVENT_PAIR_GERM"
+        ),
+        "G216 bounded grade changed or promoted",
+    )
+    for guard in (
+        "METRIC_PROPER_TIME_UNIT_TANGENT_U_SATISFIES_G_U_U_MINUS_ONE",
+        "T_X_EQUALS_DTAU_X_DY",
+        "UNIT_PROPER_CLOCK_HAS_T_ONE_PHI_ZERO",
+        "ENDPOINT_RELATIVE_DELTA_AB_EQUALS_MINUS_LOG_DTAU_B_DTAU_A",
+        "COMMON_POSITIVE_PAIR_REPARAMETERIZATION_CANCELS",
+        "INDEPENDENT_INCIDENCE_REPARAMETERIZATION_RETAINS_G215_DEFECT",
+        "REVERSAL_IS_INVERSE_FUNCTION_RULE",
+        "COMPOSITION_IS_CHAIN_RULE_WHEN_DIRECT_GERM_IS_ACTUAL_COMPOSITE",
+        "PRIMARY_STATIC_X0_EQUALS_CE_T_GIVES_DTAU_DX0_EQUALS_EXP_MINUS_PHI_AND_RECOVERS_PHI",
+        "G215_SHARED_CLOCK_REGRADED_TO_OBSERVER_INCIDENCE_COMPARISON_CLOCK_NOT_BARE_UNIT_FOUR_VELOCITY",
+        "NO_EXTRA_SCALAR_CLOCK_COEFFICIENT_AFTER_CALIBRATED_PAIR_MAP_SUPPLIED",
+        "NO_PHYSICAL_EVENT_PAIR_GERM_POPULATION_METRIC_VALUES_PROFILES_HISTORY_FLOW_FULL_NONSCALAR_CARRY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G216"]["current_status"], f"G216 guard absent: {guard}")
+    require(by_id["G216"]["epistemic_label"] == "MIXED", "G216 label changed")
+    require(
+        by_id["G216"]["active_use"]
+        == "ACTIVE_BOUNDED_REGULAR_G176_COMPLETED_EVENT_PAIR_PROPER_CLOCK_RATE_LAW_ONLY",
+        "G216 active scope widened",
+    )
+    require(
+        by_id["G216"]["controlling_source"]
+        == "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/AUDIT_REPORT.md",
+        "G216 controlling source changed",
+    )
+    g216 = ROOT / "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+    ):
+        require((g216 / name).is_file(), f"G216 evidence missing: {name}")
+    g216_package = json.loads((g216 / "VERIFICATION_RESULT.json").read_text())
+    require(g216_package["status"] == "PASS", "G216 package verification failed")
+    require(g216_package["no_write_replay"] is True, "G216 no-write replay absent")
+    require(g216_package["core_files_hashed"] == 15, "G216 core file count changed")
+    require(g216_package["exact_checks"] == 36, "G216 exact check count changed")
+    require(g216_package["independent_cases"] == 10000, "G216 case count changed")
+    require(g216_package["independent_assertions"] == 190000, "G216 assertion count changed")
+    require(g216_package["hostile_catches"] == 17, "G216 hostile count changed")
+    require(g216_package["source_count"] == 12, "G216 source count changed")
+    require(g216_package["unit_clock_q"] == "1", "G216 unit-clock control changed")
+    require(g216_package["pairing_derivative"] == "20/21", "G216 pairing derivative changed")
+    require(g216_package["edge_exp_delta"] == "21/20", "G216 edge depth proxy changed")
+    require(
+        g216_package["landing"]
+        == "PAIR_GERM_PROPER_CLOCK_RATE_LAW__UNIT_CLOCK_TRIVIALIZATION__COMMON_REPARAMETERIZATION_CANCELLATION",
+        "G216 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6014,7 +6086,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G215-extended premise guards; PASS: 199-row premise "
+        "PASS: G216-extended premise guards; PASS: 200-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

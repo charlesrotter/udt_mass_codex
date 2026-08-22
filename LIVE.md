@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G215. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G216. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -72,21 +72,19 @@ unselected.
 G212/G213 make the valued network the metric state and close its local information gate: five
 determinant-one spatial modes plus typed `(m,h_s)` preserve G129 rank ten; deleting `m` loses scale.
 
-Externally reviewed G214 proves this tuple descends on supplied positive calibrated pair covers:
-density `m` carries the overlap determinant, `h_s` carries an induced `SL(2)` cocycle, and
-reconstruction commutes. Distinct `AB`, `BC`, and `AC` pair surfaces have no automatic metric
-product.
-
-Externally reviewed G215 derives that completed `Phi=-log T` belongs to the
-calibrated clock tangent. Shared-clock scalar cycles telescope. G171 regrades to a raw control:
-completed scalars agree while density and shift differ. Recalibrated edge clocks retain the defect;
-full pair metrics still have no native product.
+Externally reviewed G214 descends typed `(m,h_s)` across calibrated covers but gives distinct pair
+surfaces no metric product. G215 makes completed `Phi=-log T` a shared comparison-clock scalar;
+G171 becomes a raw/recalibrated control while density and shift remain live. Preregistered G216
+passes an independent exact replay and sharpens `T`: a unit proper clock gives `T=1,Phi=0`, while a supplied event-pair germ gives
+`delta_AB=-log(d tau_B/d tau_A)`. Common reparameterization cancels; reversal/composition are
+inverse-function/chain-rule identities. No extra clock coefficient remains after the pair map is
+supplied. Physical event-pair/germ population and full carry remain open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the live families interlock after a metric and query are supplied. A valued rank-complete network
-needs no second scalar selector on a shared-clock network, but its values, directions, branches,
-full-germ carry, transfer, finite-anchor flow, and
-numerical `X_max` asymptote remain open. The physical carrier/`O(2)`, covariant `lambda`, conformal/common-scale
+needs no second scalar selector or pair-clock coefficient, but valuation, population, full-germ
+carry, transfer, finite-anchor flow, and asymptotic numerical `X_max` remain open. The physical carrier/`O(2)`,
+covariant `lambda`, conformal/common-scale
 ownership, bivector area bilinear, codimension eleven closure, and numerical valuation retain their
 registry status. The parity-even candidates fail on the registered non-collinear witness.
 
@@ -117,7 +115,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Test whether the physical observer definition owns the shared calibrated clock germ while keeping
-full pair-metric and immersion carry separate. Do
-not fit, identify `X_max`, select transfer, or use G116/G189 as construction inputs.
+Freshly adversarially review G216, then test whether the founded ordered physical-pair semantics
+owns the event-pair first jet whose proper-clock derivative now supplies the scalar. Keep full
+pair-metric and immersion carry separate. Do not fit, identify `X_max`, select transfer, or use
+G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

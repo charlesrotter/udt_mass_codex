@@ -89,21 +89,26 @@ physical scalar after the working premise. They must not be conflated.
   germ. Common-clock incidence networks telescope, while independently recalibrated edge clocks
   retain the exact defect. G171's raw mismatch is regraded; density, shift, and full pair carry stay
   live.
+- G216 identifies the exact clock type. The metric-unit proper-time tangent has `T=1,Phi=0`; on one
+  supplied event-pair germ the nonzero invariant is
+  `delta_AB=-log(d tau_B/d tau_A)`. Common pair reparameterization cancels, and reversal/composition
+  are inverse-function/chain-rule identities. No extra pair-clock coefficient remains after a
+  calibrated pair map is supplied; physical event-pair germ ownership remains open.
 
-G206--G215 are externally verified with caveats. None generates a sector function, finite-anchor
-flow, or `X_max`.
+G206--G215 are externally verified with caveats. G216 passes an independent exact replay and still
+requires fresh review. None generates a sector function, finite-anchor flow, or `X_max`.
 
 Structural package:
-`udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`.
+`udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G215 close the local
-  basis, spatial modes, compatible-cover bridge, and shared-clock scalar incidence, not valuation,
-  full-germ carry, or pair population.
+- The primary static-spherical/areal slice and profile are supplied. G211--G216 close the local
+  basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
+  interpretation, not valuation, full-germ carry, or pair population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -126,7 +131,7 @@ contractions.
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
-then close the diagonal dependency. G212--G215 remove the second-scalar-selector framing and close
-shared-clock scalar incidence while retaining open valuation and full-germ ownership. Next audit
-whether observer typing owns the shared clock. Do not fit, identify
-`X_max`, select transfer, or revive historical application inputs.
+then close the diagonal dependency. G212--G216 remove the second-scalar-selector framing, close
+shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
+event-pair germ. Next obtain fresh review, then test ownership of that event-pair first jet. Do not
+fit, identify `X_max`, select transfer, or revive historical application inputs.

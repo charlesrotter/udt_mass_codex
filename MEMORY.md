@@ -4,29 +4,22 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G215 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G216 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
 control, not completed `Phi`.
 
-G190--G198 use chosen families and standard evaluators; G196's IVP is formula-level regression.
-G199 removes their chosen coupling and finds both primary radial germs share frequency, screen, and
-`D=lambda I`. G200 finds the primary reversed nonradial germs share local laws; finite differences
-are radial-gradient sampling. G198 remains a chosen-family control with an off-ray ceiling.
-
-G201 shows instruments are not lockstep. G202/G203/G204 type quiet overlap and alternatives. G205
-proves the supplied static family complete and globally hyperbolic. `X_max` remains unselected.
-
-G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and volume before readout; no component history or
-`X_max` is selected. G211 proves the diagonal scalar plane has only common and relative spatial
-scale; cones, affine reach, and depth hear different combinations.
-G212 makes the valued network the metric state. G213 counts five determinant-one spatial modes and
-proves typed `(m,h_s)` completed tuples retain G129 rank ten; without `m`, spatial scale is blind.
-G214 proves these tuples descend across positive calibrated overlaps without density loss. G215
-then shows completed `Phi=-log T` descends to one shared calibrated clock germ, so scalar cycles
-close. G171's raw mismatch is now an uncompleted/recalibrated-clock control; density, shift, and
-full pair carry remain live.
+G190--G198 use chosen families; G196 is formula-level regression and G198 has an off-ray ceiling.
+G199--G200 remove a primary chiral switch. G201 permits non-lockstep instruments.
+G202/G203/G204 classify quiet alternatives; G205 proves the supplied family complete. G206/G207/
+G208/G209/G210 classify scale, screen, mixing, shift, and volume without selecting `X_max`. G211
+closes diagonal scalars. G212 makes the valued network the metric state; G213 retains G129 rank ten
+with typed `(m,h_s)`. G214 descends it across covers. G215 closes shared-clock scalar incidence
+while density, shift, and full carry remain live. G216 gives unit proper clocks `T=1,Phi=0` and the
+supplied-germ invariant `delta_AB=-log(d tau_B/d tau_A)`; common reparameterization cancels and
+inverse/chain rules give reversal/composition. No extra scalar clock coefficient remains; physical
+event-pair population stays open.
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
@@ -54,8 +47,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G215 is externally verified with caveats. Next test whether observer typing owns the shared clock
-without collapsing full pair carry. No fits, `X_max`, or transfer inputs.
+G216 passes an independent exact replay and still requires fresh review. After review, test
+whether founded ordered-pair semantics owns the event-pair first jet without collapsing full pair
+carry. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

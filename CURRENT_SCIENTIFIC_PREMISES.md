@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Shared-clock scalar network | externally verified with caveats | Completed `Phi=-log T`; common-clock cycles telescope | Clock ownership; full-germ carry |
+| Pair-clock network | G215 external; G216 exact, review due | `Phi=-log T`; edge depth is `-log(d tau_B/d tau_A)` | Pair-germ ownership; full carry |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -27,22 +27,23 @@
 | G181--G184 strata/equivalence | conditional; accepted | Endpoints, carry, branches, quotient; equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
 | G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
-| G199 primary radial two-direction audit | independently verified with caveats | Reversed radial germs share one frequency/screen law; no native chiral split |
-| G200 primary nonradial two-direction audit | independently verified with caveats | Same local two-mode tide; finite directional difference begins through opposite radial-gradient sampling |
-| G201 primary phi-jet amplitude audit | independently verified with caveats | Reciprocal magnitude is two-sided; angular modes depend on radial jets and need not share one envelope |
-| G202 quiet-overlap/profile-anchor audit | independently verified with caveats | Quietness is a zero logarithmic second jet; infinite profiles survive and anchors calibrate rather than derive |
-| G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
-| G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the log extension; infinite alternatives survive |
-| G205 geodesic/causal completion audit | externally verified with caveats | Supplied family is complete and globally hyperbolic; null strata select nothing |
-| G206 conformal live extension | externally verified with caveats | Cones survive; affine reach and completed `Phi` hear scale |
-| G207 trace-free screen extension | externally verified with caveats | Volume/radial cones survive; null strata coexist; pairs respond |
-| G208 radial-screen mixing | externally verified with caveats | Volume survives; radial width changes; outcome strata coexist |
-| G209 time-space shift | externally verified with caveats | Shift translates cones; outcome strata coexist |
-| G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
-| G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
-| G212 history bridge | verified with caveats | A valued rank-complete network is the state; finite-anchor flow remains open |
-| G213--G214 rank and descent | externally accepted with caveats | Five modes; density-completed tuples retain rank ten and descend across calibrated covers |
-| G215 shared-clock scalar incidence | externally verified with caveats | Completed scalar descends to the calibrated clock; G171 raw mismatch regraded |
+| G199 primary radial two-direction audit | verified w/caveats | Reversed germs share one frequency/screen law; no chiral split |
+| G200 primary nonradial two-direction audit | verified w/caveats | Same local tide; finite difference begins with gradient sampling |
+| G201 primary phi-jet amplitude audit | verified w/caveats | Two-sided magnitude; angular modes depend on radial jets |
+| G202 quiet-overlap/profile-anchor audit | verified w/caveats | Quietness is a zero logarithmic second jet; alternatives survive |
+| G203 quiet-parameter ownership audit | verified w/caveats | Order, area, and steepness are unselected invariants |
+| G204 global regularity/asymptotic audit | verified w/caveats | Smooth center excludes the log extension; alternatives survive |
+| G205 geodesic/causal completion audit | external w/caveats | Supplied family complete and globally hyperbolic |
+| G206 conformal live extension | external w/caveats | Cones survive; affine reach and `Phi` hear scale |
+| G207 trace-free screen extension | external w/caveats | Volume/radial cones survive; outcome strata coexist |
+| G208 radial-screen mixing | external w/caveats | Volume survives; radial width changes |
+| G209 time-space shift | external w/caveats | Shift translates cones; outcome strata coexist |
+| G210 spatial-volume scalar | external w/caveats | Determinant mode rescales causal width |
+| G211 diagonal-scalar basis closure | external w/caveats | Common/relative scale form rank-two basis |
+| G212 history bridge | verified w/caveats | Valued rank-complete network is the state; flow open |
+| G213--G214 rank and descent | externally accepted | Five modes; completed tuples retain rank ten and descend |
+| G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
+| G216 comparison-clock rate ownership | independently verified; fresh review required | Unit proper clock is locally trivial; nonzero edge depth is the proper-time pairing-rate derivative |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -67,8 +68,9 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- G212--G215 close state, rank, cover descent, and shared-clock scalar incidence. Valuation,
-  population, full-germ incidence, transfer, and completion stay open.
+- G212--G216 close state, rank, cover descent, shared-clock incidence, and the proper-clock rate
+  interpretation. Valuation, event-pair population, full-germ incidence, transfer, and completion
+  stay open.
 
 ## Carrier, action, source, and matter
 
@@ -102,7 +104,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 199-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 200-row authority. On conflict, stop.
 
 Run:
 

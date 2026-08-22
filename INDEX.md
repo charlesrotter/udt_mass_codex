@@ -52,15 +52,13 @@
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
 - Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
   `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
-- Shared-clock incidence: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`
-G129--G165 are controls; G166--G184 build completed pairs; G185--G189 are application controls;
-G190--G198 evaluate chosen families and select no histories or germs.
-G197 guards provenance and the G190--G192 evidence ceiling; G198 is a chosen-family control.
-G199--G200 remove a native chiral switch; G201 permits non-lockstep channels; G202--G204 classify
-quiet alternatives; G205 proves static completion. G206--G210 classify supplied scale, screen,
-mixing, shift, and volume. G211 closes diagonal scalars; G212 reframes the state; G213 closes local
-rank; G214 transfers it across calibrated covers; G215 closes shared-clock scalar incidence while
-leaving valuation, population, and full-germ carry open.
+- Clock incidence/rate: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`;
+  `udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`
+G129--G165 are controls; G166--G184 build pairs; G185--G189 are application controls; G190--G198
+evaluate chosen families. G197 guards provenance. G199--G200 remove a chiral switch; G201--G210
+classify channels and completion. G211--G214 close local basis, state, rank, and cover descent.
+G215--G216 close scalar incidence and identify the supplied-germ proper-clock derivative. Valuation,
+event-pair population, and full-germ carry remain open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -69,7 +67,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 199-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 200-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
