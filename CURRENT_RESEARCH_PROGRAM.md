@@ -81,9 +81,17 @@ physical scalar after the working premise. They must not be conflated.
   unrestricted-live supercritical circular-orbit witness is null incomplete. Generic
   screen-bearing completed pairs respond internally, while static-clock germs are blind. This is
   an externally verified conditional classification, not a physical `S` or `X_max` selection.
+- G208 turns on a pure self-adjoint radial-screen mixer `C` through `A=exp(C)` before pullback. It
+  preserves signature and ambient determinant but changes the sharp radial causal law to
+  `|dr/dt| <= f sqrt(cosh(2s))`. The common conformal scale composes exactly with supplied shape.
+  Growth-controlled slabs, every bounded static mixer, and one compact-live class survive their
+  stated causal/null tests; a smooth center-regular unbounded static mixer gives an exact failure
+  class. Completed pairs hear radial/generic mixing internally. External review retained the
+  analytic theorems with caveats; finite scripts independently certify only the local algebra and
+  boundary anchors. No physical `C`, history, or `X_max` is selected.
 
 Current structural package:
-`udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`.
+`udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -115,8 +123,9 @@ The primary metric excludes the chosen chiral coupling; reversed germs use one l
 volumes need not be lockstep. Quiet overlap, its descriptors, and the bounded smooth-center/outer
 asymptotic alternatives are exact; G205 closes their static-spherical geodesic/causal completion.
 G206 closes the common-conformal live/nonspherical robustness tile without selecting `Omega`.
-G207 closes the pure trace-free angular-screen tile without selecting `S`; the static/live affine
-boundary and completed-pair coupling are now exact. Their values remain unselected. Next MAP and
-PONDER one smallest metric-led radial-screen mixing tile, unless an exact dependency proof shows
-that combined common-scale/shear interaction must come first. Do not fit, invent channel
-coefficients, identify any limit with `X_max`, select transfer, or use G116/G189 as inputs.
+G207 closes the pure trace-free angular-screen tile without selecting `S`. G208 closes the first
+pure radial-screen mixing tile, including the altered causal bound, survivor/failure classes,
+completed-pair response, and exact scale/shape composition, without selecting `C`. Their values
+remain unselected. Next MAP and PONDER one smallest metric-led time-space shift tile unless a trace-
+changing spatial mode is proven to precede it. Do not fit, invent channel coefficients, identify
+any limit with `X_max`, select transfer, or use G116/G189 as inputs.

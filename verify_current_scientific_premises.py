@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G207",
+            "G166--G208",
             "G196",
             "G197",
             "G198",
@@ -175,6 +175,7 @@ def validate_startup_surface(root: Path) -> None:
             "G205",
             "G206",
             "G207",
+            "G208",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -228,7 +229,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "191-row exact registry",
+            "192-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -265,6 +266,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/",
             "udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/",
             "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/",
+            "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -275,7 +277,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G207",
+            "G166--G208",
             "G197",
             "G198",
             "G199",
@@ -287,6 +289,7 @@ def validate_startup_surface(root: Path) -> None:
             "G205",
             "G206",
             "G207",
+            "G208",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -312,6 +315,7 @@ def validate_startup_surface(root: Path) -> None:
             "G205",
             "G206",
             "G207",
+            "G208",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -336,10 +340,11 @@ def validate_startup_surface(root: Path) -> None:
             "G205",
             "G206",
             "G207",
+            "G208",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "191-row",
+            "192-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -574,6 +579,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md",
         "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/AUDIT_REPORT.md",
         "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/AUDIT_REPORT.md",
+        "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -600,9 +606,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 191, "premise registry must contain exactly 191 rows")
+    require(len(rows) == 192, "premise registry must contain exactly 192 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 191, "duplicate premise id")
+    require(len(by_id) == 192, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1195,6 +1201,79 @@ def main() -> None:
     require(
         g207_package["external_adversarial_review"] == "VERIFIED_WITH_CAVEATS",
         "G207 external review absent",
+    )
+    require(
+        by_id["G208"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_FB1AF9DF__"
+            "FRESH_EXTERNAL_GPT54_VERIFIED_WITH_CAVEATS_NO_MATHEMATICAL_REFUTATION"
+        ),
+        "G208 bounded grade changed or promoted",
+    )
+    for guard in (
+        "COMMON_CONFORMAL_SCALE_COMPOSES_EXACTLY_WITH_ANY_SUPPLIED_SHAPE_METRIC",
+        "PURE_H0_SELFADJOINT_RADIAL_SCREEN_C_CHOSE_EXTENSION_CLASS",
+        "LORENTZ_SIGNATURE_AND_AMBIENT_DETERMINANT_PRESERVED",
+        "SHARP_RADIAL_CAUSAL_BOUND_ABS_DRDT_LE_F_SQRT_COSH_2S",
+        "GROWTH_CONTROLLED_SLAB_CLASS_GLOBALLY_HYPERBOLIC",
+        "ALL_GLOBALLY_BOUNDED_SMOOTH_STATIC_MIXERS_NULL_COMPLETE",
+        "COMPACT_TIME_LIVE_UNIFORMLY_CONTROLLED_CLASS_NULL_COMPLETE",
+        "SMOOTH_CENTER_REGULAR_UNBOUNDED_STATIC_MIXER_FAILURE_CLASS_NOT_GLOBALLY_HYPERBOLIC_AND_NOT_NULL_COMPLETE",
+        "COMPLETED_PAIR_PULLBACK_HEARS_RADIAL_AND_GENERIC_MIXING_BEFORE_READOUT",
+        "STATIC_CLOCK_AND_UNTOUCHED_SCREEN_KERNEL_BLIND_STRATA",
+        "ANALYTIC_GLOBAL_THEOREMS_EXTERNALLY_REVIEWED_NOT_MECHANIZED",
+        "NO_TIMELIKE_SPACELIKE_COMPLETENESS_TRACECHANGE_SHIFT_ARBITRARY_FULL_SPATIAL_MAP_PHYSICAL_C_HISTORY_XMAX",
+    ):
+        require(guard in by_id["G208"]["current_status"], f"G208 guard absent: {guard}")
+    require(by_id["G208"]["epistemic_label"] == "MIXED", "G208 label changed")
+    require(
+        by_id["G208"]["active_use"]
+        == "ACTIVE_BOUNDED_PURE_RADIAL_SCREEN_MIXING_CAUSAL_NULL_AFFINE_FAILURE_AND_COMPLETED_PAIR_CLASSIFICATION_OVER_THE_SUPPLIED_G205_FAMILY_ONLY",
+        "G208 active scope widened",
+    )
+    require(
+        by_id["G208"]["controlling_source"]
+        == "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/AUDIT_REPORT.md",
+        "G208 controlling source changed",
+    )
+    g208 = ROOT / "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "BOUNDARY_DIAGNOSTICS.json",
+        "CATCH_PROOF_RESULT.json",
+        "SOURCE_PROVENANCE_VERIFICATION.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "TRANSMISSION_RECORD.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g208 / name).is_file(), f"G208 evidence missing: {name}")
+    g208_package = json.loads((g208 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g208_package["status"] == "PASS", "G208 package verification failed")
+    require(g208_package["no_write_replay"] is True, "G208 no-write replay absent")
+    require(g208_package["production_assertions"] == 20, "G208 production count changed")
+    require(g208_package["independent_assertions"] == 120004, "G208 assertion count changed")
+    require(g208_package["independent_cases"] == 10000, "G208 case count changed")
+    require(g208_package["diagnostic_precision_digits"] == 240, "G208 diagnostic precision changed")
+    require(g208_package["mutation_catches"] == 23, "G208 hostile count changed")
+    require(g208_package["live_source_hashes_recorded"] == 9, "G208 source count changed")
+    require(
+        g208_package["live_source_hash_check"] == "SEPARATE_REPOSITORY_CONTEXT_GATE",
+        "G208 provenance/replay separation absent",
+    )
+    require(
+        g208_package["global_theorem_evidence"]
+        == "ANALYTIC_EXTERNALLY_REVIEWED_NOT_MECHANIZED",
+        "G208 analytic evidence ceiling absent",
+    )
+    require(
+        g208_package["external_adversarial_review"] == "VERIFIED_WITH_CAVEATS",
+        "G208 external review absent",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -5412,7 +5491,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G207-extended premise guards; PASS: 191-row premise "
+        "PASS: G208-extended premise guards; PASS: 192-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

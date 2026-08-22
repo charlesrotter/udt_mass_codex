@@ -1,0 +1,12 @@
+{
+  "anchors": [
+    "R dot U = 0",
+    "exp(-4phi)/f = f",
+    "radial Schur = 1/cosh(2s)"
+  ],
+  "assertion_count": 120004,
+  "distinct_exact_cases": 10000,
+  "method": "independent Fraction boost parameterization plus separate SymPy anchors",
+  "production_imported": false,
+  "status": "PASS"
+}

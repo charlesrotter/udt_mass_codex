@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G207. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G208. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -48,30 +48,28 @@ remain chosen-family controls, and the two-ray off-ray reconstruction ceiling re
 
 G201 rewrites the exact primary nonradial tides using `p=r phi'` and `q=r^2 phi''`:
 `A_parallel=exp(-2phi)(2p^2+p-q)` and `A_perp=1-exp(-2phi)(1+p)`. Thus reciprocal depth has a
-two-sided algebraic magnitude, but angular instruments need not share one lockstep envelope.
-Angular quietness at `phi=0` requires `p=q=0`; an exact smooth family `f=1+C r^2` cancels both
-angular tides while approaching either signed `phi` extreme on appropriate positive domains.
-Independent exact replay passes 10,000 arbitrary jets, 1,000 cancellation cases, 400 smooth-family
-controls, and 23,606 assertions. This proves lawful regime-dependent instrument ratios, not a
-selected physical profile or universal response score.
+two-sided magnitude, while angular instruments need not share one envelope. Quietness at `phi=0`
+requires `p=q=0`; `f=1+C r^2` cancels both tides even toward either signed extreme. This permits
+regime-dependent ratios but selects no profile or universal score.
 
-G202/G203/G204 derive quiet overlap, unselected descriptors, and an infinite smooth even-areal
-trough/asymptote family. G205 proves this supplied family geodesically complete and globally
-hyperbolic on declared `R x R3`, with exact zero/one/two circular-null strata. External review
-retained the analytic theorems; scripts verify only their algebraic core. No parameter, history,
-maximal extension, event horizon, or `X_max` is selected.
+G202/G203/G204 derive quiet overlap, unselected descriptors, and a smooth even-areal family. G205 proves
+that supplied family complete and globally hyperbolic on declared `R x R3`, with exact circular-null
+strata. Its global theorems are analytic, not script-mechanized; no history or `X_max` is selected.
 
-G206 applies arbitrary smooth live/nonspherical common scale. Causality and global hyperbolicity
-survive; null completeness is exactly the two-ended `exp(2 Omega)` affine-integral test. Bounded
-and decaying witnesses respectively survive and fail. Completed pairs obey
-`Phi_tilde=Phi-Omega composed F`. This selects no `Omega`, history, or `X_max`.
+G206 adds arbitrary smooth live/nonspherical common scale. Causality survives; null completeness is
+the two-ended `exp(2 Omega)` affine-integral test, and completed pairs obey
+`Phi_tilde=Phi-Omega composed F`. No `Omega`, history, or `X_max` is selected.
 
-G207 turns on determinant-one trace-free screen shape before pullback. It preserves signature,
-ambient determinant, radial causal control, G205 Cauchy slices, and global hyperbolicity. Static
-members and a compact-live witness are null complete; unrestricted live shear has an exact
-globally-hyperbolic but null-incomplete circular-orbit witness. Generic screen clocks hear shear;
-static clocks are blind. `S` remains `FREE_AND_EXPLORED`; combined scale/shear, radial-screen
-mixing, other completeness, history, and `X_max` remain open.
+G207 adds determinant-one trace-free screen shape before pullback. Signature, volume, radial
+causality, and global hyperbolicity survive. Static and compact-live members survive; unrestricted
+live shear has an exact null-incomplete orbit. Screen clocks hear it; static clocks are blind.
+
+G208 adds pure self-adjoint radial-screen mixing. Signature and ambient volume survive, but the
+sharp bound becomes `|dr/dt| <= f sqrt(cosh(2s))`; common scale composes exactly with shape.
+Growth-controlled, bounded-static, and compact-live classes survive, while one smooth unbounded
+static mixer destroys global hyperbolicity and null completeness. Completed pairs hear mixing
+before readout. External review retained the analytic, non-mechanized theorems. `S`, `C`, physical
+combined histories, shift, trace-changing modes, and `X_max` remain unselected or open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -111,9 +109,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G207 closes the pure trace-free screen robustness tile. Next MAP and PONDER the smallest
-metric-led radial-screen mixing tile, or prove that combined common-scale/shear interaction must
-precede it; preregister only one causal, affine, and completed-pair classification. Do not fit,
-identify any limit with `X_max`, select transfer, derive a metric by template, or use G116/G189 as
-construction inputs.
+G208 closes the first pure radial-screen mixing robustness tile and proves that common scale
+composes with already supplied shape. Next MAP and PONDER the smallest metric-led time-space shift
+tile, unless an exact dependency proof shows that a trace-changing spatial mode must precede it.
+Preregister one causal, affine, and completed-pair classification only. Do not fit, identify any
+limit with `X_max`, select transfer, derive a metric by template, or use G116/G189 as construction
+inputs.
 <!-- STARTUP_CURRENT_END -->

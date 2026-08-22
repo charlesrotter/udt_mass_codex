@@ -1,0 +1,30 @@
+{
+  "catch_count": 23,
+  "catches": [
+    "affine_weight_must_be_exp_2omega",
+    "ambient_det_not_pair_area_blindness",
+    "bounded_static_scope_not_unrestricted",
+    "chosen_witness_not_selected_history",
+    "compact_live_requires_relative_time_bound",
+    "completed_phi_shift_sign_matters",
+    "constant_sigma_over_r2_is_center_singular",
+    "expanding_spiral_not_contracting",
+    "g207_radial_bound_not_retained",
+    "generic_cross_term_nonzero",
+    "missing_square_root_changes_bound",
+    "nonsymmetric_boost_breaks_det",
+    "old_radial_schur_is_wrong",
+    "omitting_cross_term_changes_metric",
+    "pair_determinant_has_fourth_scale_power",
+    "radial_clock_not_blind",
+    "same_sign_eigenvalues_break_det",
+    "sigma_2phi_does_not_give_f_integrand",
+    "slab_growth_condition_not_plain_smoothness",
+    "timelike_spacelike_not_inferred",
+    "untouched_screen_is_blind",
+    "wrong_minimizer_sign",
+    "xmax_not_input_or_output"
+  ],
+  "scope": "algebra, global-theorem typing, pair response, provenance, and X_max guards",
+  "status": "PASS"
+}

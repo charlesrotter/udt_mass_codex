@@ -1,0 +1,29 @@
+{
+  "assertion_count": 20,
+  "assertions": [
+    "boost_det_one",
+    "spatial_det_one",
+    "mixed_metric_exact",
+    "positive_leading_minor_1",
+    "positive_leading_minor_2",
+    "positive_leading_minor_3",
+    "boost_eigenvalues",
+    "metric_eigenvalues",
+    "radial_schur_sech",
+    "screen_minimizer",
+    "minimum_radial_norm",
+    "old_radial_bound_only_at_zero_mix",
+    "pair_conformal_pullback",
+    "pair_determinant_weight",
+    "completed_clock_weight",
+    "witness_integrand_identity",
+    "static_clock_blind",
+    "untouched_screen_blind",
+    "radial_clock_hears",
+    "generic_clock_has_cross_term"
+  ],
+  "exact_radial_schur": "2*q**2/(q**4 + 1)",
+  "landing": "RADIAL_SCREEN_MIXING_PRESERVES_SIGNATURE_AND_AMBIENT_VOLUME_BUT_REPLACES_THE_RADIAL_CAUSAL_BOUND__GROWTH_CONTROLLED_AND_BOUNDED_STATIC_CLASSES_SURVIVE__A_SMOOTH_CENTER_REGULAR_UNBOUNDED_STATIC_MIXER_DESTROYS_GLOBAL_HYPERBOLICITY_AND_NULL_COMPLETENESS__COMPLETED_PAIRS_HEAR_RADIAL_MIXING_BEFORE_READOUT__NO_PHYSICAL_MIXER_HISTORY_OR_XMAX_SELECTION",
+  "mechanization_scope": "finite-dimensional algebra and witness-integrand identity only",
+  "witness_optical_integrand": "sqrt(2)*f(r)"
+}

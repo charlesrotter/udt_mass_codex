@@ -1,0 +1,14 @@
+{
+  "diagnostic_precision_digits": 240,
+  "external_adversarial_review": "VERIFIED_WITH_CAVEATS",
+  "global_theorem_evidence": "ANALYTIC_EXTERNALLY_REVIEWED_NOT_MECHANIZED",
+  "independent_assertions": 120004,
+  "independent_cases": 10000,
+  "live_source_hash_check": "SEPARATE_REPOSITORY_CONTEXT_GATE",
+  "live_source_hashes_recorded": 9,
+  "mutation_catches": 23,
+  "no_write_replay": true,
+  "production_assertions": 20,
+  "provenance_manifest_rows": 9,
+  "status": "PASS"
+}
