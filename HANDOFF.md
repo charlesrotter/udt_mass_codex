@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G210 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G211 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -31,18 +31,16 @@ G202/G203/G204 type quiet overlap, unselected descriptors, and a smooth even-are
 that supplied family geodesically complete and globally hyperbolic on declared `R x R3`, with exact
 null-orbit strata. Parameters, maximal extension, and `X_max` remain unselected.
 
-G206 common scale preserves causality and makes null completeness an affine-weight test. G207
-trace-free screen preserves volume/radial causality/global hyperbolicity; survivor and failure
-classes coexist. Their completed-pair readouts have exact responsive and blind strata.
+G206 common scale, G207 trace-free screen, G208 mixing, G209 shift, and G210 relative volume enter
+before pair readout. Cones, affine reach, and completed depth hear different combinations; bounded
+survivor/failure and responsive/blind strata coexist. Global proofs remain analytic. No component
+function, history, lapse, or `X_max` is selected.
 
-G208 mixing preserves volume but changes the sharp radial bound; controlled survivors and one
-causal/null failure coexist. G209 shift preserves signature/determinant/temporal `dt` while moving
-the causal center; survivor and null-incomplete classes coexist. Pairs hear both before readout.
-
-G210 isolates the unique relative spatial-volume scalar. It fixes the shift center and rescales
-causal widths. Controlled survivors and the radial-null-incomplete `sigma=-phi` control coexist;
-spatial clocks hear it with exact blind strata. External review required no repair; global proofs
-remain analytic. No sector history, lapse, or `X_max` is selected.
+G211 proves the local diagonal scalar sector has rank two after the calibrated split and references
+are supplied. Common scale `Omega` and relative spatial scale `q` are an exact basis; lapse-only is
+their fixed mixture, not a third tile. Cones hear `q`; null affine reach and completed depth also
+hear `Omega`. External review required no repair. No split, scalar profile, global realization, or
+`X_max` is selected.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -68,9 +66,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G210 closes the unique relative spatial-volume tile and bounded G205 subclasses. Next map and ponder
-the remaining lapse/diagonal-scalar dependency before solving it. Do not fit, activate arbitrary
-coframe terms, identify `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
+G211 closes the complete local diagonal-scalar plane. Next map and ponder the determinant-one
+spatial remainder, count its full local modes, and separate modes already covered by G207/G208 from
+genuinely unclassified modes before solving. Do not fit, activate arbitrary coframe terms, identify
+`X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

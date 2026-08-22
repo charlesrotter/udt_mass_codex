@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G210. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G211. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -56,26 +56,20 @@ G202/G203/G204 derive quiet overlap, unselected descriptors, and a smooth even-a
 that supplied family complete and globally hyperbolic on declared `R x R3`, with exact circular-null
 strata. Its global theorems are analytic, not script-mechanized; no history or `X_max` is selected.
 
-G206 common scale preserves causality; null completeness is its two-ended affine-integral test and
-completed `Phi` hears the scale. No `Omega`, history, or `X_max` is selected.
+G206--G210 classify supplied metric components before pair readout. G206 common scale preserves
+cones but changes affine and completed-depth calibration. G207 trace-free screen preserves volume
+and radial cones. G208 mixing changes the sharp radial width. G209 shift translates the causal
+center. G210 uniquely isolates `sigma=(1/6)log(det K/det H)` and its `exp(-sigma)` width factor.
+Declared survivor, failure, response, and blind strata coexist; global proofs remain analytic.
+None selects a component function, history, or `X_max`.
 
-G207 trace-free screen shape preserves signature, volume, radial causality, and global
-hyperbolicity. Static/compact-live survivors and a live null-incomplete witness coexist; pair
-response has exact blind strata.
-
-G208 radial-screen mixing preserves volume but changes the sharp bound to
-`|dr/dt| <= f sqrt(cosh(2s))`. Controlled survivors and one causal/null failure coexist; completed
-pairs hear mixing. Its global theorems remain analytic; `S`, `C`, history, and `X_max` are open.
-
-G209 full shift preserves signature, determinant, and temporal `dt` while translating the causal
-ellipsoid. Controlled survivors and one globally-hyperbolic/null-incomplete counterclass coexist;
-pairs hear shift except on exact blind strata. No shift history is selected.
-
-G210 isolates `sigma=(1/6)log(det K/det H)`, the unique relative spatial-determinant scalar after a
-positive reference is supplied. It fixes the shift center and scales widths by `exp(-sigma)`.
-Controlled survivors and the radial-null-incomplete `sigma=-phi` control coexist; spatial clocks
-hear it, with exact blind strata. External review required no repair; global proofs remain analytic.
-No physical `sigma`, lapse, history, or `X_max` is selected.
+G211 closes the remaining local diagonal-scalar dependency after a calibrated `1+3` reference is
+supplied. The sector has rank two: `Omega=ell` and `q=sigma-ell` form an exact basis, while a
+lapse-only deformation is the line `Omega=ell,q=-ell`, not a third tile. Four-volume hears
+`V=ell+3sigma`; causal widths hear `W=ell-sigma=-q`; null affine reach and completed `Phi` also hear
+`Omega`. External review found no refuting defect and required no repair. The split, scalar
+functions, arbitrary determinant-one spatial remainder, global realization, and `X_max` remain
+unselected.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -115,9 +109,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G210 closes the unique relative spatial-volume tile and its declared G205 subclasses. Next MAP and
-PONDER the remaining lapse/diagonal-scalar dependency, explicitly checking whether it is an
-independent metric tile or only a recombination of already classified scales before any solve. Do
-not fit, identify any limit with `X_max`, select transfer, derive a metric by template, or use
-G116/G189 as construction inputs.
+G211 closes the complete local diagonal-scalar plane and proves that lapse-only is not a third
+instrument. Next MAP and PONDER the determinant-one spatial remainder: count its full local modes,
+locate exactly which are already covered by G207/G208, and identify only the genuinely unclassified
+metric-native modes before any solve. Do not fit, identify any limit with `X_max`, select transfer,
+derive a metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

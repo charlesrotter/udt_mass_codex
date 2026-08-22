@@ -1,0 +1,15 @@
+id	status	statement
+S01	DERIVED_CONDITIONAL	unique lapse ell and spatial-volume sigma after supplied calibrated references
+S02	DERIVED_CONDITIONAL	common scale Omega and relative mode q form an exact rank-two basis
+S03	DERIVED_CONDITIONAL	lapse-only is the line Omega equals ell and q equals minus ell not a third tile
+S04	DERIVED_CONDITIONAL	four-volume density scales by exp ell plus three sigma
+S05	DERIVED_CONDITIONAL	causal center remains minus b and widths scale exp ell minus sigma equals exp minus q
+S06	DERIVED_CONDITIONAL	common Omega cancels from causal curves and preserves conditional Cauchy slices
+S07	DERIVED_CONDITIONAL	null affine parameters compose by exp two Omega
+S08	DERIVED_CONDITIONAL	static radial affine density is exp ell plus sigma equals exp two Omega plus q
+S09	CHOSE_CONTROLS__DERIVED_RESULTS	G205 common relative and compensated radial controls separate cones from affine reach
+S10	DERIVED_CONDITIONAL	completed pair Phi hears common Omega and generic spatial q before readout
+S11	DERIVED_CONDITIONAL	Eulerian-normal and unshifted-static clocks are q-blind but not Omega-blind
+S12	OPEN	physical scalar functions foliation determinant-one history and global realization
+S13	OPEN	Xmax transfer source action matter observations and signalling
+S14	EVIDENCE_CEILING	finite scripts do not mechanize global causal and all-null analytic theorems

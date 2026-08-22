@@ -1,0 +1,7 @@
+{
+  "assertion_count": 280003,
+  "distinct_exact_cases": 10000,
+  "method": "independent Fraction ADM determinant/inverse, scalar basis, cone, pair, and radial-null replay",
+  "production_imported": false,
+  "status": "PASS"
+}

@@ -84,21 +84,26 @@ physical scalar after the working premise. They must not be conflated.
   `H` is supplied. It fixes the shift center, scales all widths by `exp(-sigma)`, and enters
   spatially bearing pairs. Controlled survivors and the radial-null-incomplete `sigma=-phi` control
   coexist. Its common-scale-plus-lapse factorization is a dependency identity, not a history law.
+- G211 proves the complete local diagonal scalar plane has rank two after the calibrated split and
+  references are supplied. `Omega=ell` and `q=sigma-ell` form an exact basis; lapse-only is their
+  fixed mixture, not a third tile. Four-volume, causal width, null affine reach, and completed depth
+  hear different exact combinations. No scalar function or history is selected.
 
-G206--G210 are externally reviewed conditional classifications. Their global results remain
+G206--G211 are externally reviewed conditional classifications. Their global results remain
 analytic where stated; none selects a sector function, physical history, or `X_max`.
 
 Current structural package:
-`udt_g210_g205_spatial_volume_robustness_2026-08-21/`.
+`udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice is declared; its profile is supplied. G210 leaves the
-  lapse/diagonal-scalar dependency and arbitrary determinant-one spatial histories open. A general UDT
-  ambient history is not derived by the arbitrary-coframe evaluator.
+- The primary static-spherical/areal slice is declared; its profile is supplied. G211 closes the
+  local diagonal-scalar basis but leaves the calibrated split, scalar functions, and arbitrary
+  determinant-one spatial histories open. A general UDT ambient history is not derived by the
+  arbitrary-coframe evaluator.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -119,8 +124,9 @@ numerical IVP legs are formula-level regression evidence; G193--G196 contain the
 contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
-volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G210
+volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and the relative
-spatial-volume scalar without selecting their functions. Next MAP and PONDER the remaining
-lapse/diagonal-scalar dependency before solving it. Do not fit, invent coefficients, identify
+spatial-volume scalar, then close their diagonal dependency without selecting their functions.
+Next MAP and PONDER the determinant-one spatial remainder, count its full local modes, and identify
+which modes G207/G208 actually cover before solving. Do not fit, invent coefficients, identify
 `X_max`, select transfer, or use G116/G189 as inputs.

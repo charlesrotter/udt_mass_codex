@@ -34,11 +34,12 @@
 | G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
 | G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the log extension; infinite alternatives survive |
 | G205 geodesic/causal completion audit | externally verified with caveats | Supplied family is complete and globally hyperbolic; null strata select nothing |
-| G206 conformal live extension | externally verified with caveats | Causality survives; affine weight controls null completeness; completed `Phi` hears pair scale; no selection |
-| G207 trace-free screen extension | externally verified with caveats | Volume, radial causality, and global hyperbolicity survive; static complete and live incomplete null strata coexist; pairs hear screen content |
-| G208 radial-screen mixing | externally verified with caveats | Volume survives; radial causality changes; survivor/failure classes coexist |
-| G209 time-space shift | externally verified with caveats | Shift translates the causal ellipsoid; bounded survivor/failure classes coexist |
-| G210 spatial-volume scalar | externally verified with caveats | Unique relative determinant mode rescales causal width; bounded survivor/failure classes coexist |
+| G206 conformal live extension | externally verified with caveats | Cones survive; affine reach and completed `Phi` hear scale |
+| G207 trace-free screen extension | externally verified with caveats | Volume/radial cones survive; null strata coexist; pairs respond |
+| G208 radial-screen mixing | externally verified with caveats | Volume survives; radial width changes; outcome strata coexist |
+| G209 time-space shift | externally verified with caveats | Shift translates cones; outcome strata coexist |
+| G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
+| G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -65,9 +66,10 @@ None selects completion or `X_max`.
   and `X_max`; the conformal-family result is an envelope control rather than a physical
   multiplicity theorem.
 - The supplied-pair chain uses G199--G204 for reversal, sampling, non-lockstep channels, and quiet
-  alternatives; G205 supplies static completion. G206--G210 classify common scale, trace-free
-  screen, mixing, shift, and spatial volume with survivor/failure strata. None
-  selects functions or histories; population, transfer, lapse, and global realization stay open.
+  alternatives; G205 supplies static completion. G206--G211 classify common scale, trace-free
+  screen, mixing, shift, spatial volume, and the exact diagonal-scalar dependency. None selects
+  functions or histories; population, transfer, determinant-one completion, and global realization
+  stay open.
 
 ## Carrier, action, source, and matter
 
@@ -102,7 +104,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 194-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 195-row authority. On conflict, stop.
 
 Run:
 

@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G210",
+            "G166--G211",
             "G196",
             "G197",
             "G198",
@@ -178,6 +178,7 @@ def validate_startup_surface(root: Path) -> None:
             "G208",
             "G209",
             "G210",
+            "G211",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -231,7 +232,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "194-row exact registry",
+            "195-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -271,6 +272,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/",
             "udt_g209_g205_timespace_shift_robustness_2026-08-21/",
             "udt_g210_g205_spatial_volume_robustness_2026-08-21/",
+            "udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -281,7 +283,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G210",
+            "G166--G211",
             "G197",
             "G198",
             "G199",
@@ -296,6 +298,7 @@ def validate_startup_surface(root: Path) -> None:
             "G208",
             "G209",
             "G210",
+            "G211",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -324,6 +327,7 @@ def validate_startup_surface(root: Path) -> None:
             "G208",
             "G209",
             "G210",
+            "G211",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -350,10 +354,12 @@ def validate_startup_surface(root: Path) -> None:
             "G207",
             "G208",
             "G209",
+            "G210",
+            "G211",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "194-row",
+            "195-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -615,9 +621,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 194, "premise registry must contain exactly 194 rows")
+    require(len(rows) == 195, "premise registry must contain exactly 195 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 194, "duplicate premise id")
+    require(len(by_id) == 195, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1426,6 +1432,76 @@ def main() -> None:
     )
     require(g210_package["required_repairs"] == 0, "G210 unexpected repair count")
     require(g210_package["scientific_landing_changed"] is False, "G210 landing changed")
+    require(
+        by_id["G211"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_7220E71F__"
+            "FRESH_EXTERNAL_GPT54_VERIFIED_WITH_CAVEATS_NO_REFUTING_DEFECT_NO_REPAIRS_REQUIRED"
+        ),
+        "G211 bounded grade changed or promoted",
+    )
+    for guard in (
+        "SUPPLIED_CALIBRATED_1PLUS3_SPLIT_POSITIVE_REFERENCE_LAPSE_AND_POSITIVE_SPATIAL_REFERENCE",
+        "COMPLETE_LOCAL_DIAGONAL_SCALAR_SECTOR_RANK_TWO",
+        "OMEGA_EQUALS_ELL_AND_Q_EQUALS_SIGMA_MINUS_ELL_EXACT_BASIS",
+        "LAPSE_ONLY_OMEGA_EQUALS_ELL_Q_EQUALS_MINUS_ELL_NOT_THIRD_TILE",
+        "V_EQUALS_ELL_PLUS_3SIGMA_AND_W_EQUALS_ELL_MINUS_SIGMA_EXACT_VOLUME_CONE_BASIS",
+        "CAUSAL_CENTER_MINUS_B_WIDTHS_EXP_MINUS_Q_COMMON_SCALE_CANCELS_CONES",
+        "CAUCHY_TRANSFER_CONDITIONAL_ON_SUPPLIED_GQ_ONLY",
+        "NULL_AFFINE_DLAMBDAG_EQUALS_EXP_2OMEGA_DLAMBDAQ",
+        "STATIC_RADIAL_AFFINE_DENSITY_EXP_2OMEGA_PLUS_Q_OVER_E",
+        "COMPENSATED_CONTROL_RADIAL_RESTORATION_ONLY_NOT_FULL_NULL_COMPLETENESS",
+        "GENERIC_SPATIAL_CLOCKS_HEAR_BOTH_MODES",
+        "EULERIAN_NORMAL_AND_UNSHIFTED_STATIC_Q_BLIND_NOT_OMEGA_BLIND",
+        "ANALYTIC_GLOBAL_CAUSAL_AND_ALL_NULL_THEOREMS_NOT_MECHANIZED_END_TO_END",
+        "NO_FOLIATION_SPLIT_SCALAR_FUNCTION_DETERMINANT_ONE_HISTORY_GLOBAL_REALIZATION_XMAX_TRANSFER_SOURCE_FIT_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G211"]["current_status"], f"G211 guard absent: {guard}")
+    require(by_id["G211"]["epistemic_label"] == "MIXED", "G211 label changed")
+    require(
+        by_id["G211"]["active_use"]
+        == "ACTIVE_BOUNDED_COMPLETE_LOCAL_DIAGONAL_SCALAR_BASIS_AND_DECLARED_G205_RADIAL_CONTROLS_ONLY",
+        "G211 active scope widened",
+    )
+    require(
+        by_id["G211"]["controlling_source"]
+        == "udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/AUDIT_REPORT.md",
+        "G211 controlling source changed",
+    )
+    g211 = ROOT / "udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "RADIAL_CONTROLS.json",
+        "CATCH_PROOF_RESULT.json",
+        "SOURCE_PROVENANCE_VERIFICATION.json",
+        "CORE_VERIFICATION_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "TRANSMISSION_RECORD.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g211 / name).is_file(), f"G211 evidence missing: {name}")
+    g211_package = json.loads((g211 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g211_package["status"] == "PASS", "G211 package verification failed")
+    require(g211_package["core_no_write_replay"] is True, "G211 no-write replay absent")
+    require(g211_package["production_assertions"] == 29, "G211 production count changed")
+    require(g211_package["independent_assertions"] == 280003, "G211 assertion count changed")
+    require(g211_package["independent_cases"] == 10000, "G211 case count changed")
+    require(g211_package["radial_precision_digits"] == 120, "G211 radial precision changed")
+    require(g211_package["radial_profiles"] == 4, "G211 radial profile count changed")
+    require(g211_package["mutation_catches"] == 31, "G211 hostile count changed")
+    require(g211_package["provenance_manifest_rows"] == 8, "G211 source count changed")
+    require(
+        g211_package["external_review"] == "VERIFIED_WITH_CAVEATS",
+        "G211 external review absent",
+    )
+    require(g211_package["required_repairs"] == 0, "G211 unexpected repair count")
+    require(g211_package["scientific_landing_changed"] is False, "G211 landing changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5642,7 +5718,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G210-extended premise guards; PASS: 194-row premise "
+        "PASS: G211-extended premise guards; PASS: 195-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
