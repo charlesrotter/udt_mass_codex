@@ -1,0 +1,14 @@
+object	status	role
+G205_base_family	DERIVED_CONDITIONAL	supplied complete static base
+radial_screen_split	PINNED_BY_DECLARED_G205_REALIZATION	pure mixing type on r>0
+smooth_center_extension	PINNED_BY_REGULARITY	full declared manifold
+pure_selfadjoint_radial_screen_C	CHOSE_EXTENSION_CLASS	determinant-one nonconformal spatial mixing
+spatial_exponential_A	DERIVED_FROM_CLASS	positive spatial automorphism
+common_scale_screen_factorization	DERIVED_DEPENDENCY_LEMMA	composition only; no selected combined history
+bounded_static_mixing	FREE_AND_EXPLORED	survivor class
+slab_controlled_time_live_mixing	FREE_AND_EXPLORED	causal and affine survivor class
+center_regular_unbounded_static_witness	CHOSE_CONTROL	global-hyperbolicity and null-completeness falsifier
+completed_pair_dual_reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	post-pullback scalar
+tracechange_shift_full_spatial_modes	OMITTED_OPEN	one-tile scope
+physical_C_history	OPEN	no selection
+Xmax_action_source_transfer_observations	OMITTED_OPEN	outside bounded theorem
