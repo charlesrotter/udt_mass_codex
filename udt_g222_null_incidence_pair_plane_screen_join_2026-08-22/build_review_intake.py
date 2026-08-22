@@ -54,10 +54,13 @@ def main() -> None:
         encoding="utf-8",
     )
     scope = {
-        "task": "fresh read-only adversarial review of the bounded G222 landing",
+        "task": "read-only repair-only follow-up review of preregistered G222 repairs R1-R4",
         "payload_files": len(manifest_rows),
         "review_manifest_sha256": sha(manifest),
-        "permissions": "inspect only intake; bounded read-only checks; no edits; no continuation",
+        "permissions": (
+            "inspect only intake; verify only preregistered repairs R1-R4 and unchanged bounded "
+            "scientific landing; bounded read-only checks; no edits; no continuation"
+        ),
         "network": "not required",
     }
     scope_path = intake / "REVIEW_SCOPE.json"
