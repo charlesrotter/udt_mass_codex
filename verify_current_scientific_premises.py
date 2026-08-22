@@ -1570,7 +1570,7 @@ def main() -> None:
     require(
         by_id["G213"]["current_status"].startswith(
             "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_C96A273F__"
-            "EXTERNAL_REVIEW_REPAIR_PENDING__NO_BOUNDED_SCIENTIFIC_DEFECT"
+            "EXTERNAL_REVIEW_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED__NO_BOUNDED_SCIENTIFIC_DEFECT"
         ),
         "G213 bounded grade changed or promoted",
     )
@@ -1613,11 +1613,19 @@ def main() -> None:
         "PREMISE_LEDGER.tsv",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_ADJUDICATION.md",
     ):
         require((g213 / name).is_file(), f"G213 evidence missing: {name}")
     g213_package = json.loads((g213 / "VERIFICATION_RESULT.json").read_text())
+    require(
+        "G213_REPAIR_ONLY_ACCEPTED__REGISTERED_REPAIRS_VERIFIED__BOUNDED_LANDING_UNCHANGED"
+        in (g213 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G213 repair follow-up acceptance absent",
+    )
     require(g213_package["status"] == "PASS", "G213 package verification failed")
     require(g213_package["no_write_replay"] is True, "G213 no-write replay absent")
+    require(g213_package["core_files_hashed"] == 25, "G213 core file count changed")
     require(g213_package["exact_algebra_checks"] == 23, "G213 exact algebra count changed")
     require(g213_package["independent_cases"] == 10000, "G213 case count changed")
     require(g213_package["independent_assertions"] == 300004, "G213 assertion count changed")

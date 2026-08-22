@@ -76,8 +76,8 @@ gate: the determinant-one spatial remainder has five modes (`1+2+2`), with G207/
 A typed completed relation retains `(m,h_s)`, exactly recovering the full pullback and preserving
 G129 rank ten; without `m`, spatial rescaling is invisible. Review found no scientific defect. Its
 dependency/certification repairs pass: 23 exact checks, independent ranks `5/4/5`, 10,000 relation
-cases, 300,004 assertions, and 32 hostile catches. Follow-up is pending; values and population stay
-open.
+cases, 300,004 assertions, and 32 hostile catches. The sealed repair-only follow-up accepted those
+repairs without changing the bounded landing; values and population stay open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the live families interlock after a metric and query are supplied. A valued rank-complete network
@@ -113,8 +113,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-First close G213's repair-only external follow-up. If accepted, test whether its local
-`h_sigma <-> (m,h_s)` equivalence commutes with overlap, reparameterization, and three-observer
-calibration carry, so G130 global descent transfers without hidden density loss. Do not fit,
-identify `X_max`, select transfer, or use G116/G189 as construction inputs.
+Test whether G213's local `h_sigma <-> (m,h_s)` equivalence commutes with overlap,
+reparameterization, and three-observer calibration carry, so G130 global descent transfers without
+hidden density loss. Do not fit, identify `X_max`, select transfer, or use G116/G189 as construction
+inputs.
 <!-- STARTUP_CURRENT_END -->

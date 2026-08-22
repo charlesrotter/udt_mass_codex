@@ -41,7 +41,7 @@
 | G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
 | G212 history bridge | multi-agent verified with caveats | Valued rank-complete network is the state; two clocks invert scalar modes; finite-anchor flow open |
-| G213 completed-rank closure | landing retained; repair follow-up pending | Five modes; density-completed tuples retain rank ten |
+| G213 completed-rank closure | repairs accepted; landing unchanged | Five modes; density-completed tuples retain rank ten |
 
 None selects completion or `X_max`.
 ## Scale and limits

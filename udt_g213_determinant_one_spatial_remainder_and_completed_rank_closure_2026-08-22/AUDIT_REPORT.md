@@ -14,7 +14,7 @@ __NORMALIZED_COMPLETED_METRICS_WITHOUT_DENSITIES_ARE_NOT_FAITHFUL
 __NO_NETWORK_VALUES_OR_PHYSICAL_PAIR_POPULATION_DERIVED
 ```
 
-Status: `DERIVED_CONDITIONAL__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_REPAIR_PENDING`.
+Status: `DERIVED_CONDITIONAL__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_REPAIRS_ACCEPTED`.
 
 ## Result
 
@@ -56,8 +56,9 @@ density is not bookkeeping that can be discarded; it is the carried spatial cali
 - G129 design rank: exactly 10 in both implementations.
 - Hostile mutation catches: 32 registered in the package replay.
 - Source provenance: fixed hashes of the 12 load-bearing G129/G176/G207/G208/G211/G212 files.
-- Fresh external review: no bounded scientific defect; replay/certification repairs implemented,
-  with repair-only follow-up still pending.
+- Fresh external review: no bounded scientific defect; replay/certification repairs implemented.
+- Repair-only external follow-up: accepted; registered repairs and unchanged bounded landing
+  independently verified.
 
 ## Four banking gates
 

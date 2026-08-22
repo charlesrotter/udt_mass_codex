@@ -28,3 +28,27 @@ Date: 2026-08-22
   replay the five-mode/four-of-five census rather than overstating the existing verifier.
 - `EXTERNAL_REVIEW_RAW.md` preserves the reviewer output verbatim with only a terminal newline
   added for repository text-file normalization.
+
+## Repair-only follow-up
+
+- User-authorized sealed intake: `/tmp/udt_g213_repair_followup_ylo6uvhx`.
+- File count: 38 total files; 37 payload files plus `REVIEW_MANIFEST.tsv`.
+- `REVIEW_SCOPE.json` SHA-256:
+  `3c657c3a474c72de72a0957a10f5657de3850df47f575a15bf7abff6bd3600d9`.
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `d0752920b7e76af782da2e756d2708dbfa5549930dd784f0e7ead2d6f8125aa2`.
+- Reviewer: external Codex `gpt-5.4`, high reasoning, web disabled, sealed read-only intake;
+  read-only authentication-file use was authorized solely to launch it.
+- Authorized task: verify only the registered G213 repairs and unchanged bounded landing; bounded
+  read-only checks or registered no-write replay; no edits and no research continuation.
+- Scope hash: passed.
+- Payload hashes: 37/37 passed.
+- Frozen-source hashes: 12/12 passed.
+- Registered dependency-free no-write replay: passed with exact ranks `5/4/5`, 10,000 cases,
+  300,004 assertions, 32 hostile catches, and unchanged package hashes.
+- Process exit: zero.
+- Verdict:
+  `G213_REPAIR_ONLY_ACCEPTED__REGISTERED_REPAIRS_VERIFIED__BOUNDED_LANDING_UNCHANGED`.
+- Scientific disposition: repair acceptance only; no scientific claim changed or strengthened.
+- `EXTERNAL_REPAIR_FOLLOWUP_RAW.md` preserves the reviewer output verbatim with only a terminal
+  newline added for repository text-file normalization.

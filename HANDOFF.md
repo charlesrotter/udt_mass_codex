@@ -46,7 +46,8 @@ G212 makes a valued rank-complete network the metric state. G213 finds five dete
 modes (`1+2+2`), with G207/G208 covering four. The typed `(m,h_s)` recovers the full pullback and
 preserves G129 rank ten; without `m`, spatial scale is invisible. Review found no scientific defect.
 Dependency-free repairs pass with ranks `5/4/5`, 10,000 cases, 300,004 assertions, and 32 hostile
-catches. Follow-up is pending; values and population remain open.
+catches. The sealed repair-only follow-up accepted the repairs without changing the scientific
+landing; values and population remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
@@ -70,10 +71,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-First close G213's repair-only external follow-up. If accepted, test whether the local tuple equivalence
-commutes with overlaps, reparameterization, and three-observer calibration carry, transferring G130
-descent without density loss. Do not fit, activate arbitrary coframes, identify `X_max`, select
-transfer, or use G116/G189. The physical carrier/`O(2)`, covariant `lambda`, conformal/common-scale ownership,
-bivector area bilinear, codimension eleven, and numerical valuation retain registry status.
+Test whether the local tuple equivalence commutes with overlaps, reparameterization, and
+three-observer calibration carry, transferring G130 descent without density loss. Do not fit,
+activate arbitrary coframes, identify `X_max`, select transfer, or use G116/G189. The physical
+carrier/`O(2)`, covariant `lambda`, conformal/common-scale ownership, bivector area bilinear,
+codimension eleven, and numerical valuation retain registry status.
 
 <!-- STARTUP_CURRENT_END -->
