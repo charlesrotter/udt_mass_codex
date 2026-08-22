@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 from fractions import Fraction
 import json
 from pathlib import Path
@@ -41,7 +42,7 @@ def signed(rng: random.Random) -> Fraction:
     return Fraction(rng.randint(-23, 23), rng.randint(1, 19))
 
 
-def main() -> None:
+def main(*, write_outputs: bool = True) -> None:
     rng = random.Random(SEED)
     assertions = 0
     for _ in range(CASES):
@@ -86,10 +87,14 @@ def main() -> None:
     assert old_curl != new_curl
     assertions += 1
 
-    # K(s)=a for s=a(y)lambda+s0(y), independent of horizontal derivatives.
+    # Exact affine fiber potential: the base-dependent offset cancels and the
+    # vertical finite difference is exactly a times the parameter difference.
     for _ in range(1000):
         density = positive(rng)
-        assert density == density
+        lambda_1, lambda_2, offset = (signed(rng) for _ in range(3))
+        s_1 = density * lambda_1 + offset
+        s_2 = density * lambda_2 + offset
+        assert s_2 - s_1 == density * (lambda_2 - lambda_1)
         assertions += 1
 
     result = {
@@ -102,11 +107,15 @@ def main() -> None:
         "clock_weight_cocycle": True,
         "cross_ribbon_vertical_gluing_derived": False,
     }
-    (ROOT / "INDEPENDENT_VERIFICATION.json").write_text(
-        json.dumps(result, indent=2) + "\n", encoding="utf-8"
-    )
+    if write_outputs:
+        (ROOT / "INDEPENDENT_VERIFICATION.json").write_text(
+            json.dumps(result, indent=2) + "\n", encoding="utf-8"
+        )
     print(f"PASS: G223 independent replay; {CASES} cases; {assertions} exact rational assertions")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--check-only", action="store_true")
+    args = parser.parse_args()
+    main(write_outputs=not args.check_only)

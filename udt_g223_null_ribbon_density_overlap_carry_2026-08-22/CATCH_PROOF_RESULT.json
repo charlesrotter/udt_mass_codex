@@ -17,5 +17,7 @@
     "cross_ribbon_promotion",
     "preregistration",
     "landing"
-  ]
+  ],
+  "manifest_path_mutations_attempted": 2,
+  "manifest_path_mutations_rejected": 2
 }

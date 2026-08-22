@@ -5,7 +5,7 @@ Date: 2026-08-22
 ## Landing
 
 ```text
-VERIFIED_BOUNDED__FRESH_EXTERNAL_REVIEW_PENDING
+ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
 ```
 
 The preregistered overlap fork resolved without adding a mechanism. On a supplied regular affine
@@ -38,6 +38,11 @@ generate that vertical isomorphism.
 - exact same-geometry counterexample changes closedness of a full representative while preserving
   the metric and vertical density class;
 - G214 common-subgroup and G216 chain-rule controls pass.
+
+Fresh external gpt-5.4 review independently accepted the bounded mathematics and required three
+evidence repairs: true check-only replay, a nonvacuous independent fiber-potential control, and
+explicit sealed-manifest path containment. All three are implemented; repair-only follow-up is
+pending.
 
 ## Ceiling
 

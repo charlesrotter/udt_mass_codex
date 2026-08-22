@@ -47,6 +47,7 @@ def main() -> None:
         "package": ROOT.name,
         "package_files": sum(1 for p in package_dst.rglob("*") if p.is_file()),
         "source_files": len(source_paths),
+        "source_layout": "repository_relative_paths_inside_intake_root",
         "total_payload_files_before_scope": len(files),
         "allowed": ["read", "registered no-write replay", "bounded independent checks"],
         "forbidden": ["edit evidence", "continue research", "inspect outside intake"],

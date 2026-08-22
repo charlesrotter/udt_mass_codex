@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 from pathlib import Path
@@ -25,7 +26,7 @@ def require_matrix_zero(expr: sp.Matrix, name: str, checks: list[str]) -> None:
     checks.append(name)
 
 
-def main() -> None:
+def main(*, write_outputs: bool = True) -> None:
     F, A, Q, a, H = sp.symbols("F A Q a H", positive=True, nonzero=True)
     checks: list[str] = []
 
@@ -142,11 +143,14 @@ def main() -> None:
             "__G216_CLOCK_COMPOSITION_DOES_NOT_BY_ITSELF_SUPPLY_CROSS_RIBBON_VERTICAL_CARRY"
         ),
     }
-    (ROOT / "DERIVATION_RESULT.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
-    with (ROOT / "CONTROL_ATLAS.tsv").open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
-        writer.writerow(("control", "status", "meaning"))
-        writer.writerows(controls)
+    if write_outputs:
+        (ROOT / "DERIVATION_RESULT.json").write_text(
+            json.dumps(result, indent=2) + "\n", encoding="utf-8"
+        )
+        with (ROOT / "CONTROL_ATLAS.tsv").open("w", encoding="utf-8", newline="") as fh:
+            writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
+            writer.writerow(("control", "status", "meaning"))
+            writer.writerows(controls)
 
     print(
         f"PASS: G223 symbolic derivation; {len(checks)} exact checks; "
@@ -155,4 +159,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--check-only", action="store_true")
+    args = parser.parse_args()
+    main(write_outputs=not args.check_only)

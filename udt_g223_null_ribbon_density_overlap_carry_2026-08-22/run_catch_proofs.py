@@ -7,7 +7,7 @@ import copy
 import json
 from pathlib import Path
 
-from verify_package import validate_payloads
+from verify_package import contained_source_path, validate_payloads
 
 
 ROOT = Path(__file__).resolve().parent
@@ -44,11 +44,23 @@ def main() -> None:
         else:
             raise AssertionError(f"mutation survived: {name}")
 
+    path_mutations = ("/tmp/outside_intake", "../outside_intake")
+    path_rejected: list[str] = []
+    for raw in path_mutations:
+        try:
+            contained_source_path(raw)
+        except AssertionError:
+            path_rejected.append(raw)
+        else:
+            raise AssertionError(f"manifest path mutation survived: {raw}")
+
     result = {
         "status": "PASS",
         "mutations_attempted": len(mutations),
         "mutations_rejected": len(rejected),
         "rejected": rejected,
+        "manifest_path_mutations_attempted": len(path_mutations),
+        "manifest_path_mutations_rejected": len(path_rejected),
     }
     (ROOT / "CATCH_PROOF_RESULT.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(f"PASS: G223 catch proofs; {len(rejected)}/{len(mutations)} mutations rejected")
