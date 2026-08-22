@@ -1,0 +1,21 @@
+{
+  "count": 15,
+  "all_caught": true,
+  "mutations": [
+    "implicit_endpoint_sign_reversal",
+    "world_function_tangent_orientation_swap",
+    "affine_scale_applied_at_one_endpoint",
+    "frequency_ratio_inverted",
+    "right_null_uses_Cminus",
+    "shift_beta_dropped",
+    "incidence_first_jet_inverted",
+    "coordinate_lapse_retained_in_proper_slope",
+    "completed_target_clock_replaced_by_lapse",
+    "static_depth_sign_flipped",
+    "conformal_endpoint_order_reversed",
+    "moving_flat_rapidity_sign_flipped",
+    "future_return_called_outgoing_inverse",
+    "future_return_uses_Cplus",
+    "null_promoted_to_universal_protocol"
+  ]
+}

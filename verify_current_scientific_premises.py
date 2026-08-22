@@ -193,13 +193,14 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G219",
+            "G166--G220",
             "G197",
             "G215",
             "G216",
             "G217",
             "G218",
             "G219",
+            "G220",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -242,7 +243,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "203-row exact registry",
+            "204-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -295,6 +296,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/",
             "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/",
             "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/",
+            "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -308,7 +310,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G219",
+            "G166--G220",
             "G197",
             "G198",
             "G199",
@@ -333,6 +335,7 @@ def validate_startup_surface(root: Path) -> None:
             "G217",
             "G218",
             "G219",
+            "G220",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -370,6 +373,7 @@ def validate_startup_surface(root: Path) -> None:
             "G217",
             "G218",
             "G219",
+            "G220",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -402,10 +406,11 @@ def validate_startup_surface(root: Path) -> None:
             "G213",
             "G214",
             "G215",
+            "G220",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "203-row",
+            "204-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -746,9 +751,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 203, "premise registry must contain exactly 203 rows")
+    require(len(rows) == 204, "premise registry must contain exactly 204 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 203, "duplicate premise id")
+    require(len(by_id) == 204, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2210,6 +2215,105 @@ def main() -> None:
         g219_package["landing"]
         == "SCALAR_CHAIN_FACTORS_THROUGH_ONE_CLOCK_ARROW__PROTOCOL_REMAINS_QUERY_TYPED",
         "G219 landing changed",
+    )
+    require(
+        by_id["G220"]["current_status"].startswith(
+            "FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS_WITH_CAVEATS__PREREGISTERED_AT_F24BF4DB__"
+            "REPAIRS_PREREGISTERED_AT_98A13C7B__SUPPLIED_SMOOTH_LORENTZ_METRIC"
+        ),
+        "G220 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "WORLD_FUNCTION_IMPLICIT_SLOPE_R_EQUALS_MINUS_SIGMA_A_UA_OVER_SIGMA_AP_UB_EQUALS_KA_UA_OVER_KB_UB_EQUALS_OMEGA_A_OVER_OMEGA_B_POSITIVE",
+        "RIGHT_NULL_CHORD_CPLUS_EQUALS_A_MINUS_N_BETA_POSITIVE",
+        "PROPER_CLOCK_SLOPE_EQUALS_CPLUS_B_OVER_CPLUS_A",
+        "SAME_CORRESPONDENCE_COMPLETED_CLOCK_LEG_TB_EQUALS_R_IS_COMPATIBILITY_IDENTITY_NOT_INDEPENDENT_G176_CONFIRMATION_OR_FULL_PAIR_PLANE",
+        "AFFINE_WITNESS_D_EQUALS_A1_MINUS_S_DIRECTLY",
+        "LATER_LEFT_RETURN_USES_CMINUS_EQUALS_A_PLUS_N_BETA_AT_ITS_OWN_EVENTS_NOT_GENERIC_OUTGOING_INVERSE",
+        "111343_EXACT_CHECKS",
+        "5000_DIRECT_COORDINATE_WORLD_FUNCTION_RECONSTRUCTIONS",
+        "15_INJECTED_MUTATION_CATCHES",
+        "OPTIMIZED_MODE_REJECTED",
+        "NULL_REMAINS_QUERY_TYPED",
+        "NO_PHYSICAL_PROTOCOL_BRANCH_POPULATION_FULL_PAIR_PLANE_ANGULAR_SCREEN_MIXING_HISTORY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G220"]["current_status"], f"G220 guard absent: {guard}")
+    require(by_id["G220"]["epistemic_label"] == "MIXED", "G220 label changed")
+    require(
+        by_id["G220"]["active_use"]
+        == "ACTIVE_BOUNDED_COVARIANT_CLOCK_SLOPE_ON_ONE_SUPPLIED_REGULAR_NULL_BRANCH_AND_EXACT_TIME_ONLY_TRIANGULAR_BASE_CONTROL_ONLY",
+        "G220 active scope widened",
+    )
+    require(
+        "completed clock-leg compatibility called independent confirmation of G176 or construction of a full pair pullback"
+        in by_id["G220"]["forbidden_regression"],
+        "G220 completed-clock-leg compatibility guard absent",
+    )
+    require(
+        "time-only triangular base called the full dynamic orchestra"
+        in by_id["G220"]["forbidden_regression"],
+        "G220 full-orchestra anti-promotion guard absent",
+    )
+    require(
+        by_id["G220"]["controlling_source"]
+        == "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/AUDIT_REPORT.md",
+        "G220 controlling source changed",
+    )
+    g220 = ROOT / "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22"
+    for name in (
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "derive_covariant_null_clock_arrow.py",
+        "verify_null_clock_arrow_independent.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "CONTROL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "STATUS_LEDGER.tsv",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
+        "VERIFICATION_RESULT.json",
+    ):
+        require((g220 / name).is_file(), f"G220 evidence missing: {name}")
+    g220_package = json.loads((g220 / "VERIFICATION_RESULT.json").read_text())
+    require(g220_package["status"] == "PASS", "G220 package verification failed")
+    require(g220_package["source_count"] == 11, "G220 source count changed")
+    require(g220_package["symbolic_checks"] == 28, "G220 symbolic count changed")
+    require(g220_package["independent_cases"] == 11171, "G220 case count changed")
+    require(g220_package["independent_exact_checks"] == 111343, "G220 exact replay count changed")
+    require(
+        g220_package["direct_world_function_coordinate_cases"] == 5000,
+        "G220 direct world-function reconstruction count changed",
+    )
+    require(g220_package["affine_positive_d_cases"] == 500, "G220 positive-d count changed")
+    require(g220_package["affine_negative_d_cases"] == 500, "G220 negative-d count changed")
+    require(g220_package["injected_mutation_catches"] == 15, "G220 catch count changed")
+    require(g220_package["payload_contract_mutation_guard"] is True, "G220 payload guard absent")
+    require(g220_package["optimized_mode_rejected"] is True, "G220 optimized-mode guard absent")
+    require(g220_package["no_write_replay"] is True, "G220 no-write replay absent")
+    require(
+        g220_package["fresh_adversarial_review"] == "ACCEPT_AFTER_PREREGISTERED_REPAIRS",
+        "G220 fresh-review acceptance absent",
+    )
+    require(
+        g220_package["completed_clock_leg_compatibility_only"] is True,
+        "G220 completed-clock-leg compatibility ceiling absent",
+    )
+    require(not g220_package["physical_protocol_selected"], "G220 protocol falsely selected")
+    require(not g220_package["full_dynamic_orchestra_derived"], "G220 widened to full orchestra")
+    require(
+        g220_package["landing"]
+        == "COVARIANT_NULL_CLOCK_ARROW_DERIVED__COMPLETED_CLOCK_LEG_COMPATIBLE__NULL_REMAINS_QUERY_TYPED",
+        "G220 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6434,7 +6538,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G219-extended premise guards; PASS: 203-row premise "
+        "PASS: G220-extended premise guards; PASS: 204-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

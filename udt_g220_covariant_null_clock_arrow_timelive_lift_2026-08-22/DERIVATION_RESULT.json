@@ -1,0 +1,10 @@
+{
+  "landing": "COVARIANT_NULL_CLOCK_ARROW_DERIVED__COMPLETED_CLOCK_LEG_COMPATIBLE__NULL_REMAINS_QUERY_TYPED",
+  "manifest_files": 11,
+  "symbolic_checks": 28,
+  "all_checks_pass": true,
+  "completed_clock_leg_compatible": true,
+  "genuinely_timelive_control": true,
+  "null_protocol_universally_selected": false,
+  "full_dynamic_orchestra_derived": false
+}

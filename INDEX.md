@@ -37,9 +37,7 @@
   `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`;
   `udt_g209_g205_timespace_shift_robustness_2026-08-21/`;
   `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
-- Complete diagonal-scalar basis closure:
-  `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`
-- History-bridge/relation-state whiteboard:
+- Complete diagonal basis and history bridge: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`;
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
 - Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
   `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
@@ -47,12 +45,12 @@
   `udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`;
   `udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`
 - Clock-arrow bridge: `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`; `udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`
-G129--G165 are controls; G166--G184 build pairs; G185--G189 are application controls; G190--G198
-evaluate chosen families. G197 guards provenance. G199--G200 remove a chiral switch; G201--G210
-classify channels and completion. G211--G214 close local basis, state, rank, and cover descent.
-G215--G217 close scalar incidence and first-jet typing. G218 PONDER unifies them as one query-indexed
-correspondence. G219 factors its scalar and proves exact moving-flat protocol discrimination;
-physical protocol realization and higher/full-germ carry remain open.
+- Covariant time-live null tile: `udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/`
+G129--G165 are controls; G166--G184 build pairs; G185--G198 are application, chosen-family, and
+provenance controls. G199--G214 classify structure. G215--G217 close scalar incidence and first-jet
+typing; G218 PONDER unifies the query-indexed correspondence; G219 discriminates moving-flat
+protocols; G220 derives the covariant null clock slope and time-live base chord on one supplied
+query. Full pair-plane and screen/mixing carry remain open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -61,9 +59,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 203-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 204-row registry controls.
 ## Observational lane
-
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`

@@ -1,0 +1,9 @@
+control	metric_or_query	clock_slope_r	depth_delta	status	limit
+covariant_null_branch	world_function_sigma_zero	(k_A.U_A)/(k_B.U_B)=omega_A/omega_B	-log(r)	DERIVED_CONDITIONAL	unique_regular_null_branch_nonzero_endpoint_derivative
+timelive_triangular_right	h=-N(t)^2(dt+beta(t)dx)^2+A(t)^2dx^2	Cplus_B/Cplus_A	log(Cplus_A/Cplus_B)	DERIVED_CONDITIONAL	fixed_x_observers_Cplus=A-Nbeta_positive
+completed_clock_leg	y=tau_A_on_same_event_relation	T_B=r	-log(T_B)	COMPATIBILITY_IDENTITY	G176_working_clarification_full_pair_plane_not_constructed_here
+moving_flat	inertial_null_A_emit_to_B_receive	exp(eta)	-eta	EXACT_CONTROL	G219_recovery
+primary_static	N=e^-phi(x)_A=e^phi(x)_beta_zero	exp(phi_A-phi_B)	phi_B-phi_A	EXACT_CONTROL	static_spatial_profile_not_timelive_endpoint_formula
+conformal_timelive	N=A=exp(Omega(t))_beta_zero	exp(Omega_B-Omega_A)	Omega_A-Omega_B	EXACT_CONTROL	fixed_x_right_null_branch
+affine_ruler_shift	N=1_A=a0+a1t_beta=st	exp((a1-s)L)	-(a1-s)L	EXACT_CONTROL	Cplus_positive_d=a1-s_nonzero_with_continuous_static_limit
+later_left_return	left_moving_branch_Cminus=A+Nbeta	Cminus_A_later/Cminus_B_emit	-log(r_return)	DERIVED_CONDITIONAL	not_generic_inverse_of_outgoing

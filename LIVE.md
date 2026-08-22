@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G219. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G220. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -39,8 +39,13 @@ static-to-moving bridge: the scalar chain factors through the one positive clock
 coefficient. On the same exact moving-flat metric, null, A-Fermi/radar, and B-Fermi queries give
 different slopes for nonzero rapidity. Mathematical inverse is not later causal return. Thus the
 metric evaluates a declared dynamic correspondence, while the founding sources do not select a
-universal protocol. Density, shift, incidence, pair-plane, higher/full angular-screen-mixing germ,
-and genuinely time-live realization remain open.
+universal protocol. G220 then derives one supplied regular future-null clock arrow covariantly:
+`r_AB=-(sigma_A.U_A)/(sigma_B.U_B)=(k_A.U_A)/(k_B.U_B)=omega_A/omega_B`. On the exact
+time-live triangular base metric, lapse, ruler, and shift combine upstream as `C_+=A-N beta`, giving
+`r_AB=C_+B/C_+A`. Using `y=tau_A` gives `T_B=r_AB` as a same-correspondence completed
+clock-leg compatibility identity—not an independent G176 proof or a full pair-plane construction.
+Null remains query-typed; later return uses `C_-=A+N beta`. Density, higher/full pair-plane, angular
+screen/mixing, branch population, and physical history remain open.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -54,7 +59,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 204-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -78,10 +83,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Lift the verified G219 clock arrow onto one supplied genuinely time-live metric without selecting a
-physical protocol. First derive the covariant null-incidence clock slope on one unique regular null
-branch and compare it with the completed pair-pullback slope on the same observer events. Null is a
-metric causal control, not a universal positional owner. Keep the full orchestra before readout;
-do not fit, identify `X_max`, select transfer, activate protected drafts, or use G116/G189 as
-construction inputs.
+Lift G220's supplied regular null clock arrow from the complete time-only triangular base to one
+supplied regular `2+2` complete-coframe germ. Derive how screen and base-screen mixing enter the null
+incidence and same-correspondence completed clock leg before readout; recover G220 when transverse
+components vanish. Keep null query-typed and characterize every regular branch retained. Do not fit,
+identify `X_max`, select transfer/history, activate protected drafts, or use G116/G189 as construction
+inputs.
 <!-- STARTUP_CURRENT_END -->

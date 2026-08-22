@@ -1,0 +1,13 @@
+{
+  "implementation": "stdlib_Fraction_no_production_import",
+  "cases": 11171,
+  "exact_checks": 111343,
+  "endpoint_cases": 5000,
+  "world_function_coordinate_cases": 5000,
+  "affine_witness_cases": 1000,
+  "moving_flat_cases": 171,
+  "return_diff_cases": 4852,
+  "affine_positive_d_cases": 500,
+  "affine_negative_d_cases": 500,
+  "all_checks_pass": true
+}

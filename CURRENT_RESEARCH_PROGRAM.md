@@ -46,36 +46,15 @@ physical scalar after the working premise. They must not be conflated.
   historical or imported.
 - G190--G198 evaluate **chosen** time-live coframes and supplied germs; their asymmetry remains
   chosen-family-scoped.
-- G199 audits the primary metric: both radial null germs share frequency, parallel screen, zero
-  radial optical tide, and `D=lambda I`. G198 remains a chosen-family control.
-- G200 activates the primary nonradial angular modes for both reversed germs. Their same-event
-  frequency and tidal laws coincide; the first finite branch difference is the fourth-order radial
-  tidal-gradient sampling term, not a chiral on/off coefficient.
-- G201 rewrites those tides in `phi` second jets and proves channel volumes need not be lockstep:
-  reciprocal contrast is two-sided, while angular modes can amplify or cancel at any `phi`.
-- G202/G203/G204 classify quiet overlap, invariant descriptors, smooth-center necessity, and infinite
-  even-areal alternatives. Finite anchors and regularity do not select their values or `X_max`.
-- G205 proves the supplied family geodesically complete and globally hyperbolic on declared
-  `R x R3`, with exact null-orbit strata. The global proof is analytic.
-- G206 common scale preserves cones but changes affine reach and completed depth.
-- G207 trace-free screen shape preserves volume and radial causality while blind and responsive
-  pair strata coexist.
-- G208 radial-screen mixing preserves volume but changes radial causal width; controlled survivor
-  and failure strata coexist.
-- G209 full shift preserves signature and determinant while translating the causal ellipsoid.
-- G210 isolates relative spatial volume `sigma`; it rescales causal width and enters spatial pairs.
-  These factorizations classify supplied histories; none selects one.
-- G211 proves the supplied local diagonal scalar plane has rank two: `Omega=ell` and
-  `q=sigma-ell`; lapse-only is their mixture, not a third tile. Volume, causal width, affine reach,
-  and depth hear different combinations. No function or history is selected.
-- G212 reconciles rank ten with the completed kernel: a valued pair network can be the metric state,
-  but identities do not generate its values. Two generic clocks reconstruct `Omega,q`; all-germ
-  two-jet isotropy is not an owned UDT premise.
-- G213 retains five determinant-one spatial modes and rank ten when G176 ruler density is kept;
-  deleting density creates an exact blind rescaling family.
-- G214 proves this equivalence commutes with calibrated overlaps: density carries the
-  determinant and the normalized metric an `SL(2)` cocycle. G130 descent transfers; arbitrary
-  pair composition does not.
+- G199/G200 give the primary radial/nonradial bidirectional laws without a chiral switch; G198 stays
+  a chosen-family control. G201 expresses their channel amplitudes in `phi` jets without lockstep.
+- G202/G203/G204 classify quiet overlap, descriptors, center regularity, and unselected alternatives;
+  G205 proves the supplied family complete and globally hyperbolic on its declared realization.
+- G206/G207/G208/G209/G210 classify common scale, screen shape, mixing, shift, and relative volume.
+  They constrain supplied histories but select none.
+- G211 closes the diagonal scalar plane at rank two. G212 makes a valued pair network the metric
+  state without generating its values. G213 retains spatial rank and density; G214 descends the
+  completed tuple across calibrated covers.
 - G215 makes completed `Phi=-log T` a shared calibrated clock scalar; unmatched clocks retain their
   exact defect, while density, shift, and full carry stay live.
 - G216 gives `delta_AB=-log(d tau_B/d tau_A)` on a supplied germ; common reparameterization cancels
@@ -89,8 +68,15 @@ physical scalar after the working premise. They must not be conflated.
 - G219 adversarially verifies the exact moving-flat factorization
   `r_AB=d tau_B/d tau_A>0`, `delta_AB=-log r_AB`. Null, A-Fermi/radar, and B-Fermi slopes differ;
   inverse is not return. Each query is metric-evaluated, but none is universally selected.
+- G220 freshly verifies after preregistered repairs that one supplied unique regular future-null
+  query has the covariant clock slope
+  `r_AB=-(sigma_A.U_A)/(sigma_B.U_B)=(k_A.U_A)/(k_B.U_B)=omega_A/omega_B`. On the exact
+  time-only triangular base, lapse/ruler/shift combine upstream in `C_+=A-N beta` and give
+  `r_AB=C_+B/C_+A`. `T_B=r_AB` is a same-correspondence completed clock-leg compatibility identity,
+  not independent G176 confirmation or a full pair plane. Later causal return uses `C_-`; null
+  remains query-typed.
 
-G206--G219 retain their stated verification caveats. None generates a sector function,
+G206--G220 retain their stated verification caveats. None generates a sector function,
 finite-anchor flow, or `X_max`.
 
 Structural package:
@@ -99,13 +85,15 @@ Current PONDER frame:
 `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`.
 Current dynamic bridge:
 `udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`.
+Current covariant time-live tile:
+`udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G219 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G220 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
@@ -135,8 +123,9 @@ then close the diagonal dependency. G212--G217 remove the second-scalar-selector
 shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
 event-pair germ, then close its positive first jet. G218 retypes those scalar data as one clock
 correspondence. G219 factors the chain and proves that relative motion separates lawful query-typed
-protocols. Next lift the clock arrow to one supplied genuinely time-live metric by deriving the
-covariant null-incidence slope on a unique regular null branch and comparing it to the completed
-pair-pullback slope on the same events. Keep null query-typed and higher/full-germ carry separate.
-Do not fit, identify `X_max`, select transfer, activate protected drafts, or revive historical
-application inputs.
+protocols. G220 derives the covariant null clock arrow and exact time-live lapse/ruler/shift base
+tile, with same-correspondence completed clock-leg compatibility. Next lift that supplied regular
+null query to one `2+2` complete-coframe germ and derive the upstream screen/base-screen mixing
+dependence, retaining all regular branches and exact G220 recovery. Keep null query-typed and
+higher/full-germ carry separate. Do not fit, identify `X_max`, select transfer/history, activate
+protected drafts, or revive historical application inputs.
