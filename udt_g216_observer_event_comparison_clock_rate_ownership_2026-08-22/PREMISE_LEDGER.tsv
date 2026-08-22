@@ -1,0 +1,12 @@
+item	status	role	limit
+timelike_observer_worldlines	SUPPLIED	home of metric proper time	no observer population law
+observer_events	SUPPLIED	marked incidences on worldlines	persistent observer label is not one event
+proper_clock_coordinate	DERIVED_CONDITIONAL	metric-normalized parameter on supplied timelike worldline	future orientation and dimension-matched unit declared
+unit_clock_tangent	DERIVED_CONDITIONAL	U equals dz by dtau with g of U U equals minus one	candidate local completed scalar is exactly zero
+pair_domain_clock_parameter	SUPPLIED	common parameter y labels paired events	physical event-pairing ownership remains open
+comparison_clock_tangent	DERIVED_FROM_SUPPLIED_PAIR_MAP	u equals dz by dy equals dtau by dy times U	pair-incidence first jet
+G176_completion	WORKING_FOUNDATIONAL_CLARIFICATION	completed reciprocal normalization	not canon
+G215_scalar	DERIVED_CONDITIONAL	Phi equals minus log T with T squared minus g of u u	shared calibrated incidence only
+angular_screen_mixing_channels	RETAINED_UPSTREAM_AND_NONSCALAR	enter complete pullback before completion	not post-readout corrections
+population_values_history	OPEN	outside bounded rate algebra	no selection evolution or downstream physics
+

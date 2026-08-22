@@ -1,0 +1,9 @@
+item	status	claim	limit
+preregistration	PASS	bounded clock ownership and rate-interpretation alternatives frozen	outcomes not yet run
+proper_time_owner	TEST_REQUIRED	unit clock may trivialize rather than own nonzero scalar	must be derived exactly
+pair_rate_law	TEST_REQUIRED	candidate delta equals log ratio of proper-clock rates	one supplied pair parameter
+common_reparameterization	TEST_REQUIRED	candidate invariance of relative depth	positive shared reparameterization only
+independent_reparameterization	CONTROL	candidate exact incidence defect	not one shared calibrated pair parameter
+primary_static_recovery	TEST_REQUIRED	candidate dtau by dx0 equals exp minus phi	declared primary static chart only
+physical_pair_population	OPEN	outside bounded derivation	no history or query generation
+
