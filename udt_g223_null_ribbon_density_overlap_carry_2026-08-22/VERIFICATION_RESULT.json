@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "preregistration_commit": "f48c7d6b",
+  "source_count": 7,
+  "symbolic_checks": 21,
+  "independent_cases": 20000,
+  "exact_rational_assertions": 361001,
+  "contract_mutations": 14,
+  "metric_mixed_pairing_canonical": true,
+  "vertical_density_inverse_clock_weight": true,
+  "oriented_area_form_invariant": true,
+  "chosen_full_representative_closedness_invariant": false,
+  "local_interval_fiber_coordinate_exists": true,
+  "global_scalar_coordinate_unconditional": false,
+  "G216_clock_chain_supplies_vertical_gluing": false,
+  "fresh_external_review": "PENDING",
+  "landing": "METRIC_OWNS_NONDEGENERATE_CLOCK_RULER_LINE_PAIRING_ON_SUPPLIED_NULL_RIBBON__RULER_DENSITY_HAS_EXACT_INVERSE_CLOCK_OVERLAP_WEIGHT__LOCAL_FIBER_COORDINATE_EXISTS_BUT_GLOBAL_SCALAR_NEEDS_TRIVIALIZATION_AND_CECH_PERIOD_GATES__G216_CLOCK_COMPOSITION_DOES_NOT_BY_ITSELF_SUPPLY_CROSS_RIBBON_VERTICAL_CARRY"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "seed": 2230822,
+  "cases": 20000,
+  "exact_rational_assertions": 361001,
+  "same_metric_closedness_counterexample": true,
+  "local_fiber_integration_control": true,
+  "clock_weight_cocycle": true,
+  "cross_ribbon_vertical_gluing_derived": false
+}

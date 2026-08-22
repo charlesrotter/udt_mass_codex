@@ -1,0 +1,6 @@
+control	status	meaning
+same_metric_closedness_change	PASS	closedness of a chosen full representative is chart-dependent
+local_interval_fiber	PASS	vertical density integrates locally for arbitrary smooth positive a(y)
+positive_circle_period	PASS	positive vertical density has nonzero closed-fiber period
+G214_intersection	PASS	null-line and clock-line preserving groups meet diagonally
+G216_boundary	PASS	clock chain fixes weight but not a cross-ribbon vertical isomorphism

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "mutations_attempted": 14,
+  "mutations_rejected": 14,
+  "rejected": [
+    "derivation_status",
+    "symbolic_count",
+    "mixed_pairing",
+    "clock_weight",
+    "closedness_promotion",
+    "local_coordinate",
+    "global_scalar_promotion",
+    "vertical_gluing_promotion",
+    "independent_cases",
+    "independent_assertions",
+    "counterexample",
+    "cross_ribbon_promotion",
+    "preregistration",
+    "landing"
+  ]
+}
