@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G218. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G219. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -33,12 +33,19 @@ G215 makes completed `Phi=-log T` a shared comparison-clock scalar. G216 derives
 jet. G218 is cross-examined `PONDER`, not canon or a new theorem: incidence, depth, and first jet are
 three views of one query-indexed clock correspondence. On the declared primary static congruence,
 `delta_AB=phi_B-phi_A` closes the scalar kernel modulo clock-origin gauge. Null incidence is an exact
-metric-native causal query, not a founded universal positional owner. Outside static symmetry, the
-protocol/embedded realization and higher/full angular-screen-mixing germ remain open.
+metric-native causal query, not a founded universal positional owner. G219 is the first exact
+static-to-moving bridge: the scalar chain factors through the one positive clock slope
+`r_AB=d tau_B/d tau_A`, with `delta_AB=-log r_AB` and no second reciprocal-kernel scalar
+coefficient. On the same exact moving-flat metric, null, A-Fermi/radar, and B-Fermi queries give
+different slopes for nonzero rapidity. Mathematical inverse is not later causal return. Thus the
+metric evaluates a declared dynamic correspondence, while the founding sources do not select a
+universal protocol. Density, shift, incidence, pair-plane, higher/full angular-screen-mixing germ,
+and genuinely time-live realization remain open.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
-yet own the general moving/time-live correspondence. No second scalar selector or pair-clock
-coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer, fits, `X_max`,
+yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
+pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
+fits, `X_max`,
 G142--G160 scaffold variables, and protected payload are not construction inputs. G190--G198 are
 chosen-family or formula-level regression controls; a `STANDARD_GEOMETRIC_EVALUATOR` is not a UDT
 history law. G199--G214 are retained structural classifications in `CURRENT_RESEARCH_PROGRAM.md`,
@@ -71,8 +78,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Run the preregistered clock-arrow factorization/protocol audit: factor G166--G217 scalar formulas
-through one correspondence, then compare null, Fermi, and radar arrows on the same moving-flat
-observers. Do not use a time-live witness until this typing gate passes; do not fit, identify
-`X_max`, select transfer, or use G116/G189 as construction inputs.
+Lift the verified G219 clock arrow onto one supplied genuinely time-live metric without selecting a
+physical protocol. First derive the covariant null-incidence clock slope on one unique regular null
+branch and compare it with the completed pair-pullback slope on the same observer events. Null is a
+metric causal control, not a universal positional owner. Keep the full orchestra before readout;
+do not fit, identify `X_max`, select transfer, activate protected drafts, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

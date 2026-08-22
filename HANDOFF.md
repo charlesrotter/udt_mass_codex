@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G218 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G219 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -22,8 +22,11 @@ G215, G216, and G217 establish the scalar comparison clock on supplied data:
 chain-rule identities. G218 is cross-examined `PONDER`, not canon or a new derivation: the graph,
 logarithmic slope, and derivative are incidence, depth, and first jet of one query-indexed regular
 clock correspondence. The declared primary static kernel closes modulo clock-origin gauge. Null
-incidence is metric-native causal query data, not a universal positional owner. The moving/time-live
-protocol, embedded branch, and higher/full orchestra remain open.
+incidence is metric-native causal query data, not a universal positional owner. G219 then factors
+the scalar chain through one positive clock slope and derives exact moving-flat null, A-Fermi/radar,
+and B-Fermi arrows. Their slopes differ away from zero rapidity; inverse, future return, and echo are
+distinct. The frozen founding sources select no universal protocol. Density, shift, incidence,
+pair-plane, higher/full orchestra, and genuinely time-live realization remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,
@@ -49,8 +52,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Run the G218-preregistered clock-arrow factorization and moving-flat null/Fermi/radar protocol audit.
-Keep future causal return distinct from mathematical inversion. Do not fit, activate arbitrary coframes, identify `X_max`,
-select transfer, or use G116/G189. All other open ownership remains controlled by the exact registry.
+Lift G219 to one supplied genuinely time-live metric: derive the covariant null-incidence clock slope
+on one unique regular null branch and compare it with the completed pair-pullback slope on the same
+observer events. Keep null query-typed and future return distinct from inversion. Do not fit,
+activate arbitrary coframes or protected drafts, identify `X_max`, select transfer, or use G116/G189.
+All other open ownership remains controlled by the exact registry.
 
 <!-- STARTUP_CURRENT_END -->

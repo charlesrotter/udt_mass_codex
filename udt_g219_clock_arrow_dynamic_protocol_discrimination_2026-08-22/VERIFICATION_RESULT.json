@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "landing": "SCALAR_CHAIN_FACTORS_THROUGH_ONE_CLOCK_ARROW__PROTOCOL_REMAINS_QUERY_TYPED",
+  "source_count": 11,
+  "exact_checks": 18,
+  "independent_cases": 3684,
+  "independent_exact_checks": 44822,
+  "hostile_catches": 10,
+  "protocol_mutation_guard": true,
+  "no_write_replay": true,
+  "fresh_adversarial_review": "ACCEPT_AFTER_PREREGISTERED_EVIDENCE_REPAIRS",
+  "full_timelive_orchestra_derived": false,
+  "physical_protocol_selected": false
+}

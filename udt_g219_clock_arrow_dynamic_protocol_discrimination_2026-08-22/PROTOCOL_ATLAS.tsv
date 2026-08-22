@@ -1,0 +1,8 @@
+protocol	map	slope_r	depth_delta	status	limit
+outgoing_null_A_to_B	b=(L + a)*exp(eta)	exp(eta)	-eta	DERIVED_CONDITIONAL_CAUSAL_QUERY	branchwise_future_null
+A_Fermi	b=a/cosh(eta)	1/cosh(eta)	log(cosh(eta))	DERIVED_CONDITIONAL_QUERY	A_orthogonal_slice
+B_Fermi_as_A_to_B	b=L*sinh(eta) + a*cosh(eta)	cosh(eta)	-log(cosh(eta))	DERIVED_CONDITIONAL_QUERY	B_orthogonal_slice
+A_radar_simultaneity	b=a_radar/cosh(eta)	1/cosh(eta)	log(cosh(eta))	DERIVED_CONDITIONAL_CAUSAL_QUERY	inertial_flat_equals_A_Fermi
+null_mathematical_inverse	a=-L + b*exp(-eta)	exp(-eta)	eta	DERIVED_ARROW_INVERSE	same_event_pair_read_backward
+future_return_B_to_A	a_plus=L + b*exp(eta)	exp(eta)	-eta	DERIVED_CONDITIONAL_CAUSAL_QUERY	later_event_not_inverse
+A_echo	a_plus=L + (L + a_minus)*exp(2*eta)	exp(2*eta)	-2*eta	DERIVED_CONDITIONAL_COMPOSITE	actual_future_round_trip

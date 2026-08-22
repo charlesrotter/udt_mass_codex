@@ -1,0 +1,7 @@
+{
+  "implementation": "stdlib_Fraction_no_production_import",
+  "cases": 3684,
+  "assertions": 44822,
+  "exact": true,
+  "all_checks_pass": true
+}

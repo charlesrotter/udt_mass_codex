@@ -193,12 +193,13 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G218",
+            "G166--G219",
             "G197",
             "G215",
             "G216",
             "G217",
             "G218",
+            "G219",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -241,7 +242,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "202-row exact registry",
+            "203-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -293,6 +294,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/",
             "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/",
             "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/",
+            "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -306,7 +308,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G218",
+            "G166--G219",
             "G197",
             "G198",
             "G199",
@@ -330,6 +332,7 @@ def validate_startup_surface(root: Path) -> None:
             "G216",
             "G217",
             "G218",
+            "G219",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -366,6 +369,7 @@ def validate_startup_surface(root: Path) -> None:
             "G216",
             "G217",
             "G218",
+            "G219",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -401,7 +405,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "202-row",
+            "203-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -742,9 +746,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 202, "premise registry must contain exactly 202 rows")
+    require(len(rows) == 203, "premise registry must contain exactly 203 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 202, "duplicate premise id")
+    require(len(by_id) == 203, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2119,6 +2123,94 @@ def main() -> None:
         "G218 landing changed",
     )
     require(all(g218_package["checks"].values()), "G218 integrity check failed")
+    require(
+        by_id["G219"]["current_status"].startswith(
+            "FRESHLY_ADVERSARIALLY_VERIFIED_WITH_REPAIRS_AND_CAVEATS__PREREGISTERED_AT_A8AC1A65__"
+            "EXACT_FLAT_1PLUS1_INERTIAL_MOVING_OBSERVER_CONTROL"
+        ),
+        "G219 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "DELTA_EQUALS_MINUS_LOG_R",
+        "NO_SECOND_RECIPROCAL_KERNEL_SCALAR_COEFFICIENT",
+        "DENSITY_SHIFT_INCIDENCE_PAIR_PLANE_AND_HIGHER_GERM_REMAIN_SEPARATELY_TYPED",
+        "OUTGOING_NULL_SLOPE_EXP_ETA",
+        "A_FERMI_AND_INERTIAL_A_RADAR_SLOPE_SECH_ETA",
+        "B_FERMI_SLOPE_COSH_ETA",
+        "MATHEMATICAL_INVERSE_EXP_MINUS_ETA_DISTINCT_FROM_FUTURE_RETURN_EXP_ETA_AND_ECHO_EXP_2ETA",
+        "FROZEN_FOUNDING_SOURCES_SELECT_NO_UNIVERSAL_MOVING_PROTOCOL",
+        "LOCAL_CONNECTED_FUTURE_RIGHT_NULL_BRANCH_ONLY",
+        "44822_EXPLICIT_EXACT_CHECKS",
+        "PROTOCOL_MUTATION_GUARD",
+        "NO_FULL_TIMELIVE_ORCHESTRA_PHYSICAL_PROTOCOL_HISTORY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G219"]["current_status"], f"G219 guard absent: {guard}")
+    require(by_id["G219"]["epistemic_label"] == "MIXED", "G219 label changed")
+    require(
+        by_id["G219"]["active_use"]
+        == "ACTIVE_BOUNDED_FLAT_INERTIAL_MOVING_CLOCK_ARROW_FACTORIZATION_AND_PROTOCOL_DISCRIMINATION_ONLY",
+        "G219 active scope widened",
+    )
+    require(
+        "flat control called a full time-live UDT history"
+        in by_id["G219"]["forbidden_regression"],
+        "G219 time-live anti-promotion guard absent",
+    )
+    require(
+        "no extra reciprocal scalar coefficient used to erase density shift incidence pair-plane or higher germs"
+        in by_id["G219"]["forbidden_regression"],
+        "G219 typed-data preservation guard absent",
+    )
+    require(
+        by_id["G219"]["controlling_source"]
+        == "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/AUDIT_REPORT.md",
+        "G219 controlling source changed",
+    )
+    g219 = ROOT / "udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22"
+    for name in (
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "derive_clock_arrow_protocols.py",
+        "verify_clock_arrow_independent.py",
+        "run_catch_proofs.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PROTOCOL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "STATUS_LEDGER.tsv",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "VERIFICATION_RESULT.json",
+        "verify_package.py",
+    ):
+        require((g219 / name).is_file(), f"G219 evidence missing: {name}")
+    g219_package = json.loads((g219 / "VERIFICATION_RESULT.json").read_text())
+    require(g219_package["status"] == "PASS", "G219 package verification failed")
+    require(g219_package["source_count"] == 11, "G219 source count changed")
+    require(g219_package["exact_checks"] == 18, "G219 exact count changed")
+    require(g219_package["independent_cases"] == 3684, "G219 case count changed")
+    require(g219_package["independent_exact_checks"] == 44822, "G219 exact replay count changed")
+    require(g219_package["hostile_catches"] == 10, "G219 catch count changed")
+    require(g219_package["protocol_mutation_guard"] is True, "G219 protocol mutation guard absent")
+    require(g219_package["no_write_replay"] is True, "G219 no-write replay absent")
+    require(
+        g219_package["fresh_adversarial_review"]
+        == "ACCEPT_AFTER_PREREGISTERED_EVIDENCE_REPAIRS",
+        "G219 fresh-review acceptance absent",
+    )
+    require(not g219_package["physical_protocol_selected"], "G219 protocol falsely selected")
+    require(not g219_package["full_timelive_orchestra_derived"], "G219 widened to full time-live")
+    require(
+        g219_package["landing"]
+        == "SCALAR_CHAIN_FACTORS_THROUGH_ONE_CLOCK_ARROW__PROTOCOL_REMAINS_QUERY_TYPED",
+        "G219 landing changed",
+    )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -6342,7 +6434,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G218-extended premise guards; PASS: 202-row premise "
+        "PASS: G219-extended premise guards; PASS: 203-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

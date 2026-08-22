@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215--G217 externally verified | `Phi=-log T`; events plus depth fix the positive first jet | Event/depth population; full germ/carry |
+| Pair-clock network | G215--G219; stated caveats | `Phi=-log T`; supplied depth fixes the positive jet; moving queries share one scalar-arrow type | Protocol population; full carry |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -43,9 +43,10 @@
 | G212 history bridge | verified w/caveats | Valued rank-complete network is the state; flow open |
 | G213--G214 rank and descent | externally accepted | Five modes; completed tuples retain rank ten and descend |
 | G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
-| G216 comparison-clock rate ownership | externally verified with caveats | Unit proper clock is locally trivial; nonzero edge depth is the proper-time pairing-rate derivative |
-| G217 founded-depth first-jet ownership | externally verified | Supplied paired events and depth fix the positive proper-clock first jet; incidence and full germ remain open |
-| G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and first jet are one query-indexed correspondence; protocol ownership remains open |
+| G216 comparison-clock rate | externally verified with caveats | Unit clock is locally trivial; edge depth is the pairing-rate derivative |
+| G217 depth first jet | externally verified | Supplied events/depth fix the positive jet; full germ remains open |
+| G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and first jet form one query-indexed correspondence |
+| G219 moving clock arrow | adversarially verified after repairs | One scalar slope; moving null/Fermi/radar differ; none selected |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -70,10 +71,8 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- G212--G218 close or retype state, rank, cover descent, shared-clock incidence, the proper-clock rate
-  interpretation, and its positive first jet on supplied paired events/depth. Valuation,
-  zero-jet event/depth population, higher/full-germ incidence, transfer, and completion
-  stay open.
+- G212--G219 close state/rank/descent and type the supplied positive clock jet. Event/protocol
+  population, valuation, full germ, transfer, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -102,12 +101,12 @@ Do not:
   fits, proper length, universe size, or seams;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize the chain, universalize chosen germs, activate absent couplings, select `Y,Z`,
-  scalarize angular Gram, force triangles, erase calibrations, or import familiar mechanisms.
+- globalize the chain, universalize germs, activate absent couplings, select `Y,Z`, scalarize angular
+  Gram, force triangles, erase calibrations, or import familiar mechanisms.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 202-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 203-row authority. On conflict, stop.
 
 Run:
 

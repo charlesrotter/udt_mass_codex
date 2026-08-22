@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G218 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G219 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -18,18 +18,19 @@ closes diagonal scalars. G212 makes the valued network the metric state; G213 re
 with typed `(m,h_s)`. G214 descends it across covers. G215 closes shared-clock scalar incidence
 while density, shift, and full carry remain live. G216 gives unit proper clocks `T=1,Phi=0` and the
 supplied-germ invariant `delta_AB=-log(d tau_B/d tau_A)`; common reparameterization cancels and
-inverse/chain rules give reversal/composition. No extra scalar clock coefficient remains; physical
+inverse/chain rules give reversal/composition. No extra reciprocal-kernel clock coefficient remains; physical
 event-pair population stays open. G217 proves that supplied paired events plus ordered depth fix the
 unique positive first jet `d tau_B/d tau_A=exp(-delta_AB)`. It does not select the events or higher
 germ data. G218 PONDER unifies incidence, depth, and first jet as one query-indexed clock
-correspondence; static closure is modulo clock-origin gauge, while protocol and full germ stay open.
-G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
-protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
+correspondence. G219 factors its scalar and shows moving-flat null, A-Fermi/radar, and B-Fermi slopes
+differ; inverse is not return. Each declared query is evaluable, but protocol ownership and full germ
+remain open. G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload from the
+native core. G176 stays provisional and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
 
 ## Observational pointer
 
-R2--R5 are verified with caveats; interpretation remains unresolved.
+R2--R5: verified with caveats; interpretation unresolved.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -46,12 +47,13 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap remain posit/conditional/open.
 
-Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and sources.
+Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Run the G218-preregistered clock-arrow factorization and moving-flat null/Fermi/radar protocol
-discriminator. No time-live witness before that typing gate; no fits, `X_max`, or transfer inputs.
+Lift G219 onto one supplied genuinely time-live metric: derive the covariant null-incidence clock
+slope on a unique regular null branch and compare it with the completed pair-pullback slope on the
+same events. Null remains query-typed. No fits, `X_max`, transfer inputs, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

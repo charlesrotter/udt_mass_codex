@@ -1,0 +1,9 @@
+{
+  "landing": "SCALAR_CHAIN_FACTORS_THROUGH_ONE_CLOCK_ARROW__PROTOCOL_REMAINS_QUERY_TYPED",
+  "manifest_files": 11,
+  "symbolic_checks": 18,
+  "all_checks_pass": true,
+  "static_limit": "all_slopes_equal_one_at_eta_zero",
+  "protocol_uniqueness": false,
+  "full_timelive_history_derived": false
+}

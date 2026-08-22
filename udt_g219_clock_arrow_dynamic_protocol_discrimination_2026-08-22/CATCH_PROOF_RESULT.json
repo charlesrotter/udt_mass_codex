@@ -1,0 +1,16 @@
+{
+  "count": 10,
+  "all_caught": true,
+  "mutations": [
+    "wrong_null_sign",
+    "all_protocols_identical",
+    "inverse_called_return",
+    "echo_called_identity",
+    "depth_sign_reversed",
+    "quadratic_leaks_into_first_jet",
+    "quadratic_erased_from_second_jet",
+    "post_readout_common_scale",
+    "unmatched_middle_allowed",
+    "future_return_called_inverse_map"
+  ]
+}

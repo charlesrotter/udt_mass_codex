@@ -86,21 +86,26 @@ physical scalar after the working premise. They must not be conflated.
   first jet as the graph, logarithmic slope, and derivative of one query-indexed correspondence.
   The primary static scalar kernel closes modulo clock-origin gauge. Null incidence is an exact
   metric-native causal query, not a founded universal positional owner.
+- G219 adversarially verifies the exact moving-flat factorization
+  `r_AB=d tau_B/d tau_A>0`, `delta_AB=-log r_AB`. Null, A-Fermi/radar, and B-Fermi slopes differ;
+  inverse is not return. Each query is metric-evaluated, but none is universally selected.
 
-G206--G217 are externally verified with caveats. G216 and G217 required no scientific repair. None generates
-a sector function, finite-anchor flow, or `X_max`.
+G206--G219 retain their stated verification caveats. None generates a sector function,
+finite-anchor flow, or `X_max`.
 
 Structural package:
 `udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`.
 Current PONDER frame:
 `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`.
+Current dynamic bridge:
+`udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G218 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G219 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
@@ -129,6 +134,9 @@ classify common scale, trace-free screen, radial-screen mixing, full shift, and 
 then close the diagonal dependency. G212--G217 remove the second-scalar-selector framing, close
 shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
 event-pair germ, then close its positive first jet. G218 retypes those scalar data as one clock
-correspondence. Next factor the chain through that arrow and discriminate null/Fermi/radar protocols
-on one moving-flat control before using a time-live witness. Keep higher/full-germ carry separate. Do not
-fit, identify `X_max`, select transfer, or revive historical application inputs.
+correspondence. G219 factors the chain and proves that relative motion separates lawful query-typed
+protocols. Next lift the clock arrow to one supplied genuinely time-live metric by deriving the
+covariant null-incidence slope on a unique regular null branch and comparing it to the completed
+pair-pullback slope on the same events. Keep null query-typed and higher/full-germ carry separate.
+Do not fit, identify `X_max`, select transfer, activate protected drafts, or revive historical
+application inputs.
