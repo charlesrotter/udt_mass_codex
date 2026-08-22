@@ -1,0 +1,18 @@
+{
+  "all_pass": true,
+  "assertions": 110009,
+  "cases": 10000,
+  "changed_beta_cases": 10000,
+  "changed_clock_cases": 10000,
+  "changed_pair_area_cases": 10000,
+  "distinct_cases": 10000,
+  "method": "independent_euler_lagrange_circular_orbit_plus_exact_fraction_determinant_one_ambient_and_completed_pair_replay",
+  "not_independently_verified_here": [
+    "global_hyperbolicity_for_every_smooth_declared_S",
+    "null_completeness_for_every_smooth_static_declared_S",
+    "compact_time_supported_live_null_completeness",
+    "physical_S_history_or_Xmax_selection"
+  ],
+  "production_artifact_read": false,
+  "production_imported": false
+}

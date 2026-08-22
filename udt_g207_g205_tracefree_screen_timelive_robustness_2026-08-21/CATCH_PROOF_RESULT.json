@@ -1,0 +1,30 @@
+{
+  "all_pass": true,
+  "catches": [
+    "production_pass_flip",
+    "production_assertion_drop",
+    "history_selection_smuggled",
+    "tracefree_removed",
+    "radial_kernel_removed",
+    "ambient_volume_removed",
+    "orbit_radial_residual_removed",
+    "finite_affine_failure_removed",
+    "pair_area_blindness_smuggled",
+    "completed_scalar_blindness_smuggled",
+    "global_theorem_falsely_mechanized",
+    "static_scope_removed",
+    "independent_case_drop",
+    "independent_duplicate",
+    "independent_assertion_drop",
+    "clock_response_erased",
+    "area_response_erased",
+    "beta_response_erased",
+    "production_import_smuggled",
+    "production_artifact_smuggled",
+    "independent_method_removed",
+    "selection_scope_overclaimed",
+    "diagnostic_precision_changed",
+    "diagnostic_scope_overclaimed"
+  ],
+  "caught": 24
+}

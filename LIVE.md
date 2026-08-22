@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G206. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G207. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -69,7 +69,17 @@ exactly divergence of `integral exp(2 Omega)d lambda` at both ends: a bounded qu
 survives; a smooth decaying witness fails while staying globally hyperbolic. On completed pairs,
 `omega=Omega composed F` and `Phi_tilde=Phi-omega`. External review found no mathematical error.
 This classifies supplied extensions; it selects no `Omega`, history, or `X_max`. Timelike/spacelike
-completeness and trace-free screen/mixing remain open.
+completeness and combined missing sectors remain open.
+
+G207 turns on pure determinant-one trace-free angular-screen shape before pair pullback. Every
+smooth declared member preserves Lorentz signature, ambient determinant, the radial causal bound,
+the G205 Cauchy slices, and global hyperbolicity. Every smooth static member is null complete, and
+a compact-time-live center-regular nonspherical witness survives. Unrestricted live shear can
+nevertheless compress an exact supercritical G205 circular null orbit to finite Gaussian affine
+future while remaining globally hyperbolic. Generic screen-bearing clock germs, pair area, and
+shift hear the shear internally; a static clock is the exact blind stratum. External review found
+no mathematical error. `S` remains `FREE_AND_EXPLORED`; timelike/spacelike completeness, combined
+common scale plus shear, radial-screen mixing, shift, physical history, and `X_max` remain open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -109,8 +119,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G206 closes the common-conformal time-live/nonspherical robustness tile. Next PONDER the smallest
-metric-led trace-free screen or mixing extension and preregister its causal, affine, and completed-
-pair gates. Do not fit, identify any limit with `X_max`, select transfer, derive a metric by
-template, or use G116/G189 as construction inputs.
+G207 closes the pure trace-free screen robustness tile. Next MAP and PONDER the smallest
+metric-led radial-screen mixing tile, or prove that combined common-scale/shear interaction must
+precede it; preregister only one causal, affine, and completed-pair classification. Do not fit,
+identify any limit with `X_max`, select transfer, derive a metric by template, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

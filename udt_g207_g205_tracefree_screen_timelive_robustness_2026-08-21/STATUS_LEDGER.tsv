@@ -1,0 +1,16 @@
+object	status	claim
+G207_extension_class	CHOSE_EXTENSION_CLASS	smooth self-adjoint radial-kernel trace-free angular-screen shear over G205
+screen_exponential	DERIVED_CONDITIONAL	positive determinant-one screen automorphism
+ambient_signature_and_volume	DERIVED_CONDITIONAL	Lorentz signature and determinant equal G205
+radial_causal_bound	DERIVED_CONDITIONAL	absolute dr/dt no greater than f
+global_hyperbolicity	DERIVED_CONDITIONAL	G205 t-slices remain Cauchy for every smooth declared S
+static_null_completeness	DERIVED_CONDITIONAL	every smooth static declared S is null complete
+compact_time_live_witness	DERIVED_CONTROL	center-regular nonspherical survivor is null complete
+unrestricted_live_failure	DERIVED_COUNTEREXAMPLE	smooth circular-orbit shear is globally hyperbolic but null incomplete
+completed_pair_response	DERIVED_CONDITIONAL	generic screen-bearing clock germ changes Phi internally through pullback
+static_clock_stratum	DERIVED_CONDITIONAL	pure screen shear leaves Phi unchanged when clock spatial leg vanishes
+timelike_spacelike_completeness	OPEN	not classified for the deformed class
+combined_common_scale_shift_mixing	OPEN	not activated in G207
+physical_S_history	OPEN	no selector derived
+Xmax_action_source_transfer_observations	OMITTED_OPEN	outside G207
+external_adversarial_review	VERIFIED_WITH_CAVEATS	no mathematical error; bounded landing retained

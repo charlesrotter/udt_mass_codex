@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G206 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G207 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -24,6 +24,13 @@ G206 adds arbitrary smooth positive live/nonspherical common scale. Causality su
 completeness is the conformal affine-integral test. Bounded and decaying witnesses respectively
 survive and fail. Completed `Phi` shifts by minus the pair pullback. No `Omega`, screen/mixing, or
 `X_max` is selected.
+
+G207 adds pure determinant-one trace-free angular-screen shape before pullback. Ambient volume,
+the radial causal bound, and G205 global hyperbolicity survive every smooth declared member. Static
+members and a compact-live witness are null complete; unrestricted live shear can compress a
+supercritical circular null orbit to finite affine future. Completed `Phi`, pair area, and shift
+hear generic screen-bearing germs; a static clock is the exact blind stratum. No physical `S` is
+selected.
 
 G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs
@@ -56,9 +63,10 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G206 closes the common-conformal time-live/nonspherical robustness tile. Next ponder the smallest
-metric-led trace-free screen or mixing extension. No fits, `X_max` identification, transfer,
-templates, or G116/G189 inputs.
+G207 closes the pure trace-free screen robustness tile. Next map the smallest metric-led
+radial-screen mixing tile, or first prove that a combined common-scale/shear interaction must be
+tested before it. Preregister one tile only. No fits, `X_max` identification, transfer, templates,
+or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

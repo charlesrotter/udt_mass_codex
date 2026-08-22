@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-21
 
-G166--G206 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G207 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -39,7 +39,15 @@ G206 adds arbitrary smooth positive live/nonspherical common scale. Causal curve
 hyperbolicity survive; null completeness is exactly the two-ended `exp(2 Omega)` affine-integral
 test. Bounded and decaying witnesses respectively survive and fail. Completed pairs obey
 `Phi_tilde=Phi-Omega composed F`. External review found no mathematical error. `Omega` remains
-`FREE_AND_EXPLORED`; other completeness, screen/mixing, history, and `X_max` remain open.
+`FREE_AND_EXPLORED`; other completeness and combined sectors remain open.
+
+G207 adds pure determinant-one trace-free angular-screen shape before pullback. Signature, ambient
+volume, radial causal control, G205 Cauchy slices, and global hyperbolicity survive every smooth
+declared member. Static members and a compact-live nonspherical witness are null complete;
+unrestricted live shear has an exact supercritical circular-null counterexample with finite affine
+future. Generic screen-bearing pair germs hear the shear, while a static clock is exactly blind.
+External review found no mathematical error. `S` is not selected; combined common scale/shear,
+radial-screen mixing, shift, physical history, and `X_max` remain open.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -65,9 +73,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G206 closes the common-conformal time-live/nonspherical robustness tile. Next ponder the smallest
-metric-led trace-free screen or mixing extension. Do not fit, activate arbitrary coframe terms,
-identify any limit with `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
+G207 closes the pure trace-free screen robustness tile. Next map the smallest metric-led
+radial-screen mixing tile, or first prove that combined common-scale/shear interaction must precede
+it. Preregister one tile only. Do not fit, activate arbitrary coframe terms, identify any limit with
+`X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

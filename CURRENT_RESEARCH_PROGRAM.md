@@ -75,9 +75,15 @@ physical scalar after the working premise. They must not be conflated.
   completeness is exactly the weighted-affine-integral condition. Completed-pair depth changes by
   minus the pair pullback of `Omega`. The class is an externally verified conditional evaluator,
   not a physical `Omega` or `X_max` selection.
+- G207 turns on arbitrary smooth `h0`-self-adjoint radial-kernel trace-free screen shape through
+  `A=exp(S)` before pullback. It preserves ambient determinant, the radial causal bound, and G205
+  global hyperbolicity. Static members are null complete; compact-live survivors exist; an exact
+  unrestricted-live supercritical circular-orbit witness is null incomplete. Generic
+  screen-bearing completed pairs respond internally, while static-clock germs are blind. This is
+  an externally verified conditional classification, not a physical `S` or `X_max` selection.
 
 Current structural package:
-`udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`.
+`udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -109,6 +115,8 @@ The primary metric excludes the chosen chiral coupling; reversed germs use one l
 volumes need not be lockstep. Quiet overlap, its descriptors, and the bounded smooth-center/outer
 asymptotic alternatives are exact; G205 closes their static-spherical geodesic/causal completion.
 G206 closes the common-conformal live/nonspherical robustness tile without selecting `Omega`.
-Their values remain unselected. Next PONDER the smallest metric-led trace-free screen or mixing
-extension. Do not fit, invent channel coefficients, identify any limit with `X_max`, select
-transfer, or use G116/G189 as inputs.
+G207 closes the pure trace-free angular-screen tile without selecting `S`; the static/live affine
+boundary and completed-pair coupling are now exact. Their values remain unselected. Next MAP and
+PONDER one smallest metric-led radial-screen mixing tile, unless an exact dependency proof shows
+that combined common-scale/shear interaction must come first. Do not fit, invent channel
+coefficients, identify any limit with `X_max`, select transfer, or use G116/G189 as inputs.

@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G206",
+            "G166--G207",
             "G196",
             "G197",
             "G198",
@@ -174,6 +174,7 @@ def validate_startup_surface(root: Path) -> None:
             "G204",
             "G205",
             "G206",
+            "G207",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -227,7 +228,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "190-row exact registry",
+            "191-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -263,6 +264,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/",
             "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/",
             "udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/",
+            "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -273,7 +275,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G206",
+            "G166--G207",
             "G197",
             "G198",
             "G199",
@@ -284,6 +286,7 @@ def validate_startup_surface(root: Path) -> None:
             "G204",
             "G205",
             "G206",
+            "G207",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -308,6 +311,7 @@ def validate_startup_surface(root: Path) -> None:
             "G204",
             "G205",
             "G206",
+            "G207",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -331,10 +335,11 @@ def validate_startup_surface(root: Path) -> None:
             "G204",
             "G205",
             "G206",
+            "G207",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "190-row",
+            "191-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -568,6 +573,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g152_pair_immersion_variational_chord_ownership_2026-08-17/AUDIT_REPORT.md",
         "udt_g153_relational_position_ruler_differential_join_2026-08-17/AUDIT_REPORT.md",
         "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/AUDIT_REPORT.md",
+        "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -594,9 +600,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 190, "premise registry must contain exactly 190 rows")
+    require(len(rows) == 191, "premise registry must contain exactly 191 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 190, "duplicate premise id")
+    require(len(by_id) == 191, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1128,6 +1134,67 @@ def main() -> None:
     require(
         g206_package["external_adversarial_review"] == "VERIFIED_WITH_CAVEATS",
         "G206 external review absent",
+    )
+    require(
+        by_id["G207"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_F7F9D92D__"
+            "FRESH_EXTERNAL_GPT54_VERIFIED_WITH_CAVEATS_NO_MATHEMATICAL_ERROR_OR_HIDDEN_MATERIAL_OVERCLAIM"
+        ),
+        "G207 bounded grade changed or promoted",
+    )
+    for guard in (
+        "LORENTZ_SIGNATURE_AMBIENT_DETERMINANT_AND_RADIAL_CAUSAL_BOUND_PRESERVED",
+        "ALL_SMOOTH_DECLARED_S_PRESERVE_G205_CAUCHY_SLICES_AND_GLOBAL_HYPERBOLICITY",
+        "ALL_SMOOTH_STATIC_MEMBERS_NULL_COMPLETE",
+        "COMPACT_TIME_LIVE_CENTER_REGULAR_NONSPHERICAL_WITNESS_NULL_COMPLETE",
+        "SMOOTH_UNBOUNDED_TIME_LIVE_SUPERCRITICAL_CIRCULAR_ORBIT_WITNESS_GLOBALLY_HYPERBOLIC_BUT_NULL_INCOMPLETE",
+        "STATIC_CLOCK_STRATUM_BLIND",
+        "GENERIC_SCREEN_BEARING_CLOCK_PAIR_AREA_AND_SHIFT_RESPOND",
+        "ANALYTIC_GLOBAL_THEOREMS_NOT_MECHANIZED",
+        "NO_TIMELIKE_SPACELIKE_COMPLETENESS_COMBINED_COMMON_SCALE_RADIAL_SCREEN_MIXING_SHIFT_PHYSICAL_S_HISTORY_XMAX",
+    ):
+        require(guard in by_id["G207"]["current_status"], f"G207 guard absent: {guard}")
+    require(by_id["G207"]["epistemic_label"] == "MIXED", "G207 label changed")
+    require(
+        by_id["G207"]["active_use"]
+        == "ACTIVE_BOUNDED_PURE_TRACEFREE_ANGULAR_SCREEN_TIMELIVE_CAUSAL_NULL_AFFINE_AND_COMPLETED_PAIR_CLASSIFICATION_OVER_THE_SUPPLIED_G205_FAMILY_ONLY",
+        "G207 active scope widened",
+    )
+    require(
+        by_id["G207"]["controlling_source"]
+        == "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/AUDIT_REPORT.md",
+        "G207 controlling source changed",
+    )
+    g207 = ROOT / "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "BOUNDARY_DIAGNOSTICS.json",
+        "CATCH_PROOF_RESULT.json",
+        "SOURCE_PROVENANCE_VERIFICATION.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "TRANSMISSION_RECORD.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g207 / name).is_file(), f"G207 evidence missing: {name}")
+    g207_package = json.loads((g207 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g207_package["all_pass"] is True, "G207 package verification failed")
+    require(g207_package["no_write_replay"] is True, "G207 no-write replay absent")
+    require(g207_package["production_assertions"] == 36, "G207 production count changed")
+    require(g207_package["independent_assertions"] == 110009, "G207 assertion count changed")
+    require(g207_package["independent_cases"] == 10000, "G207 case count changed")
+    require(g207_package["distinct_cases"] == 10000, "G207 distinct-case count changed")
+    require(g207_package["diagnostic_precision_digits"] == 100, "G207 diagnostic precision changed")
+    require(g207_package["mutation_catches"] == 24, "G207 hostile count changed")
+    require(g207_package["live_source_hashes_recorded"] == 7, "G207 source count changed")
+    require(
+        g207_package["external_adversarial_review"] == "VERIFIED_WITH_CAVEATS",
+        "G207 external review absent",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -5345,7 +5412,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G206-extended premise guards; PASS: 190-row premise "
+        "PASS: G207-extended premise guards; PASS: 191-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

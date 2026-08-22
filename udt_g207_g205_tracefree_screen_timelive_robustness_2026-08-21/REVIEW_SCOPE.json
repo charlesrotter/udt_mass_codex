@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-21",
+  "package": "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21",
+  "purpose": "fresh read-only adversarial verification of the bounded G207 landing",
+  "required_command": "PYTHONDONTWRITEBYTECODE=1 UDT_NO_WRITE=1 python3 udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/verify_package.py",
+  "allowed": [
+    "inspect files in the sealed intake",
+    "run bounded read-only checks",
+    "write the review response outside the evidence package"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue the research"
+  ]
+}
