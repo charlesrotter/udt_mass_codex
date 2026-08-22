@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Build a fresh sealed G213 intake from the package and its exact frozen sources."""
+"""Build a fresh or repair-only sealed G213 intake from exact frozen sources."""
 
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -8,9 +9,15 @@ import shutil
 import tempfile
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--repair-followup", action="store_true")
+args = parser.parse_args()
+
+
 PACKAGE = Path(__file__).resolve().parent
 ROOT = PACKAGE.parent
-DEST = Path(tempfile.mkdtemp(prefix="udt_g213_review_", dir="/tmp"))
+prefix = "udt_g213_repair_followup_" if args.repair_followup else "udt_g213_review_"
+DEST = Path(tempfile.mkdtemp(prefix=prefix, dir="/tmp"))
 PACKAGE_DEST = DEST / PACKAGE.name
 PACKAGE_DEST.mkdir()
 
@@ -32,7 +39,12 @@ for line in (PACKAGE / "SOURCE_MANIFEST.tsv").read_text().splitlines()[1:]:
 
 scope = {
     "audit": "G213",
-    "purpose": "fresh read-only adversarial review of the local spatial-mode census and completed-pair rank bridge",
+    "purpose": (
+        "repair-only follow-up of dependency-free replay and independent mode-rank coverage"
+        if args.repair_followup
+        else "fresh read-only adversarial review of the local spatial-mode census and completed-pair rank bridge"
+    ),
+    "review_mode": "repair_only_followup" if args.repair_followup else "fresh_adversarial",
     "package": PACKAGE.name,
     "package_file_count": len(package_files),
     "frozen_source_count": len(source_rows),
@@ -40,6 +52,15 @@ scope = {
     "forbidden_actions": ["edit evidence", "continue research", "access repository outside intake"],
     "scientific_ceiling": "local conditional decomposition and metric-information reconstruction only",
 }
+if args.repair_followup:
+    scope["required_verifications"] = [
+        "production and hostile scripts import no third-party module",
+        "registered no-write replay passes in sealed standard-library Python",
+        "independent mode ranks are five four five",
+        "ten-thousand-case completed-tuple and density-blind replay remains exact",
+        "bounded scientific landing and supplied-premise caveats remain unchanged",
+    ]
+    scope["forbidden_actions"].append("change or extend scientific landing")
 (DEST / "REVIEW_SCOPE.json").write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n")
 
 manifest_rows = []
