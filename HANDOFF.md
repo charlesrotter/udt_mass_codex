@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G211 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G212 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -39,14 +39,16 @@ function, history, lapse, or `X_max` is selected.
 G211 proves the local diagonal scalar sector has rank two after the calibrated split and references
 are supplied. Common scale `Omega` and relative spatial scale `q` are an exact basis; lapse-only is
 their fixed mixture, not a third tile. Cones hear `q`; null affine reach and completed depth also
-hear `Omega`. External review required no repair. No split, scalar profile, global realization, or
-`X_max` is selected.
+hear `Omega`. External review required no repair. Split, profile, realization, and asymptotic
+`X_max` remain unselected.
 
-G197 independently audited the full G166--G196 provenance chain. Landing:
-`NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
-scaffold or protected local payload is load-bearing. The repairs are typing and evidence-scope
-repairs, not a scientific counterexample: G176 remains working, germs/families remain supplied, and
-G190--G192 numerical IVP checks are formula-level.
+G212 reconciles G129--G130 with the completed kernel. A valued rank-complete pair network can be the
+metric state. Two generic clocks invert `Omega,q` pointwise; current identities still do not
+generate their functions from finite anchors. Full all-germ isotropy is not UDT-owned.
+
+G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
+or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
+IVPs formula-level.
 
 P1, G116, G189 transfer, fits, and `X_max` are not construction inputs. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300 rows are
@@ -66,10 +68,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G211 closes the complete local diagonal-scalar plane. Next map and ponder the determinant-one
-spatial remainder, count its full local modes, and separate modes already covered by G207/G208 from
-genuinely unclassified modes before solving. Do not fit, activate arbitrary coframe terms, identify
-`X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
+G212 removes the redundant second-history-selector problem and closes pointwise scalar tomography.
+Next map and ponder the determinant-one spatial remainder, count its full local modes, separate
+G207/G208 coverage, and prepare the finite multidirectional completed-pair rank test against G129.
+Do not fit, activate arbitrary coframe terms, identify `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

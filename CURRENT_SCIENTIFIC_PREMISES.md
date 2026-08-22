@@ -21,10 +21,10 @@
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
-| G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalar views stop at conformal/scale/carrier ceilings; `X_max` and scaffolds are not kernel inputs |
-| G166--G175 primary supplied-pair chain | accepted with caveats | Pullback, endpoint difference, reversal, turns, and calibration atlas; germ and profile remain supplied |
-| G176--G180 completed pair | conditional; externally accepted | Working completed-pair premise selects the reciprocal ruler; coframe/family evaluators do not select histories |
-| G181--G184 strata/equivalence | conditional; externally accepted | Endpoints, carry, branches, and typed quotient; equal summaries do not identify realizations |
+| G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalars retain scale/carrier ceilings; no `X_max` input |
+| G166--G175 supplied-pair chain | accepted with caveats | Pullback, reversal, turns, calibration; germ and profile remain supplied |
+| G176--G180 completed pair | conditional; accepted | Working premise selects the reciprocal ruler; evaluators select no histories |
+| G181--G184 strata/equivalence | conditional; accepted | Endpoints, carry, branches, quotient; equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
 | G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
 | G199 primary radial two-direction audit | independently verified with caveats | Reversed radial germs share one frequency/screen law; no native chiral split |
@@ -40,6 +40,7 @@
 | G209 time-space shift | externally verified with caveats | Shift translates cones; outcome strata coexist |
 | G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
+| G212 history bridge | multi-agent verified with caveats | Valued rank-complete network is the state; two clocks invert scalar modes; finite-anchor flow open |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -61,15 +62,13 @@ None selects completion or `X_max`.
 
 - The kernel takes an ordered pair, not a path; route observables remain separate.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  Metricity is not dynamics. The overlap chain assigns carry to overlaps, not endpoints.
-- The bounded carrier/transport chain types `O(2)`, `lambda`, first jets, scale, score, transport,
-  and `X_max`; the conformal-family result is an envelope control rather than a physical
-  multiplicity theorem.
+  Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
+- The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
+  conformal family is an envelope control, not a multiplicity theorem.
 - The supplied-pair chain uses G199--G204 for reversal, sampling, non-lockstep channels, and quiet
   alternatives; G205 supplies static completion. G206--G211 classify common scale, trace-free
-  screen, mixing, shift, spatial volume, and the exact diagonal-scalar dependency. None selects
-  functions or histories; population, transfer, determinant-one completion, and global realization
-  stay open.
+  screen, mixing, shift, volume, and diagonal dependency. G212 removes a second post-network
+  selector; finite-anchor valuation, population, transfer, completion, and realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -104,7 +103,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 195-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 196-row authority. On conflict, stop.
 
 Run:
 

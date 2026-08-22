@@ -88,12 +88,16 @@ physical scalar after the working premise. They must not be conflated.
   references are supplied. `Omega=ell` and `q=sigma-ell` form an exact basis; lapse-only is their
   fixed mixture, not a third tile. Four-volume, causal width, null affine reach, and completed depth
   hear different exact combinations. No scalar function or history is selected.
+- G212 reconciles the earlier rank-ten result with the completed kernel: a valued full pair network can
+  be the metric state, while current identities do not generate its values from finite anchors.
+  Two generic completed clocks reconstruct `Omega,q` pointwise. Full all-germ two-jet isotropy
+  conditionally forces a space form but is not an owned UDT premise.
 
-G206--G211 are externally reviewed conditional classifications. Their global results remain
-analytic where stated; none selects a sector function, physical history, or `X_max`.
+G206--G211 are reviewed; G212 is multi-agent verified with caveats. None generates a
+sector function, finite-anchor flow, or `X_max`.
 
-Current structural package:
-`udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`.
+Structural package:
+`udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -101,9 +105,8 @@ Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 ## Current open joints
 
 - The primary static-spherical/areal slice is declared; its profile is supplied. G211 closes the
-  local diagonal-scalar basis but leaves the calibrated split, scalar functions, and arbitrary
-  determinant-one spatial histories open. A general UDT ambient history is not derived by the
-  arbitrary-coframe evaluator.
+  diagonal basis; G212 removes a redundant post-network selector but leaves physical valuation,
+  the split, scalar functions, and determinant-one histories open.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -125,8 +128,9 @@ contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
-classify common scale, trace-free screen, radial-screen mixing, full shift, and the relative
-spatial-volume scalar, then close their diagonal dependency without selecting their functions.
-Next MAP and PONDER the determinant-one spatial remainder, count its full local modes, and identify
-which modes G207/G208 actually cover before solving. Do not fit, invent coefficients, identify
-`X_max`, select transfer, or use G116/G189 as inputs.
+classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
+then close the diagonal dependency. G212 removes the redundant second-history-selector framing but
+retains the open valuation problem. Next MAP and PONDER the determinant-one spatial remainder,
+count its full local modes, identify G207/G208 coverage, and formulate the finite multidirectional
+completed-pair rank test. Do not fit, invent coefficients, identify `X_max`, select transfer, or
+use G116/G189 as inputs.

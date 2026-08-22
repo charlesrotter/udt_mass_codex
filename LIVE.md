@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G211. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G212. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -71,20 +71,22 @@ lapse-only deformation is the line `Omega=ell,q=-ell`, not a third tile. Four-vo
 functions, arbitrary determinant-one spatial remainder, global realization, and `X_max` remain
 unselected.
 
+G212 reconciles the completed kernel with G129--G130: a valued compatible rank-complete pair network
+can be the metric state. Two generic completed clocks reconstruct `Omega,q` pointwise; static
+clocks are deficient. Current identities do not generate network values from finite anchors.
+Full all-germ isotropy would conditionally force constant curvature but is not UDT-owned.
+
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
-the nested live families show components interlock once a metric and query are supplied. They do
-not select physical functions, directions, branches, transfer, a complete history, or numerical
-`X_max`; that target remains asymptotic and downstream. The physical carrier/`O(2)`, covariant
+the live families interlock after a metric and query are supplied. A valued rank-complete network
+needs no second selector, but its physical values, directions, branches, transfer, finite-anchor
+flow, and numerical `X_max` asymptote remain open. The physical carrier/`O(2)`, covariant
 `lambda`, rank ten completion, conformal/common-scale ownership, density, bivector area bilinear,
 codimension eleven closure, and numerical valuation remain separately typed and `OPEN` where the
 registry says so. The parity-even candidates fail on the registered non-collinear witness.
 
-G197's native-provenance audit lands
-`NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit, `X_max`,
-G142--G160 mechanism, or protected payload is load-bearing. The repairs are descriptive: G176 must
-remain visibly provisional, supplied germs and chosen families must remain typed, and G190--G192's
-numerical IVP legs are formula-level regression rather than independent metric-to-Jacobi
-reconstructions.
+G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit,
+`X_max`, G142--G160 mechanism, or protected payload is load-bearing. G176 remains provisional;
+supplied germs stay typed; G190--G192 IVPs remain formula-level regression.
 
 Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
@@ -94,8 +96,8 @@ Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluato
 ### Observational boundary
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
-covariance rows remain unresolved and no preferred scale follows. The frozen SNe replay is a
-non-regression check under imported transfer, not native light physics or a new fit. Raw archive:
+rows remain unresolved and no preferred scale follows. SNe remains an imported-transfer
+non-regression check. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -109,9 +111,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G211 closes the complete local diagonal-scalar plane and proves that lapse-only is not a third
-instrument. Next MAP and PONDER the determinant-one spatial remainder: count its full local modes,
-locate exactly which are already covered by G207/G208, and identify only the genuinely unclassified
-metric-native modes before any solve. Do not fit, identify any limit with `X_max`, select transfer,
-derive a metric by template, or use G116/G189 as construction inputs.
+G212 removes the redundant second-history-selector framing and proves pointwise rank-two scalar
+tomography. Next MAP and PONDER the determinant-one spatial remainder: count its full local modes,
+locate exactly which are already covered by G207/G208, then build the finite multidirectional
+completed-pair rank test against G129's rank-ten metric information. Do not fit, identify any limit
+with `X_max`, select transfer, derive a metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
