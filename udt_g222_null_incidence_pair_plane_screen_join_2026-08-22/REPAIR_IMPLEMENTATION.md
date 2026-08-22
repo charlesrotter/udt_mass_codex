@@ -28,8 +28,8 @@ Preregistration commit: `2db0c76d`
 ## Grade
 
 ```text
-ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
+FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS
 ```
 
-The bounded scientific landing is unchanged. No startup-surface promotion is made before a fresh
-sealed repair-only follow-up review accepts the registered repairs.
+The bounded scientific landing is unchanged. The sealed repair-only follow-up returned
+`REPAIRS_ACCEPTED`; all global and protocol ceilings remain unchanged.

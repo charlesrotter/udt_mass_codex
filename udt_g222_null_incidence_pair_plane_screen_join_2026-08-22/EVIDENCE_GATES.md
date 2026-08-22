@@ -18,10 +18,11 @@ Date: 2026-08-22
 9. **No-write replay:** complete G222 package tree plus all 10 frozen load-bearing sources; additions,
    deletions, and modifications are detected.
 10. **Fresh adversarial review:** `ACCEPT_WITH_REPAIRS`; the conditional scientific landing survived.
-11. **Repair-only follow-up:** pending authorization and a fresh sealed intake.
+11. **Repair-only follow-up:** external gpt-5.4 returned `REPAIRS_ACCEPTED`; no load-bearing repair
+    defect found and the bounded scientific landing is unchanged.
 
 Current grade:
 
 ```text
-ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
+FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS
 ```

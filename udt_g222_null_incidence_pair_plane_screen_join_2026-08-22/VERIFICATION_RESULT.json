@@ -16,7 +16,7 @@
   "no_write_scope": "complete_package_tree_plus_10_frozen_sources",
   "no_write_replay": true,
   "fresh_adversarial_review": "ACCEPT_WITH_REPAIRS",
-  "repair_followup_review": "PENDING_AUTHORIZATION",
+  "repair_followup_review": "REPAIRS_ACCEPTED",
   "full_pair_plane_constructed_conditionally": true,
   "global_ruler_coordinate_unconditional": false,
   "screen_Jacobi_collapsed": false,

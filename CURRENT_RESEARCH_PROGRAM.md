@@ -80,8 +80,12 @@ physical scalar after the working premise. They must not be conflated.
   the exact future frequency chord before `r_AB=W_A/W_B`; passive screen covariance, positive affine
   cancellation, Hamilton--Jacobi incidence, and the G220 transverse-off reduction are exact. It
   constructs the clock chord, not the second tangent, full pair plane, or finite screen transport.
+- G222, externally accepted after repairs, derives on that supplied affine null family
+  `h=[[g(J,J),-a],[-a,0]]`, `a=-g(J,K)>0`, and `det h=-a^2`. It recovers G221; G176 conditionally
+  gives `m=a`; G188 becomes the normal screen with connection/tidal intertwining. Closedness is not
+  automatic. Protocol and history remain unselected.
 
-G206--G221 retain their stated verification caveats. None generates a sector function,
+G206--G222 retain their stated verification caveats. None generates a sector function,
 finite-anchor flow, or `X_max`.
 
 Structural package:
@@ -94,16 +98,19 @@ Current covariant time-live tile:
 `udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/`.
 Current complete-coframe clock chord:
 `udt_g221_complete_coframe_null_clock_chord_2026-08-22/`.
+Current local full null pair plane and screen join:
+`udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G221 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G222 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
+- G222 closes one local null pair plane, not density overlap/global exactness or relation population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -131,9 +138,8 @@ shared-clock incidence, and identify the invariant as the proper-clock derivativ
 event-pair germ, then close its positive first jet. G218 retypes those scalar data as one clock
 correspondence. G219 factors the chain and proves that relative motion separates lawful query-typed
 protocols. G220 derives the covariant null clock arrow and exact time-live lapse/ruler/shift base
-tile, with same-correspondence completed clock-leg compatibility. G221 completes its scalar
-frequency chord in one supplied regular `2+2` coframe, with screen and mixing upstream. Next derive
-the second independent tangent and full rank-two pullback from the same Hamilton--Jacobi incidence
-family, then test the exact join to G188 finite screen/Jacobi transport. Keep null query-typed and
-do not collapse scalar and path-labelled channels. Do not fit, identify `X_max`, select
-transfer/history, activate protected drafts, or revive historical application inputs.
+tile, with same-correspondence clock-leg compatibility. G221 supplies the complete-coframe chord;
+G222 supplies its local pair plane and G188 normal-screen join. Next derive overlap carry for
+`vartheta=a[d lambda]` and the closedness obstruction to a scalar ruler coordinate. Keep null
+query-typed and screen transport distinct. Do not fit, identify `X_max`, select transfer/history,
+activate protected drafts, or revive historical inputs.

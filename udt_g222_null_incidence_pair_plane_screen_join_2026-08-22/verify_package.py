@@ -47,6 +47,7 @@ REQUIRED = (
     "FRESH_ADVERSARIAL_REVIEW.md",
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_FOLLOWUP_REVIEW_REQUEST.md",
+    "REPAIR_FOLLOWUP_REVIEW.md",
     "REPAIR_IMPLEMENTATION.md",
     "VERIFICATION_RESULT.json",
 )
@@ -205,7 +206,7 @@ def main() -> None:
         "no_write_scope": "complete_package_tree_plus_10_frozen_sources",
         "no_write_replay": True,
         "fresh_adversarial_review": "ACCEPT_WITH_REPAIRS",
-        "repair_followup_review": "PENDING_AUTHORIZATION",
+        "repair_followup_review": "REPAIRS_ACCEPTED",
         "full_pair_plane_constructed_conditionally": True,
         "global_ruler_coordinate_unconditional": False,
         "screen_Jacobi_collapsed": False,
@@ -217,7 +218,7 @@ def main() -> None:
     require(before == after, "package replay changed the complete in-scope tree")
     print(
         "PASS: G222 repaired package; 10 sources; 43 symbolic/direct; 396,000 finite-algebra "
-        "assertions; 18 payload-contract mutations; complete-tree no-write; repair review pending"
+        "assertions; 18 payload-contract mutations; complete-tree no-write; repairs accepted"
     )
 
 

@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G221 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G222 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -35,7 +35,13 @@ exact frequency chord with `Q`, `s_x`, and `s_t` entering upstream before scalar
 screen covariance, affine cancellation, Hamilton--Jacobi incidence, and exact G220 reduction pass
 fresh external review without repairs. Null remains query-typed. The second pair tangent,
 higher/full rank-two carry, finite screen/Jacobi transport, branch population, and physical history
-remain open.
+remain open at that stage. G222 closes the local second-tangent joint on the same supplied affine
+null family: `K=F_*partial_lambda`, `J=F_*partial_y`,
+`h=[[g(J,J),-a],[-a,0]]`, `a=-g(J,K)>0`, and `det h=-a^2`. G176 conditionally gives `m=a`, the
+boundary identity recovers G221, and the G188 quotient screen is canonically the normal screen with
+connection and tidal transport preserved. Fresh gpt-5.4 review accepted all four preregistered
+repairs. A global scalar ruler coordinate is not automatic: it requires `d(a d lambda)=0`. Null
+protocol, observer/branch population, and physical history remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,
@@ -61,11 +67,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-On the same supplied regular complete-coframe null query, derive the second independent pair tangent
-and full rank-two pullback from the Hamilton--Jacobi incidence family. Test compatibility with G221's
-scalar clock chord and G188's finite screen/Jacobi transport without collapsing their types. Keep
-null query-typed and return distinct from inversion. Do not fit, activate protected drafts, identify
-`X_max`, select transfer/history, or use G116/G189. All other open ownership remains controlled by
-the 205-row exact registry.
+On an atlas of supplied regular null-incidence ribbons, derive how the invariant vertical density
+`vartheta=a[d lambda]` carries across overlaps and middle-observer composition. Classify the exact
+closedness/integrability obstruction to a scalar ruler coordinate while preserving the separate
+matrix screen channel. Keep null query-typed and return distinct from inversion. Do not fit,
+activate protected drafts, identify `X_max`, select transfer/history, or use G116/G189. All other
+open ownership remains controlled by the 206-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->
