@@ -24,7 +24,8 @@ A mismatch indicts the solver's COMPLETENESS first, the metric last, and a mecha
 is UNENTERED, not walled — the pre-postulate negative corpus is RETIRED (mine for tooling only).
 
 ## Instruments
-- `SOLVER_COMPLETENESS_MAP.md` — see what's on/off/frozen/never-built before trusting a result
+- `archive/SOLVER_COMPLETENESS_MAP.md` — historical coverage map; use it only for dated context,
+  then record current coverage in the task's preregistration and current program
   (skill `completeness-map`).
 - BOUND the grid, never FREEZE a DOF. Frozen-DOF slices are NOT verdicts ("one more thing").
 - Test gravitating-soliton stability by a constraint-respecting COUPLED re-solve along the

@@ -304,6 +304,14 @@ def test_catch_obsolete_completeness_target(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
+def test_catch_obsolete_solver_first_target(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / ".claude/skills/solver-first/SKILL.md"
+    _replace(path, "`archive/SOLVER_COMPLETENESS_MAP.md`", "`SOLVER_COMPLETENESS_MAP.md`")
+    with pytest.raises(SystemExit, match="solver-first skill"):
+        premise_guard.validate_startup_surface(root)
+
+
 def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "INDEX.md", "Chosen-family evaluators/controls:", "Current longitudinal result:")

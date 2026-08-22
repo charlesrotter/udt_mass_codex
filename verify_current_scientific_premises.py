@@ -558,6 +558,7 @@ def validate_startup_surface(root: Path) -> None:
     for relative in MAPPED_SKILL_FILES:
         require((root / relative).is_file(), f"mapped CLAUDE skill missing: {relative}")
     completeness_skill = (root / ".claude/skills/completeness-map/SKILL.md").read_text(encoding="utf-8")
+    solver_first_skill = (root / ".claude/skills/solver-first/SKILL.md").read_text(encoding="utf-8")
     require(
         "`archive/SOLVER_COMPLETENESS_MAP.md`" in completeness_skill,
         "completeness skill still targets missing live root instrument",
@@ -565,6 +566,11 @@ def validate_startup_surface(root: Path) -> None:
     require(
         (root / "archive/SOLVER_COMPLETENESS_MAP.md").is_file(),
         "completeness skill archive target missing",
+    )
+    require(
+        "`archive/SOLVER_COMPLETENESS_MAP.md`" in solver_first_skill
+        and "- `SOLVER_COMPLETENESS_MAP.md`" not in solver_first_skill,
+        "solver-first skill targets missing live completeness map",
     )
     require(
         "update every push" not in completeness_skill,
