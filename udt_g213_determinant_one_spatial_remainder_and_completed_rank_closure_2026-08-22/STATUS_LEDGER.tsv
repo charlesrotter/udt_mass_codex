@@ -1,0 +1,14 @@
+item	status	claim	limit
+determinant_one_spatial_mode_count	DERIVED_CONDITIONAL	exactly five after supplied split and reference	pointwise positive stratum
+radial_screen_grading	DERIVED_COORDINATE	one independent determinant-preserving mode	no physical profile selected
+G207_coverage	SOURCE_AUDITED_CONDITIONAL	two trace-free screen-shape logarithmic modes	chosen extension class
+G208_coverage	SOURCE_AUDITED_CONDITIONAL	two radial-screen mixing logarithmic modes	chosen extension class
+G207_G208_combined_coverage	DERIVED_COORDINATE_CENSUS	rank four of five logarithmic coordinates	no commutative history claim
+completed_tuple_bijection	DERIVED_CONDITIONAL	known germ plus m and h_s exactly recovers h_sigma	G176 working clarification
+completed_six_plane_rank	DERIVED_CONDITIONAL	exact G129 rank ten retained	known supplied six-plane witness
+completed_metric_without_density	DISPROVED_FAITHFULNESS	positive spatial scaling family is invisible	density deletion only
+local_completed_network_as_metric_state	DERIVED_CONDITIONAL	rank-complete valued network reconstructs metric	local regular compatible cover
+network_value_generation	OPEN	current result is reconstructive not predictive	no finite-anchor theorem
+physical_pair_population	OPEN	not selected by local information algebra	global/query scope omitted
+Xmax_source_action_transfer	OPEN	outside G213	no claim
+

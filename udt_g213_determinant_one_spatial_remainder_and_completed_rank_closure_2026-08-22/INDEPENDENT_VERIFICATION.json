@@ -1,0 +1,2 @@
+{"all_pair_roundtrips_exact": true, "assertions": 300001, "audit": "G213", "cases": 10000, "changed_density_blind_metrics": 10000, "density_blind_counterfamily_exact": true, "g129_design_rank": 10, "method": "stdlib_fraction_rational_density_construction_and_independent_row_reduction", "seed": 21320260822, "status": "PASS"}
+
