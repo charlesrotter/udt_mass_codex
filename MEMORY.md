@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G214 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G215 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -23,8 +23,10 @@ G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and volume befor
 scale; cones, affine reach, and depth hear different combinations.
 G212 makes the valued network the metric state. G213 counts five determinant-one spatial modes and
 proves typed `(m,h_s)` completed tuples retain G129 rank ten; without `m`, spatial scale is blind.
-G214 proves these tuples descend across positive calibrated overlaps without density loss, while
-distinct pair surfaces retain the G171 unmatched-incidence defect.
+G214 proves these tuples descend across positive calibrated overlaps without density loss. G215
+then shows completed `Phi=-log T` descends to one shared calibrated clock germ, so scalar cycles
+close. G171's raw mismatch is now an uncompleted/recalibrated-clock control; density, shift, and
+full pair carry remain live.
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
@@ -52,8 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G214 externally closes local-to-cover tuple descent with caveats. Next test whether metric/query
-geometry supplies cross-pair incidence maps. No fits, `X_max`, or transfer inputs.
+G215 is independently verified and awaits fresh review. If retained, test whether observer typing
+owns the shared clock without collapsing full pair carry. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

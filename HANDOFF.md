@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G214 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G215 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -34,22 +34,22 @@ null-orbit strata. Parameters, maximal extension, and `X_max` remain unselected.
 G206/G207/G208/G209/G210 classify common scale, screen, mixing, shift, and relative volume before readout. Cones,
 affine reach, and depth hear different combinations; no component history or `X_max` is selected.
 
-G211 proves the local diagonal scalar sector has rank two after the calibrated split and references
-are supplied. Common scale `Omega` and relative spatial scale `q` are an exact basis; lapse-only is
-their fixed mixture, not a third tile. Cones hear `q`; null affine reach and completed depth also
-hear `Omega`. External review required no repair. Split, profile, realization, and asymptotic
-`X_max` remain unselected.
+G211 proves common scale `Omega` and relative spatial scale `q` form the rank-two diagonal basis;
+lapse-only is their mixture. Split, profile, realization, and `X_max` remain unselected.
 
-G212 makes a valued rank-complete network the metric state. G213 finds five determinant-one spatial
-modes (`1+2+2`), with G207/G208 covering four. The typed `(m,h_s)` recovers the full pullback and
-preserves G129 rank ten; without `m`, spatial scale is invisible. Review found no scientific defect.
-Dependency-free repairs pass with ranks `5/4/5`, 10,000 cases, 300,004 assertions, and 32 hostile
-catches. The sealed repair-only follow-up accepted the repairs without changing the scientific
-landing; values and population remain open.
+G212/G213 make the valued network the metric state and close five spatial modes. Typed `(m,h_s)`
+recovers the pullback and preserves G129 rank ten; deleting `m` loses scale. Values and population
+remain open.
 
 Externally reviewed G214 transfers `(m,h_s)` across positive calibrated overlaps: `m` carries the
 determinant and `h_s` an `SL(2)` cocycle, so G130 descends without density loss. Distinct pair
 surfaces have no automatic product; unmatched incidences need not telescope.
+
+G215, independently verified with fresh review next, shows completed `Phi=-log T` depends
+only on the calibrated clock tangent. Incident pairs sharing that exact clock germ therefore share
+one scalar endpoint potential and telescope. G171's raw angular mismatch is an uncompleted control:
+after G176 completion its scalar agrees, while density and shift remain live. Independently
+recalibrated edge clocks still produce the exact defect; full pair carry remains stronger.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
@@ -73,8 +73,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Test whether metric/query geometry supplies cross-pair incidence maps or only compatibility data.
-Do not fit, activate arbitrary coframes, identify `X_max`, select transfer, or use G116/G189. The
+Freshly review G215, then test ownership of the shared calibrated observer clock without collapsing
+full pair carry. Do not fit, activate arbitrary coframes, identify `X_max`, select transfer, or use G116/G189. The
 physical carrier/`O(2)`, covariant `lambda`,
 conformal/common-scale ownership, bivector area bilinear, codimension eleven, and numerical
 valuation retain registry status.

@@ -1,0 +1,1 @@
+{"audit":"G215","core_files_hashed":17,"exact_checks":28,"g171_completed_k":["1","1"],"g171_raw_k":["1","59/25"],"hostile_catches":13,"independent_assertions":190000,"independent_cases":10000,"landing":"COMPLETED_SCALAR_DESCENDS_TO_SHARED_CLOCK__G171_REGRADED__FULL_PAIR_CARRY_REMAINS_STRONGER","no_write_replay":true,"source_count":14,"status":"PASS"}

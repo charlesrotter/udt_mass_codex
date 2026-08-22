@@ -54,18 +54,10 @@ physical scalar after the working premise. They must not be conflated.
   tidal-gradient sampling term, not a chiral on/off coefficient.
 - G201 rewrites those tides in `phi` second jets and proves channel volumes need not be lockstep:
   reciprocal contrast is two-sided, while angular modes can amplify or cancel at any `phi`.
-- G202 derives quiet overlap as a zero logarithmic second jet, classifies infinite analytic odd
-  crossing profiles, proves finite anchors do not select an unrestricted history, and types the
-  extra mass/density dimension needed to form a candidate scale from `c_E,G_obs`.
-- G203 proves crossing order, quiet-orbit area, and leading log-areal steepness are invariant metric
-  descriptors after calibration, while the founded law does not select their values.
-- G204 proves the monotone log-profile extension is center-singular, derives `phi=O(r^2)` as a
-  necessary smooth-center condition, and supplies an infinite even-areal family with one finite
-  inner trough and a curvature-decaying outer reciprocal asymptote. Regularity does not select its
-  order, radius, steepness, completion, or `X_max`.
-- G205 proves that exact supplied family fully geodesically complete and globally hyperbolic on
-  declared `R x R3`. Its null circular orbits have exact subcritical/critical/supercritical strata.
-  These are analytic theorems; finite replays independently certify only the algebraic core.
+- G202/G203/G204 classify quiet overlap, invariant descriptors, smooth-center necessity, and infinite
+  even-areal alternatives. Finite anchors and regularity do not select their values or `X_max`.
+- G205 proves the supplied family geodesically complete and globally hyperbolic on declared
+  `R x R3`, with exact null-orbit strata. The global proof is analytic.
 - G206 common scale preserves causal order/global hyperbolicity; null completeness is its weighted
   affine-integral test, and completed depth hears the pair pullback of `Omega`.
 - G207 trace-free screen shape preserves volume, radial causality, and global hyperbolicity.
@@ -76,10 +68,8 @@ physical scalar after the working premise. They must not be conflated.
 - G209 full shift preserves signature, determinant, and temporal `dt` while translating the causal
   ellipsoid. Controlled survivors and one globally-hyperbolic/null-incomplete counterclass coexist;
   pairs hear shift.
-- G210 isolates `sigma=(1/6)log(det K/det H)`, the unique relative spatial-determinant scalar after
-  `H` is supplied. It fixes the shift center, scales all widths by `exp(-sigma)`, and enters
-  spatially bearing pairs. Controlled survivors and the radial-null-incomplete `sigma=-phi` control
-  coexist. Its common-scale-plus-lapse factorization is a dependency identity, not a history law.
+- G210 isolates the relative spatial-determinant scalar `sigma`; it rescales causal widths and
+  enters spatially bearing pairs. Survivor and failure strata coexist; factorization is not history.
 - G211 proves the complete local diagonal scalar plane has rank two after the calibrated split and
   references are supplied. `Omega=ell` and `q=sigma-ell` form an exact basis; lapse-only is their
   fixed mixture, not a third tile. Four-volume, causal width, null affine reach, and completed depth
@@ -95,20 +85,25 @@ physical scalar after the working premise. They must not be conflated.
 - G214 proves this equivalence commutes with calibrated overlaps: density carries the
   determinant and the normalized metric an `SL(2)` cocycle. G130 descent transfers; arbitrary
   pair composition does not.
+- G215 proves conditionally that completed `Phi=-log T` descends to the calibrated observer clock
+  germ. Common-clock incidence networks telescope, while independently recalibrated edge clocks
+  retain the exact defect. G171's raw mismatch is regraded; density, shift, and full pair carry stay
+  live.
 
-G206--G214 are externally verified with caveats. None generates a sector function, finite-anchor
-flow, or `X_max`.
+G206--G214 are externally verified with caveats; G215 is independently verified and awaiting fresh
+review. None generates a sector function, finite-anchor flow, or `X_max`.
 
 Structural package:
-`udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`.
+`udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G214 close the local
-  basis, spatial modes, and compatible-cover information bridge, not valuation or pair population.
+- The primary static-spherical/areal slice and profile are supplied. G211--G215 close the local
+  basis, spatial modes, compatible-cover bridge, and shared-clock scalar incidence, not valuation,
+  full-germ carry, or pair population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -131,7 +126,7 @@ contractions.
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
-then close the diagonal dependency. G212--G214 remove the second-selector framing and close the
-compatible-cover information bridge while retaining open valuation and incidence ownership. Next
-test whether metric/query geometry owns cross-pair incidence maps. Do not fit, identify `X_max`,
-select transfer, or revive historical application inputs.
+then close the diagonal dependency. G212--G215 remove the second-scalar-selector framing and close
+shared-clock scalar incidence while retaining open valuation and full-germ ownership. Next obtain
+fresh G215 review, then audit whether observer typing owns the shared clock. Do not fit, identify
+`X_max`, select transfer, or revive historical application inputs.

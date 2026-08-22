@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G214",
+            "G166--G215",
             "G196",
             "G197",
             "G198",
@@ -182,6 +182,7 @@ def validate_startup_surface(root: Path) -> None:
             "G212",
             "G213",
             "G214",
+            "G215",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -235,7 +236,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "198-row exact registry",
+            "199-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -279,6 +280,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/",
             "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/",
             "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/",
+            "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -289,7 +291,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G214",
+            "G166--G215",
             "G197",
             "G198",
             "G199",
@@ -308,6 +310,7 @@ def validate_startup_surface(root: Path) -> None:
             "G212",
             "G213",
             "G214",
+            "G215",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -340,6 +343,7 @@ def validate_startup_surface(root: Path) -> None:
             "G212",
             "G213",
             "G214",
+            "G215",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -371,10 +375,11 @@ def validate_startup_surface(root: Path) -> None:
             "G212",
             "G213",
             "G214",
+            "G215",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "198-row",
+            "199-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -636,9 +641,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 198, "premise registry must contain exactly 198 rows")
+    require(len(rows) == 199, "premise registry must contain exactly 199 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 198, "duplicate premise id")
+    require(len(by_id) == 199, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1711,6 +1716,72 @@ def main() -> None:
         g214_package["landing"]
         == "TYPED_COMPLETED_TUPLE_DESCENDS__G130_TRANSFERS__ARBITRARY_THREE_PAIR_PRODUCT_NOT_DERIVED",
         "G214 landing changed",
+    )
+    require(
+        by_id["G215"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_F7FAA1C2__"
+            "EXTERNAL_REVIEW_PENDING__G176_WORKING_COMPLETION__SUPPLIED_REGULAR_COMPLETED_PAIR_GERMS"
+        ),
+        "G215 bounded grade changed or promoted",
+    )
+    for guard in (
+        "SHARED_CALIBRATED_OBSERVER_CLOCK_GERM_MEANS_IDENTICAL_CLOCK_TANGENT_AND_PARAMETER_ACROSS_INCIDENCES",
+        "PHI_COMPLETED_EQUALS_MINUS_LOG_T",
+        "T_SQUARED_EQUALS_MINUS_G_U_U",
+        "INCIDENT_RULER_DIRECTION_ANGULAR_PARTICIPATION_DENSITY_AND_SHIFT_DO_NOT_CHANGE_COMPLETED_SCALAR_WHEN_CLOCK_GERM_SHARED",
+        "OBSERVER_NETWORK_DELTA_XY_EQUALS_VARPHI_Y_MINUS_VARPHI_X",
+        "ALL_COMMON_CLOCK_CYCLES_TELESCOPE",
+        "G171_RAW_ANGULAR_SCALAR_VALUES_ONE_AND_59_OVER_25_RETAINED_AS_UNCOMPLETED_CONTROL",
+        "G171_G176_COMPLETED_SCALAR_VALUES_BOTH_ONE",
+        "DENSITY_AND_SHIFT_DIFFERENCES_RETAINED",
+        "INDEPENDENT_EDGE_CLOCK_RECALIBRATION_RETAINS_EXACT_INCIDENCE_DEFECT",
+        "G214_FULL_PAIR_METRIC_NONPRODUCT_RETAINED",
+        "NO_PHYSICAL_GERM_POPULATION_METRIC_VALUES_PROFILES_FULL_GERM_CARRY_HISTORY_FLOW_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G215"]["current_status"], f"G215 guard absent: {guard}")
+    require(by_id["G215"]["epistemic_label"] == "MIXED", "G215 label changed")
+    require(
+        by_id["G215"]["active_use"]
+        == "ACTIVE_BOUNDED_REGULAR_G176_COMPLETED_SHARED_CALIBRATED_CLOCK_SCALAR_INCIDENCE_DESCENT_ONLY",
+        "G215 active scope widened",
+    )
+    require(
+        by_id["G215"]["controlling_source"]
+        == "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/AUDIT_REPORT.md",
+        "G215 controlling source changed",
+    )
+    g215 = ROOT / "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+    ):
+        require((g215 / name).is_file(), f"G215 evidence missing: {name}")
+    g215_package = json.loads((g215 / "VERIFICATION_RESULT.json").read_text())
+    require(g215_package["status"] == "PASS", "G215 package verification failed")
+    require(g215_package["no_write_replay"] is True, "G215 no-write replay absent")
+    require(g215_package["core_files_hashed"] == 17, "G215 core file count changed")
+    require(g215_package["exact_checks"] == 28, "G215 exact check count changed")
+    require(g215_package["independent_cases"] == 10000, "G215 case count changed")
+    require(g215_package["independent_assertions"] == 190000, "G215 assertion count changed")
+    require(g215_package["hostile_catches"] == 13, "G215 hostile count changed")
+    require(g215_package["source_count"] == 14, "G215 source count changed")
+    require(g215_package["g171_raw_k"] == ["1", "59/25"], "G215 G171 raw witness changed")
+    require(g215_package["g171_completed_k"] == ["1", "1"], "G215 G171 completion regrade changed")
+    require(
+        g215_package["landing"]
+        == "COMPLETED_SCALAR_DESCENDS_TO_SHARED_CLOCK__G171_REGRADED__FULL_PAIR_CARRY_REMAINS_STRONGER",
+        "G215 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -5189,15 +5260,21 @@ def main() -> None:
     )
     require(
         by_id["G171"]["current_status"].startswith(
-            "VERIFIED_WITH_CAVEATS__PREREGISTERED__FRESH_EXTERNAL_SCIENTIFIC_REVIEW_RETAINED__PACKAGING_REPAIR_FOLLOWUP_PASS__EACH_ORDERED_PAIR_RESPONSE_NATIVE_FROM_ITS_COMPLETE_PRIMARY_METRIC_PULLBACK"
+            "RECLASSIFIED_BY_G215__PRE_G176_RAW_PAIR_INCIDENCE_SCALAR_DEFECT_RETAINED_AS_UNCOMPLETED_CONTROL__UNDER_G176_WORKING_COMPLETION_SHARED_CALIBRATED_CLOCK_GERM_FORCES_SCALAR_DESCENT"
         ),
-        "G171 pair-germ-relative network landing regressed or promoted",
+        "G171 current reclassification regressed or promoted",
     )
     require(by_id["G171"]["epistemic_label"] == "MIXED", "G171 label changed")
+    require(
+        by_id["G171"]["active_use"]
+        == "RECLASSIFIED_BOUNDED_RAW_UNCOMPLETED_INCIDENCE_AND_INDEPENDENT_CLOCK_CALIBRATION_CONTROL_ONLY",
+        "G171 active scope changed",
+    )
     for open_item in (
         "physical pair-germ realization and global extendability",
+        "ownership of common calibrated observer clocks beyond supplied germs",
         "equivalence of separately rebuilt reverse experiments",
-        "positive metric-space distance identity separation and triangle axioms",
+        "full pair-metric and immersion-germ incidence maps",
         "nonscalar screen connection orientation and holonomy response",
         "general nonspherical time-dependent micro and ambient extension",
         "coincidence null degenerate singular cut and topology-changing strata",
@@ -5205,13 +5282,14 @@ def main() -> None:
     ):
         require(open_item in by_id["G171"]["open_scope"], f"G171 open boundary absent: {open_item}")
     for guard in (
-        "pair-indexed endpoint density collapsed to one observer-only scalar without matched incident readouts",
-        "arbitrary triangle additivity imposed on independently evaluated pair germs",
-        "nonzero three-pair defect called force holonomy calibration failure or Reciprocity violation",
-        "shared observer event and clock tangent called sufficient to fix angular pair germ",
-        "angular Gram or mixing bolted on after readout or replaced by scalar mu",
+        "G171 raw pre-G176 angular scalar mismatch reused as a completed-kernel counterexample",
+        "shared observer label confused with one shared calibrated clock germ",
+        "independent edge-clock recalibrations silently identified",
+        "scalar equality promoted to full pair-metric or immersion-germ equality",
+        "density shift angular or screen channels called erased",
+        "arbitrary full-tuple triangle product imposed",
+        "G176 working clarification called canon",
         "G142 through G160 carry score or selected-history scaffolding reintroduced as the native kernel",
-        "same-pair reversal widened to separately rebuilt reverse experiments",
         "pair response called positive metric-space distance",
         "supplied local germ network called globally physical",
         "path Xmax fit dynamics observations or protected work inserted",
@@ -5219,7 +5297,7 @@ def main() -> None:
         require(guard in by_id["G171"]["forbidden_regression"], f"G171 guard absent: {guard}")
     require(
         by_id["G171"]["controlling_source"]
-        == "udt_g171_primary_metric_multi_pair_response_2026-08-19/AUDIT_REPORT.md",
+        == "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/AUDIT_REPORT.md",
         "G171 source changed",
     )
     require(
@@ -5928,7 +6006,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G214-extended premise guards; PASS: 198-row premise "
+        "PASS: G215-extended premise guards; PASS: 199-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

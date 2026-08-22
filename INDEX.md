@@ -1,14 +1,14 @@
 # INDEX
 `LIVE.md` wins.
 ## Startup
-1. Follow `AGENTS.md` synchronization and bounded-read rules.
+1. Follow `AGENTS.md` rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only
    task-triggered `.claude/skills/*/SKILL.md` files.
-6. Read `INDEX.md` and `MEMORY.md` as compact pointers, then stop and give the orientation report.
-7. After orientation, query only task-relevant registry rows and evidence.
+6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+7. After orientation, query task-relevant registry rows and evidence.
 ## Active relational frontier
 
 - Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
@@ -52,15 +52,15 @@
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
 - Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
   `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
-
-G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
-completed-pair chain. G185--G189 are controls. G190--G198 evaluate chosen families;
-they select no histories or germs.
+- Shared-clock incidence: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`
+G129--G165 are controls; G166--G184 build completed pairs; G185--G189 are application controls;
+G190--G198 evaluate chosen families and select no histories or germs.
 G197 guards provenance and the G190--G192 evidence ceiling; G198 is a chosen-family control.
 G199--G200 remove a native chiral switch; G201 permits non-lockstep channels; G202--G204 classify
 quiet alternatives; G205 proves static completion. G206--G210 classify supplied scale, screen,
 mixing, shift, and volume. G211 closes diagonal scalars; G212 reframes the state; G213 closes local
-rank; G214 transfers it across calibrated covers while leaving valuation and incidence open.
+rank; G214 transfers it across calibrated covers; G215 closes shared-clock scalar incidence while
+leaving valuation, population, and full-germ carry open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -69,7 +69,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 198-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 199-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
@@ -94,7 +94,7 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
-- Supplied-germ and pair-relative network: query exact G168--G171 rows in the premise registry.
+- Supplied germs and raw incidence controls: query G168--G171, then controlling G215, in the registry.
 - Scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`

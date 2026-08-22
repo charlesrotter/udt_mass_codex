@@ -1,7 +1,8 @@
 item	status	claim	limit
 preregistration	PASS	bounded shared-clock scalar incidence audit frozen before execution	outcomes not yet run
-completed_scalar_descent	PENDING	candidate Phi equals minus log T on shared clock germ	G176 working clarification
-G171_regrade	PENDING	angular witness must be recomputed after completion	no presumption
-network_cycle_closure	PENDING	candidate exact potential difference law	shared calibrated clocks only
+completed_scalar_descent	DERIVED_CONDITIONAL	Phi equals minus log T on shared clock germ	G176 working clarification
+G171_regrade	RECLASSIFIED_CONTROL	raw angular scalar mismatch becomes completed scalar equality	density and shift differences retained
+network_cycle_closure	DERIVED_CONDITIONAL	exact potential difference law	shared calibrated clocks only
+independent_clock_recalibration	DERIVED_COUNTEREXAMPLE	exact nonzero incidence defect	shared label is insufficient
 full_tuple_carry	NOT_CLAIMED	pair metric and immersion carry remain stronger	no native product
 physical_population_values	OPEN	outside bounded algebra	no derivation

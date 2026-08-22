@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-relative scalar network | `VERIFIED_WITH_CAVEATS` | Endpoint difference; reversal | Germ/global extension; not distance |
+| Shared-clock scalar network | `DERIVED_CONDITIONAL`, independently verified | Completed `Phi=-log T`; common-clock cycles telescope | Clock ownership; full-germ carry; fresh review next |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -42,6 +42,7 @@
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
 | G212 history bridge | verified with caveats | A valued rank-complete network is the state; finite-anchor flow remains open |
 | G213--G214 rank and descent | externally accepted with caveats | Five modes; density-completed tuples retain rank ten and descend across calibrated covers |
+| G215 shared-clock scalar incidence | independently verified; fresh review next | Completed scalar descends to the calibrated clock; G171 raw mismatch regraded |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -66,8 +67,8 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- G212--G214 close state, rank, and cover descent. Valuation, population, cross-pair incidence,
-  transfer, and completion stay open.
+- G212--G215 close state, rank, cover descent, and shared-clock scalar incidence. Valuation,
+  population, full-germ incidence, transfer, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -84,25 +85,24 @@ None selects completion or `X_max`.
 
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no feature, scale, origin, cosmology, or `X_max`.
-The application lane imports transfer and freezes P1; the time-live lane returns a parametric
-frequency/screen branch on supplied histories. None derives transfer, population, or a global branch.
+R2--R5 are `OBSERVED` with caveats and select no scale, origin, cosmology, or `X_max`. Application
+controls import transfer/P1; time-live controls evaluate supplied histories. None derives transfer,
+population, or a global branch.
 
 ## Recurring prohibited promotions
 
 Do not:
 
-- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`, fits,
-  proper length, universe size, or seams into the kernel;
+- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`,
+  fits, proper length, universe size, or seams;
 - promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
   celestial `S^2` with matter;
-- globalize the current chain, turn a chosen-family quiet germ into a universal switch, silently activate
-  the absent second null coupling, select `Y,Z`, scalarize angular Gram, force triangles, erase calibrations, or
-  import familiar mechanisms as UDT derivations.
+- globalize the chain, universalize chosen germs, activate absent couplings, select `Y,Z`,
+  scalarize angular Gram, force triangles, erase calibrations, or import familiar mechanisms.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 198-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 199-row authority. On conflict, stop.
 
 Run:
 
