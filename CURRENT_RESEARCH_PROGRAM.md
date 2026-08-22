@@ -95,8 +95,8 @@ physical scalar after the working premise. They must not be conflated.
   are inverse-function/chain-rule identities. No extra pair-clock coefficient remains after a
   calibrated pair map is supplied; physical event-pair germ ownership remains open.
 
-G206--G215 are externally verified with caveats. G216 passes an independent exact replay and still
-requires fresh review. None generates a sector function, finite-anchor flow, or `X_max`.
+G206--G216 are externally verified with caveats. G216 required no scientific repair. None generates
+a sector function, finite-anchor flow, or `X_max`.
 
 Structural package:
 `udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`.
@@ -133,5 +133,5 @@ volumes need not be lockstep. G205 closes the supplied static geodesic/causal co
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
 then close the diagonal dependency. G212--G216 remove the second-scalar-selector framing, close
 shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
-event-pair germ. Next obtain fresh review, then test ownership of that event-pair first jet. Do not
+event-pair germ. Next test ownership of that event-pair first jet. Do not
 fit, identify `X_max`, select transfer, or revive historical application inputs.

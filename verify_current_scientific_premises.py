@@ -1798,7 +1798,8 @@ def main() -> None:
     )
     require(
         by_id["G216"]["current_status"].startswith(
-            "DERIVED_CONDITIONAL__PREREGISTERED_AT_65C5CFE7__G176_WORKING_COMPLETION__"
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_65C5CFE7__"
+            "FRESH_GPT54_ACCEPTED_NO_SCIENTIFIC_REPAIR__G176_WORKING_COMPLETION__"
             "SUPPLIED_REGULAR_TIMELIKE_OBSERVER_WORLDLINES_EVENTS_AND_EVENT_PAIR_GERM"
         ),
         "G216 bounded grade changed or promoted",
@@ -1819,6 +1820,10 @@ def main() -> None:
     ):
         require(guard in by_id["G216"]["current_status"], f"G216 guard absent: {guard}")
     require(by_id["G216"]["epistemic_label"] == "MIXED", "G216 label changed")
+    require(
+        "external review described as canonization" in by_id["G216"]["forbidden_regression"],
+        "G216 external-review scope guard absent",
+    )
     require(
         by_id["G216"]["active_use"]
         == "ACTIVE_BOUNDED_REGULAR_G176_COMPLETED_EVENT_PAIR_PROPER_CLOCK_RATE_LAW_ONLY",
@@ -1845,9 +1850,17 @@ def main() -> None:
         "STATUS_LEDGER.tsv",
         "EVIDENCE_GATES.md",
         "ADVERSARIAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
         "build_review_intake.py",
     ):
         require((g216 / name).is_file(), f"G216 evidence missing: {name}")
+    require(
+        "G216_VERIFIED_WITH_CAVEATS__PAIR_GERM_PROPER_CLOCK_RATE_LAW_CLOSES__PHYSICAL_PAIR_GERM_OWNERSHIP_REMAINS_OPEN"
+        in (g216 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G216 external-review acceptance absent",
+    )
     g216_package = json.loads((g216 / "VERIFICATION_RESULT.json").read_text())
     require(g216_package["status"] == "PASS", "G216 package verification failed")
     require(g216_package["no_write_replay"] is True, "G216 no-write replay absent")

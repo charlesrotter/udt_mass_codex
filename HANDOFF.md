@@ -30,7 +30,8 @@ descends it across calibrated covers without creating a pair-surface product. G2
 G216's independent exact replay gives unit proper clocks `T=1,Phi=0` and the invariant supplied-germ law
 `delta_AB=-log(d tau_B/d tau_A)`. Common reparameterization cancels; reversal/composition are
 inverse-function/chain-rule identities. No extra scalar clock coefficient remains after the pair
-map is supplied; physical germ ownership stays open. Fresh review is still required.
+map is supplied; physical germ ownership stays open. Fresh `gpt-5.4` review accepted the bounded
+theorem without scientific repair.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
@@ -54,8 +55,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Freshly review G216, then test whether founded ordered-pair semantics owns the event-pair first jet
-without collapsing full pair carry. Do not fit, activate arbitrary coframes, identify `X_max`,
+Test whether founded ordered-pair semantics owns the event-pair first jet without collapsing full
+pair carry. Do not fit, activate arbitrary coframes, identify `X_max`,
 select transfer, or use G116/G189. The
 physical carrier/`O(2)`, covariant `lambda`,
 conformal/common-scale ownership, bivector area bilinear, codimension eleven, and numerical

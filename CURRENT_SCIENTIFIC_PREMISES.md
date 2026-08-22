@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215 external; G216 exact, review due | `Phi=-log T`; edge depth is `-log(d tau_B/d tau_A)` | Pair-germ ownership; full carry |
+| Pair-clock network | G215--G216 externally verified with caveats | `Phi=-log T`; edge depth is `-log(d tau_B/d tau_A)` | Pair-germ ownership; full carry |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -43,7 +43,7 @@
 | G212 history bridge | verified w/caveats | Valued rank-complete network is the state; flow open |
 | G213--G214 rank and descent | externally accepted | Five modes; completed tuples retain rank ten and descend |
 | G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
-| G216 comparison-clock rate ownership | independently verified; fresh review required | Unit proper clock is locally trivial; nonzero edge depth is the proper-time pairing-rate derivative |
+| G216 comparison-clock rate ownership | externally verified with caveats | Unit proper clock is locally trivial; nonzero edge depth is the proper-time pairing-rate derivative |
 
 None selects completion or `X_max`.
 ## Scale and limits

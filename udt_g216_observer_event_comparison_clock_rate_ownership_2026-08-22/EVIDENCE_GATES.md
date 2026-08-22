@@ -12,7 +12,7 @@ Date: 2026-08-22
 | source provenance | PASS | 12/12 hashes |
 | no-write aggregate replay | PASS | fail-closed package verifier |
 | premise audit | PASS WITH CAVEATS | G176 working; pair-germ population open |
-| external fresh review | PENDING | not yet dispatched |
+| external fresh review | PASS WITH CAVEATS | fresh `gpt-5.4`; no scientific repair |
 
-The banked landing cannot exceed `DERIVED_CONDITIONAL` before fresh adversarial review.
-
+The banked landing remains `DERIVED_CONDITIONAL`: external review verifies the bounded theorem but
+does not promote G176 or own physical pair-germ population.

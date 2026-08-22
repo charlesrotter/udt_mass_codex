@@ -65,6 +65,7 @@ so (\Phi_X=\phi_X) and the earlier kernel is recovered exactly.
 - independent `Fraction` replay passes 190,000 assertions over 10,000 cases;
 - 17/17 hostile semantic and algebraic catches pass;
 - aggregate package replay is fail-closed and no-write.
+- fresh external `gpt-5.4` review accepted the bounded landing with no scientific repair.
 
 ## Four gates
 
@@ -82,4 +83,5 @@ scalar is the metric proper-clock rate ratio, not a new coefficient. It does not
 the physical event-pair germ, generate metric values/profiles or history evolution, close full
 non-scalar carry, or derive downstream physics.
 
-Current grade: `DERIVED_CONDITIONAL__INDEPENDENT_EXACT_REPLAY_PASS__FRESH_REVIEW_REQUIRED`.
+Current grade:
+`EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL__NO_SCIENTIFIC_REPAIR`.

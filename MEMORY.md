@@ -47,8 +47,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G216 passes an independent exact replay and still requires fresh review. After review, test
-whether founded ordered-pair semantics owns the event-pair first jet without collapsing full pair
+G216 is externally verified with caveats and required no scientific repair. Test whether founded
+ordered-pair semantics owns the event-pair first jet without collapsing full pair
 carry. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:

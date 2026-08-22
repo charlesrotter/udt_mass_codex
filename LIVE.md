@@ -74,8 +74,8 @@ determinant-one spatial modes plus typed `(m,h_s)` preserve G129 rank ten; delet
 
 Externally reviewed G214 descends typed `(m,h_s)` across calibrated covers but gives distinct pair
 surfaces no metric product. G215 makes completed `Phi=-log T` a shared comparison-clock scalar;
-G171 becomes a raw/recalibrated control while density and shift remain live. Preregistered G216
-passes an independent exact replay and sharpens `T`: a unit proper clock gives `T=1,Phi=0`, while a supplied event-pair germ gives
+G171 becomes a raw/recalibrated control while density and shift remain live. Externally reviewed G216
+sharpens `T`: a unit proper clock gives `T=1,Phi=0`, while a supplied event-pair germ gives
 `delta_AB=-log(d tau_B/d tau_A)`. Common reparameterization cancels; reversal/composition are
 inverse-function/chain-rule identities. No extra clock coefficient remains after the pair map is
 supplied. Physical event-pair/germ population and full carry remain open.
@@ -115,8 +115,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Freshly adversarially review G216, then test whether the founded ordered physical-pair semantics
-owns the event-pair first jet whose proper-clock derivative now supplies the scalar. Keep full
+Test whether the founded ordered physical-pair semantics owns the event-pair first jet whose
+proper-clock derivative now supplies the externally reviewed scalar. Keep full
 pair-metric and immersion carry separate. Do not fit, identify `X_max`, select transfer, or use
 G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
