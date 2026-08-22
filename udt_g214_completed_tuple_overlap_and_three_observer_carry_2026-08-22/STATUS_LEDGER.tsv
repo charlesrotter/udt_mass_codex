@@ -1,0 +1,8 @@
+item	status	claim	limit
+preregistration	PREREGISTERED	bounded overlap and carry audit frozen	outcomes not yet run
+pair_overlap_naturality	OPEN	candidate density-plus-SL2 descent	must pass exact replay
+pure_ruler_reparameterization	OPEN	candidate h_s invariance	must pass exact replay
+orientation_reversal	OPEN	candidate oriented congruence	separate from endpoint reversal
+G130_transfer	OPEN	candidate reconstruction transfer without density loss	compatible supplied cover only
+three_observer_full_tuple_product	NOT_ASSUMED	no native product preregistered	matched incidence sufficient only
+physical_population_values	OPEN	outside bounded algebra	no derivation

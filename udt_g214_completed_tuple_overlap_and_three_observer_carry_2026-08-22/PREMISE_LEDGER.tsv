@@ -1,0 +1,12 @@
+item	status	role	limit
+Lorentz_pair_pullback	SUPPLIED	tensor being re-expressed	regular local pair surface
+calibrated_pair_split	SUPPLIED	defines upper-triangular chart group	no universal foliation
+pair_orientation	SUPPLIED	retains ruler sign and time orientation	orientation reversal separate from endpoint reversal
+G176_completion	WORKING_FOUNDATIONAL_CLARIFICATION	defines m and determinant-minus-one h_s	not canon
+G213_local_bijection	DERIVED_CONDITIONAL	full pullback equivalent to typed m plus h_s	known germ retained
+G130_overlap_descent	DERIVED_CONDITIONAL	compatible full-pullback networks reconstruct a metric	values supplied
+G170_reversal	DERIVED_BOUNDED	same-pair endpoint swap negates scalar	consistent calibration class
+G171_triangle_defect	DERIVED_BOUNDED	nonmatched incidences need not telescope	no arbitrary pair composition
+physical_germ_population	OPEN	which pairs occur	outside local descent
+cross_pair_incidence_owner	OPEN	identifies calibrations between distinct pair germs	must not be inferred from shared observer alone
+Xmax_transfer_source_action	OPEN	outside G214	no claim
