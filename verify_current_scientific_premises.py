@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G216",
+            "G166--G217",
             "G196",
             "G197",
             "G198",
@@ -184,6 +184,7 @@ def validate_startup_surface(root: Path) -> None:
             "G214",
             "G215",
             "G216",
+            "G217",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -237,7 +238,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "200-row exact registry",
+            "201-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -283,6 +284,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/",
             "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/",
             "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/",
+            "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -293,7 +295,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G216",
+            "G166--G217",
             "G197",
             "G198",
             "G199",
@@ -315,6 +317,7 @@ def validate_startup_surface(root: Path) -> None:
             "G215",
             "G216",
             "G216",
+            "G217",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -349,6 +352,7 @@ def validate_startup_surface(root: Path) -> None:
             "G214",
             "G215",
             "G216",
+            "G217",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -384,7 +388,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "200-row",
+            "201-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -646,9 +650,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 200, "premise registry must contain exactly 200 rows")
+    require(len(rows) == 201, "premise registry must contain exactly 201 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 200, "duplicate premise id")
+    require(len(by_id) == 201, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1877,6 +1881,94 @@ def main() -> None:
         g216_package["landing"]
         == "PAIR_GERM_PROPER_CLOCK_RATE_LAW__UNIT_CLOCK_TRIVIALIZATION__COMMON_REPARAMETERIZATION_CANCELLATION",
         "G216 landing changed",
+    )
+    require(
+        by_id["G217"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_CB40B4E9__"
+            "FRESH_GPT54_ACCEPTED_NO_SCIENTIFIC_REPAIR__G176_WORKING_COMPLETION__"
+            "SUPPLIED_FUTURE_TIMELIKE_OBSERVER_WORLDLINES_PAIRED_EVENTS_AND_ORDERED_DEPTH"
+        ),
+        "G217 bounded grade changed or promoted",
+    )
+    for guard in (
+        "PROPER_CLOCK_TANGENT_AXES_ARE_ORIENTED_ONE_DIMENSIONAL_LINES",
+        "POSITIVE_FIRST_JET_UNIQUE_AFTER_SOURCE_EVENT_TARGET_EVENT_AND_MULTIPLIER_FIXED",
+        "LAMBDA_AB_EQUALS_DTAU_B_DTAU_A_EQUALS_EXP_MINUS_DELTA_AB",
+        "WRONG_EXP_PLUS_SIGN_EXCLUDED",
+        "REVERSAL_IS_MULTIPLICATIVE_INVERSE",
+        "ACTUAL_COMPOSITE_FIRST_JET_IS_LAMBDA_BC_TIMES_LAMBDA_AB",
+        "COMMON_PAIR_PARAMETER_CANCELS",
+        "INDEPENDENT_INCIDENCE_REPARAMETERIZATION_CHANGES_CALIBRATED_INPUT",
+        "SAME_DEPTH_CAN_PAIR_DISTINCT_TARGET_EVENTS",
+        "DISTINCT_SMOOTH_GERMS_CAN_SHARE_PAIRED_EVENTS_AND_FIRST_JET",
+        "INDEPENDENT_DIRECT_AC_NOT_FORCED_TO_EQUAL_ACTUAL_COMPOSITE",
+        "NO_EVENT_OR_DEPTH_POPULATION_HIGHER_GERM_FULL_CARRY_HISTORY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G217"]["current_status"], f"G217 guard absent: {guard}")
+    require(by_id["G217"]["epistemic_label"] == "MIXED", "G217 label changed")
+    require(
+        "external review described as canonization" in by_id["G217"]["forbidden_regression"],
+        "G217 external-review scope guard absent",
+    )
+    require(
+        by_id["G217"]["active_use"]
+        == "ACTIVE_BOUNDED_POSITIVE_PROPER_CLOCK_FIRST_JET_ON_SUPPLIED_PAIRED_EVENTS_AND_DEPTH_ONLY",
+        "G217 active scope widened",
+    )
+    require(
+        by_id["G217"]["controlling_source"]
+        == "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/AUDIT_REPORT.md",
+        "G217 controlling source changed",
+    )
+    g217 = ROOT / "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
+        "build_review_intake.py",
+        "derive_first_jet_ownership.py",
+        "verify_first_jet_independent.py",
+        "run_catch_proofs.py",
+        "verify_source_manifest_repository.py",
+        "verify_package.py",
+    ):
+        require((g217 / name).is_file(), f"G217 evidence missing: {name}")
+    require(
+        "G217_VERIFIED_WITH_CAVEATS__POSITIVE_FIRST_JET_CLOSES_ON_SUPPLIED_PAIRED_EVENTS_AND_DEPTH__EVENT_INCIDENCE_AND_FULL_GERM_REMAIN_OPEN"
+        in (g217 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G217 external-review acceptance absent",
+    )
+    g217_package = json.loads((g217 / "VERIFICATION_RESULT.json").read_text())
+    require(g217_package["status"] == "PASS", "G217 package verification failed")
+    require(g217_package["no_write_replay"] is True, "G217 no-write replay absent")
+    require(g217_package["core_files_hashed"] == 17, "G217 core file count changed")
+    require(g217_package["exact_checks"] == 37, "G217 exact check count changed")
+    require(g217_package["independent_cases"] == 10000, "G217 case count changed")
+    require(g217_package["independent_assertions"] == 190000, "G217 assertion count changed")
+    require(g217_package["hostile_catches"] == 16, "G217 hostile count changed")
+    require(g217_package["source_count"] == 13, "G217 source count changed")
+    require(g217_package["exp_depth_ab"] == "7/3", "G217 depth control changed")
+    require(g217_package["first_jet_multiplier_ab"] == "3/7", "G217 first-jet control changed")
+    require(g217_package["actual_composite_multiplier"] == "15/77", "G217 composite changed")
+    require(g217_package["independent_direct_multiplier"] == "4/9", "G217 direct control changed")
+    require(
+        g217_package["landing"]
+        == "FOUNDED_DEPTH_COMPLETES_POSITIVE_FIRST_JET_ON_SUPPLIED_PAIRED_EVENTS__EVENT_SELECTION_AND_FULL_GERM_REMAIN_OPEN",
+        "G217 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6101,7 +6193,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G216-extended premise guards; PASS: 200-row premise "
+        "PASS: G217-extended premise guards; PASS: 201-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

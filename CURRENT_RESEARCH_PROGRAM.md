@@ -58,26 +58,20 @@ physical scalar after the working premise. They must not be conflated.
   even-areal alternatives. Finite anchors and regularity do not select their values or `X_max`.
 - G205 proves the supplied family geodesically complete and globally hyperbolic on declared
   `R x R3`, with exact null-orbit strata. The global proof is analytic.
-- G206 common scale preserves causal order/global hyperbolicity; null completeness is its weighted
-  affine-integral test, and completed depth hears the pair pullback of `Omega`.
-- G207 trace-free screen shape preserves volume, radial causality, and global hyperbolicity.
-  Static/compact-live survivors and an unrestricted null-incomplete witness coexist; completed-pair
-  response includes exact blind strata.
-- G208 radial-screen mixing preserves volume but changes the sharp radial bound to
-  `f sqrt(cosh(2s))`. Controlled survivors and one causal/null failure coexist; pairs hear mixing.
-- G209 full shift preserves signature, determinant, and temporal `dt` while translating the causal
-  ellipsoid. Controlled survivors and one globally-hyperbolic/null-incomplete counterclass coexist;
-  pairs hear shift.
-- G210 isolates the relative spatial-determinant scalar `sigma`; it rescales causal widths and
-  enters spatially bearing pairs. Survivor and failure strata coexist; factorization is not history.
-- G211 proves the complete local diagonal scalar plane has rank two after the calibrated split and
-  references are supplied. `Omega=ell` and `q=sigma-ell` form an exact basis; lapse-only is their
-  fixed mixture, not a third tile. Four-volume, causal width, null affine reach, and completed depth
-  hear different exact combinations. No scalar function or history is selected.
-- G212 reconciles the earlier rank-ten result with the completed kernel: a valued full pair network can
-  be the metric state, while current identities do not generate its values from finite anchors.
-  Two generic completed clocks reconstruct `Omega,q` pointwise. Full all-germ two-jet isotropy
-  conditionally forces a space form but is not an owned UDT premise.
+- G206 common scale preserves cones but changes affine reach and completed depth.
+- G207 trace-free screen shape preserves volume and radial causality while blind and responsive
+  pair strata coexist.
+- G208 radial-screen mixing preserves volume but changes radial causal width; controlled survivor
+  and failure strata coexist.
+- G209 full shift preserves signature and determinant while translating the causal ellipsoid.
+- G210 isolates relative spatial volume `sigma`; it rescales causal width and enters spatial pairs.
+  These factorizations classify supplied histories; none selects one.
+- G211 proves the supplied local diagonal scalar plane has rank two: `Omega=ell` and
+  `q=sigma-ell`; lapse-only is their mixture, not a third tile. Volume, causal width, affine reach,
+  and depth hear different combinations. No function or history is selected.
+- G212 reconciles rank ten with the completed kernel: a valued pair network can be the metric state,
+  but identities do not generate its values. Two generic clocks reconstruct `Omega,q`; all-germ
+  two-jet isotropy is not an owned UDT premise.
 - G213 proves the determinant-one spatial remainder has five modes: grading `1`, mixing `2`, and
   screen shape `2`. G207/G208 covered four. Retaining G176 ruler density makes each completed tuple
   information-equivalent to its full pullback, so the six-pair design remains rank ten; deleting
@@ -94,21 +88,27 @@ physical scalar after the working premise. They must not be conflated.
   `delta_AB=-log(d tau_B/d tau_A)`. Common pair reparameterization cancels, and reversal/composition
   are inverse-function/chain-rule identities. No extra pair-clock coefficient remains after a
   calibrated pair map is supplied; physical event-pair germ ownership remains open.
+- G217 proves the corresponding first-jet ownership theorem. Once future-timelike source and target
+  events and ordered depth are supplied, the unique positive proper-clock linear map is
+  `d tau_B/d tau_A=exp(-delta_AB)`. Reversal and actual-composite composition are exact. Depth does
+  not select the zero-jet event incidence, and a first jet does not select higher jets or a full
+  smooth germ.
 
-G206--G216 are externally verified with caveats. G216 required no scientific repair. None generates
+G206--G217 are externally verified with caveats. G216 and G217 required no scientific repair. None generates
 a sector function, finite-anchor flow, or `X_max`.
 
 Structural package:
-`udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`.
+`udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G216 close the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G217 close the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
-  interpretation, not valuation, full-germ carry, or pair population.
+  interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
+  higher/full-germ carry.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -131,7 +131,9 @@ contractions.
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
-then close the diagonal dependency. G212--G216 remove the second-scalar-selector framing, close
+then close the diagonal dependency. G212--G217 remove the second-scalar-selector framing, close
 shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
-event-pair germ. Next test ownership of that event-pair first jet. Do not
+event-pair germ, then close its positive first jet on supplied paired events and depth. Next map
+whether any zero-jet event incidence and depth population is metric/founding-owned or remains
+supplied. Keep higher/full-germ carry separate. Do not
 fit, identify `X_max`, select transfer, or revive historical application inputs.

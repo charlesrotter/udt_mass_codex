@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G216 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G217 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -19,7 +19,9 @@ with typed `(m,h_s)`. G214 descends it across covers. G215 closes shared-clock s
 while density, shift, and full carry remain live. G216 gives unit proper clocks `T=1,Phi=0` and the
 supplied-germ invariant `delta_AB=-log(d tau_B/d tau_A)`; common reparameterization cancels and
 inverse/chain rules give reversal/composition. No extra scalar clock coefficient remains; physical
-event-pair population stays open.
+event-pair population stays open. G217 proves that supplied paired events plus ordered depth fix the
+unique positive first jet `d tau_B/d tau_A=exp(-delta_AB)`. It does not select the events or higher
+germ data.
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
@@ -47,9 +49,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G216 is externally verified with caveats and required no scientific repair. Test whether founded
-ordered-pair semantics owns the event-pair first jet without collapsing full pair
-carry. No fits, `X_max`, or transfer inputs.
+G217 is externally verified with caveats and required no scientific repair. Map whether founding or
+metric semantics owns any physical zero-jet event incidence and ordered-depth population, or leaves
+them supplied. Keep higher/full-germ carry separate. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

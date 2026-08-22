@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G216. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G217. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -52,14 +52,11 @@ two-sided magnitude, while angular instruments need not share one envelope. Quie
 requires `p=q=0`; `f=1+C r^2` cancels both tides even toward either signed extreme. This permits
 regime-dependent ratios but selects no profile or universal score.
 
-G202/G203/G204 derive quiet overlap, unselected descriptors, and a smooth even-areal family. G205 proves
-that supplied family complete and globally hyperbolic on declared `R x R3`, with exact circular-null
-strata. Its global theorems are analytic, not script-mechanized; no history or `X_max` is selected.
+G202, G203, and G204 derive quiet overlap, unselected descriptors, and smooth even-areal families. G205 proves
+the supplied family complete and globally hyperbolic on `R x R3`; no history or `X_max` is selected.
 
-G206/G207/G208/G209/G210 classify common scale, trace-free screen, mixing, shift, and spatial volume before
-readout. Cones, affine reach, and depth hear different combinations; survivor/failure and
-blind/responsive strata coexist. None selects functions, history, or `X_max`; global proofs are
-analytic.
+G206, G207, G208, G209, and G210 classify scale, screen, mixing, shift, and volume. Cones, affine reach, and depth
+hear different combinations; none selects functions, history, or `X_max`.
 
 G211 closes the remaining local diagonal-scalar dependency after a calibrated `1+3` reference is
 supplied. The sector has rank two: `Omega=ell` and `q=sigma-ell` form an exact basis, while a
@@ -78,15 +75,17 @@ G171 becomes a raw/recalibrated control while density and shift remain live. Ext
 sharpens `T`: a unit proper clock gives `T=1,Phi=0`, while a supplied event-pair germ gives
 `delta_AB=-log(d tau_B/d tau_A)`. Common reparameterization cancels; reversal/composition are
 inverse-function/chain-rule identities. No extra clock coefficient remains after the pair map is
-supplied. Physical event-pair/germ population and full carry remain open.
+supplied. Externally reviewed G217 closes the positive scalar first jet one step further: once the
+two future-timelike paired events and ordered depth are supplied, their unique positive proper-clock
+linear map is `d tau_B/d tau_A=exp(-delta_AB)`. Depth does not choose the paired events, and this
+first jet does not choose higher jets or the full smooth germ. Physical event/depth population and
+full carry remain open.
 
-Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
-the live families interlock after a metric and query are supplied. A valued rank-complete network
-needs no second scalar selector or pair-clock coefficient, but valuation, population, full-germ
-carry, transfer, finite-anchor flow, and asymptotic numerical `X_max` remain open. The physical carrier/`O(2)`,
-covariant `lambda`, conformal/common-scale
-ownership, bivector area bilinear, codimension eleven closure, and numerical valuation retain their
-registry status. The parity-even candidates fail on the registered non-collinear witness.
+Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs. No second
+scalar selector or pair-clock coefficient is needed; valuation, population, full-germ carry,
+transfer, and asymptotic numerical `X_max` remain open. The physical carrier/`O(2)`, covariant `lambda`, conformal
+ownership, bivector area bilinear, codimension eleven, and numerical valuation retain their registry
+status. The parity-even candidates fail on the registered non-collinear witness.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit,
 `X_max`, G142--G160 mechanism, or protected payload is load-bearing. G176 remains provisional;
@@ -115,8 +114,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Test whether the founded ordered physical-pair semantics owns the event-pair first jet whose
-proper-clock derivative now supplies the externally reviewed scalar. Keep full
-pair-metric and immersion carry separate. Do not fit, identify `X_max`, select transfer, or use
-G116/G189 as construction inputs.
+Map the upstream zero-jet joint: determine whether the founding/metric semantics owns any physical
+observer-event incidence and ordered-depth population, or whether these remain supplied relation
+data. Keep that question separate from the already closed positive scalar first jet and from the
+downstream higher/full germ. Do not fit, identify `X_max`, select transfer, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

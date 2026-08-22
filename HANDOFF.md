@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G216 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G217 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -33,6 +33,11 @@ inverse-function/chain-rule identities. No extra scalar clock coefficient remain
 map is supplied; physical germ ownership stays open. Fresh `gpt-5.4` review accepted the bounded
 theorem without scientific repair.
 
+G217 then closes the positive first jet on already supplied future-timelike paired events and
+ordered depth: `d tau_B/d tau_A=exp(-delta_AB)`. Reversal and actual-composite composition are exact.
+The same depth can pair different target events, and distinct higher-order germs can share the same
+first jet. Fresh `gpt-5.4` review accepted this bounded theorem without scientific repair.
+
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
 IVPs formula-level.
@@ -55,8 +60,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Test whether founded ordered-pair semantics owns the event-pair first jet without collapsing full
-pair carry. Do not fit, activate arbitrary coframes, identify `X_max`,
+Map whether founding/metric semantics owns physical zero-jet observer-event incidence and ordered
+depth population, or leaves them supplied. Keep that upstream question separate from G217's closed
+positive scalar first jet and the downstream full germ. Do not fit, activate arbitrary coframes, identify `X_max`,
 select transfer, or use G116/G189. The
 physical carrier/`O(2)`, covariant `lambda`,
 conformal/common-scale ownership, bivector area bilinear, codimension eleven, and numerical

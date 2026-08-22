@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215--G216 externally verified with caveats | `Phi=-log T`; edge depth is `-log(d tau_B/d tau_A)` | Pair-germ ownership; full carry |
+| Pair-clock network | G215--G217 externally verified | `Phi=-log T`; events plus depth fix the positive first jet | Event/depth population; full germ/carry |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -44,6 +44,7 @@
 | G213--G214 rank and descent | externally accepted | Five modes; completed tuples retain rank ten and descend |
 | G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
 | G216 comparison-clock rate ownership | externally verified with caveats | Unit proper clock is locally trivial; nonzero edge depth is the proper-time pairing-rate derivative |
+| G217 founded-depth first-jet ownership | externally verified with caveats | Supplied paired events and depth uniquely fix the positive proper-clock first jet; incidence and full germ remain open |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -68,8 +69,9 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- G212--G216 close state, rank, cover descent, shared-clock incidence, and the proper-clock rate
-  interpretation. Valuation, event-pair population, full-germ incidence, transfer, and completion
+- G212--G217 close state, rank, cover descent, shared-clock incidence, the proper-clock rate
+  interpretation, and its positive first jet on supplied paired events/depth. Valuation,
+  zero-jet event/depth population, higher/full-germ incidence, transfer, and completion
   stay open.
 
 ## Carrier, action, source, and matter
@@ -104,7 +106,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 200-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 201-row authority. On conflict, stop.
 
 Run:
 

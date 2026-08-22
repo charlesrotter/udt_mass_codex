@@ -1,7 +1,8 @@
 item	status	claim	limit
-question	PREREGISTERED	founded depth versus event-pair first-jet ownership	outcome not yet run
-full_germ_ownership	COMPETING_LANDING_A	founding owns events and full local map	requires explicit source evidence
-conditional_first_jet	COMPETING_LANDING_B	paired events plus depth own positive derivative	must preserve upstream supplied inputs
-value_only	COMPETING_LANDING_C	depth cannot be typed as a derivative	must reconcile G216
-definitional_promotion	COMPETING_LANDING_D	ownership added by definition rather than derived	must remain a premise if selected
+question	EXECUTED_EXTERNALLY_REVIEWED_WITH_CAVEATS	founded depth versus event-pair first-jet ownership	bounded landing accepted without scientific repair
+full_germ_ownership	REFUTED_SOURCE_BOUNDED	founding owns events and full local map	founding G168 and G176 explicitly retain them supplied or open
+conditional_first_jet	DERIVED_CONDITIONAL_EXTERNALLY_REVIEWED_WITH_CAVEATS	paired events plus depth own positive derivative	fresh gpt-5.4 accepted without scientific repair; upstream inputs remain supplied
+value_only	REFUTED_UNDER_G176_G216	depth cannot be typed as a derivative	G216 supplies the exact derivative typing
+definitional_promotion	NOT_REQUIRED_FOR_BOUNDED_THEOREM	ownership added by definition rather than derived	cannot generate pair population
 event_population	OPEN	physical observer-event relation family	outside bounded audit
+full_smooth_germ	OPEN	second and higher local map data	many germs share one first jet
