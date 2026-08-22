@@ -55,31 +55,23 @@ Independent exact replay passes 10,000 arbitrary jets, 1,000 cancellation cases,
 controls, and 23,606 assertions. This proves lawful regime-dependent instrument ratios, not a
 selected physical profile or universal response score.
 
-G202--G203 derive quiet overlap and invariant but unselected descriptors. G204 excludes the
-center-singular monotone log extension and supplies an infinite smooth even-areal trough/asymptote
-family. G205 proves on declared `R x R3` that this family is fully geodesically complete and globally
-hyperbolic. Circular null orbits have exact zero/one/two strata across `a_crit(n)`; above threshold
-the inner orbit is stable and the outer unstable. External review retained these analytic theorems;
-finite scripts verify only the algebraic core. No parameter, profile, physical history, maximal
-extension, event horizon, or `X_max` is selected.
+G202/G203/G204 derive quiet overlap, unselected descriptors, and an infinite smooth even-areal
+trough/asymptote family. G205 proves this supplied family geodesically complete and globally
+hyperbolic on declared `R x R3`, with exact zero/one/two circular-null strata. External review
+retained the analytic theorems; scripts verify only their algebraic core. No parameter, history,
+maximal extension, event horizon, or `X_max` is selected.
 
-G206 applies arbitrary smooth positive live/nonspherical common scale
-`g_tilde=exp(2 Omega)g205`. Causal curves and global hyperbolicity survive. Null completeness is
-exactly divergence of `integral exp(2 Omega)d lambda` at both ends: a bounded quadrupolar witness
-survives; a smooth decaying witness fails while staying globally hyperbolic. On completed pairs,
-`omega=Omega composed F` and `Phi_tilde=Phi-omega`. External review found no mathematical error.
-This classifies supplied extensions; it selects no `Omega`, history, or `X_max`. Timelike/spacelike
-completeness and combined missing sectors remain open.
+G206 applies arbitrary smooth live/nonspherical common scale. Causality and global hyperbolicity
+survive; null completeness is exactly the two-ended `exp(2 Omega)` affine-integral test. Bounded
+and decaying witnesses respectively survive and fail. Completed pairs obey
+`Phi_tilde=Phi-Omega composed F`. This selects no `Omega`, history, or `X_max`.
 
-G207 turns on pure determinant-one trace-free angular-screen shape before pair pullback. Every
-smooth declared member preserves Lorentz signature, ambient determinant, the radial causal bound,
-the G205 Cauchy slices, and global hyperbolicity. Every smooth static member is null complete, and
-a compact-time-live center-regular nonspherical witness survives. Unrestricted live shear can
-nevertheless compress an exact supercritical G205 circular null orbit to finite Gaussian affine
-future while remaining globally hyperbolic. Generic screen-bearing clock germs, pair area, and
-shift hear the shear internally; a static clock is the exact blind stratum. External review found
-no mathematical error. `S` remains `FREE_AND_EXPLORED`; timelike/spacelike completeness, combined
-common scale plus shear, radial-screen mixing, shift, physical history, and `X_max` remain open.
+G207 turns on determinant-one trace-free screen shape before pullback. It preserves signature,
+ambient determinant, radial causal control, G205 Cauchy slices, and global hyperbolicity. Static
+members and a compact-live witness are null complete; unrestricted live shear has an exact
+globally-hyperbolic but null-incomplete circular-orbit witness. Generic screen clocks hear shear;
+static clocks are blind. `S` remains `FREE_AND_EXPLORED`; combined scale/shear, radial-screen
+mixing, other completeness, history, and `X_max` remain open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do

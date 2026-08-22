@@ -34,8 +34,8 @@
 | G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
 | G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the monotone log extension; an infinite even-areal trough/asymptote family survives without parameter selection |
 | G205 geodesic/causal completion audit | externally verified with caveats | The supplied family is fully geodesically complete and globally hyperbolic; exact null-trapping strata do not select parameters or `X_max` |
-| G206 conformal live extension | externally verified with caveats | Causality survives; null completeness uses the affine-weight test; completed `Phi` hears pair-pulled scale; no `Omega` or `X_max` selection |
-| G207 trace-free screen live extension | externally verified with caveats | Volume, radial causality, and global hyperbolicity survive; static members are null complete, while unrestricted live shear has an exact incomplete-orbit counterexample; completed pairs hear supplied screen content |
+| G206 conformal live extension | externally verified with caveats | Causality survives; affine weight controls null completeness; completed `Phi` hears pair scale; no selection |
+| G207 trace-free screen extension | externally verified with caveats | Volume, radial causality, and global hyperbolicity survive; static complete and live incomplete null strata coexist; pairs hear screen content |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -61,16 +61,12 @@ None selects completion or `X_max`.
 - The bounded carrier/transport chain types `O(2)`, `lambda`, first jets, scale, score, transport,
   and `X_max`; the conformal-family result is an envelope control rather than a physical
   multiplicity theorem.
-- The current chain derives and tests the supplied-pair kernel. G199 prevents a chosen coframe's
-  directional asymmetry from being promoted to the primary metric; G200 shows that native finite
-  differences arise by radial sampling; G201 permits non-lockstep volumes, G202 makes quiet overlap
-  exact, G203 separates invariant profile descriptors from numerical selection, and G204 adds the
-  bounded smooth-center/outer-asymptotic alternatives. G205 proves their declared static-spherical
-  geodesic/causal completion. G206 then proves the common-conformal time-live/nonspherical causal
-  and null-affine classification. G207 turns on pure determinant-one trace-free screen shape and
-  proves its causal, static-null, live-failure, and completed-pair strata. Population, transfer,
-  profile/common-scale/screen ownership, combined common-scale/shear, radial-screen mixing,
-  maximal extension, and nonspherical/global realization stay open.
+- The current chain tests the supplied-pair kernel. G199--G201 establish reversal symmetry, radial
+  sampling, and non-lockstep channels; G202--G204 classify quiet overlap and smooth alternatives.
+  G205 proves their declared static completion. G206 classifies common-conformal causal/null-affine
+  response; G207 classifies trace-free screen causal, static-null, live-failure, and pair strata.
+  Population, transfer, channel ownership, combined scale/shear, radial-screen mixing, maximal
+  extension, and global realization stay open.
 
 ## Carrier, action, source, and matter
 

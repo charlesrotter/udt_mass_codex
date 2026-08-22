@@ -15,22 +15,17 @@ G199 removes their chosen coupling and finds both primary radial germs share fre
 `D=lambda I`. G200 finds the primary reversed nonradial germs share local laws; finite differences
 are radial-gradient sampling. G198 remains a chosen-family control with an off-ray ceiling.
 
-G201 shows instruments are not lockstep. G202--G203 type quiet overlap. G204 supplies the smooth
-even-areal trough/asymptote family; G205 proves its declared static-spherical geodesic completeness,
-global hyperbolicity, and exact null-trapping strata. Parameters, maximal extension, and `X_max`
-remain unselected.
+G201 shows instruments are not lockstep. G202/G203/G204 type quiet overlap and alternatives. G205
+proves the supplied static family complete and globally hyperbolic, with null-trapping strata.
+Parameters and `X_max` remain unselected.
 
-G206 adds arbitrary smooth positive live/nonspherical common scale. Causality survives; null
-completeness is the conformal affine-integral test. Bounded and decaying witnesses respectively
-survive and fail. Completed `Phi` shifts by minus the pair pullback. No `Omega`, screen/mixing, or
-`X_max` is selected.
+G206 adds arbitrary smooth live/nonspherical common scale. Causality survives; null completeness
+is the affine-integral test, and completed `Phi` shifts by minus the pair pullback. No `Omega`,
+screen/mixing, or `X_max` is selected.
 
-G207 adds pure determinant-one trace-free angular-screen shape before pullback. Ambient volume,
-the radial causal bound, and G205 global hyperbolicity survive every smooth declared member. Static
-members and a compact-live witness are null complete; unrestricted live shear can compress a
-supercritical circular null orbit to finite affine future. Completed `Phi`, pair area, and shift
-hear generic screen-bearing germs; a static clock is the exact blind stratum. No physical `S` is
-selected.
+G207 adds determinant-one trace-free screen shape before pullback. Volume, radial causality, and
+global hyperbolicity survive. Static and compact-live members can be null complete; unrestricted
+live shear has an exact incomplete orbit. Screen-bearing germs hear it; static clocks are blind.
 
 G197 retained this native core after an end-to-end provenance audit. It found no load-bearing P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 mechanism, or protected local payload. Required repairs

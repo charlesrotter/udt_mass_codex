@@ -29,25 +29,19 @@ G201 classifies the regime magnitude directly in the primary metric. With `p=r p
 either signed `phi` extreme. The reciprocal block still has an even two-sided algebraic contrast.
 Therefore native instrument ratios may change by regime; no lockstep loudness score is derived.
 
-G202--G203 type quiet overlap and its unselected descriptors. G204 supplies the smooth even-areal
-trough/asymptote family. G205 proves that family fully geodesically complete and globally
-hyperbolic on declared `R x R3`, with exact zero/one/two null-orbit strata. External review retained
-the analytic theorems; finite scripts verify only the algebraic core. Parameters, physical history,
-maximal extension, event horizon, and `X_max` remain unselected.
+G202/G203/G204 type quiet overlap, unselected descriptors, and a smooth even-areal family. G205 proves
+that supplied family geodesically complete and globally hyperbolic on declared `R x R3`, with exact
+null-orbit strata. Parameters, maximal extension, and `X_max` remain unselected.
 
-G206 adds arbitrary smooth positive live/nonspherical common scale. Causal curves and global
-hyperbolicity survive; null completeness is exactly the two-ended `exp(2 Omega)` affine-integral
-test. Bounded and decaying witnesses respectively survive and fail. Completed pairs obey
-`Phi_tilde=Phi-Omega composed F`. External review found no mathematical error. `Omega` remains
-`FREE_AND_EXPLORED`; other completeness and combined sectors remain open.
+G206 adds arbitrary smooth live/nonspherical common scale. Causality survives; null completeness
+is exactly the two-ended affine-weight test. Completed pairs obey `Phi_tilde=Phi-Omega composed F`.
+`Omega` remains `FREE_AND_EXPLORED`; other completeness and combined sectors remain open.
 
-G207 adds pure determinant-one trace-free angular-screen shape before pullback. Signature, ambient
-volume, radial causal control, G205 Cauchy slices, and global hyperbolicity survive every smooth
-declared member. Static members and a compact-live nonspherical witness are null complete;
-unrestricted live shear has an exact supercritical circular-null counterexample with finite affine
-future. Generic screen-bearing pair germs hear the shear, while a static clock is exactly blind.
-External review found no mathematical error. `S` is not selected; combined common scale/shear,
-radial-screen mixing, shift, physical history, and `X_max` remain open.
+G207 adds determinant-one trace-free screen shape before pullback. Signature, volume, radial causal
+control, and global hyperbolicity survive. Static members and a compact-live witness are null
+complete; unrestricted live shear has an exact null-incomplete circular-orbit counterexample.
+Screen-bearing pair germs hear shear; static clocks are blind. `S`, combined scale/shear,
+radial-screen mixing, history, and `X_max` remain open.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
