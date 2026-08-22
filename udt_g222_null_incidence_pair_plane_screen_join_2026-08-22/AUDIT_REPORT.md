@@ -38,7 +38,8 @@ so G221 is recovered exactly. On the clock-regular stratum, G176 fixes the recip
 to `m=a`, and the completed pair metric is `[[-T^2,-1],[-1,0]]` in its calibrated vertical coframe.
 
 G188's quotient screen is canonically and isometrically the normal plane of this pair surface. Its
-matrix Jacobi response remains a separate normal channel.
+quotient connection and tidal operator explicitly intertwine with normal projection, so its matrix
+Jacobi response remains a separate normal channel.
 
 ## New boundary exposed
 
@@ -57,11 +58,16 @@ closedness condition.
 
 - preregistered at commit `6df659bf`;
 - 10 frozen source hashes;
-- 38 symbolic and direct exact checks;
-- 12,000 independent Fraction cases and 276,000 exact checks;
-- 12,000 screen-isometry, affine-reparameterization, and integrability-boundary cases each;
-- 18 injected algebraic, semantic, and ownership mutations rejected;
+- 43 symbolic and direct exact checks;
+- 12,000 independent finite-algebra Fraction cases and 396,000 exact rational assertions;
+- 12,000 screen-isometry, connection-intertwining, tidal-intertwining, and explicit flat-ribbon
+  cases each;
+- 18 payload-contract field mutations rejected, explicitly not graded as theorem mutation tests;
+- complete-tree no-write replay covering the package and all 10 frozen load-bearing sources;
 - exact full-sector complete-coframe witness and exact nonclosed flat-ribbon witness.
+
+The general differential-geometric theorem is carried by the written proof; finite rational sampling
+is cross-check evidence, not its proof.
 
 ## What was not learned
 
@@ -73,5 +79,5 @@ signalling.
 Current grade:
 
 ```text
-INDEPENDENTLY_VERIFIED_WITH_CAVEATS__FRESH_ADVERSARIAL_REVIEW_PENDING
+ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
 ```

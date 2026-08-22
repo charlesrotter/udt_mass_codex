@@ -1,9 +1,11 @@
 {
   "status": "PASS",
-  "implementation": "independent_standard_library_fraction_replay",
+  "implementation": "independent_standard_library_fraction_finite_algebra_replay",
+  "classification": "independent_finite_algebra_replay_not_general_geometric_proof",
   "cases": 12000,
-  "exact_checks": 276000,
+  "finite_algebra_assertions": 396000,
   "screen_isometry_cases": 12000,
-  "affine_reparameterization_cases": 12000,
-  "integrability_boundary_cases": 12000
+  "connection_intertwining_cases": 12000,
+  "tidal_intertwining_cases": 12000,
+  "flat_ribbon_cases": 12000
 }

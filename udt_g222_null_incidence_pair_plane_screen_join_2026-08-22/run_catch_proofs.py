@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hostile mutation catches for the bounded G222 landing."""
+"""Payload-contract mutation guard for the bounded G222 landing."""
 
 from __future__ import annotations
 
@@ -90,8 +90,8 @@ def catches() -> dict[str, object]:
         raise RuntimeError({name: value for name, value in caught.items() if not value})
     return {
         "canonical_pass": True,
-        "injected_mutation_catches": len(caught),
-        "all_mutants_rejected": True,
+        "payload_contract_mutations": len(caught),
+        "all_contract_mutants_rejected": True,
         "catches": caught,
     }
 

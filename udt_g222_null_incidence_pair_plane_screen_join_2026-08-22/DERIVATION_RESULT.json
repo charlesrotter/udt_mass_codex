@@ -2,11 +2,12 @@
   "status": "PASS",
   "landing": "SUPPLIED_NULL_FAMILY_OWNS_FULL_RANK_TWO_PAIR_PLANE_CONDITIONALLY__CONSERVED_NULL_AREA_DENSITY_COMPLETES_RECIPROCAL_RULER__G188_SCREEN_IS_CANONICAL_NORMAL_CHANNEL__GLOBAL_RULER_COORDINATE_AND_PHYSICAL_PROTOCOL_REMAIN_OPEN",
   "source_count": 10,
-  "symbolic_checks": 38,
+  "symbolic_checks": 43,
   "full_pair_plane_constructed_conditionally": true,
   "completed_ruler_density": "a=-g(J,K)",
   "G221_boundary_chord_recovered": true,
   "G188_screen_joined_as_normal_channel": true,
+  "G188_connection_tidal_intertwining_explicit": true,
   "global_ruler_coordinate_unconditional": false,
   "physical_protocol_selected": false,
   "physical_history_selected": false

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import copy
+import csv
 import hashlib
 import importlib.util
 import json
@@ -43,6 +44,10 @@ REQUIRED = (
     "AUDIT_REPORT.md",
     "EVIDENCE_GATES.md",
     "ADVERSARIAL_REVIEW_REQUEST.md",
+    "FRESH_ADVERSARIAL_REVIEW.md",
+    "REPAIR_PREREGISTRATION.md",
+    "REPAIR_FOLLOWUP_REVIEW_REQUEST.md",
+    "REPAIR_IMPLEMENTATION.md",
     "VERIFICATION_RESULT.json",
 )
 
@@ -61,8 +66,30 @@ def load(name: str, filename: str):
     return module
 
 
-def snapshot() -> dict[str, str]:
-    return {name: hashlib.sha256((HERE / name).read_bytes()).hexdigest() for name in REQUIRED}
+def source_paths() -> tuple[Path, ...]:
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    return tuple((HERE.parent / row["path"]).resolve() for row in rows)
+
+
+def tree_snapshot() -> dict[str, str]:
+    """Hash the complete package tree plus every frozen load-bearing source."""
+    state: dict[str, str] = {}
+    for path in sorted(HERE.rglob("*")):
+        relative = path.relative_to(HERE).as_posix()
+        if path.is_symlink():
+            state[f"package:{relative}"] = f"symlink:{path.readlink()}"
+        elif path.is_dir():
+            state[f"package:{relative}"] = "directory"
+        elif path.is_file():
+            state[f"package:{relative}"] = "file:" + hashlib.sha256(path.read_bytes()).hexdigest()
+        else:
+            state[f"package:{relative}"] = "special"
+    for path in source_paths():
+        require(path.is_file(), f"missing frozen source during snapshot: {path}")
+        relative = path.relative_to(HERE.parent).as_posix()
+        state[f"frozen_source:{relative}"] = "file:" + hashlib.sha256(path.read_bytes()).hexdigest()
+    return state
 
 
 def production_contract(payload: dict[str, object]) -> bool:
@@ -70,8 +97,8 @@ def production_contract(payload: dict[str, object]) -> bool:
         payload.get("status") == "PASS"
         and payload.get("landing") == LANDING
         and payload.get("source_count") == 10
-        and payload.get("check_count") == 38
-        and len(payload.get("checks", {})) == 38
+        and payload.get("check_count") == 43
+        and len(payload.get("checks", {})) == 43
         and all(payload.get("checks", {}).values())
         and payload.get("formulas", {}).get("pair_determinant") == "-a^2"
         and payload.get("formulas", {}).get("completed_ruler_density") == "m=a"
@@ -82,7 +109,17 @@ def production_contract(payload: dict[str, object]) -> bool:
 def main() -> None:
     for name in REQUIRED:
         require((HERE / name).is_file(), f"missing evidence: {name}")
-    before = snapshot()
+    before = tree_snapshot()
+    synthetic_addition = dict(before)
+    synthetic_addition["package:__synthetic_added_file__"] = "file:synthetic"
+    require(before != synthetic_addition, "tree mutation guard failed to detect addition")
+    synthetic_modification = dict(before)
+    first_key = next(iter(synthetic_modification))
+    synthetic_modification[first_key] = synthetic_modification[first_key] + ":modified"
+    require(before != synthetic_modification, "tree mutation guard failed to detect modification")
+    synthetic_deletion = dict(before)
+    synthetic_deletion.pop(first_key)
+    require(before != synthetic_deletion, "tree mutation guard failed to detect deletion")
 
     production = load("g222_production", "derive_null_pair_plane_screen_join.py").derive()
     independent = load("g222_independent", "verify_null_pair_plane_independent.py").verify()
@@ -104,37 +141,40 @@ def main() -> None:
         "status": "PASS",
         "landing": LANDING,
         "source_count": 10,
-        "symbolic_checks": 38,
+        "symbolic_checks": 43,
         "full_pair_plane_constructed_conditionally": True,
         "completed_ruler_density": "a=-g(J,K)",
         "G221_boundary_chord_recovered": True,
         "G188_screen_joined_as_normal_channel": True,
+        "G188_connection_tidal_intertwining_explicit": True,
         "global_ruler_coordinate_unconditional": False,
         "physical_protocol_selected": False,
         "physical_history_selected": False,
     }, "registered derivation result changed")
 
     expected_independent = {
+        "classification": "independent_finite_algebra_replay_not_general_geometric_proof",
         "cases": 12000,
-        "exact_checks": 276000,
+        "finite_algebra_assertions": 396000,
         "screen_isometry_cases": 12000,
-        "affine_reparameterization_cases": 12000,
-        "integrability_boundary_cases": 12000,
+        "connection_intertwining_cases": 12000,
+        "tidal_intertwining_cases": 12000,
+        "flat_ribbon_cases": 12000,
     }
     require(independent == expected_independent, "independent live replay changed")
     require(registered_independent == {
         "status": "PASS",
-        "implementation": "independent_standard_library_fraction_replay",
+        "implementation": "independent_standard_library_fraction_finite_algebra_replay",
         **expected_independent,
     }, "registered independent result changed")
     require(catches["canonical_pass"] is True, "canonical catch payload failed")
-    require(catches["injected_mutation_catches"] == 18, "live catch count changed")
+    require(catches["payload_contract_mutations"] == 18, "live contract mutation count changed")
     require(all(catches["catches"].values()), "injected mutation escaped")
     require(registered_catches == {
         "status": "PASS",
         "canonical_pass": True,
-        "injected_mutation_catches": 18,
-        "all_mutants_rejected": True,
+        "payload_contract_mutations": 18,
+        "all_contract_mutants_rejected": True,
     }, "registered catch result changed")
 
     optimized = subprocess.run(
@@ -151,17 +191,21 @@ def main() -> None:
         "status": "PASS",
         "landing": LANDING,
         "source_count": 10,
-        "symbolic_checks": 38,
+        "symbolic_checks": 43,
         "independent_cases": 12000,
-        "independent_exact_checks": 276000,
+        "finite_algebra_assertions": 396000,
         "screen_isometry_cases": 12000,
-        "affine_reparameterization_cases": 12000,
-        "integrability_boundary_cases": 12000,
-        "injected_mutation_catches": 18,
+        "connection_intertwining_cases": 12000,
+        "tidal_intertwining_cases": 12000,
+        "flat_ribbon_cases": 12000,
+        "payload_contract_mutations": 18,
         "payload_contract_mutation_guard": True,
+        "tree_mutation_guard": True,
         "optimized_mode_rejected": True,
+        "no_write_scope": "complete_package_tree_plus_10_frozen_sources",
         "no_write_replay": True,
-        "fresh_adversarial_review": "PENDING",
+        "fresh_adversarial_review": "ACCEPT_WITH_REPAIRS",
+        "repair_followup_review": "PENDING_AUTHORIZATION",
         "full_pair_plane_constructed_conditionally": True,
         "global_ruler_coordinate_unconditional": False,
         "screen_Jacobi_collapsed": False,
@@ -169,11 +213,11 @@ def main() -> None:
         "physical_history_selected": False,
     }, "verification summary changed")
 
-    after = snapshot()
-    require(before == after, "package replay wrote to evidence files")
+    after = tree_snapshot()
+    require(before == after, "package replay changed the complete in-scope tree")
     print(
-        "PASS: G222 provisional package; 10 sources; 38 symbolic; 276,000 independent exact; "
-        "18 injected catches; payload guard; optimized-mode rejection; no-write; fresh review pending"
+        "PASS: G222 repaired package; 10 sources; 43 symbolic/direct; 396,000 finite-algebra "
+        "assertions; 18 payload-contract mutations; complete-tree no-write; repair review pending"
     )
 
 

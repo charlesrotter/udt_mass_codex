@@ -116,6 +116,32 @@ def derive() -> dict[str, object]:
     Ijshift = sp.simplify(Xv + b_jshift / a * Kv)
     checks["null_shift_screen_independence"] = sp.simplify(Ijshift - IX) == sp.zeros(4, 1)
 
+    # The quotient connection and tidal operator intertwine with normal projection.
+    # A vector in K^perp has no J component in this Gram basis.
+    v_k, v_x, v_y, f_dot = sp.symbols("v_k v_x v_y f_dot", real=True)
+    Vscreen = sp.Matrix([0, v_k, v_x, v_y])
+
+    def normal_projection(v: sp.Matrix) -> sp.Matrix:
+        return sp.simplify(v - inner(v, Jv) / inner(Kv, Jv) * Kv)
+
+    checks["screen_connection_input_in_Kperp"] = sp.simplify(inner(Vscreen, Kv)) == 0
+    checks["screen_connection_K_term_quotiented"] = normal_projection(Kv) == sp.zeros(4, 1)
+    differentiated_lift = Vscreen - f_dot * Kv
+    checks["screen_connection_normal_intertwining"] = sp.simplify(
+        normal_projection(differentiated_lift) - normal_projection(Vscreen)
+    ) == sp.zeros(4, 1)
+
+    t_k, t_x, t_y = sp.symbols("t_k t_x t_y", real=True)
+    tidal_X = sp.Matrix([0, t_k, t_x, t_y])
+    zero = sp.zeros(4, 1)
+    # R_K is zero by antisymmetry in the first two curvature slots.  The only
+    # load-bearing columns here are R_K=0 and R_X=R(X,K)K.
+    tidal_operator = sp.Matrix.hstack(zero, zero, tidal_X, zero)
+    checks["screen_tidal_output_in_Kperp"] = sp.simplify(inner(tidal_X, Kv)) == 0
+    checks["screen_tidal_representative_intertwining"] = sp.simplify(
+        normal_projection(tidal_operator * IX) - normal_projection(tidal_operator * Xv)
+    ) == sp.zeros(4, 1)
+
     a0, a1, y = sp.symbols("a0 a1 y", real=True)
     a_y = a0 + a1 * y
     checks["vertical_density_curl"] = sp.diff(a_y, y) == a1
