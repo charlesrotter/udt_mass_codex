@@ -71,12 +71,13 @@ lapse-only deformation is the line `Omega=ell,q=-ell`, not a third tile. Four-vo
 functions, arbitrary determinant-one spatial remainder, global realization, and `X_max` remain
 unselected.
 
-G212 makes a valued rank-complete pair network the metric state rather than an input needing a
-second selector. G213 closes its local information gate. The determinant-one spatial remainder has
-five modes: one radial/screen grading, two mixing, and two screen-shape. G207/G208 covered the last
-four. A typed completed relation retains `m` as well as `h_s`; `(m,h_s)` exactly recovers the full
-pullback, so the G129 six-pair design retains rank ten. Without `m`, a spatial rescaling family is
-invisible. Network values and physical population remain open; external review is pending.
+G212 makes a valued rank-complete pair network the metric state. G213 closes its local information
+gate: the determinant-one spatial remainder has five modes (`1+2+2`), with G207/G208 covering four.
+A typed completed relation retains `(m,h_s)`, exactly recovering the full pullback and preserving
+G129 rank ten; without `m`, spatial rescaling is invisible. Review found no scientific defect. Its
+dependency/certification repairs pass: 23 exact checks, independent ranks `5/4/5`, 10,000 relation
+cases, 300,004 assertions, and 32 hostile catches. Follow-up is pending; values and population stay
+open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the live families interlock after a metric and query are supplied. A valued rank-complete network
@@ -112,7 +113,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-First obtain fresh adversarial review of G213. If retained, test whether its local
+First close G213's repair-only external follow-up. If accepted, test whether its local
 `h_sigma <-> (m,h_s)` equivalence commutes with overlap, reparameterization, and three-observer
 calibration carry, so G130 global descent transfers without hidden density loss. Do not fit,
 identify `X_max`, select transfer, or use G116/G189 as construction inputs.

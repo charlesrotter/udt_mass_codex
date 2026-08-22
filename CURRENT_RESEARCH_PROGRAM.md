@@ -93,7 +93,8 @@ physical scalar after the working premise. They must not be conflated.
   information-equivalent to its full pullback, so the six-pair design remains rank ten; deleting
   density produces an exact blind spatial-rescaling family.
 
-G206--G213 are verified with caveats; G213 external review is pending. None generates a sector
+G206--G213 are verified with caveats; G213 retained its bounded landing and its repair-only
+external follow-up is pending. None generates a sector
 function, finite-anchor flow, or `X_max`.
 
 Structural package:
@@ -130,6 +131,6 @@ volumes need not be lockstep. G205 closes the supplied static geodesic/causal co
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
 then close the diagonal dependency. G212--G213 remove the redundant second-selector framing and
 close the local completed-network rank bridge while retaining the open valuation problem. Next
-externally review G213, then test tuple compatibility under overlaps and three-observer calibration
+close G213's repair-only follow-up, then test tuple compatibility under overlaps and three-observer calibration
 carry so G130 descent transfers without density loss. Do not fit, identify `X_max`, select transfer,
 or revive historical application inputs.

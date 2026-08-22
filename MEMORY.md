@@ -53,7 +53,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G213 closes local completed-pair rank; external review is pending. Next test whether tuple
+G213 closes local completed-pair rank; its landing survived review and repair-only follow-up is
+pending. Next test whether tuple
 equivalence commutes with overlaps and three-observer carry. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:

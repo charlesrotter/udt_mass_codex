@@ -1570,7 +1570,7 @@ def main() -> None:
     require(
         by_id["G213"]["current_status"].startswith(
             "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_C96A273F__"
-            "EXTERNAL_REVIEW_PENDING"
+            "EXTERNAL_REVIEW_REPAIR_PENDING__NO_BOUNDED_SCIENTIFIC_DEFECT"
         ),
         "G213 bounded grade changed or promoted",
     )
@@ -1618,12 +1618,15 @@ def main() -> None:
     g213_package = json.loads((g213 / "VERIFICATION_RESULT.json").read_text())
     require(g213_package["status"] == "PASS", "G213 package verification failed")
     require(g213_package["no_write_replay"] is True, "G213 no-write replay absent")
-    require(g213_package["symbolic_checks"] == 23, "G213 symbolic count changed")
+    require(g213_package["exact_algebra_checks"] == 23, "G213 exact algebra count changed")
     require(g213_package["independent_cases"] == 10000, "G213 case count changed")
-    require(g213_package["independent_assertions"] == 300001, "G213 assertion count changed")
-    require(g213_package["hostile_catches"] == 28, "G213 hostile count changed")
+    require(g213_package["independent_assertions"] == 300004, "G213 assertion count changed")
+    require(g213_package["hostile_catches"] == 32, "G213 hostile count changed")
     require(g213_package["source_count"] == 12, "G213 source count changed")
     require(g213_package["g129_design_rank"] == 10, "G213 rank changed")
+    require(g213_package["independent_mode_census_rank"] == 5, "G213 mode census rank changed")
+    require(g213_package["independent_g207_g208_union_rank"] == 4, "G213 prior-tile rank changed")
+    require(g213_package["independent_grading_completion_rank"] == 5, "G213 grading completion rank changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],

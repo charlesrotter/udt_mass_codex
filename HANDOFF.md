@@ -42,11 +42,11 @@ their fixed mixture, not a third tile. Cones hear `q`; null affine reach and com
 hear `Omega`. External review required no repair. Split, profile, realization, and asymptotic
 `X_max` remain unselected.
 
-G212 makes a valued rank-complete network the metric state. G213 closes the local information gate:
-the determinant-one spatial remainder has five modes (`1+2+2`), G207/G208 covered four, and radial/
-screen grading is the fifth. A typed completed relation keeps `m`; `(m,h_s)` exactly recovers the
-full pullback, preserving G129 rank ten. Without `m`, spatial scale is invisible. Values and
-physical population remain open; external review is pending.
+G212 makes a valued rank-complete network the metric state. G213 finds five determinant-one spatial
+modes (`1+2+2`), with G207/G208 covering four. The typed `(m,h_s)` recovers the full pullback and
+preserves G129 rank ten; without `m`, spatial scale is invisible. Review found no scientific defect.
+Dependency-free repairs pass with ranks `5/4/5`, 10,000 cases, 300,004 assertions, and 32 hostile
+catches. Follow-up is pending; values and population remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
@@ -70,7 +70,7 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-First obtain fresh G213 adversarial review. If retained, test whether the local tuple equivalence
+First close G213's repair-only external follow-up. If accepted, test whether the local tuple equivalence
 commutes with overlaps, reparameterization, and three-observer calibration carry, transferring G130
 descent without density loss. Do not fit, activate arbitrary coframes, identify `X_max`, select
 transfer, or use G116/G189. The physical carrier/`O(2)`, covariant `lambda`, conformal/common-scale ownership,

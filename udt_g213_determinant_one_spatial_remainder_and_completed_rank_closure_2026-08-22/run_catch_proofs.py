@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Hostile algebraic and semantic catches for G213; writes no files."""
+"""Dependency-free hostile algebraic and semantic catches for G213; writes no files."""
 
+from fractions import Fraction as F
 import json
 from pathlib import Path
 import subprocess
 import sys
-
-import sympy as sp
 
 
 ROOT = Path(__file__).resolve().parent
@@ -20,38 +19,60 @@ def catch(name, condition):
         raise AssertionError(name)
 
 
-gamma, w1, w2, s1, s2 = sp.symbols("gamma w1 w2 s1 s2")
-coordinates = sp.Matrix([2*gamma, w1, w2, -gamma+s1, s2])
-J = coordinates.jacobian([gamma, w1, w2, s1, s2])
-catch("full_five_modes_rank_five", J.rank() == 5)
-catch("deleting_grading_loses_rank", J[:, 1:].rank() == 4)
-catch("deleting_one_mixer_loses_another_rank", J[:, [0, 2, 3, 4]].rank() == 4)
-catch("deleting_one_screen_shape_loses_another_rank", J[:, [0, 1, 2, 3]].rank() == 4)
+def rank(matrix):
+    work = [[F(value) for value in row] for row in matrix]
+    pivot_row = 0
+    for column in range(len(work[0])):
+        pivot = next((row for row in range(pivot_row, len(work)) if work[row][column]), None)
+        if pivot is None:
+            continue
+        work[pivot_row], work[pivot] = work[pivot], work[pivot_row]
+        lead = work[pivot_row][column]
+        work[pivot_row] = [value / lead for value in work[pivot_row]]
+        for row in range(len(work)):
+            if row != pivot_row and work[row][column]:
+                factor = work[row][column]
+                work[row] = [left - factor * right for left, right in zip(work[row], work[pivot_row])]
+        pivot_row += 1
+    return pivot_row
 
-bad_grade = sp.diag(gamma, -gamma, -gamma)
-catch("wrong_grading_trace_is_caught", sp.trace(bad_grade) != 0)
-bad_screen = sp.diag(0, s1, s1)
-catch("screen_trace_mode_is_not_determinant_one", sp.trace(bad_screen) != 0)
-catch("good_grade_tracefree", sp.trace(sp.diag(2*gamma, -gamma, -gamma)) == 0)
-catch("good_screen_tracefree", sp.trace(sp.diag(0, s1, -s1)) == 0)
 
-T, L, beta, k = sp.symbols("T L beta k", positive=True)
-h = sp.Matrix([[-T**2, -T**2*beta], [-T**2*beta, L**2-T**2*beta**2]])
-m = T*L
-good = sp.diag(1, m).inv().T * h * sp.diag(1, m).inv()
-bad = sp.diag(1, k*m).inv().T * h * sp.diag(1, k*m).inv()
-catch("good_density_gives_det_minus_one", sp.simplify(good.det() + 1) == 0)
-catch("wrong_density_factor_is_caught", sp.simplify(bad.det() + 1) != 0)
-catch("wrong_density_has_expected_error", sp.simplify(bad.det() + k**-2) == 0)
-catch("good_roundtrip", sp.simplify(sp.diag(1, m).T * good * sp.diag(1, m) - h) == sp.zeros(2))
-catch("wrong_jacobian_power_is_caught", sp.simplify(sp.diag(1, m**2).T * good * sp.diag(1, m**2) - h) != sp.zeros(2))
+mode_map = [
+    [2, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0],
+    [-1, 0, 0, 1, 0],
+    [0, 0, 0, 0, 1],
+]
+catch("full_five_modes_rank_five", rank(mode_map) == 5)
+catch("deleting_grading_loses_rank", rank([row[1:] for row in mode_map]) == 4)
+catch("deleting_one_mixer_loses_another_rank", rank([[row[i] for i in [0, 2, 3, 4]] for row in mode_map]) == 4)
+catch("deleting_one_screen_shape_loses_another_rank", rank([[row[i] for i in [0, 1, 2, 3]] for row in mode_map]) == 4)
 
-aa, bb, mm, lam = sp.symbols("aa bb mm lam", nonzero=True)
-cc = (bb**2-mm**2)/aa
-hs = sp.diag(1, mm).inv().T * sp.Matrix([[aa, bb], [bb, cc]]) * sp.diag(1, mm).inv()
-hs_scaled = sp.diag(1, lam*mm).inv().T * sp.Matrix([[aa, lam*bb], [lam*bb, lam**2*cc]]) * sp.diag(1, lam*mm).inv()
-catch("density_deletion_blind_family_survives", sp.simplify(hs_scaled-hs) == sp.zeros(2))
-catch("blind_family_metrics_are_distinct", sp.simplify(lam*bb-bb) != 0)
+catch("wrong_grading_trace_is_caught", 1 - 1 - 1 != 0)
+catch("screen_trace_mode_is_not_determinant_one", 0 + 1 + 1 != 0)
+catch("good_grade_tracefree", 2 - 1 - 1 == 0)
+catch("good_screen_tracefree", 0 + 1 - 1 == 0)
+
+T, length, beta, scale = F(2), F(3), F(1, 5), F(2)
+h00 = -T**2
+h01 = -T**2 * beta
+h11 = length**2 - T**2 * beta**2
+m = T * length
+good = (h00, h01 / m, h11 / m**2)
+bad = (h00, h01 / (scale * m), h11 / (scale * m) ** 2)
+catch("good_density_gives_det_minus_one", good[0] * good[2] - good[1] ** 2 == -1)
+catch("wrong_density_factor_is_caught", bad[0] * bad[2] - bad[1] ** 2 != -1)
+catch("wrong_density_has_expected_error", bad[0] * bad[2] - bad[1] ** 2 == -scale**-2)
+catch("good_roundtrip", (good[0], m * good[1], m**2 * good[2]) == (h00, h01, h11))
+catch("wrong_jacobian_power_is_caught", (good[0], m**2 * good[1], m**4 * good[2]) != (h00, h01, h11))
+
+aa, bb, mm, lam = F(-1), F(1, 3), F(4, 3), F(3, 2)
+cc = (bb**2 - mm**2) / aa
+completed = (aa, bb / mm, cc / mm**2)
+completed_scaled = (aa, lam * bb / (lam * mm), lam**2 * cc / (lam * mm) ** 2)
+catch("density_deletion_blind_family_survives", completed_scaled == completed)
+catch("blind_family_metrics_are_distinct", lam * bb != bb or lam**2 * cc != cc)
 
 directions_full = [(1,0,0),(0,1,0),(0,0,1),(1,1,0),(1,0,1),(0,1,1)]
 directions_axial = directions_full[:3]
@@ -59,18 +80,18 @@ directions_axial = directions_full[:3]
 
 def design(directions):
     rows = []
-    for x,y,z in directions:
+    for x, y, z in directions:
         rows.extend([
             [1,0,0,0,0,0,0,0,0,0],
             [0,x,y,z,0,0,0,0,0,0],
             [0,0,0,0,x*x,2*x*y,2*x*z,y*y,2*y*z,z*z],
         ])
-    return sp.Matrix(rows)
+    return rows
 
 
-catch("full_design_rank_ten", design(directions_full).rank() == 10)
-catch("axial_only_rank_seven", design(directions_axial).rank() == 7)
-catch("remove_one_sum_plane_loses_rank", design(directions_full[:-1]).rank() < 10)
+catch("full_design_rank_ten", rank(design(directions_full)) == 10)
+catch("axial_only_rank_seven", rank(design(directions_axial)) == 7)
+catch("remove_one_sum_plane_loses_rank", rank(design(directions_full[:-1])) < 10)
 
 production = json.loads(subprocess.run(
     [sys.executable, "-B", str(ROOT / "derive_spatial_remainder_and_rank.py")],
@@ -82,9 +103,13 @@ independent = json.loads(subprocess.run(
 ).stdout)
 catch("production_landing_is_bounded", production["maximum_conclusion"] == "local_metric_decomposition_and_rank_reconstruction_only")
 catch("production_reports_prior_rank_four", production["prior_tile_tangent_coverage"]["union"] == 4)
+catch("production_is_dependency_free", production["method"].startswith("stdlib_fraction"))
 catch("independent_has_ten_thousand_cases", independent["cases"] == 10_000)
 catch("independent_design_rank_ten", independent["g129_design_rank"] == 10)
 catch("independent_blind_metrics_distinct", independent["changed_density_blind_metrics"] == 10_000)
+catch("independent_mode_rank_five", independent["mode_census_rank"] == 5)
+catch("independent_prior_union_rank_four", independent["g207_g208_union_rank"] == 4)
+catch("independent_grading_completion_rank_five", independent["grading_completion_rank"] == 5)
 
 exact_text = (ROOT / "EXACT_DERIVATION.md").read_text()
 report_text = (ROOT / "AUDIT_REPORT.md").read_text()

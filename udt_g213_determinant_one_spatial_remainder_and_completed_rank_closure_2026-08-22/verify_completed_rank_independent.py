@@ -153,16 +153,35 @@ def rank(matrix):
 design_rank = rank(rows)
 demand(design_rank == 10, "independent G129 design rank")
 
+# Independent exact mode census. Rows are x00,x01,x02,x11,x12 and columns are
+# gamma,w1,w2,s1,s2. The first column is the grading coordinate; columns 1:5 are the
+# G208 mixing and G207 trace-free screen-shape coordinates.
+mode_map = [
+    [2, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0],
+    [-1, 0, 0, 1, 0],
+    [0, 0, 0, 0, 1],
+]
+mode_census_rank = rank(mode_map)
+g207_g208_union_rank = rank([row[1:] for row in mode_map])
+grading_completion_rank = rank([[row[1], row[2], row[3], row[4], row[0]] for row in mode_map])
+demand(mode_census_rank == 5, "independent five-mode census")
+demand(g207_g208_union_rank == 4, "independent G207 G208 union rank")
+demand(grading_completion_rank == 5, "independent grading completion rank")
+
 print(json.dumps({
     "audit": "G213",
     "status": "PASS",
-    "method": "stdlib_fraction_rational_density_construction_and_independent_row_reduction",
+    "method": "stdlib_fraction_rational_density_construction_independent_mode_census_and_row_reduction",
     "seed": SEED,
     "cases": CASES,
     "assertions": assertions,
     "changed_density_blind_metrics": changed_metrics,
     "g129_design_rank": design_rank,
+    "mode_census_rank": mode_census_rank,
+    "g207_g208_union_rank": g207_g208_union_rank,
+    "grading_completion_rank": grading_completion_rank,
     "all_pair_roundtrips_exact": True,
     "density_blind_counterfamily_exact": True,
 }, sort_keys=True))
-
