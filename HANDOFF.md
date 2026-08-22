@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G222 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G223 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -16,32 +16,18 @@ canon. It selects `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T` after the pu
 arbitrary-calibration formula is a control. Physical events, germs, functions, population, and
 global realization remain supplied or `OPEN`.
 
-G215, G216, and G217 establish the scalar comparison clock on supplied data:
-`Phi=-log T`, `delta_AB=-log(d tau_B/d tau_A)`, and
-`d tau_B/d tau_A=exp(-delta_AB)`. Reversal and actual-composite composition are inverse-function and
-chain-rule identities. G218 is cross-examined `PONDER`, not canon or a new derivation: the graph,
-logarithmic slope, and derivative are incidence, depth, and first jet of one query-indexed regular
-clock correspondence. The declared primary static kernel closes modulo clock-origin gauge. Null
-incidence is metric-native causal query data, not a universal positional owner. G219 then factors
-the scalar chain through one positive clock slope and derives exact moving-flat null, A-Fermi/radar,
-and B-Fermi arrows. Their slopes differ away from zero rapidity; inverse, future return, and echo are
-distinct. G220 supplies the first covariant genuinely time-live null-arrow tile. On one unique
-regular future null branch,
-`r=-(sigma_A.U_A)/(sigma_B.U_B)=(k_A.U_A)/(k_B.U_B)=omega_A/omega_B`; in the exact time-only
-triangular base, `C_+=A-N beta` and `r=C_+B/C_+A`. The same correspondence has completed clock leg
-`T_B=r`; this is compatibility, not independent G176 confirmation or a full pair plane. Later return
-uses `C_-`. G221 lifts this supplied null query to a regular complete `2+2` coframe and derives the
-exact frequency chord with `Q`, `s_x`, and `s_t` entering upstream before scalar readout. Passive
-screen covariance, affine cancellation, Hamilton--Jacobi incidence, and exact G220 reduction pass
-fresh external review without repairs. Null remains query-typed. The second pair tangent,
-higher/full rank-two carry, finite screen/Jacobi transport, branch population, and physical history
-remain open at that stage. G222 closes the local second-tangent joint on the same supplied affine
-null family: `K=F_*partial_lambda`, `J=F_*partial_y`,
-`h=[[g(J,J),-a],[-a,0]]`, `a=-g(J,K)>0`, and `det h=-a^2`. G176 conditionally gives `m=a`, the
-boundary identity recovers G221, and the G188 quotient screen is canonically the normal screen with
-connection and tidal transport preserved. Fresh gpt-5.4 review accepted all four preregistered
-repairs. A global scalar ruler coordinate is not automatic: it requires `d(a d lambda)=0`. Null
-protocol, observer/branch population, and physical history remain open.
+G215--G217 derive on supplied data `Phi=-log T`,
+`delta_AB=-log(d tau_B/d tau_A)`, and the positive first jet. G218 retypes incidence, depth, and jet
+as one query-indexed clock correspondence. G219 shows moving null and Fermi/radar protocols differ;
+inverse is not return. G220 derives the covariant supplied-null slope and time-live base law
+`r=C_+B/C_+A`; G221 places `Q,s_x,s_t` upstream in its complete-coframe chord. G222 completes the
+same supplied affine-null plane with `a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`, and G188 as its
+matrix-valued normal screen. Its higher/full global carry remains open. G223 identifies the invariant
+mixed quotient-clock/vertical-ruler pairing, inverse clock weight, and automatic interval-fiber
+integration. `d(a d lambda)=0` is only a chart-specific exact-representative condition. A global
+scalar still needs trivializations, source, period/Cech, and cross-ribbon vertical carry; G216 does
+not supply the last. Fresh gpt-5.4 repair follow-up accepted R1--R3. Null protocol,
+observer/branch population, and physical history remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,
@@ -67,11 +53,12 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-On an atlas of supplied regular null-incidence ribbons, derive how the invariant vertical density
-`vartheta=a[d lambda]` carries across overlaps and middle-observer composition. Classify the exact
-closedness/integrability obstruction to a scalar ruler coordinate while preserving the separate
-matrix screen channel. Keep null query-typed and return distinct from inversion. Do not fit,
-activate protected drafts, identify `X_max`, select transfer/history, or use G116/G189. All other
-open ownership remains controlled by the 206-row exact registry.
+On an actual composable atlas of supplied regular null relations, determine whether the metric and
+shared observer incidence canonically identify vertical ruler lines across distinct ribbons. Test
+the resulting triple-overlap and middle-observer carry against G214/G216 while preserving the
+separate matrix screen channel. Do not revive `d(a d lambda)=0` as an invariant local gate. Keep null
+query-typed and return distinct from inversion. Do not fit, activate protected drafts, identify
+`X_max`, select transfer/history, or use G116/G189. All other open ownership remains controlled by
+the 207-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->

@@ -46,6 +46,7 @@ REQUIRED = (
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_IMPLEMENTATION.md",
     "REPAIR_FOLLOWUP_REVIEW_REQUEST.md",
+    "REPAIR_FOLLOWUP_REVIEW.md",
     "build_review_intake.py",
 )
 
@@ -111,7 +112,7 @@ def validate_payloads(derivation: dict[str, Any], independent: dict[str, Any], f
     require(final["global_scalar_coordinate_unconditional"] is False, "final global scalar")
     require(final["G216_clock_chain_supplies_vertical_gluing"] is False, "final gluing")
     require(final["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "review grade")
-    require(final["repair_followup_review"] == "PENDING_AUTHORIZATION", "repair review grade")
+    require(final["repair_followup_review"] == "REPAIRS_ACCEPTED", "repair review grade")
     require(final["read_only_replay"] is True, "read-only replay")
     require(final["manifest_path_containment"] is True, "manifest containment")
     require(final["independent_fiber_control_nonvacuous"] is True, "fiber control")
@@ -144,7 +145,7 @@ def main() -> None:
     require("Q^*\\otimes V^*" in exact, "mixed pairing proof missing")
     require("d\\rho_j=-dy\\wedge d\\lambda_i" in exact, "closedness control missing")
     require("vertical gluing" in exact, "vertical gluing boundary missing")
-    require("ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING" in audit, "bounded grade missing")
+    require("FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS" in audit, "bounded grade missing")
 
     before = tree_hashes()
     env = dict(os.environ)

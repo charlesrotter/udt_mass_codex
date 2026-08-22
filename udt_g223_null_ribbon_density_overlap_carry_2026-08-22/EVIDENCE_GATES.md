@@ -22,10 +22,12 @@ Date: 2026-08-22
     total remains 361,001.
 13. **R3 intake containment:** absolute and parent-escaping manifest paths rejected; every resolved
     source must remain beneath the verifier root.
-14. **Repair-only follow-up:** pending authorization.
+14. **Repair-only follow-up:** external gpt-5.4 returned `REPAIRS_ACCEPTED`; all three registered
+    repairs and the unchanged bounded landing were independently confirmed in the 34-file sealed
+    read-only intake.
 
 Current grade:
 
 ```text
-ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
+FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS
 ```

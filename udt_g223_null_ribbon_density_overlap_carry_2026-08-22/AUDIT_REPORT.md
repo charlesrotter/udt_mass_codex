@@ -5,7 +5,7 @@ Date: 2026-08-22
 ## Landing
 
 ```text
-ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
+FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS
 ```
 
 The preregistered overlap fork resolved without adding a mechanism. On a supplied regular affine
@@ -42,7 +42,7 @@ generate that vertical isomorphism.
 Fresh external gpt-5.4 review independently accepted the bounded mathematics and required three
 evidence repairs: true check-only replay, a nonvacuous independent fiber-potential control, and
 explicit sealed-manifest path containment. All three are implemented; repair-only follow-up is
-pending.
+accepted. The bounded scientific landing and all ceilings are unchanged.
 
 ## Ceiling
 

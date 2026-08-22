@@ -37,7 +37,8 @@ parent escaping—are rejected.
 ## Grade
 
 ```text
-ACCEPT_WITH_REPAIRS__REPAIR_REVIEW_PENDING
+FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS
 ```
 
-The bounded scientific landing and all premise ceilings are unchanged.
+The sealed repair-only follow-up returned `REPAIRS_ACCEPTED`. The bounded scientific landing and
+all premise ceilings are unchanged.

@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G222. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G223. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -58,10 +58,15 @@ that stage. G222 then uses the same supplied affine null-incidence family itself
 `det h=-a^2`. On the clock-regular stratum, G176 conditionally gives the completed ruler density
 `m=a`; at the boundaries `a=W_A=r_AB W_B`, recovering G221 and `Phi=-log r_AB`. The G188 quotient
 screen is canonically the positive normal screen of this pair plane, with its connection and tidal
-operator explicitly intertwined; its Jacobi response remains matrix-valued. This local theorem
-passed fresh gpt-5.4 review after four accepted evidence repairs. A global scalar ruler coordinate
-still requires `d(a d lambda)=0`, and an exact flat ribbon proves this is not automatic. Null remains
-query-typed; observer/branch population and physical history remain open.
+operator explicitly intertwined; its Jacobi response remains matrix-valued. This theorem passed
+external review after four evidence repairs. G223 identifies the invariant object beneath
+`a d lambda`: the metric-induced nondegenerate pairing of quotient clock and null vertical ruler
+lines. Its clock-trivialized coefficient has inverse clock weight, and every interval fiber has a
+local ruler coordinate. The former `d(a d lambda)=0` condition is only the chart-specific demand for
+an exact full representative with no horizontal term. Global scalar ownership requires compatible
+trivializations, source choices, period/Cech gates, and cross-ribbon vertical carry not supplied by
+G216 clock composition. G223's repaired evidence passed fresh gpt-5.4 follow-up. Null remains query-typed;
+observer/branch population and physical history remain open.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -75,7 +80,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 206-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 207-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -99,10 +104,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-On an atlas of supplied regular null-incidence ribbons, derive the overlap and calibration-carry law
-for the invariant vertical density `vartheta=a[d lambda]`. Classify exactly when it glues only as a
-line-bundle-valued density and when the closedness gate `d vartheta=0` permits a scalar ruler
-coordinate. Test compatibility with G214 cover carry and G216 composition without selecting a
-universal null protocol or collapsing matrix-valued screen transport. Do not fit, identify `X_max`,
-select transfer/history, activate protected drafts, or use G116/G189 as construction inputs.
+Classify cross-ribbon vertical carry on an actual composable atlas of supplied regular null
+relations. Determine whether the primary metric and shared observer incidence canonically identify
+the vertical ruler lines, or whether the data descend only as separately trivialized line bundles.
+Test triple-overlap and middle-observer composition against G214/G216 while preserving G188's
+matrix-valued screen transport. Do not reimpose the chart-specific `d(a d lambda)=0` control as an
+invariant local obstruction; fit, identify `X_max`, select transfer/history, activate protected
+drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

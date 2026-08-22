@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G222",
+            "G166--G223",
             "G197",
             "G215",
             "G216",
@@ -203,6 +203,7 @@ def validate_startup_surface(root: Path) -> None:
             "G220",
             "G221",
             "G222",
+            "G223",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -245,7 +246,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "206-row exact registry",
+            "207-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -301,6 +302,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/",
             "udt_g221_complete_coframe_null_clock_chord_2026-08-22/",
             "udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/",
+            "udt_g223_null_ribbon_density_overlap_carry_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -314,7 +316,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G222",
+            "G166--G223",
             "G197",
             "G198",
             "G199",
@@ -342,6 +344,7 @@ def validate_startup_surface(root: Path) -> None:
             "G220",
             "G221",
             "G222",
+            "G223",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -382,6 +385,7 @@ def validate_startup_surface(root: Path) -> None:
             "G220",
             "G221",
             "G222",
+            "G223",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -417,10 +421,11 @@ def validate_startup_surface(root: Path) -> None:
             "G220",
             "G221",
             "G222",
+            "G223",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "206-row",
+            "207-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -761,9 +766,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 206, "premise registry must contain exactly 206 rows")
+    require(len(rows) == 207, "premise registry must contain exactly 207 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 206, "duplicate premise id")
+    require(len(by_id) == 207, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2513,6 +2518,105 @@ def main() -> None:
         g222_package["landing"]
         == "SUPPLIED_NULL_FAMILY_OWNS_FULL_RANK_TWO_PAIR_PLANE_CONDITIONALLY__CONSERVED_NULL_AREA_DENSITY_COMPLETES_RECIPROCAL_RULER__G188_SCREEN_IS_CANONICAL_NORMAL_CHANNEL__GLOBAL_RULER_COORDINATE_AND_PHYSICAL_PROTOCOL_REMAIN_OPEN",
         "G222 landing changed",
+    )
+    require(
+        by_id["G223"]["current_status"].startswith(
+            "FRESHLY_ADVERSARIALLY_VERIFIED_AFTER_REPAIRS__PREREGISTERED_AT_F48C7D6B__"
+            "REPAIRS_PREREGISTERED_AT_8D502EC5__ONE_SUPPLIED_REGULAR_AFFINE_NULL_RIBBON_ATLAS"
+        ),
+        "G223 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "METRIC_OWNS_NONDEGENERATE_MIXED_PAIRING_A_IN_QSTAR_TENSOR_VSTAR",
+        "CLOCK_TRIVIALIZED_VERTICAL_DENSITY",
+        "LOCAL_INTERVAL_FIBER_COORDINATE_EXISTS_AFTER_CLOCK_TRIVIALIZATION",
+        "D_A_D_LAMBDA_EQUALS_ZERO_RECLASSIFIED_AS_CHART_SPECIFIC_STRONG_EXACT_REPRESENTATIVE_CONDITION",
+        "GLOBAL_SCALAR_REQUIRES_TRIVIALIZATION_SOURCE_PERIOD_AND_CECH_GATES",
+        "G216_INVERSE_CLOCK_WEIGHT_COMPOSES_BUT_DOES_NOT_SUPPLY_CROSS_RIBBON_VERTICAL_GLUING",
+        "361001_EXACT_RATIONAL_ASSERTIONS",
+        "TRUE_READ_ONLY_REPLAY",
+        "FRESH_GPT54_ACCEPT_WITH_REPAIRS_THEN_REPAIRS_ACCEPTED",
+        "NO_UNIVERSAL_NULL_PROTOCOL_CROSS_RIBBON_GLUING_OBSERVER_BRANCH_POPULATION_PHYSICAL_HISTORY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G223"]["current_status"], f"G223 guard absent: {guard}")
+    require(by_id["G223"]["epistemic_label"] == "MIXED", "G223 label changed")
+    require(
+        by_id["G223"]["active_use"]
+        == "ACTIVE_BOUNDED_NULL_RIBBON_MIXED_LINE_PAIRING_INVERSE_CLOCK_WEIGHT_AND_LOCAL_INTERVAL_FIBER_INTEGRATION_ONLY",
+        "G223 active scope widened",
+    )
+    require(
+        "chart-specific closedness of a chosen full representative called the invariant obstruction"
+        in by_id["G223"]["forbidden_regression"],
+        "G223 closedness regrade guard absent",
+    )
+    require(
+        by_id["G223"]["controlling_source"]
+        == "udt_g223_null_ribbon_density_overlap_carry_2026-08-22/AUDIT_REPORT.md",
+        "G223 controlling source changed",
+    )
+    g223 = ROOT / "udt_g223_null_ribbon_density_overlap_carry_2026-08-22"
+    for name in (
+        "MAP.md",
+        "OBSERVATION.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "derive_null_ribbon_density_carry.py",
+        "verify_null_ribbon_density_independent.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CONTROL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "VERIFICATION_RESULT.json",
+        "run_catch_proofs.py",
+        "CATCH_PROOF_RESULT.json",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_IMPLEMENTATION.md",
+        "REPAIR_FOLLOWUP_REVIEW_REQUEST.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
+        "verify_package.py",
+    ):
+        require((g223 / name).is_file(), f"G223 evidence missing: {name}")
+    g223_package = json.loads((g223 / "VERIFICATION_RESULT.json").read_text())
+    require(g223_package["status"] == "PASS", "G223 package verification failed")
+    require(g223_package["source_count"] == 7, "G223 source count changed")
+    require(g223_package["symbolic_checks"] == 21, "G223 symbolic count changed")
+    require(g223_package["independent_cases"] == 20000, "G223 case count changed")
+    require(g223_package["exact_rational_assertions"] == 361001, "G223 assertion count changed")
+    require(g223_package["contract_mutations"] == 14, "G223 contract count changed")
+    require(g223_package["metric_mixed_pairing_canonical"] is True, "G223 mixed pairing absent")
+    require(g223_package["vertical_density_inverse_clock_weight"] is True, "G223 clock weight absent")
+    require(g223_package["oriented_area_form_invariant"] is True, "G223 area descent absent")
+    require(
+        not g223_package["chosen_full_representative_closedness_invariant"],
+        "G223 chart-specific closedness promoted",
+    )
+    require(g223_package["local_interval_fiber_coordinate_exists"] is True, "G223 local coordinate absent")
+    require(not g223_package["global_scalar_coordinate_unconditional"], "G223 global scalar promoted")
+    require(
+        not g223_package["G216_clock_chain_supplies_vertical_gluing"],
+        "G223 vertical gluing falsely derived",
+    )
+    require(g223_package["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "G223 review grade changed")
+    require(g223_package["repair_followup_review"] == "REPAIRS_ACCEPTED", "G223 repair acceptance absent")
+    require(g223_package["read_only_replay"] is True, "G223 read-only replay absent")
+    require(g223_package["manifest_path_containment"] is True, "G223 source containment absent")
+    require(
+        g223_package["independent_fiber_control_nonvacuous"] is True,
+        "G223 fiber control regressed",
+    )
+    require(
+        g223_package["landing"]
+        == "METRIC_OWNS_NONDEGENERATE_CLOCK_RULER_LINE_PAIRING_ON_SUPPLIED_NULL_RIBBON__RULER_DENSITY_HAS_EXACT_INVERSE_CLOCK_OVERLAP_WEIGHT__LOCAL_FIBER_COORDINATE_EXISTS_BUT_GLOBAL_SCALAR_NEEDS_TRIVIALIZATION_AND_CECH_PERIOD_GATES__G216_CLOCK_COMPOSITION_DOES_NOT_BY_ITSELF_SUPPLY_CROSS_RIBBON_VERTICAL_CARRY",
+        "G223 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6737,7 +6841,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G222-extended premise guards; PASS: 206-row premise "
+        "PASS: G223-extended premise guards; PASS: 207-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

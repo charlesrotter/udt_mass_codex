@@ -55,37 +55,25 @@ physical scalar after the working premise. They must not be conflated.
 - G211 closes the diagonal scalar plane at rank two. G212 makes a valued pair network the metric
   state without generating its values. G213 retains spatial rank and density; G214 descends the
   completed tuple across calibrated covers.
-- G215 makes completed `Phi=-log T` a shared calibrated clock scalar; unmatched clocks retain their
-  exact defect, while density, shift, and full carry stay live.
-- G216 gives `delta_AB=-log(d tau_B/d tau_A)` on a supplied germ; common reparameterization cancels
-  and inverse/chain rules give reversal/composition.
-- G217 proves supplied paired events and depth fix the positive first jet
-  `d tau_B/d tau_A=exp(-delta_AB)`, not the event incidence or full germ.
-- G218 is a multi-agent, cross-examined PONDER consensus. It retypes incidence, depth, and positive
-  first jet as the graph, logarithmic slope, and derivative of one query-indexed correspondence.
-  The primary static scalar kernel closes modulo clock-origin gauge. Null incidence is an exact
-  metric-native causal query, not a founded universal positional owner.
-- G219 adversarially verifies the exact moving-flat factorization
-  `r_AB=d tau_B/d tau_A>0`, `delta_AB=-log r_AB`. Null, A-Fermi/radar, and B-Fermi slopes differ;
-  inverse is not return. Each query is metric-evaluated, but none is universally selected.
-- G220 freshly verifies after preregistered repairs that one supplied unique regular future-null
-  query has the covariant clock slope
-  `r_AB=-(sigma_A.U_A)/(sigma_B.U_B)=(k_A.U_A)/(k_B.U_B)=omega_A/omega_B`. On the exact
-  time-only triangular base, lapse/ruler/shift combine upstream in `C_+=A-N beta` and give
-  `r_AB=C_+B/C_+A`. `T_B=r_AB` is a same-correspondence completed clock-leg compatibility identity,
-  not independent G176 confirmation or a full pair plane. Later causal return uses `C_-`; null
-  remains query-typed.
-- G221 freshly verifies without repairs that the same supplied regular null query extends to the
-  complete `2+2` coframe. Screen shape `Q`, longitudinal mixing `s_x`, and time mixing `s_t` enter
-  the exact future frequency chord before `r_AB=W_A/W_B`; passive screen covariance, positive affine
-  cancellation, Hamilton--Jacobi incidence, and the G220 transverse-off reduction are exact. It
-  constructs the clock chord, not the second tangent, full pair plane, or finite screen transport.
+- G215--G217 derive the shared scalar `Phi=-log T`, supplied-germ law
+  `delta_AB=-log(d tau_B/d tau_A)`, and positive first jet—not incidence or the full germ.
+- G218 retypes incidence, depth, and jet as one query-indexed correspondence. G219 verifies the
+  moving-flat scalar factorization; null and Fermi/radar slopes differ, and inverse is not return.
+- G220 derives one supplied regular future-null slope covariantly. Its time-live base combines
+  lapse/ruler/shift in `C_+=A-N beta`, gives `r_AB=C_+B/C_+A`, and keeps later `C_-` return distinct.
+- G221 lifts that query to the complete `2+2` coframe: `Q,s_x,s_t` enter upstream before
+  `r_AB=W_A/W_B`. It constructs the clock chord, not the full plane or finite screen transport.
 - G222, externally accepted after repairs, derives on that supplied affine null family
   `h=[[g(J,J),-a],[-a,0]]`, `a=-g(J,K)>0`, and `det h=-a^2`. It recovers G221; G176 conditionally
-  gives `m=a`; G188 becomes the normal screen with connection/tidal intertwining. Closedness is not
-  automatic. Protocol and history remain unselected.
+  gives `m=a`; G188 becomes the normal screen with connection/tidal intertwining. A chosen full
+  representative need not be closed. Protocol and history remain unselected.
+- G223, externally accepted after three evidence repairs, derives the invariant mixed line pairing
+  beneath the G222 coefficient. Its clock-trivialized density has inverse clock weight and integrates
+  locally on every interval fiber. Closedness of one chosen full one-form representative is
+  chart-specific; global scalar ownership instead requires trivialization, source, period/Cech, and
+  cross-ribbon vertical carry. G216 supplies the clock weight but not that vertical isomorphism.
 
-G206--G222 retain their stated verification caveats. None generates a sector function,
+G206--G223 retain their stated verification caveats. None generates a sector function,
 finite-anchor flow, or `X_max`.
 
 Structural package:
@@ -100,17 +88,20 @@ Current complete-coframe clock chord:
 `udt_g221_complete_coframe_null_clock_chord_2026-08-22/`.
 Current local full null pair plane and screen join:
 `udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`.
+Current null-ribbon density overlap and local-integration classification:
+`udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G222 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G223 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
-- G222 closes one local null pair plane, not density overlap/global exactness or relation population.
+- G222 closes one local null pair plane. G223 closes its invariant local line-pairing and interval-fiber
+  integration, not cross-ribbon vertical gluing, a global scalar, or relation population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -139,7 +130,8 @@ event-pair germ, then close its positive first jet. G218 retypes those scalar da
 correspondence. G219 factors the chain and proves that relative motion separates lawful query-typed
 protocols. G220 derives the covariant null clock arrow and exact time-live lapse/ruler/shift base
 tile, with same-correspondence clock-leg compatibility. G221 supplies the complete-coframe chord;
-G222 supplies its local pair plane and G188 normal-screen join. Next derive overlap carry for
-`vartheta=a[d lambda]` and the closedness obstruction to a scalar ruler coordinate. Keep null
-query-typed and screen transport distinct. Do not fit, identify `X_max`, select transfer/history,
-activate protected drafts, or revive historical inputs.
+G222 supplies its local pair plane and G188 normal-screen join. G223 derives the invariant mixed
+line pairing, inverse clock weight, and local fiber coordinate while regrading full-representative
+closedness as chart-specific. Next classify vertical-line carry across actual composable ribbons.
+Keep null query-typed and screen transport distinct. Do not fit, identify `X_max`, select
+transfer/history, activate protected drafts, or revive historical inputs.

@@ -14,7 +14,7 @@
   "global_scalar_coordinate_unconditional": false,
   "G216_clock_chain_supplies_vertical_gluing": false,
   "fresh_external_review": "ACCEPT_WITH_REPAIRS",
-  "repair_followup_review": "PENDING_AUTHORIZATION",
+  "repair_followup_review": "REPAIRS_ACCEPTED",
   "read_only_replay": true,
   "manifest_path_containment": true,
   "independent_fiber_control_nonvacuous": true,

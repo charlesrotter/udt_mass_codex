@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G222 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G223 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -18,8 +18,10 @@ incidence, rate, and first jet on supplied pairs—not event population or full 
 unifies their correspondence. G219 separates moving-flat protocols; inverse is not return. G220's
 covariant null slope gives `r=C_+B/C_+A` and compatible `T_B=r`, not a universal protocol. G221
 puts `Q,s_x,s_t` upstream in the complete chord. G222 closes its local null pair plane:
-`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`, and G188 as normal screen. A scalar ruler still
-requires `d(a d lambda)=0`; protocol population, global density carry, and history remain open.
+`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`, and G188 as normal screen. G223 identifies the
+invariant mixed clock/ruler line pairing, derives inverse clock weight, and proves local interval
+fiber integration. The old `d(a d lambda)=0` gate is only a chart-specific exact-representative
+condition. Protocol population, cross-ribbon vertical carry, and history remain open.
 G197 excludes P1,
 G116/G189 transfer, fits, `X_max`, and protected payload from the native core. G176 stays provisional
 and G190--G192 IVPs formula-level.
@@ -48,9 +50,10 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-On a supplied null-ribbon atlas, derive the overlap and calibration-carry law for
-`vartheta=a[d lambda]` and classify when closedness permits a scalar ruler coordinate. Test G214/G216
-composition while keeping G188 matrix transport distinct and null query-typed. No fits, `X_max`,
+On an actual composable supplied null-ribbon atlas, classify whether shared observer incidence and
+the metric canonically identify vertical ruler lines across ribbons. Test triple-overlap and
+G214/G216 composition while keeping G188 matrix transport distinct and null query-typed. Do not
+revive chart-specific full-representative closedness as an invariant gate. No fits, `X_max`,
 transfer/history selection, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
