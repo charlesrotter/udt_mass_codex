@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G213 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G214 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -31,10 +31,8 @@ G202/G203/G204 type quiet overlap, unselected descriptors, and a smooth even-are
 that supplied family geodesically complete and globally hyperbolic on declared `R x R3`, with exact
 null-orbit strata. Parameters, maximal extension, and `X_max` remain unselected.
 
-G206 common scale, G207 trace-free screen, G208 mixing, G209 shift, and G210 relative volume enter
-before pair readout. Cones, affine reach, and completed depth hear different combinations; bounded
-survivor/failure and responsive/blind strata coexist. Global proofs remain analytic. No component
-function, history, lapse, or `X_max` is selected.
+G206/G207/G208/G209/G210 classify common scale, screen, mixing, shift, and relative volume before readout. Cones,
+affine reach, and depth hear different combinations; no component history or `X_max` is selected.
 
 G211 proves the local diagonal scalar sector has rank two after the calibrated split and references
 are supplied. Common scale `Omega` and relative spatial scale `q` are an exact basis; lapse-only is
@@ -48,6 +46,10 @@ preserves G129 rank ten; without `m`, spatial scale is invisible. Review found n
 Dependency-free repairs pass with ranks `5/4/5`, 10,000 cases, 300,004 assertions, and 32 hostile
 catches. The sealed repair-only follow-up accepted the repairs without changing the scientific
 landing; values and population remain open.
+
+G214 transfers `(m,h_s)` across positive calibrated overlaps: `m` carries the determinant and
+`h_s` an `SL(2)` cocycle, so G130 descends without density loss. Distinct pair surfaces have no
+automatic product; unmatched incidences need not telescope. Review pending.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
@@ -71,10 +73,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Test whether the local tuple equivalence commutes with overlaps, reparameterization, and
-three-observer calibration carry, transferring G130 descent without density loss. Do not fit,
-activate arbitrary coframes, identify `X_max`, select transfer, or use G116/G189. The physical
-carrier/`O(2)`, covariant `lambda`, conformal/common-scale ownership, bivector area bilinear,
-codimension eleven, and numerical valuation retain registry status.
+First review G214 externally. If retained, test whether metric/query geometry supplies cross-pair
+incidence maps or only compatibility data. Do not fit, activate arbitrary coframes, identify
+`X_max`, select transfer, or use G116/G189. The physical carrier/`O(2)`, covariant `lambda`,
+conformal/common-scale ownership, bivector area bilinear, codimension eleven, and numerical
+valuation retain registry status.
 
 <!-- STARTUP_CURRENT_END -->

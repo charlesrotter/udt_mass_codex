@@ -40,8 +40,8 @@
 | G209 time-space shift | externally verified with caveats | Shift translates cones; outcome strata coexist |
 | G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
-| G212 history bridge | multi-agent verified with caveats | Valued rank-complete network is the state; two clocks invert scalar modes; finite-anchor flow open |
-| G213 completed-rank closure | repairs accepted; landing unchanged | Five modes; density-completed tuples retain rank ten |
+| G212 history bridge | verified with caveats | A valued rank-complete network is the state; finite-anchor flow remains open |
+| G213--G214 rank and descent | repairs accepted; G214 review pending | Five modes; density-completed tuples retain rank ten and descend across calibrated covers |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -66,9 +66,8 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- G199--G205 cover reversal through static completion. G206--G211 classify metric components; G212
-  removes a second selector; G213 closes completed-network rank. Valuation, population,
-  transfer, completion, and realization stay open.
+- G212--G214 close state, rank, and cover descent. Valuation, population, cross-pair incidence,
+  transfer, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -103,7 +102,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 197-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 198-row authority. On conflict, stop.
 
 Run:
 

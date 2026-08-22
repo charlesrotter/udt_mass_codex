@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G213. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G214. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -56,12 +56,10 @@ G202/G203/G204 derive quiet overlap, unselected descriptors, and a smooth even-a
 that supplied family complete and globally hyperbolic on declared `R x R3`, with exact circular-null
 strata. Its global theorems are analytic, not script-mechanized; no history or `X_max` is selected.
 
-G206--G210 classify supplied metric components before pair readout. G206 common scale preserves
-cones but changes affine and completed-depth calibration. G207 trace-free screen preserves volume
-and radial cones. G208 mixing changes the sharp radial width. G209 shift translates the causal
-center. G210 uniquely isolates `sigma=(1/6)log(det K/det H)` and its `exp(-sigma)` width factor.
-Declared survivor, failure, response, and blind strata coexist; global proofs remain analytic.
-None selects a component function, history, or `X_max`.
+G206/G207/G208/G209/G210 classify common scale, trace-free screen, mixing, shift, and spatial volume before
+readout. Cones, affine reach, and depth hear different combinations; survivor/failure and
+blind/responsive strata coexist. None selects functions, history, or `X_max`; global proofs are
+analytic.
 
 G211 closes the remaining local diagonal-scalar dependency after a calibrated `1+3` reference is
 supplied. The sector has rank two: `Omega=ell` and `q=sigma-ell` form an exact basis, while a
@@ -74,10 +72,14 @@ unselected.
 G212 makes a valued rank-complete pair network the metric state. G213 closes its local information
 gate: the determinant-one spatial remainder has five modes (`1+2+2`), with G207/G208 covering four.
 A typed completed relation retains `(m,h_s)`, exactly recovering the full pullback and preserving
-G129 rank ten; without `m`, spatial rescaling is invisible. Review found no scientific defect. Its
-dependency/certification repairs pass: 23 exact checks, independent ranks `5/4/5`, 10,000 relation
-cases, 300,004 assertions, and 32 hostile catches. The sealed repair-only follow-up accepted those
-repairs without changing the bounded landing; values and population stay open.
+G129 rank ten; without `m`, spatial rescaling is invisible. Its dependency-free repairs were
+externally accepted without changing the landing.
+
+G214 proves this tuple descends on supplied positive calibrated pair covers: density `m` carries the
+overlap determinant, `h_s` carries an induced `SL(2)` cocycle, and reconstruction commutes. Pure
+ruler reparameterization is absorbed by `m`. Distinct `AB`, `BC`, and `AC` pair surfaces have no
+automatic metric product; G171's unmatched-incidence defect survives. External review is pending;
+values, cross-pair incidence maps, and population stay open.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the live families interlock after a metric and query are supplied. A valued rank-complete network
@@ -113,8 +115,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Test whether G213's local `h_sigma <-> (m,h_s)` equivalence commutes with overlap,
-reparameterization, and three-observer calibration carry, so G130 global descent transfers without
-hidden density loss. Do not fit, identify `X_max`, select transfer, or use G116/G189 as construction
-inputs.
+First obtain fresh external review of G214. If retained, test whether the primary metric/query
+geometry supplies cross-pair incidence identifications or only a compatibility condition. Do not
+fit, identify `X_max`, select transfer, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

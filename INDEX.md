@@ -17,23 +17,23 @@
 - Completed-pair working premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold deletion and review: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
   `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
-- Complete-coframe pullback: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
+- Coframe pullback: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
 - Branch/equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
-- General matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
+- Matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
 - Parametric frequency/screen evaluator: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`
 - Real-matrix time-live tile: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`
 - Current longitudinal result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
-- Accepted provenance/startup audit:
+- Provenance/startup audit:
   `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
-- Current bidirectional same-metric germ result:
+- Bidirectional same-metric germ:
   `udt_g198_bidirectional_null_germ_map_2026-08-21/`
-- Current primary-metric radial two-direction result:
+- Primary-metric radial two-direction result:
   `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`
-- Current primary-metric nonradial two-direction result:
+- Primary-metric nonradial two-direction result:
   `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
-- Current primary-metric regime-amplitude result:
+- Primary-metric regime amplitude:
   `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`
-- Current quiet-overlap/anchor result: `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`
+- Quiet overlap: `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`
 - Static regularity: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
 - Completion: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`
 - Common-conformal live/nonspherical robustness:
@@ -50,8 +50,8 @@
   `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`
 - History-bridge/relation-state whiteboard:
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
-- Completed-rank/spatial-remainder closure:
-  `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`
+- Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
+  `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
 completed-pair chain. G185--G189 are controls. G190--G198 evaluate chosen families;
@@ -60,7 +60,7 @@ G197 guards provenance and the G190--G192 evidence ceiling; G198 is a chosen-fam
 G199--G200 remove a native chiral switch; G201 permits non-lockstep channels; G202--G204 classify
 quiet alternatives; G205 proves static completion. G206--G210 classify supplied scale, screen,
 mixing, shift, and volume. G211 closes diagonal scalars; G212 reframes the state; G213 closes local
-completed rank while leaving valuation open.
+rank; G214 transfers it across calibrated covers while leaving valuation and incidence open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -68,8 +68,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 197-row registry controls.
+Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 198-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

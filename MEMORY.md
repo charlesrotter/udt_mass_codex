@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G213 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G214 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -18,14 +18,13 @@ are radial-gradient sampling. G198 remains a chosen-family control with an off-r
 G201 shows instruments are not lockstep. G202/G203/G204 type quiet overlap and alternatives. G205
 proves the supplied static family complete and globally hyperbolic. `X_max` remains unselected.
 
-G206 common scale, G207 trace-free screen, G208 mixing, G209 shift, and G210 relative volume enter
-before readout. Cones, affine reach, and completed depth hear different combinations;
-survivor/failure and responsive/blind strata coexist. No component history or `X_max` is selected.
-G211 proves the local diagonal scalar plane has only two modes: common scale and relative spatial
-scale. Lapse-only is their fixed mixture, not a third instrument. Cones hear only the relative mode;
-null affine reach and completed depth also hear common scale. The functions remain unselected.
+G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and volume before readout; no component history or
+`X_max` is selected. G211 proves the diagonal scalar plane has only common and relative spatial
+scale; cones, affine reach, and depth hear different combinations.
 G212 makes the valued network the metric state. G213 counts five determinant-one spatial modes and
 proves typed `(m,h_s)` completed tuples retain G129 rank ten; without `m`, spatial scale is blind.
+G214 proves these tuples descend across positive calibrated overlaps without density loss, while
+distinct pair surfaces retain the G171 unmatched-incidence defect.
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
@@ -53,9 +52,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G213 closes local completed-pair rank; sealed repair-only follow-up accepted them
-without changing its landing. Next test whether tuple equivalence commutes with overlaps and
-three-observer carry. No fits, `X_max`, or transfer inputs.
+G214 closes local-to-cover tuple descent; external review is pending. Then test whether metric/query
+geometry supplies cross-pair incidence maps. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

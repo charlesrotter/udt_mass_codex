@@ -1,8 +1,8 @@
 item	status	claim	limit
-preregistration	PREREGISTERED	bounded overlap and carry audit frozen	outcomes not yet run
-pair_overlap_naturality	OPEN	candidate density-plus-SL2 descent	must pass exact replay
-pure_ruler_reparameterization	OPEN	candidate h_s invariance	must pass exact replay
-orientation_reversal	OPEN	candidate oriented congruence	separate from endpoint reversal
-G130_transfer	OPEN	candidate reconstruction transfer without density loss	compatible supplied cover only
-three_observer_full_tuple_product	NOT_ASSUMED	no native product preregistered	matched incidence sufficient only
+preregistration	PASS	bounded overlap and carry audit frozen at b15d5b4d	before outcomes
+pair_overlap_naturality	DERIVED_CONDITIONAL	density weight plus induced SL2 descent	positive calibrated transitions
+pure_ruler_reparameterization	DERIVED_BOUNDED	h_s invariant because density absorbs ruler Jacobian	regular orientation-preserving ruler chart
+orientation_reversal	DERIVED_BOUNDED	oriented congruence flips shift	separate from endpoint reversal
+G130_transfer	DERIVED_CONDITIONAL	reconstruction transfers without density loss	compatible supplied cover only
+three_observer_full_tuple_product	NOT_DERIVED_NO_NATIVE_PRODUCT	G171 incidence defect retained	matched incidence sufficient only
 physical_population_values	OPEN	outside bounded algebra	no derivation

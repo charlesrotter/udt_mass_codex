@@ -92,10 +92,12 @@ physical scalar after the working premise. They must not be conflated.
   screen shape `2`. G207/G208 covered four. Retaining G176 ruler density makes each completed tuple
   information-equivalent to its full pullback, so the six-pair design remains rank ten; deleting
   density produces an exact blind spatial-rescaling family.
+- G214 proves this equivalence commutes with calibrated overlaps: density carries the
+  determinant and the normalized metric an `SL(2)` cocycle. G130 descent transfers; arbitrary
+  pair composition does not.
 
-G206--G213 are verified with caveats; G213's sealed repair-only external follow-up accepted the
-registered repairs without changing its bounded landing. None generates a sector function,
-finite-anchor flow, or `X_max`.
+G206--G214 verified with caveats; G214 awaits review. None generates a sector
+function, finite-anchor flow, or `X_max`.
 
 Structural package:
 `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`.
@@ -105,8 +107,8 @@ Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G213 close the local
-  scalar basis, spatial mode count, and completed-network information bridge, not valuation.
+- The primary static-spherical/areal slice and profile are supplied. G211--G214 close the local
+  basis, spatial modes, and compatible-cover information bridge, not valuation or pair population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -129,8 +131,7 @@ contractions.
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
-then close the diagonal dependency. G212--G213 remove the redundant second-selector framing and
-close the local completed-network rank bridge while retaining the open valuation problem. Next
-test tuple compatibility under overlaps and three-observer calibration carry so G130 descent
-transfers without density loss. Do not fit, identify `X_max`, select transfer, or revive historical
-application inputs.
+then close the diagonal dependency. G212--G214 remove the second-selector framing and close the
+compatible-cover information bridge while retaining open valuation and incidence ownership. Next
+review G214, then test whether metric/query geometry owns cross-pair incidence maps. Do not fit,
+identify `X_max`, select transfer, or revive historical application inputs.

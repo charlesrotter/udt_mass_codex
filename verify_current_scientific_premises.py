@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G213",
+            "G166--G214",
             "G196",
             "G197",
             "G198",
@@ -181,6 +181,7 @@ def validate_startup_surface(root: Path) -> None:
             "G211",
             "G212",
             "G213",
+            "G214",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -234,7 +235,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "197-row exact registry",
+            "198-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -276,6 +277,8 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g210_g205_spatial_volume_robustness_2026-08-21/",
             "udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/",
             "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/",
+            "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/",
+            "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -286,7 +289,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G213",
+            "G166--G214",
             "G197",
             "G198",
             "G199",
@@ -304,6 +307,7 @@ def validate_startup_surface(root: Path) -> None:
             "G211",
             "G212",
             "G213",
+            "G214",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -335,6 +339,7 @@ def validate_startup_surface(root: Path) -> None:
             "G211",
             "G212",
             "G213",
+            "G214",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -365,10 +370,11 @@ def validate_startup_surface(root: Path) -> None:
             "G211",
             "G212",
             "G213",
+            "G214",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "197-row",
+            "198-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -630,9 +636,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 197, "premise registry must contain exactly 197 rows")
+    require(len(rows) == 198, "premise registry must contain exactly 198 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 197, "duplicate premise id")
+    require(len(by_id) == 198, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1635,6 +1641,69 @@ def main() -> None:
     require(g213_package["independent_mode_census_rank"] == 5, "G213 mode census rank changed")
     require(g213_package["independent_g207_g208_union_rank"] == 4, "G213 prior-tile rank changed")
     require(g213_package["independent_grading_completion_rank"] == 5, "G213 grading completion rank changed")
+    require(
+        by_id["G214"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_B15D5B4D__"
+            "EXTERNAL_REVIEW_PENDING__SUPPLIED_REGULAR_LORENTZ_PAIR_PULLBACK"
+        ),
+        "G214 bounded grade changed or promoted",
+    )
+    for guard in (
+        "G176_WORKING_COMPLETION",
+        "POSITIVE_OVERLAP_DENSITY_WEIGHT_MJ_EQUALS_DET_P_MI",
+        "INDUCED_C_EQUALS_JI_P_JJINVERSE_HAS_DETERMINANT_ONE",
+        "HSJ_EQUALS_CTRANSPOSE_HSI_C",
+        "RECONSTRUCTION_SQUARE_COMMUTES",
+        "TRIPLE_OVERLAP_C_COCYCLE_EXACT",
+        "PURE_RULER_REPARAMETERIZATION_ABSORBED_BY_DENSITY",
+        "GENERAL_RECHART_EQUIVARIANT_NOT_INVARIANT",
+        "G130_COMPATIBLE_COVER_RECONSTRUCTION_TRANSFERS_WITHOUT_DENSITY_LOSS",
+        "DISTINCT_PAIR_SURFACES_HAVE_NO_NATIVE_METRIC_PRODUCT",
+        "G171_UNMATCHED_INCIDENCE_DEFECT_SURVIVES",
+        "NO_PHYSICAL_GERM_POPULATION_NETWORK_VALUE_GENERATION_CROSS_PAIR_INCIDENCE_OWNER_HISTORY_FLOW_XMAX_TRANSFER_SOURCE_ACTION_MATTER_MASS_OR_OBSERVATION",
+    ):
+        require(guard in by_id["G214"]["current_status"], f"G214 guard absent: {guard}")
+    require(by_id["G214"]["epistemic_label"] == "MIXED", "G214 label changed")
+    require(
+        by_id["G214"]["active_use"]
+        == "ACTIVE_BOUNDED_REGULAR_CALIBRATED_PAIR_CHART_DESCENT_AND_THREE_OBSERVER_TYPE_BOUNDARY_ONLY",
+        "G214 active scope widened",
+    )
+    require(
+        by_id["G214"]["controlling_source"]
+        == "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/AUDIT_REPORT.md",
+        "G214 controlling source changed",
+    )
+    g214 = ROOT / "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+    ):
+        require((g214 / name).is_file(), f"G214 evidence missing: {name}")
+    g214_package = json.loads((g214 / "VERIFICATION_RESULT.json").read_text())
+    require(g214_package["status"] == "PASS", "G214 package verification failed")
+    require(g214_package["no_write_replay"] is True, "G214 no-write replay absent")
+    require(g214_package["core_files_hashed"] == 16, "G214 core file count changed")
+    require(g214_package["exact_checks"] == 23, "G214 exact check count changed")
+    require(g214_package["independent_cases"] == 10000, "G214 case count changed")
+    require(g214_package["independent_assertions"] == 200000, "G214 assertion count changed")
+    require(g214_package["hostile_catches"] == 10, "G214 hostile count changed")
+    require(g214_package["source_count"] == 14, "G214 source count changed")
+    require(
+        g214_package["landing"]
+        == "TYPED_COMPLETED_TUPLE_DESCENDS__G130_TRANSFERS__ARBITRARY_THREE_PAIR_PRODUCT_NOT_DERIVED",
+        "G214 landing changed",
+    )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5851,7 +5920,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G213-extended premise guards; PASS: 197-row premise "
+        "PASS: G214-extended premise guards; PASS: 198-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
