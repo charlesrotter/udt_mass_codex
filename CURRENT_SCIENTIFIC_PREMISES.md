@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Shared-clock scalar network | `DERIVED_CONDITIONAL`, independently verified | Completed `Phi=-log T`; common-clock cycles telescope | Clock ownership; full-germ carry; fresh review next |
+| Shared-clock scalar network | externally verified with caveats | Completed `Phi=-log T`; common-clock cycles telescope | Clock ownership; full-germ carry |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -42,7 +42,7 @@
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
 | G212 history bridge | verified with caveats | A valued rank-complete network is the state; finite-anchor flow remains open |
 | G213--G214 rank and descent | externally accepted with caveats | Five modes; density-completed tuples retain rank ten and descend across calibrated covers |
-| G215 shared-clock scalar incidence | independently verified; fresh review next | Completed scalar descends to the calibrated clock; G171 raw mismatch regraded |
+| G215 shared-clock scalar incidence | externally verified with caveats | Completed scalar descends to the calibrated clock; G171 raw mismatch regraded |
 
 None selects completion or `X_max`.
 ## Scale and limits

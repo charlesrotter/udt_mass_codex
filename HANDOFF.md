@@ -45,7 +45,7 @@ Externally reviewed G214 transfers `(m,h_s)` across positive calibrated overlaps
 determinant and `h_s` an `SL(2)` cocycle, so G130 descends without density loss. Distinct pair
 surfaces have no automatic product; unmatched incidences need not telescope.
 
-G215, independently verified with fresh review next, shows completed `Phi=-log T` depends
+Externally reviewed G215 shows completed `Phi=-log T` depends
 only on the calibrated clock tangent. Incident pairs sharing that exact clock germ therefore share
 one scalar endpoint potential and telescope. G171's raw angular mismatch is an uncompleted control:
 after G176 completion its scalar agrees, while density and shift remain live. Independently
@@ -73,8 +73,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Freshly review G215, then test ownership of the shared calibrated observer clock without collapsing
-full pair carry. Do not fit, activate arbitrary coframes, identify `X_max`, select transfer, or use G116/G189. The
+Test ownership of the shared calibrated observer clock without collapsing full pair carry. Do not
+fit, activate arbitrary coframes, identify `X_max`, select transfer, or use G116/G189. The
 physical carrier/`O(2)`, covariant `lambda`,
 conformal/common-scale ownership, bivector area bilinear, codimension eleven, and numerical
 valuation retain registry status.

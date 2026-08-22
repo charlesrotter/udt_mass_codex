@@ -11,7 +11,7 @@ __NETWORK_SCALAR_CYCLES_CLOSE_WITHOUT_A_FULL_PAIR_METRIC_PRODUCT
 __INDEPENDENT_CLOCK_RECALIBRATION_IS_THE_REMAINING_EXACT_SCALAR_DEFECT
 ```
 
-Status: `DERIVED_CONDITIONAL__PREREGISTERED__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.
+Status: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL__NO_SCIENTIFIC_REPAIR`.
 
 ## Result
 
@@ -44,6 +44,7 @@ metric and immersion-germ carry.
 - Source provenance: 14/14 frozen G168/G170/G171/G174/G176/G182/G214 files matched.
 - One independent witness-generator defect was caught before banking and repaired without changing
   the theorem or production equations.
+- Fresh external `gpt-5.4` review accepted the bounded landing with no scientific repair.
 
 ## Four gates
 

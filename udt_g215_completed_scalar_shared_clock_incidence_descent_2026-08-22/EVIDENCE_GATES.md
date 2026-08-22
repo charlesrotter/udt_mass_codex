@@ -13,7 +13,7 @@
 | Hostile controls | PASS | 13/13 registered catches |
 | Source provenance | PASS | 14/14 hashes |
 | Aggregate replay | PASS | 17 core files unchanged; no-write execution |
-| External review | PENDING | fresh adversarial review not yet run |
+| External review | PASS WITH CAVEATS | fresh `gpt-5.4`; no scientific repair |
 
-The banked status cannot exceed
-`DERIVED_CONDITIONAL__PREREGISTERED__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.
+The banked status is
+`EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__DERIVED_CONDITIONAL__NO_SCIENTIFIC_REPAIR`.

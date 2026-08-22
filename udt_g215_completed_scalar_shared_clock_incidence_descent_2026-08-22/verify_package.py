@@ -17,6 +17,9 @@ EXCLUDED = {
     "VERIFICATION_RESULT.json",
     "REVIEW_SCOPE.json",
     "REVIEW_MANIFEST.tsv",
+    "EXTERNAL_REVIEW_RAW.md",
+    "EXTERNAL_REVIEW_ADJUDICATION.md",
+    "TRANSMISSION_RECORD.md",
 }
 CORE = sorted(path for path in ROOT.iterdir() if path.is_file() and path.name not in EXCLUDED)
 

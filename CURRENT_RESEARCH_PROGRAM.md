@@ -90,8 +90,8 @@ physical scalar after the working premise. They must not be conflated.
   retain the exact defect. G171's raw mismatch is regraded; density, shift, and full pair carry stay
   live.
 
-G206--G214 are externally verified with caveats; G215 is independently verified and awaiting fresh
-review. None generates a sector function, finite-anchor flow, or `X_max`.
+G206--G215 are externally verified with caveats. None generates a sector function, finite-anchor
+flow, or `X_max`.
 
 Structural package:
 `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`.
@@ -127,6 +127,6 @@ The primary metric excludes the chosen chiral coupling; reversed germs use one l
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
 then close the diagonal dependency. G212--G215 remove the second-scalar-selector framing and close
-shared-clock scalar incidence while retaining open valuation and full-germ ownership. Next obtain
-fresh G215 review, then audit whether observer typing owns the shared clock. Do not fit, identify
+shared-clock scalar incidence while retaining open valuation and full-germ ownership. Next audit
+whether observer typing owns the shared clock. Do not fit, identify
 `X_max`, select transfer, or revive historical application inputs.

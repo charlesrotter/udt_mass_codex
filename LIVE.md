@@ -77,7 +77,7 @@ density `m` carries the overlap determinant, `h_s` carries an induced `SL(2)` co
 reconstruction commutes. Distinct `AB`, `BC`, and `AC` pair surfaces have no automatic metric
 product.
 
-G215 independently derives, with fresh review next, that completed `Phi=-log T` belongs to the
+Externally reviewed G215 derives that completed `Phi=-log T` belongs to the
 calibrated clock tangent. Shared-clock scalar cycles telescope. G171 regrades to a raw control:
 completed scalars agree while density and shift differ. Recalibrated edge clocks retain the defect;
 full pair metrics still have no native product.
@@ -117,7 +117,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Freshly adversarially review G215. If retained, test whether the physical observer definition owns
-the shared calibrated clock germ while keeping full pair-metric and immersion carry separate. Do
+Test whether the physical observer definition owns the shared calibrated clock germ while keeping
+full pair-metric and immersion carry separate. Do
 not fit, identify `X_max`, select transfer, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

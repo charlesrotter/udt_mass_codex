@@ -54,8 +54,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G215 is independently verified and awaits fresh review. If retained, test whether observer typing
-owns the shared clock without collapsing full pair carry. No fits, `X_max`, or transfer inputs.
+G215 is externally verified with caveats. Next test whether observer typing owns the shared clock
+without collapsing full pair carry. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

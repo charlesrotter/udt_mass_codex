@@ -1719,8 +1719,8 @@ def main() -> None:
     )
     require(
         by_id["G215"]["current_status"].startswith(
-            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_F7FAA1C2__"
-            "EXTERNAL_REVIEW_PENDING__G176_WORKING_COMPLETION__SUPPLIED_REGULAR_COMPLETED_PAIR_GERMS"
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_F7FAA1C2__"
+            "FRESH_GPT54_REVIEW_ACCEPTED_NO_SCIENTIFIC_REPAIR__G176_WORKING_COMPLETION__SUPPLIED_REGULAR_COMPLETED_PAIR_GERMS"
         ),
         "G215 bounded grade changed or promoted",
     )
@@ -1765,8 +1765,16 @@ def main() -> None:
         "STATUS_LEDGER.tsv",
         "ADVERSARIAL_REVIEW_REQUEST.md",
         "PREREGISTRATION_EXECUTION_NOTE.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_ADJUDICATION.md",
+        "TRANSMISSION_RECORD.md",
     ):
         require((g215 / name).is_file(), f"G215 evidence missing: {name}")
+    require(
+        "G215_VERIFIED_WITH_CAVEATS__SHARED_CLOCK_SCALAR_DESCENT_CLOSES__FULL_GERM_CARRY_REMAINS_OPEN"
+        in (g215 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G215 external-review acceptance absent",
+    )
     g215_package = json.loads((g215 / "VERIFICATION_RESULT.json").read_text())
     require(g215_package["status"] == "PASS", "G215 package verification failed")
     require(g215_package["no_write_replay"] is True, "G215 no-write replay absent")
