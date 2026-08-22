@@ -1,0 +1,7 @@
+{
+  "assertions": 290000,
+  "method": "dependency_free_fraction_pair_potentials_tomography_and_space_form_substitution",
+  "seed": 21220260822,
+  "status": "PASS",
+  "trials": 10000
+}

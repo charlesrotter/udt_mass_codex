@@ -1,0 +1,10 @@
+{
+  "core_no_write_replay": true,
+  "independent_assertions": 290000,
+  "independent_trials": 10000,
+  "required_repairs": 0,
+  "source_manifest_rows": 6,
+  "status": "PASS",
+  "symbolic_checks": 29,
+  "whiteboard_roles": 3
+}
