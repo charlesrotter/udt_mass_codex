@@ -1,0 +1,7 @@
+{
+  "assertion_count": 100001,
+  "distinct_exact_cases": 10000,
+  "method": "independent Fraction SPD factorization, translated cones, pair clocks, and radial Hamiltonian",
+  "production_imported": false,
+  "status": "PASS"
+}

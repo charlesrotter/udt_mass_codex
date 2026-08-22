@@ -1,0 +1,29 @@
+{
+  "assertion_count": 21,
+  "assertions": [
+    "adm_factorization",
+    "shift_map_det_one",
+    "metric_det_shift_independent",
+    "exact_inverse",
+    "dt_is_temporal",
+    "lorentz_inertia_from_congruence",
+    "shifted_cone_exact",
+    "cone_center_is_minus_b",
+    "g205_radial_factor",
+    "g205_radial_lower_root",
+    "g205_radial_upper_root",
+    "g208_radial_width",
+    "radial_hamiltonian_identity",
+    "radial_null_first_integral",
+    "stationary_energy_sign",
+    "live_energy_derivative",
+    "completed_pair_pullback",
+    "completed_clock_norm",
+    "coordinate_static_clock_hears_shift",
+    "eulerian_clock_is_shift_blind",
+    "generic_clock_has_linear_cross_terms"
+  ],
+  "completed_phi": "-log(T)=-1/2*log(T^2)",
+  "landing": "FULL_LOCAL_TIMESPACE_SHIFT_IS_AN_EXACT_INDEPENDENT_METRIC_SECTOR__IT_TRANSLATES_THE_CAUSAL_ELLIPSOID_WITHOUT_CHANGING_SIGNATURE_OR_AMBIENT_DETERMINANT__GROWTH_CONTROLLED_AND_UNIFORMLY_SUBLUMINAL_G205_CLASSES_SURVIVE__A_SMOOTH_BOUNDED_COORDINATE_SHIFT_CAN_PRESERVE_GLOBAL_HYPERBOLICITY_WHILE_DESTROYING_NULL_COMPLETENESS__COMPLETED_PAIRS_HEAR_SHIFT_BEFORE_READOUT__NO_PHYSICAL_SHIFT_HISTORY_OR_XMAX_SELECTION",
+  "mechanization_scope": "finite-dimensional algebra and radial Hamiltonian identity only"
+}

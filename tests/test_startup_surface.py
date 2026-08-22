@@ -141,7 +141,7 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
         check=False,
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    assert "PASS: 192-row premise registry" in result.stdout
+    assert "PASS: 193-row premise registry" in result.stdout
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
@@ -185,7 +185,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G208", "G196", "G197", "G198", "G199", "G200", "G201", "G202", "G203", "G204", "G205", "G206", "G207", "G208"))
+@pytest.mark.parametrize("token", ("G166--G209", "G196", "G197", "G198", "G199", "G200", "G201", "G202", "G203", "G204", "G205", "G206", "G207", "G208", "G209"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")

@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G208",
+            "G166--G209",
             "G196",
             "G197",
             "G198",
@@ -176,6 +176,7 @@ def validate_startup_surface(root: Path) -> None:
             "G206",
             "G207",
             "G208",
+            "G209",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -229,7 +230,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "192-row exact registry",
+            "193-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -267,6 +268,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/",
             "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/",
             "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/",
+            "udt_g209_g205_timespace_shift_robustness_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -277,7 +279,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G208",
+            "G166--G209",
             "G197",
             "G198",
             "G199",
@@ -290,6 +292,7 @@ def validate_startup_surface(root: Path) -> None:
             "G206",
             "G207",
             "G208",
+            "G209",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -316,6 +319,7 @@ def validate_startup_surface(root: Path) -> None:
             "G206",
             "G207",
             "G208",
+            "G209",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -341,10 +345,11 @@ def validate_startup_surface(root: Path) -> None:
             "G206",
             "G207",
             "G208",
+            "G209",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "192-row",
+            "193-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -606,9 +611,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 192, "premise registry must contain exactly 192 rows")
+    require(len(rows) == 193, "premise registry must contain exactly 193 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 192, "duplicate premise id")
+    require(len(by_id) == 193, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1275,6 +1280,79 @@ def main() -> None:
         g208_package["external_adversarial_review"] == "VERIFIED_WITH_CAVEATS",
         "G208 external review absent",
     )
+    require(
+        by_id["G209"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_B5C40CC2__"
+            "FRESH_EXTERNAL_GPT54_VERIFIED_WITH_CAVEATS_NO_MATHEMATICAL_REFUTATION__"
+            "REPAIR_FOLLOWUP_GPT54_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED"
+        ),
+        "G209 bounded grade changed or promoted",
+    )
+    for guard in (
+        "FULL_THREE_COMPONENT_TIMESPACE_SHIFT_FOR_ARBITRARY_POSITIVE_SUPPLIED_HA",
+        "EXACT_ADM_CONGRUENCE",
+        "LORENTZ_SIGNATURE_AMBIENT_DETERMINANT_AND_TEMPORAL_DT_PRESERVED",
+        "CAUSAL_VELOCITY_ELLIPSOID_TRANSLATED_BY_MINUS_B_WITH_HA_CONTROLLED_SHAPE",
+        "GROWTH_CONTROLLED_CLASS_GLOBALLY_HYPERBOLIC",
+        "UNIFORMLY_METRIC_SUBLUMINAL_SMOOTH_STATIC_CLASS_NULL_COMPLETE",
+        "CONTROLLED_COMPACT_TIME_LIVE_CLASS_NULL_COMPLETE",
+        "SMOOTH_CENTER_REGULAR_BOUNDED_COORDINATE_SHIFT_WITNESS_GLOBALLY_HYPERBOLIC_BUT_NONRADIAL_NULL_INCOMPLETE",
+        "COMPLETED_PAIR_PULLBACK_HEARS_SHIFT_BEFORE_READOUT",
+        "EULERIAN_NORMAL_GERM_BLIND_STRATUM",
+        "ANALYTIC_GLOBAL_THEOREMS_EXTERNALLY_REVIEWED_NOT_MECHANIZED",
+        "NO_TIMELIKE_SPACELIKE_COMPLETENESS_ARBITRARY_LIVE_SHIFT_TRACECHANGING_PHYSICAL_B_HISTORY_XMAX",
+    ):
+        require(guard in by_id["G209"]["current_status"], f"G209 guard absent: {guard}")
+    require(by_id["G209"]["epistemic_label"] == "MIXED", "G209 label changed")
+    require(
+        by_id["G209"]["active_use"]
+        == "ACTIVE_BOUNDED_FULL_LOCAL_TIMESPACE_SHIFT_AND_DECLARED_G205_GLOBAL_SUBCLASS_CLASSIFICATION_ONLY",
+        "G209 active scope widened",
+    )
+    require(
+        by_id["G209"]["controlling_source"]
+        == "udt_g209_g205_timespace_shift_robustness_2026-08-21/AUDIT_REPORT.md",
+        "G209 controlling source changed",
+    )
+    g209 = ROOT / "udt_g209_g205_timespace_shift_robustness_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "BOUNDARY_DIAGNOSTICS.json",
+        "CATCH_PROOF_RESULT.json",
+        "SOURCE_PROVENANCE_VERIFICATION.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "REVIEW_REPAIR_PREREGISTRATION.md",
+        "TRANSMISSION_RECORD.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g209 / name).is_file(), f"G209 evidence missing: {name}")
+    g209_package = json.loads((g209 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g209_package["status"] == "PASS", "G209 package verification failed")
+    require(g209_package["core_no_write_replay"] is True, "G209 no-write replay absent")
+    require(g209_package["production_assertions"] == 21, "G209 production count changed")
+    require(g209_package["independent_assertions"] == 100001, "G209 assertion count changed")
+    require(g209_package["independent_cases"] == 10000, "G209 case count changed")
+    require(g209_package["diagnostic_precision_digits"] == 120, "G209 diagnostic precision changed")
+    require(g209_package["mutation_catches"] == 25, "G209 hostile count changed")
+    require(g209_package["provenance_manifest_rows"] == 8, "G209 source count changed")
+    require(
+        g209_package["first_external_review"] == "VERIFIED_WITH_CAVEATS",
+        "G209 first external review absent",
+    )
+    require(
+        g209_package["repair_followup"]
+        == "G209_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+        "G209 repair follow-up absent",
+    )
+    require(g209_package["scientific_landing_changed"] is False, "G209 landing changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5491,7 +5569,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G208-extended premise guards; PASS: 192-row premise "
+        "PASS: G209-extended premise guards; PASS: 193-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

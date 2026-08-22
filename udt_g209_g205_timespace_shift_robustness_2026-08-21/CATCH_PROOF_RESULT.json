@@ -1,0 +1,32 @@
+{
+  "catch_count": 25,
+  "catches": [
+    "all_three_components_guard",
+    "bounded_shift_does_not_imply_null_complete",
+    "cone_center_is_minus_b",
+    "cone_center_not_plus_b",
+    "coordinate_bounded_not_metric_subluminal",
+    "determinant_not_shift_dependent",
+    "dropping_shift_square_changes_gtt",
+    "dt_covector_stays_temporal",
+    "energy_shift_term_sign_matters",
+    "failure_witness_uses_nonzero_L",
+    "g205_width_is_f_not_sqrt_f",
+    "generic_pair_cross_term_survives",
+    "global_theorem_is_bounded",
+    "hamiltonian_cross_term_required",
+    "live_energy_not_conserved_generically",
+    "pair_coordinate_clock_hears_shift",
+    "pair_eulerian_clock_is_controlled_blind_stratum",
+    "physical_shift_not_selected",
+    "radial_first_integral_exact",
+    "shift_changes_center_not_width",
+    "timelike_spacelike_not_inferred",
+    "tracechange_dependency_guard",
+    "wrong_cross_sign_changes_metric",
+    "wrong_inverse_spatial_block_fails",
+    "xmax_not_input_or_output"
+  ],
+  "scope": "local algebra, causal center/width, global-vs-affine distinction, pair strata, provenance, and X_max guards",
+  "status": "PASS"
+}

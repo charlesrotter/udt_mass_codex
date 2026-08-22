@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G208. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G209. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -71,6 +71,12 @@ static mixer destroys global hyperbolicity and null completeness. Completed pair
 before readout. External review retained the analytic, non-mechanized theorems. `S`, `C`, physical
 combined histories, shift, trace-changing modes, and `X_max` remain unselected or open.
 
+G209 activates full time-space shift. Signature, determinant, and temporal `dt` survive while the
+causal ellipsoid translates. Three controlled G205 subclasses survive; a smooth bounded-coordinate
+counterclass is globally hyperbolic but null incomplete. Pairs hear shift before readout except on
+lawful blind strata. External review accepted the repaired proof; no shift history or `X_max` is
+selected.
+
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
 not select physical functions, directions, branches, transfer, a complete history, or numerical
@@ -109,10 +115,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G208 closes the first pure radial-screen mixing robustness tile and proves that common scale
-composes with already supplied shape. Next MAP and PONDER the smallest metric-led time-space shift
-tile, unless an exact dependency proof shows that a trace-changing spatial mode must precede it.
-Preregister one causal, affine, and completed-pair classification only. Do not fit, identify any
-limit with `X_max`, select transfer, derive a metric by template, or use G116/G189 as construction
-inputs.
+G209 closes the full local time-space shift tile and bounded G205 global shift subclasses. Next MAP
+and PONDER the smallest trace-changing positive spatial-mode tile, including its causal, affine,
+and completed-pair consequences. Do not fit, identify any limit with `X_max`, select transfer,
+derive a metric by template, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

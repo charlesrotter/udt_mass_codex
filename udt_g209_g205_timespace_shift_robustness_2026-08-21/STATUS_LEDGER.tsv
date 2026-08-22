@@ -1,0 +1,15 @@
+object	status	meaning
+full_local_shift_block	DERIVED_CONDITIONAL	exact for arbitrary supplied positive h_A and f
+signature_and_ambient_determinant	DERIVED_CONDITIONAL	independent of supplied shift b
+temporal_dt	DERIVED_CONDITIONAL	g_inverse(dt,dt)=-1/f
+shifted_causal_ellipsoid	DERIVED_CONDITIONAL	shape from h_A and center at -b
+growth_controlled_Cauchy_theorem	DERIVED_CONDITIONAL	sufficient stated global criterion
+uniformly_subluminal_static_G205	DERIVED_CONDITIONAL	globally hyperbolic and null complete
+compact_live_G205	DERIVED_CONDITIONAL	null complete under stated magnitude and derivative bounds
+bounded_coordinate_radial_witness	CHOSE_CONTROL	smooth globally hyperbolic null-incomplete counterclass
+completed_pair_shift_response	DERIVED_CONDITIONAL	shift enters before T and Phi readout
+eulerian_shift_blind_stratum	DERIVED_CONDITIONAL	controlled observer-germ special case
+shift_b	CHOSE_EXTENSION_CLASS	no direction amplitude profile or time law selected
+physical_shift_history	OPEN	no history equation or selector derived
+timelike_spacelike_completeness	OPEN	outside this tile
+Xmax	OPEN	neither input nor output

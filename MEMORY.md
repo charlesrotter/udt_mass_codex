@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G208 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G209 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -28,11 +28,14 @@ G208 adds radial-screen mixing. Volume survives but radial causality changes; co
 and a smooth failure class coexist. Common scale composes with shape, and pairs hear mixing before
 readout. External review retained the analytic, non-mechanized global proofs. No mixer is selected.
 
+G209 adds full shift: the causal ellipsoid translates while signature, determinant, and temporal
+`dt` survive. Controlled subclasses and a globally-hyperbolic/null-incomplete counterclass coexist.
+Pairs hear shift before readout; no shift history is selected.
+
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
 
-Germs/functions, global realization, transfer, completion, and `X_max` remain
-open. `INDEX.md` routes exact evidence; earlier chronology is archived.
+Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
 
 ## Observational pointer
 
@@ -57,10 +60,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G208 closes the first pure radial-screen mixing robustness tile. Next map the smallest metric-led
-time-space shift tile unless an exact dependency proof puts a trace-changing spatial mode first.
-Preregister one tile only. No fits, `X_max` identification, transfer, templates, or G116/G189
-inputs.
+G209 closes local shift and bounded G205 subclasses. Next map the smallest trace-changing positive
+spatial mode. No fits, `X_max`, transfer, templates, or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

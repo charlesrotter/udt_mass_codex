@@ -1,0 +1,15 @@
+{
+  "checked_in_live_repository_context": 8,
+  "package_replay_dependency": false,
+  "paths": [
+    "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/AUDIT_REPORT.md",
+    "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/EXACT_DERIVATION.md",
+    "udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/EXACT_DERIVATION.md",
+    "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/EXACT_DERIVATION.md",
+    "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/AUDIT_REPORT.md",
+    "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/EXACT_DERIVATION.md",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+    "udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/AUDIT_REPORT.md"
+  ],
+  "status": "PASS"
+}

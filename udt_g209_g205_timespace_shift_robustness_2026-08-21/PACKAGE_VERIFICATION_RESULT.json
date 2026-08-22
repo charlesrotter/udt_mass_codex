@@ -1,0 +1,13 @@
+{
+  "core_no_write_replay": true,
+  "diagnostic_precision_digits": 120,
+  "first_external_review": "VERIFIED_WITH_CAVEATS",
+  "independent_assertions": 100001,
+  "independent_cases": 10000,
+  "mutation_catches": 25,
+  "production_assertions": 21,
+  "provenance_manifest_rows": 8,
+  "repair_followup": "G209_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+  "scientific_landing_changed": false,
+  "status": "PASS"
+}

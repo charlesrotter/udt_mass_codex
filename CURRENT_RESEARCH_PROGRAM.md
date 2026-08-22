@@ -89,9 +89,15 @@ physical scalar after the working premise. They must not be conflated.
   class. Completed pairs hear radial/generic mixing internally. External review retained the
   analytic theorems with caveats; finite scripts independently certify only the local algebra and
   boundary anchors. No physical `C`, history, or `X_max` is selected.
+- G209 activates full time-space shift `b` on positive supplied `h_A`. The ADM congruence preserves
+  signature, determinant, and temporal `dt` while translating the causal ellipsoid. Controlled
+  G205 subclasses survive; a smooth bounded-coordinate counterclass is globally hyperbolic but
+  null incomplete. Pairs hear shift before readout. External review accepted the repaired analytic
+  proof; finite scripts do not mechanize every global theorem. No `b`, history, or `X_max` is
+  selected.
 
 Current structural package:
-`udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`.
+`udt_g209_g205_timespace_shift_robustness_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -120,12 +126,7 @@ numerical IVP legs are formula-level regression evidence; G193--G196 contain the
 contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
-volumes need not be lockstep. Quiet overlap, its descriptors, and the bounded smooth-center/outer
-asymptotic alternatives are exact; G205 closes their static-spherical geodesic/causal completion.
-G206 closes the common-conformal live/nonspherical robustness tile without selecting `Omega`.
-G207 closes the pure trace-free angular-screen tile without selecting `S`. G208 closes the first
-pure radial-screen mixing tile, including the altered causal bound, survivor/failure classes,
-completed-pair response, and exact scale/shape composition, without selecting `C`. Their values
-remain unselected. Next MAP and PONDER one smallest metric-led time-space shift tile unless a trace-
-changing spatial mode is proven to precede it. Do not fit, invent channel coefficients, identify
-any limit with `X_max`, select transfer, or use G116/G189 as inputs.
+volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G209
+classify common scale, trace-free screen, radial-screen mixing, and full shift without selecting
+their functions. Next MAP and PONDER the smallest trace-changing positive spatial mode. Do not fit,
+invent coefficients, identify `X_max`, select transfer, or use G116/G189 as inputs.

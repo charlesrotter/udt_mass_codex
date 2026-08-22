@@ -27,16 +27,17 @@
 | G181--G184 strata/equivalence | conditional; externally accepted | Endpoints, carry, branches, and typed quotient; equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
 | G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
-| G199 primary radial two-direction audit | independently verified with caveats | Both primary radial null germs are reversal-related with the same frequency/screen law; no native chiral radial split |
+| G199 primary radial two-direction audit | independently verified with caveats | Reversed radial germs share one frequency/screen law; no native chiral split |
 | G200 primary nonradial two-direction audit | independently verified with caveats | Same local two-mode tide; finite directional difference begins through opposite radial-gradient sampling |
 | G201 primary phi-jet amplitude audit | independently verified with caveats | Reciprocal magnitude is two-sided; angular modes depend on radial jets and need not share one envelope |
 | G202 quiet-overlap/profile-anchor audit | independently verified with caveats | Quietness is a zero logarithmic second jet; infinite profiles survive and anchors calibrate rather than derive |
 | G203 quiet-parameter ownership audit | independently verified with caveats | Order, orbit area, and log-areal steepness are invariant descriptors whose values remain unselected |
-| G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the monotone log extension; an infinite even-areal trough/asymptote family survives without parameter selection |
-| G205 geodesic/causal completion audit | externally verified with caveats | The supplied family is fully geodesically complete and globally hyperbolic; exact null-trapping strata do not select parameters or `X_max` |
+| G204 global regularity/asymptotic audit | independently verified with caveats | Smooth center excludes the log extension; infinite alternatives survive |
+| G205 geodesic/causal completion audit | externally verified with caveats | Supplied family is complete and globally hyperbolic; null strata select nothing |
 | G206 conformal live extension | externally verified with caveats | Causality survives; affine weight controls null completeness; completed `Phi` hears pair scale; no selection |
 | G207 trace-free screen extension | externally verified with caveats | Volume, radial causality, and global hyperbolicity survive; static complete and live incomplete null strata coexist; pairs hear screen content |
 | G208 radial-screen mixing | externally verified with caveats | Volume survives; radial causality changes; survivor/failure classes coexist |
+| G209 time-space shift | externally verified with caveats | Shift translates the causal ellipsoid; bounded survivor/failure classes coexist |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -66,9 +67,9 @@ None selects completion or `X_max`.
   non-lockstep channels; G202--G204 classify quiet alternatives.
   G205 proves their declared static completion. G206 classifies common-conformal causal/null-affine
   response; G207 classifies trace-free screen causal, static-null, live-failure, and pair strata;
-  G208 classifies pure radial-screen mixing and exact scale/shape composition. Population,
-  transfer, channel ownership, time-space shift, trace-changing modes, maximal extension, and
-  global realization stay open.
+  G208 classifies radial-screen mixing; G209 classifies full local shift and bounded G205 global
+  subclasses. Population, transfer, physical histories, trace-changing modes, and global
+  realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -103,7 +104,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 192-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 193-row authority. On conflict, stop.
 
 Run:
 
