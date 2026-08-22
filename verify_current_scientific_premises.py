@@ -1844,12 +1844,14 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
         "EVIDENCE_GATES.md",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "build_review_intake.py",
     ):
         require((g216 / name).is_file(), f"G216 evidence missing: {name}")
     g216_package = json.loads((g216 / "VERIFICATION_RESULT.json").read_text())
     require(g216_package["status"] == "PASS", "G216 package verification failed")
     require(g216_package["no_write_replay"] is True, "G216 no-write replay absent")
-    require(g216_package["core_files_hashed"] == 15, "G216 core file count changed")
+    require(g216_package["core_files_hashed"] == 17, "G216 core file count changed")
     require(g216_package["exact_checks"] == 36, "G216 exact check count changed")
     require(g216_package["independent_cases"] == 10000, "G216 case count changed")
     require(g216_package["independent_assertions"] == 190000, "G216 assertion count changed")
