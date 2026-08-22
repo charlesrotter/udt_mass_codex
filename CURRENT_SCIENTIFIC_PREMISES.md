@@ -44,7 +44,8 @@
 | G213--G214 rank and descent | externally accepted | Five modes; completed tuples retain rank ten and descend |
 | G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
 | G216 comparison-clock rate ownership | externally verified with caveats | Unit proper clock is locally trivial; nonzero edge depth is the proper-time pairing-rate derivative |
-| G217 founded-depth first-jet ownership | externally verified with caveats | Supplied paired events and depth uniquely fix the positive proper-clock first jet; incidence and full germ remain open |
+| G217 founded-depth first-jet ownership | externally verified | Supplied paired events and depth fix the positive proper-clock first jet; incidence and full germ remain open |
+| G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and first jet are one query-indexed correspondence; protocol ownership remains open |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -69,7 +70,7 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- G212--G217 close state, rank, cover descent, shared-clock incidence, the proper-clock rate
+- G212--G218 close or retype state, rank, cover descent, shared-clock incidence, the proper-clock rate
   interpretation, and its positive first jet on supplied paired events/depth. Valuation,
   zero-jet event/depth population, higher/full-germ incidence, transfer, and completion
   stay open.
@@ -106,7 +107,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 201-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 202-row authority. On conflict, stop.
 
 Run:
 

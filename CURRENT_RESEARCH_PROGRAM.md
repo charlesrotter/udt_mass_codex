@@ -44,8 +44,7 @@ physical scalar after the working premise. They must not be conflated.
   family gluing, endpoint/carry strata, and typed realization equivalence.
 - G185--G189 are radial/application and flux-interface controls; P1 and radiative transfer remain
   historical or imported.
-- G190--G198 evaluate nested **chosen** time-live coframes and supplied germs. G196 gives scoped
-  longitudinal descent; G198 supplies the opposite-germ control. Their asymmetry remains
+- G190--G198 evaluate **chosen** time-live coframes and supplied germs; their asymmetry remains
   chosen-family-scoped.
 - G199 audits the primary metric: both radial null germs share frequency, parallel screen, zero
   radial optical tide, and `D=lambda I`. G198 remains a chosen-family control.
@@ -72,40 +71,36 @@ physical scalar after the working premise. They must not be conflated.
 - G212 reconciles rank ten with the completed kernel: a valued pair network can be the metric state,
   but identities do not generate its values. Two generic clocks reconstruct `Omega,q`; all-germ
   two-jet isotropy is not an owned UDT premise.
-- G213 proves the determinant-one spatial remainder has five modes: grading `1`, mixing `2`, and
-  screen shape `2`. G207/G208 covered four. Retaining G176 ruler density makes each completed tuple
-  information-equivalent to its full pullback, so the six-pair design remains rank ten; deleting
-  density produces an exact blind spatial-rescaling family.
+- G213 retains five determinant-one spatial modes and rank ten when G176 ruler density is kept;
+  deleting density creates an exact blind rescaling family.
 - G214 proves this equivalence commutes with calibrated overlaps: density carries the
   determinant and the normalized metric an `SL(2)` cocycle. G130 descent transfers; arbitrary
   pair composition does not.
-- G215 proves conditionally that completed `Phi=-log T` descends to the calibrated observer clock
-  germ. Common-clock incidence networks telescope, while independently recalibrated edge clocks
-  retain the exact defect. G171's raw mismatch is regraded; density, shift, and full pair carry stay
-  live.
-- G216 identifies the exact clock type. The metric-unit proper-time tangent has `T=1,Phi=0`; on one
-  supplied event-pair germ the nonzero invariant is
-  `delta_AB=-log(d tau_B/d tau_A)`. Common pair reparameterization cancels, and reversal/composition
-  are inverse-function/chain-rule identities. No extra pair-clock coefficient remains after a
-  calibrated pair map is supplied; physical event-pair germ ownership remains open.
-- G217 proves the corresponding first-jet ownership theorem. Once future-timelike source and target
-  events and ordered depth are supplied, the unique positive proper-clock linear map is
-  `d tau_B/d tau_A=exp(-delta_AB)`. Reversal and actual-composite composition are exact. Depth does
-  not select the zero-jet event incidence, and a first jet does not select higher jets or a full
-  smooth germ.
+- G215 makes completed `Phi=-log T` a shared calibrated clock scalar; unmatched clocks retain their
+  exact defect, while density, shift, and full carry stay live.
+- G216 gives `delta_AB=-log(d tau_B/d tau_A)` on a supplied germ; common reparameterization cancels
+  and inverse/chain rules give reversal/composition.
+- G217 proves supplied paired events and depth fix the positive first jet
+  `d tau_B/d tau_A=exp(-delta_AB)`, not the event incidence or full germ.
+- G218 is a multi-agent, cross-examined PONDER consensus. It retypes incidence, depth, and positive
+  first jet as the graph, logarithmic slope, and derivative of one query-indexed correspondence.
+  The primary static scalar kernel closes modulo clock-origin gauge. Null incidence is an exact
+  metric-native causal query, not a founded universal positional owner.
 
 G206--G217 are externally verified with caveats. G216 and G217 required no scientific repair. None generates
 a sector function, finite-anchor flow, or `X_max`.
 
 Structural package:
 `udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`.
+Current PONDER frame:
+`udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G217 close the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G218 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
@@ -133,7 +128,7 @@ volumes need not be lockstep. G205 closes the supplied static geodesic/causal co
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
 then close the diagonal dependency. G212--G217 remove the second-scalar-selector framing, close
 shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
-event-pair germ, then close its positive first jet on supplied paired events and depth. Next map
-whether any zero-jet event incidence and depth population is metric/founding-owned or remains
-supplied. Keep higher/full-germ carry separate. Do not
+event-pair germ, then close its positive first jet. G218 retypes those scalar data as one clock
+correspondence. Next factor the chain through that arrow and discriminate null/Fermi/radar protocols
+on one moving-flat control before using a time-live witness. Keep higher/full-germ carry separate. Do not
 fit, identify `X_max`, select transfer, or revive historical application inputs.

@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G217. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G218. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -71,15 +71,13 @@ determinant-one spatial modes plus typed `(m,h_s)` preserve G129 rank ten; delet
 
 Externally reviewed G214 descends typed `(m,h_s)` across calibrated covers but gives distinct pair
 surfaces no metric product. G215 makes completed `Phi=-log T` a shared comparison-clock scalar;
-G171 becomes a raw/recalibrated control while density and shift remain live. Externally reviewed G216
-sharpens `T`: a unit proper clock gives `T=1,Phi=0`, while a supplied event-pair germ gives
-`delta_AB=-log(d tau_B/d tau_A)`. Common reparameterization cancels; reversal/composition are
-inverse-function/chain-rule identities. No extra clock coefficient remains after the pair map is
-supplied. Externally reviewed G217 closes the positive scalar first jet one step further: once the
-two future-timelike paired events and ordered depth are supplied, their unique positive proper-clock
-linear map is `d tau_B/d tau_A=exp(-delta_AB)`. Depth does not choose the paired events, and this
-first jet does not choose higher jets or the full smooth germ. Physical event/depth population and
-full carry remain open.
+G171 is a raw/recalibrated control while density and shift remain live. Externally reviewed G216
+gives `delta_AB=-log(d tau_B/d tau_A)` on a supplied germ; G217 proves supplied paired events and
+depth fix its positive first jet. G218 multi-agent PONDER retypes incidence, depth, and first jet as
+one query-indexed clock correspondence. On the declared static congruence the scalar kernel closes
+modulo clock-origin gauge. Null incidence is a metric-native causal query, not yet the universal
+positional owner. Outside static symmetry, protocol/embedded realization and the higher/full germ
+remain open.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs. No second
 scalar selector or pair-clock coefficient is needed; valuation, population, full-germ carry,
@@ -114,9 +112,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Map the upstream zero-jet joint: determine whether the founding/metric semantics owns any physical
-observer-event incidence and ordered-depth population, or whether these remain supplied relation
-data. Keep that question separate from the already closed positive scalar first jet and from the
-downstream higher/full germ. Do not fit, identify `X_max`, select transfer, or use G116/G189 as
-construction inputs.
+Run the preregistered clock-arrow factorization/protocol audit: factor G166--G217 scalar formulas
+through one correspondence, then compare null, Fermi, and radar arrows on the same moving-flat
+observers. Do not use a time-live witness until this typing gate passes; do not fit, identify
+`X_max`, select transfer, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

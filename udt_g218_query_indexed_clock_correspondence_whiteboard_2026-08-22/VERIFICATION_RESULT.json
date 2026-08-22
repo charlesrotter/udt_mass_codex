@@ -1,0 +1,1 @@
+{"audit": "G218", "checks": {"debate_rows": true, "next_audit_tokens": true, "report_tokens": true, "source_count": true, "source_hashes": true, "status_rows": true}, "debate_rows": 10, "landing": "QUERY_INDEXED_CLOCK_CORRESPONDENCE_PONDER_CONSENSUS", "source_count": 9, "status": "PASS", "status_rows": 7}

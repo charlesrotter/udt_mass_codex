@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G217",
+            "G166--G218",
             "G196",
             "G197",
             "G198",
@@ -185,6 +185,7 @@ def validate_startup_surface(root: Path) -> None:
             "G215",
             "G216",
             "G217",
+            "G218",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -238,7 +239,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "201-row exact registry",
+            "202-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -285,6 +286,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/",
             "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/",
             "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/",
+            "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -295,7 +297,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G217",
+            "G166--G218",
             "G197",
             "G198",
             "G199",
@@ -318,6 +320,7 @@ def validate_startup_surface(root: Path) -> None:
             "G216",
             "G216",
             "G217",
+            "G218",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -353,6 +356,7 @@ def validate_startup_surface(root: Path) -> None:
             "G215",
             "G216",
             "G217",
+            "G218",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -388,7 +392,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "201-row",
+            "202-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -650,9 +654,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 201, "premise registry must contain exactly 201 rows")
+    require(len(rows) == 202, "premise registry must contain exactly 202 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 201, "duplicate premise id")
+    require(len(by_id) == 202, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1970,6 +1974,63 @@ def main() -> None:
         == "FOUNDED_DEPTH_COMPLETES_POSITIVE_FIRST_JET_ON_SUPPLIED_PAIRED_EVENTS__EVENT_SELECTION_AND_FULL_GERM_REMAIN_OPEN",
         "G217 landing changed",
     )
+    require(
+        by_id["G218"]["current_status"].startswith(
+            "PONDER_CONSENSUS__MULTI_AGENT_CROSS_EXAMINED__NOT_DERIVATION_OR_CANON__"
+            "QUERY_INDEXED_REGULAR_CORRESPONDENCE_UNIFIES_EVENT_INCIDENCE_DEPTH_AND_POSITIVE_CLOCK_JET"
+        ),
+        "G218 ponder grade changed or promoted",
+    )
+    for guard in (
+        "DELTA_IS_MINUS_LOG_PROPER_CLOCK_SLOPE",
+        "SUPPLIED_OR_INDEPENDENTLY_METRIC_OWNED_SMOOTH_DEPTH_FIELD_PLUS_DECLARED_OBSERVER_CURVES_AND_ONE_EVENT_ANCHOR_INTEGRATES_LOCAL_ARROW",
+        "CLOCK_ORIGIN_COORDINATES_ARE_GAUGE_BUT_ORDERED_EMBEDDED_EVENT_PAIR_AND_BRANCH_ARE_NOT_ERASED",
+        "PRIMARY_STATIC_DECLARED_CONGRUENCE_GIVES_DELTA_AB_EQUALS_PHI_B_MINUS_PHI_A_MODULO_CLOCK_ORIGIN",
+        "NULL_INCIDENCE_IS_EXACT_METRIC_NATIVE_CAUSAL_QUERY",
+        "OBSERVATIONAL_STATUS_REQUIRES_EMISSION_RECEPTION_BRANCH_AND_CLOCK_READOUT",
+        "NULL_NOT_FOUNDATIONALLY_PRIVILEGED_AS_UNIVERSAL_POSITIONAL_RELATION",
+        "MOVING_FLAT_NULL_AND_FERMI_SLOPES_DIFFER",
+        "FUTURE_CAUSAL_RETURN_NOT_MATHEMATICAL_INVERSE",
+        "HIGHER_FULL_GERM_ORCHESTRA_QUERY_POPULATION_HISTORY_XMAX_AND_DOWNSTREAM_PHYSICS_OPEN",
+    ):
+        require(guard in by_id["G218"]["current_status"], f"G218 guard absent: {guard}")
+    require(by_id["G218"]["epistemic_label"] == "MIXED", "G218 label changed")
+    require(
+        "PONDER called derivation theorem canon" in by_id["G218"]["forbidden_regression"],
+        "G218 anti-promotion guard absent",
+    )
+    require(
+        by_id["G218"]["active_use"]
+        == "ACTIVE_PONDER_FRAME_FOR_CLOCK_ARROW_FACTORIZATION_AND_PROTOCOL_DISCRIMINATION_ONLY",
+        "G218 active scope widened",
+    )
+    require(
+        by_id["G218"]["controlling_source"]
+        == "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/WHITEBOARD_REPORT.md",
+        "G218 controlling source changed",
+    )
+    g218 = ROOT / "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22"
+    for name in (
+        "MAP.md",
+        "WHITEBOARD_REPORT.md",
+        "DEBATE_LEDGER.tsv",
+        "NEXT_AUDIT_PREREGISTRATION.md",
+        "STATUS_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "VERIFICATION_RESULT.json",
+        "verify_whiteboard.py",
+    ):
+        require((g218 / name).is_file(), f"G218 evidence missing: {name}")
+    g218_package = json.loads((g218 / "VERIFICATION_RESULT.json").read_text())
+    require(g218_package["status"] == "PASS", "G218 whiteboard verification failed")
+    require(g218_package["source_count"] == 9, "G218 source count changed")
+    require(g218_package["debate_rows"] == 10, "G218 debate count changed")
+    require(g218_package["status_rows"] == 7, "G218 status count changed")
+    require(
+        g218_package["landing"] == "QUERY_INDEXED_CLOCK_CORRESPONDENCE_PONDER_CONSENSUS",
+        "G218 landing changed",
+    )
+    require(all(g218_package["checks"].values()), "G218 integrity check failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -6193,7 +6254,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G217-extended premise guards; PASS: 201-row premise "
+        "PASS: G218-extended premise guards; PASS: 202-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
