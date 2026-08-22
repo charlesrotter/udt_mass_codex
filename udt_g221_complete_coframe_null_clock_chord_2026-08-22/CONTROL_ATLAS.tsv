@@ -1,0 +1,13 @@
+control	active_channels	result	status
+full_sector_exact_witness	N_A_beta_Q_s_t_s_x_p_x_p_z	D=24; P2=263/72; Pi=43/42; q2=1076/1125; R2=5292629/220500; W=0.8278650981426416...	DERIVED_EXACT_ALGEBRA_WITH_DISPLAY_DECIMAL_ONLY
+transverse_off_right_branch	p_z=0;s_t=0;s_x=0;p_x>0	W=p_x/(A-N_beta); r_AB=Cplus_B/Cplus_A	EXACT_G220_RECOVERY
+screen_shape_active	p_z_nonzero;Q_nonorthogonal	q2=p_z^T_(Q^T_Q)^-1_p_z	SCREEN_ENTERS_UPSTREAM
+longitudinal_mixing_active	s_x_nonzero	Pi=p_x-s_x^T_p_z	MIXING_ENTERS_UPSTREAM
+time_mixing_active	s_t_nonzero	P2=N2-s_t^T_H_s_t; p_t_contains_s_t^T_p_z	MIXING_ENTERS_OBSERVER_CLOCK_AND_NULL_ENERGY
+future_branch	epsilon=-1	p0hat<0;W>0	UNIQUE_ON_DECLARED_STRATUM
+past_branch	epsilon=+1	p0hat>0;W<0	RETAINED_AS_OPPOSITE_TIME_ORIENTATION_NOT_FUTURE_QUERY
+screen_coordinate_change	Q'=QK;S'=K^-1S;p_z'=K^T_p_z	P2_Pi_q2_p_t_W_invariant	PASSIVE_COVARIANCE_EXACT
+positive_affine_rescaling	p_to_lambda_p;lambda>0	W_to_lambda_W;r_AB_invariant	EXACT
+D_zero	A2=N2_beta2	null_energy_chart_formula_singular	EXCLUDED_BOUNDARY
+P_zero	N2=s_t^T_H_s_t	fixed_coordinate_observer_null	EXCLUDED_BOUNDARY
+screen_Jacobi	metric_derivative_and_curvature_channels	separate_G188_transport_not_scalarized	OMITTED_SEPARATE_CHANNEL

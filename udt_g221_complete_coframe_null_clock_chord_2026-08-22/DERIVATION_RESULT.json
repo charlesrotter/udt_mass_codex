@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "landing": "COMPLETE_COFRAME_NULL_CLOCK_CHORD_DERIVED_CONDITIONALLY__SCREEN_AND_MIXING_ENTER_UPSTREAM__G220_RECOVERED__NULL_AND_FULL_PAIR_REMAIN_QUERY_TYPED",
+  "manifest_files": 12,
+  "symbolic_checks": 21,
+  "all_checks_pass": true,
+  "future_branch_unique_on_declared_stratum": true,
+  "screen_and_mixing_upstream": true,
+  "G220_recovered": true,
+  "completed_clock_leg_compatibility_only": true,
+  "null_protocol_universally_selected": false,
+  "full_pair_plane_constructed": false,
+  "screen_Jacobi_collapsed_into_scalar": false
+}

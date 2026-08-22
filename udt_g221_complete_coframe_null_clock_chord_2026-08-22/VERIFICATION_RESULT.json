@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "landing": "COMPLETE_COFRAME_NULL_CLOCK_CHORD_DERIVED_CONDITIONALLY__SCREEN_AND_MIXING_ENTER_UPSTREAM__G220_RECOVERED__NULL_AND_FULL_PAIR_REMAIN_QUERY_TYPED",
+  "source_count": 12,
+  "symbolic_checks": 21,
+  "independent_cases": 12000,
+  "independent_exact_checks": 154000,
+  "full_sector_cases": 10000,
+  "screen_covariance_cases": 10000,
+  "future_past_branch_cases": 10000,
+  "G220_reduction_pairs": 2000,
+  "injected_mutation_catches": 18,
+  "payload_contract_mutation_guard": true,
+  "optimized_mode_rejected": true,
+  "no_write_replay": true,
+  "fresh_adversarial_review": "PENDING",
+  "completed_clock_leg_compatibility_only": true,
+  "physical_protocol_selected": false,
+  "full_pair_plane_constructed": false,
+  "screen_Jacobi_collapsed": false
+}

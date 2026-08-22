@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cases": 12000,
+  "full_sector_cases": 10000,
+  "screen_covariance_cases": 10000,
+  "future_past_branch_cases": 10000,
+  "G220_reduction_pairs": 2000,
+  "exact_checks": 154000,
+  "implementation": "independent_standard_library_fraction_and_quadratic_surd_replay"
+}
