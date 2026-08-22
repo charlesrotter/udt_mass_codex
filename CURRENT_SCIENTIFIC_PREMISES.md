@@ -38,6 +38,7 @@
 | G207 trace-free screen extension | externally verified with caveats | Volume, radial causality, and global hyperbolicity survive; static complete and live incomplete null strata coexist; pairs hear screen content |
 | G208 radial-screen mixing | externally verified with caveats | Volume survives; radial causality changes; survivor/failure classes coexist |
 | G209 time-space shift | externally verified with caveats | Shift translates the causal ellipsoid; bounded survivor/failure classes coexist |
+| G210 spatial-volume scalar | externally verified with caveats | Unique relative determinant mode rescales causal width; bounded survivor/failure classes coexist |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -63,13 +64,10 @@ None selects completion or `X_max`.
 - The bounded carrier/transport chain types `O(2)`, `lambda`, first jets, scale, score, transport,
   and `X_max`; the conformal-family result is an envelope control rather than a physical
   multiplicity theorem.
-- The current chain tests the supplied-pair kernel. G199--G201 establish reversal, sampling, and
-  non-lockstep channels; G202--G204 classify quiet alternatives.
-  G205 proves their declared static completion. G206 classifies common-conformal causal/null-affine
-  response; G207 classifies trace-free screen causal, static-null, live-failure, and pair strata;
-  G208 classifies radial-screen mixing; G209 classifies full local shift and bounded G205 global
-  subclasses. Population, transfer, physical histories, trace-changing modes, and global
-  realization stay open.
+- The supplied-pair chain uses G199--G204 for reversal, sampling, non-lockstep channels, and quiet
+  alternatives; G205 supplies static completion. G206--G210 classify common scale, trace-free
+  screen, mixing, shift, and spatial volume with survivor/failure strata. None
+  selects functions or histories; population, transfer, lapse, and global realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -104,7 +102,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 193-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 194-row authority. On conflict, stop.
 
 Run:
 

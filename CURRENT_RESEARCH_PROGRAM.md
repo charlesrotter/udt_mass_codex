@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-21
+Date: 2026-08-22
 
 `LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
@@ -70,41 +70,34 @@ physical scalar after the working premise. They must not be conflated.
 - G205 proves that exact supplied family fully geodesically complete and globally hyperbolic on
   declared `R x R3`. Its null circular orbits have exact subcritical/critical/supercritical strata.
   These are analytic theorems; finite replays independently certify only the algebraic core.
-- G206 turns on arbitrary smooth time-live/nonspherical common scale through
-  `g_tilde=exp(2 Omega)g205`. It preserves causal order and global hyperbolicity, while null
-  completeness is exactly the weighted-affine-integral condition. Completed-pair depth changes by
-  minus the pair pullback of `Omega`. The class is an externally verified conditional evaluator,
-  not a physical `Omega` or `X_max` selection.
-- G207 turns on arbitrary smooth `h0`-self-adjoint radial-kernel trace-free screen shape through
-  `A=exp(S)` before pullback. It preserves ambient determinant, the radial causal bound, and G205
-  global hyperbolicity. Static members are null complete; compact-live survivors exist; an exact
-  unrestricted-live supercritical circular-orbit witness is null incomplete. Generic
-  screen-bearing completed pairs respond internally, while static-clock germs are blind. This is
-  an externally verified conditional classification, not a physical `S` or `X_max` selection.
-- G208 turns on a pure self-adjoint radial-screen mixer `C` through `A=exp(C)` before pullback. It
-  preserves signature and ambient determinant but changes the sharp radial causal law to
-  `|dr/dt| <= f sqrt(cosh(2s))`. The common conformal scale composes exactly with supplied shape.
-  Growth-controlled slabs, every bounded static mixer, and one compact-live class survive their
-  stated causal/null tests; a smooth center-regular unbounded static mixer gives an exact failure
-  class. Completed pairs hear radial/generic mixing internally. External review retained the
-  analytic theorems with caveats; finite scripts independently certify only the local algebra and
-  boundary anchors. No physical `C`, history, or `X_max` is selected.
-- G209 activates full time-space shift `b` on positive supplied `h_A`. The ADM congruence preserves
-  signature, determinant, and temporal `dt` while translating the causal ellipsoid. Controlled
-  G205 subclasses survive; a smooth bounded-coordinate counterclass is globally hyperbolic but
-  null incomplete. Pairs hear shift before readout. External review accepted the repaired analytic
-  proof; finite scripts do not mechanize every global theorem. No `b`, history, or `X_max` is
-  selected.
+- G206 common scale preserves causal order/global hyperbolicity; null completeness is its weighted
+  affine-integral test, and completed depth hears the pair pullback of `Omega`.
+- G207 trace-free screen shape preserves volume, radial causality, and global hyperbolicity.
+  Static/compact-live survivors and an unrestricted null-incomplete witness coexist; completed-pair
+  response includes exact blind strata.
+- G208 radial-screen mixing preserves volume but changes the sharp radial bound to
+  `f sqrt(cosh(2s))`. Controlled survivors and one causal/null failure coexist; pairs hear mixing.
+- G209 full shift preserves signature, determinant, and temporal `dt` while translating the causal
+  ellipsoid. Controlled survivors and one globally-hyperbolic/null-incomplete counterclass coexist;
+  pairs hear shift.
+- G210 isolates `sigma=(1/6)log(det K/det H)`, the unique relative spatial-determinant scalar after
+  `H` is supplied. It fixes the shift center, scales all widths by `exp(-sigma)`, and enters
+  spatially bearing pairs. Controlled survivors and the radial-null-incomplete `sigma=-phi` control
+  coexist. Its common-scale-plus-lapse factorization is a dependency identity, not a history law.
+
+G206--G210 are externally reviewed conditional classifications. Their global results remain
+analytic where stated; none selects a sector function, physical history, or `X_max`.
 
 Current structural package:
-`udt_g209_g205_timespace_shift_robustness_2026-08-21/`.
+`udt_g210_g205_spatial_volume_robustness_2026-08-21/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice is declared; its profile is supplied. A general UDT
+- The primary static-spherical/areal slice is declared; its profile is supplied. G210 leaves the
+  lapse/diagonal-scalar dependency and arbitrary determinant-one spatial histories open. A general UDT
   ambient history is not derived by the arbitrary-coframe evaluator.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
@@ -126,7 +119,8 @@ numerical IVP legs are formula-level regression evidence; G193--G196 contain the
 contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
-volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G209
-classify common scale, trace-free screen, radial-screen mixing, and full shift without selecting
-their functions. Next MAP and PONDER the smallest trace-changing positive spatial mode. Do not fit,
-invent coefficients, identify `X_max`, select transfer, or use G116/G189 as inputs.
+volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G210
+classify common scale, trace-free screen, radial-screen mixing, full shift, and the relative
+spatial-volume scalar without selecting their functions. Next MAP and PONDER the remaining
+lapse/diagonal-scalar dependency before solving it. Do not fit, invent coefficients, identify
+`X_max`, select transfer, or use G116/G189 as inputs.

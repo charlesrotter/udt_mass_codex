@@ -1,0 +1,11 @@
+{
+  "diagnostic_precision_digits": 120,
+  "external_review": "PENDING_SEPARATE_GATE",
+  "independent_assertions": 250001,
+  "independent_cases": 10000,
+  "mutation_catches": 25,
+  "no_write_replay": true,
+  "production_assertions": 24,
+  "provenance_manifest_rows": 9,
+  "status": "PASS"
+}

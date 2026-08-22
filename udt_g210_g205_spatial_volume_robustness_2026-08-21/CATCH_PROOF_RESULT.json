@@ -1,0 +1,32 @@
+{
+  "catch_count": 25,
+  "catches": [
+    "ambient_det_changes",
+    "ambient_det_not_universal_pair_response",
+    "cone_center_is_minus_b",
+    "cone_center_not_plus_b",
+    "dt_temporal_independent_of_a",
+    "eulerian_clock_blind",
+    "failure_affine_integral_finite",
+    "failure_coordinate_time_integrand_diverges",
+    "g205_width_is_f_over_a",
+    "generic_pair_hears_volume",
+    "global_hyperbolicity_not_null_completeness",
+    "live_energy_not_generically_conserved",
+    "live_energy_sign_guard",
+    "lower_bound_controls_width",
+    "one_sixth_not_one_third",
+    "physical_history_not_selected",
+    "shape_volume_shift_roles_distinct",
+    "shifted_static_clock_hears_volume",
+    "spatial_det_uses_six_sigma",
+    "static_radial_affine_speed",
+    "timelike_spacelike_not_inferred",
+    "unshifted_static_clock_blind",
+    "width_scales_inverse_a",
+    "wrong_ambient_det_sign_caught",
+    "xmax_not_selected"
+  ],
+  "scope": "determinant factor, cone center/width, causal-affine distinction, pair strata, evidence ceiling, history and X_max guards",
+  "status": "PASS"
+}

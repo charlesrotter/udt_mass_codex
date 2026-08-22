@@ -44,6 +44,8 @@
   `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`
 - Time-space shift robustness:
   `udt_g209_g205_timespace_shift_robustness_2026-08-21/`
+- Spatial-volume robustness:
+  `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
 completed-pair scalar chain. G185--G189 are application controls. G190--G198 evaluate chosen metric
@@ -52,8 +54,8 @@ G197 guards provenance and the G190--G192 evidence ceiling. G198 is a chosen-fam
 G199--G200 remove a native chiral switch; G201 permits non-lockstep channels; G202--G204 classify
 quiet alternatives; G205 proves static completion; G206 classifies common scale; G207 classifies
 trace-free screen shape; G208 classifies radial-screen mixing and scale/shape composition; G209
-classifies full local shift and bounded global shift subclasses. None selects its supplied
-functions.
+classifies full local shift; G210 isolates the relative spatial-determinant scalar and
+bounded global subclasses. None selects its supplied functions.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -62,7 +64,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 193-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 194-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

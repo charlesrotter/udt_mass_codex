@@ -1,0 +1,7 @@
+{
+  "assertion_count": 250001,
+  "distinct_exact_cases": 10000,
+  "method": "independent Fraction SPD volume split, ADM inverse, translated cone, pair clock, and radial null replay",
+  "production_imported": false,
+  "status": "PASS"
+}

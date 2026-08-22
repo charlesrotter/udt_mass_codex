@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G209",
+            "G166--G210",
             "G196",
             "G197",
             "G198",
@@ -177,6 +177,7 @@ def validate_startup_surface(root: Path) -> None:
             "G207",
             "G208",
             "G209",
+            "G210",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -230,7 +231,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "193-row exact registry",
+            "194-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -269,6 +270,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/",
             "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/",
             "udt_g209_g205_timespace_shift_robustness_2026-08-21/",
+            "udt_g210_g205_spatial_volume_robustness_2026-08-21/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "CLAUDE.md",
@@ -279,7 +281,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G209",
+            "G166--G210",
             "G197",
             "G198",
             "G199",
@@ -293,6 +295,7 @@ def validate_startup_surface(root: Path) -> None:
             "G207",
             "G208",
             "G209",
+            "G210",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -320,6 +323,7 @@ def validate_startup_surface(root: Path) -> None:
             "G207",
             "G208",
             "G209",
+            "G210",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -349,7 +353,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "193-row",
+            "194-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -611,9 +615,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 193, "premise registry must contain exactly 193 rows")
+    require(len(rows) == 194, "premise registry must contain exactly 194 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 193, "duplicate premise id")
+    require(len(by_id) == 194, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1353,6 +1357,75 @@ def main() -> None:
         "G209 repair follow-up absent",
     )
     require(g209_package["scientific_landing_changed"] is False, "G209 landing changed")
+    require(
+        by_id["G210"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_D1458D37__"
+            "FRESH_EXTERNAL_GPT54_VERIFIED_WITH_CAVEATS_NO_MATHEMATICAL_REFUTATION_NO_REPAIRS_REQUIRED"
+        ),
+        "G210 bounded grade changed or promoted",
+    )
+    for guard in (
+        "UNIQUE_RELATIVE_SPATIAL_DETERMINANT_SCALAR_SIGMA_EQUALS_ONE_SIXTH_LOG_DETK_OVER_DETH_AFTER_POSITIVE_REFERENCE_H_SUPPLIED",
+        "DETERMINANT_ONE_REMAINDER_UNIQUE_BUT_NOT_FULLY_CLASSIFIED_BY_G207_G208",
+        "ARBITRARY_POSITIVE_HA_AND_SUPPLIED_FULL_SHIFT",
+        "LORENTZ_SIGNATURE_AND_TEMPORAL_DT_PRESERVED",
+        "AMBIENT_DETERMINANT_SCALES_EXP_6SIGMA",
+        "CAUSAL_CENTER_REMAINS_MINUS_B_AND_ALL_WIDTHS_SCALE_EXP_MINUS_SIGMA",
+        "GROWTH_CONTROLLED_CLASS_GLOBALLY_HYPERBOLIC",
+        "ALL_SMOOTH_STATIC_GLOBALLY_LOWER_BOUNDED_SIGMA_NULL_COMPLETE",
+        "DECLARED_LOWER_BOUNDED_BOUNDED_DERIVATIVE_COMPACT_TIME_LIVE_CLASS_NULL_COMPLETE",
+        "SIGMA_EQUALS_MINUS_PHI_SMOOTH_GLOBALLY_HYPERBOLIC_BUT_RADIAL_NULL_INCOMPLETE",
+        "COMPLETED_PAIR_PULLBACK_HEARS_SPATIAL_VOLUME_BEFORE_READOUT_ON_SPATIALLY_BEARING_CLOCKS",
+        "UNSHIFTED_STATIC_AND_EULERIAN_NORMAL_CLOCK_BLIND_STRATA",
+        "SPATIAL_SCALE_EQUALS_COMMON_CONFORMAL_SCALE_PLUS_COMPENSATING_LAPSE_DEPENDENCY_IDENTITY",
+        "ANALYTIC_GLOBAL_THEOREMS_EXTERNALLY_REVIEWED_NOT_MECHANIZED_END_TO_END",
+        "NO_TIMELIKE_SPACELIKE_COMPLETENESS_ARBITRARY_DETERMINANT_ONE_OR_LIVE_HISTORY_PHYSICAL_SIGMA_LAPSE_PROFILE_XMAX_TRANSFER_SOURCE_FIT_OR_PROTECTED_PAYLOAD",
+    ):
+        require(guard in by_id["G210"]["current_status"], f"G210 guard absent: {guard}")
+    require(by_id["G210"]["epistemic_label"] == "MIXED", "G210 label changed")
+    require(
+        by_id["G210"]["active_use"]
+        == "ACTIVE_BOUNDED_FULL_LOCAL_SPATIAL_VOLUME_SCALAR_AND_DECLARED_G205_GLOBAL_SUBCLASS_CLASSIFICATION_ONLY",
+        "G210 active scope widened",
+    )
+    require(
+        by_id["G210"]["controlling_source"]
+        == "udt_g210_g205_spatial_volume_robustness_2026-08-21/AUDIT_REPORT.md",
+        "G210 controlling source changed",
+    )
+    g210 = ROOT / "udt_g210_g205_spatial_volume_robustness_2026-08-21"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "PRODUCTION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "BOUNDARY_DIAGNOSTICS.json",
+        "CATCH_PROOF_RESULT.json",
+        "SOURCE_PROVENANCE_VERIFICATION.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "TRANSMISSION_RECORD.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g210 / name).is_file(), f"G210 evidence missing: {name}")
+    g210_package = json.loads((g210 / "PACKAGE_VERIFICATION_RESULT.json").read_text())
+    require(g210_package["status"] == "PASS", "G210 package verification failed")
+    require(g210_package["core_no_write_replay"] is True, "G210 no-write replay absent")
+    require(g210_package["production_assertions"] == 24, "G210 production count changed")
+    require(g210_package["independent_assertions"] == 250001, "G210 assertion count changed")
+    require(g210_package["independent_cases"] == 10000, "G210 case count changed")
+    require(g210_package["diagnostic_precision_digits"] == 120, "G210 diagnostic precision changed")
+    require(g210_package["mutation_catches"] == 25, "G210 hostile count changed")
+    require(g210_package["provenance_manifest_rows"] == 9, "G210 source count changed")
+    require(
+        g210_package["external_review"] == "VERIFIED_WITH_CAVEATS",
+        "G210 external review absent",
+    )
+    require(g210_package["required_repairs"] == 0, "G210 unexpected repair count")
+    require(g210_package["scientific_landing_changed"] is False, "G210 landing changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5569,7 +5642,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G209-extended premise guards; PASS: 193-row premise "
+        "PASS: G210-extended premise guards; PASS: 194-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

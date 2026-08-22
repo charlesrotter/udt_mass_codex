@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G209 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G210 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -18,23 +18,19 @@ are radial-gradient sampling. G198 remains a chosen-family control with an off-r
 G201 shows instruments are not lockstep. G202/G203/G204 type quiet overlap and alternatives. G205
 proves the supplied static family complete and globally hyperbolic. `X_max` remains unselected.
 
-G206 adds common scale: causality survives, null completeness is an affine-integral test, and
-completed `Phi` shifts by minus its pair pullback. No `Omega` is selected.
+G206 common scale preserves causality and makes null completeness an affine-integral test. G207
+trace-free screen preserves volume/radial causality/global hyperbolicity; survivor and failure
+classes coexist.
 
-G207 adds trace-free screen shape. Volume, radial causality, and global hyperbolicity survive;
-static/compact-live survivors and an unrestricted null-incomplete witness coexist.
+G208 mixing preserves volume but changes radial causality. G209 shift preserves
+signature/determinant/temporal `dt` while translating the causal center. Both enter before readout;
+controlled survivors and null-incomplete controls coexist.
 
-G208 adds radial-screen mixing. Volume survives but radial causality changes; controlled survivors
-and a smooth failure class coexist. Common scale composes with shape, and pairs hear mixing before
-readout. External review retained the analytic, non-mechanized global proofs. No mixer is selected.
-
-G209 adds full shift: the causal ellipsoid translates while signature, determinant, and temporal
-`dt` survive. Controlled subclasses and a globally-hyperbolic/null-incomplete counterclass coexist.
-Pairs hear shift before readout; no shift history is selected.
-
+G210's unique relative spatial-volume scalar rescales causal widths without moving the shift center.
+Survivors and the `sigma=-phi` radial-null-incomplete control coexist; spatial pairs hear it. No
+sector history, lapse, or `X_max` is selected.
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
-
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
 
 ## Observational pointer
@@ -60,8 +56,9 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G209 closes local shift and bounded G205 subclasses. Next map the smallest trace-changing positive
-spatial mode. No fits, `X_max`, transfer, templates, or G116/G189 inputs.
+G210 closes the relative spatial-volume tile and bounded G205 subclasses. Next map and ponder the
+remaining lapse/diagonal-scalar dependency before solving. No fits, `X_max`, transfer, templates,
+or G116/G189 inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

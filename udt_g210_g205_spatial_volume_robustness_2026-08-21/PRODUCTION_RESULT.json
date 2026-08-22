@@ -1,0 +1,31 @@
+{
+  "assertion_count": 24,
+  "assertions": [
+    "spatial_det_scales_cubically",
+    "adm_shift_map_det_one",
+    "ambient_det_volume_scaled",
+    "lorentz_inertia_by_positive_congruence",
+    "exact_inverse",
+    "dt_remains_temporal",
+    "determinant_ratio_cube_root",
+    "sigma_factor_is_one_sixth",
+    "det_one_remainder",
+    "scaled_shifted_cone",
+    "cone_center_unchanged",
+    "u_is_exp2sigma_proxy",
+    "g205_scaled_radial_factor",
+    "g205_lower_radial_root",
+    "g205_upper_radial_root",
+    "radial_null_first_integral",
+    "live_energy_equation",
+    "completed_pair_pullback",
+    "completed_clock_norm",
+    "unshifted_static_clock_blind",
+    "shifted_static_clock_hears_volume",
+    "eulerian_normal_clock_blind",
+    "generic_spatial_clock_hears_volume",
+    "conformal_plus_lapse_factorization"
+  ],
+  "landing": "FULL_LOCAL_SPATIAL_VOLUME_SCALAR_IS_THE_UNIQUE_RELATIVE_DETERMINANT_MODE__IT_RESCALES_CAUSAL_WIDTH_WITHOUT_MOVING_THE_SHIFT_CENTER__LOWER_BOUNDED_STATIC_AND_CONTROLLED_COMPACT_LIVE_G205_CLASSES_SURVIVE__SIGMA_EQUALS_MINUS_PHI_IS_GLOBALLY_HYPERBOLIC_BUT_RADIAL_NULL_INCOMPLETE__COMPLETED_PAIRS_HEAR_SPATIAL_VOLUME_BEFORE_READOUT_ON_SPATIAL_BEARING_STRATA__NO_PHYSICAL_SIGMA_HISTORY_OR_XMAX_SELECTION",
+  "mechanization_scope": "finite-dimensional algebra and radial null identity only"
+}

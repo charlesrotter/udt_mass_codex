@@ -4,9 +4,9 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-21
+## Resume anchor — 2026-08-22
 
-G166--G209 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G210 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -31,24 +31,18 @@ G202/G203/G204 type quiet overlap, unselected descriptors, and a smooth even-are
 that supplied family geodesically complete and globally hyperbolic on declared `R x R3`, with exact
 null-orbit strata. Parameters, maximal extension, and `X_max` remain unselected.
 
-G206 adds arbitrary smooth live/nonspherical common scale. Causality survives; null completeness
-is exactly the two-ended affine-weight test. Completed pairs obey `Phi_tilde=Phi-Omega composed F`.
-`Omega` remains `FREE_AND_EXPLORED`; other completeness and combined sectors remain open.
+G206 common scale preserves causality and makes null completeness an affine-weight test. G207
+trace-free screen preserves volume/radial causality/global hyperbolicity; survivor and failure
+classes coexist. Their completed-pair readouts have exact responsive and blind strata.
 
-G207 adds trace-free screen shape before pullback. Volume, radial causality, and global
-hyperbolicity survive; static/compact-live survivors and an unrestricted null-incomplete witness
-coexist. Screen germs hear shear; static clocks are blind.
+G208 mixing preserves volume but changes the sharp radial bound; controlled survivors and one
+causal/null failure coexist. G209 shift preserves signature/determinant/temporal `dt` while moving
+the causal center; survivor and null-incomplete classes coexist. Pairs hear both before readout.
 
-G208 adds radial-screen mixing. Volume survives, but the sharp bound becomes
-`|dr/dt| <= f sqrt(cosh(2s))`; common scale composes exactly with shape. Controlled survivors and
-one smooth causal/null-incomplete failure class coexist. Pairs hear mixing internally. External
-review retained the analytic, non-mechanized theorems. `S`, `C`, physical history, shift,
-trace-changing modes, and `X_max` remain unselected or open.
-
-G209 adds full time-space shift: signature, determinant, and temporal `dt` survive while the causal
-ellipsoid translates. Controlled G205 subclasses survive; one smooth counterclass is globally
-hyperbolic but null incomplete. Pairs hear shift before readout. External review accepted the
-repaired proof; no shift history is selected.
+G210 isolates the unique relative spatial-volume scalar. It fixes the shift center and rescales
+causal widths. Controlled survivors and the radial-null-incomplete `sigma=-phi` control coexist;
+spatial clocks hear it with exact blind strata. External review required no repair; global proofs
+remain analytic. No sector history, lapse, or `X_max` is selected.
 
 G197 independently audited the full G166--G196 provenance chain. Landing:
 `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No earlier fit/profile/transfer/`X_max`
@@ -74,9 +68,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G209 closes local shift and bounded G205 subclasses. Next map the smallest trace-changing positive
-spatial-mode tile. Do not fit, activate arbitrary coframe terms, identify `X_max`, select transfer,
-or use G116/G189 as inputs. The physical carrier/`O(2)`,
+G210 closes the unique relative spatial-volume tile and bounded G205 subclasses. Next map and ponder
+the remaining lapse/diagonal-scalar dependency before solving it. Do not fit, activate arbitrary
+coframe terms, identify `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
 covariant `lambda`, rank ten,
 conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
 valuation retain their exact registry status and remain `OPEN` where stated.

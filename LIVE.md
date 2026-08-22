@@ -2,7 +2,7 @@
 
 <!-- STARTUP_CURRENT_BEGIN -->
 
-## CURRENT STATE — 2026-08-21
+## CURRENT STATE — 2026-08-22
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G209. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G210. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -56,26 +56,26 @@ G202/G203/G204 derive quiet overlap, unselected descriptors, and a smooth even-a
 that supplied family complete and globally hyperbolic on declared `R x R3`, with exact circular-null
 strata. Its global theorems are analytic, not script-mechanized; no history or `X_max` is selected.
 
-G206 adds arbitrary smooth live/nonspherical common scale. Causality survives; null completeness is
-the two-ended `exp(2 Omega)` affine-integral test, and completed pairs obey
-`Phi_tilde=Phi-Omega composed F`. No `Omega`, history, or `X_max` is selected.
+G206 common scale preserves causality; null completeness is its two-ended affine-integral test and
+completed `Phi` hears the scale. No `Omega`, history, or `X_max` is selected.
 
-G207 adds determinant-one trace-free screen shape before pullback. Signature, volume, radial
-causality, and global hyperbolicity survive. Static and compact-live members survive; unrestricted
-live shear has an exact null-incomplete orbit. Screen clocks hear it; static clocks are blind.
+G207 trace-free screen shape preserves signature, volume, radial causality, and global
+hyperbolicity. Static/compact-live survivors and a live null-incomplete witness coexist; pair
+response has exact blind strata.
 
-G208 adds pure self-adjoint radial-screen mixing. Signature and ambient volume survive, but the
-sharp bound becomes `|dr/dt| <= f sqrt(cosh(2s))`; common scale composes exactly with shape.
-Growth-controlled, bounded-static, and compact-live classes survive, while one smooth unbounded
-static mixer destroys global hyperbolicity and null completeness. Completed pairs hear mixing
-before readout. External review retained the analytic, non-mechanized theorems. `S`, `C`, physical
-combined histories, shift, trace-changing modes, and `X_max` remain unselected or open.
+G208 radial-screen mixing preserves volume but changes the sharp bound to
+`|dr/dt| <= f sqrt(cosh(2s))`. Controlled survivors and one causal/null failure coexist; completed
+pairs hear mixing. Its global theorems remain analytic; `S`, `C`, history, and `X_max` are open.
 
-G209 activates full time-space shift. Signature, determinant, and temporal `dt` survive while the
-causal ellipsoid translates. Three controlled G205 subclasses survive; a smooth bounded-coordinate
-counterclass is globally hyperbolic but null incomplete. Pairs hear shift before readout except on
-lawful blind strata. External review accepted the repaired proof; no shift history or `X_max` is
-selected.
+G209 full shift preserves signature, determinant, and temporal `dt` while translating the causal
+ellipsoid. Controlled survivors and one globally-hyperbolic/null-incomplete counterclass coexist;
+pairs hear shift except on exact blind strata. No shift history is selected.
+
+G210 isolates `sigma=(1/6)log(det K/det H)`, the unique relative spatial-determinant scalar after a
+positive reference is supplied. It fixes the shift center and scales widths by `exp(-sigma)`.
+Controlled survivors and the radial-null-incomplete `sigma=-phi` control coexist; spatial clocks
+hear it, with exact blind strata. External review required no repair; global proofs remain analytic.
+No physical `sigma`, lapse, history, or `X_max` is selected.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the nested live families show components interlock once a metric and query are supplied. They do
@@ -115,8 +115,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G209 closes the full local time-space shift tile and bounded G205 global shift subclasses. Next MAP
-and PONDER the smallest trace-changing positive spatial-mode tile, including its causal, affine,
-and completed-pair consequences. Do not fit, identify any limit with `X_max`, select transfer,
-derive a metric by template, or use G116/G189 as construction inputs.
+G210 closes the unique relative spatial-volume tile and its declared G205 subclasses. Next MAP and
+PONDER the remaining lapse/diagonal-scalar dependency, explicitly checking whether it is an
+independent metric tile or only a recombination of already classified scales before any solve. Do
+not fit, identify any limit with `X_max`, select transfer, derive a metric by template, or use
+G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
