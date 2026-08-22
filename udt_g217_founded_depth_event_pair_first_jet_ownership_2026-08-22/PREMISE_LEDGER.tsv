@@ -1,0 +1,10 @@
+premise	status	role	limit
+reciprocal_character_on_supplied_depth	DERIVED	D(delta) has temporal factor exp(-delta)	does not supply delta values or observer events
+proper_clock_axes	DERIVED_CONDITIONAL	metric gives oriented unit proper-time tangent lines	requires supplied future timelike worldlines and events
+completed_pair_domain	WORKING_FOUNDATIONAL_CLARIFICATION	G176 applies reciprocity after full pullback	not canon and selects no pair population
+proper_clock_rate_law	DERIVED_CONDITIONAL_EXTERNALLY_REVIEWED	G216 identifies delta as minus log proper-time pairing derivative	requires supplied regular completed pair germ
+ordered_paired_events	SUPPLIED	basepoints for a first jet	physical event selection remains open
+positive_first_jet_multiplier	TESTED_CANDIDATE	exp minus delta between proper-clock tangent lines	outcome frozen by competing landings
+higher_germ_data	OPEN	second and higher local pairing behavior	not determined by a first jet
+pair_population_and_history	OPEN	physical global realization	outside bounded audit
+verification_rationals	NUMERICAL_CONTROL	exact algebra and hostile witnesses	no physical values or fit
