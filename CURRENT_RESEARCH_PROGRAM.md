@@ -44,15 +44,11 @@ physical scalar after the working premise. They must not be conflated.
   family gluing, endpoint/carry strata, and typed realization equivalence.
 - G185--G189 are radial/application and flux-interface controls; P1 and radiative transfer remain
   historical or imported.
-- G190--G198 derive the parametric frequency/screen evaluator and classify nested **chosen**
-  time-live coframe families and supplied germs. G196 gives longitudinal `D_plus` descent, exact
-  factorization, and the positive-Gram sign theorem on the outgoing germ. G198 keeps the same metric
-  and derives an exact opposite-germ null control: no `M`-dependent connection or tide and
-  `D_minus^2Y=0`. The asymmetry is encoded by the chosen one-null-component coframe and remains
-  family-scoped.
-- G199 audits that specialization against the primary static-spherical metric. Its two radial null
-  germs are reversal-related and have the same frequency law, parallel screen, zero radial optical
-  tide, and `D=lambda I`. The G198 split is therefore retained only as a chosen-family control.
+- G190--G198 evaluate nested **chosen** time-live coframes and supplied germs. G196 gives scoped
+  longitudinal descent; G198 supplies the opposite-germ control. Their asymmetry remains
+  chosen-family-scoped.
+- G199 audits the primary metric: both radial null germs share frequency, parallel screen, zero
+  radial optical tide, and `D=lambda I`. G198 remains a chosen-family control.
 - G200 activates the primary nonradial angular modes for both reversed germs. Their same-event
   frequency and tidal laws coincide; the first finite branch difference is the fourth-order radial
   tidal-gradient sampling term, not a chiral on/off coefficient.
@@ -92,21 +88,24 @@ physical scalar after the working premise. They must not be conflated.
   be the metric state, while current identities do not generate its values from finite anchors.
   Two generic completed clocks reconstruct `Omega,q` pointwise. Full all-germ two-jet isotropy
   conditionally forces a space form but is not an owned UDT premise.
+- G213 proves the determinant-one spatial remainder has five modes: grading `1`, mixing `2`, and
+  screen shape `2`. G207/G208 covered four. Retaining G176 ruler density makes each completed tuple
+  information-equivalent to its full pullback, so the six-pair design remains rank ten; deleting
+  density produces an exact blind spatial-rescaling family.
 
-G206--G211 are reviewed; G212 is multi-agent verified with caveats. None generates a
-sector function, finite-anchor flow, or `X_max`.
+G206--G213 are verified with caveats; G213 external review is pending. None generates a sector
+function, finite-anchor flow, or `X_max`.
 
 Structural package:
-`udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`.
+`udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice is declared; its profile is supplied. G211 closes the
-  diagonal basis; G212 removes a redundant post-network selector but leaves physical valuation,
-  the split, scalar functions, and determinant-one histories open.
+- The primary static-spherical/areal slice and profile are supplied. G211--G213 close the local
+  scalar basis, spatial mode count, and completed-network information bridge, not valuation.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -122,15 +121,15 @@ physics or a new fit.
 G197 classified the full chain as `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No P1,
 G116/G189 transfer, fit, `X_max`, G142--G160 construction, or protected local package is
 load-bearing. The active dependency types are metric/founding algebra, supplied query data, chosen
-exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole G176 working clarification. G190--G192's
+exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G192's
 numerical IVP legs are formula-level regression evidence; G193--G196 contain the independent metric-side
 contractions.
 
 The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
 volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
 classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
-then close the diagonal dependency. G212 removes the redundant second-history-selector framing but
-retains the open valuation problem. Next MAP and PONDER the determinant-one spatial remainder,
-count its full local modes, identify G207/G208 coverage, and formulate the finite multidirectional
-completed-pair rank test. Do not fit, invent coefficients, identify `X_max`, select transfer, or
-use G116/G189 as inputs.
+then close the diagonal dependency. G212--G213 remove the redundant second-selector framing and
+close the local completed-network rank bridge while retaining the open valuation problem. Next
+externally review G213, then test tuple compatibility under overlaps and three-observer calibration
+carry so G130 descent transfers without density loss. Do not fit, identify `X_max`, select transfer,
+or revive historical application inputs.

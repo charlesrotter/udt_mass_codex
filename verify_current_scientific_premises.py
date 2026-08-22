@@ -162,7 +162,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G212",
+            "G166--G213",
             "G196",
             "G197",
             "G198",
@@ -180,6 +180,7 @@ def validate_startup_surface(root: Path) -> None:
             "G210",
             "G211",
             "G212",
+            "G213",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
@@ -233,7 +234,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "196-row exact registry",
+            "197-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -285,7 +286,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G212",
+            "G166--G213",
             "G197",
             "G198",
             "G199",
@@ -302,6 +303,7 @@ def validate_startup_surface(root: Path) -> None:
             "G210",
             "G211",
             "G212",
+            "G213",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -332,6 +334,7 @@ def validate_startup_surface(root: Path) -> None:
             "G210",
             "G211",
             "G212",
+            "G213",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -361,10 +364,11 @@ def validate_startup_surface(root: Path) -> None:
             "G210",
             "G211",
             "G212",
+            "G213",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "196-row",
+            "197-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -626,9 +630,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 196, "premise registry must contain exactly 196 rows")
+    require(len(rows) == 197, "premise registry must contain exactly 197 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 196, "duplicate premise id")
+    require(len(by_id) == 197, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -1563,6 +1567,63 @@ def main() -> None:
     require(g212_package["source_manifest_rows"] == 6, "G212 source count changed")
     require(g212_package["whiteboard_roles"] == 3, "G212 whiteboard role count changed")
     require(g212_package["required_repairs"] == 0, "G212 unexpected repair count")
+    require(
+        by_id["G213"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_C96A273F__"
+            "EXTERNAL_REVIEW_PENDING"
+        ),
+        "G213 bounded grade changed or promoted",
+    )
+    for guard in (
+        "SUPPLIED_CALIBRATED_1PLUS3_AND_RADIAL_SCREEN_SPLITS",
+        "EXACT_ONE_PLUS_TWO_PLUS_TWO_DECOMPOSITION_INTO_RADIAL_SCREEN_GRADING_RADIAL_SCREEN_MIXING_AND_TRACEFREE_SCREEN_SHAPE",
+        "TOTAL_FIVE_MODES",
+        "G207_COVERS_TWO_SCREEN_SHAPE_LOGARITHMIC_COORDINATES",
+        "G208_COVERS_TWO_RADIAL_SCREEN_MIXING_LOGARITHMIC_COORDINATES",
+        "MISSING_INDEPENDENT_COORDINATE_IS_RADIAL_VERSUS_SCREEN_GRADING_DISTINCT_FROM_G211_Q",
+        "NO_MODE_AMPLITUDE_OR_HISTORY_SELECTED",
+        "COMPLETED_TUPLE_AND_FULL_AUXILIARY_PULLBACK_EXACTLY_BIJECTIVE_ON_REGULAR_POSITIVE_DENSITY_STRATUM",
+        "G129_SIX_KNOWN_PAIR_DESIGN_RETAINS_EXACT_RANK_TEN",
+        "NORMALIZED_COMPLETED_METRICS_WITHOUT_DENSITIES_NOT_FAITHFUL",
+        "POSITIVE_COMMON_SPATIAL_RESCALING_IS_EXACT_BLIND_COUNTERFAMILY",
+        "NO_PHYSICAL_PAIR_POPULATION_GLOBAL_DESCENT_NETWORK_VALUE_GENERATION_FINITE_ANCHOR_FLOW_XMAX_TRANSFER_SOURCE_ACTION_MATTER_MASS_OR_OBSERVATION",
+    ):
+        require(guard in by_id["G213"]["current_status"], f"G213 guard absent: {guard}")
+    require(by_id["G213"]["epistemic_label"] == "MIXED", "G213 label changed")
+    require(
+        by_id["G213"]["active_use"]
+        == "ACTIVE_BOUNDED_LOCAL_DETERMINANT_ONE_SPATIAL_MODE_CENSUS_AND_COMPLETED_PAIR_INFORMATION_RANK_CLOSURE_ONLY",
+        "G213 active scope widened",
+    )
+    require(
+        by_id["G213"]["controlling_source"]
+        == "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md",
+        "G213 controlling source changed",
+    )
+    g213 = ROOT / "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+    ):
+        require((g213 / name).is_file(), f"G213 evidence missing: {name}")
+    g213_package = json.loads((g213 / "VERIFICATION_RESULT.json").read_text())
+    require(g213_package["status"] == "PASS", "G213 package verification failed")
+    require(g213_package["no_write_replay"] is True, "G213 no-write replay absent")
+    require(g213_package["symbolic_checks"] == 23, "G213 symbolic count changed")
+    require(g213_package["independent_cases"] == 10000, "G213 case count changed")
+    require(g213_package["independent_assertions"] == 300001, "G213 assertion count changed")
+    require(g213_package["hostile_catches"] == 28, "G213 hostile count changed")
+    require(g213_package["source_count"] == 12, "G213 source count changed")
+    require(g213_package["g129_design_rank"] == 10, "G213 rank changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -5779,7 +5840,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G212-extended premise guards; PASS: 196-row premise "
+        "PASS: G213-extended premise guards; PASS: 197-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

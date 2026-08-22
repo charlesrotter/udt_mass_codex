@@ -41,6 +41,7 @@
 | G210 spatial-volume scalar | externally verified with caveats | Unique determinant mode rescales causal width |
 | G211 diagonal-scalar basis closure | externally verified with caveats | Common/relative scale form rank-two basis; lapse-only is no third tile |
 | G212 history bridge | multi-agent verified with caveats | Valued rank-complete network is the state; two clocks invert scalar modes; finite-anchor flow open |
+| G213 completed-rank closure | independently verified; review pending | Five spatial modes; density-completed tuples retain rank ten |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -65,10 +66,9 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
   conformal family is an envelope control, not a multiplicity theorem.
-- The supplied-pair chain uses G199--G204 for reversal, sampling, non-lockstep channels, and quiet
-  alternatives; G205 supplies static completion. G206--G211 classify common scale, trace-free
-  screen, mixing, shift, volume, and diagonal dependency. G212 removes a second post-network
-  selector; finite-anchor valuation, population, transfer, completion, and realization stay open.
+- G199--G205 cover reversal through static completion. G206--G211 classify metric components; G212
+  removes a second selector; G213 closes completed-network rank. Valuation, population,
+  transfer, completion, and realization stay open.
 
 ## Carrier, action, source, and matter
 
@@ -103,7 +103,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 196-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 197-row authority. On conflict, stop.
 
 Run:
 

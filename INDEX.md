@@ -50,6 +50,8 @@
   `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`
 - History-bridge/relation-state whiteboard:
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
+- Completed-rank/spatial-remainder closure:
+  `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`
 
 G129--G165 are reconstruction, scale, carry, `X_max`, and scaffold controls. G166--G184 build the
 completed-pair chain. G185--G189 are controls. G190--G198 evaluate chosen families;
@@ -57,8 +59,8 @@ they select no histories or germs.
 G197 guards provenance and the G190--G192 evidence ceiling; G198 is a chosen-family control.
 G199--G200 remove a native chiral switch; G201 permits non-lockstep channels; G202--G204 classify
 quiet alternatives; G205 proves static completion. G206--G210 classify supplied scale, screen,
-mixing, shift, and spatial volume. G211 closes their rank-two diagonal scalar dependency. G212
-removes a redundant post-network selector, proves two-clock scalar tomography, and leaves valuation open.
+mixing, shift, and volume. G211 closes diagonal scalars; G212 reframes the state; G213 closes local
+completed rank while leaving valuation open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -67,7 +69,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Historical chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 196-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 197-row registry controls.
 ## Observational lane
 
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`

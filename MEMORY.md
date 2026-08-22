@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G212 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G213 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -24,8 +24,8 @@ survivor/failure and responsive/blind strata coexist. No component history or `X
 G211 proves the local diagonal scalar plane has only two modes: common scale and relative spatial
 scale. Lapse-only is their fixed mixture, not a third instrument. Cones hear only the relative mode;
 null affine reach and completed depth also hear common scale. The functions remain unselected.
-G212 makes a valued rank-complete pair network the metric state. Two generic clocks reconstruct the
-scalar modes pointwise; finite-anchor generation remains open.
+G212 makes the valued network the metric state. G213 counts five determinant-one spatial modes and
+proves typed `(m,h_s)` completed tuples retain G129 rank ten; without `m`, spatial scale is blind.
 G197 retained this core after provenance audit: no P1, G116/G189 transfer, fit, `X_max`, or
 protected payload is load-bearing. G176 stays provisional and G190--G192 IVPs formula-level.
 Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
@@ -53,9 +53,8 @@ Use task-relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status and so
 
 ## Next gate
 
-G212 closes the history/reconstruction reframe. Next map the determinant-one spatial remainder,
-count G207/G208 coverage, and prepare a finite multidirectional completed-pair rank test against
-G129's rank-ten criterion. No fits, `X_max`, transfer, templates, or G116/G189 inputs.
+G213 closes local completed-pair rank; external review is pending. Next test whether tuple
+equivalence commutes with overlaps and three-observer carry. No fits, `X_max`, or transfer inputs.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

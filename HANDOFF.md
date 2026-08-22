@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G212 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G213 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -42,9 +42,11 @@ their fixed mixture, not a third tile. Cones hear `q`; null affine reach and com
 hear `Omega`. External review required no repair. Split, profile, realization, and asymptotic
 `X_max` remain unselected.
 
-G212 reconciles G129--G130 with the completed kernel. A valued rank-complete pair network can be the
-metric state. Two generic clocks invert `Omega,q` pointwise; current identities still do not
-generate their functions from finite anchors. Full all-germ isotropy is not UDT-owned.
+G212 makes a valued rank-complete network the metric state. G213 closes the local information gate:
+the determinant-one spatial remainder has five modes (`1+2+2`), G207/G208 covered four, and radial/
+screen grading is the fifth. A typed completed relation keeps `m`; `(m,h_s)` exactly recovers the
+full pullback, preserving G129 rank ten. Without `m`, spatial scale is invisible. Values and
+physical population remain open; external review is pending.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working, germs/families supplied, and G190--G192
@@ -68,12 +70,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G212 removes the redundant second-history-selector problem and closes pointwise scalar tomography.
-Next map and ponder the determinant-one spatial remainder, count its full local modes, separate
-G207/G208 coverage, and prepare the finite multidirectional completed-pair rank test against G129.
-Do not fit, activate arbitrary coframe terms, identify `X_max`, select transfer, or use G116/G189 as inputs. The physical carrier/`O(2)`,
-covariant `lambda`, rank ten,
-conformal/common-scale ownership, density, bivector area bilinear, codimension eleven, and numerical
-valuation retain their exact registry status and remain `OPEN` where stated.
+First obtain fresh G213 adversarial review. If retained, test whether the local tuple equivalence
+commutes with overlaps, reparameterization, and three-observer calibration carry, transferring G130
+descent without density loss. Do not fit, activate arbitrary coframes, identify `X_max`, select
+transfer, or use G116/G189. The physical carrier/`O(2)`, covariant `lambda`, conformal/common-scale ownership,
+bivector area bilinear, codimension eleven, and numerical valuation retain registry status.
 
 <!-- STARTUP_CURRENT_END -->

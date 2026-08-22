@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G212. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G213. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -71,18 +71,19 @@ lapse-only deformation is the line `Omega=ell,q=-ell`, not a third tile. Four-vo
 functions, arbitrary determinant-one spatial remainder, global realization, and `X_max` remain
 unselected.
 
-G212 reconciles the completed kernel with G129--G130: a valued compatible rank-complete pair network
-can be the metric state. Two generic completed clocks reconstruct `Omega,q` pointwise; static
-clocks are deficient. Current identities do not generate network values from finite anchors.
-Full all-germ isotropy would conditionally force constant curvature but is not UDT-owned.
+G212 makes a valued rank-complete pair network the metric state rather than an input needing a
+second selector. G213 closes its local information gate. The determinant-one spatial remainder has
+five modes: one radial/screen grading, two mixing, and two screen-shape. G207/G208 covered the last
+four. A typed completed relation retains `m` as well as `h_s`; `(m,h_s)` exactly recovers the full
+pullback, so the G129 six-pair design retains rank ten. Without `m`, a spatial rescaling family is
+invisible. Network values and physical population remain open; external review is pending.
 
 Maximum conclusion: the primary metric owns the reciprocal evaluator on supplied completed pairs;
 the live families interlock after a metric and query are supplied. A valued rank-complete network
-needs no second selector, but its physical values, directions, branches, transfer, finite-anchor
-flow, and numerical `X_max` asymptote remain open. The physical carrier/`O(2)`, covariant
-`lambda`, rank ten completion, conformal/common-scale ownership, density, bivector area bilinear,
-codimension eleven closure, and numerical valuation remain separately typed and `OPEN` where the
-registry says so. The parity-even candidates fail on the registered non-collinear witness.
+needs no second selector, but its values, directions, branches, transfer, finite-anchor flow, and
+numerical `X_max` asymptote remain open. The physical carrier/`O(2)`, covariant `lambda`, conformal/common-scale
+ownership, bivector area bilinear, codimension eleven closure, and numerical valuation retain their
+registry status. The parity-even candidates fail on the registered non-collinear witness.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit,
 `X_max`, G142--G160 mechanism, or protected payload is load-bearing. G176 remains provisional;
@@ -111,9 +112,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G212 removes the redundant second-history-selector framing and proves pointwise rank-two scalar
-tomography. Next MAP and PONDER the determinant-one spatial remainder: count its full local modes,
-locate exactly which are already covered by G207/G208, then build the finite multidirectional
-completed-pair rank test against G129's rank-ten metric information. Do not fit, identify any limit
-with `X_max`, select transfer, derive a metric by template, or use G116/G189 as construction inputs.
+First obtain fresh adversarial review of G213. If retained, test whether its local
+`h_sigma <-> (m,h_s)` equivalence commutes with overlap, reparameterization, and three-observer
+calibration carry, so G130 global descent transfers without hidden density loss. Do not fit,
+identify `X_max`, select transfer, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
