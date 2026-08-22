@@ -43,12 +43,21 @@ relevant, begin with
 `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; use
 `stability_branch_follow_256_DECISION.md` only as durable lane evidence.
 
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and files under `archive/` are historical compatibility
-paths, not generic startup reads. Open them only when a task makes dated evidence load-bearing. Use
-`INDEX.md` for the current frontier paths. Despite its historical name,
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`, dated rehearsal reports,
+and files under `archive/` are historical compatibility paths, not generic startup reads. The
+fixed-base `CODEX_STARTUP_REHEARSAL_2026-07-17.md`, `codex_rehearsal_final.md`, and
+`codex_rehearsal_transcript.txt` remain at root because their paths are retained provenance; their
+old HEAD, branch, `LIVE`, or `NEXT` text is never current authority. The ignored local
+`memory_export.md`, when present, is likewise a historical snapshot. Open any of these only when a
+task makes dated evidence load-bearing. Use `INDEX.md` for current frontier paths. Despite its historical name,
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is the repository-reorganization relocation ledger
 (1,114 data rows plus its header): query it only for a known old path; it is not a startup read or a current-frontier index. Do
 not rewrite fixed historical ownership/readiness snapshots to mimic current paths.
+
+The top-level banners on `UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md`,
+`UDT_ELEGANT_FRAME.md`, `SIMPLE_METRIC_MACRO.md`, `PROBLEM_STATEMENT.md`, and
+`PURSUIT_CHARTER_2026-07-04.md` control their historical scope. Do not follow their embedded
+`binding`, `read first`, finite-`X_max`, pointwise-`phi`, or pending-decision language as current.
 
 Before doing research work, give Charles a short orientation: actual HEAD and dirt, current honest
 claim with premise stamps, open gate, and proposed bounded next action. Do not mutate files or start
@@ -84,20 +93,9 @@ Disk evidence wins over conversational memory.
 ## Binding UDT research rules
 
 - Remain pure to UDT: **the metric is the theory**.
-- G130's bounded ownership result is a guard: co-presence denotes event co-membership conditional on
-  a supplied solution `S`; it does not select `S`, create a physical query population, or assign the
-  network's numerical values. A compatible `(known embeddings, full pullbacks, overlap data)`
-  valuation is equivalent to the metric in G129's rank-ten scope; G131 separately establishes the
-  scalar-only conformal ceiling.
-- G131 proves only on a supplied shared full-dimensional open domain of identically labelled planes
-  that all terminal `phi_pair` values determine the positive conformal class. Common local scale,
-  query/value ownership, and the full metric remain open; `c_E` alone does not remove that kernel.
-- G132 proves fixed `K` removes only an internal reciprocal-transformation multiplier. The complete
-  pair triplet retains supplied scale but does not source it; `c_E,G_obs` require an additional
-  mass/density/energy datum plus a lawful bridge. A query-independent general scale owner is open.
-- G133 proves fixed `K` owns an internal unimodular determinant density, not a query-independent
-  spacetime two-form or physical value law. Supplied pair densities descend on genuine common
-  atlases; `kappa_pair` requires matched calibration; full `g` owns the bivector area bilinear.
+- G129--G165 are bounded controls, not the active kernel route. Their exact ownership and regression
+  guards live in `CURRENT_SCIENTIFIC_PREMISES.tsv`; do not reconstruct their old selector/carry
+  architecture from root prose.
 - The founding source derives
   `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**. It does not derive the
   complete observer/event/path-to-depth assignment. Pointwise `phi` is a presentation potential;

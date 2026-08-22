@@ -21,78 +21,37 @@ The active primary chain is G166--G218. In the spherical slice, the full pair pu
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
-The one non-metric selection premise in the scalar kernel is completed-pair Dual Reciprocity,
-`WORKING_FOUNDATIONAL_CLARIFICATION`, applied after the pullback. It gives
+Completed-pair Dual Reciprocity is a non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`, applied after
+the pullback. It gives
 `m=T L_sigma=sqrt(-det h_sigma)` and completed depth `Phi=-log T`. The older
 `(1/4)log[(-det h)/h00^2]` quantity is an arbitrary-calibration control, not the completed physical
 depth. Events, germs, observer population, and global realization remain `QUERY_SUPPLIED` or
 `OPEN`; equal scalar summaries do not identify realizations.
 
-G185--G189 are bounded radial/application controls. Their P1 profile and radiative transfer are
-historical or `IMPORTED_CONDITIONAL`, not kernel inputs. G190 derives the supplied-history
-parametric branch `lambda -> (Z,D,d_A)`; `d_A(Z)` descends only on monotone, noncaustic pieces.
-G191--G198 explore chosen complete-coframe families and supplied germs. Their Levi-Civita/Jacobi machinery is a
-`STANDARD_GEOMETRIC_EVALUATOR`, not a UDT field equation or history selector.
+G215 makes completed `Phi=-log T` a shared comparison-clock scalar. G216 derives on a supplied germ
+`delta_AB=-log(d tau_B/d tau_A)`; G217 proves supplied paired events and depth fix the positive first
+jet. G218 is cross-examined `PONDER`, not canon or a new theorem: incidence, depth, and first jet are
+three views of one query-indexed clock correspondence. On the declared primary static congruence,
+`delta_AB=phi_B-phi_A` closes the scalar kernel modulo clock-origin gauge. Null incidence is an exact
+metric-native causal query, not a founded universal positional owner. Outside static symmetry, the
+protocol/embedded realization and higher/full angular-screen-mixing germ remain open.
 
-Current structural result: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`.
-G199 proved that the exploratory chain introduced the one-sided `deta+dz` screen coupling as a
-`CHOSE_MATHEMATICAL_FUNCTION_FAMILY`; it is not in the primary static-spherical metric. Directly
-on that primary metric, both normalized future radial null germs are affine, share
-`Z=sqrt(f_o/f_s)=exp(phi_s-phi_o)`, carry parallel angular screens, have zero radial optical tide
-despite nonzero ambient curvature, and give `D=lambda I`.
+Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
+yet own the general moving/time-live correspondence. No second scalar selector or pair-clock
+coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer, fits, `X_max`,
+G142--G160 scaffold variables, and protected payload are not construction inputs. G190--G198 are
+chosen-family or formula-level regression controls; a `STANDARD_GEOMETRIC_EVALUATOR` is not a UDT
+history law. G199--G214 are retained structural classifications in `CURRENT_RESEARCH_PROGRAM.md`,
+`INDEX.md`, and the exact premise registry rather than repeated here.
 
-G200 turns on both reversed primary nonradial responses. They share the local frequency and tide;
-their first finite difference is quartic radial-gradient sampling of one supplied history. There is
-no native chiral loud/quiet switch: direction samples the regime, which controls magnitude. G196/G198
-remain chosen-family controls, and the two-ray off-ray reconstruction ceiling remains.
-
-G201 rewrites the exact primary nonradial tides using `p=r phi'` and `q=r^2 phi''`:
-`A_parallel=exp(-2phi)(2p^2+p-q)` and `A_perp=1-exp(-2phi)(1+p)`. Thus reciprocal depth has a
-two-sided magnitude, while angular instruments need not share one envelope. Quietness at `phi=0`
-requires `p=q=0`; `f=1+C r^2` cancels both tides even toward either signed extreme. This permits
-regime-dependent ratios but selects no profile or universal score.
-
-G202, G203, and G204 derive quiet overlap, unselected descriptors, and smooth even-areal families. G205 proves
-the supplied family complete and globally hyperbolic on `R x R3`; no history or `X_max` is selected.
-
-G206, G207, G208, G209, and G210 classify scale, screen, mixing, shift, and volume. Cones, affine reach, and depth
-hear different combinations; none selects functions, history, or `X_max`.
-
-G211 closes the remaining local diagonal-scalar dependency after a calibrated `1+3` reference is
-supplied. The sector has rank two: `Omega=ell` and `q=sigma-ell` form an exact basis, while a
-lapse-only deformation is the line `Omega=ell,q=-ell`, not a third tile. Four-volume hears
-`V=ell+3sigma`; causal widths hear `W=ell-sigma=-q`; null affine reach and completed `Phi` also hear
-`Omega`. External review found no refuting defect and required no repair. The split, scalar
-functions, arbitrary determinant-one spatial remainder, global realization, and `X_max` remain
-unselected.
-
-G212/G213 make the valued network the metric state and close its local information gate: five
-determinant-one spatial modes plus typed `(m,h_s)` preserve G129 rank ten; deleting `m` loses scale.
-
-Externally reviewed G214 descends typed `(m,h_s)` across calibrated covers but gives distinct pair
-surfaces no metric product. G215 makes completed `Phi=-log T` a shared comparison-clock scalar;
-G171 is a raw/recalibrated control while density and shift remain live. Externally reviewed G216
-gives `delta_AB=-log(d tau_B/d tau_A)` on a supplied germ; G217 proves supplied paired events and
-depth fix its positive first jet. G218 multi-agent PONDER retypes incidence, depth, and first jet as
-one query-indexed clock correspondence. On the declared static congruence the scalar kernel closes
-modulo clock-origin gauge. Null incidence is a metric-native causal query, not yet the universal
-positional owner. Outside static symmetry, protocol/embedded realization and the higher/full germ
-remain open.
-
-Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs. No second
-scalar selector or pair-clock coefficient is needed; valuation, population, full-germ carry,
-transfer, and asymptotic numerical `X_max` remain open. The physical carrier/`O(2)`, covariant `lambda`, conformal
-ownership, bivector area bilinear, codimension eleven, and numerical valuation retain their registry
-status. The parity-even candidates fail on the registered non-collinear witness.
-
-G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no P1, G116, G189 transfer, fit,
-`X_max`, G142--G160 mechanism, or protected payload is load-bearing. G176 remains provisional;
-supplied germs stay typed; G190--G192 IVPs remain formula-level regression.
+`X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
+make its value, profile, global realization, or boundary completion derived kernel inputs.
 
 Exact premise authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
-`archive/startup_surface_2026-08-21_pre_g197/`.
+`archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
+`archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 ### Observational boundary
 

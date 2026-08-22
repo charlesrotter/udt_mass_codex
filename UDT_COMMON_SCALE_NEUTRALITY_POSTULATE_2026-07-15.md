@@ -1,5 +1,10 @@
 # UDT Common-Scale Neutrality — owner-locked foundational postulate
 
+> **HISTORICAL DECISION RECORD — NOT CURRENT AUTHORITY.** Strong local common-scale neutrality is
+> currently `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive unless Charles explicitly
+> reauthorizes it. Preserve the July text below as provenance; use `LIVE.md` and
+> `CURRENT_SCIENTIFIC_PREMISES.tsv` for present status.
+
 ## Decision record
 
 | Field | Value |
@@ -74,4 +79,3 @@ The conformal metric-action branch in
 `UDT_RECIPROCAL_C_CONFORMAL_ACTION_DERIVATION_RESULTS.md` is now founded with respect to its
 common-scale premise. Its remaining locality, dimensionality, derivative-minimality, unrestricted-
 variation, and boundary premises retain their explicit CONDITIONAL status.
-

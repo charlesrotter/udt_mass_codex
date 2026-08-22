@@ -1,5 +1,9 @@
 # UDT elegant frame (binding working perspective)
 
+> **HISTORICAL WORKING FRAME — NOT CURRENT BINDING STATUS.** In particular, its finite-`X_max`
+> success criterion is superseded as a local kernel input: `X_max` is currently an open asymptotic
+> global-completion consequence target. Use `LIVE.md`, `AGENTS.md`, and the exact premise registry.
+
 **Date:** 2026-07-08 (Charles + driver).  
 **Status:** Working frame for all macro / field-equation work until Charles revises.  
 **Not Charles-canonized as theorem** — it is the **perspective** that steers the work.  

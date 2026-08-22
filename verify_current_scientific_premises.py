@@ -45,7 +45,38 @@ RETIRED_COMPATIBILITY_CONTROLS = (
     "INFLIGHT_STATE.md",
 )
 
-STARTUP_SURFACE_CONTROLS = CURRENT_ORIENTATION_CONTROLS + RETIRED_COMPATIBILITY_CONTROLS
+HISTORICAL_ROOT_GUARDS = (
+    "STATE.md",
+    "HANDOFF_ARCHIVE.md",
+    "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md",
+    "UDT_SCIENTIFIC_FRONTIER_2026-07-19.md",
+    "PURSUIT_CHARTER_2026-07-04.md",
+    "UDT_ELEGANT_FRAME.md",
+    "SIMPLE_METRIC_MACRO.md",
+    "PROBLEM_STATEMENT.md",
+    "CODEX_ZERO_CONTEXT_STARTUP_REHEARSAL_2026-07-19.md",
+    "CODEX_ZERO_CONTEXT_STARTUP_REHEARSAL_PREREG_2026-07-19.md",
+)
+
+FIXED_ROOT_PROVENANCE_PATHS = (
+    "CODEX_STARTUP_REHEARSAL_2026-07-17.md",
+    "codex_rehearsal_final.md",
+    "codex_rehearsal_transcript.txt",
+)
+
+STARTUP_ARCHIVE_CONTROLS = (
+    "archive/startup_surface_2026-08-22_pre_cleanup/README.md",
+    "archive/startup_surface_2026-08-22_pre_cleanup/BASELINE_REHEARSAL_LEDGER.tsv",
+    "archive/startup_surface_2026-08-22_pre_cleanup/POST_REPAIR_REHEARSAL_LEDGER.tsv",
+    "archive/startup_surface_2026-08-22_pre_cleanup/REPAIR_SCOPE.md",
+)
+
+STARTUP_SURFACE_CONTROLS = (
+    CURRENT_ORIENTATION_CONTROLS
+    + RETIRED_COMPATIBILITY_CONTROLS
+    + HISTORICAL_ROOT_GUARDS
+    + STARTUP_ARCHIVE_CONTROLS
+)
 
 MAPPED_SKILL_FILES = (
     ".claude/skills/no-shortcuts/SKILL.md",
@@ -163,33 +194,15 @@ def validate_startup_surface(root: Path) -> None:
             "phi_pair",
             "c_eff",
             "G166--G218",
-            "G196",
             "G197",
-            "G198",
-            "G199",
-            "G200",
-            "G201",
-            "G202",
-            "G203",
-            "G204",
-            "G205",
-            "G206",
-            "G207",
-            "G208",
-            "G209",
-            "G210",
-            "G211",
-            "G212",
-            "G213",
-            "G214",
             "G215",
             "G216",
             "G217",
             "G218",
+            "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
             "formula-level regression",
-            "off-ray",
             "G116/G189",
             "construction inputs",
             "udt_observed_angular_pattern_raw_restart_2026-08-12",
@@ -198,16 +211,8 @@ def validate_startup_surface(root: Path) -> None:
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "archive/startup_surface_2026-08-17_pre_zoomout",
             "archive/startup_surface_2026-08-21_pre_g197",
-            "physical carrier",
-            "O(2)",
-            "lambda",
-            "covariant",
-            "rank ten",
-            "conformal",
-            "density",
-            "bivector area bilinear",
-            "codimension eleven",
-            "numerical valuation",
+            "archive/startup_surface_2026-08-22_pre_cleanup",
+            "higher/full",
             "OPEN",
         ):
             require(token in normalized, f"marked current block lacks {token}: {name}")
@@ -225,9 +230,6 @@ def validate_startup_surface(root: Path) -> None:
     ):
         require(token in live, f"LIVE lacks protected local path: {token}")
         require(token in handoff, f"HANDOFF lacks protected local path: {token}")
-    normalized_live = " ".join(live.split())
-    for token in ("parity-even", "registered non-collinear witness"):
-        require(token in normalized_live, f"LIVE lacks G146 bounded caveat: {token}")
     require("udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/" in controls["AGENTS.md"],
             "AGENTS lacks protected curvature-atlas guard")
     require("Primary-kernel regression gate" in controls["AGENTS.md"],
@@ -243,6 +245,9 @@ def validate_startup_surface(root: Path) -> None:
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
+            "UDT_COMMON_SCALE_NEUTRALITY_POSTULATE_2026-07-15.md",
+            "SIMPLE_METRIC_MACRO.md",
+            "pointwise-`phi`",
         ),
         "INDEX.md": (
             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
@@ -272,6 +277,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/",
             "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/",
             "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/",
+            "udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/",
             "udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/",
             "udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/",
             "udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/",
@@ -289,6 +295,9 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
+            "archive/startup_surface_2026-08-22_pre_cleanup/",
+            "archive/scaffolded_kernel_controls_2026-08-19/README.md",
+            "Historical negative controls",
             "CLAUDE.md",
             "MEMORY.md",
             "stop and give the orientation report",
@@ -407,6 +416,10 @@ def validate_startup_surface(root: Path) -> None:
             "INDEX.md",
             "MEMORY.md",
             "stop and give the orientation report",
+            "archive/startup_surface_2026-08-22_pre_cleanup/",
+            "codex_rehearsal_final.md",
+            "historical/search-only evidence",
+            "common-scale, elegant-frame, simple-metric, problem-statement",
         ),
         "CLAUDE.md": (
             "This file is binding method, not scientific status",
@@ -544,10 +557,35 @@ def validate_startup_surface(root: Path) -> None:
         require(phrase in normalized_claude, f"CLAUDE skill mapping missing or changed: {phrase}")
     for relative in MAPPED_SKILL_FILES:
         require((root / relative).is_file(), f"mapped CLAUDE skill missing: {relative}")
+    completeness_skill = (root / ".claude/skills/completeness-map/SKILL.md").read_text(encoding="utf-8")
+    require(
+        "`archive/SOLVER_COMPLETENESS_MAP.md`" in completeness_skill,
+        "completeness skill still targets missing live root instrument",
+    )
+    require(
+        (root / "archive/SOLVER_COMPLETENESS_MAP.md").is_file(),
+        "completeness skill archive target missing",
+    )
+    require(
+        "update every push" not in completeness_skill,
+        "completeness skill retains obsolete update-every-push instruction",
+    )
 
     require(
         re.search(r"\budt_g\d+", controls["README.md"], flags=re.IGNORECASE) is None,
         "README hard-codes a moving G-frontier package",
+    )
+
+    require_ordered_tokens(
+        controls["INDEX.md"],
+        (
+            "Chosen-family evaluators/controls:",
+            "udt_g196_longitudinal_screen_mixing_descent_2026-08-20/",
+            "Historical negative controls — never kernel inputs",
+            "udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/",
+            "archive/scaffolded_kernel_controls_2026-08-19/README.md",
+        ),
+        "INDEX chosen-family/scaffold quarantine",
     )
 
     require(
@@ -583,11 +621,55 @@ def validate_startup_surface(root: Path) -> None:
         and len({row["current_path"] for row in relocation_rows}) == 1114,
         "relocation ledger path columns must remain unique",
     )
+    relocation_by_current = {row["current_path"]: row for row in relocation_rows}
+    for relative in FIXED_ROOT_PROVENANCE_PATHS:
+        require(
+            relative in relocation_by_current
+            and relocation_by_current[relative]["path_status"] == "ROOT_RETAINED",
+            f"fixed root provenance disposition changed: {relative}",
+        )
 
-    for control in STARTUP_SURFACE_CONTROLS:
+    for control in CURRENT_ORIENTATION_CONTROLS + RETIRED_COMPATIBILITY_CONTROLS:
         lowered = controls[control].lower()
         for token in STALE_STARTUP_TOKENS:
             require(token.lower() not in lowered, f"stale startup token {token}: {control}")
+
+    for relative in HISTORICAL_ROOT_GUARDS:
+        opening = " ".join(controls[relative].splitlines()[:12]).lower()
+        require(
+            ("historical" in opening or "superseded" in opening) and "not current" in opening,
+            f"historical root guard missing or weak: {relative}",
+        )
+
+    for relative in FIXED_ROOT_PROVENANCE_PATHS:
+        require((root / relative).is_file(), f"fixed root provenance missing: {relative}")
+        require(relative in controls["AGENTS.md"], f"AGENTS lacks fixed-root quarantine: {relative}")
+        require(relative in controls["README.md"], f"README lacks fixed-root quarantine: {relative}")
+    require("memory_export.md" in controls["AGENTS.md"], "AGENTS lacks optional memory-export quarantine")
+    require("memory_export.md" in controls["README.md"], "README lacks optional memory-export quarantine")
+    optional_memory = root / "memory_export.md"
+    if optional_memory.is_file():
+        opening = " ".join(optional_memory.read_text(encoding="utf-8").splitlines()[:12]).lower()
+        require(
+            "historical" in opening and ("not current" in opening or "not startup" in opening),
+            "optional memory export lacks historical guard",
+        )
+
+    archive_pointer = controls["archive/startup_surface_2026-08-22_pre_cleanup/README.md"]
+    for token in (
+        "4c532da4acb3dd951489f7506d24ded58a205e7f",
+        "git show 4c532da4:<path>",
+        "Fixed-base July 17 rehearsal files remain at root",
+        "changes no scientific verdict",
+        "POST_REPAIR_REHEARSAL_LEDGER.tsv",
+    ):
+        require(token in archive_pointer, f"pre-cleanup archive pointer lacks {token}")
+
+    post_rehearsal = controls[
+        "archive/startup_surface_2026-08-22_pre_cleanup/POST_REPAIR_REHEARSAL_LEDGER.tsv"
+    ]
+    for token in ("C_final", "ROOT_final", "PASS", "122_full_tests"):
+        require(token in post_rehearsal, f"post-repair rehearsal ledger lacks {token}")
 
     for relative in (
         "CURRENT_SCIENTIFIC_PREMISES.tsv",

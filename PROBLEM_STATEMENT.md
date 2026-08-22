@@ -1,5 +1,10 @@
 # The Problem, the Goal, and the AI Headwinds
 
+> **HISTORICAL FRAMING DOCUMENT — NOT CURRENT PREMISE AUTHORITY.** Its pointwise-`phi`, areal-radius,
+> radial-lock, matter, and solver language records an earlier program frame. The current founding
+> result acts on supplied ordered depth; complete pair and pointwise ownership must be read from
+> `LIVE.md` and `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+
 *This document has two jobs. First, to lay out — in the abstract — the contours of the problem and
 the goal: the physics that is meant to emerge from a single metric and the assumption of positional
 dilation, including the metric itself and its derivation from the postulate of positional dilation

@@ -1,5 +1,9 @@
 # PURSUIT CHARTER — written 2026-07-04 at the Fable→successor model handover
 
+> **SUPERSEDED HISTORICAL CHARTER — NOT CURRENT AND NOT A STARTUP OR DECISION AUTHORITY.** Its read order and
+> `CURRENT PENDING DECISION` are preserved as dated provenance. Follow root `AGENTS.md`; `LIVE.md`
+> controls current status.
+
 **What this is:** the load-bearing orientation document for the NEXT driver, written deliberately
 explicit — assume nothing is obvious. Read order: LIVE.md TOPMOST → this charter → CLAUDE.md
 "How we work" + DRIVER TRIGGERS + the `.claude/skills/` → HANDOFF.md TOP. Charles's standing

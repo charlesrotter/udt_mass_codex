@@ -43,5 +43,15 @@ low-churn README.
 
 The pre-zoomout startup surface is preserved under
 `archive/startup_surface_2026-08-17_pre_zoomout/`; earlier verbose startup prose remains under
-`archive/startup_surface_2026-08-14/`. Both have SHA-256 provenance and neither is current authority.
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` is a historical compatibility checkpoint.
+`archive/startup_surface_2026-08-14/`; the pre-G197 and pre-current-cleanup surfaces are indexed by
+`archive/startup_surface_2026-08-21_pre_g197/` and
+`archive/startup_surface_2026-08-22_pre_cleanup/`. None is current authority.
+
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`,
+`CODEX_STARTUP_REHEARSAL_2026-07-17.md`, `codex_rehearsal_final.md`, and
+`codex_rehearsal_transcript.txt` are historical/search-only evidence. The same is true of the ignored
+local `memory_export.md` when it is present.
+Some remain at root because fixed-base provenance requires their paths. Their embedded `current`,
+branch, HEAD, or `NEXT` language is historical and cannot override the bounded startup route.
+The same rule applies to the bannered common-scale, elegant-frame, simple-metric, problem-statement,
+and pursuit-charter documents: they are dated controls, not current premise or execution owners.

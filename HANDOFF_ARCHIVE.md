@@ -1,5 +1,8 @@
 # HANDOFF ARCHIVE — newest first
 
+> **HISTORICAL HANDOFF LOG — NOT CURRENT STATUS OR STARTUP AUTHORITY.** Follow root `AGENTS.md` and
+> the bounded current block in `HANDOFF.md`; embedded `live`, `next`, and frontier language below is dated.
+
 ## [moved 2026-07-16 from HANDOFF.md]
 ## [SUPERSEDED layer] (2026-07-12 — H3 particle-mass, corrected-operator stability arc)
 
@@ -1399,4 +1402,3 @@ would drag the wrong frame back in.
   via 1+z=e^phi.
 - Provenance: commit scripts WITH results docs; AUDIT.md / step0_bridge*.py / dpf_verify_indep.py are
   Charles's untracked working files — leave them.
-

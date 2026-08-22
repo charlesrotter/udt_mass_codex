@@ -20,31 +20,22 @@
 - Coframe pullback: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
 - Branch/equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
 - Matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
-- Parametric frequency/screen evaluator: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`
-- Real-matrix time-live tile: `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`
-- Current longitudinal result: `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
-- Provenance/startup audit:
-  `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`
-- Bidirectional same-metric germ:
+- Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
+  `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`;
+  `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
+- Provenance and bidirectional germ: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`;
   `udt_g198_bidirectional_null_germ_map_2026-08-21/`
-- Primary-metric radial two-direction result:
-  `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`
-- Primary-metric nonradial two-direction result:
+- Primary two-direction results: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`;
   `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
-- Primary-metric regime amplitude:
-  `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`
-- Quiet overlap: `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`
-- Static regularity: `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
+- Regime/quiet/regularity: `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`;
+  `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`;
+  `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`;
+  `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
 - Completion: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`
-- Common-conformal live/nonspherical robustness:
-  `udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`
-- Trace-free angular-screen live robustness:
-  `udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`
-- Radial-screen mixing robustness:
-  `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`
-- Time-space shift robustness:
-  `udt_g209_g205_timespace_shift_robustness_2026-08-21/`
-- Spatial-volume robustness:
+- Robustness G206--G210: `udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`;
+  `udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`;
+  `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`;
+  `udt_g209_g205_timespace_shift_robustness_2026-08-21/`;
   `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
 - Complete diagonal-scalar basis closure:
   `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`
@@ -90,14 +81,20 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only:
   `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
-- Founding metric orientation: `SIMPLE_METRIC_MACRO.md`
+- Founding reciprocal source, interpreted only through the current premise ledger:
+  `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+- Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Supplied germs and raw incidence controls: query G168--G171, then controlling G215, in the registry.
-- Scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
+## Historical negative controls — never kernel inputs
+
+- G164/G165 scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
+  `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
+- Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 ## Matter/stability lane
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
 It preserves plural conditional mass-from-geometry branches. For topology begin with
@@ -108,3 +105,5 @@ the stopped native-on-shell draft, or local unbanked packages without explicit a
 ## Archives
 - Startup snapshots: `archive/startup_surface_2026-08-21_pre_g197/`,
   `archive/startup_surface_2026-08-17_pre_zoomout/`, and `archive/startup_surface_2026-08-14/`.
+- Pre-cleanup G218 startup surface and stale-root disposition:
+  `archive/startup_surface_2026-08-22_pre_cleanup/`.

@@ -8,7 +8,9 @@ description: Use every push to declare solver coverage before trusting a result.
 The real project is a COMPLETE, numerically-tractable, UDT-native solver that drops NO
 potentially-emergent sector/effect/operator and is honest about its regime of validity. Track
 COVERAGE, not just the next step. Every result is ONE TILE with a regime stamp, next to the
-still-blank sectors. Instrument = `SOLVER_COMPLETENESS_MAP.md` (update every push).
+still-blank sectors. The former root `SOLVER_COMPLETENESS_MAP.md` is preserved at
+`archive/SOLVER_COMPLETENESS_MAP.md` and subsumed; it is not a live file to update. Record the criteria below in the task's preregistration, package ledger,
+or current program only when the task actually runs a solve.
 
 ## The ten completeness criteria (a variational theory's full solution space is exhausted iff all ten are covered)
 LAYER 1 — what you're solving:

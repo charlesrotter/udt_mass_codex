@@ -1,5 +1,8 @@
 # Codex Zero-Context Startup Rehearsal — Preregistration
 
+> **HISTORICAL PREREGISTRATION — NOT CURRENT STARTUP AUTHORITY.** Retained as operational
+> provenance. Follow root `AGENTS.md` for the current startup route.
+
 Date: 2026-07-19
 
 Base: `ca2bf9eb042783cc028c5dd42fab84158c83a608`

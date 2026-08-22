@@ -1,6 +1,11 @@
 # Simple-metric macro — foundation (live)
 
-**Date:** 2026-07-08 · **Status: LIVE foundation** (Charles: stick to simple version; free \(D_A\) quarantined).  
+> **HISTORICAL STATIC-SPHERICAL/AREAL SLICE CONTROL — NOT CURRENT AUTHORITY OR THE COMPLETE ARENA.** The metric
+> remains a useful supplied primary slice, but pointwise `phi`, its profile, and the observer-pair
+> germ are not founded automatically. Current ownership is in `CURRENT_SCIENTIFIC_PREMISES.tsv` and
+> the G166--G218 chain routed by `INDEX.md`.
+
+**Date:** 2026-07-08 · **Status: historical bounded slice control** (the contemporaneous instruction was to stick to the simple version; free \(D_A\) was quarantined).
 **Frame:** `UDT_ELEGANT_FRAME.md`  
 **CAS:** `simple_metric_FE_rederive.py`  
 **Quarantine:** `grok/quarantine_free_DA/` (do not treat as live)

@@ -94,6 +94,17 @@ def _startup_copy(tmp_path: Path) -> Path:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, destination)
 
+    for relative in premise_guard.FIXED_ROOT_PROVENANCE_PATHS:
+        source = REPO / relative
+        destination = tmp_path / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
+    solver_map = Path("archive/SOLVER_COMPLETENESS_MAP.md")
+    solver_map_destination = tmp_path / solver_map
+    solver_map_destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(REPO / solver_map, solver_map_destination)
+
     for relative in CURRENT_TARGETS:
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -186,7 +197,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G218", "G196", "G197", "G198", "G199", "G200", "G201", "G202", "G203", "G204", "G205", "G206", "G207", "G208", "G209", "G210", "G211", "G212", "G213", "G214", "G215", "G216", "G217", "G218"))
+@pytest.mark.parametrize("token", ("G166--G218", "G197", "G215", "G216", "G217", "G218", "G190--G198"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")
@@ -244,6 +255,66 @@ def test_catch_missing_current_parent_route(tmp_path: Path) -> None:
         "REMOVED_REACHABILITY/",
     )
     with pytest.raises(SystemExit, match="current route lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_g203_route(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "INDEX.md",
+        "udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/",
+        "REMOVED_G203/",
+    )
+    with pytest.raises(SystemExit, match="current route lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_historical_root_guard_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / "UDT_ELEGANT_FRAME.md"
+    _replace(
+        path,
+        "HISTORICAL WORKING FRAME — NOT CURRENT BINDING STATUS",
+        "UNBANNERED WORKING FRAME",
+    )
+    with pytest.raises(SystemExit, match="historical root guard missing"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_scaffold_quarantine_route_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "INDEX.md",
+        "archive/scaffolded_kernel_controls_2026-08-19/README.md",
+        "REMOVED_SCAFFOLD_QUARANTINE",
+    )
+    with pytest.raises(SystemExit, match="current route lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_obsolete_completeness_target(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / ".claude/skills/completeness-map/SKILL.md"
+    _replace(
+        path,
+        "`archive/SOLVER_COMPLETENESS_MAP.md` and subsumed",
+        "use root `SOLVER_COMPLETENESS_MAP.md`",
+    )
+    with pytest.raises(SystemExit, match="completeness skill"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "INDEX.md", "Chosen-family evaluators/controls:", "Current longitudinal result:")
+    with pytest.raises(SystemExit, match="INDEX chosen-family/scaffold quarantine"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_fixed_root_quarantine_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "README.md", "codex_rehearsal_final.md", "REMOVED_REHEARSAL_FINAL.md")
+    with pytest.raises(SystemExit, match="current route lacks|README lacks fixed-root quarantine"):
         premise_guard.validate_startup_surface(root)
 
 

@@ -1,7 +1,11 @@
 # UDT Scientific Frontier — Co-Presence, Bootstrap, and Angular–Toric Hopf Closure
 
+> **HISTORICAL COMPATIBILITY CHECKPOINT — NOT CURRENT STATUS OR QUEUE.** Embedded words such as
+> `current`, `active`, and `next` below describe dated states only. Start with `AGENTS.md`, then the
+> bounded current blocks in `LIVE.md` and `HANDOFF.md`.
+
 Date: 2026-07-28
-Authority: current navigation/status checkpoint; not canonization
+Authority: historical navigation/status checkpoint; not canonization
 Controlling rule: `LIVE.md` wins on conflict
 
 ## August 14 startup precedence notice
