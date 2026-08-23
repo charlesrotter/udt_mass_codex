@@ -1,0 +1,47 @@
+{
+  "checks": {
+    "all_commands_zero": true,
+    "constant_kernel": true,
+    "cumulative_ranks": true,
+    "held_out_exact": true,
+    "independent_pass": true,
+    "left_nullity_8": true,
+    "null_rank_19": true,
+    "nullity_1": true,
+    "pilot_disclosed": true,
+    "source_hashes": true,
+    "structural_negative_controls_7_of_7": true,
+    "synthetic_rejected": true,
+    "timelike_rank_20": true
+  },
+  "landing": "COMMON_ALGEBRAIC_CURVATURE_COMPATIBILITY_DERIVED_CONDITIONALLY__FROZEN_NINE_DIRECTION_GENERIC_WITNESS_RECOVERS_19_MODES__ONE_CHOSEN_TIMELIKE_SECTIONAL_DATUM_RECOVERS_THE_TWENTIETH",
+  "pass": true,
+  "runs": [
+    {
+      "command": "/usr/bin/python3 derive_curvature_tomography.py",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "wrote DERIVATION_RESULT.json\ncumulative ranks: [3, 6, 9, 12, 15, 16, 17, 18, 19]\nnull rank/nullity/left-nullity: 19/1/8\ntimelike augmented rank: 20\nheld-out prediction exact: True\n"
+    },
+    {
+      "command": "/usr/bin/python3 verify_independent.py",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"augmented_rank\": 20,\n  \"constant_curvature_annihilated\": true,\n  \"cumulative_null_ranks\": [\n    3,\n    6,\n    9,\n    12,\n    15,\n    16,\n    17,\n    18,\n    19\n  ],\n  \"held_out_rank_increase\": 0,\n  \"implementation\": \"standard-library Fraction with independent builders and elimination\",\n  \"null_rank\": 19,\n  \"pass\": true,\n  \"production_matrix_exact_match\": true,\n  \"timelike_constant_value\": \"-1\"\n}\n"
+    },
+    {
+      "command": "/usr/bin/python3 run_hostile_catches.py",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"catches\": {\n    \"H1_deterministic_incompatible_one_entry_perturbation_detected\": true,\n    \"H2_constant_curvature_null_silence_detected\": true,\n    \"H3_null_only_full_rank_overclaim_rejected\": true,\n    \"H4_non_bianchi_tensor_detected_and_excluded_by_basis\": true,\n    \"H5_nonnull_direction_detected\": true,\n    \"H6_nonscreen_vector_detected\": true,\n    \"H7_eight_nonvacuous_syzygies\": true\n  },\n  \"pass\": true,\n  \"passed\": 7,\n  \"total\": 7\n}\n"
+    }
+  ],
+  "source_checks": {
+    "udt_g114_common_source_three_observer_network_2026-08-16/AUDIT_REPORT.md": true,
+    "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/EXACT_DERIVATION.md": true,
+    "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md": true,
+    "udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/AUDIT_REPORT.md": true,
+    "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/AUDIT_REPORT.md": true,
+    "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/EXACT_DERIVATION.md": true
+  }
+}

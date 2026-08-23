@@ -1,0 +1,14 @@
+{
+  "catches": {
+    "H1_deterministic_incompatible_one_entry_perturbation_detected": true,
+    "H2_constant_curvature_null_silence_detected": true,
+    "H3_null_only_full_rank_overclaim_rejected": true,
+    "H4_non_bianchi_tensor_detected_and_excluded_by_basis": true,
+    "H5_nonnull_direction_detected": true,
+    "H6_nonscreen_vector_detected": true,
+    "H7_eight_nonvacuous_syzygies": true
+  },
+  "pass": true,
+  "passed": 7,
+  "total": 7
+}

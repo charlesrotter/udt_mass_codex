@@ -1,0 +1,21 @@
+{
+  "augmented_rank": 20,
+  "constant_curvature_annihilated": true,
+  "cumulative_null_ranks": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "held_out_rank_increase": 0,
+  "implementation": "standard-library Fraction with independent builders and elimination",
+  "null_rank": 19,
+  "pass": true,
+  "production_matrix_exact_match": true,
+  "timelike_constant_value": "-1"
+}

@@ -16,7 +16,9 @@ Multiplier composition, endpoint-gauge cancellation, inverse ruler carry, and lo
 therefore important typing and evaluation laws, but they do not by themselves force different
 outgoing directions to belong to one metric.
 
-The first genuinely cross-direction metric-native joint is **common-curvature realizability**.
+The first genuinely same-event common-curvature joint in the active G226 route is
+**common algebraic-curvature compatibility**.  This does not displace G114's earlier, different
+beam-Lagrangian intersection compatibility.
 At one event, every infinitesimal null screen tide must have the form
 
 \[
@@ -24,8 +26,9 @@ At one event, every infinitesimal null screen tide must have the form
 \]
 
 for one algebraic Riemann tensor `R`, not one freely chosen symmetric matrix per direction.  This
-gives a finite-dimensional, falsifiable compatibility condition on independently assigned phase
-germs.
+gives a finite-dimensional, falsifiable compatibility condition on independently assigned
+**infinitesimal affine phase generators**.  An isolated finite G226 path-ordered transfer matrix
+does not uniquely determine endpoint curvature and is not sufficient input to G227.
 
 ## The silent mode
 
@@ -53,7 +56,8 @@ datum is nonzero on `K` and should restore rank 20.
 - G227 asks whether multiple **infinitesimal directional generators at one event** are projections
   of one and the same 20-component curvature tensor.
 
-The proposed result is a realizability and tomography theorem, not another loop-closure rule.
+The proposed result is an algebraic-compatibility and tomography theorem, not another loop-closure
+rule or a proof of the separate local metric-2-jet realization theorem.
 
 ## Hard ceiling
 
@@ -70,4 +74,3 @@ Flat `R x T^3` admits distinct winding null geodesics with identical flat curvat
 ratio, and flat Jacobi phase.  Common curvature, Bianchi identities, G226 composition, and all
 local compatibility gates can hold while no one winding branch is selected.  G227 must not be
 promoted into a population or preferred-path theorem.
-

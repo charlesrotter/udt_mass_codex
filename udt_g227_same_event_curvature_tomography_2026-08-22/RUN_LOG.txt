@@ -1,0 +1,70 @@
+$ /usr/bin/python3 derive_curvature_tomography.py
+wrote DERIVATION_RESULT.json
+cumulative ranks: [3, 6, 9, 12, 15, 16, 17, 18, 19]
+null rank/nullity/left-nullity: 19/1/8
+timelike augmented rank: 20
+held-out prediction exact: True
+
+exit=0
+
+$ /usr/bin/python3 verify_independent.py
+{
+  "augmented_rank": 20,
+  "constant_curvature_annihilated": true,
+  "cumulative_null_ranks": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "held_out_rank_increase": 0,
+  "implementation": "standard-library Fraction with independent builders and elimination",
+  "null_rank": 19,
+  "pass": true,
+  "production_matrix_exact_match": true,
+  "timelike_constant_value": "-1"
+}
+
+exit=0
+
+$ /usr/bin/python3 run_hostile_catches.py
+{
+  "catches": {
+    "H1_deterministic_incompatible_one_entry_perturbation_detected": true,
+    "H2_constant_curvature_null_silence_detected": true,
+    "H3_null_only_full_rank_overclaim_rejected": true,
+    "H4_non_bianchi_tensor_detected_and_excluded_by_basis": true,
+    "H5_nonnull_direction_detected": true,
+    "H6_nonscreen_vector_detected": true,
+    "H7_eight_nonvacuous_syzygies": true
+  },
+  "pass": true,
+  "passed": 7,
+  "total": 7
+}
+
+exit=0
+
+{
+  "checks": {
+    "all_commands_zero": true,
+    "constant_kernel": true,
+    "cumulative_ranks": true,
+    "held_out_exact": true,
+    "independent_pass": true,
+    "left_nullity_8": true,
+    "null_rank_19": true,
+    "nullity_1": true,
+    "pilot_disclosed": true,
+    "source_hashes": true,
+    "structural_negative_controls_7_of_7": true,
+    "synthetic_rejected": true,
+    "timelike_rank_20": true
+  },
+  "pass": true
+}

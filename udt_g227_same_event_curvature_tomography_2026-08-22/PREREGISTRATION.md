@@ -4,6 +4,16 @@ Date: 2026-08-22
 
 Question type: `METRIC_LED`.
 
+Terminology clarification retained with the frozen test: every occurrence of “timelike chord” in
+the preregistered motivation means the explicitly `CHOSE` sectional-curvature functional
+`R(E,U,E,U)`.  It does not claim ownership of a populated physical observer chord.  Likewise,
+“phase germ” means an infinitesimal affine Jacobi generator/controlled short-edge jet, not an
+isolated finite G226 transfer matrix.
+
+Post-outcome type repair: the frozen phrase “common-curvature realizability” below is narrowed to
+**common algebraic-curvature compatibility**.  G227 does not invoke or prove the separate local
+metric-2-jet realization theorem.  The frozen candidate and numerical contract are unchanged.
+
 ## Whiteboard-pilot disclosure
 
 Before this production preregistration, independent whiteboard agents performed small exact-rational
