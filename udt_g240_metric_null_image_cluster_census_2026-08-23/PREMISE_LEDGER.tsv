@@ -1,0 +1,12 @@
+id	object	status	role	open_or_guard
+P01	complete Lorentz metric history	CONDITIONAL_INPUT	determines null relation after supplied	not selected by G240
+P02	observer event and calibrated sky frame	CONDITIONAL_QUERY_INPUT	observation endpoint and coordinates	physical observer population open
+P03	source-parent domain and incidence map	CONDITIONAL_QUERY_INPUT	parents and source events	physical incidence open
+P04	all regular null images	CHOSE_QUERY_PROTOCOL	count every regular branch once	not a universal detection law
+P05	unit image multiplicity	DERIVED_AFTER_P04	counting measure coefficient	no arbitrary branch weights
+P06	locally finite proper regular relation	CONDITIONAL_STRATUM	finite measurable image fibers	caustic and infinite-image strata open
+P07	Poisson parent intensity	CHOSE_CONTROL_HYPOTHESIS	factorial-moment control	not native UDT source physics
+P08	null branch and Jacobi geometry	DERIVED_CONDITIONAL	metric observation relation	requires supplied history and query
+P09	factorial-moment evaluator	STANDARD_MATHEMATICAL_EVALUATOR	computes image-process moments	no physical mechanism imported
+P10	survey reference and outcomes	ABSENT	no observational selection	must remain unopened
+P11	P1 G116 G189 X_max fit protected work	FORBIDDEN	regression guard	never construction input
