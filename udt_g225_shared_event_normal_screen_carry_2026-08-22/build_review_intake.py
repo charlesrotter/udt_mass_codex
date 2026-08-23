@@ -15,6 +15,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.resolve()
 FIXED_RESULT_COMMIT = "465991dd"
+R1_PREREGISTRATION_COMMIT = "78818a4818fc20f2e45efbec8b844772f6901cab"
+R1_IMPLEMENTATION_COMMIT = "6db43e9606acce0bcfc41a5e7557d9f1c514d292"
+R2_PREREGISTRATION_COMMIT = "857b5277102e7ed874604b68a59d5cd32f2635ee"
 
 PACKAGE_FILES = (
     "MAP.md",
@@ -41,6 +44,9 @@ PACKAGE_FILES = (
     "FRESH_ADVERSARIAL_REVIEW.md",
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_FOLLOWUP_REQUEST.md",
+    "REPAIR_FOLLOWUP_REVIEW.md",
+    "REPAIR_R2_PREREGISTRATION.md",
+    "FINAL_REPAIR_FOLLOWUP_REQUEST.md",
     "build_review_intake.py",
 )
 
@@ -49,21 +55,40 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def main() -> None:
-    head = subprocess.run(
-        ["git", "rev-parse", "--short=8", "HEAD"],
+def full_commit(revision: str) -> str:
+    return subprocess.run(
+        ["git", "rev-parse", revision],
         cwd=REPO,
         check=True,
         capture_output=True,
         text=True,
     ).stdout.strip()
-    ancestry = subprocess.run(
-        ["git", "merge-base", "--is-ancestor", FIXED_RESULT_COMMIT, "HEAD"],
+
+
+def direct_parent(revision: str) -> str:
+    return full_commit(f"{revision}^")
+
+
+def require_ancestor(ancestor: str, descendant: str) -> None:
+    result = subprocess.run(
+        ["git", "merge-base", "--is-ancestor", ancestor, descendant],
         cwd=REPO,
         check=False,
     )
-    if ancestry.returncode != 0:
-        raise RuntimeError(f"fixed G225 result {FIXED_RESULT_COMMIT} is not an ancestor of {head}")
+    if result.returncode != 0:
+        raise RuntimeError(f"required ancestry absent: {ancestor} -> {descendant}")
+
+
+def main() -> None:
+    head = full_commit("HEAD")
+    require_ancestor(FIXED_RESULT_COMMIT, head)
+    require_ancestor(R1_PREREGISTRATION_COMMIT, R1_IMPLEMENTATION_COMMIT)
+    require_ancestor(R1_IMPLEMENTATION_COMMIT, head)
+    require_ancestor(R2_PREREGISTRATION_COMMIT, head)
+    if direct_parent(R1_IMPLEMENTATION_COMMIT) != R1_PREREGISTRATION_COMMIT:
+        raise RuntimeError("R1 implementation is not the direct child of R1 preregistration")
+    if direct_parent(head) != R2_PREREGISTRATION_COMMIT:
+        raise RuntimeError("intake builder HEAD is not the direct child of R2 preregistration")
 
     intake = Path(tempfile.mkdtemp(prefix="udt_g225_screen_review_", dir="/tmp"))
     payloads: list[tuple[str, Path]] = []
@@ -76,6 +101,25 @@ def main() -> None:
         destination = intake / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, destination)
+        payloads.append((str(relative), destination))
+
+    commit_objects = (
+        R1_PREREGISTRATION_COMMIT,
+        R1_IMPLEMENTATION_COMMIT,
+        R2_PREREGISTRATION_COMMIT,
+        head,
+    )
+    for commit in commit_objects:
+        raw = subprocess.run(
+            ["git", "cat-file", "commit", commit],
+            cwd=REPO,
+            check=True,
+            capture_output=True,
+        ).stdout
+        relative = Path("git_commit_objects") / f"{commit}.commit"
+        destination = intake / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(raw)
         payloads.append((str(relative), destination))
 
     with (ROOT / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
@@ -105,6 +149,10 @@ def main() -> None:
         "status": "SEALED_READ_ONLY_REVIEW_INTAKE",
         "fixed_result_commit": FIXED_RESULT_COMMIT,
         "intake_builder_head": head,
+        "r1_preregistration_commit": R1_PREREGISTRATION_COMMIT,
+        "r1_implementation_commit": R1_IMPLEMENTATION_COMMIT,
+        "r2_preregistration_commit": R2_PREREGISTRATION_COMMIT,
+        "sealed_commit_objects": len(commit_objects),
         "package_payloads": len(PACKAGE_FILES),
         "frozen_source_payloads": len(source_rows),
         "listed_payloads": len(payloads),
