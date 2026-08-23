@@ -45,6 +45,7 @@ REQUIRED = (
     "FRESH_ADVERSARIAL_REVIEW.md",
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_IMPLEMENTATION.md",
+    "REPAIR_FOLLOWUP_REVIEW.md",
     "build_review_intake.py",
 )
 
@@ -117,7 +118,7 @@ def validate_payloads(
     require(final["status"] == "PASS", "final status")
     require(
         final["grade"]
-        == "DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_REPAIR__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP",
+        == "DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
         "final grade",
     )
     require(final["preregistration_commit"] == "a6b75622", "preregistration commit")
@@ -125,7 +126,7 @@ def validate_payloads(
     require(final["symbolic_checks"] == 24, "final symbolic count")
     require(final["independent_cases"] == 20000, "final case count")
     require(final["exact_rational_assertions"] == 220003, "final assertion count")
-    require(final["contract_mutations"] == 24, "mutation count")
+    require(final["contract_mutations"] == 25, "mutation count")
     require(final["shared_event_vertical_switch_unique"] is True, "final switch")
     require(final["vertical_carry_inverse_clock_representation"] is True, "final inverse carry")
     require(final["independent_direct_relation_constrained"] is False, "final direct boundary")
@@ -139,7 +140,7 @@ def validate_payloads(
     require(final["distinct_event_observation_repaired"] is True, "observation repair")
     require(final["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "review status")
     require(final["external_scientific_grade"] == "A-", "scientific grade")
-    require(final["repair_followup_review"] == "PENDING", "followup status")
+    require(final["repair_followup_review"] == "REPAIRS_ACCEPTED", "followup status")
     require(final["read_only_replay"] is True, "read-only replay")
     require(final["manifest_path_containment"] is True, "manifest containment")
     require(final["landing"] == LANDING, "final landing")
@@ -163,7 +164,7 @@ def main() -> None:
     catch = json.loads((ROOT / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     validate_payloads(derivation, independent, final)
     require(catch["status"] == "PASS", "catch status")
-    require(catch["mutations_rejected"] == 24, "catch mutation count")
+    require(catch["mutations_rejected"] == 25, "catch mutation count")
     require(catch["manifest_path_mutations_rejected"] == 2, "manifest path mutation count")
 
     exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
@@ -187,6 +188,9 @@ def main() -> None:
     review = (ROOT / "FRESH_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8")
     require("ACCEPT_WITH_REPAIRS" in review, "external review verdict missing")
     require("Scientific grade: `A-`" in review, "external grade missing")
+    followup = (ROOT / "REPAIR_FOLLOWUP_REVIEW.md").read_text(encoding="utf-8")
+    require("REPAIRS_ACCEPTED" in followup, "repair followup verdict missing")
+    require("Final bounded grade: `A-`" in followup, "repair followup grade missing")
 
     before = tree_hashes()
     env = dict(os.environ)
@@ -206,8 +210,8 @@ def main() -> None:
 
     print(
         "PASS: G224 package; 8 sources; 24 symbolic checks; 20,000 independent cases; "
-        "220,003 exact-rational assertions; 24 contract mutations; repaired observation scope; "
-        "true no-write replay"
+        "220,003 exact-rational assertions; 25 contract mutations; repaired observation scope; "
+        "external repairs accepted; true no-write replay"
     )
 
 

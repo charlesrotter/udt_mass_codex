@@ -38,10 +38,11 @@ def main() -> None:
         ("direct_counterexample", "i", "independent_direct_edge_counterexample", False),
         ("direction_control", "i", "different_null_direction_control", False),
         ("preregistration_commit", "f", "preregistration_commit", "UNFROZEN"),
+        ("final_grade", "f", "grade", "PENDING"),
         ("observation_repair", "f", "distinct_event_observation_repaired", False),
         ("review_grade", "f", "fresh_external_review", "ACCEPT_BOUNDED_LANDING"),
         ("scientific_grade", "f", "external_scientific_grade", "A+"),
-        ("followup_promotion", "f", "repair_followup_review", "ACCEPTED"),
+        ("followup_regression", "f", "repair_followup_review", "PENDING"),
     ]
     rejected: list[str] = []
     for name, target, field, value in mutations:

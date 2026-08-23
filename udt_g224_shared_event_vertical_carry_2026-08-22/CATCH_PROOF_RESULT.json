@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "mutations_attempted": 24,
-  "mutations_rejected": 24,
+  "mutations_attempted": 25,
+  "mutations_rejected": 25,
   "rejected": [
     "derivation_status",
     "outcome",
@@ -23,10 +23,11 @@
     "direct_counterexample",
     "direction_control",
     "preregistration_commit",
+    "final_grade",
     "observation_repair",
     "review_grade",
     "scientific_grade",
-    "followup_promotion"
+    "followup_regression"
   ],
   "manifest_path_mutations_attempted": 2,
   "manifest_path_mutations_rejected": 2

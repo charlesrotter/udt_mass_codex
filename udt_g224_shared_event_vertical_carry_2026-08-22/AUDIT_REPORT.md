@@ -14,8 +14,7 @@ __NO_SCREEN_MAP_OR_INDEPENDENT_DIRECT_RELATION_IS_DERIVED
 Grade:
 
 ```text
-DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_REPAIR
-__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP
+DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS
 ```
 
 ## Result
@@ -70,4 +69,4 @@ needed for physical relation composition. The result is therefore graded
 - independent-direct-relation counterexamples;
 - fresh external adversarial review: `ACCEPT_WITH_REPAIRS`, scientific grade `A-`;
 - sole documentation repair implemented and mechanically verified;
-- repair-only external follow-up: pending.
+- repair-only external follow-up: `REPAIRS_ACCEPTED`, final bounded grade `A-`.

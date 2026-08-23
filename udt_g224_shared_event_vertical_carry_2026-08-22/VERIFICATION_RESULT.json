@@ -1,12 +1,12 @@
 {
   "status": "PASS",
-  "grade": "DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_REPAIR__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP",
+  "grade": "DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
   "preregistration_commit": "a6b75622",
   "source_count": 8,
   "symbolic_checks": 24,
   "independent_cases": 20000,
   "exact_rational_assertions": 220003,
-  "contract_mutations": 24,
+  "contract_mutations": 25,
   "metric_clock_pairing_nondegenerate": true,
   "shared_event_vertical_switch_unique": true,
   "independent_affine_rescaling_invariant": true,
@@ -22,7 +22,7 @@
   "distinct_event_observation_repaired": true,
   "fresh_external_review": "ACCEPT_WITH_REPAIRS",
   "external_scientific_grade": "A-",
-  "repair_followup_review": "PENDING",
+  "repair_followup_review": "REPAIRS_ACCEPTED",
   "read_only_replay": true,
   "manifest_path_containment": true,
   "landing": "SHARED_MIDDLE_EVENT_AND_METRIC_UNIT_CLOCK_CANONICALLY_IDENTIFY_INCIDENT_FUTURE_NULL_VERTICAL_LINES__VERTICAL_SCALAR_CARRY_IS_THE_INVERSE_REPRESENTATION_OF_THE_ACTUAL_CLOCK_RATE_CHAIN__DISTINCT_EVENT_NORMALIZATION_IS_ABSTRACTLY_AVAILABLE_BUT_NOT_A_COMPOSABLE_VERTEX_RELATION__NO_SCREEN_MAP_OR_INDEPENDENT_DIRECT_RELATION_IS_DERIVED"
