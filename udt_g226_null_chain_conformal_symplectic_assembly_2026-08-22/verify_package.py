@@ -44,6 +44,8 @@ REQUIRED = (
     "FRESH_ADVERSARIAL_REVIEW.md",
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_FOLLOWUP_REQUEST.md",
+    "REPAIR_FOLLOWUP_REVIEW.md",
+    "FINALIZATION_NOTE.md",
     "build_review_intake.py",
     "verify_package.py",
 )

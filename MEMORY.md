@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G225 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G226 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -20,8 +20,11 @@ correspondence; G219 separates moving protocols; G220 gives the query-typed null
 the complete chord upstream. G222 closes the local null plane and G188 normal screen. G223 gives
 the mixed line pairing, inverse clock weight, and local fiber coordinate. G224 closes scalar carry
 at a shared event. G225 gives the non-antipodal least-turning screen map and finite `O(2)` holonomy,
-not selected transport. Protocol population, finite G188 phase assembly, global scalar, and history
-remain open.
+not selected transport. G226 combines that vertex map with G188's full Jacobi phase and G224's
+scalar carry on one supplied chain: the clock ratio is the exact conformal-symplectic multiplier,
+the ruler carry is its inverse, gauges cancel, caustics retain an invertible full phase, and matrix
+holonomy survives. Protocol population, selected vertex transport, finite congruence/network
+ownership, global scalar, and history remain open.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -49,12 +52,11 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Assemble the already derived channels on one supplied composable null chain: G188 along-edge
-screen connection/Jacobi phase, G224 exact scalar vertex switch, and G225 pointwise least-turning
-screen comparison. Classify the lawful path-labelled matrix functor, middle-screen gauge
-covariance, caustic-safe phase-space composition, and residual holonomy. Do not promote G225's
-pointwise evaluator into a selected physical vertex transport or force an independently supplied
-direct relation. No fits, `X_max`, transfer/history selection, or protected drafts.
+On a supplied finite null congruence/network, determine whether G226's path-labelled phase obeys
+any further metric-native compatibility beyond ordinary functorial composition and curvature
+identities, and whether that compatibility restricts coexisting germs or merely evaluates them.
+Do not promote G225 into selected transport, force an independent direct relation, or infer
+population/history. No fits, `X_max`, transfer/history selection, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

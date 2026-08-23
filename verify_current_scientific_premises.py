@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G225",
+            "G166--G226",
             "G197",
             "G215",
             "G216",
@@ -206,6 +206,7 @@ def validate_startup_surface(root: Path) -> None:
             "G223",
             "G224",
             "G225",
+            "G226",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -248,7 +249,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "209-row exact registry",
+            "210-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -320,7 +321,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G225",
+            "G166--G226",
             "G197",
             "G198",
             "G199",
@@ -351,6 +352,7 @@ def validate_startup_surface(root: Path) -> None:
             "G223",
             "G224",
             "G225",
+            "G226",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -394,6 +396,7 @@ def validate_startup_surface(root: Path) -> None:
             "G223",
             "G224",
             "G225",
+            "G226",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -432,10 +435,11 @@ def validate_startup_surface(root: Path) -> None:
             "G223",
             "G224",
             "G225",
+            "G226",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "209-row",
+            "210-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -776,9 +780,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 209, "premise registry must contain exactly 209 rows")
+    require(len(rows) == 210, "premise registry must contain exactly 210 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 209, "duplicate premise id")
+    require(len(by_id) == 210, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2848,6 +2852,114 @@ def main() -> None:
         g225_package["landing"]
         == "METRIC_AND_SHARED_CLOCK_DEFINE_POSITIVE_INCIDENT_SCREEN_PLANES__CANONICAL_LEAST_TURNING_DIRECT_SCREEN_ISOMETRY_EXISTS_OFF_ANTIPODES__THREE_DIRECTION_COMPOSITION_RETAINS_FINITE_O2_HOLONOMY_AND_NO_GLOBAL_ENDPOINT_ONLY_FLAT_SCREEN_CARRY_EXISTS__G188_JACOBI_TRANSPORT_REMAINS_SEPARATE",
         "G225 landing changed",
+    )
+    require(
+        by_id["G226"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_1F60DEB0__"
+            "REPAIR_PREREGISTERED_AT_35D33B99__FRESH_GPT54_ACCEPTED_WITH_REPAIRS"
+        ),
+        "G226 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "G188_FULL_FIRST_JET_PHASE_S_PLUS_HOM_V_S",
+        "ENDPOINT_CLOCK_NORMALIZATION_GIVES_CSP4_MULTIPLIER_R_EQUALS_OMEGA_SOURCE_OVER_OMEGA_TARGET_EQUALS_DTAU_TARGET_OVER_DTAU_SOURCE",
+        "G224_VERTICAL_Q_EQUALS_R_INVERSE",
+        "G225_VERTEX_LIFT_DIAG_C_C_SYMPLECTIC",
+        "INDEPENDENT_MIDDLE_O2_GAUGES_CANCEL",
+        "SINGULAR_JACOBI_POSITION_BLOCK_RETAINED_WITH_FULL_PHASE_INVERTIBLE",
+        "OCTANT_HOLONOMY_EMBEDS_AS_NONSCALAR_DIAG_H_H",
+        "INDEPENDENT_DIRECT_RELATION_NOT_CONSTRAINED",
+        "200007_ASSERTIONS",
+        "20000_NONCOMMUTING_CASES",
+        "STRICT_READ_ONLY_DEVNULL_REPLAY",
+        "BOUNDED_MECHANICAL_VERIFIER_NOT_GENERAL_SEMANTIC_PROOF",
+        "NO_G225_TRANSPORT_PROMOTION_UNIVERSAL_NULL_PROTOCOL_OBSERVER_OR_BRANCH_POPULATION_PHYSICAL_HISTORY_GLOBAL_NETWORK_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G226"]["current_status"], f"G226 guard absent: {guard}")
+    require(by_id["G226"]["epistemic_label"] == "MIXED", "G226 label changed")
+    require(
+        by_id["G226"]["active_use"]
+        == "ACTIVE_BOUNDED_SUPPLIED_COMPOSABLE_NULL_CHAIN_CONFORMAL_SYMPLECTIC_FULL_PHASE_EVALUATOR_ONLY",
+        "G226 active scope widened",
+    )
+    require(
+        "G225 pointwise evaluator promoted to physical transport"
+        in by_id["G226"]["forbidden_regression"],
+        "G226 transport-promotion guard absent",
+    )
+    require(
+        by_id["G226"]["controlling_source"]
+        == "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/AUDIT_REPORT.md",
+        "G226 controlling source changed",
+    )
+    g226 = ROOT / "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22"
+    for name in (
+        "MAP.md",
+        "OBSERVATION.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "derive_null_chain_conformal_symplectic.py",
+        "verify_null_chain_conformal_symplectic_independent.py",
+        "run_catch_proofs.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "CONTROL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
+        "FINALIZATION_NOTE.md",
+        "build_review_intake.py",
+        "verify_package.py",
+    ):
+        require((g226 / name).is_file(), f"G226 evidence missing: {name}")
+    g226_package = json.loads((g226 / "VERIFICATION_RESULT.json").read_text())
+    require(g226_package["status"] == "PASS_EXTERNAL_REPAIRS_VERIFIED", "G226 package verification failed")
+    require(
+        g226_package["grade"] == "DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__REPAIRS_VERIFIED",
+        "G226 final grade changed",
+    )
+    require(g226_package["preregistration_commit"] == "1f60deb0", "G226 preregistration changed")
+    require(g226_package["source_count"] == 13, "G226 source count changed")
+    require(g226_package["symbolic_checks"] == 28, "G226 symbolic count changed")
+    require(g226_package["independent_cases"] == 20000, "G226 independent case count changed")
+    require(g226_package["exact_fraction_assertions"] == 200007, "G226 assertion count changed")
+    require(g226_package["noncommuting_cases"] == 20000, "G226 noncommuting count changed")
+    require(g226_package["mutation_catches"] == 8, "G226 mutation count changed")
+    require(g226_package["full_phase_object"] is True, "G226 full phase absent")
+    require(g226_package["clock_ratio_is_conformal_multiplier"] is True, "G226 multiplier lost")
+    require(g226_package["vertical_q_is_inverse_multiplier"] is True, "G226 inverse carry lost")
+    require(g226_package["middle_screen_gauge_covariance"] is True, "G226 gauge covariance lost")
+    require(g226_package["affine_generator_covariance"] is True, "G226 affine covariance lost")
+    require(not g226_package["caustic_position_block_inverted"], "G226 position inverse promoted")
+    require(g226_package["caustic_full_phase_invertible"] is True, "G226 caustic phase lost")
+    require(g226_package["G225_holonomy_retained_as_matrix"] is True, "G226 holonomy scalarized")
+    require(not g226_package["G225_pointwise_map_promoted_to_physical_transport"], "G226 transport promotion")
+    require(not g226_package["independent_direct_relation_constrained"], "G226 direct relation constrained")
+    require(not g226_package["universal_null_protocol_selected"], "G226 protocol selected")
+    require(not g226_package["physical_history_selected"], "G226 history selected")
+    require(g226_package["read_only_replay"] is True, "G226 read-only replay absent")
+    require(g226_package["manifest_path_containment"] is True, "G226 containment absent")
+    require(g226_package["fresh_external_review"] == "G226_ACCEPTED_WITH_REPAIRS", "G226 review changed")
+    require(
+        g226_package["external_repairs"]
+        == "G226_REPAIRS_VERIFIED__SCIENTIFIC_LANDING_RETAINED",
+        "G226 repair closure absent",
+    )
+    require(
+        g226_package["landing"]
+        == "CONFORMAL_SYMPLECTIC_NULL_CHAIN_INTERLOCK_DERIVED_CONDITIONALLY",
+        "G226 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -7072,7 +7184,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G225-extended premise guards; PASS: 209-row premise "
+        "PASS: G226-extended premise guards; PASS: 210-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -1,7 +1,7 @@
 {
   "package": "G226",
-  "status": "PASS_EXTERNAL_ACCEPTED_REPAIRS_IMPLEMENTED_PENDING_FOLLOWUP",
-  "grade": "DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED__PACKAGING_REPAIRS_PENDING_FOLLOWUP",
+  "status": "PASS_EXTERNAL_REPAIRS_VERIFIED",
+  "grade": "DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__REPAIRS_VERIFIED",
   "preregistration_commit": "1f60deb0",
   "source_count": 13,
   "symbolic_checks": 28,
@@ -26,6 +26,6 @@
   "fresh_external_review": "G226_ACCEPTED_WITH_REPAIRS",
   "scientific_defect_found_by_external_review": false,
   "external_repair_class": "EVIDENTIARY_PACKAGING_ONLY",
-  "external_repairs": "IMPLEMENTED_PENDING_REPAIR_ONLY_FOLLOWUP",
+  "external_repairs": "G226_REPAIRS_VERIFIED__SCIENTIFIC_LANDING_RETAINED",
   "landing": "CONFORMAL_SYMPLECTIC_NULL_CHAIN_INTERLOCK_DERIVED_CONDITIONALLY"
 }

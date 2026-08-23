@@ -8,8 +8,8 @@ Date: 2026-08-22
 CONFORMAL_SYMPLECTIC_NULL_CHAIN_INTERLOCK_DERIVED_CONDITIONALLY
 ```
 
-Current grade after fresh external review and implementation of its two evidence-layer repairs:
-`DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED__PACKAGING_REPAIRS_PENDING_FOLLOWUP`.
+Current grade after fresh external review and repair-only closure:
+`DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__REPAIRS_VERIFIED`.
 
 ## Decisive result
 
@@ -56,7 +56,8 @@ has multiplier `r_BC r_AB`. This is a path-labelled functor into `CSp^+(4,R)`.
 - Hostile catches: 8/8.
 - Fresh external adversarial review: `G226_ACCEPTED_WITH_REPAIRS`; no scientific defect found.
 - Repair scope: strict-read-only aggregate replay and bounded verifier-coverage wording only.
-- Repair-only external follow-up: pending before banking the final evidence grade.
+- Repair-only external follow-up:
+  `G226_REPAIRS_VERIFIED__SCIENTIFIC_LANDING_RETAINED`.
 
 ## Scope ceiling
 

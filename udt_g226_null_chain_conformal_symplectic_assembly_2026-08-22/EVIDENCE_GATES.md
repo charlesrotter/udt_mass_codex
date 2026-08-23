@@ -15,11 +15,11 @@ Date: 2026-08-22
 | No-persistent-output package replay | PASS_REPAIRED | `/dev/null` component replay compares exact stdout JSON and leaves package and sources byte-identical |
 | Frozen source hashes | PASS | 13-source manifest verified with path containment |
 | Fresh adversarial review | ACCEPTED_WITH_REPAIRS | no scientific defect; two evidence-layer repairs only |
-| Repair-only follow-up | PENDING | must verify R1/R2 before final banking |
+| Repair-only follow-up | PASS | `G226_REPAIRS_VERIFIED__SCIENTIFIC_LANDING_RETAINED` |
 | Premise audit | PASS_BOUNDED | no fit, profile, `X_max`, transfer, source, or protected input |
 
 Current maximum grade:
-`DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED__PACKAGING_REPAIRS_PENDING_FOLLOWUP`.
+`DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__REPAIRS_VERIFIED`.
 
 The aggregate verifier is a bounded mechanical gate. It checks enumerated counters, exact replay
 equality, required evidence presence, selected scope tokens, source hashes, and evidence-byte

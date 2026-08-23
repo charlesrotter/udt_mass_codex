@@ -11,8 +11,8 @@ __G224_VERTICAL_RULER_CARRY_IS_ITS_INVERSE
 __G225_DIRECTION_HOLONOMY_SURVIVES_AS_A_MATRIX_CHANNEL
 ```
 
-Status after fresh review:
-`DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED__PACKAGING_REPAIRS_PENDING_FOLLOWUP`.
+Status after fresh review and repair-only closure:
+`DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__REPAIRS_VERIFIED`.
 
 The metric, two regular affine null edges, their marked endpoint observer germs, and one actual
 shared calibrated event are supplied. G225's pointwise least-turning map is used as the frozen

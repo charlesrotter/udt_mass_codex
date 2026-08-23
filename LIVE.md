@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G225. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G226. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -48,6 +48,16 @@ gives the unique proper least-turning screen isometry, but an octant triple reta
 path-labelled Jacobi transport remain distinct. Fresh external review accepted the bounded result
 after two mechanical evidence repairs.
 
+G226 assembles the already derived scalar and angular channels on one **supplied composable null
+chain**. The full G188 first-jet phase in endpoint clock-normalized generators lies in
+`CSp^+(4,R)` with exact multiplier
+`r=d tau_target/d tau_source`; G224's ruler carry is `q=r^-1`. The G225 vertex screen isometry lifts
+as `diag(C,C)`, middle screen gauges and affine-generator rescalings cancel, a singular Jacobi
+position block does not destroy the full invertible phase, and residual direction holonomy remains
+matrix-valued. External review and repair-only replay verified the bounded landing. G225 is still
+not promoted to selected transport, and no null population, independent direct relation, or
+physical history is selected.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -60,7 +70,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 209-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 210-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -84,12 +94,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Assemble the already derived channels on one **supplied composable null chain**: G188 along-edge
-screen connection/Jacobi phase, G224 exact scalar vertex switch, and G225 pointwise least-turning
-screen comparison. Determine the lawful path-labelled matrix functor, middle-screen gauge
-covariance, caustic-safe full phase-space composition, and residual holonomy. Keep the G188 Jacobi
-position block distinct from its full transfer phase and from G225's order-zero vertex isometry.
-Do not promote the pointwise least-turning map into selected physical transport, force an
-independently supplied direct relation, fit, identify `X_max`, select transfer/history, activate
-protected drafts, or use G116/G189 as construction inputs.
+Zoom out before another solve. On a **supplied finite null congruence or network**, determine whether
+the G226 path-labelled `CSp^+(4,R)` phases obey any additional metric-native compatibility beyond
+ordinary functorial composition and curvature identities, and whether that compatibility actually
+restricts coexisting pair germs or merely evaluates them. Preregister the distinction. Do not
+promote G225 into selected transport, equate an independent direct relation with a composite,
+infer observer/null population or physical history, fit, identify `X_max`, activate protected
+drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
