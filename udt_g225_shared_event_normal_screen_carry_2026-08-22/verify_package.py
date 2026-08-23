@@ -46,6 +46,7 @@ REQUIRED = (
     "REPAIR_FOLLOWUP_REVIEW.md",
     "REPAIR_R2_PREREGISTRATION.md",
     "FINAL_REPAIR_FOLLOWUP_REVIEW.md",
+    "SOURCE_MANIFEST_REFRESH.md",
     "verify_package.py",
 )
 
