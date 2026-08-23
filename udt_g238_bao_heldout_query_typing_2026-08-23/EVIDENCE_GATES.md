@@ -9,6 +9,6 @@
 | hostile catches | PASS | nine load-bearing semantic mutations rejected, including idealized-root substitution |
 | fresh adversarial review | PASS_SCIENCE_REPAIR_REQUIRED | scientific landing retained; R1 actual-knot and R2 sealed-replay defects registered |
 | repair preregistration | PASS | commit `f064dcd8`, before load-bearing repair edits |
-| repair-only follow-up | PENDING | corrected intake must independently verify R1 and R2 |
+| repair-only follow-up | PASS | all 42 hashes and tree digest match; R1/R2 replay passes; no repair remains |
 
-Maximum current grade: `EXTERNAL_REVIEW_SCIENCE_RETAINED__REPAIRS_IMPLEMENTED_INTERNAL__FOLLOWUP_PENDING`.
+Maximum current grade: `EXTERNALLY_VERIFIED_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED`.

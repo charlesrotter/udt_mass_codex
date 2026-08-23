@@ -2,7 +2,7 @@
 
 Date: 2026-08-23
 
-Status: `EXTERNAL_REVIEW_SCIENCE_RETAINED__REPAIRS_IMPLEMENTED_INTERNAL__FOLLOWUP_PENDING`
+Status: `EXTERNALLY_VERIFIED_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED`
 
 ## Landing
 
@@ -65,6 +65,6 @@ can the BOSS outcome be opened as a no-refit cross-channel check.
 
 ## Certification ceiling
 
-The scientific landing is retained by fresh external review, but the corrected evidence package is
-not closed until a repair-only external follow-up verifies R1 and R2. No BAO origin, preferred
-feature, physical ruler, UDT validation, physical-history selection, or `X_max` result follows.
+The corrected evidence package is closed by repair-only external verdict
+`G238_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED`. No BAO origin, preferred feature, physical
+ruler, UDT validation, physical-history selection, or `X_max` result follows.

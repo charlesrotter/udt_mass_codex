@@ -7,4 +7,4 @@ two_source_relation	OPEN	one-source maps do not supply physical source-pair inci
 source_pair_measure	OPEN	no source point-process law inserted
 BOSS_reference_operator	OBSERVED_AND_CHOSE	released footprint plus borrowed Landy-Szalay semantics
 BOSS_outcomes	CLOSED_NO_INSPECTION	no curve mode covariance feature or scale used
-G238_landing	EXTERNAL_REVIEW_SCIENCE_RETAINED_REPAIRS_INTERNAL	actual-knot and sealed-replay repair-only follow-up pending
+G238_landing	EXTERNALLY_VERIFIED_WITH_REPAIRS	scientific landing retained and no R1/R2 repair remains

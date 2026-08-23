@@ -2,7 +2,7 @@
 
 Date: 2026-08-23
 
-Status: `R1_R2_IMPLEMENTED__INTERNAL_REPLAY_PASS__EXTERNAL_FOLLOWUP_PENDING`
+Status: `R1_R2_EXTERNALLY_ACCEPTED__SCIENTIFIC_LANDING_RETAINED`
 
 ## R1 — actual frozen-knot counterfamily
 
@@ -31,11 +31,13 @@ Internal result: `PASS`.
    the intake root;
 4. does not invoke the repository-wide scientific-premise verifier, which is not part of the seal.
 
-Internal result: a newly built read-only intake was copied to a writable disposable directory and
-the documented sealed command sequence passed end to end. Independent external repair-only replay
-remains pending.
+Internal and external result: a newly built read-only intake was copied to a writable disposable
+directory and the documented sealed command sequence passed end to end.
 
 ## Scientific landing
 
 Unchanged. BOSS outcomes remain closed. No interpolation, profile, feature, P1, `X_max`,
 cosmological-distance conversion, source model, or branch population was added.
+
+Fresh external repair-only verdict:
+`G238_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED`. No repair remains within R1/R2.
