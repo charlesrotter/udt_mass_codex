@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G233",
+            "G166--G234",
             "G197",
             "G215",
             "G216",
@@ -214,6 +214,7 @@ def validate_startup_surface(root: Path) -> None:
             "G231",
             "G232",
             "G233",
+            "G234",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -256,7 +257,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "216-row exact registry",
+            "217-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -335,7 +336,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G233",
+            "G166--G234",
             "G197",
             "G198",
             "G199",
@@ -374,6 +375,7 @@ def validate_startup_surface(root: Path) -> None:
             "G231",
             "G232",
             "G233",
+            "G234",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -425,6 +427,7 @@ def validate_startup_surface(root: Path) -> None:
             "G231",
             "G232",
             "G233",
+            "G234",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -471,10 +474,11 @@ def validate_startup_surface(root: Path) -> None:
             "G231",
             "G232",
             "G233",
+            "G234",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "216-row",
+            "217-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -815,9 +819,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 216, "premise registry must contain exactly 216 rows")
+    require(len(rows) == 217, "premise registry must contain exactly 217 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 216, "duplicate premise id")
+    require(len(by_id) == 217, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3781,6 +3785,88 @@ def main() -> None:
         and ".review_runtime" not in path.parts
     }
     require(g233_registered == g233_actual, "G233 final evidence manifest mismatch")
+
+    require(
+        by_id["G234"]["current_status"].startswith(
+            "PONDER_EXTERNALLY_VERIFIED_WITH_CAVEATS__SOURCE_BOUNDED_OWNERSHIP_MAP"
+        ),
+        "G234 bounded grade changed",
+    )
+    for guard in (
+        "SEALED_GPT54_NO_SCIENTIFIC_OR_TYPE_ERROR",
+        "PRIMARY_STATIC_SPHERICAL_PROFILE_FREEDOM_IS_ONE_SUPPLIED_FUNCTION_PHI_OF_R",
+        "THREE_NAMED_ROUTES_REDUCE_TO_TWO_SELECTOR_ARCHITECTURES",
+        "INVARIANT_SMALLER_FAMILY_CUT_OR_GENUINELY_NONLOCAL_GLOBAL_RELATION_LAW",
+        "TIMELIVE_NONSPHERICAL_EXTENSION_IS_AN_ARENA_NOT_A_SELECTOR",
+        "NO_ACTIVE_OWNED_CONDITION_YET_CLOSES_PRIMARY_PROFILE",
+        "NO_FURTHER_DERIVATIVE_ORDER_LADDER",
+        "NEXT_CANDIDATE_MUST_BE_NATURAL_NONIDENTITY_INDEPENDENTLY_MOTIVATED",
+    ):
+        require(guard in by_id["G234"]["current_status"], f"G234 guard absent: {guard}")
+    require(by_id["G234"]["epistemic_label"] == "MIXED", "G234 label changed")
+    require(
+        by_id["G234"]["active_use"]
+        == "ACTIVE_SOURCE_BOUNDED_POST_G233_NATIVE_CLOSURE_ROUTE_OWNERSHIP_MAP_ONLY",
+        "G234 active scope widened",
+    )
+    require(
+        "G234 called a proof that no UDT profile law exists" in by_id["G234"]["forbidden_regression"]
+        and "another derivative-order census resumed without a named candidate"
+        in by_id["G234"]["forbidden_regression"]
+        and "constant curvature promoted to selected UDT history"
+        in by_id["G234"]["forbidden_regression"],
+        "G234 regression guards absent",
+    )
+    require(
+        by_id["G234"]["controlling_source"]
+        == "udt_g234_post_g233_native_closure_route_map_2026-08-23/AUDIT_REPORT.md",
+        "G234 controlling source changed",
+    )
+    g234 = ROOT / "udt_g234_post_g233_native_closure_route_map_2026-08-23"
+    for name in (
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "AUDIT_REPORT.md",
+        "CORRECTION_PREREGISTRATION.md",
+        "EXTERNAL_REVIEW.md",
+        "FINAL_EVIDENCE_MANIFEST.tsv",
+        "LAY_REPORT.md",
+        "NEXT_DISCRIMINATOR_CONTRACT.md",
+        "POST_REVIEW_STARTUP_REPAIR_PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "ROUTE_OWNERSHIP_MAP.tsv",
+        "SOURCE_MANIFEST.tsv",
+    ):
+        require((g234 / name).is_file(), f"G234 evidence missing: {name}")
+    g234_audit = (g234 / "AUDIT_REPORT.md").read_text()
+    require("TIMELIVE_NONSPHERICAL_EXTENSION_IS_AN_ARENA_NOT_A_SELECTOR" in g234_audit,
+            "G234 corrected landing absent")
+    require("TIMELIVE_NONSHPERICAL_EXTENSION_IS_AN_ARENA_NOT_A_SELECTOR" not in g234_audit,
+            "G234 spelling repair regressed")
+    g234_review = (g234 / "EXTERNAL_REVIEW.md").read_text()
+    require("G234_MAP_VERIFIED_WITH_CAVEATS" in g234_review and "None found" in g234_review,
+            "G234 external-review acceptance absent")
+    g234_routes = read_tsv(g234 / "ROUTE_OWNERSHIP_MAP.tsv")
+    require(len(g234_routes) == 11, "G234 route-map count changed")
+    g234_route_by_id = {row["route_id"]: row for row in g234_routes}
+    require(g234_route_by_id["C1"]["bounded_verdict"] == "ARENA_NOT_SELECTOR",
+            "G234 time-live arena classification changed")
+    require(g234_route_by_id["B3"]["bounded_verdict"] == "ENCODER_NOT_GENERATOR",
+            "G234 valued-network classification changed")
+    require(len(read_tsv(g234 / "PREMISE_LEDGER.tsv")) == 17, "G234 premise-ledger count changed")
+    require(len(read_tsv(g234 / "SOURCE_MANIFEST.tsv")) == 22, "G234 source-manifest count changed")
+    g234_manifest_lines = (g234 / "FINAL_EVIDENCE_MANIFEST.tsv").read_text().splitlines()
+    require(g234_manifest_lines[0] == "sha256\tpath", "G234 final manifest header changed")
+    g234_registered = {}
+    for line in g234_manifest_lines[1:]:
+        digest, relative = line.split("\t")
+        require(relative not in g234_registered, f"G234 duplicate manifest path: {relative}")
+        g234_registered[relative] = digest
+    g234_actual = {
+        path.relative_to(g234).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g234.rglob("*")
+        if path.is_file() and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+    }
+    require(g234_registered == g234_actual, "G234 final evidence manifest mismatch")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8004,7 +8090,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G233-extended startup and G233 premise guards; PASS: 216-row premise "
+        "PASS: G234-extended startup and G234 premise guards; PASS: 217-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

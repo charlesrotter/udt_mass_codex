@@ -70,51 +70,38 @@ physical scalar after the working premise. They must not be conflated.
   Gauges and affine scales cancel; caustics retain an invertible full phase and matrix holonomy.
   External review and repair closure verified this without selecting transport, a direct relation,
   population, or history.
-- G227 tides have rank 19, kernel `span(g wedge g)`, and eight syzygies; one `CHOSE` section gives
-  20. G228 differential Bianchi cuts 80 `(nabla R)` components to 60. Both are algebraic.
-- G229 realizes compatible `(R,nabla R)` point jets; ranks are 20/60 and gauge kernels 80/140. It
-  prescribes no regional values.
-- G230: G227/G228 alone do not close the second-derivative overlap square. Differentiated Bianchi
-  plus `[nabla_f,nabla_e]R=R acting on R` leave a 126-dimensional affine curvature-second-jet
-  target. The metric fourth-jet map has rank 126/kernel 224, exactly fifth-order coordinate gauge,
-  and the normal slice is isomorphic. This is one-event infinitesimal compatibility and 4-jet
-  realization—not a finite-region field, generated values, dynamics, or history.
-- G231 types G227/G228/G230, with G229 as metric-jet bridge, as a Cartan architecture of dimensions
-  20, 60, and 126. Bare curvature needs principal Lorentz typing and a horizontal classifying law.
-  Full finite `SO(1,3)` algebroid data conditionally realize locally; analytic, formally-integrable
-  relative-algebroid data conditionally yield local coframes. It generates no values.
-- G232 separates three ownership levels. One fully valued primary spherical member has an
-  evaluative cohomogeneity-one Cartan descent; fixed-`n` G204 closes conditionally only because its
-  finite family is `CHOSE`; a full valued pair network encodes but does not generate the profile.
-- G233 externally verifies that identical complete finite curvature state can have a different next
-  invariant derivative at every finite order. This excludes universal local finite-order natural
-  autonomous closure on the unrestricted primary profile family, not nonlocal/global,
-  infinite-state, time-live, nonspherical, or metric-derived smaller-family closure.
+- G227 curvature tides have rank 19; one `CHOSE` datum gives 20. G228 differential Bianchi cuts
+  `(nabla R)` from 80 to 60. G229 realizes compatible point jets without regional values.
+- G230 adds differentiated Bianchi and the Ricci commutator: the curvature second jet has dimension
+  126, while metric fourth-jet rank/kernel are 126/224. This is one-event realization, not dynamics.
+- G231 joins G227--G230 as a `20/60/126` Cartan architecture. Finite algebroid data realize
+  conditionally; analytic data yield coframes. Neither route generates values.
+- G232 separates valued-member evaluation, `CHOSE` finite-family closure, and network encoding.
+  G233 excludes universal local finite-order autonomous closure on the unrestricted profile, while
+  leaving global, infinite-state, time-live, nonspherical, and smaller-family routes open.
+- G234 reduces those routes to an owned invariant smaller-family cut or a global relation law.
+  Time-live/nonspherical activation enlarges the arena but does not select the supplied profile.
 
-G206--G233 generate no sector function or `X_max`. Exact
+G206--G234 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
 `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`, and
 `udt_g231_cartan_regional_realization_bridge_2026-08-23/`. Current closure bridge:
 `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/` and
-`udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`. Evaluator:
+`udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`. Ownership map:
+`udt_g234_post_g233_native_closure_route_map_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary spherical slice/profile are supplied. G211--G231 close local basis, descent, clock
-  incidence/rate/jet, point jets, and regional architecture. G232/G233 show that a valued member
-  evaluates natively but no universal local finite-order law closes the unrestricted family. None
-  generates population or profile values; nonlocal/global and smaller-family routes remain open.
-- G222--G226 close one supplied null plane, local line/fiber and scalar carry, pointwise screen
-  comparison, and full chain phase. G227--G231 then close common algebraic curvature, differential
-  first variation, metric 3-jet realization, and the first nonlinear curvature-second-jet/metric-4-jet
-  gate at one event, then place those stages inside a regional Cartan integration problem. None
-  supplies the classifying invariant values/law or selects transport, a direct relation,
-  population, regional values, a global scalar, or history.
+- G211--G231 close local basis, descent, clock/carry/phase, curvature jets, and conditional regional
+  realization for supplied data. G232/G233 exclude unrestricted finite-order profile closure; G234
+  leaves an owned smaller-family cut or global relation condition. Neither is currently owned.
+- G222--G231 select no transport, direct relation, population, regional values, global scalar, or
+  history; integration and reconstruction do not generate their input values.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -132,9 +119,11 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G233 close the
+G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G234 close the
 supplied clock/null/carry/phase chain, curvature point jets, Cartan regional architecture, and the
-unrestricted finite-order closure discriminator. Next stop the derivative-order ladder and map
-whether an already-owned nonlocal/global condition or metric-derived smaller family survives the
-G233 twins. Do not confuse integration with value generation, select transport, fit, use `X_max`,
-activate protected drafts, or revive historical inputs.
+unrestricted finite-order closure discriminator plus its ownership map. Next audit whether global
+completed-pair Dual Reciprocity on a rank-complete matched-incidence network supplies a
+nonidentity condition beyond fiberwise normalization and overlap descent. Name the condition and
+its rejected control before any solve; otherwise return `NO_CANDIDATE`. Do not confuse integration
+with value generation, select transport, fit, use `X_max`, activate protected drafts, or revive
+historical inputs.

@@ -4,9 +4,9 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G233: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
-Dual Reciprocity then fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
-or canon. `phi_control` remains an arbitrary-calibration control.
+G166--G234: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
+or canon. `phi_control` is an arbitrary-calibration control.
 
 G190--G198 are formula-level regression and off-ray controls. G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214
 cover direction, quiet, completion, channels, basis, state, rank, and descent.
@@ -16,16 +16,16 @@ local line/fiber/scalar carry. G225 gives pointwise screen comparison and `O(2)`
 selected transport. G226 joins scalar carry and full phase on one supplied chain; gauges cancel,
 caustics retain phase, and matrix holonomy survives. Population and history remain open.
 
-G227: nine-direction tides have rank 19 and kernel `span(g wedge g)`; one `CHOSE` datum gives 20.
-G228: differential Bianchi cuts 80 components to 60.
-G229: compatible `(R,nabla R)` has a metric 3-jet; ranks 20/60, gauge kernels 80/140.
-G230: differentiated Bianchi plus Ricci commutator gives 126 fourth-jet representatives modulo
-224-dimensional coordinate gauge. These are local compatibility results, not value generation.
-G231: the stages form regional Cartan architecture; finite data conditionally realize locally,
-while analytic infinite data yield coframes only. Values, principal descent, history stay open.
-G232/G233: fixed members evaluate natively; finite families close conditionally; valued networks
-encode but do not generate profiles. Exact profile twins exclude universal local finite-order
-autonomous closure over the unrestricted family. Nonlocal/global and smaller-family routes remain.
+G227: nine null directions give curvature rank 19; one `CHOSE` datum gives 20. G228: differential
+Bianchi cuts 80 components to 60. G229: compatible `(R,nabla R)` has a metric 3-jet. G230 gives
+126 fourth-jet representatives modulo gauge. These are local compatibility, not value generation.
+G231 forms the regional Cartan architecture: finite data realize conditionally; analytic data yield
+coframes only. G232/G233 show fixed members evaluate and finite families may close, but exact twins
+exclude universal local finite-order closure. Global and smaller-family routes remain.
+
+G234 reduces the post-G233 routes to two: an owned invariant smaller-family cut or a global relation
+law. Time-live/nonspherical activation enlarges the arena; it does not select. No active condition
+closes the one-function primary profile.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -53,9 +53,11 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Stop the derivative-order ladder. Map whether an already-owned nonlocal/global condition or a
-metric-derived smaller family can reject a G233 twin independently of the desired profile. No
-selected G225 transport, population/history inference, fit, `X_max`, or protected drafts.
+Stop the derivative-order ladder. Audit whether completed-pair Dual Reciprocity across one global
+rank-complete matched-incidence network supplies a natural nonidentity condition beyond fiberwise
+normalization and overlap descent. Name its rejected G233-type twin or G206--G210 extension before
+any solve; otherwise return `NO_CANDIDATE`. No selected G225 transport, population/history
+inference, fit, `X_max`, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

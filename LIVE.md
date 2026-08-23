@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G233. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G234. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -70,6 +70,11 @@ closure. This externally verified negative does not reach nonlocal, infinite-sta
 nonspherical, time-live, or separately founded smaller-family closure. Fixed members remain
 evaluative and fixed-`n` G204 remains `CHOSE` conditional control.
 
+G234 is externally verified: the bounded primary gap is one supplied `phi(r)`. Its three named
+routes reduce to two—an owned invariant family cut or a nonlocal/global relation law. Time-live or
+nonspherical activation only enlarges the arena. Current regularity, completion, reconstruction,
+descent, holonomy, Cartan, and co-presence results do not close the profile.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -82,7 +87,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 216-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 217-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -106,11 +111,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Stop the derivative-order ladder. Map which already-owned metric/global conditions could restrict
-the primary profile beyond the G233 local finite-order obstruction, separating: a smaller
-metric-derived family, a genuinely nonlocal/global relation condition, and full time-live or
-nonspherical closure. This is a `MAP -> PONDER` ownership gate, not permission to invent an action,
-fit a profile, identify `X_max`, activate protected drafts, or use G116/G189 as construction inputs.
-Any proposed next calculation must first name one nonidentity condition that rejects a G233 twin
-for a reason independent of the desired profile.
+Stop the derivative-order ladder. The next gate is candidate ownership, not another solve: test
+whether completed-pair Dual Reciprocity across one globally compatible rank-complete matched-
+incidence relation network yields a condition stronger than fiberwise normalization and overlap
+descent. Before calculation, state the exact natural nonidentity condition and preregister a G233-
+type twin or G206--G210 extension it must reject independently of the desired profile. If no such
+condition can be written, return `NO_CANDIDATE` and stop. Do not substitute a preferred ansatz,
+constant-curvature control, action, fit, `X_max`, protected draft, or G116/G189 construction input.
 <!-- STARTUP_CURRENT_END -->

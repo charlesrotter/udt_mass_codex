@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G233 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G234 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -16,40 +16,30 @@ canon. It selects `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T` after the pu
 arbitrary-calibration formula is a control. Physical events, germs, functions, population, and
 global realization remain supplied or `OPEN`.
 
-G215/G216/G217/G218/G219/G220/G221 close scalar, clock rate/first jet, correspondence, protocol
-separation, null slope `r=C_+B/C_+A`, and the complete chord. G222/G223/G224 add the affine-null
-plane (`det h=-a^2`), G188 screen, line/fiber carry, and shared-event `q=r^-1`. Distinct-event
-normalization is not vertex composition; higher/full carry is `OPEN`.
+G215/G216/G217/G218/G219/G220/G221 close scalar, clock-jet, correspondence, protocol, null slope,
+and chord. G222/G223/G224 add the affine-null plane, screen, carry, and shared-event inverse.
+Distinct-event normalization is not vertex composition; higher/full carry is `OPEN`.
 
-G225 gives pointwise least-turning screen comparison and `O(2)` holonomy, not selected transport.
-G226 joins G188/G224/G225 on one supplied chain: its caustic-safe conformal-symplectic phase has
-multiplier `r`, inverse carry `q`, cancelled gauges, and matrix holonomy. It selects no population
-or history.
+G225 supplies pointwise screen comparison and holonomy, not transport selection. G226 joins it to
+G188/G224 on one supplied chain, with reciprocal phase multiplier/carry and gauge cancellation;
+it selects no population or history.
 
-G227's same-event nine-null witness has rank 19, kernel `span(g wedge g)`, and eight syzygies; one
-`CHOSE` timelike datum restores rank 20. It needs an infinitesimal generator.
+G227 reconstructs 19 curvature components from nine null directions; one `CHOSE` timelike datum
+restores 20. G228 cuts `nabla R` from 80 to 60 by differential Bianchi. G229 realizes compatible
+`(R,nabla R)` by a local metric 3-jet. G230 extends to 126 affine components and the metric 4-jet.
+These are local realization results, not regional values, gluing, dynamics, or history.
 
-G228: differential Bianchi cuts 80 `nabla R` components to 60; one/two projections are surjective,
-while triples/full-star have six/twenty syzygies.
+G231 joins G227/G228/G229/G230 into a `20/60/126` Cartan problem. Full finite algebroid data realize
+conditionally; the analytic route yields only a coframe, with Lorentz descent open. G232 is the
+ownership `PONDER`. G233 externally verifies that profiles can share every finite local jet yet
+differ next, so no local finite-order natural autonomous law closes the unrestricted profile.
+Fixed members remain evaluative; fixed-`n` G204 remains `CHOSE`.
 
-G229 realizes compatible `(R,nabla R)` by a local metric 3-jet: ranks 20/60, gauge kernels 80/140.
-It prescribes no regional values.
-
-G230 adds differentiated Bianchi and the Ricci commutator: 126 affine components remain; the metric
-4-jet has rank/kernel `126/224`, with fifth-order gauge. This is one-event realization, not gluing,
-values, dynamics, population, transport, or history.
-
-G231 joins G227/G228/G230, with G229 as bridge, into a Cartan problem of dimensions `20`, `60`,
-`126`. Bare moving-frame `R` lacks Lorentz typing and a horizontal law. Finite full algebroid data
-conditionally realize locally; the infinite analytic route gives only a coframe, with Lorentz
-descent open. No values, population, transport, dynamics, or history are selected.
-
-G232 is the ownership `PONDER`; G233 externally verifies the bounded obstruction. Exact primary
-profiles can share the metric four-jet and full G231 state while the next invariant differs by
-`240 delta_b/r0^5`; the principal-symbol construction works at every finite order. Thus no local
-finite-order natural autonomous law closes the unrestricted profile family. Fixed members remain
-evaluative and fixed-`n` G204 remains `CHOSE`. Nonlocal, infinite-state, global, nonspherical,
-time-live, and separately founded smaller-family closure remain open.
+G234 is an externally verified `PONDER`: after G233, closure requires either an owned invariant
+smaller-family cut or a genuinely global completed-relation law. Time-live/nonspherical activation
+is an arena, not a selector. The primary branch still contains one supplied function `phi(r)`;
+current regularity, reconstruction, descent, holonomy, Cartan, and co-presence results do not
+generate it.
 
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
@@ -74,11 +64,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next stop the derivative-order ladder and map the remaining native routes: a metric-derived smaller
-family, a nonlocal/global relation condition, or full time-live/nonspherical closure. Before any
-solve, require a nonidentity candidate that distinguishes a G233 twin independently of the desired
-answer. Keep null query-typed and return distinct from inversion. Do not activate protected drafts,
-identify `X_max`, select transfer/history, or use G116/G189. All other open ownership remains
-controlled by the 216-row exact registry.
+Next stop the derivative ladder. Audit whether completed-pair Dual Reciprocity on one rank-complete
+matched-incidence network is stronger than fiberwise normalization and overlap descent. Before any
+solve, name its exact nonidentity condition and a rejected G233 twin or G206--G210 extension; else
+return `NO_CANDIDATE`. Keep null query-typed and return distinct from inversion. Do not activate
+protected drafts, identify `X_max`, select transfer/history, or use G116/G189. The 217-row exact
+registry controls all remaining ownership.
 
 <!-- STARTUP_CURRENT_END -->

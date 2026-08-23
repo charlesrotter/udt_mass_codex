@@ -54,9 +54,11 @@
   `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`; `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`;
   `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`; `udt_g231_cartan_regional_realization_bridge_2026-08-23/`
 - Cartan closure: `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`; `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`
-G129--G214: pair structure. G215--G233 close scalar/null evaluation, curvature/Cartan typing, and
-the unrestricted local finite-order obstruction. Open: nonlocal/global or smaller-family profile
-closure, population, transport, global ownership, and history.
+- Post-G233 ownership map: `udt_g234_post_g233_native_closure_route_map_2026-08-23/`
+G129--G214: pair structure. G215--G234 close scalar/null evaluation, curvature/Cartan typing, the
+unrestricted local finite-order obstruction, and its source-bounded closure-route map. Open: an
+owned invariant smaller-family cut or genuinely global relation law, population, transport, and
+global ownership.
 Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -105,6 +107,4 @@ It preserves plural conditional mass-from-geometry branches. For topology begin 
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work,
 the stopped native-on-shell draft, or local unbanked packages without explicit authority.
 ## Archives
-Startup snapshots: `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; pre-cleanup
-G218 surface and disposition: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Snapshots: `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; G218 disposition: `archive/startup_surface_2026-08-22_pre_cleanup/`.
