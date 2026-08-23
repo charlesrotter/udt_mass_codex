@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a sealed G239 review intake without BOSS outcomes or protected work."""
+"""Build a sealed G239 repair-only follow-up intake without BOSS outcomes."""
 
 from __future__ import annotations
 
@@ -50,8 +50,11 @@ def main() -> None:
             "bytes": path.stat().st_size,
         })
     scope = {
-        "audit": "G239_FRESH_EXTERNAL_REVIEW",
-        "permissions": "read-only evidence review; ephemeral-copy checks allowed; no research continuation",
+        "audit": "G239_R1_R2_REPAIR_ONLY_FOLLOWUP_REVIEW",
+        "permissions": (
+            "read-only repair-only review; verify R1/R2 and retained landing; "
+            "ephemeral-copy checks allowed; no research continuation"
+        ),
         "boss_outcomes": "excluded",
         "protected_packages": "excluded",
         "repository_outside_intake": "excluded",
@@ -74,4 +77,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

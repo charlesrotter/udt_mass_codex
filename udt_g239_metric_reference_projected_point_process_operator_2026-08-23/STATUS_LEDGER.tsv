@@ -1,7 +1,8 @@
 item	status	scope
 complete_metric_clock_screen_evaluator	DERIVED_CONDITIONAL	on supplied history query and branches
-homogeneous_Poisson_source	CHOSE_OBSERVATIONAL_HYPOTHESIS	featureless source control only
-factorized_branch_population	CHOSE_CONTROL	proves one-source pushforward theorem
+homogeneous_Poisson_parent	CHOSE_OBSERVATIONAL_HYPOTHESIS	featureless parent source control only
+single_image_independent_branch_marking	CHOSE_CONTROL	exact zero_Gamma theorem only in this scope
+same_source_multibranch_siblings	DERIVED_EXACT_CONTROL	can give connected observed images without correlated parents; physical value open
 survey_random_reference	OBSERVED_AND_CHOSE	footprint and completeness not physical source law
 reference_projected_identity	DERIVED_EXACT	intensity mismatch plus connected term
 matched_reference_cancellation	DERIVED_EXACT	P equals Q
@@ -15,4 +16,3 @@ branch_population_and_weights	OPEN	no selection law
 physical_source_pair_measure	OPEN	no matter or point-process law
 BOSS_outcomes	CLOSED_NO_INSPECTION	no curve value feature covariance or scale opened
 G239_landing	DERIVED_CONDITIONAL_WITH_OPEN_INPUTS	operator narrowed but no prediction
-

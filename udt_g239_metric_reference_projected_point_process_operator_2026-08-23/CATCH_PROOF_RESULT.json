@@ -19,6 +19,10 @@
     },
     {
       "caught": true,
+      "mutation": "same_source_sibling_suppression"
+    },
+    {
+      "caught": true,
       "mutation": "metric_liveness_deletion"
     },
     {

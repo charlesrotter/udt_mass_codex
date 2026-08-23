@@ -60,8 +60,29 @@ def validate(result: dict[str, object]) -> None:
         raise AssertionError("metric tidal trace changed")
     if exact(metric["jacobi_determinant_lambda4_coefficient"]) != "-2/25":
         raise AssertionError("metric Jacobi area coefficient changed")
-    if result["branch_factorization"]["direct_product_equals_product_pushforward"] is not True:
+    branch = result["branch_factorization"]
+    if branch["assumption"] != "ONE_OBSERVED_IMAGE_PER_SOURCE_EVENT__INDEPENDENT_SINGLE_BRANCH_MARK":
+        raise AssertionError("one-image factorization scope broadened")
+    if branch["no_same_source_sibling_multiplicity"] is not True:
+        raise AssertionError("single-image control admits sibling multiplicity")
+    if branch["direct_product_equals_product_pushforward"] is not True:
         raise AssertionError("Poisson branch factorization changed")
+
+    sibling = result["sibling_image_control"]
+    expected_raw_sibling = [["0/1", "1/1"], ["1/1", "0/1"]]
+    actual_raw_sibling = [
+        [exact(value) for value in row] for row in sibling["raw_sibling_measure"]
+    ]
+    expected_gamma = [["-1/12", "1/12"], ["1/12", "-1/12"]]
+    actual_gamma = [[exact(value) for value in row] for row in sibling["normalized_gamma"]]
+    if actual_raw_sibling != expected_raw_sibling:
+        raise AssertionError("same-source sibling pairs suppressed or changed")
+    if sibling["raw_decomposition_exact"] is not True or sibling["factorization_false"] is not True:
+        raise AssertionError("same-source multibranch factorization misclassified")
+    if actual_gamma != expected_gamma or sibling["normalized_gamma_nonzero"] is not True:
+        raise AssertionError("same-source normalized Gamma suppressed or changed")
+    if sibling["status"] != "POISSON_PARENT_CAN_GENERATE_CONNECTED_OBSERVED_SIBLING_PAIRS":
+        raise AssertionError("sibling-image status promoted or erased")
 
     required_absent = {
         "P1",
@@ -87,6 +108,8 @@ def mutate(base: dict[str, object], name: str) -> dict[str, object]:
         result["cancellation_controls"]["constant_response_landy_szalay"]["exact"] = "1/100"
     elif name == "connected_term_omission":
         result["connected_control"]["decomposition_exact"] = False
+    elif name == "same_source_sibling_suppression":
+        result["sibling_image_control"]["raw_sibling_measure"][0][1]["exact"] = "0/1"
     elif name == "metric_liveness_deletion":
         result["metric_local_jacobi_liveness"]["jacobi_determinant_lambda4_coefficient"]["exact"] = "0/1"
     elif name == "source_promotion":
@@ -114,6 +137,7 @@ def main() -> None:
         "matched_reference_nonzero",
         "common_response_nonzero",
         "connected_term_omission",
+        "same_source_sibling_suppression",
         "metric_liveness_deletion",
         "source_promotion",
         "reference_promotion",
@@ -143,4 +167,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

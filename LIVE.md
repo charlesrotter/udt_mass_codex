@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G238. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G239. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -70,6 +70,11 @@ preserves all 12 knots and changes between-knot jets. BOSS additionally needs a 
 two-source relation and reference-projected forward map. Outcomes remain closed; metric evaluators
 remain live conditionally on those supplied inputs.
 
+G239 externally verifies the conditional reference-projected point-process identity. Matched and
+constant responses cancel; nonconstant response may survive. Poisson factorization requires one
+independently marked image per parent; sibling branches add `Gamma`. This is operator algebra, not
+a physical history, population, or BOSS prediction. Outcomes stay closed.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -82,7 +87,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 221-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 222-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -107,10 +112,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G238 closes the first held-out source/operator typing gate with `QUERY_TYPING_INCOMPLETE`; do not
-open BOSS outcomes or invent the missing bridge from them. Next construct or independently anchor
-one continuous complete observer-sky history, populated null-branch/source-pair measure, and full
-reference-projected forward map. Any source or population assumption must be explicit and fixed
-before outcome inspection. Do not substitute P1, an ansatz, `X_max`, Lambda-CDM distances, a
-physical-profile optimizer, protected drafts, or G116/G189 as a native construction input.
+G239 closes the operator algebra, not its physical inputs. Before opening BOSS outcomes, construct
+or anchor a continuous observer-sky history and populated branch/source-pair measure, then evaluate
+without refitting. Keep assumptions explicit; do not substitute P1, `X_max`, Lambda-CDM distances,
+protected drafts, or G116/G189 as native inputs.
 <!-- STARTUP_CURRENT_END -->

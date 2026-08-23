@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G238: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G239: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -21,15 +21,11 @@ regional Cartan architecture—not value generation. G232/G233 exclude unrestric
 finite-order closure. G234 leaves an invariant family cut or global law. G235 finds the literal
 rank-complete matched network reconstructive, not selective; both exact twins pass.
 
-G236 finds compatible processed Pantheon+ and DES relative `R(phi)` states at four resolutions
-under a static-central query and imported transfer—not a profile law or prediction.
-
-G237 externally freezes joint primary `K=12` state/covariance. Unknown cross-release covariance is
-chosen zero after exact-CID de-overlap; no profile law or prediction follows.
-
-G238 externally verifies that this finite state does not determine the continuous complete
-metric/screen history required by BOSS, and that a populated two-source/reference map is also
-missing. BOSS outcomes remain closed; the metric evaluators remain conditionally live.
+G236 reconstructs compatible processed Pantheon+/DES `R(phi)` states under imported transfer; no
+profile law follows. G237 freezes joint `K=12` state/covariance with unknown cross-release covariance
+chosen zero. G238 proves this is not a continuous BOSS history or populated two-source/reference map.
+G239 verifies the conditional mismatch-plus-`Gamma` operator: one-image Poisson marks factorize;
+sibling branches contribute. Physical inputs and BOSS outcomes remain open.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -37,7 +33,7 @@ G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 ## Observational pointer
 
 R2--R5: verified with caveats; interpretation unresolved. G236/G237: processed SNe state/freeze.
-G238: outcome-blind BOSS query typing incomplete.
+G238 types held-out BOSS; G239 closes the conditional operator. Inputs/outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -58,10 +54,9 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-G238 has typed the held-out query and stopped before outcomes. Next independently construct or
-anchor its continuous complete history, populated two-source/branch measure, and reference map.
-Do not call the frozen state a profile law or use BOSS outcomes to choose the missing bridge. No
-selected G225 transport, P1, `X_max`, or protected drafts.
+Own the continuous history and populated two-source/branch measure before evaluating G239 without
+refit. Do not use BOSS outcomes to choose them or activate G225 transport, P1, `X_max`, or protected
+drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

@@ -91,8 +91,11 @@ physical scalar after the working premise. They must not be conflated.
 - G238 types held-out BOSS carry before outcomes. Its actual-knot counterfamily proves G237 lacks a
   continuous metric/screen history; a one-source map lacks the populated two-source/reference
   statistic. External repair is accepted; outcomes remain closed.
+- G239 externally verifies the conditional mismatch-plus-`Gamma` operator. Matched/constant
+  responses cancel; nonconstant response may survive. One-image Poisson marks factorize; sibling
+  branches contribute. Physical inputs and outcomes remain open.
 
-G206--G238 generate no sector function or `X_max`. Exact
+G206--G239 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -104,29 +107,23 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`. Observational state projection:
 `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`. Joint state freeze:
 `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`. Held-out query typing:
-`udt_g238_bao_heldout_query_typing_2026-08-23/`. Evaluator:
+`udt_g238_bao_heldout_query_typing_2026-08-23/`. Reference-projected operator:
+`udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- G211--G231 close local basis, descent, clock/carry/phase, curvature jets, and conditional regional
-  realization for supplied data. G232/G233 exclude unrestricted finite-order profile closure; G234
-  leaves two architectures, and G235 excludes matched-network existence as a selector. G236/G237
-  freeze a conditional state projection; G238 proves it does not determine the held-out continuous
-  history or two-source forward map.
-- G222--G231 select no transport, direct relation, population, regional values, global scalar, or
-  history; integration and reconstruction do not generate their input values.
-- Events, germs, functions, observer population, branch aggregation, and multidirectional/global
-  realization remain open.
-- Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
-  numerical `X_max` remain open.
+- G211--G231 close supplied local geometry, not its values. G232--G235 exclude the tested local and
+  matched-network selectors. G236/G237 freeze a state; G238/G239 type and algebraically close its
+  held-out operator, not the continuous history or population.
+- Events, germs, population, branches, global realization, transfer, source/matter, action,
+  bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
-R2--R5 remain metric-neutral observed characterization with 184,300 unresolved covariance rows and
-no preferred scale. G236/G237 are a processed SNe state and freeze under imported transfer; G238
-keeps their held-out BOSS carry closed until the continuous history and two-source map are owned.
+R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
+scale. G236/G237 use imported transfer; G238/G239 leave continuous history and population unowned.
 
 ## Audited restart
 
@@ -135,7 +132,6 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G235 close the supplied evaluator and nonselection chain; G236/G237 freeze one finite SNe
-state. G238 types held-out BOSS carry and stops before outcomes. Next independently own its
-continuous observer-sky history, populated pair/branch measure, and reference map. Do not confuse
-reconstruction with law or observations with a selector; do not use `X_max` or protected drafts.
+G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238/G239 type and
+close the held-out operator without outcomes. Next own continuous history and populated branches,
+then evaluate without refit. Do not use observations as selector, `X_max`, or protected drafts.

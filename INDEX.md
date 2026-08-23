@@ -58,15 +58,15 @@
   `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`
 - Observational state/typing: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`;
   `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`; `udt_g238_bao_heldout_query_typing_2026-08-23/`
-G215--G235 close evaluation/nonselection; G236/G237 freeze a processed state; G238 leaves the BOSS map open: continuous history, population, transport, and transfer.
+- Reference-projected point-process operator: `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`
+G215--G235 close evaluation/nonselection; G236--G239 add conditional state/typing/operator, not history or population.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
-`archive/startup_surface_2026-08-21_pre_g197/`. The registry controls.
+Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`.
 ## Observational lane
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`

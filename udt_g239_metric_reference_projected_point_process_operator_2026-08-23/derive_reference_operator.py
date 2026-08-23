@@ -61,6 +61,12 @@ def subtract(left: list[Fraction], right: list[Fraction]) -> list[Fraction]:
     return [x - y for x, y in zip(left, right)]
 
 
+def subtract_matrix(
+    a: list[list[Fraction]], b: list[list[Fraction]]
+) -> list[list[Fraction]]:
+    return [[x - y for x, y in zip(row_a, row_b)] for row_a, row_b in zip(a, b)]
+
+
 def fraction_payload(value: Fraction) -> dict[str, object]:
     return {
         "exact": f"{value.numerator}/{value.denominator}",
@@ -143,7 +149,9 @@ def compute() -> dict[str, object]:
     if ls_connected != mismatch_form + connected_term or connected_term == 0:
         raise AssertionError("connected decomposition failed")
 
-    # A finite branch/source map A proves product pushforward factorization exactly.
+    # A finite single-image marking kernel proves product pushforward factorization exactly.
+    # Every source event chooses exactly one observed output.  The calculation pushes forward
+    # distinct-source factorial pairs; it does not cover several sibling images of one event.
     source = normalize([Fraction(2), Fraction(3)])
     branch_map = [
         [Fraction(1, 2), Fraction(0)],
@@ -175,13 +183,49 @@ def compute() -> dict[str, object]:
     if mapped_pair_direct != outer(mapped, mapped):
         raise AssertionError("factorized branch pushforward failed")
 
+    # Exact counterexample to generic multibranch factorization.  A Poisson parent process of
+    # intensity one produces one image in cell A and one in cell B for every event.  Distinct
+    # parents still contribute nu_1 tensor nu_1, while each parent adds the ordered sibling pairs
+    # A-B and B-A.  The parent is Poisson, but the observed image process is not factorized.
+    parent_intensity = Fraction(1)
+    sibling_nu_1 = [parent_intensity, parent_intensity]
+    sibling_product = outer(sibling_nu_1, sibling_nu_1)
+    sibling_measure = [
+        [Fraction(0), parent_intensity],
+        [parent_intensity, Fraction(0)],
+    ]
+    sibling_nu_2 = add_matrix(sibling_product, sibling_measure)
+    if sibling_nu_2 != [
+        [Fraction(1), Fraction(2)],
+        [Fraction(2), Fraction(1)],
+    ]:
+        raise AssertionError("same-source sibling pair measure changed")
+    if sibling_nu_2 == sibling_product:
+        raise AssertionError("same-source sibling pairs were suppressed")
+
+    # Gamma is defined from normalized measures.  Consequently the normalized sibling
+    # contribution contains both Sigma_sib/nu_2(total) and the compensating normalization shift
+    # relative to P tensor P.
+    sibling_p = normalize(sibling_nu_1)
+    sibling_nu_2_total = sum(
+        (sum(row, Fraction(0)) for row in sibling_nu_2), Fraction(0)
+    )
+    sibling_bar_nu_2 = scale_matrix(Fraction(1, 1) / sibling_nu_2_total, sibling_nu_2)
+    sibling_gamma = subtract_matrix(sibling_bar_nu_2, outer(sibling_p, sibling_p))
+    expected_sibling_gamma = [
+        [Fraction(-1, 12), Fraction(1, 12)],
+        [Fraction(1, 12), Fraction(-1, 12)],
+    ]
+    if sibling_gamma != expected_sibling_gamma:
+        raise AssertionError("normalized sibling contribution to Gamma changed")
+
     return {
         "audit": "G239_METRIC_REFERENCE_PROJECTED_POINT_PROCESS_OPERATOR",
         "landing": LANDING,
         "boss_outcomes_opened": False,
         "feature_or_scale_used": False,
         "profile_fit_performed": False,
-        "source_status": "CHOSE_OBSERVATIONAL_HYPOTHESIS__HOMOGENEOUS_POISSON_CONTROL",
+        "source_status": "CHOSE_OBSERVATIONAL_HYPOTHESIS__HOMOGENEOUS_POISSON_PARENT_CONTROL",
         "metric_status": "DERIVED_CONDITIONAL_EVALUATOR_ON_SUPPLIED_HISTORY_QUERY_AND_BRANCHES",
         "reference_status": "OBSERVED_AND_CHOSE_SURVEY_FOOTPRINT_REFERENCE__NOT_PHYSICAL_SOURCE_LAW",
         "reference_projected_identity": (
@@ -224,9 +268,33 @@ def compute() -> dict[str, object]:
             "pair_measure_nonnegative": all(value >= 0 for row in pair_measure for value in row),
         },
         "branch_factorization": {
+            "assumption": "ONE_OBSERVED_IMAGE_PER_SOURCE_EVENT__INDEPENDENT_SINGLE_BRANCH_MARK",
+            "no_same_source_sibling_multiplicity": True,
             "source": [fraction_payload(x) for x in source],
             "mapped": [fraction_payload(x) for x in mapped],
             "direct_product_equals_product_pushforward": mapped_pair_direct == outer(mapped, mapped),
+        },
+        "sibling_image_control": {
+            "parent_process": "POISSON_INTENSITY_ONE",
+            "images_per_parent": "ONE_IN_A_AND_ONE_IN_B",
+            "nu_1": [fraction_payload(x) for x in sibling_nu_1],
+            "distinct_source_product": [
+                [fraction_payload(x) for x in row] for row in sibling_product
+            ],
+            "raw_sibling_measure": [
+                [fraction_payload(x) for x in row] for row in sibling_measure
+            ],
+            "nu_2": [[fraction_payload(x) for x in row] for row in sibling_nu_2],
+            "raw_decomposition_exact": sibling_nu_2
+            == add_matrix(sibling_product, sibling_measure),
+            "factorization_false": sibling_nu_2 != sibling_product,
+            "normalized_gamma": [
+                [fraction_payload(x) for x in row] for row in sibling_gamma
+            ],
+            "normalized_gamma_nonzero": any(
+                value != 0 for row in sibling_gamma for value in row
+            ),
+            "status": "POISSON_PARENT_CAN_GENERATE_CONNECTED_OBSERVED_SIBLING_PAIRS",
         },
         "open": [
             "continuous physical metric history",

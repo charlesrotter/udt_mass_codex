@@ -14,6 +14,11 @@ G239 proves the exact comparison rule. The surviving curve is the angular self-c
 difference between those two densities, plus a separate term for any genuine source or branch-pair
 correlation.
 
+The reviewer caught one useful nuance. Even a perfectly random set of parent galaxies can create
+an observed pair pattern if the metric lets one parent appear through more than one branch—like one
+object producing two related images. Those sibling images belong in the separate connected term.
+They do not mean the parent galaxies were clustered.
+
 Two important cancellations are exact:
 
 - if the metric only changes every direction by the same amount in one shell, it cancels;
@@ -27,4 +32,3 @@ screen areas in radial and tilted directions, so this route is genuinely metric-
 What G239 does **not** supply is the actual whole-sky metric history or the real branch/source
 population. We now know the exact machine those inputs enter; we have not yet supplied Nature's
 settings or compared it with the BOSS outcome.
-

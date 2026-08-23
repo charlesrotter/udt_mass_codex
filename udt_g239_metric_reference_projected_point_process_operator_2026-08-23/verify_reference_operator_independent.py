@@ -41,6 +41,7 @@ def run() -> dict[str, object]:
     cancellation_cases = 0
     nonzero_cases = 0
     branch_cases = 0
+    sibling_image_cases = 0
 
     for _ in range(2000):
         n = rng.randint(3, 7)
@@ -96,6 +97,31 @@ def run() -> dict[str, object]:
         assert direct == outer(mapped, mapped)
         branch_cases += 1
 
+    # Independent exact family for the reviewer's same-source multiplicity objection.
+    # Each Poisson parent produces one A image and one B image.  Distinct parents give the
+    # product measure; the same parent contributes the two ordered off-diagonal sibling pairs.
+    for _ in range(257):
+        lam = Fraction(rng.randint(1, 17), rng.randint(1, 13))
+        nu1 = [lam, lam]
+        product = outer(nu1, nu1)
+        siblings = [[Fraction(0), lam], [lam, Fraction(0)]]
+        nu2 = [
+            [product[i][j] + siblings[i][j] for j in range(2)]
+            for i in range(2)
+        ]
+        assert nu2 != product
+        total_one = sum(nu1, Fraction(0))
+        total_two = sum((sum(row, Fraction(0)) for row in nu2), Fraction(0))
+        p = [value / total_one for value in nu1]
+        bar_nu2 = [[value / total_two for value in row] for row in nu2]
+        gamma = [
+            [bar_nu2[i][j] - p[i] * p[j] for j in range(2)]
+            for i in range(2)
+        ]
+        assert any(value != 0 for row in gamma for value in row)
+        assert sum((sum(row, Fraction(0)) for row in gamma), Fraction(0)) == 0
+        sibling_image_cases += 1
+
     if identity_cases < 1900 or nonzero_cases == 0:
         raise AssertionError("insufficient independent coverage")
 
@@ -108,6 +134,9 @@ def run() -> dict[str, object]:
         "cancellation_cases": cancellation_cases,
         "nonzero_cases": nonzero_cases,
         "branch_factorization_cases": branch_cases,
+        "branch_factorization_scope": "ONE_OBSERVED_IMAGE_PER_SOURCE_EVENT",
+        "sibling_image_cases": sibling_image_cases,
+        "sibling_image_status": "POISSON_PARENT_CAN_GENERATE_NONZERO_OBSERVED_GAMMA",
         "g127_tilted_trace": "12/25",
         "g127_jacobi_determinant_lambda4_coefficient": "-2/25",
     }

@@ -2,6 +2,7 @@
   "audit": "G239_METRIC_REFERENCE_PROJECTED_POINT_PROCESS_OPERATOR",
   "boss_outcomes_opened": false,
   "branch_factorization": {
+    "assumption": "ONE_OBSERVED_IMAGE_PER_SOURCE_EVENT__INDEPENDENT_SINGLE_BRANCH_MARK",
     "direct_product_equals_product_pushforward": true,
     "mapped": [
       {
@@ -29,6 +30,7 @@
         "numerator": 1
       }
     ],
+    "no_same_source_sibling_multiplicity": true,
     "source": [
       {
         "decimal": 0.4,
@@ -260,5 +262,147 @@
   "profile_fit_performed": false,
   "reference_projected_identity": "w_K=<K,(P-Q)x(P-Q)>/<K,QxQ>+<K,Gamma>/<K,QxQ>",
   "reference_status": "OBSERVED_AND_CHOSE_SURVEY_FOOTPRINT_REFERENCE__NOT_PHYSICAL_SOURCE_LAW",
-  "source_status": "CHOSE_OBSERVATIONAL_HYPOTHESIS__HOMOGENEOUS_POISSON_CONTROL"
+  "sibling_image_control": {
+    "distinct_source_product": [
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ]
+    ],
+    "factorization_false": true,
+    "images_per_parent": "ONE_IN_A_AND_ONE_IN_B",
+    "normalized_gamma": [
+      [
+        {
+          "decimal": -0.08333333333333333,
+          "denominator": 12,
+          "exact": "-1/12",
+          "numerator": -1
+        },
+        {
+          "decimal": 0.08333333333333333,
+          "denominator": 12,
+          "exact": "1/12",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 0.08333333333333333,
+          "denominator": 12,
+          "exact": "1/12",
+          "numerator": 1
+        },
+        {
+          "decimal": -0.08333333333333333,
+          "denominator": 12,
+          "exact": "-1/12",
+          "numerator": -1
+        }
+      ]
+    ],
+    "normalized_gamma_nonzero": true,
+    "nu_1": [
+      {
+        "decimal": 1.0,
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      },
+      {
+        "decimal": 1.0,
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      }
+    ],
+    "nu_2": [
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 2.0,
+          "denominator": 1,
+          "exact": "2/1",
+          "numerator": 2
+        }
+      ],
+      [
+        {
+          "decimal": 2.0,
+          "denominator": 1,
+          "exact": "2/1",
+          "numerator": 2
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ]
+    ],
+    "parent_process": "POISSON_INTENSITY_ONE",
+    "raw_decomposition_exact": true,
+    "raw_sibling_measure": [
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ]
+    ],
+    "status": "POISSON_PARENT_CAN_GENERATE_CONNECTED_OBSERVED_SIBLING_PAIRS"
+  },
+  "source_status": "CHOSE_OBSERVATIONAL_HYPOTHESIS__HOMOGENEOUS_POISSON_PARENT_CONTROL"
 }

@@ -1,6 +1,7 @@
 {
   "audit": "G239_INDEPENDENT_REFERENCE_OPERATOR_REPLAY",
   "branch_factorization_cases": 1997,
+  "branch_factorization_scope": "ONE_OBSERVED_IMAGE_PER_SOURCE_EVENT",
   "cancellation_cases": 1997,
   "g127_jacobi_determinant_lambda4_coefficient": "-2/25",
   "g127_tilted_trace": "12/25",
@@ -8,5 +9,7 @@
   "implementation": "independent_standard_library_fraction_randomized",
   "nonzero_cases": 1984,
   "seed": 239,
+  "sibling_image_cases": 257,
+  "sibling_image_status": "POISSON_PARENT_CAN_GENERATE_NONZERO_OBSERVED_GAMMA",
   "status": "PASS"
 }

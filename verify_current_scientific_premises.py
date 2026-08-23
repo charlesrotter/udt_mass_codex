@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G238",
+            "G166--G239",
             "G197",
             "G215",
             "G216",
@@ -219,6 +219,7 @@ def validate_startup_surface(root: Path) -> None:
             "G236",
             "G237",
             "G238",
+            "G239",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -261,7 +262,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "221-row exact registry",
+            "222-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -343,7 +344,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G238",
+            "G166--G239",
             "G197",
             "G198",
             "G199",
@@ -387,6 +388,7 @@ def validate_startup_surface(root: Path) -> None:
             "G236",
             "G237",
             "G238",
+            "G239",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -443,6 +445,7 @@ def validate_startup_surface(root: Path) -> None:
             "G236",
             "G237",
             "G238",
+            "G239",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -494,10 +497,11 @@ def validate_startup_surface(root: Path) -> None:
             "G236",
             "G237",
             "G238",
+            "G239",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "221-row",
+            "222-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -838,9 +842,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 221, "premise registry must contain exactly 221 rows")
+    require(len(rows) == 222, "premise registry must contain exactly 222 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 221, "duplicate premise id")
+    require(len(by_id) == 222, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4358,6 +4362,123 @@ def main() -> None:
         "G238 repair-followup acceptance absent",
     )
     require(len(read_tsv(g238 / "SOURCE_MANIFEST.tsv")) == 15, "G238 source count changed")
+    require(
+        by_id["G239"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_C7257695"
+        ),
+        "G239 bounded grade changed",
+    )
+    for guard in (
+        "R1_R2_REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_RETAINED",
+        "REFERENCE_PROJECTED_METRIC_INTENSITY_OPERATOR_DERIVED_CONDITIONALLY",
+        "POISSON_ZERO_GAMMA_RESTRICTED_TO_ONE_IMAGE_PER_PARENT_INDEPENDENT_SINGLE_BRANCH_MARK",
+        "SAME_PARENT_MULTIBRANCH_SIBLINGS_GIVE_NONZERO_NORMALIZED_GAMMA",
+        "PHYSICAL_HISTORY_SOURCE_INCIDENCE_BRANCH_POPULATION_PAIR_MEASURE_AND_BOSS_OUTCOME_OPEN",
+    ):
+        require(guard in by_id["G239"]["current_status"], f"G239 guard absent: {guard}")
+    require(by_id["G239"]["epistemic_label"] == "MIXED", "G239 label changed")
+    require(
+        by_id["G239"]["active_use"]
+        == "ACTIVE_BOUNDED_OUTCOME_BLIND_REFERENCE_PROJECTED_POINT_PROCESS_OPERATOR_ONLY",
+        "G239 active scope widened",
+    )
+    for guard in (
+        "generic multibranch Poisson factorization claimed without sibling-image measure",
+        "BOSS outcome feature covariance or scale opened before physical inputs freeze",
+    ):
+        require(guard in by_id["G239"]["forbidden_regression"], f"G239 regression guard absent: {guard}")
+    require(
+        by_id["G239"]["controlling_source"]
+        == "udt_g239_metric_reference_projected_point_process_operator_2026-08-23/AUDIT_REPORT.md",
+        "G239 controlling source changed",
+    )
+    g239 = ROOT / "udt_g239_metric_reference_projected_point_process_operator_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "EXTERNAL_REVIEW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "OPERATOR_LEDGER.tsv",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_PREREGISTRATION.md",
+        "SEALED_PREMISE_SCOPE_RESULT.json",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "derive_reference_operator.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_reference_operator_independent.py",
+        "verify_sealed_premise_scope.py",
+    ):
+        require((g239 / name).is_file(), f"G239 evidence missing: {name}")
+    g239_result = json.loads((g239 / "DERIVATION_RESULT.json").read_text())
+    g239_independent = json.loads((g239 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g239_catches = json.loads((g239 / "CATCH_PROOF_RESULT.json").read_text())
+    g239_scope = json.loads((g239 / "SEALED_PREMISE_SCOPE_RESULT.json").read_text())
+    g239_verification = json.loads((g239 / "VERIFICATION_RESULT.json").read_text())
+    expected_g239_landing = (
+        "REFERENCE_PROJECTED_METRIC_INTENSITY_OPERATOR_DERIVED_CONDITIONALLY"
+        "__MATCHED_REFERENCE_AND_ANGULARLY_CONSTANT_RESPONSE_CANCEL_EXACTLY"
+        "__NONCONSTANT_METRIC_PUSHFORWARD_CAN_SURVIVE_FIXED_SURVEY_REFERENCE"
+        "__CONNECTED_PAIR_TERM_SEPARATES_EXACTLY"
+        "__PHYSICAL_HISTORY_SOURCE_AND_BRANCH_POPULATION_OPEN"
+    )
+    require(g239_result["landing"] == expected_g239_landing, "G239 landing changed")
+    require(g239_result["boss_outcomes_opened"] is False, "G239 outcome gate opened")
+    require(g239_result["profile_fit_performed"] is False, "G239 fit gate opened")
+    require(
+        g239_result["branch_factorization"]["assumption"]
+        == "ONE_OBSERVED_IMAGE_PER_SOURCE_EVENT__INDEPENDENT_SINGLE_BRANCH_MARK",
+        "G239 branch-factorization scope widened",
+    )
+    sibling = g239_result["sibling_image_control"]
+    require(sibling["factorization_false"] is True, "G239 sibling factorization counterexample lost")
+    require(
+        sibling["normalized_gamma"][0][1]["exact"] == "1/12"
+        and sibling["normalized_gamma"][1][0]["exact"] == "1/12"
+        and sibling["normalized_gamma"][0][0]["exact"] == "-1/12",
+        "G239 sibling normalized Gamma changed",
+    )
+    require(g239_verification["status"] == "PASS", "G239 package verification failed")
+    require(
+        g239_verification["checks"]["single_image_factorization_scope"] is True
+        and g239_verification["checks"]["same_source_sibling_gamma"] is True,
+        "G239 repaired verification guards absent",
+    )
+    require(
+        g239_independent["status"] == "PASS"
+        and g239_independent["identity_cases"] == 1997
+        and g239_independent["branch_factorization_cases"] == 1997
+        and g239_independent["sibling_image_cases"] == 257,
+        "G239 independent replay changed",
+    )
+    require(g239_catches["status"] == "PASS" and len(g239_catches["cases"]) == 12,
+            "G239 hostile catches changed")
+    require(all(case["caught"] for case in g239_catches["cases"]), "G239 hostile mutation escaped")
+    require(
+        any(case["mutation"] == "same_source_sibling_suppression" for case in g239_catches["cases"]),
+        "G239 sibling-suppression catch absent",
+    )
+    require(
+        g239_scope["status"] == "PASS"
+        and g239_scope["registry_rows"] == 221
+        and len(g239_scope["dependencies_checked"]) == 6
+        and g239_scope["g239_registry_row_absent_until_external_repair_acceptance"] is True,
+        "G239 sealed prereview premise scope changed",
+    )
+    require(
+        "G239_R1_R2_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
+        in (g239 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        "G239 repair-followup acceptance absent",
+    )
+    require(len(read_tsv(g239 / "SOURCE_MANIFEST.tsv")) == 12, "G239 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8581,7 +8702,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G238-extended startup and G238 premise guards; PASS: 221-row premise "
+        "PASS: G239-extended startup and G239 premise guards; PASS: 222-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
