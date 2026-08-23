@@ -1,0 +1,12 @@
+{
+  "audit": "G239_INDEPENDENT_REFERENCE_OPERATOR_REPLAY",
+  "branch_factorization_cases": 1997,
+  "cancellation_cases": 1997,
+  "g127_jacobi_determinant_lambda4_coefficient": "-2/25",
+  "g127_tilted_trace": "12/25",
+  "identity_cases": 1997,
+  "implementation": "independent_standard_library_fraction_randomized",
+  "nonzero_cases": 1984,
+  "seed": 239,
+  "status": "PASS"
+}

@@ -1,0 +1,50 @@
+{
+  "audit": "G239_CATCH_PROOFS",
+  "cases": [
+    {
+      "caught": true,
+      "mutation": "ls_sign_or_normalization"
+    },
+    {
+      "caught": true,
+      "mutation": "matched_reference_nonzero"
+    },
+    {
+      "caught": true,
+      "mutation": "common_response_nonzero"
+    },
+    {
+      "caught": true,
+      "mutation": "connected_term_omission"
+    },
+    {
+      "caught": true,
+      "mutation": "metric_liveness_deletion"
+    },
+    {
+      "caught": true,
+      "mutation": "source_promotion"
+    },
+    {
+      "caught": true,
+      "mutation": "reference_promotion"
+    },
+    {
+      "caught": true,
+      "mutation": "outcome_opening"
+    },
+    {
+      "caught": true,
+      "mutation": "feature_or_scale_insertion"
+    },
+    {
+      "caught": true,
+      "mutation": "postreadout_coefficient"
+    },
+    {
+      "caught": true,
+      "mutation": "forbidden_guard_removal"
+    }
+  ],
+  "status": "PASS"
+}

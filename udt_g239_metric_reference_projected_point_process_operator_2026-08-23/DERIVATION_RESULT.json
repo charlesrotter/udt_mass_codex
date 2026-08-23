@@ -1,0 +1,264 @@
+{
+  "audit": "G239_METRIC_REFERENCE_PROJECTED_POINT_PROCESS_OPERATOR",
+  "boss_outcomes_opened": false,
+  "branch_factorization": {
+    "direct_product_equals_product_pushforward": true,
+    "mapped": [
+      {
+        "decimal": 0.2,
+        "denominator": 5,
+        "exact": "1/5",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.4,
+        "denominator": 5,
+        "exact": "2/5",
+        "numerator": 2
+      },
+      {
+        "decimal": 0.2,
+        "denominator": 5,
+        "exact": "1/5",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.2,
+        "denominator": 5,
+        "exact": "1/5",
+        "numerator": 1
+      }
+    ],
+    "source": [
+      {
+        "decimal": 0.4,
+        "denominator": 5,
+        "exact": "2/5",
+        "numerator": 2
+      },
+      {
+        "decimal": 0.6,
+        "denominator": 5,
+        "exact": "3/5",
+        "numerator": 3
+      }
+    ]
+  },
+  "cancellation_controls": {
+    "constant_response_landy_szalay": {
+      "decimal": 0.0,
+      "denominator": 1,
+      "exact": "0/1",
+      "numerator": 0
+    },
+    "constant_response_p_equals_q": true,
+    "matched_reference_landy_szalay": {
+      "decimal": 0.0,
+      "denominator": 1,
+      "exact": "0/1",
+      "numerator": 0
+    }
+  },
+  "connected_control": {
+    "connected_term": {
+      "decimal": -0.004166666666666667,
+      "denominator": 240,
+      "exact": "-1/240",
+      "numerator": -1
+    },
+    "decomposition_exact": true,
+    "epsilon": {
+      "decimal": 0.001,
+      "denominator": 1000,
+      "exact": "1/1000",
+      "numerator": 1
+    },
+    "full_landy_szalay": {
+      "decimal": -0.17083333333333334,
+      "denominator": 240,
+      "exact": "-41/240",
+      "numerator": -41
+    },
+    "pair_measure_nonnegative": true
+  },
+  "factorized_witness": {
+    "dd": {
+      "decimal": 0.32,
+      "denominator": 25,
+      "exact": "8/25",
+      "numerator": 8
+    },
+    "dr": {
+      "decimal": 0.44,
+      "denominator": 25,
+      "exact": "11/25",
+      "numerator": 11
+    },
+    "landy_szalay": {
+      "decimal": -0.16666666666666666,
+      "denominator": 6,
+      "exact": "-1/6",
+      "numerator": -1
+    },
+    "metric_response": [
+      {
+        "decimal": 1.0,
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      },
+      {
+        "decimal": 2.0,
+        "denominator": 1,
+        "exact": "2/1",
+        "numerator": 2
+      },
+      {
+        "decimal": 1.0,
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      },
+      {
+        "decimal": 3.0,
+        "denominator": 1,
+        "exact": "3/1",
+        "numerator": 3
+      }
+    ],
+    "mismatch_form": {
+      "decimal": -0.16666666666666666,
+      "denominator": 6,
+      "exact": "-1/6",
+      "numerator": -1
+    },
+    "nonzero": true,
+    "p": [
+      {
+        "decimal": 0.05,
+        "denominator": 20,
+        "exact": "1/20",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.2,
+        "denominator": 5,
+        "exact": "1/5",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.15,
+        "denominator": 20,
+        "exact": "3/20",
+        "numerator": 3
+      },
+      {
+        "decimal": 0.6,
+        "denominator": 5,
+        "exact": "3/5",
+        "numerator": 3
+      }
+    ],
+    "q": [
+      {
+        "decimal": 0.1,
+        "denominator": 10,
+        "exact": "1/10",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.2,
+        "denominator": 5,
+        "exact": "1/5",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.3,
+        "denominator": 10,
+        "exact": "3/10",
+        "numerator": 3
+      },
+      {
+        "decimal": 0.4,
+        "denominator": 5,
+        "exact": "2/5",
+        "numerator": 2
+      }
+    ],
+    "rr": {
+      "decimal": 0.48,
+      "denominator": 25,
+      "exact": "12/25",
+      "numerator": 12
+    }
+  },
+  "feature_or_scale_used": false,
+  "forbidden_inputs_absent": [
+    "P1",
+    "X_max",
+    "Lambda-CDM distance",
+    "BOSS curve value",
+    "feature location",
+    "fitted coefficient",
+    "post-readout orchestra",
+    "protected package"
+  ],
+  "landing": "REFERENCE_PROJECTED_METRIC_INTENSITY_OPERATOR_DERIVED_CONDITIONALLY__MATCHED_REFERENCE_AND_ANGULARLY_CONSTANT_RESPONSE_CANCEL_EXACTLY__NONCONSTANT_METRIC_PUSHFORWARD_CAN_SURVIVE_FIXED_SURVEY_REFERENCE__CONNECTED_PAIR_TERM_SEPARATES_EXACTLY__PHYSICAL_HISTORY_SOURCE_AND_BRANCH_POPULATION_OPEN",
+  "metric_local_jacobi_liveness": {
+    "jacobi_determinant_lambda4_coefficient": {
+      "decimal": -0.08,
+      "denominator": 25,
+      "exact": "-2/25",
+      "numerator": -2
+    },
+    "meaning": "det(D_tilted)=lambda^2-(2/25)lambda^4+O(lambda^5), while det(D_radial)=lambda^2+O(lambda^5)",
+    "radial_tidal_eigenvalues": [
+      {
+        "decimal": 0.0,
+        "denominator": 1,
+        "exact": "0/1",
+        "numerator": 0
+      },
+      {
+        "decimal": 0.0,
+        "denominator": 1,
+        "exact": "0/1",
+        "numerator": 0
+      }
+    ],
+    "source": "G127 q=r=1, cos(alpha)=3/5, sin(alpha)=4/5 exact witness",
+    "tilted_tidal_eigenvalues": [
+      {
+        "decimal": 0.32,
+        "denominator": 25,
+        "exact": "8/25",
+        "numerator": 8
+      },
+      {
+        "decimal": 0.16,
+        "denominator": 25,
+        "exact": "4/25",
+        "numerator": 4
+      }
+    ],
+    "tilted_trace": {
+      "decimal": 0.48,
+      "denominator": 25,
+      "exact": "12/25",
+      "numerator": 12
+    }
+  },
+  "metric_status": "DERIVED_CONDITIONAL_EVALUATOR_ON_SUPPLIED_HISTORY_QUERY_AND_BRANCHES",
+  "open": [
+    "continuous physical metric history",
+    "observer/source incidence",
+    "physical null-branch population and weights",
+    "physical source one- and two-point measures",
+    "native radiative transfer",
+    "BOSS outcome comparison"
+  ],
+  "profile_fit_performed": false,
+  "reference_projected_identity": "w_K=<K,(P-Q)x(P-Q)>/<K,QxQ>+<K,Gamma>/<K,QxQ>",
+  "reference_status": "OBSERVED_AND_CHOSE_SURVEY_FOOTPRINT_REFERENCE__NOT_PHYSICAL_SOURCE_LAW",
+  "source_status": "CHOSE_OBSERVATIONAL_HYPOTHESIS__HOMOGENEOUS_POISSON_CONTROL"
+}
