@@ -1,0 +1,17 @@
+object	status	role	open_scope
+G236_metric_to_release_transform	DERIVED_CONDITIONAL	maps processed SNe observable to relative 5log10R state	native time-live nonspherical transfer
+Pantheon_shape_state	OBSERVED_PROCESSED_CONDITIONAL	first release state estimate	unregistered systematics raw reprocessing
+DES_shape_state	OBSERVED_PROCESSED_CONDITIONAL	second release state estimate	bias-correction reference dependence
+exact_CID_deoverlap	OBSERVED_BOUNDED	removes registered duplicate objects	unknown shared calibration systematics
+cross_release_covariance	CHOSE_STATISTICAL_APPROXIMATION	zero block after de-overlap	public joint covariance absent
+K12_primary	CHOSE_NUMERICAL_RESOLUTION	frozen held-out state grid	not physical coefficient count
+K8_K16_K24	CHOSE_NUMERICAL_CONTROLS	resolution robustness	not alternative physical laws
+release_offsets	FREE_AND_PROFILED	one additive zero-point per catalog	absolute R normalization
+joint_precision_combination	DERIVED_STATISTICAL	minimum-variance common state under declared covariance	cross-release covariance dependence
+relative_R_display	DERIVED_CONDITIONAL	10^(theta/5) at registered knots	no between-knot physical law
+P1_Xmax_LCDM_distance	OMITTED_PROHIBITED	not construction inputs	remain historical open or forbidden by provenance
+profile_optimizer_smoothing_monotonicity	OMITTED_PROHIBITED	no merit filter or fitted physical formula	physical law open
+BAO_CMB_outcomes	HELD_OUT_NOT_READ	future separately typed query	source and operator audit first
+time_live_nonspherical_orchestra	OMITTED_BOUNDED_SLICE	central-static state only	future query extension
+native_transfer_profile_history	OPEN_NOT_DERIVED	not supplied by state assembly	future native structure
+protected_packages	EXCLUDED	no access or use	explicit dispatch required
