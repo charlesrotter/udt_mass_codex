@@ -1,0 +1,13 @@
+{
+  "audit": "G237_EXTERNAL_REVIEW_REPAIR_CERTIFICATION",
+  "checks": {
+    "expanded_covariance_label": true,
+    "frozen_FROZEN_PRIMARY_K12_STATE.json": true,
+    "frozen_JOINT_STATE.tsv": true,
+    "frozen_JOINT_STATE_RESULT.json": true,
+    "independent_only_label_changed": true,
+    "self_contained_chronology": true
+  },
+  "scientific_landing_changed": false,
+  "status": "PASS"
+}

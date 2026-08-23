@@ -1,0 +1,11 @@
+{
+  "audit": "G237_CATCH_PROOFS",
+  "caught": [
+    "primary_K",
+    "state_rows",
+    "covariance_premise",
+    "verification_status",
+    "theta_tolerance"
+  ],
+  "status": "PASS"
+}

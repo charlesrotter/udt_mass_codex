@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G236",
+            "G166--G237",
             "G197",
             "G215",
             "G216",
@@ -217,6 +217,7 @@ def validate_startup_surface(root: Path) -> None:
             "G234",
             "G235",
             "G236",
+            "G237",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -259,7 +260,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "219-row exact registry",
+            "220-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -326,6 +327,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g231_cartan_regional_realization_bridge_2026-08-23/",
             "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/",
             "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/",
+            "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -339,7 +341,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G236",
+            "G166--G237",
             "G197",
             "G198",
             "G199",
@@ -381,6 +383,7 @@ def validate_startup_surface(root: Path) -> None:
             "G234",
             "G235",
             "G236",
+            "G237",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -435,6 +438,7 @@ def validate_startup_surface(root: Path) -> None:
             "G234",
             "G235",
             "G236",
+            "G237",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -484,10 +488,11 @@ def validate_startup_surface(root: Path) -> None:
             "G234",
             "G235",
             "G236",
+            "G237",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "219-row",
+            "220-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -828,9 +833,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 219, "premise registry must contain exactly 219 rows")
+    require(len(rows) == 220, "premise registry must contain exactly 220 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 219, "duplicate premise id")
+    require(len(by_id) == 220, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4110,6 +4115,142 @@ def main() -> None:
         and "__pycache__" not in path.parts
     }
     require(g236_registered == g236_actual, "G236 final evidence manifest mismatch")
+    require(
+        by_id["G237"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_AD49B9C8"
+        ),
+        "G237 bounded grade changed",
+    )
+    for guard in (
+        "REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_RETAINED",
+        "OBSERVED_PROCESSED_CONDITIONAL",
+        "ZERO_UNKNOWN_CROSS_RELEASE_COVARIANCE_AFTER_EXACT_CID_DEOVERLAP_CHOSEN",
+        "K12_PRIMARY_JOINT_RAW_CHI2_2145P8547911347_DOF_2378",
+        "K8_K16_K24_CONTROLS_PASS",
+        "INDEPENDENT_RAW_SIMULTANEOUS_GLS_REPLAY",
+        "THREE_PRIMARY_SCIENTIFIC_ARTIFACTS_FROZEN_BYTE_IDENTICAL",
+        "JOINT_STATE_NOT_PROFILE_LAW_SNE_PREDICTION_NATIVE_TRANSFER_HISTORY_SELECTION_OR_HELDOUT_VALIDATION",
+    ):
+        require(guard in by_id["G237"]["current_status"], f"G237 guard absent: {guard}")
+    require(by_id["G237"]["epistemic_label"] == "MIXED", "G237 label changed")
+    require(
+        by_id["G237"]["active_use"]
+        == "ACTIVE_BOUNDED_FROZEN_PRIMARY_K12_JOINT_DUAL_PROCESSED_SNE_RELATIVE_STATE_AND_COVARIANCE_ONLY",
+        "G237 active scope widened",
+    )
+    require(
+        "chosen zero unknown cross-release covariance called statistical independence"
+        in by_id["G237"]["forbidden_regression"]
+        and "frozen state refit on held-out outcome" in by_id["G237"]["forbidden_regression"]
+        and "held-out outcome inspected before query preregistration"
+        in by_id["G237"]["forbidden_regression"],
+        "G237 regression guards absent",
+    )
+    require(
+        by_id["G237"]["controlling_source"]
+        == "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/AUDIT_REPORT.md",
+        "G237 controlling source changed",
+    )
+    g237 = ROOT / "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "CHRONOLOGY_BUNDLE_VERIFICATION.json",
+        "CHRONOLOGY_OBJECT_BUNDLE.json",
+        "CHRONOLOGY_PROOF.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "EXTERNAL_REVIEW.md",
+        "FINAL_EVIDENCE_MANIFEST.tsv",
+        "FROZEN_PRIMARY_K12_STATE.json",
+        "INDEPENDENT_RAW_GLS.json",
+        "JOINT_STATE.tsv",
+        "JOINT_STATE_RESULT.json",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_CERTIFICATION.json",
+        "REPAIR_PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "derive_joint_state.py",
+        "verify_chronology_bundle.py",
+        "verify_joint_state_from_raw.py",
+        "verify_package.py",
+        "verify_repair.py",
+    ):
+        require((g237 / name).is_file(), f"G237 evidence missing: {name}")
+    g237_result = json.loads((g237 / "JOINT_STATE_RESULT.json").read_text())
+    g237_independent = json.loads((g237 / "INDEPENDENT_RAW_GLS.json").read_text())
+    g237_verification = json.loads((g237 / "VERIFICATION_RESULT.json").read_text())
+    g237_chronology = json.loads((g237 / "CHRONOLOGY_BUNDLE_VERIFICATION.json").read_text())
+    g237_repair = json.loads((g237 / "REPAIR_CERTIFICATION.json").read_text())
+    require(g237_result["status"] == "PASS", "G237 production status changed")
+    require(
+        g237_result["landing"] == "JOINT_DUAL_SNE_RELATIVE_STATE_FROZEN_WITH_CAVEATS",
+        "G237 production landing changed",
+    )
+    require(g237_result["primary_resolution"] == 12 and g237_result["state_rows"] == 56,
+            "G237 primary freeze shape changed")
+    require(
+        g237_result["cross_release_covariance"]
+        == "CHOSE_ZERO_AFTER_EXACT_CID_DEOVERLAP__UNKNOWN_SHARED_SYSTEMATICS_OPEN",
+        "G237 covariance premise changed",
+    )
+    expected_g237_raw = {
+        "8": (2188.449488468671, 2382),
+        "12": (2145.8547911346986, 2378),
+        "16": (2135.07038878084, 2374),
+        "24": (2124.469339087703, 2366),
+    }
+    for key, (chi2, dof) in expected_g237_raw.items():
+        result = g237_result["resolutions"][key]
+        require(abs(result["joint_raw_chi2"] - chi2) < 1.0e-9, f"G237 K{key} chi2 changed")
+        require(result["joint_raw_dof"] == dof and result["joint_raw_adequate"] is True,
+                f"G237 K{key} raw adequacy changed")
+    require(g237_independent["status"] == "PASS", "G237 independent replay changed")
+    require(g237_verification["status"] == "PASS", "G237 package verification changed")
+    require(
+        g237_verification["checks"]["max_theta_cross_error"] < 7.0e-13
+        and g237_verification["checks"]["max_covariance_cross_error"] < 3.0e-17
+        and g237_verification["checks"]["max_raw_chi2_cross_error"] < 2.5e-10,
+        "G237 independent cross-route residual widened",
+    )
+    require(g237_chronology["status"] == "PASS" and g237_chronology["requires_live_git"] is False,
+            "G237 self-contained chronology changed")
+    require(g237_repair["status"] == "PASS" and g237_repair["scientific_landing_changed"] is False,
+            "G237 repair certification changed")
+    require(
+        "G237_SCIENTIFIC_OR_EVIDENCE_REPAIR_REQUIRED" in (g237 / "EXTERNAL_REVIEW.md").read_text(),
+        "G237 initial external review absent",
+    )
+    require(
+        "G237_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
+        in (g237 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        "G237 repair-followup acceptance absent",
+    )
+    frozen_hashes = {
+        "JOINT_STATE_RESULT.json": "0407fb233158beb06fba771d78e1e2ec66e1d857858b4a094e78d294d417c951",
+        "FROZEN_PRIMARY_K12_STATE.json": "88d3006a646f2be105a3fb15f2c4c694732b884da97f8fdeefc39323e6bbc8cf",
+        "JOINT_STATE.tsv": "548219b37459a12c590a43568120e519fc58fa79b322c2059a7b06ba8b88c4b1",
+    }
+    for name, digest in frozen_hashes.items():
+        require(hashlib.sha256((g237 / name).read_bytes()).hexdigest() == digest,
+                f"G237 frozen artifact changed: {name}")
+    require(len(read_tsv(g237 / "PREMISE_LEDGER.tsv")) == 16, "G237 premise count changed")
+    require(len(read_tsv(g237 / "SOURCE_MANIFEST.tsv")) == 7, "G237 source count changed")
+    g237_manifest_rows = read_tsv(g237 / "FINAL_EVIDENCE_MANIFEST.tsv")
+    g237_registered = {row["path"]: row["sha256"] for row in g237_manifest_rows}
+    require(len(g237_registered) == len(g237_manifest_rows), "G237 duplicate manifest path")
+    g237_actual = {
+        path.relative_to(g237).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g237.rglob("*")
+        if path.is_file()
+        and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+        and "__pycache__" not in path.parts
+    }
+    require(g237_registered == g237_actual, "G237 final evidence manifest mismatch")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8333,7 +8474,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G236-extended startup and G236 premise guards; PASS: 219-row premise "
+        "PASS: G237-extended startup and G237 premise guards; PASS: 220-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -1,0 +1,15 @@
+{
+  "audit": "G237_PREREGISTRATION_CHRONOLOGY_PROOF",
+  "ceiling": "Git proves committed object identity, ancestry, and preregistration contents; it cannot prove the retroactive absence of untracked private computation.",
+  "commit": "ad49b9c8416ce9eed6e57a6094a5b7eebc878c4b",
+  "commit_body": "tree 396419fe470250b89ca2f2e9495907258660d83a\nparent 6e6c74b6070020fb1bbd6dfc49d1e9992d6366b9\nauthor Charles Rotter <charles@charlesrotter.com> 1787516730 -0400\ncommitter Charles Rotter <charles@charlesrotter.com> 1787516730 -0400\n\nPreregister G237 joint SNe state freeze\n\nFreeze the block-diagonal cross-release covariance approximation, K=12 primary state grid, K=8/16/24 controls, direct-GLS cross-check, failure gates, and maximum observational conclusion before constructing the joint Pantheon+ and DES relative state.\n",
+  "commit_recomputed_sha1": "ad49b9c8416ce9eed6e57a6094a5b7eebc878c4b",
+  "committed_blob_recomputed_sha1": "ba541b1994c6556b8a0b6ac5cd93f0e2a6b02247",
+  "committed_equals_current": true,
+  "committed_prereg_sha256": "0c340134cae64f5735a28e74bff18aac7c12d1adf6d0558dbd900a191ea0e8ef",
+  "current_prereg_sha256": "0c340134cae64f5735a28e74bff18aac7c12d1adf6d0558dbd900a191ea0e8ef",
+  "parent": "6e6c74b6070020fb1bbd6dfc49d1e9992d6366b9",
+  "registered_blob": "ba541b1994c6556b8a0b6ac5cd93f0e2a6b02247",
+  "status": "PASS",
+  "tree_line": "100644 blob ba541b1994c6556b8a0b6ac5cd93f0e2a6b02247\tudt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/PREREGISTRATION.md"
+}

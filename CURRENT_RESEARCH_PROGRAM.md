@@ -70,12 +70,8 @@ physical scalar after the working premise. They must not be conflated.
   Gauges and affine scales cancel; caustics retain an invertible full phase and matrix holonomy.
   External review and repair closure verified this without selecting transport, a direct relation,
   population, or history.
-- G227 curvature tides have rank 19; one `CHOSE` datum gives 20. G228 differential Bianchi cuts
-  `(nabla R)` from 80 to 60. G229 realizes compatible point jets without regional values.
-- G230 adds differentiated Bianchi and the Ricci commutator: the curvature second jet has dimension
-  126, while metric fourth-jet rank/kernel are 126/224. This is one-event realization, not dynamics.
-- G231 joins G227--G230 as a `20/60/126` Cartan architecture. Finite algebroid data realize
-  conditionally; analytic data yield coframes. Neither route generates values.
+- G227/G228/G229/G230/G231 close supplied curvature ranks `20/60/126`, metric 3/4-jets, and conditional
+  Cartan realization. They generate no regional values or dynamics.
 - G232 separates valued-member evaluation, `CHOSE` finite-family closure, and network encoding.
   G233 excludes universal local finite-order autonomous closure on the unrestricted profile, while
   leaving global, infinite-state, time-live, nonspherical, and smaller-family routes open.
@@ -89,8 +85,11 @@ physical scalar after the working premise. They must not be conflated.
   and DES processed releases support compatible finite-resolution relative `R(phi)` states at four
   preregistered resolutions. This externally verified concordance does not derive the profile law,
   native transfer, a physical history, or an SNe prediction.
+- G237 freezes the joint state. Primary `K=12` raw GLS has `chi2=2145.854791` for 2,378 degrees of
+  freedom; three resolution controls and an independent route pass. Zero unknown cross-release
+  covariance after de-overlap is `CHOSE`. The freeze is a future no-refit input, not a law.
 
-G206--G236 generate no sector function or `X_max`. Exact
+G206--G237 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -100,7 +99,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`. Ownership map:
 `udt_g234_post_g233_native_closure_route_map_2026-08-23/`. Matched-network discriminator:
 `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`. Observational state projection:
-`udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`. Evaluator:
+`udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`. Joint state freeze:
+`udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -110,7 +110,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 - G211--G231 close local basis, descent, clock/carry/phase, curvature jets, and conditional regional
   realization for supplied data. G232/G233 exclude unrestricted finite-order profile closure; G234
   leaves two architectures, and G235 excludes the literal matched-network existence condition as a
-  selector. G236 measures a conditional state projection but supplies no nonidentity profile law.
+  selector. G236/G237 reconstruct and freeze a conditional state projection but supply no
+  nonidentity profile law.
 - G222--G231 select no transport, direct relation, population, regional values, global scalar, or
   history; integration and reconstruction do not generate their input values.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
@@ -120,8 +121,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observed characterization with 184,300 unresolved covariance rows and
-no preferred scale. G236 is a processed two-release SNe relative-state concordance lead under an
-imported transfer, not native light physics, a profile fit, or a prediction.
+no preferred scale. G236/G237 are a processed two-release SNe relative-state reconstruction and
+joint freeze under an imported transfer, not native light physics, a profile fit, or a prediction.
 
 ## Audited restart
 
@@ -132,9 +133,9 @@ formula-level regression or chosen-family controls.
 
 G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G235 close the
 supplied clock/null/carry/phase chain, curvature point jets, Cartan regional architecture, and the
-unrestricted finite-order discriminator, ownership map, and matched-network negative. G236 then
-shows two processed SNe releases agree on one relative state projection. Next form and freeze the
-joint finite-resolution SNe state, then test it without refitting in a separately typed held-out
-query after auditing that query's source/operator semantics. Do not confuse reconstruction with a
-law, integration with value generation, or observations with a profile selector; do not use
-`X_max`, activate protected drafts, or revive historical inputs.
+unrestricted finite-order discriminator, ownership map, and matched-network negative. G236/G237
+then reconstruct and freeze one joint finite-resolution SNe state. Next define a separately typed
+held-out query before outcome inspection, audit its source/operator semantics, and carry the frozen
+state without refitting. Do not confuse reconstruction with a law, integration with value
+generation, or observations with a profile selector; do not use `X_max`, activate protected drafts,
+or revive historical inputs.

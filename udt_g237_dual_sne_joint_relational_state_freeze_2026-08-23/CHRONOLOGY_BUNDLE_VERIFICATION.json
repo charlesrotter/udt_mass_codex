@@ -1,0 +1,18 @@
+{
+  "audit": "G237_SELF_CONTAINED_CHRONOLOGY_BUNDLE_VERIFICATION",
+  "checks": {
+    "bundle_export_status": true,
+    "commit_object": true,
+    "commit_parent_link": true,
+    "commit_root_link": true,
+    "committed_equals_current": true,
+    "package_to_prereg_link": true,
+    "package_tree_object": true,
+    "preregistration_blob_object": true,
+    "preregistration_sha256": true,
+    "root_to_package_link": true,
+    "root_tree_object": true
+  },
+  "requires_live_git": false,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+object	status	value_or_result	open_scope
+bounded_query	CONDITIONAL	static-central plus imported transparent transfer	time-live nonspherical native transfer
+Pantheon_input_state	OBSERVED_PROCESSED_CONDITIONAL	768 de-overlapped rows via G236	shared release-processing systematics
+DES_input_state	OBSERVED_PROCESSED_CONDITIONAL	1623 DES-only rows via G236	bias-correction reference dependence
+cross_release_covariance	CHOSE_STATISTICAL_APPROXIMATION	zero after exact-CID de-overlap	shared calibration and processing covariance
+K12_primary	CHOSE_NUMERICAL_RESOLUTION	11 non-anchor relative-state coordinates	not physical coefficients
+K8_K16_K24_controls	CHOSE_NUMERICAL_CONTROLS	all raw-residual gates pass	not alternative physical laws
+K12_joint_raw	OBSERVED_BOUNDED	chi2=2145.8547911347 dof=2378 ceiling=2722.8187929913	other queries and transfer
+cross_route_state	INDEPENDENTLY_VERIFIED	max error=6.3994e-13	external fresh review pending
+cross_route_covariance	INDEPENDENTLY_VERIFIED	max error=2.7756e-17	external fresh review pending
+cross_route_raw_chi2	INDEPENDENTLY_VERIFIED	max error=2.4693e-10	external fresh review pending
+hostile_controls	VERIFIED	five verifier mutations plus algebraic controls caught	fresh external review pending
+primary_state_freeze	OBSERVED_PROCESSED_CONDITIONAL	FROZEN_PRIMARY_K12_STATE.json	no heldout refit authorized
+physical_profile_law	OPEN_NOT_DERIVED	not supplied by G237	metric-native state law
+native_radiative_transfer	OPEN	imported bridge retained	UDT carrier and flux law
+absolute_scale_Xmax	OPEN_DOWNSTREAM	not used	value profile and realization
+heldout_validation	NOT_YET_PERFORMED	BAO/CMB outcomes unread in G237	separate query and source/operator typing
+package_grade	EXTERNALLY_VERIFIED_WITH_CAVEATS_REPAIRS_ACCEPTED	JOINT_DUAL_SNE_RELATIVE_STATE_FROZEN_WITH_CAVEATS	separately typed held-out query and no-refit carry

@@ -56,11 +56,10 @@
 - Cartan closure: `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`; `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`
 - Closure ownership/discriminator: `udt_g234_post_g233_native_closure_route_map_2026-08-23/`;
   `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`
-- Dual-SNe state: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
-G129--G214: pair structure. G215--G235 close evaluation, Cartan typing, finite-order obstruction,
-route ownership, and matched-network nonselection. G236 adds processed-release state concordance, not a law. Open: a physical profile law,
-population, transport, native transfer, held-out query carry, and global ownership.
-Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+- Dual-SNe state reconstruction/freeze: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`;
+  `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
+G215--G235 close evaluation and nonselection. G236/G237 freeze a processed joint state, not a law.
+Open: profile law, population, transport, native transfer, held-out carry, and global ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
@@ -70,7 +69,8 @@ Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 `archive/startup_surface_2026-08-21_pre_g197/`. The registry controls.
 ## Observational lane
-- Dual-SNe concordance: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
+- Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
+- Dual-SNe reconstruction: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
