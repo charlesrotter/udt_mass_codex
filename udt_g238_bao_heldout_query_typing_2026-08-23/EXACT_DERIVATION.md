@@ -45,13 +45,17 @@ semantics, not the preceding physical inputs.
 
 ## 3. Finite-state nonuniqueness theorem
 
-Normalize the twelve uniform G237 knots to
+Parse the decimal spellings of the twelve frozen G237 knots as exact rationals. Let the first and
+last be `a` and `b`, and normalize the actual knots by
 
 \[
-u_i=\frac{i}{11},\qquad i=0,\ldots,11,
+u_i=\frac{\phi_i-a}{b-a},\qquad i=0,\ldots,11.
 \]
 
-and define
+No exact uniform-spacing premise is used. The stored decimal knots are nearly uniform, but the
+proof uses their actual supplied values.
+
+Define
 
 \[
 q(u)=\prod_{i=0}^{11}(u-u_i).
@@ -70,21 +74,28 @@ is positive and smooth for every real `epsilon`, and exactly
 R_\epsilon(u_i)=R_i
 \]
 
-at every frozen knot. At the midpoint `u=1/22`, exact rational arithmetic gives
+at every frozen knot. At the exact midpoint of the first two actual normalized roots,
 
 \[
-q=-\frac{1249937325}{1168636602822656},
+u_*=\frac{u_0+u_1}{2}
+=\frac{1048457443726290}{23066063761978381},
+\]
+
+exact rational arithmetic gives
+
+\[
+q(u_*)\approx-1.0695688651039815\times10^{-6},
 \]
 
 \[
-q'=\frac{2029526415}{73039787676416},
+q'(u_*)\approx2.7786587003665664\times10^{-5},
 \qquad
-q''=\frac{2806660917}{6639980697856}.
+q''(u_*)\approx4.226911258802683\times10^{-4}.
 \]
 
-All are nonzero. Consequently the identical frozen G237 state admits infinitely many positive
-smooth continuations with different between-knot values, first derivatives, and second
-derivatives.
+The exact integer numerators and denominators are recorded in `DERIVATION_RESULT.json`; all three
+are nonzero. Consequently the identical frozen G237 state admits infinitely many positive smooth
+continuations with different between-knot values, first derivatives, and second derivatives.
 
 This directly blocks every proposed carry that needs a continuous radial profile or its jets. For
 example, the same-history spherical tilted-screen curvature contrast already derived in G127

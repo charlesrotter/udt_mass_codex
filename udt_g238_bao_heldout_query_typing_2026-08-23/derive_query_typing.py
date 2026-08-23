@@ -7,6 +7,7 @@ import argparse
 import csv
 import hashlib
 import json
+from decimal import Decimal
 from fractions import Fraction
 from pathlib import Path
 
@@ -40,6 +41,25 @@ def fraction_record(value: Fraction) -> dict[str, object]:
         "denominator": value.denominator,
         "float": float(value),
     }
+
+
+def fraction_text(value: Fraction) -> str:
+    return f"{value.numerator}/{value.denominator}"
+
+
+def exact_normalized_knots(state_path: Path) -> list[Fraction]:
+    """Read the frozen JSON decimal spellings exactly and affinely normalize them."""
+
+    exact_state = json.loads(state_path.read_text(), parse_float=Decimal)
+    exact_knots = [Fraction(value) for value in exact_state["state"]["knots"]]
+    first = exact_knots[0]
+    span = exact_knots[-1] - first
+    if span <= 0:
+        raise RuntimeError("frozen knot span is not positive")
+    roots = [(value - first) / span for value in exact_knots]
+    if any(roots[index + 1] <= roots[index] for index in range(len(roots) - 1)):
+        raise RuntimeError("exact normalized knots are not strictly increasing")
+    return roots
 
 
 def sha256(path: Path) -> str:
@@ -84,14 +104,14 @@ def derive() -> dict[str, object]:
         raise RuntimeError(f"unexpected profile fields: {sorted(present_fields)}")
 
     coefficients = [Fraction(1)]
-    roots = [Fraction(index, 11) for index in range(12)]
+    roots = exact_normalized_knots(state_path)
     for root in roots:
         coefficients = multiply_linear(coefficients, root)
     if any(evaluate(coefficients, root) != 0 for root in roots):
         raise RuntimeError("counterfamily polynomial does not vanish at every knot")
     first = derivative(coefficients)
     second = derivative(first)
-    midpoint = Fraction(1, 22)
+    midpoint = (roots[0] + roots[1]) / 2
     q0 = evaluate(coefficients, midpoint)
     q1 = evaluate(first, midpoint)
     q2 = evaluate(second, midpoint)
@@ -124,8 +144,9 @@ def derive() -> dict[str, object]:
             "metric_history_present": False,
         },
         "counterfamily": {
-            "normalized_roots": [f"{root.numerator}/{root.denominator}" for root in roots],
-            "evaluation_point": "1/22",
+            "root_source": "exact frozen JSON decimal spellings, affinely normalized",
+            "normalized_roots": [fraction_text(root) for root in roots],
+            "evaluation_point": fraction_text(midpoint),
             "q": fraction_record(q0),
             "q_prime": fraction_record(q1),
             "q_second": fraction_record(q2),

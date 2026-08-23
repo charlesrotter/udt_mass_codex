@@ -7,6 +7,7 @@ import copy
 import csv
 import hashlib
 import json
+from fractions import Fraction
 from pathlib import Path
 
 import derive_query_typing
@@ -40,6 +41,19 @@ def validate_payload(
     assert result["source_hashes_verified"] == 15
     assert result["operator_ledger_rows"] == 15
     assert result["counterfamily"]["all_knot_values_zero"] is True
+    state_path = (
+        ROOT
+        / "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23"
+        / "FROZEN_PRIMARY_K12_STATE.json"
+    )
+    expected_roots = derive_query_typing.exact_normalized_knots(state_path)
+    recorded_roots = [Fraction(value) for value in result["counterfamily"]["normalized_roots"]]
+    expected_point = (expected_roots[0] + expected_roots[1]) / 2
+    assert recorded_roots == expected_roots
+    assert Fraction(result["counterfamily"]["evaluation_point"]) == expected_point
+    assert result["counterfamily"]["root_source"] == (
+        "exact frozen JSON decimal spellings, affinely normalized"
+    )
     for key in ("q", "q_prime", "q_second"):
         assert int(result["counterfamily"][key]["numerator"]) != 0
     expected_landing = (
@@ -87,7 +101,7 @@ def main() -> None:
         "checks": {
             "source_hashes": True,
             "frozen_state_shape_and_scope": True,
-            "exact_counterfamily": True,
+            "actual_frozen_knot_exact_counterfamily": True,
             "fifteen_stage_operator_ledger": True,
             "conditional_metric_evaluators_retained": True,
             "open_continuation_two_source_population_and_reference_gates": True,

@@ -5,11 +5,13 @@ from __future__ import annotations
 
 import csv
 import json
+from decimal import Decimal
 from fractions import Fraction
 from pathlib import Path
 
 
 PACKAGE = Path(__file__).resolve().parent
+ROOT = PACKAGE.parent
 
 
 def as_fraction(record: dict[str, object]) -> Fraction:
@@ -18,8 +20,17 @@ def as_fraction(record: dict[str, object]) -> Fraction:
 
 def main() -> None:
     result = json.loads((PACKAGE / "DERIVATION_RESULT.json").read_text())
-    roots = [Fraction(index, 11) for index in range(12)]
-    point = Fraction(1, 22)
+    state_path = (
+        ROOT
+        / "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23"
+        / "FROZEN_PRIMARY_K12_STATE.json"
+    )
+    exact_state = json.loads(state_path.read_text(), parse_float=Decimal)
+    exact_knots = [Fraction(value) for value in exact_state["state"]["knots"]]
+    origin = exact_knots[0]
+    span = exact_knots[-1] - origin
+    roots = [(value - origin) / span for value in exact_knots]
+    point = (roots[0] + roots[1]) / 2
 
     # This route does not construct polynomial coefficients. It uses the exact product and
     # logarithmic-derivative identities at a point that is not a root.
@@ -34,6 +45,8 @@ def main() -> None:
     q_second = q * (reciprocal_sum**2 - reciprocal_square_sum)
 
     counterfamily = result["counterfamily"]
+    assert roots == [Fraction(value) for value in counterfamily["normalized_roots"]]
+    assert point == Fraction(counterfamily["evaluation_point"])
     assert q == as_fraction(counterfamily["q"])
     assert q_prime == as_fraction(counterfamily["q_prime"])
     assert q_second == as_fraction(counterfamily["q_second"])
@@ -54,7 +67,7 @@ def main() -> None:
     assert result["profile_or_feature_fit_performed"] is False
 
     print(
-        "PASS: independent direct-product witness, 15-row operator typing, "
+        "PASS: independent actual-knot direct-product witness, 15-row operator typing, "
         "conditional evaluator ownership, and no-outcome/no-fit gates"
     )
 

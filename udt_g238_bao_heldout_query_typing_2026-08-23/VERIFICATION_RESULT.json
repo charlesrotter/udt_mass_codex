@@ -1,9 +1,9 @@
 {
   "audit": "G238_PACKAGE_VERIFICATION",
   "checks": {
+    "actual_frozen_knot_exact_counterfamily": true,
     "boss_outcomes_closed": true,
     "conditional_metric_evaluators_retained": true,
-    "exact_counterfamily": true,
     "fifteen_stage_operator_ledger": true,
     "frozen_state_shape_and_scope": true,
     "open_continuation_two_source_population_and_reference_gates": true,

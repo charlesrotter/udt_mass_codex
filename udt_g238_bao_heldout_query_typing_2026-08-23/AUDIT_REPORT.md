@@ -2,7 +2,7 @@
 
 Date: 2026-08-23
 
-Status: `INTERNALLY_VERIFIED_LEAD__FRESH_EXTERNAL_REVIEW_PENDING`
+Status: `EXTERNAL_REVIEW_SCIENCE_RETAINED__REPAIRS_IMPLEMENTED_INTERNAL__FOLLOWUP_PENDING`
 
 ## Landing
 
@@ -41,12 +41,20 @@ scaffolding/no-refit regression G238 was designed to prevent.
 
 - preregistration committed and pushed at `cf7deed2` before the formal ledger;
 - 15 frozen source hashes verified;
-- exact rational perturbation witness with nonzero value and first two derivatives;
+- exact rational perturbation witness built from the actual frozen decimal knots, with nonzero
+  value and first two derivatives;
 - 15-stage operator ledger with every conditional and open arrow typed;
 - independent direct-product/log-derivative replay agrees exactly;
-- eight hostile semantic mutations caught;
+- nine hostile semantic mutations caught, including substitution of an idealized knot;
 - no BOSS outcome or numerical pattern artifact opened;
 - no profile, feature, coefficient, P1, `X_max`, or cosmological distance inserted.
+
+The fresh external reviewer returned
+`G238_REPAIR_REQUIRED__SCIENTIFIC_LANDING_RETAINED`. It independently confirmed the scientific
+typing result, replayed the witness on the actual knots, and found no outcome leakage or hidden
+scaffold. Its two evidence defects were preregistered and repaired: the executable witness now uses
+the actual frozen decimal knot values, and the sealed replay now explicitly uses a writable
+ephemeral copy without invoking an absent repository-wide verifier.
 
 ## What remains
 
@@ -57,6 +65,6 @@ can the BOSS outcome be opened as a no-refit cross-channel check.
 
 ## Certification ceiling
 
-The current grade is `INTERNALLY_VERIFIED_LEAD` until a fresh adversarial context checks the exact
-typing and counterfamily. No BAO origin, preferred feature, physical ruler, UDT validation,
-physical-history selection, or `X_max` result follows.
+The scientific landing is retained by fresh external review, but the corrected evidence package is
+not closed until a repair-only external follow-up verifies R1 and R2. No BAO origin, preferred
+feature, physical ruler, UDT validation, physical-history selection, or `X_max` result follows.

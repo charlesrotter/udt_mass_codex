@@ -45,6 +45,10 @@ def main() -> None:
     mutant["counterfamily"]["q_prime"]["numerator"] = 0
     cases.append(must_fail("counterfamily_derivative", state, mutant, ledger, sources_valid))
 
+    mutant = copy.deepcopy(result)
+    mutant["counterfamily"]["normalized_roots"][1] = "1/10"
+    cases.append(must_fail("actual_knot_root_substitution", state, mutant, ledger, sources_valid))
+
     mutant = copy.deepcopy(ledger)
     next(row for row in mutant if row["stage"] == "Q02")["status"] = "DERIVED"
     cases.append(must_fail("interpolation_ownership_promotion", state, result, mutant, sources_valid))
