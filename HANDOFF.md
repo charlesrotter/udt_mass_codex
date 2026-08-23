@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G231 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G232 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -50,6 +50,13 @@ local `G`-realizations; the infinite analytic theorem gives only a local coframe
 Lorentz descent remains open. No curvature values, population, transport, dynamics, or history are
 selected.
 
+G232 is a whiteboard ownership trichotomy, not yet a no-go theorem. One fully valued primary
+profile has a native cohomogeneity-one Cartan evaluator over areal radius; a fixed-`n` G204 family
+has conditional finite closure because the family is `CHOSE`; the unrestricted profile family has
+no verified finite closure result yet. A valued rank-complete pair network can encode the entire
+metric function but does not generate it. G233 preregisters the exact two-profile invariant
+collision needed to decide the unrestricted local finite-order closure question.
+
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
 through `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -73,12 +80,13 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next test, without fitting, whether the declared primary UDT metric family supplies a finite Cartan
-classifying invariant state and horizontal derivative law or only realized examples. Do not return
-to a mechanical fifth-jet census. The test remains family-scoped and cannot generate values,
-select a physical history, infer population, or select transport. Keep null query-typed and return
-distinct from inversion. Do not activate protected drafts, identify `X_max`, select
-transfer/history, or use G116/G189. All other open ownership remains controlled by the 215-row
-exact registry.
+Next run the preregistered G233 two-profile discriminator: hold the metric four-jet and the full
+G231 `(R,nabla R,nabla^2 R)` state fixed at one regular quiet orbit and directly exhibit or refute
+an invariant/equivariant `nabla^3 R` difference, with an independent metric-jet replay. Retain the
+fixed-member and fixed-`n` G204 conditional controls. Do not perform a fifth-jet rank census. Any
+negative is scoped to local finite-order natural autonomous closure over the unrestricted primary
+profile family. Keep null query-typed and return distinct from inversion. Do not activate protected
+drafts, identify `X_max`, select transfer/history, or use G116/G189. All other open ownership remains
+controlled by the 215-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->

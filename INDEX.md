@@ -53,9 +53,13 @@
 - Curvature/realization: `udt_g227_same_event_curvature_tomography_2026-08-22/`;
   `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`; `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`;
   `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`; `udt_g231_cartan_regional_realization_bridge_2026-08-23/`
+- Cartan closure ownership whiteboard and G233 preregistration:
+  `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`
 G129--G214: pair structure. G215--G231 close scalar/null evaluation, curvature, differential-Bianchi
 first-variation, and metric jets through the nonlinear fourth-jet obstruction, then type the Cartan
-problem. Open: law/values, principal descent, population, transport, global ownership, and history.
+problem. G232 separates fixed-member evaluation, conditional finite-family closure, and the open
+unrestricted-family finite-order closure test. Open: profile values, principal descent, population,
+transport, global ownership, and history.
 Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`

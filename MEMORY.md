@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G231: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G232: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity then fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` remains an arbitrary-calibration control.
 
@@ -35,6 +35,11 @@ G231: closure stages form regional Cartan architecture. Bare curvature lacks pri
 typing and horizontal law. Finite algebroid data conditionally realize locally; analytic,
 formally-integrable relative-algebroid data conditionally yield local coframes. Values, principal descent, history stay open.
 
+G232: whiteboard separates fixed-member evaluation, conditional finite-family closure, and the
+unrestricted-family closure question. A valued metric/network already has a native evaluative
+Cartan score; it does not generate its profile. G233 is preregistered to test the unrestricted
+finite-order closure obstruction exactly.
+
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 
@@ -61,8 +66,9 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Test whether the primary metric family supplies a finite Cartan invariant state and derivative law
-or only examples. Keep realization, values, and history distinct. No fifth jet, selected G225
+Run the G233 exact two-profile discriminator: preserve the full G231 state at one regular quiet
+orbit and directly test the next invariant derivative, with an independent metric-jet replay. Keep
+fixed-member and fixed-`n` G204 conditional controls. No fifth-jet rank census, selected G225
 transport, population/history inference, fit, `X_max`, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:

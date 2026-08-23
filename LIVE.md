@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G231. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G232. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -76,6 +76,15 @@ analytic route guarantees only a local coframe, with principal Lorentz descent s
 integrates compatible supplied values; it does not generate their profile, population, transport,
 dynamics, or physical/global history.
 
+G232 is a three-role whiteboard convergence, not yet an obstruction theorem. It separates one
+fully valued primary metric member, one declared finite profile family, and the unrestricted
+primary profile arena. A fixed valued member has a native cohomogeneity-one Cartan descent over
+areal radius, but its structure functions already contain the supplied profile. Fixed-`n` G204
+closes conditionally on `(x,a,r0;n)` because that family was `CHOSE`. A complete valued pair network
+can encode the metric but does not generate its values. The exact unrestricted-family
+finite-closure obstruction is preregistered for G233 and remains `OPEN` until direct invariant and
+independent metric-jet replays pass.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -112,11 +121,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Run a bounded, no-fit ownership test on the declared primary UDT metric family: does it supply a
-finite Cartan classifying invariant state and horizontal derivative law, or merely selected
-realized examples? Begin from the primary metric and native reciprocal pair pullbacks. Do not
-mechanically add a fifth jet. Either result remains family-scoped and cannot generate invariant
-values, select Nature's member, populate observer/null relations, select transport, or close a
-global history. Do not fit, identify `X_max`, activate protected drafts, or use G116/G189 as
-construction inputs.
+Run the preregistered G233 two-profile Cartan closure discriminator. At one regular quiet orbit,
+compare exact primary profiles sharing the metric four-jet and therefore the complete G231 state
+`(R,nabla R,nabla^2 R)`, then test whether an explicit invariant/equivariant component of
+`nabla^3 R` differs. Independently replay the load-bearing metric-jet result and retain the fixed
+member and fixed-`n` G204 closure controls. Do not perform a fifth-jet rank census. A negative is
+limited to local finite-order natural autonomous laws uniform over the unrestricted primary
+profile family; nonlocal and infinite-state closure remain open. Do not fit, identify `X_max`,
+activate protected drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

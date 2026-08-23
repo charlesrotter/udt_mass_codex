@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G231",
+            "G166--G232",
             "G197",
             "G215",
             "G216",
@@ -212,6 +212,7 @@ def validate_startup_surface(root: Path) -> None:
             "G229",
             "G230",
             "G231",
+            "G232",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -332,7 +333,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G231",
+            "G166--G232",
             "G197",
             "G198",
             "G199",
@@ -369,6 +370,7 @@ def validate_startup_surface(root: Path) -> None:
             "G229",
             "G230",
             "G231",
+            "G232",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -418,6 +420,7 @@ def validate_startup_surface(root: Path) -> None:
             "G229",
             "G230",
             "G231",
+            "G232",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -462,6 +465,7 @@ def validate_startup_surface(root: Path) -> None:
             "G229",
             "G230",
             "G231",
+            "G232",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
@@ -7874,7 +7878,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G231-extended premise guards; PASS: 215-row premise "
+        "PASS: G232-extended startup and G231 premise guards; PASS: 215-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
