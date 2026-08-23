@@ -1,0 +1,38 @@
+{
+  "audit": "G238_CATCH_PROOFS",
+  "cases": [
+    {
+      "caught": true,
+      "mutation": "resolution"
+    },
+    {
+      "caught": true,
+      "mutation": "interpolation_insertion"
+    },
+    {
+      "caught": true,
+      "mutation": "outcome_opening"
+    },
+    {
+      "caught": true,
+      "mutation": "feature_fit"
+    },
+    {
+      "caught": true,
+      "mutation": "counterfamily_derivative"
+    },
+    {
+      "caught": true,
+      "mutation": "interpolation_ownership_promotion"
+    },
+    {
+      "caught": true,
+      "mutation": "source_measure_promotion"
+    },
+    {
+      "caught": true,
+      "mutation": "source_hash_failure"
+    }
+  ],
+  "status": "PASS"
+}

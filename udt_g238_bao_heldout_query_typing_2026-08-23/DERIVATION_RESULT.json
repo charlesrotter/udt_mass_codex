@@ -1,0 +1,60 @@
+{
+  "boss_outcomes_opened": false,
+  "counterfamily": {
+    "all_knot_values_zero": true,
+    "evaluation_point": "1/22",
+    "normalized_roots": [
+      "0/1",
+      "1/11",
+      "2/11",
+      "3/11",
+      "4/11",
+      "5/11",
+      "6/11",
+      "7/11",
+      "8/11",
+      "9/11",
+      "10/11",
+      "1/1"
+    ],
+    "q": {
+      "denominator": 1168636602822656,
+      "float": -1.069568865103981e-06,
+      "numerator": -1249937325
+    },
+    "q_prime": {
+      "denominator": 73039787676416,
+      "float": 2.778658700366566e-05,
+      "numerator": 2029526415
+    },
+    "q_second": {
+      "denominator": 6639980697856,
+      "float": 0.00042269112588026796,
+      "numerator": 2806660917
+    }
+  },
+  "frozen_state": {
+    "absolute_scale_present": false,
+    "derivatives_present": false,
+    "interpolation_present": false,
+    "knot_count": 12,
+    "metric_history_present": false,
+    "positive_relative_r": true,
+    "relative_r_count": 11,
+    "resolution": 12,
+    "strictly_increasing_knots": true
+  },
+  "landing": "QUERY_TYPING_INCOMPLETE__NO_OUTCOME_OPENING__FROZEN_SNE_STATE_DOES_NOT_DETERMINE_CONTINUOUS_METRIC_OR_SCREEN_HISTORY__COMPLETE_METRIC_EVALUATORS_REMAIN_LIVE_CONDITIONALLY__TWO_SOURCE_POPULATION_AND_REFERENCE_FORWARD_MAP_OPEN",
+  "open_stages": [
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q15"
+  ],
+  "operator_ledger_rows": 15,
+  "profile_or_feature_fit_performed": false,
+  "source_hashes_verified": 15
+}

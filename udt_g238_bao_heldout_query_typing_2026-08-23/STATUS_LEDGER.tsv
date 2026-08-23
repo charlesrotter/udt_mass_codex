@@ -1,0 +1,10 @@
+item	status	scope
+G237_state	FROZEN_NO_REFIT	K12 processed relative state and covariance only
+continuous_profile_from_G237	OPEN	exact smooth counterfamily preserves all knots and changes jets
+complete_metric_history_from_G237	OPEN	radial relative state does not value all complete metric channels
+metric_native_clock_screen_phase	DERIVED_CONDITIONAL	owned on supplied complete histories and supplied branches
+two_source_relation	OPEN	one-source maps do not supply physical source-pair incidence or measure
+source_pair_measure	OPEN	no source point-process law inserted
+BOSS_reference_operator	OBSERVED_AND_CHOSE	released footprint plus borrowed Landy-Szalay semantics
+BOSS_outcomes	CLOSED_NO_INSPECTION	no curve mode covariance feature or scale used
+G238_landing	INTERNALLY_VERIFIED_LEAD	fresh external adversarial review pending
