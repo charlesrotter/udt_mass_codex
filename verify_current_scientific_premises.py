@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G237",
+            "G166--G238",
             "G197",
             "G215",
             "G216",
@@ -218,6 +218,7 @@ def validate_startup_surface(root: Path) -> None:
             "G235",
             "G236",
             "G237",
+            "G238",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -260,7 +261,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "220-row exact registry",
+            "221-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -328,6 +329,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/",
             "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/",
             "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/",
+            "udt_g238_bao_heldout_query_typing_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -341,7 +343,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G237",
+            "G166--G238",
             "G197",
             "G198",
             "G199",
@@ -384,6 +386,7 @@ def validate_startup_surface(root: Path) -> None:
             "G235",
             "G236",
             "G237",
+            "G238",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -439,6 +442,7 @@ def validate_startup_surface(root: Path) -> None:
             "G235",
             "G236",
             "G237",
+            "G238",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -489,10 +493,11 @@ def validate_startup_surface(root: Path) -> None:
             "G235",
             "G236",
             "G237",
+            "G238",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "220-row",
+            "221-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -833,9 +838,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 220, "premise registry must contain exactly 220 rows")
+    require(len(rows) == 221, "premise registry must contain exactly 221 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 220, "duplicate premise id")
+    require(len(by_id) == 221, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4251,6 +4256,108 @@ def main() -> None:
         and "__pycache__" not in path.parts
     }
     require(g237_registered == g237_actual, "G237 final evidence manifest mismatch")
+    require(
+        by_id["G238"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_CF7DEED2"
+        ),
+        "G238 bounded grade changed",
+    )
+    for guard in (
+        "REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_RETAINED",
+        "QUERY_TYPING_INCOMPLETE__NO_OUTCOME_OPENING",
+        "ACTUAL_FROZEN_KNOT_COUNTERFAMILY",
+        "INDEPENDENT_DIRECT_PRODUCT_LOG_DERIVATIVE_REPLAY",
+        "NINE_OF_NINE_HOSTILE_CATCHES",
+        "G237_K12_STATE_DOES_NOT_DETERMINE_CONTINUOUS_METRIC_OR_SCREEN_HISTORY",
+        "TWO_SOURCE_POPULATION_AND_REFERENCE_FORWARD_MAP_OPEN",
+    ):
+        require(guard in by_id["G238"]["current_status"], f"G238 guard absent: {guard}")
+    require(by_id["G238"]["epistemic_label"] == "MIXED", "G238 label changed")
+    require(
+        by_id["G238"]["active_use"]
+        == "ACTIVE_BOUNDED_OUTCOME_BLIND_SOURCE_OPERATOR_TYPING_FOR_NO_REFIT_G237_TO_BOSS_CARRY_ONLY",
+        "G238 active scope widened",
+    )
+    for guard in (
+        "finite G237 knots called a continuous profile or complete history",
+        "one-source Jacobi map called physical source pair measure",
+        "BOSS outcomes opened to choose interpolation profile branch weights feature scale or cosmology",
+    ):
+        require(guard in by_id["G238"]["forbidden_regression"], f"G238 regression guard absent: {guard}")
+    require(
+        by_id["G238"]["controlling_source"]
+        == "udt_g238_bao_heldout_query_typing_2026-08-23/AUDIT_REPORT.md",
+        "G238 controlling source changed",
+    )
+    g238 = ROOT / "udt_g238_bao_heldout_query_typing_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "EXTERNAL_REVIEW.md",
+        "OPERATOR_TYPE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "derive_query_typing.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_query_typing_independent.py",
+    ):
+        require((g238 / name).is_file(), f"G238 evidence missing: {name}")
+    g238_result = json.loads((g238 / "DERIVATION_RESULT.json").read_text())
+    g238_verification = json.loads((g238 / "VERIFICATION_RESULT.json").read_text())
+    g238_catches = json.loads((g238 / "CATCH_PROOF_RESULT.json").read_text())
+    expected_g238_landing = (
+        "QUERY_TYPING_INCOMPLETE__NO_OUTCOME_OPENING"
+        "__FROZEN_SNE_STATE_DOES_NOT_DETERMINE_CONTINUOUS_METRIC_OR_SCREEN_HISTORY"
+        "__COMPLETE_METRIC_EVALUATORS_REMAIN_LIVE_CONDITIONALLY"
+        "__TWO_SOURCE_POPULATION_AND_REFERENCE_FORWARD_MAP_OPEN"
+    )
+    require(g238_result["landing"] == expected_g238_landing, "G238 landing changed")
+    require(g238_result["boss_outcomes_opened"] is False, "G238 outcome gate opened")
+    require(g238_result["profile_or_feature_fit_performed"] is False, "G238 fit gate opened")
+    require(g238_result["source_hashes_verified"] == 15, "G238 source count changed")
+    counterfamily = g238_result["counterfamily"]
+    roots = counterfamily["normalized_roots"]
+    require(len(roots) == 12 and roots[0] == "0/1" and roots[-1] == "1/1", "G238 root endpoints changed")
+    require(
+        roots[5] == "31453723311788699/69198191285935143",
+        "G238 actual nonuniform root changed",
+    )
+    require(
+        counterfamily["root_source"] == "exact frozen JSON decimal spellings, affinely normalized",
+        "G238 actual-knot source changed",
+    )
+    for key in ("q", "q_prime", "q_second"):
+        require(int(counterfamily[key]["numerator"]) != 0, f"G238 {key} degeneracy")
+    require(g238_verification["status"] == "PASS", "G238 package verification failed")
+    require(
+        g238_verification["checks"]["actual_frozen_knot_exact_counterfamily"] is True
+        and g238_verification["checks"]["boss_outcomes_closed"] is True,
+        "G238 verification guards absent",
+    )
+    require(g238_catches["status"] == "PASS" and len(g238_catches["cases"]) == 9,
+            "G238 hostile catches changed")
+    require(all(case["caught"] for case in g238_catches["cases"]), "G238 hostile mutation escaped")
+    require(
+        "G238_REPAIR_REQUIRED__SCIENTIFIC_LANDING_RETAINED"
+        in (g238 / "EXTERNAL_REVIEW.md").read_text(),
+        "G238 initial external review absent",
+    )
+    require(
+        "G238_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
+        in (g238 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        "G238 repair-followup acceptance absent",
+    )
+    require(len(read_tsv(g238 / "SOURCE_MANIFEST.tsv")) == 15, "G238 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8474,7 +8581,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G237-extended startup and G237 premise guards; PASS: 220-row premise "
+        "PASS: G238-extended startup and G238 premise guards; PASS: 221-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

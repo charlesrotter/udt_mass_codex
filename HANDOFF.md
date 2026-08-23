@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G237 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G238 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -24,6 +24,11 @@ repaired and accepted: it freezes their joint primary `K=12` state/covariance af
 GLS replay. Zero unknown cross-release covariance after exact-CID de-overlap is `CHOSE`, not derived
 independence. This is `OBSERVED_PROCESSED_CONDITIONAL`, not a profile law, SNe prediction, native
 transfer, history selector, or held-out test.
+
+G238 is externally repaired and accepted. Its exact actual-knot counterfamily proves the frozen
+G237 state does not determine a continuous complete history. The BOSS target additionally requires
+a populated two-source relation and reference projection. Outcomes remain closed; supplied-history
+metric evaluators remain conditionally live.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
@@ -45,9 +50,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next define a typed held-out query before outcome inspection, audit its source/operator semantics,
-and carry frozen G237 `K=12` without refitting. Do not repeat G235, promote reconstruction to law,
-activate protected drafts, identify `X_max`, or use P1/G116/G189 as construction inputs. The 220-row
-registry controls.
+Next independently construct or anchor the continuous complete observer-sky history, populated
+branch/source-pair measure, and reference-projected forward map required by G238 before opening
+BOSS outcomes. Do not repeat G235, promote reconstruction to law, activate protected drafts,
+identify `X_max`, or use P1/G116/G189 as construction inputs. The 221-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

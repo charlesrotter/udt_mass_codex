@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock and observed-state network | G215--G237 | Scalar/carry/phase, curvature/Cartan, finite-order obstruction, matched-network negative, dual-SNe state reconstruction/freeze | Population/transport/profile law |
+| Pair-clock and observed-state network | G215--G238 | Evaluators, nonselection, SNe state/freeze, held-out query typing | Continuous history; two-source map |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -43,6 +43,7 @@
 | G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; literal matched-network existence is nonselective |
 | G236 observational state projection | external after repair | Two de-overlapped processed SNe releases support one relative `R(phi)` shape; no profile law or prediction |
 | G237 joint state freeze | external after repair | Primary `K=12` joint state/covariance frozen with chosen zero unknown cross-release covariance; no-refit held-out carry next |
+| G238 held-out query typing | external after repair | G237 finite state does not determine continuous history or two-source BOSS forward map; outcomes closed |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -72,9 +73,9 @@ None selects completion or `X_max`.
   evaluation, conditional finite-family closure, and an externally verified unrestricted-family
   finite-order obstruction. G234 reduces the route menu to an invariant smaller-family cut or a
   genuinely global relation law; G235 proves that existence of one rank-complete matched network
-  is only reconstruction, not such a global selector. G236/G237 show that two processed SNe
-  releases can reconstruct and freeze one conditional relative state projection without deriving
-  its law. Profile values,
+  is only reconstruction, not such a global selector. G236/G237 reconstruct and freeze one
+  conditional relative state projection without deriving its law. G238 proves that state does not
+  determine the continuous metric/screen history or two-source held-out map. Profile values,
   nonlocal/global closure,
   population, transport,
   completion, and infinite-route principal Lorentz descent stay open.
@@ -96,9 +97,9 @@ None selects completion or `X_max`.
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 are
 `OBSERVED_PROCESSED_CONDITIONAL`: they import transfer and reconstruct/freeze a relative SNe state,
-not a physical profile law, prediction, or population. The unknown cross-release covariance is
-chosen zero only after exact-CID de-overlap. Earlier application controls import transfer/P1;
-time-live controls evaluate supplied histories.
+not a physical law or prediction. G238 keeps BOSS outcomes closed because the continuous history,
+source-pair/branch population, and reference-projected map remain open. Earlier controls import
+transfer/P1; time-live controls evaluate supplied histories.
 
 ## Recurring prohibited promotions
 
@@ -112,7 +113,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 220-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 221-row authority. On conflict, stop.
 
 Run:
 

@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G237. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G238. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -64,6 +64,12 @@ relative state and covariance are frozen for no-refit carry. This is an
 `OBSERVED_PROCESSED_CONDITIONAL` state estimate, not a profile law, SNe prediction, native transfer,
 physical-history selection, or held-out validation.
 
+G238 externally verifies the first outcome-blind held-out query audit. The frozen G237 state does
+not determine a continuous complete metric/screen history: an exact actual-knot counterfamily
+preserves all 12 knots and changes between-knot jets. BOSS additionally needs a populated
+two-source relation and reference-projected forward map. Outcomes remain closed; metric evaluators
+remain live conditionally on those supplied inputs.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -76,7 +82,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 220-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 221-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -87,7 +93,7 @@ Exact premise authority: the 220-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditio
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236/G237 reconstruct and freeze a
 two-release SNe relative-state estimate under an imported transfer and processed-release/covariance
-caveats; they do not derive the state law. Raw archive:
+caveats; G238 proves that this finite state does not type a no-refit BOSS forward map. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -101,11 +107,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G235 has closed the literal rank-complete matched-network existence candidate with `NO_CANDIDATE`;
-do not recycle coherence as value selection. G236/G237 establish and freeze one finite-resolution
-joint SNe relative state. Next define one independently typed held-out query before reading its
-outcome, audit its source/operator semantics, and carry the frozen primary `K=12` state without
-refitting. Observations may measure or falsify a state projection; they may not be used to invent
-the profile law. Do not substitute P1, an ansatz, `X_max`, Lambda-CDM distances, a physical-profile
-optimizer, protected drafts, or G116/G189 as a native construction input.
+G238 closes the first held-out source/operator typing gate with `QUERY_TYPING_INCOMPLETE`; do not
+open BOSS outcomes or invent the missing bridge from them. Next construct or independently anchor
+one continuous complete observer-sky history, populated null-branch/source-pair measure, and full
+reference-projected forward map. Any source or population assumption must be explicit and fixed
+before outcome inspection. Do not substitute P1, an ansatz, `X_max`, Lambda-CDM distances, a
+physical-profile optimizer, protected drafts, or G116/G189 as a native construction input.
 <!-- STARTUP_CURRENT_END -->
