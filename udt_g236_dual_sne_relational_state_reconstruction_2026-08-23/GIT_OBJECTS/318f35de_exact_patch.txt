@@ -1,0 +1,48 @@
+commit 318f35def882ef1422152b93db21a1dfbfff6424
+Author:     Charles Rotter <charles@charlesrotter.com>
+AuthorDate: Sun Aug 23 15:37:30 2026 -0400
+Commit:     Charles Rotter <charles@charlesrotter.com>
+CommitDate: Sun Aug 23 15:37:30 2026 -0400
+
+    Repair G236 hostile preregistration
+
+diff --git a/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md b/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md
+index ba6cc822..228900c6 100644
+--- a/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md
++++ b/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md
+@@ -163,9 +163,9 @@ These are observational-interface classifications only.
+ - at `K=12`, add the explicitly nonphysical test mutation
+   `0.5*(phi-phi_min)/(phi_max-phi_min)` magnitudes to one synthetic catalog copy and require
+   `chi2_shape > C_12`;
+-- at `K=12`, reverse the association between the observed magnitude vector and its sorted redshift
+-  vector while retaining the covariance ordering, and require raw residual `chi2` to exceed twice
+-  the unmutated value;
++- at `K=12`, sort one catalog and its covariance by redshift, then cyclically roll only the sorted
++  redshift vector by `floor(N/2)` while retaining the observed-vector/covariance ordering; require
++  raw residual `chi2` to exceed twice the unmutated value;
+ - including the Pantheon survey-10 overlap is diagnostic only and cannot enter the primary result;
+ - assert that P1, `X_max`, Lambda-CDM distance functions, a physical profile optimizer, and
+   post-readout angular corrections are absent;
+diff --git a/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION_REPAIR.md b/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION_REPAIR.md
+new file mode 100644
+index 00000000..290dd2fd
+--- /dev/null
++++ b/udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION_REPAIR.md
+@@ -0,0 +1,17 @@
++# G236 preregistration repair — hostile redshift reassignment
++
++Date: 2026-08-23
++Status: pre-outcome correction
++
++Before any G236 state reconstruction or observational statistic was evaluated, implementation
++planning exposed a defect in the originally written shuffled-redshift hostile. A complete reversal
++of a sorted monotone coordinate can remain a one-dimensional function and therefore be fitted by a
++reversed piecewise-linear state with little or no residual penalty. It is not a reliable hostile.
++
++The registered hostile is replaced by a deterministic half-cycle roll of the sorted redshift
++coordinate while the observed-vector and covariance order remain fixed. This breaks the
++single-valued magnitude/redshift relation at the roll seam. The original factor-of-two raw
++chi-square requirement is unchanged.
++
++No observational reconstruction, fitted shape, state coefficient, or outcome statistic was viewed
++before this correction. All scientific classifications and other gates remain unchanged.

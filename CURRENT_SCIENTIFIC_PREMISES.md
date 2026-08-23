@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock network | G215--G235 | Scalar/carry/phase, curvature/Cartan, finite-order obstruction, ownership map, matched-network negative | Population/transport/profile law |
+| Pair-clock and observed-state network | G215--G236 | Scalar/carry/phase, curvature/Cartan, finite-order obstruction, matched-network negative, dual-SNe state concordance | Population/transport/profile law |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -41,6 +41,7 @@
 | G229/G230 metric jets | exact; independent | Compatible 3/4-jets; no regional field/history |
 | G231 Cartan bridge | exact; conditional existence | Regional integration architecture; law/values open |
 | G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; literal matched-network existence is nonselective |
+| G236 observational state projection | external after repair | Two de-overlapped processed SNe releases support one relative `R(phi)` shape; no profile law or prediction |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -70,7 +71,9 @@ None selects completion or `X_max`.
   evaluation, conditional finite-family closure, and an externally verified unrestricted-family
   finite-order obstruction. G234 reduces the route menu to an invariant smaller-family cut or a
   genuinely global relation law; G235 proves that existence of one rank-complete matched network
-  is only reconstruction, not such a global selector. Profile values, nonlocal/global closure,
+  is only reconstruction, not such a global selector. G236 shows that two processed SNe releases
+  can agree on one conditional relative state projection without deriving its law. Profile values,
+  nonlocal/global closure,
   population, transport,
   completion, and infinite-route principal Lorentz descent stay open.
 
@@ -89,8 +92,10 @@ None selects completion or `X_max`.
 
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. Application controls
-import transfer/P1; time-live controls evaluate supplied histories. Neither derives population.
+R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236 is
+`OBSERVED_PROCESSED_CONDITIONAL`: it imports transfer and reconstructs a relative SNe state shape,
+not a physical profile law, prediction, or population. Earlier application controls import
+transfer/P1; time-live controls evaluate supplied histories.
 
 ## Recurring prohibited promotions
 
@@ -104,7 +109,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 218-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 219-row authority. On conflict, stop.
 
 Run:
 

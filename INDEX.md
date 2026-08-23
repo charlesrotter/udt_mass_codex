@@ -56,9 +56,10 @@
 - Cartan closure: `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`; `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`
 - Closure ownership/discriminator: `udt_g234_post_g233_native_closure_route_map_2026-08-23/`;
   `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`
+- Dual-SNe state: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
 G129--G214: pair structure. G215--G235 close evaluation, Cartan typing, finite-order obstruction,
-route ownership, and the nonselective matched-network existence candidate. Open: an invariant
-smaller-family cut or stronger global law, population, transport, and global ownership.
+route ownership, and matched-network nonselection. G236 adds processed-release state concordance, not a law. Open: a physical profile law,
+population, transport, native transfer, held-out query carry, and global ownership.
 Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -69,15 +70,14 @@ Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 `archive/startup_surface_2026-08-21_pre_g197/`. The registry controls.
 ## Observational lane
+- Dual-SNe concordance: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
-- R4 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`
-- R5 outcome: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`
+- R4/R5 outcomes: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`
 - R5 verification: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json`
-- R5 accepted follow-up: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`
-- R5 evidence manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
+- R5 accepted follow-up/manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 R2--R5 are verified with caveats and remain metric-neutral data characterization. They select no
 feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.

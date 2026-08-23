@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G235: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G236: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -16,27 +16,22 @@ local line/fiber/scalar carry. G225 gives pointwise screen comparison and `O(2)`
 selected transport. G226 joins scalar carry and full phase on one supplied chain; gauges cancel,
 caustics retain phase, and matrix holonomy survives. Population and history remain open.
 
-G227: nine null directions give curvature rank 19; one `CHOSE` datum gives 20. G228: differential
-Bianchi cuts 80 components to 60. G229: compatible `(R,nabla R)` has a metric 3-jet. G230 gives
-126 fourth-jet representatives modulo gauge. These are local compatibility, not value generation.
-G231 forms the regional Cartan architecture: finite data realize conditionally; analytic data yield
-coframes only. G232/G233 show fixed members evaluate and finite families may close, but exact twins
-exclude universal local finite-order closure. Global and smaller-family routes remain.
+G227/G228/G229/G230/G231 close supplied curvature ranks `20/60/126`, metric jets, and a conditional
+regional Cartan architecture—not value generation. G232/G233 exclude unrestricted universal
+finite-order closure. G234 leaves an invariant family cut or global law. G235 finds the literal
+rank-complete matched network reconstructive, not selective; both exact twins pass.
 
-G234 reduces the post-G233 routes to two: an owned invariant smaller-family cut or a global relation
-law. Time-live/nonspherical activation enlarges the arena; it does not select. No active condition
-closes the one-function primary profile.
-
-G235 tests the literal global-network candidate: six common-clock pair planes reconstruct rank ten
-and matched depths compose, but both invariant G233 twins pass. Existence of that network is
-reconstruction, not selection; full tuples on distinct pair surfaces have no native product.
+G236 reconstructs a state: under a static-central query and imported transfer, 768 de-overlapped
+Pantheon+ and 1,623 DES-only processed observations support compatible relative `R(phi)` shapes at
+four resolutions. External review retained this concordance lead—not a profile law or prediction.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 
 ## Observational pointer
 
-R2--R5: verified with caveats; interpretation unresolved.
+R2--R5: verified with caveats; interpretation unresolved. G236: dual-SNe processed relative-state
+concordance under imported transfer.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -57,10 +52,11 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Do not repeat the G235 matched-network existence candidate. A new solve needs a different natural
-nonidentity condition and a preregistered G233 twin or G206--G210 extension it rejects; otherwise
-stop at `NO_CANDIDATE`. No selected G225 transport, population/history inference, fit, `X_max`, or
-protected drafts.
+Do not repeat the G235 matched-network existence candidate. Next jointly estimate and freeze the
+G236 finite-resolution SNe state, then carry it without refitting into a separately typed held-out
+query after auditing that query's source/operator semantics. Do not call the reconstructed state a
+profile law or prediction. No selected G225 transport, population/history inference, P1, `X_max`,
+or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

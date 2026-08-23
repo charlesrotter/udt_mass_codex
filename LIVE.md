@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G235. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G236. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -42,35 +42,20 @@ G226 joins G188/G224/G225 on one supplied null chain. Its `CSp^+(4,R)` phase has
 inverse ruler carry `q`; gauges cancel, caustics retain phase, and matrix holonomy remains. It
 selects no transport, direct relation, population, or history.
 
-G227--G230 close pointwise curvature compatibility: nine null directions give rank 19 and one
-`CHOSE` datum gives 20; differential Bianchi cuts `nabla R` from 80 to 60; compatible data have a
-metric 3-jet; and 126 of 320 `nabla^2 R` components survive with metric 4-jet rank/kernel `126/224`.
-These are one-event algebraic/realization results, not values, gluing, dynamics, or history.
+G227/G228/G229/G230/G231 close the supplied pointwise/regional Cartan architecture: curvature ranks `19/20`,
+first-variation rank 60, second-variation rank 126, and compatible metric 3/4-jets. They integrate
+supplied values but generate no profile or history. G232/G233 then prove that invariantly distinct
+profiles can share every finite local jet, excluding universal finite-order autonomous closure on
+the unrestricted family. G234 leaves an owned invariant family cut or a genuinely global law.
+G235 tests the literal rank-complete matched network; it reconstructs rank ten and composes depths
+but accepts both G233 twins, so existence is not selection and cross-surface tuples have no native
+product.
 
-G231 unifies G227/G228/G230, with G229 as metric-jet bridge, in a regional Cartan architecture:
-`36->20`, `80->60`, `320->126`. Bare moving-frame curvature lacks principal Lorentz typing and a
-horizontal law. Finite full algebroid data conditionally realize locally; the infinite analytic
-route gives only a coframe, with Lorentz descent open. G231 integrates supplied values but does not
-generate profile, population, transport, dynamics, or history.
-
-G232 is the ownership `PONDER`; G233 supplies its exact discriminator. Two primary profiles can
-share the metric four-jet and complete `(R,nabla R,nabla^2 R)` state yet differ in the invariant
-next derivative by `240 delta_b/r0^5`. The construction extends to every finite order. Therefore
-the unrestricted primary profile family has no universal local finite-order natural autonomous
-closure. This externally verified negative does not reach nonlocal, infinite-state, global,
-nonspherical, time-live, or separately founded smaller-family closure. Fixed members remain
-evaluative and fixed-`n` G204 remains `CHOSE` conditional control.
-
-G234 is externally verified: the bounded primary gap is one supplied `phi(r)`. Its three named
-routes reduce to two—an owned invariant family cut or a nonlocal/global relation law. Time-live or
-nonspherical activation only enlarges the arena. Current regularity, completion, reconstruction,
-descent, holonomy, Cartan, and co-presence results do not close the profile.
-
-G235 externally tests the strongest literal matched-network candidate. Six common-clock pair
-planes reconstruct all ten metric components, G176 completion retains the full pullbacks, and
-matched depths compose. Both invariant G233 twins nevertheless pass. Thus existence of one smooth
-rank-complete matched-incidence network is reconstructive, not selective. Multiplying full tuples
-from distinct pair surfaces is untyped without new transport structure.
+G236 tests state rather than inventing a selector. Under the static central query and imported
+transfer, 768 de-overlapped Pantheon+ and 1,623 DES-only processed observations reconstruct
+compatible relative `R(phi)` states at `K=8,12,16,24`; primary `chi2=14.409356` for 11 degrees of
+freedom. External review and repair retained this `OBSERVED_PROCESSED_CONDITIONAL` concordance lead,
+not a profile law, prediction, UDT validation, native transfer theorem, or history selection.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -84,7 +69,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 218-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 219-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -93,8 +78,9 @@ Exact premise authority: the 218-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditio
 ### Observational boundary
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
-rows remain unresolved and no preferred scale follows. SNe remains an imported-transfer
-non-regression check. Raw archive:
+rows remain unresolved and no preferred scale follows. G236 adds a two-release SNe relative-state
+concordance lead under an imported transfer and processed-release caveats; it does not derive the
+state law. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -108,11 +94,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G235 has closed the literal rank-complete matched-network existence candidate with `NO_CANDIDATE`.
-Do not repeat reconstruction, completion, composition, or overlap as if coherence selected values.
-No new solve is owned until a different natural nonidentity condition is stated independently of
-its desired survivor—either an invariant smaller-family cut or a genuinely stronger global
-relation law—and preregistered against a G233 twin or G206--G210 extension. If none can be named,
-stop. Do not substitute an ansatz, constant-curvature control, action, fit, `X_max`, protected
-draft, or G116/G189 construction input.
+G235 has closed the literal rank-complete matched-network existence candidate with `NO_CANDIDATE`;
+do not recycle coherence as value selection. G236 instead establishes that two processed SNe
+releases support one finite-resolution relative state projection. Next estimate a joint SNe state,
+freeze it, and carry it without refitting into one separately typed held-out query. Before BAO or
+CMB can serve, audit that query's source/operator semantics. Observations may measure or falsify a
+state projection; they may not be used to invent the profile law. Do not substitute P1, an ansatz,
+`X_max`, Lambda-CDM distances, a physical-profile optimizer, protected drafts, or G116/G189 as a
+native construction input.
 <!-- STARTUP_CURRENT_END -->

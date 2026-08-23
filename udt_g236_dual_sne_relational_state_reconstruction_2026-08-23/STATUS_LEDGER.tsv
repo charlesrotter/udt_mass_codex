@@ -1,0 +1,14 @@
+object	status	value_or_result	open_scope
+metric_to_release_transform	DERIVED_CONDITIONAL	y=m-10log10(1+z)=5log10R(phi)+offset	time-live nonspherical and native transfer
+Pantheon_primary_sample	OBSERVED_PROCESSED_CONDITIONAL	768 non-DES rows on common support	shared unregistered release systematics
+DES_primary_sample	OBSERVED_PROCESSED_CONDITIONAL	1623 DES-only rows	bias-correction reference-model dependence
+known_object_overlap	OBSERVED_BOUNDED	148 exact CIDs; all 203 Pantheon survey-10 rows excluded	cross-calibration dependence
+K8_shape_concordance	OBSERVED_BOUNDED	chi2=11.539289 df=7 ceiling=25.708287	other resolutions and raw processing
+K12_shape_concordance	OBSERVED_BOUNDED	chi2=14.409356 df=11 ceiling=34.452079	other queries and transfer
+K16_shape_concordance	OBSERVED_BOUNDED	chi2=18.118818 df=15 ceiling=42.386128	other queries and transfer
+K24_shape_concordance	OBSERVED_BOUNDED	chi2=25.679847 df=23 ceiling=56.911650	other queries and transfer
+package_landing	EXTERNALLY_VERIFIED_WITH_CAVEATS	DUAL_SNE_RELATIONAL_STATE_CONCORDANCE_LEAD__REPAIR_FOLLOWUP_ACCEPTED_SCIENTIFIC_LANDING_RETAINED	processed releases imported transfer and chronology ceiling
+joint_state_estimate	AUTHORIZED_NEXT_REVIEW_RETAINED	not yet performed	held-out observational query
+physical_profile_law	OPEN_NOT_DERIVED	not supplied by G236	metric-native law or state interpretation
+X_max	OPEN_DOWNSTREAM	not used	value profile and realization
+native_radiative_transfer	OPEN	imported bridge retained	UDT carrier and flux law

@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G235 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G236 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -46,6 +46,11 @@ metric components and composes its matched depths, but accepts both invariant G2
 literal rank-complete matched-network existence condition is therefore reconstructive, not a
 profile selector. Full tuples on distinct pair surfaces have no native product.
 
+G236 is externally repaired and accepted: under the static central query and imported transfer,
+768 de-overlapped Pantheon+ and 1,623 DES-only processed observations support compatible relative
+`R(phi)` states at four resolutions. This `OBSERVED_PROCESSED_CONDITIONAL` concordance is not a
+profile law, prediction, native transfer, or history selector.
+
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
 through `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -69,10 +74,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next do not repeat the G235 existence candidate. A new solve is owned only after naming a different
-natural nonidentity condition—an invariant smaller-family cut or genuinely stronger global law—and
-the G233 twin or G206--G210 extension it must reject. Otherwise stop at `NO_CANDIDATE`. Keep null
-query-typed and return distinct from inversion. Do not activate protected drafts, identify `X_max`,
-select transfer/history, or use G116/G189. The 218-row exact registry controls all ownership.
+Next jointly estimate and freeze the SNe relative state, then carry it without refitting into a
+separately typed held-out query after its source/operator audit. Do not repeat G235 or promote
+reconstruction to law. Keep null query-typed and return distinct from inversion. Do not activate
+protected drafts, identify `X_max`, or use P1/G116/G189 as construction inputs. The 219-row exact
+registry controls ownership.
 
 <!-- STARTUP_CURRENT_END -->

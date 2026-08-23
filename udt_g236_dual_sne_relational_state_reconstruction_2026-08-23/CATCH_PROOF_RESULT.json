@@ -1,0 +1,16 @@
+{
+  "audit": "G236_CATCH_PROOFS",
+  "catches": {
+    "cross_implementation_chi_drift": true,
+    "cross_implementation_theta_drift": true,
+    "disabled_slope_hostile": true,
+    "dropped_processing_caveat": true,
+    "false_concordance": true,
+    "missing_overlap": true,
+    "wrong_landing": true,
+    "wrong_resolution_class": true,
+    "wrong_sample_count": true
+  },
+  "count": 9,
+  "status": "PASS"
+}

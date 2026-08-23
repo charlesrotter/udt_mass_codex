@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G235",
+            "G166--G236",
             "G197",
             "G215",
             "G216",
@@ -216,6 +216,7 @@ def validate_startup_surface(root: Path) -> None:
             "G233",
             "G234",
             "G235",
+            "G236",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -258,7 +259,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "218-row exact registry",
+            "219-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -324,6 +325,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/",
             "udt_g231_cartan_regional_realization_bridge_2026-08-23/",
             "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/",
+            "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -337,7 +339,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G235",
+            "G166--G236",
             "G197",
             "G198",
             "G199",
@@ -378,6 +380,7 @@ def validate_startup_surface(root: Path) -> None:
             "G233",
             "G234",
             "G235",
+            "G236",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -431,6 +434,7 @@ def validate_startup_surface(root: Path) -> None:
             "G233",
             "G234",
             "G235",
+            "G236",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -479,10 +483,11 @@ def validate_startup_surface(root: Path) -> None:
             "G233",
             "G234",
             "G235",
+            "G236",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "218-row",
+            "219-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -823,9 +828,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 218, "premise registry must contain exactly 218 rows")
+    require(len(rows) == 219, "premise registry must contain exactly 219 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 218, "duplicate premise id")
+    require(len(by_id) == 219, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3972,6 +3977,139 @@ def main() -> None:
         if path.is_file() and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
     }
     require(g235_registered == g235_actual, "G235 final evidence manifest mismatch")
+    require(
+        by_id["G236"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_184B1A78"
+        ),
+        "G236 bounded grade changed",
+    )
+    for guard in (
+        "REPAIR_FOLLOWUP_ACCEPTED_SCIENTIFIC_LANDING_RETAINED",
+        "OBSERVED_PROCESSED_CONDITIONAL",
+        "PANTHEON_768_DES_1623",
+        "203_SURVEY10_REMOVED",
+        "148_EXACT_CID_OVERLAPS",
+        "K8_K12_K16_K24_ALL_RAW_ADEQUATE_AND_SHAPE_CONCORDANT",
+        "NO_P1_XMAX_LCDM_DISTANCE_PHYSICAL_PROFILE_OPTIMIZER_SMOOTHING_OR_POSTREADOUT_ANGULAR_CORRECTION",
+        "STATE_PROJECTION_NOT_PROFILE_LAW_PREDICTION_OR_UDT_VALIDATION",
+    ):
+        require(guard in by_id["G236"]["current_status"], f"G236 guard absent: {guard}")
+    require(by_id["G236"]["epistemic_label"] == "MIXED", "G236 label changed")
+    require(
+        by_id["G236"]["active_use"]
+        == "ACTIVE_BOUNDED_DUAL_PROCESSED_SNE_RELATIVE_R_OF_PHI_STATE_CONCORDANCE_ONLY",
+        "G236 active scope widened",
+    )
+    require(
+        "state reconstruction called derived profile or SNe prediction"
+        in by_id["G236"]["forbidden_regression"]
+        and "processed releases called raw or model-independent"
+        in by_id["G236"]["forbidden_regression"]
+        and "refitting on the held-out query" in by_id["G236"]["forbidden_regression"],
+        "G236 regression guards absent",
+    )
+    require(
+        by_id["G236"]["controlling_source"]
+        == "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/AUDIT_REPORT.md",
+        "G236 controlling source changed",
+    )
+    g236 = ROOT / "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CHRONOLOGY_AND_NONINTERFERENCE_PROOF.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
+        "FINAL_EVIDENCE_MANIFEST.tsv",
+        "INDEPENDENT_VERIFICATION.json",
+        "OBSERVATIONAL_SOURCE_AUDIT.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_REPAIR.md",
+        "PRODUCTION_RESULT.json",
+        "SOURCE_MANIFEST.tsv",
+        "STATE_RECONSTRUCTION.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "derive_dual_sne_relational_state.py",
+        "verify_dual_sne_relational_state_independent.py",
+        "verify_package.py",
+    ):
+        require((g236 / name).is_file(), f"G236 evidence missing: {name}")
+    g236_result = json.loads((g236 / "PRODUCTION_RESULT.json").read_text())
+    g236_independent = json.loads((g236 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g236_verification = json.loads((g236 / "VERIFICATION_RESULT.json").read_text())
+    g236_chronology = json.loads((g236 / "CHRONOLOGY_AND_NONINTERFERENCE_PROOF.json").read_text())
+    require(g236_result["status"] == "PASS", "G236 production status changed")
+    require(
+        g236_result["landing"] == "DUAL_SNE_RELATIONAL_STATE_CONCORDANCE_LEAD",
+        "G236 production landing changed",
+    )
+    require(
+        g236_result["samples"]
+        == {
+            "des_only": 1623,
+            "exact_cid_overlap": 148,
+            "excluded_pantheon_survey10": 203,
+            "pantheon_non_des_common_support": 768,
+            "phi_max": 0.7627571949083936,
+            "phi_min": 0.07077528204904217,
+        },
+        "G236 sample ledger changed",
+    )
+    expected_g236_shape = {
+        "8": (11.539288612516513, 7),
+        "12": (14.409356393249904, 11),
+        "16": (18.11881756478162, 15),
+        "24": (25.679846714792966, 23),
+    }
+    for key, (chi2, dof) in expected_g236_shape.items():
+        comparison = g236_result["resolutions"][key]["comparison"]
+        require(abs(comparison["chi2"] - chi2) < 1.0e-10, f"G236 K{key} chi2 changed")
+        require(comparison["dof"] == dof and comparison["concordant"] is True, f"G236 K{key} concordance changed")
+        require(
+            g236_result["resolutions"][key]["pantheon"]["adequate"] is True
+            and g236_result["resolutions"][key]["des"]["adequate"] is True,
+            f"G236 K{key} raw adequacy changed",
+        )
+    require(g236_independent["status"] == "PASS", "G236 independent replay changed")
+    require(g236_verification["status"] == "PASS", "G236 package verification changed")
+    require(
+        g236_verification["checks"]["max_shape_chi2_cross_residual"] < 2.0e-10
+        and g236_verification["checks"]["max_raw_chi2_cross_residual"] < 2.0e-11,
+        "G236 independent cross-residual widened",
+    )
+    require(
+        g236_chronology["status"]
+        == "PASS_REPOSITORY_CHRONOLOGY_WITH_RETROACTIVE_UNTRACKED_ABSENCE_LIMIT",
+        "G236 chronology ceiling changed",
+    )
+    require(
+        "G236_SCIENTIFIC_REPAIR_REQUIRED" in (g236 / "EXTERNAL_REVIEW.md").read_text()
+        and "no scientific, statistical, type, or data-provenance error"
+        in (g236 / "EXTERNAL_REVIEW.md").read_text(),
+        "G236 initial external review absent",
+    )
+    require(
+        "G236_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_RETAINED"
+        in (g236 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        "G236 repair-followup acceptance absent",
+    )
+    require(len(read_tsv(g236 / "PREMISE_LEDGER.tsv")) == 15, "G236 premise count changed")
+    require(len(read_tsv(g236 / "SOURCE_MANIFEST.tsv")) == 11, "G236 source count changed")
+    g236_manifest_rows = read_tsv(g236 / "FINAL_EVIDENCE_MANIFEST.tsv")
+    g236_registered = {row["path"]: row["sha256"] for row in g236_manifest_rows}
+    require(len(g236_registered) == len(g236_manifest_rows), "G236 duplicate manifest path")
+    g236_actual = {
+        path.relative_to(g236).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g236.rglob("*")
+        if path.is_file()
+        and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+        and "__pycache__" not in path.parts
+    }
+    require(g236_registered == g236_actual, "G236 final evidence manifest mismatch")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8195,7 +8333,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G235-extended startup and G235 premise guards; PASS: 218-row premise "
+        "PASS: G236-extended startup and G236 premise guards; PASS: 219-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

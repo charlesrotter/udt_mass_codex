@@ -1,0 +1,78 @@
+{
+  "audit": "G236_GIT_CHRONOLOGY_AND_HOSTILE_NONINTERFERENCE",
+  "commit_objects": {
+    "184b1a7887864709e8abd1eb6123071ab2b8e825": {
+      "computed_git_object_id": "184b1a7887864709e8abd1eb6123071ab2b8e825",
+      "object_id_matches": true,
+      "parents": [
+        "650170087c661f246d301c3dba2f266e4a8695b7"
+      ],
+      "raw_object_path": "GIT_OBJECTS/184b1a78_commit_object.txt",
+      "raw_object_sha256": "c2583ffe892f4335575a0adc5de256c75f1d4846025040968fdc1f83f2d3ea4a",
+      "tree_listing_path": "GIT_OBJECTS/184b1a78_recursive_tree.txt",
+      "tree_listing_sha256": "b76547f42584428d3f0020c5fa7b76a7370338bd1cf09667268a384f3b424cf7"
+    },
+    "318f35def882ef1422152b93db21a1dfbfff6424": {
+      "computed_git_object_id": "318f35def882ef1422152b93db21a1dfbfff6424",
+      "object_id_matches": true,
+      "parents": [
+        "184b1a7887864709e8abd1eb6123071ab2b8e825"
+      ],
+      "raw_object_path": "GIT_OBJECTS/318f35de_commit_object.txt",
+      "raw_object_sha256": "ace8c37ca26e5f718edccb315b8841cbae42df0e451c4d4a96f2dbe933f315be",
+      "tree_listing_path": "GIT_OBJECTS/318f35de_recursive_tree.txt",
+      "tree_listing_sha256": "6e35650faa363c968fa492fd63b41a63303decc76f9993d7440cc014c745878b"
+    }
+  },
+  "hostile_noninterference": {
+    "hostile_absent_from_landing_assignment_rhs": true,
+    "hostile_absent_from_resolutions_assignment_rhs": true,
+    "hostile_assignment_lines": [
+      303
+    ],
+    "hostile_only_certifies_and_is_reported_after_scientific_values": true,
+    "landing_assignment_lines": [
+      295,
+      297,
+      299,
+      301
+    ],
+    "landing_precedes_hostile_object": true,
+    "resolutions_assignment_lines": [
+      230
+    ],
+    "result_assignment_lines": [
+      317
+    ]
+  },
+  "outcome_paths_absent_from_preregistration_trees": {
+    "184b1a7887864709e8abd1eb6123071ab2b8e825": {
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/INDEPENDENT_VERIFICATION.json": true,
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PRODUCTION_RESULT.json": true,
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/STATE_RECONSTRUCTION.tsv": true,
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/derive_dual_sne_relational_state.py": true
+    },
+    "318f35def882ef1422152b93db21a1dfbfff6424": {
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/INDEPENDENT_VERIFICATION.json": true,
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PRODUCTION_RESULT.json": true,
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/STATE_RECONSTRUCTION.tsv": true,
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/derive_dual_sne_relational_state.py": true
+    }
+  },
+  "parent_chain": {
+    "expected": "184b1a7887864709e8abd1eb6123071ab2b8e825 -> 318f35def882ef1422152b93db21a1dfbfff6424",
+    "verified": true
+  },
+  "proof_ceiling": "Git proves commit identity, parent order, and committed-tree contents; it cannot retroactively prove the absence of an untracked private computation.",
+  "repair_commit": {
+    "changed_paths": [
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md",
+      "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION_REPAIR.md"
+    ],
+    "changed_paths_match_expected": true,
+    "exact_patch_path": "GIT_OBJECTS/318f35de_exact_patch.txt",
+    "exact_patch_sha256": "53a075e14f2696dff02716b4724d922b92f990918aa53a6b2f3495aa8c9fd7e6",
+    "touches_code_data_or_outcomes": false
+  },
+  "status": "PASS_REPOSITORY_CHRONOLOGY_WITH_RETROACTIVE_UNTRACKED_ABSENCE_LIMIT"
+}
