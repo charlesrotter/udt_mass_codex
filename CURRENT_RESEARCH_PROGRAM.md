@@ -75,8 +75,15 @@ physical scalar after the working premise. They must not be conflated.
   Gauges and affine scales cancel; caustics retain an invertible full phase and matrix holonomy.
   External review and repair closure verified this without selecting transport, a direct relation,
   population, or history.
+- G227 moves from automatic edge composition to same-event common algebraic-curvature
+  compatibility. The frozen nine-direction generic null witness has rank 19, kernel exactly
+  `span(g wedge g)`, and eight syzygies; one additional `CHOSE` timelike sectional-curvature datum
+  restores rank 20. It consumes normalized infinitesimal affine tidal generators or differentiable
+  short-edge jets, not isolated finite G226 matrices. It reconstructs algebraic curvature values
+  when supplied; it does not generate them, prove metric-2-jet realization, or select population or
+  history.
 
-G206--G226 retain their stated verification caveats. None generates a sector function,
+G206--G227 retain their stated verification caveats. None generates a sector function,
 finite-anchor flow, or `X_max`.
 
 Structural package:
@@ -99,22 +106,25 @@ Current shared-event normal-screen comparison and direction-space holonomy:
 `udt_g225_shared_event_normal_screen_carry_2026-08-22/`.
 Current composable null-chain conformal-symplectic assembly:
 `udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/`.
+Current same-event curvature compatibility and tomography:
+`udt_g227_same_event_curvature_tomography_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G226 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G227 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
 - G222 closes one local null pair plane. G223 closes its invariant local line-pairing and
   interval-fiber integration. G224 closes scalar vertical carry at an actual shared event. G225
   derives a pointwise least-turning screen comparison with finite direction-space holonomy. G226
-  closes the full scalar/screen phase assembly on one supplied composable chain, not selected
-  physical vertex transport, an independently supplied direct relation, a congruence/network
-  population, global scalar, or relation population.
+  closes the full scalar/screen phase assembly on one supplied composable chain. G227 constrains a
+  supplied same-event infinitesimal null-tidal family to one common algebraic curvature, but does
+  not select physical vertex transport, an independently supplied direct relation, a
+  congruence/network population, global scalar, or relation population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -133,9 +143,10 @@ families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarificati
 formula-level regression or chosen-family controls.
 
 G199--G214 classify the primary bidirectional channels, quiet/completion strata, complete metric
-degrees, rank, state, and descent. G215--G226 close the supplied clock slope, first jet,
+degrees, rank, state, and descent. G215--G227 close the supplied clock slope, first jet,
 query-typed null chord/plane, local scalar carry, pointwise screen holonomy, and full phase assembly
-on one supplied chain. Next determine whether a supplied finite null congruence/network carries any
-additional metric-native compatibility that restricts coexisting germs rather than merely
-evaluating them. Do not select transport/history, force a direct relation, fit, use `X_max`,
-activate protected drafts, or revive historical inputs.
+on one supplied chain, then add same-event common-curvature compatibility for infinitesimal tidal
+generators. Next test one neighboring-event/short-congruence tile for a common connection/curvature
+first variation, differential Bianchi, and screen-transport compatibility. Do not confuse
+compatibility with numerical value generation, select transport/history, force a direct relation,
+fit, use `X_max`, activate protected drafts, or revive historical inputs.

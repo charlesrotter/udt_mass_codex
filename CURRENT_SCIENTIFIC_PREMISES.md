@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215--G226; caveats | `Phi=-log T`; chord, plane, line/fiber carry, pointwise screen, supplied-chain full phase | Population; selected vertex transport; congruence/network ownership |
+| Pair-clock network | G215--G227 | `Phi=-log T`; local carry, screen/full phase, same-event curvature compatibility | Population; selected transport; neighboring/global network |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -44,6 +44,7 @@
 | G224 shared-event scalar carry | external after repair | Unique line switch; inverse clock representation | Screen/direct/protocol open |
 | G225 shared-event screen carry | external after repairs | Proper least-turning isometry off antipodes; finite `O(2)` holonomy | Not selected transport; finite phase/population open |
 | G226 supplied-chain phase | externally verified | Exact `CSp^+(4,R)` clock/ruler interlock; caustic-safe full phase | No selected transport, direct relation, population, or history |
+| G227 same-event tomography | exact; scope-repaired | Generic-witness rank 19, `g wedge g` kernel; one `CHOSE` sectional datum gives rank 20 | Infinitesimal input; no 2-jet realization, values, population, or history |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -68,9 +69,9 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
   is an envelope control.
-- G212--G226 close state/descent, clock jet, one null plane, local line/fiber and scalar carry,
-  pointwise screen holonomy, and the finite full phase on one supplied chain. Population, selected
-  vertex transport, congruence/network ownership, global scalar, transfer, and completion stay open.
+- G212--G227 close state/descent, clock jet, one null plane, local carry, screen holonomy, one-chain
+  full phase, and same-event algebraic-curvature compatibility. Population, selected transport,
+  neighboring-event/global ownership, values, scalar, transfer, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -104,7 +105,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 210-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 211-row authority. On conflict, stop.
 
 Run:
 

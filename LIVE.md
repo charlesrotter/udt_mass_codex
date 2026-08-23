@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G226. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G227. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -58,6 +58,18 @@ matrix-valued. External review and repair-only replay verified the bounded landi
 not promoted to selected transport, and no null population, independent direct relation, or
 physical history is selected.
 
+G227 answers the bounded G226 network question at one supplied event. Abstract finite
+`CSp+(4,R)` edge composition is automatic, but normalized infinitesimal null-screen tides in
+different directions cannot be assigned independently if they claim one common algebraic
+curvature. The frozen nine-direction generic witness gives an exact `27 x 20` map of rank 19,
+with kernel exactly the isotropic constant-sectional-curvature algebraic mode `g wedge g`; eight
+exact syzygies constrain the 27 entries. One additional `CHOSE` timelike sectional-curvature datum
+raises the rank to 20. Four held-out null directions are predicted exactly. This consumes an
+infinitesimal affine Jacobi generator or equivalent short-edge jet—not an isolated finite G226
+matrix. Post-outcome adversarial review accepted the algebra after scope/provenance repairs. The
+result is same-event algebraic-curvature compatibility and tomography, not a metric-2-jet
+realization theorem, numerical-history law, or observer/branch population rule.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -70,7 +82,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 210-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 211-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -94,11 +106,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Zoom out before another solve. On a **supplied finite null congruence or network**, determine whether
-the G226 path-labelled `CSp^+(4,R)` phases obey any additional metric-native compatibility beyond
-ordinary functorial composition and curvature identities, and whether that compatibility actually
-restricts coexisting pair germs or merely evaluates them. Preregister the distinction. Do not
-promote G225 into selected transport, equate an independent direct relation with a composite,
-infer observer/null population or physical history, fit, identify `X_max`, activate protected
-drafts, or use G116/G189 as construction inputs.
+Move from one-event tomography to one **supplied neighboring-event/short-congruence tile**. Determine
+whether G227-compatible algebraic curvature data and the G226 infinitesimal affine phase can satisfy
+one common connection/curvature first-variation law, including the differential Bianchi and screen
+transport compatibility, or whether independently assigned eventwise chords fail. Preregister
+reconstruction/compatibility versus value generation. Do not infer curvature from isolated finite
+G226 matrices, invoke the omitted metric-2-jet realization theorem as a G227 result, promote G225
+into selected transport, infer observer/null population or physical history, fit, identify
+`X_max`, activate protected drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

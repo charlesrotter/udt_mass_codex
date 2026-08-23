@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G226",
+            "G166--G227",
             "G197",
             "G215",
             "G216",
@@ -207,6 +207,7 @@ def validate_startup_surface(root: Path) -> None:
             "G224",
             "G225",
             "G226",
+            "G227",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -249,7 +250,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "210-row exact registry",
+            "211-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -308,6 +309,8 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g223_null_ribbon_density_overlap_carry_2026-08-22/",
             "udt_g224_shared_event_vertical_carry_2026-08-22/",
             "udt_g225_shared_event_normal_screen_carry_2026-08-22/",
+            "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/",
+            "udt_g227_same_event_curvature_tomography_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -321,7 +324,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G226",
+            "G166--G227",
             "G197",
             "G198",
             "G199",
@@ -353,6 +356,7 @@ def validate_startup_surface(root: Path) -> None:
             "G224",
             "G225",
             "G226",
+            "G227",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -397,6 +401,7 @@ def validate_startup_surface(root: Path) -> None:
             "G224",
             "G225",
             "G226",
+            "G227",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -436,10 +441,11 @@ def validate_startup_surface(root: Path) -> None:
             "G224",
             "G225",
             "G226",
+            "G227",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "210-row",
+            "211-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -780,9 +786,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 210, "premise registry must contain exactly 210 rows")
+    require(len(rows) == 211, "premise registry must contain exactly 211 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 210, "duplicate premise id")
+    require(len(by_id) == 211, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2961,6 +2967,95 @@ def main() -> None:
         == "CONFORMAL_SYMPLECTIC_NULL_CHAIN_INTERLOCK_DERIVED_CONDITIONALLY",
         "G226 landing changed",
     )
+    require(
+        by_id["G227"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__WHITEBOARD_PILOT_DISCLOSED__PREREGISTERED_CONTRACT_AT_0B9135C7"
+        ),
+        "G227 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "NORMALIZED_INFINITESIMAL_AFFINE_NULL_SCREEN_TIDES_ONLY",
+        "ISOLATED_FINITE_G226_MATRIX_INSUFFICIENT",
+        "FROZEN_NINE_DIRECTION_GENERIC_WITNESS_27_BY_20_RANK19",
+        "CUMULATIVE_RANKS_3_6_9_12_15_16_17_18_19",
+        "KERNEL_EXACTLY_SPAN_G_WEDGE_G",
+        "EIGHT_EXACT_SYZYGIES",
+        "FOUR_HELD_OUT_NULL_DIRECTIONS_PREDICTED_EXACTLY",
+        "ONE_CHOSE_TIMELIKE_SECTIONAL_CURVATURE_DATUM_RAISES_RANK20",
+        "COMMON_ALGEBRAIC_CURVATURE_COMPATIBILITY_NOT_METRIC_2JET_REALIZATION",
+        "NO_NUMERICAL_VALUE_GENERATION_OBSERVER_BRANCH_POPULATION_GLOBAL_HISTORY_DYNAMICS_SOURCE_ACTION_MATTER_BOOTSTRAP_BOUNDARY_XMAX_TRANSFER_OBSERVATION_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G227"]["current_status"], f"G227 guard absent: {guard}")
+    require(by_id["G227"]["epistemic_label"] == "MIXED", "G227 label changed")
+    require(
+        by_id["G227"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_EVENT_COMMON_ALGEBRAIC_CURVATURE_COMPATIBILITY_AND_TOMOGRAPHY_ONLY",
+        "G227 active scope widened",
+    )
+    require(
+        "isolated finite G226 transfer matrix called a local curvature tensor"
+        in by_id["G227"]["forbidden_regression"],
+        "G227 finite-phase type guard absent",
+    )
+    require(
+        "common algebraic-curvature compatibility called metric-germ or metric-2jet realizability"
+        in by_id["G227"]["forbidden_regression"],
+        "G227 realizability guard absent",
+    )
+    require(
+        by_id["G227"]["controlling_source"]
+        == "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "G227 controlling source changed",
+    )
+    g227 = ROOT / "udt_g227_same_event_curvature_tomography_2026-08-22"
+    for name in (
+        "WHITEBOARD_SYNTHESIS.md",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_HASHES.tsv",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "POST_OUTCOME_ADVERSARIAL_REVIEW.md",
+        "REPAIR_VERIFICATION.md",
+        "derive_curvature_tomography.py",
+        "verify_independent.py",
+        "run_hostile_catches.py",
+        "verify_package.py",
+        "build_evidence_manifest.py",
+        "verify_evidence_manifest.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "HOSTILE_CATCH_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "RUN_LOG.txt",
+        "EVIDENCE_MANIFEST.tsv",
+    ):
+        require((g227 / name).is_file(), f"G227 evidence missing: {name}")
+    g227_result = json.loads((g227 / "DERIVATION_RESULT.json").read_text())
+    require(g227_result["cumulative_null_ranks"] == [3, 6, 9, 12, 15, 16, 17, 18, 19],
+            "G227 cumulative ranks changed")
+    require(g227_result["null_rank"] == 19 and g227_result["nullity"] == 1,
+            "G227 null rank/kernel changed")
+    require(g227_result["left_nullity"] == 8, "G227 syzygy count changed")
+    require(g227_result["kernel_proportional_to_constant_curvature"] is True,
+            "G227 constant-curvature kernel lost")
+    require(g227_result["augmented_rank"] == 20, "G227 timelike completion changed")
+    require(g227_result["held_out_rank_increase"] == 0 and g227_result["held_out_prediction_exact"] is True,
+            "G227 held-out prediction changed")
+    g227_independent = json.loads((g227 / "INDEPENDENT_VERIFICATION.json").read_text())
+    require(g227_independent["pass"] is True, "G227 independent replay failed")
+    g227_negative = json.loads((g227 / "HOSTILE_CATCH_RESULT.json").read_text())
+    require(g227_negative["pass"] is True and g227_negative["passed"] == g227_negative["total"] == 7,
+            "G227 structural negative controls changed")
+    g227_package = json.loads((g227 / "VERIFICATION_RESULT.json").read_text())
+    require(g227_package["pass"] is True, "G227 package verification failed")
+    require(
+        g227_package["landing"]
+        == "COMMON_ALGEBRAIC_CURVATURE_COMPATIBILITY_DERIVED_CONDITIONALLY__FROZEN_NINE_DIRECTION_GENERIC_WITNESS_RECOVERS_19_MODES__ONE_CHOSEN_TIMELIKE_SECTIONAL_DATUM_RECOVERS_THE_TWENTIETH",
+        "G227 landing changed",
+    )
+    require(all(g227_package["checks"].values()), "G227 package check failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -7184,7 +7279,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G226-extended premise guards; PASS: 210-row premise "
+        "PASS: G227-extended premise guards; PASS: 211-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
