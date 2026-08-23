@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G224 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G225 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -24,8 +24,12 @@ fiber integration. The old `d(a d lambda)=0` gate is only a chart-specific exact
 condition. G224 closes the local scalar handoff at an actual shared event: the metric unit clock
 canonically normalizes each incident future-null line, the unique vertex switch obeys the cocycle
 laws, and vertical carry is the inverse G216 clock representation. It derives no screen/Jacobi map
-or independent direct relation. Protocol population, finite screen carry, global scalar gates, and
-history remain open.
+or independent direct relation. G225 derives the positive incident screen planes and the unique
+proper least-turning pointwise isometry away from antipodes. Three-direction composition retains
+finite `O(2)` holonomy; there is no continuous global endpoint-only flat screen cocycle, and G188
+Jacobi transport remains separate. The pointwise evaluator is not selected physical transport.
+Protocol population, finite G188 edge/vertex phase assembly, global scalar gates, and history
+remain open.
 G197 excludes P1,
 G116/G189 transfer, fits, `X_max`, and protected payload from the native core. G176 stays provisional
 and G190--G192 IVPs formula-level.
@@ -54,11 +58,12 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-At an actual shared observer event, classify whether the metric, unit clock, and incident null
-directions canonically identify the two G188 normal-screen planes or leave a residual orthogonal
-torsor. Test identity, inverse, vertex composition, passive covariance, and scalar reduction. Do not
-promote G224's line switch to a screen/Jacobi map. No fits, `X_max`, transfer/history selection, or
-protected drafts.
+Assemble the already derived channels on one supplied composable null chain: G188 along-edge
+screen connection/Jacobi phase, G224 exact scalar vertex switch, and G225 pointwise least-turning
+screen comparison. Classify the lawful path-labelled matrix functor, middle-screen gauge
+covariance, caustic-safe phase-space composition, and residual holonomy. Do not promote G225's
+pointwise evaluator into a selected physical vertex transport or force an independently supplied
+direct relation. No fits, `X_max`, transfer/history selection, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

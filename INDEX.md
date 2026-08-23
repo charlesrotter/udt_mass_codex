@@ -49,12 +49,15 @@
 - Complete-coframe null chord and local pair-plane join: `udt_g221_complete_coframe_null_clock_chord_2026-08-22/`; `udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`
 - Null-ribbon density overlap and local integration: `udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`
 - Shared-event vertical scalar carry: `udt_g224_shared_event_vertical_carry_2026-08-22/`
+- Shared-event normal-screen comparison and holonomy:
+  `udt_g225_shared_event_normal_screen_carry_2026-08-22/`
 G129--G165 are controls; G166--G184 build pairs; G185--G214 are application/control/structure.
 G215--G217 close scalar incidence; G218--G220 type dynamic queries; G221 supplies the complete chord;
 G222 completes the local plane and normal screen; G223 identifies the invariant mixed line pairing,
 inverse clock weight, and local fiber coordinate; G224 closes the scalar vertical switch at an
-actual shared event. Protocol population, finite screen/Jacobi carry, global scalar gates, and
-physical history remain open.
+actual shared event; G225 derives the pointwise least-turning screen isometry off antipodes and its
+nontrivial direction-space holonomy. Protocol population, physical vertex-screen selection, finite
+G188 edge/vertex phase assembly, global scalar gates, and physical history remain open.
 Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -63,7 +66,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownershi
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 208-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 209-row registry controls.
 ## Observational lane
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`

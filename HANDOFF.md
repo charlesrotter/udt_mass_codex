@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G224 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G225 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -32,6 +32,17 @@ screen map or independent direct relation follows. Fresh gpt-5.4 repair follow-u
 wording repair at final bounded grade `A-`. Global scalar source/period/Cech gates, screen/Jacobi
 carry, null protocol, observer/branch population, and physical history remain open.
 
+G225 closes the bounded pointwise angular comparison at that supplied shared event. The metric,
+unit clock, and each incident null direction define a positive rest screen canonically equivalent
+to the G188 quotient screen. Off antipodes, the unique proper least-turning direct isometry is
+passive `O(3)`/screen-`O(2)` covariant. It is not a flat endpoint cocycle: an exact octant triple
+leaves a quarter-turn screen holonomy, and no continuous global endpoint-only flat screen carry
+exists on all celestial `S^2`. Antipodal equal screens do not select a unique continuous ambient
+least turn. The map remains a pointwise `STANDARD_GEOMETRIC_EVALUATOR`, not selected physical
+transport; G224 scalar carry and G188 path-curvature Jacobi transport remain distinct. Fresh
+gpt-5.4 science review and final repair follow-up accepted the bounded landing with no remaining
+repair.
+
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,
 formula-level regression, or off-ray controls. G199--G214 are routed by `CURRENT_RESEARCH_PROGRAM.md`
@@ -56,12 +67,13 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-On an actual shared observer event, determine whether the metric, unit clock, and incident null
-directions canonically identify the two G188 normal-screen planes, or leave a residual orthogonal
-torsor. Test screen identity, inverse, vertex composition, passive covariance, and scalar reduction
-without promoting G224's line switch into a screen/Jacobi map. Keep null query-typed and return
-distinct from inversion. Do not fit, activate protected drafts, identify `X_max`, select
-transfer/history, or use G116/G189. All other open ownership remains controlled by the 208-row exact
-registry.
+On one supplied composable null chain, assemble G188 along-edge screen connection/Jacobi phase,
+G224 exact scalar vertex carry, and G225 pointwise least-turning screen comparison. Classify the
+path-labelled matrix functor, middle-screen gauge covariance, caustic-safe phase-space composition,
+and residual holonomy. Do not promote G225's pointwise map into selected physical vertex transport,
+collapse the G188 Jacobi phase to its position block, or force an independently supplied direct
+relation. Keep null query-typed and return distinct from inversion. Do not fit, activate protected
+drafts, identify `X_max`, select transfer/history, or use G116/G189. All other open ownership
+remains controlled by the 209-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->

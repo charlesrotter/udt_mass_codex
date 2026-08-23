@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G224. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G225. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -77,6 +77,20 @@ not constrain an independently supplied direct relation. Its repair follow-up re
 `REPAIRS_ACCEPTED`, final bounded grade `A-`. Null remains query-typed; observer/branch population
 and physical history remain open.
 
+G225 now closes the bounded pointwise angular comparison at that same supplied shared event. Each
+incident future-null direction and the metric-unit clock define a positive two-dimensional rest
+screen canonically isometric to the G188 quotient screen. Away from antipodes, the metric gives the
+unique proper least-turning map that sends one sight direction to the other while fixing their
+common perpendicular. It is passive `O(3)` and screen-`O(2)` covariant, but it is not an endpoint
+flat cocycle: the exact octant triple leaves a quarter-turn screen holonomy, while an ordered
+same-great-circle control composes exactly. No continuous global endpoint-only flat screen carry
+exists over all celestial `S^2`; at antipodes the screen planes agree but the continuous
+least-turning ambient extension is nonunique. This is a `STANDARD_GEOMETRIC_EVALUATOR`, not selected
+physical vertex transport. G224's scalar carry remains exact and G188's curvature-integrated
+Jacobi map remains a separate path-labelled matrix. Fresh gpt-5.4 review accepted the bounded
+science; two mechanical evidence repairs closed sealed source resolution and Git ancestry with the
+scientific landing unchanged.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -89,7 +103,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 208-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 209-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -113,12 +127,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Classify the **two-dimensional normal-screen carry** at an actual shared observer event joining
-supplied regular null relations. Determine whether the primary metric, shared unit clock, and the
-two incident null directions canonically identify the G188 screen planes, or only define separate
-positive screen spaces with a residual orthogonal torsor. Test identity, inverse, triple-vertex
-composition, passive screen covariance, and reduction to G224's scalar line carry. Do not infer a
-screen/Jacobi map from the one-dimensional switch or force an independently supplied direct
-relation. Do not fit, identify `X_max`, select transfer/history, activate protected drafts, or use
-G116/G189 as construction inputs.
+Assemble the already derived channels on one **supplied composable null chain**: G188 along-edge
+screen connection/Jacobi phase, G224 exact scalar vertex switch, and G225 pointwise least-turning
+screen comparison. Determine the lawful path-labelled matrix functor, middle-screen gauge
+covariance, caustic-safe full phase-space composition, and residual holonomy. Keep the G188 Jacobi
+position block distinct from its full transfer phase and from G225's order-zero vertex isometry.
+Do not promote the pointwise least-turning map into selected physical transport, force an
+independently supplied direct relation, fit, identify `X_max`, select transfer/history, activate
+protected drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G224",
+            "G166--G225",
             "G197",
             "G215",
             "G216",
@@ -205,6 +205,7 @@ def validate_startup_surface(root: Path) -> None:
             "G222",
             "G223",
             "G224",
+            "G225",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -247,7 +248,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "208-row exact registry",
+            "209-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -305,6 +306,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/",
             "udt_g223_null_ribbon_density_overlap_carry_2026-08-22/",
             "udt_g224_shared_event_vertical_carry_2026-08-22/",
+            "udt_g225_shared_event_normal_screen_carry_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -318,7 +320,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G224",
+            "G166--G225",
             "G197",
             "G198",
             "G199",
@@ -348,6 +350,7 @@ def validate_startup_surface(root: Path) -> None:
             "G222",
             "G223",
             "G224",
+            "G225",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -390,6 +393,7 @@ def validate_startup_surface(root: Path) -> None:
             "G222",
             "G223",
             "G224",
+            "G225",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -427,10 +431,11 @@ def validate_startup_surface(root: Path) -> None:
             "G222",
             "G223",
             "G224",
+            "G225",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "208-row",
+            "209-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -771,9 +776,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 208, "premise registry must contain exactly 208 rows")
+    require(len(rows) == 209, "premise registry must contain exactly 209 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 208, "duplicate premise id")
+    require(len(by_id) == 209, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2733,6 +2738,116 @@ def main() -> None:
         g224_package["landing"]
         == "SHARED_MIDDLE_EVENT_AND_METRIC_UNIT_CLOCK_CANONICALLY_IDENTIFY_INCIDENT_FUTURE_NULL_VERTICAL_LINES__VERTICAL_SCALAR_CARRY_IS_THE_INVERSE_REPRESENTATION_OF_THE_ACTUAL_CLOCK_RATE_CHAIN__DISTINCT_EVENT_NORMALIZATION_IS_ABSTRACTLY_AVAILABLE_BUT_NOT_A_COMPOSABLE_VERTEX_RELATION__NO_SCREEN_MAP_OR_INDEPENDENT_DIRECT_RELATION_IS_DERIVED",
         "G224 landing changed",
+    )
+    require(
+        by_id["G225"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_24A8F8A4__"
+            "ONE_FOUR_DIMENSIONAL_TIME_ORIENTED_LORENTZ_TANGENT_SPACE_AT_SUPPLIED_SHARED_OBSERVER_EVENT"
+        ),
+        "G225 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "OBSERVER_REST_SCREEN_E_N_POSITIVE_AND_CANONICALLY_ISOMETRIC_TO_G188_QUOTIENT_SCREEN",
+        "UNIQUE_PROPER_LEAST_TURNING_MAP_FIXING_COMMON_PERPENDICULAR",
+        "PASSIVE_O3_AND_SCREEN_O2_COVARIANCE",
+        "EXACT_OCTANT_TRIPLE_LEAVES_QUARTER_TURN_SCREEN_HOLONOMY",
+        "NO_CONTINUOUS_GLOBAL_ENDPOINT_ONLY_FLAT_SCREEN_COCYCLE_ON_ALL_S2",
+        "ANTIPODAL_SCREENS_EQUAL_BUT_CONTINUOUS_LEAST_TURNING_AMBIENT_EXTENSION_NONUNIQUE",
+        "G224_SCALAR_CARRY_RETAINED_EXACT",
+        "G188_JACOBI_REMAINS_SEPARATE_PATH_CURVATURE_MATRIX",
+        "POINTWISE_MAP_NOT_PHYSICAL_TRANSPORT",
+        "580013_EXACT_RATIONAL_ASSERTIONS",
+        "19922_NONTRIVIAL_COMPOSITION_DEFECTS",
+        "25_CONTRACT_MUTATIONS",
+        "TRUE_NO_WRITE_REPLAY",
+        "R2_SEALED_GIT_ANCESTRY_ACCEPTED",
+        "SCIENTIFIC_LANDING_UNCHANGED",
+        "NO_UNIVERSAL_NULL_PROTOCOL_INDEPENDENT_DIRECT_RELATION_OBSERVER_BRANCH_POPULATION_PHYSICAL_HISTORY_GLOBAL_SCREEN_CARRY_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G225"]["current_status"], f"G225 guard absent: {guard}")
+    require(by_id["G225"]["epistemic_label"] == "MIXED", "G225 label changed")
+    require(
+        by_id["G225"]["active_use"]
+        == "ACTIVE_BOUNDED_SHARED_EVENT_POINTWISE_NORMAL_SCREEN_COMPARISON_AND_DIRECTION_SPACE_HOLONOMY_ONLY",
+        "G225 active scope widened",
+    )
+    require(
+        "pointwise least-turning evaluator called selected physical transport"
+        in by_id["G225"]["forbidden_regression"],
+        "G225 evaluator-to-transport promotion guard absent",
+    )
+    require(
+        by_id["G225"]["controlling_source"]
+        == "udt_g225_shared_event_normal_screen_carry_2026-08-22/AUDIT_REPORT.md",
+        "G225 controlling source changed",
+    )
+    g225 = ROOT / "udt_g225_shared_event_normal_screen_carry_2026-08-22"
+    for name in (
+        "MAP.md",
+        "OBSERVATION.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "derive_shared_event_normal_screen_carry.py",
+        "verify_shared_event_normal_screen_independent.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CONTROL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "VERIFICATION_RESULT.json",
+        "run_catch_proofs.py",
+        "CATCH_PROOF_RESULT.json",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
+        "REPAIR_R2_PREREGISTRATION.md",
+        "FINAL_REPAIR_FOLLOWUP_REVIEW.md",
+        "verify_package.py",
+    ):
+        require((g225 / name).is_file(), f"G225 evidence missing: {name}")
+    g225_package = json.loads((g225 / "VERIFICATION_RESULT.json").read_text())
+    require(g225_package["status"] == "PASS", "G225 package verification failed")
+    require(
+        g225_package["grade"]
+        == "DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+        "G225 final grade changed",
+    )
+    require(g225_package["preregistration_commit"] == "24a8f8a4", "G225 preregistration changed")
+    require(g225_package["source_count"] == 9, "G225 source count changed")
+    require(g225_package["symbolic_checks"] == 39, "G225 symbolic count changed")
+    require(g225_package["independent_cases"] == 20000, "G225 independent case count changed")
+    require(g225_package["exact_rational_assertions"] == 580013, "G225 assertion count changed")
+    require(g225_package["nontrivial_composition_defects"] == 19922, "G225 defect count changed")
+    require(g225_package["contract_mutations"] == 25, "G225 contract count changed")
+    require(g225_package["screen_planes_metric_derived"] is True, "G225 screens absent")
+    require(g225_package["least_turning_direct_isometry_nonantipodal"] is True, "G225 map absent")
+    require(g225_package["finite_composition_holonomy"] is True, "G225 holonomy absent")
+    require(not g225_package["global_endpoint_only_flat_screen_carry"], "G225 flat carry promoted")
+    require(not g225_package["antipodal_least_turning_extension_unique"], "G225 antipodal promotion")
+    require(g225_package["G224_scalar_carry_retained"] is True, "G225 scalar carry lost")
+    require(not g225_package["G188_Jacobi_replaced"], "G225 Jacobi collapse")
+    require(not g225_package["pointwise_direct_map_physical_transport_selected"], "G225 transport promotion")
+    require(not g225_package["independent_direct_relation_constrained"], "G225 direct relation constrained")
+    require(g225_package["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "G225 review changed")
+    require(g225_package["repair_followup_review"] == "R1_INCOMPLETE__R2_ACCEPTED", "G225 repair chain")
+    require(
+        g225_package["final_repair_review"]
+        == "G225_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+        "G225 final repair acceptance absent",
+    )
+    require(g225_package["sealed_git_ancestry_proof"] is True, "G225 ancestry proof absent")
+    require(g225_package["read_only_replay"] is True, "G225 read-only replay absent")
+    require(g225_package["manifest_path_containment"] is True, "G225 containment absent")
+    require(
+        g225_package["landing"]
+        == "METRIC_AND_SHARED_CLOCK_DEFINE_POSITIVE_INCIDENT_SCREEN_PLANES__CANONICAL_LEAST_TURNING_DIRECT_SCREEN_ISOMETRY_EXISTS_OFF_ANTIPODES__THREE_DIRECTION_COMPOSITION_RETAINS_FINITE_O2_HOLONOMY_AND_NO_GLOBAL_ENDPOINT_ONLY_FLAT_SCREEN_CARRY_EXISTS__G188_JACOBI_TRANSPORT_REMAINS_SEPARATE",
+        "G225 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6957,7 +7072,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G224-extended premise guards; PASS: 208-row premise "
+        "PASS: G225-extended premise guards; PASS: 209-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
