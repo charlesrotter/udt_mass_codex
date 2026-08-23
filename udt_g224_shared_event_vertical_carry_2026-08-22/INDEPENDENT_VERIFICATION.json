@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "seed": 2240822,
+  "cases": 20000,
+  "exact_rational_assertions": 220003,
+  "affine_rescaling_invariant": true,
+  "clock_recalibration_invariant": true,
+  "vertex_cocycle": true,
+  "inverse_clock_path_carry": true,
+  "independent_direct_edge_counterexample": true,
+  "different_null_direction_control": true
+}

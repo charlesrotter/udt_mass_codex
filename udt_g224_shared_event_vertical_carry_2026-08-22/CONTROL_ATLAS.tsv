@@ -1,0 +1,11 @@
+control	status	meaning
+one_dimensional_uniqueness	PASS	metric clock functional fixes the unique positive line switch
+independent_affine_rescaling	PASS	coordinate coefficient changes but abstract switch does not
+common_middle_clock_recalibration	PASS	one shared positive clock factor cancels
+vertex_identity_inverse_cocycle	PASS	all incident line switches telescope exactly
+two_edge_path_product	PASS	vertical coefficient is inverse to the actual clock product
+three_edge_path_product	PASS	inverse representation composes on longer actual chains
+independent_direct_relation	PASS	unrelated direct AC ratio is not constrained
+different_null_directions	PASS	line amplitude carry does not identify ambient directions
+screen_channel_boundary	PASS	no screen or Jacobi map follows from the scalar switch
+distinct_event_scope	CORRECTED	abstract normalization exists but physical vertex composition does not

@@ -1,0 +1,12 @@
+claim	status	evidence	ceiling
+metric_clock_functional_on_incident_null_line	DERIVED_CONDITIONAL	EXACT_DERIVATION.md sections 1-2	supplied observer and null incidence
+unique_shared_event_vertical_switch	DERIVED_CONDITIONAL	EXACT_DERIVATION.md sections 3-4	line amplitude only
+affine_generator_invariance	VERIFIED	DERIVATION_RESULT.json and INDEPENDENT_VERIFICATION.json	positive affine class
+inverse_clock_edge_carry	DERIVED_CONDITIONAL	EXACT_DERIVATION.md section 5	same supplied affine null edge
+actual_chain_composition	DERIVED_CONDITIONAL	EXACT_DERIVATION.md section 6	actual composed event relation
+independent_direct_relation_equality	NOT_DERIVED	CONTROL_ATLAS.tsv	must not be inferred
+distinct_event_abstract_normalization	DERIVED_CONDITIONAL	EXACT_DERIVATION.md section 8	not physical vertex composition
+screen_or_Jacobi_map	NOT_DERIVED	EXACT_DERIVATION.md section 7	separate complete-metric channel
+universal_null_pair_protocol	OPEN	outside G224	not selected by local theorem
+physical_history_and_relation_population	OPEN	outside G224	not selected by local theorem
+G224_landing	INTERNALLY_VERIFIED_PENDING_EXTERNAL	24 symbolic checks plus 220003 exact-rational assertions	bounded declared regime

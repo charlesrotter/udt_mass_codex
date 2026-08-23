@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "mutations_attempted": 21,
+  "mutations_rejected": 21,
+  "rejected": [
+    "derivation_status",
+    "outcome",
+    "symbolic_count",
+    "metric_pairing",
+    "unique_switch",
+    "affine_invariance",
+    "clock_invariance",
+    "vertex_cocycle",
+    "inverse_representation",
+    "direct_promotion",
+    "direction_promotion",
+    "screen_promotion",
+    "distinct_normalization",
+    "distinct_composition",
+    "landing",
+    "independent_cases",
+    "independent_assertions",
+    "direct_counterexample",
+    "direction_control",
+    "preregistration_commit",
+    "review_promotion"
+  ],
+  "manifest_path_mutations_attempted": 2,
+  "manifest_path_mutations_rejected": 2
+}
