@@ -6,15 +6,15 @@
 | Object | Status | What is owned | What remains open |
 |---|---|---|---|
 | `c_E`, `G_obs` | `OBSERVED` | Anchors | Placement and closure |
-| Reciprocal character | `DERIVED` | `delta -> diag(exp(-delta),exp(+delta))`; determinant-one block on supplied depth | Pair values; `3+1` assembly |
-| Pointwise `phi` | `CONDITIONAL` | Local factorization | Ownership |
-| Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
-| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
-| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215--G229 | Scalar, carry, phase, curvature jet, realization | Population; transport; regional/global values |
-| Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
-| Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
-| Co-presence | `WORKING` | Solution membership | Query population, signalling |
+| Reciprocal character | `DERIVED` | Determinant-one block on supplied depth | Pair values; `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` | Factorization | Ownership |
+| Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
+| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
+| Pair-clock network | G215--G230 | Scalar, carry, phase, curvature jets | Population; transport; regional values |
+| Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
+| Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
+| Co-presence | `WORKING` | Solution membership | Population; signalling |
 
 ## Reconstruction hierarchy
 
@@ -35,18 +35,19 @@
 | G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
 | G216 comparison-clock rate | externally verified with caveats | Unit clock is locally trivial; edge depth is the pairing-rate derivative |
 | G217 depth first jet | externally verified | Supplied events/depth fix the positive jet; full germ remains open |
-| G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and first jet form one query-indexed correspondence |
+| G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and jet form one correspondence |
 | G219 moving clock arrow | adversarially verified after repairs | One scalar slope; moving null/Fermi/radar differ; none selected |
 | G220 covariant null arrow | external after repairs | Null slope; `C_+=A-N beta` | Query-typed; full plane open |
 | G221 complete-coframe null chord | externally verified | `Q,s_x,s_t` enter exact `W` | Second tangent/phase open |
 | G222 null plane | external after repairs | `a=-g(J,K)`; G188 normal screen | Protocol/ruler/history open |
 | G223 null-ribbon carry | external after repairs | Line pairing, inverse clock weight, local integration | Global gluing/scalar open |
 | G224 shared-event scalar carry | external after repair | Unique line switch; inverse clock representation | Screen/direct/protocol open |
-| G225 shared-event screen carry | external after repairs | Proper least-turning isometry off antipodes; finite `O(2)` holonomy | Not selected transport; finite phase/population open |
-| G226 supplied-chain phase | externally verified | Exact `CSp^+(4,R)` clock/ruler interlock; caustic-safe full phase | No selected transport, direct relation, population, or history |
+| G225 shared-event screen carry | external after repairs | Least-turning isometry; finite `O(2)` holonomy | Transport/population open |
+| G226 supplied-chain phase | externally verified | `CSp^+(4,R)` interlock; caustic-safe phase | Transport/population/history open |
 | G227 same-event tomography | exact; scope-repaired | Rank 19; `g wedge g` kernel; `CHOSE` section gives 20 | No values/population/history |
 | G228 first variation | exact | Bianchi dimension 60; subset ranks 20/40/54/60 | Algebraic only |
-| G229 metric 3-jet realization | exact; independent | Every compatible point jet has a smooth Lorentz representative; gauge kernels 80/140 | No regional field, values, or history |
+| G229 metric 3-jet realization | exact; independent | Compatible point jets have Lorentz representatives; kernels 80/140 | No regional field/history |
+| G230 nonlinear overlap obstruction | exact; independent | Compatible curvature second jets have metric fourth-jet representatives; `R*R` is explicit | Point jet; no region/history |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -71,8 +72,9 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
   is an envelope control.
-- G212--G229 close local state/descent, clock/null carry, phase, curvature compatibility, and
-  one-event metric realization. Regional fields, population, transport, values, and completion stay open.
+- G212--G230 close local state/descent, clock/null carry, phase, curvature compatibility, and
+  one-event metric realization through the first nonlinear fourth-jet gate. Regional fields,
+  population, transport, values, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -89,24 +91,22 @@ None selects completion or `X_max`.
 
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no scale, origin, cosmology, or `X_max`. Application
-controls import transfer/P1; time-live controls evaluate supplied histories. None derives transfer,
-population, or a global branch.
+R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. Application controls
+import transfer/P1; time-live controls evaluate supplied histories. Neither derives population.
 
 ## Recurring prohibited promotions
 
 Do not:
 
-- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`,
-  fits, proper length, universe size, or seams;
-- promote controls to carrier/dynamics, collapse route transport, revive strong CSN, or identify
-  celestial `S^2` with matter;
-- globalize the chain, universalize germs, activate absent couplings, select `Y,Z`, scalarize angular
-  Gram, force triangles, erase calibrations, or import familiar mechanisms.
+- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`, fits,
+  proper length, universe size, or seams;
+- promote controls to dynamics, revive strong CSN, or identify celestial `S^2` with matter;
+- globalize chains/germs, activate absent couplings, select `Y,Z`, scalarize angular Gram, erase
+  calibrations, or import familiar mechanisms.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 213-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 214-row authority. On conflict, stop.
 
 Run:
 

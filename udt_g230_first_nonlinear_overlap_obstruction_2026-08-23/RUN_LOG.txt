@@ -1,0 +1,66 @@
+G230 RUN LOG
+Date: 2026-08-23
+
+PRE-OUTCOME
+- Read G227/G228/G229 bounded evidence only.
+- Wrote MAP, PONDER, PREMISE_LEDGER, SOURCE_MANIFEST, PREREGISTRATION, and frozen hashes.
+- Ran root premise verifier: PASS, 213 rows.
+- Preregistration commit: 3808e397.
+- Pushed preregistration to origin/grok before production.
+
+PRODUCTION
+- Command: python3 udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/derive_second_jet_overlap.py
+- Arithmetic: exact SymPy rational / DomainMatrix elimination.
+- Whole arenas: L=350, E=320, gauge=224, normal rows=224.
+- Quadratic completeness: 210 exact polarization cases.
+- Landing: FIRST_NONLINEAR_OVERLAP_OBSTRUCTION__FULL_LOCAL_4JET_REALIZATION.
+- Ranks: C4=126; differentiated Bianchi=80; commutator=120; combined=194;
+  gauge=224; normal=224; normal-on-gauge=224; stacked normal/C4=350.
+
+INDEPENDENT
+- Command: python3 udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/verify_second_jet_independent.py
+- Standard library only; no production or SymPy import.
+- Representation: all 21 symmetric bivector slots with algebraic Bianchi explicit.
+- Rank methods: sparse elimination modulo 1000000007 and 1000000009, bounded by exact inclusions.
+- Nonlinear method: exact Fraction witness.
+- Landing: INDEPENDENT_FULL_21_SLOT_TWO_PRIME_AND_FRACTION_REPLAY_PASS.
+
+HOSTILE
+- Command: python3 udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/hostile_mutation_tests.py
+- Result after scope-guard strengthening: 9/9 mutations caught.
+
+FOCUSED TESTS
+- Command: python3 -m pytest -q udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/test_second_jet_overlap.py
+- Initial: 5 passed, 1 verifier-only whitespace failure.
+- After R1: 6 passed.
+
+ADVERSARIAL REPAIR R3
+- Geometry review accepted the bounded scientific landing and requested explicit machine residuals
+  for the statement that the zero-D/zero-E witness passes G227/G228 but fails G230.
+- Production and independent replay were extended with those direct residual calculations.
+
+FRESH ADVERSARIAL CLOSEOUT
+- Algebra/sign reviewer: BOUNDED_ACCEPT; independently checked derivative order, Ricci-commutator
+  sign, affine offset, explicit -1 witness, and rank sufficiency.
+- Geometry reviewer: bounded point-jet acceptance; requested the explicit lower-gate residuals in R3.
+- Evidence reviewer: BOUNDED_ACCEPTANCE_WITH_MECHANICAL_PROVENANCE_CLOSEOUT; accepted science after
+  stale-result and structured-hostile repairs, conditional on this run log and exact manifest.
+
+FULL AGGREGATE
+- Command: python3 udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/verify_package.py --full --no-write
+- Result: 13/13 PASS.
+- Full production no-write result exactly matched saved production JSON.
+- Independent and hostile no-write outputs exactly matched saved artifacts.
+- All thirteen checks true: preregistration and source hashes; saved production identities, ranks,
+  landing, complete 210-case polarization, and nonzero R-squared witness; live independent and
+  hostile equality; full-21 independent checks; nine hostiles; regional/history ceiling; full live
+  production equality.
+
+STARTUP AND REPOSITORY CLOSEOUT
+- Root premise verifier after G230 promotion: PASS, 214 rows.
+- Focused startup plus G230 tests: 67 passed.
+- Full repository command: python3 -m pytest -q
+- Result: 135 passed, 1 expected xfail; no failure.
+- Fresh zero-context startup rehearsal: PASS after the wording distinction between G228's linear
+  compatibility and G230's first nonlinear infinitesimal-overlap obstruction was made explicit.
+- Final SHA-256 evidence manifest is regenerated after this log and verified separately.

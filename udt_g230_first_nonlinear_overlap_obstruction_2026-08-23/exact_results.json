@@ -1,0 +1,84 @@
+{
+  "ceiling": "Pointwise fourth-order realization and first nonlinear necessary overlap condition only; no prescribed regional field, value generation, dynamics, population, transport, or history.",
+  "checks": {
+    "all_preregistered_rank_expectations": true,
+    "c4_in_constraint_kernel": true,
+    "c4_kernel_equals_quintic_gauge_by_rank": true,
+    "constraint_kernel_equals_c4_image_by_rank": true,
+    "g227_witness_explicit_algebraic_bianchi_pass": true,
+    "g228_zero_D_explicit_differential_bianchi_pass": true,
+    "nonzero_commutator_witness_found": true,
+    "normal4_uniquely_fixes_quintic_gauge": true,
+    "normal_slice_dimension_126": true,
+    "normal_slice_map_isomorphism": true,
+    "preregistration_hashes_match": true,
+    "quadratic_affine_identities_complete_polarization": true,
+    "quintic_gauge_in_c4_kernel": true,
+    "source_manifest_hashes_match": true,
+    "zero_E_explicit_commutator_failure_detected": true,
+    "zero_E_explicit_differentiated_bianchi_pass": true
+  },
+  "dimensions": {
+    "compatible_affine_translation": 126,
+    "metric_fourth_jet": 350,
+    "ordered_curvature_second_derivative": 320,
+    "quintic_coordinate_domain": 224
+  },
+  "environment": {
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "expected_ranks": {
+    "c4": 126,
+    "combined_constraints": 194,
+    "commutator": 120,
+    "differentiated_bianchi": 80,
+    "normal4": 224,
+    "normal4_on_quintic_gauge": 224,
+    "quintic_gauge": 224,
+    "stacked_normal4_c4": 350
+  },
+  "hashes": {
+    "c4": "4bef060dccce9e0f8d00184163ada28b1f0a5af0e53d708c76f1193657cd6f2d",
+    "combined_constraints": "a9f2291837f8a9badfd1040bb1b88a4e0ae825a75a1504f35f3e1dfbc08ecc14",
+    "commutator": "f66561e0fd58fecdee3640edc8255cad881bc0f6994bdd2e3f3e800cea5f1fad",
+    "differentiated_bianchi": "d1ae6e5c3a604b3bbdef1daf9bb95537da9089066b5d65bfdf6a337f0cf2afae",
+    "normal4": "b6038fc882cecefb17d6ae92568edbb2e2134ff7b866342bc3b5f92d54981626",
+    "quintic_gauge": "461b756eb313cc5e1aa766ac42dcbbf871473bac87f956d3f57729254d95d656"
+  },
+  "landing": "FIRST_NONLINEAR_OVERLAP_OBSTRUCTION__FULL_LOCAL_4JET_REALIZATION",
+  "lower_order_witness_residuals": {
+    "g227_algebraic_bianchi_nonzero": 0,
+    "g228_zero_D_differential_bianchi_nonzero": 0,
+    "g230_zero_E_commutator_residual_nonzero": 2,
+    "g230_zero_E_differentiated_bianchi_nonzero": 0
+  },
+  "nonzero_commutator_witness": {
+    "case_index": 1,
+    "nonzero_coefficients": [
+      1
+    ],
+    "rhs_first_nonzero_row": 8,
+    "rhs_first_nonzero_value": "-1",
+    "rhs_nonzero_count": 2
+  },
+  "quadratic_polarization": {
+    "cases": 210,
+    "covers_cross_monomials": 190,
+    "covers_diagonal_monomials": 20,
+    "max_commutator_nonzero": 0,
+    "max_differentiated_bianchi_nonzero": 0
+  },
+  "ranks": {
+    "c4": 126,
+    "combined_constraints": 194,
+    "commutator": 120,
+    "differentiated_bianchi": 80,
+    "normal4": 224,
+    "normal4_on_quintic_gauge": 224,
+    "quintic_gauge": 224,
+    "stacked_normal4_c4": 350
+  },
+  "scope": "one supplied event, fixed tangent frame, metric through quartic Taylor order"
+}

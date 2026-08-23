@@ -1,0 +1,20 @@
+{
+  "catches": {
+    "delete_c4_index_term_detected": true,
+    "delete_connection_product_detected": true,
+    "delete_covariantization_detected": true,
+    "omit_differentiated_bianchi_detected": true,
+    "point_jet_to_history_promotion_detected": true,
+    "premature_derivative_symmetrization_detected": true,
+    "reverse_commutator_sign_detected": true,
+    "truncate_quintic_gauge_detected": true,
+    "zero_E_false_overlap_detected": true
+  },
+  "diagnostics": {
+    "commutator_rhs_nonzero": 2,
+    "full_constraint_rank": 210,
+    "omit_differentiated_bianchi_rank": 136,
+    "shortened_gauge_rank": 223
+  },
+  "landing": "HOSTILE_MUTATIONS_9_OF_9_CAUGHT"
+}

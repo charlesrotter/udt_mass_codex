@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G229 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G230 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -26,23 +26,21 @@ not selected transport. G226 joins it with G188/G224 on one supplied chain: the 
 phase is conformal-symplectic with multiplier `r`, inverse ruler carry `q`, cancelled middle gauges
 and affine scales, and matrix holonomy. No direct relation, null population, or history is selected.
 
-G227 separates automatic graph composition from a same-event restriction. Its frozen generic
-nine-null witness has rank 19, kernel `span(g wedge g)`, and eight syzygies. One `CHOSE` timelike
-sectional datum gives rank 20; four held-out directions are predicted. It needs an infinitesimal
-affine generator/short-edge jet, not an isolated finite G226 matrix. The landing is
-**algebraic-curvature compatibility**, not metric-germ realization, history, or population.
+G227 gives same-event algebraic-curvature compatibility: the frozen nine-null witness has rank 19,
+kernel `span(g wedge g)`, and eight syzygies; one `CHOSE` timelike datum restores rank 20. It needs
+an infinitesimal generator, not an isolated finite G226 matrix.
 
-G228: differential Bianchi rank 20 cuts 80 reduced `(nabla R)` components to 60. One/two-direction
-projections are surjective; triples have six syzygies and the full star twenty. Exact production,
-independent Fraction replay, the 84-slot anchor, hostile catches, and adversaries verify algebraic
-first variation only—not metric realization, values, transport, population, or history.
+G228: differential Bianchi cuts 80 reduced `nabla R` components to 60. One/two-direction projections
+are surjective; triples/full-star have six/twenty syzygies. This is algebraic first variation only.
 
-G229 then proves the missing local metric-jet bridge. At one supplied event and fixed tangent
-frame, `C2` has rank/kernel `20/80` and `C3` has `60/140`; the kernels are exactly higher
-coordinate gauge. Normal-coordinate slices are isomorphic, the inverse tensors give a smooth local
-polynomial Lorentz representative, and the G188/G227/G228 projections and Jacobi sign recover.
-This realizes supplied point data only. It does not generate values, prescribe a curvature field
-over a region, populate relations, derive dynamics, or select a history.
+G229 realizes every compatible `(R,nabla R)` point jet by a local Lorentz metric 3-jet. Its ranks
+are 20/60; coordinate-gauge kernels 80/140; normal slices are isomorphic. It neither prescribes
+regional values nor selects history.
+
+G230 adds the first nonlinear infinitesimal-overlap condition. Differentiated Bianchi plus the Ricci
+commutator leave 126 affine components; the metric 4-jet has rank/kernel `126/224`, with fifth-order
+coordinate gauge. An explicit zero-`D,E` witness proves G227/G228 insufficient. This is one-event
+realization only—not regional gluing, values, dynamics, population, transport, or history.
 
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
@@ -67,13 +65,13 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next PONDER whether to extend one order higher at a point or test finite-neighborhood compatibility
-of smoothly prescribed curvature data and overlapping realized jets. The latter is closer to the
-remaining history bridge, but it is still not value generation or a physical-history selector. Do
-not infer curvature from isolated finite transfers, promote G225's pointwise map into selected
-transport, force a direct relation, or infer population/history. Keep null query-typed and return
-distinct from inversion. Do not fit, activate protected drafts, identify `X_max`, select
-transfer/history, or use G116/G189. All other open ownership remains controlled by the 213-row
-exact registry.
+Next PONDER the first all-orders/regional bridge: either prove the general finite-order normal-jet
+correspondence or formulate the torsion-free Cartan coframe/connection/curvature system for a
+supplied smooth or analytic curvature field. Do not continue with a mechanical fifth-jet census.
+Neither route generates values or selects a physical history. Do not infer curvature from isolated
+finite transfers, promote G225's pointwise map into selected transport, force a direct relation, or
+infer population/history. Keep null query-typed and return distinct from inversion. Do not fit,
+activate protected drafts, identify `X_max`, select transfer/history, or use G116/G189. All other
+open ownership remains controlled by the 214-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->

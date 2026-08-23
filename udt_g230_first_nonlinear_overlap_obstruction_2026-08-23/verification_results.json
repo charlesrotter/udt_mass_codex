@@ -1,0 +1,24 @@
+{
+  "all_pass": true,
+  "checks": {
+    "complete_210_case_polarization": true,
+    "full_production_no_write_matches_saved": true,
+    "hostile_9_of_9": true,
+    "hostile_no_write_matches_saved": true,
+    "independent_full21_checks": true,
+    "independent_no_write_matches_saved": true,
+    "nonzero_R_squared_witness": true,
+    "preregistration_hashes_match": true,
+    "production_saved_all_checks": true,
+    "production_saved_landing": true,
+    "production_saved_rank_closure": true,
+    "regional_history_ceiling_present": true,
+    "source_manifest_hashes_match": true
+  },
+  "full_production_replayed": true,
+  "landing": "G230_PACKAGE_VERIFIED",
+  "passed": 13,
+  "preregistration_commit": "3808e397",
+  "saved_artifacts_checked": true,
+  "total": 13
+}

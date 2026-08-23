@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G229",
+            "G166--G230",
             "G197",
             "G215",
             "G216",
@@ -210,6 +210,7 @@ def validate_startup_surface(root: Path) -> None:
             "G227",
             "G228",
             "G229",
+            "G230",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -252,7 +253,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "213-row exact registry",
+            "214-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -314,6 +315,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/",
             "udt_g227_same_event_curvature_tomography_2026-08-22/",
             "udt_g228_neighboring_event_curvature_first_variation_2026-08-23/",
+            "udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -327,7 +329,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G229",
+            "G166--G230",
             "G197",
             "G198",
             "G199",
@@ -362,6 +364,7 @@ def validate_startup_surface(root: Path) -> None:
             "G227",
             "G228",
             "G229",
+            "G230",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -409,6 +412,7 @@ def validate_startup_surface(root: Path) -> None:
             "G227",
             "G228",
             "G229",
+            "G230",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -451,10 +455,11 @@ def validate_startup_surface(root: Path) -> None:
             "G227",
             "G228",
             "G229",
+            "G230",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "213-row",
+            "214-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -795,9 +800,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 213, "premise registry must contain exactly 213 rows")
+    require(len(rows) == 214, "premise registry must contain exactly 214 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 213, "duplicate premise id")
+    require(len(by_id) == 214, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3320,6 +3325,169 @@ def main() -> None:
         hashlib.sha256((g229 / "PREREGISTRATION.md").read_bytes()).hexdigest()
         == "610eac53da7ace52dae4630895eec25cb44025d3be3fd644edf5bab111dd0280",
         "G229 preregistration hash changed",
+    )
+
+    require(
+        by_id["G230"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__PREREGISTERED_AT_3808E397__PRE_OUTCOME_HASH_AB306F5E"
+        ),
+        "G230 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "ONE_SUPPLIED_EVENT",
+        "FIXED_TANGENT_FRAME",
+        "FULL_METRIC_4JET_DIM350_C4_RANK126_KERNEL224",
+        "ORDERED_CURVATURE_SECOND_DERIVATIVE_DIM320",
+        "DIFFERENTIATED_BIANCHI_RANK80",
+        "RICCI_COMMUTATOR_RANK120",
+        "COMBINED_CONSTRAINT_RANK194",
+        "COMPATIBLE_AFFINE_DIM126",
+        "KERNEL_EXACTLY_QUINTIC_COORDINATE_GAUGE",
+        "NORMAL_CONSTRAINT_RANK224",
+        "NORMAL_SLICE_DIM126_AND_ISOMORPHIC",
+        "COMPLETE_210_CASE_QUADRATIC_POLARIZATION",
+        "EXPLICIT_LOWER_RESIDUALS_0_0_0_AND_COMMUTATOR_2",
+        "NINE_HOSTILE_CATCHES",
+        "THIRTEEN_AGGREGATE_CHECKS",
+        "POINT_JET_ONLY",
+        "NO_FINITE_REGION_FIELD_VALUE_GENERATION_DYNAMICS_POPULATION_SELECTED_TRANSPORT_GLOBAL_HISTORY_SOURCE_ACTION_MATTER_BOOTSTRAP_BOUNDARY_XMAX_TRANSFER_OBSERVATION_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G230"]["current_status"], f"G230 guard absent: {guard}")
+    require(by_id["G230"]["epistemic_label"] == "MIXED", "G230 label changed")
+    require(
+        by_id["G230"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_EVENT_FIXED_FRAME_CURVATURE_SECOND_JET_COMPATIBILITY_AND_METRIC_4JET_REALIZATION_ONLY",
+        "G230 active scope widened",
+    )
+    require(
+        "point-jet realization called finite-region gluing or selection of the UDT metric history"
+        in by_id["G230"]["forbidden_regression"],
+        "G230 regional/history guard absent",
+    )
+    require(
+        "the R*R commutator obstruction called dynamics or a value-generating equation"
+        in by_id["G230"]["forbidden_regression"],
+        "G230 nonlinear-obstruction promotion guard absent",
+    )
+    require(
+        by_id["G230"]["controlling_source"]
+        == "udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/AUDIT_REPORT.md",
+        "G230 controlling source changed",
+    )
+    g230 = ROOT / "udt_g230_first_nonlinear_overlap_obstruction_2026-08-23"
+    for name in (
+        "MAP.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_HASHES.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "REPAIR_RECORD.md",
+        "MULTI_AGENT_ADVERSARIAL_REVIEW.md",
+        "RUN_LOG.txt",
+        "STATUS_LEDGER.tsv",
+        "NEXT_GATE.md",
+        "derive_second_jet_overlap.py",
+        "verify_second_jet_independent.py",
+        "hostile_mutation_tests.py",
+        "verify_package.py",
+        "build_evidence_manifest.py",
+        "verify_evidence_manifest.py",
+        "test_second_jet_overlap.py",
+        "exact_results.json",
+        "independent_results.json",
+        "hostile_results.json",
+        "verification_results.json",
+        "EVIDENCE_MANIFEST.tsv",
+    ):
+        require((g230 / name).is_file(), f"G230 evidence missing: {name}")
+    g230_result = json.loads((g230 / "exact_results.json").read_text())
+    require(
+        g230_result["landing"]
+        == "FIRST_NONLINEAR_OVERLAP_OBSTRUCTION__FULL_LOCAL_4JET_REALIZATION",
+        "G230 production landing changed",
+    )
+    require(all(g230_result["checks"].values()), "G230 production identity failed")
+    for key, expected in (
+        ("c4", 126),
+        ("differentiated_bianchi", 80),
+        ("commutator", 120),
+        ("combined_constraints", 194),
+        ("quintic_gauge", 224),
+        ("normal4", 224),
+        ("normal4_on_quintic_gauge", 224),
+        ("stacked_normal4_c4", 350),
+    ):
+        require(g230_result["ranks"][key] == expected, f"G230 rank changed: {key}")
+    require(
+        g230_result["dimensions"]["compatible_affine_translation"] == 126,
+        "G230 affine dimension changed",
+    )
+    require(
+        g230_result["quadratic_polarization"] == {
+            "cases": 210,
+            "covers_cross_monomials": 190,
+            "covers_diagonal_monomials": 20,
+            "max_commutator_nonzero": 0,
+            "max_differentiated_bianchi_nonzero": 0,
+        },
+        "G230 complete polarization evidence changed",
+    )
+    require(
+        g230_result["lower_order_witness_residuals"] == {
+            "g227_algebraic_bianchi_nonzero": 0,
+            "g228_zero_D_differential_bianchi_nonzero": 0,
+            "g230_zero_E_commutator_residual_nonzero": 2,
+            "g230_zero_E_differentiated_bianchi_nonzero": 0,
+        },
+        "G230 explicit lower-gate residuals changed",
+    )
+    g230_independent = json.loads((g230 / "independent_results.json").read_text())
+    require(all(g230_independent["checks"].values()), "G230 independent replay failed")
+    require(
+        g230_independent["landing"]
+        == "INDEPENDENT_FULL_21_SLOT_TWO_PRIME_AND_FRACTION_REPLAY_PASS",
+        "G230 independent landing changed",
+    )
+    for prime in ("1000000007", "1000000009"):
+        ranks = g230_independent["ranks_by_prime"][prime]
+        for key, expected in (
+            ("algebraic_bianchi", 16),
+            ("c4", 126),
+            ("differentiated_bianchi", 96),
+            ("commutator", 126),
+            ("combined_constraints", 210),
+            ("quintic_gauge", 224),
+            ("normal4", 224),
+            ("normal4_on_gauge", 224),
+            ("stacked_normal4_c4", 350),
+        ):
+            require(ranks[key] == expected, f"G230 independent rank changed: {prime}/{key}")
+    require(
+        g230_independent["witness"]["first_nonzero"] == "-1"
+        and g230_independent["witness"]["g230_zero_E_commutator_residual_nonzero"] == 2,
+        "G230 independent nonlinear witness changed",
+    )
+    g230_hostile = json.loads((g230 / "hostile_results.json").read_text())
+    require(
+        g230_hostile["landing"] == "HOSTILE_MUTATIONS_9_OF_9_CAUGHT"
+        and all(g230_hostile["catches"].values()),
+        "G230 hostile controls changed",
+    )
+    g230_package = json.loads((g230 / "verification_results.json").read_text())
+    require(g230_package["all_pass"] is True, "G230 package verification failed")
+    require(
+        g230_package["passed"] == g230_package["total"] == 13,
+        "G230 package check count changed",
+    )
+    require(all(g230_package["checks"].values()), "G230 package check failed")
+    require(
+        hashlib.sha256((g230 / "PREREGISTRATION.md").read_bytes()).hexdigest()
+        == "ab306f5e590a74fd95a5facdda7db54fee5ddc9c2b85f6ac51374fac12ee5189",
+        "G230 preregistration hash changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -7544,7 +7712,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G229-extended premise guards; PASS: 213-row premise "
+        "PASS: G230-extended premise guards; PASS: 214-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

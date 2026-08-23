@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "c4_annihilates_quintic_gauge_exactly": true,
+    "constraints_annihilate_c4_exactly": true,
+    "direct_fraction_witness_algebraic_bianchi": true,
+    "direct_fraction_witness_commutator_sign": true,
+    "direct_fraction_witness_differentiated_bianchi": true,
+    "direct_fraction_witness_rhs_nonzero": true,
+    "g227_witness_explicit_algebraic_bianchi_pass": true,
+    "g228_zero_D_explicit_constraints_pass": true,
+    "two_prime_ranks_match": true,
+    "zero_E_explicit_commutator_failure": true,
+    "zero_E_explicit_differentiated_bianchi_pass": true
+  },
+  "expected_ranks": {
+    "algebraic_bianchi": 16,
+    "c4": 126,
+    "combined_constraints": 210,
+    "commutator": 126,
+    "differentiated_bianchi": 96,
+    "normal4": 224,
+    "normal4_on_gauge": 224,
+    "quintic_gauge": 224,
+    "stacked_normal4_c4": 350
+  },
+  "hashes": {
+    "c4_full21_sparse": "ff1a954e0794197eb1bfa6486bb1d5232c8f1f55fd0879395d329663822f3876",
+    "constraints_full21_sparse": "854917ca64ab521fd5eb65b66ca7fbcf8e923615c49edeadbea5a180b1705358",
+    "gauge_sparse": "7c7515324591caf4a5b0b633ce43b901e38ef896b71f5afd078e8fea00e95cd7",
+    "normal_sparse": "06497c9a4d3d1292caabf884ee5d5a505dab15c54f35e181580ee7f9a00d8694"
+  },
+  "landing": "INDEPENDENT_FULL_21_SLOT_TWO_PRIME_AND_FRACTION_REPLAY_PASS",
+  "ranks_by_prime": {
+    "1000000007": {
+      "algebraic_bianchi": 16,
+      "c4": 126,
+      "combined_constraints": 210,
+      "commutator": 126,
+      "differentiated_bianchi": 96,
+      "normal4": 224,
+      "normal4_on_gauge": 224,
+      "quintic_gauge": 224,
+      "stacked_normal4_c4": 350
+    },
+    "1000000009": {
+      "algebraic_bianchi": 16,
+      "c4": 126,
+      "combined_constraints": 210,
+      "commutator": 126,
+      "differentiated_bianchi": 96,
+      "normal4": 224,
+      "normal4_on_gauge": 224,
+      "quintic_gauge": 224,
+      "stacked_normal4_c4": 350
+    }
+  },
+  "representation": "full 21 symmetric bivector slots; algebraic Bianchi imposed explicitly",
+  "witness": {
+    "commutator_rhs_nonzero_count": 2,
+    "covariantization_only_commutator_residual_nonzero": false,
+    "covariantization_only_differentiated_bianchi_residual_nonzero": true,
+    "first_nonzero": "-1",
+    "g227_algebraic_bianchi_nonzero": 0,
+    "g228_zero_D_constraint_nonzero": 0,
+    "g230_zero_E_commutator_residual_nonzero": 2,
+    "g230_zero_E_differentiated_bianchi_nonzero": 0,
+    "product_only_commutator_residual_nonzero": true,
+    "product_only_differentiated_bianchi_residual_nonzero": true,
+    "q_slot": "(01,02)=1"
+  }
+}

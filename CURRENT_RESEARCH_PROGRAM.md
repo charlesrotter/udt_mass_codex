@@ -83,29 +83,30 @@ physical scalar after the working premise. They must not be conflated.
 - G229: every supplied compatible `(R,nabla R)` point jet has a smooth Lorentz representative in
   normal coordinates. Metric-jet ranks are 20/60; 80/140 kernels are exactly coordinate gauge. It
   does not prescribe regional data, generate values, or select history.
+- G230: G227/G228 alone do not close the second-derivative overlap square. Differentiated Bianchi
+  plus `[nabla_f,nabla_e]R=R acting on R` leave a 126-dimensional affine curvature-second-jet
+  target. The metric fourth-jet map has rank 126/kernel 224, exactly fifth-order coordinate gauge,
+  and the normal slice is isomorphic. This is one-event infinitesimal compatibility and 4-jet
+  realization—not a finite-region field, generated values, dynamics, or history.
 
-G206--G229 retain their verification caveats. None generates a sector function, finite-anchor flow,
+G206--G230 retain their verification caveats. None generates a sector function, finite-anchor flow,
 or `X_max`. Current exact frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/` and
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`, followed by
-`udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`. Conditional evaluator:
+`udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/` and
+`udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G229 close local basis,
+- The primary static-spherical/areal slice and profile are supplied. G211--G230 close local basis,
   modes, descent, clock incidence/rate/jet, and point-jet realization—not population or valuation.
-- G222 closes one local null pair plane. G223 closes its invariant local line-pairing and
-  interval-fiber integration. G224 closes scalar vertical carry at an actual shared event. G225
-  derives a pointwise least-turning screen comparison with finite direction-space holonomy. G226
-  closes the full scalar/screen phase assembly on one supplied composable chain. G227 constrains a
-  supplied same-event infinitesimal null-tidal family to one common algebraic curvature. G228 then
-  constrains the first curvature variation across three or four independent directions by exact
-  differential-Bianchi syzygies. G229 realizes every compatible curvature 1-jet by a smooth local
-  metric at one point. None selects physical vertex transport, an independently supplied direct
-  relation, a congruence/network population, prescribed finite-region curvature values, global
-  scalar, or relation population.
+- G222--G226 close one supplied null plane, local line/fiber and scalar carry, pointwise screen
+  comparison, and full chain phase. G227--G230 then close common algebraic curvature, differential
+  first variation, metric 3-jet realization, and the first nonlinear curvature-second-jet/metric-4-jet
+  gate at one event. None selects transport, a direct relation, population, regional values, a
+  global scalar, or history.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -124,11 +125,13 @@ families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarificati
 formula-level regression or chosen-family controls.
 
 G199--G214 classify the primary bidirectional channels, quiet/completion strata, complete metric
-degrees, rank, state, and descent. G215--G229 close the supplied clock slope, first jet,
+degrees, rank, state, and descent. G215--G230 close the supplied clock slope, first jet,
 query-typed null chord/plane, local scalar carry, pointwise screen holonomy, and full phase assembly
 on one supplied chain, same-event common-curvature compatibility, neighboring-event algebraic
-first-variation compatibility, and local metric 3-jet realization. Next PONDER whether the proper
-extension is one-order-higher point compatibility or finite-neighborhood overlap compatibility of
-smoothly prescribed curvature data. Do not confuse either with numerical value generation or a
-physical-history selector; do not select transport/history, force a direct relation, fit, use
-`X_max`, activate protected drafts, or revive historical inputs.
+first-variation compatibility, local metric 3-jet realization, and the first nonlinear
+second-derivative overlap/metric-4-jet condition. Next PONDER whether to prove the general
+finite-order normal-jet correspondence or formulate the Cartan coframe/connection/curvature
+exterior system for a supplied smooth or analytic curvature field. Do not mechanically add a
+fifth-jet census or confuse compatibility with numerical value generation or a physical-history
+selector; do not select transport/history, force a direct relation, fit, use `X_max`, activate
+protected drafts, or revive historical inputs.
