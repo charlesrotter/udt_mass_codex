@@ -47,6 +47,7 @@ PACKAGE_FILES = (
     "REPAIR_FOLLOWUP_REVIEW.md",
     "REPAIR_R2_PREREGISTRATION.md",
     "FINAL_REPAIR_FOLLOWUP_REQUEST.md",
+    "FINAL_REPAIR_FOLLOWUP_REVIEW.md",
     "build_review_intake.py",
 )
 

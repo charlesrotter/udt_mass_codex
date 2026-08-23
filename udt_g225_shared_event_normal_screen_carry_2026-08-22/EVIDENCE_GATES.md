@@ -16,9 +16,10 @@ branch population, or metric-history evolution.
 
 ## 3. Independently verified
 
-**PASS INTERNALLY.** A standard-library implementation importing neither SymPy nor production code
-replayed 20,000 exact-rational triples and 580,013 assertions. Fresh external review remains
-pending.
+**PASS EXTERNALLY.** A standard-library implementation importing neither SymPy nor production code
+replayed 20,000 exact-rational triples and 580,013 assertions. Fresh external review accepted the
+bounded science; the final repair-only follow-up verified the sealed source-resolution and Git
+ancestry evidence with the scientific landing unchanged.
 
 ## 4. Every premise audited
 
@@ -29,5 +30,5 @@ source, transfer, or `X_max` was inserted.
 ## Current banking grade
 
 ```text
-DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING
+DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS
 ```

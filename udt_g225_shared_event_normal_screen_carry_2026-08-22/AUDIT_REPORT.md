@@ -11,10 +11,10 @@ __THREE_DIRECTION_COMPOSITION_RETAINS_FINITE_O2_HOLONOMY_AND_NO_GLOBAL_ENDPOINT_
 __G188_JACOBI_TRANSPORT_REMAINS_SEPARATE
 ```
 
-Current grade:
+Final bounded grade:
 
 ```text
-DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING
+DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS
 ```
 
 ## Result
@@ -49,7 +49,11 @@ the least-turning proper rotation has path-dependent limits.
 - 580,013 exact-rational assertions;
 - 19,922 nontrivial random composition defects;
 - fixed great-circle, octant-holonomy, antipodal, projection, scalar, and Jacobi controls;
-- fresh external adversarial review: pending.
+- fresh external adversarial review accepted the bounded science with one replay-path repair;
+- R1 source-resolution repair replayed successfully but required sealed ancestry evidence;
+- final R2 repair-only follow-up returned
+  `G225_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED` with `41/41` sealed payload hashes and no
+  remaining repair.
 
 ## Boundaries
 

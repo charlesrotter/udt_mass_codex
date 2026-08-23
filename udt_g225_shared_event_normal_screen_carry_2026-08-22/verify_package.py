@@ -41,6 +41,11 @@ REQUIRED = (
     "run_catch_proofs.py",
     "CATCH_PROOF_RESULT.json",
     "VERIFICATION_RESULT.json",
+    "FRESH_ADVERSARIAL_REVIEW.md",
+    "REPAIR_PREREGISTRATION.md",
+    "REPAIR_FOLLOWUP_REVIEW.md",
+    "REPAIR_R2_PREREGISTRATION.md",
+    "FINAL_REPAIR_FOLLOWUP_REVIEW.md",
     "verify_package.py",
 )
 
@@ -92,7 +97,7 @@ def validate_payloads(production: dict, independent: dict, catch: dict, final: d
 
     require(final["status"] == "PASS", "final status")
     require(
-        final["grade"] == "DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING",
+        final["grade"] == "DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
         "final grade",
     )
     require(final["preregistration_commit"] == "24a8f8a4", "preregistration commit")
@@ -113,7 +118,14 @@ def validate_payloads(production: dict, independent: dict, catch: dict, final: d
     require(not final["independent_direct_relation_constrained"], "final direct relation")
     require(not final["universal_null_protocol_selected"], "final protocol")
     require(not final["physical_history_selected"], "final history")
-    require(final["fresh_external_review"] == "PENDING", "external review status")
+    require(final["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "external review status")
+    require(final["repair_followup_review"] == "R1_INCOMPLETE__R2_ACCEPTED", "repair sequence")
+    require(
+        final["final_repair_review"]
+        == "G225_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+        "final repair review",
+    )
+    require(final["sealed_git_ancestry_proof"] is True, "sealed ancestry proof")
     require(final["read_only_replay"] is True, "read-only replay")
     require(final["manifest_path_containment"] is True, "manifest containment")
     require(final["landing"] == LANDING, "final landing")
@@ -173,6 +185,7 @@ def main() -> None:
     exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
     audit = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     prereg = (ROOT / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    final_review = (ROOT / "FINAL_REPAIR_FOLLOWUP_REVIEW.md").read_text(encoding="utf-8")
     for token in (*LANDING.split("__"), "hairy-ball", "antipodal", "G188", "G224"):
         require(token in exact, f"exact derivation lacks {token}")
     for token in LANDING.split("__"):
@@ -180,6 +193,10 @@ def main() -> None:
     require("24a8f8a4" in audit, "audit preregistration missing")
     require("B_LOCAL_DIRECT_ISOMETRY_WITH_NONTRIVIAL_COMPOSITION_HOLONOMY" in exact, "outcome absent")
     require("No alternative will be added" in prereg, "frozen alternatives absent")
+    require(
+        "G225_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED" in final_review,
+        "final repair acceptance absent",
+    )
 
     before = tree_hashes(sources)
     require(replay("derive_shared_event_normal_screen_carry.py") == production, "production replay drift")

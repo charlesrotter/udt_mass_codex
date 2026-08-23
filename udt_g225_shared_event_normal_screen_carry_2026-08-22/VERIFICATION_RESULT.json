@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "grade": "DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING",
+  "grade": "DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
   "preregistration_commit": "24a8f8a4",
   "source_count": 9,
   "symbolic_checks": 39,
@@ -19,7 +19,10 @@
   "independent_direct_relation_constrained": false,
   "universal_null_protocol_selected": false,
   "physical_history_selected": false,
-  "fresh_external_review": "PENDING",
+  "fresh_external_review": "ACCEPT_WITH_REPAIRS",
+  "repair_followup_review": "R1_INCOMPLETE__R2_ACCEPTED",
+  "final_repair_review": "G225_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+  "sealed_git_ancestry_proof": true,
   "read_only_replay": true,
   "manifest_path_containment": true,
   "landing": "METRIC_AND_SHARED_CLOCK_DEFINE_POSITIVE_INCIDENT_SCREEN_PLANES__CANONICAL_LEAST_TURNING_DIRECT_SCREEN_ISOMETRY_EXISTS_OFF_ANTIPODES__THREE_DIRECTION_COMPOSITION_RETAINS_FINITE_O2_HOLONOMY_AND_NO_GLOBAL_ENDPOINT_ONLY_FLAT_SCREEN_CARRY_EXISTS__G188_JACOBI_TRANSPORT_REMAINS_SEPARATE"

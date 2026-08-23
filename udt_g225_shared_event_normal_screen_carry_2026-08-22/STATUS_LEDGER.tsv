@@ -10,4 +10,4 @@ G224_scalar_carry	RETAINED_EXACT	EXACT_DERIVATION.md section 7	one_dimensional_o
 G188_Jacobi_transport	SEPARATE_MATRIX_CHANNEL	EXACT_DERIVATION.md section 7	path_and_curvature_labelled
 universal_null_protocol	OPEN	outside_G225	not selected
 physical_history_and_relation_population	OPEN	outside_G225	not selected
-G225_landing	DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING	39 symbolic checks plus 580013 exact-rational assertions	bounded declared regime
+G225_landing	DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS	fresh gpt-5.4 accepted bounded science; final repair follow-up accepted; 39 symbolic checks plus 580013 exact-rational assertions	bounded declared regime; supplied event clock and directions; no physical transport protocol or history selected
