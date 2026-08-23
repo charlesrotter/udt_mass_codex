@@ -1,0 +1,15 @@
+{
+  "package": "G226",
+  "status": "PASS",
+  "mutation_catches": 8,
+  "catches": {
+    "wrong_q_substituted_for_r": true,
+    "derivative_screen_rotation_omitted": true,
+    "caustic_position_block_inverse_forbidden": true,
+    "middle_gauge_change_not_applied_to_vertex": true,
+    "direction_holonomy_scalarized": true,
+    "independent_direct_forced_equal_composite": true,
+    "vertex_moved_through_curvature_phase": true,
+    "wrong_chain_multiplier": true
+  }
+}

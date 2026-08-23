@@ -1,0 +1,18 @@
+{
+  "package": "G226",
+  "implementation": "independent_standard_library_fraction",
+  "seed": 226822,
+  "cases": 20000,
+  "assertions": 200007,
+  "noncommuting_cases": 20000,
+  "status": "PASS",
+  "claims": [
+    "affine edge phases symplectic",
+    "clock-normalized edge multiplier equals r",
+    "two-edge multiplier composes",
+    "independent middle O(2) gauges cancel",
+    "affine-generator rescaling cancels",
+    "singular position block does not destroy full phase",
+    "G225 octant holonomy embeds nontrivially in phase"
+  ]
+}

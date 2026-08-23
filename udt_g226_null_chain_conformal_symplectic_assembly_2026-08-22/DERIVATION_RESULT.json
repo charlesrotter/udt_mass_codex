@@ -1,0 +1,58 @@
+{
+  "package": "G226",
+  "landing": "CONFORMAL_SYMPLECTIC_NULL_CHAIN_INTERLOCK_DERIVED_CONDITIONALLY",
+  "alternative": "B_CONFORMAL_SYMPLECTIC_INTERLOCK",
+  "symbolic_checks": 28,
+  "checks": [
+    "self_adjoint_tide_generator_is_Hamiltonian",
+    "affine_edge_one_symplectic",
+    "affine_edge_two_symplectic",
+    "affine_edge_transfers_invertible",
+    "edge_one_multiplier_is_clock_ratio",
+    "edge_two_multiplier_is_clock_ratio",
+    "vertical_coefficients_are_inverse_multipliers",
+    "wrong_q_multiplier_rejected",
+    "vertex_screen_map_orthogonal",
+    "frequency_one_vertex_lift_symplectic",
+    "two_edge_chain_multiplier_composes",
+    "chain_determinant_is_multiplier_squared",
+    "positive_normalized_representative_symplectic",
+    "independent_middle_screen_gauges_cancel",
+    "gauged_chain_retains_multiplier",
+    "constant_affine_generator_rescaling_cancels",
+    "caustic_full_phase_symplectic",
+    "caustic_position_block_singular",
+    "caustic_full_phase_invertible",
+    "caustic_chain_full_phase_invertible",
+    "octant_direction_holonomy_exact",
+    "octant_screen_holonomy_is_quarter_turn",
+    "octant_phase_holonomy_is_symplectic",
+    "octant_phase_holonomy_not_scalar",
+    "ordered_great_circle_control_flat",
+    "edge_and_vertex_phases_do_not_generically_commute",
+    "independent_direct_relation_not_forced",
+    "three_edge_multiplier_composes"
+  ],
+  "edge_multipliers": [
+    "3/5",
+    "7/11"
+  ],
+  "chain_multiplier": "21/55",
+  "vertical_coefficients": [
+    "5/3",
+    "11/7"
+  ],
+  "octant_screen_holonomy": [
+    [
+      "0",
+      "-1"
+    ],
+    [
+      "1",
+      "0"
+    ]
+  ],
+  "caustic_position_det": "0",
+  "caustic_full_phase_det": "1",
+  "maximum_conclusion": "One supplied composable non-antipodal null chain carries a gauge-covariant, caustic-safe conformal-symplectic full screen-phase evaluator whose multiplier is the G216 proper-clock ratio and whose inverse is the G224 vertical coefficient."
+}
