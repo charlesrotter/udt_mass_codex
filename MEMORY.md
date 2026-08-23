@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G230: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G231: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity then fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` remains an arbitrary-calibration control.
 
@@ -27,9 +27,13 @@ G229: every supplied compatible `(R,nabla R)` at one event has a smooth Lorentz 
 representative through cubic order. Metric 2-/3-jet ranks are 20/60; 80/140 kernels are exactly
 higher coordinate gauge. This closes point-jet realization, not regional values or history.
 
-G230: differentiated Bianchi and the Ricci commutator are the first nonlinear infinitesimal-overlap obstruction.
-Every compatible curvature second jet has a Lorentz metric fourth-jet representative modulo the
+G230: differentiated Bianchi and Ricci commutator give the first nonlinear overlap obstruction.
+Compatible curvature second jets have Lorentz metric fourth-jet representatives modulo the
 224-dimensional quintic coordinate gauge. This is one-event, not regional or historical.
+
+G231: closure stages form regional Cartan architecture. Bare curvature lacks principal Lorentz
+typing and horizontal law. Finite algebroid data conditionally realize locally; analytic,
+formally-integrable relative-algebroid data conditionally yield local coframes. Values, principal descent, history stay open.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -57,12 +61,9 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-PONDER whether the G227--G230 point-jet tower extends formally to all orders or whether the next
-nontrivial step should be a Cartan-style finite-neighborhood compatibility system. Keep formal jets,
-regional realization, value generation, and physical-history selection distinct. Do not promote
-G225 into selected transport, infer curvature from isolated finite transfers, force an independent
-direct relation, or infer population/history. No fits, `X_max`, transfer/history selection, or
-protected drafts.
+Test whether the primary metric family supplies a finite Cartan invariant state and derivative law
+or only examples. Keep realization, values, and history distinct. No fifth jet, selected G225
+transport, population/history inference, fit, `X_max`, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

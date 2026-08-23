@@ -1,0 +1,73 @@
+G231 RUN LOG
+Date: 2026-08-23
+
+PRE-OUTCOME
+- Chose the Cartan regional route instead of a mechanical fifth-jet census.
+- Read only the G227--G230 bounded evidence made load-bearing.
+- Wrote MAP, PONDER, PREMISE_LEDGER, STANDARD_REFERENCES, SOURCE_MANIFEST,
+  PREREGISTRATION, and frozen hashes.
+- Root premise verifier before G231: PASS, 214 rows.
+- Preregistration commit: a5cd16a9.
+- Pushed preregistration to origin/grok before production.
+
+PRODUCTION
+- Command: python3 udt_g231_cartan_regional_realization_bridge_2026-08-23/derive_cartan_regional_bridge.py
+- Arithmetic: exact SymPy integers and DomainMatrix ranks.
+- Whole arenas: curvature form 36, first derivative 80, ordered second derivative 320.
+- Landing: CARTAN_REGIONAL_BRIDGE__BARE_R_NOT_CLOSED__CLASSIFYING_DERIVATIVE_DATA_REQUIRED.
+- Ranks: algebraic Bianchi 16; differential Bianchi 20; differentiated Bianchi 80;
+  commutator 120; combined 194.
+- Compatible dimensions: curvature 20; first derivative 60; second affine translation 126.
+- Constant-curvature algebraic, differential, differentiated, commutator, and vertical residuals: zero.
+- Non-space-form witness: nonzero, first reduced coordinate -1.
+- Vertical Lorentz action: nonzero for all six frozen generators.
+
+INDEPENDENT
+- Command: python3 udt_g231_cartan_regional_realization_bridge_2026-08-23/verify_cartan_bridge_independent.py
+- Standard library only; no production or SymPy import.
+- Representation: explicit symmetric 6x6 bivector matrix with q05=q14-q23.
+- Rank methods: sparse elimination modulo 1000000007 and 1000000009.
+- Nonlinear method: exact Fraction witness plus a direct polynomial-metric second-jet sign anchor.
+- Both primes reproduce ranks 16,20,20,80,120,194.
+- Correct direct-metric Ricci sign residual: 0; reversed-sign residual count: 2.
+- Independently generated vertical action preserves the 20-dimensional Bianchi kernel, annihilates
+  constant curvature, acts nontrivially on the witness, and matches direct frame differentiation.
+- Landing: INDEPENDENT_EXPLICIT_BIVECTOR_TWO_PRIME_AND_FRACTION_REPLAY_PASS.
+
+HOSTILE
+- Command: python3 udt_g231_cartan_regional_realization_bridge_2026-08-23/hostile_mutation_tests.py
+- Result after adversarial repair: 17/17 substantive mutations caught.
+- The without-commutator false translation dimension is 240; full closure gives 126.
+
+STANDARD THEOREM AUDIT
+- Fernandes--Struchiner (arXiv:1907.13614): finite `G`-realization dictionary and local
+  `G`-integrability theorem; locally free action may yield an effective orbifold, while an ordinary
+  Lorentz manifold needs a free principal action/trivial isotropy.
+- Fernandes--Struchiner II: regular G-structures with connection and their classifying algebroids;
+  it does not by itself supply the realization theorem or a UDT classifying law.
+- Fernandes--Smilde: analytic formally-integrable relative algebroids admit local **coframe**
+  realizations; principal `SO(1,3)` descent is not automatic.
+- No generic smooth or global existence theorem was imported.
+
+ADVERSARIAL REPAIR
+- Three fresh contexts: evidence adversary, algebra/sign adversary, and zero-context theorem auditor.
+- All returned REPAIR; none rejected the exact ranks or retained landing.
+- Direct polynomial-metric sign anchor and independent vertical-action verification added.
+- Hostile suite replaced by 17 substantive mutations.
+- Finite G-realization and infinite coframe-only theorem routes separated.
+
+AGGREGATE REPLAY
+- Command: python3 verify_package.py --full
+- Result: 20/20 PASS, including live production equality.
+- Command: python3 -m pytest -q test_cartan_regional_bridge.py
+- Result: 11/11 PASS.
+
+PACKAGE/STARTUP CLOSEOUT
+- Startup promoted to G231 and a 215-row exact premise registry.
+- Root command: python3 verify_current_scientific_premises.py
+- Result: PASS, G231-extended guards and 215 rows.
+- Repository command: python3 -m pytest -q
+- Result: 136 PASS, one pre-existing expected xfail.
+- Initial zero-context rehearsal: REPAIR two compact theorem summaries and premise-guide stamp.
+- Repair-only follow-up: PASS; no stale G230/214 pointer and no protected evidence use.
+- Final manifest gate: 28 exact evidence files; pending bank.

@@ -1,0 +1,41 @@
+{
+  "all_caught": true,
+  "catches": {
+    "bare_R_does_not_determine_horizontal_D": true,
+    "bare_R_promoted_to_closed_input_detected": true,
+    "omitted_Ricci_commutator_affine_witness_detected": true,
+    "omitted_SO13_equivariance_detected": true,
+    "omitted_algebraic_Bianchi_witness_detected": true,
+    "omitted_anchor_detected": true,
+    "omitted_differential_Bianchi_witness_detected": true,
+    "omitted_horizontal_derivative_law_detected": true,
+    "omitted_principal_vertical_action_typing_detected": true,
+    "omitted_vertical_action_witness_detected": true,
+    "reversed_Ricci_sign_direct_metric_residual_detected": true,
+    "scope_classifying_law_selection_detected": true,
+    "scope_curvature_value_generation_detected": true,
+    "scope_generic_smooth_promotion_detected": true,
+    "scope_global_promotion_detected": true,
+    "scope_physical_history_promotion_detected": true,
+    "supplied_coframe_promoted_to_selector_detected": true
+  },
+  "count": 17,
+  "diagnostics": {
+    "algebraic_Bianchi_witness_residual_nonzero": 1,
+    "bare_schema": "INCOMPLETE",
+    "differential_Bianchi_witness_residual_nonzero": 1,
+    "direct_metric_correct_sign_residual_nonzero": 0,
+    "direct_metric_reversed_sign_residual_nonzero": 2,
+    "full_translation_dimension": 126,
+    "no_anchor_schema": "INCOMPLETE",
+    "no_equivariance_schema": "INCOMPLETE",
+    "no_horizontal_schema": "INCOMPLETE",
+    "no_vertical_schema": "INCOMPLETE",
+    "omitted_vertical_action_residual_nonzero": 2,
+    "preowned_schema": "EVALUATIVE_ALREADY_HAS_METRIC",
+    "without_commutator_translation_dimension": 240,
+    "zero_E_differentiated_Bianchi_residual_nonzero": 0,
+    "zero_E_full_commutator_residual_nonzero": 2
+  },
+  "landing": "G231_HOSTILE_MUTATIONS_17_OF_17_CAUGHT"
+}

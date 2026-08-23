@@ -1,0 +1,75 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "all_six_generators_are_eta_skew": true,
+    "constant_R_squared_is_zero": true,
+    "constant_passes_algebraic_bianchi": true,
+    "direct_polynomial_metric_Ricci_sign": true,
+    "direct_polynomial_metric_differentiated_Bianchi": true,
+    "explicit_20_basis_is_in_b1_kernel": true,
+    "reversed_Ricci_sign_fails_direct_metric_witness": true,
+    "two_prime_ranks_match": true,
+    "vertical_action_annihilates_constant_curvature": true,
+    "vertical_action_matches_explicit_infinitesimal_frame_transform": true,
+    "vertical_action_nonzero_on_offdiagonal_witness": true,
+    "vertical_action_preserves_full_20_basis_B1_kernel": true,
+    "witness_R_squared_is_nonzero": true,
+    "witness_first_nonzero_is_minus_one": true,
+    "witness_passes_algebraic_bianchi": true
+  },
+  "constant_curvature": {
+    "commutator_nonzero_count": 0,
+    "vertical_action_nonzero_count": 0
+  },
+  "direct_polynomial_metric_sign_anchor": {
+    "correct_sign_residual_nonzero_count": 0,
+    "differentiated_Bianchi_residual_nonzero_count": 0,
+    "reversed_sign_residual_nonzero_count": 2
+  },
+  "independent_vertical_action": {
+    "basis_kernel_preserved": true,
+    "constant_annihilated": true,
+    "eta_skew_generators": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "explicit_transform_matches": true,
+    "witness_nonzero_counts": [
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  "landing": "INDEPENDENT_EXPLICIT_BIVECTOR_TWO_PRIME_AND_FRACTION_REPLAY_PASS",
+  "ranks_by_prime": {
+    "1000000007": {
+      "algebraic_bianchi": 16,
+      "combined_second_prolongation": 194,
+      "commutator": 120,
+      "differential_bianchi": 20,
+      "differentiated_bianchi": 80,
+      "explicit_curvature_basis": 20
+    },
+    "1000000009": {
+      "algebraic_bianchi": 16,
+      "combined_second_prolongation": 194,
+      "commutator": 120,
+      "differential_bianchi": 20,
+      "differentiated_bianchi": 80,
+      "explicit_curvature_basis": 20
+    }
+  },
+  "representation": "explicit symmetric 6x6 bivector matrix with q05=q14-q23",
+  "witness": {
+    "commutator_nonzero_count": 4,
+    "description": "q_(01,02)=q_(02,01)=1",
+    "first_nonzero": "-1"
+  }
+}

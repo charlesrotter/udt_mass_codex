@@ -1,0 +1,101 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "bare_R_schema_is_not_closed": true,
+    "cartan_first_closure_36_to_20": true,
+    "cartan_second_closure_80_to_60": true,
+    "classifying_derivative_schema_is_typed": true,
+    "constant_curvature_closes_every_frozen_stage": true,
+    "constant_curvature_coordinates_reconstruct": true,
+    "constant_curvature_has_zero_R_squared_commutator": true,
+    "constant_curvature_is_algebraically_compatible": true,
+    "g230_second_prolongation_320_to_126": true,
+    "off_diagonal_witness_coordinates_reconstruct": true,
+    "off_diagonal_witness_has_nonzero_R_squared_commutator": true,
+    "off_diagonal_witness_is_algebraically_compatible": true,
+    "preregistration_hashes_match": true,
+    "source_manifest_hashes_match": true,
+    "structured_claim_scope_passes": true,
+    "supplied_coframe_schema_is_evaluative": true,
+    "vertical_Lorentz_action_is_nontrivial": true
+  },
+  "claim_scope": {
+    "architecture": "LOCAL_REALIZATION_PROBLEM_ONLY",
+    "classifying_law": "REQUIRED_NOT_SELECTED",
+    "curvature_values": "SUPPLIED_NOT_GENERATED",
+    "finite_theorem": "CONDITIONAL_LOCAL_G_REALIZATION",
+    "generic_smooth": "NOT_DERIVED",
+    "global": "NOT_DERIVED",
+    "infinite_theorem": "ANALYTIC_LOCAL_COFRAME_ONLY__PRINCIPAL_DESCENT_OPEN",
+    "physical_history": "NOT_DERIVED"
+  },
+  "constant_curvature_control": {
+    "closure_residual_counts": {
+      "algebraic_Bianchi_nonzero": 0,
+      "vertical_action_nonzero": 0,
+      "zero_D_differential_Bianchi_nonzero": 0,
+      "zero_E_commutator_residual_nonzero": 0,
+      "zero_E_differentiated_Bianchi_nonzero": 0
+    },
+    "commutator_rhs_nonzero_count": 0,
+    "coordinate_nonzero_count": 6
+  },
+  "dimensions": {
+    "algebraic_curvature_kernel": 20,
+    "cartan_curvature_source": 36,
+    "first_curvature_derivative": 80,
+    "first_derivative_compatible": 60,
+    "ordered_second_curvature_derivative": 320,
+    "second_derivative_affine_translation": 126
+  },
+  "input_trilemma": {
+    "R_plus_compatible_classifying_derivative_law": "TYPED_CARTAN_REALIZATION_PROBLEM",
+    "R_relative_to_supplied_coframe": "EVALUATIVE_ALREADY_HAS_METRIC",
+    "moving_frame_R_without_carry": "INCOMPLETE"
+  },
+  "landing": "CARTAN_REGIONAL_BRIDGE__BARE_R_NOT_CLOSED__CLASSIFYING_DERIVATIVE_DATA_REQUIRED",
+  "nonlinear_witness": {
+    "commutator_rhs_nonzero_count": 2,
+    "description": "symmetric bivector entry (01,02)=1",
+    "first_nonzero": "-1"
+  },
+  "ranks": {
+    "algebraic_bianchi": 16,
+    "combined_second_prolongation": 194,
+    "commutator": 120,
+    "differential_bianchi": 20,
+    "differentiated_bianchi": 80
+  },
+  "realization_schema": {
+    "classifier_is_type_gate_not_identity_proof": true,
+    "required_conditions": [
+      "R_typed_as_Lorentz_tensor",
+      "horizontal_derivative_law",
+      "vertical_action_fixed_by_principal_SO13_action",
+      "Cartan_structure_equations",
+      "finite_classifying_manifold",
+      "smooth_anchor_and_structure_functions",
+      "regularity",
+      "full_G_structure_algebroid_identities",
+      "SO13_equivariance_and_action_conditions"
+    ]
+  },
+  "scope": "local orthonormal-frame-bundle realization architecture; curvature values supplied",
+  "theorem_boundary": {
+    "finite_type_classifying_data": "CONDITIONAL_LOCAL_G_REALIZATION_IF_FULL_SO13_G_STRUCTURE_ALGEBROID_HYPOTHESES_HOLD",
+    "generic_smooth_local": "NOT_CLAIMED",
+    "global_realization": "NOT_CLAIMED",
+    "infinite_type_PDE_data": "ANALYTIC_LOCAL_COFRAME_REALIZATION_ONLY__PRINCIPAL_SO13_EQUIVARIANCE_AND_DESCENT_OPEN",
+    "value_generation_or_history_selection": "NOT_DERIVED"
+  },
+  "vertical_frame_control": {
+    "nonzero_counts_by_Lorentz_generator": [
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
+  }
+}

@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock network | G215--G230 | Scalar, carry, phase, curvature jets | Population; transport; regional values |
+| Pair-clock network | G215--G231 | Scalar, carry, phase, curvature jets, regional architecture | Population; transport; law/values |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -48,6 +48,7 @@
 | G228 first variation | exact | Bianchi dimension 60; subset ranks 20/40/54/60 | Algebraic only |
 | G229 metric 3-jet realization | exact; independent | Compatible point jets have Lorentz representatives; kernels 80/140 | No regional field/history |
 | G230 nonlinear overlap obstruction | exact; independent | Compatible curvature second jets have metric fourth-jet representatives; `R*R` is explicit | Point jet; no region/history |
+| G231 Cartan bridge | exact architecture; conditional existence | Closure stages form regional problem | Law/values; descent; history |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -72,9 +73,9 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
   is an envelope control.
-- G212--G230 close local state/descent, clock/null carry, phase, curvature compatibility, and
-  one-event metric realization through the first nonlinear fourth-jet gate. Regional fields,
-  population, transport, values, and completion stay open.
+- G212--G231 close local state/descent, clock/null carry, phase, curvature compatibility, one-event
+  metric realization, and the regional Cartan architecture. Law/values, population, transport,
+  completion, and infinite-route principal Lorentz descent stay open.
 
 ## Carrier, action, source, and matter
 
@@ -106,7 +107,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 214-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 215-row authority. On conflict, stop.
 
 Run:
 

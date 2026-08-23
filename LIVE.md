@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G230. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G231. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -67,6 +67,15 @@ slice is isomorphic. A complete polarization and explicit `R*R` witness prove G2
 insufficient. This is one-event 4-jet realization—not finite gluing, values, dynamics, population,
 transport selection, or history.
 
+G231 compresses the G227/G228/G230 exterior-closure stages, with G229 as their metric-jet bridge,
+into one regional Cartan realization architecture. Exact closure reproduces `36->20`, `80->60`,
+and `320->126`. Bare moving-frame curvature values are incomplete: a typed principal Lorentz
+frame and a compatible horizontal classifying derivative law are required. Full finite
+`SO(1,3)` `G`-structure-algebroid data conditionally admit local `G`-realizations; the infinite
+analytic route guarantees only a local coframe, with principal Lorentz descent still open. G231
+integrates compatible supplied values; it does not generate their profile, population, transport,
+dynamics, or physical/global history.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -79,7 +88,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 214-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 215-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -103,11 +112,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-PONDER before another solve: do not mechanically add one derivative order. Choose between proving
-the general finite-order normal-jet correspondence and formulating the torsion-free Cartan
-coframe/connection/curvature exterior system for a **supplied** smooth or analytic curvature field.
-The Cartan route is closer to actual finite-neighborhood overlap, but neither route generates
-curvature values or selects a physical history. Do not infer curvature from isolated finite G226
-matrices, promote G225 into selected transport, infer observer/null population, fit, identify
-`X_max`, activate protected drafts, or use G116/G189 as construction inputs.
+Run a bounded, no-fit ownership test on the declared primary UDT metric family: does it supply a
+finite Cartan classifying invariant state and horizontal derivative law, or merely selected
+realized examples? Begin from the primary metric and native reciprocal pair pullbacks. Do not
+mechanically add a fifth jet. Either result remains family-scoped and cannot generate invariant
+values, select Nature's member, populate observer/null relations, select transport, or close a
+global history. Do not fit, identify `X_max`, activate protected drafts, or use G116/G189 as
+construction inputs.
 <!-- STARTUP_CURRENT_END -->

@@ -88,25 +88,31 @@ physical scalar after the working premise. They must not be conflated.
   target. The metric fourth-jet map has rank 126/kernel 224, exactly fifth-order coordinate gauge,
   and the normal slice is isomorphic. This is one-event infinitesimal compatibility and 4-jet
   realization—not a finite-region field, generated values, dynamics, or history.
+- G231 types G227/G228/G230, with G229 as metric-jet bridge, as a Cartan architecture of dimensions
+  20, 60, and 126. Bare curvature needs principal Lorentz typing and a horizontal classifying law.
+  Full finite `SO(1,3)` algebroid data conditionally realize locally; analytic, formally-integrable
+  relative-algebroid data conditionally yield local coframes. It generates no values.
 
-G206--G230 retain their verification caveats. None generates a sector function, finite-anchor flow,
-or `X_max`. Current exact frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/` and
-`udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`, followed by
-`udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/` and
-`udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`. Conditional evaluator:
+G206--G231 generate no sector function or `X_max`. Exact
+frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
+`udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
+`udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
+`udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`, and
+`udt_g231_cartan_regional_realization_bridge_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G230 close local basis,
-  modes, descent, clock incidence/rate/jet, and point-jet realization—not population or valuation.
+- The primary spherical slice/profile are supplied. G211--G231 close local basis, descent, clock
+  incidence/rate/jet, point jets, and regional architecture—not population, values, or classifying law.
 - G222--G226 close one supplied null plane, local line/fiber and scalar carry, pointwise screen
-  comparison, and full chain phase. G227--G230 then close common algebraic curvature, differential
+  comparison, and full chain phase. G227--G231 then close common algebraic curvature, differential
   first variation, metric 3-jet realization, and the first nonlinear curvature-second-jet/metric-4-jet
-  gate at one event. None selects transport, a direct relation, population, regional values, a
-  global scalar, or history.
+  gate at one event, then place those stages inside a regional Cartan integration problem. None
+  supplies the classifying invariant values/law or selects transport, a direct relation,
+  population, regional values, a global scalar, or history.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -124,14 +130,8 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G214 classify the primary bidirectional channels, quiet/completion strata, complete metric
-degrees, rank, state, and descent. G215--G230 close the supplied clock slope, first jet,
-query-typed null chord/plane, local scalar carry, pointwise screen holonomy, and full phase assembly
-on one supplied chain, same-event common-curvature compatibility, neighboring-event algebraic
-first-variation compatibility, local metric 3-jet realization, and the first nonlinear
-second-derivative overlap/metric-4-jet condition. Next PONDER whether to prove the general
-finite-order normal-jet correspondence or formulate the Cartan coframe/connection/curvature
-exterior system for a supplied smooth or analytic curvature field. Do not mechanically add a
-fifth-jet census or confuse compatibility with numerical value generation or a physical-history
-selector; do not select transport/history, force a direct relation, fit, use `X_max`, activate
-protected drafts, or revive historical inputs.
+G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G231 close the
+supplied clock/null/carry/phase chain, curvature point jets, and their Cartan regional architecture.
+Next test whether the primary metric family supplies a finite classifying state and derivative law
+or only examples. Do not add a fifth jet, confuse integration with value/history selection, select
+transport, fit, use `X_max`, activate protected drafts, or revive historical inputs.

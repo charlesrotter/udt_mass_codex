@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G230 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G231 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -42,6 +42,14 @@ commutator leave 126 affine components; the metric 4-jet has rank/kernel `126/22
 coordinate gauge. An explicit zero-`D,E` witness proves G227/G228 insufficient. This is one-event
 realization only—not regional gluing, values, dynamics, population, transport, or history.
 
+G231 joins G227/G228/G230, with G229 as metric-jet bridge, into a Cartan regional-realization
+problem with dimensions `20`, `60`, and `126`. Bare moving-frame `R` is
+incomplete without principal Lorentz typing and a horizontal
+classifying law. Finite `SO(1,3)` `G`-structure-algebroid data conditionally give
+local `G`-realizations; the infinite analytic theorem gives only a local coframe, so principal
+Lorentz descent remains open. No curvature values, population, transport, dynamics, or history are
+selected.
+
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
 through `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -65,13 +73,12 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next PONDER the first all-orders/regional bridge: either prove the general finite-order normal-jet
-correspondence or formulate the torsion-free Cartan coframe/connection/curvature system for a
-supplied smooth or analytic curvature field. Do not continue with a mechanical fifth-jet census.
-Neither route generates values or selects a physical history. Do not infer curvature from isolated
-finite transfers, promote G225's pointwise map into selected transport, force a direct relation, or
-infer population/history. Keep null query-typed and return distinct from inversion. Do not fit,
-activate protected drafts, identify `X_max`, select transfer/history, or use G116/G189. All other
-open ownership remains controlled by the 214-row exact registry.
+Next test, without fitting, whether the declared primary UDT metric family supplies a finite Cartan
+classifying invariant state and horizontal derivative law or only realized examples. Do not return
+to a mechanical fifth-jet census. The test remains family-scoped and cannot generate values,
+select a physical history, infer population, or select transport. Keep null query-typed and return
+distinct from inversion. Do not activate protected drafts, identify `X_max`, select
+transfer/history, or use G116/G189. All other open ownership remains controlled by the 215-row
+exact registry.
 
 <!-- STARTUP_CURRENT_END -->

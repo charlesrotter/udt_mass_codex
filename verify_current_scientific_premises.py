@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G230",
+            "G166--G231",
             "G197",
             "G215",
             "G216",
@@ -211,6 +211,7 @@ def validate_startup_surface(root: Path) -> None:
             "G228",
             "G229",
             "G230",
+            "G231",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -253,7 +254,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "214-row exact registry",
+            "215-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -315,7 +316,9 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/",
             "udt_g227_same_event_curvature_tomography_2026-08-22/",
             "udt_g228_neighboring_event_curvature_first_variation_2026-08-23/",
+            "udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/",
             "udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/",
+            "udt_g231_cartan_regional_realization_bridge_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -329,7 +332,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G230",
+            "G166--G231",
             "G197",
             "G198",
             "G199",
@@ -365,6 +368,7 @@ def validate_startup_surface(root: Path) -> None:
             "G228",
             "G229",
             "G230",
+            "G231",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -413,6 +417,7 @@ def validate_startup_surface(root: Path) -> None:
             "G228",
             "G229",
             "G230",
+            "G231",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -456,10 +461,11 @@ def validate_startup_surface(root: Path) -> None:
             "G228",
             "G229",
             "G230",
+            "G231",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "214-row",
+            "215-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -800,9 +806,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 214, "premise registry must contain exactly 214 rows")
+    require(len(rows) == 215, "premise registry must contain exactly 215 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 214, "duplicate premise id")
+    require(len(by_id) == 215, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3489,6 +3495,162 @@ def main() -> None:
         == "ab306f5e590a74fd95a5facdda7db54fee5ddc9c2b85f6ac51374fac12ee5189",
         "G230 preregistration hash changed",
     )
+
+    require(
+        by_id["G231"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__PREREGISTERED_AT_A5CD16A9__PRE_OUTCOME_HASH_7BE3DA55"
+        ),
+        "G231 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "G227_G228_G230_ARE_EXTERIOR_CLOSURE_STAGES_AND_G229_IS_THE_METRIC_JET_BRIDGE",
+        "CURVATURE_FORM_36_TO20",
+        "FIRST_DERIVATIVE_80_TO60",
+        "ORDERED_SECOND_DERIVATIVE_320_TO126",
+        "DIFFERENTIATED_BIANCHI_RANK80",
+        "RICCI_COMMUTATOR_RANK120",
+        "COMBINED_RANK194",
+        "CONSTANT_CURVATURE_CLOSES_ALL_FROZEN_STAGES",
+        "NONSPACEFORM_WITNESS_FIRST_NONZERO_MINUS1",
+        "VERTICAL_SO13_ACTION_CANONICAL_ON_TYPED_R",
+        "BARE_MOVING_FRAME_R_INCOMPLETE_WITHOUT_PRINCIPAL_FRAME_TYPING_AND_HORIZONTAL_CLASSIFYING_DERIVATIVE_LAW",
+        "FULL_FINITE_SO13_G_STRUCTURE_ALGEBROID_DATA_CONDITIONALLY_ADMIT_LOCAL_G_REALIZATION",
+        "INFINITE_ANALYTIC_ROUTE_IS_LOCAL_COFRAME_ONLY_WITH_PRINCIPAL_SO13_DESCENT_OPEN",
+        "SEVENTEEN_SUBSTANTIVE_HOSTILE_CATCHES",
+        "TWENTY_AGGREGATE_CHECKS",
+        "ELEVEN_FOCUSED_TESTS",
+        "NO_CURVATURE_VALUE_GENERATION_CLASSIFYING_LAW_SELECTION_GENERIC_SMOOTH_GLOBAL_REALIZATION_POPULATION_TRANSPORT_DYNAMICS_PHYSICAL_HISTORY_SOURCE_ACTION_MATTER_BOOTSTRAP_BOUNDARY_XMAX_TRANSFER_OBSERVATION_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G231"]["current_status"], f"G231 guard absent: {guard}")
+    require(by_id["G231"]["epistemic_label"] == "MIXED", "G231 label changed")
+    require(
+        by_id["G231"]["active_use"]
+        == "ACTIVE_BOUNDED_LOCAL_ORTHONORMAL_FRAME_BUNDLE_CARTAN_REALIZATION_ARCHITECTURE_AND_EXACT_FIRST_PROLONGATION_CLOSURE_ONLY",
+        "G231 active scope widened",
+    )
+    require(
+        "bare R called a closed regional input" in by_id["G231"]["forbidden_regression"]
+        and "analytic coframe theorem promoted to principal Lorentz descent"
+        in by_id["G231"]["forbidden_regression"]
+        and "fifth-jet census resumed mechanically" in by_id["G231"]["forbidden_regression"],
+        "G231 regression guards absent",
+    )
+    require(
+        by_id["G231"]["controlling_source"]
+        == "udt_g231_cartan_regional_realization_bridge_2026-08-23/AUDIT_REPORT.md",
+        "G231 controlling source changed",
+    )
+    g231 = ROOT / "udt_g231_cartan_regional_realization_bridge_2026-08-23"
+    for name in (
+        "MAP.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "STANDARD_REFERENCES.md",
+        "THEOREM_SCOPE_AUDIT.md",
+        "ZERO_CONTEXT_STARTUP_REHEARSAL.md",
+        "SOURCE_MANIFEST.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_HASHES.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "REPAIR_RECORD.md",
+        "MULTI_AGENT_ADVERSARIAL_REVIEW.md",
+        "RUN_LOG.txt",
+        "STATUS_LEDGER.tsv",
+        "NEXT_GATE.md",
+        "derive_cartan_regional_bridge.py",
+        "verify_cartan_bridge_independent.py",
+        "hostile_mutation_tests.py",
+        "verify_package.py",
+        "test_cartan_regional_bridge.py",
+        "build_evidence_manifest.py",
+        "verify_evidence_manifest.py",
+        "exact_results.json",
+        "independent_results.json",
+        "hostile_results.json",
+        "verification_results.json",
+        "EVIDENCE_MANIFEST.tsv",
+    ):
+        require((g231 / name).is_file(), f"G231 evidence missing: {name}")
+    g231_result = json.loads((g231 / "exact_results.json").read_text())
+    require(
+        g231_result["landing"]
+        == "CARTAN_REGIONAL_BRIDGE__BARE_R_NOT_CLOSED__CLASSIFYING_DERIVATIVE_DATA_REQUIRED",
+        "G231 production landing changed",
+    )
+    require(g231_result["all_checks_pass"] is True, "G231 production verification failed")
+    require(all(g231_result["checks"].values()), "G231 production check failed")
+    require(
+        g231_result["dimensions"]
+        == {
+            "algebraic_curvature_kernel": 20,
+            "cartan_curvature_source": 36,
+            "first_curvature_derivative": 80,
+            "first_derivative_compatible": 60,
+            "ordered_second_curvature_derivative": 320,
+            "second_derivative_affine_translation": 126,
+        },
+        "G231 compatible dimensions changed",
+    )
+    require(
+        g231_result["ranks"]
+        == {
+            "algebraic_bianchi": 16,
+            "combined_second_prolongation": 194,
+            "commutator": 120,
+            "differential_bianchi": 20,
+            "differentiated_bianchi": 80,
+        },
+        "G231 exact ranks changed",
+    )
+    require(
+        all(
+            value == 0
+            for value in g231_result["constant_curvature_control"][
+                "closure_residual_counts"
+            ].values()
+        ),
+        "G231 constant-curvature closure changed",
+    )
+    g231_independent = json.loads((g231 / "independent_results.json").read_text())
+    require(g231_independent["all_checks_pass"] is True, "G231 independent replay failed")
+    require(all(g231_independent["checks"].values()), "G231 independent check failed")
+    require(
+        g231_independent["direct_polynomial_metric_sign_anchor"]
+        == {
+            "correct_sign_residual_nonzero_count": 0,
+            "differentiated_Bianchi_residual_nonzero_count": 0,
+            "reversed_sign_residual_nonzero_count": 2,
+        },
+        "G231 independent sign anchor changed",
+    )
+    require(
+        g231_independent["independent_vertical_action"]["basis_kernel_preserved"] is True
+        and g231_independent["independent_vertical_action"]["explicit_transform_matches"] is True,
+        "G231 independent vertical action changed",
+    )
+    g231_hostile = json.loads((g231 / "hostile_results.json").read_text())
+    require(
+        g231_hostile["count"] == 17
+        and g231_hostile["all_caught"] is True
+        and all(g231_hostile["catches"].values()),
+        "G231 hostile controls changed",
+    )
+    g231_package = json.loads((g231 / "verification_results.json").read_text())
+    require(g231_package["all_pass"] is True, "G231 package verification failed")
+    require(
+        g231_package["passed"] == g231_package["total"] == 20,
+        "G231 package check count changed",
+    )
+    require(all(g231_package["checks"].values()), "G231 package check failed")
+    require(
+        hashlib.sha256((g231 / "PREREGISTRATION.md").read_bytes()).hexdigest()
+        == "7be3da557da4e34019af42f400283de11f9a8e6a33370010fd78a4bca3cde067",
+        "G231 preregistration hash changed",
+    )
+    g231_manifest = (g231 / "EVIDENCE_MANIFEST.tsv").read_text().splitlines()
+    require(len(g231_manifest) == 29, "G231 evidence manifest count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -7712,7 +7874,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G230-extended premise guards; PASS: 214-row premise "
+        "PASS: G231-extended premise guards; PASS: 215-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

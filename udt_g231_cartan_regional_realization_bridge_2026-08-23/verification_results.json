@@ -1,0 +1,30 @@
+{
+  "all_pass": true,
+  "checks": {
+    "full_production_no_write_matches_saved": true,
+    "hostile_17_of_17": true,
+    "hostile_no_write_matches_saved": true,
+    "independent_checks_pass": true,
+    "independent_direct_metric_sign_anchor": true,
+    "independent_no_write_matches_saved": true,
+    "independent_vertical_action_anchor": true,
+    "live_claim_scope_accepts_only_preregistered_ceiling": true,
+    "next_gate_does_not_revert_to_jet_census": true,
+    "preregistration_hashes_match": true,
+    "production_input_trilemma": true,
+    "production_non_space_form_and_constant_controls": true,
+    "production_saved_checks": true,
+    "production_saved_dimensions": true,
+    "production_saved_ranks": true,
+    "production_vertical_action_nontrivial": true,
+    "saved_theorem_boundary_is_typed": true,
+    "source_manifest_hashes_match": true,
+    "standard_theorem_hypotheses_are_explicit": true,
+    "theorem_scope_ceiling_present": true
+  },
+  "full_production_replayed": true,
+  "landing": "G231_PACKAGE_VERIFIED",
+  "passed": 20,
+  "preregistration_commit": "a5cd16a9",
+  "total": 20
+}
