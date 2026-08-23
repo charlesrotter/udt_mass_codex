@@ -4,9 +4,9 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-22
+## Resume anchor — 2026-08-23
 
-G166--G227 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G228 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -16,32 +16,31 @@ canon. It selects `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T` after the pu
 arbitrary-calibration formula is a control. Physical events, germs, functions, population, and
 global realization remain supplied or `OPEN`.
 
-G215--G217 derive the supplied scalar, proper-clock rate, and positive first jet. G218 makes them one
-query-indexed correspondence; G219 separates moving null and Fermi/radar protocols. G220 derives
-the covariant null slope `r=C_+B/C_+A`; G221 puts `Q,s_x,s_t` upstream. G222 adds the affine-null
-plane, `det h=-a^2`, and G188 screen. G223 gives its mixed line pairing and local fiber integral.
-G224 closes scalar carry at an actual shared event: `q=r^-1`, the inverse G216 clock product.
-Distinct-event normalization is not vertex composition. higher/full global carry, protocol,
-population, and history remain `OPEN`.
+G215/G216/G217/G218/G219/G220/G221 close scalar, clock rate, first jet, correspondence, protocol
+separation, covariant null slope `r=C_+B/C_+A`, and the upstream complete chord. G222/G223/G224 add
+the affine-null plane (`det h=-a^2`), G188 screen, local line/fiber carry, and shared-event
+`q=r^-1`. Distinct-event normalization is not vertex composition; higher/full carry stays `OPEN`.
 
-G225 gives the proper least-turning pointwise screen isometry off antipodes. An octant triple leaves
-quarter-turn `O(2)` holonomy, so no global flat endpoint-only carry exists on celestial `S^2`.
-Antipodes remain nonunique. This `STANDARD_GEOMETRIC_EVALUATOR` is not selected transport; G224
-scalar carry and G188 Jacobi transport remain distinct.
-
-G226 then assembles G188, G224, and G225 on one supplied composable null chain. In
-clock-normalized endpoint phase coordinates the full Jacobi transfer is conformal-symplectic with
-multiplier `r=d tau_target/d tau_source`; the scalar ruler carry is `q=r^-1`. The vertex lift is
-`diag(C,C)`, middle gauges and affine-generator rescalings cancel, the full phase remains invertible
-when its position block is singular, and direction holonomy stays matrix-valued. Fresh external
-review plus repair-only closure verified this conditional evaluator. It does not select the
-pointwise screen map as transport, a direct relation, a null population, or a history.
+G225 gives the pointwise least-turning screen isometry off antipodes and retains `O(2)` holonomy,
+not selected transport. G226 joins it with G188/G224 on one supplied chain: the caustic-safe full
+phase is conformal-symplectic with multiplier `r`, inverse ruler carry `q`, cancelled middle gauges
+and affine scales, and matrix holonomy. No direct relation, null population, or history is selected.
 
 G227 separates automatic graph composition from a same-event restriction. Its frozen generic
 nine-null witness has rank 19, kernel `span(g wedge g)`, and eight syzygies. One `CHOSE` timelike
 sectional datum gives rank 20; four held-out directions are predicted. It needs an infinitesimal
 affine generator/short-edge jet, not an isolated finite G226 matrix. The landing is
 **algebraic-curvature compatibility**, not metric-germ realization, history, or population.
+
+G228 supplies the next exact neighboring-event layer. Differential Bianchi has independent rank 20
+on the 80-component reduced algebraic `(nabla R)` arena, leaving dimension 60. All frozen one- and
+linearly independent two-direction projections are surjective; each frozen independent
+three-direction tile has six syzygies, and the full four-direction star has twenty. The
+parallel/moving-screen derivative laws and Hamiltonian Jacobi generator are exact. Production,
+independent Fraction replay, an orthogonal 84-slot full-index anchor, eleven hostile catches, and
+three fresh adversarial agents verified the bounded result. It is necessary algebraic
+first-variation compatibility, not metric-3-jet realization, value generation, selected transport,
+population, or history.
 
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
@@ -66,12 +65,13 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next test one supplied neighboring-event/short-congruence tile: whether G227 eventwise curvature and
-G226 infinitesimal phase share one connection/curvature first variation, differential Bianchi, and
-screen transport. Separate compatibility/reconstruction from value generation. Do not infer
-curvature from isolated finite transfers, promote G225's pointwise map into selected transport,
-force a direct relation, or infer population/history. Keep null query-typed and return distinct
-from inversion. Do not fit, activate protected drafts, identify `X_max`, select transfer/history,
-or use G116/G189. All other open ownership remains controlled by the 211-row exact registry.
+Next test local metric-3-jet realization: whether every G227/G228-compatible `(R,nabla R)` is the
+curvature 1-jet of a Lorentz-metric 3-jet in normal coordinates, with its coordinate-gauge kernel
+classified and its null-screen/Jacobi projections recovered. Keep algebraic compatibility,
+metric-jet realization, smooth extension, and value generation distinct. Do not infer curvature
+from isolated finite transfers, promote G225's pointwise map into selected transport, force a
+direct relation, or infer population/history. Keep null query-typed and return distinct from
+inversion. Do not fit, activate protected drafts, identify `X_max`, select transfer/history, or use
+G116/G189. All other open ownership remains controlled by the 212-row exact registry.
 
 <!-- STARTUP_CURRENT_END -->

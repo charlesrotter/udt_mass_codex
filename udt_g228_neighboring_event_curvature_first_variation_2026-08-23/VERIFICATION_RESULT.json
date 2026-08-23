@@ -1,0 +1,25 @@
+{
+  "all_pass": true,
+  "checks": {
+    "hostile_catches_11_of_11": true,
+    "independent_screen_phase_checks_pass": true,
+    "orthogonal_84_slot_full_index_anchor": true,
+    "production_all_subset_controls_pass": true,
+    "production_independent_all_15_subsets_match": true,
+    "production_independent_scalar_match": true,
+    "production_screen_phase_checks_pass": true,
+    "saved_json_artifacts_match_replay": true,
+    "saved_subset_census_matches_replay": true,
+    "saved_syzygy_basis_matches_replay": true,
+    "selected_preregistered_alternative_B": true,
+    "source_manifest_hashes_match": true,
+    "value_generation_nonpromotion_guard": true
+  },
+  "first_restricted_subset_size": 3,
+  "full_star_codimension": 20,
+  "landing": "B_ONE_DIRECTION_SURJECTIVE__FIRST_RESTRICTION_AT_THREE_DIRECTIONS",
+  "module_dimension": 60,
+  "passed": 13,
+  "saved_artifacts_checked": true,
+  "total": 13
+}

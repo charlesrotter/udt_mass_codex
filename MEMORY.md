@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G227: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G228: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity then fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` remains an arbitrary-calibration control.
 
@@ -25,6 +25,9 @@ nine-null-direction infinitesimal tidal witness has rank 19 and kernel `span(g w
 additional `CHOSE` timelike sectional-curvature datum gives rank 20. This is algebraic-curvature
 compatibility/tomography on supplied normalized affine generators, not inference from isolated
 finite G226 matrices, metric-2-jet realization, value generation, population, or history selection.
+
+G228: differential Bianchi cuts 80 components to 60. One/two directions are surjective; three have
+six syzygies, the full star twenty.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -52,12 +55,12 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-On one supplied neighboring-event/short-congruence tile, test whether G227-compatible eventwise
-curvature and G226 infinitesimal phase data obey one common connection/curvature first variation,
-differential Bianchi, and screen transport. Keep compatibility/reconstruction separate from value
-generation. Do not promote G225 into selected transport, infer curvature from isolated finite
-transfers, force an independent direct relation, or infer population/history. No fits, `X_max`,
-transfer/history selection, or protected drafts.
+Test local metric-3-jet realization: whether every G227/G228-compatible `(R,nabla R)` is realized by
+a Lorentz-metric 3-jet in normal coordinates, classify coordinate gauge, and recover the same
+null-screen/Jacobi projections. Keep algebraic compatibility, metric-jet realization, smooth
+extension, and value generation distinct. Do not promote G225 into selected transport, infer
+curvature from isolated finite transfers, force an independent direct relation, or infer
+population/history. No fits, `X_max`, transfer/history selection, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

@@ -1,0 +1,39 @@
+G228 run log — 2026-08-23
+
+Environment:
+  Python 3.10.12
+  SymPy 1.13.1
+  preregistration HEAD b54f4c51ad64f94f0e83799759cb9a3f7802ae6d
+
+Pre-outcome contract banked and pushed:
+  commit b54f4c51 Preregister G228 curvature first variation
+
+Production:
+  PYTHONDONTWRITEBYTECODE=1 python3 udt_g228_neighboring_event_curvature_first_variation_2026-08-23/derive_neighboring_curvature_first_variation.py
+  exit 0
+  differential-Bianchi rank 20
+  compatible module dimension 60
+  first restricted subset size 3
+  selected alternative B
+
+Independent replay:
+  PYTHONDONTWRITEBYTECODE=1 python3 udt_g228_neighboring_event_curvature_first_variation_2026-08-23/verify_neighboring_curvature_independent.py
+  exit 0
+  all load-bearing ranks and matrix hashes match production
+
+Orthogonal full-index anchor:
+  PYTHONDONTWRITEBYTECODE=1 python3 udt_g228_neighboring_event_curvature_first_variation_2026-08-23/verify_full_index_anchor.py
+  exit 0
+  84 raw slots; algebraic rank 4; combined rank 24; module dimension 60
+
+Hostile catches:
+  PYTHONDONTWRITEBYTECODE=1 python3 udt_g228_neighboring_event_curvature_first_variation_2026-08-23/run_hostile_catches.py
+  exit 0
+  11/11
+
+Aggregate saved-artifact verification:
+  PYTHONDONTWRITEBYTECODE=1 python3 udt_g228_neighboring_event_curvature_first_variation_2026-08-23/verify_package.py
+  exit 0
+  13/13
+
+Fresh three-agent adversarial review: accepted after scientific, typing, and evidence repairs.

@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-22
+Date: 2026-08-23
 
 `LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
@@ -82,39 +82,20 @@ physical scalar after the working premise. They must not be conflated.
   short-edge jets, not isolated finite G226 matrices. It reconstructs algebraic curvature values
   when supplied; it does not generate them, prove metric-2-jet realization, or select population or
   history.
+- G228: differential Bianchi rank 20 cuts 80 reduced `(nabla R)` components to 60. Frozen one/two
+  projections are surjective; triples have codimension 6 and the full star 20. Screen/Jacobi first
+  variation is gauge-covariant; algebraic only, not metric realization or value generation.
 
-G206--G227 retain their stated verification caveats. None generates a sector function,
-finite-anchor flow, or `X_max`.
-
-Structural package:
-`udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`.
-Current PONDER frame:
-`udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`.
-Current dynamic bridge:
-`udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`.
-Current covariant time-live tile:
-`udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/`.
-Current complete-coframe clock chord:
-`udt_g221_complete_coframe_null_clock_chord_2026-08-22/`.
-Current local full null pair plane and screen join:
-`udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`.
-Current null-ribbon density overlap and local-integration classification:
-`udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`.
-Current shared-event vertical scalar carry:
-`udt_g224_shared_event_vertical_carry_2026-08-22/`.
-Current shared-event normal-screen comparison and direction-space holonomy:
-`udt_g225_shared_event_normal_screen_carry_2026-08-22/`.
-Current composable null-chain conformal-symplectic assembly:
-`udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/`.
-Current same-event curvature compatibility and tomography:
-`udt_g227_same_event_curvature_tomography_2026-08-22/`.
-Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
-Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
-Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
+G206--G228 retain their verification caveats. None generates a sector function, finite-anchor flow,
+or `X_max`. Current exact frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/` and
+`udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`. Conditional evaluator:
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
+`udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
+`archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G227 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G228 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
@@ -122,8 +103,10 @@ Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
   interval-fiber integration. G224 closes scalar vertical carry at an actual shared event. G225
   derives a pointwise least-turning screen comparison with finite direction-space holonomy. G226
   closes the full scalar/screen phase assembly on one supplied composable chain. G227 constrains a
-  supplied same-event infinitesimal null-tidal family to one common algebraic curvature, but does
-  not select physical vertex transport, an independently supplied direct relation, a
+  supplied same-event infinitesimal null-tidal family to one common algebraic curvature. G228 then
+  constrains the first curvature variation across three or four independent directions by exact
+  differential-Bianchi syzygies. Neither result proves metric-jet or smooth-metric realization or
+  selects physical vertex transport, an independently supplied direct relation, a
   congruence/network population, global scalar, or relation population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
@@ -143,10 +126,11 @@ families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarificati
 formula-level regression or chosen-family controls.
 
 G199--G214 classify the primary bidirectional channels, quiet/completion strata, complete metric
-degrees, rank, state, and descent. G215--G227 close the supplied clock slope, first jet,
+degrees, rank, state, and descent. G215--G228 close the supplied clock slope, first jet,
 query-typed null chord/plane, local scalar carry, pointwise screen holonomy, and full phase assembly
-on one supplied chain, then add same-event common-curvature compatibility for infinitesimal tidal
-generators. Next test one neighboring-event/short-congruence tile for a common connection/curvature
-first variation, differential Bianchi, and screen-transport compatibility. Do not confuse
-compatibility with numerical value generation, select transport/history, force a direct relation,
-fit, use `X_max`, activate protected drafts, or revive historical inputs.
+on one supplied chain, same-event common-curvature compatibility, and neighboring-event algebraic
+first-variation compatibility. Next test whether every compatible `(R,nabla R)` is realized by a
+Lorentz-metric 3-jet in normal coordinates, classify the coordinate-gauge kernel, and recover the
+same null-screen/Jacobi projections. Do not confuse algebraic compatibility with metric-jet or
+smooth-metric realization or numerical value generation; do not select transport/history, force a
+direct relation, fit, use `X_max`, activate protected drafts, or revive historical inputs.

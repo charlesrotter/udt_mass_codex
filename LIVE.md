@@ -1,6 +1,6 @@
 # LIVE — current state only
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-22
+## CURRENT STATE — 2026-08-23
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
 ### Honest claim
@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G227. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G228. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -25,50 +25,39 @@ the pullback. It gives
 depth. Events, germs, observer population, and global realization remain `QUERY_SUPPLIED` or
 `OPEN`; equal scalar summaries do not identify realizations.
 
-G215/G216/G217 close the supplied comparison-clock scalar, its proper-clock slope
-`r_AB=d tau_B/d tau_A`, and its positive first jet. G218 retypes incidence, depth, and jet as one
-query-indexed correspondence. G219 proves moving null and Fermi/radar protocols differ and that
-inverse is not later return. G220 derives the supplied future-null slope covariantly and the exact
-time-live base combination `C_+=A-N beta`; return uses `C_-=A+N beta`. G221 lifts the same query to
-the complete coframe chord, placing screen shape and mixing upstream before readout. Null remains
-query-typed and its higher/full pair carry remains `OPEN`.
+G215/G216/G217/G218/G219/G220/G221 close the supplied scalar, proper-clock slope
+`r_AB=d tau_B/d tau_A`, positive first jet,
+query-indexed correspondence, and covariant future-null chord. Null differs from Fermi/radar;
+inverse is not later return. The time-live base uses `C_+=A-N beta` (return `C_-=A+N beta`), and
+screen/mixing enter upstream. Null remains query-typed; higher/full carry is `OPEN`.
 
-G222 completes that supplied affine-null pair plane with conserved `a=-g(J,K)>0`,
-`det h=-a^2`, conditional ruler `m=a`, and the G188 matrix-valued normal screen. G223 identifies
-the underlying mixed line pairing, inverse clock weight, and local interval-fiber coordinate;
-global scalar ownership still needs source/period/Cech and cross-ribbon carry. G224 closes the
-scalar handoff at an **actual shared observer event**: `mu(v)=-g(U,v)` gives the unique positive
-switch, same-edge vertical carry is `q=r^-1`, and no extra vertex scalar, screen map, or direct-edge
-constraint appears.
+G222/G223/G224 add the affine-null plane (`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`), G188 screen,
+mixed line/fiber carry, and the actual-shared-event scalar switch `mu(v)=-g(U,v)`, with `q=r^-1`.
+No extra vertex scalar, screen map, or direct-edge constraint appears.
 
-G225 closes the bounded pointwise screen comparison at that shared event. Off antipodes the metric
-gives the unique proper least-turning screen isometry, but an octant triple retains quarter-turn
-`O(2)` holonomy and no continuous global endpoint-only flat carry exists on `S^2`. This is a
-`STANDARD_GEOMETRIC_EVALUATOR`, not selected physical transport; G224 scalar carry and G188
-path-labelled Jacobi transport remain distinct. Fresh external review accepted the bounded result
-after two mechanical evidence repairs.
+G225 gives the proper least-turning pointwise screen isometry off antipodes, but triples retain
+`O(2)` holonomy; no global endpoint-only flat carry exists on `S^2`. This
+`STANDARD_GEOMETRIC_EVALUATOR` is not selected transport and remains distinct from G188.
 
-G226 assembles the already derived scalar and angular channels on one **supplied composable null
-chain**. The full G188 first-jet phase in endpoint clock-normalized generators lies in
-`CSp^+(4,R)` with exact multiplier
-`r=d tau_target/d tau_source`; G224's ruler carry is `q=r^-1`. The G225 vertex screen isometry lifts
-as `diag(C,C)`, middle screen gauges and affine-generator rescalings cancel, a singular Jacobi
-position block does not destroy the full invertible phase, and residual direction holonomy remains
-matrix-valued. External review and repair-only replay verified the bounded landing. G225 is still
-not promoted to selected transport, and no null population, independent direct relation, or
-physical history is selected.
+G226 joins G188, G224, and G225 on one **supplied composable null chain**. Its full phase is in
+`CSp^+(4,R)` with multiplier `r` and inverse ruler carry `q`; middle gauges and affine scales
+cancel, caustics retain invertible full phase, and holonomy remains matrix-valued. It selects no
+transport, direct relation, null population, or physical history.
 
-G227 answers the bounded G226 network question at one supplied event. Abstract finite
-`CSp+(4,R)` edge composition is automatic, but normalized infinitesimal null-screen tides in
-different directions cannot be assigned independently if they claim one common algebraic
-curvature. The frozen nine-direction generic witness gives an exact `27 x 20` map of rank 19,
-with kernel exactly the isotropic constant-sectional-curvature algebraic mode `g wedge g`; eight
-exact syzygies constrain the 27 entries. One additional `CHOSE` timelike sectional-curvature datum
-raises the rank to 20. Four held-out null directions are predicted exactly. This consumes an
-infinitesimal affine Jacobi generator or equivalent short-edge jet—not an isolated finite G226
-matrix. Post-outcome adversarial review accepted the algebra after scope/provenance repairs. The
-result is same-event algebraic-curvature compatibility and tomography, not a metric-2-jet
-realization theorem, numerical-history law, or observer/branch population rule.
+G227 makes the first same-event restriction: a frozen generic nine-direction tidal witness has
+rank 19, kernel `span(g wedge g)`, and eight syzygies; one `CHOSE` timelike sectional datum restores
+rank 20 and predicts four held-out directions. It consumes an infinitesimal affine generator, not
+an isolated finite G226 matrix. This is algebraic-curvature compatibility/tomography, not
+metric-2-jet realization, value generation, population, or history.
+
+G228 moves to one supplied first-order neighboring-event tile. Differential Bianchi cuts 80
+reduced `(nabla R)` components to a 60-dimensional module. Frozen one- and independent
+two-direction projections are surjective; three directions first interlock through six syzygies,
+and the full four-direction star through twenty. Screen first variation is connection-gauge
+covariant; the Jacobi generator is Hamiltonian and its transfer symplectic. Exact production,
+independent Fraction replay, an orthogonal 84-slot anchor, eleven hostile catches, and three fresh
+adversarial reviews verified this necessary algebraic compatibility—not metric-3-jet/smooth-metric
+realization, value generation, selected transport, population, or history.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -82,7 +71,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 211-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 212-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -106,12 +95,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Move from one-event tomography to one **supplied neighboring-event/short-congruence tile**. Determine
-whether G227-compatible algebraic curvature data and the G226 infinitesimal affine phase can satisfy
-one common connection/curvature first-variation law, including the differential Bianchi and screen
-transport compatibility, or whether independently assigned eventwise chords fail. Preregister
-reconstruction/compatibility versus value generation. Do not infer curvature from isolated finite
-G226 matrices, invoke the omitted metric-2-jet realization theorem as a G227 result, promote G225
-into selected transport, infer observer/null population or physical history, fit, identify
+Close the next local reconstruction gap without inventing a history law: determine whether every
+G227/G228-compatible pair `(R,nabla R)` at one supplied event is realized by a Lorentz-metric
+3-jet in normal coordinates, and classify the coordinate-gauge kernel. Require its null-screen and
+Jacobi projections to reproduce the existing G227/G228 data. Preregister algebraic compatibility,
+metric-jet realization, and value generation as three distinct outcomes. Do not infer a smooth
+metric neighborhood or global history from a point jet, infer curvature from isolated finite G226
+matrices, promote G225 into selected transport, infer observer/null population, fit, identify
 `X_max`, activate protected drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

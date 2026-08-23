@@ -50,11 +50,11 @@
 - Shared-event vertical scalar carry: `udt_g224_shared_event_vertical_carry_2026-08-22/`
 - Shared-event normal-screen comparison and holonomy: `udt_g225_shared_event_normal_screen_carry_2026-08-22/`
 - Supplied null-chain full phase assembly: `udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/`
-- Same-event curvature compatibility/tomography: `udt_g227_same_event_curvature_tomography_2026-08-22/`
-G129--G214 classify the supplied-pair structure. G215--G227 close its local scalar/null evaluator
-through the conformal-symplectic phase and constrain supplied same-event infinitesimal tides to one
-algebraic curvature. Open: population, physical vertex transport, neighboring-event/global network
-ownership, value generation, global scalar, and history. Exact ownership:
+- Curvature compatibility: `udt_g227_same_event_curvature_tomography_2026-08-22/`;
+  `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`
+G129--G214 classify supplied-pair structure. G215--G228 close the local scalar/null evaluator,
+same-event curvature, and differential-Bianchi first-variation syzygies. Open: metric realization,
+population, selected transport, global ownership, values, scalar, and history. Exact ownership:
 `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -63,7 +63,7 @@ ownership, value generation, global scalar, and history. Exact ownership:
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 211-row registry controls.
+prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 212-row registry controls.
 ## Observational lane
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`

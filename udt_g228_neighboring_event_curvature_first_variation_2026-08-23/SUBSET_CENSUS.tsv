@@ -1,0 +1,16 @@
+key	size	target_dimension	image_rank	codimension	syzygy_count	syzygies_pass_seeded_control	within_image_perturbation_accepted	hostile_one_entry_index	hostile_one_entry_detected	hostile_syzygy_residual	image_sha256
+k	1	20	20	0	0	True	True	None	None	None	a6674ce7a792bfb26be64d936591e385acd5ae4006cbbf9fc47835053c3015be
+l	1	20	20	0	0	True	True	None	None	None	fe604e43b5a976238f863bfadf0288f5ef5b9cc38ed4da2231b72b01aa67eb17
+s1	1	20	20	0	0	True	True	None	None	None	c1e81e7729595780cac7c305e3f625918f761b4245803e6ccc2f59104fec1e1e
+s2	1	20	20	0	0	True	True	None	None	None	79ae2eb96d4c20de075037217bb99f6aab1fe654d366dff67dae006b9ad5bb87
+k+l	2	40	40	0	0	True	True	None	None	None	8ce2d88cdd88136fa6b14fbb882e353b4f009393434a21fe6c0cc6853b0c7e37
+k+s1	2	40	40	0	0	True	True	None	None	None	11246fa23e68a02cb049902d3c82a59e5b3d28310df0bff5b239ef9aad26f878
+k+s2	2	40	40	0	0	True	True	None	None	None	7fca7c28f6addfb009cccd1c772711702108a72663b29a90abd94402e86d9388
+l+s1	2	40	40	0	0	True	True	None	None	None	84abf1763816e1c431be8a76f7307c001cdede6066fbaf51ebb046c74bfe19bc
+l+s2	2	40	40	0	0	True	True	None	None	None	73b46bae2b886989810b9a19983b4c6f9be15d67c91aeeae3ff17717fa4b24cf
+s1+s2	2	40	40	0	0	True	True	None	None	None	9df78f46e1ff89ed0d7344562f8f5238b9bdb0a0a4c52fdd3dc53f572c49a865
+k+l+s1	3	60	54	6	6	True	True	0	True	-1/2	80264e69e909401462d9931ac2fd4e278914f37354a0f23399e5a04079d11c24
+k+l+s2	3	60	54	6	6	True	True	1	True	-1/2	085f9cc349ba9f2b72bdfde5b9d2353880e5aeeb45a14ab20b9dd83f3aed3e75
+k+s1+s2	3	60	54	6	6	True	True	3	True	-1	e150584af03eec0ca33abd01582cd61bafdbe0dd71c6b7713aee8a90caee6e3a
+l+s1+s2	3	60	54	6	6	True	True	3	True	2	aa921839fc2c33b9a14e3c7746d56385200663109a5890eb1199ef4d0a670193
+k+l+s1+s2	4	80	60	20	20	True	True	0	True	-1/2	1a2daf4ee151574adf71e8dc3cef0e04f84ec995e2c94e097b39bcdf2cf40861

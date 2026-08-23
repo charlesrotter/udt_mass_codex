@@ -1,0 +1,39 @@
+{
+  "algebraic_duplicate_rank": 4,
+  "all_pass": true,
+  "artificially_constrained_one_direction_rank": 19,
+  "base_bianchi_rank": 20,
+  "catches": {
+    "algebraic_bianchi_duplicate_is_not_differential_bianchi": true,
+    "artificial_one_direction_constraint_detected": true,
+    "delete_independent_bianchi_row": true,
+    "delete_lower_connection_block": true,
+    "delete_upper_connection_block": true,
+    "isolated_finite_jacobi_phase_derivative_ambiguity": true,
+    "nonskew_connection_breaks_symplecticity": true,
+    "nonsymmetric_tide_breaks_symplecticity": true,
+    "omit_screen_commutator": true,
+    "outcome_docs_retain_value_generation_ceiling": true,
+    "reverse_screen_commutator_sign": true
+  },
+  "deleted_independent_row": 0,
+  "liouville_endpoint_jets": {
+    "f0": "0",
+    "f1": "1",
+    "fp0": "1",
+    "fp1": "1",
+    "fpp0": "0",
+    "fpp1": "0"
+  },
+  "liouville_tide_derivative_at_zero": "12*pi**4/25",
+  "one_direction_ranks": {
+    "k": 20,
+    "l": 20,
+    "s1": 20,
+    "s2": 20
+  },
+  "passed": 11,
+  "removed_row_rank": 19,
+  "total": 11,
+  "wrong_duplicate_module_dimension": 80
+}

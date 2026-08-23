@@ -7,6 +7,12 @@ Question type: `METRIC_LED`.
 Pre-outcome status: `NO_NUMERICAL_OR_SYMBOLIC_PILOT_RUN`. The tensor representation and all outcome
 alternatives below are frozen before the production rank calculation.
 
+Post-outcome repair note: fresh adversarial review found that the neighboring-tensor pullback was
+written with its map direction reversed. The corrected expression below uses
+`P_{p->q}^* R_q`. It also narrows the finite-phase hostile control to an actual G188 Jacobi-tide
+family. `PREREGISTRATION_HASHES.tsv` preserves the original pre-outcome bytes and records this
+type/evidence repair; the frozen alternatives and numerical contract are unchanged.
+
 ## Whole bounded question
 
 At one supplied event of one supplied smooth four-dimensional Lorentz metric, classify the
@@ -84,7 +90,7 @@ compare the neighboring curvature with `R_p`. The covariant first difference is 
 
 \[
 \Delta_v^\epsilon R=
-\frac{P_{q\to p}^*R_q-R_p}{\epsilon}
+\frac{P_{p\to q}^*R_q-R_p}{\epsilon}
 \longrightarrow (\nabla_vR)_p.
 \]
 
@@ -99,6 +105,9 @@ On the supplied affine null direction `k`, let `S_A` be a parallel orthonormal s
 \[
 T_{AB}=R(S_A,k,S_B,k).
 \]
+
+Here and below the curvature ordering is fixed to the G188 convention in which the Jacobi equation
+has lower-left block `-T`; an overall sign change is not silent in this part of G228.
 
 The parallel-screen identity to verify is
 
@@ -171,7 +180,9 @@ At minimum the package must catch:
 - deleting one independently selected differential-Bianchi pivot equation;
 - replacing the differential cyclic sum by an algebraic first-Bianchi duplicate;
 - falsely declaring an isolated one-direction variation incompatible;
-- calling one isolated finite G226 matrix a curvature derivative;
+- calling one isolated finite G226 matrix a curvature derivative; the catch must use two smooth
+  admissible G188 Jacobi-tide histories with the same finite full phase and different initial tide
+  derivatives, not merely two unrestricted Hamiltonian paths;
 - omitting the screen commutator term for a noncommuting tide and rotation;
 - reversing the commutator sign;
 - using a nonsymmetric tide or nonskew screen connection while claiming symplecticity;

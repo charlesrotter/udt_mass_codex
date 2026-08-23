@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G227",
+            "G166--G228",
             "G197",
             "G215",
             "G216",
@@ -208,6 +208,7 @@ def validate_startup_surface(root: Path) -> None:
             "G225",
             "G226",
             "G227",
+            "G228",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -250,7 +251,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "211-row exact registry",
+            "212-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -311,6 +312,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g225_shared_event_normal_screen_carry_2026-08-22/",
             "udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/",
             "udt_g227_same_event_curvature_tomography_2026-08-22/",
+            "udt_g228_neighboring_event_curvature_first_variation_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -324,7 +326,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G227",
+            "G166--G228",
             "G197",
             "G198",
             "G199",
@@ -357,6 +359,7 @@ def validate_startup_surface(root: Path) -> None:
             "G225",
             "G226",
             "G227",
+            "G228",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -402,6 +405,7 @@ def validate_startup_surface(root: Path) -> None:
             "G225",
             "G226",
             "G227",
+            "G228",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -442,10 +446,11 @@ def validate_startup_surface(root: Path) -> None:
             "G225",
             "G226",
             "G227",
+            "G228",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "211-row",
+            "212-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -786,9 +791,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 211, "premise registry must contain exactly 211 rows")
+    require(len(rows) == 212, "premise registry must contain exactly 212 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 211, "duplicate premise id")
+    require(len(by_id) == 212, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3056,6 +3061,130 @@ def main() -> None:
         "G227 landing changed",
     )
     require(all(g227_package["checks"].values()), "G227 package check failed")
+    require(
+        by_id["G228"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__PREREGISTERED_AT_B54F4C51__ORIGINAL_PRE_OUTCOME_HASH_A9A9155D"
+        ),
+        "G228 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "ORTHOGONAL_84_SLOT_FULL_INDEX_ANCHOR",
+        "DIFFERENTIAL_BIANCHI_ROWS_RANK20",
+        "COMPATIBLE_MODULE_DIMENSION60",
+        "ONE_DIRECTION_RANK20_CODIM0",
+        "TWO_LINEARLY_INDEPENDENT_DIRECTIONS_RANK40_CODIM0",
+        "THREE_LINEARLY_INDEPENDENT_DIRECTIONS_RANK54_CODIM6",
+        "FOUR_DIRECTION_STAR_RANK60_CODIM20",
+        "MOVING_SCREEN_COMMUTATOR_EXACT",
+        "JACOBI_GENERATOR_HAMILTONIAN_AND_TRANSFER_SYMPLECTIC",
+        "WITHIN_JACOBI_IDENTICAL_FINITE_PHASE_DIFFERENT_INITIAL_TIDE_DERIVATIVE_WITNESS",
+        "ELEVEN_STRUCTURAL_CATCHES",
+        "THIRTEEN_AGGREGATE_CHECKS",
+        "NECESSARY_ALGEBRAIC_DIFFERENTIAL_BIANCHI_COMPATIBILITY_NOT_METRIC_3JET_OR_SMOOTH_METRIC_REALIZATION",
+        "NO_VALUE_GENERATION_SELECTED_TRANSPORT_OBSERVER_BRANCH_POPULATION_GLOBAL_HISTORY_DYNAMICS_SOURCE_ACTION_MATTER_BOOTSTRAP_BOUNDARY_XMAX_TRANSFER_OBSERVATION_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G228"]["current_status"], f"G228 guard absent: {guard}")
+    require(by_id["G228"]["epistemic_label"] == "MIXED", "G228 label changed")
+    require(
+        by_id["G228"]["active_use"]
+        == "ACTIVE_BOUNDED_NEIGHBORING_EVENT_FIRST_CURVATURE_VARIATION_AND_SCREEN_GAUGE_COMPATIBILITY_ONLY",
+        "G228 active scope widened",
+    )
+    require(
+        "necessary algebraic differential-Bianchi compatibility called metric-3jet or smooth-metric realization"
+        in by_id["G228"]["forbidden_regression"],
+        "G228 realization guard absent",
+    )
+    require(
+        "moving screen gauge called G225 selected physical transport"
+        in by_id["G228"]["forbidden_regression"],
+        "G228 transport-promotion guard absent",
+    )
+    require(
+        by_id["G228"]["controlling_source"]
+        == "udt_g228_neighboring_event_curvature_first_variation_2026-08-23/AUDIT_REPORT.md",
+        "G228 controlling source changed",
+    )
+    g228 = ROOT / "udt_g228_neighboring_event_curvature_first_variation_2026-08-23"
+    for name in (
+        "MAP.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_HASHES.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "MULTI_AGENT_ADVERSARIAL_REVIEW.md",
+        "REPAIR_VERIFICATION.md",
+        "derive_neighboring_curvature_first_variation.py",
+        "verify_neighboring_curvature_independent.py",
+        "verify_full_index_anchor.py",
+        "run_hostile_catches.py",
+        "verify_package.py",
+        "build_evidence_manifest.py",
+        "verify_evidence_manifest.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "FULL_INDEX_ANCHOR.json",
+        "HOSTILE_CATCH_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "SUBSET_CENSUS.tsv",
+        "SYZYGY_BASIS.json",
+        "RUN_LOG.txt",
+        "EVIDENCE_MANIFEST.tsv",
+    ):
+        require((g228 / name).is_file(), f"G228 evidence missing: {name}")
+    g228_result = json.loads((g228 / "DERIVATION_RESULT.json").read_text())
+    require(g228_result["raw_derivative_variables"] == 80, "G228 reduced variable count changed")
+    require(g228_result["differential_bianchi_generated_rows"] == 24,
+            "G228 generated Bianchi count changed")
+    require(g228_result["differential_bianchi_independent_rank"] == 20,
+            "G228 differential Bianchi rank changed")
+    require(g228_result["compatible_module_dimension"] == 60, "G228 module dimension changed")
+    require(g228_result["subset_count"] == 15 and g228_result["first_restricted_subset_size"] == 3,
+            "G228 subset classification changed")
+    require(g228_result["one_direction_surjective"] is True, "G228 one-direction surjectivity lost")
+    require(g228_result["all_screen_and_phase_checks_pass"] is True,
+            "G228 screen/phase identity failed")
+    require(
+        g228_result["landing"]
+        == "B_ONE_DIRECTION_SURJECTIVE__FIRST_RESTRICTION_AT_THREE_DIRECTIONS",
+        "G228 selected preregistered alternative changed",
+    )
+    g228_independent = json.loads((g228 / "INDEPENDENT_VERIFICATION.json").read_text())
+    require(g228_independent["differential_bianchi_independent_rank"] == 20,
+            "G228 independent Bianchi rank changed")
+    require(g228_independent["compatible_module_dimension"] == 60,
+            "G228 independent module dimension changed")
+    require(len(g228_independent["subset_census"]) == 15, "G228 independent subset census changed")
+    subset_classes = {
+        row["size"]: (row["image_rank"], row["target_dimension"], row["codimension"])
+        for row in g228_independent["subset_census"]
+    }
+    require(subset_classes == {1: (20, 20, 0), 2: (40, 40, 0), 3: (54, 60, 6), 4: (60, 80, 20)},
+            "G228 subset rank classes changed")
+    g228_anchor = json.loads((g228 / "FULL_INDEX_ANCHOR.json").read_text())
+    require(g228_anchor["raw_full_slot_variables"] == 84, "G228 full-slot anchor count changed")
+    require(g228_anchor["algebraic_bianchi_rank"] == 4, "G228 algebraic Bianchi anchor changed")
+    require(g228_anchor["combined_constraint_rank"] == 24, "G228 combined anchor rank changed")
+    require(g228_anchor["differential_incremental_rank"] == 20,
+            "G228 differential anchor rank changed")
+    require(g228_anchor["compatible_module_dimension"] == 60,
+            "G228 full-slot module dimension changed")
+    g228_hostile = json.loads((g228 / "HOSTILE_CATCH_RESULT.json").read_text())
+    require(g228_hostile["all_pass"] is True and g228_hostile["passed"] == g228_hostile["total"] == 11,
+            "G228 structural catches changed")
+    g228_package = json.loads((g228 / "VERIFICATION_RESULT.json").read_text())
+    require(g228_package["all_pass"] is True, "G228 package verification failed")
+    require(g228_package["passed"] == g228_package["total"] == 13,
+            "G228 package check count changed")
+    require(g228_package["first_restricted_subset_size"] == 3,
+            "G228 first restricted size changed")
+    require(g228_package["full_star_codimension"] == 20,
+            "G228 full-star codimension changed")
+    require(all(g228_package["checks"].values()), "G228 package check failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -7279,7 +7408,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G227-extended premise guards; PASS: 211-row premise "
+        "PASS: G228-extended premise guards; PASS: 212-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

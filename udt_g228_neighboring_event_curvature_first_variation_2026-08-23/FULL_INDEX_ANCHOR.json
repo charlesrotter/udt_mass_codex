@@ -1,0 +1,115 @@
+{
+  "algebraic_bianchi_rank": 4,
+  "combined_constraint_rank": 24,
+  "compatible_module_dimension": 60,
+  "differential_incremental_rank": 20,
+  "differential_rows_rank_before_combination": 24,
+  "raw_full_slot_variables": 84,
+  "subset_census": [
+    {
+      "image_rank": 20,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 20,
+      "key": "k",
+      "size": 1
+    },
+    {
+      "image_rank": 20,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 20,
+      "key": "l",
+      "size": 1
+    },
+    {
+      "image_rank": 20,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 20,
+      "key": "s1",
+      "size": 1
+    },
+    {
+      "image_rank": 20,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 20,
+      "key": "s2",
+      "size": 1
+    },
+    {
+      "image_rank": 40,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 40,
+      "key": "k+l",
+      "size": 2
+    },
+    {
+      "image_rank": 40,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 40,
+      "key": "k+s1",
+      "size": 2
+    },
+    {
+      "image_rank": 40,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 40,
+      "key": "k+s2",
+      "size": 2
+    },
+    {
+      "image_rank": 40,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 40,
+      "key": "l+s1",
+      "size": 2
+    },
+    {
+      "image_rank": 40,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 40,
+      "key": "l+s2",
+      "size": 2
+    },
+    {
+      "image_rank": 40,
+      "intrinsic_codimension": 0,
+      "intrinsic_target_dimension": 40,
+      "key": "s1+s2",
+      "size": 2
+    },
+    {
+      "image_rank": 54,
+      "intrinsic_codimension": 6,
+      "intrinsic_target_dimension": 60,
+      "key": "k+l+s1",
+      "size": 3
+    },
+    {
+      "image_rank": 54,
+      "intrinsic_codimension": 6,
+      "intrinsic_target_dimension": 60,
+      "key": "k+l+s2",
+      "size": 3
+    },
+    {
+      "image_rank": 54,
+      "intrinsic_codimension": 6,
+      "intrinsic_target_dimension": 60,
+      "key": "k+s1+s2",
+      "size": 3
+    },
+    {
+      "image_rank": 54,
+      "intrinsic_codimension": 6,
+      "intrinsic_target_dimension": 60,
+      "key": "l+s1+s2",
+      "size": 3
+    },
+    {
+      "image_rank": 60,
+      "intrinsic_codimension": 20,
+      "intrinsic_target_dimension": 80,
+      "key": "k+l+s1+s2",
+      "size": 4
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "all_screen_and_phase_checks_pass": true,
+  "all_subset_controls_pass": true,
+  "bianchi_matrix_sha256": "c3d8c8625620751ec1497ce089aa31ae84750581af4518371daffeaece90906d",
+  "compatible_module_dimension": 60,
+  "differential_bianchi_generated_rows": 24,
+  "differential_bianchi_independent_rank": 20,
+  "equation_labels": [
+    [
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      3,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      3,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      3,
+      0,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      2
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      2,
+      3
+    ]
+  ],
+  "first_restricted_subset_size": 3,
+  "kernel_matrix_sha256": "a6db92e6f5eced9f2fc6cb6ef5cb5a68152775d39c8e3e5f1509bb4586f6d5f6",
+  "landing": "B_ONE_DIRECTION_SURJECTIVE__FIRST_RESTRICTION_AT_THREE_DIRECTIONS",
+  "null_tetrad": {
+    "basis_determinant": "-1",
+    "gram": {
+      "k_k": "0",
+      "k_l": "-1",
+      "k_s1": "0",
+      "k_s2": "0",
+      "l_k": "-1",
+      "l_l": "0",
+      "l_s1": "0",
+      "l_s2": "0",
+      "s1_k": "0",
+      "s1_l": "0",
+      "s1_s1": "1",
+      "s1_s2": "0",
+      "s2_k": "0",
+      "s2_l": "0",
+      "s2_s1": "0",
+      "s2_s2": "1"
+    },
+    "k_dot_l": "-1",
+    "k_null": true,
+    "l_null": true,
+    "spans_tangent_space": true
+  },
+  "one_direction_surjective": true,
+  "raw_derivative_variables": 80,
+  "screen_and_phase": {
+    "covariant_tide_identity": true,
+    "hamiltonian_generator": true,
+    "moving_tide_symmetric": true,
+    "omega_skew": true,
+    "omitted_commutator_detected": true,
+    "phase_change_identity": true,
+    "rational_control_exact": true,
+    "rational_omitted_commutator": [
+      [
+        "14/5",
+        "-77/5"
+      ],
+      [
+        "-77/5",
+        "-14/5"
+      ]
+    ]
+  },
+  "subset_count": 15
+}
