@@ -14,7 +14,8 @@ __NO_SCREEN_MAP_OR_INDEPENDENT_DIRECT_RELATION_IS_DERIVED
 Grade:
 
 ```text
-DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING
+DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_REPAIR
+__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP
 ```
 
 ## Result
@@ -67,4 +68,6 @@ needed for physical relation composition. The result is therefore graded
 - 220,003 independent assertions;
 - fixed unequal-null-direction witness;
 - independent-direct-relation counterexamples;
-- fresh external adversarial review: pending.
+- fresh external adversarial review: `ACCEPT_WITH_REPAIRS`, scientific grade `A-`;
+- sole documentation repair implemented and mechanically verified;
+- repair-only external follow-up: pending.

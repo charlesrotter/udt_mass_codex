@@ -19,5 +19,7 @@ S_B=\mu_{BC,B}^{-1}\circ\mu_{AB,B}.
 This possibility was not available to G223's deliberately abstract cross-ribbon question.  It
 appears only after the shared event and its actual observer clock are made part of the type.
 
-The same construction cannot compare different middle events without additional transport, and
-it says nothing by itself about the two-dimensional normal screens.
+At distinct observer events, the same metric clock functionals still define an abstract line
+normalization. What is unavailable without shared incidence is physical vertex composition; the
+construction supplies neither ambient direction transport nor a map of the two-dimensional normal
+screens.

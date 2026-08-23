@@ -9,4 +9,4 @@ distinct_event_abstract_normalization	DERIVED_CONDITIONAL	EXACT_DERIVATION.md se
 screen_or_Jacobi_map	NOT_DERIVED	EXACT_DERIVATION.md section 7	separate complete-metric channel
 universal_null_pair_protocol	OPEN	outside G224	not selected by local theorem
 physical_history_and_relation_population	OPEN	outside G224	not selected by local theorem
-G224_landing	INTERNALLY_VERIFIED_PENDING_EXTERNAL	24 symbolic checks plus 220003 exact-rational assertions	bounded declared regime
+G224_landing	EXTERNALLY_ACCEPTED_WITH_REPAIR__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP	A- review; 24 symbolic checks plus 220003 exact-rational assertions	bounded declared regime

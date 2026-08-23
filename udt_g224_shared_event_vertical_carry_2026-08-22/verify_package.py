@@ -42,6 +42,9 @@ REQUIRED = (
     "run_catch_proofs.py",
     "CATCH_PROOF_RESULT.json",
     "ADVERSARIAL_REVIEW_REQUEST.md",
+    "FRESH_ADVERSARIAL_REVIEW.md",
+    "REPAIR_PREREGISTRATION.md",
+    "REPAIR_IMPLEMENTATION.md",
     "build_review_intake.py",
 )
 
@@ -114,7 +117,7 @@ def validate_payloads(
     require(final["status"] == "PASS", "final status")
     require(
         final["grade"]
-        == "DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING",
+        == "DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_REPAIR__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP",
         "final grade",
     )
     require(final["preregistration_commit"] == "a6b75622", "preregistration commit")
@@ -122,7 +125,7 @@ def validate_payloads(
     require(final["symbolic_checks"] == 24, "final symbolic count")
     require(final["independent_cases"] == 20000, "final case count")
     require(final["exact_rational_assertions"] == 220003, "final assertion count")
-    require(final["contract_mutations"] == 21, "mutation count")
+    require(final["contract_mutations"] == 24, "mutation count")
     require(final["shared_event_vertical_switch_unique"] is True, "final switch")
     require(final["vertical_carry_inverse_clock_representation"] is True, "final inverse carry")
     require(final["independent_direct_relation_constrained"] is False, "final direct boundary")
@@ -133,7 +136,10 @@ def validate_payloads(
         "final distinct normalization",
     )
     require(final["distinct_event_physical_composition_derived"] is False, "final composition")
-    require(final["fresh_external_review"] == "PENDING", "review status")
+    require(final["distinct_event_observation_repaired"] is True, "observation repair")
+    require(final["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "review status")
+    require(final["external_scientific_grade"] == "A-", "scientific grade")
+    require(final["repair_followup_review"] == "PENDING", "followup status")
     require(final["read_only_replay"] is True, "read-only replay")
     require(final["manifest_path_containment"] is True, "manifest containment")
     require(final["landing"] == LANDING, "final landing")
@@ -157,7 +163,7 @@ def main() -> None:
     catch = json.loads((ROOT / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     validate_payloads(derivation, independent, final)
     require(catch["status"] == "PASS", "catch status")
-    require(catch["mutations_rejected"] == 21, "catch mutation count")
+    require(catch["mutations_rejected"] == 24, "catch mutation count")
     require(catch["manifest_path_mutations_rejected"] == 2, "manifest path mutation count")
 
     exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
@@ -165,6 +171,22 @@ def main() -> None:
     require("A_WITH_DISTINCT_EVENT_SCOPE_CORRECTION" in exact, "scope correction missing")
     require("independently supplied direct" in exact, "direct relation boundary missing")
     require("does not supply" in exact, "screen ceiling missing")
+
+    observation = (ROOT / "OBSERVATION.md").read_text(encoding="utf-8")
+    require(
+        "At distinct observer events, the same metric clock functionals still define an abstract line"
+        in observation,
+        "distinct-event repair missing",
+    )
+    require(
+        "cannot compare different middle events without additional transport" not in observation,
+        "stale distinct-event sentence retained",
+    )
+    require("physical vertex composition" in observation, "composition boundary missing")
+
+    review = (ROOT / "FRESH_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8")
+    require("ACCEPT_WITH_REPAIRS" in review, "external review verdict missing")
+    require("Scientific grade: `A-`" in review, "external grade missing")
 
     before = tree_hashes()
     env = dict(os.environ)
@@ -184,7 +206,8 @@ def main() -> None:
 
     print(
         "PASS: G224 package; 8 sources; 24 symbolic checks; 20,000 independent cases; "
-        "220,003 exact-rational assertions; 21 contract mutations; true no-write replay"
+        "220,003 exact-rational assertions; 24 contract mutations; repaired observation scope; "
+        "true no-write replay"
     )
 
 

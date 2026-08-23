@@ -14,8 +14,10 @@ claim coverage of screens, paths, branch populations, or histories.
 
 ## 3. Independently verified
 
-**PASS internally.** The load-bearing formulas were replayed without SymPy on 20,000 exact-rational
-cases. A fresh external adversarial review remains pending.
+**PASS with one implemented documentation repair.** The load-bearing formulas were replayed without
+SymPy on 20,000 exact-rational cases. A fresh external `gpt-5.4` review returned
+`ACCEPT_WITH_REPAIRS`, scientific grade `A-`, and found no mathematical defect. Its sole wording
+repair is implemented; repair-only follow-up remains pending.
 
 ## 4. Every premise audited
 
@@ -25,5 +27,6 @@ theorems, the G176 working interpretation, omitted channels, and forbidden promo
 ## Current banking grade
 
 ```text
-DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING
+DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_REPAIR
+__REPAIR_IMPLEMENTED_PENDING_FOLLOWUP
 ```
