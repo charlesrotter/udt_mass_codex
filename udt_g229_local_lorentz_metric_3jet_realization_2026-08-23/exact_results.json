@@ -1,0 +1,111 @@
+{
+  "all_exact_checks_pass": true,
+  "checks": {
+    "c2_kernel_equals_cubic_gauge_by_rank": true,
+    "c3_kernel_equals_quartic_gauge_by_rank": true,
+    "c3_satisfies_differential_bianchi": true,
+    "cubic_gauge_in_c2_kernel": true,
+    "h_inverse_is_normal": true,
+    "h_inverse_is_right_inverse": true,
+    "k_inverse_is_normal": true,
+    "k_inverse_realizes_compatible_basis": true,
+    "normal2_restriction_isomorphism": true,
+    "normal2_uniquely_fixes_cubic_gauge": true,
+    "normal3_restriction_isomorphism": true,
+    "normal3_uniquely_fixes_quartic_gauge": true,
+    "quartic_gauge_in_c3_kernel": true
+  },
+  "conventions": {
+    "algebraic_bianchi": "Q[01,23]-Q[02,13]+Q[03,12]=0",
+    "c2": "1/2(H_ad,bc+H_bc,ad-H_bd,ac-H_ac,bd)",
+    "c3": "1/2(K_ad,bce+K_bc,ade-K_bd,ace-K_ac,bde)",
+    "curvature": "R^rho_(sigma mu nu)=partial_mu Gamma^rho_(nu sigma)-partial_nu Gamma^rho_(mu sigma)+GammaGamma-GammaGamma",
+    "eta": "diag(-1,+1,+1,+1)",
+    "normal2": "H_i(j,kl)=0",
+    "normal3": "K_i(j,klm)=0"
+  },
+  "coordinate_gauge_derivation": {
+    "cubic_change": "x^a=y^a+(1/6)A^a_bcd y^b y^c y^d",
+    "cubic_metric_jet": "Delta K_ij,cde=B_(j i cde)+B_(i j cde)",
+    "lowering": "A_(a bcd)=eta_ae A^e_bcd and likewise for B",
+    "quadratic_metric_jet": "Delta H_ij,cd=A_(j i cd)+A_(i j cd)",
+    "quartic_change": "x^a=y^a+(1/24)B^a_bcde y^b y^c y^d y^e",
+    "tangent_frame": "The identity linear part fixes the tangent frame. Residual linear Lorentz changes would only change components; they are outside the fixed-frame kernel test."
+  },
+  "dimensions": {
+    "algebraic_curvature": 20,
+    "compatible_curvature_derivative": 60,
+    "cubic_coordinate_gauge": 80,
+    "metric_2jet": 100,
+    "metric_3jet": 200,
+    "quartic_coordinate_gauge": 140,
+    "reduced_curvature_derivative": 80
+  },
+  "expected_ranks": {
+    "c2": 20,
+    "c2_on_normal2": 20,
+    "c3": 60,
+    "c3_on_normal3": 60,
+    "compatible_basis": 60,
+    "cubic_gauge": 80,
+    "differential_bianchi": 20,
+    "h_inverse": 20,
+    "k_inverse": 60,
+    "normal2_constraints": 80,
+    "normal2_on_cubic_gauge": 80,
+    "normal2_slice": 20,
+    "normal3_constraints": 140,
+    "normal3_on_quartic_gauge": 140,
+    "normal3_slice": 60,
+    "quartic_gauge": 140
+  },
+  "finite_polynomial_witness": {
+    "metric": "g_ab(x)=eta_ab+(1/2)H_ab,cd x^c x^d+(1/6)K_ab,cde x^c x^d x^e",
+    "origin_first_derivative": "0",
+    "origin_metric": "eta_ab",
+    "origin_second_derivative": "H_ab,cd",
+    "origin_third_derivative": "K_ab,cde",
+    "radial_normal_coordinate_identity": "g_ab(x)x^b=eta_ab x^b exactly for this cubic polynomial because H_a(b,cd)=0 and K_a(b,cde)=0; hence radial coordinate lines are affinely parametrized geodesics.",
+    "scope": "local supplied point-jet realization only",
+    "signature_statement": "For each supplied finite coefficient set, continuity of the eigenvalues and det(g(0))=-1 gives a data-dependent open neighborhood of the origin with Lorentz signature; no uniform radius is claimed."
+  },
+  "landing": "FULL_LOCAL_3JET_REALIZATION__COORDINATE_KERNELS_80_AND_140",
+  "matrix_sha256": {
+    "c2": "fdc17064513ee78d5803f9d43032e1a75f517a1da53c0eeb1e98f5589f231e2a",
+    "c3": "22872b8442e8b5f452a34a2eb0bd69828f12029f13c4013cd01f307b002c2515",
+    "compatible_basis": "a6db92e6f5eced9f2fc6cb6ef5cb5a68152775d39c8e3e5f1509bb4586f6d5f6",
+    "cubic_gauge": "5b54383c66e5c743852db20fb29184e429a01393885feebbf5c4cf71624a190a",
+    "differential_bianchi": "c3d8c8625620751ec1497ce089aa31ae84750581af4518371daffeaece90906d",
+    "h_inverse": "761b4ec04a0e9e415362d1d53791beb34a6192d9513db7718f48146aba16a64f",
+    "k_inverse": "5323d9652281531d00f4db4a37f9323402fab11dee513f8d803cdcf6292ccde9",
+    "normal2_basis": "9ea321cba365757f5d8b5349c39de0d3d0db368232099874545483b63abf1347",
+    "normal2_constraints": "8f63ba17f81f4166082dae4c780fc3bf28180b7826389448358ee1cb34376df6",
+    "normal3_basis": "f11f1d9624aa8996a1032a0f89c512a7e96576f9f8306ecd1cfe57ff9446a558",
+    "normal3_constraints": "82697c076ea6f9995da2cea262b3a49ea17be4cc44db9f436f0669e13a6a1b83",
+    "quartic_gauge": "fd3ad00323c6f247b9c08bed894673b3330e8e7a8ce7c6594ad6b109cdcc2723"
+  },
+  "ranks": {
+    "c2": 20,
+    "c2_on_normal2": 20,
+    "c3": 60,
+    "c3_on_normal3": 60,
+    "compatible_basis": 60,
+    "cubic_gauge": 80,
+    "differential_bianchi": 20,
+    "h_inverse": 20,
+    "k_inverse": 60,
+    "normal2_constraints": 80,
+    "normal2_on_cubic_gauge": 80,
+    "normal2_slice": 20,
+    "normal3_constraints": 140,
+    "normal3_on_quartic_gauge": 140,
+    "normal3_slice": 60,
+    "quartic_gauge": 140
+  },
+  "scope_ceiling": "Every supplied compatible (R,nabla R) at one event is realized by a local Lorentz metric 3-jet. This does not generate values, a prescribed curvature field on a region, observer/null population, dynamics, or global history.",
+  "versions": {
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}

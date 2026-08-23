@@ -1,0 +1,21 @@
+{
+  "all_caught": true,
+  "catches": {
+    "c2_sign_mutant_detected": true,
+    "c3_sign_mutant_detected": true,
+    "global_history_promotion_blocked": true,
+    "non_bianchi_D_detected": true,
+    "omitted_normal3_family_detected": true,
+    "one_sided_quartic_index_wiring_detected": true,
+    "tangent_frame_scope_explicit": true,
+    "truncated_quartic_gauge_detected": true,
+    "unsymmetrized_K_inverse_detected": true
+  },
+  "control_notes": {
+    "omitted_normal3_rows": 35,
+    "shortened_normal3_rank": 105,
+    "shortened_quartic_gauge_rank": 139
+  },
+  "count": 9,
+  "landing": "ALL_HOSTILE_MUTATIONS_CAUGHT"
+}

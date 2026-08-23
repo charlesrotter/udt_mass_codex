@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215--G228 | `Phi=-log T`; carry, phase, curvature variation | Population; transport; realization; global network |
+| Pair-clock network | G215--G229 | Scalar, carry, phase, curvature jet, realization | Population; transport; regional/global values |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -44,8 +44,9 @@
 | G224 shared-event scalar carry | external after repair | Unique line switch; inverse clock representation | Screen/direct/protocol open |
 | G225 shared-event screen carry | external after repairs | Proper least-turning isometry off antipodes; finite `O(2)` holonomy | Not selected transport; finite phase/population open |
 | G226 supplied-chain phase | externally verified | Exact `CSp^+(4,R)` clock/ruler interlock; caustic-safe full phase | No selected transport, direct relation, population, or history |
-| G227 same-event tomography | exact; scope-repaired | Generic-witness rank 19, `g wedge g` kernel; one `CHOSE` sectional datum gives rank 20 | Infinitesimal input; no 2-jet realization, values, population, or history |
-| G228 first variation | exact | Bianchi 20/80; dimension 60; 1/2 surjective, 3 codimension 6, star codimension 20 | Algebraic; no realization/history |
+| G227 same-event tomography | exact; scope-repaired | Rank 19; `g wedge g` kernel; `CHOSE` section gives 20 | No values/population/history |
+| G228 first variation | exact | Bianchi dimension 60; subset ranks 20/40/54/60 | Algebraic only |
+| G229 metric 3-jet realization | exact; independent | Every compatible point jet has a smooth Lorentz representative; gauge kernels 80/140 | No regional field, values, or history |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -70,9 +71,8 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
   is an envelope control.
-- G212--G228 close state/descent, clock jet, null plane, local carry, screen holonomy, full phase,
-  same-event curvature, and neighboring first-variation compatibility. Metric realization,
-  population, selected transport, global ownership, values, transfer, and completion stay open.
+- G212--G229 close local state/descent, clock/null carry, phase, curvature compatibility, and
+  one-event metric realization. Regional fields, population, transport, values, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -106,7 +106,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 212-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 213-row authority. On conflict, stop.
 
 Run:
 

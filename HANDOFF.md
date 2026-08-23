@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G228 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G229 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -32,15 +32,17 @@ sectional datum gives rank 20; four held-out directions are predicted. It needs 
 affine generator/short-edge jet, not an isolated finite G226 matrix. The landing is
 **algebraic-curvature compatibility**, not metric-germ realization, history, or population.
 
-G228 supplies the next exact neighboring-event layer. Differential Bianchi has independent rank 20
-on the 80-component reduced algebraic `(nabla R)` arena, leaving dimension 60. All frozen one- and
-linearly independent two-direction projections are surjective; each frozen independent
-three-direction tile has six syzygies, and the full four-direction star has twenty. The
-parallel/moving-screen derivative laws and Hamiltonian Jacobi generator are exact. Production,
-independent Fraction replay, an orthogonal 84-slot full-index anchor, eleven hostile catches, and
-three fresh adversarial agents verified the bounded result. It is necessary algebraic
-first-variation compatibility, not metric-3-jet realization, value generation, selected transport,
-population, or history.
+G228: differential Bianchi rank 20 cuts 80 reduced `(nabla R)` components to 60. One/two-direction
+projections are surjective; triples have six syzygies and the full star twenty. Exact production,
+independent Fraction replay, the 84-slot anchor, hostile catches, and adversaries verify algebraic
+first variation only—not metric realization, values, transport, population, or history.
+
+G229 then proves the missing local metric-jet bridge. At one supplied event and fixed tangent
+frame, `C2` has rank/kernel `20/80` and `C3` has `60/140`; the kernels are exactly higher
+coordinate gauge. Normal-coordinate slices are isomorphic, the inverse tensors give a smooth local
+polynomial Lorentz representative, and the G188/G227/G228 projections and Jacobi sign recover.
+This realizes supplied point data only. It does not generate values, prescribe a curvature field
+over a region, populate relations, derive dynamics, or select a history.
 
 G197 excludes earlier fit, transfer, `X_max`, and protected payload. G176 remains working;
 G190--G198 remain chosen-family, formula-level regression, or off-ray controls. Route G199--G214
@@ -65,13 +67,13 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next test local metric-3-jet realization: whether every G227/G228-compatible `(R,nabla R)` is the
-curvature 1-jet of a Lorentz-metric 3-jet in normal coordinates, with its coordinate-gauge kernel
-classified and its null-screen/Jacobi projections recovered. Keep algebraic compatibility,
-metric-jet realization, smooth extension, and value generation distinct. Do not infer curvature
-from isolated finite transfers, promote G225's pointwise map into selected transport, force a
-direct relation, or infer population/history. Keep null query-typed and return distinct from
-inversion. Do not fit, activate protected drafts, identify `X_max`, select transfer/history, or use
-G116/G189. All other open ownership remains controlled by the 212-row exact registry.
+Next PONDER whether to extend one order higher at a point or test finite-neighborhood compatibility
+of smoothly prescribed curvature data and overlapping realized jets. The latter is closer to the
+remaining history bridge, but it is still not value generation or a physical-history selector. Do
+not infer curvature from isolated finite transfers, promote G225's pointwise map into selected
+transport, force a direct relation, or infer population/history. Keep null query-typed and return
+distinct from inversion. Do not fit, activate protected drafts, identify `X_max`, select
+transfer/history, or use G116/G189. All other open ownership remains controlled by the 213-row
+exact registry.
 
 <!-- STARTUP_CURRENT_END -->

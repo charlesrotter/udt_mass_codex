@@ -1,0 +1,136 @@
+{
+  "all_checks_pass": true,
+  "g188_jacobi_sign_bridge": {
+    "first_order_generator": "Matrix([[0, 0, 1, 0], [0, 0, 0, 1], [-1, 0, 0, 0], [0, 0, 0, 0]])",
+    "frozen_equation": "D''+T D=0",
+    "lower_left_block_equals_minus_tide": true,
+    "nonzero_realized_tide": "Matrix([[1, 0], [0, 0]])",
+    "nonzero_sign_witness": true,
+    "third_vertex_derivative": "D'''(0)=-T",
+    "tidal_definition": "T_AB=R(S_A,k,S_B,k)"
+  },
+  "g227": {
+    "expected_augmented_rank": 20,
+    "expected_null_rank": 19,
+    "null_tide_map_rank_after_metric_realization": 19,
+    "timelike_augmented_rank_after_metric_realization": 20
+  },
+  "g228": {
+    "subset_census": [
+      {
+        "codimension": 0,
+        "image_rank": 20,
+        "key": "k",
+        "size": 1,
+        "target_dimension": 20
+      },
+      {
+        "codimension": 0,
+        "image_rank": 20,
+        "key": "l",
+        "size": 1,
+        "target_dimension": 20
+      },
+      {
+        "codimension": 0,
+        "image_rank": 20,
+        "key": "s1",
+        "size": 1,
+        "target_dimension": 20
+      },
+      {
+        "codimension": 0,
+        "image_rank": 20,
+        "key": "s2",
+        "size": 1,
+        "target_dimension": 20
+      },
+      {
+        "codimension": 0,
+        "image_rank": 40,
+        "key": "k+l",
+        "size": 2,
+        "target_dimension": 40
+      },
+      {
+        "codimension": 0,
+        "image_rank": 40,
+        "key": "k+s1",
+        "size": 2,
+        "target_dimension": 40
+      },
+      {
+        "codimension": 0,
+        "image_rank": 40,
+        "key": "k+s2",
+        "size": 2,
+        "target_dimension": 40
+      },
+      {
+        "codimension": 0,
+        "image_rank": 40,
+        "key": "l+s1",
+        "size": 2,
+        "target_dimension": 40
+      },
+      {
+        "codimension": 0,
+        "image_rank": 40,
+        "key": "l+s2",
+        "size": 2,
+        "target_dimension": 40
+      },
+      {
+        "codimension": 0,
+        "image_rank": 40,
+        "key": "s1+s2",
+        "size": 2,
+        "target_dimension": 40
+      },
+      {
+        "codimension": 6,
+        "image_rank": 54,
+        "key": "k+l+s1",
+        "size": 3,
+        "target_dimension": 60
+      },
+      {
+        "codimension": 6,
+        "image_rank": 54,
+        "key": "k+l+s2",
+        "size": 3,
+        "target_dimension": 60
+      },
+      {
+        "codimension": 6,
+        "image_rank": 54,
+        "key": "k+s1+s2",
+        "size": 3,
+        "target_dimension": 60
+      },
+      {
+        "codimension": 6,
+        "image_rank": 54,
+        "key": "l+s1+s2",
+        "size": 3,
+        "target_dimension": 60
+      },
+      {
+        "codimension": 20,
+        "image_rank": 60,
+        "key": "k+l+s1+s2",
+        "size": 4,
+        "target_dimension": 80
+      }
+    ],
+    "subset_count": 15,
+    "subset_pattern_pass": true
+  },
+  "landing": "G227_G228_PROJECTIONS_RECOVERED_FROM_REALIZED_METRIC_JETS",
+  "scope": "Regression recovery of conditional contractions only; no screen choice, values, observer population, transport, or history is selected.",
+  "universal_composition_checks": {
+    "C2_Hinverse_identity": true,
+    "C3_Kinverse_compatible_basis": true,
+    "therefore_every_linear_null_screen_or_jacobi_contraction_recovers": true
+  }
+}

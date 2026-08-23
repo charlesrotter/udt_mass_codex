@@ -1,0 +1,24 @@
+{
+  "all_pass": true,
+  "checks": {
+    "fixed_tangent_frame_scope_guard": true,
+    "g188_g227_g228_projection_recovery": true,
+    "g188_nonzero_jacobi_sign_bridge": true,
+    "hostile_mutations_9_of_9": true,
+    "independent_full_21_84_slot_replay": true,
+    "normal_slices_uniquely_fix_coordinate_gauge": true,
+    "preregistration_hash_frozen": true,
+    "production_exact_alternative_A": true,
+    "saved_machine_artifacts_match_replay": true,
+    "shared_gauge_and_normal_hashes_match": true,
+    "smooth_witness_is_data_dependent_local_only": true,
+    "source_manifest_hashes_match_prereg_commit": true,
+    "value_history_nonpromotion_guard": true
+  },
+  "landing": "FULL_LOCAL_3JET_REALIZATION__COORDINATE_KERNELS_80_AND_140",
+  "passed": 13,
+  "preregistration_commit": "7ce01c20",
+  "saved_artifacts_checked": true,
+  "scope": "one supplied event, fixed tangent frame, metric through cubic Taylor order",
+  "total": 13
+}

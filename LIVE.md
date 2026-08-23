@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G228. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G229. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -59,6 +59,15 @@ independent Fraction replay, an orthogonal 84-slot anchor, eleven hostile catche
 adversarial reviews verified this necessary algebraic compatibility—not metric-3-jet/smooth-metric
 realization, value generation, selected transport, population, or history.
 
+G229 closes the next local realization gap. At one supplied event and fixed tangent frame, the
+complete locally inertial metric 2-jet and 3-jet maps have ranks 20 and 60 with kernels 80 and 140,
+exactly the cubic and quartic coordinate-gauge images. Geodesic-normal slices have dimensions 20
+and 60 and are isomorphic to the complete G227/G228 targets. The explicit inverse tensors give a
+smooth cubic polynomial Lorentz metric on a data-dependent neighborhood, and the G188/G227/G228
+projection ranks and Jacobi sign are recovered. This is a supplied **point-jet realization**: it
+does not generate curvature values, realize a prescribed field across a region, populate queries,
+derive dynamics, or select a global metric history.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -71,7 +80,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 212-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 213-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -95,12 +104,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Close the next local reconstruction gap without inventing a history law: determine whether every
-G227/G228-compatible pair `(R,nabla R)` at one supplied event is realized by a Lorentz-metric
-3-jet in normal coordinates, and classify the coordinate-gauge kernel. Require its null-screen and
-Jacobi projections to reproduce the existing G227/G228 data. Preregister algebraic compatibility,
-metric-jet realization, and value generation as three distinct outcomes. Do not infer a smooth
-metric neighborhood or global history from a point jet, infer curvature from isolated finite G226
-matrices, promote G225 into selected transport, infer observer/null population, fit, identify
-`X_max`, activate protected drafts, or use G116/G189 as construction inputs.
+PONDER before another solve: distinguish one-order-higher point-jet compatibility from the more
+relevant finite-neighborhood compatibility of a smoothly prescribed curvature field and its
+overlapping realized jets. Ask whether existing differential identities suffice for local overlap
+or whether a higher compatibility condition appears. Do not confuse regional compatibility with
+curvature-value generation or a physical-history selector. Do not infer curvature from isolated
+finite G226 matrices, promote G225 into selected transport, infer observer/null population, fit,
+identify `X_max`, activate protected drafts, or use G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->

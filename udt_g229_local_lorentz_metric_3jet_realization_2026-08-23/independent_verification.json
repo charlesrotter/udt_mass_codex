@@ -1,0 +1,67 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "c2_obeys_algebraic_bianchi": true,
+    "c3_obeys_all_24_independent_constraints": true,
+    "cubic_gauge_is_exact_kernel": true,
+    "h_inverse_complete_basis": true,
+    "h_inverse_normal": true,
+    "k_inverse_complete_basis": true,
+    "k_inverse_normal": true,
+    "quartic_gauge_is_exact_kernel": true
+  },
+  "expected_ranks": {
+    "algebraic_bianchi": 1,
+    "c2_full21": 20,
+    "c2_on_normal2": 20,
+    "c3_full84": 60,
+    "c3_on_normal3": 60,
+    "combined_D_constraints": 24,
+    "compatible_D_basis": 60,
+    "cubic_gauge": 80,
+    "normal2_constraints": 80,
+    "normal2_on_cubic_gauge": 80,
+    "normal2_slice": 20,
+    "normal3_constraints": 140,
+    "normal3_on_quartic_gauge": 140,
+    "normal3_slice": 60,
+    "quartic_gauge": 140
+  },
+  "landing": "INDEPENDENT_FULL_21_84_SLOT_REPLAY_PASS",
+  "matrix_sha256": {
+    "c2_full21": "ca6476a597cf09825ee4ea42a0b5e5f73fca5782ae2fa90cec469477c09746a2",
+    "c3_full84": "a1ea68d5e7b2ff01975b3b301ca985e21dbc84dc9da7a7ecb606270a25a26a1e",
+    "combined_D_constraints": "4f1f54069608880366a946be47b60d1ff5ef994ff56ca21e234bc81fe5cfc176",
+    "cubic_gauge": "5b54383c66e5c743852db20fb29184e429a01393885feebbf5c4cf71624a190a",
+    "h_inverse_full_basis": "a5d8b8b852a0c91e8976dfb11ddce637043fc92f4ac5ad7b5e508c67b08253dd",
+    "k_inverse_full_basis": "1e86805801142388be49d292d9c2a1fb25d3b0e6c627a40ff3de79ee14a1be56",
+    "normal2_constraints": "8f63ba17f81f4166082dae4c780fc3bf28180b7826389448358ee1cb34376df6",
+    "normal3_constraints": "82697c076ea6f9995da2cea262b3a49ea17be4cc44db9f436f0669e13a6a1b83",
+    "quartic_gauge": "fd3ad00323c6f247b9c08bed894673b3330e8e7a8ce7c6594ad6b109cdcc2723"
+  },
+  "ranks": {
+    "algebraic_bianchi": 1,
+    "c2_full21": 20,
+    "c2_on_normal2": 20,
+    "c3_full84": 60,
+    "c3_on_normal3": 60,
+    "combined_D_constraints": 24,
+    "compatible_D_basis": 60,
+    "cubic_gauge": 80,
+    "normal2_constraints": 80,
+    "normal2_on_cubic_gauge": 80,
+    "normal2_slice": 20,
+    "normal3_constraints": 140,
+    "normal3_on_quartic_gauge": 140,
+    "normal3_slice": 60,
+    "quartic_gauge": 140
+  },
+  "representation": "standard-library Fraction; full 21 symmetric-bivector R slots and 84 D slots; Bianchi constraints imposed independently",
+  "scope": "independent exact finite-dimensional replay; no history/value generation",
+  "shared_matrix_hash_matches_production": {
+    "cubic_gauge": true,
+    "normal2_constraints": true,
+    "normal3_constraints": true,
+    "quartic_gauge": true
+  }
+}

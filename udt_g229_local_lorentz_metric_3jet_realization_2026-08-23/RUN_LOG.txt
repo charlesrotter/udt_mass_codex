@@ -1,0 +1,59 @@
+G229 LOCAL LORENTZ-METRIC 3-JET REALIZATION RUN LOG
+Date: 2026-08-23
+
+PRE-OUTCOME BANK
+  commit: 7ce01c20
+  preregistration_sha256: 610eac53da7ace52dae4630895eec25cb44025d3be3fd644edf5bab111dd0280
+
+PRODUCTION
+  command: python3 derive_metric_3jet_realization.py
+  result: PASS
+  landing: FULL_LOCAL_3JET_REALIZATION__COORDINATE_KERNELS_80_AND_140
+  C2 rank/kernel: 20/80
+  C3 rank/kernel: 60/140
+  normal constraint ranks: 80/140
+  normal restricted ranks: 20/60
+  normal-on-gauge ranks: 80/140
+
+INDEPENDENT REPLAY
+  command: python3 verify_metric_3jet_independent.py
+  result: PASS
+  arithmetic: standard-library Fraction, custom RREF
+  representation: full 21 curvature slots and full 84 derivative slots
+  C2/C3 ranks: 20/60
+  combined D-constraint rank: 24
+  shared gauge/normal hashes: 4/4 exact matches
+
+HOSTILE CONTROLS
+  first run: 8/9; one invalid sign-lowering reparameterization control retired and disclosed
+  repaired command: python3 hostile_mutation_tests.py
+  repaired result: 9/9 valid mutants caught
+
+PROJECTION RECOVERY
+  command: python3 verify_g227_g228_projection_recovery.py
+  result: PASS
+  G227 ranks: 19 null / 20 augmented
+  G228 subset ranks: 20, 40, 54, 60 by subset size
+  nonzero tide: diag(1,0)
+  Jacobi generator lower-left: -diag(1,0)
+
+NO-WRITE REPLAY
+  first aggregate: 11/13; two Markdown line-wrap prose guards falsely red
+  repair: normalize report whitespace before scope-string checks
+  command: python3 verify_package.py
+  final replay: PASS 13/13
+  registered no-write replay: PASS 13/13, saved JSON identical
+
+FRESH ADVERSARIAL REVIEW
+  algebra reviewer: BOUNDED_ACCEPTANCE
+  projection/sign reviewer: ACCEPTED
+  evidence repair follow-up: REPAIRS_ACCEPTED
+  repository edits by reviewers: none
+
+FINAL MANIFEST
+  command: python3 build_evidence_manifest.py
+  result: 27 payload rows plus manifest; exact verification required before banking
+
+SCOPE
+  One supplied event, fixed tangent frame, metric through cubic Taylor order.
+  No value generation, prescribed regional field, observer population, dynamics, or history.

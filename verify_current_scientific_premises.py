@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G228",
+            "G166--G229",
             "G197",
             "G215",
             "G216",
@@ -209,6 +209,7 @@ def validate_startup_surface(root: Path) -> None:
             "G226",
             "G227",
             "G228",
+            "G229",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -251,7 +252,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "212-row exact registry",
+            "213-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -326,7 +327,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G228",
+            "G166--G229",
             "G197",
             "G198",
             "G199",
@@ -360,6 +361,7 @@ def validate_startup_surface(root: Path) -> None:
             "G226",
             "G227",
             "G228",
+            "G229",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -406,6 +408,7 @@ def validate_startup_surface(root: Path) -> None:
             "G226",
             "G227",
             "G228",
+            "G229",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -447,10 +450,11 @@ def validate_startup_surface(root: Path) -> None:
             "G226",
             "G227",
             "G228",
+            "G229",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "212-row",
+            "213-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -791,9 +795,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 212, "premise registry must contain exactly 212 rows")
+    require(len(rows) == 213, "premise registry must contain exactly 213 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 212, "duplicate premise id")
+    require(len(by_id) == 213, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3185,6 +3189,138 @@ def main() -> None:
     require(g228_package["full_star_codimension"] == 20,
             "G228 full-star codimension changed")
     require(all(g228_package["checks"].values()), "G228 package check failed")
+
+    require(
+        by_id["G229"]["current_status"].startswith(
+            "DERIVED_CONDITIONAL__PREREGISTERED_AT_7CE01C20__PRE_OUTCOME_HASH_610EAC53"
+        ),
+        "G229 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "ONE_SUPPLIED_EVENT",
+        "FIXED_TANGENT_FRAME",
+        "FULL_METRIC_2JET_DIM100_C2_RANK20_KERNEL80",
+        "FULL_METRIC_3JET_DIM200_C3_RANK60_KERNEL140",
+        "KERNELS_EXACTLY_CUBIC_AND_QUARTIC_COORDINATE_GAUGE",
+        "GEODESIC_NORMAL_CONSTRAINT_RANKS80_AND140",
+        "NORMAL_SLICES_DIM20_AND60_AND_RESTRICTED_MAPS_ISOMORPHIC",
+        "SMOOTH_CUBIC_POLYNOMIAL_LORENTZ_REPRESENTATIVE_ON_DATA_DEPENDENT_NEIGHBORHOOD",
+        "G188_G227_G228_PROJECTIONS_AND_NONZERO_JACOBI_SIGN_RECOVERED",
+        "NINE_VALID_HOSTILE_CATCHES",
+        "THIRTEEN_AGGREGATE_CHECKS",
+        "POINT_JET_REALIZATION_ONLY",
+        "NO_CURVATURE_VALUE_GENERATION_PRESCRIBED_REGIONAL_FIELD_OVERLAP_POPULATION_SELECTED_TRANSPORT_GLOBAL_HISTORY_DYNAMICS_SOURCE_ACTION_MATTER_BOOTSTRAP_BOUNDARY_XMAX_TRANSFER_OBSERVATION_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G229"]["current_status"], f"G229 guard absent: {guard}")
+    require(by_id["G229"]["epistemic_label"] == "MIXED", "G229 label changed")
+    require(
+        by_id["G229"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_EVENT_FIXED_FRAME_LORENTZ_METRIC_3JET_REALIZATION_AND_COORDINATE_KERNEL_CLASSIFICATION_ONLY",
+        "G229 active scope widened",
+    )
+    require(
+        "point-jet realization called generation of curvature values or selection of the UDT metric history"
+        in by_id["G229"]["forbidden_regression"],
+        "G229 value/history guard absent",
+    )
+    require(
+        "prescribed regional curvature field or neighboring overlap called proved"
+        in by_id["G229"]["forbidden_regression"],
+        "G229 regional-promotion guard absent",
+    )
+    require(
+        by_id["G229"]["controlling_source"]
+        == "udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/AUDIT_REPORT.md",
+        "G229 controlling source changed",
+    )
+    g229 = ROOT / "udt_g229_local_lorentz_metric_3jet_realization_2026-08-23"
+    for name in (
+        "MAP.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_HASHES.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "REPAIR_RECORD.md",
+        "MULTI_AGENT_ADVERSARIAL_REVIEW.md",
+        "RUN_LOG.txt",
+        "STATUS_LEDGER.tsv",
+        "NEXT_GATE.md",
+        "derive_metric_3jet_realization.py",
+        "verify_metric_3jet_independent.py",
+        "hostile_mutation_tests.py",
+        "verify_g227_g228_projection_recovery.py",
+        "verify_package.py",
+        "build_evidence_manifest.py",
+        "verify_evidence_manifest.py",
+        "test_metric_3jet_realization.py",
+        "exact_results.json",
+        "independent_verification.json",
+        "hostile_results.json",
+        "projection_recovery.json",
+        "verification_results.json",
+        "EVIDENCE_MANIFEST.tsv",
+    ):
+        require((g229 / name).is_file(), f"G229 evidence missing: {name}")
+    g229_result = json.loads((g229 / "exact_results.json").read_text())
+    require(g229_result["all_exact_checks_pass"] is True, "G229 production exact checks failed")
+    require(
+        g229_result["landing"]
+        == "FULL_LOCAL_3JET_REALIZATION__COORDINATE_KERNELS_80_AND_140",
+        "G229 landing changed",
+    )
+    for key, expected in (
+        ("c2", 20),
+        ("c3", 60),
+        ("cubic_gauge", 80),
+        ("quartic_gauge", 140),
+        ("normal2_constraints", 80),
+        ("normal3_constraints", 140),
+        ("normal2_slice", 20),
+        ("normal3_slice", 60),
+        ("normal2_on_cubic_gauge", 80),
+        ("normal3_on_quartic_gauge", 140),
+    ):
+        require(g229_result["ranks"][key] == expected, f"G229 rank changed: {key}")
+    require(all(g229_result["checks"].values()), "G229 production identity failed")
+    g229_independent = json.loads((g229 / "independent_verification.json").read_text())
+    require(g229_independent["all_checks_pass"] is True, "G229 independent replay failed")
+    require(g229_independent["ranks"]["c2_full21"] == 20, "G229 independent C2 rank changed")
+    require(g229_independent["ranks"]["c3_full84"] == 60, "G229 independent C3 rank changed")
+    require(
+        g229_independent["ranks"]["combined_D_constraints"] == 24,
+        "G229 independent D constraint rank changed",
+    )
+    require(
+        all(g229_independent["shared_matrix_hash_matches_production"].values()),
+        "G229 shared gauge/normal matrix hashes changed",
+    )
+    g229_hostile = json.loads((g229 / "hostile_results.json").read_text())
+    require(
+        g229_hostile["all_caught"] is True and g229_hostile["count"] == 9,
+        "G229 hostile controls changed",
+    )
+    g229_projection = json.loads((g229 / "projection_recovery.json").read_text())
+    require(g229_projection["all_checks_pass"] is True, "G229 projection recovery failed")
+    require(
+        g229_projection["g188_jacobi_sign_bridge"]["lower_left_block_equals_minus_tide"] is True,
+        "G229 Jacobi sign bridge changed",
+    )
+    g229_package = json.loads((g229 / "verification_results.json").read_text())
+    require(g229_package["all_pass"] is True, "G229 package verification failed")
+    require(
+        g229_package["passed"] == g229_package["total"] == 13,
+        "G229 package check count changed",
+    )
+    require(all(g229_package["checks"].values()), "G229 package check failed")
+    require(
+        hashlib.sha256((g229 / "PREREGISTRATION.md").read_bytes()).hexdigest()
+        == "610eac53da7ace52dae4630895eec25cb44025d3be3fd644edf5bab111dd0280",
+        "G229 preregistration hash changed",
+    )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -7408,7 +7544,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G228-extended premise guards; PASS: 212-row premise "
+        "PASS: G229-extended premise guards; PASS: 213-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
