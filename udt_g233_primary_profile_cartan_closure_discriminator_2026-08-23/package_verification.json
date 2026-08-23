@@ -1,0 +1,11 @@
+{
+  "all_pass": true,
+  "checks": {
+    "independent_evidence_valid": true,
+    "independent_no_write_replay_matches": true,
+    "initial_failure_preserved": true,
+    "production_evidence_valid": true,
+    "production_no_write_replay_matches": true,
+    "source_hashes_valid": true
+  }
+}

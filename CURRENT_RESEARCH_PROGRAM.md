@@ -55,19 +55,14 @@ physical scalar after the working premise. They must not be conflated.
 - G211 closes the diagonal scalar plane at rank two. G212 makes a valued pair network the metric
   state without generating its values. G213 retains spatial rank and density; G214 descends the
   completed tuple across calibrated covers.
-- G215--G217 derive the shared scalar `Phi=-log T`, supplied-germ law
-  `delta_AB=-log(d tau_B/d tau_A)`, and positive first jet—not incidence or the full germ.
-- G218 retypes incidence, depth, and jet as one query-indexed correspondence. G219 verifies the
-  moving-flat scalar factorization; null and Fermi/radar slopes differ, and inverse is not return.
-- G220 derives one supplied regular future-null slope covariantly. Its time-live base combines
-  lapse/ruler/shift in `C_+=A-N beta`, gives `r_AB=C_+B/C_+A`, and keeps later `C_-` return distinct.
-- G221 lifts that query to the complete `2+2` coframe: `Q,s_x,s_t` enter upstream before
-  `r_AB=W_A/W_B`. It constructs the clock chord, not the full plane or finite screen transport.
-- G222 derives the supplied affine-null plane, `det h=-a^2`, conditional `m=a`, and G188 normal
-  screen. G223 derives its invariant mixed line pairing, inverse clock weight, and local interval
-  integral; global gluing remains open.
-- G224 closes scalar vertical carry at an actual shared event: the unique line switch is the inverse
-  G216 clock representation. Distinct-event normalization is not vertex composition.
+- G215--G217 derive `Phi=-log T`, `delta_AB=-log(d tau_B/d tau_A)`, and the positive first jet—not
+  incidence or the full germ. G218--G219 type the correspondence and distinguish null, Fermi/radar,
+  inverse, and return.
+- G220 gives one supplied future-null slope with `C_+=A-N beta` and `r_AB=C_+B/C_+A`; `C_-` return
+  differs. G221 lifts it to the complete coframe, where `Q,s_x,s_t` enter before `r_AB=W_A/W_B`.
+- G222 gives the affine-null plane, `det h=-a^2`, conditional `m=a`, and G188 screen. G223 adds line
+  pairing, inverse clock weight, and local interval; global gluing stays open. G224 closes the
+  shared-event scalar switch; distinct-event normalization is not vertex composition.
 - G225 derives the proper least-turning pointwise screen isometry off antipodes and finite `O(2)`
   holonomy. It is a `STANDARD_GEOMETRIC_EVALUATOR`, not selected transport.
 - G226 assembles G188, G224, and G225 on one supplied chain. The endpoint-clock-normalized full
@@ -75,14 +70,10 @@ physical scalar after the working premise. They must not be conflated.
   Gauges and affine scales cancel; caustics retain an invertible full phase and matrix holonomy.
   External review and repair closure verified this without selecting transport, a direct relation,
   population, or history.
-- G227: supplied nine-direction normalized affine tides give rank 19, kernel `span(g wedge g)`, and
-  eight syzygies; one `CHOSE` timelike section restores rank 20. It is same-event algebraic
-  tomography—not isolated G226 inference, metric realization, values, population, or history.
-- G228: differential Bianchi cuts 80 `(nabla R)` components to 60. One/two projections are
-  surjective; triples have codimension 6 and the full star 20. This is algebraic first variation.
-- G229: every supplied compatible `(R,nabla R)` point jet has a smooth Lorentz representative in
-  normal coordinates. Metric-jet ranks are 20/60; 80/140 kernels are exactly coordinate gauge. It
-  does not prescribe regional data, generate values, or select history.
+- G227 tides have rank 19, kernel `span(g wedge g)`, and eight syzygies; one `CHOSE` section gives
+  20. G228 differential Bianchi cuts 80 `(nabla R)` components to 60. Both are algebraic.
+- G229 realizes compatible `(R,nabla R)` point jets; ranks are 20/60 and gauge kernels 80/140. It
+  prescribes no regional values.
 - G230: G227/G228 alone do not close the second-derivative overlap square. Differentiated Bianchi
   plus `[nabla_f,nabla_e]R=R acting on R` leave a 126-dimensional affine curvature-second-jet
   target. The metric fourth-jet map has rank 126/kernel 224, exactly fifth-order coordinate gauge,
@@ -95,16 +86,19 @@ physical scalar after the working premise. They must not be conflated.
 - G232 separates three ownership levels. One fully valued primary spherical member has an
   evaluative cohomogeneity-one Cartan descent; fixed-`n` G204 closes conditionally only because its
   finite family is `CHOSE`; a full valued pair network encodes but does not generate the profile.
-  The unrestricted-family finite-order obstruction is only preregistered until G233 replays it
-  directly and independently.
+- G233 externally verifies that identical complete finite curvature state can have a different next
+  invariant derivative at every finite order. This excludes universal local finite-order natural
+  autonomous closure on the unrestricted primary profile family, not nonlocal/global,
+  infinite-state, time-live, nonspherical, or metric-derived smaller-family closure.
 
-G206--G232 generate no sector function or `X_max`. Exact
+G206--G233 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
 `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`, and
-`udt_g231_cartan_regional_realization_bridge_2026-08-23/`. Current whiteboard bridge:
-`udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`. Evaluator:
+`udt_g231_cartan_regional_realization_bridge_2026-08-23/`. Current closure bridge:
+`udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/` and
+`udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -112,9 +106,9 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 ## Current open joints
 
 - The primary spherical slice/profile are supplied. G211--G231 close local basis, descent, clock
-  incidence/rate/jet, point jets, and regional architecture. G232 shows that one valued member
-  already has a native evaluative Cartan descent, while the family-uniform finite closure question
-  still needs the preregistered invariant collision test. None generates population or profile values.
+  incidence/rate/jet, point jets, and regional architecture. G232/G233 show that a valued member
+  evaluates natively but no universal local finite-order law closes the unrestricted family. None
+  generates population or profile values; nonlocal/global and smaller-family routes remain open.
 - G222--G226 close one supplied null plane, local line/fiber and scalar carry, pointwise screen
   comparison, and full chain phase. G227--G231 then close common algebraic curvature, differential
   first variation, metric 3-jet realization, and the first nonlinear curvature-second-jet/metric-4-jet
@@ -138,9 +132,9 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G231 close the
-supplied clock/null/carry/phase chain, curvature point jets, and their Cartan regional architecture.
-G232 separates fixed-member evaluation, conditional finite-family closure, and unrestricted-family
-closure. Next run the exact G233 two-profile metric-jet/invariant discriminator; do not add a
-fifth-jet rank census, confuse integration with value generation, select transport, fit, use
-`X_max`, activate protected drafts, or revive historical inputs.
+G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G233 close the
+supplied clock/null/carry/phase chain, curvature point jets, Cartan regional architecture, and the
+unrestricted finite-order closure discriminator. Next stop the derivative-order ladder and map
+whether an already-owned nonlocal/global condition or metric-derived smaller family survives the
+G233 twins. Do not confuse integration with value generation, select transport, fit, use `X_max`,
+activate protected drafts, or revive historical inputs.

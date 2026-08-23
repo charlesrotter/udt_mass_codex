@@ -1,0 +1,13 @@
+{
+  "all_caught": true,
+  "count": 7,
+  "mutations": {
+    "break_arbitrary_order_coefficient": true,
+    "break_independent_shared_state": true,
+    "break_shared_metric_four_jet": true,
+    "collapse_G204_state": true,
+    "erase_independent_separator": true,
+    "erase_initial_failure": true,
+    "erase_symbolic_separator": true
+  }
+}

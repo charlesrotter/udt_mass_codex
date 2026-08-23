@@ -1,0 +1,33 @@
+{
+  "all_checks_pass": true,
+  "checks": {
+    "metric_series_differ_at_five": true,
+    "metric_series_equal_through_four": true,
+    "nabla3_difference_matches_exact_coefficient": true,
+    "nabla3_scalar_contraction_differs": true,
+    "radial_unit_field_geodesic": true,
+    "scalar_contractions_through_nabla2_equal": true,
+    "series_padding_at_least_four_orders": true
+  },
+  "expected_difference": "560/81",
+  "implementation": "standard-library Fraction truncated formal series; no production imports",
+  "next_difference": "560/81",
+  "radial_values_first": [
+    "0",
+    "4/9",
+    "8/9",
+    "-116/27"
+  ],
+  "radial_values_second": [
+    "0",
+    "4/9",
+    "8/9",
+    "212/81"
+  ],
+  "test_values": {
+    "b_first": -2,
+    "b_second": 5,
+    "c": 2,
+    "r0": 3
+  }
+}

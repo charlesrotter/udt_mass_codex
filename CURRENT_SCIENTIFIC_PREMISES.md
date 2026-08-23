@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock network | G215--G232 | Scalar, carry, phase, curvature jets, regional architecture, closure ownership split | Population; transport; profile generation |
+| Pair-clock network | G215--G233 | Scalar/carry/phase, curvature/Cartan, finite-order obstruction | Population/transport/profile |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -27,29 +27,30 @@
 | G181--G184 strata/equivalence | conditional; accepted | Equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Screen/flux controls; transfer/P1 imported or historical |
 | G190--G198 time-live families | accepted with caveats | Chosen families only |
-| G199/G200/G201 two-direction and phi-jet audits | verified w/caveats | No chiral split; angular amplitudes hear radial jets |
-| G202/G203/G204/G205 quiet, regularity, completion | verified w/caveats | Alternatives survive; supplied family is complete |
-| G206/G207/G208/G209/G210 complete-channel extensions | external w/caveats | Scale, screen, mixing, shift, and volume have distinct responses |
-| G211/G212 basis and history bridge | verified w/caveats | Rank-two diagonal basis; valued network is state, flow open |
-| G213--G214 rank and descent | externally accepted | Five modes; completed tuples retain rank ten and descend |
-| G215 shared-clock scalar incidence | externally verified | Completed scalar descends; G171 regraded |
-| G216 comparison-clock rate | externally verified with caveats | Unit clock is locally trivial; edge depth is the pairing-rate derivative |
-| G217 depth first jet | externally verified | Supplied events/depth fix the positive jet; full germ remains open |
-| G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and jet form one correspondence |
-| G219 moving clock arrow | adversarially verified after repairs | One scalar slope; moving null/Fermi/radar differ; none selected |
-| G220 covariant null arrow | external after repairs | Null slope; `C_+=A-N beta` | Query-typed; full plane open |
-| G221 complete-coframe null chord | externally verified | `Q,s_x,s_t` enter exact `W` | Second tangent/phase open |
+| G199/G200/G201 direction/jet audits | verified w/caveats | No chiral split; angular response uses radial jets |
+| G202/G203/G204/G205 quiet/regularity/completion | verified w/caveats | Alternatives survive; supplied family is complete |
+| G206/G207/G208/G209/G210 channel extensions | external w/caveats | Scale, screen, mixing, shift, volume differ |
+| G211/G212 basis/history bridge | verified w/caveats | Rank two; valued network is state, flow open |
+| G213--G214 rank/descent | accepted | Five modes; tuples retain rank ten |
+| G215 shared-clock incidence | externally verified | Scalar descends; G171 regraded |
+| G216 comparison-clock rate | external w/caveats | Edge depth is the pairing-rate derivative |
+| G217 depth first jet | externally verified | Supplied events/depth fix positive jet; germ open |
+| G218 correspondence whiteboard | cross-examined `PONDER` | Incidence, depth, jet form one relation |
+| G219 moving arrow | verified after repairs | Null/Fermi/radar differ; none selected |
+| G220 null arrow | external after repairs | `C_+=A-N beta` null slope | Query-typed; plane open |
+| G221 coframe null chord | externally verified | `Q,s_x,s_t` enter `W` | Second tangent/phase open |
 | G222 null plane | external after repairs | `a=-g(J,K)`; G188 normal screen | Protocol/ruler/history open |
-| G223 null-ribbon carry | external after repairs | Line pairing, inverse clock weight, local integration | Global gluing/scalar open |
-| G224 shared-event scalar carry | external after repair | Unique line switch; inverse clock representation | Screen/direct/protocol open |
-| G225 shared-event screen carry | external after repairs | Least-turning isometry; finite `O(2)` holonomy | Transport/population open |
-| G226 supplied-chain phase | externally verified | `CSp^+(4,R)` interlock; caustic-safe phase | Transport/population/history open |
+| G223 null-ribbon carry | external after repairs | Line pairing, inverse clock, local integral | Global gluing/scalar open |
+| G224 shared-event scalar carry | external after repair | Line switch; inverse clock representation | Screen/direct/protocol open |
+| G225 shared-event screen carry | external after repairs | Least-turning map; `O(2)` holonomy | Transport/population open |
+| G226 supplied-chain phase | externally verified | `CSp^+(4,R)`; caustic-safe | Transport/population/history open |
 | G227 same-event tomography | exact; scope-repaired | Rank 19; `g wedge g` kernel; `CHOSE` section gives 20 | No values/population/history |
 | G228 first variation | exact | Bianchi dimension 60; subset ranks 20/40/54/60 | Algebraic only |
 | G229 metric 3-jet realization | exact; independent | Compatible point jets have Lorentz representatives; kernels 80/140 | No regional field/history |
-| G230 nonlinear overlap obstruction | exact; independent | Compatible curvature second jets have metric fourth-jet representatives; `R*R` is explicit | Point jet; no region/history |
+| G230 nonlinear overlap obstruction | exact; independent | Curvature second jets have metric fourth-jet representatives | Point jet; no region/history |
 | G231 Cartan bridge | exact architecture; conditional existence | Closure stages form regional problem | Law/values; descent; history |
-| G232 Cartan closure whiteboard | `PONDER`; next test preregistered | Fixed valued member has evaluative descent; finite family closes conditionally | Exact unrestricted-family finite-order obstruction replay |
+| G232 closure whiteboard | `PONDER` | Valued member evaluates; finite family closes conditionally | G233 owns outcome |
+| G233 profile discriminator | external w/caveats | No unrestricted-family local finite-order closure | Nonlocal/global, smaller-family, time-live |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -74,11 +75,11 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
   is an envelope control.
-- G212--G231 close local state/descent, clock/null carry, phase, curvature compatibility, one-event
-  metric realization, and the regional Cartan architecture. G232 separates fixed-member
-  evaluation, conditional finite-family closure, and the still-unverified unrestricted-family
-  finite-order obstruction. Profile values, population, transport, completion, and infinite-route
-  principal Lorentz descent stay open.
+- G212--G231 close state/descent, clock/null carry, phase, curvature compatibility, point-metric
+  realization, and regional Cartan architecture. G232/G233 separate fixed-member
+  evaluation, conditional finite-family closure, and an externally verified unrestricted-family
+  finite-order obstruction. Profile values, nonlocal/global closure, population, transport,
+  completion, and infinite-route principal Lorentz descent stay open.
 
 ## Carrier, action, source, and matter
 
@@ -110,7 +111,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 215-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 216-row authority. On conflict, stop.
 
 Run:
 

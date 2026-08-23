@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G232",
+            "G166--G233",
             "G197",
             "G215",
             "G216",
@@ -213,6 +213,7 @@ def validate_startup_surface(root: Path) -> None:
             "G230",
             "G231",
             "G232",
+            "G233",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -255,7 +256,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "215-row exact registry",
+            "216-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -320,6 +321,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/",
             "udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/",
             "udt_g231_cartan_regional_realization_bridge_2026-08-23/",
+            "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -333,7 +335,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G232",
+            "G166--G233",
             "G197",
             "G198",
             "G199",
@@ -371,6 +373,7 @@ def validate_startup_surface(root: Path) -> None:
             "G230",
             "G231",
             "G232",
+            "G233",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -421,6 +424,7 @@ def validate_startup_surface(root: Path) -> None:
             "G230",
             "G231",
             "G232",
+            "G233",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -466,10 +470,11 @@ def validate_startup_surface(root: Path) -> None:
             "G230",
             "G231",
             "G232",
+            "G233",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "215-row",
+            "216-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -810,9 +815,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 215, "premise registry must contain exactly 215 rows")
+    require(len(rows) == 216, "premise registry must contain exactly 216 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 215, "duplicate premise id")
+    require(len(by_id) == 216, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3655,6 +3660,127 @@ def main() -> None:
     )
     g231_manifest = (g231 / "EVIDENCE_MANIFEST.tsv").read_text().splitlines()
     require(len(g231_manifest) == 29, "G231 evidence manifest count changed")
+
+    require(
+        by_id["G233"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_B3EF212E"
+        ),
+        "G233 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "METRIC_FOUR_JET_COLLISION_IMPLIES_EQUAL_COMPLETE_R_NABLAR_NABLA2R_STATE",
+        "DELTA_NABLA3_RSCALAR_EQUALS240_DELTAB_OVER_R0FIFTH",
+        "INDEPENDENT_STANDARD_LIBRARY_FRACTION_SERIES_560_OVER81_PASS",
+        "ARBITRARY_ORDER_PRINCIPAL_COEFFICIENT_2_TIMES_NPLUS3_FACTORIAL_OVER_R0_NPLUS3",
+        "FRESH_SEALED_GPT54_VERIFIED_WITH_CAVEATS",
+        "NO_SCIENTIFIC_REPAIR",
+        "FIXED_N_G204_CLOSURE_CONDITIONAL_CHOSE",
+        "NO_UNIVERSAL_LOCAL_FINITE_ORDER_NATURAL_AUTONOMOUS_CLOSURE_UNIFORM_OVER_UNRESTRICTED_PRIMARY_PROFILE_FAMILY",
+        "NO_NONLOCAL_INFINITE_STATE_GLOBAL_NONSHPERICAL_TIMELIVE_OR_SMALLER_FAMILY_NO_GO",
+    ):
+        require(guard in by_id["G233"]["current_status"], f"G233 guard absent: {guard}")
+    require(by_id["G233"]["epistemic_label"] == "MIXED", "G233 label changed")
+    require(
+        by_id["G233"]["active_use"]
+        == "ACTIVE_BOUNDED_LOCAL_REGULAR_PRIMARY_STATIC_SPHERICAL_UNRESTRICTED_PROFILE_FINITE_ORDER_NATURAL_AUTONOMOUS_CLOSURE_DISCRIMINATOR_ONLY",
+        "G233 active scope widened",
+    )
+    require(
+        "local finite-order obstruction called a no-go for UDT" in by_id["G233"]["forbidden_regression"]
+        and "another derivative-order census resumed" in by_id["G233"]["forbidden_regression"]
+        and "nonlocal infinite-state global nonspherical time-live or smaller-family routes declared excluded"
+        in by_id["G233"]["forbidden_regression"],
+        "G233 regression guards absent",
+    )
+    require(
+        by_id["G233"]["controlling_source"]
+        == "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/AUDIT_REPORT.md",
+        "G233 controlling source changed",
+    )
+    g233 = ROOT / "udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23"
+    for name in (
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_ADVERSARIAL_REVIEW.md",
+        "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
+        "FINAL_BANKING_MANIFEST_PREREGISTRATION.md",
+        "FINAL_EVIDENCE_MANIFEST.tsv",
+        "INITIAL_INDEPENDENT_FAILURE.json",
+        "POST_REVIEW_STARTUP_BUDGET_REPAIR_PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "REPAIR_PREREGISTRATION.md",
+        "REPLAY_INTERFACE_PREREGISTRATION.md",
+        "RUN_LOG.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "build_final_evidence_manifest.py",
+        "derive_primary_profile_cartan_closure.py",
+        "exact_results.json",
+        "hostile_results.json",
+        "independent_results.json",
+        "package_verification.json",
+        "verify_independent_series.py",
+        "verify_final_evidence_manifest.py",
+        "verify_package.py",
+    ):
+        require((g233 / name).is_file(), f"G233 evidence missing: {name}")
+    require(b"\x0c" not in (g233 / "EXACT_DERIVATION.md").read_bytes(), "G233 LaTeX control character returned")
+    g233_result = json.loads((g233 / "exact_results.json").read_text())
+    require(g233_result["all_checks_pass"] is True, "G233 production verification failed")
+    require(all(g233_result["checks"].values()), "G233 production check failed")
+    require(g233_result["next_difference_b1_minus_b0"] == "240/r0**5", "G233 separator changed")
+    require(
+        all(item["pass"] is True for item in g233_result["arbitrary_order_checks"].values()),
+        "G233 arbitrary-order check failed",
+    )
+    g233_independent = json.loads((g233 / "independent_results.json").read_text())
+    require(g233_independent["all_checks_pass"] is True, "G233 independent replay failed")
+    require(g233_independent["next_difference"] == "560/81", "G233 independent separator changed")
+    g233_initial = json.loads((g233 / "INITIAL_INDEPENDENT_FAILURE.json").read_text())
+    require(
+        g233_initial["all_checks_pass"] is False
+        and g233_initial["checks"]["nabla3_difference_matches_exact_coefficient"] is True
+        and g233_initial["checks"]["radial_unit_field_geodesic"] is False,
+        "G233 initial failure record changed",
+    )
+    g233_hostile = json.loads((g233 / "hostile_results.json").read_text())
+    require(
+        g233_hostile["count"] == 7
+        and g233_hostile["all_caught"] is True
+        and all(g233_hostile["mutations"].values()),
+        "G233 hostile controls changed",
+    )
+    g233_package = json.loads((g233 / "package_verification.json").read_text())
+    require(g233_package["all_pass"] is True, "G233 package verification failed")
+    require(all(g233_package["checks"].values()), "G233 package check failed")
+    require(
+        "VERIFIED_WITH_CAVEATS" in (g233 / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text()
+        and "No scientific refutation" in (g233 / "EXTERNAL_ADVERSARIAL_REVIEW.md").read_text(),
+        "G233 external-review acceptance absent",
+    )
+    require(
+        hashlib.sha256((ROOT / "udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/NEXT_CALCULATION_PREREGISTRATION.md").read_bytes()).hexdigest()
+        == "072fe4f380db85754339a346733e1dd4cb9089744dacbebfbe56b9cc8fdfe2ce",
+        "G233 preregistration hash changed",
+    )
+    g233_manifest_lines = (g233 / "FINAL_EVIDENCE_MANIFEST.tsv").read_text().splitlines()
+    require(g233_manifest_lines[0] == "sha256\tpath", "G233 final manifest header changed")
+    g233_registered = {}
+    for line in g233_manifest_lines[1:]:
+        digest, relative = line.split("\t")
+        require(relative not in g233_registered, f"G233 duplicate manifest path: {relative}")
+        g233_registered[relative] = digest
+    g233_actual = {
+        path.relative_to(g233).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g233.rglob("*")
+        if path.is_file()
+        and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+        and "__pycache__" not in path.parts
+        and ".review_runtime" not in path.parts
+    }
+    require(g233_registered == g233_actual, "G233 final evidence manifest mismatch")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -7878,7 +8004,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G232-extended startup and G231 premise guards; PASS: 215-row premise "
+        "PASS: G233-extended startup and G233 premise guards; PASS: 216-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

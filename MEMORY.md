@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G232: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G233: metric plus supplied pair germ gives the `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity then fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` remains an arbitrary-calibration control.
 
@@ -16,29 +16,16 @@ local line/fiber/scalar carry. G225 gives pointwise screen comparison and `O(2)`
 selected transport. G226 joins scalar carry and full phase on one supplied chain; gauges cancel,
 caustics retain phase, and matrix holonomy survives. Population and history remain open.
 
-G227: supplied nine-direction infinitesimal tides have rank 19 and kernel `span(g wedge g)`; one
-`CHOSE` timelike datum gives rank 20. This is algebraic tomography only—no isolated-transfer
-inference, value generation, population, or history.
-
-G228: differential Bianchi cuts 80 components to 60. One/two directions are surjective; three have
-six syzygies, the full star twenty.
-
-G229: every supplied compatible `(R,nabla R)` at one event has a smooth Lorentz metric
-representative through cubic order. Metric 2-/3-jet ranks are 20/60; 80/140 kernels are exactly
-higher coordinate gauge. This closes point-jet realization, not regional values or history.
-
-G230: differentiated Bianchi and Ricci commutator give the first nonlinear overlap obstruction.
-Compatible curvature second jets have Lorentz metric fourth-jet representatives modulo the
-224-dimensional quintic coordinate gauge. This is one-event, not regional or historical.
-
-G231: closure stages form regional Cartan architecture. Bare curvature lacks principal Lorentz
-typing and horizontal law. Finite algebroid data conditionally realize locally; analytic,
-formally-integrable relative-algebroid data conditionally yield local coframes. Values, principal descent, history stay open.
-
-G232: whiteboard separates fixed-member evaluation, conditional finite-family closure, and the
-unrestricted-family closure question. A valued metric/network already has a native evaluative
-Cartan score; it does not generate its profile. G233 is preregistered to test the unrestricted
-finite-order closure obstruction exactly.
+G227: nine-direction tides have rank 19 and kernel `span(g wedge g)`; one `CHOSE` datum gives 20.
+G228: differential Bianchi cuts 80 components to 60.
+G229: compatible `(R,nabla R)` has a metric 3-jet; ranks 20/60, gauge kernels 80/140.
+G230: differentiated Bianchi plus Ricci commutator gives 126 fourth-jet representatives modulo
+224-dimensional coordinate gauge. These are local compatibility results, not value generation.
+G231: the stages form regional Cartan architecture; finite data conditionally realize locally,
+while analytic infinite data yield coframes only. Values, principal descent, history stay open.
+G232/G233: fixed members evaluate natively; finite families close conditionally; valued networks
+encode but do not generate profiles. Exact profile twins exclude universal local finite-order
+autonomous closure over the unrestricted family. Nonlocal/global and smaller-family routes remain.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -66,10 +53,9 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Run the G233 exact two-profile discriminator: preserve the full G231 state at one regular quiet
-orbit and directly test the next invariant derivative, with an independent metric-jet replay. Keep
-fixed-member and fixed-`n` G204 conditional controls. No fifth-jet rank census, selected G225
-transport, population/history inference, fit, `X_max`, or protected drafts.
+Stop the derivative-order ladder. Map whether an already-owned nonlocal/global condition or a
+metric-derived smaller family can reject a G233 twin independently of the desired profile. No
+selected G225 transport, population/history inference, fit, `X_max`, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

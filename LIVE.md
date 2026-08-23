@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G232. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G233. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -25,65 +25,50 @@ the pullback. It gives
 depth. Events, germs, observer population, and global realization remain `QUERY_SUPPLIED` or
 `OPEN`; equal scalar summaries do not identify realizations.
 
-G215/G216/G217/G218/G219/G220/G221 close the supplied scalar, proper-clock slope
-`r_AB=d tau_B/d tau_A`, positive first jet,
-query-indexed correspondence, and covariant future-null chord. Null differs from Fermi/radar;
-inverse is not later return. The time-live base uses `C_+=A-N beta` (return `C_-=A+N beta`), and
-screen/mixing enter upstream. Null remains query-typed; higher/full carry is `OPEN`.
+G215/G216/G217/G218/G219/G220/G221 close the supplied scalar, proper-clock slope and first jet,
+query correspondence, and one future-null chord. Null differs from Fermi/radar; inverse differs
+from later return. The time-live base uses `C_+=A-N beta` and return `C_-=A+N beta`; screen/mixing
+enter upstream. Null is query-typed and higher/full carry is `OPEN`.
 
-G222/G223/G224 add the affine-null plane (`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`), G188 screen,
-mixed line/fiber carry, and the actual-shared-event scalar switch `mu(v)=-g(U,v)`, with `q=r^-1`.
-No extra vertex scalar, screen map, or direct-edge constraint appears.
+G222/G223/G224 add the affine-null plane (`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`), G188
+screen, line/fiber carry, and shared-event switch `mu(v)=-g(U,v)`, with `q=r^-1`. No extra vertex
+scalar or direct-edge constraint appears.
 
-G225 gives the proper least-turning pointwise screen isometry off antipodes, but triples retain
-`O(2)` holonomy; no global endpoint-only flat carry exists on `S^2`. This
-`STANDARD_GEOMETRIC_EVALUATOR` is not selected transport and remains distinct from G188.
+G225 gives the least-turning pointwise screen isometry off antipodes; triples retain `O(2)`
+holonomy, so no global endpoint-only flat carry exists on `S^2`. This
+`STANDARD_GEOMETRIC_EVALUATOR` is not selected transport.
 
-G226 joins G188, G224, and G225 on one **supplied composable null chain**. Its full phase is in
-`CSp^+(4,R)` with multiplier `r` and inverse ruler carry `q`; middle gauges and affine scales
-cancel, caustics retain invertible full phase, and holonomy remains matrix-valued. It selects no
-transport, direct relation, null population, or physical history.
+G226 joins G188/G224/G225 on one supplied null chain. Its `CSp^+(4,R)` phase has multiplier `r` and
+inverse ruler carry `q`; gauges cancel, caustics retain phase, and matrix holonomy remains. It
+selects no transport, direct relation, population, or history.
 
-G227 makes the first same-event restriction: a frozen generic nine-direction tidal witness has
-rank 19, kernel `span(g wedge g)`, and eight syzygies; one `CHOSE` timelike sectional datum restores
-rank 20 and predicts four held-out directions. It consumes an infinitesimal affine generator, not
-an isolated finite G226 matrix. This is algebraic-curvature compatibility/tomography, not
-metric-2-jet realization, value generation, population, or history.
+G227's same-event nine-direction tide has rank 19, kernel `span(g wedge g)`, and eight syzygies; one
+`CHOSE` timelike datum restores rank 20. This is algebraic curvature tomography, not metric
+realization, value generation, population, or history.
 
-G228 moves to a supplied first-order neighboring-event tile. Differential Bianchi cuts 80 reduced
-`nabla R` components to 60; one/two-direction projections are surjective, while three/four directions
-have six/twenty syzygies. This is necessary algebraic compatibility, not metric realization or
-history.
+G228: differential Bianchi cuts 80 `nabla R` components to 60; one/two-direction projections are
+surjective, while three/four directions have six/twenty syzygies. This is algebraic compatibility.
 
-G229 realizes every compatible `(R,nabla R)` point jet by a local Lorentz metric 3-jet. The metric
-maps have ranks 20/60 and coordinate-gauge kernels 80/140; their normal slices are isomorphic. It
-does not generate values, realize a regional field, populate queries, derive dynamics, or select
-history.
+G229 realizes every compatible `(R,nabla R)` point jet by a local Lorentz metric 3-jet, with ranks
+20/60 and coordinate-gauge kernels 80/140. It generates no values or region.
 
-G230 closes the first nonlinear infinitesimal-overlap square. Differentiated Bianchi plus the Ricci
-commutator leave a 126-dimensional affine target inside 320 ordered `nabla^2 R` components. The
-metric 4-jet has rank/kernel `126/224`; the kernel is fifth-order coordinate gauge and its normal
-slice is isomorphic. A complete polarization and explicit `R*R` witness prove G227/G228
-insufficient. This is one-event 4-jet realization—not finite gluing, values, dynamics, population,
-transport selection, or history.
+G230 adds differentiated Bianchi and the Ricci commutator: 126 of 320 ordered `nabla^2 R`
+components survive; the metric 4-jet has rank/kernel `126/224`, with fifth-order coordinate gauge.
+This is one-event realization, not gluing, values, dynamics, population, transport, or history.
 
-G231 compresses the G227/G228/G230 exterior-closure stages, with G229 as their metric-jet bridge,
-into one regional Cartan realization architecture. Exact closure reproduces `36->20`, `80->60`,
-and `320->126`. Bare moving-frame curvature values are incomplete: a typed principal Lorentz
-frame and a compatible horizontal classifying derivative law are required. Full finite
-`SO(1,3)` `G`-structure-algebroid data conditionally admit local `G`-realizations; the infinite
-analytic route guarantees only a local coframe, with principal Lorentz descent still open. G231
-integrates compatible supplied values; it does not generate their profile, population, transport,
-dynamics, or physical/global history.
+G231 unifies G227/G228/G230, with G229 as metric-jet bridge, in a regional Cartan architecture:
+`36->20`, `80->60`, `320->126`. Bare moving-frame curvature lacks principal Lorentz typing and a
+horizontal law. Finite full algebroid data conditionally realize locally; the infinite analytic
+route gives only a coframe, with Lorentz descent open. G231 integrates supplied values but does not
+generate profile, population, transport, dynamics, or history.
 
-G232 is a three-role whiteboard convergence, not yet an obstruction theorem. It separates one
-fully valued primary metric member, one declared finite profile family, and the unrestricted
-primary profile arena. A fixed valued member has a native cohomogeneity-one Cartan descent over
-areal radius, but its structure functions already contain the supplied profile. Fixed-`n` G204
-closes conditionally on `(x,a,r0;n)` because that family was `CHOSE`. A complete valued pair network
-can encode the metric but does not generate its values. The exact unrestricted-family
-finite-closure obstruction is preregistered for G233 and remains `OPEN` until direct invariant and
-independent metric-jet replays pass.
+G232 is the ownership `PONDER`; G233 supplies its exact discriminator. Two primary profiles can
+share the metric four-jet and complete `(R,nabla R,nabla^2 R)` state yet differ in the invariant
+next derivative by `240 delta_b/r0^5`. The construction extends to every finite order. Therefore
+the unrestricted primary profile family has no universal local finite-order natural autonomous
+closure. This externally verified negative does not reach nonlocal, infinite-state, global,
+nonspherical, time-live, or separately founded smaller-family closure. Fixed members remain
+evaluative and fixed-`n` G204 remains `CHOSE` conditional control.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -97,7 +82,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 215-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 216-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -121,12 +106,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Run the preregistered G233 two-profile Cartan closure discriminator. At one regular quiet orbit,
-compare exact primary profiles sharing the metric four-jet and therefore the complete G231 state
-`(R,nabla R,nabla^2 R)`, then test whether an explicit invariant/equivariant component of
-`nabla^3 R` differs. Independently replay the load-bearing metric-jet result and retain the fixed
-member and fixed-`n` G204 closure controls. Do not perform a fifth-jet rank census. A negative is
-limited to local finite-order natural autonomous laws uniform over the unrestricted primary
-profile family; nonlocal and infinite-state closure remain open. Do not fit, identify `X_max`,
-activate protected drafts, or use G116/G189 as construction inputs.
+Stop the derivative-order ladder. Map which already-owned metric/global conditions could restrict
+the primary profile beyond the G233 local finite-order obstruction, separating: a smaller
+metric-derived family, a genuinely nonlocal/global relation condition, and full time-live or
+nonspherical closure. This is a `MAP -> PONDER` ownership gate, not permission to invent an action,
+fit a profile, identify `X_max`, activate protected drafts, or use G116/G189 as construction inputs.
+Any proposed next calculation must first name one nonidentity condition that rejects a G233 twin
+for a reason independent of the desired profile.
 <!-- STARTUP_CURRENT_END -->

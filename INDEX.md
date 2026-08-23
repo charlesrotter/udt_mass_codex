@@ -53,13 +53,10 @@
 - Curvature/realization: `udt_g227_same_event_curvature_tomography_2026-08-22/`;
   `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`; `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`;
   `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`; `udt_g231_cartan_regional_realization_bridge_2026-08-23/`
-- Cartan closure ownership whiteboard and G233 preregistration:
-  `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`
-G129--G214: pair structure. G215--G231 close scalar/null evaluation, curvature, differential-Bianchi
-first-variation, and metric jets through the nonlinear fourth-jet obstruction, then type the Cartan
-problem. G232 separates fixed-member evaluation, conditional finite-family closure, and the open
-unrestricted-family finite-order closure test. Open: profile values, principal descent, population,
-transport, global ownership, and history.
+- Cartan closure: `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`; `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`
+G129--G214: pair structure. G215--G233 close scalar/null evaluation, curvature/Cartan typing, and
+the unrestricted local finite-order obstruction. Open: nonlocal/global or smaller-family profile
+closure, population, transport, global ownership, and history.
 Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
@@ -67,8 +64,8 @@ Ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
 - Finite-radius screen theorem: `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
-Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`. Pre-G197 startup
-prose: `archive/startup_surface_2026-08-21_pre_g197/`. The 215-row registry controls.
+Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
+`archive/startup_surface_2026-08-21_pre_g197/`. The registry controls.
 ## Observational lane
 - Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
@@ -108,7 +105,6 @@ It preserves plural conditional mass-from-geometry branches. For topology begin 
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work,
 the stopped native-on-shell draft, or local unbanked packages without explicit authority.
 ## Archives
-- Startup snapshots: `archive/startup_surface_2026-08-21_pre_g197/`,
-  `archive/startup_surface_2026-08-17_pre_zoomout/`, and `archive/startup_surface_2026-08-14/`.
-- Pre-cleanup G218 startup surface and stale-root disposition:
-  `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Startup snapshots: `archive/startup_surface_2026-08-21_pre_g197/`,
+`archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; pre-cleanup
+G218 surface and disposition: `archive/startup_surface_2026-08-22_pre_cleanup/`.
