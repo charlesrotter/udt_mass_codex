@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-22
 
-G166--G223 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
+G166--G224 is active. The primary metric is pulled back to a **supplied** regular pair germ; the
 `B,Q,S,Y,Z` orchestra has metric-fixed `B,Q`, `S=0`, and germ-fixed `Y,Z`. All channels precede
 readout. On the founded block, `phi_pair=delta` and the
 conditional frame readout is `c_eff/c_E=exp(-2 delta)`; it is not a signal-speed theorem.
@@ -24,10 +24,13 @@ inverse is not return. G220 derives the covariant supplied-null slope and time-l
 same supplied affine-null plane with `a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`, and G188 as its
 matrix-valued normal screen. Its higher/full global carry remains open. G223 identifies the invariant
 mixed quotient-clock/vertical-ruler pairing, inverse clock weight, and automatic interval-fiber
-integration. `d(a d lambda)=0` is only a chart-specific exact-representative condition. A global
-scalar still needs trivializations, source, period/Cech, and cross-ribbon vertical carry; G216 does
-not supply the last. Fresh gpt-5.4 repair follow-up accepted R1--R3. Null protocol,
-observer/branch population, and physical history remain open.
+integration. `d(a d lambda)=0` is only a chart-specific exact-representative condition. G224 closes
+the local scalar carry at an actual shared middle event: `mu(v)=-g(U,v)` gives the unique positive
+switch `mu_out^-1 mu_in`, same-edge vertical carry is `q=r^-1`, and actual chains carry the inverse
+G216 clock product. Distinct-event abstract normalization is not physical vertex composition; no
+screen map or independent direct relation follows. Fresh gpt-5.4 repair follow-up accepted the sole
+wording repair at final bounded grade `A-`. Global scalar source/period/Cech gates, screen/Jacobi
+carry, null protocol, observer/branch population, and physical history remain open.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,
@@ -53,12 +56,12 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-On an actual composable atlas of supplied regular null relations, determine whether the metric and
-shared observer incidence canonically identify vertical ruler lines across distinct ribbons. Test
-the resulting triple-overlap and middle-observer carry against G214/G216 while preserving the
-separate matrix screen channel. Do not revive `d(a d lambda)=0` as an invariant local gate. Keep null
-query-typed and return distinct from inversion. Do not fit, activate protected drafts, identify
-`X_max`, select transfer/history, or use G116/G189. All other open ownership remains controlled by
-the 207-row exact registry.
+On an actual shared observer event, determine whether the metric, unit clock, and incident null
+directions canonically identify the two G188 normal-screen planes, or leave a residual orthogonal
+torsor. Test screen identity, inverse, vertex composition, passive covariance, and scalar reduction
+without promoting G224's line switch into a screen/Jacobi map. Keep null query-typed and return
+distinct from inversion. Do not fit, activate protected drafts, identify `X_max`, select
+transfer/history, or use G116/G189. All other open ownership remains controlled by the 208-row exact
+registry.
 
 <!-- STARTUP_CURRENT_END -->

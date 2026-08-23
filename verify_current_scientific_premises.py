@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G223",
+            "G166--G224",
             "G197",
             "G215",
             "G216",
@@ -204,6 +204,7 @@ def validate_startup_surface(root: Path) -> None:
             "G221",
             "G222",
             "G223",
+            "G224",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -246,7 +247,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "207-row exact registry",
+            "208-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -303,6 +304,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g221_complete_coframe_null_clock_chord_2026-08-22/",
             "udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/",
             "udt_g223_null_ribbon_density_overlap_carry_2026-08-22/",
+            "udt_g224_shared_event_vertical_carry_2026-08-22/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -316,7 +318,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G223",
+            "G166--G224",
             "G197",
             "G198",
             "G199",
@@ -345,6 +347,7 @@ def validate_startup_surface(root: Path) -> None:
             "G221",
             "G222",
             "G223",
+            "G224",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -386,6 +389,7 @@ def validate_startup_surface(root: Path) -> None:
             "G221",
             "G222",
             "G223",
+            "G224",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -422,10 +426,11 @@ def validate_startup_surface(root: Path) -> None:
             "G221",
             "G222",
             "G223",
+            "G224",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "207-row",
+            "208-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -766,9 +771,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 207, "premise registry must contain exactly 207 rows")
+    require(len(rows) == 208, "premise registry must contain exactly 208 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 207, "duplicate premise id")
+    require(len(by_id) == 208, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -2617,6 +2622,117 @@ def main() -> None:
         g223_package["landing"]
         == "METRIC_OWNS_NONDEGENERATE_CLOCK_RULER_LINE_PAIRING_ON_SUPPLIED_NULL_RIBBON__RULER_DENSITY_HAS_EXACT_INVERSE_CLOCK_OVERLAP_WEIGHT__LOCAL_FIBER_COORDINATE_EXISTS_BUT_GLOBAL_SCALAR_NEEDS_TRIVIALIZATION_AND_CECH_PERIOD_GATES__G216_CLOCK_COMPOSITION_DOES_NOT_BY_ITSELF_SUPPLY_CROSS_RIBBON_VERTICAL_CARRY",
         "G223 landing changed",
+    )
+    require(
+        by_id["G224"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_A6B75622__"
+            "ONE_SUPPLIED_COMPOSABLE_ATLAS_OF_REGULAR_FUTURE_NULL_RIBBONS"
+        ),
+        "G224 bounded grade or preregistration changed",
+    )
+    for guard in (
+        "ACTUAL_SHARED_MIDDLE_OBSERVER_EVENT_AND_METRIC_UNIT_CLOCK",
+        "UNIQUE_POSITIVE_VERTEX_SWITCH_S_EQUALS_MU_OUT_INVERSE_MU_IN",
+        "IDENTITY_INVERSE_AND_VERTEX_COCYCLE_EXACT",
+        "ACTUAL_COMPOSITE_VERTICAL_CARRY_EQUALS_INVERSE_G216_CLOCK_RATE_PRODUCT",
+        "DISTINCT_EVENT_ABSTRACT_LINE_NORMALIZATION_EXISTS_BUT_DOES_NOT_SUPPLY_PHYSICAL_VERTEX_COMPOSITION",
+        "INDEPENDENT_DIRECT_AC_RELATION_UNCONSTRAINED",
+        "NO_AMBIENT_NULL_DIRECTION_IDENTIFICATION_OR_SCREEN_MAP",
+        "220003_ASSERTIONS",
+        "25_CONTRACT_MUTATIONS",
+        "TRUE_NO_WRITE_REPLAY",
+        "FRESH_GPT54_ACCEPT_WITH_REPAIRS_THEN_REPAIRS_ACCEPTED_FINAL_A_MINUS",
+        "NO_UNIVERSAL_NULL_PROTOCOL_OBSERVER_BRANCH_POPULATION_PHYSICAL_HISTORY_GLOBAL_SCALAR_XMAX_TRANSFER_OBSERVATION_ACTION_SOURCE_MATTER_BOOTSTRAP_MASS_OR_SIGNALLING",
+    ):
+        require(guard in by_id["G224"]["current_status"], f"G224 guard absent: {guard}")
+    require(by_id["G224"]["epistemic_label"] == "MIXED", "G224 label changed")
+    require(
+        by_id["G224"]["active_use"]
+        == "ACTIVE_BOUNDED_SHARED_EVENT_VERTICAL_SCALAR_CARRY_ON_SUPPLIED_REGULAR_FUTURE_NULL_RIBBONS_ONLY",
+        "G224 active scope widened",
+    )
+    require(
+        "scalar vertical switch called an ambient null-direction identification or screen map"
+        in by_id["G224"]["forbidden_regression"],
+        "G224 scalar-to-screen promotion guard absent",
+    )
+    require(
+        by_id["G224"]["controlling_source"]
+        == "udt_g224_shared_event_vertical_carry_2026-08-22/AUDIT_REPORT.md",
+        "G224 controlling source changed",
+    )
+    g224 = ROOT / "udt_g224_shared_event_vertical_carry_2026-08-22"
+    for name in (
+        "MAP.md",
+        "OBSERVATION.md",
+        "PONDER.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "derive_shared_event_vertical_carry.py",
+        "verify_shared_event_vertical_independent.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CONTROL_ATLAS.tsv",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "VERIFICATION_RESULT.json",
+        "run_catch_proofs.py",
+        "CATCH_PROOF_RESULT.json",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "FRESH_ADVERSARIAL_REVIEW.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_IMPLEMENTATION.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
+        "verify_package.py",
+    ):
+        require((g224 / name).is_file(), f"G224 evidence missing: {name}")
+    g224_package = json.loads((g224 / "VERIFICATION_RESULT.json").read_text())
+    require(g224_package["status"] == "PASS", "G224 package verification failed")
+    require(
+        g224_package["grade"]
+        == "DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS",
+        "G224 final grade changed",
+    )
+    require(g224_package["preregistration_commit"] == "a6b75622", "G224 preregistration changed")
+    require(g224_package["source_count"] == 8, "G224 source count changed")
+    require(g224_package["symbolic_checks"] == 24, "G224 symbolic count changed")
+    require(g224_package["independent_cases"] == 20000, "G224 case count changed")
+    require(g224_package["exact_rational_assertions"] == 220003, "G224 assertion count changed")
+    require(g224_package["contract_mutations"] == 25, "G224 contract count changed")
+    require(g224_package["shared_event_vertical_switch_unique"] is True, "G224 switch absent")
+    require(g224_package["vertex_identity_inverse_cocycle"] is True, "G224 cocycle absent")
+    require(
+        g224_package["vertical_carry_inverse_clock_representation"] is True,
+        "G224 inverse representation absent",
+    )
+    require(g224_package["actual_composite_closes"] is True, "G224 actual composite absent")
+    require(
+        not g224_package["independent_direct_relation_constrained"],
+        "G224 independent direct relation falsely constrained",
+    )
+    require(not g224_package["ambient_null_directions_identified"], "G224 directions falsely identified")
+    require(not g224_package["screen_map_derived"], "G224 screen map falsely derived")
+    require(
+        g224_package["distinct_event_abstract_line_normalization_possible"] is True,
+        "G224 distinct-event abstract normalization lost",
+    )
+    require(
+        not g224_package["distinct_event_physical_composition_derived"],
+        "G224 distinct-event physical composition falsely derived",
+    )
+    require(g224_package["fresh_external_review"] == "ACCEPT_WITH_REPAIRS", "G224 review changed")
+    require(g224_package["external_scientific_grade"] == "A-", "G224 external grade changed")
+    require(g224_package["repair_followup_review"] == "REPAIRS_ACCEPTED", "G224 repair acceptance absent")
+    require(g224_package["read_only_replay"] is True, "G224 read-only replay absent")
+    require(g224_package["manifest_path_containment"] is True, "G224 source containment absent")
+    require(
+        g224_package["landing"]
+        == "SHARED_MIDDLE_EVENT_AND_METRIC_UNIT_CLOCK_CANONICALLY_IDENTIFY_INCIDENT_FUTURE_NULL_VERTICAL_LINES__VERTICAL_SCALAR_CARRY_IS_THE_INVERSE_REPRESENTATION_OF_THE_ACTUAL_CLOCK_RATE_CHAIN__DISTINCT_EVENT_NORMALIZATION_IS_ABSTRACTLY_AVAILABLE_BUT_NOT_A_COMPOSABLE_VERTEX_RELATION__NO_SCREEN_MAP_OR_INDEPENDENT_DIRECT_RELATION_IS_DERIVED",
+        "G224 landing changed",
     )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
@@ -6841,7 +6957,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G223-extended premise guards; PASS: 207-row premise "
+        "PASS: G224-extended premise guards; PASS: 208-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -72,8 +72,14 @@ physical scalar after the working premise. They must not be conflated.
   locally on every interval fiber. Closedness of one chosen full one-form representative is
   chart-specific; global scalar ownership instead requires trivialization, source, period/Cech, and
   cross-ribbon vertical carry. G216 supplies the clock weight but not that vertical isomorphism.
+- G224, externally accepted after one wording repair, closes that local vertical isomorphism at an
+  actual shared observer event. The metric unit clock canonically normalizes each incident
+  future-null line, the unique positive switch obeys identity/inverse/vertex cocycle laws, and the
+  vertical scalar is the inverse representation of the actual G216 clock-rate chain. Distinct-event
+  abstract normalization is not physical vertex composition. No screen/Jacobi map or independent
+  direct relation is derived.
 
-G206--G223 retain their stated verification caveats. None generates a sector function,
+G206--G224 retain their stated verification caveats. None generates a sector function,
 finite-anchor flow, or `X_max`.
 
 Structural package:
@@ -90,18 +96,22 @@ Current local full null pair plane and screen join:
 `udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`.
 Current null-ribbon density overlap and local-integration classification:
 `udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`.
+Current shared-event vertical scalar carry:
+`udt_g224_shared_event_vertical_carry_2026-08-22/`.
 Application boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`.
 Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 Earlier chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Current open joints
 
-- The primary static-spherical/areal slice and profile are supplied. G211--G223 close or retype the local
+- The primary static-spherical/areal slice and profile are supplied. G211--G224 close or retype the local
   basis, spatial modes, compatible-cover bridge, shared-clock incidence, and the proper-clock rate
   interpretation and positive scalar first jet, not zero-jet event/depth population, valuation, or
   higher/full-germ carry.
-- G222 closes one local null pair plane. G223 closes its invariant local line-pairing and interval-fiber
-  integration, not cross-ribbon vertical gluing, a global scalar, or relation population.
+- G222 closes one local null pair plane. G223 closes its invariant local line-pairing and
+  interval-fiber integration. G224 closes scalar vertical carry only at an actual shared event, not
+  finite normal-screen/Jacobi carry, an independently supplied direct relation, a global scalar, or
+  relation population.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
   realization remain open.
 - Native emission, radiative transfer, source, action, matter, mass, bootstrap, signalling, and
@@ -132,6 +142,8 @@ protocols. G220 derives the covariant null clock arrow and exact time-live lapse
 tile, with same-correspondence clock-leg compatibility. G221 supplies the complete-coframe chord;
 G222 supplies its local pair plane and G188 normal-screen join. G223 derives the invariant mixed
 line pairing, inverse clock weight, and local fiber coordinate while regrading full-representative
-closedness as chart-specific. Next classify vertical-line carry across actual composable ribbons.
-Keep null query-typed and screen transport distinct. Do not fit, identify `X_max`, select
-transfer/history, activate protected drafts, or revive historical inputs.
+closedness as chart-specific. G224 derives the unique scalar vertical switch at an actual shared
+event and proves it is the inverse G216 representation. Next classify finite normal-screen carry at
+that shared event without scalarizing G188 or assuming an angular frame map. Keep null query-typed.
+Do not fit, identify `X_max`, select transfer/history, activate protected drafts, or revive
+historical inputs.

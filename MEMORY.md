@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G223 is the active supplied-pair chain. The metric and pair germ first produce the full
+G166--G224 is the active supplied-pair chain. The metric and pair germ first produce the full
 `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity is a provisional working premise applied
 after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. It is not
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
@@ -21,7 +21,11 @@ puts `Q,s_x,s_t` upstream in the complete chord. G222 closes its local null pair
 `a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`, and G188 as normal screen. G223 identifies the
 invariant mixed clock/ruler line pairing, derives inverse clock weight, and proves local interval
 fiber integration. The old `d(a d lambda)=0` gate is only a chart-specific exact-representative
-condition. Protocol population, cross-ribbon vertical carry, and history remain open.
+condition. G224 closes the local scalar handoff at an actual shared event: the metric unit clock
+canonically normalizes each incident future-null line, the unique vertex switch obeys the cocycle
+laws, and vertical carry is the inverse G216 clock representation. It derives no screen/Jacobi map
+or independent direct relation. Protocol population, finite screen carry, global scalar gates, and
+history remain open.
 G197 excludes P1,
 G116/G189 transfer, fits, `X_max`, and protected payload from the native core. G176 stays provisional
 and G190--G192 IVPs formula-level.
@@ -50,11 +54,11 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-On an actual composable supplied null-ribbon atlas, classify whether shared observer incidence and
-the metric canonically identify vertical ruler lines across ribbons. Test triple-overlap and
-G214/G216 composition while keeping G188 matrix transport distinct and null query-typed. Do not
-revive chart-specific full-representative closedness as an invariant gate. No fits, `X_max`,
-transfer/history selection, or protected drafts.
+At an actual shared observer event, classify whether the metric, unit clock, and incident null
+directions canonically identify the two G188 normal-screen planes or leave a residual orthogonal
+torsor. Test identity, inverse, vertex composition, passive covariance, and scalar reduction. Do not
+promote G224's line switch to a screen/Jacobi map. No fits, `X_max`, transfer/history selection, or
+protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

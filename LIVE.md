@@ -17,7 +17,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G223. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G224. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -65,8 +65,17 @@ lines. Its clock-trivialized coefficient has inverse clock weight, and every int
 local ruler coordinate. The former `d(a d lambda)=0` condition is only the chart-specific demand for
 an exact full representative with no horizontal term. Global scalar ownership requires compatible
 trivializations, source choices, period/Cech gates, and cross-ribbon vertical carry not supplied by
-G216 clock composition. G223's repaired evidence passed fresh gpt-5.4 follow-up. Null remains query-typed;
-observer/branch population and physical history remain open.
+G216 clock composition. G223's repaired evidence passed fresh gpt-5.4 follow-up. G224 then closes
+the formerly open local cross-ribbon scalar handoff at an **actual shared observer event**. The
+metric unit clock defines `mu(v)=-g(U,v)` on every incident future-null vertical line and hence the
+unique positive switch `S=mu_out^-1 mu_in`. This is invariant under independent affine rescaling,
+obeys identity, inverse, and vertex cocycle laws, and makes same-edge vertical carry `q=r^-1`; an
+actual composite therefore carries the inverse of the G216 clock-rate product with no extra vertex
+scalar. Abstract line normalization also exists at distinct events, but without shared incidence it
+is not physical vertex composition. G224 derives no ambient direction or screen/Jacobi map and does
+not constrain an independently supplied direct relation. Its repair follow-up returned
+`REPAIRS_ACCEPTED`, final bounded grade `A-`. Null remains query-typed; observer/branch population
+and physical history remain open.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
@@ -80,7 +89,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 207-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 208-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -104,11 +113,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Classify cross-ribbon vertical carry on an actual composable atlas of supplied regular null
-relations. Determine whether the primary metric and shared observer incidence canonically identify
-the vertical ruler lines, or whether the data descend only as separately trivialized line bundles.
-Test triple-overlap and middle-observer composition against G214/G216 while preserving G188's
-matrix-valued screen transport. Do not reimpose the chart-specific `d(a d lambda)=0` control as an
-invariant local obstruction; fit, identify `X_max`, select transfer/history, activate protected
-drafts, or use G116/G189 as construction inputs.
+Classify the **two-dimensional normal-screen carry** at an actual shared observer event joining
+supplied regular null relations. Determine whether the primary metric, shared unit clock, and the
+two incident null directions canonically identify the G188 screen planes, or only define separate
+positive screen spaces with a residual orthogonal torsor. Test identity, inverse, triple-vertex
+composition, passive screen covariance, and reduction to G224's scalar line carry. Do not infer a
+screen/Jacobi map from the one-dimensional switch or force an independently supplied direct
+relation. Do not fit, identify `X_max`, select transfer/history, activate protected drafts, or use
+G116/G189 as construction inputs.
 <!-- STARTUP_CURRENT_END -->
