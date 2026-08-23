@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.resolve()
+SOURCE_ROOT = (REPO / "frozen_sources").resolve() if (REPO / "frozen_sources").is_dir() else REPO
 LANDING = (
     "METRIC_AND_SHARED_CLOCK_DEFINE_POSITIVE_INCIDENT_SCREEN_PLANES"
     "__CANONICAL_LEAST_TURNING_DIRECT_SCREEN_ISOMETRY_EXISTS_OFF_ANTIPODES"
@@ -128,8 +129,8 @@ def validate_manifest() -> list[Path]:
     require(len(rows) == 9, "manifest source count")
     paths: list[Path] = []
     for row in rows:
-        candidate = (REPO / row["path"]).resolve()
-        require(candidate.is_relative_to(REPO), "manifest path escape")
+        candidate = (SOURCE_ROOT / row["path"]).resolve()
+        require(candidate.is_relative_to(SOURCE_ROOT), "manifest path escape")
         require(candidate.is_file(), f"missing source: {row['path']}")
         digest = hashlib.sha256(candidate.read_bytes()).hexdigest()
         require(digest == row["sha256"], f"source hash mismatch: {row['path']}")

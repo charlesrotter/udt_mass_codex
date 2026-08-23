@@ -38,6 +38,9 @@ PACKAGE_FILES = (
     "VERIFICATION_RESULT.json",
     "verify_package.py",
     "ADVERSARIAL_REVIEW_REQUEST.md",
+    "FRESH_ADVERSARIAL_REVIEW.md",
+    "REPAIR_PREREGISTRATION.md",
+    "REPAIR_FOLLOWUP_REQUEST.md",
     "build_review_intake.py",
 )
 
