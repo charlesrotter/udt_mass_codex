@@ -84,7 +84,7 @@ physical scalar after the working premise. They must not be conflated.
   composition retains finite `O(2)` holonomy; the octant control leaves a quarter turn. No
   continuous global endpoint-only flat screen cocycle exists on all `S^2`. Antipodal screens agree
   abstractly while the continuous least-turning ambient extension is nonunique. G224's scalar
-  carry remains exact, G188 Jacobi transport remains separate, and the pointwise map is not
+  carry remains exact, Jacobi transport remains separate, and the pointwise map is not
   promoted to physical transport.
 
 G206--G225 retain their stated verification caveats. None generates a sector function,
@@ -135,30 +135,14 @@ physics or a new fit.
 
 ## Audited restart
 
-G197 classified the full chain as `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`. No P1,
-G116/G189 transfer, fit, `X_max`, G142--G160 construction, or protected local package is
-load-bearing. The active dependency types are metric/founding algebra, supplied query data, chosen
-exploration families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G192's
-numerical IVP legs are formula-level regression evidence; G193--G196 contain the independent metric-side
-contractions.
+G197 excludes P1, G116/G189 transfer, fits, `X_max`, scaffold controls, and protected work from the
+native core. Inputs remain metric/founding algebra, supplied queries, declared exploration
+families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
+formula-level regression or chosen-family controls.
 
-The primary metric excludes the chosen chiral coupling; reversed germs use one law and channel
-volumes need not be lockstep. G205 closes the supplied static geodesic/causal completion. G206--G211
-classify common scale, trace-free screen, radial-screen mixing, full shift, and relative volume,
-then close the diagonal dependency. G212--G217 remove the second-scalar-selector framing, close
-shared-clock incidence, and identify the invariant as the proper-clock derivative of a supplied
-event-pair germ, then close its positive first jet. G218 retypes those scalar data as one clock
-correspondence. G219 factors the chain and proves that relative motion separates lawful query-typed
-protocols. G220 derives the covariant null clock arrow and exact time-live lapse/ruler/shift base
-tile, with same-correspondence clock-leg compatibility. G221 supplies the complete-coframe chord;
-G222 supplies its local pair plane and G188 normal-screen join. G223 derives the invariant mixed
-line pairing, inverse clock weight, and local fiber coordinate while regrading full-representative
-closedness as chart-specific. G224 derives the unique scalar vertical switch at an actual shared
-event and proves it is the inverse G216 representation. G225 derives the least-turning pointwise
-screen isometry off antipodes, its finite direction-space holonomy, and the global flat-cocycle
-no-go while keeping G188 separate. Next assemble G188 along-edge screen/Jacobi phase with G224 and
-G225 vertex data on one supplied composable null chain. Test path-labelled matrix composition,
-middle-screen gauge covariance, caustic-safe phase-space carry, and residual holonomy without
-promoting the pointwise map to selected physical transport or constraining an independent direct
-relation. Keep null query-typed. Do not fit, identify `X_max`, select transfer/history, activate
-protected drafts, or revive historical inputs.
+G199--G214 classify the primary bidirectional channels, quiet/completion strata, complete metric
+degrees, rank, state, and descent. G215--G225 then close the supplied clock slope, first jet,
+query-typed null chord/plane, local scalar carry, and pointwise screen holonomy. Next assemble G188,
+G224, and G225 on one supplied null chain, preserving full phase, middle-screen gauge covariance,
+caustics, and residual holonomy. Do not select transport/history, force a direct relation, fit, use
+`X_max`, activate protected drafts, or revive historical inputs.

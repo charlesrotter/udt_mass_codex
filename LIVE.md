@@ -1,9 +1,6 @@
 # LIVE — current state only
-
 <!-- STARTUP_CURRENT_BEGIN -->
-
 ## CURRENT STATE — 2026-08-22
-
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
 ### Honest claim
@@ -28,68 +25,28 @@ the pullback. It gives
 depth. Events, germs, observer population, and global realization remain `QUERY_SUPPLIED` or
 `OPEN`; equal scalar summaries do not identify realizations.
 
-G215 makes completed `Phi=-log T` a shared comparison-clock scalar. G216 derives on a supplied germ
-`delta_AB=-log(d tau_B/d tau_A)`; G217 proves supplied paired events and depth fix the positive first
-jet. G218 is cross-examined `PONDER`, not canon or a new theorem: incidence, depth, and first jet are
-three views of one query-indexed clock correspondence. On the declared primary static congruence,
-`delta_AB=phi_B-phi_A` closes the scalar kernel modulo clock-origin gauge. Null incidence is an exact
-metric-native causal query, not a founded universal positional owner. G219 is the first exact
-static-to-moving bridge: the scalar chain factors through the one positive clock slope
-`r_AB=d tau_B/d tau_A`, with `delta_AB=-log r_AB` and no second reciprocal-kernel scalar
-coefficient. On the same exact moving-flat metric, null, A-Fermi/radar, and B-Fermi queries give
-different slopes for nonzero rapidity. Mathematical inverse is not later causal return. Thus the
-metric evaluates a declared dynamic correspondence, while the founding sources do not select a
-universal protocol. G220 then derives one supplied regular future-null clock arrow covariantly:
-`r_AB=-(sigma_A.U_A)/(sigma_B.U_B)=(k_A.U_A)/(k_B.U_B)=omega_A/omega_B`. On the exact
-time-live triangular base metric, lapse, ruler, and shift combine upstream as `C_+=A-N beta`, giving
-`r_AB=C_+B/C_+A`. Using `y=tau_A` gives `T_B=r_AB` as a same-correspondence completed
-clock-leg compatibility identity—not an independent G176 proof or a full pair-plane construction.
-Null remains query-typed; later return uses `C_-=A+N beta`. G221 lifts that same supplied null query
-to one regular complete `2+2` coframe. With `H=Q^T Q`,
-`Pi=p_x-s_x^T p_z`, and `q2=p_z^T H^-1 p_z`, the exact future frequency chord is
-`W=[N(A sqrt(Pi^2+D q2)+N beta Pi)/D-s_t^T p_z]/P`. Thus screen shape and both mixing columns enter
-inside the metric before `r_AB=W_A/W_B` and `delta_AB=-log r_AB`; they are not downstream
-modulation. Passive screen covariance, affine cancellation, Hamilton--Jacobi incidence, and exact
-G220 recovery all pass fresh external review without repairs. The full second tangent, higher/full
-pair carry, finite screen/Jacobi transport, branch population, and physical history remain open at
-that stage. G222 then uses the same supplied affine null-incidence family itself: its tangents
-`K=F_*partial_lambda` and `J=F_*partial_y` give
-`h=[[g(J,J),-a],[-a,0]]`, where `a=-g(J,K)>0` is conserved along each ray and
-`det h=-a^2`. On the clock-regular stratum, G176 conditionally gives the completed ruler density
-`m=a`; at the boundaries `a=W_A=r_AB W_B`, recovering G221 and `Phi=-log r_AB`. The G188 quotient
-screen is canonically the positive normal screen of this pair plane, with its connection and tidal
-operator explicitly intertwined; its Jacobi response remains matrix-valued. This theorem passed
-external review after four evidence repairs. G223 identifies the invariant object beneath
-`a d lambda`: the metric-induced nondegenerate pairing of quotient clock and null vertical ruler
-lines. Its clock-trivialized coefficient has inverse clock weight, and every interval fiber has a
-local ruler coordinate. The former `d(a d lambda)=0` condition is only the chart-specific demand for
-an exact full representative with no horizontal term. Global scalar ownership requires compatible
-trivializations, source choices, period/Cech gates, and cross-ribbon vertical carry not supplied by
-G216 clock composition. G223's repaired evidence passed fresh gpt-5.4 follow-up. G224 then closes
-the formerly open local cross-ribbon scalar handoff at an **actual shared observer event**. The
-metric unit clock defines `mu(v)=-g(U,v)` on every incident future-null vertical line and hence the
-unique positive switch `S=mu_out^-1 mu_in`. This is invariant under independent affine rescaling,
-obeys identity, inverse, and vertex cocycle laws, and makes same-edge vertical carry `q=r^-1`; an
-actual composite therefore carries the inverse of the G216 clock-rate product with no extra vertex
-scalar. Abstract line normalization also exists at distinct events, but without shared incidence it
-is not physical vertex composition. G224 derives no ambient direction or screen/Jacobi map and does
-not constrain an independently supplied direct relation. Its repair follow-up returned
-`REPAIRS_ACCEPTED`, final bounded grade `A-`. Null remains query-typed; observer/branch population
-and physical history remain open.
+G215/G216/G217 close the supplied comparison-clock scalar, its proper-clock slope
+`r_AB=d tau_B/d tau_A`, and its positive first jet. G218 retypes incidence, depth, and jet as one
+query-indexed correspondence. G219 proves moving null and Fermi/radar protocols differ and that
+inverse is not later return. G220 derives the supplied future-null slope covariantly and the exact
+time-live base combination `C_+=A-N beta`; return uses `C_-=A+N beta`. G221 lifts the same query to
+the complete coframe chord, placing screen shape and mixing upstream before readout. Null remains
+query-typed and its higher/full pair carry remains `OPEN`.
 
-G225 now closes the bounded pointwise angular comparison at that same supplied shared event. Each
-incident future-null direction and the metric-unit clock define a positive two-dimensional rest
-screen canonically isometric to the G188 quotient screen. Away from antipodes, the metric gives the
-unique proper least-turning map that sends one sight direction to the other while fixing their
-common perpendicular. It is passive `O(3)` and screen-`O(2)` covariant, but it is not an endpoint
-flat cocycle: the exact octant triple leaves a quarter-turn screen holonomy, while an ordered
-same-great-circle control composes exactly. No continuous global endpoint-only flat screen carry
-exists over all celestial `S^2`; at antipodes the screen planes agree but the continuous
-least-turning ambient extension is nonunique. This is a `STANDARD_GEOMETRIC_EVALUATOR`, not selected
-physical vertex transport. G224's scalar carry remains exact and G188's curvature-integrated
-Jacobi map remains a separate path-labelled matrix. Fresh gpt-5.4 review accepted the bounded
-science; two mechanical evidence repairs closed sealed source resolution and Git ancestry with the
-scientific landing unchanged.
+G222 completes that supplied affine-null pair plane with conserved `a=-g(J,K)>0`,
+`det h=-a^2`, conditional ruler `m=a`, and the G188 matrix-valued normal screen. G223 identifies
+the underlying mixed line pairing, inverse clock weight, and local interval-fiber coordinate;
+global scalar ownership still needs source/period/Cech and cross-ribbon carry. G224 closes the
+scalar handoff at an **actual shared observer event**: `mu(v)=-g(U,v)` gives the unique positive
+switch, same-edge vertical carry is `q=r^-1`, and no extra vertex scalar, screen map, or direct-edge
+constraint appears.
+
+G225 closes the bounded pointwise screen comparison at that shared event. Off antipodes the metric
+gives the unique proper least-turning screen isometry, but an octant triple retains quarter-turn
+`O(2)` holonomy and no continuous global endpoint-only flat carry exists on `S^2`. This is a
+`STANDARD_GEOMETRIC_EVALUATOR`, not selected physical transport; G224 scalar carry and G188
+path-labelled Jacobi transport remain distinct. Fresh external review accepted the bounded result
+after two mechanical evidence repairs.
 
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or

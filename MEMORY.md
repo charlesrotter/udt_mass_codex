@@ -10,30 +10,21 @@ after that pullback; it fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`.
 metric-derived or canon. The older conformally blind `phi_control` is an arbitrary-calibration
 control, not completed `Phi`.
 
-G190--G198 are controls: G196 is formula-level regression, G197 provenance, and G198 off-ray.
-G199/G200 remove a chiral switch; G201 permits non-lockstep instruments; G202/G203/G204/G205 cover
-quiet profiles and completion. G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and
-volume. G211/G212/G213/G214 close basis, state, rank, and cover descent. G215/G216/G217 close scalar
-incidence, rate, and first jet on supplied pairs—not event population or full carry. G218 PONDER
-unifies their correspondence. G219 separates moving-flat protocols; inverse is not return. G220's
-covariant null slope gives `r=C_+B/C_+A` and compatible `T_B=r`, not a universal protocol. G221
-puts `Q,s_x,s_t` upstream in the complete chord. G222 closes its local null pair plane:
-`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`, and G188 as normal screen. G223 identifies the
-invariant mixed clock/ruler line pairing, derives inverse clock weight, and proves local interval
-fiber integration. The old `d(a d lambda)=0` gate is only a chart-specific exact-representative
-condition. G224 closes the local scalar handoff at an actual shared event: the metric unit clock
-canonically normalizes each incident future-null line, the unique vertex switch obeys the cocycle
-laws, and vertical carry is the inverse G216 clock representation. It derives no screen/Jacobi map
-or independent direct relation. G225 derives the positive incident screen planes and the unique
-proper least-turning pointwise isometry away from antipodes. Three-direction composition retains
-finite `O(2)` holonomy; there is no continuous global endpoint-only flat screen cocycle, and G188
-Jacobi transport remains separate. The pointwise evaluator is not selected physical transport.
-Protocol population, finite G188 edge/vertex phase assembly, global scalar gates, and history
+G190--G198 are controls: G196 formula-level, G197 provenance, G198 off-ray. G199/G200 remove a
+chiral switch; G201 permits non-lockstep channels; G202/G203/G204/G205 cover quiet profiles and
+completion. G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and volume;
+G211/G212/G213/G214 close basis, state, rank, and descent.
+
+G215/G216/G217 close supplied scalar incidence, rate, and first jet. G218 unifies that
+correspondence; G219 separates moving protocols; G220 gives the query-typed null slope; G221 puts
+the complete chord upstream. G222 closes the local null plane and G188 normal screen. G223 gives
+the mixed line pairing, inverse clock weight, and local fiber coordinate. G224 closes scalar carry
+at a shared event. G225 gives the non-antipodal least-turning screen map and finite `O(2)` holonomy,
+not selected transport. Protocol population, finite G188 phase assembly, global scalar, and history
 remain open.
-G197 excludes P1,
-G116/G189 transfer, fits, `X_max`, and protected payload from the native core. G176 stays provisional
-and G190--G192 IVPs formula-level.
-Germs/functions, realization, transfer, and `X_max` remain open. `INDEX.md` routes evidence.
+
+G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
+G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 
 ## Observational pointer
 

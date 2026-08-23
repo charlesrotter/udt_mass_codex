@@ -28,9 +28,8 @@ integration. `d(a d lambda)=0` is only a chart-specific exact-representative con
 the local scalar carry at an actual shared middle event: `mu(v)=-g(U,v)` gives the unique positive
 switch `mu_out^-1 mu_in`, same-edge vertical carry is `q=r^-1`, and actual chains carry the inverse
 G216 clock product. Distinct-event abstract normalization is not physical vertex composition; no
-screen map or independent direct relation follows. Fresh gpt-5.4 repair follow-up accepted the sole
-wording repair at final bounded grade `A-`. Global scalar source/period/Cech gates, screen/Jacobi
-carry, null protocol, observer/branch population, and physical history remain open.
+screen map or direct relation follows. Global scalar gates, null protocol, population, and history
+remain open.
 
 G225 closes the bounded pointwise angular comparison at that supplied shared event. The metric,
 unit clock, and each incident null direction define a positive rest screen canonically equivalent
@@ -39,9 +38,8 @@ passive `O(3)`/screen-`O(2)` covariant. It is not a flat endpoint cocycle: an ex
 leaves a quarter-turn screen holonomy, and no continuous global endpoint-only flat screen carry
 exists on all celestial `S^2`. Antipodal equal screens do not select a unique continuous ambient
 least turn. The map remains a pointwise `STANDARD_GEOMETRIC_EVALUATOR`, not selected physical
-transport; G224 scalar carry and G188 path-curvature Jacobi transport remain distinct. Fresh
-gpt-5.4 science review and final repair follow-up accepted the bounded landing with no remaining
-repair.
+transport; G224 scalar carry and G188 path-curvature Jacobi transport remain distinct. External
+review accepted the bounded landing.
 
 G197 lands `NATIVE_CORE_RETAINED__PROVENANCE_REPAIRS_REQUIRED`: no earlier fit, transfer, `X_max`,
 or protected payload is load-bearing. G176 remains working; G190--G198 remain chosen-family,

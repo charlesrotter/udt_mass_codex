@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair-metric imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout in supplied planes | Physical germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback, `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Event/germ population; global extension |
-| Pair-clock network | G215--G225; caveats | `Phi=-log T`; supplied null family has complete chord, local plane, mixed line pairing, local fiber coordinate, exact vertical scalar carry, and pointwise least-turning screen comparison | Protocol population; physical vertex-screen choice and finite screen/Jacobi phase assembly |
+| Pair-clock network | G215--G225; caveats | `Phi=-log T`; chord, plane, line/fiber carry, pointwise screen | Population; selected vertex screen; finite phase assembly |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner and signal interpretation |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Family, dimensional position, completion |
 | Co-presence | `WORKING` | Solution membership | Query population, signalling |
@@ -21,12 +21,12 @@
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
-| G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalars retain scale/carrier ceilings; no `X_max` input |
-| G166--G175 supplied-pair chain | accepted with caveats | Pullback, reversal, turns, calibration; germ and profile remain supplied |
-| G176--G180 completed pair | conditional; accepted | Working premise selects the reciprocal ruler; evaluators select no histories |
-| G181--G184 strata/equivalence | conditional; accepted | Endpoints, carry, branches, quotient; equal summaries do not identify realizations |
-| G185--G189 application boundary | accepted with caveats | Radial/nonradial screen and conditional flux controls; transfer/P1 remain imported or historical |
-| G190--G198 time-live families | accepted with caveats | Nested chosen mixing families; the loud/quiet split is valid only in its chosen metric family |
+| G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalar ceilings; no `X_max` input |
+| G166--G175 supplied-pair chain | accepted with caveats | Pullback/reversal/calibration; germ/profile supplied |
+| G176--G180 completed pair | conditional; accepted | Working premise selects ruler; no history selection |
+| G181--G184 strata/equivalence | conditional; accepted | Equal summaries do not identify realizations |
+| G185--G189 application boundary | accepted with caveats | Screen/flux controls; transfer/P1 imported or historical |
+| G190--G198 time-live families | accepted with caveats | Chosen families only |
 | G199/G200/G201 two-direction and phi-jet audits | verified w/caveats | No chiral split; angular amplitudes hear radial jets |
 | G202/G203/G204/G205 quiet, regularity, completion | verified w/caveats | Alternatives survive; supplied family is complete |
 | G206/G207/G208/G209/G210 complete-channel extensions | external w/caveats | Scale, screen, mixing, shift, and volume have distinct responses |
@@ -37,12 +37,12 @@
 | G217 depth first jet | externally verified | Supplied events/depth fix the positive jet; full germ remains open |
 | G218 clock-correspondence whiteboard | cross-examined PONDER | Incidence, depth, and first jet form one query-indexed correspondence |
 | G219 moving clock arrow | adversarially verified after repairs | One scalar slope; moving null/Fermi/radar differ; none selected |
-| G220 covariant null arrow | adversarially verified after repairs | Covariant null slope; time-live `C_+=A-N beta`; completed clock-leg compatibility | Null stays query-typed; full pair plane/orchestra open |
-| G221 complete-coframe null chord | externally verified | `Q,s_x,s_t` enter exact `W`; covariance and G220 reduction pass | Null query-typed; second tangent/full plane/Jacobi carry open |
-| G222 null plane | external after repairs | `a=-g(J,K)` completes local pullback; G188 is normal screen | Protocol, global ruler, history open |
-| G223 null-ribbon density carry | external after repairs | Metric owns mixed line pairing, inverse clock weight, and local fiber integration | Cross-ribbon vertical gluing and global scalar remain open |
-| G224 shared-event vertical carry | external after repair | Unit clock gives the unique incident-null-line switch; vertical scalar is inverse clock representation | Screen/Jacobi map, direct relation, protocol, and global scalar remain open |
-| G225 shared-event normal-screen carry | external after repairs | Metric gives positive incident screens and the unique proper least-turning direct isometry off antipodes; triples retain finite `O(2)` holonomy | Pointwise evaluator is not selected physical transport; finite G188 edge/vertex assembly and population remain open |
+| G220 covariant null arrow | external after repairs | Null slope; `C_+=A-N beta` | Query-typed; full plane open |
+| G221 complete-coframe null chord | externally verified | `Q,s_x,s_t` enter exact `W` | Second tangent/phase open |
+| G222 null plane | external after repairs | `a=-g(J,K)`; G188 normal screen | Protocol/ruler/history open |
+| G223 null-ribbon carry | external after repairs | Line pairing, inverse clock weight, local integration | Global gluing/scalar open |
+| G224 shared-event scalar carry | external after repair | Unique line switch; inverse clock representation | Screen/direct/protocol open |
+| G225 shared-event screen carry | external after repairs | Proper least-turning isometry off antipodes; finite `O(2)` holonomy | Not selected transport; finite phase/population open |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -65,14 +65,11 @@ None selects completion or `X_max`.
 - The kernel takes an ordered pair, not a path; route observables remain separate.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
-- The carrier/transport chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; the
-  conformal family is an envelope control, not a multiplicity theorem.
-- G212--G225 close state/rank/descent, type the supplied positive clock jet, complete one local
-  affine-null pair plane, derive its invariant mixed line pairing plus local fiber integration, and
-  close scalar vertical carry at an actual shared event. G225 adds the pointwise least-turning
-  screen isometry and proves its finite direction-space holonomy and global flat-cocycle no-go.
-  Event/protocol population, physical vertex-screen selection, finite G188 phase assembly, global
-  scalar gates, transfer, and completion stay open.
+- The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
+  is an envelope control.
+- G212--G225 close state/descent, clock jet, one null plane, local line/fiber and scalar carry, and
+  pointwise screen holonomy. Population, selected vertex screen, finite G188 phase, global scalar,
+  transfer, and completion stay open.
 
 ## Carrier, action, source, and matter
 

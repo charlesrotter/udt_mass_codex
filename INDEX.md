@@ -10,7 +10,6 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query task-relevant registry rows and evidence.
 ## Active relational frontier
-
 - Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
 - Native pair descent: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Full spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
@@ -49,16 +48,10 @@
 - Complete-coframe null chord and local pair-plane join: `udt_g221_complete_coframe_null_clock_chord_2026-08-22/`; `udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`
 - Null-ribbon density overlap and local integration: `udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`
 - Shared-event vertical scalar carry: `udt_g224_shared_event_vertical_carry_2026-08-22/`
-- Shared-event normal-screen comparison and holonomy:
-  `udt_g225_shared_event_normal_screen_carry_2026-08-22/`
-G129--G165 are controls; G166--G184 build pairs; G185--G214 are application/control/structure.
-G215--G217 close scalar incidence; G218--G220 type dynamic queries; G221 supplies the complete chord;
-G222 completes the local plane and normal screen; G223 identifies the invariant mixed line pairing,
-inverse clock weight, and local fiber coordinate; G224 closes the scalar vertical switch at an
-actual shared event; G225 derives the pointwise least-turning screen isometry off antipodes and its
-nontrivial direction-space holonomy. Protocol population, physical vertex-screen selection, finite
-G188 edge/vertex phase assembly, global scalar gates, and physical history remain open.
-Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact intermediate routes and ownership.
+- Shared-event normal-screen comparison and holonomy: `udt_g225_shared_event_normal_screen_carry_2026-08-22/`
+G129--G214 control, build, and classify the supplied-pair structure. G215--G225 close its local
+scalar/null evaluator through screen holonomy. Open: protocol population, physical vertex-screen
+choice, finite G188 chain, global scalar, and history. Exact ownership: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Durable prerequisites
 - Pair-first relational plane: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`
 - Pair-terminal reachability: `udt_pair_terminal_reachability_atlas_2026-08-12/`
@@ -84,8 +77,7 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Current status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
 - Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
-- Known-old-path relocation lookup only:
-  `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
+- Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source, interpreted only through the current premise ledger:
   `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
@@ -96,7 +88,6 @@ feature, scale, rank, significance, BAO/UDT/CMB origin, cosmology, or `X_max`.
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
 ## Historical negative controls — never kernel inputs
-
 - G164/G165 scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
   `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
