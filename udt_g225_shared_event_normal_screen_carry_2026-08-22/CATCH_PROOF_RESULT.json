@@ -1,0 +1,37 @@
+{
+  "algorithm_mutations_attempted": 4,
+  "algorithm_mutations_rejected": 4,
+  "algorithm_rejected": [
+    "wrong_Rodrigues_sign",
+    "omitted_quadratic_term",
+    "false_exact_cocycle",
+    "false_antipodal_uniqueness"
+  ],
+  "payload_mutations_attempted": 21,
+  "payload_mutations_rejected": 21,
+  "rejected": [
+    "production_status",
+    "symbolic_count",
+    "screen_planes",
+    "direct_isometry",
+    "false_cocycle",
+    "delete_holonomy",
+    "antipodal_promotion",
+    "global_flat_promotion",
+    "scalar_deletion",
+    "Jacobi_collapse",
+    "physical_transport_promotion",
+    "direct_relation_promotion",
+    "protocol_promotion",
+    "history_promotion",
+    "production_landing",
+    "independent_status",
+    "case_count",
+    "assertion_count",
+    "defect_count",
+    "production_import",
+    "sympy_import"
+  ],
+  "status": "PASS",
+  "total_contract_mutations": 25
+}

@@ -1,0 +1,15 @@
+{
+  "G224_scalar_composition": true,
+  "antipodal_least_turning_nonuniqueness": true,
+  "cases": 20000,
+  "exact_rational_assertions": 580013,
+  "fixed_great_circle_control": true,
+  "fixed_octant_holonomy": true,
+  "landing": "METRIC_AND_SHARED_CLOCK_DEFINE_POSITIVE_INCIDENT_SCREEN_PLANES__CANONICAL_LEAST_TURNING_DIRECT_SCREEN_ISOMETRY_EXISTS_OFF_ANTIPODES__THREE_DIRECTION_COMPOSITION_RETAINS_FINITE_O2_HOLONOMY_AND_NO_GLOBAL_ENDPOINT_ONLY_FLAT_SCREEN_CARRY_EXISTS__G188_JACOBI_TRANSPORT_REMAINS_SEPARATE",
+  "nontrivial_composition_defects": 19922,
+  "passive_O3_covariance": true,
+  "production_code_imported": false,
+  "seed": 2250822,
+  "status": "PASS",
+  "sympy_imported": false
+}
