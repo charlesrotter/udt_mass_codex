@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock network | G215--G234 | Scalar/carry/phase, curvature/Cartan, finite-order obstruction and ownership map | Population/transport/profile law |
+| Pair-clock network | G215--G235 | Scalar/carry/phase, curvature/Cartan, finite-order obstruction, ownership map, matched-network negative | Population/transport/profile law |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -40,7 +40,7 @@
 | G227/G228 curvature data | exact | Ranks 19/20 and Bianchi 60; no values/history |
 | G229/G230 metric jets | exact; independent | Compatible 3/4-jets; no regional field/history |
 | G231 Cartan bridge | exact; conditional existence | Regional integration architecture; law/values open |
-| G232/G233/G234 closure | `PONDER`; external w/caveats | Finite-order obstruction; two remaining selector architectures |
+| G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; literal matched-network existence is nonselective |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -68,9 +68,10 @@ None selects completion or `X_max`.
 - G212--G231 close state/descent, clock/null carry, phase, curvature compatibility, point-metric
   realization, and regional Cartan architecture. G232/G233 separate fixed-member
   evaluation, conditional finite-family closure, and an externally verified unrestricted-family
-  finite-order obstruction. G234 reduces the remaining route menu to an invariant smaller-family
-  cut or a genuinely global relation law; time-live/nonspherical activation alone is not a
-  selector. Profile values, nonlocal/global closure, population, transport,
+  finite-order obstruction. G234 reduces the route menu to an invariant smaller-family cut or a
+  genuinely global relation law; G235 proves that existence of one rank-complete matched network
+  is only reconstruction, not such a global selector. Profile values, nonlocal/global closure,
+  population, transport,
   completion, and infinite-route principal Lorentz descent stay open.
 
 ## Carrier, action, source, and matter
@@ -103,7 +104,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 217-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 218-row authority. On conflict, stop.
 
 Run:
 

@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G234: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G235: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -26,6 +26,10 @@ exclude universal local finite-order closure. Global and smaller-family routes r
 G234 reduces the post-G233 routes to two: an owned invariant smaller-family cut or a global relation
 law. Time-live/nonspherical activation enlarges the arena; it does not select. No active condition
 closes the one-function primary profile.
+
+G235 tests the literal global-network candidate: six common-clock pair planes reconstruct rank ten
+and matched depths compose, but both invariant G233 twins pass. Existence of that network is
+reconstruction, not selection; full tuples on distinct pair surfaces have no native product.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -53,11 +57,10 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Stop the derivative-order ladder. Audit whether completed-pair Dual Reciprocity across one global
-rank-complete matched-incidence network supplies a natural nonidentity condition beyond fiberwise
-normalization and overlap descent. Name its rejected G233-type twin or G206--G210 extension before
-any solve; otherwise return `NO_CANDIDATE`. No selected G225 transport, population/history
-inference, fit, `X_max`, or protected drafts.
+Do not repeat the G235 matched-network existence candidate. A new solve needs a different natural
+nonidentity condition and a preregistered G233 twin or G206--G210 extension it rejects; otherwise
+stop at `NO_CANDIDATE`. No selected G225 transport, population/history inference, fit, `X_max`, or
+protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

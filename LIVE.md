@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G234. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G235. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -42,19 +42,10 @@ G226 joins G188/G224/G225 on one supplied null chain. Its `CSp^+(4,R)` phase has
 inverse ruler carry `q`; gauges cancel, caustics retain phase, and matrix holonomy remains. It
 selects no transport, direct relation, population, or history.
 
-G227's same-event nine-direction tide has rank 19, kernel `span(g wedge g)`, and eight syzygies; one
-`CHOSE` timelike datum restores rank 20. This is algebraic curvature tomography, not metric
-realization, value generation, population, or history.
-
-G228: differential Bianchi cuts 80 `nabla R` components to 60; one/two-direction projections are
-surjective, while three/four directions have six/twenty syzygies. This is algebraic compatibility.
-
-G229 realizes every compatible `(R,nabla R)` point jet by a local Lorentz metric 3-jet, with ranks
-20/60 and coordinate-gauge kernels 80/140. It generates no values or region.
-
-G230 adds differentiated Bianchi and the Ricci commutator: 126 of 320 ordered `nabla^2 R`
-components survive; the metric 4-jet has rank/kernel `126/224`, with fifth-order coordinate gauge.
-This is one-event realization, not gluing, values, dynamics, population, transport, or history.
+G227--G230 close pointwise curvature compatibility: nine null directions give rank 19 and one
+`CHOSE` datum gives 20; differential Bianchi cuts `nabla R` from 80 to 60; compatible data have a
+metric 3-jet; and 126 of 320 `nabla^2 R` components survive with metric 4-jet rank/kernel `126/224`.
+These are one-event algebraic/realization results, not values, gluing, dynamics, or history.
 
 G231 unifies G227/G228/G230, with G229 as metric-jet bridge, in a regional Cartan architecture:
 `36->20`, `80->60`, `320->126`. Bare moving-frame curvature lacks principal Lorentz typing and a
@@ -75,6 +66,12 @@ routes reduce to two—an owned invariant family cut or a nonlocal/global relati
 nonspherical activation only enlarges the arena. Current regularity, completion, reconstruction,
 descent, holonomy, Cartan, and co-presence results do not close the profile.
 
+G235 externally tests the strongest literal matched-network candidate. Six common-clock pair
+planes reconstruct all ten metric components, G176 completion retains the full pullbacks, and
+matched depths compose. Both invariant G233 twins nevertheless pass. Thus existence of one smooth
+rank-complete matched-incidence network is reconstructive, not selective. Multiplying full tuples
+from distinct pair surfaces is untyped without new transport structure.
+
 Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
 yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
 pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
@@ -87,7 +84,7 @@ history law. G199--G214 are retained structural classifications in `CURRENT_RESE
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 217-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 218-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -111,11 +108,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Stop the derivative-order ladder. The next gate is candidate ownership, not another solve: test
-whether completed-pair Dual Reciprocity across one globally compatible rank-complete matched-
-incidence relation network yields a condition stronger than fiberwise normalization and overlap
-descent. Before calculation, state the exact natural nonidentity condition and preregister a G233-
-type twin or G206--G210 extension it must reject independently of the desired profile. If no such
-condition can be written, return `NO_CANDIDATE` and stop. Do not substitute a preferred ansatz,
-constant-curvature control, action, fit, `X_max`, protected draft, or G116/G189 construction input.
+G235 has closed the literal rank-complete matched-network existence candidate with `NO_CANDIDATE`.
+Do not repeat reconstruction, completion, composition, or overlap as if coherence selected values.
+No new solve is owned until a different natural nonidentity condition is stated independently of
+its desired survivor—either an invariant smaller-family cut or a genuinely stronger global
+relation law—and preregistered against a G233 twin or G206--G210 extension. If none can be named,
+stop. Do not substitute an ansatz, constant-curvature control, action, fit, `X_max`, protected
+draft, or G116/G189 construction input.
 <!-- STARTUP_CURRENT_END -->

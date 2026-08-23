@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G234",
+            "G166--G235",
             "G197",
             "G215",
             "G216",
@@ -215,6 +215,7 @@ def validate_startup_surface(root: Path) -> None:
             "G232",
             "G233",
             "G234",
+            "G235",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -257,7 +258,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "217-row exact registry",
+            "218-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -336,7 +337,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G234",
+            "G166--G235",
             "G197",
             "G198",
             "G199",
@@ -376,6 +377,7 @@ def validate_startup_surface(root: Path) -> None:
             "G232",
             "G233",
             "G234",
+            "G235",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -428,6 +430,7 @@ def validate_startup_surface(root: Path) -> None:
             "G232",
             "G233",
             "G234",
+            "G235",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -475,10 +478,11 @@ def validate_startup_surface(root: Path) -> None:
             "G232",
             "G233",
             "G234",
+            "G235",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "217-row",
+            "218-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -819,9 +823,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 217, "premise registry must contain exactly 217 rows")
+    require(len(rows) == 218, "premise registry must contain exactly 218 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 217, "duplicate premise id")
+    require(len(by_id) == 218, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -3867,6 +3871,107 @@ def main() -> None:
         if path.is_file() and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
     }
     require(g234_registered == g234_actual, "G234 final evidence manifest mismatch")
+    require(
+        by_id["G235"]["current_status"].startswith(
+            "EXACT_BOUNDED_NEGATIVE__PREREGISTERED__INDEPENDENTLY_VERIFIED"
+        ),
+        "G235 bounded grade changed",
+    )
+    for guard in (
+        "EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED_NO_CANDIDATE_RETAINED",
+        "SIX_COMMON_CLOCK_PAIR_PLANES_RESTRICTION_RANK_TEN",
+        "MATCHED_ENDPOINT_DEPTHS_REVERSE_AND_COMPOSE_FOR_ARBITRARY_SMOOTH_POTENTIAL",
+        "G233_B0_B7_TWINS_BOTH_ADMIT_NETWORK",
+        "INVARIANT_SEPARATOR_560_OVER_81_RETAINED",
+        "LITERAL_EXISTENCE_CONDITION_RECONSTRUCTIVE_NOT_SELECTIVE",
+        "CROSS_PAIR_FULL_TUPLES_HAVE_NO_NATIVE_PRODUCT",
+        "NO_GENERAL_GLOBAL_LAW_NO_GO",
+    ):
+        require(guard in by_id["G235"]["current_status"], f"G235 guard absent: {guard}")
+    require(by_id["G235"]["epistemic_label"] == "MIXED", "G235 label changed")
+    require(
+        by_id["G235"]["active_use"]
+        == "ACTIVE_BOUNDED_LITERAL_RANK_COMPLETE_MATCHED_INCIDENCE_NETWORK_EXISTENCE_NONSELECTION_ONLY",
+        "G235 active scope widened",
+    )
+    require(
+        "rank-complete reconstruction called profile selection"
+        in by_id["G235"]["forbidden_regression"]
+        and "G235 called proof that no global UDT relation law exists"
+        in by_id["G235"]["forbidden_regression"]
+        and "another solve started without a natural nonidentity condition"
+        in by_id["G235"]["forbidden_regression"],
+        "G235 regression guards absent",
+    )
+    require(
+        by_id["G235"]["controlling_source"]
+        == "udt_g235_rank_complete_matched_network_nonselection_2026-08-23/AUDIT_REPORT.md",
+        "G235 controlling source changed",
+    )
+    g235 = ROOT / "udt_g235_rank_complete_matched_network_nonselection_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
+        "FINAL_EVIDENCE_MANIFEST.tsv",
+        "INDEPENDENT_VERIFICATION.json",
+        "NETWORK_TWIN_ATLAS.tsv",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "derive_matched_network_nonselection.py",
+        "verify_matched_network_independent.py",
+        "verify_package.py",
+    ):
+        require((g235 / name).is_file(), f"G235 evidence missing: {name}")
+    g235_result = json.loads((g235 / "DERIVATION_RESULT.json").read_text())
+    g235_independent = json.loads((g235 / "INDEPENDENT_VERIFICATION.json").read_text())
+    require(g235_result["all_positive_checks_pass"] is True, "G235 production check failed")
+    require(g235_result["candidate_nonidentity_gate_passes"] is False, "G235 candidate promoted")
+    require(g235_result["design_rank"] == 10, "G235 design rank changed")
+    require(g235_result["g233_invariant_separator"] == "560/81", "G235 separator changed")
+    require(
+        g235_result["checks"]["seed_network_passes_structural_condition"] is True
+        and g235_result["checks"]["b7_network_passes_structural_condition"] is True,
+        "G235 invariant twins no longer both pass",
+    )
+    require(
+        g235_independent["all_positive_checks_pass"] is True
+        and g235_independent["candidate_nonidentity_gate_passes"] is False,
+        "G235 independent landing changed",
+    )
+    require(g235_independent["assertions"] == 540005, "G235 independent assertion count changed")
+    require(
+        g235_independent["network_pass_by_b"] == {"0": True, "7": True},
+        "G235 independent twin verdict changed",
+    )
+    require(
+        "G235_ACCEPTED_WITH_CAVEATS" in (g235 / "EXTERNAL_REVIEW.md").read_text()
+        and "No scientific or type error was found" in (g235 / "EXTERNAL_REVIEW.md").read_text(),
+        "G235 fresh external-review acceptance absent",
+    )
+    require(
+        "G235_REPAIRS_ACCEPTED__NO_CANDIDATE_RETAINED"
+        in (g235 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        "G235 repair-followup acceptance absent",
+    )
+    require(len(read_tsv(g235 / "PREMISE_LEDGER.tsv")) == 14, "G235 premise count changed")
+    require(len(read_tsv(g235 / "SOURCE_MANIFEST.tsv")) == 9, "G235 source count changed")
+    g235_manifest_rows = read_tsv(g235 / "FINAL_EVIDENCE_MANIFEST.tsv")
+    g235_registered = {row["path"]: row["sha256"] for row in g235_manifest_rows}
+    require(len(g235_registered) == len(g235_manifest_rows), "G235 duplicate manifest path")
+    g235_actual = {
+        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g235.iterdir()
+        if path.is_file() and path.name != "FINAL_EVIDENCE_MANIFEST.tsv"
+    }
+    require(g235_registered == g235_actual, "G235 final evidence manifest mismatch")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8090,7 +8195,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G234-extended startup and G234 premise guards; PASS: 217-row premise "
+        "PASS: G235-extended startup and G235 premise guards; PASS: 218-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

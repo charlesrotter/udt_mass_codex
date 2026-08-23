@@ -1,0 +1,3 @@
+member	b	shared_jets_0_to_4	invariant_separator_from_seed	rank	completion	matched_composition	candidate_verdict
+seed	0	YES	0	10	PASS	PASS	ACCEPTED
+control	7	YES	560/81	10	PASS	PASS	ACCEPTED_NOT_REJECTED

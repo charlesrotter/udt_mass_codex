@@ -1,0 +1,39 @@
+{
+  "landing": "INDEPENDENT_CONFIRMATION__NO_CANDIDATE",
+  "all_positive_checks_pass": true,
+  "candidate_nonidentity_gate_passes": false,
+  "trials": 5000,
+  "assertions": 540005,
+  "rank": 10,
+  "five_ruler_rank": 9,
+  "network_pass_by_b": {
+    "0": true,
+    "7": true
+  },
+  "profile_pair_completion_by_b": {
+    "0": true,
+    "7": true
+  },
+  "profile_common_clock_by_b": {
+    "0": true,
+    "7": true
+  },
+  "separator": "560/81",
+  "checks": {
+    "independent_six_plane_rank_ten": true,
+    "independent_completed_pair_and_reconstruction_trials": true,
+    "independent_matched_composition_trials": true,
+    "independent_seed_profile_network": true,
+    "independent_b7_profile_network": true,
+    "independent_six_pair_completions_per_profile": true,
+    "independent_six_constructed_h00_entries_match": true,
+    "independent_twin_jet_collision": true,
+    "independent_twin_next_jet_differs": true,
+    "independent_g233_separator": true,
+    "independent_five_ruler_mutation_drops_rank": true,
+    "independent_corrupted_edge_breaks_composition": true,
+    "independent_two_chart_screen_overlap": true,
+    "independent_both_twins_pass_network_structure": true,
+    "independent_candidate_rejects_control": false
+  }
+}

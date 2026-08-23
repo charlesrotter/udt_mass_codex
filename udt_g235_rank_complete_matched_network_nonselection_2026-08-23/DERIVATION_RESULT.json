@@ -1,0 +1,54 @@
+{
+  "landing": "RANK_COMPLETE_MATCHED_COMPLETION_IS_RECONSTRUCTIVE_NOT_SELECTIVE__EXISTENCE_CONDITION_ACCEPTS_G233_INVARIANT_TWINS__NO_CANDIDATE",
+  "all_positive_checks_pass": true,
+  "candidate_nonidentity_gate_passes": false,
+  "design_shape": [
+    18,
+    10
+  ],
+  "design_rank": 10,
+  "profile_jet_differences_orders_0_to_5": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "840"
+  ],
+  "g233_invariant_separator": "560/81",
+  "profile_network_evidence": {
+    "0": {
+      "six_pair_completions": true,
+      "six_constructed_h00_entries_match": true,
+      "edge_closure": true,
+      "network_pass": true
+    },
+    "7": {
+      "six_pair_completions": true,
+      "six_constructed_h00_entries_match": true,
+      "edge_closure": true,
+      "network_pass": true
+    }
+  },
+  "checks": {
+    "six_plane_design_rank_ten": true,
+    "six_plane_design_kernel_zero": true,
+    "common_clock_entry_independent_of_ruler": true,
+    "generic_pair_determinant": true,
+    "completed_pair_determinant_minus_one": true,
+    "completed_tuple_reconstructs_full_pullback": true,
+    "completed_depth_depends_only_on_common_clock": true,
+    "matched_depth_triangle_telescopes": true,
+    "matched_depth_reversal": true,
+    "twins_share_profile_jets_zero_through_four": true,
+    "twins_differ_at_profile_fifth_jet": true,
+    "g233_invariant_separator_is_560_over_81": true,
+    "seed_network_passes_structural_condition": true,
+    "b7_network_passes_structural_condition": true,
+    "five_ruler_mutation_drops_rank": true,
+    "corrupted_edge_mutation_breaks_composition": true,
+    "two_chart_screen_overlap_recovers_metric": true,
+    "candidate_rejects_preregistered_b7_control": false
+  },
+  "maximum_conclusion": "Existence of one smooth compatible rank-complete matched-incidence network of typed G176-completed pairs is reconstructive, not a nonidentity metric/profile selector, on the declared regular covered arena."
+}

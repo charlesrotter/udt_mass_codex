@@ -81,8 +81,11 @@ physical scalar after the working premise. They must not be conflated.
   leaving global, infinite-state, time-live, nonspherical, and smaller-family routes open.
 - G234 reduces those routes to an owned invariant smaller-family cut or a global relation law.
   Time-live/nonspherical activation enlarges the arena but does not select the supplied profile.
+- G235 tests the literal global rank-complete matched-incidence existence condition. Six common-
+  clock planes reconstruct rank ten and matched depths compose, but both invariant G233 twins pass.
+  The network is reconstructive, not selective; cross-pair full-tuple multiplication is untyped.
 
-G206--G234 generate no sector function or `X_max`. Exact
+G206--G235 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -90,7 +93,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g231_cartan_regional_realization_bridge_2026-08-23/`. Current closure bridge:
 `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/` and
 `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`. Ownership map:
-`udt_g234_post_g233_native_closure_route_map_2026-08-23/`. Evaluator:
+`udt_g234_post_g233_native_closure_route_map_2026-08-23/`. Matched-network discriminator:
+`udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -99,7 +103,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 
 - G211--G231 close local basis, descent, clock/carry/phase, curvature jets, and conditional regional
   realization for supplied data. G232/G233 exclude unrestricted finite-order profile closure; G234
-  leaves an owned smaller-family cut or global relation condition. Neither is currently owned.
+  leaves two architectures, and G235 excludes the literal matched-network existence condition as a
+  selector. No owned nonidentity condition remains active.
 - G222--G231 select no transport, direct relation, population, regional values, global scalar, or
   history; integration and reconstruction do not generate their input values.
 - Events, germs, functions, observer population, branch aggregation, and multidirectional/global
@@ -119,11 +124,9 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G234 close the
+G199--G214 classify direction, completion, metric degrees, state, and descent. G215--G235 close the
 supplied clock/null/carry/phase chain, curvature point jets, Cartan regional architecture, and the
-unrestricted finite-order closure discriminator plus its ownership map. Next audit whether global
-completed-pair Dual Reciprocity on a rank-complete matched-incidence network supplies a
-nonidentity condition beyond fiberwise normalization and overlap descent. Name the condition and
-its rejected control before any solve; otherwise return `NO_CANDIDATE`. Do not confuse integration
-with value generation, select transport, fit, use `X_max`, activate protected drafts, or revive
-historical inputs.
+unrestricted finite-order discriminator, ownership map, and matched-network negative. No new solve
+is owned until a different natural nonidentity condition and its rejected control are named; else
+stop at `NO_CANDIDATE`. Do not confuse integration with value generation, select transport, fit,
+use `X_max`, activate protected drafts, or revive historical inputs.

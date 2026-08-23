@@ -1,0 +1,11 @@
+claim_id	claim	status	ceiling
+G235_C1	six common-clock ruler planes have restriction rank ten	DERIVED_EXACT	sufficiency witness not physical population
+G235_C2	G176 completion is invertible when density m is retained	DERIVED_CONDITIONAL	working clarification and regular pairs
+G235_C3	common-clock matched incidence yields one endpoint potential	DERIVED_CONDITIONAL	supplied clock and incidence maps
+G235_C4	reversal and composition hold for arbitrary smooth endpoint potential	DERIVED_EXACT	matched subfamily only
+G235_C5	both b=0 and b=7 primary twins admit the completed matched rank-ten network	DERIVED_BOUNDED	regular annular cover
+G235_C6	twins differ by invariant separator 560/81	RETAINED_G233_EXACT	declared r0=3 and Delta b=7
+G235_C7	P_net fails the nonidentity selector gate	DERIVED_BOUNDED_NEGATIVE	existence/law-schema candidate only
+G235_C8	full tuple product across distinct pair surfaces	NOT_DERIVED_UNTYPED	needs new transport/incidence law
+G235_C9	all-germ universal population or equality	OPEN_NOT_ACTIVATED	would be an additional premise
+G235_C10	all global UDT relation laws fail	NOT_CLAIMED	outside scope
