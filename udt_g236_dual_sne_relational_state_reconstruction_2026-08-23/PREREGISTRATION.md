@@ -163,9 +163,9 @@ These are observational-interface classifications only.
 - at `K=12`, add the explicitly nonphysical test mutation
   `0.5*(phi-phi_min)/(phi_max-phi_min)` magnitudes to one synthetic catalog copy and require
   `chi2_shape > C_12`;
-- at `K=12`, reverse the association between the observed magnitude vector and its sorted redshift
-  vector while retaining the covariance ordering, and require raw residual `chi2` to exceed twice
-  the unmutated value;
+- at `K=12`, sort one catalog and its covariance by redshift, then cyclically roll only the sorted
+  redshift vector by `floor(N/2)` while retaining the observed-vector/covariance ordering; require
+  raw residual `chi2` to exceed twice the unmutated value;
 - including the Pantheon survey-10 overlap is diagnostic only and cannot enter the primary result;
 - assert that P1, `X_max`, Lambda-CDM distance functions, a physical profile optimizer, and
   post-readout angular corrections are absent;
