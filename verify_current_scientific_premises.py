@@ -196,7 +196,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G248",
+            "G166--G249",
             "G197",
             "G215",
             "G216",
@@ -232,6 +232,7 @@ def validate_startup_surface(root: Path) -> None:
             "G246",
             "G247",
             "G248",
+            "G249",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -274,7 +275,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "231-row exact registry",
+            "232-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -350,6 +351,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g246_two_observer_null_incidence_descent_2026-08-24/",
             "udt_g247_global_null_branch_network_descent_2026-08-24/",
             "udt_g248_metric_regular_branch_measure_ownership_2026-08-24/",
+            "udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -363,7 +365,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G248",
+            "G166--G249",
             "G197",
             "G198",
             "G199",
@@ -417,6 +419,7 @@ def validate_startup_surface(root: Path) -> None:
             "G246",
             "G247",
             "G248",
+            "G249",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -483,6 +486,7 @@ def validate_startup_surface(root: Path) -> None:
             "G246",
             "G247",
             "G248",
+            "G249",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -544,10 +548,11 @@ def validate_startup_surface(root: Path) -> None:
             "G246",
             "G247",
             "G248",
+            "G249",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "231-row",
+            "232-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -890,9 +895,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 231, "premise registry must contain exactly 231 rows")
+    require(len(rows) == 232, "premise registry must contain exactly 232 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 231, "duplicate premise id")
+    require(len(by_id) == 232, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5650,6 +5655,158 @@ def main() -> None:
     )
     require(json.loads(g248_replay.stdout)["status"] == "PASS", "G248 live no-write replay failed")
     require(
+        by_id["G249"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_D2B297E4"
+        ),
+        "G249 bounded grade changed",
+    )
+    for guard in (
+        "ORIGINAL_GPT54_SCIENCE_ACCEPTED_REPAIRS_REQUIRED",
+        "FIRST_REPAIR_FOLLOWUP_INCOMPLETE_SCIENTIFIC_LANDING_RETAINED",
+        "SECOND_REPAIRS_PREREGISTERED_AT_24D0DEE1",
+        "FINAL_GPT54_SECOND_REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED",
+        "CE_AND_RECIPROCAL_REDSHIFT_FIX_DIMENSIONLESS_CLOCK_RATIOS_NOT_ABSOLUTE_LENGTH",
+        "POSITIVE_HOMOTHETY_PRESERVES_COMPLETE_DIMENSIONLESS_PHI_HISTORY_CAUSAL_STRUCTURE_AND_NORMALIZED_SHAPE_WHILE_JACOBI_AREA_SCALES_AS_LENGTH_SQUARED",
+        "PHI_VALUE_ALONE_DOES_NOT_FIX_NORMALIZED_ANGULAR_RESPONSE",
+        "FULL_DIMENSIONLESS_METRIC_AND_BRANCH_FIX_NORMALIZED_JACOBI_RESPONSE_CONDITIONALLY",
+        "ONE_INDEPENDENT_DIMENSIONFUL_ANCHOR_REMAINS_FOR_ABSOLUTE_SCALE",
+        "EXPLICIT_EQUAL_PHI_TWO_WITNESS_TESTS",
+        "EXACT_23_ENTRY_HOSTILE_LEDGER",
+        "ZERO_FITTED_COEFFICIENTS",
+        "OBSERVATIONAL_OUTCOMES_CLOSED_AND_UNREAD",
+    ):
+        require(guard in by_id["G249"]["current_status"], f"G249 guard absent: {guard}")
+    require(by_id["G249"]["epistemic_label"] == "MIXED", "G249 label changed")
+    require(
+        by_id["G249"]["active_use"]
+        == "ACTIVE_BOUNDED_CONSTANT_POSITIVE_HOMOTHETY_OF_COMPLETE_DIMENSIONLESS_METRIC_HISTORY_AND_SOURCE_CLOCK_NORMALIZED_REGULAR_NONCAUSTIC_NULL_JACOBI_BRANCH_ONLY",
+        "G249 active scope widened",
+    )
+    for guard in (
+        "c_E or reciprocal redshift called an absolute length or area selector",
+        "phi value alone called the normalized angular response",
+        "positive homothety erased or called gauge",
+        "normalized Jacobi shape conflated with absolute area",
+        "one-anchor recovery called derivation of the anchor value or physical history",
+        "injective-branch condition erased from A(phi)",
+    ):
+        require(guard in by_id["G249"]["forbidden_regression"], f"G249 regression guard absent: {guard}")
+    require(
+        by_id["G249"]["controlling_source"]
+        == "udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/AUDIT_REPORT.md",
+        "G249 controlling source changed",
+    )
+    g249 = ROOT / "udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_COMMIT.md",
+        "REPAIR_FOLLOWUP.md",
+        "REPAIR_FOLLOWUP_RAW.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION_COMMIT.md",
+        "REPAIR_RESULT.md",
+        "REVIEW_REQUEST.md",
+        "SECOND_REPAIR_FOLLOWUP.md",
+        "SECOND_REPAIR_FOLLOWUP_RAW.md",
+        "SECOND_REPAIR_FOLLOWUP_REQUEST.md",
+        "SECOND_REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "SECOND_REPAIR_PREREGISTRATION.md",
+        "SECOND_REPAIR_PREREGISTRATION_COMMIT.md",
+        "SECOND_REPAIR_RESULT.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_reciprocal_angular_scale.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_reciprocal_angular_scale_independent.py",
+    ):
+        require((g249 / name).is_file(), f"G249 evidence missing: {name}")
+    expected_g249 = (
+        "CE_AND_RECIPROCAL_REDSHIFT_FIX_DIMENSIONLESS_CLOCK_RATIOS_NOT_ABSOLUTE_LENGTH"
+        "__POSITIVE_HOMOTHETY_PRESERVES_COMPLETE_DIMENSIONLESS_PHI_HISTORY_CAUSAL_STRUCTURE_AND_NORMALIZED_SHAPE_WHILE_JACOBI_AREA_SCALES_AS_LENGTH_SQUARED"
+        "__PHI_VALUE_ALONE_DOES_NOT_FIX_NORMALIZED_ANGULAR_RESPONSE"
+        "__FULL_DIMENSIONLESS_METRIC_AND_BRANCH_FIX_NORMALIZED_JACOBI_RESPONSE_CONDITIONALLY"
+        "__ONE_INDEPENDENT_DIMENSIONFUL_ANCHOR_REMAINS_FOR_ABSOLUTE_SCALE"
+    )
+    g249_result = json.loads((g249 / "DERIVATION_RESULT.json").read_text())
+    g249_independent = json.loads((g249 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g249_catches = json.loads((g249 / "CATCH_PROOF_RESULT.json").read_text())
+    g249_verification = json.loads((g249 / "VERIFICATION_RESULT.json").read_text())
+    require(g249_result["landing"] == expected_g249, "G249 production landing changed")
+    require(g249_independent["expected_landing"] == expected_g249, "G249 independent landing changed")
+    require(
+        g249_result["cases"] == 4096
+        and g249_result["assertions"] == 61448
+        and g249_independent["cases"] == 10000
+        and g249_independent["assertions"] == 248310
+        and g249_independent["ivp_uniqueness_cases"] == 512
+        and g249_independent["ivp_series_degree"] == 16,
+        "G249 finite census changed",
+    )
+    require(
+        g249_independent["same_phi_jet_cases"] == 10000
+        and g249_independent["same_phi_witness"]
+        == "two_explicit_phi_zero_witnesses_with_distinct_jets_and_angular_outputs"
+        and all(g249_independent["claim_checks"].values()),
+        "G249 explicit equal-phi or claim-directed evidence changed",
+    )
+    require(
+        g249_result["fitted_coefficients"] == 0
+        and g249_result["observational_outcomes"]
+        == g249_independent["observational_outcomes"]
+        == "CLOSED_AND_UNREAD",
+        "G249 fit or observational boundary changed",
+    )
+    require(
+        g249_catches["status"] == "PASS"
+        and g249_catches["caught"] == g249_catches["total"] == 23
+        and not g249_catches["missed"]
+        and len(g249_catches["mutations"]) == 23
+        and all(g249_catches["mutations"].values()),
+        "G249 hostile ledger changed",
+    )
+    require(
+        g249_verification["status"] == "PASS"
+        and not g249_verification["failed"]
+        and all(g249_verification["checks"].values()),
+        "G249 package verification changed",
+    )
+    require(
+        "G249_SECOND_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED"
+        in (g249 / "SECOND_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G249 final external acceptance absent",
+    )
+    require(len(read_tsv(g249 / "SOURCE_MANIFEST.tsv")) == 9, "G249 source count changed")
+    g249_replay = subprocess.run(
+        [sys.executable, str(g249 / "verify_package.py")],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(json.loads(g249_replay.stdout)["status"] == "PASS", "G249 live no-write replay failed")
+    require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
         "G195 external R1 acceptance absent",
@@ -9872,7 +10029,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248-extended startup and premise guards; PASS: 231-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249-extended startup and premise guards; PASS: 232-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

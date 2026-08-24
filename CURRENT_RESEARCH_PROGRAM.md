@@ -83,8 +83,13 @@ physical scalar after the working premise. They must not be conflated.
   regular incidence coarea density `dmu=(r/A)dtau_source` on locally finite transverse noncaustic
   branch strata, while keeping sky, phase, counting, and incidence measures distinct. Physical
   probability, finite-fiber aggregation, source/detector semantics, and caustics remain open.
+- G249 separates normalized angular response from absolute scale. Constant positive homothety
+  preserves the full dimensionless metric/`phi` history, cones, clock ratios, and normalized
+  Jacobi shape while `D`, area, and `r/A` scale as `ell`, `ell^2`, and `ell^-2`. Equal `phi` alone
+  does not fix angular response. A full supplied dimensionless metric branch fixes normalized
+  response conditionally; one independent dimensional anchor remains for absolute scale.
 
-G206--G248 generate no sector function or `X_max`. Exact
+G206--G249 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -106,7 +111,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`. Two-observer local null incidence:
 `udt_g246_two_observer_null_incidence_descent_2026-08-24/`. Global regular null network:
 `udt_g247_global_null_branch_network_descent_2026-08-24/`. Regular incidence coarea density:
-`udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`. Evaluator:
+`udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`. Reciprocal/angular scale boundary:
+`udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -120,14 +126,16 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
   candidate without whole-census freeze. G244/G245 derive native area/shape and the local cone.
   G246/G247 close regular local incidences, ribbons, and their global labelled quiver/free-chain
   architecture. G248 derives the regular ordered branchwise incidence coarea density `r/A` but not
-  physical probability or finite-fiber aggregation. History, population, source/detector, caustic,
-  and catalogue semantics remain open.
+  physical probability or finite-fiber aggregation. G249 proves that normalized response is fixed
+  only after the full dimensionless history/branch is supplied and that one independent
+  dimensional anchor remains for absolute scale. History, anchor value, population,
+  source/detector, caustic, and catalogue semantics remain open.
 - Events, germs, population, branches, global realization, transfer, source/matter, action,
   bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G248 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G249 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -139,8 +147,8 @@ formula-level regression or chosen-family controls.
 
 G199--G235 close evaluation/nonselection; G236--G243 freeze or bound observational controls without
 outcomes. G244--G247 derive native sky geometry, local cones/incidences, and the global labelled
-quiver/free-chain architecture. G248 derives the regular ordered incidence coarea density `r/A`
-without promoting it to probability. Next test whether the declared all-regular-image query and
-local finiteness canonically disintegrate and sum that density over a finite incidence fiber while
-retaining multiplicity. Never normalize or fit weights, extend through caustics, insert `X_max`,
-or activate protected work.
+quiver/free-chain architecture. G248 derives regular ordered incidence coarea `r/A`; G249 proves
+its absolute scale remains one-dimensional after the dimensionless metric history and branch are
+fixed. Next preregister an outcome-blind audit of which already authorized dimensional anchors can
+lawfully calibrate `ell`; keep finite-fiber aggregation separate. Never fit an anchor or weights,
+extend through caustics, insert `X_max`, or activate protected work.

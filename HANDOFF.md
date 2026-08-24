@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G248 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G249 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -49,6 +49,13 @@ finite, transverse, noncaustic branch, metric coarea gives `dmu_AB=(r_AB/A_AB)dt
 counting, and incidence measures stay distinct; `r^alpha` remains unselected. Probability,
 population, detector law, aggregation, caustics, history, and outcomes remain open.
 
+G249 is externally verified after certification repairs. `c_E` and dimensionless reciprocal
+redshift do not fix absolute length or area. Positive constant homothety preserves the full
+dimensionless `phi` history and normalized Jacobi shape while `D`, area, and G248 `r/A` scale as
+`ell`, `ell^2`, and `ell^-2`. Equal `phi` alone does not fix angular response. A supplied full
+dimensionless metric branch fixes normalized response conditionally; one independent dimensional
+anchor remains necessary for absolute scale.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -69,11 +76,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G248 has closed the regular branchwise incidence density without making it a physical probability.
-Next preregister whether the declared all-regular-image query and local finiteness canonically
-disintegrate and sum `r/A` over each finite incidence fiber while retaining multiplicity. Keep SNe
-redshift direct from reciprocal `phi` and BOSS/CMB closed until that contract is frozen; do not
-normalize or fit branch weights, extend through caustics, select G225 transport, activate protected
-work, identify `X_max`, or import P1/G116/G189. The 231-row registry controls.
+G249 has closed the absolute-scale ownership question without selecting a numerical scale. Next
+preregister an outcome-blind audit of which already authorized dimensional anchors can calibrate
+`ell` after the dimensionless history is supplied; keep G248 finite-fiber aggregation separate.
+Keep SNe redshift direct from reciprocal `phi` and BOSS/CMB closed until the anchor contract is
+frozen; do not fit an anchor or branch weight, extend through caustics, select G225 transport,
+activate protected work, identify `X_max`, or import P1/G116/G189. The 232-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G248. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G249. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -57,6 +57,14 @@ ratio to G244 Jacobi area. Sky, phase, counting, and incidence measures stay dis
 leaves `r^alpha` unselected. Probability, population, detector law, aggregation, caustics, history,
 and outcomes remain open.
 
+G249 is externally verified after claim-directed certification repairs. `c_E` and reciprocal
+redshift fix dimensionless clock ratios, not absolute length or area. A positive constant
+homothety preserves the complete dimensionless `phi` history, causal cones, clock ratios, and
+normalized Jacobi shape while `D` scales as `ell`, area as `ell^2`, and G248 `r/A` as `ell^-2`.
+Equal `phi` does not fix angular response; the full supplied dimensionless metric branch and
+vertex-normalized Jacobi IVP do so conditionally. One independent dimensional anchor recovers
+`ell` after that history is fixed; no anchor value or physical history was selected.
+
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, G142--G160 scaffolds, and protected payload as
@@ -66,7 +74,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 231-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 232-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -79,8 +87,10 @@ rows remain unresolved and no preferred scale follows. G236/G237 freeze a two-re
 under imported transfer/covariance caveats; G238 rejects a no-refit BOSS map. G241 rejects the
 registered 2--4 carriers; G242 rejects exact zero tide; G243 keeps direct reciprocal `phi` but no
 frozen radial curve. G244--G247 derive outcome-blind sky, cone, incidence, and global branch
-geometry. G248 derives branchwise `r/A`, not probability, population, detector semantics,
-aggregation, or caustic completion. BOSS remains closed. Raw archive:
+geometry. G248 derives branchwise `r/A`; G249 proves that its absolute magnitude still scales as
+`ell^-2`, while normalized shape is metric-fixed on a supplied dimensionless history and branch.
+Neither result supplies probability, population, detector semantics, aggregation, an absolute
+anchor, or caustic completion. BOSS remains closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -94,12 +104,13 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G248 closes the regular branchwise geometric density: on each declared transverse noncaustic
-ordered incidence branch, the metric owns `dmu_AB=(r_AB/A_AB)dtau_A`. The next bounded gate is to
-preregister whether the already declared all-regular-image query and local finiteness canonically
-disintegrate and sum this density over a finite incidence fiber while preserving multiplicity,
-without turning the result into a physical probability, source population, detector law, or
-catalogue prediction. Do not normalize by habit, fit a branch weight or angular coefficient,
-extend `r/A` through `A=0`, read BOSS/CMB outcomes before the input contract is frozen, select G225
+G249 closes the scale-ownership question: `c_E` plus reciprocal redshift determine no absolute
+length or area, while one lawful independent dimensional anchor would calibrate the single
+homothetic scale after a dimensionless history and regular branch are supplied. The next bounded
+gate is to preregister an outcome-blind anchor-type audit: determine which already authorized
+observational anchors are dimensionally and operationally capable of fixing `ell`, without using
+their numerical outcomes to select a history or profile. Keep the G248 finite-fiber aggregation
+question queued separately. Do not fit an anchor, normalize branch weights, infer an unrestricted
+history, extend through `A=0`, inspect BOSS/CMB outcomes before the contract is frozen, select G225
 transport, or import P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->
