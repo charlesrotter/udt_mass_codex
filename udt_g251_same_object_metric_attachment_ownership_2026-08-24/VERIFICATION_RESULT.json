@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "candidate_count_eighteen": true,
+    "catch_replay_exact": true,
+    "catch_saved_pass": true,
+    "composite_count_three": true,
+    "direct_count_seven": true,
+    "hostile_deleted_entry_rejected": true,
+    "independent_case_floor": true,
+    "independent_landing": true,
+    "independent_replay_exact": true,
+    "independent_route": true,
+    "independent_saved_pass": true,
+    "native_owner_count_zero": true,
+    "outcomes_unused": true,
+    "production_case_floor": true,
+    "production_landing": true,
+    "production_replay_exact": true,
+    "production_saved_pass": true,
+    "required_files": true,
+    "source_manifest_twelve_exact": true,
+    "zero_fitted_coefficients": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

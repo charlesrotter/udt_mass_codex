@@ -1,0 +1,10 @@
+object	status	owned	open
+metric_evaluator_classes	DERIVED_CONDITIONAL	proper interval Jacobi area volume curvature evaluators	supplied object and history
+metric_self_evaluation	DERIVED_CIRCULAR_CONTROL	identity for every positive homothety	independent datum absent
+internal_cross_channel_relation	DERIVED_SCALE_INVARIANT	tests dimensionless history	absolute scale
+direct_metric_attachment_classes	CONDITIONAL_CALIBRATION_ROUTES	seven nonzero-weight classes	physical same-object identity and independent value
+mass_density_energy_composites	CONDITIONAL_DIMENSIONAL_CANDIDATES	exact dimensional lengths	matter/instrument placement and coefficient
+c_E	OBSERVED_CONVERSION	clock/ruler unit conversion	not an absolute interval
+G_obs	OBSERVED_ANCHOR	observed dimensional constant	native metric placement
+native_same_object_attachment_owner	NOT_FOUND_IN_12_SOURCE_UNIVERSE	zero of eighteen candidates	future explicit empirical attachment may be supplied
+anchor_value_history_outcome	OPEN	none selected	all numerical calibration and physical completion

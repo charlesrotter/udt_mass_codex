@@ -1,0 +1,31 @@
+{
+  "caught": 22,
+  "implementation": "exact_formula_type_and_manifest_source_mutations",
+  "missed": [],
+  "mutations": {
+    "ambiguous_source_rejected": true,
+    "areal_coordinate_called_calibrated_area_rejected": true,
+    "ce_called_absolute_interval_rejected": true,
+    "curvature_compatibility_called_value_generation_rejected": true,
+    "dimensional_density_composite_promoted_rejected": true,
+    "dimensional_mass_composite_promoted_rejected": true,
+    "instrument_law_silently_added_rejected": true,
+    "internal_volume_called_external_anchor_rejected": true,
+    "jacobi_area_called_catalog_measure_rejected": true,
+    "metric_proper_time_called_independent_clock_value_rejected": true,
+    "metric_self_evaluation_promoted_rejected": true,
+    "missing_source_rejected": true,
+    "mutated_source_rejected": true,
+    "observational_outcome_selection_rejected": true,
+    "observer_incidence_called_population_rejected": true,
+    "one_anchor_called_branch_population_rejected": true,
+    "one_anchor_called_history_selector_rejected": true,
+    "same_object_identity_erasure_rejected": true,
+    "supplied_query_called_physical_selection_rejected": true,
+    "weight_zero_called_scale_owner_rejected": true,
+    "xmax_import_rejected": true,
+    "zero_curvature_called_anchor_rejected": true
+  },
+  "status": "PASS",
+  "total": 22
+}

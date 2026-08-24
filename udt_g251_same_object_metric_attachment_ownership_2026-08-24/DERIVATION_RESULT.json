@@ -1,0 +1,31 @@
+{
+  "candidate_count": 18,
+  "checks": {
+    "areal_label_is_not_attachment": true,
+    "candidate_count_eighteen": true,
+    "ce_conversion_not_interval": true,
+    "composite_class_count_three": true,
+    "curvature_values_not_generated": true,
+    "direct_class_count_seven": true,
+    "founding_does_not_derive_scale": true,
+    "g250_requires_independent_attachment": true,
+    "jacobi_catalog_attachment_absent": true,
+    "manifest_twelve_exact": true,
+    "no_native_attachment_owner": true,
+    "observer_incidence_objects_supplied": true,
+    "proper_clock_pair_object_supplied": true,
+    "spatial_volume_history_unselected": true,
+    "volume_self_evaluation_boundary": true
+  },
+  "direct_attachment_required": 7,
+  "fitted_coefficients": 0,
+  "landing": "CURRENT_METRIC_CHAIN_OWNS_EVALUATORS_AND_SUPPLIED_GEOMETRIC_OBJECT_TYPES__NO_REGISTERED_CLASS_OWNS_AN_INDEPENDENT_SAME_OBJECT_ABSOLUTE_DATUM__METRIC_SELF_EVALUATION_IS_CIRCULAR_AND_CANNOT_BREAK_THE_G249_HOMOTHETY__DIRECT_CLOCK_JACOBI_AREA_VOLUME_AND_CURVATURE_ANCHORS_REQUIRE_ONE_SUPPLIED_OPERATIONAL_ATTACHMENT__MASS_DENSITY_ENERGY_COMPOSITES_REQUIRE_AN_ADDITIONAL_MATTER_OR_INSTRUMENT_LAW__NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OR_OUTCOME_SELECTED",
+  "matter_or_instrument_law_required": 3,
+  "native_attachment_owners": [],
+  "observational_values_used": 0,
+  "sampled": {
+    "assertions": 20480,
+    "cases": 4096
+  },
+  "status": "PASS"
+}
