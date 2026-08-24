@@ -112,7 +112,9 @@ def main() -> None:
         "REPAIR_FOLLOWUP_REQUEST.md", "REPAIR_FOLLOWUP.md", "REPAIR_FOLLOWUP_RAW.md",
         "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md", "SECOND_REPAIR_PREREGISTRATION.md",
         "SECOND_REPAIR_PREREGISTRATION_COMMIT.md", "SECOND_REPAIR_RESULT.md",
-        "SECOND_REPAIR_FOLLOWUP_REQUEST.md",
+        "SECOND_REPAIR_FOLLOWUP_REQUEST.md", "SECOND_REPAIR_FOLLOWUP.md",
+        "SECOND_REPAIR_FOLLOWUP_RAW.md", "SECOND_REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
         "derive_reciprocal_angular_scale.py", "verify_reciprocal_angular_scale_independent.py",
         "run_catch_proofs.py", "verify_package.py", "build_review_intake.py",
     ]
@@ -189,6 +191,9 @@ def main() -> None:
         "zero_fitted_coefficients": saved_production.get("fitted_coefficients") == 0,
         "external_scientific_acceptance": "G249_ACCEPTED_AFTER_SPECIFIED_REPAIRS"
         in (PKG / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
+        "external_second_repair_acceptance":
+        "G249_SECOND_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED"
+        in (PKG / "SECOND_REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8"),
     }
     failed = [name for name, value in checks.items() if not value]
     result = {"checks": checks, "failed": failed, "status": "PASS" if not failed else "FAIL"}

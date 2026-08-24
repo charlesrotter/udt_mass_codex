@@ -72,6 +72,7 @@ observer population, detector/transfer/luminosity law, branch aggregation, caust
 External review retained the scientific landing and required claim-directed certification repairs.
 The first repair-only follow-up confirmed the scientific scope and most repaired evidence, but
 found that the equal-`phi` two-witness comparison and exact 23-entry hostile-ledger lock remained
-incomplete. Both were separately preregistered at commit `24d0dee1`, are now implemented, and pass
-the full no-write replay. Current status:
-`DERIVED_CONDITIONAL__SECOND_REPAIR_COMPLETE__FOLLOWUP_PENDING`.
+incomplete. Both were separately preregistered at commit `24d0dee1`, implemented, and passed the
+full no-write replay. The final external repair-only follow-up accepted both repairs and retained
+the scientific landing unchanged. Current status:
+`EXTERNALLY_VERIFIED_WITH_CAVEATS__SECOND_REPAIRS_ACCEPTED`.

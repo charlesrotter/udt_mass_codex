@@ -25,6 +25,8 @@ PACKAGE_FILES = (
     "REPAIR_FOLLOWUP_RAW.md", "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
     "SECOND_REPAIR_PREREGISTRATION.md", "SECOND_REPAIR_PREREGISTRATION_COMMIT.md",
     "SECOND_REPAIR_RESULT.md", "SECOND_REPAIR_FOLLOWUP_REQUEST.md",
+    "SECOND_REPAIR_FOLLOWUP.md", "SECOND_REPAIR_FOLLOWUP_RAW.md",
+    "SECOND_REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md", "BANKING_INTEGRATION_PREREGISTRATION.md",
     "derive_reciprocal_angular_scale.py",
     "verify_reciprocal_angular_scale_independent.py", "run_catch_proofs.py",
     "verify_package.py", "build_review_intake.py",
