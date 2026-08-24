@@ -18,3 +18,21 @@ The first launcher attempt exited before review because Codex CLI `0.144.5` no l
 legacy `-a` option. The corrected launch used the same authorized intake and restrictions. The
 reviewer verified all 34 payload hashes and ran all three registered scientific replays plus the
 package verifier without writes.
+
+## Repair-only follow-up
+
+- reviewer: external Codex `gpt-5.4`, reasoning effort `high`;
+- session: `01a035b8-c661-7312-a188-7b3faf49e226`;
+- intake: `/tmp/udt_g251_repair_followup_hwdq4_lu`;
+- file count: 41 including `REVIEW_SCOPE.json`;
+- scope SHA-256: `0489833008672f937e914e1ee4c3715f1774358f45cbe3f0c1e378f3690552b9`;
+- sandbox: read-only;
+- approval policy: never;
+- internet: disabled;
+- result: `REPAIRS_ACCEPTED`;
+- scientific landing: unchanged;
+- remaining defects: none within the authorized R1/R2 scope.
+
+The reviewer verified all 40 scoped payload hashes, 72/72 cited `E/I/C/W` legs, independence of the
+ledger reconstruction, all five registered no-write replay classes, 26/26 hostile catches, and the
+exact sealed 233-row premise registry.

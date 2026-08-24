@@ -2,7 +2,7 @@
 
 Date: 2026-08-24
 
-Status: `EXTERNAL_REVIEW_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R2_INTERNALLY_VERIFIED__FOLLOWUP_PENDING`
+Status: `EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_R2_ACCEPTED__NO_REMAINING_REPAIR_DEFECT`
 
 ## Landing
 
@@ -50,5 +50,6 @@ Observed values, BOSS/CMB outcomes, `X_max`, P1, transfer, and protected work re
 
 Fresh external gpt-5.4 review retained the scientific landing and requested two certification
 repairs: an explicit cited machine-readable `E/I/C/W` ledger and a sealed rerunnable premise-registry
-gate. Both repairs now pass internally under `REPAIR_PREREGISTRATION.md`; repair-only follow-up
-review remains required before final banking.
+gate. Both were preregistered, implemented, and accepted by a fresh repair-only gpt-5.4 follow-up.
+The reviewer found no remaining defect within scope. Final startup/registry integration remains a
+separate preregistered banking step.

@@ -11,8 +11,8 @@ Date: 2026-08-24
    registry. The sealed registry-only replay is self-contained; the broader repository startup and
    premise verifier also passes separately.
 5. **Fresh external review:** `ACCEPT_WITH_REPAIRS`; the scientific landing was retained.
-6. **R1/R2 repair:** PASS internally under preregistration committed at `bd8f0a2b`; repair-only
-   follow-up remains pending.
+6. **R1/R2 repair:** PASS under preregistration committed at `bd8f0a2b`.
+7. **Fresh repair-only follow-up:** `REPAIRS_ACCEPTED`; no remaining scoped defect.
 
 Additional gates:
 
@@ -26,4 +26,4 @@ Additional gates:
 - fitted coefficients: zero;
 - protected work and BOSS/CMB outcomes: unopened.
 
-Current maximum grade: `EXTERNAL_REVIEW_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED__FOLLOWUP_PENDING`.
+Current maximum grade: `EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_R2_ACCEPTED__NO_REMAINING_REPAIR_DEFECT`.

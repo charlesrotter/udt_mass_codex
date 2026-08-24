@@ -22,3 +22,10 @@ registry replay while retaining the separate repository-wide startup/premise gat
 first repaired production replay failed closed on two line-wrapped G250 citation locators; only
 their literal locators were corrected. The landing, formulas, source universe, and classifications
 were unchanged.
+
+The fresh sealed 41-file repair-only follow-up used external Codex `gpt-5.4` at high reasoning in a
+read-only sandbox with web disabled. It verified all 40 payload hashes, replayed production,
+independent, hostile, sealed-premise, and package checks without persistent writes, and returned
+`REPAIRS_ACCEPTED`. It confirmed 72/72 cited ownership legs, independent ledger reconstruction,
+26/26 hostile catches, the exact 233-row sealed registry, and the unchanged `18/7/3/0` census with
+zero observational values and zero fitted coefficients.
