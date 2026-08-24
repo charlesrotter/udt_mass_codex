@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "blinding_limit_disclosed": true,
+    "candidate_count_exact": true,
+    "catch_replay_exact": true,
+    "catch_saved_pass": true,
+    "ce_gobs_class": true,
+    "direct_area_class": true,
+    "g99_class": true,
+    "hostile_deleted_entry_rejected": true,
+    "hostile_exact_ledger": true,
+    "independent_case_floor": true,
+    "independent_implementation": true,
+    "independent_landing": true,
+    "independent_replay_exact": true,
+    "independent_saved_pass": true,
+    "mass_bridge_class": true,
+    "outcomes_unused": true,
+    "production_case_floor": true,
+    "production_landing": true,
+    "production_replay_exact": true,
+    "production_saved_pass": true,
+    "relative_sne_class": true,
+    "required_files": true,
+    "source_manifest_nine_exact": true,
+    "zero_fitted_coefficients": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

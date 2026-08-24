@@ -1,0 +1,48 @@
+{
+  "candidate_count": 18,
+  "dimensionally_eligible_needing_attachment": [
+    "G_obs_M_over_c_E_squared",
+    "c_E_over_sqrt_G_obs_rho",
+    "c_E_squared_over_sqrt_G_obs_epsilon"
+  ],
+  "direct_conditional_calibrators": [
+    "matched_proper_time_interval",
+    "matched_length_or_Jacobi_amplitude",
+    "matched_screen_or_orbit_area",
+    "matched_spatial_three_volume",
+    "matched_spacetime_four_volume",
+    "matched_nonzero_scalar_curvature_or_tide",
+    "matched_nonzero_quadratic_curvature"
+  ],
+  "exact_checks": {
+    "ce_gobs_density_unique": true,
+    "ce_gobs_energy_density_unique": true,
+    "ce_gobs_mass_unique": true,
+    "ce_gobs_no_length_solution": true,
+    "g99_is_not_native_input": true,
+    "relative_sne_is_registered_zero_point_free": true,
+    "two_anchor_consistency_identity": true
+  },
+  "fitted_coefficients": 0,
+  "g236_g237_grade": "INSUFFICIENT_ABSOLUTE_ZERO_POINT_REMOVED",
+  "g99_grade": "CONDITIONAL_EXTERNAL_CROSSCHECK_NOT_NATIVE_INPUT",
+  "insufficient_without_new_data_or_bridge": [
+    "c_E",
+    "G_obs",
+    "c_E_plus_G_obs",
+    "phi_redshift_clock_ratio",
+    "causal_cones",
+    "normalized_Jacobi_shape",
+    "G236_G237_relative_SNe_state"
+  ],
+  "landing": "ONE_MATCHED_NONZERO_HOMOTHETY_WEIGHT_ANCHOR_CONDITIONALLY_FIXES_THE_SINGLE_G249_SCALE__ADDITIONAL_INDEPENDENT_ANCHORS_TEST_THE_SUPPLIED_DIMENSIONLESS_HISTORY_RATHER_THAN_ADD_SCALE_PARAMETERS__CE_GOBS_RECIPROCAL_REDSHIFT_AND_RELATIVE_SNE_STATE_DO_NOT_FIX_ABSOLUTE_SCALE__MASS_DENSITY_ENERGY_COMPOSITES_ARE_DIMENSIONAL_CANDIDATES_ONLY_UNTIL_A_METRIC_ATTACHMENT_LAW_IS_SUPPLIED__G99_XEFF_REMAINS_HISTORICAL_TRANSFER_CONDITIONAL_NOT_NATIVE_G249_INPUT__NO_ANCHOR_VALUE_HISTORY_PROFILE_OR_OUTCOME_SELECTED",
+  "observational_values_used": 0,
+  "outcome_status": "OUTCOME_INDEPENDENT_DRIVER_NOT_STRICTLY_BLINDED_PER_EXECUTION_NOTE",
+  "sampled": {
+    "assertions": 8192,
+    "cases": 4096,
+    "negative_weight_checks": 1810,
+    "second_anchor_checks": 4096
+  },
+  "status": "PASS"
+}

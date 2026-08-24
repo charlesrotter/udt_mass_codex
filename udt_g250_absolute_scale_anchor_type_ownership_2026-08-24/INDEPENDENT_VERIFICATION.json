@@ -1,0 +1,42 @@
+{
+  "assertions": 24010,
+  "cases": 12000,
+  "checks": {
+    "all_nonzero_weight_recoveries": true,
+    "ce_gobs_no_length": true,
+    "dimensional_composite_requires_attachment": true,
+    "historical_transfer_condition_is_not_native_metric_ownership": true,
+    "inconsistent_second_anchor_rejected": true,
+    "mass_density_energy_exponents": true,
+    "nonpositive_ratio_rejected": true,
+    "relative_state_cannot_supply_deleted_zero_point": true,
+    "zero_normalized_value_rejected": true,
+    "zero_weight_rejected": true
+  },
+  "dimension_solutions": {
+    "density": [
+      "1",
+      "-1/2",
+      "-1/2"
+    ],
+    "energy_density": [
+      "2",
+      "-1/2",
+      "-1/2"
+    ],
+    "mass": [
+      "-2",
+      "1",
+      "1"
+    ]
+  },
+  "expected_landing": "ONE_MATCHED_NONZERO_HOMOTHETY_WEIGHT_ANCHOR_CONDITIONALLY_FIXES_THE_SINGLE_G249_SCALE__ADDITIONAL_INDEPENDENT_ANCHORS_TEST_THE_SUPPLIED_DIMENSIONLESS_HISTORY_RATHER_THAN_ADD_SCALE_PARAMETERS__CE_GOBS_RECIPROCAL_REDSHIFT_AND_RELATIVE_SNE_STATE_DO_NOT_FIX_ABSOLUTE_SCALE__MASS_DENSITY_ENERGY_COMPOSITES_ARE_DIMENSIONAL_CANDIDATES_ONLY_UNTIL_A_METRIC_ATTACHMENT_LAW_IS_SUPPLIED__G99_XEFF_REMAINS_HISTORICAL_TRANSFER_CONDITIONAL_NOT_NATIVE_G249_INPUT__NO_ANCHOR_VALUE_HISTORY_PROFILE_OR_OUTCOME_SELECTED",
+  "fitted_coefficients": 0,
+  "implementation": "standard_library_fraction_no_production_import_or_output_read",
+  "inconsistent_second_anchor_rejections": 12000,
+  "nonpositive_ratio_rejections": 12000,
+  "observational_values_used": 0,
+  "status": "PASS",
+  "zero_value_rejections": 12000,
+  "zero_weight_rejections": 12000
+}

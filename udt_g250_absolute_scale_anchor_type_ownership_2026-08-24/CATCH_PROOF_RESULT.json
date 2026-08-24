@@ -1,0 +1,29 @@
+{
+  "caught": 20,
+  "implementation": "formula_and_type_level_mutations_no_phrase_search",
+  "missed": [],
+  "mutations": {
+    "anchor_selects_branch_rejected": true,
+    "anchor_selects_history_rejected": true,
+    "area_linear_recovery_rejected": true,
+    "area_square_root_recovery_control": true,
+    "attachment_free_density_scale_rejected": true,
+    "attachment_free_mass_scale_rejected": true,
+    "ce_called_interval_rejected": true,
+    "ce_gobs_mass_neutrality_rejects_length": true,
+    "curvature_direct_ratio_recovery_rejected": true,
+    "curvature_inverse_square_recovery_control": true,
+    "g248_probability_promotion_rejected": true,
+    "g99_native_promotion_rejected": true,
+    "inconsistent_second_anchor_rejected": true,
+    "linear_length_recovery_control": true,
+    "relative_sne_absolute_owner_rejected": true,
+    "same_object_gate_erasure_rejected": true,
+    "second_anchor_consistency_control": true,
+    "weight_zero_scale_owner_rejected": true,
+    "xmax_anchor_promotion_rejected": true,
+    "zero_curvature_anchor_rejected": true
+  },
+  "status": "PASS",
+  "total": 20
+}

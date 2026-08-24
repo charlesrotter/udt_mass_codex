@@ -1,0 +1,11 @@
+item	status	maximum_statement	open_or_forbidden
+G249_scale_orbit	DERIVED_CONDITIONAL	one positive homothetic scale after supplied dimensionless history and branch	no physical history or anchor value selected
+one_nonzero_weight_anchor	DERIVED_CONDITIONAL	unique positive ell on the same identified query object	attachment and independent measurement required
+second_anchor	DERIVED_CONDITIONAL	consistency test of same ell and supplied dimensionless history	not a second fitted scale
+direct_metric_anchor_classes	CONDITIONAL_ELIGIBLE	proper time length Jacobi area volume or nonzero curvature can carry scale	no physical instance selected
+c_E_G_obs	OBSERVED_INSUFFICIENT	calibration constants retained	no standalone length monomial or native placement law
+mass_density_energy_composites	DIMENSIONAL_CANDIDATES_ONLY	three exact length-dimension combinations	coefficient object identity and metric attachment open
+G236_G237_relative_SNe	OBSERVED_PROCESSED_CONDITIONAL_INSUFFICIENT	zero-point-free shape state	no absolute scale
+G99_X_eff	HISTORICAL_CONDITIONAL_EXTERNAL_CROSSCHECK	dimensionful only with external M_B P1 and imported transfer	not native G249 construction input
+G250_outcomes	CLOSED_UNUSED	zero observational values and fitted coefficients	strict driver blinding limitation recorded
+G250_landing	INTERNALLY_VERIFIED_WITH_CAVEATS_EXTERNAL_REVIEW_PENDING	anchor-type classification only	no anchor value history profile outcome Xmax aggregation or physics completion
