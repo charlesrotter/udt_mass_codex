@@ -1,0 +1,16 @@
+id	object	status	role	guard
+P01	smooth_time_oriented_Lorentz_metric_history	QUERY_SUPPLIED	owns volume connection null flow and Jacobi phase	no physical history selection
+P02	future_timelike_proper_clock_observer_worldlines	QUERY_SUPPLIED	own event proper-time densities and sky normalizations	no observer population
+P03	future_null_incidence_query	CHOSE_BOUNDED_QUERY_TYPE	defines the G247 direct-edge quiver	not universal UDT protocol
+P04	all_regular_route_labelled_branches	FULL_BOUNDED_SOLUTION_SET	prevents preferred-image filtering	critical and infinite strata stay open
+P05	locally_finite_proper_transverse_incidence_stratum	CONDITIONAL_BOUNDED_DOMAIN	permits smooth fiber-product density and finite disintegration	no caustic completion claim
+P06	observer_solid_angle_density	DERIVED_CONDITIONAL_FROM_METRIC_AND_CLOCK	canonical density on each celestial S2	not an emission law
+P07	source_clock_normalized_affine_density	DERIVED_CONDITIONAL_FROM_G245	fixes null-flow scale at the source	no global distance shell
+P08	absolute_spacetime_volume_density	DERIVED_FROM_METRIC	fiber-product target density	no action or source physics
+P09	Jacobi_area_A	DERIVED_CONDITIONAL_G244	regular transverse cone Jacobian	not flux count or branch probability by itself
+P10	proper_clock_ratio_r	DERIVED_CONDITIONAL_G216_G246	incidence transversality and reciprocal carry	future return not formal inverse
+P11	fiber_product_density_and_disintegration	STANDARD_GEOMETRIC_EVALUATOR	tests a canonical regular incidence density	not automatically physical detection
+P12	G226_phase_volume	DERIVED_CONDITIONAL	classifies density transport under CSp4	phase volume is not branch counting
+P13	unit_counting_on_finite_branch_fiber	DERIVED_AFTER_CHOSE_ALL_BRANCH_QUERY_G240	distinct typed counting measure	not silently identified with coarea weight
+P14	observational_outcomes_source_measure_detector_transfer	OMITTED_CLOSED	no construction or selection role	remain unopened
+P15	P1_G116_G189_Xmax_LambdaCDM_fit_protected_payload	FORBIDDEN	regression gate	never construction input
