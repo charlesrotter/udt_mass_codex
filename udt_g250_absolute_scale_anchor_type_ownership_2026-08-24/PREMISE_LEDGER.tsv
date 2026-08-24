@@ -1,0 +1,13 @@
+id	object	status	role	forbidden_promotion
+P01	G249_positive_constant_homothety	DERIVED_CONDITIONAL	one-dimensional scale orbit after dimensionless history and branch are supplied	general local conformal field or physical-history law
+P02	complete_dimensionless_metric_history	QUERY_SUPPLIED_CONDITIONAL	fixes normalized metric and Jacobi response	selected physical universe
+P03	matched_regular_query_object	QUERY_SUPPLIED_CONDITIONAL	identifies where model and observation are compared	metric-selected population branch or feature
+P04	c_E	OBSERVED	clock-ruler unit conversion	absolute length or event interval
+P05	G_obs	OBSERVED	gravitational dimensional normalization	standalone length or native field equation
+P06	mass_density_energy	OBSERVED_CANDIDATE_PER_G132_G202	permits length-dimension composites with c_E and G_obs	native placement coefficient source or history law
+P07	direct_metric_interval_area_curvature	CONDITIONAL_ANCHOR_CLASS	may carry nonzero homothety weight on a registered geometric object	already measured or physically selected anchor
+P08	G236_G237_relative_SNe_state	OBSERVED_PROCESSED_CONDITIONAL	retains relative shape after additive offsets remove absolute normalization	absolute scale anchor or native transfer
+P09	G99_X_eff	OBSERVED_CONDITIONAL_HISTORICAL	conditional Mpc normalization using external M_B and imported transfer	native G249 anchor or construction input
+P10	anchor_numerical_outcomes	OMITTED_CLOSED	no role in classification	fit calibration or hidden selection
+P11	P1_G116_G189_Xmax_LambdaCDM_BAO_CMB_protected_payload	FORBIDDEN	regression gate	construction input
+P12	G248_finite_fiber_aggregation	OMITTED_SEPARATE_GATE	no role in one-branch scale typing	probability or branch-weight law
