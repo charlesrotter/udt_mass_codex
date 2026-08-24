@@ -1,0 +1,16 @@
+object	status	maximum_conclusion
+G188 Jacobi map	DERIVED_CONDITIONAL	matrix screen response on supplied regular affine null sheet
+observer-sky H=D^dagger D	DERIVED_CONDITIONAL	intrinsic positive response tensor; source screen gauge cancels
+area A=abs(det D)	DERIVED_CONDITIONAL	geometric source-screen area per observer solid angle
+shape C=H/A	DERIVED_CONDITIONAL	unit-determinant local shape tensor
+shear power	DERIVED_CONDITIONAL	nonnegative singular-value contrast; zero iff conformal
+parity	ORIENTATION_LINE_VALUED_CONDITIONAL	ordinary sign only with compatible endpoint orientations
+geometric area reference projection	CHOSE_QUERY_CONTROL	coefficient-free angular projection; not detector/source law
+constant area cancellation	DERIVED_EXACT	normalized angular response zero
+nonconstant finite witness	OBSERVED_EXACT_OPERATOR_CONTROL	w=-1/6; not metric history or fit
+full phase composition	DERIVED_CONDITIONAL	position block not independently composable
+direct reciprocal redshift	UNCHANGED_DERIVED_CONDITIONAL	phi=log(1+z); no angular input
+catalog identification	OPEN	requires source incidence measure and detector/transfer contract
+physical history and null sheet	QUERY_SUPPLIED_OR_OPEN	no selection
+BOSS CMB outcomes	CLOSED_UNREAD	no comparison
+package grade	EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS	conditional evaluator only; no repairs requested

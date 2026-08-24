@@ -1,0 +1,27 @@
+{
+  "area_query_w": {
+    "decimal": -0.16666666666666666,
+    "denominator": 6,
+    "exact": "-1/6",
+    "numerator": -1
+  },
+  "audit": "G244_INDEPENDENT_STANDARD_LIBRARY_REPLAY",
+  "caustic_position_inverse_used": false,
+  "classification": "METRIC_NATIVE_OBSERVER_SKY_AREA_SHAPE_QUERY_DERIVED_CONDITIONALLY__NO_FITTED_ANGULAR_COEFFICIENT__CATALOG_IDENTIFICATION_AND_HISTORY_OPEN",
+  "constant_area_w": {
+    "decimal": 0.0,
+    "denominator": 1,
+    "exact": "0/1",
+    "numerator": 0
+  },
+  "fitted_angular_coefficients": 0,
+  "imports_production_code": false,
+  "matrix_assertions": 50000,
+  "matrix_cases": 5000,
+  "nonmultiplicative_position_cases": 5000,
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "phase_cases": 5000,
+  "positive_shear_cases": 4974,
+  "reads_production_output": false,
+  "reflection_parity_flip_cases": 2528
+}

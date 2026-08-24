@@ -1,0 +1,22 @@
+{
+  "attempted": 14,
+  "audit": "G244_HOSTILE_CATCH_PROOFS",
+  "caught": 14,
+  "checks": {
+    "angular_coefficient_mutation_caught": true,
+    "caustic_inverse_mutation_caught": true,
+    "diagonal_scalarization_caught": true,
+    "position_block_product_mutation_caught": true,
+    "semantic_boss_opened_caught": true,
+    "semantic_caustic_inverted_caught": true,
+    "semantic_fitted_coefficient_caught": true,
+    "semantic_forbidden_import_caught": true,
+    "semantic_g225_promoted_caught": true,
+    "semantic_position_blocks_multiplied_caught": true,
+    "semantic_shape_dropped_caught": true,
+    "semantic_source_law_derived_caught": true,
+    "signed_area_mutation_caught": true,
+    "valid_contract_accepted": true
+  },
+  "status": "PASS"
+}
