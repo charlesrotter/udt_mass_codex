@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G245. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G246. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -25,47 +25,30 @@ the pullback. It gives
 depth. Events, germs, observer population, and global realization remain `QUERY_SUPPLIED` or
 `OPEN`; equal scalar summaries do not identify realizations.
 
-G215/G216/G217/G218/G219/G220/G221 close the supplied scalar, proper-clock slope and first jet,
-query correspondence, and one future-null chord. Null differs from Fermi/radar; inverse differs
-from later return. The time-live base uses `C_+=A-N beta` and return `C_-=A+N beta`; screen/mixing
-enter upstream. Null is query-typed and higher/full carry is `OPEN`.
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock, correspondence, null
+chord/plane, screen, and local carry; null/Fermi/radar and inverse/return stay distinct, and
+higher/full carry is `OPEN`. G225 is a holonomic `STANDARD_GEOMETRIC_EVALUATOR`, not selected
+transport. G226 supplies caustic-safe `CSp^+(4,R)` phase, not history.
 
-G222/G223/G224 add the affine-null plane (`a=-g(J,K)>0`, `det h=-a^2`, conditional `m=a`), G188
-screen, line/fiber carry, and shared-event switch `mu(v)=-g(U,v)`, with `q=r^-1`. No extra vertex
-scalar or direct-edge constraint appears.
+G227/G228/G229/G230/G231 close supplied curvature ranks `19/20/60/126`, jets, and Cartan
+realization—not values. G232/G233/G234/G235 leave family/global selection open. G236/G237 freeze a
+conditional SNe state; G238/G239/G240 type its held-out operator without outcomes. G241 rejects only
+degrees 2--4, G242 only exact zero tide, and G243 retains direct `phi=log(1+z)` without freeze.
 
-G225 gives the least-turning pointwise screen isometry off antipodes; triples retain `O(2)`
-holonomy, so no global endpoint-only flat carry exists on `S^2`. This
-`STANDARD_GEOMETRIC_EVALUATOR` is not selected transport.
+G244 externally derives `H=D^dagger D`, area `A=abs(det D)`, and shape `C=H/A` on a supplied regular
+noncaustic G188 sheet. Its coefficient-free `CHOSE_QUERY_CONTROL` is not a fit/history; only full
+G226 phase composes. Source/catalogue, critical strata, history, and outcomes remain open.
 
-G226 joins G188/G224/G225 on one supplied null chain. Its `CSp^+(4,R)` phase has multiplier `r` and
-inverse ruler carry `q`; gauges cancel, caustics retain phase, and matrix holonomy remains. It
-selects no transport, direct relation, population, or history.
+G245 externally derives the full local direction-labelled cone from a supplied metric and observer
+germ: `k(n)=U+n`, `F(lambda,n)=Exp_o(lambda k(n))`. Its angular differential is G188, making G244's
+`H,A,C` induced cone geometry. It selects no preferred ray, population, endpoint, or history; G226
+phase remains necessary at caustics.
 
-G227/G228/G229/G230/G231 close supplied curvature ranks `19/20/60/126`, metric jets, and Cartan
-realization—not values/history. G232/G233/G234 leave an invariant family/global law; G235's matched
-network reconstructs but does not select.
-
-G236/G237 reconstruct and freeze a processed conditional SNe state (`K=12`, unknown cross-release
-covariance `CHOSE` zero). G238 proves it is not continuous history. G239/G240 close the conditional
-point-process/all-regular-image query, not source, detector, critical strata, or outcomes.
-
-G241 rejects only its degree-2--4 carriers. G242 rejects exact zero tide (`chi2=8519.0092` versus
-`31.2641`) while small response stays open. G243 keeps direct `phi=log(1+z)` but no global freeze.
-
-G244 is externally accepted without repair. On a supplied regular finite noncaustic G188 sheet,
-`H=D^dagger D` gives native area `A=abs(det D)` and shape `C=H/A`; parity is orientation-line-valued.
-Its coefficient-free `CHOSE_QUERY_CONTROL` cancels constant response; `-1/6` is an operator witness,
-not a fit/history. Full G226 phase alone composes. History, source/catalogue semantics, critical
-strata, and outcomes remain open; no fitted angular coefficient or BOSS/CMB result entered.
-
-G245 is externally accepted after a repair-only packaging follow-up. A supplied smooth
-time-oriented metric, observer event `o`, and unit future clock `U` own the full local
-direction-labelled null cone: `S_o^2={n in U_perp:g(n,n)=1}`, `k(n)=U+n`, and
-`F(lambda,n)=Exp_o(lambda k(n))`. Its angular differential is the G188 Jacobi map, so G244's
-`H,A,C` are induced cone geometry rather than a separately supplied local null sheet. No preferred
-ray, source/endpoint incidence, observer population, global branch, detector, or physical metric
-history follows; the full G226 phase remains necessary at caustics.
+G246 is externally accepted without repair. Given a future-null query, metric, and two timelike
+observer worldlines, automatic cone-worldline transversality makes every local regular incidence
+`sigma(z_A(a),z_B(b))=0` a clock germ with a G222 ribbon. G176 remains conditional; mathematical
+inverse differs from physical future return. Global branches are owned as a set but unselected;
+universal query, population, source/detector, history, and outcomes remain open.
 
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
@@ -76,7 +59,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 228-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 229-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -94,8 +77,9 @@ while its temporary-transfer radial spline remains an uncertified turning local 
 G242 independently rules out replacing the full SNe interval by the one exact G201 zero-tide radial
 subfamily, while leaving a small nonzero response open. G244 supplies the outcome-blind native
 screen area/shape query. G245 derives its entire local direction-labelled null sheet from a
-supplied metric and observer germ, but not a real-sky metric history, observer/source incidence,
-global branch, or catalogue semantics. BOSS outcomes remain closed. Raw archive:
+supplied metric and observer germ. G246 derives every local regular null incidence branch and its
+completed ribbon from two supplied observer worldlines, but not a real-sky metric history,
+population, global branch aggregation, or catalogue semantics. BOSS outcomes remain closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -109,11 +93,12 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G245 closes ownership of the full local direction-labelled cone from a supplied metric and observer
-germ. The next bounded gate is to preregister whether two such observer cones own a completed local
-null relation through transverse intersection/incidence, including reversal and regular-versus-
-caustic typing, without selecting a preferred ray or importing a source law. Keep SNe redshift
-direct from reciprocal `phi`; do not fit an angular
-coefficient, read BOSS/CMB outcomes before the input contract is frozen, select G225 transport, or
-import P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
+G246 closes the separately supplied local ray, sheet, and regular two-observer incidence branch
+once the metric, two observer worldline germs, and future-null query are supplied. The next bounded
+gate is to preregister whether the complete branch-valued null relation family descends coherently
+across overlapping observer neighborhoods into a global observer network while retaining route,
+cut, caustic, phase, and future-return labels and selecting no preferred image. Keep SNe redshift
+direct from reciprocal `phi`; do not fit an angular coefficient, read BOSS/CMB outcomes before the
+input contract is frozen, select G225 transport, or import P1, `X_max`, Lambda-CDM distances,
+G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

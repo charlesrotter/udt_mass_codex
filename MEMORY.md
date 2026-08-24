@@ -4,7 +4,7 @@
 
 ## Current theory picture
 
-G166--G245: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G246: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -25,7 +25,9 @@ mismatch-plus-`Gamma`; G240 removes free weights only for its `CHOSE` supplied a
 G241 retains the radial-to-tidal bridge but rejects degree-2--4 carriers. G242 rejects exact G201
 zero tide on frozen G237, not small response. G243 keeps direct `phi=log(1+z)` and a local turning
 control, without freeze/history. G244 derives native `H,A,C`; G245 derives the local cone
-`F(lambda,n)=Exp_o(lambda(U+n))` from metric plus germ. Incidence, branches, and history stay open.
+`F(lambda,n)=Exp_o(lambda(U+n))` from metric plus germ. G246 derives every regular local
+two-observer null incidence and completed ribbon from the metric plus two supplied worldlines and
+the declared null query. Global branches, population, and history stay open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -33,8 +35,8 @@ G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays pr
 ## Observational pointer
 
 R2--R5 remain unresolved observations. G236/G237 freeze processed SNe; G238--G240 type the held-out
-operator. G241--G243 bound radial controls; G244/G245 derive the outcome-blind local sky/cone.
-History, incidence, and observational outcomes remain open.
+operator. G241--G243 bound radial controls; G244--G246 derive the outcome-blind local
+sky/cone/incidence chain. History, global aggregation, and observational outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -55,9 +57,10 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
 
 ## Next gate
 
-G245 removed the need to supply a local null sheet separately from a metric and observer germ. Next
-preregister whether two metric-owned observer cones determine a completed local null relation by
-transverse incidence, including reversal and regular/caustic typing. SNe redshift stays direct from
-reciprocal `phi`; do not fit an angular coefficient or activate G225, P1, `X_max`, or protected work.
+G246 removed the need to supply a local ray, sheet, or regular incidence branch separately once the
+metric, two observer worldlines, and future-null query are supplied. Next preregister global overlap
+descent of the complete branch-valued null relation without choosing an image or erasing route,
+caustic, phase, inverse, or physical-return labels. SNe redshift stays direct from reciprocal `phi`;
+do not fit an angular coefficient or activate G225, P1, `X_max`, or protected work.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

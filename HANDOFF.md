@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G245 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G246 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -41,6 +41,12 @@ G245 is externally accepted after packaging repair. A supplied metric and observ
 own every local `k(n)=U+n` and `F(lambda,n)=Exp_o(lambda k(n))`; G188/G244 are induced cone
 geometry. Preferred ray, incidence, population, global branch, detector, and history remain open.
 
+G246 is externally accepted without repair. A future-null query, one metric, and two supplied
+future-timelike proper-clock worldline germs determine the full local regular incidence relation.
+Automatic cone-worldline transversality gives every local positive clock germ; each convex-normal
+branch constructs its G222 completed ribbon. G176 stays conditional. Mathematical inverse and
+physical future return remain distinct, and global multiple branches remain unselected.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -61,12 +67,12 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G245 has removed the separately supplied local null sheet once a metric and observer germ are
-given. Next preregister the bounded two-observer cone-incidence question: whether their two
-metric-owned direction-labelled cones produce a completed local null relation, with reversal and
-regular/caustic typing but no preferred ray or source law. Keep SNe redshift direct from reciprocal
-`phi` and BOSS/CMB closed
-until that input contract is frozen; do not fit an angular coefficient, select G225 transport,
-activate protected work, identify `X_max`, or import P1/G116/G189. The 228-row registry controls.
+G246 has removed the separately supplied local null ray, sheet, and regular incidence branch once
+the metric, two observer worldline germs, and future-null query are supplied. Next preregister the
+global overlap-descent question for the complete branch-valued null relation, retaining route,
+cut/caustic, phase, reversal, and physical-return labels without choosing one image. Keep SNe
+redshift direct from reciprocal `phi` and BOSS/CMB closed until that contract is frozen; do not fit
+an angular coefficient, select G225 transport, activate protected work, identify `X_max`, or import
+P1/G116/G189. The 229-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

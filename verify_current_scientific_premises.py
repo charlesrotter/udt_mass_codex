@@ -195,7 +195,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G245",
+            "G166--G246",
             "G197",
             "G215",
             "G216",
@@ -228,6 +228,7 @@ def validate_startup_surface(root: Path) -> None:
             "G243",
             "G244",
             "G245",
+            "G246",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -270,7 +271,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "228-row exact registry",
+            "229-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -342,6 +343,8 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/",
             "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/",
             "udt_g244_metric_native_observer_sky_response_query_2026-08-24/",
+            "udt_g245_metric_owned_observer_null_cone_field_2026-08-24/",
+            "udt_g246_two_observer_null_incidence_descent_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -355,7 +358,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G245",
+            "G166--G246",
             "G197",
             "G198",
             "G199",
@@ -406,6 +409,7 @@ def validate_startup_surface(root: Path) -> None:
             "G243",
             "G244",
             "G245",
+            "G246",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -469,6 +473,7 @@ def validate_startup_surface(root: Path) -> None:
             "G243",
             "G244",
             "G245",
+            "G246",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -527,10 +532,11 @@ def validate_startup_surface(root: Path) -> None:
             "G243",
             "G244",
             "G245",
+            "G246",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "228-row",
+            "229-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -873,9 +879,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 228, "premise registry must contain exactly 228 rows")
+    require(len(rows) == 229, "premise registry must contain exactly 229 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 228, "duplicate premise id")
+    require(len(by_id) == 229, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5205,6 +5211,156 @@ def main() -> None:
     )
     require(json.loads(g245_replay.stdout)["status"] == "PASS", "G245 live no-write replay failed")
     require(
+        by_id["G246"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED_AT_38E07935"
+        ),
+        "G246 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_ACCEPTED_NO_REPAIRS",
+        "METRIC_AND_TWO_OBSERVER_GERMS_OWN_FULL_LOCAL_REGULAR_FUTURE_NULL_INCIDENCE_RELATION",
+        "CONE_WORLDLINE_TRANSVERSALITY_AUTOMATIC_FOR_NONZERO_NULL_CHORD_AND_TIMELIKE_TARGET",
+        "IFT_OWNS_EVERY_LOCAL_REGULAR_CLOCK_CORRESPONDENCE_GERM",
+        "EACH_CONVEX_NORMAL_BRANCH_OWNS_G222_COMPLETED_PAIR_RIBBON",
+        "G176_RETAINED_WORKING_FOUNDATIONAL_CLARIFICATION",
+        "MATHEMATICAL_INVERSE_DIFFERS_FROM_PHYSICAL_FUTURE_RETURN",
+        "DIRECT_CONE_CONE_INTERSECTION_NONTRANSVERSE",
+        "GLOBAL_MULTIPLE_BRANCH_SET_OWNED_BUT_UNSELECTED",
+        "ZERO_FITTED_COEFFICIENTS",
+        "NO_SOURCE_DETECTOR_XMAX_UNIVERSAL_QUERY_POPULATION_HISTORY_OR_OUTCOME",
+    ):
+        require(guard in by_id["G246"]["current_status"], f"G246 guard absent: {guard}")
+    require(by_id["G246"]["epistemic_label"] == "MIXED", "G246 label changed")
+    require(
+        by_id["G246"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_SUPPLIED_SMOOTH_TIME_ORIENTED_LORENTZ_METRIC_TWO_SUPPLIED_FUTURE_TIMELIKE_PROPER_CLOCK_WORLDLINE_GERMS_DECLARED_FUTURE_NULL_QUERY_AND_CONVEX_NORMAL_LOCAL_REGULAR_INCIDENCE_STRATUM_ONLY",
+        "G246 active scope widened",
+    )
+    for guard in (
+        "local incidence called selected physical history observer population universal UDT protocol or source law",
+        "one regular or global branch preferred",
+        "direct cone-cone intersection called transverse",
+        "incidence seed called extra ray sheet or endpoint selector",
+        "mathematical inverse identified with physical future return",
+        "G176 called metric-derived or canon",
+        "scalar depth used to erase winding route or phase",
+        "local theorem widened to global history selection",
+    ):
+        require(guard in by_id["G246"]["forbidden_regression"], f"G246 regression guard absent: {guard}")
+    require(
+        by_id["G246"]["controlling_source"]
+        == "udt_g246_two_observer_null_incidence_descent_2026-08-24/AUDIT_REPORT.md",
+        "G246 controlling source changed",
+    )
+    g246 = ROOT / "udt_g246_two_observer_null_incidence_descent_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_two_observer_null_incidence.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_two_observer_null_incidence_independent.py",
+    ):
+        require((g246 / name).is_file(), f"G246 evidence missing: {name}")
+    expected_g246 = (
+        "METRIC_AND_TWO_OBSERVER_GERMS_OWN_LOCAL_REGULAR_NULL_INCIDENCE_BRANCHES"
+        "__EACH_BRANCH_OWNS_G222_COMPLETED_PAIR_RIBBON"
+        "__MATHEMATICAL_REVERSAL_DIFFERS_FROM_PHYSICAL_FUTURE_RETURN"
+        "__GLOBAL_BRANCH_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN"
+    )
+    g246_result = json.loads((g246 / "DERIVATION_RESULT.json").read_text())
+    g246_independent = json.loads((g246 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g246_catches = json.loads((g246 / "CATCH_PROOF_RESULT.json").read_text())
+    g246_verification = json.loads((g246 / "VERIFICATION_RESULT.json").read_text())
+    require(g246_result["classification"] == expected_g246, "G246 production landing changed")
+    require(g246_independent["classification"] == expected_g246, "G246 independent landing changed")
+    require(
+        g246_result["local_theorem"]["cone_worldline_transverse"] is True
+        and g246_result["local_theorem"]["all_regular_local_branches_returned"] is True
+        and g246_result["local_theorem"]["separate_null_sheet_required"] is False
+        and g246_result["local_theorem"]["preferred_branch_selected"] is False,
+        "G246 local-incidence typing changed",
+    )
+    require(
+        g246_result["pair_ribbon"]["determinant"] == "-a^2"
+        and g246_result["pair_ribbon"]["completed_density"] == "m=a"
+        and g246_result["pair_ribbon"]["terminal_depth"] == "Phi_AB=-log r_AB",
+        "G246 pair-ribbon typing changed",
+    )
+    require(
+        g246_result["reversal"]["generic_inverse_equals_return"] is False
+        and g246_result["cone_cone_intersection"]["direct_null_pair_transverse"] is False
+        and g246_result["cylinder_multiple_branch_control"]["preferred_branch_selected"] is False,
+        "G246 reversal or branch boundary changed",
+    )
+    require(
+        g246_result["finite_census"]["cases"] == 1024
+        and g246_result["finite_census"]["assertions"] == 18432
+        and g246_independent["finite_census"]["cases"] == 5000
+        and g246_independent["finite_census"]["assertions"] == 90000,
+        "G246 finite census changed",
+    )
+    require(
+        g246_result["fitted_coefficients"] == g246_independent["fitted_coefficients"] == 0
+        and g246_result["observational_outcomes"]
+        == g246_independent["observational_outcomes"]
+        == "CLOSED_AND_UNREAD"
+        and g246_result["physical_history"]
+        == g246_independent["physical_history"]
+        == "QUERY_SUPPLIED_NOT_SELECTED",
+        "G246 physical boundary changed",
+    )
+    require(
+        g246_independent["imports_production_code"] is False
+        and g246_independent["reads_production_output"] is False,
+        "G246 independent route contaminated",
+    )
+    require(g246_catches["status"] == "PASS" and g246_catches["caught"] == 16,
+            "G246 hostile catches changed")
+    require(
+        g246_verification["status"] == "PASS"
+        and g246_verification["classification"] == expected_g246
+        and g246_verification["source_count"] == 8
+        and g246_verification["production_cases"] == 1024
+        and g246_verification["independent_cases"] == 5000
+        and g246_verification["hostile_catches"] == 16
+        and all(g246_verification["checks"].values()),
+        "G246 package verification changed",
+    )
+    require(
+        "G246_ACCEPTED_WITH_STATED_BOUNDS" in (g246 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G246 external acceptance absent",
+    )
+    require(len(read_tsv(g246 / "SOURCE_MANIFEST.tsv")) == 8, "G246 source count changed")
+    g246_replay = subprocess.run(
+        [sys.executable, str(g246 / "verify_package.py"), "--no-write"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    require(json.loads(g246_replay.stdout)["status"] == "PASS", "G246 live no-write replay failed")
+    require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
         "G195 external R1 acceptance absent",
@@ -9427,7 +9583,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245-extended startup and premise guards; PASS: 228-row premise "
+        "PASS: G242/G243/G244/G245/G246-extended startup and premise guards; PASS: 229-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
