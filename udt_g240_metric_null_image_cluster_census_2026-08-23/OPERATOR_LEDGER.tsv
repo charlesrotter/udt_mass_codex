@@ -1,0 +1,14 @@
+stage	input	operation	output	ownership	guard
+1	complete Lorentz history observer event/frame	null geodesic incidence solve	regular branch objects	DERIVED_CONDITIONAL	history/query supplied
+2	regular branches	observer sky readout	branch sky map psi	DERIVED_CONDITIONAL	calibrated sky supplied
+3	all-image query	count each branch once	C_x=sum delta_psi	CHOSE_THEN_DERIVED	query not universal detector law
+4	parent intensity mu	Poisson random measure	parent population	CHOSE_CONTROL	not UDT source law
+5	C_x and mu	Campbell first moment	nu_1	STANDARD_MATHEMATICAL_EVALUATOR	no fitted branch weights
+6	distinct Poisson parents	factorial product	nu_1 tensor nu_1	DERIVED_CONDITIONAL	distinct parents only
+7	same parent distinct branches	ordered sibling count	Sigma_sib	DERIVED_CONDITIONAL	no image self-pairs
+8	product and siblings	addition	nu_2	DERIVED_EXACT	cluster identity
+9	branch multiplicity m	integral m(m-1) dmu	S	DERIVED_EXACT	regular locally finite fibers
+10	nu_1 nu_2 N S	normalize	P and Gamma	DERIVED_EXACT	denominator N^2+S
+11	source/sky coordinate change	pushforward/relabel	covariant measures	DERIVED_EXACT	branch labels unphysical
+12	caustic/nonproper/infinite fibers	no promotion	OPEN strata	OPEN	not rejected or silently regularized
+13	G239 reference operator	insert P and Gamma conditionally	outcome-blind forward operator	DERIVED_CONDITIONAL	BOSS outcomes closed

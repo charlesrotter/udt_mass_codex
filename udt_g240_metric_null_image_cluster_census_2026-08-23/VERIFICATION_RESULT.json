@@ -1,0 +1,21 @@
+{
+  "audit": "G240_PACKAGE_VERIFICATION",
+  "checks": {
+    "all_image_query_scoped": true,
+    "arbitrary_branch_weights_absent": true,
+    "eleven_source_hashes": true,
+    "fifteen_hostile_mutations": true,
+    "g239_exact_gamma": true,
+    "history_anchor_and_outcomes_open": true,
+    "independent_exact_configuration_enumeration": true,
+    "landing_exact": true,
+    "multibranch_positive_sibling": true,
+    "regular_stratum_ceiling": true,
+    "required_files": true,
+    "saved_equals_fresh": true,
+    "single_image_zero_sibling": true,
+    "typed_ledgers": true
+  },
+  "source_layout": "REPOSITORY_ROOT",
+  "status": "PASS"
+}

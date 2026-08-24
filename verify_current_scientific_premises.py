@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G239",
+            "G166--G240",
             "G197",
             "G215",
             "G216",
@@ -220,6 +220,7 @@ def validate_startup_surface(root: Path) -> None:
             "G237",
             "G238",
             "G239",
+            "G240",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -262,7 +263,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "222-row exact registry",
+            "223-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -344,7 +345,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G239",
+            "G166--G240",
             "G197",
             "G198",
             "G199",
@@ -389,6 +390,7 @@ def validate_startup_surface(root: Path) -> None:
             "G237",
             "G238",
             "G239",
+            "G240",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -446,6 +448,7 @@ def validate_startup_surface(root: Path) -> None:
             "G237",
             "G238",
             "G239",
+            "G240",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -498,10 +501,11 @@ def validate_startup_surface(root: Path) -> None:
             "G237",
             "G238",
             "G239",
+            "G240",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "222-row",
+            "223-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -842,9 +846,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 222, "premise registry must contain exactly 222 rows")
+    require(len(rows) == 223, "premise registry must contain exactly 223 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 222, "duplicate premise id")
+    require(len(by_id) == 223, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4479,6 +4483,122 @@ def main() -> None:
         "G239 repair-followup acceptance absent",
     )
     require(len(read_tsv(g239 / "SOURCE_MANIFEST.tsv")) == 12, "G239 source count changed")
+    require(
+        by_id["G240"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_7E08DC15"
+        ),
+        "G240 bounded grade changed",
+    )
+    for guard in (
+        "R1_REPAIR_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED",
+        "ALL_REGULAR_NULL_IMAGE_QUERY_REMOVES_ARBITRARY_BRANCH_WEIGHTS_CONDITIONALLY",
+        "POISSON_PARENT_CLUSTER_MOMENT_IDENTITIES_EXACT",
+        "ALL_IMAGE_QUERY_CHOSE_NOT_UNIVERSAL_DETECTOR",
+        "PHYSICAL_HISTORY_SOURCE_MEASURE_TRANSFER_CRITICAL_STRATA_AND_OBSERVATIONAL_ANCHOR_OPEN",
+        "BOSS_OUTCOMES_CLOSED",
+    ):
+        require(guard in by_id["G240"]["current_status"], f"G240 guard absent: {guard}")
+    require(by_id["G240"]["epistemic_label"] == "MIXED", "G240 label changed")
+    require(
+        by_id["G240"]["active_use"]
+        == "ACTIVE_BOUNDED_OUTCOME_BLIND_ALL_REGULAR_NULL_IMAGE_COUNTING_QUERY_ON_SUPPLIED_LOCALLY_FINITE_PROPER_REGULAR_RELATION_ONLY",
+        "G240 active scope widened",
+    )
+    for guard in (
+        "all-image query called a derived universal detector law",
+        "critical or infinite image strata called covered",
+        "BOSS outcomes opened before physical inputs freeze",
+    ):
+        require(guard in by_id["G240"]["forbidden_regression"], f"G240 regression guard absent: {guard}")
+    require(
+        by_id["G240"]["controlling_source"]
+        == "udt_g240_metric_null_image_cluster_census_2026-08-23/AUDIT_REPORT.md",
+        "G240 controlling source changed",
+    )
+    g240 = ROOT / "udt_g240_metric_null_image_cluster_census_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "OPERATOR_LEDGER.tsv",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_PREREGISTRATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_null_image_cluster_census.py",
+        "run_catch_proofs.py",
+        "verify_cluster_census_independent.py",
+        "verify_package.py",
+    ):
+        require((g240 / name).is_file(), f"G240 evidence missing: {name}")
+    g240_result = json.loads((g240 / "DERIVATION_RESULT.json").read_text())
+    g240_independent = json.loads((g240 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g240_catches = json.loads((g240 / "CATCH_PROOF_RESULT.json").read_text())
+    g240_verification = json.loads((g240 / "VERIFICATION_RESULT.json").read_text())
+    expected_g240_landing = (
+        "ALL_REGULAR_NULL_IMAGE_QUERY_REMOVES_ARBITRARY_BRANCH_WEIGHTS_CONDITIONALLY"
+        "__METRIC_RELATION_INDUCES_IMAGE_INTENSITY_AND_SIBLING_PAIR_MEASURE_ON_A_SUPPLIED_HISTORY"
+        "__PHYSICAL_HISTORY_SOURCE_MEASURE_TRANSFER_CRITICAL_STRATA_AND_OBSERVATIONAL_ANCHOR_OPEN"
+    )
+    require(g240_result["landing"] == expected_g240_landing, "G240 landing changed")
+    require(g240_result["query"] == "ALL_REGULAR_NULL_IMAGES_COUNTED_ONCE", "G240 query changed")
+    require(
+        g240_result["query_status"] == "CHOSE_QUERY_PROTOCOL__NOT_UNIVERSAL_DETECTION_LAW",
+        "G240 query promoted",
+    )
+    require(g240_result["uses_arbitrary_branch_weights"] is False, "G240 branch weights reintroduced")
+    require(g240_result["one_image_control"]["S"]["exact"] == "0/1", "G240 one-image control changed")
+    require(g240_result["witness"]["S"]["numerator"] > 0, "G240 sibling witness lost")
+    require(
+        g240_result["g239_two_cell_control"]["Gamma"][0][1]["exact"] == "1/12",
+        "G240 G239 control changed",
+    )
+    require(g240_result["boss_outcomes_opened"] is False, "G240 outcome gate opened")
+    require(g240_result["observational_anchor_used"] is False, "G240 anchor inserted")
+    require(g240_result["physical_history_selected"] is False, "G240 history falsely selected")
+    require(
+        g240_verification["status"] == "PASS"
+        and g240_verification["source_layout"] == "REPOSITORY_ROOT"
+        and all(g240_verification["checks"].values()),
+        "G240 package verification failed",
+    )
+    require(
+        g240_independent["status"] == "PASS"
+        and g240_independent["cases"] == 2003
+        and g240_independent["one_image_cases"] == 166
+        and g240_independent["multi_image_cases"] == 1837
+        and g240_independent["branch_relabeling_invariant"] is True
+        and g240_independent["sky_permutation_covariant"] is True,
+        "G240 independent replay changed",
+    )
+    require(g240_catches["status"] == "PASS" and len(g240_catches["cases"]) == 15,
+            "G240 hostile catches changed")
+    require(all(case["caught"] for case in g240_catches["cases"]), "G240 hostile mutation escaped")
+    require(
+        any(case["mutation"] == "arbitrary_branch_weight_insertion" for case in g240_catches["cases"]),
+        "G240 branch-weight catch absent",
+    )
+    require(
+        "G240_REPAIR_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED"
+        in (g240 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(),
+        "G240 repair-followup acceptance absent",
+    )
+    require(len(read_tsv(g240 / "SOURCE_MANIFEST.tsv")) == 11, "G240 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8702,7 +8822,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G239-extended startup and G239 premise guards; PASS: 222-row premise "
+        "PASS: G240-extended startup and G240 premise guards; PASS: 223-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

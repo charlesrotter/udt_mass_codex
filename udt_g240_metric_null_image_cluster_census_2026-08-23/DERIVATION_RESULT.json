@@ -1,0 +1,1011 @@
+{
+  "audit": "G240_METRIC_NULL_IMAGE_CLUSTER_CENSUS",
+  "boss_outcomes_opened": false,
+  "critical_strata": {
+    "caustic_density_formula": "OPEN__PUSHFORWARD_MEASURE_MAY_SURVIVE_WHILE_REGULAR_DENSITY_FORM_FAILS",
+    "coherent_wave_interference": "OPEN__NOT_IN_POINT_IMAGE_CENSUS",
+    "nonproper_or_infinite_images": "OPEN__NOT_REJECTED"
+  },
+  "forbidden_inputs_absent": [
+    "P1",
+    "G116/G189 transfer",
+    "X_max",
+    "Lambda-CDM distance",
+    "BOSS curve value",
+    "feature scale",
+    "fitted coefficient",
+    "post-readout orchestra",
+    "protected package"
+  ],
+  "formula": {
+    "intensity": "nu1(A)=integral C_x(A) mu(dx)",
+    "normalized_gamma": "Gamma=Sigma_sib/(N^2+S)-[S/(N^2+S)] P tensor P",
+    "second_factorial": "nu2=nu1 tensor nu1+Sigma_sib",
+    "sibling": "Sigma_sib(A,B)=integral sum_{y!=z in R_x} 1_A(y)1_B(z) mu(dx)",
+    "total_sibling_mass": "S=integral m(x)(m(x)-1) mu(dx)"
+  },
+  "g239_two_cell_control": {
+    "Gamma": [
+      [
+        {
+          "decimal": -0.08333333333333333,
+          "denominator": 12,
+          "exact": "-1/12",
+          "numerator": -1
+        },
+        {
+          "decimal": 0.08333333333333333,
+          "denominator": 12,
+          "exact": "1/12",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 0.08333333333333333,
+          "denominator": 12,
+          "exact": "1/12",
+          "numerator": 1
+        },
+        {
+          "decimal": -0.08333333333333333,
+          "denominator": 12,
+          "exact": "-1/12",
+          "numerator": -1
+        }
+      ]
+    ],
+    "N": {
+      "decimal": 2.0,
+      "denominator": 1,
+      "exact": "2/1",
+      "numerator": 2
+    },
+    "P": [
+      {
+        "decimal": 0.5,
+        "denominator": 2,
+        "exact": "1/2",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.5,
+        "denominator": 2,
+        "exact": "1/2",
+        "numerator": 1
+      }
+    ],
+    "S": {
+      "decimal": 2.0,
+      "denominator": 1,
+      "exact": "2/1",
+      "numerator": 2
+    },
+    "decomposition_exact": true,
+    "distinct_parent_product": [
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ]
+    ],
+    "multiplicities": [
+      2
+    ],
+    "normalization_exact": true,
+    "normalized_pair": [
+      [
+        {
+          "decimal": 0.16666666666666666,
+          "denominator": 6,
+          "exact": "1/6",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.3333333333333333,
+          "denominator": 3,
+          "exact": "1/3",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 0.3333333333333333,
+          "denominator": 3,
+          "exact": "1/3",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.16666666666666666,
+          "denominator": 6,
+          "exact": "1/6",
+          "numerator": 1
+        }
+      ]
+    ],
+    "nu_1": [
+      {
+        "decimal": 1.0,
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      },
+      {
+        "decimal": 1.0,
+        "denominator": 1,
+        "exact": "1/1",
+        "numerator": 1
+      }
+    ],
+    "nu_2": [
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 2.0,
+          "denominator": 1,
+          "exact": "2/1",
+          "numerator": 2
+        }
+      ],
+      [
+        {
+          "decimal": 2.0,
+          "denominator": 1,
+          "exact": "2/1",
+          "numerator": 2
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ]
+    ],
+    "ordered_distinct_images": true,
+    "pair_mass": {
+      "decimal": 6.0,
+      "denominator": 1,
+      "exact": "6/1",
+      "numerator": 6
+    },
+    "sigma_sibling": [
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 1.0,
+          "denominator": 1,
+          "exact": "1/1",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ]
+    ]
+  },
+  "general_theorem_scope": "MEASURABLE_LOCALLY_FINITE_PROPER_REGULAR_IMAGE_RELATION",
+  "invariance_controls": {
+    "branch_relabeling": true,
+    "sky_reparameterization_covariance": true,
+    "source_parent_reordering": true
+  },
+  "landing": "ALL_REGULAR_NULL_IMAGE_QUERY_REMOVES_ARBITRARY_BRANCH_WEIGHTS_CONDITIONALLY__METRIC_RELATION_INDUCES_IMAGE_INTENSITY_AND_SIBLING_PAIR_MEASURE_ON_A_SUPPLIED_HISTORY__PHYSICAL_HISTORY_SOURCE_MEASURE_TRANSFER_CRITICAL_STRATA_AND_OBSERVATIONAL_ANCHOR_OPEN",
+  "metric_status": "DERIVED_CONDITIONAL_NULL_RELATION_ON_SUPPLIED_HISTORY_AND_INCIDENCE",
+  "observational_anchor_used": false,
+  "omitted": [
+    "physical metric-history selection",
+    "physical source measure or evolution",
+    "radiative transfer and detector selection",
+    "caustic and infinite-image completion",
+    "non-Poisson source correlations",
+    "observational anchor",
+    "BOSS outcomes"
+  ],
+  "one_image_control": {
+    "Gamma": [
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ],
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ],
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ]
+    ],
+    "N": {
+      "decimal": 1.161904761904762,
+      "denominator": 105,
+      "exact": "122/105",
+      "numerator": 122
+    },
+    "P": [
+      {
+        "decimal": 0.28688524590163933,
+        "denominator": 122,
+        "exact": "35/122",
+        "numerator": 35
+      },
+      {
+        "decimal": 0.3442622950819672,
+        "denominator": 61,
+        "exact": "21/61",
+        "numerator": 21
+      },
+      {
+        "decimal": 0.36885245901639346,
+        "denominator": 122,
+        "exact": "45/122",
+        "numerator": 45
+      }
+    ],
+    "S": {
+      "decimal": 0.0,
+      "denominator": 1,
+      "exact": "0/1",
+      "numerator": 0
+    },
+    "decomposition_exact": true,
+    "distinct_parent_product": [
+      [
+        {
+          "decimal": 0.1111111111111111,
+          "denominator": 9,
+          "exact": "1/9",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.13333333333333333,
+          "denominator": 15,
+          "exact": "2/15",
+          "numerator": 2
+        },
+        {
+          "decimal": 0.14285714285714285,
+          "denominator": 7,
+          "exact": "1/7",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 0.13333333333333333,
+          "denominator": 15,
+          "exact": "2/15",
+          "numerator": 2
+        },
+        {
+          "decimal": 0.16,
+          "denominator": 25,
+          "exact": "4/25",
+          "numerator": 4
+        },
+        {
+          "decimal": 0.17142857142857143,
+          "denominator": 35,
+          "exact": "6/35",
+          "numerator": 6
+        }
+      ],
+      [
+        {
+          "decimal": 0.14285714285714285,
+          "denominator": 7,
+          "exact": "1/7",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.17142857142857143,
+          "denominator": 35,
+          "exact": "6/35",
+          "numerator": 6
+        },
+        {
+          "decimal": 0.1836734693877551,
+          "denominator": 49,
+          "exact": "9/49",
+          "numerator": 9
+        }
+      ]
+    ],
+    "multiplicities": [
+      1,
+      1,
+      1
+    ],
+    "normalization_exact": true,
+    "normalized_pair": [
+      [
+        {
+          "decimal": 0.08230314431604407,
+          "denominator": 14884,
+          "exact": "1225/14884",
+          "numerator": 1225
+        },
+        {
+          "decimal": 0.09876377317925289,
+          "denominator": 7442,
+          "exact": "735/7442",
+          "numerator": 735
+        },
+        {
+          "decimal": 0.10581832840634238,
+          "denominator": 14884,
+          "exact": "1575/14884",
+          "numerator": 1575
+        }
+      ],
+      [
+        {
+          "decimal": 0.09876377317925289,
+          "denominator": 7442,
+          "exact": "735/7442",
+          "numerator": 735
+        },
+        {
+          "decimal": 0.11851652781510347,
+          "denominator": 3721,
+          "exact": "441/3721",
+          "numerator": 441
+        },
+        {
+          "decimal": 0.12698199408761085,
+          "denominator": 7442,
+          "exact": "945/7442",
+          "numerator": 945
+        }
+      ],
+      [
+        {
+          "decimal": 0.10581832840634238,
+          "denominator": 14884,
+          "exact": "1575/14884",
+          "numerator": 1575
+        },
+        {
+          "decimal": 0.12698199408761085,
+          "denominator": 7442,
+          "exact": "945/7442",
+          "numerator": 945
+        },
+        {
+          "decimal": 0.1360521365224402,
+          "denominator": 14884,
+          "exact": "2025/14884",
+          "numerator": 2025
+        }
+      ]
+    ],
+    "nu_1": [
+      {
+        "decimal": 0.3333333333333333,
+        "denominator": 3,
+        "exact": "1/3",
+        "numerator": 1
+      },
+      {
+        "decimal": 0.4,
+        "denominator": 5,
+        "exact": "2/5",
+        "numerator": 2
+      },
+      {
+        "decimal": 0.42857142857142855,
+        "denominator": 7,
+        "exact": "3/7",
+        "numerator": 3
+      }
+    ],
+    "nu_2": [
+      [
+        {
+          "decimal": 0.1111111111111111,
+          "denominator": 9,
+          "exact": "1/9",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.13333333333333333,
+          "denominator": 15,
+          "exact": "2/15",
+          "numerator": 2
+        },
+        {
+          "decimal": 0.14285714285714285,
+          "denominator": 7,
+          "exact": "1/7",
+          "numerator": 1
+        }
+      ],
+      [
+        {
+          "decimal": 0.13333333333333333,
+          "denominator": 15,
+          "exact": "2/15",
+          "numerator": 2
+        },
+        {
+          "decimal": 0.16,
+          "denominator": 25,
+          "exact": "4/25",
+          "numerator": 4
+        },
+        {
+          "decimal": 0.17142857142857143,
+          "denominator": 35,
+          "exact": "6/35",
+          "numerator": 6
+        }
+      ],
+      [
+        {
+          "decimal": 0.14285714285714285,
+          "denominator": 7,
+          "exact": "1/7",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.17142857142857143,
+          "denominator": 35,
+          "exact": "6/35",
+          "numerator": 6
+        },
+        {
+          "decimal": 0.1836734693877551,
+          "denominator": 49,
+          "exact": "9/49",
+          "numerator": 9
+        }
+      ]
+    ],
+    "ordered_distinct_images": true,
+    "pair_mass": {
+      "decimal": 1.3500226757369616,
+      "denominator": 11025,
+      "exact": "14884/11025",
+      "numerator": 14884
+    },
+    "sigma_sibling": [
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ],
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ],
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ]
+    ]
+  },
+  "parent_status": "CHOSE_POISSON_CONTROL__NOT_UDT_SOURCE_LAW",
+  "physical_history_selected": false,
+  "query": "ALL_REGULAR_NULL_IMAGES_COUNTED_ONCE",
+  "query_status": "CHOSE_QUERY_PROTOCOL__NOT_UNIVERSAL_DETECTION_LAW",
+  "unit_multiplicity_source": "COUNTING_MEASURE_AFTER_ALL_IMAGE_QUERY",
+  "uses_arbitrary_branch_weights": false,
+  "witness": {
+    "Gamma": [
+      [
+        {
+          "decimal": -0.026881035128022063,
+          "denominator": 6629209,
+          "exact": "-178200/6629209",
+          "numerator": -178200
+        },
+        {
+          "decimal": -0.0010969634537091831,
+          "denominator": 6629209,
+          "exact": "-7272/6629209",
+          "numerator": -7272
+        },
+        {
+          "decimal": 0.039718765843707746,
+          "denominator": 6629209,
+          "exact": "263304/6629209",
+          "numerator": 263304
+        }
+      ],
+      [
+        {
+          "decimal": -0.0010969634537091831,
+          "denominator": 6629209,
+          "exact": "-7272/6629209",
+          "numerator": -7272
+        },
+        {
+          "decimal": -0.023416368378188106,
+          "denominator": 6629209,
+          "exact": "-155232/6629209",
+          "numerator": -155232
+        },
+        {
+          "decimal": -0.03010675934338471,
+          "denominator": 6629209,
+          "exact": "-199584/6629209",
+          "numerator": -199584
+        }
+      ],
+      [
+        {
+          "decimal": 0.039718765843707746,
+          "denominator": 6629209,
+          "exact": "263304/6629209",
+          "numerator": 263304
+        },
+        {
+          "decimal": -0.03010675934338471,
+          "denominator": 6629209,
+          "exact": "-199584/6629209",
+          "numerator": -199584
+        },
+        {
+          "decimal": 0.03326731741298245,
+          "denominator": 6629209,
+          "exact": "220536/6629209",
+          "numerator": 220536
+        }
+      ]
+    ],
+    "N": {
+      "decimal": 3.9166666666666665,
+      "denominator": 12,
+      "exact": "47/12",
+      "numerator": 47
+    },
+    "P": [
+      {
+        "decimal": 0.3191489361702128,
+        "denominator": 47,
+        "exact": "15/47",
+        "numerator": 15
+      },
+      {
+        "decimal": 0.2978723404255319,
+        "denominator": 47,
+        "exact": "14/47",
+        "numerator": 14
+      },
+      {
+        "decimal": 0.3829787234042553,
+        "denominator": 47,
+        "exact": "18/47",
+        "numerator": 18
+      }
+    ],
+    "S": {
+      "decimal": 5.5,
+      "denominator": 2,
+      "exact": "11/2",
+      "numerator": 11
+    },
+    "decomposition_exact": true,
+    "distinct_parent_product": [
+      [
+        {
+          "decimal": 1.5625,
+          "denominator": 16,
+          "exact": "25/16",
+          "numerator": 25
+        },
+        {
+          "decimal": 1.4583333333333333,
+          "denominator": 24,
+          "exact": "35/24",
+          "numerator": 35
+        },
+        {
+          "decimal": 1.875,
+          "denominator": 8,
+          "exact": "15/8",
+          "numerator": 15
+        }
+      ],
+      [
+        {
+          "decimal": 1.4583333333333333,
+          "denominator": 24,
+          "exact": "35/24",
+          "numerator": 35
+        },
+        {
+          "decimal": 1.3611111111111112,
+          "denominator": 36,
+          "exact": "49/36",
+          "numerator": 49
+        },
+        {
+          "decimal": 1.75,
+          "denominator": 4,
+          "exact": "7/4",
+          "numerator": 7
+        }
+      ],
+      [
+        {
+          "decimal": 1.875,
+          "denominator": 8,
+          "exact": "15/8",
+          "numerator": 15
+        },
+        {
+          "decimal": 1.75,
+          "denominator": 4,
+          "exact": "7/4",
+          "numerator": 7
+        },
+        {
+          "decimal": 2.25,
+          "denominator": 4,
+          "exact": "9/4",
+          "numerator": 9
+        }
+      ]
+    ],
+    "multiplicities": [
+      2,
+      1,
+      3
+    ],
+    "normalization_exact": true,
+    "normalized_pair": [
+      [
+        {
+          "decimal": 0.07497500833055648,
+          "denominator": 3001,
+          "exact": "225/3001",
+          "numerator": 225
+        },
+        {
+          "decimal": 0.0939686771076308,
+          "denominator": 3001,
+          "exact": "282/3001",
+          "numerator": 282
+        },
+        {
+          "decimal": 0.161946017994002,
+          "denominator": 3001,
+          "exact": "486/3001",
+          "numerator": 486
+        }
+      ],
+      [
+        {
+          "decimal": 0.0939686771076308,
+          "denominator": 3001,
+          "exact": "282/3001",
+          "numerator": 282
+        },
+        {
+          "decimal": 0.06531156281239586,
+          "denominator": 3001,
+          "exact": "196/3001",
+          "numerator": 196
+        },
+        {
+          "decimal": 0.08397200933022327,
+          "denominator": 3001,
+          "exact": "252/3001",
+          "numerator": 252
+        }
+      ],
+      [
+        {
+          "decimal": 0.161946017994002,
+          "denominator": 3001,
+          "exact": "486/3001",
+          "numerator": 486
+        },
+        {
+          "decimal": 0.08397200933022327,
+          "denominator": 3001,
+          "exact": "252/3001",
+          "numerator": 252
+        },
+        {
+          "decimal": 0.17994001999333556,
+          "denominator": 3001,
+          "exact": "540/3001",
+          "numerator": 540
+        }
+      ]
+    ],
+    "nu_1": [
+      {
+        "decimal": 1.25,
+        "denominator": 4,
+        "exact": "5/4",
+        "numerator": 5
+      },
+      {
+        "decimal": 1.1666666666666667,
+        "denominator": 6,
+        "exact": "7/6",
+        "numerator": 7
+      },
+      {
+        "decimal": 1.5,
+        "denominator": 2,
+        "exact": "3/2",
+        "numerator": 3
+      }
+    ],
+    "nu_2": [
+      [
+        {
+          "decimal": 1.5625,
+          "denominator": 16,
+          "exact": "25/16",
+          "numerator": 25
+        },
+        {
+          "decimal": 1.9583333333333333,
+          "denominator": 24,
+          "exact": "47/24",
+          "numerator": 47
+        },
+        {
+          "decimal": 3.375,
+          "denominator": 8,
+          "exact": "27/8",
+          "numerator": 27
+        }
+      ],
+      [
+        {
+          "decimal": 1.9583333333333333,
+          "denominator": 24,
+          "exact": "47/24",
+          "numerator": 47
+        },
+        {
+          "decimal": 1.3611111111111112,
+          "denominator": 36,
+          "exact": "49/36",
+          "numerator": 49
+        },
+        {
+          "decimal": 1.75,
+          "denominator": 4,
+          "exact": "7/4",
+          "numerator": 7
+        }
+      ],
+      [
+        {
+          "decimal": 3.375,
+          "denominator": 8,
+          "exact": "27/8",
+          "numerator": 27
+        },
+        {
+          "decimal": 1.75,
+          "denominator": 4,
+          "exact": "7/4",
+          "numerator": 7
+        },
+        {
+          "decimal": 3.75,
+          "denominator": 4,
+          "exact": "15/4",
+          "numerator": 15
+        }
+      ]
+    ],
+    "ordered_distinct_images": true,
+    "pair_mass": {
+      "decimal": 20.84027777777778,
+      "denominator": 144,
+      "exact": "3001/144",
+      "numerator": 3001
+    },
+    "sigma_sibling": [
+      [
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.5,
+          "denominator": 2,
+          "exact": "1/2",
+          "numerator": 1
+        },
+        {
+          "decimal": 1.5,
+          "denominator": 2,
+          "exact": "3/2",
+          "numerator": 3
+        }
+      ],
+      [
+        {
+          "decimal": 0.5,
+          "denominator": 2,
+          "exact": "1/2",
+          "numerator": 1
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        }
+      ],
+      [
+        {
+          "decimal": 1.5,
+          "denominator": 2,
+          "exact": "3/2",
+          "numerator": 3
+        },
+        {
+          "decimal": 0.0,
+          "denominator": 1,
+          "exact": "0/1",
+          "numerator": 0
+        },
+        {
+          "decimal": 1.5,
+          "denominator": 2,
+          "exact": "3/2",
+          "numerator": 3
+        }
+      ]
+    ]
+  }
+}

@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock and observed-state network | G215--G239 | Evaluators, nonselection, SNe state/freeze, held-out typing, conditional reference operator | Continuous history; physical population/map values |
+| Pair-clock and observed-state network | G215--G240 | Evaluators, state/freeze, held-out operator/census | History; source/detector/map values |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -45,6 +45,7 @@
 | G237 joint state freeze | external after repair | Primary `K=12` joint state/covariance frozen with chosen zero unknown cross-release covariance; no-refit held-out carry next |
 | G238 held-out query typing | external after repair | G237 finite state does not determine continuous history or two-source BOSS forward map; outcomes closed |
 | G239 reference operator | external after repair | Conditional mismatch plus `Gamma`; one-image Poisson scope; sibling contribution; inputs/outcomes open |
+| G240 null-image census | external after repair | Chosen all-image query removes free weights conditionally; inputs open |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -76,9 +77,9 @@ None selects completion or `X_max`.
   genuinely global relation law; G235 proves that existence of one rank-complete matched network
   is only reconstruction, not such a global selector. G236/G237 reconstruct and freeze one
   conditional state without deriving its law. G238 proves it lacks the continuous history and
-  two-source map; G239 closes the conditional operator and sibling correction, not their physical
-  values. Profile values, nonlocal/global closure, population, transport,
-  completion, and infinite-route principal Lorentz descent stay open.
+  two-source map; G239 closes the operator and sibling correction; G240 closes unit counting only
+  inside its chosen query. Profile, detector, history, source, global closure, population,
+  transport, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -96,9 +97,8 @@ None selects completion or `X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
-transfer and freeze a conditional SNe state, not a law. G238/G239 keep BOSS outcomes closed: history
-and population values remain open. Earlier controls import transfer/P1; time-live controls evaluate
-supplied histories.
+transfer and freeze a conditional SNe state, not a law. G238--G240 keep BOSS closed; history,
+source, and detector/transfer remain open.
 
 ## Recurring prohibited promotions
 
@@ -112,7 +112,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 222-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 223-row authority. On conflict, stop.
 
 Run:
 

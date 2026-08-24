@@ -4,7 +4,7 @@ Re-read. `LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G239: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G240: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -26,6 +26,9 @@ profile law follows. G237 freezes joint `K=12` state/covariance with unknown cro
 chosen zero. G238 proves this is not a continuous BOSS history or populated two-source/reference map.
 G239 verifies the conditional mismatch-plus-`Gamma` operator: one-image Poisson marks factorize;
 sibling branches contribute. Physical inputs and BOSS outcomes remain open.
+G240 verifies that the `CHOSE` all-regular-image counting query removes arbitrary numerical branch
+weights on a supplied locally finite proper regular null relation. It does not derive a detector,
+history, source measure, transfer law, or critical/infinite-image completion.
 
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
@@ -33,7 +36,8 @@ G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 ## Observational pointer
 
 R2--R5: verified with caveats; interpretation unresolved. G236/G237: processed SNe state/freeze.
-G238 types held-out BOSS; G239 closes the conditional operator. Inputs/outcomes remain open.
+G238 types held-out BOSS; G239 closes the conditional operator; G240 closes unit all-image branch
+counting conditionally. Inputs/outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -54,9 +58,9 @@ Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
 
 ## Next gate
 
-Own the continuous history and populated two-source/branch measure before evaluating G239 without
-refit. Do not use BOSS outcomes to choose them or activate G225 transport, P1, `X_max`, or protected
-drafts.
+Preregister a minimal observational-anchor contract and bounded history/source family before
+evaluating G240/G239 without refit. Do not use BOSS outcomes to choose them or activate G225
+transport, P1, `X_max`, or protected drafts.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`. Pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`. Exact premise authority:

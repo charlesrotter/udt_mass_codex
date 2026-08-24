@@ -1,0 +1,66 @@
+{
+  "audit": "G240_CATCH_PROOFS",
+  "cases": [
+    {
+      "caught": true,
+      "mutation": "silent_single_branch_selection"
+    },
+    {
+      "caught": true,
+      "mutation": "arbitrary_branch_weight_insertion"
+    },
+    {
+      "caught": true,
+      "mutation": "unit_multiplicity_provenance_erasure"
+    },
+    {
+      "caught": true,
+      "mutation": "sibling_term_omission"
+    },
+    {
+      "caught": true,
+      "mutation": "image_self_pair_insertion"
+    },
+    {
+      "caught": true,
+      "mutation": "wrong_N_squared_normalization"
+    },
+    {
+      "caught": true,
+      "mutation": "poisson_promoted_to_native_law"
+    },
+    {
+      "caught": true,
+      "mutation": "caustic_scope_promotion"
+    },
+    {
+      "caught": true,
+      "mutation": "physical_history_selection_claim"
+    },
+    {
+      "caught": true,
+      "mutation": "observational_anchor_insertion"
+    },
+    {
+      "caught": true,
+      "mutation": "boss_outcome_opening"
+    },
+    {
+      "caught": true,
+      "mutation": "forbidden_P1_guard_removal"
+    },
+    {
+      "caught": true,
+      "mutation": "forbidden_Xmax_guard_removal"
+    },
+    {
+      "caught": true,
+      "mutation": "fitted_coefficient_guard_removal"
+    },
+    {
+      "caught": true,
+      "mutation": "protected_payload_guard_removal"
+    }
+  ],
+  "status": "PASS"
+}

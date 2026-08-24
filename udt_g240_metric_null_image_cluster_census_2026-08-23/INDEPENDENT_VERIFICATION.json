@@ -1,0 +1,25 @@
+{
+  "audit": "G240_INDEPENDENT_EXACT_CONFIGURATION_ENUMERATION",
+  "branch_relabeling_invariant": true,
+  "cases": 2003,
+  "configuration_states_per_case_max": 81,
+  "covariance_cases": 2003,
+  "g239_gamma": [
+    [
+      "-1/12",
+      "1/12"
+    ],
+    [
+      "1/12",
+      "-1/12"
+    ]
+  ],
+  "implementation": "independent_fraction_enumeration_of_matching_first_two_poisson_factorial_moments",
+  "multi_image_cases": 1837,
+  "normalization_exact": true,
+  "one_image_cases": 166,
+  "seed": 240,
+  "sky_permutation_covariant": true,
+  "source_reordering_invariant": true,
+  "status": "PASS"
+}

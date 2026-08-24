@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G239 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G240 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -36,6 +36,12 @@ Matched reference and angularly constant response cancel. One-image independentl
 parents remain factorized; same-parent multibranch sibling images instead contribute to `Gamma`.
 Physical history, incidence, branch/source population, transfer, and BOSS outcomes remain open.
 
+G240 is externally repaired and accepted. For the explicitly `CHOSE` all-regular-image counting
+query on a supplied locally finite proper regular null relation, branch multiplicity fixes unit
+image intensity and sibling pairs without arbitrary numerical branch weights. The query is not a
+universal detector law; critical/infinite-image strata, history, source measure, transfer, and
+outcomes remain open.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -56,9 +62,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next independently construct or anchor the continuous complete observer-sky history and populated
-branch/source-pair measure, then evaluate the G239 operator before opening BOSS outcomes. Do not
-repeat G235, promote reconstruction to law, activate protected drafts, identify `X_max`, or use
-P1/G116/G189 as construction inputs. The 222-row registry controls.
+Next preregister the smallest explicit observational-anchor contract and bounded continuous
+history/source family it may calibrate, while keeping BOSS outcomes closed; then carry the anchored
+state through G240 and G239 without refitting. Do not repeat G235, promote reconstruction to law,
+activate protected drafts, identify `X_max`, or use P1/G116/G189 as construction inputs. The
+223-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

@@ -94,8 +94,11 @@ physical scalar after the working premise. They must not be conflated.
 - G239 externally verifies the conditional mismatch-plus-`Gamma` operator. Matched/constant
   responses cancel; nonconstant response may survive. One-image Poisson marks factorize; sibling
   branches contribute. Physical inputs and outcomes remain open.
+- G240 verifies the `CHOSE` all-regular-image census. Unit counts remove free branch weights on a
+  supplied regular locally finite relation; one-image fibers factorize and siblings contribute.
+  History, source measure, detector/transfer, critical strata, and outcomes remain open.
 
-G206--G239 generate no sector function or `X_max`. Exact
+G206--G240 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -108,7 +111,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`. Joint state freeze:
 `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`. Held-out query typing:
 `udt_g238_bao_heldout_query_typing_2026-08-23/`. Reference-projected operator:
-`udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`. Evaluator:
+`udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`. Null-image census:
+`udt_g240_metric_null_image_cluster_census_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -116,14 +120,16 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 ## Current open joints
 
 - G211--G231 close supplied local geometry, not its values. G232--G235 exclude the tested local and
-  matched-network selectors. G236/G237 freeze a state; G238/G239 type and algebraically close its
-  held-out operator, not the continuous history or population.
+  matched-network selectors. G236/G237 freeze a state; G238--G240 type and algebraically close its
+  held-out operator; G240 removes free branch weights only inside a chosen all-image query, not the
+  continuous history, source measure, or detector law.
 - Events, germs, population, branches, global realization, transfer, source/matter, action,
   bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237 use imported transfer; G238/G239 leave continuous history and population unowned.
+scale. G236/G237 use imported transfer; G238--G240 leave continuous history, source measure, and
+detector/transfer ownership open.
 
 ## Audited restart
 
@@ -132,6 +138,7 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238/G239 type and
-close the held-out operator without outcomes. Next own continuous history and populated branches,
-then evaluate without refit. Do not use observations as selector, `X_max`, or protected drafts.
+G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238--G240 type and
+close the held-out operator plus a chosen all-image counting query without outcomes. Next
+preregister a minimal anchor contract and bounded history/source family, then evaluate without
+refit. Do not use observations as an unrestricted selector, `X_max`, or protected drafts.
