@@ -1,0 +1,24 @@
+{
+  "caught": 16,
+  "missed": [],
+  "mutations": {
+    "call_future_links_a_groupoid": true,
+    "commute_vertex_through_edge": true,
+    "declare_full_phase_singular_at_caustic": true,
+    "drop_positive_clock_orientation": true,
+    "erase_winding_labels": true,
+    "force_direct_null_closure": true,
+    "force_endpoint_only_flat_screen_carry": true,
+    "identify_direct_edge_with_chain": true,
+    "identify_future_return_with_inverse": true,
+    "invert_singular_caustic_position_block": true,
+    "omit_vertex_screen_lift": true,
+    "replace_depth_addition_by_ratio_addition": true,
+    "replace_ratio_product_by_sum": true,
+    "scalarize_matrix_phase": true,
+    "turn_coincidence_into_nontrivial_null_edge": true,
+    "use_inverse_multiplier_in_phase": true
+  },
+  "status": "PASS",
+  "total": 16
+}

@@ -1,0 +1,16 @@
+{
+  "assertions": 20499,
+  "cases": 2048,
+  "caustic_full_phase_determinant": "1",
+  "caustic_position_block_determinant": "0",
+  "cylinder_winding_branches": 21,
+  "direct_null_closure_counterexample": {
+    "AB_interval_squared": "0",
+    "AC_interval_squared": "-4",
+    "BC_interval_squared": "0"
+  },
+  "landing": "REGULAR_DIRECTION_ROUTE_LABELLED_NULL_BRANCH_ATLAS_DESCENDS_GLOBALLY__DIRECT_FUTURE_NULL_LINKS_FORM_A_QUIVER_NOT_A_CATEGORY_OR_GROUPOID__FREE_MATCHED_NULL_CHAIN_CATEGORY_CARRIES_ADDITIVE_DEPTH_AND_PATH_LABELLED_PHASE__CAUSTIC_BRANCH_AGGREGATION_GLOBAL_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "noncommuting_phase_cases": 2047,
+  "selected_alternative": "C_BRANCH_QUIVER_PLUS_GENERATED_CHAIN_CATEGORY",
+  "status": "PASS"
+}
