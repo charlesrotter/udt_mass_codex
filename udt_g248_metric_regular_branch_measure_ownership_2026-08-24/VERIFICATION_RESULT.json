@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "catch_replay_exact": true,
+    "hostile_floor": true,
+    "independent_floor": true,
+    "independent_landing": true,
+    "independent_replay_exact": true,
+    "outcomes_closed": true,
+    "production_floor": true,
+    "production_landing": true,
+    "production_replay_exact": true,
+    "saved_catch_pass": true,
+    "saved_independent_pass": true,
+    "saved_production_pass": true,
+    "source_manifest_rows": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

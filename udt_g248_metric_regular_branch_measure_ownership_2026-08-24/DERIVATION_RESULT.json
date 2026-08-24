@@ -1,0 +1,25 @@
+{
+  "assertions": 307205,
+  "cases": 4096,
+  "caustic_boundary": "A=0__REGULAR_COAREA_DENSITY_LEAVES_SCOPE__FULL_PHASE_REMAINS_INVERTIBLE",
+  "character_family": "chi_alpha(M)=r(M)^alpha__alpha_in_R__NOT_SELECTED",
+  "coarea_density": "dmu_AB=(r_AB/A_AB)*d_tau_A",
+  "formal_inverse": "B_inverse=-r^-1*B^T__A_inverse=A/r^2__coarea_coefficient_inverse=r/A",
+  "landing": "METRIC_OWNS_ORDERED_REGULAR_INCIDENCE_COAREA_DENSITY_R_OVER_A__SKY_PHASE_COUNTING_AND_INCIDENCE_MEASURES_ARE_DISTINCT_TYPED_OBJECTS__CSP4_COMPOSITION_LEAVES_REAL_CHARACTER_FAMILY_R_TO_ALPHA__UNIVERSAL_PHYSICAL_BRANCH_MEASURE_SOURCE_POPULATION_AND_CRITICAL_COMPLETION_REMAIN_OPEN",
+  "measure_types": [
+    "observer_solid_angle",
+    "phase_symplectic_volume",
+    "finite_branch_counting",
+    "ordered_incidence_coarea_density",
+    "csp_character_half_density_candidate"
+  ],
+  "noncommuting_phase_cases": 4096,
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "phase_volume": "M_pullback_nu_target=r^2*nu_source__M_pushforward_nu_source=r^-2*nu_target",
+  "reverse_query_density_differences": 3667,
+  "selected_alternative": "B_TYPED_CANONICAL_GEOMETRIC_MEASURES_EXIST__PHYSICAL_BRANCH_MEASURE_UNSELECTED",
+  "status": "PASS",
+  "three_measure_separations": 3636,
+  "transverse_jacobian": "J=omega_B*A=A/r",
+  "unequal_counting_coarea_cases": 4068
+}

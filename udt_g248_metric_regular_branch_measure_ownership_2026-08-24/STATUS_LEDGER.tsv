@@ -1,0 +1,13 @@
+object	status	scope
+observer celestial solid angle	DERIVED_CONDITIONAL	metric plus supplied future unit clock
+null incidence relation	DERIVED_CONDITIONAL	metric plus two observer worldlines and future-null query
+clock ratio r=d_tau_B/d_tau_A	DERIVED_CONDITIONAL	regular null ribbon
+Jacobi area A=abs(det D)	DERIVED_CONDITIONAL	regular noncaustic observer-sky sheet
+ordered incidence coarea density (r/A)d_tau_A	DERIVED_CONDITIONAL	transverse noncaustic source-clock-normalized incidence fiber
+phase volume multiplier r^2	DERIVED_CONDITIONAL	full CSp+(4,R) phase map
+finite branch counting	CHOSE	G240 all-image finite-fiber query
+CSp positive character family r^alpha	DERIVED_CONDITIONAL	continuous positive characters; alpha not selected
+universal physical branch probability	OPEN	no source/detector/aggregation law
+source population	OPEN	not supplied by metric incidence geometry
+caustic or critical measure	OPEN	A=0 outside regular coarea theorem
+observational outcomes	CLOSED_AND_UNREAD	outcome-blind derivation

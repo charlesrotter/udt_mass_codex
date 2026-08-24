@@ -1,0 +1,10 @@
+{
+  "assertions": 540002,
+  "cases": 10000,
+  "expected_landing": "METRIC_OWNS_ORDERED_REGULAR_INCIDENCE_COAREA_DENSITY_R_OVER_A__SKY_PHASE_COUNTING_AND_INCIDENCE_MEASURES_ARE_DISTINCT_TYPED_OBJECTS__CSP4_COMPOSITION_LEAVES_REAL_CHARACTER_FAMILY_R_TO_ALPHA__UNIVERSAL_PHYSICAL_BRANCH_MEASURE_SOURCE_POPULATION_AND_CRITICAL_COMPLETION_REMAIN_OPEN",
+  "implementation": "independent_fraction_fourier_symplectic_no_production_import_or_output_read",
+  "inverse_density_changes": 9071,
+  "measure_separation_cases": 9990,
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "status": "PASS"
+}

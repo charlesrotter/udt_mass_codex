@@ -1,0 +1,26 @@
+{
+  "caught": 18,
+  "missed": [],
+  "mutations": {
+    "claim_composition_selects_alpha": true,
+    "claim_full_ordered_density_reversal_invariant": true,
+    "derive_detection_probability_from_coarea": true,
+    "derive_source_population_from_geometry": true,
+    "drop_clock_ratio_from_coarea": true,
+    "erase_absolute_area_orientation": true,
+    "extend_regular_formula_through_caustic": true,
+    "identify_counting_with_coarea": true,
+    "identify_half_character_with_counting": true,
+    "identify_matched_chain_with_direct_edge": true,
+    "identify_phase_volume_with_coarea": true,
+    "multiply_instead_of_divide_by_area": true,
+    "open_observational_outcomes": true,
+    "use_inverse_clock_ratio": true,
+    "wrong_inverse_coarea_coefficient": true,
+    "wrong_inverse_position_area": true,
+    "wrong_phase_determinant_weight": true,
+    "wrong_phase_pushforward_weight": true
+  },
+  "status": "PASS",
+  "total": 18
+}
