@@ -1,6 +1,6 @@
 # LIVE — current state only
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-23
+## CURRENT STATE — 2026-08-24
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
 ### Honest claim
@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G241. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G243. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -67,6 +67,11 @@ frozen full-covariance G237 state: d2/d4 turn over and d3 misses the adequacy ce
 bounded carrier negative, not kernel failure or a continuous-history no-go. BOSS outcomes remain
 closed, and G241 authorizes neither a fifth coefficient nor a new basis after the result.
 
+G243 confirms direct SNe redshift, `phi=log(1+z)`, without angular input. Under an imported temporary
+luminosity transfer, two full-covariance routes reproduce a local turning `K=48`, `alpha=0.1`
+radial curve. Because 29 of 485 extreme smoothing rows fail the preregistered agreement gate,
+external review accepts `NO_FREEZE`: no global inverse, physical history, or downstream claim.
+
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, G142--G160 scaffolds, and protected payload as
@@ -76,7 +81,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 224-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 225-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -89,7 +94,9 @@ rows remain unresolved and no preferred scale follows. G236/G237 reconstruct and
 two-release SNe relative-state estimate under an imported transfer and processed-release/covariance
 caveats; G238 proves that this finite state does not type a no-refit BOSS forward map. G241 retains
 the conditional scale-free radial-to-tidal bridge but rejects the registered 2--4 coefficient
-smooth carriers before BOSS. Raw archive:
+smooth carriers. G243 independently confirms that SNe redshift itself is direct reciprocal `phi`,
+while its temporary-transfer radial spline remains an uncertified turning local representation.
+BOSS outcomes remain closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -103,11 +110,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G241 shows that the native local radial-to-tidal bridge is simpler than the attempted empirical
-carrier: one smooth `R(phi)` would determine the bounded local tidal chord without an angular
-coefficient, but degrees 2--4 do not supply that history. Before opening BOSS outcomes or adding a
-fifth coefficient, zoom out and preregister whether the next anchor may supply derivative
-information nonparametrically or must jointly constrain one explicitly bounded history family.
-Keep the full covariance and no-refit boundary; do not substitute P1, `X_max`, Lambda-CDM distances,
-protected drafts, or G116/G189 as native inputs.
+G243 finds a robust local turning curve but no globally invertible `R(phi)`. Before BOSS, choose
+between certifying monotone intervals, deriving native transfer, or retaining SNe only as the direct
+reciprocal-redshift/quiet-regime check. Do not relax the failed gate, add angular SNe coefficients,
+or import P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

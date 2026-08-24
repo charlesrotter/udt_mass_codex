@@ -4,9 +4,9 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-23
+## Resume anchor — 2026-08-24
 
-G166--G241 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G243 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -48,6 +48,11 @@ response, with no angular fit coefficient. Its preregistered degree-2--4 anchore
 returns a bounded negative: d2/d4 are noninvertible and inadequate; d3 is invertible but inadequate.
 This neither rejects the kernel nor supplies a continuous history. BOSS outcomes remain closed.
 
+G243 is externally accepted without repair. Direct SNe redshift is `phi=log(1+z)` with no angular
+input. Under imported temporary transfer, two full-covariance routes reproduce a local turning
+`K=48`, `alpha=0.1` curve, but 29 of 485 extreme rows fail the preregistered agreement gate.
+`NO_FREEZE` controls; no global inverse, physical history, or downstream claim follows.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -68,10 +73,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next zoom out before extending the carrier ladder: preregister whether derivative information may
-be supplied by a covariance-aware nonparametric observational representation or by one explicitly
-bounded joint-anchor history family. Keep BOSS outcomes closed until that contract is frozen; do not
-add a fifth coefficient, repeat G235, promote reconstruction to law, activate protected drafts,
-identify `X_max`, or use P1/G116/G189 as construction inputs. The 224-row registry controls.
+Next choose between certifying monotone intervals, deriving native transfer, or retaining SNe only
+as a reciprocal-redshift/quiet-regime check. Keep BOSS closed; do not relax G243, add angular SNe
+coefficients, repeat G235, activate protected work, identify `X_max`, or import P1/G116/G189. The
+225-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

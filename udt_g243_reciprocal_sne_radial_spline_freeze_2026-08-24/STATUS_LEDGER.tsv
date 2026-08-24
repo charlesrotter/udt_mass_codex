@@ -1,0 +1,12 @@
+object	status	maximum_conclusion
+reciprocal_SNe_redshift	DERIVED_CONDITIONAL_DIRECT_RECIPROCAL_READOUT	phi=log(1+z) in the bounded query; no angular input needed
+temporary_luminosity_transfer	IMPORTED_TEMPORARY_TRANSFER_INTERFACE	processed brightness maps conditionally to relative R; not native UDT light theory
+processed_joint_SNe_state	OBSERVED_PROCESSED_CONDITIONAL	768 Pantheon plus 1623 DES rows with one offset per release
+G243_local_candidate	OBSERVED_INDEPENDENTLY_REPRODUCED	K48 alpha0.1 turning representation only
+G243_all_candidate_certification	FAILED_PREREGISTERED_RAW_CHI2_GATE	29 of 485 rows exceed absolute 1e-7 after exact-nullspace repair
+G243_radial_freeze	NO_FREEZE	local candidate may not be promoted to unique smooth physical history
+monotonicity	CHARACTERIZED_NOT_ENFORCED	four increasing intervals; turning regions retained
+angular_response	OPEN_AND_UNUSED	no angular term creates or calibrates SNe redshift
+BOSS_BAO_CMB	CLOSED	no outcome used or inferred
+physical_history	OPEN	G243 does not select or derive it
+external_review	EXTERNALLY_ACCEPTED_NO_REPAIR	G243_NO_FREEZE_ACCEPTED__LOCAL_TURNING_CANDIDATE_RETAINED

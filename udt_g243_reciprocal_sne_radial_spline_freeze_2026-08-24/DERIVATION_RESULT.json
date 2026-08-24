@@ -1,0 +1,312 @@
+{
+  "angular_outcomes": "CLOSED_AND_UNUSED",
+  "basis_counts": [
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "basis_sensitivity": {
+    "16": {
+      "maximum_abs_theta_difference_from_selected": 0.048611391891770994,
+      "maximum_abs_theta_prime_difference_from_selected": 6.5902195916847095
+    },
+    "24": {
+      "maximum_abs_theta_difference_from_selected": 0.0817734409883577,
+      "maximum_abs_theta_prime_difference_from_selected": 6.554402919511656
+    },
+    "32": {
+      "maximum_abs_theta_difference_from_selected": 0.08182491450012108,
+      "maximum_abs_theta_prime_difference_from_selected": 6.351654764986938
+    },
+    "48": {
+      "maximum_abs_theta_difference_from_selected": 0.0,
+      "maximum_abs_theta_prime_difference_from_selected": 0.0
+    },
+    "64": {
+      "maximum_abs_theta_difference_from_selected": 0.007886518154816002,
+      "maximum_abs_theta_prime_difference_from_selected": 1.8819926506673568
+    }
+  },
+  "boss_outcomes": "CLOSED_AND_UNREAD",
+  "classification": "SNE_ONLY_SMOOTH_RADIAL_REPRESENTATION_FROZEN__TURNING_INTERVALS_RETAINED",
+  "counts": {
+    "des": 1623,
+    "pantheon": 768,
+    "total": 2391
+  },
+  "epistemic_grade": "OBSERVED_PROCESSED_CONDITIONAL_OBSERVATIONAL_REPRESENTATION_ONLY",
+  "log10_alpha_grid": [
+    -12.0,
+    0.25,
+    12.0
+  ],
+  "manifest": [
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "role": "224-row premise authority at preregistration",
+      "sha256": "2ccd420adb34d0b9effe7b92a1bbf0b1fc3916f446dcf3e64fb2916345dd9290"
+    },
+    {
+      "path": "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/AUDIT_REPORT.md",
+      "role": "processed SNe query and epistemic ceiling",
+      "sha256": "fb6135a330a3242ed09a47625dc382f7991f2f138f734d37adc9544cc6b62613"
+    },
+    {
+      "path": "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/derive_dual_sne_relational_state.py",
+      "role": "frozen release cuts and covariance assembly provenance",
+      "sha256": "a21e6a2e5ab3da366fbb79145e0504be70ddabbb290517148109c135de1ed7ac"
+    },
+    {
+      "path": "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/FROZEN_PRIMARY_K12_STATE.json",
+      "role": "finite-state regression control only",
+      "sha256": "88d3006a646f2be105a3fb15f2c4c694732b884da97f8fdeefc39323e6bbc8cf"
+    },
+    {
+      "path": "Data/Pantheon+SH0ES.dat",
+      "role": "Pantheon+ processed release table",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "path": "Data/Pantheon+SH0ES_STAT+SYS.cov",
+      "role": "Pantheon+ full release covariance",
+      "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+    },
+    {
+      "path": "external_data/DES-Dovekie_HD.csv",
+      "role": "DES processed release table resolved through G243_DES_ROOT",
+      "sha256": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf"
+    },
+    {
+      "path": "external_data/STAT+SYS.npz",
+      "role": "DES release inverse covariance resolved through G243_DES_ROOT",
+      "sha256": "ffd3124b32148b1372bd95fda9299269f0352a9f8eee02d416c610e38495463b"
+    }
+  ],
+  "maximum_conclusion": "SNE_ONLY_NUMERICAL_RADIAL_REPRESENTATION__NOT_PHYSICAL_HISTORY_TRANSFER_ANGULAR_PREDICTION_BAO_XMAX_OR_UDT_VALIDATION",
+  "method": "WHITENED_RELEASE_DESIGN__EXACT_NULLSPACE_SCHUR__SPECTRAL_POSITIVE_BLOCK",
+  "per_basis_best": [
+    {
+      "alpha": 0.005623413251903491,
+      "alpha_boundary": false,
+      "alpha_index": 39,
+      "basis_count": 16,
+      "condition_number": 10267.720662741323,
+      "des_raw_chi2": 1411.3739180763218,
+      "edf": 15.338893651623824,
+      "gcv": 0.9041268172366397,
+      "lambda": 0.0008228280952947618,
+      "log10_alpha": -2.25,
+      "pantheon_raw_chi2": 722.745660565646,
+      "raw_chi2": 2134.119578641968
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "alpha_boundary": false,
+      "alpha_index": 45,
+      "basis_count": 24,
+      "condition_number": 11073.351530110514,
+      "des_raw_chi2": 1407.4377831370753,
+      "edf": 16.54574825776984,
+      "gcv": 0.9030440658584623,
+      "lambda": 0.005254828952205402,
+      "log10_alpha": -0.75,
+      "pantheon_raw_chi2": 721.9608944036323,
+      "raw_chi2": 2129.3986775407075
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "alpha_boundary": false,
+      "alpha_index": 47,
+      "basis_count": 32,
+      "condition_number": 15031.340649024842,
+      "des_raw_chi2": 1406.3496182439408,
+      "edf": 17.573614947307696,
+      "gcv": 0.9029234956057977,
+      "lambda": 0.005451142980512382,
+      "log10_alpha": -0.25,
+      "pantheon_raw_chi2": 720.9218255916248,
+      "raw_chi2": 2127.271443835566
+    },
+    {
+      "alpha": 0.1,
+      "alpha_boundary": false,
+      "alpha_index": 44,
+      "basis_count": 48,
+      "condition_number": 42271.40212747829,
+      "des_raw_chi2": 1388.4085015902915,
+      "edf": 34.092017676948096,
+      "gcv": 0.8994918181952152,
+      "lambda": 0.00020251660872337048,
+      "log10_alpha": -1.0,
+      "pantheon_raw_chi2": 701.3826969690933,
+      "raw_chi2": 2089.7911985593855
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "alpha_boundary": false,
+      "alpha_index": 46,
+      "basis_count": 64,
+      "condition_number": 56620.178840579545,
+      "des_raw_chi2": 1386.324793318483,
+      "edf": 36.45570757891737,
+      "gcv": 0.8998913204287575,
+      "lambda": 0.00021027765067964285,
+      "log10_alpha": -0.5,
+      "pantheon_raw_chi2": 700.2032017052346,
+      "raw_chi2": 2086.5279950237173
+    }
+  ],
+  "phi_interval": [
+    0.07077528204904217,
+    0.7627571949083936
+  ],
+  "redshift_role": "DIRECT_RECIPROCAL_DEPTH__NO_ANGULAR_INPUT",
+  "selected": {
+    "alpha": 0.1,
+    "alpha_boundary": false,
+    "alpha_index": 44,
+    "basis_count": 48,
+    "coefficient_covariance_diagonal_maximum": 0.011423381391938816,
+    "coefficient_covariance_diagonal_minimum": 0.0005334245468935029,
+    "coefficient_covariance_shape": [
+      49,
+      49
+    ],
+    "coefficients": [
+      17.954731425098565,
+      37.30280320257135,
+      -3.7662945835914368,
+      -3.622523121219611,
+      -3.3442044370370647,
+      -3.0348204605101214,
+      -2.798725399959711,
+      -2.456411545521241,
+      -2.411355355926359,
+      -2.1269591335484144,
+      -1.9138746681465066,
+      -1.8493312217188358,
+      -1.6363441938744314,
+      -1.5393836047096545,
+      -1.424790723085069,
+      -1.331427963936831,
+      -1.1564647813477398,
+      -1.1248902492952306,
+      -1.0075700196771682,
+      -1.0020161752594126,
+      -0.8895355467942576,
+      -0.7664663485637089,
+      -0.7635578164598589,
+      -0.6523473008428851,
+      -0.6009545628096905,
+      -0.6103329370950369,
+      -0.52087933949644,
+      -0.5203840784629189,
+      -0.4103632872358137,
+      -0.3807223243800363,
+      -0.29442786093874584,
+      -0.3302515009144691,
+      -0.2822378099999153,
+      -0.21667504403271887,
+      -0.23226594358567632,
+      -0.16476949240766087,
+      -0.17705984082280446,
+      -0.1273551008153127,
+      -0.1115254461774422,
+      -0.1455365029968666,
+      -0.09476876276322488,
+      -0.043219265713250576,
+      -0.018681658226981368,
+      -0.015136069578981753,
+      0.00863407751894743,
+      -0.045608396272079466,
+      -0.015835056781258322,
+      0.005198255113579291,
+      0.003265973921209194
+    ],
+    "condition_number": 42271.40212747829,
+    "des_raw_chi2": 1388.4085015902915,
+    "edf": 34.092017676948096,
+    "gcv": 0.8994918181952152,
+    "globally_invertible": false,
+    "knot_vector": [
+      0.07077528204904217,
+      0.07077528204904217,
+      0.07077528204904217,
+      0.07077528204904217,
+      0.08615265789036108,
+      0.10153003373168001,
+      0.11690740957299893,
+      0.13228478541431785,
+      0.14766216125563675,
+      0.16303953709695568,
+      0.1784169129382746,
+      0.19379428877959354,
+      0.20917166462091247,
+      0.22454904046223134,
+      0.23992641630355027,
+      0.2553037921448692,
+      0.27068116798618813,
+      0.28605854382750706,
+      0.30143591966882594,
+      0.31681329551014487,
+      0.3321906713514638,
+      0.3475680471927827,
+      0.3629454230341016,
+      0.37832279887542053,
+      0.39370017471673946,
+      0.4090775505580584,
+      0.4244549263993773,
+      0.43983230224069625,
+      0.4552096780820151,
+      0.47058705392333405,
+      0.485964429764653,
+      0.501341805605972,
+      0.5167191814472909,
+      0.5320965572886097,
+      0.5474739331299286,
+      0.5628513089712476,
+      0.5782286848125665,
+      0.5936060606538854,
+      0.6089834364952044,
+      0.6243608123365233,
+      0.6397381881778422,
+      0.655115564019161,
+      0.67049293986048,
+      0.6858703157017989,
+      0.7012476915431178,
+      0.7166250673844368,
+      0.7320024432257557,
+      0.7473798190670746,
+      0.7627571949083936,
+      0.7627571949083936,
+      0.7627571949083936,
+      0.7627571949083936
+    ],
+    "lambda": 0.00020251660872337048,
+    "log10_alpha": -1.0,
+    "maximum_s_prime": 12.916873313291925,
+    "minimum_s_prime": -1.0187021350506325,
+    "pantheon_raw_chi2": 701.3826969690933,
+    "positive_intervals": [
+      [
+        0.07077528204904217,
+        0.48991764674729676
+      ],
+      [
+        0.5002230414456416,
+        0.6059800427761968
+      ],
+      [
+        0.6227051915489203,
+        0.6977149496811352
+      ],
+      [
+        0.7191704435612958,
+        0.753634386486908
+      ]
+    ],
+    "raw_chi2": 2089.7911985593855
+  }
+}

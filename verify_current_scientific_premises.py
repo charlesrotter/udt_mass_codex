@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G241",
+            "G166--G243",
             "G197",
             "G215",
             "G216",
@@ -222,6 +222,7 @@ def validate_startup_surface(root: Path) -> None:
             "G239",
             "G240",
             "G241",
+            "G243",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -264,7 +265,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "224-row exact registry",
+            "225-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -333,6 +334,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/",
             "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/",
             "udt_g238_bao_heldout_query_typing_2026-08-23/",
+            "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -346,7 +348,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G241",
+            "G166--G243",
             "G197",
             "G198",
             "G199",
@@ -393,6 +395,7 @@ def validate_startup_surface(root: Path) -> None:
             "G239",
             "G240",
             "G241",
+            "G243",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -452,6 +455,7 @@ def validate_startup_surface(root: Path) -> None:
             "G239",
             "G240",
             "G241",
+            "G243",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -506,10 +510,11 @@ def validate_startup_surface(root: Path) -> None:
             "G239",
             "G240",
             "G241",
+            "G243",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "224-row",
+            "225-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -851,9 +856,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 224, "premise registry must contain exactly 224 rows")
+    require(len(rows) == 225, "premise registry must contain exactly 225 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 224, "duplicate premise id")
+    require(len(by_id) == 225, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4706,6 +4711,108 @@ def main() -> None:
         "G241 repair-followup acceptance absent",
     )
     require(len(read_tsv(g241 / "SOURCE_MANIFEST.tsv")) == 6, "G241 source count changed")
+    require(
+        by_id["G243"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_8D8FDBDA"
+        ),
+        "G243 bounded grade changed",
+    )
+    for guard in (
+        "EXACT_NULLSPACE_REPAIR_PREREGISTERED_AT_B5F38CD2",
+        "FRESH_GPT54_NO_FREEZE_ACCEPTED_NO_REPAIRS",
+        "DIRECT_RECIPROCAL_SNE_REDSHIFT_PHI_EQUALS_LOG1PZ",
+        "NO_ANGULAR_INPUT",
+        "TEMPORARY_IMPORTED_TRANSFER",
+        "K48_ALPHA0P1_LOCAL_TURNING_CANDIDATE_INDEPENDENTLY_REPRODUCED",
+        "29_RAW_CHI2_GATE_FAILURES_WORST_9P17E_MINUS6",
+        "CROSS_ROUTE_OR_FULL_COVARIANCE_FAILURE_NO_FREEZE",
+        "GLOBAL_INVERSION_AND_PHYSICAL_HISTORY_OPEN",
+        "BOSS_BAO_CMB_XMAX_OUTCOMES_CLOSED",
+    ):
+        require(guard in by_id["G243"]["current_status"], f"G243 guard absent: {guard}")
+    require(by_id["G243"]["epistemic_label"] == "MIXED", "G243 label changed")
+    require(
+        by_id["G243"]["active_use"]
+        == "ACTIVE_BOUNDED_SNE_ONLY_DIRECT_RECIPROCAL_REDSHIFT_LOCAL_RADIAL_REPRESENTATION_AND_NO_FREEZE_RESULT",
+        "G243 active scope widened",
+    )
+    for guard in (
+        "local turning candidate called frozen globally invertible or physical history",
+        "raw chi-square certification failure hidden relaxed or replaced after outcome",
+        "temporary luminosity transfer called native UDT light law",
+        "angular orchestra said to generate SNe redshift",
+        "BOSS BAO CMB Xmax Lambda-CDM P1 G116 G189 or protected payload imported",
+    ):
+        require(guard in by_id["G243"]["forbidden_regression"], f"G243 regression guard absent: {guard}")
+    require(
+        by_id["G243"]["controlling_source"]
+        == "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/AUDIT_REPORT.md",
+        "G243 controlling source changed",
+    )
+    g243 = ROOT / "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CANDIDATE_CENSUS.tsv",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_CENSUS.tsv",
+        "INDEPENDENT_VERIFICATION.json",
+        "MAP.md",
+        "NUMERICAL_STABILITY_REPAIR_PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "RADIAL_REPRESENTATION.npz",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_radial_spline_representation.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_radial_spline_independent.py",
+    ):
+        require((g243 / name).is_file(), f"G243 evidence missing: {name}")
+    g243_result = json.loads((g243 / "DERIVATION_RESULT.json").read_text())
+    g243_independent = json.loads((g243 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g243_verification = json.loads((g243 / "VERIFICATION_RESULT.json").read_text())
+    g243_catches = json.loads((g243 / "CATCH_PROOF_RESULT.json").read_text())
+    require(g243_result["redshift_role"] == "DIRECT_RECIPROCAL_DEPTH__NO_ANGULAR_INPUT",
+            "G243 redshift ownership changed")
+    require(g243_result["boss_outcomes"] == "CLOSED_AND_UNREAD", "G243 BOSS gate opened")
+    require(g243_result["selected"]["basis_count"] == 48, "G243 basis selection changed")
+    require(g243_result["selected"]["alpha"] == 0.1, "G243 alpha selection changed")
+    require(g243_result["selected"]["globally_invertible"] is False,
+            "G243 candidate falsely invertible")
+    require(g243_independent["selected"]["basis_count"] == 48, "G243 independent basis changed")
+    require(g243_independent["selected"]["globally_invertible"] is False,
+            "G243 independent candidate falsely invertible")
+    require(
+        g243_verification["status"] == "PASS"
+        and g243_verification["classification"]
+        == "CROSS_ROUTE_OR_FULL_COVARIANCE_FAILURE__NO_FREEZE"
+        and g243_verification["candidate_rows_compared"] == 485
+        and g243_verification["raw_chi2_gate_failures"] == 29
+        and g243_verification["redshift_direct_from_reciprocal_phi"] is True
+        and g243_verification["angular_outcomes_used"] is False,
+        "G243 package verification changed",
+    )
+    require(g243_catches["status"] == "PASS" and g243_catches["count"] == 17,
+            "G243 hostile catches changed")
+    require(
+        "G243_NO_FREEZE_ACCEPTED__LOCAL_TURNING_CANDIDATE_RETAINED"
+        in (g243 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G243 external acceptance absent",
+    )
+    require(len(read_tsv(g243 / "SOURCE_MANIFEST.tsv")) == 8, "G243 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8929,7 +9036,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G241-extended startup and G241 premise guards; PASS: 224-row premise "
+        "PASS: G243-extended startup and G243 premise guards; PASS: 225-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

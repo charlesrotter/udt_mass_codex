@@ -59,8 +59,8 @@
 - Observational state/typing: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`;
   `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`; `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Held-out operators: `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`; `udt_g240_metric_null_image_cluster_census_2026-08-23/`
-- Bounded SNe anchor to native tidal bridge: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`
-G215--G235 close evaluation/nonselection; G236--G241 add conditional state and one bounded carrier negative—not history or source law.
+- SNe bridge/control: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`;
+  `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`—neither selects history/source law.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`

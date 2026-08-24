@@ -1,10 +1,10 @@
-# MEMORY — compact disk pointer
+# MEMORY — compact pointer
 
-Re-read. `LIVE.md` wins.
+`LIVE.md` wins.
 
 ## Current theory picture
 
-G166--G241: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G243: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -28,6 +28,8 @@ coefficient, but its preregistered anchored Chebyshev degrees 2--4 do not jointl
 invertibility on the frozen G237 full-covariance state. This is a bounded carrier negative, not a
 kernel failure or continuous-history no-go. BOSS outcomes remain closed.
 
+G243: direct SNe `phi=log(1+z)`; local turning curve reproduced; no freeze/history.
+
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, and protected payload. G176 stays provisional;
 G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 
@@ -36,7 +38,8 @@ G190--G192 are formula-level regression controls. `INDEX.md` routes evidence.
 R2--R5: verified with caveats; interpretation unresolved. G236/G237: processed SNe state/freeze.
 G238 types held-out BOSS; G239 closes the conditional operator; G240 closes unit all-image branch
 counting conditionally; G241 tests and rejects one compact SNe carrier family while retaining the
-native local tidal identity. Inputs/outcomes remain open.
+native local tidal identity. G243 retains one local turning SNe radial candidate but no freeze.
+Inputs/outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -53,13 +56,13 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap remain posit/conditional/open.
 
-Use relevant `CURRENT_SCIENTIFIC_PREMISES.tsv` rows for exact status.
+Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
 
 ## Next gate
 
-Zoom out before adding another carrier: preregister whether continuous derivative information may
-come from a covariance-aware nonparametric anchor or one explicitly bounded joint-anchor history
-family. Do not open BOSS outcomes to choose the representation or activate G225 transport, P1,
-`X_max`, or protected drafts.
+Choose whether the next bounded step certifies monotone pieces, derives native transfer, or leaves
+SNe as the direct reciprocal-redshift/quiet-regime check before a separately typed angular query.
+Do not relax G243 after outcome or activate BOSS outcomes, G225 transport, P1, `X_max`, or protected
+drafts to choose the representation.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

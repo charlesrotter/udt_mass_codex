@@ -1,0 +1,25 @@
+{
+  "catches": [
+    "fixed_basis_census",
+    "fixed_alpha_grid_size",
+    "fixed_alpha_grid_endpoints",
+    "selected_alpha_interior",
+    "two_release_offsets_present",
+    "pantheon_second_offset_zero",
+    "des_first_offset_zero",
+    "release_offsets_numerically_distinct",
+    "deleting_release_offset_changes_fit",
+    "full_covariance_is_load_bearing",
+    "monotonicity_not_imposed",
+    "turning_landing_retained",
+    "direct_reciprocal_redshift",
+    "angular_outcomes_closed",
+    "boss_outcomes_closed",
+    "manifest_exactly_eight_sources",
+    "forbidden_construction_inputs_absent"
+  ],
+  "count": 17,
+  "diagonal_covariance_selected_raw_chi2": 1943.8724740049315,
+  "one_offset_mutation_raw_chi2": 3384643.0191632216,
+  "status": "PASS"
+}

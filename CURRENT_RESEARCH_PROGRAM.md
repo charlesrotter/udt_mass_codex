@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-23
+Date: 2026-08-24
 
 `LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
@@ -87,8 +87,11 @@ physical scalar after the working premise. They must not be conflated.
   G127 radial-to-tidal identity is retained exactly and loses absolute radius and any angular fit
   amplitude. Anchored Chebyshev degrees 2--4 all fail the joint adequacy/invertibility contract, so
   no carrier is selected and no larger family is authorized after the result.
+- G243 tests a covariance-aware nonparametric route. Direct SNe redshift is `phi=log(1+z)` without
+  angular input. Two routes reproduce one local turning candidate, but 29 of 485 extreme rows miss
+  the preregistered agreement gate. `NO_FREEZE` controls; no global inverse or history follows.
 
-G206--G241 generate no sector function or `X_max`. Exact
+G206--G243 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -103,7 +106,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g238_bao_heldout_query_typing_2026-08-23/`. Reference-projected operator:
 `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`. Null-image census:
 `udt_g240_metric_null_image_cluster_census_2026-08-23/`. SNe-anchored tidal bridge:
-`udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`. Evaluator:
+`udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`. Nonparametric SNe radial control:
+`udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -114,14 +118,15 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
   matched-network selectors. G236/G237 freeze a state; G238--G240 type and algebraically close its
   held-out operator; G240 removes free branch weights only inside a chosen all-image query, not the
   continuous history, source measure, or detector law. G241 retains the conditional radial-to-tidal
-  identity but rejects only its registered degree-2--4 observational carriers.
+  identity but rejects only its registered degree-2--4 observational carriers. G243 then retains
+  one nonparametric local turning candidate while failing the preregistered whole-census freeze.
 - Events, germs, population, branches, global realization, transfer, source/matter, action,
   bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237 use imported transfer; G238--G241 leave continuous history, source measure, and
-detector/transfer ownership open.
+scale. G236/G237 and G243 use imported transfer; G238--G243 leave continuous history, source
+measure, and detector/transfer ownership open.
 
 ## Audited restart
 
@@ -130,9 +135,7 @@ native core. Inputs remain metric/founding algebra, supplied queries, declared e
 families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
 formula-level regression or chosen-family controls.
 
-G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238--G240 type and
-close the held-out operator plus a chosen all-image counting query without outcomes. G241 executes
-the first bounded anchor contract and rejects its registered compact carriers while preserving the
-native conditional tidal bridge. Next decide the derivative/history representation before any new
-carrier or outcome opening. Do not use observations as an unrestricted selector, `X_max`, or
-protected drafts.
+G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238--G240 close the
+held-out operator without outcomes. G241 rejects compact carriers; G243 retains only a local
+turning candidate. Next choose interval certification, native transfer, or SNe as only a reciprocal
+redshift check. Never relax the failed gate, insert `X_max`, or activate protected work.

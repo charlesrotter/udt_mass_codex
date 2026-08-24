@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock and observed-state network | G215--G241 | Evaluators, state/freeze, held-out operator/census, bounded anchor test | History; source/detector/map values |
+| Pair-clock and observed-state network | G215--G243 | Evaluators, state/freeze, held-out operator/census, bounded anchor tests | History; source/detector/map values |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -46,9 +46,10 @@
 | G238 held-out query typing | external after repair | G237 finite state does not determine continuous history or two-source BOSS forward map; outcomes closed |
 | G239 reference operator | external after repair | Conditional mismatch plus `Gamma`; one-image Poisson scope; sibling contribution; inputs/outcomes open |
 | G240 null-image census | external after repair | Chosen all-image query removes free weights conditionally; inputs open |
-| G241 SNe-anchored tidal bridge | external after R4 | Scale-free conditional radial-to-tidal identity retained; registered degree-2--4 carriers rejected; continuous history open |
+| G241 SNe tidal bridge | external | Conditional tidal identity retained; degree-2--4 carriers rejected; history open |
+| G243 SNe spline | external | Direct redshift; local turning candidate; no freeze or history |
 
-None selects completion or `X_max`.
+None selects completion/`X_max`.
 ## Scale and limits
 
 | Object | Status | Guard |
@@ -74,9 +75,9 @@ None selects completion or `X_max`.
 - G212--G231 close state, carry, phase, curvature, and Cartan evaluation. G232/G233 exclude
   unrestricted finite-order closure; G234 leaves a smaller-family or global law; G235 reconstructs
   but does not select. G236/G237 freeze a conditional state; G238 lacks continuous history and the
-  two-source map; G239/G240 close operator and chosen unit counting. G241 rejects only its compact
-  SNe carriers while retaining the conditional tidal map. History, source, detector, transport,
-  population, and completion stay open.
+  two-source map; G239/G240 close operator/counting. G241 rejects compact SNe carriers; G243
+  confirms direct redshift and retains only a local turning curve. History, source, detector,
+  transport, population, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -94,8 +95,8 @@ None selects completion or `X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
-transfer and freeze a conditional SNe state, not a law. G238--G241 keep BOSS closed; history,
-source, and detector/transfer remain open.
+transfer and freeze conditional SNe state, not law. G243 uses temporary transfer only for a
+numerical radial control. G238--G243 keep BOSS closed; history, source, and transfer remain open.
 
 ## Recurring prohibited promotions
 
@@ -109,7 +110,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 224-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 225-row authority; conflicts stop.
 
 Run:
 
