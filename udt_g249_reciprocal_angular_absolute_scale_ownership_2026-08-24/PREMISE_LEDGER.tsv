@@ -1,0 +1,14 @@
+id	object	status	role	guard
+P01	c_E	OBSERVED_POSITIVE_CLOCK_RULER_CONVERSION	defines x0=c_E t and converts time units to length units	not itself a length or time
+P02	ordered_reciprocal_depth_and_phi_equals_log1pz	DERIVED_ON_SUPPLIED_PAIR	fixes dimensionless clock ratio and observed redshift ratio	no distance or affine profile inferred
+P03	smooth_time_oriented_Lorentz_metric	QUERY_SUPPLIED	owns connection curvature null flow and Jacobi equation	no physical history selection
+P04	regular_source_clock_normalized_null_branch	QUERY_SUPPLIED_CONDITIONAL	owns vertex-normalized Jacobi map	no branch population or caustic continuation
+P05	primary_static_spherical_chart	DECLARED_BOUNDED_DIAGNOSTIC	g_R with arbitrary positive dimensionless F and scale R	not general whole-theory verdict
+P06	dimensionless_profile_F	FREE_AND_EXPLORED_SYMBOLIC	kept arbitrary positive in scale theorem	no P1 G116 G189 or fitted profile
+P07	positive_scale_R	FREE_AND_EXPLORED_SYMBOLIC	tests whether equations remove a dimensionful modulus	no numerical value or observational pin
+P08	Jacobi_equation_and_vertex_data	DERIVED_CONDITIONAL_G188	D''+T D=0 D(0)=0 D'(0)=I	no scalarization or position-block composition
+P09	area_and_shape	DERIVED_CONDITIONAL_G244	A=abs(det D) and C=DdaggerD/A	no source detector or probability meaning
+P10	ordered_incidence_coarea	DERIVED_CONDITIONAL_G248	(r/A)d_tau_source on regular transverse strata	no flux luminosity or branch probability
+P11	one_absolute_anchor	OMITTED_CONDITIONAL_COROLLARY_ONLY	may calibrate R after normalized history is fixed	no anchor inspected or fitted
+P12	observational_outcomes	OMITTED_CLOSED	no construction or selection role	remain unread
+P13	P1_G116_G189_Xmax_LambdaCDM_protected_payload	FORBIDDEN	regression gate	never construction input
