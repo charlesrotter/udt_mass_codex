@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G243. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G244. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -42,34 +42,22 @@ G226 joins G188/G224/G225 on one supplied null chain. Its `CSp^+(4,R)` phase has
 inverse ruler carry `q`; gauges cancel, caustics retain phase, and matrix holonomy remains. It
 selects no transport, direct relation, population, or history.
 
-G227/G228/G229/G230/G231 close supplied Cartan architecture: ranks `19/20/60/126` and compatible metric 3/4-jets,
-but no profile or history. G232/G233 show distinct profiles can share every finite local jet; G234
-leaves an invariant family cut or global law. G235's rank-ten matched network reconstructs but does
-not select, and cross-surface tuple products remain untyped.
+G227/G228/G229/G230/G231 close supplied curvature ranks `19/20/60/126`, metric jets, and Cartan
+realization—not values/history. G232/G233/G234 leave an invariant family/global law; G235's matched
+network reconstructs but does not select.
 
-G236 reconstructs compatible processed Pantheon+/DES `R(phi)` states under imported transfer;
-G237 freezes the joint `K=12` state/covariance with unknown cross-release covariance `CHOSE` zero.
-Both are `OBSERVED_PROCESSED_CONDITIONAL`, not profile laws, predictions, or history selectors.
+G236/G237 reconstruct and freeze a processed conditional SNe state (`K=12`, unknown cross-release
+covariance `CHOSE` zero). G238 proves it is not continuous history. G239/G240 close the conditional
+point-process/all-regular-image query, not source, detector, critical strata, or outcomes.
 
-G238's exact between-knot counterfamily proves the frozen state is not a continuous history; BOSS
-also needs a populated two-source/reference map. G239 derives its conditional point-process
-operator: matched/constant responses cancel, while sibling branches add `Gamma`.
+G241 rejects only its degree-2--4 carriers. G242 rejects exact zero tide (`chi2=8519.0092` versus
+`31.2641`) while small response stays open. G243 keeps direct `phi=log(1+z)` but no global freeze.
 
-G240 externally verifies that the `CHOSE` all-regular-image query removes arbitrary branch weights
-on a **supplied** locally finite proper regular relation. It is not a universal detector law and
-does not cover critical/infinite-image strata or select history/source measure. Outcomes stay closed.
-
-G241 retains the exact scale-free G127 radial-to-tidal identity, but its preregistered Chebyshev
-degrees 2--4 fail the joint adequacy/invertibility gate. This bounded carrier negative neither
-rejects the kernel nor authorizes a larger post-result basis.
-
-G242 externally rejects the exact G201 zero-tide family `f(r)=1+C r^2` on the frozen G237 state:
-`chi2=8519.009211032242` versus ceiling `31.264133620239985`. Only exact silence fails; reciprocal
-redshift is unchanged, while small nonzero response and continuous history remain open.
-
-G243 confirms direct SNe `phi=log(1+z)` without angular input. Its temporary-transfer local turning
-curve reproduces, but 29/485 census rows fail certification, so `NO_FREEZE` controls: no global
-inverse, physical history, or downstream claim.
+G244 is externally accepted without repair. On a supplied regular finite noncaustic G188 sheet,
+`H=D^dagger D` gives native area `A=abs(det D)` and shape `C=H/A`; parity is orientation-line-valued.
+Its coefficient-free `CHOSE_QUERY_CONTROL` cancels constant response; `-1/6` is an operator witness,
+not a fit/history. Full G226 phase alone composes. History, source/catalogue semantics, critical
+strata, and outcomes remain open; no fitted angular coefficient or BOSS/CMB result entered.
 
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
@@ -80,7 +68,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 226-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 227-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -96,7 +84,9 @@ the conditional scale-free radial-to-tidal bridge but rejects the registered 2--
 smooth carriers. G243 independently confirms that SNe redshift itself is direct reciprocal `phi`,
 while its temporary-transfer radial spline remains an uncertified turning local representation.
 G242 independently rules out replacing the full SNe interval by the one exact G201 zero-tide radial
-subfamily, while leaving a small nonzero response open. BOSS outcomes remain closed. Raw archive:
+subfamily, while leaving a small nonzero response open. G244 now supplies the outcome-blind native
+screen area/shape query, but not its real-sky history or source/catalogue semantics. BOSS outcomes
+remain closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -110,9 +100,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G242 rejects exact zero tide across the bounded SNe interval, while G243 retains no certified
-global `R(phi)` freeze. The next bounded step is a separately typed, outcome-blind angular query
-using the metric-native screen/Jacobi operators. Keep SNe redshift direct from reciprocal `phi`; do
-not fit an angular SNe coefficient, relax G243, open BOSS outcomes, select G225 transport, or import
-P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
+G244 closes the separately typed outcome-blind native area/shape query. The next bounded gate is to
+preregister which still-open input is being supplied first: either one complete metric history and
+regular null sheet for geometric evaluation, or a minimal source/incidence control for a later
+catalogue comparison. Keep SNe redshift direct from reciprocal `phi`; do not fit an angular
+coefficient, read BOSS/CMB outcomes before the input contract is frozen, select G225 transport, or
+import P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

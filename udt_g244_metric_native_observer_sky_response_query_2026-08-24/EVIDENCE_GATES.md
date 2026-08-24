@@ -10,6 +10,10 @@
    packages remain closed. Fresh sealed GPT-5.4 review returned
    `G244_ACCEPTED_WITH_STATED_BOUNDS` with no repairs.
 
+Append-only banking provenance: PASS. The preregistered helper removes exactly one live `G244` row
+and reconstructs the frozen 226-row registry digest; all no-write replays remain exact on the
+227-row live authority.
+
 Current grade:
 
 ```text

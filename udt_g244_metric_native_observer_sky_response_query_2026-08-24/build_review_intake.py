@@ -18,6 +18,9 @@ PACKAGE_FILES = (
     "PREMISE_LEDGER.tsv",
     "PREREGISTRATION.md",
     "PREREGISTRATION_PARITY_TYPE_CORRECTION.md",
+    "BANKING_INTEGRATION_PREREGISTRATION.md",
+    "BANKING_INTEGRATION_NOTE.md",
+    "BANKING_REPLAY_RECORD.md",
     "SOURCE_MANIFEST.tsv",
     "EXACT_DERIVATION.md",
     "AUDIT_REPORT.md",
@@ -26,6 +29,8 @@ PACKAGE_FILES = (
     "STATUS_LEDGER.tsv",
     "COMMANDS.md",
     "REVIEW_REQUEST.md",
+    "EXTERNAL_REVIEW.md",
+    "EXTERNAL_REVIEW_RAW.md",
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
@@ -43,6 +48,16 @@ def sha256(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def preregistration_registry_digest(path: Path) -> str:
+    """Recover the exact pre-G244 registry after the single append-only self row."""
+    lines = path.read_bytes().splitlines(keepends=True)
+    self_rows = [line for line in lines if line.startswith(b"G244\t")]
+    if len(self_rows) != 1:
+        raise RuntimeError("live registry must contain exactly one banked G244 row")
+    historical = b"".join(line for line in lines if not line.startswith(b"G244\t"))
+    return hashlib.sha256(historical).hexdigest()
 
 
 def main() -> None:
@@ -63,7 +78,10 @@ def main() -> None:
     for line in lines[1:]:
         expected, relative, _role = line.split("\t")
         source = ROOT / relative
-        if sha256(source) != expected:
+        actual = sha256(source)
+        if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv" and actual != expected:
+            actual = preregistration_registry_digest(source)
+        if actual != expected:
             raise RuntimeError(f"source hash mismatch: {relative}")
         target = destination / relative
         target.parent.mkdir(parents=True, exist_ok=True)

@@ -7,6 +7,8 @@ import csv
 import hashlib
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 
@@ -193,7 +195,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G243",
+            "G166--G244",
             "G197",
             "G215",
             "G216",
@@ -224,6 +226,7 @@ def validate_startup_surface(root: Path) -> None:
             "G241",
             "G242",
             "G243",
+            "G244",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -266,7 +269,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "226-row exact registry",
+            "227-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -337,6 +340,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g238_bao_heldout_query_typing_2026-08-23/",
             "udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/",
             "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/",
+            "udt_g244_metric_native_observer_sky_response_query_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -350,7 +354,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G243",
+            "G166--G244",
             "G197",
             "G198",
             "G199",
@@ -399,6 +403,7 @@ def validate_startup_surface(root: Path) -> None:
             "G241",
             "G242",
             "G243",
+            "G244",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -460,6 +465,7 @@ def validate_startup_surface(root: Path) -> None:
             "G241",
             "G242",
             "G243",
+            "G244",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -516,10 +522,11 @@ def validate_startup_surface(root: Path) -> None:
             "G241",
             "G242",
             "G243",
+            "G244",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "226-row",
+            "227-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -862,9 +869,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 226, "premise registry must contain exactly 226 rows")
+    require(len(rows) == 227, "premise registry must contain exactly 227 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 226, "duplicate premise id")
+    require(len(by_id) == 227, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4930,6 +4937,123 @@ def main() -> None:
         "G243 external acceptance absent",
     )
     require(len(read_tsv(g243 / "SOURCE_MANIFEST.tsv")) == 8, "G243 source count changed")
+    require(
+        by_id["G244"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_8D1EB059"
+        ),
+        "G244 bounded grade changed",
+    )
+    for guard in (
+        "PARITY_TYPE_CORRECTION_PREREGISTERED_AT_CF301BC9",
+        "BANKING_INTEGRATION_PREREGISTERED_AT_087FCF53",
+        "FRESH_GPT54_ACCEPTED_WITH_STATED_BOUNDS_NO_REPAIRS",
+        "H_EQUALS_DDAGGER_D_INTRINSIC_OBSERVER_SCREEN_TENSOR",
+        "A_EQUALS_ABS_DET_D_GEOMETRIC_AREA",
+        "C_EQUALS_H_OVER_A_UNIT_DETERMINANT_SHAPE",
+        "PARITY_ORIENTATION_LINE_VALUED_UNDER_ENDPOINT_O2",
+        "FULL_G226_PHASE_COMPOSES_POSITION_BLOCK_DOES_NOT",
+        "ZERO_FITTED_ANGULAR_COEFFICIENTS",
+        "CATALOG_SOURCE_DETECTOR_HISTORY_OPEN",
+        "BOSS_CMB_OUTCOMES_CLOSED",
+    ):
+        require(guard in by_id["G244"]["current_status"], f"G244 guard absent: {guard}")
+    require(by_id["G244"]["epistemic_label"] == "MIXED", "G244 label changed")
+    require(
+        by_id["G244"]["active_use"]
+        == "ACTIVE_BOUNDED_OUTCOME_BLIND_REGULAR_FINITE_NONCAUSTIC_METRIC_NATIVE_OBSERVER_SKY_AREA_SHAPE_QUERY_ONLY",
+        "G244 active scope widened",
+    )
+    for guard in (
+        "H or A called a selected physical sky history catalogue density detector law or source law",
+        "parity called a scalar under independent endpoint O2 bases",
+        "position Jacobi block multiplied as a functor or inverted at caustics",
+        "exact minus one sixth operator witness called fit prediction or physical coefficient",
+        "angular coefficient fitted after outcomes",
+        "angular response said to generate direct SNe redshift",
+        "BOSS CMB outcomes opened",
+    ):
+        require(guard in by_id["G244"]["forbidden_regression"], f"G244 regression guard absent: {guard}")
+    require(
+        by_id["G244"]["controlling_source"]
+        == "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "G244 controlling source changed",
+    )
+    g244 = ROOT / "udt_g244_metric_native_observer_sky_response_query_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_PARITY_TYPE_CORRECTION.md",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_metric_native_sky_query.py",
+        "run_catch_proofs.py",
+        "verify_metric_native_sky_query_independent.py",
+        "verify_package.py",
+    ):
+        require((g244 / name).is_file(), f"G244 evidence missing: {name}")
+    expected_g244 = (
+        "METRIC_NATIVE_OBSERVER_SKY_AREA_SHAPE_QUERY_DERIVED_CONDITIONALLY"
+        "__NO_FITTED_ANGULAR_COEFFICIENT"
+        "__CATALOG_IDENTIFICATION_AND_HISTORY_OPEN"
+    )
+    g244_result = json.loads((g244 / "DERIVATION_RESULT.json").read_text())
+    g244_independent = json.loads((g244 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g244_verification = json.loads((g244 / "VERIFICATION_RESULT.json").read_text())
+    require(g244_result["classification"] == expected_g244, "G244 production landing changed")
+    require(g244_independent["classification"] == expected_g244, "G244 independent landing changed")
+    require(g244_result["screen_outputs"]["area"] == "A=sqrt(det H)=abs(det D)",
+            "G244 area typing changed")
+    require(
+        g244_result["screen_outputs"]["parity"]
+        == "orientation-line-valued; scalar only after compatible orientations",
+        "G244 parity typing changed",
+    )
+    require(g244_result["fitted_angular_coefficients"] == 0, "G244 fitted coefficient inserted")
+    require(g244_result["observational_outcomes"] == "CLOSED_AND_UNREAD", "G244 outcomes opened")
+    require(g244_result["caustic_boundary"]["position_inverse_used"] is False,
+            "G244 caustic position inverse introduced")
+    require(g244_independent["imports_production_code"] is False,
+            "G244 independent route imports production")
+    require(g244_independent["reads_production_output"] is False,
+            "G244 independent route reads production output")
+    require(
+        g244_verification["status"] == "PASS"
+        and g244_verification["classification"] == expected_g244
+        and g244_verification["source_count"] == 8
+        and g244_verification["hostile_catches"] == 14
+        and all(g244_verification["checks"].values()),
+        "G244 package verification changed",
+    )
+    require(
+        "G244_ACCEPTED_WITH_STATED_BOUNDS" in (g244 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G244 external acceptance absent",
+    )
+    require(len(read_tsv(g244 / "SOURCE_MANIFEST.tsv")) == 8, "G244 source count changed")
+    g244_replay = subprocess.run(
+        [sys.executable, str(g244 / "verify_package.py"), "--no-write"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    require(json.loads(g244_replay.stdout)["status"] == "PASS", "G244 live no-write replay failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -9153,7 +9277,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243-extended startup and premise guards; PASS: 226-row premise "
+        "PASS: G242/G243/G244-extended startup and premise guards; PASS: 227-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

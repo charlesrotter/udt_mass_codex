@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G243 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G244 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -41,6 +41,12 @@ input. Under imported temporary transfer, two full-covariance routes reproduce a
 `K=48`, `alpha=0.1` curve, but 29 of 485 extreme rows fail the preregistered agreement gate.
 `NO_FREEZE` controls; no global inverse, physical history, or downstream claim follows.
 
+G244 is externally accepted without repair. On a supplied regular finite noncaustic G188 null
+sheet, `H=D^dagger D` gives native area `A=abs(det D)` and unit-determinant shape `C=H/A`, with no
+fitted angular coefficient or observational outcome. Its area projection is a
+`CHOSE_QUERY_CONTROL`, not a source/detector law; parity is orientation-line-valued, only full G226
+phase composes, and history/null-sheet/source/catalogue ownership remains open.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -61,10 +67,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next construct a separately typed, outcome-blind angular query from the metric-native screen/Jacobi
-operators. Keep SNe redshift direct from reciprocal `phi` and keep BOSS closed; do not replace
-"quiet" by exact zero, fit an angular SNe coefficient, relax G243, select G225 transport, repeat
-G235, activate protected work, identify `X_max`, or import P1/G116/G189. The 226-row registry
-controls.
+G244 has constructed the separately typed outcome-blind angular query. Next preregister either one
+supplied complete metric/null-sheet evaluation or the minimal source/incidence control required for
+a later catalogue comparison. Keep SNe redshift direct from reciprocal `phi` and BOSS/CMB closed
+until that input contract is frozen; do not fit an angular coefficient, select G225 transport,
+activate protected work, identify `X_max`, or import P1/G116/G189. The 227-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->
