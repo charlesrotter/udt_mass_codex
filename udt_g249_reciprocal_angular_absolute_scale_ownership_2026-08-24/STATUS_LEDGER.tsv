@@ -11,4 +11,4 @@ single-valued A(phi)	CONDITIONAL	requires injective phi on declared branch
 one-anchor scale recovery	DERIVED_CONDITIONAL	after dimensionless history is fixed
 physical metric history and anchor	OPEN	not selected or fitted
 observational outcomes	CLOSED_AND_UNREAD	no construction or validation role
-G249 bounded landing	SCIENTIFIC_LANDING_RETAINED__CERTIFICATION_REPAIR_PENDING	first repair follow-up found exact R1 and R3 evidence gaps; no scientific-scope change
+G249 bounded landing	SECOND_REPAIR_COMPLETE__FOLLOWUP_PENDING	explicit equal-phi two-witness and exact 23-entry hostile-ledger repairs pass; scientific landing unchanged

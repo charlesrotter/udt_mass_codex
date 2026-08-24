@@ -21,7 +21,11 @@ PACKAGE_FILES = (
     "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
     "VERIFICATION_RESULT.json", "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md",
     "TRANSMISSION_RECORD.md", "REPAIR_PREREGISTRATION.md", "REPAIR_PREREGISTRATION_COMMIT.md",
-    "REPAIR_RESULT.md", "REPAIR_FOLLOWUP_REQUEST.md", "derive_reciprocal_angular_scale.py",
+    "REPAIR_RESULT.md", "REPAIR_FOLLOWUP_REQUEST.md", "REPAIR_FOLLOWUP.md",
+    "REPAIR_FOLLOWUP_RAW.md", "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+    "SECOND_REPAIR_PREREGISTRATION.md", "SECOND_REPAIR_PREREGISTRATION_COMMIT.md",
+    "SECOND_REPAIR_RESULT.md", "SECOND_REPAIR_FOLLOWUP_REQUEST.md",
+    "derive_reciprocal_angular_scale.py",
     "verify_reciprocal_angular_scale_independent.py", "run_catch_proofs.py",
     "verify_package.py", "build_review_intake.py",
 )

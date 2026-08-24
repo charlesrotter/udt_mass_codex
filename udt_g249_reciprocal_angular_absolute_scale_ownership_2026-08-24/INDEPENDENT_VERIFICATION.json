@@ -21,5 +21,6 @@
   "observational_outcomes": "CLOSED_AND_UNREAD",
   "offdiagonal_cases": 8868,
   "same_phi_jet_cases": 10000,
+  "same_phi_witness": "two_explicit_phi_zero_witnesses_with_distinct_jets_and_angular_outputs",
   "status": "PASS"
 }

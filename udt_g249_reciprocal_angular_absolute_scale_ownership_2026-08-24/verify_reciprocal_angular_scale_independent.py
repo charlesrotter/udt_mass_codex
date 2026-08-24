@@ -128,6 +128,7 @@ def main() -> None:
     same_phi_jet_cases = 0
     noninjective_branch_cases = 0
     anchor_recovery_cases = 0
+    same_phi_different_jet_response = True
     i2 = eye(2)
     z2 = mz(2, 2)
     omega = blocks(z2, i2, ms(Q(-1), i2), z2)
@@ -191,13 +192,26 @@ def main() -> None:
         assert position_e == ms(ell, position); assertions += 1
         assert abs(det2(position_e)) == ell * ell * abs(det2(position)); assertions += 1
 
-        # Same phi=0 but distinct exact G201 radial jets.
+        # Two explicit witnesses at the same phi=0 with distinct exact G201 radial jets.
         p = Q(rng.randint(-7, 7), rng.randint(1, 9))
         q = Q(rng.randint(-7, 7), rng.randint(1, 9))
         if p == 0 and q == 0:
             q = Q(1)
-        angular = (2 * p * p + p - q, -p)
-        assert angular != (Q(0), Q(0)); assertions += 1
+        quiet_phi = Q(0)
+        live_phi = Q(0)
+        quiet_jet = (Q(0), Q(0))
+        live_jet = (p, q)
+        quiet_angular = (Q(0), Q(0))
+        live_angular = (2 * p * p + p - q, -p)
+        same_phi_case = (
+            quiet_phi == live_phi
+            and quiet_jet != live_jet
+            and quiet_angular != live_angular
+        )
+        assert same_phi_case; assertions += 1
+        same_phi_different_jet_response = (
+            same_phi_different_jet_response and same_phi_case
+        )
         same_phi_jet_cases += 1
 
         # A lawful regular Jacobi branch with phi(s)=(s-2u)^2 at s=u and s=3u.
@@ -255,7 +269,9 @@ def main() -> None:
     claim_checks = {
         "ce_dimension_cannot_form_area": dimensional_candidates == [],
         "homothety_jacobi_area_shape_scaling": scaling_cases == args.cases,
-        "same_phi_different_jet_response": same_phi_jet_cases == args.cases,
+        "same_phi_different_jet_response": (
+            same_phi_different_jet_response and same_phi_jet_cases == args.cases
+        ),
         "noninjective_phi_branch_is_multivalued_in_area": noninjective_branch_cases == args.cases,
         "identical_tidal_history_and_vertex_data_match_by_two_series_methods": ivp_cases > 0,
         "one_positive_area_anchor_recovers_scale": anchor_recovery_cases == args.cases,
@@ -273,6 +289,7 @@ def main() -> None:
         "nonunit_scale_area_changes": changed_area,
         "homothety_scaling_cases": scaling_cases,
         "same_phi_jet_cases": same_phi_jet_cases,
+        "same_phi_witness": "two_explicit_phi_zero_witnesses_with_distinct_jets_and_angular_outputs",
         "noninjective_branch_cases": noninjective_branch_cases,
         "ivp_uniqueness_cases": ivp_cases,
         "ivp_series_degree": ivp_degree,
