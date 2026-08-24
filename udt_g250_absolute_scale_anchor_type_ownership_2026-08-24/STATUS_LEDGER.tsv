@@ -8,4 +8,4 @@ mass_density_energy_composites	DIMENSIONAL_CANDIDATES_ONLY	three exact length-di
 G236_G237_relative_SNe	OBSERVED_PROCESSED_CONDITIONAL_INSUFFICIENT	zero-point-free shape state	no absolute scale
 G99_X_eff	HISTORICAL_CONDITIONAL_EXTERNAL_CROSSCHECK	dimensionful only with external M_B P1 and imported transfer	not native G249 construction input
 G250_outcomes	CLOSED_UNUSED	zero observational values and fitted coefficients	strict driver blinding limitation recorded
-G250_landing	REPAIRED_INTERNAL_EXTERNAL_REPAIR_REVIEW_PENDING	anchor-type classification retained by fresh external review	no anchor value history profile outcome Xmax aggregation or physics completion
+G250_landing	EXTERNALLY_VERIFIED_WITH_CAVEATS_REPAIRS_ACCEPTED	anchor-type classification retained with R1-R3 externally accepted	no anchor value history profile outcome Xmax aggregation or physics completion

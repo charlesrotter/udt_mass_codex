@@ -35,12 +35,12 @@ is not a native G249 construction input.
 
 - initial preregistration committed and pushed at `7361cf38`;
 - blinding limitation recorded and pushed at `7170556f` before calculation;
-- 7/7 exact symbolic and provenance checks pass;
+- 10/10 exact symbolic and source-backed provenance checks pass;
 - 4,096 exact production scale-recovery cases and 4,096 two-anchor identities pass;
 - independent standard-library exact implementation: 12,000 cases, 24,010 assertions;
 - 12,000 zero-weight, zero-value, nonpositive-ratio, and inconsistent-second-anchor rejection
   checks pass as registered;
-- 20/20 formula/type hostile mutations are caught;
+- 23/23 formula/type/source hostile mutations are caught;
 - 18 candidate types are machine-classified;
 - zero observational values and zero fitted coefficients enter the computation.
 
@@ -58,6 +58,10 @@ historical summary value during source mapping. The exact limitation is recorded
 - source, detector, transfer, finite-fiber aggregation, and caustic semantics;
 - `X_max`, action, source, matter dynamics, bootstrap, and signalling.
 
-## Grade before external review
+## Final bounded grade
 
-`INTERNALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_PENDING`
+`EXTERNALLY_VERIFIED_WITH_CAVEATS__REPAIRS_ACCEPTED`
+
+The fresh external review retained the science and required certification repairs R1--R3. Those
+repairs were preregistered, implemented, and accepted in repair-only follow-up with no remaining
+defect. The scientific landing did not change.

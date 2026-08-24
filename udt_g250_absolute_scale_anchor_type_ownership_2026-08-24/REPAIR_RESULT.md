@@ -5,7 +5,7 @@ Date: 2026-08-24
 Status:
 
 ```text
-R1_R2_R3_IMPLEMENTED_AND_INTERNALLY_VERIFIED__EXTERNAL_REPAIR_REVIEW_PENDING
+R1_R2_R3_IMPLEMENTED_AND_EXTERNALLY_ACCEPTED__NO_REMAINING_REPAIR_DEFECT
 ```
 
 ## R1 — sealed source-path contract
@@ -37,8 +37,11 @@ suite now requires the exact source-backed facts.
 - independent: `PASS`, 12,000 cases, 24,010 assertions, five exact provenance sources;
 - hostile: `PASS`, 23/23 catches;
 - package verifier: `PASS`, 26/26 checks;
-- current 232-row premise verifier: `PASS`;
+- current 232-row pre-banking premise verifier: `PASS`;
 - repository suite: 153 passed, one registered XFAIL.
+
+External repair-only follow-up independently reran the sealed package and accepted R1--R3 with no
+remaining defect. The scientific landing remained unchanged.
 
 No observational value, fitted coefficient, anchor instance, scale, branch population, or history
 was introduced. The scientific landing is unchanged.
