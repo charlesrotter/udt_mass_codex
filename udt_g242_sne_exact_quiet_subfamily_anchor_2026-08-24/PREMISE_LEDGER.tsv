@@ -1,0 +1,12 @@
+item	status	use	open_or_guard
+primary static spherical reciprocal metric	DERIVED_CONDITIONAL	supplies G201 angular modes and exact cancellation family	no universal physical-history selection
+f(r)=1+C r^2 zero-tide family	DERIVED_IN_BOUNDED_PRIMARY_SLICE	coefficient-free relative radial shape after anchoring	only domains with f>0; positive-depth branch requires C<0
+positive G237 depth interval	OBSERVED_PROCESSED_CONDITIONAL	bounded comparison domain	static-central query and imported transfer caveats retained
+G237 K12 state and full covariance	OBSERVED_PROCESSED_CONDITIONAL	frozen no-refit comparison vector	unknown cross-release covariance was CHOSE zero in G237
+relative radial normalization	FREE_AND_CANCELLED	C and absolute radius cancel from the anchored shape	no absolute ruler or X_max inferred
+quiet at SNe and barely active at BAO	WORKING_HYPOTHESIS	motivates the exact-zero null control	not used as an acceptance threshold or fitted input
+0.999 chi-square ceiling	CHOSE_STATISTICAL_GATE	conservative compatibility classification	statistical convention, not physics
+BOSS or BAO outcomes	OMITTED_CLOSED	no role in construction or selection	remain held out
+small nonzero tidal response	OPEN	not parameterized in G242	failure of exact zero does not reject quietness
+time-live nonspherical finite-path response	OPEN	not evaluated	local spherical result only
+P1 G116 G189 X_max Lambda-CDM distances protected payload	FORBIDDEN	no construction role	regression gate
