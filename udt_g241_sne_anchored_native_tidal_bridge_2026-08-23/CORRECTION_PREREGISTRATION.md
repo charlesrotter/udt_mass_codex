@@ -30,3 +30,19 @@ The only R2 change authorized is to compare the dense tidal extrema with
 `absolute_tolerance=1e-7` plus `relative_tolerance=5e-10`. Coefficients, chi-square, derivative
 minimum, classifications, knot values, scale-invariance checks, candidate order, and landing keep
 their original tolerances and formulas. R2 may not suppress or relabel the noninvertible candidates.
+
+## R3 — scale-invariance residual normalization
+
+After R2, package verification reached the scale-invariance guard. The float64 production residuals
+are `1.79e-7` and `3.58e-7` only for the already rejected degree-two and degree-four candidates,
+whose dense grids approach zero-slope poles with tidal magnitudes of order `1e9`. Their relative
+residuals are below `4e-16`; the monotone degree-three candidate has absolute residual `1.78e-15`.
+
+The only R3 change authorized is to grade the production scale-invariance check by
+
+```text
+residual <= 1e-12 * max(1, abs(dense_J_min), abs(dense_J_max)).
+```
+
+The independent high-precision residual remains required below `1e-50`. No formula, candidate,
+classification, or landing may change.
