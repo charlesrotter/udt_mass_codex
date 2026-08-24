@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -195,7 +196,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G246",
+            "G166--G247",
             "G197",
             "G215",
             "G216",
@@ -229,6 +230,7 @@ def validate_startup_surface(root: Path) -> None:
             "G244",
             "G245",
             "G246",
+            "G247",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -271,7 +273,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "229-row exact registry",
+            "230-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -345,6 +347,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g244_metric_native_observer_sky_response_query_2026-08-24/",
             "udt_g245_metric_owned_observer_null_cone_field_2026-08-24/",
             "udt_g246_two_observer_null_incidence_descent_2026-08-24/",
+            "udt_g247_global_null_branch_network_descent_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -358,7 +361,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G246",
+            "G166--G247",
             "G197",
             "G198",
             "G199",
@@ -410,6 +413,7 @@ def validate_startup_surface(root: Path) -> None:
             "G244",
             "G245",
             "G246",
+            "G247",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -474,6 +478,7 @@ def validate_startup_surface(root: Path) -> None:
             "G244",
             "G245",
             "G246",
+            "G247",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -533,10 +538,11 @@ def validate_startup_surface(root: Path) -> None:
             "G244",
             "G245",
             "G246",
+            "G247",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "229-row",
+            "230-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -879,9 +885,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 229, "premise registry must contain exactly 229 rows")
+    require(len(rows) == 230, "premise registry must contain exactly 230 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 229, "duplicate premise id")
+    require(len(by_id) == 230, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5361,6 +5367,143 @@ def main() -> None:
     )
     require(json.loads(g246_replay.stdout)["status"] == "PASS", "G246 live no-write replay failed")
     require(
+        by_id["G247"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED_AT_C1655EBD"
+        ),
+        "G247 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_ACCEPTED_NO_REPAIRS",
+        "REGULAR_DIRECTION_ROUTE_LABELLED_NULL_BRANCH_ATLAS_DESCENDS_GLOBALLY",
+        "DIRECT_FUTURE_NULL_LINKS_FORM_QUIVER_NOT_CATEGORY_OR_GROUPOID",
+        "FREE_MATCHED_NULL_CHAIN_CATEGORY",
+        "PROPER_CLOCK_RATIOS_MULTIPLY",
+        "RECIPROCAL_DEPTH_ADDS",
+        "INVERSE_RULER_GRADING_MULTIPLIES",
+        "PATH_LABELLED_CSP4_PHASE_RETAINS_SCREEN_HOLONOMY",
+        "MATHEMATICAL_REVERSAL_FORMAL_GROUPOID_AND_PHYSICAL_FUTURE_RETURN_SEPARATE",
+        "CAUSTIC_POSITION_BLOCK_SINGULAR_FULL_PHASE_INVERTIBLE",
+        "CUT_SELF_INTERSECTION_WINDING_LABELS_RETAINED",
+        "G176_RETAINED_WORKING_FOUNDATIONAL_CLARIFICATION",
+        "ZERO_FITTED_COEFFICIENTS",
+        "NO_ROUTE_POPULATION_HISTORY_SOURCE_DETECTOR_XMAX_OR_OUTCOME_SELECTION",
+    ):
+        require(guard in by_id["G247"]["current_status"], f"G247 guard absent: {guard}")
+    require(by_id["G247"]["epistemic_label"] == "MIXED", "G247 label changed")
+    require(
+        by_id["G247"]["active_use"]
+        == "ACTIVE_BOUNDED_SUPPLIED_SMOOTH_TIME_ORIENTED_LORENTZ_METRIC_SUPPLIED_FUTURE_TIMELIKE_PROPER_CLOCK_OBSERVER_FAMILY_DECLARED_FUTURE_NULL_QUERY_REGULAR_DIRECTION_ROUTE_LABELLED_INCIDENCE_QUIVER_AND_FINITE_MATCHED_CHAIN_STRATA_ONLY",
+        "G247 active scope widened",
+    )
+    for guard in (
+        "direct future-null links called a category Lie groupoid action groupoid or open subgroupoid",
+        "composite chain silently replaced by a direct null edge",
+        "formal or past inverse called physical future return",
+        "route winding cut or self-intersection labels erased",
+        "scalar depth used to erase matrix phase or screen holonomy",
+        "G225 standard evaluator promoted to selected transport",
+        "singular Jacobi position block inverted at caustic",
+        "free path category called branch population or physical history selector",
+        "G176 called metric-derived or canon",
+    ):
+        require(guard in by_id["G247"]["forbidden_regression"], f"G247 regression guard absent: {guard}")
+    require(
+        by_id["G247"]["controlling_source"]
+        == "udt_g247_global_null_branch_network_descent_2026-08-24/AUDIT_REPORT.md",
+        "G247 controlling source changed",
+    )
+    g247 = ROOT / "udt_g247_global_null_branch_network_descent_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_COMMIT.md",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_global_null_branch_network.py",
+        "run_catch_proofs.py",
+        "verify_global_null_branch_network_independent.py",
+        "verify_package.py",
+    ):
+        require((g247 / name).is_file(), f"G247 evidence missing: {name}")
+    expected_g247 = (
+        "REGULAR_DIRECTION_ROUTE_LABELLED_NULL_BRANCH_ATLAS_DESCENDS_GLOBALLY"
+        "__DIRECT_FUTURE_NULL_LINKS_FORM_A_QUIVER_NOT_A_CATEGORY_OR_GROUPOID"
+        "__FREE_MATCHED_NULL_CHAIN_CATEGORY_CARRIES_ADDITIVE_DEPTH_AND_PATH_LABELLED_PHASE"
+        "__CAUSTIC_BRANCH_AGGREGATION_GLOBAL_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN"
+    )
+    g247_result = json.loads((g247 / "DERIVATION_RESULT.json").read_text())
+    g247_independent = json.loads((g247 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g247_catches = json.loads((g247 / "CATCH_PROOF_RESULT.json").read_text())
+    g247_verification = json.loads((g247 / "VERIFICATION_RESULT.json").read_text())
+    require(g247_result["landing"] == expected_g247, "G247 production landing changed")
+    require(g247_independent["expected_landing"] == expected_g247, "G247 independent landing changed")
+    require(
+        g247_result["selected_alternative"] == "C_BRANCH_QUIVER_PLUS_GENERATED_CHAIN_CATEGORY"
+        and g247_result["direct_null_closure_counterexample"]
+        == {"AB_interval_squared": "0", "AC_interval_squared": "-4", "BC_interval_squared": "0"},
+        "G247 quiver/category typing changed",
+    )
+    require(
+        g247_result["caustic_position_block_determinant"] == "0"
+        and g247_result["caustic_full_phase_determinant"] == "1"
+        and g247_result["cylinder_winding_branches"] == 21,
+        "G247 caustic or route-label boundary changed",
+    )
+    require(
+        g247_result["cases"] == 2048
+        and g247_result["assertions"] == 20499
+        and g247_result["noncommuting_phase_cases"] == 2047
+        and g247_independent["cases"] == 5000
+        and g247_independent["assertions"] == 55010
+        and g247_independent["reordered_phase_differences"] == 4999,
+        "G247 finite census changed",
+    )
+    require(
+        g247_independent["implementation"]
+        == "independent_standard_library_fraction_no_production_import",
+        "G247 independent route contaminated",
+    )
+    require(g247_catches["status"] == "PASS" and g247_catches["caught"] == g247_catches["total"] == 16,
+            "G247 hostile catches changed")
+    require(
+        g247_verification["status"] == "PASS"
+        and not g247_verification["failed"]
+        and all(g247_verification["checks"].values()),
+        "G247 package verification changed",
+    )
+    require(
+        "G247_ACCEPTED_WITH_STATED_BOUNDS" in (g247 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G247 external acceptance absent",
+    )
+    require(len(read_tsv(g247 / "SOURCE_MANIFEST.tsv")) == 10, "G247 source count changed")
+    g247_replay = subprocess.run(
+        [sys.executable, str(g247 / "verify_package.py")],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(json.loads(g247_replay.stdout)["status"] == "PASS", "G247 live no-write replay failed")
+    require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
         "G195 external R1 acceptance absent",
@@ -9583,7 +9726,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246-extended startup and premise guards; PASS: 229-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247-extended startup and premise guards; PASS: 230-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

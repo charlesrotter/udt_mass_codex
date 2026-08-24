@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G246. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G247. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -50,6 +50,14 @@ observer worldlines, automatic cone-worldline transversality makes every local r
 inverse differs from physical future return. Global branches are owned as a set but unselected;
 universal query, population, source/detector, history, and outcomes remain open.
 
+G247 is externally accepted without repair. Normalized initial null data and maximal geodesic flow
+globally label every regular branch without a global world function. Direct future-null links are
+not composition-closed: they form a route-labelled quiver. Finite matched chains form the free
+future-null path category; proper-clock ratios and inverse ruler factors multiply, reciprocal depth
+adds, and the ordered G226 phase retains G225 screen holonomy. Formal reversal is not physical
+future return. Cuts, windings, caustics, antipodes, and incomplete rays remain labelled rather than
+aggregated.
+
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, G142--G160 scaffolds, and protected payload as
@@ -59,7 +67,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 229-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 230-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -79,7 +87,9 @@ subfamily, while leaving a small nonzero response open. G244 supplies the outcom
 screen area/shape query. G245 derives its entire local direction-labelled null sheet from a
 supplied metric and observer germ. G246 derives every local regular null incidence branch and its
 completed ribbon from two supplied observer worldlines, but not a real-sky metric history,
-population, global branch aggregation, or catalogue semantics. BOSS outcomes remain closed. Raw archive:
+population, global branch aggregation, or catalogue semantics. G247 closes the global regular
+route-labelled relation architecture but supplies no branch measure, source population, detector
+semantics, or aggregation law. BOSS outcomes remain closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -93,12 +103,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G246 closes the separately supplied local ray, sheet, and regular two-observer incidence branch
-once the metric, two observer worldline germs, and future-null query are supplied. The next bounded
-gate is to preregister whether the complete branch-valued null relation family descends coherently
-across overlapping observer neighborhoods into a global observer network while retaining route,
-cut, caustic, phase, and future-return labels and selecting no preferred image. Keep SNe redshift
-direct from reciprocal `phi`; do not fit an angular coefficient, read BOSS/CMB outcomes before the
-input contract is frozen, select G225 transport, or import P1, `X_max`, Lambda-CDM distances,
-G116/G189, or protected work.
+G247 closes the global mathematical home of the regular null relation family: labelled direct
+branches form a quiver and matched chains form a category with scalar and phase carry. The next
+bounded gate is to preregister whether the metric-owned celestial/phase geometry supplies a
+canonical gauge-invariant branch measure for this quiver, or only transports a supplied source
+measure. Do not aggregate images by habit, fit a branch weight or angular coefficient, read
+BOSS/CMB outcomes before the input contract is frozen, select G225 transport, or import P1,
+`X_max`, Lambda-CDM distances, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

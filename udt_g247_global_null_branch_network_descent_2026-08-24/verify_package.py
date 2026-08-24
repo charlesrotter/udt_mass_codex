@@ -31,6 +31,20 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def matches_frozen_source(path: Path, expected: str, relative: str) -> bool:
+    """Accept the exact frozen source, or the registry with only G247 banked atop it."""
+    if sha256(path) == expected:
+        return True
+    if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return False
+    lines = path.read_bytes().splitlines(keepends=True)
+    g247_rows = [index for index, line in enumerate(lines) if line.startswith(b"G247\t")]
+    if len(g247_rows) != 1:
+        return False
+    historical = b"".join(line for index, line in enumerate(lines) if index != g247_rows[0])
+    return hashlib.sha256(historical).hexdigest() == expected
+
+
 def replay(script: str, *args: str) -> dict:
     env = dict(os.environ)
     env["PYTHONDONTWRITEBYTECODE"] = "1"
@@ -55,7 +69,9 @@ def main() -> None:
         "EXACT_DERIVATION.md", "LAY_REPORT.md", "AUDIT_REPORT.md", "EVIDENCE_GATES.md",
         "STATUS_LEDGER.tsv", "COMMANDS.md", "REVIEW_REQUEST.md", "DERIVATION_RESULT.json",
         "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md", "TRANSMISSION_RECORD.md",
-        "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "VERIFICATION_RESULT.json",
+        "BANKING_INTEGRATION_PREREGISTRATION.md", "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_REPLAY_RECORD.md",
         "derive_global_null_branch_network.py", "verify_global_null_branch_network_independent.py",
         "run_catch_proofs.py", "verify_package.py", "build_review_intake.py",
     ]
@@ -67,7 +83,7 @@ def main() -> None:
         rows = list(csv.DictReader(stream, delimiter="\t"))
     for row in rows:
         path = ROOT / row["path"]
-        if not path.is_file() or sha256(path) != row["sha256"]:
+        if not path.is_file() or not matches_frozen_source(path, row["sha256"], row["path"]):
             raise SystemExit(f"source freeze mismatch: {row['path']}")
 
     saved_prod = json.loads((PKG / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))

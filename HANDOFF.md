@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G246 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G247 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -47,6 +47,11 @@ Automatic cone-worldline transversality gives every local positive clock germ; e
 branch constructs its G222 completed ribbon. G176 stays conditional. Mathematical inverse and
 physical future return remain distinct, and global multiple branches remain unselected.
 
+G247 is externally accepted without repair. Maximal null flow labels regular global branches.
+Direct links form a route-labelled quiver; finite matched chains form its free path category.
+Depth and ruler grading compose; ordered G226 phase retains G225 holonomy. Cut/caustic/winding and
+formal-reversal/physical-return labels remain distinct.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -67,12 +72,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G246 has removed the separately supplied local null ray, sheet, and regular incidence branch once
-the metric, two observer worldline germs, and future-null query are supplied. Next preregister the
-global overlap-descent question for the complete branch-valued null relation, retaining route,
-cut/caustic, phase, reversal, and physical-return labels without choosing one image. Keep SNe
-redshift direct from reciprocal `phi` and BOSS/CMB closed until that contract is frozen; do not fit
-an angular coefficient, select G225 transport, activate protected work, identify `X_max`, or import
-P1/G116/G189. The 229-row registry controls.
+G247 has closed the global regular branch architecture without choosing one image. Next
+preregister whether the metric-owned celestial/phase geometry supplies a canonical gauge-invariant
+measure on the branch quiver, or only transports a supplied source measure. Keep SNe redshift
+direct from reciprocal `phi` and BOSS/CMB closed until that contract is frozen; do not fit branch
+weights or angular coefficients, select G225 transport, activate protected work, identify `X_max`,
+or import P1/G116/G189. The 230-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

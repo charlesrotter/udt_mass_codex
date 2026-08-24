@@ -4,7 +4,7 @@
 
 ## Current theory picture
 
-G166--G246: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G247: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -27,7 +27,9 @@ zero tide on frozen G237, not small response. G243 keeps direct `phi=log(1+z)` a
 control, without freeze/history. G244 derives native `H,A,C`; G245 derives the local cone
 `F(lambda,n)=Exp_o(lambda(U+n))` from metric plus germ. G246 derives every regular local
 two-observer null incidence and completed ribbon from the metric plus two supplied worldlines and
-the declared null query. Global branches, population, and history stay open.
+the declared null query. G247 globally labels the branch quiver and derives the free
+matched-chain category with additive depth and ordered phase. Population, branch measure,
+aggregation, and history remain open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -35,8 +37,9 @@ G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays pr
 ## Observational pointer
 
 R2--R5 remain unresolved observations. G236/G237 freeze processed SNe; G238--G240 type the held-out
-operator. G241--G243 bound radial controls; G244--G246 derive the outcome-blind local
-sky/cone/incidence chain. History, global aggregation, and observational outcomes remain open.
+operator. G241--G243 bound radial controls; G244--G247 derive the outcome-blind
+sky/cone/incidence/branch-category chain. History, branch measure/aggregation, and observational
+outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -57,10 +60,10 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
 
 ## Next gate
 
-G246 removed the need to supply a local ray, sheet, or regular incidence branch separately once the
-metric, two observer worldlines, and future-null query are supplied. Next preregister global overlap
-descent of the complete branch-valued null relation without choosing an image or erasing route,
-caustic, phase, inverse, or physical-return labels. SNe redshift stays direct from reciprocal `phi`;
-do not fit an angular coefficient or activate G225, P1, `X_max`, or protected work.
+G247 closes global regular branch descent: direct links form a quiver and matched chains a category.
+Next preregister whether metric-owned celestial/phase geometry supplies a canonical gauge-invariant
+branch measure or only transports a supplied source measure. SNe redshift stays direct from
+reciprocal `phi`; do not fit a branch weight/angular coefficient or activate G225 as selected
+transport, P1, `X_max`, or protected work.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

@@ -46,6 +46,20 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def matches_frozen_source(path: Path, expected: str, relative: str) -> bool:
+    """Accept the frozen source or the premise registry with only G247 banked atop it."""
+    if sha256(path) == expected:
+        return True
+    if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return False
+    lines = path.read_bytes().splitlines(keepends=True)
+    g247_rows = [index for index, line in enumerate(lines) if line.startswith(b"G247\t")]
+    if len(g247_rows) != 1:
+        return False
+    historical = b"".join(line for index, line in enumerate(lines) if index != g247_rows[0])
+    return hashlib.sha256(historical).hexdigest() == expected
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-root", type=Path, default=Path("/tmp"))
@@ -64,7 +78,7 @@ def main() -> None:
     for line in lines[1:]:
         expected, relative, _role = line.split("\t")
         source = ROOT / relative
-        if sha256(source) != expected:
+        if not matches_frozen_source(source, expected, relative):
             raise RuntimeError(f"source hash mismatch: {relative}")
         target = destination / relative
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -102,4 +116,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
