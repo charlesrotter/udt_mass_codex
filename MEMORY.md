@@ -1,4 +1,4 @@
-# MEMORY — compact pointer
+# MEMORY
 
 `LIVE.md` wins.
 

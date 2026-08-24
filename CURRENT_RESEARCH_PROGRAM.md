@@ -58,14 +58,8 @@ physical scalar after the working premise. They must not be conflated.
   the chain in `CSp^+(4,R)`; gauges cancel and caustics retain phase, without selecting history.
 - G227/G228/G229/G230/G231 close supplied curvature ranks `20/60/126`, metric 3/4-jets, and conditional
   Cartan realization. They generate no regional values or dynamics.
-- G232 separates valued-member evaluation, `CHOSE` finite-family closure, and network encoding.
-  G233 excludes universal local finite-order autonomous closure on the unrestricted profile, while
-  leaving global, infinite-state, time-live, nonspherical, and smaller-family routes open.
-- G234 reduces those routes to an owned invariant smaller-family cut or a global relation law.
-  Time-live/nonspherical activation enlarges the arena but does not select the supplied profile.
-- G235 tests the literal global rank-complete matched-incidence existence condition. Six common-
-  clock planes reconstruct rank ten and matched depths compose, but both invariant G233 twins pass.
-  The network is reconstructive, not selective; cross-pair full-tuple multiplication is untyped.
+- G232/G233/G234/G235 test finite-order, smaller-family, and matched-network closure. The network reconstructs
+  rank ten but does not select; global or invariant smaller-family law remains open.
 - G236 reconstructs finite Pantheon+/DES `R(phi)` states under imported transfer; no law/history.
 - G237 freezes their joint `K=12` covariance with unknown cross-release covariance `CHOSE` zero.
 - G238 proves those knots are not continuous history and types the missing two-source statistic.

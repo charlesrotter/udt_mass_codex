@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock/state network | G215--G249 | Evaluators; frozen state; sky/cone/incidence; global branch category; regular coarea; absolute-scale boundary | History; anchor value; source/detector values; physical probability/aggregation |
+| Pair-clock/state network | G215--G249 | State; sky/cone/network; coarea; scale boundary | History; anchor/source values; probability/aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -70,13 +70,11 @@ None selects completion/`X_max`.
   Metricity is not dynamics.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selecting them.
 - G212--G235 close evaluation/reconstruction, not selection. G236/G237 freeze a conditional state;
-  G238--G240 type its held-out operator/counting. G241 rejects compact carriers, G242 rejects exact
-  zero tide only on the bounded SNe state, G243 retains a local turning curve, G244 closes the
-  outcome-blind Jacobi area/shape query, G245 derives its full local null cone, and G246 derives all
-  local regular two-observer null incidences and completed ribbons after the two worldlines and
-  null query are supplied. G247 derives the global route-labelled quiver and freely generated
-  matched-chain category with scalar and phase carry. G248 derives branchwise ordered regular
-  incidence coarea `dmu=(r/A)dtau_source`, not physical probability or finite-fiber aggregation.
+  G238--G240 type its held-out operator/counting. G241 rejects compact carriers; G242 rejects exact
+  zero tide only on bounded SNe; G243 retains a turning curve. G244 closes Jacobi area/shape, G245
+  the local null cone, and G246 local two-observer null incidences and ribbons. G247 gives the
+  route-labelled quiver and matched-chain category. G248 derives branchwise regular coarea
+  `dmu=(r/A)dtau_source`, not probability or finite-fiber aggregation.
   G249 proves constant homothety preserves dimensionless history and normalized shape while area
   scales as `ell^2`; `c_E` plus redshift do not fix `ell`. History, anchor value, population,
   source/detector semantics, caustic completion, and completion stay open.

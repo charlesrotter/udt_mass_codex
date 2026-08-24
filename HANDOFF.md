@@ -18,33 +18,31 @@ correspondence, null plane, carry, screen, and phase evaluators. G227/G228/G229/
 curvature ranks `20/60/126`, jets, and Cartan realization. G232/G233/G234 leave a family/global law;
 G235 proves the matched network reconstructive, not selective.
 
-G236/G237 freeze an `OBSERVED_PROCESSED_CONDITIONAL` Pantheon+/DES `K=12` state with unknown
-cross-release covariance `CHOSE` zero. G238 rejects continuous history; G239 derives conditional
-mismatch-plus-`Gamma`; G240's `CHOSE` all-image query removes arbitrary weights only on a supplied
-proper regular relation. History, source/detector law, critical strata, transfer, and outcomes stay open.
+G236/G237 freeze a conditional joint SNe state. G238/G239/G240 type its held-out operator; the `CHOSE`
+all-image query removes weights only on a supplied regular relation. History, source/transfer, and
+outcomes stay open.
 
-G241 retains the scale-free radial-to-tidal bridge, but its degrees 2--4 fail. G242 rejects only the
-exact G201 zero-tide family on frozen SNe (`chi2=8519.0092` versus `31.2641`); small response stays
-open. G243 keeps direct `phi=log(1+z)` and one local turning control, but 29/485 rows fail;
-`NO_FREEZE` controls.
+G241 retains the scale-free radial-to-tidal bridge, but degrees 2--4 fail. G242 rejects only exact
+zero tide on frozen SNe; small response stays open. G243 keeps direct `phi=log(1+z)` and a local
+turning control without a whole-census freeze.
 
-G244 is externally accepted. On a supplied regular G188 sheet, `H=D^dagger D` gives area
+On a supplied regular G188 sheet, G244's `H=D^dagger D` gives area
 `A=abs(det D)` and shape `C=H/A` without fitted coefficient/outcome. Its area projection is a
 `CHOSE_QUERY_CONTROL`; parity is orientation-line-valued and only G226 phase composes.
 
-G245 is externally accepted after packaging repair. Metric plus germ `(o,U)` own local
+Metric plus germ `(o,U)` own G245's local
 `k(n)=U+n` and `F(lambda,n)=Exp_o(lambda k(n))`; G188/G244 are induced cone geometry. Nothing
 selects a ray, population, detector, or history.
 
-G246 is externally accepted without repair. A future-null query, metric, and two timelike clocks
+G246: a future-null query, metric, and two timelike clocks
 determine every local regular incidence and G222 ribbon. G176 stays conditional; inverse and
 physical future return differ; global branches remain unselected.
 
-G247 is externally accepted without repair. Maximal null flow labels global regular branches;
+G247 maximal null flow labels global regular branches;
 direct links form a quiver and finite chains its free category. Depth, ruler grading, and ordered
 G226 phase carry; cut/caustic/winding and reversal/return labels remain distinct.
 
-G248 is externally accepted without repair. On every supplied source-clock-normalized, locally
+On every supplied source-clock-normalized, locally
 finite, transverse, noncaustic branch, metric coarea gives `dmu_AB=(r_AB/A_AB)dtau_A`. Sky, phase,
 counting, and incidence measures stay distinct; `r^alpha` remains unselected. Probability,
 population, detector law, aggregation, caustics, history, and outcomes remain open.
