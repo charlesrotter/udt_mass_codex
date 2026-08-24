@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "catch_replay_exact": true,
+    "cone_cone_not_transverse": true,
+    "cross_route_local_incidence": true,
+    "cross_route_pair_ribbon": true,
+    "cross_route_reversal_return": true,
+    "history_and_query_not_selected": true,
+    "hostile_catches": true,
+    "independent_classification": true,
+    "independent_replay_exact": true,
+    "multiple_branch_no_selection": true,
+    "no_fit_or_outcome": true,
+    "production_classification": true,
+    "production_replay_exact": true,
+    "source_manifest": true
+  },
+  "classification": "METRIC_AND_TWO_OBSERVER_GERMS_OWN_LOCAL_REGULAR_NULL_INCIDENCE_BRANCHES__EACH_BRANCH_OWNS_G222_COMPLETED_PAIR_RIBBON__MATHEMATICAL_REVERSAL_DIFFERS_FROM_PHYSICAL_FUTURE_RETURN__GLOBAL_BRANCH_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "hostile_catches": 16,
+  "independent_assertions": 90000,
+  "independent_cases": 5000,
+  "production_assertions": 18432,
+  "production_cases": 1024,
+  "source_count": 8,
+  "status": "PASS"
+}

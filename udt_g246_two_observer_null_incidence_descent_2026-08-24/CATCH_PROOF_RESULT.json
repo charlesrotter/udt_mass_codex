@@ -1,0 +1,22 @@
+{
+  "caught": 16,
+  "checks": {
+    "completed_density_mutation_caught": true,
+    "cone_cone_transversality_mutation_caught": true,
+    "cone_worldline_tangency_mutation_caught": true,
+    "fitted_coefficient_mutation_caught": true,
+    "frequency_ratio_mutation_caught": true,
+    "global_branch_selection_caught": true,
+    "history_selection_mutation_caught": true,
+    "independent_route_contamination_caught": true,
+    "inverse_return_identification_caught": true,
+    "outcome_access_mutation_caught": true,
+    "pair_determinant_mutation_caught": true,
+    "preferred_local_branch_mutation_caught": true,
+    "scalar_selects_winding_mutation_caught": true,
+    "separate_null_sheet_mutation_caught": true,
+    "source_law_mutation_caught": true,
+    "universal_null_protocol_mutation_caught": true
+  },
+  "status": "PASS"
+}

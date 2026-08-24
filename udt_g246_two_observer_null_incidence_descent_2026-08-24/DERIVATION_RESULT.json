@@ -1,0 +1,108 @@
+{
+  "audit": "G246_TWO_OBSERVER_NULL_INCIDENCE_DESCENT",
+  "classification": "METRIC_AND_TWO_OBSERVER_GERMS_OWN_LOCAL_REGULAR_NULL_INCIDENCE_BRANCHES__EACH_BRANCH_OWNS_G222_COMPLETED_PAIR_RIBBON__MATHEMATICAL_REVERSAL_DIFFERS_FROM_PHYSICAL_FUTURE_RETURN__GLOBAL_BRANCH_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "cone_cone_intersection": {
+    "direct_null_pair_transverse": false,
+    "reason": "future cone of A and past cone of B share the connecting generator"
+  },
+  "cylinder_multiple_branch_control": {
+    "all_clock_slopes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "all_scalar_depths": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "branch_count_in_registered_window": 7,
+    "circumference": 7,
+    "distinct_route_delays": 7,
+    "future_delays": [
+      19,
+      12,
+      5,
+      2,
+      9,
+      16,
+      23
+    ],
+    "preferred_branch_selected": false,
+    "separation": 2,
+    "windings": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "finite_census": {
+    "assertions": 18432,
+    "cases": 1024
+  },
+  "fitted_coefficients": 0,
+  "global_branch_policy": "OPEN_RETURN_ALL_BRANCHES",
+  "local_theorem": {
+    "all_regular_local_branches_returned": true,
+    "cone_worldline_transverse": true,
+    "incidence_seed_role": "base element of the relation germ; not extra geometry or source law",
+    "incidence_set": "I_AB^+={(a,b): sigma(z_A(a),z_B(b))=0 and B is future of A}",
+    "preferred_branch_selected": false,
+    "separate_null_sheet_required": false
+  },
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "pair_ribbon": {
+    "completed_density": "m=a",
+    "density": "a=-g(J,K)>0 and K(a)=0",
+    "determinant": "-a^2",
+    "field": "F(a,lambda)=Exp_{z_A(a)}(lambda Log_{z_A(a)} z_B(f_AB(a)))",
+    "pullback": "[[g(J,J),-a],[-a,0]]",
+    "terminal_depth": "Phi_AB=-log r_AB"
+  },
+  "physical_history": "QUERY_SUPPLIED_NOT_SELECTED",
+  "preregistration_commit": "38e07935",
+  "question_type": "METRIC_LED_NULL_QUERY_CONDITIONAL",
+  "reversal": {
+    "generic_inverse_equals_return": false,
+    "mathematical_inverse_depth": "-delta_AB",
+    "mathematical_inverse_slope": "1/r_AB",
+    "physical_future_return": "separate I_BA^+ relation from B's future cone"
+  },
+  "source_or_detector_law_used": false,
+  "symbolic": {
+    "boost_identity_residual": "0",
+    "completed_vertical_coframe_determinant": "-1",
+    "cone_cone_wedge_on_shared_generator": "0",
+    "cone_worldline_derivative": "(-e**2*(length + y) - length + y)/(2*e)",
+    "frequency_A": "e**2*length/2 + e**2*y/2 + length/2 - y/2",
+    "frequency_B": "(e**2*(length + y) + length - y)/(2*e)",
+    "frequency_ratio": "e",
+    "implicit_clock_slope": "e",
+    "inverse_equals_return_residual": "e - 1/e",
+    "inverse_slope": "1/e",
+    "null_incidence_residual": "0",
+    "physical_future_return_slope": "e",
+    "ribbon_determinant": "-(e**2*length + e**2*y + length - y)**2/4",
+    "ribbon_h00": "-e**2*lambda + lambda - 1",
+    "ribbon_h01": "-e**2*length/2 - e**2*y/2 - length/2 + y/2",
+    "ribbon_h11": "0",
+    "source_incidence_derivative": "e**2*(length + y)/2 + length/2 - y/2",
+    "target_J_minus_rUB": [
+      "0",
+      "0"
+    ]
+  },
+  "universal_query_type_selected": false
+}

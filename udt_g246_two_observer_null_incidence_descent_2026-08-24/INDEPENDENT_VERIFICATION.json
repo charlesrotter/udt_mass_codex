@@ -1,0 +1,37 @@
+{
+  "audit": "G246_INDEPENDENT_FRACTION_RECONSTRUCTION",
+  "classification": "METRIC_AND_TWO_OBSERVER_GERMS_OWN_LOCAL_REGULAR_NULL_INCIDENCE_BRANCHES__EACH_BRANCH_OWNS_G222_COMPLETED_PAIR_RIBBON__MATHEMATICAL_REVERSAL_DIFFERS_FROM_PHYSICAL_FUTURE_RETURN__GLOBAL_BRANCH_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "cone_cone_direct_transverse": false,
+  "cylinder_control": {
+    "all_depths_zero": true,
+    "all_slopes_one": true,
+    "branch_count": 11,
+    "distinct_delays": 11,
+    "preferred_branch_selected": false
+  },
+  "finite_census": {
+    "assertions": 90000,
+    "cases": 5000
+  },
+  "fitted_coefficients": 0,
+  "imports_production_code": false,
+  "local_incidence": {
+    "all_regular_branches_returned": true,
+    "clock_slope_positive": true,
+    "cone_worldline_transverse": true,
+    "separate_null_sheet_required": false
+  },
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "pair_ribbon": {
+    "completed_vertical_determinant": "-1",
+    "determinant": "-a^2",
+    "target_clock_slope": "r_AB"
+  },
+  "physical_history": "QUERY_SUPPLIED_NOT_SELECTED",
+  "reads_production_output": false,
+  "reversal": {
+    "inverse_slope": "1/r_AB",
+    "physical_return_generically_distinct": true
+  },
+  "universal_query_type_selected": false
+}
