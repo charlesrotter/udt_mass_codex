@@ -46,3 +46,27 @@ residual <= 1e-12 * max(1, abs(dense_J_min), abs(dense_J_max)).
 
 The independent high-precision residual remains required below `1e-50`. No formula, candidate,
 classification, or landing may change.
+
+## R4 — sealed replay layout and command-scope repair
+
+The fresh external review retained the bounded scientific landing but found that the sealed intake
+was not directly self-replaying. The production and independent scripts resolve the frozen G237
+state as a sibling of the G241 package, while the intake builder placed manifested sources below a
+separate `sources/` prefix. The reviewer could replay only after relocating the sealed sources in a
+scope-authorized scratch copy. The command sheet also advertised the repository-wide premise
+verifier and test suite even though neither was included in the sealed intake.
+
+The only authorized R4 changes are mechanical:
+
+1. build the sealed intake with every manifested source at its original repository-relative path,
+   so the copied G241 scripts replay directly without moving files;
+2. make the sealed command sheet distinguish commands runnable inside the intake from repository-
+   only integration checks, and do not advertise absent repository checks as sealed replay steps;
+3. add bounded guards proving the repaired intake contains the expected sibling source, contains no
+   duplicate `sources/` tree, and directly passes the registered no-write production, independent,
+   package, and catch-proof replays in an ephemeral copy.
+
+R4 may not change a scientific formula, source hash, covariance entry, candidate degree, threshold,
+fit, derivative classification, tidal value, premise status, outcome boundary, or the landing
+`NO_REGISTERED_SMOOTH_ANCHOR_ADEQUATE__STOP_BEFORE_BOSS`. A changed scientific artifact or landing
+fails the repair.
