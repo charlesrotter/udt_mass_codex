@@ -67,4 +67,6 @@ This result does not select a physical history, numerical scale, observational a
 observer population, detector/transfer/luminosity law, branch aggregation, caustic completion,
 `X_max`, action, source, matter, bootstrap, mass, or signalling.
 
-Status before external review: `DERIVED_CONDITIONAL__INDEPENDENTLY_VERIFIED_WITH_CAVEATS`.
+External review retained the scientific landing but required claim-directed certification repairs.
+Interim status:
+`DERIVED_CONDITIONAL__SCIENTIFIC_LANDING_EXTERNALLY_ACCEPTED__CERTIFICATION_REPAIRS_REQUIRED`.
