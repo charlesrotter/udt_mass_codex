@@ -24,6 +24,9 @@ LANDING = (
     "__NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OR_OUTCOME_SELECTED"
 )
 
+G250_CANDIDATES = "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/CANDIDATE_CLASSIFICATION.tsv"
+G250_EXACT = "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/EXACT_DERIVATION.md"
+
 DIRECT = {
     "matched_proper_time_interval": ("G216", "proper clock interval"),
     "matched_length_or_Jacobi_amplitude": ("G244", "labelled regular Jacobi branch point"),
@@ -38,6 +41,84 @@ COMPOSITES = {
     "G_obs_M_over_c_E_squared",
     "c_E_over_sqrt_G_obs_rho",
     "c_E_squared_over_sqrt_G_obs_epsilon",
+}
+
+EVALUATOR_EVIDENCE = {
+    "phi_redshift_clock_ratio": (
+        G250_EXACT, "reciprocal depth, redshift, and clock ratios",
+    ),
+    "causal_cones": (G250_EXACT, "causal cones;"),
+    "normalized_Jacobi_shape": (G250_EXACT, "unit-determinant Jacobi shape"),
+    "matched_proper_time_interval": (
+        "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/EXACT_DERIVATION.md",
+        "metric proper time supplies the canonical normalization",
+    ),
+    "matched_length_or_Jacobi_amplitude": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "full matrix Jacobi map produces",
+    ),
+    "matched_screen_or_orbit_area": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "It splits canonically into metric area and shape",
+    ),
+    "matched_spatial_three_volume": (
+        "udt_g210_g205_spatial_volume_robustness_2026-08-21/AUDIT_REPORT.md",
+        "unique determinant scalar",
+    ),
+    "matched_spacetime_four_volume": (
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/EXACT_DERIVATION.md",
+        "In four dimensions",
+    ),
+    "matched_nonzero_scalar_curvature_or_tide": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "reconstructs the local algebraic curvature",
+    ),
+    "matched_nonzero_quadratic_curvature": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "reconstructs the local algebraic curvature",
+    ),
+}
+
+CALIBRATION_BOUNDARY = {
+    "c_E": (G250_EXACT, "not itself that interval"),
+    "G_obs": (G250_EXACT, "has no active native placement law"),
+    "c_E_plus_G_obs": (G250_EXACT, "No monomial in \\(c_E\\) and \\(G_{\\rm obs}\\) alone"),
+    "phi_redshift_clock_ratio": (G250_EXACT, "cannot distinguish members of the\nscale orbit"),
+    "causal_cones": (G250_EXACT, "do not change along the G249 scale orbit"),
+    "normalized_Jacobi_shape": (G250_EXACT, "do not change along the G249 scale orbit"),
+    "matched_proper_time_interval": (
+        "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/EXACT_DERIVATION.md",
+        "What remains open is which observer events and pair germ are physically realized",
+    ),
+    "matched_length_or_Jacobi_amplitude": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "does not identify geometric area",
+    ),
+    "matched_screen_or_orbit_area": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "with a galaxy catalogue",
+    ),
+    "matched_spatial_three_volume": (
+        "udt_g210_g205_spatial_volume_robustness_2026-08-21/AUDIT_REPORT.md",
+        "does not\nselect a spatial-volume profile",
+    ),
+    "matched_spacetime_four_volume": (
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/EXACT_DERIVATION.md",
+        "volume form is already computed from the full metric",
+    ),
+    "matched_nonzero_scalar_curvature_or_tide": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "**Value generation:** still open",
+    ),
+    "matched_nonzero_quadratic_curvature": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "**Value generation:** still open",
+    ),
+    "G_obs_M_over_c_E_squared": (G250_EXACT, "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"),
+    "c_E_over_sqrt_G_obs_rho": (G250_EXACT, "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"),
+    "c_E_squared_over_sqrt_G_obs_epsilon": (G250_EXACT, "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"),
+    "G236_G237_relative_SNe_state": (G250_EXACT, "explicitly relative"),
+    "G99_M_B_conditional_X_eff": (G250_EXACT, "historical conditional external cross-check"),
 }
 
 
@@ -135,58 +216,67 @@ def classify(row: dict[str, str]) -> dict[str, str | bool]:
     name = row["candidate"]
     weight = row["homothety_weight"]
     nonzero_weight = weight not in {"0", "NONE"}
+    evaluator_owned = name in EVALUATOR_EVIDENCE
+    if evaluator_owned:
+        e_source, e_locator = EVALUATOR_EVIDENCE[name]
+        e_evidence = "current source owns this conditional metric evaluator"
+    else:
+        e_source, e_locator = G250_CANDIDATES, row["classification"]
+        e_evidence = "registered candidate is not a direct metric evaluator in the bounded chain"
+
+    i_source, i_locator = G250_CANDIDATES, row["attachment_guard"]
+    c_source, c_locator = CALIBRATION_BOUNDARY[name]
+    for source, locator in (
+        (e_source, e_locator), (i_source, i_locator), (c_source, c_locator),
+        (G250_CANDIDATES, name),
+    ):
+        if locator not in source_text(source):
+            raise AssertionError(f"candidate evidence locator failure: {name}: {source}: {locator}")
+
     if name in DIRECT:
         owner, object_type = DIRECT[name]
-        return {
-            "candidate": name,
-            "homothety_weight": weight,
-            "metric_evaluator_owned": True,
-            "model_object_type": object_type,
-            "physical_same_object_attachment_owned": False,
-            "independent_absolute_calibration_owned": False,
-            "nonzero_weight_class": nonzero_weight,
-            "native_attachment_owned": False,
-            "classification": "DIRECT_OBSERVATIONAL_ATTACHMENT_MUST_BE_SUPPLIED",
-            "controlling_evaluator": owner,
-        }
-    if name in COMPOSITES:
-        return {
-            "candidate": name,
-            "homothety_weight": weight,
-            "metric_evaluator_owned": False,
-            "model_object_type": "unattached dimensional composite",
-            "physical_same_object_attachment_owned": False,
-            "independent_absolute_calibration_owned": False,
-            "nonzero_weight_class": nonzero_weight,
-            "native_attachment_owned": False,
-            "classification": "MATTER_OR_INSTRUMENT_LAW_REQUIRED",
-            "controlling_evaluator": "G132_G202_G250",
-        }
-    if name == "G99_M_B_conditional_X_eff":
-        return {
-            "candidate": name,
-            "homothety_weight": weight,
-            "metric_evaluator_owned": False,
-            "model_object_type": "historical transfer-conditional scale",
-            "physical_same_object_attachment_owned": False,
-            "independent_absolute_calibration_owned": False,
-            "nonzero_weight_class": nonzero_weight,
-            "native_attachment_owned": False,
-            "classification": "HISTORICAL_CONDITIONAL_NOT_NATIVE_ATTACHMENT",
-            "controlling_evaluator": "G99_G197_G250",
-        }
-    return {
+        classification = "DIRECT_OBSERVATIONAL_ATTACHMENT_MUST_BE_SUPPLIED"
+        controller = owner
+    elif name in COMPOSITES:
+        object_type = "unattached dimensional composite"
+        classification = "MATTER_OR_INSTRUMENT_LAW_REQUIRED"
+        controller = "G132_G202_G250"
+    elif name == "G99_M_B_conditional_X_eff":
+        object_type = "historical transfer-conditional scale"
+        classification = "HISTORICAL_CONDITIONAL_NOT_NATIVE_ATTACHMENT"
+        controller = "G99_G197_G250"
+    else:
+        object_type = row["kind"]
+        classification = "INSUFFICIENT_WEIGHT_OR_NATIVE_PLACEMENT"
+        controller = "G250"
+
+    result = {
         "candidate": name,
         "homothety_weight": weight,
-        "metric_evaluator_owned": False,
-        "model_object_type": row["kind"],
-        "physical_same_object_attachment_owned": False,
-        "independent_absolute_calibration_owned": False,
-        "nonzero_weight_class": nonzero_weight,
+        "model_object_type": object_type,
+        "E": evaluator_owned,
+        "E_source": e_source,
+        "E_locator": e_locator.replace("\n", "\\n"),
+        "E_evidence": e_evidence,
+        "I": False,
+        "I_source": i_source,
+        "I_locator": i_locator,
+        "I_evidence": "G250 registers the candidate-specific same-object attachment as required, not owned",
+        "C": False,
+        "C_source": c_source,
+        "C_locator": c_locator.replace("\n", "\\n"),
+        "C_evidence": "the cited boundary leaves the independent calibrated datum or placement open",
+        "W": False,
+        "W_source": G250_CANDIDATES,
+        "W_locator": name,
+        "W_evidence": "weight class is registered, but no nonzero physical instance or value is selected",
+        "homothety_weight_nonzero": nonzero_weight,
         "native_attachment_owned": False,
-        "classification": "INSUFFICIENT_WEIGHT_OR_NATIVE_PLACEMENT",
-        "controlling_evaluator": "G250",
+        "classification": classification,
+        "controlling_evaluator": controller,
     }
+    result["native_attachment_owned"] = all(bool(result[leg]) for leg in "EICW")
+    return result
 
 
 def nth_root_exact(value: int, power: int) -> int:
@@ -261,6 +351,11 @@ def main() -> None:
         "direct_class_count_seven": sum(row["classification"] == "DIRECT_OBSERVATIONAL_ATTACHMENT_MUST_BE_SUPPLIED" for row in rows) == 7,
         "composite_class_count_three": sum(row["classification"] == "MATTER_OR_INSTRUMENT_LAW_REQUIRED" for row in rows) == 3,
         "no_native_attachment_owner": not any(row["native_attachment_owned"] for row in rows),
+        "explicit_cited_E_I_C_W": all(
+            set("EICW").issubset(row)
+            and all(row[f"{leg}_source"] and row[f"{leg}_locator"] and row[f"{leg}_evidence"] for leg in "EICW")
+            for row in rows
+        ),
     })
     if not all(checks.values()):
         raise SystemExit(f"exact/source check failure: {checks}")

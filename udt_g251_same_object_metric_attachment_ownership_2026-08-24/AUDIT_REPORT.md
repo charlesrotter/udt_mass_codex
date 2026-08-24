@@ -2,7 +2,7 @@
 
 Date: 2026-08-24
 
-Status: `EXTERNAL_REVIEW_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R2_PREREGISTERED`
+Status: `EXTERNAL_REVIEW_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R2_INTERNALLY_VERIFIED__FOLLOWUP_PENDING`
 
 ## Landing
 
@@ -35,10 +35,11 @@ instrument law to attach them to a metric object.
 
 - preregistered and pushed at `d76dfec4` before derivation;
 - exact 12-source manifest;
-- complete 18-candidate ownership ledger;
+- complete 18-candidate ownership ledger with 72 explicit cited `E/I/C/W` cells;
 - 4,096 production cases and 20,480 exact assertions;
 - independent standard-library route: 12,000 cases and 60,013 assertions;
-- 22/22 hostile mutations caught;
+- 26/26 hostile mutations caught;
+- sealed exact 233-row premise-registry replay;
 - zero observational values and zero fitted coefficients.
 
 ## Scientific ceiling
@@ -49,4 +50,5 @@ Observed values, BOSS/CMB outcomes, `X_max`, P1, transfer, and protected work re
 
 Fresh external gpt-5.4 review retained the scientific landing and requested two certification
 repairs: an explicit cited machine-readable `E/I/C/W` ledger and a sealed rerunnable premise-registry
-gate. Those repairs are frozen in `REPAIR_PREREGISTRATION.md`; no scientific change is authorized.
+gate. Both repairs now pass internally under `REPAIR_PREREGISTRATION.md`; repair-only follow-up
+review remains required before final banking.

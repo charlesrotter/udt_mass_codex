@@ -123,7 +123,8 @@ dimensional compatibility from being promoted into a native metric equation.
 
 - `c_E` converts an independently supplied clock interval into length units; it is not an interval.
 - `G_obs` has no active native metric placement law.
-- reciprocal redshift, clock ratios, causal cones, and normalized Jacobi shape have weight zero.
+- reciprocal redshift/clock ratios, causal cones, and normalized Jacobi shape are metric-owned
+  evaluators or structures, but have weight zero and therefore cannot select the homothety scale.
 - zero curvature remains zero throughout the orbit.
 - G99 `X_eff` retains P1, external-`M_B`, and imported-transfer conditions and is not a native G249
   attachment.
@@ -134,8 +135,9 @@ None can satisfy the four-leg test in the current bounded source universe.
 
 The complete 18-candidate ledger returns zero native attachment owners, seven direct classes that
 need one supplied operational attachment, and three dimensional composites that need a matter or
-instrument law. Exact rational tests verify the self-evaluation family, scale-free internal
-cross-channel invariant, and independently fixed-anchor control.
+instrument law. Every candidate carries explicit cited `E/I/C/W` fields. Exact rational tests
+verify the self-evaluation family, scale-free internal cross-channel invariant, and independently
+fixed-anchor control.
 
 ```text
 CURRENT_METRIC_CHAIN_OWNS_EVALUATORS_AND_SUPPLIED_GEOMETRIC_OBJECT_TYPES

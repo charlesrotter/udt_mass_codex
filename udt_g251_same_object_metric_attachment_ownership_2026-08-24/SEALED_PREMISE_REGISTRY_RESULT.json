@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "g249_homothety_scope": true,
+    "g249_independent_anchor_open": true,
+    "g249_present": true,
+    "g250_attachment_open": true,
+    "g250_present": true,
+    "g250_same_object_scope": true,
+    "g250_value_open": true,
+    "premise_ids_unique_nonempty": true,
+    "registry_hash_exact": true,
+    "required_columns_exact": true,
+    "row_count_233": true
+  },
+  "failed": [],
+  "mode": "sealed_exact_registry_only_not_full_startup_surface_verifier",
+  "registry": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+  "registry_sha256": "a3be738150e1135ed83b649b73b9e7012d924976c845abba8b5081bd0b904b86",
+  "row_count": 233,
+  "status": "PASS"
+}

@@ -27,7 +27,7 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    intake = Path(tempfile.mkdtemp(prefix="udt_g251_review_", dir="/tmp"))
+    intake = Path(tempfile.mkdtemp(prefix="udt_g251_repair_followup_", dir="/tmp"))
     payloads: list[str] = []
     for source in sorted(PKG.iterdir()):
         if source.is_file():
@@ -54,12 +54,13 @@ def main() -> None:
     payloads = sorted(set(payloads))
     scope = {
         "package": PKG.name,
-        "purpose": "fresh_read_only_adversarial_review",
+        "purpose": "read_only_repair_only_followup_review",
         "payload_count_excluding_scope": len(payloads),
         "payloads": [{"path": item, "sha256": sha256(intake / item)} for item in payloads],
         "restrictions": [
             "inspect_only_this_intake", "read_only_evidence",
             "registered_replays_or_bounded_checks_in_ephemeral_copy_only",
+            "verify_only_preregistered_R1_R2_and_retained_landing",
             "no_evidence_edits", "no_research_continuation",
         ],
     }

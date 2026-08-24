@@ -1,9 +1,10 @@
 {
-  "assertions": 60013,
+  "assertions": 60014,
   "candidate_count": 18,
   "cases": 12000,
   "checks": {
     "candidate_count_eighteen": true,
+    "cited_E_I_C_W_rows_rebuilt": true,
     "composite_count_three": true,
     "direct_count_seven": true,
     "g132_independence_boundary": true,
@@ -19,10 +20,14 @@
   },
   "direct_attachment_required": 7,
   "expected_landing": "CURRENT_METRIC_CHAIN_OWNS_EVALUATORS_AND_SUPPLIED_GEOMETRIC_OBJECT_TYPES__NO_REGISTERED_CLASS_OWNS_AN_INDEPENDENT_SAME_OBJECT_ABSOLUTE_DATUM__METRIC_SELF_EVALUATION_IS_CIRCULAR_AND_CANNOT_BREAK_THE_G249_HOMOTHETY__DIRECT_CLOCK_JACOBI_AREA_VOLUME_AND_CURVATURE_ANCHORS_REQUIRE_ONE_SUPPLIED_OPERATIONAL_ATTACHMENT__MASS_DENSITY_ENERGY_COMPOSITES_REQUIRE_AN_ADDITIONAL_MATTER_OR_INSTRUMENT_LAW__NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OR_OUTCOME_SELECTED",
+  "expected_ledger_sha256": "f36bcc18e304d5df5250d367a9a74e3566c972f689a5e7b1c356453a8d8262c6",
+  "explicit_cited_leg_cells": 72,
   "fitted_coefficients": 0,
   "implementation": "independent_standard_library_manifest_source_and_fraction_route_no_production_import_or_output_read",
   "matter_or_instrument_law_required": 3,
   "native_attachment_owner_count": 0,
   "observational_values_used": 0,
+  "owned_metric_evaluator_count": 10,
+  "realized_W_count": 0,
   "status": "PASS"
 }

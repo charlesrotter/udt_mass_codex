@@ -1,5 +1,5 @@
 {
-  "caught": 22,
+  "caught": 26,
   "implementation": "exact_formula_type_and_manifest_source_mutations",
   "missed": [],
   "mutations": {
@@ -12,6 +12,10 @@
     "instrument_law_silently_added_rejected": true,
     "internal_volume_called_external_anchor_rejected": true,
     "jacobi_area_called_catalog_measure_rejected": true,
+    "ledger_I_column_erasure_rejected": true,
+    "ledger_blank_citation_rejected": true,
+    "ledger_mismatched_locator_rejected": true,
+    "ledger_unknown_citation_source_rejected": true,
     "metric_proper_time_called_independent_clock_value_rejected": true,
     "metric_self_evaluation_promoted_rejected": true,
     "missing_source_rejected": true,
@@ -27,5 +31,5 @@
     "zero_curvature_called_anchor_rejected": true
   },
   "status": "PASS",
-  "total": 22
+  "total": 26
 }

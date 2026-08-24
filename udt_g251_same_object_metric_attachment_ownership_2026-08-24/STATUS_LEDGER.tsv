@@ -1,5 +1,6 @@
 object	status	owned	open
 metric_evaluator_classes	DERIVED_CONDITIONAL	proper interval Jacobi area volume curvature evaluators	supplied object and history
+weight_zero_metric_channels	DERIVED_CONDITIONAL	reciprocal redshift causal cones normalized Jacobi shape	absolute scale invisible under homothety
 metric_self_evaluation	DERIVED_CIRCULAR_CONTROL	identity for every positive homothety	independent datum absent
 internal_cross_channel_relation	DERIVED_SCALE_INVARIANT	tests dimensionless history	absolute scale
 direct_metric_attachment_classes	CONDITIONAL_CALIBRATION_ROUTES	seven nonzero-weight classes	physical same-object identity and independent value

@@ -51,6 +51,20 @@ def source_resolution_accepts(root_payload: bytes | None, sealed_payload: bytes 
     return len(existing) == 1 and hash_bytes(existing[0]) == expected
 
 
+def cited_leg_valid(row: dict[str, object], leg: str, sources: dict[str, bytes]) -> bool:
+    source = row.get(f"{leg}_source")
+    locator = row.get(f"{leg}_locator")
+    evidence = row.get(f"{leg}_evidence")
+    return (
+        leg in row
+        and isinstance(row[leg], bool)
+        and isinstance(source, str) and source in sources
+        and isinstance(locator, str) and bool(locator)
+        and locator.replace("\\n", "\n") in sources[source].decode()
+        and isinstance(evidence, str) and bool(evidence)
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path)
@@ -70,6 +84,12 @@ def main() -> None:
     g249 = sources["udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/EXACT_DERIVATION.md"].decode()
     sealed = b"G251 sealed source"
     expected = hash_bytes(sealed)
+    cited_control = {
+        "I": False,
+        "I_source": "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/CANDIDATE_CLASSIFICATION.tsv",
+        "I_locator": "same identified clock interval required",
+        "I_evidence": "required rather than owned",
+    }
 
     mutations = {
         "metric_self_evaluation_promoted_rejected": metric_one == metric_one and metric_two == metric_two and ell_one != ell_two,
@@ -97,6 +117,18 @@ def main() -> None:
         "missing_source_rejected": not source_resolution_accepts(None, None, expected),
         "ambiguous_source_rejected": not source_resolution_accepts(sealed, sealed, expected),
         "mutated_source_rejected": not source_resolution_accepts(None, b"mutated", expected),
+        "ledger_I_column_erasure_rejected": not cited_leg_valid(
+            {key: value for key, value in cited_control.items() if key != "I"}, "I", sources,
+        ),
+        "ledger_blank_citation_rejected": not cited_leg_valid(
+            {**cited_control, "I_locator": ""}, "I", sources,
+        ),
+        "ledger_unknown_citation_source_rejected": not cited_leg_valid(
+            {**cited_control, "I_source": "unregistered/source.md"}, "I", sources,
+        ),
+        "ledger_mismatched_locator_rejected": not cited_leg_valid(
+            {**cited_control, "I_locator": "claim not present in exact source"}, "I", sources,
+        ),
     }
     missed = [name for name, caught in mutations.items() if not caught]
     result = {

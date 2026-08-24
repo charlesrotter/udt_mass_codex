@@ -7,6 +7,7 @@ import argparse
 import csv
 from fractions import Fraction as Q
 import hashlib
+import io
 import json
 from pathlib import Path
 import random
@@ -22,6 +23,100 @@ EXPECTED = (
     "__MASS_DENSITY_ENERGY_COMPOSITES_REQUIRE_AN_ADDITIONAL_MATTER_OR_INSTRUMENT_LAW"
     "__NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OR_OUTCOME_SELECTED"
 )
+
+G250_CANDIDATES = "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/CANDIDATE_CLASSIFICATION.tsv"
+G250_EXACT = "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/EXACT_DERIVATION.md"
+
+DIRECT = {
+    "matched_proper_time_interval": ("G216", "proper clock interval"),
+    "matched_length_or_Jacobi_amplitude": ("G244", "labelled regular Jacobi branch point"),
+    "matched_screen_or_orbit_area": ("G132_G244", "identified screen or spherical orbit"),
+    "matched_spatial_three_volume": ("G210", "supplied hypersurface region"),
+    "matched_spacetime_four_volume": ("G132", "supplied spacetime region"),
+    "matched_nonzero_scalar_curvature_or_tide": ("G227", "supplied event or branch point"),
+    "matched_nonzero_quadratic_curvature": ("G227", "supplied event"),
+}
+
+COMPOSITES = {
+    "G_obs_M_over_c_E_squared", "c_E_over_sqrt_G_obs_rho",
+    "c_E_squared_over_sqrt_G_obs_epsilon",
+}
+
+EVALUATOR_EVIDENCE = {
+    "phi_redshift_clock_ratio": (G250_EXACT, "reciprocal depth, redshift, and clock ratios"),
+    "causal_cones": (G250_EXACT, "causal cones;"),
+    "normalized_Jacobi_shape": (G250_EXACT, "unit-determinant Jacobi shape"),
+    "matched_proper_time_interval": (
+        "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/EXACT_DERIVATION.md",
+        "metric proper time supplies the canonical normalization",
+    ),
+    "matched_length_or_Jacobi_amplitude": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "full matrix Jacobi map produces",
+    ),
+    "matched_screen_or_orbit_area": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "It splits canonically into metric area and shape",
+    ),
+    "matched_spatial_three_volume": (
+        "udt_g210_g205_spatial_volume_robustness_2026-08-21/AUDIT_REPORT.md",
+        "unique determinant scalar",
+    ),
+    "matched_spacetime_four_volume": (
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/EXACT_DERIVATION.md",
+        "In four dimensions",
+    ),
+    "matched_nonzero_scalar_curvature_or_tide": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "reconstructs the local algebraic curvature",
+    ),
+    "matched_nonzero_quadratic_curvature": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "reconstructs the local algebraic curvature",
+    ),
+}
+
+BOUNDARIES = {
+    "c_E": (G250_EXACT, "not itself that interval"),
+    "G_obs": (G250_EXACT, "has no active native placement law"),
+    "c_E_plus_G_obs": (G250_EXACT, "No monomial in \\(c_E\\) and \\(G_{\\rm obs}\\) alone"),
+    "phi_redshift_clock_ratio": (G250_EXACT, "cannot distinguish members of the\nscale orbit"),
+    "causal_cones": (G250_EXACT, "do not change along the G249 scale orbit"),
+    "normalized_Jacobi_shape": (G250_EXACT, "do not change along the G249 scale orbit"),
+    "matched_proper_time_interval": (
+        "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/EXACT_DERIVATION.md",
+        "What remains open is which observer events and pair germ are physically realized",
+    ),
+    "matched_length_or_Jacobi_amplitude": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "does not identify geometric area",
+    ),
+    "matched_screen_or_orbit_area": (
+        "udt_g244_metric_native_observer_sky_response_query_2026-08-24/AUDIT_REPORT.md",
+        "with a galaxy catalogue",
+    ),
+    "matched_spatial_three_volume": (
+        "udt_g210_g205_spatial_volume_robustness_2026-08-21/AUDIT_REPORT.md",
+        "does not\nselect a spatial-volume profile",
+    ),
+    "matched_spacetime_four_volume": (
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/EXACT_DERIVATION.md",
+        "volume form is already computed from the full metric",
+    ),
+    "matched_nonzero_scalar_curvature_or_tide": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "**Value generation:** still open",
+    ),
+    "matched_nonzero_quadratic_curvature": (
+        "udt_g227_same_event_curvature_tomography_2026-08-22/AUDIT_REPORT.md",
+        "**Value generation:** still open",
+    ),
+    "G_obs_M_over_c_E_squared": (G250_EXACT, "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"),
+    "c_E_over_sqrt_G_obs_rho": (G250_EXACT, "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"),
+    "c_E_squared_over_sqrt_G_obs_epsilon": (G250_EXACT, "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"),
+    "G236_G237_relative_SNe_state": (G250_EXACT, "explicitly relative"),
+    "G99_M_B_conditional_X_eff": (G250_EXACT, "historical conditional external cross-check"),
+}
 
 
 def digest(path: Path) -> str:
@@ -54,6 +149,73 @@ def sources() -> dict[str, Path]:
     return resolved
 
 
+def rebuild_ledger(candidates: list[dict[str, str]], resolved: dict[str, Path]) -> bytes:
+    texts = {name: path.read_text(encoding="utf-8") for name, path in resolved.items()}
+    rows = []
+    for candidate in candidates:
+        name = candidate["candidate"]
+        weight = candidate["homothety_weight"]
+        evaluator_owned = name in EVALUATOR_EVIDENCE
+        if evaluator_owned:
+            e_source, e_locator = EVALUATOR_EVIDENCE[name]
+            e_evidence = "current source owns this conditional metric evaluator"
+        else:
+            e_source, e_locator = G250_CANDIDATES, candidate["classification"]
+            e_evidence = "registered candidate is not a direct metric evaluator in the bounded chain"
+        i_source, i_locator = G250_CANDIDATES, candidate["attachment_guard"]
+        c_source, c_locator = BOUNDARIES[name]
+        for source, locator in (
+            (e_source, e_locator), (i_source, i_locator), (c_source, c_locator),
+            (G250_CANDIDATES, name),
+        ):
+            if locator not in texts[source]:
+                raise AssertionError(f"independent citation failure: {name}: {source}: {locator}")
+
+        if name in DIRECT:
+            controller, object_type = DIRECT[name]
+            classification = "DIRECT_OBSERVATIONAL_ATTACHMENT_MUST_BE_SUPPLIED"
+        elif name in COMPOSITES:
+            controller, object_type = "G132_G202_G250", "unattached dimensional composite"
+            classification = "MATTER_OR_INSTRUMENT_LAW_REQUIRED"
+        elif name == "G99_M_B_conditional_X_eff":
+            controller, object_type = "G99_G197_G250", "historical transfer-conditional scale"
+            classification = "HISTORICAL_CONDITIONAL_NOT_NATIVE_ATTACHMENT"
+        else:
+            controller, object_type = "G250", candidate["kind"]
+            classification = "INSUFFICIENT_WEIGHT_OR_NATIVE_PLACEMENT"
+
+        rows.append({
+            "candidate": name,
+            "homothety_weight": weight,
+            "model_object_type": object_type,
+            "E": evaluator_owned,
+            "E_source": e_source,
+            "E_locator": e_locator.replace("\n", "\\n"),
+            "E_evidence": e_evidence,
+            "I": False,
+            "I_source": i_source,
+            "I_locator": i_locator,
+            "I_evidence": "G250 registers the candidate-specific same-object attachment as required, not owned",
+            "C": False,
+            "C_source": c_source,
+            "C_locator": c_locator.replace("\n", "\\n"),
+            "C_evidence": "the cited boundary leaves the independent calibrated datum or placement open",
+            "W": False,
+            "W_source": G250_CANDIDATES,
+            "W_locator": name,
+            "W_evidence": "weight class is registered, but no nonzero physical instance or value is selected",
+            "homothety_weight_nonzero": weight not in {"0", "NONE"},
+            "native_attachment_owned": False,
+            "classification": classification,
+            "controlling_evaluator": controller,
+        })
+    stream = io.StringIO(newline="")
+    writer = csv.DictWriter(stream, fieldnames=list(rows[0]), delimiter="\t", lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(rows)
+    return stream.getvalue().encode()
+
+
 def root_exact(number: int, power: int) -> int:
     candidate = 0
     while candidate**power < number:
@@ -80,6 +242,7 @@ def main() -> None:
     candidate_path = resolved["udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/CANDIDATE_CLASSIFICATION.tsv"]
     with candidate_path.open(newline="", encoding="utf-8") as stream:
         candidates = list(csv.DictReader(stream, delimiter="\t"))
+    expected_ledger = rebuild_ledger(candidates, resolved)
     direct = [row for row in candidates if row["classification"] == "CONDITIONALLY_SUFFICIENT_DIRECT"]
     composites = [row for row in candidates if row["classification"] == "DIMENSIONALLY_ELIGIBLE_NEEDS_ATTACHMENT"]
 
@@ -120,6 +283,7 @@ def main() -> None:
         "composite_count_three": len(composites) == 3,
         "no_source_claims_independent_direct_value": all(source_checks.values()),
         "self_evaluation_family_nondiscriminating": assertions == 5 * args.cases,
+        "cited_E_I_C_W_rows_rebuilt": expected_ledger.count(b"\n") == 19,
     }
     checks.update(source_checks)
     if not all(checks.values()):
@@ -135,6 +299,10 @@ def main() -> None:
         "direct_attachment_required": len(direct),
         "matter_or_instrument_law_required": len(composites),
         "native_attachment_owner_count": 0,
+        "expected_ledger_sha256": hashlib.sha256(expected_ledger).hexdigest(),
+        "explicit_cited_leg_cells": len(candidates) * 4,
+        "owned_metric_evaluator_count": len(EVALUATOR_EVIDENCE),
+        "realized_W_count": 0,
         "observational_values_used": 0,
         "fitted_coefficients": 0,
     }

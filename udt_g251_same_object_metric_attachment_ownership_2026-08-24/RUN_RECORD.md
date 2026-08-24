@@ -14,3 +14,11 @@ The first production attempt stopped because one line-wrapped G250 source phrase
 literally. The first hostile run likewise exposed one overly literal G244 source phrase. Only those
 source-token checks were repaired; the preregistered question, candidate census, formulas, and
 landing were unchanged. Final production, independent, and hostile routes all pass.
+
+Fresh external gpt-5.4 review returned `ACCEPT_WITH_REPAIRS`. Repair preregistration was committed
+and pushed at `bd8f0a2b` before implementation. R1 adds explicit cited `E/I/C/W` fields to all 18
+candidate rows and four hostile citation catches. R2 adds the self-contained sealed 233-row premise
+registry replay while retaining the separate repository-wide startup/premise gate. During R1 the
+first repaired production replay failed closed on two line-wrapped G250 citation locators; only
+their literal locators were corrected. The landing, formulas, source universe, and classifications
+were unchanged.
