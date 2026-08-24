@@ -196,7 +196,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G250",
+            "G166--G251",
             "G197",
             "G215",
             "G216",
@@ -234,6 +234,7 @@ def validate_startup_surface(root: Path) -> None:
             "G248",
             "G249",
             "G250",
+            "G251",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -276,7 +277,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "233-row exact registry",
+            "234-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -354,6 +355,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g248_metric_regular_branch_measure_ownership_2026-08-24/",
             "udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/",
             "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/",
+            "udt_g251_same_object_metric_attachment_ownership_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -367,7 +369,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G250",
+            "G166--G251",
             "G197",
             "G198",
             "G199",
@@ -423,6 +425,7 @@ def validate_startup_surface(root: Path) -> None:
             "G248",
             "G249",
             "G250",
+            "G251",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -491,6 +494,7 @@ def validate_startup_surface(root: Path) -> None:
             "G248",
             "G249",
             "G250",
+            "G251",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -554,10 +558,11 @@ def validate_startup_surface(root: Path) -> None:
             "G248",
             "G249",
             "G250",
+            "G251",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "233-row",
+            "234-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -900,9 +905,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 233, "premise registry must contain exactly 233 rows")
+    require(len(rows) == 234, "premise registry must contain exactly 234 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 233, "duplicate premise id")
+    require(len(by_id) == 234, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5973,6 +5978,180 @@ def main() -> None:
     )
     require(json.loads(g250_replay.stdout)["status"] == "PASS", "G250 live no-write replay failed")
     require(
+        by_id["G251"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_D76DFEC4"
+        ),
+        "G251 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_SCIENTIFIC_LANDING_RETAINED_CERTIFICATION_REPAIRS_REQUIRED",
+        "REPAIRS_PREREGISTERED_AT_BD8F0A2B",
+        "REPAIRS_IMPLEMENTED_AT_CD933E39",
+        "REPAIR_FOLLOWUP_GPT54_R1_R2_ACCEPTED_NO_REMAINING_DEFECT",
+        "CURRENT_METRIC_CHAIN_OWNS_EVALUATORS_AND_SUPPLIED_GEOMETRIC_OBJECT_TYPES",
+        "NO_REGISTERED_CLASS_OWNS_AN_INDEPENDENT_SAME_OBJECT_ABSOLUTE_DATUM",
+        "METRIC_SELF_EVALUATION_IS_CIRCULAR_AND_CANNOT_BREAK_G249_HOMOTHETY",
+        "DIRECT_CLOCK_JACOBI_AREA_VOLUME_CURVATURE_ANCHORS_REQUIRE_SUPPLIED_OPERATIONAL_ATTACHMENT",
+        "MASS_DENSITY_ENERGY_COMPOSITES_REQUIRE_ADDITIONAL_MATTER_OR_INSTRUMENT_LAW",
+        "PRODUCTION_4096_CASES_20480_ASSERTIONS",
+        "INDEPENDENT_12000_CASES_60014_ASSERTIONS_72_CITED_LEGS",
+        "EXACT_26_HOSTILE_CATCHES",
+        "SEALED_233_ROW_REGISTRY_REPLAY",
+        "ZERO_FITTED_COEFFICIENTS_ZERO_OBSERVATIONAL_VALUES",
+        "NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OUTCOME_SELECTED",
+    ):
+        require(guard in by_id["G251"]["current_status"], f"G251 guard absent: {guard}")
+    require(by_id["G251"]["epistemic_label"] == "MIXED", "G251 label changed")
+    require(
+        by_id["G251"]["active_use"]
+        == "ACTIVE_BOUNDED_18_CANDIDATE_SAME_OBJECT_EVALUATOR_ATTACHMENT_INDEPENDENT_CALIBRATION_AND_NONZERO_HOMOTHETY_WEIGHT_OWNERSHIP_CLASSIFICATION_ON_G249_ORBIT_ONLY",
+        "G251 active scope widened",
+    )
+    for guard in (
+        "evaluator ownership called realized physical attachment",
+        "metric self-evaluation or internal cross-channel ratio called independent anchor",
+        "candidate eligibility called native datum ownership",
+        "supplied query object called physical object selection",
+        "dimensional composite called matter or instrument placement law",
+        "absence in 12-source universe called global no-go",
+    ):
+        require(guard in by_id["G251"]["forbidden_regression"], f"G251 regression guard absent: {guard}")
+    require(
+        by_id["G251"]["controlling_source"]
+        == "udt_g251_same_object_metric_attachment_ownership_2026-08-24/AUDIT_REPORT.md",
+        "G251 controlling source changed",
+    )
+    g251 = ROOT / "udt_g251_same_object_metric_attachment_ownership_2026-08-24"
+    for name in (
+        "ATTACHMENT_OWNERSHIP.tsv",
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_FOLLOWUP_REVIEW_RAW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_IMPLEMENTATION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REVIEW_REQUEST.md",
+        "REVIEW_TRANSMISSION_RECORD.md",
+        "RUN_RECORD.md",
+        "SEALED_PREMISE_REGISTRY_RESULT.json",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_attachment_ownership.py",
+        "run_catch_proofs.py",
+        "verify_attachment_ownership_independent.py",
+        "verify_package.py",
+        "verify_sealed_premise_registry.py",
+    ):
+        require((g251 / name).is_file(), f"G251 evidence missing: {name}")
+    expected_g251 = (
+        "CURRENT_METRIC_CHAIN_OWNS_EVALUATORS_AND_SUPPLIED_GEOMETRIC_OBJECT_TYPES"
+        "__NO_REGISTERED_CLASS_OWNS_AN_INDEPENDENT_SAME_OBJECT_ABSOLUTE_DATUM"
+        "__METRIC_SELF_EVALUATION_IS_CIRCULAR_AND_CANNOT_BREAK_THE_G249_HOMOTHETY"
+        "__DIRECT_CLOCK_JACOBI_AREA_VOLUME_AND_CURVATURE_ANCHORS_REQUIRE_ONE_SUPPLIED_OPERATIONAL_ATTACHMENT"
+        "__MASS_DENSITY_ENERGY_COMPOSITES_REQUIRE_AN_ADDITIONAL_MATTER_OR_INSTRUMENT_LAW"
+        "__NO_ANCHOR_VALUE_HISTORY_BRANCH_POPULATION_FIT_OR_OUTCOME_SELECTED"
+    )
+    g251_result = json.loads((g251 / "DERIVATION_RESULT.json").read_text())
+    g251_independent = json.loads((g251 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g251_catches = json.loads((g251 / "CATCH_PROOF_RESULT.json").read_text())
+    g251_premises = json.loads((g251 / "SEALED_PREMISE_REGISTRY_RESULT.json").read_text())
+    g251_verification = json.loads((g251 / "VERIFICATION_RESULT.json").read_text())
+    g251_ledger = read_tsv(g251 / "ATTACHMENT_OWNERSHIP.tsv")
+    require(g251_result["landing"] == expected_g251, "G251 production landing changed")
+    require(g251_independent["expected_landing"] == expected_g251, "G251 independent landing changed")
+    require(
+        g251_result["sampled"]["cases"] == 4096
+        and g251_result["sampled"]["assertions"] == 20480
+        and all(g251_result["checks"].values()),
+        "G251 production census or exact checks changed",
+    )
+    require(
+        g251_independent["cases"] == 12000
+        and g251_independent["assertions"] == 60014
+        and g251_independent["explicit_cited_leg_cells"] == 72
+        and g251_independent["implementation"]
+        == "independent_standard_library_manifest_source_and_fraction_route_no_production_import_or_output_read"
+        and all(g251_independent["checks"].values()),
+        "G251 independent route or citation certification changed",
+    )
+    require(
+        len(g251_ledger) == g251_result["candidate_count"] == g251_independent["candidate_count"] == 18
+        and g251_result["direct_attachment_required"] == g251_independent["direct_attachment_required"] == 7
+        and g251_result["matter_or_instrument_law_required"]
+        == g251_independent["matter_or_instrument_law_required"]
+        == 3
+        and g251_independent["owned_metric_evaluator_count"] == 10
+        and g251_independent["native_attachment_owner_count"] == 0
+        and g251_independent["realized_W_count"] == 0,
+        "G251 ownership census changed",
+    )
+    require(
+        g251_result["fitted_coefficients"]
+        == g251_independent["fitted_coefficients"]
+        == g251_result["observational_values_used"]
+        == g251_independent["observational_values_used"]
+        == 0,
+        "G251 fit or outcome boundary changed",
+    )
+    require(
+        g251_catches["status"] == "PASS"
+        and g251_catches["caught"] == g251_catches["total"] == 26
+        and not g251_catches["missed"]
+        and all(g251_catches["mutations"].values()),
+        "G251 hostile ledger changed",
+    )
+    require(
+        g251_premises["status"] == "PASS"
+        and g251_premises["row_count"] == 233
+        and not g251_premises["failed"]
+        and all(g251_premises["checks"].values()),
+        "G251 sealed premise gate changed",
+    )
+    require(
+        g251_verification["status"] == "PASS"
+        and not g251_verification["failed"]
+        and all(g251_verification["checks"].values()),
+        "G251 package verification changed",
+    )
+    require(
+        (g251 / "EXTERNAL_FOLLOWUP_REVIEW_RAW.md").read_text().startswith("REPAIRS_ACCEPTED"),
+        "G251 external repair acceptance absent",
+    )
+    require(
+        "No attachment, anchor value, history, branch population, fit, or observational outcome was selected."
+        in (g251 / "BANKING_INTEGRATION_NOTE.md").read_text(),
+        "G251 banking scope guard absent",
+    )
+    require(
+        "PASS: 156 passed, 1 expected xfail."
+        in (g251 / "BANKING_REPLAY_RECORD.md").read_text(),
+        "G251 final banking replay absent",
+    )
+    require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
+    g251_replay = subprocess.run(
+        [sys.executable, str(g251 / "verify_package.py")],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(json.loads(g251_replay.stdout)["status"] == "PASS", "G251 live no-write replay failed")
+    require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
         "G195 external R1 acceptance absent",
@@ -10195,7 +10374,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250-extended startup and premise guards; PASS: 233-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251-extended startup and premise guards; PASS: 234-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

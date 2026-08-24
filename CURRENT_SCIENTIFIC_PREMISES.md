@@ -10,8 +10,8 @@
 | Pointwise `phi` | `CONDITIONAL` | Factorization | Ownership |
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
-| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock/state network | G215--G250 | State; sky/cone/network; coarea; scale and anchor-type boundary | History; anchor/source values; probability/aggregation |
+| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
+| Pair-clock/state network | G215--G251 | State; sky/cone/network; coarea; scale/anchor/attachment | History; values; aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -23,30 +23,31 @@
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
 | G129--G165 reconstruction/controls | accepted with caveats | Pullbacks recover `g`; scalar ceilings; no `X_max` input |
 | G166--G175 supplied-pair chain | accepted with caveats | Pullback/reversal/calibration; germ/profile supplied |
-| G176--G180 completed pair | conditional; accepted | Working premise selects ruler; no history selection |
+| G176--G180 completed pair | conditional; accepted | Working premise selects ruler; no history |
 | G181--G184 strata/equivalence | conditional; accepted | Equal summaries do not identify realizations |
 | G185--G189 application boundary | accepted with caveats | Screen/flux controls; transfer/P1 imported or historical |
 | G190--G198 time-live families | accepted with caveats | Chosen families only |
-| G199/G200/G201 direction/jet audits | verified w/caveats | No chiral split; angular response uses radial jets |
-| G202/G203/G204/G205 quiet/regularity/completion | verified w/caveats | Alternatives survive; supplied family is complete |
-| G206/G207/G208/G209/G210 channel extensions | external w/caveats | Scale, screen, mixing, shift, volume differ |
+| G199/G200/G201 direction/jets | verified w/caveats | No chirality; angular response uses radial jets |
+| G202/G203/G204/G205 quiet/completion | verified w/caveats | Alternatives survive; supplied family is complete |
+| G206/G207/G208/G209/G210 channels | external w/caveats | Scale, screen, mixing, shift, volume differ |
 | G211/G212 basis/history bridge | verified w/caveats | Rank two; valued network is state, flow open |
 | G213--G214 rank/descent | accepted | Five modes; tuples retain rank ten |
-| G215/G216/G217 clock chain | external w/caveats | Scalar, rate, positive first jet; germ open |
-| G218/G219 correspondence | `PONDER`; verified | Incidence/depth/jet join; null/Fermi/radar remain unselected |
+| G215/G216/G217 clock chain | external w/caveats | Scalar, rate, first jet; germ open |
+| G218/G219 correspondence | verified | Incidence/depth/jet join; relation type unselected |
 | G220/G221 null chord | external after repairs | Complete-coframe slope; second tangent/phase open |
 | G222/G223/G224 plane/carry | external after repairs | Normal screen, inverse clock, shared-event scalar; global gluing open |
 | G225/G226 screen/phase | external after repairs | Least-turning map, holonomy, caustic-safe phase; transport/population open |
 | G227/G228 curvature data | exact | Ranks 19/20 and Bianchi 60; no values/history |
-| G229/G230 metric jets | exact; independent | Compatible 3/4-jets; no regional field/history |
-| G231 Cartan bridge | exact; conditional existence | Regional integration architecture; law/values open |
-| G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; literal matched-network existence is nonselective |
-| G236/G237 SNe state | external after repair | Processed relative shape and `K=12` covariance; no law |
+| G229/G230 metric jets | exact | Compatible 3/4-jets; no field/history |
+| G231 Cartan bridge | conditional | Regional integration; law/values open |
+| G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; matched network is nonselective |
+| G236/G237 SNe state | external | Relative shape and `K=12` covariance; no law |
 | G238/G239/G240 held-out query | external after repair | Typing, conditional operator, all-image census; inputs/outcomes open |
 | G241/G242/G243 radial controls | external | Compact carriers and exact zero tide rejected; local turning/no-freeze retained |
-| G244--G248 sky through measure | external | `H,A,C`; cone; branches; quiver; regular `r/A`; probability/population/history open |
+| G244--G248 sky/measure | external | `H,A,C`; cone; branches; quiver; `r/A`; population/history open |
 | G249 scale boundary | external after repairs | Full dimensionless history/branch fixes normalized response; one dimensional anchor remains |
 | G250 anchor types | external after repairs | One matched metric anchor fixes scale conditionally; more test history; none selected |
+| G251 attachment ownership | external after repairs | No independent same-object datum owner in 12 sources; attachment open |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -77,9 +78,10 @@ None selects completion/`X_max`.
   route-labelled quiver and matched-chain category. G248 derives branchwise regular coarea
   `dmu=(r/A)dtau_source`, not probability or finite-fiber aggregation.
   G249 proves homothety preserves dimensionless history/shape while area scales as `ell^2`; `c_E`
-  plus redshift do not fix `ell`. History, values, population, source/detector semantics, caustics,
-  and completion stay open. G250 types metric anchors; further anchors test consistency, while
-  dimensionless anchors and unattached composites do not close scale.
+  plus redshift do not fix `ell`. History, population, source/detector, caustics, and completion stay
+  open. G250 types anchors; dimensionless anchors and unattached composites do not close scale.
+  G251 finds no native independent same-object datum owner; direct routes need operational
+  attachment and dimensional composites need a matter/instrument law.
 
 ## Carrier, action, source, and matter
 
@@ -98,7 +100,7 @@ None selects completion/`X_max`.
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
 transfer and freeze state, not law. G242/G243 use temporary transfer for bounded controls.
-G244--G250 use no outcome; BOSS stays closed; history, source, and transfer remain open.
+G244--G251 use no outcome; BOSS stays closed; history, source, and transfer remain open.
 
 ## Recurring prohibited promotions
 
@@ -112,7 +114,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 233-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 234-row authority; conflicts stop.
 
 Run:
 

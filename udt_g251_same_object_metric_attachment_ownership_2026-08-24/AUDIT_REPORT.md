@@ -51,5 +51,5 @@ Observed values, BOSS/CMB outcomes, `X_max`, P1, transfer, and protected work re
 Fresh external gpt-5.4 review retained the scientific landing and requested two certification
 repairs: an explicit cited machine-readable `E/I/C/W` ledger and a sealed rerunnable premise-registry
 gate. Both were preregistered, implemented, and accepted by a fresh repair-only gpt-5.4 follow-up.
-The reviewer found no remaining defect within scope. Final startup/registry integration remains a
-separate preregistered banking step.
+The reviewer found no remaining defect within scope. Startup/registry integration was separately
+preregistered and completed without changing the landing.

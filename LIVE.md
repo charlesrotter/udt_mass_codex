@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G250. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G251. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -68,6 +68,13 @@ length/Jacobi, area, volume, and nonzero curvature. `c_E`, `G_obs`, redshift, an
 are insufficient; composites need metric attachment and G99 stays historical/conditional. No value,
 fit, outcome, history, or profile was selected.
 
+G251 is externally verified after R1/R2. In the exact 12-source universe, the metric chain owns ten
+evaluator/object types but none of 18 registered candidates owns an independently calibrated datum
+attached to that same object. Metric self-evaluation is circular and internal ratios cancel the
+G249 scale. Seven direct clock/Jacobi/area/volume/curvature routes become lawful only after one
+operational attachment is supplied; three mass/density/energy composites additionally require a
+matter or instrument law. No anchor, value, history, branch population, fit, or outcome was selected.
+
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, G142--G160 scaffolds, and protected payload as
@@ -77,7 +84,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 233-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 234-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -87,7 +94,7 @@ Exact premise authority: the 233-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditio
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236/G237 are transfer-conditional; G238
-rejects a no-refit BOSS map; G241--G243 bound radial controls. G244--G250 derive outcome-blind
+rejects a no-refit BOSS map; G241--G243 bound radial controls. G244--G251 derive outcome-blind
 geometry through anchor typing, but no probability, population, detector, aggregation, caustic
 completion, anchor value, or BOSS outcome. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
@@ -103,8 +110,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Next preregister an outcome-blind same-object metric-attachment audit for G250's eligible classes;
-keep G248 aggregation separate. Do not read or fit an anchor, select history or weights, cross
-`A=0`, open BOSS/CMB, select G225 transport, or import P1, `X_max`, Lambda-CDM, G116/G189, or
-protected work.
+Next `MAP -> PONDER` in lay language which one explicit empirical same-object attachment contract
+is appropriate before preregistering G252. Do not open or fit its value yet. Keep G248 aggregation
+separate; do not select history or weights, cross `A=0`, open BOSS/CMB, select G225 transport, or
+import P1, `X_max`, Lambda-CDM, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

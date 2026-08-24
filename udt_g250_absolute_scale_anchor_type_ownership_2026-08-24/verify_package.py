@@ -64,10 +64,14 @@ def source_matches(path: Path, expected: str, relative: str) -> bool:
     if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
         return False
     lines = path.read_bytes().splitlines(keepends=True)
-    g250_rows = [index for index, line in enumerate(lines) if line.startswith(b"G250\t")]
-    if len(g250_rows) != 1:
+    g250_rows = [line for line in lines if line.startswith(b"G250\t")]
+    g251_rows = [line for line in lines if line.startswith(b"G251\t")]
+    if len(g250_rows) != 1 or len(g251_rows) not in (0, 1):
         return False
-    historical = b"".join(line for index, line in enumerate(lines) if index != g250_rows[0])
+    historical = b"".join(
+        line for line in lines
+        if not line.startswith((b"G250\t", b"G251\t"))
+    )
     return hashlib.sha256(historical).hexdigest() == expected
 
 

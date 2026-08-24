@@ -30,4 +30,5 @@ preregistered leg typing explicit without changing any final candidate classific
   `verify_current_scientific_premises.py`, which also passes before banking.
 
 No observational value, fitted coefficient, new scientific source, anchor, history, branch
-population, or outcome entered either repair. Repair-only external follow-up remains pending.
+population, or outcome entered either repair. Fresh repair-only external follow-up accepted both
+repairs without changing the landing.

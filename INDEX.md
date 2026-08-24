@@ -53,15 +53,15 @@
   `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`; `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`;
   `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`; `udt_g231_cartan_regional_realization_bridge_2026-08-23/`
 - Cartan closure: `udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/`; `udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`
-- Closure ownership/discriminator: `udt_g234_post_g233_native_closure_route_map_2026-08-23/`;
-  `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`
+- Closure ownership/discriminator: `udt_g234_post_g233_native_closure_route_map_2026-08-23/`; `udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`
 - Observational state/typing: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`;
   `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`; `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Held-out operators: `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`; `udt_g240_metric_null_image_cluster_census_2026-08-23/`
 - SNe controls: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`; `udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`; `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`—history/source unselected.
 - Sky/null chain: `udt_g244_metric_native_observer_sky_response_query_2026-08-24/`; `udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`; `udt_g246_two_observer_null_incidence_descent_2026-08-24/`;
   `udt_g247_global_null_branch_network_descent_2026-08-24/`; `udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`—branchwise `r/A`; aggregation/population/history open.
-- Scale/anchor boundary: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`; `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`—one metric anchor can fix scale; none selected.
+- Scale/anchor/attachment: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`; `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`;
+  `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—an attached datum can fix scale; no native owner found.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
