@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "catch_replay_exact": true,
+    "caustic_phase_retained": true,
+    "cross_route_nonclosure": true,
+    "cross_route_rotating_D4": true,
+    "history_not_selected": true,
+    "hostile_catches": true,
+    "independent_classification": true,
+    "independent_replay_exact": true,
+    "no_fit": true,
+    "no_preferred_ray_or_source": true,
+    "outcomes_closed": true,
+    "production_classification": true,
+    "production_replay_exact": true,
+    "source_manifest": true
+  },
+  "classification": "OBSERVER_GERM_AND_METRIC_OWN_LOCAL_DIRECTION_LABELLED_NULL_CONE_FIELD__G244_AREA_SHAPE_ARE_INDUCED_CONE_GEOMETRY__SOURCE_POPULATION_GLOBAL_BRANCH_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "hostile_catches": 12,
+  "independent_assertions": 60000,
+  "independent_cases": 5000,
+  "production_assertions": 12288,
+  "production_cases": 1024,
+  "source_count": 5,
+  "status": "PASS"
+}

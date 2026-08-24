@@ -1,0 +1,105 @@
+{
+  "audit": "G245_INDEPENDENT_FRACTION_RECONSTRUCTION",
+  "classification": "OBSERVER_GERM_AND_METRIC_OWN_LOCAL_DIRECTION_LABELLED_NULL_CONE_FIELD__G244_AREA_SHAPE_ARE_INDUCED_CONE_GEOMETRY__SOURCE_POPULATION_GLOBAL_BRANCH_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "controls": {
+    "H_Hprime_nonclosure": {
+      "Hsecond_1": [
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-8"
+        ]
+      ],
+      "Hsecond_2": [
+        [
+          "-8",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "different": true,
+      "same_H": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "same_Hprime": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "rational_caustic_phase": {
+      "full_phase_invertible": true,
+      "position_det": "0",
+      "position_inverse_rejected": true,
+      "position_rank": 1,
+      "symplectic_block_identities": true
+    },
+    "rotating_tide_series": {
+      "D3": [
+        [
+          "-1/6",
+          "0"
+        ],
+        [
+          "0",
+          "-2/3"
+        ]
+      ],
+      "D4": [
+        [
+          "0",
+          "-1/4"
+        ],
+        [
+          "-1/4",
+          "0"
+        ]
+      ],
+      "D4_offdiagonal_nonzero": true,
+      "all_recurrence_residuals_zero": true,
+      "commutator": [
+        [
+          "0",
+          "-9"
+        ],
+        [
+          "9",
+          "0"
+        ]
+      ],
+      "recurrence_orders": 7
+    }
+  },
+  "finite_census": {
+    "H_orientation_sensitive_tide_cases": 4993,
+    "assertions": 60000,
+    "cases": 5000,
+    "reflection_parity_flip_cases": 2500
+  },
+  "fitted_angular_coefficients": 0,
+  "imports_production_code": false,
+  "jacobi_role": "angular differential of metric exponential map",
+  "null_normalization": "unique k=l/(-g(U,l))=U+n for every future null direction",
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "physical_history": "QUERY_SUPPLIED_NOT_SELECTED",
+  "reads_production_output": false,
+  "source_detector": "OPEN"
+}

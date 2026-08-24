@@ -1,0 +1,18 @@
+{
+  "caught": 12,
+  "checks": {
+    "H_only_autonomy_caught": true,
+    "caustic_position_inverse_caught": true,
+    "fitted_coefficient_caught": true,
+    "full_phase_loss_caught": true,
+    "history_selection_caught": true,
+    "nonunit_direction_scale_breaks_nullness": true,
+    "outcome_access_caught": true,
+    "parity_scalarization_caught": true,
+    "position_block_multiplication_caught": true,
+    "preferred_ray_mutation_caught": true,
+    "scalarized_rotating_tide_caught": true,
+    "source_requirement_mutation_caught": true
+  },
+  "status": "PASS"
+}

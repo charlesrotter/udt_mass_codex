@@ -1,0 +1,214 @@
+{
+  "audit": "G245_METRIC_OWNED_OBSERVER_NULL_CONE_FIELD",
+  "classification": "OBSERVER_GERM_AND_METRIC_OWN_LOCAL_DIRECTION_LABELLED_NULL_CONE_FIELD__G244_AREA_SHAPE_ARE_INDUCED_CONE_GEOMETRY__SOURCE_POPULATION_GLOBAL_BRANCH_AND_PHYSICAL_HISTORY_REMAIN_OPEN",
+  "controls": {
+    "caustic": {
+      "D_at_pi": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "pi"
+        ]
+      ],
+      "H_at_pi": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "pi**2"
+        ]
+      ],
+      "absolute_area_has_cusp": true,
+      "full_phase_det": "1",
+      "normalized_shape_defined_at_pi": false,
+      "position_inverse_used": false,
+      "rank_D_at_pi": 1,
+      "signed_delta": "lambda*sin(lambda)",
+      "signed_delta_slope_at_pi": "-pi"
+    },
+    "isotropic": {
+      "C": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "D": [
+        [
+          "sin(lambda)",
+          "0"
+        ],
+        [
+          "0",
+          "sin(lambda)"
+        ]
+      ],
+      "shape_identity": true,
+      "shear_zero": true
+    },
+    "rotating_tide_series": {
+      "D4": [
+        [
+          "0",
+          "-1/4"
+        ],
+        [
+          "-1/4",
+          "0"
+        ]
+      ],
+      "D4_offdiagonal_nonzero": true,
+      "T0": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "4"
+        ]
+      ],
+      "T1": [
+        [
+          "0",
+          "3"
+        ],
+        [
+          "3",
+          "0"
+        ]
+      ],
+      "all_recurrence_residuals_zero": true,
+      "commutator": [
+        [
+          "0",
+          "-9"
+        ],
+        [
+          "9",
+          "0"
+        ]
+      ],
+      "recurrence_orders": 7
+    }
+  },
+  "finite_census": {
+    "H_orientation_sensitive_tide_cases": 1021,
+    "assertions": 12288,
+    "cases": 1024,
+    "reflection_parity_flip_cases": 512
+  },
+  "fitted_angular_coefficients": 0,
+  "global_branch_source_detector": "OPEN",
+  "induced_field": {
+    "H_alone_autonomous": false,
+    "angular_differential": "D=d_n F",
+    "angular_metric": "H=D^dagger D=F_lambda^*g on angular tangents",
+    "area": "A=abs(det D)",
+    "full_phase_required": true,
+    "jacobi_ivp": "D''+T D=0; D(0)=0; D'(0)=I",
+    "shape": "C=H/A on regular strata"
+  },
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "observer_cone": {
+    "direction_fiber": "all unit n in U_perp",
+    "field": "F(lambda,n)=Exp_o(lambda k(n))",
+    "input": "smooth time-oriented g plus observer event o and metric-unit future U",
+    "normalized_null_generator": "k(n)=U+n; -g(U,k)=1",
+    "preferred_ray_selected": false,
+    "source_population_required": false
+  },
+  "physical_history": "QUERY_SUPPLIED_NOT_SELECTED",
+  "preregistration_commit": "99af2336",
+  "question_type": "METRIC_LED",
+  "symbolic": {
+    "H_Hprime_nonclosure_witness": {
+      "Hsecond_1": [
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-8"
+        ]
+      ],
+      "Hsecond_2": [
+        [
+          "-8",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "different": true,
+      "same_H": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "same_Hprime": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "det_H_minus_det_D_squared": "0",
+    "expected_tracefree_norm_factor": "k11**2 + k12**2",
+    "gram_first_derivative": [
+      [
+        "2*(d11*v11 + d21*v21)",
+        "d11*v12 + d12*v11 + d21*v22 + d22*v21"
+      ],
+      [
+        "d11*v12 + d12*v11 + d21*v22 + d22*v21",
+        "2*(d12*v12 + d22*v22)"
+      ]
+    ],
+    "gram_second_derivative": [
+      [
+        "-2*(d11**2*t11 + 2*d11*d21*t12 + d21**2*t22 - v11**2 - v21**2)",
+        "-2*(d11*d12*t11 + d11*d22*t12 + d12*d21*t12 + d21*d22*t22 - v11*v12 - v21*v22)"
+      ],
+      [
+        "-2*(d11*d12*t11 + d11*d22*t12 + d12*d21*t12 + d21*d22*t22 - v11*v12 - v21*v22)",
+        "-2*(d12**2*t11 + 2*d12*d22*t12 + d22**2*t22 - v12**2 - v22**2)"
+      ]
+    ],
+    "normalized_null_residual_on_unit_sphere": "0",
+    "normalized_tracefree_shape_leading_shear": "k11**2 + k12**2",
+    "optical_trace_residual": "0",
+    "optical_tracefree_residual_zero": true,
+    "shape_flow_residual_zero": true,
+    "vertex_H_series_residual_zero": true,
+    "vertex_area_series_residual": "0",
+    "vertex_ode_coefficients_zero_through_order_two": {
+      "0": true,
+      "1": true,
+      "2": true
+    },
+    "vertex_shape_series_residual_zero": true,
+    "wronskian_derivative_zero": true
+  }
+}
