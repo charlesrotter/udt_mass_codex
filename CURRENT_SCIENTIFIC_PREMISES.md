@@ -47,6 +47,7 @@
 | G239 reference operator | external after repair | Conditional mismatch plus `Gamma`; one-image Poisson scope; sibling contribution; inputs/outcomes open |
 | G240 null-image census | external after repair | Chosen all-image query removes free weights conditionally; inputs open |
 | G241 SNe tidal bridge | external | Conditional tidal identity retained; degree-2--4 carriers rejected; history open |
+| G242 exact zero-tide SNe control | external | Exact G201 zero-tide radial subfamily rejected on frozen state; small nonzero response open |
 | G243 SNe spline | external | Direct redshift; local turning candidate; no freeze or history |
 
 None selects completion/`X_max`.
@@ -69,15 +70,12 @@ None selects completion/`X_max`.
 
 - The kernel takes an ordered pair, not a path; route observables remain separate.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
-- The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
-  is an envelope control.
-- G212--G231 close state, carry, phase, curvature, and Cartan evaluation. G232/G233 exclude
-  unrestricted finite-order closure; G234 leaves a smaller-family or global law; G235 reconstructs
-  but does not select. G236/G237 freeze a conditional state; G238 lacks continuous history and the
-  two-source map; G239/G240 close operator/counting. G241 rejects compact SNe carriers; G243
-  confirms direct redshift and retains only a local turning curve. History, source, detector,
-  transport, population, and completion stay open.
+  Metricity is not dynamics.
+- The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selecting them.
+- G212--G235 close evaluation/reconstruction, not selection. G236/G237 freeze a conditional state;
+  G238--G240 type its held-out operator/counting. G241 rejects compact carriers, G242 rejects exact
+  zero tide only on the bounded SNe state, and G243 retains a local turning curve. History, source,
+  detector, transport, population, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -95,8 +93,8 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
-transfer and freeze conditional SNe state, not law. G243 uses temporary transfer only for a
-numerical radial control. G238--G243 keep BOSS closed; history, source, and transfer remain open.
+transfer and freeze conditional SNe state, not law. G242/G243 use temporary transfer only for
+bounded radial controls. G238--G243 keep BOSS closed; history, source, and transfer remain open.
 
 ## Recurring prohibited promotions
 
@@ -110,7 +108,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 225-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 226-row authority; conflicts stop.
 
 Run:
 

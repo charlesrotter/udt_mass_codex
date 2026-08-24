@@ -79,6 +79,7 @@ CURRENT_TARGETS = (
     "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/AUDIT_REPORT.md",
     "udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/AUDIT_REPORT.md",
     "udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/AUDIT_REPORT.md",
+    "udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/AUDIT_REPORT.md",
 )
 
 
@@ -199,7 +200,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G243", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G243", "G190--G198"))
+@pytest.mark.parametrize("token", ("G166--G243", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G190--G198"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")

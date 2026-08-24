@@ -1,0 +1,85 @@
+{
+  "boss_outcomes": "CLOSED_AND_UNREAD",
+  "chi2": 8519.009211032242,
+  "chi2_ceiling_0p999": 31.264133620239985,
+  "classification": "EXACT_QUIET_SUBFAMILY_INCOMPATIBLE__SMALL_NONZERO_RESPONSE_REMAINS_OPEN",
+  "covariance_mode": "full",
+  "dof": 11,
+  "epistemic_ceiling": "EXACT_ZERO_TIDE_SUBFAMILY_ONLY__SMALL_NONZERO_TIDE_HISTORY_TRANSFER_FINITE_PATH_NONSPHERICAL_TIME_LIVE_BAO_XMAX_AND_UDT_VALIDATION_OPEN",
+  "grid_points": 4097,
+  "manifest": [
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "role": "224-row premise authority at preregistration",
+      "sha256": "2ccd420adb34d0b9effe7b92a1bbf0b1fc3916f446dcf3e64fb2916345dd9290"
+    },
+    {
+      "path": "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md",
+      "role": "exact primary-metric zero-tide family",
+      "sha256": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951"
+    },
+    {
+      "path": "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/FROZEN_PRIMARY_K12_STATE.json",
+      "role": "frozen observational state and full covariance",
+      "sha256": "88d3006a646f2be105a3fb15f2c4c694732b884da97f8fdeefc39323e6bbc8cf"
+    },
+    {
+      "path": "udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/EXACT_DERIVATION.md",
+      "role": "exact inverse radial-to-tidal bridge and bounded carrier result",
+      "sha256": "54b6a405c50697402b384f6bd566351f8da2123f7256dd76ef4aaf958e6731a3"
+    }
+  ],
+  "maximum_abs_J": 3.219646771412954e-15,
+  "maximum_abs_q_minus_2p2_plus_p": 1.4210854715202004e-14,
+  "minimum_covariance_eigenvalue": 9.73785613513047e-05,
+  "minimum_s_prime": 0.2779702047831438,
+  "model_mode": "native",
+  "observed_theta": [
+    1.2171865662627273,
+    1.921762443647184,
+    2.4313539739269414,
+    2.7636044409793614,
+    3.0495915483949334,
+    3.2348809433689185,
+    3.41998902316514,
+    3.529354491559668,
+    3.595498188484057,
+    3.699772387567351,
+    3.6704314004206777
+  ],
+  "phi_anchor": 0.07077528204904217,
+  "phi_max": 0.7627571949083936,
+  "predicted_theta": [
+    0.6245090109020291,
+    0.978676981871367,
+    1.2169786396058795,
+    1.3909355127942777,
+    1.5241520769799926,
+    1.6294262047250192,
+    1.7144763691990095,
+    1.784314553449736,
+    1.8423769852098226,
+    1.891119594949413,
+    1.9323561706774504
+  ],
+  "residual": [
+    0.5926775553606981,
+    0.9430854617758171,
+    1.214375334321062,
+    1.3726689281850837,
+    1.5254394714149409,
+    1.6054547386438993,
+    1.7055126539661307,
+    1.7450399381099322,
+    1.7531212032742343,
+    1.8086527926179379,
+    1.7380752297432274
+  ],
+  "scale_invariance_max_errors": {
+    "0.125": 0.0,
+    "1.0": 0.0,
+    "1000000.0": 3.3306690738754696e-16,
+    "7.5": 2.7755575615628914e-16
+  },
+  "scope": "G237_K12_POSITIVE_DEPTH_STATIC_CENTRAL_IMPORTED_TRANSFER_CONDITIONAL"
+}

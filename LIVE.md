@@ -59,18 +59,17 @@ G240 externally verifies that the `CHOSE` all-regular-image query removes arbitr
 on a **supplied** locally finite proper regular relation. It is not a universal detector law and
 does not cover critical/infinite-image strata or select history/source measure. Outcomes stay closed.
 
-G241 externally verifies the first bounded observational-anchor bridge. The exact G127 identity
-maps any supplied smooth invertible relative `R(phi)` to dimensionless local tidal response using
-its first two derivatives; absolute radial scale cancels and no angular fit coefficient appears.
-But none of the preregistered anchored Chebyshev degrees 2--4 is both adequate and invertible on the
-frozen full-covariance G237 state: d2/d4 turn over and d3 misses the adequacy ceiling. This is a
-bounded carrier negative, not kernel failure or a continuous-history no-go. BOSS outcomes remain
-closed, and G241 authorizes neither a fifth coefficient nor a new basis after the result.
+G241 retains the exact scale-free G127 radial-to-tidal identity, but its preregistered Chebyshev
+degrees 2--4 fail the joint adequacy/invertibility gate. This bounded carrier negative neither
+rejects the kernel nor authorizes a larger post-result basis.
 
-G243 confirms direct SNe redshift, `phi=log(1+z)`, without angular input. Under an imported temporary
-luminosity transfer, two full-covariance routes reproduce a local turning `K=48`, `alpha=0.1`
-radial curve. Because 29 of 485 extreme smoothing rows fail the preregistered agreement gate,
-external review accepts `NO_FREEZE`: no global inverse, physical history, or downstream claim.
+G242 externally rejects the exact G201 zero-tide family `f(r)=1+C r^2` on the frozen G237 state:
+`chi2=8519.009211032242` versus ceiling `31.264133620239985`. Only exact silence fails; reciprocal
+redshift is unchanged, while small nonzero response and continuous history remain open.
+
+G243 confirms direct SNe `phi=log(1+z)` without angular input. Its temporary-transfer local turning
+curve reproduces, but 29/485 census rows fail certification, so `NO_FREEZE` controls: no global
+inverse, physical history, or downstream claim.
 
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
@@ -81,7 +80,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 225-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 226-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -96,7 +95,8 @@ caveats; G238 proves that this finite state does not type a no-refit BOSS forwar
 the conditional scale-free radial-to-tidal bridge but rejects the registered 2--4 coefficient
 smooth carriers. G243 independently confirms that SNe redshift itself is direct reciprocal `phi`,
 while its temporary-transfer radial spline remains an uncertified turning local representation.
-BOSS outcomes remain closed. Raw archive:
+G242 independently rules out replacing the full SNe interval by the one exact G201 zero-tide radial
+subfamily, while leaving a small nonzero response open. BOSS outcomes remain closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -110,8 +110,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G243 finds a robust local turning curve but no globally invertible `R(phi)`. Before BOSS, choose
-between certifying monotone intervals, deriving native transfer, or retaining SNe only as the direct
-reciprocal-redshift/quiet-regime check. Do not relax the failed gate, add angular SNe coefficients,
-or import P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
+G242 rejects exact zero tide across the bounded SNe interval, while G243 retains no certified
+global `R(phi)` freeze. The next bounded step is a separately typed, outcome-blind angular query
+using the metric-native screen/Jacobi operators. Keep SNe redshift direct from reciprocal `phi`; do
+not fit an angular SNe coefficient, relax G243, open BOSS outcomes, select G225 transport, or import
+P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

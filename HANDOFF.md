@@ -19,34 +19,22 @@ close supplied curvature ranks `20/60/126`, metric jets, and conditional Cartan 
 G233, and G234 exclude unrestricted finite-order closure and leave an invariant family cut or
 global law. G235 proves the literal rank-complete matched network reconstructive, not selective.
 
-G236 reconstructs compatible processed Pantheon+ and DES relative states. G237 is externally
-repaired and accepted: it freezes their joint primary `K=12` state/covariance after independent raw
-GLS replay. Zero unknown cross-release covariance after exact-CID de-overlap is `CHOSE`, not derived
-independence. This is `OBSERVED_PROCESSED_CONDITIONAL`, not a profile law, SNe prediction, native
-transfer, history selector, or held-out test.
+G236/G237 reconstruct and freeze an `OBSERVED_PROCESSED_CONDITIONAL` joint Pantheon+/DES `K=12`
+state; zero unknown cross-release covariance is `CHOSE`. G238 proves the knots are not a continuous
+history and types the still-missing two-source/reference map. G239 derives the conditional
+mismatch-plus-`Gamma` operator. G240's `CHOSE` all-regular-image query removes arbitrary branch
+weights only on a supplied proper regular relation. None supplies history, source/detector law,
+critical strata, native transfer, or BOSS outcomes.
 
-G238 is externally repaired and accepted. Its exact actual-knot counterfamily proves the frozen
-G237 state does not determine a continuous complete history. The BOSS target additionally requires
-a populated two-source relation and reference projection. Outcomes remain closed; supplied-history
-metric evaluators remain conditionally live.
+G241 retains the exact scale-free G127 radial-to-tidal bridge without an angular coefficient, but
+its preregistered degrees 2--4 fail joint adequacy/invertibility. This bounded negative neither
+rejects the kernel nor supplies history.
 
-G239 is externally repaired and accepted. It derives the exact conditional reference-projected
-point-process operator and separates one-point/reference mismatch from connected observed pairs.
-Matched reference and angularly constant response cancel. One-image independently marked Poisson
-parents remain factorized; same-parent multibranch sibling images instead contribute to `Gamma`.
-Physical history, incidence, branch/source population, transfer, and BOSS outcomes remain open.
-
-G240 is externally repaired and accepted. For the explicitly `CHOSE` all-regular-image counting
-query on a supplied locally finite proper regular null relation, branch multiplicity fixes unit
-image intensity and sibling pairs without arbitrary numerical branch weights. The query is not a
-universal detector law; critical/infinite-image strata, history, source measure, transfer, and
-outcomes remain open.
-
-G241 is externally repaired and accepted. It retains the exact conditional G127 bridge from one
-smooth invertible relative `R(phi)` and its first two derivatives to scale-free local tidal
-response, with no angular fit coefficient. Its preregistered degree-2--4 anchored Chebyshev census
-returns a bounded negative: d2/d4 are noninvertible and inadequate; d3 is invertible but inadequate.
-This neither rejects the kernel nor supplies a continuous history. BOSS outcomes remain closed.
+G242 is externally accepted without repair. The exact G201 zero-tide family `f(r)=1+C r^2`
+produces a coefficient-free anchored radial shape, but its full-covariance mismatch with the frozen
+G237 state is `chi2=8519.009211032242` against ceiling `31.264133620239985`. This rejects only exact
+silence on the bounded conditional SNe query. Reciprocal redshift remains direct; small nonzero
+response, continuous history, and BOSS outcomes remain open.
 
 G243 is externally accepted without repair. Direct SNe redshift is `phi=log(1+z)` with no angular
 input. Under imported temporary transfer, two full-covariance routes reproduce a local turning
@@ -73,9 +61,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next choose between certifying monotone intervals, deriving native transfer, or retaining SNe only
-as a reciprocal-redshift/quiet-regime check. Keep BOSS closed; do not relax G243, add angular SNe
-coefficients, repeat G235, activate protected work, identify `X_max`, or import P1/G116/G189. The
-225-row registry controls.
+Next construct a separately typed, outcome-blind angular query from the metric-native screen/Jacobi
+operators. Keep SNe redshift direct from reciprocal `phi` and keep BOSS closed; do not replace
+"quiet" by exact zero, fit an angular SNe coefficient, relax G243, select G225 transport, repeat
+G235, activate protected work, identify `X_max`, or import P1/G116/G189. The 226-row registry
+controls.
 
 <!-- STARTUP_CURRENT_END -->

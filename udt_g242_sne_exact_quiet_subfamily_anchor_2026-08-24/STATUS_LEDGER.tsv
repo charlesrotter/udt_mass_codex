@@ -1,0 +1,9 @@
+object	status	maximum_claim
+G201 zero-tide family	DERIVED_BOUNDED	both primary local angular modes vanish for f=1+C r^2
+G237 state	OBSERVED_PROCESSED_CONDITIONAL	frozen K12 relative radial state and covariance
+G241 bridge	DERIVED_CONDITIONAL	one smooth monotone R(phi) fixes local dimensionless tidal response
+G242 exact-zero comparison	EXTERNALLY_VERIFIED_WITH_CAVEATS	exact zero-tide family incompatible with frozen state; small nonzero response open
+SNe redshift	DERIVED_CONDITIONAL_DIRECT_RECIPROCAL_READOUT	1+z=exp(phi_s-phi_o); no angular tide required
+small nonzero SNe response	OPEN	not bounded or selected
+BAO onset	OPEN_OUTCOME_CLOSED	not inspected
+physical continuous history	OPEN	not selected

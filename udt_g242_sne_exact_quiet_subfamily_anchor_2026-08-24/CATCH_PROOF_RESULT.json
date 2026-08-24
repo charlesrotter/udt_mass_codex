@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "angular_coefficient_mutation_detected": true,
+    "boss_and_protected_paths_absent": true,
+    "fitted_C_has_no_shape_leverage": true,
+    "full_covariance_required": true,
+    "manifest_has_only_four_registered_sources": true,
+    "native_zero_tide_identity_live": true,
+    "registered_ceiling_is_live": true,
+    "wrong_quiet_sign_detected": true
+  },
+  "diagonal_covariance_chi2": 23108.7764229127,
+  "leaked_paths": [],
+  "maximum_C_dependence": 6.661338147750939e-16,
+  "native_chi2": 8519.009211032242,
+  "status": "PASS",
+  "wrong_plus_sign_chi2": 42677.85714526345
+}
