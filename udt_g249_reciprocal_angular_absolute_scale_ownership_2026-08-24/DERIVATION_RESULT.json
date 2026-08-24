@@ -1,0 +1,27 @@
+{
+  "anchor_corollary": "one_absolute_area_anchor_gives_ell=sqrt(A_anchor/Abar_anchor)_when_Abar_anchor_positive",
+  "area_shape": "A_ell=ell^2*A_1__C_ell=C_1",
+  "assertions": 61448,
+  "cases": 4096,
+  "clock_and_coarea": "r_clock_ell=r_clock_1__coarea_coefficient_ell=ell^-2*(r_clock/A)_1",
+  "dimension_ledger": "c_E has L/T; phi and z are dimensionless; no absolute L or L^2 follows",
+  "fitted_coefficients": 0,
+  "full_history_boundary": "normalized_A_is_unique_for_supplied_dimensionless_metric_branch_and_Jacobi_IVP__A_of_phi_single_valued_only_on_injective_branch",
+  "homothety": "g_ell=ell^2*g_1__T_ell(lambda)=ell^-2*T_1(lambda/ell)__D_ell(lambda)=ell*D_1(lambda/ell)",
+  "landing": "CE_AND_RECIPROCAL_REDSHIFT_FIX_DIMENSIONLESS_CLOCK_RATIOS_NOT_ABSOLUTE_LENGTH__POSITIVE_HOMOTHETY_PRESERVES_COMPLETE_DIMENSIONLESS_PHI_HISTORY_CAUSAL_STRUCTURE_AND_NORMALIZED_SHAPE_WHILE_JACOBI_AREA_SCALES_AS_LENGTH_SQUARED__PHI_VALUE_ALONE_DOES_NOT_FIX_NORMALIZED_ANGULAR_RESPONSE__FULL_DIMENSIONLESS_METRIC_AND_BRANCH_FIX_NORMALIZED_JACOBI_RESPONSE_CONDITIONALLY__ONE_INDEPENDENT_DIMENSIONFUL_ANCHOR_REMAINS_FOR_ABSOLUTE_SCALE",
+  "nonunit_scale_cases": 3888,
+  "observational_outcomes": "CLOSED_AND_UNREAD",
+  "offdiagonal_cases": 3491,
+  "phi_only_boundary": "same_phi_different_first_two_jets_give_different_angular_tides",
+  "status": "PASS",
+  "symbolic_checks": {
+    "ce_plus_dimensionless_cannot_form_area": true,
+    "jacobi_first_derivative_scale": true,
+    "jacobi_second_derivative_scale": true,
+    "primary_metric_pullback_is_ell_squared_gbar": true,
+    "rank_two_area_scales_ell_squared": true,
+    "same_phi_live_witness": true,
+    "same_phi_quiet_witness": true,
+    "unit_determinant_shape_scale_cancels": true
+  }
+}

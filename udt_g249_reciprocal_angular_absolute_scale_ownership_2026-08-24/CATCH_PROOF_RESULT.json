@@ -1,0 +1,32 @@
+{
+  "catches": {
+    "area_claimed_invariant": true,
+    "area_wrong_linear_scale": true,
+    "branch_turning_erased": true,
+    "caustic_position_inverse_used": true,
+    "ce_called_absolute_length": true,
+    "clock_ratio_claimed_scale_dependent": true,
+    "coarea_coefficient_claimed_invariant": true,
+    "dimensionless_redshift_called_area": true,
+    "full_history_claimed_not_to_fix_jacobi_ivp": true,
+    "jacobi_map_wrong_scale_power": true,
+    "jacobi_tide_wrong_scale_power": true,
+    "one_anchor_claimed_unable_to_fix_scale": true,
+    "same_phi_claimed_same_tides": true,
+    "scope_Aphi_globally_single_valued_without_injectivity": true,
+    "scope_X_max_inserted": true,
+    "scope_angular_factor_appended_after_reciprocal_readout": true,
+    "scope_detector_law_derived": true,
+    "scope_homothety_is_gauge": true,
+    "scope_luminosity_law_derived": true,
+    "scope_observational_outcomes_opened": true,
+    "scope_physical_probability": true,
+    "scope_source_population_derived": true,
+    "shape_claimed_scale_dependent": true,
+    "signed_determinant_called_o2_scalar": true
+  },
+  "caught": 24,
+  "missed": [],
+  "status": "PASS",
+  "total": 24
+}

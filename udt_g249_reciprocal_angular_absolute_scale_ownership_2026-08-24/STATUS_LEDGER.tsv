@@ -1,0 +1,14 @@
+object	status	scope
+c_E clock-ruler conversion	OBSERVED	L/T conversion; not a length
+reciprocal depth and redshift	DERIVED_CONDITIONAL	dimensionless clock ratio on supplied pair
+positive homothetic scale ell	FREE_AND_EXPLORED_SYMBOLIC	absolute metric scale modulus
+complete dimensionless phi history	PRESERVED_BY_HOMOTHETY	no physical profile selection
+normalized Jacobi shape	DERIVED_CONDITIONAL	fixed by supplied dimensionless metric and branch
+absolute Jacobi area	SCALES_AS_ELL_SQUARED	not fixed by c_E plus redshift
+G248 coefficient r/A	SCALES_AS_ELL_MINUS_TWO	geometric incidence coefficient; not probability
+phi-only angular response	NOT_DERIVED	metric jets and branch history required
+single-valued A(phi)	CONDITIONAL	requires injective phi on declared branch
+one-anchor scale recovery	DERIVED_CONDITIONAL	after dimensionless history is fixed
+physical metric history and anchor	OPEN	not selected or fitted
+observational outcomes	CLOSED_AND_UNREAD	no construction or validation role
+G249 bounded landing	INDEPENDENTLY_VERIFIED_WITH_CAVEATS	fresh external review pending
