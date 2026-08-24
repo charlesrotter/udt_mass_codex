@@ -19,6 +19,7 @@ PACKAGE_FILES = (
     "EVIDENCE_GATES.md", "STATUS_LEDGER.tsv", "COMMANDS.md", "REVIEW_REQUEST.md",
     "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
     "VERIFICATION_RESULT.json",
+    "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md", "TRANSMISSION_RECORD.md",
     "derive_regular_branch_measure.py", "verify_regular_branch_measure_independent.py",
     "run_catch_proofs.py", "verify_package.py", "build_review_intake.py",
 )

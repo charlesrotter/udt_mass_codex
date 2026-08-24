@@ -46,4 +46,10 @@ CMB result. Calling \(d\mu_{AB}\) a physical probability would exceed the eviden
 - Hostile boundary checks: 18/18 caught.
 - Observational outcomes: closed and unread.
 
-External adversarial review remains required before live integration or an accepted status.
+## External review
+
+Fresh sealed `gpt-5.4` adversarial review returned `G248_ACCEPTED_WITH_STATED_BOUNDS`. The reviewer
+reran all registered no-write checks, found no scientific, evidentiary, or scope defect, and
+requested no repair.
+
+Final bounded status: `DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS`.

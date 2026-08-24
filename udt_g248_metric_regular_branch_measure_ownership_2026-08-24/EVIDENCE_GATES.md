@@ -11,4 +11,8 @@
 4. **Premise audited:** PASS FOR THE BOUNDED LANDING. Every input is stamped in
    `PREMISE_LEDGER.tsv`; observational outcomes remained closed.
 
-Pre-review status: `DERIVED_CONDITIONAL__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_PENDING`.
+5. **Fresh external adversarial review:** PASS. The sealed read-only `gpt-5.4` reviewer reran the
+   production, independent, hostile, and package checks, accepted the landing with stated bounds,
+   found no defect, and requested no repair.
+
+Final status: `DERIVED_CONDITIONAL__EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS`.

@@ -1,6 +1,7 @@
 {
   "checks": {
     "catch_replay_exact": true,
+    "external_acceptance": true,
     "hostile_floor": true,
     "independent_floor": true,
     "independent_landing": true,
