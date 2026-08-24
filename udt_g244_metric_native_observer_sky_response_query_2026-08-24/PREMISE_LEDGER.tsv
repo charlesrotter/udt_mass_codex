@@ -1,0 +1,18 @@
+item	status	use	open_or_guard
+complete Lorentz metric history	QUERY_SUPPLIED	determines connection curvature and Jacobi propagation	no physical-history selection
+observer event and unit clock	QUERY_SUPPLIED	defines celestial direction sphere and affine normalization	no observer population
+regular affine null observation sheet	QUERY_SUPPLIED	domain of the G188 Jacobi map	no universal null protocol or branch population
+G188 quotient screen and matrix Jacobi IVP	DERIVED_CONDITIONAL	owns finite matrix response on the supplied sheet	caustic and global branch aggregation remain open
+H=D^dagger D	DERIVED_CONDITIONAL	intrinsic observer-sky positive tensor	defined branchwise before aggregation
+A=sqrt(det H)=abs(det D)	DERIVED_CONDITIONAL	geometric source-screen area per observer solid angle	not flux luminosity or catalogue count by itself
+C=H/A and shear power	DERIVED_CONDITIONAL	coefficient-free scale/shape separation	cross-sky tensor comparison requires separately typed sky geometry
+Jacobi full phase composition	DERIVED_CONDITIONAL	composes supplied null segments through G226	position block does not multiply by itself
+positive sky reference measure and bin kernels	QUERY_SUPPLIED	defines an outcome-blind angular projection	no preferred survey or feature scale
+normalized geometric-area projection	CHOSE_CONTROL	tests the exact metric response without a fitted amplitude	not a physical source detector or transfer law
+direct SNe redshift phi=log(1+z)	DERIVED_CONDITIONAL	kept separate and unchanged	angular response does not generate SNe redshift
+G242 exact-silence negative	OBSERVED_PROCESSED_CONDITIONAL	motivates retaining nonzero response	not a lower bound or calibration
+BOSS CMB and other angular outcomes	OMITTED_CLOSED	no role in construction or testing	remain held out
+caustic critical infinite-image and coherent-wave strata	OMITTED_OPEN	not covered by regular endpoint tensor	full phase remains lawful where position shape normalization fails
+source density radiative transfer detector law	OPEN	not inserted into the geometric query	required for a catalogue prediction
+P1 G116 G189 X_max Lambda-CDM fitted coefficients protected payload	FORBIDDEN	no construction role	regression gate
+
