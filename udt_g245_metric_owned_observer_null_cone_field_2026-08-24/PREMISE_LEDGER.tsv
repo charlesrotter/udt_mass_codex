@@ -1,0 +1,16 @@
+item	status	role	guard
+smooth time-oriented Lorentz metric history	QUERY_SUPPLIED	owns Levi-Civita exponential curvature and geodesics	no physical-history selection
+observer event o	QUERY_SUPPLIED	vertex of celestial null cone	no preferred cosmological center
+future metric-unit observer clock U	QUERY_SUPPLIED	owns spatial rest space and null normalization	no observer population
+celestial direction n with g(n,n)=1 and g(U,n)=0	FULL_FIBER_VARIABLE	all directions explored	no preferred ray or fixed carrier texture
+future versus past cone	QUERY_ORIENTATION_CHOICE	chooses causal orientation of the comparison	no time-symmetry assumption
+k=U+n and minus g(U,k)=1	DERIVED_FROM_METRIC_AND_OBSERVER	removes affine scale freedom	no fitted null normalization
+F(lambda,n)=Exp_o(lambda k(n))	STANDARD_GEOMETRIC_EVALUATOR	candidate metric-owned local null sheet	no source incidence or endpoint selection
+G188 matrix Jacobi IVP	DERIVED_CONDITIONAL	angular differential of F	full matrix retained; no scalar-mode fit
+G244 H A C shear	DERIVED_CONDITIONAL	induced angular metric area and shape	regular branch only for normalized shape
+G226 full phase	DERIVED_CONDITIONAL	caustic-safe evolution and composition	position block never multiplied or inverted alone
+affine shell lambda equals constant	NOT_SELECTED	may be used only as a mathematical cross-section	no physical distance shell or Xmax
+source population and endpoint incidence	OMITTED_OPEN	unneeded for local geometric field	required for catalogue prediction
+detector transfer and catalogue law	OMITTED_OPEN	no construction role	no flux count or observational identification
+BOSS CMB and other angular outcomes	CLOSED_UNREAD	no role in derivation	remain held out
+P1 G116 G189 Xmax Lambda-CDM fitted coefficients protected payload	FORBIDDEN	no construction role	regression gate
