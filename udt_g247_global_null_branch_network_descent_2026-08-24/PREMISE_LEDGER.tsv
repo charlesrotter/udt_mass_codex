@@ -1,0 +1,16 @@
+id	statement	status	ownership_or_limit
+G247-P01	A smooth time-oriented Lorentzian four-metric is supplied.	CONDITIONAL	The metric is evaluated; G247 does not select its physical history.
+G247-P02	A labelled family of future-timelike proper-clock observer worldline germs is supplied.	CONDITIONAL	Proper clocks follow from the metric on the supplied curves; the observer population is not selected.
+G247-P03	The bounded query type is future-null incidence between ordered observer-event germs.	CHOSE_FOR_TEST	This is not promoted to the universal UDT relation protocol.
+G247-P04	The observer-normalized future null-direction sphere and maximal null geodesic flow follow from the supplied metric and clock germ.	DERIVED_CONDITIONAL	G245; all directions are returned and none is preferred.
+G247-P05	Every regular convex-normal cone-worldline incidence owns a smooth local clock correspondence and completed null ribbon.	DERIVED_CONDITIONAL	G246; multiple branches remain labelled.
+G247-P06	The completed-pair normalization is used with m=a on each regular null ribbon.	WORKING_FOUNDATIONAL_CLARIFICATION	G176 as retained through G246; not canonized here.
+G247-P07	Proper-clock derivatives compose on an actual matched chain and reciprocal depths add.	DERIVED_CONDITIONAL	G216 chain rule; an independent direct edge is not forced to equal the composite.
+G247-P08	The invariant null-ribbon clock-ruler line pairing descends under affine-null chart overlaps.	DERIVED_CONDITIONAL	G223; cross-ribbon vertical carry still needs the actual shared incidence and gluing.
+G247-P09	A supplied composable non-antipodal null chain carries a conformal-symplectic phase whose multiplier is the proper-clock ratio.	DERIVED_CONDITIONAL	G226; phase is caustic-safe and path-labelled.
+G247-P10	The G225 least-turning direct screen map is a standard geometric evaluator off antipodes.	STANDARD_GEOMETRIC_EVALUATOR	It is not selected physical transport; triple composition can retain O(2) holonomy.
+G247-P11	Cuts and self-intersections retain initial-direction and route labels.	DERIVED_CONDITIONAL	G245/G246; equal spacetime endpoints do not identify branches.
+G247-P12	Mathematical reversal of one null relation is not its physical future return.	DERIVED_CONDITIONAL	G246; reversal is past-directed, while return is a separately generated future relation.
+G247-P13	A physical global branch, image weight, history, source population, and detector law are supplied by current premises.	OPEN	G247 must not insert any of them.
+G247-P14	The position of X_max or observational calibration enters this classification.	INACTIVE	Forbidden in this audit.
+
