@@ -1,0 +1,17 @@
+{
+  "catches": [
+    "candidate_order_fixed",
+    "boss_outcomes_closed",
+    "no_angular_fit_coefficient",
+    "negative_landing_retained",
+    "anchor_subtraction_exact",
+    "full_covariance_is_load_bearing",
+    "monotonicity_gate_live",
+    "adequacy_gate_live",
+    "tidal_q_sign_live",
+    "forbidden_construction_inputs_absent",
+    "scale_invariance_live"
+  ],
+  "count": 11,
+  "status": "PASS"
+}

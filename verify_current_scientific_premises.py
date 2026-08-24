@@ -193,7 +193,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G240",
+            "G166--G241",
             "G197",
             "G215",
             "G216",
@@ -221,6 +221,7 @@ def validate_startup_surface(root: Path) -> None:
             "G238",
             "G239",
             "G240",
+            "G241",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -263,7 +264,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "223-row exact registry",
+            "224-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -345,7 +346,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G240",
+            "G166--G241",
             "G197",
             "G198",
             "G199",
@@ -391,6 +392,7 @@ def validate_startup_surface(root: Path) -> None:
             "G238",
             "G239",
             "G240",
+            "G241",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -449,6 +451,7 @@ def validate_startup_surface(root: Path) -> None:
             "G238",
             "G239",
             "G240",
+            "G241",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -502,10 +505,11 @@ def validate_startup_surface(root: Path) -> None:
             "G238",
             "G239",
             "G240",
+            "G241",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "223-row",
+            "224-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -820,6 +824,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/AUDIT_REPORT.md",
         "udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/AUDIT_REPORT.md",
         "udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/AUDIT_REPORT.md",
+        "udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -846,9 +851,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 223, "premise registry must contain exactly 223 rows")
+    require(len(rows) == 224, "premise registry must contain exactly 224 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 223, "duplicate premise id")
+    require(len(by_id) == 224, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -4599,6 +4604,108 @@ def main() -> None:
         "G240 repair-followup acceptance absent",
     )
     require(len(read_tsv(g240 / "SOURCE_MANIFEST.tsv")) == 11, "G240 source count changed")
+    require(
+        by_id["G241"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_C7CC2E63"
+        ),
+        "G241 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_R4_REPAIR_ACCEPTED",
+        "R5_APPEND_ONLY_REGISTRY_REPLAY_PASS",
+        "NO_REGISTERED_SMOOTH_ANCHOR_ADEQUATE_STOP_BEFORE_BOSS",
+        "D2_INADEQUATE_NONINVERTIBLE",
+        "D3_INVERTIBLE_INADEQUATE",
+        "D4_INADEQUATE_NONINVERTIBLE",
+        "RADIAL_TO_TIDAL_IDENTITY_DERIVED_CONDITIONAL",
+        "ABSOLUTE_SCALE_CANCELS",
+        "NO_ANGULAR_FIT_COEFFICIENT",
+        "BOSS_OUTCOMES_CLOSED",
+        "CONTINUOUS_HISTORY_OPEN",
+    ):
+        require(guard in by_id["G241"]["current_status"], f"G241 guard absent: {guard}")
+    require(by_id["G241"]["epistemic_label"] == "MIXED", "G241 label changed")
+    require(
+        by_id["G241"]["active_use"]
+        == "ACTIVE_BOUNDED_G237_SNE_ANCHORED_DEGREE_TWO_TO_FOUR_CARRIER_NEGATIVE_AND_CONDITIONAL_G127_RADIAL_TO_TIDAL_IDENTITY_ONLY",
+        "G241 active scope widened",
+    )
+    for guard in (
+        "bounded degree-two through degree-four carrier negative called a universal history no-go or kernel failure",
+        "fifth coefficient new basis smoothing penalty or refit added after outcome without preregistration",
+        "BOSS outcomes opened",
+    ):
+        require(guard in by_id["G241"]["forbidden_regression"], f"G241 regression guard absent: {guard}")
+    require(
+        by_id["G241"]["controlling_source"]
+        == "udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/AUDIT_REPORT.md",
+        "G241 controlling source changed",
+    )
+    g241 = ROOT / "udt_g241_sne_anchored_native_tidal_bridge_2026-08-23"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "CORRECTION_PREREGISTRATION.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_sne_tidal_bridge.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_sne_tidal_bridge_independent.py",
+    ):
+        require((g241 / name).is_file(), f"G241 evidence missing: {name}")
+    g241_result = json.loads((g241 / "DERIVATION_RESULT.json").read_text())
+    g241_independent = json.loads((g241 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g241_verification = json.loads((g241 / "VERIFICATION_RESULT.json").read_text())
+    g241_catches = json.loads((g241 / "CATCH_PROOF_RESULT.json").read_text())
+    expected_g241_landing = "NO_REGISTERED_SMOOTH_ANCHOR_ADEQUATE__STOP_BEFORE_BOSS"
+    require(g241_result["landing"] == expected_g241_landing, "G241 landing changed")
+    require(g241_result["candidate_degrees"] == [2, 3, 4], "G241 candidate census changed")
+    require(g241_result["selected_degree"] is None, "G241 carrier falsely selected")
+    require(g241_result["angular_fit_coefficient"] is None, "G241 angular coefficient inserted")
+    require(g241_result["absolute_radial_scale"] == "OPEN_AND_CANCELS_FROM_TIDAL_J",
+            "G241 scale cancellation changed")
+    require(g241_result["boss_outcomes_opened"] is False, "G241 BOSS outcome gate opened")
+    require(
+        [(row["adequate"], row["monotone_invertible"], row["passed"]) for row in g241_result["candidates"]]
+        == [(False, False, False), (False, True, False), (False, False, False)],
+        "G241 candidate classifications changed",
+    )
+    require(
+        g241_independent["landing"] == expected_g241_landing
+        and g241_independent["selected_degree"] is None,
+        "G241 independent landing changed",
+    )
+    require(
+        g241_verification["status"] == "PASS"
+        and g241_verification["source_hashes"] == 6
+        and g241_verification["boss_outcomes_opened"] is False,
+        "G241 package verification changed",
+    )
+    require(g241_catches["status"] == "PASS" and g241_catches["count"] == 11,
+            "G241 hostile catches changed")
+    require(
+        "G241_BOUNDED_NEGATIVE_ACCEPTED__RADIAL_TO_TIDAL_IDENTITY_RETAINED"
+        in (g241 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G241 repair-followup acceptance absent",
+    )
+    require(len(read_tsv(g241 / "SOURCE_MANIFEST.tsv")) == 6, "G241 source count changed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -8822,7 +8929,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G240-extended startup and G240 premise guards; PASS: 223-row premise "
+        "PASS: G241-extended startup and G241 premise guards; PASS: 224-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

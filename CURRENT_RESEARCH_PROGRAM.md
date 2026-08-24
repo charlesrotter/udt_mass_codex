@@ -46,30 +46,16 @@ physical scalar after the working premise. They must not be conflated.
   historical or imported.
 - G190--G198 evaluate **chosen** time-live coframes and supplied germs; their asymmetry remains
   chosen-family-scoped.
-- G199/G200 give the primary radial/nonradial bidirectional laws without a chiral switch; G198 stays
-  a chosen-family control. G201 expresses their channel amplitudes in `phi` jets without lockstep.
-- G202/G203/G204 classify quiet overlap, descriptors, center regularity, and unselected alternatives;
-  G205 proves the supplied family complete and globally hyperbolic on its declared realization.
-- G206/G207/G208/G209/G210 classify common scale, screen shape, mixing, shift, and relative volume.
-  They constrain supplied histories but select none.
-- G211 closes the diagonal scalar plane at rank two. G212 makes a valued pair network the metric
-  state without generating its values. G213 retains spatial rank and density; G214 descends the
-  completed tuple across calibrated covers.
-- G215--G217 derive `Phi=-log T`, `delta_AB=-log(d tau_B/d tau_A)`, and the positive first jet—not
-  incidence or the full germ. G218--G219 type the correspondence and distinguish null, Fermi/radar,
-  inverse, and return.
-- G220 gives one supplied future-null slope with `C_+=A-N beta` and `r_AB=C_+B/C_+A`; `C_-` return
-  differs. G221 lifts it to the complete coframe, where `Q,s_x,s_t` enter before `r_AB=W_A/W_B`.
-- G222 gives the affine-null plane, `det h=-a^2`, conditional `m=a`, and G188 screen. G223 adds line
-  pairing, inverse clock weight, and local interval; global gluing stays open. G224 closes the
-  shared-event scalar switch; distinct-event normalization is not vertex composition.
-- G225 derives the proper least-turning pointwise screen isometry off antipodes and finite `O(2)`
-  holonomy. It is a `STANDARD_GEOMETRIC_EVALUATOR`, not selected transport.
-- G226 assembles G188, G224, and G225 on one supplied chain. The endpoint-clock-normalized full
-  phase lies in `CSp^+(4,R)` with multiplier equal to the G216 clock ratio and inverse ruler carry.
-  Gauges and affine scales cancel; caustics retain an invertible full phase and matrix holonomy.
-  External review and repair closure verified this without selecting transport, a direct relation,
-  population, or history.
+- G199/G200 remove a chiral split; G201 types amplitudes as `phi` jets. G202/G203/G204 classify quiet
+  overlap and regular alternatives; G205 proves only the supplied realization complete.
+- G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and volume without selecting them.
+- G211/G212/G213/G214 close rank, valued state, density, and calibrated-cover descent—not values.
+- G215/G216/G217 give `Phi`, clock rate, and positive first jet; G218--G219 type correspondence and keep
+  null, Fermi/radar, inverse, and return distinct.
+- G220/G221 give one supplied future-null slope and its complete-coframe lift. G222/G223/G224 add
+  affine-null plane, screen, line/fiber carry, and shared-event scalar; global gluing stays open.
+- G225 is a `STANDARD_GEOMETRIC_EVALUATOR` with `O(2)` holonomy, not selected transport. G226 joins
+  the chain in `CSp^+(4,R)`; gauges cancel and caustics retain phase, without selecting history.
 - G227/G228/G229/G230/G231 close supplied curvature ranks `20/60/126`, metric 3/4-jets, and conditional
   Cartan realization. They generate no regional values or dynamics.
 - G232 separates valued-member evaluation, `CHOSE` finite-family closure, and network encoding.
@@ -97,8 +83,12 @@ physical scalar after the working premise. They must not be conflated.
 - G240 verifies the `CHOSE` all-regular-image census. Unit counts remove free branch weights on a
   supplied regular locally finite relation; one-image fibers factorize and siblings contribute.
   History, source measure, detector/transfer, critical strata, and outcomes remain open.
+- G241 tests the first explicit bounded SNe anchor carrier while BOSS outcomes remain closed. The
+  G127 radial-to-tidal identity is retained exactly and loses absolute radius and any angular fit
+  amplitude. Anchored Chebyshev degrees 2--4 all fail the joint adequacy/invertibility contract, so
+  no carrier is selected and no larger family is authorized after the result.
 
-G206--G240 generate no sector function or `X_max`. Exact
+G206--G241 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -112,7 +102,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`. Held-out query typing:
 `udt_g238_bao_heldout_query_typing_2026-08-23/`. Reference-projected operator:
 `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`. Null-image census:
-`udt_g240_metric_null_image_cluster_census_2026-08-23/`. Evaluator:
+`udt_g240_metric_null_image_cluster_census_2026-08-23/`. SNe-anchored tidal bridge:
+`udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -122,13 +113,14 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 - G211--G231 close supplied local geometry, not its values. G232--G235 exclude the tested local and
   matched-network selectors. G236/G237 freeze a state; G238--G240 type and algebraically close its
   held-out operator; G240 removes free branch weights only inside a chosen all-image query, not the
-  continuous history, source measure, or detector law.
+  continuous history, source measure, or detector law. G241 retains the conditional radial-to-tidal
+  identity but rejects only its registered degree-2--4 observational carriers.
 - Events, germs, population, branches, global realization, transfer, source/matter, action,
   bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237 use imported transfer; G238--G240 leave continuous history, source measure, and
+scale. G236/G237 use imported transfer; G238--G241 leave continuous history, source measure, and
 detector/transfer ownership open.
 
 ## Audited restart
@@ -139,6 +131,8 @@ families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarificati
 formula-level regression or chosen-family controls.
 
 G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238--G240 type and
-close the held-out operator plus a chosen all-image counting query without outcomes. Next
-preregister a minimal anchor contract and bounded history/source family, then evaluate without
-refit. Do not use observations as an unrestricted selector, `X_max`, or protected drafts.
+close the held-out operator plus a chosen all-image counting query without outcomes. G241 executes
+the first bounded anchor contract and rejects its registered compact carriers while preserving the
+native conditional tidal bridge. Next decide the derivative/history representation before any new
+carrier or outcome opening. Do not use observations as an unrestricted selector, `X_max`, or
+protected drafts.

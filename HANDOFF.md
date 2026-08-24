@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-23
 
-G166--G240 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G241 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -42,6 +42,12 @@ image intensity and sibling pairs without arbitrary numerical branch weights. Th
 universal detector law; critical/infinite-image strata, history, source measure, transfer, and
 outcomes remain open.
 
+G241 is externally repaired and accepted. It retains the exact conditional G127 bridge from one
+smooth invertible relative `R(phi)` and its first two derivatives to scale-free local tidal
+response, with no angular fit coefficient. Its preregistered degree-2--4 anchored Chebyshev census
+returns a bounded negative: d2/d4 are noninvertible and inadequate; d3 is invertible but inadequate.
+This neither rejects the kernel nor supplies a continuous history. BOSS outcomes remain closed.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -62,10 +68,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next preregister the smallest explicit observational-anchor contract and bounded continuous
-history/source family it may calibrate, while keeping BOSS outcomes closed; then carry the anchored
-state through G240 and G239 without refitting. Do not repeat G235, promote reconstruction to law,
-activate protected drafts, identify `X_max`, or use P1/G116/G189 as construction inputs. The
-223-row registry controls.
+Next zoom out before extending the carrier ladder: preregister whether derivative information may
+be supplied by a covariance-aware nonparametric observational representation or by one explicitly
+bounded joint-anchor history family. Keep BOSS outcomes closed until that contract is frozen; do not
+add a fifth coefficient, repeat G235, promote reconstruction to law, activate protected drafts,
+identify `X_max`, or use P1/G116/G189 as construction inputs. The 224-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

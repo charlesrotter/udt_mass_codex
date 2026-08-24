@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G240. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G241. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -47,46 +47,36 @@ but no profile or history. G232/G233 show distinct profiles can share every fini
 leaves an invariant family cut or global law. G235's rank-ten matched network reconstructs but does
 not select, and cross-surface tuple products remain untyped.
 
-G236 uses a static-central query and imported transfer to reconstruct compatible processed
-Pantheon+/DES relative `R(phi)` states at `K=8,12,16,24`. This
-`OBSERVED_PROCESSED_CONDITIONAL` lead is not a profile law, prediction, native transfer, or history
-selection.
+G236 reconstructs compatible processed Pantheon+/DES `R(phi)` states under imported transfer;
+G237 freezes the joint `K=12` state/covariance with unknown cross-release covariance `CHOSE` zero.
+Both are `OBSERVED_PROCESSED_CONDITIONAL`, not profile laws, predictions, or history selectors.
 
-G237 freezes the joint `K=12` state/covariance for no-refit carry. Zero unknown cross-release
-covariance after exact-CID de-overlap is `CHOSE`; the `OBSERVED_PROCESSED_CONDITIONAL` state is not a
-profile law, SNe prediction, native transfer, history selection, or held-out validation.
+G238's exact between-knot counterfamily proves the frozen state is not a continuous history; BOSS
+also needs a populated two-source/reference map. G239 derives its conditional point-process
+operator: matched/constant responses cancel, while sibling branches add `Gamma`.
 
-G238 externally verifies the first outcome-blind held-out query audit. The frozen G237 state does
-not determine a continuous complete metric/screen history: an exact actual-knot counterfamily
-preserves all 12 knots and changes between-knot jets. BOSS additionally needs a populated
-two-source relation and reference-projected forward map. Outcomes remain closed; metric evaluators
-remain live conditionally on those supplied inputs.
+G240 externally verifies that the `CHOSE` all-regular-image query removes arbitrary branch weights
+on a **supplied** locally finite proper regular relation. It is not a universal detector law and
+does not cover critical/infinite-image strata or select history/source measure. Outcomes stay closed.
 
-G239 externally verifies the conditional reference-projected point-process identity. Matched and
-constant responses cancel; nonconstant response may survive. Poisson factorization requires one
-independently marked image per parent; sibling branches add `Gamma`. This is operator algebra, not
-a physical history, population, or BOSS prediction. Outcomes stay closed.
+G241 externally verifies the first bounded observational-anchor bridge. The exact G127 identity
+maps any supplied smooth invertible relative `R(phi)` to dimensionless local tidal response using
+its first two derivatives; absolute radial scale cancels and no angular fit coefficient appears.
+But none of the preregistered anchored Chebyshev degrees 2--4 is both adequate and invertible on the
+frozen full-covariance G237 state: d2/d4 turn over and d3 misses the adequacy ceiling. This is a
+bounded carrier negative, not kernel failure or a continuous-history no-go. BOSS outcomes remain
+closed, and G241 authorizes neither a fifth coefficient nor a new basis after the result.
 
-G240 externally verifies one narrower population statement. On a **supplied** measurable, locally
-finite, proper regular null-image relation, the explicitly `CHOSE` query “count every regular image
-once” removes arbitrary numerical branch weights. The metric branch multiplicity then fixes the
-image intensity and same-parent sibling measure; one-image fibers have zero sibling mass and
-multibranch fibers contribute automatically. This is not a universal detector/transfer law, does
-not cover critical or infinite-image strata, and does not select the history or source measure.
-
-Maximum conclusion: the primary metric owns the evaluator on supplied completed pairs; it does not
-yet own a universal moving/time-live correspondence. No second reciprocal-kernel scalar selector or
-pair-clock coefficient is needed. G197's provenance gate remains active: P1, G116/G189 transfer,
-fits, `X_max`,
-G142--G160 scaffold variables, and protected payload are not construction inputs. G190--G198 are
-chosen-family or formula-level regression controls; a `STANDARD_GEOMETRIC_EVALUATOR` is not a UDT
-history law. G199--G214 are retained structural classifications in `CURRENT_RESEARCH_PROGRAM.md`,
-`INDEX.md`, and the exact premise registry rather than repeated here.
+Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
+moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
+G197 excludes P1, G116/G189 transfer, fits, `X_max`, G142--G160 scaffolds, and protected payload as
+construction inputs. G190--G198 are chosen-family or formula-level regression controls;
+`STANDARD_GEOMETRIC_EVALUATOR` is not a history law. Route G199--G214 through the program/index.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 223-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 224-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -97,7 +87,9 @@ Exact premise authority: the 223-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditio
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236/G237 reconstruct and freeze a
 two-release SNe relative-state estimate under an imported transfer and processed-release/covariance
-caveats; G238 proves that this finite state does not type a no-refit BOSS forward map. Raw archive:
+caveats; G238 proves that this finite state does not type a no-refit BOSS forward map. G241 retains
+the conditional scale-free radial-to-tidal bridge but rejects the registered 2--4 coefficient
+smooth carriers before BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -111,10 +103,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G240 removes free numerical branch weights inside the all-regular-image query, but that query, the
-continuous history, parent source measure, and detector/transfer rule remain physical inputs. Before
-opening BOSS outcomes, preregister the smallest explicit observational-anchor contract and a bounded
-history/source family it is allowed to calibrate, then carry the result without refitting. Keep
-assumptions explicit; do not substitute P1, `X_max`, Lambda-CDM distances, protected drafts, or
-G116/G189 as native inputs.
+G241 shows that the native local radial-to-tidal bridge is simpler than the attempted empirical
+carrier: one smooth `R(phi)` would determine the bounded local tidal chord without an angular
+coefficient, but degrees 2--4 do not supply that history. Before opening BOSS outcomes or adding a
+fifth coefficient, zoom out and preregister whether the next anchor may supply derivative
+information nonparametrically or must jointly constrain one explicitly bounded history family.
+Keep the full covariance and no-refit boundary; do not substitute P1, `X_max`, Lambda-CDM distances,
+protected drafts, or G116/G189 as native inputs.
 <!-- STARTUP_CURRENT_END -->

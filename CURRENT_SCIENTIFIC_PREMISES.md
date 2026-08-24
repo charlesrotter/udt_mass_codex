@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock and observed-state network | G215--G240 | Evaluators, state/freeze, held-out operator/census | History; source/detector/map values |
+| Pair-clock and observed-state network | G215--G241 | Evaluators, state/freeze, held-out operator/census, bounded anchor test | History; source/detector/map values |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -46,6 +46,7 @@
 | G238 held-out query typing | external after repair | G237 finite state does not determine continuous history or two-source BOSS forward map; outcomes closed |
 | G239 reference operator | external after repair | Conditional mismatch plus `Gamma`; one-image Poisson scope; sibling contribution; inputs/outcomes open |
 | G240 null-image census | external after repair | Chosen all-image query removes free weights conditionally; inputs open |
+| G241 SNe-anchored tidal bridge | external after R4 | Scale-free conditional radial-to-tidal identity retained; registered degree-2--4 carriers rejected; continuous history open |
 
 None selects completion or `X_max`.
 ## Scale and limits
@@ -70,16 +71,12 @@ None selects completion or `X_max`.
   Metricity is not dynamics; overlap carry belongs to overlaps, not endpoints.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max`; its conformal family
   is an envelope control.
-- G212--G231 close state/descent, clock/null carry, phase, curvature compatibility, point-metric
-  realization, and regional Cartan architecture. G232/G233 separate fixed-member
-  evaluation, conditional finite-family closure, and an externally verified unrestricted-family
-  finite-order obstruction. G234 reduces the route menu to an invariant smaller-family cut or a
-  genuinely global relation law; G235 proves that existence of one rank-complete matched network
-  is only reconstruction, not such a global selector. G236/G237 reconstruct and freeze one
-  conditional state without deriving its law. G238 proves it lacks the continuous history and
-  two-source map; G239 closes the operator and sibling correction; G240 closes unit counting only
-  inside its chosen query. Profile, detector, history, source, global closure, population,
-  transport, and completion stay open.
+- G212--G231 close state, carry, phase, curvature, and Cartan evaluation. G232/G233 exclude
+  unrestricted finite-order closure; G234 leaves a smaller-family or global law; G235 reconstructs
+  but does not select. G236/G237 freeze a conditional state; G238 lacks continuous history and the
+  two-source map; G239/G240 close operator and chosen unit counting. G241 rejects only its compact
+  SNe carriers while retaining the conditional tidal map. History, source, detector, transport,
+  population, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -97,7 +94,7 @@ None selects completion or `X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
-transfer and freeze a conditional SNe state, not a law. G238--G240 keep BOSS closed; history,
+transfer and freeze a conditional SNe state, not a law. G238--G241 keep BOSS closed; history,
 source, and detector/transfer remain open.
 
 ## Recurring prohibited promotions
@@ -112,7 +109,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 223-row authority. On conflict, stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 224-row authority. On conflict, stop.
 
 Run:
 
