@@ -70,3 +70,17 @@ R4 may not change a scientific formula, source hash, covariance entry, candidate
 fit, derivative classification, tidal value, premise status, outcome boundary, or the landing
 `NO_REGISTERED_SMOOTH_ANCHOR_ADEQUATE__STOP_BEFORE_BOSS`. A changed scientific artifact or landing
 fails the repair.
+
+## R5 — post-acceptance registry banking replay
+
+The accepted sealed intake correctly fixes the preregistration-era 223-row
+`CURRENT_SCIENTIFIC_PREMISES.tsv` hash. Final banking necessarily appends the new G241 authority row,
+so a repository-root replay can no longer require the live 224-row registry to have the historical
+223-row hash.
+
+The only authorized R5 change is for `verify_package.py` to treat that one manifest row as an
+append-only banking boundary: require the live registry to contain exactly one G241 row, remove
+that exact row in memory, and require the reconstructed bytes to match the sealed historical hash.
+Every other source retains direct byte-hash verification. Add a banking note and a hostile guard
+for any non-G241 mutation. No sealed manifest, scientific formula, candidate value, threshold,
+classification, status, outcome boundary, or landing may change.
