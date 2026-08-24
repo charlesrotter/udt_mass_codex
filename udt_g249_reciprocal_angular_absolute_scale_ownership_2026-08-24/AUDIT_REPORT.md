@@ -70,5 +70,7 @@ observer population, detector/transfer/luminosity law, branch aggregation, caust
 `X_max`, action, source, matter, bootstrap, mass, or signalling.
 
 External review retained the scientific landing and required claim-directed certification repairs.
-Those preregistered repairs now pass; repair-only follow-up is pending. Current status:
-`DERIVED_CONDITIONAL__REPAIRED_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`.
+The first repair-only follow-up confirmed the scientific scope and most repaired evidence, but
+found that the equal-`phi` two-witness comparison and exact 23-entry hostile-ledger lock remain
+incomplete. Those two certification repairs are preregistered before implementation. Current
+status: `DERIVED_CONDITIONAL__SCIENTIFIC_LANDING_RETAINED__CERTIFICATION_REPAIR_PENDING`.
