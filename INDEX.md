@@ -59,8 +59,8 @@
   `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`; `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Held-out operators: `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`; `udt_g240_metric_null_image_cluster_census_2026-08-23/`
 - SNe controls: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`; `udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`; `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`—history/source unselected.
-- Sky/null network: `udt_g244_metric_native_observer_sky_response_query_2026-08-24/`; `udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`;
-  `udt_g246_two_observer_null_incidence_descent_2026-08-24/`; `udt_g247_global_null_branch_network_descent_2026-08-24/`—quiver/chains close; measure/population/history open.
+- Sky/null network/measure: `udt_g244_metric_native_observer_sky_response_query_2026-08-24/`; `udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`; `udt_g246_two_observer_null_incidence_descent_2026-08-24/`;
+  `udt_g247_global_null_branch_network_descent_2026-08-24/`; `udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`—branchwise `r/A` closes; probability, aggregation, population, and history remain open.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`

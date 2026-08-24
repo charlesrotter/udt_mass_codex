@@ -4,9 +4,9 @@
 
 ## Current theory picture
 
-G166--G247: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
-Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
-or canon. `phi_control` is an arbitrary-calibration control.
+G166--G248: a supplied germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair Dual
+Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
+canon. `phi_control` is an arbitrary-calibration control.
 
 G190--G198 are formula-level regression/off-ray controls. G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214 cover direction, quiet,
 completion, channels, basis, state, rank, and descent.
@@ -22,14 +22,11 @@ G236/G237 freeze processed SNe `R(phi)` with imported transfer and chosen zero c
 covariance. G238 lacks continuous history/two-source map; G239 closes conditional
 mismatch-plus-`Gamma`; G240 removes free weights only for its `CHOSE` supplied all-image query.
 
-G241 retains the radial-to-tidal bridge but rejects degree-2--4 carriers. G242 rejects exact G201
-zero tide on frozen G237, not small response. G243 keeps direct `phi=log(1+z)` and a local turning
-control, without freeze/history. G244 derives native `H,A,C`; G245 derives the local cone
-`F(lambda,n)=Exp_o(lambda(U+n))` from metric plus germ. G246 derives every regular local
-two-observer null incidence and completed ribbon from the metric plus two supplied worldlines and
-the declared null query. G247 globally labels the branch quiver and derives the free
-matched-chain category with additive depth and ordered phase. Population, branch measure,
-aggregation, and history remain open.
+G241 rejects degree-2--4 carriers; G242 exact G201 zero tide, not small response. G243 keeps direct
+`phi=log(1+z)` and a local turning control without freeze. G244 derives `H,A,C`; G245 the local cone;
+G246 every regular local two-observer incidence and ribbon. G247 labels the global branch quiver and
+free chain category. G248 derives branchwise `dmu=(r/A)dtau_source`. Probability, population,
+aggregation, caustics, detector semantics, and history remain open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -37,9 +34,8 @@ G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays pr
 ## Observational pointer
 
 R2--R5 remain unresolved observations. G236/G237 freeze processed SNe; G238--G240 type the held-out
-operator. G241--G243 bound radial controls; G244--G247 derive the outcome-blind
-sky/cone/incidence/branch-category chain. History, branch measure/aggregation, and observational
-outcomes remain open.
+operator. G241--G243 bound radial controls; G244--G248 derive the outcome-blind sky/cone/incidence/
+branch-category/coarea chain. History, probability/aggregation, and outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -60,10 +56,11 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
 
 ## Next gate
 
-G247 closes global regular branch descent: direct links form a quiver and matched chains a category.
-Next preregister whether metric-owned celestial/phase geometry supplies a canonical gauge-invariant
-branch measure or only transports a supplied source measure. SNe redshift stays direct from
-reciprocal `phi`; do not fit a branch weight/angular coefficient or activate G225 as selected
-transport, P1, `X_max`, or protected work.
+G248 closes the ordered regular branchwise incidence coarea density `r/A` without making it a
+physical probability. Next preregister whether the declared all-regular-image query and local
+finiteness canonically disintegrate and sum that density over a finite incidence fiber while
+retaining multiplicity. SNe redshift stays direct from reciprocal `phi`; do not normalize or fit a
+branch weight/angular coefficient, extend through caustics, or activate G225 as selected transport,
+P1, `X_max`, or protected work.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

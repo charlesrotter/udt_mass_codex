@@ -38,9 +38,9 @@ def matches_frozen_source(path: Path, expected: str, relative: str) -> bool:
         return False
     lines = path.read_bytes().splitlines(keepends=True)
     rows = [i for i, line in enumerate(lines) if line.startswith(b"G248\t")]
-    if len(rows) != 1:
+    if len(rows) != 1 or not lines or not lines[0].startswith(b"premise_id\t"):
         return False
-    historical = b"".join(line for i, line in enumerate(lines) if i != rows[0])
+    historical = lines[0] + b"".join(lines[rows[0] + 1 :])
     return hashlib.sha256(historical).hexdigest() == expected
 
 
@@ -69,6 +69,8 @@ def main() -> None:
         "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
         "VERIFICATION_RESULT.json",
         "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md", "TRANSMISSION_RECORD.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md", "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_REPLAY_RECORD.md",
         "derive_regular_branch_measure.py", "verify_regular_branch_measure_independent.py",
         "run_catch_proofs.py", "verify_package.py", "build_review_intake.py",
     ]

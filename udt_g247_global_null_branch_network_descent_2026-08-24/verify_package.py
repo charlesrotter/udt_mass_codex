@@ -32,16 +32,16 @@ def sha256(path: Path) -> str:
 
 
 def matches_frozen_source(path: Path, expected: str, relative: str) -> bool:
-    """Accept the exact frozen source, or the registry with only G247 banked atop it."""
+    """Recover the exact pre-G247 registry beneath append-only descendant rows."""
     if sha256(path) == expected:
         return True
     if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
         return False
     lines = path.read_bytes().splitlines(keepends=True)
     g247_rows = [index for index, line in enumerate(lines) if line.startswith(b"G247\t")]
-    if len(g247_rows) != 1:
+    if len(g247_rows) != 1 or not lines or not lines[0].startswith(b"premise_id\t"):
         return False
-    historical = b"".join(line for index, line in enumerate(lines) if index != g247_rows[0])
+    historical = lines[0] + b"".join(lines[g247_rows[0] + 1 :])
     return hashlib.sha256(historical).hexdigest() == expected
 
 

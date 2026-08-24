@@ -196,7 +196,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G247",
+            "G166--G248",
             "G197",
             "G215",
             "G216",
@@ -231,6 +231,7 @@ def validate_startup_surface(root: Path) -> None:
             "G245",
             "G246",
             "G247",
+            "G248",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -273,7 +274,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "230-row exact registry",
+            "231-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -348,6 +349,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g245_metric_owned_observer_null_cone_field_2026-08-24/",
             "udt_g246_two_observer_null_incidence_descent_2026-08-24/",
             "udt_g247_global_null_branch_network_descent_2026-08-24/",
+            "udt_g248_metric_regular_branch_measure_ownership_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -361,7 +363,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G247",
+            "G166--G248",
             "G197",
             "G198",
             "G199",
@@ -414,6 +416,7 @@ def validate_startup_surface(root: Path) -> None:
             "G245",
             "G246",
             "G247",
+            "G248",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -479,6 +482,7 @@ def validate_startup_surface(root: Path) -> None:
             "G245",
             "G246",
             "G247",
+            "G248",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -539,10 +543,11 @@ def validate_startup_surface(root: Path) -> None:
             "G245",
             "G246",
             "G247",
+            "G248",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "230-row",
+            "231-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -885,9 +890,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 230, "premise registry must contain exactly 230 rows")
+    require(len(rows) == 231, "premise registry must contain exactly 231 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 230, "duplicate premise id")
+    require(len(by_id) == 231, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5504,6 +5509,147 @@ def main() -> None:
     )
     require(json.loads(g247_replay.stdout)["status"] == "PASS", "G247 live no-write replay failed")
     require(
+        by_id["G248"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED_AT_76F12551"
+        ),
+        "G248 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_ACCEPTED_NO_REPAIRS",
+        "ORDERED_REGULAR_INCIDENCE_COAREA_DENSITY_DMU_EQUALS_R_OVER_A_DTAU_SOURCE",
+        "TRANSVERSE_JACOBIAN_EQUALS_OMEGA_TARGET_TIMES_JACOBI_AREA_EQUALS_A_OVER_R",
+        "G226_UPPER_RIGHT_PHASE_BLOCK_EQUALS_G244_JACOBI_SCREEN_MAP",
+        "SCREEN_AND_NULL_GAUGE_INVARIANT",
+        "AFFINE_NORMALIZATION_CANCELS",
+        "FORMAL_INVERSE_COEFFICIENT_MATCHES_BUT_BASE_CLOCK_DENSITY_DIFFERS",
+        "SKY_PHASE_COUNTING_AND_INCIDENCE_MEASURES_TYPED_DISTINCT",
+        "CONTINUOUS_POSITIVE_CSP4_CHARACTERS_EQUAL_R_TO_ALPHA_ALPHA_UNSELECTED",
+        "CAUSTIC_A_ZERO_LEAVES_REGULAR_COAREA_SCOPE_FULL_PHASE_INVERTIBLE",
+        "ZERO_FITTED_COEFFICIENTS",
+        "NO_PHYSICAL_PROBABILITY_SOURCE_POPULATION_DETECTOR_HISTORY_XMAX_OR_OUTCOME_SELECTION",
+    ):
+        require(guard in by_id["G248"]["current_status"], f"G248 guard absent: {guard}")
+    require(by_id["G248"]["epistemic_label"] == "MIXED", "G248 label changed")
+    require(
+        by_id["G248"]["active_use"]
+        == "ACTIVE_BOUNDED_SUPPLIED_SMOOTH_TIME_ORIENTED_LORENTZ_METRIC_TWO_SUPPLIED_FUTURE_TIMELIKE_PROPER_CLOCK_OBSERVERS_DECLARED_FUTURE_NULL_QUERY_LOCALLY_FINITE_TRANSVERSE_NONCAUSTIC_REGULAR_INCIDENCE_STRATA_ONLY",
+        "G248 active scope widened",
+    )
+    for guard in (
+        "r over A called universal branch probability source law detector law or luminosity law",
+        "sky phase counting and incidence measures conflated",
+        "alpha selected by composition",
+        "signed determinant called O2 scalar",
+        "formal inverse called physical return or exchange-even density",
+        "Jacobi block multiplied on chains or inverted at caustic",
+        "regular coarea formula extended through A zero",
+        "G176 called metric-derived or canon",
+    ):
+        require(guard in by_id["G248"]["forbidden_regression"], f"G248 regression guard absent: {guard}")
+    require(
+        by_id["G248"]["controlling_source"]
+        == "udt_g248_metric_regular_branch_measure_ownership_2026-08-24/AUDIT_REPORT.md",
+        "G248 controlling source changed",
+    )
+    g248 = ROOT / "udt_g248_metric_regular_branch_measure_ownership_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_COMMIT.md",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_regular_branch_measure.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+        "verify_regular_branch_measure_independent.py",
+    ):
+        require((g248 / name).is_file(), f"G248 evidence missing: {name}")
+    expected_g248 = (
+        "METRIC_OWNS_ORDERED_REGULAR_INCIDENCE_COAREA_DENSITY_R_OVER_A"
+        "__SKY_PHASE_COUNTING_AND_INCIDENCE_MEASURES_ARE_DISTINCT_TYPED_OBJECTS"
+        "__CSP4_COMPOSITION_LEAVES_REAL_CHARACTER_FAMILY_R_TO_ALPHA"
+        "__UNIVERSAL_PHYSICAL_BRANCH_MEASURE_SOURCE_POPULATION_AND_CRITICAL_COMPLETION_REMAIN_OPEN"
+    )
+    g248_result = json.loads((g248 / "DERIVATION_RESULT.json").read_text())
+    g248_independent = json.loads((g248 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g248_catches = json.loads((g248 / "CATCH_PROOF_RESULT.json").read_text())
+    g248_verification = json.loads((g248 / "VERIFICATION_RESULT.json").read_text())
+    require(g248_result["landing"] == expected_g248, "G248 production landing changed")
+    require(g248_independent["expected_landing"] == expected_g248, "G248 independent landing changed")
+    require(
+        g248_result["selected_alternative"]
+        == "B_TYPED_CANONICAL_GEOMETRIC_MEASURES_EXIST__PHYSICAL_BRANCH_MEASURE_UNSELECTED"
+        and g248_result["coarea_density"] == "dmu_AB=(r_AB/A_AB)*d_tau_A"
+        and g248_result["transverse_jacobian"] == "J=omega_B*A=A/r",
+        "G248 incidence coarea typing changed",
+    )
+    require(
+        g248_result["formal_inverse"]
+        == "B_inverse=-r^-1*B^T__A_inverse=A/r^2__coarea_coefficient_inverse=r/A"
+        and g248_result["character_family"] == "chi_alpha(M)=r(M)^alpha__alpha_in_R__NOT_SELECTED"
+        and g248_result["caustic_boundary"]
+        == "A=0__REGULAR_COAREA_DENSITY_LEAVES_SCOPE__FULL_PHASE_REMAINS_INVERTIBLE",
+        "G248 inverse, character, or caustic boundary changed",
+    )
+    require(
+        g248_result["cases"] == 4096
+        and g248_result["assertions"] == 307205
+        and g248_independent["cases"] == 10000
+        and g248_independent["assertions"] == 540002,
+        "G248 finite census changed",
+    )
+    require(
+        g248_independent["implementation"]
+        == "independent_fraction_fourier_symplectic_no_production_import_or_output_read"
+        and g248_result["observational_outcomes"]
+        == g248_independent["observational_outcomes"]
+        == "CLOSED_AND_UNREAD",
+        "G248 independent route or observational boundary changed",
+    )
+    require(
+        g248_catches["status"] == "PASS"
+        and g248_catches["caught"] == g248_catches["total"] == 18,
+        "G248 hostile catches changed",
+    )
+    require(
+        g248_verification["status"] == "PASS"
+        and not g248_verification["failed"]
+        and all(g248_verification["checks"].values()),
+        "G248 package verification changed",
+    )
+    require(
+        "G248_ACCEPTED_WITH_STATED_BOUNDS" in (g248 / "EXTERNAL_REVIEW_RAW.md").read_text(),
+        "G248 external acceptance absent",
+    )
+    require(len(read_tsv(g248 / "SOURCE_MANIFEST.tsv")) == 11, "G248 source count changed")
+    g248_replay = subprocess.run(
+        [sys.executable, str(g248 / "verify_package.py")],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(json.loads(g248_replay.stdout)["status"] == "PASS", "G248 live no-write replay failed")
+    require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
         "G195 external R1 acceptance absent",
@@ -9726,7 +9872,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247-extended startup and premise guards; PASS: 230-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248-extended startup and premise guards; PASS: 231-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

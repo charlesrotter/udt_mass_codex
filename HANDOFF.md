@@ -6,51 +6,48 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G247 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G248 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, functions, population, higher/full carry,
 and global realization remain supplied or `OPEN`.
 
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226 close the bounded scalar,
-correspondence, null chord/plane, local carry, screen, and phase evaluators. G227/G228/G229/G230/G231
-close supplied curvature ranks `20/60/126`, metric jets, and conditional Cartan realization. G232,
-G233, and G234 exclude unrestricted finite-order closure and leave an invariant family cut or
-global law. G235 proves the literal rank-complete matched network reconstructive, not selective.
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226 close bounded scalar,
+correspondence, null plane, carry, screen, and phase evaluators. G227/G228/G229/G230/G231 close
+curvature ranks `20/60/126`, jets, and Cartan realization. G232/G233/G234 leave a family/global law;
+G235 proves the matched network reconstructive, not selective.
 
-G236/G237 reconstruct and freeze an `OBSERVED_PROCESSED_CONDITIONAL` joint Pantheon+/DES `K=12`
-state; zero unknown cross-release covariance is `CHOSE`. G238 proves the knots are not a continuous
-history and types the still-missing two-source/reference map. G239 derives the conditional
-mismatch-plus-`Gamma` operator. G240's `CHOSE` all-regular-image query removes arbitrary branch
-weights only on a supplied proper regular relation. None supplies history, source/detector law,
-critical strata, native transfer, or BOSS outcomes.
+G236/G237 freeze an `OBSERVED_PROCESSED_CONDITIONAL` Pantheon+/DES `K=12` state with unknown
+cross-release covariance `CHOSE` zero. G238 rejects continuous history; G239 derives conditional
+mismatch-plus-`Gamma`; G240's `CHOSE` all-image query removes arbitrary weights only on a supplied
+proper regular relation. History, source/detector law, critical strata, transfer, and outcomes stay open.
 
 G241 retains the scale-free radial-to-tidal bridge, but its degrees 2--4 fail. G242 rejects only the
 exact G201 zero-tide family on frozen SNe (`chi2=8519.0092` versus `31.2641`); small response stays
 open. G243 keeps direct `phi=log(1+z)` and one local turning control, but 29/485 rows fail;
 `NO_FREEZE` controls.
 
-G244 is externally accepted without repair. On a supplied regular finite noncaustic G188 null
-sheet, `H=D^dagger D` gives native area `A=abs(det D)` and unit-determinant shape `C=H/A`, with no
-fitted angular coefficient or observational outcome. Its area projection is a
-`CHOSE_QUERY_CONTROL`, not a source/detector law; parity is orientation-line-valued, only full G226
-phase composes, and history/null-sheet/source/catalogue ownership remains open.
+G244 is externally accepted. On a supplied regular G188 sheet, `H=D^dagger D` gives area
+`A=abs(det D)` and shape `C=H/A` without fitted coefficient/outcome. Its area projection is a
+`CHOSE_QUERY_CONTROL`; parity is orientation-line-valued and only G226 phase composes.
 
-G245 is externally accepted after packaging repair. A supplied metric and observer germ `(o,U)`
-own every local `k(n)=U+n` and `F(lambda,n)=Exp_o(lambda k(n))`; G188/G244 are induced cone
-geometry. Preferred ray, incidence, population, global branch, detector, and history remain open.
+G245 is externally accepted after packaging repair. Metric plus germ `(o,U)` own local
+`k(n)=U+n` and `F(lambda,n)=Exp_o(lambda k(n))`; G188/G244 are induced cone geometry. Nothing
+selects a ray, population, detector, or history.
 
-G246 is externally accepted without repair. A future-null query, one metric, and two supplied
-future-timelike proper-clock worldline germs determine the full local regular incidence relation.
-Automatic cone-worldline transversality gives every local positive clock germ; each convex-normal
-branch constructs its G222 completed ribbon. G176 stays conditional. Mathematical inverse and
-physical future return remain distinct, and global multiple branches remain unselected.
+G246 is externally accepted without repair. A future-null query, metric, and two timelike clocks
+determine every local regular incidence and G222 ribbon. G176 stays conditional; inverse and
+physical future return differ; global branches remain unselected.
 
-G247 is externally accepted without repair. Maximal null flow labels regular global branches.
-Direct links form a route-labelled quiver; finite matched chains form its free path category.
-Depth and ruler grading compose; ordered G226 phase retains G225 holonomy. Cut/caustic/winding and
-formal-reversal/physical-return labels remain distinct.
+G247 is externally accepted without repair. Maximal null flow labels global regular branches;
+direct links form a quiver and finite chains its free category. Depth, ruler grading, and ordered
+G226 phase carry; cut/caustic/winding and reversal/return labels remain distinct.
+
+G248 is externally accepted without repair. On every supplied source-clock-normalized, locally
+finite, transverse, noncaustic branch, metric coarea gives `dmu_AB=(r_AB/A_AB)dtau_A`. Sky, phase,
+counting, and incidence measures stay distinct; `r^alpha` remains unselected. Probability,
+population, detector law, aggregation, caustics, history, and outcomes remain open.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
@@ -72,11 +69,11 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G247 has closed the global regular branch architecture without choosing one image. Next
-preregister whether the metric-owned celestial/phase geometry supplies a canonical gauge-invariant
-measure on the branch quiver, or only transports a supplied source measure. Keep SNe redshift
-direct from reciprocal `phi` and BOSS/CMB closed until that contract is frozen; do not fit branch
-weights or angular coefficients, select G225 transport, activate protected work, identify `X_max`,
-or import P1/G116/G189. The 230-row registry controls.
+G248 has closed the regular branchwise incidence density without making it a physical probability.
+Next preregister whether the declared all-regular-image query and local finiteness canonically
+disintegrate and sum `r/A` over each finite incidence fiber while retaining multiplicity. Keep SNe
+redshift direct from reciprocal `phi` and BOSS/CMB closed until that contract is frozen; do not
+normalize or fit branch weights, extend through caustics, select G225 transport, activate protected
+work, identify `X_max`, or import P1/G116/G189. The 231-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

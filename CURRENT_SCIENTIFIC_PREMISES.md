@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock/state network | G215--G247 | Evaluators, frozen state, held-out operators, native sky/cone/incidence and global branch-category query | History; source/detector values; branch measure |
+| Pair-clock/state network | G215--G248 | Evaluators; frozen state; sky/cone/incidence; global branch category; regular coarea | History; source/detector values; physical probability/aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -44,7 +44,7 @@
 | G236/G237 SNe state | external after repair | Processed relative shape and `K=12` covariance; no law |
 | G238/G239/G240 held-out query | external after repair | Typing, conditional operator, all-image census; inputs/outcomes open |
 | G241/G242/G243 radial controls | external | Compact carriers and exact zero tide rejected; local turning/no-freeze retained |
-| G244/G245/G246/G247 native sky/cone/incidence/network | external | `H,A,C`, local cone, regular null branches/ribbons, global branch quiver and matched-chain category; measure/population/history open |
+| G244--G248 sky/cone/incidence/network/measure | external | `H,A,C`; cone; null branches/ribbons; global quiver/category; ordered regular `r/A` coarea; probability/aggregation/population/history open |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -74,8 +74,9 @@ None selects completion/`X_max`.
   outcome-blind Jacobi area/shape query, G245 derives its full local null cone, and G246 derives all
   local regular two-observer null incidences and completed ribbons after the two worldlines and
   null query are supplied. G247 derives the global route-labelled quiver and freely generated
-  matched-chain category with scalar and phase carry. History, population, branch measure and
-  aggregation, source/detector semantics, and completion stay open.
+  matched-chain category with scalar and phase carry. G248 derives branchwise ordered regular
+  incidence coarea `dmu=(r/A)dtau_source`, not physical probability or finite-fiber aggregation.
+  History, population, source/detector semantics, caustic completion, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -94,7 +95,7 @@ None selects completion/`X_max`.
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
 transfer and freeze conditional SNe state, not law. G242/G243 use temporary transfer only for
-bounded radial controls. G244--G247 use no observational outcome. G238--G247 keep BOSS closed;
+bounded radial controls. G244--G248 use no observational outcome. G238--G248 keep BOSS closed;
 history, source, and transfer remain open.
 
 ## Recurring prohibited promotions
@@ -109,7 +110,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 230-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 231-row authority; conflicts stop.
 
 Run:
 
