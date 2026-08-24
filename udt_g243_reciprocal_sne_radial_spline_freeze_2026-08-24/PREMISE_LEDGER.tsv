@@ -1,0 +1,14 @@
+item	status	use	open_or_guard
+1+z=exp(phi_s-phi_o)	DERIVED_CONDITIONAL_DIRECT_RECIPROCAL_READOUT	maps observed redshift to depth	no angular tide needed for redshift
+processed SNe release vectors	OBSERVED_PROCESSED_CONDITIONAL	radial-state reconstruction	bias corrections and native transfer remain caveats
+d_A=R and d_L=(1+z)^2 R	IMPORTED_TEMPORARY_TRANSFER_INTERFACE	maps brightness-like observable to relative areal radius	not native UDT light theory
+Pantheon DES de-overlap	CHOSE_CONSERVATIVE_RELEASE_CUT	prevents exact-CID double use	unknown shared systematics remain
+cross-release covariance	CHOSE_ZERO_AFTER_DEOVERLAP	block-diagonal joint reconstruction	not statistical independence
+cubic B-spline basis	CHOSE_NUMERICAL_REPRESENTATION	smooth observational state and derivatives	not physical modes or history law
+basis counts 16 24 32 48 64	FREE_AND_EXPLORED_NUMERICAL_CENSUS	resolution sensitivity	bounded census not all representations
+dimensionless alpha grid 10^-12 through 10^12 step 0.25 dex	FREE_AND_EXPLORED_NUMERICAL_CENSUS	GCV regularization search	boundary minimum returns inconclusive
+second-derivative penalty	CHOSE_OBSERVATIONAL_REGULARIZER	controls noise amplification in derivatives	not physical action or smoothness law
+monotonicity	CHARACTERIZED_NOT_ENFORCED	types regular inverse intervals	nonmonotone output is retained
+angular response quietness	OMITTED	not an SNe reconstruction input	tested only downstream
+BOSS BAO CMB outcomes	OMITTED_CLOSED	no representation selection role	held out
+P1 G116 G189 X_max Lambda-CDM distances protected payload	FORBIDDEN	no construction role	regression gate
