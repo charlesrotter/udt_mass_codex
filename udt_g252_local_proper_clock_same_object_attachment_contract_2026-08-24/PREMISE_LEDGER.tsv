@@ -1,0 +1,20 @@
+item	status	role	open_or_forbidden
+G249_positive_constant_homothety_family	pinned-by-THEORY	bounded one-scale arena	complete dimensionless history and regular branch remain supplied
+G216_proper_time_evaluator	pinned-by-THEORY-conditionally	computes bar_tau on supplied regular timelike segment	does not choose observer or endpoint events
+proper_time_weight_plus_one	DERIVED-CONDITIONAL	under g_ell=ell^2 bar_g gives tau_ell=ell bar_tau	requires ell positive and regular timelike segment
+observer_segment_and_event_markers	CHOSE-OPERATIONALLY	freezes same-object domain before value access	must not be altered after clock value is opened
+independent_clock_identity_and_calibration	CHOSE-OPERATIONALLY	establishes noncircular attachment	instrument provenance and uncertainty remain outside bounded symbolic test
+clock_duration_value	OBSERVED-BLINDED	symbolic positive datum tau_star	must not be opened fitted or chosen in G252
+attachment_equality	SUPPLIED-EMPIRICAL-CONTRACT	tau_star equals metric proper time on identical segment	not a metric derivation or new kernel mechanism
+ell_solution	DERIVED-CONDITIONAL	ell=tau_star/bar_tau	unique only for positive nonzero matched durations
+c_E	OBSERVED-CONVERSION	maps tau_star to c_E tau_star after attachment	does not fix ell without tau_star and bar_tau
+second_clock_attachment	CONTROL	independent history-consistency test	must recover same ell and is not a second scale
+self_evaluated_clock	REJECTED-CIRCULAR	hostile control	cannot count as independent attachment
+mismatched_object_or_events	REJECTED-TYPE-ERROR	hostile control	cannot enter same-object equality
+nonpositive_duration	REJECTED-REGULARITY	hostile control	outside oriented regular interval
+history_query_branch	SUPPLIED-BOUNDED	condition of metric evaluator	not selected or fitted
+angular_source_transfer_caustics	OMITTED	outside local clock contract	remain open
+X_max_action_G_obs_matter_bootstrap	OMITTED	outside question	must not be activated
+observational_outcomes	CLOSED	blinding boundary	must not be inspected
+protected_local_work	FORBIDDEN	preservation boundary	must not be inspected staged or cited
+pinned_by_HABIT	NONE	anti-scaffolding gate	any discovered habit stops execution
