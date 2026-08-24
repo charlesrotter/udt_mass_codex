@@ -6,6 +6,7 @@ G188 quotient screen and matrix Jacobi IVP	DERIVED_CONDITIONAL	owns finite matri
 H=D^dagger D	DERIVED_CONDITIONAL	intrinsic observer-sky positive tensor	defined branchwise before aggregation
 A=sqrt(det H)=abs(det D)	DERIVED_CONDITIONAL	geometric source-screen area per observer solid angle	not flux luminosity or catalogue count by itself
 C=H/A and shear power	DERIVED_CONDITIONAL	coefficient-free scale/shape separation	cross-sky tensor comparison requires separately typed sky geometry
+parity of det(D)	DERIVED_CONDITIONAL_ORIENTATION_LINE_VALUE	regular-branch orientation channel	ordinary sign only after compatible endpoint orientations are supplied
 Jacobi full phase composition	DERIVED_CONDITIONAL	composes supplied null segments through G226	position block does not multiply by itself
 positive sky reference measure and bin kernels	QUERY_SUPPLIED	defines an outcome-blind angular projection	no preferred survey or feature scale
 normalized geometric-area projection	CHOSE_CONTROL	tests the exact metric response without a fitted amplitude	not a physical source detector or transfer law
@@ -15,4 +16,3 @@ BOSS CMB and other angular outcomes	OMITTED_CLOSED	no role in construction or te
 caustic critical infinite-image and coherent-wave strata	OMITTED_OPEN	not covered by regular endpoint tensor	full phase remains lawful where position shape normalization fails
 source density radiative transfer detector law	OPEN	not inserted into the geometric query	required for a catalogue prediction
 P1 G116 G189 X_max Lambda-CDM fitted coefficients protected payload	FORBIDDEN	no construction role	regression gate
-

@@ -30,7 +30,8 @@ The expected types are:
 - `A`: positive geometric area response;
 - `C`: positive determinant-one shape tensor;
 - `shear_power`: nonnegative, dimensionless, and zero exactly for conformal/isotropic screen maps;
-- `parity`: a separate regular-branch orientation sign.
+- `parity`: a separate regular-branch orientation-line value; it becomes an ordinary sign only
+  after compatible endpoint screen orientations are supplied.
 
 For a supplied normalized positive reference measure `Q` and positive area field `A`, define the
 explicitly chosen geometric-area query
@@ -51,9 +52,11 @@ The production and independent routes must establish:
 
 1. `det(H)=det(D)^2` and `det(C)=1` on every regular case;
 2. under endpoint screen bases `D -> Q_s^T D Q_o`, source gauge cancels and
-   `H -> Q_o^T H Q_o`; `A`, `shear_power`, and parity are invariant;
+   `H -> Q_o^T H Q_o`; `A` and `shear_power` are invariant, while
+   `parity -> det(Q_s) det(Q_o) parity` and is invariant as an ordinary sign only under oriented
+   `SO(2)` endpoint bases;
 3. under positive common screen scaling `D -> c D`, `A -> c^2 A`, while `C`,
-   `shear_power`, and parity are unchanged;
+   `shear_power`, and the orientation-line parity are unchanged;
 4. `shear_power >= 0`, with equality exactly when the two singular values agree;
 5. an isotropic/conformal response gives `C=I`, zero shear power, and an angularly constant `A`
    cancels from the normalized area query;
@@ -91,4 +94,3 @@ response on any supplied regular null sheet, and supplies a coefficient-free geo
 projection after the reference query is declared. It will not select the metric history, source or
 observer population, null sheet, detector semantics, feature scale, or physical catalogue map. It
 will not open or compare BOSS/CMB outcomes.
-
