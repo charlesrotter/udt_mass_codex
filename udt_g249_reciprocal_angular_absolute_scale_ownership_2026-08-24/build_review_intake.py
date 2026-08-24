@@ -19,7 +19,9 @@ PACKAGE_FILES = (
     "SOURCE_MANIFEST.tsv", "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
     "EVIDENCE_GATES.md", "STATUS_LEDGER.tsv", "COMMANDS.md", "REVIEW_REQUEST.md",
     "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
-    "VERIFICATION_RESULT.json", "derive_reciprocal_angular_scale.py",
+    "VERIFICATION_RESULT.json", "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md",
+    "TRANSMISSION_RECORD.md", "REPAIR_PREREGISTRATION.md", "REPAIR_PREREGISTRATION_COMMIT.md",
+    "REPAIR_RESULT.md", "REPAIR_FOLLOWUP_REQUEST.md", "derive_reciprocal_angular_scale.py",
     "verify_reciprocal_angular_scale_independent.py", "run_catch_proofs.py",
     "verify_package.py", "build_review_intake.py",
 )
@@ -77,14 +79,14 @@ def main() -> None:
         for path in sorted(set(copied))
     ]
     scope = {
-        "review": "G249_FRESH_READ_ONLY_ADVERSARIAL",
+        "review": "G249_REPAIR_ONLY_FOLLOWUP",
         "file_count_excluding_scope": len(entries),
         "files": entries,
         "allowed_actions": [
             "read sealed intake",
             "run registered no-write replays or bounded checks in a writable ephemeral copy",
         ],
-        "forbidden_actions": ["edit evidence", "continue research"],
+        "forbidden_actions": ["edit evidence", "continue research", "change scientific question"],
     }
     scope_path = destination / "REVIEW_SCOPE.json"
     scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")

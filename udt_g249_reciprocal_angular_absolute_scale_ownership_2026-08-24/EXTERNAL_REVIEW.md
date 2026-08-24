@@ -19,5 +19,6 @@ refutation. The reviewer instead found that the certification layer overstated i
 - the hostile suite used tautologies and phrase self-matches;
 - the package verifier rewarded exact replay and volume without requiring those missing tests.
 
-The result is therefore scientifically retained while its evidence grade is temporarily downgraded
-pending the preregistered repairs. The exact response is preserved in `EXTERNAL_REVIEW_RAW.md`.
+The result was therefore scientifically retained while its evidence grade was temporarily
+downgraded. The preregistered repairs now pass internally and await repair-only external follow-up.
+The exact original response is preserved in `EXTERNAL_REVIEW_RAW.md`.

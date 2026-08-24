@@ -69,6 +69,9 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv", "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
         "EVIDENCE_GATES.md", "STATUS_LEDGER.tsv", "COMMANDS.md", "REVIEW_REQUEST.md",
         "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md", "TRANSMISSION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md", "REPAIR_PREREGISTRATION_COMMIT.md", "REPAIR_RESULT.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
         "derive_reciprocal_angular_scale.py", "verify_reciprocal_angular_scale_independent.py",
         "run_catch_proofs.py", "verify_package.py", "build_review_intake.py",
     ]
@@ -107,16 +110,31 @@ def main() -> None:
         "production_floor": saved_production.get("cases", 0) >= 4096
         and saved_production.get("assertions", 0) >= 60000,
         "independent_floor": saved_independent.get("cases", 0) >= 10000
-        and saved_independent.get("assertions", 0) >= 150000,
+        and saved_independent.get("assertions", 0) >= 240000,
         "offdiagonal_floor": saved_production.get("offdiagonal_cases", 0) >= 3000
         and saved_independent.get("offdiagonal_cases", 0) >= 8000,
         "nonunit_scale_floor": saved_production.get("nonunit_scale_cases", 0) >= 3500
         and saved_independent.get("nonunit_scale_area_changes", 0) >= 9000,
         "hostile_floor": saved_catches.get("caught", 0) >= 20
         and saved_catches.get("caught") == saved_catches.get("total"),
+        "claim_directed_independent": saved_independent.get("implementation")
+        == "claim_directed_standard_library_fraction_no_sympy_no_production_import_or_output_read"
+        and all(saved_independent.get("claim_checks", {}).values())
+        and len(saved_independent.get("claim_checks", {})) == 6,
+        "homothety_claim_floor": saved_independent.get("homothety_scaling_cases", 0) >= 10000,
+        "same_phi_claim_floor": saved_independent.get("same_phi_jet_cases", 0) >= 10000,
+        "noninjective_claim_floor": saved_independent.get("noninjective_branch_cases", 0) >= 10000,
+        "ivp_uniqueness_claim_floor": saved_independent.get("ivp_uniqueness_cases", 0) >= 512
+        and saved_independent.get("ivp_series_degree", 0) >= 16,
+        "anchor_claim_floor": saved_independent.get("anchor_recovery_cases", 0) >= 10000,
+        "formula_level_mutations": saved_catches.get("implementation")
+        == "formula_level_mutation_tests_no_phrase_matching"
+        and len(saved_catches.get("mutations", {})) == saved_catches.get("total"),
         "outcomes_closed": saved_production.get("observational_outcomes") == "CLOSED_AND_UNREAD"
         and saved_independent.get("observational_outcomes") == "CLOSED_AND_UNREAD",
         "zero_fitted_coefficients": saved_production.get("fitted_coefficients") == 0,
+        "external_scientific_acceptance": "G249_ACCEPTED_AFTER_SPECIFIED_REPAIRS"
+        in (PKG / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
     }
     failed = [name for name, value in checks.items() if not value]
     result = {"checks": checks, "failed": failed, "status": "PASS" if not failed else "FAIL"}

@@ -53,11 +53,13 @@ single-valued `A(phi)` exists only on a declared injective branch.
 ## Evidence
 
 - Production: 4,096 exact symbolic/rational cases; 61,448 assertions.
-- Independent: 10,000 standard-library Fraction cases; 159,579 assertions; no SymPy, production
-  import, or production-output read.
-- Genuine off-diagonal Jacobi cases: 3,491 production and 8,869 independent.
-- Nonunit-scale area changes: 3,888 production and 9,576 independent.
-- Hostile mutations: 24/24 caught.
+- Repaired independent: 10,000 claim-directed standard-library Fraction cases; 248,310 assertions;
+  no SymPy, production import, or production-output read.
+- Exact claim-class coverage: 10,000 homothety, 10,000 same-`phi` jets, 10,000 noninjective
+  branches, 10,000 anchor recoveries, and 512 degree-16 two-method IVPs.
+- Genuine off-diagonal Jacobi cases: 3,491 production and 8,868 independent.
+- Nonunit-scale area changes: 3,888 production and 9,599 independent.
+- Formula-level hostile mutations and controls: 23/23 caught; no phrase matching.
 - Fitted coefficients: zero.
 - Observational outcomes: closed and unread.
 
@@ -67,6 +69,6 @@ This result does not select a physical history, numerical scale, observational a
 observer population, detector/transfer/luminosity law, branch aggregation, caustic completion,
 `X_max`, action, source, matter, bootstrap, mass, or signalling.
 
-External review retained the scientific landing but required claim-directed certification repairs.
-Interim status:
-`DERIVED_CONDITIONAL__SCIENTIFIC_LANDING_EXTERNALLY_ACCEPTED__CERTIFICATION_REPAIRS_REQUIRED`.
+External review retained the scientific landing and required claim-directed certification repairs.
+Those preregistered repairs now pass; repair-only follow-up is pending. Current status:
+`DERIVED_CONDITIONAL__REPAIRED_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`.

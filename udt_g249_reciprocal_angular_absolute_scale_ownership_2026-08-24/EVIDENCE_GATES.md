@@ -6,11 +6,11 @@ Date: 2026-08-24
 2. Full space or bounded scope justified: **PASS WITH BOUNDS** — general constant-homothety/Jacobi
    theorem plus primary static-spherical exact diagnostics; physical history, branches, caustics,
    and observations remain open.
-3. Independently verified: **REPAIR REQUIRED** — the external reviewer found that the original
-   Fraction replay was implementation-independent but did not directly test every claimed branch,
-   IVP, and anchor boundary.
+3. Independently verified: **PASS AFTER PREREGISTERED REPAIR** — 10,000 claim-directed Fraction
+   cases plus 512 degree-16 two-method IVP comparisons now directly test every registered claim
+   class without production import or output read.
 4. Every premise audited: **PASS** — no habit pin, numerical scale, fitted profile, outcome, `X_max`,
    transfer, source, detector, or protected payload entered.
 
-Interim grade after fresh external review:
-`DERIVED_CONDITIONAL__SCIENTIFIC_LANDING_EXTERNALLY_ACCEPTED__CERTIFICATION_REPAIRS_REQUIRED`.
+Maximum grade before repair-only external follow-up:
+`DERIVED_CONDITIONAL__REPAIRED_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`.

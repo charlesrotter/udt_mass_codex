@@ -1,11 +1,25 @@
 {
-  "assertions": 159579,
+  "anchor_recovery_cases": 10000,
+  "assertions": 248310,
   "cases": 10000,
+  "claim_checks": {
+    "ce_dimension_cannot_form_area": true,
+    "homothety_jacobi_area_shape_scaling": true,
+    "identical_tidal_history_and_vertex_data_match_by_two_series_methods": true,
+    "noninjective_phi_branch_is_multivalued_in_area": true,
+    "one_positive_area_anchor_recovers_scale": true,
+    "same_phi_different_jet_response": true
+  },
   "dimensional_candidates": [],
   "expected_landing": "CE_AND_RECIPROCAL_REDSHIFT_FIX_DIMENSIONLESS_CLOCK_RATIOS_NOT_ABSOLUTE_LENGTH__POSITIVE_HOMOTHETY_PRESERVES_COMPLETE_DIMENSIONLESS_PHI_HISTORY_CAUSAL_STRUCTURE_AND_NORMALIZED_SHAPE_WHILE_JACOBI_AREA_SCALES_AS_LENGTH_SQUARED__PHI_VALUE_ALONE_DOES_NOT_FIX_NORMALIZED_ANGULAR_RESPONSE__FULL_DIMENSIONLESS_METRIC_AND_BRANCH_FIX_NORMALIZED_JACOBI_RESPONSE_CONDITIONALLY__ONE_INDEPENDENT_DIMENSIONFUL_ANCHOR_REMAINS_FOR_ABSOLUTE_SCALE",
-  "implementation": "independent_standard_library_fraction_no_sympy_no_production_import_or_output_read",
-  "nonunit_scale_area_changes": 9576,
+  "homothety_scaling_cases": 10000,
+  "implementation": "claim_directed_standard_library_fraction_no_sympy_no_production_import_or_output_read",
+  "ivp_series_degree": 16,
+  "ivp_uniqueness_cases": 512,
+  "noninjective_branch_cases": 10000,
+  "nonunit_scale_area_changes": 9599,
   "observational_outcomes": "CLOSED_AND_UNREAD",
-  "offdiagonal_cases": 8869,
+  "offdiagonal_cases": 8868,
+  "same_phi_jet_cases": 10000,
   "status": "PASS"
 }
