@@ -1,0 +1,11 @@
+claim	status	evidence	open_scope
+proper_time_homothety_weight_plus_one	DERIVED-CONDITIONAL	EXACT_DERIVATION.md and DERIVATION_RESULT.json	supplied complete dimensionless history and regular timelike segment
+one_clock_attachment_fixes_ell	VERIFIED-WITH-CAVEATS	4096 production cases and 12000 independent cases	clock value and same-object operational attachment remain supplied
+orientation_preserving_reparameterization_invariance	VERIFIED-EXACT	symbolic and exact rational checks	orientation-reversing or singular parametrizations excluded
+c_E_clock_length_conversion	DERIVED-CONDITIONAL	L_clock=c_E tau_star	c_E alone does not select ell or an interval
+second_attachment_common_scale_test	VERIFIED-WITH-CAVEATS	12000 independent inconsistent controls rejected	global history and observer population remain open
+attachment_identity_and_independence	SUPPLIED-OPERATIONAL-INPUT	PREMISE_LEDGER.tsv and hostile controls	not derived from metric
+observational_clock_value	OPEN-BLINDED	zero observational values used	must be selected and declared later
+complete_physical_history	OPEN	local attachment does not distinguish histories agreeing on bar_tau	needs independent multi-object constraints
+reciprocal_kernel_modification	NONE	zero new kernel mechanisms	G252 is downstream calibration only
+canonization	NOT_REQUESTED	Charles canonizes	no CANON.md change

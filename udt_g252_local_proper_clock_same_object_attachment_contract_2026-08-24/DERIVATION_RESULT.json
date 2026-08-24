@@ -1,0 +1,21 @@
+{
+  "exact_checks": {
+    "c_E_is_post_attachment_conversion": true,
+    "common_unit_conversion_preserves_scale": true,
+    "orientation_preserving_reparameterization": true,
+    "proper_time_weight_plus_one": true,
+    "unique_positive_scale_solution": true
+  },
+  "fitted_coefficients": 0,
+  "history_selected": false,
+  "landing": "ONE_BLINDED_INDEPENDENT_PROPER_CLOCK_RECORD_ON_ONE_FROZEN_IDENTIFIED_TIMELIKE_SEGMENT_CONDITIONALLY_FIXES_THE_SINGLE_G249_SCALE__CE_CONVERTS_THE_ATTACHED_DURATION_TO_LENGTH_WITHOUT_ADDING_A_SCALE_PARAMETER__A_SECOND_FROZEN_CLOCK_ATTACHMENT_TESTS_THE_SUPPLIED_DIMENSIONLESS_HISTORY_BY_EQUAL_SCALE_RECOVERY__EVENT_IDENTITY_AND_INDEPENDENT_CALIBRATION_ARE_SUPPLIED_OPERATIONAL_INPUTS_NOT_METRIC_DERIVATIONS__NO_CLOCK_VALUE_HISTORY_BRANCH_POPULATION_FIT_OUTCOME_OR_NEW_KERNEL_MECHANISM_SELECTED",
+  "new_kernel_mechanisms": 0,
+  "observational_values_used": 0,
+  "sampled": {
+    "assertions": 20480,
+    "cases": 4096,
+    "segment_terms": 18451
+  },
+  "source_count_verified": 6,
+  "status": "PASS"
+}

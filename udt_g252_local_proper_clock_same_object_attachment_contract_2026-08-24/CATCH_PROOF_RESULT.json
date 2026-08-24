@@ -1,0 +1,29 @@
+{
+  "caught": 20,
+  "implementation": "executable_metadata_and_exact_arithmetic_mutations",
+  "missed": [],
+  "mutations": {
+    "branch_mismatch_rejected": true,
+    "c_E_alone_not_a_scale_equation": true,
+    "control_common_scale": true,
+    "control_recovers_scale": true,
+    "empty_attachment_set_rejected": true,
+    "end_event_mismatch_rejected": true,
+    "inconsistent_second_attachment_rejected": true,
+    "local_anchor_does_not_select_history": true,
+    "missing_calibration_identity_rejected": true,
+    "missing_clock_identity_rejected": true,
+    "negative_clock_duration_rejected": true,
+    "negative_model_duration_rejected": true,
+    "nonindependent_calibration_rejected": true,
+    "observer_mismatch_rejected": true,
+    "per_attachment_scale_proliferation_rejected": true,
+    "same_unit_change_control": true,
+    "self_evaluation_rejected": true,
+    "start_event_mismatch_rejected": true,
+    "zero_clock_duration_rejected": true,
+    "zero_model_duration_rejected": true
+  },
+  "status": "PASS",
+  "total": 20
+}
