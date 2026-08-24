@@ -2,7 +2,7 @@
 
 Date: 2026-08-24
 
-Status: `EXTERNAL_SCIENCE_ACCEPTED__REPAIR_ONLY_FOLLOWUP_PENDING`
+Status: `EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS`
 
 ## Landing
 
@@ -64,11 +64,14 @@ caustic phase handling, and nonautonomy witness. It returned a repairable verdic
 premise verifier named in `COMMANDS.md` was absent from the intake and pytest was not explicitly
 labelled as repository-only smoke testing. The corrected repair retains only the four self-contained
 G245 no-write commands in the sealed replay and labels the premise verifier and pytest as
-repository-only gates. It preserves every scientific output.
+repository-only gates. It preserves every scientific output. The repair-only follow-up reviewer
+then matched all 29 corrected scoped hashes, reran all four commands successfully, confirmed the
+unchanged five-source authority set and bounded landing, and returned
+`G245_REPAIR_FOLLOWUP_ACCEPTED` with no remaining defect.
 
 ## Next gate
 
-Obtain repair-only follow-up acceptance, then bank the bounded theorem. The subsequent scientific
-question is whether a completed two-observer null relation can be obtained as a transverse
+Bank the bounded theorem. The subsequent scientific question is whether a completed two-observer
+null relation can be obtained as a transverse
 intersection/incidence construction between their two metric-owned direction-labelled cone fields,
 without selecting a preferred ray or importing a source law.

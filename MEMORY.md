@@ -4,7 +4,7 @@
 
 ## Current theory picture
 
-G166--G244: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
+G166--G245: a supplied pair germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair
 Dual Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived
 or canon. `phi_control` is an arbitrary-calibration control.
 
@@ -22,27 +22,19 @@ G236/G237 freeze processed SNe `R(phi)` with imported transfer and chosen zero c
 covariance. G238 lacks continuous history/two-source map; G239 closes conditional
 mismatch-plus-`Gamma`; G240 removes free weights only for its `CHOSE` supplied all-image query.
 
-G241 retains the exact scale-free radial-to-tidal bridge without an angular coefficient; its
-degrees 2--4 fail joint adequacy/invertibility. This is a bounded carrier negative.
-
-G242: the exact G201 zero-tide radial subfamily is externally rejected on the frozen G237
-full-covariance state (`chi2=8519.0092` versus `31.2641`). This does not alter direct reciprocal SNe
-redshift or exclude a small nonzero response.
-
-G243: direct SNe `phi=log(1+z)`; local turning curve reproduced; no freeze/history.
-
-G244: externally accepted native `H=D^dagger D`, area `A=abs(det D)`, shape `C=H/A`; no fit/outcomes. History/null sheet and source/catalogue remain open.
+G241 retains the radial-to-tidal bridge but rejects degree-2--4 carriers. G242 rejects exact G201
+zero tide on frozen G237, not small response. G243 keeps direct `phi=log(1+z)` and a local turning
+control, without freeze/history. G244 derives native `H,A,C`; G245 derives the local cone
+`F(lambda,n)=Exp_o(lambda(U+n))` from metric plus germ. Incidence, branches, and history stay open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observational pointer
 
-R2--R5: verified with caveats; interpretation unresolved. G236/G237: processed SNe state/freeze.
-G238 types held-out BOSS; G239/G240 close conditional operator/counting. G241 rejects compact
-carriers, G242 rejects exact zero tide only on the bounded SNe control, G243 retains one local
-turning candidate without freeze, and G244 closes the outcome-blind native area/shape query.
-History/source inputs and observational outcomes remain open.
+R2--R5 remain unresolved observations. G236/G237 freeze processed SNe; G238--G240 type the held-out
+operator. G241--G243 bound radial controls; G244/G245 derive the outcome-blind local sky/cone.
+History, incidence, and observational outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -63,8 +55,9 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
 
 ## Next gate
 
-G244 built the outcome-blind native area/shape query. Next preregister a supplied history/null-sheet
-evaluation or minimal source/incidence control before outcomes. SNe redshift stays direct from
+G245 removed the need to supply a local null sheet separately from a metric and observer germ. Next
+preregister whether two metric-owned observer cones determine a completed local null relation by
+transverse incidence, including reversal and regular/caustic typing. SNe redshift stays direct from
 reciprocal `phi`; do not fit an angular coefficient or activate G225, P1, `X_max`, or protected work.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

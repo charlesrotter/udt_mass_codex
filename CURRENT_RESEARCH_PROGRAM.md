@@ -72,23 +72,13 @@ physical scalar after the working premise. They must not be conflated.
 - G239 verifies conditional mismatch-plus-`Gamma`: constant matched response cancels, while sibling
   branches contribute. G240's `CHOSE` all-image census removes free weights only on a supplied
   proper regular relation. Physical inputs, critical strata, transfer, and outcomes stay open.
-- G241 tests the first explicit bounded SNe anchor carrier while BOSS outcomes remain closed. The
-  G127 radial-to-tidal identity is retained exactly and loses absolute radius and any angular fit
-  amplitude. Anchored Chebyshev degrees 2--4 all fail the joint adequacy/invertibility contract, so
-  no carrier is selected and no larger family is authorized after the result.
-- G242 tests the exact G201 simultaneous-zero-tide radial subfamily. After anchoring, its unknown
-  scale cancels and no coefficient is fit, but `chi2=8519.009211032242` for eleven full-covariance
-  coordinates exceeds ceiling `31.264133620239985`. External review accepts only the bounded
-  negative: exact silence fails on this query; small nonzero response and continuous history remain
-  open, and reciprocal SNe redshift remains direct.
-- G243 tests a covariance-aware nonparametric route. Direct SNe redshift is `phi=log(1+z)` without
-  angular input. Two routes reproduce one local turning candidate, but 29 of 485 extreme rows miss
-  the preregistered agreement gate. `NO_FREEZE` controls; no global inverse or history follows.
-- G244 constructs a coefficient-free, outcome-blind observer-sky query from the full G188 Jacobi
-  matrix. `H=D^dagger D` gives area/shape; full G226 phase composes. The reference projection is
-  `CHOSE`, not a source/detector law; history, catalogue semantics, and critical strata remain open.
+- G241 retains the exact radial-to-tidal bridge but rejects degree-2--4 carriers; BOSS stays closed.
+- G242 rejects only exact G201 zero tide on frozen SNe; direct redshift and small response stay open.
+  G243 keeps direct `phi=log(1+z)` and a local turning control, but fails whole-census freeze.
+- G244 derives outcome-blind `H,A,C`; G245 derives the local cone `F=Exp_o(lambda(U+n))` from metric
+  plus germ. Preferred rays, incidence, global branches, source/detector, and history remain open.
 
-G206--G244 generate no sector function or `X_max`. Exact
+G206--G245 generate no sector function or `X_max`. Exact
 frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
 `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
@@ -106,7 +96,8 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
 `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`. Exact zero-tide SNe control:
 `udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`. Nonparametric SNe radial control:
 `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`. Metric-native observer-sky query:
-`udt_g244_metric_native_observer_sky_response_query_2026-08-24/`. Evaluator:
+`udt_g244_metric_native_observer_sky_response_query_2026-08-24/`. Metric-owned local cone:
+`udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -120,14 +111,15 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
   identity but rejects only its registered degree-2--4 observational carriers. G242 rejects the one
   exact zero-tide radial subfamily on the bounded SNe state while leaving small nonzero response
   open. G243 then retains one nonparametric local turning candidate while failing the preregistered
-  whole-census freeze. G244 closes the native area/shape operator but still requires a supplied
-  history/null sheet and source/catalogue contract for real-sky evaluation.
+  whole-census freeze. G244 closes the native area/shape operator; G245 then derives its full local
+  null sheet from a supplied metric and observer germ. Physical history, two-observer
+  source/endpoint incidence, global branches, and catalogue semantics remain open.
 - Events, germs, population, branches, global realization, transfer, source/matter, action,
   bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G244 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G245 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -139,6 +131,7 @@ formula-level regression or chosen-family controls.
 
 G199--G235 close evaluation/nonselection; G236/G237 freeze a finite SNe state; G238--G240 close the
 held-out operator without outcomes. G241 rejects compact carriers, G242 rejects exact zero tide as
-the whole bounded SNe radial history, G243 retains a local turning candidate, and G244 closes the
-native area/shape query. Next freeze a history/null-sheet evaluation or minimal source/incidence
-control before outcomes. Never fit an angular coefficient, insert `X_max`, or activate protected work.
+the whole bounded SNe radial history, G243 retains a local turning candidate, G244 closes the
+native area/shape query, and G245 derives the full local cone from a supplied metric and observer
+germ. Next test the bounded two-observer cone-incidence construction before outcomes. Never fit an
+angular coefficient, insert `X_max`, or activate protected work.

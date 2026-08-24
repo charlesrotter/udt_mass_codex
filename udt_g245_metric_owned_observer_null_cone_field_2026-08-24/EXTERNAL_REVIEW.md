@@ -36,3 +36,17 @@ G245_ACCEPTED_WITH_STATED_BOUNDS
 
 The review text is preserved verbatim in `EXTERNAL_REVIEW_RAW.md`; only a terminal newline was
 normalized for repository storage.
+
+## Repair-only follow-up
+
+The corrected sealed 30-file intake declared 29 scoped files. The follow-up reviewer recomputed all
+29 hashes with zero mismatches and successfully ran the four self-contained no-write replays. It
+confirmed `source_count: 5`, the unchanged production and independent case counts, all 12 hostile
+catches, and the unchanged bounded scientific classification. It returned:
+
+```text
+G245_REPAIR_FOLLOWUP_ACCEPTED
+```
+
+Remaining defect: none. The exact follow-up text is preserved in
+`EXTERNAL_REPAIR_FOLLOWUP_RAW.md`; only a terminal newline was normalized for repository storage.

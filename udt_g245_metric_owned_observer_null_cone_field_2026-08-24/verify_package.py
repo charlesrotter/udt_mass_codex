@@ -29,6 +29,16 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def preregistration_registry_digest(path: Path) -> str:
+    """Recover the exact pre-G245 registry beneath append-only descendant rows."""
+    lines = path.read_bytes().splitlines(keepends=True)
+    indices = [index for index, line in enumerate(lines) if line.startswith(b"G245\t")]
+    if len(indices) != 1 or not lines or not lines[0].startswith(b"premise_id\t"):
+        raise RuntimeError("live registry must contain exactly one banked G245 row")
+    historical = lines[0] + b"".join(lines[indices[0] + 1 :])
+    return hashlib.sha256(historical).hexdigest()
+
+
 def replay(script: str) -> dict[str, object]:
     process = subprocess.run(
         [sys.executable, str(PACKAGE / script), "--no-write"],
@@ -47,7 +57,10 @@ def verify_sources() -> int:
     checked = 0
     for line in lines[1:]:
         expected, relative, _role = line.split("\t")
-        actual = sha256(ROOT / relative)
+        source = ROOT / relative
+        actual = sha256(source)
+        if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv" and actual != expected:
+            actual = preregistration_registry_digest(source)
         if actual != expected:
             raise RuntimeError(f"source hash mismatch: {relative}")
         checked += 1

@@ -15,13 +15,15 @@
 
 Hostile mutation gate: PASS, 12/12.
 
-External adversarial gate: SCIENCE ACCEPTED; REPAIR-ONLY PACKAGING FOLLOW-UP PENDING. The reviewer
+External adversarial gate: PASS WITH STATED BOUNDS AFTER REPAIR-ONLY FOLLOW-UP. The original reviewer
 found no mathematical objection or overclaim. The corrected command-list repair keeps only four
 self-contained G245 no-write commands in the sealed replay and labels the repository-wide premise
-verifier and pytest as external-to-intake gates.
+verifier and pytest as external-to-intake gates. The follow-up reviewer matched all 29 corrected
+scoped hashes, reran all four sealed commands successfully, confirmed the unchanged landing and
+five-source authority set, and found no remaining defect.
 
 Current grade:
 
 ```text
-EXTERNAL_SCIENCE_ACCEPTED__REPAIR_ONLY_FOLLOWUP_PENDING
+EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS
 ```

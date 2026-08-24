@@ -195,7 +195,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G244",
+            "G166--G245",
             "G197",
             "G215",
             "G216",
@@ -227,6 +227,7 @@ def validate_startup_surface(root: Path) -> None:
             "G242",
             "G243",
             "G244",
+            "G245",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -269,7 +270,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "227-row exact registry",
+            "228-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -354,7 +355,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G244",
+            "G166--G245",
             "G197",
             "G198",
             "G199",
@@ -404,6 +405,7 @@ def validate_startup_surface(root: Path) -> None:
             "G242",
             "G243",
             "G244",
+            "G245",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -466,6 +468,7 @@ def validate_startup_surface(root: Path) -> None:
             "G242",
             "G243",
             "G244",
+            "G245",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -523,10 +526,11 @@ def validate_startup_surface(root: Path) -> None:
             "G242",
             "G243",
             "G244",
+            "G245",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "227-row",
+            "228-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -869,9 +873,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 227, "premise registry must contain exactly 227 rows")
+    require(len(rows) == 228, "premise registry must contain exactly 228 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 227, "duplicate premise id")
+    require(len(by_id) == 228, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5054,6 +5058,152 @@ def main() -> None:
         text=True,
     )
     require(json.loads(g244_replay.stdout)["status"] == "PASS", "G244 live no-write replay failed")
+    require(
+        by_id["G245"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS__PREREGISTERED_AT_99AF2336"
+        ),
+        "G245 bounded grade changed",
+    )
+    for guard in (
+        "CORRECTED_REPAIR_ONLY_FOLLOWUP_ACCEPTED_NO_REMAINING_DEFECT",
+        "METRIC_AND_OBSERVER_GERM_OWN_FULL_LOCAL_DIRECTION_LABELLED_NULL_CONE",
+        "K_EQUALS_U_PLUS_N_UNIQUE_NORMALIZED_FUTURE_NULL_GENERATOR",
+        "ANGULAR_DIFFERENTIAL_IS_G188_JACOBI_MAP",
+        "G244_H_A_C_ARE_INDUCED_CONE_GEOMETRY",
+        "FULL_G226_PHASE_RETAINED_AT_CAUSTICS",
+        "H_ALONE_NOT_AUTONOMOUS",
+        "ZERO_FITTED_ANGULAR_COEFFICIENTS",
+        "NO_PREFERRED_RAY_SOURCE_ENDPOINT_GLOBAL_BRANCH_HISTORY_FIT_OR_OUTCOME",
+    ):
+        require(guard in by_id["G245"]["current_status"], f"G245 guard absent: {guard}")
+    require(by_id["G245"]["epistemic_label"] == "MIXED", "G245 label changed")
+    require(
+        by_id["G245"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_SUPPLIED_SMOOTH_TIME_ORIENTED_LORENTZ_METRIC_AND_ONE_OBSERVER_EVENT_UNIT_FUTURE_CLOCK_LOCAL_EXPONENTIAL_DOMAIN_ONLY",
+        "G245 active scope widened",
+    )
+    for guard in (
+        "local cone called selected physical history or observer population",
+        "one ray preferred",
+        "constant affine cut called physical distance shell",
+        "D or H called composable full phase",
+        "D inverted at caustic",
+        "H called autonomous",
+        "fitted angular coefficient",
+        "local theorem widened to global endpoint selection",
+    ):
+        require(guard in by_id["G245"]["forbidden_regression"], f"G245 regression guard absent: {guard}")
+    require(
+        by_id["G245"]["controlling_source"]
+        == "udt_g245_metric_owned_observer_null_cone_field_2026-08-24/AUDIT_REPORT.md",
+        "G245 controlling source changed",
+    )
+    g245 = ROOT / "udt_g245_metric_owned_observer_null_cone_field_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REVIEW_REPAIR_CORRECTION_PREREGISTRATION.md",
+        "REVIEW_REPAIR_EXECUTION_NOTE.md",
+        "REVIEW_REPAIR_PREREGISTRATION.md",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_metric_owned_null_cone.py",
+        "run_catch_proofs.py",
+        "verify_metric_owned_null_cone_independent.py",
+        "verify_package.py",
+    ):
+        require((g245 / name).is_file(), f"G245 evidence missing: {name}")
+    expected_g245 = (
+        "OBSERVER_GERM_AND_METRIC_OWN_LOCAL_DIRECTION_LABELLED_NULL_CONE_FIELD"
+        "__G244_AREA_SHAPE_ARE_INDUCED_CONE_GEOMETRY"
+        "__SOURCE_POPULATION_GLOBAL_BRANCH_AND_PHYSICAL_HISTORY_REMAIN_OPEN"
+    )
+    g245_result = json.loads((g245 / "DERIVATION_RESULT.json").read_text())
+    g245_independent = json.loads((g245 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g245_catches = json.loads((g245 / "CATCH_PROOF_RESULT.json").read_text())
+    g245_verification = json.loads((g245 / "VERIFICATION_RESULT.json").read_text())
+    require(g245_result["classification"] == expected_g245, "G245 production landing changed")
+    require(g245_independent["classification"] == expected_g245, "G245 independent landing changed")
+    require(
+        g245_result["observer_cone"]["normalized_null_generator"]
+        == "k(n)=U+n; -g(U,k)=1"
+        and g245_result["observer_cone"]["preferred_ray_selected"] is False
+        and g245_result["observer_cone"]["source_population_required"] is False,
+        "G245 observer-cone typing changed",
+    )
+    require(
+        g245_result["induced_field"]["angular_differential"] == "D=d_n F"
+        and g245_result["induced_field"]["area"] == "A=abs(det D)"
+        and g245_result["induced_field"]["full_phase_required"] is True
+        and g245_result["induced_field"]["H_alone_autonomous"] is False,
+        "G245 induced-field typing changed",
+    )
+    require(
+        g245_result["controls"]["caustic"]["position_inverse_used"] is False
+        and g245_result["controls"]["caustic"]["full_phase_det"] == "1",
+        "G245 caustic phase typing changed",
+    )
+    require(
+        g245_result["finite_census"]["cases"] == 1024
+        and g245_result["finite_census"]["assertions"] == 12288
+        and g245_independent["finite_census"]["cases"] == 5000
+        and g245_independent["finite_census"]["assertions"] == 60000,
+        "G245 finite census changed",
+    )
+    require(
+        g245_result["fitted_angular_coefficients"] == 0
+        and g245_result["observational_outcomes"] == "CLOSED_AND_UNREAD"
+        and g245_result["physical_history"] == "QUERY_SUPPLIED_NOT_SELECTED",
+        "G245 physical boundary changed",
+    )
+    require(
+        g245_independent["imports_production_code"] is False
+        and g245_independent["reads_production_output"] is False,
+        "G245 independent route contaminated",
+    )
+    require(g245_catches["status"] == "PASS" and g245_catches["caught"] == 12,
+            "G245 hostile catches changed")
+    require(
+        g245_verification["status"] == "PASS"
+        and g245_verification["classification"] == expected_g245
+        and g245_verification["source_count"] == 5
+        and g245_verification["production_cases"] == 1024
+        and g245_verification["independent_cases"] == 5000
+        and g245_verification["hostile_catches"] == 12
+        and all(g245_verification["checks"].values()),
+        "G245 package verification changed",
+    )
+    require(
+        "G245_REPAIR_FOLLOWUP_ACCEPTED" in (g245 / "EXTERNAL_REPAIR_FOLLOWUP_RAW.md").read_text(),
+        "G245 repair-only follow-up acceptance absent",
+    )
+    require(len(read_tsv(g245 / "SOURCE_MANIFEST.tsv")) == 5, "G245 source count changed")
+    g245_replay = subprocess.run(
+        [sys.executable, str(g245 / "verify_package.py"), "--no-write"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    require(json.loads(g245_replay.stdout)["status"] == "PASS", "G245 live no-write replay failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -9277,7 +9427,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244-extended startup and premise guards; PASS: 227-row premise "
+        "PASS: G242/G243/G244/G245-extended startup and premise guards; PASS: 228-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock/state network | G215--G244 | Evaluators, frozen state, held-out operators, native sky query | History; source/detector values |
+| Pair-clock/state network | G215--G245 | Evaluators, frozen state, held-out operators, native sky/cone query | History; source/detector values |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -41,15 +41,10 @@
 | G229/G230 metric jets | exact; independent | Compatible 3/4-jets; no regional field/history |
 | G231 Cartan bridge | exact; conditional existence | Regional integration architecture; law/values open |
 | G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; literal matched-network existence is nonselective |
-| G236 state projection | external after repair | Two processed SNe releases support one relative `R(phi)` shape; no law |
-| G237 state freeze | external after repair | `K=12` covariance; unknown cross-release covariance chosen zero |
-| G238 held-out query typing | external after repair | G237 finite state does not determine continuous history or two-source BOSS forward map; outcomes closed |
-| G239 reference operator | external after repair | Conditional mismatch plus `Gamma`; one-image Poisson scope; sibling contribution; inputs/outcomes open |
-| G240 null-image census | external after repair | Chosen all-image query removes free weights; inputs open |
-| G241 SNe tidal bridge | external | Conditional tidal identity retained; degree-2--4 carriers rejected; history open |
-| G242 exact zero-tide SNe control | external | Exact G201 zero-tide radial subfamily rejected on frozen state; small nonzero response open |
-| G243 SNe spline | external | Direct redshift; local turning candidate; no freeze or history |
-| G244 native sky query | external | Jacobi area/shape; no fit/outcomes; history/source open |
+| G236/G237 SNe state | external after repair | Processed relative shape and `K=12` covariance; no law |
+| G238/G239/G240 held-out query | external after repair | Typing, conditional operator, all-image census; inputs/outcomes open |
+| G241/G242/G243 radial controls | external | Compact carriers and exact zero tide rejected; local turning/no-freeze retained |
+| G244/G245 native sky/cone | external after repair | `H,A,C` and local cone from metric plus germ; incidence/history open |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -75,8 +70,10 @@ None selects completion/`X_max`.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selecting them.
 - G212--G235 close evaluation/reconstruction, not selection. G236/G237 freeze a conditional state;
   G238--G240 type its held-out operator/counting. G241 rejects compact carriers, G242 rejects exact
-  zero tide only on the bounded SNe state, G243 retains a local turning curve, and G244 closes the
-  outcome-blind Jacobi area/shape query. History, source, detector, population, and completion stay open.
+  zero tide only on the bounded SNe state, G243 retains a local turning curve, G244 closes the
+  outcome-blind Jacobi area/shape query, and G245 derives its full local null cone from a supplied
+  metric and observer germ. History, source/endpoint incidence, detector, population, and global
+  completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -95,7 +92,7 @@ None selects completion/`X_max`.
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
 transfer and freeze conditional SNe state, not law. G242/G243 use temporary transfer only for
-bounded radial controls. G244 uses no observational outcome. G238--G244 keep BOSS closed; history,
+bounded radial controls. G244/G245 use no observational outcome. G238--G245 keep BOSS closed; history,
 source, and transfer remain open.
 
 ## Recurring prohibited promotions
@@ -110,7 +107,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 227-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 228-row authority; conflicts stop.
 
 Run:
 

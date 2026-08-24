@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G244. In the spherical slice, the full pair pullback is
+The active primary chain is G166--G245. In the spherical slice, the full pair pullback is
 `h=Y^T B^T eta_2 B Y+Z^T Q^T Q Z`: `B,Q` are metric-fixed, `S=0`, and the supplied germ fixes
 `Y,Z`. The entire `B,Q,S,Y,Z` orchestra precedes readout.
 
@@ -59,6 +59,14 @@ Its coefficient-free `CHOSE_QUERY_CONTROL` cancels constant response; `-1/6` is 
 not a fit/history. Full G226 phase alone composes. History, source/catalogue semantics, critical
 strata, and outcomes remain open; no fitted angular coefficient or BOSS/CMB result entered.
 
+G245 is externally accepted after a repair-only packaging follow-up. A supplied smooth
+time-oriented metric, observer event `o`, and unit future clock `U` own the full local
+direction-labelled null cone: `S_o^2={n in U_perp:g(n,n)=1}`, `k(n)=U+n`, and
+`F(lambda,n)=Exp_o(lambda k(n))`. Its angular differential is the G188 Jacobi map, so G244's
+`H,A,C` are induced cone geometry rather than a separately supplied local null sheet. No preferred
+ray, source/endpoint incidence, observer population, global branch, detector, or physical metric
+history follows; the full G226 phase remains necessary at caustics.
+
 Maximum conclusion: the primary metric evaluates supplied completed pairs, not a universal
 moving/time-live correspondence. No second kernel scalar or pair-clock coefficient is needed.
 G197 excludes P1, G116/G189 transfer, fits, `X_max`, G142--G160 scaffolds, and protected payload as
@@ -68,7 +76,7 @@ construction inputs. G190--G198 are chosen-family or formula-level regression co
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Exact premise authority: the 227-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
+Exact premise authority: the 228-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Conditional evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Earlier dependency and control chain:
 `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197 startup prose:
 `archive/startup_surface_2026-08-21_pre_g197/`; exact pre-cleanup G218 surface:
@@ -84,9 +92,10 @@ the conditional scale-free radial-to-tidal bridge but rejects the registered 2--
 smooth carriers. G243 independently confirms that SNe redshift itself is direct reciprocal `phi`,
 while its temporary-transfer radial spline remains an uncertified turning local representation.
 G242 independently rules out replacing the full SNe interval by the one exact G201 zero-tide radial
-subfamily, while leaving a small nonzero response open. G244 now supplies the outcome-blind native
-screen area/shape query, but not its real-sky history or source/catalogue semantics. BOSS outcomes
-remain closed. Raw archive:
+subfamily, while leaving a small nonzero response open. G244 supplies the outcome-blind native
+screen area/shape query. G245 derives its entire local direction-labelled null sheet from a
+supplied metric and observer germ, but not a real-sky metric history, observer/source incidence,
+global branch, or catalogue semantics. BOSS outcomes remain closed. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -100,10 +109,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G244 closes the separately typed outcome-blind native area/shape query. The next bounded gate is to
-preregister which still-open input is being supplied first: either one complete metric history and
-regular null sheet for geometric evaluation, or a minimal source/incidence control for a later
-catalogue comparison. Keep SNe redshift direct from reciprocal `phi`; do not fit an angular
+G245 closes ownership of the full local direction-labelled cone from a supplied metric and observer
+germ. The next bounded gate is to preregister whether two such observer cones own a completed local
+null relation through transverse intersection/incidence, including reversal and regular-versus-
+caustic typing, without selecting a preferred ray or importing a source law. Keep SNe redshift
+direct from reciprocal `phi`; do not fit an angular
 coefficient, read BOSS/CMB outcomes before the input contract is frozen, select G225 transport, or
 import P1, `X_max`, Lambda-CDM distances, G116/G189, or protected work.
 <!-- STARTUP_CURRENT_END -->

@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G244 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G245 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -26,26 +26,20 @@ mismatch-plus-`Gamma` operator. G240's `CHOSE` all-regular-image query removes a
 weights only on a supplied proper regular relation. None supplies history, source/detector law,
 critical strata, native transfer, or BOSS outcomes.
 
-G241 retains the exact scale-free G127 radial-to-tidal bridge without an angular coefficient, but
-its preregistered degrees 2--4 fail joint adequacy/invertibility. This bounded negative neither
-rejects the kernel nor supplies history.
-
-G242 is externally accepted without repair. The exact G201 zero-tide family `f(r)=1+C r^2`
-produces a coefficient-free anchored radial shape, but its full-covariance mismatch with the frozen
-G237 state is `chi2=8519.009211032242` against ceiling `31.264133620239985`. This rejects only exact
-silence on the bounded conditional SNe query. Reciprocal redshift remains direct; small nonzero
-response, continuous history, and BOSS outcomes remain open.
-
-G243 is externally accepted without repair. Direct SNe redshift is `phi=log(1+z)` with no angular
-input. Under imported temporary transfer, two full-covariance routes reproduce a local turning
-`K=48`, `alpha=0.1` curve, but 29 of 485 extreme rows fail the preregistered agreement gate.
-`NO_FREEZE` controls; no global inverse, physical history, or downstream claim follows.
+G241 retains the scale-free radial-to-tidal bridge, but its degrees 2--4 fail. G242 rejects only the
+exact G201 zero-tide family on frozen SNe (`chi2=8519.0092` versus `31.2641`); small response stays
+open. G243 keeps direct `phi=log(1+z)` and one local turning control, but 29/485 rows fail;
+`NO_FREEZE` controls.
 
 G244 is externally accepted without repair. On a supplied regular finite noncaustic G188 null
 sheet, `H=D^dagger D` gives native area `A=abs(det D)` and unit-determinant shape `C=H/A`, with no
 fitted angular coefficient or observational outcome. Its area projection is a
 `CHOSE_QUERY_CONTROL`, not a source/detector law; parity is orientation-line-valued, only full G226
 phase composes, and history/null-sheet/source/catalogue ownership remains open.
+
+G245 is externally accepted after packaging repair. A supplied metric and observer germ `(o,U)`
+own every local `k(n)=U+n` and `F(lambda,n)=Exp_o(lambda k(n))`; G188/G244 are induced cone
+geometry. Preferred ray, incidence, population, global branch, detector, and history remain open.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
@@ -67,10 +61,12 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G244 has constructed the separately typed outcome-blind angular query. Next preregister either one
-supplied complete metric/null-sheet evaluation or the minimal source/incidence control required for
-a later catalogue comparison. Keep SNe redshift direct from reciprocal `phi` and BOSS/CMB closed
+G245 has removed the separately supplied local null sheet once a metric and observer germ are
+given. Next preregister the bounded two-observer cone-incidence question: whether their two
+metric-owned direction-labelled cones produce a completed local null relation, with reversal and
+regular/caustic typing but no preferred ray or source law. Keep SNe redshift direct from reciprocal
+`phi` and BOSS/CMB closed
 until that input contract is frozen; do not fit an angular coefficient, select G225 transport,
-activate protected work, identify `X_max`, or import P1/G116/G189. The 227-row registry controls.
+activate protected work, identify `X_max`, or import P1/G116/G189. The 228-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

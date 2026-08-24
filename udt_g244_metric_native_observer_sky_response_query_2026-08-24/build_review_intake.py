@@ -51,12 +51,12 @@ def sha256(path: Path) -> str:
 
 
 def preregistration_registry_digest(path: Path) -> str:
-    """Recover the exact pre-G244 registry after the single append-only self row."""
+    """Recover the exact pre-G244 registry beneath append-only descendant rows."""
     lines = path.read_bytes().splitlines(keepends=True)
-    self_rows = [line for line in lines if line.startswith(b"G244\t")]
-    if len(self_rows) != 1:
+    indices = [index for index, line in enumerate(lines) if line.startswith(b"G244\t")]
+    if len(indices) != 1 or not lines or not lines[0].startswith(b"premise_id\t"):
         raise RuntimeError("live registry must contain exactly one banked G244 row")
-    historical = b"".join(line for line in lines if not line.startswith(b"G244\t"))
+    historical = lines[0] + b"".join(lines[indices[0] + 1 :])
     return hashlib.sha256(historical).hexdigest()
 
 

@@ -28,8 +28,12 @@ PACKAGE_FILES = (
     "REVIEW_REPAIR_PREREGISTRATION.md",
     "REVIEW_REPAIR_CORRECTION_PREREGISTRATION.md",
     "REVIEW_REPAIR_EXECUTION_NOTE.md",
+    "BANKING_INTEGRATION_PREREGISTRATION.md",
+    "BANKING_INTEGRATION_NOTE.md",
+    "BANKING_REPLAY_RECORD.md",
     "EXTERNAL_REVIEW.md",
     "EXTERNAL_REVIEW_RAW.md",
+    "EXTERNAL_REPAIR_FOLLOWUP_RAW.md",
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
@@ -47,6 +51,16 @@ def sha256(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def preregistration_registry_digest(path: Path) -> str:
+    """Recover the exact pre-G245 registry beneath append-only descendant rows."""
+    lines = path.read_bytes().splitlines(keepends=True)
+    indices = [index for index, line in enumerate(lines) if line.startswith(b"G245\t")]
+    if len(indices) != 1 or not lines or not lines[0].startswith(b"premise_id\t"):
+        raise RuntimeError("live registry must contain exactly one banked G245 row")
+    historical = lines[0] + b"".join(lines[indices[0] + 1 :])
+    return hashlib.sha256(historical).hexdigest()
 
 
 def main() -> None:
@@ -67,7 +81,10 @@ def main() -> None:
     for line in lines[1:]:
         expected, relative, _role = line.split("\t")
         source = ROOT / relative
-        if sha256(source) != expected:
+        actual = sha256(source)
+        if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv" and actual != expected:
+            actual = preregistration_registry_digest(source)
+        if actual != expected:
             raise RuntimeError(f"source hash mismatch: {relative}")
         target = destination / relative
         target.parent.mkdir(parents=True, exist_ok=True)
