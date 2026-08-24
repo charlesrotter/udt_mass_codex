@@ -13,10 +13,12 @@
 
 Hostile mutation gate: PASS, 16/16.
 
-External adversarial gate: PENDING.
+External adversarial gate: PASS WITH STATED BOUNDS. Fresh sealed external Codex `gpt-5.4` review
+matched the scope digest, reran all four no-write checks, accepted every bounded scientific and
+typing claim, and requested no repair.
 
 Current grade:
 
 ```text
-LOCALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING
+EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS
 ```

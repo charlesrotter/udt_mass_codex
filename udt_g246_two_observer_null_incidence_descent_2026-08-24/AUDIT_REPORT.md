@@ -2,7 +2,7 @@
 
 Date: 2026-08-24
 
-Status: `LOCALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING`
+Status: `EXTERNALLY_REVIEWED_ACCEPTED_WITH_STATED_BOUNDS`
 
 ## Landing
 
@@ -55,9 +55,18 @@ the physical observer population, choose null as the universal UDT comparison, c
 winding/image, aggregate cut or caustic branches, provide source/detector semantics, derive
 `X_max`, or make an observational prediction.
 
+## External adjudication
+
+Fresh sealed external Codex `gpt-5.4` review matched the intake scope digest and reran all four
+registered no-write commands. It accepted the transversality and implicit-function theorem, the
+branchwise G222 ribbon construction, the conditional G176 boundary, inverse-versus-return typing,
+cone-cone nontransversality, the flat-cylinder nonselection witness, all degenerate strata, and the
+no-source/no-outcome ceiling. It returned `G246_ACCEPTED_WITH_STATED_BOUNDS` and requested no
+repair. See `EXTERNAL_REVIEW.md` and `EXTERNAL_REVIEW_RAW.md`.
+
 ## Next gate
 
-Fresh sealed adversarial review. If accepted, the next scientific question is no longer local germ
-ownership. It is whether the complete branch-valued null relation family across overlapping
-observer neighborhoods descends coherently into a global observer network without selecting one
-image or confusing mathematical reversal with physical return.
+The next scientific question is no longer local germ ownership. It is whether the complete
+branch-valued null relation family across overlapping observer neighborhoods descends coherently
+into a global observer network without selecting one image or confusing mathematical reversal with
+physical return.
