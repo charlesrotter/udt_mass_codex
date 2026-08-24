@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G249 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G250 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -54,6 +54,11 @@ dimensionless `phi` history and normalized Jacobi shape while `D`, area, and G24
 dimensionless metric branch fixes normalized response conditionally; one independent dimensional
 anchor remains necessary for absolute scale.
 
+G250 is externally verified after repairs. One matched nonzero-weight metric anchor conditionally
+fixes G249's `ell`; further anchors test the supplied history. Direct metric classes are eligible.
+Dimensionless anchors do not fix `ell`; composites need metric attachment. No value, fit, outcome,
+history, or profile was selected.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -74,11 +79,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-G249 has closed the absolute-scale ownership question without selecting a numerical scale. Next
-preregister an outcome-blind audit of which already authorized dimensional anchors can calibrate
-`ell` after the dimensionless history is supplied; keep G248 finite-fiber aggregation separate.
-Keep SNe redshift direct from reciprocal `phi` and BOSS/CMB closed until the anchor contract is
-frozen; do not fit an anchor or branch weight, extend through caustics, select G225 transport,
-activate protected work, identify `X_max`, or import P1/G116/G189. The 232-row registry controls.
+Next preregister an outcome-blind same-object metric-attachment audit; keep G248 aggregation
+separate. Keep SNe redshift direct from reciprocal `phi` and BOSS/CMB closed until that contract is
+frozen. Do not read or fit values or weights, cross caustics, select G225, activate protected work,
+identify `X_max`, or import P1/G116/G189. The 233-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

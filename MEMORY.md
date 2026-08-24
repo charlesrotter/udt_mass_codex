@@ -4,7 +4,7 @@
 
 ## Current theory picture
 
-G166--G249: a supplied germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair Dual
+G166--G250: a supplied germ gives the metric `B,Q,S,Y,Z` pullback. Provisional completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -29,6 +29,8 @@ free chain category. G248 derives branchwise `dmu=(r/A)dtau_source`. Probability
 aggregation, caustics, detector semantics, and history remain open. G249 proves `c_E` plus redshift
 do not fix absolute scale: constant homothety preserves dimensionless history/shape while area
 scales as `ell^2`; one independent dimensional anchor remains.
+G250: one matched nonzero-weight metric anchor fixes the scale conditionally; more anchors test the
+supplied history. No anchor or value is chosen.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -36,8 +38,8 @@ G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays pr
 ## Observational pointer
 
 R2--R5 remain unresolved observations. G236/G237 freeze processed SNe; G238--G240 type the held-out
-operator. G241--G243 bound radial controls; G244--G249 derive the outcome-blind sky/cone/incidence/
-branch-category/coarea/scale-boundary chain. History, anchor value, probability/aggregation, and
+operator. G241--G243 bound radial controls; G244--G250 derive the outcome-blind sky/cone/incidence/
+branch-category/coarea/scale/anchor-type chain. History, anchor value, probability/aggregation, and
 outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
@@ -59,11 +61,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
 
 ## Next gate
 
-G249 closes the absolute-scale ownership boundary without selecting a numerical scale. Next
-preregister an outcome-blind audit of which already authorized dimensional anchors can lawfully
-calibrate `ell` after a dimensionless history and branch are supplied. Keep G248 finite-fiber
-aggregation separate. SNe redshift stays direct from reciprocal `phi`; do not fit an anchor,
-branch weight, or angular coefficient, extend through caustics, or activate G225 as selected
-transport, P1, `X_max`, or protected work.
+Next preregister outcome-blind same-object metric-attachment ownership; keep G248 aggregation
+separate. SNe redshift stays direct from reciprocal `phi`; do not fit anchors, weights, or angular
+coefficients, cross caustics, or activate G225, P1, `X_max`, or protected work.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

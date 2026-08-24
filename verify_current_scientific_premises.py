@@ -196,7 +196,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G249",
+            "G166--G250",
             "G197",
             "G215",
             "G216",
@@ -233,6 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "G247",
             "G248",
             "G249",
+            "G250",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -275,7 +276,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "232-row exact registry",
+            "233-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -352,6 +353,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g247_global_null_branch_network_descent_2026-08-24/",
             "udt_g248_metric_regular_branch_measure_ownership_2026-08-24/",
             "udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/",
+            "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -365,7 +367,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G249",
+            "G166--G250",
             "G197",
             "G198",
             "G199",
@@ -420,6 +422,7 @@ def validate_startup_surface(root: Path) -> None:
             "G247",
             "G248",
             "G249",
+            "G250",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -487,6 +490,7 @@ def validate_startup_surface(root: Path) -> None:
             "G247",
             "G248",
             "G249",
+            "G250",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -549,10 +553,11 @@ def validate_startup_surface(root: Path) -> None:
             "G247",
             "G248",
             "G249",
+            "G250",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "232-row",
+            "233-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -895,9 +900,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 232, "premise registry must contain exactly 232 rows")
+    require(len(rows) == 233, "premise registry must contain exactly 233 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 232, "duplicate premise id")
+    require(len(by_id) == 233, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5807,6 +5812,167 @@ def main() -> None:
     )
     require(json.loads(g249_replay.stdout)["status"] == "PASS", "G249 live no-write replay failed")
     require(
+        by_id["G250"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_7361CF38"
+        ),
+        "G250 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_SCIENTIFIC_LANDING_RETAINED_CERTIFICATION_REPAIRS_REQUIRED",
+        "REPAIRS_PREREGISTERED_AT_48E8CD16",
+        "REPAIRS_IMPLEMENTED_AT_0E8F86E0",
+        "REPAIR_FOLLOWUP_GPT54_R1_R2_R3_ACCEPTED_NO_REMAINING_DEFECT",
+        "ONE_MATCHED_NONZERO_HOMOTHETY_WEIGHT_ANCHOR_CONDITIONALLY_FIXES_SINGLE_G249_SCALE",
+        "ADDITIONAL_INDEPENDENT_ANCHORS_TEST_SUPPLIED_DIMENSIONLESS_HISTORY_NOT_ADD_SCALE_PARAMETERS",
+        "CE_GOBS_RECIPROCAL_REDSHIFT_AND_RELATIVE_SNE_STATE_INSUFFICIENT",
+        "MASS_DENSITY_ENERGY_COMPOSITES_DIMENSIONAL_CANDIDATES_ONLY_UNTIL_METRIC_ATTACHMENT_LAW",
+        "G99_XEFF_HISTORICAL_TRANSFER_CONDITIONAL_NOT_NATIVE_INPUT",
+        "10_EXACT_SOURCE_BACKED_CHECKS",
+        "FIVE_EXACT_PROVENANCE_SOURCES",
+        "EXACT_23_HOSTILE_CATCHES",
+        "ZERO_FITTED_COEFFICIENTS_ZERO_OBSERVATIONAL_VALUES",
+        "NO_ANCHOR_VALUE_HISTORY_PROFILE_OUTCOME_SELECTED",
+    ):
+        require(guard in by_id["G250"]["current_status"], f"G250 guard absent: {guard}")
+    require(by_id["G250"]["epistemic_label"] == "MIXED", "G250 label changed")
+    require(
+        by_id["G250"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_DIMENSIONAL_CONSTANT_POSITIVE_G249_HOMOTHETY_ORBIT_AFTER_SUPPLIED_COMPLETE_DIMENSIONLESS_HISTORY_REGULAR_BRANCH_AND_MATCHED_NONZERO_HOMOTHETY_WEIGHT_ANCHOR_CLASS_ONLY",
+        "G250 active scope widened",
+    )
+    for guard in (
+        "anchor eligibility called anchor selection or measurement",
+        "dimensional monomial called metric-attachment law",
+        "second anchor called a second fitted scale",
+        "c_E G_obs redshift or relative SNe state called absolute scale owner",
+        "G99 promoted to native input",
+        "source-backed provenance checks replaced by hardcoded truths",
+    ):
+        require(guard in by_id["G250"]["forbidden_regression"], f"G250 regression guard absent: {guard}")
+    require(
+        by_id["G250"]["controlling_source"]
+        == "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/AUDIT_REPORT.md",
+        "G250 controlling source changed",
+    )
+    g250 = ROOT / "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CANDIDATE_CLASSIFICATION.tsv",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_COMMIT.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "REPAIR_FOLLOWUP.md",
+        "REPAIR_FOLLOWUP_RAW.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
+        "REVIEW_REQUEST.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "TRANSMISSION_RECORD.md",
+        "VERIFICATION_RESULT.json",
+        "build_review_intake.py",
+        "derive_absolute_scale_anchor_types.py",
+        "run_catch_proofs.py",
+        "verify_absolute_scale_anchor_types_independent.py",
+        "verify_package.py",
+    ):
+        require((g250 / name).is_file(), f"G250 evidence missing: {name}")
+    expected_g250 = (
+        "ONE_MATCHED_NONZERO_HOMOTHETY_WEIGHT_ANCHOR_CONDITIONALLY_FIXES_THE_SINGLE_G249_SCALE"
+        "__ADDITIONAL_INDEPENDENT_ANCHORS_TEST_THE_SUPPLIED_DIMENSIONLESS_HISTORY_RATHER_THAN_ADD_SCALE_PARAMETERS"
+        "__CE_GOBS_RECIPROCAL_REDSHIFT_AND_RELATIVE_SNE_STATE_DO_NOT_FIX_ABSOLUTE_SCALE"
+        "__MASS_DENSITY_ENERGY_COMPOSITES_ARE_DIMENSIONAL_CANDIDATES_ONLY_UNTIL_A_METRIC_ATTACHMENT_LAW_IS_SUPPLIED"
+        "__G99_XEFF_REMAINS_HISTORICAL_TRANSFER_CONDITIONAL_NOT_NATIVE_G249_INPUT"
+        "__NO_ANCHOR_VALUE_HISTORY_PROFILE_OR_OUTCOME_SELECTED"
+    )
+    g250_result = json.loads((g250 / "DERIVATION_RESULT.json").read_text())
+    g250_independent = json.loads((g250 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g250_catches = json.loads((g250 / "CATCH_PROOF_RESULT.json").read_text())
+    g250_verification = json.loads((g250 / "VERIFICATION_RESULT.json").read_text())
+    g250_candidates = read_tsv(g250 / "CANDIDATE_CLASSIFICATION.tsv")
+    require(g250_result["landing"] == expected_g250, "G250 production landing changed")
+    require(g250_independent["expected_landing"] == expected_g250, "G250 independent landing changed")
+    require(
+        g250_result["sampled"]["cases"] == 4096
+        and g250_result["sampled"]["assertions"] == 8192
+        and len(g250_result["exact_checks"]) == 10
+        and all(g250_result["exact_checks"].values()),
+        "G250 production census or exact checks changed",
+    )
+    require(
+        g250_independent["cases"] == 12000
+        and g250_independent["assertions"] == 24010
+        and g250_independent["provenance_sources_verified"] == 5
+        and g250_independent["implementation"]
+        == "standard_library_fraction_and_exact_source_manifest_no_production_import_or_output_read"
+        and all(g250_independent["checks"].values()),
+        "G250 independent route or source certification changed",
+    )
+    require(
+        len(g250_candidates) == g250_result["candidate_count"] == 18
+        and g250_result["fitted_coefficients"]
+        == g250_independent["fitted_coefficients"]
+        == 0
+        and g250_result["observational_values_used"]
+        == g250_independent["observational_values_used"]
+        == 0,
+        "G250 candidate, fit, or outcome boundary changed",
+    )
+    require(
+        g250_catches["status"] == "PASS"
+        and g250_catches["caught"] == g250_catches["total"] == 23
+        and not g250_catches["missed"]
+        and all(g250_catches["mutations"].values()),
+        "G250 hostile ledger changed",
+    )
+    require(
+        g250_verification["status"] == "PASS"
+        and not g250_verification["failed"]
+        and all(g250_verification["checks"].values()),
+        "G250 package verification changed",
+    )
+    require(
+        "G250_R1_R2_R3_ACCEPTED__NO_REMAINING_REPAIR_DEFECT__SCIENTIFIC_LANDING_UNCHANGED"
+        in (g250 / "REPAIR_FOLLOWUP.md").read_text(),
+        "G250 external repair acceptance absent",
+    )
+    require(
+        "No anchor, value, fit, history, profile, population, or outcome was selected."
+        in (g250 / "BANKING_INTEGRATION_NOTE.md").read_text(),
+        "G250 banking scope guard absent",
+    )
+    require(
+        "PASS: 155 passed, 1 expected xfail."
+        in (g250 / "BANKING_REPLAY_RECORD.md").read_text(),
+        "G250 final banking replay absent",
+    )
+    require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
+    g250_replay = subprocess.run(
+        [sys.executable, str(g250 / "verify_package.py")],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(json.loads(g250_replay.stdout)["status"] == "PASS", "G250 live no-write replay failed")
+    require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
         "G195 external R1 acceptance absent",
@@ -10029,7 +10195,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249-extended startup and premise guards; PASS: 232-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250-extended startup and premise guards; PASS: 233-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

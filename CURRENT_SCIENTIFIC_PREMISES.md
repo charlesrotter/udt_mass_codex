@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes supplied-plane readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)`, `T L=1` | Population; global extension |
-| Pair-clock/state network | G215--G249 | State; sky/cone/network; coarea; scale boundary | History; anchor/source values; probability/aggregation |
+| Pair-clock/state network | G215--G250 | State; sky/cone/network; coarea; scale and anchor-type boundary | History; anchor/source values; probability/aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Solution membership | Population; signalling |
@@ -44,8 +44,9 @@
 | G236/G237 SNe state | external after repair | Processed relative shape and `K=12` covariance; no law |
 | G238/G239/G240 held-out query | external after repair | Typing, conditional operator, all-image census; inputs/outcomes open |
 | G241/G242/G243 radial controls | external | Compact carriers and exact zero tide rejected; local turning/no-freeze retained |
-| G244--G248 sky/cone/incidence/network/measure | external | `H,A,C`; cone; null branches/ribbons; global quiver/category; ordered regular `r/A` coarea; probability/aggregation/population/history open |
-| G249 reciprocal/angular scale boundary | external after repairs | Normalized response fixed conditionally by full dimensionless history/branch; one independent dimensional anchor remains for absolute scale |
+| G244--G248 sky through measure | external | `H,A,C`; cone; branches; quiver; regular `r/A`; probability/population/history open |
+| G249 scale boundary | external after repairs | Full dimensionless history/branch fixes normalized response; one dimensional anchor remains |
+| G250 anchor types | external after repairs | One matched metric anchor fixes scale conditionally; more test history; none selected |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -75,9 +76,10 @@ None selects completion/`X_max`.
   the local null cone, and G246 local two-observer null incidences and ribbons. G247 gives the
   route-labelled quiver and matched-chain category. G248 derives branchwise regular coarea
   `dmu=(r/A)dtau_source`, not probability or finite-fiber aggregation.
-  G249 proves constant homothety preserves dimensionless history and normalized shape while area
-  scales as `ell^2`; `c_E` plus redshift do not fix `ell`. History, anchor value, population,
-  source/detector semantics, caustic completion, and completion stay open.
+  G249 proves homothety preserves dimensionless history/shape while area scales as `ell^2`; `c_E`
+  plus redshift do not fix `ell`. History, values, population, source/detector semantics, caustics,
+  and completion stay open. G250 types metric anchors; further anchors test consistency, while
+  dimensionless anchors and unattached composites do not close scale.
 
 ## Carrier, action, source, and matter
 
@@ -95,9 +97,8 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 import
-transfer and freeze conditional SNe state, not law. G242/G243 use temporary transfer only for
-bounded radial controls. G244--G249 use no observational outcome. G238--G249 keep BOSS closed;
-history, source, and transfer remain open.
+transfer and freeze state, not law. G242/G243 use temporary transfer for bounded controls.
+G244--G250 use no outcome; BOSS stays closed; history, source, and transfer remain open.
 
 ## Recurring prohibited promotions
 
@@ -111,7 +112,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 232-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 233-row authority; conflicts stop.
 
 Run:
 

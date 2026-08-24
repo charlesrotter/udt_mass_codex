@@ -12,6 +12,7 @@
     "independent_case_floor": true,
     "independent_implementation": true,
     "independent_landing": true,
+    "independent_provenance_source_count": true,
     "independent_replay_exact": true,
     "independent_saved_pass": true,
     "mass_bridge_class": true,
@@ -22,6 +23,7 @@
     "production_saved_pass": true,
     "relative_sne_class": true,
     "required_files": true,
+    "sealed_and_repository_commands_separated": true,
     "source_manifest_nine_exact": true,
     "zero_fitted_coefficients": true
   },

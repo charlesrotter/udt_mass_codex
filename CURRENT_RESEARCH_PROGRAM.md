@@ -82,32 +82,12 @@ physical scalar after the working premise. They must not be conflated.
   Jacobi shape while `D`, area, and `r/A` scale as `ell`, `ell^2`, and `ell^-2`. Equal `phi` alone
   does not fix angular response. A full supplied dimensionless metric branch fixes normalized
   response conditionally; one independent dimensional anchor remains for absolute scale.
+- G250 classifies the one-scale anchor problem. One matched nonzero-weight metric observation fixes
+  `ell` conditionally; more anchors test the supplied history. The listed dimensionless anchors and
+  unattached composites are insufficient; G99 remains historical and conditional.
 
-G206--G249 generate no sector function or `X_max`. Exact
-frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
-`udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`,
-`udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`,
-`udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`, and
-`udt_g231_cartan_regional_realization_bridge_2026-08-23/`. Current closure bridge:
-`udt_g232_primary_metric_cartan_closure_whiteboard_2026-08-23/` and
-`udt_g233_primary_profile_cartan_closure_discriminator_2026-08-23/`. Ownership map:
-`udt_g234_post_g233_native_closure_route_map_2026-08-23/`. Matched-network discriminator:
-`udt_g235_rank_complete_matched_network_nonselection_2026-08-23/`. Observational state projection:
-`udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`. Joint state freeze:
-`udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`. Held-out query typing:
-`udt_g238_bao_heldout_query_typing_2026-08-23/`. Reference-projected operator:
-`udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`. Null-image census:
-`udt_g240_metric_null_image_cluster_census_2026-08-23/`. SNe-anchored tidal bridge:
-`udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`. Exact zero-tide SNe control:
-`udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`. Nonparametric SNe radial control:
-`udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`. Metric-native observer-sky query:
-`udt_g244_metric_native_observer_sky_response_query_2026-08-24/`. Metric-owned local cone:
-`udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`. Two-observer local null incidence:
-`udt_g246_two_observer_null_incidence_descent_2026-08-24/`. Global regular null network:
-`udt_g247_global_null_branch_network_descent_2026-08-24/`. Regular incidence coarea density:
-`udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`. Reciprocal/angular scale boundary:
-`udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`. Evaluator:
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
+G206--G250 generate no sector function or `X_max`; `INDEX.md` routes their exact packages.
+Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
@@ -122,14 +102,15 @@ frontier: `udt_g227_same_event_curvature_tomography_2026-08-22/`,
   architecture. G248 derives the regular ordered branchwise incidence coarea density `r/A` but not
   physical probability or finite-fiber aggregation. G249 proves that normalized response is fixed
   only after the full dimensionless history/branch is supplied and that one independent
-  dimensional anchor remains for absolute scale. History, anchor value, population,
-  source/detector, caustic, and catalogue semantics remain open.
+  dimensional anchor remains for absolute scale. G250 types eligible anchors; further anchors test
+  consistency, but no attachment or value is selected. History, population, source/detector,
+  caustic, and catalogue semantics remain open.
 - Events, germs, population, branches, global realization, transfer, source/matter, action,
   bootstrap, signalling, and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G249 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G250 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -143,6 +124,7 @@ G199--G235 close evaluation/nonselection; G236--G243 freeze or bound observation
 outcomes. G244--G247 derive native sky geometry, local cones/incidences, and the global labelled
 quiver/free-chain architecture. G248 derives regular ordered incidence coarea `r/A`; G249 proves
 its absolute scale remains one-dimensional after the dimensionless metric history and branch are
-fixed. Next preregister an outcome-blind audit of which already authorized dimensional anchors can
-lawfully calibrate `ell`; keep finite-fiber aggregation separate. Never fit an anchor or weights,
-extend through caustics, insert `X_max`, or activate protected work.
+fixed. G250 classifies which metric anchor types could fix that one scale without choosing one.
+Next preregister an outcome-blind same-object metric-attachment ownership audit; keep finite-fiber
+aggregation separate. Never read or fit anchors or weights, cross caustics, insert `X_max`, or
+activate protected work.
