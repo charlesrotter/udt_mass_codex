@@ -6,12 +6,17 @@ from __future__ import annotations
 import argparse
 import csv
 from fractions import Fraction as Q
+import hashlib
 import json
 from math import isqrt
 from pathlib import Path
 import random
 
 import sympy as sp
+
+
+ROOT = Path(__file__).resolve().parent.parent
+PKG = Path(__file__).resolve().parent
 
 
 LANDING = (
@@ -33,6 +38,79 @@ DIMENSIONS = {
     "epsilon": (Q(-1), Q(1), Q(-2)),
 }
 TARGET_LENGTH = (Q(1), Q(0), Q(0))
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1 << 20), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def resolve_manifest_source(relative: str, expected: str) -> Path:
+    candidates = (ROOT / relative, ROOT / "sources" / relative)
+    existing = [path for path in candidates if path.is_file()]
+    if len(existing) != 1:
+        raise AssertionError(f"source resolution is not unique: {relative}")
+    if sha256(existing[0]) != expected:
+        raise AssertionError(f"source hash mismatch: {relative}")
+    return existing[0]
+
+
+def exact_source(relative: str) -> Path:
+    with (PKG / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+        rows = {row["path"]: row for row in csv.DictReader(stream, delimiter="\t")}
+    if relative not in rows:
+        raise AssertionError(f"source absent from manifest: {relative}")
+    return resolve_manifest_source(relative, rows[relative]["sha256"])
+
+
+def tsv_rows(relative: str, key: str) -> dict[str, dict[str, str]]:
+    with exact_source(relative).open(newline="", encoding="utf-8") as stream:
+        return {row[key]: row for row in csv.DictReader(stream, delimiter="\t")}
+
+
+def source_provenance_checks() -> dict[str, bool]:
+    g236 = tsv_rows(
+        "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREMISE_LEDGER.tsv",
+        "object",
+    )["one additive offset per catalog"]
+    g237 = tsv_rows(
+        "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/PREMISE_LEDGER.tsv",
+        "object",
+    )["release_offsets"]
+    g99 = tsv_rows(
+        "udt_observed_middle_regime_pair_calibration_2026-08-15/PREMISE_LEDGER.tsv",
+        "item",
+    )
+    g132 = exact_source(
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/EXACT_DERIVATION.md"
+    ).read_text(encoding="utf-8")
+    g202 = exact_source(
+        "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/EXACT_DERIVATION.md"
+    ).read_text(encoding="utf-8")
+    return {
+        "relative_sne_zero_point_source_backed": (
+            g236["status"] == "DECLARED_NUISANCE_CALIBRATION"
+            and "removes absolute magnitude and distance-scale zero point" in g236["role"]
+            and g237["status"] == "FREE_AND_PROFILED"
+            and "additive zero-point per catalog" in g237["role"]
+            and g237["open_scope"] == "absolute R normalization"
+        ),
+        "g99_external_dependencies_source_backed": (
+            g99["profile_family"]["value_or_rule"] == "P1 only"
+            and "external M_B anchor" in g99["absolute_scale"]["status"]
+            and "X_eff" in g99["absolute_scale"]["value_or_rule"]
+            and g99["luminosity_readout"]["role"] == "effective observational transfer"
+        ),
+        "attachment_boundary_source_backed": (
+            "These are dimensional calibrators, not UDT equations." in g132
+            and "A native or explicitly conditional bridge" in g132
+            and "These are dimensional candidates only." in g202
+            and "Neither the proportionality, the relevant mass/density" in g202
+        ),
+    }
 
 
 CANDIDATES = [
@@ -109,15 +187,17 @@ def exact_checks() -> dict[str, bool]:
     ell, q1, q2 = sp.symbols("ell q1 q2", positive=True)
     w1, w2 = sp.symbols("w1 w2", integer=True, nonzero=True)
     two_anchor = sp.simplify(((ell**w1 * q1) / q1) ** w2 - ((ell**w2 * q2) / q2) ** w1)
-    return {
+    checks = {
         "ce_gobs_no_length_solution": solve_dimensions(("c_E", "G_obs")) is None,
         "ce_gobs_mass_unique": solve_dimensions(("c_E", "G_obs", "M")) == (Q(-2), Q(1), Q(1)),
         "ce_gobs_density_unique": solve_dimensions(("c_E", "G_obs", "rho")) == (Q(1), Q(-1, 2), Q(-1, 2)),
         "ce_gobs_energy_density_unique": solve_dimensions(("c_E", "G_obs", "epsilon")) == (Q(2), Q(-1, 2), Q(-1, 2)),
         "two_anchor_consistency_identity": two_anchor == 0,
-        "relative_sne_is_registered_zero_point_free": next(row for row in CANDIDATES if row[0] == "G236_G237_relative_SNe_state")[4] == "INSUFFICIENT_ABSOLUTE_ZERO_POINT_REMOVED",
-        "g99_is_not_native_input": next(row for row in CANDIDATES if row[0] == "G99_M_B_conditional_X_eff")[4] == "CONDITIONAL_EXTERNAL_CROSSCHECK_NOT_NATIVE_INPUT",
+        "relative_sne_candidate_class_matches_source": next(row for row in CANDIDATES if row[0] == "G236_G237_relative_SNe_state")[4] == "INSUFFICIENT_ABSOLUTE_ZERO_POINT_REMOVED",
+        "g99_candidate_class_matches_source": next(row for row in CANDIDATES if row[0] == "G99_M_B_conditional_X_eff")[4] == "CONDITIONAL_EXTERNAL_CROSSCHECK_NOT_NATIVE_INPUT",
     }
+    checks.update(source_provenance_checks())
+    return checks
 
 
 def run_weight_cases(cases: int) -> dict[str, int]:

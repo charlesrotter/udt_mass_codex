@@ -8,15 +8,20 @@ Date: 2026-08-24
    weights used by them are classified on the one-dimensional constant-positive G249 scale orbit.
    General local conformal freedom, history selection, and anchor measurement are outside scope.
 3. **Independent verification:** PASS internally — standard-library rational implementation imports
-   neither production code nor production output. Fresh external adversarial review is pending.
+   neither production code nor production output and now verifies five exact manifest sources.
+   Fresh external review retained the science and required repairs R1--R3; repair-only follow-up is
+   pending.
 4. **Premise audit:** PASS internally — every candidate is graded by dimension, homothety weight,
    provenance, and operational attachment. The premise registry verifier must pass before banking.
 
-The present grade is `INTERNALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_PENDING`.
+The present grade is `REPAIRED_INTERNAL__EXTERNAL_REPAIR_REVIEW_PENDING`.
 
 Recorded pre-review replays:
 
-- package verifier: 24/24 PASS;
+- production source-backed exact checks: 10/10 PASS;
+- independent source-backed replay: 12,000 cases and 24,010 assertions PASS;
+- hostile mutations: 23/23 PASS;
+- package verifier: 26/26 PASS;
 - current 232-row scientific-premise verifier: PASS;
 - repository suite: 153 PASS, 1 registered XFAIL;
 - startup catch-proof and readability regressions exposed by the first full-suite run were repaired;

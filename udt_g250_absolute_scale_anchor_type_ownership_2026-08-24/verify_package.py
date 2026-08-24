@@ -40,6 +40,9 @@ HOSTILE_KEYS = frozenset({
     "linear_length_recovery_control",
     "relative_sne_absolute_owner_rejected",
     "same_object_gate_erasure_rejected",
+    "sealed_source_ambiguity_rejected",
+    "sealed_source_hash_mismatch_rejected",
+    "sealed_source_missing_rejected",
     "second_anchor_consistency_control",
     "weight_zero_scale_owner_rejected",
     "xmax_anchor_promotion_rejected",
@@ -68,6 +71,13 @@ def source_matches(path: Path, expected: str, relative: str) -> bool:
     return hashlib.sha256(historical).hexdigest() == expected
 
 
+def resolve_source(relative: str) -> Path | None:
+    """Resolve one exact source in the repository or its sealed relocation."""
+    candidates = (ROOT / relative, ROOT / "sources" / relative)
+    existing = [path for path in candidates if path.is_file()]
+    return existing[0] if len(existing) == 1 else None
+
+
 def replay(script: str, *arguments: str) -> dict:
     environment = dict(os.environ)
     environment["PYTHONDONTWRITEBYTECODE"] = "1"
@@ -86,9 +96,9 @@ def hostile_valid(result: dict) -> bool:
     mutations = result.get("mutations", {})
     return (
         result.get("status") == "PASS"
-        and result.get("implementation") == "formula_and_type_level_mutations_no_phrase_search"
-        and result.get("caught") == 20
-        and result.get("total") == 20
+        and result.get("implementation") == "formula_type_and_exact_source_mutations_no_phrase_only_certification"
+        and result.get("caught") == len(HOSTILE_KEYS)
+        and result.get("total") == len(HOSTILE_KEYS)
         and result.get("missed") == []
         and frozenset(mutations) == HOSTILE_KEYS
         and all(mutations.values())
@@ -118,12 +128,15 @@ def main() -> None:
         sources = list(csv.DictReader(stream, delimiter="\t"))
     source_checks = []
     for row in sources:
-        path = ROOT / row["path"]
-        source_checks.append(path.is_file() and source_matches(path, row["sha256"], row["path"]))
+        path = resolve_source(row["path"])
+        source_checks.append(
+            path is not None and source_matches(path, row["sha256"], row["path"])
+        )
 
     with (PKG / "CANDIDATE_CLASSIFICATION.tsv").open(newline="", encoding="utf-8") as stream:
         candidates = list(csv.DictReader(stream, delimiter="\t"))
     classifications = {row["candidate"]: row["classification"] for row in candidates}
+    commands_text = (PKG / "COMMANDS.md").read_text(encoding="utf-8")
 
     saved_production = json.loads((PKG / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     saved_independent = json.loads((PKG / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
@@ -152,7 +165,8 @@ def main() -> None:
         "catch_replay_exact": live_catches == saved_catches,
         "production_case_floor": saved_production.get("sampled", {}).get("cases", 0) >= 4096,
         "independent_case_floor": saved_independent.get("cases", 0) >= 12000,
-        "independent_implementation": saved_independent.get("implementation") == "standard_library_fraction_no_production_import_or_output_read",
+        "independent_implementation": saved_independent.get("implementation") == "standard_library_fraction_and_exact_source_manifest_no_production_import_or_output_read",
+        "independent_provenance_source_count": saved_independent.get("provenance_sources_verified") == 5,
         "candidate_count_exact": len(candidates) == 18 and saved_production.get("candidate_count") == 18,
         "direct_area_class": classifications.get("matched_screen_or_orbit_area") == "CONDITIONALLY_SUFFICIENT_DIRECT",
         "ce_gobs_class": classifications.get("c_E_plus_G_obs") == "INSUFFICIENT_NO_LENGTH_MONOMIAL",
@@ -164,6 +178,12 @@ def main() -> None:
         "outcomes_unused": saved_production.get("observational_values_used") == 0 and saved_independent.get("observational_values_used") == 0,
         "zero_fitted_coefficients": saved_production.get("fitted_coefficients") == 0 and saved_independent.get("fitted_coefficients") == 0,
         "blinding_limit_disclosed": "Strict reviewer blinding was not preserved" in (PKG / "PREREGISTRATION_EXECUTION_NOTE.md").read_text(encoding="utf-8"),
+        "sealed_and_repository_commands_separated": (
+            "## Sealed-intake replays" in commands_text
+            and "## Repository-only gate" in commands_text
+            and commands_text.index("## Repository-only gate")
+            < commands_text.index("python3 verify_current_scientific_premises.py")
+        ),
     }
     failed = [name for name, value in checks.items() if not value]
     result = {"checks": checks, "failed": failed, "status": "PASS" if not failed else "FAIL"}

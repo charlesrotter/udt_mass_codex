@@ -7,10 +7,16 @@ Imports neither production code nor production output.
 from __future__ import annotations
 
 import argparse
+import csv
 from fractions import Fraction as Q
+import hashlib
 import json
 from pathlib import Path
 import random
+
+
+ROOT = Path(__file__).resolve().parent.parent
+PKG = Path(__file__).resolve().parent
 
 
 EXPECTED = (
@@ -21,6 +27,72 @@ EXPECTED = (
     "__G99_XEFF_REMAINS_HISTORICAL_TRANSFER_CONDITIONAL_NOT_NATIVE_G249_INPUT"
     "__NO_ANCHOR_VALUE_HISTORY_PROFILE_OR_OUTCOME_SELECTED"
 )
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1 << 20), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def independent_exact_source(relative: str) -> Path:
+    with (PKG / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
+        manifest = {row["path"]: row["sha256"] for row in csv.DictReader(stream, delimiter="\t")}
+    if relative not in manifest:
+        raise AssertionError(f"missing independent manifest source: {relative}")
+    candidates = (ROOT / relative, ROOT / "sources" / relative)
+    existing = [path for path in candidates if path.is_file()]
+    if len(existing) != 1 or sha256(existing[0]) != manifest[relative]:
+        raise AssertionError(f"independent exact-source failure: {relative}")
+    return existing[0]
+
+
+def independent_tsv(relative: str, key: str) -> dict[str, dict[str, str]]:
+    with independent_exact_source(relative).open(newline="", encoding="utf-8") as stream:
+        return {row[key]: row for row in csv.DictReader(stream, delimiter="\t")}
+
+
+def independent_provenance_checks() -> dict[str, bool]:
+    g236 = independent_tsv(
+        "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREMISE_LEDGER.tsv",
+        "object",
+    )["one additive offset per catalog"]
+    g237 = independent_tsv(
+        "udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/PREMISE_LEDGER.tsv",
+        "object",
+    )["release_offsets"]
+    g99 = independent_tsv(
+        "udt_observed_middle_regime_pair_calibration_2026-08-15/PREMISE_LEDGER.tsv",
+        "item",
+    )
+    g132 = independent_exact_source(
+        "udt_g132_common_scale_owner_and_anchor_audit_2026-08-16/EXACT_DERIVATION.md"
+    ).read_text(encoding="utf-8")
+    g202 = independent_exact_source(
+        "udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/EXACT_DERIVATION.md"
+    ).read_text(encoding="utf-8")
+    return {
+        "relative_state_cannot_supply_deleted_zero_point": (
+            g236["status"] == "DECLARED_NUISANCE_CALIBRATION"
+            and "distance-scale zero point" in g236["role"]
+            and g237["status"] == "FREE_AND_PROFILED"
+            and g237["open_scope"] == "absolute R normalization"
+        ),
+        "dimensional_composite_requires_attachment": (
+            "These are dimensional calibrators, not UDT equations." in g132
+            and "A native or explicitly conditional bridge" in g132
+            and "These are dimensional candidates only." in g202
+            and "Neither the proportionality, the relevant mass/density" in g202
+        ),
+        "historical_transfer_condition_is_not_native_metric_ownership": (
+            g99["profile_family"]["value_or_rule"] == "P1 only"
+            and "external M_B anchor" in g99["absolute_scale"]["status"]
+            and "X_eff" in g99["absolute_scale"]["value_or_rule"]
+            and g99["luminosity_readout"]["role"] == "effective observational transfer"
+        ),
+    }
 
 
 def solve_square(matrix, target):
@@ -154,15 +226,14 @@ def main() -> None:
         "zero_normalized_value_rejected": zero_value_rejections == args.cases,
         "nonpositive_ratio_rejected": nonpositive_ratio_rejections == args.cases,
         "inconsistent_second_anchor_rejected": inconsistent_second_anchor_rejections == args.cases,
-        "relative_state_cannot_supply_deleted_zero_point": True,
-        "dimensional_composite_requires_attachment": True,
-        "historical_transfer_condition_is_not_native_metric_ownership": True,
     }
+    checks.update(independent_provenance_checks())
     assert all(checks.values())
     result = {
         "status": "PASS",
         "expected_landing": EXPECTED,
-        "implementation": "standard_library_fraction_no_production_import_or_output_read",
+        "implementation": "standard_library_fraction_and_exact_source_manifest_no_production_import_or_output_read",
+        "provenance_sources_verified": 5,
         "cases": args.cases,
         "assertions": assertions + sum(checks.values()),
         "checks": checks,

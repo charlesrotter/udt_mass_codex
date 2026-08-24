@@ -1,6 +1,6 @@
 {
-  "caught": 20,
-  "implementation": "formula_and_type_level_mutations_no_phrase_search",
+  "caught": 23,
+  "implementation": "formula_type_and_exact_source_mutations_no_phrase_only_certification",
   "missed": [],
   "mutations": {
     "anchor_selects_branch_rejected": true,
@@ -19,11 +19,14 @@
     "linear_length_recovery_control": true,
     "relative_sne_absolute_owner_rejected": true,
     "same_object_gate_erasure_rejected": true,
+    "sealed_source_ambiguity_rejected": true,
+    "sealed_source_hash_mismatch_rejected": true,
+    "sealed_source_missing_rejected": true,
     "second_anchor_consistency_control": true,
     "weight_zero_scale_owner_rejected": true,
     "xmax_anchor_promotion_rejected": true,
     "zero_curvature_anchor_rejected": true
   },
   "status": "PASS",
-  "total": 20
+  "total": 23
 }

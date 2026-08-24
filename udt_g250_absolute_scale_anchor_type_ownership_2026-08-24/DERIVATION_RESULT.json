@@ -15,12 +15,15 @@
     "matched_nonzero_quadratic_curvature"
   ],
   "exact_checks": {
+    "attachment_boundary_source_backed": true,
     "ce_gobs_density_unique": true,
     "ce_gobs_energy_density_unique": true,
     "ce_gobs_mass_unique": true,
     "ce_gobs_no_length_solution": true,
-    "g99_is_not_native_input": true,
-    "relative_sne_is_registered_zero_point_free": true,
+    "g99_candidate_class_matches_source": true,
+    "g99_external_dependencies_source_backed": true,
+    "relative_sne_candidate_class_matches_source": true,
+    "relative_sne_zero_point_source_backed": true,
     "two_anchor_consistency_identity": true
   },
   "fitted_coefficients": 0,
