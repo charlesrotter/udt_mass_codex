@@ -25,6 +25,11 @@ PACKAGE_FILES = (
     "STATUS_LEDGER.tsv",
     "COMMANDS.md",
     "REVIEW_REQUEST.md",
+    "REVIEW_REPAIR_PREREGISTRATION.md",
+    "REVIEW_REPAIR_CORRECTION_PREREGISTRATION.md",
+    "REVIEW_REPAIR_EXECUTION_NOTE.md",
+    "EXTERNAL_REVIEW.md",
+    "EXTERNAL_REVIEW_RAW.md",
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
@@ -74,13 +79,14 @@ def main() -> None:
         for path in sorted(set(copied))
     ]
     scope = {
-        "review": "G245_FRESH_READ_ONLY_ADVERSARIAL",
+        "review": "G245_REPAIR_ONLY_FOLLOWUP",
         "file_count_excluding_scope": len(entries),
         "files": entries,
         "allowed_actions": [
             "read sealed intake",
             "run registered no-write replays in a writable ephemeral copy",
-            "bounded independent read-only checks",
+            "verify only the corrected command-list repair and the unchanged bounded landing",
+            "bounded repair-only read-only checks",
         ],
         "forbidden_actions": [
             "edit evidence",

@@ -2,7 +2,7 @@
 
 Date: 2026-08-24
 
-Status: `LOCALLY_VERIFIED_AWAITING_EXTERNAL_ADVERSARIAL_REVIEW`
+Status: `EXTERNAL_SCIENCE_ACCEPTED__REPAIR_ONLY_FOLLOWUP_PENDING`
 
 ## Landing
 
@@ -55,15 +55,20 @@ It also does not derive the complete reciprocal observer-pair germ between two a
 observers. It supplies the native local null-cone field from one supplied germ. Terminal reciprocal
 readout still occurs only after a completed calibrated pair pullback exists.
 
-## Current grade
+## External adjudication
 
-The local theorem passes all internal preregistered gates and an implementation-independent exact
-reconstruction. A fresh sealed external adversarial review is still required before banking the
-scientific landing into the startup surface.
+Fresh sealed GPT-5.4 review matched all 24 payload hashes and reran every included G245 no-write
+check successfully. It found no scientific objection, no overclaim, and independently accepted the
+null-normalization, exponential/Jacobi identification, area/shape typing, vertex coefficient,
+caustic phase handling, and nonautonomy witness. It returned a repairable verdict only because the
+premise verifier named in `COMMANDS.md` was absent from the intake and pytest was not explicitly
+labelled as repository-only smoke testing. The corrected repair retains only the four self-contained
+G245 no-write commands in the sealed replay and labels the premise verifier and pytest as
+repository-only gates. It preserves every scientific output.
 
 ## Next gate
 
-Seal the exact package and request read-only external review. If accepted, bank the bounded theorem
-and then ask whether a completed two-observer null relation can be obtained as a transverse
+Obtain repair-only follow-up acceptance, then bank the bounded theorem. The subsequent scientific
+question is whether a completed two-observer null relation can be obtained as a transverse
 intersection/incidence construction between their two metric-owned direction-labelled cone fields,
 without selecting a preferred ray or importing a source law.

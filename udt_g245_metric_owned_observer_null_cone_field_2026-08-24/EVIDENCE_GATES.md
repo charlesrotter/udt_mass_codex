@@ -15,10 +15,13 @@
 
 Hostile mutation gate: PASS, 12/12.
 
-External adversarial gate: PENDING.
+External adversarial gate: SCIENCE ACCEPTED; REPAIR-ONLY PACKAGING FOLLOW-UP PENDING. The reviewer
+found no mathematical objection or overclaim. The corrected command-list repair keeps only four
+self-contained G245 no-write commands in the sealed replay and labels the repository-wide premise
+verifier and pytest as external-to-intake gates.
 
 Current grade:
 
 ```text
-LOCALLY_VERIFIED_AWAITING_EXTERNAL_ADVERSARIAL_REVIEW
+EXTERNAL_SCIENCE_ACCEPTED__REPAIR_ONLY_FOLLOWUP_PENDING
 ```
