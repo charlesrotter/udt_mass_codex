@@ -46,12 +46,11 @@ endpoint scalar.
 - production verification: PASS, 2,048 cases and 20,499 assertions;
 - independent verification: PASS, 5,000 cases and 55,010 assertions;
 - hostile mutations: PASS, 16/16 caught;
-- external review: PENDING;
-- premise registry verification before banking: PENDING.
+- external review: PASS, `G247_ACCEPTED_WITH_STATED_BOUNDS`, no repairs;
+- premise registry verification before banking: PASS on the 229-row pre-G247 registry.
 
 ## Ceiling
 
 This is a conditional theorem about a supplied metric history, supplied proper-clock observers, and
 a declared future-null query. It does not select a physical history, observer/source population,
 route, image weight, detector law, or observational result.
-

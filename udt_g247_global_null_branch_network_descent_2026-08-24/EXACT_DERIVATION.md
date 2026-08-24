@@ -11,8 +11,8 @@ __FREE_MATCHED_NULL_CHAIN_CATEGORY_CARRIES_ADDITIVE_DEPTH_AND_PATH_LABELLED_PHAS
 __CAUSTIC_BRANCH_AGGREGATION_GLOBAL_SELECTION_AND_PHYSICAL_HISTORY_REMAIN_OPEN
 ```
 
-Status before external review:
-`DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING`.
+Status after fresh external review:
+`DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__NO_REPAIRS_REQUIRED`.
 
 The metric history, proper-clock observer worldline germs, and future-null query type are supplied.
 The result classifies the complete metric-generated branch family; it selects no route, observer
@@ -284,4 +284,3 @@ G245/G246: a route-labelled quiver and its generated chain category, with an exa
 and path-labelled phase evaluator. It does not select which edges Nature populates, one image or
 winding, the physical metric history, a transfer/aggregation law, or any observation. It derives
 no `X_max`, action, source, matter, bootstrap, mass, or signalling law.
-

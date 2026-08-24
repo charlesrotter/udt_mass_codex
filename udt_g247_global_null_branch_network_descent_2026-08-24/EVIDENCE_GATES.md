@@ -13,6 +13,8 @@ Date: 2026-08-24
 4. **Premise audit:** PASS INTERNALLY. Every supplied, working, derived, inactive, and open premise
    is recorded. The exact live registry verifier must pass again before banking.
 
-External adversarial review remains pending. Until then the package status is
-`DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING`.
+5. **Fresh external adversarial review:** PASS. The sealed read-only `gpt-5.4` reviewer returned
+   `G247_ACCEPTED_WITH_STATED_BOUNDS`, reran all four registered checks, and required no repair.
 
+Package status:
+`DERIVED_CONDITIONAL__EXTERNALLY_VERIFIED__NO_REPAIRS_REQUIRED`.

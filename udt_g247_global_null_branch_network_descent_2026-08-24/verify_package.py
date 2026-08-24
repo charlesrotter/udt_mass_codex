@@ -54,6 +54,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
         "EXACT_DERIVATION.md", "LAY_REPORT.md", "AUDIT_REPORT.md", "EVIDENCE_GATES.md",
         "STATUS_LEDGER.tsv", "COMMANDS.md", "REVIEW_REQUEST.md", "DERIVATION_RESULT.json",
+        "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_RAW.md", "TRANSMISSION_RECORD.md",
         "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
         "derive_global_null_branch_network.py", "verify_global_null_branch_network_independent.py",
         "run_catch_proofs.py", "verify_package.py", "build_review_intake.py",
@@ -92,6 +93,8 @@ def main() -> None:
         and saved_ind.get("assertions", 0) >= 50000,
         "hostile_floor": saved_catch.get("caught", 0) >= 14
         and saved_catch.get("caught") == saved_catch.get("total"),
+        "external_acceptance": "G247_ACCEPTED_WITH_STATED_BOUNDS"
+        in (PKG / "EXTERNAL_REVIEW_RAW.md").read_text(encoding="utf-8"),
     }
     failed = [name for name, value in checks.items() if not value]
     result = {"checks": checks, "failed": failed, "status": "PASS" if not failed else "FAIL"}
