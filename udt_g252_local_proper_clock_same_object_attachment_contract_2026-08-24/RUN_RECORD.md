@@ -13,3 +13,9 @@ output path is supplied.
 - Fitted coefficients: 0.
 - GPU: not used.
 - Long solve/checkpoint: not applicable.
+
+Fresh external review returned `ACCEPT_WITH_REPAIRS` because the original sealed intake relocated
+sources under `sources/` while three verifiers searched only the repository layout. The scientific
+landing was retained. The repair was preregistered at `80581067`, then implemented. A fresh 33-file
+repair test intake replayed production, independent, hostile, and package commands successfully.
+The current 234-row premise verifier also passed. External repair-only follow-up remains pending.

@@ -20,6 +20,11 @@
     "production_saved_pass": true,
     "required_files": true,
     "sealed_and_repository_commands_separated": true,
+    "sealed_source_ambiguity_rejected": true,
+    "sealed_source_hash_mismatch_rejected": true,
+    "sealed_source_missing_rejected": true,
+    "sealed_source_relocated_layout_control": true,
+    "sealed_source_repository_layout_control": true,
     "source_manifest_six_exact": true,
     "zero_fitted_coefficients": true
   },

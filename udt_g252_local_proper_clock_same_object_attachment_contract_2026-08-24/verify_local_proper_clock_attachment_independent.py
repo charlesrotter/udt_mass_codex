@@ -38,15 +38,28 @@ def digest(path: Path) -> str:
     return h.hexdigest()
 
 
+def independent_resolve(relative: str, expected: str) -> Path:
+    repository_candidate = ROOT.joinpath(*Path(relative).parts)
+    sealed_candidate = ROOT.joinpath("sources", *Path(relative).parts)
+    present = tuple(
+        candidate
+        for candidate in (repository_candidate, sealed_candidate)
+        if candidate.is_file()
+    )
+    if len(present) != 1:
+        raise AssertionError(f"independent source resolution ambiguity: {relative}")
+    if digest(present[0]) != expected:
+        raise AssertionError(f"independent source digest failure: {relative}")
+    return present[0]
+
+
 def source_gate() -> int:
     with (PKG / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as handle:
         rows = tuple(csv.DictReader(handle, delimiter="\t"))
     if len(rows) != 6:
         raise AssertionError("unexpected source universe")
     for row in rows:
-        candidate = ROOT.joinpath(*Path(row["path"]).parts)
-        if not candidate.exists() or digest(candidate) != row["sha256"]:
-            raise AssertionError(f"independent source failure: {row['path']}")
+        independent_resolve(row["path"], row["sha256"])
     return len(rows)
 
 

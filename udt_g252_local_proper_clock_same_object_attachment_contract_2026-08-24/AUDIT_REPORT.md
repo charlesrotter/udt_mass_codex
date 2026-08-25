@@ -51,5 +51,6 @@ empirical and global questions.
 The original internal verdict was `VERIFIED-WITH-CAVEATS`, not canon and not a physical-history
 selection. Fresh external review retained the scientific landing but returned
 `ACCEPT_WITH_REPAIRS`: the original sealed intake could not replay three gates because the
-verifiers did not resolve the lawful `sources/` relocation. Until the preregistered repair is
-completed and externally accepted, gates 3 and 4 are failed as delivered.
+verifiers did not resolve the lawful `sources/` relocation. That failure remains preserved. The
+repair was preregistered at `80581067`, implemented without scientific changes, and all four
+commands now pass in a fresh sealed intake. External repair-only acceptance remains pending.

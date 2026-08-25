@@ -55,6 +55,31 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def sha256_bytes(payload: bytes) -> str:
+    return hashlib.sha256(payload).hexdigest()
+
+
+def relocated_source_accepts(
+    repository_payload: bytes | None,
+    sealed_payload: bytes | None,
+    expected: str,
+) -> bool:
+    present = [
+        payload
+        for payload in (repository_payload, sealed_payload)
+        if payload is not None
+    ]
+    return len(present) == 1 and sha256_bytes(present[0]) == expected
+
+
+def resolve_source(relative: str, expected: str) -> Path | None:
+    candidates = (ROOT / relative, ROOT / "sources" / relative)
+    existing = [path for path in candidates if path.is_file()]
+    if len(existing) != 1 or sha256(existing[0]) != expected:
+        return None
+    return existing[0]
+
+
 def replay(script: str, *arguments: str) -> dict:
     environment = dict(os.environ)
     environment["PYTHONDONTWRITEBYTECODE"] = "1"
@@ -94,16 +119,21 @@ def main() -> None:
         "REVIEW_REQUEST.md", "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json", "derive_local_proper_clock_attachment.py",
         "verify_local_proper_clock_attachment_independent.py", "run_catch_proofs.py",
-        "verify_package.py", "build_review_intake.py",
+        "verify_package.py", "build_review_intake.py", "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md", "REVIEW_TRANSMISSION_RECORD.md", "REPAIR_PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION_COMMIT.md", "REPAIR_IMPLEMENTATION_RECORD.md",
+        "SEALED_REPLAY_RECORD.md", "REPAIR_RESULT.md", "REPAIR_FOLLOWUP_REQUEST.md",
     ]
     missing = [name for name in required if not (PKG / name).is_file()]
 
     with (PKG / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
         sources = list(csv.DictReader(stream, delimiter="\t"))
     source_checks = [
-        (ROOT / row["path"]).is_file() and sha256(ROOT / row["path"]) == row["sha256"]
+        resolve_source(row["path"], row["sha256"]) is not None
         for row in sources
     ]
+    layout_control = b"G252 exact sealed source"
+    layout_digest = sha256_bytes(layout_control)
 
     saved_production = json.loads((PKG / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     saved_independent = json.loads((PKG / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
@@ -125,6 +155,11 @@ def main() -> None:
     checks = {
         "required_files": not missing,
         "source_manifest_six_exact": len(sources) == 6 and all(source_checks),
+        "sealed_source_missing_rejected": not relocated_source_accepts(None, None, layout_digest),
+        "sealed_source_ambiguity_rejected": not relocated_source_accepts(layout_control, layout_control, layout_digest),
+        "sealed_source_hash_mismatch_rejected": not relocated_source_accepts(None, b"mutated", layout_digest),
+        "sealed_source_repository_layout_control": relocated_source_accepts(layout_control, None, layout_digest),
+        "sealed_source_relocated_layout_control": relocated_source_accepts(None, layout_control, layout_digest),
         "production_saved_pass": saved_production.get("status") == "PASS",
         "independent_saved_pass": saved_independent.get("status") == "PASS",
         "catch_saved_pass": hostile_valid(saved_catches),

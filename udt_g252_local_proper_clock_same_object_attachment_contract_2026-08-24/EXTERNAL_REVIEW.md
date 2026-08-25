@@ -12,3 +12,9 @@ hashes matched and the hostile replay passed.
 
 Until the preregistered repair is implemented and externally accepted, gates 3 and 4 are failed as
 delivered. The scientific landing remains retained but not fully certified.
+
+## Repair state
+
+The repair was preregistered at `80581067` and is now implemented. All four commands pass in a
+fresh sealed intake, including exact-source relocation and hostile layout checks. External
+repair-only follow-up remains pending; the original failed-as-delivered record is unchanged.

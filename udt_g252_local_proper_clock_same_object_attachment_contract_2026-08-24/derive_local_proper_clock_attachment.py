@@ -36,15 +36,23 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def resolve_manifest_source(relative: str, expected: str) -> Path:
+    candidates = (ROOT / relative, ROOT / "sources" / relative)
+    existing = [path for path in candidates if path.is_file()]
+    if len(existing) != 1:
+        raise AssertionError(f"source resolution is not unique: {relative}")
+    if sha256(existing[0]) != expected:
+        raise AssertionError(f"source hash mismatch: {relative}")
+    return existing[0]
+
+
 def verify_sources() -> int:
     with (PKG / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
         rows = list(csv.DictReader(stream, delimiter="\t"))
     if len(rows) != 6:
         raise AssertionError("G252 requires exactly six frozen sources")
     for row in rows:
-        source = ROOT / row["path"]
-        if not source.is_file() or sha256(source) != row["sha256"]:
-            raise AssertionError(f"source mismatch: {row['path']}")
+        resolve_manifest_source(row["path"], row["sha256"])
     return len(rows)
 
 
