@@ -10,11 +10,13 @@ repository but did not accept the sealed `sources/` relocation. Consequently the
 replays and package verifier failed inside the original sealed intake, although all 28 payload
 hashes matched and the hostile replay passed.
 
-Until the preregistered repair is implemented and externally accepted, gates 3 and 4 are failed as
-delivered. The scientific landing remains retained but not fully certified.
+As originally delivered, gates 3 and 4 failed for the sealed relocation. The scientific landing
+remained retained while the evidence repair was preregistered and implemented.
 
 ## Repair state
 
-The repair was preregistered at `80581067` and is now implemented. All four commands pass in a
-fresh sealed intake, including exact-source relocation and hostile layout checks. External
-repair-only follow-up remains pending; the original failed-as-delivered record is unchanged.
+The repair was preregistered at `80581067` and implemented. All four commands pass in a fresh sealed
+intake, including exact-source relocation and hostile layout checks. A fresh external repair-only
+review then verified every registered payload, replayed all four commands, independently regenerated
+the scientific artifacts, and returned `REPAIRS_ACCEPTED`. The original failed-as-delivered record
+remains preserved in `EXTERNAL_REVIEW_RAW.md`.

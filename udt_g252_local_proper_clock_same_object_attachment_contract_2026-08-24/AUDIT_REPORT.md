@@ -53,4 +53,7 @@ selection. Fresh external review retained the scientific landing but returned
 `ACCEPT_WITH_REPAIRS`: the original sealed intake could not replay three gates because the
 verifiers did not resolve the lawful `sources/` relocation. That failure remains preserved. The
 repair was preregistered at `80581067`, implemented without scientific changes, and all four
-commands now pass in a fresh sealed intake. External repair-only acceptance remains pending.
+commands pass in a fresh sealed intake. A fresh external repair-only reviewer then verified all
+registered hashes, replayed every command, independently regenerated the scientific artifacts,
+and returned `REPAIRS_ACCEPTED` with no remaining defect. The bounded scientific landing is
+unchanged.
