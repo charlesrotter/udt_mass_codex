@@ -1,0 +1,9 @@
+{
+  "independent_assertions": 49602,
+  "independent_trials": 12000,
+  "manifest_sources": 21,
+  "production_module_imported": false,
+  "production_output_read": false,
+  "source_assertions": 15,
+  "verdict": "INDEPENDENT_REPLAY_PASS"
+}

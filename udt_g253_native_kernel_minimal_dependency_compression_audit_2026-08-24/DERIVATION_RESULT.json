@@ -1,0 +1,16 @@
+{
+  "edges": 12,
+  "formula_assertions": 21510,
+  "founded_depth_samples": 513,
+  "fraction_trials": 4096,
+  "graphs": 3,
+  "historical_controls": 13,
+  "landing": "MIXED_STATUS_NATIVE_CHAIN_COMPRESSES__REDSHIFT_DIRECT_CONDITIONAL__ANGULAR_RESPONSE_SIBLING_NOT_POSTPROCESSING__SCALE_ATTACHMENT_DOWNSTREAM",
+  "manifest_hashes_pass": true,
+  "manifest_sources": 21,
+  "nodes": 17,
+  "observational_values_read": 0,
+  "protected_paths_read": 0,
+  "token_assertions": 24,
+  "unsupported_edges": 0
+}

@@ -1,0 +1,30 @@
+{
+  "baseline_pass": true,
+  "caught": [
+    "unsupported_edge",
+    "canonize_working_premise",
+    "select_metric_history",
+    "select_pair_germ",
+    "angular_redshift_patch",
+    "post_readout_orchestra",
+    "fitted_angular_origin",
+    "phi_only_angular",
+    "scale_rewrites_depth",
+    "scale_rewrites_shape",
+    "scale_erases_area",
+    "ce_selects_length",
+    "attachment_becomes_kernel",
+    "P1_dependency",
+    "G116_dependency",
+    "G189_dependency",
+    "Xmax_dependency",
+    "fit_dependency",
+    "outcome_dependency",
+    "protected_dependency",
+    "missing_source",
+    "mismatched_source",
+    "conflicting_repository_and_sealed_sources"
+  ],
+  "caught_count": 23,
+  "path_resolution_positive_controls": 2
+}
