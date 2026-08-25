@@ -1,0 +1,27 @@
+id	status	role	included
+F1	OBSERVED_PLUS_FOUNDATIONAL_INTERPRETATION	c_E clock/ruler conversion	yes
+F2	FOUNDED	dual reciprocal squeeze	yes
+F3	POSIT	ordered-depth composition and reversal	yes
+F4	DECLARED_READOUT	primary metric form	yes
+W1	WORKING_FOUNDATIONAL_CLARIFICATION	completed pair normalization	yes_conditional
+W2	WORKING_SEMANTICS	co-presence	no
+W3	WORKING_POSIT_NOT_CANON	GR quiet-limit reduction	yes_conditional
+metric_is_theory	BINDING_PROGRAM_PRINCIPLE	metric-only first classification	yes
+four_dimensions	DECLARED_ARENA	four-dimensional Lorentz metric	yes
+diffeomorphism_naturality	ACCEPTANCE_REQUIREMENT	coordinate-free metric operator	yes
+locality	NEW_PREMISE_CANDIDATE	pointwise finite-jet operator	explored_not_owned
+rank_two_symmetry	NEW_PREMISE_CANDIDATE	metric equation architecture	explored_not_owned
+second_order	NEW_PREMISE_CANDIDATE	at most metric second derivatives	explored_not_owned
+divergence_free	NEW_PREMISE_CANDIDATE	identity-compatible source carry	explored_not_owned
+no_new_operator_scale	NEW_PREMISE_CANDIDATE	forbid an unattached new length in the operator	explored_not_owned
+flat_quiet_member	CONDITIONAL_ON_W3	exclude a cosmological zeroth-order term in the quiet vacuum class	yes_conditional
+Lovelock_classification	MATHEMATICAL_METHOD	classify second-order natural divergence-free tensors	yes
+vacuum_Einstein	IMPORTED_COMPARISON_ONLY	identify the W3 quiet branch	yes_comparison
+G_obs	OBSERVED	possible later source coupling	no_law_attached
+source_matter	OPEN	right-hand-side valuation	no
+G258_knots	OBSERVED_PROCESSED_CONDITIONAL	future value-level falsifier only	no_selection
+X_max	WORKING_OPEN	downstream completion target	no
+higher_derivative_action	UNOWNED_CANDIDATE_CLASS	outside second-order fork	classification_only
+nonlocal_relation_law	UNOWNED_CANDIDATE_CLASS	outside local fork	classification_only
+extra_reciprocal_state	UNOWNED_CANDIDATE_CLASS	outside metric-only fork	classification_only
+protected_packages	EXCLUDED	no input	no
