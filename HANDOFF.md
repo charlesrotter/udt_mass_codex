@@ -4,9 +4,9 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-24
+## Resume anchor — 2026-08-25
 
-G166--G254 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G255 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -40,6 +40,13 @@ ambient metric-history equation. A smooth curvature-separated counterfamily surv
 completed-pair algebra. Therefore stage 2 reduced history ODE/PDE and stage 3 GPU history work were
 gated and not started; launching either now would import scaffolding.
 
+G255 is externally verified with caveats and no findings. It audited exactly G165--G254: 90
+packages, 321 frozen sources, 83 exact derivations, and 21 strongest closure candidates. No lost
+owned local condition, global relation value law, or unresolved candidate was found. G166, G212,
+and G254 are compatible: the primary UDT metric owns the downstream kernel; a fully valued complete
+relation network can be that metric state; the broad Lorentz/coframe family remains a diagnostic
+arena. What remains open is the numerical primary-state score over separation and time.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
 program/index.
@@ -60,9 +67,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next lay `MAP -> PONDER` address the G254 closure fork: an independently owned natural metric
-condition or a genuinely global completed-relation law that cuts metric histories. Do not invent
-one inside an ODE/GPU solve, fit an unrestricted history function, or promote Cartan/Bianchi/network
-closure to dynamics. The 237-row registry controls.
+Next `MAP -> PONDER -> DERIVE` the G255 primary-state value-closure gate: a finite native family, a
+genuinely global completed-relation value law, or an honest source-bounded negative leading only to
+explicit empirical reconstruction. Do not repeat the retrospective, invent a solver residual, fit
+an unrestricted history function, or promote Cartan/Bianchi/network reconstruction to dynamics.
+The 238-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

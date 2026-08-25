@@ -1,6 +1,6 @@
 # LIVE — current state only
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-24
+## CURRENT STATE — 2026-08-25
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
 ### Honest claim
@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G254. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G255. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -51,10 +51,18 @@ survives the same completed-pair algebra. The owned active ambient evolution-equ
 so reduced ODE and GPU history solves are mathematically undefined and were not launched. This is a
 source-bounded closure result, not zero physics or a no-go for a future invariant/global relation law.
 
+G255 is externally verified with caveats and no findings. Its exact retrospective covers all 90
+packages G165--G254, 321 frozen sources, 83 exact derivations, and 21 strongest closure candidates.
+It found no lost owned local metric condition, global relation value law, or unresolved closure
+candidate. It also reconciles G166, G212, and G254: the kernel is downstream of the primary UDT
+metric, a fully valued rank-complete relation network can be that metric state, and the broader
+Lorentz/coframe family is only a diagnostic configuration arena. The remaining gate is therefore
+the values of the primary UDT relation state, not selection among every imaginable metric.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 237-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 238-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -62,7 +70,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 ### Observational boundary
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
-rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G254
+rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G255
 are outcome-blind geometry/typing, not a BOSS result. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
@@ -77,10 +85,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Next lay `MAP -> PONDER` must address the G254 closure fork before any history solve: either locate an
-independently owned diffeomorphism-natural nonidentity condition on the metric, or formulate a
-genuinely global completed-relation condition that constrains metric values rather than merely
-reconstructing them. Do not invent either during a numerical solve, fit an unrestricted history
-function, or use an observational attachment to manufacture the missing equation. Until one branch
-is owned and preregistered, no reduced ODE/PDE or GPU history solve is authorized.
+G255 closes the retrospective. Next `MAP -> PONDER -> DERIVE` only the primary UDT value-closure
+question: determine whether the founded metric/relation chain reduces depth/profile and time-live
+values to a finite native family, or owns a genuinely global completed-relation value law. A
+source-bounded negative would instead authorize only an explicitly empirical state reconstruction,
+not a claimed derivation. Do not repeat the 90-run audit, invent a residual inside a numerical solve,
+fit an unrestricted history function, or use an attachment to manufacture closure. No ODE/PDE or
+GPU history solve is authorized until the closure object's mathematical type is known.
 <!-- STARTUP_CURRENT_END -->

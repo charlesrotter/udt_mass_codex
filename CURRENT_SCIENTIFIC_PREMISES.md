@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G254 | State; sky/cone/network; coarea; scale/anchor/attachment contract; compressed dependency spine; time-live closure census | History law; values; aggregation |
+| Pair-clock/state network | G215--G255 | State; sky/cone/network; coarea; scale/anchor/attachment contract; compressed dependency spine; time-live closure and lost-closure census | Primary-state value law; values; aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -51,6 +51,7 @@
 | G252 proper-clock attachment | external after repairs | Supplied clock fixes `ell`; second tests history; no value selected |
 | G253 native-kernel compression | external after repair | Direct conditional redshift, angular sibling, and downstream scale attachment remain distinct; no registered scaffold input |
 | G254 time-live solver closure | external; no scientific repair | Current relations evaluate/reconstruct supplied time-live metrics; zero owned ambient residual; ODE/GPU history stages gated |
+| G255 lost-closure recovery | external; no findings | Exact G165--G254 retrospective finds no lost owned value law and narrows the gate to primary-state value closure |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -80,8 +81,9 @@ None selects completion/`X_max`.
   attachment. G253 externally compresses direct redshift, angular response, and downstream units;
   no P1/G116/G189/fit/outcome/`X_max`/protected construction input survives. History, source,
   detector, caustics, and completion stay open. G254 verifies that the current evaluator/reconstruction
-  chain does not itself define an ambient time-live metric ODE or PDE; this is not a no-go for a
-  future invariant metric condition or global relation law.
+  chain does not itself define an ambient time-live metric ODE or PDE. G255 verifies that no such
+  owned closure was lost in G165--G254 and reconciles the primary UDT state with the broader
+  diagnostic metric arena; neither result is a no-go for a future native value-closure law.
 
 ## Carrier, action, source, and matter
 
@@ -99,7 +101,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 freeze state
-under imported transfer; G242/G243 are bounded controls. G244--G254 use no outcome; BOSS, history,
+under imported transfer; G242/G243 are bounded controls. G244--G255 use no outcome; BOSS, history,
 source, and transfer stay open.
 
 ## Recurring prohibited promotions
@@ -114,7 +116,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 237-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 238-row authority; conflicts stop.
 
 Run:
 

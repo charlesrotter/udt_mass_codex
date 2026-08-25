@@ -1,6 +1,6 @@
 object	status	maximum_conclusion
 G255_scope	PREREGISTERED_90_SLOTS_321_EXACT_SOURCES	ninety numbered packages G165 through G254
-G255_classification	NO_LOST_CLOSURE_IN_G165_G254__INTERNALLY_VERIFIED_WITH_CAVEATS	zero C12 local conditions zero C13 global laws and zero unresolved C14 candidates in the frozen source universe
+G255_classification	NO_LOST_CLOSURE_IN_G165_G254__EXTERNALLY_VERIFIED_WITH_CAVEATS	zero C12 local conditions zero C13 global laws and zero unresolved C14 candidates in the frozen source universe
 G255_scope_reconciliation	G166_G212_G254_COMPATIBLE	primary UDT state value closure is open but unrestricted Lorentz metrics are not promoted to physical UDT histories
 G255_counterhistory	DIAGNOSTIC_ONLY__85_EXACT_FRACTION_CURVATURE_CASES_PASS	proves evaluator non_generation but is not a physical UDT ansatz
-G255_external_review	PENDING	fresh read_only adversarial verdict required before final banking
+G255_external_review	G255_ACCEPTED_WITH_CAVEATS__NO_FINDINGS	fresh sealed gpt_5_4 review reran both no_write verifiers and accepted the bounded landing

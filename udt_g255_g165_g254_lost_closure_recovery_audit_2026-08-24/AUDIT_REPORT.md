@@ -13,7 +13,7 @@ __G254_IS_A_VALID_CONFIGURATION_ARENA_STOP_GATE_NOT_A_CLAIM_THAT_ALL_LORENTZ_MET
 __NEXT_TARGET_IS_PRIMARY_UDT_VALUE_CLOSURE_BEFORE_ANY_ODE_OR_GPU_SOLVE
 ```
 
-Current grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_PENDING`.
+Current grade: `EXTERNALLY_VERIFIED_WITH_CAVEATS__G255_ACCEPTED_WITH_CAVEATS__NO_FINDINGS`.
 
 ## Direct answer
 
@@ -125,6 +125,15 @@ The dependency-free verifier performs:
 
 It passes `1,747` assertions. The diagnostic twins remain invariantly distinct while satisfying the
 same completed pair normalization; this certifies the evaluator/non-generator distinction only.
+
+## Fresh external adversarial review
+
+The sealed 350-file gpt-5.4 review returned `G255_ACCEPTED_WITH_CAVEATS` with no findings. The
+reviewer reran the registered 840-assertion package verifier and 1,747-assertion independent
+verifier, then directly audited G212, G176, G254, the G171-to-G215 supersession, and the absent
+standalone G185/G197/G232 registry rows. It found no missed closure owner and accepted the scope
+reconciliation. The caveat is exact: acceptance is limited to the frozen G165--G254 source
+universe. See `EXTERNAL_REVIEW_GPT54.md`.
 
 ## What the 90 runs accomplished
 

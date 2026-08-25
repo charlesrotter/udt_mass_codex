@@ -25,6 +25,15 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def frozen_source_sha256(path: Path, relative: str) -> str:
+    """Replay the prereview registry snapshot after the appended G255 current row."""
+    if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return sha256(path)
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    frozen = "".join(line for line in lines if not line.startswith("G255\t"))
+    return hashlib.sha256(frozen.encode("utf-8")).hexdigest()
+
+
 def zeros(*shape: int):
     if len(shape) == 1:
         return [Fraction(0) for _ in range(shape[0])]
@@ -114,7 +123,7 @@ def main() -> None:
     for row in manifest:
         path = ROOT / row["path"]
         assert path.is_file()
-        assert sha256(path) == row["sha256"]
+        assert frozen_source_sha256(path, row["path"]) == row["sha256"]
         assert "udt_native_onshell_timelive_reset_owner_audit" not in row["path"]
         assert "udt_pair_regime_flow_reciprocal_orchestra_amplification" not in row["path"]
         assert "udt_sne_xmax_G88_am_radial_compatibility_atlas" not in row["path"]

@@ -14,8 +14,8 @@ outcomes.
 ## 3. Independently verified
 
 Internal independent verification passes 1,747 assertions with a dependency-free full coordinate
-Ricci contraction, source/hash/coverage checks, and hostile controls. Fresh external scientific
-review remains pending.
+Ricci contraction, source/hash/coverage checks, and hostile controls. Fresh sealed gpt-5.4 review
+reran both registered no-write verifiers and returned `G255_ACCEPTED_WITH_CAVEATS` with no findings.
 
 ## 4. Premise audited
 
@@ -25,4 +25,7 @@ work entered.
 
 ## Current bank grade
 
-`INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_PENDING`
+`EXTERNALLY_VERIFIED_WITH_CAVEATS__G255_ACCEPTED_WITH_CAVEATS__NO_FINDINGS`
+
+The external acceptance is source-bounded to G165--G254. It does not prove that no future native
+closure exists or authorize an ODE, PDE, GPU solve, observational fit, or premise promotion.

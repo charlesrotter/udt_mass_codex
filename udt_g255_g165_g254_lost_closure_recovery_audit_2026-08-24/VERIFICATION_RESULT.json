@@ -1,5 +1,5 @@
 {
-  "assertion_count": 840,
+  "assertion_count": 842,
   "candidate_count": 21,
   "class_counts": {
     "C01": 1,
@@ -16,7 +16,7 @@
   },
   "current_controller_match_count": 86,
   "exact_derivation_count": 83,
-  "external_review": "PENDING",
+  "external_review": "G255_ACCEPTED_WITH_CAVEATS",
   "landing": "NO_LOST_CLOSURE_IN_G165_G254",
   "registry_row_count_in_range": 87,
   "slot_count": 90,

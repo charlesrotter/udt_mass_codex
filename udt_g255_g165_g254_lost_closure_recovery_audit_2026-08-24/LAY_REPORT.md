@@ -19,3 +19,6 @@ So G254's roadmap survives, with sharper wording: do not launch an ODE or GPU so
 itself yields a value-closing relation. That relation might be an equation, but it could also be an
 elegant global consistency rule or a finite algebraic family. After it leaves only a few constants,
 observations may legitimately calibrate those constants and then test the model elsewhere.
+
+A fresh sealed gpt-5.4 reviewer checked the full 90-run census and reported no findings. Its caveat
+is simply that this conclusion covers the audited G165--G254 record, not every future UDT idea.
