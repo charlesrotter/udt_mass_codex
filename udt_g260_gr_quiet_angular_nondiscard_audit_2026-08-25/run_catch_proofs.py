@@ -54,7 +54,7 @@ def main() -> None:
         "drop_nonzero_C_guard": c != 0 and a_parallel == 3 * c / (2 * r),
         "delete_pair_angular_gram": pair_h00_with_angular != pair_h00_deleted,
         "widen_quiet_result_to_loud_global_law": (
-            "Repair-only external follow-up remains required" in audit
+            "bounded scientific landing and all premise grades are unchanged" in audit.lower()
             and "does not derive the Einstein equation" in exact
             and "nonspherical_timelive\tOMITTED_OPEN" in ledger
         ),

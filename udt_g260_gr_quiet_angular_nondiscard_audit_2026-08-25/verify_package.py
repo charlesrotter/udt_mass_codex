@@ -35,6 +35,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
         "REVIEW_REQUEST.md",
         "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
         "TRANSMISSION_RECORD.md",
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
@@ -94,18 +95,22 @@ def main() -> None:
     assert repair["hostile_catches"] == 8
     assert repair["full_repository_tests"]["collected"] == 164
     assert repair["full_repository_tests"]["expected_xfail"] == 1
+    assert repair["external_repair_followup"] == "ACCEPT_REPAIR"
 
     audit = (ROOT / "AUDIT_REPORT.md").read_text()
     exact = (ROOT / "EXACT_DERIVATION.md").read_text()
     ledger = (ROOT / "PREMISE_LEDGER.tsv").read_text()
     external = (ROOT / "EXTERNAL_REVIEW_GPT54.md").read_text()
+    external_followup = (ROOT / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
     repair_prereg = (ROOT / "REPAIR_PREREGISTRATION.md").read_text()
-    assert "INTERNALLY_REPAIRED_LEAD__EXTERNAL_REPAIR_FOLLOWUP_REQUIRED" in audit
+    assert "EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_ACCEPTED" in audit
     assert "Vacuum Einstein remains an imported W3 comparator" in audit
     assert "does not derive the Einstein equation" in exact
     assert "vacuum_Einstein_residual\tIMPORTED_COMPARISON_ONLY" in ledger
     assert "screen_k0\tHOSTILE_CORRUPTION_CONTROL" in ledger
     assert "Disposition: `ACCEPT_WITH_REPAIRS`" in external
+    assert "Disposition: `ACCEPT_REPAIR`" in external_followup
+    assert "Exact remaining repair: none" in external_followup
     assert "R1 — dependency-free production replay" in repair_prereg
 
     with (ROOT / "SOURCE_MANIFEST.tsv").open(newline="") as handle:
@@ -119,13 +124,13 @@ def main() -> None:
     result = {
         "status": "PASS",
         "landing": LANDING,
-        "grade": "INTERNALLY_REPAIRED_LEAD__EXTERNAL_REPAIR_FOLLOWUP_REQUIRED",
+        "grade": "EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_ACCEPTED",
         "source_hashes": len(sources),
         "independent_assertions": independent["assertions"],
         "hostile_catches": catches["caught_count"],
-        "external_review": "ACCEPT_WITH_REPAIRS",
+        "external_review": "ACCEPT_WITH_REPAIRS__R1_ACCEPTED",
         "repair": "R1_dependency_free_production_replay",
-        "repair_status": "PASS_PENDING_EXTERNAL_FOLLOWUP",
+        "repair_status": "EXTERNALLY_ACCEPTED",
     }
     (ROOT / "VERIFICATION_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n"
@@ -133,7 +138,7 @@ def main() -> None:
     print(
         "PASS: G260 package, "
         f"{len(sources)} source hashes, {independent['assertions']} independent assertions, "
-        f"{catches['caught_count']} hostile catches; R1 PASS, repair follow-up OPEN"
+        f"{catches['caught_count']} hostile catches; R1 externally accepted"
     )
 
 

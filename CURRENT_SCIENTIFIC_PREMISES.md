@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Germ/extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G259 | Carry, scale, values, GR, operator fork | Fork; source/history; aggregation |
+| Pair-clock/state network | G215--G260 | Carry, scale, values, GR, operator fork, angular non-discard | Parent/source law; history; aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL/DERIVED` | `chi=tanh(phi_pair)` | Completion |
@@ -57,6 +57,7 @@
 | G257 GR quiet embedding | external; no findings | `f=1+C/r`; native pair/angular response; nonzero GR balance |
 | G258 sampled inverse metric | external science and R1 accepted | `12` states; one scale; no law |
 | G259 parent-operator fork | external repairs accepted | Nonzero conditional Einstein zero set; fork unselected |
+| G260 GR-quiet angular non-discard | external after R1 | Full-metric active cancellation; radial-only vacuity; no parent law |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -76,14 +77,10 @@ None selects completion/`X_max`.
 
 ## Geometry, query, and causality
 
-- The kernel takes an ordered pair, not a path; route observables stay separate.
-- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  Metricity is not dynamics.
-- The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selection.
-- G212--G235 evaluate or reconstruct but do not select. G236--G243 are observational controls.
-  G244/G245/G246/G247/G248 derive branchwise sky/cone/measure geometry; G249/G250/G251/G252 type scale and attachment.
-  G253 compresses redshift/angular/units. G254--G256 find no value law. G257 gives the quiet GR
-  comparison; G258 samples values; G259 conditionally classifies the metric-operator fork.
+- The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
+  scalars stop at positive conformal class. Metricity is not dynamics.
+- G212--G243 evaluate/reconstruct without selecting values; G244/G245/G246/G247/G248 give branchwise
+  geometry; G249--G256 type scale and closure. G257--G260 supply GR, values, fork, and non-discard.
 
 ## Carrier, action, source, and matter
 
@@ -100,9 +97,8 @@ None selects completion/`X_max`.
 
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 freeze state
-under imported transfer; G242/G243 are controls. G244--G257 and G259 are outcome-blind; G258 reuses G237.
-BOSS/history/transfer stay open.
+R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236--G243 are controls;
+G244--G257 and G259--G260 are outcome-blind; G258 reuses G237. BOSS/history/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -116,7 +112,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 242-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 243-row authority; conflicts stop.
 
 Run:
 

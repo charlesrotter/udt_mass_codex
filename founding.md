@@ -153,6 +153,49 @@ sector, or the law governing departure from the GR branch. In the bounded first 
 equations may be used only as an explicitly imported comparison condition on the static spherical
 exterior.
 
+### W3.1. Full-metric quiet non-discard theorem
+
+`DERIVED_CONDITIONAL`, bounded to the primary static-spherical positive-
+\(f=e^{-2\phi}\) W3 comparator: the quiet comparison must be evaluated with the complete
+four-metric, including the areal sphere. Its two independent diagonal residuals are
+
+\[
+\mathcal E_0=r f'+f-1,
+\qquad
+\mathcal E_1=r f'+\frac{r^2}{2}f'',
+\]
+
+and the native G201 angular amplitudes obey the exact identity
+
+\[
+A_\parallel+A_\perp=\mathcal E_1-\mathcal E_0.
+\]
+
+On the imported quiet-vacuum comparison family \(f=1+C/r\), with \(C\ne0\),
+
+\[
+A_\parallel=\frac{3C}{2r},
+\qquad
+A_\perp=-\frac{3C}{2r}.
+\]
+
+Thus the angular instruments are active and cancel; they were not turned off to recover the GR
+limit. The isolated two-dimensional clock-radius metric has identically zero Einstein tensor for
+every \(f\), so it is a vacuous substitute. Flattening the areal sphere instead gives an exact unit
+residual on \(f=1+C/r\). Either shortcut corrupts the bounded comparison.
+
+This theorem does not select the UDT parent law. In particular, zero angular trace alone retains
+
+\[
+f=1+a r^2+\frac{b}{r},
+\qquad
+\mathcal E_0=\mathcal E_1=3a r^2,
+\]
+
+and the imported vacuum condition separately removes \(a\). G260 therefore closes the angular-
+discard concern while leaving the parent/source value law, time-live extension, and loud-regime
+departure `OPEN`.
+
 ### Observational anchors
 
 \(c_E\) and \(G_{\rm obs}\) are accepted `OBSERVED` anchors. Neither is presently an equation for
@@ -896,7 +939,8 @@ It does not yet own
 The open bridge is real, but it is narrow. A successful external derivation would convert the
 current evaluator into a finite predictive history family or a global relational evolution law. A
 rigorous underdetermination theorem would be equally valuable because it would identify, without
-scaffolding, the smallest premise that UDT still needs.
+scaffolding, the smallest premise that UDT still needs. G260 removes one possible false explanation
+for this ceiling: the gap is not caused by deleting the angular sector in the quiet comparison.
 
 ## 20. Controlling source spine
 
@@ -927,6 +971,10 @@ not extra premises required to understand the problem.
 - `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`
 - `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`
 - `udt_g256_primary_state_value_closure_rank_2026-08-25/`
+- `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`
+- `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`
+- `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`
+- `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`
 
 ## Lay summary
 

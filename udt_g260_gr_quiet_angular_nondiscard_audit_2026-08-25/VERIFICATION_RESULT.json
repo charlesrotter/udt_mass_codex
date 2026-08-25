@@ -1,11 +1,11 @@
 {
-  "external_review": "ACCEPT_WITH_REPAIRS",
-  "grade": "INTERNALLY_REPAIRED_LEAD__EXTERNAL_REPAIR_FOLLOWUP_REQUIRED",
+  "external_review": "ACCEPT_WITH_REPAIRS__R1_ACCEPTED",
+  "grade": "EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_ACCEPTED",
   "hostile_catches": 8,
   "independent_assertions": 10044,
   "landing": "FULL_METRIC_CANCELLATION_WITH_ACTIVE_ANGULAR_SECTOR",
   "repair": "R1_dependency_free_production_replay",
-  "repair_status": "PASS_PENDING_EXTERNAL_FOLLOWUP",
+  "repair_status": "EXTERNALLY_ACCEPTED",
   "source_hashes": 11,
   "status": "PASS"
 }

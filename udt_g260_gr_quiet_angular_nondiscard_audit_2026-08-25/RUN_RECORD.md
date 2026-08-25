@@ -29,5 +29,5 @@ python3 verify_package.py
 - protected packages: not read.
 
 Fresh external review: `ACCEPT_WITH_REPAIRS`; bounded mathematics accepted and one production-replay
-portability defect registered. R1 dependency-free replay repair: PASS. External repair-only
-follow-up remains open.
+portability defect registered. R1 dependency-free replay repair: PASS. Sealed repair-only
+follow-up: `ACCEPT_REPAIR`; no remaining defect and scientific landing unchanged.

@@ -18,6 +18,6 @@
    protected input.
 10. **Fresh external review:** `ACCEPT_WITH_REPAIRS`; bounded mathematics accepted, replay
     portability repair R1 registered and completed.
-11. **External repair-only follow-up:** OPEN.
+11. **External repair-only follow-up:** PASS; `ACCEPT_REPAIR`, no remaining defect.
 
-Current grade: `INTERNALLY_REPAIRED_LEAD__EXTERNAL_REPAIR_FOLLOWUP_REQUIRED`.
+Current grade: `EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_ACCEPTED`.

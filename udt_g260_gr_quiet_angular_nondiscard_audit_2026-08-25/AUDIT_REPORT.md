@@ -2,7 +2,7 @@
 
 Date: 2026-08-25
 
-Grade: `INTERNALLY_REPAIRED_LEAD__EXTERNAL_REPAIR_FOLLOWUP_REQUIRED`
+Grade: `EXTERNALLY_VERIFIED_WITH_CAVEATS__R1_ACCEPTED`
 
 ## Result
 
@@ -56,6 +56,6 @@ balance therefore means active instruments in equilibrium, not instruments remov
 
 Fresh external adversarial review accepted the bounded mathematics and returned
 `ACCEPT_WITH_REPAIRS` solely because the sealed runtime lacked SymPy for the production replay. R1
-replaced that production replay with a Python-standard-library exact tensor reconstruction while
-reproducing `DERIVATION_RESULT.json` byte-for-byte. Repair-only external follow-up remains required
-before the grade can advance beyond `LEAD`.
+replaced that replay with a Python-standard-library exact tensor reconstruction while reproducing
+`DERIVATION_RESULT.json` byte-for-byte. The sealed repair-only follow-up returned `ACCEPT_REPAIR`
+with no remaining defect. The bounded scientific landing and all premise grades are unchanged.

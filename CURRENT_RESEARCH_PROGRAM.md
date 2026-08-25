@@ -3,6 +3,7 @@
 Date: 2026-08-25
 
 `LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+The current exact authority contains 243 rows.
 
 ## Architecture
 
@@ -40,7 +41,7 @@ Phi=-log(T)=-1/2 log(-h00)
 - G129--G165 are reconstruction, scale/carry, `X_max`, and scaffold controls—not kernel mechanisms.
 - G166--G184 derive pullback, normalization, reversal, gluing, carry, and equivalence.
 - G185--G189 are radial/flux controls; P1 and radiative transfer remain historical/imported.
-- G190--G198 evaluate **chosen** time-live coframes and germs; asymmetry is chosen-family-scoped.
+- G190--G198 are formula-level regression controls on **chosen** time-live coframes and germs.
 - G199/G200 remove chirality; G201 types `phi` jets. G202/G203/G204 classify quiet/regular alternatives;
   G205 proves only the supplied realization complete.
 - G206/G207/G208/G209/G210 classify scale, screen, mixing, shift, and volume without selection.
@@ -76,35 +77,24 @@ Phi=-log(T)=-1/2 log(-h00)
 - G257 adds W3 provisionally as `WORKING/POSIT`. Imported vacuum GR yields the exact bounded primary
   family `f=1+C/r`, matched pair readout, and G201 amplitudes `(-3u/2,+3u/2)`. Quietness is GR balance,
   not zero geometry. Fresh external review accepted; the covariant UDT parent law remains open.
-- G258 joins direct redshift to G119 area and frozen G237 relative radii, reconstructing twelve
-  sampled metric states up to one scale with zero new UDT fit coefficients. Fresh gpt-5.4 review
-  accepts the bounded scientific core with caveats. Its sole provenance repair is internally
-  implemented using exact sealed or preregistration Git-object bytes; follow-up accepts it.
-  Continuous history, native transfer,
-  derivatives, and the parent law remain open.
-- G259 conditionally classifies the conservative metric-only parent class. Natural symmetric
-  rank-two, local second-order, identity-divergence-free operators reduce in four dimensions to
-  metric plus Einstein; flat quiet vacuum leaves the Einstein zero set for a nonzero operator.
-  Review accepted R1--R3, and the sealed repair-only follow-up returns
-  `ACCEPT_REPAIRS`: mapped theorem scope, excluded zero operator, and passing independent/
-  dependency-free replays. Class ownership, fork, and source/history stay open.
+- G258 reconstructs twelve sampled metric states up to one scale with no new UDT fit coefficient;
+  review and provenance repair are accepted. Transfer, derivatives, history, and parent law remain open.
+- G259 conditionally reduces an unowned conservative metric-operator class to metric plus Einstein.
+  Accepted repairs exclude the zero operator and verify the replays; class, fork, and source remain open.
+- G260 proves full-metric quiet non-discard: `A_parallel+A_perp=E1-E0`, with two active cancelling
+  modes on `f=1+C/r`. Radial-only is vacuous; trace balance retains `1+a*r^2+b/r`. Reviews accept R1.
 
-G206--G259 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G260 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Open joints
 
-- G211--G231 close supplied local geometry, not values. G232--G235 do not select a history.
-  G236--G243 are bounded observational controls. G244--G248 derive branchwise sky/cone/measure
-  geometry, not population or aggregation. G249--G252 type one remaining scale and its supplied
-  attachment. G253 confirms three typed chains rather than one tunable kernel. G254 then proves,
-  in its frozen source universe, that those evaluators do not yet close a time-live history
-  equation. G255 verifies this was not caused by a forgotten closure equation in G165--G254 and
-  narrows the missing object to primary-state value closure. G256 then proves that the current
-  bounded scalar relations reconstruct but do not propagate those values. History, population,
-  source/detector, caustic, and catalogue semantics remain open.
+- G211--G231 close supplied local geometry; G232--G235 do not select history. G236--G243 are
+  observational controls; G244--G248 give branchwise geometry; G249--G252 type scale attachment.
+  G253--G256 narrow the gap to primary-state value propagation. G260 rules out angular discard as
+  its cause. The missing object remains a full-metric parent/source value law.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
@@ -115,15 +105,8 @@ measure, and detector/transfer ownership open.
 
 ## Audited restart
 
-G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected work from construction;
-G190--G198 remain formula-level regression or chosen-family controls. G199--G251 close bounded
-evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock attachment
-contract; G253 compresses and audits the three resulting typed chains; G254 closes the attempted
-time-live solver gate negatively and source-boundedly; G255 confirms no closure owner was lost in
-the preceding 90-run arc; G256 closes the bounded value-rank test negatively; G257 then identifies
-the exact GR comparison rail already inside the primary metric. G258 adds twelve conditional macro
-value anchors. G259 narrows the parent-law problem to GR-local metric dynamics plus an open
-source/history law versus an explicitly new outside-class metric principle; its repairs are now
-externally accepted. Do not create the missing residual inside a numerical solve, fit an unrestricted history function, fit a regime switch,
-equate quietness with zero geometry, aggregate branches, cross caustics, insert `X_max`, or activate
-protected work.
+G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected inputs. G190--G251 remain
+bounded controls/evaluators; G252--G256 narrow value closure; G257 supplies the GR comparison;
+G258 samples values; G259/G260 classify the operator fork and full-metric quiet balance. Do not
+invent a residual, fit a free history or regime switch, erase nonzero quiet geometry, aggregate
+branches, cross caustics, insert `X_max`, or activate protected work.

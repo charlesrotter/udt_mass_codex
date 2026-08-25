@@ -14,5 +14,5 @@ global_UDT_parent_law	OPEN	G260 does not select it
 source_history	OPEN	mu values and derivatives not supplied
 nonspherical_timelive_loud_extension	OPEN	outside bounded audit
 fresh_external_review	ACCEPT_WITH_REPAIRS	bounded science accepted; production replay portability repair required
-R1_dependency_free_production_replay	REPAIRED_PENDING_EXTERNAL_FOLLOWUP	standard-library exact replay reproduces prior result byte-for-byte
-external_repair_followup	OPEN	verify only R1 and unchanged bounded landing
+R1_dependency_free_production_replay	EXTERNALLY_ACCEPTED	standard-library exact replay reproduces prior result byte-for-byte
+external_repair_followup	ACCEPT_REPAIR	R1 accepted; bounded scientific landing unchanged; no remaining defect

@@ -64,7 +64,8 @@
   `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, no propagation residual;
   `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—exact GR embedding;
   `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale;
-  `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted.
+  `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted;
+  `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—full-metric active angular cancellation; radial-only vacuity; R1 externally accepted.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -101,8 +102,7 @@ R2--R5 remain metric-neutral and select no feature, scale, origin, cosmology, or
   `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 ## Matter/stability lane
-Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`.
-It preserves plural conditional mass-from-geometry branches. For topology begin with
+Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; it preserves plural conditional mass-from-geometry branches. For topology begin with
 `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without explicit authority.

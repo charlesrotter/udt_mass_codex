@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-25
 
-G166--G259 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G260 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -38,17 +38,19 @@ Einstein is imported comparison only. The bounded primary exterior contains `f=1
 pair and native G201 angular responses stay active. GR overlap is nonzero GR-balanced geometry.
 The UDT parent law, matter, history, and `C` remain open.
 
-G258's fresh gpt-5.4 review accepts the bounded scientific core with caveats: twelve frozen
-conditional SNe metric states reconstruct up to one positive scale with no new UDT fit coefficient.
-R1 replaces synthesized premise-row deletion with exact sealed or preregistration Git-object bytes;
-its strict seal catches a one-byte mutation and external repair-only follow-up accepts R1 with the
-scientific landing unchanged. Transfer, interpolation, derivatives, and covariant history remain open.
+G258 reconstructs twelve frozen conditional SNe metric states up to one positive scale with no new
+UDT fit coefficient. Its externally accepted R1 supplies exact historical bytes and a strict seal.
+Transfer, interpolation, derivatives, and covariant history remain open.
 
-G259's fresh gpt-5.4 review returned `ACCEPT_WITH_REPAIRS`; the sealed repair-only follow-up returns
-`ACCEPT_REPAIRS` for R1--R3 with the scientific landing unchanged. The faithful theorem map keeps
-the conservative operator class unowned. Flat quiet vacuum leaves the Einstein zero set only for a
-nonzero operator; the zero equation accepts every metric. The fourth-order counterfamily and
-source/history fork remain unchanged and unselected.
+G259's repair-only follow-up accepts R1--R3 without changing the science. Its conservative operator
+class remains unowned. Flat quiet vacuum selects the Einstein zero set only for a nonzero operator;
+the zero equation accepts every metric. The fourth-order counterfamily and source/history fork remain.
+
+G260's fresh and repair-only gpt-5.4 reviews accept the bounded non-discard result. The full primary
+four-metric owns `A_parallel+A_perp=E1-E0`; the nonflat `f=1+C/r` quiet family has equal-and-opposite
+nonzero angular modes. The radial two-metric alone is vacuous, and deleting sphere curvature breaks
+the family. Trace cancellation still allows `1+a*r^2+b/r`, so G260 preserves rather than selects
+the G259 fork. No UDT parent/source/history law is promoted.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
@@ -70,8 +72,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next decide between GR-local metric dynamics plus native source/population history and an explicitly
-new outside-class metric principle. Do not promote this conditional classification to a UDT field
-equation or invent a solver residual. The 242-row registry controls.
+Next use the G260-repaired `founding.md` to test the smallest full-metric parent/source value law that
+preserves quiet angular cancellation and governs loud departure. Do not promote the conditional
+Einstein comparison to a UDT field equation or invent a solver residual. The 243-row registry
+controls.
 
 <!-- STARTUP_CURRENT_END -->

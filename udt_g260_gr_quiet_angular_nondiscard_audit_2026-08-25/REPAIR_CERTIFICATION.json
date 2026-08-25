@@ -7,7 +7,7 @@
     "status": "PASS"
   },
   "external_fresh_review": "ACCEPT_WITH_REPAIRS",
-  "external_repair_followup": "OPEN",
+  "external_repair_followup": "ACCEPT_REPAIR",
   "full_repository_tests": {
     "collected": 164,
     "expected_xfail": 1,
