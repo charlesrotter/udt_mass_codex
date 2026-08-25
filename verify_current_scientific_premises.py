@@ -8,8 +8,10 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 
@@ -146,6 +148,41 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
+def replay_package_with_current_registry_rows_removed(
+    package: Path,
+    removed_ids: tuple[str, ...],
+) -> dict:
+    """Replay a frozen package in /tmp after removing only declared later registry rows."""
+    with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
+        root = Path(directory)
+        copied_package = root / package.name
+        shutil.copytree(package, copied_package)
+        manifest = read_tsv(package / "SOURCE_MANIFEST.tsv")
+        for row in manifest:
+            source = ROOT / row["path"]
+            payload = source.read_bytes()
+            if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                lines = payload.splitlines(keepends=True)
+                for premise_id in removed_ids:
+                    prefix = f"{premise_id}\t".encode()
+                    matches = [line for line in lines if line.startswith(prefix)]
+                    require(len(matches) == 1, f"ephemeral registry removal count changed: {premise_id}")
+                    lines = [line for line in lines if not line.startswith(prefix)]
+                payload = b"".join(lines)
+            destination = root / row["path"]
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(payload)
+        completed = subprocess.run(
+            [sys.executable, str(copied_package / "verify_package.py")],
+            cwd=root,
+            check=True,
+            capture_output=True,
+            text=True,
+            env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+        )
+        return json.loads(completed.stdout)
+
+
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise SystemExit(message)
@@ -196,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G251",
+            "G166--G252",
             "G197",
             "G215",
             "G216",
@@ -235,6 +272,7 @@ def validate_startup_surface(root: Path) -> None:
             "G249",
             "G250",
             "G251",
+            "G252",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -277,7 +315,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "234-row exact registry",
+            "235-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -356,6 +394,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/",
             "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/",
             "udt_g251_same_object_metric_attachment_ownership_2026-08-24/",
+            "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -369,7 +408,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G251",
+            "G166--G252",
             "G197",
             "G198",
             "G199",
@@ -426,6 +465,7 @@ def validate_startup_surface(root: Path) -> None:
             "G249",
             "G250",
             "G251",
+            "G252",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -495,6 +535,7 @@ def validate_startup_surface(root: Path) -> None:
             "G249",
             "G250",
             "G251",
+            "G252",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -559,10 +600,11 @@ def validate_startup_surface(root: Path) -> None:
             "G249",
             "G250",
             "G251",
+            "G252",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "234-row",
+            "235-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -905,9 +947,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 234, "premise registry must contain exactly 234 rows")
+    require(len(rows) == 235, "premise registry must contain exactly 235 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 234, "duplicate premise id")
+    require(len(by_id) == 235, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -5968,15 +6010,8 @@ def main() -> None:
         "G250 final banking replay absent",
     )
     require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
-    g250_replay = subprocess.run(
-        [sys.executable, str(g250 / "verify_package.py")],
-        cwd=ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
-    )
-    require(json.loads(g250_replay.stdout)["status"] == "PASS", "G250 live no-write replay failed")
+    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G252",))
+    require(g250_replay["status"] == "PASS", "G250 live no-write replay failed")
     require(
         by_id["G251"]["current_status"].startswith(
             "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_D76DFEC4"
@@ -6142,15 +6177,163 @@ def main() -> None:
         "G251 final banking replay absent",
     )
     require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
-    g251_replay = subprocess.run(
-        [sys.executable, str(g251 / "verify_package.py")],
+    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G252",))
+    require(g251_replay["status"] == "PASS", "G251 live no-write replay failed")
+    require(
+        by_id["G252"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_67684B07"
+        ),
+        "G252 bounded grade changed",
+    )
+    for guard in (
+        "FRESH_GPT54_ACCEPT_WITH_REPAIRS_SEALED_SOURCE_RELOCATION_ONLY",
+        "REPAIRS_PREREGISTERED_AT_80581067",
+        "REPAIRS_IMPLEMENTED_AT_A6A661E0",
+        "REPAIR_FOLLOWUP_GPT54_R1_R5_ACCEPTED_NO_REMAINING_DEFECT",
+        "ONE_BLINDED_INDEPENDENT_PROPER_CLOCK_RECORD_ON_ONE_FROZEN_IDENTIFIED_TIMELIKE_SEGMENT_CONDITIONALLY_FIXES_SINGLE_G249_SCALE",
+        "ELL_EQUALS_TAU_STAR_OVER_BAR_TAU",
+        "CE_CONVERTS_ATTACHED_DURATION_TO_LENGTH_WITHOUT_ADDING_SCALE_PARAMETER",
+        "SECOND_FROZEN_CLOCK_ATTACHMENT_TESTS_SUPPLIED_DIMENSIONLESS_HISTORY_BY_EQUAL_SCALE_RECOVERY",
+        "EVENT_IDENTITY_AND_INDEPENDENT_CALIBRATION_SUPPLIED_OPERATIONAL_INPUTS",
+        "PRODUCTION_4096_CASES_18451_SEGMENT_TERMS_20480_ASSERTIONS",
+        "INDEPENDENT_12000_CASES_60000_ASSERTIONS_12000_INCONSISTENT_ATTACHMENTS_REJECTED",
+        "EXACT_20_HOSTILE_CATCHES",
+        "SIX_EXACT_SOURCES_REPLAYED_IN_REPOSITORY_AND_SEALED_LAYOUTS",
+        "ZERO_OBSERVATIONAL_VALUES_ZERO_FITTED_COEFFICIENTS_ZERO_NEW_KERNEL_MECHANISMS",
+        "NO_CLOCK_VALUE_HISTORY_BRANCH_POPULATION_FIT_OUTCOME_SELECTED",
+    ):
+        require(guard in by_id["G252"]["current_status"], f"G252 guard absent: {guard}")
+    require(by_id["G252"]["epistemic_label"] == "MIXED", "G252 label changed")
+    require(
+        by_id["G252"]["active_use"]
+        == "ACTIVE_BOUNDED_ONE_SUPPLIED_G249_COMPLETE_DIMENSIONLESS_HISTORY_ONE_FROZEN_IDENTIFIED_POSITIVE_TIMELIKE_SEGMENT_AND_ONE_INDEPENDENTLY_CALIBRATED_PROPER_CLOCK_ATTACHMENT_CONTRACT_ONLY",
+        "G252 active scope widened",
+    )
+    for guard in (
+        "conditional attachment formula called an observed attachment or selected value",
+        "supplied observer event branch clock or calibration identity called metric-derived",
+        "c_E called a second scale equation or scale selector",
+        "local attachment called complete history selection",
+        "inconsistent second attachment repaired with a second scale",
+        "arbitrary curve called physical UDT kernel",
+    ):
+        require(guard in by_id["G252"]["forbidden_regression"], f"G252 regression guard absent: {guard}")
+    require(
+        by_id["G252"]["controlling_source"]
+        == "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/AUDIT_REPORT.md",
+        "G252 controlling source changed",
+    )
+    g252 = ROOT / "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "BANKING_INTEGRATION_NOTE.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md",
+        "BANKING_INTEGRATION_PREREGISTRATION_ADDENDUM.md",
+        "BANKING_INTEGRATION_PREREGISTRATION_SECOND_ADDENDUM.md",
+        "BANKING_REPLAY_RECORD.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_RAW.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_COMMIT.md",
+        "REPAIR_FOLLOWUP.md",
+        "REPAIR_FOLLOWUP_RAW.md",
+        "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "REPAIR_IMPLEMENTATION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION_COMMIT.md",
+        "REPAIR_RESULT.md",
+        "REVIEW_TRANSMISSION_RECORD.md",
+        "RUN_RECORD.md",
+        "SEALED_REPLAY_RECORD.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "build_review_intake.py",
+        "derive_local_proper_clock_attachment.py",
+        "run_catch_proofs.py",
+        "verify_local_proper_clock_attachment_independent.py",
+        "verify_package.py",
+    ):
+        require((g252 / name).is_file(), f"G252 evidence missing: {name}")
+    expected_g252 = (
+        "ONE_BLINDED_INDEPENDENT_PROPER_CLOCK_RECORD_ON_ONE_FROZEN_IDENTIFIED_TIMELIKE_SEGMENT_"
+        "CONDITIONALLY_FIXES_THE_SINGLE_G249_SCALE"
+        "__CE_CONVERTS_THE_ATTACHED_DURATION_TO_LENGTH_WITHOUT_ADDING_A_SCALE_PARAMETER"
+        "__A_SECOND_FROZEN_CLOCK_ATTACHMENT_TESTS_THE_SUPPLIED_DIMENSIONLESS_HISTORY_BY_EQUAL_SCALE_RECOVERY"
+        "__EVENT_IDENTITY_AND_INDEPENDENT_CALIBRATION_ARE_SUPPLIED_OPERATIONAL_INPUTS_NOT_METRIC_DERIVATIONS"
+        "__NO_CLOCK_VALUE_HISTORY_BRANCH_POPULATION_FIT_OUTCOME_OR_NEW_KERNEL_MECHANISM_SELECTED"
+    )
+    g252_result = json.loads((g252 / "DERIVATION_RESULT.json").read_text())
+    g252_independent = json.loads((g252 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g252_catches = json.loads((g252 / "CATCH_PROOF_RESULT.json").read_text())
+    require(g252_result["landing"] == expected_g252, "G252 production landing changed")
+    require(g252_independent["expected_landing"] == expected_g252, "G252 independent landing changed")
+    require(
+        g252_result["sampled"]
+        == {"cases": 4096, "assertions": 20480, "segment_terms": 18451}
+        and all(g252_result["exact_checks"].values())
+        and g252_result["source_count_verified"] == 6,
+        "G252 production checks changed",
+    )
+    require(
+        g252_independent["cases"] == 12000
+        and g252_independent["assertions"] == 60000
+        and g252_independent["inconsistent_second_attachments_rejected"] == 12000
+        and g252_independent["source_count_verified"] == 6
+        and g252_independent["implementation"]
+        == "standard_library_fraction_no_production_import_or_output_read",
+        "G252 independent checks changed",
+    )
+    require(
+        g252_catches["status"] == "PASS"
+        and g252_catches["caught"] == g252_catches["total"] == 20
+        and not g252_catches["missed"]
+        and all(g252_catches["mutations"].values()),
+        "G252 hostile ledger changed",
+    )
+    require(
+        g252_result["observational_values_used"]
+        == g252_independent["observational_values_used"]
+        == g252_result["fitted_coefficients"]
+        == g252_independent["fitted_coefficients"]
+        == g252_result["new_kernel_mechanisms"]
+        == 0
+        and g252_result["history_selected"] is False
+        and g252_independent["history_selected"] is False,
+        "G252 empirical or kernel boundary changed",
+    )
+    require(
+        (g252 / "REPAIR_FOLLOWUP_RAW.md").read_text().startswith("REPAIRS_ACCEPTED"),
+        "G252 external repair acceptance absent",
+    )
+    require(
+        "No clock record or value, complete history, branch population, fit, outcome, or new kernel mechanism is selected."
+        in (g252 / "BANKING_INTEGRATION_NOTE.md").read_text(),
+        "G252 banking scope guard absent",
+    )
+    require(
+        "PASS: 157 passed, 1 xfailed."
+        in (g252 / "BANKING_REPLAY_RECORD.md").read_text(),
+        "G252 final banking replay absent",
+    )
+    require(len(read_tsv(g252 / "SOURCE_MANIFEST.tsv")) == 6, "G252 source count changed")
+    g252_replay = subprocess.run(
+        [sys.executable, str(g252 / "verify_package.py")],
         cwd=ROOT,
         check=True,
         capture_output=True,
         text=True,
         env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
     )
-    require(json.loads(g251_replay.stdout)["status"] == "PASS", "G251 live no-write replay failed")
+    require(json.loads(g252_replay.stdout)["status"] == "PASS", "G252 live no-write replay failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -10374,7 +10557,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251-extended startup and premise guards; PASS: 234-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252-extended startup and premise guards; PASS: 235-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

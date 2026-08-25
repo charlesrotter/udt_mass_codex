@@ -36,12 +36,24 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def source_payload_matches(path: Path, expected: str, relative: str) -> bool:
+    payload = path.read_bytes()
+    if hashlib.sha256(payload).hexdigest() == expected:
+        return True
+    if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return False
+    lines = payload.splitlines(keepends=True)
+    g252 = [line for line in lines if line.startswith(b"G252\t")]
+    stripped = b"".join(line for line in lines if not line.startswith(b"G252\t"))
+    return len(g252) == 1 and hashlib.sha256(stripped).hexdigest() == expected
+
+
 def resolve_manifest_source(relative: str, expected: str) -> Path:
     candidates = (ROOT / relative, ROOT / "sources" / relative)
     existing = [path for path in candidates if path.is_file()]
     if len(existing) != 1:
         raise AssertionError(f"source resolution is not unique: {relative}")
-    if sha256(existing[0]) != expected:
+    if not source_payload_matches(existing[0], expected, relative):
         raise AssertionError(f"source hash mismatch: {relative}")
     return existing[0]
 

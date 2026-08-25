@@ -60,8 +60,9 @@
 - SNe controls: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`; `udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`; `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`—history/source unselected.
 - Sky/null chain: `udt_g244_metric_native_observer_sky_response_query_2026-08-24/`; `udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`; `udt_g246_two_observer_null_incidence_descent_2026-08-24/`;
   `udt_g247_global_null_branch_network_descent_2026-08-24/`; `udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`—branchwise `r/A`; aggregation/population/history open.
-- Scale/anchor/attachment: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`; `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`;
-  `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—an attached datum can fix scale; no native owner found.
+- Scale/attachment: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`;
+  `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—no native datum owner;
+  `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one supplied proper-clock attachment fixes `ell` conditionally; a second tests the supplied history.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
@@ -86,13 +87,12 @@ R2--R5 remain metric-neutral and select no feature, scale, origin, cosmology, or
 - Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
-- Founding reciprocal source, interpreted only through the current premise ledger:
-  `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+- Founding reciprocal source, interpreted through the ledger: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
-- Supplied germs and raw incidence controls: query G168--G171, then controlling G215, in the registry.
+- Supplied germs/incidence controls: query G168--G171, then controlling G215, in the registry.
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
 ## Historical negative controls — never kernel inputs

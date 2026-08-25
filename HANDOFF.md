@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G251 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G252 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -53,6 +53,10 @@ but no registered candidate owns an independent same-object datum. Internal comp
 scale. Direct routes need an operational attachment; composites need a matter/instrument law. No
 attachment, value, history, branch population, fit, or outcome was selected.
 
+G252 is externally verified after sealed-source repairs. Given a supplied G249 history, identified
+timelike segment, and independent proper-clock record, `ell=tau_star/bar_tau`; a second must agree or
+reject that history. `c_E` only converts time to length. No record, value, history, or mechanism was selected.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
 `CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
@@ -73,9 +77,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next conduct a lay `MAP -> PONDER` choice of one empirical same-object attachment contract before
-preregistering G252; do not open or fit its value. Keep G248 aggregation separate and SNe redshift
-direct from reciprocal `phi`. Keep BOSS/CMB closed; do not cross caustics, select G225, activate
-protected work, identify `X_max`, or import P1/G116/G189. The 234-row registry controls.
+Next lay `MAP -> PONDER` one independent proper-clock record and exact same-object interval before
+opening its value. Do not fit it or choose history. Keep G248 aggregation separate and SNe redshift
+direct from `phi`; keep BOSS/CMB, caustics, G225, protected work, `X_max`, and P1/G116/G189 closed.
+The 235-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

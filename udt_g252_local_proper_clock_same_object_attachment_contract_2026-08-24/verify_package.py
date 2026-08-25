@@ -59,6 +59,17 @@ def sha256_bytes(payload: bytes) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def source_payload_matches(payload: bytes, expected: str, relative: str) -> bool:
+    if sha256_bytes(payload) == expected:
+        return True
+    if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return False
+    lines = payload.splitlines(keepends=True)
+    g252 = [line for line in lines if line.startswith(b"G252\t")]
+    stripped = b"".join(line for line in lines if not line.startswith(b"G252\t"))
+    return len(g252) == 1 and sha256_bytes(stripped) == expected
+
+
 def relocated_source_accepts(
     repository_payload: bytes | None,
     sealed_payload: bytes | None,
@@ -75,7 +86,7 @@ def relocated_source_accepts(
 def resolve_source(relative: str, expected: str) -> Path | None:
     candidates = (ROOT / relative, ROOT / "sources" / relative)
     existing = [path for path in candidates if path.is_file()]
-    if len(existing) != 1 or sha256(existing[0]) != expected:
+    if len(existing) != 1 or not source_payload_matches(existing[0].read_bytes(), expected, relative):
         return None
     return existing[0]
 
@@ -123,6 +134,10 @@ def main() -> None:
         "EXTERNAL_REVIEW_RAW.md", "REVIEW_TRANSMISSION_RECORD.md", "REPAIR_PREREGISTRATION.md",
         "REPAIR_PREREGISTRATION_COMMIT.md", "REPAIR_IMPLEMENTATION_RECORD.md",
         "SEALED_REPLAY_RECORD.md", "REPAIR_RESULT.md", "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP.md", "REPAIR_FOLLOWUP_RAW.md", "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "BANKING_INTEGRATION_PREREGISTRATION.md", "BANKING_INTEGRATION_PREREGISTRATION_ADDENDUM.md",
+        "BANKING_INTEGRATION_PREREGISTRATION_SECOND_ADDENDUM.md",
+        "BANKING_INTEGRATION_NOTE.md", "BANKING_REPLAY_RECORD.md",
     ]
     missing = [name for name in required if not (PKG / name).is_file()]
 
@@ -134,6 +149,22 @@ def main() -> None:
     ]
     layout_control = b"G252 exact sealed source"
     layout_digest = sha256_bytes(layout_control)
+    registry_manifest = next(row for row in sources if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    registry_path = resolve_source(registry_manifest["path"], registry_manifest["sha256"])
+    if registry_path is None:
+        raise AssertionError("banked registry source did not resolve")
+    registry_payload = registry_path.read_bytes()
+    registry_lines = registry_payload.splitlines(keepends=True)
+    registry_without_g252 = b"".join(
+        line for line in registry_lines if not line.startswith(b"G252\t")
+    )
+    registry_g252 = [line for line in registry_lines if line.startswith(b"G252\t")]
+    registry_historical = registry_without_g252 if registry_g252 else registry_payload
+    synthetic_g252 = b"G252\tbanked_registry_compatibility_control\n"
+    registry_banked = registry_payload if registry_g252 else registry_historical + synthetic_g252
+    registry_with_duplicate_g252 = registry_banked + (
+        registry_g252[0] if registry_g252 else synthetic_g252
+    )
 
     saved_production = json.loads((PKG / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     saved_independent = json.loads((PKG / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
@@ -160,6 +191,16 @@ def main() -> None:
         "sealed_source_hash_mismatch_rejected": not relocated_source_accepts(None, b"mutated", layout_digest),
         "sealed_source_repository_layout_control": relocated_source_accepts(layout_control, None, layout_digest),
         "sealed_source_relocated_layout_control": relocated_source_accepts(None, layout_control, layout_digest),
+        "banked_registry_single_g252_accepted": source_payload_matches(
+            registry_banked, registry_manifest["sha256"], registry_manifest["path"]
+        ),
+        "banked_registry_historical_bytes_exact": sha256_bytes(registry_historical) == registry_manifest["sha256"],
+        "banked_registry_duplicate_g252_rejected": not source_payload_matches(
+            registry_with_duplicate_g252, registry_manifest["sha256"], registry_manifest["path"]
+        ),
+        "banked_registry_other_mutation_rejected": not source_payload_matches(
+            registry_banked + b"mutation\n", registry_manifest["sha256"], registry_manifest["path"]
+        ),
         "production_saved_pass": saved_production.get("status") == "PASS",
         "independent_saved_pass": saved_independent.get("status") == "PASS",
         "catch_saved_pass": hostile_valid(saved_catches),
@@ -179,6 +220,7 @@ def main() -> None:
         "zero_fitted_coefficients": saved_production.get("fitted_coefficients") == 0 and saved_independent.get("fitted_coefficients") == 0,
         "no_new_kernel_mechanism": saved_production.get("new_kernel_mechanisms") == 0,
         "history_not_selected": saved_production.get("history_selected") is False and saved_independent.get("history_selected") is False,
+        "external_repair_accepted": (PKG / "REPAIR_FOLLOWUP_RAW.md").read_text(encoding="utf-8").startswith("REPAIRS_ACCEPTED"),
         "sealed_and_repository_commands_separated": (
             "## Sealed-intake replays" in commands
             and "## Repository-only gate" in commands

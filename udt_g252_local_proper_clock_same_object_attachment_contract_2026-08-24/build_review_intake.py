@@ -30,6 +30,20 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def frozen_source_payload(source: Path, relative: str, expected: str) -> bytes:
+    payload = source.read_bytes()
+    if hashlib.sha256(payload).hexdigest() == expected:
+        return payload
+    if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        raise SystemExit(f"source hash mismatch: {relative}")
+    lines = payload.splitlines(keepends=True)
+    g252 = [line for line in lines if line.startswith(b"G252\t")]
+    stripped = b"".join(line for line in lines if not line.startswith(b"G252\t"))
+    if len(g252) != 1 or hashlib.sha256(stripped).hexdigest() != expected:
+        raise SystemExit(f"source hash mismatch: {relative}")
+    return stripped
+
+
 def main() -> None:
     intake = Path(tempfile.mkdtemp(prefix="udt_g252_review_", dir="/tmp"))
     payloads: list[str] = []
@@ -49,11 +63,12 @@ def main() -> None:
         if any(fragment in relative.as_posix() for fragment in FORBIDDEN_FRAGMENTS):
             raise SystemExit(f"forbidden source in manifest: {relative}")
         source = ROOT / relative
-        if not source.is_file() or sha256(source) != row["sha256"]:
+        if not source.is_file():
             raise SystemExit(f"source hash mismatch: {relative}")
+        payload = frozen_source_payload(source, row["path"], row["sha256"])
         destination = intake / "sources" / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source, destination)
+        destination.write_bytes(payload)
         payloads.append((Path("sources") / relative).as_posix())
 
     payloads = sorted(set(payloads))

@@ -84,8 +84,11 @@ Phi=-log(T)=-1/2 log(-h00)
   evaluators and supplied object types, but zero of 18 candidates owns an independent datum attached
   to the same object. Seven direct routes require one supplied operational attachment; three
   dimensional composites require a matter or instrument law.
+- G252 closes the proper-clock attachment contract: on a supplied G249 history and identified
+  timelike segment, `ell=tau_star/bar_tau`; another independent attachment must agree or reject that
+  history. `c_E` only converts time to length. Record, value, and history remain open.
 
-G206--G251 generate no sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G252 generate no sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -104,28 +107,21 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   dimensional anchor remains for absolute scale. G250 types eligible anchors; further anchors test
   consistency, but no attachment or value is selected. G251 proves source-bounded nonownership of
   the complete independent same-object datum; empirical attachment remains a declared input, not
-  a kernel mechanism. History, population, source/detector, caustic, and catalogue semantics remain open.
+  a kernel mechanism. G252 gives scale recovery and the second-clock consistency test only after
+  attachment. History, population, source/detector, caustic, and catalogue semantics remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G251 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G252 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
 
-G197 excludes P1, G116/G189 transfer, fits, `X_max`, scaffold controls, and protected work from the
-native core. Inputs remain metric/founding algebra, supplied queries, declared exploration
-families, `STANDARD_GEOMETRIC_EVALUATOR` tools, and the sole working clarification. G190--G198 are
-formula-level regression or chosen-family controls.
-
-G199--G235 close evaluation/nonselection; G236--G243 freeze or bound observational controls without
-outcomes. G244--G247 derive native sky geometry, local cones/incidences, and the global labelled
-quiver/free-chain architecture. G248 derives regular ordered incidence coarea `r/A`; G249 proves
-its absolute scale remains one-dimensional after the dimensionless metric history and branch are
-fixed. G250 classifies which metric anchor types could fix that one scale without choosing one;
-G251 finds no native independent same-object datum owner in its exact 12-source universe. Next
-`MAP -> PONDER` in lay language which explicit empirical attachment contract to preregister for
-G252, without opening its value. Keep finite-fiber aggregation separate. Never fit anchors or
-weights, cross caustics, insert `X_max`, or activate protected work.
+G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected work from construction;
+G190--G198 remain formula-level regression or chosen-family controls. G199--G251 close bounded
+evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock attachment
+contract. Next lay `MAP -> PONDER` one concrete independent clock record and exact same-object
+interval before opening its value. Never fit it, choose history, aggregate branches, cross caustics,
+insert `X_max`, or activate protected work.

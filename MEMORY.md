@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G251: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G252: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -32,15 +32,16 @@ G250: one matched nonzero-weight metric anchor fixes the scale conditionally; mo
 supplied history. No anchor or value is chosen.
 G251: no registered class owns an independent same-object datum. Direct routes need operational
 attachment; dimensional composites need a matter/instrument law. No value/history is chosen.
+G252: an independent clock on a timelike segment gives `ell=tau_star/bar_tau`; a second
+must agree or reject the supplied history. No value/history is chosen.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observations
 
-R2--R5 remain unresolved observations. G236/G237 freeze processed SNe; G238--G240 type the held-out
-operator. G241--G243 bound radial controls; G244--G251 derive the outcome-blind sky-to-attachment
-chain. History, anchor value, aggregation, and outcomes remain open.
+R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G252 derive
+the outcome-blind sky-to-attachment chain. History, value, aggregation, and outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -57,13 +58,12 @@ Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 - Strong local CSN is inactive.
 - Carrier, action, source, matter, dynamics, and bootstrap remain posit/conditional/open.
 
-Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for exact status.
+Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next `MAP -> PONDER` in lay language which empirical same-object attachment contract to preregister
-for G252; do not open or fit its value. Keep G248 aggregation separate. SNe redshift stays direct
-from reciprocal `phi`; do not fit weights or angular coefficients, cross caustics, or activate
-G225, P1, `X_max`, or protected work.
+Next lay `MAP -> PONDER` one independent clock record and exact same-object interval; freeze the
+attachment before opening its value. Keep G248 aggregation, caustics, G225, P1, `X_max`, protected
+work, and fits closed; SNe redshift stays direct from reciprocal `phi`.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
