@@ -1,0 +1,34 @@
+{
+  "catch_proofs": {
+    "admit_zero_operator_as_physical_law": {
+      "command": "python3 verify_dependency_free.py",
+      "expected_exit_nonzero": true,
+      "observed_exit_code": 1,
+      "result": "RED"
+    },
+    "promote_locality_to_derived": {
+      "command": "python3 run_catch_proofs.py",
+      "expected_exit_nonzero": true,
+      "observed_exit_code": 1,
+      "result": "RED"
+    }
+  },
+  "current_premise_registry_verifier": "PASS",
+  "dependency_free_assertions": 139,
+  "full_repository_tests": {
+    "collected": 164,
+    "command": "python3 -m pytest tests/",
+    "expected_xfail": 1,
+    "observed_exit_code": 0,
+    "result": "PASS"
+  },
+  "hostile_catches": 11,
+  "original_independent_assertions": 111,
+  "repairs": [
+    "R1_theorem_scope",
+    "R2_zero_operator_gate",
+    "R3_dependency_free_replay"
+  ],
+  "scientific_landing_changed": false,
+  "status": "PASS"
+}

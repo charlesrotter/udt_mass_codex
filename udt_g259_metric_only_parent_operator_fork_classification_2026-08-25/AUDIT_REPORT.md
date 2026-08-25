@@ -2,7 +2,7 @@
 
 Date: 2026-08-25
 
-Grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`
+Grade: `EXTERNALLY_REVIEWED_WITH_CAVEATS__ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN`
 
 ## Landing
 
@@ -21,6 +21,9 @@ Conditionally impose that the four-dimensional vacuum parent operator is metric-
 second order, symmetric rank two, and divergence-free as an identity. The Lovelock classification
 then leaves only `a G_ab + b g_ab`. Including the flat quiet member forces `b=0`, so every nonzero
 `a` gives exactly the Einstein vacuum zero set.
+
+The zero normalization is now explicitly fenced off: `a=0` is the identically zero equation, which
+accepts every metric and is not a physical parent law.
 
 UDT's founded premises and W1/W3 do not derive all of those operator-class assumptions. Therefore
 this is not yet “GR derived from UDT.” It is a rigorous conditional uniqueness result.
@@ -54,19 +57,21 @@ dynamics does not complete UDT until the source/population history is owned.
 ## Evidence
 
 - preregistered and pushed at `a1fa9d7d` before derivation;
-- four-dimensional operator basis taken from the stated Lovelock theorem, with every assumption
-  separately ledgered;
+- four-dimensional operator basis taken from the stated Lovelock theorem, with a faithful local
+  theorem statement and every hypothesis mapped to the premise ledger;
 - exact spherical residual, dependence, vacuum-family, and mass-aspect identities pass;
 - the fourth-order counterfamily is identity-divergence-free on the explicit time-live check and
   is nonzero there;
 - 111 independent exact-rational assertions pass with no production import or result read;
-- 10/10 hostile controls are caught;
+- 11/11 hostile controls are caught, including the zero-operator and premise-ownership gates;
+- 139 standard-library-only exact replay assertions pass without SymPy or production imports;
 - twelve value-preserving derivative-changing node checks pass;
 - zero observational values, fit coefficients, GPU work, `X_max`, or protected input.
 
 ## Caveats
 
-- external adversarial review remains open;
+- fresh external review returned `ACCEPT_WITH_REPAIRS`; R1--R3 are implemented and a repair-only
+  follow-up remains open;
 - Lovelock-class membership is a candidate premise, not founded UDT;
 - flat quiet inclusion removes the cosmological term only in this bounded vacuum comparison;
 - source coupling, matter, transfer, time-live/nonspherical history, and global relations remain

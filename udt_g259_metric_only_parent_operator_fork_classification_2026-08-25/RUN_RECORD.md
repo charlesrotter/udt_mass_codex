@@ -10,6 +10,7 @@ Preregistration commit: `a1fa9d7d`
 python3 derive_parent_operator_fork.py
 python3 verify_independent.py
 python3 run_catch_proofs.py
+python3 verify_dependency_free.py --write-result
 python3 verify_package.py
 ```
 
@@ -21,10 +22,21 @@ python3 verify_package.py
 - spherical residual dependence and mass-aspect identities: exact;
 - higher-order counterfamily: exact and nonidentity off the Ricci-flat branch;
 - independent verification: 111 exact-rational assertions;
-- hostile controls: 10/10;
+- hostile controls: 11/11;
+- dependency-free replay: 139 exact standard-library assertions;
 - fitted coefficients: zero;
 - observational values: zero;
 - GPU: not used;
 - protected packages: not read.
 
-External adversarial review remains open.
+Fresh external review returned `ACCEPT_WITH_REPAIRS`. The theorem-scope, zero-operator, and
+dependency-free-replay repairs are implemented; repair-only follow-up remains open.
+
+## Repair catch proofs
+
+- changing `locality` from `NEW_PREMISE_CANDIDATE` to `DERIVED` in an ephemeral copy makes
+  `run_catch_proofs.py` exit `1`;
+- admitting `a=0` as a physical Einstein-zero-set law in an ephemeral copy makes
+  `verify_dependency_free.py` exit `1`;
+- `python3 -m pytest tests/` exits `0` across 164 collected tests with one expected xfail;
+- the 242-row current-premise verifier passes.

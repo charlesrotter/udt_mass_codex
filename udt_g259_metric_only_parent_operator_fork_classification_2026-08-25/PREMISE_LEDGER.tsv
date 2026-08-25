@@ -8,7 +8,7 @@ W2	WORKING_SEMANTICS	co-presence	no
 W3	WORKING_POSIT_NOT_CANON	GR quiet-limit reduction	yes_conditional
 metric_is_theory	BINDING_PROGRAM_PRINCIPLE	metric-only first classification	yes
 four_dimensions	DECLARED_ARENA	four-dimensional Lorentz metric	yes
-diffeomorphism_naturality	ACCEPTANCE_REQUIREMENT	coordinate-free metric operator	yes
+diffeomorphism_naturality	ACCEPTANCE_REQUIREMENT	smooth natural metric two-jet operator on fixed-signature metrics	yes
 locality	NEW_PREMISE_CANDIDATE	pointwise finite-jet operator	explored_not_owned
 rank_two_symmetry	NEW_PREMISE_CANDIDATE	metric equation architecture	explored_not_owned
 second_order	NEW_PREMISE_CANDIDATE	at most metric second derivatives	explored_not_owned
@@ -16,6 +16,7 @@ divergence_free	NEW_PREMISE_CANDIDATE	identity-compatible source carry	explored_
 no_new_operator_scale	NEW_PREMISE_CANDIDATE	forbid an unattached new length in the operator	explored_not_owned
 flat_quiet_member	CONDITIONAL_ON_W3	exclude a cosmological zeroth-order term in the quiet vacuum class	yes_conditional
 Lovelock_classification	MATHEMATICAL_METHOD	classify second-order natural divergence-free tensors	yes
+nonidentity_parent_operator	DEFINITIONAL_NONIDENTITY_GATE	exclude identically zero residual from a physical parent equation	yes_conditional
 vacuum_Einstein	IMPORTED_COMPARISON_ONLY	identify the W3 quiet branch	yes_comparison
 G_obs	OBSERVED	possible later source coupling	no_law_attached
 source_matter	OPEN	right-hand-side valuation	no

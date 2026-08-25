@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import csv
 from pathlib import Path
 
 import sympy as sp
@@ -19,6 +20,10 @@ def main() -> None:
     e1 = r * sp.diff(f, r) + r**2 * sp.diff(f, r, 2) / 2
     mu = sp.Function("mu")(r)
     node_poly = sp.prod(r - i for i in range(1, 13))
+    with (ROOT / "PREMISE_LEDGER.tsv").open(newline="") as handle:
+        premise_rows = {row["id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+    class_rows = ("locality", "rank_two_symmetry", "second_order", "divergence_free")
+    non_einstein_residual = sp.simplify(e0.subs(f, 1 + r**2).doit())
 
     catches = {
         "cosmological_term_not_removed_without_flat_quiet": sp.Symbol("Lambda") != 0,
@@ -36,7 +41,12 @@ def main() -> None:
         "R2_Euler_tensor_is_not_second_metric_order": True,
         "Einstein_plus_R2_requires_length_squared": True,
         "G258_values_are_not_an_operator_residual": True,
-        "Lovelock_class_assumptions_are_not_founded_UDT_premises": True,
+        "Lovelock_class_assumptions_are_not_founded_UDT_premises": all(
+            premise_rows[name]["status"] == "NEW_PREMISE_CANDIDATE" for name in class_rows
+        ),
+        "zero_operator_does_not_have_Einstein_zero_set": (
+            sp.Integer(0) == 0 and non_einstein_residual != 0
+        ),
     }
     assert all(catches.values())
     result = {

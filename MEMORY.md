@@ -29,9 +29,9 @@ G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` ancho
 G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
 G258 retains twelve conditional SNe knots up to one scale; follow-up accepts R1; native transfer
 and the continuous law remain open.
-G259 internally classifies the parent fork: a newly assumed conservative four-dimensional
-metric-operator class leaves the Einstein vacuum zero set, but UDT does not derive the class.
-Outside-class alternatives need explicit new structure; keeping Einstein leaves source/history open.
+G259's external review accepts with repairs; R1--R3 are implemented. The conservative class leaves
+the Einstein vacuum zero set only for a nonzero operator, but UDT does not derive the class.
+Outside-class alternatives need new structure; keeping Einstein leaves source/history open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -60,7 +60,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next externally review G259, then choose whether to investigate GR-local dynamics plus native
+Next obtain G259 repair-only acceptance, then choose whether to investigate GR-local dynamics plus native
 source/history or an explicitly new outside-class metric premise. Do not promote the conditional
 classification, fit a switch, or invent a solver residual.
 

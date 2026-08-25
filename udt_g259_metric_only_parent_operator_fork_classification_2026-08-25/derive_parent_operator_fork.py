@@ -110,7 +110,7 @@ def main() -> None:
             "gr_quiet": "exact",
             "new_structure": "locality_second_order_rank2_divergence_free",
             "scale": "none_after_flat_quiet",
-            "selection": "Einstein_vacuum_zero_set",
+            "selection": "Einstein_vacuum_zero_set_for_nonzero_operator",
         },
         {
             "class": "local_metric_only_higher_derivative",
@@ -162,6 +162,9 @@ def main() -> None:
             "vacuum_zero_set_after_flat_quiet": "Einstein",
             "source_normalization_still_requires_attachment": True,
             "assumptions_owned_by_F1_F4_W1_W3": False,
+            "theorem_scope_file": "LOVELOCK_NAVARRO_SCOPE.md",
+            "zero_operator_excluded": True,
+            "nonzero_coefficient_required": True,
         },
         "spherical_replay": {
             "E0": str(e0),

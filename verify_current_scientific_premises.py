@@ -7023,7 +7023,7 @@ def main() -> None:
         )
     require(
         by_id["G259"]["current_status"].startswith(
-            "INTERNALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN"
+            "EXTERNALLY_REVIEWED_WITH_CAVEATS__FRESH_GPT54_ACCEPT_WITH_REPAIRS"
         ),
         "G259 bounded grade changed",
     )
@@ -7038,7 +7038,12 @@ def main() -> None:
         "CE_AND_GOBS_ALONE_DO_NOT_FORM_LENGTH",
         "G258_TWELVE_VALUES_DO_NOT_SELECT_DERIVATIVE_OPERATOR",
         "111_INDEPENDENT_EXACT_RATIONAL_ASSERTIONS",
-        "TEN_OF_TEN_HOSTILE_CATCHES",
+        "ELEVEN_OF_ELEVEN_HOSTILE_CATCHES",
+        "139_DEPENDENCY_FREE_EXACT_ASSERTIONS",
+        "R1_FAITHFUL_THEOREM_SCOPE_AND_HYPOTHESIS_MAP_IMPLEMENTED",
+        "R2_ZERO_OPERATOR_EXPLICITLY_EXCLUDED",
+        "R3_DEPENDENCY_FREE_REPLAY_IMPLEMENTED",
+        "REPAIR_ONLY_FOLLOWUP_OPEN",
         "ZERO_OBSERVATIONAL_VALUES_FIT_COEFFICIENTS_GPU_XMAX_SOURCE_TRANSFER_OR_PROTECTED_INPUT",
     ):
         require(guard in by_id["G259"]["current_status"], f"G259 guard absent: {guard}")
@@ -7056,12 +7061,19 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
+        "LOVELOCK_NAVARRO_SCOPE.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "TRANSMISSION_RECORD.md",
         "INDEPENDENT_VERIFICATION.json",
+        "DEPENDENCY_FREE_REPLAY_RESULT.json",
         "LAY_REPORT.md",
         "MAP.md",
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_CERTIFICATION.json",
         "REVIEW_REQUEST.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -7069,6 +7081,7 @@ def main() -> None:
         "derive_parent_operator_fork.py",
         "run_catch_proofs.py",
         "verify_independent.py",
+        "verify_dependency_free.py",
         "verify_package.py",
         "build_review_intake.py",
     ):
@@ -7076,6 +7089,7 @@ def main() -> None:
     g259_result = json.loads((g259 / "DERIVATION_RESULT.json").read_text())
     g259_independent = json.loads((g259 / "INDEPENDENT_VERIFICATION.json").read_text())
     g259_catches = json.loads((g259 / "CATCH_PROOF_RESULT.json").read_text())
+    g259_dependency_free = json.loads((g259 / "DEPENDENCY_FREE_REPLAY_RESULT.json").read_text())
     g259_verification = json.loads((g259 / "VERIFICATION_RESULT.json").read_text())
     expected_g259_landing = (
         "CONDITIONAL_LOVELOCK_CLASS_SELECTS_EINSTEIN_ZERO_SET__"
@@ -7090,6 +7104,8 @@ def main() -> None:
         and g259_result["lovelock_method"]["basis_dimension"] == 2
         and g259_result["lovelock_method"]["assumptions_owned_by_F1_F4_W1_W3"] is False
         and g259_result["lovelock_method"]["flat_quiet_removes_metric_term"] is True
+        and g259_result["lovelock_method"]["zero_operator_excluded"] is True
+        and g259_result["lovelock_method"]["nonzero_coefficient_required"] is True
         and g259_result["higher_order_counterfamily"]["retains_every_Ricci_flat_metric"] is True
         and g259_result["higher_order_counterfamily"]["requires_new_length_squared_coefficient"] is True
         and g259_result["dimension_audit"]["cE_and_Gobs_form_length"] is False
@@ -7116,17 +7132,41 @@ def main() -> None:
     )
     require(
         g259_catches["status"] == "PASS"
-        and g259_catches["caught_count"] == 10
+        and g259_catches["caught_count"] == 11
         and all(g259_catches["catches"].values()),
         "G259 hostile ledger changed",
+    )
+    require(
+        g259_dependency_free["status"] == "PASS"
+        and g259_dependency_free["assertions"] == 139
+        and g259_dependency_free["standard_library_only"] is True
+        and g259_dependency_free["sympy_imported"] is False
+        and g259_dependency_free["production_imported"] is False
+        and g259_dependency_free["production_result_read"] is False
+        and all(g259_dependency_free["checks"].values()),
+        "G259 dependency-free repair replay changed",
     )
     require(
         g259_verification["status"] == "PASS"
         and g259_verification["landing"] == expected_g259_landing
         and g259_verification["source_hashes"] == 11
         and g259_verification["candidate_classes"] == 6
-        and g259_verification["external_review"] == "OPEN",
+        and g259_verification["dependency_free_assertions"] == 139
+        and g259_verification["external_review"]
+        == "ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN",
         "G259 package certification changed",
+    )
+    require(
+        "Disposition: `ACCEPT_WITH_REPAIRS`"
+        in (g259 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        "G259 external review disposition absent",
+    )
+    require(
+        "does not say that UDT's physical parent operator belongs to this class"
+        in (g259 / "LOVELOCK_NAVARRO_SCOPE.md").read_text()
+        and "The degenerate case \\(a=0\\) is the identically zero operator"
+        in (g259 / "EXACT_DERIVATION.md").read_text(),
+        "G259 R1/R2 wording repair absent",
     )
     require(len(read_tsv(g259 / "SOURCE_MANIFEST.tsv")) == 11, "G259 source count changed")
     require(len(read_tsv(g259 / "CANDIDATE_CLASS_ATLAS.tsv")) == 6, "G259 class count changed")

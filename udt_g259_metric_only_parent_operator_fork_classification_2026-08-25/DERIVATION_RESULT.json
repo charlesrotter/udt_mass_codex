@@ -33,8 +33,11 @@
     "basis_dimension": 2,
     "dimension": 4,
     "flat_quiet_removes_metric_term": true,
+    "nonzero_coefficient_required": true,
     "source_normalization_still_requires_attachment": true,
-    "vacuum_zero_set_after_flat_quiet": "Einstein"
+    "theorem_scope_file": "LOVELOCK_NAVARRO_SCOPE.md",
+    "vacuum_zero_set_after_flat_quiet": "Einstein",
+    "zero_operator_excluded": true
   },
   "metric_only_reciprocal_scalar": {
     "general_4d_without_pair_or_split": false,

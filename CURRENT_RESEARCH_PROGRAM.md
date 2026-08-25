@@ -84,9 +84,10 @@ Phi=-log(T)=-1/2 log(-h00)
   derivatives, and the parent law remain open.
 - G259 conditionally classifies the conservative metric-only parent class. Natural symmetric
   rank-two, local second-order, identity-divergence-free operators reduce in four dimensions to
-  metric plus Einstein; flat quiet vacuum leaves the Einstein zero set. The class assumptions are
-  new candidate premises, not founded UDT. A fourth-order counterfamily proves outside-class
-  nonuniqueness and needs a new scale; retaining Einstein instead leaves source/history open.
+  metric plus Einstein; flat quiet vacuum leaves the Einstein zero set for a nonzero operator.
+  Fresh review accepts implemented R1--R3: mapped theorem scope, excluded zero operator, and a
+  passing dependency-free replay. Class ownership, fork, and source/history stay open pending
+  follow-up.
 
 G206--G259 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
@@ -122,7 +123,7 @@ time-live solver gate negatively and source-boundedly; G255 confirms no closure 
 the preceding 90-run arc; G256 closes the bounded value-rank test negatively; G257 then identifies
 the exact GR comparison rail already inside the primary metric. G258 adds twelve conditional macro
 value anchors. G259 narrows the parent-law problem to GR-local metric dynamics plus an open
-source/history law versus an explicitly new outside-class metric principle. Fresh external review
+source/history law versus an explicitly new outside-class metric principle. Repair-only review
 precedes choosing either fork. Do not create the missing residual inside a numerical solve, fit an unrestricted history function, fit a regime switch,
 equate quietness with zero geometry, aggregate branches, cross caustics, insert `X_max`, or activate
 protected work.

@@ -56,7 +56,7 @@
 | G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
 | G257 GR quiet embedding | external; no findings | `f=1+C/r`; native pair/angular response; nonzero GR balance |
 | G258 sampled inverse metric | external science and R1 accepted | `12` states; one scale; no law |
-| G259 parent-operator fork | internal w/caveats; external open | Conditional Einstein zero set; outside-class nonuniqueness |
+| G259 parent-operator fork | external accepts repairs; follow-up open | Nonzero conditional Einstein zero set; fork unselected |
 
 None selects completion/`X_max`.
 ## Scale and limits

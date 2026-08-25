@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a sealed, self-contained G259 fresh-review intake."""
+"""Build a sealed, self-contained G259 repair-only follow-up intake."""
 
 from __future__ import annotations
 
@@ -14,7 +14,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent
 EXCLUDED = {
-    "EXTERNAL_REVIEW_GPT54.md",
     "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
 }
 
@@ -47,19 +46,21 @@ def main() -> None:
 
     scope = {
         "package": ROOT.name,
-        "purpose": "fresh read-only adversarial review of the bounded G259 scientific landing",
+        "purpose": "read-only repair-only follow-up review of G259 R1-R3",
         "restrictions": [
             "intake only",
             "no evidence edits",
             "no research continuation",
             "registered replays only in a writable ephemeral copy",
+            "verify only R1 theorem scope, R2 zero-operator gate, and R3 dependency-free replay",
+            "scientific question and bounded landing unchanged",
         ],
         "registered_commands_from_package_directory": [
-            "python3 derive_parent_operator_fork.py",
+            "python3 verify_dependency_free.py --write-result",
             "python3 verify_independent.py",
-            "python3 run_catch_proofs.py",
             "python3 verify_package.py",
         ],
+        "repairs": ["R1_theorem_scope", "R2_zero_operator_gate", "R3_dependency_free_replay"],
         "package_file_count": len(package_files),
         "source_file_count": len(sources),
     }

@@ -29,8 +29,11 @@ that is:
 3. local in the metric through second differential order;
 4. divergence-free as an identity.
 
-The Lovelock classification states that in four dimensions the vector space of such tensors is
-spanned by the metric and Einstein tensor. Therefore
+The exact theorem scope and hypothesis map are recorded in `LOVELOCK_NAVARRO_SCOPE.md`. Navarro's
+stronger Theorem 5.3 classifies smooth natural two-contravariant tensors on the fixed-signature
+metric two-jet bundle whose divergence vanishes identically. It does not require symmetry as a
+separate hypothesis; the resulting two-index Lovelock basis is symmetric. In four dimensions the
+bound `2m <= n-1` leaves only the inverse metric and Einstein tensor. Lowering indices gives
 
 \[
 \boxed{\mathcal E_{ab}=aG_{ab}+b g_{ab}.}
@@ -64,6 +67,11 @@ Thus
 \mathcal E_{ab}=aG_{ab}.
 \]
 
+The degenerate case \(a=0\) is the identically zero operator. Its equation accepts every metric,
+so it is not a physical parent law and does not have the Einstein vacuum zero set. It is explicitly
+excluded from the conditional landing. No sign or normalization of the remaining nonzero \(a\) is
+selected.
+
 For nonzero \(a\), the vacuum zero set is exactly
 
 \[
@@ -76,8 +84,9 @@ comparison convention, but it does not create that source attachment.
 
 Therefore the conditional theorem is precise:
 
-> If the UDT parent operator belongs to the declared Lovelock class, its flat-compatible vacuum
-> zero set is Einstein's. This does not prove that UDT owns the Lovelock-class assumptions.
+> If the UDT parent operator belongs to the declared Lovelock class and is a nonidentity equation,
+> its flat-compatible vacuum zero set is Einstein's. This does not prove that UDT owns the
+> Lovelock-class assumptions or select the nonzero normalization.
 
 ## 4. Primary spherical reduction and source freedom
 
@@ -265,7 +274,8 @@ four-dimensional natural/divergence-free class.
 ## 10. Exact conclusion ceiling
 
 G259 conditionally selects the Einstein vacuum zero set only after four explicit operator-class
-premises are added. It does not derive those premises from UDT, select a source history, prove that
-local metric dynamics remains GR, or prove that UDT modifies it. It does show precisely what any
-claimed loud-end metric modification must add and why G258's present value knots cannot make that
-choice.
+premises and the nonidentity `a != 0` equation gate are added. The excluded `a=0` operator would
+accept every metric. G259 does not derive the class premises from UDT, select a source history,
+prove that local metric dynamics remains GR, or prove that UDT modifies it. It does show precisely
+what any claimed loud-end metric modification must add and why G258's present value knots cannot
+make that choice.

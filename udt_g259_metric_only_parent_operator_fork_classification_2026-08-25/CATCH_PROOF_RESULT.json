@@ -9,8 +9,9 @@
     "cosmological_term_not_removed_without_flat_quiet": true,
     "value_knots_do_not_fix_first_derivatives": true,
     "wrong_mass_aspect_sign": true,
-    "wrong_residual_dependence_sign": true
+    "wrong_residual_dependence_sign": true,
+    "zero_operator_does_not_have_Einstein_zero_set": true
   },
-  "caught_count": 10,
+  "caught_count": 11,
   "status": "PASS"
 }

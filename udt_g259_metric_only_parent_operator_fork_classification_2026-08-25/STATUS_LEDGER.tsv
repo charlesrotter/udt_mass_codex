@@ -5,10 +5,12 @@ Lovelock_class	NEW_PREMISE_CANDIDATE	local metric-only second-order symmetric di
 four_dimensional_basis	MATHEMATICAL_THEOREM	metric and Einstein tensors
 flat_quiet_cosmological_term	CONDITIONAL_ZERO	flat vacuum member forces b=0 in declared class
 Einstein_vacuum_zero_set	DERIVED_CONDITIONAL	nonzero normalization leaves same vacuum zero set
+zero_operator	EXCLUDED_DEGENERATE_EQUATION	a=0 accepts every metric and is not a physical parent law
 source_normalization	OPEN	requires source tensor and G_obs attachment
 primary_mass_aspect	DERIVED_ALGEBRAIC	E0=-2mu' E1=-rmu''
 higher_order_counterfamily	DERIVED_CONTROL	retains Ricci-flat branch and proves nonuniqueness outside class
 higher_order_scale	OPEN	ell not formed by c_E and G_obs alone
 G258_operator_selection	NOT_DERIVED	values lack derivatives and native source residual
 metric_dynamics_architecture	OPEN	GR-local versus explicitly modified operator
-external_review	OPEN	fresh adversarial review required
+external_review	ACCEPT_WITH_REPAIRS	R1 theorem scope R2 zero operator R3 replay portability
+repair_followup	OPEN	R1-R3 implemented and await repair-only review

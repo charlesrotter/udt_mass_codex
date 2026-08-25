@@ -44,12 +44,10 @@ R1 replaces synthesized premise-row deletion with exact sealed or preregistratio
 its strict seal catches a one-byte mutation and external repair-only follow-up accepts R1 with the
 scientific landing unchanged. Transfer, interpolation, derivatives, and covariant history remain open.
 
-G259 is preregistered and internally verified with caveats; external review is open. In the newly
-assumed natural symmetric rank-two/local second-order/identity-divergence-free metric-operator class,
-Lovelock plus flat quiet vacuum leaves the Einstein vacuum zero set. UDT does not yet derive those
-class assumptions. A fourth-order counterfamily proves nonuniqueness outside them and requires a new
-length-squared attachment. Keeping Einstein locally instead moves the free profile into source or
-mass-aspect history. G259 classifies this fork; it does not select it.
+G259's fresh gpt-5.4 review returns `ACCEPT_WITH_REPAIRS`; R1--R3 are implemented and follow-up is
+open. The faithful theorem map keeps the conservative operator class unowned. Flat quiet vacuum
+leaves the Einstein zero set only for a nonzero operator; the zero equation accepts every metric.
+The fourth-order counterfamily and source/history fork remain unchanged and unselected.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
@@ -71,7 +69,7 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next obtain fresh G259 adversarial review, then decide between GR-local metric dynamics plus native
+Next obtain G259 repair-only acceptance, then decide between GR-local metric dynamics plus native
 source/population history and an explicitly new outside-class metric principle. Do not promote the
 conditional classification to a UDT field equation or invent a solver residual. The 242-row registry controls.
 

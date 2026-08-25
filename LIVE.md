@@ -72,11 +72,11 @@ vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neit
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
 G258 accepts twelve conditional SNe metric knots up to one scale; transfer and history remain open.
-G259 is internally verified with caveats; external review is open. A newly assumed natural symmetric
-rank-two, local second-order, identity-divergence-free metric-operator class plus flat quiet vacuum
-leaves the Einstein vacuum zero set. F1--F4/W1/W3 do not derive that class. A fourth-order
-counterfamily retains Ricci-flat histories and needs a new scale. Retaining Einstein instead moves
-the free function to source/mass-aspect history. G259 selects neither fork.
+G259's fresh gpt-5.4 review returns `ACCEPT_WITH_REPAIRS`; R1--R3 are implemented and repair-only
+follow-up is open. A faithful theorem map keeps the natural symmetric rank-two/local second-order/
+identity-divergence-free class unowned by F1--F4/W1/W3. Flat quiet vacuum leaves the Einstein zero
+set only for a nonzero operator; `a=0` accepts every metric. A fourth-order counterfamily retains
+Ricci-flat histories and needs a new scale. Retaining Einstein moves freedom to source/history.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
@@ -104,7 +104,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G259 narrows the parent-law search to a real architecture fork. Next obtain fresh adversarial review,
+G259 narrows the parent-law search to a real architecture fork. Next obtain repair-only acceptance,
 then decide whether UDT provisionally retains GR local metric dynamics and seeks a native
 source/population history law, or explicitly owns structure outside the conservative operator class.
 Do not call the conditional theorem a UDT derivation, choose a favorite extension, fit a regime
