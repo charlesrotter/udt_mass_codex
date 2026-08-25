@@ -157,6 +157,7 @@ def main() -> None:
     counts = Counter(row["primary_class"] for row in rows)
     result = {
         "slot_count": len(rows),
+        "source_count": 321,
         "first_slot": rows[0]["slot"],
         "last_slot": rows[-1]["slot"],
         "class_counts": dict(sorted(counts.items())),
