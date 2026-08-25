@@ -232,8 +232,8 @@ __P1_G116_G189_XMAX_FITS_OUTCOMES_AND_PROTECTED_WORK_ARE_NOT_LOAD_BEARING
 ```
 
 The fresh external adversarial review retained this scientific landing and required one mechanical
-sealed-source resolver repair. That repair is locally implemented; external repair-only follow-up
-still required before the package can be graded externally verified. The result does not canonize
-G176, select the physical metric history or observer population, supply radiative transfer, assign
-an absolute scale value, aggregate global branches, cross caustics, or make an observational
-prediction.
+sealed-source resolver repair. That repair passed local and sealed replay, and the external
+repair-only follow-up accepted it. The package is `EXTERNALLY_VERIFIED_WITH_CAVEATS` at this bounded
+mixed-status ceiling. The result does not canonize G176, select the physical metric history or
+observer population, supply radiative transfer, assign an absolute scale value, aggregate global
+branches, cross caustics, or make an observational prediction.

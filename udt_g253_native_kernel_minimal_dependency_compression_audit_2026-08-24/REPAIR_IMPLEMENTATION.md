@@ -33,4 +33,7 @@ Repository-layout replays pass. A fresh 50-file sealed-layout intake at
 registered commands. Production and independent outputs remained unchanged, the stored hostile
 result matched, and the package verifier returned `PACKAGE_PASS`.
 
-External repair-only follow-up remains required.
+The final 51-file sealed follow-up at `/tmp/udt_g253_review_vzjdi13r`, with scope SHA-256
+`42d657740eb9baa54e8a6385b96556252b9a70807da307554be517091cb0b234`, independently reran the
+four registered commands and returned `REPAIRS_ACCEPTED`. The bounded scientific landing was
+unchanged.

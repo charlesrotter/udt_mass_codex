@@ -4,8 +4,7 @@
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
-5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only
-   task-triggered `.claude/skills/*/SKILL.md` files.
+5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query task-relevant registry rows and evidence.
 ## Active relational frontier
@@ -62,7 +61,8 @@
   `udt_g247_global_null_branch_network_descent_2026-08-24/`; `udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`—branchwise `r/A`; aggregation/population/history open.
 - Scale/attachment: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`;
   `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—no native datum owner;
-  `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one supplied proper-clock attachment fixes `ell` conditionally; a second tests the supplied history.
+  `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one clock attachment fixes `ell` conditionally;
+  `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compressed dependency audit.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`

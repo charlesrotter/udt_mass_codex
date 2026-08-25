@@ -39,6 +39,7 @@ REQUIRED = {
     "build_review_intake.py",
     "REVIEW_REQUEST.md",
     "EXTERNAL_REVIEW_GPT54.md",
+    "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_IMPLEMENTATION.md",
     "REPAIR_SEALED_REPLAY.md",
@@ -110,7 +111,7 @@ def main() -> None:
         "DIRECT_RECIPROCAL_REDSHIFT_IS_CONDITIONAL",
         "ANGULAR_RESPONSE_IS_A_DISTINCT_SIBLING",
         "ABSOLUTE_SCALE_ATTACHMENT_IS_DOWNSTREAM",
-        "external repair-only follow-up still required",
+        "external repair-only follow-up accepted",
     ):
         assert term in report
 

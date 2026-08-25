@@ -233,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G252",
+            "G166--G253",
             "G197",
             "G215",
             "G216",
@@ -273,6 +273,7 @@ def validate_startup_surface(root: Path) -> None:
             "G250",
             "G251",
             "G252",
+            "G253",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -315,7 +316,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "235-row exact registry",
+            "236-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -395,6 +396,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/",
             "udt_g251_same_object_metric_attachment_ownership_2026-08-24/",
             "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/",
+            "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -408,7 +410,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G252",
+            "G166--G253",
             "G197",
             "G198",
             "G199",
@@ -466,6 +468,7 @@ def validate_startup_surface(root: Path) -> None:
             "G250",
             "G251",
             "G252",
+            "G253",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -536,6 +539,7 @@ def validate_startup_surface(root: Path) -> None:
             "G250",
             "G251",
             "G252",
+            "G253",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -601,10 +605,11 @@ def validate_startup_surface(root: Path) -> None:
             "G250",
             "G251",
             "G252",
+            "G253",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "235-row",
+            "236-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -947,9 +952,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 235, "premise registry must contain exactly 235 rows")
+    require(len(rows) == 236, "premise registry must contain exactly 236 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 235, "duplicate premise id")
+    require(len(by_id) == 236, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -6010,7 +6015,7 @@ def main() -> None:
         "G250 final banking replay absent",
     )
     require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
-    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G252",))
+    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G253", "G252"))
     require(g250_replay["status"] == "PASS", "G250 live no-write replay failed")
     require(
         by_id["G251"]["current_status"].startswith(
@@ -6177,7 +6182,7 @@ def main() -> None:
         "G251 final banking replay absent",
     )
     require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
-    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G252",))
+    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G253", "G252"))
     require(g251_replay["status"] == "PASS", "G251 live no-write replay failed")
     require(
         by_id["G252"]["current_status"].startswith(
@@ -6325,15 +6330,135 @@ def main() -> None:
         "G252 final banking replay absent",
     )
     require(len(read_tsv(g252 / "SOURCE_MANIFEST.tsv")) == 6, "G252 source count changed")
-    g252_replay = subprocess.run(
-        [sys.executable, str(g252 / "verify_package.py")],
-        cwd=ROOT,
-        check=True,
-        capture_output=True,
-        text=True,
-        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G253",))
+    require(g252_replay["status"] == "PASS", "G252 live no-write replay failed")
+    require(
+        by_id["G253"]["current_status"].startswith(
+            "EXTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_A1BF146F"
+        ),
+        "G253 bounded grade changed",
     )
-    require(json.loads(g252_replay.stdout)["status"] == "PASS", "G252 live no-write replay failed")
+    for guard in (
+        "FRESH_GPT54_SCIENTIFIC_LANDING_RETAINED_REPAIRS_REQUIRED_SEALED_SOURCE_LAYOUT_ONLY",
+        "REPAIRS_PREREGISTERED_AT_7CBC3F12",
+        "REPAIRS_IMPLEMENTED_AT_BD98AE33",
+        "REPAIR_FOLLOWUP_GPT54_ACCEPTED_NO_REMAINING_DEFECT",
+        "MIXED_STATUS_NATIVE_CHAIN_COMPRESSES",
+        "DIRECT_RECIPROCAL_REDSHIFT_CONDITIONAL_ON_SUPPLIED_SOURCE_OBSERVER_QUERY",
+        "ANGULAR_METRIC_JACOBI_RESPONSE_DISTINCT_SIBLING_NOT_POSTREADOUT_PATCH",
+        "PHI_VALUE_ALONE_DOES_NOT_FIX_ANGULAR_RESPONSE",
+        "ABSOLUTE_SCALE_ATTACHMENT_OPTIONAL_AND_DOWNSTREAM",
+        "G176_REMAINS_WORKING_FOUNDATIONAL_CLARIFICATION",
+        "21_EXACT_SOURCES_17_NODES_12_EDGES_3_TYPED_GRAPHS",
+        "PRODUCTION_4096_EXACT_RATIONAL_TRIALS_21510_ASSERTIONS_513_FOUNDED_DEPTH_SAMPLES",
+        "INDEPENDENT_12000_TRIALS_49602_ASSERTIONS_NO_PRODUCTION_IMPORT_OR_RESULT_READ",
+        "23_HOSTILE_CATCHES_TWO_LAYOUT_POSITIVE_CONTROLS",
+        "ZERO_OBSERVATIONAL_VALUES_ZERO_PROTECTED_PATHS",
+        "NO_P1_G116_G189_XMAX_FIT_OUTCOME_OR_PROTECTED_CONSTRUCTION_INPUT",
+        "NO_HISTORY_GERM_POPULATION_TRANSFER_AGGREGATION_OR_ABSOLUTE_VALUE_SELECTED",
+    ):
+        require(guard in by_id["G253"]["current_status"], f"G253 guard absent: {guard}")
+    require(by_id["G253"]["epistemic_label"] == "MIXED", "G253 label changed")
+    require(
+        by_id["G253"]["active_use"]
+        == "ACTIVE_BOUNDED_21_SOURCE_DEPENDENCY_COMPRESSION_OF_DIRECT_SCALAR_REDSHIFT_ANGULAR_SIBLING_AND_OPTIONAL_DOWNSTREAM_SCALE_ATTACHMENT_ONLY",
+        "G253 active scope widened",
+    )
+    for guard in (
+        "mixed-status chain called fully metric-derived or canon",
+        "G176 working premise erased or promoted",
+        "direct redshift made dependent on angular transfer P1 or fit",
+        "angular response bolted on after scalar readout or reduced to phi alone",
+        "downstream scale attachment called a kernel coefficient or history selector",
+        "P1 G116 G189 Xmax fit observational outcome Lambda-CDM or protected payload imported as construction input",
+        "bounded source nonownership called global no-go",
+    ):
+        require(guard in by_id["G253"]["forbidden_regression"], f"G253 regression guard absent: {guard}")
+    require(
+        by_id["G253"]["controlling_source"]
+        == "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/AUDIT_REPORT.md",
+        "G253 controlling source changed",
+    )
+    g253 = ROOT / "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "COMMANDS.md",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "HISTORICAL_CONTROL_DISPOSITION.tsv",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "LOAD_BEARING_EDGE_LEDGER.tsv",
+        "MAP.md",
+        "MINIMAL_SOURCE_CUT.tsv",
+        "NODE_LEDGER.tsv",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_IMPLEMENTATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_SEALED_REPLAY.md",
+        "REVIEW_REQUEST.md",
+        "RUN_RECORD.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "build_review_intake.py",
+        "derive_native_kernel_compression.py",
+        "run_catch_proofs.py",
+        "verify_native_kernel_compression_independent.py",
+        "verify_package.py",
+    ):
+        require((g253 / name).is_file(), f"G253 evidence missing: {name}")
+    expected_g253 = (
+        "MIXED_STATUS_NATIVE_CHAIN_COMPRESSES"
+        "__REDSHIFT_DIRECT_CONDITIONAL"
+        "__ANGULAR_RESPONSE_SIBLING_NOT_POSTPROCESSING"
+        "__SCALE_ATTACHMENT_DOWNSTREAM"
+    )
+    g253_result = json.loads((g253 / "DERIVATION_RESULT.json").read_text())
+    g253_independent = json.loads((g253 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g253_catches = json.loads((g253 / "CATCH_PROOF_RESULT.json").read_text())
+    require(g253_result["landing"] == expected_g253, "G253 production landing changed")
+    require(
+        g253_result["manifest_sources"] == 21
+        and g253_result["nodes"] == 17
+        and g253_result["edges"] == 12
+        and g253_result["graphs"] == 3
+        and g253_result["fraction_trials"] == 4096
+        and g253_result["formula_assertions"] == 21510
+        and g253_result["founded_depth_samples"] == 513
+        and g253_result["unsupported_edges"] == 0
+        and g253_result["observational_values_read"] == 0
+        and g253_result["protected_paths_read"] == 0,
+        "G253 production checks changed",
+    )
+    require(
+        g253_independent["verdict"] == "INDEPENDENT_REPLAY_PASS"
+        and g253_independent["manifest_sources"] == 21
+        and g253_independent["independent_trials"] == 12000
+        and g253_independent["independent_assertions"] == 49602
+        and g253_independent["production_module_imported"] is False
+        and g253_independent["production_output_read"] is False,
+        "G253 independent checks changed",
+    )
+    require(
+        g253_catches["baseline_pass"] is True
+        and g253_catches["caught_count"] == 23
+        and len(g253_catches["caught"]) == 23
+        and g253_catches["path_resolution_positive_controls"] == 2,
+        "G253 hostile ledger changed",
+    )
+    require(
+        "REPAIRS_ACCEPTED" in (g253 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "G253 external repair acceptance absent",
+    )
+    require(len(read_tsv(g253 / "SOURCE_MANIFEST.tsv")) == 21, "G253 source count changed")
+    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G253",))
+    require(g253_replay["verdict"] == "PACKAGE_PASS", "G253 live no-write replay failed")
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -10557,7 +10682,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252-extended startup and premise guards; PASS: 235-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253-extended startup and premise guards; PASS: 236-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

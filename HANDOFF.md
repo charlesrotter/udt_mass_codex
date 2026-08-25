@@ -6,60 +6,36 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G252 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G253 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, functions, population, higher/full carry,
 and global realization remain supplied or `OPEN`.
 
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226 close clock, correspondence,
-null-plane, carry, screen, and phase. G227/G228/G229/G230/G231 close curvature ranks `20/60/126`,
-jets, and Cartan realization. G232/G233/G234 leave a global law; G235 proves reconstruction only.
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock, correspondence, null plane,
+screen, and carry. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`; G226 adds phase. G227/G228/G229/G230/G231
+close supplied curvature ranks, jets, and Cartan realization. G232/G233/G234/G235 reconstruct but do
+not select values/history.
 
-G236/G237 freeze a conditional joint SNe state. G238/G239/G240 type its held-out operator; the `CHOSE`
-all-image query removes weights only on a supplied regular relation. History, source/transfer, and
-outcomes stay open.
+G236/G237 freeze a transfer-conditional SNe state; G238/G239/G240 type its held-out operator. G241
+rejects degrees 2--4, G242 only exact zero tide, and G243 keeps direct `phi=log(1+z)`. G244 derives
+sky area/shape; G245 the local cone; G246 regular incidences; G247 the labelled branch network; G248
+branchwise noncaustic `dmu=(r/A)dtau_source`. Population, aggregation, caustics, and history remain open.
 
-G241 rejects degrees 2--4. G242 rejects only exact zero tide; small response stays open. G243 keeps
-direct `phi=log(1+z)` and a local turning control without whole-census freeze.
+G249 separates normalized response from one remaining absolute scale. G250 types eligible anchors;
+G251 finds no native independent same-object datum owner. G252 gives `ell=tau_star/bar_tau` only
+after an independent clock attachment; another tests the supplied history. No value is selected.
 
-On a supplied regular G188 sheet, G244 gives `H=D^dagger D`, area `A=abs(det D)`, and shape
-`C=H/A`. Its projection is `CHOSE_QUERY_CONTROL`; only G226 phase composes.
-
-Metric plus germ `(o,U)` own G245's local
-`k(n)=U+n` and `F(lambda,n)=Exp_o(lambda k(n))`; G188/G244 are induced cone geometry. Nothing
-selects a ray, population, detector, or history.
-
-G246 derives every local regular incidence and G222 ribbon from a future-null query, metric, and
-two clocks. Inverse and physical future return differ; global branches remain unselected.
-
-G247 maximal null flow labels global regular branches;
-direct links form a quiver and finite chains its free category. Depth, ruler grading, and ordered
-G226 phase carry; cut/caustic/winding and reversal/return labels remain distinct.
-
-On every supplied source-clock-normalized, locally finite, transverse, noncaustic branch, G248
-gives `dmu_AB=(r_AB/A_AB)dtau_A`. Probability, population, aggregation, caustics, and history remain open.
-
-G249 is externally verified after repairs. `c_E` and reciprocal redshift do not fix absolute scale.
-Homothety preserves dimensionless history/shape while `D`, area, and `r/A` scale as `ell`, `ell^2`,
-and `ell^-2`. One supplied dimensionless branch fixes normalized response; one anchor remains.
-
-G250 is externally verified after repairs. One attached nonzero-weight metric anchor conditionally
-fixes `ell`; further anchors test history. Dimensionless anchors fail; composites need attachment.
-
-G251 is externally verified after repairs. The metric owns evaluators and supplied object types,
-but no registered candidate owns an independent same-object datum. Internal comparisons cannot fix
-scale. Direct routes need an operational attachment; composites need a matter/instrument law. No
-attachment, value, history, branch population, fit, or outcome was selected.
-
-G252 is externally verified after sealed-source repairs. Given a supplied G249 history, identified
-timelike segment, and independent proper-clock record, `ell=tau_star/bar_tau`; a second must agree or
-reject that history. `c_E` only converts time to length. No record, value, history, or mechanism was selected.
+G253 is externally verified after its sealed-source repair. It compresses the active result into
+three distinct chains: direct conditional endpoint redshift; the metric/Jacobi angular sibling; and
+optional downstream absolute-unit attachment. It finds no P1, G116, G189, fit, outcome, `X_max`, or
+protected construction input. The mixed-status ceiling remains: the metric history and pair germ are
+supplied, and G176 remains a working clarification rather than canon.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
-controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through
-`CURRENT_RESEARCH_PROGRAM.md` and `INDEX.md`.
+controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
+program/index.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 rows are unresolved and no preferred scale follows. Raw archive:
@@ -77,9 +53,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next lay `MAP -> PONDER` one independent proper-clock record and exact same-object interval before
-opening its value. Do not fit it or choose history. Keep G248 aggregation separate and SNe redshift
-direct from `phi`; keep BOSS/CMB, caustics, G225, protected work, `X_max`, and P1/G116/G189 closed.
-The 235-row registry controls.
+Next lay `MAP -> PONDER` choose one G253-typed application: direct relative redshift, angular
+metric/Jacobi response, or downstream absolute-unit attachment. Do not fit the kernel or choose
+history. Keep G248 aggregation separate and SNe redshift direct from `phi`; keep BOSS/CMB outcomes,
+caustics, G225, protected work, `X_max`, and P1/G116/G189 closed. The 236-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

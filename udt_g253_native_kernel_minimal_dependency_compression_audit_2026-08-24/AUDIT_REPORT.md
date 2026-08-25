@@ -46,8 +46,7 @@ Reciprocity is a working premise, not metric-derived or canon.
   two positive source-layout controls;
 - zero observational values and zero protected paths read;
 - fresh external review retained the scientific landing and required only sealed replay-path repair;
-- the path repair is locally implemented; external repair-only follow-up still required before
-  banking a final verdict.
+- the path repair passed local and sealed replay, and the external repair-only follow-up accepted it.
 
 ## Maximum conclusion
 
@@ -56,3 +55,15 @@ is robustness, type correction, or control evidence rather than kernel mechanism
 open problems—physical metric history, observer population, global branch aggregation, transfer,
 caustics, and absolute attachment value—remain real but are not hidden free coefficients inside
 the reciprocal scalar kernel.
+
+## External certification
+
+The final repair-only `gpt-5.4` follow-up returned `REPAIRS_ACCEPTED`. All 50 payload hashes and all
+21 frozen scientific-source hashes matched; all four registered commands exited zero; production,
+independent, and hostile results matched their stored artifacts. The external repair-only follow-up
+accepted the sealed source resolver and found the bounded scientific landing unchanged.
+
+Current grade: `EXTERNALLY_VERIFIED_WITH_CAVEATS` at the exact mixed-status ceiling above.
+
+The phrase `external repair-only follow-up accepted` refers only to certification of the
+preregistered replay repair and retained bounded landing.

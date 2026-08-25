@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G252 | State; sky/cone/network; coarea; scale/anchor/attachment contract | History; values; aggregation |
+| Pair-clock/state network | G215--G253 | State; sky/cone/network; coarea; scale/anchor/attachment contract; compressed dependency spine | History; values; aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -49,6 +49,7 @@
 | G250 anchor types | external after repairs | One matched metric anchor fixes scale conditionally; more test history; none selected |
 | G251 attachment ownership | external after repairs | No independent same-object datum owner in 12 sources; attachment open |
 | G252 proper-clock attachment | external after repairs | Supplied clock fixes `ell`; second tests history; no value selected |
+| G253 native-kernel compression | external after repair | Direct conditional redshift, angular sibling, and downstream scale attachment remain distinct; no registered scaffold input |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -72,18 +73,12 @@ None selects completion/`X_max`.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   Metricity is not dynamics.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selection.
-- G212--G235 close evaluation/reconstruction, not selection. G236/G237 freeze a conditional state;
-  G238--G240 type its held-out operator/counting. G241 rejects compact carriers; G242 rejects exact
-  zero tide only on bounded SNe; G243 retains a turning curve. G244 closes Jacobi area/shape, G245
-  the local null cone, and G246 local two-observer null incidences and ribbons. G247 gives the
-  route-labelled quiver and matched-chain category. G248 derives branchwise regular coarea
-  `dmu=(r/A)dtau_source`, not probability or finite-fiber aggregation.
-  G249 proves homothety preserves dimensionless history/shape while area scales as `ell^2`; `c_E`
-  plus redshift do not fix `ell`. History, population, source/detector, caustics, and completion stay
-  open. G250 types anchors; dimensionless anchors and unattached composites do not close scale.
-  G251 finds no native independent same-object datum owner; direct routes need attachment and
-  composites need a matter/instrument law. G252 gives the proper-clock and equal-scale consistency
-  contract only after observer, events, branch, calibration, and record are supplied.
+- G212--G235 evaluate/reconstruct but do not select. G236--G243 are bounded observational controls.
+  G244/G245/G246/G247/G248 derive branch-labelled sky, cone, incidence, and coarea geometry—not
+  population or aggregation. G249/G250/G251/G252 type one remaining scale and its supplied
+  attachment. G253 externally compresses direct redshift, angular response, and downstream units;
+  no P1/G116/G189/fit/outcome/`X_max`/protected construction input survives. History, source,
+  detector, caustics, and completion stay open.
 
 ## Carrier, action, source, and matter
 
@@ -101,7 +96,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 freeze state
-under imported transfer; G242/G243 are bounded controls. G244--G252 use no outcome; BOSS, history,
+under imported transfer; G242/G243 are bounded controls. G244--G253 use no outcome; BOSS, history,
 source, and transfer stay open.
 
 ## Recurring prohibited promotions
@@ -116,7 +111,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 235-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 236-row authority; conflicts stop.
 
 Run:
 

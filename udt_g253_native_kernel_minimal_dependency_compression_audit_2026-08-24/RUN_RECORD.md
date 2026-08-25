@@ -50,6 +50,13 @@ hostile result matched its stored result, and `verify_package.py` returned `PACK
 Because this replay record itself changes the package payload, the repair-only review builder must
 produce one final fresh seal. External repair-only follow-up remains pending.
 
+## External repair-only closure
+
+The final 51-file sealed intake at `/tmp/udt_g253_review_vzjdi13r`, with `REVIEW_SCOPE.json`
+SHA-256 `42d657740eb9baa54e8a6385b96556252b9a70807da307554be517091cb0b234`, was reviewed by a fresh
+external `gpt-5.4` context. It independently verified all 50 payload hashes, reran all four registered
+commands, and returned `REPAIRS_ACCEPTED`. The bounded scientific landing was unchanged.
+
 ## Repository gates
 
 `verify_current_scientific_premises.py` exited zero:

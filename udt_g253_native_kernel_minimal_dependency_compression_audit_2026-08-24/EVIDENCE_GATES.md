@@ -15,6 +15,6 @@
 | fresh external adversarial review | REPAIRS_REQUIRED | scientific landing retained; sealed replay path failed |
 | preregistered resolver repair | LOCAL_PASS | repository replay passes; sealed replay pending below |
 | fresh sealed repair replay | PASS | four registered commands exit zero; exact stored results retained |
-| external repair-only follow-up | PENDING | required before final bank |
+| external repair-only follow-up | PASS | `REPAIRS_ACCEPTED`; landing unchanged |
 
-Current grade: `SCIENTIFIC_LANDING_RETAINED__LOCAL_AND_SEALED_REPAIR_PASS__EXTERNAL_FOLLOWUP_PENDING`.
+Current grade: `EXTERNALLY_VERIFIED_WITH_CAVEATS__BOUNDED_MIXED_STATUS_LANDING`.

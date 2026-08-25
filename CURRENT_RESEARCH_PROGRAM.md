@@ -55,66 +55,40 @@ Phi=-log(T)=-1/2 log(-h00)
   realization—not values or dynamics.
 - G232/G233/G234/G235 test finite-order, smaller-family, and matched-network closure. The network reconstructs
   rank ten but does not select; global or invariant smaller-family law remains open.
-- G236 reconstructs Pantheon+/DES `R(phi)` under imported transfer; G237 freezes joint `K=12`
-  covariance with cross-release covariance `CHOSE` zero. Neither supplies law/history.
-- G238 proves those knots are not continuous history and types the missing two-source statistic.
-- G239 verifies conditional mismatch-plus-`Gamma`: constant matched response cancels, while sibling
-  branches contribute. G240's `CHOSE` all-image census removes free weights only on a supplied
-  proper regular relation. Physical inputs, critical strata, transfer, and outcomes stay open.
+- G236/G237 reconstruct and freeze a transfer-conditional dual-SNe state; no law/history follows.
+  G238/G239/G240 type its conditional held-out statistic and all-image query; inputs/outcomes stay open.
 - G241 retains the exact radial-to-tidal bridge but rejects degree-2--4 carriers; BOSS stays closed.
 - G242 rejects only exact G201 zero tide on frozen SNe; direct redshift and small response stay open.
   G243 keeps direct `phi=log(1+z)` and a local turning control, but fails whole-census freeze.
-- G244 derives outcome-blind `H,A,C`; G245 derives the local cone `F=Exp_o(lambda(U+n))` from metric
-  plus germ. G246 intersects that cone family with a second supplied timelike observer worldline:
-  local regular incidences and G222 ribbons are metric-owned. G247 globalizes regular labels:
-  direct links form a quiver and matched chains its free category. Branch aggregation, population,
-  source/detector, and history remain open. G248 derives the ordered
-  regular incidence coarea density `dmu=(r/A)dtau_source` on locally finite transverse noncaustic
-  branch strata, while keeping sky, phase, counting, and incidence measures distinct. Physical
-  probability, finite-fiber aggregation, source/detector semantics, and caustics remain open.
-- G249 separates normalized angular response from absolute scale. Constant positive homothety
-  preserves the full dimensionless metric/`phi` history, cones, clock ratios, and normalized
-  Jacobi shape while `D`, area, and `r/A` scale as `ell`, `ell^2`, and `ell^-2`. Equal `phi` alone
-  does not fix angular response. A full supplied dimensionless metric branch fixes normalized
-  response conditionally; one independent dimensional anchor remains for absolute scale.
-- G250 classifies the one-scale anchor problem. One matched nonzero-weight metric observation fixes
-  `ell` conditionally; more anchors test the supplied history. The listed dimensionless anchors and
-  unattached composites are insufficient; G99 remains historical and conditional.
-- G251 audits the attachment joint itself. In the exact 12-source universe, current UDT owns metric
-  evaluators and supplied object types, but zero of 18 candidates owns an independent datum attached
-  to the same object. Seven direct routes require one supplied operational attachment; three
-  dimensional composites require a matter or instrument law.
+- G244/G245 derive outcome-blind sky geometry and the local cone. G246/G247 give regular incidences
+  and labelled branch chains; G248 gives noncaustic coarea `dmu=(r/A)dtau_source`. Population,
+  aggregation, source/detector semantics, caustics, and history stay open.
+- G249 separates normalized response from one absolute scale. G250 types eligible anchors; G251
+  finds no native independent same-object datum owner. Operational attachment remains supplied.
 - G252 closes the proper-clock attachment contract: on a supplied G249 history and identified
   timelike segment, `ell=tau_star/bar_tau`; another independent attachment must agree or reject that
   history. `c_E` only converts time to length. Record, value, and history remain open.
+- G253 externally compresses the spine into direct conditional redshift, a metric/Jacobi angular
+  sibling, and optional downstream units. No P1/G116/G189/fit/outcome/`X_max`/protected input survives.
 
-G206--G252 generate no sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G253 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
 
 ## Open joints
 
-- G211--G231 close supplied local geometry, not its values. G232--G235 exclude the tested local and
-  matched-network selectors. G236/G237 freeze a state; G238--G240 close its conditional held-out
-  operator, with free weights removed only inside a chosen all-image query. G241 rejects its
-  degree-2--4 carriers; G242 rejects exact zero tide on bounded SNe; G243 retains a local turning
-  candidate without whole-census freeze. G244/G245 derive area/shape and the local cone.
-  G246/G247 close regular local incidences, ribbons, and their global labelled quiver/free-chain
-  architecture. G248 derives regular branchwise `r/A`, not probability or aggregation. G249 proves
-  normalized response is fixed
-  only after the full dimensionless history/branch is supplied and that one independent
-  dimensional anchor remains for absolute scale. G250 types eligible anchors; further anchors test
-  consistency, but no attachment or value is selected. G251 proves source-bounded nonownership of
-  the complete independent same-object datum; empirical attachment remains a declared input, not
-  a kernel mechanism. G252 gives scale recovery and the second-clock consistency test only after
-  attachment. History, population, source/detector, caustic, and catalogue semantics remain open.
+- G211--G231 close supplied local geometry, not values. G232--G235 do not select a history.
+  G236--G243 are bounded observational controls. G244--G248 derive branchwise sky/cone/measure
+  geometry, not population or aggregation. G249--G252 type one remaining scale and its supplied
+  attachment. G253 confirms three typed chains rather than one tunable kernel. History, population,
+  source/detector, caustic, and catalogue semantics remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G252 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G253 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -122,6 +96,7 @@ measure, and detector/transfer ownership open.
 G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected work from construction;
 G190--G198 remain formula-level regression or chosen-family controls. G199--G251 close bounded
 evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock attachment
-contract. Next lay `MAP -> PONDER` one concrete independent clock record and exact same-object
-interval before opening its value. Never fit it, choose history, aggregate branches, cross caustics,
-insert `X_max`, or activate protected work.
+contract; G253 compresses and audits the three resulting typed chains. Next lay `MAP -> PONDER`
+must select one application type—direct relative redshift, angular metric/Jacobi response, or
+downstream absolute units—before opening an observational value. Never fit the kernel, choose
+history, aggregate branches, cross caustics, insert `X_max`, or activate protected work.

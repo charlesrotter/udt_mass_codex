@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G252: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G253: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -17,30 +17,19 @@ full phase. History stays open.
 G227/G228/G229/G230/G231 close curvature ranks `20/60/126`, jets, and Cartan evaluation. G232/G233 exclude
 finite-order closure; G234 leaves a global law; G235 reconstructs but does not select.
 
-G236/G237 freeze processed SNe under imported transfer and chosen zero cross-release covariance.
-G238 lacks continuous history/two-source map; G239 closes conditional
-mismatch-plus-`Gamma`; G240 removes free weights only for its `CHOSE` supplied all-image query.
-
-G241 rejects degree-2--4 carriers; G242 exact zero tide, not small response. G243 keeps direct
-`phi=log(1+z)` and a turning control. G244 derives `H,A,C`; G245 the cone;
-G246 every local incidence/ribbon. G247 labels the branch quiver/category. G248 derives branchwise
-`dmu=(r/A)dtau_source`. Probability, population,
-aggregation, caustics, detector semantics, and history remain open. G249 proves `c_E` plus redshift
-do not fix absolute scale: constant homothety preserves dimensionless history/shape while area
-scales as `ell^2`; one independent dimensional anchor remains.
-G250: one matched nonzero-weight metric anchor fixes the scale conditionally; more anchors test the
-supplied history. No anchor or value is chosen.
-G251: no registered class owns an independent same-object datum. Direct routes need operational
-attachment; dimensional composites need a matter/instrument law. No value/history is chosen.
-G252: an independent clock on a timelike segment gives `ell=tau_star/bar_tau`; a second
-must agree or reject the supplied history. No value/history is chosen.
+G236/G237/G238/G239/G240 are transfer-conditional observational controls. G241/G242/G243 reject
+bounded carriers/zero tide while retaining direct `phi=log(1+z)`. G244/G245/G246/G247/G248 derive
+branchwise sky/cone/incidence/measure geometry, not population or aggregation. G249/G250/G251/G252
+type one remaining scale and its supplied clock attachment; no value/history is chosen. G253
+externally retains three chains—direct redshift, angular sibling, downstream units—with no active
+P1/G116/G189/fit/outcome/`X_max`/protected construction input.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observations
 
-R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G252 derive
+R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G253 derive
 the outcome-blind sky-to-attachment chain. History, value, aggregation, and outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
@@ -62,8 +51,9 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next lay `MAP -> PONDER` one independent clock record and exact same-object interval; freeze the
-attachment before opening its value. Keep G248 aggregation, caustics, G225, P1, `X_max`, protected
-work, and fits closed; SNe redshift stays direct from reciprocal `phi`.
+Next lay `MAP -> PONDER` choose one typed application: direct relative redshift, angular
+metric/Jacobi response, or downstream absolute-unit attachment. Keep G248 aggregation, caustics,
+G225, P1, `X_max`, protected work, fits, and observational outcomes closed until that choice is
+preregistered; SNe redshift stays direct from reciprocal `phi`.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
