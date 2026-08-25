@@ -1,0 +1,151 @@
+{
+  "G259_specific_candidate_not_adopted": "NOT_ADOPTED__DIFFEOMORPHISM_INVARIANT_LOCAL_METRIC_ONLY_VARIATIONAL_MINIMALITY_WITH_AT_MOST_SECOND_ORDER_NONIDENTITY_EULER_OPERATOR",
+  "W4_status": "WORKING_POSIT_NOT_CANON",
+  "counts": {
+    "DERIVED_FROM_W4": 2,
+    "NOT_DERIVED_FROM_W4": 7,
+    "SUPPORTED_ACCEPTANCE_REQUIREMENT": 1
+  },
+  "fit_coefficients": 0,
+  "gpu_used": false,
+  "landing": "W4_OWNS_UNIVERSAL_METRIC_COUPLING__PRIMARY_METRIC_UNCHANGED__G259_CLASS_STILL_UNOWNED__ONE_DYNAMICS_GENERATOR_PREMISE_REMAINS",
+  "maximum_conclusion": "bounded W4 premise-ownership theorem; no UDT field equation or source/history selected",
+  "metric_effect": {
+    "F1_F4_implication_changed": false,
+    "coefficient_changes": 0,
+    "new_metric_components": 0,
+    "physical_interpretation": "ONE_UNIVERSALLY_COUPLED_LOCAL_GEOMETRY",
+    "primary_metric_form": "UNCHANGED"
+  },
+  "mode": "METRIC_LED_OBSERVING_PREMISE_OWNERSHIP",
+  "observational_values_used": 0,
+  "ownership": [
+    {
+      "classification": "DERIVED_FROM_W4",
+      "item": "one_universal_physical_metric",
+      "reason": "stated directly by W4"
+    },
+    {
+      "classification": "DERIVED_FROM_W4",
+      "item": "levi_civita_local_inertial_freefall_evaluator",
+      "reason": "W4 plus the supplied Lorentz metric gives the unique torsion-free metric-compatible connection"
+    },
+    {
+      "classification": "SUPPORTED_ACCEPTANCE_REQUIREMENT",
+      "item": "diffeomorphism_naturality_of_future_law",
+      "reason": "W4 is invariantly stated but generates no parent operator"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "metric_only_gravitational_state",
+      "reason": "universal matter coupling does not exclude an auxiliary gravitational state"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "symmetric_rank_two_equation",
+      "reason": "a scalar metric residual can coexist with W4"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "pointwise_locality",
+      "reason": "a covariant nonlocal metric law can coexist with W4"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "at_most_second_metric_order",
+      "reason": "the G259 R-squared Euler tensor preserves universal metric coupling"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "identity_divergence_freedom",
+      "reason": "Ricci_ab is natural and second order but not identity-divergence-free"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "nonidentity_parent_residual",
+      "reason": "W4 supplies no residual"
+    },
+    {
+      "classification": "NOT_DERIVED_FROM_W4",
+      "item": "source_history_values",
+      "reason": "W4 evaluates every supplied regular metric"
+    }
+  ],
+  "primary_metric_checks": {
+    "arbitrary_positive_profile_event_cases": 257,
+    "determinant_depends_on_f_or_phi": false,
+    "equatorial_determinant": "-c_E^2*r^4",
+    "exact_signature_and_determinant_assertions": 1285
+  },
+  "protected_inputs_used": 0,
+  "remaining_premise_type": "NONIDENTITY_DYNAMICS_GENERATOR_SELECTING_A_PROPER_SUBSPACE_OF_COMPLETE_METRICS",
+  "separating_witnesses": [
+    {
+      "W4": true,
+      "divergence_free": true,
+      "id": "G259_R2_metric_action",
+      "local": true,
+      "metric_only": true,
+      "nonidentity": true,
+      "rank_two": true,
+      "role": "logical_separator_not_UDT_candidate",
+      "second_order": false
+    },
+    {
+      "W4": true,
+      "divergence_free": true,
+      "id": "covariant_nonlocal_metric_action",
+      "local": false,
+      "metric_only": true,
+      "nonidentity": true,
+      "rank_two": true,
+      "role": "logical_separator_not_UDT_candidate",
+      "second_order": false
+    },
+    {
+      "W4": true,
+      "divergence_free": false,
+      "id": "scalar_R_equals_zero",
+      "local": true,
+      "metric_only": true,
+      "nonidentity": true,
+      "rank_two": false,
+      "role": "incomplete_equation_type_separator_only",
+      "second_order": true
+    },
+    {
+      "W4": true,
+      "divergence_free": false,
+      "id": "Ricci_ab_equals_zero",
+      "local": true,
+      "metric_only": true,
+      "nonidentity": true,
+      "rank_two": true,
+      "role": "identity_divergence_separator_only",
+      "second_order": true
+    },
+    {
+      "W4": true,
+      "divergence_free": true,
+      "id": "universal_metric_plus_auxiliary_scalar",
+      "local": true,
+      "metric_only": false,
+      "nonidentity": true,
+      "rank_two": true,
+      "role": "metric_only_separator_outside_UDT_program",
+      "second_order": true
+    },
+    {
+      "W4": true,
+      "divergence_free": true,
+      "id": "zero_residual",
+      "local": true,
+      "metric_only": true,
+      "nonidentity": false,
+      "rank_two": true,
+      "role": "predictivity_separator_only",
+      "second_order": true
+    }
+  ],
+  "status": "PASS"
+}

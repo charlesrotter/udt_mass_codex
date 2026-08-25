@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G260. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G261. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -65,26 +65,21 @@ vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neit
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
 G258 accepts twelve conditional SNe metric knots up to one scale; transfer and history remain open.
-G259's fresh gpt-5.4 review returned `ACCEPT_WITH_REPAIRS`; the sealed repair-only follow-up now
-returns `ACCEPT_REPAIRS` for R1--R3 with the scientific landing unchanged. A faithful theorem map
-keeps the natural symmetric rank-two/local second-order/identity-divergence-free class unowned by
-F1--F4/W1/W3. Flat quiet vacuum leaves the Einstein zero set only for a nonzero operator; `a=0`
-accepts every metric. A fourth-order counterfamily retains Ricci-flat histories and needs a new
-scale. Retaining Einstein moves freedom to source/history.
+G259's accepted repairs leave its natural local second-order rank-two class unowned. Conditional
+flat quiet vacuum gives the Einstein zero set only for a nonzero operator; source/history remains.
+G260 externally verifies full-metric active angular cancellation on `f=1+C/r`; radial-only is
+vacuous, sphere deletion fails, and trace balance retains `1+a*r^2+b/r`.
 
-G260 is externally verified with caveats after `ACCEPT_REPAIR` for its sole dependency-free replay
-repair. In the full primary four-metric,
-`A_parallel+A_perp=E1-E0`. On every nonflat `f=1+C/r` quiet-vacuum comparator,
-`A_parallel=3C/(2r)` and `A_perp=-3C/(2r)`: both angular instruments remain active and cancel.
-The isolated clock-radius two-metric is Einstein-vacuous for every `f`, while flattening the areal
-sphere gives an exact unit residual on that family. Thus W3 quiet overlap did not discard the
-orchestra. Trace balance alone retains `f=1+a*r^2+b/r`; vacuum separately removes `a`. Einstein
-remains imported comparison only, not the UDT parent law.
+G261 is an internally verified lead, awaiting external review. W4 is the provisional equivalence
+principle: one completed UDT metric owns local clocks, rulers, free fall, and the null cone. It
+changes no F1--F4 metric component. Arbitrary positive primary profiles still satisfy W4, so
+locality, second order, rank two, divergence identity, and a nonidentity history equation remain
+unowned. A G259-specific variational-minimality candidate is explicitly not adopted.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 243-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 244-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -107,10 +102,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G260 closes the immediate corruption concern: the GR-quiet comparator uses the full metric and
-retains active cancelling angular response. The next bounded gate is the updated `founding.md`
-value-law question: derive, or prove the need for, the smallest parent/source relation that preserves
-that full-metric quiet balance while governing departure outside it. Do not call the conditional
-Einstein-class theorem a UDT derivation, choose a favorite extension, fit a regime window, or invent
-a numerical residual. No ODE/PDE or GPU history solve is authorized yet.
+G261 closes W4 ownership internally but needs fresh external review. Then ponder whether one
+nonidentity dynamics-generator premise can be derived or must be provisionally posited. Do not
+promote the unadopted G259-specific variational minimality, import Einstein dynamics, fit a regime,
+or invent a numerical residual. No ODE/PDE or GPU history solve is authorized.
 <!-- STARTUP_CURRENT_END -->

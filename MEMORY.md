@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G260: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G261: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -27,6 +27,8 @@ and the continuous law remain open.
 G259's accepted repairs leave its conservative class unowned; Einstein retains source/history.
 G260's accepted R1 proves `A_parallel+A_perp=E1-E0`: on `f=1+C/r` two active modes cancel. The
 radial two-metric is vacuous, sphere deletion fails, and trace balance retains `1+a*r^2+b/r`.
+G261 internally verifies W4 owns one universal local metric but changes no F1--F4 component and
+does not derive G259's operator class or history law. External review remains.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -54,8 +56,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next use the G260-repaired `founding.md` to derive or sharply classify the smallest full-metric
-parent/source value law. It must preserve quiet angular cancellation and cannot be a fitted switch
-or post-readout correction.
+Externally review G261, then ponder the one remaining nonidentity dynamics-generator premise; its
+G259-specific variational form is not adopted.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

@@ -1,0 +1,11 @@
+item	classification	reason
+one_universal_physical_metric	DERIVED_FROM_W4	stated directly by W4
+levi_civita_local_inertial_freefall_evaluator	DERIVED_FROM_W4	W4 plus the supplied Lorentz metric gives the unique torsion-free metric-compatible connection
+diffeomorphism_naturality_of_future_law	SUPPORTED_ACCEPTANCE_REQUIREMENT	W4 is invariantly stated but generates no parent operator
+metric_only_gravitational_state	NOT_DERIVED_FROM_W4	universal matter coupling does not exclude an auxiliary gravitational state
+symmetric_rank_two_equation	NOT_DERIVED_FROM_W4	a scalar metric residual can coexist with W4
+pointwise_locality	NOT_DERIVED_FROM_W4	a covariant nonlocal metric law can coexist with W4
+at_most_second_metric_order	NOT_DERIVED_FROM_W4	the G259 R-squared Euler tensor preserves universal metric coupling
+identity_divergence_freedom	NOT_DERIVED_FROM_W4	Ricci_ab is natural and second order but not identity-divergence-free
+nonidentity_parent_residual	NOT_DERIVED_FROM_W4	W4 supplies no residual
+source_history_values	NOT_DERIVED_FROM_W4	W4 evaluates every supplied regular metric

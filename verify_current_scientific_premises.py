@@ -233,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G260",
+            "G166--G261",
             "G197",
             "G215",
             "G216",
@@ -281,6 +281,7 @@ def validate_startup_surface(root: Path) -> None:
             "G258",
             "G259",
             "G260",
+            "G261",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -323,7 +324,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "243-row exact registry",
+            "244-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -411,6 +412,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/",
             "udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/",
             "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/",
+            "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -424,7 +426,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G260",
+            "G166--G261",
             "G197",
             "G198",
             "G199",
@@ -490,6 +492,7 @@ def validate_startup_surface(root: Path) -> None:
             "G258",
             "G259",
             "G260",
+            "G261",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -566,6 +569,9 @@ def validate_startup_surface(root: Path) -> None:
             "G256",
             "G257",
             "G258",
+            "G259",
+            "G260",
+            "G261",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -639,10 +645,11 @@ def validate_startup_surface(root: Path) -> None:
             "G258",
             "G259",
             "G260",
+            "G261",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "243-row",
+            "244-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -986,9 +993,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 243, "premise registry must contain exactly 243 rows")
+    require(len(rows) == 244, "premise registry must contain exactly 244 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 243, "duplicate premise id")
+    require(len(by_id) == 244, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -6049,7 +6056,7 @@ def main() -> None:
         "G250 final banking replay absent",
     )
     require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
-    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
+    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
     require(g250_replay["status"] == "PASS", "G250 live no-write replay failed")
     require(
         by_id["G251"]["current_status"].startswith(
@@ -6216,7 +6223,7 @@ def main() -> None:
         "G251 final banking replay absent",
     )
     require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
-    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
+    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
     require(g251_replay["status"] == "PASS", "G251 live no-write replay failed")
     require(
         by_id["G252"]["current_status"].startswith(
@@ -6364,7 +6371,7 @@ def main() -> None:
         "G252 final banking replay absent",
     )
     require(len(read_tsv(g252 / "SOURCE_MANIFEST.tsv")) == 6, "G252 source count changed")
-    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
+    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
     require(g252_replay["status"] == "PASS", "G252 live no-write replay failed")
     require(
         by_id["G253"]["current_status"].startswith(
@@ -6491,7 +6498,7 @@ def main() -> None:
         "G253 external repair acceptance absent",
     )
     require(len(read_tsv(g253 / "SOURCE_MANIFEST.tsv")) == 21, "G253 source count changed")
-    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
+    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
     require(g253_replay["verdict"] == "PACKAGE_PASS", "G253 live no-write replay failed")
     require(
         by_id["G254"]["current_status"].startswith(
@@ -6575,7 +6582,7 @@ def main() -> None:
         "G254_VERIFIED_WITH_CAVEATS" in (g254 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
         "G254 external review acceptance absent",
     )
-    g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G260", "G259", "G258", "G257", "G256", "G255", "G254"))
+    g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254"))
     require(g254_replay["status"] == "PACKAGE_PASS", "G254 live no-write replay failed")
     require(
         by_id["G255"]["current_status"].startswith(
@@ -6661,7 +6668,7 @@ def main() -> None:
         and "no findings" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text().lower(),
         "G255 external review acceptance absent",
     )
-    g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G260", "G259", "G258", "G257", "G256"))
+    g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G261", "G260", "G259", "G258", "G257", "G256"))
     require(
         g255_replay["status"] == "PASS"
         and g255_replay["assertion_count"] == 842
@@ -6780,7 +6787,7 @@ def main() -> None:
         in (g256 / "EXTERNAL_R2_FOLLOWUP_GPT54.md").read_text(),
         "G256 external R2 acceptance absent",
     )
-    g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G260", "G259", "G258", "G257", "G256"))
+    g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G261", "G260", "G259", "G258", "G257", "G256"))
     require(
         g256_replay["status"] == "PACKAGE_PASS_R2_FOLLOWUP_PENDING"
         and g256_replay["source_count"] == 18
@@ -7334,6 +7341,117 @@ def main() -> None:
         "G260 repair-only acceptance absent",
     )
     require(len(read_tsv(g260 / "SOURCE_MANIFEST.tsv")) == 11, "G260 source count changed")
+    require(
+        by_id["G261"]["current_status"].startswith(
+            "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_REQUIRED"
+        ),
+        "G261 bounded grade changed",
+    )
+    for guard in (
+        "PREREGISTERED_AND_PUSHED_AT_458E02E9_BEFORE_DERIVATION",
+        "W4_UNIVERSAL_METRIC_COUPLING_WORKING_POSIT_NOT_CANON",
+        "ONE_UNIVERSAL_PHYSICAL_METRIC_DERIVED_FROM_W4",
+        "PRIMARY_F1_F4_METRIC_FORM_UNCHANGED_ZERO_COEFFICIENT_OR_COMPONENT_CHANGES",
+        "METRIC_ONLY_STATE_RANK_TWO_EQUATION_POINTWISE_LOCALITY_SECOND_ORDER_IDENTITY_DIVERGENCE_FREEDOM_NONIDENTITY_PARENT_AND_SOURCE_HISTORY_VALUES_NOT_DERIVED_FROM_W4",
+        "ARBITRARY_POSITIVE_PRIMARY_PROFILE_CONSERVATIVE_EXTENSION",
+        "257_EXACT_RATIONAL_CASES_1285_ASSERTIONS",
+        "2000_INDEPENDENT_PROFILE_JET_CASES_12032_ASSERTIONS",
+        "TEN_OF_TEN_HOSTILE_CATCHES",
+        "ONE_NONIDENTITY_DYNAMICS_GENERATOR_PREMISE_TYPE_REMAINS",
+        "G259_SPECIFIC_VARIATIONAL_MINIMALITY_CANDIDATE_NOT_ADOPTED",
+        "ZERO_OBSERVATIONS_FITS_GPU_XMAX_SOURCE_OR_PROTECTED_INPUT",
+    ):
+        require(guard in by_id["G261"]["current_status"], f"G261 guard absent: {guard}")
+    require(by_id["G261"]["epistemic_label"] == "MIXED", "G261 label changed")
+    require(
+        by_id["G261"]["controlling_source"]
+        == "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md",
+        "G261 controlling source changed",
+    )
+    g261 = ROOT / "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "OWNERSHIP_ATLAS.tsv",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "RUN_RECORD.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "VERIFICATION_RESULT.json",
+        "derive_w4_ownership.py",
+        "run_catch_proofs.py",
+        "verify_independent.py",
+        "verify_package.py",
+    ):
+        require((g261 / name).is_file(), f"G261 evidence missing: {name}")
+    g261_result = json.loads((g261 / "DERIVATION_RESULT.json").read_text())
+    g261_independent = json.loads((g261 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g261_catches = json.loads((g261 / "CATCH_PROOF_RESULT.json").read_text())
+    g261_verification = json.loads((g261 / "VERIFICATION_RESULT.json").read_text())
+    expected_g261_landing = (
+        "W4_OWNS_UNIVERSAL_METRIC_COUPLING__PRIMARY_METRIC_UNCHANGED__"
+        "G259_CLASS_STILL_UNOWNED__ONE_DYNAMICS_GENERATOR_PREMISE_REMAINS"
+    )
+    require(
+        g261_result["status"] == "PASS"
+        and g261_result["landing"] == expected_g261_landing
+        and g261_result["counts"]
+        == {
+            "DERIVED_FROM_W4": 2,
+            "NOT_DERIVED_FROM_W4": 7,
+            "SUPPORTED_ACCEPTANCE_REQUIREMENT": 1,
+        }
+        and g261_result["metric_effect"]["primary_metric_form"] == "UNCHANGED"
+        and g261_result["metric_effect"]["F1_F4_implication_changed"] is False
+        and g261_result["primary_metric_checks"]["arbitrary_positive_profile_event_cases"] == 257
+        and g261_result["remaining_premise_type"]
+        == "NONIDENTITY_DYNAMICS_GENERATOR_SELECTING_A_PROPER_SUBSPACE_OF_COMPLETE_METRICS"
+        and g261_result["G259_specific_candidate_not_adopted"].startswith("NOT_ADOPTED__")
+        and g261_result["observational_values_used"] == 0
+        and g261_result["fit_coefficients"] == 0
+        and g261_result["gpu_used"] is False
+        and g261_result["protected_inputs_used"] == 0,
+        "G261 landing or premise ownership changed",
+    )
+    require(
+        g261_independent["status"] == "PASS"
+        and g261_independent["assertions"] == 12032
+        and g261_independent["arbitrary_profile_jet_cases"] == 2000
+        and g261_independent["production_imported"] is False
+        and g261_independent["production_result_read"] is False,
+        "G261 independent replay changed",
+    )
+    require(
+        g261_catches["status"] == "PASS"
+        and g261_catches["caught_count"] == 10
+        and all(g261_catches["caught"].values()),
+        "G261 hostile ledger changed",
+    )
+    require(
+        g261_verification["status"] == "PASS"
+        and g261_verification["grade"]
+        == "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_REQUIRED"
+        and g261_verification["landing"] == expected_g261_landing
+        and g261_verification["source_manifest_rows"] == 10
+        and g261_verification["independent_assertions"] == 12032
+        and g261_verification["hostile_catches"] == 10,
+        "G261 package certification changed",
+    )
+    require(len(read_tsv(g261 / "SOURCE_MANIFEST.tsv")) == 10, "G261 source count changed")
+    founding_text = " ".join((ROOT / "founding.md").read_text().split())
+    require(
+        "### W4. Universal metric coupling" in founding_text
+        and "does not alter F1--F4's reciprocal algebra or the primary metric components" in founding_text
+        and "does not, merely by being stated, select a field equation" in founding_text,
+        "founding W4 scope changed",
+    )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -11557,7 +11675,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260-extended startup and premise guards; PASS: 243-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261-extended startup and premise guards; PASS: 244-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

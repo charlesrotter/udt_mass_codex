@@ -1,0 +1,10 @@
+{
+  "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_REQUIRED",
+  "hostile_catches": 10,
+  "independent_assertions": 12032,
+  "landing": "W4_OWNS_UNIVERSAL_METRIC_COUPLING__PRIMARY_METRIC_UNCHANGED__G259_CLASS_STILL_UNOWNED__ONE_DYNAMICS_GENERATOR_PREMISE_REMAINS",
+  "observations_fits_gpu_protected_inputs": 0,
+  "production_exact_assertions": 1285,
+  "source_manifest_rows": 10,
+  "status": "PASS"
+}

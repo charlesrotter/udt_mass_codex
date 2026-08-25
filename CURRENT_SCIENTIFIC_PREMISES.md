@@ -1,6 +1,6 @@
 # Premise index
 
-`LIVE.md` and TSV own status; not `CANON.md`.
+`LIVE.md` and TSV own status.
 ## Foundational relation
 
 | Object | Status | What is owned | What remains open |
@@ -11,8 +11,9 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Germ/extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G260 | Carry, scale, values, GR, operator fork, angular non-discard | Parent/source law; history; aggregation |
+| Pair-clock/state network | G215--G261 | Carry, GR fork, angular non-discard, W4 | Dynamics; history; aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
+| Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL/DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -58,6 +59,7 @@
 | G258 sampled inverse metric | external science and R1 accepted | `12` states; one scale; no law |
 | G259 parent-operator fork | external repairs accepted | Nonzero conditional Einstein zero set; fork unselected |
 | G260 GR-quiet angular non-discard | external after R1 | Full-metric active cancellation; radial-only vacuity; no parent law |
+| G261 W4 ownership | internal lead | One metric; unchanged form; operator class unowned |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -80,7 +82,7 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class. Metricity is not dynamics.
 - G212--G243 evaluate/reconstruct without selecting values; G244/G245/G246/G247/G248 give branchwise
-  geometry; G249--G256 type scale and closure. G257--G260 supply GR, values, fork, and non-discard.
+  geometry; G249--G256 type scale and closure. G257--G261 supply GR, values, fork, non-discard, and W4 ownership.
 
 ## Carrier, action, source, and matter
 
@@ -98,7 +100,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G260 are outcome-blind; G258 reuses G237. BOSS/history/transfer stay open.
+G244--G257 and G259--G261 are outcome-blind; G258 reuses G237. BOSS/history/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -112,7 +114,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 243-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 244-row authority; conflicts stop.
 
 Run:
 

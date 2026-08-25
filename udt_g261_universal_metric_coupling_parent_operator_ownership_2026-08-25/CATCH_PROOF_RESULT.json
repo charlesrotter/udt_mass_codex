@@ -1,0 +1,16 @@
+{
+  "caught": {
+    "claim_primary_metric_changed": true,
+    "promote_candidate_W5_to_adopted": true,
+    "promote_divergence_freedom": true,
+    "promote_locality": true,
+    "promote_metric_only_state": true,
+    "promote_naturality_to_generated_operator": true,
+    "promote_nonidentity_law": true,
+    "promote_pair_c_eff_to_local_cone": true,
+    "promote_rank_two_equation": true,
+    "promote_second_order": true
+  },
+  "caught_count": 10,
+  "status": "PASS"
+}

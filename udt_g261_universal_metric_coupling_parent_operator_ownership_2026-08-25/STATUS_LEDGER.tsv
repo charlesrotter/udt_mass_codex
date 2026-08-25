@@ -1,0 +1,15 @@
+object	status	maximum_claim
+W4	WORKING_POSIT_NOT_CANON	one completed UDT metric universally supplies local clocks rulers freefall and null cone
+primary_metric_form	UNCHANGED	W4 adds no coefficient component field or F1-F4 implication
+one_universal_physical_metric	DERIVED_FROM_W4	one local geometry not a second propagation metric
+local_inertial_freefall_evaluator	DERIVED_FROM_W4_WITH_EXISTING_METRIC_GEOMETRY	Levi-Civita local inertial and null evaluator
+diffeomorphism_naturality	SUPPORTED_ACCEPTANCE_REQUIREMENT	future physical law should be natural but no operator is generated
+metric_only_gravitational_state	NOT_DERIVED_FROM_W4	auxiliary-state separator remains logically possible
+symmetric_rank_two_equation	NOT_DERIVED_FROM_W4	scalar residual separator survives
+pointwise_locality	NOT_DERIVED_FROM_W4	nonlocal covariant separator survives
+second_metric_order	NOT_DERIVED_FROM_W4	R-squared separator survives
+identity_divergence_freedom	NOT_DERIVED_FROM_W4	Ricci-tensor separator survives
+nonidentity_parent_residual	NOT_DERIVED_FROM_W4	W4 contains no equation selecting histories
+source_history_values	NOT_DERIVED_FROM_W4	arbitrary regular positive primary profiles remain admitted
+G259_specific_variational_minimality	NOT_ADOPTED	candidate premise only
+G261_landing	INTERNALLY_VERIFIED_LEAD	external review pending and no field equation derived

@@ -3,7 +3,7 @@
 Date: 2026-08-25
 
 `LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
-The current exact authority contains 243 rows.
+The current exact authority contains 244 rows.
 
 ## Architecture
 
@@ -83,8 +83,11 @@ Phi=-log(T)=-1/2 log(-h00)
   Accepted repairs exclude the zero operator and verify the replays; class, fork, and source remain open.
 - G260 proves full-metric quiet non-discard: `A_parallel+A_perp=E1-E0`, with two active cancelling
   modes on `f=1+C/r`. Radial-only is vacuous; trace balance retains `1+a*r^2+b/r`. Reviews accept R1.
+- G261 provisionally types W4 as universal coupling to one completed UDT metric. It changes no
+  F1--F4 metric component and leaves the G259 operator class and history equation unowned. Internal
+  exact and independent checks pass; external review remains.
 
-G206--G260 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G261 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -93,8 +96,8 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 
 - G211--G231 close supplied local geometry; G232--G235 do not select history. G236--G243 are
   observational controls; G244--G248 give branchwise geometry; G249--G252 type scale attachment.
-  G253--G256 narrow the gap to primary-state value propagation. G260 rules out angular discard as
-  its cause. The missing object remains a full-metric parent/source value law.
+  G253--G256 narrow the gap to primary-state value propagation. G260 rules out angular discard and
+  G261 rules out W4 alone as its cause. One nonidentity full-metric dynamics-generator premise remains.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
@@ -107,6 +110,6 @@ measure, and detector/transfer ownership open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected inputs. G190--G251 remain
 bounded controls/evaluators; G252--G256 narrow value closure; G257 supplies the GR comparison;
-G258 samples values; G259/G260 classify the operator fork and full-metric quiet balance. Do not
-invent a residual, fit a free history or regime switch, erase nonzero quiet geometry, aggregate
-branches, cross caustics, insert `X_max`, or activate protected work.
+G258 samples values; G259/G260 classify the operator fork and quiet balance; G261 classifies W4
+ownership. Do not promote its unadopted variational candidate, invent a residual, fit a free history
+or regime switch, erase quiet geometry, aggregate branches, insert `X_max`, or activate protected work.
