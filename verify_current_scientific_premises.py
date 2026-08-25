@@ -233,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G257",
+            "G166--G258",
             "G197",
             "G215",
             "G216",
@@ -278,6 +278,7 @@ def validate_startup_surface(root: Path) -> None:
             "G255",
             "G256",
             "G257",
+            "G258",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -320,7 +321,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "240-row exact registry",
+            "241-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -404,6 +405,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g254_complete_timelive_solver_closure_audit_2026-08-24/",
             "udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/",
             "udt_g256_primary_state_value_closure_rank_2026-08-25/",
+            "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -417,7 +419,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G257",
+            "G166--G258",
             "G197",
             "G198",
             "G199",
@@ -480,6 +482,7 @@ def validate_startup_surface(root: Path) -> None:
             "G255",
             "G256",
             "G257",
+            "G258",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -555,6 +558,7 @@ def validate_startup_surface(root: Path) -> None:
             "G255",
             "G256",
             "G257",
+            "G258",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -625,10 +629,11 @@ def validate_startup_surface(root: Path) -> None:
             "G255",
             "G256",
             "G257",
+            "G258",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "240-row",
+            "241-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -972,9 +977,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 240, "premise registry must contain exactly 240 rows")
+    require(len(rows) == 241, "premise registry must contain exactly 241 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 240, "duplicate premise id")
+    require(len(by_id) == 241, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -6035,7 +6040,7 @@ def main() -> None:
         "G250 final banking replay absent",
     )
     require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
-    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G257", "G256", "G255", "G254", "G253", "G252"))
+    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G258", "G257", "G256", "G255", "G254", "G253", "G252"))
     require(g250_replay["status"] == "PASS", "G250 live no-write replay failed")
     require(
         by_id["G251"]["current_status"].startswith(
@@ -6202,7 +6207,7 @@ def main() -> None:
         "G251 final banking replay absent",
     )
     require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
-    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G257", "G256", "G255", "G254", "G253", "G252"))
+    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G258", "G257", "G256", "G255", "G254", "G253", "G252"))
     require(g251_replay["status"] == "PASS", "G251 live no-write replay failed")
     require(
         by_id["G252"]["current_status"].startswith(
@@ -6350,7 +6355,7 @@ def main() -> None:
         "G252 final banking replay absent",
     )
     require(len(read_tsv(g252 / "SOURCE_MANIFEST.tsv")) == 6, "G252 source count changed")
-    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G257", "G256", "G255", "G254", "G253"))
+    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G258", "G257", "G256", "G255", "G254", "G253"))
     require(g252_replay["status"] == "PASS", "G252 live no-write replay failed")
     require(
         by_id["G253"]["current_status"].startswith(
@@ -6477,7 +6482,7 @@ def main() -> None:
         "G253 external repair acceptance absent",
     )
     require(len(read_tsv(g253 / "SOURCE_MANIFEST.tsv")) == 21, "G253 source count changed")
-    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G257", "G256", "G255", "G254", "G253"))
+    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G258", "G257", "G256", "G255", "G254", "G253"))
     require(g253_replay["verdict"] == "PACKAGE_PASS", "G253 live no-write replay failed")
     require(
         by_id["G254"]["current_status"].startswith(
@@ -6561,7 +6566,7 @@ def main() -> None:
         "G254_VERIFIED_WITH_CAVEATS" in (g254 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
         "G254 external review acceptance absent",
     )
-    g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G257", "G256", "G255", "G254"))
+    g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G258", "G257", "G256", "G255", "G254"))
     require(g254_replay["status"] == "PACKAGE_PASS", "G254 live no-write replay failed")
     require(
         by_id["G255"]["current_status"].startswith(
@@ -6647,7 +6652,7 @@ def main() -> None:
         and "no findings" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text().lower(),
         "G255 external review acceptance absent",
     )
-    g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G257", "G256"))
+    g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G258", "G257", "G256"))
     require(
         g255_replay["status"] == "PASS"
         and g255_replay["assertion_count"] == 842
@@ -6766,7 +6771,7 @@ def main() -> None:
         in (g256 / "EXTERNAL_R2_FOLLOWUP_GPT54.md").read_text(),
         "G256 external R2 acceptance absent",
     )
-    g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G257", "G256"))
+    g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G258", "G257", "G256"))
     require(
         g256_replay["status"] == "PACKAGE_PASS_R2_FOLLOWUP_PENDING"
         and g256_replay["source_count"] == 18
@@ -6870,6 +6875,104 @@ def main() -> None:
         in g257_external,
         "G257 fresh external acceptance absent",
     )
+    require(
+        by_id["G258"]["current_status"].startswith(
+            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN"
+        ),
+        "G258 bounded grade changed",
+    )
+    for guard in (
+        "PREREGISTERED_AND_PUSHED_AT_A9F96360_BEFORE_IMPLEMENTATION",
+        "G237_OBSERVED_PROCESSED_CONDITIONAL_STATE",
+        "G119_CENTRAL_SPHERICAL_DA_EQUALS_R",
+        "IMPORTED_TEMPORARY_TRANSPARENT_TRANSFER_EXPLICIT",
+        "DIRECT_Z_EQUALS_EXP_PHI",
+        "TWELVE_SAMPLED_RELATIVE_PRIMARY_METRIC_STATES_RECONSTRUCTED",
+        "ZERO_NEW_UDT_FIT_COEFFICIENTS",
+        "ONE_POSITIVE_ABSOLUTE_SCALE_ELL_REMAINS",
+        "MINUS_0P31_SIGMA_NOT_A_PHYSICAL_TURN",
+        "252_INDEPENDENT_DECIMAL_ASSERTIONS",
+        "EIGHT_OF_EIGHT_HOSTILE_CATCHES",
+        "STATIC_GR_VACUUM_EXTERIOR_NOT_IMPOSED_ON_SNE_BRANCH",
+        "NO_LCDM_DISTANCE_XMAX_POSTREADOUT_ORCHESTRA_CONTINUOUS_INTERPOLANT_DERIVATIVE_LAW_GPU_OR_PROTECTED_INPUT",
+    ):
+        require(guard in by_id["G258"]["current_status"], f"G258 guard absent: {guard}")
+    require(by_id["G258"]["epistemic_label"] == "MIXED", "G258 label changed")
+    require(
+        by_id["G258"]["controlling_source"]
+        == "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/AUDIT_REPORT.md",
+        "G258 controlling source changed",
+    )
+    g258 = ROOT / "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25"
+    for name in (
+        "ADJACENT_CHANGE_ATLAS.tsv",
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "MAP.md",
+        "NODE_ATLAS.tsv",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "RUN_RECORD.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "derive_inverse_metric_reconstruction.py",
+        "run_catch_proofs.py",
+        "verify_independent.py",
+        "verify_package.py",
+    ):
+        require((g258 / name).is_file(), f"G258 evidence missing: {name}")
+    g258_result = json.loads((g258 / "DERIVATION_RESULT.json").read_text())
+    g258_independent = json.loads((g258 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g258_catches = json.loads((g258 / "CATCH_PROOF_RESULT.json").read_text())
+    require(
+        g258_result["status"] == "PASS"
+        and g258_result["landing"]
+        == "POINTWISE_RELATIVE_METRIC_STATE_RECONSTRUCTS__CONTINUOUS_LAW_REMAINS_OPEN"
+        and g258_result["node_count"] == 12
+        and g258_result["fit_coefficients"] == 0
+        and g258_result["positive_adjacent_changes"] == 10
+        and g258_result["negative_adjacent_changes"] == 1,
+        "G258 landing or node census changed",
+    )
+    require(
+        max(g258_result["maximum_residuals"].values()) < 2e-12
+        and abs(g258_result["adjacent_changes"][-1]["standardized"] + 0.3098941412089942)
+        < 2e-12,
+        "G258 residual or upper-edge classification changed",
+    )
+    require(
+        g258_independent["status"] == "PASS"
+        and g258_independent["assertions"] == 252
+        and g258_independent["node_count"] == 12
+        and g258_independent["production_imported"] is False
+        and g258_independent["production_result_read"] is False,
+        "G258 independent replay changed",
+    )
+    require(
+        g258_catches["status"] == "PASS"
+        and g258_catches["caught_count"] == 8
+        and all(g258_catches["catches"].values()),
+        "G258 hostile ledger changed",
+    )
+    g258_sources = read_tsv(g258 / "SOURCE_MANIFEST.tsv")
+    require(len(g258_sources) == 10, "G258 source count changed")
+    for source in g258_sources:
+        source_path = ROOT / source["path"]
+        require(source_path.is_file(), f"G258 source missing: {source['path']}")
+        source_bytes = source_path.read_bytes()
+        if source["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            source_bytes = b"".join(
+                line for line in source_bytes.splitlines(keepends=True) if not line.startswith(b"G258\t")
+            )
+        require(
+            hashlib.sha256(source_bytes).hexdigest() == source["sha256"],
+            f"G258 source hash changed: {source['path']}",
+        )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],
@@ -11093,7 +11196,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257-extended startup and premise guards; PASS: 240-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258-extended startup and premise guards; PASS: 241-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

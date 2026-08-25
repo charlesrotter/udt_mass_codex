@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-25
 
-G166--G257 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G258 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -38,6 +38,9 @@ Einstein is imported comparison only. The bounded primary exterior contains `f=1
 pair and native G201 angular responses stay active. GR overlap is nonzero GR-balanced geometry.
 The UDT parent law, matter, history, and `C` remain open.
 
+G258 reconstructs twelve frozen conditional SNe metric states up to one positive scale with no new
+UDT fit coefficient. Transfer, interpolation, derivatives, and covariant history remain open.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
 program/index.
@@ -62,6 +65,6 @@ Next `MAP -> PONDER -> DERIVE` covariant parent-
 operator requirements that vanish on the GR branch and permit native extreme-regime departure.
 Do not import a favorite GR-adjacent extension, fit a regime switch, equate GR quietness with zero
 geometry, invent a solver residual, or promote Cartan/Bianchi/network reconstruction to dynamics.
-The 240-row registry controls.
+The 241-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

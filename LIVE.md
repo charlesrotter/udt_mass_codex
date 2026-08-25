@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G257. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G258. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -75,10 +75,13 @@ pair readout and native G201 amplitudes `A_parallel=-3u/2`, `A_perp=+3u/2`. GR o
 vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neither derives GR,
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
+G258 reconstructs twelve conditional sampled SNe metric states up to one scale; continuous
+transfer/history remain open.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 240-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 241-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -87,7 +90,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-are outcome-blind geometry/typing, not a BOSS result. Raw archive:
+are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -101,7 +104,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G257 sharpens but does not supply the missing parent law. Next `MAP -> PONDER -> DERIVE` the smallest
+G258 supplies macro value anchors but not the missing parent law. Next derive the smallest
 covariant UDT parent-operator requirements whose extra content vanishes on the GR branch and can
 depart only through the same reciprocal metric machinery at extremes. Do not choose a favorite
 extension, insert a fitted regime window, identify quietness with zero geometry, repeat the 90-run

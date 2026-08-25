@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G257 | State, carry, scale, value-rank, GR embedding | UDT parent law; aggregation |
+| Pair-clock/state network | G215--G258 | State, carry, scale, sampled values, GR embedding | UDT parent law; aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
@@ -55,6 +55,7 @@
 | G255 lost-closure recovery | external; no findings | No lost G165--G254 value law; next is primary-state closure |
 | G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
 | G257 GR quiet embedding | external; no findings | `f=1+C/r`; native pair/angular response; nonzero GR balance |
+| G258 sampled inverse metric | internal; external open | `12` states; one scale; no law |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -80,9 +81,8 @@ None selects completion/`X_max`.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selection.
 - G212--G235 evaluate or reconstruct but do not select. G236--G243 are observational controls.
   G244/G245/G246/G247/G248 derive branchwise sky/cone/measure geometry; G249/G250/G251/G252 type scale and attachment.
-  G253 compresses redshift, angular response, and units without scaffold inputs. G254/G255/G256 find
-  no history residual, lost value law, or propagation law. G257 imports GR only as quiet comparison:
-  exact bounded embedding has nonzero native pair/angular geometry.
+  G253 compresses redshift/angular/units. G254--G256 find no value law. G257 gives the quiet GR
+  comparison; G258 sampled values only.
 
 ## Carrier, action, source, and matter
 
@@ -100,8 +100,8 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 freeze state
-under imported transfer; G242/G243 are bounded controls. G244--G257 use no outcome; BOSS, history,
-source, and transfer stay open.
+under imported transfer; G242/G243 are controls. G244--G257 are outcome-blind; G258 reuses G237.
+BOSS/history/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -115,7 +115,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 240-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 241-row authority; conflicts stop.
 
 Run:
 

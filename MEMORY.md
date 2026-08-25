@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G257: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G258: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -31,13 +31,14 @@ diagnostic arena. The open object is primary-state value closure.
 
 G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular response reconstructs two jets without propagation; no residual owns a solve.
 G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
+G258 reconstructs twelve conditional sampled SNe metric states up to one scale; no continuous law.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observations
 
-R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G257 derive
+R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G258 derive
 the outcome-blind sky-to-attachment chain. History, value, aggregation, and outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.

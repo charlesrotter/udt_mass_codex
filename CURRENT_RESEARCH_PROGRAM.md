@@ -77,8 +77,11 @@ Phi=-log(T)=-1/2 log(-h00)
 - G257 adds W3 provisionally as `WORKING/POSIT`. Imported vacuum GR yields the exact bounded primary
   family `f=1+C/r`, matched pair readout, and G201 amplitudes `(-3u/2,+3u/2)`. Quietness is GR balance,
   not zero geometry. Fresh external review accepted; the covariant UDT parent law remains open.
+- G258 joins direct redshift to G119 area and frozen G237 relative radii, reconstructing twelve
+  sampled metric states up to one scale with zero new UDT fit coefficients. Continuous history,
+  native transfer, derivatives, and the parent law remain open.
 
-G206--G257 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G258 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -99,7 +102,7 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G256 leave continuous history, source
+scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -110,8 +113,8 @@ evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock 
 contract; G253 compresses and audits the three resulting typed chains; G254 closes the attempted
 time-live solver gate negatively and source-boundedly; G255 confirms no closure owner was lost in
 the preceding 90-run arc; G256 closes the bounded value-rank test negatively; G257 then identifies
-the exact GR comparison rail already inside the primary metric. Next `MAP -> PONDER -> DERIVE` the
-covariant UDT parent-operator requirements whose extra
+the exact GR comparison rail already inside the primary metric. G258 adds twelve conditional macro
+value anchors. Next derive covariant UDT parent-operator requirements whose extra
 content vanishes on that GR branch and activates natively at extremes. Do not create the missing
 residual inside a numerical solve, fit an unrestricted history function, fit a regime switch,
 equate quietness with zero geometry, aggregate branches, cross caustics, insert `X_max`, or activate

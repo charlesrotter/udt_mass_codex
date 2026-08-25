@@ -64,7 +64,7 @@
   `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one clock attachment fixes `ell` conditionally;
   `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compression; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`—no owned history residual; reduced/GPU solve gated.
 - `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—no lost closure; `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, no propagation residual;
-  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—working W3, exact bounded GR embedding, external review accepted.
+  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—exact GR embedding; `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`

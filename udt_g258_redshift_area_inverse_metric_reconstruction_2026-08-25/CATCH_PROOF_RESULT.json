@@ -1,0 +1,15 @@
+{
+  "catches": {
+    "absolute_scale_self_selection": true,
+    "covariance_diagonalization": true,
+    "forced_monotonicity": true,
+    "logarithm_base_error": true,
+    "postreadout_angular_insertion": true,
+    "static_gr_exterior_import": true,
+    "wrong_f_power": true,
+    "wrong_redshift_sign": true
+  },
+  "caught_count": 8,
+  "method": "formula-level mutations and forbidden-import controls",
+  "status": "PASS"
+}

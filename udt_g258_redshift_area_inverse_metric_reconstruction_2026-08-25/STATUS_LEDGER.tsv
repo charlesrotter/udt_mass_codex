@@ -1,0 +1,13 @@
+item	status	note
+reciprocal_redshift	DERIVED_CONDITIONAL	Z=e^phi on supplied calibrated frequency query
+sampled_clock_ruler_state	DERIVED_CONDITIONAL	T=Z^-1 L=Z f=Z^-2
+central_spherical_area	DERIVED_CONDITIONAL	d_A=R on supplied regular branch
+G237_relative_R	OBSERVED_PROCESSED_CONDITIONAL	imported transfer and chosen cross-release covariance
+sampled_relative_metric_state	INDEPENDENTLY_VERIFIED_WITH_CAVEATS	twelve nodes reconstructed with zero new UDT coefficients
+absolute_scale	OPEN	one positive ell remains
+final_sampled_downturn	OBSERVED_NOT_SIGNIFICANT	minus 0.31 sigma under frozen covariance
+continuous_phi_R	OPEN	no interpolation or derivative law
+native_radiative_transfer	OPEN	temporary transfer remains imported
+W3_GR_reduction	WORKING_POSIT_NOT_CANON	static GR exterior not imposed as SNe history
+covariant_parent_law	OPEN	must join quiet GR reduction and macro anchors
+external_review	OPEN	fresh adversarial review not yet run
