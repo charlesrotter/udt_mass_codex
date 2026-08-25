@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G255: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G256: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -24,21 +24,23 @@ type one remaining scale and its supplied clock attachment; no value/history is 
 externally retains three chains—direct redshift, angular sibling, downstream units—with no active
 P1/G116/G189/fit/outcome/`X_max`/protected construction input.
 
-G254 externally verifies that the frozen native evaluator/reconstruction chain owns no ambient
-time-live metric residual. Its smooth curvature-separated counterfamily survives the completed-pair
-algebra. Reduced ODE/PDE and GPU history solves are gated, not merely unfinished.
+G254 verifies no ambient time-live residual in the frozen evaluator chain. A curvature-separated
+counterfamily survives; reduced ODE/PDE and GPU history solves are gated.
 
 G255 externally verifies with no findings that no owned closure equation was lost across G165--G254.
 It reconciles the primary UDT metric/state with the broader diagnostic configuration arena. The
 open object is primary-state depth/profile and time-live value closure, not selection among every
 Lorentz metric.
 
+G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular
+response reconstructs two jets without propagation. Finite jets admit realizations; no residual owns a solve.
+
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observations
 
-R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G255 derive
+R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G256 derive
 the outcome-blind sky-to-attachment chain. History, value, aggregation, and outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
@@ -60,9 +62,9 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next `MAP -> PONDER -> DERIVE` the G255 primary-state value-closure gate: finite native family,
-genuinely global completed-relation value law, or an honest negative leading only to explicitly
-empirical reconstruction. Do not invent a residual in a solver or use observations to fill an
+Next `MAP -> PONDER -> DERIVE` one explicitly owned native cross-separation/cross-event value law,
+or make the honest scope decision that the current theory requires a separate empirical
+reconstruction layer. Do not invent a residual in a solver or use observations to fill an
 unrestricted history function.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

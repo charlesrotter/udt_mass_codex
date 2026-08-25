@@ -79,8 +79,13 @@ Phi=-log(T)=-1/2 log(-h00)
   found. G166/G212/G254 reconcile once the primary UDT state is separated from the broader
   diagnostic configuration arena. The next object is primary-state value closure, not another
   search through arbitrary metrics.
+- G256 externally verifies with caveats after accepted dependency-free R2 replay that connected
+  scalar pair networks retain `N-1` anchored values. The exact angular map reconstructs the first
+  two radial jets but does not propagate values when its outputs are endogenous. Arbitrary finite
+  radial and time-live second-jet assignments have exact smooth realizations. No nonidentity value
+  law or solver residual is owned in the exact 18-source arena; ODE/PDE/GPU remain gated.
 
-G206--G255 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G256 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -93,14 +98,15 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   attachment. G253 confirms three typed chains rather than one tunable kernel. G254 then proves,
   in its frozen source universe, that those evaluators do not yet close a time-live history
   equation. G255 verifies this was not caused by a forgotten closure equation in G165--G254 and
-  narrows the missing object to primary-state value closure. History, population, source/detector,
-  caustic, and catalogue semantics remain open.
+  narrows the missing object to primary-state value closure. G256 then proves that the current
+  bounded scalar relations reconstruct but do not propagate those values. History, population,
+  source/detector, caustic, and catalogue semantics remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G254 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G256 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -110,8 +116,8 @@ G190--G198 remain formula-level regression or chosen-family controls. G199--G251
 evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock attachment
 contract; G253 compresses and audits the three resulting typed chains; G254 closes the attempted
 time-live solver gate negatively and source-boundedly; G255 confirms no closure owner was lost in
-the preceding 90-run arc. Next `MAP -> PONDER -> DERIVE` the primary UDT value-closure object and
-preregister whether it yields a finite native family, a global completed-relation value law, or a
-source-bounded negative requiring explicitly empirical reconstruction. Do not create the missing
-residual inside a numerical solve, fit an unrestricted history function, aggregate branches, cross
-caustics, insert `X_max`, or activate protected work.
+the preceding 90-run arc; G256 closes the bounded value-rank test negatively. Next
+`MAP -> PONDER -> DERIVE` one explicitly owned native cross-separation/cross-event value law, or
+make the honest scope decision that a separate empirical reconstruction layer is required. Do not
+create the missing residual inside a numerical solve, fit an unrestricted history function,
+aggregate branches, cross caustics, insert `X_max`, or activate protected work.

@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G255. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G256. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -59,10 +59,19 @@ metric, a fully valued rank-complete relation network can be that metric state, 
 Lorentz/coframe family is only a diagnostic configuration arena. The remaining gate is therefore
 the values of the primary UDT relation state, not selection among every imaginable metric.
 
+G256 is externally verified with caveats after an accepted dependency-free R2 replay. In its exact
+18-source bounded primary-state arena, every connected `N`-event scalar network retains `N-1`
+anchored values. The native angular pair is exactly invertible for the first two radial jets, with
+determinant `-exp(-4 phi)`, so the orchestra is genuinely interlocked—but those endogenous outputs
+reconstruct a supplied state rather than propagate its values. Arbitrary finite radial and
+time-live value/first/second jets have exact smooth Hermite realizations. No owned nonidentity value
+law or solver residual was found; ODE/PDE/GPU remain gated. This is source-bounded, not a future-law
+no-go and not permission to fit an unrestricted history function.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 238-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 239-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -70,7 +79,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 ### Observational boundary
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
-rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G255
+rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G256
 are outcome-blind geometry/typing, not a BOSS result. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
@@ -85,11 +94,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G255 closes the retrospective. Next `MAP -> PONDER -> DERIVE` only the primary UDT value-closure
-question: determine whether the founded metric/relation chain reduces depth/profile and time-live
-values to a finite native family, or owns a genuinely global completed-relation value law. A
-source-bounded negative would instead authorize only an explicitly empirical state reconstruction,
-not a claimed derivation. Do not repeat the 90-run audit, invent a residual inside a numerical solve,
-fit an unrestricted history function, or use an attachment to manufacture closure. No ODE/PDE or
-GPU history solve is authorized until the closure object's mathematical type is known.
+G256 closes the bounded value-rank test negatively: present equations interlock and reconstruct but
+do not propagate primary-state values. Next `MAP -> PONDER -> DERIVE` one explicit native
+cross-separation/cross-event value law from a clearly owned founding premise, or conclude that the
+current theory requires an explicitly empirical reconstruction layer. Do not repeat the 90-run
+audit, repackage angular outputs as residuals, invent a residual inside a numerical solve, fit an
+unrestricted history function, or use an attachment to manufacture closure. No ODE/PDE or GPU
+history solve is authorized without a nonidentity value law.
 <!-- STARTUP_CURRENT_END -->

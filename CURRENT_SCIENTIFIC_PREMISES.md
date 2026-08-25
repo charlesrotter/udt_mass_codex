@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G255 | State/network/coarea/scale/attachment; closure censuses | Primary value law; aggregation |
+| Pair-clock/state network | G215--G256 | State/network/coarea/scale/attachment; closure/value-rank censuses | Native value law; aggregation |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -52,6 +52,7 @@
 | G253 native-kernel compression | external after repair | Redshift/angular/scale attachment distinct; no registered scaffold input |
 | G254 time-live solver closure | external; no scientific repair | Evaluator; zero ambient residual; ODE/GPU gated |
 | G255 lost-closure recovery | external; no findings | No lost G165--G254 value law; next is primary-state closure |
+| G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -82,8 +83,8 @@ None selects completion/`X_max`.
   no P1/G116/G189/fit/outcome/`X_max`/protected construction input survives. History, source,
   detector, caustics, and completion stay open. G254 verifies that the current evaluator/reconstruction
   chain does not itself define an ambient time-live metric ODE or PDE. G255 verifies that no such
-  owned closure was lost in G165--G254 and reconciles the primary UDT state with the broader
-  diagnostic metric arena; neither result is a no-go for a future native value-closure law.
+  closure was lost in G165--G254. G256 adds that the bounded scalar network and angular interlock
+  reconstruct but do not propagate primary values; neither is a future-law no-go.
 
 ## Carrier, action, source, and matter
 
@@ -101,7 +102,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 freeze state
-under imported transfer; G242/G243 are bounded controls. G244--G255 use no outcome; BOSS, history,
+under imported transfer; G242/G243 are bounded controls. G244--G256 use no outcome; BOSS, history,
 source, and transfer stay open.
 
 ## Recurring prohibited promotions
@@ -116,7 +117,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 238-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 239-row authority; conflicts stop.
 
 Run:
 

@@ -63,7 +63,7 @@
   `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—no native datum owner;
   `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one clock attachment fixes `ell` conditionally;
   `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compression; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`—no owned history residual; reduced/GPU solve gated.
-- Retrospective closure: `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—90-package audit; no lost closure; next: primary-state values.
+- `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—no lost closure; `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, angular tomography, finite-jet realization, no propagation residual.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`
