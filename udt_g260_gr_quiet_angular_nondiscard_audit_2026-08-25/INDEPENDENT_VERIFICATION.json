@@ -1,0 +1,18 @@
+{
+  "arbitrary_metric_jet_cases": 700,
+  "assertions": 10044,
+  "balanced_trace_cases": 267,
+  "method": "independent exact-rational Christoffel-Ricci-Einstein reconstruction from metric two-jets at an equatorial event",
+  "production_imported": false,
+  "production_result_read": false,
+  "status": "PASS",
+  "vacuum_family_cases": 446,
+  "verified": [
+    "full four-dimensional sphere residuals",
+    "A_parallel+A_perp=E1-E0",
+    "nonzero cancelling angular amplitudes on f=1+C/r",
+    "isolated two-dimensional Einstein tensor is identically zero",
+    "flat-screen corruption rejects the spherical vacuum family",
+    "complete trace-balanced family f=1+a*r^2+b/r"
+  ]
+}

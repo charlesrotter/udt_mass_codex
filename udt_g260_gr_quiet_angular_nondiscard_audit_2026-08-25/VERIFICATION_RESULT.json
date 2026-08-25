@@ -1,0 +1,11 @@
+{
+  "external_review": "ACCEPT_WITH_REPAIRS",
+  "grade": "INTERNALLY_REPAIRED_LEAD__EXTERNAL_REPAIR_FOLLOWUP_REQUIRED",
+  "hostile_catches": 8,
+  "independent_assertions": 10044,
+  "landing": "FULL_METRIC_CANCELLATION_WITH_ACTIVE_ANGULAR_SECTOR",
+  "repair": "R1_dependency_free_production_replay",
+  "repair_status": "PASS_PENDING_EXTERNAL_FOLLOWUP",
+  "source_hashes": 11,
+  "status": "PASS"
+}

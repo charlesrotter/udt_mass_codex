@@ -1,0 +1,15 @@
+{
+  "caught": {
+    "call_all_trace_balanced_histories_vacuum": true,
+    "call_isolated_2d_equation_profile_selecting": true,
+    "call_vacuum_angular_modes_individually_zero": true,
+    "delete_pair_angular_gram": true,
+    "delete_sphere_curvature_term": true,
+    "drop_nonzero_C_guard": true,
+    "replace_angular_difference_identity_by_sum": true,
+    "widen_quiet_result_to_loud_global_law": true
+  },
+  "caught_count": 8,
+  "note": "The final scope catch is enforced by exact package wording; all other catches use explicit corrupted algebra.",
+  "status": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "bounded_scientific_landing_changed": false,
+  "dependency_free_production": {
+    "command": "python3 derive_angular_nondiscard.py",
+    "result_sha256": "ddc9b6f0ef357cf433d171472e51d49ca7c87352d5464ec4cf2d3349aa429248",
+    "standard_library_only": true,
+    "status": "PASS"
+  },
+  "external_fresh_review": "ACCEPT_WITH_REPAIRS",
+  "external_repair_followup": "OPEN",
+  "full_repository_tests": {
+    "collected": 164,
+    "expected_xfail": 1,
+    "status": "PASS"
+  },
+  "hostile_catches": 8,
+  "independent_assertions": 10044,
+  "premise_registry_verifier": "PASS_242_ROWS",
+  "repair": "R1_dependency_free_production_replay",
+  "status": "PASS"
+}

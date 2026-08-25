@@ -1,0 +1,7 @@
+control	input	full_result	corrupted_or_reduced_result	classification
+arbitrary_profile	positive smooth f	E0=rfprime+f-1; E1=rfprime+r2fdoubleprime/2	isolated 2D Einstein equals zero	RADIAL_ONLY_VACUOUS
+flat_screen	f=1+C/r	full S2 E0=0	k0 E0=1	ANGULAR_CURVATURE_INDISPENSABLE
+nonflat_vacuum	f=1+C/r; C nonzero	Aparallel=3C/(2r); Aperp=-3C/(2r)	claim both zero	ACTIVE_CANCELLED_NOT_SILENT
+trace_balance	Asum=0	f=1+a*r2+b/r	claim all members vacuum	BALANCE_LARGER_THAN_VACUUM
+vacuum_subfamily	a=0	E0=E1=0; f=1+b/r	none	BOUNDED_GR_QUIET_FAMILY
+nonradial_pair	f=1/2; r=2; angular slopes 1/10 and 1/5	P00=1/25; P11=4/25	P deleted	PAIR_ANGULAR_GRAM_ACTIVE

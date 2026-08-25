@@ -1,0 +1,66 @@
+{
+  "angular_interlock": {
+    "A_parallel": "r*(r*Derivative(f(r), (r, 2)) - Derivative(f(r), r))/2",
+    "A_perp": "(r*Derivative(f(r), r) - 2*f(r) + 2)/2",
+    "A_sum": "(r**2*Derivative(f(r), (r, 2)) - 2*f(r) + 2)/2",
+    "identity": "A_parallel+A_perp=E1-E0"
+  },
+  "balanced_angular_trace_family": {
+    "E0": "3*a*r^2",
+    "E1": "3*a*r^2",
+    "general_local_f": "1+a*r^2+b/r",
+    "vacuum_requires": "a=0"
+  },
+  "checks": {
+    "angular_identity": true,
+    "balanced_trace_family_classified_without_filter": true,
+    "direct_full_4d_tensor": true,
+    "flat_screen_corrupts_vacuum_family": true,
+    "nonradial_pair_angular_gram_retained": true,
+    "two_dimensional_base_vacuous": true,
+    "vacuum_angular_modes_individually_nonzero": true,
+    "vacuum_full_tensor_zero": true
+  },
+  "corruption_controls": {
+    "flat_k0_E0": "r*Derivative(f(r), r) + f(r)",
+    "flat_k0_on_spherical_vacuum_family": "1",
+    "isolated_2d_Einstein_identically_zero": true
+  },
+  "full_sphere": {
+    "E0": "r*Derivative(f(r), r) + f(r) - 1",
+    "E1": "r*(r*Derivative(f(r), (r, 2)) + 2*Derivative(f(r), r))/2",
+    "Einstein_mixed_diagonal": [
+      "(r*Derivative(f(r), r) + f(r) - 1)/r**2",
+      "(r*Derivative(f(r), r) + f(r) - 1)/r**2",
+      "(r*Derivative(f(r), (r, 2)) + 2*Derivative(f(r), r))/(2*r)",
+      "(r*Derivative(f(r), (r, 2)) + 2*Derivative(f(r), r))/(2*r)"
+    ],
+    "Ricci_scalar": "-(r**2*Derivative(f(r), (r, 2)) + 4*r*Derivative(f(r), r) + 2*f(r) - 2)/r**2"
+  },
+  "landing": "FULL_METRIC_CANCELLATION_WITH_ACTIVE_ANGULAR_SECTOR",
+  "mass_aspect": {
+    "A_parallel": "-(r**2*Derivative(mu(r), (r, 2)) - 3*r*Derivative(mu(r), r) + 3*mu(r))/r",
+    "A_perp": "-(r*Derivative(mu(r), r) - 3*mu(r))/r",
+    "A_sum": "-r*Derivative(mu(r), (r, 2)) + 2*Derivative(mu(r), r)",
+    "E0": "-2*Derivative(mu(r), r)",
+    "E1": "-r*Derivative(mu(r), (r, 2))"
+  },
+  "maximum_conclusion": "Bounded quiet-regime non-discard theorem only; no UDT parent equation, source/history, or loud-regime extension selected.",
+  "nonradial_pair_witness": {
+    "angular_gram_00": "1/25",
+    "angular_gram_11": "4/25",
+    "h00": "-23/50",
+    "h11": "54/25",
+    "regular_lorentzian": true
+  },
+  "scope": "primary_static_spherical_positive_f_GR_quiet_comparison_only",
+  "status": "PASS",
+  "vacuum_family": {
+    "A_parallel": "3*C/(2*r)",
+    "A_perp": "-3*C/(2*r)",
+    "A_sum": "0",
+    "f": "1+C/r",
+    "full_Einstein": "0",
+    "full_Ricci": "0"
+  }
+}
