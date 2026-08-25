@@ -48,4 +48,8 @@ empirical and global questions.
 4. premises audited: **PASS**, subject to the explicit supplied-history and supplied-attachment
    caveats.
 
-The verdict is therefore `VERIFIED-WITH-CAVEATS`, not canon and not a physical-history selection.
+The original internal verdict was `VERIFIED-WITH-CAVEATS`, not canon and not a physical-history
+selection. Fresh external review retained the scientific landing but returned
+`ACCEPT_WITH_REPAIRS`: the original sealed intake could not replay three gates because the
+verifiers did not resolve the lawful `sources/` relocation. Until the preregistered repair is
+completed and externally accepted, gates 3 and 4 are failed as delivered.
