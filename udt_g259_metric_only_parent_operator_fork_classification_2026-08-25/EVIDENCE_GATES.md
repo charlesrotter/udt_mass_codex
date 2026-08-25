@@ -14,8 +14,8 @@
 8. **Dependency-free replay:** PASS; 139 exact assertions using only the Python standard library.
 9. **No scaffolding:** PASS IN SCOPE; no observational values, fit, profile, regime switch,
    `X_max`, source, transfer, GPU, or protected input.
-10. **External adversarial review:** `ACCEPT_WITH_REPAIRS`; R1--R3 implemented, repair-only
-    follow-up open.
+10. **External adversarial review:** `ACCEPT_WITH_REPAIRS`; R1--R3 implemented and the sealed
+    repair-only follow-up returned `ACCEPT_REPAIRS` after all registered replays passed.
 
 Current grade:
-`EXTERNALLY_REVIEWED_WITH_CAVEATS__ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN`.
+`EXTERNALLY_REVIEWED_WITH_CAVEATS__ACCEPT_WITH_REPAIRS__R1_R2_R3_ACCEPTED`.

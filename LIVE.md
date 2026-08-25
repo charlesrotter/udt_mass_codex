@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G258. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G259. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -72,11 +72,12 @@ vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neit
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
 G258 accepts twelve conditional SNe metric knots up to one scale; transfer and history remain open.
-G259's fresh gpt-5.4 review returns `ACCEPT_WITH_REPAIRS`; R1--R3 are implemented and repair-only
-follow-up is open. A faithful theorem map keeps the natural symmetric rank-two/local second-order/
-identity-divergence-free class unowned by F1--F4/W1/W3. Flat quiet vacuum leaves the Einstein zero
-set only for a nonzero operator; `a=0` accepts every metric. A fourth-order counterfamily retains
-Ricci-flat histories and needs a new scale. Retaining Einstein moves freedom to source/history.
+G259's fresh gpt-5.4 review returned `ACCEPT_WITH_REPAIRS`; the sealed repair-only follow-up now
+returns `ACCEPT_REPAIRS` for R1--R3 with the scientific landing unchanged. A faithful theorem map
+keeps the natural symmetric rank-two/local second-order/identity-divergence-free class unowned by
+F1--F4/W1/W3. Flat quiet vacuum leaves the Einstein zero set only for a nonzero operator; `a=0`
+accepts every metric. A fourth-order counterfamily retains Ricci-flat histories and needs a new
+scale. Retaining Einstein moves freedom to source/history.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
@@ -104,8 +105,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G259 narrows the parent-law search to a real architecture fork. Next obtain repair-only acceptance,
-then decide whether UDT provisionally retains GR local metric dynamics and seeks a native
+G259 narrows the parent-law search to a real architecture fork and its repairs are externally
+accepted. Next decide whether UDT provisionally retains GR-local metric dynamics and seeks a native
 source/population history law, or explicitly owns structure outside the conservative operator class.
 Do not call the conditional theorem a UDT derivation, choose a favorite extension, fit a regime
 window, or invent a numerical residual. No ODE/PDE or GPU history solve is authorized yet.

@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-25
 
-G166--G258 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G259 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -44,10 +44,11 @@ R1 replaces synthesized premise-row deletion with exact sealed or preregistratio
 its strict seal catches a one-byte mutation and external repair-only follow-up accepts R1 with the
 scientific landing unchanged. Transfer, interpolation, derivatives, and covariant history remain open.
 
-G259's fresh gpt-5.4 review returns `ACCEPT_WITH_REPAIRS`; R1--R3 are implemented and follow-up is
-open. The faithful theorem map keeps the conservative operator class unowned. Flat quiet vacuum
-leaves the Einstein zero set only for a nonzero operator; the zero equation accepts every metric.
-The fourth-order counterfamily and source/history fork remain unchanged and unselected.
+G259's fresh gpt-5.4 review returned `ACCEPT_WITH_REPAIRS`; the sealed repair-only follow-up returns
+`ACCEPT_REPAIRS` for R1--R3 with the scientific landing unchanged. The faithful theorem map keeps
+the conservative operator class unowned. Flat quiet vacuum leaves the Einstein zero set only for a
+nonzero operator; the zero equation accepts every metric. The fourth-order counterfamily and
+source/history fork remain unchanged and unselected.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
@@ -69,8 +70,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next obtain G259 repair-only acceptance, then decide between GR-local metric dynamics plus native
-source/population history and an explicitly new outside-class metric principle. Do not promote the
-conditional classification to a UDT field equation or invent a solver residual. The 242-row registry controls.
+Next decide between GR-local metric dynamics plus native source/population history and an explicitly
+new outside-class metric principle. Do not promote this conditional classification to a UDT field
+equation or invent a solver residual. The 242-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

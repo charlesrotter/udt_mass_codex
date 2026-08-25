@@ -148,7 +148,7 @@ def main() -> None:
         "independent_assertions": independent["assertions"],
         "hostile_catches": catches["caught_count"],
         "dependency_free_assertions": dependency_free["assertions"],
-        "external_review": "ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN",
+        "external_review": "ACCEPT_WITH_REPAIRS__R1_R2_R3_ACCEPTED",
     }
     (ROOT / "VERIFICATION_RESULT.json").write_text(
         json.dumps(verification, indent=2, sort_keys=True) + "\n"

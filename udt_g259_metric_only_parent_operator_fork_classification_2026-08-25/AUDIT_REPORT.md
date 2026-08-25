@@ -2,7 +2,7 @@
 
 Date: 2026-08-25
 
-Grade: `EXTERNALLY_REVIEWED_WITH_CAVEATS__ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN`
+Grade: `EXTERNALLY_REVIEWED_WITH_CAVEATS__ACCEPT_WITH_REPAIRS__R1_R2_R3_ACCEPTED`
 
 ## Landing
 
@@ -70,8 +70,9 @@ dynamics does not complete UDT until the source/population history is owned.
 
 ## Caveats
 
-- fresh external review returned `ACCEPT_WITH_REPAIRS`; R1--R3 are implemented and a repair-only
-  follow-up remains open;
+- fresh external review returned `ACCEPT_WITH_REPAIRS`; R1--R3 were implemented, and the sealed
+  repair-only follow-up returned `ACCEPT_REPAIRS` after reproducing the 111- and 139-assertion
+  replays and all 11 catches;
 - Lovelock-class membership is a candidate premise, not founded UDT;
 - flat quiet inclusion removes the cosmological term only in this bounded vacuum comparison;
 - source coupling, matter, transfer, time-live/nonspherical history, and global relations remain

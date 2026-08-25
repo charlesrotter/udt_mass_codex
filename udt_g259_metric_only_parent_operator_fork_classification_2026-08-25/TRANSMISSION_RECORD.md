@@ -32,3 +32,24 @@ packages.
 The full final adjudication is preserved in `EXTERNAL_REVIEW_GPT54.md`. The review identified
 three bounded repairs: local theorem-scope auditability, explicit exclusion of the zero operator,
 and a dependency-free replay path. It did not change the scientific question or maximum conclusion.
+
+## Repair-only follow-up
+
+- sealed path: `/tmp/udt_g259_review_mr8nh45a`
+- file count: `42` (`41` manifest payloads plus `REVIEW_MANIFEST.tsv`)
+- `REVIEW_SCOPE.json` SHA-256:
+  `d7489e46fe8aba77ca09529078d961cba686b87e64a9936a327072919caa4102`
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `2f4dc0bf8a438ca0d2e3ab4019c95f4bf34b07f6c2b7a7d21617ed9cd3933afc`
+- reviewer: external Codex `gpt-5.4`, repair-only context
+- access: sealed intake and authentication credential read-only; writable ephemeral copy/runtime;
+  repository and protected packages not mounted; web disabled
+- process exit: `0`
+- scope and manifest hashes: matched
+- payload validation: `41/41` hashes and byte counts matched
+- registered replays: PASS (`139` dependency-free assertions, `111` independent assertions,
+  package integrity and `11` catches)
+- disposition: `ACCEPT_REPAIRS`
+
+The complete bounded adjudication is preserved in `EXTERNAL_REPAIR_FOLLOWUP_GPT54.md`. It accepts
+R1--R3 and explicitly retains the unchanged conditional scientific landing.

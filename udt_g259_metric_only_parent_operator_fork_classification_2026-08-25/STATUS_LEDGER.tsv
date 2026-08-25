@@ -13,4 +13,4 @@ higher_order_scale	OPEN	ell not formed by c_E and G_obs alone
 G258_operator_selection	NOT_DERIVED	values lack derivatives and native source residual
 metric_dynamics_architecture	OPEN	GR-local versus explicitly modified operator
 external_review	ACCEPT_WITH_REPAIRS	R1 theorem scope R2 zero operator R3 replay portability
-repair_followup	OPEN	R1-R3 implemented and await repair-only review
+repair_followup	ACCEPT_REPAIRS	R1-R3 independently accepted with scientific landing unchanged

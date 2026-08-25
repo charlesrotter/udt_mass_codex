@@ -15,6 +15,7 @@
   },
   "current_premise_registry_verifier": "PASS",
   "dependency_free_assertions": 139,
+  "external_repair_followup": "ACCEPT_REPAIRS",
   "full_repository_tests": {
     "collected": 164,
     "command": "python3 -m pytest tests/",

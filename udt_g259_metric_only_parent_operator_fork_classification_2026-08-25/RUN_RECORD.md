@@ -30,7 +30,9 @@ python3 verify_package.py
 - protected packages: not read.
 
 Fresh external review returned `ACCEPT_WITH_REPAIRS`. The theorem-scope, zero-operator, and
-dependency-free-replay repairs are implemented; repair-only follow-up remains open.
+dependency-free-replay repairs were implemented. The sealed repair-only follow-up returned
+`ACCEPT_REPAIRS` after reproducing the 111-assertion independent replay, 139-assertion
+dependency-free replay, and package integrity with all 11 catches.
 
 ## Repair catch proofs
 

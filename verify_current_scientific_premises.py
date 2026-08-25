@@ -233,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G258",
+            "G166--G259",
             "G197",
             "G215",
             "G216",
@@ -419,7 +419,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G258",
+            "G166--G259",
             "G197",
             "G198",
             "G199",
@@ -7040,10 +7040,10 @@ def main() -> None:
         "111_INDEPENDENT_EXACT_RATIONAL_ASSERTIONS",
         "ELEVEN_OF_ELEVEN_HOSTILE_CATCHES",
         "139_DEPENDENCY_FREE_EXACT_ASSERTIONS",
-        "R1_FAITHFUL_THEOREM_SCOPE_AND_HYPOTHESIS_MAP_IMPLEMENTED",
-        "R2_ZERO_OPERATOR_EXPLICITLY_EXCLUDED",
-        "R3_DEPENDENCY_FREE_REPLAY_IMPLEMENTED",
-        "REPAIR_ONLY_FOLLOWUP_OPEN",
+        "R1_FAITHFUL_THEOREM_SCOPE_AND_HYPOTHESIS_MAP_IMPLEMENTED_AND_ACCEPTED",
+        "R2_ZERO_OPERATOR_EXPLICITLY_EXCLUDED_AND_ACCEPTED",
+        "R3_DEPENDENCY_FREE_REPLAY_IMPLEMENTED_AND_ACCEPTED",
+        "REPAIR_ONLY_FOLLOWUP_ACCEPT_REPAIRS",
         "ZERO_OBSERVATIONAL_VALUES_FIT_COEFFICIENTS_GPU_XMAX_SOURCE_TRANSFER_OR_PROTECTED_INPUT",
     ):
         require(guard in by_id["G259"]["current_status"], f"G259 guard absent: {guard}")
@@ -7063,6 +7063,7 @@ def main() -> None:
         "EXACT_DERIVATION.md",
         "LOVELOCK_NAVARRO_SCOPE.md",
         "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
         "TRANSMISSION_RECORD.md",
         "INDEPENDENT_VERIFICATION.json",
         "DEPENDENCY_FREE_REPLAY_RESULT.json",
@@ -7153,13 +7154,19 @@ def main() -> None:
         and g259_verification["candidate_classes"] == 6
         and g259_verification["dependency_free_assertions"] == 139
         and g259_verification["external_review"]
-        == "ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN",
+        == "ACCEPT_WITH_REPAIRS__R1_R2_R3_ACCEPTED",
         "G259 package certification changed",
     )
     require(
         "Disposition: `ACCEPT_WITH_REPAIRS`"
         in (g259 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
         "G259 external review disposition absent",
+    )
+    require(
+        "ACCEPT_REPAIRS" in (g259 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        and "The bounded scientific landing is unchanged"
+        in (g259 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "G259 repair-only acceptance absent",
     )
     require(
         "does not say that UDT's physical parent operator belongs to this class"

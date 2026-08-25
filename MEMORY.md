@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G258: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G259: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -29,9 +29,10 @@ G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` ancho
 G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
 G258 retains twelve conditional SNe knots up to one scale; follow-up accepts R1; native transfer
 and the continuous law remain open.
-G259's external review accepts with repairs; R1--R3 are implemented. The conservative class leaves
-the Einstein vacuum zero set only for a nonzero operator, but UDT does not derive the class.
-Outside-class alternatives need new structure; keeping Einstein leaves source/history open.
+G259's external review accepts with repairs; the repair-only follow-up accepts R1--R3 with the
+landing unchanged. The conservative class leaves the Einstein vacuum zero set only for a nonzero
+operator, but UDT does not derive the class. Outside-class alternatives need new structure;
+keeping Einstein leaves source/history open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -60,8 +61,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next obtain G259 repair-only acceptance, then choose whether to investigate GR-local dynamics plus native
-source/history or an explicitly new outside-class metric premise. Do not promote the conditional
-classification, fit a switch, or invent a solver residual.
+Next choose whether to investigate GR-local dynamics plus native source/history or an explicitly new
+outside-class metric premise. Do not promote this conditional classification, fit a switch, or
+invent a solver residual.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.
