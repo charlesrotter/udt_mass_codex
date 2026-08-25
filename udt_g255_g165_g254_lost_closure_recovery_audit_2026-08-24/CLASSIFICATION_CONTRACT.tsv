@@ -1,0 +1,15 @@
+class_id	class_name	can_close_history	description
+C01	FOUNDING_DERIVED_RELATION	false	derived algebra on supplied ordered depth or another already supplied typed object
+C02	WORKING_PHYSICAL_PREMISE	false	active provisional physical clarification that is not itself an ambient history equation
+C03	DEFINITION_OR_READOUT	false	defines pullback decomposition state calibration observable or terminal readout
+C04	ALGEBRAIC_OR_DIFFERENTIAL_IDENTITY	false	holds for every regular object of the declared type
+C05	GEOMETRIC_EVALUATOR_OR_PROPAGATOR	false	computes connection curvature null Jacobi phase transport or another response from supplied geometry
+C06	RECONSTRUCTION_OR_FAITHFULNESS	false	reconstructs supplied values or proves a data network faithful without generating values
+C07	REGULARITY_BOUNDARY_OR_DOMAIN_FILTER	false	restricts domain signature smoothness chart branch caustic or boundary behavior without closing evolution
+C08	CHOSEN_FAMILY_CONTROL_OR_ANSATZ	false	free and explored or habit-pinned family control profile or special realization
+C09	QUERY_POPULATION_OR_CALIBRATION_INPUT	false	supplied observer event branch screen orientation population attachment or calibration
+C10	OBSERVATIONAL_RECONSTRUCTION_OR_ATTACHMENT	false	uses observed state transfer fit or dimensional attachment and is not a native history equation
+C11	META_AUDIT_SUPERSESSION_OR_NEGATIVE	false	provenance map whiteboard supersession correction or bounded nonselection result
+C12	GENUINE_NONIDENTITY_LOCAL_METRIC_CONDITION	true	natural independently owned local invariant equation that rejects a regular metric history
+C13	GENUINE_NONIDENTITY_GLOBAL_RELATION_LAW	true	natural independently owned nonlocal completed-relation condition that constrains metric values
+C14	UNRESOLVED_CANDIDATE_REQUIRES_SEPARATE_DERIVATION	false	plausible closure candidate whose ownership independence covariance or nonidentity is not yet proved
