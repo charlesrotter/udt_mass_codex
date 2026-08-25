@@ -71,15 +71,17 @@ pair readout and native G201 amplitudes `A_parallel=-3u/2`, `A_perp=+3u/2`. GR o
 vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neither derives GR,
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
-G258's external review accepts the bounded science. Direct redshift, G119 area, and explicit G237
-transfer reconstruct twelve conditional SNe metric knots up to one scale. External repair-only
-follow-up accepts R1's exact-source replay with the scientific landing unchanged. Native transfer
-and continuous history remain open.
+G258 accepts twelve conditional SNe metric knots up to one scale; transfer and history remain open.
+G259 is internally verified with caveats; external review is open. A newly assumed natural symmetric
+rank-two, local second-order, identity-divergence-free metric-operator class plus flat quiet vacuum
+leaves the Einstein vacuum zero set. F1--F4/W1/W3 do not derive that class. A fourth-order
+counterfamily retains Ricci-flat histories and needs a new scale. Retaining Einstein instead moves
+the free function to source/mass-aspect history. G259 selects neither fork.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 241-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 242-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -102,10 +104,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G258 supplies macro value anchors but not the missing parent law. Next derive the smallest
-covariant UDT parent-operator requirements whose extra content vanishes on the GR branch and can
-depart only through the same reciprocal metric machinery at extremes. Do not choose a favorite
-extension, insert a fitted regime window, identify quietness with zero geometry, repeat the 90-run
-audit, repackage angular outputs as residuals, or invent a numerical residual. No ODE/PDE or GPU
-history solve is authorized until such a nonidentity operator is explicitly owned.
+G259 narrows the parent-law search to a real architecture fork. Next obtain fresh adversarial review,
+then decide whether UDT provisionally retains GR local metric dynamics and seeks a native
+source/population history law, or explicitly owns structure outside the conservative operator class.
+Do not call the conditional theorem a UDT derivation, choose a favorite extension, fit a regime
+window, or invent a numerical residual. No ODE/PDE or GPU history solve is authorized yet.
 <!-- STARTUP_CURRENT_END -->

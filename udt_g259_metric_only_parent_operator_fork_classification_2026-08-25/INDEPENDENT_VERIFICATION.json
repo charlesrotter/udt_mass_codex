@@ -1,0 +1,14 @@
+{
+  "assertions": 111,
+  "checks": {
+    "cE_Gobs_no_length": true,
+    "complete_vacuum_family_substitution": true,
+    "higher_order_counteroperator_nonidentity": true,
+    "mass_aspect_identity": true,
+    "spherical_residual_dependency": true,
+    "twelve_values_leave_derivative_freedom": true
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "status": "PASS"
+}

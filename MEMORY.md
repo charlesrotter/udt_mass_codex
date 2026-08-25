@@ -8,17 +8,14 @@ G166--G258: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
-G190--G198 are formula-level regression/off-ray controls. G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214 cover direction, quiet,
-completion, channels, basis, state, rank, and descent.
+G190--G198 are formula-level regression/off-ray controls; G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214 cover quiet, completion, channel, state, rank, and descent.
 
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close clock, correspondence, null plane, and carry. G225 is screen transport; G226 joins
 full phase. History stays open.
 
-G227/G228/G229/G230/G231 close curvature ranks `20/60/126`, jets, and Cartan evaluation. G232/G233 exclude
-finite-order closure; G234 leaves a global law; G235 reconstructs but does not select.
+G227/G228/G229/G230/G231 close curvature ranks, jets, and Cartan evaluation. G232/G233/G234/G235 reconstruct but do not select.
 
-G236/G237/G238/G239/G240 are transfer-conditional observational controls. G241/G242/G243 reject
-bounded carriers/zero tide while retaining direct `phi=log(1+z)`. G244/G245/G246/G247/G248 derive
+G236/G237/G238/G239/G240 are transfer controls. G241/G242/G243 retain direct `phi=log(1+z)`. G244/G245/G246/G247/G248 derive
 branchwise sky/cone/incidence/measure geometry, not population or aggregation. G249/G250/G251/G252
 type one remaining scale and its supplied clock attachment; no value/history is chosen. G253
 externally retains three chains—direct redshift, angular sibling, downstream units—with no active
@@ -26,13 +23,15 @@ P1/G116/G189/fit/outcome/`X_max`/protected construction input.
 
 G254 finds no ambient time-live residual in the frozen evaluator chain; ODE/PDE/GPU solves stay gated.
 
-G255 finds no lost owned closure equation across G165--G254. It reconciles primary state with the
-diagnostic arena. The open object is primary-state value closure.
+G255 finds no lost closure across G165--G254. The open object is primary-state value closure.
 
 G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular response reconstructs two jets without propagation; no residual owns a solve.
 G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
 G258 retains twelve conditional SNe knots up to one scale; follow-up accepts R1; native transfer
 and the continuous law remain open.
+G259 internally classifies the parent fork: a newly assumed conservative four-dimensional
+metric-operator class leaves the Einstein vacuum zero set, but UDT does not derive the class.
+Outside-class alternatives need explicit new structure; keeping Einstein leaves source/history open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -61,9 +60,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next `MAP -> PONDER -> DERIVE` the covariant
-UDT parent-operator requirements whose extra content vanishes on the GR branch and activates
-natively at extremes. Do not fit a regime switch, equate quietness with zero geometry, invent a
-solver residual, or use observations to fill an unrestricted history function.
+Next externally review G259, then choose whether to investigate GR-local dynamics plus native
+source/history or an explicitly new outside-class metric premise. Do not promote the conditional
+classification, fit a switch, or invent a solver residual.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

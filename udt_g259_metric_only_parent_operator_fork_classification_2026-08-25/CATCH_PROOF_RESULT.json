@@ -1,0 +1,16 @@
+{
+  "catches": {
+    "Einstein_plus_R2_requires_length_squared": true,
+    "G258_values_are_not_an_operator_residual": true,
+    "Lovelock_class_assumptions_are_not_founded_UDT_premises": true,
+    "R2_Euler_tensor_is_not_second_metric_order": true,
+    "angular_residual_not_independent_in_primary_slice": true,
+    "cE_Gobs_do_not_form_length": true,
+    "cosmological_term_not_removed_without_flat_quiet": true,
+    "value_knots_do_not_fix_first_derivatives": true,
+    "wrong_mass_aspect_sign": true,
+    "wrong_residual_dependence_sign": true
+  },
+  "caught_count": 10,
+  "status": "PASS"
+}

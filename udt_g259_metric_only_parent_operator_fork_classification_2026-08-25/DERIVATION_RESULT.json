@@ -1,0 +1,64 @@
+{
+  "G258_value_gate": {
+    "continuous_derivatives_or_source_required": true,
+    "node_count": 12,
+    "value_preserving_derivative_changing_assertions": 24,
+    "values_select_operator": false
+  },
+  "dimension_audit": {
+    "cE_and_Gobs_form_length": false,
+    "mass_or_density_attachment_needed_for_length": true
+  },
+  "fit_coefficients": 0,
+  "gpu_used": false,
+  "higher_order_counterfamily": {
+    "H_R2_00_at_t0": "-72*b**2",
+    "H_R2_space_at_t0": "-216*b**2",
+    "identity_divergence_residual": "0",
+    "lambda_values_registered": [
+      1,
+      2
+    ],
+    "operator": "Einstein_ab + lambda ell^2 H_R2_ab",
+    "requires_new_length_squared_coefficient": true,
+    "retains_every_Ricci_flat_metric": true
+  },
+  "landing": "CONDITIONAL_LOVELOCK_CLASS_SELECTS_EINSTEIN_ZERO_SET__CLASS_ASSUMPTIONS_NOT_UDT_DERIVED__EXTREME_METRIC_DEPARTURE_REQUIRES_EXPLICIT_NEW_STRUCTURE__SOURCE_HISTORY_REMAINS_OPEN",
+  "lovelock_method": {
+    "assumptions_owned_by_F1_F4_W1_W3": false,
+    "basis": [
+      "metric",
+      "Einstein"
+    ],
+    "basis_dimension": 2,
+    "dimension": 4,
+    "flat_quiet_removes_metric_term": true,
+    "source_normalization_still_requires_attachment": true,
+    "vacuum_zero_set_after_flat_quiet": "Einstein"
+  },
+  "metric_only_reciprocal_scalar": {
+    "general_4d_without_pair_or_split": false,
+    "spherical_branch": "phi=-1/2 log(norm(grad areal_radius)^2)"
+  },
+  "mode": "METRIC_LED_OBSERVING_OPERATOR_CLASSIFICATION",
+  "observational_values_used": 0,
+  "open": [
+    "ownership of locality second order rank2 and identity divergence freedom",
+    "metric-dynamics GR fork versus modified parent operator",
+    "source and matter law",
+    "native transfer",
+    "continuous time-live nonspherical history",
+    "global relation population and completion",
+    "X_max"
+  ],
+  "protected_inputs_used": 0,
+  "spherical_replay": {
+    "E0": "r*Derivative(f(r), r) + f(r) - 1",
+    "E1": "r**2*Derivative(f(r), (r, 2))/2 + r*Derivative(f(r), r)",
+    "dependence": "0",
+    "mass_aspect_E0": "-2*Derivative(mu(r), r)",
+    "mass_aspect_E1": "-r*Derivative(mu(r), (r, 2))",
+    "vacuum_family": "f=1+C/r"
+  },
+  "status": "PASS"
+}

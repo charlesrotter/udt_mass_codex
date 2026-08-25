@@ -8,8 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query task-relevant registry rows and evidence.
 ## Active relational frontier
-- Conditional complete evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`
-- Native pair descent: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
+- Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Full spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Completed-pair working premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold deletion and review: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
@@ -44,10 +43,8 @@
 - Clock-arrow bridge: `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`; `udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`
 - Covariant time-live null tile: `udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/`
 - Null chord/pair-plane join: `udt_g221_complete_coframe_null_clock_chord_2026-08-22/`; `udt_g222_null_incidence_pair_plane_screen_join_2026-08-22/`
-- Null-ribbon overlap: `udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`
-- Shared-event vertical scalar carry: `udt_g224_shared_event_vertical_carry_2026-08-22/`
-- Normal-screen carry/holonomy: `udt_g225_shared_event_normal_screen_carry_2026-08-22/`
-- Null-chain phase assembly: `udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/`
+- Null-ribbon/scalar carry: `udt_g223_null_ribbon_density_overlap_carry_2026-08-22/`; `udt_g224_shared_event_vertical_carry_2026-08-22/`
+- Screen/phase: `udt_g225_shared_event_normal_screen_carry_2026-08-22/`; `udt_g226_null_chain_conformal_symplectic_assembly_2026-08-22/`
 - Curvature/realization: `udt_g227_same_event_curvature_tomography_2026-08-22/`;
   `udt_g228_neighboring_event_curvature_first_variation_2026-08-23/`; `udt_g229_local_lorentz_metric_3jet_realization_2026-08-23/`;
   `udt_g230_first_nonlinear_overlap_obstruction_2026-08-23/`; `udt_g231_cartan_regional_realization_bridge_2026-08-23/`
@@ -63,8 +60,11 @@
   `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—no native datum owner;
   `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one clock attachment fixes `ell` conditionally;
   `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compression; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`—no owned history residual; reduced/GPU solve gated.
-- `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—no lost closure; `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, no propagation residual;
-  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—exact GR embedding; `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale.
+- `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—no lost closure;
+  `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, no propagation residual;
+  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—exact GR embedding;
+  `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale;
+  `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; external review open.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
