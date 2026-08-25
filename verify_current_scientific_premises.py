@@ -7061,6 +7061,7 @@ def main() -> None:
         "MAP.md",
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
+        "REVIEW_REQUEST.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -7069,6 +7070,7 @@ def main() -> None:
         "run_catch_proofs.py",
         "verify_independent.py",
         "verify_package.py",
+        "build_review_intake.py",
     ):
         require((g259 / name).is_file(), f"G259 evidence missing: {name}")
     g259_result = json.loads((g259 / "DERIVATION_RESULT.json").read_text())

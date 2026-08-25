@@ -35,6 +35,7 @@ def main() -> None:
         "STATUS_LEDGER.tsv",
         "EVIDENCE_GATES.md",
         "RUN_RECORD.md",
+        "REVIEW_REQUEST.md",
         "CANDIDATE_CLASS_ATLAS.tsv",
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
@@ -43,6 +44,7 @@ def main() -> None:
         "verify_independent.py",
         "run_catch_proofs.py",
         "verify_package.py",
+        "build_review_intake.py",
     )
     missing = [name for name in required if not (ROOT / name).is_file()]
     assert not missing, missing
