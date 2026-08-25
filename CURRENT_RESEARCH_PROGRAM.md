@@ -70,22 +70,15 @@ Phi=-log(T)=-1/2 log(-h00)
   history. `c_E` only converts time to length. Record, value, and history remain open.
 - G253 externally compresses the spine into direct conditional redshift, a metric/Jacobi angular
   sibling, and optional downstream units. No P1/G116/G189/fit/outcome/`X_max`/protected input survives.
-- G254 externally verifies, with no scientific repair, that the exact current pullback, completion,
-  null/Jacobi, Cartan, and network relations do not define an ambient metric-history residual. Its
-  smooth curvature-separated counterfamily survives the same completed-pair algebra. Reduced and
-  GPU history solves are therefore not yet mathematically defined.
-- G255 externally verifies, with no findings, an exact 90-package retrospective of G165--G254. No
-  lost owned local metric condition, global relation value law, or unresolved closure candidate was
-  found. G166/G212/G254 reconcile once the primary UDT state is separated from the broader
-  diagnostic configuration arena. The next object is primary-state value closure, not another
-  search through arbitrary metrics.
-- G256 externally verifies with caveats after accepted dependency-free R2 replay that connected
-  scalar pair networks retain `N-1` anchored values. The exact angular map reconstructs the first
-  two radial jets but does not propagate values when its outputs are endogenous. Arbitrary finite
-  radial and time-live second-jet assignments have exact smooth realizations. No nonidentity value
-  law or solver residual is owned in the exact 18-source arena; ODE/PDE/GPU remain gated.
+- G254 finds no ambient history residual in the evaluator chain; its counterfamily gates ODE/PDE/GPU.
+- G255 finds no lost local or global value law across G165--G254 and reconciles the primary state
+  with the broader diagnostic arena. G256 leaves `N-1` anchored values; angular tomography and
+  finite-jet realization reconstruct but do not propagate them.
+- G257 adds W3 provisionally as `WORKING/POSIT`. Imported vacuum GR yields the exact bounded primary
+  family `f=1+C/r`, matched pair readout, and G201 amplitudes `(-3u/2,+3u/2)`. Quietness is GR balance,
+  not zero geometry. External review and the covariant UDT parent law remain open.
 
-G206--G256 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G257 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -116,8 +109,10 @@ G190--G198 remain formula-level regression or chosen-family controls. G199--G251
 evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock attachment
 contract; G253 compresses and audits the three resulting typed chains; G254 closes the attempted
 time-live solver gate negatively and source-boundedly; G255 confirms no closure owner was lost in
-the preceding 90-run arc; G256 closes the bounded value-rank test negatively. Next
-`MAP -> PONDER -> DERIVE` one explicitly owned native cross-separation/cross-event value law, or
-make the honest scope decision that a separate empirical reconstruction layer is required. Do not
-create the missing residual inside a numerical solve, fit an unrestricted history function,
-aggregate branches, cross caustics, insert `X_max`, or activate protected work.
+the preceding 90-run arc; G256 closes the bounded value-rank test negatively; G257 then identifies
+the exact GR comparison rail already inside the primary metric. First obtain fresh external review.
+If retained, `MAP -> PONDER -> DERIVE` the covariant UDT parent-operator requirements whose extra
+content vanishes on that GR branch and activates natively at extremes. Do not create the missing
+residual inside a numerical solve, fit an unrestricted history function, fit a regime switch,
+equate quietness with zero geometry, aggregate branches, cross caustics, insert `X_max`, or activate
+protected work.

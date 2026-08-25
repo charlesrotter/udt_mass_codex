@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-25
 
-G166--G256 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G257 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -27,28 +27,16 @@ G249 separates normalized response from one remaining absolute scale. G250 types
 G251 finds no native independent same-object datum owner. G252 gives `ell=tau_star/bar_tau` only
 after an independent clock attachment; another tests the supplied history. No value is selected.
 
-G253 is externally verified after its sealed-source repair. It compresses the active result into
-three distinct chains: direct conditional endpoint redshift; the metric/Jacobi angular sibling; and
-optional downstream absolute-unit attachment. It finds no P1, G116, G189, fit, outcome, `X_max`, or
-protected construction input. The mixed-status ceiling remains: the metric history and pair germ are
-supplied, and G176 remains a working clarification rather than canon.
+G253 compresses direct redshift, its metric/Jacobi angular sibling, and optional downstream units;
+P1, G116/G189, fits, `X_max`, outcomes, and protected work are absent. G176 remains working, not canon.
+G254 finds no ambient history residual in the supplied evaluator chain, so ODE/PDE/GPU remain gated.
+G255 finds no lost value law across G165--G254. G256 leaves `N-1` anchored values and reconstructs
+two radial jets without propagating them.
 
-G254 is externally verified with caveats and no scientific repair. In its exact sixteen-source
-universe, every current pullback, completion, null/Jacobi, Cartan, and matched-network relation is
-an evaluator, identity, calibration, or reconstruction on a supplied time-live metric—not an
-ambient metric-history equation. A smooth curvature-separated counterfamily survives the same
-completed-pair algebra. Therefore stage 2 reduced history ODE/PDE and stage 3 GPU history work were
-gated and not started; launching either now would import scaffolding.
-
-G255 is externally verified with caveats. Its 90-package/321-source G165--G254 audit found no lost
-local condition, global value law, or unresolved candidate. The primary metric owns the downstream
-kernel; a fully valued network may encode its state. Primary values over separation/time remain open.
-
-G256 is externally verified with caveats after accepted R2 dependency-free replay. Exact connected
-pair-difference networks leave `N-1` anchored primary values. The angular pair reconstructs the
-first two radial jets exactly but supplies no independent propagation residual, and arbitrary
-finite radial/time-live second-jet data have exact smooth realizations. No owned value law or
-solver residual was found in the exact 18-source arena; ODE/PDE/GPU remain gated.
+G257 is internally verified with caveats; external review is open. W3 is `WORKING/POSIT`, and vacuum
+Einstein is imported comparison only. The bounded primary exterior contains `f=1+C/r`; its matched
+pair and native G201 angular responses stay active. GR overlap is nonzero GR-balanced geometry.
+The UDT parent law, matter, history, and `C` remain open.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
@@ -70,10 +58,10 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next `MAP -> PONDER -> DERIVE` one explicit native cross-separation/cross-event value law from a
-clearly owned founding premise, or make the honest scope decision that a separate empirical
-reconstruction layer is required. Do not repeat the retrospective, turn angular outputs into
-residuals, invent a solver residual, fit an unrestricted history function, or promote
-Cartan/Bianchi/network reconstruction to dynamics. The 239-row registry controls.
+Next obtain fresh external review of G257. If retained, `MAP -> PONDER -> DERIVE` covariant parent-
+operator requirements that vanish on the GR branch and permit native extreme-regime departure.
+Do not import a favorite GR-adjacent extension, fit a regime switch, equate GR quietness with zero
+geometry, invent a solver residual, or promote Cartan/Bianchi/network reconstruction to dynamics.
+The 240-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

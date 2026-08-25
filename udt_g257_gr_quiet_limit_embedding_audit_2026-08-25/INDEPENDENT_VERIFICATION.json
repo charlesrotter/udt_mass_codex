@@ -1,0 +1,15 @@
+{
+  "assertions": 4777,
+  "method": "independent exact rational substitution and pair composition",
+  "pair_composition_cases": 512,
+  "production_imported": false,
+  "production_result_read": false,
+  "status": "PASS",
+  "vacuum_angular_cases": 463,
+  "verified": [
+    "general f=1+C/r family zeros both independent vacuum components",
+    "native phi-jet residuals vanish on the same family",
+    "A_parallel=-3u/2 and A_perp=+3u/2",
+    "q reversal and three-endpoint composition"
+  ]
+}

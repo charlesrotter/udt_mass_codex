@@ -1,0 +1,13 @@
+{
+  "caught": {
+    "broken_pair_composition": true,
+    "corrupted_angular_component": true,
+    "deleted_f_minus_one_term": true,
+    "inverted_pair_ratio": true,
+    "wrong_parallel_sign": true,
+    "wrong_perp_sign": true,
+    "wrong_residual_dependence_factor": true
+  },
+  "caught_count": 7,
+  "status": "PASS"
+}

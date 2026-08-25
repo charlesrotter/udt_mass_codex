@@ -1,0 +1,58 @@
+{
+  "checks": {
+    "angular_response_no_added_response": true,
+    "direct_tensor_derivation": true,
+    "full_ricci_zero_on_family": true,
+    "pair_kernel_no_added_response": true,
+    "residual_rank_one_on_primary_family": true
+  },
+  "curvature": {
+    "Einstein_on_branch": "0",
+    "Kretschmann_on_positive_mass_not_flat": "12*r_s**2/r**6",
+    "Ricci_on_branch": "0"
+  },
+  "dimensionless_residuals": {
+    "E0": "r*Derivative(f(r), r) + f(r) - 1",
+    "E0_phi": "(-2*p - exp(2*phi) + 1)*exp(-2*phi)",
+    "E1": "r*(r*Derivative(f(r), (r, 2)) + 2*Derivative(f(r), r))/2",
+    "E1_phi": "(2*p**2 - 2*p - zeta)*exp(-2*phi)",
+    "dependence": "r*d(E0)/dr = 2*E1"
+  },
+  "einstein_mixed_diagonal": [
+    "(r*Derivative(f(r), r) + f(r) - 1)/r**2",
+    "(r*Derivative(f(r), r) + f(r) - 1)/r**2",
+    "Derivative(f(r), (r, 2))/2 + Derivative(f(r), r)/r",
+    "Derivative(f(r), (r, 2))/2 + Derivative(f(r), r)/r"
+  ],
+  "general_gr_vacuum_family": "f(r)=1+C/r on each connected exterior interval",
+  "gr_branch_angular": {
+    "A_parallel": "-3*u/2",
+    "A_perp": "3*u/2",
+    "sum": "0"
+  },
+  "gr_branch_jets_in_u": {
+    "p": "u/(2*(u - 1))",
+    "phi": "-log(1 - u)/2",
+    "u": "r_s/r",
+    "zeta": "-u*(u - 2)/(2*(u - 1)**2)"
+  },
+  "landing": "EXACT_GR_VACUUM_BRANCH_EMBEDS__PAIR_KERNEL_AND_ANGULAR_RESPONSE_REMAIN_NATIVE",
+  "maximum_conclusion": "Exact bounded GR embedding and native readouts only; no UDT departure law, mass sign, matter recovery, or complete history selected.",
+  "metric_determinant": "-c_E**2*r**4*sin(theta)**2",
+  "pair_kernel": {
+    "V": "-log(f)/2",
+    "chi_AB": "r_s*(r_A - r_B)/(2*r_A*r_B - r_A*r_s - r_B*r_s)",
+    "delta_AB": "log((r_A - r_s)/r_A)/2 - log((r_B - r_s)/r_B)/2",
+    "q_AB": "r_A*(r_B - r_s)/(r_B*(r_A - r_s))",
+    "terminal_local": "Phi_hat_pair=phi for the matched static clock calibration"
+  },
+  "positive_mass_translation_conditional": "C=-r_s; r_s=2*G_obs*M/c_E^2 requires a supplied GR source/mass attachment",
+  "ricci_scalar_general": "(-r**2*Derivative(f(r), (r, 2)) - 4*r*Derivative(f(r), r) - 2*f(r) + 2)/r**2",
+  "scope": "static_spherical_positive_f_vacuum_exterior_only",
+  "weak_field": {
+    "angular_order": "A_parallel=-3*u/2 and A_perp=+3*u/2 exactly",
+    "p": "-u/2 - u**2/2 - u**3/2 - u**4/2 + O(u**5)",
+    "phi": "u/2 + u**2/4 + u**3/6 + u**4/8 + O(u**5)",
+    "zeta": "u + 3*u**2/2 + 2*u**3 + 5*u**4/2 + O(u**5)"
+  }
+}

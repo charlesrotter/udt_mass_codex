@@ -11,7 +11,8 @@
 | Terminal `phi_pair` | `DERIVED` conditionally | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular Gram precedes readout | Germ/ambient extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION` + `DERIVED_CONDITIONAL` | After pullback: `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G256 | State/network/coarea/scale/attachment; closure/value-rank censuses | Native value law; aggregation |
+| Pair-clock/state network | G215--G257 | State, carry, scale, value-rank, GR embedding | UDT parent law; aggregation |
+| UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
 | Normalized pair position | `CHOSE/PROVISIONAL` + `DERIVED` | `chi=tanh(phi_pair)` | Completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -53,6 +54,7 @@
 | G254 time-live solver closure | external; no scientific repair | Evaluator; zero ambient residual; ODE/GPU gated |
 | G255 lost-closure recovery | external; no findings | No lost G165--G254 value law; next is primary-state closure |
 | G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
+| G257 GR quiet embedding | internal; external open | `f=1+C/r`; native pair/angular response; nonzero GR balance |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -76,15 +78,11 @@ None selects completion/`X_max`.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   Metricity is not dynamics.
 - The carrier chain types `O(2)`, `lambda`, jets, scale, transport, and `X_max` without selection.
-- G212--G235 evaluate/reconstruct but do not select. G236--G243 are bounded observational controls.
-  G244/G245/G246/G247/G248 derive branch-labelled sky, cone, incidence, and coarea geometry—not
-  population or aggregation. G249/G250/G251/G252 type one remaining scale and its supplied
-  attachment. G253 externally compresses direct redshift, angular response, and downstream units;
-  no P1/G116/G189/fit/outcome/`X_max`/protected construction input survives. History, source,
-  detector, caustics, and completion stay open. G254 verifies that the current evaluator/reconstruction
-  chain does not itself define an ambient time-live metric ODE or PDE. G255 verifies that no such
-  closure was lost in G165--G254. G256 adds that the bounded scalar network and angular interlock
-  reconstruct but do not propagate primary values; neither is a future-law no-go.
+- G212--G235 evaluate or reconstruct but do not select. G236--G243 are observational controls.
+  G244/G245/G246/G247/G248 derive branchwise sky/cone/measure geometry; G249/G250/G251/G252 type scale and attachment.
+  G253 compresses redshift, angular response, and units without scaffold inputs. G254/G255/G256 find
+  no history residual, lost value law, or propagation law. G257 imports GR only as quiet comparison:
+  exact bounded embedding has nonzero native pair/angular geometry.
 
 ## Carrier, action, source, and matter
 
@@ -102,7 +100,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236/G237 freeze state
-under imported transfer; G242/G243 are bounded controls. G244--G256 use no outcome; BOSS, history,
+under imported transfer; G242/G243 are bounded controls. G244--G257 use no outcome; BOSS, history,
 source, and transfer stay open.
 
 ## Recurring prohibited promotions
@@ -117,7 +115,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 239-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 240-row authority; conflicts stop.
 
 Run:
 
