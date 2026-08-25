@@ -6,15 +6,37 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent
+PREREGISTRATION_COMMIT = "a9f96360"
 
 
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def exact_source_digest(relative_path: str, expected: str) -> str:
+    """Resolve an exact source byte stream without synthesizing historical content."""
+
+    path = REPO / relative_path
+    actual = digest(path)
+    if actual == expected:
+        return actual
+    git_marker = REPO / ".git"
+    if relative_path != "CURRENT_SCIENTIFIC_PREMISES.tsv" or not git_marker.exists():
+        return actual
+    completed = subprocess.run(
+        ["git", "show", f"{PREREGISTRATION_COMMIT}:{relative_path}"],
+        cwd=REPO,
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    return hashlib.sha256(completed.stdout).hexdigest()
 
 
 def main() -> None:
@@ -34,9 +56,14 @@ def main() -> None:
         "STATUS_LEDGER.tsv",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_CERTIFICATION.json",
         "derive_inverse_metric_reconstruction.py",
         "verify_independent.py",
         "run_catch_proofs.py",
+        "verify_repair.py",
     )
     missing = [name for name in required if not (ROOT / name).is_file()]
     assert not missing, missing
@@ -63,12 +90,7 @@ def main() -> None:
     for source in sources:
         path = REPO / source["path"]
         assert path.is_file(), path
-        actual = digest(path)
-        if source["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv" and actual != source["sha256"]:
-            lines = path.read_text().splitlines(keepends=True)
-            retained = [line for line in lines if not line.startswith("G258\t")]
-            assert len(lines) - len(retained) == 1
-            actual = hashlib.sha256("".join(retained).encode()).hexdigest()
+        actual = exact_source_digest(source["path"], source["sha256"])
         assert actual == source["sha256"], source["path"]
 
     print("PASS: G258 package, 10 source hashes, 12 nodes, 252 independent assertions, 8 catches")

@@ -2,7 +2,8 @@
 
 Date: 2026-08-25
 
-Grade: `INDEPENDENTLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`
+Grade: `EXTERNALLY_REVIEWED_WITH_CAVEATS__SCIENTIFIC_CORE_ACCEPTED`
+`__R1_EXACT_PROVENANCE_REPAIR_IMPLEMENTED__REPAIR_FOLLOWUP_OPEN`
 
 ## Primary landing
 
@@ -50,6 +51,12 @@ between knots, generate derivatives, or select the time-live/nonspherical histor
 - eight of eight hostile controls are caught;
 - zero fitted UDT coefficients, no `X_max`, no post-readout orchestra, no Lambda-CDM distance, no
   static-vacuum cosmological import, no GPU, and no protected input.
+- fresh external `gpt-5.4` review accepted the bounded scientific core and every conclusion limit;
+- its sole finding was a verifier provenance weakness, not a scientific defect;
+- R1 now resolves the preregistration registry as exact bytes, using the sealed file or exact Git
+  object `a9f96360:CURRENT_SCIENTIFIC_PREMISES.tsv`, with no synthesized row deletion;
+- the strict seal rejects a one-byte source mutation and five scientific artifacts retain their
+  prerepair hashes; repair-only external follow-up remains open.
 
 ## Caveats
 
@@ -58,7 +65,7 @@ between knots, generate derivatives, or select the time-live/nonspherical histor
 - cross-release covariance is chosen block diagonal after de-overlap;
 - the knots are a frozen finite-resolution representation, not a continuum;
 - W3 remains `WORKING/POSIT`, not canon;
-- external adversarial review is open.
+- the external repair-only follow-up is open.
 
 ## Maximum conclusion
 

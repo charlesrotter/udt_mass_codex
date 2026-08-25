@@ -55,7 +55,7 @@
 | G255 lost-closure recovery | external; no findings | No lost G165--G254 value law; next is primary-state closure |
 | G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
 | G257 GR quiet embedding | external; no findings | `f=1+C/r`; native pair/angular response; nonzero GR balance |
-| G258 sampled inverse metric | internal; external open | `12` states; one scale; no law |
+| G258 sampled inverse metric | external science accepted; R1 follow-up open | `12` states; one scale; no law |
 
 None selects completion/`X_max`.
 ## Scale and limits

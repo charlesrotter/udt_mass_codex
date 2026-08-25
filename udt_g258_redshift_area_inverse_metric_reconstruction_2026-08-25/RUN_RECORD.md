@@ -10,6 +10,8 @@ Preregistration commit: `a9f96360`
 python3 derive_inverse_metric_reconstruction.py
 python3 verify_independent.py
 python3 run_catch_proofs.py
+python3 verify_package.py
+python3 verify_repair.py
 ```
 
 ## Results
@@ -22,3 +24,13 @@ python3 run_catch_proofs.py
 - fitted UDT coefficients: zero;
 - GPU: not used;
 - protected packages: not read.
+
+## External review and R1
+
+- fresh `gpt-5.4`: `ACCEPT_WITH_REPAIRS`; scientific core accepted;
+- sole finding: synthesized historical-registry compatibility weakened exact provenance;
+- R1 replaces row deletion with exact sealed bytes or exact Git object
+  `a9f96360:CURRENT_SCIENTIFIC_PREMISES.tsv`;
+- strict sealed replay rejects a one-byte source mutation;
+- five load-bearing scientific artifacts remain byte-identical;
+- external repair-only follow-up remains open.

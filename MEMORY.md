@@ -24,14 +24,15 @@ type one remaining scale and its supplied clock attachment; no value/history is 
 externally retains three chains—direct redshift, angular sibling, downstream units—with no active
 P1/G116/G189/fit/outcome/`X_max`/protected construction input.
 
-G254 verifies no ambient time-live residual in the frozen evaluator chain. A curvature-separated counterfamily survives; reduced ODE/PDE and GPU history solves are gated.
+G254 finds no ambient time-live residual in the frozen evaluator chain; ODE/PDE/GPU solves stay gated.
 
 G255 finds no lost owned closure equation across G165--G254. It reconciles primary state with the
 diagnostic arena. The open object is primary-state value closure.
 
 G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular response reconstructs two jets without propagation; no residual owns a solve.
 G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
-G258 reconstructs twelve conditional sampled SNe metric states up to one scale; no continuous law.
+G258 externally retains twelve conditional SNe metric knots up to one scale; R1 follow-up and
+continuous law remain open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.

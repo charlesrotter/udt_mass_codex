@@ -12,6 +12,11 @@
 7. **No scaffolding:** PASS IN SCOPE; zero fitted UDT coefficients and no continuous interpolant,
    post-readout orchestra, `X_max`, Lambda-CDM distance, static-GR cosmological profile, GPU, or
    protected input.
-8. **Fresh external review:** OPEN.
+8. **Fresh external review:** PASS WITH ONE PACKAGING REPAIR; the bounded scientific core and
+   conclusion ceiling were accepted.
+9. **R1 exact provenance repair:** INTERNALLY PASS; exact historical Git-object resolution, strict
+   sealed hashing, one-byte mutation rejection, and five byte-identical scientific artifacts.
+10. **Repair-only external follow-up:** OPEN.
 
-Current grade: `INDEPENDENTLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`.
+Current grade:
+`EXTERNALLY_REVIEWED_WITH_CAVEATS__SCIENTIFIC_CORE_ACCEPTED__R1_IMPLEMENTED__FOLLOWUP_OPEN`.

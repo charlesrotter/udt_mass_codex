@@ -10,4 +10,5 @@ continuous_phi_R	OPEN	no interpolation or derivative law
 native_radiative_transfer	OPEN	temporary transfer remains imported
 W3_GR_reduction	WORKING_POSIT_NOT_CANON	static GR exterior not imposed as SNe history
 covariant_parent_law	OPEN	must join quiet GR reduction and macro anchors
-external_review	OPEN	fresh adversarial review not yet run
+external_review	ACCEPT_WITH_REPAIRS	bounded scientific core accepted; one provenance repair required
+exact_provenance_repair	INTERNALLY_VERIFIED	strict seal exact Git object and one-byte mutation catch; follow-up open

@@ -6877,11 +6877,15 @@ def main() -> None:
     )
     require(
         by_id["G258"]["current_status"].startswith(
-            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN"
+            "EXTERNALLY_REVIEWED_WITH_CAVEATS__FRESH_GPT54_SCIENTIFIC_CORE_ACCEPTED"
         ),
         "G258 bounded grade changed",
     )
     for guard in (
+        "ONE_PROVENANCE_REPAIR_REQUIRED",
+        "REPAIR_PREREGISTERED_AT_CC84DBD2",
+        "R1_EXACT_GIT_OBJECT_AND_STRICT_SEAL_IMPLEMENTED",
+        "REPAIR_FOLLOWUP_OPEN",
         "PREREGISTERED_AND_PUSHED_AT_A9F96360_BEFORE_IMPLEMENTATION",
         "G237_OBSERVED_PROCESSED_CONDITIONAL_STATE",
         "G119_CENTRAL_SPHERICAL_DA_EQUALS_R",
@@ -6910,6 +6914,7 @@ def main() -> None:
         "CATCH_PROOF_RESULT.json",
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
+        "EXTERNAL_REVIEW_GPT54.md",
         "EXACT_DERIVATION.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
@@ -6917,6 +6922,9 @@ def main() -> None:
         "NODE_ATLAS.tsv",
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
+        "REPAIR_CERTIFICATION.json",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_PREREGISTRATION.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -6924,11 +6932,13 @@ def main() -> None:
         "run_catch_proofs.py",
         "verify_independent.py",
         "verify_package.py",
+        "verify_repair.py",
     ):
         require((g258 / name).is_file(), f"G258 evidence missing: {name}")
     g258_result = json.loads((g258 / "DERIVATION_RESULT.json").read_text())
     g258_independent = json.loads((g258 / "INDEPENDENT_VERIFICATION.json").read_text())
     g258_catches = json.loads((g258 / "CATCH_PROOF_RESULT.json").read_text())
+    g258_repair = json.loads((g258 / "REPAIR_CERTIFICATION.json").read_text())
     require(
         g258_result["status"] == "PASS"
         and g258_result["landing"]
@@ -6959,16 +6969,43 @@ def main() -> None:
         and all(g258_catches["catches"].values()),
         "G258 hostile ledger changed",
     )
+    require(
+        g258_repair["status"] == "PASS"
+        and g258_repair["repair"] == "R1_EXACT_HISTORICAL_SOURCE_RESOLUTION"
+        and g258_repair["historical_source_sha256"]
+        == "83b00d923de6163fa17c6f336b73baa977f8588e6ab2fd98c57ce17e1e78f441"
+        and g258_repair["scientific_artifacts_byte_identical"] == 5
+        and g258_repair["sealed_manifest_strict"] is True
+        and g258_repair["one_byte_mutation_rejected"] is True
+        and g258_repair["row_synthesis_absent"] is True
+        and g258_repair["scientific_landing"] == "UNCHANGED",
+        "G258 R1 exact-provenance certification changed",
+    )
+    g258_external = (g258 / "EXTERNAL_REVIEW_GPT54.md").read_text()
+    require(
+        "`ACCEPT_WITH_REPAIRS`" in g258_external
+        and "bounded scientific core passed" in g258_external
+        and "Provenance verification is not fully exact" in g258_external,
+        "G258 external adjudication absent",
+    )
     g258_sources = read_tsv(g258 / "SOURCE_MANIFEST.tsv")
     require(len(g258_sources) == 10, "G258 source count changed")
     for source in g258_sources:
         source_path = ROOT / source["path"]
         require(source_path.is_file(), f"G258 source missing: {source['path']}")
         source_bytes = source_path.read_bytes()
-        if source["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
-            source_bytes = b"".join(
-                line for line in source_bytes.splitlines(keepends=True) if not line.startswith(b"G258\t")
+        if (
+            source["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv"
+            and hashlib.sha256(source_bytes).hexdigest() != source["sha256"]
+        ):
+            historical = subprocess.run(
+                ["git", "show", "a9f96360:CURRENT_SCIENTIFIC_PREMISES.tsv"],
+                cwd=ROOT,
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
             )
+            source_bytes = historical.stdout
         require(
             hashlib.sha256(source_bytes).hexdigest() == source["sha256"],
             f"G258 source hash changed: {source['path']}",

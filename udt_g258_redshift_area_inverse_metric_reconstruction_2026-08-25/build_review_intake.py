@@ -7,23 +7,46 @@ import csv
 import hashlib
 import json
 import shutil
+import subprocess
 import tempfile
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent
+PREREGISTRATION_COMMIT = "a9f96360"
 PACKAGE_FILES = tuple(
     sorted(
         path.name
         for path in ROOT.iterdir()
-        if path.is_file() and path.name not in {"EXTERNAL_REVIEW_GPT54.md"}
+        if path.is_file() and path.name not in {"EXTERNAL_REPAIR_FOLLOWUP_GPT54.md"}
     )
 )
 
 
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def exact_source_bytes(relative_path: str, expected: str) -> bytes:
+    """Return exact current or preregistered bytes; never reconstruct rows."""
+
+    path = REPO / relative_path
+    content = path.read_bytes()
+    if hashlib.sha256(content).hexdigest() == expected:
+        return content
+    git_marker = REPO / ".git"
+    if relative_path != "CURRENT_SCIENTIFIC_PREMISES.tsv" or not git_marker.exists():
+        raise AssertionError(relative_path)
+    completed = subprocess.run(
+        ["git", "show", f"{PREREGISTRATION_COMMIT}:{relative_path}"],
+        cwd=REPO,
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    assert hashlib.sha256(completed.stdout).hexdigest() == expected, relative_path
+    return completed.stdout
 
 
 def main() -> None:
@@ -36,23 +59,14 @@ def main() -> None:
     with (ROOT / "SOURCE_MANIFEST.tsv").open(newline="") as handle:
         sources = list(csv.DictReader(handle, delimiter="\t"))
     for source in sources:
-        source_path = REPO / source["path"]
         target = intake / source["path"]
         target.parent.mkdir(parents=True, exist_ok=True)
-        if source["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
-            retained = [
-                line
-                for line in source_path.read_text().splitlines(keepends=True)
-                if not line.startswith("G258\t")
-            ]
-            target.write_text("".join(retained))
-        else:
-            shutil.copy2(source_path, target)
+        target.write_bytes(exact_source_bytes(source["path"], source["sha256"]))
         assert digest(target) == source["sha256"], source["path"]
 
     scope = {
         "package": ROOT.name,
-        "purpose": "fresh read-only adversarial review of the bounded G258 landing",
+        "purpose": "read-only repair-only follow-up review of G258 R1 and the unchanged landing",
         "restrictions": [
             "intake only",
             "no repository or protected package access",
@@ -60,13 +74,14 @@ def main() -> None:
             "no evidence edits",
             "no research continuation",
             "replays only in writable ephemeral copy",
-            "observational outcomes may not alter the preregistered question or ceiling",
+            "verify only preregistered repair R1 and the unchanged bounded scientific landing",
         ],
         "registered_commands_from_package_directory": [
             "python3 verify_package.py",
             "python3 derive_inverse_metric_reconstruction.py",
             "python3 verify_independent.py",
             "python3 run_catch_proofs.py",
+            "python3 verify_repair.py",
         ],
         "package_file_count": len(PACKAGE_FILES),
         "source_file_count": len(sources),

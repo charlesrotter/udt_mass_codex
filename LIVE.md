@@ -43,13 +43,9 @@ chains: direct conditional endpoint redshift; a distinct metric/Jacobi angular s
 downstream absolute-unit attachment. It finds no active P1, G116, G189, fit, outcome, `X_max`, or
 protected construction input. G176 remains working, not canon; history and germ population remain open.
 
-G254 is freshly externally verified with caveats and no scientific repair. Across its exact
-sixteen-source ownership universe, pullback, completed reciprocity, null/Jacobi propagation, Cartan
-compatibility, and network reconstruction evaluate or reconstruct supplied time-live metrics; they
-do not define an ambient metric-history ODE or PDE. A curvature-separated smooth counterfamily
-survives the same completed-pair algebra. The owned active ambient evolution-equation count is zero,
-so reduced ODE and GPU history solves are mathematically undefined and were not launched. This is a
-source-bounded closure result, not zero physics or a no-go for a future invariant/global relation law.
+G254 externally verifies, source-boundedly, that the supplied evaluator chain contains no ambient
+metric-history residual. A curvature-separated counterfamily survives, so ODE/PDE/GPU history
+solves remain gated. This is not zero physics or a future-law no-go.
 
 G255 is externally verified with caveats and no findings. Its exact retrospective covers all 90
 packages G165--G254, 321 frozen sources, 83 exact derivations, and 21 strongest closure candidates.
@@ -75,8 +71,9 @@ pair readout and native G201 amplitudes `A_parallel=-3u/2`, `A_perp=+3u/2`. GR o
 vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neither derives GR,
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
-G258 reconstructs twelve conditional sampled SNe metric states up to one scale; continuous
-transfer/history remain open.
+G258's external review accepts the bounded science. Direct redshift, G119 area, and explicit G237
+transfer reconstruct twelve conditional SNe metric knots up to one scale. R1 exact-source repair is
+internal; follow-up, native transfer, and continuous history remain open.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.

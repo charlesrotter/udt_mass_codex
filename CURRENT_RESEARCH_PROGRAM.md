@@ -78,8 +78,10 @@ Phi=-log(T)=-1/2 log(-h00)
   family `f=1+C/r`, matched pair readout, and G201 amplitudes `(-3u/2,+3u/2)`. Quietness is GR balance,
   not zero geometry. Fresh external review accepted; the covariant UDT parent law remains open.
 - G258 joins direct redshift to G119 area and frozen G237 relative radii, reconstructing twelve
-  sampled metric states up to one scale with zero new UDT fit coefficients. Continuous history,
-  native transfer, derivatives, and the parent law remain open.
+  sampled metric states up to one scale with zero new UDT fit coefficients. Fresh gpt-5.4 review
+  accepts the bounded scientific core with caveats. Its sole provenance repair is internally
+  implemented using exact sealed or preregistration Git-object bytes; repair-only follow-up is
+  open. Continuous history, native transfer, derivatives, and the parent law remain open.
 
 G206--G258 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
