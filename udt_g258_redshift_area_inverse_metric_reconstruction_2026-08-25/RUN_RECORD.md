@@ -33,4 +33,5 @@ python3 verify_repair.py
   `a9f96360:CURRENT_SCIENTIFIC_PREMISES.tsv`;
 - strict sealed replay rejects a one-byte source mutation;
 - five load-bearing scientific artifacts remain byte-identical;
-- external repair-only follow-up remains open.
+- repair-only `gpt-5.4` follow-up independently replayed all five registered checks and returned
+  `REPAIRS_ACCEPTED`; the bounded scientific landing is unchanged.

@@ -72,8 +72,9 @@ vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neit
 selects `C`, nor supplies the four-dimensional UDT departure law.
 
 G258's external review accepts the bounded science. Direct redshift, G119 area, and explicit G237
-transfer reconstruct twelve conditional SNe metric knots up to one scale. R1 exact-source repair is
-internal; follow-up, native transfer, and continuous history remain open.
+transfer reconstruct twelve conditional SNe metric knots up to one scale. External repair-only
+follow-up accepts R1's exact-source replay with the scientific landing unchanged. Native transfer
+and continuous history remain open.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.

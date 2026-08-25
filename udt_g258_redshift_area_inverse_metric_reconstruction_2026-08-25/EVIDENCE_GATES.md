@@ -16,7 +16,8 @@
    conclusion ceiling were accepted.
 9. **R1 exact provenance repair:** INTERNALLY PASS; exact historical Git-object resolution, strict
    sealed hashing, one-byte mutation rejection, and five byte-identical scientific artifacts.
-10. **Repair-only external follow-up:** OPEN.
+10. **Repair-only external follow-up:** PASS; `gpt-5.4` returned `REPAIRS_ACCEPTED` after isolated
+    replay, with the scientific landing unchanged.
 
 Current grade:
-`EXTERNALLY_REVIEWED_WITH_CAVEATS__SCIENTIFIC_CORE_ACCEPTED__R1_IMPLEMENTED__FOLLOWUP_OPEN`.
+`EXTERNALLY_REVIEWED_WITH_CAVEATS__SCIENTIFIC_CORE_ACCEPTED__R1_REPAIRS_ACCEPTED`.

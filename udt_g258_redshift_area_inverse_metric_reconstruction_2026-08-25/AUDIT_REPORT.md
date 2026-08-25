@@ -3,7 +3,7 @@
 Date: 2026-08-25
 
 Grade: `EXTERNALLY_REVIEWED_WITH_CAVEATS__SCIENTIFIC_CORE_ACCEPTED`
-`__R1_EXACT_PROVENANCE_REPAIR_IMPLEMENTED__REPAIR_FOLLOWUP_OPEN`
+`__R1_EXACT_PROVENANCE_REPAIR_ACCEPTED`
 
 ## Primary landing
 
@@ -56,7 +56,9 @@ between knots, generate derivatives, or select the time-live/nonspherical histor
 - R1 now resolves the preregistration registry as exact bytes, using the sealed file or exact Git
   object `a9f96360:CURRENT_SCIENTIFIC_PREMISES.tsv`, with no synthesized row deletion;
 - the strict seal rejects a one-byte source mutation and five scientific artifacts retain their
-  prerepair hashes; repair-only external follow-up remains open.
+  prerepair hashes;
+- external `gpt-5.4` repair-only follow-up independently replayed R1 and returned
+  `REPAIRS_ACCEPTED` with the bounded scientific landing unchanged.
 
 ## Caveats
 
@@ -65,7 +67,7 @@ between knots, generate derivatives, or select the time-live/nonspherical histor
 - cross-release covariance is chosen block diagonal after de-overlap;
 - the knots are a frozen finite-resolution representation, not a continuum;
 - W3 remains `WORKING/POSIT`, not canon;
-- the external repair-only follow-up is open.
+- external review certifies the repair only; it does not strengthen the scientific landing.
 
 ## Maximum conclusion
 

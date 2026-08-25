@@ -105,6 +105,12 @@ def main() -> None:
             make_writable(intake)
             shutil.rmtree(intake)
 
+    followup = ROOT / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md"
+    followup_status = (
+        "ACCEPTED"
+        if followup.is_file() and followup.read_text().startswith("REPAIRS_ACCEPTED\n")
+        else "OPEN"
+    )
     result = {
         "status": "PASS",
         "repair": "R1_EXACT_HISTORICAL_SOURCE_RESOLUTION",
@@ -114,7 +120,7 @@ def main() -> None:
         "one_byte_mutation_rejected": True,
         "row_synthesis_absent": True,
         "scientific_landing": "UNCHANGED",
-        "external_repair_followup": "OPEN",
+        "external_repair_followup": followup_status,
     }
     (ROOT / "REPAIR_CERTIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print("PASS: G258 R1 exact historical source, strict seal, one-byte catch, 5 unchanged artifacts")

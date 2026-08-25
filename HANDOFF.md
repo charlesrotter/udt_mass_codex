@@ -41,8 +41,8 @@ The UDT parent law, matter, history, and `C` remain open.
 G258's fresh gpt-5.4 review accepts the bounded scientific core with caveats: twelve frozen
 conditional SNe metric states reconstruct up to one positive scale with no new UDT fit coefficient.
 R1 replaces synthesized premise-row deletion with exact sealed or preregistration Git-object bytes;
-its strict seal catches a one-byte mutation and repair-only follow-up is open. Transfer,
-interpolation, derivatives, and covariant history remain open.
+its strict seal catches a one-byte mutation and external repair-only follow-up accepts R1 with the
+scientific landing unchanged. Transfer, interpolation, derivatives, and covariant history remain open.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the

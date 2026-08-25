@@ -80,8 +80,9 @@ Phi=-log(T)=-1/2 log(-h00)
 - G258 joins direct redshift to G119 area and frozen G237 relative radii, reconstructing twelve
   sampled metric states up to one scale with zero new UDT fit coefficients. Fresh gpt-5.4 review
   accepts the bounded scientific core with caveats. Its sole provenance repair is internally
-  implemented using exact sealed or preregistration Git-object bytes; repair-only follow-up is
-  open. Continuous history, native transfer, derivatives, and the parent law remain open.
+  implemented using exact sealed or preregistration Git-object bytes; external repair-only
+  follow-up accepts it with the scientific landing unchanged. Continuous history, native transfer,
+  derivatives, and the parent law remain open.
 
 G206--G258 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:

@@ -1,5 +1,5 @@
 {
-  "external_repair_followup": "OPEN",
+  "external_repair_followup": "ACCEPTED",
   "historical_source_sha256": "83b00d923de6163fa17c6f336b73baa977f8588e6ab2fd98c57ce17e1e78f441",
   "one_byte_mutation_rejected": true,
   "repair": "R1_EXACT_HISTORICAL_SOURCE_RESOLUTION",

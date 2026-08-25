@@ -6885,7 +6885,7 @@ def main() -> None:
         "ONE_PROVENANCE_REPAIR_REQUIRED",
         "REPAIR_PREREGISTERED_AT_CC84DBD2",
         "R1_EXACT_GIT_OBJECT_AND_STRICT_SEAL_IMPLEMENTED",
-        "REPAIR_FOLLOWUP_OPEN",
+        "REPAIR_FOLLOWUP_ACCEPTED",
         "PREREGISTERED_AND_PUSHED_AT_A9F96360_BEFORE_IMPLEMENTATION",
         "G237_OBSERVED_PROCESSED_CONDITIONAL_STATE",
         "G119_CENTRAL_SPHERICAL_DA_EQUALS_R",
@@ -6914,6 +6914,7 @@ def main() -> None:
         "CATCH_PROOF_RESULT.json",
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
         "EXTERNAL_REVIEW_GPT54.md",
         "EXACT_DERIVATION.md",
         "INDEPENDENT_VERIFICATION.json",
@@ -6978,7 +6979,8 @@ def main() -> None:
         and g258_repair["sealed_manifest_strict"] is True
         and g258_repair["one_byte_mutation_rejected"] is True
         and g258_repair["row_synthesis_absent"] is True
-        and g258_repair["scientific_landing"] == "UNCHANGED",
+        and g258_repair["scientific_landing"] == "UNCHANGED"
+        and g258_repair["external_repair_followup"] == "ACCEPTED",
         "G258 R1 exact-provenance certification changed",
     )
     g258_external = (g258 / "EXTERNAL_REVIEW_GPT54.md").read_text()
@@ -6987,6 +6989,14 @@ def main() -> None:
         and "bounded scientific core passed" in g258_external
         and "Provenance verification is not fully exact" in g258_external,
         "G258 external adjudication absent",
+    )
+    g258_followup = (g258 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+    require(
+        g258_followup.startswith("REPAIRS_ACCEPTED\n")
+        and "R1 is implemented as preregistered" in g258_followup
+        and "bounded scientific landing is unchanged" in g258_followup
+        and "five load-bearing artifact hashes match" in g258_followup,
+        "G258 repair-only external acceptance absent",
     )
     g258_sources = read_tsv(g258 / "SOURCE_MANIFEST.tsv")
     require(len(g258_sources) == 10, "G258 source count changed")

@@ -31,8 +31,8 @@ diagnostic arena. The open object is primary-state value closure.
 
 G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular response reconstructs two jets without propagation; no residual owns a solve.
 G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
-G258 externally retains twelve conditional SNe metric knots up to one scale; R1 follow-up and
-continuous law remain open.
+G258 retains twelve conditional SNe knots up to one scale; follow-up accepts R1; native transfer
+and the continuous law remain open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
