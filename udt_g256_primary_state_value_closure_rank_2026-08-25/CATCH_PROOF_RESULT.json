@@ -1,0 +1,34 @@
+{
+  "catch_count": 7,
+  "catches": [
+    {
+      "caught": true,
+      "mutation": "deleted_complete_graph_edge"
+    },
+    {
+      "caught": true,
+      "mutation": "corrupted_cycle_rank"
+    },
+    {
+      "caught": true,
+      "mutation": "collapsed_N_dependent_nullity"
+    },
+    {
+      "caught": true,
+      "mutation": "failed_Hermite_jet"
+    },
+    {
+      "caught": true,
+      "mutation": "angular_output_promoted_to_residual"
+    },
+    {
+      "caught": true,
+      "mutation": "unowned_finite_family_condition"
+    },
+    {
+      "caught": true,
+      "mutation": "solver_started_without_residual"
+    }
+  ],
+  "status": "PASS"
+}

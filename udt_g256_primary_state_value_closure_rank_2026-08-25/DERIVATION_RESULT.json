@@ -1,0 +1,201 @@
+{
+  "angular_interlock": {
+    "classification": "LOCAL_TOMOGRAPHIC_BIJECTION_NOT_VALUE_PROPAGATION",
+    "forward_parallel": "(2*p**2 + p - q)*exp(-2*phi)",
+    "forward_perp": "-(p + 1)*exp(-2*phi) + 1",
+    "jet_jacobian_determinant": "-exp(-4*phi)",
+    "nonzero_for_finite_real_phi": true,
+    "owned_residual_count": 0,
+    "recovered_p": "(1 - A_perp)*exp(2*phi) - 1",
+    "recovered_q": "-A_parallel*exp(2*phi) + (1 - A_perp)*exp(2*phi) + 2*((1 - A_perp)*exp(2*phi) - 1)**2 - 1"
+  },
+  "conclusion_scope": "bounded_primary_scalar_value_closure_only; no universal future-law no-go",
+  "graph_sweep": {
+    "N_max": 12,
+    "N_min": 2,
+    "arbitrary_N_proof": "connected_incidence_kernel_is_span_of_all_ones",
+    "complete_graph_anchored_dimension_formula": "N-1",
+    "record_count": 43
+  },
+  "landing": "FUNCTION_VALUED_PRIMARY_STATE_REMAINS__ANGULAR_INTERLOCK_IS_TOMOGRAPHIC_NOT_PROPAGATING__NO_ODE_GPU",
+  "ownership": {
+    "owned_nonidentity_value_law_count": 0,
+    "source_count": 18
+  },
+  "radial_hermite": {
+    "N_max": 8,
+    "N_min": 2,
+    "arbitrary_N_proof": "homogeneous_degree_below_3N_polynomial_with_triple_zeros_at_N_distinct_nodes_is_zero",
+    "records": [
+      {
+        "N": 2,
+        "all_jets_exact": true,
+        "coefficient_sha256": "a447e233be930bcc4705225dd482bdabede310e767073177179e87950b6f9c97",
+        "condition_count": 6,
+        "domain": "radial",
+        "matrix_rank": 6,
+        "maximum_degree": 5,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-6"
+      },
+      {
+        "N": 3,
+        "all_jets_exact": true,
+        "coefficient_sha256": "bdfa3580689679b2ae98b0a076689b2d137dec16d606a54c40ccbb57f247a574",
+        "condition_count": 9,
+        "domain": "radial",
+        "matrix_rank": 9,
+        "maximum_degree": 8,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "48"
+      },
+      {
+        "N": 4,
+        "all_jets_exact": true,
+        "coefficient_sha256": "270301a0197210c7e3f834f186696c9d6afe2eb143ca54960adb550780a0b836",
+        "condition_count": 12,
+        "domain": "radial",
+        "matrix_rank": 12,
+        "maximum_degree": 11,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-1296"
+      },
+      {
+        "N": 5,
+        "all_jets_exact": true,
+        "coefficient_sha256": "fa71a956aed7b94f7d3b9d663154c5125723a60eb30e3eb85a7c7414c6188461",
+        "condition_count": 15,
+        "domain": "radial",
+        "matrix_rank": 15,
+        "maximum_degree": 14,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "82944"
+      },
+      {
+        "N": 6,
+        "all_jets_exact": true,
+        "coefficient_sha256": "e9c5075a7556fa14c474ddbd5ba576531e53553a635c8cfe7e5483a1ac9284d3",
+        "condition_count": 18,
+        "domain": "radial",
+        "matrix_rank": 18,
+        "maximum_degree": 17,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-10368000"
+      },
+      {
+        "N": 7,
+        "all_jets_exact": true,
+        "coefficient_sha256": "dea4c7e096b037a1fa1cc80695efa35959db7db526fba99ceefafa97e63f3990",
+        "condition_count": 21,
+        "domain": "radial",
+        "matrix_rank": 21,
+        "maximum_degree": 20,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "2239488000"
+      },
+      {
+        "N": 8,
+        "all_jets_exact": true,
+        "coefficient_sha256": "2a378abb108c6214ffef8c6cce8f3dc6f5749490aa625d65b45d5ce5079f5996",
+        "condition_count": 24,
+        "domain": "radial",
+        "matrix_rank": 24,
+        "maximum_degree": 23,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-768144384000"
+      }
+    ]
+  },
+  "solver_gate": {
+    "gpu_status": "GATED_NOT_DEFINED",
+    "ode_status": "GATED_NOT_DEFINED",
+    "owned_residual_count": 0,
+    "pde_status": "GATED_NOT_DEFINED"
+  },
+  "status": "PASS",
+  "timelive_carry": {
+    "actual_composition": "delta_ik=delta_ij+delta_jk",
+    "anchored_event_state_dimension": "N-1",
+    "higher_germs": "free_via_product_of_cubed_node_factors",
+    "records": [
+      {
+        "N": 2,
+        "all_jets_exact": true,
+        "coefficient_sha256": "a447e233be930bcc4705225dd482bdabede310e767073177179e87950b6f9c97",
+        "condition_count": 6,
+        "domain": "timelive",
+        "matrix_rank": 6,
+        "maximum_degree": 5,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-6"
+      },
+      {
+        "N": 3,
+        "all_jets_exact": true,
+        "coefficient_sha256": "bdfa3580689679b2ae98b0a076689b2d137dec16d606a54c40ccbb57f247a574",
+        "condition_count": 9,
+        "domain": "timelive",
+        "matrix_rank": 9,
+        "maximum_degree": 8,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "48"
+      },
+      {
+        "N": 4,
+        "all_jets_exact": true,
+        "coefficient_sha256": "270301a0197210c7e3f834f186696c9d6afe2eb143ca54960adb550780a0b836",
+        "condition_count": 12,
+        "domain": "timelive",
+        "matrix_rank": 12,
+        "maximum_degree": 11,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-1296"
+      },
+      {
+        "N": 5,
+        "all_jets_exact": true,
+        "coefficient_sha256": "fa71a956aed7b94f7d3b9d663154c5125723a60eb30e3eb85a7c7414c6188461",
+        "condition_count": 15,
+        "domain": "timelive",
+        "matrix_rank": 15,
+        "maximum_degree": 14,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "82944"
+      },
+      {
+        "N": 6,
+        "all_jets_exact": true,
+        "coefficient_sha256": "e9c5075a7556fa14c474ddbd5ba576531e53553a635c8cfe7e5483a1ac9284d3",
+        "condition_count": 18,
+        "domain": "timelive",
+        "matrix_rank": 18,
+        "maximum_degree": 17,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-10368000"
+      },
+      {
+        "N": 7,
+        "all_jets_exact": true,
+        "coefficient_sha256": "dea4c7e096b037a1fa1cc80695efa35959db7db526fba99ceefafa97e63f3990",
+        "condition_count": 21,
+        "domain": "timelive",
+        "matrix_rank": 21,
+        "maximum_degree": 20,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "2239488000"
+      },
+      {
+        "N": 8,
+        "all_jets_exact": true,
+        "coefficient_sha256": "2a378abb108c6214ffef8c6cce8f3dc6f5749490aa625d65b45d5ce5079f5996",
+        "condition_count": 24,
+        "domain": "timelive",
+        "matrix_rank": 24,
+        "maximum_degree": 23,
+        "null_deformation_preserves_all_registered_jets": true,
+        "third_germ_change_at_first_node": "-768144384000"
+      }
+    ],
+    "reversal": "delta_ji=-delta_ij"
+  }
+}

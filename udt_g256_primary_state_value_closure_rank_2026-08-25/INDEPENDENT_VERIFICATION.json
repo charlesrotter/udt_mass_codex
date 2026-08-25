@@ -1,0 +1,16 @@
+{
+  "anchored_state_dimension": "N-1",
+  "angular_trials": 100,
+  "cycle_trials": 220,
+  "graph_trials": 43,
+  "landing": "FUNCTION_VALUED_PRIMARY_STATE_REMAINS__ANGULAR_INTERLOCK_IS_TOMOGRAPHIC_NOT_PROPAGATING__NO_ODE_GPU",
+  "method": "standard_library_exact_fraction_independent_replay",
+  "owned_nonidentity_value_law_count": 0,
+  "production_imported": false,
+  "production_result_read": false,
+  "radial_hermite_trials": 7,
+  "solver_status": "GATED_NOT_DEFINED",
+  "source_count": 18,
+  "status": "PASS",
+  "timelive_hermite_trials": 7
+}
