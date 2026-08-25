@@ -1,0 +1,26 @@
+item	status	role	included
+F1	OBSERVED_PLUS_FOUNDATIONAL_INTERPRETATION	c_E clock-ruler conversion	yes
+F2	FOUNDED	dual reciprocal squeeze	yes
+F3	POSIT	ordered-depth composition and reversal	yes
+F4	DECLARED_READOUT	primary metric form	yes
+W1	WORKING_FOUNDATIONAL_CLARIFICATION	completed pair normalization	yes_conditional
+W2	WORKING_SEMANTICS	co-presence	no
+W3	WORKING_POSIT_NOT_CANON	GR quiet-limit reduction	yes_conditional
+W4	WORKING_POSIT_NOT_CANON	universal metric coupling and local free-fall semantics	yes_conditional
+metric_is_theory	BINDING_PROGRAM_PRINCIPLE	forbid bolted-on second geometry	yes_as_program_guard
+G259_classification	DERIVED_CONDITIONAL	operator-class comparison	yes
+G260_nondiscard	DERIVED_CONDITIONAL	full-metric angular quiet balance	yes
+equivalence_principle	WORKING_W4	local kinematic and coupling statement	yes
+diffeomorphism_naturality	CANDIDATE_OPERATOR_REQUIREMENT	audit ownership	explored
+metric_only_state	CANDIDATE_OPERATOR_REQUIREMENT	audit ownership	explored
+rank_two_equation	CANDIDATE_OPERATOR_REQUIREMENT	audit ownership	explored
+locality	CANDIDATE_OPERATOR_REQUIREMENT	audit ownership	explored
+second_order	CANDIDATE_OPERATOR_REQUIREMENT	audit ownership	explored
+divergence_free	CANDIDATE_OPERATOR_REQUIREMENT	audit ownership	explored
+nonidentity_parent	DEFINITIONAL_PREDICTIVITY_GATE	audit ownership	explored
+source_history	OPEN	numerical valuation	no
+vacuum_Einstein	IMPORTED_COMPARISON_ONLY	W3 quiet comparator	no_derivation
+R2_nonlocal_scalar_controls	MATHEMATICAL_SEPARATORS	logical countermodels_only	yes_controls
+observations	OMITTED	no fitting or calibration	no
+X_max	OPEN	downstream completion target	no
+protected_packages	FORBIDDEN	no read or use	no

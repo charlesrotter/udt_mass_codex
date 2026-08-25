@@ -196,6 +196,19 @@ and the imported vacuum condition separately removes \(a\). G260 therefore close
 discard concern while leaving the parent/source value law, time-live extension, and loud-regime
 departure `OPEN`.
 
+### W4. Universal metric coupling
+
+`WORKING/POSIT`, provisionally authorized by Charles Rotter on 2026-08-25, not canon: the completed
+UDT metric is the single local geometry used by clocks, rulers, freely falling test systems, and
+null propagation. At every regular event, a freely falling frame has local special-relativistic
+form with the locally calibrated \(c_E\). Conditional pair \(c_{\rm eff}\) remains a finite-
+separation observer-frame readout and is not a second local signal cone.
+
+W4 forbids a force, clock law, or light cone bolted onto the pair readout independently of the
+metric. It does not alter F1--F4's reciprocal algebra or the primary metric components. It also does
+not, merely by being stated, select a field equation, source/history law, action, locality class,
+differential order, or observer population. Those implications must be derived separately.
+
 ### Observational anchors
 
 \(c_E\) and \(G_{\rm obs}\) are accepted `OBSERVED` anchors. Neither is presently an equation for
