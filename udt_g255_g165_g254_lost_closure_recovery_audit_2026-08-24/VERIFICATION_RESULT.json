@@ -1,0 +1,25 @@
+{
+  "assertion_count": 840,
+  "candidate_count": 21,
+  "class_counts": {
+    "C01": 1,
+    "C02": 1,
+    "C03": 7,
+    "C04": 5,
+    "C05": 16,
+    "C06": 10,
+    "C07": 4,
+    "C08": 14,
+    "C09": 10,
+    "C10": 10,
+    "C11": 12
+  },
+  "current_controller_match_count": 86,
+  "exact_derivation_count": 83,
+  "external_review": "PENDING",
+  "landing": "NO_LOST_CLOSURE_IN_G165_G254",
+  "registry_row_count_in_range": 87,
+  "slot_count": 90,
+  "source_count": 321,
+  "status": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "candidate_unresolved_count": 0,
+  "class_counts": {
+    "C01": 1,
+    "C02": 1,
+    "C03": 7,
+    "C04": 5,
+    "C05": 16,
+    "C06": 10,
+    "C07": 4,
+    "C08": 14,
+    "C09": 10,
+    "C10": 10,
+    "C11": 12
+  },
+  "first_slot": "G165",
+  "landing": "NO_LOST_CLOSURE_IN_G165_G254",
+  "last_slot": "G254",
+  "owned_global_relation_law_count": 0,
+  "owned_local_metric_condition_count": 0,
+  "slot_count": 90
+}

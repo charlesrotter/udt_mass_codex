@@ -1,0 +1,16 @@
+node	status	inputs	output	selects_values	controlling_slots
+F01_clock_ruler_calibration	OBSERVED	none	c_E unit conversion	false	FOUNDING
+F02_reciprocal_character	DERIVED_ON_SUPPLIED_DEPTH	c_E plus supplied ordered depth	D(delta) reciprocal clock ruler action	false	FOUNDING_G166
+M01_primary_metric_form	FOUNDATIONAL_DECLARED_FAMILY	F02 plus Lorentzian and areal readout	static spherical metric with free phi profile	false	G166_G167
+Q01_completed_pair_germ	QUERY_SUPPLIED	observer events calibration orientation branch	pair immersion and tangent two-plane	false	G168_G175
+P01_complete_pair_pullback	DERIVED_CONDITIONAL	M01 or supplied complete metric plus Q01	h equals pullback of g with orchestra upstream	false	G167_G179
+W01_completed_dual_reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	P01	m equals sqrt minus det h and Phi equals minus log T	false	G176_G180
+K01_scalar_network	DERIVED_CONDITIONAL	W01 plus matched endpoint clocks	direct redshift depth reversal and scalar cocycle	false	G169_G170_G215_G217
+J01_null_screen_response	DERIVED_CONDITIONAL	supplied metric null germ initial screen	frequency Jacobi phase and area response	false	G186_G200_G220_G228
+N01_rank_complete_network	DERIVED_CONDITIONAL	valued populated completed pair network	faithful local metric reconstruction and descent	false	G212_G215_G235
+R01_regularity_completion	DERIVED_FOR_SUPPLIED_FAMILIES	supplied metric family and branch	endpoint causal geodesic and caustic classifications	false	G181_G184_G202_G210
+C01_Cartan_realization	DERIVED_IDENTITIES_AND_STANDARD_REALIZATION	supplied compatible metric or curvature jets	local or regional metric realization	false	G227_G233
+O01_observational_interfaces	OBSERVED_OR_IMPORTED_CONDITIONAL	supplied history query source and transfer	SNe or projected point-process comparison objects	false	G185_G189_G236_G243
+A01_absolute_attachment	OBSERVED_ATTACHMENT_CONDITIONAL	dimensionless history plus identified same-object datum	one homothety scale calibration	false	G249_G252
+OPEN01_primary_value_closure	OPEN	F02 through N01	finite-family values or propagating primary relation state	REQUIRED_FOR_PREDICTION	G165_G202_G212_G233_G255
+OPEN02_timelive_extension	OPEN	OPEN01 plus complete metric sectors	complete evolving valued UDT relation state	REQUIRED_FOR_TIMELIVE_SOLVE	G204_G211_G234_G254_G255

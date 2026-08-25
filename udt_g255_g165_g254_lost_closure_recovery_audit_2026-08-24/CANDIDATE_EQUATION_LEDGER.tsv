@@ -1,0 +1,22 @@
+candidate_id	slot	candidate_statement	classification	udt_owner_status	g254_twin_test	decisive_reason
+K01	G166	founded reciprocal block has determinant minus one	C01	DERIVED_ON_SUPPLIED_DEPTH	BOTH_PASS	algebraic representation fixes the form after delta is supplied but does not generate delta or its spacetime profile
+K02	G176	completed pair imposes m equals square root of minus determinant h	C02	WORKING_FOUNDATIONAL_CLARIFICATION	BOTH_PASS	every regular pair pullback can be completed; normalization is not an ambient equation on g
+K03	G202	quiet overlap forces the declared second-order flatness jet	C08	CONDITIONAL_ON_QUIET_CONTROL	BOTH_PASS	it is a local necessary control and leaves infinitely many profiles alive
+K04	G204	smooth-center regularity plus even areal family	C08	CENTER_REGULARITY_DERIVED__FAMILY_CHOSE	NOT_A_COMPLETE_SEPARATOR	regularity rejects singular presentations but does not own the family or its surviving parameters
+K05	G205	geodesic completeness and global hyperbolicity	C07	DERIVED_FOR_CHOSEN_G204_FAMILY	BOTH_PASS_ON_REGULAR_GLOBAL_REALIZATIONS	these are classifications of supplied histories and were not adopted as founding UDT selection postulates
+K06	G206	null-completeness affine-weight divergence condition	C07	DERIVED_FOR_SUPPLIED_CONFORMAL_EXTENSION	MAY_SEPARATE_SOME_EXTENSIONS_ONLY	it is a property test; no premise says Nature selects exactly that property and many functions pass
+K07	G212	two generic completed clocks reconstruct Omega and q pointwise	C06	DERIVED_CONDITIONAL	BOTH_PASS_WITH_THEIR_OWN_VALUES	reconstruction consumes function-valued relation data and does not generate those values
+K08	G212	all-germ coincidence two-jet isotropy forces constant sectional curvature	C08	EXPLICITLY_NOT_UDT_OWNED	REJECTS_GENERIC_TWIN	this is the strongest genuine local cut found, but adopting it would add the missing premise rather than recover one
+K09	G214	overlap descent and completed tuple cocycle	C06	DERIVED_CONDITIONAL	BOTH_PASS	gluing tests consistency of supplied values and cannot choose between consistent metrics
+K10	G225	least-turning screen map and finite O2 holonomy	C05	DERIVED_CONDITIONAL	BOTH_EVALUATED	transport returns history-dependent values but no prescribed value or flatness law is owned
+K11	G226	conformal-symplectic null-chain assembly	C05	DERIVED_CONDITIONAL	BOTH_EVALUATED	standard transport compatibility on supplied null edges does not restrict ambient metric values
+K12	G227	common algebraic curvature compatibility	C06	DERIVED_CONDITIONAL	BOTH_PASS	it characterizes curvature tensors of metrics rather than a physical subset of metric histories
+K13	G228	differential Bianchi neighbor compatibility	C04	DERIVED_IDENTITY	BOTH_PASS	Bianchi is satisfied by every Levi-Civita metric history
+K14	G230	Ricci commutator and differentiated Bianchi overlap closure	C04	DERIVED_IDENTITY	BOTH_PASS	these are realizability identities and do not assign curvature values
+K15	G231	torsion-free Cartan regional realization system	C06	STANDARD_CONDITIONAL_REALIZATION	BOTH_REALIZABLE	Cartan integrates compatible supplied data but supplies no physical valuation
+K16	G233	finite G204 autonomous closure	C08	CONDITIONAL_ON_CHOSEN_FAMILY	NOT_UNIVERSAL	the unrestricted primary profile has an exact arbitrary-order finite-jet obstruction
+K17	G235	rank-complete matched completed network existence	C06	DERIVED_CONDITIONAL	BOTH_PASS_EXACTLY	the preregistered invariant twins are reconstructed rather than separated
+K18	G240	all-regular-null-image query	C09	QUERY_CHOSE	BOTH_RETURN_BRANCH_SETS	it removes arbitrary branch weights only after history and source/query data are supplied
+K19	G248	regular incidence coarea density and composition character	C09	DERIVED_CONDITIONAL_WITH_OPEN_CHARACTER	BOTH_EVALUATED	measure typing leaves a real character family plus source and branch population open
+K20	G252	one attached proper-clock record fixes homothety scale	C10	OBSERVED_ATTACHMENT_CONDITIONAL	ANCHOR_LOCAL_ONLY	it calibrates one global unit on a supplied dimensionless history and does not determine the history function
+K21	G254	Christoffel Ricci and pair equations on a supplied time-live metric	C05	DERIVED_EVALUATOR	BOTH_EVALUATED	the equations compute geometry for each history but contain no residual required to vanish

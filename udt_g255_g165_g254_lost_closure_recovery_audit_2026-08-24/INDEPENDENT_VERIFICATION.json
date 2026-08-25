@@ -1,0 +1,13 @@
+{
+  "assertion_count": 1747,
+  "candidate_count": 21,
+  "counterhistory_curvature_cases": 85,
+  "hostile_mutations_caught": 4,
+  "landing": "NO_LOST_CLOSURE_IN_G165_G254",
+  "owned_global_relation_law_count": 0,
+  "owned_local_metric_condition_count": 0,
+  "slot_count": 90,
+  "source_count": 321,
+  "status": "PASS",
+  "unresolved_candidate_count": 0
+}
