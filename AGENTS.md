@@ -26,7 +26,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   guide supplies bounded premise orientation; the verifier audits the entire 236-row exact registry
+   guide supplies bounded premise orientation; the verifier audits the entire 237-row exact registry
    without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
    rows only after orientation when the requested task makes those objects load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
@@ -121,6 +121,8 @@ Disk evidence wins over conversational memory.
   and optional downstream absolute-unit attachment. It does not select history or germ population.
   P1, G116, G189, fits, observational outcomes, `X_max`, and protected work are not construction
   inputs to the compressed kernel.
+- G254 verifies that current evaluators own no ambient-history residual. Do not launch ODE/PDE/GPU
+  history solves until a natural metric or global relation law is independently owned and preregistered.
 - `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
   frame readouts, not automatically local signal speeds.
 - `X_max` retains its owner-ratified working asymptotic meaning but is inactive as a local reciprocal

@@ -1,0 +1,30 @@
+{
+  "catch_count": 6,
+  "catches": [
+    {
+      "caught": true,
+      "mutation": "pullback_promoted_to_dynamics"
+    },
+    {
+      "caught": true,
+      "mutation": "bianchi_promoted_to_dynamics"
+    },
+    {
+      "caught": true,
+      "mutation": "observational_fit_promoted_to_dynamics"
+    },
+    {
+      "caught": true,
+      "mutation": "einstein_or_action_import_promoted_to_dynamics"
+    },
+    {
+      "caught": true,
+      "mutation": "solver_launched_without_owned_residual"
+    },
+    {
+      "caught": true,
+      "mutation": "arbitrary_history_invariant_separator_deleted"
+    }
+  ],
+  "status": "PASS"
+}

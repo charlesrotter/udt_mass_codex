@@ -1,0 +1,36 @@
+{
+  "ambient_metric_component_count": 10,
+  "assertion_count": 56,
+  "configuration_functions_after_coordinate_gauge": 6,
+  "contract": {
+    "candidate_rows": 13,
+    "eligible_history_schema_count": 2,
+    "owned_active_history_equation_count": 0
+  },
+  "coordinate_gauge_function_count": 4,
+  "counterfamily": {
+    "b0_curvature": 0,
+    "b7_curvature": 84,
+    "completed_pair_metric": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "completed_phi": 0,
+    "family": "diag(-1,exp(2*b*t^2),exp(2*b*t^2),exp(2*b*t^2))",
+    "meaning": "invariantly distinct smooth time-live histories satisfy the same completed-pair algebra",
+    "scalar_curvature": "12*b*(4*b*t**2 + 1)",
+    "scalar_curvature_at_t0": "12*b"
+  },
+  "landing": "NO_OWNED_TIMELIVE_RESIDUAL__ODE_AND_GPU_SOLVES_NOT_YET_DEFINED",
+  "owned_active_ambient_evolution_equation_count": 0,
+  "source_count": 16,
+  "stage_2": "GATED_NOT_STARTED",
+  "stage_3": "GATED_NOT_STARTED",
+  "status": "PASS"
+}

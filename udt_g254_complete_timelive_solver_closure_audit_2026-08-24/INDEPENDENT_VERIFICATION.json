@@ -1,0 +1,14 @@
+{
+  "assertion_count": 102,
+  "b0_curvature": 0,
+  "b7_curvature": 84,
+  "contract_rows": 13,
+  "curvature_trials": 65,
+  "landing": "NO_OWNED_TIMELIVE_RESIDUAL__ODE_AND_GPU_SOLVES_NOT_YET_DEFINED",
+  "method": "standard_library_exact_fraction_direct_coordinate_ricci_at_anchor",
+  "owned_active_ambient_evolution_equation_count": 0,
+  "production_imported": false,
+  "production_result_read": false,
+  "source_count": 16,
+  "status": "PASS"
+}

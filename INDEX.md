@@ -62,7 +62,7 @@
 - Scale/attachment: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`;
   `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—no native datum owner;
   `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one clock attachment fixes `ell` conditionally;
-  `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compressed dependency audit.
+  `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compression; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`—no owned history residual; reduced/GPU solve gated.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord-network descent: `udt_pair_chord_network_descent_audit_2026-08-12/`

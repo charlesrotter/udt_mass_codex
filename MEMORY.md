@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G253: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G254: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -24,12 +24,16 @@ type one remaining scale and its supplied clock attachment; no value/history is 
 externally retains three chains—direct redshift, angular sibling, downstream units—with no active
 P1/G116/G189/fit/outcome/`X_max`/protected construction input.
 
+G254 externally verifies that the frozen native evaluator/reconstruction chain owns no ambient
+time-live metric residual. Its smooth curvature-separated counterfamily survives the completed-pair
+algebra. Reduced ODE/PDE and GPU history solves are gated, not merely unfinished.
+
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observations
 
-R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G253 derive
+R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G254 derive
 the outcome-blind sky-to-attachment chain. History, value, aggregation, and outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
@@ -51,9 +55,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Next lay `MAP -> PONDER` choose one typed application: direct relative redshift, angular
-metric/Jacobi response, or downstream absolute-unit attachment. Keep G248 aggregation, caustics,
-G225, P1, `X_max`, protected work, fits, and observational outcomes closed until that choice is
-preregistered; SNe redshift stays direct from reciprocal `phi`.
+Next lay `MAP -> PONDER` address G254's closure fork: locate an independently owned natural metric
+condition or a genuinely global completed-relation law. Do not invent a residual in a solver or use
+observations to fill an unrestricted history function.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

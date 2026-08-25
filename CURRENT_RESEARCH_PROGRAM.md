@@ -70,8 +70,12 @@ Phi=-log(T)=-1/2 log(-h00)
   history. `c_E` only converts time to length. Record, value, and history remain open.
 - G253 externally compresses the spine into direct conditional redshift, a metric/Jacobi angular
   sibling, and optional downstream units. No P1/G116/G189/fit/outcome/`X_max`/protected input survives.
+- G254 externally verifies, with no scientific repair, that the exact current pullback, completion,
+  null/Jacobi, Cartan, and network relations do not define an ambient metric-history residual. Its
+  smooth curvature-separated counterfamily survives the same completed-pair algebra. Reduced and
+  GPU history solves are therefore not yet mathematically defined.
 
-G206--G253 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G254 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -81,14 +85,15 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 - G211--G231 close supplied local geometry, not values. G232--G235 do not select a history.
   G236--G243 are bounded observational controls. G244--G248 derive branchwise sky/cone/measure
   geometry, not population or aggregation. G249--G252 type one remaining scale and its supplied
-  attachment. G253 confirms three typed chains rather than one tunable kernel. History, population,
-  source/detector, caustic, and catalogue semantics remain open.
+  attachment. G253 confirms three typed chains rather than one tunable kernel. G254 then proves,
+  in its frozen source universe, that those evaluators do not yet close a time-live history
+  equation. History, population, source/detector, caustic, and catalogue semantics remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243 use imported transfer; G238--G253 leave continuous history, source
+scale. G236/G237/G242/G243 use imported transfer; G238--G254 leave continuous history, source
 measure, and detector/transfer ownership open.
 
 ## Audited restart
@@ -96,7 +101,8 @@ measure, and detector/transfer ownership open.
 G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected work from construction;
 G190--G198 remain formula-level regression or chosen-family controls. G199--G251 close bounded
 evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock attachment
-contract; G253 compresses and audits the three resulting typed chains. Next lay `MAP -> PONDER`
-must select one application type—direct relative redshift, angular metric/Jacobi response, or
-downstream absolute units—before opening an observational value. Never fit the kernel, choose
-history, aggregate branches, cross caustics, insert `X_max`, or activate protected work.
+contract; G253 compresses and audits the three resulting typed chains; G254 closes the attempted
+time-live solver gate negatively and source-boundedly. Next lay `MAP -> PONDER` must discriminate
+an independently owned natural metric condition from a genuinely global completed-relation law.
+Do not create the missing residual inside a numerical solve, fit an unrestricted history function,
+aggregate branches, cross caustics, insert `X_max`, or activate protected work.

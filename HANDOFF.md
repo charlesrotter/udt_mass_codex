@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-24
 
-G166--G253 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G254 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -33,6 +33,13 @@ optional downstream absolute-unit attachment. It finds no P1, G116, G189, fit, o
 protected construction input. The mixed-status ceiling remains: the metric history and pair germ are
 supplied, and G176 remains a working clarification rather than canon.
 
+G254 is externally verified with caveats and no scientific repair. In its exact sixteen-source
+universe, every current pullback, completion, null/Jacobi, Cartan, and matched-network relation is
+an evaluator, identity, calibration, or reconstruction on a supplied time-live metric—not an
+ambient metric-history equation. A smooth curvature-separated counterfamily survives the same
+completed-pair algebra. Therefore stage 2 reduced history ODE/PDE and stage 3 GPU history work were
+gated and not started; launching either now would import scaffolding.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
 program/index.
@@ -53,9 +60,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next lay `MAP -> PONDER` choose one G253-typed application: direct relative redshift, angular
-metric/Jacobi response, or downstream absolute-unit attachment. Do not fit the kernel or choose
-history. Keep G248 aggregation separate and SNe redshift direct from `phi`; keep BOSS/CMB outcomes,
-caustics, G225, protected work, `X_max`, and P1/G116/G189 closed. The 236-row registry controls.
+Next lay `MAP -> PONDER` address the G254 closure fork: an independently owned natural metric
+condition or a genuinely global completed-relation law that cuts metric histories. Do not invent
+one inside an ODE/GPU solve, fit an unrestricted history function, or promote Cartan/Bianchi/network
+closure to dynamics. The 237-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

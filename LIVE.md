@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G253. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G254. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -43,10 +43,18 @@ chains: direct conditional endpoint redshift; a distinct metric/Jacobi angular s
 downstream absolute-unit attachment. It finds no active P1, G116, G189, fit, outcome, `X_max`, or
 protected construction input. G176 remains working, not canon; history and germ population remain open.
 
+G254 is freshly externally verified with caveats and no scientific repair. Across its exact
+sixteen-source ownership universe, pullback, completed reciprocity, null/Jacobi propagation, Cartan
+compatibility, and network reconstruction evaluate or reconstruct supplied time-live metrics; they
+do not define an ambient metric-history ODE or PDE. A curvature-separated smooth counterfamily
+survives the same completed-pair algebra. The owned active ambient evolution-equation count is zero,
+so reduced ODE and GPU history solves are mathematically undefined and were not launched. This is a
+source-bounded closure result, not zero physics or a no-go for a future invariant/global relation law.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 236-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 237-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -54,7 +62,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 ### Observational boundary
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
-rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G253
+rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G254
 are outcome-blind geometry/typing, not a BOSS result. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
@@ -69,10 +77,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Next lay `MAP -> PONDER` must choose one typed application without conflating the three G253 chains:
-direct relative redshift needs no angular or absolute-scale input; angular pattern work needs a
-supplied metric history/query but no post-readout patch; absolute units need one preregistered
-same-object attachment. Do not fit the kernel or use an attachment to choose history. Keep G248
-aggregation separate; do not cross `A=0`, open BOSS/CMB outcomes, select G225, or import P1,
-`X_max`, Lambda-CDM, G116/G189, or protected work.
+Next lay `MAP -> PONDER` must address the G254 closure fork before any history solve: either locate an
+independently owned diffeomorphism-natural nonidentity condition on the metric, or formulate a
+genuinely global completed-relation condition that constrains metric values rather than merely
+reconstructing them. Do not invent either during a numerical solve, fit an unrestricted history
+function, or use an observational attachment to manufacture the missing equation. Until one branch
+is owned and preregistered, no reduced ODE/PDE or GPU history solve is authorized.
 <!-- STARTUP_CURRENT_END -->
