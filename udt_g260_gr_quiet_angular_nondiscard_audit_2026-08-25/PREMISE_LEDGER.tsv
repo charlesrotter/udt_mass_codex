@@ -1,0 +1,19 @@
+item	status	role	allowed_in_conclusion
+primary_static_spherical_metric	DERIVED_DECLARED_READOUT	complete bounded four-metric	yes
+areal_S2_curvature_k1	DECLARED_F4_ANGULAR_SECTOR	primary angular warp	yes_bounded
+c_E	OBSERVED_CALIBRATION	clock-ruler units	yes
+W3_GR_quiet_limit	WORKING_POSIT_NOT_CANON	motivate bounded comparator	yes_conditional
+vacuum_Einstein_residual	IMPORTED_COMPARISON_ONLY	quiet-regime diagnostic	yes_comparison
+G167_complete_pair_pullback	DERIVED_CONDITIONAL	angular Gram precedes readout	yes_conditional
+G201_angular_amplitudes	DERIVED_CONDITIONAL	angular response on supplied primary history	yes_conditional
+G259_operator_class	NEW_PREMISE_CANDIDATE	conditional parent-operator fork	no
+f_profile	FREE_AND_CLASSIFIED	arbitrary smooth positive function before tests	no_selection
+C	FREE_INTEGRATION_CONSTANT	vacuum-family label	no_selection
+screen_k0	HOSTILE_CORRUPTION_CONTROL	remove primary sphere curvature	no_physics
+isolated_2d_base	HOSTILE_CORRUPTION_CONTROL	drop angular warp entirely	no_physics
+source_matter	OMITTED_OPEN	not part of vacuum audit	no
+nonspherical_timelive	OMITTED_OPEN	outside bounded slice	no
+X_max	OMITTED_OPEN	downstream completion target	no
+observational_values	OMITTED	no calibration or fitting	no
+protected_packages	FORBIDDEN	no read or use	no
+
