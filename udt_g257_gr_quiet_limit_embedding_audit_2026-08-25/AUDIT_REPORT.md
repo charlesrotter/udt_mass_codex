@@ -2,7 +2,7 @@
 
 Date: 2026-08-25
 
-Grade: `INDEPENDENTLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`
+Grade: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__FRESH_GPT54_ACCEPTED_NO_FINDINGS`
 
 ## Primary landing
 
@@ -68,6 +68,8 @@ content vanish on this branch and activate without a fitted regime window at the
 - 4,777 independent assertions total;
 - seven of seven hostile formula mutations caught;
 - production and independent code share no imported implementation or result artifact.
+- fresh sealed gpt-5.4 review independently recomputed the load-bearing tensor algebra and
+  returned `ACCEPT` with no scientific or material packaging defects.
 
 ## Caveats
 
@@ -77,7 +79,7 @@ content vanish on this branch and activate without a fitted regime window at the
 - `r_s=2G_obs M/c_E^2` requires a supplied GR mass/source attachment.
 - The audit excludes matter interiors, horizons and trapped regions, nonspherical fields,
   time-live constraint propagation, cosmology, observations, and global completion.
-- External adversarial review remains open.
+- Fresh external review retained every stated scope limit; it does not canonize W3.
 
 ## Maximum conclusion
 

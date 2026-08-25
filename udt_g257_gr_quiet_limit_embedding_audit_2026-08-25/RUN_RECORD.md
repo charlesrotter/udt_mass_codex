@@ -20,3 +20,14 @@ python3 run_catch_proofs.py
 - GPU: not used;
 - observational data: not read;
 - protected packages: not read.
+
+## Fresh external review
+
+- sealed intake: `/tmp/udt_g257_review_Wfi05xVb`;
+- `REVIEW_SCOPE.json` SHA-256:
+  `ce4040741ff40233a340be8b702010ea0ba6bb43e063605cf36d36fe3e156144`;
+- model: external `gpt-5.4`, high reasoning, web disabled, read-only evidence;
+- disposition: `ACCEPT`;
+- independent recomputation: mixed Einstein components, residual dependence, and GR-branch
+  angular substitution agreed;
+- defects: no scientific or material packaging defect found in the bounded scope.

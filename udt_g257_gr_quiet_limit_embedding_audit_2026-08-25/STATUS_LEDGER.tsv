@@ -10,4 +10,4 @@ mass_translation	CONDITIONAL	r_s=2 G_obs M/c_E^2 needs supplied GR source attach
 udt_departure_law	OPEN	no parent operator selected
 matter_recovery	OPEN	not tested
 time_live_covariant_extension	OPEN	not tested
-external_review	OPEN	fresh adversarial review not yet run
+external_review	ACCEPT	fresh sealed gpt-5.4 review; no scientific or material packaging defect

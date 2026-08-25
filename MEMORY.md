@@ -30,7 +30,7 @@ G255 finds no lost owned closure equation across G165--G254. It reconciles prima
 diagnostic arena. The open object is primary-state value closure.
 
 G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular response reconstructs two jets without propagation; no residual owns a solve.
-G257 provisionally adopts W3 as `WORKING/POSIT` and internally verifies the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; external review and the UDT parent law remain open.
+G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -59,7 +59,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-First obtain fresh external review of G257. If it survives, `MAP -> PONDER -> DERIVE` the covariant
+Next `MAP -> PONDER -> DERIVE` the covariant
 UDT parent-operator requirements whose extra content vanishes on the GR branch and activates
 natively at extremes. Do not fit a regime switch, equate quietness with zero geometry, invent a
 solver residual, or use observations to fill an unrestricted history function.

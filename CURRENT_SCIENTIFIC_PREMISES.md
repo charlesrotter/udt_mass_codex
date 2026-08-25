@@ -54,7 +54,7 @@
 | G254 time-live solver closure | external; no scientific repair | Evaluator; zero ambient residual; ODE/GPU gated |
 | G255 lost-closure recovery | external; no findings | No lost G165--G254 value law; next is primary-state closure |
 | G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
-| G257 GR quiet embedding | internal; external open | `f=1+C/r`; native pair/angular response; nonzero GR balance |
+| G257 GR quiet embedding | external; no findings | `f=1+C/r`; native pair/angular response; nonzero GR balance |
 
 None selects completion/`X_max`.
 ## Scale and limits

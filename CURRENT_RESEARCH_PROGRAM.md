@@ -76,7 +76,7 @@ Phi=-log(T)=-1/2 log(-h00)
   finite-jet realization reconstruct but do not propagate them.
 - G257 adds W3 provisionally as `WORKING/POSIT`. Imported vacuum GR yields the exact bounded primary
   family `f=1+C/r`, matched pair readout, and G201 amplitudes `(-3u/2,+3u/2)`. Quietness is GR balance,
-  not zero geometry. External review and the covariant UDT parent law remain open.
+  not zero geometry. Fresh external review accepted; the covariant UDT parent law remains open.
 
 G206--G257 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
@@ -110,8 +110,8 @@ evaluation, reconstruction, and nonselection; G252 adds only the supplied-clock 
 contract; G253 compresses and audits the three resulting typed chains; G254 closes the attempted
 time-live solver gate negatively and source-boundedly; G255 confirms no closure owner was lost in
 the preceding 90-run arc; G256 closes the bounded value-rank test negatively; G257 then identifies
-the exact GR comparison rail already inside the primary metric. First obtain fresh external review.
-If retained, `MAP -> PONDER -> DERIVE` the covariant UDT parent-operator requirements whose extra
+the exact GR comparison rail already inside the primary metric. Next `MAP -> PONDER -> DERIVE` the
+covariant UDT parent-operator requirements whose extra
 content vanishes on that GR branch and activates natively at extremes. Do not create the missing
 residual inside a numerical solve, fit an unrestricted history function, fit a regime switch,
 equate quietness with zero geometry, aggregate branches, cross caustics, insert `X_max`, or activate

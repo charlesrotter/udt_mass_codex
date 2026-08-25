@@ -33,6 +33,7 @@ def main() -> None:
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_GPT54.md",
         "derive_gr_quiet_embedding.py",
         "verify_independent.py",
         "run_catch_proofs.py",
@@ -48,6 +49,11 @@ def main() -> None:
     assert independent["status"] == "PASS" and independent["assertions"] == 4777
     assert catches["status"] == "PASS" and catches["caught_count"] == 7
 
+    external = (ROOT / "EXTERNAL_REVIEW_GPT54.md").read_text()
+    assert "Disposition: `ACCEPT`" in external
+    assert "Scientific defects: none found" in external
+    assert "ce4040741ff40233a340be8b702010ea0ba6bb43e063605cf36d36fe3e156144" in external
+
     with (ROOT / "SOURCE_MANIFEST.tsv").open(newline="") as fh:
         rows = list(csv.DictReader(fh, delimiter="\t"))
     assert len(rows) == 9
@@ -56,7 +62,7 @@ def main() -> None:
         assert path.is_file(), path
         assert digest(path) == row["sha256"], row["path"]
 
-    print("PASS: G257 package, 9 source hashes, landing, 4777 independent assertions, and 7 catches")
+    print("PASS: G257 package, external ACCEPT, 9 source hashes, landing, 4777 independent assertions, and 7 catches")
 
 
 if __name__ == "__main__":

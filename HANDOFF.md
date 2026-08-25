@@ -33,7 +33,7 @@ G254 finds no ambient history residual in the supplied evaluator chain, so ODE/P
 G255 finds no lost value law across G165--G254. G256 leaves `N-1` anchored values and reconstructs
 two radial jets without propagating them.
 
-G257 is internally verified with caveats; external review is open. W3 is `WORKING/POSIT`, and vacuum
+G257 is externally verified with caveats after gpt-5.4 acceptance. W3 is `WORKING/POSIT`, and vacuum
 Einstein is imported comparison only. The bounded primary exterior contains `f=1+C/r`; its matched
 pair and native G201 angular responses stay active. GR overlap is nonzero GR-balanced geometry.
 The UDT parent law, matter, history, and `C` remain open.
@@ -58,7 +58,7 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next obtain fresh external review of G257. If retained, `MAP -> PONDER -> DERIVE` covariant parent-
+Next `MAP -> PONDER -> DERIVE` covariant parent-
 operator requirements that vanish on the GR branch and permit native extreme-regime departure.
 Do not import a favorite GR-adjacent extension, fit a regime switch, equate GR quietness with zero
 geometry, invent a solver residual, or promote Cartan/Bianchi/network reconstruction to dynamics.

@@ -6775,7 +6775,7 @@ def main() -> None:
     )
     require(
         by_id["G257"]["current_status"].startswith(
-            "INDEPENDENTLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN"
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__FRESH_GPT54_ACCEPTED_NO_SCIENTIFIC_OR_MATERIAL_PACKAGING_DEFECT"
         ),
         "G257 bounded grade changed",
     )
@@ -6813,6 +6813,7 @@ def main() -> None:
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
         "REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_GPT54.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -6861,6 +6862,14 @@ def main() -> None:
         "G257 hostile ledger changed",
     )
     require(len(read_tsv(g257 / "SOURCE_MANIFEST.tsv")) == 9, "G257 source count changed")
+    g257_external = (g257 / "EXTERNAL_REVIEW_GPT54.md").read_text()
+    require(
+        "Disposition: `ACCEPT`" in g257_external
+        and "Scientific defects: none found" in g257_external
+        and "ce4040741ff40233a340be8b702010ea0ba6bb43e063605cf36d36fe3e156144"
+        in g257_external,
+        "G257 fresh external acceptance absent",
+    )
     require(
         "R1_FINAL_RETRY_GPT54_TWO_LIVE_NO_WRITE_REPLAYS_EXIT_ZERO_JSON_IDENTICAL_38_HASHES_UNCHANGED_RUNTIME_EMPTY"
         in by_id["G195"]["current_status"],

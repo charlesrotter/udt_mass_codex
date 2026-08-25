@@ -68,7 +68,7 @@ time-live value/first/second jets have exact smooth Hermite realizations. No own
 law or solver residual was found; ODE/PDE/GPU remain gated. This is source-bounded, not a future-law
 no-go and not permission to fit an unrestricted history function.
 
-G257 is independently verified with caveats; external review is open. W3 is a provisionally
+G257 is externally verified with caveats after fresh gpt-5.4 acceptance. W3 is a provisionally
 authorized `WORKING/POSIT` GR quiet-limit requirement. With vacuum Einstein used only as imported
 comparison, the bounded primary exterior contains `f=1+C/r`. That same metric gives the matched
 pair readout and native G201 amplitudes `A_parallel=-3u/2`, `A_perp=+3u/2`. GR overlap is therefore
@@ -101,8 +101,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G257 sharpens but does not supply the missing parent law. First obtain fresh external review. If
-retained, next `MAP -> PONDER -> DERIVE` the smallest
+G257 sharpens but does not supply the missing parent law. Next `MAP -> PONDER -> DERIVE` the smallest
 covariant UDT parent-operator requirements whose extra content vanishes on the GR branch and can
 depart only through the same reciprocal metric machinery at extremes. Do not choose a favorite
 extension, insert a fitted regime window, identify quietness with zero geometry, repeat the 90-run
