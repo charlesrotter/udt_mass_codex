@@ -1,0 +1,12 @@
+item	provenance	status	use
+smooth Lorentz metric	current UDT metric arena	SUPPLIED_CONDITIONAL_QUERY	ambient contractions and Levi-Civita transport
+completed pair pullback h=F^*g	G176-G180	DERIVED_FROM_SUPPLIED_REALIZATION	intrinsic two-dimensional metric
+completed-pair Dual Reciprocity	G176-G180	WORKING_FOUNDATIONAL_CLARIFICATION	fixes positive ruler density and determinant-one calibration
+completed normalized null germ	G190/G222	DERIVED_CONDITIONAL	local K=U+N in supplied pair plane
+endpoint frequency ratio r	G220/G224	DERIVED_CONDITIONAL	directional null clock ratio on supplied branch
+transported mismatch W	G269	DERIVED_CONDITIONAL_BILOCAL_GEOMETRIC_COMPONENT	computed after ambient transport on supplied realization
+Jacobi screen and shared-event screen carry	G188/G225	SEPARATE_DERIVED_CONDITIONAL_CHANNELS	not identified with W
+physical observer relation population	none	OPEN_OMITTED	no selection claim
+history distance Xmax observation source matter transfer canon	none	OPEN_OMITTED	forbidden widening
+symbolic and exact rational arithmetic	mathematical method	CATEGORY_A_CERTIFICATION	no physical premise
+
