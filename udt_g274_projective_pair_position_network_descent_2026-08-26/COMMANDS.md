@@ -1,0 +1,10 @@
+# G274 commands
+
+```bash
+python3 udt_g274_projective_pair_position_network_descent_2026-08-26/derive_projective_network_descent.py
+python3 udt_g274_projective_pair_position_network_descent_2026-08-26/verify_projective_network_independent.py
+python3 udt_g274_projective_pair_position_network_descent_2026-08-26/run_catch_proofs.py
+python3 udt_g274_projective_pair_position_network_descent_2026-08-26/verify_package.py
+python3 udt_g274_projective_pair_position_network_descent_2026-08-26/verify_package.py --no-write
+python3 verify_current_scientific_premises.py
+```

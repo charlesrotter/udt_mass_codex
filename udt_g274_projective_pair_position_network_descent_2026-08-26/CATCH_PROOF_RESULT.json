@@ -1,0 +1,13 @@
+{
+  "catches": {
+    "commuting_noncollinear_relations_caught": true,
+    "erased_screen_component_caught": true,
+    "path_label_erasure_caught": true,
+    "physical_canonization_caught": true,
+    "scale_selection_caught": true,
+    "vector_only_composition_caught": true
+  },
+  "implementation_mutations_caught": 5,
+  "status": "PASS",
+  "typed_scope_catches_passed": 1
+}

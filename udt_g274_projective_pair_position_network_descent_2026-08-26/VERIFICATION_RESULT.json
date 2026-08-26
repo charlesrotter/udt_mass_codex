@@ -1,0 +1,17 @@
+{
+  "active_screen_cases": 20000,
+  "collinear_mobius_controls": 20000,
+  "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+  "implementation_mutations_caught": 5,
+  "independent_cases": 20000,
+  "independent_exact_assertions": 240004,
+  "landing": "FULL_PATH_LABELLED_FRAME_MORPHISMS_DESCEND_EXACTLY__PROJECTIVE_OPEN_BALL_VECTOR_IS_A_VALID_PAIR_COORDINATE_BUT_NOT_A_STANDALONE_NONRADIAL_COMPOSITION_LAW__SCREEN_FRAME_CARRY_IS_REQUIRED__RADIAL_MOBIUS_STRATUM_CLOSES__SCALE_HISTORY_BRANCH_POPULATION_AND_XMAX_REMAIN_OPEN",
+  "no_write_replays": 3,
+  "overlap_covariance_controls": 20000,
+  "production_checks": 26,
+  "source_paths_within_scope_root": 11,
+  "source_rows": 11,
+  "status": "PASS",
+  "typed_scope_catches_passed": 1,
+  "vector_only_separators": 20000
+}

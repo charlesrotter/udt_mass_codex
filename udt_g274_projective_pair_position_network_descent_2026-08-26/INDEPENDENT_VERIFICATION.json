@@ -1,0 +1,18 @@
+{
+  "X_max_used": false,
+  "active_screen_cases": 20000,
+  "arithmetic": "fractions.Fraction exact rational",
+  "branch_population_selected": false,
+  "cases": 20000,
+  "collinear_mobius_controls": 20000,
+  "exact_assertions": 240004,
+  "history_selected": false,
+  "landing": "FULL_PATH_LABELLED_FRAME_MORPHISMS_DESCEND_EXACTLY__PROJECTIVE_OPEN_BALL_VECTOR_IS_A_VALID_PAIR_COORDINATE_BUT_NOT_A_STANDALONE_NONRADIAL_COMPOSITION_LAW__SCREEN_FRAME_CARRY_IS_REQUIRED__RADIAL_MOBIUS_STRATUM_CLOSES__SCALE_HISTORY_BRANCH_POPULATION_AND_XMAX_REMAIN_OPEN",
+  "observations_used": false,
+  "overlap_covariance_controls": 20000,
+  "physical_position_attachment": "CANDIDATE_NOT_ADOPTED",
+  "production_imported": false,
+  "scale_selected": false,
+  "status": "PASS",
+  "vector_only_separators": 20000
+}

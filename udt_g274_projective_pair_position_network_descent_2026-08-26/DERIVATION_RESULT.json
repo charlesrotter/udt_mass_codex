@@ -1,0 +1,70 @@
+{
+  "checks": {
+    "both_screen_components_active": true,
+    "bs_inverse_is_opposite_boost": true,
+    "bs_preserves_lorentz_metric": true,
+    "bs_projective_norm_below_one": true,
+    "bx_inverse_is_opposite_boost": true,
+    "bx_preserves_lorentz_metric": true,
+    "bx_projective_norm_below_one": true,
+    "common_rescaling_does_not_select_scale": true,
+    "common_scale_normalization_cancels": true,
+    "composite_projective_norm_below_one": true,
+    "full_composite_preserves_metric": true,
+    "full_reversal_inverts_composite": true,
+    "middle_composition_exact": true,
+    "noncollinear_boost_product_not_pure_symmetric_boost": true,
+    "open_ball_vector_is_clock_projectivization": true,
+    "overlap_changes_coordinates_not_morphism_content": true,
+    "overlap_full_arrow_covariance": true,
+    "path_holonomy_not_forced_to_identity": true,
+    "radial_mobius_associative": true,
+    "radial_projective_is_mobius": true,
+    "radial_reversal": true,
+    "rotation2_preserves_lorentz_metric": true,
+    "rotation_preserves_lorentz_metric": true,
+    "same_pair_vectors_different_carried_composite": true,
+    "same_projective_vector_under_right_spatial_carry": true,
+    "vector_projection_not_composition_congruence": true
+  },
+  "exact_checks": 26,
+  "landing": "FULL_PATH_LABELLED_FRAME_MORPHISMS_DESCEND_EXACTLY__PROJECTIVE_OPEN_BALL_VECTOR_IS_A_VALID_PAIR_COORDINATE_BUT_NOT_A_STANDALONE_NONRADIAL_COMPOSITION_LAW__SCREEN_FRAME_CARRY_IS_REQUIRED__RADIAL_MOBIUS_STRATUM_CLOSES__SCALE_HISTORY_BRANCH_POPULATION_AND_XMAX_REMAIN_OPEN",
+  "scope": {
+    "X_max": "OPEN_NOT_USED",
+    "branch_population": "OPEN_NOT_SELECTED",
+    "dimensionful_scale": "OPEN_NOT_SELECTED",
+    "history": "OPEN_NOT_SELECTED",
+    "observations": "NOT_USED",
+    "path_labels": "RETAINED",
+    "physical_position_attachment": "CANDIDATE_NOT_ADOPTED"
+  },
+  "selected_alternative": "B__FULL_FRAME_MORPHISM_DESCENDS__PROJECTIVE_VECTOR_REQUIRES_CARRY__RADIAL_MOBIUS_EXACT",
+  "separator": {
+    "v_AB": [
+      "3/5",
+      "0",
+      "0"
+    ],
+    "v_BC": [
+      "0",
+      "200/441",
+      "160/441"
+    ],
+    "v_BC_same_after_right_spatial_carry": [
+      "0",
+      "200/441",
+      "160/441"
+    ],
+    "v_composite_with_hidden_carry": [
+      "0",
+      "131/165",
+      "184/561"
+    ],
+    "v_composite_without_carry": [
+      "359/735",
+      "200/441",
+      "160/441"
+    ]
+  },
+  "status": "PASS"
+}

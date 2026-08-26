@@ -1,0 +1,14 @@
+item	status	qualification
+full_path_labelled_frame_morphism	DERIVED_CONDITIONAL	supplied complete relation and Levi-Civita transport
+middle_observer_composition	DERIVED_CONDITIONAL	Lambda_AC=Lambda_BC Lambda_AB on declared concatenation
+reversal	DERIVED_CONDITIONAL	full morphism inverse
+overlap_descent	DERIVED_CONDITIONAL	covariant under independent endpoint frame-chart changes
+complete_projective_open_ball_vector	DERIVED_CONDITIONAL	exact clock-column coordinate with longitudinal plus two screen components
+universal_vector_only_nonradial_composition	REFUTED	exact right-spatial-carry separator
+screen_frame_carry	DERIVED_CONDITIONAL	full morphism information required after projectivization
+radial_mobius_composition	EXACT_STRATUM	collinear oriented relation
+path_independence	NOT_DERIVED	different paths may differ by holonomy
+physical_position_attachment	CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_ADOPTED	conditionally coherent only
+dimensionful_X	OPEN_NOT_SELECTED	common rescaling leaves normalized relation invariant
+history_branch_population_Xmax	OPEN_NOT_SELECTED	no observation law fit source action or boundary used
+package_grade	INTERNALLY_VERIFIED_LEAD	external adversarial review open
