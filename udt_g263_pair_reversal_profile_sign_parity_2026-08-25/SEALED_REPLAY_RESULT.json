@@ -1,0 +1,33 @@
+{
+  "areal_sphere_guard_cases": 1000,
+  "assertion_count": 38010,
+  "case_count": 1000,
+  "constant_jet_limit_qualification": "elementary_limits_of_N_1_over_s_mu_half_1_minus_1_over_s2_Aparallel_0_Aperp_1_minus_1_over_s2",
+  "constant_jet_witnesses": [
+    {
+      "Aparallel": "0",
+      "Aperp": "9999/10000",
+      "N": "1/100",
+      "mu_over_r": "9999/20000",
+      "s": "100"
+    },
+    {
+      "Aparallel": "0",
+      "Aperp": "-9999",
+      "N": "100",
+      "mu_over_r": "-9999/2",
+      "s": "1/100"
+    }
+  ],
+  "implementation": "standard_library_fraction_no_sympy_no_production_import_no_result_read",
+  "metric_separation_cases": 947,
+  "nonquiet_conjugate_zero_tide_cases": 577,
+  "qualification": "dependency_free_exact_algebra_not_epistemically_independent_physical_derivation",
+  "shared_scalar_inversion_cases": 1000,
+  "signed_profile_cases": {
+    "negative_phi": 421,
+    "positive_phi": 526,
+    "zero_phi": 53
+  },
+  "status": "PASS"
+}

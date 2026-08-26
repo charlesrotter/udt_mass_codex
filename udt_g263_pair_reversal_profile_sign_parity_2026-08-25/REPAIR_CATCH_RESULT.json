@@ -1,0 +1,14 @@
+{
+  "caught": {
+    "mutation_evidence_corrupted": true,
+    "negative_end_angular_corrupted": true,
+    "pair_contrast_replaced_with_padding": true,
+    "pair_delta_reversal_weakened": true,
+    "positive_end_angular_corrupted": true,
+    "sealed_replay_evidence_corrupted": true,
+    "shared_scalar_story_corrupted": true
+  },
+  "caught_count": 7,
+  "qualification": "altered_copy_evidence_guard_not_scientific_proof",
+  "status": "PASS"
+}

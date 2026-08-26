@@ -15,32 +15,70 @@ LANDING = (
     "__SCALAR_DEPTH_INVERSION_SHARED_BUT_COMPLETE_CHANNEL_PARITIES_MIXED"
 )
 
+EXPECTED_CHECKS = (
+    "pair_reversal_inverse",
+    "pair_D_even",
+    "pair_D_odd",
+    "pair_D_reconstruction",
+    "pair_clock_even",
+    "pair_clock_odd",
+    "pair_chi_odd",
+    "pair_contrast_even",
+    "profile_f_inverse",
+    "profile_lapse_inverse",
+    "profile_lapse_even",
+    "profile_lapse_odd",
+    "profile_f_even",
+    "profile_f_odd",
+    "mass_aspect_even",
+    "mass_aspect_odd",
+    "mass_aspect_reconstruction",
+    "acceleration_even",
+    "acceleration_odd",
+    "E0_even",
+    "E0_odd",
+    "E1_even",
+    "E1_odd",
+    "Aparallel_even",
+    "Aparallel_odd",
+    "Aperp_even",
+    "Aperp_odd",
+    "angular_residual_join",
+    "conjugate_angular_residual_join",
+    "zero_tide_conjugate_Aparallel",
+    "zero_tide_conjugate_Aperp",
+)
+
+EXPECTED_OPERATIONS = {
+    "R_pair": "endpoint swap at fixed ambient metric; delta->-delta",
+    "C_phi": "whole profile and jets conjugated; (phi,p,z)->(-phi,-p,-z), f->1/f",
+}
+
+EXPECTED_SEPARATION = {
+    "distinct": "R_pair fixes g; C_phi changes g_phi to g_minus_phi and generally changes every hierarchy channel",
+    "shared": "both can invert endpoint scalar depth when C_phi acts on both endpoint values",
+    "sphere_guard": "areal r^2 dOmega^2 is unchanged under C_phi, so clock/radial coefficient exchange is not a full coframe swap",
+}
+
+EXPECTED_ENDS = {
+    "phi_to_negative_infinity": "N->infinity; mu/r->-infinity; Aparallel->0; Aperp->-infinity",
+    "phi_to_positive_infinity": "N->0; mu/r->1/2; Aparallel->0; Aperp->1",
+}
+
 
 def validate(data: dict[str, object]) -> None:
     if data["status"] != "PASS" or data["landing"] != LANDING:
         raise AssertionError("landing")
     if data["classification"] != "SCALAR_EQUIVALENCE_ONLY":
         raise AssertionError("classification")
-    if data["symbolic_check_count"] != 31:
+    if data["symbolic_check_count"] != len(EXPECTED_CHECKS):
         raise AssertionError("symbolic count")
-    checks = data["symbolic_checks"]
-    for required in (
-        "pair_reversal_inverse",
-        "angular_residual_join",
-        "conjugate_angular_residual_join",
-        "zero_tide_conjugate_Aparallel",
-        "zero_tide_conjugate_Aperp",
-    ):
-        if required not in checks:
-            raise AssertionError(required)
-    if not data["operations"]["R_pair"].startswith("endpoint swap at fixed ambient metric"):
+    if data["symbolic_checks"] != list(EXPECTED_CHECKS):
+        raise AssertionError("complete symbolic check set")
+    if data["operations"] != EXPECTED_OPERATIONS:
         raise AssertionError("R_pair type")
-    if "whole profile and jets conjugated" not in data["operations"]["C_phi"]:
-        raise AssertionError("C_phi type")
-    if not data["separation"]["distinct"].startswith("R_pair fixes g"):
-        raise AssertionError("operation separation")
-    if "areal r^2 dOmega^2 is unchanged" not in data["separation"]["sphere_guard"]:
-        raise AssertionError("sphere guard")
+    if data["separation"] != EXPECTED_SEPARATION:
+        raise AssertionError("operation separation and shared scalar")
     ownership = data["ownership"]
     if ownership["profile_conjugation"] != "MATHEMATICAL_DIAGNOSTIC_NOT_PHYSICAL_SYMMETRY":
         raise AssertionError("profile ownership")
@@ -50,10 +88,8 @@ def validate(data: dict[str, object]) -> None:
         raise AssertionError("mass promotion")
     if ownership["universal_angular_loudness"] != "NOT_DERIVED_G201_ZERO_TIDE_COUNTERFAMILY_RETAINED":
         raise AssertionError("lockstep promotion")
-    if "mu/r->1/2" not in data["asymptotic_constant_jet"]["phi_to_positive_infinity"]:
-        raise AssertionError("positive asymptotic")
-    if "mu/r->-infinity" not in data["asymptotic_constant_jet"]["phi_to_negative_infinity"]:
-        raise AssertionError("negative asymptotic")
+    if data["asymptotic_constant_jet"] != EXPECTED_ENDS:
+        raise AssertionError("scoped constant-jet asymptotics")
 
 
 def run() -> dict[str, object]:
@@ -73,6 +109,20 @@ def run() -> dict[str, object]:
         "symbolic_count_reduced": lambda d: d.update(symbolic_check_count=30),
         "angular_join_removed": lambda d: d["symbolic_checks"].remove("angular_residual_join"),
         "zero_tide_conjugate_claimed_quiet": lambda d: d["symbolic_checks"].remove("zero_tide_conjugate_Aperp"),
+        "shared_scalar_story_corrupted": lambda d: d["separation"].update(shared="shared scalar inversion never happens"),
+        "pair_contrast_replaced_with_padding": lambda d: (
+            d["symbolic_checks"].remove("pair_contrast_even"),
+            d["symbolic_checks"].append("bogus_placeholder_check"),
+        ),
+        "positive_end_angular_corrupted": lambda d: d["asymptotic_constant_jet"].update(
+            phi_to_positive_infinity="N->0; mu/r->1/2; Aparallel->999; Aperp->999"
+        ),
+        "negative_end_angular_corrupted": lambda d: d["asymptotic_constant_jet"].update(
+            phi_to_negative_infinity="N->infinity; mu/r->-infinity; Aparallel->999; Aperp->999"
+        ),
+        "pair_delta_reversal_weakened": lambda d: d["operations"].update(
+            R_pair="endpoint swap at fixed ambient metric; delta stays the same except in examples"
+        ),
     }
     caught: dict[str, bool] = {}
     for name, mutate in mutations.items():

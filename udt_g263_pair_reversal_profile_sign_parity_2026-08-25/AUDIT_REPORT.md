@@ -1,7 +1,7 @@
 # G263 audit report — pair reversal and signed-profile parity
 
 Date: 2026-08-25
-Grade: `PROVISIONAL_PENDING_FRESH_ADVERSARIAL_REVIEW`
+Grade: `PROVISIONAL_REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
 
 ## Primary landing
 
@@ -41,14 +41,19 @@ reversal.
 - 31 exact symbolic identities;
 - 1,000 implementation-distinct rational cases spanning both signs of `phi`;
 - 29,000 exact standard-library assertions;
-- 12/12 applied artifact mutations rejected;
+- dependency-free sealed replay: 38,010 exact assertions over 1,000 cases, including shared scalar
+  inversion, areal-sphere protection, both profile signs, and the zero-tide separator;
+- 17/17 applied artifact mutations rejected, including all five fresh-review escape probes;
+- 7/7 disposable altered-copy guards rejected the five reviewer escapes and corrupted evidence;
+- fresh external review accepted the bounded scientific landing and requested evidence-only repairs;
 - no observations, fits, GPU, source, action, physical-mass model, or protected input.
 
 ## Four gates
 
 1. Preregistered: yes.
 2. Full or bounded: exact local primary static-spherical second-jet classification only.
-3. Independently verified: implementation-distinct algebra yes; fresh adversarial review pending.
+3. Independently verified: implementation-distinct algebra and fresh adversarial algebra yes;
+   evidence repairs implemented; repair-only follow-up pending.
 4. Premises audited: yes; profile conjugation remains a diagnostic, not a physical symmetry.
 
 ## Maximum conclusion
@@ -57,3 +62,7 @@ The same pair has a native reversal-even reciprocal magnitude and reversal-odd d
 signed whole-profile sectors are generally geometrically inequivalent and may behave very
 differently. No universal angular loudness, valued history, mass/source law, or physical selection
 is derived.
+
+The repairs change no scientific formula or landing. The standard-library replay is exact algebra,
+not an epistemically independent physical derivation. Closure requires the preregistered external
+repair-only follow-up.

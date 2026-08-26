@@ -1,6 +1,6 @@
 {
-  "caught_count": 12,
-  "mutation_count": 12,
+  "caught_count": 17,
+  "mutation_count": 17,
   "mutations": {
     "angular_join_removed": true,
     "full_equivalence_promoted": true,
@@ -8,9 +8,14 @@
     "lockstep_loudness_promoted": true,
     "mass_promoted": true,
     "negative_asymptotic_mirrored": true,
+    "negative_end_angular_corrupted": true,
+    "pair_contrast_replaced_with_padding": true,
+    "pair_delta_reversal_weakened": true,
     "pair_metric_not_fixed": true,
     "positive_asymptotic_corrupted": true,
+    "positive_end_angular_corrupted": true,
     "profile_called_physical_symmetry": true,
+    "shared_scalar_story_corrupted": true,
     "sphere_deleted": true,
     "symbolic_count_reduced": true,
     "zero_tide_conjugate_claimed_quiet": true
