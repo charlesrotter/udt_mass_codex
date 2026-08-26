@@ -9,10 +9,10 @@
 | hostile implementation catches | `PASS` | 6/6 |
 | typed scope-regression catches | `PASS` | 6/6 textual guards; not an independent physics derivation |
 | premise audit | `PASS` | no history, distance, `X_max`, source, action, fit, or dynamics imported |
-| external adversarial review | `ACCEPT_WITH_REPAIRS` | algebra and bounded landing accepted; one false packaging objection documented and one spherical-reduction wording repair applied; repair-only follow-up open |
+| external adversarial review | `PASS_EXTERNAL` | fresh review accepted algebra and bounded landing; repair-only follow-up returned `ACCEPT_REPAIRS_AND_CLOSE` |
 
 Current grade:
-`INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIR_ONLY_FOLLOWUP_OPEN`.
+`EXTERNALLY_REVIEWED_BOUNDED_LEAD__REPAIRS_ACCEPTED`.
 
 Maximum conclusion: the arbitrary supplied primary static metric locally interlocks direct depth
 and transported-screen generation as angular projections of one metric first jet. Finite-path and

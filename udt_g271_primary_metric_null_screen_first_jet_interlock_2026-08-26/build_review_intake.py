@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
-    intake = Path(tempfile.mkdtemp(prefix="udt_g271_repair_followup_", dir="/tmp"))
+    intake = Path(tempfile.mkdtemp(prefix="udt_g271_closed_review_", dir="/tmp"))
     package_target = intake / PACKAGE.name
     shutil.copytree(PACKAGE, package_target, ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
 
@@ -36,11 +36,11 @@ def main() -> None:
             shutil.copy2(source, target)
 
     scope = {
-        "title": "G271 primary-metric null-screen first-jet interlock repair-only follow-up",
-        "mode": "READ_ONLY_REPAIR_ONLY_FOLLOWUP_REVIEW",
+        "title": "G271 primary-metric null-screen first-jet interlock closed review record",
+        "mode": "READ_ONLY_CLOSED_REVIEW_RECORD",
         "scientific_scope": (
-            "Verify only the explicit source-path containment proof, the spherical-isometry "
-            "coverage repair, and the unchanged bounded G271 scientific landing."
+            "Preserve the externally closed source-path containment and spherical-isometry repairs "
+            "with the unchanged bounded G271 scientific landing."
         ),
         "prohibited": [
             "edit evidence files",
@@ -60,10 +60,7 @@ def main() -> None:
             "R1 prove all SOURCE_MANIFEST paths remain inside the sealed intake scope root",
             "R2 make the spherical-isometry reduction from arbitrary germ to equatorial representative explicit",
         ],
-        "package_grade": (
-            "INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__"
-            "REPAIR_ONLY_FOLLOWUP_OPEN"
-        ),
+        "package_grade": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__REPAIRS_ACCEPTED",
     }
     scope_path = intake / "REVIEW_SCOPE.json"
     scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")

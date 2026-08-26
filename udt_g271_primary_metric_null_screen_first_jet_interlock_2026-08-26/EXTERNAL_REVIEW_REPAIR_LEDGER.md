@@ -49,5 +49,5 @@ that prohibited conclusion strings are caught, not promoted as an independent ph
 
 ## Retained landing
 
-The bounded G271 scientific landing is unchanged. A repair-only external follow-up remains required
-before upgrading the external grade.
+The bounded G271 scientific landing is unchanged. External gpt-5.4 repair-only follow-up returned
+`ACCEPT_REPAIRS_AND_CLOSE`; see `EXTERNAL_REPAIR_FOLLOWUP.md`.

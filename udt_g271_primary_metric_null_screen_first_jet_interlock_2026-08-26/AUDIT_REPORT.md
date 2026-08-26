@@ -82,4 +82,4 @@ action, transfer, or canon.
 - no GPU, fit, linearized metric, or chosen profile.
 
 Current grade:
-`INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIR_ONLY_FOLLOWUP_OPEN`.
+`EXTERNALLY_REVIEWED_BOUNDED_LEAD__REPAIRS_ACCEPTED`.

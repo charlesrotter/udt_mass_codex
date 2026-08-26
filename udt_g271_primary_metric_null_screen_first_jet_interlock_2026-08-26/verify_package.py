@@ -59,6 +59,7 @@ def main() -> None:
         "EVIDENCE_GATES.md",
         "EXTERNAL_REVIEW.md",
         "EXTERNAL_REVIEW_REPAIR_LEDGER.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
         "EXACT_DERIVATION.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
@@ -103,8 +104,7 @@ def main() -> None:
     )
     assert not any(token in report for token in forbidden_promotions)
     assert (
-        "INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__"
-        "REPAIR_ONLY_FOLLOWUP_OPEN"
+        "EXTERNALLY_REVIEWED_BOUNDED_LEAD__REPAIRS_ACCEPTED"
     ) in report
 
     result = {
@@ -117,10 +117,7 @@ def main() -> None:
         "implementation_mutations_caught": 6,
         "typed_conclusion_catches_passed": 6,
         "no_write_replays": 3,
-        "grade": (
-            "INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__"
-            "REPAIR_ONLY_FOLLOWUP_OPEN"
-        ),
+        "grade": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__REPAIRS_ACCEPTED",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:
