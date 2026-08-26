@@ -66,9 +66,6 @@ query task-relevant registry rows.
   `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`—sign nonselection, conditional alpha-two threshold; packaging accepted with runtime caveat;
   `udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/`—null-delay identity and signed/even channel separation;
   `udt_g266_covariant_mutual_pair_even_channel_ownership_2026-08-26/`—`cosh/sinh`; `udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/`—bounded state, distance/history open.
-- Bounded mutual-state closure: `udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/`—exact finite reparameterization, no value/history selection;
-  `udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/`—independent metric null-transport evaluator and sharp `sech` bound;
-  `udt_g270_completed_pair_transported_screen_ownership_2026-08-26/`—full supplied realization evaluates `W`, intrinsic pullback does not select it.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -110,7 +107,4 @@ Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHOR
 ## Protected local paths
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without explicit authority.
 ## Archives
-Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`,
-`archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-17_pre_zoomout/`, and `archive/startup_surface_2026-08-14/`.
-G218 disposition: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Snapshots: `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; G218 disposition: `archive/startup_surface_2026-08-22_pre_cleanup/`.

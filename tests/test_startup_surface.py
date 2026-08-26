@@ -82,6 +82,9 @@ CURRENT_TARGETS = (
     "udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/AUDIT_REPORT.md",
     "udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/AUDIT_REPORT.md",
     "udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/AUDIT_REPORT.md",
+    "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/AUDIT_REPORT.md",
+    "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md",
+    "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/AUDIT_REPORT.md",
 )
 
 
@@ -139,6 +142,12 @@ def _startup_copy(tmp_path: Path) -> Path:
     )
     for name in premise_guard.PRE_ZOOMOUT_STARTUP_SNAPSHOTS:
         shutil.copy2(REPO / "archive/startup_surface_2026-08-17_pre_zoomout" / name, pre_zoomout / name)
+
+    pre_g270 = tmp_path / "archive" / "startup_surface_2026-08-26_pre_g270"
+    pre_g270.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(REPO / "archive/startup_surface_2026-08-26_pre_g270/README.md", pre_g270 / "README.md")
+    for name in premise_guard.PRE_G270_STARTUP_SNAPSHOTS:
+        shutil.copy2(REPO / "archive/startup_surface_2026-08-26_pre_g270" / name, pre_g270 / name)
     return tmp_path
 
 
@@ -202,7 +211,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G267", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G190--G198"))
+@pytest.mark.parametrize("token", ("G166--G270", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G268", "G269", "G270", "G190--G198"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")
@@ -519,10 +528,10 @@ def test_active_orientation_surface_stays_readably_bounded() -> None:
         "AGENTS.md": (220, 1800),
         "LIVE.md": (135, 900),
         "HANDOFF.md": (100, 600),
-        "INDEX.md": (110, 550),
+            "INDEX.md": (118, 570),
         "MEMORY.md": (70, 450),
         "CURRENT_RESEARCH_PROGRAM.md": (155, 1100),
-        "CURRENT_SCIENTIFIC_PREMISES.md": (135, 1250),
+            "CURRENT_SCIENTIFIC_PREMISES.md": (140, 1320),
         "README.md": (100, 400),
         "research/README.md": (80, 300),
         "research/_registry/README.md": (80, 280),

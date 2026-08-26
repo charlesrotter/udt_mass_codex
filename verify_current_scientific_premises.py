@@ -74,6 +74,8 @@ STARTUP_ARCHIVE_CONTROLS = (
     "archive/startup_surface_2026-08-22_pre_cleanup/BASELINE_REHEARSAL_LEDGER.tsv",
     "archive/startup_surface_2026-08-22_pre_cleanup/POST_REPAIR_REHEARSAL_LEDGER.tsv",
     "archive/startup_surface_2026-08-22_pre_cleanup/REPAIR_SCOPE.md",
+    "archive/startup_surface_2026-08-26_pre_g270/README.md",
+    "archive/startup_surface_2026-08-26_pre_g270/CURRENT_RESEARCH_PROGRAM.md",
 )
 
 STARTUP_SURFACE_CONTROLS = (
@@ -142,6 +144,17 @@ PRE_ZOOMOUT_STARTUP_SNAPSHOTS = {
     "test_startup_surface.py": ("19c079a1bb448943b5456c644c9ae15bf178c158b239fa8aaef49a316ecc7326", 265),
 }
 
+PRE_G270_STARTUP_SNAPSHOTS = {
+    "AGENTS.md": ("8f8b0b37e3b8dba8f54aa3e81349cb68e81cba33e76352098f7870f6cdfb4e78", 216),
+    "CURRENT_RESEARCH_PROGRAM.md": ("54db912e6e732bec9f83e4dc8c83148e4e66c6505099b0d7cb04e2fd5ff33c32", 130),
+    "CURRENT_SCIENTIFIC_PREMISES.md": ("41cb63726d44d5b55a35830be5ca32626f9eff6f5dc16a7dbb6fe10aa3c42454", 132),
+    "HANDOFF.md": ("64c58c4d1c78508b31759b424f6c6a607549d7727e3c64cdea1ce798b87b6b31", 69),
+    "INDEX.md": ("0736bf5c167cf5a4a9aaab4d946cf149748ba02b837ab90b25c670fbe10e1e5a", 110),
+    "LIVE.md": ("21f4054adb79eab770d7ffcbe596eaac3d34833f215a393f4133108c261ce449", 99),
+    "MEMORY.md": ("cc8abb8e5324fc3fa2cb815a116d26494ff43d19014116773d273ca552885f64", 55),
+    "root_README.md": ("938e7342ba7525541514126dc9c20bcd252369b70111234533a3a2a5b18410e5", 57),
+}
+
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -151,15 +164,18 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 def replay_package_with_current_registry_rows_removed(
     package: Path,
     removed_ids: tuple[str, ...],
+    frozen_source_overrides: dict[str, Path] | None = None,
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
+    removed_ids = tuple(dict.fromkeys(("G270", "G269", "G268") + removed_ids))
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
         copied_package = root / package.name
         shutil.copytree(package, copied_package)
         manifest = read_tsv(package / "SOURCE_MANIFEST.tsv")
         for row in manifest:
-            source = ROOT / row["path"]
+            override = (frozen_source_overrides or {}).get(row["path"])
+            source = ROOT / (override if override is not None else Path(row["path"]))
             payload = source.read_bytes()
             if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 lines = payload.splitlines(keepends=True)
@@ -233,7 +249,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G267",
+            "G166--G270",
             "G197",
             "G215",
             "G216",
@@ -288,6 +304,9 @@ def validate_startup_surface(root: Path) -> None:
             "G265",
             "G266",
             "G267",
+            "G268",
+            "G269",
+            "G270",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -301,6 +320,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/startup_surface_2026-08-17_pre_zoomout",
             "archive/startup_surface_2026-08-21_pre_g197",
             "archive/startup_surface_2026-08-22_pre_cleanup",
+            "archive/startup_surface_2026-08-26_pre_g270",
             "higher/full",
             "OPEN",
         ):
@@ -330,7 +350,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "250-row exact registry",
+            "253-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -424,9 +444,13 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g264_negative_phi_native_selectivity_classification_2026-08-25/",
             "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/",
             "udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/",
+            "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/",
+            "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/",
+            "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
+            "archive/startup_surface_2026-08-26_pre_g270/",
             "archive/scaffolded_kernel_controls_2026-08-19/README.md",
             "Historical negative controls",
             "CLAUDE.md",
@@ -437,7 +461,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G267",
+            "G166--G270",
             "G197",
             "G198",
             "G199",
@@ -510,6 +534,9 @@ def validate_startup_surface(root: Path) -> None:
             "G265",
             "G266",
             "G267",
+            "G268",
+            "G269",
+            "G270",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -517,6 +544,7 @@ def validate_startup_surface(root: Path) -> None:
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "archive/startup_surface_2026-08-17_pre_zoomout/",
             "archive/startup_surface_2026-08-21_pre_g197/",
+            "archive/startup_surface_2026-08-26_pre_g270/",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
@@ -595,6 +623,9 @@ def validate_startup_surface(root: Path) -> None:
             "G265",
             "G266",
             "G267",
+            "G268",
+            "G269",
+            "G270",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -675,10 +706,13 @@ def validate_startup_surface(root: Path) -> None:
             "G265",
             "G266",
             "G267",
+            "G268",
+            "G269",
+            "G270",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "250-row",
+            "253-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -694,6 +728,7 @@ def validate_startup_surface(root: Path) -> None:
             "MEMORY.md",
             "stop and give the orientation report",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
+            "archive/startup_surface_2026-08-26_pre_g270/",
             "codex_rehearsal_final.md",
             "historical/search-only evidence",
             "common-scale, elegant-frame, simple-metric, problem-statement",
@@ -997,6 +1032,9 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/AUDIT_REPORT.md",
         "udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/AUDIT_REPORT.md",
         "udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/AUDIT_REPORT.md",
+        "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/AUDIT_REPORT.md",
+        "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md",
+        "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -1020,12 +1058,24 @@ def validate_startup_surface(root: Path) -> None:
         line_count = len(path.read_text(encoding="utf-8").splitlines())
         require(line_count == expected_lines, f"pre-zoomout archive line-count mismatch: {name}")
 
+    pre_g270 = root / "archive" / "startup_surface_2026-08-26_pre_g270"
+    pointer = pre_g270 / "README.md"
+    require(pointer.is_file(), "pre-G270 archive pointer missing")
+    pointer_text = pointer.read_text(encoding="utf-8")
+    for token in ("87b8e666", "G268--G270", "git show 87b8e666:LIVE.md", "No scientific evidence was moved or regraded"):
+        require(token in pointer_text, f"pre-G270 archive pointer lacks {token}")
+    for name, (expected_hash, expected_lines) in PRE_G270_STARTUP_SNAPSHOTS.items():
+        path = pre_g270 / name
+        require(path.is_file(), f"pre-G270 startup snapshot missing: {name}")
+        require(hashlib.sha256(path.read_bytes()).hexdigest() == expected_hash, f"pre-G270 startup hash mismatch: {name}")
+        require(len(path.read_text(encoding="utf-8").splitlines()) == expected_lines, f"pre-G270 startup line-count mismatch: {name}")
+
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 250, "premise registry must contain exactly 250 rows")
+    require(len(rows) == 253, "premise registry must contain exactly 253 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 250, "duplicate premise id")
+    require(len(by_id) == 253, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -8178,6 +8228,93 @@ def main() -> None:
         and g267_replayed["history_rejections"] == 0,
         "G267 frozen-registry no-write replay changed",
     )
+    expected_recent = {
+        "G268": {
+            "status": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G268_REPAIRS_ACCEPTED",
+            "active": "ACTIVE_BOUNDED_FINITE_REGULAR_RECIPROCAL_RELATION_SPACE_EQUIVALENCE_COMPACT_ENDPOINT_AND_CONDITIONAL_CROSS_READOUT_CLASSIFICATION_ONLY",
+            "source": "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/AUDIT_REPORT.md",
+            "landing": "FINITE_REGULAR_SECH_STATE_IS_EXACTLY_EQUIVALENT_TO_THE_RECIPROCAL_RELATION_SPACE__COMPACT_ENDPOINTS_FORM_ONLY_A_PARTIAL_NONGROUP_CLOSURE__INDEPENDENT_M_WOULD_GIVE_A_CONDITIONAL_CROSS_READOUT_LAW__NO_RELATION_NETWORK_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+            "checks": 41,
+            "assertions": 95617,
+        },
+        "G269": {
+            "status": "FRESH_EXTERNAL_REVIEW_ACCEPTED_NO_REPAIRS__VERIFIED_WITH_CAVEATS",
+            "active": "ACTIVE_BOUNDED_METRIC_OWNED_QUERY_RELATIVE_NULL_TRANSPORT_MUTUAL_CLOCK_AND_TRANSPORTED_SCREEN_MISMATCH_CLASSIFICATION_ON_SUPPLIED_REGULAR_AFFINE_NULL_RELATIONS_ONLY",
+            "source": "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md",
+            "landing": "METRIC_OWNS_A_QUERY_RELATIVE_NULL_TRANSPORT_MUTUAL_CLOCK_SCALAR__M_PT_IS_BOUNDED_ABOVE_BY_SECH_DELTA__EQUALITY_IFF_THE_TARGET_CLOCK_IS_IN_THE_TRANSPORTED_NULL_PAIR_PLANE__NONZERO_SCREEN_MISMATCH_MAKES_THE_INEQUALITY_STRICT__NO_QUERY_POPULATION_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+            "checks": 34,
+            "assertions": 143715,
+        },
+        "G270": {
+            "status": "EXTERNALLY_ACCEPTED_REPAIRS_COMPLETE",
+            "active": "ACTIVE_BOUNDED_COMPLETED_PAIR_INTRINSIC_PULLBACK_VERSUS_AMBIENT_TRANSPORTED_SCREEN_MISMATCH_OWNERSHIP_CLASSIFICATION_ON_SUPPLIED_REGULAR_NULL_REALIZATIONS_ONLY",
+            "source": "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/AUDIT_REPORT.md",
+            "landing": "FULL_SUPPLIED_REALIZATION_EVALUATES_TRANSPORTED_SCREEN_MISMATCH__COMPLETED_PAIR_DUAL_RECIPROCITY_NORMALIZES_ONLY_THE_INTRINSIC_PULLBACK__EXACT_SAME_PULLBACK_TILTED_NULL_RIBBONS_HAVE_DIFFERENT_W__NO_UNIVERSAL_W_VALUE_POPULATION_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+            "checks": 39,
+            "assertions": 368165,
+        },
+    }
+    recent_packages = {
+        "G268": ROOT / "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26",
+        "G269": ROOT / "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26",
+        "G270": ROOT / "udt_g270_completed_pair_transported_screen_ownership_2026-08-26",
+    }
+    for premise_id, expected in expected_recent.items():
+        row = by_id[premise_id]
+        require(row["current_status"].startswith(expected["status"]), f"{premise_id} grade changed")
+        require(row["epistemic_label"] == "MIXED", f"{premise_id} label changed")
+        require(row["active_use"] == expected["active"], f"{premise_id} active scope widened")
+        require(row["controlling_source"] == expected["source"], f"{premise_id} source changed")
+        require("history" in row["open_scope"] and "distance" in row["open_scope"], f"{premise_id} open boundary narrowed")
+        require("Xmax" in row["forbidden_regression"], f"{premise_id} Xmax regression guard absent")
+        package = recent_packages[premise_id]
+        for name in (
+            "AUDIT_REPORT.md",
+            "DERIVATION_RESULT.json",
+            "INDEPENDENT_VERIFICATION.json",
+            "CATCH_PROOF_RESULT.json",
+            "EXTERNAL_REVIEW.md",
+            "SOURCE_MANIFEST.tsv",
+            "verify_package.py",
+        ):
+            require((package / name).is_file(), f"{premise_id} evidence missing: {name}")
+        production = json.loads((package / "DERIVATION_RESULT.json").read_text())
+        independent = json.loads((package / "INDEPENDENT_VERIFICATION.json").read_text())
+        require(
+            production["status"] == independent["status"] == "PASS"
+            and production["landing"] == independent["expected_landing"] == expected["landing"]
+            and production["exact_checks"] == expected["checks"]
+            and independent["assertions"] == expected["assertions"],
+            f"{premise_id} recorded landing or verification changed",
+        )
+    require("REPAIRS_ACCEPTED" in (recent_packages["G268"] / "REPAIR_FOLLOWUP_REVIEW.md").read_text(), "G268 repair acceptance absent")
+    require("ACCEPT_NO_REPAIRS" in (recent_packages["G269"] / "EXTERNAL_REVIEW.md").read_text(), "G269 external acceptance absent")
+    require("ACCEPT_REPAIRS" in (recent_packages["G270"] / "REPAIR_FOLLOWUP_REVIEW.md").read_text(), "G270 repair acceptance absent")
+    require(len(read_tsv(recent_packages["G268"] / "SOURCE_MANIFEST.tsv")) == 10, "G268 source count changed")
+    require(len(read_tsv(recent_packages["G269"] / "SOURCE_MANIFEST.tsv")) == 11, "G269 source count changed")
+    require(len(read_tsv(recent_packages["G270"] / "SOURCE_MANIFEST.tsv")) == 13, "G270 source count changed")
+    removed_recent = ("G270", "G269", "G268")
+    g268_replayed = replay_package_with_current_registry_rows_removed(recent_packages["G268"], removed_recent)
+    g269_replayed = replay_package_with_current_registry_rows_removed(recent_packages["G269"], removed_recent)
+    g270_replayed = replay_package_with_current_registry_rows_removed(
+        recent_packages["G270"],
+        removed_recent,
+        {"CURRENT_RESEARCH_PROGRAM.md": Path("archive/startup_surface_2026-08-26_pre_g270/CURRENT_RESEARCH_PROGRAM.md")},
+    )
+    for premise_id, replayed in (("G268", g268_replayed), ("G269", g269_replayed), ("G270", g270_replayed)):
+        expected = expected_recent[premise_id]
+        require(
+            replayed["status"] == "PASS"
+            and replayed["grade"] == expected["status"]
+            and replayed["landing"] == expected["landing"]
+            and replayed["exact_checks"] == expected["checks"]
+            and replayed["independent_assertions"] == expected["assertions"]
+            and replayed["recorded_artifacts_unchanged"] is True,
+            f"{premise_id} frozen-source no-write replay changed",
+        )
+    require(g270_replayed["smooth_ribbon_off_axis_cases"] == 40040, "G270 off-axis replay count changed")
+    require(g270_replayed["implementation_mutation_catches"] == 8, "G270 implementation catches changed")
+    require(g270_replayed["ledger_mutation_catches"] == 5, "G270 ledger catches changed")
     founding_text = " ".join((ROOT / "founding.md").read_text().split())
     require(
         "### W4. Universal metric coupling" in founding_text
@@ -12408,7 +12545,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267-extended startup and premise guards; PASS: 250-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270-extended startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

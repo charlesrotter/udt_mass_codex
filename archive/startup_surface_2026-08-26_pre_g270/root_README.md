@@ -24,10 +24,10 @@ overrides `LIVE.md` or the premise registry.
 
 ## Current work
 
-Exact relational-geometry execution status and the next gate belong only in `LIVE.md`; use
-`INDEX.md` for the complete dependency and evidence routes. The observational package
-`udt_observed_angular_pattern_raw_restart_2026-08-12/` is a retained bounded evidence lane, not the
-current research frontier. Do not reconstruct the frontier from this deliberately low-churn README.
+The banked observational package is `udt_observed_angular_pattern_raw_restart_2026-08-12/`. Exact
+relational-geometry execution status and the next gate belong only in `LIVE.md`; use `INDEX.md` for
+the complete dependency and evidence routes. Do not reconstruct the frontier from this deliberately
+low-churn README.
 
 ## Repository rules
 
@@ -46,10 +46,6 @@ The pre-zoomout startup surface is preserved under
 `archive/startup_surface_2026-08-14/`; the pre-G197 and pre-current-cleanup surfaces are indexed by
 `archive/startup_surface_2026-08-21_pre_g197/` and
 `archive/startup_surface_2026-08-22_pre_cleanup/`. None is current authority.
-
-The displaced G267-era active wording is indexed at
-`archive/startup_surface_2026-08-26_pre_g270/`. Its exact file versions remain recoverable from the
-recorded Git commit and hashes there.
 
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`,
 `CODEX_STARTUP_REHEARSAL_2026-07-17.md`, `codex_rehearsal_final.md`, and

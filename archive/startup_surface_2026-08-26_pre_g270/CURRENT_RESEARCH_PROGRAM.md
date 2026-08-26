@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-`LIVE.md` controls status; the 253-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 250-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -66,30 +66,40 @@ Phi=-log(T)=-1/2 log(-h00)
 - G254 finds no ambient history residual in the evaluator chain; its counterfamily gates ODE/PDE/GPU.
 - G255 finds no lost G165--G254 value law. G256 leaves `N-1` anchored values; tomography reconstructs
   but does not propagate them.
-- G257 makes W3 `WORKING/POSIT`; imported GR gives `f=1+C/r` with active angular balance. G258
-  reconstructs twelve conditional states up to one scale. Neither supplies a UDT parent law.
-- G259's conservative metric-operator class and Einstein fork remain unowned. G260 requires active
-  full-metric angular cancellation; radial-only quietness is vacuous.
-- G261 makes W4 `WORKING/POSIT` without changing F1--F4 or selecting an operator. G262 joins the
-  one-lapse clock/acceleration/geometric-mass-aspect/angular hierarchy; physical mass stays open.
-- G263 distinguishes pair reversal from whole-profile sign conjugation. G264 proves sign alone is
-  nonselective; its alpha-two and alpha-six thresholds are conditional.
-- G265 retypes infinite-bare-`c` provenance without selecting a profile. G266 derives supplied-pair
-  `Gamma=cosh(delta)`, `Xi=sinh(delta)`; `sech`, distance, and history remain open.
+- G257 adds W3 provisionally as `WORKING/POSIT`. Imported vacuum GR yields the exact bounded primary
+  family `f=1+C/r`, matched pair readout, and G201 amplitudes `(-3u/2,+3u/2)`. Quietness is GR balance,
+  not zero geometry. Fresh external review accepted; the covariant UDT parent law remains open.
+- G258 reconstructs twelve states up to one scale without a new fit coefficient; transfer, history,
+  and parent law remain open.
+- G259 conditionally reduces an unowned conservative metric-operator class to metric plus Einstein.
+  Accepted repairs exclude the zero operator and verify the replays; class, fork, and source remain open.
+- G260 proves full-metric quiet non-discard: `A_parallel+A_perp=E1-E0`, with two active cancelling
+  modes on `f=1+C/r`. Radial-only is vacuous; trace balance retains `1+a*r^2+b/r`. Reviews accept R1.
+- G261 types W4 provisionally: one completed metric owns local coupling but neither changes F1--F4
+  nor selects G259's operator. External repairs are accepted.
+- G262 derives the arbitrary-positive-`f` one-lapse clock/acceleration/mass-aspect/curvature/angular
+  hierarchy. Energy equality is G95-conditional; physical mass and history remain open.
+- G263 separates pair reversal from `phi->-phi`, `f->1/f` profile conjugation. Scalar inversion is
+  shared but complete parities differ; no sign sector is selected.
+- G264 proves negative sign alone nonselective with smooth arbitrarily deep counterexamples.
+  Conditional ends have alpha-two curvature/acceleration/radial-length and alpha-six volume
+  thresholds. Alpha two equals G201 zero tide structurally, not physically. Packaging passed with
+  the explicit external missing-SymPy-runtime caveat.
+- G265 classifies the recovered infinite-bare-`c` and mutuality statements without adopting them.
+  Metric radial-null delay is an identity for every positive `f`, so the provenance statement
+  selects no profile. The kernel has distinct derived signed `exp(plus/minus delta)` and even
+  `cosh(delta)` channels; `sech(delta)` as physical mutual rate and a covariant two-point/time-live
+  distance-value law remain proposed or open. Repairs are externally accepted.
+- G266 derives the determinant-one reciprocal kernel's canonical even/odd pair
+  `Gamma=cosh(delta)`, `Xi=sinh(delta)` on a supplied G220 relation. Both are required for
+  nontrivial composition; no nontrivial positive even multiplicative scalar character exists.
+  `sech(delta)` is an unadopted projection candidate. Areal radius is invariant geometry, while
+  `ds=dR` is a free physical-distance attachment. Three controls agree through first jet and split
+  `4:2:0` at second jet. External repairs are accepted; no distance protocol or history is selected.
 - G267 externally accepts provisional `(sech(delta),tanh(delta))` as an exact bounded compositional
   state; uniqueness, canon, distance, population, and history stay open.
-- G268 proves the finite regular open semicircle is a smooth group presentation of the whole
-  reciprocal relation space. It preserves all finite relations and networks and therefore selects
-  no values or history; its compact endpoints form only a partial nongroup closure.
-- G269 derives an independent metric-owned, query-relative mutual-clock scalar on a supplied affine
-  null relation. It obeys `1/M_PT=cosh(delta)+(exp(-delta)/2)||W||^2`, so
-  `M_PT<=sech(delta)` with equality exactly for zero transported clock-screen mismatch.
-- G270 proves completed-pair Dual Reciprocity normalizes the intrinsic pullback only. Same-pullback
-  ambient null-ribbon realizations can have different `W`; a full supplied metric/path/endpoint-
-  clock realization evaluates `W`, but no universal value, population, history, distance, or
-  `X_max` follows.
 
-G206--G270 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G267 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -100,31 +110,21 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   observational and branchwise controls; G249--G252 type scale attachment; G253--G256 narrow value
   propagation. G260 forbids angular discard, G261 leaves W4 nonselective, G262 joins the evaluator,
   G263/G264 classify sign/ends; G265 provenance; G266/G267 even/odd algebra and provisional bounded
-  state; G268--G270 separate equivalent bounded presentation, independent null transport, and
-  intrinsic-versus-ambient ownership. Distance and a nonidentity source/history or two-point value
-  law remain open.
+  state. Distance and a nonidentity source/history or two-point value law remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
 scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave continuous history, source
-measure, and detector/transfer ownership open. G259--G270 are outcome-blind structural audits.
+measure, and detector/transfer ownership open. G259--G267 are outcome-blind structural audits.
 
 ## Audited restart
 
 G197 excludes scaffolds, fits, `X_max`, and protected inputs. G190--G258 remain controls/evaluators;
-G259--G270 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
-infinite-bare-`c` provenance, bounded state, independent null transport, and ambient-screen
-ownership. G268 proves the bounded presentation itself is nonselective; G269/G270 add an evaluator
-without a history or population law. Do not promote `sech(delta)`, `M_PT`, `W`, `P_INF`, `P_MUT`,
+G259--G267 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
+infinite-bare-`c` provenance, even/odd algebra, and provisional bounded state. Next test whether
+G267 adds a nontrivial relation constraint. Do not promote `sech(delta)`, `P_INF`, `P_MUT`,
 `ds=dR`, alpha two, zero tide, raw flux,
 `q^w`, or the variational candidate; invent a residual; fit history; erase quiet geometry; aggregate
 branches; insert `X_max`; or activate protected work.
-
-## Current next gate
-
-G268--G270 close the bounded question that followed G267. Do not automatically create G271. First
-MAP/PONDER whether the next bounded task evaluates `W` over a declared supplied history/query
-family or audits an independently owned population/history law. Intrinsic determinant
-normalization cannot answer that second question; no ODE/PDE/GPU or observational fit is authorized.

@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-G166--G270 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
+G166--G267 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
 `m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. The quarter-log scalar is a calibration control;
 events, germs, population, higher/full carry, and global realization remain supplied or `OPEN`.
@@ -67,40 +67,19 @@ pair state. It composes only as the signed pair, is quadratic at quiet and symme
 ends, and remains distinct from signed redshift. It is not uniquely derived or canon; distance
 scale, query population, and history stay open.
 
-G268 proves that this finite regular semicircle is exactly equivalent to the original reciprocal
-relation space: it preserves every finite relation and network, so it does not select values or a
-history. Its compact endpoints are only a partial nongroup closure. The conditional cross-readout
-law becomes testable only if `M` is independently measured on the same calibrated correspondence.
-
-G269 supplies that independent **metric-owned, query-relative** construction on a supplied affine
-null relation:
-
-```text
-M_PT=1/[-g(P_AB U_A,U_B)]
-1/M_PT=cosh(delta)+(exp(-delta)/2)||W||^2
-0<M_PT<=sech(delta)
-```
-
-Equality holds exactly for zero transported clock-screen mismatch `W`. G270 then proves that
-completed-pair Dual Reciprocity normalizes only the intrinsic two-dimensional pullback: distinct
-ambient null-ribbon realizations can have the same intrinsic pair metric and different `W`. Once
-the full metric, null branch, and endpoint clocks are supplied, `W` is evaluated rather than fitted;
-no universal `W`, population, history, distance, or `X_max` is selected.
-
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 253-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 250-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-22_pre_cleanup/`, and
-`archive/startup_surface_2026-08-26_pre_g270/`.
+and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 ### Observational boundary
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G270 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G267 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -114,10 +93,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Pause before an automatic G271. G268--G270 close the bounded relation-level question: the semicircle
-is nonselective, null transport supplies an independent metric evaluator, and intrinsic
-completed-pair normalization does not select the ambient mismatch. The next research turn must
-first MAP/PONDER whether it is evaluating `W` over a declared supplied history/query family or
-locating an independently owned population/history law. Do not repeat intrinsic-determinant
-algebra, import dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU solve is authorized.
+Determine whether G267 adds a nontrivial relation-level constraint beyond bounded
+reparameterization, without promoting it to canon, distance, population, history, or `X_max`. Do
+not import dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU solve is authorized.
 <!-- STARTUP_CURRENT_END -->

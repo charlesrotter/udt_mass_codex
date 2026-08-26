@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-26
 
-G166--G270 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
+G166--G267 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
 the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
@@ -45,16 +45,6 @@ G267 externally accepts with no repairs the provisional bounded state
 `M=sech(delta)`, `chi=tanh(delta)`. It closes exact two-channel composition and quiet/loud/loud
 behavior, not uniqueness, canon, distance scale, query population, or history.
 
-G268 proves the open semicircle is an exact nonselective reparameterization of every finite regular
-reciprocal relation and network; the compact endpoints are only a partial nongroup closure. G269
-then derives an independent metric-owned scalar on a supplied affine null relation,
-`M_PT=1/[-g(P_AB U_A,U_B)]`, with
-`1/M_PT=cosh(delta)+(exp(-delta)/2)||W||^2` and equality to `sech(delta)` exactly when `W=0`.
-G270 proves completed-pair Dual Reciprocity normalizes only the intrinsic pullback: the same
-intrinsic pair metric can occur with different ambient transported-screen mismatch. A full supplied
-realization evaluates `W`; it is not a fit coefficient, but no universal `W`, population, history,
-distance, or `X_max` is selected.
-
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
 
@@ -64,7 +54,6 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Authority:
 `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`, and `archive/startup_surface_2026-08-22_pre_cleanup/`.
-The displaced G267-era active wording is at `archive/startup_surface_2026-08-26_pre_g270/`.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -73,10 +62,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Pause before an automatic G271. First MAP/PONDER whether the next bounded question evaluates `W`
-over a declared supplied history/query family or searches the authoritative premises for an
-independently owned population/history law. Do not repeat intrinsic-determinant algebra or promote
-G268--G270 to canon, distance, population, history, or `X_max`. No ODE/PDE/GPU solve is authorized.
-The 253-row registry controls.
+Next test whether G267 adds a nontrivial relation-level constraint beyond reparameterization. Do
+not promote it to canon, distance, population, history, or `X_max`. No ODE/PDE/GPU solve is
+authorized. The 250-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

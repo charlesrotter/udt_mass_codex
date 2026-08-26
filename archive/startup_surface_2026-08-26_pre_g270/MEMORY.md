@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G270: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
+G166--G267: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
 G190--G198 are chosen-family formula-level regression/off-ray controls. G197/G198/G199/G200/G201/
@@ -30,12 +30,6 @@ infinite-bare-`c` null-delay provenance without selecting a profile. G266 derive
 G267 externally accepts provisional `(M,chi)=(sech(delta),tanh(delta))` as an exact bounded pair
 state, not a unique derivation, distance, population, history, or canon.
 
-G268 proves that bounded state is an exact nonselective presentation of the finite reciprocal
-relation space. G269 derives an independent metric-owned, query-relative null-transport mutual
-clock scalar with `M_PT<=sech(delta)`. G270 proves intrinsic completed-pair normalization does not
-select the transported-screen mismatch `W`; a full supplied realization evaluates it, while
-population, history, distance, and `X_max` remain open.
-
 G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protected payload.
 `INDEX.md` routes evidence.
 
@@ -53,11 +47,9 @@ R2--R5 remain unresolved. Raw archive:
 
 ## Next gate
 
-Pause before G271. MAP/PONDER whether the next bounded question evaluates `W` on a declared supplied
-history/query family or audits an independently owned population/history law. Do not repeat the
-already closed intrinsic-normalization question or start an ODE/PDE/GPU solve.
+Test whether G267 adds a relation-level constraint beyond bounded reparameterization without
+promoting it to distance, population, history, `X_max`, or a field law.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and
-`archive/startup_surface_2026-08-21_pre_g197/`; displaced G267 startup wording:
-`archive/startup_surface_2026-08-26_pre_g270/`.
+`archive/startup_surface_2026-08-21_pre_g197/`.
