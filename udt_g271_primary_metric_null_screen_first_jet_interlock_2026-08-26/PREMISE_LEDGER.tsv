@@ -1,0 +1,12 @@
+item	provenance	status	use
+primary static reciprocal metric	founding declared readout	DERIVED_CONDITIONAL	arbitrary supplied metric family
+smooth profile phi(r)	G271 scope	FREE_AND_EXPLORED	no value or history selection
+static metric-unit congruence U	metric normalization	DERIVED_FROM_SUPPLIED_METRIC	endpoint clocks
+equatorial affine null germ	query	SUPPLIED_CONDITIONAL_QUERY	incidence direction and common path
+Levi-Civita connection and transport	metricity	DERIVED_FROM_SUPPLIED_METRIC	clock and screen carry
+delta=phi_B-phi_A	G220	DERIVED_CONDITIONAL	longitudinal direct-redshift channel
+transported W and M_PT	G269/G270	DERIVED_CONDITIONAL_BILOCAL_GEOMETRY__WORKING_MUTUAL_INTERPRETATION	transverse channel
+incidence angle alpha	query	SUPPLIED_QUERY_DATA	angular projection not fitted coefficient
+profile law observer population distance Xmax	unowned	OPEN_OMITTED	forbidden promotion
+observation source matter action transfer canon	none	OPEN_OMITTED	forbidden widening
+symbolic exact and rational checks	mathematical method	CATEGORY_A_CERTIFICATION	no physical premise

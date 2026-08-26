@@ -1,0 +1,12 @@
+# G271 commands
+
+```bash
+python3 -m py_compile \
+  udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/derive_first_jet_interlock.py \
+  udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/verify_first_jet_independent.py \
+  udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/run_catch_proofs.py
+python3 udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/derive_first_jet_interlock.py
+python3 udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/verify_first_jet_independent.py
+python3 udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/run_catch_proofs.py
+python3 udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/verify_package.py
+```

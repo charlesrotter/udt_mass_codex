@@ -1,0 +1,47 @@
+{
+  "implementation_mutations": {
+    "drop_lapse_factor": [
+      "screen_jet_from_acceleration",
+      "screen_jet_expected",
+      "affine_normalized_screen",
+      "angular_pythagorean_split"
+    ],
+    "flip_connection_sign": [
+      "screen_jet_from_acceleration",
+      "screen_jet_expected",
+      "affine_normalized_screen"
+    ],
+    "flip_screen_orientation": [
+      "screen_jet_from_acceleration",
+      "screen_jet_expected",
+      "affine_normalized_screen"
+    ],
+    "force_w_zero": [
+      "screen_jet_from_acceleration",
+      "screen_jet_expected",
+      "affine_normalized_screen",
+      "angular_pythagorean_split"
+    ],
+    "omit_frequency": [
+      "screen_jet_from_acceleration",
+      "screen_jet_expected",
+      "affine_normalized_screen",
+      "angular_pythagorean_split"
+    ],
+    "wrong_depth_sign": [
+      "depth_jet_direct",
+      "affine_normalized_depth"
+    ]
+  },
+  "implementation_mutations_caught": 6,
+  "status": "PASS",
+  "typed_conclusion_catches": {
+    "distance_blocked": true,
+    "finite_path_blocked": true,
+    "history_blocked": true,
+    "observations_blocked": true,
+    "population_blocked": true,
+    "xmax_blocked": true
+  },
+  "typed_conclusion_catches_passed": 6
+}

@@ -1,0 +1,11 @@
+{
+  "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+  "implementation_mutations_caught": 6,
+  "independent_exact_fraction_cases": 20000,
+  "landing": "NATIVE_LONGITUDINAL_TRANSVERSE_FIRST_JET_SPLIT__ONE_PRIMARY_METRIC_GRADIENT_GENERATES_DEPTH_AND_TRANSPORTED_SCREEN_CHANNELS__RADIAL_AND_QUIET_STRATA_EXACT__NO_FINITE_PATH_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+  "no_write_replays": 3,
+  "production_checks": 30,
+  "source_rows": 5,
+  "status": "PASS",
+  "typed_conclusion_catches_passed": 6
+}

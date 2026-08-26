@@ -1,0 +1,12 @@
+item	status	qualification
+primary_static_metric_family	DERIVED_CONDITIONAL	arbitrary supplied smooth regular phi(r)
+static_clock_acceleration	DERIVED_FROM_SUPPLIED_METRIC	a_hat_r=-exp(-phi) phi_prime
+transported_screen_evolution	DERIVED_CONDITIONAL	dW_I/dlambda=omega g(a,E_I) on supplied branch
+longitudinal_depth_jet	DERIVED_CONDITIONAL	omega^-1 dot(delta)=exp(-phi) phi_prime cos(alpha)
+transverse_W_jet	DERIVED_CONDITIONAL	omega^-1 dot(W_s)=exp(-phi) phi_prime sin(alpha)
+angular_first_jet_interlock	INTERNALLY_VERIFIED_LEAD	arbitrary-profile local theorem; external review open
+radial_planarity	DERIVED_CONDITIONAL	W=0 exactly on regular static-radial stratum
+quiet_first_jet	DERIVED_CONDITIONAL	both first jets vanish when phi_prime=0
+M_PT_mutual_clock_interpretation	WORKING_OPERATIONAL_READOUT	metric scalar exact; physical protocol not canon
+finite_path_value	CONDITIONAL_OPEN	requires supplied profile branch and integration
+physical_history_population_distance_Xmax	OPEN_NOT_SELECTED	no closing law or observation used
