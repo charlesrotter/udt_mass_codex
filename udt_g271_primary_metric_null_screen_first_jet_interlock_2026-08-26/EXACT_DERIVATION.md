@@ -95,7 +95,26 @@ Levi-Civita transport evaluate the integral. It is not a history-selection law.
 
 ## 4. Local longitudinal/transverse split
 
-At the source choose an equatorial null incidence angle
+### Spherical-isometry reduction
+
+The equatorial calculation below represents every regular local null germ at finite `r>0`, modulo
+an isometry of the supplied spherical metric. At one event write the spatial null direction as
+
+\[
+n=\cos\alpha\,e_{\hat r}+\sin\alpha\,e_{\hat\perp},
+\qquad e_{\hat\perp}\in T(S^2),\quad \lVert e_{\hat\perp}\rVert=1.
+\]
+
+The `SO(3)` isometry group preserves `r`, `phi(r)`, `U`, `e_hat_r`, the radial acceleration `a`,
+Levi-Civita transport, and every metric contraction used in the theorem. A rotation maps the
+two-plane spanned by `e_hat_r` and `e_hat_perp` to the equatorial orbital plane and maps
+`e_hat_perp` to `e_hat_varphi`. The orthogonal screen direction maps to `e_hat_theta`. Therefore the
+equatorial representative has the same `delta` jet, transported-screen jet, norm split, and
+radial/quiet strata as the original germ. No preferred orbital plane or new physical premise is
+introduced. At `sin(alpha)=0` the orbital plane is nonunique, but spherical symmetry and the exact
+radial calculation make every such screen choice equivalent.
+
+Choose that equatorial representative and write
 
 \[
 n=\cos\alpha\,e_{\hat r}+\sin\alpha\,e_{\hat\varphi}

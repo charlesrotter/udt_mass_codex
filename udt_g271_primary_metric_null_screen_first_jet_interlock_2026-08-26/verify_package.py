@@ -13,7 +13,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parent
-REPO = ROOT.parent
+SCOPE_ROOT = ROOT.parent.resolve()
 OUT = ROOT / "VERIFICATION_RESULT.json"
 LANDING = (
     "NATIVE_LONGITUDINAL_TRANSVERSE_FIRST_JET_SPLIT__"
@@ -46,7 +46,8 @@ def main() -> None:
         sources = list(csv.DictReader(stream, delimiter="\t"))
     assert len(sources) == 5
     for row in sources:
-        path = REPO / row["path"]
+        path = (SCOPE_ROOT / row["path"]).resolve()
+        assert path.is_relative_to(SCOPE_ROOT), row["path"]
         assert path.is_file(), row["path"]
         assert digest(path) == row["sha256"], row["path"]
 
@@ -56,6 +57,8 @@ def main() -> None:
         "COMMANDS.md",
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_REPAIR_LEDGER.md",
         "EXACT_DERIVATION.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
@@ -99,18 +102,25 @@ def main() -> None:
         "canonized",
     )
     assert not any(token in report for token in forbidden_promotions)
-    assert "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN" in report
+    assert (
+        "INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__"
+        "REPAIR_ONLY_FOLLOWUP_OPEN"
+    ) in report
 
     result = {
         "status": "PASS",
         "landing": LANDING,
         "source_rows": len(sources),
+        "source_paths_within_scope_root": len(sources),
         "production_checks": 30,
         "independent_exact_fraction_cases": 20000,
         "implementation_mutations_caught": 6,
         "typed_conclusion_catches_passed": 6,
         "no_write_replays": 3,
-        "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+        "grade": (
+            "INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__"
+            "REPAIR_ONLY_FOLLOWUP_OPEN"
+        ),
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:

@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
-    intake = Path(tempfile.mkdtemp(prefix="udt_g271_review_", dir="/tmp"))
+    intake = Path(tempfile.mkdtemp(prefix="udt_g271_repair_followup_", dir="/tmp"))
     package_target = intake / PACKAGE.name
     shutil.copytree(PACKAGE, package_target, ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
 
@@ -36,11 +36,11 @@ def main() -> None:
             shutil.copy2(source, target)
 
     scope = {
-        "title": "G271 primary-metric null-screen first-jet interlock fresh review",
-        "mode": "READ_ONLY_ADVERSARIAL_REVIEW",
+        "title": "G271 primary-metric null-screen first-jet interlock repair-only follow-up",
+        "mode": "READ_ONLY_REPAIR_ONLY_FOLLOWUP_REVIEW",
         "scientific_scope": (
-            "Verify only the bounded arbitrary-profile primary-static first-jet theorem, exact "
-            "screen evaluator, radial/quiet controls, evidence, and premise grades."
+            "Verify only the explicit source-path containment proof, the spherical-isometry "
+            "coverage repair, and the unchanged bounded G271 scientific landing."
         ),
         "prohibited": [
             "edit evidence files",
@@ -50,12 +50,20 @@ def main() -> None:
             "inspect observational outcomes",
             "select a history population distance or X_max",
             "import a field equation source action matter model fit or transfer law",
+            "change the scientific question or continue beyond the registered repairs",
         ],
         "registered_replay": (
             "python3 udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/"
             "verify_package.py --no-write"
         ),
-        "package_grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+        "registered_repairs": [
+            "R1 prove all SOURCE_MANIFEST paths remain inside the sealed intake scope root",
+            "R2 make the spherical-isometry reduction from arbitrary germ to equatorial representative explicit",
+        ],
+        "package_grade": (
+            "INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__"
+            "REPAIR_ONLY_FOLLOWUP_OPEN"
+        ),
     }
     scope_path = intake / "REVIEW_SCOPE.json"
     scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")

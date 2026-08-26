@@ -42,6 +42,12 @@ This is a metric-native interlock: direct reciprocal redshift and the G269 trans
 mismatch are longitudinal and transverse projections of one primary-metric gradient. `W` is not an
 added fitted orchestra coefficient on this family.
 
+The calculation uses an equatorial representative without restricting the physical germ. For any
+regular finite-radius null germ, spherical `SO(3)` symmetry maps its radial/tangential plane to the
+equatorial plane while preserving `phi(r)`, the static clock, radial acceleration, Levi-Civita
+transport, and all contractions in the theorem. Thus the result covers every local incidence angle
+modulo an exact metric isometry; it does not choose a preferred plane.
+
 The exact finite-path evaluator is
 
 \[
@@ -75,4 +81,5 @@ action, transfer, or canon.
 - 6/6 typed overreach catches;
 - no GPU, fit, linearized metric, or chosen profile.
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade:
+`INTERNALLY_VERIFIED_LEAD__EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIR_ONLY_FOLLOWUP_OPEN`.
