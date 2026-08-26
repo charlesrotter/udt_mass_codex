@@ -11,9 +11,9 @@
 | direct exact derivation | `PASS` | 23 symbolic checks |
 | independent verification | `PASS` | 24,000 cases; production not imported |
 | premise audit | `PASS` | no attachment adopted; no scale history observation source action fit or `X_max` |
-| external adversarial review | `OPEN` | required before external grade |
+| external adversarial review | `PASS` | external Codex `gpt-5.4`: `ACCEPT_BOUNDED_G273_LEAD`; no repairs |
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade: `EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS`.
 
 Maximum conclusion: the exact prompts do not entail the distance formula, but the complete metric
 already owns a unique projective candidate. Identifying it as physical normalized position is one

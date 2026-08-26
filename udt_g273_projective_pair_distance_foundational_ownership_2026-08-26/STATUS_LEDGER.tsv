@@ -8,4 +8,4 @@ physical_projective_distance_attachment	CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICA
 conditional_radial_phi_profile	CONDITIONAL	if x/X=chi then Delta phi=artanh(x/X)
 dimensionful_scale_X	OPEN	c_E alone supplies L/T
 physical_history_branch_population_Xmax	OPEN_NOT_SELECTED	no law observation fit or global realization
-package_grade	INTERNALLY_VERIFIED_LEAD	external adversarial review open
+package_grade	EXTERNALLY_REVIEWED_BOUNDED_LEAD	external gpt-5.4 accepted with no repairs

@@ -50,5 +50,6 @@ action, and dynamics.
 - 23,747 strict-entailment counterattachment separators;
 - complete screen active in 23,746 cases;
 - five implementation mutations and six typed overreach catches.
+- external Codex `gpt-5.4`: `ACCEPT_BOUNDED_G273_LEAD`; no repairs.
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade: `EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS`.
