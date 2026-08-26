@@ -72,5 +72,6 @@ length. No observation, fit, source, matter model, action, or field equation was
 - 168,530 exact-fraction assertions;
 - five formula/type mutations caught;
 - six textual scope-regression catches passed.
+- external Codex `gpt-5.4`: `ACCEPT_BOUNDED_G272_LEAD`; no repairs.
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade: `EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS`.

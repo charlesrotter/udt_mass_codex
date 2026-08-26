@@ -9,9 +9,9 @@
 | independent verification | `PASS` | 24,000 cases; production not imported |
 | nonplanar separators | `PASS` | 23,995 same-depth active-screen controls |
 | premise audit | `PASS` | no distance ownership, scale, history, observation, action, source, fit, or `X_max` imported |
-| external adversarial review | `OPEN` | required before external grade |
+| external adversarial review | `PASS` | external Codex `gpt-5.4`: `ACCEPT_BOUNDED_G272_LEAD`; no repairs |
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade: `EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS`.
 
 Maximum conclusion: the complete supplied metric relation owns an exact dimensionless transported
 rapidity state. The exact `artanh` distance profile is conditional on separately identifying the

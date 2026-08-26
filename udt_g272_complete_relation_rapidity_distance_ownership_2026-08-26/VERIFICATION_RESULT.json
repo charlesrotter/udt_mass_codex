@@ -1,5 +1,5 @@
 {
-  "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+  "grade": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS",
   "implementation_mutations_caught": 5,
   "independent_cases": 24000,
   "independent_exact_assertions": 168530,

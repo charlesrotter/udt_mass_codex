@@ -59,6 +59,7 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
         "MAP.md",
@@ -102,7 +103,7 @@ def main() -> None:
         "canonized",
     )
     assert not any(token in report for token in forbidden_promotions)
-    assert "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN" in report
+    assert "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS" in report
 
     result = {
         "status": "PASS",
@@ -115,7 +116,7 @@ def main() -> None:
         "implementation_mutations_caught": 5,
         "typed_scope_catches_passed": 6,
         "no_write_replays": 3,
-        "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+        "grade": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:
