@@ -51,8 +51,12 @@ commit `6bd94cff`:
 1. exercise formula implementations in the mutation gate and label ledger checks separately;
 2. automate off-axis ribbon regularity rather than relying only on the axis and continuity text.
 
-Both repairs pass internally without changing the scientific landing. A repair-only external
-follow-up remains required before the final external grade.
+Both repairs pass internally without changing the scientific landing.
+
+The sealed repair-only follow-up intake `/tmp/udt_g270_repair_followup_99bam6ln` returned
+`ACCEPT_REPAIRS`. The external reviewer found no remaining scoped defects, accepted R1 and R2,
+confirmed the no-write and recorded-artifact noninterference gates, and confirmed the scientific
+landing was unchanged.
 
 ## Premise gate
 

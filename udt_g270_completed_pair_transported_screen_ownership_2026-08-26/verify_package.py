@@ -59,6 +59,7 @@ def main() -> None:
         "PREREGISTRATION.md",
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
         "REPAIR_REPORT.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
@@ -152,20 +153,19 @@ def main() -> None:
     assert all(item["targeted_caught"] for item in catches["ledger_mutations"].values())
 
     assert "a75d71bf" in (ROOT / "EVIDENCE_GATES.md").read_text()
-    assert "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP" in (
+    assert "EXTERNALLY_ACCEPTED_REPAIRS_COMPLETE" in (
         ROOT / "EVIDENCE_GATES.md"
     ).read_text()
     assert "ACCEPT_WITH_REPAIRS" in (ROOT / "EXTERNAL_REVIEW.md").read_text()
     assert "6bd94cff" in (ROOT / "REPAIR_REPORT.md").read_text()
+    assert "ACCEPT_REPAIRS" in (ROOT / "REPAIR_FOLLOWUP_REVIEW.md").read_text()
     premise_text = (ROOT / "PREMISE_LEDGER.tsv").read_text()
     assert "SEPARATE_DERIVED_CONDITIONAL_CHANNELS" in premise_text
     assert "OPEN_OMITTED" in premise_text
 
     print(json.dumps({
         "status": "PASS",
-        "grade": (
-            "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP"
-        ),
+        "grade": "EXTERNALLY_ACCEPTED_REPAIRS_COMPLETE",
         "landing": LANDING,
         "selected_alternative": production["selected_alternative"],
         "exact_checks": production["exact_checks"],

@@ -46,5 +46,7 @@ Fresh external review returned `ACCEPT_WITH_REPAIRS` and accepted the bounded sc
 The two evidence repairs now pass internally: formula-level mutations are exercised separately
 from typed-ledger checks, and full off-axis ribbon regularity is proved and independently sampled.
 
-Current grade:
-`EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP`.
+The sealed repair-only external follow-up returned `ACCEPT_REPAIRS` with no remaining scoped
+defects and confirmed the scientific landing was unchanged.
+
+Current grade: `EXTERNALLY_ACCEPTED_REPAIRS_COMPLETE`.

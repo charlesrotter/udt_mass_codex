@@ -20,8 +20,10 @@ G270 failure.
 Fresh external review: `ACCEPT_WITH_REPAIRS`; scientific items 1--8 accepted, evidence item 9
 repaired under the preregistered R1/R2 contract at `6bd94cff`.
 
-Current grade:
-`EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP`.
+Repair-only external follow-up: `ACCEPT_REPAIRS`; no remaining scoped defects, both R1/R2 accepted,
+and the scientific landing confirmed unchanged.
+
+Current grade: `EXTERNALLY_ACCEPTED_REPAIRS_COMPLETE`.
 
 Maximum conclusion: exact intrinsic-versus-bilocal ownership classification on the declared
 regular supplied arena.
