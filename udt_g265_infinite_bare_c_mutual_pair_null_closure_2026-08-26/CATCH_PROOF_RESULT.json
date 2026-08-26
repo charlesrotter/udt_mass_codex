@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "catches": 8,
+  "names": [
+    "optical_not_proper",
+    "mutated_null_density",
+    "signed_arrow_not_mutual",
+    "reversal_inverse",
+    "signed_not_even",
+    "even_is_reversal_invariant",
+    "false_nonconstant_sech_solution",
+    "zero_bare_term_is_nonselective"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "assertions": 63,
+  "method": "eight-point Gauss quadrature versus independent RK4 radial-null integration",
+  "profiles": [
+    "flat",
+    "G257 quiet comparator",
+    "G201 alpha two",
+    "G264 smooth negative bump"
+  ],
+  "intervals_per_profile": 3,
+  "verified": [
+    "metric optical delay equals radial-null integration",
+    "signed endpoint arrow reverses by inversion",
+    "endpoint-clock finite speeds differ by the signed arrow",
+    "optical and proper distances separate on nonflat profiles",
+    "symmetric geometric-mean speed is not generically sech(delta)",
+    "flat profile satisfies every stronger static closure"
+  ]
+}

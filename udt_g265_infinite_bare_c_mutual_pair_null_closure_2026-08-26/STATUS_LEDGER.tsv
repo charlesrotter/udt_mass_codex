@@ -1,0 +1,13 @@
+id	claim	status	qualification
+S1	radial null delay is D_opt/c_E	DERIVED_CONDITIONAL	all positive f
+S2	zero bare duration changes radial null equation	REJECTED	adds zero to supplied metric delay
+S3	P_INF alone selects f	REJECTED_BOUNDED	static radial arena only
+S4	D_opt equals static-slice proper length	ADDITIONAL_PREMISE	forces constant f
+S5	local static observer measures c_E	DERIVED_CONDITIONAL	W4 metric cone
+S6	signed null arrow is mutual slowdown	REJECTED_SAME_CORRESPONDENCE	inverse under reversal
+S7	cosh delta is reversal even	DERIVED_ALGEBRAIC	already present in reciprocal group
+S8	sech delta is physical mutual clock rate	PROPOSED_FOUNDATIONAL_RECOVERY_NOT_ADOPTED	no coefficient but physical projection open
+S9	directional and even factors share one depth	DERIVED_ALGEBRAIC	exp(plus/minus delta)=cosh delta(1 plus/minus tanh delta)
+S10	static symmetric all-interval sech closure is nontrivial	REJECTED	constant lapse only
+S11	original distance ownership is disproved	NOT_ESTABLISHED	time-live and two-point realization open
+S12	infinite physical signalling inside g	NOT_AUTHORIZED	completed metric cone remains active
