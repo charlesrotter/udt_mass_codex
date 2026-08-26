@@ -12,7 +12,8 @@ Date: 2026-08-25
    - artifact regression: 17/17 applied mutations caught, including all five reviewer escapes;
    - altered-copy evidence guards: 7/7 caught;
    - fresh adversarial review: `ACCEPT_WITH_REPAIRS`; scientific landing accepted;
-   - preregistered evidence repairs: implemented; repair-only follow-up pending.
+   - preregistered evidence repairs: implemented;
+   - repair-only follow-up: `ACCEPT_REPAIR`, no remaining R1-R3 defect.
 4. Premises: 10 frozen sources; no observation, fit, GPU, action, source, physical-mass model,
    `X_max` value, or protected input.
 
@@ -22,4 +23,5 @@ a physical premise identifying profile-sign conjugation as a symmetry or selecti
 Repository premise verifier passed. Repository regression/purity suite: 167 passed, 1 expected
 xfail.
 
-Maximum present grade: `PROVISIONAL_REPAIRED_PENDING_EXTERNAL_FOLLOWUP`.
+Maximum present grade:
+`EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_R3_DEFECT`.

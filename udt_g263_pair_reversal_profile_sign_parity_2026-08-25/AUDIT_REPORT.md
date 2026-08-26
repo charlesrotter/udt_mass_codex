@@ -1,7 +1,7 @@
 # G263 audit report — pair reversal and signed-profile parity
 
 Date: 2026-08-25
-Grade: `PROVISIONAL_REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
+Grade: `EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_R3_DEFECT`
 
 ## Primary landing
 
@@ -46,6 +46,7 @@ reversal.
 - 17/17 applied artifact mutations rejected, including all five fresh-review escape probes;
 - 7/7 disposable altered-copy guards rejected the five reviewer escapes and corrupted evidence;
 - fresh external review accepted the bounded scientific landing and requested evidence-only repairs;
+- repair-only external follow-up: `ACCEPT_REPAIR`, no remaining R1-R3 defect;
 - no observations, fits, GPU, source, action, physical-mass model, or protected input.
 
 ## Four gates
@@ -53,7 +54,7 @@ reversal.
 1. Preregistered: yes.
 2. Full or bounded: exact local primary static-spherical second-jet classification only.
 3. Independently verified: implementation-distinct algebra and fresh adversarial algebra yes;
-   evidence repairs implemented; repair-only follow-up pending.
+   evidence repairs independently accepted.
 4. Premises audited: yes; profile conjugation remains a diagnostic, not a physical symmetry.
 
 ## Maximum conclusion
@@ -64,5 +65,5 @@ differently. No universal angular loudness, valued history, mass/source law, or 
 is derived.
 
 The repairs change no scientific formula or landing. The standard-library replay is exact algebra,
-not an epistemically independent physical derivation. Closure requires the preregistered external
-repair-only follow-up.
+not an epistemically independent physical derivation. The preregistered repair-only follow-up
+accepted R1-R3 with no remaining scoped defect.

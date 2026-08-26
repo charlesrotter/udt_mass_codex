@@ -38,3 +38,23 @@ Runtime: `/tmp/udt_g263_external_review_Jb35X461`.
 The exact substantive return is preserved in `EXTERNAL_REVIEW_GPT54.md`. Repairs are frozen in
 `REPAIR_PREREGISTRATION.md` before implementation. A repair-only external follow-up is required
 before G263 can be closed.
+
+## Repair-only follow-up
+
+- sealed intake: `/tmp/udt_g263_repair_followup_1lhfcg3h`;
+- total files: 37;
+- payload/manifest entries: 35;
+- `REVIEW_SCOPE.json` SHA-256:
+  `3f72863695f61a7212f475e852fd0249bf2deede26fcff3b49990cfc507c53c0`;
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `7ff2786682f96b2e6ccd0edaccdd5aed04c4abdd945ab42431b085c195648b22`;
+- isolated runtime: `/tmp/udt_g263_repair_external_IzhN5igG`;
+- disposition: `ACCEPT_REPAIR`;
+- remaining R1-R3 defects: none;
+- bounded scientific landing: unchanged.
+
+Both sealed hashes were rechecked unchanged after follow-up. The reviewer received only the intake
+read-only, a writable ephemeral runtime/copy, and read-only authentication-file use solely to launch
+it. The repository and protected packages were not mounted. It reran the four registered checks,
+confirmed the isolated standard-library replay, and exercised altered-copy fail-closed checks. The
+exact return is preserved in `EXTERNAL_REPAIR_FOLLOWUP_GPT54.md`.

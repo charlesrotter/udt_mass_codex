@@ -10,4 +10,4 @@ S08	G201 zero-tide family is not preserved by C_phi	DERIVED_BOUNDED	does not sel
 S09	negative phi included whenever f is positive	DERIVED_DEFINITIONAL	positive f did not mean positive phi
 S10	universal angular loudness	NOT_DERIVED	G201 zero-tide counterfamily retained
 S11	valued history physical mass source dynamics and Xmax	OPEN	no promotion
-S12	G263 package	PROVISIONAL_REPAIRED_PENDING_EXTERNAL_FOLLOWUP	31 symbolic 29000 implementation-distinct assertions 38010 sealed assertions 17 catches
+S12	G263 package	EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_R3_DEFECT	fresh review ACCEPT_WITH_REPAIRS; repair-only follow-up ACCEPT_REPAIR

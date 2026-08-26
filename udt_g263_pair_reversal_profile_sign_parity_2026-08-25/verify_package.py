@@ -108,8 +108,16 @@ def verify(package: Path, require_repair_catch: bool = True) -> dict[str, object
         raise AssertionError("universal angular loudness promoted")
     if status["S11"]["status"] != "OPEN":
         raise AssertionError("open physics promoted")
-    if status["S12"]["status"] != "PROVISIONAL_REPAIRED_PENDING_EXTERNAL_FOLLOWUP":
+    if status["S12"]["status"] != "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_R3_DEFECT":
         raise AssertionError("premature grade")
+
+    followup = (package / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+    if not followup.startswith("`ACCEPT_REPAIR`"):
+        raise AssertionError("repair follow-up not accepted")
+    if "No remaining defects were found within the registered scope" not in followup:
+        raise AssertionError("repair follow-up scope closure absent")
+    if LANDING not in followup.replace("\n", ""):
+        raise AssertionError("follow-up landing changed")
 
     report = (package / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     normalized_report = " ".join(report.split())
@@ -135,7 +143,7 @@ def verify(package: Path, require_repair_catch: bool = True) -> dict[str, object
 
     return {
         "status": "PASS",
-        "grade": "PROVISIONAL_REPAIRED_PENDING_EXTERNAL_FOLLOWUP",
+        "grade": "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_R3_DEFECT",
         "landing": LANDING,
         "source_count": len(resolutions),
         "source_resolutions": resolutions,
