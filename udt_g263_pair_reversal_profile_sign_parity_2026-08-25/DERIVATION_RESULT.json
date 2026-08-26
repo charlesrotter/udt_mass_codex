@@ -1,0 +1,61 @@
+{
+  "asymptotic_constant_jet": {
+    "phi_to_negative_infinity": "N->infinity; mu/r->-infinity; Aparallel->0; Aperp->-infinity",
+    "phi_to_positive_infinity": "N->0; mu/r->1/2; Aparallel->0; Aperp->1"
+  },
+  "classification": "SCALAR_EQUIVALENCE_ONLY",
+  "landing": "PAIR_ARROW_REVERSAL_IS_EXACT_RECIPROCAL_INVOLUTION__WHOLE_PROFILE_SIGN_CONJUGATION_IS_A_DISTINCT_METRIC_INVOLUTION__SCALAR_DEPTH_INVERSION_SHARED_BUT_COMPLETE_CHANNEL_PARITIES_MIXED",
+  "operations": {
+    "C_phi": "whole profile and jets conjugated; (phi,p,z)->(-phi,-p,-z), f->1/f",
+    "R_pair": "endpoint swap at fixed ambient metric; delta->-delta"
+  },
+  "ownership": {
+    "history_selection": "NOT_DERIVED",
+    "pair_reversal": "DERIVED_CONDITIONAL_G170",
+    "parity_decomposition": "DERIVED_BOUNDED",
+    "physical_mass_or_source": "NOT_DERIVED",
+    "profile_conjugation": "MATHEMATICAL_DIAGNOSTIC_NOT_PHYSICAL_SYMMETRY",
+    "universal_angular_loudness": "NOT_DERIVED_G201_ZERO_TIDE_COUNTERFAMILY_RETAINED"
+  },
+  "scope": "primary_static_spherical_real_phi_positive_f_local_second_jet",
+  "separation": {
+    "distinct": "R_pair fixes g; C_phi changes g_phi to g_minus_phi and generally changes every hierarchy channel",
+    "shared": "both can invert endpoint scalar depth when C_phi acts on both endpoint values",
+    "sphere_guard": "areal r^2 dOmega^2 is unchanged under C_phi, so clock/radial coefficient exchange is not a full coframe swap"
+  },
+  "status": "PASS",
+  "symbolic_check_count": 31,
+  "symbolic_checks": [
+    "pair_reversal_inverse",
+    "pair_D_even",
+    "pair_D_odd",
+    "pair_D_reconstruction",
+    "pair_clock_even",
+    "pair_clock_odd",
+    "pair_chi_odd",
+    "pair_contrast_even",
+    "profile_f_inverse",
+    "profile_lapse_inverse",
+    "profile_lapse_even",
+    "profile_lapse_odd",
+    "profile_f_even",
+    "profile_f_odd",
+    "mass_aspect_even",
+    "mass_aspect_odd",
+    "mass_aspect_reconstruction",
+    "acceleration_even",
+    "acceleration_odd",
+    "E0_even",
+    "E0_odd",
+    "E1_even",
+    "E1_odd",
+    "Aparallel_even",
+    "Aparallel_odd",
+    "Aperp_even",
+    "Aperp_odd",
+    "angular_residual_join",
+    "conjugate_angular_residual_join",
+    "zero_tide_conjugate_Aparallel",
+    "zero_tide_conjugate_Aperp"
+  ]
+}

@@ -1,0 +1,14 @@
+object	operation	parity_or_status	physical_ownership
+endpoint depth delta	R_pair	odd	DERIVED_CONDITIONAL_G170
+reciprocal matrix D	R_pair	even cosh(delta) identity plus odd sinh(delta) squeeze	DERIVED_BOUNDED
+reciprocal contrast	R_pair	even	ALGEBRAIC_DIAGNOSTIC_NOT_NEW_OBSERVABLE
+ambient metric	R_pair	fixed	SUPPLIED_METRIC
+whole profile phi	C_phi	odd input map	MATHEMATICAL_DIAGNOSTIC_NOT_PHYSICAL_SYMMETRY
+lapse N	C_phi	mixed even cosh(phi) odd minus sinh(phi)	DERIVED_BOUNDED
+metric factor f	C_phi	mixed even cosh(2phi) odd minus sinh(2phi)	DERIVED_BOUNDED
+geometric mass aspect mu	C_phi	mixed	CHANGE_OF_VARIABLES_NOT_PHYSICAL_MASS
+signed static acceleration	C_phi	mixed	DERIVED_BOUNDED
+E0 E1 residuals	C_phi	mixed	DERIVED_BOUNDED_EVALUATORS
+Aparallel Aperp	C_phi	mixed	DERIVED_BOUNDED_G201_CHANNELS
+profile selection	none	OPEN	NOT_DERIVED
+physical mass source dynamics Xmax	none	OPEN	NOT_DERIVED

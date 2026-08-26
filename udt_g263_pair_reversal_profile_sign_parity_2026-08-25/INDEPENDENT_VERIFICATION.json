@@ -1,0 +1,8 @@
+{
+  "assertion_count": 29000,
+  "case_count": 1000,
+  "implementation": "standard_library_fraction_no_production_import_no_result_read",
+  "qualification": "implementation_distinct_exact_algebra_not_independent_physical_premise",
+  "signed_profile_coverage": "s_less_equal_greater_than_one",
+  "status": "PASS"
+}

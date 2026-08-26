@@ -1,0 +1,22 @@
+{
+  "grade": "PROVISIONAL_PENDING_FRESH_ADVERSARIAL_REVIEW",
+  "independent_assertions": 29000,
+  "landing": "PAIR_ARROW_REVERSAL_IS_EXACT_RECIPROCAL_INVOLUTION__WHOLE_PROFILE_SIGN_CONJUGATION_IS_A_DISTINCT_METRIC_INVOLUTION__SCALAR_DEPTH_INVERSION_SHARED_BUT_COMPLETE_CHANNEL_PARITIES_MIXED",
+  "mutation_catches": 12,
+  "qualification": "exact_algebra_and_package_consistency_not_independent_physical_derivation",
+  "source_count": 10,
+  "source_resolutions": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "live_exact",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "live_exact",
+    "founding.md": "live_exact",
+    "udt_g169_bidirectional_copresent_metric_distance_2026-08-18/AUDIT_REPORT.md": "live_exact",
+    "udt_g170_endpoint_relative_bidirectional_pair_response_2026-08-19/AUDIT_REPORT.md": "live_exact",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "live_exact",
+    "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/AUDIT_REPORT.md": "live_exact",
+    "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/AUDIT_REPORT.md": "live_exact",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "live_exact",
+    "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/EXACT_DERIVATION.md": "live_exact"
+  },
+  "status": "PASS",
+  "symbolic_checks": 31
+}

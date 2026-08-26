@@ -1,0 +1,20 @@
+{
+  "caught_count": 12,
+  "mutation_count": 12,
+  "mutations": {
+    "angular_join_removed": true,
+    "full_equivalence_promoted": true,
+    "history_selected": true,
+    "lockstep_loudness_promoted": true,
+    "mass_promoted": true,
+    "negative_asymptotic_mirrored": true,
+    "pair_metric_not_fixed": true,
+    "positive_asymptotic_corrupted": true,
+    "profile_called_physical_symmetry": true,
+    "sphere_deleted": true,
+    "symbolic_count_reduced": true,
+    "zero_tide_conjugate_claimed_quiet": true
+  },
+  "qualification": "artifact_regression_only_not_scientific_proof",
+  "status": "PASS"
+}

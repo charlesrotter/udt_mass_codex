@@ -1,0 +1,13 @@
+id	claim	status	guard
+S01	R_pair fixes ambient metric and sends delta to minus delta	DERIVED_CONDITIONAL_G170	requires one supplied consistently calibrated endpoint pair
+S02	D even part is cosh(delta) times identity	DERIVED_BOUNDED	algebraic magnitude not universal observable score
+S03	D odd part carries signed reciprocal orientation	DERIVED_BOUNDED	not positive metric-space distance
+S04	C_phi sends phi p z to negatives and f to inverse	MATHEMATICAL_DIAGNOSTIC	not founded physical symmetry
+S05	C_phi generally changes the primary metric	DERIVED_BOUNDED	areal sphere unchanged so not full coframe swap
+S06	lapse acceleration mass aspect residuals and angular channels have mixed parity	DERIVED_BOUNDED	primary local second-jet arena only
+S07	geometric mass aspect is not odd under C_phi	DERIVED_BOUNDED	not physical mass
+S08	G201 zero-tide family is not preserved by C_phi	DERIVED_BOUNDED	does not select either history
+S09	negative phi included whenever f is positive	DERIVED_DEFINITIONAL	positive f did not mean positive phi
+S10	universal angular loudness	NOT_DERIVED	G201 zero-tide counterfamily retained
+S11	valued history physical mass source dynamics and Xmax	OPEN	no promotion
+S12	G263 package	PROVISIONAL_PENDING_FRESH_ADVERSARIAL_REVIEW	31 symbolic 29000 exact assertions 12 catches
