@@ -1,0 +1,13 @@
+item	status	qualification
+transported_rapidity_eta_PT	DERIVED_CONDITIONAL	arcosh(Gamma_PT) on supplied regular branch and endpoint clocks
+bounded_magnitude_rho_PT	DERIVED_CONDITIONAL	tanh(eta_PT)=sqrt(1-M_PT^2)
+bounded_state_vector	DERIVED_CONDITIONAL	transported-frame spatial coefficients; not automatically physical velocity or displacement
+planar_signed_chi	EXACT_STRATUM	tanh(delta) when W=0; retains observer-order arrow
+primary_radial_profile	EXACT_STRATUM	chi=tanh(phi_B-phi_A)
+complete_nonradial_state	DERIVED_CONDITIONAL	delta plus W; delta alone incomplete
+conditional_distance_profile	CONDITIONAL_DISTANCE_ATTACHMENT	if x/X=chi, then Delta phi=artanh(x/X)
+infinite_bare_c_distance_ownership	PROPOSED_OPEN	not adopted or canonized by this calculation
+dimensionful_scale_X	OPEN	c_E alone supplies L/T, not a standalone length
+conventional_distance_embedding	OPEN	areal slice optical radar and pair-surface attachments not selected
+history_branch_population_Xmax	OPEN_NOT_SELECTED	no law observation or fit used
+package_grade	INTERNALLY_VERIFIED_LEAD	external adversarial review open

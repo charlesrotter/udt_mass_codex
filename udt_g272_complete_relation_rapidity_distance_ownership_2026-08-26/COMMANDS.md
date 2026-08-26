@@ -1,0 +1,12 @@
+# G272 commands
+
+```bash
+python3 -m py_compile \
+  udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/derive_complete_relation_rapidity.py \
+  udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/verify_complete_relation_independent.py \
+  udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/run_catch_proofs.py
+python3 udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/derive_complete_relation_rapidity.py
+python3 udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/verify_complete_relation_independent.py
+python3 udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/run_catch_proofs.py
+python3 udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/verify_package.py
+```

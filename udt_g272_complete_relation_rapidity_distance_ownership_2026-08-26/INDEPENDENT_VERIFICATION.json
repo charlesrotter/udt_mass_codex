@@ -1,0 +1,12 @@
+{
+  "cases": 24000,
+  "exact_assertions": 168530,
+  "history_distance_xmax": "OPEN_NOT_SELECTED",
+  "landing": "COMPLETE_METRIC_DERIVES_QUERY_RELATIVE_TRANSPORTED_RAPIDITY_STATE__PLANAR_TANH_DELTA_IS_EXACT_STRATUM__SCREEN_STATE_PREVENTS_DELTA_ONLY_COMPLETENESS__CONVENTIONAL_DISTANCE_SCALE_PROFILE_HISTORY_AND_XMAX_REMAIN_OPEN",
+  "method": "INDEPENDENT_EXACT_FRACTION_TRANSPORT_DECOMPOSITION_PLUS_FLOAT_RAPIDITY",
+  "negative_depth_controls": 11842,
+  "nonplanar_separators": 23995,
+  "planar_controls": 270,
+  "production_imported": false,
+  "status": "PASS"
+}

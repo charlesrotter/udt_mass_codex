@@ -1,0 +1,13 @@
+{
+  "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+  "implementation_mutations_caught": 5,
+  "independent_cases": 24000,
+  "independent_exact_assertions": 168530,
+  "landing": "COMPLETE_METRIC_DERIVES_QUERY_RELATIVE_TRANSPORTED_RAPIDITY_STATE__PLANAR_TANH_DELTA_IS_EXACT_STRATUM__SCREEN_STATE_PREVENTS_DELTA_ONLY_COMPLETENESS__CONVENTIONAL_DISTANCE_SCALE_PROFILE_HISTORY_AND_XMAX_REMAIN_OPEN",
+  "no_write_replays": 3,
+  "production_checks": 20,
+  "source_paths_within_scope_root": 7,
+  "source_rows": 7,
+  "status": "PASS",
+  "typed_scope_catches_passed": 6
+}
