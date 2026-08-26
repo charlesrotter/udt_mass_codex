@@ -70,6 +70,10 @@ query task-relevant registry rows.
 - Bounded mutual-state closure: `udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/`—exact finite reparameterization, no value/history selection;
   `udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/`—independent metric null-transport evaluator and sharp `sech` bound;
   `udt_g270_completed_pair_transported_screen_ownership_2026-08-26/`—full supplied realization evaluates `W`, intrinsic pullback does not select it.
+- Projective pair-position route: `udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/`—one metric gradient splits depth/screen first jets;
+  `udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/`—complete transported open-ball state, planar signed stratum;
+  `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/`—scoped projective uniqueness and unadopted physical-position clarification;
+  `udt_g274_projective_pair_position_network_descent_2026-08-26/`—full frame-morphism descent, required screen carry, exact radial Möbius closure.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`

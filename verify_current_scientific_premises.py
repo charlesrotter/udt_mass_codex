@@ -167,7 +167,9 @@ def replay_package_with_current_registry_rows_removed(
     frozen_source_overrides: dict[str, Path] | None = None,
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
-    removed_ids = tuple(dict.fromkeys(("G270", "G269", "G268") + removed_ids))
+    removed_ids = tuple(
+        dict.fromkeys(("G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+    )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
         copied_package = root / package.name
@@ -249,7 +251,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G270",
+            "G166--G274",
             "G197",
             "G215",
             "G216",
@@ -307,6 +309,10 @@ def validate_startup_surface(root: Path) -> None:
             "G268",
             "G269",
             "G270",
+            "G271",
+            "G272",
+            "G273",
+            "G274",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -350,7 +356,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "253-row exact registry",
+            "257-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -447,6 +453,10 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/",
             "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/",
             "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/",
+            "udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/",
+            "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/",
+            "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/",
+            "udt_g274_projective_pair_position_network_descent_2026-08-26/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -461,7 +471,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G270",
+            "G166--G274",
             "G197",
             "G198",
             "G199",
@@ -537,6 +547,10 @@ def validate_startup_surface(root: Path) -> None:
             "G268",
             "G269",
             "G270",
+            "G271",
+            "G272",
+            "G273",
+            "G274",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -626,6 +640,10 @@ def validate_startup_surface(root: Path) -> None:
             "G268",
             "G269",
             "G270",
+            "G271",
+            "G272",
+            "G273",
+            "G274",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -709,10 +727,14 @@ def validate_startup_surface(root: Path) -> None:
             "G268",
             "G269",
             "G270",
+            "G271",
+            "G272",
+            "G273",
+            "G274",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "253-row",
+            "257-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1073,9 +1095,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 253, "premise registry must contain exactly 253 rows")
+    require(len(rows) == 257, "premise registry must contain exactly 257 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 253, "duplicate premise id")
+    require(len(by_id) == 257, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -8320,6 +8342,99 @@ def main() -> None:
     require(g270_replayed["smooth_ribbon_off_axis_cases"] == 40040, "G270 off-axis replay count changed")
     require(g270_replayed["implementation_mutation_catches"] == 8, "G270 implementation catches changed")
     require(g270_replayed["ledger_mutation_catches"] == 5, "G270 ledger catches changed")
+    newest_expected = {
+        "G271": {
+            "status": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__REPAIRS_ACCEPTED",
+            "active": "ACTIVE_BOUNDED_LOCAL_FIRST_JET_LONGITUDINAL_TRANSVERSE_INTERLOCK_ON_SUPPLIED_SMOOTH_REGULAR_PRIMARY_STATIC_METRIC_AND_NULL_GERM_MODULO_SPHERICAL_ISOMETRY_ONLY",
+            "source": "udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/AUDIT_REPORT.md",
+            "package": "udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26",
+            "landing": "NATIVE_LONGITUDINAL_TRANSVERSE_FIRST_JET_SPLIT__ONE_PRIMARY_METRIC_GRADIENT_GENERATES_DEPTH_AND_TRANSPORTED_SCREEN_CHANNELS__RADIAL_AND_QUIET_STRATA_EXACT__NO_FINITE_PATH_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+            "checks": 30,
+            "independent_key": "exact_fraction_cases",
+            "independent_value": 20000,
+            "mutation_count": 6,
+            "source_count": 5,
+            "external_file": "EXTERNAL_REPAIR_FOLLOWUP.md",
+            "external_token": "ACCEPT_REPAIRS_AND_CLOSE",
+        },
+        "G272": {
+            "status": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS",
+            "active": "ACTIVE_BOUNDED_COMPLETE_RELATION_TRANSPORTED_RAPIDITY_BOUNDED_STATE_AND_PLANAR_DISTANCE_ATTACHMENT_OWNERSHIP_CLASSIFICATION_ONLY",
+            "source": "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/AUDIT_REPORT.md",
+            "package": "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26",
+            "landing": "COMPLETE_METRIC_DERIVES_QUERY_RELATIVE_TRANSPORTED_RAPIDITY_STATE__PLANAR_TANH_DELTA_IS_EXACT_STRATUM__SCREEN_STATE_PREVENTS_DELTA_ONLY_COMPLETENESS__CONVENTIONAL_DISTANCE_SCALE_PROFILE_HISTORY_AND_XMAX_REMAIN_OPEN",
+            "checks": 20,
+            "independent_key": "exact_assertions",
+            "independent_value": 168530,
+            "mutation_count": 5,
+            "source_count": 7,
+            "external_file": "EXTERNAL_REVIEW.md",
+            "external_token": "ACCEPT_BOUNDED_G272_LEAD",
+        },
+        "G273": {
+            "status": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS",
+            "active": "ACTIVE_BOUNDED_FOUNDING_DISTANCE_OWNERSHIP_PROJECTIVE_CONTRAST_AND_COMPLETE_OPEN_BALL_COORDINATE_CLASSIFICATION_ONLY",
+            "source": "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/AUDIT_REPORT.md",
+            "package": "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26",
+            "landing": "FOUNDING_INTENT_OWNS_DISTANCE_TO_RECIPROCAL_RESPONSE_DIRECTION__STRICT_X_OVER_X_EQUALS_TANH_DELTA_ENTAILMENT_FAILS__UNIQUE_SCALE_FREE_PROJECTIVE_CONTRAST_AND_COMPLETE_OPEN_BALL_ARE_METRIC_NATIVE__PHYSICAL_POSITION_ATTACHMENT_IS_ONE_MINIMAL_WORKING_FOUNDATIONAL_CLARIFICATION__SCALE_HISTORY_POPULATION_AND_XMAX_REMAIN_OPEN",
+            "checks": 23,
+            "independent_key": "exact_assertions",
+            "independent_value": 168000,
+            "mutation_count": 5,
+            "source_count": 11,
+            "external_file": "EXTERNAL_REVIEW.md",
+            "external_token": "ACCEPT_BOUNDED_G273_LEAD",
+        },
+        "G274": {
+            "status": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS",
+            "active": "ACTIVE_BOUNDED_PATH_LABELLED_FRAME_MORPHISM_PROJECTIVE_OPEN_BALL_COORDINATE_AND_RADIAL_MOBIUS_DESCENT_ON_SUPPLIED_REGULAR_COMPLETED_RELATIONS_ONLY",
+            "source": "udt_g274_projective_pair_position_network_descent_2026-08-26/AUDIT_REPORT.md",
+            "package": "udt_g274_projective_pair_position_network_descent_2026-08-26",
+            "landing": "FULL_PATH_LABELLED_FRAME_MORPHISMS_DESCEND_EXACTLY__PROJECTIVE_OPEN_BALL_VECTOR_IS_A_VALID_PAIR_COORDINATE_BUT_NOT_A_STANDALONE_NONRADIAL_COMPOSITION_LAW__SCREEN_FRAME_CARRY_IS_REQUIRED__RADIAL_MOBIUS_STRATUM_CLOSES__SCALE_HISTORY_BRANCH_POPULATION_AND_XMAX_REMAIN_OPEN",
+            "checks": 26,
+            "independent_key": "exact_assertions",
+            "independent_value": 240004,
+            "mutation_count": 5,
+            "source_count": 11,
+            "external_file": "EXTERNAL_REVIEW.md",
+            "external_token": "ACCEPT_BOUNDED_G274_LEAD",
+        },
+    }
+    for premise_id, expected in newest_expected.items():
+        row = by_id[premise_id]
+        require(row["current_status"].startswith(expected["status"]), f"{premise_id} grade changed")
+        require(row["epistemic_label"] == "MIXED", f"{premise_id} label changed")
+        require(row["active_use"] == expected["active"], f"{premise_id} active scope widened")
+        require(row["controlling_source"] == expected["source"], f"{premise_id} source changed")
+        require("history" in row["open_scope"] and "Xmax" in row["open_scope"], f"{premise_id} open boundary narrowed")
+        require("Xmax" in row["forbidden_regression"], f"{premise_id} Xmax regression guard absent")
+        package = ROOT / expected["package"]
+        for name in (
+            "AUDIT_REPORT.md",
+            "DERIVATION_RESULT.json",
+            "INDEPENDENT_VERIFICATION.json",
+            "CATCH_PROOF_RESULT.json",
+            expected["external_file"],
+            "SOURCE_MANIFEST.tsv",
+            "verify_package.py",
+        ):
+            require((package / name).is_file(), f"{premise_id} evidence missing: {name}")
+        production = json.loads((package / "DERIVATION_RESULT.json").read_text())
+        independent = json.loads((package / "INDEPENDENT_VERIFICATION.json").read_text())
+        catches = json.loads((package / "CATCH_PROOF_RESULT.json").read_text())
+        require(
+            production["status"] == independent["status"] == catches["status"] == "PASS"
+            and production["landing"] == independent["landing"] == expected["landing"]
+            and production["exact_checks"] == expected["checks"]
+            and independent[expected["independent_key"]] == expected["independent_value"]
+            and catches["implementation_mutations_caught"] == expected["mutation_count"],
+            f"{premise_id} recorded landing or verification changed",
+        )
+        require(len(read_tsv(package / "SOURCE_MANIFEST.tsv")) == expected["source_count"], f"{premise_id} source count changed")
+        require(
+            expected["external_token"] in (package / expected["external_file"]).read_text(),
+            f"{premise_id} external acceptance absent",
+        )
     founding_text = " ".join((ROOT / "founding.md").read_text().split())
     require(
         "### W4. Universal metric coupling" in founding_text
@@ -12550,7 +12665,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270-extended startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274-extended startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

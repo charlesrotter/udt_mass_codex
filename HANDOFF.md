@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-26
 
-G166--G270 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
+G166--G274 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
 the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
@@ -55,6 +55,22 @@ intrinsic pair metric can occur with different ambient transported-screen mismat
 realization evaluates `W`; it is not a fit coefficient, but no universal `W`, population, history,
 distance, or `X_max` is selected.
 
+G271 derives a local first-jet interlock: one primary-metric gradient splits into longitudinal depth
+and transverse transported-screen channels on a supplied smooth static history and null germ, with
+exact radial and quiet strata. G272 packages the complete transported rapidity/open-ball state;
+signed `chi=tanh(delta)` remains the exact oriented planar stratum, while active screen state makes
+`delta` alone incomplete.
+
+G273 finds that founding intent owns `separation -> reciprocal response`, but not a unique distance
+function. `tanh(delta)` is unique only inside the normalized scale-free linear-fractional projective
+class; a weaker bounded class admits a counterattachment. The full screen-retaining open-ball vector
+is metric-native on a supplied transported relation, but its physical-position interpretation is a
+`CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_ADOPTED`.
+
+G274 proves exact full path-labelled frame-morphism composition, reversal, and overlap descent. The
+projective vector is a valid pair coordinate but not a standalone nonradial composition law: screen/
+frame carry is required. Radial Möbius composition remains exact; path independence is not derived.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
 
@@ -73,12 +89,11 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Pause before an automatic G271. First MAP/PONDER whether the next bounded question evaluates `W`
-over a declared supplied history/query family or searches the authoritative premises for an
-independently owned population/history law. Do not repeat intrinsic-determinant algebra or promote
-the no-owner audit without a new candidate owner/source; otherwise restrict work to the declared
-supplied-family evaluation. Do not promote G268--G270 to canon, distance, population, history, or
-`X_max`. No ODE/PDE/GPU solve is authorized.
-The 253-row registry controls.
+Pause before an automatic G275. First MAP/PONDER whether Charles adopts the physical-position
+clarification provisionally. Without adoption, stop at the exact coordinate theorem. With adoption,
+the next bounded question is operational scale/attachment. Do not erase screen/frame carry or path
+labels, promote the vector to a universal nonradial composition law, or select history, population,
+`X_max`, dynamics, or canon. No ODE/PDE/GPU solve is authorized.
+The 257-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

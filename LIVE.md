@@ -19,10 +19,13 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The first is a `CONDITIONAL` pair ratio, not automatically a signal speed. The second is the
-`CHOSE/PROVISIONAL/DERIVED` normalized pair-position constitution, not part of the founded block.
+The first is a `CONDITIONAL` pair ratio, not automatically a signal speed. G273 derives the second
+inside the normalized scale-free linear-fractional projective class and G274 retains it as the exact
+radial Möbius stratum. Calling the complete projective open-ball vector *physical normalized
+position* remains a `CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_ADOPTED`, not part of the
+founded block or canon.
 
-G166--G270 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
+G166--G274 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
 `m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. The quarter-log scalar is a calibration control;
 events, germs, population, higher/full carry, and global realization remain supplied or `OPEN`.
@@ -95,10 +98,30 @@ ambient null-ribbon realizations can have the same intrinsic pair metric and dif
 the full metric, null branch, and endpoint clocks are supplied, `W` is evaluated rather than fitted;
 no universal `W`, population, history, distance, or `X_max` is selected.
 
+G271 derives the local first-jet interlock on a supplied smooth primary static history and null germ:
+one metric gradient splits into longitudinal reciprocal-depth and transverse transported-screen
+channels, with exact radial and quiet strata. It does not integrate a finite path or select a
+profile, distance, population, history, or `X_max`.
+
+G272 derives the complete transported rapidity/open-ball state. Signed `chi=tanh(delta)` is exact on
+the oriented planar stratum; active screen state makes `delta` alone incomplete. A conventional
+distance still requires a separately declared attachment and scale.
+
+G273 finds that founding intent owns the direction `separation -> reciprocal response`, but not an
+exact distance function. Strict `x/X=tanh(delta)` entailment fails on weaker bounded assumptions;
+the formula is unique only inside the declared normalized scale-free linear-fractional projective
+class. The full screen-retaining open-ball vector is metric-native on a supplied transported
+relation. Its physical-position interpretation remains an unadopted candidate clarification.
+
+G274 proves exact composition, reversal, and overlap descent for the full path-labelled frame
+morphisms. The projective vector is an exact pair coordinate, but it cannot compose nonradially by
+itself because projectivization forgets required screen/frame carry. The radial Möbius stratum closes
+exactly. Concatenation is not path independence; path labels and holonomy remain.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 253-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 257-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`, and
@@ -108,7 +131,7 @@ Authority: the 253-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G270 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G274 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -122,12 +145,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Pause before an automatic G271. G268--G270 close the bounded relation-level question: the semicircle
-is nonselective, null transport supplies an independent metric evaluator, and intrinsic
-completed-pair normalization does not select the ambient mismatch. The next research turn must
-first MAP/PONDER whether it is evaluating `W` over a declared supplied history/query family or
-locating an independently owned population/history law. Do not repeat intrinsic-determinant
-algebra or a no-owner audit unless a new candidate controlling source/owner is identified. Otherwise
-restrict the next question to the declared supplied-family evaluation. Do not import dynamics, fit
-a regime, or invent a residual. No ODE/PDE or GPU solve is authorized.
+Pause before an automatic G275. G271--G274 close the bounded route from the local metric-gradient
+interlock to the complete projective pair coordinate and its lawful network descent. The next turn
+must first MAP/PONDER whether Charles adopts the physical-position clarification provisionally. If
+it is not adopted, stop at the exact coordinate theorem. If it is adopted, the next bounded question
+is its operational scale/attachment—not a new profile, fit, history law, branch selector, `X_max`,
+or vector-only nonradial composition rule. Do not erase screen/frame carry, path labels, or holonomy;
+do not import dynamics or invent a residual. No ODE/PDE or GPU solve is authorized.
 <!-- STARTUP_CURRENT_END -->

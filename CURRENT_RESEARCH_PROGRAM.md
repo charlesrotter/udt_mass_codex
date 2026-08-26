@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-`LIVE.md` controls status; the 253-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 257-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -93,8 +93,21 @@ Phi=-log(T)=-1/2 log(-h00)
   ambient null-ribbon realizations can have different `W`; a full supplied metric/path/endpoint-
   clock realization evaluates `W`, but no universal value, population, history, distance, or
   `X_max` follows.
+- G271 derives the local first-jet split of one primary-metric gradient into longitudinal depth and
+  transverse transported-screen channels on a supplied smooth static history and null germ, modulo
+  spherical isometry. Finite-path integration and profile ownership remain open.
+- G272 derives the complete transported rapidity/open-ball state. Signed `tanh(delta)` is the exact
+  oriented planar stratum; active screen state prevents `delta`-only completeness. Distance and
+  scale attachment remain conditional/open.
+- G273 derives `tanh(delta)` uniquely only inside the normalized scale-free linear-fractional
+  projective class and refutes its strict entailment from weaker bounded requirements. The complete
+  screen-retaining open-ball vector is metric data on a supplied transported relation. Identifying
+  it with physical normalized position is a candidate working clarification, not adopted or canon.
+- G274 derives exact full path-labelled frame-morphism composition, reversal, and overlap descent.
+  The projective vector alone cannot compose active-screen relations; screen/frame carry is required.
+  The collinear radial Möbius stratum closes exactly, while path independence remains unproved.
 
-G206--G270 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G274 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -106,32 +119,37 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   propagation. G260 forbids angular discard, G261 leaves W4 nonselective, G262 joins the evaluator,
   G263/G264 classify sign/ends; G265 provenance; G266/G267 even/odd algebra and provisional bounded
   state; G268--G270 separate equivalent bounded presentation, independent null transport, and
-  intrinsic-versus-ambient ownership. Distance and a nonidentity source/history or two-point value
-  law remain open.
+  intrinsic-versus-ambient ownership. G271--G274 then derive the metric-gradient interlock, complete
+  projective state, bounded ownership grade, and full frame-carry descent. Physical adoption of the
+  position interpretation, its scale/operational attachment, and a nonidentity source/history or
+  two-point value law remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 are observed/verified-with-caveats pattern controls with 184,300 unresolved covariance rows
 and no preferred scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave history, source
-measure, and detector/transfer ownership open. G259--G270 are outcome-blind structural audits.
+measure, and detector/transfer ownership open. G259--G274 are outcome-blind structural audits.
 
 ## Audited restart
 
 G197 excludes scaffolds, fits, `X_max`, and protected inputs. G190--G258 remain controls/evaluators;
-G259--G270 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
+G259--G274 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
 infinite-bare-`c` provenance, bounded state, independent null transport, and ambient-screen
 ownership. G268 proves the bounded presentation itself is nonselective; G269/G270 add an evaluator
-without a history or population law. Do not promote `sech(delta)`, `M_PT`, `W`, `P_INF`, `P_MUT`,
+without a history or population law. G271--G274 derive the first-jet and projective-position
+coordinate/network structure without adopting its physical-position interpretation. Do not promote
+`sech(delta)`, `M_PT`, `W`, the projective vector, `P_INF`, `P_MUT`,
 `ds=dR`, alpha two, zero tide, raw flux,
 `q^w`, or the variational candidate; invent a residual; fit history; erase quiet geometry; aggregate
 branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-G268--G270 close the bounded question that followed G267. Do not automatically create G271. First
-MAP/PONDER whether the next bounded task evaluates `W` over a declared supplied history/query
-family or audits an independently owned population/history law. Do not repeat a no-owner audit
-without a new candidate controlling source/owner; otherwise choose only the declared supplied-family
-evaluation. Intrinsic determinant normalization cannot answer the ownership question; no
-ODE/PDE/GPU or observational fit is authorized.
+G271--G274 close the bounded route from the local metric-gradient interlock to the complete
+projective pair coordinate and its lawful full-frame network descent. Do not automatically create
+G275. First MAP/PONDER whether Charles adopts the physical-position clarification provisionally.
+Without adoption, the exact coordinate theorem is the stopping point. With adoption, the next
+bounded task is operational scale/attachment. Do not erase screen/frame carry or path labels, fit a
+profile, select a history/population/`X_max`, or invent a residual. No ODE/PDE/GPU or observational
+fit is authorized.

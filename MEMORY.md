@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G270: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
+G166--G274: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
 G190--G198 are chosen-family formula-level regression/off-ray controls. G197/G198/G199/G200/G201/
@@ -36,6 +36,14 @@ clock scalar with `M_PT<=sech(delta)`. G270 proves intrinsic completed-pair norm
 select the transported-screen mismatch `W`; a full supplied realization evaluates it, while
 population, history, distance, and `X_max` remain open.
 
+G271 derives the local metric-gradient split into longitudinal depth and transverse transported-
+screen first jets. G272 derives the complete transported rapidity/open-ball state and keeps signed
+`tanh(delta)` as the exact planar stratum. G273 derives `tanh(delta)` uniquely only in the declared
+scale-free linear-fractional projective class; its physical-position interpretation remains an
+unadopted candidate clarification. G274 proves exact full path-labelled frame-morphism descent,
+refutes vector-only nonradial composition, requires screen/frame carry, and retains exact radial
+Möbius closure. Scale, history, population, path independence, and `X_max` remain open.
+
 G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protected payload.
 `INDEX.md` routes evidence.
 
@@ -54,10 +62,10 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-Pause before G271. MAP/PONDER whether the next bounded question evaluates `W` on a declared supplied
-history/query family or audits an independently owned population/history law. Do not repeat the
-closed intrinsic-normalization or no-owner audits without a new candidate owner/source; otherwise
-restrict work to the declared supplied-family evaluation. Do not start an ODE/PDE/GPU solve.
+Pause before G275. MAP/PONDER whether Charles adopts the physical-position clarification
+provisionally. Without adoption, stop at the exact coordinate theorem. With adoption, test only its
+operational scale/attachment next. Preserve screen/frame carry and path labels; do not select a
+profile, history, population, `X_max`, or start an ODE/PDE/GPU solve.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

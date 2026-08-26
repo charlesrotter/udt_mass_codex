@@ -11,11 +11,11 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
-| Pair-clock/state network | G215--G270 | Carry, GR, W4, mass-aspect, transport channels | Dynamics/history/aggregation |
+| Pair-clock/state network | G215--G274 | Carry, GR, W4, mass-aspect, transport, projective coordinate, and frame descent | Dynamics/history/aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
-| Pair position | `CHOSE/PROVISIONAL/DERIVED` | `chi=tanh(phi_pair)` | Completion |
+| Projective pair coordinate | `DERIVED` in declared class / exact radial stratum | `chi=tanh(phi_pair)` plus screen-retaining open-ball vector | Physical-position adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
 
 ## Reconstruction hierarchy
@@ -69,6 +69,10 @@
 | G268 bounded relation equivalence | external repairs accepted | Exact finite presentation; no value/history selection |
 | G269 null-transport mutual clock | external; no repairs | Metric-owned query evaluator; `M_PT<=sech(delta)` |
 | G270 transported-screen ownership | external repairs accepted | Full realization evaluates `W`; intrinsic pullback does not select it |
+| G271 null-screen first-jet interlock | external repairs accepted | One metric gradient feeds longitudinal and transverse jets; finite path open |
+| G272 complete relation rapidity | external; no repairs | Complete open-ball magnitude; signed `tanh(delta)` is planar stratum |
+| G273 projective distance ownership | external; no repairs | Scoped projective uniqueness; physical-position clarification not adopted |
+| G274 projective network descent | external; no repairs | Full morphisms descend; vector-only nonradial composition refuted; radial Möbius exact |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -91,9 +95,9 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class; metricity is not dynamics.
 - G212--G243 evaluate/reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale
-  without selecting values. G257--G270 add GR, sampled values, operator/angle/W4/one-lapse controls,
-  signed-end classification, bounded provenance/even-odd channels, and the intrinsic-versus-ambient
-  null-transport ownership boundary.
+  without selecting values. G257--G274 add GR, sampled values, operator/angle/W4/one-lapse controls,
+  signed-end classification, bounded provenance/even-odd channels, the intrinsic-versus-ambient
+  null-transport ownership boundary, and the projective coordinate/full-frame descent boundary.
 
 ## Carrier, action, source, and matter
 
@@ -111,7 +115,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G270 are outcome-blind; G258 reuses G237. History/transfer stay open.
+G244--G257 and G259--G274 are outcome-blind; G258 reuses G237. History/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -124,7 +128,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 253-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 257-row authority; conflicts stop.
 
 Run:
 
