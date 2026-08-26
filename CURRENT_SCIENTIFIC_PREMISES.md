@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
-| Pair-clock/state network | G215--G265 | Carry, GR, W4, mass-aspect, signed/even channels | Dynamics; history; aggregation |
+| Pair-clock/state network | G215--G266 | Carry, GR, W4, mass-aspect, signed/even channels | Dynamics; history; aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
@@ -64,6 +64,7 @@
 | G263 reversal/sign parity | external repairs accepted | Pair reversal differs from profile conjugation; no sector selected |
 | G264 negative-`phi` selectivity | external packaging repair accepted with runtime caveat | Sign alone nonselective; conditional alpha-two threshold; history open |
 | G265 infinite-bare-`c`/mutuality classification | external repairs accepted | Null delay identity; signed/even channels distinct; mutual rate/history open |
+| G266 even-channel ownership | external repairs accepted | `cosh/sinh` interlock; `sech`, distance attachment, and history open |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -86,8 +87,8 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class. Metricity is not dynamics.
 - G212--G243 evaluate/reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale
-  without selecting values. G257--G265 add GR, sampled values, operator/angle/W4/one-lapse controls,
-  signed-end classification, and a bounded provenance/signed-versus-even channel classification.
+  without selecting values. G257--G266 add GR, sampled values, operator/angle/W4/one-lapse controls,
+  signed-end classification, and bounded provenance/even-odd channel classifications.
 
 ## Carrier, action, source, and matter
 
@@ -105,7 +106,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G265 are outcome-blind; G258 reuses G237. History/transfer remain open.
+G244--G257 and G259--G266 are outcome-blind; G258 reuses G237. History/transfer remain open.
 
 ## Recurring prohibited promotions
 
@@ -118,7 +119,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 248-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 249-row authority; conflicts stop.
 
 Run:
 

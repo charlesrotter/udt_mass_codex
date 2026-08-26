@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G265: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G266: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -40,13 +40,21 @@ kernel algebra contains signed `exp(plus/minus delta)` and reversal-even `cosh(d
 `sech(delta)` as a physical mutual clock rate, `P_INF`/`P_MUT`, intrinsic two-point distance,
 time-live realization, and valued history remain proposed or open.
 
+G266 closes the determinant-one kernel algebra on a supplied G220 relation: the canonical even/odd
+pair is `Gamma=cosh(delta)`, `Xi=sinh(delta)`, and nontrivial composition requires both. No
+nontrivial positive even multiplicative scalar character exists. `sech(delta)` remains unadopted;
+areal radius is invariant geometry but `ds=dR` is a free physical-distance attachment. Three
+controls agree through first jet and split `4:2:0` at second jet. No distance protocol or history
+is selected.
+
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
 ## Observations
 
-R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G258 derive
-the outcome-blind sky-to-attachment chain. History, value, aggregation, and outcomes remain open.
+R2--R5 remain unresolved. G236--G243 freeze/type bounded observational controls; G244--G257 and
+G259--G266 are outcome-blind, while G258 reuses frozen G237. History, value, aggregation, and
+outcomes remain open.
 
 Package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`.
 Raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
@@ -66,8 +74,9 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Ponder whether mutual distance can be independently stated as a covariant two-point/time-live law
-that owns the even channel and rejects an admitted history. Do not promote `sech(delta)`, `P_INF`,
-`P_MUT`, alpha two, zero tide, the raw flux, `q^w`, or the unadopted G259 variational form.
+Determine whether an operational covariant two-point/time-live distance protocol can be derived or
+independently posited to own the even channel and reject an admitted history. Do not promote
+`sech(delta)`, `P_INF`, `P_MUT`, `ds=dR`, alpha two, zero tide, the raw flux, `q^w`, or the unadopted
+G259 variational form.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

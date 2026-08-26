@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-26
 
-G166--G265 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G266 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -62,6 +62,14 @@ profile. Optical-equals-slice distance is an extra flatness-forcing premise. The
 `sech(delta)`, `P_INF`/`P_MUT`, intrinsic two-point distance, time-live realization, and history are
 not adopted. Replays close `18/18`, `63/63`, and `8/8`.
 
+G266's repaired external review accepts alternative B. On a supplied regular G220 relation,
+`Gamma=cosh(delta)` is the canonical reversal-even trace channel and `Xi=sinh(delta)` its odd
+companion; both are required for exact reconstruction and nontrivial composition. No nontrivial
+positive even multiplicative scalar character exists. `sech(delta)` remains unadopted. Areal
+radius is invariant geometry, while `ds=dR` remains a free physical-distance attachment. Three
+controls agree through first jet and split `4:2:0` at second jet, so distance and history remain
+open. Dependency-free sealed and synthetic-live replays close `25`, `768`, and `8` checks.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
 program/index.
@@ -82,9 +90,9 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next ask whether the recovered mutual-distance premise can be stated independently as a covariant
-two-point/time-live law owning the even channel and rejecting an admitted history. Do not promote
-`sech(delta)`, `P_INF`, `P_MUT`, alpha two, zero tide, raw flux, Einstein comparison, `q^w`, or the
-G259 candidate. The 248-row registry controls.
+Next determine whether a covariant operational two-point/time-live distance protocol can be
+derived or independently posited to own the even channel and reject an admitted history. Do not
+promote `sech(delta)`, `P_INF`, `P_MUT`, `ds=dR`, alpha two, zero tide, raw flux, Einstein comparison,
+`q^w`, or the G259 candidate. The 249-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

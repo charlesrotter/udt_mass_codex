@@ -71,9 +71,12 @@ def main():
     assert exact["history_rejection_by_current_premises"] == 0
     assert exact["physical_projection"] == "OPEN_NOT_SELECTED_BY_F1_F4_W1_W4"
     assert exact["distance_functional"] == "OPEN_QUERY_OWNED"
-    assert "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING" in (
+    assert "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G266_REPAIRS_ACCEPTED" in (
         ROOT / "EVIDENCE_GATES.md"
     ).read_text()
+    followup = ROOT / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md"
+    assert followup.read_bytes() == b"REPAIRS_ACCEPTED\n"
+    assert sha256(followup) == "2341fe9ebce96341df2d3666523ef704cc49af071fa0c7480acbe94243cc952d"
     assert "No adoption of `P_INF`, `P_MUT`, `sech(delta)`" in (ROOT / "PREREGISTRATION.md").read_text()
     audit_text = (ROOT / "AUDIT_REPORT.md").read_text()
     assert "already-fixed invariant areal-radius" in audit_text
@@ -82,7 +85,7 @@ def main():
 
     print(json.dumps({
         "status": "PASS",
-        "grade": "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING",
+        "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G266_REPAIRS_ACCEPTED",
         "landing": exact["landing"],
         "selected_alternative": exact["selected_alternative"],
         "exact_checks": exact["exact_checks"],

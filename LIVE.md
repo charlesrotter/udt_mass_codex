@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G265. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G266. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -84,10 +84,21 @@ intrinsic two-point distance, time-live realization, and valued history remain p
 The sealed repair review reproduced `18/18` exact checks, `63/63` independent assertions, and `8/8`
 mutation catches.
 
+G266 externally accepts alternative B after repairs. On one supplied regular G220 relation, the
+determinant-one reciprocal kernel canonically has the reversal-even trace channel
+`Gamma=cosh(delta)` and reversal-odd companion `Xi=sinh(delta)`; exact reconstruction and
+nontrivial composition require both. A nontrivial positive reversal-even multiplicative scalar
+character is impossible. `sech(delta)` remains an unadopted physical-projection candidate. Areal
+radius is a derived invariant geometric descriptor, but the physical attachment `ds=dR` remains
+free. Three bounded distance controls share their anchor value and first jet but split at second
+jets `4:2:0`; no distance protocol or valued history is selected. The dependency-free sealed and
+synthetic-live replays passed `25` exact checks, `768` independent assertions, and `8` mutation
+catches.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 248-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 249-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -96,7 +107,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G265 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G266 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -110,9 +121,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Ponder whether the recovered but unadopted mutual-distance premise can be stated independently as
-a covariant two-point/time-live law that owns the reversal-even channel and rejects at least one
-admitted positive- or negative-`phi` history. Do not promote `sech(delta)`, `P_INF`, `P_MUT`, the
+Determine whether a covariant operational two-point/time-live distance protocol can be derived or
+independently posited so that it owns the reversal-even channel and rejects at least one admitted
+positive- or negative-`phi` history. Do not promote `sech(delta)`, `P_INF`, `P_MUT`, `ds=dR`, the
 alpha-two family, zero tide, raw wall flux, geometric mass aspect, unowned `q^w`, or the G259
 variational form into the answer; do not identify infinite bare `c` with physical signalling,
 import Einstein dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU history solve is

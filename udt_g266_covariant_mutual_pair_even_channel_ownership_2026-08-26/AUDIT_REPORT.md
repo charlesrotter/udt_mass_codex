@@ -30,6 +30,7 @@ families when each is separately supplied. At a unit anchor they share `f(0)=1` 
 through first order and becomes visible in the native curvature/angular sector.
 
 No current premise rejects any registered history. The fresh sealed GPT-5.4 review accepted this
-bounded alternative-B landing with repairs. The next gate, after repair-only follow-up, is
-operational ownership of one complete two-point distance protocol and its relation to the already-
-derived trace channel—not a search for another scalar response function.
+bounded alternative-B landing with repairs, and the authorized repair-only follow-up returned
+`REPAIRS_ACCEPTED` after reproducing the dependency-free sealed and synthetic-live replays. The
+next gate is operational ownership of one complete two-point distance protocol and its relation to
+the already-derived trace channel—not a search for another scalar response function.
