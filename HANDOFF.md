@@ -64,8 +64,9 @@ signed `chi=tanh(delta)` remains the exact oriented planar stratum, while active
 G273 finds that founding intent owns `separation -> reciprocal response`, but not a unique distance
 function. `tanh(delta)` is unique only inside the normalized scale-free linear-fractional projective
 class; a weaker bounded class admits a counterattachment. The full screen-retaining open-ball vector
-is metric-native on a supplied transported relation, but its physical-position interpretation is a
-`CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_ADOPTED`.
+is metric-native on a supplied transported relation. Its physical-position interpretation was open
+in G273 and is now provisionally owner-adopted as W5: physical normalized pair position is the
+complete projective relation state. W5 is not canon and changes neither metric nor kernel.
 
 G274 proves exact full path-labelled frame-morphism composition, reversal, and overlap descent. The
 projective vector is a valid pair coordinate but not a standalone nonradial composition law: screen/
@@ -89,11 +90,11 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Pause before an automatic G275. First MAP/PONDER whether Charles adopts the physical-position
-clarification provisionally. Without adoption, stop at the exact coordinate theorem. With adoption,
-the next bounded question is operational scale/attachment. Do not erase screen/frame carry or path
-labels, promote the vector to a universal nonradial composition law, or select history, population,
-`X_max`, dynamics, or canon. No ODE/PDE/GPU solve is authorized.
-The 257-row registry controls.
+W5 is adopted provisionally. G275 is preregistered to classify constant homothety, one-anchor scale
+attachment, and the separate global conditions required before any dimensional supremum can be
+called `X_max`. Do not erase screen/frame carry or path labels, promote the vector to a universal
+nonradial composition law, or select a profile, history, population, `X_max`, dynamics, observation,
+or canon. No ODE/PDE/GPU solve is authorized.
+The 258-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

@@ -168,7 +168,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     removed_ids = tuple(
-        dict.fromkeys(("G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(("W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -313,6 +313,8 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "W5",
+            "G275",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -356,7 +358,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "257-row exact registry",
+            "258-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -551,6 +553,7 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "W5",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -644,6 +647,7 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -731,10 +735,11 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "257-row",
+            "258-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1095,9 +1100,52 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 257, "premise registry must contain exactly 257 rows")
+    require(len(rows) == 258, "premise registry must contain exactly 258 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 257, "duplicate premise id")
+    require(len(by_id) == 258, "duplicate premise id")
+    w5 = by_id["W5"]
+    require(
+        w5["current_status"].startswith(
+            "OWNER_ADOPTED_WORKING_FOUNDATIONAL_CLARIFICATION__AUTHORIZED_BY_CHARLES_ROTTER_2026_08_26__NOT_CANON"
+        ),
+        "W5 owner-adopted working grade changed",
+    )
+    require(w5["epistemic_label"] == "WORKING", "W5 epistemic label changed")
+    require(
+        w5["active_use"]
+        == "ACTIVE_WORKING_PHYSICAL_INTERPRETATION_OF_THE_COMPLETE_PROJECTIVE_OPEN_BALL_COORDINATE_ONLY",
+        "W5 scope widened",
+    )
+    require(w5["controlling_source"] == "founding.md", "W5 source changed")
+    require(
+        all(token in w5["open_scope"] for token in ("dimensional scale", "metric history", "population", "Xmax")),
+        "W5 open boundary narrowed",
+    )
+    require(
+        all(token in w5["forbidden_regression"] for token in ("standalone full nonradial", "screen frame carry", "c_E", "Xmax")),
+        "W5 regression guard missing",
+    )
+    founding_w5 = " ".join((ROOT / "founding.md").read_text().split())
+    for token in (
+        "### W5. Physical normalized projective pair position",
+        "provisionally authorized by Charles Rotter on 2026-08-26",
+        "physical normalized pair position is the metric's complete projective relation state",
+        "does **not** mean that the vector alone is the complete composition datum",
+        "W5 also does not change F1--F4, W1, the metric, or the reciprocal kernel",
+    ):
+        require(token in founding_w5, f"founding W5 guard absent: {token}")
+    g275 = ROOT / "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26"
+    for name in ("MAP.md", "PREMISE_LEDGER.tsv", "PREREGISTRATION.md", "SOURCE_MANIFEST.tsv"):
+        require((g275 / name).is_file(), f"G275 preregistration file missing: {name}")
+    g275_sources = read_tsv(g275 / "SOURCE_MANIFEST.tsv")
+    require(len(g275_sources) == 10, "G275 preregistered source count changed")
+    for source in g275_sources:
+        source_path = ROOT / source["path"]
+        require(source_path.is_file(), f"G275 source missing: {source['path']}")
+        require(
+            hashlib.sha256(source_path.read_bytes()).hexdigest() == source["sha256"],
+            f"G275 preregistered source hash changed: {source['path']}",
+        )
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -12665,7 +12713,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274-extended startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275-preregistered startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

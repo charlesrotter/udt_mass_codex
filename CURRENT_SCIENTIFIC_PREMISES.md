@@ -14,6 +14,7 @@
 | Pair-clock/state network | G215--G274 | Carry, GR, W4, mass-aspect, transport, projective coordinate, and frame descent | Dynamics/history/aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
+| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete screen-retaining projective relation state; owner-adopted 2026-08-26 | Dimensional scale; distance protocols; history/population; `X_max` |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
 | Projective pair coordinate | `DERIVED` in declared class / exact radial stratum | `chi=tanh(phi_pair)` plus screen-retaining open-ball vector | Physical-position adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -71,7 +72,7 @@
 | G270 transported-screen ownership | external repairs accepted | Full realization evaluates `W`; intrinsic pullback does not select it |
 | G271 null-screen first-jet interlock | external repairs accepted | One metric gradient feeds longitudinal and transverse jets; finite path open |
 | G272 complete relation rapidity | external; no repairs | Complete open-ball magnitude; signed `tanh(delta)` is planar stratum |
-| G273 projective distance ownership | external; no repairs | Scoped projective uniqueness; physical-position clarification not adopted |
+| G273 projective distance ownership | external; no repairs | Scoped projective uniqueness; adoption was open at review and is now supplied by W5 |
 | G274 projective network descent | external; no repairs | Full morphisms descend; vector-only nonradial composition refuted; radial Möbius exact |
 
 None selects completion/`X_max`.
@@ -128,7 +129,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 257-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 258-row authority; conflicts stop.
 
 Run:
 

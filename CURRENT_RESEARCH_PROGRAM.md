@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-`LIVE.md` controls status; the 257-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 258-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -35,6 +35,11 @@ Phi=-log(T)=-1/2 log(-h00)
 ```
 
 `phi_control` is the calibration control; completed `Phi` is provisional. Do not conflate them.
+
+W5 is an owner-adopted `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: the complete screen-retaining
+projective relation state is physical normalized pair position. The full path-labelled frame
+morphism remains the composition datum in active-screen relations. W5 changes neither the metric nor
+the kernel and does not attach a dimensional scale or select history, population, or `X_max`.
 
 ## Dependency spine
 
@@ -101,8 +106,8 @@ Phi=-log(T)=-1/2 log(-h00)
   scale attachment remain conditional/open.
 - G273 derives `tanh(delta)` uniquely only inside the normalized scale-free linear-fractional
   projective class and refutes its strict entailment from weaker bounded requirements. The complete
-  screen-retaining open-ball vector is metric data on a supplied transported relation. Identifying
-  it with physical normalized position is a candidate working clarification, not adopted or canon.
+  screen-retaining open-ball vector is metric data on a supplied transported relation. Its physical-
+  position interpretation was open in G273 and is now provisionally owner-adopted by W5, not canon.
 - G274 derives exact full path-labelled frame-morphism composition, reversal, and overlap descent.
   The projective vector alone cannot compose active-screen relations; screen/frame carry is required.
   The collinear radial Möbius stratum closes exactly, while path independence remains unproved.
@@ -146,10 +151,9 @@ branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-G271--G274 close the bounded route from the local metric-gradient interlock to the complete
-projective pair coordinate and its lawful full-frame network descent. Do not automatically create
-G275. First MAP/PONDER whether Charles adopts the physical-position clarification provisionally.
-Without adoption, the exact coordinate theorem is the stopping point. With adoption, the next
-bounded task is operational scale/attachment. Do not erase screen/frame carry or path labels, fit a
-profile, select a history/population/`X_max`, or invent a residual. No ODE/PDE/GPU or observational
-fit is authorized.
+W5 is provisionally adopted. G275 is preregistered to test the scale boundary without revisiting the
+kernel: constant positive homothety of the complete metric/frame relation, recovery of one scale from
+one independent nonzero-weight same-object attachment, and the extra population/completion condition
+needed before a dimensional supremum can be called `X_max`. Do not erase screen/frame carry or path
+labels, fit a profile, select a history/population/`X_max`, or invent a residual. No ODE/PDE/GPU or
+observational fit is authorized.

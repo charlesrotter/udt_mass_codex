@@ -98,6 +98,9 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+- W5 physical normalized projective pair-position working clarification: `founding.md`; controlling
+  derivation/descent: `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and
+  `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`

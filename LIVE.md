@@ -21,9 +21,9 @@ chi_AB=tanh(delta_AB)
 
 The first is a `CONDITIONAL` pair ratio, not automatically a signal speed. G273 derives the second
 inside the normalized scale-free linear-fractional projective class and G274 retains it as the exact
-radial Möbius stratum. Calling the complete projective open-ball vector *physical normalized
-position* remains a `CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION_NOT_ADOPTED`, not part of the
-founded block or canon.
+radial Möbius stratum. W5, provisionally owner-adopted by Charles on 2026-08-26 and not canon, now
+identifies the complete screen-retaining projective relation state as physical normalized pair
+position. It changes neither the metric nor the reciprocal kernel.
 
 G166--G274 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -111,7 +111,8 @@ G273 finds that founding intent owns the direction `separation -> reciprocal res
 exact distance function. Strict `x/X=tanh(delta)` entailment fails on weaker bounded assumptions;
 the formula is unique only inside the declared normalized scale-free linear-fractional projective
 class. The full screen-retaining open-ball vector is metric-native on a supplied transported
-relation. Its physical-position interpretation remains an unadopted candidate clarification.
+relation. Its physical-position interpretation was still open in that bounded review and is now
+provisionally owner-adopted by later W5.
 
 G274 proves exact composition, reversal, and overlap descent for the full path-labelled frame
 morphisms. The projective vector is an exact pair coordinate, but it cannot compose nonradially by
@@ -121,7 +122,7 @@ exactly. Concatenation is not path independence; path labels and holonomy remain
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 257-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 258-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`, and
@@ -145,11 +146,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Pause before an automatic G275. G271--G274 close the bounded route from the local metric-gradient
-interlock to the complete projective pair coordinate and its lawful network descent. The next turn
-must first MAP/PONDER whether Charles adopts the physical-position clarification provisionally. If
-it is not adopted, stop at the exact coordinate theorem. If it is adopted, the next bounded question
-is its operational scale/attachment—not a new profile, fit, history law, branch selector, `X_max`,
-or vector-only nonradial composition rule. Do not erase screen/frame carry, path labels, or holonomy;
-do not import dynamics or invent a residual. No ODE/PDE or GPU solve is authorized.
+W5 is now provisionally adopted. G275 is preregistered to test the next bounded question: whether
+constant positive homothety leaves the complete normalized projective/full-frame relation unchanged,
+whether exactly one independently calibrated nonzero-weight same-object datum fixes dimensional
+scale, and why that scale is not automatically `X_max` without a populated approach to the
+projective boundary. Do not erase screen/frame carry, path labels, or holonomy; import a profile,
+history law, branch selector, `X_max`, or observational outcome; or invent a residual. No ODE/PDE or
+GPU solve is authorized.
 <!-- STARTUP_CURRENT_END -->

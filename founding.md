@@ -209,6 +209,44 @@ metric. It does not alter F1--F4's reciprocal algebra or the primary metric comp
 not, merely by being stated, select a field equation, source/history law, action, locality class,
 differential order, or observer population. Those implications must be derived separately.
 
+### W5. Physical normalized projective pair position
+
+`WORKING_FOUNDATIONAL_CLARIFICATION`, provisionally authorized by Charles Rotter on 2026-08-26,
+not canon: physical normalized pair position is the metric's complete projective relation state on
+a supplied regular completed observer relation.
+
+Concretely, if the full endpoint-frame morphism has future clock column
+
+\[
+c_{AB}=\Lambda_{AB}e_0,
+\qquad c_{AB}^0>0,
+\]
+
+then the screen-retaining projective coordinate is
+
+\[
+\boldsymbol\chi_{AB}
+=
+\frac{(c_{AB}^1,c_{AB}^2,c_{AB}^3)}{c_{AB}^0},
+\qquad
+\lVert\boldsymbol\chi_{AB}\rVert<1.
+\]
+
+On the oriented planar/radial stratum this reduces, up to the declared pair orientation, to
+
+\[
+\boldsymbol\chi_{AB}=(\tanh\delta_{AB},0,0).
+\]
+
+"Complete" here means that all longitudinal and screen components survive projectivization. It
+does **not** mean that the vector alone is the complete composition datum: G274 proves that general
+nonradial composition requires the full path-labelled frame morphism and its screen/frame carry.
+
+W5 does not define proper, radar, optical, or areal distance; attach a dimensional scale; select a
+metric history, relation/path population, or path-independence law; or derive `X_max`. Those remain
+separate operational or global-completion questions. W5 also does not change F1--F4, W1, the metric,
+or the reciprocal kernel.
+
 ### Observational anchors
 
 \(c_E\) and \(G_{\rm obs}\) are accepted `OBSERVED` anchors. Neither is presently an equation for

@@ -40,7 +40,9 @@ G271 derives the local metric-gradient split into longitudinal depth and transve
 screen first jets. G272 derives the complete transported rapidity/open-ball state and keeps signed
 `tanh(delta)` as the exact planar stratum. G273 derives `tanh(delta)` uniquely only in the declared
 scale-free linear-fractional projective class; its physical-position interpretation remains an
-unadopted candidate clarification. G274 proves exact full path-labelled frame-morphism descent,
+unadopted candidate clarification in that review. W5 is now provisionally owner-adopted: physical
+normalized pair position is the complete screen-retaining projective relation state, not canon and
+not a metric/kernel change. G274 proves exact full path-labelled frame-morphism descent,
 refutes vector-only nonradial composition, requires screen/frame carry, and retains exact radial
 Möbius closure. Scale, history, population, path independence, and `X_max` remain open.
 
@@ -62,10 +64,10 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-Pause before G275. MAP/PONDER whether Charles adopts the physical-position clarification
-provisionally. Without adoption, stop at the exact coordinate theorem. With adoption, test only its
-operational scale/attachment next. Preserve screen/frame carry and path labels; do not select a
-profile, history, population, `X_max`, or start an ODE/PDE/GPU solve.
+W5 is provisionally adopted. G275 is preregistered to test constant homothety, one-anchor dimensional
+scale attachment, and the independent population/completion requirement for `X_max`. Preserve
+screen/frame carry and path labels; do not select a profile, history, population, `X_max`, or start
+an ODE/PDE/GPU solve.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and
