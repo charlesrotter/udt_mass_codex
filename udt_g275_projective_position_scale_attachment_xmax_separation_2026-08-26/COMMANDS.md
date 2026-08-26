@@ -1,0 +1,13 @@
+# G275 commands
+
+```bash
+python3 -m py_compile \
+  udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/derive_projective_scale_attachment.py \
+  udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/verify_scale_attachment_independent.py \
+  udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/run_catch_proofs.py \
+  udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/verify_package.py
+python3 udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/derive_projective_scale_attachment.py --no-write
+python3 udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/verify_scale_attachment_independent.py --no-write
+python3 udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/run_catch_proofs.py --no-write
+python3 udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/verify_package.py --no-write
+```

@@ -1,0 +1,19 @@
+{
+  "X_max_selected": false,
+  "active_screen_cases": 20000,
+  "arithmetic": "fractions.Fraction exact rational",
+  "boundary_approach_controls": 20000,
+  "carry_separators": 20000,
+  "cases": 20000,
+  "empty_population_control": true,
+  "exact_assertions": 340006,
+  "finite_domain_controls": 20000,
+  "history_selected": false,
+  "landing": "W5_PROJECTIVE_POSITION_IS_HOMOTHETY_INVARIANT__ONE_MATCHED_NONZERO_WEIGHT_ANCHOR_FIXES_ONE_DIMENSIONAL_SCALE__DIMENSIONFUL_REPRESENTATIVE_RETAINS_FULL_FRAME_CARRY__XMAX_EQUALS_SCALE_ONLY_AFTER_SEPARATELY_OWNED_POPULATED_BOUNDARY_COMPLETION",
+  "negative_weight_cases": 9999,
+  "observations_used": false,
+  "positive_weight_cases": 10001,
+  "production_imported": false,
+  "production_output_read": false,
+  "status": "PASS"
+}

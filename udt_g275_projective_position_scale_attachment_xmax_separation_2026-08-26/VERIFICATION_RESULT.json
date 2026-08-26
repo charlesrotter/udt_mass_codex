@@ -1,0 +1,14 @@
+{
+  "active_screen_cases": 20000,
+  "carry_separators": 20000,
+  "grade": "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW",
+  "implementation_mutations_caught": 6,
+  "independent_cases": 20000,
+  "independent_exact_assertions": 340006,
+  "landing": "W5_PROJECTIVE_POSITION_IS_HOMOTHETY_INVARIANT__ONE_MATCHED_NONZERO_WEIGHT_ANCHOR_FIXES_ONE_DIMENSIONAL_SCALE__DIMENSIONFUL_REPRESENTATIVE_RETAINS_FULL_FRAME_CARRY__XMAX_EQUALS_SCALE_ONLY_AFTER_SEPARATELY_OWNED_POPULATED_BOUNDARY_COMPLETION",
+  "no_write_replays": 3,
+  "production_checks": 26,
+  "source_rows": 10,
+  "status": "PASS",
+  "typed_scope_catches_passed": 2
+}

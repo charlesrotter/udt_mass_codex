@@ -1,0 +1,80 @@
+{
+  "active_nonradial_projective_state": [
+    "1202286487/2172911673",
+    "-779178476/2172911673",
+    "-287156320/724303891"
+  ],
+  "anchor_weights": [
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3
+  ],
+  "boundary_sequence": {
+    "conditional_X_sup": "ell",
+    "limit": "1",
+    "q_n": "n/(n+1)"
+  },
+  "carry_separator": {
+    "plain": [
+      "175517/295205",
+      "25520/59041",
+      "20416/59041"
+    ],
+    "with_hidden_spatial_carry": [
+      "640951/1713625",
+      "1213868/1713625",
+      "111584/342725"
+    ]
+  },
+  "checks": {
+    "active_screen_components_survive": true,
+    "arbitrary_nonzero_real_weight_is_log_injective": true,
+    "boundary_approaching_sequence_has_unit_supremum": true,
+    "boundary_completion_makes_conditional_supremum_equal_scale": true,
+    "ce_alone_has_no_length_only_power": true,
+    "constant_homothety_connection_is_unchanged": true,
+    "constant_homothety_inverse_metric_scales_oppositely": true,
+    "dimensionful_representative_retains_carry_separator": true,
+    "empty_relation_domain_has_no_supremum_witness": true,
+    "finite_domain_does_not_make_xmax_equal_scale": true,
+    "finite_domain_supremum_below_projective_boundary": true,
+    "hidden_carry_changes_composite_projective_state": true,
+    "negative_anchor_weights_recover_same_scale": true,
+    "normalizing_dimensionful_representative_recovers_projective_state": true,
+    "positive_anchor_weights_recover_same_scale": true,
+    "projective_position_is_homothety_invariant": true,
+    "projective_position_stays_in_open_ball": true,
+    "radial_dimensionful_representative_is_scale_times_tanh": true,
+    "radial_projective_coordinate_is_tanh_depth": true,
+    "right_spatial_carry_leaves_single_arrow_projective_state": true,
+    "scale_anchor_does_not_change_relation_domain_supremum": true,
+    "scaled_frame_remains_orthonormal": true,
+    "second_independent_anchor_is_consistency_test": true,
+    "second_scaled_frame_remains_orthonormal": true,
+    "transported_frame_morphism_is_homothety_invariant": true,
+    "zero_weight_anchor_cannot_recover_scale": true
+  },
+  "conditional_dimensionful_representative": "x = ell * chi",
+  "exact_checks": 26,
+  "finite_domain_control": {
+    "X_sup_over_ell": "9/10",
+    "q_R": "9/10"
+  },
+  "landing": "W5_PROJECTIVE_POSITION_IS_HOMOTHETY_INVARIANT__ONE_MATCHED_NONZERO_WEIGHT_ANCHOR_FIXES_ONE_DIMENSIONAL_SCALE__DIMENSIONFUL_REPRESENTATIVE_RETAINS_FULL_FRAME_CARRY__XMAX_EQUALS_SCALE_ONLY_AFTER_SEPARATELY_OWNED_POPULATED_BOUNDARY_COMPLETION",
+  "scope": {
+    "W5": "OWNER_ADOPTED_WORKING_FOUNDATIONAL_CLARIFICATION",
+    "X_max": "OPEN_UNLESS_POPULATED_BOUNDARY_COMPLETION_IS_SEPARATELY_OWNED",
+    "absolute_scale": "CONDITIONALLY_FIXED_BY_ONE_SUPPLIED_MATCHED_ANCHOR",
+    "anchor_identity_or_value": "OPEN_NOT_SELECTED",
+    "full_frame_carry": "RETAINED",
+    "history": "OPEN_NOT_SELECTED",
+    "metric_or_kernel_modified": false,
+    "observations": "NOT_USED",
+    "relation_population": "OPEN_NOT_SELECTED"
+  },
+  "selected_alternative": "B__ONE_POSITIVE_HOMOTHETY_SURVIVES__ONE_NONZERO_WEIGHT_ANCHOR_FIXES_IT",
+  "status": "PASS"
+}

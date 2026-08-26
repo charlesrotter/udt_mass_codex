@@ -1,0 +1,15 @@
+{
+  "catches": {
+    "automatic_xmax_equals_scale_caught": true,
+    "ce_only_scale_selection_caught": true,
+    "homothety_leak_into_projective_state_caught": true,
+    "per_anchor_scale_proliferation_caught": true,
+    "screen_deletion_caught": true,
+    "unpopulated_boundary_promotion_caught": true,
+    "vector_only_composition_caught": true,
+    "zero_weight_anchor_caught": true
+  },
+  "implementation_mutations_caught": 6,
+  "status": "PASS",
+  "typed_scope_catches_passed": 2
+}
