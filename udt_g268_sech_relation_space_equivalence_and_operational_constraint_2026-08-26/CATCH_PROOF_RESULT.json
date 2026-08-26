@@ -1,0 +1,75 @@
+{
+  "baseline_failures": [],
+  "catches": 8,
+  "missed": [],
+  "mutations": {
+    "deleted_composition_denominator": {
+      "caught": true,
+      "failures": [
+        "composition_law"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "composition_law"
+    },
+    "history_rejection_injected": {
+      "caught": true,
+      "failures": [
+        "zero_history_selection"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "zero_history_selection"
+    },
+    "loss_of_chi_sign": {
+      "caught": true,
+      "failures": [
+        "composition_law",
+        "inverse_reconstruction",
+        "reversal_sign"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "reversal_sign"
+    },
+    "multiplicative_m": {
+      "caught": true,
+      "failures": [
+        "composition_law"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "composition_law"
+    },
+    "off_circle_state_accepted": {
+      "caught": true,
+      "failures": [
+        "off_circle_rejection"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "off_circle_rejection"
+    },
+    "operational_ownership_injected": {
+      "caught": true,
+      "failures": [
+        "open_protocol_ownership"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "open_protocol_ownership"
+    },
+    "opposite_endpoints_called_regular": {
+      "caught": true,
+      "failures": [
+        "opposite_endpoint_rejection"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "opposite_endpoint_rejection"
+    },
+    "wrong_inverse_r": {
+      "caught": true,
+      "failures": [
+        "inverse_reconstruction"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "inverse_reconstruction"
+    }
+  },
+  "shared_validator_exercised": true,
+  "status": "PASS"
+}

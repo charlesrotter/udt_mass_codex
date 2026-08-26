@@ -1,0 +1,16 @@
+{
+  "assertions": 95617,
+  "associativity_cases": 2000,
+  "composition_cases": 6000,
+  "expected_landing": "FINITE_REGULAR_SECH_STATE_IS_EXACTLY_EQUIVALENT_TO_THE_RECIPROCAL_RELATION_SPACE__COMPACT_ENDPOINTS_FORM_ONLY_A_PARTIAL_NONGROUP_CLOSURE__INDEPENDENT_M_WOULD_GIVE_A_CONDITIONAL_CROSS_READOUT_LAW__NO_RELATION_NETWORK_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+  "finite_network_rejections": 0,
+  "network_cases": 1200,
+  "network_edge_checks": 34742,
+  "off_law_residual": "-3/10",
+  "opposite_endpoint_denominator": "0",
+  "production_imported": false,
+  "production_result_read": false,
+  "ratio_cases": 1100,
+  "regular_relation_rejections": 0,
+  "status": "PASS"
+}
