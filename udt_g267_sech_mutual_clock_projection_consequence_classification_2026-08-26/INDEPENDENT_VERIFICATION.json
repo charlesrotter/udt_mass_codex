@@ -1,0 +1,16 @@
+{
+  "assertions": 1067,
+  "implementation": "python_fraction_half_depth_parameterization_no_sympy_no_production_import_no_result_read",
+  "pair_cases": 192,
+  "state_cases": 49,
+  "status": "PASS",
+  "verified": [
+    "right-semicircle constraint",
+    "reversal parity",
+    "signed-arrow reconstruction",
+    "identity inverse and associativity",
+    "two-channel composition",
+    "M-alone noncomposition counterexample",
+    "coefficient-free projection nonuniqueness"
+  ]
+}

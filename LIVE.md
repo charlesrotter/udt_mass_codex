@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-G166--G266 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
+G166--G267 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
 `m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. The quarter-log scalar is a calibration control;
 events, germs, population, higher/full carry, and global realization remain supplied or `OPEN`.
@@ -62,10 +62,15 @@ composition needs both. `sech(delta)` remains unadopted. Areal radius is invaria
 free; three distance controls agree through first jet and split `4:2:0`. Replays close `25`, `768`,
 and `8`; no distance/history is selected.
 
+G267 externally accepts with no repairs the provisional `M=sech(delta)`, `chi=tanh(delta)` bounded
+pair state. It composes only as the signed pair, is quadratic at quiet and symmetric at both loud
+ends, and remains distinct from signed redshift. It is not uniquely derived or canon; distance
+scale, query population, and history stay open.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 249-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 250-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -74,7 +79,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G266 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G267 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -88,11 +93,7 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Determine whether a covariant operational two-point/time-live distance protocol can be derived or
-independently posited so that it owns the reversal-even channel and rejects at least one admitted
-positive- or negative-`phi` history. Do not promote `sech(delta)`, `P_INF`, `P_MUT`, `ds=dR`, the
-alpha-two family, zero tide, raw wall flux, geometric mass aspect, unowned `q^w`, or the G259
-variational form into the answer; do not identify infinite bare `c` with physical signalling,
-import Einstein dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU history solve is
-authorized.
+Determine whether G267 adds a nontrivial relation-level constraint beyond bounded
+reparameterization, without promoting it to canon, distance, population, history, or `X_max`. Do
+not import dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU solve is authorized.
 <!-- STARTUP_CURRENT_END -->

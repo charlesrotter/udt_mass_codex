@@ -1,0 +1,90 @@
+{
+  "bounded_pair_state": {
+    "Gamma": "1/M",
+    "M": "sech(delta)=1/Gamma",
+    "Xi": "chi/M",
+    "chi": "tanh(delta)=Xi/Gamma",
+    "domain": "M>0, -1<chi<1, M^2+chi^2=1; endpoints only in closure",
+    "r": "(1-chi)/M"
+  },
+  "candidate_status": "SUPPLIED_PROVISIONAL_CANDIDATE_NOT_DERIVED_UNIQUE_NOT_CANON",
+  "checks": [
+    "unit_semicircle",
+    "gamma_reconstruction",
+    "xi_reconstruction",
+    "signed_arrow_reconstruction",
+    "inverse_arrow_reconstruction",
+    "inverse_trace_arrow_form",
+    "mutual_reversal_even",
+    "position_reversal_odd",
+    "composition_preserves_semicircle",
+    "composition_identity_mutual",
+    "composition_identity_position",
+    "composition_inverse_mutual",
+    "composition_inverse_position",
+    "composition_inverse_denominator_positive_on_regular_state",
+    "mutual_composition_from_additive_depth",
+    "position_composition_from_additive_depth",
+    "same_sign_mutual_output",
+    "same_sign_position_output",
+    "opposite_sign_mutual_output",
+    "opposite_sign_position_output",
+    "mutual_alone_noncompositional_counterexample",
+    "mutual_differential_interlock",
+    "position_differential_interlock",
+    "quiet_mutual_identity",
+    "quiet_mutual_no_linear_term",
+    "quiet_mutual_quadratic_term",
+    "quiet_position_linear_term",
+    "directional_arrow_remains_linear",
+    "quiet_series_through_quartic",
+    "positive_loud_end_mutual_rate_zero",
+    "negative_loud_end_mutual_rate_zero",
+    "positive_loud_end_asymptotic",
+    "negative_loud_end_asymptotic",
+    "competitor_1_normalized",
+    "competitor_2_normalized",
+    "competitor_3_normalized",
+    "three_coefficient_free_even_projections_distinct"
+  ],
+  "composition": {
+    "M_AC": "M_AB*M_BC/(1+chi_AB*chi_BC)",
+    "M_alone": "INSUFFICIENT_SIGNED_COMPANION_REQUIRED",
+    "associativity": "INHERITED_EXACTLY_FROM_ADDITIVE_DELTA",
+    "chi_AC": "(chi_AB+chi_BC)/(1+chi_AB*chi_BC)",
+    "denominator": "1+chi_AB*chi_BC"
+  },
+  "exact_checks": 37,
+  "history_rejection_by_candidate_definition": 0,
+  "landing": "SECH_PROVISIONALLY_CLOSES_A_COEFFICIENT_FREE_BOUNDED_PAIR_STATE__SIGNED_COMPANION_REQUIRED_FOR_COMPOSITION__MUTUAL_EFFECT_IS_QUADRATIC_AT_QUIET_AND_SYMMETRIC_AT_LOUD_ENDS__DISTANCE_SCALE_QUERY_POPULATION_AND_HISTORY_REMAIN_OPEN",
+  "projection_competitors": {
+    "class": "positive normalized coefficient-free smooth functions of Gamma",
+    "examples": [
+      "1/Gamma",
+      "1/Gamma^2",
+      "2/(Gamma+1)"
+    ],
+    "uniqueness": "NOT_DERIVED_BY_F1_F4_W1_W4_G266",
+    "values_at_Gamma_5_over_4": [
+      "4/5",
+      "16/25",
+      "8/9"
+    ]
+  },
+  "query_population": "OPEN_SUPPLIED_RELATION_ONLY",
+  "quiet_loud": {
+    "directional": "r=1-delta+O(delta^2); directional arrow remains first order",
+    "effect": "1-M tends from zero at quiet to one at both ends",
+    "negative_end": "M~2*exp(delta)",
+    "positive_end": "M~2*exp(-delta)",
+    "quiet": "M=1-delta^2/2+5*delta^4/24+O(delta^6); no linear mutual term"
+  },
+  "redshift_guard": "r=exp(-delta) remains the signed one-way clock/frequency arrow; M is not r",
+  "selected_alternative": "C__SECH_NEW_PREMISE_CLOSES_COMPACT_PAIR_STATE__DISTANCE_AND_HISTORY_OPEN",
+  "separation_ownership": {
+    "M_alone": "absolute dimensionless depth |delta|",
+    "M_and_chi": "signed dimensionless depth delta",
+    "dimensionful_distance": "OPEN_REQUIRES_INDEPENDENT_SCALE_AND_PROTOCOL"
+  },
+  "status": "PASS"
+}

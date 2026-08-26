@@ -1,0 +1,15 @@
+{
+  "catches": 8,
+  "mutations": {
+    "M_alone_cannot_choose_same_or_opposite_sign": true,
+    "candidate_evaluates_two_distinct_histories": true,
+    "composition_without_signed_position_rejected": true,
+    "dimensionless_state_contains_no_length_scale": true,
+    "evenness_alone_does_not_select_inverse_trace": true,
+    "linear_quiet_mutual_term_rejected": true,
+    "mutual_projection_is_not_signed_arrow": true,
+    "reversal_odd_mutual_rejected": true
+  },
+  "qualification": "regression catches only; not independent scientific proof",
+  "status": "PASS"
+}

@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-26
 
-G166--G266 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
+G166--G267 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
 the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
@@ -41,6 +41,10 @@ signed `exp(plus/minus delta)` and even `cosh(delta)` differ. G266 derives
 `sech(delta)` is unadopted, areal radius is invariant, `ds=dR` is free, and distance/history remain
 open.
 
+G267 externally accepts with no repairs the provisional bounded state
+`M=sech(delta)`, `chi=tanh(delta)`. It closes exact two-channel composition and quiet/loud/loud
+behavior, not uniqueness, canon, distance scale, query population, or history.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
 
@@ -58,8 +62,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next classify whether provisional `sech(delta)` closes a bounded mutual pair-state projection. It
-must not be promoted to a physical distance protocol, query population, history law, or `X_max`.
-No ODE/PDE/GPU solve is authorized. The 249-row registry controls.
+Next test whether G267 adds a nontrivial relation-level constraint beyond reparameterization. Do
+not promote it to canon, distance, population, history, or `X_max`. No ODE/PDE/GPU solve is
+authorized. The 250-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

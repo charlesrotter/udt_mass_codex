@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G266: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
+G166--G267: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
 G190--G198 are chosen-family formula-level regression/off-ray controls. G197/G198/G199/G200/G201/
@@ -27,6 +27,8 @@ one-lapse clock/acceleration/mass-aspect/angular hierarchy, not physical mass. G
 reversal from profile conjugation; G264 proves sign alone nonselective. G265 retypes proposed
 infinite-bare-`c` null-delay provenance without selecting a profile. G266 derives the supplied-pair
 `Gamma=cosh(delta)`, `Xi=sinh(delta)` interlock; `sech(delta)`, distance, and history remain open.
+G267 externally accepts provisional `(M,chi)=(sech(delta),tanh(delta))` as an exact bounded pair
+state, not a unique derivation, distance, population, history, or canon.
 
 G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protected payload.
 `INDEX.md` routes evidence.
@@ -45,9 +47,8 @@ R2--R5 remain unresolved. Raw archive:
 
 ## Next gate
 
-Classify provisional `sech(delta)` as a coefficient-free bounded mutual pair-state projection. Test
-composition, reversal, quiet/loud limits, reconstruction, and nonuniqueness without promoting it to
-distance, query population, history, `X_max`, or a field law.
+Test whether G267 adds a relation-level constraint beyond bounded reparameterization without
+promoting it to distance, population, history, `X_max`, or a field law.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-`LIVE.md` controls status; the 249-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 250-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -96,8 +96,10 @@ Phi=-log(T)=-1/2 log(-h00)
   `sech(delta)` is an unadopted projection candidate. Areal radius is invariant geometry, while
   `ds=dR` is a free physical-distance attachment. Three controls agree through first jet and split
   `4:2:0` at second jet. External repairs are accepted; no distance protocol or history is selected.
+- G267 externally accepts provisional `(sech(delta),tanh(delta))` as an exact bounded compositional
+  state; uniqueness, canon, distance, population, and history stay open.
 
-G206--G266 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G267 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -107,24 +109,22 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 - G211--G231 close supplied local geometry; G232--G235 do not select history. G236--G248 are
   observational and branchwise controls; G249--G252 type scale attachment; G253--G256 narrow value
   propagation. G260 forbids angular discard, G261 leaves W4 nonselective, G262 joins the evaluator,
-  G263/G264 classify sign and ends, G265 separates null-delay provenance from signed/even pair
-  channels, and G266 closes the supplied-relation even/odd algebra while leaving physical distance
-  open. A nonidentity full-metric source/history or two-point value law remains open.
+  G263/G264 classify sign/ends; G265 provenance; G266/G267 even/odd algebra and provisional bounded
+  state. Distance and a nonidentity source/history or two-point value law remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
 R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
 scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave continuous history, source
-measure, and detector/transfer ownership open. G259--G266 are outcome-blind structural audits.
+measure, and detector/transfer ownership open. G259--G267 are outcome-blind structural audits.
 
 ## Audited restart
 
 G197 excludes scaffolds, fits, `X_max`, and protected inputs. G190--G258 remain controls/evaluators;
-G259--G266 classify the operator fork, quiet balance, W4, the one-lapse hierarchy, signed ends, the
-proposed infinite-bare-`c`/mutuality reframe, and the supplied-relation even/odd kernel algebra.
-Next determine whether an operational covariant two-point/time-live distance protocol can own the
-even channel and reject an admitted history. Do not promote `sech(delta)`, `P_INF`, `P_MUT`,
+G259--G267 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
+infinite-bare-`c` provenance, even/odd algebra, and provisional bounded state. Next test whether
+G267 adds a nontrivial relation constraint. Do not promote `sech(delta)`, `P_INF`, `P_MUT`,
 `ds=dR`, alpha two, zero tide, raw flux,
 `q^w`, or the variational candidate; invent a residual; fit history; erase quiet geometry; aggregate
 branches; insert `X_max`; or activate protected work.

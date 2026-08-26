@@ -65,7 +65,7 @@ query task-relevant registry rows.
   `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`—hierarchy, mass/history open; `udt_g263_pair_reversal_profile_sign_parity_2026-08-25/`—reversal versus conjugation;
   `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`—sign nonselection, conditional alpha-two threshold; packaging accepted with runtime caveat;
   `udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/`—null-delay identity and signed/even channel separation;
-  `udt_g266_covariant_mutual_pair_even_channel_ownership_2026-08-26/`—canonical `cosh/sinh` interlock on a supplied relation; `sech`, distance attachment, and history unadopted/open.
+  `udt_g266_covariant_mutual_pair_even_channel_ownership_2026-08-26/`—`cosh/sinh`; `udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/`—bounded state, distance/history open.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -78,7 +78,7 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 - SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
-- Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
+- Cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
 - R4/R5 outcomes: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`
 - R5 verification: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json`
 - R5 accepted follow-up/manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
@@ -91,7 +91,7 @@ R2--R5 remain metric-neutral and select no feature, scale, origin, cosmology, or
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
-- Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
+- `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Supplied germs/incidence controls: query G168--G171, then controlling G215, in the registry.
