@@ -16,9 +16,11 @@ git status --short --branch
 git log -8 --oneline
 ```
 
-If local work blocks a pull, preserve and inspect it. Never reset, overwrite, clean, or stash user
-work merely to synchronize. If an untracked path collides with an identical upstream path, prove
-byte identity and preserve a backup before moving anything.
+If local work blocks pulling, preserve and inspect it; never reset, overwrite, clean, or stash it to
+synchronize. For an untracked/upstream collision, prove byte identity and back it up before moving.
+If network/auth prevents sync, report the failure and mark remote freshness unverified. Continue
+only read-only orientation from HEAD; do not research, bank, or claim closure until
+sync succeeds.
 
 Read from disk in this exact bounded order:
 
@@ -26,9 +28,8 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   guide supplies bounded premise orientation; the verifier audits the entire 253-row exact registry
-   without dumping its wide rows into model context. Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv`
-   rows only after orientation when the requested task makes those objects load-bearing.
+   verifier audits the 253-row exact registry without dumping its wide rows into model context.
+   Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
 6. `INDEX.md` and `MEMORY.md` for compact pointers only. Neither can overrule `LIVE.md`.
