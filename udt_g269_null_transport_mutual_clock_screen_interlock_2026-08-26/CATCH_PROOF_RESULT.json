@@ -1,0 +1,94 @@
+{
+  "baseline_failures": [],
+  "catches": 10,
+  "missed": [],
+  "mutations": {
+    "affine_scale_leak": {
+      "caught": true,
+      "failures": [
+        "affine_invariance"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "affine_invariance"
+    },
+    "deleted_screen_term": {
+      "caught": true,
+      "failures": [
+        "frequency_contraction",
+        "lorentz_decomposition_sign",
+        "reversal_evenness",
+        "screen_interlock"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "screen_interlock"
+    },
+    "jacobi_area_conflation": {
+      "caught": true,
+      "failures": [
+        "no_jacobi_area_conflation"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "no_jacobi_area_conflation"
+    },
+    "missing_inverse_mutual": {
+      "caught": true,
+      "failures": [
+        "inverse_gamma_readout"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "inverse_gamma_readout"
+    },
+    "negative_screen_norm": {
+      "caught": true,
+      "failures": [
+        "lorentz_decomposition_sign",
+        "screen_nonnegative"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "screen_nonnegative"
+    },
+    "query_history_promotion": {
+      "caught": true,
+      "failures": [
+        "no_query_history_selection"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "no_query_history_selection"
+    },
+    "reversal_not_even": {
+      "caught": true,
+      "failures": [
+        "reversal_evenness"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "reversal_evenness"
+    },
+    "reversed_frequency_ratio": {
+      "caught": true,
+      "failures": [
+        "frequency_ratio_orientation"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "frequency_ratio_orientation"
+    },
+    "universal_nonplanar_equality": {
+      "caught": true,
+      "failures": [
+        "nonplanar_equality_rejection"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "nonplanar_equality_rejection"
+    },
+    "wrong_longitudinal_sign": {
+      "caught": true,
+      "failures": [
+        "frequency_contraction",
+        "lorentz_decomposition_sign"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "frequency_contraction"
+    }
+  },
+  "shared_validator_exercised": true,
+  "status": "PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "assertions": 143715,
+  "cases": 12000,
+  "expected_landing": "METRIC_OWNS_A_QUERY_RELATIVE_NULL_TRANSPORT_MUTUAL_CLOCK_SCALAR__M_PT_IS_BOUNDED_ABOVE_BY_SECH_DELTA__EQUALITY_IFF_THE_TARGET_CLOCK_IS_IN_THE_TRANSPORTED_NULL_PAIR_PLANE__NONZERO_SCREEN_MISMATCH_MAKES_THE_INEQUALITY_STRICT__NO_QUERY_POPULATION_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+  "fixed_r_distinct_mutual_values": 101,
+  "planar_cases": 387,
+  "production_imported": false,
+  "production_result_read": false,
+  "status": "PASS",
+  "transverse_cases": 11613
+}
