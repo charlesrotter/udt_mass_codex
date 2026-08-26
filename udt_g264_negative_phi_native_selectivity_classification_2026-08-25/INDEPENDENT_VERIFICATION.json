@@ -1,0 +1,30 @@
+{
+  "bump_case_count": 1500,
+  "bump_minimum_phi_samples": [
+    "-0.0018360220987936492136502923563543708764335395255915215806905000929877936405658344",
+    "-0.018063709287417185106543932310674145876547427453851170899499255730708981677175051",
+    "-0.15663084375911141702449774748392782095764004283517418735953175741859745075459361",
+    "-0.7715202362046672621662997067754103692474033078166836160855979794001128720924719",
+    "-1.8159950565269449431899027946453504159639950674831235819631069951847187297195159",
+    "-6.407756638121204020899442044084052455018882971238636321403365554935208837920563"
+  ],
+  "critical_case_count": 1000,
+  "critical_exact_intersection": "f=1+C(r/L)^2 has R=-12C/L^2, K=24C^2/L^4, Aparallel=Aperp=0",
+  "exact_assertion_count": 12000,
+  "exact_case_count": 2000,
+  "implementation": "standard_library_fraction_and_decimal_no_production_import_no_result_read",
+  "numeric_assertion_count": 6025,
+  "power_classes": {
+    "1": "subcritical",
+    "1/2": "subcritical",
+    "2": "critical",
+    "3/2": "subcritical",
+    "4": "supercritical",
+    "5/2": "supercritical",
+    "6": "supercritical",
+    "7": "supercritical"
+  },
+  "qualification": "exact_local_jet_consistency_plus_numeric_bump_diagnostic_not_independent_derivation_or_physical_premise",
+  "role": "consistency_replay_not_metric_first_derivation",
+  "status": "PASS"
+}

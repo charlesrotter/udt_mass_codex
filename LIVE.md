@@ -1,6 +1,6 @@
 # LIVE — current state only
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-25
+## CURRENT STATE — 2026-08-26
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
 ### Honest claim
@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G262. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G264. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -62,20 +62,23 @@ locality, second order, rank two, divergence identity, and a nonidentity history
 unowned. The remaining dynamics-generator type is a broad family, not one identified mechanism;
 the G259-specific variational-minimality candidate is explicitly not adopted.
 
-G262 received fresh external `ACCEPT_WITH_REPAIRS`, followed by repair-only `ACCEPT_REPAIR` with no
-remaining R1/R2 defect. On the full positive primary static-spherical metric, one lapse
-`N=exp(-phi)` owns the bounded hierarchy `d tau=N dt`, signed geometric static acceleration
-`a_hat=N'`, geometric mass aspect `mu=r(1-N^2)/2`, residuals `E0=-2mu'`, `E1=-rmu''`, and angular
-trace `A_parallel+A_perp=2mu'-rmu''`. The G95 carried-covector energy ratio equals the reciprocal
-clock factor only conditionally and does not derive local rest-mass dilation. The pre-existing WR-L
-raw wall lapse flux `-2*pi*X` is retained as an unnormalized metric limit, not mass, normalized
-charge, global `X_max`, or a history/source law. Arbitrary positive profiles still pass the
-hierarchy, so valued history and physical total mass remain `OPEN`.
+G262 externally accepts the one-lapse clock/acceleration/geometric-mass-aspect/curvature/angular
+hierarchy. G95 energy equality is conditional; raw `-2*pi*X` is unnormalized. Arbitrary positive
+profiles survive, so rest/total mass and history remain open.
+
+G263 separates endpoint reversal (`delta->-delta` at fixed metric) from profile conjugation
+(`f->1/f`). Scalar inversion is shared but complete parities differ; G201 zero tide is not invariant.
+Negative `phi` was already admitted by `f>0`; no sign sector is selected.
+
+G264 externally accepts sign-only nonselection: finite smooth arbitrarily deep asymptotically flat,
+bounded-curvature, static-slice-complete witnesses survive. Conditional power ends have alpha-two
+curvature/acceleration/radial-length and alpha-six volume thresholds. Alpha two equals G201 zero
+tide structurally but selects no physics. Packaging passed; the external runtime lacked SymPy.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 245-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 247-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -84,7 +87,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G262 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G264 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -98,10 +101,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Ponder whether G262's unified clock--acceleration--mass-aspect--angular hierarchy and the retained
-raw wall lapse flux reveal a native source/mass feedback law. Any candidate must be natural,
-nonidentity, independently justified, and must reject at least one admitted positive profile. Do
-not promote the raw flux to mass, adopt the unowned mass character `q^w`, revive the unadopted
-G259-specific variational minimality, import Einstein dynamics, fit a regime, or invent a numerical
-residual. No ODE/PDE or GPU history solve is authorized.
+Ponder whether the G262 hierarchy, G263 two-operation separation, and G264 conditional alpha-two
+zero-tide intersection expose a natural nonidentity source/history discriminator. Any candidate
+must be stated independently, be full-metric and sign-consistent, and reject at least one admitted
+positive- or negative-`phi` profile. Do not promote the alpha-two family, zero tide, raw wall flux,
+geometric mass aspect, unowned `q^w`, or unadopted G259 variational form into the answer; do not
+import Einstein dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU history solve is
+authorized.
 <!-- STARTUP_CURRENT_END -->

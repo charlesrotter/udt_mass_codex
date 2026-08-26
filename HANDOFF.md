@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-25
 
-G166--G262 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G264 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -47,12 +47,13 @@ G261's repaired external review accepted W4 one-metric clock/ruler/freefall/null
 changes no primary component, permits arbitrary positive profiles, and does not own G259's operator
 assumptions. The remaining premise is a broad generator family; its specific candidate is unadopted.
 
-G262 received fresh external `ACCEPT_WITH_REPAIRS` and repair-only `ACCEPT_REPAIR` with no remaining
-R1/R2 defect. One primary lapse now exactly interlocks clock rate, static acceleration, geometric
-mass aspect, curvature residuals, and angular trace. G95 supplies only a conditional carried-energy
-ratio, not local rest-mass dilation. The older raw WR-L wall flux `-2*pi*X` is retained as an
-unnormalized metric limit and is not mass, global `X_max`, or a source/history law. Arbitrary
-positive profiles still pass, so physical total mass and valued history remain open.
+G262 externally accepted the one-lapse clock/acceleration/geometric-mass-aspect/curvature/angular
+hierarchy. G95 energy equality is conditional; raw `-2*pi*X` is unnormalized. Arbitrary positive
+profiles survive, so rest/total mass and history remain open.
+
+G263 separates pair reversal from profile conjugation. G264 proves negative sign alone nonselective;
+conditional power ends have alpha-two and alpha-six thresholds, with alpha two equal to G201 zero
+tide but not selected physics. Packaging passed; external SymPy replay was unavailable.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
@@ -74,8 +75,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next ponder whether the G262 hierarchy plus raw wall flux supplies any natural nonidentity
-source/mass feedback relation. Do not promote the raw flux, conditional Einstein comparison,
-unowned `q^w` mass character, or unadopted variational candidate. The 245-row registry controls.
+Next ponder whether G262--G264 expose an independent sign-consistent source/history discriminator.
+Do not promote alpha two, zero tide, raw flux, Einstein comparison, `q^w`, or the G259 candidate.
+The 247-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

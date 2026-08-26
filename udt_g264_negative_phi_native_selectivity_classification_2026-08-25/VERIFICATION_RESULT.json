@@ -1,0 +1,23 @@
+{
+  "consistency_exact_assertions": 12000,
+  "consistency_numeric_assertions": 6025,
+  "grade": "EXTERNAL_ACCEPT_PACKAGING_REPAIR__PRODUCTION_SYMPY_REPLAY_NOT_RERUN_EXTERNALLY",
+  "landing": "NEGATIVE_PHI_SIGN_ALONE_DOES_NOT_SELECT__FINITE_ARBITRARILY_DEEP_SMOOTH_ASYMPTOTICALLY_FLAT_SLICE_COMPLETE_COUNTERFAMILY_EXISTS__UNBOUNDED_NEGATIVE_ENDS_HAVE_AN_ALPHA_TWO_CURVATURE_ACCELERATION_AND_SLICE_COMPLETENESS_THRESHOLD__THE_ALPHA_TWO_CRITICAL_REPRESENTATIVE_IS_THE_G201_ZERO_TIDE_FAMILY",
+  "metric_first_exact_assertions": 1000,
+  "mutation_catches": 18,
+  "packaging_catches": 3,
+  "qualification": "exact_bounded_geometry_not_independent_physical_selection",
+  "repair_catches": 10,
+  "source_count": 7,
+  "source_resolutions": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "live_exact",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "live_exact",
+    "founding.md": "live_exact",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md": "live_exact",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md": "live_exact",
+    "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/EXACT_DERIVATION.md": "live_exact",
+    "udt_g263_pair_reversal_profile_sign_parity_2026-08-25/AUDIT_REPORT.md": "live_exact"
+  },
+  "status": "PASS",
+  "symbolic_checks": 27
+}

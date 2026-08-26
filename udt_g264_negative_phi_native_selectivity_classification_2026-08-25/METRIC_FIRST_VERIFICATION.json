@@ -1,0 +1,20 @@
+{
+  "assertion_count": 1000,
+  "case_count": 250,
+  "constructed_objects": [
+    "inverse_metric",
+    "inverse_metric_first_derivative",
+    "christoffel",
+    "christoffel_first_derivative",
+    "riemann",
+    "ricci",
+    "scalar_curvature",
+    "kretschmann_scalar",
+    "radial_mixed_einstein_channel",
+    "angular_mixed_einstein_channel"
+  ],
+  "evaluation_point": "regular_equatorial_point_theta_pi_over_2",
+  "implementation": "standard_library_fraction_metric_first_no_sympy_no_production_import_no_result_read",
+  "qualification": "independent_exact_tensor_derivation_not_independent_physical_premise",
+  "status": "PASS"
+}

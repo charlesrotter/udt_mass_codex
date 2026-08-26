@@ -1,0 +1,26 @@
+{
+  "caught_count": 18,
+  "mutation_count": 18,
+  "mutations": {
+    "G201_intersection_deleted": true,
+    "G201_intersection_promoted": true,
+    "alpha_threshold_shifted": true,
+    "completeness_promoted": true,
+    "counterfamily_deleted": true,
+    "counterfamily_promoted_to_history": true,
+    "critical_check_deleted": true,
+    "critical_family_corrupted": true,
+    "determinant_corrupted": true,
+    "finite_negative_called_singular": true,
+    "history_promoted": true,
+    "kretschmann_corrupted": true,
+    "mass_positivity_imported": true,
+    "scalar_corrupted": true,
+    "sign_only_selection_promoted": true,
+    "supercritical_divergence_deleted": true,
+    "symbolic_count_reduced": true,
+    "volume_threshold_corrupted": true
+  },
+  "qualification": "artifact_regression_only_not_scientific_proof",
+  "status": "PASS"
+}

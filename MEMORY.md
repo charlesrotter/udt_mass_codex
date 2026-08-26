@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G262: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G264: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -27,6 +27,12 @@ cancellation and rejects sphere deletion. G261 accepts W4 one-metric semantics w
 F1--F4 or deriving dynamics. G262 externally accepts one-lapse clock/acceleration/geometric-
 mass-aspect/angular interlock. G95 energy is conditional; rest/total mass and history remain open.
 The raw WR-L flux `-2*pi*X` is an unnormalized metric limit, not mass or global `X_max`.
+
+G263 separates pair reversal from whole-profile sign conjugation; scalar inversion does not make
+their complete geometry identical. G264 proves negative sign alone nonselective. A conditional
+power end has an alpha-two curvature/acceleration/radial-length threshold, with the exact alpha-two
+representative equal to G201 zero tide; this does not select a history. Final packaging review
+accepted with the explicit caveat that its isolated runtime lacked SymPy.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -54,7 +60,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Ponder whether the G262 hierarchy plus retained raw wall flux reveals a natural nonidentity
-source/mass feedback law. Do not promote the flux, `q^w`, or the unadopted G259 variational form.
+Ponder whether G262--G264 expose a natural nonidentity source/history discriminator. Do not promote
+alpha two, zero tide, the raw flux, `q^w`, or the unadopted G259 variational form.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

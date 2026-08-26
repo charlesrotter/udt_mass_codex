@@ -1,0 +1,78 @@
+{
+  "alpha_two_critical": {
+    "G201_angular_channels": "Aparallel=Aperp=0 exactly",
+    "family": "f=1+C(r/L)^2 with C>0",
+    "kretschmann": "24C^2/L^4",
+    "normalized_acceleration": "tends sqrt(C)/L",
+    "ownership": "derived_conditional_intersection_not_physical_selection",
+    "phi": "tends negative infinity",
+    "scalar_curvature": "-12C/L^2",
+    "static_slice": "complete with logarithmically divergent radial proper length"
+  },
+  "classification": "SIGN_ONLY_NONSELECTION_WITH_GROWTH_THRESHOLDS",
+  "conditional_monotone_quiet_end_theorem": "f(0)=1, f>=1 nondecreasing, and f->1 imply f identically 1; monotonicity and outer quietness are not founded",
+  "invariants": {
+    "determinant": "-c_E^2 r^4 sin(theta)^2 independent of f",
+    "kretschmann": "f_second^2+4(f_first/r)^2+4((f-1)/r^2)^2",
+    "scalar_curvature": "-f_second-4 f_first/r-2(f-1)/r^2"
+  },
+  "landing": "NEGATIVE_PHI_SIGN_ALONE_DOES_NOT_SELECT__FINITE_ARBITRARILY_DEEP_SMOOTH_ASYMPTOTICALLY_FLAT_SLICE_COMPLETE_COUNTERFAMILY_EXISTS__UNBOUNDED_NEGATIVE_ENDS_HAVE_AN_ALPHA_TWO_CURVATURE_ACCELERATION_AND_SLICE_COMPLETENESS_THRESHOLD__THE_ALPHA_TWO_CRITICAL_REPRESENTATIVE_IS_THE_G201_ZERO_TIDE_FAMILY",
+  "negative_bump": {
+    "family": "f=1+epsilon rho^2 exp(-rho^2), epsilon>0",
+    "ownership": "counterfamily_not_selected_physical_history",
+    "properties": [
+      "phi<0 for every finite r>0",
+      "smooth areal center",
+      "asymptotically flat",
+      "bounded scalar and Kretschmann curvature for each finite epsilon and length",
+      "complete static spatial slice",
+      "arbitrarily negative finite minimum as epsilon increases"
+    ]
+  },
+  "ownership": {
+    "growth_thresholds": "DERIVED_CONDITIONAL_ASYMPTOTIC_CLASSIFICATION",
+    "history_source_dynamics_xmax": "OPEN",
+    "physical_mass_or_energy_positivity": "NOT_USED_NOT_DERIVED",
+    "sign_only_selection": "NOT_DERIVED_COUNTERFAMILY",
+    "spatial_completeness": "CONDITIONAL_GEOMETRIC_CLASSIFIER"
+  },
+  "power_end": {
+    "alpha_equal_2": "radial slice length logarithmically infinite; R,K finite nonzero; normalized acceleration finite nonzero",
+    "alpha_greater_than_2": "radial slice length finite; R,K and normalized acceleration diverge",
+    "alpha_less_than_2": "radial slice length infinite; R,K,normalized acceleration tend zero",
+    "assumption": "f~C(r/L)^alpha with C>0 alpha>0",
+    "spatial_volume": "infinite for alpha<=6 and finite for alpha>6"
+  },
+  "scope": "primary_static_spherical_real_phi_positive_f_local_and_power_asymptotic",
+  "status": "PASS",
+  "symbolic_check_count": 27,
+  "symbolic_checks": [
+    "metric_determinant_f_independent",
+    "scalar_curvature_direct",
+    "einstein_radial_channel",
+    "einstein_angular_channel",
+    "scalar_from_channel_trace",
+    "kretschmann_direct",
+    "bump_first_derivative",
+    "bump_second_derivative",
+    "bump_scalar_curvature",
+    "bump_kretschmann",
+    "bump_center_f",
+    "bump_center_first_derivative",
+    "bump_center_scalar",
+    "bump_center_kretschmann",
+    "bump_asymptotic_f",
+    "bump_asymptotic_scalar",
+    "bump_asymptotic_kretschmann",
+    "bump_center_phi_coefficient",
+    "bump_maximum_value",
+    "power_scalar_leading",
+    "power_kretschmann_leading",
+    "power_acceleration_leading",
+    "critical_scalar_constant",
+    "critical_kretschmann_constant",
+    "critical_Aparallel_zero",
+    "critical_Aperp_zero",
+    "critical_acceleration_limit"
+  ]
+}

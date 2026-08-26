@@ -1,4 +1,4 @@
-# Premise index
+# Premises
 
 `LIVE.md` and TSV own status.
 ## Foundational relation
@@ -9,9 +9,9 @@
 | Reciprocal character | `DERIVED` | Determinant-one block on supplied depth | Pair values; `3+1` assembly |
 | Pointwise `phi` | `CONDITIONAL` | Factorization | Owner |
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
-| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Germ/extension |
-| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G262 | Carry, GR fork, angular balance, W4, mass-aspect hierarchy | Dynamics; history; aggregation |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
+| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
+| Pair-clock/state network | G215--G264 | Carry, GR, W4, mass-aspect, signed ends | Dynamics; history; aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
@@ -25,7 +25,7 @@
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
 | G129--G165 controls | accepted with caveats | Pullbacks recover `g`; no `X_max` input |
 | G166--G175 pair chain | accepted with caveats | Pullback/reversal/calibration; germ/profile supplied |
-| G176--G180 completed pair | conditional; accepted | Working premise selects ruler; no history |
+| G176--G180 completed pair | conditional; accepted | Ruler selected; no history |
 | G181--G184 strata/equivalence | conditional; accepted | Summaries do not identify realizations |
 | G185--G189 boundary | accepted with caveats | Transfer/P1 conditional |
 | G190--G198 | accepted with caveats | Chosen families |
@@ -43,16 +43,16 @@
 | G229/G230 metric jets | exact | Compatible 3/4-jets; no field/history |
 | G231 Cartan bridge | conditional | Regional integration; law/values open |
 | G232/G233/G234/G235 closure | external after repairs | Finite-order obstruction; network is nonselective |
-| G236/G237 SNe state | external | Shape/`K=12` covariance; no law |
+| G236/G237 SNe state | external | Shape/covariance; no law |
 | G238/G239/G240 held-out query | external after repair | Typing/operator/census; inputs/outcomes open |
 | G241/G242/G243 radial controls | external | Controls reject compact carriers/zero tide; retain turning/no-freeze |
-| G244--G248 sky/measure | external | `H,A,C`; cone; branches; `r/A`; population/history open |
+| G244--G248 sky/measure | external | Cone, branches, `r/A`; population/history open |
 | G249 scale boundary | external after repairs | Dimensionless response; one anchor remains |
 | G250 anchor types | external after repairs | One anchor fixes scale; history unselected |
 | G251 attachment ownership | external after repairs | No native datum owner |
 | G252 proper-clock attachment | external after repairs | Clock fixes `ell`; another tests history |
-| G253 native-kernel compression | external after repair | Three distinct chains; no scaffold input |
-| G254 time-live solver closure | external; no scientific repair | No residual; ODE/GPU gated |
+| G253 native-kernel compression | external after repair | No scaffold input |
+| G254 solver closure | external | No residual; ODE/GPU gated |
 | G255 lost-closure recovery | external; no findings | No lost value law |
 | G256 primary-state value rank | external after R2 | `N-1` values; angular tomography; no propagation |
 | G257 GR quiet embedding | external; no findings | `f=1+C/r`; active angular balance |
@@ -61,6 +61,8 @@
 | G260 GR-quiet angular non-discard | external after R1 | Full-metric active cancellation; radial-only vacuity; no parent law |
 | G261 W4 ownership | external repairs accepted | One metric; unchanged form; operator class unowned |
 | G262 clock/mass-aspect bridge | external repairs accepted | One-lapse hierarchy; physical mass/history open |
+| G263 reversal/sign parity | external repairs accepted | Pair reversal differs from profile conjugation; no sector selected |
+| G264 negative-`phi` selectivity | external packaging repair accepted with runtime caveat | Sign alone nonselective; conditional alpha-two threshold; history open |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -82,9 +84,9 @@ None selects completion/`X_max`.
 
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class. Metricity is not dynamics.
-- G212--G243 evaluate/reconstruct without selecting values; G244/G245/G246/G247/G248 give branchwise
-  geometry; G249--G256 type scale and closure. G257--G262 supply GR, sampled values, fork,
-  non-discard, W4 ownership, and the bounded clock/mass-aspect hierarchy.
+- G212--G243 evaluate/reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale
+  without selecting values. G257--G264 add
+  GR, sampled values, operator/angle/W4/one-lapse controls, and signed-end classification.
 
 ## Carrier, action, source, and matter
 
@@ -101,22 +103,21 @@ None selects completion/`X_max`.
 
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G262 are outcome-blind; G258 reuses G237. BOSS/history/transfer stay open.
+R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
+G244--G257 and G259--G264 are outcome-blind; G258 reuses G237. History/transfer remain open.
 
 ## Recurring prohibited promotions
 
 Do not:
 
 - derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`, fits,
-  proper length, universe size, or seams;
+  universe size, or seams;
 - promote controls to dynamics, revive strong CSN, or identify celestial `S^2` with matter;
-- globalize chains/germs, activate absent couplings, select `Y,Z`, scalarize angular Gram, erase
-  calibrations, or import familiar mechanisms.
+- globalize germs, activate absent couplings, select `Y,Z`, erase calibrations, or import mechanisms.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 245-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 247-row authority; conflicts stop.
 
 Run:
 
@@ -124,5 +125,5 @@ Run:
 python3 verify_current_scientific_premises.py
 ```
 
-Query exact TSV rows only after orientation when the requested task makes them load-bearing.
-Prior startup prose: `archive/startup_surface_2026-08-17_pre_zoomout/`.
+Query TSV rows when load-bearing. Archive:
+`archive/startup_surface_2026-08-17_pre_zoomout/`.

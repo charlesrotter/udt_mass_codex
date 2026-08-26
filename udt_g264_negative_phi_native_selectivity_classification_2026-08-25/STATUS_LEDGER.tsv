@@ -1,0 +1,18 @@
+id	claim	status	guard
+S01	finite real phi with f positive preserves Lorentzian signature	DERIVED_CONDITIONAL	primary static-spherical arena only
+S02	negative phi sign alone selects a physical profile	NOT_DERIVED_COUNTERFAMILY	arbitrarily deep finite negative bump family survives
+S03	negative bump is smooth-centered asymptotically flat and bounded-curvature	DERIVED_CONDITIONAL	each epsilon and L finite
+S04	negative bump has complete static spatial slice	DERIVED_CONDITIONAL	not full Lorentzian geodesic completeness
+S05	power-law negative ends have alpha-two curvature threshold	DERIVED_CONDITIONAL	assumes f asymptotic to C(r/L)^alpha
+S06	power-law negative ends have alpha-two normalized-acceleration threshold	DERIVED_CONDITIONAL	static normalized observer channel only
+S07	power-law negative ends have alpha-two radial slice-length threshold	DERIVED_CONDITIONAL	static spatial slice only
+S08	power-law negative ends have alpha-six spatial-volume threshold	DERIVED_CONDITIONAL	volume is not a selection law
+S09	alpha-two representative equals G201 zero-angular-tide family	DERIVED_CONDITIONAL	structural intersection not physical selection
+S10	geometric Einstein channels imply physical mass or energy positivity	NOT_DERIVED	diagnostic tensors only; no field equation used
+S11	alpha-two family is the physical history or Xmax	OPEN	no dynamics population or observational outcome used
+S12	nonspherical and time-live extension	OPEN	not tested in G264
+S13	package grade	EXTERNAL_ACCEPT_PACKAGING_REPAIR__PRODUCTION_SYMPY_REPLAY_NOT_RERUN_EXTERNALLY	bounded science accepted; retain external-runtime qualification
+S14	metric-first dependency-free tensor derivation	PASS_1000_EXACT_ASSERTIONS	independent geometry check not independent physical premise
+S15	legacy independent verifier role	CONSISTENCY_REPLAY	must not be described as a metric-first derivation
+S16	first repair-only follow-up	R1_R3_ACCEPTED__REJECTED_ONLY_FOR_SEALED_REPLAY_PACKAGING	missing SOURCE_MANIFEST prevented package replay
+S17	sealed replay packaging repair	EXTERNAL_ACCEPT_PACKAGING_REPAIR	self-contained replay_root and three fail-closed source attacks independently verified

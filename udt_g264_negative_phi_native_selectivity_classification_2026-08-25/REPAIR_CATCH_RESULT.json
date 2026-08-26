@@ -1,0 +1,18 @@
+{
+  "caught_count": 10,
+  "mutation_count": 10,
+  "mutations": {
+    "consistency_repromoted": true,
+    "coverage_reduced": true,
+    "kretschmann_construction_removed": true,
+    "production_import_inserted": true,
+    "provenance_corrupted": true,
+    "result_count_reduced": true,
+    "riemann_construction_removed": true,
+    "saved_result_read_inserted": true,
+    "scalar_construction_removed": true,
+    "sympy_import_inserted": true
+  },
+  "qualification": "altered_copy_repair_regression_not_scientific_proof",
+  "status": "PASS"
+}

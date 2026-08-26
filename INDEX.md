@@ -10,8 +10,7 @@
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Full spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Completed-pair working premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
-- Scaffold deletion and review: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`;
-  `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
+- Scaffold deletion/review: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
 - Coframe pullback: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
 - Branch/equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
 - Matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
@@ -65,7 +64,8 @@
   `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale;
   `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted;
   `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—active cancellation; `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`—W4 ownership;
-  `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`—accepted hierarchy, physical mass/history open.
+  `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`—hierarchy, mass/history open; `udt_g263_pair_reversal_profile_sign_parity_2026-08-25/`—reversal versus conjugation;
+  `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`—sign nonselection, conditional alpha-two threshold; packaging accepted with runtime caveat.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`

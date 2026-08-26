@@ -1,0 +1,14 @@
+{
+  "baseline_landing": "NEGATIVE_PHI_SIGN_ALONE_DOES_NOT_SELECT__FINITE_ARBITRARILY_DEEP_SMOOTH_ASYMPTOTICALLY_FLAT_SLICE_COMPLETE_COUNTERFAMILY_EXISTS__UNBOUNDED_NEGATIVE_ENDS_HAVE_AN_ALPHA_TWO_CURVATURE_ACCELERATION_AND_SLICE_COMPLETENESS_THRESHOLD__THE_ALPHA_TWO_CRITICAL_REPRESENTATIVE_IS_THE_G201_ZERO_TIDE_FAMILY",
+  "baseline_package_status": "PASS",
+  "caught_count": 3,
+  "mutation_count": 3,
+  "mutations": {
+    "frozen_source_altered": true,
+    "frozen_source_missing": true,
+    "source_manifest_missing": true
+  },
+  "qualification": "sealed_replay_packaging_regression_not_scientific_proof",
+  "status": "PASS"
+}
+
