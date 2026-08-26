@@ -58,6 +58,7 @@ def main() -> None:
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
         "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
         "REPAIR_REPORT.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",

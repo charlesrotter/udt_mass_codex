@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -20,7 +21,12 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    destination = Path(tempfile.mkdtemp(prefix="udt_g270_review_", dir="/tmp"))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--repair-followup", action="store_true")
+    args = parser.parse_args()
+
+    prefix = "udt_g270_repair_followup_" if args.repair_followup else "udt_g270_review_"
+    destination = Path(tempfile.mkdtemp(prefix=prefix, dir="/tmp"))
     package_copy = destination / PACKAGE.name
     shutil.copytree(PACKAGE, package_copy, ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
 
@@ -44,16 +50,20 @@ def main() -> None:
         for path in payloads:
             writer.writerow((path.relative_to(destination), sha256(path), path.stat().st_size))
 
+    review = "read_only_repair_only_followup" if args.repair_followup else "fresh_read_only_adversarial"
+    allowed = [
+        "inspect sealed intake",
+        "run registered no-write replays",
+        "run bounded checks in an ephemeral copy",
+    ]
+    if args.repair_followup:
+        allowed.append("verify only preregistered repairs R1 and R2 and unchanged landing")
     scope = {
         "package": PACKAGE.name,
-        "review": "fresh_read_only_adversarial",
+        "review": review,
         "payload_count": len(payloads),
         "manifest_sha256": sha256(manifest),
-        "allowed": [
-            "inspect sealed intake",
-            "run registered no-write replays",
-            "run bounded checks in an ephemeral copy",
-        ],
+        "allowed": allowed,
         "forbidden": [
             "edit evidence files",
             "continue research",
