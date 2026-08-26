@@ -1,6 +1,6 @@
 item	classification	reason
 one_universal_physical_metric	DERIVED_FROM_W4	stated directly by W4
-levi_civita_local_inertial_freefall_evaluator	DERIVED_FROM_W4	W4 plus the supplied Lorentz metric gives the unique torsion-free metric-compatible connection
+levi_civita_local_inertial_freefall_evaluator	DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY	W4 plus the supplied Lorentz metric gives the unique torsion-free metric-compatible connection
 diffeomorphism_naturality_of_future_law	SUPPORTED_ACCEPTANCE_REQUIREMENT	W4 is invariantly stated but generates no parent operator
 metric_only_gravitational_state	NOT_DERIVED_FROM_W4	universal matter coupling does not exclude an auxiliary gravitational state
 symmetric_rank_two_equation	NOT_DERIVED_FROM_W4	a scalar metric residual can coexist with W4

@@ -76,15 +76,18 @@ that selects one profile. Hence
 
 for any nonidentity value/history residual \(\mathcal C\) solely by the W4 implication.
 
-The production replay checks 257 exact rational positive-profile event cases. The independent
-implementation checks 2,000 independently generated profile-value/jet cases.
+The production replay first verifies all ten frozen source-manifest rows and then checks 257 exact
+rational positive-profile event cases. The separate internal implementation reads the frozen source
+statements without importing production code or reading production results and checks 2,000
+profile-value/jet cases. It is an artifact-independent structural cross-check, not an epistemically
+independent derivation; the fresh external review supplies the independent adjudication.
 
 ## 5. Exact ownership ledger
 
 | Item | G261 classification | Reason |
 |---|---|---|
 | One universal physical metric | `DERIVED_FROM_W4` | Stated directly by W4 |
-| Local inertial/free-fall/null evaluator | `DERIVED_FROM_W4` | W4 plus existing Lorentz-metric/Levi-Civita geometry |
+| Local inertial/free-fall/null evaluator | `DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY` | W4 plus existing Lorentz-metric/Levi-Civita geometry |
 | Diffeomorphism naturality of future law | `SUPPORTED_ACCEPTANCE_REQUIREMENT` | W4 is invariantly stated but supplies no operator |
 | Metric-only gravitational state | `NOT_DERIVED_FROM_W4` | Universal coupling does not exclude auxiliary gravitational state |
 | Symmetric rank-two equation | `NOT_DERIVED_FROM_W4` | A scalar metric residual remains logically compatible |
@@ -94,7 +97,8 @@ implementation checks 2,000 independently generated profile-value/jet cases.
 | Nonidentity parent residual | `NOT_DERIVED_FROM_W4` | W4 states no residual |
 | Source/history values | `NOT_DERIVED_FROM_W4` | Every supplied regular metric is evaluated |
 
-The count is exactly `2 DERIVED`, `1 SUPPORTED`, and `7 NOT_DERIVED`.
+The count is exactly `1 DERIVED_FROM_W4`, `1 DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY`,
+`1 SUPPORTED`, and `7 NOT_DERIVED`.
 
 ## 6. Separating controls
 
@@ -130,13 +134,15 @@ deletes those instruments nor turns their cancellation identity into a field equ
 
 ## 8. Smallest remaining premise type
 
-The exact remaining type is
+The exact remaining broad premise family is
 
 ```text
 NONIDENTITY_DYNAMICS_GENERATOR_SELECTING_A_PROPER_SUBSPACE_OF_COMPLETE_METRICS
 ```
 
-One G259-specific way to state such an additional premise would be:
+This is not one uniquely identified mechanism: local, nonlocal, variational, source-coupled, and
+globally relational realizations remain open. One G259-specific way to state such an additional
+premise would be:
 
 > Physical histories are extrema of a diffeomorphism-invariant, local, metric-only variational
 > generator whose Euler operator is nonidentity and at most second metric differential order.
@@ -148,6 +154,6 @@ That statement would make the G259 classification applicable. It is labelled
 
 W4 positively clarifies UDT as a one-metric theory and prevents a second local propagation geometry
 from being bolted onto the reciprocal readout. It does not alter the founding metric or choose how
-that metric evolves. G261 therefore narrows the remaining gap to one dynamics-generator premise
-type, while leaving its local, nonlocal, variational, source-coupled, or globally relational form
-open.
+that metric evolves. G261 therefore narrows the remaining gap to one broad dynamics-generator
+premise family, while leaving its local, nonlocal, variational, source-coupled, or globally
+relational form open.

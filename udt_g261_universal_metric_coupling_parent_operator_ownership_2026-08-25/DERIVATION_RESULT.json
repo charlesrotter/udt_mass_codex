@@ -1,8 +1,10 @@
 {
   "G259_specific_candidate_not_adopted": "NOT_ADOPTED__DIFFEOMORPHISM_INVARIANT_LOCAL_METRIC_ONLY_VARIATIONAL_MINIMALITY_WITH_AT_MOST_SECOND_ORDER_NONIDENTITY_EULER_OPERATOR",
   "W4_status": "WORKING_POSIT_NOT_CANON",
+  "classification_method": "FROZEN_SOURCE_DRIVEN_RULES_PLUS_EXPLICIT_SEPARATORS",
   "counts": {
-    "DERIVED_FROM_W4": 2,
+    "DERIVED_FROM_W4": 1,
+    "DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY": 1,
     "NOT_DERIVED_FROM_W4": 7,
     "SUPPORTED_ACCEPTANCE_REQUIREMENT": 1
   },
@@ -26,7 +28,7 @@
       "reason": "stated directly by W4"
     },
     {
-      "classification": "DERIVED_FROM_W4",
+      "classification": "DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY",
       "item": "levi_civita_local_inertial_freefall_evaluator",
       "reason": "W4 plus the supplied Lorentz metric gives the unique torsion-free metric-compatible connection"
     },
@@ -78,6 +80,7 @@
     "exact_signature_and_determinant_assertions": 1285
   },
   "protected_inputs_used": 0,
+  "remaining_premise_scope": "BROAD_FAMILY_NOT_UNIQUE_SPECIFIC_MECHANISM",
   "remaining_premise_type": "NONIDENTITY_DYNAMICS_GENERATOR_SELECTING_A_PROPER_SUBSPACE_OF_COMPLETE_METRICS",
   "separating_witnesses": [
     {
@@ -147,5 +150,15 @@
       "second_order": true
     }
   ],
+  "source_gates": {
+    "candidate_remains_not_adopted": true,
+    "g259_class_hypotheses_unowned": true,
+    "g260_retains_angular_sector_without_parent_law": true,
+    "manifest_rows_verified": 10,
+    "w4_does_not_select_operator_or_history": true,
+    "w4_one_metric_and_local_semantics": true,
+    "w4_primary_metric_unchanged": true,
+    "w4_status_is_working_posit": true
+  },
   "status": "PASS"
 }

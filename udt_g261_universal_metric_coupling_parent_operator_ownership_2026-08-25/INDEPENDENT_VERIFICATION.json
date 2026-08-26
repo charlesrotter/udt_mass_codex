@@ -1,10 +1,14 @@
 {
   "arbitrary_profile_jet_cases": 2000,
-  "assertions": 12032,
+  "assertions": 12041,
+  "epistemically_independent": false,
+  "external_adjudication_is_independence_gate": true,
+  "frozen_source_gate_assertions": 8,
   "ownership_items": 10,
   "production_imported": false,
   "production_result_read": false,
   "separator_count": 7,
   "status": "PASS",
+  "verification_scope": "ARTIFACT_INDEPENDENT_SOURCE_DRIVEN_STRUCTURAL_CROSSCHECK__NOT_LOGICALLY_OR_EPISTEMICALLY_INDEPENDENT",
   "verified_landing": "W4_OWNS_UNIVERSAL_METRIC_COUPLING__PRIMARY_METRIC_UNCHANGED__G259_CLASS_STILL_UNOWNED__ONE_DYNAMICS_GENERATOR_PREMISE_REMAINS"
 }

@@ -23,3 +23,12 @@ Expected durable outputs:
 The first unfinished independent harness contained a tautological jet assertion and the first
 hostile harness expected an absent `NOT_ADOPTED` marker. Both were repaired before the evidence was
 banked; neither repair changed the preregistered question, controls, landings, or conclusion ceiling.
+
+## External-review repair replay
+
+The fresh external reviewer returned `ACCEPT_WITH_REPAIRS`. Under the separately banked
+`REPAIR_PREREGISTRATION.md`, the replay was repaired to validate frozen source statements before
+classification, the internal verifier was regraded as a structural cross-check, ten real artifact
+mutations replaced label-presence checks, and the Levi-Civita dependency was typed explicitly.
+
+The bounded scientific landing did not change. External repair-only follow-up remains required.

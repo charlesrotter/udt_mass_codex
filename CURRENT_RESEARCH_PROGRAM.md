@@ -84,8 +84,9 @@ Phi=-log(T)=-1/2 log(-h00)
 - G260 proves full-metric quiet non-discard: `A_parallel+A_perp=E1-E0`, with two active cancelling
   modes on `f=1+C/r`. Radial-only is vacuous; trace balance retains `1+a*r^2+b/r`. Reviews accept R1.
 - G261 provisionally types W4 as universal coupling to one completed UDT metric. It changes no
-  F1--F4 metric component and leaves the G259 operator class and history equation unowned. Internal
-  exact and independent checks pass; external review remains.
+  F1--F4 metric component and leaves the G259 operator class and history equation unowned. Fresh
+  external review returned `ACCEPT_WITH_REPAIRS`; source-driving, cross-check scope, real mutation,
+  and Levi-Civita typing repairs are implemented and await repair-only follow-up.
 
 G206--G261 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
@@ -97,7 +98,8 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 - G211--G231 close supplied local geometry; G232--G235 do not select history. G236--G243 are
   observational controls; G244--G248 give branchwise geometry; G249--G252 type scale attachment.
   G253--G256 narrow the gap to primary-state value propagation. G260 rules out angular discard and
-  G261 rules out W4 alone as its cause. One nonidentity full-metric dynamics-generator premise remains.
+  G261 rules out W4 alone as its cause. One broad nonidentity full-metric dynamics-generator premise
+  family remains; no unique mechanism is identified.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.

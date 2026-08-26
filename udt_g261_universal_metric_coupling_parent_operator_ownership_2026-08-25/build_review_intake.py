@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a sealed self-contained G261 fresh-review intake."""
+"""Build a sealed self-contained G261 repair-only follow-up intake."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from pathlib import Path
 
 PACKAGE = Path(__file__).resolve().parent
 REPO = PACKAGE.parent
-EXCLUDED = {"EXTERNAL_REVIEW_GPT54.md", "TRANSMISSION_RECORD.md"}
+EXCLUDED = {"EXTERNAL_REPAIR_FOLLOWUP_GPT54.md"}
 
 
 def digest(path: Path) -> str:
@@ -44,13 +44,14 @@ def main() -> None:
 
     scope = {
         "package": PACKAGE.name,
-        "purpose": "fresh read-only adversarial review of bounded G261 W4 premise ownership",
+        "purpose": "read-only repair-only follow-up review of preregistered G261 R1-R4",
         "restrictions": [
             "intake only",
             "no evidence edits",
             "no research continuation",
             "registered checks only in a writable ephemeral copy",
             "no observational outcomes or protected packages",
+            "verify only preregistered repairs R1-R4 and the unchanged bounded scientific landing",
             "do not strengthen W4 or adopt the registered candidate premise",
         ],
         "registered_commands_from_package_directory": [

@@ -59,7 +59,7 @@
 | G258 sampled inverse metric | external science and R1 accepted | `12` states; one scale; no law |
 | G259 parent-operator fork | external repairs accepted | Nonzero conditional Einstein zero set; fork unselected |
 | G260 GR-quiet angular non-discard | external after R1 | Full-metric active cancellation; radial-only vacuity; no parent law |
-| G261 W4 ownership | internal lead | One metric; unchanged form; operator class unowned |
+| G261 W4 ownership | external repairs implemented; follow-up pending | One metric; unchanged form; operator class unowned |
 
 None selects completion/`X_max`.
 ## Scale and limits

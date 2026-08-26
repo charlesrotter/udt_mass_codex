@@ -70,11 +70,13 @@ flat quiet vacuum gives the Einstein zero set only for a nonzero operator; sourc
 G260 externally verifies full-metric active angular cancellation on `f=1+C/r`; radial-only is
 vacuous, sphere deletion fails, and trace balance retains `1+a*r^2+b/r`.
 
-G261 is an internally verified lead, awaiting external review. W4 is the provisional equivalence
-principle: one completed UDT metric owns local clocks, rulers, free fall, and the null cone. It
-changes no F1--F4 metric component. Arbitrary positive primary profiles still satisfy W4, so
+G261 received fresh external `ACCEPT_WITH_REPAIRS`; R1--R4 are implemented and await repair-only
+follow-up. W4 is the provisional equivalence principle: one completed UDT metric owns local clocks,
+rulers, free fall, and the null cone. The Levi-Civita conclusion uses W4 plus existing metric
+geometry. W4 changes no F1--F4 component. Arbitrary positive primary profiles still satisfy it, so
 locality, second order, rank two, divergence identity, and a nonidentity history equation remain
-unowned. A G259-specific variational-minimality candidate is explicitly not adopted.
+unowned. The remaining dynamics-generator type is a broad family, not one identified mechanism;
+the G259-specific variational-minimality candidate is explicitly not adopted.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
@@ -102,8 +104,8 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G261 closes W4 ownership internally but needs fresh external review. Then ponder whether one
-nonidentity dynamics-generator premise can be derived or must be provisionally posited. Do not
-promote the unadopted G259-specific variational minimality, import Einstein dynamics, fit a regime,
-or invent a numerical residual. No ODE/PDE or GPU history solve is authorized.
+Obtain repair-only external follow-up on G261 R1--R4. If accepted, ponder what additional founded
+structure could constrain the broad nonidentity dynamics-generator family. Do not promote the
+unadopted G259-specific variational minimality, import Einstein dynamics, fit a regime, or invent a
+numerical residual. No ODE/PDE or GPU history solve is authorized.
 <!-- STARTUP_CURRENT_END -->

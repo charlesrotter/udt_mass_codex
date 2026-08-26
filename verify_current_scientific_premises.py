@@ -7343,21 +7343,23 @@ def main() -> None:
     require(len(read_tsv(g260 / "SOURCE_MANIFEST.tsv")) == 11, "G260 source count changed")
     require(
         by_id["G261"]["current_status"].startswith(
-            "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_REQUIRED"
+            "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED_FOLLOWUP_REQUIRED"
         ),
         "G261 bounded grade changed",
     )
     for guard in (
         "PREREGISTERED_AND_PUSHED_AT_458E02E9_BEFORE_DERIVATION",
+        "REPAIRS_PREREGISTERED_AND_PUSHED_AT_71D587C3",
         "W4_UNIVERSAL_METRIC_COUPLING_WORKING_POSIT_NOT_CANON",
         "ONE_UNIVERSAL_PHYSICAL_METRIC_DERIVED_FROM_W4",
+        "LOCAL_INERTIAL_FREEFALL_AND_NULL_EVALUATOR_DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY",
         "PRIMARY_F1_F4_METRIC_FORM_UNCHANGED_ZERO_COEFFICIENT_OR_COMPONENT_CHANGES",
         "METRIC_ONLY_STATE_RANK_TWO_EQUATION_POINTWISE_LOCALITY_SECOND_ORDER_IDENTITY_DIVERGENCE_FREEDOM_NONIDENTITY_PARENT_AND_SOURCE_HISTORY_VALUES_NOT_DERIVED_FROM_W4",
         "ARBITRARY_POSITIVE_PRIMARY_PROFILE_CONSERVATIVE_EXTENSION",
-        "257_EXACT_RATIONAL_CASES_1285_ASSERTIONS",
-        "2000_INDEPENDENT_PROFILE_JET_CASES_12032_ASSERTIONS",
-        "TEN_OF_TEN_HOSTILE_CATCHES",
-        "ONE_NONIDENTITY_DYNAMICS_GENERATOR_PREMISE_TYPE_REMAINS",
+        "TEN_FROZEN_SOURCE_GATES_AND_257_EXACT_RATIONAL_CASES_1285_ASSERTIONS",
+        "INTERNAL_ARTIFACT_INDEPENDENT_SOURCE_DRIVEN_STRUCTURAL_CROSSCHECK_NOT_EPISTEMICALLY_INDEPENDENT_2000_PROFILE_JET_CASES_12041_ASSERTIONS",
+        "TEN_OF_TEN_APPLIED_ARTIFACT_MUTATIONS_REJECTED_REGRESSION_ONLY",
+        "REMAINING_DYNAMICS_GENERATOR_IS_BROAD_PREMISE_FAMILY_NOT_UNIQUE_MECHANISM",
         "G259_SPECIFIC_VARIATIONAL_MINIMALITY_CANDIDATE_NOT_ADOPTED",
         "ZERO_OBSERVATIONS_FITS_GPU_XMAX_SOURCE_OR_PROTECTED_INPUT",
     ):
@@ -7381,9 +7383,13 @@ def main() -> None:
         "OWNERSHIP_ATLAS.tsv",
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "TRANSMISSION_RECORD.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
         "VERIFICATION_RESULT.json",
         "derive_w4_ownership.py",
         "run_catch_proofs.py",
@@ -7404,15 +7410,26 @@ def main() -> None:
         and g261_result["landing"] == expected_g261_landing
         and g261_result["counts"]
         == {
-            "DERIVED_FROM_W4": 2,
+            "DERIVED_FROM_W4": 1,
+            "DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY": 1,
             "NOT_DERIVED_FROM_W4": 7,
             "SUPPORTED_ACCEPTANCE_REQUIREMENT": 1,
         }
+        and g261_result["classification_method"]
+        == "FROZEN_SOURCE_DRIVEN_RULES_PLUS_EXPLICIT_SEPARATORS"
+        and g261_result["source_gates"]["manifest_rows_verified"] == 10
+        and all(
+            value is True
+            for key, value in g261_result["source_gates"].items()
+            if key != "manifest_rows_verified"
+        )
         and g261_result["metric_effect"]["primary_metric_form"] == "UNCHANGED"
         and g261_result["metric_effect"]["F1_F4_implication_changed"] is False
         and g261_result["primary_metric_checks"]["arbitrary_positive_profile_event_cases"] == 257
         and g261_result["remaining_premise_type"]
         == "NONIDENTITY_DYNAMICS_GENERATOR_SELECTING_A_PROPER_SUBSPACE_OF_COMPLETE_METRICS"
+        and g261_result["remaining_premise_scope"]
+        == "BROAD_FAMILY_NOT_UNIQUE_SPECIFIC_MECHANISM"
         and g261_result["G259_specific_candidate_not_adopted"].startswith("NOT_ADOPTED__")
         and g261_result["observational_values_used"] == 0
         and g261_result["fit_coefficients"] == 0
@@ -7422,27 +7439,42 @@ def main() -> None:
     )
     require(
         g261_independent["status"] == "PASS"
-        and g261_independent["assertions"] == 12032
+        and g261_independent["assertions"] == 12041
         and g261_independent["arbitrary_profile_jet_cases"] == 2000
         and g261_independent["production_imported"] is False
-        and g261_independent["production_result_read"] is False,
-        "G261 independent replay changed",
+        and g261_independent["production_result_read"] is False
+        and g261_independent["epistemically_independent"] is False
+        and g261_independent["external_adjudication_is_independence_gate"] is True
+        and g261_independent["verification_scope"].endswith(
+            "NOT_LOGICALLY_OR_EPISTEMICALLY_INDEPENDENT"
+        ),
+        "G261 structural cross-check changed",
     )
     require(
         g261_catches["status"] == "PASS"
-        and g261_catches["caught_count"] == 10
-        and all(g261_catches["caught"].values()),
-        "G261 hostile ledger changed",
+        and g261_catches["baseline_valid"] is True
+        and g261_catches["mutation_count"] == 10
+        and g261_catches["rejected_mutation_count"] == 10
+        and all(g261_catches["rejected"].values())
+        and g261_catches["evidence_scope"]
+        == "ARTIFACT_GUARD_REGRESSION_NOT_SCIENTIFIC_PROOF",
+        "G261 artifact mutation ledger changed",
     )
     require(
         g261_verification["status"] == "PASS"
         and g261_verification["grade"]
-        == "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_REQUIRED"
+        == "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_REQUIRED"
         and g261_verification["landing"] == expected_g261_landing
         and g261_verification["source_manifest_rows"] == 10
-        and g261_verification["independent_assertions"] == 12032
-        and g261_verification["hostile_catches"] == 10,
+        and g261_verification["structural_crosscheck_assertions"] == 12041
+        and g261_verification["rejected_artifact_mutations"] == 10
+        and g261_verification["external_fresh_verdict"] == "ACCEPT_WITH_REPAIRS",
         "G261 package certification changed",
+    )
+    require(
+        "Disposition: `ACCEPT_WITH_REPAIRS`"
+        in (g261 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
+        "G261 fresh external disposition absent",
     )
     require(len(read_tsv(g261 / "SOURCE_MANIFEST.tsv")) == 10, "G261 source count changed")
     founding_text = " ".join((ROOT / "founding.md").read_text().split())

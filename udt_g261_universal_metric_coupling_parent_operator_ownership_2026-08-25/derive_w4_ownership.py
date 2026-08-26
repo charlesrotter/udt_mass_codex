@@ -1,15 +1,102 @@
 #!/usr/bin/env python3
-"""Derive the bounded G261 W4 ownership classification using standard-library logic."""
+"""Replay the bounded G261 W4 ownership classification from frozen sources."""
 
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 from fractions import Fraction as F
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
+REPO = ROOT.parent
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def load_source_gates() -> dict[str, object]:
+    """Validate and read every frozen source before any classification is emitted."""
+    manifest = list(
+        csv.DictReader((ROOT / "SOURCE_MANIFEST.tsv").open(encoding="utf-8"), delimiter="\t")
+    )
+    assert len(manifest) == 10
+    for row in manifest:
+        path = REPO / row["path"]
+        assert path.is_file(), row["path"]
+        assert digest(path) == row["sha256"], row["path"]
+
+    ledger_rows = list(
+        csv.DictReader((ROOT / "PREMISE_LEDGER.tsv").open(encoding="utf-8"), delimiter="\t")
+    )
+    ledger = {row["item"]: row for row in ledger_rows}
+    founding = (REPO / "founding.md").read_text(encoding="utf-8")
+    founding_flat = " ".join(founding.split())
+    g259 = json.loads(
+        (
+            REPO
+            / "udt_g259_metric_only_parent_operator_fork_classification_2026-08-25"
+            / "DERIVATION_RESULT.json"
+        ).read_text(encoding="utf-8")
+    )
+    g260 = json.loads(
+        (
+            REPO
+            / "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25"
+            / "DERIVATION_RESULT.json"
+        ).read_text(encoding="utf-8")
+    )
+
+    gates = {
+        "manifest_rows_verified": len(manifest),
+        "w4_status_is_working_posit": (
+            "### W4. Universal metric coupling" in founding_flat
+            and "`WORKING/POSIT`" in founding_flat
+            and ledger["W4"]["status"] == "WORKING_POSIT_NOT_CANON"
+        ),
+        "w4_one_metric_and_local_semantics": all(
+            phrase in founding_flat
+            for phrase in (
+                "single local geometry used by clocks, rulers, freely falling test systems, and",
+                "null propagation",
+                "a freely falling frame has local special-relativistic",
+            )
+        ),
+        "w4_primary_metric_unchanged": (
+            "does not alter F1--F4's reciprocal algebra or the primary metric components"
+            in founding_flat
+        ),
+        "w4_does_not_select_operator_or_history": all(
+            phrase in founding_flat
+            for phrase in (
+                "does not, merely by being stated, select a field equation",
+                "source/history law",
+                "locality class",
+                "differential order",
+            )
+        ),
+        "g259_class_hypotheses_unowned": (
+            g259["status"] == "PASS"
+            and g259["lovelock_method"]["assumptions_owned_by_F1_F4_W1_W3"] is False
+            and "ownership of locality second order rank2 and identity divergence freedom"
+            in g259["open"]
+        ),
+        "g260_retains_angular_sector_without_parent_law": (
+            g260["status"] == "PASS"
+            and g260["landing"] == "FULL_METRIC_CANCELLATION_WITH_ACTIVE_ANGULAR_SECTOR"
+            and "no UDT parent equation" in g260["maximum_conclusion"]
+        ),
+        "candidate_remains_not_adopted": (
+            ledger["G259_classification"]["status"] == "DERIVED_CONDITIONAL"
+            and ledger["vacuum_Einstein"]["status"] == "IMPORTED_COMPARISON_ONLY"
+            and ledger["source_history"]["status"] == "OPEN"
+        ),
+    }
+    assert all(value is True or key == "manifest_rows_verified" for key, value in gates.items()), gates
+    return gates
 
 
 def primary_metric_checks() -> dict[str, object]:
@@ -33,11 +120,12 @@ def primary_metric_checks() -> dict[str, object]:
 
 
 def main() -> None:
+    source_gates = load_source_gates()
     ownership = [
         ("one_universal_physical_metric", "DERIVED_FROM_W4", "stated directly by W4"),
         (
             "levi_civita_local_inertial_freefall_evaluator",
-            "DERIVED_FROM_W4",
+            "DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY",
             "W4 plus the supplied Lorentz metric gives the unique torsion-free metric-compatible connection",
         ),
         (
@@ -141,7 +229,7 @@ def main() -> None:
 
     atlas_path = ROOT / "OWNERSHIP_ATLAS.tsv"
     with atlas_path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.writer(handle, delimiter="\t")
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
         writer.writerow(("item", "classification", "reason"))
         writer.writerows(ownership)
 
@@ -153,6 +241,8 @@ def main() -> None:
         ),
         "mode": "METRIC_LED_OBSERVING_PREMISE_OWNERSHIP",
         "W4_status": "WORKING_POSIT_NOT_CANON",
+        "classification_method": "FROZEN_SOURCE_DRIVEN_RULES_PLUS_EXPLICIT_SEPARATORS",
+        "source_gates": source_gates,
         "metric_effect": {
             "F1_F4_implication_changed": False,
             "coefficient_changes": 0,
@@ -166,6 +256,9 @@ def main() -> None:
         ],
         "counts": {
             "DERIVED_FROM_W4": sum(row[1] == "DERIVED_FROM_W4" for row in ownership),
+            "DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY": sum(
+                row[1] == "DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY" for row in ownership
+            ),
             "SUPPORTED_ACCEPTANCE_REQUIREMENT": sum(
                 row[1] == "SUPPORTED_ACCEPTANCE_REQUIREMENT" for row in ownership
             ),
@@ -176,6 +269,7 @@ def main() -> None:
         "remaining_premise_type": (
             "NONIDENTITY_DYNAMICS_GENERATOR_SELECTING_A_PROPER_SUBSPACE_OF_COMPLETE_METRICS"
         ),
+        "remaining_premise_scope": "BROAD_FAMILY_NOT_UNIQUE_SPECIFIC_MECHANISM",
         "G259_specific_candidate_not_adopted": (
             "NOT_ADOPTED__DIFFEOMORPHISM_INVARIANT_LOCAL_METRIC_ONLY_VARIATIONAL_MINIMALITY_WITH_"
             "AT_MOST_SECOND_ORDER_NONIDENTITY_EULER_OPERATOR"
