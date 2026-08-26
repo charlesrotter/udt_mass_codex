@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G264. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G265. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -75,10 +75,19 @@ bounded-curvature, static-slice-complete witnesses survive. Conditional power en
 curvature/acceleration/radial-length and alpha-six volume thresholds. Alpha two equals G201 zero
 tide structurally but selects no physics. Packaging passed; the external runtime lacked SymPy.
 
+G265 externally accepts a repaired bounded static-radial classification. Proposed infinite bare
+`c` retypes finite radial-null delay as metric-owned, but this is an identity for every positive
+`f` and selects no profile. Equating optical distance with static-slice proper distance is an extra
+flatness-forcing premise. The kernel algebra contains distinct signed `exp(plus/minus delta)` and
+reversal-even `cosh(delta)` channels. `sech(delta)` as a mutual clock rate, `P_INF`/`P_MUT`,
+intrinsic two-point distance, time-live realization, and valued history remain proposed or `OPEN`.
+The sealed repair review reproduced `18/18` exact checks, `63/63` independent assertions, and `8/8`
+mutation catches.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 247-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 248-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -87,7 +96,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G264 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G265 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -101,11 +110,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Ponder whether the G262 hierarchy, G263 two-operation separation, and G264 conditional alpha-two
-zero-tide intersection expose a natural nonidentity source/history discriminator. Any candidate
-must be stated independently, be full-metric and sign-consistent, and reject at least one admitted
-positive- or negative-`phi` profile. Do not promote the alpha-two family, zero tide, raw wall flux,
-geometric mass aspect, unowned `q^w`, or unadopted G259 variational form into the answer; do not
+Ponder whether the recovered but unadopted mutual-distance premise can be stated independently as
+a covariant two-point/time-live law that owns the reversal-even channel and rejects at least one
+admitted positive- or negative-`phi` history. Do not promote `sech(delta)`, `P_INF`, `P_MUT`, the
+alpha-two family, zero tide, raw wall flux, geometric mass aspect, unowned `q^w`, or the G259
+variational form into the answer; do not identify infinite bare `c` with physical signalling,
 import Einstein dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU history solve is
 authorized.
 <!-- STARTUP_CURRENT_END -->

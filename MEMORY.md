@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G264: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G265: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -34,6 +34,12 @@ power end has an alpha-two curvature/acceleration/radial-length threshold, with 
 representative equal to G201 zero tide; this does not select a history. Final packaging review
 accepted with the explicit caveat that its isolated runtime lacked SymPy.
 
+G265 accepts a repaired bounded static-radial classification. Proposed infinite bare `c` changes
+the provenance interpretation of null delay but selects no positive-`f` profile. The reciprocal
+kernel algebra contains signed `exp(plus/minus delta)` and reversal-even `cosh(delta)` channels.
+`sech(delta)` as a physical mutual clock rate, `P_INF`/`P_MUT`, intrinsic two-point distance,
+time-live realization, and valued history remain proposed or open.
+
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
 
@@ -60,7 +66,8 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Ponder whether G262--G264 expose a natural nonidentity source/history discriminator. Do not promote
-alpha two, zero tide, the raw flux, `q^w`, or the unadopted G259 variational form.
+Ponder whether mutual distance can be independently stated as a covariant two-point/time-live law
+that owns the even channel and rejects an admitted history. Do not promote `sech(delta)`, `P_INF`,
+`P_MUT`, alpha two, zero tide, the raw flux, `q^w`, or the unadopted G259 variational form.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

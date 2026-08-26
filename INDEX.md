@@ -65,7 +65,8 @@
   `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted;
   `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—active cancellation; `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`—W4 ownership;
   `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`—hierarchy, mass/history open; `udt_g263_pair_reversal_profile_sign_parity_2026-08-25/`—reversal versus conjugation;
-  `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`—sign nonselection, conditional alpha-two threshold; packaging accepted with runtime caveat.
+  `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`—sign nonselection, conditional alpha-two threshold; packaging accepted with runtime caveat;
+  `udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/`—null-delay identity and signed/even channel separation; `sech`, mutual-distance ownership, and history unadopted/open.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`

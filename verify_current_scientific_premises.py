@@ -233,7 +233,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G264",
+            "G166--G265",
             "G197",
             "G215",
             "G216",
@@ -285,6 +285,7 @@ def validate_startup_surface(root: Path) -> None:
             "G262",
             "G263",
             "G264",
+            "G265",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -327,7 +328,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "247-row exact registry",
+            "248-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -419,6 +420,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/",
             "udt_g263_pair_reversal_profile_sign_parity_2026-08-25/",
             "udt_g264_negative_phi_native_selectivity_classification_2026-08-25/",
+            "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -432,7 +434,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G264",
+            "G166--G265",
             "G197",
             "G198",
             "G199",
@@ -502,6 +504,7 @@ def validate_startup_surface(root: Path) -> None:
             "G262",
             "G263",
             "G264",
+            "G265",
             "formula-level regression",
             "off-ray",
             "R2--R5",
@@ -584,6 +587,7 @@ def validate_startup_surface(root: Path) -> None:
             "G262",
             "G263",
             "G264",
+            "G265",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
             "formula-level regression",
@@ -661,10 +665,11 @@ def validate_startup_surface(root: Path) -> None:
             "G262",
             "G263",
             "G264",
+            "G265",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "247-row",
+            "248-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1008,9 +1013,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 247, "premise registry must contain exactly 247 rows")
+    require(len(rows) == 248, "premise registry must contain exactly 248 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 247, "duplicate premise id")
+    require(len(by_id) == 248, "duplicate premise id")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -6071,7 +6076,7 @@ def main() -> None:
         "G250 final banking replay absent",
     )
     require(len(read_tsv(g250 / "SOURCE_MANIFEST.tsv")) == 9, "G250 source count changed")
-    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
+    g250_replay = replay_package_with_current_registry_rows_removed(g250, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
     require(g250_replay["status"] == "PASS", "G250 live no-write replay failed")
     require(
         by_id["G251"]["current_status"].startswith(
@@ -6238,7 +6243,7 @@ def main() -> None:
         "G251 final banking replay absent",
     )
     require(len(read_tsv(g251 / "SOURCE_MANIFEST.tsv")) == 12, "G251 source count changed")
-    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
+    g251_replay = replay_package_with_current_registry_rows_removed(g251, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253", "G252"))
     require(g251_replay["status"] == "PASS", "G251 live no-write replay failed")
     require(
         by_id["G252"]["current_status"].startswith(
@@ -6386,7 +6391,7 @@ def main() -> None:
         "G252 final banking replay absent",
     )
     require(len(read_tsv(g252 / "SOURCE_MANIFEST.tsv")) == 6, "G252 source count changed")
-    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
+    g252_replay = replay_package_with_current_registry_rows_removed(g252, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
     require(g252_replay["status"] == "PASS", "G252 live no-write replay failed")
     require(
         by_id["G253"]["current_status"].startswith(
@@ -6513,7 +6518,7 @@ def main() -> None:
         "G253 external repair acceptance absent",
     )
     require(len(read_tsv(g253 / "SOURCE_MANIFEST.tsv")) == 21, "G253 source count changed")
-    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
+    g253_replay = replay_package_with_current_registry_rows_removed(g253, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254", "G253"))
     require(g253_replay["verdict"] == "PACKAGE_PASS", "G253 live no-write replay failed")
     require(
         by_id["G254"]["current_status"].startswith(
@@ -6597,7 +6602,7 @@ def main() -> None:
         "G254_VERIFIED_WITH_CAVEATS" in (g254 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
         "G254 external review acceptance absent",
     )
-    g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254"))
+    g254_replay = replay_package_with_current_registry_rows_removed(g254, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256", "G255", "G254"))
     require(g254_replay["status"] == "PACKAGE_PASS", "G254 live no-write replay failed")
     require(
         by_id["G255"]["current_status"].startswith(
@@ -6683,7 +6688,7 @@ def main() -> None:
         and "no findings" in (g255 / "EXTERNAL_REVIEW_GPT54.md").read_text().lower(),
         "G255 external review acceptance absent",
     )
-    g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256"))
+    g255_replay = replay_package_with_current_registry_rows_removed(g255, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256"))
     require(
         g255_replay["status"] == "PASS"
         and g255_replay["assertion_count"] == 842
@@ -6802,7 +6807,7 @@ def main() -> None:
         in (g256 / "EXTERNAL_R2_FOLLOWUP_GPT54.md").read_text(),
         "G256 external R2 acceptance absent",
     )
-    g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256"))
+    g256_replay = replay_package_with_current_registry_rows_removed(g256, ("G265", "G264", "G263", "G262", "G261", "G260", "G259", "G258", "G257", "G256"))
     require(
         g256_replay["status"] == "PACKAGE_PASS_R2_FOLLOWUP_PENDING"
         and g256_replay["source_count"] == 18
@@ -7792,6 +7797,137 @@ def main() -> None:
         and "did not contain SymPy"
         in (g264 / "EXTERNAL_PACKAGING_REPAIR_FOLLOWUP_GPT54.md").read_text(),
         "G264 final external acceptance or caveat absent",
+    )
+    require(
+        by_id["G265"]["current_status"].startswith(
+            "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G265_REPAIRS_ACCEPTED"
+        ),
+        "G265 bounded grade changed",
+    )
+    for guard in (
+        "PREREGISTERED_AT_8F716271",
+        "REPAIR_PREREGISTERED_AT_51601515",
+        "REPAIR_IMPLEMENTED_AT_7009663A",
+        "REPAIR_FOLLOWUP_ACCEPTED_AT_53033CE6",
+        "INFINITE_BARE_C_METRIC_NULL_READING_IS_IDENTITY_FOR_ALL_POSITIVE_F",
+        "ZERO_BARE_DURATION_RETYPES_PROVENANCE_AND_SELECTS_NO_PROFILE",
+        "LITERAL_OPTICAL_EQUALS_STATIC_SLICE_DISTANCE_FOR_ALL_SUBINTERVALS_FORCES_CONSTANT_LAPSE_AND_SMOOTH_CENTER_F_EQUALS_ONE",
+        "LOCAL_STATIC_MEASURED_NULL_SPEED_EQUALS_CE",
+        "SIGNED_NULL_ARROW_EXP_MINUS_DELTA_INVERTS_UNDER_SAME_CORRESPONDENCE_REVERSAL_AND_IS_NOT_MUTUAL_SLOWDOWN",
+        "RECIPROCAL_KERNEL_HAS_DERIVED_EVEN_COSH_DELTA_AND_DIRECTIONAL_EXP_PLUS_MINUS_DELTA_CHANNELS",
+        "SECH_DELTA_PHYSICAL_MUTUAL_CLOCK_PROJECTION_PROPOSED_NOT_ADOPTED",
+        "P_MINUS_TWO_OVER_NINE_LOCAL_CANDIDATE_FAILS_AT_FOURTH_ORDER_SEVEN_OVER_13122",
+        "DISTANCE_OWNERSHIP_TIMELIVE_TWO_POINT_VALUE_LAW_HISTORY_SOURCE_AND_PROFILE_OPEN",
+        "18_EXACT_CHECKS__63_INDEPENDENT_ASSERTIONS__8_MUTATION_CATCHES",
+        "EXACT_LIVE_RECORDED_RESULT_AND_FAIL_CLOSED_MUTATION_VERIFIED",
+    ):
+        require(guard in by_id["G265"]["current_status"], f"G265 guard absent: {guard}")
+    require(by_id["G265"]["epistemic_label"] == "MIXED", "G265 label changed")
+    require(
+        by_id["G265"]["active_use"]
+        == "ACTIVE_BOUNDED_STATIC_RADIAL_PROVENANCE_NULL_DISTANCE_AND_SIGNED_VERSUS_EVEN_CHANNEL_CLASSIFICATION_ONLY",
+        "G265 active scope widened",
+    )
+    for guard in (
+        "infinite bare c called static value law or infinite signalling inside g",
+        "signed null arrow called mutual slowdown",
+        "cosh algebra called physical sech ownership",
+        "sech or P_INF or P_MUT called adopted founded or canon",
+        "static bounded theorem widened to full time-live no-go or selected profile",
+    ):
+        require(guard in by_id["G265"]["forbidden_regression"], f"G265 regression guard absent: {guard}")
+    require(
+        by_id["G265"]["controlling_source"]
+        == "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/AUDIT_REPORT.md",
+        "G265 controlling source changed",
+    )
+    g265 = ROOT / "udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26"
+    for name in (
+        "AUDIT_REPORT.md",
+        "CATCH_PROOF_RESULT.json",
+        "DERIVATION_RESULT.json",
+        "EVIDENCE_GATES.md",
+        "EXACT_DERIVATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "INDEPENDENT_VERIFICATION.json",
+        "LAY_REPORT.md",
+        "PREMISE_LEDGER.tsv",
+        "PREREGISTRATION.md",
+        "REPAIR_IMPLEMENTATION.md",
+        "SOURCE_MANIFEST.tsv",
+        "STATUS_LEDGER.tsv",
+        "derive_closure.py",
+        "run_catch_proofs.py",
+        "verify_independent.py",
+        "verify_package.py",
+    ):
+        require((g265 / name).is_file(), f"G265 evidence missing: {name}")
+    g265_result = json.loads((g265 / "DERIVATION_RESULT.json").read_text())
+    g265_independent = json.loads((g265 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g265_catches = json.loads((g265 / "CATCH_PROOF_RESULT.json").read_text())
+    expected_g265_landing = (
+        "INFINITE_BARE_C_METRIC_NULL_READING_IS_IDENTITY__"
+        "LITERAL_DISTANCE_TIME_CLOSURE_TRIVIALIZES_THE_STATIC_PROFILE__"
+        "SAME_CORRESPONDENCE_MUTUAL_SLOWDOWN_IS_NOT_THE_SIGNED_NULL_ARROW__"
+        "THE_RECIPROCAL_KERNEL_ALREADY_CONTAINS_DISTINCT_EVEN_AND_DIRECTIONAL_CHANNELS__"
+        "DISTANCE_OWNERSHIP_STILL_REQUIRES_A_TIMELIVE_OR_TWO_POINT_VALUE_LAW"
+    )
+    require(
+        g265_result["status"] == "PASS"
+        and g265_result["landing"] == expected_g265_landing
+        and g265_result["exact_checks"] == 18
+        and g265_result["optical_closure"] == "identity for every positive f"
+        and g265_result["proper_distance_closure"]
+        == "f=1, or constant before smooth-center calibration"
+        and g265_result["even_invariant"] == "cosh(delta)"
+        and g265_result["candidate_mutual_clock_rate"]
+        == "sech(delta), proposed physical projection"
+        and g265_result["qualification"]
+        == "static radial classification; not a full time-live no-go or canonization",
+        "G265 landing or ownership changed",
+    )
+    require(
+        g265_independent["status"] == "PASS"
+        and g265_independent["assertions"] == 63
+        and g265_independent["intervals_per_profile"] == 3
+        and len(g265_independent["profiles"]) == 4,
+        "G265 implementation-distinct verification changed",
+    )
+    require(
+        g265_catches["status"] == "PASS"
+        and g265_catches["catches"] == 8
+        and len(g265_catches["names"]) == 8,
+        "G265 mutation ledger changed",
+    )
+    require(
+        "REPAIRS_ACCEPTED" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        and "18/18" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        and "63/63" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        and "8/8" in (g265 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "G265 repair-only external acceptance absent",
+    )
+    require(len(read_tsv(g265 / "SOURCE_MANIFEST.tsv")) == 9, "G265 source count changed")
+    g265_replay = subprocess.run(
+        [sys.executable, str(g265 / "verify_package.py")],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    g265_replayed = json.loads(g265_replay.stdout)
+    require(
+        g265_replayed["status"] == "PASS"
+        and g265_replayed["grade"]
+        == "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G265_REPAIRS_ACCEPTED"
+        and g265_replayed["landing"] == expected_g265_landing
+        and g265_replayed["exact_checks"] == 18
+        and g265_replayed["independent_assertions"] == 63
+        and g265_replayed["mutation_catches"] == 8
+        and g265_replayed["replay_result_exact"] is True
+        and g265_replayed["recorded_result_mutation_caught"] is True
+        and g265_replayed["source_count"] == 9,
+        "G265 live no-write replay changed",
     )
     founding_text = " ".join((ROOT / "founding.md").read_text().split())
     require(
@@ -12023,7 +12159,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264-extended startup and premise guards; PASS: 247-row premise "
+        "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265-extended startup and premise guards; PASS: 248-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
