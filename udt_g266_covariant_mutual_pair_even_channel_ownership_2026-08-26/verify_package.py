@@ -2,6 +2,7 @@
 """No-write G266 package verifier."""
 
 import hashlib
+import importlib.util
 import json
 import pathlib
 import subprocess
@@ -27,17 +28,34 @@ def run_json(name):
     return json.loads(proc.stdout)
 
 
+def resolve_source(rel, expected):
+    candidates = (REPO / rel, REPO / "private_sources" / rel)
+    for path in candidates:
+        if path.is_file() and sha256(path) == expected:
+            return path
+    raise AssertionError(rel)
+
+
 def main():
     source_rows = (ROOT / "SOURCE_MANIFEST.tsv").read_text().splitlines()
     assert source_rows[0] == "path\tsha256\trole"
     assert len(source_rows) == 8
     for row in source_rows[1:]:
         rel, expected, _role = row.split("\t")
-        path = REPO / rel
-        assert path.is_file(), rel
-        assert sha256(path) == expected, rel
+        resolve_source(rel, expected)
 
-    exact = run_json("derive_even_channel.py")
+    first_rel, first_expected, _role = source_rows[1].split("\t")
+    try:
+        resolve_source(first_rel, "0" * 64)
+    except AssertionError:
+        source_hash_mutation_rejected = True
+    else:
+        source_hash_mutation_rejected = False
+    assert source_hash_mutation_rejected
+
+    exact = run_json("derive_even_channel_stdlib.py")
+    if importlib.util.find_spec("sympy") is not None:
+        assert run_json("derive_even_channel.py") == exact
     independent = run_json("verify_independent.py")
     catches = run_json("run_catch_proofs.py")
     recorded_exact = json.loads((ROOT / "DERIVATION_RESULT.json").read_text())
@@ -53,19 +71,27 @@ def main():
     assert exact["history_rejection_by_current_premises"] == 0
     assert exact["physical_projection"] == "OPEN_NOT_SELECTED_BY_F1_F4_W1_W4"
     assert exact["distance_functional"] == "OPEN_QUERY_OWNED"
-    assert "Fresh external adversarial review pending" not in (ROOT / "AUDIT_REPORT.md").read_text()
-    assert "FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING" in (ROOT / "EVIDENCE_GATES.md").read_text()
+    assert "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING" in (
+        ROOT / "EVIDENCE_GATES.md"
+    ).read_text()
     assert "No adoption of `P_INF`, `P_MUT`, `sech(delta)`" in (ROOT / "PREREGISTRATION.md").read_text()
+    audit_text = (ROOT / "AUDIT_REPORT.md").read_text()
+    assert "already-fixed invariant areal-radius" in audit_text
+    assert "physical attachment `ds=dR`" in audit_text
+    assert "formed only from that kernel" in exact["invariant_algebra"]
 
     print(json.dumps({
         "status": "PASS",
-        "grade": "INTERNALLY_VERIFIED_LEAD__FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING",
+        "grade": "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING",
         "landing": exact["landing"],
         "selected_alternative": exact["selected_alternative"],
         "exact_checks": exact["exact_checks"],
         "independent_assertions": independent["assertions"],
         "mutation_catches": catches["catches"],
         "source_count": len(source_rows) - 1,
+        "source_hash_mutation_rejected": source_hash_mutation_rejected,
+        "dependency_free_exact_replay": True,
+        "sympy_reference_replayed": importlib.util.find_spec("sympy") is not None,
         "recorded_live_exact": True,
     }, indent=2, sort_keys=True))
 

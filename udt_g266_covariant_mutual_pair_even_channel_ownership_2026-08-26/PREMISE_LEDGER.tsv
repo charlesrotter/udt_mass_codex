@@ -7,7 +7,8 @@ G224 carry	DERIVED_CONDITIONAL	same-event calibrated line carry	not an independe
 G263 reversal	DERIVED_CONDITIONAL	same-correspondence inversion distinguished from causal return	no profile conjugation
 G265 even channel	DERIVED_ALGEBRAIC	cosh delta candidate input	sech physical ownership not adopted
 same-correspondence reversal	PINNED_BY_THEORY	r_AB maps to inverse r_AB	causal return remains different
-static areal separation	FREE_AND_EXPLORED	separating distance control	not declared physical distance
+static areal radius R	DERIVED_GEOMETRIC_DESCRIPTOR	invariant angular-orbit area coordinate in the marked spherical comparator	not by itself physical mutual distance
+physical attachment ds=dR	FREE_AND_EXPLORED	areal-based separating distance control	Delta R not declared physical mutual distance
 static slice proper separation	FREE_AND_EXPLORED	separating distance control	not declared physical distance
 static optical separation	FREE_AND_EXPLORED	separating distance control	not declared physical distance
 positive inverse length kappa	FREE_AND_EXPLORED	compare constant depth per candidate distance	not an observed or founded scale

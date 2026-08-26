@@ -44,7 +44,8 @@ On the completed reciprocal two-channel representation,
 D_{AB}=\begin{pmatrix}r_{AB}&0\\0&r_{AB}^{-1}\end{pmatrix}.
 \]
 
-The determinant is one. Its primitive conjugacy invariant is its trace, so define
+Within this determinant-one two-leg reciprocal kernel on the supplied relation, the primitive
+reversal-even conjugacy invariant is its trace, so define
 
 \[
 \boxed{
@@ -85,8 +86,9 @@ r_{AB}^{-1}=\Gamma_{AB}+\Xi_{AB}.
 
 Thus the even channel is not an added instrument. It is already the trace invariant of the same
 reciprocal representation that contains the directional clock/ruler legs. Other smooth
-reversal-even scalar readouts may still be arbitrary functions of `Gamma`; trace naturality does
-not choose their physical interpretation.
+reversal-even scalar readouts formed only from this kernel may still be arbitrary functions of
+`Gamma`; trace naturality does not choose their physical interpretation. This classification does
+not cover arbitrary physical scalars constructed from the complete ambient metric.
 
 ## 3. Why the even channel cannot compose alone
 
@@ -181,12 +183,15 @@ Let `x=R-R0`, `sqrt(f(R0))=y0`, and explore the same simple statement
 d\delta=\kappa\,ds,
 \]
 
-where `kappa` is a freely explored positive inverse length. Three metric-native distance choices
-give three exact families.
+where `kappa` is a freely explored positive inverse length. The primary metric has already fixed
+`R` as the invariant areal-radius descriptor through the angular orbit area. That geometric fact
+does not declare `Delta R`, static-slice ruler length, or optical length to be the physical mutual
+distance. Supplying each of those three attachments in turn gives three exact controls.
 
-### Areal-radius separation
+### Areal-radius attachment
 
-With `ds=dR`,
+Here `R` is already a metric-owned areal scalar, while the further identification `ds=dR` as the
+physical mutual-distance increment is `FREE_AND_EXPLORED`. With that identification,
 
 \[
 \boxed{f_{\rm areal}=y_0^2e^{-2\kappa x}.}
@@ -208,7 +213,8 @@ With `ds=dR/f`,
 \boxed{f_{\rm opt}=y_0^2-2\kappa x.}
 \]
 
-All are derived only after their distance type is supplied. At a unit-calibrated anchor
+All three profile families are derived only after their physical distance attachment is supplied.
+At a unit-calibrated anchor
 `y0=1`, they have the same value and first derivative,
 
 \[
@@ -238,11 +244,14 @@ begins to matter. Since areal radius is an invariant spherical scalar, these dif
 
 The present premises derive a stronger and simpler kernel statement than G265 alone:
 
-- the reversal-even trace magnitude `Gamma=cosh(delta)` is canonical on a supplied relation;
+- the reversal-even trace magnitude `Gamma=cosh(delta)` is canonical inside the determinant-one
+  reciprocal kernel on a supplied relation;
 - it and the signed companion are inseparable under nontrivial composition;
 - `sech(delta)` is the simplest inverse-trace clock projection, but remains physically unadopted;
 - null incidence alone does not own a nonzero separation scalar;
-- several metric-native distance attachments agree locally and produce inequivalent histories.
+- several metric-constructed distance controls agree locally and produce inequivalent histories;
+  the areal control uses an already-owned geometric descriptor, but its promotion to physical
+  mutual distance is no more derived than the other two attachments.
 
 Therefore current premises reject no admitted history. The remaining bridge is no longer “find an
 even function.” It is to own one operational two-point distance protocol and its relation to the

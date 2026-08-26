@@ -48,7 +48,7 @@
   "distance_functional": "OPEN_QUERY_OWNED",
   "exact_checks": 25,
   "history_rejection_by_current_premises": 0,
-  "invariant_algebra": "for determinant-one two-by-two reciprocal matrices, trace is the primitive conjugacy invariant; other smooth reversal-even scalars remain functions of Gamma",
+  "invariant_algebra": "for the determinant-one two-leg reciprocal kernel on the supplied relation, trace is the primitive conjugacy invariant; smooth reversal-even scalar readouts formed only from that kernel are functions of Gamma",
   "landing": "CANONICAL_REVERSAL_EVEN_TRACE_CHANNEL_DERIVED_ON_SUPPLIED_TIMELIVE_RELATION__NONTRIVIAL_COMPOSITION_REQUIRES_THE_ODD_COMPANION__SECH_PHYSICAL_PROJECTION_DISTANCE_FUNCTIONAL_AND_HISTORY_SELECTION_OPEN",
   "null_world_function": "sigma=0 on every null incidence, so its value alone cannot own nontrivial pair distance",
   "physical_projection": "OPEN_NOT_SELECTED_BY_F1_F4_W1_W4",

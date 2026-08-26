@@ -92,7 +92,7 @@ def main():
             "Xi_AC": "Xi_AB*Gamma_BC+Gamma_AB*Xi_BC",
             "scalar_even_multiplicative_character": "trivial_only",
         },
-        "invariant_algebra": "for determinant-one two-by-two reciprocal matrices, trace is the primitive conjugacy invariant; other smooth reversal-even scalars remain functions of Gamma",
+        "invariant_algebra": "for the determinant-one two-leg reciprocal kernel on the supplied relation, trace is the primitive conjugacy invariant; smooth reversal-even scalar readouts formed only from that kernel are functions of Gamma",
         "null_world_function": "sigma=0 on every null incidence, so its value alone cannot own nontrivial pair distance",
         "distance_controls": {
             "areal": "f=y0^2*exp(-2*k*x)",
