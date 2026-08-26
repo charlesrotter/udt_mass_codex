@@ -11,4 +11,4 @@ S09	geometric compactness tends one half if lapse tends zero at finite areal rad
 S10	physical UDT mass and source law	OPEN	mass authority firewall retained
 S11	phi value or history law	OPEN	counterfamily passes all identities
 S12	raw WR-L wall lapse flux is -2piX	DERIVED_METRIC_LIMIT_PREEXISTING	unnormalized metric flux on supplied f=1-r/X; not mass or global Xmax
-S13	G262 landing	EXTERNAL_ACCEPT_WITH_REPAIRS	reporting repair implemented; repair-only follow-up pending
+S13	G262 landing	EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_DEFECT	fresh review ACCEPT_WITH_REPAIRS; repair-only follow-up ACCEPT_REPAIR

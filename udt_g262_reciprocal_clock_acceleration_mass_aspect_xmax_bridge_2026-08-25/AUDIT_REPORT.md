@@ -1,7 +1,7 @@
 # G262 audit report — clock, acceleration, mass-aspect, and Xmax bridge
 
 Date: 2026-08-25
-Grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING`
+Grade: `EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_DEFECT`
 
 ## Primary landing
 
@@ -101,6 +101,8 @@ boundary generator, total mass, numerical/global Xmax, or history law was derive
 - fresh isolated `gpt-5.4` review accepted the algebra with the bounded reporting repair above; its
   runtime reran the dependency-free exact-Fraction, mutation, and package checks, but lacked SymPy
   and therefore did not rerun the production symbolic derivation.
+- isolated repair-only `gpt-5.4` follow-up returned `ACCEPT_REPAIR` with no remaining R1/R2 defect;
+  it reran all three dependency-free checks and exercised altered-copy source failures.
 
 ## Maximum conclusion
 

@@ -11,7 +11,7 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Germ/extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=T L_sigma=sqrt(-det h_sigma)` | Population; extension |
-| Pair-clock/state network | G215--G261 | Carry, GR fork, angular non-discard, W4 | Dynamics; history; aggregation |
+| Pair-clock/state network | G215--G262 | Carry, GR fork, angular balance, W4, mass-aspect hierarchy | Dynamics; history; aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 bounded vacuum embedding | Covariant departure law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Pair `c_eff` | `CONDITIONAL` readout | Terminal ratio | Owner; signal meaning |
@@ -47,19 +47,20 @@
 | G238/G239/G240 held-out query | external after repair | Typing/operator/census; inputs/outcomes open |
 | G241/G242/G243 radial controls | external | Controls reject compact carriers/zero tide; retain turning/no-freeze |
 | G244--G248 sky/measure | external | `H,A,C`; cone; branches; `r/A`; population/history open |
-| G249 scale boundary | external after repairs | Dimensionless history fixes response; one anchor remains |
-| G250 anchor types | external after repairs | One anchor fixes scale conditionally; histories unselected |
-| G251 attachment ownership | external after repairs | No 12-source datum owner; attachment open |
-| G252 proper-clock attachment | external after repairs | Clock fixes `ell`; another tests history; no value selected |
-| G253 native-kernel compression | external after repair | Redshift/angular/scale attachment distinct; no registered scaffold input |
-| G254 time-live solver closure | external; no scientific repair | Evaluator; zero ambient residual; ODE/GPU gated |
-| G255 lost-closure recovery | external; no findings | No lost G165--G254 value law; next is primary-state closure |
-| G256 primary-state value rank | external after R2 | `N-1` anchored values; angular tomography; no owned propagation residual |
-| G257 GR quiet embedding | external; no findings | `f=1+C/r`; native pair/angular response; nonzero GR balance |
+| G249 scale boundary | external after repairs | Dimensionless response; one anchor remains |
+| G250 anchor types | external after repairs | One anchor fixes scale; history unselected |
+| G251 attachment ownership | external after repairs | No native datum owner |
+| G252 proper-clock attachment | external after repairs | Clock fixes `ell`; another tests history |
+| G253 native-kernel compression | external after repair | Three distinct chains; no scaffold input |
+| G254 time-live solver closure | external; no scientific repair | No residual; ODE/GPU gated |
+| G255 lost-closure recovery | external; no findings | No lost value law |
+| G256 primary-state value rank | external after R2 | `N-1` values; angular tomography; no propagation |
+| G257 GR quiet embedding | external; no findings | `f=1+C/r`; active angular balance |
 | G258 sampled inverse metric | external science and R1 accepted | `12` states; one scale; no law |
 | G259 parent-operator fork | external repairs accepted | Nonzero conditional Einstein zero set; fork unselected |
 | G260 GR-quiet angular non-discard | external after R1 | Full-metric active cancellation; radial-only vacuity; no parent law |
 | G261 W4 ownership | external repairs accepted | One metric; unchanged form; operator class unowned |
+| G262 clock/mass-aspect bridge | external repairs accepted | One-lapse hierarchy; physical mass/history open |
 
 None selects completion/`X_max`.
 ## Scale and limits
@@ -82,7 +83,8 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class. Metricity is not dynamics.
 - G212--G243 evaluate/reconstruct without selecting values; G244/G245/G246/G247/G248 give branchwise
-  geometry; G249--G256 type scale and closure. G257--G261 supply GR, values, fork, non-discard, and W4 ownership.
+  geometry; G249--G256 type scale and closure. G257--G262 supply GR, sampled values, fork,
+  non-discard, W4 ownership, and the bounded clock/mass-aspect hierarchy.
 
 ## Carrier, action, source, and matter
 
@@ -100,7 +102,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale, cosmology, or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G261 are outcome-blind; G258 reuses G237. BOSS/history/transfer stay open.
+G244--G257 and G259--G262 are outcome-blind; G258 reuses G237. BOSS/history/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -114,7 +116,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 244-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 245-row authority; conflicts stop.
 
 Run:
 

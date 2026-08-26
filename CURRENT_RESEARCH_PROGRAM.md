@@ -3,7 +3,7 @@
 Date: 2026-08-25
 
 `LIVE.md` controls status. `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
-The current exact authority contains 244 rows.
+The current exact authority contains 245 rows.
 
 ## Architecture
 
@@ -87,8 +87,14 @@ Phi=-log(T)=-1/2 log(-h00)
   F1--F4 metric component and leaves the G259 operator class and history equation unowned. Fresh
   external review returned `ACCEPT_WITH_REPAIRS`; source-driving, cross-check scope, real mutation,
   and Levi-Civita typing repairs then received `ACCEPT_REPAIR` with no remaining R1--R4 defect.
+- G262 derives on arbitrary positive primary `f` the exact single-state hierarchy joining lapse,
+  clock rate, signed static acceleration, geometric mass aspect, curvature residuals, and angular
+  trace. The endpoint energy equality remains G95 carrier-covector conditional; local rest mass and
+  physical total mass remain open. The older raw WR-L wall lapse flux `-2*pi*X` is retained only as
+  an unnormalized supplied-representative metric limit. Fresh review and repair-only follow-up
+  accepted R1/R2 with no remaining defect; arbitrary positive profiles still prove nonselection.
 
-G206--G261 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G262 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -98,8 +104,9 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 - G211--G231 close supplied local geometry; G232--G235 do not select history. G236--G243 are
   observational controls; G244--G248 give branchwise geometry; G249--G252 type scale attachment.
   G253--G256 narrow the gap to primary-state value propagation. G260 rules out angular discard and
-  G261 rules out W4 alone as its cause. One broad nonidentity full-metric dynamics-generator premise
-  family remains; no unique mechanism is identified.
+  G261 rules out W4 alone as its cause. G262 unifies the clock/acceleration/mass-aspect/angular
+  evaluator and retains one boundary-flux clue without promoting it. One broad nonidentity
+  full-metric dynamics/source-generator premise family remains; no unique mechanism is identified.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
@@ -113,5 +120,8 @@ measure, and detector/transfer ownership open.
 G197 excludes P1, G116/G189, fits, `X_max`, scaffolds, and protected inputs. G190--G251 remain
 bounded controls/evaluators; G252--G256 narrow value closure; G257 supplies the GR comparison;
 G258 samples values; G259/G260 classify the operator fork and quiet balance; G261 classifies W4
-ownership. Do not promote its unadopted variational candidate, invent a residual, fit a free history
-or regime switch, erase quiet geometry, aggregate branches, insert `X_max`, or activate protected work.
+ownership; G262 closes the bounded clock--acceleration--mass-aspect--angular hierarchy. Next audit
+whether the retained raw wall flux and hierarchy can furnish a natural nonidentity source/mass
+feedback relation. Do not promote raw flux or `q^w` to mass, adopt the unowned variational candidate,
+invent a residual, fit a free history or regime switch, erase quiet geometry, aggregate branches,
+insert `X_max`, or activate protected work.

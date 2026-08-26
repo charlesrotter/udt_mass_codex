@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G261: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
+G166--G262: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual
 Reciprocity fixes `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is not metric-derived or
 canon. `phi_control` is an arbitrary-calibration control.
 
@@ -20,16 +20,13 @@ G244/G245/G246/G247/G248 give branchwise sky geometry; G249/G250/G251/G252 type 
 G253 retains redshift, angular, and unit chains without scaffold inputs. No value/history is chosen.
 G254 finds no time-live residual; G255 finds no lost G165--G254 closure. ODE/PDE/GPU stay gated.
 
-G256 verifies after dependency-free R2 replay: scalar networks leave `N-1` anchored values; angular response reconstructs two jets without propagation; no residual owns a solve.
-G257 provisionally adopts W3 as `WORKING/POSIT`; external review accepts the bounded GR vacuum exterior `f=1+C/r`. GR quietness is nonzero GR-balanced geometry; the UDT parent law remains open.
-G258 retains twelve conditional SNe knots up to one scale; follow-up accepts R1; native transfer
-and the continuous law remain open.
-G259's accepted repairs leave its conservative class unowned; Einstein retains source/history.
-G260's accepted R1 proves `A_parallel+A_perp=E1-E0`: on `f=1+C/r` two active modes cancel. The
-radial two-metric is vacuous, sphere deletion fails, and trace balance retains `1+a*r^2+b/r`.
-G261 fresh external review returned `ACCEPT_WITH_REPAIRS`; repair-only follow-up returned
-`ACCEPT_REPAIR` with no remaining R1--R4 defect. W4 owns one universal local metric, with Levi-Civita semantics using existing
-metric geometry, but changes no F1--F4 component and derives no G259 operator class or history law.
+G256 leaves `N-1` anchored values and reconstructs angular jets without propagation. G257 makes W3
+`WORKING/POSIT`; `f=1+C/r` has nonzero GR-balanced geometry. G258 retains twelve conditional SNe
+knots up to one scale. G259's operator class remains unowned. G260 proves active angular
+cancellation and rejects sphere deletion. G261 accepts W4 one-metric semantics without changing
+F1--F4 or deriving dynamics. G262 externally accepts one-lapse clock/acceleration/geometric-
+mass-aspect/angular interlock. G95 energy is conditional; rest/total mass and history remain open.
+The raw WR-L flux `-2*pi*X` is an unnormalized metric limit, not mass or global `X_max`.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
 `INDEX.md` routes evidence.
@@ -57,7 +54,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Ponder the remaining broad nonidentity dynamics-generator premise family; the G259-specific
-variational form is not adopted.
+Ponder whether the G262 hierarchy plus retained raw wall flux reveals a natural nonidentity
+source/mass feedback law. Do not promote the flux, `q^w`, or the unadopted G259 variational form.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

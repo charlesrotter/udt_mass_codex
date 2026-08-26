@@ -40,3 +40,8 @@ __LOCAL_REST_MASS_PHYSICAL_TOTAL_MASS_XMAX_VALUE_AND_HISTORY_LAW_OPEN
 
 No source, physical mass, normalized charge, numerical/global `Xmax`, or history equation was
 added.
+
+## Repair-only adjudication
+
+Fresh isolated `gpt-5.4` follow-up returned `ACCEPT_REPAIR`: no remaining defect within R1/R2 and
+the bounded scientific landing is unchanged.

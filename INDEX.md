@@ -1,5 +1,4 @@
 # INDEX — `LIVE.md` wins.
-## Startup
 1. Follow `AGENTS.md` rules.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`.
@@ -65,7 +64,8 @@
   `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—exact GR embedding;
   `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale;
   `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted;
-  `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—active angular cancellation; `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`—W4 one-metric ownership, operator class unowned.
+  `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—active cancellation; `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`—W4 ownership;
+  `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`—accepted hierarchy, physical mass/history open.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`

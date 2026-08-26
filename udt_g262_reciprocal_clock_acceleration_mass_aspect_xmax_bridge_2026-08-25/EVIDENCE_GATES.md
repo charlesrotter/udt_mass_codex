@@ -15,6 +15,10 @@ Date: 2026-08-25
 4. **Premise audit:** PASS WITH CAVEATS. The 244-row registry verifier passes; mass authority map and
    Xmax firewall are retained. W1, W3, and W4 remain provisional; physical mass/source stay open.
 
-Repository purity/non-regression: 166 passed, 1 pre-existing expected xfail.
+Repository purity/non-regression: 167 passed, 1 pre-existing expected xfail.
 
-Maximum present grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING`.
+Maximum present grade: `EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_DEFECT`.
+
+The isolated repair-only `gpt-5.4` follow-up returned `ACCEPT_REPAIR` with no remaining defect in
+R1/R2. It reran the dependency-free exact-Fraction replay, mutation harness, and package verifier,
+and independently exercised fail-closed altered-copy source checks.

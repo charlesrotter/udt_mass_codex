@@ -72,7 +72,9 @@ def verify(package: Path) -> dict[str, object]:
         raise AssertionError("history law was promoted")
     if status["S12"]["status"] != "DERIVED_METRIC_LIMIT_PREEXISTING":
         raise AssertionError("raw wall flux ownership mismatch")
-    if status["S13"]["status"] != "EXTERNAL_ACCEPT_WITH_REPAIRS":
+    if status["S13"]["status"] != (
+        "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R2_DEFECT"
+    ):
         raise AssertionError("external repair status mismatch")
 
     resolutions: dict[str, str] = {}
@@ -100,6 +102,8 @@ def verify(package: Path) -> dict[str, object]:
         "not a native mass or charge",
         "runtime reran the dependency-free",
         "lacked SymPy",
+        "ACCEPT_REPAIR",
+        "no remaining R1/R2 defect",
     )
     if LANDING not in compact_report:
         raise AssertionError("report landing absent")

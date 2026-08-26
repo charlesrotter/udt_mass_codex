@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-25
 
-G166--G261 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
+G166--G262 is active. A **supplied** pair germ pulls the primary metric's `B,Q,S,Y,Z` orchestra into
 the pair metric before readout. On founded depth, `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`; this is not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`, not canon: after pullback it gives
@@ -36,20 +36,23 @@ two radial jets without propagating them.
 G257 externally verifies W3's bounded `f=1+C/r` comparison with active angular response; Einstein
 remains imported and the UDT parent law remains open.
 
-G258 reconstructs twelve frozen conditional SNe metric states up to one positive scale with no new
-UDT fit coefficient. Its externally accepted R1 supplies exact historical bytes and a strict seal.
-Transfer, interpolation, derivatives, and covariant history remain open.
+G258 reconstructs twelve conditional SNe metric states up to one scale, without a new UDT fit
+coefficient. Transfer and covariant history remain open.
 
 G259's accepted repairs leave its conservative operator class unowned. G260 externally verifies
 full-metric active angular cancellation; radial-only is vacuous and trace cancellation remains
 nonselective. No UDT parent/source/history law is promoted.
 
-G261 received fresh external `ACCEPT_WITH_REPAIRS`, followed by `ACCEPT_REPAIR` with no remaining
-R1--R4 defect. W4 gives one-metric local clock/ruler/freefall/null semantics, with Levi-Civita conclusions
-coming from W4 plus existing metric geometry. W4 changes no primary metric component and remains
-compatible with arbitrary positive profiles; it does not own G259's locality/order/rank/divergence/
-nonidentity assumptions. The remaining premise is a broad generator family, not one mechanism, and
-the G259-specific variational-minimality candidate is not adopted.
+G261's repaired external review accepted W4 one-metric clock/ruler/freefall/null semantics. W4
+changes no primary component, permits arbitrary positive profiles, and does not own G259's operator
+assumptions. The remaining premise is a broad generator family; its specific candidate is unadopted.
+
+G262 received fresh external `ACCEPT_WITH_REPAIRS` and repair-only `ACCEPT_REPAIR` with no remaining
+R1/R2 defect. One primary lapse now exactly interlocks clock rate, static acceleration, geometric
+mass aspect, curvature residuals, and angular trace. G95 supplies only a conditional carried-energy
+ratio, not local rest-mass dilation. The older raw WR-L wall flux `-2*pi*X` is retained as an
+unnormalized metric limit and is not mass, global `X_max`, or a source/history law. Arbitrary
+positive profiles still pass, so physical total mass and valued history remain open.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. P1, G116/G189, fits, and `X_max` are not construction inputs. Route G199--G214 through the
@@ -71,8 +74,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next ponder the remaining broad dynamics-generator premise family. Do not promote the conditional
-Einstein comparison or unadopted variational
-candidate. The 244-row registry controls.
+Next ponder whether the G262 hierarchy plus raw wall flux supplies any natural nonidentity
+source/mass feedback relation. Do not promote the raw flux, conditional Einstein comparison,
+unowned `q^w` mass character, or unadopted variational candidate. The 245-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

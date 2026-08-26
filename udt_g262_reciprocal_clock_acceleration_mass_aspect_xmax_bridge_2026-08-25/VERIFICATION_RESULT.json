@@ -5,7 +5,7 @@
   "qualification": "package_consistency_and_frozen_source_gate_not_independent_scientific_derivation",
   "source_count": 19,
   "source_resolutions": {
-    "CURRENT_SCIENTIFIC_PREMISES.tsv": "live_exact",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "git_object_exact",
     "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "live_exact",
     "asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md": "live_exact",
     "founding.md": "live_exact",

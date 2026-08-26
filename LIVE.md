@@ -14,7 +14,7 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G261. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
+The active primary chain is G166--G262. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
 orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
 quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
@@ -42,33 +42,17 @@ G253 externally retains three typed chains: conditional endpoint redshift, a met
 sibling, and optional downstream units. P1, G116, G189, fits, outcomes, `X_max`, and protected
 construction inputs are absent. G176 remains working; history and germ population remain open.
 
-G254 externally verifies, source-boundedly, that the supplied evaluator chain contains no ambient
-metric-history residual. A curvature-separated counterfamily survives, so ODE/PDE/GPU history
-solves remain gated. This is not zero physics or a future-law no-go.
+G254 finds no history residual in the supplied evaluator. G255 audits G165--G254 and finds no lost
+value law: the kernel is downstream of the primary UDT metric. G256 leaves `N-1` anchored values on
+an `N`-event network; angular jets reconstruct but do not propagate values. ODE/PDE/GPU remain
+gated; this is not a future-law no-go or permission to fit a free function.
 
-G255 externally audits all 90 packages G165--G254 and finds no lost local or global value law. It
-reconciles G166/G212/G254: the kernel is downstream of the primary UDT metric; a fully valued
-rank-complete network can encode that state; broader coframes are a diagnostic arena. The remaining
-gate is primary-state values, not selection among every imaginable metric.
-
-G256's accepted dependency-free replay leaves `N-1` anchored values on a connected `N`-event
-network. The angular pair invertibly reconstructs two radial jets but does not propagate them;
-finite radial/time-live jets admit smooth Hermite realizations. No owned residual was found, so
-ODE/PDE/GPU remain gated. This bounded result is not a future-law no-go or permission to fit a free
-history function.
-
-G257 is externally verified with caveats after fresh gpt-5.4 acceptance. W3 is a provisionally
-authorized `WORKING/POSIT` GR quiet-limit requirement. With vacuum Einstein used only as imported
-comparison, the bounded primary exterior contains `f=1+C/r`. That same metric gives the matched
-pair readout and native G201 amplitudes `A_parallel=-3u/2`, `A_perp=+3u/2`. GR overlap is therefore
-vanishing GR residual with small nonzero geometry, not `phi=p=zeta=0`. This neither derives GR,
-selects `C`, nor supplies the four-dimensional UDT departure law.
-
-G258 accepts twelve conditional SNe metric knots up to one scale; transfer and history remain open.
-G259's accepted repairs leave its natural local second-order rank-two class unowned. Conditional
-flat quiet vacuum gives the Einstein zero set only for a nonzero operator; source/history remains.
-G260 externally verifies full-metric active angular cancellation on `f=1+C/r`; radial-only is
-vacuous, sphere deletion fails, and trace balance retains `1+a*r^2+b/r`.
+G257 makes W3 a provisional `WORKING/POSIT` GR quiet-limit requirement. Vacuum Einstein is only a
+comparison: `f=1+C/r` retains native active cancellation
+`A_parallel=-3u/2`, `A_perp=+3u/2`, not zero geometry. G258 accepts twelve conditional SNe knots up
+to one scale; transfer/history remain open. G259 leaves its local second-order rank-two class
+unowned. G260 verifies full-metric angular cancellation; radial-only is vacuous and sphere deletion
+fails.
 
 G261 received fresh external `ACCEPT_WITH_REPAIRS`, followed by `ACCEPT_REPAIR` with no remaining
 R1--R4 defect. W4 is the provisional equivalence principle: one completed UDT metric owns local clocks,
@@ -78,10 +62,20 @@ locality, second order, rank two, divergence identity, and a nonidentity history
 unowned. The remaining dynamics-generator type is a broad family, not one identified mechanism;
 the G259-specific variational-minimality candidate is explicitly not adopted.
 
+G262 received fresh external `ACCEPT_WITH_REPAIRS`, followed by repair-only `ACCEPT_REPAIR` with no
+remaining R1/R2 defect. On the full positive primary static-spherical metric, one lapse
+`N=exp(-phi)` owns the bounded hierarchy `d tau=N dt`, signed geometric static acceleration
+`a_hat=N'`, geometric mass aspect `mu=r(1-N^2)/2`, residuals `E0=-2mu'`, `E1=-rmu''`, and angular
+trace `A_parallel+A_perp=2mu'-rmu''`. The G95 carried-covector energy ratio equals the reciprocal
+clock factor only conditionally and does not derive local rest-mass dilation. The pre-existing WR-L
+raw wall lapse flux `-2*pi*X` is retained as an unnormalized metric limit, not mass, normalized
+charge, global `X_max`, or a history/source law. Arbitrary positive profiles still pass the
+hierarchy, so valued history and physical total mass remain `OPEN`.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 244-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 245-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 and `archive/startup_surface_2026-08-22_pre_cleanup/`.
@@ -90,7 +84,7 @@ and `archive/startup_surface_2026-08-22_pre_cleanup/`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G262 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -104,8 +98,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-Ponder what additional founded structure could constrain the broad nonidentity dynamics-generator
-family. Do not promote the
-unadopted G259-specific variational minimality, import Einstein dynamics, fit a regime, or invent a
-numerical residual. No ODE/PDE or GPU history solve is authorized.
+Ponder whether G262's unified clock--acceleration--mass-aspect--angular hierarchy and the retained
+raw wall lapse flux reveal a native source/mass feedback law. Any candidate must be natural,
+nonidentity, independently justified, and must reject at least one admitted positive profile. Do
+not promote the raw flux to mass, adopt the unowned mass character `q^w`, revive the unadopted
+G259-specific variational minimality, import Einstein dynamics, fit a regime, or invent a numerical
+residual. No ODE/PDE or GPU history solve is authorized.
 <!-- STARTUP_CURRENT_END -->
