@@ -1,25 +1,23 @@
 # INDEX — `LIVE.md` wins.
-1. Follow `AGENTS.md` rules.
-2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
-3. Read `CURRENT_RESEARCH_PROGRAM.md`.
-4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
+1. Follow `AGENTS.md` rules. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
-6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
-7. After orientation, query task-relevant registry rows and evidence.
+6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation,
+query task-relevant registry rows.
 ## Active relational frontier
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
-- Full spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
-- Completed-pair working premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
-- Scaffold deletion/review: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
-- Coframe pullback: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
-- Branch/equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
+- Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
+- Completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
+- Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
+- Coframe: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
+- Equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
 - Matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
 - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
   `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`;
   `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
 - Provenance/germ: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`;
   `udt_g198_bidirectional_null_germ_map_2026-08-21/`
-- Primary two-direction results: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`;
+- Two-direction results: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`;
   `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
 - Regime/quiet/regularity: `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`;
   `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`;
@@ -31,11 +29,11 @@
   `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`;
   `udt_g209_g205_timespace_shift_robustness_2026-08-21/`;
   `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
-- Diagonal basis/history bridge: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`;
+- Basis/history: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`;
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
 - Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
   `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
-- Clock incidence/rate/first jet: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`;
+- Clock incidence/rate: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`;
   `udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`;
   `udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`
 - Clock-arrow bridge: `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`; `udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`
@@ -77,8 +75,8 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
 - Dual-SNe reconstruction: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
-- Frozen SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
-- Conditional static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
+- SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
+- Static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
 - Raw R0--R5 package: `udt_observed_angular_pattern_raw_restart_2026-08-12/`
 - Primary-method cross-check: `udt_boss_primary_method_crosswalk_2026-08-13/`
 - R4/R5 outcomes: `udt_observed_angular_pattern_raw_restart_2026-08-12/R4_OUTCOME_REPORT.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_OUTCOME_REPORT.md`
@@ -87,11 +85,11 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 R2--R5 remain metric-neutral and select no feature, scale, origin, cosmology, or `X_max`.
 ## Foundational and premise authorities
-- Current status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
+- Status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
 - Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
-- Founding reciprocal source, interpreted through the ledger: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
+- Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Current `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`

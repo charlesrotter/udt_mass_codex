@@ -14,86 +14,53 @@ c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
 
-The active primary chain is G166--G266. A supplied germ pulls the complete `B,Q,S,Y,Z` metric
-orchestra into `h=F^*g` before readout. Completed-pair Dual Reciprocity is the non-metric
-`WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. The older
-quarter-log scalar is an arbitrary-calibration control. Events, germs, population, higher/full
-carry, and global realization remain supplied or `OPEN`.
+G166--G266 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
+Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
+`m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. The quarter-log scalar is a calibration control;
+events, germs, population, higher/full carry, and global realization remain supplied or `OPEN`.
 
 G190--G198 are chosen-family or formula-level regression controls; G197 excludes P1, G116/G189,
-fits, `X_max`, scaffolds, and protected work as construction inputs. Route G199--G214 through the
-program/index. G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock,
-correspondence, null plane, screen, and local carry. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`; G226
-adds caustic-safe ordered phase, not history. G227/G228/G229/G230/G231 close supplied curvature
-ranks `19/20/60/126`, jets, and Cartan realization; G232/G233/G234/G235 do not select values/history.
+fits, `X_max`, scaffolds, and protected construction inputs. Route G199--G214 through the index.
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock/correspondence/carry; G225
+is a `STANDARD_GEOMETRIC_EVALUATOR`; G226 adds phase. G227/G228/G229/G230/G231 close supplied
+curvature/jets/Cartan; G232/G233/G234/G235 do not select values/history.
 
-G236/G237 freeze a transfer-conditional SNe state; G238/G239/G240 type its held-out operator. G241
-rejects degrees 2--4, G242 only exact zero tide, and G243 keeps direct `phi=log(1+z)`. G244 derives
-Jacobi sky area/shape; G245 the local cone; G246 regular two-observer null incidences; G247 the
-labelled branch quiver; G248 branchwise noncaustic coarea `dmu=(r/A)dtau_source`. None supplies
-population, probability, aggregation, transfer, caustic completion, or history.
+G236/G237 freeze conditional SNe state; G238/G239/G240 type its held-out operator. G241 rejects
+degrees 2--4, G242 only zero tide, and G243 keeps `phi=log(1+z)`. G244/G245/G246/G247/G248 derive
+branchwise sky/cone/incidence/coarea `dmu=(r/A)dtau_source`, not population, aggregation, or history.
 
-G249 proves normalized response needs the supplied dimensionless metric branch while one absolute
-scale remains. G250 types eligible nonzero-weight anchors; G251 finds no native independent
-same-object datum owner. G252 gives `ell=tau_star/bar_tau` only after one independent proper-clock
-attachment; a second tests the supplied history. No value is selected.
+G249 leaves one scale; G250 types anchors; G251 finds no native datum owner. G252 gives
+`ell=tau_star/bar_tau` only after an independent clock attachment; another tests history.
 
-G253 externally retains three typed chains: conditional endpoint redshift, a metric/Jacobi angular
-sibling, and optional downstream units. P1, G116, G189, fits, outcomes, `X_max`, and protected
-construction inputs are absent. G176 remains working; history and germ population remain open.
+G253 retains conditional redshift, its metric/Jacobi sibling, and optional units without scaffold
+inputs. G254 finds no history residual; G255 no lost G165--G254 value law. G256 leaves `N-1`
+anchored values; angular jets reconstruct but do not propagate. ODE/PDE/GPU remain gated.
 
-G254 finds no history residual in the supplied evaluator. G255 audits G165--G254 and finds no lost
-value law: the kernel is downstream of the primary UDT metric. G256 leaves `N-1` anchored values on
-an `N`-event network; angular jets reconstruct but do not propagate values. ODE/PDE/GPU remain
-gated; this is not a future-law no-go or permission to fit a free function.
+G257 makes W3 `WORKING/POSIT`; the GR comparison `f=1+C/r` retains active angular cancellation.
+G258 has twelve conditional SNe knots up to one scale. G259's operator class is unowned; G260
+requires full-metric angular cancellation and rejects sphere deletion.
 
-G257 makes W3 a provisional `WORKING/POSIT` GR quiet-limit requirement. Vacuum Einstein is only a
-comparison: `f=1+C/r` retains native active cancellation
-`A_parallel=-3u/2`, `A_perp=+3u/2`, not zero geometry. G258 accepts twelve conditional SNe knots up
-to one scale; transfer/history remain open. G259 leaves its local second-order rank-two class
-unowned. G260 verifies full-metric angular cancellation; radial-only is vacuous and sphere deletion
-fails.
+G261's repaired review accepts W4 provisionally: one metric owns clocks, rulers, free fall, and the
+null cone without changing F1--F4 or selecting a history/operator. The G259 variational candidate
+is unadopted.
 
-G261 received fresh external `ACCEPT_WITH_REPAIRS`, followed by `ACCEPT_REPAIR` with no remaining
-R1--R4 defect. W4 is the provisional equivalence principle: one completed UDT metric owns local clocks,
-rulers, free fall, and the null cone. The Levi-Civita conclusion uses W4 plus existing metric
-geometry. W4 changes no F1--F4 component. Arbitrary positive primary profiles still satisfy it, so
-locality, second order, rank two, divergence identity, and a nonidentity history equation remain
-unowned. The remaining dynamics-generator type is a broad family, not one identified mechanism;
-the G259-specific variational-minimality candidate is explicitly not adopted.
+G262 accepts the one-lapse clock/acceleration/mass-aspect/angular hierarchy; G95 energy is
+conditional and raw `-2*pi*X` unnormalized. Physical mass/history remain open.
 
-G262 externally accepts the one-lapse clock/acceleration/geometric-mass-aspect/curvature/angular
-hierarchy. G95 energy equality is conditional; raw `-2*pi*X` is unnormalized. Arbitrary positive
-profiles survive, so rest/total mass and history remain open.
+G263 separates endpoint reversal from profile conjugation; negative `phi` was already admitted and
+no sign sector is selected.
 
-G263 separates endpoint reversal (`delta->-delta` at fixed metric) from profile conjugation
-(`f->1/f`). Scalar inversion is shared but complete parities differ; G201 zero tide is not invariant.
-Negative `phi` was already admitted by `f>0`; no sign sector is selected.
+G264 accepts sign nonselection; conditional power ends have alpha-two geometry and alpha-six volume
+thresholds. Alpha two equals G201 zero tide structurally, not physically.
 
-G264 externally accepts sign-only nonselection: finite smooth arbitrarily deep asymptotically flat,
-bounded-curvature, static-slice-complete witnesses survive. Conditional power ends have alpha-two
-curvature/acceleration/radial-length and alpha-six volume thresholds. Alpha two equals G201 zero
-tide structurally but selects no physics. Packaging passed; the external runtime lacked SymPy.
+G265 accepts that infinite bare `c` retypes null-delay provenance but selects no profile. Signed
+`exp(plus/minus delta)` and even `cosh(delta)` differ; `sech(delta)`, `P_INF`/`P_MUT`, distance, and
+history remain proposed/`OPEN`. Replays close `18/18`, `63/63`, and `8/8`.
 
-G265 externally accepts a repaired bounded static-radial classification. Proposed infinite bare
-`c` retypes finite radial-null delay as metric-owned, but this is an identity for every positive
-`f` and selects no profile. Equating optical distance with static-slice proper distance is an extra
-flatness-forcing premise. The kernel algebra contains distinct signed `exp(plus/minus delta)` and
-reversal-even `cosh(delta)` channels. `sech(delta)` as a mutual clock rate, `P_INF`/`P_MUT`,
-intrinsic two-point distance, time-live realization, and valued history remain proposed or `OPEN`.
-The sealed repair review reproduced `18/18` exact checks, `63/63` independent assertions, and `8/8`
-mutation catches.
-
-G266 externally accepts alternative B after repairs. On one supplied regular G220 relation, the
-determinant-one reciprocal kernel canonically has the reversal-even trace channel
-`Gamma=cosh(delta)` and reversal-odd companion `Xi=sinh(delta)`; exact reconstruction and
-nontrivial composition require both. A nontrivial positive reversal-even multiplicative scalar
-character is impossible. `sech(delta)` remains an unadopted physical-projection candidate. Areal
-radius is a derived invariant geometric descriptor, but the physical attachment `ds=dR` remains
-free. Three bounded distance controls share their anchor value and first jet but split at second
-jets `4:2:0`; no distance protocol or valued history is selected. The dependency-free sealed and
-synthetic-live replays passed `25` exact checks, `768` independent assertions, and `8` mutation
-catches.
+G266 accepts derived even `Gamma=cosh(delta)` and odd `Xi=sinh(delta)` on a supplied G220 relation;
+composition needs both. `sech(delta)` remains unadopted. Areal radius is invariant, but `ds=dR` is
+free; three distance controls agree through first jet and split `4:2:0`. Replays close `25`, `768`,
+and `8`; no distance/history is selected.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
