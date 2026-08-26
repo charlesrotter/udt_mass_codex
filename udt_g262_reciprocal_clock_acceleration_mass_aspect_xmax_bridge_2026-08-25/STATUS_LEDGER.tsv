@@ -1,0 +1,13 @@
+id	claim	status	scope_or_guard
+S01	one lapse controls primary clock rate	DERIVED_BOUNDED	positive primary static spherical metric
+S02	static acceleration is first lapse derivative	DERIVED_BOUNDED	geometric a_hat=Nprime; dimensional c_E2 factor explicit
+S03	geometric mass aspect is algebraic in lapse	DERIVED_CHANGE_OF_VARIABLES	mu/r=(1-N2)/2; not physical mass
+S04	curvature and angular modes are mu derivatives	DERIVED_BOUNDED	full primary four metric retained
+S05	G95 transported covector energy ratio equals reciprocal clock factor	DERIVED_CONDITIONAL	supplied physical carrier covector and endpoint energy readout
+S06	local rest mass dilates with pair clock	NOT_DERIVED	do not infer from remote energy ratio
+S07	generic composable mass factor is q power w	CONDITIONAL_MATHEMATICAL_CLASSIFICATION	mass composition and continuity are new; w open
+S08	pair energy factor reaches reciprocal zero infinity limits at chi endpoints	DERIVED_FROM_WORKING_CHI	not local infinite rest mass and not numerical Xmax
+S09	geometric compactness tends one half if lapse tends zero at finite areal radius	DERIVED_CONDITIONAL_STATIC	GR reference mass attachment only
+S10	physical UDT mass and source law	OPEN	mass authority firewall retained
+S11	phi value or history law	OPEN	counterfamily passes all identities
+S12	G262 landing	VERIFIED_INTERNALLY_WITH_CAVEATS	fresh external adversarial review not yet run

@@ -1,0 +1,18 @@
+{
+  "caught_count": 10,
+  "mutation_count": 10,
+  "mutations": {
+    "E0_sign_flip": true,
+    "E1_sign_flip": true,
+    "acceleration_sign_flip": true,
+    "angular_trace_reversal": true,
+    "clock_ratio_inversion": true,
+    "geometric_mass_promoted_to_physical": true,
+    "mass_aspect_plus_sign": true,
+    "physical_total_mass_promoted": true,
+    "projective_chi_sign_flip": true,
+    "xmax_inserted_as_numeric_input": true
+  },
+  "qualification": "regression_only_not_scientific_proof",
+  "status": "PASS"
+}

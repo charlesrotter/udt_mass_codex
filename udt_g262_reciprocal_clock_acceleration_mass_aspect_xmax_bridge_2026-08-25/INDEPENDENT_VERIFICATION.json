@@ -1,0 +1,7 @@
+{
+  "assertion_count": 10003,
+  "case_count": 1000,
+  "implementation": "python_standard_library_fraction_no_production_import_no_result_read",
+  "scope": "exact point-jet and positive-pair algebra; ownership follows frozen source ledger",
+  "status": "PASS"
+}

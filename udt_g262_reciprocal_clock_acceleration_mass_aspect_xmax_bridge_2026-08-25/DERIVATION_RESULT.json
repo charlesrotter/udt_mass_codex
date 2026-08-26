@@ -1,0 +1,53 @@
+{
+  "counterfamily": {
+    "f0": "1",
+    "fa": "1+a*r^2/(1+r^2), 0<a<1",
+    "result": "both satisfy every hierarchy identity while carrying distinct metric data"
+  },
+  "identities": {
+    "angular_trace": "A_parallel+A_perp=2 mu_prime-r mu_doubleprime",
+    "clock_ratio": "q_os=d_tau_s/d_tau_o=exp(-(phi_s-phi_o))",
+    "conditional_carried_energy": "epsilon_so=E_o/E_s=q_os after G95 covector identification",
+    "geometric_mass_aspect": "mu=r(1-f)/2",
+    "lapse": "N=sqrt(f)=exp(-phi)",
+    "projective_bridge": "q=sqrt((1-chi)/(1+chi)), chi=tanh(delta)",
+    "redshift": "Z_so=exp(phi_s-phi_o)=1/q_os",
+    "residuals": "E0=-2 mu_prime; E1=-r mu_doubleprime",
+    "signed_static_acceleration": "a_hat=dN/dr geometrically; physical proper acceleration=c_E^2*dN/dr"
+  },
+  "landing": "ONE_METRIC_STATE_HIERARCHY_DERIVED__COVECTOR_ENERGY_PAIRING_CONDITIONAL__LOCAL_REST_MASS_PHYSICAL_TOTAL_MASS_XMAX_VALUE_AND_HISTORY_LAW_OPEN",
+  "ownership": {
+    "carried_covector_energy_ratio": "DERIVED_CONDITIONAL_G95",
+    "clock_acceleration_mass_aspect_curvature_hierarchy": "DERIVED_BOUNDED",
+    "generic_mass_character": "q^w_AFTER_NEW_COMPOSITION_AND_CONTINUITY_PREMISE",
+    "generic_mass_weight_w": "OPEN",
+    "local_rest_mass_dilation": "NOT_DERIVED",
+    "mass_attachment_cE2_mu_over_Gobs": "CONDITIONAL_OBSERVATIONAL_ATTACHMENT",
+    "phi_value_history_law": "OPEN",
+    "physical_total_udt_mass": "OPEN",
+    "xmax_value_profile_and_global_realization": "OPEN"
+  },
+  "scope": "primary_static_spherical_positive_f_plus_supplied_endpoint_covector_readout",
+  "symbolic_check_count": 19,
+  "symbolic_checks": [
+    "N_equals_exp_minus_phi",
+    "coordinate_static_acceleration",
+    "orthonormal_acceleration_equals_N_prime",
+    "mass_aspect_change_of_variables",
+    "E0_equals_minus2_mu_prime",
+    "E1_equals_minus_r_mu_doubleprime",
+    "Aparallel_f_jet_form",
+    "Aperp_f_jet_form",
+    "angular_trace_equals_E1_minus_E0",
+    "Aparallel_mu_jet_form",
+    "Aperp_mu_jet_form",
+    "clock_ratio_equals_exp_minus_delta",
+    "redshift_inverse_clock_ratio",
+    "clock_reversal",
+    "projective_clock_identity",
+    "clock_composition",
+    "flat_profile_passes_all_identities",
+    "nontrivial_smooth_positive_profile_passes_all_identities",
+    "profiles_have_distinct_metric_data"
+  ]
+}

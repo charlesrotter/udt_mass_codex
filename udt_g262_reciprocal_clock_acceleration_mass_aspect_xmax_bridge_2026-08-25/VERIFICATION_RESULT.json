@@ -1,0 +1,30 @@
+{
+  "independent_assertions": 10003,
+  "landing": "ONE_METRIC_STATE_HIERARCHY_DERIVED__COVECTOR_ENERGY_PAIRING_CONDITIONAL__LOCAL_REST_MASS_PHYSICAL_TOTAL_MASS_XMAX_VALUE_AND_HISTORY_LAW_OPEN",
+  "mutation_catches": 10,
+  "qualification": "package_consistency_and_frozen_source_gate_not_independent_scientific_derivation",
+  "source_count": 19,
+  "source_resolutions": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "live_exact",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "live_exact",
+    "asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md": "live_exact",
+    "founding.md": "live_exact",
+    "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/AUDIT_REPORT.md": "live_exact",
+    "udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/AUDIT_REPORT.md": "live_exact",
+    "udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/AUDIT_REPORT.md": "live_exact",
+    "udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/EXACT_DERIVATION.md": "live_exact",
+    "udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/AUDIT_REPORT.md": "live_exact",
+    "udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/EXACT_DERIVATION.md": "live_exact",
+    "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/AUDIT_REPORT.md": "live_exact",
+    "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md": "live_exact",
+    "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/MAP.md": "live_exact",
+    "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/PREMISE_LEDGER.tsv": "live_exact",
+    "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/PREREGISTRATION.md": "live_exact",
+    "udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/PREREGISTRATION_EXECUTION_NOTE.md": "live_exact",
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXACT_DERIVATION.md": "live_exact",
+    "udt_native_radiative_current_energy_owner_audit_2026-08-15/EXTERNAL_REVIEW_ADJUDICATION.md": "live_exact",
+    "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv": "live_exact"
+  },
+  "status": "PASS",
+  "symbolic_checks": 19
+}

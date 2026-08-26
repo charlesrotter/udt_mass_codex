@@ -1,0 +1,16 @@
+object	exact_relation	status	maximum_conclusion	remaining_open
+static_clock	N=exp(-phi)=sqrt(f)	DERIVED_BOUNDED	primary static clock factor	profile values and history
+pair_clock_ratio	q_os=N_s/N_o=exp(-delta_os)	DERIVED_CONDITIONAL	supplied matched endpoint first jet	event incidence germ population
+direct_redshift	Z_so=1/q_os	DERIVED_CONDITIONAL	direct endpoint reciprocal redshift	source observer query population and transfer
+carried_covector_energy	epsilon_so=q_os	DERIVED_CONDITIONAL_G95	normalization-free endpoint ratio after carrier covector identification	physical carrier population and transfer
+static_acceleration	a_hat=Nprime geometric; c_E2 Nprime dimensional	DERIVED_BOUNDED	first lapse derivative for static observers	time-live nonspherical extension
+geometric_mass_aspect	mu=r(1-f)/2	DERIVED_CHANGE_OF_VARIABLES	areal compactness descriptor	physical source and mass identification
+dimensional_mass_attachment	M_ref=c_E2 mu/G_obs	CONDITIONAL_OBSERVATIONAL_ATTACHMENT	GR/Misner-Sharp comparison units	native UDT mass law
+curvature_residuals	E0=-2muprime; E1=-r mudoubleprime	DERIVED_BOUNDED	full-primary residual rewrite	parent operator and source
+angular_modes	Aparallel+Aperp=2muprime-rmudoubleprime	DERIVED_BOUNDED	active angular interlock	parent law and global response
+generic_mass_character	F(q)=q^w	CONDITIONAL_ON_NEW_MASS_COMPOSITION_PREMISE	continuous character classification	physical object composition law and w
+local_rest_mass	no current transformation law	OPEN	must remain distinct from remote energy readout	matter carrier action and normalization
+physical_total_udt_mass	no current normalized generator	OPEN	none	source generator reference boundary and solution
+projective_limit	q=sqrt((1-chi)/(1+chi))	DERIVED_FROM_WORKING_CHI	reciprocal pair asymptotic ratio	numerical Xmax distance map and global completion
+geometric_compactness_limit	mu/r tends 1/2 if N tends 0	DERIVED_CONDITIONAL_STATIC	finite areal compactness saturation	physical mass and global Xmax ownership
+history_law	both f0 and fa pass all identities	NOT_DERIVED	interlock is evaluative not selective	nonidentity source or dynamics generator
