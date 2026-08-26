@@ -1,0 +1,15 @@
+id	object	status	use	open_or_excluded
+P01	c_E	OBSERVED	clock-ruler unit conversion	no absolute mass length or Xmax value
+P02	F1-F4 reciprocal primary metric	DERIVED_WITH_DECLARED_READOUT	defines f exp minus2phi and primary static spherical metric	phi values and history open
+P03	W1 completed-pair Dual Reciprocity	WORKING_FOUNDATIONAL_CLARIFICATION	terminal pair scalar after complete pullback	not canon; germ population open
+P04	G216-G217 clock ratio	DERIVED_CONDITIONAL	q_AB equals exp minus delta on supplied matched events	incidence values and full germ open
+P05	W3 GR quiet reduction	WORKING_POSIT	comparison and non-discard guard	GR equations not imported as UDT law
+P06	W4 universal metric coupling	WORKING_POSIT	one metric owns clocks rulers freefall and null cone	matter dynamics and history open
+P07	G95 covector energy ratio	DERIVED_CONDITIONAL	epsilon equals one over Z after carrier covector identification	physical carrier and transfer open
+P08	G259 geometric mass aspect	DERIVED_CHANGE_OF_VARIABLES	mu equals r over2 times one minus f	physical mass/source attachment open
+P09	G260 angular trace	DERIVED_CONDITIONAL	full metric angular balance	parent law and time-live extension open
+P10	chi equals tanh delta	CHOSE_PROVISIONAL_DERIVED_GROUP_COORDINATE	normalized pair asymptotic display	not proper distance and no numerical Xmax
+P11	M equals c_E squared mu over G_obs	CONDITIONAL_OBSERVATIONAL_ATTACHMENT	dimensional comparison only	not UDT physical mass law
+P12	local rest mass	OPEN	type distinction only	particle carrier action and normalization excluded
+P13	physical total UDT mass	OPEN	type distinction only	source generator reference boundary and solution excluded
+P14	profile controls	FREE_AND_EXPLORED	countermodels only	not candidate physical histories
