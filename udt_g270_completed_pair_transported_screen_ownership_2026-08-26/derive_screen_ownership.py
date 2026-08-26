@@ -18,6 +18,16 @@ LANDING = (
     "EXACT_SAME_PULLBACK_TILTED_NULL_RIBBONS_HAVE_DIFFERENT_W__"
     "NO_UNIVERSAL_W_VALUE_POPULATION_HISTORY_DISTANCE_OR_XMAX_SELECTION"
 )
+IMPLEMENTATION_MUTATIONS = (
+    "omit_tilt_from_gamma",
+    "flip_longitudinal_offset",
+    "drop_null_normalization",
+    "inject_tilt_into_pullback",
+    "wrong_completion_density",
+    "reverse_frequency_ratio",
+    "zero_screen_projection",
+    "drop_inverse_readout",
+)
 
 
 def mdot(x: sp.Matrix, y: sp.Matrix) -> sp.Expr:
@@ -31,11 +41,13 @@ def zero(expr: sp.Expr) -> bool:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-write", action="store_true")
+    parser.add_argument("--mutation", choices=IMPLEMENTATION_MUTATIONS)
     args = parser.parse_args()
 
     r = sp.symbols("r", positive=True)
     w = sp.symbols("w", real=True)
-    lam, tau = sp.symbols("lam tau", real=True)
+    lam = sp.symbols("lam", nonnegative=True)
+    tau = sp.symbols("tau", real=True)
 
     u_a = sp.Matrix([1, 0, 0])
     n_a = sp.Matrix([0, 1, 0])
@@ -43,21 +55,30 @@ def main() -> None:
     k = sp.Matrix([1, 1, 0])
 
     gamma = (r + 1 / r + r * w**2) / 2
+    if args.mutation == "omit_tilt_from_gamma":
+        gamma = (r + 1 / r) / 2
     longitudinal = gamma - 1 / r
+    if args.mutation == "flip_longitudinal_offset":
+        longitudinal = gamma + 1 / r
     u = sp.Matrix([gamma, longitudinal, w])
-    omega = 1 / r
-    k_normalized = r * k
+    omega = r if args.mutation == "reverse_frequency_ratio" else 1 / r
+    k_normalized = k if args.mutation == "drop_null_normalization" else r * k
     n = k_normalized - u
     w_vec = u - gamma * u_a - longitudinal * n_a
+    if args.mutation == "zero_screen_projection":
+        w_vec = sp.zeros(3, 1)
 
     h = sp.Matrix([
         [mdot(u, u), mdot(u, k)],
         [mdot(k, u), mdot(k, k)],
     ])
+    if args.mutation == "inject_tilt_into_pullback":
+        h[0, 1] += w**2
+        h[1, 0] += w**2
     h_expected = sp.Matrix([[-1, -1 / r], [-1 / r, 0]])
     beta = sp.simplify(h[0, 1] / h[0, 0])
     l_sigma_sq = sp.simplify(h[1, 1] - h[0, 1] ** 2 / h[0, 0])
-    m = 1 / r
+    m = 1 if args.mutation == "wrong_completion_density" else 1 / r
     h_completed = sp.Matrix([
         [h[0, 0], h[0, 1] / m],
         [h[1, 0] / m, h[1, 1] / m**2],
@@ -65,7 +86,7 @@ def main() -> None:
     h_completed_expected = sp.Matrix([[-1, -1], [-1, 0]])
 
     gamma_pt = -mdot(u_a, u)
-    m_pt = sp.simplify(1 / gamma_pt)
+    m_pt = gamma_pt if args.mutation == "drop_inverse_readout" else sp.simplify(1 / gamma_pt)
     sech_depth = sp.simplify(2 * r / (1 + r**2))
     screen_norm = mdot(w_vec, w_vec)
 
@@ -87,6 +108,12 @@ def main() -> None:
     ])
     h_ribbon_axis = sp.simplify(h_ribbon.subs(tau, 0))
     det_ribbon = sp.factor(h_ribbon.det())
+    ribbon_a = 4 * lam**2 + 4 * lam + 2
+    ribbon_numerator = ribbon_a * tau**2 + 2 * tau + 1
+    det_ribbon_expected = -ribbon_numerator / r_l**2
+    ribbon_positive_completion = (
+        ribbon_a * (tau + 1 / ribbon_a) ** 2 + (ribbon_a - 1) / ribbon_a
+    )
 
     checks: dict[str, bool] = {}
     checks["source_clock_unit"] = zero(mdot(u_a, u_a) + 1)
@@ -103,6 +130,7 @@ def main() -> None:
     checks["screen_projection_vector"] = all(zero(x) for x in w_vec - w * e_screen)
     checks["screen_projection_norm"] = zero(screen_norm - w**2)
     checks["transport_gamma"] = zero(gamma_pt - gamma)
+    checks["mutual_inverse_gamma"] = zero(m_pt * gamma_pt - 1)
     checks["g269_interlock"] = zero(gamma_pt - (r + 1 / r) / 2 - r * screen_norm / 2)
     checks["intrinsic_pullback"] = all(zero(x) for x in h - h_expected)
     checks["intrinsic_pullback_det"] = zero(h.det() + 1 / r**2)
@@ -135,9 +163,24 @@ def main() -> None:
         zero(x) for x in h_ribbon_axis - h_expected.subs(r, r_l)
     )
     checks["ribbon_axis_regular"] = zero(h_ribbon_axis.det() + 1 / r_l**2)
-    checks["ribbon_local_continuity"] = zero(det_ribbon.subs(tau, 0) + 1 / r_l**2)
+    checks["ribbon_full_determinant"] = zero(det_ribbon - det_ribbon_expected)
+    checks["ribbon_positive_quadratic_completion"] = zero(
+        ribbon_numerator - ribbon_positive_completion
+    )
+    checks["ribbon_halfline_coefficient_bound"] = zero(
+        ribbon_a - 2 - 4 * lam * (lam + 1)
+    )
 
-    assert all(checks.values()), [name for name, passed in checks.items() if not passed]
+    failed_checks = [name for name, passed in checks.items() if not passed]
+    if args.mutation:
+        print(json.dumps({
+            "status": "MUTATION_CAUGHT" if failed_checks else "MUTATION_SURVIVED",
+            "mutation": args.mutation,
+            "failed_checks": failed_checks,
+        }, indent=2, sort_keys=True))
+        return
+
+    assert not failed_checks, failed_checks
 
     result = {
         "status": "PASS",
@@ -166,8 +209,12 @@ def main() -> None:
         "smooth_ribbon": {
             "r(lambda)": "1+lambda",
             "w(lambda)": "lambda",
+            "domain": "lambda>=0 and tau real",
             "axis_determinant": "-1/(1+lambda)^2",
-            "local_regular_neighborhood": "DERIVED_BY_CONTINUITY_ABOUT_TAU_ZERO",
+            "full_determinant": (
+                "-((4*lambda^2+4*lambda+2)*tau^2+2*tau+1)/(1+lambda)^2"
+            ),
+            "regularity": "STRICTLY_LORENTZIAN_ON_DECLARED_HALF_RIBBON",
         },
         "w_is_jacobi_screen": False,
         "query_population": "OPEN_NOT_SELECTED",

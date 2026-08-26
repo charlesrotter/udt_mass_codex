@@ -1,16 +1,136 @@
 {
-  "baseline_failures": [],
-  "catches": 11,
-  "missed": [],
-  "mutations": {
-    "break_completed_determinant": {
+  "baseline_ledger_failures": [],
+  "implementation_catches": 8,
+  "implementation_missed": [],
+  "implementation_mutations": {
+    "drop_inverse_readout": {
       "caught": true,
       "failures": [
-        "completed_reciprocity"
+        "mutual_inverse_gamma",
+        "fixed_r_different_transport_readout",
+        "planar_sech"
       ],
+      "production_implementation_exercised": true,
       "targeted_caught": true,
-      "targeted_failure": "completed_reciprocity"
+      "targeted_failure": "mutual_inverse_gamma"
     },
+    "drop_null_normalization": {
+      "caught": true,
+      "failures": [
+        "target_ruler_unit",
+        "target_pair_orthogonal",
+        "target_null_clock_normalization"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "target_null_clock_normalization"
+    },
+    "flip_longitudinal_offset": {
+      "caught": true,
+      "failures": [
+        "target_clock_unit",
+        "target_frequency",
+        "target_ruler_unit",
+        "target_pair_orthogonal",
+        "target_null_clock_normalization",
+        "intrinsic_pullback",
+        "intrinsic_pullback_w_blind",
+        "completed_beta",
+        "completed_ruler_square",
+        "completed_metric",
+        "completed_metric_r_blind",
+        "completed_metric_w_blind",
+        "same_pullback_planar_tilted",
+        "ribbon_clock_unit",
+        "ribbon_clock_derivative_orthogonal",
+        "ribbon_frequency_derivative",
+        "ribbon_axis_pullback",
+        "ribbon_full_determinant"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "target_clock_unit"
+    },
+    "inject_tilt_into_pullback": {
+      "caught": true,
+      "failures": [
+        "intrinsic_pullback",
+        "intrinsic_pullback_det",
+        "intrinsic_pullback_w_blind",
+        "completed_beta",
+        "completed_ruler_square",
+        "completed_density",
+        "completed_metric",
+        "completed_det_one",
+        "completed_metric_r_blind",
+        "completed_metric_w_blind",
+        "same_pullback_planar_tilted"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "intrinsic_pullback"
+    },
+    "omit_tilt_from_gamma": {
+      "caught": true,
+      "failures": [
+        "target_clock_unit",
+        "target_ruler_unit",
+        "target_pair_orthogonal",
+        "g269_interlock",
+        "intrinsic_pullback",
+        "intrinsic_pullback_w_blind",
+        "completed_beta",
+        "completed_ruler_square",
+        "completed_metric",
+        "completed_metric_w_blind",
+        "same_pullback_planar_tilted",
+        "fixed_r_different_transport_readout",
+        "ribbon_clock_unit",
+        "ribbon_clock_derivative_orthogonal",
+        "ribbon_axis_pullback",
+        "ribbon_full_determinant"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "target_clock_unit"
+    },
+    "reverse_frequency_ratio": {
+      "caught": true,
+      "failures": [
+        "target_frequency"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "target_frequency"
+    },
+    "wrong_completion_density": {
+      "caught": true,
+      "failures": [
+        "completed_density",
+        "completed_metric",
+        "completed_det_one",
+        "completed_metric_r_blind"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "completed_metric"
+    },
+    "zero_screen_projection": {
+      "caught": true,
+      "failures": [
+        "screen_projection_vector",
+        "screen_projection_norm",
+        "g269_interlock",
+        "different_screen_mismatch"
+      ],
+      "production_implementation_exercised": true,
+      "targeted_caught": true,
+      "targeted_failure": "screen_projection_norm"
+    }
+  },
+  "ledger_catches": 5,
+  "ledger_missed": [],
+  "ledger_mutations": {
     "conflate_w_with_jacobi": {
       "caught": true,
       "failures": [
@@ -27,14 +147,6 @@
       "targeted_caught": true,
       "targeted_failure": "query_status"
     },
-    "delete_screen_interlock": {
-      "caught": true,
-      "failures": [
-        "g269_interlock"
-      ],
-      "targeted_caught": true,
-      "targeted_failure": "g269_interlock"
-    },
     "deny_realization_evaluation": {
       "caught": true,
       "failures": [
@@ -42,30 +154,6 @@
       ],
       "targeted_caught": true,
       "targeted_failure": "realization_evaluation"
-    },
-    "drop_inverse_readout": {
-      "caught": true,
-      "failures": [
-        "inverse_gamma_readout"
-      ],
-      "targeted_caught": true,
-      "targeted_failure": "inverse_gamma_readout"
-    },
-    "force_w_zero": {
-      "caught": true,
-      "failures": [
-        "same_pullback_separator"
-      ],
-      "targeted_caught": true,
-      "targeted_failure": "same_pullback_separator"
-    },
-    "insert_w_into_intrinsic_metric": {
-      "caught": true,
-      "failures": [
-        "intrinsic_w_blindness"
-      ],
-      "targeted_caught": true,
-      "targeted_failure": "intrinsic_w_blindness"
     },
     "promote_history": {
       "caught": true,
@@ -82,16 +170,14 @@
       ],
       "targeted_caught": true,
       "targeted_failure": "transported_mismatch_type"
-    },
-    "reverse_frequency_ratio": {
-      "caught": true,
-      "failures": [
-        "frequency_orientation"
-      ],
-      "targeted_caught": true,
-      "targeted_failure": "frequency_orientation"
     }
   },
-  "shared_validator_exercised": true,
+  "ledger_validator_exercised": true,
+  "production_baseline": {
+    "exact_checks": 39,
+    "landing": "FULL_SUPPLIED_REALIZATION_EVALUATES_TRANSPORTED_SCREEN_MISMATCH__COMPLETED_PAIR_DUAL_RECIPROCITY_NORMALIZES_ONLY_THE_INTRINSIC_PULLBACK__EXACT_SAME_PULLBACK_TILTED_NULL_RIBBONS_HAVE_DIFFERENT_W__NO_UNIVERSAL_W_VALUE_POPULATION_HISTORY_DISTANCE_OR_XMAX_SELECTION",
+    "status": "PASS"
+  },
+  "production_implementation_exercised": true,
   "status": "PASS"
 }

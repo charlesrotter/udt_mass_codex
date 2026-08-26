@@ -42,4 +42,9 @@ ambient realizations.
 
 `W` remains distinct from Jacobi screen area and shared-event screen holonomy.
 
-Current grade: `INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW`.
+Fresh external review returned `ACCEPT_WITH_REPAIRS` and accepted the bounded scientific landing.
+The two evidence repairs now pass internally: formula-level mutations are exercised separately
+from typed-ledger checks, and full off-axis ribbon regularity is proved and independently sampled.
+
+Current grade:
+`EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP`.

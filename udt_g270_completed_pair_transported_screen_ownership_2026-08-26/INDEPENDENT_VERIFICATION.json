@@ -1,11 +1,16 @@
 {
-  "assertions": 208005,
+  "assertions": 368165,
   "cases": 12000,
   "expected_landing": "FULL_SUPPLIED_REALIZATION_EVALUATES_TRANSPORTED_SCREEN_MISMATCH__COMPLETED_PAIR_DUAL_RECIPROCITY_NORMALIZES_ONLY_THE_INTRINSIC_PULLBACK__EXACT_SAME_PULLBACK_TILTED_NULL_RIBBONS_HAVE_DIFFERENT_W__NO_UNIVERSAL_W_VALUE_POPULATION_HISTORY_DISTANCE_OR_XMAX_SELECTION",
   "fixed_r_distinct_transport_values": 101,
   "production_imported": false,
   "production_result_read": false,
   "smooth_ribbon_axis_cases": 1001,
+  "smooth_ribbon_off_axis_cases": 40040,
+  "smooth_ribbon_tau_range": [
+    "-4",
+    "4"
+  ],
   "status": "PASS",
   "tilted_cases": 11851
 }

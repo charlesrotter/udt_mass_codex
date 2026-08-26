@@ -15,13 +15,16 @@
     "intrinsic_pullback": true,
     "intrinsic_pullback_det": true,
     "intrinsic_pullback_w_blind": true,
+    "mutual_inverse_gamma": true,
     "planar_sech": true,
     "ribbon_axis_pullback": true,
     "ribbon_axis_regular": true,
     "ribbon_clock_derivative_orthogonal": true,
     "ribbon_clock_unit": true,
     "ribbon_frequency_derivative": true,
-    "ribbon_local_continuity": true,
+    "ribbon_full_determinant": true,
+    "ribbon_halfline_coefficient_bound": true,
+    "ribbon_positive_quadratic_completion": true,
     "same_pullback_planar_tilted": true,
     "screen_projection_norm": true,
     "screen_projection_vector": true,
@@ -37,7 +40,7 @@
     "target_ruler_unit": true,
     "transport_gamma": true
   },
-  "exact_checks": 36,
+  "exact_checks": 39,
   "fixed_r_separator": {
     "intrinsic_pullback_equal": true,
     "planar_M_PT": "4/5",
@@ -59,8 +62,10 @@
   "selected_alternative": "C__REALIZATION_EVALUATES_W__INTRINSIC_COMPLETED_PAIR_DOES_NOT_SELECT_IT",
   "smooth_ribbon": {
     "axis_determinant": "-1/(1+lambda)^2",
-    "local_regular_neighborhood": "DERIVED_BY_CONTINUITY_ABOUT_TAU_ZERO",
+    "domain": "lambda>=0 and tau real",
+    "full_determinant": "-((4*lambda^2+4*lambda+2)*tau^2+2*tau+1)/(1+lambda)^2",
     "r(lambda)": "1+lambda",
+    "regularity": "STRICTLY_LORENTZIAN_ON_DECLARED_HALF_RIBBON",
     "w(lambda)": "lambda"
   },
   "status": "PASS",

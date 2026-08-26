@@ -174,7 +174,7 @@ This is a same-intrinsic-pullback separator, not merely two unrelated metrics.
 
 ## 4. Smooth completed null-ribbon realization
 
-The separator is not confined to isolated endpoint vectors. Let
+The separator is not confined to isolated endpoint vectors. On the half-ribbon `lambda>=0`, let
 
 \[
 r(\lambda)=1+\lambda,
@@ -211,9 +211,26 @@ The axis pullback is therefore exactly the displayed `h_sigma`, with
 \det h|_{\tau=0}=-\frac1{(1+\lambda)^2}<0.
 \]
 
-Smoothness then supplies a sufficiently small Lorentzian neighborhood of the axis. Thus a smooth
-regular completed null-ribbon family can vary `W` continuously while retaining the same completed
-intrinsic metric.
+The full pullback determinant, not merely its axis value, is
+
+\[
+\det F^*g
+=-
+\frac{A(\lambda)\tau^2+2\tau+1}{(1+\lambda)^2},
+\qquad
+A(\lambda)=4\lambda^2+4\lambda+2.
+\]
+
+For `lambda>=0`, `A>=2`, and its numerator has the exact positive completion
+
+\[
+A\left(\tau+\frac1A\right)^2+\frac{A-1}{A}>0.
+\]
+
+Therefore the determinant is strictly negative for every real `tau` on the declared half-ribbon.
+This directly proves a smooth regular completed null-ribbon family, stronger than the earlier
+axis-continuity argument, while `W` varies continuously and the completed intrinsic axis metric
+remains fixed.
 
 ## 5. Consequence for the G269 interlock
 
@@ -241,11 +258,13 @@ or G225 shared-event screen holonomy.
 
 ## 6. Verification
 
-The production derivation passes 36 exact symbolic checks. The independent implementation imports
-no production function and reads no production artifact; it performs 208,005 exact-rational
-assertions over 12,000 frames and 1,001 smooth-ribbon axis samples. At fixed `r=2`, 101 nonnegative
-tilts give 101 distinct transport values with the same intrinsic pair metric. Eleven hostile
-mutations are caught.
+The repaired production derivation passes 39 exact symbolic checks, including the full determinant
+and positivity decomposition. The independent implementation imports no production function and
+reads no production artifact; it performs 368,165 exact-rational assertions over 12,000 frames,
+1,001 smooth-ribbon axis samples, and 40,040 nonzero-`tau` ribbon samples with `-4<=tau<=4`. At fixed
+`r=2`, 101 nonnegative tilts give 101 distinct transport values with the same intrinsic pair metric.
+Eight formula-level implementation mutations and five separately labelled typed-ledger mutations
+are caught.
 
 ## 7. Ceiling
 

@@ -51,11 +51,14 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
         "MAP.md",
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_REPORT.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -93,7 +96,7 @@ def main() -> None:
     assert production["selected_alternative"] == (
         "C__REALIZATION_EVALUATES_W__INTRINSIC_COMPLETED_PAIR_DOES_NOT_SELECT_IT"
     )
-    assert production["exact_checks"] == 36
+    assert production["exact_checks"] == 39
     assert production["ownership"] == {
         "completed_pair_dual_reciprocity": "DOES_NOT_SELECT_W",
         "full_supplied_realization": "EVALUATES_W_UNIQUELY",
@@ -110,37 +113,67 @@ def main() -> None:
     assert production["w_is_jacobi_screen"] is False
     assert production["query_population"] == "OPEN_NOT_SELECTED"
     assert production["history_distance_xmax"] == "OPEN_NOT_TESTED"
+    assert production["smooth_ribbon"] == {
+        "r(lambda)": "1+lambda",
+        "w(lambda)": "lambda",
+        "domain": "lambda>=0 and tau real",
+        "axis_determinant": "-1/(1+lambda)^2",
+        "full_determinant": (
+            "-((4*lambda^2+4*lambda+2)*tau^2+2*tau+1)/(1+lambda)^2"
+        ),
+        "regularity": "STRICTLY_LORENTZIAN_ON_DECLARED_HALF_RIBBON",
+    }
 
     assert independent["cases"] == 12000
-    assert independent["assertions"] == 208005
+    assert independent["assertions"] == 368165
     assert independent["smooth_ribbon_axis_cases"] == 1001
+    assert independent["smooth_ribbon_off_axis_cases"] == 40040
+    assert independent["smooth_ribbon_tau_range"] == ["-4", "4"]
     assert independent["fixed_r_distinct_transport_values"] == 101
     assert independent["production_imported"] is False
     assert independent["production_result_read"] is False
 
-    assert catches["baseline_failures"] == []
-    assert catches["catches"] == 11 and catches["missed"] == []
-    assert catches["shared_validator_exercised"] is True
-    assert all(item["targeted_caught"] for item in catches["mutations"].values())
+    assert catches["production_baseline"] == {
+        "status": "PASS",
+        "exact_checks": 39,
+        "landing": LANDING,
+    }
+    assert catches["baseline_ledger_failures"] == []
+    assert catches["implementation_catches"] == 8
+    assert catches["implementation_missed"] == []
+    assert catches["ledger_catches"] == 5
+    assert catches["ledger_missed"] == []
+    assert catches["production_implementation_exercised"] is True
+    assert catches["ledger_validator_exercised"] is True
+    assert all(
+        item["targeted_caught"] for item in catches["implementation_mutations"].values()
+    )
+    assert all(item["targeted_caught"] for item in catches["ledger_mutations"].values())
 
     assert "a75d71bf" in (ROOT / "EVIDENCE_GATES.md").read_text()
-    assert "INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW" in (
+    assert "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP" in (
         ROOT / "EVIDENCE_GATES.md"
     ).read_text()
+    assert "ACCEPT_WITH_REPAIRS" in (ROOT / "EXTERNAL_REVIEW.md").read_text()
+    assert "6bd94cff" in (ROOT / "REPAIR_REPORT.md").read_text()
     premise_text = (ROOT / "PREMISE_LEDGER.tsv").read_text()
     assert "SEPARATE_DERIVED_CONDITIONAL_CHANNELS" in premise_text
     assert "OPEN_OMITTED" in premise_text
 
     print(json.dumps({
         "status": "PASS",
-        "grade": "INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW",
+        "grade": (
+            "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_INTERNALLY_VERIFIED_AWAITING_FOLLOWUP"
+        ),
         "landing": LANDING,
         "selected_alternative": production["selected_alternative"],
         "exact_checks": production["exact_checks"],
         "independent_cases": independent["cases"],
         "independent_assertions": independent["assertions"],
         "smooth_ribbon_axis_cases": independent["smooth_ribbon_axis_cases"],
-        "mutation_catches": catches["catches"],
+        "smooth_ribbon_off_axis_cases": independent["smooth_ribbon_off_axis_cases"],
+        "implementation_mutation_catches": catches["implementation_catches"],
+        "ledger_mutation_catches": catches["ledger_catches"],
         "source_count": len(sources),
         "fixed_r_separator": production["fixed_r_separator"],
         "recorded_artifacts_unchanged": before == after,

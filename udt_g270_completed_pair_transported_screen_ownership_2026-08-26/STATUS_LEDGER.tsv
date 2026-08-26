@@ -3,6 +3,6 @@ S1	G270 alternatives controls and maximum conclusion	PREREGISTERED	before outcom
 S2	completed pair metric and normalization	DERIVED_CONDITIONAL	on supplied regular pair realization
 S3	transported screen mismatch ownership	FULL_REALIZATION_EVALUATES__INTRINSIC_COMPLETED_PAIR_DOES_NOT_SELECT	exact same-pullback tilted null-ribbon family
 S4	physical population history distance Xmax	OPEN_OMITTED	outside G270 scope
-S5	internal certification	PASS	36 symbolic checks 208005 independent assertions 11 of 11 mutations
-S6	fresh external review	PENDING	required before stronger grade
-
+S5	internal certification	PASS_REPAIRED	39 symbolic checks 368165 independent assertions 8 of 8 production implementation mutations and 5 of 5 ledger mutations
+S6	fresh external review	ACCEPT_WITH_REPAIRS	scientific items 1 through 8 accepted evidence item 9 required R1 and R2
+S7	external review repairs	PASS_INTERNAL_AWAITING_FOLLOWUP	full off-axis determinant and implementation-level mutation gates now pass

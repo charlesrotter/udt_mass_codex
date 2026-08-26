@@ -78,8 +78,10 @@ def main() -> None:
         assertions += 17
         tilted += int(w != 0)
 
-    # Smooth nonconstant ribbon axis checks, coded without production formulas or SymPy.
+    # Smooth nonconstant ribbon checks, coded without production imports or SymPy.
     smooth_cases = 1001
+    off_axis_cases = 0
+    tau_values = tuple(F(j, 5) for j in range(-20, 21) if j != 0)
     for i in range(smooth_cases):
         lam = F(i, 1000)
         r = 1 + lam
@@ -93,6 +95,22 @@ def main() -> None:
         assert data["h"] == ((F(-1), -1 / r), (-1 / r, F(0)))
         assert data["h"][0][0] * data["h"][1][1] - data["h"][0][1] ** 2 < 0
         assertions += 4
+
+        coefficient = 4 * lam * lam + 4 * lam + 2
+        for tau in tau_values:
+            f_tau = data["u"]
+            f_lam = tuple(data["k"][j] + tau * du[j] for j in range(3))
+            h00 = dot(f_tau, f_tau)
+            h01 = dot(f_tau, f_lam)
+            h11 = dot(f_lam, f_lam)
+            det = h00 * h11 - h01 * h01
+            expected_det = -(coefficient * tau * tau + 2 * tau + 1) / (r * r)
+            assert h00 == -1
+            assert h01 == -1 / r
+            assert det == expected_det
+            assert det < 0
+            assertions += 4
+            off_axis_cases += 1
 
     fixed_r = F(2)
     mutual_values = set()
@@ -108,6 +126,8 @@ def main() -> None:
         "cases": cases,
         "tilted_cases": tilted,
         "smooth_ribbon_axis_cases": smooth_cases,
+        "smooth_ribbon_off_axis_cases": off_axis_cases,
+        "smooth_ribbon_tau_range": [str(min(tau_values)), str(max(tau_values))],
         "assertions": assertions,
         "fixed_r_distinct_transport_values": len(mutual_values),
         "production_imported": False,
