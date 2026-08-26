@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 Preregistration commit: `51601515`
-Status: `ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING`
+Status: `REPAIRS_ACCEPTED`
 
 ## External review record
 
@@ -66,3 +66,16 @@ premise registry has been promoted.
 A repair-only reviewer may verify only R1--R3 and the unchanged bounded G265 landing. Scientific
 expansion, premise adoption, startup promotion, time-live derivation, profile selection, or
 canonization is outside the repair path.
+
+## Follow-up result
+
+The authorized sealed 35-file repair-only GPT-5.4 follow-up returned `REPAIRS_ACCEPTED`. It verified
+all 33 payload hashes, reproduced `18/18`, `63/63`, and `8/8`, confirmed complete live/recorded JSON
+equality, independently caught an altered recorded landing, and accepted the repaired premise
+wording. The bounded static-radial classification may enter startup authority with caveats. Neither
+`P_INF`, `P_MUT`, nor the `sech(delta)` physical projection was adopted.
+
+`EXTERNAL_REPAIR_FOLLOWUP_GPT54.md` preserves the raw 1,969-byte review exactly apart from the
+repository-standard terminal newline. The raw SHA-256 is
+`fad76ea8544fa91a9040946cc7e8c1032664b122f08132335047edaf1760c569`; the banked 1,970-byte file
+has SHA-256 `82cdd14c484ee843d09dbb7075420a94b629649800318b4c630829a99884ace7`.

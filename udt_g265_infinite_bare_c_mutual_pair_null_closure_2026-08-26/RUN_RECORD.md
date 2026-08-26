@@ -21,7 +21,8 @@ Results:
 
 Fresh sealed GPT-5.4 review reproduced the bounded algebra and returned `ACCEPT_WITH_REPAIRS`.
 The repair replay additionally requires exact live/recorded result equality and catches an in-memory
-recorded-landing mutant. Repair-only external follow-up remains pending.
+recorded-landing mutant. The sealed repair-only GPT-5.4 follow-up reproduced all gates and returned
+`REPAIRS_ACCEPTED`.
 
 No observational outcomes, protected packages, GPU solve, fit, imported field equation, source,
 matter model, radiative transfer, or numerical `X_max` entered.

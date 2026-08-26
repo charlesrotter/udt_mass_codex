@@ -91,7 +91,7 @@ def main():
         mutation_caught = True
     assert mutation_caught
 
-    assert "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING" in (
+    assert "G265_REPAIRS_ACCEPTED" in (
         ROOT / "EVIDENCE_GATES.md"
     ).read_text()
     assert "PROPOSED_FOUNDATIONAL_RECOVERY_NOT_ADOPTED" in (ROOT / "STATUS_LEDGER.tsv").read_text()
@@ -105,7 +105,7 @@ def main():
         json.dumps(
             {
                 "status": "PASS",
-                "grade": "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING",
+                "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G265_REPAIRS_ACCEPTED",
                 "exact_checks": 18,
                 "independent_assertions": 63,
                 "mutation_catches": 8,
