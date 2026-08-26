@@ -301,7 +301,7 @@ and `sech(delta)` channels.
 
 ## 7. Ownership result
 
-`P_INF` has genuine conceptual content:
+If later adopted, the proposed `P_INF` interpretation would have the following provenance content:
 
 - `c_E` is treated as the completed metric's clock/ruler calibration, not a separate bare signal
   speed;
@@ -319,10 +319,10 @@ nonidentity relation
 that owns the physical separation type and constrains values without equating distinct metric
 lengths by fiat.
 
-The recovered mutuality statement narrows the target: `Q` must distinguish the reversal-even
-mutual magnitude from the directed null/redshift character. A time-live realization may also use
-distinct outgoing and return incidences; G220 already proves that causal return is not algebraic
-inversion. Neither option has been derived here.
+The recovered but still-proposed mutuality statement narrows the candidate target: `Q` would have
+to distinguish the reversal-even mutual magnitude from the directed null/redshift character. A
+time-live realization may also use distinct outgoing and return incidences; G220 already proves
+that causal return is not algebraic inversion. Neither option has been derived here.
 
 ## 8. Exact ceiling
 
@@ -340,6 +340,7 @@ The primary advance is a corrected output typing:
 \end{cases}}
 \]
 
-The next justified question is whether Charles's recovered distance-equivalence postulate owns the
-`sech(delta)` projection and an intrinsic two-point separation law in the complete time-live metric.
-It is not another static profile sweep.
+The next justified question is whether Charles's recovered but not-yet-adopted distance-equivalence
+premise owns the `sech(delta)` projection and an intrinsic two-point separation law in the complete
+time-live metric. Neither ownership nor a startup semantic regrade has been established here. It is
+not another static profile sweep.

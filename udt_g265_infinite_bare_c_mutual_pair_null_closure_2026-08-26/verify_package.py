@@ -27,6 +27,19 @@ def run_json(name):
     return json.loads(proc.stdout)
 
 
+def assert_exact_result(replayed, recorded):
+    """Fail closed on any recorded/live result mismatch."""
+    assert replayed == recorded, {
+        "replayed_only": sorted(set(replayed) - set(recorded)),
+        "recorded_only": sorted(set(recorded) - set(replayed)),
+        "changed": sorted(
+            key
+            for key in set(replayed) & set(recorded)
+            if replayed[key] != recorded[key]
+        ),
+    }
+
+
 def main():
     rows = (ROOT / "SOURCE_MANIFEST.tsv").read_text().splitlines()
     assert rows[0] == "path\tsha256\trole"
@@ -68,18 +81,36 @@ def main():
     assert catches["catches"] == 8
 
     recorded = json.loads((ROOT / "DERIVATION_RESULT.json").read_text())
-    assert recorded["landing"].startswith("INFINITE_BARE_C_METRIC_NULL_READING_IS_IDENTITY")
-    assert "INTERNALLY_VERIFIED_LEAD" in (ROOT / "EVIDENCE_GATES.md").read_text()
+    assert_exact_result(exact, recorded)
+    mutated = dict(recorded)
+    mutated["landing"] += "__MUTATED_RECORDED_LANDING"
+    mutation_caught = False
+    try:
+        assert_exact_result(exact, mutated)
+    except AssertionError:
+        mutation_caught = True
+    assert mutation_caught
+
+    assert "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING" in (
+        ROOT / "EVIDENCE_GATES.md"
+    ).read_text()
     assert "PROPOSED_FOUNDATIONAL_RECOVERY_NOT_ADOPTED" in (ROOT / "STATUS_LEDGER.tsv").read_text()
+    assert "not yet a founded physical readout" in (ROOT / "LAY_REPORT.md").read_text()
+    assert "still-proposed mutuality statement" in (ROOT / "EXACT_DERIVATION.md").read_text()
+    assert "Physical ownership of the even channel has not been adopted or derived" in (
+        ROOT / "AUDIT_REPORT.md"
+    ).read_text()
 
     print(
         json.dumps(
             {
                 "status": "PASS",
-                "grade": "INTERNALLY_VERIFIED_LEAD__FRESH_ADVERSARIAL_REVIEW_AND_CHARLES_REGRADE_OPEN",
+                "grade": "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING",
                 "exact_checks": 18,
                 "independent_assertions": 63,
                 "mutation_catches": 8,
+                "replay_result_exact": True,
+                "recorded_result_mutation_caught": mutation_caught,
                 "source_count": len(resolutions),
                 "source_resolutions": resolutions,
                 "landing": recorded["landing"],

@@ -119,11 +119,17 @@ def main() -> None:
         "landing": (
             "INFINITE_BARE_C_METRIC_NULL_READING_IS_IDENTITY__LITERAL_DISTANCE_TIME_CLOSURE_"
             "TRIVIALIZES_THE_STATIC_PROFILE__SAME_CORRESPONDENCE_MUTUAL_SLOWDOWN_IS_NOT_THE_"
-            "SIGNED_NULL_ARROW__DISTANCE_OWNERSHIP_REQUIRES_A_DISTINCT_EVEN_OR_TIMELIVE_PAIR_LAW"
+            "SIGNED_NULL_ARROW__THE_RECIPROCAL_KERNEL_ALREADY_CONTAINS_DISTINCT_EVEN_AND_"
+            "DIRECTIONAL_CHANNELS__DISTANCE_OWNERSHIP_STILL_REQUIRES_A_TIMELIVE_OR_TWO_POINT_"
+            "VALUE_LAW"
         ),
-        "proper_distance_closure": "f=1 (or constant before smooth-center calibration)",
-        "symmetric_sech_closure": "constant lapse only on the all-interval static test",
-        "qualification": "static_radial_classification_not_full_timelive_no_go",
+        "optical_closure": "identity for every positive f",
+        "proper_distance_closure": "f=1, or constant before smooth-center calibration",
+        "signed_arrow": "exp(-delta), inverse under same-correspondence reversal",
+        "even_invariant": "cosh(delta)",
+        "candidate_mutual_clock_rate": "sech(delta), proposed physical projection",
+        "symmetric_all_interval_closure": "constant lapse only",
+        "qualification": "static radial classification; not a full time-live no-go or canonization",
     }
     print(json.dumps(result, indent=2, sort_keys=True))
 
