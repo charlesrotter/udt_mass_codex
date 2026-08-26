@@ -5,4 +5,4 @@ S3	transported mutual-clock scalar	DERIVED_CONDITIONAL_BILOCAL_GEOMETRIC_SCALAR	
 S4	sech equality	EXACT_IFF_TRANSPORTED_PLANAR	M_PT bounded above by sech delta; strict with nonzero transported screen component
 S5	history distance Xmax observation	OPEN_OMITTED	outside G269 scope
 S6	internal certification	PASS	34 symbolic checks 143715 independent exact-rational assertions 10 of 10 shared-validator mutations
-S7	fresh external review	PENDING	required before banking beyond internal verified-with-caveats
+S7	fresh external review	ACCEPT_NO_REPAIRS	gpt-5.4 verified sealed hashes and all registered no-write replays

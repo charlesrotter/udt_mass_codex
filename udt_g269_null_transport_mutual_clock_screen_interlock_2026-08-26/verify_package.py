@@ -52,6 +52,7 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
         "MAP.md",
@@ -140,13 +141,15 @@ def main() -> None:
     premise_text = (ROOT / "PREMISE_LEDGER.tsv").read_text()
     assert "WORKING_OPERATIONAL_READOUT" in premise_text
     assert "OPEN_OMITTED" in premise_text
-    assert "INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW" in (
-        ROOT / "EVIDENCE_GATES.md"
-    ).read_text()
+    gates_text = (ROOT / "EVIDENCE_GATES.md").read_text()
+    assert "FRESH_EXTERNAL_REVIEW_ACCEPTED_NO_REPAIRS__VERIFIED_WITH_CAVEATS" in gates_text
+    review_text = (ROOT / "EXTERNAL_REVIEW.md").read_text()
+    assert "ACCEPT_NO_REPAIRS" in review_text
+    assert "No defects found in the permitted sealed-intake scope." in review_text
 
     print(json.dumps({
         "status": "PASS",
-        "grade": "INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW",
+        "grade": "FRESH_EXTERNAL_REVIEW_ACCEPTED_NO_REPAIRS__VERIFIED_WITH_CAVEATS",
         "landing": LANDING,
         "selected_alternative": production["selected_alternative"],
         "exact_checks": production["exact_checks"],

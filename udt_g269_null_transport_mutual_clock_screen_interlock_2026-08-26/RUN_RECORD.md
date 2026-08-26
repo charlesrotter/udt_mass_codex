@@ -42,5 +42,13 @@ pytest -q
 Results: the 250-row premise registry and current startup guards pass; the full repository suite
 reports `172 passed, 1 xfailed`.
 
+## Fresh external review
+
+External Codex `gpt-5.4`, in a fresh ephemeral read-only context confined to the sealed 33-file
+intake, verified the scope and manifest, reran every registered no-write check, and returned
+`ACCEPT_NO_REPAIRS`. The first launch attempt exited before model execution because the installed
+CLI no longer accepts the obsolete `-a` flag; the corrected launch changed no intake or review
+instruction.
+
 No GPU, observational outcome, fit, distance attachment, field equation, source, matter model,
 `X_max`, or protected package was used.

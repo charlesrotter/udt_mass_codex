@@ -16,7 +16,10 @@ Repository-wide gates also pass: the 250-row current-premise registry and startu
 the full test suite reports `172 passed, 1 xfailed`. The expected failure is unchanged and is not a
 G269 failure.
 
-Current grade: `INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW`.
+5. **Fresh external review:** `PASS` — external Codex `gpt-5.4` independently verified the sealed
+   hashes, reran all registered no-write checks, and returned `ACCEPT_NO_REPAIRS`.
+
+Current grade: `FRESH_EXTERNAL_REVIEW_ACCEPTED_NO_REPAIRS__VERIFIED_WITH_CAVEATS`.
 
 Maximum conclusion: coefficient-free bilocal transport scalar, sharp screen-conditioned bound, and
 planar sech equality on supplied regular null relations only.

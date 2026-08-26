@@ -53,4 +53,4 @@ The theorem does not populate null queries or select a history, distance law, `X
 matter model, observation, or signalling mechanism. `W` is a transported clock-screen mismatch,
 not a Jacobi sky-area distortion.
 
-Current grade: `INTERNALLY_VERIFIED_AWAITING_FRESH_EXTERNAL_REVIEW`.
+Current grade: `FRESH_EXTERNAL_REVIEW_ACCEPTED_NO_REPAIRS__VERIFIED_WITH_CAVEATS`.
