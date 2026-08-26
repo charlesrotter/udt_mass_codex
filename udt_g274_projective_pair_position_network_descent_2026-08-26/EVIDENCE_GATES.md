@@ -13,9 +13,9 @@
 | overlap covariance | `PASS` | 20,000 exact middle-frame changes |
 | premise audit | `PASS` | attachment unadopted; no scale history branch observation action source fit or `X_max` |
 | mutation/type catches | `PASS` | five implementation mutations plus one promotion catch |
-| external adversarial review | `OPEN` | required before external grade |
+| external adversarial review | `PASS` | external Codex `gpt-5.4`: `ACCEPT_BOUNDED_G274_LEAD`; no repairs |
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade: `EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS`.
 
 Maximum conclusion: conditional on the unadopted G273 clarification, normalized pair position has a
 coherent path-labelled frame-carried network semantics. No dimensionful scale or physical history is

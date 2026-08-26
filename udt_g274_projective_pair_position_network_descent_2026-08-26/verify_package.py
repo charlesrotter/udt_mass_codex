@@ -60,6 +60,7 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
         "MAP.md",
@@ -103,7 +104,7 @@ def main() -> None:
     replay("run_catch_proofs.py")
 
     report = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
-    assert "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN" in report
+    assert "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS" in report
     forbidden_promotions = (
         "position clarification is adopted",
         "dimensionful scale is derived",
@@ -128,7 +129,7 @@ def main() -> None:
         "implementation_mutations_caught": 5,
         "typed_scope_catches_passed": 1,
         "no_write_replays": 3,
-        "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+        "grade": "EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:

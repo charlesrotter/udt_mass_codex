@@ -46,5 +46,6 @@ not an imported physical mechanism.
 - 20,000 radial Möbius controls;
 - 20,000 overlap-covariance controls;
 - five implementation mutations and one typed promotion catch.
+- external Codex `gpt-5.4`: `ACCEPT_BOUNDED_G274_LEAD`; no repairs.
 
-Current grade: `INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN`.
+Current grade: `EXTERNALLY_REVIEWED_BOUNDED_LEAD__NO_REPAIRS`.
