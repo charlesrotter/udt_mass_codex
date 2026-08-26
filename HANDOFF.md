@@ -76,7 +76,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 Pause before an automatic G271. First MAP/PONDER whether the next bounded question evaluates `W`
 over a declared supplied history/query family or searches the authoritative premises for an
 independently owned population/history law. Do not repeat intrinsic-determinant algebra or promote
-G268--G270 to canon, distance, population, history, or `X_max`. No ODE/PDE/GPU solve is authorized.
+the no-owner audit without a new candidate owner/source; otherwise restrict work to the declared
+supplied-family evaluation. Do not promote G268--G270 to canon, distance, population, history, or
+`X_max`. No ODE/PDE/GPU solve is authorized.
 The 253-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

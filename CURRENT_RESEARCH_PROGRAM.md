@@ -19,6 +19,11 @@ Formulas:
 ```text
 h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
 phi_pair=delta_AB
+```
+
+The founded block ends there. The following are separately graded downstream readouts:
+
+```text
 c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 
@@ -107,8 +112,8 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
 
-R2--R5 remain metric-neutral observations with 184,300 unresolved covariance rows and no preferred
-scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave continuous history, source
+R2--R5 are observed/verified-with-caveats pattern controls with 184,300 unresolved covariance rows
+and no preferred scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave history, source
 measure, and detector/transfer ownership open. G259--G270 are outcome-blind structural audits.
 
 ## Audited restart
@@ -126,5 +131,7 @@ branches; insert `X_max`; or activate protected work.
 
 G268--G270 close the bounded question that followed G267. Do not automatically create G271. First
 MAP/PONDER whether the next bounded task evaluates `W` over a declared supplied history/query
-family or audits an independently owned population/history law. Intrinsic determinant
-normalization cannot answer that second question; no ODE/PDE/GPU or observational fit is authorized.
+family or audits an independently owned population/history law. Do not repeat a no-owner audit
+without a new candidate controlling source/owner; otherwise choose only the declared supplied-family
+evaluation. Intrinsic determinant normalization cannot answer the ownership question; no
+ODE/PDE/GPU or observational fit is authorized.

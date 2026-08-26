@@ -56,7 +56,8 @@ preferred scale follows. Raw archive:
 
 Pause before G271. MAP/PONDER whether the next bounded question evaluates `W` on a declared supplied
 history/query family or audits an independently owned population/history law. Do not repeat the
-already closed intrinsic-normalization question or start an ODE/PDE/GPU solve.
+closed intrinsic-normalization or no-owner audits without a new candidate owner/source; otherwise
+restrict work to the declared supplied-family evaluation. Do not start an ODE/PDE/GPU solve.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

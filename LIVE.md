@@ -10,9 +10,17 @@ On the founded supplied ordered-depth block,
 ```text
 h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
 phi_pair=delta_AB
+```
+
+Separate downstream grades apply to these useful readouts:
+
+```text
 c_eff^(pair)/c_E=exp(-2 delta_AB)
 chi_AB=tanh(delta_AB)
 ```
+
+The first is a `CONDITIONAL` pair ratio, not automatically a signal speed. The second is the
+`CHOSE/PROVISIONAL/DERIVED` normalized pair-position constitution, not part of the founded block.
 
 G166--G270 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -119,5 +127,7 @@ is nonselective, null transport supplies an independent metric evaluator, and in
 completed-pair normalization does not select the ambient mismatch. The next research turn must
 first MAP/PONDER whether it is evaluating `W` over a declared supplied history/query family or
 locating an independently owned population/history law. Do not repeat intrinsic-determinant
-algebra, import dynamics, fit a regime, or invent a residual. No ODE/PDE or GPU solve is authorized.
+algebra or a no-owner audit unless a new candidate controlling source/owner is identified. Otherwise
+restrict the next question to the declared supplied-family evaluation. Do not import dynamics, fit
+a regime, or invent a residual. No ODE/PDE or GPU solve is authorized.
 <!-- STARTUP_CURRENT_END -->
