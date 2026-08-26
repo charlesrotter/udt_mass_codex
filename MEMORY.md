@@ -27,8 +27,8 @@ and the continuous law remain open.
 G259's accepted repairs leave its conservative class unowned; Einstein retains source/history.
 G260's accepted R1 proves `A_parallel+A_perp=E1-E0`: on `f=1+C/r` two active modes cancel. The
 radial two-metric is vacuous, sphere deletion fails, and trace balance retains `1+a*r^2+b/r`.
-G261 fresh external review returned `ACCEPT_WITH_REPAIRS`; R1--R4 are implemented and await
-repair-only follow-up. W4 owns one universal local metric, with Levi-Civita semantics using existing
+G261 fresh external review returned `ACCEPT_WITH_REPAIRS`; repair-only follow-up returned
+`ACCEPT_REPAIR` with no remaining R1--R4 defect. W4 owns one universal local metric, with Levi-Civita semantics using existing
 metric geometry, but changes no F1--F4 component and derives no G259 operator class or history law.
 
 G197 excludes P1, G116/G189, fits, `X_max`, and protected payload. G176 stays provisional;
@@ -57,7 +57,7 @@ Use `CURRENT_SCIENTIFIC_PREMISES.tsv` for status.
 
 ## Next gate
 
-Obtain G261 repair-only follow-up, then ponder the remaining broad nonidentity dynamics-generator
-premise family; the G259-specific variational form is not adopted.
+Ponder the remaining broad nonidentity dynamics-generator premise family; the G259-specific
+variational form is not adopted.
 
 Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`.

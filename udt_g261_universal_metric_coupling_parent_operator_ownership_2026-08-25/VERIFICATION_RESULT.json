@@ -1,6 +1,7 @@
 {
   "external_fresh_verdict": "ACCEPT_WITH_REPAIRS",
-  "grade": "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_REQUIRED",
+  "external_repair_followup_disposition": "ACCEPT_REPAIR",
+  "grade": "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R4_DEFECT",
   "landing": "W4_OWNS_UNIVERSAL_METRIC_COUPLING__PRIMARY_METRIC_UNCHANGED__G259_CLASS_STILL_UNOWNED__ONE_DYNAMICS_GENERATOR_PREMISE_REMAINS",
   "observations_fits_gpu_protected_inputs": 0,
   "production_exact_assertions": 1285,

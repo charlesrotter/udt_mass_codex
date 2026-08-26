@@ -7343,13 +7343,15 @@ def main() -> None:
     require(len(read_tsv(g260 / "SOURCE_MANIFEST.tsv")) == 11, "G260 source count changed")
     require(
         by_id["G261"]["current_status"].startswith(
-            "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED_FOLLOWUP_REQUIRED"
+            "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R4_DEFECT"
         ),
         "G261 bounded grade changed",
     )
     for guard in (
         "PREREGISTERED_AND_PUSHED_AT_458E02E9_BEFORE_DERIVATION",
         "REPAIRS_PREREGISTERED_AND_PUSHED_AT_71D587C3",
+        "FRESH_EXTERNAL_ACCEPT_WITH_REPAIRS",
+        "REPAIR_FOLLOWUP_ACCEPT_REPAIR_ALL_33_MANIFEST_ROWS_AND_FIVE_DURABLE_OUTPUTS_VERIFIED",
         "W4_UNIVERSAL_METRIC_COUPLING_WORKING_POSIT_NOT_CANON",
         "ONE_UNIVERSAL_PHYSICAL_METRIC_DERIVED_FROM_W4",
         "LOCAL_INERTIAL_FREEFALL_AND_NULL_EVALUATOR_DERIVED_FROM_W4_PLUS_EXISTING_METRIC_GEOMETRY",
@@ -7388,6 +7390,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
         "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
         "TRANSMISSION_RECORD.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
         "VERIFICATION_RESULT.json",
@@ -7463,7 +7466,7 @@ def main() -> None:
     require(
         g261_verification["status"] == "PASS"
         and g261_verification["grade"]
-        == "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_REQUIRED"
+        == "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R4_DEFECT"
         and g261_verification["landing"] == expected_g261_landing
         and g261_verification["source_manifest_rows"] == 10
         and g261_verification["structural_crosscheck_assertions"] == 12041
@@ -7472,9 +7475,20 @@ def main() -> None:
         "G261 package certification changed",
     )
     require(
+        g261_verification["external_repair_followup_disposition"] == "ACCEPT_REPAIR",
+        "G261 repair follow-up disposition changed",
+    )
+    require(
         "Disposition: `ACCEPT_WITH_REPAIRS`"
         in (g261 / "EXTERNAL_REVIEW_GPT54.md").read_text(),
         "G261 fresh external disposition absent",
+    )
+    require(
+        "Disposition: `ACCEPT_REPAIR`"
+        in (g261 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+        and "Remaining defects: none within preregistered repairs R1--R4."
+        in (g261 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(),
+        "G261 repair-only external acceptance absent",
     )
     require(len(read_tsv(g261 / "SOURCE_MANIFEST.tsv")) == 10, "G261 source count changed")
     founding_text = " ".join((ROOT / "founding.md").read_text().split())

@@ -44,8 +44,8 @@ G259's accepted repairs leave its conservative operator class unowned. G260 exte
 full-metric active angular cancellation; radial-only is vacuous and trace cancellation remains
 nonselective. No UDT parent/source/history law is promoted.
 
-G261 received fresh external `ACCEPT_WITH_REPAIRS`; R1--R4 are implemented and need repair-only
-follow-up. W4 gives one-metric local clock/ruler/freefall/null semantics, with Levi-Civita conclusions
+G261 received fresh external `ACCEPT_WITH_REPAIRS`, followed by `ACCEPT_REPAIR` with no remaining
+R1--R4 defect. W4 gives one-metric local clock/ruler/freefall/null semantics, with Levi-Civita conclusions
 coming from W4 plus existing metric geometry. W4 changes no primary metric component and remains
 compatible with arbitrary positive profiles; it does not own G259's locality/order/rank/divergence/
 nonidentity assumptions. The remaining premise is a broad generator family, not one mechanism, and
@@ -71,8 +71,8 @@ Protected—do not stage, modify, mine, or cite without a specific dispatch:
 
 Directory presence does not prove banking. No long solve is running.
 
-Next obtain G261 repair-only external follow-up, then ponder the remaining broad dynamics-generator
-premise family. Do not promote the conditional Einstein comparison or unadopted variational
+Next ponder the remaining broad dynamics-generator premise family. Do not promote the conditional
+Einstein comparison or unadopted variational
 candidate. The 244-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

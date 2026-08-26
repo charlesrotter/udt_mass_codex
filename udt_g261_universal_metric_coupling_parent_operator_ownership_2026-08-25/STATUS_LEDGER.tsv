@@ -12,4 +12,4 @@ identity_divergence_freedom	NOT_DERIVED_FROM_W4	Ricci-tensor separator survives
 nonidentity_parent_residual	NOT_DERIVED_FROM_W4	W4 contains no equation selecting histories
 source_history_values	NOT_DERIVED_FROM_W4	arbitrary regular positive primary profiles remain admitted
 G259_specific_variational_minimality	NOT_ADOPTED	candidate premise only
-G261_landing	EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_REQUIRED	bounded scientific landing unchanged and no field equation derived
+G261_landing	EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R4_DEFECT	bounded scientific landing unchanged and no field equation derived

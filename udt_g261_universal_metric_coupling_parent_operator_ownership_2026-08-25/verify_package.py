@@ -35,6 +35,7 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv",
         "REPAIR_PREREGISTRATION.md",
         "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
         "TRANSMISSION_RECORD.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
         "derive_w4_ownership.py",
@@ -129,15 +130,21 @@ def main() -> None:
     assert sum(row["classification"] == "SUPPORTED_ACCEPTANCE_REQUIREMENT" for row in atlas) == 1
     assert sum(row["classification"] == "NOT_DERIVED_FROM_W4" for row in atlas) == 7
 
+    followup = (PACKAGE / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+    assert "Disposition: `ACCEPT_REPAIR`" in followup
+    assert "Remaining defects: none within preregistered repairs R1--R4." in followup
+    assert "The bounded scientific landing is unchanged." in followup
+
     result = {
         "status": "PASS",
-        "grade": "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_REQUIRED",
+        "grade": "EXTERNALLY_REVIEWED_WITH_REPAIRS_ACCEPTED__NO_REMAINING_R1_R4_DEFECT",
         "landing": LANDING,
         "source_manifest_rows": len(manifest_rows),
         "production_exact_assertions": 1285,
         "structural_crosscheck_assertions": independent["assertions"],
         "rejected_artifact_mutations": catches["rejected_mutation_count"],
         "external_fresh_verdict": "ACCEPT_WITH_REPAIRS",
+        "external_repair_followup_disposition": "ACCEPT_REPAIR",
         "observations_fits_gpu_protected_inputs": 0,
     }
     (PACKAGE / "VERIFICATION_RESULT.json").write_text(

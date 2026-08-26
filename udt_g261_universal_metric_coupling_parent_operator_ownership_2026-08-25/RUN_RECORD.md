@@ -31,4 +31,6 @@ The fresh external reviewer returned `ACCEPT_WITH_REPAIRS`. Under the separately
 classification, the internal verifier was regraded as a structural cross-check, ten real artifact
 mutations replaced label-presence checks, and the Levi-Civita dependency was typed explicitly.
 
-The bounded scientific landing did not change. External repair-only follow-up remains required.
+The bounded scientific landing did not change. External repair-only follow-up returned
+`ACCEPT_REPAIR`: all 33 sealed manifest entries passed, all five regenerated durable outputs were
+byte-identical, and no R1--R4 defect remains.

@@ -35,3 +35,24 @@ not change the intake.
 The raw substantive return is preserved in `EXTERNAL_REVIEW_GPT54.md`. Repairs R1--R4 were frozen
 before implementation in `REPAIR_PREREGISTRATION.md`; repair-only external follow-up remains
 required.
+
+## Repair-only follow-up
+
+- sealed intake: `/tmp/udt_g261_review_0383z1d6`
+- total files: 34
+- manifest entries: 33
+- `REVIEW_SCOPE.json` SHA-256:
+  `e924e63e892597682746f8052928b4c65abeddf0e3998a9bde520066681b0b57`
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `ee2bec4a8c7c97593d67d1f862763ee95b468307723b13aa220314e6ee849c0f`
+
+The first follow-up launcher stopped before model execution because the intake is intentionally not
+a Git repository. The second and third stopped before substantive review because the filesystem
+sandbox lacked the host resolver target. The successful launch added only the resolver files and
+shared network access for the model API; the intake remained read-only and the repository,
+observational outcomes, and protected packages remained absent.
+
+The reviewer verified all 33 manifest rows, ran only the four registered commands in a writable
+ephemeral copy, and found all five regenerated durable outputs byte-identical to the sealed
+versions. Disposition: `ACCEPT_REPAIR`; exact remaining R1--R4 defects: none. The bounded scientific
+landing is unchanged.

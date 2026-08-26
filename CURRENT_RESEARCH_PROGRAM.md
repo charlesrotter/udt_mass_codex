@@ -86,7 +86,7 @@ Phi=-log(T)=-1/2 log(-h00)
 - G261 provisionally types W4 as universal coupling to one completed UDT metric. It changes no
   F1--F4 metric component and leaves the G259 operator class and history equation unowned. Fresh
   external review returned `ACCEPT_WITH_REPAIRS`; source-driving, cross-check scope, real mutation,
-  and Levi-Civita typing repairs are implemented and await repair-only follow-up.
+  and Levi-Civita typing repairs then received `ACCEPT_REPAIR` with no remaining R1--R4 defect.
 
 G206--G261 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:

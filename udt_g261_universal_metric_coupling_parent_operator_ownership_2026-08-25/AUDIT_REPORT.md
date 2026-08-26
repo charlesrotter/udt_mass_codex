@@ -6,8 +6,8 @@ Date: 2026-08-25
 
 ```text
 EXTERNAL_ACCEPT_WITH_REPAIRS
-__REPAIRS_IMPLEMENTED
-__REPAIR_FOLLOWUP_REQUIRED
+__R1_R4_ACCEPTED_BY_REPAIR_FOLLOWUP
+__NO_REMAINING_REPAIR_DEFECT
 __BOUNDED_SCIENTIFIC_LANDING_UNCHANGED
 ```
 
@@ -27,6 +27,8 @@ formula and does not generate an equation selecting \(\phi\) or a complete histo
 - a valid baseline plus 10/10 actually applied and rejected artifact mutations;
 - fresh external review independently verified all 29 sealed manifest entries and reproduced all
   registered outputs byte-for-byte before returning `ACCEPT_WITH_REPAIRS`;
+- repair-only external follow-up verified all 33 corrected sealed manifest entries, reproduced all
+  five durable outputs byte-for-byte, and returned `ACCEPT_REPAIR` with no remaining R1--R4 defect;
 - zero observations, fits, GPU work, `X_max`, source model, and protected inputs.
 
 ## Scope qualification
@@ -35,8 +37,8 @@ The local inertial/free-fall conclusion is W4 plus the existing Lorentz-metric, 
 metric-compatible geometry. G261 does not claim that the equivalence principle alone derives the
 Levi-Civita construction in an arena with an independent affine connection.
 
-The result is bounded to premise ownership. The requested repairs are implemented but still require
-repair-only external follow-up. It is not canon and not a field equation.
+The result is bounded to premise ownership. The requested repairs are externally accepted. It is
+not canon and not a field equation.
 
 ## Remaining gate
 
