@@ -1,0 +1,35 @@
+{
+  "implementation_mutations": {
+    "claim_bounded_unique": [
+      "bounded_alternative_differs_third_order"
+    ],
+    "drop_screen": [
+      "complete_clock_normalization",
+      "complete_open_ball_norm",
+      "screen_changes_complete_state",
+      "reversal_even_gamma"
+    ],
+    "radial_only_complete": [
+      "screen_changes_complete_state"
+    ],
+    "wrong_projective_sign": [
+      "projective_contrast_is_tanh",
+      "projective_positive_endpoint",
+      "projective_unit_quiet_slope"
+    ],
+    "wrong_reversal_screen": [
+      "reversal_even_gamma"
+    ]
+  },
+  "implementation_mutations_caught": 5,
+  "status": "PASS",
+  "typed_scope_catches": {
+    "attachment_not_derived": true,
+    "history_xmax_open": true,
+    "projective_uniqueness_scoped": true,
+    "scale_open": true,
+    "screen_state_retained": true,
+    "strict_entailment_rejected": true
+  },
+  "typed_scope_catches_passed": 6
+}

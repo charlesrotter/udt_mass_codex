@@ -1,0 +1,12 @@
+# G273 commands
+
+```bash
+python3 -m py_compile \
+  udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/derive_projective_distance_ownership.py \
+  udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/verify_projective_distance_independent.py \
+  udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/run_catch_proofs.py
+python3 udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/derive_projective_distance_ownership.py
+python3 udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/verify_projective_distance_independent.py
+python3 udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/run_catch_proofs.py
+python3 udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/verify_package.py
+```

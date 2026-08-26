@@ -1,0 +1,15 @@
+{
+  "grade": "INTERNALLY_VERIFIED_LEAD__EXTERNAL_REVIEW_OPEN",
+  "implementation_mutations_caught": 5,
+  "independent_cases": 24000,
+  "independent_composition_cases": 6000,
+  "independent_exact_assertions": 168000,
+  "landing": "FOUNDING_INTENT_OWNS_DISTANCE_TO_RECIPROCAL_RESPONSE_DIRECTION__STRICT_X_OVER_X_EQUALS_TANH_DELTA_ENTAILMENT_FAILS__UNIQUE_SCALE_FREE_PROJECTIVE_CONTRAST_AND_COMPLETE_OPEN_BALL_ARE_METRIC_NATIVE__PHYSICAL_POSITION_ATTACHMENT_IS_ONE_MINIMAL_WORKING_FOUNDATIONAL_CLARIFICATION__SCALE_HISTORY_POPULATION_AND_XMAX_REMAIN_OPEN",
+  "no_write_replays": 3,
+  "production_checks": 23,
+  "source_paths_within_scope_root": 11,
+  "source_proposition_rows": 8,
+  "source_rows": 11,
+  "status": "PASS",
+  "typed_scope_catches_passed": 6
+}
