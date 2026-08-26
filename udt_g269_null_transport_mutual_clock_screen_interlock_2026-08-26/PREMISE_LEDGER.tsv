@@ -1,0 +1,14 @@
+item	provenance	status	use
+smooth Lorentz metric	current UDT metric arena	SUPPLIED_CONDITIONAL_QUERY	owns metric contractions and Levi-Civita transport
+future affine null branch A to B	G188/G190/G220	SUPPLIED_CONDITIONAL_QUERY	common path for frequency and clock-frame carry
+endpoint metric-unit clocks U_A U_B	G190/G216/G220	SUPPLIED_CONDITIONAL_QUERY	proper clock normalization
+r_AB=omega_A/omega_B	G220	DERIVED_CONDITIONAL	directional proper-clock ratio on supplied branch
+delta_AB=-log r_AB	G216/G220	DERIVED_CONDITIONAL	reciprocal depth presentation
+Levi-Civita parallel transport	metricity/G188/G224	DERIVED_FROM_SUPPLIED_METRIC	carries U_A and normalized null plane along same branch
+Gamma_PT=-g(P_AB U_A,U_B)	G269 target	CANDIDATE_DERIVED_BILOCAL_SCALAR	reversal-even transported relative Lorentz factor
+M_PT=1/Gamma_PT	G269 target	WORKING_OPERATIONAL_READOUT	candidate mutual-clock magnitude from independent metric construction
+transported screen W	G269 target	CANDIDATE_DERIVED_SCREEN_COMPONENT	separates planar and nonplanar endpoint clocks
+sech delta physical projection	G267/G268	SUPPLIED_PROVISIONAL_CANDIDATE	comparison target; not assumed universally equal
+physical null query and observer population	none	OPEN_OMITTED	no population or selection claim
+distance scale history Xmax observation source matter transfer canon	none	OPEN_OMITTED	forbidden widening
+symbolic and exact rational arithmetic	mathematical method	CATEGORY_A_CERTIFICATION	no physical premise
