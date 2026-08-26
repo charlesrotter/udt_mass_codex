@@ -1,0 +1,97 @@
+{
+  "baseline_failures": [],
+  "catches": 11,
+  "missed": [],
+  "mutations": {
+    "break_completed_determinant": {
+      "caught": true,
+      "failures": [
+        "completed_reciprocity"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "completed_reciprocity"
+    },
+    "conflate_w_with_jacobi": {
+      "caught": true,
+      "failures": [
+        "no_jacobi_conflation"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "no_jacobi_conflation"
+    },
+    "delete_query_supply": {
+      "caught": true,
+      "failures": [
+        "query_status"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "query_status"
+    },
+    "delete_screen_interlock": {
+      "caught": true,
+      "failures": [
+        "g269_interlock"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "g269_interlock"
+    },
+    "deny_realization_evaluation": {
+      "caught": true,
+      "failures": [
+        "realization_evaluation"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "realization_evaluation"
+    },
+    "drop_inverse_readout": {
+      "caught": true,
+      "failures": [
+        "inverse_gamma_readout"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "inverse_gamma_readout"
+    },
+    "force_w_zero": {
+      "caught": true,
+      "failures": [
+        "same_pullback_separator"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "same_pullback_separator"
+    },
+    "insert_w_into_intrinsic_metric": {
+      "caught": true,
+      "failures": [
+        "intrinsic_w_blindness"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "intrinsic_w_blindness"
+    },
+    "promote_history": {
+      "caught": true,
+      "failures": [
+        "no_history_promotion"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "no_history_promotion"
+    },
+    "rename_w_as_jacobi_area": {
+      "caught": true,
+      "failures": [
+        "transported_mismatch_type"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "transported_mismatch_type"
+    },
+    "reverse_frequency_ratio": {
+      "caught": true,
+      "failures": [
+        "frequency_orientation"
+      ],
+      "targeted_caught": true,
+      "targeted_failure": "frequency_orientation"
+    }
+  },
+  "shared_validator_exercised": true,
+  "status": "PASS"
+}
