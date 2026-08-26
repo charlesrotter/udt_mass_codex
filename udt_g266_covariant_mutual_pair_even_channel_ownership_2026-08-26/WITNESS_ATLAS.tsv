@@ -1,0 +1,9 @@
+witness	definition	status	what_it_separates
+time_live_trace	Gamma=(r+r^-1)/2	DERIVED_CONDITIONAL	reversal-even kernel magnitude
+time_live_odd	Xi=(r^-1-r)/2	DERIVED_CONDITIONAL	directional companion
+inverse_trace_clock	M=1/Gamma=sech(delta)	PROPOSED_NOT_ADOPTED	one simple physical projection
+even_multiplicative_scalar	m(delta1+delta2)=m(delta1)m(delta2) and m(-delta)=m(delta)	TRIVIAL_ONLY	standalone mutual character
+null_world_function	sigma(A,B)=0	NONSEPARATING_ON_NULL_QUERY	cannot own nonzero null pair distance
+areal_attachment	delta=kappa*(R-R0)	FREE_AND_EXPLORED	f=y0^2 exp(-2 kappa x)
+slice_attachment	delta=kappa*integral dR/sqrt(f)	FREE_AND_EXPLORED	f=(y0-kappa x)^2
+optical_attachment	delta=kappa*integral dR/f	FREE_AND_EXPLORED	f=y0^2-2 kappa x

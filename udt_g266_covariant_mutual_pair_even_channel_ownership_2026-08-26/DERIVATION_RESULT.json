@@ -1,0 +1,65 @@
+{
+  "checks": [
+    "determinant_one",
+    "trace_channel",
+    "odd_channel",
+    "hyperbolic_norm",
+    "gamma_reversal_even",
+    "xi_reversal_odd",
+    "inverse_trace_projection",
+    "mutual_projection_reversal_even",
+    "recover_clock_leg",
+    "recover_ruler_leg",
+    "gamma_composition_requires_odd",
+    "xi_composition",
+    "matrix_composition",
+    "cayley_hamilton_trace_generator",
+    "even_multiplicative_equation_reduces_to_m_equals_one",
+    "areal_depth_per_distance",
+    "slice_depth_per_distance",
+    "optical_depth_per_distance",
+    "areal_anchor",
+    "slice_anchor",
+    "optical_anchor",
+    "common_first_jet_areal",
+    "common_first_jet_slice",
+    "common_first_jet_optical",
+    "distinct_second_jet_fingerprints_4_2_0"
+  ],
+  "composition": {
+    "Gamma_AC": "Gamma_AB*Gamma_BC+Xi_AB*Xi_BC",
+    "Xi_AC": "Xi_AB*Gamma_BC+Gamma_AB*Xi_BC",
+    "scalar_even_multiplicative_character": "trivial_only"
+  },
+  "distance_controls": {
+    "areal": "f=y0^2*exp(-2*k*x)",
+    "optical": "f=y0^2-2*k*x",
+    "slice_proper": "f=(y0-k*x)^2",
+    "unit_anchor_first_jets": [
+      "1",
+      "-2*k"
+    ],
+    "unit_anchor_second_jets": [
+      "4*k^2",
+      "2*k^2",
+      "0"
+    ]
+  },
+  "distance_functional": "OPEN_QUERY_OWNED",
+  "exact_checks": 25,
+  "history_rejection_by_current_premises": 0,
+  "invariant_algebra": "for determinant-one two-by-two reciprocal matrices, trace is the primitive conjugacy invariant; other smooth reversal-even scalars remain functions of Gamma",
+  "landing": "CANONICAL_REVERSAL_EVEN_TRACE_CHANNEL_DERIVED_ON_SUPPLIED_TIMELIVE_RELATION__NONTRIVIAL_COMPOSITION_REQUIRES_THE_ODD_COMPANION__SECH_PHYSICAL_PROJECTION_DISTANCE_FUNCTIONAL_AND_HISTORY_SELECTION_OPEN",
+  "null_world_function": "sigma=0 on every null incidence, so its value alone cannot own nontrivial pair distance",
+  "physical_projection": "OPEN_NOT_SELECTED_BY_F1_F4_W1_W4",
+  "qualification": "same-correspondence supplied regular relation; causal return and population remain separate",
+  "selected_alternative": "B__CANONICAL_EVEN_KERNEL_CHANNEL_DERIVED__PHYSICAL_PROJECTION_DISTANCE_AND_HISTORY_OPEN",
+  "status": "PASS",
+  "time_live_formulas": {
+    "Gamma": "(r_AB+r_AB^-1)/2=cosh(delta)",
+    "Xi": "(r_AB^-1-r_AB)/2=sinh(delta)",
+    "conditional_M": "Gamma^-1=2*r_AB/(1+r_AB^2)=sech(delta)",
+    "delta": "-log(r_AB)",
+    "signed_clock_arrow": "r_AB>0 supplied by the G220 covariant incidence derivative"
+  }
+}

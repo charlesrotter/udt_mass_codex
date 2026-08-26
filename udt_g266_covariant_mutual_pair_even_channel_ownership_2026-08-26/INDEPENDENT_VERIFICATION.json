@@ -1,0 +1,16 @@
+{
+  "assertions": 768,
+  "cases": 128,
+  "distance_jet_cases": 64,
+  "group_cases": 64,
+  "implementation": "python_fraction_no_sympy_no_production_import_no_result_read",
+  "status": "PASS",
+  "verified": [
+    "reversal parity",
+    "hyperbolic norm",
+    "signed leg reconstruction",
+    "two-channel composition",
+    "conditional inverse-trace reversal invariance",
+    "common first jet and distinct second jets for three distance attachments"
+  ]
+}

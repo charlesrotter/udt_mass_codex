@@ -1,0 +1,15 @@
+id	claim	status	qualification
+S1	G220 signed clock arrow is covariant on supplied regular relation	DERIVED_CONDITIONAL	query and branch supplied
+S2	Gamma=(r+r^-1)/2=cosh(delta) is reversal even	DERIVED_CONDITIONAL	trace of completed reciprocal representation
+S3	Xi=(r^-1-r)/2=sinh(delta) is reversal odd	DERIVED_CONDITIONAL	signed companion
+S4	Gamma alone closes nontrivially under multiplication	REJECTED	composition requires Xi
+S5	nontrivial positive even multiplicative scalar character exists	REJECTED	continuity and positivity force one
+S6	M=sech(delta) is a covariant candidate mutual clock rate	DERIVED_CONDITIONAL_FORMULA	physical projection not adopted
+S7	current premises select M as the physical mutual clock rate	OPEN_NOT_DERIVED	other functions of Gamma survive
+S8	null world-function value owns distance	REJECTED_ON_NULL_QUERY	sigma equals zero
+S9	metric alone gives no lawful distance constructions	REJECTED	areal slice optical and radar constructions exist
+S10	current premises select one operational distance attachment	OPEN_NOT_DERIVED	three bounded controls survive
+S11	three static attachments agree through first jet	DERIVED_CONDITIONAL	unit-calibrated anchor
+S12	three static attachments select the same history	REJECTED	second jets are 4 2 0 times kappa squared
+S13	current premises reject an admitted history	NOT_ESTABLISHED	zero rejected by this classification
+S14	causal return equals reversal	NOT_ASSERTED	different incidence relation

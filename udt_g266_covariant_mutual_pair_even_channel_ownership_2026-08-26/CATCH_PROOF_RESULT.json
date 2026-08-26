@@ -1,0 +1,15 @@
+{
+  "catches": 8,
+  "mutations": {
+    "areal_and_slice_second_jets_do_not_collapse": true,
+    "conditional_projection_does_not_reject_histories": true,
+    "gamma_composition_needs_odd_product": true,
+    "odd_channel_is_not_even": true,
+    "positive_even_multiplicative_nontrivial_candidate_fails": true,
+    "sech_is_not_signed_clock_leg": true,
+    "signed_arrow_is_not_even": true,
+    "slice_and_optical_second_jets_do_not_collapse": true
+  },
+  "qualification": "regression catches only; not independent scientific proof",
+  "status": "PASS"
+}
