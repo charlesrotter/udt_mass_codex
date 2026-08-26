@@ -72,8 +72,8 @@ relation space: it preserves every finite relation and network, so it does not s
 history. Its compact endpoints are only a partial nongroup closure. The conditional cross-readout
 law becomes testable only if `M` is independently measured on the same calibrated correspondence.
 
-G269 supplies that independent **metric-owned, query-relative** construction on a supplied affine
-null relation:
+G269 supplies an independent **metric-owned, query-relative evaluator** relevant to that test on a
+supplied affine null relation. It does not supply an independently validated measurement protocol:
 
 ```text
 M_PT=1/[-g(P_AB U_A,U_B)]

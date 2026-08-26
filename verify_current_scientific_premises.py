@@ -5109,6 +5109,11 @@ def main() -> None:
         "verify_radial_spline_independent.py",
     ):
         require((g243 / name).is_file(), f"G243 evidence missing: {name}")
+    require(
+        hashlib.sha256((g243 / "RADIAL_REPRESENTATION.npz").read_bytes()).hexdigest()
+        == "68deaa48bb68493febb1c9d34de426a215675f917b971b1aca59f833d468600b",
+        "G243 frozen radial representation hash changed",
+    )
     g243_result = json.loads((g243 / "DERIVATION_RESULT.json").read_text())
     g243_independent = json.loads((g243 / "INDEPENDENT_VERIFICATION.json").read_text())
     g243_verification = json.loads((g243 / "VERIFICATION_RESULT.json").read_text())

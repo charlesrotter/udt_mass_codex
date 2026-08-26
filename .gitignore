@@ -17,6 +17,10 @@ local_llm_export.md
 # large regenerable hopfion field checkpoints (never commit; GitHub 100MB limit)
 hopfion_arc_scripts_2026-07-05/*.npz
 *.npz
+# G243's frozen radial representation is small, load-bearing evidence required by
+# the package and startup verifiers. Keep the broad checkpoint exclusion while
+# making this one immutable evidence artifact clone-complete.
+!udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/RADIAL_REPRESENTATION.npz
 # Phase1b hopfion fields (large)
 hopfion_fixedQ_phase1b_field*.npz
 hopfion_arc_scripts_2026-07-05/prod_p1b*.npz

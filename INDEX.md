@@ -58,7 +58,8 @@ query task-relevant registry rows.
   `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compression; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`—no owned history residual; reduced/GPU solve gated.
 - `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—no lost closure;
   `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, no propagation residual;
-  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—exact GR embedding;
+  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—GR control
+  (`WORKING/POSIT`; no parent law);
   `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale;
   `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted;
   `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—active cancellation; `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`—W4 ownership;
@@ -86,7 +87,7 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 - R5 verification: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_VERIFICATION_RESULT.json`
 - R5 accepted follow-up/manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
-R2--R5 remain metric-neutral and select no feature, scale, origin, cosmology, or `X_max`.
+R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 ## Foundational and premise authorities
 - Status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
 - Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`

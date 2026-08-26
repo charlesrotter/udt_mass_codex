@@ -41,7 +41,8 @@ G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protecte
 
 ## Observations and premises
 
-R2--R5 remain unresolved. Raw archive:
+R2--R5 are observed/verified with caveats; 184,300 covariance rows remain unresolved and no
+preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 
 - `c_E`, `G_obs` are observed anchors.
