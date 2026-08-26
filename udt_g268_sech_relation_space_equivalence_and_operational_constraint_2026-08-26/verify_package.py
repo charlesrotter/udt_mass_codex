@@ -59,6 +59,7 @@ def main() -> None:
         "PREREGISTRATION_EXECUTION_NOTE.md",
         "EXTERNAL_REVIEW.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP_REVIEW.md",
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_RESULT.md",
         "RUN_RECORD.md",
@@ -151,13 +152,14 @@ def main() -> None:
     premise_text = (ROOT / "PREMISE_LEDGER.tsv").read_text()
     assert "SUPPLIED_PROVISIONAL_CANDIDATE" in premise_text
     assert "OPEN/HYPOTHETICAL_CONDITIONAL" in premise_text
-    assert "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AWAITING_FOLLOWUP" in (
+    assert "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G268_REPAIRS_ACCEPTED" in (
         ROOT / "EVIDENCE_GATES.md"
     ).read_text()
+    assert "REPAIRS_ACCEPTED" in (ROOT / "REPAIR_FOLLOWUP_REVIEW.md").read_text()
 
     print(json.dumps({
         "status": "PASS",
-        "grade": "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AWAITING_FOLLOWUP",
+        "grade": "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G268_REPAIRS_ACCEPTED",
         "landing": LANDING,
         "relation_space_landing": production["relation_space_landing"],
         "boundary_landing": production["boundary_landing"],

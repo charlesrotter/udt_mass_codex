@@ -17,9 +17,11 @@ Date: 2026-08-26
    independent operational `M`, distance, history, and `X_max` remain open.
 
 Fresh external disposition: `ACCEPT_WITH_REPAIRS`; scientific questions 1–8 accepted and question
-9 failed on evidence implementation. Repairs R1 and R2 are implemented and internally replayed.
+9 failed on evidence implementation. Repairs R1 and R2 were implemented and internally replayed.
+The sealed repair-only follow-up returned `REPAIRS_ACCEPTED` with no remaining scoped defect and
+independently reran the registered no-write package replay.
 
-Current grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AWAITING_FOLLOWUP`.
+Current grade: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G268_REPAIRS_ACCEPTED`.
 
 Maximum conclusion: exact finite relation/network equivalence, partial nongroup endpoint closure,
 and a conditional cross-readout law if an independent `M` protocol is later owned. No relation,

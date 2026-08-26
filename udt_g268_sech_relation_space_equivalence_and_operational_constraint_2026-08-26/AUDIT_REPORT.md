@@ -47,10 +47,11 @@ prediction.
 Preregistered at `fc9b13ca`. Full finite one-parameter relation space and arbitrary finite matched
 networks are covered analytically; singular relations, event/query population, and global metric
 completion are not. Internal exact and implementation-distinct checks pass. Fresh external review
-accepted the scientific/type/scope landing and requested two evidence repairs. Those repairs are
-implemented and internally replayed, but have not yet received repair-only external acceptance.
+accepted the scientific/type/scope landing and requested two evidence repairs. Those repairs were
+implemented, internally replayed, and accepted without findings by a sealed repair-only external
+follow-up.
 
-Current grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED_AWAITING_FOLLOWUP`.
+Current grade: `EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__G268_REPAIRS_ACCEPTED`.
 
 ## Next gate
 

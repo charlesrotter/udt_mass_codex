@@ -34,7 +34,8 @@ a nonempty named failure set containing its preregistered target:
 ## Scope
 
 No formula, scientific landing, premise status, source universe, or maximum conclusion changed.
-This is an evidence-only repair. External repair-only acceptance remains pending.
+This is an evidence-only repair. The sealed external repair-only follow-up returned
+`REPAIRS_ACCEPTED` with no remaining scoped defect.
 
 ## Internal replay gates
 
@@ -44,3 +45,9 @@ This is an evidence-only repair. External repair-only acceptance remains pending
 - package no-write replay: `PASS`, all recorded artifacts byte-identical before and after;
 - repository suite: `172 passed, 1 xfailed`;
 - exact premise registry: `PASS`, 250 rows plus startup/archive guards.
+
+## External repair-only gate
+
+The 36-file sealed intake was independently checked by external Codex `gpt-5.4` in read-only mode.
+It verified the manifest and scope, reran `verify_package.py`, and answered all three frozen repair
+questions affirmatively. Disposition: `REPAIRS_ACCEPTED`.

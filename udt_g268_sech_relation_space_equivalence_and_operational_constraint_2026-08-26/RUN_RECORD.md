@@ -50,5 +50,17 @@ preregistered named failure class.
 The production, independent, mutation, package, and repository-suite commands were rerun after the
 repairs. Their final counts are recorded in `REPAIR_RESULT.md`.
 
+## Repair-only external follow-up
+
+Sealed intake: `/tmp/udt_g268_repair_followup_y2nqoeyr`
+
+Scope SHA-256: `03353578dd77252ef0d15fad06f378e780aa508e4ceb710fe3dcff68c14d1898`
+
+Manifest SHA-256: `00970029cb1005d428b73db7d3fb11f5ab9ae85b0c00ada52bec582c62a35346`
+
+External Codex `gpt-5.4` verified the seal, reran the registered no-write package replay, found no
+remaining defect in R1 or R2, and confirmed that the bounded scientific landing was unchanged.
+Disposition: `REPAIRS_ACCEPTED`.
+
 No GPU, observation, fit, distance attachment, field equation, source, action, matter model,
 `X_max`, or protected package was used.
