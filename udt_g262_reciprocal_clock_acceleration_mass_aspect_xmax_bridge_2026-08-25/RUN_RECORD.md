@@ -34,7 +34,7 @@ been produced and no scientific formula, candidate landing, or tolerance changed
 - production arbitrary-function symbolic checks: 19/19 pass;
 - independent exact-Fraction cases: 1,000;
 - independent assertions: 10,003;
-- applied mutation catches: 10/10;
+- applied mutation catches after preregistered external repair: 12/12;
 - GPU, fit, observational outcome, protected input: zero.
 
 ## Repository gates
@@ -43,3 +43,14 @@ been produced and no scientific formula, candidate landing, or tolerance changed
 - `python3 -m pytest tests/`: 166 passed, 1 expected xfail in 64.64 seconds;
 - the xfail is the pre-existing documented matter-sector HABIT-pin migration item, not a G262
   regression.
+
+## External review and bounded repair
+
+Fresh isolated `gpt-5.4` review returned `ACCEPT_WITH_REPAIRS`. It accepted the acceleration,
+mass-aspect, angular, endpoint-arrow, character, asymptotic, and nonselection results. It required
+the package to surface the pre-existing sealed raw WR-L wall lapse flux `-2*pi*X` without promoting
+it to mass. The repair was preregistered and pushed at `91448643` before implementation.
+
+The reviewer reran `verify_independent.py`, `run_catch_proofs.py`, and `verify_package.py` in its
+ephemeral runtime. SymPy was absent there, so it did not rerun `derive_hierarchy.py`; the local
+saved SymPy derivation and dependency-free replay remain separately typed.

@@ -1,6 +1,6 @@
 {
-  "caught_count": 10,
-  "mutation_count": 10,
+  "caught_count": 12,
+  "mutation_count": 12,
   "mutations": {
     "E0_sign_flip": true,
     "E1_sign_flip": true,
@@ -11,6 +11,8 @@
     "mass_aspect_plus_sign": true,
     "physical_total_mass_promoted": true,
     "projective_chi_sign_flip": true,
+    "raw_wall_flux_omitted": true,
+    "raw_wall_flux_promoted_to_mass": true,
     "xmax_inserted_as_numeric_input": true
   },
   "qualification": "regression_only_not_scientific_proof",

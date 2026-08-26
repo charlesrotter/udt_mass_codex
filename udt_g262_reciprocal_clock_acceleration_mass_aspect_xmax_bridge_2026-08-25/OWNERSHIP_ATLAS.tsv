@@ -13,4 +13,5 @@ local_rest_mass	no current transformation law	OPEN	must remain distinct from rem
 physical_total_udt_mass	no current normalized generator	OPEN	none	source generator reference boundary and solution
 projective_limit	q=sqrt((1-chi)/(1+chi))	DERIVED_FROM_WORKING_CHI	reciprocal pair asymptotic ratio	numerical Xmax distance map and global completion
 geometric_compactness_limit	mu/r tends 1/2 if N tends 0	DERIVED_CONDITIONAL_STATIC	finite areal compactness saturation	physical mass and global Xmax ownership
+raw_wrl_wall_lapse_flux	Phi_wall=-2piX on supplied f=1-r/X	DERIVED_METRIC_LIMIT_PREEXISTING	finite unnormalized static-slice metric flux	action or generator normalization reference orientation boundary prescription; X is not global Xmax
 history_law	both f0 and fa pass all identities	NOT_DERIVED	interlock is evaluative not selective	nonidentity source or dynamics generator

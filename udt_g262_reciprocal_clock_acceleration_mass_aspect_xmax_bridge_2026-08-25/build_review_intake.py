@@ -37,6 +37,11 @@ def main() -> None:
             "PREMISE_LEDGER.tsv",
             "SOURCE_MANIFEST.tsv",
             "EVIDENCE_REPAIR_NOTE.md",
+            "EXTERNAL_REVIEW_GPT54.md",
+            "REPAIR_PREREGISTRATION.md",
+            "REPAIR_RESULT.md",
+            "REPAIR_FOLLOWUP_REQUEST.md",
+            "TRANSMISSION_RECORD.md",
             "derive_hierarchy.py",
             "verify_independent.py",
             "run_catch_proofs.py",
@@ -74,13 +79,14 @@ def main() -> None:
         writer.writerows(manifest_rows)
 
     scope = {
-        "purpose": "fresh read-only adversarial G262 review",
+        "purpose": "read-only repair-only G262 follow-up review",
         "payload_count": len(manifest_rows),
         "total_file_count_including_manifest_and_scope": len(manifest_rows) + 2,
         "review_manifest_sha256": sha(manifest),
         "permissions": {
             "inspect_only_this_intake": True,
             "run_bounded_checks_in_ephemeral_copy": True,
+            "verify_only_preregistered_repairs_and_unchanged_landing": True,
             "edit_evidence_files": False,
             "continue_research": False,
         },

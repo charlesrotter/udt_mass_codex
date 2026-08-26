@@ -53,6 +53,18 @@ def catches(package: Path) -> dict[str, object]:
         }
     )
 
+    report = (package / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+    ownership = (package / "OWNERSHIP_ATLAS.tsv").read_text(encoding="utf-8")
+    applied.update(
+        {
+            "raw_wall_flux_omitted": "Phi_{\\rm wall}=-2\\pi X" in report,
+            "raw_wall_flux_promoted_to_mass": (
+                "DERIVED_METRIC_LIMIT_PREEXISTING" in ownership
+                and "not a native mass or charge" in report
+            ),
+        }
+    )
+
     failed = [name for name, caught in applied.items() if not caught]
     if failed:
         raise AssertionError(f"uncaught mutations: {failed}")

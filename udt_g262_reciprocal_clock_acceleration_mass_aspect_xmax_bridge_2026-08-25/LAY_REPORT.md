@@ -22,7 +22,13 @@ Two cautions matter. A local object's invariant rest mass has not been shown to 
 metric's spherical mass aspect is not yet a normalized physical UDT mass or matter source. At a
 zero-lapse end the geometric compactness saturates; it does not diverge.
 
+There is one older, exact boundary clue worth retaining: on the supplied WR-L wall model the metric
+produces a finite raw clock-gradient flux equal to `-2 pi X`. It has the right kind of scale
+dependence to be interesting, but it is not yet mass. Turning it into a physical mass or charge
+requires the missing generator and normalization, and that wall's `X` is not yet proven to be the
+global `Xmax`.
+
 Finally, this beautiful interlock still describes every positive primary profile. It does not tell
 the metric which profile to realize. The remaining bridge is narrower now: connect the geometric
 mass/source role back to the same metric by one nonidentity physical law. Renaming the mass aspect
-or inserting `X_max` would not close it.
+or promoting the raw wall flux would not close it.

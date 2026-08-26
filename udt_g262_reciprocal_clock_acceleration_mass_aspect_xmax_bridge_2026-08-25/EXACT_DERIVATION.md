@@ -212,6 +212,38 @@ Thus the geometric compactness aspect saturates while one directional pair-energ
 and its reverse diverges. These are different mass notions and must not be conflated. No numerical
 `X_max`, physical distance profile, boundary, or global completion is derived.
 
+### Pre-existing WR-L boundary-side relation
+
+The sealed asymptotic-boundary audit already derives one nonidentity metric limit on the separately
+supplied WR-L representative
+
+\[
+f(r)=1-\frac rX,
+\qquad 0<r<X.
+\]
+
+On a static slice the outward unit radial component is \(n^r=\sqrt f\), the lapse is
+\(N=\sqrt f\), and the raw spherical lapse flux is
+
+\[
+\Phi_N(r)
+=\int_{S_r}n^i\nabla_iN\,dA
+=4\pi r^2\sqrt f\,N'
+=-\frac{2\pi r^2}{X}.
+\]
+
+Therefore
+
+\[
+\boxed{\Phi_{\rm wall}=-2\pi X.}
+\]
+
+This relation is `DERIVED_METRIC_LIMIT` on that supplied representative. It is not a normalized
+physical mass or charge and does not identify \(X\) with global \(X_{\max}\). Such a promotion
+would still require a complete action or generator, normalization, reference, orientation, and
+boundary prescription. G262 did not newly derive this relation; it retains it so the bounded
+mass/Xmax ledger is complete.
+
 ## 7. What “mass is a function of time dilation” can force
 
 Let a positive mass-related factor depend only on the clock ratio `q`. If one additionally posits
@@ -268,5 +300,5 @@ __LOCAL_REST_MASS_PHYSICAL_TOTAL_MASS_XMAX_VALUE_AND_HISTORY_LAW_OPEN
 
 This narrows the missing bridge: a future physical source/mass statement must connect the
 geometric mass aspect or its derivatives to a genuinely owned matter/global response. Merely
-renaming `mu`, applying the reciprocal energy factor, or taking the `X_max` limit cannot supply
-that nonidentity relation.
+renaming `mu`, applying the reciprocal energy factor, promoting the unnormalized wall lapse flux,
+or taking the `X_max` limit cannot supply that nonidentity relation.

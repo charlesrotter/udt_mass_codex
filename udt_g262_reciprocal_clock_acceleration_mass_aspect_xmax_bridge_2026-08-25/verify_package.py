@@ -23,10 +23,12 @@ def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def resolve_frozen(repo: Path, relative: str, expected: str) -> str:
+def read_frozen(repo: Path, relative: str, expected: str) -> tuple[bytes, str]:
     live = repo / relative
-    if live.is_file() and digest(live.read_bytes()) == expected:
-        return "live_exact"
+    if live.is_file():
+        data = live.read_bytes()
+        if digest(data) == expected:
+            return data, "live_exact"
     try:
         frozen = subprocess.check_output(
             ["git", "show", f"{PREREG_COMMIT}:{relative}"], cwd=repo, stderr=subprocess.DEVNULL
@@ -35,7 +37,11 @@ def resolve_frozen(repo: Path, relative: str, expected: str) -> str:
         raise AssertionError(f"cannot resolve frozen source {relative}") from exc
     if digest(frozen) != expected:
         raise AssertionError(f"frozen source hash mismatch: {relative}")
-    return "git_object_exact"
+    return frozen, "git_object_exact"
+
+
+def resolve_frozen(repo: Path, relative: str, expected: str) -> str:
+    return read_frozen(repo, relative, expected)[1]
 
 
 def verify(package: Path) -> dict[str, object]:
@@ -53,7 +59,7 @@ def verify(package: Path) -> dict[str, object]:
         raise AssertionError("symbolic count mismatch")
     if independent["status"] != "PASS" or independent["assertion_count"] != 10003:
         raise AssertionError("independent replay mismatch")
-    if catches["status"] != "PASS" or catches["caught_count"] != 10:
+    if catches["status"] != "PASS" or catches["caught_count"] != 12:
         raise AssertionError("catch proof mismatch")
 
     with (package / "STATUS_LEDGER.tsv").open(newline="", encoding="utf-8") as handle:
@@ -64,11 +70,25 @@ def verify(package: Path) -> dict[str, object]:
         raise AssertionError("physical UDT mass was promoted")
     if status["S11"]["status"] != "OPEN":
         raise AssertionError("history law was promoted")
+    if status["S12"]["status"] != "DERIVED_METRIC_LIMIT_PREEXISTING":
+        raise AssertionError("raw wall flux ownership mismatch")
+    if status["S13"]["status"] != "EXTERNAL_ACCEPT_WITH_REPAIRS":
+        raise AssertionError("external repair status mismatch")
 
     resolutions: dict[str, str] = {}
+    source_rows: dict[str, dict[str, str]] = {}
     with (package / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
+            source_rows[row["path"]] = row
             resolutions[row["path"]] = resolve_frozen(repo, row["path"], row["sha256"])
+
+    wall_path = "asymptotic_boundary_lineage_audit_2026-07-19/AUDIT_REPORT.md"
+    wall_bytes, _ = read_frozen(repo, wall_path, source_rows[wall_path]["sha256"])
+    wall_source = wall_bytes.decode("utf-8")
+    if "raw wall lapse flux: `-2*pi*X`" not in wall_source:
+        raise AssertionError("frozen raw wall flux source missing")
+    if "a raw metric flux is not a mass" not in wall_source:
+        raise AssertionError("frozen raw wall flux ownership guard missing")
 
     report = (package / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     compact_report = report.replace("\n", "")
@@ -76,6 +96,10 @@ def verify(package: Path) -> dict[str, object]:
         "local rest-mass dilation law",
         "normalized physical mass",
         "valued history",
+        "\\Phi_{\\rm wall}=-2\\pi X",
+        "not a native mass or charge",
+        "runtime reran the dependency-free",
+        "lacked SymPy",
     )
     if LANDING not in compact_report:
         raise AssertionError("report landing absent")
