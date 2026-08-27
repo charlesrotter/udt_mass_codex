@@ -1,0 +1,36 @@
+id	path	role	inspection_ceiling
+S01	udt_canonical_geometry.md	historical canonical-geometry and SNe claim spine	relevant metric optics Branch-C and SNe sections
+S02	archive/udt_validated_results.md	historical scorecard and H110-H118 SNe lineage	relevant SNe and retraction sections
+S03	udt_canonical_geometry_evaluator_p01_2026-07-21/AUDIT_REPORT.md	complete local metric evaluator authority	report only
+S04	luminosity_distance_n2_optics_results.md	July optics correction and regrade	complete report
+S05	simple_metric_sne_validator_reconstruct_MAP.md	July old-validator reconstruction	complete report
+S06	simple_metric_SNe_shape_clue_results.md	July named-family character census	complete report
+S07	simple_metric_elegance_SNe_character_results.md	July projective/J1 stress	complete report
+S08	udt_pair_space_metric_transform_sne_readout_audit_2026-07-24/AUDIT_REPORT.md	pair-space and WR-L SNe distinction	report only
+S09	udt_xmax_scale_observational_M2_build_2026-08-07/D1_FORMULAS.md	P1/P2/P3 formula provenance	complete report
+S10	udt_xmax_scale_observational_M3_runs_2026-08-07/SNE_RESULTS.md	P1/P2/P3 observational result	complete report
+S11	udt_xmax_scale_observational_M3_runs_2026-08-07/RESULTS_VERIFIER_REPORT.md	M3 independent result audit	SNe sections
+S12	udt_sne_native_observer_query_replay_2026-08-11/AUDIT_REPORT.md	M3/P1 native retyping	report only
+S13	udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/AUDIT_REPORT.md	one complete same-geometry SNe query	report only
+S14	udt_reciprocal_kernel_release_candidate_interface_audit_2026-08-15/SNE_REPLAY_REPORT.md	one complete-geometry SNe control	report only
+S15	udt_native_flux_luminosity_law_ownership_audit_2026-08-15/AUDIT_REPORT.md	transfer ownership regrade	report only
+S16	udt_g112_full_differential_dual_sne_invariance_2026-08-16/AUDIT_REPORT.md	full-differential nonregression	report only
+S17	udt_g117_operational_frequency_dual_sne_regrade_2026-08-16/AUDIT_REPORT.md	frequency typing regrade	report only
+S18	udt_g120_exact_screen_imported_transfer_dual_sne_recomposition_2026-08-16/AUDIT_REPORT.md	exact spherical screen and imported transfer	report only
+S19	udt_g125_exact_sne_score_history_recomposition_2026-08-16/AUDIT_REPORT.md	conditional total-score identity	report only
+S20	udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/AUDIT_REPORT.md	completed-pair channel ownership	report only
+S21	udt_g189_p1_free_metric_flux_interface_2026-08-20/AUDIT_REPORT.md	P1-free conditional metric/flux interface	report only
+S22	udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/AUDIT_REPORT.md	dual-release empirical state reconstruction	report only
+S23	udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/AUDIT_REPORT.md	joint empirical state freeze	report only
+S24	udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/AUDIT_REPORT.md	radial-to-tidal bridge on reconstructed state	report only
+S25	udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/AUDIT_REPORT.md	exact quiet control	report only
+S26	udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/AUDIT_REPORT.md	smooth representation no-freeze result	report only
+S27	udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/AUDIT_REPORT.md	ninety-run closure census	report only
+S28	udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/AUDIT_REPORT.md	conditional sampled metric reconstruction	report only
+S29	udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md	scale-anchor typing	report only
+S30	udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/AUDIT_REPORT.md	Cepheid attachment and DES holdout	report only
+S31	udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/AUDIT_REPORT.md	current native/import boundary	report only
+S32	udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/AUDIT_REPORT.md	current depth/area nonidentity	report only
+S33	CURRENT_SCIENTIFIC_PREMISES.tsv	current exact epistemic registry	query only SNe/area/transfer controlling rows
+S34	CURRENT_RESEARCH_PROGRAM.md	current dependency and next-gate authority	current bounded file
+

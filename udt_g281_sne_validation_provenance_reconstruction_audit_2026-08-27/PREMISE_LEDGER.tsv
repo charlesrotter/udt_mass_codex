@@ -1,0 +1,15 @@
+id	object	status	use_in_g281	forbidden_promotion
+P01	F1_F3_reciprocal_character_on_supplied_depth	DERIVED	native redshift chain baseline	does not generate a metric history
+P02	F4_primary_metric_readout	DECLARED_READOUT	primary spherical comparison arena	does not determine phi values
+P03	completed_pair_pullback_and_W1	DERIVED_CONDITIONAL_PLUS_WORKING	full pair-state evaluator	is not a physical history selector
+P04	phi_equals_log1pz_on_declared_stationary_query	DERIVED_CONDITIONAL	direct SNe redshift channel	does not determine area or transfer
+P05	central_spherical_DA_equals_areal_R	DERIVED_CONDITIONAL	exact area on a supplied central spherical history	does not determine R as a function of phi
+P06	regular_Jacobi_area_from_complete_history	DERIVED_CONDITIONAL	native optical-area evaluator	does not select the history or branch
+P07	transparent_transfer_eta_1_epsilon_1_over_Z	CONDITIONAL_IMPORT	historical and current provisional luminosity bridge	must not be called native UDT light theory
+P08	processed_Pantheon_and_DES_releases	OBSERVED_PROCESSED_INPUT	empirical reconstruction and comparison	must not be called raw metric geometry
+P09	P1_P2_P3_cubic_hat_spline_families	CHOSE_OR_EMPIRICAL_REPRESENTATION	historical model and reconstruction census	must not enter reciprocal-kernel provenance
+P10	Cepheid_ladder_and_same_distance_bridge	OBSERVED_PLUS_CONDITIONAL_BRIDGE	absolute scale attachment	must not be called native c_E scale derivation
+P11	W5_projective_position	WORKING_FOUNDATIONAL_CLARIFICATION	sibling endpoint-state comparison	must not be identified with optical area
+P12	G280_same_depth_different_area	DERIVED_BOUNDED_COUNTEREXAMPLE	classification discriminator	does not reject empirical reconstruction
+P13	Xmax	WORKING_FOUNDATIONAL_FRAME	excluded from fit and classification mechanics	no value profile or boundary is selected
+P14	protected_packages	EXCLUDED	unread provenance boundary	absence from audit is not a scientific negative
