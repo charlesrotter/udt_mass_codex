@@ -1,0 +1,181 @@
+{
+  "audit": "G279_DEPENDENCY_SUBTRACTIONS",
+  "case_count": 9,
+  "cases": [
+    {
+      "case": "full_chain",
+      "removed_edges": [],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "DES_holdout",
+        "D_delta",
+        "G236_state",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "conditional_scale",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "projective_W5_sibling",
+        "relative_areal_formula"
+      ]
+    },
+    {
+      "case": "subtract_transfer",
+      "removed_edges": [
+        "E06"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "D_delta",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "projective_W5_sibling"
+      ]
+    },
+    {
+      "case": "subtract_G236_representation",
+      "removed_edges": [
+        "E07"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "D_delta",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "projective_W5_sibling",
+        "relative_areal_formula"
+      ]
+    },
+    {
+      "case": "subtract_empirical_scale_attachment",
+      "removed_edges": [
+        "E08"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "D_delta",
+        "G236_state",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "projective_W5_sibling",
+        "relative_areal_formula"
+      ]
+    },
+    {
+      "case": "subtract_DES_holdout",
+      "removed_edges": [
+        "E09"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "D_delta",
+        "G236_state",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "conditional_scale",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "projective_W5_sibling",
+        "relative_areal_formula"
+      ]
+    },
+    {
+      "case": "subtract_W1_completed_pair_extension",
+      "removed_edges": [
+        "E03"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "D_delta",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "founding",
+        "primary_metric"
+      ]
+    },
+    {
+      "case": "subtract_founding_reciprocal_character",
+      "removed_edges": [
+        "E00"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "founding"
+      ]
+    },
+    {
+      "case": "subtract_W5_sibling",
+      "removed_edges": [
+        "P00"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "DES_holdout",
+        "D_delta",
+        "G236_state",
+        "angular_Jacobi_sibling",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "conditional_scale",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "relative_areal_formula"
+      ]
+    },
+    {
+      "case": "subtract_angular_sibling",
+      "removed_edges": [
+        "S00"
+      ],
+      "required_failures_pass": true,
+      "required_survivors_pass": true,
+      "survives": [
+        "DES_holdout",
+        "D_delta",
+        "G236_state",
+        "complete_pair_pullback_h",
+        "completed_Phi",
+        "conditional_scale",
+        "delta_AB",
+        "direct_redshift",
+        "founding",
+        "primary_metric",
+        "projective_W5_sibling",
+        "relative_areal_formula"
+      ]
+    }
+  ],
+  "landing": "NATIVE_DIMENSIONLESS_CHAIN_SURVIVES_OBSERVATIONAL_IMPORT_SUBTRACTION__G278_OUTPUT_DOES_NOT_SURVIVE_TRANSFER_OR_EMPIRICAL_ATTACHMENT_SUBTRACTION__W5_AND_ANGULAR_SIBLINGS_NOT_EXECUTABLE_G278_DEPENDENCIES",
+  "status": "PASS"
+}

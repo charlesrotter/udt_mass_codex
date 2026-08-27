@@ -1,0 +1,13 @@
+edge	from	to	status	class	load_bearing_G278	claim
+E00	F1_F2_F3	D_delta	DERIVED_ON_SUPPLIED_DEPTH	NATIVE_MIXED_FOUNDING	yes	dual reciprocal composition gives diag(exp(-delta),exp(delta))
+E01	D_delta_F4	primary_metric	DERIVED_AFTER_DECLARED_READOUT	NATIVE_MIXED_FOUNDING	yes_bounded_radial	quadratic Lorentzian and areal readout gives reciprocal primary metric
+E02	supplied_metric_and_pair_germ	complete_pair_pullback_h	DERIVED_CONDITIONAL	NATIVE_GEOMETRIC_EVALUATOR	conceptual_radial_reduction	all B Q S Y Z channels enter h before readout
+E03	complete_pair_pullback_h_and_W1	completed_Phi	WORKING_PREMISE_PLUS_DERIVED_CONDITIONAL	EXPLICIT_NONCANON_CLARIFICATION	yes_direct_redshift_semantics	m=sqrt(-det h) and Phi=-log T
+E04	completed_endpoint_clocks_and_supplied_pair_map	delta_AB	DERIVED_CONDITIONAL	NATIVE_PAIR_EVALUATOR	yes	delta_AB=-log(d tau_B/d tau_A)
+E05	delta_source_observer_and_redshift_query	phi_equals_log1p_z	DERIVED_CONDITIONAL	NATIVE_DIRECT_REDSHIFT_EDGE	yes	log(1+z)=Phi_source-Phi_observer
+E06	direct_redshift_plus_transparent_transfer	relative_areal_state_formula	CONDITIONAL_IMPORT	DECLARED_OBSERVATIONAL_INTERFACE	yes	dL=Z^2 R and y=m-10log10 Z=5log10 R+offset
+E07	processed_SNe_plus_hat_basis_K	G236_S_K_phi	OBSERVED_PREREGISTERED_NUMERICAL_READOUT	DECLARED_NUMERICAL_REPRESENTATION	yes	piecewise-linear K=8,12,16,24 relative state
+E08	G236_state_plus_Cepheid_ladder_and_optical_bridge	conditional_ell	OBSERVED_PLUS_CONDITIONAL_BRIDGE	DECLARED_EMPIRICAL_ATTACHMENT	yes	ell=10^(a/5) Mpc for the frozen areal state
+E09	conditional_curve_plus_DES_published_MU	DES_holdout_score	OBSERVED_RELEASE_CONVENTION	DECLARED_HELDOUT_CHECK	yes	no-retuning comparison with published H0=70 normalization cargo
+S00	metric_null_screen_transport	angular_Jacobi_outputs	DERIVED_CONDITIONAL_SIBLING	NATIVE_GEOMETRIC_EVALUATOR	no	angular response is upstream metric sibling, not post-readout fit
+P00	G271_G275_W5_projective_chain	complete_projective_pair_position	MIXED_DERIVED_AND_WORKING	SEPARATE_GEOMETRIC_INTERPRETATION	no	W5 and chi/tanh do not execute in G236 or G278 numerical code

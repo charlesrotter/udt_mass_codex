@@ -1,0 +1,64 @@
+{
+  "audit": "G279_HOSTILE_CATCH_PROOFS",
+  "catches": [
+    {
+      "caught": true,
+      "mutation": "hide_transfer_import"
+    },
+    {
+      "caught": true,
+      "mutation": "drop_G236_resolution_family"
+    },
+    {
+      "caught": true,
+      "mutation": "drop_G278_resolution_family"
+    },
+    {
+      "caught": true,
+      "mutation": "bypass_resolution_landing"
+    },
+    {
+      "caught": true,
+      "mutation": "claim_no_transfer"
+    },
+    {
+      "caught": true,
+      "mutation": "activate_P1"
+    },
+    {
+      "caught": true,
+      "mutation": "activate_Xmax"
+    },
+    {
+      "caught": true,
+      "mutation": "activate_LCDM_distance"
+    },
+    {
+      "caught": true,
+      "mutation": "promote_W1_to_derived"
+    },
+    {
+      "caught": true,
+      "mutation": "promote_transfer_to_native"
+    },
+    {
+      "caught": true,
+      "mutation": "hide_numerical_representation"
+    },
+    {
+      "caught": true,
+      "mutation": "hide_empirical_attachment"
+    },
+    {
+      "caught": true,
+      "mutation": "make_W5_load_bearing_G278"
+    },
+    {
+      "caught": true,
+      "mutation": "make_angular_postreadout_load_bearing"
+    }
+  ],
+  "caught": 14,
+  "expected": 14,
+  "status": "PASS"
+}

@@ -1,0 +1,94 @@
+{
+  "audit": "G279_NATIVE_KERNEL_OBSERVATIONAL_INTERFACE_PROVENANCE",
+  "edge_count": 12,
+  "executable_audit": {
+    "G236_K_basis_is_executable_numerical_representation": true,
+    "G278_diagnostic_reuses_production_helpers": true,
+    "G278_resolution_gate_is_active": true,
+    "P1_G116_G189_Xmax_LCDM_runtime_dependency": false,
+    "angular_postreadout_executable_dependency": false,
+    "inventories": {
+      "derive_dual_sne_relational_state.py": {
+        "imports": [
+          "__future__",
+          "csv",
+          "hashlib",
+          "json",
+          "math",
+          "numpy",
+          "os",
+          "pathlib",
+          "scipy.linalg"
+        ],
+        "runtime_path_strings": [
+          "DES-Dovekie_HD.csv",
+          "Data/Pantheon+SH0ES.dat",
+          "Data/Pantheon+SH0ES_STAT+SYS.cov",
+          "PRODUCTION_RESULT.json",
+          "SOURCE_MANIFEST.tsv",
+          "STAT+SYS.npz",
+          "STATE_RECONSTRUCTION.tsv",
+          "external_data/DES-Dovekie_HD.csv",
+          "external_data/README.md",
+          "external_data/STAT+SYS.npz"
+        ]
+      },
+      "derive_scale_and_holdout.py": {
+        "imports": [
+          "__future__",
+          "csv",
+          "hashlib",
+          "json",
+          "math",
+          "numpy",
+          "os",
+          "pathlib",
+          "scipy.linalg"
+        ],
+        "runtime_path_strings": [
+          "CALIBRATOR_SUBSET_CONTROLS.tsv",
+          "DERIVATION_RESULT.json",
+          "DES-Dovekie_HD.csv",
+          "DES_HOLDOUT_RESULTS.tsv",
+          "Data/Pantheon+SH0ES.dat",
+          "Data/Pantheon+SH0ES_STAT+SYS.cov",
+          "SCALE_RESULTS.tsv",
+          "SOURCE_MANIFEST.tsv",
+          "STAT+SYS.npz",
+          "external_data/DES-Dovekie_HD.csv",
+          "external_data/STAT+SYS.npz",
+          "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PRODUCTION_RESULT.json"
+        ]
+      },
+      "diagnose_resolution_sensitivity.py": {
+        "imports": [
+          "__future__",
+          "csv",
+          "derive_scale_and_holdout",
+          "json",
+          "math",
+          "numpy"
+        ],
+        "runtime_path_strings": [
+          "RESOLUTION_CURVE_COMPARISON.tsv",
+          "RESOLUTION_FOLLOWUP_RESULT.json"
+        ]
+      }
+    },
+    "projective_W5_executable_dependency": false
+  },
+  "key_findings": {
+    "G278_calibrates_downstream_areal_state_not_kernel": true,
+    "explicit_working_premise_W1_required_for_completed_scalar": true,
+    "explicit_working_premise_W5_required_for_G278": false,
+    "kernel_function_fitted": false,
+    "native_angular_postprocessing_used": false,
+    "processed_release_and_transfer_imports_are_declared": true,
+    "resolution_sensitivity_enters_at_G236_hat_basis": true
+  },
+  "landing": "NATIVE_CORE_INTACT__DECLARED_IMPORT_BOUNDARY_INTACT__G278_SENSITIVITY_DOWNSTREAM__W5_NOT_LOAD_BEARING_FOR_G278",
+  "maximum_conclusion": "source-bounded provenance separation only; no history, native light law, unique scale, W1/W5 canonization, representation-independent state, or Xmax",
+  "source_checks_pass": true,
+  "source_count": 31,
+  "status": "PASS"
+}
