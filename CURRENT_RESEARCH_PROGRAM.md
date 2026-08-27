@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-`LIVE.md` controls status; the 265-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 266-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -75,6 +75,14 @@ population, operational distance, or `X_max`.
   SNe prediction is found; G279/G280 remain intact. Fresh external review retained the landing after
   R1--R4 evidence/typing repairs, and the corrected 32-source repair-only follow-up returned
   `ACCEPT` with no remaining scoped defect.
+- G282 tests the minimum information type for a joint depth-and-Jacobi history. Exact full-metric
+  witnesses retain the same central metric, first jet, connection, and endpoint state while
+  changing transverse curvature and Jacobi area; primary witnesses retain depth while changing
+  areal position. The frozen 18-source universe owns no joint law that separates them. The missing
+  value content may live in metric two-jet/curvature, an equivalent first-order
+  coframe/connection/curvature system, or a global neighboring-relation network law. Final external
+  repair review accepted the bounded result; no field equation, action, source, fit, scale,
+  observation, or `X_max` was used.
 
 ## Open boundary
 
@@ -85,7 +93,9 @@ radiative transfer, a joint depth-and-Jacobi history law, operational distance, 
 `X_max`. `d_A(Z)` exists only on monotone noncaustic branch pieces, and G280 proves it is not a
 universal function of endpoint `phi` or W5 state alone.
 G281 further proves source-boundedly that no tracked non-protected historical SNe route supplied
-that missing complete-history/area law before using SNe data.
+that missing complete-history/area law before using SNe data. G282 narrows the missing content to a
+nonidentity constraint on neighboring-relation curvature values while leaving its differential or
+global representation nonunique.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -93,9 +103,10 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Use G280/G281 as hard discriminators on the metric-led history/value-law search. Determine whether an
-already owned complete-history principle jointly predicts reciprocal depth and null-screen/Jacobi
-evolution, or type the smallest additional native principle that would. Only after such a law
+Map owned complete coframe/connection identities onto G282's three allowed law homes and test for
+an already implicit nonidentity neighboring-relation curvature constraint using the fixed G282
+witness pair. If none exists, type the smallest additional native premise without selecting a
+familiar equation by habit. Only after such a law
 reduces the history to an independently derived finite-dimensional family may observations
 calibrate constants. Do not choose `K`, fit a free optical curve, identify projective and areal
 position by fiat, retune observations, or select population, operational distance, or `X_max`.

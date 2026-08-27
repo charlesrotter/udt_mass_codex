@@ -6,7 +6,8 @@
 
 ## Resume anchor — 2026-08-27
 
-G166--G276 is the active structural spine; G277--G281 control the current observational interface.
+G166--G276 is the active structural spine; G277--G281 control the current observational interface;
+G282 types the remaining joint history/Jacobi information.
 On a supplied germ, the primary metric's `B,Q,S,Y,Z` orchestra enters `h=F^*g` before readout.
 Founded depth gives `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not a signal-speed
 theorem. Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -59,6 +60,14 @@ G279/G280 remain controlling. Fresh external review retained the landing after R
 evidence/typing repairs; the corrected 32-source sealed follow-up returned `ACCEPT` with no
 remaining scoped defect and no scientific change.
 
+G282 then applies G280/G281 as hard discriminators. A complete-metric witness keeps the central
+metric, first jet, connection, and endpoint state fixed while changing neighboring transverse
+curvature and native Jacobi area; a primary witness reaches the same depth at different areal
+positions. No owned joint history law appears in the frozen 18-source census. The needed value
+content can be represented as a metric two-jet/curvature condition, an equivalent first-order
+coframe/connection/curvature system, or a global neighboring-relation law; G282 does not privilege
+one. Final sealed external review returned `REPAIR-ACCEPTED`, and all registered checks pass.
+
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
@@ -74,9 +83,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: use G280/G281 as discriminators on the history/value-law search. Ask whether owned metric
-structure jointly propagates depth and null-screen/Jacobi area; if not, type the smallest additional
-native principle before solving or fitting. Do not select/average/smooth `K`, reconstruct a free
+Next: map owned complete coframe/connection identities onto G282's three law homes and preregister
+rejection of its fixed witness pair. If none supplies nonidentity neighboring-curvature value
+content, report the smallest missing premise type before solving or fitting. Do not select/average/smooth `K`, reconstruct a free
 optical curve from observations, identify areal and projective position by fiat, retune observations,
 or select population/`X_max`. The CMB-temperature ratio is a later direct-depth check. No
 ODE/PDE/GPU solve is authorized before an explicit candidate law and premise ledger.

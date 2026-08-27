@@ -21,7 +21,8 @@ normalized scale-free linear-fractional class. W5 is Charles's provisional
 screen-retaining projective relation state. It is not canon and changes neither metric nor kernel.
 
 G166--G276 is the active structural spine; G277--G281 control the observational interface and its
-provenance. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
+provenance; G282 types the remaining joint history/Jacobi information. A supplied germ pulls
+`B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
@@ -83,6 +84,18 @@ landing after R1--R4 evidence/typing repairs, and the corrected 32-source sealed
 follow-up returned `ACCEPT` with no remaining scoped defect. No substantive classification or
 scientific result changed.
 
+G282 asks the next metric-led question without fitting or importing a field law. Exact complete
+metrics can share the same central metric, first jet, connection, and endpoint state while giving
+different native Jacobi areas; primary profiles can also reach the same depth at different areal
+positions. The frozen 18-source census contains no owned joint law that rejects one witness. The
+missing information must constrain neighboring-relation curvature values, but its mathematical
+home is not uniquely selected: complete-metric two-jet/curvature, equivalent first-order
+coframe/connection/curvature, or a global neighboring-relation network law remain possible. Final
+sealed external review returned `REPAIR-ACCEPTED`; all 11 exact checks, 512 independent cases, 3,584
+assertions, seven in-memory claim-schema catches, and five registered replays pass. Direct redshift,
+completed-pair reciprocity, native first-jet interlock, and conditional Jacobi evaluation remain
+intact.
+
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
 
@@ -109,9 +122,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Return to the metric-led history/value question with G280/G281 as hard discriminators: determine
-whether an already owned complete-history principle jointly predicts the reciprocal-depth and
-null-screen/Jacobi evolution, or type the smallest additional native principle needed to do so.
+Map the already-owned complete coframe/connection identities onto G282's three allowed law homes
+and test whether any nonidentity neighboring-relation curvature constraint is already implicit.
+Preregister exact rejection of the G282 witness pair. If no owned condition rejects one witness,
+report the missing premise type without choosing a familiar field equation by habit.
 Only after a finite-dimensional joint history is independently derived may SNe or another
 observation calibrate its constants. Do not choose a preferred `K`, draw a free optical curve from
 the data, identify areal radius with projective position by fiat, retune either SNe release, or

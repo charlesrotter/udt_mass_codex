@@ -99,6 +99,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
+- Current bounded joint history/Jacobi law-type authority: `udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/AUDIT_REPORT.md`.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
