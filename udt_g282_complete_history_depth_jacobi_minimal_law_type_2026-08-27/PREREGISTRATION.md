@@ -95,3 +95,11 @@ At depth \(2\), the positive locations are \(s_A=\sqrt2\) and \(s_B=1\).
 G282 may classify only the owned-law boundary and minimum information type. It may not adopt a new
 field equation, choose a profile, select a physical branch or population, fit an observation,
 derive radiative transfer, or determine a scale or X_max.
+
+## Post-review interpretation note
+
+The external reviewer accepted the scientific landing but found that the implemented catch script
+is narrower than the preregistered phrase "hostile catches" can suggest. `run_catch_proofs.py`
+mutates an in-memory boolean claim schema only; it does not mutate evidence files, derivation code,
+or source-census artifacts. This note retypes the certification layer without changing the
+historical preregistration, witnesses, mathematics, or conclusion.

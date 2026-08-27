@@ -3,8 +3,10 @@
 ## 1. Preregistered
 
 `PASS`. The question, 18-source universe, premise ledger, fixed witnesses, candidate landings,
-hostile catches, and maximum conclusion were committed and pushed at `ae2a322e` before the result
-scripts were executed.
+preregistered catch categories, and maximum conclusion were committed and pushed at `ae2a322e`
+before the result scripts were executed. External review later retyped the implemented catch layer
+as a schematic claim-schema guard rather than an artifact-level mutation replay; the historical
+preregistration itself remains unchanged.
 
 ## 2. Full or bounded scope
 
@@ -14,10 +16,12 @@ control. It does not claim an all-repository or all-possible-law theorem.
 
 ## 3. Independent verification
 
-`PASS_INTERNAL_PENDING_FRESH_EXTERNAL`. The exact symbolic derivation is independently checked by a
-standard-library RK4 implementation that imports no production module: 512 randomized cases and
-3,584 assertions passed. Seven hostile claim mutations were also rejected. A fresh sealed external
-review remains required before the package receives an externally reviewed grade.
+`PASS_INTERNAL_AND_EXTERNAL_MATHEMATICS__REPAIR_FOLLOWUP_PENDING`. The exact symbolic derivation is
+independently checked by a standard-library RK4 implementation that imports no production module:
+512 randomized cases and 3,584 assertions passed. The fresh sealed external reviewer accepted this
+mathematics and the bounded scientific landing. Seven in-memory claim-schema mutations were also
+rejected; this guard does not mutate or replay evidence artifacts. The reviewer's sole requested
+wording repair has been applied and awaits repair-only follow-up verification.
 
 ## 4. Premise audit
 
@@ -29,6 +33,7 @@ discriminators, and omitted imports. No field equation, action, source, fit, sca
 ## Current grade
 
 ```text
-INTERNALLY_VERIFIED_BOUNDED_RESULT
-__FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING
+EXTERNAL_ACCEPT_WITH_REPAIRS
+__R1_CLAIM_SCHEMA_RETYPE_APPLIED
+__REPAIR_ONLY_FOLLOWUP_PENDING
 ```

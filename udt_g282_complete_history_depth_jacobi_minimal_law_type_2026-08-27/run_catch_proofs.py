@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Hostile claim-mutation catches for G282."""
+"""Schematic claim-schema consistency catches for G282.
+
+This guard mutates an in-memory boolean claim schema. It does not mutate or replay evidence files,
+derivation code, or source-census artifacts.
+"""
 
 from __future__ import annotations
 
@@ -49,7 +53,10 @@ def main() -> None:
     print(
         json.dumps(
             {
-                "audit": "G282_HOSTILE_CATCH_PROOFS",
+                "audit": "G282_CLAIM_SCHEMA_CONSISTENCY_CATCHES",
+                "certification_scope": (
+                    "in_memory_boolean_claim_schema_only__not_artifact_level_mutation_replay"
+                ),
                 "status": "PASS",
                 "baseline_accepted": True,
                 "caught": caught,

@@ -95,9 +95,11 @@ mathematical witnesses. It does not inspect observational outcomes, adopt a prof
 coefficient, choose a scale, select a branch/path population, derive radiative transfer, or use
 \(X_{\max}\).
 
-Seven hostile mutations were caught, including erasure of transverse curvature, false equality of
-Jacobi areas, promotion of endpoint state to area, import of a field equation, and false uniqueness
-of a second-order representation.
+Seven in-memory claim-schema mutations were caught, including erasure of transverse curvature,
+false equality of Jacobi areas, promotion of endpoint state to area, import of a field equation,
+and false uniqueness of a second-order representation. This is a schematic claim-logic guard. It
+does not mutate evidence files, derivation code, or source-census artifacts and is not an
+artifact-level mutation replay.
 
 ## Next bounded move
 

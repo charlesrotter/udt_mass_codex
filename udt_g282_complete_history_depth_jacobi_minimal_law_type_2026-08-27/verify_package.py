@@ -78,6 +78,10 @@ def main() -> None:
         "verify_package.py",
         "build_review_intake.py",
         "EXTERNAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_RAW_RETURN.md",
+        "EXTERNAL_REVIEW_DETAILED_MEMO.md",
+        "TRANSMISSION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
         "COMMANDS.md",
     )
     checks = {
@@ -104,8 +108,11 @@ def main() -> None:
             and independent["assertions"] == 3584
             and all(independent["checks"].values())
         ),
-        "hostile_catches_7_of_7": (
+        "claim_schema_catches_7_of_7": (
             catches["status"] == "PASS"
+            and catches["audit"] == "G282_CLAIM_SCHEMA_CONSISTENCY_CATCHES"
+            and catches["certification_scope"]
+            == "in_memory_boolean_claim_schema_only__not_artifact_level_mutation_replay"
             and catches["caught_count"] == catches["mutation_count"] == 7
             and all(catches["caught"].values())
         ),

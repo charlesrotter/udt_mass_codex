@@ -1,5 +1,5 @@
 {
-  "audit": "G282_HOSTILE_CATCH_PROOFS",
+  "audit": "G282_CLAIM_SCHEMA_CONSISTENCY_CATCHES",
   "baseline_accepted": true,
   "caught": {
     "claim_unique_second_order_form": true,
@@ -11,6 +11,7 @@
     "promote_endpoint_state": true
   },
   "caught_count": 7,
+  "certification_scope": "in_memory_boolean_claim_schema_only__not_artifact_level_mutation_replay",
   "mutation_count": 7,
   "status": "PASS"
 }

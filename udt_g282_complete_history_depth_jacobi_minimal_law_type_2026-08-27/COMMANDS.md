@@ -20,7 +20,7 @@ Independent standard-library Jacobi replay:
 python3 udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/verify_independent.py
 ~~~
 
-Hostile mutation catches:
+Schematic claim-schema consistency catches (not an artifact-level mutation replay):
 
 ~~~bash
 python3 udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/run_catch_proofs.py

@@ -1,7 +1,7 @@
 {
   "audit": "G282_COMPLETE_HISTORY_DEPTH_JACOBI_MINIMAL_LAW_TYPE",
   "status": "PASS",
-  "grade": "INTERNALLY_VERIFIED_BOUNDED_RESULT__FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING",
+  "grade": "EXTERNAL_ACCEPT_WITH_REPAIRS__R1_APPLIED__REPAIR_ONLY_FOLLOWUP_PENDING",
   "landing": "NO_OWNED_JOINT_HISTORY_LAW__NEIGHBOR_RELATION_CURVATURE_CONSTRAINT_REQUIRED",
   "counts": {
     "frozen_source_files": 18,
@@ -10,7 +10,7 @@
     "exact_derivation_checks": 11,
     "independent_cases": 512,
     "independent_assertions": 3584,
-    "hostile_mutations_caught": 7
+    "claim_schema_mutations_caught": 7
   },
   "numerical_errors": {
     "maximum_component_error": 3.6926017799032707e-13,
