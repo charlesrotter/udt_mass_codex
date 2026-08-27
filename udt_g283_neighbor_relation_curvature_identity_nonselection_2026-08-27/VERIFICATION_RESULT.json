@@ -1,0 +1,35 @@
+{
+  "audit": "G283_NEIGHBOR_RELATION_CURVATURE_IDENTITY_NONSELECTION",
+  "status": "PASS",
+  "grade": "PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__EXTERNAL_REVIEW_PENDING",
+  "landing": "ARBITRARY_SMOOTH_TIDAL_HISTORY_SURVIVES_OWNED_IDENTITIES__VALUE_LAW_STILL_MISSING",
+  "counts": {
+    "frozen_source_files": 12,
+    "premise_rows": 17,
+    "identity_census_rows": 11,
+    "exact_symbolic_checks": 12,
+    "independent_exact_cases": 128,
+    "independent_exact_assertions": 207360,
+    "independent_numerical_cases": 64,
+    "claim_schema_mutations_caught": 7
+  },
+  "maximum_residuals": {
+    "symplectic": 4.440892098500626e-15,
+    "composition": 6.439293542825908e-15,
+    "reversal": 6.439293542825908e-15,
+    "constant_tracefree_area_error": 2.7755575615628914e-17
+  },
+  "surviving_functions": {
+    "general_symmetric_tide": 3,
+    "tracefree_tide": 2
+  },
+  "premise_imports": {
+    "field_equation": false,
+    "action": false,
+    "source_or_matter_model": false,
+    "observational_outcome": false,
+    "fit": false,
+    "scale": false,
+    "Xmax": false
+  }
+}

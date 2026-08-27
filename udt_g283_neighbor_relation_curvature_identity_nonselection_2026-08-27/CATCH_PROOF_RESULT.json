@@ -1,0 +1,17 @@
+{
+  "audit": "G283_IN_MEMORY_CLAIM_SCHEMA_CATCHES",
+  "baseline_accepted": true,
+  "caught": {
+    "break_interval_network_composition": true,
+    "erase_tracefree_functional_freedom": true,
+    "force_all_Jacobi_areas_equal": true,
+    "import_field_equation_as_owned": true,
+    "make_Bianchi_select_T_values": true,
+    "make_central_connection_depend_on_T": true,
+    "promote_Cartan_to_composer": true
+  },
+  "caught_count": 7,
+  "certification_scope": "in_memory_boolean_claim_schema_only__not_artifact_level_mutation_replay",
+  "mutation_count": 7,
+  "status": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "audit": "G283_INDEPENDENT_COORDINATE_AND_NETWORK_VERIFICATION",
+  "checks": {
+    "all_exact_component_and_Bianchi_assertions_pass": true,
+    "all_interval_compositions_close": true,
+    "all_interval_reversals_close": true,
+    "all_interval_transfers_symplectic": true,
+    "constant_tracefree_area_matches_exact": true,
+    "direct_fraction_curvature_cases_pass": true,
+    "nonflat_optical_responses_exist": true
+  },
+  "constant_tracefree_area_error": 2.7755575615628914e-17,
+  "different_area_cases": 64,
+  "exact_assertions": 207360,
+  "exact_cases": 128,
+  "maximum_composition_residual": 6.439293542825908e-15,
+  "maximum_reversal_residual": 6.439293542825908e-15,
+  "maximum_symplectic_residual": 4.440892098500626e-15,
+  "numerical_cases": 64,
+  "seed": 28320260827,
+  "status": "PASS"
+}

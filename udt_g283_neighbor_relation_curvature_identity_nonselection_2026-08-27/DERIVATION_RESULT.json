@@ -1,0 +1,43 @@
+{
+  "Xmax_used": false,
+  "arbitrary_functions_retained": [
+    "T_xx(u)",
+    "T_xy(u)",
+    "T_yy(u)"
+  ],
+  "audit": "G283_NEIGHBOR_RELATION_CURVATURE_IDENTITY_NONSELECTION",
+  "central_data_fixed_through_metric_jet_order": 1,
+  "checks": {
+    "Jacobi_generator_Hamiltonian_for_arbitrary_symmetric_T": true,
+    "algebraic_Bianchi_generic": true,
+    "central_connection_independent_of_T": true,
+    "central_first_metric_jet_independent_of_T": true,
+    "central_metric_independent_of_T": true,
+    "connection_transverse_derivative_carries_T": true,
+    "differential_Bianchi_allows_arbitrary_Tprime": true,
+    "metric_inverse_exact": true,
+    "primary_hierarchy_retains_arbitrary_N_jets": true,
+    "riemann_pair_symmetry_generic": true,
+    "tracefree_family_retains_two_free_functions": true,
+    "transverse_curvature_equals_arbitrary_T": true
+  },
+  "connection_home": "T_ij(u)=partial_j Gamma^i_uu on central ray",
+  "curvature_enters_at_metric_jet_order": 2,
+  "field_equations_adopted": 0,
+  "fitted_coefficients": 0,
+  "identity_layers_selecting_values": 0,
+  "landing": "ARBITRARY_SMOOTH_TIDAL_HISTORY_SURVIVES_OWNED_IDENTITIES__VALUE_LAW_STILL_MISSING",
+  "metric_two_jet_home": "T_ij(u)=R_uiuj on central ray",
+  "network_home": "D''+T(u)D=0 with symplectic interval transfer",
+  "observational_outcomes_used": 0,
+  "primary_control": {
+    "E0": "2*r*N(r)*Derivative(N(r), r) + N(r)**2 - 1",
+    "E1": "r*(r*(N(r)*Derivative(N(r), (r, 2)) + Derivative(N(r), r)**2) + 2*N(r)*Derivative(N(r), r))",
+    "mu": "r*(1 - N(r)**2)/2"
+  },
+  "status": "PASS",
+  "tracefree_control_functions_retained": [
+    "T_plus(u)",
+    "T_cross(u)"
+  ]
+}
