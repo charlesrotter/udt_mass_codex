@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-Status: `VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW`
+Status: `EXTERNAL_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R3_PREREGISTERED`
 
 ## Result
 
@@ -57,5 +57,7 @@ boundary.
 - whether the attached representative corresponds to a particular operational distance;
 - numerical `X_max`, global completion, source, transfer, matter, and dynamics.
 
-This is an internal verified-with-caveats result pending fresh external adversarial review. It is not
-canonization.
+Fresh external Codex `gpt-5.4` review retained the bounded scientific landing and returned
+`ACCEPT_WITH_REPAIRS`. The requested manifest, sealed-containment, and hostile-certification repairs
+R1--R3 are preregistered in `REPAIR_PREREGISTRATION.md`. This remains pending repair implementation
+and fresh repair-only follow-up; it is not canonization.

@@ -11,4 +11,8 @@
 4. **Premise audit — PASS.** W5 is working/owner-adopted, the anchor is supplied, and `X_max` is not
    an input or automatic consequence.
 
-Banking grade: `VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW`.
+5. **Fresh external adversarial review — CONDITIONAL PASS.** External Codex `gpt-5.4` retained the
+   exact bounded scientific landing and returned `ACCEPT_WITH_REPAIRS` for manifest integrity,
+   sealed-verifier containment, and hostile-certification rigor. Repairs R1--R3 are preregistered.
+
+Banking grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R3_PREREGISTERED`.
