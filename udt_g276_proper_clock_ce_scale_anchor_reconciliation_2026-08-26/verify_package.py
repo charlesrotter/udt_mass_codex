@@ -77,6 +77,7 @@ def main() -> None:
         frozen_source(row["path"], row["sha256"])
 
     required = (
+        "ADVERSARIAL_REVIEW_REQUEST.md",
         "AUDIT_REPORT.md",
         "CATCH_PROOF_RESULT.json",
         "COMMANDS.md",
@@ -91,6 +92,7 @@ def main() -> None:
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
+        "build_review_intake.py",
         "derive_proper_clock_scale.py",
         "run_catch_proofs.py",
         "verify_package.py",
