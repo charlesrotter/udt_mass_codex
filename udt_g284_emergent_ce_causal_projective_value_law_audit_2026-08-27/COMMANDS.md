@@ -1,0 +1,11 @@
+# G284 registered commands
+
+Run from repository root:
+
+```bash
+python3 udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/verify_preregistration.py
+python3 udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/derive_causal_projective.py
+python3 udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/verify_independent.py
+python3 udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/run_catch_proofs.py
+python3 udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/verify_package.py
+```

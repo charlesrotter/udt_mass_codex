@@ -1,0 +1,18 @@
+{
+  "audit": "G284_EMERGENT_CE_CAUSAL_PROJECTIVE_VALUE_LAW",
+  "status": "PASS_INTERNAL_PENDING_EXTERNAL",
+  "grade": "PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED__FRESH_EXTERNAL_REVIEW_PENDING",
+  "landing": "EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY",
+  "counts": {
+    "frozen_sources": 15,
+    "premise_rows": 16,
+    "exact_symbolic_checks": 20,
+    "independent_exact_cases": 512,
+    "independent_exact_assertions": 7168,
+    "independent_network_cases": 64,
+    "claim_schema_catches": 9
+  },
+  "surviving_functions": 3,
+  "value_selecting_constraints_found": 0,
+  "external_review": "PENDING"
+}

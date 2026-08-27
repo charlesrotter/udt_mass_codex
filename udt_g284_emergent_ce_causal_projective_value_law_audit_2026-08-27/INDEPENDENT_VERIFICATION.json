@@ -1,0 +1,20 @@
+{
+  "audit": "G284_INDEPENDENT_CAUSAL_PROJECTIVE_VERIFICATION",
+  "checks": {
+    "all_arbitrary_T_interval_transfers_symplectic": true,
+    "all_exact_cE_cone_and_Hessian_assertions_pass": true,
+    "all_interval_compositions_close": true,
+    "all_interval_reversals_close": true,
+    "all_nonflat_controls_change_Jacobi_area": true,
+    "distinct_T_have_same_central_state_and_different_neighbor_cones": true
+  },
+  "different_area_cases": 64,
+  "exact_assertions": 7168,
+  "exact_cases": 512,
+  "maximum_composition_residual": 7.229772336359019e-13,
+  "maximum_reversal_residual": 1.0436096431476471e-14,
+  "maximum_symplectic_residual": 5.10702591327572e-15,
+  "network_cases": 64,
+  "seed": 28420260827,
+  "status": "PASS"
+}

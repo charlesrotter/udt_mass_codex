@@ -1,0 +1,19 @@
+{
+  "audit": "G284_IN_MEMORY_CLAIM_SCHEMA_CATCHES",
+  "baseline_accepted": true,
+  "caught": {
+    "erase_homothety_separator": true,
+    "erase_screen_or_path_carry": true,
+    "freeze_tidal_functions": true,
+    "globalize_bounded_nonselection": true,
+    "globalize_local_causal_tube": true,
+    "import_endpoint_only_delay": true,
+    "promote_cE_to_absolute_tape_scale": true,
+    "promote_cone_reconstruction_to_value_selection": true,
+    "promote_infinite_c_to_signalling": true
+  },
+  "caught_count": 9,
+  "certification_scope": "in_memory_boolean_claim_schema_only__not_artifact_level_mutation_replay",
+  "mutation_count": 9,
+  "status": "PASS"
+}

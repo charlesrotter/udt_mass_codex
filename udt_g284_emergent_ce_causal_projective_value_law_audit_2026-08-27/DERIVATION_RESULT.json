@@ -1,0 +1,53 @@
+{
+  "arbitrary_tidal_functions_retained": [
+    "T_xx(u)",
+    "T_xy(u)",
+    "T_yy(u)"
+  ],
+  "audit": "G284_EMERGENT_CE_CAUSAL_PROJECTIVE_VALUE_LAW",
+  "central_pair_state": {
+    "M": 1,
+    "chi": 0,
+    "delta": 0,
+    "frequency_ratio": 1
+  },
+  "checks": {
+    "Jacobi_generator_is_Hamiltonian_for_arbitrary_symmetric_T": true,
+    "cE_does_not_enter_T_reconstruction": true,
+    "central_clock_is_unit_timelike": true,
+    "central_connection_independent_of_T": true,
+    "central_first_metric_jet_independent_of_T": true,
+    "central_frequency_is_T_independent": true,
+    "central_metric_independent_of_T": true,
+    "central_minus_longitudinal_slope_is_cE": true,
+    "central_pair_state_is_delta0_chi0_M1": true,
+    "central_plus_longitudinal_slope_is_cE": true,
+    "central_ray_is_null": true,
+    "clock_ruler_coordinates_give_local_cE_cone": true,
+    "constant_homothety_preserves_central_frequency_ratio": true,
+    "constant_homothety_preserves_connection": true,
+    "constant_homothety_preserves_null_cones": true,
+    "curvature_equals_reconstructed_T": true,
+    "metric_determinant_minus_one_for_arbitrary_T": true,
+    "metric_inverse_exact": true,
+    "neighboring_cone_hessian_reconstructs_T": true,
+    "neighboring_null_slope_exists_for_arbitrary_T": true
+  },
+  "exact_checks": 20,
+  "imports": {
+    "action": false,
+    "field_equation": false,
+    "observation_or_fit": false,
+    "scale_or_Xmax": false,
+    "source_or_matter": false
+  },
+  "landing": "EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY",
+  "neighboring_cone_reconstruction": "T_ij=-partial_i partial_j a_null",
+  "status": "PASS",
+  "stronger_unowned_candidates": [
+    "endpoint_only_or_path_independent_tape_law",
+    "zero_holonomy_or_all_germ_isotropy",
+    "nonidentity_relation_between_longitudinal_projective_jet_and_transverse_cone_Hessian"
+  ],
+  "value_selecting_constraints_found": 0
+}
