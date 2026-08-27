@@ -39,11 +39,15 @@ retains active screen/frame carry and is only a conditional dimensional represen
 becomes `X_max` only after a separately owned physical relation population approaches the
 projective boundary and a global completion is supplied.
 
-G276 internally reconciles G252 and G275. The proper-clock channel on one exact identified positive
+G276 externally reviewed the G252/G275 reconciliation. The proper-clock channel on one exact
+identified positive
 timelike segment has homothety weight `+1`; one independent calibrated clock record fixes
 `ell=c_E*tau_star/C_bar`, after which `c_E` carries time into length and `x=ell*chi`. `c_E` alone,
 metric self-evaluation, dimensionless `sech/tanh`, and same-weight ratios do not fix the scale. No
 metric/kernel change, history, operational-distance, or `X_max` selection occurred.
+Fresh `gpt-5.4` returned `ACCEPT_WITH_REPAIRS` while retaining that science. R1 replaces the one
+mislabelled unit control with a physical numeric unit relabelling that fixes dimensionless `C_bar`;
+20,000 cases / 320,003 assertions pass. Repair-only follow-up is pending.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
@@ -63,8 +67,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-G276 is internally `VERIFIED-WITH-CAVEATS` after preregistration, exact derivation, independent
-20,000-case verification, and hostile controls. Fresh external adversarial review is the next gate.
+G276 is externally `ACCEPT_WITH_REPAIRS` after preregistration, exact derivation, independent
+20,000-case / 320,003-assertion verification, and hostile controls. The scientific landing is
+unchanged and R1 is implemented; sealed repair-only follow-up is the next gate.
 Do not call `c_E` alone a length, accept a metric-generated clock value as calibration, promote the
 dimensional representative to a universal distance, select a profile/history/population/`X_max`, or
 begin dynamics. No ODE/PDE/GPU solve is authorized. The 260-row registry controls.

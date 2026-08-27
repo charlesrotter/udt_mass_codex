@@ -74,7 +74,7 @@
 | G273 projective distance ownership | external | W5 later adopts interpretation |
 | G274 projective network descent | external | Full carry; radial Möbius |
 | G275 projective scale attachment | external/R4 accepted | One scale; `X_max` needs completion |
-| G276 proper-clock/`c_E` reconciliation | internal/caveats | Clock datum fixes scale; fresh review next |
+| G276 proper-clock/`c_E` reconciliation | external/repair pending | Clock datum fixes scale; R1 implemented |
 None selects completion/`X_max`.
 ## Scale and limits
 

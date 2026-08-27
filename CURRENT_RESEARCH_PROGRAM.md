@@ -83,6 +83,8 @@ the kernel and does not attach a dimensional scale or select history, population
   record on one exact identified segment has weight `+1` and conditionally fixes
   `ell=c_E*tau_star/C_bar`; `c_E` carries that attached time to length. `c_E` alone, metric
   self-evaluation, dimensionless projective state, and same-weight ratios remain scale blind.
+  External review retained this result with one evidence repair; R1 now keeps dimensionless
+  `C_bar` fixed in the unit-relabelling control.
 
 G206--G276 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
@@ -126,8 +128,9 @@ branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-G276 is internally `VERIFIED-WITH-CAVEATS`: the same-segment proper-clock datum supplies G275's
+G276 is externally `ACCEPT_WITH_REPAIRS`: the same-segment proper-clock datum supplies G275's
 nonzero-weight anchor and `c_E` carries the attached time into length; `c_E` alone and metric
-self-evaluation remain scale blind. Fresh external adversarial review is next. Do not fit a profile,
+self-evaluation remain scale blind. R1 is implemented after 20,000 cases / 320,003 assertions;
+sealed repair-only follow-up is next. Do not fit a profile,
 select a history/population/operational distance/`X_max`, invent a residual, or start an ODE/PDE/GPU
 solve.

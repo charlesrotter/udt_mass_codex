@@ -1199,9 +1199,10 @@ def main() -> None:
     g276_row = by_id["G276"]
     require(
         g276_row["current_status"].startswith(
-            "INTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_E5FDDC76"
+            "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED_FOLLOWUP_PENDING__"
+            "PREREGISTERED_AT_E5FDDC76"
         ),
-        "G276 bounded internal grade changed",
+        "G276 external/repair grade changed",
     )
     require(g276_row["epistemic_label"] == "MIXED", "G276 label changed")
     require(
@@ -1219,7 +1220,7 @@ def main() -> None:
         "ELL_EQUALS_CE_TIMES_TAU_STAR_OVER_C_BAR_UNIQUE_POSITIVE_SCALE",
         "CE_ALONE_METRIC_SELF_EVALUATION_SECH_TANH_AND_SAME_WEIGHT_RATIOS_SCALE_BLIND",
         "SECOND_RECORD_MUST_RECOVER_SAME_ELL",
-        "300003_EXACT_ASSERTIONS",
+        "320003_EXACT_ASSERTIONS",
         "NO_METRIC_OR_KERNEL_CHANGE_HISTORY_DISTANCE_PROTOCOL_OR_XMAX_SELECTION",
     ):
         require(token in g276_row["current_status"], f"G276 guard absent: {token}")
@@ -1229,6 +1230,10 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REVIEW.md",
+        "REVIEW_TRANSMISSION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
         "VERIFICATION_RESULT.json",
         "derive_proper_clock_scale.py",
         "verify_proper_clock_scale_independent.py",
@@ -1262,7 +1267,7 @@ def main() -> None:
         g276_independent["production_imported"] is False
         and g276_independent["production_output_read"] is False
         and g276_independent["cases"] == 20000
-        and g276_independent["exact_assertions"] == 300003
+        and g276_independent["exact_assertions"] == 320003
         and g276_independent["inconsistent_records_rejected"] == 20000
         and g276_independent["self_evaluations_rejected"] == 20000
         and g276_independent["same_segment_mismatches_rejected"] == 20000,
@@ -1282,9 +1287,25 @@ def main() -> None:
     require(
         g276_verification["status"] == "PASS"
         and g276_verification["landing"] == g276_landing
-        and g276_verification["grade"] == "VERIFIED-WITH-CAVEATS"
+        and g276_verification["grade"]
+        == "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING"
         and g276_verification["no_write_replays"] == 3,
         "G276 package verification changed",
+    )
+    g276_external = (g276 / "EXTERNAL_REVIEW.md").read_text()
+    g276_repair = (g276 / "REPAIR_RESULT.md").read_text()
+    require(
+        "ACCEPT_WITH_REPAIRS" in g276_external
+        and "scientific landing does not change" in g276_external.lower()
+        and "dimensionless reference clock length" in g276_external,
+        "G276 external review disposition changed",
+    )
+    require(
+        "R1_IMPLEMENTED__PHYSICALLY_FAITHFUL_UNIT_RELABEL_CONTROL__"
+        "SCIENTIFIC_LANDING_UNCHANGED" in g276_repair
+        and "320,003" in g276_repair
+        and "External repair-only follow-up remains pending" in g276_repair,
+        "G276 R1 repair result changed",
     )
     g276_replay = subprocess.run(
         [sys.executable, str(g276 / "verify_package.py"), "--no-write"],

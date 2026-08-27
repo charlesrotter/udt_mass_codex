@@ -64,13 +64,17 @@ proper, radar, optical, or areal distance. For a supplied populated relation dom
 `X_sup=ell*q_R`; calling `ell` the physical `X_max` still requires a separately owned populated
 approach `q_R -> 1` and global completion.
 
-G276 internally reconciles G252 with G275 without changing the metric or kernel. On one supplied
+G276 externally reviewed the reconciliation of G252 with G275 without changing the metric or
+kernel. On one supplied
 dimensionless history and exact identified positive timelike segment, the modeled proper duration
 has homothety weight `+1`. One independent calibrated clock record gives the unique positive
 `ell=c_E*tau_star/C_bar`; `c_E` carries the attached time into length and hence into
 `x=ell*chi`. `c_E` alone, metric self-evaluation, dimensionless `sech/tanh`, and same-weight ratios
 remain scale blind. The clock record, segment population, complete history, operational distance,
-and `X_max` remain supplied or `OPEN`.
+and `X_max` remain supplied or `OPEN`. Fresh `gpt-5.4` returned `ACCEPT_WITH_REPAIRS` with the
+scientific landing unchanged. R1 now holds dimensionless `C_bar` fixed under a physical numeric
+unit relabelling and passes 20,000 exact-rational cases / 320,003 assertions; repair follow-up is
+pending.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
@@ -99,9 +103,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G276 is internally `VERIFIED-WITH-CAVEATS` after preregistration, 22 exact checks, an independent
-20,000-case exact-rational census, and eight hostile controls. Its next gate is fresh external
-adversarial review of the bounded reconciliation theorem. Do not call `c_E` alone a length, treat a
+G276 is externally `ACCEPT_WITH_REPAIRS`; its bounded theorem was retained and preregistered R1 is
+implemented after 22 exact checks, an independent 20,000-case / 320,003-assertion exact-rational
+census, and eight hostile controls. Its next gate is sealed repair-only external follow-up. Do not
+call `c_E` alone a length, treat a
 metric-generated clock value as independent calibration, erase screen/frame carry or path labels,
 promote `x=ell*chi` to an operational distance, infer `X_max=ell` without populated-boundary
 completion, or import a profile, history law, observational outcome, or residual. No ODE/PDE or GPU

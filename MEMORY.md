@@ -55,7 +55,9 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-G276 is internally verified with caveats; fresh external adversarial review is next. Preserve
+G276 external review returned `ACCEPT_WITH_REPAIRS` with the bounded science unchanged. R1 now
+holds dimensionless `C_bar` fixed in a physical numeric unit relabelling and passes 20,000 cases /
+320,003 assertions; sealed repair-only follow-up is next. Preserve
 screen/frame carry and path labels; do not call `c_E` alone a length, use metric self-evaluation as
 calibration, or select a profile, history, population, operational distance, or `X_max`.
 
