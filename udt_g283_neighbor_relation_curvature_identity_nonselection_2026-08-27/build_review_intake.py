@@ -49,12 +49,13 @@ def main() -> None:
         payload_paths.append(target)
 
     scope = {
-        "audit": "G283_FRESH_EXTERNAL_ADVERSARIAL_REVIEW",
-        "mode": "read_only_source_bounded",
+        "audit": "G283_EXTERNAL_REPAIR_ONLY_FOLLOWUP",
+        "mode": "read_only_repair_only_source_bounded",
         "package": PACKAGE.name,
         "scientific_landing_must_not_be_strengthened": True,
         "allowed_actions": [
             "inspect_manifest_payloads",
+            "verify_only_preregistered_repairs_R1_R2_R3",
             "run_registered_checks_in_writable_ephemeral_copy",
             "perform_bounded_read_only_independent_checks",
         ],
