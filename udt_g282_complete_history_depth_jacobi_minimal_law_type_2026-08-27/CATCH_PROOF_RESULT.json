@@ -1,0 +1,16 @@
+{
+  "audit": "G282_HOSTILE_CATCH_PROOFS",
+  "baseline_accepted": true,
+  "caught": {
+    "claim_unique_second_order_form": true,
+    "drop_equivalent_law_types": true,
+    "erase_primary_separator": true,
+    "erase_transverse_curvature": true,
+    "force_equal_jacobi_area": true,
+    "import_field_equation": true,
+    "promote_endpoint_state": true
+  },
+  "caught_count": 7,
+  "mutation_count": 7,
+  "status": "PASS"
+}

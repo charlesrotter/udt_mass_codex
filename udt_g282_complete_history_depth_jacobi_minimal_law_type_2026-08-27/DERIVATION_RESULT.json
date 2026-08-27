@@ -1,0 +1,50 @@
+{
+  "Xmax_used": false,
+  "audit": "G282_COMPLETE_HISTORY_DEPTH_JACOBI_MINIMAL_LAW_TYPE",
+  "checks": {
+    "first_area_difference_is_sixth_order": true,
+    "jacobi_area_differs_from_flat": true,
+    "jacobi_equations_exact": true,
+    "primary_different_areal_position": true,
+    "primary_same_depth": true,
+    "riemann_pair_symmetry_control": true,
+    "same_central_connection_transport": true,
+    "same_central_metric": true,
+    "same_central_metric_first_jet": true,
+    "transverse_curvature_nonzero_and_tracefree": true,
+    "vertex_initial_data_exact": true
+  },
+  "field_equations_adopted": 0,
+  "fitted_coefficients": 0,
+  "full_metric_witness": {
+    "R_uxux": "-A",
+    "R_uyuy": "A",
+    "central_ray": "x=y=0",
+    "jacobi_Dx": "sinh(q*u)/q",
+    "jacobi_Dy": "sin(q*u)/q",
+    "jacobi_determinant": "sin(q*u)*sinh(q*u)/q**2",
+    "jacobi_determinant_series": "u**2 - q**4*u**6/90 + O(u**9)",
+    "metric": "ds2=-2 du dv+dx2+dy2+A(x2-y2)du2"
+  },
+  "landing": "NO_OWNED_JOINT_HISTORY_LAW__NEIGHBOR_RELATION_CURVATURE_CONSTRAINT_REQUIRED",
+  "minimum_missing_information_types": [
+    "nonidentity_complete_metric_two_jet_or_curvature_law",
+    "equivalent_first_order_coframe_connection_curvature_system",
+    "global_neighboring_relation_network_law_with_value_content"
+  ],
+  "not_uniquely_implied": [
+    "second_order_metric_PDE",
+    "Einstein_equation",
+    "action",
+    "source_model"
+  ],
+  "observational_outcomes_used": 0,
+  "primary_witness": {
+    "depth": 2,
+    "phi_A": "s**2",
+    "phi_B": "s**2+s**4",
+    "s_A": "sqrt(2)",
+    "s_B": "1"
+  },
+  "status": "PASS"
+}

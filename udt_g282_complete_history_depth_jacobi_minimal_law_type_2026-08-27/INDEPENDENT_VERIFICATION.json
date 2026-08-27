@@ -1,0 +1,14 @@
+{
+  "assertions": 3584,
+  "audit": "G282_INDEPENDENT_NEIGHBOR_RAY_CHECK",
+  "cases": 512,
+  "checks": {
+    "all_numerical_jacobi_cases_match_exact": true,
+    "all_same_depth_primary_cases_separate_area": true,
+    "maximum_area_error_below_5e_12": true,
+    "maximum_component_error_below_3e_12": true
+  },
+  "maximum_area_error": 2.0328183580886616e-13,
+  "maximum_component_error": 3.6926017799032707e-13,
+  "status": "PASS"
+}

@@ -1,0 +1,41 @@
+{
+  "audit": "G282_COMPLETE_HISTORY_DEPTH_JACOBI_MINIMAL_LAW_TYPE",
+  "status": "PASS",
+  "grade": "INTERNALLY_VERIFIED_BOUNDED_RESULT__FRESH_EXTERNAL_ADVERSARIAL_REVIEW_PENDING",
+  "landing": "NO_OWNED_JOINT_HISTORY_LAW__NEIGHBOR_RELATION_CURVATURE_CONSTRAINT_REQUIRED",
+  "counts": {
+    "frozen_source_files": 18,
+    "preregistered_premise_rows": 17,
+    "ownership_census_rows": 14,
+    "exact_derivation_checks": 11,
+    "independent_cases": 512,
+    "independent_assertions": 3584,
+    "hostile_mutations_caught": 7
+  },
+  "numerical_errors": {
+    "maximum_component_error": 3.6926017799032707e-13,
+    "maximum_area_error": 2.0328183580886616e-13
+  },
+  "premise_imports": {
+    "field_equation": false,
+    "action": false,
+    "source_or_matter_model": false,
+    "observational_outcome": false,
+    "fit": false,
+    "scale": false,
+    "Xmax": false
+  },
+  "retained": [
+    "direct_reciprocal_depth_and_redshift_on_declared_query",
+    "completed_pair_dual_reciprocity",
+    "angular_screen_mixing_before_terminal_readout",
+    "native_first_jet_interlock",
+    "conditional_complete_metric_Jacobi_evaluator",
+    "working_GR_quiet_regime"
+  ],
+  "minimum_missing_information_types": [
+    "nonidentity_complete_metric_two_jet_or_curvature_law",
+    "equivalent_first_order_coframe_connection_curvature_system",
+    "global_neighboring_relation_network_law_with_value_content"
+  ]
+}
