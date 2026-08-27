@@ -1,0 +1,16 @@
+item	status	role	used_in_scale	used_in_des
+completed_pair_projective_state	WORKING_FOUNDATIONAL_CLARIFICATION	physical normalized pair position after complete metric pullback	yes	yes
+phi_equals_log1p_z	DERIVED_CONDITIONAL	direct reciprocal redshift readout	yes	yes
+one_positive_homothety_ell	DERIVED_CONDITIONAL	remaining scale after G275/G276	yes	yes
+G236_relative_state	OBSERVED_PREREGISTERED_NUMERICAL_READOUT	frozen Pantheon+-only S_K(phi)	yes	yes
+cepheid_host_distance_modulus	OBSERVED	absolute host-distance rung	yes	no
+pantheon_standardized_magnitude	OBSERVED	shared SNe magnitude channel	yes	no
+transparent_radiative_transfer	CONDITIONAL_IMPORT	maps metric area/redshift to luminosity distance	yes	yes
+cepheid_to_same_operational_distance	CONDITIONAL_OBSERVATIONAL_BRIDGE	joins ladder distance to UDT SNe channel	yes	no
+DES_published_MU_normalization	OBSERVED_RELEASE_CONVENTION	held-out strict normalization	no	yes
+P1	NOT_USED	prohibited scaffolding	no	no
+angular_orchestra_coefficients	NOT_USED	no post-readout modulation or fit	no	no
+complete_metric_history	OPEN	not selected or fitted	no	no
+X_max	OPEN	not input or inferred	no	no
+CMB_source_temperature	SUPPLIED_LATER_CONDITIONAL	not used in G278	no	no
+Lambda_CDM_distance	NOT_USED	prohibited interpretation	no	no
