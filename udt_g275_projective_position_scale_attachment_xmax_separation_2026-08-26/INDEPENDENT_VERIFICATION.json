@@ -15,5 +15,6 @@
   "positive_weight_cases": 10001,
   "production_imported": false,
   "production_output_read": false,
-  "status": "PASS"
+  "status": "PASS",
+  "zero_state_population_control": true
 }

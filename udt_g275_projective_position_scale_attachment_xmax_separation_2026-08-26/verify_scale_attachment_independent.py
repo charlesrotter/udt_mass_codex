@@ -105,6 +105,12 @@ def norm2(vector: tuple[F, F, F]) -> F:
     return sum((value * value for value in vector), F(0))
 
 
+def projective_supremum_sq(vectors: list[tuple[F, F, F]]) -> F:
+    if not vectors:
+        raise ValueError("a populated relation domain is required")
+    return max(norm2(vector) for vector in vectors)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-write", action="store_true")
@@ -212,7 +218,13 @@ def main() -> None:
     require(positive_weight_cases > 0 and negative_weight_cases > 0)
     require(finite_domain_controls == CASES)
     require(boundary_approach_controls == CASES)
-    require(len([]) == 0)  # empty population remains distinct from a zero supremum
+    empty_population_control = False
+    try:
+        projective_supremum_sq([])
+    except ValueError:
+        empty_population_control = True
+    zero_state_population_control = projective_supremum_sq([(F(0), F(0), F(0))]) == 0
+    require(empty_population_control and zero_state_population_control)
 
     result = {
         "status": "PASS",
@@ -228,7 +240,8 @@ def main() -> None:
         "negative_weight_cases": negative_weight_cases,
         "finite_domain_controls": finite_domain_controls,
         "boundary_approach_controls": boundary_approach_controls,
-        "empty_population_control": True,
+        "empty_population_control": empty_population_control,
+        "zero_state_population_control": zero_state_population_control,
         "observations_used": False,
         "history_selected": False,
         "X_max_selected": False,

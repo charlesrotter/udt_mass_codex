@@ -50,9 +50,9 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-G275 is internally verified with caveats. The next gate is fresh external adversarial review of the
-homothety/anchor theorem and the retained `ell` versus `X_max` separation. Preserve screen/frame
-carry and path labels; do not select a profile, history, population, `X_max`, or start dynamics.
+External `gpt-5.4` retained G275's science and requested certification repairs only. R1--R3 now pass
+corrected sealed/tamper replays; fresh repair-only follow-up is next. Preserve screen/frame carry and
+path labels; do not select a profile, history, population, `X_max`, or start dynamics.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-Status: `EXTERNAL_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R3_PREREGISTERED`
+Status: `SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP`
 
 ## Result
 
@@ -59,5 +59,6 @@ boundary.
 
 Fresh external Codex `gpt-5.4` review retained the bounded scientific landing and returned
 `ACCEPT_WITH_REPAIRS`. The requested manifest, sealed-containment, and hostile-certification repairs
-R1--R3 are preregistered in `REPAIR_PREREGISTRATION.md`. This remains pending repair implementation
-and fresh repair-only follow-up; it is not canonization.
+R1--R3 were preregistered at commit `18f84136` and are now implemented. The corrected sealed replay,
+tamper gates, and genuine eight-entry mutation ledger pass. Fresh repair-only follow-up remains
+pending; this is not canonization.

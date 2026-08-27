@@ -24,3 +24,8 @@ python3 udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26
 ```
 
 Result: production PASS, independent PASS, hostile catches PASS.
+
+External review retained the scientific landing and requested certification repairs R1--R3.
+Those repairs were preregistered at commit `18f84136`. The corrected run adds an exact sealed-root
+manifest verifier, fail-closed sealed-source resolution, three ephemeral tamper checks, and a real
+eight-entry mutation/scope ledger. No scientific formula or landing changed.

@@ -1194,7 +1194,8 @@ def main() -> None:
     g275_row = by_id["G275"]
     require(
         g275_row["current_status"].startswith(
-            "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW__PREREGISTERED"
+            "SCIENTIFIC_LANDING_RETAINED__EXTERNAL_ACCEPT_WITH_REPAIRS__"
+            "R1_R3_IMPLEMENTED__PENDING_REPAIR_ONLY_FOLLOWUP__PREREGISTERED"
         ),
         "G275 bounded internal grade changed",
     )
@@ -1224,7 +1225,12 @@ def main() -> None:
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
         "VERIFICATION_RESULT.json",
+        "EXTERNAL_REVIEW.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
+        "REPAIR_VERIFICATION_RESULT.json",
         "verify_package.py",
+        "verify_review_repairs.py",
     ):
         require((g275 / name).is_file(), f"G275 evidence missing: {name}")
     g275_production = json.loads((g275 / "DERIVATION_RESULT.json").read_text())
@@ -1250,19 +1256,27 @@ def main() -> None:
         and g275_independent["cases"] == 20000
         and g275_independent["exact_assertions"] == 340006
         and g275_independent["active_screen_cases"] == 20000
-        and g275_independent["carry_separators"] == 20000,
+        and g275_independent["carry_separators"] == 20000
+        and g275_independent["empty_population_control"] is True
+        and g275_independent["zero_state_population_control"] is True,
         "G275 independent census changed",
     )
     require(
         g275_catches["implementation_mutations_caught"] == 6
         and g275_catches["typed_scope_catches_passed"] == 2
-        and all(g275_catches["catches"].values()),
+        and len(g275_catches["mutation_ledger"]) == 8
+        and all(g275_catches["catches"].values())
+        and all(
+            row["baseline_passed"] and row["mutant_rejected"]
+            for row in g275_catches["mutation_ledger"]
+        ),
         "G275 hostile catch ledger changed",
     )
     require(
         g275_verification["status"] == "PASS"
         and g275_verification["landing"] == g275_landing
-        and g275_verification["grade"] == "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW"
+        and g275_verification["grade"]
+        == "SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP"
         and g275_verification["no_write_replays"] == 3,
         "G275 package verification changed",
     )
@@ -1275,6 +1289,17 @@ def main() -> None:
         env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
     )
     require(g275_replay.returncode == 0, "G275 no-write package replay failed")
+    g275_repair_result = json.loads((g275 / "REPAIR_VERIFICATION_RESULT.json").read_text())
+    require(
+        g275_repair_result["status"] == "PASS"
+        and g275_repair_result["clean_sealed_replay"] is True
+        and g275_repair_result["unlisted_extra_rejected"] is True
+        and g275_repair_result["listed_payload_tamper_rejected"] is True
+        and g275_repair_result["sealed_source_tamper_rejected"] is True
+        and g275_repair_result["sealed_git_fallback_invoked"] is False
+        and g275_repair_result["scientific_landing_changed"] is False,
+        "G275 repair verification changed",
+    )
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"

@@ -1,15 +1,65 @@
 {
   "catches": {
     "automatic_xmax_equals_scale_caught": true,
-    "ce_only_scale_selection_caught": true,
+    "ce_only_length_attachment_caught": true,
+    "empty_population_as_zero_supremum_caught": true,
     "homothety_leak_into_projective_state_caught": true,
     "per_anchor_scale_proliferation_caught": true,
     "screen_deletion_caught": true,
-    "unpopulated_boundary_promotion_caught": true,
     "vector_only_composition_caught": true,
-    "zero_weight_anchor_caught": true
+    "zero_weight_scale_recovery_caught": true
   },
   "implementation_mutations_caught": 6,
+  "mutation_ledger": [
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "homothety_leak_into_projective_state"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "screen_deletion"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "vector_only_composition"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "per_anchor_scale_proliferation"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "automatic_xmax_equals_scale"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "empty_population_as_zero_supremum"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "typed_scope",
+      "mutant_rejected": true,
+      "name": "ce_only_length_attachment"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "typed_scope",
+      "mutant_rejected": true,
+      "name": "zero_weight_scale_recovery"
+    }
+  ],
   "status": "PASS",
   "typed_scope_catches_passed": 2
 }

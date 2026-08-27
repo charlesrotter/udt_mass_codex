@@ -120,7 +120,7 @@ branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-G275 is internally verified with caveats and pending fresh external adversarial review. Audit the
-constant-homothety proof, arbitrary nonzero-weight attachment, active-screen/frame-carry retention,
-and the exact requirement `q_R=1` before `ell` can be identified with `X_max`. Do not fit a profile,
-select a history/population/`X_max`, invent a residual, or start an ODE/PDE/GPU solve.
+External `gpt-5.4` retained G275's exact bounded science and requested certification repairs R1--R3.
+The corrected manifest, fail-closed sealed verifier, and executable mutation ledger pass; fresh
+repair-only follow-up is next. Do not fit a profile, select a history/population/`X_max`, invent a
+residual, or start an ODE/PDE/GPU solve.

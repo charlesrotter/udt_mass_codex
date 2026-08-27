@@ -13,6 +13,9 @@
 
 5. **Fresh external adversarial review — CONDITIONAL PASS.** External Codex `gpt-5.4` retained the
    exact bounded scientific landing and returned `ACCEPT_WITH_REPAIRS` for manifest integrity,
-   sealed-verifier containment, and hostile-certification rigor. Repairs R1--R3 are preregistered.
+   sealed-verifier containment, and hostile-certification rigor.
+6. **Repairs R1--R3 — PASS, PENDING FOLLOW-UP.** The nonrecursive manifest convention is explicit
+   and exact; sealed verification fails closed without Git fallback; unlisted-file, listed-payload,
+   and sealed-source tampering are rejected; and all eight executable mutation/scope catches pass.
 
-Banking grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__R1_R3_PREREGISTERED`.
+Banking grade: `SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP`.

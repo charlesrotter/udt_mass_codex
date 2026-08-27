@@ -54,11 +54,17 @@ def main() -> None:
 
     package_files = [path for path in destination.rglob("*") if path.is_file()]
     total_files = len(package_files) + 2
+    manifest_entries = total_files - 1
     scope = {
         "status": "SEALED_READ_ONLY_ADVERSARIAL_REVIEW_INTAKE",
         "package": PACKAGE.name,
         "preregistration_commit": PREREG_COMMIT,
         "file_count_including_scope_and_manifest": total_files,
+        "manifest_entry_count_excluding_manifest": manifest_entries,
+        "manifest_semantics": (
+            "REVIEW_MANIFEST.tsv lists every physical file except itself; its SHA-256 is recorded "
+            "externally because a cryptographic self-hash would be recursive"
+        ),
         "review_question": (
             "Verify only the bounded G275 constant-homothety, one-anchor scale-attachment, "
             "full-frame-carry, and Xmax-separation landing."
@@ -79,7 +85,7 @@ def main() -> None:
     scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     payloads = sorted(path for path in intake.rglob("*") if path.is_file())
-    assert len(payloads) + 1 == total_files
+    assert len(payloads) == manifest_entries
     manifest_path = intake / "REVIEW_MANIFEST.tsv"
     with manifest_path.open("w", encoding="utf-8", newline="") as stream:
         writer = csv.writer(stream, delimiter="\t", lineterminator="\n")

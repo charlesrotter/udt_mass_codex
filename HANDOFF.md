@@ -57,9 +57,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-G275 is internally verified with caveats. Next, obtain fresh external adversarial review of its
-constant-homothety proof, one-anchor theorem, active-screen/frame-carry retention, and `ell` versus
-`X_max` boundary. Do not promote the dimensional representative to a universal distance, select a
+External `gpt-5.4` retained G275's exact scientific landing and requested certification repairs R1--R3.
+They are implemented and pass corrected sealed/tamper replays; fresh repair-only follow-up is next.
+Do not promote the dimensional representative to a universal distance, select a
 profile/history/population/`X_max`, or begin dynamics. No ODE/PDE/GPU solve is authorized.
 The 259-row registry controls.
 

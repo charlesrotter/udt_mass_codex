@@ -22,22 +22,60 @@ LANDING = (
     "DIMENSIONFUL_REPRESENTATIVE_RETAINS_FULL_FRAME_CARRY__"
     "XMAX_EQUALS_SCALE_ONLY_AFTER_SEPARATELY_OWNED_POPULATED_BOUNDARY_COMPLETION"
 )
+SEALED_REVIEW = (SCOPE_ROOT / "REVIEW_SCOPE.json").is_file()
 
 
 def digest_bytes(payload: bytes) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def verify_sealed_review_root() -> None:
+    """Fail closed on exact nonrecursive manifest semantics inside a sealed intake."""
+
+    if not SEALED_REVIEW:
+        return
+    scope_path = SCOPE_ROOT / "REVIEW_SCOPE.json"
+    manifest_path = SCOPE_ROOT / "REVIEW_MANIFEST.tsv"
+    assert manifest_path.is_file()
+    scope = json.loads(scope_path.read_text(encoding="utf-8"))
+    with manifest_path.open(newline="", encoding="utf-8") as stream:
+        rows = list(csv.DictReader(stream, delimiter="\t"))
+    physical = sorted(
+        path.relative_to(SCOPE_ROOT).as_posix()
+        for path in SCOPE_ROOT.rglob("*")
+        if path.is_file()
+    )
+    listed = [row["path"] for row in rows]
+    expected = sorted(path for path in physical if path != "REVIEW_MANIFEST.tsv")
+    assert scope["file_count_including_scope_and_manifest"] == len(physical)
+    assert scope["manifest_entry_count_excluding_manifest"] == len(rows)
+    assert "except itself" in scope["manifest_semantics"]
+    assert len(listed) == len(set(listed))
+    assert sorted(listed) == expected
+    for row in rows:
+        candidate = (SCOPE_ROOT / row["path"]).resolve()
+        assert candidate.is_relative_to(SCOPE_ROOT)
+        payload = candidate.read_bytes()
+        assert digest_bytes(payload) == row["sha256"]
+        assert len(payload) == int(row["bytes"])
+
+
 def frozen_source_bytes(relative: str, expected: str) -> bytes:
-    """Resolve live, sealed-copy, or preregistered Git bytes without mutating evidence."""
+    """Resolve exact frozen bytes; a sealed intake may never fall back outside itself."""
+
+    sealed = (ROOT / "sources" / relative).resolve()
+    source_root = (ROOT / "sources").resolve()
+    if SEALED_REVIEW:
+        assert sealed.is_relative_to(source_root) and sealed.is_file(), relative
+        payload = sealed.read_bytes()
+        assert digest_bytes(payload) == expected, relative
+        return payload
 
     live = (SCOPE_ROOT / relative).resolve()
     if live.is_relative_to(SCOPE_ROOT) and live.is_file():
         payload = live.read_bytes()
         if digest_bytes(payload) == expected:
             return payload
-    sealed = (ROOT / "sources" / relative).resolve()
-    source_root = (ROOT / "sources").resolve()
     if sealed.is_relative_to(source_root) and sealed.is_file():
         payload = sealed.read_bytes()
         if digest_bytes(payload) == expected:
@@ -69,6 +107,8 @@ def main() -> None:
     parser.add_argument("--no-write", action="store_true")
     args = parser.parse_args()
 
+    verify_sealed_review_root()
+
     with (ROOT / "SOURCE_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
         sources = list(csv.DictReader(stream, delimiter="\t"))
     assert len(sources) == 10
@@ -82,6 +122,7 @@ def main() -> None:
         "COMMANDS.md",
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
+        "EXTERNAL_REVIEW.md",
         "EXACT_DERIVATION.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
@@ -89,6 +130,9 @@ def main() -> None:
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
         "PREREGISTRATION_EXECUTION_NOTE.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
+        "REPAIR_VERIFICATION_RESULT.json",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -96,6 +140,7 @@ def main() -> None:
         "derive_projective_scale_attachment.py",
         "run_catch_proofs.py",
         "verify_package.py",
+        "verify_review_repairs.py",
         "verify_scale_attachment_independent.py",
     )
     for name in required:
@@ -121,15 +166,18 @@ def main() -> None:
     assert independent["finite_domain_controls"] == 20_000
     assert independent["boundary_approach_controls"] == 20_000
     assert independent["empty_population_control"] is True
+    assert independent["zero_state_population_control"] is True
     assert catches["implementation_mutations_caught"] == 6
     assert catches["typed_scope_catches_passed"] == 2
+    assert len(catches["mutation_ledger"]) == 8
+    assert all(row["baseline_passed"] and row["mutant_rejected"] for row in catches["mutation_ledger"])
 
     replay("derive_projective_scale_attachment.py")
     replay("verify_scale_attachment_independent.py")
     replay("run_catch_proofs.py")
 
     report = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
-    assert "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW" in report
+    assert "SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP" in report
     assert "not automatically `X_max`" in report
     assert "full frame-carry requirement" in report
     forbidden = (
@@ -153,7 +201,7 @@ def main() -> None:
         "implementation_mutations_caught": 6,
         "typed_scope_catches_passed": 2,
         "no_write_replays": 3,
-        "grade": "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW",
+        "grade": "SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:

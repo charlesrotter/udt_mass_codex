@@ -91,10 +91,10 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G275 is internally verified with caveats and awaits fresh external adversarial review. Review the
-homothety proof, arbitrary nonzero-weight attachment, active-screen/frame-carry retention, and the
-separation between `ell` and `X_max`. Do not erase screen/frame carry, path labels, or holonomy;
-promote `x=ell*chi` to an operational distance; infer `X_max=ell` without populated-boundary
-completion; import a profile, history law, branch selector, observational outcome, or residual. No
-ODE/PDE or GPU solve is authorized.
+External `gpt-5.4` retained the exact G275 science and requested certification repairs only. R1--R3
+are implemented: explicit nonrecursive manifest semantics, fail-closed sealed verification, and
+genuine mutation/scope catches. Obtain fresh repair-only follow-up. Do not erase screen/frame carry,
+path labels, or holonomy; promote `x=ell*chi` to an operational distance; infer `X_max=ell` without
+populated-boundary completion; import a profile, history law, branch selector, observational outcome,
+or residual. No ODE/PDE or GPU solve is authorized.
 <!-- STARTUP_CURRENT_END -->
