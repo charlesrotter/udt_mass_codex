@@ -69,18 +69,20 @@ def main() -> None:
     total_files = len(package_files) + len(frozen_rows) + 3
     manifest_entries = total_files - 1
     scope = {
-        "status": "SEALED_READ_ONLY_FRESH_ADVERSARIAL_INTAKE",
+        "status": "SEALED_READ_ONLY_REPAIR_ONLY_FOLLOWUP_INTAKE",
         "package": PACKAGE.name,
         "scientific_landing_commit": "f64d673e",
+        "external_repair_preregistration_commit": "15728f76",
         "file_count_including_scope_and_manifest": total_files,
         "manifest_entry_count_excluding_manifest": manifest_entries,
         "review_question": (
-            "Adversarially verify the bounded G277 ownership landing, source semantics, actual "
-            "covariance-weighted identifiability result and retained raw covariance caveat, "
-            "independent fact derivation, hostile criterion coverage, and no-fit/no-scale ceiling."
+            "Verify only external repairs R1 and R2: sealed-versus-repository evidence separation, "
+            "distinct source-derived same-object and bridge facts for all eight candidates, exact "
+            "agreement with the frozen production census, and the unchanged bounded G277 landing."
         ),
         "allowed": [
             "inspect only this sealed intake",
+            "verify only preregistered external repairs R1 and R2 and the retained landing",
             "run registered no-write replays inside the intake",
             "run bounded checks in a writable ephemeral copy",
         ],
@@ -91,6 +93,7 @@ def main() -> None:
             "access the repository or protected packages outside this intake",
             "inspect unsealed observational outcomes",
             "fit or select a numerical scale, history, metric, kernel, operational distance, or Xmax",
+            "reopen any finding outside external repairs R1 and R2",
         ],
     }
     scope_path = intake / "REVIEW_SCOPE.json"

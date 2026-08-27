@@ -25,14 +25,82 @@
   },
   "caveat": "PantheonPlus_identifiability_requires_the_published_distance_ladder_and_a_declared_UDT_operational_distance_or_radiative_transfer_bridge;_it_is_not_a_native_G276_clock_record",
   "classification": {
-    "DES_Dovekie": "RELATIVE_ONLY",
-    "G276_clock_control": "DIRECT_NONZERO_WEIGHT_ANCHOR",
-    "PantheonPlus_CEPH_DIST": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
-    "PantheonPlus_relative": "RELATIVE_ONLY",
-    "cmb_temp": "NOT_CURRENTLY_SCALE_TYPED",
-    "two_relative_releases": "RELATIVE_ONLY"
+    "DES_Dovekie_alone": "RELATIVE_ONLY",
+    "G250_direct_geometric_record": "DIRECT_NONZERO_WEIGHT_ANCHOR",
+    "G276_same_segment_proper_clock": "DIRECT_NONZERO_WEIGHT_ANCHOR",
+    "PantheonPlus_CEPH_DIST_calibrators": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
+    "PantheonPlus_calibrators_plus_Hubble_flow": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
+    "PantheonPlus_noncalibrators_only": "RELATIVE_ONLY",
+    "PantheonPlus_relative_plus_DES_relative": "RELATIVE_ONLY",
+    "cmb_temp": "NOT_CURRENTLY_SCALE_TYPED"
   },
   "classification_derived_from_explicit_predicate": true,
+  "classification_facts": {
+    "DES_Dovekie_alone": {
+      "bridge_owned": false,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": false,
+      "source_owned": true,
+      "zero_point_closed": false
+    },
+    "G250_direct_geometric_record": {
+      "bridge_owned": true,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": true,
+      "source_owned": true,
+      "zero_point_closed": true
+    },
+    "G276_same_segment_proper_clock": {
+      "bridge_owned": true,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": true,
+      "source_owned": true,
+      "zero_point_closed": true
+    },
+    "PantheonPlus_CEPH_DIST_calibrators": {
+      "bridge_owned": false,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": false,
+      "source_owned": true,
+      "zero_point_closed": true
+    },
+    "PantheonPlus_calibrators_plus_Hubble_flow": {
+      "bridge_owned": false,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": false,
+      "source_owned": true,
+      "zero_point_closed": true
+    },
+    "PantheonPlus_noncalibrators_only": {
+      "bridge_owned": false,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": false,
+      "source_owned": true,
+      "zero_point_closed": false
+    },
+    "PantheonPlus_relative_plus_DES_relative": {
+      "bridge_owned": false,
+      "independent": true,
+      "nonzero_weight": true,
+      "same_object": false,
+      "source_owned": true,
+      "zero_point_closed": false
+    },
+    "cmb_temp": {
+      "bridge_owned": false,
+      "independent": true,
+      "nonzero_weight": false,
+      "same_object": false,
+      "source_owned": false,
+      "zero_point_closed": false
+    }
+  },
   "classification_facts_derived_from_sources_and_computation": true,
   "exact_design_ranks": {
     "calibrator_plus_flow": 2,
@@ -60,6 +128,13 @@
     "cepheid_covariance": true,
     "temperature_future": true,
     "thermal_conditional": true
+  },
+  "source_derived_ownership_boundaries": {
+    "G250_exact_object_geometric_type_control": true,
+    "G276_exact_segment_clock_control": true,
+    "operational_distance_open": true,
+    "same_object_attachment_open": true,
+    "transparent_transfer_imported_and_conditional": true
   },
   "status": "VERIFIED_WITH_CAVEATS"
 }

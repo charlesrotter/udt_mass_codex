@@ -104,11 +104,19 @@ def main() -> None:
     assert independent["classification_facts_derived_from_sources_and_computation"]
     with (HERE / "ANCHOR_CLASSIFICATION.tsv").open(newline="") as stream:
         classes = {row["candidate"]: row["classification"] for row in csv.DictReader(stream, delimiter="\t")}
+    assert len(classes) == 8
+    assert independent["classification"] == classes
+    assert set(independent["classification_facts"]) == set(classes)
+    assert all(
+        {"same_object", "bridge_owned"}.issubset(facts)
+        for facts in independent["classification_facts"].values()
+    )
     assert classes["PantheonPlus_CEPH_DIST_calibrators"] == "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR"
     assert classes["DES_Dovekie_alone"] == "RELATIVE_ONLY"
     assert classes["PantheonPlus_relative_plus_DES_relative"] == "RELATIVE_ONLY"
     assert classes["cmb_temp"] == "NOT_CURRENTLY_SCALE_TYPED"
     assert classes["G276_same_segment_proper_clock"] == "DIRECT_NONZERO_WEIGHT_ANCHOR"
+    assert classes["G250_direct_geometric_record"] == "DIRECT_NONZERO_WEIGHT_ANCHOR"
     artifact_hashes = no_write_replays()
     result = {
         "status": "PASS",

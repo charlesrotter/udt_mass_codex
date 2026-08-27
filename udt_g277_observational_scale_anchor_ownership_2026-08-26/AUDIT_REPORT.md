@@ -3,7 +3,7 @@
 Date: 2026-08-26
 
 Grade:
-`ZERO_CONTEXT_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED`
+`EXTERNAL_REVIEW_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_PENDING__BOUNDED_LANDING_UNCHANGED`
 
 ## Landing
 
@@ -111,12 +111,14 @@ transfer premises are made explicit. It should not set the scale in the current 
 - the actual 1,657-row covariance-weighted design has rank two across all three preregistered
   symmetric covariance interpretations;
 - implementation-distinct Cholesky-whitened verification reproduces the schema, actual weighted
-  rank, covariance caveat, and classifications from hashed source semantics plus computed ranks,
-  without importing the production script or reading its output;
+  rank, covariance caveat, and all eight classifications from hashed source semantics plus computed
+  ranks, without importing the production script or reading its output; same-object identity and
+  operational-distance/transfer ownership are derived as distinct facts;
 - eleven nonvacuous hostile ownership overclaims exercise and reject every registered acceptance
   criterion by name;
 - three registered no-write replays preserve all six durable output hashes;
-- repository purity suite: 181 passed, 1 documented xfail;
+- repository-only purity suite: 181 passed, 1 documented xfail locally; this was outside the sealed
+  external review scope and was not externally replayed;
 - zero fits and zero numerical scale estimates.
 
 ## Scope ceiling

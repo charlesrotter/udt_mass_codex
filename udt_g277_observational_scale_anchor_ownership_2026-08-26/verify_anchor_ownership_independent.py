@@ -185,6 +185,12 @@ def source_derived_classification_facts(
     g258 = source_path(
         "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/AUDIT_REPORT.md", ROOT
     ).read_text()
+    g250 = source_path(
+        "udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/AUDIT_REPORT.md", ROOT
+    ).read_text()
+    g251 = source_path(
+        "udt_g251_same_object_metric_attachment_ownership_2026-08-24/AUDIT_REPORT.md", ROOT
+    ).read_text()
     g275 = source_path(
         "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md",
         ROOT,
@@ -221,7 +227,14 @@ def source_derived_classification_facts(
         and "global parameters are determined from the likelihood analysis" in des_readme
     )
     transfer_imported = "transparent transfer is imported and conditional" in g258
-    projective_not_operational_distance = "not automatically" in g275 and "operational" in g275
+    same_object_attachment_open = (
+        "does not own is a physical record identified with that exact object" in g251
+        and "calibrated independently" in g251
+    )
+    operational_distance_open = (
+        "whether the attached representative corresponds to a particular operational distance"
+        in g275
+    )
     calibrator_rank_closed = all(
         route["rank"] == 2 and route["condition_ratio"] > 1e-12
         for route in covariance_rank["routes"].values()
@@ -237,14 +250,21 @@ def source_derived_classification_facts(
         and "homothety weight" in g276
         and "exact modeled timelike segment" in g276
     )
+    geometric_direct_type = (
+        "Any independent, same-object metric observation with nonzero" in g250
+        and "homothety weight conditionally fixes that number" in g250
+        and "specific physical instance has already been selected or measured" in g250
+    )
     cmb_source_open = "cmb_temp\tobserved temperature field on sky\tunowned source field" in cmb_types
     assertions = {
         "relative_offset_open": relative_offset_open,
         "transfer_imported": transfer_imported,
-        "projective_not_operational_distance": projective_not_operational_distance,
+        "same_object_attachment_open": same_object_attachment_open,
+        "operational_distance_open": operational_distance_open,
         "calibrator_rank_closed": calibrator_rank_closed,
         "calibrator_source_owned": calibrator_source_owned,
         "clock_direct": clock_direct,
+        "geometric_direct_type": geometric_direct_type,
         "cmb_source_open": cmb_source_open,
         "pantheon_observed": pantheon_observed,
         "des_observed": des_observed,
@@ -254,37 +274,45 @@ def source_derived_classification_facts(
     }
     assert all(assertions.values())
     return {
-        "PantheonPlus_CEPH_DIST": {
+        "PantheonPlus_CEPH_DIST_calibrators": {
             "independent": calibrator_source_owned,
             "nonzero_weight": source_checks["ceph_distance"] and calibrator_rank_closed,
             "zero_point_closed": source_checks["calibrates_M"] and calibrator_rank_closed,
-            "same_object": not projective_not_operational_distance,
-            "bridge_owned": not transfer_imported,
+            "same_object": not same_object_attachment_open,
+            "bridge_owned": not (transfer_imported or operational_distance_open),
             "source_owned": calibrator_source_owned,
         },
-        "PantheonPlus_relative": {
+        "PantheonPlus_noncalibrators_only": {
             "independent": pantheon_observed,
             "nonzero_weight": pantheon_observed,
             "zero_point_closed": not relative_offset_open,
-            "same_object": not projective_not_operational_distance,
-            "bridge_owned": not transfer_imported,
+            "same_object": not same_object_attachment_open,
+            "bridge_owned": not (transfer_imported or operational_distance_open),
             "source_owned": pantheon_observed,
         },
-        "DES_Dovekie": {
+        "DES_Dovekie_alone": {
             "independent": des_observed,
             "nonzero_weight": des_observed,
             "zero_point_closed": not des_normalization_open,
-            "same_object": not projective_not_operational_distance,
-            "bridge_owned": not transfer_imported,
+            "same_object": not same_object_attachment_open,
+            "bridge_owned": not (transfer_imported or operational_distance_open),
             "source_owned": des_observed,
         },
-        "two_relative_releases": {
+        "PantheonPlus_relative_plus_DES_relative": {
             "independent": pantheon_observed and des_observed,
             "nonzero_weight": exact_ranks["relative_two_offsets"] > 0,
             "zero_point_closed": not assertions["two_relative_rank_deficient"],
-            "same_object": not projective_not_operational_distance,
-            "bridge_owned": not transfer_imported,
+            "same_object": not same_object_attachment_open,
+            "bridge_owned": not (transfer_imported or operational_distance_open),
             "source_owned": pantheon_observed and des_observed,
+        },
+        "PantheonPlus_calibrators_plus_Hubble_flow": {
+            "independent": calibrator_source_owned and pantheon_observed,
+            "nonzero_weight": calibrator_rank_closed,
+            "zero_point_closed": calibrator_rank_closed,
+            "same_object": not same_object_attachment_open,
+            "bridge_owned": not (transfer_imported or operational_distance_open),
+            "source_owned": calibrator_source_owned and pantheon_observed,
         },
         "cmb_temp": {
             "independent": "observed temperature field on sky" in cmb_types,
@@ -294,13 +322,21 @@ def source_derived_classification_facts(
             "bridge_owned": not cmb_source_open,
             "source_owned": not cmb_source_open,
         },
-        "G276_clock_control": {
+        "G276_same_segment_proper_clock": {
             "independent": clock_direct,
             "nonzero_weight": clock_direct,
             "zero_point_closed": clock_direct,
             "same_object": clock_direct,
             "bridge_owned": clock_direct,
             "source_owned": clock_direct,
+        },
+        "G250_direct_geometric_record": {
+            "independent": geometric_direct_type,
+            "nonzero_weight": geometric_direct_type,
+            "zero_point_closed": geometric_direct_type,
+            "same_object": geometric_direct_type,
+            "bridge_owned": geometric_direct_type,
+            "source_owned": geometric_direct_type,
         },
     }
 
@@ -360,12 +396,14 @@ def main(no_write: bool = False) -> None:
     facts = source_derived_classification_facts(source_semantics, covariance_rank, ranks)
     derived_classes = {name: classify_from_facts(**values) for name, values in facts.items()}
     assert derived_classes == {
-        "PantheonPlus_CEPH_DIST": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
-        "PantheonPlus_relative": "RELATIVE_ONLY",
-        "DES_Dovekie": "RELATIVE_ONLY",
-        "two_relative_releases": "RELATIVE_ONLY",
+        "PantheonPlus_CEPH_DIST_calibrators": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
+        "PantheonPlus_noncalibrators_only": "RELATIVE_ONLY",
+        "DES_Dovekie_alone": "RELATIVE_ONLY",
+        "PantheonPlus_relative_plus_DES_relative": "RELATIVE_ONLY",
+        "PantheonPlus_calibrators_plus_Hubble_flow": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
         "cmb_temp": "NOT_CURRENTLY_SCALE_TYPED",
-        "G276_clock_control": "DIRECT_NONZERO_WEIGHT_ANCHOR",
+        "G276_same_segment_proper_clock": "DIRECT_NONZERO_WEIGHT_ANCHOR",
+        "G250_direct_geometric_record": "DIRECT_NONZERO_WEIGHT_ANCHOR",
     }
     result = {
         "status": "VERIFIED_WITH_CAVEATS",
@@ -377,6 +415,14 @@ def main(no_write: bool = False) -> None:
         "actual_covariance_weighted_rank": covariance_rank,
         "exact_design_ranks": ranks,
         "classification": derived_classes,
+        "classification_facts": facts,
+        "source_derived_ownership_boundaries": {
+            "same_object_attachment_open": True,
+            "operational_distance_open": True,
+            "transparent_transfer_imported_and_conditional": True,
+            "G276_exact_segment_clock_control": True,
+            "G250_exact_object_geometric_type_control": True,
+        },
         "classification_derived_from_explicit_predicate": True,
         "classification_facts_derived_from_sources_and_computation": True,
         "caveat": (
