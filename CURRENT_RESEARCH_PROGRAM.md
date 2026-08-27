@@ -72,7 +72,9 @@ population, operational distance, or `X_max`.
   redshift and conditional complete-metric optical evaluation, regrades the old canonical headline
   fit as supplied-profile plus wrong-one-factor scaffolding, types P1 as empirical calibration, and
   types G236--G278 as reconstruction/calibration/holdout with declared imports. No complete native
-  SNe prediction is found; G279/G280 remain intact. Fresh external review is pending.
+  SNe prediction is found; G279/G280 remain intact. Fresh external review retained the landing after
+  R1--R4 evidence/typing repairs, and the corrected 32-source repair-only follow-up returned
+  `ACCEPT` with no remaining scoped defect.
 
 ## Open boundary
 
@@ -91,8 +93,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-After fresh external review of G281, use G280/G281 as hard discriminators on the metric-led
-history/value-law search. Determine whether an
+Use G280/G281 as hard discriminators on the metric-led history/value-law search. Determine whether an
 already owned complete-history principle jointly predicts reciprocal depth and null-screen/Jacobi
 evolution, or type the smallest additional native principle that would. Only after such a law
 reduces the history to an independently derived finite-dimensional family may observations

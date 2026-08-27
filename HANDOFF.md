@@ -55,7 +55,9 @@ Its internally verified, retrospective result finds zero complete native-predict
 24 claim tiles: the old headline score combined a supplied cubic with a wrong one-factor transfer;
 P1 is empirical calibration; G236/G237 are empirical reconstruction; G278 is a resolution-sensitive
 scale/holdout lead. Native direct redshift and conditional metric/Jacobi evaluation survive, and
-G279/G280 remain controlling. Fresh external review is the next banking gate.
+G279/G280 remain controlling. Fresh external review retained the landing after R1--R4
+evidence/typing repairs; the corrected 32-source sealed follow-up returned `ACCEPT` with no
+remaining scoped defect and no scientific change.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
@@ -72,8 +74,7 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: adversarially review G281, then use G280/G281 as discriminators on the history/value-law
-search. Ask whether owned metric
+Next: use G280/G281 as discriminators on the history/value-law search. Ask whether owned metric
 structure jointly propagates depth and null-screen/Jacobi area; if not, type the smallest additional
 native principle before solving or fitting. Do not select/average/smooth `K`, reconstruct a free
 optical curve from observations, identify areal and projective position by fiat, retune observations,

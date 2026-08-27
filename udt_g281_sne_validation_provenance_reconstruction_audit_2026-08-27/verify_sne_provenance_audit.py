@@ -100,8 +100,10 @@ def main() -> None:
         "EXTERNAL_REPAIR_PREREGISTRATION.md",
         "REPAIR_RESULT.md",
         "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_REVIEW.md",
     )
     audit_report = (PACKAGE / "AUDIT_REPORT.md").read_text()
+    repair_followup = (PACKAGE / "EXTERNAL_REPAIR_FOLLOWUP_REVIEW.md").read_text()
     recorded_result = json.loads((PACKAGE / "VERIFICATION_RESULT.json").read_text())
 
     checks = {
@@ -136,6 +138,11 @@ def main() -> None:
         "recorded_result_landing_exact": (
             recorded_result["landing"]
             == "NO_COMPLETE_NATIVE_SNE_PREDICTION_IN_AUDITED_NONPROTECTED_LINEAGE"
+        ),
+        "external_repair_followup_accepted": (
+            "Primary verdict: `ACCEPT`" in repair_followup
+            and "Remaining scoped defect: none found." in repair_followup
+            and "scientific landing did not change" in repair_followup
         ),
         "canonical_old_overclaim_present": "Canonical UDT beats" in canonical,
         "canonical_old_one_factor_present": "D_L(z) = r(z) \\cdot (1+z)" in canonical,

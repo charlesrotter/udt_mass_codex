@@ -36,7 +36,8 @@ G281 audits the tracked SNe lineage back to the old canonical geometry. No compl
 prediction is found. The old headline fit used a supplied cubic and wrong one-factor luminosity
 rule; P1 is empirical. Direct reciprocal redshift, conditional metric/Jacobi evaluation, the
 G236/G237 empirical reconstruction, the G278 resolution-sensitive holdout, and G279/G280 all retain
-their bounded status. Fresh external review is pending.
+their bounded status. Fresh external review retained the landing after R1--R4 repairs; the corrected
+32-source sealed repair-only follow-up returned `ACCEPT` with no remaining scoped defect.
 
 ## Observations and premises
 
@@ -54,8 +55,7 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-After adversarial G281 review, use G280/G281 to test candidate history/value principles: a
-successful native candidate must jointly
+Use G280/G281 to test candidate history/value principles: a successful native candidate must jointly
 predict reciprocal depth and null-screen/Jacobi evolution before observations calibrate constants.
 Do not choose/average/smooth `K`, fit a free optical curve, identify areal with projective position
 by fiat, or select population, operational distance, or `X_max`.

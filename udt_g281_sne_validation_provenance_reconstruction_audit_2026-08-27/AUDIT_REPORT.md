@@ -196,6 +196,11 @@ substantive classification and the bounded landing, and identified only source-s
 replay-surface, and filename defects. Repairs R1--R4 are evidence/typing repairs; they change no
 metric, kernel, history, transfer, score, or scientific conclusion.
 
+A fresh sealed repair-only follow-up then returned `ACCEPT`. It verified all corrected intake
+seals and payloads, R1--R4, and the four registered sealed replays; it found no remaining scoped
+defect and retained the bounded landing unchanged. The exact return is banked in
+`EXTERNAL_REPAIR_FOLLOWUP_REVIEW.md`.
+
 ## Next bounded scientific move
 
 Do not fit another unrestricted SNe curve. Instead, preregister one metric-led attempt to derive the

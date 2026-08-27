@@ -73,13 +73,15 @@ R1--R3 with no remaining scoped defect. This does not weaken direct reciprocal r
 angular orchestra; it proves that the orchestra carries additional metric-history information.
 
 G281 reconstructs the long tracked SNe lineage from `udt_canonical_geometry.md` through G280.
-Across 34 inspected tracked sources, 24 historical claim tiles, and 15 route classes, it finds no
+Across 32 inspected immutable sources, 24 historical claim tiles, and 15 route classes, it finds no
 complete native SNe prediction. The old headline fit used a supplied Branch-C cubic and the wrong
 one-factor luminosity rule; P1 is an empirical profile family, not the kernel. G236/G237 remain an
 explicit empirical area-state reconstruction and G278 remains a resolution-sensitive Cepheid-scale
 plus DES-holdout lead. Direct reciprocal redshift, conditional complete-metric optical evaluation,
-G279 kernel purity, and G280 area nonidentity all survive. The result is internally verified with
-caveats pending fresh external adversarial review.
+G279 kernel purity, and G280 area nonidentity all survive. Fresh external review retained the
+landing after R1--R4 evidence/typing repairs, and the corrected 32-source sealed repair-only
+follow-up returned `ACCEPT` with no remaining scoped defect. No substantive classification or
+scientific result changed.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -107,8 +109,7 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-After fresh adversarial review of G281, return to the metric-led history/value question with
-G280/G281 as hard discriminators: determine
+Return to the metric-led history/value question with G280/G281 as hard discriminators: determine
 whether an already owned complete-history principle jointly predicts the reciprocal-depth and
 null-screen/Jacobi evolution, or type the smallest additional native principle needed to do so.
 Only after a finite-dimensional joint history is independently derived may SNe or another

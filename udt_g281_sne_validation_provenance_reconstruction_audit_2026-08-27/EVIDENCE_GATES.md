@@ -31,11 +31,12 @@ repair R3.
 ## Grade
 
 ```text
-INTERNALLY_VERIFIED_WITH_CAVEATS
+EXTERNALLY_REVIEWED_REPAIR_ACCEPTED
 __RETROSPECTIVE_SOURCE_BOUNDED_PROVENANCE_RESULT
 __NO_COMPLETE_NATIVE_SNE_PREDICTION_FOUND
 __NATIVE_REDSHIFT_AND_CONDITIONAL_OPTICAL_EVALUATOR_RETAINED
 ```
 
 Fresh external adversarial review returned `ACCEPT-WITH-REPAIRS` and retained the scientific landing.
-Repair-only follow-up remains required before final external closure.
+Fresh sealed repair-only follow-up returned `ACCEPT`, found no remaining scoped defect, and retained
+the scientific landing unchanged.

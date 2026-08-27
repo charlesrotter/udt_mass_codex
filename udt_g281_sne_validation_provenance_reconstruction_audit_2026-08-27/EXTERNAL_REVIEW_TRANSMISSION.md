@@ -50,3 +50,40 @@ replays, and the July two-factor optics replay. It requested only provenance/pac
 4. repair the `CURRENT_SCIENTIFIC_PREMISES.md`/`.tsv` typo.
 
 Scientific conclusion changes: none.
+
+## Authorized repair-only follow-up
+
+- corrected intake: `/tmp/udt_g281_review_ttt_plen`
+- physical file count: `67`
+- manifest payload rows: `65`
+- `REVIEW_SCOPE.json` SHA-256:
+  `9a89c65d4078887006fa398d8978cce47a71f8abeb3bae5591c759f7346c9b72`
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `6641d3f315fb399d9ee1b8c597d6c57b969ae6c0ff5d651cbd716f717d829b57`
+- `REVIEW_MANIFEST.sha256` SHA-256:
+  `8113094bbf74682791ad7002ec942dd47ab0c77260f9e0392e695797b8de35fb`
+- fresh session id: `01a04455-d987-7ab3-b584-d7880b6c154b`
+- raw response:
+  `/tmp/udt_g281_followup.TTLF1SMB/return/EXTERNAL_REPAIR_FOLLOWUP_GPT54.md`
+- raw response SHA-256:
+  `e4b262925f8f2a77e3feaf262586e0e53215b4bbf0f8ef1ed683f7632cf205fc`
+- banked response: `EXTERNAL_REPAIR_FOLLOWUP_REVIEW.md`
+- banked response SHA-256:
+  `a60d20794411601d25450a5fe5ac276589f1a8868a24dcf1f10f7bd11ca0e133`
+  (content-identical; the repository copy adds the conventional terminal newline)
+- transcript: `/tmp/udt_g281_followup.TTLF1SMB/transcript.txt`
+- transcript SHA-256:
+  `a3162205137dcc526cd2f59840b395da8cb717d66f36e3f4b0913cc5f7a5cb71`
+
+Charles authorized a read-only repair-only follow-up, including read-only authentication-file use
+solely to launch the reviewer. The corrected intake was mounted read-only at `/intake`; runtime
+writes were confined to an ephemeral `/work` copy and the response mount.
+
+## Follow-up return
+
+Verdict: `ACCEPT`.
+
+The reviewer verified all three outer hashes, the detached seal, all 65 payload hashes and sizes,
+67 physical files, zero symlinks, exact 32-source scope/manifest equality, repairs R1--R4, and all
+four registered sealed commands. It found no remaining scoped defect. The bounded G281 scientific
+landing did not change.

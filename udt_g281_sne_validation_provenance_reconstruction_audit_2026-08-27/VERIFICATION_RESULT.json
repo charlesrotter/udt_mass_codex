@@ -1,7 +1,7 @@
 {
   "audit": "G281_SNE_VALIDATION_PROVENANCE_RECONSTRUCTION",
   "status": "PASS",
-  "grade": "EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R4_INTERNALLY_REPAIRED_FOLLOWUP_PENDING",
+  "grade": "EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
   "landing": "NO_COMPLETE_NATIVE_SNE_PREDICTION_IN_AUDITED_NONPROTECTED_LINEAGE",
   "counts": {
     "source_files_inspected": 32,
@@ -23,9 +23,12 @@
     "g280_repository_recorded_hostile_catches": "8/8_plus_10/10_repair_mutations"
   },
   "external_review": {
-    "verdict": "ACCEPT-WITH-REPAIRS",
+    "initial_verdict": "ACCEPT-WITH-REPAIRS",
+    "repair_followup_verdict": "ACCEPT",
     "scientific_landing_changed": false,
-    "repair_scope": ["R1_exact_sealed_source_universe", "R2_history_ownership_gate", "R3_replay_provenance", "R4_filename_typo"]
+    "remaining_scoped_defects": 0,
+    "repair_scope": ["R1_exact_sealed_source_universe", "R2_history_ownership_gate", "R3_replay_provenance", "R4_filename_typo"],
+    "repair_followup_response_sha256": "e4b262925f8f2a77e3feaf262586e0e53215b4bbf0f8ef1ed683f7632cf205fc"
   },
   "retained": [
     "direct_reciprocal_redshift",

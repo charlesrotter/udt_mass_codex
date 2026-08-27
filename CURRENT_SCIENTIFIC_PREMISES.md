@@ -79,7 +79,7 @@
 | G278 Cepheid attachment/DES holdout | external/repair accepted | Conditional lead; resolution-independent scale fails |
 | G279 native-interface provenance | external/repair | Native core intact |
 | G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
-| G281 SNe audit | internal/caveats | No native prediction; redshift/evaluator survive |
+| G281 SNe audit | external/repair accepted | No native prediction; redshift/evaluator survive |
 None selects completion/`X_max`.
 ## Scale and limits
 

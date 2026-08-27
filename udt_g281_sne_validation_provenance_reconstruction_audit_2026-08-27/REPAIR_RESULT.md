@@ -59,5 +59,7 @@ Unchanged:
   G280 counterexample, and `X_max`;
 - `NO_COMPLETE_NATIVE_SNE_PREDICTION_IN_AUDITED_NONPROTECTED_LINEAGE`.
 
-Fresh internal replay passes. Final grade remains repair-pending until a fresh sealed external
-repair-only follow-up accepts R1--R4.
+Fresh internal replay passes. A fresh sealed external `gpt-5.4` repair-only follow-up returned
+`ACCEPT`: all three outer hashes, 65 payload hashes and sizes, 67 physical files, zero symlinks,
+R1--R4, and all four registered sealed commands passed. It found no remaining scoped defect and
+retained the bounded scientific landing unchanged.
