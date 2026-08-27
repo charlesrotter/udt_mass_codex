@@ -23,3 +23,19 @@ Date: 2026-08-26
 
 The reviewer verified containment and hashes and ran all four registered no-write commands. It did
 not edit the intake or continue the research.
+
+## Repair-only follow-up
+
+- intake: `/tmp/udt_g276_review_t5fc7yxt`;
+- physical files: 35;
+- `REVIEW_SCOPE.json` SHA-256:
+  `5328663472a90bca53ce7f10dd4a21d9ffbce7be2638301ce7e0f6a4dfaa674a`;
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `607a863e2c32d7f8ca88ecc645f2cf3f002065764f3cd44f65a0e5eecd85d097`;
+- saved raw response SHA-256:
+  `b82804b93564fd1ef21ceead0940693c3a5c6c152c4b190b80a625139ae28c23`;
+- landing: `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`;
+- remaining repair: none within preregistered R1 scope.
+
+The reviewer verified all 34/34 manifest entries and ran all four registered no-write commands. It
+did not edit the intake, change the scientific question, or continue the research.

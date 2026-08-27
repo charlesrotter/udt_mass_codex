@@ -25,4 +25,5 @@ only by the preregistered 20,000 fixed-`C_bar` checks, from 300,003 to 320,003.
 
 The 22 production checks, 20,000 inconsistency/self-evaluation/segment-mismatch rejections in each
 class, six implementation mutation catches, two typed-scope catches, metric, kernel, and bounded
-scientific landing are unchanged. External repair-only follow-up remains pending.
+scientific landing are unchanged. External repair-only follow-up returned
+`REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`; no R1 repair remains.

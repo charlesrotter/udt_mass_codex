@@ -1,5 +1,5 @@
 {
-  "grade": "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING",
+  "grade": "EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
   "implementation_mutations_caught": 6,
   "inconsistent_records_rejected": 20000,
   "independent_cases": 20000,

@@ -4,7 +4,7 @@ Date: 2026-08-26
 
 ## Landing
 
-`EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING`
+`EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED`
 
 One independently calibrated positive proper-clock record on the exact modeled timelike segment
 has homothety weight \(+1\) and conditionally fixes G275's single remaining scale:
@@ -32,6 +32,9 @@ has homothety weight \(+1\) and conditionally fixes G275's single remaining scal
   dimensionless `C_bar`.
 - Preregistered R1 now holds `C_bar` fixed and independently transforms the numeric length and time
   units; the recovered scale transforms exactly with the length unit in all 20,000 cases.
+- External repair-only follow-up returned
+  `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`, verified all 34/34 manifest entries, reran all
+  four registered checks, and found no remaining R1 defect.
 - No observational values, fits, new kernel mechanisms, metric modifications, history, operational
   distance, or `X_max` selection entered.
 
@@ -55,5 +58,5 @@ This is a reconciliation of already-owned G252 and G275 results, not an added me
 3. independently verified: **PASS**;
 4. premises audited: **PASS**, with the supplied independent-clock and supplied-history caveats.
 
-The result is not canon. Fresh external adversarial review retained the bounded science; a sealed
-repair-only follow-up remains pending for the implemented R1 evidence correction.
+The result is not canon. Fresh external review and repair-only follow-up both retain the bounded
+science; no repair remains within preregistered G276 R1 scope.

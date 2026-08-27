@@ -85,6 +85,7 @@ def main() -> None:
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
         "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
         "MAP.md",
@@ -136,9 +137,9 @@ def main() -> None:
     replay("run_catch_proofs.py")
 
     report = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
-    assert "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING" in report
+    assert "EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED" in report
     assert "ACCEPT_WITH_REPAIRS" in report
-    assert "R1_IMPLEMENTED" in report
+    assert "REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED" in report
     assert "do not fix" in report
     assert "not canon" in report
     forbidden = (
@@ -163,7 +164,7 @@ def main() -> None:
         "implementation_mutations_caught": 6,
         "typed_scope_catches_passed": 2,
         "no_write_replays": 3,
-        "grade": "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING",
+        "grade": "EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:
