@@ -49,7 +49,8 @@ def main() -> None:
         "RESOLUTION_FOLLOWUP_RESULT.json", "RESOLUTION_CURVE_COMPARISON.tsv",
         "RESOLUTION_FOLLOWUP_RUN_LOG.txt", "RESOLUTION_FOLLOWUP_REPORT.md",
         "EXTERNAL_REVIEW.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
-        "EXTERNAL_REPAIR_PREREGISTRATION.md", "REPAIR_RESULT.md",
+        "EXTERNAL_REPAIR_PREREGISTRATION.md", "EXTERNAL_REPAIR_FOLLOWUP_REVIEW.md",
+        "REPAIR_RESULT.md",
     ]
     checks = {
         "all_sources_match": bool(source_checks and all(source_checks.values())),
@@ -82,7 +83,8 @@ def main() -> None:
         "followup_cannot_regrade_original": "not regrade this landing" in (PACKAGE / "AUDIT_REPORT.md").read_text(),
         "external_repairs_recorded": bool(
             "ACCEPT-WITH-REPAIRS" in (PACKAGE / "EXTERNAL_REVIEW.md").read_text()
-            and "R1_R2_R3_IMPLEMENTED__EXTERNAL_FOLLOWUP_PENDING" in (PACKAGE / "REPAIR_RESULT.md").read_text()
+            and "R1_R2_R3_EXTERNALLY_ACCEPTED" in (PACKAGE / "REPAIR_RESULT.md").read_text()
+            and "Verdict: `ACCEPT`" in (PACKAGE / "EXTERNAL_REPAIR_FOLLOWUP_REVIEW.md").read_text()
         ),
         "sealed_command_surface_exact": bool(
             "G236_DES_ROOT=\"$PWD/external_data\"" in (PACKAGE / "COMMANDS.md").read_text()

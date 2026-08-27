@@ -15,6 +15,6 @@
 | resolution stability | **FAIL** | `60.4054`, ceiling `15.2474` |
 | outcome-informed curve-localization diagnostic | PASS AS DIAGNOSTIC | sensitivity persists outside boundary bands; original landing retained |
 | DES no-retuning adequacy | PASS | `1434.5793 / 1623`, ceiling `1907.8684` |
-| fresh external adversarial review | PENDING | sealed intake not yet authorized/reviewed |
+| fresh external adversarial review | PASS WITH SCIENTIFIC CAVEAT | primary review reproduced the landing; repair-only follow-up accepted R1--R3 with no remaining defect |
 
-Verdict ceiling: `INTERNALLY_VERIFIED LEAD WITH RESOLUTION CAVEAT` until fresh external review.
+Verdict ceiling: `EXTERNALLY_VERIFIED LEAD WITH RESOLUTION CAVEAT`.

@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-Grade: `INTERNALLY_VERIFIED__FRESH_EXTERNAL_REVIEW_PENDING`
+Grade: `EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`
 
 ## Landing
 
@@ -95,7 +95,10 @@ transfer remains imported.
 - all ten independent checks pass;
 - all eight hostile non-vacuity controls pass;
 - the full 260-row premise registry passed immediately before production;
-- fresh external adversarial review remains pending.
+- fresh external adversarial review reproduced the scientific result and returned
+  `ACCEPT-WITH-REPAIRS` for three packaging-only defects;
+- a fresh sealed repair-only follow-up verified all three repairs, reran all five registered
+  commands, retained the landing unchanged, and returned `ACCEPT` with no remaining defect.
 
 ## Honest interpretation
 

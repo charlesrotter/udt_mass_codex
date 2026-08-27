@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-Status: `R1_R2_R3_IMPLEMENTED__EXTERNAL_FOLLOWUP_PENDING`
+Status: `R1_R2_R3_EXTERNALLY_ACCEPTED`
 
 The three preregistered repairs were performed without changing the scientific question, inputs,
 model, tolerances, observational masks, covariance routes, or accepted numerical artifacts.
@@ -50,3 +50,9 @@ Fresh intake-shaped replay retained exactly:
 
 No preferred resolution, average, smoother, DES offset, `P1`, angular fit, `X_max`, LCDM distance,
 metric change, kernel change, state retuning, or CMB model was introduced.
+
+## External closure
+
+A fresh sealed gpt-5.4 repair-only follow-up verified all `51/51` payload hashes, all three outer
+seals, zero symlinks, direct intake replay, the five registered commands, post-replay integrity, and
+the unchanged scientific landing. Verdict: `ACCEPT`. Remaining R1--R3 defects: none.
