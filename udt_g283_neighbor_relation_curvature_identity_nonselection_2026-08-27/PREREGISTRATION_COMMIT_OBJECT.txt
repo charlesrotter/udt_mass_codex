@@ -1,0 +1,8 @@
+tree 4e47fc658205a8cd1c6e2ea3da80be2a5cd0ee5d
+parent 7ca52b0c1302273d69d9b0ab2c9adcb32013a120
+author Charles Rotter <charles@charlesrotter.com> 1787858667 -0400
+committer Charles Rotter <charles@charlesrotter.com> 1787858667 -0400
+
+Preregister G283 neighboring-curvature identity test
+
+Freeze the arbitrary smooth optical-tidal witness, 12-source ownership universe, three law homes, and fail-closed landing criteria before derivation.

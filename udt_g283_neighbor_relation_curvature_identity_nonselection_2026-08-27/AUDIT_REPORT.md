@@ -15,6 +15,10 @@ Internal grade:
 PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED
 ```
 
+The fresh external `gpt-5.4` review returned `ACCEPT-WITH-REPAIRS` and supported the scientific
+landing unchanged. Its three packaging/evidence repairs were preregistered at `964b8751` and are
+implemented pending repair-only follow-up.
+
 ## What was learned
 
 G282 left three possible mathematical homes for the missing joint history information. G283 puts
@@ -46,7 +50,8 @@ angular expressions.
 
 ## Evidence
 
-- preregistration committed and pushed at `18100a3a` before outcome execution;
+- preregistration committed and pushed at `18100a3a` before outcome execution, now sealed with raw
+  dependency-free commit-object and blob verification;
 - 12 exact generic symbolic checks;
 - all-index algebraic and differential Bianchi checks with arbitrary symbolic values and first
   derivatives;
@@ -55,10 +60,15 @@ angular expressions.
 - 64 independent seeded Jacobi-network cases;
 - maximum symplectic, composition, and reversal residual (6.44\times10^{-15});
 - exact constant trace-free area error (2.78\times10^{-17});
+- exact rank-two symbolic trace-free basis check;
 - 7/7 in-memory hostile claim-schema catches;
 - frozen 12-source identity-role census;
 - zero field equations, actions, sources, fitted coefficients, observational outcomes, scales, or
   `X_max` inputs.
+
+The external reviewer independently rebuilt the central Christoffel and curvature check and
+confirmed the differential-Bianchi use of ordinary derivatives is valid on the central ray because
+all connection coefficients vanish there.
 
 ## What remains open
 

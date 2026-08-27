@@ -31,10 +31,7 @@ def main() -> None:
     output = arguments.output or Path(tempfile.mkdtemp(prefix="udt_g283_review_", dir="/tmp"))
     output.mkdir(parents=True, exist_ok=True)
 
-    package_files = sorted(
-        path for path in PACKAGE.iterdir()
-        if path.is_file() and path.name not in {"build_review_intake.py"}
-    )
+    package_files = sorted(path for path in PACKAGE.iterdir() if path.is_file())
     with (PACKAGE / "SOURCE_SCOPE.tsv").open(newline="", encoding="utf-8") as stream:
         sources = [ROOT / row["path"] for row in csv.DictReader(stream, delimiter="\t")]
 

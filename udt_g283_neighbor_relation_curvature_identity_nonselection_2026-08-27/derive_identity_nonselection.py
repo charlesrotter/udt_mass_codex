@@ -154,6 +154,17 @@ def main() -> None:
         str(sp.diff(N, r, 2)),
         str(sp.diff(N, r, 3)),
     }
+    tracefree_plus, tracefree_cross = sp.symbols("tracefree_plus tracefree_cross", real=True)
+    tracefree_tidal = sp.Matrix(
+        [
+            [tracefree_plus, tracefree_cross],
+            [tracefree_cross, -tracefree_plus],
+        ]
+    )
+    tracefree_basis = sp.Matrix.hstack(
+        tracefree_tidal.diff(tracefree_plus).reshape(4, 1),
+        tracefree_tidal.diff(tracefree_cross).reshape(4, 1),
+    )
 
     checks = {
         "metric_inverse_exact": sp.simplify(metric * inverse - sp.eye(4)) == sp.zeros(4),
@@ -170,7 +181,12 @@ def main() -> None:
         "algebraic_Bianchi_generic": algebraic_bianchi,
         "differential_Bianchi_allows_arbitrary_Tprime": differential_bianchi,
         "Jacobi_generator_Hamiltonian_for_arbitrary_symmetric_T": hamiltonian_residual == sp.zeros(4),
-        "tracefree_family_retains_two_free_functions": sp.simplify(sp.trace(tidal.subs(c, -a))) == 0 and b != 0,
+        "tracefree_family_retains_two_free_functions": (
+            sp.simplify(sp.trace(tracefree_tidal)) == 0
+            and tracefree_tidal.diff(tracefree_plus) != sp.zeros(2)
+            and tracefree_tidal.diff(tracefree_cross) != sp.zeros(2)
+            and tracefree_basis.rank() == 2
+        ),
         "primary_hierarchy_retains_arbitrary_N_jets": all(
             any(symbol in str(expression) for symbol in primary_free_symbols)
             for expression in (mu, e0, e1)
@@ -186,6 +202,7 @@ def main() -> None:
         "checks": checks,
         "arbitrary_functions_retained": ["T_xx(u)", "T_xy(u)", "T_yy(u)"],
         "tracefree_control_functions_retained": ["T_plus(u)", "T_cross(u)"],
+        "tracefree_control_basis_rank": tracefree_basis.rank(),
         "central_data_fixed_through_metric_jet_order": 1,
         "curvature_enters_at_metric_jet_order": 2,
         "identity_layers_selecting_values": 0,

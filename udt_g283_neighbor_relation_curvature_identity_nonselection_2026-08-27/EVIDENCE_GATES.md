@@ -4,7 +4,9 @@
 
 `PASS`. The question, arbitrary-function witness, four candidate landings, fixed controls,
 acceptance/falsification contract, source universe, and maximum conclusion were committed and
-pushed at `18100a3a` before outcome execution.
+pushed at `18100a3a` before outcome execution. Raw Git commit payloads and the preregistration blob
+are now sealed and recompute dependency-free to their named object IDs; the outcome commit names the
+preregistration commit as its direct parent.
 
 ## 2. Full or bounded scope
 
@@ -14,9 +16,11 @@ all-repository or all-future-principles theorem.
 
 ## 3. Independent verification
 
-`PASS_INTERNAL`. A separate standard-library implementation directly rebuilt metric derivatives,
+`PASS_INTERNAL_AND_FRESH_EXTERNAL`. A separate standard-library implementation directly rebuilt metric derivatives,
 the Levi-Civita connection, curvature, all-index symmetries/Bianchi slots, and interval Jacobi
-transfers. It imports no production module. External review remains pending.
+transfers. It imports no production module. A fresh external reviewer independently rechecked the
+central connection/curvature signs and accepted the scientific landing, while requesting three
+packaging/evidence repairs. All three repairs pass internally; repair-only follow-up is pending.
 
 The seven hostile catches are in-memory claim-schema consistency checks only. They do not mutate or
 replay evidence files, derivation code, or source-census artifacts and are not an artifact-level
@@ -34,5 +38,7 @@ physical inputs. No field equation, action, source, fit, scale, observation, or 
 PREREGISTERED
 __EXACTLY_DERIVED
 __INDEPENDENTLY_VERIFIED
-__EXTERNAL_REVIEW_PENDING
+__EXTERNAL_ACCEPT_WITH_REPAIRS
+__R1_R2_R3_PASS_INTERNAL
+__REPAIR_FOLLOWUP_PENDING
 ```

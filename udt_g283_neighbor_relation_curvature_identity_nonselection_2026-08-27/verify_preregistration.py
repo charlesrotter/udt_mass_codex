@@ -7,6 +7,8 @@ import csv
 import hashlib
 from pathlib import Path
 
+from verify_preregistration_chronology import verify_chronology
+
 
 PACKAGE = Path(__file__).resolve().parent
 ROOT = PACKAGE.parent
@@ -38,6 +40,7 @@ def main() -> None:
         "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
     )
     prereg = (PACKAGE / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    chronology = verify_chronology()
     checks = {
         "source_count_12": len(scope) == len(manifest_rows) == 12,
         "scope_manifest_exact": set(scope_paths) == set(manifest),
@@ -60,6 +63,9 @@ def main() -> None:
         "field_law_outcomes_Xmax_omitted": all(
             token in prereg
             for token in ("no adopted field equation", "fit observations", "scale or `X_max`")
+        ),
+        "object_level_preregistration_chronology_verified": (
+            chronology["status"] == "PASS" and all(chronology["checks"].values())
         ),
     }
     if not all(checks.values()):

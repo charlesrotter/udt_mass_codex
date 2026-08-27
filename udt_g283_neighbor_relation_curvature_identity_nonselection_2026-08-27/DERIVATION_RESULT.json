@@ -36,6 +36,7 @@
     "mu": "r*(1 - N(r)**2)/2"
   },
   "status": "PASS",
+  "tracefree_control_basis_rank": 2,
   "tracefree_control_functions_retained": [
     "T_plus(u)",
     "T_cross(u)"

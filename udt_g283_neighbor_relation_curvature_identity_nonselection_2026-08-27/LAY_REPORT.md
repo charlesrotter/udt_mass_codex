@@ -14,3 +14,7 @@ This is progress because it closes a plausible hiding place. The missing bridge 
 ordinary consistency identity. It must be a genuinely value-bearing UDT principle that says how
 neighboring relations develop together. We have not chosen that principle, imported Einstein's
 equations, or fitted it from observations.
+
+A fresh outside reviewer agreed with that bounded result and found no mathematical sign or index
+failure. It did catch three evidence-packaging weaknesses; those have been repaired without
+changing the science and await a narrow follow-up check.

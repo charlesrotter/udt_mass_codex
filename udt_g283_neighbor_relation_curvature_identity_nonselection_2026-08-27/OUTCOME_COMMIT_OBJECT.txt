@@ -1,0 +1,8 @@
+tree ba98fa22d4a1a5d0a33d17d8b6a829d1063670e9
+parent 18100a3a4a6721be4544cebe2e5e12cc84178167
+author Charles Rotter <charles@charlesrotter.com> 1787859378 -0400
+committer Charles Rotter <charles@charlesrotter.com> 1787859378 -0400
+
+Derive G283 curvature identity nonselection
+
+Show constructively that arbitrary smooth neighboring tidal histories satisfy the owned metric, Cartan/Bianchi, screen, Jacobi, and network identities while retaining distinct optical response.

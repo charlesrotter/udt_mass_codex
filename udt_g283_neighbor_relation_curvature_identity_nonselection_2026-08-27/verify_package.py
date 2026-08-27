@@ -8,6 +8,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from verify_preregistration_chronology import verify_chronology
+
 
 PACKAGE = Path(__file__).resolve().parent
 ROOT = PACKAGE.parent
@@ -37,7 +39,9 @@ def main() -> None:
     derivation = json.loads((PACKAGE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     independent = json.loads((PACKAGE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
     catches = json.loads((PACKAGE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    repairs = json.loads((PACKAGE / "REPAIR_RESULT.json").read_text(encoding="utf-8"))
     verification = json.loads((PACKAGE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    chronology = verify_chronology()
     report = (PACKAGE / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     exact = (PACKAGE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
     required = (
@@ -65,6 +69,14 @@ def main() -> None:
         "verify_package.py",
         "EXTERNAL_REVIEW_REQUEST.md",
         "build_review_intake.py",
+        "verify_preregistration_chronology.py",
+        "PREREGISTRATION_COMMIT_OBJECT.txt",
+        "OUTCOME_COMMIT_OBJECT.txt",
+        "REPAIR_PREREGISTRATION.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "REPAIR_RESULT.json",
+        "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
     )
     protected = (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
@@ -97,6 +109,10 @@ def main() -> None:
         "three_general_and_two_tracefree_functions": (
             len(derivation["arbitrary_functions_retained"]) == 3
             and len(derivation["tracefree_control_functions_retained"]) == 2
+            and derivation["tracefree_control_basis_rank"] == 2
+        ),
+        "object_level_preregistration_chronology_verified": (
+            chronology["status"] == "PASS" and all(chronology["checks"].values())
         ),
         "independent_128_cases_207360_assertions": (
             independent["status"] == "PASS"
@@ -133,8 +149,18 @@ def main() -> None:
             and not derivation["Xmax_used"]
             and not any(verification["premise_imports"].values())
         ),
-        "external_review_pending": any(
-            row["id"] == "S11" and row["status"] == "PENDING" for row in status
+        "external_review_repairs_internal_followup_pending": any(
+            row["id"] == "S11"
+            and row["status"] == "ACCEPT_WITH_REPAIRS__REPAIRS_PASS_INTERNAL__FOLLOWUP_PENDING"
+            for row in status
+        ),
+        "external_repairs_R1_R2_R3_pass_internal": (
+            repairs["status"] == "PASS_INTERNAL"
+            and not repairs["scientific_landing_changed"]
+            and all(repairs["repairs"].values())
+            and repairs["tracefree_control_basis_rank"] == 2
+            and repairs["registered_commands_pass_internal"] == 6
+            and repairs["external_repair_followup"] == "PENDING"
         ),
     }
     if not all(checks.values()):
