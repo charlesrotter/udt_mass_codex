@@ -6,9 +6,9 @@ Preregistration: commit `18f84136`
 
 ## Landing
 
-`SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP`
+`EXTERNALLY_REVIEWED__R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`
 
-The external reviewer retained the exact G275 theorem. R1--R3 change certification only.
+The external reviewers retained the exact G275 theorem. R1--R4 change certification only.
 
 ## R1 — explicit nonrecursive manifest and containment
 
@@ -61,3 +61,8 @@ closed in sealed mode. The repair verifier recognizes an existing sealed root, t
 immutable source for ephemeral copies, exercises a sealed builder replay, and—when launched from
 the repository—launches its own registered `--no-write` command from the fresh sealed intake. A
 fake-Git tripwire proves neither sealed route invokes Git. The scientific landing is unchanged.
+
+The final repair-only `gpt-5.4` follow-up independently reran the sealed verifier and a bounded
+repository-mode simulation made only from intake files. Both returned zero, every hostile tamper
+gate passed, and the fake-Git marker remained absent. Its verdict was
+`R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`; no blocking defect remains within R4 scope.

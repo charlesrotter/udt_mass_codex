@@ -1194,8 +1194,8 @@ def main() -> None:
     g275_row = by_id["G275"]
     require(
         g275_row["current_status"].startswith(
-            "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__"
-            "PENDING_SECOND_REPAIR_FOLLOWUP"
+            "EXTERNALLY_REVIEWED__R4_ACCEPTED__"
+            "SCIENTIFIC_LANDING_UNCHANGED"
         ),
         "G275 bounded internal grade changed",
     )
@@ -1229,6 +1229,7 @@ def main() -> None:
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_RESULT.md",
         "REPAIR_VERIFICATION_RESULT.json",
+        "SECOND_REPAIR_FOLLOWUP_REVIEW.md",
         "verify_package.py",
         "verify_review_repairs.py",
     ):
@@ -1276,9 +1277,17 @@ def main() -> None:
         g275_verification["status"] == "PASS"
         and g275_verification["landing"] == g275_landing
         and g275_verification["grade"]
-        == "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP"
+        == "EXTERNALLY_REVIEWED__R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED"
         and g275_verification["no_write_replays"] == 3,
         "G275 package verification changed",
+    )
+    g275_second_review = (g275 / "SECOND_REPAIR_FOLLOWUP_REVIEW.md").read_text()
+    require(
+        "R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED" in g275_second_review
+        and "da9a7fdd40a04638a9df92d949baa960af43e418611cee5596a35e3b02ec40b1"
+        in g275_second_review
+        and "No blocking defect was found within R4 scope" in g275_second_review,
+        "G275 final R4 external review changed",
     )
     g275_replay = subprocess.run(
         [sys.executable, str(g275 / "verify_package.py"), "--no-write"],

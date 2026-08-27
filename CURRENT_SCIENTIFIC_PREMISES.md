@@ -74,7 +74,7 @@
 | G272 complete relation rapidity | external | Open-ball state |
 | G273 projective distance ownership | external | W5 later adopts interpretation |
 | G274 projective network descent | external | Full carry; radial Möbius |
-| G275 projective scale attachment | external/R4 implemented | One scale; `X_max` needs completion |
+| G275 projective scale attachment | external/R4 accepted | One scale; `X_max` needs completion |
 None selects completion/`X_max`.
 ## Scale and limits
 

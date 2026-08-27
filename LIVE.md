@@ -93,8 +93,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 External `gpt-5.4` retained the exact G275 science. The first repair-only follow-up accepted the
 manifest, package-verifier, and genuine mutation repairs but found the repair harness itself was not
-replayable from inside the sealed intake. R4 is implemented and passes sealed builder/harness
-replays with a fake-Git tripwire; fresh second repair-only follow-up is next. Do not erase screen/frame carry,
+replayable from inside the sealed intake. Final repair-only review now accepts R4 with the scientific
+landing unchanged after sealed and bounded repository-mode replays; no repair defect remains within
+scope. Report this closure before selecting the next bounded question. Do not erase screen/frame carry,
 path labels, or holonomy; promote `x=ell*chi` to an operational distance; infer `X_max=ell` without
 populated-boundary completion; import a profile, history law, branch selector, observational outcome,
 or residual. No ODE/PDE or GPU solve is authorized.

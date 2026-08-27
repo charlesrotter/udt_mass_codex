@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-Status: `SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP`
+Status: `EXTERNALLY_REVIEWED__R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`
 
 ## Result
 
@@ -63,5 +63,7 @@ R1--R3 were preregistered at commit `18f84136` and implemented. The first repair
 accepted their scientific non-change, manifest, package-verifier, and mutation results but found one
 remaining sealed repair-harness replay defect. R4 was preregistered at `a16436e3` and is now
 implemented: the builder and repair verifier replay wholly from a sealed intake without Git, and a
-sealed-entrypoint test enforces that contract. Fresh second repair-only follow-up remains pending;
-this is not canonization.
+sealed-entrypoint test enforces that contract. The final repair-only `gpt-5.4` follow-up returned
+`R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED` after direct sealed replay and a bounded repository-mode
+simulation assembled only from intake files. No repair defect remains within the preregistered R4
+scope; this is not canonization.

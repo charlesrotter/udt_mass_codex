@@ -135,6 +135,7 @@ def main() -> None:
         "REPAIR_RESULT.md",
         "REPAIR_VERIFICATION_RESULT.json",
         "SECOND_REPAIR_PREREGISTRATION.md",
+        "SECOND_REPAIR_FOLLOWUP_REVIEW.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -179,7 +180,7 @@ def main() -> None:
     replay("run_catch_proofs.py")
 
     report = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
-    assert "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP" in report
+    assert "EXTERNALLY_REVIEWED__R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED" in report
     assert "not automatically `X_max`" in report
     assert "full frame-carry requirement" in report
     forbidden = (
@@ -203,7 +204,7 @@ def main() -> None:
         "implementation_mutations_caught": 6,
         "typed_scope_catches_passed": 2,
         "no_write_replays": 3,
-        "grade": "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP",
+        "grade": "EXTERNALLY_REVIEWED__R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:
