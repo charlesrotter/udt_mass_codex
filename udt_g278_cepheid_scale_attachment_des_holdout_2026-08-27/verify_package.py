@@ -37,6 +37,7 @@ def main() -> None:
     result = json.load((PACKAGE / "DERIVATION_RESULT.json").open())
     independent = json.load((PACKAGE / "INDEPENDENT_VERIFICATION.json").open())
     catch = json.load((PACKAGE / "CATCH_PROOF_RESULT.json").open())
+    followup = json.load((PACKAGE / "RESOLUTION_FOLLOWUP_RESULT.json").open())
     required = [
         "MAP.md", "PREREGISTRATION.md", "PREMISE_LEDGER.tsv", "SOURCE_MANIFEST.tsv",
         "COMMANDS.md", "derive_scale_and_holdout.py", "DERIVATION_RESULT.json",
@@ -44,7 +45,9 @@ def main() -> None:
         "PRODUCTION_RUN_LOG.txt", "verify_independent.py", "INDEPENDENT_VERIFICATION.json",
         "INDEPENDENT_RUN_LOG.txt", "run_catch_proofs.py", "CATCH_PROOF_RESULT.json",
         "CATCH_PROOF_RUN_LOG.txt", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
-        "RESOLUTION_FOLLOWUP_PREREGISTRATION.md",
+        "RESOLUTION_FOLLOWUP_PREREGISTRATION.md", "diagnose_resolution_sensitivity.py",
+        "RESOLUTION_FOLLOWUP_RESULT.json", "RESOLUTION_CURVE_COMPARISON.tsv",
+        "RESOLUTION_FOLLOWUP_RUN_LOG.txt", "RESOLUTION_FOLLOWUP_REPORT.md",
     ]
     checks = {
         "all_sources_match": bool(source_checks and all(source_checks.values())),
@@ -60,6 +63,12 @@ def main() -> None:
         ),
         "independent_checks_pass": all(independent["checks"].values()),
         "catch_proofs_pass": all(catch["checks"].values()),
+        "followup_landing_exact": followup["landing"] == "PHYSICAL_CURVE_RESOLUTION_SENSITIVITY_PERSISTS",
+        "followup_retains_original": bool(
+            followup["cannot_regrade_original"]
+            and followup["original_landing"] == result["landing"]
+            and not any(followup["forbidden_actions"].values())
+        ),
         "no_scaffolding_or_retuning": bool(
             not result["frozen"]["kernel_retuned"]
             and not result["frozen"]["state_shape_retuned_by_calibrators"]
@@ -68,7 +77,7 @@ def main() -> None:
             and result["frozen"]["angular_coefficients_fitted"] == 0
             and not result["frozen"]["Xmax_used"]
         ),
-        "followup_cannot_regrade_original": "may not regrade this landing" in (PACKAGE / "AUDIT_REPORT.md").read_text(),
+        "followup_cannot_regrade_original": "not regrade this landing" in (PACKAGE / "AUDIT_REPORT.md").read_text(),
     }
     if not all(checks.values()):
         raise AssertionError({"checks": checks, "source_checks": source_checks})

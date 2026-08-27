@@ -104,9 +104,13 @@ native relative curve can be given an observational absolute normalization and c
 SNe release without retuning. It also shows that defining `ell` at the sparsely constrained first
 knot leaves a material numerical-resolution dependence.
 
-The outcome-informed follow-up is preregistered separately. It asks whether the sensitivity is
-mostly confined to that boundary normalization or persists through the physical absolute-radius
-curve. It may not regrade this landing.
+The separately preregistered outcome-informed follow-up finds that the physical reconstructed curve
+also remains resolution-sensitive, especially in the sparsely populated upper-depth sector. It may
+not regrade this landing. At the fixed midpoint, all three comparisons remain within `1.19 sigma`
+and `0.021 mag`, but their dense-grid maxima occur at support fractions `0.818`, `0.933`, and
+`0.826`, not inside the outer five-percent boundary bands. The `K=24` curve does not improve on
+`K=16`. This rules out quietly repairing the result by relabelling the failure as a first-knot-only
+coordinate artifact.
 
 ## CMB-temperature route retained for later
 

@@ -13,6 +13,7 @@
 | calibrator subset robustness | PASS | 46/46; maximum `3.1115 sigma` |
 | covariance serialization | PASS | maximum `3.57e-8 mag`, tolerance `1e-4 mag` |
 | resolution stability | **FAIL** | `60.4054`, ceiling `15.2474` |
+| outcome-informed curve-localization diagnostic | PASS AS DIAGNOSTIC | sensitivity persists outside boundary bands; original landing retained |
 | DES no-retuning adequacy | PASS | `1434.5793 / 1623`, ceiling `1907.8684` |
 | fresh external adversarial review | PENDING | sealed intake not yet authorized/reviewed |
 

@@ -1,0 +1,90 @@
+COMMAND: G236_DES_ROOT=<declared scratch data root> python3 diagnose_resolution_sensitivity.py
+{
+  "audit": "G278_OUTCOME_INFORMED_RESOLUTION_DIAGNOSTIC",
+  "cannot_regrade_original": true,
+  "classification_checks": {
+    "all_interior_rms_smaller_than_full": true,
+    "all_maxima_in_boundary_bands": false
+  },
+  "comparison_rows": [
+    {
+      "K": 8,
+      "full_rms_difference_mag": 0.06500406187683819,
+      "interior90_max_abs_difference_mag": 0.2367955327082445,
+      "interior90_rms_difference_mag": 0.06120154156888817,
+      "max_abs_difference_mag": 0.2367955327082445,
+      "max_absolute_standardized_difference": 16.723177956598956,
+      "max_in_boundary_band": false,
+      "max_location_fraction": 0.818115234375,
+      "max_location_phi": 0.6368962268712313,
+      "midpoint_absolute_z": 0.1841121789562968,
+      "midpoint_difference_mag": -0.0015867170741010739,
+      "midpoint_phi": 0.41676623847871785,
+      "midpoint_sigma_mag": 0.008618208111467287,
+      "reference_K": 12
+    },
+    {
+      "K": 16,
+      "full_rms_difference_mag": 0.0328197116075333,
+      "interior90_max_abs_difference_mag": 0.1560055845652002,
+      "interior90_rms_difference_mag": 0.03218524768445804,
+      "max_abs_difference_mag": 0.1560055845652002,
+      "max_absolute_standardized_difference": 7.060399369730573,
+      "max_in_boundary_band": false,
+      "max_location_fraction": 0.933349609375,
+      "max_location_phi": 0.7166363301108831,
+      "midpoint_absolute_z": 1.0822226415822784,
+      "midpoint_difference_mag": -0.009084209372808516,
+      "midpoint_phi": 0.41676623847871785,
+      "midpoint_sigma_mag": 0.008394030048684643,
+      "reference_K": 12
+    },
+    {
+      "K": 24,
+      "full_rms_difference_mag": 0.10400446455728038,
+      "interior90_max_abs_difference_mag": 0.47706764916060074,
+      "interior90_rms_difference_mag": 0.09108599528993734,
+      "max_abs_difference_mag": 0.47706764916060074,
+      "max_absolute_standardized_difference": 4.002294605825146,
+      "max_in_boundary_band": false,
+      "max_location_fraction": 0.826171875,
+      "max_location_phi": 0.6424712764621391,
+      "midpoint_absolute_z": 1.185829764572159,
+      "midpoint_difference_mag": -0.020813770224124895,
+      "midpoint_phi": 0.41676623847871785,
+      "midpoint_sigma_mag": 0.017552072688641267,
+      "reference_K": 12
+    }
+  ],
+  "consecutive": {
+    "12_16": {
+      "full_rms_difference_mag": 0.0328197116075333,
+      "interior90_rms_difference_mag": 0.03218524768445804
+    },
+    "16_24": {
+      "full_rms_difference_mag": 0.10235460421653422,
+      "interior90_rms_difference_mag": 0.09609808074157364
+    },
+    "8_12": {
+      "full_rms_difference_mag": 0.06500406187683819,
+      "interior90_rms_difference_mag": 0.06120154156888817
+    }
+  },
+  "forbidden_actions": {
+    "DES_retuned": false,
+    "metric_or_kernel_changed": false,
+    "preferred_K_selected": false,
+    "profile_fitted": false,
+    "scales_averaged": false,
+    "smoother_added": false
+  },
+  "grid": {
+    "boundary_drop_nodes_each_side": 205,
+    "midpoint_phi": 0.41676623847871785,
+    "nodes": 4097,
+    "phi_max": 0.7627571949083936,
+    "phi_min": 0.07077528204904217
+  },
+  "landing": "PHYSICAL_CURVE_RESOLUTION_SENSITIVITY_PERSISTS",
+  "original_landing": "SCALE_ATTACHMENT_RESOLUTION_OR_SUBSET_SENSITIVE"
+}
