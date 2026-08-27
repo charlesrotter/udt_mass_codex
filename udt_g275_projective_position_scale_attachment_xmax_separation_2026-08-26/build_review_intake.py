@@ -15,6 +15,7 @@ import tempfile
 PACKAGE = Path(__file__).resolve().parent
 REPO = PACKAGE.parent
 PREREG_COMMIT = "c42da02d"
+SEALED_ROOT = (REPO / "REVIEW_SCOPE.json").is_file()
 
 
 def digest(payload: bytes) -> str:
@@ -22,6 +23,11 @@ def digest(payload: bytes) -> str:
 
 
 def frozen_source(relative: str, expected: str) -> bytes:
+    sealed = PACKAGE / "sources" / relative
+    if sealed.is_file() and digest(sealed.read_bytes()) == expected:
+        return sealed.read_bytes()
+    if SEALED_ROOT:
+        raise AssertionError(f"sealed frozen source unavailable or changed: {relative}")
     live = REPO / relative
     if live.is_file() and digest(live.read_bytes()) == expected:
         return live.read_bytes()

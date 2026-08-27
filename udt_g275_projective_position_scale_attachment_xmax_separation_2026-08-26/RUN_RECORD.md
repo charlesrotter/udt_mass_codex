@@ -29,3 +29,7 @@ External review retained the scientific landing and requested certification repa
 Those repairs were preregistered at commit `18f84136`. The corrected run adds an exact sealed-root
 manifest verifier, fail-closed sealed-source resolution, three ephemeral tamper checks, and a real
 eight-entry mutation/scope ledger. No scientific formula or landing changed.
+
+The first repair-only follow-up retained the science but found the repair harness was not replayable
+from inside the sealed intake. R4, preregistered at `a16436e3`, adds package-local frozen-source
+resolution, sealed-entrypoint detection, a sealed builder replay, and a fake-Git tripwire.

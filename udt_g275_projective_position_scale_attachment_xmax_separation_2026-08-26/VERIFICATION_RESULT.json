@@ -1,7 +1,7 @@
 {
   "active_screen_cases": 20000,
   "carry_separators": 20000,
-  "grade": "SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP",
+  "grade": "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP",
   "implementation_mutations_caught": 6,
   "independent_cases": 20000,
   "independent_exact_assertions": 340006,

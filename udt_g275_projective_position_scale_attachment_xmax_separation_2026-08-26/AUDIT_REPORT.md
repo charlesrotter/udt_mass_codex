@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-Status: `SCIENTIFIC_LANDING_RETAINED__FIRST_REPAIR_FOLLOWUP_NOT_ACCEPTED__R4_PREREGISTERED`
+Status: `SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP`
 
 ## Result
 
@@ -61,5 +61,7 @@ Fresh external Codex `gpt-5.4` review retained the bounded scientific landing an
 `ACCEPT_WITH_REPAIRS`. The requested manifest, sealed-containment, and hostile-certification repairs
 R1--R3 were preregistered at commit `18f84136` and implemented. The first repair-only follow-up
 accepted their scientific non-change, manifest, package-verifier, and mutation results but found one
-remaining sealed repair-harness replay defect. R4 is preregistered in
-`SECOND_REPAIR_PREREGISTRATION.md`; this is not canonization.
+remaining sealed repair-harness replay defect. R4 was preregistered at `a16436e3` and is now
+implemented: the builder and repair verifier replay wholly from a sealed intake without Git, and a
+sealed-entrypoint test enforces that contract. Fresh second repair-only follow-up remains pending;
+this is not canonization.

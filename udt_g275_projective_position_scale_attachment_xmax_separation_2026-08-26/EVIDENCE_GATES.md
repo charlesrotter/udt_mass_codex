@@ -18,6 +18,9 @@
    and exact; sealed verification fails closed without Git fallback; unlisted-file, listed-payload,
    and sealed-source tampering are rejected; and all eight executable mutation/scope catches pass.
    The first repair-only reviewer found the registered repair harness itself was not replayable from
-   the sealed intake. R4 is preregistered to close that single mechanical defect.
+   the sealed intake.
+7. **R4 sealed replay self-containment — PASS, PENDING SECOND FOLLOW-UP.** Both the builder and the
+   registered repair harness replay from a sealed root using only package-local frozen sources. A
+   fake-Git tripwire remains untouched, and repository mode launches the sealed entrypoint exactly.
 
-Banking grade: `SCIENTIFIC_LANDING_RETAINED__FIRST_REPAIR_FOLLOWUP_NOT_ACCEPTED__R4_PREREGISTERED`.
+Banking grade: `SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP`.

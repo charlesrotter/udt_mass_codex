@@ -122,5 +122,6 @@ branches; insert `X_max`; or activate protected work.
 
 External `gpt-5.4` retained G275's exact bounded science. The first repair-only follow-up accepted
 the manifest, fail-closed package verifier, and executable mutation ledger but found the repair
-harness not replayable from a sealed intake. R4 self-containment is next. Do not fit a profile, select a history/population/`X_max`, invent a
+harness not replayable from a sealed intake. R4 self-containment now passes; fresh second repair-only
+follow-up is next. Do not fit a profile, select a history/population/`X_max`, invent a
 residual, or start an ODE/PDE/GPU solve.

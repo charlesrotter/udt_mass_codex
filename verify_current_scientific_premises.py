@@ -1194,8 +1194,8 @@ def main() -> None:
     g275_row = by_id["G275"]
     require(
         g275_row["current_status"].startswith(
-            "SCIENTIFIC_LANDING_RETAINED__FIRST_REPAIR_FOLLOWUP_NOT_ACCEPTED__"
-            "R4_PREREGISTERED"
+            "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__"
+            "PENDING_SECOND_REPAIR_FOLLOWUP"
         ),
         "G275 bounded internal grade changed",
     )
@@ -1276,7 +1276,7 @@ def main() -> None:
         g275_verification["status"] == "PASS"
         and g275_verification["landing"] == g275_landing
         and g275_verification["grade"]
-        == "SCIENTIFIC_LANDING_RETAINED__REPAIRS_IMPLEMENTED__PENDING_EXTERNAL_FOLLOWUP"
+        == "SCIENTIFIC_LANDING_UNCHANGED__R4_IMPLEMENTED__PENDING_SECOND_REPAIR_FOLLOWUP"
         and g275_verification["no_write_replays"] == 3,
         "G275 package verification changed",
     )
@@ -1297,6 +1297,9 @@ def main() -> None:
         and g275_repair_result["listed_payload_tamper_rejected"] is True
         and g275_repair_result["sealed_source_tamper_rejected"] is True
         and g275_repair_result["sealed_git_fallback_invoked"] is False
+        and g275_repair_result["sealed_builder_replay"] is True
+        and g275_repair_result["sealed_builder_git_fallback_invoked"] is False
+        and g275_repair_result["sealed_entrypoint_replay"] is True
         and g275_repair_result["scientific_landing_changed"] is False,
         "G275 repair verification changed",
     )

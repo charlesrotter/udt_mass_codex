@@ -51,3 +51,13 @@ assertion count remains 340,006.
 
 The exact bounded landing, 26 production checks, 20,000-case independent census, active-screen and
 frame-carry coverage, absence of observational inputs, and all stated open boundaries are unchanged.
+
+## R4 — sealed repair-harness replay
+
+The first repair-only follow-up found that `verify_review_repairs.py` could not launch from inside
+the sealed intake because the builder looked only at the intake root or Git. R4 was preregistered at
+`a16436e3`. The builder now resolves exact frozen sources from `package/sources/` first and fails
+closed in sealed mode. The repair verifier recognizes an existing sealed root, treats it as the
+immutable source for ephemeral copies, exercises a sealed builder replay, and—when launched from
+the repository—launches its own registered `--no-write` command from the fresh sealed intake. A
+fake-Git tripwire proves neither sealed route invokes Git. The scientific landing is unchanged.

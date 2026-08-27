@@ -51,7 +51,7 @@ preferred scale follows. Raw archive:
 ## Next gate
 
 External `gpt-5.4` retained G275's science. The first repair-only follow-up accepted R1--R3 except
-for one sealed repair-harness replay gap; R4 self-containment is next. Preserve screen/frame carry and
+for one sealed repair-harness replay gap; R4 self-containment now passes and second follow-up is next. Preserve screen/frame carry and
 path labels; do not select a profile, history, population, `X_max`, or start dynamics.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:

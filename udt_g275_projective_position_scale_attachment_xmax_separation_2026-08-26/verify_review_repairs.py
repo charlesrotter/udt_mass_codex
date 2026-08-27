@@ -17,6 +17,8 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "REPAIR_VERIFICATION_RESULT.json"
+CURRENT_INTAKE = ROOT.parent
+SEALED_ENTRYPOINT = (CURRENT_INTAKE / "REVIEW_SCOPE.json").is_file()
 
 
 def digest(payload: bytes) -> str:
@@ -66,16 +68,21 @@ def main() -> None:
     parser.add_argument("--no-write", action="store_true")
     args = parser.parse_args()
 
-    completed = subprocess.run(
-        [sys.executable, str(ROOT / "build_review_intake.py")],
-        cwd=ROOT.parent,
-        text=True,
-        capture_output=True,
-        check=True,
-    )
-    built = json.loads(completed.stdout)
-    intake = Path(built["intake"])
+    owns_intake = not SEALED_ENTRYPOINT
+    if SEALED_ENTRYPOINT:
+        intake = CURRENT_INTAKE
+    else:
+        completed = subprocess.run(
+            [sys.executable, str(ROOT / "build_review_intake.py")],
+            cwd=ROOT.parent,
+            text=True,
+            capture_output=True,
+            check=True,
+        )
+        built = json.loads(completed.stdout)
+        intake = Path(built["intake"])
     scratch = Path(tempfile.mkdtemp(prefix="udt_g275_repair_checks_", dir="/tmp"))
+    rebuilt_intake: Path | None = None
     try:
         clean = run_verifier(intake)
         assert clean.returncode == 0, clean.stdout + clean.stderr
@@ -107,6 +114,33 @@ def main() -> None:
         assert sealed_failure.returncode != 0
         assert not marker.exists()
 
+        # R4: the builder itself must replay from a sealed root without Git or outside sources.
+        sealed_builder = subprocess.run(
+            [sys.executable, str(intake / ROOT.name / "build_review_intake.py")],
+            cwd=intake,
+            text=True,
+            capture_output=True,
+            check=False,
+            env=env,
+        )
+        assert sealed_builder.returncode == 0, sealed_builder.stdout + sealed_builder.stderr
+        rebuilt_intake = Path(json.loads(sealed_builder.stdout)["intake"])
+        assert run_verifier(rebuilt_intake, env).returncode == 0
+        assert not marker.exists()
+
+        # Repository mode must also launch the registered command from the fresh sealed root.
+        if not SEALED_ENTRYPOINT:
+            sealed_entrypoint = subprocess.run(
+                [sys.executable, str(intake / ROOT.name / "verify_review_repairs.py"), "--no-write"],
+                cwd=intake,
+                text=True,
+                capture_output=True,
+                check=False,
+                env=env,
+            )
+            assert sealed_entrypoint.returncode == 0, sealed_entrypoint.stdout + sealed_entrypoint.stderr
+            assert not marker.exists()
+
         with (intake / "REVIEW_MANIFEST.tsv").open(newline="", encoding="utf-8") as stream:
             rows = list(csv.DictReader(stream, delimiter="\t"))
         scope = json.loads((intake / "REVIEW_SCOPE.json").read_text(encoding="utf-8"))
@@ -121,10 +155,16 @@ def main() -> None:
             "listed_payload_tamper_rejected": True,
             "sealed_source_tamper_rejected": True,
             "sealed_git_fallback_invoked": False,
+            "sealed_builder_replay": True,
+            "sealed_builder_git_fallback_invoked": False,
+            "sealed_entrypoint_replay": True,
             "scientific_landing_changed": False,
         }
     finally:
-        shutil.rmtree(intake)
+        if rebuilt_intake is not None:
+            shutil.rmtree(rebuilt_intake)
+        if owns_intake:
+            shutil.rmtree(intake)
         shutil.rmtree(scratch)
 
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
