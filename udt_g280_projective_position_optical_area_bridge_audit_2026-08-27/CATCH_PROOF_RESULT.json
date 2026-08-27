@@ -1,0 +1,84 @@
+{
+  "audit": "G280_HOSTILE_CATCH_PROOFS",
+  "caught": 8,
+  "checks": [
+    {
+      "caught": true,
+      "check_kind": "executable_mutation",
+      "evidence": {
+        "nonzero_tidal_area": 0.9973327305617763,
+        "zero_tidal_area": 1.0
+      },
+      "name": "zero_tidal_parameter_is_vacuous"
+    },
+    {
+      "caught": true,
+      "check_kind": "executable_mutation",
+      "evidence": {
+        "deleted_second_jet_area": 1.0,
+        "native_wave_area": 0.9973327305617763
+      },
+      "name": "deleting_transverse_second_jet_erases_separator"
+    },
+    {
+      "caught": true,
+      "check_kind": "executable_mutation",
+      "evidence": {
+        "mutated_flat_area": 1.8131033313514908,
+        "mutated_wave_area": 1.8131033313514908,
+        "native_flat_area": 1.0,
+        "native_wave_area": 0.9973327305617763
+      },
+      "name": "replacing_Jacobi_area_by_ell_times_chi_discards_metric_information"
+    },
+    {
+      "caught": true,
+      "check_kind": "executable_mutation",
+      "evidence": {
+        "forced_center_slope": 1,
+        "smooth_center_control_slope": 0
+      },
+      "name": "equating_areal_radius_to_projective_position_forces_nonsmooth_center_profile"
+    },
+    {
+      "caught": true,
+      "check_kind": "provenance_guard",
+      "evidence": {
+        "registered_open_boundary": "universal equality with W5 position"
+      },
+      "name": "promoting_imported_dA_R_to_universal_metric_identity"
+    },
+    {
+      "caught": true,
+      "check_kind": "provenance_guard",
+      "evidence": {
+        "registered_status": "CONDITIONAL_IMPORT"
+      },
+      "name": "promoting_transparent_transfer_to_native"
+    },
+    {
+      "caught": true,
+      "check_kind": "provenance_guard",
+      "evidence": {
+        "registered_status": "WORKING_FOUNDATIONAL_CLARIFICATION"
+      },
+      "name": "promoting_W5_to_canon"
+    },
+    {
+      "caught": true,
+      "check_kind": "provenance_guard",
+      "evidence": {
+        "registered_status": "EXCLUDED"
+      },
+      "name": "reading_observational_outcomes"
+    }
+  ],
+  "executable_mutations": 4,
+  "expected": 8,
+  "provenance_guards": 4,
+  "repair_fail_closed_mutations": {
+    "caught": 10,
+    "expected": 10
+  },
+  "status": "PASS"
+}

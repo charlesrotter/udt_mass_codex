@@ -1,0 +1,15 @@
+{
+  "assertions": 40960,
+  "audit": "G280_INDEPENDENT_NEIGHBORING_RAY_CHECK",
+  "cases": 4096,
+  "different_native_screen_area": true,
+  "different_primary_radial_areal_radius": true,
+  "maximum_relative_integration_error": 2.5405549341874823e-12,
+  "method": "direct RK4 integration of full-metric neighboring-ray equations",
+  "minimum_primary_radial_areal_separation": 0.0053332230948293135,
+  "minimum_relative_area_separation": 1.781619489985623e-05,
+  "production_module_imported": false,
+  "production_result_read": false,
+  "same_projective_and_redshift_state": true,
+  "status": "PASS"
+}

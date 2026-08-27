@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-27
 
-G166--G276 is the active structural spine; G277--G279 control the current observational interface.
+G166--G276 is the active structural spine; G277--G280 control the current observational interface.
 On a supplied germ, the primary metric's `B,Q,S,Y,Z` orchestra enters `h=F^*g` before readout.
 Founded depth gives `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not a signal-speed
 theorem. Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -43,6 +43,13 @@ package executes in G236/G278. Transfer, finite representation, Cepheid attachme
 normalization remain declared downstream imports. W5 and the angular/Jacobi route remain independent
 siblings, not discarded physics.
 
+G280 then tests the missing W5-to-optical bridge directly. It constructs complete metrics with the
+same null path, endpoint clocks, reciprocal redshift, and W5 state but different native Jacobi
+areas, plus primary-spherical same-depth profiles at different areal radii. External review and the
+repair-only follow-up retain alternative B with no scoped defect. Hence the direct redshift channel
+is native, but an SNe optical-area curve requires the complete metric/null-bundle history or a
+separately declared areal/projective law; it is not fixed by `phi` plus one scale.
+
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
@@ -58,9 +65,11 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: determine whether the frozen SNe state has a representation-independent scale statistic, or
-prove it insufficient. Do not select/average/smooth `K`, retune observations, promote imported
-transfer or optical distance, or select history/population/`X_max`. The CMB-temperature ratio is a
-later direct-depth check. No ODE/PDE/GPU solve is authorized.
+Next: use G280 as a discriminator on the history/value-law search. Ask whether owned metric
+structure jointly propagates depth and null-screen/Jacobi area; if not, type the smallest additional
+native principle before solving or fitting. Do not select/average/smooth `K`, reconstruct a free
+optical curve from observations, identify areal and projective position by fiat, retune observations,
+or select population/`X_max`. The CMB-temperature ratio is a later direct-depth check. No
+ODE/PDE/GPU solve is authorized before an explicit candidate law and premise ledger.
 
 <!-- STARTUP_CURRENT_END -->

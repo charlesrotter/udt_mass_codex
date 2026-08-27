@@ -197,7 +197,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     removed_ids = tuple(
-        dict.fromkeys(("G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(("G280", "G279", "G278", "G277", "G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -350,6 +350,7 @@ def validate_startup_surface(root: Path) -> None:
             "G277",
             "G278",
             "G279",
+            "G280",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -393,7 +394,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "260-row exact registry",
+            "264-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -499,6 +500,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g277_observational_scale_anchor_ownership_2026-08-26/",
             "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/",
             "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/",
+            "udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -598,6 +600,7 @@ def validate_startup_surface(root: Path) -> None:
             "G277",
             "G278",
             "G279",
+            "G280",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -697,6 +700,7 @@ def validate_startup_surface(root: Path) -> None:
             "G277",
             "G278",
             "G279",
+            "G280",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -787,11 +791,15 @@ def validate_startup_surface(root: Path) -> None:
             "G274",
             "G275",
             "G276",
+            "G277",
+            "G278",
+            "G279",
+            "G280",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "260-row",
+            "264-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1152,9 +1160,39 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 260, "premise registry must contain exactly 260 rows")
+    require(len(rows) == 264, "premise registry must contain exactly 264 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 260, "duplicate premise id")
+    require(len(by_id) == 264, "duplicate premise id")
+    latest_rows = {
+        "G277": (
+            "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
+            "udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md",
+            "PANTHEONPLUS_CEPHEID_HOST_ROUTE_IS_A_CONDITIONAL_ABSOLUTE_SCALE_ATTACHMENT",
+        ),
+        "G278": (
+            "EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD",
+            "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/AUDIT_REPORT.md",
+            "SCALE_ATTACHMENT_RESOLUTION_OR_SUBSET_SENSITIVE",
+        ),
+        "G279": (
+            "EXTERNAL_REPAIR_ACCEPTED__NATIVE_CORE_INTACT",
+            "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/AUDIT_REPORT.md",
+            "NATIVE_CORE_INTACT",
+        ),
+        "G280": (
+            "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
+            "udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/AUDIT_REPORT.md",
+            "SAME_COMPLETE_PROJECTIVE_PAIR_STATE_ADMITS_DIFFERENT_NATIVE_JACOBI_AREA",
+        ),
+    }
+    for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
+        row = by_id[premise_id]
+        require(row["current_status"].startswith(status_prefix), f"{premise_id} status changed")
+        require(row["epistemic_label"] == "MIXED", f"{premise_id} label changed")
+        require(row["controlling_source"] == source, f"{premise_id} source changed")
+        source_path = ROOT / source
+        require(source_path.is_file(), f"{premise_id} controlling report missing")
+        require(landing_token in source_path.read_text(encoding="utf-8"), f"{premise_id} landing changed")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -13047,7 +13085,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

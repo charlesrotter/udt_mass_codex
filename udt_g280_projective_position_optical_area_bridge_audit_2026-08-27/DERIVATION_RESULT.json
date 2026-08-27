@@ -1,0 +1,55 @@
+{
+  "audit": "G280_PROJECTIVE_POSITION_OPTICAL_AREA_BRIDGE",
+  "cases": {
+    "assertions": 36883,
+    "maximum_wave_to_flat_area_ratio": 0.9999943746989625,
+    "minimum_wave_to_flat_area_ratio": 0.9729384158079943,
+    "primary_radial": 4096,
+    "projective": 4096,
+    "regular_precaustic_area": 4096
+  },
+  "checks": {
+    "connection_axis_zero": true,
+    "determinant_first_separation_minus_a2_L6_over_90": true,
+    "direct_areal_identification_forces_artanh_profile": true,
+    "distinct_regular_native_Jacobi_area_at_fixed_projective_state": true,
+    "first_metric_jet_axis_zero": true,
+    "flat_determinant_L2": true,
+    "forced_artanh_profile_violates_smooth_center_slope": true,
+    "jacobi_residual_zero": true,
+    "jacobi_vertex_slope_identity": true,
+    "jacobi_vertex_zero": true,
+    "metric_axis_equal": true,
+    "r_uxux_equals_minus_a": true,
+    "r_uyuy_equals_plus_a": true,
+    "radial_profile_A_reaches_registered_depth": true,
+    "radial_profile_B_reaches_registered_depth": true,
+    "same_frequency_ratio_for_arbitrary_endpoint_rapidity": true,
+    "same_full_endpoint_arrow_for_both_metrics": true,
+    "same_projective_state_for_arbitrary_endpoint_rapidity": true,
+    "wave_determinant_formula": true
+  },
+  "curvature": {
+    "R_uxux": "-a",
+    "R_uyuy": "a"
+  },
+  "fitted_coefficients": 0,
+  "jacobi": {
+    "dimensionless_ratio_series": "1 - q**4/90 + q**8/113400 + O(q**10)",
+    "flat_determinant": "L**2",
+    "wave_determinant": "sin(L*sqrt(a))*sinh(L*sqrt(a))/a"
+  },
+  "landing": "SAME_COMPLETE_PROJECTIVE_PAIR_STATE_ADMITS_DIFFERENT_NATIVE_JACOBI_AREA__OPTICAL_AREA_IS_NOT_A_FUNCTION_OF_PHI_OR_W5_STATE_ALONE__DIRECT_ONE_SCALE_SNE_CURVE_REQUIRES_ADDITIONAL_AREAL_OPTICAL_IDENTIFICATION_OR_COMPLETE_HISTORY",
+  "maximum_conclusion": "current W5 projective pair state and reciprocal redshift do not universally determine native optical Jacobi area; no SNe verdict or history selection",
+  "observational_outcomes_used": 0,
+  "primary_radial_separator": {
+    "forced_if_areal_radius_equals_projective_position": "phi(s)=artanh(s)",
+    "forced_profile_center_slope": "1",
+    "profile_A": "phi_A(s)=s^2",
+    "profile_B": "phi_B(s)=s^2+s^4",
+    "same_depth_radius_A_over_ell": "sqrt(delta)",
+    "same_depth_radius_B_over_ell": "sqrt(sqrt(4*delta + 1)/2 - 1/2)"
+  },
+  "selected_alternative": "B",
+  "status": "PASS"
+}

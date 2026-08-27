@@ -20,7 +20,7 @@ normalized scale-free linear-fractional class. W5 is Charles's provisional
 `WORKING_FOUNDATIONAL_CLARIFICATION`: physical normalized pair position is the complete
 screen-retaining projective relation state. It is not canon and changes neither metric nor kernel.
 
-G166--G276 is the active structural spine; G277--G279 control the observational interface and its
+G166--G276 is the active structural spine; G277--G280 control the observational interface and its
 provenance. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -63,6 +63,15 @@ radiative transfer, finite hat bases, Cepheid attachment, and DES normalization 
 downstream imports. The angular orchestra stays metric-native and upstream; direct SNe redshift does
 not execute that sibling channel.
 
+G280 closes the immediate representation question one level upstream. Exact complete-metric
+countermodels have the same light path, endpoint clocks, redshift, and W5 projective state but
+different native Jacobi areas. Exact primary-spherical profiles likewise reach the same depth at
+different areal radii. Therefore optical area is not a universal function of `phi` or W5 state
+alone, and the G278 finite curve cannot be repaired into a native one-scale prediction by choosing
+a representation. The independent external reviewer reproduced the result and accepted repairs
+R1--R3 with no remaining scoped defect. This does not weaken direct reciprocal redshift or the
+angular orchestra; it proves that the orchestra carries additional metric-history information.
+
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
 
@@ -89,10 +98,13 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Test whether the frozen relative SNe area state admits a representation-independent scale statistic,
-or prove the finite-resolution state insufficient. Do not choose a preferred `K`, average or smooth
-the disagreement, retune either SNe release, promote the optical bridge to native UDT, or select a
-history, population, operational distance, or `X_max`. The retained `3000 K -> 2.725 K` ratio is a
-later direct-depth check (`phi_T ~= 7.00`), not a repair for resolution sensitivity. No ODE/PDE or
-GPU solve is authorized.
+Return to the metric-led history/value question with G280 as a hard discriminator: determine
+whether an already owned complete-history principle jointly predicts the reciprocal-depth and
+null-screen/Jacobi evolution, or type the smallest additional native principle needed to do so.
+Only after a finite-dimensional joint history is independently derived may SNe or another
+observation calibrate its constants. Do not choose a preferred `K`, draw a free optical curve from
+the data, identify areal radius with projective position by fiat, retune either SNe release, or
+select population, operational distance, or `X_max`. The retained `3000 K -> 2.725 K` ratio is a
+later direct-depth check (`phi_T ~= 7.00`), not an optical-area law. No ODE/PDE or GPU solve is
+authorized before the candidate law and premise ledger are explicit.
 <!-- STARTUP_CURRENT_END -->

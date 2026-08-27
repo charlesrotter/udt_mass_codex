@@ -39,3 +39,27 @@ static-spherical separators. It retained alternative B and the bounded scientifi
 only repair request was evidentiary wording/strength: distinguish executable mutations from
 ledger provenance guards and replace the epsilon-only smooth-center probe with a direct
 derivative/class check.
+
+## Repair-only follow-up
+
+- authorized intake: `/tmp/udt_g280_repair_followup_goh3obso`;
+- total files: 40;
+- manifest payloads: 38;
+- `REVIEW_SCOPE.json` SHA-256:
+  `931a46785b4a62e382f8908b117abc0d566b70b6d6adc707473e515fad89631a`;
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `66197802f68bb124652c1908a9ab1bbd2a5c7c2914069a39fb325c0cd1dab1e7`;
+- `REVIEW_MANIFEST.sha256` SHA-256:
+  `7c50dcde402497e7c5b40ac157483c05a0013d45fe74cbf5ff59780d4fd4e598`;
+- raw response: `/tmp/udt_g280_repair_external.PPFwBq/return/EXTERNAL_REPAIR_FOLLOWUP.md`;
+- raw response SHA-256:
+  `59772fcb13d1853200b31ccb3e6201ca839c80a884c113f425e2dfdba9b6a352`;
+- banked newline-normalized transcript SHA-256:
+  `4fabdcc354bf56e5de6950a9300c849b2dd2610c0ed8c73e07d0dc343b3bab5a`;
+- verdict: `REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`.
+
+The repair-only reviewer verified all 38 payload entries, reran all eight registered commands,
+and reproduced the four durable outputs byte-for-byte. It accepted R1's exact `4 + 4` split,
+R2's exact symbolic center derivatives, and R3's ten fail-closed repair mutations. It found no
+remaining scoped defect and confirmed that alternative B, every load-bearing formula and count,
+the zero-fit/zero-observation controls, and the bounded maximum conclusion were unchanged.

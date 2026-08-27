@@ -77,6 +77,8 @@
 | G276 proper-clock/`c_E` reconciliation | external/repair accepted | Clock datum fixes scale; bounded landing unchanged |
 | G277 observational anchor ownership | external/repair accepted | Cepheid/optical route conditional; relative SNe scale-degenerate |
 | G278 Cepheid attachment/DES holdout | external/repair accepted | Conditional lead; resolution-independent scale fails |
+| G279 native-interface provenance | external/repair | Native core intact |
+| G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -97,8 +99,8 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class; metricity is not dynamics.
 - G212--G243 reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale; G257--G276 add
-  GR/projective/frame controls. G277/G278 test a declared observational attachment. None selects
-  values/history or modifies the metric, kernel, or premise registry.
+  GR/projective/frame controls. G277--G279 audit observational attachment; G280 separates projective
+  state and optical area. History unselected.
 
 ## Carrier, action, source, and matter
 
@@ -115,9 +117,8 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G276 are outcome-blind; G258 reuses G237. G277 owns only a conditional
-Cepheid/optical route; G278's no-retuning application remains resolution-sensitive. History and
-native transfer ownership stay open.
+G244--G276 outcome-blind except G258. G277 conditional; G278 resolution-sensitive; G279 core intact;
+G280 locates shape in complete-history/Jacobi data. History/transfer open.
 
 ## Recurring prohibited promotions
 
@@ -130,6 +131,6 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 260-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 264-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-26_pre_g270/`.

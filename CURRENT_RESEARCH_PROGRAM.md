@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-`LIVE.md` controls status; the 260-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 264-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -62,14 +62,21 @@ population, operational distance, or `X_max`.
   P1, G116/G189, fitted kernels, post-readout angular coefficients, Lambda-CDM distance, `X_max`,
   and protected work are absent from the G236/G278 executable path. Transfer, finite representation,
   Cepheid attachment, and DES normalization remain declared downstream imports.
+- G280 separates native reciprocal/projective state from native optical area. Complete-metric
+  countermodels retain the same null path, endpoint clocks, redshift, and W5 state while changing
+  transverse curvature and Jacobi area; primary-spherical profiles retain the same depth at
+  different areal radii. External and repair-only review accept the bounded landing. A direct
+  one-scale SNe curve therefore requires a complete joint history or an explicitly additional
+  areal/projective law; it is not a function of `phi` or W5 state alone.
 
 ## Open boundary
 
 The corpus owns the bounded relation evaluator, active angular/screen entry before readout, full
 frame-carry descent, W5's provisional normalized-position interpretation, and the one-scale
 attachment boundary. It does not own physical history, populated germ/path distribution, native
-radiative transfer, representation-independent SNe area state, operational distance, or numerical
-`X_max`. `d_A(Z)` exists only on monotone noncaustic branch pieces.
+radiative transfer, a joint depth-and-Jacobi history law, operational distance, or numerical
+`X_max`. `d_A(Z)` exists only on monotone noncaustic branch pieces, and G280 proves it is not a
+universal function of endpoint `phi` or W5 state alone.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -77,8 +84,11 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Determine whether the frozen relative SNe state supports a representation-independent scale
-statistic, or prove the finite-resolution construction insufficient. Do not choose `K`, average or
-smooth disagreement, retune observations, promote transfer/optical imports to native UDT, or select
-history, population, operational distance, or `X_max`. The CMB-temperature ratio remains a later
-direct-depth check. No ODE/PDE/GPU solve is authorized.
+Use G280 as a hard discriminator on the metric-led history/value-law search. Determine whether an
+already owned complete-history principle jointly predicts reciprocal depth and null-screen/Jacobi
+evolution, or type the smallest additional native principle that would. Only after such a law
+reduces the history to an independently derived finite-dimensional family may observations
+calibrate constants. Do not choose `K`, fit a free optical curve, identify projective and areal
+position by fiat, retune observations, or select population, operational distance, or `X_max`.
+The CMB-temperature ratio remains a later direct-depth check. No ODE/PDE/GPU solve is authorized
+before an explicit candidate law and premise ledger.
