@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-## Externally accepted bounded landing; repair follow-up pending
+## Externally accepted bounded landing
 
 ```text
 EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY
@@ -12,7 +12,7 @@ Current grade:
 
 ```text
 PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED
-__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_IMPLEMENTED__REPAIR_FOLLOWUP_PENDING
+__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_EXTERNALLY_CONFIRMED
 ```
 
 ## What was learned
@@ -72,7 +72,8 @@ and retained the landing unchanged. It identified a missing SymPy runtime in the
 and a verifier that checked saved results without rerunning them. R1 replaces the production
 derivation with standard-library exact algebra; R2 makes the package verifier execute all four
 registered computations before accepting the artifacts. The original SymPy implementation remains
-only as a supplemental cross-check. A sealed repair-only follow-up remains required.
+only as a supplemental cross-check. The sealed repair-only follow-up independently confirmed both
+repairs and reported no further defect.
 
 ## Scope and maximum conclusion
 
@@ -81,5 +82,6 @@ family. It does not prove that no stronger UDT causal principle can select value
 history or population, canonize infinite bare `c`, derive signalling, attach an absolute distance,
 or determine `X_max`.
 
-Fresh external scientific review is complete. A bounded repair-only follow-up remains required
-before this landing is banked into the active premise registry or startup surface.
+Fresh external scientific review and the bounded repair-only follow-up are complete. The landing
+may now be banked into the active premise registry and startup surface only with its local bounded
+scope and provisional missing-law interpretation intact.

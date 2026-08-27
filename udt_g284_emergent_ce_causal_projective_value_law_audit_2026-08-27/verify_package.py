@@ -155,6 +155,8 @@ def main() -> None:
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_RESULT.json",
         "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
         "build_repair_followup_intake.py",
     )
     protected = (
@@ -178,8 +180,8 @@ def main() -> None:
         ),
         "premise_rows_16": len(premises) == 16,
         "status_rows_10": len(status_rows) == 10,
-        "external_review_repair_followup_pending": status["S10"]["status"]
-        == "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING",
+        "external_review_and_repairs_confirmed": status["S10"]["status"]
+        == "PASS_ACCEPTED_REPAIRS_CONFIRMED",
         "registered_replays_4_of_4": (
             len(replay_records) == 4
             and all(record["exit_code"] == 0 for record in replay_records)
@@ -217,12 +219,11 @@ def main() -> None:
             == "in_memory_boolean_claim_schema_only__not_artifact_level_mutation_replay"
             and all(catches["caught"].values())
         ),
-        "landing_exact_and_provisional": (
-            verification["status"] == "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING"
+        "landing_exact_and_externally_accepted": (
+            verification["status"] == "PASS_EXTERNAL_REVIEW_COMPLETE"
             and verification["landing"] == LANDING
-            and verification["external_review"]
-            == "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING"
-            and "REPAIR_FOLLOWUP_PENDING" in verification["grade"]
+            and verification["external_review"] == "ACCEPTED_REPAIRS_CONFIRMED"
+            and "R1_R2_EXTERNALLY_CONFIRMED" in verification["grade"]
             and LANDING in audit
         ),
         "causal_tape_type_stated_without_formula_promotion": (
@@ -245,7 +246,7 @@ def main() -> None:
         json.dumps(
             {
                 "audit": "G284_PACKAGE_AND_EXECUTABLE_REPLAY_VERIFICATION",
-                "status": "PASS_REPAIRS__EXTERNAL_REPAIR_FOLLOWUP_PENDING",
+                "status": "PASS_EXTERNAL_REVIEW_COMPLETE",
                 "landing": LANDING,
                 "counts": verification["counts"],
                 "replay_commands": replay_records,

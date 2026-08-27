@@ -14,7 +14,8 @@ Date: 2026-08-27
    defect were preregistered as R1/R2 and repaired.
 6. **Repair replay:** PASS internally — all four recomputations now run with `python3 -S` in an
    ephemeral exact-source copy, and an artifact-level broken-replay mutation is rejected.
-7. **External repair-only follow-up:** PENDING.
+7. **External repair-only follow-up:** PASS — fresh `gpt-5.4` reviewer independently confirmed R1
+   and R2, found no repair defect, and retained the bounded scientific landing unchanged.
 
-Until gate 7 closes, the result remains repair-follow-up pending and must not enter
-`CURRENT_SCIENTIFIC_PREMISES.tsv` or the startup surface.
+All required G284 evidence gates are closed. Any premise-registry or startup-surface update must
+still preserve the bounded witness scope and `PROVISIONAL_INFERENCE` stamp on the missing-law type.

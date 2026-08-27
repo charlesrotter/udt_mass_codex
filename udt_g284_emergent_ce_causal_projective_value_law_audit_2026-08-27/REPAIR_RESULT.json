@@ -1,6 +1,6 @@
 {
   "audit": "G284_EXTERNAL_REVIEW_REPAIR_RESULT",
-  "status": "PASS_INTERNAL__EXTERNAL_REPAIR_FOLLOWUP_PENDING",
+  "status": "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED",
   "landing_changed": false,
   "repairs": {
     "R1_dependency_free_symbolic_replay": {
@@ -20,5 +20,6 @@
       "broken_registered_replay_mutation_caught": true
     }
   },
-  "external_repair_followup": "PENDING"
+  "external_repair_followup": "CONFIRM_R1__CONFIRM_R2__LANDING_UNCHANGED",
+  "external_report_sha256": "92e4c4b995a2fa03426f8370a9691b46347e2a5729b9c21d875337c3ec87a5fa"
 }
