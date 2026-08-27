@@ -16,13 +16,14 @@ control. It does not claim an all-repository or all-possible-law theorem.
 
 ## 3. Independent verification
 
-`PASS_INTERNAL_AND_EXTERNAL_MATHEMATICS__REPAIR_FOLLOWUP_PENDING`. The exact symbolic derivation is
+`PASS_INTERNAL_AND_EXTERNAL__REPAIR_ACCEPTED`. The exact symbolic derivation is
 independently checked by a standard-library RK4 implementation that imports no production module:
 512 randomized cases and 3,584 assertions passed. The fresh sealed external reviewer accepted this
 mathematics and the bounded scientific landing. Seven in-memory claim-schema mutations were also
 rejected. This guard does not mutate or replay evidence files, derivation code, or source-census
-artifacts and is not an artifact-level mutation replay. The reviewer's sole requested wording
-repair has been applied and awaits repair-only follow-up verification.
+artifacts and is not an artifact-level mutation replay. The final repair-only reviewer verified the
+exact R1 wording, all five registered replays, and post-replay byte integrity, and returned
+`REPAIR-ACCEPTED` with no remaining scoped defect.
 
 ## 4. Premise audit
 
@@ -34,7 +35,7 @@ discriminators, and omitted imports. No field equation, action, source, fit, sca
 ## Current grade
 
 ```text
-EXTERNAL_ACCEPT_WITH_REPAIRS
-__R1_CLAIM_SCHEMA_RETYPE_APPLIED
-__REPAIR_ONLY_FOLLOWUP_PENDING
+EXTERNALLY_REVIEWED_BOUNDED_RESULT
+__R1_REPAIR_ACCEPTED
+__SCIENTIFIC_LANDING_UNCHANGED
 ```

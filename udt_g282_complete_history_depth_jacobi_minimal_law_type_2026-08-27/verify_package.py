@@ -55,6 +55,8 @@ def main() -> None:
     verification = json.loads((PACKAGE / "VERIFICATION_RESULT.json").read_text())
     report = (PACKAGE / "AUDIT_REPORT.md").read_text()
     exact = (PACKAGE / "EXACT_DERIVATION.md").read_text()
+    evidence_gates = (PACKAGE / "EVIDENCE_GATES.md").read_text()
+    final_followup = (PACKAGE / "EXTERNAL_FINAL_REPAIR_FOLLOWUP.md").read_text()
     required = (
         "MAP.md",
         "PREREGISTRATION.md",
@@ -82,6 +84,10 @@ def main() -> None:
         "EXTERNAL_REVIEW_DETAILED_MEMO.md",
         "TRANSMISSION_RECORD.md",
         "REPAIR_PREREGISTRATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
+        "EXTERNAL_FINAL_REPAIR_FOLLOWUP.md",
+        "FINAL_REPAIR_FOLLOWUP_TRANSMISSION_RECORD.md",
         "COMMANDS.md",
     )
     checks = {
@@ -130,6 +136,18 @@ def main() -> None:
             and derivation["observational_outcomes_used"] == 0
             and not derivation["Xmax_used"]
             and not any(verification["premise_imports"].values())
+        ),
+        "external_R1_repair_accepted": (
+            verification["grade"]
+            == "EXTERNALLY_REVIEWED_BOUNDED_RESULT__R1_REPAIR_ACCEPTED"
+            and any(
+                row["id"] == "S12" and row["status"] == "REPAIR_ACCEPTED"
+                for row in status
+            )
+            and "Primary verdict: `REPAIR-ACCEPTED`." in final_followup
+            and "does not mutate or replay evidence files, derivation code, or source-census"
+            in evidence_gates
+            and "is not an artifact-level mutation replay" in evidence_gates
         ),
         "all_required_files_present": all((PACKAGE / name).is_file() for name in required),
         "landing_exact": (

@@ -108,3 +108,13 @@ the three allowed law homes and ask whether a nonidentity neighboring-relation c
 in the founding structure. That search must preregister explicit witness rejection. If it returns
 negative, the project will know the exact type of additional premise Charles would need to consider,
 without confusing an imported equation with a derivation.
+
+## External certification closure
+
+A fresh sealed external Codex `gpt-5.4` review accepted the bounded mathematics and scientific
+landing subject to one evidence-description repair: the seven hostile catches had to be described
+as in-memory claim-schema consistency guards, not artifact-level mutation replays. The final
+repair-only follow-up verified the exact repaired wording, all five registered checks, every one of
+the 50 sealed payloads, and a post-replay byte-integrity pass. It returned `REPAIR-ACCEPTED` with no
+remaining defect inside the authorized R1 scope. This certification closure does not strengthen or
+alter the bounded G282 scientific landing.
