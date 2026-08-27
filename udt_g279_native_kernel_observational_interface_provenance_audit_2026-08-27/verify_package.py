@@ -41,6 +41,10 @@ def main() -> None:
         "EVIDENCE_GATES.md",
         "COMMANDS.md",
         "REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "TRANSMISSION_RECORD.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
         "DEPENDENCY_LEDGER.tsv",
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
@@ -84,7 +88,9 @@ def main() -> None:
     assert independent["stored_scientific_results_read"] == 0
     assert independent["total_assertions"] == 109549
     assert subtraction["status"] == "PASS" and subtraction["case_count"] == 9
-    assert catch["status"] == "PASS" and catch["caught"] == catch["expected"] == 14
+    assert catch["status"] == "PASS" and catch["caught"] == catch["expected"] == 16
+    assert derivation["executable_audit"]["G278_W5_usage_flags_corrected"] is True
+    assert derivation["executable_audit"]["G279_MAP_W5_sibling_only"] is True
 
     with (PACKAGE / "DEPENDENCY_LEDGER.tsv").open(newline="") as handle:
         edges = {row["edge"]: row for row in csv.DictReader(handle, delimiter="\t")}
@@ -95,13 +101,23 @@ def main() -> None:
     assert edges["P00"]["load_bearing_G278"] == "no"
     assert edges["S00"]["load_bearing_G278"] == "no"
 
+    with (
+        ROOT / "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/PREMISE_LEDGER.tsv"
+    ).open(newline="") as handle:
+        g278_rows = {row["item"]: row for row in csv.DictReader(handle, delimiter="\t")}
+    projective = g278_rows["completed_pair_projective_state"]
+    assert projective["used_in_scale"] == "no"
+    assert projective["used_in_des"] == "no"
+    map_text = (PACKAGE / "MAP.md").read_text()
+    assert "W5 projective relation state is a separate working sibling" in map_text
+    assert "W1 terminal pair readout and W5" not in map_text
+
     report = (PACKAGE / "AUDIT_REPORT.md").read_text()
-    assert "AWAITING_FRESH_EXTERNAL_ADVERSARIAL_REVIEW" in report
-    assert "projective state as used" in report
+    assert "R1_R2_IMPLEMENTED_AWAITING_REPAIR_ONLY_FOLLOWUP" in report
     assert "Source-bounded provenance only" in report
     print(
         "PASS: 31 frozen sources; 12 typed edges; 109549 independent assertions; "
-        "9 subtractions; 14 hostile catches; local G279 package awaiting external review"
+        "9 subtractions; 16 hostile catches; G279 R1/R2 implemented awaiting repair-only follow-up"
     )
 
 

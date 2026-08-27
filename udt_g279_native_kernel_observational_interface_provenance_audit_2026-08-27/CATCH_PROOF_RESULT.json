@@ -56,9 +56,17 @@
     {
       "caught": true,
       "mutation": "make_angular_postreadout_load_bearing"
+    },
+    {
+      "caught": true,
+      "mutation": "restore_false_G278_W5_use_flags"
+    },
+    {
+      "caught": true,
+      "mutation": "restore_W5_to_main_G279_arrow"
     }
   ],
-  "caught": 14,
-  "expected": 14,
+  "caught": 16,
+  "expected": 16,
   "status": "PASS"
 }

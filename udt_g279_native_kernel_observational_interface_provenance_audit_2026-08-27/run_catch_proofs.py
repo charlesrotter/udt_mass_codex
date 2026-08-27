@@ -7,7 +7,16 @@ import copy
 import json
 from pathlib import Path
 
-from derive_native_provenance import EDGES, G236, G278, audit_executables, validate_edges
+from derive_native_provenance import (
+    EDGES,
+    G236,
+    G278,
+    G278_LEDGER,
+    G279_MAP,
+    audit_executables,
+    validate_document_alignment,
+    validate_edges,
+)
 
 
 PACKAGE = Path(__file__).resolve().parent
@@ -67,6 +76,28 @@ def main() -> None:
             if edge["edge"] == edge_id:
                 edge[key] = value
         catches.append(must_fail(label, lambda t=trial: validate_edges(t)))
+
+    ledger = G278_LEDGER.read_text()
+    map_text = G279_MAP.read_text()
+    catches.append(
+        must_fail(
+            "restore_false_G278_W5_use_flags",
+            lambda: validate_document_alignment(ledger.replace("\tno\tno\n", "\tyes\tyes\n", 1), map_text),
+        )
+    )
+    catches.append(
+        must_fail(
+            "restore_W5_to_main_G279_arrow",
+            lambda: validate_document_alignment(
+                ledger,
+                map_text.replace(
+                    "-> W1 terminal pair readout",
+                    "-> W1 terminal pair readout and W5 projective relation state",
+                    1,
+                ),
+            ),
+        )
+    )
 
     result = {
         "audit": "G279_HOSTILE_CATCH_PROOFS",

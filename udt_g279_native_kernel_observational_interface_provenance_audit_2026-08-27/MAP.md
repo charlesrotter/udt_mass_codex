@@ -16,12 +16,15 @@ F1--F4
   -> supplied-depth reciprocal character D(delta)
   -> primary reciprocal metric / complete coframe
   -> completed pair pullback h=F^*g
-  -> W1 terminal pair readout and W5 projective relation state
+  -> W1 terminal pair readout
   -> direct endpoint redshift depth
   -> frozen G236 relative SNe state
   -> declared G277 radiative/Cepheid/optical imports
   -> G278 conditional scale attachment and DES holdout
 ```
+
+W5 projective relation state is a separate working sibling of the completed-pair development. It
+does not execute in G236 or G278.
 
 The audit is metric-led. It does not search for a better fit or a new mechanism.
 

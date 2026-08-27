@@ -29,6 +29,10 @@ PACKAGE_FILES = [
     "EVIDENCE_GATES.md",
     "COMMANDS.md",
     "REVIEW_REQUEST.md",
+    "EXTERNAL_REVIEW_GPT54.md",
+    "TRANSMISSION_RECORD.md",
+    "REPAIR_PREREGISTRATION.md",
+    "REPAIR_FOLLOWUP_REQUEST.md",
     "DEPENDENCY_LEDGER.tsv",
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
@@ -80,16 +84,15 @@ def main() -> None:
 
     scope = {
         "audit": "G279_NATIVE_KERNEL_OBSERVATIONAL_INTERFACE_PROVENANCE_AUDIT",
-        "mode": "fresh_read_only_adversarial_review",
+        "mode": "read_only_repair_only_followup_review",
         "question": (
-            "Does the exact bounded F1-F4/W1-to-G278 chain preserve the native reciprocal kernel "
-            "while keeping transfer, finite representation, Cepheid attachment, and DES conventions "
-            "explicitly downstream; and are W5/angular siblings absent from the G278 executable path?"
+            "Do preregistered repairs R1 and R2 exactly correct the G278 W5 use flags and G279 map "
+            "topology while leaving the accepted bounded scientific landing unchanged?"
         ),
         "allowed_actions": [
             "inspect only sealed intake files",
             "run registered no-write replays or bounded checks in a writable ephemeral copy",
-            "challenge status grades, dependency edges, subtraction logic, and conclusion ceiling",
+            "verify only preregistered repairs R1 and R2 and the retained bounded landing",
         ],
         "forbidden_actions": [
             "edit evidence files",
@@ -98,6 +101,7 @@ def main() -> None:
             "access protected packages",
             "inspect unsealed observational outcomes",
             "fit or select a kernel, history, scale, resolution, or X_max",
+            "change the scientific question or continue beyond R1 and R2",
         ],
         "registered_commands": [
             f"cd {PACKAGE_NAME} && python3 freeze_source_manifest.py",

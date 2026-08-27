@@ -15,4 +15,4 @@ P1_G116_G189_Xmax_LCDM_kernel_dependency	REFUTED_BOUNDED_BY_SOURCE_AND_EXECUTABL
 G278_projective_dependency	REFUTED_BOUNDED	historical premise ledger is broader than executable dependency
 G278_resolution_sensitivity	DOWNSTREAM_OBSERVED_LIMITATION	does not modify or fit the reciprocal kernel
 physical_history_native_light_law_unique_scale_Xmax	OPEN	not resolved by provenance audit
-G279_local_landing	LOCAL_VERIFIED_AWAITING_EXTERNAL	final banking requires fresh adversarial replay
+G279_review_landing	EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_IMPLEMENTED	repair-only external follow-up remains required

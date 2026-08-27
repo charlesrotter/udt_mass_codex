@@ -9,7 +9,8 @@ NATIVE_CORE_INTACT
 __DECLARED_IMPORT_BOUNDARY_INTACT
 __G278_RESOLUTION_SENSITIVITY_IS_DOWNSTREAM_OF_THE_KERNEL
 __W5_AND_ANGULAR_SIBLINGS_ARE_NOT_G278_EXECUTABLE_DEPENDENCIES
-__AWAITING_FRESH_EXTERNAL_ADVERSARIAL_REVIEW
+__EXTERNAL_ACCEPT_WITH_REPAIRS
+__R1_R2_IMPLEMENTED_AWAITING_REPAIR_ONLY_FOLLOWUP
 ```
 
 ## What the audit found
@@ -57,10 +58,10 @@ The executable dependencies that are not native derivations are visible and corr
 - published Cepheid ladder and same-distance bridge: `OBSERVED_PLUS_CONDITIONAL_BRIDGE`;
 - DES `MU` normalization: `OBSERVED_RELEASE_CONVENTION`.
 
-One documentary overstatement was found: G278's historical premise ledger marks the completed
+One documentary overstatement was found: G278's initial premise ledger marked the completed
 projective state as used. Its production and diagnostic executables contain no W5, projective, or
-`tanh` dependency. G279 corrects current interpretation without rewriting the frozen historical
-evidence.
+`tanh` dependency. Repair R1 now gives that row `no/no` executable-use flags. Repair R2 likewise
+moves W5 out of the main G279 G278 arrow and displays it as a separate working sibling.
 
 ## Independent evidence
 
@@ -71,7 +72,7 @@ evidence.
 - 10,000 projective-frame random cases passed;
 - 109,549 total independent assertions passed;
 - zero production-module imports and zero stored scientific-result reads in the independent replay;
-- 14/14 hostile provenance mutations caught;
+- 16/16 hostile provenance mutations caught, including both documentary regressions;
 - 9/9 dependency-subtraction cases passed;
 - the 260-row current premise registry passed;
 - repository suite: 180 passed, 1 known xfail, 1 unrelated startup-surface word-limit failure
@@ -79,6 +80,10 @@ evidence.
   gate.
 
 ## Interpretation
+
+Fresh external `gpt-5.4` review returned `ACCEPT_WITH_REPAIRS`, reproduced every registered output
+bit-for-bit, found no hidden scientific scaffold, and retained the landing. Its two documentary
+repairs are implemented and await repair-only follow-up.
 
 This is a successful no-scaffold audit at its bounded source ceiling. It does not say every current
 object is founded at the same grade. F4 remains a declared readout, W1 and W5 remain working

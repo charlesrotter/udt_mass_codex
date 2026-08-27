@@ -154,9 +154,10 @@ native/mixed-status sibling developments. Static source and AST tracing show tha
 executed by the G236 or G278 SNe programs. Therefore G278 cannot certify, fit, or corrupt either
 one. It tests only the direct-redshift plus imported-transfer observational route.
 
-The G278 historical `PREMISE_LEDGER.tsv` marks `completed_pair_projective_state` as used. That is too
-broad for executable provenance. G279 preserves the historical file and records the repair here:
-W5 is conceptually adjacent but not a numerical dependency of G278.
+The initial G278 `PREMISE_LEDGER.tsv` marked `completed_pair_projective_state` as used. Fresh G279
+review identified that as too broad for executable provenance. Repair R1 now marks W5 as a
+conceptually adjacent sibling with `no/no` executable-use flags; Git retains the original wording.
+W5 is not a numerical dependency of G278.
 
 ## 8. Subtraction theorem for the bounded chain
 

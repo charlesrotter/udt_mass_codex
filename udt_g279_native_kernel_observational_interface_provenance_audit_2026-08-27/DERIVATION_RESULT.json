@@ -3,8 +3,10 @@
   "edge_count": 12,
   "executable_audit": {
     "G236_K_basis_is_executable_numerical_representation": true,
+    "G278_W5_usage_flags_corrected": true,
     "G278_diagnostic_reuses_production_helpers": true,
     "G278_resolution_gate_is_active": true,
+    "G279_MAP_W5_sibling_only": true,
     "P1_G116_G189_Xmax_LCDM_runtime_dependency": false,
     "angular_postreadout_executable_dependency": false,
     "inventories": {

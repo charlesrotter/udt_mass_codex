@@ -18,6 +18,8 @@ MANIFEST = PACKAGE / "SOURCE_MANIFEST.tsv"
 G236 = ROOT / "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/derive_dual_sne_relational_state.py"
 G278 = ROOT / "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/derive_scale_and_holdout.py"
 G278_DIAGNOSTIC = ROOT / "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/diagnose_resolution_sensitivity.py"
+G278_LEDGER = ROOT / "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/PREMISE_LEDGER.tsv"
+G279_MAP = PACKAGE / "MAP.md"
 
 
 EDGES = [
@@ -197,6 +199,17 @@ def validate_edges(edges: list[dict[str, str]]) -> None:
     assert by_id["S00"]["load_bearing_G278"] == "no"
 
 
+def validate_document_alignment(g278_ledger: str, g279_map: str) -> None:
+    corrected_row = (
+        "completed_pair_projective_state\tWORKING_FOUNDATIONAL_CLARIFICATION\t"
+        "conceptually adjacent projective sibling; not executable in the G278 SNe route\tno\tno"
+    )
+    assert corrected_row in g278_ledger
+    assert "-> W1 terminal pair readout\n  -> direct endpoint redshift depth" in g279_map
+    assert "W5 projective relation state is a separate working sibling" in g279_map
+    assert "W1 terminal pair readout and W5" not in g279_map
+
+
 def audit_executables() -> dict[str, object]:
     inventories = {path.name: ast_inventory(path) for path in (G236, G278, G278_DIAGNOSTIC)}
     allowed_main_imports = {
@@ -245,6 +258,7 @@ def audit_executables() -> dict[str, object]:
 
     diagnostic_imports = set(inventories[G278_DIAGNOSTIC.name]["imports"])
     assert "derive_scale_and_holdout" in diagnostic_imports
+    validate_document_alignment(G278_LEDGER.read_text(), G279_MAP.read_text())
 
     return {
         "inventories": {
@@ -260,6 +274,8 @@ def audit_executables() -> dict[str, object]:
         "G236_K_basis_is_executable_numerical_representation": True,
         "G278_resolution_gate_is_active": True,
         "G278_diagnostic_reuses_production_helpers": True,
+        "G278_W5_usage_flags_corrected": True,
+        "G279_MAP_W5_sibling_only": True,
     }
 
 

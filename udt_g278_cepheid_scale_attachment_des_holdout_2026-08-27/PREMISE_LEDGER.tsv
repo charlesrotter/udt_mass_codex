@@ -1,5 +1,5 @@
 item	status	role	used_in_scale	used_in_des
-completed_pair_projective_state	WORKING_FOUNDATIONAL_CLARIFICATION	physical normalized pair position after complete metric pullback	yes	yes
+completed_pair_projective_state	WORKING_FOUNDATIONAL_CLARIFICATION	conceptually adjacent projective sibling; not executable in the G278 SNe route	no	no
 phi_equals_log1p_z	DERIVED_CONDITIONAL	direct reciprocal redshift readout	yes	yes
 one_positive_homothety_ell	DERIVED_CONDITIONAL	remaining scale after G275/G276	yes	yes
 G236_relative_state	OBSERVED_PREREGISTERED_NUMERICAL_READOUT	frozen Pantheon+-only S_K(phi)	yes	yes
