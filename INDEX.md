@@ -21,15 +21,10 @@ The exact current premise authority is the 267-row `CURRENT_SCIENTIFIC_PREMISES.
 - Provenance/germ: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`; `udt_g198_bidirectional_null_germ_map_2026-08-21/`
 - Two-direction: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`; `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
 - Regime/quiet/regularity: `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`;
-  `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`;
-  `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`;
-  `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
+  `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`; `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`; `udt_g204_primary_metric_global_regularity_asymptotic_profile_2026-08-21/`
 - Completion: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`
-- Robustness G206--G210: `udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`;
-  `udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`;
-  `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`;
-  `udt_g209_g205_timespace_shift_robustness_2026-08-21/`;
-  `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
+- Robustness G206--G210: `udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`; `udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`;
+  `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`; `udt_g209_g205_timespace_shift_robustness_2026-08-21/`; `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
 - Basis/history: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`;
   `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
 - Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
@@ -119,6 +114,5 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without explicit authority.
-## Archives
 Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`.
 G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.

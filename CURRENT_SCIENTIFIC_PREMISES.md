@@ -10,10 +10,10 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
-| Pair-clock/state network | G215--G276 | Carry, transport, projective/frame descent, conditional scale | Dynamics/history/aggregation |
+| Pair-clock/state network | G215/G216--G276 | Carry/projective/scale descent | History/aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
-| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale; history/population; `X_max` |
+| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale/history/`X_max` |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
 | Projective pair coordinate | `DERIVED` in declared class / exact radial stratum | `chi=tanh(phi_pair)` plus screen-retaining open-ball vector | Physical-position adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -46,7 +46,7 @@
 | G236/G237 SNe state | external | No law |
 | G238/G239/G240 held-out query | external/repaired | Inputs open |
 | G241/G242/G243 radial controls | external | Bounded negatives |
-| G244--G248 sky/measure | external | Population open |
+| G244/G245/G246/G247/G248 sky/measure | external | Population open |
 | G249 scale boundary | external/repaired | One anchor remains |
 | G250 anchor types | external/repaired | Scale conditional |
 | G251 attachment ownership | external/repaired | No datum owner |
@@ -74,14 +74,14 @@
 | G273 projective distance ownership | external | W5 later adopts interpretation |
 | G274 projective network descent | external | Full carry; radial Möbius |
 | G275 projective scale attachment | external/R4 accepted | One scale; `X_max` needs completion |
-| G276 proper-clock/`c_E` reconciliation | external/repair accepted | Clock datum fixes scale; bounded landing unchanged |
-| G277 observational anchor ownership | external/repair accepted | Cepheid/optical route conditional; relative SNe scale-degenerate |
-| G278 Cepheid attachment/DES holdout | external/repair accepted | Conditional lead; resolution-independent scale fails |
+| G276 proper-clock/`c_E` reconciliation | external/repair accepted | Clock datum fixes scale |
+| G277 observational anchor ownership | external/repair accepted | Conditional Cepheid/optical route |
+| G278 Cepheid/DES holdout | external/repair accepted | Resolution-sensitive lead |
 | G279 native-interface provenance | external/repair | Native core intact |
 | G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
-| G281 SNe audit | external/repair accepted | No native prediction; redshift/evaluator survive |
-| G282 history/Jacobi law type | external/R1 repair accepted | Neighbor-relation curvature values still need a law; representation nonunique |
-| G283 curvature-identity nonselection | external/repair accepted | Owned compatibility identities do not select arbitrary tidal-history values on the frozen witness arena |
+| G281 SNe audit | external/repair accepted | No native prediction; redshift survives |
+| G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
+| G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -99,14 +99,10 @@ None selects completion/`X_max`.
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 ## Geometry, query, and causality
 
-- The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
-  scalars stop at positive conformal class; metricity is not dynamics.
-- G212--G243 reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale; G257--G276 add
-  GR/projective/frame controls. G277--G281 audit observational attachment, projective/area
-  separation, and SNe provenance. G282 types the remaining neighboring-relation curvature
-  information and its three nonunique mathematical homes. G283 proves that the registered ordinary
-  compatibility identities do not select those values on its explicit smooth witness family.
-  History remains unselected.
+- The pullbacks and bivector area bilinear recover `g`; scalars stop at positive conformal class;
+  metricity is not dynamics. G212--G243 reconstruct; G244--G248 type branches; G249--G256 type scale; G257--G276
+  add GR/projective/frame controls; G277--G281 audit observations. G282/G283 locate the remaining
+  neighboring-curvature values and show ordinary compatibility does not select them.
 
 ## Carrier, action, source, and matter
 
@@ -122,10 +118,8 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`. G236--G243 are controls;
-G244--G276 are outcome-blind except G258. G277--G283 leave history/transfer open. G281 finds no
-prediction; G282 narrows the missing law to neighboring-relation curvature value content; G283
-excludes ordinary owned compatibility identities as that value selector on its frozen arena;
+R2--R5 select no scale or `X_max`; G236--G276 are controls/outcome-blind except G258. G277--G283
+leave history/transfer open: no native SNe prediction, and no compatibility value law;
 redshift/evaluator survive.
 
 ## Recurring prohibited promotions
@@ -140,5 +134,4 @@ Do not:
 ## How to use the registry
 
 `CURRENT_SCIENTIFIC_PREMISES.tsv` is the 267-row authority; conflicts stop. Run
-`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing. Archives:
-`archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-26_pre_g270/`.
+`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

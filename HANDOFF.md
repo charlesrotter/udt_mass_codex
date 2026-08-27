@@ -32,57 +32,30 @@ normalized pair position. It is not canon, a dimensional distance, or a kernel c
 one positive homothety; G276 attaches it only conditionally through an independent clock record and
 `c_E`. History, populated boundary, operational distance, and `X_max` remain open.
 
-G277 types the Cepheid-ladder/optical bridge as explicit observational imports. G278 applies them
-without retuning: its conditional scale and independent DES check pass at `K=12`, but the four
-frozen resolutions disagree in both curve and scale. Grade:
-`EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`.
+G277/G278 attach a Cepheid/optical scale only through declared imports and remain a
+resolution-sensitive lead. G279 retains `NATIVE_CORE_INTACT__DECLARED_IMPORT_BOUNDARY_INTACT`;
+transfer, finite representation, Cepheids, and normalization remain downstream, while W5 is not
+load-bearing for G278.
 
-G279 now closes the provenance question at its bounded ceiling. Fresh and repair-only external
-`gpt-5.4` reviews verified all payload hashes and six bit-identical replays. The retained landing is
-`NATIVE_CORE_INTACT__DECLARED_IMPORT_BOUNDARY_INTACT__G278_SENSITIVITY_DOWNSTREAM__W5_NOT_LOAD_BEARING_FOR_G278`.
-No fitted/scaffolded kernel, post-readout orchestra, Lambda-CDM distance, `X_max`, or protected
-package executes in G236/G278. Transfer, finite representation, Cepheid attachment, and DES
-normalization remain declared downstream imports. W5 and the angular/Jacobi route remain independent
-siblings, not discarded physics.
+G280 proves equal redshift/W5 state need not give equal Jacobi area or areal radius. G281 finds no
+tracked complete native SNe prediction: the old headline used a supplied cubic and wrong transfer;
+P1 and G236/G237/G278 remain empirical/conditional. Direct redshift and metric/Jacobi evaluation
+survive.
 
-G280 then tests the missing W5-to-optical bridge directly. It constructs complete metrics with the
-same null path, endpoint clocks, reciprocal redshift, and W5 state but different native Jacobi
-areas, plus primary-spherical same-depth profiles at different areal radii. External review and the
-repair-only follow-up retain alternative B with no scoped defect. Hence the direct redshift channel
-is native, but an SNe optical-area curve requires the complete metric/null-bundle history or a
-separately declared areal/projective law; it is not fixed by `phi` plus one scale.
-
-G281 then audits the full tracked non-protected SNe lineage back to `udt_canonical_geometry.md`.
-Its internally verified, retrospective result finds zero complete native-prediction witnesses in
-24 claim tiles: the old headline score combined a supplied cubic with a wrong one-factor transfer;
-P1 is empirical calibration; G236/G237 are empirical reconstruction; G278 is a resolution-sensitive
-scale/holdout lead. Native direct redshift and conditional metric/Jacobi evaluation survive, and
-G279/G280 remain controlling. Fresh external review retained the landing after R1--R4
-evidence/typing repairs; the corrected 32-source sealed follow-up returned `ACCEPT` with no
-remaining scoped defect and no scientific change.
-
-G282 then applies G280/G281 as hard discriminators. A complete-metric witness keeps the central
-metric, first jet, connection, and endpoint state fixed while changing neighboring transverse
-curvature and native Jacobi area; a primary witness reaches the same depth at different areal
-positions. No owned joint history law appears in the frozen 18-source census. The needed value
-content can be represented as a metric two-jet/curvature condition, an equivalent first-order
-coframe/connection/curvature system, or a global neighboring-relation law; G282 does not privilege
-one. Final sealed external review returned `REPAIR-ACCEPTED`, and all registered checks pass.
-
-G283 realizes the same arbitrary smooth symmetric `T(u)` as metric curvature, a first transverse
-connection derivative, and the Jacobi/network generator. The central metric, first jet,
-connection, and transport remain fixed, but neighboring optical response changes. Every registered
-compatibility identity still passes, including the trace-free two-function control. Fresh external
-and repair-only review returned `REPAIR-ACCEPTED`; the source-bounded result is that compatibility
-does not supply the missing values. No field equation, action, source, observation, fit, scale,
-history, population, or `X_max` was adopted.
+G282 locates the missing joint-history information in neighboring curvature values, with metric
+two-jet, coframe/connection, and global network representations all open. G283 realizes arbitrary
+smooth symmetric `T(u)` in all three while every owned compatibility identity passes. External
+repair review accepted both bounded results; neither adopts a history, equation, source, fit, scale,
+population, or `X_max`.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
-`archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-22_pre_cleanup/`, and
+`CURRENT_SCIENTIFIC_PREMISES.tsv`. Startup archives:
+`archive/startup_surface_2026-08-17_pre_zoomout/`,
+`archive/startup_surface_2026-08-21_pre_g197/`,
+`archive/startup_surface_2026-08-22_pre_cleanup/`, and
 `archive/startup_surface_2026-08-26_pre_g270/`.
 
 Protected—do not stage, modify, mine, or cite without dispatch:

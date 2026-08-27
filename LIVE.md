@@ -43,69 +43,22 @@ Compact route ledger:
   null-screen interlock, projective/frame descent, homothety boundary, and conditional clock/`c_E`
   scale attachment without selecting history, population, operational distance, or `X_max`.
 
-G277 shows that Pantheon+ Cepheid hosts attach scale only after explicit Cepheid-ladder and
-optical-distance imports. G278 applies those imports without retuning: the `K=12` conditional lead
-is `ell=286.2573 +/- 5.1423 Mpc`, and the DES holdout passes, but `K=8,12,16,24` give materially
-different curves/scales. It is an `EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`, not a unique
-scale or history.
+Current observational/history boundary:
 
-G279 is a completed native-provenance audit. External `gpt-5.4` accepted repairs R1/R2 and retained:
-
-```text
-NATIVE_CORE_INTACT
-__DECLARED_IMPORT_BOUNDARY_INTACT
-__G278_SENSITIVITY_DOWNSTREAM
-__W5_NOT_LOAD_BEARING_FOR_G278
-```
-
-All 31 source hashes, 109,549 independent assertions, nine subtractions, 16 hostile catches, and six
-sealed bit-identical replays pass. G236/G278 do not execute P1, G116/G189, a fitted kernel,
-post-readout angular coefficients, `X_max`, Lambda-CDM distance code, or protected work. Transparent
-radiative transfer, finite hat bases, Cepheid attachment, and DES normalization remain explicit
-downstream imports. The angular orchestra stays metric-native and upstream; direct SNe redshift does
-not execute that sibling channel.
-
-G280 closes the immediate representation question one level upstream. Exact complete-metric
-countermodels have the same light path, endpoint clocks, redshift, and W5 projective state but
-different native Jacobi areas. Exact primary-spherical profiles likewise reach the same depth at
-different areal radii. Therefore optical area is not a universal function of `phi` or W5 state
-alone, and the G278 finite curve cannot be repaired into a native one-scale prediction by choosing
-a representation. The independent external reviewer reproduced the result and accepted repairs
-R1--R3 with no remaining scoped defect. This does not weaken direct reciprocal redshift or the
-angular orchestra; it proves that the orchestra carries additional metric-history information.
-
-G281 reconstructs the long tracked SNe lineage from `udt_canonical_geometry.md` through G280.
-Across 32 inspected immutable sources, 24 historical claim tiles, and 15 route classes, it finds no
-complete native SNe prediction. The old headline fit used a supplied Branch-C cubic and the wrong
-one-factor luminosity rule; P1 is an empirical profile family, not the kernel. G236/G237 remain an
-explicit empirical area-state reconstruction and G278 remains a resolution-sensitive Cepheid-scale
-plus DES-holdout lead. Direct reciprocal redshift, conditional complete-metric optical evaluation,
-G279 kernel purity, and G280 area nonidentity all survive. Fresh external review retained the
-landing after R1--R4 evidence/typing repairs, and the corrected 32-source sealed repair-only
-follow-up returned `ACCEPT` with no remaining scoped defect. No substantive classification or
-scientific result changed.
-
-G282 asks the next metric-led question without fitting or importing a field law. Exact complete
-metrics can share the same central metric, first jet, connection, and endpoint state while giving
-different native Jacobi areas; primary profiles can also reach the same depth at different areal
-positions. The frozen 18-source census contains no owned joint law that rejects one witness. The
-missing information must constrain neighboring-relation curvature values, but its mathematical
-home is not uniquely selected: complete-metric two-jet/curvature, equivalent first-order
-coframe/connection/curvature, or a global neighboring-relation network law remain possible. Final
-sealed external review returned `REPAIR-ACCEPTED`; all 11 exact checks, 512 independent cases, 3,584
-assertions, seven in-memory claim-schema catches, and five registered replays pass. Direct redshift,
-completed-pair reciprocity, native first-jet interlock, and conditional Jacobi evaluation remain
-intact.
-
-G283 then places one arbitrary smooth symmetric optical-tidal matrix `T(u)` simultaneously in the
-metric two-jet, first transverse connection derivative, and path-labelled Jacobi/network
-generator. Every member keeps the same central metric, first jet, connection, and transport while
-changing neighboring optical response. All registered metric, Cartan/Bianchi, screen, symplectic,
-composition, and reversal identities still pass; even the trace-free control retains two arbitrary
-functions. Fresh external review and the repair-only follow-up returned `REPAIR-ACCEPTED`. The
-bounded landing is therefore that these owned identities enforce compatibility but do not select
-the curvature values. This is not a proof against a future UDT law and does not select `T`, a
-history, population, field equation, action, source, scale, observation, or `X_max`.
+- G277/G278 attach a Cepheid/optical scale only through declared imports and remain
+  resolution-sensitive, not a unique scale or history.
+- G279 verifies `NATIVE_CORE_INTACT` and `DECLARED_IMPORT_BOUNDARY_INTACT`; W5 is not load-bearing
+  for G278, while transfer, basis, Cepheid, and normalization choices remain downstream imports.
+- G280 proves equal redshift/W5 state need not give equal Jacobi area or areal radius; direct
+  reciprocal redshift and the upstream angular orchestra survive.
+- G281 finds no tracked complete native SNe prediction: the old headline used a supplied cubic and
+  wrong one-factor transfer; P1 and G236/G237/G278 remain empirical/conditional controls.
+- G282 locates the missing joint-history information in neighboring curvature values, representable
+  as metric two-jet, coframe/connection, or global relation-network data.
+- G283 gives all three homes arbitrary smooth symmetric `T(u)`. Owned metric, Cartan/Bianchi,
+  screen, symplectic, composition, and reversal identities enforce compatibility but select no
+  values; external repair review accepted the bounded result. This selects no history, population,
+  equation, action, source, scale, observation, or `X_max`.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.

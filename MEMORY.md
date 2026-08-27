@@ -22,37 +22,16 @@ position; it is not canon, dimensional distance, or a kernel change. G274 requir
 frame carry. G275 leaves one positive homothety. G276 attaches it only conditionally through an
 independent clock record and `c_E`; history, population, operational distance, and `X_max` stay open.
 
-G278 is an `EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`: the conditional Cepheid/optical scale
-and DES holdout pass at the primary representation, but four frozen curves/scales disagree. G279
-then verifies that this limitation is downstream. The native reciprocal core is unchanged; W5 and
-angular/Jacobi are non-executable siblings for G236/G278. Transfer, finite hat representation,
-Cepheid attachment, and DES normalization are declared imports. G197 excludes P1, G116/G189, fits,
-`X_max`, and protected payload.
-
-G280 proves the missing optical bridge is not a numerical-basis nuisance. The same complete
-projective/redshift state can carry different native Jacobi area, and same-depth spherical profiles
-can occur at different areal radii. Direct redshift and W5 survive; prediction now requires a joint
-metric history for depth and screen evolution, or an explicitly additional areal/projective law.
-
-G281 audits the tracked SNe lineage back to the old canonical geometry. No complete native SNe
-prediction is found. The old headline fit used a supplied cubic and wrong one-factor luminosity
-rule; P1 is empirical. Direct reciprocal redshift, conditional metric/Jacobi evaluation, the
-G236/G237 empirical reconstruction, the G278 resolution-sensitive holdout, and G279/G280 all retain
-their bounded status. Fresh external review retained the landing after R1--R4 repairs; the corrected
-32-source sealed repair-only follow-up returned `ACCEPT` with no remaining scoped defect.
-
-G282 proves in a frozen 18-source scope that endpoint depth plus the central metric first jet does
-not determine neighboring transverse curvature or Jacobi area. The missing history content must
-constrain neighboring-relation curvature values, but metric two-jet, first-order
-coframe/connection, and global relation-network representations remain open equivalents. Final
-external repair review returned `REPAIR-ACCEPTED`; the kernel and direct-redshift claims are
-unchanged.
-
-G283 constructs an explicit smooth arbitrary-`T(u)` family with identical central metric, first
-jet, connection, and transport but different neighboring optical response. Metricity,
-Cartan/Bianchi, screen carry, symplectic Jacobi propagation, composition, and reversal all pass;
-the trace-free family retains two functions. External repair review accepted the bounded result:
-these identities enforce compatibility but do not write the curvature values.
+- G278/G279 retain a resolution-sensitive imported Cepheid/optical lead with native core intact;
+  W5 and angular/Jacobi are sibling channels, and G197 excludes P1, G116/G189, fits, `X_max`, and
+  protected payload.
+- G280/G281 find equal projective/redshift state need not fix area and no tracked complete native
+  SNe prediction; direct redshift survives while old cubic/P1/G236/G237/G278 routes remain
+  supplied, empirical, or conditional.
+- G282/G283 locate the missing history information in neighboring curvature. Arbitrary smooth
+  symmetric `T(u)` survives metric, Cartan/Bianchi, screen, Jacobi, composition, and reversal
+  identities in all three equivalent representations. External repair review accepted this
+  bounded compatibility-not-selection result.
 
 ## Observations and premises
 
@@ -77,7 +56,8 @@ observations calibrate constants.
 Do not choose/average/smooth `K`, fit a free optical curve, identify areal with projective position
 by fiat, or select population, operational distance, or `X_max`.
 
-Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
+Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Startup archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,
-`archive/startup_surface_2026-08-21_pre_g197/`, and
+`archive/startup_surface_2026-08-21_pre_g197/`,
+`archive/startup_surface_2026-08-22_pre_cleanup/`, and
 `archive/startup_surface_2026-08-26_pre_g270/`.
