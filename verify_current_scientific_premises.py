@@ -1233,6 +1233,7 @@ def main() -> None:
         "EXTERNAL_REVIEW.md",
         "REVIEW_TRANSMISSION_RECORD.md",
         "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
         "REPAIR_RESULT.md",
         "VERIFICATION_RESULT.json",
         "derive_proper_clock_scale.py",

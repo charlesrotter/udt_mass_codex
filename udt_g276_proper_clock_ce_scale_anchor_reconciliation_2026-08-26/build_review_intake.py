@@ -62,7 +62,7 @@ def main() -> None:
     total_files = len(package_files) + 2
     manifest_entries = total_files - 1
     scope = {
-        "status": "SEALED_READ_ONLY_ADVERSARIAL_REVIEW_INTAKE",
+        "status": "SEALED_READ_ONLY_REPAIR_ONLY_FOLLOWUP_INTAKE",
         "package": PACKAGE.name,
         "preregistration_commit": PREREG_COMMIT,
         "file_count_including_scope_and_manifest": total_files,
@@ -72,16 +72,19 @@ def main() -> None:
             "externally because a cryptographic self-hash would be recursive"
         ),
         "review_question": (
-            "Verify only whether one independent same-segment proper-clock record fixes the one "
-            "constant homothety through c_E, rather than merely relabelling units."
+            "Verify only preregistered R1: dimensionless C_bar remains fixed under the repaired "
+            "physical numeric unit relabelling, recovered ell transforms with the length unit, "
+            "and the previously retained bounded scientific landing is unchanged."
         ),
         "allowed": [
             "inspect only this intake",
             "run registered no-write replays or bounded checks in a writable ephemeral copy",
+            "verify only preregistered R1 and the unchanged bounded scientific landing",
         ],
         "forbidden": [
             "edit evidence files",
             "continue the research",
+            "change the scientific question",
             "access repository or protected packages outside this intake",
             "inspect observational outcomes",
             "select a clock value, history, distance protocol, relation population, or Xmax",
