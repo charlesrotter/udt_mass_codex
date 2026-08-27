@@ -91,9 +91,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-External `gpt-5.4` retained the exact G275 science and requested certification repairs only. R1--R3
-are implemented: explicit nonrecursive manifest semantics, fail-closed sealed verification, and
-genuine mutation/scope catches. Obtain fresh repair-only follow-up. Do not erase screen/frame carry,
+External `gpt-5.4` retained the exact G275 science. The first repair-only follow-up accepted the
+manifest, package-verifier, and genuine mutation repairs but found the repair harness itself was not
+replayable from inside the sealed intake. R4 is preregistered to close that mechanical gap. Do not erase screen/frame carry,
 path labels, or holonomy; promote `x=ell*chi` to an operational distance; infer `X_max=ell` without
 populated-boundary completion; import a profile, history law, branch selector, observational outcome,
 or residual. No ODE/PDE or GPU solve is authorized.

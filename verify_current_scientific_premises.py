@@ -1194,8 +1194,8 @@ def main() -> None:
     g275_row = by_id["G275"]
     require(
         g275_row["current_status"].startswith(
-            "SCIENTIFIC_LANDING_RETAINED__EXTERNAL_ACCEPT_WITH_REPAIRS__"
-            "R1_R3_IMPLEMENTED__PENDING_REPAIR_ONLY_FOLLOWUP__PREREGISTERED"
+            "SCIENTIFIC_LANDING_RETAINED__FIRST_REPAIR_FOLLOWUP_NOT_ACCEPTED__"
+            "R4_PREREGISTERED"
         ),
         "G275 bounded internal grade changed",
     )
