@@ -10,6 +10,8 @@ from pathlib import Path
 
 import numpy as np
 
+from sealed_source_paths import source_path
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -58,7 +60,7 @@ def rank_by_minors(rows: list[list[int]], columns: int) -> int:
 
 
 def parse_pantheon_without_csv() -> dict[str, int | float]:
-    lines = (ROOT / "Data/Pantheon+SH0ES.dat").read_text().splitlines()
+    lines = source_path("Data/Pantheon+SH0ES.dat", ROOT).read_text().splitlines()
     names = lines[0].split()
     index = {name: position for position, name in enumerate(names)}
     required = ["CID", "CEPH_DIST", "IS_CALIBRATOR", "m_b_corr", "MU_SH0ES"]
@@ -97,11 +99,17 @@ def classify_from_facts(
 
 
 def sealed_semantics() -> dict[str, bool]:
-    readme = (HERE / "sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt").read_text()
-    likelihood = (HERE / "sources/PantheonPlus_SH0ES_cosmosis_likelihood.py").read_text()
+    readme = source_path(
+        f"{HERE.name}/sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt", ROOT
+    ).read_text()
+    likelihood = source_path(
+        f"{HERE.name}/sources/PantheonPlus_SH0ES_cosmosis_likelihood.py", ROOT
+    ).read_text()
     thermal = (
-        ROOT
-        / "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/THERMAL_READOUT_LEDGER.tsv"
+        source_path(
+            "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/THERMAL_READOUT_LEDGER.tsv",
+            ROOT,
+        )
     ).read_text()
     checks = {
         "ceph_distance": "CEPH_DIST - cepheid calculated absolute distance to host" in readme,
@@ -117,7 +125,7 @@ def sealed_semantics() -> dict[str, bool]:
 
 
 def covariance_weighted_independence() -> dict[str, object]:
-    lines = (ROOT / "Data/Pantheon+SH0ES.dat").read_text().splitlines()
+    lines = source_path("Data/Pantheon+SH0ES.dat", ROOT).read_text().splitlines()
     names = lines[0].split()
     idx = {name: position for position, name in enumerate(names)}
     rows = [line.split() for line in lines[1:] if line.strip()]
@@ -126,7 +134,7 @@ def covariance_weighted_independence() -> dict[str, object]:
     mask = (zhd > 0.01) | is_cal
     selected = is_cal[mask]
     design = np.column_stack((~selected, np.ones(selected.size)))
-    with (ROOT / "Data/Pantheon+SH0ES_STAT+SYS.cov").open() as stream:
+    with source_path("Data/Pantheon+SH0ES_STAT+SYS.cov", ROOT).open() as stream:
         dimension = int(stream.readline())
         payload = np.fromiter((float(line) for line in stream), dtype=np.float64)
     raw = payload.reshape(dimension, dimension)[np.ix_(mask, mask)]
@@ -171,23 +179,32 @@ def source_derived_classification_facts(
     covariance_rank: dict[str, object],
     exact_ranks: dict[str, int],
 ) -> dict[str, dict[str, bool]]:
-    g236 = (ROOT / "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/AUDIT_REPORT.md").read_text()
-    g258 = (ROOT / "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/AUDIT_REPORT.md").read_text()
-    g275 = (
-        ROOT / "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md"
+    g236 = source_path(
+        "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/AUDIT_REPORT.md", ROOT
     ).read_text()
-    g276 = (
-        ROOT / "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md"
+    g258 = source_path(
+        "udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/AUDIT_REPORT.md", ROOT
     ).read_text()
-    cmb_types = (
-        ROOT / "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv"
+    g275 = source_path(
+        "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md",
+        ROOT,
     ).read_text()
-    des_root = Path(
-        "/media/udt-admin/ScratchDisk/Data/"
-        "UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT"
-    )
-    des_readme = (des_root / "README.md").read_text()
-    des_table = (des_root / "DES-Dovekie_HD.csv").read_text()
+    g276 = source_path(
+        "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md", ROOT
+    ).read_text()
+    cmb_types = source_path(
+        "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv", ROOT
+    ).read_text()
+    des_readme = source_path(
+        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/"
+        "4_DISTANCES_COVMAT/README.md",
+        ROOT,
+    ).read_text()
+    des_table = source_path(
+        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/"
+        "4_DISTANCES_COVMAT/DES-Dovekie_HD.csv",
+        ROOT,
+    ).read_text()
     pantheon_observed = covariance_rank["rows"] > 0 and (
         covariance_rank["calibrators"] + covariance_rank["flow"] == covariance_rank["rows"]
     )
@@ -296,16 +313,14 @@ def main(no_write: bool = False) -> None:
         "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/DES-Dovekie_HD.csv": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
     }
     for name, wanted in expected.items():
-        path = Path(name)
-        if not path.is_absolute():
-            path = ROOT / path
+        path = source_path(name, ROOT)
         assert digest(path) == wanted
     sealed_expected = {
         "sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt": "e2b0d262757f01c1794a938c78d32600a21e289b2a0320e5c660c4c6fc9aa87e",
         "sources/PantheonPlus_SH0ES_cosmosis_likelihood.py": "345fac3781a5cb930b95e91c1c07eb17dcf99b441703bb5e449477519240a59d",
     }
     for name, wanted in sealed_expected.items():
-        assert digest(HERE / name) == wanted
+        assert digest(source_path(f"{HERE.name}/{name}", ROOT)) == wanted
     pantheon = parse_pantheon_without_csv()
     assert pantheon == {
         "rows": 1701,
@@ -314,15 +329,15 @@ def main(no_write: bool = False) -> None:
         "ceph_min": 29.177,
         "ceph_max": 34.526,
     }
-    des_root = Path(
-        "/media/udt-admin/ScratchDisk/Data/"
-        "UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT"
-    )
-    readme = (des_root / "README.md").read_text()
+    readme = source_path(
+        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/"
+        "4_DISTANCES_COVMAT/README.md",
+        ROOT,
+    ).read_text()
     assert "assuming H0 of 70" in readme
     assert "global parameters are determined from the likelihood analysis" in readme
-    cmb_types = (
-        ROOT / "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv"
+    cmb_types = source_path(
+        "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv", ROOT
     ).read_text()
     assert "cmb_temp\tobserved temperature field on sky\tunowned source field" in cmb_types
     assert "\tOPEN_NO_OWNER\t" in cmb_types

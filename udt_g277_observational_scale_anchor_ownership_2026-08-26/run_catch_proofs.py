@@ -7,6 +7,8 @@ import argparse
 import json
 from pathlib import Path
 
+from sealed_source_paths import source_path
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -42,14 +44,19 @@ def xmax_allowed(*, populated_boundary: bool, global_completion: bool) -> tuple[
 
 
 def source_semantics() -> dict[str, bool]:
-    readme = (HERE / "sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt").read_text()
-    likelihood = (HERE / "sources/PantheonPlus_SH0ES_cosmosis_likelihood.py").read_text()
-    des = Path(
-        "/media/udt-admin/ScratchDisk/Data/"
-        "UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT/README.md"
+    readme = source_path(
+        f"{HERE.name}/sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt", ROOT
     ).read_text()
-    cmb = (
-        ROOT / "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv"
+    likelihood = source_path(
+        f"{HERE.name}/sources/PantheonPlus_SH0ES_cosmosis_likelihood.py", ROOT
+    ).read_text()
+    des = source_path(
+        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/"
+        "4_DISTANCES_COVMAT/README.md",
+        ROOT,
+    ).read_text()
+    cmb = source_path(
+        "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv", ROOT
     ).read_text()
     checks = {
         "pantheon_is_distance_not_clock": (

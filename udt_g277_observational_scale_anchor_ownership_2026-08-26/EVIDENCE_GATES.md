@@ -16,6 +16,7 @@ Date: 2026-08-26
 | fresh repair-only zero-context review | ACCEPT | R3/R4/R5 repairs verified; original bounded landing retained |
 | premise audit | PASS | 18 exact source hashes; G250/G251/G252/G275/G276 and full G79 typing retained |
 | no-write replay | PASS | six durable artifact hashes unchanged across three replay commands |
+| sealed intake replay | PASS | all 18 hashed sources resolve inside the intake; all three no-write routes replay without repository access |
 | repository purity suite | PASS | 181 passed, 1 documented xfail |
 
 ## Solution-space / imposition audit

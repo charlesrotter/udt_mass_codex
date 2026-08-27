@@ -13,6 +13,8 @@ from pathlib import Path
 
 import numpy as np
 
+from sealed_source_paths import source_path
+
 
 PKG = Path(__file__).resolve().parent
 ROOT = PKG.parent
@@ -32,8 +34,7 @@ def sha256(path: Path) -> str:
 
 
 def resolve_source(path_text: str) -> Path:
-    path = Path(path_text)
-    return path if path.is_absolute() else ROOT / path
+    return source_path(path_text, ROOT)
 
 
 def exact_rank(matrix: list[list[int]]) -> int:
@@ -76,7 +77,7 @@ def read_manifest() -> dict[str, str]:
 
 
 def pantheon_schema() -> dict[str, object]:
-    path = ROOT / "Data/Pantheon+SH0ES.dat"
+    path = source_path("Data/Pantheon+SH0ES.dat", ROOT)
     with path.open(newline="") as stream:
         rows = list(csv.DictReader(stream, delimiter=" ", skipinitialspace=True))
     required = {
@@ -97,7 +98,7 @@ def pantheon_schema() -> dict[str, object]:
     noncal_values = {float(row["CEPH_DIST"]) for row in noncalibrators}
     assert all(math.isfinite(value) and value > 0 for value in cepheid_values)
     assert noncal_values == {-9.0}
-    covariance_path = ROOT / "Data/Pantheon+SH0ES_STAT+SYS.cov"
+    covariance_path = source_path("Data/Pantheon+SH0ES_STAT+SYS.cov", ROOT)
     with covariance_path.open() as stream:
         dimension = int(stream.readline().strip())
         payload_lines = sum(1 for _ in stream)
@@ -116,8 +117,12 @@ def pantheon_schema() -> dict[str, object]:
 
 
 def sealed_primary_source_checks() -> dict[str, bool]:
-    readme = (PKG / "sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt").read_text()
-    likelihood = (PKG / "sources/PantheonPlus_SH0ES_cosmosis_likelihood.py").read_text()
+    readme = source_path(
+        f"{PKG.name}/sources/PantheonPlus_4_DISTANCES_AND_COVAR_README.txt", ROOT
+    ).read_text()
+    likelihood = source_path(
+        f"{PKG.name}/sources/PantheonPlus_SH0ES_cosmosis_likelihood.py", ROOT
+    ).read_text()
     checks = {
         "ceph_dist_semantics": "CEPH_DIST - cepheid calculated absolute distance to host" in readme,
         "calibrator_flag_semantics": (
@@ -138,7 +143,7 @@ def sealed_primary_source_checks() -> dict[str, bool]:
 
 
 def actual_covariance_rank_audit() -> dict[str, object]:
-    table_path = ROOT / "Data/Pantheon+SH0ES.dat"
+    table_path = source_path("Data/Pantheon+SH0ES.dat", ROOT)
     with table_path.open(newline="") as stream:
         rows = list(csv.DictReader(stream, delimiter=" ", skipinitialspace=True))
     zhd = np.array([float(row["zHD"]) for row in rows], dtype=np.float64)
@@ -146,7 +151,7 @@ def actual_covariance_rank_audit() -> dict[str, object]:
     mask = (zhd > 0.01) | is_cal
     selected_cal = is_cal[mask]
     design = np.column_stack((~selected_cal, np.ones(selected_cal.size, dtype=np.float64)))
-    payload = np.loadtxt(ROOT / "Data/Pantheon+SH0ES_STAT+SYS.cov", skiprows=1)
+    payload = np.loadtxt(source_path("Data/Pantheon+SH0ES_STAT+SYS.cov", ROOT), skiprows=1)
     covariance = payload.reshape(len(rows), len(rows))[np.ix_(mask, mask)]
     assert np.isfinite(covariance).all()
     raw_symmetry_defect = float(np.max(np.abs(covariance - covariance.T)))
@@ -230,15 +235,19 @@ def actual_covariance_rank_audit() -> dict[str, object]:
 
 
 def des_schema() -> dict[str, object]:
-    root = Path(
-        "/media/udt-admin/ScratchDisk/Data/"
-        "UDT_DES_SN5YR_DOVEKIE_2026-08-15/4_DISTANCES_COVMAT"
-    )
-    readme = (root / "README.md").read_text()
+    readme = source_path(
+        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/"
+        "4_DISTANCES_COVMAT/README.md",
+        ROOT,
+    ).read_text()
     assert "MU` - SN distances (assuming H0 of 70)" in readme
     assert "global parameters are determined from the likelihood analysis" in readme
     assert "biasCor_mu" in readme
-    lines = (root / "DES-Dovekie_HD.csv").read_text().splitlines()
+    lines = source_path(
+        "/media/udt-admin/ScratchDisk/Data/UDT_DES_SN5YR_DOVEKIE_2026-08-15/"
+        "4_DISTANCES_COVMAT/DES-Dovekie_HD.csv",
+        ROOT,
+    ).read_text().splitlines()
     varnames = next(line for line in lines if line.startswith("VARNAMES:"))
     rows = [line for line in lines if line.startswith("SN:")]
     assert "MU" in varnames.split()
@@ -252,10 +261,12 @@ def des_schema() -> dict[str, object]:
 
 
 def cmb_typing() -> dict[str, object]:
-    type_path = ROOT / "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv"
-    thermal_path = (
-        ROOT
-        / "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/THERMAL_READOUT_LEDGER.tsv"
+    type_path = source_path(
+        "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/TYPE_LEDGER.tsv", ROOT
+    )
+    thermal_path = source_path(
+        "udt_cmb_G79_same_geometry_dimensional_sne_query_2026-08-11/THERMAL_READOUT_LEDGER.tsv",
+        ROOT,
     )
     with type_path.open(newline="") as stream:
         rows = {row["object"]: row for row in csv.DictReader(stream, delimiter="\t")}

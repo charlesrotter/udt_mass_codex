@@ -8,6 +8,7 @@ python3 udt_g277_observational_scale_anchor_ownership_2026-08-26/verify_anchor_o
 python3 udt_g277_observational_scale_anchor_ownership_2026-08-26/run_catch_proofs.py
 python3 udt_g277_observational_scale_anchor_ownership_2026-08-26/verify_package.py
 python3 -m pytest tests/
+python3 udt_g277_observational_scale_anchor_ownership_2026-08-26/build_review_intake.py
 ```
 
 Registered no-write replays:

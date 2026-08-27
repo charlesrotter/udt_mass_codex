@@ -10,6 +10,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from sealed_source_paths import source_path
+
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -28,9 +30,7 @@ def verify_sources() -> int:
     count = 0
     with (HERE / "SOURCE_MANIFEST.tsv").open(newline="") as stream:
         for row in csv.DictReader(stream, delimiter="\t"):
-            path = Path(row["path"])
-            if not path.is_absolute():
-                path = ROOT / path
+            path = source_path(row["path"], ROOT)
             assert digest(path) == row["sha256"]
             assert "udt_native_onshell_timelive_reset" not in str(path)
             assert "udt_pair_regime_flow" not in str(path)
