@@ -25,7 +25,7 @@ radial Möbius stratum. W5, provisionally owner-adopted by Charles on 2026-08-26
 identifies the complete screen-retaining projective relation state as physical normalized pair
 position. It changes neither the metric nor the reciprocal kernel.
 
-G166--G275 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
+G166--G276 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
 `m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. The quarter-log scalar is a calibration control;
 events, germs, population, higher/full carry, and global realization remain supplied or `OPEN`.
@@ -64,10 +64,18 @@ proper, radar, optical, or areal distance. For a supplied populated relation dom
 `X_sup=ell*q_R`; calling `ell` the physical `X_max` still requires a separately owned populated
 approach `q_R -> 1` and global completion.
 
+G276 internally reconciles G252 with G275 without changing the metric or kernel. On one supplied
+dimensionless history and exact identified positive timelike segment, the modeled proper duration
+has homothety weight `+1`. One independent calibrated clock record gives the unique positive
+`ell=c_E*tau_star/C_bar`; `c_E` carries the attached time into length and hence into
+`x=ell*chi`. `c_E` alone, metric self-evaluation, dimensionless `sech/tanh`, and same-weight ratios
+remain scale blind. The clock record, segment population, complete history, operational distance,
+and `X_max` remain supplied or `OPEN`.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
-Authority: the 259-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
+Authority: the 260-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`, and
@@ -77,7 +85,7 @@ Authority: the 259-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G275 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G276 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -91,12 +99,11 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-External `gpt-5.4` retained the exact G275 science. The first repair-only follow-up accepted the
-manifest, package-verifier, and genuine mutation repairs but found the repair harness itself was not
-replayable from inside the sealed intake. Final repair-only review now accepts R4 with the scientific
-landing unchanged after sealed and bounded repository-mode replays; no repair defect remains within
-scope. Report this closure before selecting the next bounded question. Do not erase screen/frame carry,
-path labels, or holonomy; promote `x=ell*chi` to an operational distance; infer `X_max=ell` without
-populated-boundary completion; import a profile, history law, branch selector, observational outcome,
-or residual. No ODE/PDE or GPU solve is authorized.
+G276 is internally `VERIFIED-WITH-CAVEATS` after preregistration, 22 exact checks, an independent
+20,000-case exact-rational census, and eight hostile controls. Its next gate is fresh external
+adversarial review of the bounded reconciliation theorem. Do not call `c_E` alone a length, treat a
+metric-generated clock value as independent calibration, erase screen/frame carry or path labels,
+promote `x=ell*chi` to an operational distance, infer `X_max=ell` without populated-boundary
+completion, or import a profile, history law, observational outcome, or residual. No ODE/PDE or GPU
+solve is authorized.
 <!-- STARTUP_CURRENT_END -->

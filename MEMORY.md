@@ -4,13 +4,13 @@
 
 ## Theory picture
 
-G166--G275: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
+G166--G276: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
 G190--G214 are formula-level regression/off-ray/provenance controls. Exact route tokens:
 G190/G191/G192/G193/G194/G195/G196/G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218.
 G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247.
-G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275.
+G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 G215--G224 close supplied clocks,
 correspondence, screen, and carry; G225--G231 add transport, phase, curvature, jets, and Cartan;
 G232--G235 reconstruct without selection. G236--G243 are transfer/redshift controls; G244--G248
@@ -32,6 +32,11 @@ unchanged. One matched independent nonzero-weight datum fixes the single positiv
 anchors test it. `x=ell*chi` retains screen/frame carry. Identifying `ell` with `X_max` still needs
 an owned populated approach to the projective boundary and global completion.
 
+G276 reconciles G252/G275: one independent calibrated positive clock record on the exact modeled
+segment fixes `ell=c_E*tau_star/C_bar`; `c_E` carries attached time to length. `c_E` alone,
+dimensionless projective state, same-weight ratios, and metric self-evaluation remain scale blind.
+The metric/kernel are unchanged; history, operational distance, and `X_max` remain open.
+
 G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protected payload.
 `INDEX.md` routes evidence.
 
@@ -50,10 +55,9 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-External `gpt-5.4` retained G275's science. The first repair-only follow-up accepted R1--R3 except
-for one sealed repair-harness replay gap. Final repair-only review accepts R4 and the unchanged
-scientific landing; no repair defect remains within scope. Preserve screen/frame carry and
-path labels; do not select a profile, history, population, `X_max`, or start dynamics.
+G276 is internally verified with caveats; fresh external adversarial review is next. Preserve
+screen/frame carry and path labels; do not call `c_E` alone a length, use metric self-evaluation as
+calibration, or select a profile, history, population, operational distance, or `X_max`.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

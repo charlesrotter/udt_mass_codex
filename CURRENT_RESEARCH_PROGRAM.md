@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-`LIVE.md` controls status; the 259-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 260-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -79,8 +79,12 @@ the kernel and does not attach a dimensional scale or select history, population
   morphism. One matched independent nonzero-weight datum fixes the remaining positive scale;
   additional anchors test it. `x=ell*chi` keeps screen/frame carry. `X_max=ell` still requires a
   separately owned populated approach to the projective boundary and global completion.
+- G276 reconciles the already-audited G252 clock attachment with G275. A positive proper-clock
+  record on one exact identified segment has weight `+1` and conditionally fixes
+  `ell=c_E*tau_star/C_bar`; `c_E` carries that attached time to length. `c_E` alone, metric
+  self-evaluation, dimensionless projective state, and same-weight ratios remain scale blind.
 
-G206--G275 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G276 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -92,9 +96,10 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   propagation. G260 forbids angular discard, G261 leaves W4 nonselective, G262 joins the evaluator,
   G263/G264 classify sign/ends; G265 provenance; G266/G267 even/odd algebra and provisional bounded
   state; G268--G270 separate equivalent bounded presentation, independent null transport, and
-  intrinsic-versus-ambient ownership. G271--G275 then derive the metric-gradient interlock, complete
+  intrinsic-versus-ambient ownership. G271--G276 then derive the metric-gradient interlock, complete
   projective state, bounded ownership grade, full frame-carry descent, owner-adopted W5 position
-  interpretation, and one-scale attachment boundary. The anchor instance, operational-distance
+  interpretation, one-scale attachment boundary, and proper-clock/`c_E` reconciliation. The actual
+  anchor instance, operational-distance
   interpretation, populated-boundary completion, and a nonidentity source/history or two-point value
   law remain open.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
@@ -103,16 +108,17 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
 
 R2--R5 are observed/verified-with-caveats pattern controls with 184,300 unresolved covariance rows
 and no preferred scale. G236/G237/G242/G243/G258 use imported transfer; G238--G258 leave history, source
-measure, and detector/transfer ownership open. G259--G275 are outcome-blind structural audits.
+measure, and detector/transfer ownership open. G259--G276 are outcome-blind structural audits.
 
 ## Audited restart
 
 G197 excludes scaffolds, fits, `X_max`, and protected inputs. G190--G258 remain controls/evaluators;
-G259--G275 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
+G259--G276 classify the operator fork, quiet balance, W4, one-lapse hierarchy, signed ends,
 infinite-bare-`c` provenance, bounded state, independent null transport, and ambient-screen
 ownership. G268 proves the bounded presentation itself is nonselective; G269/G270 add an evaluator
-without a history or population law. G271--G275 derive the first-jet and projective-position
-coordinate/network structure, W5 working interpretation, and one-scale attachment boundary. Do not promote
+without a history or population law. G271--G276 derive the first-jet and projective-position
+coordinate/network structure, W5 working interpretation, one-scale attachment boundary, and
+proper-clock/`c_E` reconciliation. Do not promote
 `sech(delta)`, `M_PT`, `W`, the projective vector, `P_INF`, `P_MUT`,
 `ds=dR`, alpha two, zero tide, raw flux,
 `q^w`, or the variational candidate; invent a residual; fit history; erase quiet geometry; aggregate
@@ -120,10 +126,8 @@ branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-External `gpt-5.4` retained G275's exact bounded science. The first repair-only follow-up accepted
-the manifest, fail-closed package verifier, and executable mutation ledger but found the repair
-harness not replayable from a sealed intake. Final repair-only review now accepts R4 with the exact
-scientific landing unchanged after sealed and bounded repository-mode replays; no repair defect
-remains within scope. Report this closure to Charles before choosing the next bounded research
-question. Do not fit a profile, select a history/population/`X_max`, invent a residual, or start an
-ODE/PDE/GPU solve.
+G276 is internally `VERIFIED-WITH-CAVEATS`: the same-segment proper-clock datum supplies G275's
+nonzero-weight anchor and `c_E` carries the attached time into length; `c_E` alone and metric
+self-evaluation remain scale blind. Fresh external adversarial review is next. Do not fit a profile,
+select a history/population/operational distance/`X_max`, invent a residual, or start an ODE/PDE/GPU
+solve.

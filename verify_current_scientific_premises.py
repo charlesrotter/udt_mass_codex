@@ -197,7 +197,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     removed_ids = tuple(
-        dict.fromkeys(("G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(("G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -282,7 +282,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G275",
+            "G166--G276",
             "G197",
             "G215",
             "G216",
@@ -346,6 +346,7 @@ def validate_startup_surface(root: Path) -> None:
             "G274",
             "W5",
             "G275",
+            "G276",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -389,7 +390,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "259-row exact registry",
+            "260-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -491,6 +492,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/",
             "udt_g274_projective_pair_position_network_descent_2026-08-26/",
             "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/",
+            "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -505,7 +507,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G275",
+            "G166--G276",
             "G197",
             "G198",
             "G199",
@@ -586,6 +588,7 @@ def validate_startup_surface(root: Path) -> None:
             "G273",
             "G274",
             "G275",
+            "G276",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -681,6 +684,7 @@ def validate_startup_surface(root: Path) -> None:
             "G273",
             "G274",
             "G275",
+            "G276",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -770,11 +774,12 @@ def validate_startup_surface(root: Path) -> None:
             "G273",
             "G274",
             "G275",
+            "G276",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "259-row",
+            "260-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1135,9 +1140,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 259, "premise registry must contain exactly 259 rows")
+    require(len(rows) == 260, "premise registry must contain exactly 260 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 259, "duplicate premise id")
+    require(len(by_id) == 260, "duplicate premise id")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -1169,6 +1174,127 @@ def main() -> None:
         "W5 also does not change F1--F4, W1, the metric, or the reciprocal kernel",
     ):
         require(token in founding_w5, f"founding W5 guard absent: {token}")
+    g276 = ROOT / "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26"
+    for name in ("MAP.md", "PREMISE_LEDGER.tsv", "PREREGISTRATION.md", "SOURCE_MANIFEST.tsv"):
+        require((g276 / name).is_file(), f"G276 preregistration file missing: {name}")
+    g276_sources = read_tsv(g276 / "SOURCE_MANIFEST.tsv")
+    require(len(g276_sources) == 7, "G276 preregistered source count changed")
+    for source in g276_sources:
+        source_path = ROOT / source["path"]
+        require(source_path.is_file(), f"G276 source missing: {source['path']}")
+        payload = source_path.read_bytes()
+        if hashlib.sha256(payload).hexdigest() != source["sha256"]:
+            frozen = subprocess.run(
+                ["git", "show", f"e5fddc76:{source['path']}"],
+                cwd=ROOT,
+                capture_output=True,
+                check=False,
+            )
+            require(frozen.returncode == 0, f"G276 frozen source unavailable: {source['path']}")
+            payload = frozen.stdout
+        require(
+            hashlib.sha256(payload).hexdigest() == source["sha256"],
+            f"G276 preregistered source hash changed: {source['path']}",
+        )
+    g276_row = by_id["G276"]
+    require(
+        g276_row["current_status"].startswith(
+            "INTERNALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_E5FDDC76"
+        ),
+        "G276 bounded internal grade changed",
+    )
+    require(g276_row["epistemic_label"] == "MIXED", "G276 label changed")
+    require(
+        g276_row["active_use"]
+        == "ACTIVE_BOUNDED_CONSTANT_HOMOTHETY_PROPER_CLOCK_SCALE_ATTACHMENT_RECONCILIATION_ON_ONE_SUPPLIED_DIMENSIONLESS_HISTORY_AND_EXACT_IDENTIFIED_POSITIVE_TIMELIKE_SEGMENT_ONLY",
+        "G276 active scope widened",
+    )
+    require(
+        g276_row["controlling_source"]
+        == "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md",
+        "G276 controlling source changed",
+    )
+    for token in (
+        "ONE_INDEPENDENT_CALIBRATED_POSITIVE_PROPER_CLOCK_RECORD_ON_EXACT_MODELED_TIMELIKE_SEGMENT_HAS_HOMOTHETY_WEIGHT_PLUS_ONE",
+        "ELL_EQUALS_CE_TIMES_TAU_STAR_OVER_C_BAR_UNIQUE_POSITIVE_SCALE",
+        "CE_ALONE_METRIC_SELF_EVALUATION_SECH_TANH_AND_SAME_WEIGHT_RATIOS_SCALE_BLIND",
+        "SECOND_RECORD_MUST_RECOVER_SAME_ELL",
+        "300003_EXACT_ASSERTIONS",
+        "NO_METRIC_OR_KERNEL_CHANGE_HISTORY_DISTANCE_PROTOCOL_OR_XMAX_SELECTION",
+    ):
+        require(token in g276_row["current_status"], f"G276 guard absent: {token}")
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "derive_proper_clock_scale.py",
+        "verify_proper_clock_scale_independent.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+    ):
+        require((g276 / name).is_file(), f"G276 evidence missing: {name}")
+    g276_production = json.loads((g276 / "DERIVATION_RESULT.json").read_text())
+    g276_independent = json.loads((g276 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g276_catches = json.loads((g276 / "CATCH_PROOF_RESULT.json").read_text())
+    g276_verification = json.loads((g276 / "VERIFICATION_RESULT.json").read_text())
+    g276_landing = (
+        "ONE_INDEPENDENT_SAME_SEGMENT_PROPER_CLOCK_RECORD_HAS_HOMOTHETY_WEIGHT_PLUS_ONE__"
+        "CE_CARRIES_THE_ATTACHED_TIME_TO_A_UNIQUE_LENGTH_SCALE__"
+        "CE_ALONE_DIMENSIONLESS_PROJECTIVE_STATE_AND_SELF_EVALUATION_ARE_SCALE_BLIND__"
+        "NO_HISTORY_DISTANCE_PROTOCOL_OR_XMAX_SELECTED"
+    )
+    require(
+        g276_production["status"]
+        == g276_independent["status"]
+        == g276_catches["status"]
+        == "PASS"
+        and g276_production["landing"] == g276_independent["landing"] == g276_landing
+        and g276_production["exact_checks"] == 22
+        and all(g276_production["checks"].values())
+        and g276_production["scope"]["c_E_numerical_value_derived"] is False
+        and g276_production["scope"]["metric_or_kernel_modified"] is False,
+        "G276 production landing changed",
+    )
+    require(
+        g276_independent["production_imported"] is False
+        and g276_independent["production_output_read"] is False
+        and g276_independent["cases"] == 20000
+        and g276_independent["exact_assertions"] == 300003
+        and g276_independent["inconsistent_records_rejected"] == 20000
+        and g276_independent["self_evaluations_rejected"] == 20000
+        and g276_independent["same_segment_mismatches_rejected"] == 20000,
+        "G276 independent census changed",
+    )
+    require(
+        g276_catches["implementation_mutations_caught"] == 6
+        and g276_catches["typed_scope_catches_passed"] == 2
+        and len(g276_catches["mutation_ledger"]) == 8
+        and all(g276_catches["catches"].values())
+        and all(
+            row["baseline_passed"] and row["mutant_rejected"]
+            for row in g276_catches["mutation_ledger"]
+        ),
+        "G276 hostile catch ledger changed",
+    )
+    require(
+        g276_verification["status"] == "PASS"
+        and g276_verification["landing"] == g276_landing
+        and g276_verification["grade"] == "VERIFIED-WITH-CAVEATS"
+        and g276_verification["no_write_replays"] == 3,
+        "G276 package verification changed",
+    )
+    g276_replay = subprocess.run(
+        [sys.executable, str(g276 / "verify_package.py"), "--no-write"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(g276_replay.returncode == 0, "G276 no-write package replay failed")
     g275 = ROOT / "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26"
     for name in ("MAP.md", "PREMISE_LEDGER.tsv", "PREREGISTRATION.md", "SOURCE_MANIFEST.tsv"):
         require((g275 / name).is_file(), f"G275 preregistration file missing: {name}")
@@ -12879,7 +13005,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

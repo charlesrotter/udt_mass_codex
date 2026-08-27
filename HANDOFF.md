@@ -6,7 +6,7 @@
 
 ## Resume anchor — 2026-08-26
 
-G166--G275 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
+G166--G276 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
 the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
@@ -39,6 +39,12 @@ retains active screen/frame carry and is only a conditional dimensional represen
 becomes `X_max` only after a separately owned physical relation population approaches the
 projective boundary and a global completion is supplied.
 
+G276 internally reconciles G252 and G275. The proper-clock channel on one exact identified positive
+timelike segment has homothety weight `+1`; one independent calibrated clock record fixes
+`ell=c_E*tau_star/C_bar`, after which `c_E` carries time into length and `x=ell*chi`. `c_E` alone,
+metric self-evaluation, dimensionless `sech/tanh`, and same-weight ratios do not fix the scale. No
+metric/kernel change, history, operational-distance, or `X_max` selection occurred.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
 
@@ -57,12 +63,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-External `gpt-5.4` retained G275's exact scientific landing. Its first repair-only follow-up accepted
-R1--R3 except for one sealed repair-harness replay gap. Final repair-only review now accepts R4 and
-the unchanged scientific landing after sealed and bounded repository-mode replays; no repair defect
-remains within scope. Report this closure before selecting the next bounded question.
-Do not promote the dimensional representative to a universal distance, select a
-profile/history/population/`X_max`, or begin dynamics. No ODE/PDE/GPU solve is authorized.
-The 259-row registry controls.
+G276 is internally `VERIFIED-WITH-CAVEATS` after preregistration, exact derivation, independent
+20,000-case verification, and hostile controls. Fresh external adversarial review is the next gate.
+Do not call `c_E` alone a length, accept a metric-generated clock value as calibration, promote the
+dimensional representative to a universal distance, select a profile/history/population/`X_max`, or
+begin dynamics. No ODE/PDE/GPU solve is authorized. The 260-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

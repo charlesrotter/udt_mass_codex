@@ -1,5 +1,4 @@
 # Premises
-
 `LIVE.md` and TSV own status.
 ## Foundational relation
 
@@ -11,7 +10,7 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
-| Pair-clock/state network | G215--G275 | Carry, GR, W4, mass-aspect, transport, projective coordinate, frame descent, and one-scale attachment | Dynamics/history/aggregation |
+| Pair-clock/state network | G215--G276 | Carry, GR, W4, mass-aspect, transport, projective coordinate, frame descent, and proper-clock scale attachment | Dynamics/history/aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state; owner-adopted 2026-08-26 | Scale; distance; history/population; `X_max` |
@@ -75,6 +74,7 @@
 | G273 projective distance ownership | external | W5 later adopts interpretation |
 | G274 projective network descent | external | Full carry; radial Möbius |
 | G275 projective scale attachment | external/R4 accepted | One scale; `X_max` needs completion |
+| G276 proper-clock/`c_E` reconciliation | internal/caveats | Clock datum fixes scale; fresh review next |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -95,7 +95,7 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class; metricity is not dynamics.
 - G212--G243 evaluate/reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale
-  without selecting values. G257--G275 add GR, sampled values, operator/angle/W4/one-lapse controls,
+  without selecting values. G257--G276 add GR, sampled values, operator/angle/W4/one-lapse controls,
   signed-end classification, bounded provenance/even-odd channels, the intrinsic-versus-ambient
   null-transport ownership boundary, and the projective coordinate/full-frame descent boundary.
 
@@ -114,7 +114,7 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G275 are outcome-blind; G258 reuses G237. History/transfer stay open.
+G244--G257 and G259--G276 are outcome-blind; G258 reuses G237. History/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -127,7 +127,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 259-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 260-row authority; conflicts stop.
 
 Run:
 

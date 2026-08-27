@@ -65,7 +65,8 @@
   `udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/`—complete transported open-ball state, planar signed stratum;
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/`—scoped projective uniqueness and unadopted physical-position clarification;
   `udt_g274_projective_pair_position_network_descent_2026-08-26/`—full frame-morphism descent, required screen carry, exact radial Möbius closure;
-  `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`—W5 homothety invariance, one-anchor scale attachment, and retained populated-boundary requirement for `X_max`.
+  `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`—homothety, anchor, and `X_max` boundary;
+  `udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/`—proper-clock weight `+1` and `ell=c_E*tau_star/C_bar`.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
