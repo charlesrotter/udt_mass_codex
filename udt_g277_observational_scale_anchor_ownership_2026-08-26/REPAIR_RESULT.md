@@ -2,7 +2,7 @@
 
 Date: 2026-08-26
 
-Status: `EXTERNAL_R1_R2_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_PENDING__BOUNDED_SCIENTIFIC_LANDING_UNCHANGED`
+Status: `EXTERNAL_R1_R2_ACCEPTED__BOUNDED_SCIENTIFIC_LANDING_UNCHANGED`
 
 ## External R1 — sealed versus repository-only evidence
 
@@ -73,5 +73,8 @@ The earlier zero-context follow-up verified that R3 facts came from hashed sourc
 and computed ranks, R4 reaches every registered acceptance criterion, and R5 wording is accurate.
 It reran the registered no-write checks and found no scientific expansion.
 
-The fresh external G277 review retained that science and requested the two repairs above. Their
-repair-only external follow-up remains pending.
+The fresh external G277 review retained that science and requested the two repairs above. The
+repair-only external follow-up accepted both with no remaining defect. It independently verified
+52-file intake integrity, all 18 frozen sources, the three no-write replays, unchanged durable
+artifact hashes, the covariance control, and exact eight-class agreement. The scientific landing
+did not change.

@@ -42,3 +42,19 @@ scientific landing and requested two evidence-only repairs:
    exact eight-candidate production census.
 
 Scientific conclusion changes: none.
+
+## Repair-only follow-up
+
+- intake: `/tmp/udt_g277_review_zxdnhtq2`
+- file count: `52`
+- `REVIEW_SCOPE.json` SHA-256:
+  `e1c97f7da5c850c3a6fea6b9ef801fb5f1bea4adcc7a2e022673cdbd18a5ff9e`
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `5e6927098171d821666295c2b666e95149489efe6476ce00e7dae1b565fa556b`
+- raw response: `/tmp/udt_g277_repair_followup_external_review.md`
+- raw response SHA-256:
+  `92915e06a257097e6979348d6b1da1a9b79b1ca3071e98517e74af01094e4bda`
+- verdict: `ACCEPT`
+
+The follow-up found no remaining R1 or R2 defect and retained the bounded scientific landing
+unchanged.

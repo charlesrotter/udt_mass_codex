@@ -3,7 +3,7 @@
 Date: 2026-08-26
 
 Grade:
-`EXTERNAL_REVIEW_ACCEPT_WITH_REPAIRS__REPAIRS_IMPLEMENTED__FOLLOWUP_PENDING__BOUNDED_LANDING_UNCHANGED`
+`EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED`
 
 ## Landing
 
@@ -129,3 +129,8 @@ accepted the repaired source-derived classifier, complete hostile-criterion cove
 wording while retaining the scientific landing. The result remains conditional because the Cepheid
 distance ladder and luminosity/metric-distance bridge are supplied observational premises rather
 than UDT-derived light physics.
+
+Fresh external `gpt-5.4` repair-only follow-up accepted the later R1/R2 evidence repairs with no
+remaining defect: repository-only pytest evidence is separated from sealed replay evidence, and
+same-object identity is derived separately from operational-distance/transfer ownership across all
+eight candidates. The scientific landing did not change.

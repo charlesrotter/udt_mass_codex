@@ -11,11 +11,11 @@ Date: 2026-08-26
 | R1 sealed primary sources | PASS | exact official README and likelihood hashed in `sources/` |
 | R2 raw covariance symmetry | FAIL_RETAINED | raw maximum transpose defect `3.0000000000038676e-08` exceeds frozen `1e-12` |
 | R2B covariance robustness | PASS | mean/lower/upper symmetric routes positive definite, weighted rank two, route differences below `1e-4` |
-| R3 derived independent classifications | PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP | source-derived fact vectors separately derive same-object identity and bridge ownership for all eight production candidates; no expected class is supplied as an input |
+| R3 derived independent classifications | PASS_REPAIR_EXTERNALLY_ACCEPTED | source-derived fact vectors separately derive same-object identity and bridge ownership for all eight production candidates; no expected class is supplied as an input |
 | R4 hostile controls | PASS | 11/11 nonvacuous overclaims exercise and fail every registered criterion by name |
 | pre-external repair-only zero-context review | ACCEPT | R3/R4/R5 repairs verified; original bounded landing retained |
 | fresh external gpt-5.4 review | ACCEPT_WITH_REPAIRS | sealed boundary, sources, replays, covariance and landing retained; two evidence repairs requested |
-| external repair-only follow-up | PENDING | R1/R2 implemented under `EXTERNAL_REPAIR_PREREGISTRATION.md` |
+| external repair-only follow-up | ACCEPT | R1/R2 accepted with no remaining defect; bounded scientific landing unchanged |
 | premise audit | PASS | 18 exact source hashes; G250/G251/G252/G275/G276 and full G79 typing retained |
 | no-write replay | PASS | six durable artifact hashes unchanged across three replay commands |
 | sealed intake replay | PASS | all 18 hashed sources resolve inside the intake; all three no-write routes replay without repository access |
@@ -31,4 +31,4 @@ Date: 2026-08-26
 
 ## Banking ceiling
 
-`EXTERNAL_REPAIR_IMPLEMENTED__FOLLOWUP_PENDING__BOUNDED_LANDING_UNCHANGED`
+`EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED`
