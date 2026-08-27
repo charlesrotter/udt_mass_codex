@@ -20,7 +20,8 @@ all-repository or all-future-principles theorem.
 the Levi-Civita connection, curvature, all-index symmetries/Bianchi slots, and interval Jacobi
 transfers. It imports no production module. A fresh external reviewer independently rechecked the
 central connection/curvature signs and accepted the scientific landing, while requesting three
-packaging/evidence repairs. All three repairs pass internally; repair-only follow-up is pending.
+packaging/evidence repairs. The repair-only follow-up returned `REPAIR-ACCEPTED`: all 45 manifest
+payloads and all six registered commands passed, with no remaining scoped defect.
 
 The seven hostile catches are in-memory claim-schema consistency checks only. They do not mutate or
 replay evidence files, derivation code, or source-census artifacts and are not an artifact-level
@@ -38,7 +39,6 @@ physical inputs. No field equation, action, source, fit, scale, observation, or 
 PREREGISTERED
 __EXACTLY_DERIVED
 __INDEPENDENTLY_VERIFIED
-__EXTERNAL_ACCEPT_WITH_REPAIRS
-__R1_R2_R3_PASS_INTERNAL
-__REPAIR_FOLLOWUP_PENDING
+__EXTERNAL_REPAIR_ACCEPTED
+__SOURCE_BOUNDED
 ```

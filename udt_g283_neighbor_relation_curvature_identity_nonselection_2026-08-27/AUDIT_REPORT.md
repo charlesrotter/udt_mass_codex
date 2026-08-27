@@ -16,8 +16,9 @@ PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED
 ```
 
 The fresh external `gpt-5.4` review returned `ACCEPT-WITH-REPAIRS` and supported the scientific
-landing unchanged. Its three packaging/evidence repairs were preregistered at `964b8751` and are
-implemented pending repair-only follow-up.
+landing unchanged. Its three packaging/evidence repairs were preregistered at `964b8751`. A sealed
+repair-only follow-up returned `REPAIR-ACCEPTED`: every payload and all six commands passed, no
+remaining scoped defect was found, and the scientific landing remained unchanged.
 
 ## What was learned
 

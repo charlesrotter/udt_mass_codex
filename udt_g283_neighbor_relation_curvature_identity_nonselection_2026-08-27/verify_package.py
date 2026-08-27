@@ -75,6 +75,8 @@ def main() -> None:
         "REPAIR_PREREGISTRATION.md",
         "EXTERNAL_REVIEW_GPT54.md",
         "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
         "REPAIR_RESULT.json",
         "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
     )
@@ -149,18 +151,18 @@ def main() -> None:
             and not derivation["Xmax_used"]
             and not any(verification["premise_imports"].values())
         ),
-        "external_review_repairs_internal_followup_pending": any(
+        "external_repair_followup_accepted": any(
             row["id"] == "S11"
-            and row["status"] == "ACCEPT_WITH_REPAIRS__REPAIRS_PASS_INTERNAL__FOLLOWUP_PENDING"
+            and row["status"] == "REPAIR_ACCEPTED"
             for row in status
         ),
-        "external_repairs_R1_R2_R3_pass_internal": (
-            repairs["status"] == "PASS_INTERNAL"
+        "external_repairs_R1_R2_R3_accepted": (
+            repairs["status"] == "REPAIR_ACCEPTED"
             and not repairs["scientific_landing_changed"]
             and all(repairs["repairs"].values())
             and repairs["tracefree_control_basis_rank"] == 2
             and repairs["registered_commands_pass_internal"] == 6
-            and repairs["external_repair_followup"] == "PENDING"
+            and repairs["external_repair_followup"] == "REPAIR_ACCEPTED"
         ),
     }
     if not all(checks.values()):

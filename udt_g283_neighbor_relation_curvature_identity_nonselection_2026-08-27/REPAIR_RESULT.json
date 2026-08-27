@@ -1,6 +1,6 @@
 {
   "audit": "G283_EXTERNAL_REVIEW_REPAIRS",
-  "status": "PASS_INTERNAL",
+  "status": "REPAIR_ACCEPTED",
   "scientific_landing_changed": false,
   "repairs": {
     "R1_self_contained_sealed_replay": true,
@@ -15,5 +15,5 @@
   },
   "tracefree_control_basis_rank": 2,
   "registered_commands_pass_internal": 6,
-  "external_repair_followup": "PENDING"
+  "external_repair_followup": "REPAIR_ACCEPTED"
 }
