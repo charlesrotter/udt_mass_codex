@@ -47,7 +47,7 @@ def main() -> None:
     with (PACKAGE / "SOURCE_MANIFEST.tsv").open(newline="") as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
             source = external_map.get(row["path"], ROOT / row["path"])
-            copy_file(source, intake / "sources" / row["path"])
+            copy_file(source, intake / row["path"])
 
     extra_sources = [
         "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md",
@@ -58,10 +58,10 @@ def main() -> None:
         "udt_g277_observational_scale_anchor_ownership_2026-08-26/sources/PantheonPlus_SH0ES_cosmosis_likelihood.py",
     ]
     for relative in extra_sources:
-        copy_file(ROOT / relative, intake / "sources" / relative)
+        copy_file(ROOT / relative, intake / relative)
 
     scope = {
-        "review": "G278 fresh read-only adversarial review",
+        "review": "G278 read-only repair-only follow-up review",
         "intake_only": True,
         "may_run": "registered replays or bounded checks only in a writable ephemeral copy",
         "must_not": [
@@ -73,7 +73,12 @@ def main() -> None:
             "select a preferred resolution or average scales",
             "fit or alter a metric, history, kernel, transfer law, angular sector, X_max, or CMB model",
         ],
-        "requested_output": "bounded adversarial landing plus exact defects and repair requirements",
+        "repair_scope": [
+            "R1 repository-shaped sealed source layout and direct intake replay",
+            "R2 detached outer checksum for REVIEW_MANIFEST.tsv",
+            "R3 exact sealed command surface",
+        ],
+        "requested_output": "verify only R1-R3 and the unchanged bounded scientific landing",
     }
     (intake / "REVIEW_SCOPE.json").write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n")
 
@@ -85,13 +90,21 @@ def main() -> None:
         for path in files:
             writer.writerow([sha256(path), path.stat().st_size, path.relative_to(intake)])
 
+    detached_path = intake / "REVIEW_MANIFEST.sha256"
+    detached_path.write_text(f"{sha256(manifest_path)}  REVIEW_MANIFEST.tsv\n")
+
     print(json.dumps({
         "intake": str(intake),
         "payload_files": len(files),
-        "total_files_including_manifest": len(files) + 1,
+        "total_files_including_manifest_and_detached_seal": len(files) + 2,
         "review_scope_sha256": sha256(intake / "REVIEW_SCOPE.json"),
         "review_manifest_sha256": sha256(manifest_path),
-        "total_bytes": sum(path.stat().st_size for path in files) + manifest_path.stat().st_size,
+        "review_manifest_detached_sha256": sha256(detached_path),
+        "total_bytes": (
+            sum(path.stat().st_size for path in files)
+            + manifest_path.stat().st_size
+            + detached_path.stat().st_size
+        ),
     }, indent=2, sort_keys=True))
 
 
