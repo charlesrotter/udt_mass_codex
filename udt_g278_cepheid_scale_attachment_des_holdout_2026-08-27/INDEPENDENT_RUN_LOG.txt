@@ -1,0 +1,21 @@
+COMMAND: G236_DES_ROOT=<declared scratch data root> python3 verify_independent.py
+{
+  "audit": "G278_INDEPENDENT_DIRECT_SOLVE_VERIFICATION",
+  "checks": {
+    "all_four_scale_values_match": true,
+    "all_subsets_below_five_sigma": true,
+    "counts_match": true,
+    "no_DES_fit_columns": true,
+    "no_kernel_or_P1_retuning": true,
+    "primary_DES_chi2_matches": true,
+    "primary_DES_pass_reproduced": true,
+    "resolution_chi2_matches": true,
+    "resolution_failure_reproduced": true,
+    "subset_max_z_matches": true
+  },
+  "landing_reproduced": "SCALE_ATTACHMENT_RESOLUTION_OR_SUBSET_SENSITIVE",
+  "max_scale_abs_error_mag": 3.197442310920451e-13,
+  "max_subset_absolute_z": 3.1114981409766966,
+  "primary_DES_chi2": 1434.5792908164187,
+  "resolution_chi2": 60.405388869500584
+}

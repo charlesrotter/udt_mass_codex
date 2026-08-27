@@ -1,0 +1,42 @@
+COMMAND: G236_DES_ROOT=<declared scratch data root> python3 derive_scale_and_holdout.py
+{
+  "gates": {
+    "g236_reproduction_pass": true,
+    "max_g236_reproduction_error": 6.483702463810914e-13,
+    "max_serialization_difference_mag": 3.565870798638571e-08,
+    "primary_DES_pass": true,
+    "primary_calibration_pass": true,
+    "resolution_ceiling": 15.24744871391589,
+    "resolution_chi2": 60.40538886961107,
+    "resolution_pass": false,
+    "resolution_rank": 3,
+    "serialization_pass": true,
+    "subset_pass": true
+  },
+  "landing": "SCALE_ATTACHMENT_RESOLUTION_OR_SUBSET_SENSITIVE",
+  "primary_DES": {
+    "adequate": true,
+    "ceiling": 1907.8683906648823,
+    "chi2": 1434.579290816418,
+    "dof": 1623,
+    "prediction_max": 44.477279178735344,
+    "prediction_min": 37.591156273440205,
+    "residual_mean_mag": 0.1759203914730402,
+    "residual_rms_mag": 0.330217958987935
+  },
+  "primary_scale": {
+    "M": -19.24888454008354,
+    "a_mag": 12.28378312894975,
+    "a_sigma_mag": 0.03900777435632015,
+    "b_value": 18.038122851079788,
+    "calibration_adequate": true,
+    "ceiling_cal": 137.64414002968977,
+    "chi2_cal": 57.134728577478334,
+    "dof_cal": 76,
+    "ell_mpc": 286.25733633510214,
+    "ell_sigma_mpc_delta": 5.142253493374308,
+    "reduced_covariance_min_eigenvalue": 0.0006105317388171301,
+    "reduced_covariance_positive_definite": true,
+    "weighted_design_rank": 2
+  }
+}

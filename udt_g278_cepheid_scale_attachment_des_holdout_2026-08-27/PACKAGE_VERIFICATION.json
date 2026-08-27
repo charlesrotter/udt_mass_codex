@@ -1,0 +1,47 @@
+{
+  "audit": "G278_PACKAGE_VERIFICATION",
+  "checks": {
+    "all_required_files_present": true,
+    "all_sources_match": true,
+    "catch_proofs_pass": true,
+    "followup_cannot_regrade_original": true,
+    "independent_checks_pass": true,
+    "landing_exact": true,
+    "no_scaffolding_or_retuning": true,
+    "only_resolution_gate_failed": true
+  },
+  "durable_output_hashes": {
+    "AUDIT_REPORT.md": "85de81658e557143e6e3683e29b9c2a48d508744cd66d478dfcc3b415aaccb09",
+    "CALIBRATOR_SUBSET_CONTROLS.tsv": "45574436272ff5d8884f1b2285b330493950f55699477850e1943ced10fd0b04",
+    "CATCH_PROOF_RESULT.json": "da3a41b91baf552476d764e6321d865274a2345fd88eabb8ecbb4c5da0e6a764",
+    "CATCH_PROOF_RUN_LOG.txt": "84de726185e53905ff2091404bfdb201b28259e6fc826a7edaa1dc3bd51e6985",
+    "COMMANDS.md": "57d4b25ab05d0365e55b5151f21c59ca4972378351b79df4c6744bccc0bae61c",
+    "DERIVATION_RESULT.json": "cab1376270d8dd7e33dfebdd83a3cca8af67b8b02352d916ba14c5ac1cc99c85",
+    "DES_HOLDOUT_RESULTS.tsv": "638abcbb41d9c2980fdd5bbddc41d8f26a347511638dc319a7d08b32f100cb3d",
+    "EVIDENCE_GATES.md": "5f0785c3a3ad10423c92dde64af1ed5b83649187ba1f58d6179e3ea3aa2a980d",
+    "INDEPENDENT_RUN_LOG.txt": "d79f7a1fd36ca5d6c65319099e2e7d652f2992a374e6f5c300a248975a3bd45b",
+    "INDEPENDENT_VERIFICATION.json": "07976aec3448fac81794c033b241029b07a453e74d78add11313e01ab735dcf1",
+    "LAY_REPORT.md": "8590ea60cf52e1b6f3e0beb96645722c80f35a4a71a7ea8281f29bb02407ebc2",
+    "MAP.md": "1d062ef798104e677ce236357776ff47ba8e455269071a155705dce28768c951",
+    "PREMISE_LEDGER.tsv": "e5f3577d7a8bb28b3dcd3307b6d2474a5f7599df1b7402245ee6320c63550c51",
+    "PREREGISTRATION.md": "925edc11dbb5ac0e204abcf2dcac184dc7bf1a6de91c9c946206965194faed61",
+    "PRODUCTION_RUN_LOG.txt": "226ed42b304bcc4f4407301f4943183079099674d0df2fbc0d3f661afb165dfc",
+    "SCALE_RESULTS.tsv": "11028e22ab01d73e9fac9de8ff7946c308a9a8b931c5c4885f0164a775846310",
+    "SOURCE_MANIFEST.tsv": "f034cf6aaeeb68b3f6714cad107c08b5dbd32e98e5884b949549b960e9f1cfe9",
+    "derive_scale_and_holdout.py": "0e4df85feb35ff01212fc5b38c5ffa86b1c1168cdfb7f496a2e267483a865279",
+    "run_catch_proofs.py": "83430de573c580ad73fe2492f1ee6874dad960532bc13c5f5b53ff871b6b7e9f",
+    "verify_independent.py": "28afdd5a5064905c02e26b803bfc2c3f1186b7004faf6088b5ccf21033be8ddd"
+  },
+  "source_checks": {
+    "Data/Pantheon+SH0ES.dat": true,
+    "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
+    "external_data/DES-Dovekie_HD.csv": true,
+    "external_data/STAT+SYS.npz": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PRODUCTION_RESULT.json": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/STATE_RECONSTRUCTION.tsv": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/derive_dual_sne_relational_state.py": true,
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md": true,
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/DERIVATION_RESULT.json": true
+  }
+}

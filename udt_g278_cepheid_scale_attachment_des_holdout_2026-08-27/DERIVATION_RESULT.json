@@ -1,0 +1,153 @@
+{
+  "DES": {
+    "12": {
+      "adequate": true,
+      "ceiling": 1907.8683906648823,
+      "chi2": 1434.579290816418,
+      "dof": 1623,
+      "prediction_max": 44.477279178735344,
+      "prediction_min": 37.591156273440205,
+      "residual_mean_mag": 0.1759203914730402,
+      "residual_rms_mag": 0.330217958987935
+    },
+    "16": {
+      "adequate": true,
+      "ceiling": 1907.8683906648823,
+      "chi2": 1431.277060036846,
+      "dof": 1623,
+      "prediction_max": 44.470326203274176,
+      "prediction_min": 37.561336820422454,
+      "residual_mean_mag": 0.17309898937006615,
+      "residual_rms_mag": 0.32833227913425106
+    },
+    "24": {
+      "adequate": true,
+      "ceiling": 1907.8683906648823,
+      "chi2": 1434.1998015922416,
+      "dof": 1623,
+      "prediction_max": 44.78909432354538,
+      "prediction_min": 37.53555784221109,
+      "residual_mean_mag": 0.17896639754063726,
+      "residual_rms_mag": 0.3397779029196664
+    },
+    "8": {
+      "adequate": true,
+      "ceiling": 1907.8683906648823,
+      "chi2": 1441.8020115631696,
+      "dof": 1623,
+      "prediction_max": 44.673537640591015,
+      "prediction_min": 37.687608041090336,
+      "residual_mean_mag": 0.16864958256952728,
+      "residual_rms_mag": 0.3247888946223407
+    }
+  },
+  "audit": "G278_PRODUCTION",
+  "conditionality": {
+    "CMB_temperature_used": false,
+    "DES_H0_70_normalization": "OBSERVED_RELEASE_CONVENTION_NOT_UDT_SCALE",
+    "cepheid_distance_ladder": "OBSERVED_SUPPLIED",
+    "transparent_radiative_transfer": "CONDITIONAL_IMPORT"
+  },
+  "counts": {
+    "calibrator_rows": 77,
+    "calibrator_unique_cids": 43,
+    "des_holdout": 1623,
+    "pantheon_flow": 768,
+    "pantheon_total": 1701
+  },
+  "frozen": {
+    "DES_parameters_fitted": 0,
+    "K_values": [
+      8,
+      12,
+      16,
+      24
+    ],
+    "P1_used": false,
+    "Xmax_used": false,
+    "angular_coefficients_fitted": 0,
+    "kernel_retuned": false,
+    "lcdm_distance_used": false,
+    "phi_max": 0.7627571949083936,
+    "phi_min": 0.07077528204904217,
+    "primary_K": 12,
+    "state_shape_retuned_by_calibrators": false,
+    "transparent_transfer_imported": true
+  },
+  "gates": {
+    "g236_reproduction_pass": true,
+    "max_g236_reproduction_error": 6.483702463810914e-13,
+    "max_serialization_difference_mag": 3.565870798638571e-08,
+    "primary_DES_pass": true,
+    "primary_calibration_pass": true,
+    "resolution_ceiling": 15.24744871391589,
+    "resolution_chi2": 60.40538886961107,
+    "resolution_pass": false,
+    "resolution_rank": 3,
+    "serialization_pass": true,
+    "subset_pass": true
+  },
+  "landing": "SCALE_ATTACHMENT_RESOLUTION_OR_SUBSET_SENSITIVE",
+  "maximum_conclusion": "one conditional empirical homothety scale for the frozen G236 state plus a no-retuning DES consistency or mismatch under its published normalization",
+  "primary_scale": {
+    "M": -19.24888454008354,
+    "a_mag": 12.28378312894975,
+    "a_sigma_mag": 0.03900777435632015,
+    "b_value": 18.038122851079788,
+    "calibration_adequate": true,
+    "ceiling_cal": 137.64414002968977,
+    "chi2_cal": 57.134728577478334,
+    "dof_cal": 76,
+    "ell_mpc": 286.25733633510214,
+    "ell_sigma_mpc_delta": 5.142253493374308,
+    "reduced_covariance_min_eigenvalue": 0.0006105317388171301,
+    "reduced_covariance_positive_definite": true,
+    "weighted_design_rank": 2
+  },
+  "primary_scale_parameter_covariance": [
+    [
+      0.0009063526713517928,
+      -0.0009085434570739105
+    ],
+    [
+      -0.0009085434570739105,
+      0.0015216064602335878
+    ]
+  ],
+  "resolution": {
+    "covariance": [
+      [
+        0.00018137705823881753,
+        -3.964934967058886e-05,
+        -1.1396397733889407e-05
+      ],
+      [
+        -3.964934967058888e-05,
+        9.981423100241102e-05,
+        0.000144552654754342
+      ],
+      [
+        -1.1396397733889481e-05,
+        0.00014455265475434207,
+        0.00037803731306881996
+      ]
+    ],
+    "difference_mag": [
+      0.0964517676501302,
+      -0.02981945301775113,
+      -0.05559843122911445
+    ]
+  },
+  "source_checks": {
+    "Data/Pantheon+SH0ES.dat": true,
+    "Data/Pantheon+SH0ES_STAT+SYS.cov": true,
+    "external_data/DES-Dovekie_HD.csv": true,
+    "external_data/STAT+SYS.npz": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PREREGISTRATION.md": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/PRODUCTION_RESULT.json": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/STATE_RECONSTRUCTION.tsv": true,
+    "udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/derive_dual_sne_relational_state.py": true,
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md": true,
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/DERIVATION_RESULT.json": true
+  }
+}
