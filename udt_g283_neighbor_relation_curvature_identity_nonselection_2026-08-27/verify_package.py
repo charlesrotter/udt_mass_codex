@@ -63,6 +63,8 @@ def main() -> None:
         "verify_independent.py",
         "run_catch_proofs.py",
         "verify_package.py",
+        "EXTERNAL_REVIEW_REQUEST.md",
+        "build_review_intake.py",
     )
     protected = (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
