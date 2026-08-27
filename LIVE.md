@@ -73,8 +73,8 @@ has homothety weight `+1`. One independent calibrated clock record gives the uni
 remain scale blind. The clock record, segment population, complete history, operational distance,
 and `X_max` remain supplied or `OPEN`. Fresh `gpt-5.4` returned `ACCEPT_WITH_REPAIRS` with the
 scientific landing unchanged. R1 now holds dimensionless `C_bar` fixed under a physical numeric
-unit relabelling and passes 20,000 exact-rational cases / 320,003 assertions; repair follow-up is
-pending.
+unit relabelling and passes 20,000 exact-rational cases / 320,003 assertions. Repair-only follow-up
+accepted R1 with no remaining defect.
 
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
@@ -103,9 +103,9 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G276 is externally `ACCEPT_WITH_REPAIRS`; its bounded theorem was retained and preregistered R1 is
-implemented after 22 exact checks, an independent 20,000-case / 320,003-assertion exact-rational
-census, and eight hostile controls. Its next gate is sealed repair-only external follow-up. Do not
+G276 is externally `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED` after 22 exact checks, an
+independent 20,000-case / 320,003-assertion exact-rational census, eight hostile controls, all four
+registered replays, and 34/34 sealed-manifest checks. No R1 repair remains. Do not
 call `c_E` alone a length, treat a
 metric-generated clock value as independent calibration, erase screen/frame carry or path labels,
 promote `x=ell*chi` to an operational distance, infer `X_max=ell` without populated-boundary

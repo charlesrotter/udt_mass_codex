@@ -47,7 +47,7 @@ metric self-evaluation, dimensionless `sech/tanh`, and same-weight ratios do not
 metric/kernel change, history, operational-distance, or `X_max` selection occurred.
 Fresh `gpt-5.4` returned `ACCEPT_WITH_REPAIRS` while retaining that science. R1 replaces the one
 mislabelled unit control with a physical numeric unit relabelling that fixes dimensionless `C_bar`;
-20,000 cases / 320,003 assertions pass. Repair-only follow-up is pending.
+20,000 cases / 320,003 assertions pass. Repair-only follow-up accepted R1 with no remaining defect.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
@@ -67,9 +67,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-G276 is externally `ACCEPT_WITH_REPAIRS` after preregistration, exact derivation, independent
-20,000-case / 320,003-assertion verification, and hostile controls. The scientific landing is
-unchanged and R1 is implemented; sealed repair-only follow-up is the next gate.
+G276 is externally `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED` after preregistration, exact
+derivation, independent 20,000-case / 320,003-assertion verification, hostile controls, all four
+registered replays, and 34/34 manifest checks. No R1 repair remains.
 Do not call `c_E` alone a length, accept a metric-generated clock value as calibration, promote the
 dimensional representative to a universal distance, select a profile/history/population/`X_max`, or
 begin dynamics. No ODE/PDE/GPU solve is authorized. The 260-row registry controls.

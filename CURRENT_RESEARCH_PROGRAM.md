@@ -128,9 +128,10 @@ branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-G276 is externally `ACCEPT_WITH_REPAIRS`: the same-segment proper-clock datum supplies G275's
-nonzero-weight anchor and `c_E` carries the attached time into length; `c_E` alone and metric
-self-evaluation remain scale blind. R1 is implemented after 20,000 cases / 320,003 assertions;
-sealed repair-only follow-up is next. Do not fit a profile,
+G276 is externally `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`: the same-segment proper-clock
+datum supplies G275's nonzero-weight anchor and `c_E` carries the attached time into length; `c_E`
+alone and metric
+self-evaluation remain scale blind. R1 is externally accepted after 20,000 cases / 320,003
+assertions; no R1 repair remains. Do not fit a profile,
 select a history/population/operational distance/`X_max`, invent a residual, or start an ODE/PDE/GPU
 solve.

@@ -1199,7 +1199,7 @@ def main() -> None:
     g276_row = by_id["G276"]
     require(
         g276_row["current_status"].startswith(
-            "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED_FOLLOWUP_PENDING__"
+            "EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED__"
             "PREREGISTERED_AT_E5FDDC76"
         ),
         "G276 external/repair grade changed",
@@ -1231,6 +1231,7 @@ def main() -> None:
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
         "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REPAIR_FOLLOWUP.md",
         "REVIEW_TRANSMISSION_RECORD.md",
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
@@ -1289,7 +1290,7 @@ def main() -> None:
         g276_verification["status"] == "PASS"
         and g276_verification["landing"] == g276_landing
         and g276_verification["grade"]
-        == "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING"
+        == "EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED"
         and g276_verification["no_write_replays"] == 3,
         "G276 package verification changed",
     )
@@ -1305,8 +1306,15 @@ def main() -> None:
         "R1_IMPLEMENTED__PHYSICALLY_FAITHFUL_UNIT_RELABEL_CONTROL__"
         "SCIENTIFIC_LANDING_UNCHANGED" in g276_repair
         and "320,003" in g276_repair
-        and "External repair-only follow-up remains pending" in g276_repair,
+        and "REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED" in g276_repair,
         "G276 R1 repair result changed",
+    )
+    g276_followup = (g276 / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text()
+    require(
+        "REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED" in g276_followup
+        and "34/34 manifest entries" in g276_followup
+        and "None within preregistered G276 R1" in g276_followup,
+        "G276 repair-only follow-up acceptance changed",
     )
     g276_replay = subprocess.run(
         [sys.executable, str(g276 / "verify_package.py"), "--no-write"],

@@ -55,9 +55,10 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-G276 external review returned `ACCEPT_WITH_REPAIRS` with the bounded science unchanged. R1 now
-holds dimensionless `C_bar` fixed in a physical numeric unit relabelling and passes 20,000 cases /
-320,003 assertions; sealed repair-only follow-up is next. Preserve
+G276 repair-only external follow-up returned
+`REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`. R1 holds dimensionless `C_bar` fixed in a
+physical numeric unit relabelling and passes 20,000 cases / 320,003 assertions; no R1 repair
+remains. Preserve
 screen/frame carry and path labels; do not call `c_E` alone a length, use metric self-evaluation as
 calibration, or select a profile, history, population, operational distance, or `X_max`.
 
