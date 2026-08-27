@@ -1,0 +1,38 @@
+{
+  "audit": "G281_SNE_VALIDATION_PROVENANCE_RECONSTRUCTION",
+  "status": "PASS",
+  "grade": "INTERNALLY_VERIFIED_WITH_CAVEATS",
+  "landing": "NO_COMPLETE_NATIVE_SNE_PREDICTION_IN_AUDITED_NONPROTECTED_LINEAGE",
+  "counts": {
+    "source_files_inspected": 34,
+    "immutable_source_files": 32,
+    "historical_tiles": 24,
+    "route_classes": 15,
+    "native_prediction_witnesses": 0
+  },
+  "replays": {
+    "g281_primary": "PASS",
+    "g281_independent": "PASS",
+    "saved_lineage_outputs": "PASS",
+    "july_n2_optics": "PASS",
+    "g279_no_write_production": "PASS",
+    "g279_independent_assertions": 109549,
+    "g279_hostile_catches": "16/16",
+    "g280_no_write_production": "PASS",
+    "g280_independent_assertions": 40960,
+    "g280_hostile_catches": "8/8_plus_10/10_repair_mutations"
+  },
+  "retained": [
+    "direct_reciprocal_redshift",
+    "complete_metric_optical_evaluator_on_supplied_history",
+    "empirical_two_release_state_reconstruction",
+    "resolution_sensitive_scale_attachment_and_DES_holdout"
+  ],
+  "not_retained_as_native_prediction": [
+    "old_canonical_one_factor_headline_fit",
+    "locked_Branch_C_cubic_history_ownership",
+    "P1_as_kernel_or_metric_prediction",
+    "projective_position_as_universal_optical_area"
+  ],
+  "scope": "tracked_nonprotected_SNe_lineage_only"
+}

@@ -20,7 +20,7 @@ normalized scale-free linear-fractional class. W5 is Charles's provisional
 `WORKING_FOUNDATIONAL_CLARIFICATION`: physical normalized pair position is the complete
 screen-retaining projective relation state. It is not canon and changes neither metric nor kernel.
 
-G166--G276 is the active structural spine; G277--G280 control the observational interface and its
+G166--G276 is the active structural spine; G277--G281 control the observational interface and its
 provenance. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -72,6 +72,15 @@ a representation. The independent external reviewer reproduced the result and ac
 R1--R3 with no remaining scoped defect. This does not weaken direct reciprocal redshift or the
 angular orchestra; it proves that the orchestra carries additional metric-history information.
 
+G281 reconstructs the long tracked SNe lineage from `udt_canonical_geometry.md` through G280.
+Across 34 inspected tracked sources, 24 historical claim tiles, and 15 route classes, it finds no
+complete native SNe prediction. The old headline fit used a supplied Branch-C cubic and the wrong
+one-factor luminosity rule; P1 is an empirical profile family, not the kernel. G236/G237 remain an
+explicit empirical area-state reconstruction and G278 remains a resolution-sensitive Cepheid-scale
+plus DES-holdout lead. Direct reciprocal redshift, conditional complete-metric optical evaluation,
+G279 kernel purity, and G280 area nonidentity all survive. The result is internally verified with
+caveats pending fresh external adversarial review.
+
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
 
@@ -98,7 +107,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Return to the metric-led history/value question with G280 as a hard discriminator: determine
+After fresh adversarial review of G281, return to the metric-led history/value question with
+G280/G281 as hard discriminators: determine
 whether an already owned complete-history principle jointly predicts the reciprocal-depth and
 null-screen/Jacobi evolution, or type the smallest additional native principle needed to do so.
 Only after a finite-dimensional joint history is independently derived may SNe or another

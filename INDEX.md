@@ -67,7 +67,8 @@
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/`; `udt_g274_projective_pair_position_network_descent_2026-08-26/`;
   `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`; `udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/`.
 - Observational/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`; `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`;
-  `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`; `udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/`.
+  `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
+  `udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/`; `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -76,9 +77,8 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 ## Observational lane
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
-- Scale/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`; `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`;
-  `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
-  `udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/`
+- Scale/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`; `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`; `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
+  `udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/`; `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`
 - Dual-SNe reconstruction: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
 - SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
@@ -95,10 +95,10 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
-- W5 physical normalized projective pair-position working clarification: `founding.md`; controlling
-  derivation/descent: `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and
-  `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
+- W5 physical normalized projective pair-position working clarification: `founding.md`; controlling derivation/descent:
+  `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
+- Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`

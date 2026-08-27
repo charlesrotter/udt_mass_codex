@@ -4,7 +4,7 @@
 
 ## Theory picture
 
-G166--G276 is the structural spine; G277--G280 control the observational interface. A supplied germ
+G166--G276 is the structural spine; G277--G281 control the observational interface. A supplied germ
 gives the `B,Q,S,Y,Z` pullback before terminal readout. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
@@ -13,7 +13,7 @@ G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281.
 
 W5 provisionally identifies complete screen-retaining projective state as physical normalized
 position; it is not canon, dimensional distance, or a kernel change. G274 requires path-labelled
@@ -32,6 +32,12 @@ projective/redshift state can carry different native Jacobi area, and same-depth
 can occur at different areal radii. Direct redshift and W5 survive; prediction now requires a joint
 metric history for depth and screen evolution, or an explicitly additional areal/projective law.
 
+G281 audits the tracked SNe lineage back to the old canonical geometry. No complete native SNe
+prediction is found. The old headline fit used a supplied cubic and wrong one-factor luminosity
+rule; P1 is empirical. Direct reciprocal redshift, conditional metric/Jacobi evaluation, the
+G236/G237 empirical reconstruction, the G278 resolution-sensitive holdout, and G279/G280 all retain
+their bounded status. Fresh external review is pending.
+
 ## Observations and premises
 
 R2--R5 are observed/verified with caveats; 184,300 covariance rows remain unresolved and no
@@ -48,7 +54,8 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-Use G280 to test candidate history/value principles: a successful native candidate must jointly
+After adversarial G281 review, use G280/G281 to test candidate history/value principles: a
+successful native candidate must jointly
 predict reciprocal depth and null-screen/Jacobi evolution before observations calibrate constants.
 Do not choose/average/smooth `K`, fit a free optical curve, identify areal with projective position
 by fiat, or select population, operational distance, or `X_max`.

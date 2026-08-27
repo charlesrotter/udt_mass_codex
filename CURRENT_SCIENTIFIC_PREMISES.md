@@ -10,10 +10,10 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
-| Pair-clock/state network | G215--G276 | Carry, GR, W4, mass-aspect, transport, projective coordinate, frame descent, and proper-clock scale attachment | Dynamics/history/aggregation |
+| Pair-clock/state network | G215--G276 | Carry, transport, projective/frame descent, conditional scale | Dynamics/history/aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
-| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state; owner-adopted 2026-08-26 | Scale; distance; history/population; `X_max` |
+| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale; history/population; `X_max` |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
 | Projective pair coordinate | `DERIVED` in declared class / exact radial stratum | `chi=tanh(phi_pair)` plus screen-retaining open-ball vector | Physical-position adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -79,6 +79,7 @@
 | G278 Cepheid attachment/DES holdout | external/repair accepted | Conditional lead; resolution-independent scale fails |
 | G279 native-interface provenance | external/repair | Native core intact |
 | G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
+| G281 SNe audit | internal/caveats | No native prediction; redshift/evaluator survive |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -99,8 +100,8 @@ None selects completion/`X_max`.
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class; metricity is not dynamics.
 - G212--G243 reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale; G257--G276 add
-  GR/projective/frame controls. G277--G279 audit observational attachment; G280 separates projective
-  state and optical area. History unselected.
+  GR/projective/frame controls. G277--G281 audit observational attachment, projective/area
+  separation, and SNe provenance. History remains unselected.
 
 ## Carrier, action, source, and matter
 
@@ -116,9 +117,9 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G276 outcome-blind except G258. G277 conditional; G278 resolution-sensitive; G279 core intact;
-G280 locates shape in complete-history/Jacobi data. History/transfer open.
+R2--R5 select no scale or `X_max`. G236--G243 are controls;
+G244--G276 are outcome-blind except G258. G277--G281 leave history/transfer open. G281 finds no
+prediction; redshift/evaluator survive.
 
 ## Recurring prohibited promotions
 
@@ -131,6 +132,6 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 264-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 265-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-26_pre_g270/`.

@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-`LIVE.md` controls status; the 264-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 265-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -68,6 +68,11 @@ population, operational distance, or `X_max`.
   different areal radii. External and repair-only review accept the bounded landing. A direct
   one-scale SNe curve therefore requires a complete joint history or an explicitly additional
   areal/projective law; it is not a function of `phi` or W5 state alone.
+- G281 reconstructs the tracked non-protected SNe validation lineage. It retains direct reciprocal
+  redshift and conditional complete-metric optical evaluation, regrades the old canonical headline
+  fit as supplied-profile plus wrong-one-factor scaffolding, types P1 as empirical calibration, and
+  types G236--G278 as reconstruction/calibration/holdout with declared imports. No complete native
+  SNe prediction is found; G279/G280 remain intact. Fresh external review is pending.
 
 ## Open boundary
 
@@ -77,6 +82,8 @@ attachment boundary. It does not own physical history, populated germ/path distr
 radiative transfer, a joint depth-and-Jacobi history law, operational distance, or numerical
 `X_max`. `d_A(Z)` exists only on monotone noncaustic branch pieces, and G280 proves it is not a
 universal function of endpoint `phi` or W5 state alone.
+G281 further proves source-boundedly that no tracked non-protected historical SNe route supplied
+that missing complete-history/area law before using SNe data.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -84,7 +91,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Use G280 as a hard discriminator on the metric-led history/value-law search. Determine whether an
+After fresh external review of G281, use G280/G281 as hard discriminators on the metric-led
+history/value-law search. Determine whether an
 already owned complete-history principle jointly predicts reciprocal depth and null-screen/Jacobi
 evolution, or type the smallest additional native principle that would. Only after such a law
 reduces the history to an independently derived finite-dimensional family may observations

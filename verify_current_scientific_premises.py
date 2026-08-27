@@ -197,7 +197,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     removed_ids = tuple(
-        dict.fromkeys(("G280", "G279", "G278", "G277", "G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(("G281", "G280", "G279", "G278", "G277", "G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -351,6 +351,7 @@ def validate_startup_surface(root: Path) -> None:
             "G278",
             "G279",
             "G280",
+            "G281",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -394,7 +395,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "264-row exact registry",
+            "265-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -601,6 +602,7 @@ def validate_startup_surface(root: Path) -> None:
             "G278",
             "G279",
             "G280",
+            "G281",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -701,6 +703,7 @@ def validate_startup_surface(root: Path) -> None:
             "G278",
             "G279",
             "G280",
+            "G281",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -795,11 +798,12 @@ def validate_startup_surface(root: Path) -> None:
             "G278",
             "G279",
             "G280",
+            "G281",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "264-row",
+            "265-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1160,9 +1164,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 264, "premise registry must contain exactly 264 rows")
+    require(len(rows) == 265, "premise registry must contain exactly 265 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 264, "duplicate premise id")
+    require(len(by_id) == 265, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1183,6 +1187,11 @@ def main() -> None:
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
             "udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/AUDIT_REPORT.md",
             "SAME_COMPLETE_PROJECTIVE_PAIR_STATE_ADMITS_DIFFERENT_NATIVE_JACOBI_AREA",
+        ),
+        "G281": (
+            "INTERNALLY_VERIFIED_WITH_CAVEATS__RETROSPECTIVE_PREREGISTERED_AT_53BFD5F7",
+            "udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/AUDIT_REPORT.md",
+            "NO_COMPLETE_NATIVE_SNE_PREDICTION_IN_AUDITED_NONPROTECTED_LINEAGE",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13085,7 +13094,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
