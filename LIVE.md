@@ -21,7 +21,8 @@ normalized scale-free linear-fractional class. W5 is Charles's provisional
 screen-retaining projective relation state. It is not canon and changes neither metric nor kernel.
 
 G166--G276 is the active structural spine; G277--G281 control the observational interface and its
-provenance; G282 types the remaining joint history/Jacobi information. A supplied germ pulls
+provenance; G282 types the remaining joint history/Jacobi information; G283 tests the owned
+identity layers for hidden value selection. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -96,6 +97,16 @@ assertions, seven in-memory claim-schema catches, and five registered replays pa
 completed-pair reciprocity, native first-jet interlock, and conditional Jacobi evaluation remain
 intact.
 
+G283 then places one arbitrary smooth symmetric optical-tidal matrix `T(u)` simultaneously in the
+metric two-jet, first transverse connection derivative, and path-labelled Jacobi/network
+generator. Every member keeps the same central metric, first jet, connection, and transport while
+changing neighboring optical response. All registered metric, Cartan/Bianchi, screen, symplectic,
+composition, and reversal identities still pass; even the trace-free control retains two arbitrary
+functions. Fresh external review and the repair-only follow-up returned `REPAIR-ACCEPTED`. The
+bounded landing is therefore that these owned identities enforce compatibility but do not select
+the curvature values. This is not a proof against a future UDT law and does not select `T`, a
+history, population, field equation, action, source, scale, observation, or `X_max`.
+
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
 
@@ -122,10 +133,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Map the already-owned complete coframe/connection identities onto G282's three allowed law homes
-and test whether any nonidentity neighboring-relation curvature constraint is already implicit.
-Preregister exact rejection of the G282 witness pair. If no owned condition rejects one witness,
-report the missing premise type without choosing a familiar field equation by habit.
+Stop searching ordinary metric-compatibility identities for the missing composer. Preregister a
+founding-level census of genuinely value-bearing UDT candidate principles and test each candidate
+on G283's fixed arbitrary-`T(u)` family: a viable principle must reject at least one regular witness
+for a native, covariant, non-observational reason while preserving reciprocity, the GR-quiet regime,
+and the angular/screen orchestra. Do not choose a familiar field equation by habit.
 Only after a finite-dimensional joint history is independently derived may SNe or another
 observation calibrate its constants. Do not choose a preferred `K`, draw a free optical curve from
 the data, identify areal radius with projective position by fiat, retune either SNe release, or

@@ -7,7 +7,8 @@
 ## Resume anchor — 2026-08-27
 
 G166--G276 is the active structural spine; G277--G281 control the current observational interface;
-G282 types the remaining joint history/Jacobi information.
+G282 types the remaining joint history/Jacobi information; G283 proves ordinary owned identities
+do not select its values on the fixed witness arena.
 On a supplied germ, the primary metric's `B,Q,S,Y,Z` orchestra enters `h=F^*g` before readout.
 Founded depth gives `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not a signal-speed
 theorem. Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -68,6 +69,14 @@ content can be represented as a metric two-jet/curvature condition, an equivalen
 coframe/connection/curvature system, or a global neighboring-relation law; G282 does not privilege
 one. Final sealed external review returned `REPAIR-ACCEPTED`, and all registered checks pass.
 
+G283 realizes the same arbitrary smooth symmetric `T(u)` as metric curvature, a first transverse
+connection derivative, and the Jacobi/network generator. The central metric, first jet,
+connection, and transport remain fixed, but neighboring optical response changes. Every registered
+compatibility identity still passes, including the trace-free two-function control. Fresh external
+and repair-only review returned `REPAIR-ACCEPTED`; the source-bounded result is that compatibility
+does not supply the missing values. No field equation, action, source, observation, fit, scale,
+history, population, or `X_max` was adopted.
+
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
@@ -83,9 +92,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: map owned complete coframe/connection identities onto G282's three law homes and preregister
-rejection of its fixed witness pair. If none supplies nonidentity neighboring-curvature value
-content, report the smallest missing premise type before solving or fitting. Do not select/average/smooth `K`, reconstruct a free
+Next: preregister a founding-level census of genuinely value-bearing UDT principles and test them
+against G283's fixed arbitrary-`T(u)` family. A viable candidate must reject a regular witness for
+a native covariant reason, not merely restate compatibility or observations. Do not select/average/smooth `K`, reconstruct a free
 optical curve from observations, identify areal and projective position by fiat, retune observations,
 or select population/`X_max`. The CMB-temperature ratio is a later direct-depth check. No
 ODE/PDE/GPU solve is authorized before an explicit candidate law and premise ledger.

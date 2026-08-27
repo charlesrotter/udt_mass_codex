@@ -28,7 +28,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   verifier audits the 266-row exact registry without dumping its wide rows into model context.
+   verifier audits the 267-row exact registry without dumping its wide rows into model context.
    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.

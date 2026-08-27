@@ -6,6 +6,8 @@
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing rows and evidence.
+
+The exact current premise authority is the 267-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Active relational frontier
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
@@ -69,6 +71,8 @@
 - Observational/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`; `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`;
   `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`;
   `udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/`; `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`.
+- Complete-history/value-law boundary: `udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/`;
+  `udt_g283_neighbor_relation_curvature_identity_nonselection_2026-08-27/`.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -99,7 +103,8 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
-- Current bounded joint history/Jacobi law-type authority: `udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/AUDIT_REPORT.md`.
+- Current bounded neighboring-curvature value-law boundary: `udt_g283_neighbor_relation_curvature_identity_nonselection_2026-08-27/AUDIT_REPORT.md`;
+  G282 remains the controlling minimum-information-type prerequisite.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`

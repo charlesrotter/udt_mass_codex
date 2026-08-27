@@ -81,6 +81,7 @@
 | G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
 | G281 SNe audit | external/repair accepted | No native prediction; redshift/evaluator survive |
 | G282 history/Jacobi law type | external/R1 repair accepted | Neighbor-relation curvature values still need a law; representation nonunique |
+| G283 curvature-identity nonselection | external/repair accepted | Owned compatibility identities do not select arbitrary tidal-history values on the frozen witness arena |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -103,7 +104,9 @@ None selects completion/`X_max`.
 - G212--G243 reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale; G257--G276 add
   GR/projective/frame controls. G277--G281 audit observational attachment, projective/area
   separation, and SNe provenance. G282 types the remaining neighboring-relation curvature
-  information and its three nonunique mathematical homes. History remains unselected.
+  information and its three nonunique mathematical homes. G283 proves that the registered ordinary
+  compatibility identities do not select those values on its explicit smooth witness family.
+  History remains unselected.
 
 ## Carrier, action, source, and matter
 
@@ -120,8 +123,9 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 select no scale or `X_max`. G236--G243 are controls;
-G244--G276 are outcome-blind except G258. G277--G282 leave history/transfer open. G281 finds no
-prediction; G282 narrows the missing law to neighboring-relation curvature value content;
+G244--G276 are outcome-blind except G258. G277--G283 leave history/transfer open. G281 finds no
+prediction; G282 narrows the missing law to neighboring-relation curvature value content; G283
+excludes ordinary owned compatibility identities as that value selector on its frozen arena;
 redshift/evaluator survive.
 
 ## Recurring prohibited promotions
@@ -135,6 +139,6 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 266-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 267-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-26_pre_g270/`.
