@@ -7,6 +7,10 @@ import csv
 import hashlib
 import json
 from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tempfile
 
 
 PACKAGE = Path(__file__).resolve().parent
@@ -30,6 +34,83 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def run_replays(
+    manifest_rows: list[dict[str, str]],
+) -> tuple[list[dict[str, object]], bool]:
+    """Execute the four registered computations in an exact ephemeral source copy."""
+
+    expected = (
+        ("verify_preregistration.py", "PASS: G284 preregistration"),
+        ("derive_causal_projective.py", '"status": "PASS"'),
+        ("verify_independent.py", '"status": "PASS"'),
+        ("run_catch_proofs.py", '"status": "PASS"'),
+    )
+    records: list[dict[str, object]] = []
+    with tempfile.TemporaryDirectory(prefix="g284_package_replay_") as temporary:
+        replay_root = Path(temporary)
+        replay_package = replay_root / PACKAGE.name
+        shutil.copytree(PACKAGE, replay_package)
+        for row in manifest_rows:
+            source = ROOT / row["path"]
+            target = replay_root / row["path"]
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
+
+        for script, expected_token in expected:
+            command = [sys.executable, "-S", str(replay_package / script)]
+            completed = subprocess.run(
+                command,
+                cwd=replay_root,
+                check=False,
+                capture_output=True,
+                text=True,
+                timeout=120,
+            )
+            token_found = expected_token in completed.stdout
+            records.append(
+                {
+                    "script": script,
+                    "interpreter_mode": "python_-S_no_site_packages",
+                    "exit_code": completed.returncode,
+                    "expected_token_found": token_found,
+                }
+            )
+            if completed.returncode != 0 or not token_found:
+                raise AssertionError(
+                    {
+                        "failed_replay": script,
+                        "exit_code": completed.returncode,
+                        "expected_token_found": token_found,
+                        "stdout_tail": completed.stdout[-1000:],
+                        "stderr_tail": completed.stderr[-1000:],
+                    }
+                )
+
+        # Artifact-level hostile catch: a broken registered derivation in the
+        # disposable copy must fail the same runner that certified the baseline.
+        mutant = replay_package / "derive_causal_projective.py"
+        text = mutant.read_text(encoding="utf-8")
+        needle = "def main() -> None:\n"
+        if needle not in text:
+            raise AssertionError("mutation anchor absent")
+        mutant.write_text(
+            text.replace(needle, needle + '    raise SystemExit("hostile replay mutation")\n', 1),
+            encoding="utf-8",
+        )
+        broken = subprocess.run(
+            [sys.executable, "-S", str(mutant)],
+            cwd=replay_root,
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=120,
+        )
+        mutation_caught = broken.returncode != 0 and '"status": "PASS"' not in broken.stdout
+        if not mutation_caught:
+            raise AssertionError("broken registered replay was not caught")
+    return records, mutation_caught
+
+
 def main() -> None:
     source_scope = rows("SOURCE_SCOPE.tsv")
     manifest_rows = rows("SOURCE_MANIFEST.tsv")
@@ -37,6 +118,7 @@ def main() -> None:
     premises = rows("PREMISE_LEDGER.tsv")
     status_rows = rows("STATUS_LEDGER.tsv")
     status = {row["id"]: row for row in status_rows}
+    replay_records, broken_replay_mutation_caught = run_replays(manifest_rows)
     derivation = json.loads((PACKAGE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     independent = json.loads(
         (PACKAGE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
@@ -63,9 +145,17 @@ def main() -> None:
         "VERIFICATION_RESULT.json",
         "verify_preregistration.py",
         "derive_causal_projective.py",
+        "derive_causal_projective_sympy.py",
         "verify_independent.py",
         "run_catch_proofs.py",
         "verify_package.py",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.json",
+        "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
+        "build_repair_followup_intake.py",
     )
     protected = (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
@@ -88,7 +178,18 @@ def main() -> None:
         ),
         "premise_rows_16": len(premises) == 16,
         "status_rows_10": len(status_rows) == 10,
-        "external_review_explicitly_pending": status["S10"]["status"] == "PENDING",
+        "external_review_repair_followup_pending": status["S10"]["status"]
+        == "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING",
+        "registered_replays_4_of_4": (
+            len(replay_records) == 4
+            and all(record["exit_code"] == 0 for record in replay_records)
+            and all(record["expected_token_found"] for record in replay_records)
+        ),
+        "registered_replays_use_no_site_packages": all(
+            record["interpreter_mode"] == "python_-S_no_site_packages"
+            for record in replay_records
+        ),
+        "broken_registered_replay_mutation_caught": broken_replay_mutation_caught,
         "derivation_20_of_20": (
             derivation["status"] == "PASS"
             and derivation["landing"] == LANDING
@@ -117,10 +218,11 @@ def main() -> None:
             and all(catches["caught"].values())
         ),
         "landing_exact_and_provisional": (
-            verification["status"] == "PASS_INTERNAL_PENDING_EXTERNAL"
+            verification["status"] == "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING"
             and verification["landing"] == LANDING
-            and verification["external_review"] == "PENDING"
-            and "FRESH_EXTERNAL_REVIEW_PENDING" in verification["grade"]
+            and verification["external_review"]
+            == "ACCEPT_WITH_REPAIRS__REPAIR_FOLLOWUP_PENDING"
+            and "REPAIR_FOLLOWUP_PENDING" in verification["grade"]
             and LANDING in audit
         ),
         "causal_tape_type_stated_without_formula_promotion": (
@@ -142,10 +244,12 @@ def main() -> None:
     print(
         json.dumps(
             {
-                "audit": "G284_INTERNAL_PACKAGE_VERIFICATION",
-                "status": "PASS_INTERNAL_PENDING_EXTERNAL",
+                "audit": "G284_PACKAGE_AND_EXECUTABLE_REPLAY_VERIFICATION",
+                "status": "PASS_REPAIRS__EXTERNAL_REPAIR_FOLLOWUP_PENDING",
                 "landing": LANDING,
                 "counts": verification["counts"],
+                "replay_commands": replay_records,
+                "broken_replay_mutation_caught": broken_replay_mutation_caught,
                 "checks": checks,
             },
             indent=2,

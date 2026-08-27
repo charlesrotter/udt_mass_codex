@@ -2,6 +2,10 @@
 
 Date: 2026-08-27
 
+The durable production replay uses dependency-free exact Laurent-polynomial algebra. The original
+SymPy implementation is retained separately as a supplemental implementation cross-check and is
+not required by the registered replay.
+
 ## 1. One local `c_E` for every tidal history
 
 Take the preregistered family

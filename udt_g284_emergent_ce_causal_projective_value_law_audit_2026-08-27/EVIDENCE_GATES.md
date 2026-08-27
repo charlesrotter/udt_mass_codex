@@ -9,7 +9,12 @@ Date: 2026-08-27
    varying-tide network cases use no production output or implementation.
 4. **Premises audited:** PASS internally — all excluded physics and stronger causal premises remain
    explicit.
-5. **Fresh external adversarial review:** PENDING.
+5. **Fresh external adversarial review:** `ACCEPT-WITH-REPAIRS` — no scientific defect; the bounded
+   landing survived unchanged. One dependency/replay packaging defect and one executable-evidence
+   defect were preregistered as R1/R2 and repaired.
+6. **Repair replay:** PASS internally — all four recomputations now run with `python3 -S` in an
+   ephemeral exact-source copy, and an artifact-level broken-replay mutation is rejected.
+7. **External repair-only follow-up:** PENDING.
 
-Until gate 5 closes, the result is provisional and must not enter `CURRENT_SCIENTIFIC_PREMISES.tsv`
-or the startup surface.
+Until gate 7 closes, the result remains repair-follow-up pending and must not enter
+`CURRENT_SCIENTIFIC_PREMISES.tsv` or the startup surface.

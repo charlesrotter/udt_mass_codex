@@ -2,17 +2,17 @@
 
 Date: 2026-08-27
 
-## Provisional bounded landing
+## Externally accepted bounded landing; repair follow-up pending
 
 ```text
 EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY
 ```
 
-Internal grade:
+Current grade:
 
 ```text
 PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED
-__FRESH_EXTERNAL_REVIEW_PENDING
+__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_IMPLEMENTED__REPAIR_FOLLOWUP_PENDING
 ```
 
 ## What was learned
@@ -56,14 +56,23 @@ present witness is bounded to a regular causally convex tube and finite path-lab
 
 - preregistered and pushed at commit `c61ed4f4` before outcome calculation;
 - 15 exact frozen sources and 16 premise rows;
-- 20 generic symbolic checks with all three symmetric `T` functions live;
+- 20 generic dependency-free exact polynomial checks with all three symmetric `T` functions live;
 - 512 implementation-distinct exact-rational cases and 7,168 assertions;
 - 64 independent varying-tide network cases, all with nonflat Jacobi area;
 - maximum symplectic residual `5.11e-15`;
 - maximum composition residual `7.23e-13`;
 - maximum reversal residual `1.04e-14`;
 - 9/9 in-memory hostile claim-schema catches;
+- four registered recomputations pass under `python3 -S` in an ephemeral exact-source copy;
+- an artifact-level mutation that breaks the registered derivation is rejected;
 - no observation, fit, field equation, action, source, matter model, scale, or `X_max` input.
+
+The fresh external `gpt-5.4` review returned `ACCEPT-WITH-REPAIRS`, found no scientific defects,
+and retained the landing unchanged. It identified a missing SymPy runtime in the sealed environment
+and a verifier that checked saved results without rerunning them. R1 replaces the production
+derivation with standard-library exact algebra; R2 makes the package verifier execute all four
+registered computations before accepting the artifacts. The original SymPy implementation remains
+only as a supplemental cross-check. A sealed repair-only follow-up remains required.
 
 ## Scope and maximum conclusion
 
@@ -72,5 +81,5 @@ family. It does not prove that no stronger UDT causal principle can select value
 history or population, canonize infinite bare `c`, derive signalling, attach an absolute distance,
 or determine `X_max`.
 
-Fresh independent external review remains required before this provisional landing is banked into
-the active premise registry or startup surface.
+Fresh external scientific review is complete. A bounded repair-only follow-up remains required
+before this landing is banked into the active premise registry or startup surface.

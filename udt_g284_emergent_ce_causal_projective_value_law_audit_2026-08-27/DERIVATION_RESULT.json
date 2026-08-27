@@ -34,6 +34,7 @@
     "neighboring_null_slope_exists_for_arbitrary_T": true
   },
   "exact_checks": 20,
+  "implementation": "dependency_free_exact_laurent_polynomial_algebra",
   "imports": {
     "action": false,
     "field_equation": false,

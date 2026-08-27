@@ -1,0 +1,24 @@
+{
+  "audit": "G284_EXTERNAL_REVIEW_REPAIR_RESULT",
+  "status": "PASS_INTERNAL__EXTERNAL_REPAIR_FOLLOWUP_PENDING",
+  "landing_changed": false,
+  "repairs": {
+    "R1_dependency_free_symbolic_replay": {
+      "status": "PASS",
+      "production_imports_third_party_packages": false,
+      "python_no_site_packages_replay": true,
+      "exact_checks": 20,
+      "arbitrary_tidal_functions_retained": 3,
+      "supplemental_sympy_implementation_retained": true,
+      "production_and_sympy_checks_agree": true
+    },
+    "R2_executable_replay_certification": {
+      "status": "PASS",
+      "registered_replays_executed": 4,
+      "registered_replay_exit_codes": [0, 0, 0, 0],
+      "ephemeral_exact_source_copy": true,
+      "broken_registered_replay_mutation_caught": true
+    }
+  },
+  "external_repair_followup": "PENDING"
+}
