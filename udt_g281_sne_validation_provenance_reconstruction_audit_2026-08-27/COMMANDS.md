@@ -32,3 +32,9 @@ python3 verify_current_scientific_premises.py
 python3 -m pytest tests/
 git diff --check
 ```
+
+External-review intake preparation:
+
+```bash
+python3 udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/build_review_intake.py
+```

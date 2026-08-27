@@ -96,6 +96,8 @@ def main() -> None:
         "verify_sne_provenance_audit.py",
         "verify_sne_provenance_independent.py",
         "verify_saved_lineage_outputs.py",
+        "build_review_intake.py",
+        "EXTERNAL_REVIEW_REQUEST.md",
     )
     audit_report = (PACKAGE / "AUDIT_REPORT.md").read_text()
     recorded_result = json.loads((PACKAGE / "VERIFICATION_RESULT.json").read_text())
