@@ -1,0 +1,31 @@
+{
+  "failed_criterion_by_overclaim": {
+    "DES_H0_70_called_UDT_direct": "zero_point_closed",
+    "Pantheon_CEPH_DIST_called_native_clock": "same_object",
+    "c_E_alone_called_length": "dimensional_type",
+    "cmb_temp_called_direct_without_source": "source_owned",
+    "ell_called_Xmax_without_global_completion": "global_completion",
+    "ell_called_Xmax_without_populated_boundary": "populated_boundary",
+    "imported_transfer_called_owned": "bridge_owned",
+    "metric_self_record_called_independent": "independent",
+    "relative_catalog_called_direct": "zero_point_closed",
+    "two_relative_catalogs_called_direct": "zero_point_closed",
+    "zero_weight_normalized_state_called_direct": "nonzero_weight"
+  },
+  "literal_missing_column_semantic_controls": 0,
+  "phrase_anywhere_controls": 0,
+  "rejected_overclaims": 11,
+  "required_criteria_covered": [
+    "bridge_owned",
+    "dimensional_type",
+    "global_completion",
+    "independent",
+    "nonzero_weight",
+    "populated_boundary",
+    "same_object",
+    "source_owned",
+    "zero_point_closed"
+  ],
+  "status": "PASS",
+  "unconditional_true_controls": 0
+}

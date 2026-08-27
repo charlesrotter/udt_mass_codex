@@ -1,0 +1,65 @@
+{
+  "actual_covariance_weighted_rank": {
+    "calibrators": 77,
+    "flow": 1580,
+    "raw_symmetry_defect": 3.0000000000038676e-08,
+    "raw_symmetry_gate_pass": false,
+    "routes": {
+      "lower": {
+        "condition_ratio": 0.0040278216342532185,
+        "determinant": 81244245.20624352,
+        "rank": 2
+      },
+      "mean": {
+        "condition_ratio": 0.004027822363928734,
+        "determinant": 81244260.06283092,
+        "rank": 2
+      },
+      "upper": {
+        "condition_ratio": 0.0040278230936232964,
+        "determinant": 81244274.91980171,
+        "rank": 2
+      }
+    },
+    "rows": 1657
+  },
+  "caveat": "PantheonPlus_identifiability_requires_the_published_distance_ladder_and_a_declared_UDT_operational_distance_or_radiative_transfer_bridge;_it_is_not_a_native_G276_clock_record",
+  "classification": {
+    "DES_Dovekie": "RELATIVE_ONLY",
+    "G276_clock_control": "DIRECT_NONZERO_WEIGHT_ANCHOR",
+    "PantheonPlus_CEPH_DIST": "CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR",
+    "PantheonPlus_relative": "RELATIVE_ONLY",
+    "cmb_temp": "NOT_CURRENTLY_SCALE_TYPED",
+    "two_relative_releases": "RELATIVE_ONLY"
+  },
+  "classification_derived_from_explicit_predicate": true,
+  "classification_facts_derived_from_sources_and_computation": true,
+  "exact_design_ranks": {
+    "calibrator_plus_flow": 2,
+    "cmb_unknown_source": 1,
+    "relative_one": 1,
+    "relative_two_offsets": 2
+  },
+  "fit_performed": false,
+  "implementation_independent": true,
+  "imports_production": false,
+  "pantheon_schema": {
+    "calibrator_rows": 77,
+    "ceph_max": 34.526,
+    "ceph_min": 29.177,
+    "rows": 1701,
+    "unique_calibrator_cids": 43
+  },
+  "reads_production_output": false,
+  "scale_computed": false,
+  "sealed_primary_source_checks": {
+    "calibrates_M": true,
+    "calibrator_flag": true,
+    "calibrator_theory": true,
+    "ceph_distance": true,
+    "cepheid_covariance": true,
+    "temperature_future": true,
+    "thermal_conditional": true
+  },
+  "status": "VERIFIED_WITH_CAVEATS"
+}

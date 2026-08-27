@@ -1,0 +1,16 @@
+{
+  "classification_rows": 8,
+  "fit_performed": false,
+  "hostile_overclaims_rejected": 11,
+  "no_write_artifact_hashes": {
+    "ANCHOR_CLASSIFICATION.tsv": "ca3372502959e4b86b3179183fb1cee1c4dbab95100adc0873115c6abc4bad08",
+    "CATCH_PROOF_RESULT.json": "3ea052ea1db0957318258dc80f3370d20ca89d5b7c99c6847e57368d2f87455d",
+    "COVARIANCE_RANK_AUDIT.tsv": "d35bb2733886641d86e03af44c4a45cb1515f99445445e85f3b58a130875cb61",
+    "DATA_SCHEMA_AUDIT.tsv": "f1a347de3b7684941cdef3bcd09e6a7f285dca971aa4a02b9b1b82f93d2ea372",
+    "DERIVATION_RESULT.json": "325b33d4ae8850998738d94592500ceea3b07a9cbb3d3617c1588f91efc7311b",
+    "INDEPENDENT_VERIFICATION.json": "f4bb5a3fe68ba07e41202831bbd2acdb3c729e190c0120fb3b76cff1532a2c3a"
+  },
+  "scale_computed": false,
+  "source_hashes_verified": 18,
+  "status": "PASS"
+}

@@ -1,0 +1,78 @@
+{
+  "actual_covariance_weighted_rank": {
+    "actual_design_rank": 2,
+    "calibrators": 77,
+    "flow": 1580,
+    "max_eigen_relative_difference": 1.8201574108595377e-07,
+    "max_fisher_relative_difference": 3.052768399046228e-09,
+    "raw_symmetry_defect": 3.0000000000038676e-08,
+    "raw_symmetry_gate_pass": false,
+    "raw_symmetry_threshold": 1e-12,
+    "rows": 1657,
+    "symmetric_routes": {
+      "lower": {
+        "condition_ratio": 0.004027821634253167,
+        "weighted_rank": 2
+      },
+      "mean": {
+        "condition_ratio": 0.0040278223639286835,
+        "weighted_rank": 2
+      },
+      "upper": {
+        "condition_ratio": 0.004027823093623193,
+        "weighted_rank": 2
+      }
+    }
+  },
+  "classification_count": 8,
+  "cmb_typing": {
+    "cmb_temp_status": "OPEN_NO_OWNER",
+    "temperature_sky_status": "CONDITIONAL_FUTURE_MAP",
+    "thermal_parameter_status": "CONDITIONAL_READOUT_ONLY"
+  },
+  "des_schema": {
+    "bias_correction_present": true,
+    "global_nuisance_from_likelihood": true,
+    "release_h0_normalization": 70,
+    "rows": 1820,
+    "varnames": "CID IDSURVEY zHD zHEL MU MUERR MUERR_VPEC MUERR_SYS PROBIA_BEAMS"
+  },
+  "identifiability": {
+    "calibrator_plus_flow_columns": 2,
+    "calibrator_plus_flow_rank": 2,
+    "cmb_unknown_source_columns": 2,
+    "cmb_unknown_source_rank": 1,
+    "one_relative_columns": 2,
+    "one_relative_rank": 1,
+    "two_relative_offsets_columns": 3,
+    "two_relative_offsets_rank": 2,
+    "two_relative_shared_offset_columns": 2,
+    "two_relative_shared_offset_rank": 1
+  },
+  "landing": "PANTHEONPLUS_CEPHEID_HOST_ROUTE_IS_A_CONDITIONAL_ABSOLUTE_SCALE_ATTACHMENT__NOT_A_NATIVE_G276_CLOCK_ANCHOR__PANTHEONPLUS_NONCALIBRATORS_DES_AND_THEIR_RELATIVE_COMBINATION_REMAIN_SCALE_DEGENERATE__CMB_TEMP_IS_NOT_CURRENTLY_SCALE_TYPED__NO_FIT_SCALE_HISTORY_KERNEL_OR_XMAX_SELECTED",
+  "metric_or_kernel_changed": false,
+  "numerical_scale_computed": false,
+  "observational_fit_performed": false,
+  "pantheon_schema": {
+    "calibrator_ceph_dist_max": 34.526,
+    "calibrator_ceph_dist_min": 29.177,
+    "calibrator_rows": 77,
+    "covariance_dimension": 1701,
+    "covariance_payload_entries": 2893401,
+    "noncalibrator_ceph_dist_sentinel": -9.0,
+    "rows": 1701,
+    "unique_calibrator_cids": 43
+  },
+  "sealed_primary_source_checks": {
+    "calibrates_absolute_magnitude": true,
+    "calibrator_flag_semantics": true,
+    "calibrator_theory_assignment": true,
+    "calibrator_uses_ceph_dist": true,
+    "ceph_dist_semantics": true,
+    "cepheid_covariance_semantics": true,
+    "official_mask": true
+  },
+  "source_hashes_verified": 18,
+  "status": "PASS",
+  "xmax_selected": false
+}

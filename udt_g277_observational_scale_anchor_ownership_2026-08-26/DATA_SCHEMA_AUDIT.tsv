@@ -1,0 +1,17 @@
+source	field	value
+PantheonPlus	rows	1701
+PantheonPlus	calibrator_rows	77
+PantheonPlus	unique_calibrator_cids	43
+PantheonPlus	calibrator_ceph_dist_min	29.177
+PantheonPlus	calibrator_ceph_dist_max	34.526
+PantheonPlus	noncalibrator_ceph_dist_sentinel	-9.0
+PantheonPlus	covariance_dimension	1701
+PantheonPlus	covariance_payload_entries	2893401
+DES_Dovekie	rows	1820
+DES_Dovekie	varnames	CID IDSURVEY zHD zHEL MU MUERR MUERR_VPEC MUERR_SYS PROBIA_BEAMS
+DES_Dovekie	release_h0_normalization	70
+DES_Dovekie	global_nuisance_from_likelihood	True
+DES_Dovekie	bias_correction_present	True
+cmb_typing	cmb_temp_status	OPEN_NO_OWNER
+cmb_typing	thermal_parameter_status	CONDITIONAL_READOUT_ONLY
+cmb_typing	temperature_sky_status	CONDITIONAL_FUTURE_MAP
