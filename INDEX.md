@@ -67,6 +67,8 @@
   `udt_g274_projective_pair_position_network_descent_2026-08-26/`—full frame-morphism descent, required screen carry, exact radial Möbius closure;
   `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`—homothety, anchor, and `X_max` boundary;
   `udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/`—proper-clock weight `+1` and `ell=c_E*tau_star/C_bar`.
+- Observational scale attachment: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`—conditional Cepheid/optical ownership boundary;
+  `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`—no-retuning attachment and DES holdout, externally verified but resolution-sensitive.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -75,6 +77,8 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 ## Observational lane
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
+- Scale-anchor ownership and application: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`;
+  `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`
 - Dual-SNe reconstruction: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
 - SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`

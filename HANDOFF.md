@@ -4,9 +4,10 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-26
+## Resume anchor — 2026-08-27
 
-G166--G276 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
+G166--G276 is the active structural spine; G277--G278 are the current observational scale tests. On
+a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
 the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
@@ -49,6 +50,18 @@ Fresh `gpt-5.4` returned `ACCEPT_WITH_REPAIRS` while retaining that science. R1 
 mislabelled unit control with a physical numeric unit relabelling that fixes dimensionless `C_bar`;
 20,000 cases / 320,003 assertions pass. Repair-only follow-up accepted R1 with no remaining defect.
 
+G277 externally accepted the bounded ownership result: the Pantheon+ Cepheid-host route can attach
+an absolute scale only after a declared Cepheid-ladder and optical/operational-distance import.
+Relative Pantheon+, DES, and their relative combination remain scale-degenerate; `cmb_temp` is not
+yet scale-typed.
+
+G278 then applied that declared import to the frozen G236 Pantheon+ state without retuning. Its
+primary conditional lead is `ell=286.2573 +/- 5.1423 Mpc`; the calibrator test and an independent
+DES no-retuning check pass. The exact cross-resolution gate fails across `K=8,12,16,24`, however,
+and a diagnostic confirms that the physical curve—not merely the first-knot label—remains
+resolution-sensitive. External repair-only review accepted R1--R3 and all five replays with no
+remaining defect. Grade: `EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`.
+
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
 
@@ -67,11 +80,12 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-G276 is externally `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED` after preregistration, exact
-derivation, independent 20,000-case / 320,003-assertion verification, hostile controls, all four
-registered replays, and 34/34 manifest checks. No R1 repair remains.
-Do not call `c_E` alone a length, accept a metric-generated clock value as calibration, promote the
-dimensional representative to a universal distance, select a profile/history/population/`X_max`, or
-begin dynamics. No ODE/PDE/GPU solve is authorized. The 260-row registry controls.
+G278 is externally accepted with its bounded science unchanged. Do not select a preferred
+resolution, average or smooth the inferred scales, retune the frozen SNe state or DES, promote the
+conditional `K=12` result to a universal scale, treat the imported optical bridge as derived, or
+select a history/population/`X_max`. The next bounded gate is representation-independent scale
+attachment—or a proof that the current finite-resolution state cannot supply it. The retained CMB
+temperature ratio is a later direct-depth check, not a scale-resolution repair. No ODE/PDE/GPU solve
+is authorized. The 260-row premise registry controls; G277/G278 control the current evidence gate.
 
 <!-- STARTUP_CURRENT_END -->

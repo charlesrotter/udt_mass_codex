@@ -75,6 +75,8 @@
 | G274 projective network descent | external | Full carry; radial Möbius |
 | G275 projective scale attachment | external/R4 accepted | One scale; `X_max` needs completion |
 | G276 proper-clock/`c_E` reconciliation | external/repair accepted | Clock datum fixes scale; bounded landing unchanged |
+| G277 observational anchor ownership | external/repair accepted | Cepheid/optical route conditional; relative SNe scale-degenerate |
+| G278 Cepheid attachment/DES holdout | external/repair accepted | Conditional lead; resolution-independent scale fails |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -98,6 +100,8 @@ None selects completion/`X_max`.
   without selecting values. G257--G276 add GR, sampled values, operator/angle/W4/one-lapse controls,
   signed-end classification, bounded provenance/even-odd channels, the intrinsic-versus-ambient
   null-transport ownership boundary, and the projective coordinate/full-frame descent boundary.
+  G277/G278 then type and test a declared observational attachment without modifying the metric,
+  kernel, or premise registry.
 
 ## Carrier, action, source, and matter
 
@@ -114,7 +118,9 @@ None selects completion/`X_max`.
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G276 are outcome-blind; G258 reuses G237. History/transfer stay open.
+G244--G257 and G259--G276 are outcome-blind; G258 reuses G237. G277 owns only a conditional
+Cepheid/optical route; G278's no-retuning application remains resolution-sensitive. History and
+native transfer ownership stay open.
 
 ## Recurring prohibited promotions
 

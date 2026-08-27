@@ -4,13 +4,14 @@
 
 ## Theory picture
 
-G166--G276: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
+G166--G276 form the active structural spine; G277--G278 are observational scale-attachment tests. A
+supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
 G190--G214 are formula-level regression/off-ray/provenance controls. Exact route tokens:
 G190/G191/G192/G193/G194/G195/G196/G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218.
 G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247.
-G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
+G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278.
 G215--G224 close supplied clocks,
 correspondence, screen, and carry; G225--G231 add transport, phase, curvature, jets, and Cartan;
 G232--G235 reconstruct without selection. G236--G243 are transfer/redshift controls; G244--G248
@@ -37,6 +38,12 @@ segment fixes `ell=c_E*tau_star/C_bar`; `c_E` carries attached time to length. `
 dimensionless projective state, same-weight ratios, and metric self-evaluation remain scale blind.
 The metric/kernel are unchanged; history, operational distance, and `X_max` remain open.
 
+G277 makes the Pantheon+ Cepheid-host route a conditional imported scale attachment, not a native
+clock anchor. G278 applies it without retuning: the primary scale lead and DES holdout pass, but the
+four frozen resolutions disagree and the physical curve remains resolution-sensitive. External
+repair-only review accepts the evidence; the grade is
+`EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`.
+
 G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protected payload.
 `INDEX.md` routes evidence.
 
@@ -55,12 +62,11 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-G276 repair-only external follow-up returned
-`REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`. R1 holds dimensionless `C_bar` fixed in a
-physical numeric unit relabelling and passes 20,000 cases / 320,003 assertions; no R1 repair
-remains. Preserve
-screen/frame carry and path labels; do not call `c_E` alone a length, use metric self-evaluation as
-calibration, or select a profile, history, population, operational distance, or `X_max`.
+G278 repair-only external follow-up returned `ACCEPT`; R1--R3 and five replays pass with no remaining
+defect. The conditional `K=12` value is not a unique scale because the exact resolution gate fails.
+Next determine whether the frozen state has a representation-independent scale statistic; do not
+choose a preferred `K`, average/smooth the disagreement, retune observations, or select a profile,
+history, population, operational distance, or `X_max`.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

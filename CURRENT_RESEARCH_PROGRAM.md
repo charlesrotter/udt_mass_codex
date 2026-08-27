@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-26
+Date: 2026-08-27
 
 `LIVE.md` controls status; the 260-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
@@ -85,8 +85,16 @@ the kernel and does not attach a dimensional scale or select history, population
   self-evaluation, dimensionless projective state, and same-weight ratios remain scale blind.
   External review retained this result with one evidence repair; R1 now keeps dimensionless
   `C_bar` fixed in the unit-relabelling control.
+- G277 classifies observational anchor ownership. Pantheon+ Cepheid hosts can attach an absolute
+  scale only through a declared published-ladder plus optical/operational-distance import; relative
+  SNe and `cmb_temp` do not independently attach that scale.
+- G278 applies that declared import to the frozen G236 Pantheon+ state without retuning. The primary
+  conditional scale and independent DES holdout pass their local gates, but the cross-resolution
+  gate fails and a second diagnostic shows physical-curve resolution sensitivity. External repair-
+  only review accepted R1--R3 and all registered replays without changing the landing.
 
-G206--G276 generate no fitted sector function or `X_max`; `INDEX.md` routes their exact packages.
+G206--G276 generate no fitted sector function or `X_max`; G277/G278 type and test a declared
+observational attachment without changing the metric or kernel. `INDEX.md` routes their exact packages.
 Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Application boundary:
 `udt_g189_p1_free_metric_flux_interface_2026-08-20/`. Earlier chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/`.
@@ -103,7 +111,8 @@ Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Applicatio
   interpretation, one-scale attachment boundary, and proper-clock/`c_E` reconciliation. The actual
   anchor instance, operational-distance
   interpretation, populated-boundary completion, and a nonidentity source/history or two-point value
-  law remain open.
+  law remain open. G277/G278 supply a conditional optical/Cepheid scale experiment, not any of those
+  missing native laws; its current numerical scale remains resolution-sensitive.
 - Events, population, global realization, transfer, source/matter, action, bootstrap, signalling,
   and numerical `X_max` remain open.
 - `d_A(Z)` exists only on monotone, noncaustic pieces of the parametric branch.
@@ -128,10 +137,11 @@ branches; insert `X_max`; or activate protected work.
 
 ## Current next gate
 
-G276 is externally `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED`: the same-segment proper-clock
-datum supplies G275's nonzero-weight anchor and `c_E` carries the attached time into length; `c_E`
-alone and metric
-self-evaluation remain scale blind. R1 is externally accepted after 20,000 cases / 320,003
-assertions; no R1 repair remains. Do not fit a profile,
-select a history/population/operational distance/`X_max`, invent a residual, or start an ODE/PDE/GPU
-solve.
+G278 is externally `ACCEPT` after repair-only verification. A declared Cepheid-ladder plus optical
+bridge conditionally attaches `ell`, and the independent DES holdout passes without retuning, but
+the four frozen representations return inconsistent scales and the physical curve is also
+resolution-sensitive. Determine whether a representation-independent scale statistic follows from
+the frozen relative state, or prove that the current finite-resolution construction is insufficient.
+Do not choose `K`, average/smooth the disagreement, retune either SNe release, promote the optical
+bridge to native UDT, or select a history/operational distance/`X_max`. The CMB-temperature ratio is
+retained only as a later direct-depth check. No ODE/PDE/GPU solve is authorized.

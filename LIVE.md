@@ -1,6 +1,6 @@
 # LIVE — current state only
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-26
+## CURRENT STATE — 2026-08-27
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
 ### Honest claim
@@ -25,7 +25,8 @@ radial Möbius stratum. W5, provisionally owner-adopted by Charles on 2026-08-26
 identifies the complete screen-retaining projective relation state as physical normalized pair
 position. It changes neither the metric nor the reciprocal kernel.
 
-G166--G276 is active. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
+G166--G276 is the active structural spine; G277--G278 are the current observational scale-attachment
+tests. A supplied germ pulls `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair
 Dual Reciprocity is the non-metric `WORKING_FOUNDATIONAL_CLARIFICATION`:
 `m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. The quarter-log scalar is a calibration control;
 events, germs, population, higher/full carry, and global realization remain supplied or `OPEN`.
@@ -76,6 +77,22 @@ scientific landing unchanged. R1 now holds dimensionless `C_bar` fixed under a p
 unit relabelling and passes 20,000 exact-rational cases / 320,003 assertions. Repair-only follow-up
 accepted R1 with no remaining defect.
 
+G277 externally reviewed the available observational anchor types. Pantheon+ Cepheid-host data can
+attach an absolute scale only **conditionally**, after importing the published Cepheid ladder and an
+explicit optical/operational-distance bridge. Pantheon+ noncalibrators, DES, and their relative
+combination remain scale-degenerate; `cmb_temp` is a direct depth check but is not yet an absolute
+scale attachment. No numerical scale, history, metric/kernel change, or `X_max` was selected.
+
+G278 applied that declared Cepheid/optical import to the frozen G236 Pantheon+ relative state without
+retuning. At the primary `K=12` representation it gives the conditional lead
+`ell=286.2573 +/- 5.1423 Mpc`; the calibrator control passes and the independent DES release passes
+its preregistered no-retuning adequacy check (`chi2=1434.5793`, `dof=1623`). But the four frozen
+resolutions give materially different scales (`299.2588`, `286.2573`, `282.3532`, and
+`279.0210 Mpc`), and the exact correlated resolution gate fails. The physical curve itself remains
+resolution-sensitive, so this is an `EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`, not a unique
+scale or history. Fresh repair-only `gpt-5.4` review accepted R1--R3, all five registered replays,
+and the unchanged bounded landing with no remaining defect.
+
 `X_max` remains the open frame-shared positional-dilation asymptote: its limiting meaning does not
 make its value, profile, global realization, or boundary completion derived kernel inputs.
 
@@ -89,7 +106,9 @@ Authority: the 260-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` are verified with caveats; 184,300
 rows remain unresolved and no preferred scale follows. G236--G243 are bounded controls; G244--G257
-and G259--G276 are outcome-blind; G258 reuses only frozen G237, not BOSS. Raw archive:
+and G259--G276 are outcome-blind; G258 reuses only frozen G237, not BOSS. G277 types observational
+anchors; G278 is a conditional Cepheid-scale attachment and DES holdout, not a native scale
+derivation. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. No long solve is running.
 
 ### Protected local work
@@ -103,12 +122,14 @@ Do not stage, modify, delete, mine, or cite without a specific dispatch:
 
 ### Next gate
 
-G276 is externally `REPAIR_ACCEPTED__BOUNDED_G276_LANDING_UNCHANGED` after 22 exact checks, an
-independent 20,000-case / 320,003-assertion exact-rational census, eight hostile controls, all four
-registered replays, and 34/34 sealed-manifest checks. No R1 repair remains. Do not
-call `c_E` alone a length, treat a
-metric-generated clock value as independent calibration, erase screen/frame carry or path labels,
-promote `x=ell*chi` to an operational distance, infer `X_max=ell` without populated-boundary
-completion, or import a profile, history law, observational outcome, or residual. No ODE/PDE or GPU
+G278 is externally accepted after the preregistered R1--R3 repairs and five clean sealed replays.
+Its conditional Cepheid attachment and independent DES holdout are useful leads, but the inferred
+scale fails the preregistered cross-resolution consistency gate and the physical curve remains
+resolution-sensitive. The next bounded question is to determine whether the frozen relative SNe
+state has a representation-independent scale statistic or whether the current finite-resolution
+state is insufficient. Do not choose a preferred `K`, smooth or average the disagreement, retune the
+state or DES, call `286.2573 Mpc` the UDT scale, promote the imported optical bridge to a derivation,
+or infer a history or `X_max`. The retained `3000 K -> 2.725 K` CMB-temperature ratio is a later
+direct-depth check (`phi_T ~= 7.00`), not a repair for the G278 resolution failure. No ODE/PDE or GPU
 solve is authorized.
 <!-- STARTUP_CURRENT_END -->
