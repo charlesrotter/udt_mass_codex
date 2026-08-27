@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "ce_alone_has_no_pure_length_power": true,
+    "ce_carries_attached_time_to_length": true,
+    "clock_length_has_homothety_weight_plus_one": true,
+    "clock_to_position_increment_ratio_is_homothety_invariant": true,
+    "finite_projective_population_does_not_reach_scale_boundary": true,
+    "finite_projective_population_stays_below_scale_boundary": true,
+    "metric_self_evaluation_is_identity": true,
+    "mutual_clock_projection_is_dimensionless": true,
+    "no_history_distance_protocol_or_xmax_selected": true,
+    "no_metric_or_kernel_modification": true,
+    "no_observational_value_inserted": true,
+    "one_positive_clock_record_has_unique_positive_solution": true,
+    "position_representative_uses_recovered_scale": true,
+    "positive_clock_record_is_required": true,
+    "positive_reference_clock_length_is_required": true,
+    "projective_position_is_dimensionless": true,
+    "proper_duration_has_homothety_weight_plus_one": true,
+    "ratio_contains_no_scale": true,
+    "recovered_scale_has_length_unit_structure": true,
+    "sech_tanh_identity_is_scale_free": true,
+    "second_consistent_record_recovers_same_scale": true,
+    "second_inconsistent_record_rejects_one_common_scale": true
+  },
+  "exact_checks": 22,
+  "homothety_weights": {
+    "C_bar": 0,
+    "M": 0,
+    "c_E": 0,
+    "chi": 0,
+    "clock_length": 1,
+    "d_tau_over_d_x": 0,
+    "proper_duration": 1
+  },
+  "landing": "ONE_INDEPENDENT_SAME_SEGMENT_PROPER_CLOCK_RECORD_HAS_HOMOTHETY_WEIGHT_PLUS_ONE__CE_CARRIES_THE_ATTACHED_TIME_TO_A_UNIQUE_LENGTH_SCALE__CE_ALONE_DIMENSIONLESS_PROJECTIVE_STATE_AND_SELF_EVALUATION_ARE_SCALE_BLIND__NO_HISTORY_DISTANCE_PROTOCOL_OR_XMAX_SELECTED",
+  "position_formula": "x = c_E * tau_star * chi / C_bar",
+  "scale_formula": "ell = c_E * tau_star / C_bar",
+  "scope": {
+    "X_max_selected": false,
+    "c_E": "OBSERVED_CLOCK_RULER_CONVERSION",
+    "c_E_numerical_value_derived": false,
+    "clock_record": "SUPPLIED_INDEPENDENT_CALIBRATED_SAME_SEGMENT",
+    "fitted_coefficients": 0,
+    "history_selected": false,
+    "metric_or_kernel_modified": false,
+    "observational_values_used": 0,
+    "operational_distance_selected": false
+  },
+  "selected_alternative": "B__ONE_INDEPENDENT_SAME_SEGMENT_PROPER_CLOCK_RECORD_FIXES_LENGTH_SCALE_AND_CE_CARRIES_IT_TO_POSITION",
+  "status": "PASS"
+}

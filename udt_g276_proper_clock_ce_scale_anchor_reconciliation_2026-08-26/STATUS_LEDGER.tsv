@@ -1,0 +1,14 @@
+object	status	meaning
+proper_clock_homothety_weight	DERIVED_CONDITIONAL	positive same-segment clock length and duration have weight plus one
+scale_formula	DERIVED_CONDITIONAL	ell equals c_E times tau_star divided by C_bar
+c_E	OBSERVED	clock/ruler conversion; numerical value not derived here
+tau_star	SUPPLIED_INDEPENDENT_CALIBRATION	positive record on exact identified timelike segment
+C_bar	SUPPLIED_HISTORY_EVALUATION	dimensionless reference clock length of exact segment
+M_sech_delta	WORKING_PROVISIONAL	dimensionless mutual response and scale blind
+chi_tanh_delta	DERIVED_CONDITIONAL_CHART	dimensionless projective radial state and scale blind
+metric_self_evaluation	CONTROL	identity only and not calibration
+metric_or_kernel_change	FALSE	G276 reconciles prior results without changing either
+history_selection	OPEN	not addressed
+operational_distance	OPEN	not selected
+X_max	OPEN	not selected by scale attachment
+canonization	FALSE	Charles has not canonized this theorem

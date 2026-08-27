@@ -1,0 +1,18 @@
+# G276 evidence gates
+
+| Gate | Result | Evidence |
+|---|---|---|
+| preregistered before outcomes | PASS | commit `e5fddc76` pushed before implementation |
+| exact homothety weight | PASS | `derive_proper_clock_scale.py` |
+| unique positive scale recovery | PASS | exact solve plus 20,000 rational cases |
+| second-anchor consistency | PASS | 20,000 consistent and 20,000 inconsistent controls |
+| independence / same-object enforcement | PASS | 40,000 rejected circular or mismatched records |
+| `c_E` unit audit | PASS | `c_E` alone fails; `c_E tau_*` has length units |
+| scale-blind state controls | PASS | `M`, `chi`, and same-weight ratios invariant |
+| independent implementation | PASS | no production import or output read |
+| hostile mutations | PASS | 6 implementation + 2 typed-scope catches |
+| no-write replay | PASS | three registered scripts plus package verifier |
+| premise audit | PASS | 259-row authority verified before banking |
+| external adversarial review | NOT RUN | requires separate authorization |
+
+Maximum grade before external review: `VERIFIED-WITH-CAVEATS`.

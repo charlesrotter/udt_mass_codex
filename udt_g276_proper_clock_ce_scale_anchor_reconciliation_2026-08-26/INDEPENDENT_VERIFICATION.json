@@ -1,0 +1,16 @@
+{
+  "X_max_selected": false,
+  "arithmetic": "fractions.Fraction exact rational",
+  "cases": 20000,
+  "exact_assertions": 300003,
+  "history_selected": false,
+  "inconsistent_records_rejected": 20000,
+  "landing": "ONE_INDEPENDENT_SAME_SEGMENT_PROPER_CLOCK_RECORD_HAS_HOMOTHETY_WEIGHT_PLUS_ONE__CE_CARRIES_THE_ATTACHED_TIME_TO_A_UNIQUE_LENGTH_SCALE__CE_ALONE_DIMENSIONLESS_PROJECTIVE_STATE_AND_SELF_EVALUATION_ARE_SCALE_BLIND__NO_HISTORY_DISTANCE_PROTOCOL_OR_XMAX_SELECTED",
+  "observational_values_used": 0,
+  "operational_distance_selected": false,
+  "production_imported": false,
+  "production_output_read": false,
+  "same_segment_mismatches_rejected": 20000,
+  "self_evaluations_rejected": 20000,
+  "status": "PASS"
+}

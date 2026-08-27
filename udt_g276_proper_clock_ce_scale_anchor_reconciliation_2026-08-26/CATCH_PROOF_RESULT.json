@@ -1,0 +1,65 @@
+{
+  "catches": {
+    "automatic_xmax_from_attached_scale_caught": true,
+    "ce_alone_length_caught": true,
+    "dimensionless_projective_state_sets_scale_caught": true,
+    "mismatched_segment_caught": true,
+    "nonpositive_clock_caught": true,
+    "per_anchor_scale_proliferation_caught": true,
+    "ratio_dtau_dx_sets_scale_caught": true,
+    "self_evaluation_anchor_caught": true
+  },
+  "implementation_mutations_caught": 6,
+  "mutation_ledger": [
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "self_evaluation_anchor"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "mismatched_segment"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "nonpositive_clock"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "per_anchor_scale_proliferation"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "ce_alone_length"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "implementation",
+      "mutant_rejected": true,
+      "name": "dimensionless_projective_state_sets_scale"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "typed_scope",
+      "mutant_rejected": true,
+      "name": "ratio_dtau_dx_sets_scale"
+    },
+    {
+      "baseline_passed": true,
+      "kind": "typed_scope",
+      "mutant_rejected": true,
+      "name": "automatic_xmax_from_attached_scale"
+    }
+  ],
+  "status": "PASS",
+  "typed_scope_catches_passed": 2
+}
