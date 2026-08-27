@@ -347,6 +347,9 @@ def validate_startup_surface(root: Path) -> None:
             "W5",
             "G275",
             "G276",
+            "G277",
+            "G278",
+            "G279",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -493,6 +496,9 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g274_projective_pair_position_network_descent_2026-08-26/",
             "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/",
             "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/",
+            "udt_g277_observational_scale_anchor_ownership_2026-08-26/",
+            "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/",
+            "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -589,6 +595,9 @@ def validate_startup_surface(root: Path) -> None:
             "G274",
             "G275",
             "G276",
+            "G277",
+            "G278",
+            "G279",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -685,6 +694,9 @@ def validate_startup_surface(root: Path) -> None:
             "G274",
             "G275",
             "G276",
+            "G277",
+            "G278",
+            "G279",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -13035,7 +13047,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

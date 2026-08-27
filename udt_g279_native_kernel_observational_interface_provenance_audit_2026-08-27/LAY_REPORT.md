@@ -1,6 +1,6 @@
 # G279 lay report
 
-The kernel passed the audit so far.
+The kernel passed the bounded provenance audit.
 
 The simplest picture is that there are three layers:
 
@@ -21,7 +21,9 @@ the angular channel.
 
 One label in the initial G278 ledger was too broad: it suggested the newer projective W5 position
 was part of the numerical SNe calculation. It was not. That row and the G279 overview map are now
-repaired. This is a documentation correction, not a physics change.
+repaired. This is a documentation correction, not a physics change. The repair-only external
+reviewer accepted both corrections, reproduced all six saved results exactly, and found no change
+to the scientific conclusion.
 
 So the honest current state is: the reciprocal kernel is intact; the observational bridge is
 clearly imported; and the unresolved problem is whether the downstream SNe area curve can be made

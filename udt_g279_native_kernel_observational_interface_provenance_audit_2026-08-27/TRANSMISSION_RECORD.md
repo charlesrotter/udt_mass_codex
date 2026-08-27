@@ -30,3 +30,24 @@ The reviewer verified all 57 payload hashes, reran all six registered commands i
 copy, and obtained bit-identical durable outputs. It found no hidden scientific scaffold or import
 and retained the bounded landing. It requested two documentation-consistency repairs: correct the
 G278 premise ledger's W5 usage flags and move W5 out of the main G279 G278 chain in `MAP.md`.
+
+## Repair-only follow-up
+
+- path: `/tmp/udt_g279_review_y8dcax1v`;
+- total files: 63;
+- manifest payloads: 61;
+- `REVIEW_SCOPE.json` SHA-256:
+  `edf7475f448226279356823f2f3a9bb1770d068c89d65f0f7799f5cf53accddb`;
+- `REVIEW_MANIFEST.tsv` SHA-256:
+  `9f1d4afda4cca8073c8a3e10320214267753c37e17761fde97cfc8db0ef9d180`;
+- `REVIEW_MANIFEST.sha256` SHA-256:
+  `03c1d5f47f17b1ae0a3a59e7b20ed9b66d7183db8ad5de567c94f6b194a9b22`;
+- raw response: `/tmp/udt_g279_repair_external.TLIpNe/return/EXTERNAL_REPAIR_FOLLOWUP.md`;
+- raw response SHA-256:
+  `a7d018e75682aff865e675cae54d83ab10ace3a142d2285c67fe26f9e5107c0d`;
+- verdict: `REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`.
+
+An initial sandbox launch was stopped before any verdict because NumPy and SymPy were absent. The
+same sealed intake was then relaunched with those host libraries mounted read-only; neither the
+evidence nor the review scope changed. The successful reviewer verified all 61 payload hashes,
+reran all six registered checks bit-for-bit, accepted R1/R2, and found no remaining scoped defect.

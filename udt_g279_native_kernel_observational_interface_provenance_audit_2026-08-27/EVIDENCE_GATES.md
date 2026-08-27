@@ -11,11 +11,11 @@
 | Import subtraction | PASS | 9 cases in `SUBTRACTION_RESULT.json` |
 | Independent implementation | PASS | no production imports or stored results; 109,549 assertions |
 | Premise registry | PASS | 260-row verifier |
-| Repository tests | BLOCKED_MECHANICAL | 180 pass, 1 known xfail; `LIVE.md` exceeds word cap |
+| Repository tests | PASS | 184 passed, 1 known xfail; startup surface within all limits |
 | Fresh blind adversarial review | ACCEPT_WITH_REPAIRS | all 57 payloads and six replays verified; landing retained |
-| R1/R2 repair-only follow-up | PENDING | corrected sealed intake and explicit user authorization required |
+| R1/R2 repair-only follow-up | PASS | all 61 payloads and six bit-identical replays verified; no defect |
 
-Current grade: `EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_IMPLEMENTED_AWAITING_FOLLOWUP`.
+Current grade: `EXTERNAL_REPAIRS_ACCEPTED__ALL_FOUR_GATES_CLOSED`.
 
-No final positive provenance verdict is banked until the pending repair-only and mechanical gates
-close.
+The bounded science and repository mechanics are externally and locally closed. This remains a
+source-bounded provenance result, not canonization or observational-scale selection.

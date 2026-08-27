@@ -45,6 +45,7 @@ def main() -> None:
         "TRANSMISSION_RECORD.md",
         "REPAIR_PREREGISTRATION.md",
         "REPAIR_FOLLOWUP_REQUEST.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
         "DEPENDENCY_LEDGER.tsv",
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
@@ -113,11 +114,14 @@ def main() -> None:
     assert "W1 terminal pair readout and W5" not in map_text
 
     report = (PACKAGE / "AUDIT_REPORT.md").read_text()
-    assert "R1_R2_IMPLEMENTED_AWAITING_REPAIR_ONLY_FOLLOWUP" in report
+    assert "EXTERNAL_REPAIRS_ACCEPTED" in report
     assert "Source-bounded provenance only" in report
+    followup = (PACKAGE / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+    assert "REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED" in followup
+    assert "No remaining defect" in followup
     print(
         "PASS: 31 frozen sources; 12 typed edges; 109549 independent assertions; "
-        "9 subtractions; 16 hostile catches; G279 R1/R2 implemented awaiting repair-only follow-up"
+        "9 subtractions; 16 hostile catches; G279 R1/R2 externally accepted"
     )
 
 

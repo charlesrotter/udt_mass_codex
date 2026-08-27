@@ -6,72 +6,50 @@
 
 ## Resume anchor — 2026-08-27
 
-G166--G276 is the active structural spine; G277--G278 are the current observational scale tests. On
-a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
-the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
-`c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
-`WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
-functions, population, higher/full carry, and global realization remain supplied or `OPEN`.
+G166--G276 is the active structural spine; G277--G279 control the current observational interface.
+On a supplied germ, the primary metric's `B,Q,S,Y,Z` orchestra enters `h=F^*g` before readout.
+Founded depth gives `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not a signal-speed
+theorem. Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`:
+`m=T L_sigma=sqrt(-det h_sigma)`, `Phi=-log T`. Events, functions, population, higher/full carry,
+history, and global realization remain supplied or `OPEN`.
 
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clocks, correspondence, screen,
-and carry; G225/G226 add geometric transport/phase; G227/G228/G229/G230/G231 close supplied
-curvature/jets/Cartan; G232/G233/G234/G235 reconstruct without selecting values.
-G236/G237/G238/G239/G240 freeze/type conditional observations; G241/G242/G243 retain direct
-`phi=log(1+z)` within bounded controls; G244/G245/G246/G247/G248 remain branchwise, not populated.
+G190--G198 are chosen-family/formula-level regression controls; G197 excludes P1, G116/G189, fits,
+`X_max`, scaffolds, and protected construction inputs. Compact structural route:
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock/correspondence/carry;
+G225/G226/G227/G228/G229/G230/G231 add transport/phase/curvature/jets/Cartan;
+G232/G233/G234/G235 reconstruct without selecting;
+G236/G237/G238/G239/G240/G241/G242/G243 freeze/type conditional observations and direct redshift;
+G244/G245/G246/G247/G248 remain branchwise;
+G249/G250/G251/G252/G253/G254/G255/G256 isolate scale and exclude scaffolds;
+G257/G258/G259/G260/G261/G262/G263/G264 preserve GR-active angular balance and sign scope;
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276 derive bounded-state,
+screen/projective/frame, homothety, and conditional clock-scale structure without history selection.
 
-G249/G250/G251/G252 isolate one scale and its supplied clock attachment. G253 excludes P1,
-G116/G189, fits, `X_max`, outcomes, and protected construction inputs; G254/G255/G256 find no
-history/lost law and leave `N-1` values. G257/G258 retain GR-active angular balance and twelve
-conditional SNe states. G259/G260 leave the operator open but forbid angular deletion; G261 accepts
-one-metric W4 provisionally; G262/G263/G264 join the one-lapse hierarchy and prove sign nonselection.
+W5 provisionally identifies complete screen-retaining projective relation state as physical
+normalized pair position. It is not canon, a dimensional distance, or a kernel change. G275 leaves
+one positive homothety; G276 attaches it only conditionally through an independent clock record and
+`c_E`. History, populated boundary, operational distance, and `X_max` remain open.
 
-G265 retypes infinite-bare-`c` provenance; G266 derives `cosh/sinh`; G267 retains provisional
-`(M,chi)=(sech(delta),tanh(delta))`; G268 proves it nonselective. G269 derives
-`1/M_PT=cosh(delta)+(exp(-delta)/2)||W||^2`; G270 shows intrinsic normalization does not select
-ambient `W`. G271 splits one metric first jet; G272 gives the complete open-ball state; G273 gives
-scoped projective uniqueness and W5 supplies its working physical-position interpretation. G274
-requires full path-labelled frame carry, retains radial Möbius closure, and does not prove path
-independence. History, population, dynamics, and `X_max` remain open.
+G277 types the Cepheid-ladder/optical bridge as explicit observational imports. G278 applies them
+without retuning: its conditional scale and independent DES check pass at `K=12`, but the four
+frozen resolutions disagree in both curve and scale. Grade:
+`EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`.
 
-G275 proves within the constant-homothety arena that W5 normalized projective position and the full
-frame morphism are scale invariant. One matched independent same-object datum of known nonzero
-weight fixes the one remaining positive scale and additional anchors must agree. `x=ell*chi`
-retains active screen/frame carry and is only a conditional dimensional representative. `ell`
-becomes `X_max` only after a separately owned physical relation population approaches the
-projective boundary and a global completion is supplied.
-
-G276 externally reviewed the G252/G275 reconciliation. The proper-clock channel on one exact
-identified positive
-timelike segment has homothety weight `+1`; one independent calibrated clock record fixes
-`ell=c_E*tau_star/C_bar`, after which `c_E` carries time into length and `x=ell*chi`. `c_E` alone,
-metric self-evaluation, dimensionless `sech/tanh`, and same-weight ratios do not fix the scale. No
-metric/kernel change, history, operational-distance, or `X_max` selection occurred.
-Fresh `gpt-5.4` returned `ACCEPT_WITH_REPAIRS` while retaining that science. R1 replaces the one
-mislabelled unit control with a physical numeric unit relabelling that fixes dimensionless `C_bar`;
-20,000 cases / 320,003 assertions pass. Repair-only follow-up accepted R1 with no remaining defect.
-
-G277 externally accepted the bounded ownership result: the Pantheon+ Cepheid-host route can attach
-an absolute scale only after a declared Cepheid-ladder and optical/operational-distance import.
-Relative Pantheon+, DES, and their relative combination remain scale-degenerate; `cmb_temp` is not
-yet scale-typed.
-
-G278 then applied that declared import to the frozen G236 Pantheon+ state without retuning. Its
-primary conditional lead is `ell=286.2573 +/- 5.1423 Mpc`; the calibrator test and an independent
-DES no-retuning check pass. The exact cross-resolution gate fails across `K=8,12,16,24`, however,
-and a diagnostic confirms that the physical curve—not merely the first-knot label—remains
-resolution-sensitive. External repair-only review accepted R1--R3 and all five replays with no
-remaining defect. Grade: `EXTERNALLY_VERIFIED__RESOLUTION_SENSITIVE_LEAD`.
-
-G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
-controls. Route G199--G214 through `INDEX.md`.
+G279 now closes the provenance question at its bounded ceiling. Fresh and repair-only external
+`gpt-5.4` reviews verified all payload hashes and six bit-identical replays. The retained landing is
+`NATIVE_CORE_INTACT__DECLARED_IMPORT_BOUNDARY_INTACT__G278_SENSITIVITY_DOWNSTREAM__W5_NOT_LOAD_BEARING_FOR_G278`.
+No fitted/scaffolded kernel, post-readout orchestra, Lambda-CDM distance, `X_max`, or protected
+package executes in G236/G278. Transfer, finite representation, Cepheid attachment, and DES
+normalization remain declared downstream imports. W5 and the angular/Jacobi route remain independent
+siblings, not discarded physics.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/`,
-`archive/startup_surface_2026-08-21_pre_g197/`, and `archive/startup_surface_2026-08-22_pre_cleanup/`.
-The displaced G267-era active wording is at `archive/startup_surface_2026-08-26_pre_g270/`.
+`CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
+`archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-22_pre_cleanup/`, and
+`archive/startup_surface_2026-08-26_pre_g270/`.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -80,12 +58,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-G278 is externally accepted with its bounded science unchanged. Do not select a preferred
-resolution, average or smooth the inferred scales, retune the frozen SNe state or DES, promote the
-conditional `K=12` result to a universal scale, treat the imported optical bridge as derived, or
-select a history/population/`X_max`. The next bounded gate is representation-independent scale
-attachment—or a proof that the current finite-resolution state cannot supply it. The retained CMB
-temperature ratio is a later direct-depth check, not a scale-resolution repair. No ODE/PDE/GPU solve
-is authorized. The 260-row premise registry controls; G277/G278 control the current evidence gate.
+Next: determine whether the frozen SNe state has a representation-independent scale statistic, or
+prove it insufficient. Do not select/average/smooth `K`, retune observations, promote imported
+transfer or optical distance, or select history/population/`X_max`. The CMB-temperature ratio is a
+later direct-depth check. No ODE/PDE/GPU solve is authorized.
 
 <!-- STARTUP_CURRENT_END -->

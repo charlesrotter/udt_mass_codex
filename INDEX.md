@@ -1,8 +1,11 @@
 # INDEX — `LIVE.md` wins.
-1. Follow `AGENTS.md` rules. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
-3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
-5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
-6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query relevant rows.
+1. Follow `AGENTS.md`.
+2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
+3. Read `CURRENT_RESEARCH_PROGRAM.md`.
+4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
+5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
+6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+7. After orientation, query only load-bearing rows and evidence.
 ## Active relational frontier
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
@@ -58,17 +61,13 @@
   `udt_g263_pair_reversal_profile_sign_parity_2026-08-25/`; `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`;
   `udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/`; `udt_g266_covariant_mutual_pair_even_channel_ownership_2026-08-26/`;
   `udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/`
-- Bounded mutual-state closure: `udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/`—exact finite reparameterization, no value/history selection;
-  `udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/`—independent metric null-transport evaluator and sharp `sech` bound;
-  `udt_g270_completed_pair_transported_screen_ownership_2026-08-26/`—full supplied realization evaluates `W`, intrinsic pullback does not select it.
-- Projective pair-position route: `udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/`—one metric gradient splits depth/screen first jets;
-  `udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/`—complete transported open-ball state, planar signed stratum;
-  `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/`—scoped projective uniqueness and unadopted physical-position clarification;
-  `udt_g274_projective_pair_position_network_descent_2026-08-26/`—full frame-morphism descent, required screen carry, exact radial Möbius closure;
-  `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`—homothety, anchor, and `X_max` boundary;
-  `udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/`—proper-clock weight `+1` and `ell=c_E*tau_star/C_bar`.
-- Observational scale attachment: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`—conditional Cepheid/optical ownership boundary;
-  `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`—no-retuning attachment and DES holdout, externally verified but resolution-sensitive.
+- Bounded state: `udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/`;
+  `udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/`; `udt_g270_completed_pair_transported_screen_ownership_2026-08-26/`.
+- Projective position: `udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/`; `udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/`;
+  `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/`; `udt_g274_projective_pair_position_network_descent_2026-08-26/`;
+  `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`; `udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/`.
+- Observational/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`; `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`;
+  `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
@@ -77,8 +76,8 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 ## Observational lane
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
-- Scale-anchor ownership and application: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`;
-  `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`
+- Scale/provenance: `udt_g277_observational_scale_anchor_ownership_2026-08-26/`; `udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/`;
+  `udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/`
 - Dual-SNe reconstruction: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`
 - SNe channel control: `udt_g185_completed_pair_sne_channel_necessity_replay_2026-08-20/`
 - Static flux boundary: `udt_g189_p1_free_metric_flux_interface_2026-08-20/`
@@ -110,12 +109,9 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 ## Matter/stability lane
-Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; it preserves plural conditional mass-from-geometry branches. For topology begin with
-`native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
+Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without explicit authority.
 ## Archives
-Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`,
-`archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-17_pre_zoomout/`, and `archive/startup_surface_2026-08-14/`.
-G218 disposition: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`.
+G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.

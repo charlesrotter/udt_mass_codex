@@ -96,12 +96,9 @@ None selects completion/`X_max`.
 
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class; metricity is not dynamics.
-- G212--G243 evaluate/reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale
-  without selecting values. G257--G276 add GR, sampled values, operator/angle/W4/one-lapse controls,
-  signed-end classification, bounded provenance/even-odd channels, the intrinsic-versus-ambient
-  null-transport ownership boundary, and the projective coordinate/full-frame descent boundary.
-  G277/G278 then type and test a declared observational attachment without modifying the metric,
-  kernel, or premise registry.
+- G212--G243 reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale; G257--G276 add
+  GR/projective/frame controls. G277/G278 test a declared observational attachment. None selects
+  values/history or modifies the metric, kernel, or premise registry.
 
 ## Carrier, action, source, and matter
 
@@ -133,14 +130,6 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 260-row authority; conflicts stop.
-
-Run:
-
-```bash
-python3 verify_current_scientific_premises.py
-```
-
-Query TSV rows when load-bearing. Archive:
-`archive/startup_surface_2026-08-17_pre_zoomout/` and
-`archive/startup_surface_2026-08-26_pre_g270/`.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 260-row authority; conflicts stop. Run
+`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing. Archives:
+`archive/startup_surface_2026-08-17_pre_zoomout/` and `archive/startup_surface_2026-08-26_pre_g270/`.

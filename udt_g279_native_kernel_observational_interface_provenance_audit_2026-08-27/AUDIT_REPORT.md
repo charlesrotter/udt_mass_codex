@@ -2,15 +2,14 @@
 
 Date: 2026-08-27
 
-## Provisional local landing
+## Final bounded landing
 
 ```text
 NATIVE_CORE_INTACT
 __DECLARED_IMPORT_BOUNDARY_INTACT
 __G278_RESOLUTION_SENSITIVITY_IS_DOWNSTREAM_OF_THE_KERNEL
 __W5_AND_ANGULAR_SIBLINGS_ARE_NOT_G278_EXECUTABLE_DEPENDENCIES
-__EXTERNAL_ACCEPT_WITH_REPAIRS
-__R1_R2_IMPLEMENTED_AWAITING_REPAIR_ONLY_FOLLOWUP
+__EXTERNAL_REPAIRS_ACCEPTED
 ```
 
 ## What the audit found
@@ -75,15 +74,15 @@ moves W5 out of the main G279 G278 arrow and displays it as a separate working s
 - 16/16 hostile provenance mutations caught, including both documentary regressions;
 - 9/9 dependency-subtraction cases passed;
 - the 260-row current premise registry passed;
-- repository suite: 180 passed, 1 known xfail, 1 unrelated startup-surface word-limit failure
-  (`LIVE.md` 1,024 words versus the 900-word bound), to be repaired when G279 becomes the startup
-  gate.
+- repository suite: 184 passed, 1 known xfail; all active startup documents satisfy their bounded
+  readability limits.
 
 ## Interpretation
 
 Fresh external `gpt-5.4` review returned `ACCEPT_WITH_REPAIRS`, reproduced every registered output
 bit-for-bit, found no hidden scientific scaffold, and retained the landing. Its two documentary
-repairs are implemented and await repair-only follow-up.
+repairs were implemented. The sealed repair-only follow-up verified all 61 payload hashes, reran all
+six registered checks bit-for-bit, accepted R1/R2, and found no remaining scoped defect.
 
 This is a successful no-scaffold audit at its bounded source ceiling. It does not say every current
 object is founded at the same grade. F4 remains a declared readout, W1 and W5 remain working
