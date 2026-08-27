@@ -20,8 +20,9 @@ control. It does not claim an all-repository or all-possible-law theorem.
 independently checked by a standard-library RK4 implementation that imports no production module:
 512 randomized cases and 3,584 assertions passed. The fresh sealed external reviewer accepted this
 mathematics and the bounded scientific landing. Seven in-memory claim-schema mutations were also
-rejected; this guard does not mutate or replay evidence artifacts. The reviewer's sole requested
-wording repair has been applied and awaits repair-only follow-up verification.
+rejected. This guard does not mutate or replay evidence files, derivation code, or source-census
+artifacts and is not an artifact-level mutation replay. The reviewer's sole requested wording
+repair has been applied and awaits repair-only follow-up verification.
 
 ## 4. Premise audit
 
