@@ -92,6 +92,7 @@ def main() -> None:
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
+        "build_review_intake.py",
         "derive_projective_scale_attachment.py",
         "run_catch_proofs.py",
         "verify_package.py",

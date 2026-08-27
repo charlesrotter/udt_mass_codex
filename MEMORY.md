@@ -4,47 +4,33 @@
 
 ## Theory picture
 
-G166--G274: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
+G166--G275: a supplied germ gives the `B,Q,S,Y,Z` pullback. Completed-pair Dual Reciprocity fixes
 `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`; it is provisional, not metric-derived or canon.
 
-G190--G198 are chosen-family formula-level regression/off-ray controls. G197/G198/G199/G200/G201/
-G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214 cover provenance, two-direction
-geometry, quiet/regular completion, channels, state, rank, and descent.
+G190--G214 are formula-level regression/off-ray/provenance controls. Exact route tokens:
+G190/G191/G192/G193/G194/G195/G196/G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218.
+G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247.
+G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275.
+G215--G224 close supplied clocks,
+correspondence, screen, and carry; G225--G231 add transport, phase, curvature, jets, and Cartan;
+G232--G235 reconstruct without selection. G236--G243 are transfer/redshift controls; G244--G248
+remain branchwise. G249--G252 isolate one scale and its supplied attachment; G253--G256 remove
+scaffolds and find no value-propagation law.
 
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock, correspondence, null plane,
-screen, and carry. G225/G226 add geometric screen transport and phase. G227/G228/G229/G230/G231
-close supplied curvature/jets/Cartan evaluation; G232/G233/G234/G235 reconstruct without selecting.
+G257--G264 retain GR-active angular balance, W4, the one-lapse hierarchy, and sign nonselection.
+G265--G268 retype infinite-bare-`c`, derive `cosh/sinh`, retain provisional
+`(M,chi)=(sech(delta),tanh(delta))`, and prove that bounded state nonselective. G269 derives
+`M_PT<=sech(delta)`; G270 shows intrinsic normalization does not select ambient `W`.
 
-G236/G237/G238/G239/G240 are transfer controls; G241/G242/G243 retain direct
-`phi=log(1+z)`. G244/G245/G246/G247/G248 give branchwise sky geometry. G249/G250/G251/G252 type
-scale attachment. G253 removes scaffold inputs; G254 finds no history residual; G255 no lost value
-law; G256 leaves `N-1` values without propagation.
+G271 splits one metric first jet; G272 gives the complete open-ball state; G273 gives scoped
+projective uniqueness. W5 provisionally identifies the complete screen-retaining projective state
+as physical normalized position, not canon or a kernel change. G274 requires full path-labelled
+frame carry, refutes vector-only nonradial composition, and retains radial Möbius closure.
 
-G257 retains an imported bounded GR comparison with active angular balance. G258 reconstructs
-twelve conditional SNe states up to one scale. G259's operator class stays unowned; G260 forbids
-angular deletion. G261 provisionally accepts one-metric W4 without dynamics. G262 derives a
-one-lapse clock/acceleration/mass-aspect/angular hierarchy, not physical mass. G263 separates pair
-reversal from profile conjugation; G264 proves sign alone nonselective. G265 retypes proposed
-infinite-bare-`c` null-delay provenance without selecting a profile. G266 derives the supplied-pair
-`Gamma=cosh(delta)`, `Xi=sinh(delta)` interlock; `sech(delta)`, distance, and history remain open.
-G267 externally accepts provisional `(M,chi)=(sech(delta),tanh(delta))` as an exact bounded pair
-state, not a unique derivation, distance, population, history, or canon.
-
-G268 proves that bounded state is an exact nonselective presentation of the finite reciprocal
-relation space. G269 derives an independent metric-owned, query-relative null-transport mutual
-clock scalar with `M_PT<=sech(delta)`. G270 proves intrinsic completed-pair normalization does not
-select the transported-screen mismatch `W`; a full supplied realization evaluates it, while
-population, history, distance, and `X_max` remain open.
-
-G271 derives the local metric-gradient split into longitudinal depth and transverse transported-
-screen first jets. G272 derives the complete transported rapidity/open-ball state and keeps signed
-`tanh(delta)` as the exact planar stratum. G273 derives `tanh(delta)` uniquely only in the declared
-scale-free linear-fractional projective class; its physical-position interpretation remains an
-unadopted candidate clarification in that review. W5 is now provisionally owner-adopted: physical
-normalized pair position is the complete screen-retaining projective relation state, not canon and
-not a metric/kernel change. G274 proves exact full path-labelled frame-morphism descent,
-refutes vector-only nonradial composition, requires screen/frame carry, and retains exact radial
-Möbius closure. Scale, history, population, path independence, and `X_max` remain open.
+G275 proves that constant homothety leaves W5 normalized position and the full frame morphism
+unchanged. One matched independent nonzero-weight datum fixes the single positive scale; further
+anchors test it. `x=ell*chi` retains screen/frame carry. Identifying `ell` with `X_max` still needs
+an owned populated approach to the projective boundary and global completion.
 
 G176 stays provisional. G197 excludes P1, G116/G189, fits, `X_max`, and protected payload.
 `INDEX.md` routes evidence.
@@ -64,10 +50,9 @@ preferred scale follows. Raw archive:
 
 ## Next gate
 
-W5 is provisionally adopted. G275 is preregistered to test constant homothety, one-anchor dimensional
-scale attachment, and the independent population/completion requirement for `X_max`. Preserve
-screen/frame carry and path labels; do not select a profile, history, population, `X_max`, or start
-an ODE/PDE/GPU solve.
+G275 is internally verified with caveats. The next gate is fresh external adversarial review of the
+homothety/anchor theorem and the retained `ell` versus `X_max` separation. Preserve screen/frame
+carry and path labels; do not select a profile, history, population, `X_max`, or start dynamics.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Chronology:
 `archive/startup_surface_2026-08-17_pre_zoomout/` and

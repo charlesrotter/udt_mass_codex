@@ -2,8 +2,7 @@
 1. Follow `AGENTS.md` rules. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only task-triggered `.claude/skills/*/SKILL.md` files.
-6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation,
-query task-relevant registry rows.
+6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query relevant rows.
 ## Active relational frontier
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
@@ -13,12 +12,9 @@ query task-relevant registry rows.
 - Equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
 - Matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
 - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
-  `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`;
-  `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
-- Provenance/germ: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`;
-  `udt_g198_bidirectional_null_germ_map_2026-08-21/`
-- Two-direction results: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`;
-  `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
+  `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`; `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
+- Provenance/germ: `udt_g197_native_kernel_provenance_and_startup_integrity_audit_2026-08-21/`; `udt_g198_bidirectional_null_germ_map_2026-08-21/`
+- Two-direction: `udt_g199_primary_metric_bidirectional_radial_null_2026-08-21/`; `udt_g200_primary_metric_bidirectional_nonradial_null_2026-08-21/`
 - Regime/quiet/regularity: `udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/`;
   `udt_g202_quiet_overlap_profile_anchor_classification_2026-08-21/`;
   `udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/`;
@@ -49,31 +45,27 @@ query task-relevant registry rows.
 - Observational state/typing: `udt_g236_dual_sne_relational_state_reconstruction_2026-08-23/`;
   `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`; `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Held-out operators: `udt_g239_metric_reference_projected_point_process_operator_2026-08-23/`; `udt_g240_metric_null_image_cluster_census_2026-08-23/`
-- SNe controls: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`; `udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`; `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`—history/source unselected.
+- SNe controls: `udt_g241_sne_anchored_native_tidal_bridge_2026-08-23/`; `udt_g242_sne_exact_quiet_subfamily_anchor_2026-08-24/`; `udt_g243_reciprocal_sne_radial_spline_freeze_2026-08-24/`
 - Sky/null chain: `udt_g244_metric_native_observer_sky_response_query_2026-08-24/`; `udt_g245_metric_owned_observer_null_cone_field_2026-08-24/`; `udt_g246_two_observer_null_incidence_descent_2026-08-24/`;
-  `udt_g247_global_null_branch_network_descent_2026-08-24/`; `udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`—branchwise `r/A`; aggregation/population/history open.
+  `udt_g247_global_null_branch_network_descent_2026-08-24/`; `udt_g248_metric_regular_branch_measure_ownership_2026-08-24/`
 - Scale/attachment: `udt_g249_reciprocal_angular_absolute_scale_ownership_2026-08-24/`;
-  `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`—no native datum owner;
-  `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`—one clock attachment fixes `ell` conditionally;
-  `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`—compression; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`—no owned history residual; reduced/GPU solve gated.
-- `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`—no lost closure;
-  `udt_g256_primary_state_value_closure_rank_2026-08-25/`—rank `N-1`, no propagation residual;
-  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`—GR control
-  (`WORKING/POSIT`; no parent law);
-  `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`—12 sampled states, one scale;
-  `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`—conditional Einstein-class fork; R1--R3 externally accepted;
-  `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`—active cancellation; `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`—W4 ownership;
-  `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`—hierarchy, mass/history open; `udt_g263_pair_reversal_profile_sign_parity_2026-08-25/`—reversal versus conjugation;
-  `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`—sign nonselection, conditional alpha-two threshold; packaging accepted with runtime caveat;
-  `udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/`—null-delay identity and signed/even channel separation;
-  `udt_g266_covariant_mutual_pair_even_channel_ownership_2026-08-26/`—`cosh/sinh`; `udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/`—bounded state, distance/history open.
+  `udt_g250_absolute_scale_anchor_type_ownership_2026-08-24/`; `udt_g251_same_object_metric_attachment_ownership_2026-08-24/`; `udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/`;
+  `udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/`; `udt_g254_complete_timelive_solver_closure_audit_2026-08-24/`
+- G255--G267: `udt_g255_g165_g254_lost_closure_recovery_audit_2026-08-24/`; `udt_g256_primary_state_value_closure_rank_2026-08-25/`;
+  `udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/`; `udt_g258_redshift_area_inverse_metric_reconstruction_2026-08-25/`;
+  `udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/`; `udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/`;
+  `udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/`; `udt_g262_reciprocal_clock_acceleration_mass_aspect_xmax_bridge_2026-08-25/`;
+  `udt_g263_pair_reversal_profile_sign_parity_2026-08-25/`; `udt_g264_negative_phi_native_selectivity_classification_2026-08-25/`;
+  `udt_g265_infinite_bare_c_mutual_pair_null_closure_2026-08-26/`; `udt_g266_covariant_mutual_pair_even_channel_ownership_2026-08-26/`;
+  `udt_g267_sech_mutual_clock_projection_consequence_classification_2026-08-26/`
 - Bounded mutual-state closure: `udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/`—exact finite reparameterization, no value/history selection;
   `udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/`—independent metric null-transport evaluator and sharp `sech` bound;
   `udt_g270_completed_pair_transported_screen_ownership_2026-08-26/`—full supplied realization evaluates `W`, intrinsic pullback does not select it.
 - Projective pair-position route: `udt_g271_primary_metric_null_screen_first_jet_interlock_2026-08-26/`—one metric gradient splits depth/screen first jets;
   `udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/`—complete transported open-ball state, planar signed stratum;
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/`—scoped projective uniqueness and unadopted physical-position clarification;
-  `udt_g274_projective_pair_position_network_descent_2026-08-26/`—full frame-morphism descent, required screen carry, exact radial Möbius closure.
+  `udt_g274_projective_pair_position_network_descent_2026-08-26/`—full frame-morphism descent, required screen carry, exact radial Möbius closure;
+  `udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/`—W5 homothety invariance, one-anchor scale attachment, and retained populated-boundary requirement for `X_max`.
 ## Durable prerequisites
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`

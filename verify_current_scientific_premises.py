@@ -161,6 +161,35 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
+_FROZEN_GIT_SOURCE_CACHE: dict[tuple[str, str], bytes] = {}
+
+
+def frozen_git_source_bytes(relative: str, expected_sha256: str) -> bytes:
+    """Resolve exact historical source bytes by content hash without rewriting history."""
+
+    key = (relative, expected_sha256)
+    if key in _FROZEN_GIT_SOURCE_CACHE:
+        return _FROZEN_GIT_SOURCE_CACHE[key]
+    revisions = subprocess.run(
+        ["git", "log", "--format=%H", "--", relative],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.splitlines()
+    for revision in revisions:
+        frozen = subprocess.run(
+            ["git", "show", f"{revision}:{relative}"],
+            cwd=ROOT,
+            capture_output=True,
+            check=False,
+        )
+        if frozen.returncode == 0 and hashlib.sha256(frozen.stdout).hexdigest() == expected_sha256:
+            _FROZEN_GIT_SOURCE_CACHE[key] = frozen.stdout
+            return frozen.stdout
+    raise SystemExit(f"historical source hash not found: {relative} {expected_sha256}")
+
+
 def replay_package_with_current_registry_rows_removed(
     package: Path,
     removed_ids: tuple[str, ...],
@@ -168,7 +197,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     removed_ids = tuple(
-        dict.fromkeys(("W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(("G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -187,6 +216,8 @@ def replay_package_with_current_registry_rows_removed(
                     require(len(matches) == 1, f"ephemeral registry removal count changed: {premise_id}")
                     lines = [line for line in lines if not line.startswith(prefix)]
                 payload = b"".join(lines)
+            elif hashlib.sha256(payload).hexdigest() != row["sha256"]:
+                payload = frozen_git_source_bytes(row["path"], row["sha256"])
             destination = root / row["path"]
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_bytes(payload)
@@ -251,7 +282,7 @@ def validate_startup_surface(root: Path) -> None:
             "B,Q,S,Y,Z",
             "phi_pair",
             "c_eff",
-            "G166--G274",
+            "G166--G275",
             "G197",
             "G215",
             "G216",
@@ -358,7 +389,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "258-row exact registry",
+            "259-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -459,6 +490,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g272_complete_relation_rapidity_distance_ownership_2026-08-26/",
             "udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/",
             "udt_g274_projective_pair_position_network_descent_2026-08-26/",
+            "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -473,7 +505,7 @@ def validate_startup_surface(root: Path) -> None:
         ),
         "MEMORY.md": (
             "B,Q,S,Y,Z",
-            "G166--G274",
+            "G166--G275",
             "G197",
             "G198",
             "G199",
@@ -553,6 +585,7 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "G275",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -647,6 +680,7 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "G275",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -735,11 +769,12 @@ def validate_startup_surface(root: Path) -> None:
             "G272",
             "G273",
             "G274",
+            "G275",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "258-row",
+            "259-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1100,9 +1135,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 258, "premise registry must contain exactly 258 rows")
+    require(len(rows) == 259, "premise registry must contain exactly 259 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 258, "duplicate premise id")
+    require(len(by_id) == 259, "duplicate premise id")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -1142,10 +1177,104 @@ def main() -> None:
     for source in g275_sources:
         source_path = ROOT / source["path"]
         require(source_path.is_file(), f"G275 source missing: {source['path']}")
+        payload = source_path.read_bytes()
+        if hashlib.sha256(payload).hexdigest() != source["sha256"]:
+            frozen = subprocess.run(
+                ["git", "show", f"c42da02d:{source['path']}"],
+                cwd=ROOT,
+                capture_output=True,
+                check=False,
+            )
+            require(frozen.returncode == 0, f"G275 frozen source unavailable: {source['path']}")
+            payload = frozen.stdout
         require(
-            hashlib.sha256(source_path.read_bytes()).hexdigest() == source["sha256"],
+            hashlib.sha256(payload).hexdigest() == source["sha256"],
             f"G275 preregistered source hash changed: {source['path']}",
         )
+    g275_row = by_id["G275"]
+    require(
+        g275_row["current_status"].startswith(
+            "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW__PREREGISTERED"
+        ),
+        "G275 bounded internal grade changed",
+    )
+    require(g275_row["epistemic_label"] == "MIXED", "G275 label changed")
+    require(
+        g275_row["active_use"]
+        == "ACTIVE_BOUNDED_CONSTANT_HOMOTHETY_ONE_SCALE_ATTACHMENT_AND_XMAX_SEPARATION_THEOREM_AFTER_W5_ON_SUPPLIED_COMPLETE_DIMENSIONLESS_HISTORY_AND_REGULAR_PATH_LABELLED_RELATIONS_ONLY",
+        "G275 active scope widened",
+    )
+    require(
+        g275_row["controlling_source"]
+        == "udt_g275_projective_position_scale_attachment_xmax_separation_2026-08-26/AUDIT_REPORT.md",
+        "G275 controlling source changed",
+    )
+    for token in (
+        "W5_PROJECTIVE_POSITION_AND_FULL_FRAME_MORPHISM_CONSTANT_HOMOTHETY_INVARIANT",
+        "ONE_MATCHED_INDEPENDENT_SAME_OBJECT_DATUM_OF_KNOWN_NONZERO_HOMOTHETY_WEIGHT_FIXES_SINGLE_POSITIVE_SCALE",
+        "DIMENSIONFUL_X_EQUALS_ELL_CHI_RETAINS_ACTIVE_SCREEN_AND_FULL_FRAME_CARRY",
+        "XMAX_EQUALS_ELL_ONLY_AFTER_SEPARATELY_OWNED_POPULATED_PROJECTIVE_BOUNDARY_APPROACH_AND_GLOBAL_COMPLETION",
+        "340006_INDEPENDENT_EXACT_ASSERTIONS",
+    ):
+        require(token in g275_row["current_status"], f"G275 guard absent: {token}")
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "verify_package.py",
+    ):
+        require((g275 / name).is_file(), f"G275 evidence missing: {name}")
+    g275_production = json.loads((g275 / "DERIVATION_RESULT.json").read_text())
+    g275_independent = json.loads((g275 / "INDEPENDENT_VERIFICATION.json").read_text())
+    g275_catches = json.loads((g275 / "CATCH_PROOF_RESULT.json").read_text())
+    g275_verification = json.loads((g275 / "VERIFICATION_RESULT.json").read_text())
+    g275_landing = (
+        "W5_PROJECTIVE_POSITION_IS_HOMOTHETY_INVARIANT__"
+        "ONE_MATCHED_NONZERO_WEIGHT_ANCHOR_FIXES_ONE_DIMENSIONAL_SCALE__"
+        "DIMENSIONFUL_REPRESENTATIVE_RETAINS_FULL_FRAME_CARRY__"
+        "XMAX_EQUALS_SCALE_ONLY_AFTER_SEPARATELY_OWNED_POPULATED_BOUNDARY_COMPLETION"
+    )
+    require(
+        g275_production["status"] == g275_independent["status"] == g275_catches["status"] == "PASS"
+        and g275_production["landing"] == g275_independent["landing"] == g275_landing
+        and g275_production["exact_checks"] == 26
+        and all(g275_production["checks"].values()),
+        "G275 production landing changed",
+    )
+    require(
+        g275_independent["production_imported"] is False
+        and g275_independent["production_output_read"] is False
+        and g275_independent["cases"] == 20000
+        and g275_independent["exact_assertions"] == 340006
+        and g275_independent["active_screen_cases"] == 20000
+        and g275_independent["carry_separators"] == 20000,
+        "G275 independent census changed",
+    )
+    require(
+        g275_catches["implementation_mutations_caught"] == 6
+        and g275_catches["typed_scope_catches_passed"] == 2
+        and all(g275_catches["catches"].values()),
+        "G275 hostile catch ledger changed",
+    )
+    require(
+        g275_verification["status"] == "PASS"
+        and g275_verification["landing"] == g275_landing
+        and g275_verification["grade"] == "VERIFIED_WITH_CAVEATS__PENDING_EXTERNAL_REVIEW"
+        and g275_verification["no_write_replays"] == 3,
+        "G275 package verification changed",
+    )
+    g275_replay = subprocess.run(
+        [sys.executable, str(g275 / "verify_package.py"), "--no-write"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(g275_replay.returncode == 0, "G275 no-write package replay failed")
     require(
         by_id["G196"]["current_status"].startswith(
             "EXTERNALLY_REVIEWED_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__PREREGISTERED"
@@ -12713,7 +12842,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275-preregistered startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

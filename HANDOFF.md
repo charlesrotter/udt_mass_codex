@@ -6,71 +6,38 @@
 
 ## Resume anchor — 2026-08-26
 
-G166--G274 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
+G166--G275 is active. On a **supplied** pair germ the primary metric's `B,Q,S,Y,Z` orchestra enters
 the pair metric before readout. Founded depth gives `phi_pair=delta` and conditional
 `c_eff/c_E=exp(-2 delta)`, not a signal-speed theorem. Completed-pair Dual Reciprocity is a
 `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events,
 functions, population, higher/full carry, and global realization remain supplied or `OPEN`.
 
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock, correspondence, null
-plane, screen, and carry. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`; G226 adds phase.
-G227/G228/G229/G230/G231 close supplied curvature, jets, and Cartan realization;
-G232/G233/G234/G235 reconstruct but do not select values or history.
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clocks, correspondence, screen,
+and carry; G225/G226 add geometric transport/phase; G227/G228/G229/G230/G231 close supplied
+curvature/jets/Cartan; G232/G233/G234/G235 reconstruct without selecting values.
+G236/G237/G238/G239/G240 freeze/type conditional observations; G241/G242/G243 retain direct
+`phi=log(1+z)` within bounded controls; G244/G245/G246/G247/G248 remain branchwise, not populated.
 
-G236/G237 freeze conditional SNe state; G238/G239/G240 type its held-out operator. G241 rejects
-degrees 2--4, G242 only exact zero tide, and G243 retains `phi=log(1+z)`. G244/G245/G246/G247/G248
-derive branchwise sky/cone/incidence/coarea, not population, aggregation, or history.
+G249/G250/G251/G252 isolate one scale and its supplied clock attachment. G253 excludes P1,
+G116/G189, fits, `X_max`, outcomes, and protected construction inputs; G254/G255/G256 find no
+history/lost law and leave `N-1` values. G257/G258 retain GR-active angular balance and twelve
+conditional SNe states. G259/G260 leave the operator open but forbid angular deletion; G261 accepts
+one-metric W4 provisionally; G262/G263/G264 join the one-lapse hierarchy and prove sign nonselection.
 
-G249 leaves one scale; G250 types anchors; G251 finds no native datum owner; G252 attaches
-`ell=tau_star/bar_tau` only after an independent clock. G253 compresses direct redshift, its
-metric/Jacobi sibling, and optional units without P1, G116/G189, fits, `X_max`, outcomes, or
-protected construction inputs. G254 finds no history residual; G255 no lost value law; G256 leaves
-`N-1` values and reconstructs radial jets without propagating them.
+G265 retypes infinite-bare-`c` provenance; G266 derives `cosh/sinh`; G267 retains provisional
+`(M,chi)=(sech(delta),tanh(delta))`; G268 proves it nonselective. G269 derives
+`1/M_PT=cosh(delta)+(exp(-delta)/2)||W||^2`; G270 shows intrinsic normalization does not select
+ambient `W`. G271 splits one metric first jet; G272 gives the complete open-ball state; G273 gives
+scoped projective uniqueness and W5 supplies its working physical-position interpretation. G274
+requires full path-labelled frame carry, retains radial Möbius closure, and does not prove path
+independence. History, population, dynamics, and `X_max` remain open.
 
-G257 makes W3 `WORKING/POSIT`; imported GR gives bounded `f=1+C/r` with active angular balance, not
-a UDT parent law. G258 reconstructs twelve conditional SNe states up to one scale. G259's operator
-class remains unowned; G260 requires full-metric active angular cancellation. G261 provisionally
-accepts W4 one-metric semantics without changing F1--F4 or selecting dynamics. G262 joins the
-one-lapse clock/acceleration/mass-aspect/curvature/angular hierarchy; physical mass and history stay
-open. G263 separates pair reversal from profile conjugation. G264 proves sign alone nonselective;
-its alpha-two and alpha-six thresholds are conditional.
-
-G265 shows proposed infinite bare `c` retypes radial-null-delay provenance but selects no profile;
-signed `exp(plus/minus delta)` and even `cosh(delta)` differ. G266 derives
-`Gamma=cosh(delta)`, `Xi=sinh(delta)` on a supplied G220 relation; composition needs both.
-`sech(delta)` is unadopted, areal radius is invariant, `ds=dR` is free, and distance/history remain
-open.
-
-G267 externally accepts with no repairs the provisional bounded state
-`M=sech(delta)`, `chi=tanh(delta)`. It closes exact two-channel composition and quiet/loud/loud
-behavior, not uniqueness, canon, distance scale, query population, or history.
-
-G268 proves the open semicircle is an exact nonselective reparameterization of every finite regular
-reciprocal relation and network; the compact endpoints are only a partial nongroup closure. G269
-then derives an independent metric-owned scalar on a supplied affine null relation,
-`M_PT=1/[-g(P_AB U_A,U_B)]`, with
-`1/M_PT=cosh(delta)+(exp(-delta)/2)||W||^2` and equality to `sech(delta)` exactly when `W=0`.
-G270 proves completed-pair Dual Reciprocity normalizes only the intrinsic pullback: the same
-intrinsic pair metric can occur with different ambient transported-screen mismatch. A full supplied
-realization evaluates `W`; it is not a fit coefficient, but no universal `W`, population, history,
-distance, or `X_max` is selected.
-
-G271 derives a local first-jet interlock: one primary-metric gradient splits into longitudinal depth
-and transverse transported-screen channels on a supplied smooth static history and null germ, with
-exact radial and quiet strata. G272 packages the complete transported rapidity/open-ball state;
-signed `chi=tanh(delta)` remains the exact oriented planar stratum, while active screen state makes
-`delta` alone incomplete.
-
-G273 finds that founding intent owns `separation -> reciprocal response`, but not a unique distance
-function. `tanh(delta)` is unique only inside the normalized scale-free linear-fractional projective
-class; a weaker bounded class admits a counterattachment. The full screen-retaining open-ball vector
-is metric-native on a supplied transported relation. Its physical-position interpretation was open
-in G273 and is now provisionally owner-adopted as W5: physical normalized pair position is the
-complete projective relation state. W5 is not canon and changes neither metric nor kernel.
-
-G274 proves exact full path-labelled frame-morphism composition, reversal, and overlap descent. The
-projective vector is a valid pair coordinate but not a standalone nonradial composition law: screen/
-frame carry is required. Radial Möbius composition remains exact; path independence is not derived.
+G275 proves within the constant-homothety arena that W5 normalized projective position and the full
+frame morphism are scale invariant. One matched independent same-object datum of known nonzero
+weight fixes the one remaining positive scale and additional anchors must agree. `x=ell*chi`
+retains active screen/frame carry and is only a conditional dimensional representative. `ell`
+becomes `X_max` only after a separately owned physical relation population approaches the
+projective boundary and a global completion is supplied.
 
 G197 excludes historical inputs; G190--G198 remain chosen-family or formula-level regression
 controls. Route G199--G214 through `INDEX.md`.
@@ -90,11 +57,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-W5 is adopted provisionally. G275 is preregistered to classify constant homothety, one-anchor scale
-attachment, and the separate global conditions required before any dimensional supremum can be
-called `X_max`. Do not erase screen/frame carry or path labels, promote the vector to a universal
-nonradial composition law, or select a profile, history, population, `X_max`, dynamics, observation,
-or canon. No ODE/PDE/GPU solve is authorized.
-The 258-row registry controls.
+G275 is internally verified with caveats. Next, obtain fresh external adversarial review of its
+constant-homothety proof, one-anchor theorem, active-screen/frame-carry retention, and `ell` versus
+`X_max` boundary. Do not promote the dimensional representative to a universal distance, select a
+profile/history/population/`X_max`, or begin dynamics. No ODE/PDE/GPU solve is authorized.
+The 259-row registry controls.
 
 <!-- STARTUP_CURRENT_END -->

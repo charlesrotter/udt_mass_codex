@@ -11,10 +11,10 @@
 | Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
-| Pair-clock/state network | G215--G274 | Carry, GR, W4, mass-aspect, transport, projective coordinate, and frame descent | Dynamics/history/aggregation |
+| Pair-clock/state network | G215--G275 | Carry, GR, W4, mass-aspect, transport, projective coordinate, frame descent, and one-scale attachment | Dynamics/history/aggregation |
 | UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
-| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete screen-retaining projective relation state; owner-adopted 2026-08-26 | Dimensional scale; distance protocols; history/population; `X_max` |
+| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state; owner-adopted 2026-08-26 | Scale; distance; history/population; `X_max` |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
 | Projective pair coordinate | `DERIVED` in declared class / exact radial stratum | `chi=tanh(phi_pair)` plus screen-retaining open-ball vector | Physical-position adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
@@ -25,56 +25,56 @@
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
 | G129--G165 controls | accepted with caveats | Recover `g`; no `X_max` input |
-| G166--G175 pair chain | accepted with caveats | Pullback/reversal/calibration; germ supplied |
-| G176--G180 completed pair | conditional; accepted | Ruler selected; no history |
-| G181--G184 strata/equivalence | conditional; accepted | Summaries do not identify |
-| G185--G189 boundary | accepted with caveats | Transfer/P1 conditional |
-| G190--G198 | accepted with caveats | Chosen families |
-| G199/G200/G201 direction/jets | verified w/caveats | No chirality; jets matter |
-| G202/G203/G204/G205 quiet/completion | verified w/caveats | Alternatives survive |
-| G206/G207/G208/G209/G210 channels | external w/caveats | Channels differ |
-| G211/G212 basis/history bridge | verified w/caveats | Rank two; flow open |
-| G213--G214 rank/descent | accepted | Tuples retain rank ten |
-| G215--G217 clock chain | external w/caveats | Scalar, rate, first jet; germ open |
-| G218/G219 correspondence | verified | Relation type unselected |
-| G220/G221 null chord | external after repairs | Coframe slope; tangent/phase open |
-| G222/G223/G224 plane/carry | external after repairs | Screen/clock/scalar; gluing open |
-| G225/G226 screen/phase | external after repairs | Holonomy/phase; transport/population open |
-| G227/G228 curvature data | exact | Ranks 19/20, Bianchi 60; no values/history |
-| G229/G230 metric jets | exact | Compatible 3/4-jets; no field/history |
-| G231 Cartan bridge | conditional | Regional integration; law/values open |
-| G232/G233/G234/G235 closure | external after repairs | Finite-order; network nonselective |
-| G236/G237 SNe state | external | Shape/covariance; no law |
-| G238/G239/G240 held-out query | external after repair | Typing/operator/census; inputs open |
-| G241/G242/G243 radial controls | external | Reject carriers/zero tide; retain turning/no-freeze |
-| G244--G248 sky/measure | external | Cone/branches/`r/A`; population/history open |
-| G249 scale boundary | external after repairs | Dimensionless response; one anchor remains |
-| G250 anchor types | external after repairs | Anchor fixes scale; history unselected |
-| G251 attachment ownership | external after repairs | No native datum owner |
-| G252 proper-clock attachment | external after repairs | Clock fixes `ell`; another tests history |
-| G253 native-kernel compression | external after repair | No scaffold input |
-| G254 solver closure | external | No residual; ODE/GPU gated |
-| G255 lost-closure recovery | external; no findings | No lost value law |
-| G256 primary-state value rank | external after R2 | `N-1` values; tomography; no propagation |
-| G257 GR quiet embedding | external; no findings | `f=1+C/r`; active angular balance |
-| G258 sampled inverse metric | external/R1 accepted | `12` states; one scale; no law |
-| G259 parent-operator fork | external repairs accepted | Nonzero conditional Einstein zero set; fork unselected |
-| G260 GR-quiet angular non-discard | external after R1 | Active cancellation; radial-only vacuity; no parent law |
-| G261 W4 ownership | external repairs accepted | One metric; unchanged form; operator class unowned |
-| G262 clock/mass-aspect bridge | external repairs accepted | One-lapse hierarchy; physical mass/history open |
-| G263 reversal/sign parity | external repairs accepted | Pair reversal differs from profile conjugation; no sector selected |
-| G264 negative-`phi` selectivity | external packaging accepted with runtime caveat | Sign nonselective; alpha-two conditional; history open |
-| G265 infinite-bare-`c`/mutuality | external repairs accepted | Null-delay identity; signed/even distinct; rate/history open |
-| G266 even-channel ownership | external repairs accepted | `cosh/sinh`; `sech`, distance, history open |
-| G267 `sech` consequences | external; no repairs | Bounded `(M,chi)`; not unique/distance/history |
-| G268 bounded relation equivalence | external repairs accepted | Exact finite presentation; no value/history selection |
-| G269 null-transport mutual clock | external; no repairs | Metric-owned query evaluator; `M_PT<=sech(delta)` |
-| G270 transported-screen ownership | external repairs accepted | Full realization evaluates `W`; intrinsic pullback does not select it |
-| G271 null-screen first-jet interlock | external repairs accepted | One metric gradient feeds longitudinal and transverse jets; finite path open |
-| G272 complete relation rapidity | external; no repairs | Complete open-ball magnitude; signed `tanh(delta)` is planar stratum |
-| G273 projective distance ownership | external; no repairs | Scoped projective uniqueness; adoption was open at review and is now supplied by W5 |
-| G274 projective network descent | external; no repairs | Full morphisms descend; vector-only nonradial composition refuted; radial Möbius exact |
-
+| G166--G175 pair chain | accepted/caveats | Pullback; germ supplied |
+| G176--G180 completed pair | conditional/accepted | No history |
+| G181--G184 strata/equivalence | conditional/accepted | Nonidentifying summaries |
+| G185--G189 boundary | accepted/caveats | Transfer/P1 conditional |
+| G190--G198 | accepted/caveats | Chosen families |
+| G199/G200/G201 direction/jets | verified/caveats | No chirality |
+| G202/G203/G204/G205 quiet/completion | verified/caveats | Alternatives survive |
+| G206/G207/G208/G209/G210 channels | external/caveats | Channels differ |
+| G211/G212 basis/history bridge | verified/caveats | Flow open |
+| G213--G214 rank/descent | accepted | Rank ten |
+| G215--G217 clock chain | external/caveats | Germ open |
+| G218/G219 correspondence | verified | Type unselected |
+| G220/G221 null chord | external/repaired | Tangent open |
+| G222/G223/G224 plane/carry | external/repaired | Gluing open |
+| G225/G226 screen/phase | external/repaired | Population open |
+| G227/G228 curvature data | exact | No values/history |
+| G229/G230 metric jets | exact | No field/history |
+| G231 Cartan bridge | conditional | Law open |
+| G232/G233/G234/G235 closure | external/repaired | Nonselective |
+| G236/G237 SNe state | external | No law |
+| G238/G239/G240 held-out query | external/repaired | Inputs open |
+| G241/G242/G243 radial controls | external | Bounded negatives |
+| G244--G248 sky/measure | external | Population open |
+| G249 scale boundary | external/repaired | One anchor remains |
+| G250 anchor types | external/repaired | Scale conditional |
+| G251 attachment ownership | external/repaired | No datum owner |
+| G252 proper-clock attachment | external/repaired | Clock fixes `ell` |
+| G253 native-kernel compression | external/repaired | No scaffold |
+| G254 solver closure | external | No residual |
+| G255 lost-closure recovery | external | No lost law |
+| G256 primary-state value rank | external/R2 | `N-1`; no propagation |
+| G257 GR quiet embedding | external | Active balance |
+| G258 sampled inverse metric | external/R1 | `12` states; one scale |
+| G259 parent-operator fork | external/repaired | Fork unselected |
+| G260 GR-quiet angular non-discard | external/R1 | Active cancellation |
+| G261 W4 ownership | external/repaired | Operator unowned |
+| G262 clock/mass-aspect bridge | external/repaired | Mass/history open |
+| G263 reversal/sign parity | external/repaired | No sector selected |
+| G264 negative-`phi` selectivity | external/packaging | Sign nonselective |
+| G265 infinite-bare-`c`/mutuality | external/repaired | Signed/even distinct |
+| G266 even-channel ownership | external/repaired | Distance/history open |
+| G267 `sech` consequences | external | Not unique |
+| G268 bounded relation equivalence | external/repaired | Nonselective |
+| G269 null-transport mutual clock | external | `M_PT<=sech(delta)` |
+| G270 transported-screen ownership | external/repaired | Full realization evaluates `W` |
+| G271 null-screen first-jet interlock | external/repaired | Finite path open |
+| G272 complete relation rapidity | external | Open-ball state |
+| G273 projective distance ownership | external | W5 later adopts interpretation |
+| G274 projective network descent | external | Full carry; radial Möbius |
+| G275 projective scale attachment | internal/caveats | One scale; `X_max` needs completion |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -90,13 +90,12 @@ None selects completion/`X_max`.
 | Base channel balance | `DERIVED` bounded | `B+(2)` composition permits changing ratios; screen/mixing law open |
 | Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4`; not physical history |
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
-
 ## Geometry, query, and causality
 
 - The kernel takes an ordered pair, not a path. Pullbacks and the bivector area bilinear recover `g`;
   scalars stop at positive conformal class; metricity is not dynamics.
 - G212--G243 evaluate/reconstruct; G244/G245/G246/G247/G248 type branches; G249--G256 type scale
-  without selecting values. G257--G274 add GR, sampled values, operator/angle/W4/one-lapse controls,
+  without selecting values. G257--G275 add GR, sampled values, operator/angle/W4/one-lapse controls,
   signed-end classification, bounded provenance/even-odd channels, the intrinsic-versus-ambient
   null-transport ownership boundary, and the projective coordinate/full-frame descent boundary.
 
@@ -112,11 +111,10 @@ None selects completion/`X_max`.
 | Native source | `OPEN` | Geometric response/current roles do not supply source substance |
 | Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
-
 ## Observational boundary
 
 R2--R5 are `OBSERVED` with caveats and select no scale or `X_max`. G236--G243 are controls;
-G244--G257 and G259--G274 are outcome-blind; G258 reuses G237. History/transfer stay open.
+G244--G257 and G259--G275 are outcome-blind; G258 reuses G237. History/transfer stay open.
 
 ## Recurring prohibited promotions
 
@@ -129,7 +127,7 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is 258-row authority; conflicts stop.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is 259-row authority; conflicts stop.
 
 Run:
 
