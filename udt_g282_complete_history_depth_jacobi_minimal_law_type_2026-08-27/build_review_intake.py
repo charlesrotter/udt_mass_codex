@@ -53,7 +53,7 @@ def main() -> None:
             raise FileNotFoundError(source)
         if sha256(source) != row["sha256"] or str(source.stat().st_size) != row["bytes"]:
             raise AssertionError(f"source provenance changed: {relative}")
-        target = destination / "sources" / relative
+        target = destination / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
 
