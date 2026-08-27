@@ -141,12 +141,18 @@ def main() -> None:
         require(ell * F(9, 10) < ell)
         require(ell * F(9, 10) != ell)
 
-        # Scaling the units of both clock quantities does not change ell.
-        unit = F(rng.randint(1, 17), rng.randint(1, 13))
+        # Physically faithful numeric unit relabelling. C_bar is dimensionless
+        # and fixed; c_E, tau_star, and the reported length scale transform.
+        length_unit = F(rng.randint(1, 17), rng.randint(1, 13))
+        time_unit = F(rng.randint(1, 19), rng.randint(1, 11))
         unit_changed = replace(
-            first, c_bar=unit * first.c_bar, tau_star=unit * first.tau_star
+            first,
+            c_bar=first.c_bar,
+            tau_star=time_unit * first.tau_star,
+            c_e=(length_unit / time_unit) * first.c_e,
         )
-        require(recover(unit_changed) == ell)
+        require(unit_changed.c_bar == first.c_bar)
+        require(recover(unit_changed) == length_unit * ell)
 
     require(inconsistent_records_rejected == CASES)
     require(self_evaluations_rejected == CASES)

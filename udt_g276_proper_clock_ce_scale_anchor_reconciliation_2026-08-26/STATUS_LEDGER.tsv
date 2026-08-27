@@ -12,3 +12,5 @@ history_selection	OPEN	not addressed
 operational_distance	OPEN	not selected
 X_max	OPEN	not selected by scale attachment
 canonization	FALSE	Charles has not canonized this theorem
+external_review	ACCEPT_WITH_REPAIRS	bounded science retained; one evidence-control repair requested
+repair_R1	IMPLEMENTED_FOLLOWUP_PENDING	physical unit relabelling fixes dimensionless C_bar and transforms recovered ell as a length

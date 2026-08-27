@@ -16,10 +16,14 @@ exact checks: 22
 python3 verify_proper_clock_scale_independent.py
 status: PASS
 cases: 20,000
-exact assertions: 300,003
+exact assertions: 320,003
 production imported: false
 production output read: false
 ```
+
+The repaired unit-relabelling control holds dimensionless `C_bar` fixed, transforms `tau_star` and
+`c_E` with independent positive rational time/length unit factors, and recovers the corresponding
+length-unit transformation of `ell` in every case.
 
 ## Hostile controls
 

@@ -1,9 +1,9 @@
 {
-  "grade": "VERIFIED-WITH-CAVEATS",
+  "grade": "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING",
   "implementation_mutations_caught": 6,
   "inconsistent_records_rejected": 20000,
   "independent_cases": 20000,
-  "independent_exact_assertions": 300003,
+  "independent_exact_assertions": 320003,
   "landing": "ONE_INDEPENDENT_SAME_SEGMENT_PROPER_CLOCK_RECORD_HAS_HOMOTHETY_WEIGHT_PLUS_ONE__CE_CARRIES_THE_ATTACHED_TIME_TO_A_UNIQUE_LENGTH_SCALE__CE_ALONE_DIMENSIONLESS_PROJECTIVE_STATE_AND_SELF_EVALUATION_ARE_SCALE_BLIND__NO_HISTORY_DISTANCE_PROTOCOL_OR_XMAX_SELECTED",
   "no_write_replays": 3,
   "production_checks": 22,

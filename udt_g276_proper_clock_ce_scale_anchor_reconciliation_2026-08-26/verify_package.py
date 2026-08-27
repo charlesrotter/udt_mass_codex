@@ -84,11 +84,15 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "EVIDENCE_GATES.md",
         "EXACT_DERIVATION.md",
+        "EXTERNAL_REVIEW.md",
         "INDEPENDENT_VERIFICATION.json",
         "LAY_REPORT.md",
         "MAP.md",
         "PREMISE_LEDGER.tsv",
         "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
+        "REVIEW_TRANSMISSION_RECORD.md",
         "RUN_RECORD.md",
         "SOURCE_MANIFEST.tsv",
         "STATUS_LEDGER.tsv",
@@ -114,7 +118,7 @@ def main() -> None:
     assert independent["production_imported"] is False
     assert independent["production_output_read"] is False
     assert independent["cases"] == 20_000
-    assert independent["exact_assertions"] == 300_003
+    assert independent["exact_assertions"] == 320_003
     assert independent["inconsistent_records_rejected"] == 20_000
     assert independent["self_evaluations_rejected"] == 20_000
     assert independent["same_segment_mismatches_rejected"] == 20_000
@@ -131,7 +135,9 @@ def main() -> None:
     replay("run_catch_proofs.py")
 
     report = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
-    assert "VERIFIED-WITH-CAVEATS" in report
+    assert "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING" in report
+    assert "ACCEPT_WITH_REPAIRS" in report
+    assert "R1_IMPLEMENTED" in report
     assert "do not fix" in report
     assert "not canon" in report
     forbidden = (
@@ -149,14 +155,14 @@ def main() -> None:
         "source_rows": len(sources),
         "production_checks": 22,
         "independent_cases": 20_000,
-        "independent_exact_assertions": 300_003,
+        "independent_exact_assertions": 320_003,
         "inconsistent_records_rejected": 20_000,
         "self_evaluations_rejected": 20_000,
         "same_segment_mismatches_rejected": 20_000,
         "implementation_mutations_caught": 6,
         "typed_scope_catches_passed": 2,
         "no_write_replays": 3,
-        "grade": "VERIFIED-WITH-CAVEATS",
+        "grade": "EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING",
     }
     rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
     if args.no_write:

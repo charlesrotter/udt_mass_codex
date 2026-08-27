@@ -4,7 +4,7 @@ Date: 2026-08-26
 
 ## Landing
 
-`VERIFIED-WITH-CAVEATS`
+`EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING`
 
 One independently calibrated positive proper-clock record on the exact modeled timelike segment
 has homothety weight \(+1\) and conditionally fixes G275's single remaining scale:
@@ -23,10 +23,15 @@ has homothety weight \(+1\) and conditionally fixes G275's single remaining scal
 - Preregistration was committed and pushed at `e5fddc76` before implementation.
 - The production derivation passed 22 exact symbolic and typed checks.
 - An implementation-distinct standard-library verifier passed 20,000 exact-rational cases and
-  300,003 assertions without importing production code or reading production output.
+  320,003 assertions without importing production code or reading production output.
 - It rejected 20,000 inconsistent second records, 20,000 metric-generated self-records, and 20,000
   same-segment identity mismatches.
 - Eight hostile controls passed: six implementation mutations and two typed-scope overclaims.
+- Fresh external `gpt-5.4` returned `ACCEPT_WITH_REPAIRS`, explicitly retaining the scientific
+  landing. Its sole repair identified that an old unit-relabelling control incorrectly rescaled
+  dimensionless `C_bar`.
+- Preregistered R1 now holds `C_bar` fixed and independently transforms the numeric length and time
+  units; the recovered scale transforms exactly with the length unit in all 20,000 cases.
 - No observational values, fits, new kernel mechanisms, metric modifications, history, operational
   distance, or `X_max` selection entered.
 
@@ -50,4 +55,5 @@ This is a reconciliation of already-owned G252 and G275 results, not an added me
 3. independently verified: **PASS**;
 4. premises audited: **PASS**, with the supplied independent-clock and supplied-history caveats.
 
-The result is not canon and has not yet received fresh external adversarial review.
+The result is not canon. Fresh external adversarial review retained the bounded science; a sealed
+repair-only follow-up remains pending for the implemented R1 evidence correction.

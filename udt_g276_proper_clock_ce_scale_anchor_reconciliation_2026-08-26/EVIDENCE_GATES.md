@@ -13,6 +13,8 @@
 | hostile mutations | PASS | 6 implementation + 2 typed-scope catches |
 | no-write replay | PASS | three registered scripts plus package verifier |
 | premise audit | PASS | 259-row authority verified before banking |
-| external adversarial review | NOT RUN | requires separate authorization |
+| external adversarial review | ACCEPT WITH REPAIRS | science retained; one unit-control repair requested |
+| R1 physical unit relabelling | PASS | fixed `C_bar`; independent length/time numeric units; 20,000 cases |
+| repair-only external follow-up | PENDING | fresh corrected sealed intake required |
 
-Maximum grade before external review: `VERIFIED-WITH-CAVEATS`.
+Current grade: `EXTERNALLY_REVIEWED_ACCEPT_WITH_REPAIRS__R1_IMPLEMENTED__FOLLOWUP_PENDING`.
