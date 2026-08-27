@@ -22,7 +22,8 @@ screen-retaining projective relation state. It is not canon and changes neither 
 
 G166--G276 is the active structural spine; G277--G281 control the observational interface and its
 provenance; G282 types the remaining joint history/Jacobi information; G283 tests the owned
-identity layers for hidden value selection. A supplied germ pulls
+identity layers for hidden value selection; G284 tests whether emergent-`c_E` causal/projective
+structure supplies the missing values. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -59,6 +60,10 @@ Current observational/history boundary:
   screen, symplectic, composition, and reversal identities enforce compatibility but select no
   values; external repair review accepted the bounded result. This selects no history, population,
   equation, action, source, scale, observation, or `X_max`.
+- G284 shows that `c_E` fixes the local light-cone slope and neighboring cone curvature reconstructs
+  the same `T_ij` that drives Jacobi area. The causal/projective network therefore hears the tidal
+  history but still accepts arbitrary smooth `T(u)`; positive homothety also leaves the absolute
+  scale open. External repair review confirmed this bounded result.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -86,11 +91,12 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Stop searching ordinary metric-compatibility identities for the missing composer. Preregister a
-founding-level census of genuinely value-bearing UDT candidate principles and test each candidate
-on G283's fixed arbitrary-`T(u)` family: a viable principle must reject at least one regular witness
-for a native, covariant, non-observational reason while preserving reciprocity, the GR-quiet regime,
-and the angular/screen orchestra. Do not choose a familiar field equation by habit.
+Stop searching ordinary compatibility or causal-reconstruction identities for the missing composer.
+Preregister the narrowest native nonidentity candidate relating longitudinal reciprocal/projective
+change to transverse second light-cone variation, then test it on the fixed G283/G284 arbitrary-`T(u)`
+family. A viable principle must reject at least one regular witness for a native, covariant,
+non-observational reason while preserving reciprocity, the GR-quiet regime, and the angular/screen
+orchestra. The formula is still `OPEN`; do not choose a familiar field equation by habit.
 Only after a finite-dimensional joint history is independently derived may SNe or another
 observation calibrate its constants. Do not choose a preferred `K`, draw a free optical curve from
 the data, identify areal radius with projective position by fiat, retune either SNe release, or

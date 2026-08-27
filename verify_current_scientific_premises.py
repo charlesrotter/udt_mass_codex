@@ -197,7 +197,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     removed_ids = tuple(
-        dict.fromkeys(("G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(("G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -354,6 +354,7 @@ def validate_startup_surface(root: Path) -> None:
             "G281",
             "G282",
             "G283",
+            "G284",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -397,7 +398,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "267-row exact registry",
+            "268-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -607,6 +608,7 @@ def validate_startup_surface(root: Path) -> None:
             "G281",
             "G282",
             "G283",
+            "G284",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -710,6 +712,7 @@ def validate_startup_surface(root: Path) -> None:
             "G281",
             "G282",
             "G283",
+            "G284",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -807,11 +810,12 @@ def validate_startup_surface(root: Path) -> None:
             "G281",
             "G282",
             "G283",
+            "G284",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "267-row",
+            "268-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1134,6 +1138,7 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g268_sech_relation_space_equivalence_and_operational_constraint_2026-08-26/AUDIT_REPORT.md",
         "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md",
         "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/AUDIT_REPORT.md",
+        "udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -1172,9 +1177,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 267, "premise registry must contain exactly 267 rows")
+    require(len(rows) == 268, "premise registry must contain exactly 268 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 267, "duplicate premise id")
+    require(len(by_id) == 268, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1210,6 +1215,11 @@ def main() -> None:
             "EXTERNALLY_REVIEWED_REPAIR_ACCEPTED__PREREGISTERED_AT_18100A3A",
             "udt_g283_neighbor_relation_curvature_identity_nonselection_2026-08-27/AUDIT_REPORT.md",
             "ARBITRARY_SMOOTH_TIDAL_HISTORY_SURVIVES_OWNED_IDENTITIES",
+        ),
+        "G284": (
+            "EXTERNALLY_REVIEWED_REPAIRS_CONFIRMED__PREREGISTERED_AT_C61ED4F4",
+            "udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/AUDIT_REPORT.md",
+            "EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13118,6 +13128,119 @@ def main() -> None:
         "G283 external repair-only closure regressed",
     )
 
+    g284_row = by_id["G284"]
+    require(
+        g284_row["active_use"]
+        == "ACTIVE_BOUNDED_CAUSAL_PROJECTIVE_RECONSTRUCTION_VERSUS_TIDAL_VALUE_SELECTION_DISCRIMINATOR_ONLY",
+        "G284 active scope widened",
+    )
+    for guard in (
+        "physical value-bearing relation between longitudinal reciprocal/projective variation and transverse second cone variation",
+        "global causal completion",
+        "complete history",
+        "observer null branch and path population",
+        "operational distance and absolute scale",
+        "native radiative transfer",
+        "observational calibration",
+        "Xmax source action matter dynamics",
+    ):
+        require(guard in g284_row["open_scope"], f"G284 open boundary absent: {guard}")
+    for guard in (
+        "local cE called absolute scale or bare infinite c called signalling",
+        "neighboring cone Hessian reconstruction called value selection",
+        "arbitrary T witness called physical history",
+        "bounded causally convex tube globalized",
+        "endpoint-only path independence zero holonomy or all-germ isotropy imported",
+        "curvature-of-causal-tape formula claimed derived rather than provisional type",
+        "observations field equation action source fit scale Xmax or protected work imported",
+    ):
+        require(guard in g284_row["forbidden_regression"], f"G284 guard absent: {guard}")
+    g284 = ROOT / "udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27"
+    for name in (
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "REPAIR_RESULT.json",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "verify_package.py",
+    ):
+        require((g284 / name).is_file(), f"G284 closure evidence missing: {name}")
+    g284_derivation = json.loads((g284 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g284_independent = json.loads(
+        (g284 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    g284_catches = json.loads((g284 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g284_verification = json.loads((g284 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g284_repairs = json.loads((g284 / "REPAIR_RESULT.json").read_text(encoding="utf-8"))
+    g284_landing = (
+        "EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY"
+    )
+    require(
+        g284_derivation["status"] == "PASS"
+        and g284_derivation["landing"] == g284_landing
+        and g284_derivation["exact_checks"] == 20
+        and len(g284_derivation["checks"]) == 20
+        and all(g284_derivation["checks"].values())
+        and len(g284_derivation["arbitrary_tidal_functions_retained"]) == 3
+        and g284_derivation["value_selecting_constraints_found"] == 0
+        and not any(g284_derivation["imports"].values()),
+        "G284 exact causal/projective derivation or import guard regressed",
+    )
+    require(
+        g284_independent["status"] == "PASS"
+        and g284_independent["exact_cases"] == 512
+        and g284_independent["exact_assertions"] == 7168
+        and g284_independent["network_cases"] == 64
+        and g284_independent["different_area_cases"] == 64
+        and all(g284_independent["checks"].values()),
+        "G284 independent causal/network verification regressed",
+    )
+    require(
+        g284_catches["status"] == "PASS"
+        and g284_catches["caught_count"] == g284_catches["mutation_count"] == 9
+        and all(g284_catches["caught"].values()),
+        "G284 claim-schema catch coverage regressed",
+    )
+    require(
+        g284_verification["status"] == "PASS_EXTERNAL_REVIEW_COMPLETE"
+        and g284_verification["landing"] == g284_landing
+        and g284_verification["surviving_functions"] == 3
+        and g284_verification["value_selecting_constraints_found"] == 0
+        and g284_verification["external_review"] == "ACCEPTED_REPAIRS_CONFIRMED",
+        "G284 bounded package landing regressed",
+    )
+    require(
+        g284_repairs["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
+        and not g284_repairs["landing_changed"]
+        and g284_repairs["repairs"]["R1_dependency_free_symbolic_replay"]["status"] == "PASS"
+        and g284_repairs["repairs"]["R2_executable_replay_certification"]["status"] == "PASS"
+        and g284_repairs["external_repair_followup"]
+        == "CONFIRM_R1__CONFIRM_R2__LANDING_UNCHANGED"
+        and g284_repairs["external_report_sha256"]
+        == "92e4c4b995a2fa03426f8370a9691b46347e2a5729b9c21d875337c3ec87a5fa"
+        and "Verdict: `CONFIRM R1`, `CONFIRM R2`"
+        in (g284 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
+        "G284 external repair-only closure regressed",
+    )
+    g284_replay = subprocess.run(
+        [sys.executable, "-S", str(g284 / "verify_package.py")],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(g284_replay.returncode == 0, "G284 dependency-free package replay failed")
+    g284_replay_result = json.loads(g284_replay.stdout)
+    require(
+        g284_replay_result["status"] == "PASS_EXTERNAL_REVIEW_COMPLETE"
+        and g284_replay_result["landing"] == g284_landing
+        and g284_replay_result["checks"]["external_review_and_repairs_confirmed"]
+        and g284_replay_result["checks"]["registered_replays_4_of_4"],
+        "G284 dependency-free replay landing regressed",
+    )
+
     validate_startup_surface(ROOT)
 
     agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -13178,7 +13301,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

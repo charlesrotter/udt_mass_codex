@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-`LIVE.md` controls status; the 267-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 268-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -89,6 +89,9 @@ population, operational distance, or `X_max`.
   connection fixed. Every registered compatibility identity passes, and the trace-free subfamily
   still carries two arbitrary functions. Fresh external and repair-only review accepted the
   bounded result: the identities coordinate supplied values but do not select them.
+- G284 adds the emergent-`c_E` causal/projective test. Cone slope and neighboring Hessian reconstruct
+  `T_ij=R_uiuj` and Jacobi response, but arbitrary `T(u)` and homothety survive. Fresh and repair-only
+  external review accepted the bounded nonselection result.
 
 ## Open boundary
 
@@ -102,7 +105,9 @@ G281 further proves source-boundedly that no tracked non-protected historical SN
 that missing complete-history/area law before using SNe data. G282 narrows the missing content to a
 nonidentity constraint on neighboring-relation curvature values while leaving its differential or
 global representation nonunique. G283 closes ordinary metric/Cartan/Bianchi/Jacobi/network
-compatibility identities as the source of that value law on its frozen witness arena.
+compatibility identities as the source of that value law. G284 shows that local `c_E` causal cones,
+projective state, neighboring-cone reconstruction, and finite network carry still reconstruct rather
+than select tidal values or absolute scale on the fixed witness arena.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -110,10 +115,11 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister a founding-level census of genuinely value-bearing UDT candidate principles and test
-them on G283's fixed arbitrary-`T(u)` family. A successful candidate must reject at least one
-regular witness for a native covariant reason without importing observations or a familiar
-equation by habit. Only after such a law
+Preregister the narrowest native nonidentity relation between longitudinal reciprocal/projective
+change and transverse second cone variation, then test it on the fixed G283/G284 arbitrary-`T(u)`
+family. A successful candidate must reject at least one regular witness for a native covariant
+reason without importing observations or a familiar equation by habit. The formula remains open.
+Only after such a law
 reduces the history to an independently derived finite-dimensional family may observations
 calibrate constants. Do not choose `K`, fit a free optical curve, identify projective and areal
 position by fiat, retune observations, or select population, operational distance, or `X_max`.

@@ -8,7 +8,8 @@
 
 G166--G276 is the active structural spine; G277--G281 control the current observational interface;
 G282 types the remaining joint history/Jacobi information; G283 proves ordinary owned identities
-do not select its values on the fixed witness arena.
+do not select its values; G284 proves emergent-`c_E` causal/projective reconstruction does not
+select them either on the fixed witness arena.
 On a supplied germ, the primary metric's `B,Q,S,Y,Z` orchestra enters `h=F^*g` before readout.
 Founded depth gives `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not a signal-speed
 theorem. Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -48,6 +49,11 @@ smooth symmetric `T(u)` in all three while every owned compatibility identity pa
 repair review accepted both bounded results; neither adopts a history, equation, source, fit, scale,
 population, or `X_max`.
 
+G284 adds the causal tape: `c_E` fixes local cone slope, while the neighboring cone Hessian
+reconstructs `T_ij=R_uiuj` and its Jacobi response. That makes the missing relation more specific,
+but arbitrary smooth `T(u)` and positive homothety still survive. The external repair follow-up
+confirmed the bounded landing without importing a law or observation.
+
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
@@ -65,9 +71,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister a founding-level census of genuinely value-bearing UDT principles and test them
-against G283's fixed arbitrary-`T(u)` family. A viable candidate must reject a regular witness for
-a native covariant reason, not merely restate compatibility or observations. Do not select/average/smooth `K`, reconstruct a free
+Next: preregister the narrowest native nonidentity relation between longitudinal
+reciprocal/projective change and transverse second cone variation, and test it against the fixed
+G283/G284 arbitrary-`T(u)` family. A viable candidate must reject a regular witness for a native
+covariant reason, not merely restate reconstruction, compatibility, or observations. Do not select/average/smooth `K`, reconstruct a free
 optical curve from observations, identify areal and projective position by fiat, retune observations,
 or select population/`X_max`. The CMB-temperature ratio is a later direct-depth check. No
 ODE/PDE/GPU solve is authorized before an explicit candidate law and premise ledger.

@@ -82,6 +82,7 @@
 | G281 SNe audit | external/repair accepted | No native prediction; redshift survives |
 | G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
 | G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
+| G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -100,9 +101,8 @@ None selects completion/`X_max`.
 ## Geometry, query, and causality
 
 - The pullbacks and bivector area bilinear recover `g`; scalars stop at positive conformal class;
-  metricity is not dynamics. G212--G243 reconstruct; G244--G248 type branches; G249--G256 type scale; G257--G276
-  add GR/projective/frame controls; G277--G281 audit observations. G282/G283 locate the remaining
-  neighboring-curvature values and show ordinary compatibility does not select them.
+  metricity is not dynamics. G212--G281 reconstruct and type controls. G282--G284 locate
+  neighboring-curvature values; compatibility and causal/projective reconstruction do not select them.
 
 ## Carrier, action, source, and matter
 
@@ -118,9 +118,8 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G236--G276 are controls/outcome-blind except G258. G277--G283
-leave history/transfer open: no native SNe prediction, and no compatibility value law;
-redshift/evaluator survive.
+R2--R5 select no scale or `X_max`; G236--G276 are controls except G258. G277--G284 leave
+history/transfer open: no native SNe prediction or value law; redshift/evaluator survive.
 
 ## Recurring prohibited promotions
 
@@ -133,5 +132,5 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 267-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 268-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
