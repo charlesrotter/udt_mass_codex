@@ -31,6 +31,3 @@ S29	udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md	sca
 S30	udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/AUDIT_REPORT.md	Cepheid attachment and DES holdout	report only
 S31	udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/AUDIT_REPORT.md	current native/import boundary	report only
 S32	udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/AUDIT_REPORT.md	current depth/area nonidentity	report only
-S33	CURRENT_SCIENTIFIC_PREMISES.tsv	current exact epistemic registry	query only SNe/area/transfer controlling rows
-S34	CURRENT_RESEARCH_PROGRAM.md	current dependency and next-gate authority	current bounded file
-

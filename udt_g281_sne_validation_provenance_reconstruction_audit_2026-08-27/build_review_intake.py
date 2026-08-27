@@ -79,8 +79,8 @@ def main() -> None:
         "audit": "G281_SNE_VALIDATION_PROVENANCE_RECONSTRUCTION",
         "mode": "fresh read-only adversarial review",
         "allowed": (
-            "inspect only the sealed intake; challenge the 24-tile chronology, six prediction "
-            "gates, layer classifications, stale-claim dispositions, and bounded landing; run "
+            "inspect only the sealed intake; verify repairs R1-R4, challenge the 24-tile chronology, "
+            "six prediction gates, layer classifications, stale-claim dispositions, and bounded landing; run "
             "registered G281 checks only in a writable ephemeral copy"
         ),
         "forbidden": (

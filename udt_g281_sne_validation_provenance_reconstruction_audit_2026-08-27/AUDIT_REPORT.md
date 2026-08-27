@@ -15,11 +15,11 @@ __G279_NATIVE_CORE_PURITY_STANDS
 __G280_LOCATES_THE_MISSING_OBJECT_IN_COMPLETE_HISTORY_AND_OPTICAL_AREA
 ```
 
-This is a source-bounded regrade of 34 inspected, tracked, non-protected authority files and 24
-historical claim tiles. The immutable source manifest covers the 32 historical/evidentiary files;
-the two live startup authorities were inspected but intentionally left mutable for the closure
-update. This is not a statement about excluded protected local packages, and it does not create a
-new history, transfer law, scale, or `X_max` value.
+This is a source-bounded regrade of 32 tracked, immutable, non-protected historical/evidentiary
+files and 24 historical claim tiles. Live startup authorities are checked separately during
+repository closure and are not counted as sealed scientific sources. This is not a statement about
+excluded protected local packages, and it does not create a new history, transfer law, scale, or
+`X_max` value.
 
 ## Direct answer to the audit question
 
@@ -143,7 +143,10 @@ The 24 claim tiles classify as follows:
 | `NATIVE_PREDICTION` | 0 |
 
 The full row-by-row record is in `HISTORICAL_CLAIM_CENSUS.tsv`; the six prediction gates are applied
-route-by-route in `ROUTE_PROVENANCE_MATRIX.tsv`.
+route-by-route in `ROUTE_PROVENANCE_MATRIX.tsv`. Its first gate now states explicitly what the
+prediction/evaluator distinction already required: the history must be metric-owned or physically
+selected and frozen before SNe. An arbitrary pre-SNe control such as G79 therefore remains a valid
+conditional evaluator, not a native prediction.
 
 ## Framing repair
 
@@ -168,25 +171,30 @@ The strongest salvage of the old SNe work is:
 
 ## Stale-document finding
 
-The active startup surface already follows G279/G280 and does not route a new session to the old
-canonical SNe headline. `udt_canonical_geometry.md` nevertheless contains unmistakably stale
-“all derived” and “beats LCDM” language. Because it is a fixed historical compatibility source, it
-should not be silently rewritten to mimic the current state. G281 records the controlling regrades
-in `STALE_CLAIM_SCAN.tsv`; the startup surface should point to G281 and continue treating the old
-monolith as historical evidence only.
+`udt_canonical_geometry.md` contains unmistakably stale “all derived” and “beats LCDM” language.
+Because it is a fixed historical compatibility source, it should not be silently rewritten to
+mimic the current state. G281 records the controlling regrades in `STALE_CLAIM_SCAN.tsv`. A separate
+repository closure check—not part of the sealed 32-source scientific evidence—must keep the startup
+surface pointed to G281 and treat the old monolith as historical evidence only.
 
 ## Verification
 
-The following independent or bounded checks passed:
+The following independent, consistency, or bounded checks passed:
 
 - G281 source/hash, census, class, controller, and protected-boundary verifier;
 - independent G281 layer and one-factor/two-factor cross-check;
-- saved-output replay across M3, G236, G237, G278, G279, and G280;
+- saved-output consistency replay across M3, G236, G237, G278, G279, and G280;
 - July symbolic optics replay, confirming `d_L=Z^2d_A` under its stated assumptions;
-- G279 no-write provenance derivation, 109,549-assertion independent replay, and 16/16 hostile
-  mutation catches;
-- G280 no-write derivation, 40,960-assertion independent neighboring-ray replay, and 8/8 hostile
-  catches plus 10/10 repair mutations.
+- repository-recorded G279 no-write provenance derivation, 109,549-assertion independent replay,
+  and 16/16 hostile mutation catches; these scripts were not rerun from the first G281 intake;
+- repository-recorded G280 no-write derivation, 40,960-assertion independent neighboring-ray
+  replay, and 8/8 hostile catches plus 10/10 repair mutations; these scripts were not rerun from the
+  first G281 intake.
+
+Fresh sealed external `gpt-5.4` review returned `ACCEPT-WITH-REPAIRS`, independently retained every
+substantive classification and the bounded landing, and identified only source-scope, gate-wording,
+replay-surface, and filename defects. Repairs R1--R4 are evidence/typing repairs; they change no
+metric, kernel, history, transfer, score, or scientific conclusion.
 
 ## Next bounded scientific move
 

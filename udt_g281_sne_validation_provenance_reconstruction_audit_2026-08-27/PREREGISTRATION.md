@@ -25,6 +25,13 @@ A historical claim may be labeled `NATIVE_PREDICTION` only if all of the followi
 Failure of any item caps the result below native prediction.  A good chi-square cannot repair a
 provenance failure.
 
+Post-review clarification R2, registered without changing any route class: in item 1,
+“determined independently of the SNe outcomes” means that the history was metric-owned or selected
+by an independently justified physical rule *and* frozen before SNe. Merely choosing an arbitrary
+control before looking at SNe satisfies outcome noninterference, but it remains a conditional
+evaluator rather than a native prediction. The repaired route matrix makes this intended ownership
+component explicit in the first of the same six gates.
+
 ## Required hostile questions
 
 For every major lineage tile, ask:
@@ -69,4 +76,3 @@ than silently replaced.
 
 A source-bounded provenance and epistemic regrade of tracked non-protected SNe work.  No new metric,
 profile, transfer law, physical history, scale, `X_max`, or canonization can follow.
-

@@ -31,10 +31,12 @@ def main() -> None:
 
     # The empirical lineage must contain both the original overclaim and later reconstruction route.
     classes = {row["current_class"] for row in census}
+    history_gate = "history_metric_owned_or_physically_selected_and_fixed_before_SNe"
+    g79 = next(row for row in routes if row["route"] == "G79_same_geometry_control")
     failed_prediction_gates = []
     for row in routes:
         gates = (
-            row["profile_or_history_fixed_before_SNe"],
+            row[history_gate],
             row["physical_query_branch_fixed"],
             row["native_area_from_same_history"],
             row["transfer_native_or_explicitly_conditional"],
@@ -67,6 +69,11 @@ def main() -> None:
         "historical_overclaim_class_present": "SCAFFOLDED_OR_OVERCLAIMED" in classes,
         "empirical_reconstruction_class_present": "EMPIRICAL_RECONSTRUCTION" in classes,
         "no_invalid_native_prediction_gate": not failed_prediction_gates,
+        "history_ownership_gate_explicit": all(history_gate in row for row in routes),
+        "g79_is_supplied_control_not_owned_history": (
+            g79[history_gate] == "NO"
+            and g79["maximum_class"] == "NATIVE_CONDITIONAL_EVALUATION"
+        ),
         "status_separates_redshift_from_area": (
             "does_not_determine_areal_or_optical_distance" in status["S01"]["forbidden_upgrade"]
         ),

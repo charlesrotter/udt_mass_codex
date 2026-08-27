@@ -35,11 +35,6 @@ def main() -> None:
     status = rows("STATUS_LEDGER.tsv")
 
     scope_paths = [row["path"] for row in source_scope]
-    mutable_live_paths = {
-        "CURRENT_SCIENTIFIC_PREMISES.tsv",
-        "CURRENT_RESEARCH_PROGRAM.md",
-    }
-    immutable_scope_paths = [path for path in scope_paths if path not in mutable_live_paths]
     manifest = {row["path"]: row["sha256"] for row in source_manifest}
     protected_fragments = (
         "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
@@ -49,7 +44,7 @@ def main() -> None:
     )
     source_hashes = {
         path: (ROOT / path).is_file() and sha256(ROOT / path) == manifest.get(path)
-        for path in immutable_scope_paths
+        for path in scope_paths
     }
 
     allowed_classes = {
@@ -64,6 +59,8 @@ def main() -> None:
     }
     census_ids = [row["id"] for row in census]
     route_names = [row["route"] for row in routes]
+    history_gate = "history_metric_owned_or_physically_selected_and_fixed_before_SNe"
+    g79_rows = [row for row in routes if row["route"] == "G79_same_geometry_control"]
     route_native_predictions = [
         row["route"] for row in routes if row["maximum_class"] == "NATIVE_PREDICTION"
     ]
@@ -98,14 +95,19 @@ def main() -> None:
         "verify_saved_lineage_outputs.py",
         "build_review_intake.py",
         "EXTERNAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "EXTERNAL_REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
     )
     audit_report = (PACKAGE / "AUDIT_REPORT.md").read_text()
     recorded_result = json.loads((PACKAGE / "VERIFICATION_RESULT.json").read_text())
 
     checks = {
-        "scope_count_34": len(source_scope) == 34,
-        "immutable_source_count_32": len(immutable_scope_paths) == 32,
-        "manifest_matches_immutable_scope": set(manifest) == set(immutable_scope_paths),
+        "scope_count_32": len(source_scope) == 32,
+        "sealed_source_count_32": len(source_manifest) == 32,
+        "manifest_matches_scope_exactly": set(manifest) == set(scope_paths),
         "all_source_hashes_match": bool(source_hashes) and all(source_hashes.values()),
         "protected_paths_excluded": not any(
             fragment in path for fragment in protected_fragments for path in scope_paths
@@ -116,6 +118,12 @@ def main() -> None:
         "all_census_rows_have_controllers": all(row["controlling_evidence"] for row in census),
         "route_count_15": len(routes) == 15,
         "route_names_unique": len(route_names) == len(set(route_names)),
+        "history_ownership_is_explicit_gate_1": all(history_gate in row for row in routes),
+        "g79_fails_history_ownership_gate": (
+            len(g79_rows) == 1
+            and g79_rows[0][history_gate] == "NO"
+            and g79_rows[0]["maximum_class"] == "NATIVE_CONDITIONAL_EVALUATION"
+        ),
         "no_route_upgraded_to_native_prediction": not route_native_predictions,
         "stale_scan_nonempty": len(stale) >= 10,
         "status_lands_prediction_not_found": any(
@@ -163,7 +171,7 @@ def main() -> None:
         "checks": checks,
         "counts": {
             "source_files_inspected": len(source_scope),
-            "immutable_source_files": len(immutable_scope_paths),
+            "immutable_source_files": len(source_manifest),
             "historical_tiles": len(census),
             "route_classes": len(routes),
             "native_prediction_witnesses": len(route_native_predictions),

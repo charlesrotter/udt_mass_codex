@@ -1,10 +1,10 @@
 {
   "audit": "G281_SNE_VALIDATION_PROVENANCE_RECONSTRUCTION",
   "status": "PASS",
-  "grade": "INTERNALLY_VERIFIED_WITH_CAVEATS",
+  "grade": "EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R4_INTERNALLY_REPAIRED_FOLLOWUP_PENDING",
   "landing": "NO_COMPLETE_NATIVE_SNE_PREDICTION_IN_AUDITED_NONPROTECTED_LINEAGE",
   "counts": {
-    "source_files_inspected": 34,
+    "source_files_inspected": 32,
     "immutable_source_files": 32,
     "historical_tiles": 24,
     "route_classes": 15,
@@ -15,12 +15,17 @@
     "g281_independent": "PASS",
     "saved_lineage_outputs": "PASS",
     "july_n2_optics": "PASS",
-    "g279_no_write_production": "PASS",
-    "g279_independent_assertions": 109549,
-    "g279_hostile_catches": "16/16",
-    "g280_no_write_production": "PASS",
-    "g280_independent_assertions": 40960,
-    "g280_hostile_catches": "8/8_plus_10/10_repair_mutations"
+    "g279_repository_recorded_no_write_production": "PASS_NOT_RERUN_IN_FIRST_G281_INTAKE",
+    "g279_repository_recorded_independent_assertions": 109549,
+    "g279_repository_recorded_hostile_catches": "16/16",
+    "g280_repository_recorded_no_write_production": "PASS_NOT_RERUN_IN_FIRST_G281_INTAKE",
+    "g280_repository_recorded_independent_assertions": 40960,
+    "g280_repository_recorded_hostile_catches": "8/8_plus_10/10_repair_mutations"
+  },
+  "external_review": {
+    "verdict": "ACCEPT-WITH-REPAIRS",
+    "scientific_landing_changed": false,
+    "repair_scope": ["R1_exact_sealed_source_universe", "R2_history_ownership_gate", "R3_replay_provenance", "R4_filename_typo"]
   },
   "retained": [
     "direct_reciprocal_redshift",

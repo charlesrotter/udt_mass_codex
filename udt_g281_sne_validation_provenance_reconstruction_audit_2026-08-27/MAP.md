@@ -17,10 +17,11 @@ the Cepheid/DES attachment, and the G279/G280 provenance and optical-area result
 
 - Mode: `MAP -> OBSERVE -> PONDER`; no fit, profile solve, or observational retuning.
 - Route: metric-led provenance audit.
-- Native ceiling: a direct SNe prediction requires one independently specified complete metric and
-  null-bundle history to determine both reciprocal redshift and optical/Jacobi area before SNe
-  outcomes enter.  A native radiative-transfer law would strengthen the result; an explicitly
-  imported transfer may support only a conditional comparison.
+- Native ceiling: a direct SNe prediction requires one metric-owned or physically selected complete
+  metric and null-bundle history, frozen before SNe outcomes, to determine both reciprocal redshift
+  and optical/Jacobi area. A merely supplied control remains a conditional evaluator. A native
+  radiative-transfer law would strengthen the result; an explicitly imported transfer may support
+  only a conditional comparison.
 - G280 discriminator: endpoint depth or projective pair position alone does not determine optical
   area.  In the primary spherical class, equal depth can occur at different areal radii.
 
@@ -69,4 +70,3 @@ load-bearing.
 G281 will produce a chronological claim census, a layer-by-layer provenance ledger, a stale-active-
 claim scan, representative no-retuning replays, and a concise regrade report.  It will not select a
 new SNe curve or promote an observational reconstruction into the kernel.
-
