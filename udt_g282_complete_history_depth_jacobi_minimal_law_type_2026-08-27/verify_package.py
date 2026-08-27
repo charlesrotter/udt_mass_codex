@@ -76,6 +76,8 @@ def main() -> None:
         "run_catch_proofs.py",
         "verify_preregistration.py",
         "verify_package.py",
+        "build_review_intake.py",
+        "EXTERNAL_REVIEW_REQUEST.md",
         "COMMANDS.md",
     )
     checks = {
