@@ -1,0 +1,11 @@
+id	statement	status	role	forbidden_promotion
+P01	On supplied ordered depth the reciprocal squeeze is determinant one and additive	DERIVED	Longitudinal evaluator	Does not assign depth or a history
+P02	The complete metric pullback enters before terminal reciprocal readout	DERIVED_CONDITIONAL	Complete-pair evaluator	Does not populate a physical pair network
+P03	G285 complete separation includes completed pair data and neighboring tidal variation	USED_PROVISIONALLY_FOR_THIS_BOUNDED_GATE__NOT_CANON	Type clarification	Does not provide L3 or L4 propagation
+P04	G214 overlap descent closes on supplied calibrated pair covers	DERIVED_CONDITIONAL	Chart consistency	Does not identify distinct pair surfaces or choose values
+P05	G274 full path-labelled frame morphisms compose and descend exactly	DERIVED_CONDITIONAL	Frame carry	Does not select a path population or history
+P06	G231 Cartan realization integrates compatible supplied classifying data	DERIVED_CONDITIONAL	Regional reconstruction	Does not supply the classifying values
+P07	G283 admits arbitrary smooth symmetric T(u) through all registered identities	EXTERNALLY_REVIEWED_DERIVED_CONDITIONAL	Complete-metric witness family	Does not prove no future UDT law can restrict T
+P08	G284 cone Hessian reconstructs the same T(u) that drives Jacobi response	EXTERNALLY_REVIEWED_DERIVED_CONDITIONAL	Causal faithfulness	Reconstruction is not propagation
+P09	The flat switch b(u)=0 for u<=0 and exp(-1/u^2) for u>0 is smooth and has every derivative zero at u=0	STANDARD_ANALYSIS	Continuation separator	Does not itself define physical dynamics
+P10	No observation fit source action field equation scale Xmax or protected work may enter	PINNED_BY_SCOPE	Purity gate	No hidden imported selection
