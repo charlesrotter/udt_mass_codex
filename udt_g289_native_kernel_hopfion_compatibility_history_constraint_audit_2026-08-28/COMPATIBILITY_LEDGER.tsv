@@ -5,7 +5,7 @@ target_geometry	celestial sphere is conformal but historical target is fixed rou
 hopf_charge	raw fixed-target component integer fails full local-frame descent	GAUGE_OBSTRUCTION	large basepoint-fixed local rotation maps constant component section to unit Hopf map
 historical_action	L2 plus L4 not derived from the null/projective kernel	CONDITIONAL_IMPORT	boost changes fixed-round derivative norms and no native action is present
 historical_boundary	constant exterior and pinned box remain supplied	CHOSE_NUMERICALLY	no physical carrier boundary follows from metric
-static_stability	compatible on supplied quiet static background	OBSERVED_CARRIER_CONDITIONAL	old no-null result retains every premise stamp
+static_stability	compatible on supplied quiet static background	SETTLED_STATIC_FINITE_BOX_CONDITIONAL	old no-null result retains every carrier action boundary finite-box and staticity premise stamp
 dynamic_stability	not tested	OPEN	no time-live carrier law or metric backreaction
 history_selection	null texture rejects no tested metric history	NOT_DERIVED	conformal twins and arbitrary positive primary profiles carry it
 future_bridge	gauge-covariant framed section plus transport and persistence	OPEN_CANDIDATE	would need to reject a regular history independently of desired particle result

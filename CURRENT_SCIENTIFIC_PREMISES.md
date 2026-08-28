@@ -86,7 +86,7 @@
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
 | G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
-| G288--G290 center/Hopf/bridge | external/internal/whiteboard | Center interlock; conditional Hopf; topology/holonomy split |
+| G288--G290 center/Hopf/bridge | external/repair-open/whiteboard | Center interlock; conditional Hopf; topology/holonomy split |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -107,8 +107,8 @@ None selects completion/`X_max`.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   G282--G284 locate but do not select neighboring curvature. G285 retypes tide as part of complete
   separation; G286 shows current identities do not uniquely propagate the tested shared prior.
-  G287 separates profile/arrow signs; G288 derives center interlock; G289/G290 make Hopf compatibility
-  conditional and split topology from history-sensitive holonomy. Scale, mass, and history remain open.
+  G287 separates signs; G288 derives center interlock; G289 is externally accepted; repair
+  follow-up is open. G290 splits topology/holonomy. Scale, mass, and history remain open.
 
 ## Carrier, action, source, and matter
 

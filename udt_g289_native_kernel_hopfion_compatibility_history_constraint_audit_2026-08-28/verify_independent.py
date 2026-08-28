@@ -61,6 +61,67 @@ def hopf(q: tuple[F, F, F, F]) -> tuple[F, F, F]:
     return 2 * (b * d + a * c), 2 * (c * d - a * b), a * a - b * b - c * c + d * d
 
 
+def quaternion_adjoint(q: tuple[F, F, F, F]) -> tuple[tuple[F, F, F], ...]:
+    a, b, c, d = q
+    return (
+        (a * a + b * b - c * c - d * d, 2 * (b * c - a * d), 2 * (b * d + a * c)),
+        (2 * (b * c + a * d), a * a - b * b + c * c - d * d, 2 * (c * d - a * b)),
+        (2 * (b * d - a * c), 2 * (c * d + a * b), a * a - b * b - c * c + d * d),
+    )
+
+
+def poly_add(left: tuple[F, ...], right: tuple[F, ...]) -> tuple[F, ...]:
+    size = max(len(left), len(right))
+    return tuple(
+        (left[i] if i < len(left) else F(0)) + (right[i] if i < len(right) else F(0))
+        for i in range(size)
+    )
+
+
+def poly_mul(left: tuple[F, ...], right: tuple[F, ...]) -> tuple[F, ...]:
+    out = [F(0)] * (len(left) + len(right) - 1)
+    for i, x in enumerate(left):
+        for j, y in enumerate(right):
+            out[i + j] += x * y
+    return tuple(out)
+
+
+def wedge_sign(left: tuple[int, ...], right: tuple[int, ...]) -> int:
+    if set(left).intersection(right):
+        return 0
+    merged = left + right
+    inversions = sum(merged[i] > merged[j] for i in range(len(merged)) for j in range(i + 1, len(merged)))
+    return -1 if inversions % 2 else 1
+
+
+def wedge(
+    left: dict[tuple[int, ...], tuple[F, ...]],
+    right: dict[tuple[int, ...], tuple[F, ...]],
+) -> dict[tuple[int, ...], tuple[F, ...]]:
+    out: dict[tuple[int, ...], tuple[F, ...]] = {}
+    for left_basis, left_poly in left.items():
+        for right_basis, right_poly in right.items():
+            sign = wedge_sign(left_basis, right_basis)
+            if sign == 0:
+                continue
+            basis = tuple(sorted(left_basis + right_basis))
+            product = tuple(F(sign) * value for value in poly_mul(left_poly, right_poly))
+            out[basis] = poly_add(out.get(basis, (F(0),)), product)
+    return out
+
+
+def integrate_poly_zero_one(poly: tuple[F, ...]) -> F:
+    return sum((coefficient / F(power + 1) for power, coefficient in enumerate(poly)), F(0))
+
+
+def normalized_hopf_connection_integral() -> F:
+    # Hopf coordinates with s=sin^2(h): A=(1-s)du+s dv and dA=ds^(dv-du).
+    connection = {(1,): (F(1), F(-1)), (2,): (F(0), F(1))}
+    curvature = {(0, 2): (F(1),), (0, 1): (F(-1),)}
+    density = wedge(connection, curvature)[(0, 1, 2)]
+    return integrate_poly_zero_one(density)
+
+
 def main() -> None:
     rng = random.Random(289)
     assertions = 0
@@ -120,8 +181,25 @@ def main() -> None:
         assert hopf((circle_x, F(0), F(0), circle_y)) == (F(0), F(0), F(1))
         assert hopf((F(0), circle_x, circle_y, F(0))) == (F(0), F(0), F(-1))
         assertions += 2
-    assert F(-1) != 0  # normalized connection integral is nonzero: Hopf class magnitude one
-    assertions += 1
+    normalized_integral = normalized_hopf_connection_integral()
+    assert normalized_integral == F(-1)
+    assert abs(normalized_integral) == 1
+    assertions += 2
+
+    # The inverse-stereographic compactification point is q=-1. Its adjoint rotation is identity,
+    # so the large local frame transformation is fixed at the compactification basepoint.
+    inverse_radius = F(0)
+    q_infinity = (
+        (inverse_radius * inverse_radius - 1) / (inverse_radius * inverse_radius + 1),
+        2 * inverse_radius / (inverse_radius * inverse_radius + 1),
+        F(0),
+        F(0),
+    )
+    identity3 = ((F(1), F(0), F(0)), (F(0), F(1), F(0)), (F(0), F(0), F(1)))
+    assert q_infinity == (F(-1), F(0), F(0), F(0))
+    assert quaternion_adjoint(q_infinity) == identity3
+    assert hopf(q_infinity) == (F(0), F(0), F(1))
+    assertions += 3
 
     # Conformal-history separator: same null lines, different center scalar curvature.
     for alpha in (F(-2), F(-1), F(0), F(1), F(2)):
@@ -139,6 +217,10 @@ def main() -> None:
         "boost_signs_covered": ["negative", "zero", "positive"],
         "round_target_nonisometry_scale": "16/25",
         "hopf_fiber_controls": 122,
+        "hopf_connection_normalized_integral": str(normalized_integral),
+        "hopf_integral_recomputed": True,
+        "compactification_basepoint_fixed": True,
+        "basepoint_adjoint_identity": True,
         "conformal_history_controls": 5,
         "imports_production_module": False,
         "reads_production_result": False,

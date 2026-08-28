@@ -35,7 +35,11 @@ def main() -> None:
         "SOURCE_MANIFEST.tsv", "COMMANDS.md", "STATUS_LEDGER.tsv", "EXACT_DERIVATION.md",
         "COMPATIBILITY_LEDGER.tsv", "HISTORY_SEPARATOR.tsv", "LAY_REPORT.md", "AUDIT_REPORT.md",
         "EVIDENCE_GATES.md", "RUN_RECORD.md", "ADVERSARIAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_GPT54.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "EXTERNAL_REPAIR_PREREGISTRATION.md", "REPAIR_RESULT.json",
+        "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
         "derive_compatibility.py", "verify_independent.py", "run_catch_proofs.py",
+        "verify_repairs.py",
         "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
         "build_source_manifest.py", "verify_package.py",
     }
@@ -46,20 +50,50 @@ def main() -> None:
     production = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
     independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
     catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
-    if production["status"] != "PASS" or production["landing"] != LANDING or production["check_count"] != 23:
+    if (
+        production["status"] != "PASS"
+        or production["landing"] != LANDING
+        or production["check_count"] != 17
+        or production["computed_check_count"] != 17
+        or production["derived_conclusion_count"] != 6
+        or production["total_claim_flags"] != 23
+    ):
         raise AssertionError("production landing mismatch")
-    if not all(production["checks"].values()) or production["imports_old_result_artifact"]:
+    if (
+        not all(production["computed_checks"].values())
+        or not all(production["derived_conclusions"].values())
+        or production["imports_old_result_artifact"]
+    ):
         raise AssertionError("production checks/provenance mismatch")
     if (
         independent["status"] != "PASS"
-        or independent["assertions"] != 14533
+        or independent["assertions"] != 14537
         or independent["random_exact_cases"] != 1200
+        or independent["hopf_connection_normalized_integral"] != "-1"
+        or independent["hopf_integral_recomputed"] is not True
+        or independent["compactification_basepoint_fixed"] is not True
+        or independent["basepoint_adjoint_identity"] is not True
         or independent["imports_production_module"]
         or independent["reads_production_result"]
     ):
         raise AssertionError("independent replay mismatch")
-    if catches["status"] != "PASS" or catches["caught"] != 5 or catches["total"] != 5:
+    if (
+        catches["status"] != "PASS"
+        or catches["caught"] != 5
+        or catches["total"] != 5
+        or catches["recomputing_geometric_catches"] != 4
+        or len(catches["recomputed_witnesses"]) != 5
+    ):
         raise AssertionError("hostile catches mismatch")
+
+    repairs = json.loads((HERE / "REPAIR_RESULT.json").read_text(encoding="utf-8"))
+    if (
+        repairs["status"] != "PASS"
+        or repairs["repairs"] != ["R1", "R2", "R3", "R4"]
+        or repairs["scientific_landing_changed"]
+        or not all(repairs["checks"].values())
+    ):
+        raise AssertionError("external repair verification mismatch")
 
     manifest_rows = []
     with (HERE / "SOURCE_MANIFEST.tsv").open(newline="") as handle:
@@ -75,8 +109,8 @@ def main() -> None:
     if LANDING not in audit:
         raise AssertionError("audit landing mismatch")
     for token in (
-        "OBSERVED_CARRIER_CONDITIONAL",
-        "INTERNALLY_VERIFIED_BOUNDED_MIXED_RESULT__EXTERNAL_REVIEW_OPEN",
+        "SETTLED_STATIC_FINITE_BOX_CONDITIONAL",
+        "EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN",
     ):
         if token not in (HERE / "AUDIT_REPORT.md").read_text():
             raise AssertionError(f"audit token missing: {token}")
@@ -85,11 +119,13 @@ def main() -> None:
         "status": "PASS",
         "required_files": len(required),
         "source_manifest_rows": len(manifest_rows),
-        "production_checks": production["check_count"],
+        "production_computed_checks": production["computed_check_count"],
+        "production_derived_conclusions": production["derived_conclusion_count"],
         "independent_assertions": independent["assertions"],
         "hostile_catches": catches["caught"],
         "landing": LANDING,
-        "external_review": "OPEN",
+        "external_review": "ACCEPT_WITH_REPAIRS",
+        "repair_followup": "OPEN",
         "aggregator_role": "integrity_and_provenance_only",
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")

@@ -83,7 +83,9 @@ Current observational/history boundary:
   angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`. No Planck scale,
   physical mass, global micro band, or history is selected.
 - G289 embeds the old Hopf texture after a supplied observer/frame; its target, action, boundary,
-  and raw charge remain conditional. Conformal twins retain it with different curvature; review is open.
+  and raw charge remain conditional. Conformal twins retain it with different curvature. Fresh
+  external review accepted the bounded landing with four evidence repairs; the repairs are implemented
+  and their repair-only follow-up remains open.
 - G290 finds pure topology cannot separate those twins; pair-screen holonomy can, but remains
   evaluative. Exact descent is open.
 
@@ -113,8 +115,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Externally review G289. If retained, preregister G290's pair-screen holonomy/twin descent and
-time-live transgression without calling either persistence or selection. Keep G288's general
+Complete G289's repair-only external follow-up. If retained, preregister G290's exact pair-screen
+holonomy/twin descent and time-live transgression without calling either persistence or selection. Keep G288's general
 `A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
 work, or solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

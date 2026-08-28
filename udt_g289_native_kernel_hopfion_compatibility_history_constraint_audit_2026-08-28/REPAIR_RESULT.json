@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "R1_compatibility_status_restored": true,
+    "R1_premise_status_restored": true,
+    "R1_report_status_restored": true,
+    "R2_four_primitive_recomputations": true,
+    "R2_recomputation_functions_present": true,
+    "R3_basepoint_recomputed": true,
+    "R3_exterior_and_adjoint_methods_present": true,
+    "R3_integral_recomputed": true,
+    "R4_computed_count_separated": true,
+    "R4_conclusion_count_separated": true,
+    "R4_old_report_overcount_absent": true,
+    "external_accept_with_repairs_recorded": true,
+    "repair_preregistered": true,
+    "scientific_landing_unchanged": true
+  },
+  "preregistration_commit": "ce1f4829",
+  "repair_followup": "OPEN",
+  "repairs": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "scientific_landing_changed": false,
+  "status": "PASS"
+}

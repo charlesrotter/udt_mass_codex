@@ -17,7 +17,8 @@ quartic order. External repair-only review accepted the bounded result with no d
 G289 then finds the older static Hopfion locally compatible with the metric's null-direction sphere,
 but its fixed round target, action, boundary, and raw component charge remain conditional/frame
 dependent. Exact conformal twins carry the same texture with different curvature, so it selects no
-history. G289 is internally verified; external review remains open.
+history. Fresh external review accepted that bounded landing with four evidence repairs. All four
+repairs are implemented; repair-only external follow-up remains open.
 G290's internal multi-agent whiteboard separates topology, holonomy, and selection. Pure topology
 cannot separate the smooth conformal twins; a supplied completed-pair screen differential character
 adds gauge-invariant metric-sensitive holonomy but remains evaluative.
@@ -69,7 +70,7 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: externally review G289. If retained, preregister G290's exact complete-pair screen-holonomy
+Next: complete G289's repair-only external follow-up. If retained, preregister G290's exact complete-pair screen-holonomy
 descent and time-live transgression; do not promote it to persistence or selection. Keep G288's
 general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.

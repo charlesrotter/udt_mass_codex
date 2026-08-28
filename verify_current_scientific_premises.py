@@ -223,6 +223,8 @@ def replay_package_with_current_registry_rows_removed(
                     require(len(matches) == 1, f"ephemeral registry removal count changed: {premise_id}")
                     lines = [line for line in lines if not line.startswith(prefix)]
                 payload = b"".join(lines)
+                if hashlib.sha256(payload).hexdigest() != row["sha256"]:
+                    payload = frozen_git_source_bytes(source_key, row["sha256"])
             elif hashlib.sha256(payload).hexdigest() != row["sha256"]:
                 payload = frozen_git_source_bytes(source_key, row["sha256"])
             destination = root / source_key
@@ -1273,7 +1275,7 @@ def main() -> None:
             "PARTIAL_CENTER_INTERLOCK_ONLY",
         ),
         "G289": (
-            "INTERNALLY_VERIFIED_BOUNDED_MIXED_RESULT__EXTERNAL_REVIEW_OPEN__PREREGISTERED_AT_1156E2A2",
+            "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_R1_R4_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_OPEN__PREREGISTERED_AT_1156E2A2",
             "udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/AUDIT_REPORT.md",
             "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS",
         ),
@@ -13690,7 +13692,7 @@ def main() -> None:
         "G289 active scope widened",
     )
     for guard in (
-        "fresh external adversarial review",
+        "repair-only external follow-up of R1 through R4",
         "gauge-covariant physical Hopf charge",
         "native carrier section target metric framing connection and boundary",
         "time-live topological persistence and dynamic stability",
@@ -13718,6 +13720,11 @@ def main() -> None:
         "HISTORY_SEPARATOR.tsv",
         "PREREGISTRATION.md",
         "ADVERSARIAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_PREREGISTRATION.md",
+        "REPAIR_RESULT.json",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "verify_repairs.py",
         "verify_package.py",
     ):
         require((g289 / name).is_file(), f"G289 evidence missing: {name}")
@@ -13733,19 +13740,28 @@ def main() -> None:
         (g289 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
     )
     g289_catches = json.loads((g289 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g289_repairs = json.loads((g289 / "REPAIR_RESULT.json").read_text(encoding="utf-8"))
     require(
         g289_production["status"] == "PASS"
         and g289_production["landing"] == g289_landing
-        and g289_production["check_count"] == 23
-        and all(g289_production["checks"].values())
+        and g289_production["check_count"] == 17
+        and g289_production["computed_check_count"] == 17
+        and g289_production["derived_conclusion_count"] == 6
+        and g289_production["total_claim_flags"] == 23
+        and all(g289_production["computed_checks"].values())
+        and all(g289_production["derived_conclusions"].values())
         and g289_production["imports_old_result_artifact"] is False
         and g289_production["introduces_action_source_mass_history_or_scale"] is False,
         "G289 production landing regressed",
     )
     require(
         g289_independent["status"] == "PASS"
-        and g289_independent["assertions"] == 14533
+        and g289_independent["assertions"] == 14537
         and g289_independent["random_exact_cases"] == 1200
+        and g289_independent["hopf_connection_normalized_integral"] == "-1"
+        and g289_independent["hopf_integral_recomputed"] is True
+        and g289_independent["compactification_basepoint_fixed"] is True
+        and g289_independent["basepoint_adjoint_identity"] is True
         and g289_independent["imports_production_module"] is False
         and g289_independent["reads_production_result"] is False,
         "G289 independent replay regressed",
@@ -13754,13 +13770,26 @@ def main() -> None:
         g289_catches["status"] == "PASS"
         and g289_catches["caught"] == 5
         and g289_catches["total"] == 5
+        and g289_catches["recomputing_geometric_catches"] == 4
+        and len(g289_catches["recomputed_witnesses"]) == 5
         and all(row["caught"] for row in g289_catches["mutations"]),
         "G289 hostile catches regressed",
     )
     require(
-        "OBSERVED_CARRIER_CONDITIONAL" in (g289 / "AUDIT_REPORT.md").read_text(encoding="utf-8")
-        and "EXTERNAL_REVIEW_OPEN" in (g289 / "AUDIT_REPORT.md").read_text(encoding="utf-8"),
-        "G289 conditional stability or review ceiling regressed",
+        g289_repairs["status"] == "PASS"
+        and g289_repairs["repairs"] == ["R1", "R2", "R3", "R4"]
+        and g289_repairs["scientific_landing_changed"] is False
+        and g289_repairs["repair_followup"] == "OPEN"
+        and all(g289_repairs["checks"].values()),
+        "G289 repair certification regressed",
+    )
+    g289_report = (g289 / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+    g289_external = (g289 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
+    require(
+        "SETTLED_STATIC_FINITE_BOX_CONDITIONAL" in g289_report
+        and "EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN" in g289_report
+        and "ACCEPT_WITH_REPAIRS" in g289_external,
+        "G289 conditional stability, external verdict, or repair ceiling regressed",
     )
     g289_replay = replay_package_with_current_registry_rows_removed(
         g289, ("G290",), include_legacy_later_rows=False
@@ -13774,7 +13803,7 @@ def main() -> None:
         "G290 active scope widened",
     )
     for guard in (
-        "G289 fresh external review",
+        "G289 repair-only external follow-up",
         "exact complete-pair screen connection and holonomy descent",
         "physical null congruence complete pair network loop population and event correspondence",
         "time-live transgression degeneracy and topology-change strata",

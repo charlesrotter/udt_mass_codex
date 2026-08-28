@@ -1,11 +1,13 @@
 {
   "aggregator_role": "integrity_and_provenance_only",
-  "external_review": "OPEN",
+  "external_review": "ACCEPT_WITH_REPAIRS",
   "hostile_catches": 5,
-  "independent_assertions": 14533,
+  "independent_assertions": 14537,
   "landing": "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS__FIXED_ROUND_S2_HOPFION_REQUIRES_SUPPLIED_FRAME_TARGET_AND_BOUNDARY__RAW_HOPF_CLASS_DOES_NOT_DESCEND_THROUGH_FULL_LOCAL_FRAME_GAUGE__CONFORMAL_HISTORY_TWINS_CARRY_THE_SAME_NULL_TEXTURE__STATIC_HOPFION_IS_CONDITIONALLY_COMPATIBLE_NOT_A_CURRENT_HISTORY_SELECTOR",
-  "production_checks": 23,
-  "required_files": 23,
+  "production_computed_checks": 17,
+  "production_derived_conclusions": 6,
+  "repair_followup": "OPEN",
+  "required_files": 30,
   "source_manifest_rows": 13,
   "status": "PASS"
 }

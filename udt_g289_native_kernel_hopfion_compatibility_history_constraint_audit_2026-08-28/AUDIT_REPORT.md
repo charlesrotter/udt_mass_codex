@@ -1,7 +1,7 @@
 # G289 audit report — native-kernel Hopfion compatibility and history restriction
 
 Date: 2026-08-28
-Grade: `INTERNALLY_VERIFIED_BOUNDED_MIXED_RESULT__EXTERNAL_REVIEW_OPEN`
+Grade: `EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN`
 
 ## Landing
 
@@ -34,7 +34,7 @@ No current kernel-owned condition rejects a member.
 
 ## Earlier stability work
 
-The corrected no-null static finite-box result remains `OBSERVED_CARRIER_CONDITIONAL`. It is
+The corrected no-null result remains `SETTLED_STATIC_FINITE_BOX_CONDITIONAL`. It is
 compatible after supplying the observer/frame, round carrier, `L2+L4` action, constant exterior,
 fixed boundary, and static background. G289 does not re-run or invalidate that result. It shows that
 those supplied structures, rather than the native kernel alone, currently carry the stability and
@@ -43,11 +43,13 @@ topological-sector claims.
 ## Evidence
 
 - preregistered and pushed at commit `1156e2a2` before outcome implementation;
-- 23 fresh symbolic/algebraic/topological checks;
-- 14,533 implementation-distinct exact-Fraction assertions over 1,200 cases;
+- 17 freshly computed symbolic/algebraic/topological identities and 6 separately typed conclusion
+  flags;
+- implementation-distinct exact-Fraction assertions over 1,200 cases, including an independently
+  reconstructed normalized Hopf connection integral and compactification-basepoint witness;
 - both boost orientations and the zero orientation covered;
 - 122 exact north/south Hopf-fiber controls;
-- 5/5 hostile catches, including four recomputing geometric/topological overclaims;
+- 5/5 hostile catches, including four primitive-recomputing geometric/topological overclaims;
 - the complete 273-row scientific-premise registry and startup-surface audit pass;
 - the full repository suite passes 194 tests with one expected `xfail`;
 - no old result artifact imported and no GPU, fit, action, source, backreaction, mass, Planck scale,
@@ -59,3 +61,11 @@ The older Hopfion is a viable conditional configuration-level passenger on the c
 is not yet a metric-derived carrier, a frame-gauge-invariant physical Hopf sector, or a selector of
 metric history. A gauge-covariant framed/connection construction plus time-live persistence would
 be the next bridge; it must distinguish a preregistered regular history pair to count as selection.
+
+## External review and repairs
+
+Fresh sealed external `gpt-5.4` review returned `ACCEPT_WITH_REPAIRS` and retained every part of the
+bounded scientific landing. R1 restores the controlling static finite-box conditional status. R2
+replaces hard-coded hostile witness outputs with primitive recomputations. R3 independently derives
+the normalized Hopf connection integral and compactification basepoint. R4 separates 17 computed
+identities from 6 conclusion flags. Repair-only external follow-up remains open.

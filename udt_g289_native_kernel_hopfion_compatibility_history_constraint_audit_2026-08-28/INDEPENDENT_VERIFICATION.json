@@ -1,12 +1,16 @@
 {
-  "assertions": 14533,
+  "assertions": 14537,
+  "basepoint_adjoint_identity": true,
   "boost_signs_covered": [
     "negative",
     "zero",
     "positive"
   ],
+  "compactification_basepoint_fixed": true,
   "conformal_history_controls": 5,
+  "hopf_connection_normalized_integral": "-1",
   "hopf_fiber_controls": 122,
+  "hopf_integral_recomputed": true,
   "imports_production_module": false,
   "method": "standard_library_fraction_stereographic_and_quaternion_routes",
   "random_exact_cases": 1200,
