@@ -4,9 +4,9 @@ Date: 2026-08-28
 
 ## Question
 
-Do current owned identities uniquely continue a compatible complete `L2` separation network from a
-fully shared prior region, or can two regular complete metric networks share that prior region and
-every joining-surface jet while carrying different future tidal values?
+Do current owned identities uniquely continue a regular complete metric from a fully shared prior
+region, or can two regular complete metrics share that prior region and every joining-surface jet
+while carrying different future curvature and tidal values?
 
 ## Frozen witnesses
 
@@ -26,7 +26,7 @@ Insert each into the G283 metric family. No outcome-dependent alternative witnes
 
 1. `CURRENT_IDENTITIES_PROPAGATE_TESTED_COMPLETE_GERM_UNIQUELY`
    if the second witness fails regularity or an owned compatibility/carry identity.
-2. `SAME_COMPLETE_PRIOR_AND_ALL_BOUNDARY_JETS_ADMIT_DISTINCT_FUTURE_L2_NETWORKS__VALUE_PROPAGATION_REMAINS_OPEN`
+2. `SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT__GEOMETRICALLY_INEQUIVALENT_FUTURE_CONTINUATIONS__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION`
    if both witnesses are regular, coincide for `u<=0` and to every jet at `u=0`, pass the inherited
    identity layer, and differ invariantly for some `u>0`.
 3. `G286_WITNESS_INCONCLUSIVE`

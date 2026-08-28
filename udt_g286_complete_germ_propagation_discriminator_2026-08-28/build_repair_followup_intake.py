@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a sealed G286 repair-only follow-up intake."""
+"""Build a sealed G286 final R2-completion follow-up intake."""
 
 from __future__ import annotations
 
@@ -31,7 +31,7 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    destination = Path(tempfile.mkdtemp(prefix="udt_g286_repair_followup_", dir="/tmp"))
+    destination = Path(tempfile.mkdtemp(prefix="udt_g286_r2_completion_followup_", dir="/tmp"))
     package_destination = destination / PACKAGE.name
     package_destination.mkdir()
     excluded = {"REVIEW_MANIFEST.tsv", "REVIEW_MANIFEST.sha256", "REVIEW_SCOPE.json"}
@@ -55,19 +55,19 @@ def main() -> None:
         shutil.copy2(source, target)
 
     scope = {
-        "audit": "G286_R1_R2_R3_REPAIR_ONLY_FOLLOWUP",
-        "mode": "read-only repair-only follow-up review",
+        "audit": "G286_R2_WORDING_COMPLETION_ONLY_FOLLOWUP",
+        "mode": "read-only R2-completion-only follow-up review",
         "allowed": (
-            "inspect only the sealed intake; verify only preregistered repairs R1-R3, fresh "
-            "aggregate replay, hostile rejection, and unchanged bounded scientific landing; run "
-            "checks only in a writable ephemeral copy"
+            "inspect only the sealed intake; verify only completion of the previously rejected R2 "
+            "metric-native preregistration wording and the unchanged bounded scientific landing; "
+            "run only bounded read-only checks or checks in a writable ephemeral copy"
         ),
         "forbidden": (
             "edit evidence files, continue the research, access repository files outside the "
             "sealed intake, inspect protected packages, change the question, select a law, or "
             "canonize G285"
         ),
-        "scientific_ceiling": "repair verification only; no extension of the accepted G286 landing",
+        "scientific_ceiling": "R2 wording verification only; no extension of the G286 landing",
     }
     (destination / "REVIEW_SCOPE.json").write_text(
         json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8"

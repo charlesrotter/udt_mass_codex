@@ -12,5 +12,5 @@ python3 verify_independent.py --production DERIVATION_RESULT.json
 python3 verify_package.py
 ```
 
-Both commands are dependency-free CPU checks. They evaluate a supplied smooth metric witness and do
+All commands are dependency-free CPU checks. They evaluate a supplied smooth metric witness and do
 not solve or propose a physical field equation.

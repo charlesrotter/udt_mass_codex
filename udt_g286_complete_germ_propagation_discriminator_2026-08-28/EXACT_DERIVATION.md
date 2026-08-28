@@ -79,8 +79,9 @@ R_{uyuy}[g_{T_1}]=-\frac15e^{-1/u^2},
 \]
 
 while the entire Riemann tensor of \(g_{T_0}\) vanishes. The futures are therefore geometrically
-inequivalent. In G285 language, they carry distinct future `L2` values and distinct `L3` network
-extensions despite having the same complete prior network.
+inequivalent. In G285's provisional, noncanon shorthand, they carry distinct future `L2` values and
+distinct `L3` network extensions despite having the same complete prior network. This shorthand is
+not used in the proof.
 
 ## 4. Transfer diagnostic
 

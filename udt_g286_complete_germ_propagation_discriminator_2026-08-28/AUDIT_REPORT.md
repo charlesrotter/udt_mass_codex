@@ -13,7 +13,7 @@ __CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION
 Secondary provisional G285 typing: the same prior `L3` network admits distinct future `L2`
 valuations. This wording is not load-bearing and does not adopt G285.
 
-Status: `PREREGISTERED__EXACT_BOUNDED_DERIVATION__TWO_METHOD_NUMERICAL_DIAGNOSTIC__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN`.
+Status: `PREREGISTERED__EXACT_BOUNDED_DERIVATION__TWO_METHOD_NUMERICAL_DIAGNOSTIC__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R3_ACCEPTED__R2_WORDING_COMPLETED__FINAL_FOLLOWUP_OPEN`.
 
 ## What was learned
 
@@ -47,6 +47,12 @@ temporary directory. R2 states the primary result in G283-native metric/curvatur
 labels numerical sample checks separately from the analytic whole-region and all-jet proof. The R1
 hostile control forced the fresh production replay to fail, and the aggregate verifier rejected the
 mutated package with exit `1`.
+
+The first repair-only follow-up accepted R1, R3, all fresh replays, hostile rejection, and exact
+artifact reproduction, but returned `REPAIR-REJECTED` because two lines in the original
+preregistration still used G285 `L2` terminology as the main question and landing. Those two lines
+have now been replaced by the already-preregistered G283-native metric/curvature wording. A final
+R2-only follow-up remains open; the scientific result is unchanged.
 
 ## Maximum conclusion
 
