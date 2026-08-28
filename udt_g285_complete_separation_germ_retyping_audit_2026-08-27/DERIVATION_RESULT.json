@@ -1,0 +1,51 @@
+{
+  "audit": "G285_COMPLETE_SEPARATION_GERM_RETYPING",
+  "candidate_clarification_status": "CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION__NOT_CANON",
+  "checks": {
+    "G280_registered_pass": true,
+    "G282_registered_pass": true,
+    "G283_registered_pass": true,
+    "G283_retains_arbitrary_functions": true,
+    "G284_finds_no_value_selector": true,
+    "G284_registered_pass": true,
+    "G284_retains_arbitrary_functions": true,
+    "W5_scalar_is_not_complete_germ": true,
+    "W5_scalar_is_retained_component": true,
+    "cone_hessian_map_injective": true,
+    "cone_hessian_reconstructs_tide_A": true,
+    "cone_hessian_reconstructs_tide_B": true,
+    "different_complete_germs_registered": true,
+    "different_tidal_values_registered": true,
+    "radial_fixed_depth_areas_differ": true,
+    "retyping_does_not_attach_scale": true,
+    "retyping_does_not_select_population": true,
+    "retyping_does_not_supply_dynamics": true,
+    "same_completed_central_pair_registered": true,
+    "same_longitudinal_scalar_registered": true
+  },
+  "exact_checks": 20,
+  "landing": "COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS__VALUE_PROPAGATION_REMAINS_OPEN",
+  "regraded_claims": {
+    "G280": "SAME_L0_NOT_SAME_L2__SCALAR_AREA_NONIDENTITY_RETAINED",
+    "G281": "NO_NATIVE_SNE_PREDICTION_UNCHANGED",
+    "G282": "SAME_FIRST_JET_NOT_SAME_L2__MINIMUM_INFORMATION_RESULT_RETAINED",
+    "G283": "DISTINCT_L2_VALUATIONS__IDENTITY_VALUE_NONSELECTION_RETAINED",
+    "G284": "NEIGHBOR_CONE_RECONSTRUCTS_L2__VALUE_PROPAGATION_STILL_OPEN"
+  },
+  "scientific_imports": {
+    "action": false,
+    "field_equation": false,
+    "observation_or_fit": false,
+    "scale_or_Xmax": false,
+    "source_or_matter": false
+  },
+  "status": "PASS",
+  "type_levels": [
+    "L0_LONGITUDINAL_SCALAR",
+    "L1_COMPLETED_PAIR",
+    "L2_COMPLETE_SEPARATION_GERM",
+    "L3_COMPATIBLE_RELATION_NETWORK",
+    "L4_PHYSICAL_VALUE_PROPAGATION"
+  ],
+  "value_selecting_constraints_found": 0
+}

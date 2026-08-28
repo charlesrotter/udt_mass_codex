@@ -1,0 +1,20 @@
+{
+  "audit": "G285_TYPED_OVERREACH_CATCHES",
+  "baseline_accepted": true,
+  "caught": {
+    "call_same_phi_same_separation": true,
+    "claim_retyping_selects_values": true,
+    "collapse_complete_germ_to_phi": true,
+    "derive_absolute_scale": true,
+    "erase_value_nonselection": true,
+    "externalize_tidal_sector": true,
+    "globalize_local_germ": true,
+    "import_observations_or_dynamics": true,
+    "promote_c_eff_to_signal_speed": true,
+    "silently_replace_W5": true
+  },
+  "caught_count": 10,
+  "mutation_count": 10,
+  "scope": "in_memory_typed_claim_schema_only",
+  "status": "PASS"
+}

@@ -1,7 +1,8 @@
 id	object	status	maximum_statement
-S01	preregistration	READY_NOT_YET_BANKED	Four landings and falsifiers frozen
-S02	candidate complete-separation clarification	CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION	Under audit not adopted or canon
-S03	outcome derivation	NOT_RUN	No landing before preregistration commit
-S04	independent verification	NOT_RUN	No evidence before preregistration commit
-S05	hostile catch proofs	NOT_RUN	No evidence before preregistration commit
+S01	preregistration	PASS_BANKED_AT_B2ABD37A	Four landings and falsifiers frozen
+S02	candidate complete-separation clarification	SUPPORTED_CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION	Not adopted or canon
+S03	outcome derivation	PASS_20_OF_20	Scalar twins are distinct L2 germs
+S04	independent verification	PASS_256_CASES_2048_ASSERTIONS	Exact rational retyping census
+S05	hostile catch proofs	PASS_10_OF_10	Typed overreach rejected
 S06	external review	NOT_REQUESTED	Future bounded gate only
+S07	package and live replay	PASS_INTERNAL_COMPLETE	Four exact replays plus one mutation catch

@@ -1,0 +1,14 @@
+{
+  "audit": "G285_INDEPENDENT_COMPLETE_GERM_VERIFICATION",
+  "exact_assertions": 2048,
+  "exact_cases": 256,
+  "implementation": "independent_fraction_witness_census",
+  "production_imported": false,
+  "production_output_read": false,
+  "radial_checks": {
+    "different_areal_radius_squared": true,
+    "different_sphere_area_factor": true,
+    "same_depth": true
+  },
+  "status": "PASS"
+}
