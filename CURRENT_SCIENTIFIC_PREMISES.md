@@ -83,6 +83,7 @@
 | G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
 | G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
 | G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
+| G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -102,7 +103,9 @@ None selects completion/`X_max`.
 
 - The pullbacks and bivector area bilinear recover `g`; scalars stop at positive conformal class;
   metricity is not dynamics. G212--G281 reconstruct and type controls. G282--G284 locate
-  neighboring-curvature values; compatibility and causal/projective reconstruction do not select them.
+  neighboring-curvature values; compatibility and causal/projective reconstruction do not select
+  them. G285 retypes different tidal values as different complete separation germs and retains the
+  missing network/value-propagation law.
 
 ## Carrier, action, source, and matter
 
@@ -118,7 +121,7 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G236--G276 are controls except G258. G277--G284 leave
+R2--R5 select no scale or `X_max`; G236--G276 are controls except G258. G277--G285 leave
 history/transfer open: no native SNe prediction or value law; redshift/evaluator survive.
 
 ## Recurring prohibited promotions
@@ -132,5 +135,5 @@ Do not:
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 268-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 269-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

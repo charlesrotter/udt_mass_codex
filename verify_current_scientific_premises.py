@@ -194,10 +194,15 @@ def replay_package_with_current_registry_rows_removed(
     package: Path,
     removed_ids: tuple[str, ...],
     frozen_source_overrides: dict[str, Path] | None = None,
+    include_legacy_later_rows: bool = True,
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
+    legacy_later_rows = (
+        "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
+    ) if include_legacy_later_rows else ()
     removed_ids = tuple(
-        dict.fromkeys(("G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268") + removed_ids)
+        dict.fromkeys(legacy_later_rows + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -355,6 +360,7 @@ def validate_startup_surface(root: Path) -> None:
             "G282",
             "G283",
             "G284",
+            "G285",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -398,7 +404,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "268-row exact registry",
+            "269-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -609,6 +615,7 @@ def validate_startup_surface(root: Path) -> None:
             "G282",
             "G283",
             "G284",
+            "G285",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -713,6 +720,7 @@ def validate_startup_surface(root: Path) -> None:
             "G282",
             "G283",
             "G284",
+            "G285",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -811,11 +819,12 @@ def validate_startup_surface(root: Path) -> None:
             "G282",
             "G283",
             "G284",
+            "G285",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "268-row",
+            "269-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1177,9 +1186,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 268, "premise registry must contain exactly 268 rows")
+    require(len(rows) == 269, "premise registry must contain exactly 269 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 268, "duplicate premise id")
+    require(len(by_id) == 269, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1220,6 +1229,11 @@ def main() -> None:
             "EXTERNALLY_REVIEWED_REPAIRS_CONFIRMED__PREREGISTERED_AT_C61ED4F4",
             "udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/AUDIT_REPORT.md",
             "EMERGENT_CE_CAUSAL_PROJECTIVE_NETWORK_RECONSTRUCTS_BUT_DOES_NOT_SELECT_TIDAL_HISTORY",
+        ),
+        "G285": (
+            "EXTERNALLY_REVIEWED_REPAIRS_CONFIRMED__PREREGISTERED_AT_B2ABD37A",
+            "udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md",
+            "COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13241,6 +13255,111 @@ def main() -> None:
         "G284 dependency-free replay landing regressed",
     )
 
+    g285_row = by_id["G285"]
+    require(
+        g285_row["active_use"]
+        == "ACTIVE_BOUNDED_COMPLETE_SEPARATION_GERM_TYPE_REGRADING_ONLY",
+        "G285 active scope widened",
+    )
+    for guard in (
+        "whether Charles adopts the candidate complete-separation clarification provisionally",
+        "physical propagation and admissibility of compatible L3 relation networks",
+        "L4 physical value propagation",
+        "observer branch and path population",
+        "absolute scale and operational distance",
+        "caustics and global completion",
+        "time-live dynamics radiative transfer observations source matter and Xmax",
+    ):
+        require(guard in g285_row["open_scope"], f"G285 open boundary absent: {guard}")
+    for guard in (
+        "phi W5 or longitudinal scalar called complete separation",
+        "equal phi called equal complete L2 germ despite different tide",
+        "angular response forced to be a scalar-only function of phi",
+        "source-bounded type-schema checks called fresh exact witness derivation or independent geometric verification",
+        "candidate clarification called adopted or canonized",
+        "retyping called value propagation history selection dynamics scale population or Xmax",
+        "observations field equation action source fit scale Xmax or protected work imported",
+    ):
+        require(guard in g285_row["forbidden_regression"], f"G285 guard absent: {guard}")
+    g285 = ROOT / "udt_g285_complete_separation_germ_retyping_audit_2026-08-27"
+    for name in (
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "REPAIR_RESULT.json",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "verify_package.py",
+    ):
+        require((g285 / name).is_file(), f"G285 closure evidence missing: {name}")
+    g285_derivation = json.loads((g285 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g285_independent = json.loads(
+        (g285 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    g285_catches = json.loads((g285 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g285_verification = json.loads((g285 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g285_repairs = json.loads((g285 / "REPAIR_RESULT.json").read_text(encoding="utf-8"))
+    g285_landing = (
+        "COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS__"
+        "VALUE_PROPAGATION_REMAINS_OPEN"
+    )
+    require(
+        g285_derivation["status"] == "PASS"
+        and g285_derivation["landing"] == g285_landing
+        and g285_derivation["type_schema_checks"] == 20
+        and all(g285_derivation["checks"].values())
+        and g285_derivation["value_selecting_constraints_found"] == 0
+        and g285_derivation["witness_geometry_recomputed"] is False
+        and not any(g285_derivation["scientific_imports"].values()),
+        "G285 type-schema adjudication or import guard regressed",
+    )
+    require(
+        g285_independent["status"] == "PASS"
+        and g285_independent["audit"] == "G285_IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS"
+        and g285_independent["type_schema_cases"] == 256
+        and g285_independent["type_schema_assertions"] == 2048
+        and g285_independent["witness_geometry_recomputed"] is False,
+        "G285 implementation-distinct type-schema census regressed",
+    )
+    require(
+        g285_catches["status"] == "PASS"
+        and g285_catches["caught_count"] == g285_catches["mutation_count"] == 10
+        and all(g285_catches["caught"].values()),
+        "G285 typed catch coverage regressed",
+    )
+    require(
+        g285_verification["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
+        and g285_verification["landing"] == g285_landing
+        and g285_verification["external_review"]
+        == "ACCEPT_WITH_REPAIRS__R1_R2_EXTERNALLY_CONFIRMED"
+        and g285_verification["checks"]["geometry_not_claimed_recomputed"]
+        and g285_verification["checks"]["rejected_overgrade_absent_from_current_reports"],
+        "G285 bounded package landing regressed",
+    )
+    require(
+        g285_repairs["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
+        and not g285_repairs["scientific_landing_changed"]
+        and all(g285_repairs["repairs"].values())
+        and g285_repairs["geometry_recomputed_by_G285"] is False
+        and g285_repairs["external_repair_followup"]
+        == "NO_SCOPED_REPAIR_DEFECTS__R1_R2_CONFIRMED__LANDING_UNCHANGED"
+        and g285_repairs["external_report_sha256"]
+        == "60752f841ef4a091b02870f728e3c9aab39a94d0d6d295a6e243cc6a18dbeb1f"
+        and "No scoped repair defects found."
+        in (g285 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
+        "G285 external repair-only closure regressed",
+    )
+    g285_replay_result = replay_package_with_current_registry_rows_removed(
+        g285, ("G285",), include_legacy_later_rows=False
+    )
+    require(
+        g285_replay_result["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
+        and g285_replay_result["landing"] == g285_landing
+        and g285_replay_result["checks"]["registered_replays_4_of_4"]
+        and g285_replay_result["checks"]["rejected_overgrade_absent_from_current_reports"],
+        "G285 dependency-free replay landing regressed",
+    )
+
     validate_startup_surface(ROOT)
 
     agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -13301,7 +13420,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

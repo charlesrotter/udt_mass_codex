@@ -2,7 +2,7 @@
 
 Date: 2026-08-27
 
-`LIVE.md` controls status; the 268-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 269-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -92,6 +92,12 @@ population, operational distance, or `X_max`.
 - G284 adds the emergent-`c_E` causal/projective test. Cone slope and neighboring Hessian reconstruct
   `T_ij=R_uiuj` and Jacobi response, but arbitrary `T(u)` and homothety survive. Fresh and repair-only
   external review accepted the bounded nonselection result.
+- G285 retypes the G280--G284 witnesses by distinguishing longitudinal scalar (`L0`), completed
+  pair (`L1`), complete separation germ with neighboring transverse/tidal variation (`L2`),
+  compatible relation network (`L3`), and physical value propagation (`L4`). Equal `phi` with
+  different tidal data is therefore different complete separation, not nondeterministic output
+  from one separation. Its source-bounded type-schema evidence and R1/R2 repair are externally
+  confirmed; the candidate clarification is supported but not adopted or canon.
 
 ## Open boundary
 
@@ -107,7 +113,10 @@ nonidentity constraint on neighboring-relation curvature values while leaving it
 global representation nonunique. G283 closes ordinary metric/Cartan/Bianchi/Jacobi/network
 compatibility identities as the source of that value law. G284 shows that local `c_E` causal cones,
 projective state, neighboring-cone reconstruction, and finite network carry still reconstruct rather
-than select tidal values or absolute scale on the fixed witness arena.
+than select tidal values or absolute scale on the fixed witness arena. G285 removes the narrower
+demand that a longitudinal scalar determine the transverse sector: the complete `L2` separation
+germ contains both. It does not supply the `L2 -> L3/L4` propagation or physical-admissibility
+principle.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -115,11 +124,12 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister the narrowest native nonidentity relation between longitudinal reciprocal/projective
-change and transverse second cone variation, then test it on the fixed G283/G284 arbitrary-`T(u)`
-family. A successful candidate must reject at least one regular witness for a native covariant
-reason without importing observations or a familiar equation by habit. The formula remains open.
-Only after such a law
+First PONDER provisional adoption of G285's complete-separation-germ clarification. Then MAP and
+preregister the narrowest native principle that propagates compatible `L2` complete germs into an
+`L3` network and restricts physical `L4` values. A successful candidate must reject at least one
+regular complete-germ network witness for a native covariant reason without importing observations,
+forcing the transverse sector to be a function of `phi` alone, or choosing a familiar equation by
+habit. The mathematical form remains open. Only after such a law
 reduces the history to an independently derived finite-dimensional family may observations
 calibrate constants. Do not choose `K`, fit a free optical curve, identify projective and areal
 position by fiat, retune observations, or select population, operational distance, or `X_max`.

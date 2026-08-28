@@ -9,7 +9,8 @@
 G166--G276 is the active structural spine; G277--G281 control the current observational interface;
 G282 types the remaining joint history/Jacobi information; G283 proves ordinary owned identities
 do not select its values; G284 proves emergent-`c_E` causal/projective reconstruction does not
-select them either on the fixed witness arena.
+select them either on the fixed witness arena; G285 shows equal scalar state with different tide
+means different complete separation germs rather than one separation with two outputs.
 On a supplied germ, the primary metric's `B,Q,S,Y,Z` orchestra enters `h=F^*g` before readout.
 Founded depth gives `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not a signal-speed
 theorem. Completed-pair Dual Reciprocity is a `WORKING_FOUNDATIONAL_CLARIFICATION`:
@@ -54,6 +55,12 @@ reconstructs `T_ij=R_uiuj` and its Jacobi response. That makes the missing relat
 but arbitrary smooth `T(u)` and positive homothety still survive. The external repair follow-up
 confirmed the bounded landing without importing a law or observation.
 
+G285 retypes the boundary as `L0` longitudinal scalar -> `L1` completed pair -> `L2` complete
+separation germ -> `L3` compatible network -> `L4` physical value propagation. Angular/tidal data
+are part of complete separation at `L2`; they need not be determined by `phi` alone. The bounded
+type regrade and external R1/R2 confirmation are complete. This interpretation is supported as a
+candidate working clarification, not adopted and not canon.
+
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw archive:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Evaluator:
@@ -71,12 +78,13 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister the narrowest native nonidentity relation between longitudinal
-reciprocal/projective change and transverse second cone variation, and test it against the fixed
-G283/G284 arbitrary-`T(u)` family. A viable candidate must reject a regular witness for a native
-covariant reason, not merely restate reconstruction, compatibility, or observations. Do not select/average/smooth `K`, reconstruct a free
-optical curve from observations, identify areal and projective position by fiat, retune observations,
-or select population/`X_max`. The CMB-temperature ratio is a later direct-depth check. No
-ODE/PDE/GPU solve is authorized before an explicit candidate law and premise ledger.
+Next: PONDER provisional adoption of G285's complete-separation clarification, then MAP the
+narrowest native `L2 -> L3/L4` propagation/admissibility principle. It must constrain a complete
+germ network for a native covariant reason, not merely restate reconstruction, compatibility, or
+observations, and must not force transverse response to be a scalar-only function of `phi`. Do not
+select/average/smooth `K`, reconstruct a free optical curve from observations, identify areal and
+projective position by fiat, retune observations, or select population/`X_max`. The CMB-temperature
+ratio is a later direct-depth check. No ODE/PDE/GPU solve is authorized before an explicit candidate
+law and premise ledger.
 
 <!-- STARTUP_CURRENT_END -->
