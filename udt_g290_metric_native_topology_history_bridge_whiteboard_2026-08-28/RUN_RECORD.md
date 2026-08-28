@@ -19,3 +19,6 @@ Date: 2026-08-28
    pre-existing matter-sector habit-pin gate and is unrelated to G290.
 10. The startup-surface test first rejected one 238-character compressed `INDEX.md` pointer; the
     pointer was repaired and the full harness then passed.
+11. After G289 repair-only closure, the exact complete-pair screen-holonomy and time-live
+    transgression question was separately frozen before computation in
+    `EXACT_DERIVATION_PREREGISTRATION.md`; outcome derivation remains open.

@@ -13827,6 +13827,8 @@ def main() -> None:
         "MAP.md",
         "PREREGISTRATION.md",
         "PREMISE_LEDGER.tsv",
+        "EXACT_DERIVATION_PREREGISTRATION.md",
+        "EXACT_DERIVATION_PREMISE_LEDGER.tsv",
         "WHITEBOARD_REPORT.md",
         "CANDIDATE_MATRIX.tsv",
         "PANEL_SYNTHESIS.md",
@@ -13834,6 +13836,12 @@ def main() -> None:
     ):
         require((g290 / name).is_file(), f"G290 evidence missing: {name}")
     g290_report = (g290 / "WHITEBOARD_REPORT.md").read_text(encoding="utf-8")
+    g290_exact_prereg = (g290 / "EXACT_DERIVATION_PREREGISTRATION.md").read_text(encoding="utf-8")
+    require(
+        "FROZEN_BEFORE_EXACT_DERIVATION" in g290_exact_prereg
+        and "transgression a conservation law or a history selector" in g290_exact_prereg,
+        "G290 exact derivation preregistration regressed",
+    )
     for token in (
         "PURE_TOPOLOGY_CANNOT_SEPARATE_THE_G289_CONNECTED_CONFORMAL_TWINS",
         "SCREEN_DIFFERENTIAL_CHARACTER_COMBINES_GAUGE_INVARIANT_SECTOR_DATA_WITH_METRIC_SENSITIVE_HOLONOMY",

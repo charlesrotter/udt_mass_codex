@@ -70,7 +70,7 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister G290's exact complete-pair screen-holonomy
+Next: execute G290's preregistered exact complete-pair screen-holonomy
 descent and time-live transgression; do not promote it to persistence or selection. Keep G288's
 general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.

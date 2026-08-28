@@ -42,7 +42,7 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Preregister and derive G290's complete-pair screen holonomy and time-live
+Execute G290's preregistered complete-pair screen holonomy and time-live
 transgression without promoting either to persistence or selection; keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:

@@ -97,7 +97,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister G290's exact
+Execute G290's preregistered exact
 complete-pair screen-holonomy/conformal-twin descent and time-live transgression. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.
