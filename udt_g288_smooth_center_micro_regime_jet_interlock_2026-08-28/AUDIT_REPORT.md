@@ -54,7 +54,7 @@ reciprocal clock/curvature germ.
   acceptance;
 - 9/9 hostile regressions are caught, including Planck/\(X_{\max}\) insertion, physical-mass
   promotion, coordinate-speed promotion, profile/arrow sign aliasing, and trust in an old audit;
-- the current 271-row premise/startup verifier passes;
+- the current 272-row premise/startup verifier passes;
 - the repository suite passes 192 tests with one expected `HABIT`-pin xfail;
 - the first full suite run exposed an overlong G287-era `INDEX.md` line; it was wrapped without a
   semantic change and the full suite then passed;

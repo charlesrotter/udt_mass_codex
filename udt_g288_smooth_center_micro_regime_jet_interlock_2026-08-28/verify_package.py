@@ -35,6 +35,7 @@ def main() -> None:
         "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md", "STATUS_LEDGER.tsv", "derive_micro_center.py",
         "verify_independent.py", "run_catch_proofs.py", "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+        "ADVERSARIAL_REVIEW_REQUEST.md", "build_review_intake.py",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
     if missing:

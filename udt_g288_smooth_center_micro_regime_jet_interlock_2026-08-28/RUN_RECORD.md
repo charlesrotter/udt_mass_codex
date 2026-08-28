@@ -15,7 +15,7 @@ Date: 2026-08-28
    production script from writing its own result, then because it compared a multiline displayed
    landing without whitespace normalization.  Both verifier-only defects were repaired.  The
    aggregate package then passed.
-7. The 271-row premise/startup verifier passed.
+7. The 272-row premise/startup verifier passed after the G288 row and replay guard were registered.
 8. The first full repository suite found one 234-character G287-era `INDEX.md` line against the
    220-character startup-surface limit.  The line was shortened without changing its pointers.
    The focused test passed, followed by a full pass: 192 passed, one expected xfail.

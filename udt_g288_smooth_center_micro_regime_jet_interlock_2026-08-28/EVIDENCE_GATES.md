@@ -30,10 +30,9 @@ work.  The derivation labels the metric readout, analytic center restriction, ob
 geometric \(\mu\), profile coefficients, and omitted Planck/\(X_{\max}\)/matter/history objects
 separately.  Old audits are comparison targets, not premises.
 
-The repository-wide current-premise verifier passes its 271-row registry and startup guards.  The
+The repository-wide current-premise verifier passes its 272-row registry and startup guards.  The
 full repository suite passes 192 tests with one expected xfail.
 
 ## Current grade
 
 `INDEPENDENTLY_VERIFIED_LOCAL_DERIVATION__EXTERNAL_REVIEW_OPEN`
-
