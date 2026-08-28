@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-27
+## CURRENT STATE — 2026-08-28
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
@@ -23,8 +23,8 @@ screen-retaining projective relation state. It is not canon and changes neither 
 G166--G276 is the active structural spine; G277--G281 control the observational interface and its
 provenance; G282 types the remaining joint history/Jacobi information; G283 tests the owned
 identity layers for hidden value selection; G284 tests whether emergent-`c_E` causal/projective
-structure supplies the missing values; G285 retypes equal-scalar/different-tide witnesses as
-different complete separation germs. A supplied germ pulls
+structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286 shows boundedly
+that current identities do not uniquely continue a shared prior metric. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -71,6 +71,9 @@ Current observational/history boundary:
   separations, not one complete separation with two outputs. This removes the false requirement that
   angular response be a function of `phi` alone. The source-bounded type regrade and its external
   repair follow-up are complete; the candidate clarification is supported but not adopted or canon.
+- G286's externally accepted metric-native witnesses share the whole prior region and all null-join
+  jets but differ in future curvature. Current identities evaluate, not uniquely propagate, these
+  continuations. A stronger native UDT law remains possible and unselected.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -98,14 +101,12 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Stop searching ordinary compatibility or causal-reconstruction identities, or a scalar-only
-`phi -> angular response` rule, for the missing composer. First PONDER whether to adopt G285's
-complete-separation-germ clarification provisionally. Then MAP the narrowest native principle that
-propagates compatible complete `L2` germs into an `L3` network and restricts its physical `L4`
-values. A viable principle must reject at least one regular complete-germ network witness for a
-native, covariant, non-observational reason while preserving reciprocity, the GR-quiet regime, and
-the angular/screen sector. Its mathematical form is still `OPEN`; do not choose a familiar field
-equation by habit or force transverse behavior to be a function of `phi` alone.
+G286 closes ordinary compatibility, reconstruction, Cartan/Bianchi, carry, and Jacobi identities as
+unique propagation on its witness. PONDER whether UDT needs a value-bearing native
+propagation/admissibility principle or a sharper founding premise. If the former, MAP the narrowest
+covariant condition separating G286's futures while preserving reciprocity, GR-quiet behavior, and
+the angular/screen sector. Its form is `OPEN`; do not import a familiar equation, canonize G285, or
+force transverse behavior to depend on `phi` alone.
 Only after a finite-dimensional joint history is independently derived may SNe or another
 observation calibrate its constants. Do not choose a preferred `K`, draw a free optical curve from
 the data, identify areal radius with projective position by fiat, retune either SNe release, or

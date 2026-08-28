@@ -7,7 +7,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing rows and evidence.
 
-The exact current premise authority is the 269-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+The exact current premise authority is the 270-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Active relational frontier
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
@@ -68,8 +68,8 @@ The exact current premise authority is the 269-row `CURRENT_SCIENTIFIC_PREMISES.
   `udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/`; `udt_g281_sne_validation_provenance_reconstruction_audit_2026-08-27/`.
 - Complete-history/value-law boundary: `udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/`;
   `udt_g283_neighbor_relation_curvature_identity_nonselection_2026-08-27/`; `udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/`;
-  `udt_g285_complete_separation_germ_retyping_audit_2026-08-27/`.
-## Durable prerequisites
+  `udt_g285_complete_separation_germ_retyping_audit_2026-08-27/`;
+  `udt_g286_complete_germ_propagation_discriminator_2026-08-28/`.
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`
@@ -89,7 +89,6 @@ Chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197:
 - R5 accepted follow-up/manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
-## Foundational and premise authorities
 - Status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
 - Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
@@ -99,17 +98,16 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
-- Current complete-separation/value-propagation boundary: `udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md`;
-  G284 controls causal/projective reconstruction, G283 identity nonselection, and G282 the
-  minimum-information-type prerequisite.
+- Current complete-separation/value-propagation boundary: `udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md`;
+  G285 supplies only provisional type language, G284 controls causal/projective reconstruction,
+  G283 identity nonselection, and G282 the minimum-information-type prerequisite.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Supplied germs/incidence controls: query G168--G171, then controlling G215, in the registry.
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
-## Historical negative controls — never kernel inputs
-- G164/G165 scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
+- Historical negative controls — never kernel inputs: G164/G165 scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
   `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
 - Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 ## Matter/stability lane

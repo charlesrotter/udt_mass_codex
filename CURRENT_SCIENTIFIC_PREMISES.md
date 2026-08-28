@@ -15,7 +15,7 @@
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale/history/`X_max` |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
-| Projective pair coordinate | `DERIVED` in declared class / exact radial stratum | `chi=tanh(phi_pair)` plus screen-retaining open-ball vector | Physical-position adoption; scale; completion |
+| Projective pair coordinate | `DERIVED` in declared class/radial stratum | `chi=tanh(phi_pair)` plus open-ball vector | Adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
 
 ## Reconstruction hierarchy
@@ -84,12 +84,13 @@
 | G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
 | G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
+| G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
 None selects completion/`X_max`.
 ## Scale and limits
 
 | Object | Status | Guard |
 |---|---|---|
-| `X_max` | working asymptotic global-completion consequence target | Requires metric separation/finite all-frame supremum; not a local input, wall, center, seam, seal, or boundary term |
+| `X_max` | working asymptotic global-completion consequence target | Requires global completion; not an input, wall, center, seam, or boundary term |
 | Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
 | Common-factor cancellation | `DERIVED` algebra only | Not Weyl gauge or scale-free proof |
 | Founded pair common scale | `FIXED` in bounded block | Determinant-one pair block; not a complete-metric theorem |
@@ -101,11 +102,9 @@ None selects completion/`X_max`.
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 ## Geometry, query, and causality
 
-- The pullbacks and bivector area bilinear recover `g`; scalars stop at positive conformal class;
-  metricity is not dynamics. G212--G281 reconstruct and type controls. G282--G284 locate
-  neighboring-curvature values; compatibility and causal/projective reconstruction do not select
-  them. G285 retypes different tidal values as different complete separation germs and retains the
-  missing network/value-propagation law.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
+  G282--G284 locate but do not select neighboring curvature. G285 retypes tide as part of complete
+  separation; G286 shows current identities do not uniquely propagate the tested shared prior.
 
 ## Carrier, action, source, and matter
 
@@ -113,27 +112,15 @@ None selects completion/`X_max`.
 |---|---|---|
 | Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
 | Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
-| Static Hopfion | scoped finite-box `SETTLED` | Not unconditional particle stability |
 | EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
-| `C^2`/Bach action | Conditional on inactive strong-CSN premise | No priority |
 | Native source | `OPEN` | Geometric response/current roles do not supply source substance |
-| Bootstrap | `WORKING` mutual-admissibility posit | No complete fixed point, density selector, or matter theorem |
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G236--G276 are controls except G258. G277--G285 leave
-history/transfer open: no native SNe prediction or value law; redshift/evaluator survive.
-
-## Recurring prohibited promotions
-
-Do not:
-
-- derive pointwise depth from supplied depth; call pair `c_eff` signal speed; or insert `X_max`, fits,
-  universe size, or seams;
-- promote controls to dynamics, revive strong CSN, or identify celestial `S^2` with matter;
-- globalize germs, activate absent couplings, select `Y,Z`, erase calibrations, or import mechanisms.
+R2--R5 select no scale or `X_max`; G277--G286 leave history/transfer open. Direct redshift and the
+evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 269-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 270-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

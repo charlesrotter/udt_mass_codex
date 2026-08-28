@@ -198,7 +198,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -361,6 +361,7 @@ def validate_startup_surface(root: Path) -> None:
             "G283",
             "G284",
             "G285",
+            "G286",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -404,7 +405,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "269-row exact registry",
+            "270-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -616,6 +617,7 @@ def validate_startup_surface(root: Path) -> None:
             "G283",
             "G284",
             "G285",
+            "G286",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -721,6 +723,7 @@ def validate_startup_surface(root: Path) -> None:
             "G283",
             "G284",
             "G285",
+            "G286",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -820,11 +823,12 @@ def validate_startup_surface(root: Path) -> None:
             "G283",
             "G284",
             "G285",
+            "G286",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "269-row",
+            "270-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1186,9 +1190,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 269, "premise registry must contain exactly 269 rows")
+    require(len(rows) == 270, "premise registry must contain exactly 270 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 269, "duplicate premise id")
+    require(len(by_id) == 270, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1234,6 +1238,11 @@ def main() -> None:
             "EXTERNALLY_REVIEWED_REPAIRS_CONFIRMED__PREREGISTERED_AT_B2ABD37A",
             "udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md",
             "COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS",
+        ),
+        "G286": (
+            "EXTERNALLY_ACCEPTED_AFTER_REPAIRS__PREREGISTERED_AT_E20C7A32",
+            "udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md",
+            "SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13350,7 +13359,7 @@ def main() -> None:
         "G285 external repair-only closure regressed",
     )
     g285_replay_result = replay_package_with_current_registry_rows_removed(
-        g285, ("G285",), include_legacy_later_rows=False
+        g285, ("G286", "G285"), include_legacy_later_rows=False
     )
     require(
         g285_replay_result["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
@@ -13359,6 +13368,101 @@ def main() -> None:
         and g285_replay_result["checks"]["rejected_overgrade_absent_from_current_reports"],
         "G285 dependency-free replay landing regressed",
     )
+
+    g286_row = by_id["G286"]
+    require(
+        g286_row["active_use"]
+        == "ACTIVE_BOUNDED_SMOOTH_G283_COMPLETE_METRIC_PROPAGATION_DISCRIMINATOR_ONLY",
+        "G286 active scope widened",
+    )
+    for guard in (
+        "native physical propagation or admissibility principle",
+        "whether it is local global or mixed",
+        "extension beyond the frozen smooth G283 family and null join",
+        "complete evolving history",
+        "observer branch path and germ population",
+        "absolute scale operational distance radiative transfer observations source matter dynamics and Xmax",
+    ):
+        require(guard in g286_row["open_scope"], f"G286 open boundary absent: {guard}")
+    for guard in (
+        "bounded null-join witness generalized to proof no native UDT law can exist",
+        "compatibility reconstruction carry Cartan Bianchi causal or Jacobi identities called unique propagation",
+        "provisional G285 L2 L3 L4 vocabulary made load-bearing or canonized",
+        "numerical transfer called the analytic all-jet or curvature proof",
+        "arbitrary continuation called physical history",
+        "familiar field equation action source observation scale fit Xmax or protected work imported",
+    ):
+        require(guard in g286_row["forbidden_regression"], f"G286 guard absent: {guard}")
+    g286 = ROOT / "udt_g286_complete_germ_propagation_discriminator_2026-08-28"
+    for name in (
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "VERIFICATION_RESULT.json",
+        "REPAIR_RESULT.json",
+        "EXTERNAL_LANDING_TOKEN_FOLLOWUP_GPT54.md",
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "verify_package.py",
+    ):
+        require((g286 / name).is_file(), f"G286 closure evidence missing: {name}")
+    g286_landing = (
+        "SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT_GEOMETRICALLY_"
+        "INEQUIVALENT_FUTURE_CONTINUATIONS__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION"
+    )
+    g286_derivation = json.loads((g286 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g286_independent = json.loads(
+        (g286 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    g286_verification = json.loads((g286 / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g286_repair = json.loads((g286 / "REPAIR_RESULT.json").read_text(encoding="utf-8"))
+    g286_preregistration = (g286 / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    require(
+        g286_derivation["pass"]
+        and g286_derivation["landing"] == g286_landing
+        and g286_derivation["sampled_prior_points_zero"]
+        and g286_derivation["sampled_future_tidal_nonzero"]
+        and g286_derivation["analytic_claims_not_mechanized"]
+        == [
+            "whole u<=0 metric-region equality",
+            "smooth flatness and all-jet equality at u=0",
+            "curvature interpretation R_uiuj=T_ij",
+        ],
+        "G286 bounded production landing regressed",
+    )
+    require(
+        g286_independent["pass"]
+        and g286_independent["method"] == "implicit_midpoint_cayley"
+        and g286_independent["production_independent_transfer_difference"] < 2e-6,
+        "G286 independent transfer diagnostic regressed",
+    )
+    require(
+        g286_verification["pass"]
+        and all(g286_verification["checks"].values())
+        and g286_repair["pass"]
+        and g286_repair["rejected"]
+        and g286_repair["aggregate_verifier_exit"] == 1,
+        "G286 aggregate replay or hostile rejection regressed",
+    )
+    require(
+        g286_landing in g286_preregistration
+        and "`L2`" not in g286_preregistration
+        and "`L3`" not in g286_preregistration
+        and "LANDING-TOKEN-ACCEPTED"
+        in (g286 / "EXTERNAL_LANDING_TOKEN_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "EXTERNALLY_ACCEPTED_AFTER_REPAIRS"
+        in (g286 / "AUDIT_REPORT.md").read_text(encoding="utf-8"),
+        "G286 metric-native external closure regressed",
+    )
+    g286_replay = subprocess.run(
+        [sys.executable, "-S", str(g286 / "verify_package.py")],
+        cwd=g286,
+        check=False,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    require(g286_replay.returncode == 0, "G286 dependency-free aggregate replay failed")
+    require(json.loads(g286_replay.stdout)["pass"], "G286 aggregate replay landing regressed")
 
     validate_startup_surface(ROOT)
 
@@ -13420,7 +13524,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"
