@@ -18,6 +18,9 @@ G289 then finds the older static Hopfion locally compatible with the metric's nu
 but its fixed round target, action, boundary, and raw component charge remain conditional/frame
 dependent. Exact conformal twins carry the same texture with different curvature, so it selects no
 history. G289 is internally verified; external review remains open.
+G290's internal multi-agent whiteboard separates topology, holonomy, and selection. Pure topology
+cannot separate the smooth conformal twins; a supplied completed-pair screen differential character
+adds gauge-invariant metric-sensitive holonomy but remains evaluative.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -66,8 +69,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: externally review G289. If retained, MAP a gauge-covariant Hopf charge/transport and time-live
-persistence discriminator; it must separate regular histories. Keep G288's general `A(r),B(r)`
+Next: externally review G289. If retained, preregister G290's exact complete-pair screen-holonomy
+descent and time-live transgression; do not promote it to persistence or selection. Keep G288's
+general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
 
 <!-- STARTUP_CURRENT_END -->

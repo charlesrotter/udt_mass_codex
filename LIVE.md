@@ -27,9 +27,9 @@ structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286
 that current identities do not uniquely continue a shared prior metric; G287 confirms reversal
 negates `delta_AB`, not the ambient profile. G288 freshly rebuilds the primary metric near an
 analytic even smooth center: the quadratic germ is zero-tide constant-curvature, while angular
-tide first enters through an independent quartic jet. G289 finds the old static Hopfion
-compatible with the null-direction sphere but still conditional, frame-dependent, and nonselective
-of metric history. A supplied germ pulls
+tide first enters through an independent quartic jet. G289/G290 make the old Hopfion conditionally
+compatible and split persistent topology from history-sensitive screen holonomy; neither selects
+history. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -82,10 +82,10 @@ Current observational/history boundary:
   controls leading clock/acceleration/curvature/geometric-`mu`, but cancels from angular tide;
   angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`. No Planck scale,
   physical mass, global micro band, or history is selected.
-- G289 internally verifies a mixed result: a unit-vector Hopf texture embeds locally as a null
-  direction after supplying an observer/frame, but the old round target, action, boundary, and raw
-  component charge are not full-frame-native. Conformal history twins carry the same texture with
-  different curvature; no history is selected. External review is open.
+- G289 embeds the old Hopf texture after a supplied observer/frame; its target, action, boundary,
+  and raw charge remain conditional. Conformal twins retain it with different curvature; review is open.
+- G290 finds pure topology cannot separate those twins; pair-screen holonomy can, but remains
+  evaluative. Exact descent is open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -113,9 +113,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-External review must test G289's boost, large-frame-gauge Hopf, and conformal-history arguments.
-If retained, MAP a gauge-covariant framed/connection charge and time-live persistence discriminator;
-it must reject a regular history pair before counting as selection. Keep G288's general `A(r),B(r)`
-control queued. Do not import an action, source, physical mass, observation, Planck scale, `X_max`, or
-protected work; no ODE/PDE/GPU solve precedes an explicit premise ledger.
+Externally review G289. If retained, preregister G290's pair-screen holonomy/twin descent and
+time-live transgression without calling either persistence or selection. Keep G288's general
+`A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
+work, or solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

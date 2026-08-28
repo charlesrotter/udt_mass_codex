@@ -2,7 +2,7 @@
 
 Date: 2026-08-28
 
-`LIVE.md` controls status; the 273-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 274-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -71,6 +71,10 @@ population, operational distance, or `X_max`.
   embeds locally as a null direction after an observer/frame is supplied, but the fixed round target,
   action, boundary, and raw component charge do not descend through full frame gauge. Conformal
   history twins retain the texture with different curvature; internal review selects no history.
+- G290's internal multi-agent whiteboard proves a bounded connected-family obstruction: pure topology
+  cannot distinguish those smooth conformal twins. It identifies the supplied complete-pair screen
+  differential character as the strongest layered candidate: sector topology plus metric-sensitive
+  holonomy, still evaluative and not a history law.
 
 ## Open boundary
 
@@ -82,8 +86,8 @@ G282--G284 narrow the missing content to neighboring curvature values and close 
 and cone reconstruction as selectors. G285 includes tide in complete separation but supplies no
 `L2 -> L3/L4` propagation. G286 shows even the whole prior metric plus every join jet does not make
 the present layer choose a future on its bounded family; G287 repairs a sign explanation without
-closing that gap. G288 adds a local center universality class; G289 makes the old Hopfion a viable
-conditional configuration, not a native carrier or history selector. Coefficients, scale, mass,
+closing that gap. G288 adds a local center class; G289 makes the old Hopfion a viable conditional
+configuration; G290 separates topology from holonomy and selection. Coefficients, scale, mass,
 global micro band, and history remain open. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -92,7 +96,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Externally review G289's frame-gauge and history countermodels. If retained, MAP a gauge-covariant
-charge/connection and time-live persistence discriminator that separates regular histories. Keep
+Externally review G289's frame-gauge and history countermodels. If retained, preregister G290's exact
+complete-pair screen-holonomy/conformal-twin descent and time-live transgression. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

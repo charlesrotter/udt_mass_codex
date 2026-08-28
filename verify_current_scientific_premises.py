@@ -198,7 +198,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -367,6 +367,7 @@ def validate_startup_surface(root: Path) -> None:
             "G287",
             "G288",
             "G289",
+            "G290",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -410,7 +411,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "273-row exact registry",
+            "274-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -626,6 +627,7 @@ def validate_startup_surface(root: Path) -> None:
             "G287",
             "G288",
             "G289",
+            "G290",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -735,6 +737,7 @@ def validate_startup_surface(root: Path) -> None:
             "G287",
             "G288",
             "G289",
+            "G290",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -838,11 +841,12 @@ def validate_startup_surface(root: Path) -> None:
             "G287",
             "G288",
             "G289",
+            "G290",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "273-row",
+            "274-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1204,9 +1208,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 273, "premise registry must contain exactly 273 rows")
+    require(len(rows) == 274, "premise registry must contain exactly 274 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 273, "duplicate premise id")
+    require(len(by_id) == 274, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1272,6 +1276,11 @@ def main() -> None:
             "INTERNALLY_VERIFIED_BOUNDED_MIXED_RESULT__EXTERNAL_REVIEW_OPEN__PREREGISTERED_AT_1156E2A2",
             "udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/AUDIT_REPORT.md",
             "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS",
+        ),
+        "G290": (
+            "INTERNAL_MULTI_AGENT_WHITEBOARD_LEAD__EXACT_BOUNDED_CONNECTED_FAMILY_OBSTRUCTION__PREREGISTERED_AND_PUSHED_AT_22753C0A",
+            "udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/WHITEBOARD_REPORT.md",
+            "PURE_TOPOLOGY_CANNOT_SEPARATE_THE_G289_CONNECTED_CONFORMAL_TWINS",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13276,7 +13285,7 @@ def main() -> None:
         "G284 external repair-only closure regressed",
     )
     g284_replay_result = replay_package_with_current_registry_rows_removed(
-        g284, ("G289", "G288"), include_legacy_later_rows=False
+        g284, ("G290", "G289", "G288"), include_legacy_later_rows=False
     )
     require(
         g284_replay_result["status"] == "PASS_EXTERNAL_REVIEW_COMPLETE"
@@ -13381,7 +13390,7 @@ def main() -> None:
         "G285 external repair-only closure regressed",
     )
     g285_replay_result = replay_package_with_current_registry_rows_removed(
-        g285, ("G289", "G288", "G287", "G286", "G285"), include_legacy_later_rows=False
+        g285, ("G290", "G289", "G288", "G287", "G286", "G285"), include_legacy_later_rows=False
     )
     require(
         g285_replay_result["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
@@ -13565,7 +13574,7 @@ def main() -> None:
         "G287 external repair-only closure regressed",
     )
     g287_replay = replay_package_with_current_registry_rows_removed(
-        g287, ("G289", "G288", "G287"), include_legacy_later_rows=False
+        g287, ("G290", "G289", "G288", "G287"), include_legacy_later_rows=False
     )
     require(g287_replay["pass"] and all(g287_replay["checks"].values()),
             "G287 dependency-free aggregate replay failed")
@@ -13670,7 +13679,7 @@ def main() -> None:
         "G288 external repair-only closure regressed",
     )
     g288_replay = replay_package_with_current_registry_rows_removed(
-        g288, ("G289",), include_legacy_later_rows=False
+        g288, ("G290", "G289"), include_legacy_later_rows=False
     )
     require(g288_replay["status"] == "PASS", "G288 aggregate landing regressed")
 
@@ -13753,16 +13762,64 @@ def main() -> None:
         and "EXTERNAL_REVIEW_OPEN" in (g289 / "AUDIT_REPORT.md").read_text(encoding="utf-8"),
         "G289 conditional stability or review ceiling regressed",
     )
-    g289_replay = subprocess.run(
-        [sys.executable, "-S", str(g289 / "verify_package.py")],
-        cwd=g289,
-        check=False,
-        capture_output=True,
-        text=True,
-        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    g289_replay = replay_package_with_current_registry_rows_removed(
+        g289, ("G290",), include_legacy_later_rows=False
     )
-    require(g289_replay.returncode == 0, "G289 aggregate replay failed")
-    require(json.loads(g289_replay.stdout)["status"] == "PASS", "G289 aggregate landing regressed")
+    require(g289_replay["status"] == "PASS", "G289 aggregate landing regressed")
+
+    g290_row = by_id["G290"]
+    require(
+        g290_row["active_use"]
+        == "ACTIVE_BOUNDED_METRIC_NATIVE_TOPOLOGY_CONNECTION_HISTORY_BRIDGE_CLASSIFICATION_ONLY",
+        "G290 active scope widened",
+    )
+    for guard in (
+        "G289 fresh external review",
+        "exact complete-pair screen connection and holonomy descent",
+        "physical null congruence complete pair network loop population and event correspondence",
+        "time-live transgression degeneracy and topology-change strata",
+        "owned curvature-flux persistence admissibility or history law",
+    ):
+        require(guard in g290_row["open_scope"], f"G290 open boundary absent: {guard}")
+    for guard in (
+        "raw component Hopf integer called full-frame invariant",
+        "pure topology called a discriminator of the smooth G289 conformal twins",
+        "screen differential character or holonomy called a conserved integer dynamics or history selector",
+        "bare one-event null line called a full-base screen connection",
+        "kinematic homotopy persistence called physical evolution",
+    ):
+        require(guard in g290_row["forbidden_regression"], f"G290 guard absent: {guard}")
+    g290 = ROOT / "udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28"
+    for name in (
+        "MAP.md",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "WHITEBOARD_REPORT.md",
+        "CANDIDATE_MATRIX.tsv",
+        "PANEL_SYNTHESIS.md",
+        "RUN_RECORD.md",
+    ):
+        require((g290 / name).is_file(), f"G290 evidence missing: {name}")
+    g290_report = (g290 / "WHITEBOARD_REPORT.md").read_text(encoding="utf-8")
+    for token in (
+        "PURE_TOPOLOGY_CANNOT_SEPARATE_THE_G289_CONNECTED_CONFORMAL_TWINS",
+        "SCREEN_DIFFERENTIAL_CHARACTER_COMBINES_GAUGE_INVARIANT_SECTOR_DATA_WITH_METRIC_SENSITIVE_HOLONOMY",
+        "TOPOLOGICAL_PERSISTENCE_IS_CONDITIONAL_KINEMATICS",
+        "HOLONOMY_HEARS_HISTORY_BUT_DOES_NOT_SELECT_IT",
+        "a=2\\alpha(y\\,dx-x\\,dy)",
+        "EXTERNAL_REVIEW_OPEN",
+    ):
+        require(token in g290_report, f"G290 whiteboard landing regressed: {token}")
+    g290_matrix = read_tsv(g290 / "CANDIDATE_MATRIX.tsv")
+    require(len(g290_matrix) == 9, "G290 candidate matrix row count regressed")
+    require(
+        any(
+            row["candidate"] == "screen_differential_character"
+            and row["verdict"] == "STRONGEST_LAYERED_CANDIDATE"
+            for row in g290_matrix
+        ),
+        "G290 layered candidate regressed",
+    )
 
     validate_startup_surface(ROOT)
 
@@ -13825,7 +13882,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

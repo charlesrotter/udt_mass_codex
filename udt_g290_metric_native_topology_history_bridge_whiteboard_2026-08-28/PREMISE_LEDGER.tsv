@@ -8,6 +8,7 @@ spatial slice or relation domain	SUPPLIED	Domain for any three-dimensional secti
 frame or trivialization	GAUGE_OR_SUPPLIED	Permits component display	Raw component Hopf class cannot be promoted
 boundary framing or constant exterior	OPEN	Would permit a relative integer	Must not be chosen to recover old Hopfion
 curvature or Jacobi spectral projector	DERIVED_WHERE_NONDEGENERATE	Possible intrinsic section/eigenbundle candidate	Degeneracies and global extension open
+screen connection	DERIVED_CONDITIONAL_ON_NETWORK	Representative-metric Levi-Civita connection projected through a supplied congruence or complete pair screen carry	Bare one-event null line and conformal structure alone are insufficient
 holonomy conjugacy data	DERIVED_CONDITIONAL	Gauge-invariant metric discriminator along supplied loops	Loop/path population and history selection open
 topological persistence	CONDITIONAL	Kinematic only under supplied smooth nonsingular continuation and fixed boundary	Not an evolution equation
 historical round S2 and L2 plus L4	POSIT_OR_CONDITIONAL_IMPORT	Comparison control only	Not native carrier action or selector

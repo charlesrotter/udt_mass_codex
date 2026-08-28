@@ -13,6 +13,8 @@ is zero-tide constant-curvature, while angular/Weyl response begins at independe
 external repair-only review accepts the bounded result.
 G289 finds the old static Hopfion locally compatible with the null-direction sphere but still
 conditional/frame-dependent; exact metric twins carry the same texture, so no history is selected.
+G290's internal whiteboard separates persistent topology from metric-sensitive screen holonomy;
+the layered differential character distinguishes histories but does not select one.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -38,8 +40,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Externally review G289. If retained, MAP a gauge-covariant Hopf charge and time-live persistence
-history discriminator; keep G288's general `A(r),B(r)` control queued.
+Externally review G289. If retained, derive G290's complete-pair screen holonomy and time-live
+transgression without promoting either to persistence or selection; keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
