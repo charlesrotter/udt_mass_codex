@@ -1,0 +1,48 @@
+{
+  "circle_integral": "-4*pi*alpha*rho**2",
+  "computed_check_count": 19,
+  "computed_checks": {
+    "circle_integral": true,
+    "closed_so2_holonomy_invariant": true,
+    "flat_holonomy_phase": true,
+    "levi_civita_connection_direct": true,
+    "linear_timelive_transgression": true,
+    "o2_reflection_inverts_connection": true,
+    "o2_unoriented_cosine_invariant": true,
+    "open_carry_endpoint_covariant": true,
+    "screen_curvature_direct": true,
+    "single_loop_phase_alias_exists": true,
+    "small_loop_curvature_coefficient": true,
+    "small_loop_principal_branch_control": true,
+    "so2_gauge_component_0": true,
+    "so2_gauge_component_1": true,
+    "so2_gauge_component_2": true,
+    "so2_gauge_component_3": true,
+    "timelive_connection_direct": true,
+    "timelive_mixed_curvature": true,
+    "timelive_transgression_rate": true
+  },
+  "connection": [
+    "0",
+    "2*alpha*y",
+    "-2*alpha*x",
+    "0"
+  ],
+  "curvature_xy": "-4*alpha",
+  "derived_conclusion_count": 9,
+  "derived_conclusions": {
+    "arbitrary_smooth_alpha_t_remains_admitted": true,
+    "closed_so2_holonomy_is_frame_gauge_invariant": true,
+    "conformal_twins_are_separated_by_metric_screen_holonomy": true,
+    "orientable_screen_full_o2_rotation_data_is_inverse_conjugacy_class": true,
+    "projected_connection_conditional_on_supplied_screen_carry": true,
+    "screen_projection_is_required_beyond_a_bare_null_line": true,
+    "small_loop_holonomy_recovers_screen_curvature": true,
+    "timelive_change_is_curvature_flux_on_supplied_worldtube": true,
+    "transgression_is_not_conservation_or_history_selection": true
+  },
+  "imports_action_source_history_scale_or_xmax": false,
+  "landing": "EXACT_COMPLETE_PAIR_SCREEN_HOLONOMY_DESCENDS_CONDITIONALLY__CONFORMAL_TWIN_HISTORY_SEPARATOR_DERIVED__TIMELIVE_HOLONOMY_CHANGE_EQUALS_SCREEN_CURVATURE_FLUX__ORIENTABLE_SCREEN_FULL_O2_ROTATION_DATA_IS_INVERSE_CONJUGACY_CLASS__NO_PERSISTENCE_DYNAMICS_POPULATION_OR_HISTORY_SELECTION",
+  "status": "PASS",
+  "timelive_flux_rate": "-4*pi*rho**2*Derivative(alpha(t), t)"
+}

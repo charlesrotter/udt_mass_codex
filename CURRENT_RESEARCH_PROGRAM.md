@@ -72,10 +72,13 @@ population, operational distance, or `X_max`.
   action, boundary, and raw component charge do not descend through full frame gauge. Conformal
   history twins retain the texture with different curvature. Fresh external review accepts this
   bounded landing; repair-only follow-up accepts all four repairs with no defects or scientific change.
-- G290's internal multi-agent whiteboard proves a bounded connected-family obstruction: pure topology
-  cannot distinguish those smooth conformal twins. It identifies the supplied complete-pair screen
-  differential character as the strongest layered candidate: sector topology plus metric-sensitive
-  holonomy, still evaluative and not a history law.
+- G290 first proves the bounded connected-family obstruction: pure topology cannot distinguish the
+  smooth conformal twins. Its separately preregistered exact follow-through locally derives the
+  supplied complete-pair screen connection, closed-loop gauge descent, small-loop curvature,
+  conformal-twin separation, and time-live curvature-flux transgression. On orientable screens,
+  orientation-forgetting `O(2)` retains inverse/conjugacy rotation data; genuinely nonorientable
+  reflection holonomy remains open. Arbitrary smooth histories still pass, so the result remains
+  evaluative; external review is open.
 
 ## Open boundary
 
@@ -97,7 +100,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Execute G290's preregistered exact
-complete-pair screen-holonomy/conformal-twin descent and time-live transgression. Keep
+Submit G290's locally verified exact complete-pair screen-holonomy/conformal-twin descent and
+time-live transgression to fresh external adversarial review. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

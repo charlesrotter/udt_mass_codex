@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "claim": "open_path_called_gauge_invariant",
+      "passed": true,
+      "witness": "-1/15"
+    },
+    {
+      "claim": "oriented_phase_called_full_O2_invariant",
+      "passed": true,
+      "witness": "3/7"
+    },
+    {
+      "claim": "connection_or_curvature_sign_flipped",
+      "passed": true,
+      "witness": "-10/3"
+    },
+    {
+      "claim": "one_phase_aliased_loop_called_unique_curvature",
+      "passed": true,
+      "witness": "same unit holonomy as flat space"
+    },
+    {
+      "claim": "bare_null_line_called_full_base_screen_connection",
+      "passed": true,
+      "witness": "screen projection/carry absent"
+    },
+    {
+      "claim": "transgression_called_conservation_law",
+      "passed": true,
+      "witness": "-8/15"
+    },
+    {
+      "claim": "evaluator_called_history_selector",
+      "passed": true,
+      "witness": "arbitrary smooth alpha(t) remains admitted"
+    }
+  ],
+  "evidence_type": "hostile_claim_witnesses_not_injected_production_mutants",
+  "passed": 7,
+  "primitive_recomputations": 6,
+  "status": "PASS",
+  "total": 7,
+  "typed_promotion_catches": 1
+}

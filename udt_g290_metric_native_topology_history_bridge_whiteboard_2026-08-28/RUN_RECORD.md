@@ -22,3 +22,14 @@ Date: 2026-08-28
 11. After G289 repair-only closure, the exact complete-pair screen-holonomy and time-live
     transgression question was separately frozen before computation in
     `EXACT_DERIVATION_PREREGISTRATION.md`; outcome derivation remains open.
+12. The preregistration was committed and pushed at `a1401ebe` before outcome evaluation.
+13. Direct symbolic Levi-Civita descent passed 19 computed checks and retained 9 separately typed
+    conclusions. A standard-library exact-Fraction implementation independently replayed 2,400
+    direct-Christoffel cases and 28,801 assertions without importing production code or results.
+14. All 7 preregistered hostile-claim witnesses passed. They are explicit claim checks, not injected
+    production mutants. Fresh external review remains open.
+15. A fresh zero-context internal adversary returned `VERIFIED_WITH_CAVEATS`, retained the core
+    descent, separator, transgression, and nonselection results, and required three repairs: limit
+    the inverse/conjugacy statement to rotation holonomy on orientable screens; leave genuinely
+    nonorientable reflection holonomy open; and describe the evidence counts without overstating
+    independence.

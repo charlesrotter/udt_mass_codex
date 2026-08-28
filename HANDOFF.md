@@ -19,9 +19,11 @@ but its fixed round target, action, boundary, and raw component charge remain co
 dependent. Exact conformal twins carry the same texture with different curvature, so it selects no
 history. Fresh external review accepted that bounded landing with four evidence repairs. All four
 repairs are externally accepted with no defects and no change to the bounded landing.
-G290's internal multi-agent whiteboard separates topology, holonomy, and selection. Pure topology
-cannot separate the smooth conformal twins; a supplied completed-pair screen differential character
-adds gauge-invariant metric-sensitive holonomy but remains evaluative.
+G290's whiteboard separates topology, holonomy, and selection. Pure topology cannot separate smooth
+twins; a supplied pair screen connection adds metric-sensitive holonomy but remains evaluative.
+Exact descent separates registered flat/nonflat twins and obeys time-live flux transgression.
+Internal review retains orientation caveats; external review is open and arbitrary smooth histories
+remain admitted.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -70,8 +72,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: execute G290's preregistered exact complete-pair screen-holonomy
-descent and time-live transgression; do not promote it to persistence or selection. Keep G288's
+Next: send G290's exact complete-pair screen-holonomy descent and time-live
+transgression to fresh external review; do not promote it to persistence or selection. Keep G288's
 general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
 

@@ -1,0 +1,21 @@
+{
+  "assertion_scope": "formula_level_exact_replay_with_2400_direct_christoffel_recomputations",
+  "assertions": 28801,
+  "circle_angle_over_pi": "-4*alpha*rho^2",
+  "connection_coefficients": [
+    "0",
+    "2*alpha*y",
+    "-2*alpha*x",
+    "0"
+  ],
+  "curvature_coefficient": "-4*alpha",
+  "direct_christoffel_connection_cases": 2400,
+  "imports_production_module": false,
+  "method": "standard_library_fraction_direct_christoffel_connection_phase_and_transgression_replay",
+  "random_exact_cases": 2400,
+  "reads_production_result": false,
+  "selection_residual_present": false,
+  "single_loop_alias_control": "alpha=1,rho^2=1/2 -> angle=-2*pi",
+  "status": "PASS",
+  "timelive_flux_over_pi": "-4*rho^2*(alpha(t2)-alpha(t1))"
+}

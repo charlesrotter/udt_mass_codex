@@ -1,7 +1,13 @@
 # G290 whiteboard report — metric-native topology/history bridge
 
 Date: 2026-08-28
-Grade: `INTERNAL_MULTI_AGENT_WHITEBOARD_LEAD__EXACT_BOUNDED_OBSTRUCTION__DERIVATION_AND_EXTERNAL_REVIEW_OPEN`
+Whiteboard grade: `INTERNAL_MULTI_AGENT_WHITEBOARD_LEAD__EXACT_BOUNDED_OBSTRUCTION`
+
+Exact follow-through: `LOCALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`. The
+preregistered screen-holonomy, conformal-twin, and time-live transgression formulas survived direct
+Levi-Civita derivation, implementation-distinct replay, and fresh zero-context internal adversarial
+review. The orientable-screen and evidence-semantics caveats are recorded in `EXACT_DERIVATION.md`.
+The nonselection ceiling is unchanged.
 
 ## Landing
 
@@ -86,7 +92,7 @@ g_\alpha=e^{2\alpha r^2}\eta,
 \]
 
 supply the static unit clock, the radial `z` pair direction, the oriented `x-y` screen, and the
-circle `gamma_rho` in that screen. In its orthonormal screen frame the connection one-form is
+circle `gamma_rho` in that oriented screen. In its orthonormal screen frame the connection one-form is
 
 \[
 a=2\alpha(y\,dx-x\,dy),
@@ -103,12 +109,12 @@ F_S=da=-4\alpha\,dx\wedge dy,
 
 Flat space has unit holonomy. A small-loop family avoids the phase alias and recovers the local
 curvature coefficient. This distinguishes the conformal twins while their null topology remains
-unchanged. Without a chosen screen orientation, retain unoriented conjugacy data such as the cosine
-of the rotation angle.
+unchanged. On an orientable screen without a chosen orientation, retain inverse/conjugacy rotation
+data such as the cosine of the angle. Genuinely nonorientable loops may have reflection holonomy and
+remain outside this bounded classification.
 
-The formula was independently reproduced in a bounded symbolic scratch calculation. It remains a
-whiteboard witness until the complete pair-screen descent and independent replay are separately
-preregistered and banked.
+The formula was independently reproduced in the separately preregistered exact pair-screen descent
+and a standard-library exact replay. Fresh external adversarial review remains open.
 
 ## Persistence is not selection
 

@@ -100,7 +100,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
 - Current boundary: `udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md`; sign guard: `udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/AUDIT_REPORT.md`;
   micro center: `udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md`; Hopf: `udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/AUDIT_REPORT.md`;
-  topology/holonomy: `udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/WHITEBOARD_REPORT.md`; G282--G285 are prior controls.
+  topology/holonomy: `udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/EXACT_DERIVATION.md`; G282--G285 are prior controls.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`

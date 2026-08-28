@@ -1280,9 +1280,9 @@ def main() -> None:
             "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS",
         ),
         "G290": (
-            "INTERNAL_MULTI_AGENT_WHITEBOARD_LEAD__EXACT_BOUNDED_CONNECTED_FAMILY_OBSTRUCTION__PREREGISTERED_AND_PUSHED_AT_22753C0A",
-            "udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/WHITEBOARD_REPORT.md",
-            "PURE_TOPOLOGY_CANNOT_SEPARATE_THE_G289_CONNECTED_CONFORMAL_TWINS",
+            "LOCALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_A1401EBE",
+            "udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/EXACT_DERIVATION.md",
+            "EXACT_COMPLETE_PAIR_SCREEN_HOLONOMY_DESCENDS_CONDITIONALLY",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13804,21 +13804,25 @@ def main() -> None:
     g290_row = by_id["G290"]
     require(
         g290_row["active_use"]
-        == "ACTIVE_BOUNDED_METRIC_NATIVE_TOPOLOGY_CONNECTION_HISTORY_BRIDGE_CLASSIFICATION_ONLY",
+        == "ACTIVE_BOUNDED_COMPLETE_PAIR_SCREEN_CONNECTION_HOLONOMY_AND_TIMELIVE_TRANSGRESSION_ONLY",
         "G290 active scope widened",
     )
     for guard in (
-        "exact complete-pair screen connection and holonomy descent",
+        "fresh external adversarial review",
         "physical null congruence complete pair network loop population and event correspondence",
-        "time-live transgression degeneracy and topology-change strata",
+        "global nontrivial screen bundle differential-character quantization",
+        "nonorientable screen reflection holonomy",
+        "topology-change degeneracy and singular strata",
         "owned curvature-flux persistence admissibility or history law",
     ):
         require(guard in g290_row["open_scope"], f"G290 open boundary absent: {guard}")
     for guard in (
         "raw component Hopf integer called full-frame invariant",
         "pure topology called a discriminator of the smooth G289 conformal twins",
-        "screen differential character or holonomy called a conserved integer dynamics or history selector",
+        "screen holonomy or transgression called a conserved integer dynamics or history selector",
         "bare one-event null line called a full-base screen connection",
+        "oriented phase called invariant under full O2 gauge",
+        "one phase-aliased loop called a unique curvature measurement",
         "kinematic homotopy persistence called physical evolution",
     ):
         require(guard in g290_row["forbidden_regression"], f"G290 guard absent: {guard}")
@@ -13829,6 +13833,18 @@ def main() -> None:
         "PREMISE_LEDGER.tsv",
         "EXACT_DERIVATION_PREREGISTRATION.md",
         "EXACT_DERIVATION_PREMISE_LEDGER.tsv",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "INTERNAL_ADVERSARIAL_REVIEW.md",
+        "derive_screen_holonomy.py",
+        "verify_screen_holonomy_independent.py",
+        "run_screen_holonomy_catches.py",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "verify_package.py",
         "WHITEBOARD_REPORT.md",
         "CANDIDATE_MATRIX.tsv",
         "PANEL_SYNTHESIS.md",
@@ -13837,6 +13853,7 @@ def main() -> None:
         require((g290 / name).is_file(), f"G290 evidence missing: {name}")
     g290_report = (g290 / "WHITEBOARD_REPORT.md").read_text(encoding="utf-8")
     g290_exact_prereg = (g290 / "EXACT_DERIVATION_PREREGISTRATION.md").read_text(encoding="utf-8")
+    g290_exact = (g290 / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
     require(
         "FROZEN_BEFORE_EXACT_DERIVATION" in g290_exact_prereg
         and "transgression a conservation law or a history selector" in g290_exact_prereg,
@@ -13851,6 +13868,73 @@ def main() -> None:
         "EXTERNAL_REVIEW_OPEN",
     ):
         require(token in g290_report, f"G290 whiteboard landing regressed: {token}")
+    g290_landing = (
+        "EXACT_COMPLETE_PAIR_SCREEN_HOLONOMY_DESCENDS_CONDITIONALLY"
+        "__CONFORMAL_TWIN_HISTORY_SEPARATOR_DERIVED"
+        "__TIMELIVE_HOLONOMY_CHANGE_EQUALS_SCREEN_CURVATURE_FLUX"
+        "__ORIENTABLE_SCREEN_FULL_O2_ROTATION_DATA_IS_INVERSE_CONJUGACY_CLASS"
+        "__NO_PERSISTENCE_DYNAMICS_POPULATION_OR_HISTORY_SELECTION"
+    )
+    require(
+        g290_landing in g290_exact
+        and "Fresh external adversarial review remains open" in g290_exact,
+        "G290 exact report landing regressed",
+    )
+    g290_production = json.loads((g290 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g290_independent = json.loads(
+        (g290 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    g290_catches = json.loads((g290 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    require(
+        g290_production["status"] == "PASS"
+        and g290_production["landing"] == g290_landing
+        and g290_production["computed_check_count"] == 19
+        and g290_production["derived_conclusion_count"] == 9
+        and all(g290_production["computed_checks"].values())
+        and all(g290_production["derived_conclusions"].values())
+        and g290_production["imports_action_source_history_scale_or_xmax"] is False,
+        "G290 production descent regressed",
+    )
+    require(
+        g290_independent["status"] == "PASS"
+        and g290_independent["random_exact_cases"] == 2400
+        and g290_independent["direct_christoffel_connection_cases"] == 2400
+        and g290_independent["assertions"] == 28801
+        and g290_independent["assertion_scope"]
+        == "formula_level_exact_replay_with_2400_direct_christoffel_recomputations"
+        and g290_independent["imports_production_module"] is False
+        and g290_independent["reads_production_result"] is False
+        and g290_independent["selection_residual_present"] is False,
+        "G290 independent replay regressed",
+    )
+    require(
+        g290_catches["status"] == "PASS"
+        and g290_catches["passed"] == 7
+        and g290_catches["total"] == 7
+        and g290_catches["evidence_type"]
+        == "hostile_claim_witnesses_not_injected_production_mutants"
+        and all(row["passed"] for row in g290_catches["claims"]),
+        "G290 hostile claim witnesses regressed",
+    )
+    g290_internal = (g290 / "INTERNAL_ADVERSARIAL_REVIEW.md").read_text(encoding="utf-8")
+    for token in (
+        "VERIFIED_WITH_CAVEATS",
+        "nonorientable loop may have reflection holonomy",
+        "formula-level exact checks",
+        "claim witnesses",
+        "injected production mutants",
+    ):
+        require(token in g290_internal, f"G290 internal adversarial caveat absent: {token}")
+    g290_completed = subprocess.run(
+        [sys.executable, str(g290 / "verify_package.py")],
+        cwd=g290,
+        check=True,
+        capture_output=True,
+        text=True,
+        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    )
+    g290_replay = json.loads(g290_completed.stdout)
+    require(g290_replay["status"] == "PASS", "G290 aggregate landing regressed")
     g290_matrix = read_tsv(g290 / "CANDIDATE_MATRIX.tsv")
     require(len(g290_matrix) == 9, "G290 candidate matrix row count regressed")
     require(

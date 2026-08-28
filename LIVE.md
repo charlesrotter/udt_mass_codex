@@ -86,8 +86,9 @@ Current observational/history boundary:
   and raw charge remain conditional. Conformal twins retain it with different curvature. Fresh
   external review accepted the bounded landing with four evidence repairs; repair-only follow-up
   accepted all four with no defects and no scientific change.
-- G290 finds pure topology cannot separate those twins; pair-screen holonomy can, but remains
-  evaluative. Exact descent is open.
+- G290 derives screen holonomy on supplied carry, separates the registered flat/nonflat twins, and
+  obeys time-live curvature-flux transgression while admitting arbitrary histories. Review retained
+  orientation caveats; external review open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -115,8 +116,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Execute G290's preregistered exact pair-screen holonomy/twin descent and time-live transgression
-without calling either persistence or selection. Keep G288's general
+Submit G290's exact screen-holonomy/transgression result to fresh external review without calling it
+persistence or selection. Keep G288's general
 `A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
 work, or solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

@@ -15,8 +15,10 @@ G289 finds the old static Hopfion locally compatible with the null-direction sph
 conditional/frame-dependent; exact metric twins carry the same texture, so no history is selected.
 Fresh external review and repair-only follow-up accept the bounded landing and all four repairs with
 no defects.
-G290's internal whiteboard separates persistent topology from metric-sensitive screen holonomy;
-the layered differential character distinguishes histories but does not select one.
+G290's preregistered exact follow-through locally derives metric-sensitive screen holonomy and
+time-live curvature-flux transgression on supplied complete-pair carry. It distinguishes the
+registered flat/nonflat conformal twins but admits arbitrary smooth histories. Internal review
+retained it with orientation caveats; external review is open.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -42,8 +44,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Execute G290's preregistered complete-pair screen holonomy and time-live
-transgression without promoting either to persistence or selection; keep G288's control queued.
+Submit G290's locally verified exact screen holonomy and time-live transgression to fresh external
+review without promoting either to persistence or selection; keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
