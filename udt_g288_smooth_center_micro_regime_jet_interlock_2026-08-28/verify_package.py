@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Aggregate G288 artifact and source-integrity verification."""
+"""Aggregate G288 artifact and source-integrity verification.
+
+This script is an integrity/provenance aggregator.  It requires registered
+scientific replays to have passed but does not independently derive geometry.
+"""
 
 from __future__ import annotations
 
@@ -36,6 +40,10 @@ def main() -> None:
         "verify_independent.py", "run_catch_proofs.py", "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
         "ADVERSARIAL_REVIEW_REQUEST.md", "build_review_intake.py",
+        "HOSTILE_RECOMPUTATION_RESULT.json", "run_hostile_recomputations.py",
+        "EXTERNAL_REVIEW_GPT54.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "REPAIR_PREREGISTRATION.md", "launch_external_review.sh",
+        "REPAIR_FOLLOWUP_REQUEST.md",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
     if missing:
@@ -44,14 +52,23 @@ def main() -> None:
     prod = json.loads((HERE / "DERIVATION_RESULT.json").read_text())
     indep = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text())
     catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text())
+    hostile = json.loads((HERE / "HOSTILE_RECOMPUTATION_RESULT.json").read_text())
     if prod["landing_candidate"] != LANDING or prod["check_count"] != 22 or not all(prod["checks"].values()):
         raise AssertionError("production result mismatch")
-    if indep["status"] != "PASS" or indep["assertions"] != 18117:
+    if indep["status"] != "PASS" or indep["assertions"] != 18142:
         raise AssertionError("independent result mismatch")
     if indep["imports_production_module"] or indep["reads_production_result"]:
         raise AssertionError("independence declaration failed")
-    if catches["status"] != "PASS" or catches["caught"] != catches["total"] or catches["total"] != 9:
-        raise AssertionError("hostile catch mismatch")
+    if (
+        catches["status"] != "PASS"
+        or catches["caught"] != catches["total"]
+        or catches["total"] != 9
+        or catches["classification"] != "SAVED_ARTIFACT_AND_SEMANTIC_REGRESSION_GUARD_ONLY"
+        or catches["scientific_recomputation"]
+    ):
+        raise AssertionError("artifact/semantic guard mismatch")
+    if hostile["status"] != "PASS" or hostile["caught"] != 4 or hostile["total"] != 4:
+        raise AssertionError("hostile recomputation mismatch")
 
     prod_source = (HERE / "derive_micro_center.py").read_text()
     independent_source = (HERE / "verify_independent.py").read_text()
@@ -78,7 +95,7 @@ def main() -> None:
     for required_phrase in (
         "geometric mass-aspect",
         "does not select the Planck scale",
-        "EXTERNAL_REVIEW_OPEN",
+        "EXTERNAL_REPAIRS_IMPLEMENTED",
     ):
         if required_phrase.lower() not in audit.lower():
             raise AssertionError(f"audit phrase missing: {required_phrase}")
@@ -90,6 +107,8 @@ def main() -> None:
         "production_checks": prod["check_count"],
         "independent_assertions": indep["assertions"],
         "hostile_catches": catches["caught"],
+        "hostile_recomputations": hostile["caught"],
+        "aggregator_role": "integrity_and_provenance_only",
         "landing": LANDING,
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")

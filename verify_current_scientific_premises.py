@@ -13584,8 +13584,11 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
+        "HOSTILE_RECOMPUTATION_RESULT.json",
         "PACKAGE_VERIFICATION_RESULT.json",
         "AUDIT_REPORT.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "REPAIR_PREREGISTRATION.md",
         "verify_package.py",
     ):
         require((g288 / name).is_file(), f"G288 evidence missing: {name}")
@@ -13600,6 +13603,9 @@ def main() -> None:
         (g288 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
     )
     g288_catches = json.loads((g288 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g288_hostile = json.loads(
+        (g288 / "HOSTILE_RECOMPUTATION_RESULT.json").read_text(encoding="utf-8")
+    )
     require(
         g288_prod["landing_candidate"] == g288_landing
         and g288_prod["check_count"] == 22
@@ -13611,9 +13617,12 @@ def main() -> None:
     )
     require(
         g288_independent["status"] == "PASS"
-        and g288_independent["assertions"] == 18117
+        and g288_independent["assertions"] == 18142
         and g288_independent["general_cases"] == 1000
         and g288_independent["quadratic_controls"] == 100
+        and g288_independent["c4_classes_covered"] == ["nonzero", "zero"]
+        and g288_independent["coefficient_map_origin"]
+        == "full exact tensor evaluations on four amplitudes per monomial"
         and g288_independent["imports_production_module"] is False
         and g288_independent["reads_production_result"] is False,
         "G288 independent verification regressed",
@@ -13622,8 +13631,19 @@ def main() -> None:
         g288_catches["status"] == "PASS"
         and g288_catches["caught"] == 9
         and g288_catches["total"] == 9
+        and g288_catches["classification"]
+        == "SAVED_ARTIFACT_AND_SEMANTIC_REGRESSION_GUARD_ONLY"
+        and g288_catches["scientific_recomputation"] is False
         and all(row["caught"] for row in g288_catches["mutations"]),
-        "G288 hostile catches regressed",
+        "G288 artifact/semantic guards regressed",
+    )
+    require(
+        g288_hostile["status"] == "PASS"
+        and g288_hostile["baseline_recomputed"] is True
+        and g288_hostile["caught"] == 4
+        and g288_hostile["total"] == 4
+        and all(row["caught"] for row in g288_hostile["mutations"]),
+        "G288 hostile tensor recomputation regressed",
     )
     g288_replay = subprocess.run(
         [sys.executable, "-S", str(g288 / "verify_package.py")],

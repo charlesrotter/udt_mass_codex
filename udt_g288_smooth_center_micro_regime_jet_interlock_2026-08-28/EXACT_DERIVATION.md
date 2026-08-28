@@ -216,7 +216,8 @@ R_{abcd}R^{abcd}=24C^2,
 C_{abcd}C^{abcd}=0.
 \]
 
-It is an exact constant-sectional-curvature family.  For \(C>0\),
+It is an exact constant-sectional-curvature family with sectional curvature \(K=-C\) in the
+registered Riemann convention.  For \(C>0\),
 
 \[
 \phi=-\frac12\log(1+Cr^2)<0
@@ -244,4 +245,3 @@ __QUADRATIC_NEGATIVE_PROFILE_GERM_IS_ZERO_TIDE_CONSTANT_CURVATURE
 __ANGULAR_TIDE_BEGINS_AT_INDEPENDENT_QUARTIC_JET
 __NO_PLANCK_SCALE_OR_HISTORY_SELECTED
 ```
-

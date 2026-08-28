@@ -1,0 +1,29 @@
+{
+  "baseline_recomputed": true,
+  "caught": 4,
+  "implementation": "subprocess reruns of the standard-library exact tensor reconstruction",
+  "mutations": [
+    {
+      "caught": true,
+      "name": "add_quadratic_parallel",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "name": "change_quartic_ratio",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "name": "quadratic_weyl_nonzero",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "name": "local_speed_coordinate_factor",
+      "returncode": 1
+    }
+  ],
+  "status": "PASS",
+  "total": 4
+}

@@ -22,6 +22,10 @@ Date: 2026-08-28
 9. Fresh external `gpt-5.4` review independently reproduced the bounded geometry and returned
    `PASS_WITH_REPAIRS`.  It retained the scientific landing and identified five evidence/wording
    repairs, preregistered in `REPAIR_PREREGISTRATION.md` before implementation.
+10. Repairs R1 through R5 were implemented without changing the equations: the exact-Fraction route
+    now derives coefficient maps from full tensor monomial evaluations; 4/4 geometric mutations are
+    rejected by recomputation; the nine prior catches and package verifier are correctly regraded;
+    the dependency boundary is explicit; and the quadratic curvature sign is recorded as `K=-C`.
 
 No long solve, GPU, observation, fit, protected input, Planck cutoff, source, action, field equation,
 matter model, physical mass, history, or `X_max` value entered.

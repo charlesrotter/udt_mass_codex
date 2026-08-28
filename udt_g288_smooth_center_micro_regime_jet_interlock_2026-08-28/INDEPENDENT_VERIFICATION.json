@@ -1,9 +1,14 @@
 {
-  "assertions": 18117,
+  "assertions": 18142,
   "c2_signs_covered": [
     -1,
     1
   ],
+  "c4_classes_covered": [
+    "nonzero",
+    "zero"
+  ],
+  "coefficient_map_origin": "full exact tensor evaluations on four amplitudes per monomial",
   "general_cases": 1000,
   "implementation": "standard-library Fraction metric-two-jet connection-curvature-screen rebuild",
   "imports_production_module": false,
@@ -11,8 +16,8 @@
     "1": {
       "apar": {},
       "aperp": {},
-      "scalar_numerator": {
-        "2": "12"
+      "scalar": {
+        "0": "-12"
       }
     },
     "2": {
@@ -22,8 +27,8 @@
       "aperp": {
         "4": "1"
       },
-      "scalar_numerator": {
-        "4": "30"
+      "scalar": {
+        "2": "-30"
       }
     },
     "3": {
@@ -33,8 +38,8 @@
       "aperp": {
         "6": "2"
       },
-      "scalar_numerator": {
-        "6": "56"
+      "scalar": {
+        "4": "-56"
       }
     },
     "4": {
@@ -44,8 +49,8 @@
       "aperp": {
         "8": "3"
       },
-      "scalar_numerator": {
-        "8": "90"
+      "scalar": {
+        "6": "-90"
       }
     }
   },

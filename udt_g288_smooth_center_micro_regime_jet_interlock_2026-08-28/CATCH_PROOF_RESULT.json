@@ -1,6 +1,7 @@
 {
   "baseline_valid": true,
   "caught": 9,
+  "classification": "SAVED_ARTIFACT_AND_SEMANTIC_REGRESSION_GUARD_ONLY",
   "mutations": [
     {
       "caught": true,
@@ -39,6 +40,7 @@
       "name": "trust_old_audit_as_input"
     }
   ],
+  "scientific_recomputation": false,
   "status": "PASS",
   "total": 9
 }

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Executable hostile-regression catches for G288's bounded landing."""
+"""Saved-artifact and semantic-regression guards for G288.
+
+This is not a scientific recomputation.  Geometric hostile recomputation lives
+in run_hostile_recomputations.py.
+"""
 
 from __future__ import annotations
 
@@ -79,6 +83,8 @@ def main() -> None:
         raise AssertionError("one or more hostile mutations escaped")
     out = {
         "status": "PASS",
+        "classification": "SAVED_ARTIFACT_AND_SEMANTIC_REGRESSION_GUARD_ONLY",
+        "scientific_recomputation": False,
         "baseline_valid": True,
         "caught": sum(row["caught"] for row in mutations),
         "total": len(mutations),

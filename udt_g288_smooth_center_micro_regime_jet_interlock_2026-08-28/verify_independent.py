@@ -8,6 +8,7 @@ and the regular-center polynomial maps at an equatorial event.
 
 from __future__ import annotations
 
+import argparse
 from fractions import Fraction as F
 import json
 from pathlib import Path
@@ -143,57 +144,78 @@ def eval_poly(coeffs: dict[int, F], r: F, derivative: int = 0) -> F:
     return total
 
 
-def polynomial_maps():
-    # Mechanical coefficient-map derivation from differentiation and linear
-    # polynomial operations; no production artifact is read.
+def tensor_monomial_maps():
+    """Obtain center maps from full tensor evaluations, without a target table."""
     maps = {}
+    assertions = 0
+    ca, sa = F(3, 5), F(4, 5)
     for k in range(1, 5):
         power = 2 * k
-        f = {0: F(1), power: F(1)}
-        fp = {p - 1: F(p) * c for p, c in f.items() if p >= 1}
-        fpp = {p - 1: F(p) * c for p, c in fp.items() if p >= 1}
-        apar = {}
-        aperp = {0: F(1)}
-        scalar_numerator = {0: F(-2)}
-        for p, c in fpp.items():
-            apar[p + 2] = apar.get(p + 2, Z) + H * c
-            scalar_numerator[p + 2] = scalar_numerator.get(p + 2, Z) + c
-        for p, c in fp.items():
-            apar[p + 1] = apar.get(p + 1, Z) - H * c
-            aperp[p + 1] = aperp.get(p + 1, Z) + H * c
-            scalar_numerator[p + 1] = scalar_numerator.get(p + 1, Z) + 4 * c
-        for p, c in f.items():
-            aperp[p] = aperp.get(p, Z) - c
-            scalar_numerator[p] = scalar_numerator.get(p, Z) + 2 * c
+        samples = []
+        for r, rootf in ((F(1), F(2)), (F(2), F(3)), (F(3), F(4)), (F(5), F(6))):
+            amplitude = (rootf * rootf - 1) / r**power
+            f = 1 + amplitude * r**power
+            fp = amplitude * power * r ** (power - 1)
+            fpp = amplitude * power * (power - 1) * r ** (power - 2)
+            g, _, _, Rlow, _, scalar, _, _ = geometry(r, f, fp, fpp)
+            U = (1 / rootf, Z, Z, Z)
+            er = (Z, rootf, Z, Z)
+            etheta = (Z, Z, 1 / r, Z)
+            evarphi = (Z, Z, Z, 1 / r)
+            kvec = tuple(U[j] + ca * er[j] + sa * evarphi[j] for j in range(D))
+            spar = tuple(-sa * er[j] + ca * evarphi[j] for j in range(D))
+            apar = r * r * tidal(Rlow, spar, kvec, spar) / (sa * sa)
+            aperp = r * r * tidal(Rlow, etheta, kvec, etheta) / (sa * sa)
+            samples.append(
+                (
+                    apar / (amplitude * r**power),
+                    aperp / (amplitude * r**power),
+                    scalar / (amplitude * r ** (power - 2)),
+                )
+            )
+        first = samples[0]
+        for sample in samples[1:]:
+            for actual, reference in zip(sample, first):
+                assert actual == reference
+                assertions += 1
         maps[k] = {
-            "apar": {p: c for p, c in apar.items() if c},
-            "aperp": {p: c for p, c in aperp.items() if c},
-            "scalar_numerator": {p: c for p, c in scalar_numerator.items() if c},
+            "apar": {} if first[0] == 0 else {power: first[0]},
+            "aperp": {} if first[1] == 0 else {power: first[1]},
+            "scalar": {} if first[2] == 0 else {power - 2: first[2]},
         }
-    return maps
+    return maps, assertions
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--hostile",
+        choices=(
+            "add_quadratic_parallel",
+            "change_quartic_ratio",
+            "quadratic_weyl_nonzero",
+            "local_speed_coordinate_factor",
+        ),
+    )
+    parser.add_argument("--no-write", action="store_true")
+    args = parser.parse_args()
     rng = random.Random(28820260828)
     assertions = 0
     cases = 1000
     signs = set()
+    c4_classes = set()
 
-    maps = polynomial_maps()
-    expected = {
-        1: (Z, Z, F(12)),
-        2: (F(4), F(1), F(30)),
-        3: (F(12), F(2), F(56)),
-        4: (F(24), F(3), F(90)),
-    }
-    for k, (ap, at, sc) in expected.items():
-        power = 2 * k
-        assert maps[k]["apar"].get(power, Z) == ap
-        assert maps[k]["aperp"].get(power, Z) == at
-        # Scalar numerator is divided by r^2 and negated.
-        assert maps[k]["scalar_numerator"].get(power, Z) == sc
-        assert maps[k]["scalar_numerator"].get(0, Z) == 0
-        assertions += 4
+    maps, map_assertions = tensor_monomial_maps()
+    assertions += map_assertions
+    if args.hostile == "add_quadratic_parallel":
+        maps[1]["apar"][2] = F(2)
+    elif args.hostile == "change_quartic_ratio":
+        maps[2]["apar"][4] += F(1)
+    assert maps[1]["apar"] == {}
+    assert maps[1]["aperp"] == {}
+    assert maps[1]["scalar"].get(0, Z) == -12
+    assert maps[2]["apar"].get(4, Z) == 4 * maps[2]["aperp"].get(4, Z)
+    assertions += 4
 
     ca, sa = F(3, 5), F(4, 5)
     for i in range(cases):
@@ -212,6 +234,7 @@ def main() -> None:
         assert f == rootf * rootf and f > 0
         assertions += 1
         signs.add(1 if c2 > 0 else -1)
+        c4_classes.add("zero" if c4 == 0 else "nonzero")
 
         g, gi, Gamma, Rlow, Ric, scalar, riemann_sq, weyl_sq = geometry(r, f, fp, fpp)
         U = (1 / rootf, Z, Z, Z)
@@ -234,11 +257,14 @@ def main() -> None:
         toff = tidal(Rlow, spar, kvec, sperp)
         apar_tensor = r * r * tpar / (sa * sa)
         aperp_tensor = r * r * tperp / (sa * sa)
-        apar_poly = sum(2 * k * (k - 1) * coeffs[2 * k] * r ** (2 * k) for k in range(1, 5))
-        aperp_poly = sum((k - 1) * coeffs[2 * k] * r ** (2 * k) for k in range(1, 5))
-        scalar_poly = -sum(
-            2 * (2 * k + 1) * (k + 1) * coeffs[2 * k] * r ** (2 * k - 2)
-            for k in range(1, 5)
+        apar_poly = sum(
+            coeffs[2 * k] * eval_poly(maps[k]["apar"], r) for k in range(1, 5)
+        )
+        aperp_poly = sum(
+            coeffs[2 * k] * eval_poly(maps[k]["aperp"], r) for k in range(1, 5)
+        )
+        scalar_poly = sum(
+            coeffs[2 * k] * eval_poly(maps[k]["scalar"], r) for k in range(1, 5)
         )
         assert apar_tensor == apar_poly
         assert aperp_tensor == aperp_poly
@@ -256,7 +282,10 @@ def main() -> None:
         krad = tuple(U[j] + er[j] for j in range(D))
         assert dot4(g, krad, krad) == 0
         assert krad[1] / krad[0] == f
-        assert (krad[1] / rootf) / (rootf * krad[0]) == 1
+        normalized_speed = (krad[1] / rootf) / (rootf * krad[0])
+        if args.hostile == "local_speed_coordinate_factor":
+            normalized_speed *= f
+        assert normalized_speed == 1
         assertions += 5
 
         # Invariant formula reconstructed from the full tensor contraction.
@@ -265,7 +294,8 @@ def main() -> None:
         assertions += 1
 
     assert signs == {-1, 1}
-    assertions += 1
+    assert c4_classes == {"zero", "nonzero"}
+    assertions += 2
 
     # Exact quadratic controls, independently rebuilt from the metric tensor.
     quadratic_cases = 100
@@ -285,6 +315,8 @@ def main() -> None:
         assert tidal(Rlow, etheta, kvec, etheta) == 0
         assert scalar == -12 * C
         assert riemann_sq == 24 * C * C
+        if args.hostile == "quadratic_weyl_nonzero":
+            weyl_sq += 12 * C * C
         assert weyl_sq == 0
         for a in range(D):
             for b in range(D):
@@ -301,12 +333,17 @@ def main() -> None:
         "quadratic_controls": quadratic_cases,
         "assertions": assertions,
         "c2_signs_covered": sorted(signs),
+        "c4_classes_covered": sorted(c4_classes),
+        "coefficient_map_origin": "full exact tensor evaluations on four amplitudes per monomial",
         "polynomial_maps": {
             str(k): {name: {str(p): str(c) for p, c in values.items()} for name, values in maps[k].items()}
             for k in maps
         },
     }
-    (HERE / "INDEPENDENT_VERIFICATION.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    if not args.no_write:
+        (HERE / "INDEPENDENT_VERIFICATION.json").write_text(
+            json.dumps(result, indent=2, sort_keys=True) + "\n"
+        )
     print(json.dumps(result, sort_keys=True))
 
 

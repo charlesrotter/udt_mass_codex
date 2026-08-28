@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -32,7 +33,11 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
-    destination = Path(tempfile.mkdtemp(prefix="udt_g288_review_", dir="/tmp"))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--repair-followup", action="store_true")
+    args = parser.parse_args()
+    prefix = "udt_g288_repair_followup_" if args.repair_followup else "udt_g288_review_"
+    destination = Path(tempfile.mkdtemp(prefix=prefix, dir="/tmp"))
     package_destination = destination / PACKAGE.name
     package_destination.mkdir()
 
@@ -62,23 +67,41 @@ def main() -> None:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
 
-    scope = {
-        "audit": "G288_SMOOTH_CENTER_MICRO_REGIME_JET_INTERLOCK",
-        "mode": "fresh read-only adversarial review",
-        "allowed": (
-            "inspect only the sealed intake; rederive load-bearing results from the current metric; "
-            "use older audits only as comparison targets and never as proof; run registered replays "
-            "or bounded checks only in a writable ephemeral copy"
-        ),
-        "forbidden": (
-            "edit evidence files, continue the research, access repository files outside the intake "
-            "or protected packages, trust an older audit as certification, or promote the local result "
-            "to a Planck scale, physical mass, source, history, X_max, observation, or canon claim"
-        ),
-        "scientific_ceiling": (
-            "bounded adjudication of the analytic-even primary-metric smooth-center jet hierarchy"
-        ),
-    }
+    if args.repair_followup:
+        scope = {
+            "audit": "G288_SMOOTH_CENTER_MICRO_REGIME_JET_INTERLOCK_REPAIR_FOLLOWUP",
+            "mode": "read-only repair-only follow-up review",
+            "allowed": (
+                "inspect only the sealed intake; verify only preregistered repairs R1 through R5, "
+                "the registered replays, and the unchanged bounded scientific landing; use older "
+                "audits only as comparison targets; run checks only in a writable ephemeral copy"
+            ),
+            "forbidden": (
+                "edit evidence files, continue the research, change the scientific question, access "
+                "repository files outside the intake or protected packages, trust an older audit as "
+                "proof, or promote Planck scale, physical mass, source, history, X_max, observation, "
+                "or canon claims"
+            ),
+            "scientific_ceiling": "repair-only certification with no scientific-landing change",
+        }
+    else:
+        scope = {
+            "audit": "G288_SMOOTH_CENTER_MICRO_REGIME_JET_INTERLOCK",
+            "mode": "fresh read-only adversarial review",
+            "allowed": (
+                "inspect only the sealed intake; rederive load-bearing results from the current metric; "
+                "use older audits only as comparison targets and never as proof; run registered replays "
+                "or bounded checks only in a writable ephemeral copy"
+            ),
+            "forbidden": (
+                "edit evidence files, continue the research, access repository files outside the intake "
+                "or protected packages, trust an older audit as certification, or promote the local result "
+                "to a Planck scale, physical mass, source, history, X_max, observation, or canon claim"
+            ),
+            "scientific_ceiling": (
+                "bounded adjudication of the analytic-even primary-metric smooth-center jet hierarchy"
+            ),
+        }
     (destination / "REVIEW_SCOPE.json").write_text(
         json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )

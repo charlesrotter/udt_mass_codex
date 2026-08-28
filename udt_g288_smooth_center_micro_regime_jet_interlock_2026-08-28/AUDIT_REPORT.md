@@ -1,7 +1,7 @@
 # G288 audit report — smooth-center micro-regime jet interlock
 
 Date: 2026-08-28
-Grade: `EXTERNAL_PASS_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__EVIDENCE_REPAIRS_OPEN`
+Grade: `EXTERNAL_REPAIRS_IMPLEMENTED__SCIENTIFIC_LANDING_RETAINED__FOLLOWUP_OPEN`
 
 ## Primary landing
 
@@ -47,19 +47,24 @@ reciprocal clock/curvature germ.
 ## Evidence
 
 - outcome-blind preregistration committed and pushed at `0d57f458`;
-- 22/22 from-scratch symbolic/tensor assertions pass;
-- implementation-distinct replay passes 18,117 exact assertions over 1,000 general rational metric
+- 22/22 from-scratch symbolic/tensor assertions pass in the separately dependency-declared SymPy route;
+- the self-contained implementation-distinct replay passes 18,142 exact assertions over 1,000 general rational metric
   germs and 100 exact quadratic controls, covering both signs of \(c_2\);
 - an independently noticed unused constant-ledger sign defect was failed closed and repaired before
   acceptance;
-- 9/9 hostile regressions are caught, including Planck/\(X_{\max}\) insertion, physical-mass
-  promotion, coordinate-speed promotion, profile/arrow sign aliasing, and trust in an old audit;
+- 4/4 geometric mutations are rejected by fresh standard-library tensor recomputation;
+- 9/9 saved-artifact and semantic regressions are caught, including Planck/\(X_{\max}\) insertion,
+  physical-mass promotion, coordinate-speed promotion, profile/arrow sign aliasing, and trust in an
+  old audit; this second harness is explicitly not a scientific recomputation;
 - the current 272-row premise/startup verifier passes;
 - the repository suite passes 192 tests with one expected `HABIT`-pin xfail;
 - the first full suite run exposed an overlong G287-era `INDEX.md` line; it was wrapped without a
   semantic change and the full suite then passed;
 - no observation, fit, Planck cutoff, source, action, field equation, matter model, protected input,
   or physical history entered.
+
+`verify_package.py` aggregates integrity, hashes, provenance, and registered replay results.  It is
+not counted as an independent geometric derivation.
 
 ## Ownership ceiling
 

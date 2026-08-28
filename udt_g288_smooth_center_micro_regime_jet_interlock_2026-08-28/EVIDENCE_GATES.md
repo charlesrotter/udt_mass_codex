@@ -13,12 +13,15 @@ spherical areal metric, through the full general coefficient theorem and explici
 
 ## Gate 3 — independent verification
 
-Pass.  Production rebuilt the full symbolic four-metric geometry.  The independent verifier imports
-no production code or artifact and uses standard-library exact rational arithmetic to rebuild the
-metric two-jet, inverse derivative, connection derivative, curvature, null screen, and invariants.
-It passes 18,117 assertions.  Nine hostile regressions are caught.
+Pass locally after external repairs.  Production rebuilt the full symbolic four-metric geometry in
+a separately dependency-declared SymPy route.  The self-contained verifier imports no production
+code or artifact and uses standard-library exact rational arithmetic to rebuild the metric two-jet,
+inverse derivative, connection derivative, curvature, null screen, and invariants.  It derives its
+coefficient map from full tensor evaluations and passes 18,142 assertions.  Four geometric mutations
+are rejected by fresh recomputation.  Nine saved-artifact and semantic mutations are also caught,
+but that second harness is explicitly a regression guard rather than a scientific recomputation.
 
-The aggregate verifier initially rejected the production script for naming its own output file and
+The integrity/provenance aggregator initially rejected the production script for naming its own output file and
 then rejected the multiline display of the exact landing token.  Both were verifier-scope defects,
 not scientific failures; the guards were narrowed to the intended old-package import and normalized
 landing checks before the aggregate pass.
@@ -36,7 +39,7 @@ full repository suite passes 192 tests with one expected xfail.
 ## Current grade
 
 Fresh external `gpt-5.4` review independently retained the bounded scientific landing and returned
-`PASS_WITH_REPAIRS`.  Five preregistered evidence/wording repairs remain open; none changes the
-scientific equations.
+`PASS_WITH_REPAIRS`.  All five preregistered evidence/wording repairs are now implemented locally;
+none changes the scientific equations.  Repair-only external follow-up remains open.
 
-`EXTERNAL_PASS_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__EVIDENCE_REPAIRS_OPEN`
+`EXTERNAL_REPAIRS_IMPLEMENTED__SCIENTIFIC_LANDING_RETAINED__FOLLOWUP_OPEN`
