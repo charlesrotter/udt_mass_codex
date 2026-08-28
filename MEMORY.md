@@ -11,6 +11,8 @@ finds no kernel regression. On a supplied germ, `B,Q,S,Y,Z` enters before readou
 G288 freshly derives a partial analytic-even center interlock: the quadratic negative-profile germ
 is zero-tide constant-curvature, while angular/Weyl response begins at independent quartic order;
 external repair-only review accepts the bounded result.
+G289 finds the old static Hopfion locally compatible with the null-direction sphere but still
+conditional/frame-dependent; exact metric twins carry the same texture, so no history is selected.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -36,8 +38,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-MAP G288's minimal time-live/nonspherical extension and finite negative-profile band; first control
-whether the hierarchy depends on the primary reciprocal restriction `B=1/A`.
+Externally review G289. If retained, MAP a gauge-covariant Hopf charge and time-live persistence
+history discriminator; keep G288's general `A(r),B(r)` control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

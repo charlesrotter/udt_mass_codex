@@ -1,0 +1,5 @@
+witness	shared_structure	invariant_difference	verdict
+conformal_g0_vs_g1	same manifold time orientation null cones and supplied null-direction texture	center scalar curvature 0 versus minus36	texture existence does not select history
+primary_f_family	orthonormal null embedding for every smooth positive f	arbitrary primary curvature and G288 coefficients	local embedding is coefficient-blind
+frame_trivialization_pair	same local celestial fiber and physical direction data	raw component Hopf class 0 versus magnitude1	fixed-target charge needs framing or gauge-covariant completion
+static_vs_time_live	conditional old carrier/action/boundary only	no tested time propagation or backreaction	earlier stability cannot grade a physical history

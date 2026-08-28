@@ -1,6 +1,6 @@
 # G289 registered commands
 
-No outcome command is authorized until this preregistration is committed and pushed.
+The preregistration was committed and pushed at `1156e2a2` before these commands ran.
 
 Planned self-contained CPU routes:
 

@@ -27,7 +27,9 @@ structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286
 that current identities do not uniquely continue a shared prior metric; G287 confirms reversal
 negates `delta_AB`, not the ambient profile. G288 freshly rebuilds the primary metric near an
 analytic even smooth center: the quadratic germ is zero-tide constant-curvature, while angular
-tide first enters through an independent quartic jet. A supplied germ pulls
+tide first enters through an independent quartic jet. G289 finds the old static Hopfion
+compatible with the null-direction sphere but still conditional, frame-dependent, and nonselective
+of metric history. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -80,6 +82,10 @@ Current observational/history boundary:
   controls leading clock/acceleration/curvature/geometric-`mu`, but cancels from angular tide;
   angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`. No Planck scale,
   physical mass, global micro band, or history is selected.
+- G289 internally verifies a mixed result: a unit-vector Hopf texture embeds locally as a null
+  direction after supplying an observer/frame, but the old round target, action, boundary, and raw
+  component charge are not full-frame-native. Conformal history twins carry the same texture with
+  different curvature; no history is selected. External review is open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -107,10 +113,9 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-MAP whether G288's center hierarchy survives the minimal complete time-live/nonspherical germ and
-whether a finite negative-profile band can be classified without inserting a Planck scale. A
-reviewer-proposed control is the general static-spherical `A(r),B(r)` chart: test whether quartic
-angular onset depends on the reciprocal restriction `B=1/A`. Do not import a familiar equation,
-physical mass, source, observation, `X_max`, or protected work. No ODE/PDE/GPU solve is authorized
-before an explicit law and premise ledger.
+External review must test G289's boost, large-frame-gauge Hopf, and conformal-history arguments.
+If retained, MAP a gauge-covariant framed/connection charge and time-live persistence discriminator;
+it must reject a regular history pair before counting as selection. Keep G288's general `A(r),B(r)`
+control queued. Do not import an action, source, physical mass, observation, Planck scale, `X_max`, or
+protected work; no ODE/PDE/GPU solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

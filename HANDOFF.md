@@ -14,6 +14,10 @@ reversal flips directed `delta`, not the ambient profile; no kernel formula chan
 rebuilds the current primary metric from scratch near an analytic even smooth center. Its quadratic
 negative-profile germ is exact zero-tide constant-curvature; angular tide begins at independent
 quartic order. External repair-only review accepted the bounded result with no defects.
+G289 then finds the older static Hopfion locally compatible with the metric's null-direction sphere,
+but its fixed round target, action, boundary, and raw component charge remain conditional/frame
+dependent. Exact conformal twins carry the same texture with different curvature, so it selects no
+history. G289 is internally verified; external review remains open.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -62,8 +66,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: MAP the minimal time-live/nonspherical center extension and finite negative-profile band. Use
-general static-spherical `A(r),B(r)` as a control for dependence on `B=1/A`; do not insert a Planck
-scale, physical mass, observation, or `X_max`. No solve precedes an explicit premise ledger.
+Next: externally review G289. If retained, MAP a gauge-covariant Hopf charge/transport and time-live
+persistence discriminator; it must separate regular histories. Keep G288's general `A(r),B(r)`
+control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
 
 <!-- STARTUP_CURRENT_END -->

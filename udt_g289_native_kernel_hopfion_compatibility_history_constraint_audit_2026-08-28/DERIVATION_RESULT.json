@@ -1,0 +1,49 @@
+{
+  "boost_witness": {
+    "beta": "3/5",
+    "celestial_tangent_norm_scale": "16/25",
+    "gamma": "5/4",
+    "quartic_area_square_scale": "256/625"
+  },
+  "check_count": 23,
+  "checks": {
+    "boost_not_round_target_isometry": true,
+    "boost_preserves_celestial_unit_sphere": true,
+    "boost_preserves_nullity": true,
+    "boost_preserves_tangent_orthogonality": true,
+    "boost_tangent_one_scale": true,
+    "boost_tangent_two_scale": true,
+    "component_hopf_class_can_change_under_local_frame_rotation": true,
+    "conformal_twin_curved_center_scalar": true,
+    "conformal_twin_flat_center_scalar": true,
+    "conformal_twins_geometrically_inequivalent": true,
+    "full_frame_native_round_target_fails": true,
+    "hopf_connection_integral_magnitude": true,
+    "local_configuration_compatibility": true,
+    "north_preimage_circle": true,
+    "null_texture_alone_does_not_select_history": true,
+    "positive_conformal_factor_preserves_null_lines": true,
+    "quadratic_density_changes": true,
+    "quartic_area_square_changes": true,
+    "quaternion_rotated_direction_lands_on_s2": true,
+    "raw_component_charge_not_frame_gauge_descended": true,
+    "same_unit_direction_texture_embeds_in_both_twins": true,
+    "south_preimage_circle": true,
+    "unit_direction_gives_null_line": true
+  },
+  "history_witness": {
+    "center_scalar_curvature": "-36*alpha",
+    "family": "g_alpha=exp(2*alpha*r^2)*eta on a bounded spatial ball",
+    "same_null_lines": true
+  },
+  "imports_old_result_artifact": false,
+  "introduces_action_source_mass_history_or_scale": false,
+  "landing": "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS__FIXED_ROUND_S2_HOPFION_REQUIRES_SUPPLIED_FRAME_TARGET_AND_BOUNDARY__RAW_HOPF_CLASS_DOES_NOT_DESCEND_THROUGH_FULL_LOCAL_FRAME_GAUGE__CONFORMAL_HISTORY_TWINS_CARRY_THE_SAME_NULL_TEXTURE__STATIC_HOPFION_IS_CONDITIONALLY_COMPATIBLE_NOT_A_CURRENT_HISTORY_SELECTOR",
+  "status": "PASS",
+  "topology_witness": {
+    "constant_component_direction": "e3",
+    "hopf_integral_magnitude": "4*pi^2",
+    "local_frame_map": "Ad_q with q in S3 and identity at compactification basepoint",
+    "rotated_component_map": "standard Hopf map S3->S2"
+  }
+}

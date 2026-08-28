@@ -1,0 +1,16 @@
+{
+  "assertions": 14533,
+  "boost_signs_covered": [
+    "negative",
+    "zero",
+    "positive"
+  ],
+  "conformal_history_controls": 5,
+  "hopf_fiber_controls": 122,
+  "imports_production_module": false,
+  "method": "standard_library_fraction_stereographic_and_quaternion_routes",
+  "random_exact_cases": 1200,
+  "reads_production_result": false,
+  "round_target_nonisometry_scale": "16/25",
+  "status": "PASS"
+}

@@ -2,7 +2,7 @@
 
 Date: 2026-08-28
 
-`LIVE.md` controls status; the 272-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 273-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -67,6 +67,10 @@ population, operational distance, or `X_max`.
   screen, acceleration, geometric mass aspect, and null normalization. In an analytic even smooth
   center, `c2` gives the zero-tide constant-curvature leading germ; angular/Weyl departure begins at
   independent `c4`. External repair-only review accepted the bounded result with no defects.
+- G289 freshly tests the conditional static Hopfion against the current kernel. Its unit vector
+  embeds locally as a null direction after an observer/frame is supplied, but the fixed round target,
+  action, boundary, and raw component charge do not descend through full frame gauge. Conformal
+  history twins retain the texture with different curvature; internal review selects no history.
 
 ## Open boundary
 
@@ -78,9 +82,9 @@ G282--G284 narrow the missing content to neighboring curvature values and close 
 and cone reconstruction as selectors. G285 includes tide in complete separation but supplies no
 `L2 -> L3/L4` propagation. G286 shows even the whole prior metric plus every join jet does not make
 the present layer choose a future on its bounded family; G287 repairs a sign explanation without
-closing that gap. G288 adds a real local center universality class but leaves coefficient values,
-absolute scale, physical mass, global micro band, and history open. This is not a no-go against a
-native law.
+closing that gap. G288 adds a local center universality class; G289 makes the old Hopfion a viable
+conditional configuration, not a native carrier or history selector. Coefficients, scale, mass,
+global micro band, and history remain open. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -88,7 +92,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-MAP the minimal complete time-live/nonspherical center extension and finite negative-profile band.
-Use a general static-spherical `A(r),B(r)` chart as a control for dependence on the reciprocal
-restriction `B=1/A`. Do not insert a Planck scale, observation, source, physical mass, or familiar
-equation. No ODE/PDE/GPU solve precedes an explicit candidate and premise ledger.
+Externally review G289's frame-gauge and history countermodels. If retained, MAP a gauge-covariant
+charge/connection and time-live persistence discriminator that separates regular histories. Keep
+G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
+`X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

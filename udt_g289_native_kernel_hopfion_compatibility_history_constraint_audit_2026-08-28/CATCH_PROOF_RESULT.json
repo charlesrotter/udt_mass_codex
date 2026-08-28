@@ -1,0 +1,29 @@
+{
+  "caught": 5,
+  "mutations": [
+    {
+      "caught": true,
+      "mutation": "nonunit_direction_called_null"
+    },
+    {
+      "caught": true,
+      "mutation": "boost_called_round_target_isometry"
+    },
+    {
+      "caught": true,
+      "mutation": "same_null_texture_called_same_history"
+    },
+    {
+      "caught": true,
+      "mutation": "raw_component_hopf_charge_called_full_frame_gauge_invariant"
+    },
+    {
+      "caught": true,
+      "mutation": "conditional_stability_called_native_history_selector"
+    }
+  ],
+  "recomputing_geometric_catches": 4,
+  "status": "PASS",
+  "total": 5,
+  "typed_promotion_catches": 1
+}

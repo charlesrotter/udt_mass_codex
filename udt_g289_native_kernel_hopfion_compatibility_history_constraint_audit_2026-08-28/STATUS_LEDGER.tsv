@@ -1,7 +1,7 @@
 item	status
 map	COMPLETE
 preregistration	FROZEN_BEFORE_OUTCOME_IMPLEMENTATION
-derivation	OPEN
-independent_verification	OPEN
-hostile_controls	OPEN
-scientific_landing	OPEN
+derivation	PASS__23_FRESH_EXACT_CHECKS
+independent_verification	PASS__14533_EXACT_ASSERTIONS__1200_CASES
+hostile_controls	PASS__5_OF_5_CAUGHT
+scientific_landing	INTERNALLY_VERIFIED_BOUNDED_MIXED_RESULT__EXTERNAL_REVIEW_OPEN
