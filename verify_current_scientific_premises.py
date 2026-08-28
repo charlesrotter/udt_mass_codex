@@ -1275,7 +1275,7 @@ def main() -> None:
             "PARTIAL_CENTER_INTERLOCK_ONLY",
         ),
         "G289": (
-            "EXTERNAL_ACCEPT_WITH_REPAIRS__REPAIRS_R1_R4_IMPLEMENTED__REPAIR_ONLY_FOLLOWUP_OPEN__PREREGISTERED_AT_1156E2A2",
+            "EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED__PREREGISTERED_AT_1156E2A2",
             "udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/AUDIT_REPORT.md",
             "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS",
         ),
@@ -13692,7 +13692,6 @@ def main() -> None:
         "G289 active scope widened",
     )
     for guard in (
-        "repair-only external follow-up of R1 through R4",
         "gauge-covariant physical Hopf charge",
         "native carrier section target metric framing connection and boundary",
         "time-live topological persistence and dynamic stability",
@@ -13722,6 +13721,8 @@ def main() -> None:
         "ADVERSARIAL_REVIEW_REQUEST.md",
         "EXTERNAL_REVIEW_GPT54.md",
         "EXTERNAL_REPAIR_PREREGISTRATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
         "REPAIR_RESULT.json",
         "REPAIR_FOLLOWUP_REQUEST.md",
         "verify_repairs.py",
@@ -13779,17 +13780,21 @@ def main() -> None:
         g289_repairs["status"] == "PASS"
         and g289_repairs["repairs"] == ["R1", "R2", "R3", "R4"]
         and g289_repairs["scientific_landing_changed"] is False
-        and g289_repairs["repair_followup"] == "OPEN"
         and all(g289_repairs["checks"].values()),
         "G289 repair certification regressed",
     )
     g289_report = (g289 / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     g289_external = (g289 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
+    g289_followup = (g289 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
     require(
         "SETTLED_STATIC_FINITE_BOX_CONDITIONAL" in g289_report
-        and "EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN" in g289_report
+        and "EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED" in g289_report
         and "ACCEPT_WITH_REPAIRS" in g289_external,
         "G289 conditional stability, external verdict, or repair ceiling regressed",
+    )
+    require(
+        "REPAIRS_ACCEPTED" in g289_followup and "Defects: none" in g289_followup,
+        "G289 external repair-only acceptance regressed",
     )
     g289_replay = replay_package_with_current_registry_rows_removed(
         g289, ("G290",), include_legacy_later_rows=False
@@ -13803,7 +13808,6 @@ def main() -> None:
         "G290 active scope widened",
     )
     for guard in (
-        "G289 repair-only external follow-up",
         "exact complete-pair screen connection and holonomy descent",
         "physical null congruence complete pair network loop population and event correspondence",
         "time-live transgression degeneracy and topology-change strata",

@@ -1,7 +1,7 @@
 # G289 audit report — native-kernel Hopfion compatibility and history restriction
 
 Date: 2026-08-28
-Grade: `EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN`
+Grade: `EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`
 
 ## Landing
 
@@ -68,4 +68,8 @@ Fresh sealed external `gpt-5.4` review returned `ACCEPT_WITH_REPAIRS` and retain
 bounded scientific landing. R1 restores the controlling static finite-box conditional status. R2
 replaces hard-coded hostile witness outputs with primitive recomputations. R3 independently derives
 the normalized Hopf connection integral and compactification basepoint. R4 separates 17 computed
-identities from 6 conclusion flags. Repair-only external follow-up remains open.
+identities from 6 conclusion flags. Those four repairs were submitted unchanged to repair-only review.
+
+The sealed repair-only follow-up returned `REPAIRS_ACCEPTED` with no defects. G289 is closed at its
+bounded compatibility/nonselection ceiling; gauge-covariant charge, time-live persistence,
+backreaction, and any physical-history restriction remain open future questions.

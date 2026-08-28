@@ -38,6 +38,7 @@ def main() -> None:
         "EXTERNAL_REVIEW_GPT54.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
         "EXTERNAL_REPAIR_PREREGISTRATION.md", "REPAIR_RESULT.json",
         "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
         "derive_compatibility.py", "verify_independent.py", "run_catch_proofs.py",
         "verify_repairs.py",
         "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
@@ -110,10 +111,14 @@ def main() -> None:
         raise AssertionError("audit landing mismatch")
     for token in (
         "SETTLED_STATIC_FINITE_BOX_CONDITIONAL",
-        "EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN",
+        "EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
     ):
         if token not in (HERE / "AUDIT_REPORT.md").read_text():
             raise AssertionError(f"audit token missing: {token}")
+
+    repair_followup = (HERE / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+    if "REPAIRS_ACCEPTED" not in repair_followup or "Defects: none" not in repair_followup:
+        raise AssertionError("external repair follow-up mismatch")
 
     result = {
         "status": "PASS",
@@ -125,7 +130,7 @@ def main() -> None:
         "hostile_catches": catches["caught"],
         "landing": LANDING,
         "external_review": "ACCEPT_WITH_REPAIRS",
-        "repair_followup": "OPEN",
+        "external_repair_followup": "REPAIRS_ACCEPTED",
         "aggregator_role": "integrity_and_provenance_only",
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")

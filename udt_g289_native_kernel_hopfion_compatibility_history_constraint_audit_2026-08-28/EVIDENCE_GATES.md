@@ -21,7 +21,8 @@ gauge, same-cone/same-history, and conditional-stability promotions; four now re
 witnesses from primitive constructions.
 
 Fresh external adversarial review retained the scientific landing and required four evidence/status
-repairs. Those repairs are implemented; repair-only follow-up remains open.
+repairs. Those repairs are implemented, and sealed repair-only follow-up returned
+`REPAIRS_ACCEPTED` with no defects.
 
 ## Gate 4 — premise audit
 
@@ -35,4 +36,4 @@ The exact 273-row premise registry and startup-surface audit pass. The full repo
 
 ## Current grade
 
-`EXTERNALLY_ACCEPTED_BOUNDED_MIXED_RESULT__REPAIRS_IMPLEMENTED__FOLLOWUP_OPEN`
+`EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`

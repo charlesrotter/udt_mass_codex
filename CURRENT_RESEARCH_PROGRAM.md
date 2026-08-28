@@ -71,7 +71,7 @@ population, operational distance, or `X_max`.
   embeds locally as a null direction after an observer/frame is supplied, but the fixed round target,
   action, boundary, and raw component charge do not descend through full frame gauge. Conformal
   history twins retain the texture with different curvature. Fresh external review accepts this
-  bounded landing with four evidence repairs; all four are implemented and repair-only follow-up is open.
+  bounded landing; repair-only follow-up accepts all four repairs with no defects or scientific change.
 - G290's internal multi-agent whiteboard proves a bounded connected-family obstruction: pure topology
   cannot distinguish those smooth conformal twins. It identifies the supplied complete-pair screen
   differential character as the strongest layered candidate: sector topology plus metric-sensitive
@@ -97,7 +97,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Complete G289's repair-only external follow-up on its frame-gauge and history countermodels. If retained, preregister G290's exact
+Preregister G290's exact
 complete-pair screen-holonomy/conformal-twin descent and time-live transgression. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

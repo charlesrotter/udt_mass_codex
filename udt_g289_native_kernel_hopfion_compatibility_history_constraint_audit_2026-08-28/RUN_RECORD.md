@@ -20,4 +20,7 @@ Date: 2026-08-28
    `xfail`. This was an evidence-surface defect, not a scientific change.
 8. Fresh external `gpt-5.4` review accepted the bounded landing with four repairs. R1 restores the
    controlling `SETTLED_STATIC_FINITE_BOX_CONDITIONAL` status; R2--R4 strengthen and regrade the
-   evidence without changing the scientific conclusion. Repair follow-up remains open.
+   evidence without changing the scientific conclusion. At that stage, repair follow-up remained open.
+9. Sealed repair-only external follow-up session `01a04a8c-3c97-7953-b388-10a5cfd6cf90`
+   returned `REPAIRS_ACCEPTED` with no defects after replaying the dependency-free independent,
+   hostile, repair, and aggregate routes. The scientific landing remains unchanged.

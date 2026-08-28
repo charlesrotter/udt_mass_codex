@@ -13,8 +13,8 @@ is zero-tide constant-curvature, while angular/Weyl response begins at independe
 external repair-only review accepts the bounded result.
 G289 finds the old static Hopfion locally compatible with the null-direction sphere but still
 conditional/frame-dependent; exact metric twins carry the same texture, so no history is selected.
-Fresh external review accepted the bounded landing with four implemented evidence repairs; repair-only
-follow-up remains open.
+Fresh external review and repair-only follow-up accept the bounded landing and all four repairs with
+no defects.
 G290's internal whiteboard separates persistent topology from metric-sensitive screen holonomy;
 the layered differential character distinguishes histories but does not select one.
 
@@ -42,7 +42,7 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Complete G289's repair-only external follow-up. If retained, derive G290's complete-pair screen holonomy and time-live
+Preregister and derive G290's complete-pair screen holonomy and time-live
 transgression without promoting either to persistence or selection; keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
