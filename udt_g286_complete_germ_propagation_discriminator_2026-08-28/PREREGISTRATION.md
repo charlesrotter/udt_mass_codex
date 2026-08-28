@@ -26,7 +26,7 @@ Insert each into the G283 metric family. No outcome-dependent alternative witnes
 
 1. `CURRENT_IDENTITIES_PROPAGATE_TESTED_COMPLETE_GERM_UNIQUELY`
    if the second witness fails regularity or an owned compatibility/carry identity.
-2. `SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT__GEOMETRICALLY_INEQUIVALENT_FUTURE_CONTINUATIONS__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION`
+2. `SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT_GEOMETRICALLY_INEQUIVALENT_FUTURE_CONTINUATIONS__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION`
    if both witnesses are regular, coincide for `u<=0` and to every jet at `u=0`, pass the inherited
    identity layer, and differ invariantly for some `u>0`.
 3. `G286_WITNESS_INCONCLUSIVE`

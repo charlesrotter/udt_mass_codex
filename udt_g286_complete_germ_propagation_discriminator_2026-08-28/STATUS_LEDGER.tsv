@@ -13,5 +13,6 @@ Native propagation/admissibility principle	OPEN	Local global or mixed home not s
 Observational calibration	NOT_YET_AUTHORIZED	Wait for finite-dimensional native family
 External adversarial review	ACCEPT_WITH_REPAIRS	Scientific landing retained
 First repair-only follow-up	REPAIR_REJECTED_NARROW_WORDING_ONLY	R1 and R3 accepted; R2 incomplete in two preregistration lines
-R2 completion	IMPLEMENTED__FINAL_FOLLOWUP_OPEN	Metric-native question and landing now load-bearing throughout preregistration
+R2 substantive completion	EXTERNALLY_ACCEPTED	Metric-native question; no L2 or L3 in preregistration; remaining uses secondary and provisional
+R2 landing-token transcription	CORRECTED__FINAL_MECHANICAL_FOLLOWUP_OPEN	Removed one extra underscore after ADMIT; no scientific change
 R1 hostile replay catch	OBSERVED_PASS	Aggregate verifier rejected a failed fresh production replay with exit 1

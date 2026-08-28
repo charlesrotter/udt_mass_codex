@@ -13,7 +13,7 @@ __CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION
 Secondary provisional G285 typing: the same prior `L3` network admits distinct future `L2`
 valuations. This wording is not load-bearing and does not adopt G285.
 
-Status: `PREREGISTERED__EXACT_BOUNDED_DERIVATION__TWO_METHOD_NUMERICAL_DIAGNOSTIC__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R3_ACCEPTED__R2_WORDING_COMPLETED__FINAL_FOLLOWUP_OPEN`.
+Status: `PREREGISTERED__EXACT_BOUNDED_DERIVATION__TWO_METHOD_NUMERICAL_DIAGNOSTIC__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R3_ACCEPTED__R2_SUBSTANCE_ACCEPTED__LANDING_TOKEN_CORRECTED__FINAL_MECHANICAL_FOLLOWUP_OPEN`.
 
 ## What was learned
 
@@ -51,8 +51,14 @@ mutated package with exit `1`.
 The first repair-only follow-up accepted R1, R3, all fresh replays, hostile rejection, and exact
 artifact reproduction, but returned `REPAIR-REJECTED` because two lines in the original
 preregistration still used G285 `L2` terminology as the main question and landing. Those two lines
-have now been replaced by the already-preregistered G283-native metric/curvature wording. A final
-R2-only follow-up remains open; the scientific result is unchanged.
+were replaced by the already-preregistered G283-native metric/curvature wording; the scientific
+result was unchanged.
+
+That R2-only follow-up accepted the metric-native question, removal of `L2`/`L3` from the
+preregistration, secondary/provisional marking everywhere else, and absence of scientific drift. It
+rejected one extra underscore in the restated landing token. The token now exactly matches the
+repair preregistration, frozen result, and implementation. Only a final mechanical follow-up remains
+open.
 
 ## Maximum conclusion
 
