@@ -4,6 +4,6 @@ S02	candidate complete-separation clarification	SUPPORTED_CANDIDATE_WORKING_FOUN
 S03	type-schema adjudication	PASS_20_TYPE_SCHEMA_CHECKS	Source-bounded retyping; no witness geometry recomputation
 S04	implementation-distinct type-schema census	PASS_256_TYPE_SCHEMA_CASES_2048_SCHEMA_ASSERTIONS	TYPE_SCHEMA only; not independent geometric verification
 S05	hostile catch proofs	PASS_10_OF_10	Typed overreach rejected
-S06	external review	ACCEPT_WITH_REPAIRS	Scientific landing unchanged; evidence labels require R1 and R2
-S07	package and live replay	PASS_REPAIRED_INTERNAL_COMPLETE	Four registered replays plus one mutation catch
-S08	repair preregistration	R1_R2_APPLIED_INTERNAL_PENDING_FOLLOWUP	TYPE_SCHEMA regrade only; scientific landing unchanged
+S06	external review	ACCEPT_WITH_REPAIRS_R1_R2_EXTERNALLY_CONFIRMED	Scientific landing unchanged; no scoped repair defects remain
+S07	package and live replay	PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED	Four registered replays plus one mutation catch; independently replayed
+S08	repair preregistration	R1_R2_EXTERNALLY_CONFIRMED	TYPE_SCHEMA regrade only; scientific landing unchanged

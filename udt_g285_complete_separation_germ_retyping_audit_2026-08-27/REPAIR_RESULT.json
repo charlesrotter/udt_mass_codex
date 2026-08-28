@@ -11,5 +11,7 @@
   "candidate_status": "SUPPORTED_CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION__NOT_ADOPTED_NOT_CANON",
   "geometry_recomputed_by_G285": false,
   "load_bearing_geometry": "externally_reviewed_G280_G282_G283_G284_source_results",
-  "status": "PASS_INTERNAL_PENDING_EXTERNAL_REPAIR_FOLLOWUP"
+  "external_repair_followup": "NO_SCOPED_REPAIR_DEFECTS__R1_R2_CONFIRMED__LANDING_UNCHANGED",
+  "external_report_sha256": "60752f841ef4a091b02870f728e3c9aab39a94d0d6d295a6e243cc6a18dbeb1f",
+  "status": "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
 }

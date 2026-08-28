@@ -80,11 +80,14 @@ completed metric relation.
 - standard-library-only scripts under `python3 -S`;
 - no observation, fit, field equation, action, source, matter, scale, or `X_max` input.
 
-Repairs R1 and R2 apply the external evidence-type regrade and are internally replayed pending a
-bounded repair-only follow-up. The scientific landing is unchanged.
+Repairs R1 and R2 apply the external evidence-type regrade. The sealed repair-only follow-up reran
+all five registered commands, confirmed both repairs, verified that the old overgrade is rejected
+when restored in a disposable copy, and reported no scoped repair defect. The scientific landing
+is unchanged.
 
 ## Maximum conclusion
 
 G285 supports the candidate complete-separation-germ interpretation and corrects the type of the
-G280--G284 countermodels. It does not adopt or canonize the interpretation, generate metric values,
-select a physical network or universe, or derive dynamics.
+G280--G284 countermodels. Fresh external scientific review and bounded repair-only follow-up are
+complete. G285 does not adopt or canonize the interpretation, generate metric values, select a
+physical network or universe, or derive dynamics.

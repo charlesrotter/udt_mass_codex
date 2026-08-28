@@ -46,6 +46,8 @@ def main() -> None:
         "EXTERNAL_REVIEW_GPT54.md",
         "EXTERNAL_REVIEW_TRANSMISSION.md",
         "REPAIR_PREREGISTRATION.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
         "derive_complete_separation_retyping.py",
         "verify_independent.py",
         "run_catch_proofs.py",
@@ -180,7 +182,7 @@ def main() -> None:
         )
         checks["broken_registered_replay_mutation_caught"] = mutation.returncode != 0
 
-    status = "PASS_REPAIRED_INTERNAL_COMPLETE" if all(checks.values()) else "FAIL"
+    status = "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED" if all(checks.values()) else "FAIL"
     result = {
         "audit": "G285_PACKAGE_AND_LIVE_REPLAY_VERIFICATION",
         "status": status,
@@ -195,15 +197,16 @@ def main() -> None:
             "typed_catches": catches["caught_count"],
         },
         "replay_commands": replay_records,
-        "external_review": "ACCEPT_WITH_REPAIRS__R1_R2_APPLIED_INTERNAL_PENDING_FOLLOWUP",
+        "external_review": "ACCEPT_WITH_REPAIRS__R1_R2_EXTERNALLY_CONFIRMED",
         "maximum_grade": (
             "PREREGISTERED__SOURCE_BOUNDED__TYPE_SCHEMA_ADJUDICATED__"
             "IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS__EXTERNAL_ACCEPT_WITH_REPAIRS__"
+            "R1_R2_EXTERNALLY_CONFIRMED__"
             "CANDIDATE_CLARIFICATION_SUPPORTED_NOT_ADOPTED_NOT_CANON"
         ),
     }
     print(json.dumps(result, indent=2, sort_keys=True))
-    raise SystemExit(0 if status == "PASS_REPAIRED_INTERNAL_COMPLETE" else 1)
+    raise SystemExit(0 if status == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED" else 1)
 
 
 if __name__ == "__main__":

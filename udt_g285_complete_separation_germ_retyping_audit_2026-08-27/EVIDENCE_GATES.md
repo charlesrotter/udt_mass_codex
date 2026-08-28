@@ -10,12 +10,12 @@
 | Premise audit | PASS | 10-row ledger; zero imported mechanisms |
 | Package/live replay | PASS | 4/4 registered replays; broken-replay mutation caught |
 | External fresh review | ACCEPT_WITH_REPAIRS | Scientific landing and all regrades accepted |
-| R1/R2 evidence-label repair | PASS_INTERNAL_PENDING_FOLLOWUP | Candidate not adopted or canonized |
+| R1/R2 evidence-label repair | PASS_EXTERNAL_FOLLOWUP_CONFIRMED | No scoped repair defects; candidate not adopted or canonized |
 
 Internal maximum grade before external review:
 
 ```text
 PREREGISTERED__SOURCE_BOUNDED__TYPE_SCHEMA_ADJUDICATED
 __IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS__EXTERNAL_ACCEPT_WITH_REPAIRS
-__CANDIDATE_CLARIFICATION_SUPPORTED_NOT_ADOPTED_NOT_CANON
+__R1_R2_EXTERNALLY_CONFIRMED__CANDIDATE_CLARIFICATION_SUPPORTED_NOT_ADOPTED_NOT_CANON
 ```
