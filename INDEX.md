@@ -7,7 +7,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing rows and evidence.
 
-The exact current premise authority is the 271-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+The exact current premise authority is the 272-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 ## Active relational frontier
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
@@ -100,7 +100,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
 - Current boundary: `udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md`; sign guard: `udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/AUDIT_REPORT.md`;
   G285 supplies only provisional type language, G284 controls causal/projective reconstruction,
-  G283 identity nonselection, and G282 the minimum-information-type prerequisite.
+  G283 identity nonselection, G282 the minimum-information prerequisite; micro center: `udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md`
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`

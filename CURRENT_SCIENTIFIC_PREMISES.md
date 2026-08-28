@@ -86,6 +86,7 @@
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
 | G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
+| G288 center interlock | internal; external open | Quadratic zero-tide/constant-curvature; angular tide starts at quartic jet |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -106,7 +107,8 @@ None selects completion/`X_max`.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   G282--G284 locate but do not select neighboring curvature. G285 retypes tide as part of complete
   separation; G286 shows current identities do not uniquely propagate the tested shared prior.
-  G287 keeps profile-regime sign distinct from pair-arrow orientation.
+  G287 separates profile sign from pair-arrow orientation. G288 gives partial center interlock;
+  Planck scale, mass, and global history remain open.
 
 ## Carrier, action, source, and matter
 
@@ -124,5 +126,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 271-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 272-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

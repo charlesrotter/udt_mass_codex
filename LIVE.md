@@ -25,7 +25,9 @@ provenance; G282 types the remaining joint history/Jacobi information; G283 test
 identity layers for hidden value selection; G284 tests whether emergent-`c_E` causal/projective
 structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286 shows boundedly
 that current identities do not uniquely continue a shared prior metric; G287 confirms reversal
-negates `delta_AB`, not the ambient profile. A supplied germ pulls
+negates `delta_AB`, not the ambient profile. G288 freshly rebuilds the primary metric near an
+analytic even smooth center: the quadratic germ is zero-tide constant-curvature, while angular
+tide first enters through an independent quartic jet. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -66,18 +68,18 @@ Current observational/history boundary:
   the same `T_ij` that drives Jacobi area. The causal/projective network therefore hears the tidal
   history but still accepts arbitrary smooth `T(u)`; positive homothety also leaves the absolute
   scale open. External repair review confirmed this bounded result.
-- G285 separates five levels: longitudinal scalar (`L0`), completed pair (`L1`), complete separation
-  germ including neighboring transverse/tidal variation (`L2`), compatible relation network (`L3`),
-  and physical value propagation (`L4`). Equal `phi` with different tide means different `L2`
-  separations, not one complete separation with two outputs. This removes the false requirement that
-  angular response be a function of `phi` alone. The source-bounded type regrade and its external
-  repair follow-up are complete; the candidate clarification is supported but not adopted or canon.
+- G285 separates scalar, pair, complete germ, network, and value propagation. Equal `phi` with
+  different tide means different complete germs; the noncanon type regrade is externally accepted.
 - G286's externally accepted metric-native witnesses share the whole prior region and all null-join
   jets but differ in future curvature. Current identities evaluate, not uniquely propagate, these
   continuations. A stronger native UDT law remains possible and unselected.
 - G287 finds no kernel regression: profile sign and ordered-arrow sign were already
   different types. G267's two `sech(delta)` ends are arrow-depth magnitude ends, not automatically
   micro/cosmological profile regimes; the intended regime reading remains unpromoted.
+- G288 is internally independently verified and awaiting external review. At an analytic even
+  smooth center, `c2` controls leading clock/acceleration/curvature/geometric-`mu`, but cancels from
+  angular tide; angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`.
+  No Planck scale, physical mass, global micro band, or history is selected.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -105,16 +107,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G286 closes ordinary compatibility, reconstruction, Cartan/Bianchi, carry, and Jacobi identities as
-unique propagation on its witness. PONDER whether UDT needs a value-bearing native
-propagation/admissibility principle or a sharper founding premise. If the former, MAP the narrowest
-covariant condition separating G286's futures while preserving reciprocity, GR-quiet behavior, and
-the angular/screen sector. Its form is `OPEN`; do not import a familiar equation, canonize G285, or
-force transverse behavior to depend on `phi` alone.
-Only after a finite-dimensional joint history is independently derived may SNe or another
-observation calibrate its constants. Do not choose a preferred `K`, draw a free optical curve from
-the data, identify areal radius with projective position by fiat, retune either SNe release, or
-select population, operational distance, or `X_max`. The retained `3000 K -> 2.725 K` ratio is a
-later direct-depth check (`phi_T ~= 7.00`), not an optical-area law. No ODE/PDE or GPU solve is
-authorized before the candidate law and premise ledger are explicit.
+Fresh external adversarial review of G288 must test the from-scratch tensor reconstruction, center
+series, independence, and scope. If retained, MAP whether the same center hierarchy survives the
+minimal complete time-live/nonspherical germ and whether a finite negative-profile band can be
+classified without inserting a Planck scale. Do not import a familiar equation, physical mass,
+source, observation, `X_max`, or protected work. Observations calibrate only after an independently
+derived finite family; no ODE/PDE/GPU solve is authorized before an explicit law and premise ledger.
 <!-- STARTUP_CURRENT_END -->

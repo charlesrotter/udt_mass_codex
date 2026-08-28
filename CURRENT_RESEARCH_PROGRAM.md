@@ -2,7 +2,7 @@
 
 Date: 2026-08-28
 
-`LIVE.md` controls status; the 271-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 272-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -63,6 +63,10 @@ population, operational distance, or `X_max`.
   External review accepts the bounded result that current identities are not unique propagation.
 - G287 externally confirms that pair reversal negates directed `delta_AB` while leaving the ambient
   `phi(r)` profile fixed. Whole-profile conjugation is distinct; no native kernel formula changed.
+- G288 distrusts the old audits and rebuilds the primary metric connection, curvature, nonradial
+  screen, acceleration, geometric mass aspect, and null normalization. In an analytic even smooth
+  center, `c2` gives the zero-tide constant-curvature leading germ; angular/Weyl departure begins at
+  independent `c4`. It is internally independently verified; external review remains open.
 
 ## Open boundary
 
@@ -74,7 +78,9 @@ G282--G284 narrow the missing content to neighboring curvature values and close 
 and cone reconstruction as selectors. G285 includes tide in complete separation but supplies no
 `L2 -> L3/L4` propagation. G286 shows even the whole prior metric plus every join jet does not make
 the present layer choose a future on its bounded family; G287 repairs a sign explanation without
-closing that gap. This is not a no-go against a native law.
+closing that gap. G288 adds a real local center universality class but leaves coefficient values,
+absolute scale, physical mass, global micro band, and history open. This is not a no-go against a
+native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -82,7 +88,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-PONDER a native value-propagation/admissibility principle or founding refinement. Any candidate must
-covariantly reject a G286 future without importing observations, forcing tide to depend only on
-`phi`, or choosing a familiar equation by habit. Observations calibrate only after an independently
-derived finite family. No ODE/PDE/GPU solve precedes an explicit candidate and premise ledger.
+Externally review G288's fresh tensor derivation and bounded scope. If retained, MAP the minimal
+complete time-live/nonspherical center extension and finite negative-profile band without inserting
+a Planck scale, observation, source, physical mass, or familiar equation. Observations calibrate
+only after an independently derived finite family. No ODE/PDE/GPU solve precedes an explicit
+candidate and premise ledger.

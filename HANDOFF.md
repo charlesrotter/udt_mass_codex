@@ -10,7 +10,10 @@ G166--G276 is the structural spine; G277--G281 control observations; G282--G284 
 history/Jacobi value gap; G285 retypes equal-scalar/different-tide cases as different complete
 separation germs; G286 proves the current identity/evaluator layer does not uniquely continue a
 whole shared prior metric, even with every join jet fixed. G287 externally confirms that pair
-reversal flips directed `delta`, not the ambient profile; no kernel formula changed.
+reversal flips directed `delta`, not the ambient profile; no kernel formula changed. G288 then
+rebuilds the current primary metric from scratch near an analytic even smooth center. Its quadratic
+negative-profile germ is exact zero-tide constant-curvature; angular tide begins at independent
+quartic order. This is internally verified and awaits external review.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -40,7 +43,9 @@ cone slope and neighboring cones reconstruct the tide, but do not select it or a
 provisional, not canon. G286 independently gives two regular metrics with the same whole prior and
 all null-join jets but inequivalent future curvature. External review accepted this bounded
 compatibility-not-propagation result; a stronger native principle remains possible. G287 keeps
-G267's even ends distinct from signed profile regimes and leaves that propagation gap unchanged.
+G267's even ends distinct from signed profile regimes. G288 shows partial local interlock: `c2`
+controls clock/acceleration/curvature/geometric-`mu`, while angular/Weyl response begins at `c4`.
+The exact center returns to `phi=0`; no Planck scale, physical mass, global band, or history follows.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw data:
@@ -57,9 +62,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: PONDER whether G286 exposes a native value-propagation/admissibility principle or a founding
-premise needing refinement. Any candidate must covariantly separate G286's futures without
-restating compatibility, forcing tide to depend only on `phi`, fitting observations, or selecting
-population/`X_max`. No ODE/PDE/GPU solve precedes an explicit candidate and premise ledger.
+Next: obtain fresh external adversarial review of G288. If retained, MAP the minimal
+time-live/nonspherical center extension and finite negative-profile band without inserting a Planck
+scale, physical mass, observation, or `X_max`. No ODE/PDE/GPU solve precedes an explicit candidate
+and premise ledger.
 
 <!-- STARTUP_CURRENT_END -->
