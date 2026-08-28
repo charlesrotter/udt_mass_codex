@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Implementation-distinct exact-rational G285 witness census."""
+"""Implementation-distinct exact-rational G285 type-schema census."""
 
 from __future__ import annotations
 
@@ -53,14 +53,16 @@ def main() -> None:
         "different_sphere_area_factor": 4 * Fraction(2) != 4 * Fraction(1),
     }
     result = {
-        "audit": "G285_INDEPENDENT_COMPLETE_GERM_VERIFICATION",
+        "audit": "G285_IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS",
         "status": "PASS" if all(radial_checks.values()) else "FAIL",
-        "exact_cases": cases,
-        "exact_assertions": assertions,
+        "type_schema_cases": cases,
+        "type_schema_assertions": assertions,
         "radial_checks": radial_checks,
-        "implementation": "independent_fraction_witness_census",
+        "implementation": "implementation_distinct_fraction_type_schema_census",
         "production_imported": False,
         "production_output_read": False,
+        "witness_geometry_recomputed": False,
+        "scope": "type_retyping_only; load-bearing geometry remains in G280-G284",
     }
     print(json.dumps(result, indent=2, sort_keys=True))
     raise SystemExit(0 if result["status"] == "PASS" else 1)

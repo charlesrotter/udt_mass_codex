@@ -6,26 +6,30 @@
     "broken_registered_replay_mutation_caught": true,
     "candidate_not_adopted_or_canon": true,
     "catch_proofs_10_of_10": true,
-    "derivation_20_of_20": true,
-    "independent_256_cases_2048_assertions": true,
+    "geometry_not_claimed_recomputed": true,
+    "implementation_distinct_schema_256_cases_2048_assertions": true,
     "no_scientific_imports": true,
     "preregistration_pass": true,
     "registered_replays_4_of_4": true,
+    "rejected_overgrade_absent_from_current_reports": true,
     "reports_forbid_overclaim": true,
     "reports_retain_bounded_landing": true,
+    "reports_use_repaired_type_schema_grade": true,
     "source_count_13": true,
+    "type_schema_adjudication_20_of_20": true,
     "value_propagation_remains_open": true
   },
   "counts": {
-    "exact_checks": 20,
     "frozen_sources": 13,
-    "independent_assertions": 2048,
-    "independent_cases": 256,
     "premise_rows": 10,
+    "type_schema_assertions": 2048,
+    "type_schema_cases": 256,
+    "type_schema_checks": 20,
     "typed_catches": 10
   },
-  "external_review": "OPEN_NOT_YET_AUTHORIZED",
+  "external_review": "ACCEPT_WITH_REPAIRS__R1_R2_APPLIED_INTERNAL_PENDING_FOLLOWUP",
   "landing": "COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS__VALUE_PROPAGATION_REMAINS_OPEN",
+  "maximum_grade": "PREREGISTERED__SOURCE_BOUNDED__TYPE_SCHEMA_ADJUDICATED__IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS__EXTERNAL_ACCEPT_WITH_REPAIRS__CANDIDATE_CLARIFICATION_SUPPORTED_NOT_ADOPTED_NOT_CANON",
   "replay_commands": [
     {
       "exit_code": 0,
@@ -52,5 +56,5 @@
       "script": "run_catch_proofs.py"
     }
   ],
-  "status": "PASS_INTERNAL_COMPLETE"
+  "status": "PASS_REPAIRED_INTERNAL_COMPLETE"
 }

@@ -43,6 +43,9 @@ def main() -> None:
         "AUDIT_REPORT.md",
         "LAY_REPORT.md",
         "EVIDENCE_GATES.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "REPAIR_PREREGISTRATION.md",
         "derive_complete_separation_retyping.py",
         "verify_independent.py",
         "run_catch_proofs.py",
@@ -73,17 +76,23 @@ def main() -> None:
     checks.update(
         {
             "preregistration_pass": prereg["status"] == "PASS" and prereg["source_count"] == 13,
-            "derivation_20_of_20": derivation["status"] == "PASS"
+            "type_schema_adjudication_20_of_20": derivation["status"] == "PASS"
+            and derivation["audit"]
+            == "G285_COMPLETE_SEPARATION_GERM_TYPE_SCHEMA_ADJUDICATION"
             and derivation["landing"] == LANDING
-            and derivation["exact_checks"] == 20
+            and derivation["type_schema_checks"] == 20
             and all(derivation["checks"].values()),
+            "geometry_not_claimed_recomputed": derivation["witness_geometry_recomputed"] is False
+            and independent["witness_geometry_recomputed"] is False,
             "candidate_not_adopted_or_canon": derivation["candidate_clarification_status"]
             == "CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION__NOT_CANON",
             "value_propagation_remains_open": derivation["value_selecting_constraints_found"] == 0,
             "no_scientific_imports": not any(derivation["scientific_imports"].values()),
-            "independent_256_cases_2048_assertions": independent["status"] == "PASS"
-            and independent["exact_cases"] == 256
-            and independent["exact_assertions"] == 2048
+            "implementation_distinct_schema_256_cases_2048_assertions": independent["status"]
+            == "PASS"
+            and independent["audit"] == "G285_IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS"
+            and independent["type_schema_cases"] == 256
+            and independent["type_schema_assertions"] == 2048
             and independent["production_imported"] is False
             and independent["production_output_read"] is False,
             "catch_proofs_10_of_10": catches["status"] == "PASS"
@@ -110,11 +119,21 @@ def main() -> None:
             "observer, branch, and path population",
         )
     )
+    evidence = (PACKAGE / "EVIDENCE_GATES.md").read_text(encoding="utf-8")
+    status_ledger = (PACKAGE / "STATUS_LEDGER.tsv").read_text(encoding="utf-8")
+    rejected_grade = "PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED"
+    checks["reports_use_repaired_type_schema_grade"] = all(
+        token in audit and token in evidence and token in status_ledger
+        for token in ("TYPE_SCHEMA", "not adopted")
+    )
+    checks["rejected_overgrade_absent_from_current_reports"] = all(
+        rejected_grade not in payload for payload in (audit, evidence, status_ledger)
+    )
 
     commands = (
         ("verify_preregistration.py", '"status": "PASS"'),
         ("derive_complete_separation_retyping.py", LANDING),
-        ("verify_independent.py", '"exact_assertions": 2048'),
+        ("verify_independent.py", '"type_schema_assertions": 2048'),
         ("run_catch_proofs.py", '"caught_count": 10'),
     )
     replay_records: list[dict[str, object]] = []
@@ -161,7 +180,7 @@ def main() -> None:
         )
         checks["broken_registered_replay_mutation_caught"] = mutation.returncode != 0
 
-    status = "PASS_INTERNAL_COMPLETE" if all(checks.values()) else "FAIL"
+    status = "PASS_REPAIRED_INTERNAL_COMPLETE" if all(checks.values()) else "FAIL"
     result = {
         "audit": "G285_PACKAGE_AND_LIVE_REPLAY_VERIFICATION",
         "status": status,
@@ -170,16 +189,21 @@ def main() -> None:
         "counts": {
             "frozen_sources": len(sources),
             "premise_rows": prereg["premise_rows"],
-            "exact_checks": derivation["exact_checks"],
-            "independent_cases": independent["exact_cases"],
-            "independent_assertions": independent["exact_assertions"],
+            "type_schema_checks": derivation["type_schema_checks"],
+            "type_schema_cases": independent["type_schema_cases"],
+            "type_schema_assertions": independent["type_schema_assertions"],
             "typed_catches": catches["caught_count"],
         },
         "replay_commands": replay_records,
-        "external_review": "OPEN_NOT_YET_AUTHORIZED",
+        "external_review": "ACCEPT_WITH_REPAIRS__R1_R2_APPLIED_INTERNAL_PENDING_FOLLOWUP",
+        "maximum_grade": (
+            "PREREGISTERED__SOURCE_BOUNDED__TYPE_SCHEMA_ADJUDICATED__"
+            "IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS__EXTERNAL_ACCEPT_WITH_REPAIRS__"
+            "CANDIDATE_CLARIFICATION_SUPPORTED_NOT_ADOPTED_NOT_CANON"
+        ),
     }
     print(json.dumps(result, indent=2, sort_keys=True))
-    raise SystemExit(0 if status == "PASS_INTERNAL_COMPLETE" else 1)
+    raise SystemExit(0 if status == "PASS_REPAIRED_INTERNAL_COMPLETE" else 1)
 
 
 if __name__ == "__main__":

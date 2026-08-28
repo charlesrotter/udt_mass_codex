@@ -12,7 +12,8 @@ __VALUE_PROPAGATION_REMAINS_OPEN
 Current internal grade:
 
 ```text
-PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED
+PREREGISTERED__SOURCE_BOUNDED__TYPE_SCHEMA_ADJUDICATED
+__IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS__EXTERNAL_ACCEPT_WITH_REPAIRS
 __CANDIDATE_CLARIFICATION_SUPPORTED_NOT_ADOPTED_NOT_CANON
 ```
 
@@ -36,6 +37,12 @@ law that propagates or selects the values across a physical network.
 This retyping does not yet determine the physical network, its values, or their propagation. It
 removes a false demand that one longitudinal scalar own the entire separation germ; it does not
 replace the still-open value law.
+
+The fresh external review accepted this bounded scientific landing and every G280--G284 regrade.
+It found no scientific defect, hidden import, or W5 replacement. It correctly regraded the new
+G285 computations: they adjudicate the type schema using already reviewed source results; they do
+not independently recompute the G280--G284 witness geometry. The candidate remains not adopted or
+canonized.
 
 ## Exact regrades
 
@@ -66,12 +73,15 @@ completed metric relation.
 
 - preregistered and pushed at commit `b2abd37a` before outcome execution;
 - 13 exact frozen sources and 10 premise rows;
-- 20/20 exact type/witness checks;
-- 256 implementation-distinct exact-rational cases and 2,048 assertions;
+- 20/20 source-bounded type-schema adjudication checks;
+- 256 implementation-distinct type-schema cases and 2,048 schema assertions;
 - exact centered radial fixed-depth area separator;
 - 10/10 hostile typed-overreach catches;
 - standard-library-only scripts under `python3 -S`;
 - no observation, fit, field equation, action, source, matter, scale, or `X_max` input.
+
+Repairs R1 and R2 apply the external evidence-type regrade and are internally replayed pending a
+bounded repair-only follow-up. The scientific landing is unchanged.
 
 ## Maximum conclusion
 

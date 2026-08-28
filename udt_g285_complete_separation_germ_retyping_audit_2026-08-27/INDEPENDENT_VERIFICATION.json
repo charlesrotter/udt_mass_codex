@@ -1,8 +1,6 @@
 {
-  "audit": "G285_INDEPENDENT_COMPLETE_GERM_VERIFICATION",
-  "exact_assertions": 2048,
-  "exact_cases": 256,
-  "implementation": "independent_fraction_witness_census",
+  "audit": "G285_IMPLEMENTATION_DISTINCT_TYPE_SCHEMA_CENSUS",
+  "implementation": "implementation_distinct_fraction_type_schema_census",
   "production_imported": false,
   "production_output_read": false,
   "radial_checks": {
@@ -10,5 +8,9 @@
     "different_sphere_area_factor": true,
     "same_depth": true
   },
-  "status": "PASS"
+  "scope": "type_retyping_only; load-bearing geometry remains in G280-G284",
+  "status": "PASS",
+  "type_schema_assertions": 2048,
+  "type_schema_cases": 256,
+  "witness_geometry_recomputed": false
 }

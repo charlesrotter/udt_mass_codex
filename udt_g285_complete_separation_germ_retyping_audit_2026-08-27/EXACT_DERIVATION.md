@@ -1,4 +1,8 @@
-# G285 exact derivation
+# G285 source-bounded type-schema adjudication
+
+This document retypes the already externally reviewed G280--G284 witnesses. It does not independently
+recompute their metric, curvature, cone-Hessian, or Jacobi derivations. Those frozen source results
+remain the load-bearing geometry; the reasoning below is the exact logical type regrade.
 
 ## 1. The necessary type distinction
 

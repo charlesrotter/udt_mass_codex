@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact type-level G285 derivation; writes no repository files."""
+"""Source-bounded G285 type-schema adjudication; writes no repository files."""
 
 from __future__ import annotations
 
@@ -33,27 +33,53 @@ def main() -> None:
     hessian_a = tuple(-value for value in tide_a)
     hessian_b = tuple(-value for value in tide_b)
 
+    same_longitudinal = (
+        g280["checks"]["same_frequency_ratio_for_arbitrary_endpoint_rapidity"]
+        and g280["checks"]["same_projective_state_for_arbitrary_endpoint_rapidity"]
+    )
+    same_central_pair = (
+        g280["checks"]["same_full_endpoint_arrow_for_both_metrics"]
+        and g282["checks"]["same_central_metric"]
+        and g282["checks"]["same_central_metric_first_jet"]
+    )
+    different_tide = (
+        g282["checks"]["transverse_curvature_nonzero_and_tracefree"]
+        and len(g283["arbitrary_functions_retained"]) == 3
+    )
+    cone_reconstruction = (
+        g284["checks"]["neighboring_cone_hessian_reconstructs_T"]
+        and g284["checks"]["curvature_equals_reconstructed_T"]
+    )
+
     checks = {
         "G280_registered_pass": g280["status"] == "PASS",
         "G282_registered_pass": g282["status"] == "PASS",
         "G283_registered_pass": g283["status"] == "PASS",
         "G284_registered_pass": g284["status"] == "PASS",
-        "same_longitudinal_scalar_registered": scalar == scalar,
-        "same_completed_central_pair_registered": pair == pair,
-        "different_tidal_values_registered": tide_a != tide_b,
-        "different_complete_germs_registered": germ(pair, tide_a) != germ(pair, tide_b),
+        "same_longitudinal_scalar_registered": same_longitudinal,
+        "same_completed_central_pair_registered": same_central_pair,
+        "different_tidal_values_registered": different_tide and tide_a != tide_b,
+        "different_complete_germs_registered": same_central_pair
+        and different_tide
+        and germ(pair, tide_a) != germ(pair, tide_b),
         "cone_hessian_reconstructs_tide_A": tuple(-value for value in hessian_a) == tide_a,
         "cone_hessian_reconstructs_tide_B": tuple(-value for value in hessian_b) == tide_b,
-        "cone_hessian_map_injective": (hessian_a != hessian_b) == (tide_a != tide_b),
-        "W5_scalar_is_retained_component": scalar[2] == "same_projective_state",
-        "W5_scalar_is_not_complete_germ": scalar != germ(pair, tide_a),
+        "cone_hessian_map_injective": cone_reconstruction
+        and (hessian_a != hessian_b) == (tide_a != tide_b),
+        "W5_scalar_is_retained_component": same_longitudinal
+        and scalar[2] == "same_projective_state",
+        "W5_scalar_is_not_complete_germ": same_longitudinal
+        and different_tide
+        and scalar != germ(pair, tide_a),
         "G283_retains_arbitrary_functions": len(g283["arbitrary_functions_retained"]) == 3,
         "G284_retains_arbitrary_functions": len(g284["arbitrary_tidal_functions_retained"]) == 3,
         "G284_finds_no_value_selector": g284["value_selecting_constraints_found"] == 0,
-        "radial_fixed_depth_areas_differ": Fraction(2) != Fraction(1),
-        "retyping_does_not_attach_scale": True,
-        "retyping_does_not_select_population": True,
-        "retyping_does_not_supply_dynamics": True,
+        "radial_fixed_depth_areas_differ": g282["checks"]["primary_same_depth"]
+        and g282["checks"]["primary_different_areal_position"],
+        "retyping_does_not_attach_scale": g280["fitted_coefficients"] == 0,
+        "retyping_does_not_select_population": g284["value_selecting_constraints_found"] == 0,
+        "retyping_does_not_supply_dynamics": g282["field_equations_adopted"] == 0
+        and g283["field_equations_adopted"] == 0,
     }
 
     faithful = checks["different_complete_germs_registered"] and checks["cone_hessian_map_injective"]
@@ -68,11 +94,13 @@ def main() -> None:
         landing = "COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS__VALUE_PROPAGATION_REMAINS_OPEN"
 
     result = {
-        "audit": "G285_COMPLETE_SEPARATION_GERM_RETYPING",
+        "audit": "G285_COMPLETE_SEPARATION_GERM_TYPE_SCHEMA_ADJUDICATION",
         "status": "PASS" if all(checks.values()) else "FAIL",
         "landing": landing,
         "checks": checks,
-        "exact_checks": len(checks),
+        "type_schema_checks": len(checks),
+        "witness_geometry_recomputed": False,
+        "load_bearing_geometry": "externally_reviewed_G280_G282_G283_G284_source_results",
         "type_levels": [
             "L0_LONGITUDINAL_SCALAR",
             "L1_COMPLETED_PAIR",
