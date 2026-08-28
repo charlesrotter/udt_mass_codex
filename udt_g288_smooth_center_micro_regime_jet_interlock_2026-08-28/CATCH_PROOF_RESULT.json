@@ -1,0 +1,44 @@
+{
+  "baseline_valid": true,
+  "caught": 9,
+  "mutations": [
+    {
+      "caught": true,
+      "name": "insert_quadratic_parallel_tide"
+    },
+    {
+      "caught": true,
+      "name": "change_leading_angular_ratio"
+    },
+    {
+      "caught": true,
+      "name": "make_quadratic_weyl_nonzero"
+    },
+    {
+      "caught": true,
+      "name": "promote_mu_to_physical_mass"
+    },
+    {
+      "caught": true,
+      "name": "promote_coordinate_slope_to_local_speed"
+    },
+    {
+      "caught": true,
+      "name": "insert_planck_scale"
+    },
+    {
+      "caught": true,
+      "name": "insert_xmax"
+    },
+    {
+      "caught": true,
+      "name": "alias_profile_sign_to_arrow"
+    },
+    {
+      "caught": true,
+      "name": "trust_old_audit_as_input"
+    }
+  ],
+  "status": "PASS",
+  "total": 9
+}

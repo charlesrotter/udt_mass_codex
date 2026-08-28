@@ -1,0 +1,77 @@
+{
+  "center_series": {
+    "N_sqrt_f": "-(5*c2**4*r**8 - 8*c2**3*r**6 - 24*c2**2*c4*r**8 + 16*c2**2*r**4 + 32*c2*c4*r**6 + 32*c2*c6*r**8 - 64*c2*r**2 + 16*c4**2*r**8 - 64*c4*r**4 - 64*c6*r**6 - 64*c8*r**8 - 128)/128",
+    "acceleration": "-r*(5*c2**4*r**6 - 6*c2**3*r**4 - 24*c2**2*c4*r**6 + 8*c2**2*r**2 + 24*c2*c4*r**4 + 32*c2*c6*r**6 - 16*c2 + 16*c4**2*r**6 - 32*c4*r**2 - 48*c6*r**4 - 64*c8*r**6)/16",
+    "angular_parallel": "4*r**4*(c4 + 3*c6*r**2 + 6*c8*r**4)",
+    "angular_perpendicular": "r**4*(c4 + 2*c6*r**2 + 3*c8*r**4)",
+    "f": "c2*r**2 + c4*r**4 + c6*r**6 + c8*r**8 + 1",
+    "mu_geometric": "-r**3*(c2 + c4*r**2 + c6*r**4 + c8*r**6)/2",
+    "phi": "r**2*(3*c2**4*r**6 - 4*c2**3*r**4 - 12*c2**2*c4*r**6 + 6*c2**2*r**2 + 12*c2*c4*r**4 + 12*c2*c6*r**6 - 12*c2 + 6*c4**2*r**6 - 12*c4*r**2 - 12*c6*r**4 - 12*c8*r**6)/24",
+    "riemann_squared": "4*(6*c2**2 + 30*c2*c4*r**2 + 56*c2*c6*r**4 + 90*c2*c8*r**6 + 53*c4**2*r**4 + 230*c4*c6*r**6 + 402*c4*c8*r**8 + 262*c6**2*r**8)",
+    "scalar_curvature": "-2*(6*c2 + 15*c4*r**2 + 28*c6*r**4 + 45*c8*r**6)",
+    "weyl_squared": "4*r**4*(9*c4**2 + 60*c4*c6*r**2 + 126*c4*c8*r**4 + 100*c6**2*r**4)/3"
+  },
+  "check_count": 22,
+  "checks": {
+    "acceleration_from_connection": true,
+    "angular_first_ratio": true,
+    "angular_no_r2_parallel": true,
+    "angular_no_r2_perp": true,
+    "angular_quadratic_zero_parallel": true,
+    "angular_quadratic_zero_perp": true,
+    "connection_lower_symmetry": true,
+    "coordinate_null_uses_f": true,
+    "inverse_metric": true,
+    "local_null_normalized_ce_factor": true,
+    "mass_aspect_definition": true,
+    "monomial_parallel_map": true,
+    "monomial_perp_map": true,
+    "monomial_scalar_map": true,
+    "null_vector": true,
+    "phi_negative_for_c2_positive_locally": true,
+    "quadratic_constant_sectional_curvature": true,
+    "quadratic_scalar_constant": true,
+    "quadratic_weyl_zero": true,
+    "screen_offdiagonal_zero": true,
+    "screen_parallel_unit": true,
+    "screen_perp_unit": true
+  },
+  "fresh_metric_expressions": {
+    "angular_parallel": "r*(r*Derivative(f(r), (r, 2)) - Derivative(f(r), r))/2",
+    "angular_perpendicular": "(r*Derivative(f(r), r) - 2*f(r) + 2)/2",
+    "coordinate_radial_null_slope": "+/- c_E*f",
+    "geometric_mass_aspect": "-r*(f(r) - 1)/2",
+    "normalized_local_radial_null_speed": "c_E",
+    "ricci_squared": "(r**4*Derivative(f(r), (r, 2))**2 + 4*r**3*Derivative(f(r), r)*Derivative(f(r), (r, 2)) + 8*r**2*Derivative(f(r), r)**2 + 8*r*f(r)*Derivative(f(r), r) - 8*r*Derivative(f(r), r) + 4*f(r)**2 - 8*f(r) + 4)/(2*r**4)",
+    "riemann_squared": "(r**4*Derivative(f(r), (r, 2))**2 + 4*r**2*Derivative(f(r), r)**2 + 4*f(r)**2 - 8*f(r) + 4)/r**4",
+    "scalar_curvature": "-(r**2*Derivative(f(r), (r, 2)) + 4*r*Derivative(f(r), r) + 2*f(r) - 2)/r**2",
+    "screen_tidal_offdiagonal": "0",
+    "screen_tidal_parallel": "sa**2*(r*Derivative(f(r), (r, 2)) - Derivative(f(r), r))/(2*r)",
+    "screen_tidal_perpendicular": "sa**2*(r*Derivative(f(r), r) - 2*f(r) + 2)/(2*r**2)",
+    "static_acceleration_orthonormal": "Derivative(f(r), r)/(2*sqrt(f(r)))",
+    "weyl_squared": "(r**2*Derivative(f(r), (r, 2)) - 2*r*Derivative(f(r), r) + 2*f(r) - 2)**2/(3*r**4)"
+  },
+  "general_monomial_maps": {
+    "angular_parallel": "2*ck*k*r**(2*k)*(k - 1)",
+    "angular_perpendicular": "ck*r**(2*k)*(k - 1)",
+    "scalar_curvature": "-2*ck*r**(2*k - 2)*(k + 1)*(2*k + 1)"
+  },
+  "interpretive_guards": {
+    "mu_is_physical_mass": false,
+    "negative_profile_is_negative_distance": false,
+    "negative_profile_is_pair_arrow_reversal": false,
+    "old_audit_formula_imported": false,
+    "planck_scale_inserted": false,
+    "xmax_inserted": false
+  },
+  "landing_candidate": "PARTIAL_CENTER_INTERLOCK_ONLY__QUADRATIC_NEGATIVE_PROFILE_GERM_IS_ZERO_TIDE_CONSTANT_CURVATURE__ANGULAR_TIDE_BEGINS_AT_INDEPENDENT_QUARTIC_JET__NO_PLANCK_SCALE_OR_HISTORY_SELECTED",
+  "quadratic_family": {
+    "angular_parallel": "0",
+    "angular_perpendicular": "0",
+    "f": "1 + C*r**2",
+    "riemann_squared": "24*C**2",
+    "scalar_curvature": "-12*C",
+    "weyl_squared": "0"
+  },
+  "scope": "analytic even smooth-center germ of the primary static-spherical areal metric"
+}

@@ -1,8 +1,8 @@
 item	status
 map	COMPLETE
 preregistration	FROZEN_BEFORE_OUTCOME_COMPUTATION
-production	NOT_RUN
-independent_verification	NOT_RUN
-hostile_checks	NOT_RUN
-scientific_landing	OPEN
+production	PASS__22_EXACT_SYMBOLIC_TENSOR_ASSERTIONS
+independent_verification	PASS__18117_EXACT_FRACTION_ASSERTIONS
+hostile_checks	PASS__9_OF_9_CAUGHT
+scientific_landing	INDEPENDENTLY_VERIFIED_LOCAL_DERIVATION
 external_review	NOT_REQUESTED

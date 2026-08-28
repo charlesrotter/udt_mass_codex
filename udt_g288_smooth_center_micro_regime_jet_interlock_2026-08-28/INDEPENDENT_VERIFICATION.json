@@ -1,0 +1,55 @@
+{
+  "assertions": 18117,
+  "c2_signs_covered": [
+    -1,
+    1
+  ],
+  "general_cases": 1000,
+  "implementation": "standard-library Fraction metric-two-jet connection-curvature-screen rebuild",
+  "imports_production_module": false,
+  "polynomial_maps": {
+    "1": {
+      "apar": {},
+      "aperp": {},
+      "scalar_numerator": {
+        "2": "12"
+      }
+    },
+    "2": {
+      "apar": {
+        "4": "4"
+      },
+      "aperp": {
+        "4": "1"
+      },
+      "scalar_numerator": {
+        "4": "30"
+      }
+    },
+    "3": {
+      "apar": {
+        "6": "12"
+      },
+      "aperp": {
+        "6": "2"
+      },
+      "scalar_numerator": {
+        "6": "56"
+      }
+    },
+    "4": {
+      "apar": {
+        "8": "24"
+      },
+      "aperp": {
+        "8": "3"
+      },
+      "scalar_numerator": {
+        "8": "90"
+      }
+    }
+  },
+  "quadratic_controls": 100,
+  "reads_production_result": false,
+  "status": "PASS"
+}

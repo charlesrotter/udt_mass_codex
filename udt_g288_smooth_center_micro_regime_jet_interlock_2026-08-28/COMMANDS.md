@@ -1,0 +1,12 @@
+# G288 commands
+
+From repository root:
+
+```bash
+python3 udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/derive_micro_center.py
+python3 udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/verify_independent.py
+python3 udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/run_catch_proofs.py
+python3 udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/build_source_manifest.py
+python3 udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/verify_package.py
+```
+
