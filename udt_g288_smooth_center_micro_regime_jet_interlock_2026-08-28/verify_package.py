@@ -43,7 +43,8 @@ def main() -> None:
         "HOSTILE_RECOMPUTATION_RESULT.json", "run_hostile_recomputations.py",
         "EXTERNAL_REVIEW_GPT54.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
         "REPAIR_PREREGISTRATION.md", "launch_external_review.sh",
-        "REPAIR_FOLLOWUP_REQUEST.md",
+        "REPAIR_FOLLOWUP_REQUEST.md", "launch_external_repair_followup.sh",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
     if missing:
@@ -95,10 +96,14 @@ def main() -> None:
     for required_phrase in (
         "geometric mass-aspect",
         "does not select the Planck scale",
-        "EXTERNAL_REPAIRS_IMPLEMENTED",
+        "EXTERNAL_REPAIRS_ACCEPTED",
     ):
         if required_phrase.lower() not in audit.lower():
             raise AssertionError(f"audit phrase missing: {required_phrase}")
+
+    repair_followup = (HERE / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text()
+    if "REPAIRS_ACCEPTED" not in repair_followup or "Defects: none" not in repair_followup:
+        raise AssertionError("external repair-only acceptance missing")
 
     result = {
         "status": "PASS",
@@ -108,6 +113,7 @@ def main() -> None:
         "independent_assertions": indep["assertions"],
         "hostile_catches": catches["caught"],
         "hostile_recomputations": hostile["caught"],
+        "external_repair_followup": "REPAIRS_ACCEPTED",
         "aggregator_role": "integrity_and_provenance_only",
         "landing": LANDING,
     }

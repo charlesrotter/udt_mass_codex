@@ -1,11 +1,12 @@
 {
   "aggregator_role": "integrity_and_provenance_only",
+  "external_repair_followup": "REPAIRS_ACCEPTED",
   "hostile_catches": 9,
   "hostile_recomputations": 4,
   "independent_assertions": 18142,
   "landing": "PARTIAL_CENTER_INTERLOCK_ONLY__QUADRATIC_NEGATIVE_PROFILE_GERM_IS_ZERO_TIDE_CONSTANT_CURVATURE__ANGULAR_TIDE_BEGINS_AT_INDEPENDENT_QUARTIC_JET__NO_PLANCK_SCALE_OR_HISTORY_SELECTED",
   "production_checks": 22,
-  "required_files": 27,
+  "required_files": 30,
   "source_manifest_rows": 9,
   "status": "PASS"
 }

@@ -26,6 +26,10 @@ Date: 2026-08-28
     now derives coefficient maps from full tensor monomial evaluations; 4/4 geometric mutations are
     rejected by recomputation; the nine prior catches and package verifier are correctly regraded;
     the dependency boundary is explicit; and the quadratic curvature sign is recorded as `K=-C`.
+11. The sealed repair-only external follow-up reran the 18,142-assertion standard-library verifier,
+    all four recomputing hostile mutations, the nine semantic guards, and the aggregate replay in
+    the required full sealed layout. It returned `REPAIRS_ACCEPTED` with no defects and no change to
+    the bounded scientific landing.
 
 No long solve, GPU, observation, fit, protected input, Planck cutoff, source, action, field equation,
 matter model, physical mass, history, or `X_max` value entered.

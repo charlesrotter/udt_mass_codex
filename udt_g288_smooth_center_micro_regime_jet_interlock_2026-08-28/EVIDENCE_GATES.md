@@ -39,7 +39,9 @@ full repository suite passes 192 tests with one expected xfail.
 ## Current grade
 
 Fresh external `gpt-5.4` review independently retained the bounded scientific landing and returned
-`PASS_WITH_REPAIRS`.  All five preregistered evidence/wording repairs are now implemented locally;
-none changes the scientific equations.  Repair-only external follow-up remains open.
+`PASS_WITH_REPAIRS`. All five preregistered evidence/wording repairs were implemented without
+changing the equations. Repair-only follow-up reran the self-contained verifier, four recomputing
+hostile mutations, the semantic guard, and the full-layout aggregate replay; it returned
+`REPAIRS_ACCEPTED` with no defects.
 
-`EXTERNAL_REPAIRS_IMPLEMENTED__SCIENTIFIC_LANDING_RETAINED__FOLLOWUP_OPEN`
+`EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`

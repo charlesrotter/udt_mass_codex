@@ -13,7 +13,7 @@ whole shared prior metric, even with every join jet fixed. G287 externally confi
 reversal flips directed `delta`, not the ambient profile; no kernel formula changed. G288 then
 rebuilds the current primary metric from scratch near an analytic even smooth center. Its quadratic
 negative-profile germ is exact zero-tide constant-curvature; angular tide begins at independent
-quartic order. This is internally verified and awaits external review.
+quartic order. External repair-only review accepted the bounded result with no defects.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -62,9 +62,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: obtain fresh external adversarial review of G288. If retained, MAP the minimal
-time-live/nonspherical center extension and finite negative-profile band without inserting a Planck
-scale, physical mass, observation, or `X_max`. No ODE/PDE/GPU solve precedes an explicit candidate
-and premise ledger.
+Next: MAP the minimal time-live/nonspherical center extension and finite negative-profile band. Use
+general static-spherical `A(r),B(r)` as a control for dependence on `B=1/A`; do not insert a Planck
+scale, physical mass, observation, or `X_max`. No solve precedes an explicit premise ledger.
 
 <!-- STARTUP_CURRENT_END -->

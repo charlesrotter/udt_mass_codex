@@ -66,7 +66,7 @@ population, operational distance, or `X_max`.
 - G288 distrusts the old audits and rebuilds the primary metric connection, curvature, nonradial
   screen, acceleration, geometric mass aspect, and null normalization. In an analytic even smooth
   center, `c2` gives the zero-tide constant-curvature leading germ; angular/Weyl departure begins at
-  independent `c4`. It is internally independently verified; external review remains open.
+  independent `c4`. External repair-only review accepted the bounded result with no defects.
 
 ## Open boundary
 
@@ -88,8 +88,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Externally review G288's fresh tensor derivation and bounded scope. If retained, MAP the minimal
-complete time-live/nonspherical center extension and finite negative-profile band without inserting
-a Planck scale, observation, source, physical mass, or familiar equation. Observations calibrate
-only after an independently derived finite family. No ODE/PDE/GPU solve precedes an explicit
-candidate and premise ledger.
+MAP the minimal complete time-live/nonspherical center extension and finite negative-profile band.
+Use a general static-spherical `A(r),B(r)` chart as a control for dependence on the reciprocal
+restriction `B=1/A`. Do not insert a Planck scale, observation, source, physical mass, or familiar
+equation. No ODE/PDE/GPU solve precedes an explicit candidate and premise ledger.

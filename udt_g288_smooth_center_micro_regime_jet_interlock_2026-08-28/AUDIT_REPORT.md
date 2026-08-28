@@ -1,7 +1,7 @@
 # G288 audit report — smooth-center micro-regime jet interlock
 
 Date: 2026-08-28
-Grade: `EXTERNAL_REPAIRS_IMPLEMENTED__SCIENTIFIC_LANDING_RETAINED__FOLLOWUP_OPEN`
+Grade: `EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`
 
 ## Primary landing
 
@@ -58,6 +58,8 @@ reciprocal clock/curvature germ.
   old audit; this second harness is explicitly not a scientific recomputation;
 - the current 272-row premise/startup verifier passes;
 - the repository suite passes 192 tests with one expected `HABIT`-pin xfail;
+- external repair-only review reran the self-contained replay and hostile recomputations and
+  returned `REPAIRS_ACCEPTED` with no defects;
 - the first full suite run exposed an overlong G287-era `INDEX.md` line; it was wrapped without a
   semantic change and the full suite then passed;
 - no observation, fit, Planck cutoff, source, action, field equation, matter model, protected input,

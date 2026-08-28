@@ -76,10 +76,10 @@ Current observational/history boundary:
 - G287 finds no kernel regression: profile sign and ordered-arrow sign were already
   different types. G267's two `sech(delta)` ends are arrow-depth magnitude ends, not automatically
   micro/cosmological profile regimes; the intended regime reading remains unpromoted.
-- G288 is internally independently verified and awaiting external review. At an analytic even
-  smooth center, `c2` controls leading clock/acceleration/curvature/geometric-`mu`, but cancels from
-  angular tide; angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`.
-  No Planck scale, physical mass, global micro band, or history is selected.
+- G288 is externally accepted after repair-only review. At an analytic even smooth center, `c2`
+  controls leading clock/acceleration/curvature/geometric-`mu`, but cancels from angular tide;
+  angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`. No Planck scale,
+  physical mass, global micro band, or history is selected.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -107,10 +107,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Fresh external adversarial review of G288 must test the from-scratch tensor reconstruction, center
-series, independence, and scope. If retained, MAP whether the same center hierarchy survives the
-minimal complete time-live/nonspherical germ and whether a finite negative-profile band can be
-classified without inserting a Planck scale. Do not import a familiar equation, physical mass,
-source, observation, `X_max`, or protected work. Observations calibrate only after an independently
-derived finite family; no ODE/PDE/GPU solve is authorized before an explicit law and premise ledger.
+MAP whether G288's center hierarchy survives the minimal complete time-live/nonspherical germ and
+whether a finite negative-profile band can be classified without inserting a Planck scale. A
+reviewer-proposed control is the general static-spherical `A(r),B(r)` chart: test whether quartic
+angular onset depends on the reciprocal restriction `B=1/A`. Do not import a familiar equation,
+physical mass, source, observation, `X_max`, or protected work. No ODE/PDE/GPU solve is authorized
+before an explicit law and premise ledger.
 <!-- STARTUP_CURRENT_END -->

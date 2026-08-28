@@ -86,7 +86,7 @@
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
 | G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
-| G288 center interlock | internal; external open | Quadratic zero-tide/constant-curvature; angular tide starts at quartic jet |
+| G288 center interlock | external/repairs accepted | Quadratic zero-tide/constant-curvature; angular tide starts at quartic jet |
 None selects completion/`X_max`.
 ## Scale and limits
 

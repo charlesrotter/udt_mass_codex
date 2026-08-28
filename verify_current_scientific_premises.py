@@ -1255,7 +1255,7 @@ def main() -> None:
             "PROFILE_REGIME_SIGN_AND_PAIR_ARROW_ORIENTATION_ARE_ALREADY_TYPE_DISTINCT",
         ),
         "G288": (
-            "INDEPENDENTLY_VERIFIED_LOCAL_DERIVATION__EXTERNAL_REVIEW_OPEN__PREREGISTERED_AT_0D57F458",
+            "EXTERNALLY_ACCEPTED_AFTER_REPAIRS__PREREGISTERED_AT_0D57F458",
             "udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/AUDIT_REPORT.md",
             "PARTIAL_CENTER_INTERLOCK_ONLY",
         ),
@@ -13563,9 +13563,9 @@ def main() -> None:
         "G288 active scope widened",
     )
     for guard in (
-        "fresh external adversarial review",
         "numerical c2 c4 and higher coefficients",
         "absolute micro scale",
+        "dependence on primary reciprocal B equals 1 over A",
         "nonspherical and time-live complete-germ extension",
         "local rest mass physical total mass mass emergence",
     ):
@@ -13588,7 +13588,10 @@ def main() -> None:
         "PACKAGE_VERIFICATION_RESULT.json",
         "AUDIT_REPORT.md",
         "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
         "REPAIR_PREREGISTRATION.md",
+        "launch_external_repair_followup.sh",
         "verify_package.py",
     ):
         require((g288 / name).is_file(), f"G288 evidence missing: {name}")
@@ -13644,6 +13647,13 @@ def main() -> None:
         and g288_hostile["total"] == 4
         and all(row["caught"] for row in g288_hostile["mutations"]),
         "G288 hostile tensor recomputation regressed",
+    )
+    require(
+        "REPAIRS_ACCEPTED" in (g288 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "Defects: none" in (g288 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED"
+        in (g288 / "AUDIT_REPORT.md").read_text(encoding="utf-8"),
+        "G288 external repair-only closure regressed",
     )
     g288_replay = subprocess.run(
         [sys.executable, "-S", str(g288 / "verify_package.py")],

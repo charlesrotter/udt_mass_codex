@@ -9,7 +9,8 @@ history/Jacobi value gap; G285 retypes complete separation; G286 shows current i
 uniquely continue a whole shared prior metric. G287 separates profile sign from pair-arrow sign and
 finds no kernel regression. On a supplied germ, `B,Q,S,Y,Z` enters before readout.
 G288 freshly derives a partial analytic-even center interlock: the quadratic negative-profile germ
-is zero-tide constant-curvature, while angular/Weyl response begins at independent quartic order.
+is zero-tide constant-curvature, while angular/Weyl response begins at independent quartic order;
+external repair-only review accepts the bounded result.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -35,8 +36,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Externally review G288. If retained, MAP its minimal time-live/nonspherical extension and finite
-negative-profile band without importing a Planck scale, physical mass, observation, or `X_max`.
+MAP G288's minimal time-live/nonspherical extension and finite negative-profile band; first control
+whether the hierarchy depends on the primary reciprocal restriction `B=1/A`.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
