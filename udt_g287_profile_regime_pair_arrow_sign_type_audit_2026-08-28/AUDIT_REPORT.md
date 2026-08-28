@@ -11,7 +11,7 @@ __RECENT_EXPLANATION_CONFLATED_THEM
 ```
 
 Current grade:
-`MAP_DISCOVERY_BEFORE_FORMAL_PREREGISTRATION__EXACT_SOURCE_BOUNDED_DERIVATION__IMPLEMENTATION_DISTINCT_VERIFICATION__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R3_IMPLEMENTED__REPAIR_FOLLOWUP_OPEN`.
+`MAP_DISCOVERY_BEFORE_FORMAL_PREREGISTRATION__EXACT_SOURCE_BOUNDED_DERIVATION__IMPLEMENTATION_DISTINCT_VERIFICATION__EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED`.
 
 ## What was learned
 
@@ -63,8 +63,8 @@ interpretation into canon or a theorem.
 - first production run failed closed on an incorrect double-conjugation test expression;
 - second run exposed brittle line-wrapped source guards and a 22-versus-23 census-count error;
   both were corrected before any result was accepted;
-- fresh external `gpt-5.4` manually audited all 22 dependency rows, accepted the scientific
-  result, and requested three evidence repairs; R1--R3 are implemented and await repair-only
+- fresh external `gpt-5.4` manually audited all 22 dependency rows and accepted the scientific
+  result; its three evidence repairs were implemented and independently accepted on repair-only
   follow-up;
 - no observation, fit, profile, distance scale, mass model, source, action, field equation,
   `X_max`, or protected input.

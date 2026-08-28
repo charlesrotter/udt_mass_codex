@@ -85,6 +85,7 @@
 | G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
 | G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
+| G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -105,6 +106,7 @@ None selects completion/`X_max`.
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   G282--G284 locate but do not select neighboring curvature. G285 retypes tide as part of complete
   separation; G286 shows current identities do not uniquely propagate the tested shared prior.
+  G287 keeps profile-regime sign distinct from pair-arrow orientation.
 
 ## Carrier, action, source, and matter
 
@@ -117,10 +119,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G286 leave history/transfer open. Direct redshift and the
+R2--R5 select no scale or `X_max`; G277--G287 leave history/transfer open. Direct redshift and the
 evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 270-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 271-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

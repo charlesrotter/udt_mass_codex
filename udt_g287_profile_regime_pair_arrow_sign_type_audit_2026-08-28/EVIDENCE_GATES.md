@@ -12,8 +12,8 @@
 | Frozen source hashes | PASS | `SOURCE_MANIFEST.tsv`, 23 rows |
 | Premise/type audit | PASS | `PREMISE_LEDGER.tsv` |
 | External adversarial review | ACCEPT_WITH_REPAIRS | bounded science retained; R1--R3 implemented |
-| Repair-only external follow-up | OPEN | corrected intake not yet transmitted |
+| Repair-only external follow-up | PASS | R1--R3 accepted; bounded landing unchanged |
 
-The scientific result is externally accepted with evidence repairs implemented. It remains
-`VERIFIED_WITH_CAVEATS` until the repair-only follow-up closes R1--R3. The initial MAP discovery
-means this package must not claim outcome-blind preregistration of the core distinction.
+The scientific result and all three evidence repairs are externally accepted. The initial MAP
+discovery still means this package must not claim outcome-blind preregistration of the core
+distinction.

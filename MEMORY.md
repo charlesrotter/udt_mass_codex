@@ -6,14 +6,15 @@
 
 G166--G276 is the structural spine; G277--G281 control observations; G282--G284 locate the
 history/Jacobi value gap; G285 retypes complete separation; G286 shows current identities do not
-uniquely continue a whole shared prior metric. On a supplied germ, `B,Q,S,Y,Z` enters before readout.
+uniquely continue a whole shared prior metric. G287 separates profile sign from pair-arrow sign and
+finds no kernel regression. On a supplied germ, `B,Q,S,Y,Z` enters before readout.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287.
 
 W5 provisionally identifies complete projective state as normalized pair position; it is not canon
 or distance. G274 requires path-labelled carry; G275 leaves one homothety; G276 attaches it only

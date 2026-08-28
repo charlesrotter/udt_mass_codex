@@ -198,7 +198,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -362,6 +362,7 @@ def validate_startup_surface(root: Path) -> None:
             "G284",
             "G285",
             "G286",
+            "G287",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -405,7 +406,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "270-row exact registry",
+            "271-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -618,6 +619,7 @@ def validate_startup_surface(root: Path) -> None:
             "G284",
             "G285",
             "G286",
+            "G287",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -724,6 +726,7 @@ def validate_startup_surface(root: Path) -> None:
             "G284",
             "G285",
             "G286",
+            "G287",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -824,11 +827,12 @@ def validate_startup_surface(root: Path) -> None:
             "G284",
             "G285",
             "G286",
+            "G287",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "270-row",
+            "271-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1190,9 +1194,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 270, "premise registry must contain exactly 270 rows")
+    require(len(rows) == 271, "premise registry must contain exactly 271 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 270, "duplicate premise id")
+    require(len(by_id) == 271, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1243,6 +1247,11 @@ def main() -> None:
             "EXTERNALLY_ACCEPTED_AFTER_REPAIRS__PREREGISTERED_AT_E20C7A32",
             "udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md",
             "SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT",
+        ),
+        "G287": (
+            "EXTERNALLY_ACCEPTED_REPAIRS_CONFIRMED__MAP_DISCOVERY_BEFORE_FORMAL_PREREGISTRATION",
+            "udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/AUDIT_REPORT.md",
+            "PROFILE_REGIME_SIGN_AND_PAIR_ARROW_ORIENTATION_ARE_ALREADY_TYPE_DISTINCT",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -13246,16 +13255,9 @@ def main() -> None:
         in (g284 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
         "G284 external repair-only closure regressed",
     )
-    g284_replay = subprocess.run(
-        [sys.executable, "-S", str(g284 / "verify_package.py")],
-        cwd=ROOT,
-        capture_output=True,
-        text=True,
-        check=False,
-        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+    g284_replay_result = replay_package_with_current_registry_rows_removed(
+        g284, (), include_legacy_later_rows=False
     )
-    require(g284_replay.returncode == 0, "G284 dependency-free package replay failed")
-    g284_replay_result = json.loads(g284_replay.stdout)
     require(
         g284_replay_result["status"] == "PASS_EXTERNAL_REVIEW_COMPLETE"
         and g284_replay_result["landing"] == g284_landing
@@ -13359,7 +13361,7 @@ def main() -> None:
         "G285 external repair-only closure regressed",
     )
     g285_replay_result = replay_package_with_current_registry_rows_removed(
-        g285, ("G286", "G285"), include_legacy_later_rows=False
+        g285, ("G287", "G286", "G285"), include_legacy_later_rows=False
     )
     require(
         g285_replay_result["status"] == "PASS_EXTERNAL_REPAIR_FOLLOWUP_CONFIRMED"
@@ -13464,6 +13466,90 @@ def main() -> None:
     require(g286_replay.returncode == 0, "G286 dependency-free aggregate replay failed")
     require(json.loads(g286_replay.stdout)["pass"], "G286 aggregate replay landing regressed")
 
+    g287_row = by_id["G287"]
+    require(
+        g287_row["active_use"]
+        == "ACTIVE_BOUNDED_PROFILE_SIGN_VERSUS_ORDERED_PAIR_ARROW_ORIENTATION_TYPE_DISTINCTION_ONLY",
+        "G287 active scope widened",
+    )
+    for guard in (
+        "physical scale-to-profile history law",
+        "mass emergence",
+        "complete propagation and germ population",
+        "operational distance absolute scale observations transfer source action matter dynamics and Xmax",
+    ):
+        require(guard in g287_row["open_scope"], f"G287 open boundary absent: {guard}")
+    for guard in (
+        "pair reversal called whole-profile sign conjugation",
+        "sign of directed delta called an unordered physical regime",
+        "G267 two orientations automatically called micro and cosmological profile sectors",
+        "matched quiet-reference delta equals phi widened to a universal type identity",
+        "negative pointwise phi called mass emergence",
+        "sign retyping called G286 closure history selection scale observation Xmax or canon",
+    ):
+        require(guard in g287_row["forbidden_regression"], f"G287 guard absent: {guard}")
+    g287 = ROOT / "udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28"
+    for name in (
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "REPAIR_CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
+        "verify_package.py",
+    ):
+        require((g287 / name).is_file(), f"G287 closure evidence missing: {name}")
+    g287_landing = (
+        "PROFILE_REGIME_SIGN_AND_PAIR_ARROW_ORIENTATION_ARE_ALREADY_TYPE_DISTINCT"
+        "__NO_NATIVE_KERNEL_REGRESSION__RECENT_EXPLANATION_CONFLATED_THEM"
+    )
+    g287_derivation = json.loads((g287 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g287_independent = json.loads(
+        (g287 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    g287_catches = json.loads((g287 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g287_repairs = json.loads(
+        (g287 / "REPAIR_CATCH_PROOF_RESULT.json").read_text(encoding="utf-8")
+    )
+    require(
+        g287_derivation["pass"]
+        and g287_derivation["landing"] == g287_landing
+        and g287_derivation["counts"]["dependency_rows"] == 22
+        and g287_derivation["counts"]["dependency_source_checks"] == 22
+        and g287_derivation["checks"]["pair_reversal_fixed_metric"]
+        and g287_derivation["checks"]["profile_conjugation_changes_generic_metric"]
+        and g287_derivation["checks"]["arrow_sign_not_regime_classifier"],
+        "G287 bounded sign-type derivation regressed",
+    )
+    require(
+        g287_independent["pass"]
+        and g287_independent["counts"]["exact_semicircle_assertions"] == 867
+        and g287_independent["counts"]["exact_profile_assertions"] == 468
+        and g287_independent["counts"]["exact_regime_assertions"] == 8,
+        "G287 implementation-distinct verification regressed",
+    )
+    require(
+        g287_catches["pass"]
+        and g287_catches["mutation_count"] == 6
+        and all(g287_catches["caught"].values())
+        and g287_repairs["pass"]
+        and g287_repairs["probe_count"] == 5
+        and all(g287_repairs["checks"].values()),
+        "G287 hostile or repair catches regressed",
+    )
+    require(
+        "REPAIRS_ACCEPTED__BOUNDED_G287_LANDING_UNCHANGED"
+        in (g287 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+        and "EXTERNAL_REPAIRS_ACCEPTED__BOUNDED_LANDING_UNCHANGED"
+        in (g287 / "AUDIT_REPORT.md").read_text(encoding="utf-8"),
+        "G287 external repair-only closure regressed",
+    )
+    g287_replay = replay_package_with_current_registry_rows_removed(
+        g287, ("G287",), include_legacy_later_rows=False
+    )
+    require(g287_replay["pass"] and all(g287_replay["checks"].values()),
+            "G287 dependency-free aggregate replay failed")
+
     validate_startup_surface(ROOT)
 
     agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -13471,6 +13557,7 @@ def main() -> None:
         "on **supplied ordered depth**",
         "presentation potential",
         "complete observer/event/path-to-depth assignment",
+        "Pair reversal negates",
         "Angular, screen, and mixing data",
         "observed clock/ruler calibration scale",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
@@ -13524,7 +13611,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

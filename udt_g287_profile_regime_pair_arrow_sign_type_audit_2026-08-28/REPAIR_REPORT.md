@@ -1,7 +1,7 @@
 # G287 external-review repair report
 
 Date: 2026-08-28
-Status: `R1_R3_IMPLEMENTED__SCIENTIFIC_LANDING_UNCHANGED__FOLLOWUP_OPEN`
+Status: `R1_R3_EXTERNALLY_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`
 
 ## R1 — executable hostile mutations
 
@@ -35,6 +35,10 @@ of:
 - a missing G286 dependency row.
 
 All 5/5 probes pass. No scientific formula, source, premise, or conclusion changed.
+
+The repair-only external follow-up independently replayed the seven registered commands and direct
+hostile variants, then returned
+`REPAIRS_ACCEPTED__BOUNDED_G287_LANDING_UNCHANGED`. No scoped repair remains.
 
 ## Retained landing
 

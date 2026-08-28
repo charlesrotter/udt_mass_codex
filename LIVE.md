@@ -24,7 +24,8 @@ G166--G276 is the active structural spine; G277--G281 control the observational 
 provenance; G282 types the remaining joint history/Jacobi information; G283 tests the owned
 identity layers for hidden value selection; G284 tests whether emergent-`c_E` causal/projective
 structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286 shows boundedly
-that current identities do not uniquely continue a shared prior metric. A supplied germ pulls
+that current identities do not uniquely continue a shared prior metric; G287 confirms reversal
+negates `delta_AB`, not the ambient profile. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -74,6 +75,9 @@ Current observational/history boundary:
 - G286's externally accepted metric-native witnesses share the whole prior region and all null-join
   jets but differ in future curvature. Current identities evaluate, not uniquely propagate, these
   continuations. A stronger native UDT law remains possible and unselected.
+- G287 finds no kernel regression: profile sign and ordered-arrow sign were already
+  different types. G267's two `sech(delta)` ends are arrow-depth magnitude ends, not automatically
+  micro/cosmological profile regimes; the intended regime reading remains unpromoted.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.

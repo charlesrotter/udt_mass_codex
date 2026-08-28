@@ -8,5 +8,5 @@ G201--G204 profile regimes	RETAINED	Signed profile geometry available; history u
 Native kernel	NO_REGRESSION	No formula repair required
 G286 propagation gap	UNCHANGED	Sign typing is not a propagation law
 External adversarial review	ACCEPT_WITH_REPAIRS	Scientific landing retained; three evidence repairs requested
-Evidence repairs R1--R3	IMPLEMENTED	Executable mutations, all-command replay, 22-row source certification
-Repair-only follow-up	OPEN	Corrected sealed intake not yet transmitted
+Evidence repairs R1--R3	EXTERNALLY_ACCEPTED	Executable mutations, all-command replay, 22-row source certification
+Repair-only follow-up	PASS	Bounded landing unchanged; no scoped repair remains

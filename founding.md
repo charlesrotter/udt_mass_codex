@@ -277,6 +277,18 @@ endpoint-potential description is available, denote that potential by \(V(A)\). 
 coincide only in the matched calibrated primary radial reduction described below; the notation does
 not establish a universal identity among them.
 
+Pair reversal changes the orientation of the comparison, not the supplied metric profile:
+
+\[
+(g_\phi,A,B,\delta_{AB})\longmapsto(g_\phi,B,A,-\delta_{AB}).
+\]
+
+It therefore leaves \(\phi(r)\) fixed. The diagnostic whole-profile conjugation
+\(g_\phi\mapsto g_{-\phi}\) is a different operation and generally changes the metric and its
+angular response. Thus `sign(delta_AB)` is an arrow orientation, not by itself a micro/macro regime
+label. The intended negative-profile/micro, quiet-profile/GR, and positive-profile/cosmological
+reading remains compatible with this typing but awaits an owned scale-to-profile history law.
+
 Writing \(f=e^{-2\phi}>0\), the same metric is
 
 \[

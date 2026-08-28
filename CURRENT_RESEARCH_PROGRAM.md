@@ -2,7 +2,7 @@
 
 Date: 2026-08-28
 
-`LIVE.md` controls status; the 270-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 271-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -61,6 +61,8 @@ population, operational distance, or `X_max`.
   (`L3`), and value propagation (`L4`); it is not adopted or canon. G286 avoids that vocabulary:
   two regular metrics share the whole prior and all null-join jets but have inequivalent futures.
   External review accepts the bounded result that current identities are not unique propagation.
+- G287 externally confirms that pair reversal negates directed `delta_AB` while leaving the ambient
+  `phi(r)` profile fixed. Whole-profile conjugation is distinct; no native kernel formula changed.
 
 ## Open boundary
 
@@ -71,7 +73,8 @@ numerical `X_max`. G280--G281 show endpoint `phi` and tracked SNe routes do not 
 G282--G284 narrow the missing content to neighboring curvature values and close ordinary identity
 and cone reconstruction as selectors. G285 includes tide in complete separation but supplies no
 `L2 -> L3/L4` propagation. G286 shows even the whole prior metric plus every join jet does not make
-the present layer choose a future on its bounded family; this is not a no-go against a native law.
+the present layer choose a future on its bounded family; G287 repairs a sign explanation without
+closing that gap. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
