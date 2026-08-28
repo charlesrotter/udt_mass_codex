@@ -35,4 +35,8 @@ full repository suite passes 192 tests with one expected xfail.
 
 ## Current grade
 
-`INDEPENDENTLY_VERIFIED_LOCAL_DERIVATION__EXTERNAL_REVIEW_OPEN`
+Fresh external `gpt-5.4` review independently retained the bounded scientific landing and returned
+`PASS_WITH_REPAIRS`.  Five preregistered evidence/wording repairs remain open; none changes the
+scientific equations.
+
+`EXTERNAL_PASS_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__EVIDENCE_REPAIRS_OPEN`

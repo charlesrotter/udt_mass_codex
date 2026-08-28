@@ -19,6 +19,9 @@ Date: 2026-08-28
 8. The first full repository suite found one 234-character G287-era `INDEX.md` line against the
    220-character startup-surface limit.  The line was shortened without changing its pointers.
    The focused test passed, followed by a full pass: 192 passed, one expected xfail.
+9. Fresh external `gpt-5.4` review independently reproduced the bounded geometry and returned
+   `PASS_WITH_REPAIRS`.  It retained the scientific landing and identified five evidence/wording
+   repairs, preregistered in `REPAIR_PREREGISTRATION.md` before implementation.
 
 No long solve, GPU, observation, fit, protected input, Planck cutoff, source, action, field equation,
 matter model, physical mass, history, or `X_max` value entered.

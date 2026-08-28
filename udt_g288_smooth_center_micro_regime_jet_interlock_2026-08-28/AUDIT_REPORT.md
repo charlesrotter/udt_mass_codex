@@ -1,7 +1,7 @@
 # G288 audit report — smooth-center micro-regime jet interlock
 
 Date: 2026-08-28
-Grade: `INDEPENDENTLY_VERIFIED_LOCAL_DERIVATION__EXTERNAL_REVIEW_OPEN`
+Grade: `EXTERNAL_PASS_WITH_REPAIRS__SCIENTIFIC_LANDING_RETAINED__EVIDENCE_REPAIRS_OPEN`
 
 ## Primary landing
 
