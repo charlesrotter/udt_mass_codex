@@ -1,0 +1,8 @@
+item	status
+map	COMPLETE
+preregistration	FROZEN_BEFORE_OUTCOME_COMPUTATION
+production	NOT_RUN
+independent_verification	NOT_RUN
+hostile_checks	NOT_RUN
+scientific_landing	OPEN
+external_review	NOT_REQUESTED
