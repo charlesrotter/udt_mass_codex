@@ -1,0 +1,8 @@
+{
+  "independent_future_transfer_difference_from_flat": 0.032701305003541625,
+  "independent_symplectic_defect": 6.721290191080698e-13,
+  "method": "implicit_midpoint_cayley",
+  "pass": true,
+  "production_independent_transfer_difference": 3.866140740882429e-11,
+  "steps": 40000
+}

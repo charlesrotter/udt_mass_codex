@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "cross_method": true,
+    "determinant": true,
+    "future_curvature": true,
+    "future_separator": true,
+    "independent_pass": true,
+    "independent_symplectic": true,
+    "prior_zero": true,
+    "production_pass": true,
+    "production_symplectic": true,
+    "trace_free": true
+  },
+  "pass": true
+}

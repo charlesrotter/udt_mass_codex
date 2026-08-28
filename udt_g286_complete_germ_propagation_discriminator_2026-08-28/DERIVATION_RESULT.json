@@ -1,0 +1,73 @@
+{
+  "active_transfer": [
+    [
+      0.9970366141369709,
+      0.0,
+      1.9948370541622902,
+      0.0
+    ],
+    [
+      0.0,
+      1.0029670560988562,
+      0.0,
+      2.005169034150243
+    ],
+    [
+      -0.01779296450869929,
+      0.0,
+      0.9673726334809926,
+      0.0
+    ],
+    [
+      0.0,
+      0.017836594889022468,
+      0.0,
+      1.0327013050407183
+    ]
+  ],
+  "epsilon": 0.2,
+  "flat_switch_samples": {
+    "-0.5": 0.0,
+    "-1.0": 0.0,
+    "0.0": 0.0,
+    "0.25": 1.1253517471925912e-07,
+    "0.5": 0.01831563888873418,
+    "1.0": 0.36787944117144233
+  },
+  "flat_transfer": [
+    [
+      1.0,
+      0.0,
+      1.9999999999997993,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      1.9999999999997993
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "future_curvature_nonzero": true,
+  "future_tidal_symmetric": true,
+  "future_tidal_trace": 0.0,
+  "future_transfer_difference_from_flat": 0.03270130504071833,
+  "landing": "SAME_COMPLETE_PRIOR_AND_ALL_BOUNDARY_JETS_ADMIT_DISTINCT_FUTURE_L2_NETWORKS__VALUE_PROPAGATION_REMAINS_OPEN",
+  "metric_determinant": -1.0,
+  "pass": true,
+  "prior_samples_exactly_zero": true,
+  "production_symplectic_defect": 1.4210854715202004e-14,
+  "steps": 30000
+}
