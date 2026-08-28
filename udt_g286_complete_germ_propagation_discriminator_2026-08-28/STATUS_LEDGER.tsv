@@ -1,13 +1,15 @@
 item	status	scope
 G285 complete-separation type clarification	USED_PROVISIONALLY_FOR_G286__NOT_CANON	Complete local pair state includes neighboring tidal variation
+Primary metric-native landing	DERIVED_BOUNDED	Same whole prior metric region and all join jets admit inequivalent future continuations
 Same-prior flat switch witness	DERIVED	Smooth G283 family on u in [-1,1]
 Equality on prior region	DERIVED	Exact for all u<=0
 Equality of all joining-surface jets	DERIVED	Standard smooth-flat-function theorem
 Future geometric inequivalence	DERIVED	R_uiuj=T_ij; flat versus nonzero trace-free curvature
 Inherited compatibility identities	DERIVED_CONDITIONAL	All smooth symmetric T admitted by externally reviewed G283
-Production transfer diagnostic	OBSERVED_PASS	RK4; symplectic defect 1.4210854715202004e-14
+Production sample diagnostic	OBSERVED_PASS	Sampled prior points and future tide plus RK4; not the analytic all-jet proof
 Independent transfer diagnostic	OBSERVED_PASS	Implicit midpoint; cross-method difference 3.866140740882429e-11
 Current unique complete-state propagation	NOT_DERIVED	Bounded witness admits distinct continuations
 Native propagation/admissibility principle	OPEN	Local global or mixed home not selected
 Observational calibration	NOT_YET_AUTHORIZED	Wait for finite-dimensional native family
-External adversarial review	OPEN	Internal package not yet externally reviewed
+External adversarial review	ACCEPT_WITH_REPAIRS	Scientific landing retained; R1-R3 implemented; follow-up open
+R1 hostile replay catch	OBSERVED_PASS	Aggregate verifier rejected a failed fresh production replay with exit 1

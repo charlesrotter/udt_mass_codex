@@ -1,0 +1,6 @@
+{
+  "aggregate_verifier_exit": 1,
+  "mutation": "force fresh production sampled_future_tidal_nonzero false",
+  "pass": true,
+  "rejected": true
+}

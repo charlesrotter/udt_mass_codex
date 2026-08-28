@@ -91,12 +91,17 @@ def main() -> None:
     future_t = tidal(0.5, True)
 
     result = {
-        "landing": "SAME_COMPLETE_PRIOR_AND_ALL_BOUNDARY_JETS_ADMIT_DISTINCT_FUTURE_L2_NETWORKS__VALUE_PROPAGATION_REMAINS_OPEN",
+        "landing": "SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT_GEOMETRICALLY_INEQUIVALENT_FUTURE_CONTINUATIONS__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION",
         "epsilon": EPSILON,
         "steps": args.steps,
         "flat_switch_samples": bvals,
-        "prior_samples_exactly_zero": all(flat_switch(u) == 0.0 for u in samples if u <= 0.0),
-        "future_curvature_nonzero": max(abs(v) for row in future_t for v in row) > 0.0,
+        "sampled_prior_points_zero": all(flat_switch(u) == 0.0 for u in samples if u <= 0.0),
+        "sampled_future_tidal_nonzero": max(abs(v) for row in future_t for v in row) > 0.0,
+        "analytic_claims_not_mechanized": [
+            "whole u<=0 metric-region equality",
+            "smooth flatness and all-jet equality at u=0",
+            "curvature interpretation R_uiuj=T_ij",
+        ],
         "future_tidal_symmetric": future_t[0][1] == future_t[1][0],
         "future_tidal_trace": future_t[0][0] + future_t[1][1],
         "metric_determinant": -1.0,
@@ -106,8 +111,8 @@ def main() -> None:
         "flat_transfer": y0,
     }
     result["pass"] = (
-        result["prior_samples_exactly_zero"]
-        and result["future_curvature_nonzero"]
+        result["sampled_prior_points_zero"]
+        and result["sampled_future_tidal_nonzero"]
         and result["future_tidal_symmetric"]
         and result["future_tidal_trace"] == 0.0
         and result["metric_determinant"] == -1.0

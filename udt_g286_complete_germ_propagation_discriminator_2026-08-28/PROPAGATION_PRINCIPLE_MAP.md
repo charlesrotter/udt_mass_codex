@@ -15,9 +15,10 @@ These parts need not be rebuilt.
 
 ## The narrow missing interface
 
-Let a **complete local separation state** mean G285's `L2` object. Let a compatible prior regional
-network of such states be `N_minus`, and let `Ext(N_minus)` denote its regular future extensions
-that pass all currently owned identities.
+Let a **complete local metric-relation state** include the calibrated pair and neighboring tidal
+variation. In G285's provisional noncanon shorthand this is an `L2` object. Let a compatible prior
+regional network of such states be `N_minus`, and let `Ext(N_minus)` denote its regular future
+extensions that pass all currently owned identities.
 
 G286 proves that `Ext(N_minus)` can contain more than one geometrically inequivalent member. The
 narrow missing object is therefore a native, covariant restriction

@@ -5,11 +5,15 @@ Date: 2026-08-28
 ## Internal landing
 
 ```text
-SAME_COMPLETE_PRIOR_AND_ALL_BOUNDARY_JETS_ADMIT_DISTINCT_FUTURE_L2_NETWORKS
-__VALUE_PROPAGATION_REMAINS_OPEN
+SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT
+__GEOMETRICALLY_INEQUIVALENT_FUTURE_CONTINUATIONS
+__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION
 ```
 
-Status: `PREREGISTERED__EXACT_BOUNDED_DERIVATION__TWO_METHOD_NUMERICAL_DIAGNOSTIC__EXTERNAL_REVIEW_OPEN`.
+Secondary provisional G285 typing: the same prior `L3` network admits distinct future `L2`
+valuations. This wording is not load-bearing and does not adopt G285.
+
+Status: `PREREGISTERED__EXACT_BOUNDED_DERIVATION__TWO_METHOD_NUMERICAL_DIAGNOSTIC__EXTERNAL_ACCEPT_WITH_REPAIRS__R1_R2_R3_IMPLEMENTED__FOLLOWUP_OPEN`.
 
 ## What was learned
 
@@ -34,6 +38,15 @@ angular function of `phi`, and it is not a request for a second metric.
    exact curvature separation is analytic and inherited from externally reviewed G283.
 4. **Premise audit:** complete for the bounded source spine; G285 is noncanon and only provisionally
    used as a type clarification.
+
+## External review and repairs
+
+Fresh external `gpt-5.4` review returned `ACCEPT-WITH-REPAIRS` and retained the bounded scientific
+result. R1 makes the aggregate verifier execute both registered implementations in a fresh
+temporary directory. R2 states the primary result in G283-native metric/curvature language. R3
+labels numerical sample checks separately from the analytic whole-region and all-jet proof. The R1
+hostile control forced the fresh production replay to fail, and the aggregate verifier rejected the
+mutated package with exit `1`.
 
 ## Maximum conclusion
 

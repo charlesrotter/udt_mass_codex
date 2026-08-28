@@ -110,9 +110,14 @@ prior region.
 Therefore, on this bounded smooth complete-metric family,
 
 ```text
-SAME_COMPLETE_PRIOR_AND_ALL_BOUNDARY_JETS_ADMIT_DISTINCT_FUTURE_L2_NETWORKS
-__VALUE_PROPAGATION_REMAINS_OPEN
+SAME_WHOLE_PRIOR_METRIC_REGION_AND_ALL_JOIN_JETS_ADMIT
+__GEOMETRICALLY_INEQUIVALENT_FUTURE_CONTINUATIONS
+__CURRENT_IDENTITY_EVALUATOR_LAYER_IS_NOT_UNIQUE_PROPAGATION
 ```
+
+In G285's explicitly provisional, noncanon vocabulary, these futures have distinct `L2` values and
+extend the same prior `L3` network differently. That vocabulary is secondary; the metric and
+curvature statement above carries the result.
 
 This is not a theorem that UDT can have no native propagation law. It proves that no such law is
 contained in the tested identity/evaluator layer.
