@@ -1,0 +1,13 @@
+# G287 registered commands
+
+Run from the repository root:
+
+```bash
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/build_source_manifest.py
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/derive_sign_types.py --output udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/DERIVATION_RESULT.json
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/verify_independent.py --output udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/INDEPENDENT_VERIFICATION.json
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/run_catch_proofs.py --output udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/CATCH_PROOF_RESULT.json
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/run_repair_catch_proofs.py --output udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/REPAIR_CATCH_PROOF_RESULT.json
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/verify_package.py --output udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/VERIFICATION_RESULT.json
+python3 -S udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/build_review_intake.py
+```

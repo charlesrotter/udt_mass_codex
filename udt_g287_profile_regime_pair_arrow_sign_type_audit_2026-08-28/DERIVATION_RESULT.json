@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "all_rows_pass": true,
+    "arrow_parity_exact": true,
+    "arrow_sign_not_regime_classifier": true,
+    "dependency_names_exact": true,
+    "dependency_names_unique": true,
+    "dependency_row_count": true,
+    "dependency_source:G201": true,
+    "dependency_source:G202": true,
+    "dependency_source:G203": true,
+    "dependency_source:G204": true,
+    "dependency_source:G263": true,
+    "dependency_source:G264": true,
+    "dependency_source:G265": true,
+    "dependency_source:G266": true,
+    "dependency_source:G267": true,
+    "dependency_source:G268": true,
+    "dependency_source:G269": true,
+    "dependency_source:G270": true,
+    "dependency_source:G271": true,
+    "dependency_source:G272": true,
+    "dependency_source:G273": true,
+    "dependency_source:G274": true,
+    "dependency_source:G275": true,
+    "dependency_source:G276": true,
+    "dependency_source:G285": true,
+    "dependency_source:G286": true,
+    "dependency_source:current authority surface": true,
+    "dependency_source:founding.md": true,
+    "every_dependency_source_verified": true,
+    "g267_guarded": true,
+    "g272_reference_qualified": true,
+    "no_active_alias": true,
+    "pair_reversal_fixed_metric": true,
+    "profile_conjugation_changes_generic_metric": true,
+    "user_interpretation_not_promoted": true,
+    "zero_tide_separator_active": true
+  },
+  "counts": {
+    "dependency_rows": 22,
+    "dependency_source_checks": 22,
+    "exact_arrow_assertions": 16,
+    "exact_pair_reversal_assertions": 4,
+    "exact_profile_assertions": 8,
+    "exact_regime_assertions": 6,
+    "exact_separator_assertions": 8
+  },
+  "landing": "PROFILE_REGIME_SIGN_AND_PAIR_ARROW_ORIENTATION_ARE_ALREADY_TYPE_DISTINCT__NO_NATIVE_KERNEL_REGRESSION__RECENT_EXPLANATION_CONFLATED_THEM",
+  "pass": true,
+  "regime_examples": {
+    "arrow_sign_not_regime_classifier": true,
+    "macro_forward_depth": 3,
+    "macro_profile_sign_preserved": true,
+    "macro_reversed_depth": -3,
+    "micro_forward_depth": -2,
+    "micro_profile_sign_preserved": true,
+    "micro_reversed_depth": 2
+  },
+  "sample_rows": [
+    {
+      "chi": [
+        -24,
+        25
+      ],
+      "mutual": [
+        7,
+        25
+      ],
+      "t": [
+        1,
+        7
+      ]
+    },
+    {
+      "chi": [
+        -5,
+        13
+      ],
+      "mutual": [
+        12,
+        13
+      ],
+      "t": [
+        2,
+        3
+      ]
+    },
+    {
+      "chi": [
+        5,
+        13
+      ],
+      "mutual": [
+        12,
+        13
+      ],
+      "t": [
+        3,
+        2
+      ]
+    },
+    {
+      "chi": [
+        105,
+        137
+      ],
+      "mutual": [
+        88,
+        137
+      ],
+      "t": [
+        11,
+        4
+      ]
+    }
+  ]
+}

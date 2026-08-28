@@ -1,0 +1,21 @@
+{
+  "baseline_checks": {
+    "endpoint_reference": true,
+    "g267_scope": true,
+    "mass_requires_law": true,
+    "mutual_evenness": true,
+    "pair_reversal": true,
+    "regime_classifier": true
+  },
+  "caught": {
+    "directed_depth_sign_is_symmetric_regime": true,
+    "g267_two_ends_are_automatically_micro_macro": true,
+    "matched_delta_equals_phi_is_universal_type_identity": true,
+    "negative_profile_alone_derives_mass": true,
+    "pair_reversal_changes_profile_sign": true,
+    "sech_is_orientation_odd": true
+  },
+  "exact_mutation_registry": true,
+  "mutation_count": 6,
+  "pass": true
+}

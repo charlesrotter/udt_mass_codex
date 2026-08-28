@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "no_production_import_or_result_read": true,
+    "open_semicircle_identity": true,
+    "profile_and_pair_involutions_distinct": true,
+    "regime_classifier_counterexamples": true
+  },
+  "counts": {
+    "exact_profile_assertions": 468,
+    "exact_regime_assertions": 8,
+    "exact_semicircle_assertions": 867,
+    "sample_count": 289
+  },
+  "pass": true
+}

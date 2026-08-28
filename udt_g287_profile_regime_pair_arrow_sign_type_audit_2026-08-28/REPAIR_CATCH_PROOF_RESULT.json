@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "broken_review_builder_rejected": true,
+    "changed_dependency_marker_rejected": true,
+    "empty_mutation_registry_rejected": true,
+    "missing_dependency_row_rejected": true,
+    "surviving_semantic_mutant_rejected": true
+  },
+  "pass": true,
+  "probe_count": 5
+}
