@@ -1,0 +1,18 @@
+ACCEPT_WITH_REPAIRS
+
+- Strongest valid landing: `COMPLETE_GERM_RETYPES_SCALAR_TWINS_AS_DISTINCT_SEPARATIONS__VALUE_PROPAGATION_REMAINS_OPEN`. The sealed evidence supports this as a bounded type correction: W5 already keeps projective state as a retained but non-exhaustive relation datum, not a full standalone composition law ([founding.md](/intake/founding.md:214), [G274 report](/intake/udt_g274_projective_pair_position_network_descent_2026-08-26/AUDIT_REPORT.md:17)); G280 and G282 show same lower-level scalar/jet data with different transverse/Jacobi content ([G280 report](/intake/udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/AUDIT_REPORT.md:16), [G282 report](/intake/udt_g282_complete_history_depth_jacobi_minimal_law_type_2026-08-27/AUDIT_REPORT.md:25)); G283 and G284 retain arbitrary tidal values plus exact neighboring-cone reconstruction without value selection ([G283 report](/intake/udt_g283_neighbor_relation_curvature_identity_nonselection_2026-08-27/AUDIT_REPORT.md:25), [G284 report](/intake/udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/AUDIT_REPORT.md:22)).
+
+- Exact defects:
+  - Packaging/status overgrade: [derive_complete_separation_retyping.py](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/derive_complete_separation_retyping.py:23) does not derive the landing from registered witness data; it hard-codes symbolic tuples and tautologies such as `scalar == scalar`, `pair == pair`, and `Fraction(2) != Fraction(1)`. [verify_independent.py](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/verify_independent.py:17) is likewise a schema-level tuple census, not an independent reconstruction of the G280-G284 witness geometry or the G284 reconstruction map. Calling the package `EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED` in [G285 report](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md:15) and [EVIDENCE_GATES.md](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/EVIDENCE_GATES.md:7) overstates what those scripts establish.
+  - Packaging wording underqualifies the evidence counts: [G285 report](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md:67) and [STATUS_LEDGER.tsv](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/STATUS_LEDGER.tsv:4) present `20/20` and `256/2048` as if they were fresh witness-level confirmation. They should be labeled as type-schema/retyping checks. This is not a scientific refutation, but it is a real packaging defect.
+  - Scientific defects: none found within the bounded landing. I found no silent replacement of W5, and no imported field equation, observation, scale, source, matter, `X_max`, or independent signal-speed law ([PREMISE_LEDGER.tsv](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/PREMISE_LEDGER.tsv:4), [G285 report](/intake/udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md:58)).
+
+- G280-G284 regrades:
+  - G280: valid.
+  - G282: valid.
+  - G283: valid.
+  - G284: valid.
+
+- Counterexample status: no alleged counterexample in the intake holds complete `L2` separation fixed. Each one changes transverse curvature, Jacobi response, tidal valuation, or neighboring-cone Hessian, so they are not one fixed `L2` germ with multiple outputs.
+
+- Maximum warranted premise/status grade: `SUPPORTED_CANDIDATE_WORKING_FOUNDATIONAL_CLARIFICATION`, not adopted/canon. The stronger package label `PREREGISTERED__EXACTLY_DERIVED__INDEPENDENTLY_VERIFIED__SOURCE_BOUNDED` is not fully warranted until the G285 derivation/verification labels are repaired down to schema-level/type-retyping language.

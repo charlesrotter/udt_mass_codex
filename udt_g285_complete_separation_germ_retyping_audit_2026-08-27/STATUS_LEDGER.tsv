@@ -4,5 +4,6 @@ S02	candidate complete-separation clarification	SUPPORTED_CANDIDATE_WORKING_FOUN
 S03	outcome derivation	PASS_20_OF_20	Scalar twins are distinct L2 germs
 S04	independent verification	PASS_256_CASES_2048_ASSERTIONS	Exact rational retyping census
 S05	hostile catch proofs	PASS_10_OF_10	Typed overreach rejected
-S06	external review	NOT_REQUESTED	Future bounded gate only
+S06	external review	ACCEPT_WITH_REPAIRS	Scientific landing unchanged; evidence labels require R1 and R2
 S07	package and live replay	PASS_INTERNAL_COMPLETE	Four exact replays plus one mutation catch
+S08	repair preregistration	READY_NOT_YET_BANKED	Regrade only; no new scientific calculation or landing change
