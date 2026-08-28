@@ -98,7 +98,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
-- Current complete-separation/value-propagation boundary: `udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md`; sign-type guard: `udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/AUDIT_REPORT.md`;
+- Current boundary: `udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md`; sign guard: `udt_g287_profile_regime_pair_arrow_sign_type_audit_2026-08-28/AUDIT_REPORT.md`;
   G285 supplies only provisional type language, G284 controls causal/projective reconstruction,
   G283 identity nonselection, and G282 the minimum-information-type prerequisite.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
