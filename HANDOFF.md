@@ -24,6 +24,12 @@ derivative order is the first local metric-natural nonidentity home. This is not
 exact trace-free Brinkmann witness defeats only the three tested scalar channels while retaining
 nonscalar Riemann information. G259's second-order symmetric divergence-free rank-two class remains
 conditional; no residual form, lawful data, or realized history is selected.
+G297 then externally verifies after repairs that the complete bidirectional metric-causal query is
+a substantive owner-level restriction at the clock-correspondence layer. General A/B-centered
+two-leg radar first germs are conditional metric derivations. Quiet-flat planar equality with the
+transported mutual scalar is not universal: static lapse and active screen refute the collapse. The
+map from the full ordered causal-diamond/directional-delay family to a regular rank-two calibrated
+pair germ remains open and underdefined; W1 remains an evaluator, not a history law.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -59,9 +65,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: decide whether UDT natively justifies the strict G259 local second-order symmetric
-divergence-free rank-two class or which assumption must be relaxed. Map the alternatives, causal
-support, data, quiet GR limit, G286 treatment, and screen propagation first. No action, source,
-mass, observation, Planck scale, `X_max`, or solve precedes it.
+Next: preregister the bounded constructive transfer
+`C_g: D_g/G_D -> G_2(g)/G_F`. Define its basepoint, two tangents, reflection/branch regularity,
+rank/caustic domain, quotient descent, and set-valued multiple-route behavior before calculation.
+Do not insert reciprocal frame/screen/Jacobi output into the causal input. No action, source, mass,
+observation, Planck scale, `X_max`, or history solve precedes it.
 
 <!-- STARTUP_CURRENT_END -->

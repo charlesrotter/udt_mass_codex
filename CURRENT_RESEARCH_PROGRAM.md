@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 280-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 281-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -80,6 +80,13 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   Einstein, and the three tested scalar channels vanish. The tested scalar-only lane is therefore
   incomplete, while G259's strict second-order symmetric divergence-free rank-two class remains a
   conditional fork rather than derived UDT dynamics.
+- G297 externally verifies after repairs that the complete bidirectional metric-causal pair query is
+  substantive at the clock-correspondence level. General A/B-centered two-leg radar first germs
+  follow conditionally from supplied observers and declared regular future-null routes. Their
+  quiet-flat planar equality with the transported mutual scalar is not universal: static lapse and
+  active screen state refute the scalar collapse. The natural partial, generally set-valued transfer
+  from causal-diamond/directional-delay families to regular rank-two calibrated pair germs remains
+  underdefined. W1 remains an evaluator; history and population remain open.
 
 ## Open boundary
 
@@ -92,7 +99,9 @@ G295 regrades the target from one uniquely selected universe to a nonidentity we
 family plus lawful data. The nonlinear residual, coefficients, screen propagation, data, scale,
 mass, population, and our realized history remain open. This is not a no-go against a native law.
 G296 removes the need to posit an extra primitive geometric state and locates the first local native
-differential order, but it selects no residual formula or data.
+differential order, but it selects no residual formula or data. G297 identifies an earlier
+construction still required before treating the physical pair germ as owned: the causal-family to
+rank-two calibrated pair-germ transfer.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -100,8 +109,9 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Determine whether UDT natively justifies the strict G259 local second-order symmetric
-divergence-free rank-two class or which assumption must be relaxed: higher differential order,
-independently augmented state, or irreducibly global/nonlocal history law. Map premises, causal
-support, data, quiet GR limit, G286 treatment, and screen propagation before derivation. No action,
-source, mass, observation, `X_max`, or solve enters.
+Preregister a bounded constructive test of
+`C_g: D_g/G_D -> G_2(g)/G_F`. Before calculation define the base event, two independent tangents,
+reflection/return smoothness or branched object, regular-rank and caustic exclusions, existence and
+uniqueness up to gauge, quotient descent, and set-valued multiple-route behavior. The causal input
+must begin with clock/null incidence and directional-delay data rather than imported reciprocal
+frame/screen/Jacobi output. No action, source, mass, observation, `X_max`, or history solve enters.

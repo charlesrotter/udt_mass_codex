@@ -50,6 +50,7 @@
 | G294 co-presence architecture | internal independent/caveats | Connectedness can be nonpropagating; causal update remains missing |
 | G295 causal-history classification | internal independent/caveats | One covariant law type; sliced `AU=RA`; formula/history open |
 | G296 complete-metric residual-order map | external/repairs accepted | Complete metric is a minimal faithful primitive state; curvature order is first local natural nonidentity home; formula/history open |
+| G297 causal-dilation equivalence | external/repairs accepted | A/B radar clock germs derived conditionally; scalar collapse refuted; full causal-family-to-rank-two-germ transfer open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -89,6 +90,11 @@ None selects completion/`X_max`.
   derivative order. This order boundary is not a law. Its trace-free Brinkmann witness defeats only
   the tested scalar-curvature/Ricci-square/Kretschmann lane; nonscalar Riemann information survives.
   G259's stricter rank-two divergence-free class remains conditional.
+  G297 then derives the A- and B-centered two-leg causal clock first germs on supplied regular
+  routes and refutes their universal scalar identification with the transported mutual channel.
+  It does not yet construct the natural partial, generally set-valued map from the complete ordered
+  causal-diamond/directional-delay family to a regular rank-two calibrated pair immersion germ.
+  Radar midpoint is not co-presence or a global now, and W1 remains a downstream evaluator.
 
 ## Carrier, action, source, and matter
 
@@ -106,5 +112,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 280-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 281-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
