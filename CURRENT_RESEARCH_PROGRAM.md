@@ -79,6 +79,10 @@ population, operational distance, or `X_max`.
   orientation-forgetting `O(2)` retains inverse/conjugacy rotation data; genuinely nonorientable
   reflection holonomy remains open. Arbitrary smooth histories still pass, so the result remains
   evaluative. Fresh external review accepts the bounded result without defects.
+- G291's preregistered three-agent whiteboard finds a conditional discrete skeleton: oriented
+  screen curvature has integral Euler periods and smooth regular continuation preserves its class.
+  Holonomy reconstructs a supplied connection, but exact same-class deformations retain continuous
+  local flux freedom. This is a `MULTI_AGENT_WHITEBOARD_LEAD`; exact descent remains pending.
 
 ## Open boundary
 
@@ -92,7 +96,8 @@ and cone reconstruction as selectors. G285 includes tide in complete separation 
 the present layer choose a future on its bounded family; G287 repairs a sign explanation without
 closing that gap. G288 adds a local center class; G289 makes the old Hopfion a viable conditional
 configuration; G290 separates topology from holonomy and selection. Coefficients, scale, mass,
-global micro band, and history remain open. This is not a no-go against a native law.
+global micro band, and history remain open. G291 narrows topology to sector classification rather
+than continuous propagation. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -100,7 +105,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Run preregistered G291 multi-agent whiteboard on whether owned global relation structure restricts
-G290 screen curvature flux; retain partial outcomes and stop before new dynamics. Keep
+Preregister the G291-recommended orientable differential-character descent, global same-class
+metric witness, and sky-versus-pair connection comparison; stop before new dynamics. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

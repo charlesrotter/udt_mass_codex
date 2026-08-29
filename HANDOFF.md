@@ -19,11 +19,10 @@ but its fixed round target, action, boundary, and raw component charge remain co
 dependent. Exact conformal twins carry the same texture with different curvature, so it selects no
 history. Fresh external review accepted that bounded landing with four evidence repairs. All four
 repairs are externally accepted with no defects and no change to the bounded landing.
-G290's whiteboard separates topology, holonomy, and selection. Pure topology cannot separate smooth
-twins; a supplied pair screen connection adds metric-sensitive holonomy but remains evaluative.
-Exact descent separates registered flat/nonflat twins and obeys time-live flux transgression.
-External review accepts the orientation-repaired result without defects; arbitrary smooth histories
-remain admitted.
+G290 separates topology, holonomy, and selection. Its supplied screen connection distinguishes
+flat/nonflat twins and obeys time-live flux transgression, but remains evaluative; external review
+accepts it. G291's three-agent whiteboard finds conditional integral Euler-flux sectors and smooth
+sector persistence, while continuous same-sector curvature and complete history remain open.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -72,8 +71,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: run preregistered G291 multi-agent whiteboard on whether owned global relation structure
-restricts G290 screen flux; retain partial outcomes and stop before new dynamics. Keep G288's
+Next: preregister G291's recommended orientable differential-character descent and global metric
+witness; stop before new dynamics. Keep G288's
 general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
 

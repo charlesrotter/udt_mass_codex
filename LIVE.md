@@ -27,9 +27,9 @@ structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286
 that current identities do not uniquely continue a shared prior metric; G287 confirms reversal
 negates `delta_AB`, not the ambient profile. G288 freshly rebuilds the primary metric near an
 analytic even smooth center: the quadratic germ is zero-tide constant-curvature, while angular
-tide first enters through an independent quartic jet. G289/G290 make the old Hopfion conditionally
-compatible and split persistent topology from history-sensitive screen holonomy; neither selects
-history. A supplied germ pulls
+tide first enters through an independent quartic jet. G289/G290 make the old Hopfion conditional
+and split topology from history-sensitive screen holonomy. G291 finds integral-flux sectors but no
+continuous flux/history law. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -86,9 +86,9 @@ Current observational/history boundary:
   and raw charge remain conditional. Conformal twins retain it with different curvature. Fresh
   external review accepted the bounded landing with four evidence repairs; repair-only follow-up
   accepted all four with no defects and no scientific change.
-- G290's screen holonomy separates registered flat/nonflat twins and obeys time-live curvature-flux
-  transgression while admitting arbitrary histories. External review accepted the orientation-caveated
-  result without defects.
+- G290's holonomy separates flat/nonflat twins and obeys flux transgression while admitting
+  histories. G291 finds Euler-flux sectors, but same-sector
+  curvature remains free; exact descent is pending.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -116,8 +116,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Run G291 whiteboard on whether owned structure restricts G290 screen flux; retain partial
-outcomes and stop before new dynamics. Keep G288's general
+Preregister the G291-recommended orientable differential-character descent and global metric
+witness; stop before new dynamics. Keep G288's general
 `A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
 work, or solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->
