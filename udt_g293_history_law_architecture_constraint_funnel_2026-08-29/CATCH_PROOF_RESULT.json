@@ -1,0 +1,73 @@
+{
+  "all_pass": true,
+  "catch_count": 12,
+  "catches": [
+    {
+      "caught": true,
+      "evidence_check": "endpoint_composition_does_not_imply_homogeneity",
+      "hostile_claim": "founded composition selects homogeneity"
+    },
+    {
+      "caught": true,
+      "evidence_check": "flow_composition_does_not_imply_translation_equivariance",
+      "hostile_claim": "flow composition selects constant generator"
+    },
+    {
+      "caught": true,
+      "evidence_check": "augmented_state_depth_translation_equivariance",
+      "hostile_claim": "scalar theorem widens to complete state"
+    },
+    {
+      "caught": true,
+      "evidence_check": "projective_generator_jacobian",
+      "hostile_claim": "projective generator forgets Jacobian"
+    },
+    {
+      "caught": true,
+      "evidence_check": "trivial_scalar_branch",
+      "hostile_claim": "k=0 silently excluded"
+    },
+    {
+      "caught": true,
+      "evidence_check": "parameter_rescaling_degeneracy",
+      "hostile_claim": "k called a derived physical scale"
+    },
+    {
+      "caught": true,
+      "evidence_check": "P2_zero_mean",
+      "hostile_claim": "Euler period fixes every local mode"
+    },
+    {
+      "caught": true,
+      "evidence_check": "same_total_different_local_flux",
+      "hostile_claim": "same Euler sector fixes local flux"
+    },
+    {
+      "caught": true,
+      "evidence_check": "time_live_curvature_Bianchi_closure",
+      "hostile_claim": "time-live mixed term omitted"
+    },
+    {
+      "caught": true,
+      "evidence_check": "GR_active_angular_cancellation",
+      "hostile_claim": "GR quiet branch deletes angular modes"
+    },
+    {
+      "caught": true,
+      "evidence_check": "G259_class_not_all_local_metric_two_jet_laws",
+      "hostile_claim": "G259 widened to every local two-jet law"
+    },
+    {
+      "caught": true,
+      "evidence_check": "production_scope_zero_gate",
+      "hostile_claim": "observation fit scale equation protected work or GPU entered"
+    }
+  ],
+  "semantic_gate_count": 4,
+  "semantic_gates": {
+    "arbitrary_P2_amplitude_is_metric_realized": "NOT_DERIVED",
+    "architecture_lattice_is_exhaustive": "NOT_CLAIMED",
+    "observational_calibration": "DEFERRED",
+    "physical_history_law": "OPEN"
+  }
+}

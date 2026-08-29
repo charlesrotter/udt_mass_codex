@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-08-28
+Date: 2026-08-29
 
-`LIVE.md` controls status; the 275-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 276-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -86,6 +86,14 @@ population, operational distance, or `X_max`.
   radial pair block and Euler class while changing local flux, so topology classifies sectors but
   does not propagate continuous values or select a history. External review accepts the bounded
   theorem after four evidence and scope repairs.
+- G293 tests the two simplest hidden-propagation routes without adopting a law. On a supplied
+  additive parameter, continuous homogeneous scalar depth is exactly `delta=ks` and
+  `chi=tanh(ks)`, while `k` rescales with that supplied parameter. Endpoint composition alone does
+  not provide homogeneity. Signed linear depth can pass through a quiet middle, so this result does
+  not reject the loud--quiet--loud regime picture. A lawful time-live fixed-Euler connection retains
+  arbitrary same-sector local flux through its mandatory mixed term. G259's strict conditional
+  metric class is inherited, not widened. The remaining candidate architectures are partitioned by
+  primitive state and data dependence (`M2`, `MN`, `A`, `NL`) but no history law is selected.
 
 ## Open boundary
 
@@ -100,7 +108,10 @@ the present layer choose a future on its bounded family; G287 repairs a sign exp
 closing that gap. G288 adds a local center class; G289 makes the old Hopfion a viable conditional
 configuration; G290 separates topology from holonomy and selection. Coefficients, scale, mass,
 global micro band, and history remain open. G292 proves the orientable fixed-rank sector statement
-and the surviving same-sector local freedom. This is not a no-go against a native law.
+and the surviving same-sector local freedom. G293 closes scalar homogeneity and Euler number as
+hidden standalone propagation laws on their declared lanes. Physical attachment of the additive
+parameter, continuous screen/curvature propagation, populated relations, and the complete history
+remain open. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -108,7 +119,9 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Ponder with Charles before opening G293. Choose whether to test a native continuous flux/history
-propagation candidate or the omitted nonorientable, rank-loss, singular, and topology-change strata.
-Keep G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
-`X_max`, ODE/PDE, or GPU solve precedes a fresh map and explicit premise ledger.
+Ponder with Charles before opening G294. Choose one finite primitive-state classification: another
+local metric residual class (`MN`), a finite augmented complete-relation/screen state (`A`), or a
+genuinely global/nonlocal law (`NL`). The `A` lane is the most direct metric-native follow-through,
+but it must be mapped before preference. Keep G288's general `A(r),B(r)` control queued. No action,
+source, mass, Planck scale, observation, `X_max`, ODE/PDE, or GPU solve precedes a fresh map and
+explicit premise ledger.

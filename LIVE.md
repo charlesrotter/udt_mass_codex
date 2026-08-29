@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-28
+## CURRENT STATE — 2026-08-29
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
@@ -32,7 +32,13 @@ and split topology from history-sensitive screen holonomy. G291's whiteboard lea
 G292: on a supplied smooth oriented positive rank-two screen, Euler flux descends exactly and its
 integral sector persists under supplied smooth fixed-rank continuation. A global metric family has
 the same radial pair block and Euler class but different local screen-flux density, so this remains
-a sector classifier rather than a continuous flux/history law. A supplied germ pulls
+a sector classifier rather than a continuous flux/history law. G293 then tests scalar homogeneity
+and Euler topology as hidden propagation. It derives `delta=ks` and `chi=tanh(ks)` only after an
+additive parameter is supplied; `k` remains parameterization-dependent, and endpoint composition
+alone is weaker. Signed linear depth can cross a quiet middle, so the qualitative loud--quiet--loud
+structure remains viable. A lawful time-live fixed-Euler family still carries arbitrary local flux.
+The remaining architecture is narrowed by primitive state/data dependence but no law is selected.
+A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -68,6 +74,10 @@ Current observational/history boundary:
   supplied holonomy/flux transgression. G291's lead becomes G292's accepted theorem: oriented total
   Euler flux is topological, but same-pair-block, same-class metrics have different local flux.
   G225 sky and G290 pair screens require supplied bundle identification.
+- G293 does not change the metric or kernel. It closes two proposed shortcuts on bounded lanes:
+  homogeneous scalar flow is parameterization until physically attached, and Euler number fixes a
+  sector rather than local curvature evolution. G259's strict conditional local class remains
+  available but was not widened into a general UDT law.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -95,8 +105,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-PONDER with Charles before opening G293: decide whether the next bounded lane is a native continuous
-flux/history propagation candidate or omitted nonorientable, rank-loss, singular, and topology-change
-strata. Keep G288's general `A(r),B(r)` control queued. No action, source, mass, observation, Planck
-scale, `X_max`, protected work, ODE/PDE, or solve precedes a fresh map and explicit premise ledger.
+PONDER with Charles before opening G294. Choose one finite primitive-state lane: another local metric
+residual class (`MN`), a finite augmented complete-relation/screen state (`A`), or a genuinely
+global/nonlocal law (`NL`). The `A` lane is the closest continuation of the completed pair metric,
+but it is not yet selected. Keep G288's general `A(r),B(r)` control queued. No action, source, mass,
+observation, Planck scale, `X_max`, protected work, ODE/PDE, or solve precedes a fresh map and explicit
+premise ledger.
 <!-- STARTUP_CURRENT_END -->

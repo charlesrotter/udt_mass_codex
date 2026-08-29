@@ -1,0 +1,12 @@
+{
+  "all_pass": true,
+  "assertion_count": 46022,
+  "methods": [
+    "independent_floating_hyperbolic_grid",
+    "exact_fraction_P2_antiderivative",
+    "exact_fraction_GR_branch_regression",
+    "exact_nonconstant_generator_counterexamples"
+  ],
+  "production_imported": false,
+  "production_result_read": false
+}

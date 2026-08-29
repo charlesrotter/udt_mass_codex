@@ -1,0 +1,267 @@
+{
+  "all_pass": true,
+  "assertion_count": 42,
+  "checks": [
+    {
+      "expected": "0",
+      "name": "additive_depth_homomorphism",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "reciprocal_character_composition",
+      "pass": true,
+      "value": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "expected": "0",
+      "name": "reciprocal_character_determinant",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "projective_mobius_composition",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "projective_reversal",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "projective_generator_jacobian",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "trivial_scalar_branch",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "endpoint_cocycle_composition_without_homogeneity",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "endpoint_cocycle_reversal",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "nonzero polynomial",
+      "name": "endpoint_composition_does_not_imply_homogeneity",
+      "pass": true,
+      "value": "-3*endpoint_a**2*endpoint_b + 3*endpoint_a*endpoint_b**2"
+    },
+    {
+      "expected": "0",
+      "name": "constant_generator_commutes_with_depth_translation",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "constant_generator_semigroup",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "nonconstant_autonomous_flow_composes",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "nonzero for generic s and shift",
+      "name": "flow_composition_does_not_imply_translation_equivariance",
+      "pass": true,
+      "value": "depth_shift*exp(s) - depth_shift"
+    },
+    {
+      "expected": "0",
+      "name": "augmented_state_depth_translation_equivariance",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "augmented_state_semigroup_y",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "augmented_state_semigroup_delta",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "nonconstant_generator_translation_defect",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "nonzero polynomial",
+      "name": "nonconstant_generator_rejected",
+      "pass": true,
+      "value": "2*delta0*depth_shift + depth_shift**2"
+    },
+    {
+      "expected": "0",
+      "name": "parameter_rescaling_degeneracy",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "P2_zero_mean",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "fixed_total_euler_flux",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "north_flux_value",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "equator_flux_value",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "local_flux_separator_formula",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "nonzero when amplitude != 0",
+      "name": "same_total_different_local_flux",
+      "pass": true,
+      "value": "3*amplitude/2"
+    },
+    {
+      "expected": "0",
+      "name": "cap_flux_difference",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "global_difference_form_derivative",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "time_live_curvature_Bianchi_closure",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "nonzero when amplitude varies",
+      "name": "slice_only_time_live_curvature_rejected",
+      "pass": true,
+      "value": "(3*cos(theta)**2 - 1)*sin(theta)*Derivative(live_amplitude(s), s)/2"
+    },
+    {
+      "expected": "0",
+      "name": "primary_residual_dependence",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "GR_branch_E0",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "GR_branch_E1",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "angular_trace_residual_identity",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "GR_active_angular_cancellation",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "nonzero",
+      "name": "GR_A_parallel_nonzero",
+      "pass": true,
+      "value": "3*C/(2*r)"
+    },
+    {
+      "expected": "nonzero",
+      "name": "GR_A_perp_nonzero",
+      "pass": true,
+      "value": "-3*C/(2*r)"
+    },
+    {
+      "expected": "0",
+      "name": "mass_aspect_E0",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "mass_aspect_E1",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "scalar_residual_R_zero_family",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "scalar_residual_non_Einstein_separator",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "both nonzero while R=0",
+      "name": "G259_class_not_all_local_metric_two_jet_laws",
+      "pass": true,
+      "value": "E0=-Q/r**2, E1=Q/r**2"
+    }
+  ],
+  "landing_candidate": "SCALAR_RECIPROCAL_GENERATOR_IS_PARAMETERIZATION_ONLY__EULER_SECTOR_LEAVES_CONTINUOUS_FLUX_FREE__PRIMITIVE_STATE_AND_DATA_DEPENDENCE_PARTITION_REMAINS__UDT_HISTORY_LAW_ARCHITECTURE_NARROWED_NOT_SELECTED",
+  "scope": {
+    "field_equations_adopted": 0,
+    "fit_coefficients": 0,
+    "gpu": false,
+    "observations": 0,
+    "physical_scales_selected": 0,
+    "protected_inputs": 0
+  }
+}

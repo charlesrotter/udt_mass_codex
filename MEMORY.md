@@ -24,6 +24,13 @@ rank-two screens. The Euler sector and total flux persist under supplied smooth 
 continuation, but same-pair-block, same-class metrics retain different local flux. G225 sky and G290
 pair screens require supplied bundle identification. External review accepts the bounded result
 after all four repairs; continuous flux propagation and complete history remain open.
+G293 then tests the two simplest hidden-propagation possibilities. Continuous homogeneous scalar
+depth is exactly `delta=ks`, but only after an additive parameter is supplied; `k` rescales with
+that parameter. Signed linear depth can still pass naturally through a quiet middle. A lawful
+time-live fixed-Euler connection retains arbitrary same-sector local flux through the mandatory
+mixed term. Together with inherited G259, this narrows the missing law by primitive state and data
+dependence without selecting it. Three specialist lanes support the bounded result; an isolated
+zero-context review stopped before evidence read because it could not complete mandatory Git fetch.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -49,8 +56,10 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Ponder with Charles before G293: choose a native continuous flux/history propagation candidate or
-the omitted nonorientable, rank-loss, singular, and topology-change strata. Keep G288's control queued.
+Choose one explicit G294 primitive-state lane for a finite classification: another local metric
+residual class (`MN`), a finite augmented complete-relation state (`A`), or a genuinely global law
+(`NL`). Do not fit observations until a nonidentity finite candidate class exists. A fresh external
+G293 review remains optional and unrun. Keep G288's general `A(r),B(r)` control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

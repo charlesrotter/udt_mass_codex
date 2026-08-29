@@ -4,7 +4,7 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-08-28
+## Resume anchor — 2026-08-29
 
 G166--G276 is the structural spine; G277--G281 control observations; G282--G284 locate the
 history/Jacobi value gap; G285 retypes equal-scalar/different-tide cases as different complete
@@ -18,6 +18,13 @@ transgression. G291's three-agent lead is closed by G292 for supplied smooth ori
 rank-two screens: total Euler flux persists, but a global same-pair-block, same-class metric family
 changes local flux. G225 sky and G290 pair screens require supplied bundle identification. External
 reviews accept these bounded results and G292's four repairs without scientific change.
+G293 internally classifies two proposed shortcuts with caveats. Continuous homogeneous scalar depth
+is `delta=ks` only on a supplied additive parameter, with `k` parameterization-dependent; endpoint
+composition alone is not homogeneity. Signed linear depth can pass through a quiet middle. A lawful
+time-live fixed-Euler screen family retains arbitrary local flux, so topology classifies a sector
+without propagating it. G259's strict conditional class is inherited, not generalized. Three
+specialist reviews support the bounded landing; the isolated zero-context rehearsal stopped before
+evidence read because mandatory Git fetch was unavailable and returned no verdict.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -66,8 +73,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: ponder with Charles before opening G293. Choose between a native continuous flux/history
-propagation candidate and the omitted nonorientable, rank-loss, singular, or topology-change strata.
+Next: ponder with Charles before opening G294. Choose a finite classification in another local
+metric-residual lane (`MN`), a finite augmented complete-relation/screen state (`A`), or a genuinely
+global/nonlocal lane (`NL`). `A` is the closest metric-native continuation but is not yet privileged.
 Keep G288's general `A(r),B(r)` control queued. No action, source, physical mass, observation, Planck
 scale, `X_max`, ODE/PDE, or solve may be inserted without a fresh map and premise ledger.
 

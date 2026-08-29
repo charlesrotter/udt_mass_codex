@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "byte_identical_replays": {
+    "catches": true,
+    "independent": true,
+    "production": true
+  },
+  "hostile_catches": 12,
+  "independent_assertions": 46022,
+  "persistent_runtime_output": false,
+  "production_assertions": 42,
+  "required_file_count": 17,
+  "semantic_gates": 4
+}

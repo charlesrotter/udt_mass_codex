@@ -87,6 +87,7 @@
 | G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
 | G288--G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
+| G293 architecture funnel | internal multi-agent/caveats | Scalar homogeneous flow is uncalibrated; Euler sector leaves local flux free; law unselected |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -109,7 +110,10 @@ None selects completion/`X_max`.
   shows identities do not uniquely propagate the shared prior. G287 separates signs; G288 derives
   center interlock; G289 is externally accepted.
   G290 derives supplied screen holonomy/transgression. G292 makes G291's orientable fixed-rank
-  Euler-flux lead exact; same-sector local flux, scale, mass, and history remain free.
+  Euler-flux lead exact; same-sector local flux, scale, mass, and history remain free. G293 proves
+  that continuous homogeneous scalar depth is `ks` only on a supplied additive parameter and that
+  topology plus scalar depth still does not propagate the local flux. A signed linear depth may
+  pass through the quiet middle; its physical separation attachment remains open.
 
 ## Carrier, action, source, and matter
 
@@ -127,5 +131,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 275-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 276-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
