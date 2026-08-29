@@ -1,0 +1,16 @@
+{
+  "aggregator_role": "integrity_and_provenance_only",
+  "fresh_adversarial_context": "PASS",
+  "hostile_claim_witnesses": 8,
+  "independent_assertions": 25446,
+  "independent_cap_quadratures": 105,
+  "independent_point_cases": 3600,
+  "landing": "ORIENTABLE_SCREEN_EULER_FLUX_DESCENDS_EXACTLY__G225_SKY_AND_G290_PAIR_CONNECTIONS_REQUIRE_SUPPLIED_IDENTIFICATION__GLOBAL_SAME_PAIR_BLOCK_SAME_EULER_CLASS_DIFFERENT_LOCAL_FLUX_METRIC_FAMILY__NO_CONTINUOUS_FLUX_PROPAGATION_OR_HISTORY_SELECTION",
+  "production_computed_checks": 22,
+  "production_derived_conclusions": 12,
+  "registered_repairs_applied": true,
+  "repair_followup": "PASS_ACCEPT_G292_REPAIRS",
+  "required_files": 24,
+  "status": "PASS",
+  "sympy_production_replayed": true
+}

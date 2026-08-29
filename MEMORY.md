@@ -19,8 +19,11 @@ G290's preregistered exact follow-through locally derives metric-sensitive scree
 time-live curvature-flux transgression on supplied complete-pair carry. It distinguishes the
 registered flat/nonflat conformal twins but admits arbitrary smooth histories. Internal review
 retained orientation caveats; external review accepted it without defects.
-G291's three-agent whiteboard finds conditional integral Euler-flux sectors and smooth sector
-persistence, but continuous same-sector screen curvature and complete history remain open.
+G291's three-agent Euler-flux lead is now exact in G292 for supplied smooth oriented positive
+rank-two screens. The Euler sector and total flux persist under supplied smooth fixed-rank
+continuation, but same-pair-block, same-class metrics retain different local flux. G225 sky and G290
+pair screens require supplied bundle identification. External review accepts the bounded result
+after all four repairs; continuous flux propagation and complete history remain open.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -46,8 +49,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Run preregistered G292 orientable differential-character descent and global metric witness; stop
-before new dynamics. Keep G288's control queued.
+Ponder with Charles before G293: choose a native continuous flux/history propagation candidate or
+the omitted nonorientable, rank-loss, singular, and topology-change strata. Keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

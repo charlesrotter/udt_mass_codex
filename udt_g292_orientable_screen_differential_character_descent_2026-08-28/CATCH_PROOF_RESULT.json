@@ -1,0 +1,59 @@
+{
+  "claims": [
+    {
+      "claim": "euler_number_called_fixed_local_flux",
+      "passed": true,
+      "witness": [
+        0.8660254037844386,
+        1.299038105676658
+      ]
+    },
+    {
+      "claim": "single_loop_phase_called_unique_unwrapped_flux",
+      "passed": true,
+      "witness": "distinct fluxes have identical exponentiated latitude holonomy"
+    },
+    {
+      "claim": "scalar_reciprocal_closure_called_screen_flatness",
+      "passed": true,
+      "witness": {
+        "pair_phi": 0.0,
+        "screen_phase": -0.7853981633974493
+      }
+    },
+    {
+      "claim": "G225_sky_and_G290_pair_connections_called_automatically_identical",
+      "passed": true,
+      "witness": "base map and isometric bundle identification absent"
+    },
+    {
+      "claim": "characteristic_class_persistence_called_physical_dynamics",
+      "passed": true,
+      "witness": "same Euler class permits time-varying local curvature"
+    },
+    {
+      "claim": "orientable_SO2_result_called_complete_O2_classification",
+      "passed": true,
+      "witness": "w1 reflection and twisted Euler data remain open"
+    },
+    {
+      "claim": "nonintegral_TS2_total_flux_called_globally_admissible",
+      "passed": true,
+      "witness": 2.6666666666666665
+    },
+    {
+      "claim": "fixed_topological_class_called_unique_metric_history",
+      "passed": true,
+      "witness": {
+        "cap_flux_change": 2.3561944901923444,
+        "same_total_flux": 12.566370614359172
+      }
+    }
+  ],
+  "evidence_type": "preregistered_hostile_claim_witnesses_not_production_mutants",
+  "passed": 8,
+  "primitive_numeric_recomputations": 5,
+  "status": "PASS",
+  "total": 8,
+  "typed_promotion_catches": 3
+}

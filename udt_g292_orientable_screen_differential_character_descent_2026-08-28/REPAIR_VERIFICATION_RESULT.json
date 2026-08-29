@@ -1,0 +1,16 @@
+{
+  "fresh_external_verdict": "ACCEPT_WITH_REPAIRS",
+  "landing": "ORIENTABLE_SCREEN_EULER_FLUX_DESCENDS_EXACTLY__G225_SKY_AND_G290_PAIR_CONNECTIONS_REQUIRE_SUPPLIED_IDENTIFICATION__GLOBAL_SAME_PAIR_BLOCK_SAME_EULER_CLASS_DIFFERENT_LOCAL_FLUX_METRIC_FAMILY__NO_CONTINUOUS_FLUX_PROPAGATION_OR_HISTORY_SELECTION",
+  "no_sympy_aggregate_returncode": 1,
+  "no_sympy_fail_closed": true,
+  "repair_only_followup": "PASS_ACCEPT_G292_REPAIRS",
+  "repairs_verified": [
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "scientific_landing_unchanged": true,
+  "status": "PASS",
+  "symbolic_production_replayed": true
+}

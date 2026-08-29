@@ -1,0 +1,18 @@
+{
+  "assertions": 25446,
+  "imports_production_module": false,
+  "max_cap_flux_error": 3.342393029015511e-11,
+  "max_connection_error": 1.2323475573339238e-14,
+  "max_density_error": 1.231653667943533e-14,
+  "max_total_flux_error": 4.565237077258644e-13,
+  "method": "standard_library_direct_riemann_cartan_and_simpson_replay",
+  "pair_phi": 0.0,
+  "quadrature_cap_cases": 105,
+  "random_point_cases": 3600,
+  "reads_production_result": false,
+  "selection_residual_present": false,
+  "status": "PASS",
+  "tested_epsilon_signs": "negative_zero_positive",
+  "tested_multiple_free_R": true,
+  "total_euler_flux": "4*pi within recorded quadrature error"
+}

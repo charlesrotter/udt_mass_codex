@@ -2,7 +2,7 @@
 
 Date: 2026-08-28
 
-`LIVE.md` controls status; the 274-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 275-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -79,10 +79,13 @@ population, operational distance, or `X_max`.
   orientation-forgetting `O(2)` retains inverse/conjugacy rotation data; genuinely nonorientable
   reflection holonomy remains open. Arbitrary smooth histories still pass, so the result remains
   evaluative. Fresh external review accepts the bounded result without defects.
-- G291's preregistered three-agent whiteboard finds a conditional discrete skeleton: oriented
-  screen curvature has integral Euler periods and smooth regular continuation preserves its class.
-  Holonomy reconstructs a supplied connection, but exact same-class deformations retain continuous
-  local flux freedom. This is a `MULTI_AGENT_WHITEBOARD_LEAD`; exact descent remains pending.
+- G291's preregistered three-agent whiteboard finds a conditional discrete skeleton. G292 makes its
+  orientable fixed-rank content exact: a supplied metric screen connection has integral Euler flux,
+  and supplied smooth continuation preserves the class. G225 sky and G290 pair connections require
+  a supplied orientation-preserving bundle identification. One global metric family keeps the same
+  radial pair block and Euler class while changing local flux, so topology classifies sectors but
+  does not propagate continuous values or select a history. External review accepts the bounded
+  theorem after four evidence and scope repairs.
 
 ## Open boundary
 
@@ -96,8 +99,8 @@ and cone reconstruction as selectors. G285 includes tide in complete separation 
 the present layer choose a future on its bounded family; G287 repairs a sign explanation without
 closing that gap. G288 adds a local center class; G289 makes the old Hopfion a viable conditional
 configuration; G290 separates topology from holonomy and selection. Coefficients, scale, mass,
-global micro band, and history remain open. G291 narrows topology to sector classification rather
-than continuous propagation. This is not a no-go against a native law.
+global micro band, and history remain open. G292 proves the orientable fixed-rank sector statement
+and the surviving same-sector local freedom. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -105,7 +108,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Run preregistered G292 orientable differential-character descent, global same-class metric witness,
-and sky-versus-pair connection comparison; stop before new dynamics. Keep
-G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
-`X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.
+Ponder with Charles before opening G293. Choose whether to test a native continuous flux/history
+propagation candidate or the omitted nonorientable, rank-loss, singular, and topology-change strata.
+Keep G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
+`X_max`, ODE/PDE, or GPU solve precedes a fresh map and explicit premise ledger.

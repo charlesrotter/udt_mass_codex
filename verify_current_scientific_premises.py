@@ -413,7 +413,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "274-row exact registry",
+            "275-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -630,6 +630,8 @@ def validate_startup_surface(root: Path) -> None:
             "G288",
             "G289",
             "G290",
+            "G291",
+            "G292",
             "W5",
             "formula-level regression",
             "off-ray",
@@ -848,7 +850,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "274-row",
+            "275-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1210,9 +1212,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 274, "premise registry must contain exactly 274 rows")
+    require(len(rows) == 275, "premise registry must contain exactly 275 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 274, "duplicate premise id")
+    require(len(by_id) == 275, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1283,6 +1285,11 @@ def main() -> None:
             "EXTERNALLY_ACCEPTED_BOUNDED_G290__NO_DEFECTS__PREREGISTERED_AT_A1401EBE",
             "udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/EXACT_DERIVATION.md",
             "EXACT_COMPLETE_PAIR_SCREEN_HOLONOMY_DESCENDS_CONDITIONALLY",
+        ),
+        "G292": (
+            "EXTERNALLY_ACCEPTED_BOUNDED_G292__REPAIRS_ACCEPTED__PREREGISTERED_AT_E6A1BDFB",
+            "udt_g292_orientable_screen_differential_character_descent_2026-08-28/EXACT_DERIVATION.md",
+            "ORIENTABLE_SCREEN_EULER_FLUX_DESCENDS_EXACTLY",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():

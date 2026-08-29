@@ -28,8 +28,11 @@ that current identities do not uniquely continue a shared prior metric; G287 con
 negates `delta_AB`, not the ambient profile. G288 freshly rebuilds the primary metric near an
 analytic even smooth center: the quadratic germ is zero-tide constant-curvature, while angular
 tide first enters through an independent quartic jet. G289/G290 make the old Hopfion conditional
-and split topology from history-sensitive screen holonomy. G291 finds integral-flux sectors but no
-continuous flux/history law. A supplied germ pulls
+and split topology from history-sensitive screen holonomy. G291's whiteboard lead is now closed by
+G292: on a supplied smooth oriented positive rank-two screen, Euler flux descends exactly and its
+integral sector persists under supplied smooth fixed-rank continuation. A global metric family has
+the same radial pair block and Euler class but different local screen-flux density, so this remains
+a sector classifier rather than a continuous flux/history law. A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
@@ -52,43 +55,19 @@ Compact route ledger:
 
 Current observational/history boundary:
 
-- G277/G278 attach a Cepheid/optical scale only through declared imports and remain
-  resolution-sensitive, not a unique scale or history.
-- G279 verifies `NATIVE_CORE_INTACT` and `DECLARED_IMPORT_BOUNDARY_INTACT`; W5 is not load-bearing
-  for G278, while transfer, basis, Cepheid, and normalization choices remain downstream imports.
-- G280 proves equal redshift/W5 state need not give equal Jacobi area or areal radius; direct
-  reciprocal redshift and the upstream angular orchestra survive.
-- G281 finds no tracked complete native SNe prediction: the old headline used a supplied cubic and
-  wrong one-factor transfer; P1 and G236/G237/G278 remain empirical/conditional controls.
-- G282 locates the missing joint-history information in neighboring curvature values, representable
-  as metric two-jet, coframe/connection, or global relation-network data.
-- G283 gives all three homes arbitrary smooth symmetric `T(u)`. Owned metric, Cartan/Bianchi,
-  screen, symplectic, composition, and reversal identities enforce compatibility but select no
-  values; external repair review accepted the bounded result. This selects no history, population,
-  equation, action, source, scale, observation, or `X_max`.
-- G284 shows that `c_E` fixes the local light-cone slope and neighboring cone curvature reconstructs
-  the same `T_ij` that drives Jacobi area. The causal/projective network therefore hears the tidal
-  history but still accepts arbitrary smooth `T(u)`; positive homothety also leaves the absolute
-  scale open. External repair review confirmed this bounded result.
-- G285 separates scalar, pair, complete germ, network, and value propagation. Equal `phi` with
-  different tide means different complete germs; the noncanon type regrade is externally accepted.
-- G286's externally accepted metric-native witnesses share the whole prior region and all null-join
-  jets but differ in future curvature. Current identities evaluate, not uniquely propagate, these
-  continuations. A stronger native UDT law remains possible and unselected.
-- G287 finds no kernel regression: profile sign and ordered-arrow sign were already
-  different types. G267's two `sech(delta)` ends are arrow-depth magnitude ends, not automatically
-  micro/cosmological profile regimes; the intended regime reading remains unpromoted.
-- G288 is externally accepted after repair-only review. At an analytic even smooth center, `c2`
-  controls leading clock/acceleration/curvature/geometric-`mu`, but cancels from angular tide;
-  angular/Weyl departure begins at independent `c4`. The exact center has `phi=0`. No Planck scale,
-  physical mass, global micro band, or history is selected.
-- G289 embeds the old Hopf texture after a supplied observer/frame; its target, action, boundary,
-  and raw charge remain conditional. Conformal twins retain it with different curvature. Fresh
-  external review accepted the bounded landing with four evidence repairs; repair-only follow-up
-  accepted all four with no defects and no scientific change.
-- G290's holonomy separates flat/nonflat twins and obeys flux transgression while admitting
-  histories. G291 finds Euler-flux sectors, but same-sector
-  curvature remains free; exact descent is pending.
+- G277/G278 use declared, resolution-sensitive Cepheid/optical imports. G279 preserves the native
+  core/import boundary. G280 separates redshift/W5 state from Jacobi area; G281 finds no tracked
+  native SNe prediction, while P1 and G116/G189 remain controls.
+- G282/G283 locate arbitrary neighboring tidal values; identities do not select them. G284 shows
+  `c_E` fixes cone slope and cones reconstruct tide, still without selecting tide or homothety.
+- G285 separates scalar, pair, germ, network, and propagation. G286's same-prior/all-join-jet twins
+  have different futures. G287 separates profile sign from arrow sign; no kernel changed.
+- G288 derives partial center interlock: `c2` controls clock/acceleration/curvature/geometric-`mu`,
+  while angular/Weyl tide begins at independent `c4`; no mass, Planck scale, or history follows.
+- G289 keeps the Hopf texture conditional and nonselective after accepted repairs. G290 derives
+  supplied holonomy/flux transgression. G291's lead becomes G292's accepted theorem: oriented total
+  Euler flux is topological, but same-pair-block, same-class metrics have different local flux.
+  G225 sky and G290 pair screens require supplied bundle identification.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -116,8 +95,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Run preregistered G292 orientable differential-character descent and global metric witness; stop
-before new dynamics. Keep G288's general
-`A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
-work, or solve precedes an explicit premise ledger.
+PONDER with Charles before opening G293: decide whether the next bounded lane is a native continuous
+flux/history propagation candidate or omitted nonorientable, rank-loss, singular, and topology-change
+strata. Keep G288's general `A(r),B(r)` control queued. No action, source, mass, observation, Planck
+scale, `X_max`, protected work, ODE/PDE, or solve precedes a fresh map and explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

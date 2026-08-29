@@ -10,19 +10,14 @@ G166--G276 is the structural spine; G277--G281 control observations; G282--G284 
 history/Jacobi value gap; G285 retypes equal-scalar/different-tide cases as different complete
 separation germs; G286 proves the current identity/evaluator layer does not uniquely continue a
 whole shared prior metric, even with every join jet fixed. G287 externally confirms that pair
-reversal flips directed `delta`, not the ambient profile; no kernel formula changed. G288 then
-rebuilds the current primary metric from scratch near an analytic even smooth center. Its quadratic
-negative-profile germ is exact zero-tide constant-curvature; angular tide begins at independent
-quartic order. External repair-only review accepted the bounded result with no defects.
-G289 then finds the older static Hopfion locally compatible with the metric's null-direction sphere,
-but its fixed round target, action, boundary, and raw component charge remain conditional/frame
-dependent. Exact conformal twins carry the same texture with different curvature, so it selects no
-history. Fresh external review accepted that bounded landing with four evidence repairs. All four
-repairs are externally accepted with no defects and no change to the bounded landing.
-G290 separates topology, holonomy, and selection. Its supplied screen connection distinguishes
-flat/nonflat twins and obeys time-live flux transgression, but remains evaluative; external review
-accepts it. G291's three-agent whiteboard finds conditional integral Euler-flux sectors and smooth
-sector persistence, while continuous same-sector curvature and complete history remain open.
+reversal flips directed `delta`, not the ambient profile; no kernel changed. G288 rebuilds the
+analytic even smooth center: its quadratic germ is zero-tide constant-curvature, while angular tide
+begins independently at quartic order. G289 keeps the old Hopfion conditional/frame-dependent;
+conformal twins carry it with different curvature. G290 derives supplied screen holonomy and flux
+transgression. G291's three-agent lead is closed by G292 for supplied smooth oriented positive
+rank-two screens: total Euler flux persists, but a global same-pair-block, same-class metric family
+changes local flux. G225 sky and G290 pair screens require supplied bundle identification. External
+reviews accept these bounded results and G292's four repairs without scientific change.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -71,9 +66,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: run preregistered G292 orientable differential-character descent and global metric witness;
-stop before new dynamics. Keep G288's
-general `A(r),B(r)`
-control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
+Next: ponder with Charles before opening G293. Choose between a native continuous flux/history
+propagation candidate and the omitted nonorientable, rank-loss, singular, or topology-change strata.
+Keep G288's general `A(r),B(r)` control queued. No action, source, physical mass, observation, Planck
+scale, `X_max`, ODE/PDE, or solve may be inserted without a fresh map and premise ledger.
 
 <!-- STARTUP_CURRENT_END -->

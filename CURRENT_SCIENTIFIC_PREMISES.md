@@ -86,7 +86,7 @@
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
 | G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
-| G288--G290 | external | Center/Hopf/holonomy accepted |
+| G288--G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -105,11 +105,11 @@ None selects completion/`X_max`.
 ## Geometry, query, and causality
 
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  G282--G284 locate but do not select neighboring curvature. G285 retypes tide as part of complete
-  separation; G286 shows current identities do not uniquely propagate the tested shared prior.
-  G287 separates signs; G288 derives center interlock; G289 repairs are externally accepted.
-  G290 derives screen holonomy/transgression on supplied carry, not selection. Scale, mass, and
-  history remain open.
+  G282--G284 do not select neighboring curvature. G285 puts tide in complete separation; G286
+  shows identities do not uniquely propagate the shared prior. G287 separates signs; G288 derives
+  center interlock; G289 is externally accepted.
+  G290 derives supplied screen holonomy/transgression. G292 makes G291's orientable fixed-rank
+  Euler-flux lead exact; same-sector local flux, scale, mass, and history remain free.
 
 ## Carrier, action, source, and matter
 
@@ -127,5 +127,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 274-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 275-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
