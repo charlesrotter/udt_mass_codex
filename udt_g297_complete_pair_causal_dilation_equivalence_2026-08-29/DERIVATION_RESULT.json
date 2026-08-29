@@ -1,0 +1,71 @@
+{
+  "landing_candidate": "OWNER_CLARIFICATION_IS_SUBSTANTIVE_BUT_THE_TWO_LEG_COMPLETE_TRANSFER_REMAINS_UNDERDEFINED__NO_UNIQUE_NONIDENTITY_FORM_YET",
+  "check_count": 125,
+  "all_pass": true,
+  "static_naive_scalar_countermodels": [
+    {
+      "p": "2",
+      "R_A_from_B": "2",
+      "R_B_from_A": "1/2",
+      "M_PT": "4/5"
+    },
+    {
+      "p": "3/2",
+      "R_A_from_B": "3/2",
+      "R_B_from_A": "2/3",
+      "M_PT": "12/13"
+    },
+    {
+      "p": "5/4",
+      "R_A_from_B": "5/4",
+      "R_B_from_A": "4/5",
+      "M_PT": "40/41"
+    },
+    {
+      "p": "7/3",
+      "R_A_from_B": "7/3",
+      "R_B_from_A": "3/7",
+      "M_PT": "21/29"
+    }
+  ],
+  "tidal_hessian_examples": [
+    [
+      [
+        "2",
+        "3"
+      ],
+      [
+        "3",
+        "5"
+      ]
+    ],
+    [
+      [
+        "-1",
+        "4"
+      ],
+      [
+        "4",
+        "7"
+      ]
+    ],
+    [
+      [
+        "0",
+        "-2"
+      ],
+      [
+        "-2",
+        "9"
+      ]
+    ]
+  ],
+  "qualifications": [
+    "radar midpoint conditionally selects only the causal clock-correspondence component",
+    "the map from a two-leg causal family to a rank-two complete pair germ remains open",
+    "a full directional null-delay family is required before complete screen/tidal reconstruction",
+    "W1 evaluates every regular selected pullback and is not itself a metric-history residual",
+    "no global history, branch population, scale, field equation, or X_max is selected"
+  ],
+  "load_bearing_complete_transfer_verified": false
+}
