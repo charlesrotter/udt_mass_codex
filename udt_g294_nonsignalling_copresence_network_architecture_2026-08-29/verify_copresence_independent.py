@@ -69,19 +69,22 @@ def main() -> None:
     # Exact rational curvature counterfamily on the same t-slicing.
     for a_num in range(1, 12):
         amp = Fraction(a_num, 20)
-        for r_num in range(1, 81):
-            radius = Fraction(r_num, 17)
-            rr = radius * radius
-            denom = 1 + rr
-            f = 1 + amp * rr / denom
-            fp = 2 * amp * radius / (denom * denom)
-            fpp = 2 * amp * (1 - 3 * rr) / (denom**3)
-            curvature = -fpp - 4 * fp / radius + 2 * (1 - f) / rr
-            expected = -2 * amp * (6 + 3 * rr + rr * rr) / (denom**3)
-            check(f > 0, "positive metric profile")
-            check(curvature == expected, "curvature identity")
-            check(curvature != 0, "inequivalent to flat")
-            check(-f + (f * f) / f == 0, "radial null cone")
+        for ell_num in range(1, 5):
+            scale = Fraction(ell_num, 3)
+            ll = scale * scale
+            for r_num in range(1, 41):
+                radius = Fraction(r_num, 17)
+                rr = radius * radius
+                denom = ll + rr
+                f = 1 + amp * rr / denom
+                fp = 2 * amp * radius * ll / (denom * denom)
+                fpp = 2 * amp * ll * (ll - 3 * rr) / (denom**3)
+                curvature = -fpp - 4 * fp / radius + 2 * (1 - f) / rr
+                expected = -2 * amp * (6 * ll * ll + 3 * ll * rr + rr * rr) / (denom**3)
+                check(f > 0, "positive metric profile")
+                check(curvature == expected, "curvature identity")
+                check(curvature != 0, "inequivalent to flat")
+                check(-f + (f * f) / f == 0, "radial null cone")
 
     result = {
         "all_pass": True,

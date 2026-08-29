@@ -14,8 +14,8 @@ LANDING = (
     "COPRESENCE_IS_COHERENT_AS_NONPROPAGATING_RELATION_NOT_SIGNAL_SPEED__"
     "POSITIVE_PAIR_MAGNITUDE_AND_ORIENTED_DEPTH_ARE_COMPATIBLE__"
     "GLOBAL_CORRELATION_CAN_COEXIST_WITH_CAUSAL_RESPONSE_SUPPORT__"
-    "SYMMETRIC_PAIR_RELATION_DOES_NOT_DERIVE_GLOBAL_NOW__"
-    "GLOBAL_FOLIATION_REQUIRES_ADDITIONAL_INTEGRABLE_TIMELIKE_STRUCTURE__"
+    "PAIR_RELATIVE_COPRESENCE_GRAPH_DOES_NOT_DERIVE_GLOBAL_NOW__"
+    "PHYSICAL_GLOBAL_NOW_REQUIRES_OWNED_INTEGRABLE_TIMELIKE_STRUCTURE__"
     "CE_ALONE_DOES_NOT_ATTACH_DEPTH_TO_LENGTH__"
     "CURRENT_COPRESENCE_SEMANTICS_DO_NOT_SELECT_HISTORY__"
     "COMPLETE_NETWORK_CONSTRAINT_PLUS_CAUSAL_UPDATE_IS_A_WELL_TYPED_MISSING_LAW_ARCHITECTURE"
@@ -131,31 +131,35 @@ def main() -> None:
     )
 
     # T5: same supplied co-presence foliation, inequivalent regular metric profiles.
-    r, a, c_e = sp.symbols("r a c_E", positive=True)
-    f = 1 + a * r**2 / (1 + r**2)
+    r, a, ell, c_e = sp.symbols("r a ell c_E", positive=True)
+    f = 1 + a * r**2 / (ell**2 + r**2)
     phi = -sp.log(f) / 2
     exact("primary_metric_profile_identity", sp.exp(-2 * phi), f)
     f_p = sp.diff(f, r)
     f_pp = sp.diff(f, r, 2)
     scalar_curvature = sp.simplify(-f_pp - 4 * f_p / r + 2 * (1 - f) / r**2)
-    expected_curvature = -2 * a * (6 + 3 * r**2 + r**4) / (1 + r**2) ** 3
+    expected_curvature = -2 * a * (6 * ell**4 + 3 * ell**2 * r**2 + r**4) / (ell**2 + r**2) ** 3
     exact("primary_metric_scalar_curvature", scalar_curvature, expected_curvature)
     exact("flat_profile_curvature", scalar_curvature.subs(a, 0), 0)
-    exact("deformed_profile_center_curvature", sp.limit(scalar_curvature, r, 0), -12 * a)
-    exact("co_presence_normal_timelike_control", (-1 / f).subs({a: sp.Rational(1, 4), r: 1}), sp.Rational(-8, 9))
+    exact("deformed_profile_center_curvature", sp.limit(scalar_curvature, r, 0), -12 * a / ell**2)
+    exact(
+        "co_presence_normal_timelike_control",
+        (-1 / f).subs({a: sp.Rational(1, 4), ell: 1, r: 1}),
+        sp.Rational(-8, 9),
+    )
     null_slope = c_e * f
     radial_null_form = -f * c_e**2 + null_slope**2 / f
     exact("metric_null_cone_radial", radial_null_form, 0)
     boolean(
         "regular_positive_counterfamily",
-        f.subs({a: sp.Rational(1, 4), r: 1}) > 0
-        and scalar_curvature.subs({a: sp.Rational(1, 4), r: 1}) != 0,
-        "f=9/8 and R differs from flat on the shared t-slicing",
+        f.subs({a: sp.Rational(1, 4), ell: 1, r: 1}) > 0
+        and scalar_curvature.subs({a: sp.Rational(1, 4), ell: 1, r: 1}) != 0,
+        "f=9/8 and R differs from flat on the shared t-slicing at ell=1",
     )
 
     architecture = [
         {
-            "class": "PAIR_RELATIVE_RELATION",
+            "class": "PAIR_RELATIVE_COPRESENCE_GRAPH",
             "coherent": True,
             "global_now": False,
             "history_selection": False,
@@ -166,7 +170,7 @@ def main() -> None:
             "coherent": True,
             "global_now": True,
             "history_selection": False,
-            "status": "REQUIRES_ADDITIONAL_INTEGRABLE_TIMELIKE_STRUCTURE",
+            "status": "REQUIRES_OWNED_INTEGRABLE_TIMELIKE_STRUCTURE",
         },
         {
             "class": "GLOBAL_CONSTRAINT_PLUS_CAUSAL_UPDATE",
