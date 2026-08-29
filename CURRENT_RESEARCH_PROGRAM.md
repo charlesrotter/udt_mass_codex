@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 279-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 280-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -50,51 +50,36 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   native provenance, direct redshift, Jacobi area, and no complete native SNe prediction.
 - G282/G283/G284/G285/G286/G287 locate neighboring tide, complete separation, nonunique propagation,
   and pair-arrow/profile-sign typing; no kernel formula changed.
-- G288 distrusts the old audits and rebuilds the primary metric connection, curvature, nonradial
-  screen, acceleration, geometric mass aspect, and null normalization. In an analytic even smooth
-  center, `c2` gives the zero-tide constant-curvature leading germ; angular/Weyl departure begins at
-  independent `c4`. External repair-only review accepted the bounded result with no defects.
-- G289 freshly tests the conditional static Hopfion against the current kernel. Its unit vector
-  embeds locally as a null direction after an observer/frame is supplied, but the fixed round target,
-  action, boundary, and raw component charge do not descend through full frame gauge. Conformal
-  history twins retain the texture with different curvature. Fresh external review accepts this
-  bounded landing; repair-only follow-up accepts all four repairs with no defects or scientific change.
-- G290 first proves the bounded connected-family obstruction: pure topology cannot distinguish the
-  smooth conformal twins. Its separately preregistered exact follow-through locally derives the
-  supplied complete-pair screen connection, closed-loop gauge descent, small-loop curvature,
-  conformal-twin separation, and time-live curvature-flux transgression. On orientable screens,
-  orientation-forgetting `O(2)` retains inverse/conjugacy rotation data; genuinely nonorientable
-  reflection holonomy remains open. Arbitrary smooth histories still pass, so the result remains
-  evaluative. Fresh external review accepts the bounded result without defects.
-- G291's preregistered three-agent whiteboard finds a conditional discrete skeleton. G292 makes its
-  orientable fixed-rank content exact: a supplied metric screen connection has integral Euler flux,
-  and supplied smooth continuation preserves the class. G225 sky and G290 pair connections require
-  a supplied orientation-preserving bundle identification. One global metric family keeps the same
-  radial pair block and Euler class while changing local flux, so topology classifies sectors but
-  does not propagate continuous values or select a history. External review accepts the bounded
-  theorem after four evidence and scope repairs.
-- G293 tests the two simplest hidden-propagation routes without adopting a law. On a supplied
-  additive parameter, continuous homogeneous scalar depth is exactly `delta=ks` and
-  `chi=tanh(ks)`, while `k` rescales with that supplied parameter. Endpoint composition alone does
-  not provide homogeneity. Signed linear depth can pass through a quiet middle, so this result does
-  not reject the loud--quiet--loud regime picture. A lawful time-live fixed-Euler connection retains
-  arbitrary same-sector local flux through its mandatory mixed term. G259's strict conditional
-  metric class is inherited, not widened. The remaining candidate architectures are partitioned by
-  primitive state and data dependence (`M2`, `MN`, `A`, `NL`) but no history law is selected.
-- G294 tests the owner's “foundational infinite c” intuition inside the `A/NL` bridge. It is
-  causally coherent as nonpropagating relational connectedness, not as a controllable signal speed.
-  Positive magnitude, signed depth, odd projective position, and an even planar mutual channel are
-  compatible; G269's complete screen-aware inequality remains controlling. A pair co-presence graph
-  is distinct from reciprocal comparison composition and does not derive global “now.” A physical
-  foliation needs an owned integrable timelike structure. Correlation can coexist with zero
-  same-slice response, while instantaneous global constraint re-enforcement after arbitrary local
-  intervention can signal. A dimensionful regular metric family proves that co-presence existence
-  does not select history. The narrowed missing object is a nonidentity complete-network constraint
-  plus metric-causal update, not a derived formula.
+- G288 freshly rebuilds the primary metric and center jets: `c2` is the zero-tide
+  constant-curvature germ; independent angular/Weyl tide first enters at `c4`. External repair-only
+  review accepted the bounded result.
+- G289 keeps the static Hopfion conditional: local null embedding survives, but its round target,
+  action, boundary, and raw charge do not descend through full frame gauge. Conformal twins retain
+  the texture with different curvature; external repairs were accepted.
+- G290 derives supplied screen holonomy, small-loop curvature, conformal-twin separation, and
+  time-live flux transgression. Arbitrary smooth histories still pass, so it remains evaluative;
+  external review accepted it.
+- G291 is a whiteboard lead; G292 makes orientable fixed-rank Euler flux exact. The same radial pair
+  block and Euler class allow different local flux, so topology classifies sectors without selecting
+  history. External repairs were accepted.
+- G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied additive parameter; `k` rescales, and
+  fixed Euler class leaves local flux free. The `M2/MN/A/NL` partition selects no law; G259 remains
+  conditional.
+- G294 types “foundational infinite c” as nonpropagating connectedness, not signal speed. Pair graph,
+  reciprocal groupoid, and physical foliation remain distinct; instantaneous global enforcement can
+  signal. The missing object is a nonidentity complete-network constraint plus metric-causal update.
 - G295 derives the bounded linear preservation theorem `AU=RA`, shows causal support is independent,
   and identifies one covariant complete-history condition as the least-foliation-dependent type.
   Constraint/update is its possible slice representation. This is not equation-count reduction;
   no formula, coefficients, lawful data, or realized history is selected.
+- G296 externally verifies after preregistered repairs that the complete metric is already a minimal
+  faithful primitive geometric state. A completed-pair network can reconstruct it without becoming
+  an additional independent field. For local metric-only natural value laws, curvature/second
+  metric derivative order is the first nonidentity home; this is an order boundary, not an
+  equation. A trace-free Brinkmann screen wave retains nonzero Riemann curvature while Ricci,
+  Einstein, and the three tested scalar channels vanish. The tested scalar-only lane is therefore
+  incomplete, while G259's strict second-order symmetric divergence-free rank-two class remains a
+  conditional fork rather than derived UDT dynamics.
 
 ## Open boundary
 
@@ -106,6 +91,8 @@ history law. W6 adopts G294's non-signalling type only; no global present or res
 G295 regrades the target from one uniquely selected universe to a nonidentity well-posed solution
 family plus lawful data. The nonlinear residual, coefficients, screen propagation, data, scale,
 mass, population, and our realized history remain open. This is not a no-go against a native law.
+G296 removes the need to posit an extra primitive geometric state and locates the first local native
+differential order, but it selects no residual formula or data.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -113,6 +100,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Inspect current complete metric/network objects for a lowest-rank natural nonidentity covariant
-history residual. First map full state, causal support, data, quiet GR limit, G286 discriminator,
-and screen propagation. No action, source, mass, observation, `X_max`, or solve precedes that map.
+Determine whether UDT natively justifies the strict G259 local second-order symmetric
+divergence-free rank-two class or which assumption must be relaxed: higher differential order,
+independently augmented state, or irreducibly global/nonlocal history law. Map premises, causal
+support, data, quiet GR limit, G286 treatment, and screen propagation before derivation. No action,
+source, mass, observation, `X_max`, or solve enters.

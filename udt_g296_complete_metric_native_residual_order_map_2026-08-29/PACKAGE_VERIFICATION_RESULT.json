@@ -1,0 +1,13 @@
+{
+  "all_pass": true,
+  "blind_review_verdict": "G296_ACCEPT_WITH_REPAIRS",
+  "hostile_catches": 13,
+  "independent_assertions": 3080,
+  "independent_cases": 128,
+  "landing": "COMPLETE_METRIC_IS_A_MINIMAL_FAITHFUL_PRIMITIVE_STATE__SECOND_METRIC_DERIVATIVE_ORDER_IS_THE_FIRST_LOCAL_NATURAL_NONIDENTITY_HOME__CURRENT_PREMISES_DO_NOT_PRIVILEGE_ONE_RESIDUAL_FORM",
+  "preregistration_ancestry_verified": true,
+  "production_checks": 32,
+  "repair_followup_outstanding": false,
+  "repair_followup_verdict": "G296_REPAIRS_VERIFIED__BOUNDED_SCIENTIFIC_LANDING_RETAINED",
+  "source_rows": 16
+}

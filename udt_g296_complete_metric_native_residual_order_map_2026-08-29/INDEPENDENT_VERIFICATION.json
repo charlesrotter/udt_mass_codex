@@ -1,0 +1,18 @@
+{
+  "active_tracefree_cases": 128,
+  "all_pass": true,
+  "assertions": 3080,
+  "cases": 128,
+  "gates": {
+    "Lovelock_hypotheses_are_conditional": true,
+    "coframe_gauge_count": true,
+    "different_lawful_data_need_not_be_rejected": true,
+    "first_order_Cartan_requires_classifying_law": true,
+    "metric_physical_count": true,
+    "no_residual_formula_selected": true,
+    "rank_two_identity_count": true,
+    "tracefree_wave_is_scalar_invisible": true
+  },
+  "imports_production": false,
+  "reads_production_output": false
+}

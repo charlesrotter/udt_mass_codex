@@ -49,6 +49,7 @@
 | G293 architecture funnel | internal multi-agent/caveats | Scalar homogeneous flow is uncalibrated; Euler sector leaves local flux free; law unselected |
 | G294 co-presence architecture | internal independent/caveats | Connectedness can be nonpropagating; causal update remains missing |
 | G295 causal-history classification | internal independent/caveats | One covariant law type; sliced `AU=RA`; formula/history open |
+| G296 complete-metric residual-order map | external/repairs accepted | Complete metric is a minimal faithful primitive state; curvature order is first local natural nonidentity home; formula/history open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -83,6 +84,11 @@ None selects completion/`X_max`.
   missing architecture is a nonidentity complete-network constraint plus causal update; W6 adopts
   only the non-signalling type. G295 shows the pair may be one covariant history condition split by
   a slicing; `AU=RA` controls bounded linear propagation. No formula or realized history follows.
+  G296 then shows that the complete metric already supplies a minimal faithful primitive geometric
+  state and that a local metric-natural nonidentity law first has content at curvature/second metric
+  derivative order. This order boundary is not a law. Its trace-free Brinkmann witness defeats only
+  the tested scalar-curvature/Ricci-square/Kretschmann lane; nonscalar Riemann information survives.
+  G259's stricter rank-two divergence-free class remains conditional.
 
 ## Carrier, action, source, and matter
 
@@ -100,5 +106,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 279-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 280-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

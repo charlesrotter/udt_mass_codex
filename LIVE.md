@@ -56,6 +56,13 @@ condition whose split is slicing-dependent. For full-row-rank linear controls, p
 exactly `AU=RA`; causality is an independent support gate. This is type simplification, not fewer
 independent equations. Current structure selects no formula or realized history; one lawful family
 still admits distinct initial/boundary data.
+G296 externally verifies after repairs that the complete metric is already a minimal faithful
+primitive state; completed-pair networks reconstruct it without becoming new fields. Local
+metric-natural nonidentity laws first have content at curvature/second-derivative order—an order
+boundary, not an equation. An exact trace-free Brinkmann wave has nonzero Riemann curvature with
+zero Ricci, Einstein, and three tested scalars, so only that tested scalar lane is incomplete. G259's
+rank-two divergence-free class remains conditional; residual formula, lawful data, and realized
+history remain open.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -70,7 +77,7 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296.
 The first group retains declared optical imports and no native SNe prediction. The second locates
 the open tide/history propagation. The third derives center, screen/topology, architecture, and
 co-presence constraints without changing the metric or kernel or selecting history.
@@ -101,9 +108,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G295 leaves one bounded target: inspect current complete metric/network objects for a lowest-rank
-diffeomorphism- and screen-gauge-natural nonidentity whole-history residual. Before any derivation,
-map its complete state, causal principal support, data burden, quiet GR limit, G286 discriminator,
-and screen propagation. No observation, action, source, matter, scale, `X_max`, protected work, or
-solve enters before that map.
+G296 leaves an explicit bounded decision, not another blind residual search: determine whether UDT
+can natively justify G259's conservative local second-order symmetric divergence-free rank-two
+class, or identify exactly which class assumption must be relaxed—higher differential order,
+independently augmented state, or irreducibly global/nonlocal history law. Map the competing
+premises, causal/data burden, quiet GR limit, G286 treatment, and screen propagation before any
+derivation. No observation, action, source, matter, scale, `X_max`, protected work, or solve enters.
 <!-- STARTUP_CURRENT_END -->

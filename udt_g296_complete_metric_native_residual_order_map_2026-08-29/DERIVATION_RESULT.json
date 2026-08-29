@@ -1,0 +1,104 @@
+{
+  "all_pass": true,
+  "architectures": [
+    {
+      "extra_primitive_state": false,
+      "faithful": true,
+      "home": "complete_metric",
+      "status": "minimal faithful primitive candidate"
+    },
+    {
+      "extra_primitive_state": false,
+      "faithful": false,
+      "home": "scalar_curvature_residual",
+      "status": "tested scalar-only lane misses trace-free screen state"
+    },
+    {
+      "extra_primitive_state": false,
+      "faithful": "conditional",
+      "home": "strict_G259_rank_two_order_two",
+      "status": "Einstein zero set only after unowned class assumptions"
+    },
+    {
+      "extra_primitive_state": "only if independently propagated",
+      "faithful": true,
+      "home": "coframe_connection_curvature_first_order",
+      "status": "representation change until classifying law supplied"
+    },
+    {
+      "extra_primitive_state": "not forced",
+      "faithful": "when rank complete and populated",
+      "home": "global_completed_relation_network",
+      "status": "possible global home; causal and data burden open"
+    }
+  ],
+  "check_count": 32,
+  "checks": {
+    "Cartan_first_order_needs_classifying_law": true,
+    "Einstein_lane_admits_distinct_tracefree_data": true,
+    "Lovelock_class_is_conditional": true,
+    "R_uxux_equals_a": true,
+    "R_uxuy_equals_b": true,
+    "R_uyuy_equals_c": true,
+    "W4_does_not_supply_residual": true,
+    "W6_does_not_supply_order_or_rank": true,
+    "coframe_minus_Lorentz_gauge_is_ten": true,
+    "completed_network_rank_ten_source_owned": true,
+    "curvature_is_second_order": true,
+    "inverse_exact": true,
+    "kretschmann_zero": true,
+    "metric_determinant_minus_one": true,
+    "network_representation_needs_population": true,
+    "no_formula_selected": true,
+    "normal_coordinate_first_order_boundary": true,
+    "only_ricci_uu_nonzero": true,
+    "quiet_GR_requires_full_sphere": true,
+    "ricci_square_zero": true,
+    "ricci_uu_is_trace": true,
+    "scalar_curvature_zero": true,
+    "scalar_lane_misses_tracefree_screen": true,
+    "symmetric_metric_minus_diffeomorphism_is_six": true,
+    "symmetric_rank_two_minus_Bianchi_is_six": true,
+    "tracefree_K_zero": true,
+    "tracefree_R_zero": true,
+    "tracefree_Ricci2_zero": true,
+    "tracefree_cross_screen_curvature": true,
+    "tracefree_einstein_zero": true,
+    "tracefree_nonzero_screen_curvature": true,
+    "tracefree_ricci_zero": true
+  },
+  "independent_backend": "separate_pointwise_fraction_tensor_reconstruction",
+  "kretschmann": "0",
+  "landing": "COMPLETE_METRIC_IS_A_MINIMAL_FAITHFUL_PRIMITIVE_STATE__SECOND_METRIC_DERIVATIVE_ORDER_IS_THE_FIRST_LOCAL_NATURAL_NONIDENTITY_HOME__CURRENT_PREMISES_DO_NOT_PRIVILEGE_ONE_RESIDUAL_FORM",
+  "maximum_conclusion": "The complete metric is a minimal faithful primitive candidate and second metric derivative order is the first local natural nonidentity home. Current UDT premises do not select a residual formula or the strict G259 class.",
+  "nonzero_riemann_components": 16,
+  "production_backend": "stdlib_sparse_exact_polynomial_ring",
+  "ricci": [
+    [
+      "a + c",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "ricci_square": "0",
+  "scalar_curvature": "0"
+}

@@ -18,6 +18,12 @@ G295 derives the bounded compatibility condition `AU=RA`, separates causal suppo
 propagation, and retypes constraint/update as a possible slice representation of one covariant
 history condition. It is type simplification, not fewer equations; formula and realized history
 remain open.
+G296 establishes the next bounded order/type result after external repair-only acceptance: the
+complete metric is already a minimal faithful primitive state, and curvature/second metric
+derivative order is the first local metric-natural nonidentity home. This is not an equation. The
+exact trace-free Brinkmann witness defeats only the three tested scalar channels while retaining
+nonscalar Riemann information. G259's second-order symmetric divergence-free rank-two class remains
+conditional; no residual form, lawful data, or realized history is selected.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -53,8 +59,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: inspect complete metric/network objects for a lowest-rank natural nonidentity whole-history
-residual. Map full state, causal support, data, quiet GR limit, G286 discriminator, and screen
-propagation first. No action, source, mass, observation, Planck scale, `X_max`, or solve precedes it.
+Next: decide whether UDT natively justifies the strict G259 local second-order symmetric
+divergence-free rank-two class or which assumption must be relaxed. Map the alternatives, causal
+support, data, quiet GR limit, G286 treatment, and screen propagation first. No action, source,
+mass, observation, Planck scale, `X_max`, or solve precedes it.
 
 <!-- STARTUP_CURRENT_END -->

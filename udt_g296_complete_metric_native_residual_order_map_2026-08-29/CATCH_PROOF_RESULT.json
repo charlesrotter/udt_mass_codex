@@ -1,0 +1,58 @@
+{
+  "all_pass": true,
+  "catch_count": 13,
+  "mutations": [
+    {
+      "caught": true,
+      "name": "wrong landing"
+    },
+    {
+      "caught": true,
+      "name": "production false pass"
+    },
+    {
+      "caught": true,
+      "name": "independent false pass"
+    },
+    {
+      "caught": true,
+      "name": "erase screen curvature"
+    },
+    {
+      "caught": true,
+      "name": "claim nonzero Einstein residual"
+    },
+    {
+      "caught": true,
+      "name": "promote scalar to complete screen law"
+    },
+    {
+      "caught": true,
+      "name": "promote Lovelock class to founded"
+    },
+    {
+      "caught": true,
+      "name": "claim W6 fixes order and rank"
+    },
+    {
+      "caught": true,
+      "name": "select a formula"
+    },
+    {
+      "caught": true,
+      "name": "demand rejection of all distinct data"
+    },
+    {
+      "caught": true,
+      "name": "claim Cartan selects without classifying law"
+    },
+    {
+      "caught": true,
+      "name": "independent imports production"
+    },
+    {
+      "caught": true,
+      "name": "independent reads production output"
+    }
+  ]
+}
