@@ -36,7 +36,7 @@ def main() -> None:
         ("co-presence slicing called history selection", "primary_metric_scalar_curvature" in check_names and "copresence_selects_history\tNOT_DERIVED" in ledger),
         ("candidate architecture called derived formula", "WELL_TYPED_MISSING_LAW_ARCHITECTURE_NOT_FORMULA" in json.dumps(production["architecture"])),
         ("received starlight called proven co-present readout", "distant_star_image_is_copresent_state\tOPEN" in ledger),
-        ("literal instantaneous response retained", "REJECTED_BY_NO-SIGNALLING_GATE" in architecture.upper()),
+        ("literal instantaneous response retained", "REJECTED BY NO-SIGNALLING GATE" in architecture.upper()),
     ]
 
     rendered = [

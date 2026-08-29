@@ -69,3 +69,9 @@ for the word `strict` in prose rather than the `active_screen_strict_gap` produc
 instant-response catch compared an uppercase token to the lowercase architecture table. Bind the
 first to the exact check name and normalize table case for the second. No scientific claim, count,
 scope, or landing changes.
+
+## R6 — TSV separator token
+
+The R5 rerun caught the screen promotion but stopped on the final catch because the assertion still
+used underscore-separated status while `ARCHITECTURE_LATTICE.tsv` records ordinary spaces. Match the
+exact uppercase phrase `REJECTED BY NO-SIGNALLING GATE`. No scientific content changes.
