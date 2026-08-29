@@ -11,7 +11,7 @@ import tempfile
 
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
+ROOT = Path(os.environ.get("G297_SOURCE_ROOT", str(HERE.parent))).resolve()
 
 
 def verifier_rejects(mutator):

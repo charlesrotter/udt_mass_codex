@@ -63,17 +63,11 @@ def main():
         assertions += 2
         cases += 1
 
-    saved_path = Path(__file__).with_name("DERIVATION_RESULT.json")
-    saved = json.loads(saved_path.read_text(encoding="utf-8"))
-    assert saved["all_pass"] is True
-    assert saved["check_count"] >= 80
-    assertions += 2
-
     result = {
         "all_pass": True,
         "cases": cases,
         "assertions": assertions,
-        "method": "independent exact-rational randomized reconstruction; no production import",
+        "method": "independent exact-rational randomized reconstruction; reads no production code or output",
     }
     Path(__file__).with_name("INDEPENDENT_VERIFICATION.json").write_text(
         json.dumps(result, indent=2) + "\n", encoding="utf-8"

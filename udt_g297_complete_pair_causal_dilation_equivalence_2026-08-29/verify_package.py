@@ -72,7 +72,7 @@ def main():
     )
     if expected_production.get("landing_candidate") != expected_landing:
         raise AssertionError("saved landing does not match frozen candidate 2")
-    if not expected_independent.get("all_pass") or expected_independent.get("assertions") != 50002:
+    if not expected_independent.get("all_pass") or expected_independent.get("assertions") != 50000:
         raise AssertionError("saved independent envelope invalid")
 
     with tempfile.TemporaryDirectory(prefix="g297_verify_") as temp_name:

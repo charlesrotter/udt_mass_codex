@@ -10,6 +10,7 @@ S8	query/germ nonidentity theorem	NOT_YET_DERIVED	scalar query differences do no
 S9	W1 after a causal clock-protocol choice	EVALUATOR_NOT_HISTORY_RESIDUAL	passes every regular supplied pullback by completed-coordinate construction
 S10	G284 tidal Hessian reconstruction	DERIVED_CONDITIONAL_BOUNDED_FAMILY	not a general transfer theorem
 S11	absolute scale route population complete history field equation Xmax	OPEN	outside G297 scope
-S12	internal algebra verification	PASS	125 production controls 20000 independent cases 50002 assertions 5 hostile catches
+S12	internal algebra verification	PASS	125 production controls 20000 independent cases 50000 assertions 5 hostile catches
 S13	three-role whiteboard review	REQUIRES_REGRADE_APPLIED	all identified the missing complete transfer
-S14	fresh external review	PENDING	not yet transmitted
+S14	fresh external review	PASS_WITH_REPAIRS_REQUIRED	bounded landing survived; independence B-centered derivation and replay contract required repair
+S15	external repair-only follow-up	PENDING	requires a fresh sealed repaired intake and explicit transmission authorization

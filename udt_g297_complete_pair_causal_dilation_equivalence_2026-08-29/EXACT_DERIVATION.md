@@ -55,6 +55,37 @@ The B-centered causal diamond is a distinct construction. Genuine mutuality requ
 A-centered and B-centered diamonds; one A-emission/A-return experiment is two-legged but not
 observer-reversal complete.
 
+Explicitly, for a target event `A(a)`, let `b_-(a)` be the B-clock time of a declared future-null
+emission from `B` to `A`, and let `b_+(a)` be the B-clock reception time after the declared return
+leg from `A` to `B`. Then
+
+\[
+\tau_B^{\rm rad}(a)=\frac{b_-(a)+b_+(a)}2,
+\qquad
+\rho_B^{\rm rad}(a)=\frac{c_E}{2}\bigl(b_+(a)-b_-(a)\bigr),
+\]
+
+and therefore
+
+\[
+\boxed{
+R_{B\leftarrow A}
+=\frac{da}{d\tau_B^{\rm rad}}
+=\frac{2}{b_-'(a)+b_+'(a)}.
+}
+\]
+
+If `s_-=da/db_-` is the physical B-to-A outgoing null-arrow slope and `s_+=db_+/da` is
+the physical A-to-B return-arrow slope, this is equivalently
+
+\[
+\boxed{R_{B\leftarrow A}=\frac{2}{s_-^{-1}+s_+}.}
+\]
+
+This is the observer-reversed construction, not the algebraic inversion of either A-centered null
+leg. As on the A-centered side, it is conditional on the supplied observers and declared regular
+future-null route pair; it does not populate or select that route.
+
 The arithmetic midpoint is a useful single-clock convention on a causal diamond. It does not
 define W6 co-presence or a universal ontological “now.” Co-presence remains the nonpropagating
 whole-relation membership; causal diamonds are its observable metric probes.
@@ -259,7 +290,7 @@ general causal-diamond-to-pair-immersion theorem.
 
 - preregistered and pushed at commit `a26f72b9` before production outcome calculation;
 - 125 exact dependency-free algebraic controls;
-- 20,000 implementation-independent exact-rational cases and 50,002 assertions;
+- 20,000 implementation-independent exact-rational cases and 50,000 assertions;
 - five hostile artifact mutations caught;
 - reviewed by three independent whiteboard roles, all requiring the transfer regrade;
 - no observation, fit, source, matter, action, field equation, scale, `X_max`, or protected input.

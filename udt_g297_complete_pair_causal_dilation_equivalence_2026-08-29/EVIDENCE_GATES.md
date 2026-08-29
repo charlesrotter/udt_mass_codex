@@ -5,7 +5,7 @@
 2. **Bounded scope:** exact clock-first-germ algebra on regular two-leg controls, G269 transported
    screen algebra, W1 regular pair metrics, and the G284 directional delay-Hessian family. The
    causal-diamond-to-rank-two-germ transfer is explicitly not covered.
-3. **Independent implementation:** 20,000 exact-rational algebra cases and 50,002 assertions import
+3. **Independent implementation:** 20,000 exact-rational algebra cases and 50,000 assertions read
    neither production code nor production outputs; five hostile artifact mutations are rejected.
 4. **Premise audit:** the causal-dilation direction is owner-clarified but noncanon; W1/W4/W5/W6
    remain working; no observation, fit, source, matter, action, field equation, scale, `X_max`, or
@@ -16,10 +16,11 @@
 6. **Repository gates:** the 280-row startup/premise verifier exits successfully; the full suite
    reports `195 passed, 1 xfailed` with the documented matter-sector habit-pin xfail.
 
-Current grade ceiling before fresh external review:
+Current grade ceiling after fresh external review and before repair-only follow-up:
 
 ```text
 OWNER_CLARIFICATION_SUBSTANTIVE
 __TRANSFER_OPEN
 __INTERNAL_ALGEBRA_EXACT_AND_IMPLEMENTATION_INDEPENDENTLY_VERIFIED
+__EXTERNAL_LANDING_RETAINED_WITH_BOUNDED_REPAIRS_PENDING_FOLLOWUP
 ```

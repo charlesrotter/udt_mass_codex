@@ -1,6 +1,6 @@
 {
   "all_pass": true,
   "cases": 20000,
-  "assertions": 50002,
-  "method": "independent exact-rational randomized reconstruction; no production import"
+  "assertions": 50000,
+  "method": "independent exact-rational randomized reconstruction; reads no production code or output"
 }

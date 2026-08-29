@@ -45,11 +45,14 @@ signalling or a global universal now.
 - preregistered and pushed at `a26f72b9` before outcome calculation;
 - 15 frozen source hashes;
 - 125 dependency-free exact algebra controls;
-- 20,000 independent exact-rational cases and 50,002 assertions;
+- 20,000 independent exact-rational cases and 50,000 assertions;
 - five hostile mutations caught;
 - no-write package replay;
 - three-role hostile whiteboard review with the required regrade applied;
 - current premise verifier passed and the full repository suite returned `195 passed, 1 xfailed`;
+- fresh external adversarial review retained the bounded landing and required three evidence-boundary
+  repairs: full implementation independence, explicit general B-centered derivation, and a sealed
+  writable-copy replay contract;
 - no observation, fit, source, matter, action, field equation, scale, `X_max`, or protected input.
 
 ## Next gate
