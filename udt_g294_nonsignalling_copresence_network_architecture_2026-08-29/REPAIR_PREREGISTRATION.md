@@ -60,3 +60,12 @@ The symmetric nontransitive witness is a pair-relative graph/relation. Do not ca
 composable arrows in a groupoid would supply the composite arrow. G294 must keep co-presence
 adjacency distinct from the already-owned path-labelled reciprocal comparison composition unless a
 new compatibility rule relates them.
+
+## R5 — hostile-catch token matching
+
+The first hostile-catch run stopped before writing output because two mechanical assertions searched
+for prose/case variants instead of the exact registered evidence: the active-screen catch searched
+for the word `strict` in prose rather than the `active_screen_strict_gap` production check, and the
+instant-response catch compared an uppercase token to the lowercase architecture table. Bind the
+first to the exact check name and normalize table case for the second. No scientific claim, count,
+scope, or landing changes.
