@@ -41,30 +41,21 @@ additive parameter is supplied; `k` remains parameterization-dependent, and endp
 alone is weaker. Signed linear depth can cross a quiet middle, so the qualitative loud--quiet--loud
 structure remains viable. A lawful time-live fixed-Euler family still carries arbitrary local flux.
 The remaining architecture is narrowed by primitive state/data dependence but no law is selected.
-G294 then gives the owner's “foundational infinite c” intuition a coherent bounded type as
-nonpropagating relational connectedness, not signal speed. Positive pair magnitude and signed depth
-coexist; the planar even `sech` channel stays conditional and G269's screen-aware inequality controls
-the complete metric. Pair co-presence graph, reciprocal comparison groupoid, and physical foliation
-are distinct. A physical global “now” requires an owned integrable timelike structure. Correlation
-need not signal, but instantaneous global constraint enforcement after arbitrary local intervention
-can. An explicit dimensionful metric family shares one co-presence slicing while curvature varies.
-The narrowed missing object is a nonidentity complete-network constraint plus causal update; no
-formula, global present, response operator, observation map, or history is derived. W6 now adopts
-only G294's non-signalling type clarification provisionally.
-G295 then shows that the missing constraint and causal update can be one covariant complete-history
-condition whose split is slicing-dependent. For full-row-rank linear controls, preservation is
-exactly `AU=RA`; causality is an independent support gate. This is type simplification, not fewer
-independent equations. Current structure selects no formula or realized history; one lawful family
-still admits distinct initial/boundary data.
-G296 externally verifies after repairs that the complete metric is a minimal faithful primitive;
-local natural nonidentity content begins at curvature/second-derivative order, not an equation. A
-trace-free Brinkmann wave retains Riemann curvature while Ricci, Einstein, and three tested scalars
-vanish. The tested scalar lane is incomplete; G259's class, residual, data, and history remain open.
-G297 external repairs retain a substantive complete metric-causal clock-correspondence query.
-General A/B two-leg radar germs are conditional on supplied observers/routes. Quiet-flat planar
-equality with the transported mutual scalar is only a control; static lapse/screen refute scalar
-collapse. The set-valued causal-data-to-rank-two-germ map remains underdefined. W1 stays evaluative;
-history/population remain open.
+G294/W6 type “foundational infinite c” only as nonpropagating relational connectedness with
+metric-causal response: no signal speed, global now, constraint/update formula, or history follows.
+G295 permits one covariant history condition whose sliced linear control obeys `AU=RA`; causal
+support is independent, and neither formula nor realized data are selected. G296 externally places
+the first local metric-natural nonidentity content at curvature/second-derivative order, not at a
+specific equation; its Brinkmann witness also defeats the tested scalar-only lane. G297 externally
+derives conditional A/B radar clock germs, while static lapse/screen refute universal scalar
+collapse; W1 remains evaluative and the complete transfer was still underdefined there.
+G298 externally closes the next bounded local step after an exact type repair. A supplied regular
+directed null leg derives one complete path-labelled relation state. That state has at least two
+natural regular gauge-inequivalent projections to calibrated pair one-jets when screen carry is
+active; both return `Phi=-log r`, but target-local `J_L` forgets transported-source/path carry and
+is not equally complete. The metric therefore owns the richer state and its projections, while no
+unique physical transfer from that state to `G_2(g)` is currently owned. This is local projection
+nonuniqueness, not renewed generic history underdetermination, and it does not change the kernel.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -79,11 +70,11 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298.
 The first group retains declared optical imports and no native SNe prediction. The second locates
 the open tide/history propagation. The third derives center, screen/topology, architecture, and
-co-presence constraints and isolates the still-open causal-family-to-pair-germ transfer without
-changing the metric or kernel or selecting history.
+co-presence constraints, then factors the causal-family bridge through a complete relation state
+with nonunique rank-two projections, without changing the metric or kernel or selecting history.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -111,9 +102,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G297 makes the transfer bridge prior to residual selection. Preregister a bounded test of
-`C_g: D_g/G_D -> G_2(g)/G_F`. Define basepoint/tangents, reflection branching, rank/caustics,
-quotient descent, and multiple routes before computing. Keep transported frame/screen/Jacobi output
-out of the causal input. No observation, action, source, matter, scale, `X_max`, protected work, or
+G298 replaces the presumed direct transfer with
+`D_g/G_D -> R_g/G_R -> G_2(g)/G_F`. MAP and preregister a bounded ownership discriminator: does W5
+or another active premise uniquely privilege the transported-source projection, or should the
+physical kernel input remain the richer path-labelled relation state with rank-two germs treated as
+query projections? Do not invent a selector, use scalar equality to erase screen carry, or reopen
+the completed algebra. No observation, action, source, matter, scale, `X_max`, protected work, or
 history solve enters.
 <!-- STARTUP_CURRENT_END -->

@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 281-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 282-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -87,21 +87,26 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   active screen state refute the scalar collapse. The natural partial, generally set-valued transfer
   from causal-diamond/directional-delay families to regular rank-two calibrated pair germs remains
   underdefined. W1 remains an evaluator; history and population remain open.
+- G298 externally verifies after repair that each supplied regular directed null leg derives one
+  complete path-labelled state with multiple natural gauge-inequivalent rank-two projections on
+  the active-screen stratum. Both give `Phi=-log r`, but target-local `J_L` forgets path carry and
+  is not equally complete. No unique physical projection is owned; metric and kernel are unchanged.
 
 ## Open boundary
 
 The corpus owns the evaluator, angular/screen-before-readout, full frame carry, W5 position typing,
-and one-scale boundary. It does not own populated germs/paths, native transfer, joint depth/Jacobi
-history, operational distance, or numerical `X_max`. G280--G287 leave area, neighboring tide, and
+one-scale boundary, and G298's complete directed-leg relation state with its natural projections.
+It does not own populated germs/paths, a unique physical projection to one rank-two germ, joint
+depth/Jacobi history, operational distance, or numerical `X_max`. G280--G287 leave area, neighboring tide, and
 future propagation open. G288--G293 add center and screen/topology structure without a continuous
 history law. W6 adopts G294's non-signalling type only; no global present or response map follows.
 G295 regrades the target from one uniquely selected universe to a nonidentity well-posed solution
 family plus lawful data. The nonlinear residual, coefficients, screen propagation, data, scale,
 mass, population, and our realized history remain open. This is not a no-go against a native law.
 G296 removes the need to posit an extra primitive geometric state and locates the first local native
-differential order, but it selects no residual formula or data. G297 identifies an earlier
-construction still required before treating the physical pair germ as owned: the causal-family to
-rank-two calibrated pair-germ transfer.
+differential order, but it selects no residual formula or data. G297/G298 now construct and factor
+the earlier causal bridge: the complete relation state is metric-owned, but its unique physical
+projection to a rank-two calibrated pair germ is not.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -109,9 +114,10 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister a bounded constructive test of
-`C_g: D_g/G_D -> G_2(g)/G_F`. Before calculation define the base event, two independent tangents,
-reflection/return smoothness or branched object, regular-rank and caustic exclusions, existence and
-uniqueness up to gauge, quotient descent, and set-valued multiple-route behavior. The causal input
-must begin with clock/null incidence and directional-delay data rather than imported reciprocal
-frame/screen/Jacobi output. No action, source, mass, observation, `X_max`, or history solve enters.
+Preregister a bounded ownership discriminator on
+`D_g/G_D -> R_g/G_R -> G_2(g)/G_F`. Determine whether W5 or another active premise uniquely
+privileges the transported-source projection, or whether the physical kernel input should remain
+the richer path-labelled relation state and each rank-two pair germ is a query projection. A
+positive owner must be source-owned and preserve screen/path carry; a negative leaves the enriched
+kernel domain as the honest architecture. No action, source, mass, observation, `X_max`, protected
+work, or history solve enters.

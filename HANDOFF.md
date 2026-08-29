@@ -30,6 +30,11 @@ two-leg radar first germs are conditional metric derivations. Quiet-flat planar 
 transported mutual scalar is not universal: static lapse and active screen refute the collapse. The
 map from the full ordered causal-diamond/directional-delay family to a regular rank-two calibrated
 pair germ remains open and underdefined; W1 remains an evaluator, not a history law.
+G298 externally closes the bounded causal-leg algebra after a projection/completeness repair. Each
+supplied regular directed null leg owns one richer complete path-labelled relation state. Active
+screen carry yields at least two natural regular gauge-inequivalent rank-two projections with the
+same `Phi=-log r`; target-local `J_L` forgets transported-source/path carry and is not equally
+complete. No unique physical projection to `G_2(g)` is owned. The kernel is unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -43,7 +48,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -65,10 +70,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister the bounded constructive transfer
-`C_g: D_g/G_D -> G_2(g)/G_F`. Define its basepoint, two tangents, reflection/branch regularity,
-rank/caustic domain, quotient descent, and set-valued multiple-route behavior before calculation.
-Do not insert reciprocal frame/screen/Jacobi output into the causal input. No action, source, mass,
-observation, Planck scale, `X_max`, or history solve precedes it.
+Next: preregister a bounded owner discriminator on G298's factorization
+`D_g/G_D -> R_g/G_R -> G_2(g)/G_F`. Test whether an active premise uniquely privileges the
+transported-source projection or whether the richer relation state is the physical kernel input
+and pair planes are query projections. Do not invent a selector or erase screen carry. No action,
+source, mass, observation, Planck scale, `X_max`, or history solve precedes it.
 
 <!-- STARTUP_CURRENT_END -->

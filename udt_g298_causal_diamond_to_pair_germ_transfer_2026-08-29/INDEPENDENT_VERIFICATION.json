@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "implementation_independence": "imports no production module and reads no production result",
+  "trials": 20000,
+  "assertions": 358543,
+  "branch_equivariance": "PASS",
+  "active_screen_noncollapse": "PASS",
+  "inequivalent_natural_plane_separator": "PASS",
+  "verification_boundary": "algebraic projection witness only; does not certify equal completeness or physical ownership"
+}

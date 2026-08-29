@@ -11,7 +11,9 @@ Date: 2026-08-29
    population remain supplied. No observation, action, source, matter, scale, `X_max`, or protected
    input.
 5. **Non-uniqueness gate:** compare the transported-source-ruler output with every registered
-   target-local candidate. A surviving equally complete gauge-inequivalent construction forces the
-   non-unique landing.
+   target-local candidate. The external audit found that the target-local projection is natural,
+   regular, and gauge-inequivalent but not equally complete because it forgets transported-source
+   carry. The retained bounded landing therefore concerns non-unique projections from the richer
+   complete relation state, not multiple equally complete physical germs.
 6. **Branch gate:** the flat-cylinder antipodal route pair must be returned set-valuedly and
    equivariantly under its route-exchanging isometry.

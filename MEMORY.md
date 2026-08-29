@@ -20,14 +20,20 @@ residual formula, lawful data, and realized history remain open.
 G297 externally verifies after repairs that the complete bidirectional causal query substantively
 restricts the clock-correspondence protocol, but not yet the full rank-two pair germ. General A/B
 two-leg radar first germs are conditional; static lapse and active screen refute universal scalar
-collapse. The natural causal-family-to-pair-germ transfer remains open and W1 stays evaluative.
+collapse. At G297 the natural causal-family-to-pair-germ transfer remains open and W1 stays
+evaluative.
+G298 externally closes the bounded local causal-leg algebra after an exact type repair. The metric
+owns one complete path-labelled relation state and multiple natural regular gauge-inequivalent
+rank-two projections on the active-screen stratum. Target-local `J_L` forgets
+transported-source/path carry and is not equally complete. The unique physical projection remains
+open; the metric and kernel are unchanged.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298.
 W5 is noncanon normalized projective position; scale, native SNe area, and history remain open.
 
 ## Observations and premises
@@ -39,9 +45,9 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Preregister the bounded constructive transfer from the ordered bidirectional causal-diamond and
-directional-delay family to a regular rank-two calibrated pair germ. Define basepoint, tangents,
-branch/rank/caustic domain, quotient descent, and multiple-route behavior before calculation.
+Preregister a bounded ownership discriminator on G298's complete relation state: decide whether an
+active premise uniquely privileges the transported-source projection or whether rank-two pair
+germs remain query projections of the richer physical kernel input.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

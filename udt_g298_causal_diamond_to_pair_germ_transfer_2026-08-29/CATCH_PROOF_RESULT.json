@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "catches": {
+    "unit_target_clock_cannot_carry_nonzero_depth": true,
+    "target_local_ruler_screen_loss_registered": true,
+    "reflection_smoothing_forbidden": true,
+    "branch_preference_forbidden": true,
+    "one_jet_not_history": true,
+    "transport_not_input": true,
+    "downstream_imports_excluded": true
+  },
+  "count": 7
+}

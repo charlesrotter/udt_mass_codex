@@ -1,0 +1,19 @@
+{
+  "landing": "MULTIPLE_INEQUIVALENT_NATURAL_PAIR_ONE_JET_PROJECTIONS_SURVIVE_FROM_THE_DERIVED_COMPLETE_RELATION_STATE__NO_UNIQUE_TRANSFER_TO_G2_IS_OWNED",
+  "grade": "INTERNALLY_DERIVED_WITH_CAVEATS",
+  "preregistered_commit": "c7128f21",
+  "source_hashes": 10,
+  "exact_cases": 1260,
+  "exact_assertions": 17660,
+  "pair_metric": [
+    "-r^2",
+    "r*a",
+    "1"
+  ],
+  "det_pair_metric": "-r^2*(1+a^2)",
+  "terminal_depth": "Phi=-log(r)",
+  "branch_output": "set-valued complete directed-leg relation state with nonunique natural pair-one-jet projections",
+  "nonuniqueness_witness": "active-screen rank-3 separator between transported-source and target-local ruler planes",
+  "higher_germ": "OPEN",
+  "history_population_dynamics": "OPEN"
+}

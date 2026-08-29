@@ -6,7 +6,7 @@
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing rows and evidence.
-## Active relational frontier — authority: 281-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 282-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
@@ -98,8 +98,8 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - W5 projective-position clarification: `founding.md`; G273/G274 above. W6 non-signalling co-presence clarification: `founding.md`; G294 above.
-- G295 causal-history type: `udt_g295_causal_history_constraint_propagation_classification_2026-08-29/`; G296 residual-order map: `udt_g296_complete_metric_native_residual_order_map_2026-08-29/`;
-  G297 causal-pair transfer boundary: `udt_g297_complete_pair_causal_dilation_equivalence_2026-08-29/`; current boundary is G286--G297.
+- G295/G296: `udt_g295_causal_history_constraint_propagation_classification_2026-08-29/`; `udt_g296_complete_metric_native_residual_order_map_2026-08-29/`;
+  G297/G298: `udt_g297_complete_pair_causal_dilation_equivalence_2026-08-29/`; `udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/`; boundary G286--G298.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
