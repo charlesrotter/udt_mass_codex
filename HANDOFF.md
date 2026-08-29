@@ -72,8 +72,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister one bounded test for any already-owned global relation condition restricting
-G290's curvature flux; otherwise stop at discrimination. Keep G288's
+Next: run preregistered G291 multi-agent whiteboard on whether owned global relation structure
+restricts G290 screen flux; retain partial outcomes and stop before new dynamics. Keep G288's
 general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
 

@@ -116,8 +116,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Preregister a bounded test whether an already-owned global relation condition restricts G290's
-screen curvature flux; otherwise stop at discrimination. Keep G288's general
+Run G291 whiteboard on whether owned structure restricts G290 screen flux; retain partial
+outcomes and stop before new dynamics. Keep G288's general
 `A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
 work, or solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

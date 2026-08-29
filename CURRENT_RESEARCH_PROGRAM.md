@@ -100,7 +100,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister one bounded test of whether any already-owned global relation condition restricts
-G290's screen curvature flux; otherwise stop at discrimination. Keep
+Run preregistered G291 multi-agent whiteboard on whether owned global relation structure restricts
+G290 screen curvature flux; retain partial outcomes and stop before new dynamics. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

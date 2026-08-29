@@ -44,8 +44,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Preregister one bounded test for an already-owned global relation condition restricting G290's
-curvature flux; otherwise stop at discrimination. Keep G288's control queued.
+Run preregistered G291 whiteboard on whether owned global relation structure restricts G290 screen
+flux; retain partial outcomes and stop before new dynamics. Keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
