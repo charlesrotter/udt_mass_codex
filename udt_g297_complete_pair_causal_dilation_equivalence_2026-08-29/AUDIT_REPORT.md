@@ -53,6 +53,8 @@ signalling or a global universal now.
 - fresh external adversarial review retained the bounded landing and required three evidence-boundary
   repairs: full implementation independence, explicit general B-centered derivation, and a sealed
   writable-copy replay contract;
+- external repair-only follow-up verified all three repairs, found no remaining defect or overclaim,
+  and returned `REPAIRS_VERIFIED__BOUNDED_LANDING_RETAINED`;
 - no observation, fit, source, matter, action, field equation, scale, `X_max`, or protected input.
 
 ## Next gate

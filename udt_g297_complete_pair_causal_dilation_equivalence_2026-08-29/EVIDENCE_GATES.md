@@ -16,11 +16,11 @@
 6. **Repository gates:** the 280-row startup/premise verifier exits successfully; the full suite
    reports `195 passed, 1 xfailed` with the documented matter-sector habit-pin xfail.
 
-Current grade ceiling after fresh external review and before repair-only follow-up:
+Current bounded grade after external repair closure:
 
 ```text
 OWNER_CLARIFICATION_SUBSTANTIVE
 __TRANSFER_OPEN
 __INTERNAL_ALGEBRA_EXACT_AND_IMPLEMENTATION_INDEPENDENTLY_VERIFIED
-__EXTERNAL_LANDING_RETAINED_WITH_BOUNDED_REPAIRS_PENDING_FOLLOWUP
+__EXTERNAL_REPAIRS_VERIFIED_AND_BOUNDED_LANDING_RETAINED
 ```

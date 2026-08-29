@@ -13,4 +13,4 @@ S11	absolute scale route population complete history field equation Xmax	OPEN	ou
 S12	internal algebra verification	PASS	125 production controls 20000 independent cases 50000 assertions 5 hostile catches
 S13	three-role whiteboard review	REQUIRES_REGRADE_APPLIED	all identified the missing complete transfer
 S14	fresh external review	PASS_WITH_REPAIRS_REQUIRED	bounded landing survived; independence B-centered derivation and replay contract required repair
-S15	external repair-only follow-up	PENDING	requires a fresh sealed repaired intake and explicit transmission authorization
+S15	external repair-only follow-up	PASS	R1 R2 R3 verified no defects and bounded landing retained
