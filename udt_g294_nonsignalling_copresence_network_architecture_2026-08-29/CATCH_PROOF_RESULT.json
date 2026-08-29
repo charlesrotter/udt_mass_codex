@@ -1,0 +1,79 @@
+{
+  "all_pass": true,
+  "catch_count": 16,
+  "catches": [
+    {
+      "caught": true,
+      "hostile_claim": "nonpropagating connectedness called infinite signal speed"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "positive distance said incompatible with pair reversal"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "planar sech equality widened through active screen"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "cE alone called an absolute length"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "R/cE called dimensionless dilation"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "symmetric co-presence graph called a global now"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "co-presence graph conflated with reciprocal groupoid"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "timelike direction called automatically integrable"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "owned integrability called necessarily a new field"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "correlation called controllable response"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "global constraint called automatically no-signalling"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "metric cones called a derived response operator"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "co-presence slicing called history selection"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "candidate architecture called derived formula"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "received starlight called proven co-present readout"
+    },
+    {
+      "caught": true,
+      "hostile_claim": "literal instantaneous response retained"
+    }
+  ],
+  "semantic_gate_count": 6,
+  "semantic_gates": {
+    "causal_response_operator_imported": false,
+    "copresence_adopted": false,
+    "history_selected": false,
+    "literal_infinite_signal_speed_adopted": false,
+    "observation_used": false,
+    "protected_input_used": false
+  }
+}

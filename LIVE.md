@@ -38,6 +38,15 @@ additive parameter is supplied; `k` remains parameterization-dependent, and endp
 alone is weaker. Signed linear depth can cross a quiet middle, so the qualitative loud--quiet--loud
 structure remains viable. A lawful time-live fixed-Euler family still carries arbitrary local flux.
 The remaining architecture is narrowed by primitive state/data dependence but no law is selected.
+G294 then gives the owner's “foundational infinite c” intuition a coherent bounded type as
+nonpropagating relational connectedness, not signal speed. Positive pair magnitude and signed depth
+coexist; the planar even `sech` channel stays conditional and G269's screen-aware inequality controls
+the complete metric. Pair co-presence graph, reciprocal comparison groupoid, and physical foliation
+are distinct. A physical global “now” requires an owned integrable timelike structure. Correlation
+need not signal, but instantaneous global constraint enforcement after arbitrary local intervention
+can. An explicit dimensionful metric family shares one co-presence slicing while curvature varies.
+The narrowed missing object is a nonidentity complete-network constraint plus causal update; no
+formula, adoption, global present, response operator, observation map, or history is derived.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -78,6 +87,9 @@ Current observational/history boundary:
   homogeneous scalar flow is parameterization until physically attached, and Euler number fixes a
   sector rather than local curvature evolution. G259's strict conditional local class remains
   available but was not widened into a general UDT law.
+- G294 does not change the metric or kernel and does not canonize co-presence or infinite signal
+  speed. It classifies a causally coherent `A/NL` architecture and retains all screen, scale,
+  population, response-law, and history boundaries.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -105,10 +117,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-PONDER with Charles before opening G294. Choose one finite primitive-state lane: another local metric
-residual class (`MN`), a finite augmented complete-relation/screen state (`A`), or a genuinely
-global/nonlocal law (`NL`). The `A` lane is the closest continuation of the completed pair metric,
-but it is not yet selected. Keep G288's general `A(r),B(r)` control queued. No action, source, mass,
-observation, Planck scale, `X_max`, protected work, ODE/PDE, or solve precedes a fresh map and explicit
-premise ledger.
+PONDER with Charles before opening G295. Decide whether to adopt only the non-signalling type
+clarification provisionally. Otherwise test the smallest joint `A/NL` class: a nonidentity complete
+pair/screen-network constraint plus metric-causal update, with co-presence graph, reciprocal
+comparison composition, and foliation ownership distinct. Keep G288's general `A(r),B(r)` control
+queued. No action, source, mass, observation, Planck scale, `X_max`, protected work, ODE/PDE, or solve
+precedes a fresh map and explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->

@@ -373,6 +373,7 @@ def validate_startup_surface(root: Path) -> None:
             "G291",
             "G292",
             "G293",
+            "G294",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -416,7 +417,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "276-row exact registry",
+            "277-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -634,6 +635,7 @@ def validate_startup_surface(root: Path) -> None:
             "G289",
             "G290",
             "G293",
+            "G294",
             "G291",
             "G292",
             "W5",
@@ -746,6 +748,10 @@ def validate_startup_surface(root: Path) -> None:
             "G288",
             "G289",
             "G290",
+            "G291",
+            "G292",
+            "G293",
+            "G294",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -850,11 +856,15 @@ def validate_startup_surface(root: Path) -> None:
             "G288",
             "G289",
             "G290",
+            "G291",
+            "G292",
+            "G293",
+            "G294",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "276-row",
+            "277-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1216,9 +1226,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 276, "premise registry must contain exactly 276 rows")
+    require(len(rows) == 277, "premise registry must contain exactly 277 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 276, "duplicate premise id")
+    require(len(by_id) == 277, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1300,6 +1310,11 @@ def main() -> None:
             "udt_g293_history_law_architecture_constraint_funnel_2026-08-29/AUDIT_REPORT.md",
             "SCALAR_RECIPROCAL_GENERATOR_IS_PARAMETERIZATION_ONLY",
         ),
+        "G294": (
+            "INTERNALLY_DERIVED_AND_IMPLEMENTATION_INDEPENDENTLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_85D035D3",
+            "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/AUDIT_REPORT.md",
+            "COPRESENCE_IS_COHERENT_AS_NONPROPAGATING_RELATION_NOT_SIGNAL_SPEED",
+        ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
         row = by_id[premise_id]
@@ -1326,6 +1341,20 @@ def main() -> None:
     require("BLOCKED_BEFORE_SCIENTIFIC_REVIEW__NO_VERDICT" in
             (g293 / "ZERO_CONTEXT_REVIEW.md").read_text(encoding="utf-8"),
             "G293 zero-context grade changed")
+    g294 = ROOT / "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29"
+    g294_production = json.loads((g294 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g294_independent = json.loads((g294 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g294_catches = json.loads((g294 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    require(g294_production["all_pass"] and g294_production["assertion_count"] == 38,
+            "G294 production evidence changed")
+    require(g294_independent["all_pass"] and g294_independent["assertion_count"] == 37053,
+            "G294 independent evidence changed")
+    require(not g294_independent["production_imported"] and not g294_independent["production_result_read"],
+            "G294 independent route is not independent")
+    require(g294_catches["all_pass"] and g294_catches["catch_count"] == 16,
+            "G294 hostile-catch evidence changed")
+    require(g294_catches["semantic_gate_count"] == 6,
+            "G294 semantic-gate evidence changed")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14063,7 +14092,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

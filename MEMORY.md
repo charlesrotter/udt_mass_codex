@@ -31,6 +31,14 @@ time-live fixed-Euler connection retains arbitrary same-sector local flux throug
 mixed term. Together with inherited G259, this narrows the missing law by primitive state and data
 dependence without selecting it. Three specialist lanes support the bounded result; an isolated
 zero-context review stopped before evidence read because it could not complete mandatory Git fetch.
+G294 gives the owner's “foundational infinite c” intuition a causally coherent candidate type:
+nonpropagating co-presence/constraint, not a signal speed. Positive pair magnitude and signed depth
+coexist; the planar even `sech` channel remains conditional and G269's screen-aware bound controls
+the complete metric. Pair graph, reciprocal comparison groupoid, and physical foliation are distinct.
+Correlation need not signal, but instantaneous constraint re-enforcement after arbitrary local
+intervention does. An explicit dimensionful metric family shares one co-presence slicing while
+curvature varies. The narrowed missing object is a nonidentity complete-network constraint plus a
+metric-causal update/response law; none is yet derived or adopted.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Compact route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -56,10 +64,11 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Choose one explicit G294 primitive-state lane for a finite classification: another local metric
-residual class (`MN`), a finite augmented complete-relation state (`A`), or a genuinely global law
-(`NL`). Do not fit observations until a nonidentity finite candidate class exists. A fresh external
-G293 review remains optional and unrun. Keep G288's general `A(r),B(r)` control queued.
+Ponder before G295 whether Charles wants to provisionally adopt only the non-signalling type
+clarification. If not, test the smallest `A/NL` candidate class: a complete-network constraint and a
+causal update treated jointly, with pair graph, comparison composition, and foliation ownership kept
+distinct. Do not fit observations until a nonidentity candidate exists. Fresh G293/G294 external
+review remains optional and unrun. Keep G288's general `A(r),B(r)` control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

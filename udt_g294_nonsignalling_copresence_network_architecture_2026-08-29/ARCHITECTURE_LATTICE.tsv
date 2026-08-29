@@ -1,0 +1,5 @@
+architecture	mathematically_coherent	new_owned_structure_needed	causal_status	history_selection
+PAIR_RELATIVE_COPRESENCE_GRAPH	yes	physical graph population and relation/comparison compatibility	compatible if not a controllable response	no
+INTEGRABLE_GLOBAL_FOLIATION	yes	owned integrable timelike structure and physical leaf interpretation	compatible if interventions remain cone-supported	no by existence alone
+GLOBAL_CONSTRAINT_PLUS_CAUSAL_UPDATE	yes	nonidentity complete-network constraint plus causal update/response	can satisfy no-signalling by construction	possible only if nonidentity and well posed
+CONTROLLABLE_INSTANTANEOUS_RESPONSE	no	literal off-cone response	rejected by no-signalling gate	not applicable

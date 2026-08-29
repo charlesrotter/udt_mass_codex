@@ -25,6 +25,14 @@ time-live fixed-Euler screen family retains arbitrary local flux, so topology cl
 without propagating it. G259's strict conditional class is inherited, not generalized. Three
 specialist reviews support the bounded landing; the isolated zero-context rehearsal stopped before
 evidence read because mandatory Git fetch was unavailable and returned no verdict.
+G294 internally derives and independently verifies with caveats that “foundational infinite c” can
+be typed coherently only as nonpropagating relational connectedness, not controllable signal speed.
+Positive magnitude and signed depth coexist; the planar even `sech` result remains conditional and
+G269 retains active screen mismatch. Pair graph, reciprocal comparison groupoid, and physical
+foliation are distinct. Correlation can coexist with zero same-slice response; instantaneous global
+constraint re-enforcement after arbitrary local intervention can signal. A dimensionful regular
+metric counterfamily proves co-presence existence does not select history. The candidate missing type
+is a nonidentity complete-network constraint plus metric-causal update, not a derived law.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -73,10 +81,11 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: ponder with Charles before opening G294. Choose a finite classification in another local
-metric-residual lane (`MN`), a finite augmented complete-relation/screen state (`A`), or a genuinely
-global/nonlocal lane (`NL`). `A` is the closest metric-native continuation but is not yet privileged.
-Keep G288's general `A(r),B(r)` control queued. No action, source, physical mass, observation, Planck
-scale, `X_max`, ODE/PDE, or solve may be inserted without a fresh map and premise ledger.
+Next: ponder with Charles before opening G295. Decide whether to provisionally adopt only G294's
+non-signalling type clarification. Otherwise classify the smallest joint `A/NL` candidate containing
+a complete-network constraint and metric-causal update. Keep co-presence graph, reciprocal comparison
+composition, and foliation ownership distinct. Keep G288's general `A(r),B(r)` control queued. No
+action, source, physical mass, observation, Planck scale, `X_max`, ODE/PDE, or solve may be inserted
+without a fresh map and premise ledger.
 
 <!-- STARTUP_CURRENT_END -->

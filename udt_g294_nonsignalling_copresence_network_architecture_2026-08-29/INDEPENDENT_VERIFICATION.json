@@ -1,0 +1,12 @@
+{
+  "all_pass": true,
+  "assertion_count": 37053,
+  "methods": [
+    "seeded_hyperbolic_grid",
+    "exact_dimension_vectors",
+    "exact_relation_and_response_discriminators",
+    "exact_fraction_metric_curvature_counterfamily"
+  ],
+  "production_imported": false,
+  "production_result_read": false
+}

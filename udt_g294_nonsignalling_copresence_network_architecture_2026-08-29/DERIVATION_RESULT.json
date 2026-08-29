@@ -1,0 +1,273 @@
+{
+  "all_pass": true,
+  "architecture": [
+    {
+      "class": "PAIR_RELATIVE_COPRESENCE_GRAPH",
+      "coherent": true,
+      "global_now": false,
+      "history_selection": false,
+      "status": "WELL_TYPED_CANDIDATE_ARCHITECTURE"
+    },
+    {
+      "class": "INTEGRABLE_GLOBAL_FOLIATION",
+      "coherent": true,
+      "global_now": true,
+      "history_selection": false,
+      "status": "REQUIRES_OWNED_INTEGRABLE_TIMELIKE_STRUCTURE"
+    },
+    {
+      "class": "GLOBAL_CONSTRAINT_PLUS_CAUSAL_UPDATE",
+      "coherent": true,
+      "global_now": "OPTIONAL",
+      "history_selection": "POSSIBLE_ONLY_IF_CONSTRAINT_IS_NONIDENTITY",
+      "status": "WELL_TYPED_MISSING_LAW_ARCHITECTURE_NOT_FORMULA"
+    },
+    {
+      "class": "CONTROLLABLE_INSTANTANEOUS_RESPONSE",
+      "coherent": false,
+      "global_now": "IRRELEVANT",
+      "history_selection": "IRRELEVANT",
+      "status": "REJECTED_BY_NONSIGNALLING_GATE"
+    }
+  ],
+  "assertion_count": 38,
+  "checks": [
+    {
+      "expected": "0",
+      "name": "projective_reversal_odd",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "mutual_projection_reversal_even",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "1",
+      "name": "unit_semicircle_pair_state",
+      "pass": true,
+      "value": "tanh(q)**2 + sech(q)**2"
+    },
+    {
+      "expected": "q**2",
+      "name": "positive_magnitude_orientation_independence",
+      "pass": true,
+      "value": "q**2"
+    },
+    {
+      "expected": "d",
+      "name": "directed_depth_reversal",
+      "pass": true,
+      "value": "d"
+    },
+    {
+      "expected": "w2*exp(-d)/(2*(w2*exp(-d)/2 + cosh(d))*cosh(d))",
+      "name": "screen_aware_mutual_bound_factor",
+      "pass": true,
+      "value": "w2/((w2 + 2*exp(d)*cosh(d))*cosh(d))"
+    },
+    {
+      "expected": "sech(d)",
+      "name": "planar_screen_equality",
+      "pass": true,
+      "value": "1/cosh(d)"
+    },
+    {
+      "expected": "True",
+      "name": "active_screen_strict_gap",
+      "pass": true,
+      "value": "3/(7*(3/7 + 2*exp(2/5)*cosh(2/5))*cosh(2/5))"
+    },
+    {
+      "expected": "True",
+      "name": "ce_power_cannot_be_pure_length",
+      "pass": true,
+      "value": "a=1 and a=0 are incompatible"
+    },
+    {
+      "expected": "1",
+      "name": "clock_record_plus_ce_is_length_L",
+      "pass": true,
+      "value": "1"
+    },
+    {
+      "expected": "0",
+      "name": "clock_record_plus_ce_is_length_T",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "distance_over_ce_is_time_L",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "1",
+      "name": "distance_over_ce_is_time_T",
+      "pass": true,
+      "value": "1"
+    },
+    {
+      "expected": "0",
+      "name": "normalized_distance_is_dimensionless_L",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "normalized_distance_is_dimensionless_T",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+      "name": "copresence_relation_symmetric",
+      "pass": true,
+      "value": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "expected": "3",
+      "name": "copresence_relation_reflexive",
+      "pass": true,
+      "value": "3"
+    },
+    {
+      "expected": "1",
+      "name": "AB_and_BC_present",
+      "pass": true,
+      "value": "1"
+    },
+    {
+      "expected": "0",
+      "name": "AC_absent_nontransitive_witness",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "True",
+      "name": "symmetry_not_transitivity",
+      "pass": true,
+      "value": "A~B and B~C while A!~C"
+    },
+    {
+      "expected": "-3/4",
+      "name": "timelike_one_form_control",
+      "pass": true,
+      "value": "-3/4"
+    },
+    {
+      "expected": "1",
+      "name": "frobenius_obstruction_nonzero",
+      "pass": true,
+      "value": "1"
+    },
+    {
+      "expected": "True",
+      "name": "timelike_does_not_imply_integrable",
+      "pass": true,
+      "value": "timelike at x=1/2 and n wedge dn nonzero"
+    },
+    {
+      "expected": "0",
+      "name": "integrable_dt_control",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "1 - rho**2",
+      "name": "correlation_determinant",
+      "pass": true,
+      "value": "1 - rho**2"
+    },
+    {
+      "expected": "0",
+      "name": "spacelike_response_A_to_B_zero",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "0",
+      "name": "spacelike_response_B_to_A_zero",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "True",
+      "name": "correlated_no_response_control",
+      "pass": true,
+      "value": "nonzero covariance with zero intervention response"
+    },
+    {
+      "expected": "-1",
+      "name": "instant_constraint_remote_response",
+      "pass": true,
+      "value": "-1"
+    },
+    {
+      "expected": "h",
+      "name": "local_only_update_breaks_constraint",
+      "pass": true,
+      "value": "h"
+    },
+    {
+      "expected": "True",
+      "name": "constraint_nonsignalling_trilemma",
+      "pass": true,
+      "value": "instant enforcement responds remotely; local-only update leaves residual"
+    },
+    {
+      "expected": "a*r**2/(ell**2 + r**2) + 1",
+      "name": "primary_metric_profile_identity",
+      "pass": true,
+      "value": "a*r**2/(ell**2 + r**2) + 1"
+    },
+    {
+      "expected": "-2*a*(6*ell**4 + 3*ell**2*r**2 + r**4)/(ell**2 + r**2)**3",
+      "name": "primary_metric_scalar_curvature",
+      "pass": true,
+      "value": "2*a*(-6*ell**4 - 3*ell**2*r**2 - r**4)/(ell**6 + 3*ell**4*r**2 + 3*ell**2*r**4 + r**6)"
+    },
+    {
+      "expected": "0",
+      "name": "flat_profile_curvature",
+      "pass": true,
+      "value": "0"
+    },
+    {
+      "expected": "-12*a/ell**2",
+      "name": "deformed_profile_center_curvature",
+      "pass": true,
+      "value": "-12*a/ell**2"
+    },
+    {
+      "expected": "-8/9",
+      "name": "co_presence_normal_timelike_control",
+      "pass": true,
+      "value": "-8/9"
+    },
+    {
+      "expected": "0",
+      "name": "metric_null_cone_radial",
+      "pass": true,
+      "value": "c_E**2*(-a*r**2/(ell**2 + r**2) - 1) + c_E**2*(a*r**2/(ell**2 + r**2) + 1)"
+    },
+    {
+      "expected": "True",
+      "name": "regular_positive_counterfamily",
+      "pass": true,
+      "value": "f=9/8 and R differs from flat on the shared t-slicing at ell=1"
+    }
+  ],
+  "landing_candidate": "COPRESENCE_IS_COHERENT_AS_NONPROPAGATING_RELATION_NOT_SIGNAL_SPEED__POSITIVE_PAIR_MAGNITUDE_AND_ORIENTED_DEPTH_ARE_COMPATIBLE__GLOBAL_CORRELATION_CAN_COEXIST_WITH_CAUSAL_RESPONSE_SUPPORT__PAIR_RELATIVE_COPRESENCE_GRAPH_DOES_NOT_DERIVE_GLOBAL_NOW__PHYSICAL_GLOBAL_NOW_REQUIRES_OWNED_INTEGRABLE_TIMELIKE_STRUCTURE__CE_ALONE_DOES_NOT_ATTACH_DEPTH_TO_LENGTH__CURRENT_COPRESENCE_SEMANTICS_DO_NOT_SELECT_HISTORY__COMPLETE_NETWORK_CONSTRAINT_PLUS_CAUSAL_UPDATE_IS_A_WELL_TYPED_MISSING_LAW_ARCHITECTURE",
+  "scope": {
+    "causal_response_operator_imported": false,
+    "copresence_adopted": false,
+    "history_selected": false,
+    "literal_infinite_signal_speed_adopted": false,
+    "observation_used": false,
+    "protected_input_used": false
+  }
+}

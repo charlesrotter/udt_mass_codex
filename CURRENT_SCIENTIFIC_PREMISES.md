@@ -17,6 +17,7 @@
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
 | Projective pair coordinate | `DERIVED` in declared class/radial stratum | `chi=tanh(phi_pair)` plus open-ball vector | Adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
+| G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Adoption; constraint/update formula; history |
 
 ## Reconstruction hierarchy
 
@@ -88,6 +89,7 @@
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
 | G288--G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
 | G293 architecture funnel | internal multi-agent/caveats | Scalar homogeneous flow is uncalibrated; Euler sector leaves local flux free; law unselected |
+| G294 co-presence architecture | internal independent/caveats | Connectedness can be nonpropagating; causal update remains missing |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -114,6 +116,13 @@ None selects completion/`X_max`.
   that continuous homogeneous scalar depth is `ks` only on a supplied additive parameter and that
   topology plus scalar depth still does not propagate the local flux. A signed linear depth may
   pass through the quiet middle; its physical separation attachment remains open.
+  G294 retypes “foundational infinite c” as a candidate nonpropagating relation rather than signal
+  speed. Positive magnitude, signed depth, odd position, and an even planar mutual channel coexist;
+  the complete screen-aware G269 inequality remains controlling. Pair graphs, reciprocal groupoids,
+  and physical foliations are distinct. Correlation can coexist with zero same-slice response, but
+  instant global constraint enforcement after arbitrary intervention can signal. The well-typed
+  missing architecture is a nonidentity complete-network constraint plus causal update; no formula,
+  adoption, or history follows.
 
 ## Carrier, action, source, and matter
 
@@ -131,5 +140,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 276-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 277-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

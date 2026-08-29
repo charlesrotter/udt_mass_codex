@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 276-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 277-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -94,6 +94,16 @@ population, operational distance, or `X_max`.
   arbitrary same-sector local flux through its mandatory mixed term. G259's strict conditional
   metric class is inherited, not widened. The remaining candidate architectures are partitioned by
   primitive state and data dependence (`M2`, `MN`, `A`, `NL`) but no history law is selected.
+- G294 tests the owner's “foundational infinite c” intuition inside the `A/NL` bridge. It is
+  causally coherent as nonpropagating relational connectedness, not as a controllable signal speed.
+  Positive magnitude, signed depth, odd projective position, and an even planar mutual channel are
+  compatible; G269's complete screen-aware inequality remains controlling. A pair co-presence graph
+  is distinct from reciprocal comparison composition and does not derive global “now.” A physical
+  foliation needs an owned integrable timelike structure. Correlation can coexist with zero
+  same-slice response, while instantaneous global constraint re-enforcement after arbitrary local
+  intervention can signal. A dimensionful regular metric family proves that co-presence existence
+  does not select history. The narrowed missing object is a nonidentity complete-network constraint
+  plus metric-causal update, not a derived formula.
 
 ## Open boundary
 
@@ -112,6 +122,8 @@ and the surviving same-sector local freedom. G293 closes scalar homogeneity and 
 hidden standalone propagation laws on their declared lanes. Physical attachment of the additive
 parameter, continuous screen/curvature propagation, populated relations, and the complete history
 remain open. This is not a no-go against a native law.
+G294 supplies a coherent home for co-presence but no physical adoption, global present, response
+operator, observation map, constraint formula, update, or selected history.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -119,9 +131,9 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Ponder with Charles before opening G294. Choose one finite primitive-state classification: another
-local metric residual class (`MN`), a finite augmented complete-relation/screen state (`A`), or a
-genuinely global/nonlocal law (`NL`). The `A` lane is the most direct metric-native follow-through,
-but it must be mapped before preference. Keep G288's general `A(r),B(r)` control queued. No action,
-source, mass, Planck scale, observation, `X_max`, ODE/PDE, or GPU solve precedes a fresh map and
-explicit premise ledger.
+Ponder with Charles before opening G295. Decide whether to provisionally adopt only the G294
+non-signalling type clarification. If not, test a finite joint `A/NL` class in which a complete
+pair/screen-network constraint and a metric-causal update are treated together. Keep co-presence
+graph, reciprocal comparison composition, and foliation ownership distinct. Keep G288's general
+`A(r),B(r)` control queued. No action, source, mass, Planck scale, observation, `X_max`, ODE/PDE, or
+GPU solve precedes a fresh map and explicit premise ledger.

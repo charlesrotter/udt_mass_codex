@@ -6,7 +6,7 @@
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing rows and evidence.
-## Active relational frontier — authority: 276-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 277-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
@@ -71,7 +71,8 @@
   `udt_g288_smooth_center_micro_regime_jet_interlock_2026-08-28/`; `udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/`;
   `udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/`; `udt_g291_global_screen_flux_ownership_whiteboard_2026-08-28/`;
   `udt_g292_orientable_screen_differential_character_descent_2026-08-28/`;
-  `udt_g293_history_law_architecture_constraint_funnel_2026-08-29/`.
+  `udt_g293_history_law_architecture_constraint_funnel_2026-08-29/`;
+  `udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/`.
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`;
@@ -100,7 +101,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
-- Current boundary: G286--G293 above; G282--G285 are prior controls.
+- Current boundary: G286--G294 above; G282--G285 are prior controls.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
