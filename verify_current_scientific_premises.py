@@ -1280,7 +1280,7 @@ def main() -> None:
             "LOCAL_NULL_DIRECTION_EMBEDDING_EXISTS",
         ),
         "G290": (
-            "LOCALLY_VERIFIED_WITH_CAVEATS__PREREGISTERED_AT_A1401EBE",
+            "EXTERNALLY_ACCEPTED_BOUNDED_G290__NO_DEFECTS__PREREGISTERED_AT_A1401EBE",
             "udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/EXACT_DERIVATION.md",
             "EXACT_COMPLETE_PAIR_SCREEN_HOLONOMY_DESCENDS_CONDITIONALLY",
         ),
@@ -13808,7 +13808,6 @@ def main() -> None:
         "G290 active scope widened",
     )
     for guard in (
-        "fresh external adversarial review",
         "physical null congruence complete pair network loop population and event correspondence",
         "global nontrivial screen bundle differential-character quantization",
         "nonorientable screen reflection holonomy",
@@ -13837,6 +13836,11 @@ def main() -> None:
         "LAY_REPORT.md",
         "STATUS_LEDGER.tsv",
         "INTERNAL_ADVERSARIAL_REVIEW.md",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "ADVERSARIAL_REVIEW_REQUEST.md",
+        "build_review_intake.py",
+        "launch_external_review.sh",
         "derive_screen_holonomy.py",
         "verify_screen_holonomy_independent.py",
         "run_screen_holonomy_catches.py",
@@ -13865,7 +13869,7 @@ def main() -> None:
         "TOPOLOGICAL_PERSISTENCE_IS_CONDITIONAL_KINEMATICS",
         "HOLONOMY_HEARS_HISTORY_BUT_DOES_NOT_SELECT_IT",
         "a=2\\alpha(y\\,dx-x\\,dy)",
-        "EXTERNAL_REVIEW_OPEN",
+        "EXTERNALLY_ACCEPTED_BOUNDED_G290__NO_DEFECTS",
     ):
         require(token in g290_report, f"G290 whiteboard landing regressed: {token}")
     g290_landing = (
@@ -13877,7 +13881,7 @@ def main() -> None:
     )
     require(
         g290_landing in g290_exact
-        and "Fresh external adversarial review remains open" in g290_exact,
+        and "ACCEPT_BOUNDED_G290" in g290_exact,
         "G290 exact report landing regressed",
     )
     g290_production = json.loads((g290 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
@@ -13925,6 +13929,21 @@ def main() -> None:
         "injected production mutants",
     ):
         require(token in g290_internal, f"G290 internal adversarial caveat absent: {token}")
+    g290_external = (g290 / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
+    g290_transmission = (g290 / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
+    require(
+        "`ACCEPT_BOUNDED_G290`" in g290_external
+        and "None found in the bounded claim" in g290_external
+        and "None remaining in the sealed intake" in g290_external,
+        "G290 external acceptance regressed",
+    )
+    for token in (
+        "f696c1e3cad53577e4f191c3ea18ba1e31a51081aff1c031149873158b2aa1a6",
+        "655eb05be2615494ef4ebca03b23c4de01dbe21ec104134569c81ede772b2b0b",
+        "1afa3e0974e52e1f94e8dea1a7fb7c64f94ee3e623ecd939e06fdfc1569c041b",
+        "b5e05cd7d2953a97c82a1208660f89c47ed584d0f7b5c7ed5cd65559d14c2b44",
+    ):
+        require(token in g290_transmission, f"G290 transmission provenance absent: {token}")
     g290_completed = subprocess.run(
         [sys.executable, str(g290 / "verify_package.py")],
         cwd=g290,
@@ -13934,7 +13953,11 @@ def main() -> None:
         env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
     )
     g290_replay = json.loads(g290_completed.stdout)
-    require(g290_replay["status"] == "PASS", "G290 aggregate landing regressed")
+    require(
+        g290_replay["status"] == "PASS"
+        and g290_replay["external_review"] == "ACCEPT_BOUNDED_G290",
+        "G290 aggregate landing regressed",
+    )
     g290_matrix = read_tsv(g290 / "CANDIDATE_MATRIX.tsv")
     require(len(g290_matrix) == 9, "G290 candidate matrix row count regressed")
     require(

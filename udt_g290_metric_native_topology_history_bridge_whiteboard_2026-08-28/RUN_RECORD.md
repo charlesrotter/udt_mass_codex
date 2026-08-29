@@ -33,3 +33,6 @@ Date: 2026-08-28
     the inverse/conjugacy statement to rotation holonomy on orientable screens; leave genuinely
     nonorientable reflection holonomy open; and describe the evidence counts without overstating
     independence.
+16. The authorized 35-file intake was mounted read-only for fresh external `gpt-5.4` review. The
+    reviewer independently spot-recomputed the connection, gauge sign, and time-live flux sign and
+    returned `ACCEPT_BOUNDED_G290`: no scientific defects and no remaining repairs.

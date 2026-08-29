@@ -78,7 +78,7 @@ population, operational distance, or `X_max`.
   conformal-twin separation, and time-live curvature-flux transgression. On orientable screens,
   orientation-forgetting `O(2)` retains inverse/conjugacy rotation data; genuinely nonorientable
   reflection holonomy remains open. Arbitrary smooth histories still pass, so the result remains
-  evaluative; external review is open.
+  evaluative. Fresh external review accepts the bounded result without defects.
 
 ## Open boundary
 
@@ -100,7 +100,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Submit G290's locally verified exact complete-pair screen-holonomy/conformal-twin descent and
-time-live transgression to fresh external adversarial review. Keep
+Preregister one bounded test of whether any already-owned global relation condition restricts
+G290's screen curvature flux; otherwise stop at discrimination. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

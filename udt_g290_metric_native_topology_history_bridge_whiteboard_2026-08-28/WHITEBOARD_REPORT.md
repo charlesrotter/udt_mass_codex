@@ -3,11 +3,12 @@
 Date: 2026-08-28
 Whiteboard grade: `INTERNAL_MULTI_AGENT_WHITEBOARD_LEAD__EXACT_BOUNDED_OBSTRUCTION`
 
-Exact follow-through: `LOCALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`. The
+Exact follow-through: `EXTERNALLY_ACCEPTED_BOUNDED_G290__NO_DEFECTS`. The
 preregistered screen-holonomy, conformal-twin, and time-live transgression formulas survived direct
 Levi-Civita derivation, implementation-distinct replay, and fresh zero-context internal adversarial
 review. The orientable-screen and evidence-semantics caveats are recorded in `EXACT_DERIVATION.md`.
-The nonselection ceiling is unchanged.
+Fresh sealed external `gpt-5.4` review accepted the bounded result with no scientific defects and no
+remaining repairs. The nonselection ceiling is unchanged.
 
 ## Landing
 
@@ -113,8 +114,8 @@ unchanged. On an orientable screen without a chosen orientation, retain inverse/
 data such as the cosine of the angle. Genuinely nonorientable loops may have reflection holonomy and
 remain outside this bounded classification.
 
-The formula was independently reproduced in the separately preregistered exact pair-screen descent
-and a standard-library exact replay. Fresh external adversarial review remains open.
+The formula was independently reproduced in the separately preregistered exact pair-screen descent,
+a standard-library exact replay, and fresh sealed external adversarial review.
 
 ## Persistence is not selection
 

@@ -31,6 +31,7 @@ def main() -> None:
         "EXACT_DERIVATION_PREREGISTRATION.md", "EXACT_DERIVATION_PREMISE_LEDGER.tsv",
         "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md",
         "INTERNAL_ADVERSARIAL_REVIEW.md",
+        "EXTERNAL_REVIEW_GPT54.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
         "derive_screen_holonomy.py", "verify_screen_holonomy_independent.py",
         "run_screen_holonomy_catches.py", "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
@@ -61,11 +62,14 @@ def main() -> None:
 
     exact = (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
     prereg = (HERE / "EXACT_DERIVATION_PREREGISTRATION.md").read_text(encoding="utf-8")
-    for token in (LANDING, "Fresh external adversarial review remains open"):
+    external = (HERE / "EXTERNAL_REVIEW_GPT54.md").read_text(encoding="utf-8")
+    for token in (LANDING, "ACCEPT_BOUNDED_G290"):
         if token not in exact:
             raise AssertionError(f"exact report token missing: {token}")
     if "FROZEN_BEFORE_EXACT_DERIVATION" not in prereg:
         raise AssertionError("preregistration status missing")
+    if "`ACCEPT_BOUNDED_G290`" not in external or "None found in the bounded claim" not in external:
+        raise AssertionError("external acceptance regressed")
 
     result = {
         "status": "PASS",
@@ -76,7 +80,7 @@ def main() -> None:
         "independent_assertions": 28801,
         "hostile_claim_witnesses": 7,
         "sympy_production_replayed": sympy_available,
-        "external_review": "OPEN",
+        "external_review": "ACCEPT_BOUNDED_G290",
         "aggregator_role": "integrity_and_provenance_only",
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")

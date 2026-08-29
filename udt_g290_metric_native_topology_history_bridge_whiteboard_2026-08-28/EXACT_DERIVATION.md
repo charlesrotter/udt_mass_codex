@@ -1,7 +1,7 @@
 # G290 exact derivation — complete-pair screen holonomy and time-live transgression
 
 Date: 2026-08-28
-Grade: `LOCALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`
+Grade: `EXTERNALLY_ACCEPTED_BOUNDED_G290__NO_DEFECTS`
 
 ## Landing
 
@@ -202,5 +202,6 @@ The exact result is consequently:
   physical history, or `X_max` entered.
 
 A fresh zero-context internal adversary returned `VERIFIED_WITH_CAVEATS`: it retained the five-part
-landing after the orientation, nonorientable-loop, and evidence-semantics repairs above.
-Fresh external adversarial review remains open.
+landing after the orientation, nonorientable-loop, and evidence-semantics repairs above. Fresh sealed
+external `gpt-5.4` review then returned `ACCEPT_BOUNDED_G290`, with no scientific defects and no
+remaining evidence or wording repairs.

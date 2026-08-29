@@ -22,7 +22,7 @@ repairs are externally accepted with no defects and no change to the bounded lan
 G290's whiteboard separates topology, holonomy, and selection. Pure topology cannot separate smooth
 twins; a supplied pair screen connection adds metric-sensitive holonomy but remains evaluative.
 Exact descent separates registered flat/nonflat twins and obeys time-live flux transgression.
-Internal review retains orientation caveats; external review is open and arbitrary smooth histories
+External review accepts the orientation-repaired result without defects; arbitrary smooth histories
 remain admitted.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
@@ -72,8 +72,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: send G290's exact complete-pair screen-holonomy descent and time-live
-transgression to fresh external review; do not promote it to persistence or selection. Keep G288's
+Next: preregister one bounded test for any already-owned global relation condition restricting
+G290's curvature flux; otherwise stop at discrimination. Keep G288's
 general `A(r),B(r)`
 control queued. No action, source, physical mass, observation, Planck scale, or `X_max` may be inserted.
 

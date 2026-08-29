@@ -14,10 +14,10 @@ Date: 2026-08-28
    assertions including 2,400 direct-Christoffel recomputations, and 7 of 7 hostile-claim witnesses
    pass. The witnesses are not injected production mutants. A fresh zero-context internal adversary
    returned `VERIFIED_WITH_CAVEATS`; its orientation, nonorientable-loop, and evidence-semantics
-   repairs are incorporated. Fresh external review remains open.
+   repairs are incorporated. Fresh sealed external `gpt-5.4` review returned
+   `ACCEPT_BOUNDED_G290`, with no scientific defects and no remaining repairs.
 4. **Premise audit:** PASS FOR THE WHITEBOARD LEAD. The 274-row exact registry verifier and full
    repository test harness pass. No action, source, field equation, matter model, observation,
    absolute scale, history, fixed carrier, boundary, or `X_max` was imported.
 
-Therefore the current local grade is
-`LOCALLY_VERIFIED_WITH_CAVEATS__EXTERNAL_REVIEW_OPEN`.
+Therefore the current grade is `EXTERNALLY_ACCEPTED_BOUNDED_G290__NO_DEFECTS`.
