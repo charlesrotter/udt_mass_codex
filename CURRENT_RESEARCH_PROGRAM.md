@@ -105,7 +105,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister the G291-recommended orientable differential-character descent, global same-class
-metric witness, and sky-versus-pair connection comparison; stop before new dynamics. Keep
+Run preregistered G292 orientable differential-character descent, global same-class metric witness,
+and sky-versus-pair connection comparison; stop before new dynamics. Keep
 G288's general `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation,
 `X_max`, ODE/PDE, or GPU solve precedes an explicit premise ledger.

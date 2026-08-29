@@ -46,8 +46,8 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Preregister G291's orientable differential-character descent and global metric witness; stop before
-new dynamics. Keep G288's control queued.
+Run preregistered G292 orientable differential-character descent and global metric witness; stop
+before new dynamics. Keep G288's control queued.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

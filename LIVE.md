@@ -116,8 +116,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Preregister the G291-recommended orientable differential-character descent and global metric
-witness; stop before new dynamics. Keep G288's general
+Run preregistered G292 orientable differential-character descent and global metric witness; stop
+before new dynamics. Keep G288's general
 `A(r),B(r)` control queued. No action, source, mass, observation, Planck scale, `X_max`, protected
 work, or solve precedes an explicit premise ledger.
 <!-- STARTUP_CURRENT_END -->
