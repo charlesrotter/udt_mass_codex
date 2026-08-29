@@ -138,7 +138,7 @@ def main() -> None:
     f_p = sp.diff(f, r)
     f_pp = sp.diff(f, r, 2)
     scalar_curvature = sp.simplify(-f_pp - 4 * f_p / r + 2 * (1 - f) / r**2)
-    expected_curvature = -2 * a * (6 + 7 * r**2 + 5 * r**4) / (1 + r**2) ** 3
+    expected_curvature = -2 * a * (6 + 3 * r**2 + r**4) / (1 + r**2) ** 3
     exact("primary_metric_scalar_curvature", scalar_curvature, expected_curvature)
     exact("flat_profile_curvature", scalar_curvature.subs(a, 0), 0)
     exact("deformed_profile_center_curvature", sp.limit(scalar_curvature, r, 0), -12 * a)

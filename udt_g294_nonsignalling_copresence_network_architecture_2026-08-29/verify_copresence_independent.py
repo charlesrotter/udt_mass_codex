@@ -77,7 +77,7 @@ def main() -> None:
             fp = 2 * amp * radius / (denom * denom)
             fpp = 2 * amp * (1 - 3 * rr) / (denom**3)
             curvature = -fpp - 4 * fp / radius + 2 * (1 - f) / rr
-            expected = -2 * amp * (6 + 7 * rr + 5 * rr * rr) / (denom**3)
+            expected = -2 * amp * (6 + 3 * rr + rr * rr) / (denom**3)
             check(f > 0, "positive metric profile")
             check(curvature == expected, "curvature identity")
             check(curvature != 0, "inequivalent to flat")
