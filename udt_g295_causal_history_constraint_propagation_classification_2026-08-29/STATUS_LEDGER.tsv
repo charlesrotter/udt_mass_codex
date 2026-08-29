@@ -1,0 +1,12 @@
+claim	status	scope
+W6_nonsignalling_type	WORKING_FOUNDATIONAL_CLARIFICATION	nonpropagating membership versus metric-causal response only
+linear_constraint_propagation	DERIVED_BOUNDED	full-row-rank A and linear update U
+AU_equals_RA	DERIVED_BOUNDED	equivalent to invariance of ker A
+causal_mask_independent_of_propagation	DERIVED_BOUNDED	declared finite causal order only
+instant_global_projection	REJECTED_AS_CONTROLLABLE_UPDATE_WHEN_OFFCONE	finite projection witness
+whole_history_condition	MISSING_LAW_TYPE	least foliation dependent; formula open
+slice_constraint_update	CONDITIONAL_REPRESENTATION	requires supplied slicing and well-posedness
+unique_constraint_or_update	OPEN	not selected by W6 or current identities
+realized_physical_history	OPEN	requires lawful initial/boundary data after law family exists
+full_screen_update	OPEN	scalar constraint leaves independent screen evolution
+global_now	OPEN_NOT_REQUIRED	no foliation derived

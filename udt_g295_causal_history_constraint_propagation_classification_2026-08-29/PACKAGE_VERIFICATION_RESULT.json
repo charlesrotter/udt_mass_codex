@@ -1,0 +1,8 @@
+{
+  "all_pass": true,
+  "source_rows": 9,
+  "production_checks": 39,
+  "independent_assertions": 34539,
+  "hostile_catches": 12,
+  "landing": "ONE_COVARIANT_HISTORY_CONDITION_IS_THE_MINIMAL_TYPE__SLICE_CONSTRAINT_AND_CAUSAL_UPDATE_ARE_A_REPRESENTATION__FORMULA_AND_REALIZED_HISTORY_REMAIN_OPEN"
+}

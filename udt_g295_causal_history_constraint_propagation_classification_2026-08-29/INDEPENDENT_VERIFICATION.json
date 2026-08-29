@@ -1,0 +1,9 @@
+{
+  "all_pass": true,
+  "assertions": 34539,
+  "constraint_family_cases": 4235,
+  "vertex_update_cases": 315,
+  "production_imported": false,
+  "production_result_read": false,
+  "expected_landing": "ONE_COVARIANT_HISTORY_CONDITION_IS_THE_MINIMAL_TYPE__SLICE_CONSTRAINT_AND_CAUSAL_UPDATE_ARE_A_REPRESENTATION__FORMULA_AND_REALIZED_HISTORY_REMAIN_OPEN"
+}

@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 278-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 279-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -34,40 +34,22 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
 ## Dependency spine
 
 - G129--G165 are reconstruction/scaffold controls; G166--G184 derive pair pullback/equivalence;
-  G185--G189 are historical radial/flux controls; G190--G198 are formula-level regression controls.
-  G197/G198 protect the native provenance/germ boundary.
-- G199/G200/G201/G202/G203/G204/G205 cover bidirectionality, regimes, quiet overlap, and completion;
-  G206/G207/G208/G209/G210 add time-live/nonspherical robustness.
-- G211/G212/G213/G214 reconstruct without selecting values. G215/G216/G217/G218/G219/G220/G221/
-  G222/G223/G224 close supplied clock/null/screen/carry. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`;
-  G226/G227/G228/G229/G230/G231 add phase/curvature/jets/Cartan; G232/G233/G234/G235 stay
-  nonselective.
-- G236/G237/G238/G239/G240/G241/G242/G243 type conditional observations/direct redshift;
-  G244/G245/G246/G247/G248 derive branchwise sky/cone/measure, not population.
-- G249/G250/G251/G252 isolate one scale/attachment. G253 excludes scaffolds; G254/G255/G256 find no
-  lost value law. G257/G258 retain GR-active angular balance; G259/G260 forbid sphere deletion;
-  G261/G262 add W4/one-lapse structure; G263/G264 prove reversal/sign nonselection.
-- G265/G266/G267/G268 retype infinite-bare-`c`, derive `cosh/sinh`, retain provisional
-  `(sech(delta),tanh(delta))`, and prove finite reparameterization is nonselective. G269 derives the
-  transported-screen mutual clock; G270 shows normalization does not select ambient screen state.
-- G271/G272 derive the complete transported open-ball state; G273 proves bounded projective
-  uniqueness; G274 derives frame composition, not path independence. G275 leaves one homothety;
-  G276 attaches it conditionally via an independent clock record and `c_E`.
-- G277/G278 type and test declared Cepheid/optical imports, leaving resolution sensitivity. G279
-  independently retains the native core/import boundary; P1, G116/G189, fitted kernels, Lambda-CDM
-  distance, `X_max`, and protected work are absent from the executable route.
-- G280 separates projective/redshift state from Jacobi area. G281 finds no tracked complete native
-  SNe prediction: direct redshift survives, while old cubic/P1 and optical routes remain supplied or
-  conditional. Both are externally accepted after repairs.
-- G282 locates missing joint-history information in neighboring curvature. G283 admits arbitrary
-  symmetric `T(u)` while metric/Cartan/Jacobi/network identities pass. G284 adds emergent-`c_E`
-  cone reconstruction, which still does not select tide or homothety.
-- G285 provisionally distinguishes scalar (`L0`), pair (`L1`), separation germ (`L2`), network
-  (`L3`), and value propagation (`L4`); it is not adopted or canon. G286 avoids that vocabulary:
-  two regular metrics share the whole prior and all null-join jets but have inequivalent futures.
-  External review accepts the bounded result that current identities are not unique propagation.
-- G287 externally confirms that pair reversal negates directed `delta_AB` while leaving the ambient
-  `phi(r)` profile fixed. Whole-profile conjugation is distinct; no native kernel formula changed.
+  G185--G189 are historical controls; G190--G198 are formula-level regression controls. G197/G198
+  protect provenance/germ boundaries; P1, G116/G189, fitted kernels, Lambda-CDM distance, `X_max`,
+  and protected work are absent from the active route.
+- G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210 cover direction, regimes,
+  completion, and time-live robustness. G211/G212/G213/G214 reconstruct without selecting values.
+- G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock/null/screen carry;
+  G225 is a `STANDARD_GEOMETRIC_EVALUATOR`; G226/G227/G228/G229/G230/G231/G232/G233/G234/G235
+  add geometry and reconstruction without propagation.
+- G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248 type conditional observations,
+  redshift, sky, cone, and measure. G249/G250/G251/G252/G253/G254/G255/G256 isolate scale and the
+  missing law. G257/G258/G259/G260/G261/G262/G263/G264 retain angular/GR limits and sign boundaries.
+- G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276 derive mutual/projective state,
+  full carry, and one conditional scale. G277/G278/G279/G280/G281 preserve declared optical imports,
+  native provenance, direct redshift, Jacobi area, and no complete native SNe prediction.
+- G282/G283/G284/G285/G286/G287 locate neighboring tide, complete separation, nonunique propagation,
+  and pair-arrow/profile-sign typing; no kernel formula changed.
 - G288 distrusts the old audits and rebuilds the primary metric connection, curvature, nonradial
   screen, acceleration, geometric mass aspect, and null normalization. In an analytic even smooth
   center, `c2` gives the zero-tide constant-curvature leading germ; angular/Weyl departure begins at
@@ -109,27 +91,21 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   intervention can signal. A dimensionful regular metric family proves that co-presence existence
   does not select history. The narrowed missing object is a nonidentity complete-network constraint
   plus metric-causal update, not a derived formula.
+- G295 derives the bounded linear preservation theorem `AU=RA`, shows causal support is independent,
+  and identifies one covariant complete-history condition as the least-foliation-dependent type.
+  Constraint/update is its possible slice representation. This is not equation-count reduction;
+  no formula, coefficients, lawful data, or realized history is selected.
 
 ## Open boundary
 
-The corpus owns the bounded evaluator, angular/screen-before-readout, full frame carry, W5's
-provisional position interpretation, and the one-scale attachment boundary. It does not own physical
-history, populated germs/paths, native transfer, a joint depth/Jacobi law, operational distance, or
-numerical `X_max`. G280--G281 show endpoint `phi` and tracked SNe routes do not supply area/history.
-G282--G284 narrow the missing content to neighboring curvature values and close ordinary identity
-and cone reconstruction as selectors. G285 includes tide in complete separation but supplies no
-`L2 -> L3/L4` propagation. G286 shows even the whole prior metric plus every join jet does not make
-the present layer choose a future on its bounded family; G287 repairs a sign explanation without
-closing that gap. G288 adds a local center class; G289 makes the old Hopfion a viable conditional
-configuration; G290 separates topology from holonomy and selection. Coefficients, scale, mass,
-global micro band, and history remain open. G292 proves the orientable fixed-rank sector statement
-and the surviving same-sector local freedom. G293 closes scalar homogeneity and Euler number as
-hidden standalone propagation laws on their declared lanes. Physical attachment of the additive
-parameter, continuous screen/curvature propagation, populated relations, and the complete history
-remain open. This is not a no-go against a native law.
-G294 supplies a coherent home for co-presence; W6 provisionally adopts only that non-signalling type
-clarification. No global present, response operator, observation map, constraint formula, update, or
-selected history follows.
+The corpus owns the evaluator, angular/screen-before-readout, full frame carry, W5 position typing,
+and one-scale boundary. It does not own populated germs/paths, native transfer, joint depth/Jacobi
+history, operational distance, or numerical `X_max`. G280--G287 leave area, neighboring tide, and
+future propagation open. G288--G293 add center and screen/topology structure without a continuous
+history law. W6 adopts G294's non-signalling type only; no global present or response map follows.
+G295 regrades the target from one uniquely selected universe to a nonidentity well-posed solution
+family plus lawful data. The nonlinear residual, coefficients, screen propagation, data, scale,
+mass, population, and our realized history remain open. This is not a no-go against a native law.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -137,8 +113,6 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-W6 is provisionally adopted. G295 may test a finite joint `A/NL` class in which a complete
-pair/screen-network constraint and a metric-causal update are treated together. Keep co-presence
-graph, reciprocal comparison composition, and foliation ownership distinct. Keep G288's general
-`A(r),B(r)` control queued. No action, source, mass, Planck scale, observation, `X_max`, ODE/PDE, or
-GPU solve enters before a fresh map and explicit premise ledger.
+Inspect current complete metric/network objects for a lowest-rank natural nonidentity covariant
+history residual. First map full state, causal support, data, quiet GR limit, G286 discriminator,
+and screen propagation. No action, source, mass, observation, `X_max`, or solve precedes that map.

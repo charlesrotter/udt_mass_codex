@@ -25,58 +25,15 @@
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
-| G129--G165 controls | accepted with caveats | Recover `g`; no `X_max` input |
-| G166--G175 pair chain | accepted/caveats | Pullback; germ supplied |
-| G176--G180 completed pair | conditional/accepted | No history |
-| G181--G184 strata/equivalence | conditional/accepted | Nonidentifying summaries |
-| G185--G189 boundary | accepted/caveats | Transfer/P1 conditional |
-| G190--G198 | accepted/caveats | Chosen families |
-| G199/G200/G201 direction/jets | verified/caveats | No chirality |
-| G202/G203/G204/G205 quiet/completion | verified/caveats | Alternatives survive |
-| G206/G207/G208/G209/G210 channels | external/caveats | Channels differ |
-| G211/G212 basis/history bridge | verified/caveats | Flow open |
-| G213--G214 rank/descent | accepted | Rank ten |
-| G215--G217 clock chain | external/caveats | Germ open |
-| G218/G219 correspondence | verified | Type unselected |
-| G220/G221 null chord | external/repaired | Tangent open |
-| G222/G223/G224 plane/carry | external/repaired | Gluing open |
-| G225/G226 screen/phase | external/repaired | Population open |
-| G227/G228 curvature data | exact | No values/history |
-| G229/G230 metric jets | exact | No field/history |
-| G231 Cartan bridge | conditional | Law open |
-| G232/G233/G234/G235 closure | external/repaired | Nonselective |
-| G236/G237 SNe state | external | No law |
-| G238/G239/G240 held-out query | external/repaired | Inputs open |
-| G241/G242/G243 radial controls | external | Bounded negatives |
-| G244/G245/G246/G247/G248 sky/measure | external | Population open |
-| G249 scale boundary | external/repaired | One anchor remains |
-| G250 anchor types | external/repaired | Scale conditional |
-| G251 attachment ownership | external/repaired | No datum owner |
-| G252 proper-clock attachment | external/repaired | Clock fixes `ell` |
-| G253 native-kernel compression | external/repaired | No scaffold |
-| G254 solver closure | external | No residual |
-| G255 lost-closure recovery | external | No lost law |
-| G256 primary-state value rank | external/R2 | `N-1`; no propagation |
-| G257 GR quiet embedding | external | Active balance |
-| G258 sampled inverse metric | external/R1 | `12` states; one scale |
-| G259 parent-operator fork | external/repaired | Fork unselected |
-| G260 GR-quiet angular non-discard | external/R1 | Active cancellation |
-| G261 W4 ownership | external/repaired | Operator unowned |
-| G262 clock/mass-aspect bridge | external/repaired | Mass/history open |
-| G263 reversal/sign parity | external/repaired | No sector selected |
-| G264 negative-`phi` selectivity | external/packaging | Sign nonselective |
-| G265 infinite-bare-`c`/mutuality | external/repaired | Signed/even distinct |
-| G266 even-channel ownership | external/repaired | Distance/history open |
-| G267 `sech` consequences | external | Not unique |
-| G268 bounded relation equivalence | external/repaired | Nonselective |
-| G269 null-transport mutual clock | external | `M_PT<=sech(delta)` |
-| G270 transported-screen ownership | external/repaired | Full realization evaluates `W` |
-| G271 null-screen first-jet interlock | external/repaired | Finite path open |
-| G272 complete relation rapidity | external | Open-ball state |
-| G273 projective distance ownership | external | W5 later adopts interpretation |
-| G274 projective network descent | external | Full carry; radial Möbius |
-| G275 projective scale attachment | external/R4 accepted | One scale; `X_max` needs completion |
-| G276 proper-clock/`c_E` reconciliation | external/repair accepted | Clock datum fixes scale |
+| G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198 | accepted/caveats | Reconstruction and chosen controls; germ/history open |
+| G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210 | verified/caveats | Direction, quiet, completion, channels |
+| G211/G212/G213/G214/G215/G216/G217/G218/G219 | accepted/caveats | Rank, clock, correspondence; flow open |
+| G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231 | external/exact | Null/screen/curvature/jets; values open |
+| G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248 | external/repaired | Closure/observational/sky controls; nonselective |
+| G249/G250/G251/G252/G253/G254/G255/G256 | external/repaired | One scale; no residual or value propagation |
+| G257/G258/G259/G260/G261/G262/G263/G264 | external/repaired | GR/angular/W4/sign controls; law open |
+| G265/G266/G267/G268/G269/G270 | external/repaired | Mutual state; `M_PT<=sech(delta)`; screen retained |
+| G271/G272/G273/G274/G275/G276 | external/repaired | Projective state/carry; one conditional scale; history open |
 | G277 observational anchor ownership | external/repair accepted | Conditional Cepheid/optical route |
 | G278 Cepheid/DES holdout | external/repair accepted | Resolution-sensitive lead |
 | G279 native-interface provenance | external/repair | Native core intact |
@@ -91,6 +48,7 @@
 | G288--G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
 | G293 architecture funnel | internal multi-agent/caveats | Scalar homogeneous flow is uncalibrated; Euler sector leaves local flux free; law unselected |
 | G294 co-presence architecture | internal independent/caveats | Connectedness can be nonpropagating; causal update remains missing |
+| G295 causal-history classification | internal independent/caveats | One covariant law type; sliced `AU=RA`; formula/history open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -122,8 +80,9 @@ None selects completion/`X_max`.
   the complete screen-aware G269 inequality remains controlling. Pair graphs, reciprocal groupoids,
   and physical foliations are distinct. Correlation can coexist with zero same-slice response, but
   instant global constraint enforcement after arbitrary intervention can signal. The well-typed
-  missing architecture is a nonidentity complete-network constraint plus causal update; no formula,
-  adoption, or history follows.
+  missing architecture is a nonidentity complete-network constraint plus causal update; W6 adopts
+  only the non-signalling type. G295 shows the pair may be one covariant history condition split by
+  a slicing; `AU=RA` controls bounded linear propagation. No formula or realized history follows.
 
 ## Carrier, action, source, and matter
 
@@ -141,5 +100,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 278-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 279-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

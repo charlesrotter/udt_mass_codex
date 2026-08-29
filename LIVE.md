@@ -51,49 +51,29 @@ can. An explicit dimensionful metric family shares one co-presence slicing while
 The narrowed missing object is a nonidentity complete-network constraint plus causal update; no
 formula, global present, response operator, observation map, or history is derived. W6 now adopts
 only G294's non-signalling type clarification provisionally.
+G295 then shows that the missing constraint and causal update can be one covariant complete-history
+condition whose split is slicing-dependent. For full-row-rank linear controls, preservation is
+exactly `AU=RA`; causality is an independent support gate. This is type simplification, not fewer
+independent equations. Current structure selects no formula or realized history; one lawful family
+still admits distinct initial/boundary data.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
-Compact route ledger:
+Route tokens: G190--G198 are formula-level regression controls; G197 excludes P1, G116/G189, fits,
+`X_max`, scaffolds, and protected construction inputs. Supplied-to-reconstruction route:
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
+G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
+G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
+G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
-- G190--G198 are chosen-family/formula-level regression controls; G197 excludes P1, G116/G189,
-  fits, `X_max`, scaffolds, and protected construction inputs.
-- G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock/correspondence/carry;
-  G225/G226/G227/G228/G229/G230/G231 add geometric transport, phase, curvature, jets, and Cartan;
-  G232/G233/G234/G235 reconstruct without selecting values.
-- G236/G237/G238/G239/G240/G241/G242/G243 freeze and type conditional SNe/redshift controls;
-  G244/G245/G246/G247/G248 remain branchwise, not a populated history.
-- G249/G250/G251/G252/G253/G254/G255/G256 isolate one scale, exclude scaffolds, and retain the
-  missing value/history law. G257/G258/G259/G260/G261/G262/G263/G264 preserve GR-active angular
-  balance, W4, the one-lapse hierarchy, and sign nonselection.
-- G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276 derive the bounded mutual state,
-  null-screen interlock, projective/frame descent, homothety boundary, and conditional clock/`c_E`
-  scale attachment without selecting history, population, operational distance, or `X_max`.
-
-Current observational/history boundary:
-
-- G277/G278 use declared, resolution-sensitive Cepheid/optical imports. G279 preserves the native
-  core/import boundary. G280 separates redshift/W5 state from Jacobi area; G281 finds no tracked
-  native SNe prediction, while P1 and G116/G189 remain controls.
-- G282/G283 locate arbitrary neighboring tidal values; identities do not select them. G284 shows
-  `c_E` fixes cone slope and cones reconstruct tide, still without selecting tide or homothety.
-- G285 separates scalar, pair, germ, network, and propagation. G286's same-prior/all-join-jet twins
-  have different futures. G287 separates profile sign from arrow sign; no kernel changed.
-- G288 derives partial center interlock: `c2` controls clock/acceleration/curvature/geometric-`mu`,
-  while angular/Weyl tide begins at independent `c4`; no mass, Planck scale, or history follows.
-- G289 keeps the Hopf texture conditional and nonselective after accepted repairs. G290 derives
-  supplied holonomy/flux transgression. G291's lead becomes G292's accepted theorem: oriented total
-  Euler flux is topological, but same-pair-block, same-class metrics have different local flux.
-  G225 sky and G290 pair screens require supplied bundle identification.
-- G293 does not change the metric or kernel. It closes two proposed shortcuts on bounded lanes:
-  homogeneous scalar flow is parameterization until physically attached, and Euler number fixes a
-  sector rather than local curvature evolution. G259's strict conditional local class remains
-  available but was not widened into a general UDT law.
-- G294 does not change the metric or kernel and does not canonize co-presence or infinite signal
-  speed. It classifies a causally coherent `A/NL` architecture and retains all screen, scale,
-  population, response-law, and history boundaries.
+Observational/history route:
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295.
+The first group retains declared optical imports and no native SNe prediction. The second locates
+the open tide/history propagation. The third derives center, screen/topology, architecture, and
+co-presence constraints without changing the metric or kernel or selecting history.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -121,9 +101,9 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-W6 is provisionally adopted. Open G295 only after a fresh map and explicit premise ledger, then test
-the smallest joint `A/NL` class: a nonidentity complete pair/screen-network constraint plus
-metric-causal update, with co-presence graph, reciprocal comparison composition, and foliation
-ownership distinct. Keep G288's general `A(r),B(r)` control queued. No action, source, mass,
-observation, Planck scale, `X_max`, protected work, ODE/PDE, or solve enters the bounded classification.
+G295 leaves one bounded target: inspect current complete metric/network objects for a lowest-rank
+diffeomorphism- and screen-gauge-natural nonidentity whole-history residual. Before any derivation,
+map its complete state, causal principal support, data burden, quiet GR limit, G286 discriminator,
+and screen propagation. No observation, action, source, matter, scale, `X_max`, protected work, or
+solve enters before that map.
 <!-- STARTUP_CURRENT_END -->

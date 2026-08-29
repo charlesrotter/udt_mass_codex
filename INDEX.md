@@ -6,7 +6,7 @@
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`.
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing rows and evidence.
-## Active relational frontier — authority: 278-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 279-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
@@ -97,21 +97,18 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
-- W5 physical normalized projective pair-position working clarification: `founding.md`; controlling derivation/descent:
-  `udt_g273_projective_pair_distance_foundational_ownership_2026-08-26/` and `udt_g274_projective_pair_position_network_descent_2026-08-26/`.
-- W6 non-signalling co-presence working clarification: `founding.md`; bounded type analysis:
-  `udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/`.
+- W5 projective-position clarification: `founding.md`; G273/G274 above. W6 non-signalling co-presence clarification: `founding.md`; G294 above.
+- G295 causal-history type: `udt_g295_causal_history_constraint_propagation_classification_2026-08-29/`.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
-- Current boundary: G286--G294 above; G282--G285 are prior controls.
+- Current boundary: G286--G295 above; G282--G285 are prior controls.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary-metric pair kernel: `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Primary-metric bounded pair pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
 - Supplied germs/incidence controls: query G168--G171, then controlling G215, in the registry.
 - Historical limiting-frame semantics: `udt_xmax_asymptotic_limit_frame_correction_2026-08-05/`
 - Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
-- Historical negative controls — never kernel inputs: G164/G165 scaffold controls: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`;
-  `udt_g165_conformal_fiber_rank_audit_2026-08-18/`
+- Historical negative controls — never kernel inputs: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
 - Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 ## Matter/stability lane
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.

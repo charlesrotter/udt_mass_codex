@@ -1,0 +1,274 @@
+{
+  "all_pass": true,
+  "exact_checks": 39,
+  "checks": [
+    {
+      "name": "constraint_rank",
+      "value": "1",
+      "expected": "1",
+      "pass": true
+    },
+    {
+      "name": "constraint_propagation_AU_equals_RA",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "causal_family_lower_triangular",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "input_constraint_zero",
+      "value": "0",
+      "expected": "0",
+      "pass": true
+    },
+    {
+      "name": "updated_constraint_zero",
+      "value": "0",
+      "expected": "0",
+      "pass": true
+    },
+    {
+      "name": "first_distinct_update_preserves",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "second_distinct_update_preserves",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "updates_are_distinct",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "first_update_causal",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "second_update_causal",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "causal_bad_is_causal",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "causal_bad_fails_constraint",
+      "value": "False",
+      "expected": "False",
+      "pass": true
+    },
+    {
+      "name": "global_projection_idempotent",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "global_projection_hits_constraint",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "global_projection_offcone_02",
+      "value": "1/2",
+      "expected": "1/2",
+      "pass": true
+    },
+    {
+      "name": "global_projection_offcone_20",
+      "value": "1/2",
+      "expected": "1/2",
+      "pass": true
+    },
+    {
+      "name": "global_projection_not_causal_mask",
+      "value": "False",
+      "expected": "False",
+      "pass": true
+    },
+    {
+      "name": "dense_bad_not_causal",
+      "value": "False",
+      "expected": "False",
+      "pass": true
+    },
+    {
+      "name": "dense_bad_not_constraint_preserving",
+      "value": "False",
+      "expected": "False",
+      "pass": true
+    },
+    {
+      "name": "triangle_cycle_identity",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "cycle_identity_survives_arbitrary_causal_vertex_update",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "vertex_update_causal",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "incidence_rank",
+      "value": "2",
+      "expected": "2",
+      "pass": true
+    },
+    {
+      "name": "incidence_constant_kernel",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "full_state_constraint_preserved_1",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "full_state_constraint_preserved_2",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "different_screen_updates_same_scalar_constraint",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "full_state_dimension_retained",
+      "value": "5",
+      "expected": "5",
+      "pass": true
+    },
+    {
+      "name": "future_zero_admitted",
+      "value": "0",
+      "expected": "0",
+      "pass": true
+    },
+    {
+      "name": "future_seven_rejected",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "initial_1_admissible",
+      "value": "0",
+      "expected": "0",
+      "pass": true
+    },
+    {
+      "name": "initial_2_admissible",
+      "value": "0",
+      "expected": "0",
+      "pass": true
+    },
+    {
+      "name": "initial_data_distinct",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "history_1_constraints_propagate",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "history_2_constraints_propagate",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "same_law_different_histories",
+      "value": "True",
+      "expected": "True",
+      "pass": true
+    },
+    {
+      "name": "unified_sliced_residual_dimension",
+      "value": "4",
+      "expected": "4",
+      "pass": true
+    },
+    {
+      "name": "unified_residual_contains_constraint",
+      "value": "-x0 + x1",
+      "expected": "-x0 + x1",
+      "pass": true
+    },
+    {
+      "name": "unified_residual_contains_update",
+      "value": "-alpha*x0 + y0",
+      "expected": "-alpha*x0 + y0",
+      "pass": true
+    }
+  ],
+  "classification": [
+    {
+      "class": "IDENTITY_DESCENT_ONLY",
+      "nonidentity": false,
+      "causal": "COMPATIBLE_BUT_NO_RESPONSE_LAW",
+      "status": "RECONSTRUCTIVE_NOT_HISTORY_SELECTIVE"
+    },
+    {
+      "class": "INSTANT_GLOBAL_PROJECTION",
+      "nonidentity": true,
+      "causal": false,
+      "status": "REJECTED_AS_CONTROLLABLE_UPDATE_WHEN_OFFCONE_ENTRIES_ARE_ACTIVE"
+    },
+    {
+      "class": "SLICE_CONSTRAINT_PLUS_CAUSAL_UPDATE",
+      "nonidentity": true,
+      "causal": true,
+      "status": "VIABLE_REPRESENTATION_IF_AU_EQUALS_RA_AND_A_SLICING_IS_OWNED"
+    },
+    {
+      "class": "WHOLE_HISTORY_COVARIANT_CONDITION",
+      "nonidentity": true,
+      "causal": "REQUIRES_WELL_POSED_METRIC_CAUSAL_RESPONSE",
+      "status": "LEAST_FOLIATION_DEPENDENT_MISSING_LAW_TYPE_FORMULA_OPEN"
+    },
+    {
+      "class": "INITIAL_OR_BOUNDARY_DATA_ONLY",
+      "nonidentity": "MEMBER_SELECTION_ONLY",
+      "causal": "NOT_AN_UPDATE",
+      "status": "CAN_SELECT_ONE_MEMBER_ONLY_AFTER_A_HISTORY_LAW_EXISTS"
+    }
+  ],
+  "landing": "ONE_COVARIANT_HISTORY_CONDITION_IS_THE_MINIMAL_TYPE__SLICE_CONSTRAINT_AND_CAUSAL_UPDATE_ARE_A_REPRESENTATION__FORMULA_AND_REALIZED_HISTORY_REMAIN_OPEN",
+  "grade": "INTERNALLY_DERIVED_PENDING_INDEPENDENT_VERIFICATION"
+}

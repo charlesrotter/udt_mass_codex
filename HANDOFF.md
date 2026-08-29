@@ -7,35 +7,17 @@
 ## Resume anchor — 2026-08-29
 
 G166--G276 is the structural spine; G277--G281 control observations; G282--G284 locate the
-history/Jacobi value gap; G285 retypes equal-scalar/different-tide cases as different complete
-separation germs; G286 proves the current identity/evaluator layer does not uniquely continue a
-whole shared prior metric, even with every join jet fixed. G287 externally confirms that pair
-reversal flips directed `delta`, not the ambient profile; no kernel changed. G288 rebuilds the
-analytic even smooth center: its quadratic germ is zero-tide constant-curvature, while angular tide
-begins independently at quartic order. G289 keeps the old Hopfion conditional/frame-dependent;
-conformal twins carry it with different curvature. G290 derives supplied screen holonomy and flux
-transgression. G291's three-agent lead is closed by G292 for supplied smooth oriented positive
-rank-two screens: total Euler flux persists, but a global same-pair-block, same-class metric family
-changes local flux. G225 sky and G290 pair screens require supplied bundle identification. External
-reviews accept these bounded results and G292's four repairs without scientific change.
-G293 internally classifies two proposed shortcuts with caveats. Continuous homogeneous scalar depth
-is `delta=ks` only on a supplied additive parameter, with `k` parameterization-dependent; endpoint
-composition alone is not homogeneity. Signed linear depth can pass through a quiet middle. A lawful
-time-live fixed-Euler screen family retains arbitrary local flux, so topology classifies a sector
-without propagating it. G259's strict conditional class is inherited, not generalized. Three
-specialist reviews support the bounded landing; the isolated zero-context rehearsal stopped before
-evidence read because mandatory Git fetch was unavailable and returned no verdict.
-G294 internally derives and independently verifies with caveats that “foundational infinite c” can
-be typed coherently only as nonpropagating relational connectedness, not controllable signal speed.
-Positive magnitude and signed depth coexist; the planar even `sech` result remains conditional and
-G269 retains active screen mismatch. Pair graph, reciprocal comparison groupoid, and physical
-foliation are distinct. Correlation can coexist with zero same-slice response; instantaneous global
-constraint re-enforcement after arbitrary local intervention can signal. A dimensionful regular
-metric counterfamily proves co-presence existence does not select history. The candidate missing type
-is a nonidentity complete-network constraint plus metric-causal update, not a derived law.
-Charles then provisionally adopts only the W6 type clarification: co-presence may be nonpropagating
-relational membership, while controllable observable response remains metric-causal. W6 is not canon,
-global now, a constraint/update formula, or a history law.
+history/Jacobi value gap; G285 retypes complete separation; G286 supplies shared-prior inequivalent
+futures; G287 separates pair-arrow from profile sign. G288 derives center interlock, G289 keeps the
+Hopfion conditional, and G290/G291/G292 separate screen holonomy/Euler sector from local flux and
+history selection. G293 shows scalar homogeneity is parameterization and Euler topology is not
+continuous propagation. G294 types “foundational infinite c” as nonpropagating connectedness, not
+signal speed; instant global enforcement can signal. W6 provisionally adopts only that type
+clarification: response remains metric-causal, with no global now, formula, or history law.
+G295 derives the bounded compatibility condition `AU=RA`, separates causal support from constraint
+propagation, and retypes constraint/update as a possible slice representation of one covariant
+history condition. It is type simplification, not fewer equations; formula and realized history
+remain open.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -51,23 +33,10 @@ G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
-W5 provisionally calls complete screen-retaining projective state physical normalized pair position;
-it is not canon, dimensional distance, or a kernel change. G275 leaves one homothety; G276 attaches
-it conditionally through an independent clock record and `c_E`. G277/G278 use declared
-Cepheid/optical imports; G279 keeps the native core/import boundary intact. G280 separates
-redshift/projective state from Jacobi area. G281 finds no tracked complete native SNe prediction;
-direct redshift and metric/Jacobi evaluation survive.
-
-G282 places missing joint-history information in neighboring curvature. G283 admits arbitrary
-smooth symmetric `T(u)` while owned compatibility identities pass. G284 shows `c_E` fixes local
-cone slope and neighboring cones reconstruct the tide, but do not select it or absolute scale. G285's
-`L0` scalar -> `L1` pair -> `L2` separation germ -> `L3` network -> `L4` value propagation is
-provisional, not canon. G286 independently gives two regular metrics with the same whole prior and
-all null-join jets but inequivalent future curvature. External review accepted this bounded
-compatibility-not-propagation result; a stronger native principle remains possible. G287 keeps
-G267's even ends distinct from signed profile regimes. G288 shows partial local interlock: `c2`
-controls clock/acceleration/curvature/geometric-`mu`, while angular/Weyl response begins at `c4`.
-The exact center returns to `phi=0`; no Planck scale, physical mass, global band, or history follows.
+W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
+G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
+and no tracked native SNe prediction. G282/G283/G284/G285/G286/G287/G288 retain the open neighboring
+tide, propagation, profile, scale, mass, and history boundaries.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw data:
@@ -84,10 +53,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: W6 is provisionally adopted. Open G295 after a fresh map and premise ledger to classify the
-smallest joint `A/NL` candidate containing a complete-network constraint and metric-causal update.
-Keep co-presence graph, reciprocal comparison composition, and foliation ownership distinct. Keep
-G288's general `A(r),B(r)` control queued. No action, source, physical mass, observation, Planck
-scale, `X_max`, ODE/PDE, or solve enters the bounded classification.
+Next: inspect complete metric/network objects for a lowest-rank natural nonidentity whole-history
+residual. Map full state, causal support, data, quiet GR limit, G286 discriminator, and screen
+propagation first. No action, source, mass, observation, Planck scale, `X_max`, or solve precedes it.
 
 <!-- STARTUP_CURRENT_END -->

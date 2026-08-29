@@ -1,0 +1,66 @@
+{
+  "all_pass": true,
+  "catch_count": 12,
+  "catches": [
+    {
+      "name": "missing_constraint_compensation",
+      "caught": true,
+      "reason": "AU no longer factors through A"
+    },
+    {
+      "name": "dense_projection_called_causal",
+      "caught": true,
+      "reason": "off-cone upper entry remains"
+    },
+    {
+      "name": "causal_mask_called_constraint_propagation",
+      "caught": true,
+      "reason": "causality does not imply preservation"
+    },
+    {
+      "name": "cycle_identity_called_value_selector",
+      "caught": true,
+      "reason": "distinct values satisfy the same composition identity"
+    },
+    {
+      "name": "scalar_constraint_called_complete_screen_law",
+      "caught": true,
+      "reason": "screen update changes invisibly to scalar constraint"
+    },
+    {
+      "name": "one_law_called_one_history",
+      "caught": true,
+      "reason": "initial data remain"
+    },
+    {
+      "name": "W6_called_constraint_formula",
+      "caught": true,
+      "reason": "W6 retains formula boundary"
+    },
+    {
+      "name": "W6_called_global_now",
+      "caught": true,
+      "reason": "W6 retains foliation boundary"
+    },
+    {
+      "name": "W6_called_kernel_change",
+      "caught": true,
+      "reason": "kernel non-regression explicit"
+    },
+    {
+      "name": "finite_matrix_called_field_equation",
+      "caught": true,
+      "reason": "method provenance explicit"
+    },
+    {
+      "name": "slicing_called_preferred_foliation",
+      "caught": true,
+      "reason": "slicing ownership remains open"
+    },
+    {
+      "name": "observations_smuggled_into_classification",
+      "caught": true,
+      "reason": "outcome blindness explicit"
+    }
+  ]
+}

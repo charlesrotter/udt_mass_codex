@@ -1,0 +1,10 @@
+# G295 commands
+
+```bash
+python3 udt_g295_causal_history_constraint_propagation_classification_2026-08-29/derive_causal_history_classification.py
+python3 udt_g295_causal_history_constraint_propagation_classification_2026-08-29/verify_causal_history_independent.py
+python3 udt_g295_causal_history_constraint_propagation_classification_2026-08-29/run_catch_proofs.py
+python3 udt_g295_causal_history_constraint_propagation_classification_2026-08-29/verify_package.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/ -q
+```

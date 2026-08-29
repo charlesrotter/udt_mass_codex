@@ -1,0 +1,6 @@
+class	constraint_status	causal_status	foliation_status	history_role	G295_verdict
+IDENTITY_DESCENT_ONLY	identity/reconstructive	compatible but no response law	none required	accepts arbitrary valued compatible networks	not a history law
+INSTANT_GLOBAL_PROJECTION	nonidentity	off-cone entries generically active	simultaneous slice assumed	forces a slice but can signal	rejected as controllable update
+SLICE_CONSTRAINT_PLUS_CAUSAL_UPDATE	nonidentity possible	viable when cone-sparse and AU=RA	supplied slicing required	defines an admissible evolution family	conditional representation
+WHOLE_HISTORY_COVARIANT_CONDITION	nonidentity required	must have well-posed metric-causal response	no preferred slicing required	defines the physical solution family	least-foliation-dependent missing law type; formula open
+INITIAL_OR_BOUNDARY_DATA_ONLY	member selection only	not an update	depends on chosen data surface	chooses within an existing law family	cannot replace the history law
