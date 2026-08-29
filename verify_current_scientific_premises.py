@@ -199,7 +199,7 @@ def replay_package_with_current_registry_rows_removed(
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
         "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
-        "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
+        "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
         dict.fromkeys(legacy_later_rows + removed_ids)
@@ -374,6 +374,7 @@ def validate_startup_surface(root: Path) -> None:
             "G292",
             "G293",
             "G294",
+            "W6",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -417,7 +418,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "277-row exact registry",
+            "278-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -636,6 +637,7 @@ def validate_startup_surface(root: Path) -> None:
             "G290",
             "G293",
             "G294",
+            "W6",
             "G291",
             "G292",
             "W5",
@@ -752,6 +754,7 @@ def validate_startup_surface(root: Path) -> None:
             "G292",
             "G293",
             "G294",
+            "W6",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "STANDARD_GEOMETRIC_EVALUATOR",
@@ -860,11 +863,12 @@ def validate_startup_surface(root: Path) -> None:
             "G292",
             "G293",
             "G294",
+            "W6",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "277-row",
+            "278-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1226,9 +1230,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 277, "premise registry must contain exactly 277 rows")
+    require(len(rows) == 278, "premise registry must contain exactly 278 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 277, "duplicate premise id")
+    require(len(by_id) == 278, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1386,6 +1390,36 @@ def main() -> None:
         "W5 also does not change F1--F4, W1, the metric, or the reciprocal kernel",
     ):
         require(token in founding_w5, f"founding W5 guard absent: {token}")
+    w6 = by_id["W6"]
+    require(
+        w6["current_status"].startswith(
+            "OWNER_ADOPTED_WORKING_FOUNDATIONAL_CLARIFICATION__AUTHORIZED_BY_CHARLES_ROTTER_2026_08_29__NOT_CANON"
+        ),
+        "W6 owner-adopted working grade changed",
+    )
+    require(w6["epistemic_label"] == "WORKING", "W6 epistemic label changed")
+    require(
+        w6["active_use"]
+        == "ACTIVE_WORKING_TYPE_CLARIFICATION_OF_RELATIONAL_MEMBERSHIP_VERSUS_CAUSAL_RESPONSE_ONLY",
+        "W6 scope widened",
+    )
+    require(w6["controlling_source"] == "founding.md", "W6 source changed")
+    require(
+        all(token in w6["open_scope"] for token in ("constraint", "causal", "population", "history", "Xmax")),
+        "W6 open boundary narrowed",
+    )
+    require(
+        all(token in w6["forbidden_regression"] for token in ("literal signal speed", "global now", "response operator", "Xmax")),
+        "W6 regression guard missing",
+    )
+    for token in (
+        "### W6. Non-signalling co-presence",
+        "provisionally authorized by Charles Rotter on 2026-08-29",
+        "It is not a signal, worldline, response kernel, or speed",
+        "Every controllable observable response must remain supported inside the causal structure",
+        "It changes neither F1--F4, W1, W5, the metric, nor the reciprocal kernel",
+    ):
+        require(token in founding_w5, f"founding W6 guard absent: {token}")
     g276 = ROOT / "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26"
     for name in ("MAP.md", "PREMISE_LEDGER.tsv", "PREREGISTRATION.md", "SOURCE_MANIFEST.tsv"):
         require((g276 / name).is_file(), f"G276 preregistration file missing: {name}")
@@ -14092,7 +14126,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

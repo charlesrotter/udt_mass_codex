@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 277-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 278-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -25,6 +25,11 @@ W5 is Charles's provisional, noncanon interpretation: the complete screen-retain
 relation state is physical normalized pair position. Full path-labelled frame morphism is required
 when screen state is active. W5 changes neither metric nor kernel and supplies no scale, history,
 population, operational distance, or `X_max`.
+
+W6 is Charles's provisional, noncanon type clarification: co-presence may denote non-propagating
+relational membership or admissibility, while controllable observable response remains supported by
+the completed metric's causal structure. It supplies no graph population, global now, constraint,
+update, response map, history, distance, scale, or `X_max` and changes neither metric nor kernel.
 
 ## Dependency spine
 
@@ -122,8 +127,9 @@ and the surviving same-sector local freedom. G293 closes scalar homogeneity and 
 hidden standalone propagation laws on their declared lanes. Physical attachment of the additive
 parameter, continuous screen/curvature propagation, populated relations, and the complete history
 remain open. This is not a no-go against a native law.
-G294 supplies a coherent home for co-presence but no physical adoption, global present, response
-operator, observation map, constraint formula, update, or selected history.
+G294 supplies a coherent home for co-presence; W6 provisionally adopts only that non-signalling type
+clarification. No global present, response operator, observation map, constraint formula, update, or
+selected history follows.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -131,9 +137,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Ponder with Charles before opening G295. Decide whether to provisionally adopt only the G294
-non-signalling type clarification. If not, test a finite joint `A/NL` class in which a complete
+W6 is provisionally adopted. G295 may test a finite joint `A/NL` class in which a complete
 pair/screen-network constraint and a metric-causal update are treated together. Keep co-presence
 graph, reciprocal comparison composition, and foliation ownership distinct. Keep G288's general
 `A(r),B(r)` control queued. No action, source, mass, Planck scale, observation, `X_max`, ODE/PDE, or
-GPU solve precedes a fresh map and explicit premise ledger.
+GPU solve enters before a fresh map and explicit premise ledger.

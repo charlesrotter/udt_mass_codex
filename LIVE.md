@@ -19,6 +19,9 @@ signal speed. The projective readout `chi_AB=tanh(delta_AB)` is uniquely derived
 normalized scale-free linear-fractional class. W5 is Charles's provisional
 `WORKING_FOUNDATIONAL_CLARIFICATION`: physical normalized pair position is the complete
 screen-retaining projective relation state. It is not canon and changes neither metric nor kernel.
+W6 is Charles's provisional `WORKING_FOUNDATIONAL_CLARIFICATION`: co-presence may denote
+non-propagating relational membership, while every controllable observable response remains inside
+the completed metric's causal structure. It is not canon, signal speed, global now, or a history law.
 
 G166--G276 is the active structural spine; G277--G281 control the observational interface and its
 provenance; G282 types the remaining joint history/Jacobi information; G283 tests the owned
@@ -46,7 +49,8 @@ are distinct. A physical global “now” requires an owned integrable timelike 
 need not signal, but instantaneous global constraint enforcement after arbitrary local intervention
 can. An explicit dimensionful metric family shares one co-presence slicing while curvature varies.
 The narrowed missing object is a nonidentity complete-network constraint plus causal update; no
-formula, adoption, global present, response operator, observation map, or history is derived.
+formula, global present, response operator, observation map, or history is derived. W6 now adopts
+only G294's non-signalling type clarification provisionally.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -117,10 +121,9 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-PONDER with Charles before opening G295. Decide whether to adopt only the non-signalling type
-clarification provisionally. Otherwise test the smallest joint `A/NL` class: a nonidentity complete
-pair/screen-network constraint plus metric-causal update, with co-presence graph, reciprocal
-comparison composition, and foliation ownership distinct. Keep G288's general `A(r),B(r)` control
-queued. No action, source, mass, observation, Planck scale, `X_max`, protected work, ODE/PDE, or solve
-precedes a fresh map and explicit premise ledger.
+W6 is provisionally adopted. Open G295 only after a fresh map and explicit premise ledger, then test
+the smallest joint `A/NL` class: a nonidentity complete pair/screen-network constraint plus
+metric-causal update, with co-presence graph, reciprocal comparison composition, and foliation
+ownership distinct. Keep G288's general `A(r),B(r)` control queued. No action, source, mass,
+observation, Planck scale, `X_max`, protected work, ODE/PDE, or solve enters the bounded classification.
 <!-- STARTUP_CURRENT_END -->

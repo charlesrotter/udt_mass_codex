@@ -33,6 +33,9 @@ foliation are distinct. Correlation can coexist with zero same-slice response; i
 constraint re-enforcement after arbitrary local intervention can signal. A dimensionful regular
 metric counterfamily proves co-presence existence does not select history. The candidate missing type
 is a nonidentity complete-network constraint plus metric-causal update, not a derived law.
+Charles then provisionally adopts only the W6 type clarification: co-presence may be nonpropagating
+relational membership, while controllable observable response remains metric-causal. W6 is not canon,
+global now, a constraint/update formula, or a history law.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -81,11 +84,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: ponder with Charles before opening G295. Decide whether to provisionally adopt only G294's
-non-signalling type clarification. Otherwise classify the smallest joint `A/NL` candidate containing
-a complete-network constraint and metric-causal update. Keep co-presence graph, reciprocal comparison
-composition, and foliation ownership distinct. Keep G288's general `A(r),B(r)` control queued. No
-action, source, physical mass, observation, Planck scale, `X_max`, ODE/PDE, or solve may be inserted
-without a fresh map and premise ledger.
+Next: W6 is provisionally adopted. Open G295 after a fresh map and premise ledger to classify the
+smallest joint `A/NL` candidate containing a complete-network constraint and metric-causal update.
+Keep co-presence graph, reciprocal comparison composition, and foliation ownership distinct. Keep
+G288's general `A(r),B(r)` control queued. No action, source, physical mass, observation, Planck
+scale, `X_max`, ODE/PDE, or solve enters the bounded classification.
 
 <!-- STARTUP_CURRENT_END -->

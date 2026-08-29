@@ -17,7 +17,8 @@
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
 | Projective pair coordinate | `DERIVED` in declared class/radial stratum | `chi=tanh(phi_pair)` plus open-ball vector | Adoption; scale; completion |
 | Co-presence | `WORKING` | Membership | Population; signalling |
-| G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Adoption; constraint/update formula; history |
+| G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Constraint/update formula; history |
+| Non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` W6 | Nonpropagating relational membership; metric-causal controllable response | Constraint/update formula; population; history; global-now ownership |
 
 ## Reconstruction hierarchy
 
@@ -140,5 +141,5 @@ evaluator survive; no native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 277-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 278-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

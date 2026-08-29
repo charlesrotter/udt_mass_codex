@@ -247,6 +247,19 @@ metric history, relation/path population, or path-independence law; or derive `X
 separate operational or global-completion questions. W5 also does not change F1--F4, W1, the metric,
 or the reciprocal kernel.
 
+### W6. Non-signalling co-presence
+
+`WORKING_FOUNDATIONAL_CLARIFICATION`, provisionally authorized by Charles Rotter on 2026-08-29,
+not canon: co-presence may denote non-propagating membership or admissibility in one complete
+relational state. It is not a signal, worldline, response kernel, or speed. Every controllable
+observable response must remain supported inside the causal structure of the completed UDT metric.
+
+W6 does not assert a universal global present, select a co-presence graph or physical foliation,
+populate observer/event relations, or provide the nonidentity complete-network constraint, causal
+update, response functional, observation map, metric history, distance attachment, or `X_max`.
+It changes neither F1--F4, W1, W5, the metric, nor the reciprocal kernel. G294 supplies the bounded
+type analysis; a concrete constraint and causal preservation law remain `OPEN`.
+
 ### Observational anchors
 
 \(c_E\) and \(G_{\rm obs}\) are accepted `OBSERVED` anchors. Neither is presently an equation for
