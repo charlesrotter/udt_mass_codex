@@ -1,0 +1,9 @@
+R0_sign	b_class	positive_roots	static_domain	center	outer_causal_ceiling
+positive	b>=0	one	0<r<r_outer	regular_only_if_b=0	yes
+positive	-4/(3*sqrt(R0))<b<0	two	r_inner<r<r_outer	excluded_nonstatic_and_singular	yes
+positive	b=-4/(3*sqrt(R0))	one_double	degenerate_only	excluded	degenerate_not_simple
+positive	b<-4/(3*sqrt(R0))	none	none	excluded	no
+zero	b>=0	none	0<r<infinity	regular_only_if_b=0	no
+zero	b<0	one	r_h<r<infinity	excluded	no_outer_ceiling
+negative	b>=0	none	0<r<infinity	regular_only_if_b=0	no
+negative	b<0	one	r_h<r<infinity	excluded	no_outer_ceiling

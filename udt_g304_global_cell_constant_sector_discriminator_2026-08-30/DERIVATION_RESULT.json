@@ -1,0 +1,66 @@
+{
+  "WRL": {
+    "compatibility": "not an exact member of the G302 tracefree family",
+    "profile": "1-r/X",
+    "tracefree_ODE_residual": "2r/X"
+  },
+  "assertions": 65,
+  "center_regular_sign_census": {
+    "R0_negative": {
+      "chi_limit": "-1",
+      "finite_outer_causal_ceiling": false,
+      "optical_reach": "pi*L/2 finite",
+      "phi_limit": "-infinity",
+      "profile": "1+r^2/L^2",
+      "proper_reach": "infinite"
+    },
+    "R0_positive": {
+      "X_relation": "X=sqrt(12/R0)",
+      "chi_limit": "+1",
+      "curvature": "regular",
+      "finite_outer_causal_ceiling": true,
+      "optical_reach": "infinite",
+      "phi_limit": "+infinity",
+      "profile": "1-r^2/X^2",
+      "proper_reach": "pi*X/2 finite"
+    },
+    "R0_zero": {
+      "finite_outer_causal_ceiling": false,
+      "optical_reach": "infinite",
+      "profile": "1",
+      "proper_reach": "infinite"
+    }
+  },
+  "direct_geometry": {
+    "Kretschmann": "R0^2/6+12b^2/r^6",
+    "Ricci": "Ric_ab=(R0/4)g_ab",
+    "Weyl_squared": "12b^2/r^6",
+    "scalar": "R=R0",
+    "smooth_center": "b=0"
+  },
+  "family": "f(r)=1+b/r-(R0/12)r^2",
+  "historical_negative": "source-equation scoped and conditions-changed; no automatic export",
+  "landing": "FOUNDED_RELATION_LAYERS_NONSELECTIVE__WORKING_FINITE_CEILING_CONDITIONALLY_SELECTS_POSITIVE_CONSTANT_IN_PRIMARY_STATIC_SMOOTH_CENTER_BRANCH__X_EMERGES__FULL_WRL_ARCHITECTURE_INCOMPATIBLE",
+  "maximum_claim": "bounded conditional architecture classification; no UDT field equation, history, observation, scale value, or canonization",
+  "question_class": "METRIC_LED_BOUNDED_GLOBAL_COMPLETION_CLASSIFICATION",
+  "relation_layers": {
+    "G235": "rank-complete network reconstructive not selective",
+    "G292": "Euler/topology data do not select continuous history",
+    "G294": "copresence existence nonselective",
+    "W5": "history remains open",
+    "W6": "history remains open",
+    "endpoint_composition": "constant-blind identity",
+    "projective_composition": "constant-blind identity"
+  },
+  "schema": "UDT_G304_GLOBAL_CELL_CONSTANT_SECTOR_DISCRIMINATOR_V1",
+  "working_G17": {
+    "bounded_result": "conditionally selects R0>0 in the primary static smooth-center tracefree family",
+    "does_not_fix": [
+      "R0 magnitude",
+      "X value",
+      "field equation",
+      "complete history"
+    ],
+    "grade": "WORKING"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "caught": 10,
+  "mutations": [
+    {
+      "caught": true,
+      "mutation": "sign_reversal",
+      "reason": "negative constant has no finite zero"
+    },
+    {
+      "caught": true,
+      "mutation": "proper_element_is_dr_over_f",
+      "reason": "proper uses dr/sqrt(f), not optical dr/f"
+    },
+    {
+      "caught": true,
+      "mutation": "positive_optical_finite",
+      "reason": "positive optical reach diverges"
+    },
+    {
+      "caught": true,
+      "mutation": "positive_horizon_curvature_singular",
+      "reason": "b=0 invariants are constant and finite"
+    },
+    {
+      "caught": true,
+      "mutation": "G17_fixes_magnitude",
+      "reason": "finite-cell properties hold for every positive X"
+    },
+    {
+      "caught": true,
+      "mutation": "WRL_exact_tracefree",
+      "reason": "WR-L ODE residual is 2r/X"
+    },
+    {
+      "caught": true,
+      "mutation": "network_selects_constant",
+      "reason": "endpoint composition telescopes for every valuation"
+    },
+    {
+      "caught": true,
+      "mutation": "projective_endpoint_is_dimensionful_X",
+      "reason": "chi endpoint is dimensionless and does not fix X"
+    },
+    {
+      "caught": true,
+      "mutation": "old_source_negative_universal",
+      "reason": "changed load-bearing premises require regrade"
+    },
+    {
+      "caught": true,
+      "mutation": "working_equals_derived",
+      "reason": "G17 grade must remain explicit"
+    }
+  ],
+  "schema": "UDT_G304_CATCH_PROOFS_V1",
+  "status": "PASS"
+}

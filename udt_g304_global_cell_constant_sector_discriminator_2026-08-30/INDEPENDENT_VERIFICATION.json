@@ -1,0 +1,7 @@
+{
+  "assertions": 55,
+  "landing_matched": true,
+  "method": "dimensionless numerical quadrature, monotonic root census, and direct scalar formulas; no production import",
+  "schema": "UDT_G304_INDEPENDENT_VERIFICATION_V1",
+  "status": "PASS"
+}
