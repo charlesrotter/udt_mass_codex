@@ -89,8 +89,7 @@
 - R5 accepted follow-up/manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
-- Status/program: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`
-- Premise guide: `CURRENT_SCIENTIFIC_PREMISES.md`
+- Status/program/premise guide: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`; `CURRENT_SCIENTIFIC_PREMISES.md`
 - Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
@@ -115,4 +114,5 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without explicit authority.
-Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`,
+`archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
