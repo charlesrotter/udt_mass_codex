@@ -2,7 +2,7 @@
 
 Date: 2026-08-29
 
-`LIVE.md` controls status; the 283-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 284-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -82,6 +82,11 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   `Phi=-log r`; target-local `J_L` loses carry. G299 confirms complete projective/frame carry is
   required but W5 owns only that component. `R_gamma+q -> J_q -> h_q -> outputs` is compatible,
   not derived; no unique direct `G_2` transfer exists. Metric and kernel remain unchanged.
+- G300 derives the exact all-direction celestial control action over a supplied full relation:
+  oriented `S^2`, unoriented `RP^2`, reversal, composition, positive clock cocycle, actual-leg
+  `J_L`, and `J_T` plane retention. Fresh external review refutes promotion of arbitrary nonroute
+  directions from regular evaluator inputs to a premise-owned lawful query family. Identity
+  isotropy blocks only a universal section. Metric and kernel remain unchanged.
 
 ## Open boundary
 
@@ -96,8 +101,9 @@ family plus lawful data. The nonlinear residual, coefficients, screen propagatio
 mass, population, and our realized history remain open. This is not a no-go against a native law.
 G296 removes the need to posit an extra primitive geometric state and locates the first local native
 differential order, but it selects no residual formula or data. G297/G298 construct the earlier
-causal bridge, and G299 proves the current ownership ceiling: complete projective/frame carry is
-required, but the lawful rank-two query/germ subfunctor is not yet derived.
+causal bridge, G299 proves complete carry is required, and G300 shows that even the exact all-sky
+control action does not type the lawful physical query family. Operational query supply is therefore
+a candidate endpoint of this lane, not a metric or kernel failure.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -105,9 +111,9 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister a bounded natural-query ownership discriminator downstream of G299. Starting from the
-complete metric-owned relation and retaining all screen/path carry, determine whether metric
-naturality, reversal, composition, and W1's supplied-pullback type derive a proper lawful
-rank-two query/germ subfunctor. A positive result must distinguish lawful projections without
-selecting one for the desired scalar; a negative leaves the query domain operationally supplied.
-No action, source, mass, observation, `X_max`, protected work, or history solve enters.
+G300 selected the preregistered negative landing. PONDER with Charles whether operationally supplied
+queries close this lane. If adopted as the correct type boundary, return to G295/G296 and map the
+complete-metric history-residual problem without importing a familiar field equation. Do not rerun
+the all-sky ownership question under a renamed projection. Any route-conditioned-section test must
+start from a supplied physical route and cannot select route population. No action, source, mass,
+observation, `X_max`, protected work, or history solve enters before the frame decision.

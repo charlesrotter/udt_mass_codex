@@ -53,6 +53,7 @@
 | G297 causal-dilation equivalence | external/repairs accepted | A/B radar clock germs derived conditionally; scalar collapse refuted; full causal-family-to-rank-two-germ transfer open |
 | G298 relation/pair projection | external/repairs closed | Complete path-labelled state and multiple natural rank-two projections derived; physical projection open |
 | G299 kernel-domain ownership | external/repairs closed | Complete projective/frame carry required; lawful query/germ subfunctor remains open |
+| G300 celestial control/query ownership | external refutation/repaired | Exact `S^2` sky action and cocycle survive; no premise-owned lawful rank-two query family follows |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -93,8 +94,12 @@ None selects completion/`X_max`.
   G297 conditionally derives A/B radar clock germs and refutes universal scalar collapse. G298
   derives the complete directed-leg state and distinct natural rank-two projections; target-local
   `J_L` loses carry. G299 confirms W5 requires complete projective/frame position but does not type
-  a lawful query/germ family. Typed-query factorization is compatible, not derived. Radar midpoint
-  is neither co-presence nor a global now; W1 stays evaluative.
+  a lawful query/germ family. G300 derives the exact `S^2` celestial control action, `RP^2` plane
+  quotient, reversal/composition/cocycle, actual-leg `J_L`, and `J_T` plane retention, but external
+  review refutes promotion of arbitrary nonroute directions from regular evaluator inputs to a
+  premise-owned lawful query family. Identity isotropy blocks only a universal section, not
+  route-conditioned sections. Radar midpoint is neither co-presence nor a global now; W1 stays
+  evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -107,10 +112,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G299 leave history and lawful query-domain ownership open. No
+R2--R5 select no scale or `X_max`; G277--G300 leave history and lawful query-domain ownership open. No
 native SNe prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 283-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 284-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

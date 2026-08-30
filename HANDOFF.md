@@ -27,6 +27,11 @@ G298 derives a complete path-labelled leg state and distinct natural rank-two pr
 `Phi=-log r`; target-local `J_L` loses carry. G299 then confirms that complete projective/frame
 carry is required, but W5 owns only that component. Typed query views are compatible, not derived;
 no unique direct `G_2` transfer is selected. Metric and kernel remain unchanged.
+G300 derives the exact all-direction `S^2` celestial control action, `RP^2` plane quotient,
+reversal/composition/cocycle, actual-leg `J_L`, and `J_T` plane retention. Fresh external review
+refutes the internal claim that this algebraically available control fiber is a premise-owned lawful
+query family. Arbitrary nonroute directions remain regular evaluator inputs; route-conditioned
+sections and physical query/route population remain open. Metric and kernel are unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -40,7 +45,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -62,10 +67,11 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister a bounded natural-query ownership discriminator downstream of G299. Test whether
-the complete metric relation, naturality, reversal, composition, and W1's supplied-pullback type
-derive a proper lawful rank-two query/germ subfunctor, or whether that domain remains operationally
-supplied. Do not invent a selector or erase screen/path carry. No action, source, mass,
-observation, Planck scale, `X_max`, or history solve precedes it.
+Next: G300 has answered the natural-query discriminator negatively. Briefly PONDER with Charles
+whether operationally supplied queries close this lane; if yes, return to the G295/G296
+complete-metric history-residual problem. Do not repeat the all-sky test with another projection,
+invent a selector, or erase screen/path carry. A later route-conditioned-section test must start
+from a supplied physical route and cannot select its population. No action, source, mass,
+observation, Planck scale, `X_max`, or history solve precedes the frame decision.
 
 <!-- STARTUP_CURRENT_END -->

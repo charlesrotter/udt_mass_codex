@@ -1,0 +1,18 @@
+{
+  "assertions": 26992,
+  "cases": 10524,
+  "celestial_family_type": "ALGEBRAICALLY_AVAILABLE_SUPPLIED_DIRECTION_CONTROL_FIBER",
+  "composition_owner": "full path-labelled metric isometry",
+  "directions": 21,
+  "engine": "stdlib Fraction exact arithmetic",
+  "individual_query": "SUPPLIED",
+  "landing": "NO_PROPER_LAWFUL_RANK_TWO_QUERY_FAMILY_IS_DERIVED__THE_QUERY_DOMAIN_REMAINS_WHOLLY_OPERATIONAL",
+  "lawful_query_family_ownership": "NOT_DERIVED",
+  "query_fiber_oriented": "S^2",
+  "query_fiber_unoriented": "RP^2",
+  "relations": 20,
+  "route_population": "OPEN",
+  "source_hashes": 9,
+  "source_phrase_checks": 9,
+  "status": "PASS"
+}

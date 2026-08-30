@@ -1,0 +1,15 @@
+{
+  "catches": {
+    "additive_clock_ratio_rejected": true,
+    "bare_projective_composition_rejected": true,
+    "equal_W1_scalar_plane_collapse_rejected": true,
+    "false_unique_isotropic_section_rejected": true,
+    "missing_frequency_normalization_rejected": true,
+    "oriented_unoriented_collapse_rejected": true,
+    "transported_source_plane_omission_rejected": true,
+    "wrong_composition_order_rejected": true,
+    "wrong_frequency_sign_rejected": true
+  },
+  "hostile_catches": 9,
+  "status": "PASS"
+}

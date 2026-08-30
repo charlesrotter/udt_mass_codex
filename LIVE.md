@@ -57,6 +57,12 @@ G299 externally closes the ownership discriminator after repairs. Active premise
 projective/frame carry, but W5 owns only that component at working grade; route and higher
 delay/Jacobi data stay separately typed. `R_gamma+q -> J_q -> h_q -> outputs` is compatible, not
 active-premise-owned. The lawful query/germ subfunctor remains open; metric and kernel are unchanged.
+G300 then tests the entire metric-defined sky rather than another convenient projection. Exact
+`S^2` celestial action, `RP^2` plane quotient, reversal, composition, positive clock cocycle,
+actual-leg `J_L`, and `J_T` plane retention all survive. Fresh external review nevertheless refutes
+the internal promotion from an algebraically available control fiber to a premise-owned lawful
+query family. Arbitrary nonroute directions are regular evaluator inputs only; identity isotropy
+blocks a universal section but not route-conditioned sections. Metric and kernel remain unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -71,12 +77,14 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300.
 The first group retains declared optical imports and no native SNe prediction. The second locates
 the open tide/history propagation. The third derives center, screen/topology, architecture, and
 co-presence constraints, then factors the causal-family bridge through a complete relation state
 with nonunique rank-two projections. G299 establishes that complete carry is required while the
-lawful query domain remains open, without changing the metric or kernel or selecting history.
+lawful query domain remains open. G300 derives the full celestial control geometry but externally
+confirms that it still does not own the physical query family. Neither changes the metric or kernel
+or selects history.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -104,11 +112,12 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G299 closes the prior discriminator negatively at active-premise ownership grade: complete
-projective/frame carry is required, but the lawful query/germ subfunctor remains open. MAP and
-preregister a bounded natural-query discriminator: can metric naturality, reversal, composition,
-and W1's supplied-pullback type derive a proper family of lawful rank-two views, or is that query
-domain operationally supplied? Do not invent a selector, privilege `J_T` or `J_L` by convenience,
-or use scalar equality to erase screen carry. No observation, action, source, matter, scale,
-`X_max`, protected work, or history solve enters.
+G300 closes the natural-query discriminator negatively: the exact all-sky control action does not
+promote arbitrary directions to a premise-owned lawful query family. Do not repeat this test with
+another projection or rename regular evaluator inputs as physical population. PONDER with Charles
+whether operationally supplied queries are the correct endpoint of this lane; if so, close the
+query lane and return to G295/G296's complete-metric history-residual problem. Any later
+route-conditioned-section test must begin from an independently supplied physical route and cannot
+select route population. No observation, action, source, matter, scale, `X_max`, protected work, or
+history solve enters before that frame decision.
 <!-- STARTUP_CURRENT_END -->

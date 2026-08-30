@@ -1,0 +1,13 @@
+{
+  "assertions": 22050,
+  "cases": 9891,
+  "clock_cocycle_exact": true,
+  "directions": 63,
+  "lawful_query_family_ownership": "NOT_TESTED_BY_ALGEBRA",
+  "method": "independent Fraction coordinate implementation",
+  "noncollinear_composition_exact": true,
+  "oriented_to_unoriented_quotient": "S^2 -> RP^2",
+  "relations": 12,
+  "reversal_exact": true,
+  "status": "PASS"
+}
