@@ -1,0 +1,109 @@
+{
+  "celestial_screen_euler_all_signs": 2,
+  "forbidden_inputs": [
+    "field_equation",
+    "action",
+    "source",
+    "matter_model",
+    "mass_law",
+    "observation",
+    "fit",
+    "physical_Xmax",
+    "old_Hopfion_boundary",
+    "protected_package"
+  ],
+  "hopf_number_frozen_orientation": -1,
+  "landing": "POSITIVE_STANDARD_GLOBAL_COMPLETION_NATIVELY_SUPPLIES_COMPACT_S3_HOPF_DOMAIN__STATIC_ZERO_IS_OBSERVER_HORIZON_NOT_MATERIAL_BOUNDARY__EXPLICIT_HOPF_CLASS_PERSISTS_KINEMATICALLY_AND_IS_SCALE_BLIND__TARGET_SECTION_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "negative_global_metric": [
+    "-cosh(rho)**2",
+    "L**2",
+    "L**2*sinh(rho)**2",
+    "L**2*sin(theta)**2*sinh(rho)**2"
+  ],
+  "negative_static_metric": [
+    "-1 - r**2/L**2",
+    "L**2/(L**2 + r**2)",
+    "r**2",
+    "r**2*sin(theta)**2"
+  ],
+  "null_optical_tidal_all_signs": 0,
+  "positive_global_metric": [
+    "-1",
+    "X**2*cosh(T/X)**2",
+    "X**2*sin(psi)**2*cosh(T/X)**2",
+    "X**2*sin(psi)**2*sin(theta)**2*cosh(T/X)**2"
+  ],
+  "positive_static_metric": [
+    "-1 + r**2/X**2",
+    "X**2/(X**2 - r**2)",
+    "r**2",
+    "r**2*sin(theta)**2"
+  ],
+  "prerequisite_ledger": [
+    [
+      "compact_S3_spatial_domain",
+      "DERIVED_CONDITIONAL_positive_standard_completion"
+    ],
+    [
+      "outer_boundary_collapse",
+      "NOT_NEEDED_positive_S3__STILL_NEEDED_for_R3_one_point_compactification"
+    ],
+    [
+      "nontrivial_map_class_exists",
+      "DERIVED_MATHEMATICAL_EXISTENCE_positive_S3"
+    ],
+    [
+      "physical_map_or_section",
+      "OPEN"
+    ],
+    [
+      "fixed_physical_S2_target",
+      "OPEN"
+    ],
+    [
+      "local_frame_gauge_descent",
+      "OPEN_for_fixed_target_Hopf_integer"
+    ],
+    [
+      "covariant_action",
+      "OPEN"
+    ],
+    [
+      "time_live_dynamics_or_conservation",
+      "OPEN__only_kinematic_product_slice_persistence_derived"
+    ],
+    [
+      "backreaction_or_history_selection",
+      "OPEN"
+    ],
+    [
+      "magnitude_mass_or_Xmax",
+      "OPEN"
+    ]
+  ],
+  "production_assertions": 77,
+  "scope": "smooth_center_G304_family_standard_simply_connected_completions_only",
+  "topology_census": [
+    {
+      "compact_without_boundary": true,
+      "extra_compactification_needed": false,
+      "ordinary_unbased_hopf_classes": "Z",
+      "sector": "R0_positive",
+      "standard_spatial_slice": "S3"
+    },
+    {
+      "compact_without_boundary": false,
+      "extra_compactification_needed": true,
+      "ordinary_unbased_hopf_classes": "trivial_on_contractible_domain",
+      "sector": "R0_zero",
+      "standard_spatial_slice": "R3"
+    },
+    {
+      "compact_without_boundary": false,
+      "extra_compactification_needed": true,
+      "ordinary_unbased_hopf_classes": "trivial_on_contractible_domain",
+      "sector": "R0_negative_causal_cover",
+      "standard_spatial_slice": "H3_isomorphic_R3"
+    }
+  ]
+}

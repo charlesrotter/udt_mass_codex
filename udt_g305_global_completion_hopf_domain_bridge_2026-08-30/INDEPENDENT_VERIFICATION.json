@@ -1,0 +1,10 @@
+{
+  "checks": 459,
+  "finite_difference_cases": 18,
+  "imports_production_code": false,
+  "max_finite_difference_metric_error": 3.5904363926420046e-09,
+  "method": "standard_library_finite_difference_ambient_pullbacks_plus_independent_midpoint_integral",
+  "normalized_hopf_number": -1.0000000010280863,
+  "scope": "G304_smooth_center_standard_completion_three_sign_census",
+  "status": "PASS"
+}

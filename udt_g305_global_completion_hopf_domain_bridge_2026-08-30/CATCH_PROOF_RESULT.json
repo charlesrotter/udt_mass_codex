@@ -1,0 +1,18 @@
+{
+  "caught": 10,
+  "claims": {
+    "algebraic_radius_is_physical_Xmax": false,
+    "celestial_screen_is_historical_internal_target": false,
+    "compact_domain_supplies_physical_target_field": false,
+    "covers_all_global_quotients_and_topology_change": false,
+    "hopf_existence_selects_history": false,
+    "hopf_integer_fixes_curvature_magnitude": false,
+    "kinematic_persistence_is_dynamical_conservation": false,
+    "old_Hopf_action_is_metric_derived": false,
+    "ordinary_R3_has_Hopf_integer_without_basepoint": false,
+    "static_zero_is_material_edge": false
+  },
+  "note": "Semantic hostile witnesses; no production equations are mutated.",
+  "status": "PASS",
+  "total": 10
+}
