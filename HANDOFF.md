@@ -14,24 +14,12 @@ history selection. G293 shows scalar homogeneity is parameterization and Euler t
 continuous propagation. G294 types “foundational infinite c” as nonpropagating connectedness, not
 signal speed; instant global enforcement can signal. W6 provisionally adopts only that type
 clarification: response remains metric-causal, with no global now, formula, or history law.
-G295 derives the bounded compatibility condition `AU=RA`, separates causal support from constraint
-propagation, and retypes constraint/update as a possible slice representation of one covariant
-history condition. It is type simplification, not fewer equations; formula and realized history
-remain open.
-G296 finds the complete metric already minimal and faithful; curvature/second metric-derivative
-order is the first local natural nonidentity home, not an equation. Its trace-free Brinkmann witness
-defeats only three scalar channels; G259's rank-two class remains conditional.
-G297 conditionally derives two-leg radar clock germs, while static lapse and active screen refute
-universal scalar collapse. The causal-family-to-rank-two-germ transfer remains open; W1 evaluates.
-G298 derives a complete path-labelled leg state and distinct natural rank-two projections sharing
-`Phi=-log r`; target-local `J_L` loses carry. G299 then confirms that complete projective/frame
-carry is required, but W5 owns only that component. Typed query views are compatible, not derived;
-no unique direct `G_2` transfer is selected. Metric and kernel remain unchanged.
-G300 derives the exact all-direction `S^2` celestial control action, `RP^2` plane quotient,
-reversal/composition/cocycle, actual-leg `J_L`, and `J_T` plane retention. Fresh external review
-refutes the internal claim that this algebraically available control fiber is a premise-owned lawful
-query family. Arbitrary nonroute directions remain regular evaluator inputs; route-conditioned
-sections and physical query/route population remain open. Metric and kernel are unchanged.
+G295 derives bounded `AU=RA` compatibility and separates causal support from constraint
+propagation; formula and history remain open. G296 locates first local metric-natural nonidentity
+content at curvature order, not an equation. G297--G300 derive conditional clock germs, distinct
+rank-two projections, required complete frame carry, and celestial control geometry. They refute
+universal scalar collapse but do not own a lawful query family or unique transfer. Metric and kernel
+remain unchanged.
 G301 leaves Ricci-flat versus trace-free Ricci; G302 shows shape plus scale spans all ten metric
 directions but selects neither. G303 closes the local nonlinear Cauchy gate: raw trace-free Ricci
 has rank nine; Bianchi-completed fixed-`Lambda` sectors share Ricci-flat's rank-ten metric-wave

@@ -23,41 +23,19 @@ W6 is Charles's provisional `WORKING_FOUNDATIONAL_CLARIFICATION`: co-presence ma
 non-propagating relational membership, while every controllable observable response remains inside
 the completed metric's causal structure. It is not canon, signal speed, global now, or a history law.
 
-G166--G276 is the active structural spine; G277--G281 control the observational interface and its
-provenance; G282 types the remaining joint history/Jacobi information; G283 tests the owned
-identity layers for hidden value selection; G284 tests whether emergent-`c_E` causal/projective
-structure supplies the missing values; G285 retypes scalar/tidal witnesses; G286 shows boundedly
-that current identities do not uniquely continue a shared prior metric; G287 confirms reversal
-negates `delta_AB`, not the ambient profile. G288 freshly rebuilds the primary metric near an
-analytic even smooth center: the quadratic germ is zero-tide constant-curvature, while angular
-tide first enters through an independent quartic jet. G289/G290 make the old Hopfion conditional
-and split topology from history-sensitive screen holonomy. G291's whiteboard lead is now closed by
-G292: on a supplied smooth oriented positive rank-two screen, Euler flux descends exactly and its
-integral sector persists under supplied smooth fixed-rank continuation. A global metric family has
-the same radial pair block and Euler class but different local screen-flux density, so this remains
-a sector classifier rather than a continuous flux/history law. G293 then tests scalar homogeneity
-and Euler topology as hidden propagation. It derives `delta=ks` and `chi=tanh(ks)` only after an
-additive parameter is supplied; `k` remains parameterization-dependent, and endpoint composition
-alone is weaker. Signed linear depth can cross a quiet middle, so the qualitative loud--quiet--loud
-structure remains viable. A lawful time-live fixed-Euler family still carries arbitrary local flux.
-The remaining architecture is narrowed by primitive state/data dependence but no law is selected.
-G294/W6 type “foundational infinite c” only as nonpropagating relational connectedness with
-metric-causal response: no signal speed, global now, constraint/update formula, or history follows.
-G295 permits one covariant history condition whose sliced linear control obeys `AU=RA`; causal
-support is separate and neither formula nor data are selected. G296 locates first local
-metric-natural nonidentity content at curvature/second-derivative order, not at an equation. G297
-derives conditional radar clock germs but refutes scalar collapse. G298 derives a complete
-path-labelled leg state and multiple natural pair-one-jet projections; target-local `J_L` loses
-carry. G299 requires complete projective/frame carry while leaving the lawful query/germ subfunctor
-operational. G300 derives celestial control but not a premise-owned query family. G301 leaves
-Ricci-flat versus trace-free Ricci; G302 shows shape plus scale spans all ten metric directions but
-selects neither. G303 closes the local nonlinear Cauchy gate: raw trace-free Ricci has rank nine;
-Bianchi-completed fixed-`Lambda` sectors have the same rank-ten metric-wave principal operator and
-null cone as Ricci-flat. Lawful unsupplied-`Lambda` data obey `M_i=0,D_iH=0,Lambda=H/2`: one
-connected-region number, not a function. Standard well-posedness is conditional imported math.
-The reciprocal readout creates no evolution residual. No class, law, history, global completion,
-mass, source, query population, metric, or kernel is selected.
-G304 then performs the bounded global/static sign test. In the exact trace-free primary family
+G166--G276 is the structural spine; G277--G281 control the observational interface; G282--G287
+separate history, value, germ, and sign. G288 derives a zero-tide constant-curvature quadratic
+center germ and independent quartic angular tide. G289--G292 make the old Hopfion conditional and
+derive screen holonomy and Euler-sector persistence on supplied regular screens, while leaving
+continuous flux and history open. G293 leaves scalar homogeneity parameterized. G294/W6 permits
+only nonpropagating relational co-presence with metric-causal response. G295--G300 narrow causal
+constraint propagation and complete projective/frame carry without selecting an equation, data,
+or lawful query family. G301 leaves Ricci-flat versus trace-free Ricci; G302 proves reciprocal shape
+plus scale spans all ten metric directions but selects neither; G303 gives both Bianchi-completed
+classes the same local metric-wave principal system, with the broader class carrying one connected-
+region constant. The reciprocal readout creates no evolution residual.
+
+G304 performs the bounded global/static sign test. In the exact trace-free primary family
 `f=1+b/r-(R0/12)r^2`, smooth-center regularity forces `b=0`. Only `R0>0` has a finite simple
 regular outer static causal ceiling, so the active `WORKING` G17 condition conditionally selects
 the positive sign inside this branch. It does not fix the magnitude, field equation, history, or
@@ -79,17 +57,10 @@ G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
 G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304.
-The first group retains declared optical imports and no native SNe prediction. The second locates
-the open tide/history propagation. The third derives center, screen/topology, architecture, and
-co-presence constraints, then factors the causal-family bridge through a complete relation state
-with nonunique rank-two projections. G299 establishes that complete carry is required while the
-lawful query domain is operational. G300 derives the celestial control geometry without owning a
-physical query family. G301 narrows one candidate local residual lane to two classes without
-selecting either. G302 proves that complete reciprocal shape plus retained scale still does not
-choose between them. G303 proves both completed classes have the same local causal propagation and
-functional data burden; the broader class carries only one extra constant per connected region.
-G304 uses the already-active working finite-ceiling condition to distinguish the positive sign in
-the bounded smooth-center static trace-free branch, but leaves its magnitude and all-frame owner open.
+The first group retains declared optical imports and no native SNe prediction; the later groups
+locate the open history propagation and narrow one candidate residual lane without selecting it.
+G304 distinguishes only the positive sign in its bounded static branch and leaves magnitude and
+all-frame ownership open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
