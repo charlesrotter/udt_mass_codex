@@ -1,0 +1,23 @@
+{
+  "assertions": 27829,
+  "coefficient_grid_cases": 169,
+  "field_equation_adopted": false,
+  "generic_cases": 7880,
+  "generic_rank": 10,
+  "identity_divergence_free_effect": "SELECTS_BETA_EQUALS_MINUS_ALPHA_OVER_TWO_BUT_IS_NOT_OWNED",
+  "kernel_change": false,
+  "landing": "TWO_INEQUIVALENT_FULL_METRIC_QUIET_PRINCIPAL_CLASSES_SURVIVE__GENERIC_RICCI_FLAT_AND_TRACEFREE_RICCI_WITH_ONE_CONSTANT_SCALAR_DATUM",
+  "metric_change": false,
+  "principal_cases": 4000,
+  "scalar_only_rank": 1,
+  "scope": "SMOOTH_SCALE_FREE_LOCAL_METRIC_ONLY_SYMMETRIC_RANK_TWO_TWO_JET_QUIET_PRINCIPAL_LANE",
+  "strata_counts": {
+    "GENERIC_RICCI_FLAT_EQUIVALENCE_CLASS": 150,
+    "SCALAR_ONLY_R_ZERO": 12,
+    "TRACEFREE_RICCI_WITH_CONSTANT_SCALAR": 6,
+    "ZERO_IDENTITY": 1
+  },
+  "tracefree_extra_datum": "CONNECTED_REGION_CONSTANT_SCALAR_CURVATURE",
+  "tracefree_rank": 9,
+  "zero_rank": 0
+}

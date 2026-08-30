@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-08-29
+Date: 2026-08-30
 
-`LIVE.md` controls status; the 284-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 285-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -50,18 +50,14 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   native provenance, direct redshift, Jacobi area, and no complete native SNe prediction.
 - G282/G283/G284/G285/G286/G287 locate neighboring tide, complete separation, nonunique propagation,
   and pair-arrow/profile-sign typing; no kernel formula changed.
-- G288 freshly rebuilds the primary metric and center jets: `c2` is the zero-tide
-  constant-curvature germ; independent angular/Weyl tide first enters at `c4`. External repair-only
-  review accepted the bounded result.
-- G289 keeps the static Hopfion conditional: local null embedding survives, but its round target,
-  action, boundary, and raw charge do not descend through full frame gauge. Conformal twins retain
-  the texture with different curvature; external repairs were accepted.
-- G290 derives supplied screen holonomy, small-loop curvature, conformal-twin separation, and
-  time-live flux transgression. Arbitrary smooth histories still pass, so it remains evaluative;
-  external review accepted it.
-- G291 is a whiteboard lead; G292 makes orientable fixed-rank Euler flux exact. The same radial pair
-  block and Euler class allow different local flux, so topology classifies sectors without selecting
-  history. External repairs were accepted.
+- G288 rebuilds center jets: `c2` is zero-tide constant curvature; independent angular/Weyl tide
+  first enters at `c4`.
+- G289 keeps the static Hopfion conditional; full frame gauge does not retain its raw charge.
+  Conformal twins keep the texture with different curvature.
+- G290 derives supplied screen holonomy, small-loop curvature, and time-live flux transgression;
+  arbitrary smooth histories remain admitted.
+- G291 is a lead; G292 makes orientable fixed-rank Euler flux exact. Equal pair block and Euler
+  class permit different local flux, so topology does not select history.
 - G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied additive parameter; `k` rescales, and
   fixed Euler class leaves local flux free. The `M2/MN/A/NL` partition selects no law; G259 remains
   conditional.
@@ -87,6 +83,13 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   `J_L`, and `J_T` plane retention. Fresh external review refutes promotion of arbitrary nonroute
   directions from regular evaluator inputs to a premise-owned lawful query family. Identity
   isotropy blocks only a universal section. Metric and kernel remain unchanged.
+- G301 returns to G295/G296's local complete-metric residual lane. In the explicitly candidate
+  smooth, scale-free, local, metric-only, symmetric-rank-two, metric-two-jet quiet-principal class,
+  exact homogeneity and naturality reduce every residual to `a Ric_ab+b R g_ab`. The complete
+  principal gate leaves two inequivalent classes: generic Ricci-flat and trace-free Ricci with one
+  connected-region constant scalar datum. Identity divergence would select the generic class but
+  remains unowned. Fresh repair-only review accepted the independent full-space census. No field
+  equation, data, history, metric, or kernel changed.
 
 ## Open boundary
 
@@ -102,8 +105,9 @@ mass, population, and our realized history remain open. This is not a no-go agai
 G296 removes the need to posit an extra primitive geometric state and locates the first local native
 differential order, but it selects no residual formula or data. G297/G298 construct the earlier
 causal bridge, G299 proves complete carry is required, and G300 shows that even the exact all-sky
-control action does not type the lawful physical query family. Operational query supply is therefore
-a candidate endpoint of this lane, not a metric or kernel failure.
+control action does not type the lawful physical query family. Operational query supply is the
+current endpoint of that lane, not a metric or kernel failure. G301 then narrows one local residual
+candidate class to two inequivalent principal classes without selecting either or supplying data.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -111,9 +115,9 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-G300 selected the preregistered negative landing. PONDER with Charles whether operationally supplied
-queries close this lane. If adopted as the correct type boundary, return to G295/G296 and map the
-complete-metric history-residual problem without importing a familiar field equation. Do not rerun
-the all-sky ownership question under a renamed projection. Any route-conditioned-section test must
-start from a supplied physical route and cannot select route population. No action, source, mass,
-observation, `X_max`, protected work, or history solve enters before the frame decision.
+G301 has narrowed the declared local quiet-principal lane to two classes but has not selected a UDT
+equation. PONDER which, if any, remaining class premise is UDT-owned. In particular, do not silently
+promote identity divergence freedom merely because it selects the generic Ricci-flat class. The
+next derivation must either find an already-owned discriminator or retain both classes and move to
+nonlinear well-posedness/data. No action, source, mass, observation, `X_max`, protected work, or
+history solve enters before that frame decision.

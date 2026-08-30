@@ -14,25 +14,34 @@ Date: 2026-08-30
 
 ## Before internal landing
 
-- [ ] Homogeneity lemma proved with its smoothness and star-domain boundary explicit.
-- [ ] Natural linear contraction basis justified.
-- [ ] All four coefficient strata classified exactly.
-- [ ] Generic residual equivalence map and inverse checked.
-- [ ] Trace-free integration-data counterclass checked.
-- [ ] Scalar-only incomplete-principal witness checked.
-- [ ] Quiet-principal scope separated from nonlinear wellposedness.
-- [ ] Independent implementation agrees on load-bearing classifications.
-- [ ] Hostile mutations are caught.
-- [ ] Package verifier passes.
+- [x] Homogeneity lemma proved with its smoothness and star-domain boundary explicit.
+- [x] Natural linear contraction basis justified.
+- [x] All four coefficient strata classified exactly.
+- [x] Generic residual equivalence map and inverse checked.
+- [x] Trace-free integration-data counterclass checked.
+- [x] Scalar-only incomplete-principal witness checked.
+- [x] Quiet-principal scope separated from nonlinear wellposedness.
+- [x] Independent implementation agrees on load-bearing classifications.
+- [x] Repair-only independent full 20-to-10 Lorentz-intertwiner census returns nullity two without
+  assuming the two-term basis.
+- [x] Hostile mutations are caught.
+- [x] Package verifier passes.
 
 ## Before banking
 
-- [ ] Preregistration ancestry recorded.
-- [ ] Full bounded coefficient space or exact stratum proof supplied.
-- [ ] Fresh zero-context adversarial reviewer attempts refutation.
-- [ ] Every reviewer defect is repaired or retained as a caveat.
-- [ ] Current 284-row premise verifier passes.
-- [ ] Only G301 files and intended startup pointers are staged.
+- [x] Scientific preregistration `accfc6b9` and repair preregistration `d964e004` are committed
+  ancestors of the result parent, recorded in `PREREGISTRATION_ANCESTRY.md`.
+- [x] Full bounded coefficient space or exact stratum proof supplied.
+- [x] Fresh zero-context adversarial reviewer attempted refutation and selected
+  `INTERNAL_CERTIFICATION_FAILURE` while retaining the bounded mathematics.
+- [x] Every reviewer defect is repaired or retained as a caveat. R1--R5 are implemented and the
+  fresh repair-only reviewer returned `ACCEPT_REPAIRS` with no remaining in-scope defect.
+- [x] Current 285-row premise verifier passes, including the frozen-source G301 replay.
+- [x] Repository purity harness is green: 197 passed and 1 expected xfail. The earlier unrelated
+  `LIVE.md` word-budget failure was repaired by compacting the current block from 973 to 848 words
+  without changing its scientific content.
+- [x] Only G301 files and intended startup pointers are staged; protected and unrelated dirt is
+  untouched.
 - [ ] All four repository banking gates reported explicitly.
 
 ## Maximum claim

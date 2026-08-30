@@ -1,0 +1,55 @@
+{
+  "cases": [
+    {
+      "caught": true,
+      "id": "C01_wrong_trace_factor"
+    },
+    {
+      "caught": true,
+      "id": "C02_tracefree_deleted"
+    },
+    {
+      "caught": true,
+      "id": "C03_scalar_promoted_complete"
+    },
+    {
+      "caught": true,
+      "id": "C04_zero_operator_promoted"
+    },
+    {
+      "caught": true,
+      "id": "C05_divergencefree_confused_with_tracefree"
+    },
+    {
+      "caught": true,
+      "id": "C06_integration_constant_erased"
+    },
+    {
+      "caught": true,
+      "id": "C07_bounded_lane_widened"
+    },
+    {
+      "caught": true,
+      "id": "C08_candidate_premises_promoted"
+    },
+    {
+      "caught": true,
+      "id": "C09_full_metric_deleted"
+    },
+    {
+      "caught": true,
+      "id": "C10_observation_or_scale_imported"
+    },
+    {
+      "caught": true,
+      "id": "C11_exception_not_preregistered"
+    },
+    {
+      "caught": true,
+      "id": "C12_field_equation_adoption"
+    }
+  ],
+  "caught": 12,
+  "total": 12,
+  "verdict": "PASS"
+}

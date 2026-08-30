@@ -1,0 +1,21 @@
+# G301 registered commands
+
+Run from repository root:
+
+```bash
+python3 -m py_compile udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/derive_principal_classification.py
+python3 -m py_compile udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/verify_principal_class_independent.py
+python3 -m py_compile udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/verify_invariant_basis_independent.py
+python3 -m py_compile udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/run_catch_proofs.py
+python3 -m py_compile udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/verify_package.py
+python3 udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/derive_principal_classification.py
+python3 udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/verify_principal_class_independent.py
+python3 udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/verify_invariant_basis_independent.py
+python3 udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/run_catch_proofs.py
+python3 udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/verify_package.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+```
+
+All G301 replays use only the Python standard library. They write only their registered JSON
+artifacts inside the G301 package.

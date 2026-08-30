@@ -1,0 +1,14 @@
+{
+  "checks": 69,
+  "external_review_pending": false,
+  "landing": "TWO_INEQUIVALENT_FULL_METRIC_QUIET_PRINCIPAL_CLASSES_SURVIVE__GENERIC_RICCI_FLAT_AND_TRACEFREE_RICCI_WITH_ONE_CONSTANT_SCALAR_DATUM",
+  "narrative_token_checks_are_scientific_evidence": false,
+  "scientific_certifiers": [
+    "EXPLICIT_INVARIANT_THEORY_PROOF",
+    "INDEPENDENT_20_TO_10_LORENTZ_INTERTWINER_CENSUS",
+    "INDEPENDENT_COEFFICIENT_STRATA_REPLAY",
+    "FRESH_EXTERNAL_GPT54_PREMISE_AUDIT"
+  ],
+  "source_rows": 12,
+  "verdict": "PASS"
+}

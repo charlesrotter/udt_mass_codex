@@ -380,6 +380,7 @@ def validate_startup_surface(root: Path) -> None:
             "G298",
             "G299",
             "G300",
+            "G301",
             "W6",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -424,7 +425,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "284-row exact registry",
+            "285-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -649,6 +650,7 @@ def validate_startup_surface(root: Path) -> None:
             "G298",
             "G299",
             "G300",
+            "G301",
             "W6",
             "G291",
             "G292",
@@ -892,7 +894,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "284-row",
+            "285-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1254,9 +1256,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 284, "premise registry must contain exactly 284 rows")
+    require(len(rows) == 285, "premise registry must contain exactly 285 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 284, "duplicate premise id")
+    require(len(by_id) == 285, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1372,6 +1374,11 @@ def main() -> None:
             "EXTERNALLY_REFUTED_AND_REPAIRED_WITH_CAVEATS__PREREGISTERED_AT_2DDBA8A2",
             "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md",
             "NO_PROPER_LAWFUL_RANK_TWO_QUERY_FAMILY_IS_DERIVED",
+        ),
+        "G301": (
+            "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_CERTIFICATION_REPAIRS__PREREGISTERED_AT_ACCFC6B9",
+            "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md",
+            "TWO_INEQUIVALENT_FULL_METRIC_QUIET_PRINCIPAL_CLASSES_SURVIVE",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -1646,6 +1653,67 @@ def main() -> None:
             and g300_package["independent_assertions"] == 22050
             and g300_package["hostile_catches"] == 9,
             "G300 repaired package replay changed")
+    g301 = ROOT / "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30"
+    for name in (
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "INVARIANT_BASIS_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REVIEW_GPT54.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md",
+        "verify_package.py",
+    ):
+        require((g301 / name).is_file(), f"G301 closure evidence missing: {name}")
+    g301_production = json.loads((g301 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g301_independent = json.loads((g301 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g301_basis = json.loads((g301 / "INVARIANT_BASIS_VERIFICATION.json").read_text(encoding="utf-8"))
+    g301_catches = json.loads((g301 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g301_landing = (
+        "TWO_INEQUIVALENT_FULL_METRIC_QUIET_PRINCIPAL_CLASSES_SURVIVE"
+        "__GENERIC_RICCI_FLAT_AND_TRACEFREE_RICCI_WITH_ONE_CONSTANT_SCALAR_DATUM"
+    )
+    require(g301_production["landing"] == g301_landing
+            and g301_production["assertions"] == 27829
+            and g301_production["generic_rank"] == 10
+            and g301_production["tracefree_rank"] == 9
+            and not g301_production["metric_change"]
+            and not g301_production["kernel_change"]
+            and not g301_production["field_equation_adopted"],
+            "G301 production landing or provenance changed")
+    require(g301_independent["landing"] == g301_landing
+            and g301_independent["assertions"] == 49609
+            and not g301_independent["full_invariant_basis_certified"]
+            and not g301_independent["production_imported"],
+            "G301 downstream coefficient replay changed")
+    require(g301_basis["verdict"] == "INDEPENDENT_FULL_SPACE_BASIS_CERTIFIED"
+            and g301_basis["algebraic_curvature_dimension"] == 20
+            and g301_basis["intertwiner_unknowns"] == 200
+            and g301_basis["equivariance_rows"] == 1200
+            and g301_basis["rational_rank"] == 198
+            and g301_basis["rational_nullity"] == 2
+            and g301_basis["exact_null_vectors_independent"]
+            and g301_basis["assertions"] == 53605,
+            "G301 independent full-space invariant census changed")
+    require(g301_catches["verdict"] == "PASS"
+            and g301_catches["caught"] == g301_catches["total"] == 12,
+            "G301 hostile-catch evidence changed")
+    require("`ACCEPT_REPAIRS`" in
+            (g301 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8")
+            and "Exact remaining defect: none within the preregistered repair scope" in
+            (g301 / "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
+            "G301 external repair closure changed")
+    g301_package = replay_package_with_current_registry_rows_removed(
+        g301, ("G301",), include_legacy_later_rows=False
+    )
+    require(g301_package["verdict"] == "PASS"
+            and g301_package["landing"] == g301_landing
+            and g301_package["checks"] == 69
+            and not g301_package["external_review_pending"],
+            "G301 repaired package replay changed")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14413,7 +14481,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

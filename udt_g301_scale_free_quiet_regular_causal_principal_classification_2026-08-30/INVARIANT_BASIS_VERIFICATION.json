@@ -1,0 +1,21 @@
+{
+  "algebraic_curvature_dimension": 20,
+  "assertions": 53605,
+  "equivariance_rows": 1200,
+  "exact_null_vectors": [
+    "RICCI",
+    "SCALAR_TIMES_METRIC"
+  ],
+  "exact_null_vectors_independent": true,
+  "intertwiner_unknowns": 200,
+  "lorentz_generators": 6,
+  "modular_ranks": {
+    "1000003": 198,
+    "1000033": 198
+  },
+  "production_imported": false,
+  "rational_nullity": 2,
+  "rational_rank": 198,
+  "symmetric_two_tensor_dimension": 10,
+  "verdict": "INDEPENDENT_FULL_SPACE_BASIS_CERTIFIED"
+}

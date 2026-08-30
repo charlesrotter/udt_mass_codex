@@ -1,0 +1,11 @@
+{
+  "assertions": 49609,
+  "full_invariant_basis_certified": false,
+  "kernel_change": false,
+  "landing": "TWO_INEQUIVALENT_FULL_METRIC_QUIET_PRINCIPAL_CLASSES_SURVIVE__GENERIC_RICCI_FLAT_AND_TRACEFREE_RICCI_WITH_ONE_CONSTANT_SCALAR_DATUM",
+  "metric_change": false,
+  "production_imported": false,
+  "random_coefficient_cases": 12000,
+  "scope": "DOWNSTREAM_A_RICCI_PLUS_B_R_G_ALGEBRA_ONLY",
+  "verdict": "INDEPENDENT_COEFFICIENT_STRATA_AGREEMENT_CONDITIONAL_ON_TWO_TERM_BASIS"
+}

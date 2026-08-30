@@ -54,6 +54,7 @@
 | G298 relation/pair projection | external/repairs closed | Complete path-labelled state and multiple natural rank-two projections derived; physical projection open |
 | G299 kernel-domain ownership | external/repairs closed | Complete projective/frame carry required; lawful query/germ subfunctor remains open |
 | G300 celestial control/query ownership | external refutation/repaired | Exact `S^2` sky action and cocycle survive; no premise-owned lawful rank-two query family follows |
+| G301 quiet-principal residual classes | external/repairs accepted | Declared local scale-free rank-two two-jet lane has generic Ricci-flat and trace-free Ricci classes; neither is selected |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -80,26 +81,17 @@ None selects completion/`X_max`.
   that continuous homogeneous scalar depth is `ks` only on a supplied additive parameter and that
   topology plus scalar depth still does not propagate the local flux. A signed linear depth may
   pass through the quiet middle; its physical separation attachment remains open.
-  G294 retypes “foundational infinite c” as a candidate nonpropagating relation rather than signal
-  speed. Positive magnitude, signed depth, odd position, and an even planar mutual channel coexist;
-  the complete screen-aware G269 inequality remains controlling. Pair graphs, reciprocal groupoids,
-  and physical foliations are distinct. Correlation can coexist with zero same-slice response, but
-  instant global constraint enforcement after arbitrary intervention can signal. The well-typed
-  missing architecture is a nonidentity complete-network constraint plus causal update; W6 adopts
-  only the non-signalling type. G295 shows the pair may be one covariant history condition split by
-  a slicing; `AU=RA` controls bounded linear propagation. No formula or realized history follows.
-  G296 finds the complete metric minimal and faithful; curvature/second metric-derivative order is
-  the first local natural nonidentity home, not a law. Its trace-free Brinkmann witness defeats only
-  three scalar channels; nonscalar Riemann information and conditional G259 remain.
-  G297 conditionally derives A/B radar clock germs and refutes universal scalar collapse. G298
-  derives the complete directed-leg state and distinct natural rank-two projections; target-local
-  `J_L` loses carry. G299 confirms W5 requires complete projective/frame position but does not type
-  a lawful query/germ family. G300 derives the exact `S^2` celestial control action, `RP^2` plane
-  quotient, reversal/composition/cocycle, actual-leg `J_L`, and `J_T` plane retention, but external
-  review refutes promotion of arbitrary nonroute directions from regular evaluator inputs to a
-  premise-owned lawful query family. Identity isotropy blocks only a universal section, not
-  route-conditioned sections. Radar midpoint is neither co-presence nor a global now; W1 stays
-  evaluative.
+  G294 types “foundational infinite c” as nonpropagating relation, not signal speed; instant global
+  constraint enforcement can signal. Pair graphs, reciprocal groupoids, and physical foliations
+  remain distinct; W6 adopts only the non-signalling type. G295 makes constraint/update a sliced
+  view of one possible covariant condition; `AU=RA` controls bounded linear propagation but selects
+  no formula or history. G296 finds the complete metric minimal and curvature order the first local
+  natural nonidentity home, not a law; its Brinkmann witness defeats only tested scalar channels.
+  G297--G300 derive radar germs, complete directed-leg carry, distinct rank-two projections, and
+  exact `S^2`/`RP^2` celestial control while leaving physical query supply operational. G301 then
+  proves that its declared smooth scale-free local metric-only rank-two two-jet quiet-principal
+  lane contains two inequivalent classes: generic Ricci-flat and trace-free Ricci with one constant
+  scalar datum. Identity divergence would select the first but remains unowned. W1 stays evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -112,10 +104,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G300 leave history and lawful query-domain ownership open. No
-native SNe prediction or value law follows.
+R2--R5 select no scale or `X_max`; G277--G301 leave history and dynamics open. No native SNe
+prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 284-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 285-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
