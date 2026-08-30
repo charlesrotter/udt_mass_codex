@@ -11,14 +11,17 @@
 4. **Premises audited:** PASS WITH CAVEATS — the old Hopf target, action, box, and boundary are
    comparison objects only; G17 is `WORKING`; causal universal cover and standard completion are
    explicit bounded choices.
-5. **Hostile controls:** PASS AFTER PREREGISTERED REPAIR — 10/10 evidence-state mutations caught
-   with named failures; a deliberately corrupted baseline is also detected.
+5. **Hostile controls:** PASS AFTER SECOND PREREGISTERED REPAIR — ten hostile cases make 11 direct
+   mutations to actual computed-evidence or required-premise fields, record before/after values,
+   trigger their named failures, and detect a separately corrupted baseline.
 6. **Sealed replay:** PASS AFTER PREREGISTERED REPAIR — dependency-free `python3 -S` replay verifies
-   all 27 required files and 11 frozen source hashes in a fresh alternate layout.
+   all 30 required files and 11 frozen source hashes in a fresh alternate layout.
 7. **Repository regression:** PASS — `199 passed, 1 xfailed`; the xfail is the registered matter-
    lane habit-pin sentinel. The suite first exposed and drove wording-only startup-surface repairs.
 8. **Fresh external adversarial review:** REPAIRABLE DEFECTS — bounded science independently
    reproduced; R1--R3 evidence defects preregistered at `f4d021aa` and locally repaired.
-9. **External repair-only follow-up:** PENDING.
+9. **External repair-only follow-up:** REPAIRABLE DEFECT REMAINED — R1/R2 and unchanged landing
+   accepted; label-only R3 implementation rejected and preregistered at `ca462391`.
+10. **External final R3-completion follow-up:** PENDING.
 
-Until gate 9 closes, the package is `INTERNALLY_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_PENDING`.
+Until gate 10 closes, the package is `INTERNALLY_VERIFIED_WITH_CAVEATS__R3_COMPLETION_FOLLOWUP_PENDING`.

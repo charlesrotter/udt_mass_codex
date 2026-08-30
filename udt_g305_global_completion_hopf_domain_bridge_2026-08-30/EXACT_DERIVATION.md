@@ -1,7 +1,7 @@
 # G305 exact derivation — global completion and Hopf-domain bridge
 
 Date: 2026-08-30
-Grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_PENDING`
+Grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__R3_COMPLETION_FOLLOWUP_PENDING`
 
 ## Bounded landing
 
@@ -258,9 +258,10 @@ geometry.
 - 687 independent checks using no production import, including 24 finite-difference pullback cases,
   ambient constraints, positive chart overlap, negative global pullback/relation, explicit topology
   witnesses, maximum metric error below `3.6e-9`, and an independent midpoint Hopf integral;
-- 10 of 10 evidence-mutating hostile promotion catches plus a corrupted-baseline control;
+- ten hostile cases making 11 direct computed-evidence or required-premise mutations, with named
+  failures and a corrupted-baseline control;
 - all three signs covered in the frozen centered standard-completion scope;
 - no field equation, action, source, matter model, mass law, observation, fit, scale value,
   physical `X_max`, old fixed boundary, or protected package used.
 
-Fresh external repair-only follow-up review remains required before an externally verified grade.
+Final external R3-completion follow-up review remains required before an externally verified grade.

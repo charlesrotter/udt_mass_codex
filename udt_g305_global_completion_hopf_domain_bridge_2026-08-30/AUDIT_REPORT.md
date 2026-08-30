@@ -1,7 +1,7 @@
 # G305 audit report
 
 Date: 2026-08-30
-Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_PENDING`
+Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__R3_COMPLETION_FOLLOWUP_PENDING`
 
 ## Primary landing
 
@@ -41,8 +41,8 @@ population remain outside scope.
   maximum metric error `3.5904363926420046e-09` and maximum overlap error
   `8.881784197001252e-16`;
 - independent normalized Hopf result `-1.0000000010280863`;
-- 10/10 evidence-mutating hostile promotions caught with named failures and a corrupted-baseline
-  detection control;
+- ten hostile cases making 11 direct computed-evidence or required-premise mutations, with exact
+  before/after records, named failures, and a corrupted-baseline detection control;
 - full three-sign bounded census;
 - no action, field equation, observation, fit, source, matter model, mass law, physical scale,
   `X_max`, old boundary, or protected package.
@@ -53,4 +53,7 @@ Fresh external review independently reproduced the bounded scientific result and
 geometry-level contradiction. It returned `REPAIRABLE_DEFECTS` for sealed path resolution,
 independent coverage, and hostile-control quality. Those repairs were preregistered at `f4d021aa`
 and now pass locally without changing the landing. External repair-only follow-up remains required
-before an externally verified grade.
+before an externally verified grade. The first follow-up accepted R1/R2 and the unchanged landing
+but correctly rejected the label-only R3 implementation. That final evidence-test defect was
+preregistered at `ca462391` and replaced with direct field mutations; final R3-only confirmation is
+pending.

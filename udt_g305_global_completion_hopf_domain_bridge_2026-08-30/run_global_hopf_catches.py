@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Evidence-driven hostile-promotion catches for the bounded G305 result."""
+"""Direct evidence-mutation hostile catches for the bounded G305 result."""
 
 from __future__ import annotations
 
@@ -25,22 +25,19 @@ def load_state():
         "topology": read_tsv("TOPOLOGY_CENSUS.tsv", "sector"),
         "requirements": read_tsv("HOPF_REQUIREMENT_LEDGER.tsv", "requirement"),
         "statuses": read_tsv("STATUS_LEDGER.tsv", "claim"),
-        "promotions": set(),
     }
 
 
 def validate(state):
-    """Return named contradictions between proposed promotions and computed evidence."""
+    """Return named contradictions in the computed evidence and premise state."""
     violations = []
     production = state["production"]
     independent = state["independent"]
     topology = state["topology"]
     requirements = state["requirements"]
     statuses = state["statuses"]
-    promotions = state["promotions"]
     categories = independent.get("checks_by_category", {})
 
-    # Baseline integrity is derived from saved computations, not claim labels.
     if independent.get("status") != "PASS":
         violations.append("independent_replay_not_pass")
     if categories.get("positive_overlap", 0) <= 0:
@@ -58,62 +55,103 @@ def validate(state):
     if topology["R0_negative_causal_cover"]["compact_without_boundary"] != "no":
         violations.append("negative_cover_compactness_corrupted")
 
-    if "static_zero_is_material_edge" in promotions:
-        if (
-            categories.get("positive_overlap", 0) > 0
-            and statuses["positive_static_zero_is_observer_horizon_not_material_boundary"]["status"]
-            == "DERIVED_CONDITIONAL"
-        ):
-            violations.append("material_edge_contradicts_regular_global_overlap")
+    horizon_status = statuses[
+        "positive_static_zero_is_observer_horizon_not_material_boundary"
+    ]["status"]
+    if horizon_status != "DERIVED_CONDITIONAL":
+        violations.append("material_edge_contradicts_regular_global_overlap")
 
-    if "compact_domain_supplies_physical_target_field" in promotions:
-        if requirements["fixed_physical_S2_target"]["status_after_G305"] == "OPEN":
-            violations.append("physical_target_has_no_owned_prerequisite")
+    target_status = requirements["fixed_physical_S2_target"]["status_after_G305"]
+    frame_status = requirements["local_frame_gauge_descent"]["status_after_G305"]
+    celestial_target = (
+        target_status == "DERIVED_FROM_CELESTIAL_SCREEN"
+        or frame_status == "DERIVED_FROM_CELESTIAL_SCREEN"
+    )
+    if celestial_target:
+        violations.append("celestial_screen_lacks_internal_target_and_gauge_descent")
+    elif target_status != "OPEN":
+        violations.append("physical_target_has_no_owned_prerequisite")
+    if frame_status != "OPEN_FOR_ACTUAL_FIELD" and not celestial_target:
+        violations.append("local_frame_gauge_descent_not_owned")
 
-    if "hopf_existence_selects_history" in promotions:
-        if requirements["physical_history_selection"]["status_after_G305"] == "OPEN":
-            violations.append("history_selection_not_implied_by_map_class_existence")
-
-    if "hopf_integer_fixes_curvature_magnitude" in promotions:
-        if (
-            requirements["curvature_magnitude_mass_or_Xmax"]["status_after_G305"] == "OPEN"
-            and production.get("hopf_number_frozen_orientation") == -1
-            and independent.get("checks_by_category", {}).get("hopf_and_scale_time", 0) > 0
-        ):
-            violations.append("scale_blind_integer_cannot_fix_curvature_magnitude")
-
-    if "ordinary_R3_has_Hopf_integer_without_basepoint" in promotions:
-        if (
-            topology["R0_zero"]["ordinary_map_class_to_S2"] == "trivial_on_contractible_domain"
-            and topology["R0_zero"]["extra_condition_for_Hopf_class"]
-            == "asymptotic_basepoint_or_other_compactification"
-        ):
-            violations.append("ordinary_R3_requires_extra_basepoint_or_compactification")
-
-    if "old_Hopf_action_is_metric_derived" in promotions:
-        if requirements["covariant_action"]["status_after_G305"] == "OPEN":
-            violations.append("no_metric_owned_action_in_requirement_ledger")
-
-    if "covers_all_global_quotients_and_topology_change" in promotions:
-        if production.get("scope") == "smooth_center_G304_family_standard_simply_connected_completions_only":
-            violations.append("promotion_exceeds_standard_simply_connected_scope")
-
-    if "algebraic_radius_is_physical_Xmax" in promotions:
-        if statuses["curvature_magnitude_mass_or_physical_Xmax"]["status"] == "OPEN":
-            violations.append("physical_Xmax_ownership_absent")
-
-    if "kinematic_persistence_is_dynamical_conservation" in promotions:
-        if requirements["time_live_dynamics_or_conservation"]["status_after_G305"] == "OPEN":
-            violations.append("kinematic_product_slicing_is_not_dynamical_conservation")
-
-    if "celestial_screen_is_historical_internal_target" in promotions:
-        if (
-            requirements["fixed_physical_S2_target"]["status_after_G305"] == "OPEN"
-            and requirements["local_frame_gauge_descent"]["status_after_G305"] == "OPEN_FOR_ACTUAL_FIELD"
-        ):
-            violations.append("celestial_screen_lacks_internal_target_and_gauge_descent")
+    if requirements["physical_history_selection"]["status_after_G305"] != "OPEN":
+        violations.append("history_selection_not_implied_by_map_class_existence")
+    if requirements["curvature_magnitude_mass_or_Xmax"]["status_after_G305"] != "OPEN":
+        violations.append("scale_blind_integer_cannot_fix_curvature_magnitude")
+    if topology["R0_zero"]["ordinary_map_class_to_S2"] != "trivial_on_contractible_domain":
+        violations.append("ordinary_R3_requires_extra_basepoint_or_compactification")
+    if requirements["covariant_action"]["status_after_G305"] != "OPEN":
+        violations.append("no_metric_owned_action_in_requirement_ledger")
+    if production.get("scope") != "smooth_center_G304_family_standard_simply_connected_completions_only":
+        violations.append("promotion_exceeds_standard_simply_connected_scope")
+    if statuses["curvature_magnitude_mass_or_physical_Xmax"]["status"] != "OPEN":
+        violations.append("physical_Xmax_ownership_absent")
+    if requirements["time_live_dynamics_or_conservation"]["status_after_G305"] != "OPEN":
+        violations.append("kinematic_product_slicing_is_not_dynamical_conservation")
 
     return violations
+
+
+MUTATION_CASES = {
+    "static_zero_is_material_edge": {
+        "changes": [("statuses", "positive_static_zero_is_observer_horizon_not_material_boundary", "status", "MATERIAL_EDGE")],
+        "expected_failure": "material_edge_contradicts_regular_global_overlap",
+    },
+    "compact_domain_supplies_physical_target_field": {
+        "changes": [("requirements", "fixed_physical_S2_target", "status_after_G305", "DERIVED_FROM_COMPACT_DOMAIN")],
+        "expected_failure": "physical_target_has_no_owned_prerequisite",
+    },
+    "hopf_existence_selects_history": {
+        "changes": [("requirements", "physical_history_selection", "status_after_G305", "DERIVED_FROM_HOPF_EXISTENCE")],
+        "expected_failure": "history_selection_not_implied_by_map_class_existence",
+    },
+    "hopf_integer_fixes_curvature_magnitude": {
+        "changes": [("requirements", "curvature_magnitude_mass_or_Xmax", "status_after_G305", "DERIVED_FROM_HOPF_INTEGER")],
+        "expected_failure": "scale_blind_integer_cannot_fix_curvature_magnitude",
+    },
+    "ordinary_R3_has_Hopf_integer_without_basepoint": {
+        "changes": [("topology", "R0_zero", "ordinary_map_class_to_S2", "Z_WITHOUT_BASEPOINT")],
+        "expected_failure": "ordinary_R3_requires_extra_basepoint_or_compactification",
+    },
+    "old_Hopf_action_is_metric_derived": {
+        "changes": [("requirements", "covariant_action", "status_after_G305", "DERIVED_FROM_METRIC")],
+        "expected_failure": "no_metric_owned_action_in_requirement_ledger",
+    },
+    "covers_all_global_quotients_and_topology_change": {
+        "changes": [("production", None, "scope", "ALL_QUOTIENTS_AND_TOPOLOGY_CHANGE")],
+        "expected_failure": "promotion_exceeds_standard_simply_connected_scope",
+    },
+    "algebraic_radius_is_physical_Xmax": {
+        "changes": [("statuses", "curvature_magnitude_mass_or_physical_Xmax", "status", "DERIVED_PHYSICAL_XMAX")],
+        "expected_failure": "physical_Xmax_ownership_absent",
+    },
+    "kinematic_persistence_is_dynamical_conservation": {
+        "changes": [("requirements", "time_live_dynamics_or_conservation", "status_after_G305", "DERIVED_DYNAMICAL_CONSERVATION")],
+        "expected_failure": "kinematic_product_slicing_is_not_dynamical_conservation",
+    },
+    "celestial_screen_is_historical_internal_target": {
+        "changes": [
+            ("requirements", "fixed_physical_S2_target", "status_after_G305", "DERIVED_FROM_CELESTIAL_SCREEN"),
+            ("requirements", "local_frame_gauge_descent", "status_after_G305", "DERIVED_FROM_CELESTIAL_SCREEN"),
+        ],
+        "expected_failure": "celestial_screen_lacks_internal_target_and_gauge_descent",
+    },
+}
+
+
+def apply_changes(state, changes):
+    records = []
+    for section, row_key, field, after in changes:
+        target = state[section] if row_key is None else state[section][row_key]
+        before = target[field]
+        assert before != after, (section, row_key, field, before, after)
+        target[field] = after
+        records.append({
+            "path": ".".join(part for part in (section, row_key, field) if part is not None),
+            "before": before,
+            "after": after,
+        })
+    return records
 
 
 def main():
@@ -121,43 +159,41 @@ def main():
     baseline_violations = validate(baseline)
     assert not baseline_violations, baseline_violations
 
-    hostile_promotions = (
-        "static_zero_is_material_edge",
-        "compact_domain_supplies_physical_target_field",
-        "hopf_existence_selects_history",
-        "hopf_integer_fixes_curvature_magnitude",
-        "ordinary_R3_has_Hopf_integer_without_basepoint",
-        "old_Hopf_action_is_metric_derived",
-        "covers_all_global_quotients_and_topology_change",
-        "algebraic_radius_is_physical_Xmax",
-        "kinematic_persistence_is_dynamical_conservation",
-        "celestial_screen_is_historical_internal_target",
-    )
     catches = {}
-    for promotion in hostile_promotions:
+    for case_name, specification in MUTATION_CASES.items():
         candidate = copy.deepcopy(baseline)
-        candidate["promotions"].add(promotion)
+        mutation_records = apply_changes(candidate, specification["changes"])
         violations = validate(candidate)
-        assert violations, promotion
-        catches[promotion] = {
+        expected_failure = specification["expected_failure"]
+        assert expected_failure in violations, (case_name, expected_failure, violations)
+        catches[case_name] = {
             "caught": True,
+            "expected_failure": expected_failure,
             "violations": violations,
+            "mutations": mutation_records,
         }
 
     corrupted = copy.deepcopy(baseline)
-    corrupted["independent"]["status"] = "CORRUPTED_CONTROL"
+    corruption_records = apply_changes(
+        corrupted,
+        [("independent", None, "status", "CORRUPTED_CONTROL")],
+    )
     corruption_violations = validate(corrupted)
     assert "independent_replay_not_pass" in corruption_violations
 
+    mutation_count = sum(len(row["mutations"]) for row in catches.values())
+    assert mutation_count == 11
     result = {
         "status": "PASS",
         "caught": len(catches),
-        "total": len(hostile_promotions),
+        "total": len(MUTATION_CASES),
+        "actual_evidence_mutations": mutation_count,
         "baseline_valid": True,
         "corrupted_baseline_detected": True,
+        "corrupted_baseline_mutations": corruption_records,
         "corrupted_baseline_violations": corruption_violations,
         "catches": catches,
-        "method": "mutate_computed_evidence_state_then_require_named_invariant_provenance_topology_or_ownership_failure",
+        "method": "directly_mutate_computed_evidence_or_required_premise_fields_then_require_preregistered_named_failure",
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2, sort_keys=True))

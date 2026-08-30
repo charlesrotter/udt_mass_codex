@@ -55,7 +55,9 @@ def main() -> None:
         "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md", "SOURCE_SCOPE.tsv",
         "EXTERNAL_REVIEW_REQUEST.md", "EXTERNAL_REVIEW_RESPONSE.md",
         "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_PREREGISTRATION.md",
-        "REPAIR_FOLLOWUP_REQUEST.md", "build_review_intake.py", "verify_package.py",
+        "REPAIR_FOLLOWUP_REQUEST.md", "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md", "R3_COMPLETION_PREREGISTRATION.md",
+        "build_review_intake.py", "verify_package.py",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
     assert not missing, missing
@@ -93,7 +95,17 @@ def main() -> None:
     assert catches["status"] == "PASS" and catches["caught"] == catches["total"] == 10
     assert catches["baseline_valid"] is True
     assert catches["corrupted_baseline_detected"] is True
-    assert all(row["caught"] is True and row["violations"] for row in catches["catches"].values())
+    assert catches["actual_evidence_mutations"] == 11
+    assert all(
+        row["caught"] is True
+        and row["expected_failure"] in row["violations"]
+        and row["mutations"]
+        and all(item["before"] != item["after"] for item in row["mutations"])
+        for row in catches["catches"].values()
+    )
+    catch_source = (HERE / "run_global_hopf_catches.py").read_text()
+    assert '"promotions"' not in catch_source
+    assert "apply_changes(candidate" in catch_source
 
     with (HERE / "TOPOLOGY_CENSUS.tsv").open(newline="") as handle:
         topology = list(csv.DictReader(handle, delimiter="\t"))
@@ -121,7 +133,7 @@ def main() -> None:
         for token in ("not", "history", "mass", "target", "action"):
             assert token in low, (doc[:20], token)
     assert "fc0ee889" in (HERE / "PREREGISTRATION_ANCESTRY.md").read_text()
-    assert "Fresh external repair-only follow-up review remains required" in exact
+    assert "Final external R3-completion follow-up review remains required" in exact
     assert "PENDING" in (HERE / "EVIDENCE_GATES.md").read_text()
 
     result = {
@@ -134,10 +146,13 @@ def main() -> None:
         "production_assertions": production["production_assertions"],
         "independent_assertions": independent["checks"],
         "hostile_catches": catches["caught"],
-        "external_review": "REPAIR_FOLLOWUP_PENDING",
+        "external_review": "FINAL_R3_FOLLOWUP_PENDING",
         "external_fresh_verdict": "REPAIRABLE_DEFECTS",
+        "external_repair_followup_verdict": "REPAIRABLE_DEFECTS_REMAIN",
         "repair_preregistration": "PRESENT",
+        "r3_completion_preregistration": "PRESENT",
         "corrupted_baseline_detected": catches["corrupted_baseline_detected"],
+        "actual_evidence_mutations": catches["actual_evidence_mutations"],
     }
     (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
