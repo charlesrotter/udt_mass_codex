@@ -1,0 +1,22 @@
+{
+  "angular_parallel": "3*b/(2*r)",
+  "angular_perpendicular": "-3*b/(2*r)",
+  "complete_rank": 10,
+  "domain_representative_positive_root_counts": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2
+  ],
+  "general_scalar_curvature": "(-r**2*Derivative(f(r), (r, 2)) - 4*r*Derivative(f(r), r) - 2*f(r) + 2)/r**2",
+  "generator_only_rank": 8,
+  "imports_production_code": false,
+  "method_split": "stdlib Fraction Lorentz rank plus independent full coordinate tensor curvature",
+  "orbit_count": 133,
+  "shape_rank": 9,
+  "solution_kretschmann": "R0**2/6 + 12*b**2/r**6",
+  "status": "PASS"
+}

@@ -1,0 +1,17 @@
+{
+  "caught": {
+    "R0_sign_error": true,
+    "angular_factor_error": true,
+    "dropped_common_scale": true,
+    "false_R0_angular_coupling": true,
+    "false_smooth_b_center": true,
+    "false_tracefree_selection": true,
+    "field_equation_promotion": true,
+    "mass_promotion": true,
+    "missing_compound_boost": true,
+    "missing_repeated_root_stratum": true,
+    "trace_pollution": true
+  },
+  "count": 11,
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+R0_condition	b_condition	positive_f_intervals	root_structure	center_status
+R0<0	b>=0	(0,infinity)	no positive root	smooth only when b=0
+R0<0	b<0	(r_h,infinity)	one simple positive root r_h	center excluded; Weyl singular
+R0=0	b>=0	(0,infinity)	no positive root	smooth only when b=0
+R0=0	b<0	(-b,infinity)	one simple positive root -b	center excluded; Weyl singular
+R0>0	b>=0	(0,r_plus)	one simple positive outer root; r_plus=sqrt(12/R0) when b=0	smooth only when b=0
+R0>0	-4/(3*sqrt(R0))<b<0	(r_minus,r_plus)	two simple positive roots	center excluded; Weyl singular
+R0>0	b=-4/(3*sqrt(R0))	none	one positive double root at 2/sqrt(R0); f does not become positive	no positive-f static interval
+R0>0	b<-4/(3*sqrt(R0))	none	no positive root and f<0	no positive-f static interval

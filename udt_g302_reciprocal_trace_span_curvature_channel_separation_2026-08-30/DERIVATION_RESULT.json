@@ -1,0 +1,71 @@
+{
+  "gate_A": {
+    "all_reciprocal_tangents_metric_trace": "0",
+    "common_scale_direction": "eta_ab",
+    "complete_metric_rank": 10,
+    "determinant_normalized_pair_change": "zero",
+    "generator_only_rank": 8,
+    "lorentz_orbit_count": 133,
+    "ownership_boundary": "all planes form an algebraic control family; current premises do not own their physical population",
+    "pair_common_scale_ratio": "exp(2*omega)",
+    "pair_determinant_scale_ratio": "exp(4*omega)",
+    "reciprocal_shape_rank": 9,
+    "selected_exact_basis_indices": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      38
+    ],
+    "selection_consequence": "reciprocal shape supplies S2_0, retained common scale supplies the trace line, so current complete-pair structure does not select the G301 trace-free residual",
+    "symmetric_metric_dimension": 10,
+    "traceless_symmetric_dimension": 9
+  },
+  "gate_B": {
+    "G288_mapping": "c2=-R0/12 and b=0",
+    "G301_generic_mapping": "R0=0",
+    "R0_absent_from_registered_angular_channels": true,
+    "angular_parallel": "3*b/(2*r)",
+    "angular_perpendicular": "-3*b/(2*r)",
+    "b_absent_from_scalar_and_ricci_curvature": true,
+    "chi": "-(R0*r**3 - 12*b)/(R0*r**3 - 12*b - 24*r)",
+    "complete_C2_solution": "-R0*r**2/12 + b/r + 1",
+    "crossover_radius_when_b_R0_nonzero": "(12*Abs(b)/Abs(R0))**(1/3)",
+    "domain_strata_count": 8,
+    "epsilon_quiet_condition": "Abs(b)*sqrt(Abs(R0)/12) < epsilon^(3/2)",
+    "indicial_polynomial": "(m - 2)*(m + 1)",
+    "indicial_roots": [
+      -1,
+      2
+    ],
+    "metric": "diag(-f,1/f,r^2,r^2*sin(theta)^2) with x0=c_E*t",
+    "nonsmooth_center_witness_for_b_nonzero": "WeylSquared=12*b^2/r^6",
+    "null_screen_R0_contribution": "0",
+    "phi": "-log(-R0*r**2/12 + b/r + 1)/2",
+    "quiet_separation_parameter": "Abs(b)*sqrt(Abs(R0)/12)",
+    "ricci_null_R0_contribution": "0",
+    "ricci_squared": "R0**2/4",
+    "riemann_squared": "R0**2/6 + 12*b**2/r**6",
+    "scalar_curvature": "R0",
+    "scope_boundary": "conditional exact static diagonal areal-spherical response; not a nonspherical, time-live, mass, source, history, or physical-query theorem",
+    "smooth_areal_center_condition": "b=0",
+    "smooth_center_subfamily": "f=1-R0*r^2/12",
+    "tracefree_ode": "r**2*Derivative(f(r), (r, 2)) - 2*f(r) + 2",
+    "unit_timelike_section_R0_contribution": "-R0/12",
+    "weyl_squared": "12*b**2/r**6"
+  },
+  "landing": "RECIPROCAL_SHAPE_SPANS_NINE_AND_COMPLETE_SCALE_RESTORES_TEN__NO_G301_CLASS_SELECTED__TRACEFREE_BRANCH_HAS_EXACT_CHANNEL_SEPARATION",
+  "physics_changes": {
+    "field_equation_adopted": false,
+    "history_selected": false,
+    "kernel_changed": false,
+    "mass_interpretation_adopted": false,
+    "metric_changed": false,
+    "observations_used": false
+  },
+  "status": "INTERNAL_PRODUCTION_DERIVATION_COMPLETE"
+}
