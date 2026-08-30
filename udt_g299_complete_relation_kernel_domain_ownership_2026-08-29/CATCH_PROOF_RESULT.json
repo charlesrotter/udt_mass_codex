@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "hostile_catches": 7,
+  "catches": {
+    "wrong_target_local_sign_rejected": true,
+    "omitted_active_screen_rejected": true,
+    "plane_collapse_rejected": true,
+    "constant_clock_entry_rejected": true,
+    "scalar_equals_complete_rejected": true,
+    "missing_W5_owner_phrase_rejected": true,
+    "missing_full_carry_phrase_rejected": true
+  }
+}

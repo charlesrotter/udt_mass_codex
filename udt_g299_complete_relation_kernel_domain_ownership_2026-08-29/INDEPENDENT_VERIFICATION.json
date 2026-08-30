@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "method": "stdlib Fraction arithmetic with independent component formulas",
+  "cases": 20000,
+  "assertions": 200002,
+  "active_screen_planes_distinct": true,
+  "registered_W1_clock_entry_shared": true,
+  "projective_vector_not_composition_complete": true,
+  "scope": "algebraic and factorization witnesses only; physical ownership is source-audited separately"
+}

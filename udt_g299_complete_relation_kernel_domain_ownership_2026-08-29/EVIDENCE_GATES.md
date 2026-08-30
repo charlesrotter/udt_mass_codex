@@ -8,16 +8,18 @@
 - [x] Candidate landings frozen before the ownership census.
 - [x] Positive and negative falsifiers registered.
 - [x] Nine load-bearing sources frozen by SHA-256.
-- [ ] Preregistration committed and pushed before production outcome.
+- [x] Preregistration committed and pushed before production outcome (`9fd16ee1`).
 
 ## Before banking a result
 
-- [ ] Source-owned wording census complete.
-- [ ] Algebraic projection and composition separators independently reproduced.
-- [ ] Query/evaluator factorization checked without scalar collapse.
-- [ ] Hostile catches demonstrated.
-- [ ] Fresh adversarial review complete.
-- [ ] Premise registry and startup surface updated only after closure.
+- [x] Source-owned wording census complete.
+- [x] Algebraic projection and composition separators independently reproduced.
+- [x] Query/evaluator factorization checked without scalar collapse.
+- [x] Hostile catches demonstrated.
+- [x] Fresh adversarial review complete; preregistered landing 3 selected and repairs applied.
+- [x] Repair-only follow-up verifies scientific repairs R1--R4 and finds no stale verdict.
+- [x] R5-only follow-up verifies the dependency-free production replay repair.
+- [x] Premise registry and startup surface updated only after closure.
 
 ## Maximum conclusion
 

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "landing": "ACTIVE_PREMISES_REQUIRE_COMPLETE_CARRY_BUT_DO_NOT_TYPE_THE_KERNEL_DOMAIN__ARCHITECTURE_REMAINS_OPEN",
+  "source_hashes": 9,
+  "source_phrase_checks": 9,
+  "symbolic_separator": "-r**2*w",
+  "projection_scalar": "Phi_T=Phi_L=-log(r)",
+  "right_carry_inputs_equal": true,
+  "right_carry_outputs_different": true,
+  "cases": 12600,
+  "assertions": 50431,
+  "engine": "stdlib Fraction exact fallback"
+}

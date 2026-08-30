@@ -18,23 +18,15 @@ G295 derives the bounded compatibility condition `AU=RA`, separates causal suppo
 propagation, and retypes constraint/update as a possible slice representation of one covariant
 history condition. It is type simplification, not fewer equations; formula and realized history
 remain open.
-G296 establishes the next bounded order/type result after external repair-only acceptance: the
-complete metric is already a minimal faithful primitive state, and curvature/second metric
-derivative order is the first local metric-natural nonidentity home. This is not an equation. The
-exact trace-free Brinkmann witness defeats only the three tested scalar channels while retaining
-nonscalar Riemann information. G259's second-order symmetric divergence-free rank-two class remains
-conditional; no residual form, lawful data, or realized history is selected.
-G297 then externally verifies after repairs that the complete bidirectional metric-causal query is
-a substantive owner-level restriction at the clock-correspondence layer. General A/B-centered
-two-leg radar first germs are conditional metric derivations. Quiet-flat planar equality with the
-transported mutual scalar is not universal: static lapse and active screen refute the collapse. The
-map from the full ordered causal-diamond/directional-delay family to a regular rank-two calibrated
-pair germ remains open and underdefined; W1 remains an evaluator, not a history law.
-G298 externally closes the bounded causal-leg algebra after a projection/completeness repair. Each
-supplied regular directed null leg owns one richer complete path-labelled relation state. Active
-screen carry yields at least two natural regular gauge-inequivalent rank-two projections with the
-same `Phi=-log r`; target-local `J_L` forgets transported-source/path carry and is not equally
-complete. No unique physical projection to `G_2(g)` is owned. The kernel is unchanged.
+G296 finds the complete metric already minimal and faithful; curvature/second metric-derivative
+order is the first local natural nonidentity home, not an equation. Its trace-free Brinkmann witness
+defeats only three scalar channels; G259's rank-two class remains conditional.
+G297 conditionally derives two-leg radar clock germs, while static lapse and active screen refute
+universal scalar collapse. The causal-family-to-rank-two-germ transfer remains open; W1 evaluates.
+G298 derives a complete path-labelled leg state and distinct natural rank-two projections sharing
+`Phi=-log r`; target-local `J_L` loses carry. G299 then confirms that complete projective/frame
+carry is required, but W5 owns only that component. Typed query views are compatible, not derived;
+no unique direct `G_2` transfer is selected. Metric and kernel remain unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -48,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -70,10 +62,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister a bounded owner discriminator on G298's factorization
-`D_g/G_D -> R_g/G_R -> G_2(g)/G_F`. Test whether an active premise uniquely privileges the
-transported-source projection or whether the richer relation state is the physical kernel input
-and pair planes are query projections. Do not invent a selector or erase screen carry. No action,
-source, mass, observation, Planck scale, `X_max`, or history solve precedes it.
+Next: preregister a bounded natural-query ownership discriminator downstream of G299. Test whether
+the complete metric relation, naturality, reversal, composition, and W1's supplied-pullback type
+derive a proper lawful rank-two query/germ subfunctor, or whether that domain remains operationally
+supplied. Do not invent a selector or erase screen/path carry. No action, source, mass,
+observation, Planck scale, `X_max`, or history solve precedes it.
 
 <!-- STARTUP_CURRENT_END -->

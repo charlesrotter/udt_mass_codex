@@ -11,5 +11,5 @@ transported_source_projection_JT	DERIVED_CONDITIONAL_G298	natural rank-two query
 target_local_projection_JL	DERIVED_CONDITIONAL_G298	natural rank-two query projection that forgets transported-source carry	equally complete relation state
 full_frame_composition	DERIVED_CONDITIONAL_G274	composition owner with screen/frame carry	path independence
 W1_clock_depth	DERIVED_CONDITIONAL_G298	projection-stable scalar on registered JT and JL	equality of complete outputs
-typed_query_q	TYPE_TO_TEST	labels which lawful projection/readout is requested	physical selector
+typed_query_q	OPEN_TYPE	compatible label for a lawful projection/readout but active query/germ subfunctor is not owned	physical selector or derived kernel domain
 observations_sources_matter_action_scale_Xmax_history	OPEN_EXCLUDED	no role	repair or selector

@@ -199,7 +199,7 @@ def replay_package_with_current_registry_rows_removed(
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
         "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
-        "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
+        "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
         dict.fromkeys(legacy_later_rows + removed_ids)
@@ -378,6 +378,7 @@ def validate_startup_surface(root: Path) -> None:
             "G296",
             "G297",
             "G298",
+            "G299",
             "W6",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -422,7 +423,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "282-row exact registry",
+            "283-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -645,6 +646,7 @@ def validate_startup_surface(root: Path) -> None:
             "G296",
             "G297",
             "G298",
+            "G299",
             "W6",
             "G291",
             "G292",
@@ -766,6 +768,7 @@ def validate_startup_surface(root: Path) -> None:
             "G296",
             "G297",
             "G298",
+            "G299",
             "W6",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -879,12 +882,13 @@ def validate_startup_surface(root: Path) -> None:
             "G296",
             "G297",
             "G298",
+            "G299",
             "W6",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "282-row",
+            "283-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1246,9 +1250,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 282, "premise registry must contain exactly 282 rows")
+    require(len(rows) == 283, "premise registry must contain exactly 283 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 282, "duplicate premise id")
+    require(len(by_id) == 283, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1354,6 +1358,11 @@ def main() -> None:
             "EXTERNALLY_REVIEWED_DERIVED_WITH_CAVEATS__PREREGISTERED_AT_C7128F21",
             "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md",
             "MULTIPLE_INEQUIVALENT_NATURAL_PAIR_ONE_JET_PROJECTIONS_SURVIVE_FROM_THE_DERIVED_COMPLETE_RELATION_STATE",
+        ),
+        "G299": (
+            "EXTERNALLY_REVIEWED_REPAIRS_CLOSED__PREREGISTERED_AT_9FD16EE1",
+            "udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md",
+            "ACTIVE_PREMISES_REQUIRE_COMPLETE_CARRY_BUT_DO_NOT_TYPE_THE_KERNEL_DOMAIN",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -1508,6 +1517,69 @@ def main() -> None:
     require("R1_COMPLETION_VERIFIED__G298_REPAIRED_LANDING_CLOSED" in
             (g298 / "EXTERNAL_R1_COMPLETION_GPT54.md").read_text(encoding="utf-8"),
             "G298 R1 completion verdict changed")
+    g299 = ROOT / "udt_g299_complete_relation_kernel_domain_ownership_2026-08-29"
+    g299_production = json.loads((g299 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g299_independent = json.loads((g299 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g299_catches = json.loads((g299 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g299_landing = (
+        "ACTIVE_PREMISES_REQUIRE_COMPLETE_CARRY_BUT_DO_NOT_TYPE_THE_KERNEL_DOMAIN"
+        "__ARCHITECTURE_REMAINS_OPEN"
+    )
+    require(g299_production["status"] == "PASS"
+            and g299_production["landing"] == g299_landing
+            and g299_production["cases"] == 12600
+            and g299_production["assertions"] == 50431
+            and g299_production.get("engine") == "stdlib Fraction exact fallback",
+            "G299 production evidence changed")
+    require(g299_independent["status"] == "PASS"
+            and g299_independent["cases"] == 20000
+            and g299_independent["assertions"] == 200002,
+            "G299 independent evidence changed")
+    require(g299_catches["status"] == "PASS" and g299_catches["hostile_catches"] == 7,
+            "G299 hostile-catch evidence changed")
+    require(len(read_tsv(g299 / "SOURCE_MANIFEST.tsv")) == 9,
+            "G299 source-manifest count changed")
+    require("R5_REPAIRS_VERIFIED" in (g299 / "R5_FOLLOWUP_GPT54.md").read_text(encoding="utf-8"),
+            "G299 R5 closure verdict changed")
+    with tempfile.TemporaryDirectory(prefix="g299_registry_replay_", dir="/tmp") as directory:
+        replay_root = Path(directory)
+        replay_package = replay_root / g299.name
+        shutil.copytree(g299, replay_package)
+        for row in read_tsv(g299 / "SOURCE_MANIFEST.tsv"):
+            source = ROOT / row["path"]
+            require(hashlib.sha256(source.read_bytes()).hexdigest() == row["sha256"],
+                    f"G299 source hash changed: {row['path']}")
+            destination = replay_root / row["path"]
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, destination)
+        replay_outputs = []
+        for command in (
+            "derive_relation_domain.py",
+            "verify_relation_domain_independent.py",
+            "run_catch_proofs.py",
+            "verify_package.py",
+        ):
+            completed = subprocess.run(
+                [sys.executable, "-S", str(replay_package / command)],
+                cwd=replay_root,
+                check=True,
+                capture_output=True,
+                text=True,
+                env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+            )
+            replay_outputs.append(json.loads(completed.stdout))
+        require(replay_outputs[0]["engine"] == "stdlib Fraction exact fallback"
+                and replay_outputs[0]["cases"] == 12600
+                and replay_outputs[0]["assertions"] == 50431
+                and replay_outputs[3]["grade"] == "EXTERNALLY_REVIEWED_REPAIRS_CLOSED",
+                "G299 dependency-free replay changed")
+        for result_name in (
+            "DERIVATION_RESULT.json",
+            "INDEPENDENT_VERIFICATION.json",
+            "CATCH_PROOF_RESULT.json",
+        ):
+            require((replay_package / result_name).read_bytes() == (g299 / result_name).read_bytes(),
+                    f"G299 replay result drift: {result_name}")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14275,7 +14347,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

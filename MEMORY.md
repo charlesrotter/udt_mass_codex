@@ -13,27 +13,21 @@ as nonpropagating connectedness; instant global enforcement can signal. W6 provi
 only that type clarification. G295 derives `AU=RA` for bounded linear constraint propagation and
 shows constraint/update may be one covariant history condition viewed through a slicing. This is
 type simplification, not equation-count reduction; formula, data, and realized history remain open.
-G296 externally verifies after repairs that the complete metric is already a minimal faithful
-primitive geometric state and curvature/second metric derivative order is the first local natural
-nonidentity home. This is an order boundary, not an equation; G259 remains conditional and the
-residual formula, lawful data, and realized history remain open.
-G297 externally verifies after repairs that the complete bidirectional causal query substantively
-restricts the clock-correspondence protocol, but not yet the full rank-two pair germ. General A/B
-two-leg radar first germs are conditional; static lapse and active screen refute universal scalar
-collapse. At G297 the natural causal-family-to-pair-germ transfer remains open and W1 stays
-evaluative.
-G298 externally closes the bounded local causal-leg algebra after an exact type repair. The metric
-owns one complete path-labelled relation state and multiple natural regular gauge-inequivalent
-rank-two projections on the active-screen stratum. Target-local `J_L` forgets
-transported-source/path carry and is not equally complete. The unique physical projection remains
-open; the metric and kernel are unchanged.
+G296 finds the complete metric already minimal and faithful; curvature/second metric-derivative
+order is the first local natural nonidentity home, not an equation. G259 remains conditional.
+G297 conditionally derives two-leg radar clock germs; lapse and active screen refute universal
+scalar collapse, leaving causal-family-to-pair-germ transfer open and W1 evaluative.
+G298 derives one complete path-labelled relation and distinct natural rank-two projections;
+target-local `J_L` loses carry. G299 confirms that complete projective/frame carry is required, but
+W5 owns only that component. A lawful typed-query family is compatible, not derived; no unique
+`G_2` transfer, history, or population was selected. Metric and kernel remain unchanged.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299.
 W5 is noncanon normalized projective position; scale, native SNe area, and history remain open.
 
 ## Observations and premises
@@ -45,9 +39,10 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Preregister a bounded ownership discriminator on G298's complete relation state: decide whether an
-active premise uniquely privileges the transported-source projection or whether rank-two pair
-germs remain query projections of the richer physical kernel input.
+Preregister a bounded natural-query ownership discriminator downstream of G299: determine whether
+the complete metric relation itself derives a lawful rank-two query/germ subfunctor, or whether the
+query domain remains an operationally supplied type. Do not select one projection by convenience
+or erase screen/path carry.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

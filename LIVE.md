@@ -49,13 +49,14 @@ the first local metric-natural nonidentity content at curvature/second-derivativ
 specific equation; its Brinkmann witness also defeats the tested scalar-only lane. G297 externally
 derives conditional A/B radar clock germs, while static lapse/screen refute universal scalar
 collapse; W1 remains evaluative and the complete transfer was still underdefined there.
-G298 externally closes the next bounded local step after an exact type repair. A supplied regular
-directed null leg derives one complete path-labelled relation state. That state has at least two
-natural regular gauge-inequivalent projections to calibrated pair one-jets when screen carry is
-active; both return `Phi=-log r`, but target-local `J_L` forgets transported-source/path carry and
-is not equally complete. The metric therefore owns the richer state and its projections, while no
-unique physical transfer from that state to `G_2(g)` is currently owned. This is local projection
-nonuniqueness, not renewed generic history underdetermination, and it does not change the kernel.
+G298 externally derives on each supplied regular directed null leg a complete path-labelled state
+and multiple natural gauge-inequivalent active-screen pair-one-jet projections. Both registered
+views give `Phi=-log r`, but target-local `J_L` forgets transported-source/path carry. No unique
+physical `G_2(g)` transfer follows; this local projection nonuniqueness changes no kernel.
+G299 externally closes the ownership discriminator after repairs. Active premises require complete
+projective/frame carry, but W5 owns only that component at working grade; route and higher
+delay/Jacobi data stay separately typed. `R_gamma+q -> J_q -> h_q -> outputs` is compatible, not
+active-premise-owned. The lawful query/germ subfunctor remains open; metric and kernel are unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -70,11 +71,12 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299.
 The first group retains declared optical imports and no native SNe prediction. The second locates
 the open tide/history propagation. The third derives center, screen/topology, architecture, and
 co-presence constraints, then factors the causal-family bridge through a complete relation state
-with nonunique rank-two projections, without changing the metric or kernel or selecting history.
+with nonunique rank-two projections. G299 establishes that complete carry is required while the
+lawful query domain remains open, without changing the metric or kernel or selecting history.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -102,11 +104,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G298 replaces the presumed direct transfer with
-`D_g/G_D -> R_g/G_R -> G_2(g)/G_F`. MAP and preregister a bounded ownership discriminator: does W5
-or another active premise uniquely privilege the transported-source projection, or should the
-physical kernel input remain the richer path-labelled relation state with rank-two germs treated as
-query projections? Do not invent a selector, use scalar equality to erase screen carry, or reopen
-the completed algebra. No observation, action, source, matter, scale, `X_max`, protected work, or
-history solve enters.
+G299 closes the prior discriminator negatively at active-premise ownership grade: complete
+projective/frame carry is required, but the lawful query/germ subfunctor remains open. MAP and
+preregister a bounded natural-query discriminator: can metric naturality, reversal, composition,
+and W1's supplied-pullback type derive a proper family of lawful rank-two views, or is that query
+domain operationally supplied? Do not invent a selector, privilege `J_T` or `J_L` by convenience,
+or use scalar equality to erase screen carry. No observation, action, source, matter, scale,
+`X_max`, protected work, or history solve enters.
 <!-- STARTUP_CURRENT_END -->
