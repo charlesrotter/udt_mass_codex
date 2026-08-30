@@ -40,6 +40,15 @@ def resolve_frozen_source(relative_path: str) -> Path:
     return matches[0]
 
 
+def registered_source_digest(source: Path, relative_path: str) -> str:
+    """Preserve the frozen preregistry hash after the later G304 authority row is banked."""
+    if relative_path != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        return digest(source)
+    lines = source.read_bytes().splitlines(keepends=True)
+    frozen = b"".join(line for line in lines if not line.startswith(b"G304\t"))
+    return hashlib.sha256(frozen).hexdigest()
+
+
 def main() -> None:
     required = {
         "MAP.md",
@@ -102,7 +111,7 @@ def main() -> None:
     assert len(sources) == 14
     for row in sources:
         source = resolve_frozen_source(row["path"])
-        assert digest(source) == row["sha256"], row["path"]
+        assert registered_source_digest(source, row["path"]) == row["sha256"], row["path"]
 
     exact = (HERE / "EXACT_DERIVATION.md").read_text()
     lay = (HERE / "LAY_REPORT.md").read_text()

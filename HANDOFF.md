@@ -38,6 +38,12 @@ has rank nine; Bianchi-completed fixed-`Lambda` sectors share Ricci-flat's rank-
 principal system and null cone. Lawful data carry one connected-region number, not a function.
 Standard local PDE theorems are conditional imports; the kernel creates no evolution residual. No
 class, law, history, mass, source, query population, metric, or kernel was selected.
+G304 classifies the complete primary static trace-free family. Smooth-center regularity removes the
+`b/r` mode. Only the positive constant sector has a finite simple regular outer static ceiling, so
+active `WORKING` G17 conditionally distinguishes its sign in this bounded branch. Magnitude, field
+equation, history, all-frame completion, and physical `X_max` remain open. The algebraic radius
+`sqrt(12/R0)` is not yet physical `X_max`; full WR-L is exactly outside the family (`2r/X`
+residual). Founded relation layers remain nonselective; metric and kernel are unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -51,7 +57,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300/G301/G302/G303.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300/G301/G302/G303/G304.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -73,8 +79,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: retain both G301 classes and ask whether an owned global UDT relation, co-presence, or
-completion condition forces the extra connected-region constant to zero. Map premises first; do
-not import identity divergence, source, action, mass, observation, scale, `X_max`, or history.
+Next: test whether G304's finite regular static ceiling survives as an invariant all-frame/time-live
+completion property and whether an owned premise fixes the remaining positive magnitude. Map
+premises first; do not import identity divergence, source, action, mass, observation, fitted scale,
+physical `X_max`, protected work, or realized history.
 
 <!-- STARTUP_CURRENT_END -->

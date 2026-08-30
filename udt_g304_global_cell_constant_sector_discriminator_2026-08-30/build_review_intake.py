@@ -44,6 +44,8 @@ PACKAGE_FILES = [
     "EXTERNAL_REVIEW_TRANSMISSION.md",
     "REPAIR_PREREGISTRATION.md",
     "REPAIR_FOLLOWUP_REQUEST.md",
+    "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
 ]
 
 
@@ -53,6 +55,15 @@ def digest(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             h.update(block)
     return h.hexdigest()
+
+
+def frozen_source_bytes(source: Path, relative_path: str) -> bytes:
+    data = source.read_bytes()
+    if relative_path == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        data = b"".join(
+            line for line in data.splitlines(keepends=True) if not line.startswith(b"G304\t")
+        )
+    return data
 
 
 def main() -> None:
@@ -79,11 +90,12 @@ def main() -> None:
         source_rows = list(csv.DictReader(handle, delimiter="\t"))
     for row in source_rows:
         source = REPO / row["path"]
-        if digest(source) != row["sha256"]:
+        frozen_bytes = frozen_source_bytes(source, row["path"])
+        if hashlib.sha256(frozen_bytes).hexdigest() != row["sha256"]:
             raise AssertionError(f"source hash drift: {row['path']}")
         destination = sources_target / row["path"]
         destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source, destination)
+        destination.write_bytes(frozen_bytes)
 
     scope = {
         "schema": "UDT_G304_REPAIR_FOLLOWUP_SCOPE_V1" if args.repair_followup else "UDT_G304_EXTERNAL_REVIEW_SCOPE_V1",

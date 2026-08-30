@@ -2,7 +2,7 @@
 
 Date: 2026-08-30
 
-`LIVE.md` controls status; the 286-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 287-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -91,6 +91,11 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   completion turns every fixed-`Lambda` sector into the same rank-ten metric-wave principal system
   and null cone as Ricci-flat. Unsupplied-`Lambda` data obey `M_i=0,D_iH=0,Lambda=H/2`: one regional
   number, not a function. Standard PDE theorems are conditional; the kernel adds no evolution law.
+- G304 gives the bounded global/static discriminator. The exact trace-free primary family is
+  `f=1+b/r-(R0/12)r^2`; smooth center forces `b=0`. Only `R0>0` has a finite simple regular outer
+  static causal ceiling, so active `WORKING` G17 conditionally selects the positive sign in this
+  branch. It fixes neither magnitude nor physical `X_max`; full WR-L has residual `2r/X` and is not
+  an exact member. Founded relation layers remain nonselective; metric and kernel are unchanged.
 
 ## Open boundary
 
@@ -109,8 +114,9 @@ causal bridge, G299 proves complete carry is required, and G300 shows that even 
 control action does not type the lawful physical query family. Operational query supply is the
 current endpoint of that lane, not a metric or kernel failure. G301 narrows one local residual lane
 to two classes; G302 does not remove that fork. G303 gives both the same local causal propagation
-and functional data burden; trace-free adds one regional constant. Global completion and any owned
-reason it must vanish remain open.
+and functional data burden; trace-free adds one regional constant. G304 then uses the already-active
+working finite-ceiling condition to distinguish the positive sign in the smooth-center static
+branch. Invariant all-frame/time-live completion, constant magnitude, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -118,6 +124,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Retain both G301 classes. Map whether any owned global relation, co-presence, or completion premise
-distinguishes `Lambda=0` from a nonzero connected-region constant. Do not import identity divergence,
-source, action, mass, observation, scale, `X_max`, protected work, or a realized history.
+Test whether G304's finite simple regular outer static ceiling descends to an invariant
+all-frame/time-live completion property, then ask whether any owned premise fixes the surviving
+positive magnitude. Do not import identity divergence, source, action, mass, observation, fitted
+scale, physical `X_max`, protected work, or a realized history.

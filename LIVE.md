@@ -57,6 +57,13 @@ null cone as Ricci-flat. Lawful unsupplied-`Lambda` data obey `M_i=0,D_iH=0,Lamb
 connected-region number, not a function. Standard well-posedness is conditional imported math.
 The reciprocal readout creates no evolution residual. No class, law, history, global completion,
 mass, source, query population, metric, or kernel is selected.
+G304 then performs the bounded global/static sign test. In the exact trace-free primary family
+`f=1+b/r-(R0/12)r^2`, smooth-center regularity forces `b=0`. Only `R0>0` has a finite simple
+regular outer static causal ceiling, so the active `WORKING` G17 condition conditionally selects
+the positive sign inside this branch. It does not fix the magnitude, field equation, history, or
+physical `X_max`; `X=sqrt(12/R0)` is only the algebraic static-patch radius. Founded relation,
+network, topology, and co-presence layers remain nonselective. Full WR-L is not in this family:
+its exact trace-free residual is `2r/X`. Metric and kernel remain unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -71,7 +78,7 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304.
 The first group retains declared optical imports and no native SNe prediction. The second locates
 the open tide/history propagation. The third derives center, screen/topology, architecture, and
 co-presence constraints, then factors the causal-family bridge through a complete relation state
@@ -81,6 +88,8 @@ physical query family. G301 narrows one candidate local residual lane to two cla
 selecting either. G302 proves that complete reciprocal shape plus retained scale still does not
 choose between them. G303 proves both completed classes have the same local causal propagation and
 functional data burden; the broader class carries only one extra constant per connected region.
+G304 uses the already-active working finite-ceiling condition to distinguish the positive sign in
+the bounded smooth-center static trace-free branch, but leaves its magnitude and all-frame owner open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -108,9 +117,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G303 closes the local nonlinear propagation/data gate without selecting between the G301 classes.
-The next bounded gate is whether any owned UDT global relation, co-presence, or completion condition
-distinguishes `Lambda=0` from an allowed nonzero connected-region constant. Begin with MAP/PONDER
-and an exact premise census; do not import identity divergence, observation, action, source, mass,
-fitted scale, `X_max`, protected work, or realized-history selection.
+G304 shows that the active `WORKING` finite causal-ceiling condition distinguishes the positive
+constant sector only in the primary static smooth-center trace-free branch. The next bounded gate is
+whether that finite regular ceiling is an invariant all-frame/time-live completion property rather
+than a static-chart feature, and whether any owned premise fixes the remaining positive magnitude.
+Begin with MAP/PONDER and an exact premise census; do not import identity divergence, observation,
+action, source, mass, fitted scale, physical `X_max`, protected work, or realized-history selection.
 <!-- STARTUP_CURRENT_END -->

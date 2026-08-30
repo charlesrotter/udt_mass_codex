@@ -57,6 +57,7 @@
 | G301 principal classes | external/repairs | Ricci-flat or trace-free Ricci; neither selected |
 | G302 span/channel separation | external/repairs | 9 shape plus 1 scale direction; no selection |
 | G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
+| G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -95,7 +96,11 @@ None selects completion/`X_max`.
   lane contains two inequivalent classes: generic Ricci-flat and trace-free Ricci with one constant
   scalar datum. G302 selects neither. G303 proves that each fixed constant sector has the same local
   causal metric-wave system as Ricci-flat; unsupplied data require `D_iH=0` and add one constant, not
-  a function. Standard well-posedness is imported conditionally and selects neither. W1 stays evaluative.
+  a function. Standard well-posedness is imported conditionally and selects neither. G304 shows that
+  active `WORKING` G17 conditionally distinguishes the positive constant sign in the complete
+  smooth-center primary static trace-free family because only it has a finite simple regular outer
+  static ceiling. It does not fix magnitude, law, history, all-frame completion, or physical
+  `X_max`; full WR-L is exactly outside this family. W1 stays evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -108,10 +113,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G303 leave law selection and realized history open. No native SNe
+R2--R5 select no scale or `X_max`; G277--G304 leave law selection and realized history open. No native SNe
 prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 286-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 287-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
