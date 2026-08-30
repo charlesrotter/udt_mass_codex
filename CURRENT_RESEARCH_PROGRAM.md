@@ -64,25 +64,11 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
 - G294 types “foundational infinite c” as nonpropagating connectedness, not signal speed. Pair graph,
   reciprocal groupoid, and physical foliation remain distinct; instantaneous global enforcement can
   signal. The missing object is a nonidentity complete-network constraint plus metric-causal update.
-- G295 derives the bounded linear preservation theorem `AU=RA`, shows causal support is independent,
-  and identifies one covariant complete-history condition as the least-foliation-dependent type.
-  Constraint/update is its possible slice representation. This is not equation-count reduction;
-  no formula, coefficients, lawful data, or realized history is selected.
-- G296 finds the complete metric already minimal and faithful; curvature/second metric-derivative
-  order is the first local natural nonidentity home, not an equation. Its trace-free Brinkmann
-  witness defeats only three scalar channels; G259 remains conditional.
-- G297 conditionally derives A/B two-leg radar clock germs. Static lapse and active screen refute
-  universal scalar collapse, so causal-family-to-rank-two-germ transfer remains open and W1 stays
-  evaluative.
-- G298 derives a complete path-labelled leg state and distinct natural rank-two projections with
-  `Phi=-log r`; target-local `J_L` loses carry. G299 confirms complete projective/frame carry is
-  required but W5 owns only that component. `R_gamma+q -> J_q -> h_q -> outputs` is compatible,
-  not derived; no unique direct `G_2` transfer exists. Metric and kernel remain unchanged.
-- G300 derives the exact all-direction celestial control action over a supplied full relation:
-  oriented `S^2`, unoriented `RP^2`, reversal, composition, positive clock cocycle, actual-leg
-  `J_L`, and `J_T` plane retention. Fresh external review refutes promotion of arbitrary nonroute
-  directions from regular evaluator inputs to a premise-owned lawful query family. Identity
-  isotropy blocks only a universal section. Metric and kernel remain unchanged.
+- G295 derives bounded `AU=RA` compatibility but no formula or data. G296 places first local natural
+  nonidentity content at curvature order, not at an equation. G297--G300 derive conditional radar
+  germs, distinct rank-two projections, required complete frame carry, and exact celestial control.
+  They refute universal scalar collapse but leave the lawful query family and unique transfer open;
+  metric and kernel remain unchanged.
 - G301 narrows the declared scale-free metric two-jet lane to generic Ricci-flat or trace-free
   Ricci with one constant scalar datum; identity divergence would choose the former but is unowned.
 - G302 proves reciprocal shape plus common scale spans all ten metric directions and selects

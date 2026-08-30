@@ -90,17 +90,12 @@ None selects completion/`X_max`.
   view of one possible covariant condition; `AU=RA` controls bounded linear propagation but selects
   no formula or history. G296 finds the complete metric minimal and curvature order the first local
   natural nonidentity home, not a law; its Brinkmann witness defeats only tested scalar channels.
-  G297--G300 derive radar germs, complete directed-leg carry, distinct rank-two projections, and
-  exact `S^2`/`RP^2` celestial control while leaving physical query supply operational. G301 then
-  proves that its declared smooth scale-free local metric-only rank-two two-jet quiet-principal
-  lane contains two inequivalent classes: generic Ricci-flat and trace-free Ricci with one constant
-  scalar datum. G302 selects neither. G303 proves that each fixed constant sector has the same local
-  causal metric-wave system as Ricci-flat; unsupplied data require `D_iH=0` and add one constant, not
-  a function. Standard well-posedness is imported conditionally and selects neither. G304 shows that
-  active `WORKING` G17 conditionally distinguishes the positive constant sign in the complete
-  smooth-center primary static trace-free family because only it has a finite simple regular outer
-  static ceiling. It does not fix magnitude, law, history, all-frame completion, or physical
-  `X_max`; full WR-L is exactly outside this family. W1 stays evaluative.
+  G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
+  leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
+  G302 selects neither. G303 gives each fixed constant sector the same local causal metric-wave
+  system, with one extra regional constant in the broader class. G304 uses active `WORKING` G17 to
+  distinguish the positive sign only in the smooth-center static trace-free family. Magnitude, law,
+  history, all-frame completion, and physical `X_max` remain open; W1 stays evaluative.
 
 ## Carrier, action, source, and matter
 

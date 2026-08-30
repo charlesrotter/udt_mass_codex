@@ -115,5 +115,4 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 Begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths
 See `LIVE.md` and `AGENTS.md`. Do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without explicit authority.
-Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`.
-G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`, `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
