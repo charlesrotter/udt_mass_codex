@@ -83,13 +83,13 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   `J_L`, and `J_T` plane retention. Fresh external review refutes promotion of arbitrary nonroute
   directions from regular evaluator inputs to a premise-owned lawful query family. Identity
   isotropy blocks only a universal section. Metric and kernel remain unchanged.
-- G301 returns to G295/G296's local complete-metric residual lane. In the explicitly candidate
-  smooth, scale-free, local, metric-only, symmetric-rank-two, metric-two-jet quiet-principal class,
-  exact homogeneity and naturality reduce every residual to `a Ric_ab+b R g_ab`. The complete
-  principal gate leaves two inequivalent classes: generic Ricci-flat and trace-free Ricci with one
-  connected-region constant scalar datum. Identity divergence would select the generic class but
-  remains unowned. Fresh repair-only review accepted the independent full-space census. No field
-  equation, data, history, metric, or kernel changed.
+- G301 narrows the declared scale-free metric two-jet lane to generic Ricci-flat or trace-free
+  Ricci with one constant scalar datum; identity divergence would choose the former but is unowned.
+- G302 proves reciprocal shape plus common scale spans all ten metric directions and selects
+  neither. Conditional on the static trace-free class, `f=1+b/r-R0 r^2/12`; reciprocal depth sees
+  both constants, angular channels `+3b/(2r)` and `-3b/(2r)` only `b`, and smooth center forces
+  `b=0`. External repair accepted the exact domain census. No equation, metric, kernel, mass,
+  source, history, query population, or nonspherical/time-live result follows.
 
 ## Open boundary
 
@@ -108,6 +108,8 @@ causal bridge, G299 proves complete carry is required, and G300 shows that even 
 control action does not type the lawful physical query family. Operational query supply is the
 current endpoint of that lane, not a metric or kernel failure. G301 then narrows one local residual
 candidate class to two inequivalent principal classes without selecting either or supplying data.
+G302 does not remove that fork; its exact static channel split supplies neither nonlinear
+propagation nor lawful data.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -115,9 +117,6 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-G301 has narrowed the declared local quiet-principal lane to two classes but has not selected a UDT
-equation. PONDER which, if any, remaining class premise is UDT-owned. In particular, do not silently
-promote identity divergence freedom merely because it selects the generic Ricci-flat class. The
-next derivation must either find an already-owned discriminator or retain both classes and move to
-nonlinear well-posedness/data. No action, source, mass, observation, `X_max`, protected work, or
-history solve enters before that frame decision.
+Retain both G301 classes. Next test nonlinear covariant well-posedness and lawful data, beginning
+with trace-free scalar-datum propagation without imported identity divergence or source. No action,
+mass, observation, scale, `X_max`, protected work, or realized-history solve enters.

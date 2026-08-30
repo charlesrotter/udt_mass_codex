@@ -49,13 +49,15 @@ metric-natural nonidentity content at curvature/second-derivative order, not at 
 derives conditional radar clock germs but refutes scalar collapse. G298 derives a complete
 path-labelled leg state and multiple natural pair-one-jet projections; target-local `J_L` loses
 carry. G299 requires complete projective/frame carry while leaving the lawful query/germ subfunctor
-operational. G300 derives exact `S^2`/`RP^2` celestial control, reversal, composition, clock cocycle,
-`J_L`, and `J_T` retention, but not a premise-owned physical query family. G301 then classifies the
-declared smooth scale-free local metric-only symmetric-rank-two two-jet quiet-principal lane. Exact
-homogeneity/naturality leaves `a Ric_ab+b R g_ab`; the complete principal gate retains two
-inequivalent classes: generic Ricci-flat and trace-free Ricci with one connected-region constant
-scalar datum. Identity divergence would select the generic class but is unowned. Fresh repair-only
-review accepted the independent full-space census. No field equation, metric, or kernel changed.
+operational. G300 derives exact celestial control but not a premise-owned query family. G301 narrows
+the declared scale-free metric two-jet lane to generic Ricci-flat or trace-free Ricci with one
+constant scalar datum; identity divergence would choose the former but is unowned. G302 proves
+reciprocal shape spans the nine traceless metric directions and retained common scale restores the
+tenth, so it selects neither class. Conditional on the static trace-free branch,
+`f=1+b/r-R0 r^2/12`; reciprocal depth sees both constants, while registered angular channels
+`+3b/(2r)` and `-3b/(2r)` cancel `R0`; smooth center forces `b=0`. External repair review accepted
+the exhaustive domain census. No equation, metric, kernel, mass, source, history, query population,
+or nonspherical/time-live result follows.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -70,14 +72,15 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302.
 The first group retains declared optical imports and no native SNe prediction. The second locates
 the open tide/history propagation. The third derives center, screen/topology, architecture, and
 co-presence constraints, then factors the causal-family bridge through a complete relation state
 with nonunique rank-two projections. G299 establishes that complete carry is required while the
 lawful query domain is operational. G300 derives the celestial control geometry without owning a
 physical query family. G301 narrows one candidate local residual lane to two classes without
-selecting either, changing the metric/kernel, or selecting history.
+selecting either. G302 proves that complete reciprocal shape plus retained scale still does not
+choose between them, then conditionally separates constant-curvature and angular/Weyl channels.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -105,9 +108,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Operationally supplied queries close the G300 lane. G301 narrows the declared local
-quiet-principal residual class to two candidates but selects no UDT equation. PONDER whether any
-remaining discriminator is already UDT-owned; do not promote identity divergence by familiarity.
-Otherwise retain both classes and test nonlinear well-posedness/data. No observation, action,
-source, matter, scale, `X_max`, protected work, or history solve enters before that decision.
+G302 closes the reciprocal-shape discriminator test negatively and supplies an exact conditional
+channel separation. Retain both G301 classes. The next bounded gate is nonlinear covariant
+well-posedness and lawful-data burden for each class, beginning with whether the trace-free class
+propagates its connected-region scalar datum without silently importing identity divergence or a
+source. No observation, action, mass interpretation, fitted scale, `X_max`, protected work, or
+realized-history selection enters that gate.
 <!-- STARTUP_CURRENT_END -->
