@@ -1,0 +1,60 @@
+{
+  "caught": {
+    "generic_not_nested_at_zero": {
+      "caught": true,
+      "correct_zero_slice": "H",
+      "mutated_zero_slice": "H - 2"
+    },
+    "kernel_evaluator_promoted_to_evolution_residual": {
+      "caught": true,
+      "correct_g2_derivative": "0",
+      "mutated_g2_derivative": "zeta"
+    },
+    "lambda_inserted_into_momentum_constraint": {
+      "caught": true,
+      "correct": "0",
+      "mutated": "Lambda"
+    },
+    "lambda_inserted_into_principal_coefficient": {
+      "caught": true,
+      "correct_lambda_derivative_rank": 0,
+      "mutated_lambda_derivative_rank": 10
+    },
+    "nonconstant_hamiltonian_accepted": {
+      "caught": true,
+      "mutated_residual": [
+        "1",
+        "-1",
+        "0"
+      ]
+    },
+    "raw_rank_promoted_to_ten": {
+      "caught": true,
+      "correct_rank": 9,
+      "mutated_rank": 10
+    },
+    "wrong_bianchi_coefficient": {
+      "caught": true,
+      "correct": "1/4",
+      "mutated": "1/6"
+    },
+    "wrong_hamiltonian_sign_or_factor": {
+      "caught": true,
+      "correct_H": "2*Lambda",
+      "mutated_H": "-6*Lambda"
+    },
+    "wrong_scalar_to_lambda_factor": {
+      "caught": true,
+      "correct_residual": "0",
+      "mutated_residual": "1/3"
+    },
+    "wrong_trace_projector_factor": {
+      "caught": true,
+      "correct_rank": 9,
+      "mutated_rank": 10
+    }
+  },
+  "count": 10,
+  "method": "formula and artifact mutations; no hard-coded selection booleans",
+  "status": "PASS"
+}

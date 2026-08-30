@@ -1,0 +1,13 @@
+# G303 commands
+
+From repository root:
+
+```bash
+python3 udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/derive_cauchy_classes.py
+python3 udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/verify_independent.py
+python3 udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/run_catch_proofs.py
+python3 udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/verify_kernel_no_evolution_residual.py
+python3 udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/verify_package.py
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q
+```

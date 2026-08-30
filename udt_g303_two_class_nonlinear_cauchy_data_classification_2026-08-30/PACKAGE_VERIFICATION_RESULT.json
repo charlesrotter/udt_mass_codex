@@ -1,0 +1,11 @@
+{
+  "external_review": "VERIFIED_WITH_CAVEATS_REPAIRED",
+  "hostile_mutations_caught": 10,
+  "independent_assertions": 59,
+  "kernel_second_normal_jet_jacobian_rank": 0,
+  "landing": "BOTH_G301_CLASSES_HAVE_THE_SAME_LOCAL_CAUSAL_PRINCIPAL_SYSTEM__TRACEFREE_DATA_ARE_THE_UNION_OVER_ONE_CONSTANT_SCALAR_DATUM__WELLPOSEDNESS_DOES_NOT_SELECT",
+  "production_assertions": 79,
+  "required_files": 24,
+  "source_hashes_verified": 6,
+  "status": "PASS"
+}

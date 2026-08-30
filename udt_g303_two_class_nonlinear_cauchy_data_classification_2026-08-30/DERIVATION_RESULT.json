@@ -1,0 +1,172 @@
+{
+  "assertions": 79,
+  "cauchy_constraints": {
+    "common_momentum": "D_j(K^ij-gamma^ij*K)=0",
+    "generic_hamiltonian": "R3+K^2-KijKij=0",
+    "tracefree_hamiltonian": "R3+K^2-KijKij=2*Lambda",
+    "unpresupplied_lambda_form": "D_i(R3+K^2-KijKij)=0"
+  },
+  "landing": "BOTH_G301_CLASSES_HAVE_THE_SAME_LOCAL_CAUSAL_PRINCIPAL_SYSTEM__TRACEFREE_DATA_ARE_THE_UNION_OVER_ONE_CONSTANT_SCALAR_DATUM__WELLPOSEDNESS_DOES_NOT_SELECT",
+  "lawful_data": {
+    "extra_connected_region_constants": 1,
+    "extra_functional_degree": false,
+    "generic": "constraint-satisfying (gamma_ij,K_ij) with zero Hamiltonian scalar",
+    "graph_rank_checks": [
+      {
+        "generic_rank": 2,
+        "tracefree_rank": 1,
+        "vertices": 2
+      },
+      {
+        "generic_rank": 3,
+        "tracefree_rank": 2,
+        "vertices": 3
+      },
+      {
+        "generic_rank": 4,
+        "tracefree_rank": 3,
+        "vertices": 4
+      },
+      {
+        "generic_rank": 5,
+        "tracefree_rank": 4,
+        "vertices": 5
+      },
+      {
+        "generic_rank": 6,
+        "tracefree_rank": 5,
+        "vertices": 6
+      },
+      {
+        "generic_rank": 7,
+        "tracefree_rank": 6,
+        "vertices": 7
+      },
+      {
+        "generic_rank": 8,
+        "tracefree_rank": 7,
+        "vertices": 8
+      },
+      {
+        "generic_rank": 9,
+        "tracefree_rank": 8,
+        "vertices": 9
+      },
+      {
+        "generic_rank": 10,
+        "tracefree_rank": 9,
+        "vertices": 10
+      }
+    ],
+    "tracefree": "union over constant Lambda of Einstein-Lambda constraint data",
+    "unsupplied_lambda_compatibility": "M_i=0 and D_i(H)=0; Lambda=H/2 on each connected component"
+  },
+  "nonlinear_equivalence": {
+    "generic": "Ric_ab=0",
+    "lambda_definition": "Lambda=R/4",
+    "tracefree": "Ric_ab=Lambda*g_ab with dLambda=0"
+  },
+  "omitted": [
+    "global boundary completion",
+    "singularity evolution",
+    "topology change",
+    "physical query population",
+    "source",
+    "matter",
+    "mass",
+    "action",
+    "observation",
+    "scale",
+    "X_max",
+    "protected work"
+  ],
+  "principal_system": {
+    "bianchi_completed_fixed_lambda_metric_rank": 10,
+    "characteristic_cone": "g^cd*xi_c*xi_d=0",
+    "lambda_is_lower_order": true,
+    "metric_principal_part": "-1/2*g^cd*partial_c*partial_d*g_ab",
+    "raw_tracefree_output_rank": 9,
+    "samples": [
+      {
+        "fixed_lambda_rank": 10,
+        "q": "-1",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "5",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 0,
+        "q": "0",
+        "raw_tracefree_rank": 0,
+        "ricci_rank": 0
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "7",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "-1/4",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "11/6",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "1/4",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "49/30",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "-18/19",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "10291/5681",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "-3/19",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      },
+      {
+        "fixed_lambda_rank": 10,
+        "q": "-8270/5681",
+        "raw_tracefree_rank": 9,
+        "ricci_rank": 10
+      }
+    ],
+    "wellposedness_theorem_status": "IMPORTED_STANDARD_MATH_CONDITIONAL_ON_SMOOTH_LOCAL_HYPOTHESES"
+  },
+  "scope": "local boundary-free globally-hyperbolic slab inside frozen G301 metric-only lane",
+  "selection": {
+    "realized_history_selected": false,
+    "reciprocal_kernel_adds_evolution_residual": false,
+    "wellposedness_selects_class": false
+  },
+  "status": "PASS"
+}
