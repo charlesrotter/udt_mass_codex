@@ -2,7 +2,7 @@
 
 Date: 2026-08-30
 
-`LIVE.md` controls status; the 285-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 286-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -21,9 +21,9 @@ chi_AB=tanh(delta_AB)                    # scoped projective readout
 h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
 ```
 
-W5 is Charles's provisional, noncanon interpretation: the complete screen-retaining projective
-relation state is physical normalized pair position. Full path-labelled frame morphism is required
-when screen state is active. W5 changes neither metric nor kernel and supplies no scale, history,
+W5 is Charles's noncanon interpretation: the screen-retaining projective relation state is physical
+normalized pair position. Path-labelled frame morphism is required
+when screen is active. W5 changes no metric/kernel and supplies no scale, history,
 population, operational distance, or `X_max`.
 
 W6 is Charles's provisional, noncanon type clarification: co-presence may denote non-propagating
@@ -86,15 +86,16 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
 - G301 narrows the declared scale-free metric two-jet lane to generic Ricci-flat or trace-free
   Ricci with one constant scalar datum; identity divergence would choose the former but is unowned.
 - G302 proves reciprocal shape plus common scale spans all ten metric directions and selects
-  neither. Conditional on the static trace-free class, `f=1+b/r-R0 r^2/12`; reciprocal depth sees
-  both constants, angular channels `+3b/(2r)` and `-3b/(2r)` only `b`, and smooth center forces
-  `b=0`. External repair accepted the exact domain census. No equation, metric, kernel, mass,
-  source, history, query population, or nonspherical/time-live result follows.
+  neither; its static channel split separates constant-curvature from angular/Weyl.
+- G303 closes the local nonlinear Cauchy/data gate. Raw trace-free Ricci has rank nine; Bianchi
+  completion turns every fixed-`Lambda` sector into the same rank-ten metric-wave principal system
+  and null cone as Ricci-flat. Unsupplied-`Lambda` data obey `M_i=0,D_iH=0,Lambda=H/2`: one regional
+  number, not a function. Standard PDE theorems are conditional; the kernel adds no evolution law.
 
 ## Open boundary
 
-The corpus owns the evaluator, angular/screen-before-readout, full frame carry, W5 position typing,
-one-scale boundary, and G298's complete directed-leg relation state with its natural projections.
+The corpus owns the evaluator, screen-before-readout, frame carry, W5 position typing, one-scale
+boundary, and G298's directed-leg relation state with its projections.
 It does not own populated germs/paths, a unique physical projection to one rank-two germ, joint
 depth/Jacobi history, operational distance, or numerical `X_max`. G280--G287 leave area, neighboring tide, and
 future propagation open. G288--G293 add center and screen/topology structure without a continuous
@@ -106,10 +107,10 @@ G296 removes the need to posit an extra primitive geometric state and locates th
 differential order, but it selects no residual formula or data. G297/G298 construct the earlier
 causal bridge, G299 proves complete carry is required, and G300 shows that even the exact all-sky
 control action does not type the lawful physical query family. Operational query supply is the
-current endpoint of that lane, not a metric or kernel failure. G301 then narrows one local residual
-candidate class to two inequivalent principal classes without selecting either or supplying data.
-G302 does not remove that fork; its exact static channel split supplies neither nonlinear
-propagation nor lawful data.
+current endpoint of that lane, not a metric or kernel failure. G301 narrows one local residual lane
+to two classes; G302 does not remove that fork. G303 gives both the same local causal propagation
+and functional data burden; trace-free adds one regional constant. Global completion and any owned
+reason it must vanish remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -117,6 +118,6 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Retain both G301 classes. Next test nonlinear covariant well-posedness and lawful data, beginning
-with trace-free scalar-datum propagation without imported identity divergence or source. No action,
-mass, observation, scale, `X_max`, protected work, or realized-history solve enters.
+Retain both G301 classes. Map whether any owned global relation, co-presence, or completion premise
+distinguishes `Lambda=0` from a nonzero connected-region constant. Do not import identity divergence,
+source, action, mass, observation, scale, `X_max`, protected work, or a realized history.

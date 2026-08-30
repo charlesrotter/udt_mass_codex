@@ -32,12 +32,12 @@ reversal/composition/cocycle, actual-leg `J_L`, and `J_T` plane retention. Fresh
 refutes the internal claim that this algebraically available control fiber is a premise-owned lawful
 query family. Arbitrary nonroute directions remain regular evaluator inputs; route-conditioned
 sections and physical query/route population remain open. Metric and kernel are unchanged.
-G301 narrows the declared metric two-jet lane to generic Ricci-flat or trace-free Ricci with one
-constant scalar datum; identity divergence would choose the former but is unowned. G302 proves
-reciprocal shape plus common scale spans all ten metric directions and selects neither. Conditional
-on the static trace-free class, `f=1+b/r-R0 r^2/12`; reciprocal depth sees both constants, angular
-channels only `b`, and smooth center forces `b=0`. External repair accepted the exact domain census.
-No equation, metric, kernel, mass, source, history, or physical query population changed.
+G301 leaves Ricci-flat versus trace-free Ricci; G302 shows shape plus scale spans all ten metric
+directions but selects neither. G303 closes the local nonlinear Cauchy gate: raw trace-free Ricci
+has rank nine; Bianchi-completed fixed-`Lambda` sectors share Ricci-flat's rank-ten metric-wave
+principal system and null cone. Lawful data carry one connected-region number, not a function.
+Standard local PDE theorems are conditional imports; the kernel creates no evolution residual. No
+class, law, history, mass, source, query population, metric, or kernel was selected.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -51,7 +51,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300/G301/G302.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300/G301/G302/G303.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -73,8 +73,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: retain both G301 classes and test nonlinear covariant well-posedness and lawful data, starting
-with trace-free scalar-datum propagation. Do not import identity divergence, source, action, mass,
-observation, scale, `X_max`, or a realized history.
+Next: retain both G301 classes and ask whether an owned global UDT relation, co-presence, or
+completion condition forces the extra connected-region constant to zero. Map premises first; do
+not import identity divergence, source, action, mass, observation, scale, `X_max`, or history.
 
 <!-- STARTUP_CURRENT_END -->

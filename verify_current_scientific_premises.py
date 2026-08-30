@@ -381,6 +381,8 @@ def validate_startup_surface(root: Path) -> None:
             "G299",
             "G300",
             "G301",
+            "G302",
+            "G303",
             "W6",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -425,7 +427,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "285-row exact registry",
+            "286-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -651,6 +653,8 @@ def validate_startup_surface(root: Path) -> None:
             "G299",
             "G300",
             "G301",
+            "G302",
+            "G303",
             "W6",
             "G291",
             "G292",
@@ -894,7 +898,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "285-row",
+            "286-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1256,9 +1260,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 285, "premise registry must contain exactly 285 rows")
+    require(len(rows) == 286, "premise registry must contain exactly 286 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 285, "duplicate premise id")
+    require(len(by_id) == 286, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1379,6 +1383,11 @@ def main() -> None:
             "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_CERTIFICATION_REPAIRS__PREREGISTERED_AT_ACCFC6B9",
             "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md",
             "TWO_INEQUIVALENT_FULL_METRIC_QUIET_PRINCIPAL_CLASSES_SURVIVE",
+        ),
+        "G303": (
+            "EXTERNALLY_VERIFIED_WITH_EXPLICIT_CONDITIONAL_CAVEATS__PREREGISTERED_AT_42E31303",
+            "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/AUDIT_REPORT.md",
+            "BOTH_G301_CLASSES_HAVE_THE_SAME_LOCAL_CAUSAL_PRINCIPAL_SYSTEM",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -1714,6 +1723,69 @@ def main() -> None:
             and g301_package["checks"] == 69
             and not g301_package["external_review_pending"],
             "G301 repaired package replay changed")
+    g303 = ROOT / "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30"
+    for name in (
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "KERNEL_NO_EVOLUTION_RESIDUAL.json",
+        "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "verify_package.py",
+    ):
+        require((g303 / name).is_file(), f"G303 closure evidence missing: {name}")
+    g303_production = json.loads((g303 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g303_independent = json.loads((g303 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g303_catches = json.loads((g303 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g303_kernel = json.loads((g303 / "KERNEL_NO_EVOLUTION_RESIDUAL.json").read_text(encoding="utf-8"))
+    g303_package = json.loads((g303 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g303_landing = (
+        "BOTH_G301_CLASSES_HAVE_THE_SAME_LOCAL_CAUSAL_PRINCIPAL_SYSTEM"
+        "__TRACEFREE_DATA_ARE_THE_UNION_OVER_ONE_CONSTANT_SCALAR_DATUM"
+        "__WELLPOSEDNESS_DOES_NOT_SELECT"
+    )
+    require(g303_production["status"] == "PASS"
+            and g303_production["landing"] == g303_landing
+            and g303_production["assertions"] == 79
+            and g303_production["principal_system"]["raw_tracefree_output_rank"] == 9
+            and g303_production["principal_system"]["bianchi_completed_fixed_lambda_metric_rank"] == 10
+            and g303_production["lawful_data"]["extra_connected_region_constants"] == 1
+            and not g303_production["lawful_data"]["extra_functional_degree"]
+            and not g303_production["selection"]["wellposedness_selects_class"],
+            "G303 production landing or scope changed")
+    require(g303_independent["status"] == "PASS"
+            and g303_independent["assertions"] == 59
+            and g303_independent["rank_nine_construction"].startswith("kernel basis")
+            and not g303_independent["imports_production_code"],
+            "G303 independent trace-kernel replay changed")
+    require(g303_catches["status"] == "PASS"
+            and g303_catches["count"] == 10
+            and all(item["caught"] for item in g303_catches["caught"].values()),
+            "G303 concrete mutation coverage changed")
+    require(g303_kernel["status"] == "PASS"
+            and g303_kernel["second_normal_jet_jacobian_rank"] == 0
+            and g303_kernel["independent_cauchy_or_evolution_residuals_generated"] == 0,
+            "G303 reciprocal dependency census changed")
+    require(g303_package["status"] == "PASS"
+            and g303_package["landing"] == g303_landing
+            and g303_package["external_review"] == "VERIFIED_WITH_CAVEATS_REPAIRED"
+            and g303_package["required_files"] == 24,
+            "G303 repaired package status changed")
+    require("VERIFIED_WITH_CAVEATS" in
+            (g303 / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+            and "4c030845" in (g303 / "PREREGISTRATION_ANCESTRY.md").read_text(encoding="utf-8"),
+            "G303 external review or repair ancestry changed")
+    g303_manifest = {row["path"]: row for row in read_tsv(g303 / "SOURCE_MANIFEST.tsv")}
+    registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+    frozen_registry = b"".join(line for line in registry_lines if not line.startswith(b"G303\t"))
+    require(hashlib.sha256(frozen_registry).hexdigest()
+            == g303_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
+            "G303 frozen premise-registry ancestry changed")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14481,7 +14553,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G303 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

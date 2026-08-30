@@ -42,19 +42,21 @@
 | G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
 | G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
 | G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
-| G285 complete-separation retyping | external/repairs confirmed | Same `phi` can be different complete `L2` separation; `L3/L4` propagation open |
-| G286 complete-metric propagation discriminator | external/repairs accepted | Same prior/all join jets, inequivalent futures; identities are not propagation |
+| G285 complete-separation retyping | external/repairs confirmed | Same `phi`, different complete separation; propagation open |
+| G286 propagation discriminator | external/repairs accepted | Same prior jets, inequivalent futures; no identity propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
 | G288--G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
-| G293 architecture funnel | internal multi-agent/caveats | Scalar homogeneous flow is uncalibrated; Euler sector leaves local flux free; law unselected |
-| G294 co-presence architecture | internal independent/caveats | Connectedness can be nonpropagating; causal update remains missing |
-| G295 causal-history classification | internal independent/caveats | One covariant law type; sliced `AU=RA`; formula/history open |
-| G296 complete-metric residual-order map | external/repairs accepted | Complete metric is a minimal faithful primitive state; curvature order is first local natural nonidentity home; formula/history open |
-| G297 causal-dilation equivalence | external/repairs accepted | A/B radar clock germs derived conditionally; scalar collapse refuted; full causal-family-to-rank-two-germ transfer open |
-| G298 relation/pair projection | external/repairs closed | Complete path-labelled state and multiple natural rank-two projections derived; physical projection open |
-| G299 kernel-domain ownership | external/repairs closed | Complete projective/frame carry required; lawful query/germ subfunctor remains open |
-| G300 celestial control/query ownership | external refutation/repaired | Exact `S^2` sky action and cocycle survive; no premise-owned lawful rank-two query family follows |
-| G301 quiet-principal residual classes | external/repairs accepted | Declared local scale-free rank-two two-jet lane has generic Ricci-flat and trace-free Ricci classes; neither is selected |
+| G293 architecture funnel | internal/caveats | Homogeneous flow uncalibrated; local flux free; no law |
+| G294 co-presence architecture | internal/caveats | Nonpropagating connectedness; causal update missing |
+| G295 causal-history classification | internal/caveats | Covariant law type; `AU=RA`; formula/history open |
+| G296 residual-order map | external/repairs | Metric minimal; curvature first local natural order; no formula |
+| G297 causal-dilation equivalence | external/repairs | Conditional radar germs; scalar collapse refuted; transfer open |
+| G298 relation/pair projection | external/repairs | Path-labelled state; multiple projections; physical choice open |
+| G299 kernel-domain ownership | external/repairs | Complete frame carry required; query subfunctor open |
+| G300 celestial query ownership | external refutation/repaired | Exact sky action; no owned lawful query family |
+| G301 principal classes | external/repairs | Ricci-flat or trace-free Ricci; neither selected |
+| G302 span/channel separation | external/repairs | 9 shape plus 1 scale direction; no selection |
+| G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -91,7 +93,9 @@ None selects completion/`X_max`.
   exact `S^2`/`RP^2` celestial control while leaving physical query supply operational. G301 then
   proves that its declared smooth scale-free local metric-only rank-two two-jet quiet-principal
   lane contains two inequivalent classes: generic Ricci-flat and trace-free Ricci with one constant
-  scalar datum. Identity divergence would select the first but remains unowned. W1 stays evaluative.
+  scalar datum. G302 selects neither. G303 proves that each fixed constant sector has the same local
+  causal metric-wave system as Ricci-flat; unsupplied data require `D_iH=0` and add one constant, not
+  a function. Standard well-posedness is imported conditionally and selects neither. W1 stays evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -104,10 +108,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G301 leave history and dynamics open. No native SNe
+R2--R5 select no scale or `X_max`; G277--G303 leave law selection and realized history open. No native SNe
 prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 285-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 286-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
