@@ -7,7 +7,7 @@
 - [x] Full query direction sphere retained; no member pinned.
 - [x] Candidate construction and five landings frozen.
 - [x] Positive, negative, and hostile falsifiers registered.
-- [x] Eight load-bearing sources frozen by SHA-256.
+- [x] Nine load-bearing sources frozen by SHA-256; G244 added by the recorded pre-review scope repair.
 - [ ] Preregistration committed and pushed before production outcome.
 
 ## Before banking a result
