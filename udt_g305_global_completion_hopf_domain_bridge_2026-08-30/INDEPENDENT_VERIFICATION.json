@@ -1,10 +1,40 @@
 {
-  "checks": 459,
-  "finite_difference_cases": 18,
+  "checks": 687,
+  "checks_by_category": {
+    "ambient_constraints": 24,
+    "hopf_and_scale_time": 157,
+    "metric_coefficients": 384,
+    "negative_global_relation": 36,
+    "optical": 10,
+    "positive_overlap": 54,
+    "topology_witnesses": 22
+  },
+  "finite_difference_cases": 24,
   "imports_production_code": false,
+  "max_chart_overlap_error": 8.881784197001252e-16,
   "max_finite_difference_metric_error": 3.5904363926420046e-09,
-  "method": "standard_library_finite_difference_ambient_pullbacks_plus_independent_midpoint_integral",
+  "method": "standard_library_finite_difference_ambient_pullbacks_overlap_replay_midpoint_integral_and_explicit_topology_witnesses",
   "normalized_hopf_number": -1.0000000010280863,
   "scope": "G304_smooth_center_standard_completion_three_sign_census",
-  "status": "PASS"
+  "status": "PASS",
+  "topology_witnesses": {
+    "negative_cover": {
+      "compact_without_boundary": false,
+      "domain": "upper_unit_hyperboloid_parameterized_by_R3",
+      "standard_slice": "H3~R3",
+      "witness": "x_to_(sqrt(1+norm(x)^2),x)_bijection_and_R3_contraction"
+    },
+    "positive": {
+      "compact_without_boundary": true,
+      "domain": "unit_level_set_in_R4",
+      "standard_slice": "S3",
+      "witness": "closed_bounded_unit_level_set"
+    },
+    "zero": {
+      "compact_without_boundary": false,
+      "domain": "cartesian_R3",
+      "standard_slice": "R3",
+      "witness": "explicit_radial_contraction_to_origin"
+    }
+  }
 }

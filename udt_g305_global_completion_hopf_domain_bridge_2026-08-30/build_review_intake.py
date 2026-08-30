@@ -20,7 +20,9 @@ PACKAGE_FILES = [
     "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "PACKAGE_VERIFICATION_RESULT.json",
     "EXACT_DERIVATION.md", "LAY_REPORT.md", "AUDIT_REPORT.md", "TOPOLOGY_CENSUS.tsv",
     "HOPF_REQUIREMENT_LEDGER.tsv", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md", "RUN_RECORD.md",
-    "COMMANDS.md", "SOURCE_SCOPE.tsv", "EXTERNAL_REVIEW_REQUEST.md",
+    "COMMANDS.md", "SOURCE_SCOPE.tsv", "EXTERNAL_REVIEW_REQUEST.md", "EXTERNAL_REVIEW_RESPONSE.md",
+    "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_PREREGISTRATION.md", "REPAIR_FOLLOWUP_REQUEST.md",
+    "build_review_intake.py",
 ]
 
 
@@ -57,21 +59,30 @@ def main() -> None:
         data = frozen_source_bytes(source, row["path"])
         if hashlib.sha256(data).hexdigest() != row["sha256"]:
             raise AssertionError(f"source hash drift: {row['path']}")
+        if row["path"].startswith(HERE.name + "/"):
+            destination = target / row["path"]
+            if destination.read_bytes() != data:
+                raise AssertionError(f"package source drift: {row['path']}")
+            continue
         destination = sources_target / row["path"]
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_bytes(data)
 
     scope = {
-        "schema": "UDT_G305_EXTERNAL_REVIEW_SCOPE_V1",
-        "question": "bounded G304 global-completion and Hopf-domain bridge",
+        "schema": "UDT_G305_REPAIR_FOLLOWUP_SCOPE_V1",
+        "question": "verify only preregistered G305 repairs R1-R4 and unchanged bounded landing",
         "package": HERE.name,
         "frozen_source_count": len(rows),
         "package_file_count": len(PACKAGE_FILES),
-        "allowed": ["read intake", "run registered checks in writable ephemeral copy", "write review response outside intake"],
+        "allowed": [
+            "read intake", "verify only preregistered repairs R1-R4",
+            "run registered checks in writable ephemeral copy", "write review response outside intake",
+        ],
         "forbidden": [
             "edit evidence files", "continue research", "access repository or protected packages",
             "use internet or unsealed observations", "import field equation action source matter model mass law fit scale or X_max",
-            "change registered question or promote candidate family to UDT canon",
+            "change registered question or scientific landing", "continue research beyond repairs R1-R4",
+            "promote candidate family to UDT canon",
         ],
     }
     scope_path = target / "REVIEW_SCOPE.json"

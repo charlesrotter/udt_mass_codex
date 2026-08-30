@@ -1,7 +1,7 @@
 # G305 audit report
 
 Date: 2026-08-30
-Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__AWAITING_FRESH_EXTERNAL_REVIEW`
+Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__REPAIR_FOLLOWUP_PENDING`
 
 ## Primary landing
 
@@ -36,16 +36,21 @@ population remain outside scope.
 
 - preregistered and pushed at `fc0ee889`;
 - 77 exact production assertions;
-- 459 independent assertions, including 18 no-import finite-difference pullbacks with maximum
-  metric error `3.5904363926420046e-09`;
+- 687 independent checks, including 24 no-import finite-difference pullbacks, ambient constraints,
+  positive chart overlap, negative global pullback/relation, and explicit topology witnesses, with
+  maximum metric error `3.5904363926420046e-09` and maximum overlap error
+  `8.881784197001252e-16`;
 - independent normalized Hopf result `-1.0000000010280863`;
-- 10/10 hostile promotions caught;
+- 10/10 evidence-mutating hostile promotions caught with named failures and a corrupted-baseline
+  detection control;
 - full three-sign bounded census;
 - no action, field equation, observation, fit, source, matter model, mass law, physical scale,
   `X_max`, old boundary, or protected package.
 
 ## Banking status
 
-The preregistration, bounded-space, independent-replay, premise-audit, hostile-control, and full
-repository regression gates pass. Fresh external adversarial review remains required before an
-externally verified grade.
+Fresh external review independently reproduced the bounded scientific result and found no
+geometry-level contradiction. It returned `REPAIRABLE_DEFECTS` for sealed path resolution,
+independent coverage, and hostile-control quality. Those repairs were preregistered at `f4d021aa`
+and now pass locally without changing the landing. External repair-only follow-up remains required
+before an externally verified grade.
