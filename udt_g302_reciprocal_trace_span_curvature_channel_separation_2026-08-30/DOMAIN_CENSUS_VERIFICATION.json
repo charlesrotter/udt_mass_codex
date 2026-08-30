@@ -1,0 +1,42 @@
+{
+  "all_fields_match": true,
+  "cell_positive_root_counts": {
+    "R0_negative_beta_negative": 1,
+    "R0_negative_beta_positive": 0,
+    "R0_negative_beta_zero": 0,
+    "R0_positive_at_negative_threshold": 1,
+    "R0_positive_below_negative_threshold": 0,
+    "R0_positive_beta_plus_discriminant_boundary": 1,
+    "R0_positive_beta_positive": 1,
+    "R0_positive_beta_zero": 1,
+    "R0_positive_between_threshold_and_zero": 2,
+    "R0_zero_b_negative": 1,
+    "R0_zero_b_positive": 0,
+    "R0_zero_b_zero": 0
+  },
+  "imports_production_code": false,
+  "interval_orientation": {
+    "R0<0,b<0": "negative_then_positive_after_unique_root",
+    "R0<0,b>=0": "positive_on_(0,infinity)",
+    "R0=0,b<0": "negative_then_positive_after_-b",
+    "R0=0,b>=0": "positive_on_(0,infinity)",
+    "R0>0,-threshold<b<0": "negative_positive_negative_across_two_roots",
+    "R0>0,b<-threshold": "negative_on_(0,infinity)",
+    "R0>0,b=-threshold": "nonpositive_with_one_double_zero",
+    "R0>0,b>=0": "positive_then_negative_after_unique_outer_root"
+  },
+  "method": "dependency-free exact nondimensionalization, discriminant, Sturm cells, boundary factorization, and sign orientation",
+  "negative_R0_discriminant": "-108-243*beta^2",
+  "physical_threshold": "b=-4/(3*sqrt(R0))",
+  "positive_R0_discriminant": "108-243*beta^2",
+  "positive_repeated_root": "x=1,beta=-2/3",
+  "repeated_factorization": "-(x-1)^2*(x+2)",
+  "root_at_zero_boundary": "beta=0",
+  "rows_verified_field_by_field": 8,
+  "status": "PASS",
+  "topology_cells": [
+    "R0<0: beta<0 | beta=0 | beta>0",
+    "R0=0: b<0 | b=0 | b>0",
+    "R0>0: beta<-2/3 | beta=-2/3 | -2/3<beta<0 | beta=0 | beta>0"
+  ]
+}

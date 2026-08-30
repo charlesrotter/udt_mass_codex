@@ -56,3 +56,19 @@ PASS: 285-row premise registry
 
 The xfail is the existing registered `test_no_habit_pins` matter-sector migration item; G302 does
 not touch that sector.
+
+## External review and repair
+
+Fresh review returned `VERIFIED-WITH-CAVEATS`, preserving the scientific landing and identifying
+representative-only internal coverage of the eight-row domain table.  The preregistered repair then
+returned:
+
+```text
+G302 exhaustive domain census PASS (8/8 rows)
+G302 domain catch proofs PASS (6/6)
+```
+
+The repaired verifier uses only the standard library under `python3 -S`.  It derives the normalized
+discriminants, the positive repeated-root threshold, all connected root-topology cells, exact Sturm
+counts, boundary multiplicity, interval signs, and field-by-field TSV equality.  Repair-only
+external follow-up remains open.

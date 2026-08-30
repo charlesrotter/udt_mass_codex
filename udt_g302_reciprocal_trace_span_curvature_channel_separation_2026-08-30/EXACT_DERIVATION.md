@@ -9,7 +9,7 @@ RECIPROCAL_SHAPE_SPANS_NINE_AND_COMPLETE_SCALE_RESTORES_TEN
 __NO_G301_CLASS_SELECTED__TRACEFREE_BRANCH_HAS_EXACT_CHANNEL_SEPARATION
 ```
 
-Status: `INTERNALLY_VERIFIED_BOUNDED_CLASSIFICATION_PENDING_FRESH_EXTERNAL_REVIEW`.
+Status: `EXTERNALLY_VERIFIED_WITH_CAVEATS__INTERNAL_REPAIR_COMPLETE_PENDING_FOLLOWUP`.
 
 This is a two-gate conditional classification.  Gate A is a full four-dimensional local
 metric-tangent result over the algebraically available pair-plane control family.  Gate B is an
@@ -328,3 +328,23 @@ G302 does not derive or adopt:
 
 The trace-free class remains a serious conditional class because it exposes an exact, testable
 channel separation.  It is not privileged by Dual Reciprocity alone.
+
+## 10. External review and certification repair
+
+Fresh external review returned `VERIFIED-WITH-CAVEATS` and retained every scientific formula and
+the exact landing.  Its only caveat was that the internal domain verifier sampled representative
+root strata rather than certifying all eight rows exhaustively.
+
+The preregistered repair now nondimensionalizes every curvature-sign case, derives
+
+\[
+\Delta_+=108-243\beta^2,
+\qquad
+\Delta_-=-108-243\beta^2,
+\]
+
+isolates the only positive repeated-root boundary at `x=1, beta=-2/3`, treats the `beta=0`
+`r=0` crossing separately, runs exact dependency-free Sturm counts in every connected topology
+cell, proves the interval signs from endpoint and leading behavior, and compares all eight TSV rows
+field by field.  It passes `8/8` rows and six hostile domain mutations.  A repair-only external
+follow-up remains required before closing the caveat.

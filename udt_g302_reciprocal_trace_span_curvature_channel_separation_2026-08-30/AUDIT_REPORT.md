@@ -7,7 +7,7 @@ RECIPROCAL_SHAPE_SPANS_NINE_AND_COMPLETE_SCALE_RESTORES_TEN
 __NO_G301_CLASS_SELECTED__TRACEFREE_BRANCH_HAS_EXACT_CHANNEL_SEPARATION
 ```
 
-Status: `INTERNALLY_VERIFIED_BOUNDED_CLASSIFICATION_PENDING_FRESH_EXTERNAL_REVIEW`.
+Status: `EXTERNALLY_VERIFIED_WITH_CAVEATS__INTERNAL_REPAIR_COMPLETE_PENDING_FOLLOWUP`.
 
 ## Decisive results
 
@@ -24,8 +24,9 @@ Status: `INTERNALLY_VERIFIED_BOUNDED_CLASSIFICATION_PENDING_FRESH_EXTERNAL_REVIE
 - Exact registered angular channels: `+3b/(2r)` and `-3b/(2r)`; `R0` cancels.
 - Exact invariants: `R=R0`, `RicciSquared=R0^2/4`, `WeylSquared=12b^2/r^6`.
 - Smooth areal center requires `b=0`.
-- All eight positive-`f` sign and repeated-root strata recorded.
-- Eleven hostile scientific mutations rejected.
+- All eight positive-`f` sign and repeated-root strata recorded and independently exhaustively
+  verified by dependency-free parameter-cell/Sturm certification.
+- Eleven original hostile scientific mutations and six domain-certification mutations rejected.
 - Current 285-row scientific premise registry passed.
 - Repository purity suite passed: 197 tests, with one registered expected xfail.
 
@@ -41,6 +42,7 @@ adopted.  Metric and reciprocal kernel are unchanged.
 
 ## Certification boundary
 
-Preregistration was committed at `887a91ad` before production files existed.  Internal independent
-and hostile checks pass.  A fresh external zero-context adversarial review remains required before
-any stronger status.
+Preregistration was committed at `887a91ad` before production files existed. Fresh external review
+returned `VERIFIED-WITH-CAVEATS` without scientific refutation. Its representative-domain-coverage
+caveat has been repaired internally under commit-prior repair preregistration; repair-only external
+follow-up remains open.

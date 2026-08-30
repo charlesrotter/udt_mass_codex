@@ -1,0 +1,12 @@
+{
+  "caught": {
+    "false_positive_repeated_interval": true,
+    "missing_row": true,
+    "reversed_two_root_interval": true,
+    "wrong_double_root": true,
+    "wrong_open_cell_count": true,
+    "wrong_threshold": true
+  },
+  "count": 6,
+  "status": "PASS"
+}
