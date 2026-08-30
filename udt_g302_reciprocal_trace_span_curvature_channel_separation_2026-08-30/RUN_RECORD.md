@@ -71,4 +71,6 @@ G302 domain catch proofs PASS (6/6)
 The repaired verifier uses only the standard library under `python3 -S`.  It derives the normalized
 discriminants, the positive repeated-root threshold, all connected root-topology cells, exact Sturm
 counts, boundary multiplicity, interval signs, and field-by-field TSV equality.  Repair-only
-external follow-up remains open.
+external follow-up returned `ACCEPT_REPAIRS`.  The external reviewer repeated the `8/8` exhaustive
+census and `6/6` hostile checks in a writable ephemeral copy, found no remaining defect, and
+confirmed that no scientific claim changed.

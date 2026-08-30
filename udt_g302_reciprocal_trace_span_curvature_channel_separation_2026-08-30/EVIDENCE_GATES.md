@@ -18,4 +18,4 @@
 | nonspherical/time-live completeness | NOT CLAIMED | exact bounded-slice ceiling retained |
 | fresh external review | VERIFIED-WITH-CAVEATS | scientific landing retained; representative domain coverage flagged |
 | internal domain repair | PASS | exhaustive independent `DOMAIN_CENSUS_VERIFICATION.json` |
-| repair-only external follow-up | OPEN | required to close the sole certification caveat |
+| repair-only external follow-up | ACCEPT_REPAIRS | exact 8/8 census and 6/6 hostile replay accepted; no remaining defect |

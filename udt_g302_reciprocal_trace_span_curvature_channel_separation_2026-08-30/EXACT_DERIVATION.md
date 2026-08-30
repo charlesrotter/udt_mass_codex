@@ -9,7 +9,7 @@ RECIPROCAL_SHAPE_SPANS_NINE_AND_COMPLETE_SCALE_RESTORES_TEN
 __NO_G301_CLASS_SELECTED__TRACEFREE_BRANCH_HAS_EXACT_CHANNEL_SEPARATION
 ```
 
-Status: `EXTERNALLY_VERIFIED_WITH_CAVEATS__INTERNAL_REPAIR_COMPLETE_PENDING_FOLLOWUP`.
+Status: `EXTERNALLY_VERIFIED_REPAIRED_BOUNDED_CLASSIFICATION`.
 
 This is a two-gate conditional classification.  Gate A is a full four-dimensional local
 metric-tangent result over the algebraically available pair-plane control family.  Gate B is an

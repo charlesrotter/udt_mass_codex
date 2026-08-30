@@ -6,8 +6,8 @@
   "hostile_mutations_caught": 11,
   "independent_verification": "PASS",
   "landing": "RECIPROCAL_SHAPE_SPANS_NINE_AND_COMPLETE_SCALE_RESTORES_TEN__NO_G301_CLASS_SELECTED__TRACEFREE_BRANCH_HAS_EXACT_CHANNEL_SEPARATION",
-  "repair_followup_review": "OPEN",
-  "required_files": 26,
+  "repair_followup_review": "ACCEPT_REPAIRS",
+  "required_files": 28,
   "source_hashes_verified": 7,
   "status": "PASS"
 }

@@ -7,7 +7,7 @@ RECIPROCAL_SHAPE_SPANS_NINE_AND_COMPLETE_SCALE_RESTORES_TEN
 __NO_G301_CLASS_SELECTED__TRACEFREE_BRANCH_HAS_EXACT_CHANNEL_SEPARATION
 ```
 
-Status: `EXTERNALLY_VERIFIED_WITH_CAVEATS__INTERNAL_REPAIR_COMPLETE_PENDING_FOLLOWUP`.
+Status: `EXTERNALLY_VERIFIED_REPAIRED_BOUNDED_CLASSIFICATION`.
 
 ## Decisive results
 
@@ -44,5 +44,6 @@ adopted.  Metric and reciprocal kernel are unchanged.
 
 Preregistration was committed at `887a91ad` before production files existed. Fresh external review
 returned `VERIFIED-WITH-CAVEATS` without scientific refutation. Its representative-domain-coverage
-caveat has been repaired internally under commit-prior repair preregistration; repair-only external
-follow-up remains open.
+caveat was repaired internally under commit-prior repair preregistration. The sealed repair-only
+external follow-up returned `ACCEPT_REPAIRS`: all eight exact domain rows and all six hostile
+domain mutations replayed successfully, with no remaining defect and no scientific-claim change.

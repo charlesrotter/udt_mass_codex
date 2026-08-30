@@ -37,6 +37,7 @@ def main() -> None:
         "REPAIR_PREREGISTRATION.md", "verify_domain_census_independent.py",
         "DOMAIN_CENSUS_VERIFICATION.json", "run_domain_catch_proofs.py",
         "DOMAIN_CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REPAIR_FOLLOWUP_GPT54.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
     }
     missing = sorted(name for name in required if not (ROOT / name).is_file())
     assert not missing, missing
@@ -87,7 +88,7 @@ def main() -> None:
     lay = (ROOT / "LAY_REPORT.md").read_text(encoding="utf-8")
     audit = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     for document in (exact, audit):
-        assert "EXTERNALLY_VERIFIED_WITH_CAVEATS__INTERNAL_REPAIR_COMPLETE_PENDING_FOLLOWUP" in document
+        assert "EXTERNALLY_VERIFIED_REPAIRED_BOUNDED_CLASSIFICATION" in document
     for document in (exact, lay, audit):
         assert "mass" in document.lower()
         assert "not" in document.lower()
@@ -108,7 +109,7 @@ def main() -> None:
         "domain_census_independent": domain_independent["status"],
         "independent_verification": independent["status"],
         "fresh_external_review": "VERIFIED-WITH-CAVEATS",
-        "repair_followup_review": "OPEN",
+        "repair_followup_review": "ACCEPT_REPAIRS",
     }
     (ROOT / "PACKAGE_VERIFICATION_RESULT.json").write_text(
         json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8"
