@@ -1,0 +1,59 @@
+{
+  "candidate_landing": "A",
+  "component_charge_after_large_frame_rotation": -1,
+  "component_charge_constant_map": 0,
+  "constant_curvature_ricci_eigenvalue_multiplicity": 3,
+  "each_family_parameter_space": "S2_isomorphic_SO4_over_U2",
+  "family_checks": {
+    "left": {
+      "skew": "J(u)^T=-J(u)",
+      "square": "J(u)^2=-(u.u)I4",
+      "unit_parameter_space": "S2"
+    },
+    "right": {
+      "skew": "J(u)^T=-J(u)",
+      "square": "J(u)^2=-(u.u)I4",
+      "unit_parameter_space": "S2"
+    }
+  },
+  "field_or_query_population_selected": false,
+  "fixed_cross_history_target_selected": false,
+  "general_killing_skew_core": 0,
+  "geometric_member_closed_great_circle_fibers": true,
+  "geometric_member_geodesic": true,
+  "geometric_member_killing": true,
+  "geometric_member_screen_rotation_checks": 6,
+  "geometric_member_unit": true,
+  "individual_member_selected": false,
+  "isotropy_fixed_tangent_dimension": 0,
+  "landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "metric_and_kernel_changed": false,
+  "metric_natural_unit_section_exists": false,
+  "normalized_helicity_by_chirality": [
+    -1,
+    1
+  ],
+  "normalized_helicity_scale_blind": true,
+  "omitted": [
+    "nonspherical_deformations",
+    "nontrivial_quotients",
+    "singular_or_rank_change_strata",
+    "topology_change",
+    "route_conditioned_population",
+    "action",
+    "dynamics",
+    "backreaction",
+    "history_selection",
+    "observations",
+    "source",
+    "mass",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "oriented_chiral_family_count": 2,
+  "production_assertions": 172,
+  "radial_map_singular_orbits": 2,
+  "raw_component_charge_full_frame_invariant": false,
+  "scope": "positive_G305_round_S3_standard_completion_all_positive_radii_both_chiralities",
+  "target_after_member_supply": "orbit_space_S2"
+}

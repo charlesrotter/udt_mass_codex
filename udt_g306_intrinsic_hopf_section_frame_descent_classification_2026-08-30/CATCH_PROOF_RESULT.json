@@ -1,0 +1,190 @@
+{
+  "baseline_valid": true,
+  "direct_computed_or_required_premise_mutations": 17,
+  "hostile_cases": 17,
+  "records": [
+    {
+      "actual_failure": "isotropy_fixed_vector",
+      "before": 0,
+      "case": "unique_isotropy_fixed_direction",
+      "caught": true,
+      "expected_failure": "isotropy_fixed_vector"
+    },
+    {
+      "actual_failure": "false_unique_section",
+      "before": false,
+      "case": "metric_selects_unit_section",
+      "caught": true,
+      "expected_failure": "false_unique_section"
+    },
+    {
+      "actual_failure": "false_curvature_axis",
+      "before": 3,
+      "case": "curvature_selects_axis",
+      "caught": true,
+      "expected_failure": "false_curvature_axis"
+    },
+    {
+      "actual_failure": "false_global_radial_map",
+      "before": 2,
+      "case": "radial_map_global",
+      "caught": true,
+      "expected_failure": "false_global_radial_map"
+    },
+    {
+      "actual_failure": "large_gauge_Hopf_witness",
+      "before": -1,
+      "case": "large_gauge_preserves_component_charge",
+      "caught": true,
+      "expected_failure": "large_gauge_Hopf_witness"
+    },
+    {
+      "actual_failure": "false_component_gauge_invariance",
+      "before": false,
+      "case": "raw_component_charge_gauge_invariant",
+      "caught": true,
+      "expected_failure": "false_component_gauge_invariance"
+    },
+    {
+      "actual_failure": "chirality_census",
+      "before": 2,
+      "case": "one_chirality_family",
+      "caught": true,
+      "expected_failure": "chirality_census"
+    },
+    {
+      "actual_failure": "false_member_population",
+      "before": false,
+      "case": "orientation_selects_member",
+      "caught": true,
+      "expected_failure": "false_member_population"
+    },
+    {
+      "actual_failure": "helicity_chiralities",
+      "before": [
+        -1,
+        1
+      ],
+      "case": "helicity_loses_opposite_chirality",
+      "caught": true,
+      "expected_failure": "helicity_chiralities"
+    },
+    {
+      "actual_failure": "false_scale_attachment",
+      "before": true,
+      "case": "helicity_sets_scale",
+      "caught": true,
+      "expected_failure": "false_scale_attachment"
+    },
+    {
+      "actual_failure": "false_field_population",
+      "before": false,
+      "case": "family_populates_field",
+      "caught": true,
+      "expected_failure": "false_field_population"
+    },
+    {
+      "actual_failure": "false_fixed_target",
+      "before": false,
+      "case": "metric_selects_fixed_target",
+      "caught": true,
+      "expected_failure": "false_fixed_target"
+    },
+    {
+      "actual_failure": "kernel_regression",
+      "before": false,
+      "case": "kernel_changed",
+      "caught": true,
+      "expected_failure": "kernel_regression"
+    },
+    {
+      "actual_failure": "scope_overexport",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "export_to_nonspherical",
+      "caught": true,
+      "expected_failure": "scope_overexport"
+    },
+    {
+      "actual_failure": "action_import",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "import_old_action",
+      "caught": true,
+      "expected_failure": "action_import"
+    },
+    {
+      "actual_failure": "history_promotion",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "promote_history",
+      "caught": true,
+      "expected_failure": "history_promotion"
+    },
+    {
+      "actual_failure": "Xmax_promotion",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "promote_Xmax",
+      "caught": true,
+      "expected_failure": "Xmax_promotion"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "full_repository_tests": {
+    "expected_xfail": 1,
+    "passed": 199,
+    "status": "PASS"
+  },
+  "package_required_files": 21,
+  "premise_registry": {
+    "historical_dispositions": 754,
+    "rows": 288,
+    "status": "PASS"
+  },
+  "source_hashes": 15,
+  "standalone_package_verifier": "PASS",
+  "status": "PASS_WITH_EXTERNAL_REVIEW_PENDING"
+}

@@ -1,0 +1,236 @@
+# G306 exact derivation — intrinsic Hopf families without physical member selection
+
+Date: 2026-08-30
+Grade before fresh external review: INTERNALLY_DERIVED_WITH_CAVEATS
+
+## Bounded landing
+
+ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES
+__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER
+__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY
+__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT
+__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN
+
+This is preregistered landing A at pushed commit c5873d2c. It is a classification of geometry
+present on the bounded positive G305 completion, not a UDT field equation or a populated matter
+sector.
+
+## 1. Exact scope
+
+A constant-time slice of the positive G305 standard completion has round metric
+
+\[
+\gamma_a=a^2 d\Omega_3^2,
+\qquad
+a(T)=X\cosh(T/X)>0.
+\]
+
+The derivation covers every positive \(a\) and both orientation-relative chiralities. The G305
+candidate family and standard completion remain DERIVED_CONDITIONAL; neither is promoted to the
+selected UDT history. Nonspherical deformations, quotients, singular strata, topology change,
+physical population, action, dynamics, source, mass, observation, and physical \(X_{\max}\) are
+outside scope.
+
+## 2. No metric-natural individual section
+
+Let \(p\) be any point of round \(S^3\). Its orientation-preserving isometry isotropy group is
+\(SO(3)\), acting in the standard way on \(T_pS^3\). A section constructed naturally from the
+metric alone must be invariant under every isometry fixing \(p\). The only vector fixed by all of
+\(SO(3)\) is zero. Therefore
+
+\[
+\boxed{\text{no metric-natural unit tangent or celestial section exists on round }S^3.}
+\]
+
+The executable proof uses two independent orientation-preserving half-turns whose common fixed
+subspace in \(T_pS^3\) has dimension zero. Time orientation and a slice orientation do not remove
+the point isotropy and therefore do not select a member.
+
+This no-section theorem is bounded to the maximally symmetric round slice. A supplied route,
+observer, nonspherical field, or additional tensor can break the isotropy and is not ruled out.
+
+## 3. Scalar, curvature, and observer-centered controls
+
+The pointwise reciprocal scalar has contractible target \(\mathbb R\); it has no
+\(\pi_3(S^2)\) sector. Where a normalized gradient exists,
+
+\[
+n^\flat=\frac{d\phi}{|d\phi|}
+\]
+
+is undefined at gradient zeros and satisfies \(n^\flat\wedge dn^\flat=0\). It does not span the
+generic twisting sections below.
+
+Round \(S^3\) has
+
+\[
+\operatorname{Ric}=\frac{2}{a^2}\gamma,
+\]
+
+so its spatial Ricci eigenvalue has multiplicity three. Constant curvature supplies no preferred
+eigendirection.
+
+A direction defined by geodesic distance from a supplied observer is not universal data. It is
+undefined at the observer and at the antipodal cut locus, where the joining geodesic is not unique.
+It therefore does not give a smooth global Hopf section.
+
+## 4. Why a component Hopf number still fails frame descent
+
+Identify \(S^3\) with unit quaternions. The smooth point-dependent rotation
+
+\[
+R(q)=\operatorname{Ad}_q\in SO(3)
+\]
+
+equals the identity at the basepoint \(q=1\). Acting on a constant component direction \(i\) gives
+
+\[
+R(q)i=q i q^{-1},
+\]
+
+the standard Hopf component map. With the frozen G305 orientation, the constant component map has
+charge zero while the transformed map has charge \(-1\). Thus a basepoint-fixed allowed local
+frame change alters the raw component integer:
+
+\[
+\boxed{H_{\rm component}:0\longrightarrow -1.}
+\]
+
+This rederives G289's gauge obstruction on G305's actual compact domain. A component map into a
+fixed coordinate \(S^2\) is not by itself a physical invariant.
+
+## 5. The metric-defined geometric family
+
+The negative component result does not exhaust the geometry. Embed the round sphere as
+\(|x|=a\) in oriented Euclidean \(\mathbb R^4\). Let \(J\) be an orthogonal complex structure:
+
+\[
+J^T=-J,
+\qquad
+J^2=-I.
+\]
+
+Define the geometric vector field
+
+\[
+V_J(x)=\frac{Jx}{a}.
+\]
+
+Skewness and orthogonality give \(x\cdot V_J=0\) and \(|V_J|=1\). For tangent \(Y\),
+tangential projection of the ambient derivative gives
+
+\[
+\nabla_YV_J
+=\frac{JY}{a}+\frac{x\,\langle V_J,Y\rangle}{a^2}.
+\]
+
+Consequently:
+
+- \(\nabla_{V_J}V_J=0\), so the fibers are geodesics;
+- the Killing equation vanishes because \(J\) is skew;
+- on the screen orthogonal to \(V_J\), \(\nabla V_J\) is a pure quarter-turn divided by \(a\), so
+  expansion and shear vanish and only twist remains;
+- the integral curves are
+
+  \[
+  x(s)=\cos(s/a)x(0)+\sin(s/a)Jx(0),
+  \]
+
+  closed great circles of period \(2\pi a\).
+
+These are geometric vector fields, not component directions. Their defining properties use only
+the metric, orientation-relative Hodge structure, and the candidate field itself.
+
+## 6. The family census is complete
+
+Every Killing field on a round sphere is generated by some \(A\in\mathfrak{so}(4)\),
+\(V(x)=Ax\). If it has unit norm at every point of the radius-\(a\) sphere, then
+
+\[
+x^T A^T A x=1
+\]
+
+on \(|x|=a\). Homogeneity and polarization force
+
+\[
+A^T A=a^{-2}I.
+\]
+
+Therefore \(J=aA\) is an orthogonal complex structure. Conversely every such \(J\) gives the field
+in Section 5. Thus the constant-length unit Killing family is exactly the
+orthogonal-complex-structure family, not a hand-picked coordinate subset.
+
+On oriented \(\mathbb R^4\), the orthogonal complex structures have two chiral \(S^2\)
+components; each is
+
+\[
+SO(4)/U(2)\cong S^2.
+\]
+
+The production derivation realizes them as the unit linear combinations of left and right
+quaternionic multiplication matrices and verifies their opposite twist signs. \(SO(4)\) acts
+transitively on each \(S^2\), so the round metric defines both families but no member. Without a
+supplied orientation, the two chiralities are exchanged and only the orientation-blind union or
+absolute class remains.
+
+## 7. A frame-independent conditional invariant
+
+After a geometric member \(V_J\) is supplied, let
+
+\[
+\alpha_J=\gamma_a(V_J,\cdot).
+\]
+
+For the two chiralities,
+
+\[
+d\alpha_J=\pm\frac{2}{a}*\alpha_J.
+\]
+
+Since \(\operatorname{Vol}(S^3_a)=2\pi^2a^3\),
+
+\[
+\boxed{
+\mathcal H_g(V_J)
+=\frac{1}{4\pi^2a^2}
+\int_{S^3}\alpha_J\wedge d\alpha_J
+=\pm1.
+}
+\]
+
+Unlike the raw component number, this expression is built from the geometric field and metric and
+is invariant under a change of local frame. It is also independent of \(a\); therefore it cannot
+fix the curvature magnitude, mass, or physical \(X_{\max}\). It is a normalized geometric
+helicity for this supplied family, not a claim that arbitrary deformations retain an integer.
+
+For a supplied \(V_J\), its closed-circle orbit space is \(S^2\), and the quotient map is a Hopf
+fibration. The target therefore can emerge geometrically after the member is supplied. The round
+metric alone neither supplies \(J\) nor canonically identifies one member's quotient target with
+another history's internal target.
+
+## 8. Time-slice and screen/query typing
+
+Carrying a fixed test \(J\) through G305's explicit product slicing changes \(a(T)\) but not the
+normalized helicity. This is kinematic carry on a supplied smooth history, not field evolution,
+dynamic conservation, stability, or backreaction.
+
+G290/G292 screen holonomy and Euler character remain gauge-descended diagnostics of supplied
+screens. They do not provide \(V_J\). G300 supplies the complete celestial control sphere for a
+supplied clock and exact path-labelled transport, but it does not own a lawful direction/query
+population. G306 therefore narrows the map problem to a natural two-family candidate arena without
+closing physical member selection.
+
+## 9. Evidence
+
+- preregistration committed and pushed at c5873d2c before outcome scripts or result files;
+- 172 exact production assertions;
+- 22,237 implementation-distinct standard-library checks with no production import;
+- independent midpoint Hopf result \(-1.0000000010280863\) and maximum numerical error
+  \(1.0280862827727333\times10^{-9}\);
+- 17 direct computed-evidence or required-premise hostile mutations, all caught;
+- both chiralities and five independent positive-radius controls;
+- no old action, fixed target, box, boundary, source, matter model, observation, fit, physical
+  \(X_{\max}\), or protected work.
+
+Fresh external adversarial review remains pending. The current maximum grade is
+INTERNALLY_DERIVED_WITH_CAVEATS.

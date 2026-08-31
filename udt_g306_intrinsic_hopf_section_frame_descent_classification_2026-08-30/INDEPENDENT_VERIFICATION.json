@@ -1,0 +1,14 @@
+{
+  "helicity_radius_cases": 10,
+  "implementation": "standard_library_no_production_import",
+  "independent_checks": 22237,
+  "isotropy_fixed_tangent_dimension": 0,
+  "maximum_numeric_error": 1.0280862827727333e-09,
+  "midpoint_hopf_number": -1.0000000010280863,
+  "source_landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "status": "PASS",
+  "twist_signs": [
+    -1,
+    1
+  ]
+}
