@@ -26,3 +26,9 @@ pattern?” It is “what, if anything in the complete UDT relation or dynamics,
 this metric-defined family into a physical field?” No action, matter model, mass law, scale, or
 \(X_{\max}\) was inserted here.
 
+The outside reviewer independently reproduced that mathematical result. It found only that our
+sealed replay package was inconveniently assembled: some repo-wide checks were listed as if they
+belonged inside the small intake, one verifier looked in the wrong folder, and the first derivation
+script expected SymPy. Those defects have been repaired without changing a scientific byte of the
+result. The exact production calculation now needs only ordinary Python. A repair-only external
+follow-up is still required before calling the package externally accepted.

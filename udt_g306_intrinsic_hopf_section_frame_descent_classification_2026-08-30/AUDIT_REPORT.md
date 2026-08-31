@@ -1,7 +1,7 @@
 # G306 audit report
 
 Date: 2026-08-30
-Status: INTERNALLY_DERIVED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_PENDING
+Status: EXTERNAL_SCIENCE_SUPPORTED__PREREGISTERED_PORTABILITY_REPAIRS_COMPLETE__FOLLOWUP_PENDING
 
 ## Primary landing
 
@@ -36,6 +36,15 @@ completion, all positive radii, and both chiralities. Nonspherical, quotient, si
 topology-changing, dynamically populated, and route-conditioned cases remain open.
 
 Preregistered at pushed commit c5873d2c; 172 production assertions; 22,237 independent checks;
-17 direct hostile mutations caught. Premise and repository regression gates are recorded in
-EVIDENCE_GATES.md. Fresh external adversarial review remains required before any external grade.
+17 direct hostile mutations caught. Fresh external review returned `REPAIRABLE_DEFECTS` while
+explicitly finding no bounded scientific defect and independently reproducing the quaternionic,
+isotropy, frame-descent, Hopf, and helicity results.
 
+The three defects were replay portability only: repository-only commands were not distinguished
+from sealed commands, the source verifier assumed repository layout, and production imported
+unsealed SymPy. Repairs R1--R4 were preregistered and banked at commit 1298deea before repair. The
+production derivation now uses exact standard-library integer/rational/polynomial algebra under
+`python3 -S` and reproduces the original JSON and census byte-for-byte. All four sealed commands
+pass in a fresh copied intake; missing and ambiguous source layouts are rejected. Premise and full
+repository gates also pass. External repair-only follow-up remains pending, so the result is not
+yet graded externally accepted.

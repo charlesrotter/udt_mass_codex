@@ -1,7 +1,7 @@
 # G306 exact derivation — intrinsic Hopf families without physical member selection
 
 Date: 2026-08-30
-Grade before fresh external review: INTERNALLY_DERIVED_WITH_CAVEATS
+Grade: EXTERNAL_SCIENCE_SUPPORTED__PREREGISTERED_PORTABILITY_REPAIRS_COMPLETE__FOLLOWUP_PENDING
 
 ## Bounded landing
 

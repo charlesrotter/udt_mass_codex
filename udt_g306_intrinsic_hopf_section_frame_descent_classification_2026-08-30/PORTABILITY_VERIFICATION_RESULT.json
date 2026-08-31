@@ -1,0 +1,28 @@
+{
+  "ambiguous_source_rejected": true,
+  "candidate_census_byte_identical": true,
+  "implementation": "standard_library_subprocess_and_fresh_temp_layout",
+  "missing_source_rejected": true,
+  "production_derivation_byte_identical": true,
+  "sealed_command_count": 4,
+  "sealed_commands": [
+    {
+      "returncode": 0,
+      "script": "derive_intrinsic_hopf_section.py"
+    },
+    {
+      "returncode": 0,
+      "script": "verify_intrinsic_hopf_section_independent.py"
+    },
+    {
+      "returncode": 0,
+      "script": "run_catch_proofs.py"
+    },
+    {
+      "returncode": 0,
+      "script": "verify_package.py"
+    }
+  ],
+  "source_hashes": 15,
+  "status": "PASS"
+}

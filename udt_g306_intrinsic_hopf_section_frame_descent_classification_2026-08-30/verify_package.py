@@ -28,6 +28,17 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def resolve_source(rel: Path) -> Path:
+    """Resolve one source in either repository or sealed-intake layout."""
+    candidates = (ROOT / rel, ROOT / "frozen_sources" / rel)
+    matches = [path for path in candidates if path.is_file()]
+    assert len(matches) == 1, (
+        f"source resolution must be unique for {rel}: "
+        f"found {[str(path) for path in matches]}"
+    )
+    return matches[0]
+
+
 def main() -> None:
     required = [
         "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
@@ -38,6 +49,10 @@ def main() -> None:
         "CATCH_PROOF_RESULT.json", "CANDIDATE_CENSUS.tsv", "STATUS_LEDGER.tsv",
         "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
         "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md",
+        "EXTERNAL_REVIEW_RESPONSE.md", "REPAIR_PREREGISTRATION.md",
+        "REPAIR_ANCESTRY.md",
+        "REPAIR_FOLLOWUP_REQUEST.md", "verify_repair_portability.py",
+        "PORTABILITY_VERIFICATION_RESULT.json", "build_repair_followup_intake.py",
     ]
     for name in required:
         assert (HERE / name).is_file(), name
@@ -45,6 +60,9 @@ def main() -> None:
     derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
     independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
     catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    portability = json.loads(
+        (HERE / "PORTABILITY_VERIFICATION_RESULT.json").read_text(encoding="utf-8")
+    )
     assert derivation["landing"] == LANDING
     assert derivation["candidate_landing"] == "A"
     assert derivation["production_assertions"] == 172
@@ -60,6 +78,12 @@ def main() -> None:
     assert catches["status"] == "PASS"
     assert catches["hostile_cases"] == 17
     assert catches["direct_computed_or_required_premise_mutations"] == 17
+    assert portability["status"] == "PASS"
+    assert portability["sealed_command_count"] == 4
+    assert portability["source_hashes"] == 15
+    assert portability["missing_source_rejected"] is True
+    assert portability["ambiguous_source_rejected"] is True
+    assert portability["production_derivation_byte_identical"] is True
 
     for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
         assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
@@ -75,7 +99,7 @@ def main() -> None:
                 "udt_sne_xmax_G88_am_radial_compatibility_atlas",
                 "udt_kernel_plane_global_curvature_holonomy_atlas",
             ))
-            assert sha256(ROOT / rel) == row["sha256"], rel
+            assert sha256(resolve_source(rel)) == row["sha256"], rel
             source_rows += 1
     assert source_rows == 15
     print(f"PASS: G306 package; {len(required)} required files; {source_rows} source hashes")
@@ -83,4 +107,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

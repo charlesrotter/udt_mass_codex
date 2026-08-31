@@ -4,7 +4,11 @@
     "passed": 199,
     "status": "PASS"
   },
-  "package_required_files": 21,
+  "external_review": {
+    "bounded_science": "SUPPORTED",
+    "verdict": "REPAIRABLE_DEFECTS"
+  },
+  "package_required_files": 28,
   "premise_registry": {
     "historical_dispositions": 754,
     "rows": 288,
@@ -12,5 +16,12 @@
   },
   "source_hashes": 15,
   "standalone_package_verifier": "PASS",
-  "status": "PASS_WITH_EXTERNAL_REVIEW_PENDING"
+  "sealed_portability": {
+    "ambiguous_source_rejected": true,
+    "missing_source_rejected": true,
+    "production_derivation_byte_identical": true,
+    "sealed_commands": 4,
+    "status": "PASS"
+  },
+  "status": "PASS_WITH_REPAIR_FOLLOWUP_PENDING"
 }
