@@ -1,0 +1,10 @@
+path	role
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	current bounded G305 ownership and completion status
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json	exact G305 outcome
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/TOPOLOGY_CENSUS.tsv	global slice topology census
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md	current bounded G306 ownership and family status
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json	exact G306 family outcome
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv	G306 family and selection census
+udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md	current externally accepted G307 status
+udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json	exact G307 member outcome
+udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv	G307 conditional selection census
