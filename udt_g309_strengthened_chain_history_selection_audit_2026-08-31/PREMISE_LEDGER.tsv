@@ -1,0 +1,21 @@
+id	grade	role_in_G309
+F1	OBSERVED_PLUS_FOUNDATIONAL_INTERPRETATION	clock/ruler calibration identity; no history residual
+F2	FOUNDED_INTERPRETATION	dual reciprocal squeeze on supplied ordered depth
+F3	POSIT	composition and reversal of supplied ordered depth
+F4	DECLARED_READOUT	local quadratic metric readout
+W1	WORKING_FOUNDATIONAL_CLARIFICATION	completed-pair readout after screen/mixing
+W3	WORKING_POSIT	quiet UDT-to-GR reduction requirement; not a parent field equation
+W4	WORKING_POSIT	one metric owns local clocks/rulers/free fall/null propagation
+W5	WORKING_FOUNDATIONAL_CLARIFICATION	complete projective pair position on supplied relation
+W6	WORKING_FOUNDATIONAL_CLARIFICATION	nonsignalling complete-state membership plus metric-causal responses
+G301_TRACEFREE	CONDITIONAL_CANDIDATE_LAW	tested separately as a nonidentity field residual
+G304_POSITIVE_SIGN	DERIVED_CONDITIONAL	uses G301 candidate plus smooth center and working finite-ceiling condition
+G305_GLOBAL_S3	DERIVED_CONDITIONAL	standard positive completion of G304 branch
+G306_HOPF_FAMILIES	DERIVED_CONDITIONAL	intrinsic chiral Hopf families on supplied round S3 geometry
+G307_MEMBER_RECONSTRUCTION	DERIVED_CONDITIONAL	supplied germ reconstruction; physical population open
+G308_GLOBAL_CARRY	DERIVED_CONDITIONAL	global chirality coherence and mirror equivalence on supplied completion
+c_E	OBSERVED	unit conversion; set to one in dimensionless symbolic checks only
+X	FREE_AND_EXPLORED	positive curvature scale in conditional standard completion
+epsilon	FREE_AND_EXPLORED	nonzero deformation amplitude used only for countermodel
+source_action_matter_fit_Xmax	OMITTED	not used
+
