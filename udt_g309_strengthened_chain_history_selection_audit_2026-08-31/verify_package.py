@@ -36,6 +36,8 @@ def main() -> None:
 
     assert production["landing"] == LANDING
     assert production["candidate"] == "B"
+    assert production["symbolic_checks"] == 13
+    assert [row["order"] for row in production["flat_join_derivative_limits"]] == list(range(5))
     assert production["base_q"] == "0"
     assert abs(float(production["deformed_q_numeric"])) > 1e-3
     assert independent["status"] == "PASS"

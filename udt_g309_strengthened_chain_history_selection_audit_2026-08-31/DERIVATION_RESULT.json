@@ -3,9 +3,9 @@
   "base_scalar_curvature": "12/X**2",
   "candidate": "B",
   "conditional_constant_derivative": "2*(a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2 - 1)*Derivative(a(t), t)/a(t)**3",
-  "deformed_q_at_T1_X1_eps_1_10": "-1 - exp(-1 + exp(-1)/5)*cosh(1)**2/5 + exp(exp(-1)/5)",
+  "deformed_q_at_T1_X1_eps_1_10": "-(-(-cosh(1)**2 + 5*E)*exp(exp(-1)/5)/5 + E)*exp(-1)",
   "deformed_q_numeric": "-0.11221707343756682765347892437894934942407570979471",
-  "deformed_scalar_at_T1_X1_eps_1_10": "-3*exp(-1)*cosh(2)/(5*cosh(1)**2) - 3*exp(-1)/(5*cosh(1)**2) + 12*exp(-2)/25 + 12*exp(-1)*sinh(2)/(5*cosh(1)**2) + 6*exp(-exp(-1)/5)/cosh(1)**2 + 6*cosh(2)/cosh(1)**2",
+  "deformed_scalar_at_T1_X1_eps_1_10": "-6*exp(-1)/5 + 6*exp(-exp(-1)/5)/cosh(1)**2 + 6/cosh(1)**2 + 12*(1 + 5*E*tanh(1))**2*exp(-2)/25",
   "deformed_scalar_numeric": "12.789601130551798953062505579256715136607614872679",
   "flat_join_derivative_limits": [
     {
@@ -27,22 +27,6 @@
     {
       "order": 4,
       "right_limit": "0"
-    },
-    {
-      "order": 5,
-      "right_limit": "0"
-    },
-    {
-      "order": 6,
-      "right_limit": "0"
-    },
-    {
-      "order": 7,
-      "right_limit": "0"
-    },
-    {
-      "order": 8,
-      "right_limit": "0"
     }
   ],
   "hopf_normalized_time_carry": "0",
@@ -54,6 +38,6 @@
   },
   "q_formula": "a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2 - 1",
   "scalar_curvature_formula": "6*(a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2 + 1)/a(t)**2",
-  "symbolic_checks": 17,
+  "symbolic_checks": 13,
   "tracefree_gap_formula": "(a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2 - 1)/a(t)**2"
 }

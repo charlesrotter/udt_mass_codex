@@ -13,3 +13,5 @@
 Fresh external adversarial review remains pending, so the package is not yet graded externally
 verified.
 
+The preregistered `3344ef0e` evidence-race repair aligns the saved production check count with the
+optimized source and strengthens the package/intake gate. It changes no scientific claim.

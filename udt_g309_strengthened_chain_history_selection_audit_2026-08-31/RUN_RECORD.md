@@ -40,3 +40,8 @@ The first production attempt was interrupted after an unnecessary full symbolic 
 slow. The exact logarithmic-derivative identity was then used; it changed no preregistered witness,
 formula, or conclusion.
 
+During the first sealed-intake replay, the saved result unexpectedly showed the older 17-check
+count. The pre-optimization process had survived its visible interruption and completed late,
+overwriting only the saved representation. Repair `3344ef0e` preregistered regeneration from the
+current source, an exact 13-check package gate, and pre-seal package verification. Independent and
+hostile outputs, formulas, numerical witnesses, and the scientific landing did not change.
