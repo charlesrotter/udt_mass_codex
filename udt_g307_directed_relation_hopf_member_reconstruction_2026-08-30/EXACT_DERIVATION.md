@@ -1,7 +1,7 @@
 # G307 exact derivation — directed relations reduce, but do not populate, the Hopf ambiguity
 
 Date: 2026-08-30
-Grade: `INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`
+Grade: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
 
 ## Bounded landing
 
@@ -137,6 +137,7 @@ that would close the G306 member ambiguity once a physical relation is supplied.
 - metric and reciprocal kernel explicitly frozen and unchanged.
 
 Fresh external review found no scientific defect and retained this exact landing, while requiring
-evidence and replay repairs. R1--R4 now pass internally; repair-only follow-up remains pending.
+evidence and replay repairs. R1--R4 then passed internally and in a sealed repair-only external
+follow-up, which returned `G307_REPAIRS_ACCEPTED` with no replay defect or scientific regression.
 Physical route/query/screen population, dynamics, history, mass, scale, observation, and physical
 `X_max` remain open.

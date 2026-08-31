@@ -22,11 +22,13 @@
    no bounded scientific defect and retained the exact landing, while returning
    `G307_REPAIRABLE_DEFECTS` for sealed-builder source resolution and narrower-than-claimed
    independent/hostile replay coverage.
-8. **Preregistered repairs:** PASS INTERNALLY — R1--R4 were pushed at `f91bfb85`; repository and
+8. **Preregistered repairs:** EXTERNALLY ACCEPTED — R1--R4 were pushed at `f91bfb85`; repository and
    sealed builder outputs are byte-identical, missing/ambiguous layouts are rejected, and R2/R3
-   meet their strengthened contracts. Repair-only external follow-up is pending.
+   meet their strengthened contracts. A sealed repair-only gpt-5.4 follow-up independently replayed
+   every registered check and returned `G307_REPAIRS_ACCEPTED`, with no replay defect or scientific
+   regression.
 
 The current maximum grade is
-`INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`.
+`EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`.
 Physical query/route/screen population, dynamics, history, mass, scale, observation, and physical
 `X_max` remain open.

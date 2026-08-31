@@ -52,6 +52,7 @@ def main() -> None:
         "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md", "REPAIR_REPORT.md",
         "PORTABILITY_VERIFICATION_RESULT.json", "verify_repair_portability.py",
         "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
+        "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
         "build_review_intake.py", "verify_package.py",
     )
     for name in required:
@@ -103,7 +104,7 @@ def main() -> None:
     assert all(record["caught"] for record in catches["records"])
     assert verification["landing"] == LANDING
     assert verification["status"] == (
-        "INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING"
+        "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS"
     )
     assert verification["premise_audit"] == "PASS"
     assert verification["repository_regression"] == "199_passed_1_expected_xfail"
@@ -121,6 +122,10 @@ def main() -> None:
     review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
     assert "G307_REPAIRABLE_DEFECTS" in review
     assert "no scientific defect found" in review
+    followup = (HERE / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md").read_text(encoding="utf-8")
+    assert "G307_REPAIRS_ACCEPTED" in followup
+    assert "Replay defects: none found" in followup
+    assert "Scientific regressions: none found" in followup
 
     expected_census = (
         ("round_metric_only", "two_S2_families", "no_member"),
@@ -164,8 +169,8 @@ def main() -> None:
         "independent_checks": independent["independent_checks"],
         "hostile_catches": catches["hostile_cases"],
         "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
-        "external_review": "G307_REPAIRABLE_DEFECTS__SCIENCE_SUPPORTED",
-        "repair_followup": "PENDING",
+        "external_review": "G307_REPAIRS_ACCEPTED",
+        "repair_followup": "ACCEPTED",
     }, sort_keys=True))
 
 

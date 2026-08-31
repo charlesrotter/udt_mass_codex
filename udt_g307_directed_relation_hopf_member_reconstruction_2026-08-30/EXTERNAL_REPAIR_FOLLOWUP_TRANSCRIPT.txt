@@ -1,0 +1,1687 @@
+Script started on 2026-08-31 09:01:57-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a057e9-8a0d-7a60-9b5b-39886ace0716
+--------
+user
+The sealed repair-only intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake; verify only preregistered G307 repairs R1 through R4 and the unchanged bounded scientific landing. Do not edit evidence files or continue the research. Internet browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Run registered standard-library checks only in an ephemeral copy. Do not change the scientific question or propose a UDT field equation, action, source, matter model, physical history, mass law, scale, observation, or X_max.\n\n# G307 repair-only follow-up request
+
+Review only the corrected sealed intake. Verify the preregistered R1--R4 repairs and the unchanged
+bounded G307 landing. Do not reopen or continue the research.
+
+## Frozen scientific landing
+
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+
+The production result, member census, metric, reciprocal kernel, and ownership boundary must be
+unchanged.
+
+## Checks
+
+1. **R1:** From a writable copy of this sealed intake, run `build_review_intake.py` and
+   `verify_repair_portability.py`. Confirm repository/sealed rebuild equivalence and rejection of
+   missing and ambiguous source/current layouts.
+2. **R2:** Inspect and run `verify_directed_member_independent.py`. Confirm it now reconstructs both
+   family members from `(p,v)` through independently built evaluation maps, proves numerical
+   injectivity, recovers `v conjugate(p)` and `conjugate(p) v`, reconstructs the full operators,
+   imports no production function, and supplies at least 30,000 checks.
+3. **R3:** Inspect and run `run_catch_proofs.py`. Confirm at least eight direct exact mathematical
+   corruptions are exercised in addition to semantic result/ownership guards.
+4. **R4:** Confirm `COMMANDS.md` clearly distinguishes sealed package replays from repository-only
+   premise/pytest gates and makes no false self-contained premise-verifier promise.
+5. Run the production derivation and `verify_package.py`; confirm the exact production result and
+   landing are unchanged and all repaired evidence agrees.
+
+## Required verdict
+
+Lead with exactly one token:
+
+- `G307_REPAIRS_ACCEPTED`
+- `G307_REPAIRS_INCOMPLETE`
+- `G307_SCIENTIFIC_REGRESSION`
+- `G307_INCONSISTENT_OR_UNCLASSIFIED`
+
+List defects and commands run. Distinguish replay defects from scientific regressions. Do not edit
+evidence files or continue the research.
+codex
+I’m verifying the sealed intake in `/intake` only, then replaying the registered checks from a writable copy under `/work` without modifying evidence. First I’m locating the preregistered files and command surfaces that cover R1 through R4 plus the unchanged production landing.
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMPLETENESS_MAP.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EVIDENCE_GATES.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_RESPONSE.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_TRANSCRIPT.txt
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/LAY_REPORT.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PORTABILITY_VERIFICATION_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_AUDIT_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREREGISTRATION.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREREGISTRATION_ANCESTRY.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/REPAIR_ANCESTRY.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/REPAIR_FOLLOWUP_REQUEST.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/REPAIR_PREREGISTRATION.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/REPAIR_REPORT.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/RUN_RECORD.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_MANIFEST.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_SCOPE.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/VERIFICATION_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_repair_followup_intake.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_repair_portability.py
+
+codex
+I found the sealed package and the registered scripts. Next I’m reading the preregistration, command guide, and the verification scripts themselves so I can check the repairs against the sealed scope before replaying anything in `/work`.
+Verifying the sealed intake against the repair-only follow-up scope, then replaying the registered checks from an ephemeral copy.
+  → Read sealed scope, preregistration, command guide, and repair scripts for R1-R4 plus production landing invariants
+  • Create an ephemeral writable copy under /work and run the registered replay/verification commands
+  • Compare outputs to the frozen landing and assemble the required verdict with defects and commands run
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /return
+ succeeded in 0ms:
+{
+  "allowed": [
+    "read intake",
+    "verify only R1 through R4 and unchanged bounded landing",
+    "run registered checks in a writable ephemeral copy",
+    "write response outside intake"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue research",
+    "change scientific question or landing",
+    "access repository or protected packages",
+    "use internet or unsealed observations",
+    "import field equation action source matter model population mass law fit scale or X_max"
+  ],
+  "frozen_current_count": 2,
+  "frozen_source_count": 8,
+  "package": "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30",
+  "package_file_count": 35,
+  "question": "verify only preregistered G307 repairs R1 through R4 and unchanged landing",
+  "schema": "UDT_G307_REPAIR_FOLLOWUP_SCOPE_V1"
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/REPAIR_PREREGISTRATION.md" in /return
+ succeeded in 0ms:
+# G307 repair preregistration
+
+Date: 2026-08-31
+Trigger: fresh external verdict `G307_REPAIRABLE_DEFECTS`
+
+The external reviewer found no scientific defect and retained the exact bounded G307 landing. The
+following repairs are frozen before implementation. They may improve portability and evidence
+independence only; they may not change the question, member census, ownership boundary, metric, or
+reciprocal kernel.
+
+## R1 — sealed-layout source resolution
+
+Repair `build_review_intake.py` so each frozen dependency resolves uniquely in either repository
+layout or sealed-intake layout. Repository sources may appear at `ROOT/path`; sealed sources at
+`ROOT/frozen_sources/path`; current premise files at `ROOT/name` or `ROOT/frozen_current/name`.
+Missing and ambiguous layouts must be rejected. A writable copy of the repaired sealed intake must
+run the builder successfully.
+
+## R2 — independent reconstruction from `(p,v)`
+
+Extend the implementation-independent verifier so it does not start only from the already chosen
+`route +/- screen` operators. For every random regular `(p,v)` it must:
+
+- construct the left and right imaginary-quaternion evaluation maps independently;
+- verify each map is an isometry and hence injective;
+- solve for the unique left and right coefficients from `(p,v)` by projection onto those maps;
+- compare those independently solved coefficients with `v conjugate(p)` and
+  `conjugate(p) v`;
+- reconstruct both full operators and verify that they coincide with the independently built
+  route/screen operators.
+
+At least 30,000 independent nonvacuous checks must pass with maximum error below `2e-10` and no
+production import.
+
+## R3 — direct mathematical hostile mutations
+
+Retain the semantic result-field guards, but add direct algebraic mutations that would corrupt the
+load-bearing theorem. At minimum catch:
+
+- wrong quaternion order in left reconstruction;
+- wrong quaternion order in right reconstruction;
+- a broken route-plane sign;
+- same rather than opposite transverse screen turn;
+- omission of the positive-radius `1/a` factor;
+- point-only false uniqueness;
+- route-only false chirality selection;
+- orientation reversal without twist-sign reversal.
+
+Each direct mutation must be exercised on a noncommuting exact witness and fail for the registered
+reason. Merely mutating JSON is insufficient for these cases.
+
+## R4 — command and premise-audit typing
+
+Clarify that the four package evidence commands and repaired intake builder are sealed replays.
+The whole-repository premise verifier and pytest are repository-only gates recorded by hash/result;
+they are not promised as self-contained sealed commands. Include the frozen premise guide and
+registry as before without claiming the complete repository verifier can run from the intake.
+
+## Certification contract
+
+- R1 passes from repository and freshly copied sealed layouts; missing/ambiguous sources rejected.
+- R2 supplies at least 30,000 checks, exact member counts, and the existing tolerance.
+- R3 catches all registered direct mathematical and semantic mutations.
+- All original production outputs and the exact landing remain unchanged.
+- `python3 -S verify_package.py`, the current premise verifier, and repository regression pass.
+- Maximum grade before repair-only external follow-up:
+  `INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`.
+
+Any scientific change, member-count change, ownership promotion, or kernel/metric change fails the
+repair and requires a new preregistered question.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md" in /return
+ succeeded in 0ms:
+# G307 registered commands
+
+## Sealed package replays
+
+Run from this package directory with no third-party package import. In a sealed layout, run from a
+writable copy so the first three commands can regenerate their registered outputs:
+
+```bash
+python3 -S derive_directed_member_reconstruction.py
+python3 -S verify_directed_member_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+python3 -S build_review_intake.py
+python3 -S verify_repair_portability.py
+```
+
+## Repository-only gates
+
+Run the current premise audit and repository regression only from the complete repository root:
+
+```bash
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q
+```
+
+The first three sealed commands write only their registered JSON/TSV outcome files inside this
+package. `verify_package.py` is a no-write check. The intake builder writes only a new sealed
+directory under `/tmp` and resolves either repository or sealed `frozen_*` layouts uniquely. The
+whole-repository premise verifier and pytest are recorded gates, not self-contained sealed replays.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/REPAIR_FOLLOWUP_REQUEST.md" in /return
+ succeeded in 0ms:
+# G307 repair-only follow-up request
+
+Review only the corrected sealed intake. Verify the preregistered R1--R4 repairs and the unchanged
+bounded G307 landing. Do not reopen or continue the research.
+
+## Frozen scientific landing
+
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+
+The production result, member census, metric, reciprocal kernel, and ownership boundary must be
+unchanged.
+
+## Checks
+
+1. **R1:** From a writable copy of this sealed intake, run `build_review_intake.py` and
+   `verify_repair_portability.py`. Confirm repository/sealed rebuild equivalence and rejection of
+   missing and ambiguous source/current layouts.
+2. **R2:** Inspect and run `verify_directed_member_independent.py`. Confirm it now reconstructs both
+   family members from `(p,v)` through independently built evaluation maps, proves numerical
+   injectivity, recovers `v conjugate(p)` and `conjugate(p) v`, reconstructs the full operators,
+   imports no production function, and supplies at least 30,000 checks.
+3. **R3:** Inspect and run `run_catch_proofs.py`. Confirm at least eight direct exact mathematical
+   corruptions are exercised in addition to semantic result/ownership guards.
+4. **R4:** Confirm `COMMANDS.md` clearly distinguishes sealed package replays from repository-only
+   premise/pytest gates and makes no false self-contained premise-verifier promise.
+5. Run the production derivation and `verify_package.py`; confirm the exact production result and
+   landing are unchanged and all repaired evidence agrees.
+
+## Required verdict
+
+Lead with exactly one token:
+
+- `G307_REPAIRS_ACCEPTED`
+- `G307_REPAIRS_INCOMPLETE`
+- `G307_SCIENTIFIC_REGRESSION`
+- `G307_INCONSISTENT_OR_UNCLASSIFIED`
+
+List defects and commands run. Distinguish replay defects from scientific regressions. Do not edit
+evidence files or continue the research.
+
+codex
+The sealed scope and preregistration line up with the follow-up request. I’m inspecting the repair scripts directly now, with focus on source-resolution behavior, independent reconstruction, hostile mutations, and the unchanged production outputs they certify.
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_repair_portability.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Verify G307 builder portability and hostile source-layout rejection."""
+
+from __future__ import annotations
+
+import importlib.util
+import json
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "PORTABILITY_VERIFICATION_RESULT.json"
+
+
+def load_builder():
+    spec = importlib.util.spec_from_file_location("g307_builder", HERE / "build_review_intake.py")
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def run_builder(package: Path) -> dict:
+    completed = subprocess.run(
+        [sys.executable, "-S", "build_review_intake.py"],
+        cwd=package,
+        check=True,
+        text=True,
+        capture_output=True,
+    )
+    return json.loads(completed.stdout)
+
+
+def rejected(callable_object) -> bool:
+    try:
+        callable_object()
+    except AssertionError:
+        return True
+    return False
+
+
+def main() -> None:
+    repository_result = run_builder(HERE)
+    first_intake = Path(repository_result["intake"])
+    sealed_package = first_intake / HERE.name
+    sealed_result = run_builder(sealed_package)
+    assert repository_result["manifest_payloads"] == sealed_result["manifest_payloads"]
+    assert repository_result["total_files"] == sealed_result["total_files"]
+    assert repository_result["scope_sha256"] == sealed_result["scope_sha256"]
+    assert repository_result["manifest_sha256"] == sealed_result["manifest_sha256"]
+    assert repository_result["detached_seal_sha256"] == sealed_result["detached_seal_sha256"]
+
+    builder = load_builder()
+    original_root = builder.REPO
+    with tempfile.TemporaryDirectory(prefix="g307_resolution_") as temporary:
+        root = Path(temporary)
+        builder.REPO = root
+        source_relative = Path("source/example.txt")
+        current_name = "CURRENT_EXAMPLE.tsv"
+        missing_source_rejected = rejected(lambda: builder.resolve_source(source_relative))
+        missing_current_rejected = rejected(lambda: builder.resolve_current(current_name))
+
+        repository_source = root / source_relative
+        frozen_source = root / "frozen_sources" / source_relative
+        repository_source.parent.mkdir(parents=True)
+        frozen_source.parent.mkdir(parents=True)
+        repository_source.write_text("repository\n", encoding="utf-8")
+        frozen_source.write_text("sealed\n", encoding="utf-8")
+        ambiguous_source_rejected = rejected(lambda: builder.resolve_source(source_relative))
+
+        repository_current = root / current_name
+        frozen_current = root / "frozen_current" / current_name
+        frozen_current.parent.mkdir(parents=True)
+        repository_current.write_text("repository\n", encoding="utf-8")
+        frozen_current.write_text("sealed\n", encoding="utf-8")
+        ambiguous_current_rejected = rejected(lambda: builder.resolve_current(current_name))
+    builder.REPO = original_root
+
+    assert missing_source_rejected
+    assert missing_current_rejected
+    assert ambiguous_source_rejected
+    assert ambiguous_current_rejected
+    result = {
+        "status": "PASS",
+        "repository_builder_passed": True,
+        "sealed_builder_passed": True,
+        "rebuilt_manifest_byte_identical": True,
+        "manifest_payloads": repository_result["manifest_payloads"],
+        "total_files": repository_result["total_files"],
+        "scope_sha256": repository_result["scope_sha256"],
+        "missing_source_rejected": missing_source_rejected,
+        "missing_current_rejected": missing_current_rejected,
+        "ambiguous_source_rejected": ambiguous_source_rejected,
+        "ambiguous_current_rejected": ambiguous_current_rejected,
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py" in /return
+exec
+/bin/bash -lc "sed -n '1,360p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py" in /return
+exec
+/bin/bash -lc "sed -n '1,360p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Build a sealed, source-bounded G307 fresh-review intake."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import shutil
+import tempfile
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+PACKAGE_FILES = [
+    "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "SOURCE_SCOPE.tsv",
+    "SOURCE_MANIFEST.tsv", "COMPLETENESS_MAP.md",
+    "derive_directed_member_reconstruction.py", "verify_directed_member_independent.py",
+    "run_catch_proofs.py", "verify_package.py", "DERIVATION_RESULT.json",
+    "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv",
+    "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json", "EXACT_DERIVATION.md",
+    "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md", "RUN_RECORD.md",
+    "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "EXTERNAL_REVIEW_RESPONSE.md",
+    "EXTERNAL_REVIEW_TRANSCRIPT.txt", "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md",
+    "REPAIR_REPORT.md", "verify_repair_portability.py", "PORTABILITY_VERIFICATION_RESULT.json",
+    "build_review_intake.py",
+]
+CURRENT_FILES = [
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+]
+
+
+def digest(path: Path) -> str:
+    result = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            result.update(block)
+    return result.hexdigest()
+
+
+def resolve_source(relative: Path) -> Path:
+    candidates = (REPO / relative, REPO / "frozen_sources" / relative)
+    matches = [path for path in candidates if path.is_file()]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"source resolution must be unique for {relative}: "
+            f"found {[str(path) for path in matches]}"
+        )
+    return matches[0]
+
+
+def resolve_current(name: str) -> Path:
+    candidates = (REPO / name, REPO / "frozen_current" / name)
+    matches = [path for path in candidates if path.is_file()]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"current source resolution must be unique for {name}: "
+            f"found {[str(path) for path in matches]}"
+        )
+    return matches[0]
+
+
+def main() -> None:
+    target = Path(tempfile.mkdtemp(prefix="udt_g307_review_", dir="/tmp"))
+    package_target = target / HERE.name
+    package_target.mkdir()
+    for name in PACKAGE_FILES:
+        source = HERE / name
+        if not source.is_file():
+            raise FileNotFoundError(source)
+        shutil.copy2(source, package_target / name)
+
+    frozen = target / "frozen_sources"
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        source_rows = list(csv.DictReader(handle, delimiter="\t"))
+    for row in source_rows:
+        source = resolve_source(Path(row["path"]))
+        if digest(source) != row["sha256"]:
+            raise AssertionError(f"source hash drift: {row['path']}")
+        destination = frozen / row["path"]
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
+    frozen_current = target / "frozen_current"
+    frozen_current.mkdir()
+    for name in CURRENT_FILES:
+        source = resolve_current(name)
+        shutil.copy2(source, frozen_current / name)
+
+    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    if digest(frozen_current / "CURRENT_SCIENTIFIC_PREMISES.tsv") != premise_audit["registry_sha256"]:
+        raise AssertionError("current premise registry drift since G307 audit")
+
+    scope = {
+        "schema": "UDT_G307_FRESH_REVIEW_SCOPE_V1",
+        "question": (
+            "audit the bounded conditional Hopf-member reconstruction from supplied directed "
+            "and transverse-screen germs and the retained physical-population boundary"
+        ),
+        "package": HERE.name,
+        "package_file_count": len(PACKAGE_FILES),
+        "frozen_source_count": len(source_rows),
+        "frozen_current_count": len(CURRENT_FILES),
+        "allowed": [
+            "read intake",
+            "independently rederive the bounded theorem",
+            "run registered checks in a writable ephemeral copy",
+            "write review response outside intake",
+        ],
+        "forbidden": [
+            "edit evidence files",
+            "continue research",
+            "access repository or protected packages",
+            "use internet or unsealed observations",
+            "import field equation action source matter model physical population mass law fit scale or X_max",
+            "change registered question",
+            "promote a supplied relation datum into a UDT-populated physical field",
+        ],
+    }
+    scope_path = target / "REVIEW_SCOPE.json"
+    scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    payloads = sorted(path for path in target.rglob("*") if path.is_file())
+    manifest = target / "REVIEW_MANIFEST.tsv"
+    with manifest.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        writer.writerow(["sha256", "bytes", "path"])
+        for path in payloads:
+            writer.writerow([digest(path), path.stat().st_size, path.relative_to(target).as_posix()])
+    seal = target / "REVIEW_MANIFEST.sha256"
+    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+    print(json.dumps({
+        "intake": str(target),
+        "manifest_payloads": len(payloads),
+        "total_files": len(payloads) + 2,
+        "scope_sha256": digest(scope_path),
+        "manifest_sha256": digest(manifest),
+        "detached_seal_sha256": digest(seal),
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct numerical replay using oriented two-plane operators."""
+
+from __future__ import annotations
+
+import json
+import math
+import random
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "INDEPENDENT_VERIFICATION.json"
+SEED = 3070830
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def scale(c, a):
+    return [c * x for x in a]
+
+
+def add(*vectors):
+    return [sum(values) for values in zip(*vectors)]
+
+
+def norm(a):
+    return math.sqrt(dot(a, a))
+
+
+def unit(a):
+    n = norm(a)
+    if n < 1e-10:
+        raise ValueError("degenerate vector")
+    return scale(1.0 / n, a)
+
+
+def project_out(a, basis):
+    out = list(a)
+    for vector in basis:
+        out = add(out, scale(-dot(out, vector), vector))
+    return out
+
+
+def qmul(a, b):
+    aw, ax, ay, az = a
+    bw, bx, by, bz = b
+    return [
+        aw * bw - ax * bx - ay * by - az * bz,
+        aw * bx + ax * bw + ay * bz - az * by,
+        aw * by - ax * bz + ay * bw + az * bx,
+        aw * bz + ax * by - ay * bx + az * bw,
+    ]
+
+
+def qconj(q):
+    return [q[0], -q[1], -q[2], -q[3]]
+
+
+def determinant(a):
+    matrix = [list(row) for row in a]
+    value = 1.0
+    for column in range(4):
+        pivot = max(range(column, 4), key=lambda row: abs(matrix[row][column]))
+        if pivot != column:
+            matrix[pivot], matrix[column] = matrix[column], matrix[pivot]
+            value *= -1.0
+        p = matrix[column][column]
+        value *= p
+        for row in range(column + 1, 4):
+            factor = matrix[row][column] / p
+            for j in range(column + 1, 4):
+                matrix[row][j] -= factor * matrix[column][j]
+    return value
+
+
+def outer(a, b):
+    return [[x * y for y in b] for x in a]
+
+
+def madd(*matrices):
+    return [[sum(matrix[i][j] for matrix in matrices) for j in range(4)] for i in range(4)]
+
+
+def mscale(c, a):
+    return [[c * x for x in row] for row in a]
+
+
+def matvec(a, v):
+    return [dot(row, v) for row in a]
+
+
+def action_matrix(action):
+    basis = (
+        [1.0, 0.0, 0.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+    )
+    columns = [action(vector) for vector in basis]
+    return [[columns[j][i] for j in range(4)] for i in range(4)]
+
+
+def matmul(a, b):
+    return [[sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4)] for i in range(4)]
+
+
+def transpose(a):
+    return [[a[j][i] for j in range(4)] for i in range(4)]
+
+
+def maxerr(a, b):
+    if isinstance(a[0], list):
+        return max(abs(a[i][j] - b[i][j]) for i in range(len(a)) for j in range(len(a[0])))
+    return max(abs(x - y) for x, y in zip(a, b))
+
+
+def complex_operator(q, v, w, z, sign):
+    route = madd(outer(v, q), mscale(-1.0, outer(q, v)))
+    screen = madd(outer(z, w), mscale(-1.0, outer(w, z)))
+    return madd(route, mscale(sign, screen))
+
+
+def main():
+    rng = random.Random(SEED)
+    checks = 0
+    worst = 0.0
+
+    def check_error(actual, expected, label):
+        nonlocal checks, worst
+        error = maxerr(actual, expected)
+        worst = max(worst, error)
+        assert error < 2e-10, (label, error)
+        checks += 1
+
+    def check_scalar(actual, expected, label):
+        nonlocal checks, worst
+        error = abs(actual - expected)
+        worst = max(worst, error)
+        assert error < 2e-10, (label, error)
+        checks += 1
+
+    identity = [[1.0 if i == j else 0.0 for j in range(4)] for i in range(4)]
+    imag_basis = (
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+    )
+    samples = 1000
+    radii = (0.125, 0.5, 1.0, 3.25, 11.0)
+    for case in range(samples):
+        q = unit([rng.gauss(0.0, 1.0) for _ in range(4)])
+        v = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q]))
+        w = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q, v]))
+        z = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q, v, w]))
+        frame_rows = [[q[j], v[j], w[j], z[j]] for j in range(4)]
+        if determinant(frame_rows) < 0.0:
+            z = scale(-1.0, z)
+
+        plus = complex_operator(q, v, w, z, 1.0)
+        minus = complex_operator(q, v, w, z, -1.0)
+
+        # Reconstruct each family member from (q,v) through the two independent
+        # imaginary-quaternion evaluation maps, not from the route/screen operators.
+        left_images = [qmul(axis, q) for axis in imag_basis]
+        right_images = [qmul(q, axis) for axis in imag_basis]
+        gram_identity = [[1.0 if i == j else 0.0 for j in range(3)] for i in range(3)]
+        left_gram = [[dot(left_images[i], left_images[j]) for j in range(3)] for i in range(3)]
+        right_gram = [[dot(right_images[i], right_images[j]) for j in range(3)] for i in range(3)]
+        check_error(left_gram, gram_identity, "left evaluation isometry")
+        check_error(right_gram, gram_identity, "right evaluation isometry")
+
+        left_coefficients = [dot(v, image) for image in left_images]
+        right_coefficients = [dot(v, image) for image in right_images]
+        reconstructed_left_v = [sum(left_coefficients[j] * left_images[j][i] for j in range(3)) for i in range(4)]
+        reconstructed_right_v = [sum(right_coefficients[j] * right_images[j][i] for j in range(3)) for i in range(4)]
+        check_error(reconstructed_left_v, v, "left unique coefficient solve")
+        check_error(reconstructed_right_v, v, "right unique coefficient solve")
+
+        u_left = [0.0] + left_coefficients
+        u_right = [0.0] + right_coefficients
+        check_scalar(u_left[0], 0.0, "left pure imaginary")
+        check_scalar(u_right[0], 0.0, "right pure imaginary")
+        check_scalar(dot(u_left, u_left), 1.0, "left unit coefficient")
+        check_scalar(dot(u_right, u_right), 1.0, "right unit coefficient")
+        check_error(qmul(u_left, q), v, "left reconstructed field value")
+        check_error(qmul(q, u_right), v, "right reconstructed field value")
+        check_error(u_left, qmul(v, qconj(q)), "left closed reconstruction formula")
+        check_error(u_right, qmul(qconj(q), v), "right closed reconstruction formula")
+
+        reconstructed_left = action_matrix(lambda x, u=u_left: qmul(u, x))
+        reconstructed_right = action_matrix(lambda x, u=u_right: qmul(x, u))
+        left_twist = dot(z, matvec(reconstructed_left, w))
+        right_twist = dot(z, matvec(reconstructed_right, w))
+        check_scalar(left_twist + right_twist, 0.0, "reconstructed opposite chirality")
+        left_sign = 1.0 if left_twist > 0.0 else -1.0
+        right_sign = 1.0 if right_twist > 0.0 else -1.0
+        check_error(reconstructed_left, complex_operator(q, v, w, z, left_sign), "left full operator reconstruction")
+        check_error(reconstructed_right, complex_operator(q, v, w, z, right_sign), "right full operator reconstruction")
+
+        for operator, sign in ((plus, 1.0), (minus, -1.0)):
+            check_error(madd(transpose(operator), operator), [[0.0] * 4 for _ in range(4)], "skew")
+            check_error(matmul(operator, operator), mscale(-1.0, identity), "square")
+            check_error(matvec(operator, q), v, "point tangent")
+            check_error(matvec(operator, v), scale(-1.0, q), "route plane")
+            check_error(matvec(operator, w), scale(sign, z), "screen sign")
+            check_error(matvec(operator, z), scale(-sign, w), "screen closure")
+
+        angle = rng.uniform(-math.pi, math.pi)
+        c, s = math.cos(angle), math.sin(angle)
+        route_point = add(scale(c, q), scale(s, v))
+        route_tangent = add(scale(c, v), scale(-s, q))
+        check_error(matvec(plus, route_point), route_tangent, "plus common route")
+        check_error(matvec(minus, route_point), route_tangent, "minus common route")
+        check_error(matvec(plus, w), scale(-1.0, matvec(minus, w)), "opposite transverse data")
+
+        radius = radii[case % len(radii)]
+        check_scalar(dot(z, scale(1.0 / radius, matvec(plus, w))), 1.0 / radius, "plus twist")
+        check_scalar(dot(z, scale(1.0 / radius, matvec(minus, w))), -1.0 / radius, "minus twist")
+
+    result = {
+        "status": "PASS",
+        "implementation": "oriented_two_plane_outer_product_no_production_import",
+        "random_seed": SEED,
+        "sample_cases": samples,
+        "independent_checks": checks,
+        "maximum_error": worst,
+        "directed_germ_member_count": 2,
+        "signed_screen_member_count": 1,
+        "path_only_distinguishes_chirality": False,
+        "imports_production_code": False,
+        "reconstructs_members_from_pv": True,
+        "evaluation_maps_verified_injective": True,
+        "closed_quaternion_formulas_independently_recovered": True,
+    }
+    assert checks >= 30000
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile semantic/evidence mutations for the bounded G307 result."""
+
+from __future__ import annotations
+
+import copy
+import json
+from fractions import Fraction as F
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+SOURCE = HERE / "DERIVATION_RESULT.json"
+OUT = HERE / "CATCH_PROOF_RESULT.json"
+
+
+def qmul(a, b):
+    aw, ax, ay, az = a
+    bw, bx, by, bz = b
+    return (
+        aw * bw - ax * bx - ay * by - az * bz,
+        aw * bx + ax * bw + ay * bz - az * by,
+        aw * by - ax * bz + ay * bw + az * bx,
+        aw * bz + ax * by - ay * bx + az * bw,
+    )
+
+
+def qconj(q):
+    return (q[0], -q[1], -q[2], -q[3])
+
+
+def scale(c, vector):
+    return tuple(c * value for value in vector)
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def stereo(values):
+    squared = sum(value * value for value in values)
+    denominator = F(1) + squared
+    return ((F(1) - squared) / denominator,) + tuple(
+        2 * value / denominator for value in values
+    )
+
+
+def direct_mathematical_mutations():
+    """Exercise corruptions of the theorem itself on one exact noncommuting witness."""
+    q = stereo((F(1, 2), F(1, 3), F(1, 5)))
+    q_bar = qconj(q)
+    one, zero = F(1), F(0)
+    u = (zero, one, zero, zero)
+    e = (zero, zero, one, zero)
+    f = (zero, zero, zero, one)
+    v = qmul(u, q)
+    w = qmul(e, q)
+    z = qmul(f, q)
+    u_left = qmul(v, q_bar)
+    u_right = qmul(q_bar, v)
+    assert u_left == u
+    assert qmul(u_left, q) == v
+    assert qmul(q, u_right) == v
+    left_screen = qmul(u_left, w)
+    right_screen = qmul(w, u_right)
+    assert left_screen == z
+    assert right_screen == scale(-one, z)
+
+    records = []
+
+    def caught(name, condition, expected):
+        assert condition, name
+        records.append({"case": name, "caught": True, "expected": expected})
+
+    wrong_left = qmul(q_bar, v)
+    caught("wrong_left_quaternion_order", qmul(wrong_left, q) != v, "left_reconstruction")
+
+    wrong_right = qmul(v, q_bar)
+    caught("wrong_right_quaternion_order", qmul(q, wrong_right) != v, "right_reconstruction")
+
+    correct_route_closure = qmul(u_left, v)
+    caught(
+        "broken_route_plane_sign",
+        correct_route_closure == scale(-one, q) and correct_route_closure != q,
+        "route_complex_structure",
+    )
+
+    mutated_same_screen_turn = left_screen
+    caught(
+        "same_instead_of_opposite_screen_turn",
+        mutated_same_screen_turn != right_screen,
+        "opposite_transverse_turn",
+    )
+
+    radius = F(7, 3)
+    correct_twist = dot(z, scale(one / radius, left_screen))
+    mutated_twist = dot(z, left_screen)
+    caught(
+        "omitted_inverse_radius_factor",
+        correct_twist == one / radius and mutated_twist != correct_twist,
+        "radius_scaling",
+    )
+
+    alternative_tangent = qmul(e, q)
+    caught(
+        "point_only_false_uniqueness",
+        alternative_tangent != v and dot(alternative_tangent, q) == zero,
+        "point_does_not_supply_direction",
+    )
+
+    caught(
+        "route_only_false_chirality_selection",
+        qmul(u_left, q) == qmul(q, u_right)
+        and qmul(u_left, v) == qmul(v, u_right)
+        and left_screen != right_screen,
+        "route_nonselection",
+    )
+
+    original_sign = dot(z, left_screen)
+    reversed_sign = dot(scale(-one, z), left_screen)
+    caught(
+        "orientation_reversal_without_sign_reversal",
+        original_sign == one and reversed_sign == -one,
+        "orientation_relative_twist",
+    )
+    return records
+
+
+def failure(value):
+    if value["metric_and_kernel_changed"]:
+        return "kernel_change"
+    if value["directed_germ_member_count"] != 2:
+        return "directed_count"
+    if value["members_per_chirality"] != 1:
+        return "per_chirality_uniqueness"
+    if value["path_only_member_count"] != 2:
+        return "path_nonselection"
+    if value["signed_transverse_screen_member_count"] != 1:
+        return "signed_screen_uniqueness"
+    if value["screen_twist_signs"] != [-1, 1]:
+        return "opposite_twist"
+    if value["lawful_query_population_selected"]:
+        return "query_population_promotion"
+    if value["physical_member_selected"]:
+        return "physical_member_promotion"
+    required = {"mass", "scale", "physical_Xmax", "protected_work", "nonspherical_deformations"}
+    if not required.issubset(value["omitted"]):
+        return "scope_export"
+    if value["production_assertions"] <= 0:
+        return "vacuous_production"
+    return None
+
+
+def main():
+    base = json.loads(SOURCE.read_text(encoding="utf-8"))
+    assert failure(base) is None
+    mutations = (
+        ("metric_only_selects_member", "physical_member_selected", True, "physical_member_promotion"),
+        ("directed_germ_one_member", "directed_germ_member_count", 1, "directed_count"),
+        ("chirality_not_unique", "members_per_chirality", 2, "per_chirality_uniqueness"),
+        ("path_selects_chirality", "path_only_member_count", 1, "path_nonselection"),
+        ("screen_leaves_two", "signed_transverse_screen_member_count", 2, "signed_screen_uniqueness"),
+        ("same_twist_sign", "screen_twist_signs", [1, 1], "opposite_twist"),
+        ("control_fiber_called_population", "lawful_query_population_selected", True, "query_population_promotion"),
+        ("kernel_modified", "metric_and_kernel_changed", True, "kernel_change"),
+        ("empty_assertions", "production_assertions", 0, "vacuous_production"),
+    )
+    semantic_records = []
+    for name, key, replacement, expected in mutations:
+        trial = copy.deepcopy(base)
+        trial[key] = replacement
+        actual = failure(trial)
+        assert actual == expected, (name, actual, expected)
+        semantic_records.append({"case": name, "caught": True, "expected": expected})
+
+    for omitted in ("mass", "scale", "physical_Xmax", "protected_work", "nonspherical_deformations"):
+        trial = copy.deepcopy(base)
+        trial["omitted"].remove(omitted)
+        actual = failure(trial)
+        assert actual == "scope_export", (omitted, actual)
+        semantic_records.append({"case": f"promote_{omitted}", "caught": True, "expected": "scope_export"})
+
+    mathematical_records = direct_mathematical_mutations()
+    records = mathematical_records + semantic_records
+
+    result = {
+        "status": "PASS",
+        "baseline_valid": True,
+        "hostile_cases": len(records),
+        "direct_mathematical_mutations": len(mathematical_records),
+        "semantic_result_mutations": len(semantic_records),
+        "records": records,
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py" in /return
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact standard-library derivation for the bounded G307 member census."""
+
+from __future__ import annotations
+
+import csv
+import itertools
+import json
+from fractions import Fraction as F
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "DERIVATION_RESULT.json"
+CENSUS = HERE / "MEMBER_CENSUS.tsv"
+LANDING = (
+    "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY"
+    "__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY"
+    "__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN"
+)
+Z = F(0)
+O = F(1)
+
+
+def qmul(a, b):
+    aw, ax, ay, az = a
+    bw, bx, by, bz = b
+    return (
+        aw * bw - ax * bx - ay * by - az * bz,
+        aw * bx + ax * bw + ay * bz - az * by,
+        aw * by - ax * bz + ay * bw + az * bx,
+        aw * bz + ax * by - ay * bx + az * bw,
+    )
+
+
+def qconj(q):
+    return (q[0], -q[1], -q[2], -q[3])
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def add(a, b):
+    return tuple(x + y for x, y in zip(a, b))
+
+
+def scale(c, a):
+    return tuple(c * x for x in a)
+
+
+def stereo_quaternion(t):
+    s = sum(x * x for x in t)
+    d = O + s
+    return ((O - s) / d,) + tuple(2 * x / d for x in t)
+
+
+def matrix_from_action(action):
+    basis = (
+        (O, Z, Z, Z),
+        (Z, O, Z, Z),
+        (Z, Z, O, Z),
+        (Z, Z, Z, O),
+    )
+    columns = [action(e) for e in basis]
+    return tuple(tuple(columns[j][i] for j in range(4)) for i in range(4))
+
+
+def matvec(a, v):
+    return tuple(sum(a[i][j] * v[j] for j in range(4)) for i in range(4))
+
+
+def matmul(a, b):
+    return tuple(
+        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+        for i in range(4)
+    )
+
+
+def transpose(a):
+    return tuple(tuple(a[j][i] for j in range(4)) for i in range(4))
+
+
+def determinant(a):
+    total = Z
+    for p in itertools.permutations(range(4)):
+        inversions = sum(p[i] > p[j] for i in range(4) for j in range(i + 1, 4))
+        term = O if inversions % 2 == 0 else -O
+        for i in range(4):
+            term *= a[i][p[i]]
+        total += term
+    return total
+
+
+def columns_matrix(columns):
+    return tuple(tuple(columns[j][i] for j in range(4)) for i in range(4))
+
+
+def main():
+    assertions = 0
+
+    def check(condition, label):
+        nonlocal assertions
+        assert condition, label
+        assertions += 1
+
+    params = (
+        (F(0), F(0), F(0)),
+        (F(1, 2), F(0), F(0)),
+        (F(1, 3), F(1, 4), F(0)),
+        (F(-2, 5), F(1, 3), F(1, 7)),
+        (F(2, 3), F(-1, 5), F(3, 8)),
+        (F(-3, 7), F(-2, 9), F(1, 6)),
+    )
+    radii = (F(1, 2), F(1), F(7, 3), F(5), F(19, 4))
+    path_pairs = ((F(3, 5), F(4, 5)), (F(5, 13), F(12, 13)), (F(-8, 17), F(15, 17)))
+    imag_basis = (
+        (Z, O, Z, Z),
+        (Z, Z, O, Z),
+        (Z, Z, Z, O),
+    )
+    identity = tuple(tuple(O if i == j else Z for j in range(4)) for i in range(4))
+    minus_identity = tuple(tuple(-x for x in row) for row in identity)
+    case_count = 0
+
+    for qp in params:
+        q = stereo_quaternion(qp)
+        check(dot(q, q) == O, "unit point")
+        for rp in params:
+            r = stereo_quaternion(rp)
+            rb = qconj(r)
+            u, e, f = (qmul(qmul(r, axis), rb) for axis in imag_basis)
+            for vector, label in ((u, "u"), (e, "e"), (f, "f")):
+                check(vector[0] == Z, f"{label} pure")
+                check(dot(vector, vector) == O, f"{label} unit")
+            check(dot(u, e) == dot(u, f) == dot(e, f) == Z, "imaginary triad")
+            check(qmul(u, e) == f and qmul(e, u) == scale(-O, f), "oriented triad")
+
+            v = qmul(u, q)
+            w = qmul(e, q)
+            z = qmul(f, q)
+            for vector, label in ((v, "v"), (w, "w"), (z, "z")):
+                check(dot(vector, vector) == O, f"{label} unit")
+                check(dot(q, vector) == Z, f"{label} tangent")
+            check(dot(v, w) == dot(v, z) == dot(w, z) == Z, "tangent frame")
+
+            u_left = qmul(v, qconj(q))
+            u_right = qmul(qconj(q), v)
+            check(u_left == u, "left candidate reconstruction")
+            check(u_right[0] == Z and dot(u_right, u_right) == O, "right candidate reconstruction")
+
+            jl = matrix_from_action(lambda x, ul=u_left: qmul(ul, x))
+            jr = matrix_from_action(lambda x, ur=u_right: qmul(x, ur))
+            for matrix, label in ((jl, "left"), (jr, "right")):
+                check(transpose(matrix) == tuple(tuple(-x for x in row) for row in matrix), f"{label} skew")
+                check(matmul(matrix, matrix) == minus_identity, f"{label} complex")
+                check(matvec(matrix, q) == v, f"{label} supplied tangent")
+                check(matvec(matrix, v) == scale(-O, q), f"{label} common route plane")
+            check(matvec(jl, w) == z and matvec(jr, w) == scale(-O, z), "opposite screen turn")
+            check(matvec(jl, z) == scale(-O, w) and matvec(jr, z) == w, "opposite screen closure")
+            check(determinant(columns_matrix((q, v, w, matvec(jl, w)))) == O, "left chirality")
+            check(determinant(columns_matrix((q, v, w, matvec(jr, w)))) == -O, "right chirality")
+
+            # The evaluation maps u -> u q and u -> q u are isometries from Im(H) to T_q S3.
+            left_images = [qmul(axis, q) for axis in imag_basis]
+            right_images = [qmul(q, axis) for axis in imag_basis]
+            for images, label in ((left_images, "left"), (right_images, "right")):
+                gram = tuple(tuple(dot(images[i], images[j]) for j in range(3)) for i in range(3))
+                check(gram == tuple(tuple(O if i == j else Z for j in range(3)) for i in range(3)), f"{label} uniqueness")
+
+            for c, s in path_pairs:
+                route_point = add(scale(c, q), scale(s, v))
+                route_tangent = add(scale(c, v), scale(-s, q))
+                check(dot(route_point, route_point) == O, "route point unit")
+                check(matvec(jl, route_point) == route_tangent, "left route")
+                check(matvec(jr, route_point) == route_tangent, "right route")
+
+            for radius in radii:
+                check(dot(z, scale(O / radius, matvec(jl, w))) == O / radius, "left twist scale")
+                check(dot(z, scale(O / radius, matvec(jr, w))) == -O / radius, "right twist scale")
+            case_count += 1
+
+    census = (
+        ("round_metric_only", "two_S2_families", "no_member"),
+        ("supplied_point", "two_S2_families", "no_direction"),
+        ("supplied_point_and_ordered_unit_tangent", "two_members", "one_per_chirality"),
+        ("complete_one_dimensional_route_and_metric_frame_carry", "two_members", "same_route"),
+        ("supplied_oriented_signed_transverse_screen_first_jet", "one_member", "conditional_reconstruction"),
+        ("active_premise_owned_lawful_query_population", "zero_selected", "open"),
+    )
+    with CENSUS.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        writer.writerow(("data_level", "remaining_geometric_members", "ownership"))
+        writer.writerows(census)
+
+    result = {
+        "status": "PASS",
+        "landing_candidate": 2,
+        "landing": LANDING,
+        "scope": "positive_G305_round_S3_regular_directed_germs_oriented_screens_all_positive_radii",
+        "exact_cases": case_count,
+        "radii": [str(x) for x in radii],
+        "production_assertions": assertions,
+        "directed_germ_member_count": 2,
+        "members_per_chirality": 1,
+        "path_only_member_count": 2,
+        "signed_transverse_screen_member_count": 1,
+        "screen_twist_signs": [-1, 1],
+        "lawful_query_population_selected": False,
+        "physical_member_selected": False,
+        "metric_and_kernel_changed": False,
+        "omitted": [
+            "nonspherical_deformations", "quotients", "singular_cut_caustic_strata",
+            "topology_change", "physical_query_route_population", "action", "dynamics",
+            "stability", "backreaction", "history", "observation", "source", "mass",
+            "scale", "physical_Xmax", "protected_work",
+        ],
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""No-write integrity and semantic verifier for the bounded G307 package."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+LANDING = (
+    "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY"
+    "__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY"
+    "__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN"
+)
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def resolve_source(relative: Path) -> Path:
+    candidates = (ROOT / relative, ROOT / "frozen_sources" / relative)
+    matches = [path for path in candidates if path.is_file()]
+    assert len(matches) == 1, (
+        f"source resolution must be unique for {relative}: "
+        f"found {[str(path) for path in matches]}"
+    )
+    return matches[0]
+
+
+def main() -> None:
+    required = (
+        "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+        "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "SOURCE_SCOPE.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "COMPLETENESS_MAP.md", "derive_directed_member_reconstruction.py",
+        "verify_directed_member_independent.py", "run_catch_proofs.py",
+        "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv", "STATUS_LEDGER.tsv",
+        "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
+        "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md",
+        "VERIFICATION_RESULT.json", "EXTERNAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_TRANSCRIPT.txt",
+        "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md", "REPAIR_REPORT.md",
+        "PORTABILITY_VERIFICATION_RESULT.json", "verify_repair_portability.py",
+        "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
+        "build_review_intake.py", "verify_package.py",
+    )
+    for name in required:
+        assert (HERE / name).is_file(), name
+
+    derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads(
+        (HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    portability = json.loads(
+        (HERE / "PORTABILITY_VERIFICATION_RESULT.json").read_text(encoding="utf-8")
+    )
+
+    assert derivation["status"] == "PASS"
+    assert derivation["landing_candidate"] == 2
+    assert derivation["landing"] == LANDING
+    assert derivation["production_assertions"] == 1806
+    assert derivation["exact_cases"] == 36
+    assert derivation["directed_germ_member_count"] == 2
+    assert derivation["members_per_chirality"] == 1
+    assert derivation["path_only_member_count"] == 2
+    assert derivation["signed_transverse_screen_member_count"] == 1
+    assert derivation["screen_twist_signs"] == [-1, 1]
+    assert derivation["lawful_query_population_selected"] is False
+    assert derivation["physical_member_selected"] is False
+    assert derivation["metric_and_kernel_changed"] is False
+
+    assert independent["status"] == "PASS"
+    assert independent["implementation"] == "oriented_two_plane_outer_product_no_production_import"
+    assert independent["imports_production_code"] is False
+    assert independent["sample_cases"] == 1000
+    assert independent["independent_checks"] == 32000
+    assert independent["maximum_error"] < 2e-10
+    assert independent["directed_germ_member_count"] == 2
+    assert independent["signed_screen_member_count"] == 1
+    assert independent["path_only_distinguishes_chirality"] is False
+    assert independent["reconstructs_members_from_pv"] is True
+    assert independent["evaluation_maps_verified_injective"] is True
+    assert independent["closed_quaternion_formulas_independently_recovered"] is True
+
+    assert catches["status"] == "PASS"
+    assert catches["baseline_valid"] is True
+    assert catches["hostile_cases"] == 22
+    assert catches["direct_mathematical_mutations"] == 8
+    assert catches["semantic_result_mutations"] == 14
+    assert all(record["caught"] for record in catches["records"])
+    assert verification["landing"] == LANDING
+    assert verification["status"] == (
+        "INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING"
+    )
+    assert verification["premise_audit"] == "PASS"
+    assert verification["repository_regression"] == "199_passed_1_expected_xfail"
+    assert premise_audit["status"] == "PASS"
+    assert premise_audit["registry_rows"] == 289
+    assert len(premise_audit["registry_sha256"]) == 64
+    assert portability["status"] == "PASS"
+    assert portability["repository_builder_passed"] is True
+    assert portability["sealed_builder_passed"] is True
+    assert portability["rebuilt_manifest_byte_identical"] is True
+    assert portability["missing_source_rejected"] is True
+    assert portability["missing_current_rejected"] is True
+    assert portability["ambiguous_source_rejected"] is True
+    assert portability["ambiguous_current_rejected"] is True
+    review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    assert "G307_REPAIRABLE_DEFECTS" in review
+    assert "no scientific defect found" in review
+
+    expected_census = (
+        ("round_metric_only", "two_S2_families", "no_member"),
+        ("supplied_point", "two_S2_families", "no_direction"),
+        ("supplied_point_and_ordered_unit_tangent", "two_members", "one_per_chirality"),
+        ("complete_one_dimensional_route_and_metric_frame_carry", "two_members", "same_route"),
+        ("supplied_oriented_signed_transverse_screen_first_jet", "one_member", "conditional_reconstruction"),
+        ("active_premise_owned_lawful_query_population", "zero_selected", "open"),
+    )
+    with (HERE / "MEMBER_CENSUS.tsv").open(encoding="utf-8", newline="") as handle:
+        rows = tuple(
+            (row["data_level"], row["remaining_geometric_members"], row["ownership"])
+            for row in csv.DictReader(handle, delimiter="\t")
+        )
+    assert rows == expected_census
+
+    for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
+        assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
+
+    forbidden = (
+        "8_25", "udt_native_onshell_timelive_reset_owner_audit",
+        "udt_pair_regime_flow_reciprocal_orchestra_amplification",
+        "udt_sne_xmax_G88_am_radial_compatibility_atlas",
+        "udt_kernel_plane_global_curvature_holonomy_atlas",
+    )
+    source_rows = 0
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            relative = Path(row["path"])
+            assert not any(token in str(relative) for token in forbidden)
+            assert sha256(resolve_source(relative)) == row["sha256"], relative
+            source_rows += 1
+    assert source_rows == 8
+
+    print(json.dumps({
+        "status": "PASS",
+        "landing": LANDING,
+        "required_files": len(required),
+        "source_hashes_verified": source_rows,
+        "production_assertions": derivation["production_assertions"],
+        "independent_checks": independent["independent_checks"],
+        "hostile_catches": catches["hostile_cases"],
+        "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
+        "external_review": "G307_REPAIRABLE_DEFECTS__SCIENCE_SUPPORTED",
+        "repair_followup": "PENDING",
+    }, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+The script inspection is consistent with the preregistration: R1 enforces unique source/current resolution, R2 builds left/right evaluation maps and recovers both operators from `(q,v)` without production imports, R3 adds eight direct algebraic corruptions, and R4’s command text separates sealed replays from repository-only gates. I’m moving to an ephemeral copy in `/work` now and replaying the registered commands there.
+2026-08-31T13:02:43.184993Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -rf /work/g307_review && mkdir -p /work/g307_review && cp -a /intake/. /work/g307_review/'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /work/g307_review && mkdir -p /work/g307_review && cp -a /intake/. /work/g307_review/'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+exec
+/bin/bash -lc 'mktemp -d /work/g307_review.XXXXXX' in /return
+ succeeded in 0ms:
+/work/g307_review.0JDHqe
+
+exec
+/bin/bash -lc 'cp -a /intake/. /work/g307_review.0JDHqe/' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_directed_member_reconstruction.py' in /work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "directed_germ_member_count": 2,
+  "exact_cases": 36,
+  "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
+  "landing_candidate": 2,
+  "lawful_query_population_selected": false,
+  "members_per_chirality": 1,
+  "metric_and_kernel_changed": false,
+  "omitted": [
+    "nonspherical_deformations",
+    "quotients",
+    "singular_cut_caustic_strata",
+    "topology_change",
+    "physical_query_route_population",
+    "action",
+    "dynamics",
+    "stability",
+    "backreaction",
+    "history",
+    "observation",
+    "source",
+    "mass",
+    "scale",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "path_only_member_count": 2,
+  "physical_member_selected": false,
+  "production_assertions": 1806,
+  "radii": [
+    "1/2",
+    "1",
+    "7/3",
+    "5",
+    "19/4"
+  ],
+  "scope": "positive_G305_round_S3_regular_directed_germs_oriented_screens_all_positive_radii",
+  "screen_twist_signs": [
+    -1,
+    1
+  ],
+  "signed_transverse_screen_member_count": 1,
+  "status": "PASS"
+}
+
+codex
+The production derivation replay passed in the writable copy and reproduced the frozen landing with unchanged member counts and unchanged `metric_and_kernel_changed: false`. I’m running the independent verifier and the portability/builder checks next, then I’ll close with the hostile-mutation replay and package verification.
+exec
+/bin/bash -lc 'python3 -S verify_directed_member_independent.py' in /work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+exec
+/bin/bash -lc 'python3 -S build_review_intake.py' in /work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "detached_seal_sha256": "a04cbebcb7afc7dc376c840e482c2ddc7ccbe91a2f1272fe2499c4e05e11056c",
+  "intake": "/tmp/udt_g307_review_s4jtgxnp",
+  "manifest_payloads": 44,
+  "manifest_sha256": "4a4c79884b6e4446495599cae3b42c6fa4ddcfdc7d122f6889559bd5057e3efa",
+  "scope_sha256": "36228af00ece4b70ac3c7ee814255f5460f0ab650ed8e643bfc971ffc15fcab0",
+  "total_files": 46
+}
+
+ succeeded in 151ms:
+{
+  "closed_quaternion_formulas_independently_recovered": true,
+  "directed_germ_member_count": 2,
+  "evaluation_maps_verified_injective": true,
+  "implementation": "oriented_two_plane_outer_product_no_production_import",
+  "imports_production_code": false,
+  "independent_checks": 32000,
+  "maximum_error": 4.1389114358025836e-13,
+  "path_only_distinguishes_chirality": false,
+  "random_seed": 3070830,
+  "reconstructs_members_from_pv": true,
+  "sample_cases": 1000,
+  "signed_screen_member_count": 1,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py' in /work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "baseline_valid": true,
+  "direct_mathematical_mutations": 8,
+  "hostile_cases": 22,
+  "records": [
+    {
+      "case": "wrong_left_quaternion_order",
+      "caught": true,
+      "expected": "left_reconstruction"
+    },
+    {
+      "case": "wrong_right_quaternion_order",
+      "caught": true,
+      "expected": "right_reconstruction"
+    },
+    {
+      "case": "broken_route_plane_sign",
+      "caught": true,
+      "expected": "route_complex_structure"
+    },
+    {
+      "case": "same_instead_of_opposite_screen_turn",
+      "caught": true,
+      "expected": "opposite_transverse_turn"
+    },
+    {
+      "case": "omitted_inverse_radius_factor",
+      "caught": true,
+      "expected": "radius_scaling"
+    },
+    {
+      "case": "point_only_false_uniqueness",
+      "caught": true,
+      "expected": "point_does_not_supply_direction"
+    },
+    {
+      "case": "route_only_false_chirality_selection",
+      "caught": true,
+      "expected": "route_nonselection"
+    },
+    {
+      "case": "orientation_reversal_without_sign_reversal",
+      "caught": true,
+      "expected": "orientation_relative_twist"
+    },
+    {
+      "case": "metric_only_selects_member",
+      "caught": true,
+      "expected": "physical_member_promotion"
+    },
+    {
+      "case": "directed_germ_one_member",
+      "caught": true,
+      "expected": "directed_count"
+    },
+    {
+      "case": "chirality_not_unique",
+      "caught": true,
+      "expected": "per_chirality_uniqueness"
+    },
+    {
+      "case": "path_selects_chirality",
+      "caught": true,
+      "expected": "path_nonselection"
+    },
+    {
+      "case": "screen_leaves_two",
+      "caught": true,
+      "expected": "signed_screen_uniqueness"
+    },
+    {
+      "case": "same_twist_sign",
+      "caught": true,
+      "expected": "opposite_twist"
+    },
+    {
+      "case": "control_fiber_called_population",
+      "caught": true,
+      "expected": "query_population_promotion"
+    },
+    {
+      "case": "kernel_modified",
+      "caught": true,
+      "expected": "kernel_change"
+    },
+    {
+      "case": "empty_assertions",
+      "caught": true,
+      "expected": "vacuous_production"
+    },
+    {
+      "case": "promote_mass",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_scale",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_physical_Xmax",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_protected_work",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_nonspherical_deformations",
+      "caught": true,
+      "expected": "scope_export"
+    }
+  ],
+  "semantic_result_mutations": 14,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_repair_portability.py' in /work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "ambiguous_current_rejected": true,
+  "ambiguous_source_rejected": true,
+  "manifest_payloads": 44,
+  "missing_current_rejected": true,
+  "missing_source_rejected": true,
+  "rebuilt_manifest_byte_identical": true,
+  "repository_builder_passed": true,
+  "scope_sha256": "36228af00ece4b70ac3c7ee814255f5460f0ab650ed8e643bfc971ffc15fcab0",
+  "sealed_builder_passed": true,
+  "status": "PASS",
+  "total_files": 46
+}
+
+codex
+The replayed scripts all passed in the ephemeral copy. I’m doing the final integrity check now: `verify_package.py` plus direct evidence comparisons against the sealed originals to confirm the repaired outputs still agree exactly with the frozen landing and census.
+exec
+/bin/bash -lc 'for f in DERIVATION_RESULT.json INDEPENDENT_VERIFICATION.json CATCH_PROOF_RESULT.json MEMBER_CENSUS.tsv PORTABILITY_VERIFICATION_RESULT.json; do if cmp -s "/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/$f" "/work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/$f"; then printf '"'%s MATCH\\n' \""'$f"; else printf '"'%s DIFF\\n' \""'$f"; fi; done' in /return
+ succeeded in 0ms:
+DERIVATION_RESULT.json MATCH
+INDEPENDENT_VERIFICATION.json MATCH
+CATCH_PROOF_RESULT.json MATCH
+MEMBER_CENSUS.tsv MATCH
+PORTABILITY_VERIFICATION_RESULT.json MATCH
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g307_review.0JDHqe/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{"external_review": "G307_REPAIRABLE_DEFECTS__SCIENCE_SUPPORTED", "hostile_catches": 22, "independent_checks": 32000, "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN", "metric_and_kernel_changed": false, "production_assertions": 1806, "repair_followup": "PENDING", "required_files": 35, "source_hashes_verified": 8, "status": "PASS"}
+
+codex
+G307_REPAIRS_ACCEPTED
+
+Replay defects: none found.
+
+Scientific regressions: none found.
+
+R1: [build_review_intake.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py) resolves each frozen source/current file from exactly one of the repository or sealed locations and raises on missing or ambiguous layouts. In the writable sealed copy, `python3 -S build_review_intake.py` passed, and [verify_repair_portability.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_repair_portability.py) passed with `rebuilt_manifest_byte_identical: true`, plus all four rejection flags true.
+
+R2: [verify_directed_member_independent.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py) imports only standard-library modules, builds independent left/right evaluation maps from `(q,v)`, checks their Gram matrices are the identity, solves coefficients by projection, matches `v conjugate(q)` and `conjugate(q) v`, reconstructs both full operators, and compares them to independently built route/screen operators. Replay passed with `independent_checks: 32000` and `maximum_error: 4.1389114358025836e-13`.
+
+R3: [run_catch_proofs.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py) exercises exactly 8 direct mathematical corruptions on an exact noncommuting witness, in addition to 14 semantic guards. Replay passed with `hostile_cases: 22`, `direct_mathematical_mutations: 8`, `semantic_result_mutations: 14`.
+
+R4: [COMMANDS.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md) clearly separates sealed package replays from repository-only `verify_current_scientific_premises.py` and `pytest`, and explicitly says those repository gates are recorded, not self-contained sealed replays.
+
+Unchanged landing: `python3 -S derive_directed_member_reconstruction.py` and `python3 -S verify_package.py` both passed. The landing remained exactly `SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN`. The member census remained unchanged, `metric_and_kernel_changed` remained `false`, and regenerated copy outputs matched the sealed evidence for `DERIVATION_RESULT.json`, `INDEPENDENT_VERIFICATION.json`, `CATCH_PROOF_RESULT.json`, `MEMBER_CENSUS.tsv`, and `PORTABILITY_VERIFICATION_RESULT.json`.
+
+Commands run:
+- `cp -a /intake/. /work/g307_review.0JDHqe/`
+- `python3 -S derive_directed_member_reconstruction.py`
+- `python3 -S verify_directed_member_independent.py`
+- `python3 -S build_review_intake.py`
+- `python3 -S run_catch_proofs.py`
+- `python3 -S verify_repair_portability.py`
+- `python3 -S verify_package.py`
+- `cmp -s` comparisons for regenerated evidence vs sealed originals
+tokens used
+54,155
+
+Script done on 2026-08-31 09:04:18-04:00 [COMMAND_EXIT_CODE="0"]

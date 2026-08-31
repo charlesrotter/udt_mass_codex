@@ -1,7 +1,7 @@
 # G307 repair report
 
 Date: 2026-08-31
-Status: `INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`
+Status: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
 
 Fresh external review returned `G307_REPAIRABLE_DEFECTS` while explicitly finding no scientific
 defect and retaining the exact bounded landing. Repairs R1--R4 were preregistered and pushed at
@@ -25,4 +25,11 @@ defect and retaining the exact bounded landing. Repairs R1--R4 were preregistere
 
 The production result remains 36 exact cases and 1,806 assertions. The member census, orientation
 typing, physical-population boundary, metric, reciprocal kernel, and exact scientific landing are
-unchanged. Repair-only external follow-up remains required.
+unchanged.
+
+## External closure
+
+The sealed repair-only follow-up returned `G307_REPAIRS_ACCEPTED`. It independently replayed the
+production derivation, 32,000-check reconstruction, 22 hostile cases, portable builder, and package
+verifier; all regenerated outcome files matched the sealed originals. It found no replay defect and
+no scientific regression.

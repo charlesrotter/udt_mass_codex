@@ -74,5 +74,17 @@ python3 -S verify_repair_portability.py
 ```
 
 Result: PASS. Repository and sealed-layout builders produce identical manifests and detached
-seals; missing and ambiguous source layouts are rejected. Repair-only external follow-up remains
-pending.
+seals; missing and ambiguous source layouts are rejected.
+
+## Repair-only external follow-up
+
+Authorized sealed intake:
+
+- path: `/tmp/udt_g307_repair_followup_8zv2k2cq`
+- scope SHA-256: `7f9d49371d1aabca4bf407a33a814019d368295f4946aecb1deff9f717e8bf1a`
+- manifest SHA-256: `e2faa3201f4bc21b6bd4d7822d722cfb1ec578adaf13259126b71792b9af0586`
+
+The gpt-5.4 reviewer ran every sealed production, independent, hostile, portability, and package
+check in a writable ephemeral copy and compared regenerated evidence with the sealed originals.
+Verdict: `G307_REPAIRS_ACCEPTED`; no replay defects and no scientific regressions. The exact
+landing, member census, metric, and reciprocal kernel remained unchanged.

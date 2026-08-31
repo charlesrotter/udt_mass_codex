@@ -1,5 +1,5 @@
 {
-  "external_review": "G307_REPAIRABLE_DEFECTS__SCIENCE_SUPPORTED",
+  "external_review": "G307_REPAIRS_ACCEPTED",
   "direct_mathematical_catches": 8,
   "hostile_catches": 22,
   "independent_checks": 32000,
@@ -10,5 +10,5 @@
   "repository_regression": "199_passed_1_expected_xfail",
   "sealed_builder_replay": "PASS_BYTE_IDENTICAL",
   "semantic_catches": 14,
-  "status": "INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING"
+  "status": "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS"
 }

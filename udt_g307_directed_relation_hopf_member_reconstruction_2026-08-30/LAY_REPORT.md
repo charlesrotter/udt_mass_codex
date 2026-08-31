@@ -24,4 +24,5 @@ No metric term, reciprocal-kernel term, fitted coefficient, mass rule, or scale 
 
 An outside reviewer independently agreed with this geometric result. It found weaknesses in how
 the evidence package reconstructed and stress-tested the result, not in the result itself. Those
-evidence weaknesses have now been repaired internally; a repair-only follow-up remains pending.
+evidence weaknesses were repaired and then independently replayed. The follow-up reviewer accepted
+all four repairs, found no remaining replay defect, and found no scientific regression.

@@ -1,7 +1,7 @@
 # G307 audit report — conditional Hopf-member reconstruction from a complete directed germ
 
 Date: 2026-08-30
-Status: `INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`
+Status: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
 
 ## Primary landing
 
@@ -52,4 +52,6 @@ conflation or ownership promotion, but required replay repairs. Those repairs we
 random frames, reconstructs both members directly from `(p,v)`, and retains maximum error
 `4.1389114358025836e-13`. Eight direct mathematical and fourteen semantic hostile mutations are
 caught. Repository and sealed intake rebuilds are byte-identical. The current premise registry
-passes. Repair-only external follow-up remains required before the package is externally closed.
+passes. Repair-only external follow-up independently replayed R1--R4 and returned
+`G307_REPAIRS_ACCEPTED`, with no replay defect or scientific regression. The bounded package is
+externally closed; physical relation population remains open exactly as stated above.
