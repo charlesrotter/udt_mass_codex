@@ -1,0 +1,10 @@
+{
+  "independent_checks": 28,
+  "max_base_tracefree_gap": 2.220446049250313e-16,
+  "max_deformed_scalar_difference_from_12": 1.7723697334331678,
+  "max_deformed_tracefree_gap": 0.13333930068074173,
+  "method": "sectional_curvature_and_ricci_eigenvalues_without_production_import_or_sympy",
+  "normalized_hopf_time_carry_for_arbitrary_positive_scale": true,
+  "quiet_half_region_samples_exact": true,
+  "status": "PASS"
+}

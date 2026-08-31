@@ -1,0 +1,59 @@
+{
+  "base_q": "0",
+  "base_scalar_curvature": "12/X**2",
+  "candidate": "B",
+  "conditional_constant_derivative": "2*(a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2 - 1)*Derivative(a(t), t)/a(t)**3",
+  "deformed_q_at_T1_X1_eps_1_10": "-1 - exp(-1 + exp(-1)/5)*cosh(1)**2/5 + exp(exp(-1)/5)",
+  "deformed_q_numeric": "-0.11221707343756682765347892437894934942407570979471",
+  "deformed_scalar_at_T1_X1_eps_1_10": "-3*exp(-1)*cosh(2)/(5*cosh(1)**2) - 3*exp(-1)/(5*cosh(1)**2) + 12*exp(-2)/25 + 12*exp(-1)*sinh(2)/(5*cosh(1)**2) + 6*exp(-exp(-1)/5)/cosh(1)**2 + 6*cosh(2)/cosh(1)**2",
+  "deformed_scalar_numeric": "12.789601130551798953062505579256715136607614872679",
+  "flat_join_derivative_limits": [
+    {
+      "order": 0,
+      "right_limit": "0"
+    },
+    {
+      "order": 1,
+      "right_limit": "0"
+    },
+    {
+      "order": 2,
+      "right_limit": "0"
+    },
+    {
+      "order": 3,
+      "right_limit": "0"
+    },
+    {
+      "order": 4,
+      "right_limit": "0"
+    },
+    {
+      "order": 5,
+      "right_limit": "0"
+    },
+    {
+      "order": 6,
+      "right_limit": "0"
+    },
+    {
+      "order": 7,
+      "right_limit": "0"
+    },
+    {
+      "order": 8,
+      "right_limit": "0"
+    }
+  ],
+  "hopf_normalized_time_carry": "0",
+  "landing": "FOUNDED_STRENGTHENED_CHAIN_REMAINS_COMPATIBILITY_ONLY__ROUND_HOPF_TIME_LIVE_COUNTERFAMILY_SURVIVES__CONDITIONAL_TRACEFREE_RESIDUAL_CLOSES_POSITIVE_STANDARD_COMPLETION_TO_ONE_SCALE__HOPF_STRUCTURE_DOES_NOT_OWN_OR_CALIBRATE_THAT_RESIDUAL",
+  "ownership": {
+    "F1_F4_W1_W3_W6": "compatibility_and_readout_not_nonidentity_residual",
+    "G301_tracefree": "conditional_candidate_law_not_founded_derivation",
+    "G305_G308": "conditional_kinematic_global_structure"
+  },
+  "q_formula": "a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2 - 1",
+  "scalar_curvature_formula": "6*(a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2 + 1)/a(t)**2",
+  "symbolic_checks": 17,
+  "tracefree_gap_formula": "(a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2 - 1)/a(t)**2"
+}

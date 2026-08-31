@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "caught": true,
+      "mutation": "wrong_scalar_curvature_relative_sign"
+    },
+    {
+      "caught": true,
+      "mutation": "omit_minus_one_from_tracefree_residual"
+    },
+    {
+      "caught": true,
+      "mutation": "claim_every_positive_round_warp_satisfies_tracefree_law"
+    },
+    {
+      "caught": true,
+      "mutation": "drop_warped_connection_from_normalized_hopf_time_carry"
+    }
+  ],
+  "hostile_cases": 4,
+  "status": "PASS"
+}
