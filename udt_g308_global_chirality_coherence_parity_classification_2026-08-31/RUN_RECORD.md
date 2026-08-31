@@ -51,3 +51,26 @@ python3 -m pytest -q
 
 PASS: 199 passed and one expected xfail in 136.74 seconds. The xfail is the pre-existing
 matter-sector habit-pin gate; G308 introduced no regression.
+
+## Fresh external review
+
+The sealed 41-file intake returned `G308_REPAIRABLE_DEFECTS`. The reviewer found no bounded
+scientific defect and accepted the strongest landing. It found one medium sealed-path portability
+defect in `verify_package.py` and one low evidence-quality caveat: the first randomized verifier
+was non-importing but reconstructed the same outer-product ansatz as production.
+
+## Preregistered repairs
+
+R1--R4 were preregistered and pushed at `d212fb42` before repair implementation.
+
+- R1: unique repository/sealed source resolution; missing and ambiguous layouts rejected.
+- R2: 121,600 method-distinct Hodge/group-orbit checks; maximum error
+  `1.7763568394002505e-15`.
+- R3: the original 79,200 checks regraded as a constructive randomized cross-check.
+- R4: explicit portability and rebuilt sealed-intake gates.
+
+All four repairs pass internally. A freshly rebuilt 51-file sealed intake ran all six registered
+commands without symlinks or manual staging. Six load-bearing outcome files were byte-identical to
+the repository copies. The post-repair premise audit passed, and the full repository regression
+returned 199 passed with one expected xfail in 137.46 seconds. Repair-only external follow-up
+remains pending.

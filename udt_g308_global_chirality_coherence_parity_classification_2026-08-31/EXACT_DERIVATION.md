@@ -1,7 +1,7 @@
 # G308 exact derivation — coherence fixes a global sector, not its handedness
 
 Date: 2026-08-31
-Grade: `INTERNALLY_DERIVED_WITH_CAVEATS`
+Grade: `EXTERNALLY_REVIEWED__REPAIRS_INTERNAL_PASS__FOLLOWUP_PENDING`
 
 ## Bounded landing
 
@@ -218,7 +218,11 @@ remain open.
 - preregistered and pushed at `aaea5c12` before any executable or outcome;
 - 11,526 exact rational production assertions over 36 directed frames, 216 global points, both
   chiralities, five scale/rate controls, pair reversal, and the conjugating reflection;
-- 79,200 implementation-distinct checks over 1,200 random oriented frames, maximum normalized
-  error `2.020605904817785e-14`, no production import;
+- 79,200 non-importing constructive randomized cross-checks over 1,200 random oriented frames,
+  maximum normalized error `2.020605904817785e-14`;
+- 121,600 method-distinct Hodge/group-orbit checks over 1,600 random `SO(4)` frames, maximum error
+  `1.7763568394002505e-15`, with no production import and no outer-product candidate construction;
 - eight direct mathematical and fourteen semantic hostile mutations caught;
-- current premise verifier passed after the result.
+- current premise verifier and the 199-test repository regression passed after the result;
+- fresh external review found no bounded scientific defect, one sealed-path portability defect,
+  and one evidence-independence caveat; R1--R4 now pass internally and await repair-only follow-up.

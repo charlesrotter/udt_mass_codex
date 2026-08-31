@@ -1,0 +1,21 @@
+{
+  "O4_exchange_verified": true,
+  "SO4_nonexchange_verified": true,
+  "both_global_fields_verified": true,
+  "causal_equivalence_verified": true,
+  "connected_regular_switch_excluded": true,
+  "global_points_per_case": 3,
+  "hodge_chirality_split_verified": true,
+  "imports_production_code": false,
+  "independent_checks": 121600,
+  "maximum_error": 1.7763568394002505e-15,
+  "method": "canonical_complex_blocks__SO4_Givens_conjugation__Hodge_star_split__group_orbit_flow",
+  "metric_and_kernel_changed": false,
+  "normalized_time_carry_verified": true,
+  "pair_reversal_preserves_chirality": true,
+  "random_seed": 308831,
+  "sample_cases": 1600,
+  "slice_vs_spacetime_geodesic_distinguished": true,
+  "status": "PASS",
+  "uses_outer_product_candidate_construction": false
+}

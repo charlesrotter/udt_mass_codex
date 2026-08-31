@@ -17,3 +17,9 @@ equally valid.
 So the ambiguity has been reduced from many local choices to one global yes/no handedness. It has
 not yet become a metric-selected physical field. No fitting, added mechanism, or kernel change was
 used.
+
+An outside reviewer independently agreed with that scientific result. It found a bookkeeping bug
+in how one verifier located sealed source files and noted that our first randomized check used too
+similar a construction to count as fully independent. The path bug is repaired, and a genuinely
+different Hodge-star/group-orbit calculation now reaches the same answer. Final repair-only review
+is still pending.

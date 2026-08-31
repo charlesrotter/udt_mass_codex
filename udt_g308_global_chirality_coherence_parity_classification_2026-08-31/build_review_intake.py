@@ -21,7 +21,12 @@ PACKAGE_FILES = [
     "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
     "COHERENCE_CENSUS.tsv", "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json",
     "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
-    "RUN_RECORD.md", "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "build_review_intake.py",
+    "RUN_RECORD.md", "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md",
+    "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_TRANSCRIPT.txt",
+    "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md", "REPAIR_REPORT.md",
+    "verify_chirality_hodge_independent.py", "HODGE_INDEPENDENT_VERIFICATION.json",
+    "verify_repair_portability.py", "PORTABILITY_VERIFICATION_RESULT.json",
+    "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md", "build_review_intake.py",
 ]
 CURRENT_FILES = [
     "CURRENT_SCIENTIFIC_PREMISES.md",
@@ -91,10 +96,10 @@ def main() -> None:
         raise AssertionError("current premise registry drift since G308 audit")
 
     scope = {
-        "schema": "UDT_G308_FRESH_REVIEW_SCOPE_V1",
+        "schema": "UDT_G308_REPAIR_FOLLOWUP_SCOPE_V1",
         "question": (
-            "audit the bounded global coherence parity and chirality classification on the "
-            "positive standard G305 completion and its retained physical-population boundary"
+            "verify only preregistered G308 repairs R1 through R4 and retention of the unchanged "
+            "bounded global coherence parity and chirality landing"
         ),
         "package": HERE.name,
         "package_file_count": len(PACKAGE_FILES),
@@ -102,7 +107,8 @@ def main() -> None:
         "frozen_current_count": len(CURRENT_FILES),
         "allowed": [
             "read intake",
-            "independently rederive the bounded theorem",
+            "verify preregistered repairs R1 through R4",
+            "confirm the bounded scientific landing is unchanged",
             "run registered checks in a writable ephemeral copy",
             "write review response outside intake",
         ],
@@ -112,7 +118,8 @@ def main() -> None:
             "access repository or protected packages",
             "use internet or unsealed observations",
             "import field equation action source matter model physical population mass law fit scale or X_max",
-            "change registered question",
+            "change the registered scientific question",
+            "continue beyond preregistered repairs R1 through R4",
             "promote metric coherence or mirror equivalence into physical population of a chirality",
         ],
     }

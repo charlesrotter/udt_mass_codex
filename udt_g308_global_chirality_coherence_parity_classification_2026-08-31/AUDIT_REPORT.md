@@ -1,7 +1,7 @@
 # G308 audit report — global chirality coherence and parity
 
 Date: 2026-08-31
-Status: `INTERNALLY_DERIVED_WITH_CAVEATS`
+Status: `EXTERNALLY_REVIEWED__REPAIRS_INTERNAL_PASS__FOLLOWUP_PENDING`
 
 ## Primary landing
 
@@ -42,3 +42,16 @@ Complete only on the positive standard G305 `R x S3` completion, both G306 chira
 regular supplied G307 germ, every positive scale, and smooth topology-preserving carry. The result
 does not cover nonspherical metrics, quotients, singular or topology-changing strata, or physical
 population/dynamics.
+
+## Evidence and external review
+
+Fresh gpt-5.4 review found no bounded scientific defect and independently accepted the geometry,
+chirality, parity, connectedness, pair-reversal, causal, and ownership conclusions. It returned
+`G308_REPAIRABLE_DEFECTS` for one sealed-layout verifier bug and one evidence-quality caveat.
+
+R1 now resolves manifest sources uniquely in repository or sealed `frozen_sources/` layouts while
+rejecting missing and ambiguous layouts. R2 adds 121,600 method-distinct Hodge/group-orbit checks
+that do not import production or use its outer-product candidate construction. R3 retains the
+original 79,200 checks but correctly grades them as a constructive randomized cross-check. R4
+adds explicit portability gates. All repairs pass internally without changing the landing, metric,
+kernel, or physical-population boundary; repair-only external follow-up remains pending.
