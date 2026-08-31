@@ -1,0 +1,78 @@
+{
+  "baseline_valid": true,
+  "direct_mutations": 14,
+  "hostile_cases": 14,
+  "records": [
+    {
+      "case": "metric_only_selects_member",
+      "caught": true,
+      "expected": "physical_member_promotion"
+    },
+    {
+      "case": "directed_germ_one_member",
+      "caught": true,
+      "expected": "directed_count"
+    },
+    {
+      "case": "chirality_not_unique",
+      "caught": true,
+      "expected": "per_chirality_uniqueness"
+    },
+    {
+      "case": "path_selects_chirality",
+      "caught": true,
+      "expected": "path_nonselection"
+    },
+    {
+      "case": "screen_leaves_two",
+      "caught": true,
+      "expected": "signed_screen_uniqueness"
+    },
+    {
+      "case": "same_twist_sign",
+      "caught": true,
+      "expected": "opposite_twist"
+    },
+    {
+      "case": "control_fiber_called_population",
+      "caught": true,
+      "expected": "query_population_promotion"
+    },
+    {
+      "case": "kernel_modified",
+      "caught": true,
+      "expected": "kernel_change"
+    },
+    {
+      "case": "empty_assertions",
+      "caught": true,
+      "expected": "vacuous_production"
+    },
+    {
+      "case": "promote_mass",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_scale",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_physical_Xmax",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_protected_work",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_nonspherical_deformations",
+      "caught": true,
+      "expected": "scope_export"
+    }
+  ],
+  "status": "PASS"
+}

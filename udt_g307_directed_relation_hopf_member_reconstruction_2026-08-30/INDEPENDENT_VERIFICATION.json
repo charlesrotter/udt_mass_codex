@@ -1,0 +1,12 @@
+{
+  "directed_germ_member_count": 2,
+  "implementation": "oriented_two_plane_outer_product_no_production_import",
+  "imports_production_code": false,
+  "independent_checks": 17000,
+  "maximum_error": 4.1389114358025836e-13,
+  "path_only_distinguishes_chirality": false,
+  "random_seed": 3070830,
+  "sample_cases": 1000,
+  "signed_screen_member_count": 1,
+  "status": "PASS"
+}

@@ -1,0 +1,44 @@
+{
+  "directed_germ_member_count": 2,
+  "exact_cases": 36,
+  "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
+  "landing_candidate": 2,
+  "lawful_query_population_selected": false,
+  "members_per_chirality": 1,
+  "metric_and_kernel_changed": false,
+  "omitted": [
+    "nonspherical_deformations",
+    "quotients",
+    "singular_cut_caustic_strata",
+    "topology_change",
+    "physical_query_route_population",
+    "action",
+    "dynamics",
+    "stability",
+    "backreaction",
+    "history",
+    "observation",
+    "source",
+    "mass",
+    "scale",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "path_only_member_count": 2,
+  "physical_member_selected": false,
+  "production_assertions": 1806,
+  "radii": [
+    "1/2",
+    "1",
+    "7/3",
+    "5",
+    "19/4"
+  ],
+  "scope": "positive_G305_round_S3_regular_directed_germs_oriented_screens_all_positive_radii",
+  "screen_twist_signs": [
+    -1,
+    1
+  ],
+  "signed_transverse_screen_member_count": 1,
+  "status": "PASS"
+}
