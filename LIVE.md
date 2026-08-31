@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-08-30
+## CURRENT STATE — 2026-08-31
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
@@ -51,7 +51,21 @@ helicity is the frame-independent, scale-blind value `+1` or `-1`; the raw compo
 fails full local-frame descent. The orbit `S2` arises only after a member is supplied. Physical
 field/query population, member or chirality selection, fixed target ownership, dynamics, history,
 curvature magnitude, mass, scale, and physical `X_max` remain open. G306 is externally accepted
-after preregistered replay-portability repairs; metric and kernel remain unchanged.
+after preregistered replay-portability repairs. G307 then proves that a supplied point/direction
+reduces the continuous ambiguity to one member in each chirality, and a signed transverse-screen
+jet conditionally selects one. G308 proves both chiral members extend globally; regular connected
+carry fixes one global chirality sector but a transverse orientation-reversing isometry exchanges
+the two, so metric-only physical selection remains open. Both are externally closed. Metric and
+kernel remain unchanged.
+
+G309 separates the founded/working compatibility layer from the conditional G301 field-law layer.
+An exact smooth globally hyperbolic deformation preserves a whole quiet half-history, compact round
+`S3` slices, both Hopf families, and normalized Hopf time carry while changing invariant curvature.
+F1--F4, W1, W3--W6, and Hopf kinematics do not reject it. The `CONDITIONAL` G301 trace-free Ricci
+residual does reject it and, on the positive standard round branch, forces
+`a(T)=X cosh((T-T0)/X)`. Thus that conditional branch has a fixed history shape and only one
+curvature scale, not a free function. Ownership of the G301 residual and calibration of `X` remain
+`OPEN`. G309 is internally verified; fresh external review is pending.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -66,12 +80,14 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309.
 The first group retains declared optical imports and no native SNe prediction; the later groups
 locate the open history propagation and narrow one candidate residual lane without selecting it.
 G304 distinguishes only the positive sign in its bounded static branch. G305 supplies its standard
-positive global `S3` domain; G306 narrows its intrinsic Hopf geometry to two symmetric families but
-leaves physical member/query population, dynamics, and magnitude open.
+positive global `S3` domain; G306--G308 narrow its intrinsic Hopf geometry from two families to one
+globally coherent but parity-degenerate supplied member. G309 proves those kinematics remain blind
+to the time profile, while the conditional G301 residual fixes the positive round history shape up
+to one scale. Physical law ownership, population, magnitude, and dynamics remain open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -81,6 +97,11 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`, and
 `archive/startup_surface_2026-08-26_pre_g270/`.
+
+Registry integration note: the exact 289-row registry currently ends at G306. G307--G309 are newer
+banked package evidence described above and must be read from their controlling reports until a
+separately verified registry migration adds their rows. This note does not promote G309 beyond its
+internal-review grade.
 
 ### Observational boundary
 
@@ -99,11 +120,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G306 closes the intrinsic round-domain classification: the metric supplies two geometric Hopf
-families and a lawful normalized invariant for a supplied member, but isotropy selects and populates
-no member. The next bounded gate is whether the already-derived complete relation, query, or
-path-population structure restricts or populates one member without adding an action or field by
-hand. Begin with MAP/PONDER and an exact premise census. Do not import the old Hopf action, fixed
-target, box/boundary, observation, source, mass, fitted scale, physical `X_max`, protected work, or
-realized-history selection.
+G307/G308 close the bounded member/coherence question. G309 then shows that the remaining history
+gap is not the shape of the positive round solution *after* the G301 trace-free equation is adopted;
+that shape is fixed up to one scale. The next gate is fresh external adversarial review of G309,
+followed—only if it survives—by an explicit ownership decision: derive more support for the G301
+trace-free residual or provisionally adopt it as the candidate parent law before any scale
+calibration. Do not infer the equation from Hopf consilience, fit observations before the law class
+is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

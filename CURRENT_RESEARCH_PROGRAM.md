@@ -1,6 +1,6 @@
 # Current UDT research program
 
-Date: 2026-08-30
+Date: 2026-08-31
 
 `LIVE.md` controls status; the 289-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
@@ -76,6 +76,15 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   G306 derives two metric-intrinsic Hopf families and normalized `+/-1` helicity for a supplied
   member, but no population, target, dynamics, history, magnitude, mass, scale, or physical
   `X_max`. Raw component charge fails full frame descent; metric/kernel remain unchanged.
+- G307 reconstructs one member per chirality from a supplied directed germ, with a signed
+  transverse-screen jet conditionally distinguishing the pair. G308 proves both sectors extend
+  globally, connected regular carry forbids local switching, and mirror parity exchanges them.
+  Neither supplies physical population or chirality selection.
+- G309 exhibits a smooth round time-live counterfamily preserving a whole quiet half-history and
+  every registered Hopf kinematic while changing curvature. The founded/working chain therefore
+  remains compatibility-only. The conditional G301 trace-free residual rejects the deformation
+  and fixes the positive standard branch to `a=X cosh((T-T0)/X)`, leaving one scale rather than a
+  free history function. The residual's UDT ownership and the scale remain open.
 
 ## Open boundary
 
@@ -97,8 +106,11 @@ to two classes; G302 does not remove that fork. G303 gives both the same local c
 and functional data burden; trace-free adds one regional constant. G304 then uses the already-active
 working finite-ceiling condition to distinguish the positive sign in the smooth-center static
 branch. G305 extends that branch through its standard global completion and supplies a compact `S3`
-domain. G306 narrows the native geometry to two Hopf-congruence families but selects and populates
-no member; constant magnitude, dynamics, history, and physical `X_max` remain open.
+domain. G306--G308 narrow the native geometry to a globally coherent supplied member with two
+parity-related sectors, but select no physical population. G309 shows that this topology and carry
+do not select the time profile. If the G301 trace-free residual is provisionally adopted, however,
+the positive round history shape is already fixed up to one curvature scale. The ownership of that
+residual, the scale, population, mass, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -106,7 +118,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Test whether the already-derived complete relation, query, or path-population structure restricts
-or populates one member of G306's metric-defined Hopf families. Do not import the old Hopf action,
-target, box/boundary, source, mass, observation, fitted scale, physical `X_max`, protected work, or
-a realized history.
+Freshly adversarially review G309. If accepted, make the next premise move explicit: either continue
+the search for a founding derivation of the G301 trace-free residual or provisionally adopt that
+candidate law, after which one independently valid observation may calibrate its remaining scale.
+Do not use Hopf consilience as an ownership proof or import an action, source, mass, fit, physical
+`X_max`, protected work, or an unrestricted realized history.

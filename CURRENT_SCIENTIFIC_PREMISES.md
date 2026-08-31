@@ -60,6 +60,9 @@
 | G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
 | G305 Hopf domain | external/repairs | Positive completion: compact `S3`; physical map/dynamics/scale open |
 | G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
+| G307 directed-germ member reconstruction | external/repairs accepted | One member per chirality from supplied germ; signed transverse jet conditionally selects one |
+| G308 global chirality coherence | external/R3 accepted | One coherent global chirality sector; mirror parity leaves physical sign open |
+| G309 strengthened-chain history audit | internal; external pending | Hopf-compatible time-profile counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -87,9 +90,11 @@ None selects completion/`X_max`.
   leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
   G302 selects neither. G303 gives each fixed sector the same local causal principal system; the
   broader class adds one regional constant. `WORKING` G17 and G304 distinguish only the positive
-  static sign. G305 adds compact `S3` slices. G306 derives two metric-intrinsic Hopf-congruence
-  families and a normalized invariant for a supplied member, while isotropy selects no physical
-  member; population, target, dynamics, history, magnitude, mass, and `X_max` remain open. W1
+  static sign. G305 adds compact `S3` slices. G306--G308 derive the intrinsic Hopf families,
+  conditional member reconstruction, and global parity/coherence classification without physical
+  population. G309 proves that these kinematics are blind to smooth changes in the time profile.
+  The conditional G301 residual removes that functional freedom and leaves one scale on the
+  positive round branch, but its founding ownership, magnitude, mass, and `X_max` remain open. W1
   stays evaluative.
 
 ## Carrier, action, source, and matter
@@ -103,10 +108,13 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G306 leave law selection and realized history open. No native SNe
-prediction or value law follows.
+R2--R5 select no scale or `X_max`; G277--G309 leave founding ownership of the candidate law and the
+realized scale open. G309 conditionally fixes one positive-round history shape only after the G301
+residual is supplied. No native SNe prediction or observationally selected value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority; conflicts stop. Run
-`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority through G306; conflicts stop. G307--G309
+are newer banked package evidence pending a separately verified registry migration and are listed
+here only at their exact package grades. Run `python3 verify_current_scientific_premises.py`; query
+exact rows only when load-bearing.

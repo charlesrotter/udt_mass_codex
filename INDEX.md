@@ -94,12 +94,15 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - W5 projective-position clarification: `founding.md`; G273/G274 above. W6 non-signalling co-presence clarification: `founding.md`; G294 above.
 - G295/G296: `udt_g295_causal_history_constraint_propagation_classification_2026-08-29/`; `udt_g296_complete_metric_native_residual_order_map_2026-08-29/`.
-- G297--G306: `udt_g297_complete_pair_causal_dilation_equivalence_2026-08-29/`; `udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/`;
+- G297--G309: `udt_g297_complete_pair_causal_dilation_equivalence_2026-08-29/`; `udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/`;
   `udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/`; `udt_g300_metric_celestial_query_bundle_descent_2026-08-29/`;
   `udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/`; `udt_g302_reciprocal_trace_span_curvature_channel_separation_2026-08-30/`;
   `udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/`;
   `udt_g304_global_cell_constant_sector_discriminator_2026-08-30/`; `udt_g305_global_completion_hopf_domain_bridge_2026-08-30/`;
-  `udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/`; boundary G286--G306.
+  `udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/`;
+  `udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/`;
+  `udt_g308_global_chirality_coherence_parity_classification_2026-08-31/`;
+  `udt_g309_strengthened_chain_history_selection_audit_2026-08-31/`; boundary G286--G309.
 - Historical static-spherical slice control, not a complete current arena: `SIMPLE_METRIC_MACRO.md`
 - Historical canonical-geometry monolith, not a current SNe authority: `udt_canonical_geometry.md`; use G281 for its controlling regrades.
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
