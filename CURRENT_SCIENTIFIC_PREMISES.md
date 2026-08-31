@@ -58,6 +58,7 @@
 | G302 span/channel separation | external/repairs | 9 shape plus 1 scale direction; no selection |
 | G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
 | G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
+| G305 Hopf domain | external/repairs | Positive completion: compact `S3`; physical map/dynamics/scale open |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -92,10 +93,10 @@ None selects completion/`X_max`.
   natural nonidentity home, not a law; its Brinkmann witness defeats only tested scalar channels.
   G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
   leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
-  G302 selects neither. G303 gives each fixed constant sector the same local causal metric-wave
-  system, with one extra regional constant in the broader class. G304 uses active `WORKING` G17 to
-  distinguish the positive sign only in the smooth-center static trace-free family. Magnitude, law,
-  history, all-frame completion, and physical `X_max` remain open; W1 stays evaluative.
+  G302 selects neither. G303 gives each fixed sector the same local causal principal system; the
+  broader class adds one regional constant. `WORKING` G17 and G304 distinguish only the positive
+  static sign. G305 adds compact `S3` slices: a Hopf domain, not physical map/target, dynamics,
+  history, magnitude, mass, or `X_max`; W1 stays evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -108,10 +109,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G304 leave law selection and realized history open. No native SNe
+R2--R5 select no scale or `X_max`; G277--G305 leave law selection and realized history open. No native SNe
 prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 287-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 288-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

@@ -1,7 +1,7 @@
 # G305 audit report
 
 Date: 2026-08-30
-Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__R3_COMPLETION_FOLLOWUP_PENDING`
+Status: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
 
 ## Primary landing
 
@@ -52,8 +52,7 @@ population remain outside scope.
 Fresh external review independently reproduced the bounded scientific result and found no
 geometry-level contradiction. It returned `REPAIRABLE_DEFECTS` for sealed path resolution,
 independent coverage, and hostile-control quality. Those repairs were preregistered at `f4d021aa`
-and now pass locally without changing the landing. External repair-only follow-up remains required
-before an externally verified grade. The first follow-up accepted R1/R2 and the unchanged landing
+and now pass locally without changing the landing. The first follow-up accepted R1/R2 and the unchanged landing
 but correctly rejected the label-only R3 implementation. That final evidence-test defect was
-preregistered at `ca462391` and replaced with direct field mutations; final R3-only confirmation is
-pending.
+preregistered at `ca462391` and replaced with direct field mutations. The final isolated R3-only
+follow-up returned `R3_COMPLETION_ACCEPTED`; the bounded scientific landing is unchanged.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mechanical verifier for the pre-external G305 evidence package."""
+"""Mechanical verifier for the externally closed G305 evidence package."""
 
 from __future__ import annotations
 
@@ -57,6 +57,7 @@ def main() -> None:
         "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_PREREGISTRATION.md",
         "REPAIR_FOLLOWUP_REQUEST.md", "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
         "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md", "R3_COMPLETION_PREREGISTRATION.md",
+        "FINAL_R3_FOLLOWUP_RESPONSE.md", "FINAL_R3_FOLLOWUP_TRANSMISSION.md",
         "build_review_intake.py", "verify_package.py",
     }
     missing = sorted(name for name in required if not (HERE / name).is_file())
@@ -133,8 +134,12 @@ def main() -> None:
         for token in ("not", "history", "mass", "target", "action"):
             assert token in low, (doc[:20], token)
     assert "fc0ee889" in (HERE / "PREREGISTRATION_ANCESTRY.md").read_text()
-    assert "Final external R3-completion follow-up review remains required" in exact
-    assert "PENDING" in (HERE / "EVIDENCE_GATES.md").read_text()
+    final_response = (HERE / "FINAL_R3_FOLLOWUP_RESPONSE.md").read_text()
+    final_transmission = (HERE / "FINAL_R3_FOLLOWUP_TRANSMISSION.md").read_text()
+    assert "R3_COMPLETION_ACCEPTED" in exact and "R3_COMPLETION_ACCEPTED" in final_response
+    assert "R3_COMPLETION_ACCEPTED" in (HERE / "EVIDENCE_GATES.md").read_text()
+    assert "cd8b35b9214d673f833b84429fe4f4f44a8fa21e91fe76fe22d6b0127969def0" in final_transmission
+    assert "09d74b2b855c2b168dfe663c5b35f2457e842b2471911cdd694173ea419e3e7f" in final_transmission
 
     result = {
         "status": "PASS",
@@ -146,9 +151,10 @@ def main() -> None:
         "production_assertions": production["production_assertions"],
         "independent_assertions": independent["checks"],
         "hostile_catches": catches["caught"],
-        "external_review": "FINAL_R3_FOLLOWUP_PENDING",
+        "external_review": "R3_COMPLETION_ACCEPTED",
         "external_fresh_verdict": "REPAIRABLE_DEFECTS",
         "external_repair_followup_verdict": "REPAIRABLE_DEFECTS_REMAIN",
+        "external_final_r3_verdict": "R3_COMPLETION_ACCEPTED",
         "repair_preregistration": "PRESENT",
         "r3_completion_preregistration": "PRESENT",
         "corrupted_baseline_detected": catches["corrupted_baseline_detected"],

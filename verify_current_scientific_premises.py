@@ -198,7 +198,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -384,6 +384,7 @@ def validate_startup_surface(root: Path) -> None:
             "G302",
             "G303",
             "G304",
+            "G305",
             "W6",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -428,7 +429,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "287-row exact registry",
+            "288-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -657,6 +658,7 @@ def validate_startup_surface(root: Path) -> None:
             "G302",
             "G303",
             "G304",
+            "G305",
             "W6",
             "G291",
             "G292",
@@ -781,6 +783,7 @@ def validate_startup_surface(root: Path) -> None:
             "G299",
             "G300",
             "G304",
+            "G305",
             "W6",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -897,12 +900,13 @@ def validate_startup_surface(root: Path) -> None:
             "G299",
             "G300",
             "G304",
+            "G305",
             "W6",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "287-row",
+            "288-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1264,9 +1268,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 287, "premise registry must contain exactly 287 rows")
+    require(len(rows) == 288, "premise registry must contain exactly 288 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 287, "duplicate premise id")
+    require(len(by_id) == 288, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1397,6 +1401,11 @@ def main() -> None:
             "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_REPLAY_PACKAGING_REPAIRS__PREREGISTERED_AT_D35E31C3",
             "udt_g304_global_cell_constant_sector_discriminator_2026-08-30/AUDIT_REPORT.md",
             "FOUNDED_RELATION_LAYERS_NONSELECTIVE__WORKING_FINITE_CEILING_CONDITIONALLY_SELECTS_POSITIVE_CONSTANT_IN_PRIMARY_STATIC_SMOOTH_CENTER_BRANCH",
+        ),
+        "G305": (
+            "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS__PREREGISTERED_AT_FC0EE889",
+            "udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md",
+            "POSITIVE_STANDARD_GLOBAL_COMPLETION_NATIVELY_SUPPLIES_COMPACT_S3_HOPF_DOMAIN",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -1793,7 +1802,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
         line for line in registry_lines
-        if not line.startswith((b"G303\t", b"G304\t"))
+        if not line.startswith((b"G303\t", b"G304\t", b"G305\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g303_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -1862,10 +1871,85 @@ def main() -> None:
             "G304 external review or repair ancestry changed")
     g304_manifest = {row["path"]: row for row in read_tsv(g304 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
-    frozen_registry = b"".join(line for line in registry_lines if not line.startswith(b"G304\t"))
+    frozen_registry = b"".join(
+        line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t"))
+    )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g304_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
             "G304 frozen premise-registry ancestry changed")
+    g305 = ROOT / "udt_g305_global_completion_hopf_domain_bridge_2026-08-30"
+    for name in (
+        "PREREGISTRATION.md",
+        "REPAIR_PREREGISTRATION.md",
+        "R3_COMPLETION_PREREGISTRATION.md",
+        "EXACT_DERIVATION.md",
+        "AUDIT_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "TOPOLOGY_CENSUS.tsv",
+        "HOPF_REQUIREMENT_LEDGER.tsv",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+        "FINAL_R3_FOLLOWUP_RESPONSE.md",
+        "FINAL_R3_FOLLOWUP_TRANSMISSION.md",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "verify_package.py",
+    ):
+        require((g305 / name).is_file(), f"G305 closure evidence missing: {name}")
+    g305_production = json.loads((g305 / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    g305_independent = json.loads((g305 / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    g305_catches = json.loads((g305 / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    g305_package = json.loads((g305 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    g305_landing = (
+        "POSITIVE_STANDARD_GLOBAL_COMPLETION_NATIVELY_SUPPLIES_COMPACT_S3_HOPF_DOMAIN"
+        "__STATIC_ZERO_IS_OBSERVER_HORIZON_NOT_MATERIAL_BOUNDARY"
+        "__EXPLICIT_HOPF_CLASS_PERSISTS_KINEMATICALLY_AND_IS_SCALE_BLIND"
+        "__TARGET_SECTION_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN"
+    )
+    require(g305_production["landing"] == g305_landing
+            and g305_production["production_assertions"] == 77
+            and g305_production["hopf_number_frozen_orientation"] == -1
+            and g305_production["scope"]
+            == "smooth_center_G304_family_standard_simply_connected_completions_only",
+            "G305 production landing or scope changed")
+    require(g305_independent["status"] == "PASS"
+            and g305_independent["checks"] == 687
+            and not g305_independent["imports_production_code"]
+            and abs(g305_independent["normalized_hopf_number"] + 1.0) < 2.0e-9,
+            "G305 independent replay changed")
+    require(g305_catches["status"] == "PASS"
+            and g305_catches["caught"] == g305_catches["total"] == 10
+            and g305_catches["actual_evidence_mutations"] == 11
+            and g305_catches["baseline_valid"]
+            and g305_catches["corrupted_baseline_detected"],
+            "G305 direct-field hostile catches changed")
+    require(len(read_tsv(g305 / "TOPOLOGY_CENSUS.tsv")) == 3
+            and len(read_tsv(g305 / "HOPF_REQUIREMENT_LEDGER.tsv")) == 11,
+            "G305 topology or requirement census changed")
+    require(g305_package["status"] == "PASS"
+            and g305_package["landing"] == g305_landing
+            and g305_package["production_assertions"] == 77
+            and g305_package["independent_assertions"] == 687
+            and g305_package["hostile_catches"] == 10
+            and g305_package["actual_evidence_mutations"] == 11
+            and g305_package["source_hashes_verified"] == 11
+            and g305_package["required_files"] == 32
+            and g305_package["external_review"] == "R3_COMPLETION_ACCEPTED"
+            and g305_package["external_final_r3_verdict"] == "R3_COMPLETION_ACCEPTED",
+            "G305 externally closed package status changed")
+    require("R3_COMPLETION_ACCEPTED" in
+            (g305 / "FINAL_R3_FOLLOWUP_RESPONSE.md").read_text(encoding="utf-8")
+            and "cd8b35b9214d673f833b84429fe4f4f44a8fa21e91fe76fe22d6b0127969def0" in
+            (g305 / "FINAL_R3_FOLLOWUP_TRANSMISSION.md").read_text(encoding="utf-8")
+            and "ca462391" in (g305 / "RUN_RECORD.md").read_text(encoding="utf-8"),
+            "G305 external repair ancestry changed")
+    g305_sources = {row["path"]: row for row in read_tsv(g305 / "SOURCE_SCOPE.tsv")}
+    registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+    frozen_registry = b"".join(line for line in registry_lines if not line.startswith(b"G305\t"))
+    require(hashlib.sha256(frozen_registry).hexdigest()
+            == g305_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
+            "G305 frozen premise-registry ancestry changed")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14633,7 +14717,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G303/G304 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G303/G304/G305 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

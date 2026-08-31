@@ -22,6 +22,8 @@
    reproduced; R1--R3 evidence defects preregistered at `f4d021aa` and locally repaired.
 9. **External repair-only follow-up:** REPAIRABLE DEFECT REMAINED — R1/R2 and unchanged landing
    accepted; label-only R3 implementation rejected and preregistered at `ca462391`.
-10. **External final R3-completion follow-up:** PENDING.
+10. **External final R3-completion follow-up:** PASS — fresh isolated `gpt-5.4` returned
+    `R3_COMPLETION_ACCEPTED` after replaying the independent, hostile, and package checks.
 
-Until gate 10 closes, the package is `INTERNALLY_VERIFIED_WITH_CAVEATS__R3_COMPLETION_FOLLOWUP_PENDING`.
+All four banking gates and the external evidence-repair chain are closed. The package is
+`EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS` within its explicit bounded scope.

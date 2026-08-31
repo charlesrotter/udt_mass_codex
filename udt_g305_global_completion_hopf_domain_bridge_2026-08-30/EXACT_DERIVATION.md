@@ -1,7 +1,7 @@
 # G305 exact derivation — global completion and Hopf-domain bridge
 
 Date: 2026-08-30
-Grade: `INTERNALLY_VERIFIED_WITH_CAVEATS__R3_COMPLETION_FOLLOWUP_PENDING`
+Grade: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
 
 ## Bounded landing
 
@@ -264,4 +264,5 @@ geometry.
 - no field equation, action, source, matter model, mass law, observation, fit, scale value,
   physical `X_max`, old fixed boundary, or protected package used.
 
-Final external R3-completion follow-up review remains required before an externally verified grade.
+Final external R3-completion follow-up returned `R3_COMPLETION_ACCEPTED`. The evidence repair changed
+no metric, kernel, topology census, premise grade, or bounded scientific conclusion.

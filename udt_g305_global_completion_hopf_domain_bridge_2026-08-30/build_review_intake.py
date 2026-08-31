@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a sealed, source-bounded G305 external-review intake."""
+"""Build a sealed, source-bounded G305 post-closure replay intake."""
 
 from __future__ import annotations
 
@@ -23,7 +23,8 @@ PACKAGE_FILES = [
     "COMMANDS.md", "SOURCE_SCOPE.tsv", "EXTERNAL_REVIEW_REQUEST.md", "EXTERNAL_REVIEW_RESPONSE.md",
     "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_PREREGISTRATION.md", "REPAIR_FOLLOWUP_REQUEST.md",
     "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
-    "R3_COMPLETION_PREREGISTRATION.md", "build_review_intake.py",
+    "R3_COMPLETION_PREREGISTRATION.md", "FINAL_R3_FOLLOWUP_RESPONSE.md",
+    "FINAL_R3_FOLLOWUP_TRANSMISSION.md", "build_review_intake.py",
 ]
 
 
@@ -70,14 +71,14 @@ def main() -> None:
         destination.write_bytes(data)
 
     scope = {
-        "schema": "UDT_G305_R3_COMPLETION_FOLLOWUP_SCOPE_V1",
-        "question": "verify only preregistered G305 R3 direct-field-mutation completion and unchanged bounded landing",
+        "schema": "UDT_G305_POST_CLOSURE_REPLAY_SCOPE_V1",
+        "question": "replay externally closed G305 evidence within the unchanged bounded landing",
         "package": HERE.name,
         "frozen_source_count": len(rows),
         "package_file_count": len(PACKAGE_FILES),
         "allowed": [
-            "read intake", "verify only preregistered R3 direct-field-mutation completion",
-            "confirm retained R1 and R2 and unchanged bounded landing",
+            "read intake", "replay preregistered R3 direct-field-mutation completion",
+            "confirm retained R1 and R2 final R3 acceptance and unchanged bounded landing",
             "run registered checks in writable ephemeral copy", "write review response outside intake",
         ],
         "forbidden": [

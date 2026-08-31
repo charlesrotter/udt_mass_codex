@@ -42,6 +42,15 @@ the positive sign inside this branch. It does not fix the magnitude, field equat
 physical `X_max`; `X=sqrt(12/R0)` is only the algebraic static-patch radius. Founded relation,
 network, topology, and co-presence layers remain nonselective. Full WR-L is not in this family:
 its exact trace-free residual is `2r/X`. Metric and kernel remain unchanged.
+G305 extends that bounded family through its standard connected global completions. The positive
+static ceiling is a regular observer horizon, not a material edge, and the completed spatial slices
+are compact `S3`. This natively supplies the old Hopfion's domain and removes its historical finite
+box/outer-boundary scaffold in that positive completion. An explicit `S3 -> S2` Hopf map has integer
+`-1` in the frozen orientation and persists kinematically, but the integer is scale-blind. The metric
+does not yet supply or select the physical map/section, fixed target, gauge-independent matter
+charge, dynamics, history, curvature magnitude, mass, or physical `X_max`. Zero and negative
+standard causal-cover slices remain contractible and require extra global data for a Hopf class.
+G305 is externally verified after preregistered evidence repairs; metric and kernel remain unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -56,11 +65,11 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305.
 The first group retains declared optical imports and no native SNe prediction; the later groups
 locate the open history propagation and narrow one candidate residual lane without selecting it.
-G304 distinguishes only the positive sign in its bounded static branch and leaves magnitude and
-all-frame ownership open.
+G304 distinguishes only the positive sign in its bounded static branch. G305 supplies its standard
+positive global `S3` domain but leaves physical map/field ownership and magnitude open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -88,10 +97,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G304 shows that the active `WORKING` finite causal-ceiling condition distinguishes the positive
-constant sector only in the primary static smooth-center trace-free branch. The next bounded gate is
-whether that finite regular ceiling is an invariant all-frame/time-live completion property rather
-than a static-chart feature, and whether any owned premise fixes the remaining positive magnitude.
-Begin with MAP/PONDER and an exact premise census; do not import identity divergence, observation,
-action, source, mass, fitted scale, physical `X_max`, protected work, or realized-history selection.
+G305 shows that the G304 finite static ceiling extends as a regular observer horizon in the standard
+positive global completion and that its spatial slices natively supply a compact `S3` Hopf domain.
+The next bounded gate is whether the complete metric/screen structure supplies an intrinsic physical
+`S3 -> S2` map or section with lawful frame-gauge descent, rather than merely making such maps
+mathematically available. Begin with MAP/PONDER and an exact premise census; do not import the old
+Hopf action, fixed target, box/boundary, observation, source, mass, fitted scale, physical `X_max`,
+protected work, or realized-history selection.
 <!-- STARTUP_CURRENT_END -->

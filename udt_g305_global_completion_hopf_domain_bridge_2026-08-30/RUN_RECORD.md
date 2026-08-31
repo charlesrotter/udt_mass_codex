@@ -36,7 +36,8 @@ first repair-only external follow-up recorded below.
 Repair-follow-up session `01a05487-f4d0-78b1-b98a-4738680e9342` accepted R1, R2, and the unchanged
 landing but returned `REPAIRABLE_DEFECTS_REMAIN` because R3 added labels rather than mutating actual
 evidence fields. The direct-field completion was preregistered before implementation; final R3-only
-external follow-up remains pending.
+external session `01a0550d-8baf-7ee0-a545-acae33d64bab` reran the three registered checks in an
+ephemeral copy and returned `R3_COMPLETION_ACCEPTED`. All evidence repairs are externally closed.
 
 No GPU, network, observation, fitted parameter, field equation, action, source, matter model,
 physical `X_max`, or protected package was used.

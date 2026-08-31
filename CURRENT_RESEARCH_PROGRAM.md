@@ -2,7 +2,7 @@
 
 Date: 2026-08-30
 
-`LIVE.md` controls status; the 287-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 288-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -82,6 +82,9 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   static causal ceiling, so active `WORKING` G17 conditionally selects the positive sign in this
   branch. It fixes neither magnitude nor physical `X_max`; full WR-L has residual `2r/X` and is not
   an exact member. Founded relation layers remain nonselective; metric and kernel are unchanged.
+- G305 extends the positive branch through a regular observer horizon to compact `S3` slices,
+  removing the old Hopfion box/boundary scaffold. This supplies a mathematical domain, not a
+  physical map/target, gauge charge, dynamics, history, magnitude, mass, or physical `X_max`.
 
 ## Open boundary
 
@@ -102,7 +105,8 @@ current endpoint of that lane, not a metric or kernel failure. G301 narrows one 
 to two classes; G302 does not remove that fork. G303 gives both the same local causal propagation
 and functional data burden; trace-free adds one regional constant. G304 then uses the already-active
 working finite-ceiling condition to distinguish the positive sign in the smooth-center static
-branch. Invariant all-frame/time-live completion, constant magnitude, and physical `X_max` remain open.
+branch. G305 extends that branch through its standard global completion and supplies a compact `S3`
+domain, but physical map/section ownership, constant magnitude, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -110,7 +114,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Test whether G304's finite simple regular outer static ceiling descends to an invariant
-all-frame/time-live completion property, then ask whether any owned premise fixes the surviving
-positive magnitude. Do not import identity divergence, source, action, mass, observation, fitted
-scale, physical `X_max`, protected work, or a realized history.
+Test whether the complete metric/screen structure supplies an intrinsic physical `S3 -> S2` map or
+section with lawful frame-gauge descent on G305's compact positive domain. Do not import the old
+Hopf action, target, box/boundary, source, mass, observation, fitted scale, physical `X_max`,
+protected work, or a realized history.
