@@ -45,7 +45,7 @@
 | G285 complete-separation retyping | external/repairs confirmed | Same `phi`, different complete separation; propagation open |
 | G286 propagation discriminator | external/repairs accepted | Same prior jets, inequivalent futures; no identity propagation |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
-| G288--G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
+| G288/G289/G290/G291/G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
 | G293 architecture funnel | internal/caveats | Homogeneous flow uncalibrated; local flux free; no law |
 | G294 co-presence architecture | internal/caveats | Nonpropagating connectedness; causal update missing |
 | G295 causal-history classification | internal/caveats | Covariant law type; `AU=RA`; formula/history open |
@@ -59,6 +59,7 @@
 | G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
 | G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
 | G305 Hopf domain | external/repairs | Positive completion: compact `S3`; physical map/dynamics/scale open |
+| G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -77,26 +78,19 @@ None selects completion/`X_max`.
 ## Geometry, query, and causality
 
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  G282--G284 do not select neighboring curvature. G285 puts tide in complete separation; G286
-  shows identities do not uniquely propagate the shared prior. G287 separates signs; G288 derives
-  center interlock; G289 is externally accepted.
-  G290 derives supplied screen holonomy/transgression. G292 makes G291's orientable fixed-rank
-  Euler-flux lead exact; same-sector local flux, scale, mass, and history remain free. G293 proves
-  that continuous homogeneous scalar depth is `ks` only on a supplied additive parameter and that
-  topology plus scalar depth still does not propagate the local flux. A signed linear depth may
-  pass through the quiet middle; its physical separation attachment remains open.
-  G294 types “foundational infinite c” as nonpropagating relation, not signal speed; instant global
-  constraint enforcement can signal. Pair graphs, reciprocal groupoids, and physical foliations
-  remain distinct; W6 adopts only the non-signalling type. G295 makes constraint/update a sliced
-  view of one possible covariant condition; `AU=RA` controls bounded linear propagation but selects
-  no formula or history. G296 finds the complete metric minimal and curvature order the first local
-  natural nonidentity home, not a law; its Brinkmann witness defeats only tested scalar channels.
+  G282--G293 separate tide, sign, center jets, topology, local flux, and history without selecting
+  their values. G294 types “foundational infinite c” as nonpropagating relation, not signal speed;
+  instant enforcement can signal. W6 adopts only the non-signalling type. G295's `AU=RA` controls
+  bounded propagation but selects no formula or history. G296 finds the complete metric minimal and
+  curvature the first local natural nonidentity order, not a law.
   G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
   leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
   G302 selects neither. G303 gives each fixed sector the same local causal principal system; the
   broader class adds one regional constant. `WORKING` G17 and G304 distinguish only the positive
-  static sign. G305 adds compact `S3` slices: a Hopf domain, not physical map/target, dynamics,
-  history, magnitude, mass, or `X_max`; W1 stays evaluative.
+  static sign. G305 adds compact `S3` slices. G306 derives two metric-intrinsic Hopf-congruence
+  families and a normalized invariant for a supplied member, while isotropy selects no physical
+  member; population, target, dynamics, history, magnitude, mass, and `X_max` remain open. W1
+  stays evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -109,10 +103,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G305 leave law selection and realized history open. No native SNe
+R2--R5 select no scale or `X_max`; G277--G306 leave law selection and realized history open. No native SNe
 prediction or value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 288-row authority; conflicts stop. Run
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority; conflicts stop. Run
 `python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.

@@ -1,0 +1,2251 @@
+Script started on 2026-08-30 22:41:32-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a055b1-8878-7780-989c-c1f6b5186a8c
+--------
+user
+The sealed repair-only intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake; verify only preregistered G306 repairs R1 through R4 and whether the bounded scientific landing is unchanged. Do not edit evidence files or continue the research. Internet access, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Run registered checks only in a writable copy under /work. Do not select or propose a field equation, action, source, matter model, physical field population, scale, fit, mass law, history, or physical X_max.\n\n# G306 repair-only external follow-up request
+
+Review only the sealed intake. Verify only repairs R1--R4 preregistered in
+`REPAIR_PREREGISTRATION.md` and whether the bounded G306 scientific landing is unchanged. Do not
+edit evidence files or continue the research.
+
+## Required checks
+
+1. Confirm that `COMMANDS.md` explicitly separates the four self-contained sealed commands from
+   the two repository-only regression gates, and that every sealed command runs under `python3 -S`
+   from a writable ephemeral copy.
+2. Inspect `verify_package.py`. Confirm that each source resolves uniquely in repository-root or
+   sealed `frozen_sources/` layout, that all 15 hashes pass, and that missing and ambiguous layouts
+   are rejected by `verify_repair_portability.py`.
+3. Inspect and run the repaired `derive_intrinsic_hopf_section.py`. Confirm that it has no SymPy or
+   other external dependency, performs exact integer/rational/polynomial checks, retains 172
+   production assertions, and produces byte-identical `DERIVATION_RESULT.json` and
+   `CANDIDATE_CENSUS.tsv`.
+4. Run the independent verifier, hostile controls, package verifier, and portability verifier.
+   Confirm 22,237 independent checks, 17 hostile direct mutations, 15 source hashes, and four
+   passing sealed commands.
+5. Confirm that no metric, kernel, scientific question, family census, ownership grade, or bounded
+   landing changed and that no physical member, population, target, action, history, magnitude,
+   mass, scale, or physical `X_max` was added.
+
+The repository-wide premise verifier and pytest suite are recorded pre-seal repository gates. They
+are not part of the bounded intake and must not be reported as failed sealed commands.
+
+## Allowed landings
+
+- `G306_REPAIRS_ACCEPTED`
+- `G306_REPAIRABLE_DEFECTS_REMAIN`
+- `G306_SCIENTIFIC_LANDING_CHANGED`
+
+Return exact defects with file and line references. Do not select or propose a field equation,
+action, source, matter model, physical field population, scale, fit, mass law, history, or physical
+`X_max`.
+codex
+I’m treating this as a sealed repair-only verification: inspect `/intake` only, copy the bounded material to `/work` for any execution, and verify only preregistered repairs `R1` through `R4` plus whether the bounded landing changed.
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc pwd in /return
+ succeeded in 0ms:
+/return
+
+codex
+`rg` is not available in this environment, so I’m falling back to `find`/`grep` equivalents and enumerating the sealed intake before reading the preregistration and verifier entrypoints.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/frozen_sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/frozen_sources/native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md
+/intake/frozen_sources/native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv
+/intake/frozen_sources/udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/COMPATIBILITY_LEDGER.tsv
+/intake/frozen_sources/udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/EXACT_DERIVATION.md
+/intake/frozen_sources/udt_g292_orientable_screen_differential_character_descent_2026-08-28/EXACT_DERIVATION.md
+/intake/frozen_sources/udt_g292_orientable_screen_differential_character_descent_2026-08-28/STATUS_LEDGER.tsv
+/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/STATUS_LEDGER.tsv
+/intake/frozen_sources/udt_g304_global_cell_constant_sector_discriminator_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/EXACT_DERIVATION.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/HOPF_REQUIREMENT_LEDGER.tsv
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/PREMISE_LEDGER.tsv
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CATCH_PROOF_RESULT.json
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMPLETENESS_MAP.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EVIDENCE_GATES.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXTERNAL_REVIEW_REQUEST.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXTERNAL_REVIEW_RESPONSE.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/INDEPENDENT_VERIFICATION.json
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/LAY_REPORT.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/MAP.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PACKAGE_VERIFICATION_RESULT.json
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PORTABILITY_VERIFICATION_RESULT.json
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREMISE_LEDGER.tsv
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREREGISTRATION.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREREGISTRATION_ANCESTRY.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_ANCESTRY.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_FOLLOWUP_REQUEST.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_PREREGISTRATION.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/RUN_RECORD.md
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/SOURCE_MANIFEST.tsv
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/SOURCE_SCOPE.tsv
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_repair_followup_intake.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_review_intake.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_source_manifest.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/run_catch_proofs.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_intrinsic_hopf_section_independent.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type d | sort' in /return
+ succeeded in 0ms:
+/intake
+/intake/frozen_sources
+/intake/frozen_sources/native_hopfion_topology_audit_2026-07-19
+/intake/frozen_sources/udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28
+/intake/frozen_sources/udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28
+/intake/frozen_sources/udt_g292_orientable_screen_differential_character_descent_2026-08-28
+/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29
+/intake/frozen_sources/udt_g304_global_cell_constant_sector_discriminator_2026-08-30
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30
+
+codex
+I’ve identified the sealed bundle and frozen source tree. Next I’m reading the preregistered repair scope, command registry, and verifier scripts to map the exact bounded checks before executing anything in `/work`.
+  → Read repair preregistration, command registry, and verifier sources in /intake to map R1-R4 and bounded acceptance criteria
+  • Create a writable copy under /work and run only the registered sealed commands plus targeted verifier invocations
+  • Compare results against sealed artifacts and assess whether the bounded scientific landing changed
+  • Report defects, if any, with precise file and line references and one allowed landing
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_PREREGISTRATION.md" in /return
+ succeeded in 0ms:
+# G306 external-review repair preregistration
+
+Date: 2026-08-30
+Status: `PREREGISTERED_BEFORE_REPAIRS`
+Trigger: fresh external review verdict `REPAIRABLE_DEFECTS`
+
+## Frozen repair scope
+
+R1. Separate repository-only gates from the self-contained sealed replay. `COMMANDS.md` must state
+which commands require the repository environment and which commands are required inside a sealed
+intake. The fresh follow-up intake must contain every file used by every sealed command. It must not
+claim that the repository-wide premise verifier or full pytest suite can be rerun from the bounded
+intake. Their already recorded counts remain repository regression evidence only and will be rerun
+in the repository before the follow-up intake is built.
+
+R2. Make `verify_package.py` resolve every `SOURCE_MANIFEST.tsv` row in exactly one of two allowed
+layouts: repository root or sealed `frozen_sources/`. It must reject missing and ambiguous matches,
+and it must verify the same 15 registered source hashes in both layouts.
+
+R3. Remove the unsealed SymPy dependency from the production derivation. Replace it with an exact,
+standard-library-only implementation of the same preregistered algebra and geometry. The repaired
+production replay must retain the exact landing, 172 production assertions, candidate census, and
+all registered output fields. The independent verifier must remain implementation-distinct and
+must not import production code.
+
+R4. Rerun production, independent, hostile, package, premise-registry, and full repository gates;
+build a fresh repair-only sealed intake; and prove that all sealed commands run from a writable
+ephemeral copy using `python3 -S` and only sealed dependencies.
+
+## Frozen scientific landing
+
+These are evidence-portability repairs only. They may not alter the bounded scientific result:
+
+`ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN`
+
+No repair may select a field/query population, individual Hopf member, fixed physical target,
+orientation, dynamics, action, history, magnitude, mass, scale, or physical `X_max`; modify the
+metric or reciprocal kernel; or export the theorem outside the positive G305 standard round `S3`
+completion.
+
+## Acceptance contract
+
+1. The self-contained sealed command list contains no unavailable repository asset or dependency.
+2. The package verifier passes unchanged in the repository layout and in a copied sealed layout,
+   while rejecting missing and ambiguous source resolutions.
+3. The repaired production script runs under `python3 -S`, reports exactly 172 assertions, and
+   reproduces the frozen landing and output fields without SymPy or another external dependency.
+4. The independent standard-library replay remains separate, retains 22,237 checks, and reproduces
+   both chiralities and the normalized Hopf result within its registered tolerance.
+5. All 17 hostile direct mutations remain caught; the premise registry and full repository suite
+   pass with the previously registered single expected xfail.
+6. A fresh external repair-only reviewer verifies R1--R4 and confirms that the scientific landing
+   did not change.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md" in /return
+ succeeded in 0ms:
+# G306 command environments
+
+## Self-contained package and sealed-intake replay
+
+From the repository root or a writable copy of the sealed intake root:
+
+```bash
+python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py
+python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_intrinsic_hopf_section_independent.py
+python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/run_catch_proofs.py
+python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py
+```
+
+These four commands use only Python's standard library and files included in the sealed intake.
+They are the complete registered sealed replay.
+
+The repair meta-certificate copies the package and frozen sources into a fresh temporary layout,
+runs those four commands, compares production outputs byte-for-byte, and tests missing/ambiguous
+source rejection:
+
+```bash
+python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py
+```
+
+## Repository-only gates
+
+The following commands test the surrounding repository and are intentionally not claims about a
+bounded intake's contents:
+
+```bash
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+```
+
+They must pass in the repository before a follow-up intake is built. Their exact counts are recorded
+in `PACKAGE_VERIFICATION_RESULT.json` and `EVIDENCE_GATES.md`; they are regression evidence, not
+self-contained sealed replay commands.
+
+The repository-only follow-up intake builder is:
+
+```bash
+python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_repair_followup_intake.py
+```
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_FOLLOWUP_REQUEST.md" in /return
+ succeeded in 0ms:
+# G306 repair-only external follow-up request
+
+Review only the sealed intake. Verify only repairs R1--R4 preregistered in
+`REPAIR_PREREGISTRATION.md` and whether the bounded G306 scientific landing is unchanged. Do not
+edit evidence files or continue the research.
+
+## Required checks
+
+1. Confirm that `COMMANDS.md` explicitly separates the four self-contained sealed commands from
+   the two repository-only regression gates, and that every sealed command runs under `python3 -S`
+   from a writable ephemeral copy.
+2. Inspect `verify_package.py`. Confirm that each source resolves uniquely in repository-root or
+   sealed `frozen_sources/` layout, that all 15 hashes pass, and that missing and ambiguous layouts
+   are rejected by `verify_repair_portability.py`.
+3. Inspect and run the repaired `derive_intrinsic_hopf_section.py`. Confirm that it has no SymPy or
+   other external dependency, performs exact integer/rational/polynomial checks, retains 172
+   production assertions, and produces byte-identical `DERIVATION_RESULT.json` and
+   `CANDIDATE_CENSUS.tsv`.
+4. Run the independent verifier, hostile controls, package verifier, and portability verifier.
+   Confirm 22,237 independent checks, 17 hostile direct mutations, 15 source hashes, and four
+   passing sealed commands.
+5. Confirm that no metric, kernel, scientific question, family census, ownership grade, or bounded
+   landing changed and that no physical member, population, target, action, history, magnitude,
+   mass, scale, or physical `X_max` was added.
+
+The repository-wide premise verifier and pytest suite are recorded pre-seal repository gates. They
+are not part of the bounded intake and must not be reported as failed sealed commands.
+
+## Allowed landings
+
+- `G306_REPAIRS_ACCEPTED`
+- `G306_REPAIRABLE_DEFECTS_REMAIN`
+- `G306_SCIENTIFIC_LANDING_CHANGED`
+
+Return exact defects with file and line references. Do not select or propose a field equation,
+action, source, matter model, physical field population, scale, fit, mass law, history, or physical
+`X_max`.
+
+codex
+The preregistration is narrow and explicit: four sealed replay commands, one meta portability check, and repository gates recorded only as pre-seal evidence. I’m now checking the repair implementation itself, with line-numbered reads for the files that can produce defects.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py | sed -n '1,260p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""No-write integrity and semantic verifier for the G306 package."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10
+    11
+    12	HERE = Path(__file__).resolve().parent
+    13	ROOT = HERE.parent
+    14	LANDING = (
+    15	    "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES"
+    16	    "__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER"
+    17	    "__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY"
+    18	    "__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT"
+    19	    "__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN"
+    20	)
+    21
+    22
+    23	def sha256(path: Path) -> str:
+    24	    h = hashlib.sha256()
+    25	    with path.open("rb") as fh:
+    26	        for chunk in iter(lambda: fh.read(1024 * 1024), b""):
+    27	            h.update(chunk)
+    28	    return h.hexdigest()
+    29
+    30
+    31	def resolve_source(rel: Path) -> Path:
+    32	    """Resolve one source in either repository or sealed-intake layout."""
+    33	    candidates = (ROOT / rel, ROOT / "frozen_sources" / rel)
+    34	    matches = [path for path in candidates if path.is_file()]
+    35	    assert len(matches) == 1, (
+    36	        f"source resolution must be unique for {rel}: "
+    37	        f"found {[str(path) for path in matches]}"
+    38	    )
+    39	    return matches[0]
+    40
+    41
+    42	def main() -> None:
+    43	    required = [
+    44	        "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    45	        "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "SOURCE_SCOPE.tsv",
+    46	        "SOURCE_MANIFEST.tsv", "derive_intrinsic_hopf_section.py",
+    47	        "verify_intrinsic_hopf_section_independent.py", "run_catch_proofs.py",
+    48	        "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+    49	        "CATCH_PROOF_RESULT.json", "CANDIDATE_CENSUS.tsv", "STATUS_LEDGER.tsv",
+    50	        "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
+    51	        "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md",
+    52	        "EXTERNAL_REVIEW_RESPONSE.md", "REPAIR_PREREGISTRATION.md",
+    53	        "REPAIR_ANCESTRY.md",
+    54	        "REPAIR_FOLLOWUP_REQUEST.md", "verify_repair_portability.py",
+    55	        "PORTABILITY_VERIFICATION_RESULT.json", "build_repair_followup_intake.py",
+    56	    ]
+    57	    for name in required:
+    58	        assert (HERE / name).is_file(), name
+    59
+    60	    derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    61	    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    62	    catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    63	    portability = json.loads(
+    64	        (HERE / "PORTABILITY_VERIFICATION_RESULT.json").read_text(encoding="utf-8")
+    65	    )
+    66	    assert derivation["landing"] == LANDING
+    67	    assert derivation["candidate_landing"] == "A"
+    68	    assert derivation["production_assertions"] == 172
+    69	    assert derivation["isotropy_fixed_tangent_dimension"] == 0
+    70	    assert derivation["oriented_chiral_family_count"] == 2
+    71	    assert derivation["normalized_helicity_by_chirality"] == [-1, 1]
+    72	    assert derivation["individual_member_selected"] is False
+    73	    assert derivation["field_or_query_population_selected"] is False
+    74	    assert derivation["metric_and_kernel_changed"] is False
+    75	    assert independent["status"] == "PASS"
+    76	    assert independent["independent_checks"] == 22237
+    77	    assert independent["source_landing"] == LANDING
+    78	    assert catches["status"] == "PASS"
+    79	    assert catches["hostile_cases"] == 17
+    80	    assert catches["direct_computed_or_required_premise_mutations"] == 17
+    81	    assert portability["status"] == "PASS"
+    82	    assert portability["sealed_command_count"] == 4
+    83	    assert portability["source_hashes"] == 15
+    84	    assert portability["missing_source_rejected"] is True
+    85	    assert portability["ambiguous_source_rejected"] is True
+    86	    assert portability["production_derivation_byte_identical"] is True
+    87
+    88	    for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
+    89	        assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
+    90
+    91	    source_rows = 0
+    92	    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as fh:
+    93	        for row in csv.DictReader(fh, delimiter="\t"):
+    94	            rel = Path(row["path"])
+    95	            assert not any(token in str(rel) for token in (
+    96	                "8_25",
+    97	                "udt_native_onshell_timelive_reset_owner_audit",
+    98	                "udt_pair_regime_flow_reciprocal_orchestra_amplification",
+    99	                "udt_sne_xmax_G88_am_radial_compatibility_atlas",
+   100	                "udt_kernel_plane_global_curvature_holonomy_atlas",
+   101	            ))
+   102	            assert sha256(resolve_source(rel)) == row["sha256"], rel
+   103	            source_rows += 1
+   104	    assert source_rows == 15
+   105	    print(f"PASS: G306 package; {len(required)} required files; {source_rows} source hashes")
+   106
+   107
+   108	if __name__ == "__main__":
+   109	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py | sed -n '1,320p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exercise the G306 standard-library replay in both allowed source layouts."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	import shutil
+    10	import subprocess
+    11	import sys
+    12	import tempfile
+    13	from pathlib import Path
+    14
+    15
+    16	HERE = Path(__file__).resolve().parent
+    17	ROOT = HERE.parent
+    18	OUT = HERE / "PORTABILITY_VERIFICATION_RESULT.json"
+    19	PACKAGE = HERE.name
+    20	COMMANDS = (
+    21	    "derive_intrinsic_hopf_section.py",
+    22	    "verify_intrinsic_hopf_section_independent.py",
+    23	    "run_catch_proofs.py",
+    24	    "verify_package.py",
+    25	)
+    26
+    27
+    28	def digest(path: Path) -> str:
+    29	    value = hashlib.sha256()
+    30	    with path.open("rb") as handle:
+    31	        for block in iter(lambda: handle.read(1024 * 1024), b""):
+    32	            value.update(block)
+    33	    return value.hexdigest()
+    34
+    35
+    36	def current_source(rel: Path) -> Path:
+    37	    matches = [
+    38	        path for path in (ROOT / rel, ROOT / "frozen_sources" / rel)
+    39	        if path.is_file()
+    40	    ]
+    41	    assert len(matches) == 1, (rel, matches)
+    42	    return matches[0]
+    43
+    44
+    45	def run(command, cwd: Path, expect_success: bool = True):
+    46	    completed = subprocess.run(
+    47	        command,
+    48	        cwd=cwd,
+    49	        check=False,
+    50	        capture_output=True,
+    51	        text=True,
+    52	    )
+    53	    if expect_success:
+    54	        assert completed.returncode == 0, (command, completed.stdout, completed.stderr)
+    55	    else:
+    56	        assert completed.returncode != 0, command
+    57	    return completed
+    58
+    59
+    60	def main() -> None:
+    61	    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+    62	        source_rows = list(csv.DictReader(handle, delimiter="\t"))
+    63	    assert len(source_rows) == 15
+    64
+    65	    expected_derivation = digest(HERE / "DERIVATION_RESULT.json")
+    66	    expected_census = digest(HERE / "CANDIDATE_CENSUS.tsv")
+    67	    records = []
+    68
+    69	    with tempfile.TemporaryDirectory(prefix="g306_portability_") as temporary:
+    70	        sealed_root = Path(temporary)
+    71	        sealed_package = sealed_root / PACKAGE
+    72	        shutil.copytree(HERE, sealed_package)
+    73	        for row in source_rows:
+    74	            rel = Path(row["path"])
+    75	            source = current_source(rel)
+    76	            assert digest(source) == row["sha256"], rel
+    77	            destination = sealed_root / "frozen_sources" / rel
+    78	            destination.parent.mkdir(parents=True, exist_ok=True)
+    79	            shutil.copy2(source, destination)
+    80
+    81	        for script in COMMANDS:
+    82	            completed = run([sys.executable, "-S", str(sealed_package / script)], sealed_root)
+    83	            records.append({"script": script, "returncode": completed.returncode})
+    84
+    85	        assert digest(sealed_package / "DERIVATION_RESULT.json") == expected_derivation
+    86	        assert digest(sealed_package / "CANDIDATE_CENSUS.tsv") == expected_census
+    87
+    88	        # Missing source must fail package verification.
+    89	        first_rel = Path(source_rows[0]["path"])
+    90	        frozen_first = sealed_root / "frozen_sources" / first_rel
+    91	        saved = frozen_first.read_bytes()
+    92	        frozen_first.unlink()
+    93	        missing = run(
+    94	            [sys.executable, "-S", str(sealed_package / "verify_package.py")],
+    95	            sealed_root,
+    96	            expect_success=False,
+    97	        )
+    98	        assert "source resolution must be unique" in missing.stderr
+    99	        frozen_first.parent.mkdir(parents=True, exist_ok=True)
+   100	        frozen_first.write_bytes(saved)
+   101
+   102	        # The same source in both allowed layouts must fail as ambiguous.
+   103	        direct_first = sealed_root / first_rel
+   104	        direct_first.parent.mkdir(parents=True, exist_ok=True)
+   105	        direct_first.write_bytes(saved)
+   106	        ambiguous = run(
+   107	            [sys.executable, "-S", str(sealed_package / "verify_package.py")],
+   108	            sealed_root,
+   109	            expect_success=False,
+   110	        )
+   111	        assert "source resolution must be unique" in ambiguous.stderr
+   112
+   113	    result = {
+   114	        "status": "PASS",
+   115	        "implementation": "standard_library_subprocess_and_fresh_temp_layout",
+   116	        "sealed_commands": records,
+   117	        "sealed_command_count": len(records),
+   118	        "source_hashes": len(source_rows),
+   119	        "missing_source_rejected": True,
+   120	        "ambiguous_source_rejected": True,
+   121	        "production_derivation_byte_identical": True,
+   122	        "candidate_census_byte_identical": True,
+   123	    }
+   124	    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   125	    print(json.dumps(result, indent=2, sort_keys=True))
+   126
+   127
+   128	if __name__ == "__main__":
+   129	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py | sed -n '1,320p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact dependency-free G306 production derivation.
+     3
+     4	Classify what the positive G305 round S3 metric owns before any action,
+     5	matter field, observation, scale value, or physical history is supplied.
+     6
+     7	Only the Python standard library is used.  Integer matrix algebra proves the
+     8	quaternionic and geometric identities; a tiny exact polynomial ring checks
+     9	the large-frame ``Ad_q`` witness modulo the unit-quaternion relation.
+    10	"""
+    11
+    12	from __future__ import annotations
+    13
+    14	import csv
+    15	import json
+    16	from fractions import Fraction
+    17	from pathlib import Path
+    18
+    19
+    20	HERE = Path(__file__).resolve().parent
+    21	OUT = HERE / "DERIVATION_RESULT.json"
+    22	CENSUS = HERE / "CANDIDATE_CENSUS.tsv"
+    23
+    24
+    25	def transpose(a):
+    26	    return tuple(tuple(a[i][j] for i in range(len(a))) for j in range(len(a[0])))
+    27
+    28
+    29	def mat_add(a, b):
+    30	    return tuple(tuple(a[i][j] + b[i][j] for j in range(len(a[0]))) for i in range(len(a)))
+    31
+    32
+    33	def mat_neg(a):
+    34	    return tuple(tuple(-value for value in row) for row in a)
+    35
+    36
+    37	def mat_sub(a, b):
+    38	    return mat_add(a, mat_neg(b))
+    39
+    40
+    41	def mat_mul(a, b):
+    42	    return tuple(
+    43	        tuple(sum(a[i][k] * b[k][j] for k in range(len(b))) for j in range(len(b[0])))
+    44	        for i in range(len(a))
+    45	    )
+    46
+    47
+    48	def mat_vec(a, x):
+    49	    return tuple(sum(a[i][k] * x[k] for k in range(len(x))) for i in range(len(a)))
+    50
+    51
+    52	def vec_add(x, y):
+    53	    return tuple(a + b for a, b in zip(x, y))
+    54
+    55
+    56	def vec_scale(c, x):
+    57	    return tuple(c * value for value in x)
+    58
+    59
+    60	def dot(x, y):
+    61	    return sum(a * b for a, b in zip(x, y))
+    62
+    63
+    64	def eye(n):
+    65	    return tuple(tuple(1 if i == j else 0 for j in range(n)) for i in range(n))
+    66
+    67
+    68	def zeros(rows, cols=None):
+    69	    cols = rows if cols is None else cols
+    70	    return tuple(tuple(0 for _ in range(cols)) for _ in range(rows))
+    71
+    72
+    73	class Poly:
+    74	    """Sparse exact polynomial in (w, x, y, z) with rational coefficients."""
+    75
+    76	    __slots__ = ("terms",)
+    77
+    78	    def __init__(self, terms=None):
+    79	        self.terms = {
+    80	            tuple(power): Fraction(coeff)
+    81	            for power, coeff in (terms or {}).items()
+    82	            if coeff
+    83	        }
+    84
+    85	    @classmethod
+    86	    def constant(cls, value):
+    87	        return cls({(0, 0, 0, 0): Fraction(value)}) if value else cls()
+    88
+    89	    @classmethod
+    90	    def variable(cls, index):
+    91	        power = [0, 0, 0, 0]
+    92	        power[index] = 1
+    93	        return cls({tuple(power): Fraction(1)})
+    94
+    95	    @staticmethod
+    96	    def coerce(value):
+    97	        return value if isinstance(value, Poly) else Poly.constant(value)
+    98
+    99	    def __add__(self, other):
+   100	        result = dict(self.terms)
+   101	        for power, coeff in self.coerce(other).terms.items():
+   102	            result[power] = result.get(power, Fraction(0)) + coeff
+   103	            if not result[power]:
+   104	                del result[power]
+   105	        return Poly(result)
+   106
+   107	    __radd__ = __add__
+   108
+   109	    def __neg__(self):
+   110	        return Poly({power: -coeff for power, coeff in self.terms.items()})
+   111
+   112	    def __sub__(self, other):
+   113	        return self + (-self.coerce(other))
+   114
+   115	    def __rsub__(self, other):
+   116	        return self.coerce(other) - self
+   117
+   118	    def __mul__(self, other):
+   119	        other = self.coerce(other)
+   120	        result = {}
+   121	        for left_power, left_coeff in self.terms.items():
+   122	            for right_power, right_coeff in other.terms.items():
+   123	                power = tuple(a + b for a, b in zip(left_power, right_power))
+   124	                result[power] = result.get(power, Fraction(0)) + left_coeff * right_coeff
+   125	        return Poly(result)
+   126
+   127	    __rmul__ = __mul__
+   128
+   129	    def __eq__(self, other):
+   130	        return self.terms == self.coerce(other).terms
+   131
+   132	    def reduce_unit_quaternion(self):
+   133	        """Reduce powers of w^2 using w^2 = 1 - x^2 - y^2 - z^2."""
+   134	        pending = dict(self.terms)
+   135	        reduced = {}
+   136	        while pending:
+   137	            power, coeff = pending.popitem()
+   138	            if power[0] < 2:
+   139	                reduced[power] = reduced.get(power, Fraction(0)) + coeff
+   140	                continue
+   141	            base = (power[0] - 2, power[1], power[2], power[3])
+   142	            replacements = [
+   143	                (base, coeff),
+   144	                ((base[0], base[1] + 2, base[2], base[3]), -coeff),
+   145	                ((base[0], base[1], base[2] + 2, base[3]), -coeff),
+   146	                ((base[0], base[1], base[2], base[3] + 2), -coeff),
+   147	            ]
+   148	            for new_power, new_coeff in replacements:
+   149	                pending[new_power] = pending.get(new_power, Fraction(0)) + new_coeff
+   150	                if not pending[new_power]:
+   151	                    del pending[new_power]
+   152	        return Poly(reduced)
+   153
+   154	    def evaluate(self, values):
+   155	        total = Fraction(0)
+   156	        for power, coeff in self.terms.items():
+   157	            term = coeff
+   158	            for value, exponent in zip(values, power):
+   159	                term *= Fraction(value) ** exponent
+   160	            total += term
+   161	        return total
+   162
+   163
+   164	def left_quaternion_matrices():
+   165	    return (
+   166	        ((0, -1, 0, 0), (1, 0, 0, 0), (0, 0, 0, -1), (0, 0, 1, 0)),
+   167	        ((0, 0, -1, 0), (0, 0, 0, 1), (1, 0, 0, 0), (0, -1, 0, 0)),
+   168	        ((0, 0, 0, -1), (0, 0, -1, 0), (0, 1, 0, 0), (1, 0, 0, 0)),
+   169	    )
+   170
+   171
+   172	def right_quaternion_matrices():
+   173	    return (
+   174	        ((0, -1, 0, 0), (1, 0, 0, 0), (0, 0, 0, 1), (0, 0, -1, 0)),
+   175	        ((0, 0, -1, 0), (0, 0, 0, -1), (1, 0, 0, 0), (0, 1, 0, 0)),
+   176	        ((0, 0, 0, -1), (0, 0, 1, 0), (0, -1, 0, 0), (1, 0, 0, 0)),
+   177	    )
+   178
+   179
+   180	def assert_quaternion_family(basis):
+   181	    identity = eye(4)
+   182	    checks = 0
+   183	    for i, ji in enumerate(basis):
+   184	        assert transpose(ji) == mat_neg(ji)
+   185	        assert mat_mul(ji, ji) == mat_neg(identity)
+   186	        checks += 2
+   187	        for j, jj in enumerate(basis):
+   188	            anti = mat_add(mat_mul(ji, jj), mat_mul(jj, ji))
+   189	            expected = tuple(tuple(-2 * value for value in row) for row in identity) if i == j else zeros(4)
+   190	            assert anti == expected
+   191	            checks += 1
+   192	    return checks
+   193
+   194
+   195	def matrix_rank(rows):
+   196	    matrix = [[Fraction(value) for value in row] for row in rows]
+   197	    rank = 0
+   198	    for column in range(len(matrix[0])):
+   199	        pivot = next((row for row in range(rank, len(matrix)) if matrix[row][column]), None)
+   200	        if pivot is None:
+   201	            continue
+   202	        matrix[rank], matrix[pivot] = matrix[pivot], matrix[rank]
+   203	        pivot_value = matrix[rank][column]
+   204	        matrix[rank] = [value / pivot_value for value in matrix[rank]]
+   205	        for row in range(len(matrix)):
+   206	            if row != rank and matrix[row][column]:
+   207	                factor = matrix[row][column]
+   208	                matrix[row] = [a - factor * b for a, b in zip(matrix[row], matrix[rank])]
+   209	        rank += 1
+   210	    return rank
+   211
+   212
+   213	def main() -> None:
+   214	    assertions = 0
+   215	    identity4 = eye(4)
+   216	    left = left_quaternion_matrices()
+   217	    right = right_quaternion_matrices()
+   218	    assertions += assert_quaternion_family(left)
+   219	    assertions += assert_quaternion_family(right)
+   220	    for jl in left:
+   221	        for jr in right:
+   222	            assert mat_mul(jl, jr) == mat_mul(jr, jl)
+   223	            assertions += 1
+   224
+   225	    # The already checked square and anticommutator identities give exactly
+   226	    # J(u)^2=-(u.u)I and J(u)^T=-J(u) for every real coefficient triple.
+   227	    family_checks = {}
+   228	    for name, basis in (("left", left), ("right", right)):
+   229	        assert all(transpose(j) == mat_neg(j) for j in basis)
+   230	        assert all(mat_mul(j, j) == mat_neg(identity4) for j in basis)
+   231	        assert all(
+   232	            mat_add(mat_mul(basis[i], basis[j]), mat_mul(basis[j], basis[i])) == zeros(4)
+   233	            for i in range(3) for j in range(i + 1, 3)
+   234	        )
+   235	        assertions += 32  # 16 square and 16 skew component identities.
+   236	        family_checks[name] = {
+   237	            "square": "J(u)^2=-(u.u)I4",
+   238	            "skew": "J(u)^T=-J(u)",
+   239	            "unit_parameter_space": "S2",
+   240	        }
+   241
+   242	    j0 = left[0]
+   243	    # Generic tangent and unit lemmas follow exactly from skewness and J^2=-I.
+   244	    assert transpose(j0) == mat_neg(j0)
+   245	    assert mat_mul(j0, j0) == mat_neg(identity4)
+   246	    assertions += 2
+   247
+   248	    # At unit radius the tangential sphere derivative is
+   249	    # nabla_Y V = JY + x(V.Y)x.  Isometry rescales this by 1/a at radius a.
+   250	    p = (1, 0, 0, 0)
+   251	    tangent_basis = ((0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1))
+   252	    vp = mat_vec(j0, p)
+   253
+   254	    def covariant_derivative(y):
+   255	        return vec_add(mat_vec(j0, y), vec_scale(dot(vp, y), p))
+   256
+   257	    geodesic = vec_add(mat_vec(j0, vp), vec_scale(dot(vp, vp), p))
+   258	    assert geodesic == (0, 0, 0, 0)
+   259	    assertions += 4
+   260
+   261	    # The bilinear Killing core vanishes because J is skew.
+   262	    for y in tangent_basis:
+   263	        for z in tangent_basis:
+   264	            assert dot(mat_vec(j0, y), z) + dot(y, mat_vec(j0, z)) == 0
+   265	    killing_skew_core = 0
+   266	    assertions += 1
+   267
+   268	    screen_rotation_checks = 0
+   269	    for y in tangent_basis:
+   270	        ny = covariant_derivative(y)
+   271	        for z in tangent_basis:
+   272	            nz = covariant_derivative(z)
+   273	            assert dot(ny, z) + dot(y, nz) == 0
+   274	            assertions += 1
+   275	        if dot(vp, y) == 0:
+   276	            assert dot(p, ny) == 0
+   277	            assert dot(vp, ny) == 0
+   278	            assert dot(ny, ny) == dot(y, y)
+   279	            screen_rotation_checks += 3
+   280	            assertions += 3
+   281
+   282	    # exp(sJ/a)x = cos(s/a)x + sin(s/a)Jx.  J^2=-I proves the norm identity;
+   283	    # the exact endpoint coefficients at s=2*pi*a are (1,0).
+   284	    assert mat_mul(j0, j0) == mat_neg(identity4)
+   285	    assert transpose(j0) == mat_neg(j0)
+   286	    assert dot(p, vp) == 0
+   287	    assert dot(vp, vp) == dot(p, p)
+   288	    assert vec_add(vec_scale(1, p), vec_scale(0, vp)) == p
+   289	    assertions += 5
+   290
+   291	    # Two point-isotropy half turns leave only the zero tangent vector fixed.
+   292	    fixed_system = (
+   293	        (0, 0, 0), (-2, 0, 0), (0, -2, 0), (0, 0, 0),
+   294	        (0, 0, 0), (-2, 0, 0), (0, 0, 0), (0, 0, -2),
+   295	    )
+   296	    isotropy_fixed_dimension = 3 - matrix_rank(fixed_system)
+   297	    assert isotropy_fixed_dimension == 0
+   298	    assertions += len(fixed_system) + 1
+   299
+   300	    # Ricci=2*kappa*I has one eigenvalue with multiplicity three.
+   301	    ricci_coefficient = tuple(tuple(2 if i == j else 0 for j in range(3)) for i in range(3))
+   302	    assert [ricci_coefficient[i][i] for i in range(3)] == [2, 2, 2]
+   303	    assertions += 1
+   304
+   305	    # Basepoint-fixed R(q)=Ad_q.  Exact polynomial reduction by |q|^2=1
+   306	    # verifies both its first-column Hopf map and SO(3) orthogonality.
+   307	    w, qx, qy, qz = (Poly.variable(i) for i in range(4))
+   308	    rotation = (
+   309	        (1 - 2 * (qy * qy + qz * qz), 2 * (qx * qy - w * qz), 2 * (qx * qz + w * qy)),
+   310	        (2 * (qx * qy + w * qz), 1 - 2 * (qx * qx + qz * qz), 2 * (qy * qz - w * qx)),
+   311	        (2 * (qx * qz - w * qy), 2 * (qy * qz + w * qx), 1 - 2 * (qx * qx + qy * qy)),
+   312	    )
+   313	    hopf = (
+   314	        w * w + qx * qx - qy * qy - qz * qz,
+   315	        2 * (qx * qy + w * qz),
+   316	        2 * (qx * qz - w * qy),
+   317	    )
+   318	    first_column = tuple(row[0] for row in rotation)
+   319	    assert all((a - b).reduce_unit_quaternion() == 0 for a, b in zip(first_column, hopf))
+   320	    orthogonal_residual = mat_sub(mat_mul(transpose(rotation), rotation), eye(3))
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py | sed -n '321,520p'" in /return
+ succeeded in 0ms:
+   321	    assert all(value.reduce_unit_quaternion() == 0 for row in orthogonal_residual for value in row)
+   322	    assert all(
+   323	        rotation[i][j].evaluate((1, 0, 0, 0)) == (1 if i == j else 0)
+   324	        for i in range(3) for j in range(3)
+   325	    )
+   326	    assertions += 19
+   327
+   328	    # The standard coordinate integral is (-1)*(2*pi)*(2*pi); the normalized
+   329	    # raw component charge and the supplied-field normalized helicity are -1.
+   330	    eta_integral = -1
+   331	    component_hopf = eta_integral
+   332	    assert component_hopf == -1
+   333	    assert component_hopf * 4 == -4
+   334	    assertions += 2
+   335	    normalized_helicity = component_hopf
+   336	    assert normalized_helicity == -1
+   337	    assert isinstance(normalized_helicity, int)
+   338	    assertions += 2
+   339	    opposite_helicity = -normalized_helicity
+   340	    assert opposite_helicity == 1
+   341	    assertions += 1
+   342
+   343	    # Left and right multiplication have opposite intrinsic twist for the
+   344	    # boundary orientation (outward normal,e1,e2,e3).
+   345	    e2 = (0, 0, 1, 0)
+   346	    e3 = (0, 0, 0, 1)
+   347	    twist_signs = []
+   348	    for jj in (left[0], right[0]):
+   349	        vv = mat_vec(jj, p)
+   350
+   351	        def derivative(y):
+   352	            return vec_add(mat_vec(jj, y), vec_scale(dot(vv, y), p))
+   353
+   354	        de2 = derivative(e2)
+   355	        de3 = derivative(e3)
+   356	        dalpha_23 = dot(de2, e3) - dot(de3, e2)
+   357	        assert dalpha_23 % 2 == 0
+   358	        sign = dalpha_23 // 2
+   359	        assert sign in (-1, 1)
+   360	        twist_signs.append(sign)
+   361	        assertions += 3
+   362	    assert sorted(twist_signs) == [-1, 1]
+   363	    assertions += 1
+   364
+   365	    radial_singular_orbits = 2
+   366	    assert radial_singular_orbits == 2
+   367	    assertions += 1
+   368
+   369	    assert assertions == 172
+   370	    assert screen_rotation_checks == 6
+   371
+   372	    candidate_rows = [
+   373	        ["metric_natural_unit_section", "NO", "round_S3_isotropy_has_no_nonzero_fixed_tangent_vector", "bounded_maximally_symmetric_slice"],
+   374	        ["reciprocal_scalar_or_normalized_gradient", "NO_GENERIC_HOPF_SECTION", "contractible_target_gradient_zero_and_Frobenius_obstruction", "scalar_only"],
+   375	        ["curvature_eigendirection", "NO", "constant_curvature_spectrum_is_fully_degenerate", "round_S3"],
+   376	        ["observer_centered_radial_map", "SUPPLIED_AND_NON_GLOBAL", "observer_and_antipode_cut_locus_singularities", "chosen_observer"],
+   377	        ["component_Hopf_map", "FAILS_FULL_FRAME_DESCENT", "basepoint_fixed_Ad_q_changes_component_Hopf_class", "supplied_triad"],
+   378	        ["geometric_Hopf_congruence_family", "INTRINSIC_FAMILY", "two_oriented_S2_isometry_orbits_of_unit_Killing_Beltrami_fields", "round_oriented_S3"],
+   379	        ["individual_geometric_Hopf_member", "NOT_SELECTED", "SO4_acts_transitively_on_each_family_and_isotropy_selects_none", "round_oriented_S3"],
+   380	        ["intrinsic_normalized_helicity", "DERIVED_CONDITIONAL", "plus_or_minus_one_for_supplied_family_member_and_orientation", "supplied_geometric_member"],
+   381	        ["screen_connection_or_Euler_character", "DIAGNOSTIC_NOT_SECTION", "G290_G292_require_supplied_screen_base_direction_identification", "supplied_pair_screen"],
+   382	        ["complete_relation_query_direction", "SUPPLIED_POPULATION", "G300_control_fiber_has_no_owned_lawful_query_section", "supplied_route_or_query"],
+   383	    ]
+   384	    with CENSUS.open("w", encoding="utf-8", newline="") as fh:
+   385	        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
+   386	        writer.writerow(["candidate", "result", "decisive_reason", "scope"])
+   387	        writer.writerows(candidate_rows)
+   388
+   389	    result = {
+   390	        "landing": (
+   391	            "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES"
+   392	            "__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER"
+   393	            "__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY"
+   394	            "__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT"
+   395	            "__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN"
+   396	        ),
+   397	        "candidate_landing": "A",
+   398	        "production_assertions": assertions,
+   399	        "isotropy_fixed_tangent_dimension": isotropy_fixed_dimension,
+   400	        "metric_natural_unit_section_exists": False,
+   401	        "constant_curvature_ricci_eigenvalue_multiplicity": 3,
+   402	        "radial_map_singular_orbits": radial_singular_orbits,
+   403	        "component_charge_constant_map": 0,
+   404	        "component_charge_after_large_frame_rotation": component_hopf,
+   405	        "raw_component_charge_full_frame_invariant": False,
+   406	        "oriented_chiral_family_count": 2,
+   407	        "each_family_parameter_space": "S2_isomorphic_SO4_over_U2",
+   408	        "individual_member_selected": False,
+   409	        "geometric_member_unit": True,
+   410	        "geometric_member_geodesic": True,
+   411	        "geometric_member_killing": True,
+   412	        "geometric_member_closed_great_circle_fibers": True,
+   413	        "geometric_member_screen_rotation_checks": screen_rotation_checks,
+   414	        "normalized_helicity_by_chirality": sorted(twist_signs),
+   415	        "normalized_helicity_scale_blind": True,
+   416	        "target_after_member_supply": "orbit_space_S2",
+   417	        "fixed_cross_history_target_selected": False,
+   418	        "field_or_query_population_selected": False,
+   419	        "metric_and_kernel_changed": False,
+   420	        "scope": "positive_G305_round_S3_standard_completion_all_positive_radii_both_chiralities",
+   421	        "omitted": [
+   422	            "nonspherical_deformations", "nontrivial_quotients", "singular_or_rank_change_strata",
+   423	            "topology_change", "route_conditioned_population", "action", "dynamics", "backreaction",
+   424	            "history_selection", "observations", "source", "mass", "physical_Xmax", "protected_work",
+   425	        ],
+   426	        "family_checks": family_checks,
+   427	        "general_killing_skew_core": killing_skew_core,
+   428	    }
+   429	    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   430	    print(json.dumps(result, indent=2, sort_keys=True))
+   431
+   432
+   433	if __name__ == "__main__":
+   434	    main()
+
+codex
+The production derivation is plainly standard-library-only and contains the repaired exact algebra path. I still need to confirm the verifier separation and replay counts from the independent and hostile scripts before I execute the registered commands in a writable clone.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_intrinsic_hopf_section_independent.py | sed -n '1,320p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Implementation-distinct G306 verification using only the standard library.
+     3
+     4	No production function or symbolic result is imported.
+     5	"""
+     6
+     7	from __future__ import annotations
+     8
+     9	import json
+    10	import math
+    11	from pathlib import Path
+    12
+    13
+    14	HERE = Path(__file__).resolve().parent
+    15	SOURCE = HERE / "DERIVATION_RESULT.json"
+    16	OUT = HERE / "INDEPENDENT_VERIFICATION.json"
+    17	TOL = 2.0e-11
+    18
+    19
+    20	def transpose(a):
+    21	    return [list(row) for row in zip(*a)]
+    22
+    23
+    24	def matmul(a, b):
+    25	    return [[sum(x * y for x, y in zip(row, col)) for col in zip(*b)] for row in a]
+    26
+    27
+    28	def matvec(a, x):
+    29	    return [sum(v * w for v, w in zip(row, x)) for row in a]
+    30
+    31
+    32	def dot(x, y):
+    33	    return sum(a * b for a, b in zip(x, y))
+    34
+    35
+    36	def add(x, y):
+    37	    return [a + b for a, b in zip(x, y)]
+    38
+    39
+    40	def scale(c, x):
+    41	    return [c * a for a in x]
+    42
+    43
+    44	def eye(n):
+    45	    return [[1.0 if i == j else 0.0 for j in range(n)] for i in range(n)]
+    46
+    47
+    48	def matrix_max(a):
+    49	    return max(abs(x) for row in a for x in row)
+    50
+    51
+    52	def matrix_sub(a, b):
+    53	    return [[x - y for x, y in zip(ra, rb)] for ra, rb in zip(a, b)]
+    54
+    55
+    56	def determinant3(m):
+    57	    return (
+    58	        m[0][0] * (m[1][1] * m[2][2] - m[1][2] * m[2][1])
+    59	        - m[0][1] * (m[1][0] * m[2][2] - m[1][2] * m[2][0])
+    60	        + m[0][2] * (m[1][0] * m[2][1] - m[1][1] * m[2][0])
+    61	    )
+    62
+    63
+    64	def matrix_rank(rows, tol=1.0e-12):
+    65	    a = [list(map(float, row)) for row in rows]
+    66	    rank = 0
+    67	    ncols = len(a[0])
+    68	    for col in range(ncols):
+    69	        pivot = max(range(rank, len(a)), key=lambda i: abs(a[i][col]), default=rank)
+    70	        if abs(a[pivot][col]) <= tol:
+    71	            continue
+    72	        a[rank], a[pivot] = a[pivot], a[rank]
+    73	        pv = a[rank][col]
+    74	        a[rank] = [x / pv for x in a[rank]]
+    75	        for i in range(len(a)):
+    76	            if i != rank:
+    77	                factor = a[i][col]
+    78	                a[i] = [x - factor * y for x, y in zip(a[i], a[rank])]
+    79	        rank += 1
+    80	        if rank == len(a):
+    81	            break
+    82	    return rank
+    83
+    84
+    85	LEFT = (
+    86	    ((0, -1, 0, 0), (1, 0, 0, 0), (0, 0, 0, -1), (0, 0, 1, 0)),
+    87	    ((0, 0, -1, 0), (0, 0, 0, 1), (1, 0, 0, 0), (0, -1, 0, 0)),
+    88	    ((0, 0, 0, -1), (0, 0, -1, 0), (0, 1, 0, 0), (1, 0, 0, 0)),
+    89	)
+    90	RIGHT = (
+    91	    ((0, -1, 0, 0), (1, 0, 0, 0), (0, 0, 0, 1), (0, 0, -1, 0)),
+    92	    ((0, 0, -1, 0), (0, 0, 0, -1), (1, 0, 0, 0), (0, 1, 0, 0)),
+    93	    ((0, 0, 0, -1), (0, 0, 1, 0), (0, -1, 0, 0), (1, 0, 0, 0)),
+    94	)
+    95
+    96
+    97	def combine(basis, u):
+    98	    return [[sum(u[k] * basis[k][i][j] for k in range(3)) for j in range(4)] for i in range(4)]
+    99
+   100
+   101	def normalize(v):
+   102	    n = math.sqrt(dot(v, v))
+   103	    return [x / n for x in v]
+   104
+   105
+   106	def tangent_project(v, x, a):
+   107	    return add(v, scale(-dot(v, x) / (a * a), x))
+   108
+   109
+   110	def covariant_derivative(j, x, y, a):
+   111	    v = scale(1.0 / a, matvec(j, x))
+   112	    return add(scale(1.0 / a, matvec(j, y)), scale(dot(v, y) / (a * a), x))
+   113
+   114
+   115	def rotation_from_quaternion(q):
+   116	    w, x, y, z = q
+   117	    return [
+   118	        [1 - 2 * (y * y + z * z), 2 * (x * y - w * z), 2 * (x * z + w * y)],
+   119	        [2 * (x * y + w * z), 1 - 2 * (x * x + z * z), 2 * (y * z - w * x)],
+   120	        [2 * (x * z - w * y), 2 * (y * z + w * x), 1 - 2 * (x * x + y * y)],
+   121	    ]
+   122
+   123
+   124	def hopf_from_quaternion(q):
+   125	    w, x, y, z = q
+   126	    return [w * w + x * x - y * y - z * z, 2 * (x * y + w * z), 2 * (x * z - w * y)]
+   127
+   128
+   129	def main():
+   130	    source = json.loads(SOURCE.read_text(encoding="utf-8"))
+   131	    checks = 0
+   132	    max_error = 0.0
+   133	    i4 = eye(4)
+   134
+   135	    unit_parameters = [
+   136	        normalize(v)
+   137	        for v in ((1, 0, 0), (0, 1, 0), (0, 0, 1), (3, 4, 0), (2, -3, 6), (-4, 7, 1))
+   138	    ]
+   139	    sample_points = [normalize(v) for v in ((1, 2, 3, 4), (4, -2, 1, 3), (-3, 5, -4, 2), (7, 1, -2, -5))]
+   140	    radii = (0.125, 0.75, 1.0, 3.5, 19.0)
+   141
+   142	    for basis in (LEFT, RIGHT):
+   143	        for u in unit_parameters:
+   144	            j = combine(basis, u)
+   145	            skew = matrix_sub(transpose(j), [[-x for x in row] for row in j])
+   146	            square = matrix_sub(matmul(j, j), [[-x for x in row] for row in i4])
+   147	            err = max(matrix_max(skew), matrix_max(square))
+   148	            max_error = max(max_error, err)
+   149	            assert err < TOL
+   150	            checks += 32
+   151	            for a in radii:
+   152	                for xu in sample_points:
+   153	                    x = scale(a, xu)
+   154	                    v = scale(1.0 / a, matvec(j, x))
+   155	                    err = max(abs(dot(x, v)), abs(dot(v, v) - 1.0))
+   156	                    max_error = max(max_error, err)
+   157	                    assert err < TOL
+   158	                    checks += 2
+   159	                    geodesic = covariant_derivative(j, x, v, a)
+   160	                    err = math.sqrt(dot(geodesic, geodesic))
+   161	                    max_error = max(max_error, err)
+   162	                    assert err < TOL
+   163	                    checks += 4
+   164
+   165	                    # Build two tangent test vectors, then check Killing.
+   166	                    y = tangent_project([1.0, -2.0, 0.5, 3.0], x, a)
+   167	                    z = tangent_project([-0.25, 1.0, 4.0, -2.0], x, a)
+   168	                    ny = covariant_derivative(j, x, y, a)
+   169	                    nz = covariant_derivative(j, x, z, a)
+   170	                    kres = dot(ny, z) + dot(y, nz)
+   171	                    max_error = max(max_error, abs(kres))
+   172	                    assert abs(kres) < TOL
+   173	                    checks += 1
+   174
+   175	    # Opposite pure-twist signs of the two quaternionic families.
+   176	    p = [1.0, 0.0, 0.0, 0.0]
+   177	    e2 = [0.0, 0.0, 1.0, 0.0]
+   178	    e3 = [0.0, 0.0, 0.0, 1.0]
+   179	    twist_signs = []
+   180	    for j in (LEFT[0], RIGHT[0]):
+   181	        de2 = covariant_derivative(j, p, e2, 1.0)
+   182	        de3 = covariant_derivative(j, p, e3, 1.0)
+   183	        sign = round((dot(de2, e3) - dot(de3, e2)) / 2.0)
+   184	        assert sign in (-1, 1)
+   185	        twist_signs.append(sign)
+   186	        checks += 3
+   187	    assert sorted(twist_signs) == [-1, 1]
+   188	    checks += 1
+   189
+   190	    # Full tangent isotropy leaves no fixed tangent vector.
+   191	    fixed_rows = [
+   192	        [-2, 0, 0],
+   193	        [0, -2, 0],
+   194	        [-2, 0, 0],
+   195	        [0, 0, -2],
+   196	    ]
+   197	    isotropy_rank = matrix_rank(fixed_rows)
+   198	    isotropy_fixed_dimension = 3 - isotropy_rank
+   199	    assert isotropy_fixed_dimension == 0
+   200	    checks += 12
+   201
+   202	    # Large local-frame rotation and Hopf map.
+   203	    quaternions = [
+   204	        normalize(q)
+   205	        for q in ((1, 0, 0, 0), (1, 2, 3, 4), (3, -1, 2, -2), (-2, 5, 1, 3), (0, 1, 1, 1))
+   206	    ]
+   207	    for q in quaternions:
+   208	        r = rotation_from_quaternion(q)
+   209	        h = hopf_from_quaternion(q)
+   210	        re1 = [row[0] for row in r]
+   211	        orth = matrix_sub(matmul(transpose(r), r), eye(3))
+   212	        err = max(max(abs(a - b) for a, b in zip(re1, h)), matrix_max(orth), abs(determinant3(r) - 1.0), abs(dot(h, h) - 1.0))
+   213	        max_error = max(max_error, err)
+   214	        assert err < TOL
+   215	        checks += 24
+   216	    base_rotation_error = matrix_max(matrix_sub(rotation_from_quaternion((1, 0, 0, 0)), eye(3)))
+   217	    assert base_rotation_error == 0.0
+   218	    checks += 9
+   219
+   220	    # Independent midpoint integration of the frozen Hopf connection.
+   221	    n_eta = 20000
+   222	    d_eta = (0.5 * math.pi) / n_eta
+   223	    eta_integral = sum(-math.sin(2.0 * ((k + 0.5) * d_eta)) * d_eta for k in range(n_eta))
+   224	    hopf_number = eta_integral  # angular factors cancel the 4 pi^2 normalization
+   225	    hopf_error = abs(hopf_number + 1.0)
+   226	    max_error = max(max_error, hopf_error)
+   227	    assert hopf_error < 2.0e-9
+   228	    checks += n_eta
+   229
+   230	    # Intrinsic helicity cancellation is checked for all sample radii and both twists.
+   231	    helicities = []
+   232	    for sign in (-1, 1):
+   233	        for a in radii:
+   234	            volume = 2.0 * math.pi**2 * a**3
+   235	            integral = sign * (2.0 / a) * volume
+   236	            normalized = integral / (4.0 * math.pi**2 * a**2)
+   237	            assert abs(normalized - sign) < TOL
+   238	            helicities.append(normalized)
+   239	            checks += 1
+   240
+   241	    expected = {
+   242	        "candidate_landing": "A",
+   243	        "isotropy_fixed_tangent_dimension": 0,
+   244	        "metric_natural_unit_section_exists": False,
+   245	        "constant_curvature_ricci_eigenvalue_multiplicity": 3,
+   246	        "radial_map_singular_orbits": 2,
+   247	        "component_charge_constant_map": 0,
+   248	        "component_charge_after_large_frame_rotation": -1,
+   249	        "raw_component_charge_full_frame_invariant": False,
+   250	        "oriented_chiral_family_count": 2,
+   251	        "individual_member_selected": False,
+   252	        "normalized_helicity_by_chirality": [-1, 1],
+   253	        "normalized_helicity_scale_blind": True,
+   254	        "field_or_query_population_selected": False,
+   255	        "fixed_cross_history_target_selected": False,
+   256	        "metric_and_kernel_changed": False,
+   257	    }
+   258	    for key, value in expected.items():
+   259	        assert source[key] == value, (key, source[key], value)
+   260	        checks += 1
+   261
+   262	    result = {
+   263	        "status": "PASS",
+   264	        "implementation": "standard_library_no_production_import",
+   265	        "independent_checks": checks,
+   266	        "maximum_numeric_error": max_error,
+   267	        "midpoint_hopf_number": hopf_number,
+   268	        "isotropy_fixed_tangent_dimension": isotropy_fixed_dimension,
+   269	        "twist_signs": sorted(twist_signs),
+   270	        "helicity_radius_cases": len(helicities),
+   271	        "source_landing": source["landing"],
+   272	    }
+   273	    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   274	    print(json.dumps(result, indent=2, sort_keys=True))
+   275
+   276
+   277	if __name__ == "__main__":
+   278	    main()
+   279
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/run_catch_proofs.py | sed -n '1,260p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Direct hostile mutations for the preregistered G306 overclaims."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import copy
+     7	import json
+     8	from pathlib import Path
+     9
+    10
+    11	HERE = Path(__file__).resolve().parent
+    12	BASE = HERE / "DERIVATION_RESULT.json"
+    13	OUT = HERE / "CATCH_PROOF_RESULT.json"
+    14
+    15
+    16	def validate(d):
+    17	    assert d["candidate_landing"] == "A", "landing_class"
+    18	    assert d["isotropy_fixed_tangent_dimension"] == 0, "isotropy_fixed_vector"
+    19	    assert d["metric_natural_unit_section_exists"] is False, "false_unique_section"
+    20	    assert d["constant_curvature_ricci_eigenvalue_multiplicity"] == 3, "false_curvature_axis"
+    21	    assert d["radial_map_singular_orbits"] == 2, "false_global_radial_map"
+    22	    assert d["component_charge_constant_map"] == 0, "constant_component_charge"
+    23	    assert d["component_charge_after_large_frame_rotation"] in (-1, 1), "large_gauge_Hopf_witness"
+    24	    assert d["component_charge_after_large_frame_rotation"] != d["component_charge_constant_map"], "component_charge_changed"
+    25	    assert d["raw_component_charge_full_frame_invariant"] is False, "false_component_gauge_invariance"
+    26	    assert d["oriented_chiral_family_count"] == 2, "chirality_census"
+    27	    assert d["individual_member_selected"] is False, "false_member_population"
+    28	    assert sorted(d["normalized_helicity_by_chirality"]) == [-1, 1], "helicity_chiralities"
+    29	    assert d["normalized_helicity_scale_blind"] is True, "false_scale_attachment"
+    30	    assert d["field_or_query_population_selected"] is False, "false_field_population"
+    31	    assert d["fixed_cross_history_target_selected"] is False, "false_fixed_target"
+    32	    assert d["metric_and_kernel_changed"] is False, "kernel_regression"
+    33	    assert "nonspherical_deformations" in d["omitted"], "scope_overexport"
+    34	    assert "action" in d["omitted"], "action_import"
+    35	    assert "history_selection" in d["omitted"], "history_promotion"
+    36	    assert "physical_Xmax" in d["omitted"], "Xmax_promotion"
+    37
+    38
+    39	def mutate(path, value):
+    40	    def apply(d):
+    41	        if isinstance(path, tuple):
+    42	            parent = d
+    43	            for key in path[:-1]:
+    44	                parent = parent[key]
+    45	            before = copy.deepcopy(parent[path[-1]])
+    46	            parent[path[-1]] = copy.deepcopy(value)
+    47	        else:
+    48	            before = copy.deepcopy(d[path])
+    49	            d[path] = copy.deepcopy(value)
+    50	        return before
+    51	    return apply
+    52
+    53
+    54	def remove_omission(name):
+    55	    def apply(d):
+    56	        before = copy.deepcopy(d["omitted"])
+    57	        d["omitted"] = [x for x in d["omitted"] if x != name]
+    58	        return before
+    59	    return apply
+    60
+    61
+    62	def main():
+    63	    baseline = json.loads(BASE.read_text(encoding="utf-8"))
+    64	    validate(baseline)
+    65	    cases = [
+    66	        ("unique_isotropy_fixed_direction", mutate("isotropy_fixed_tangent_dimension", 1), "isotropy_fixed_vector"),
+    67	        ("metric_selects_unit_section", mutate("metric_natural_unit_section_exists", True), "false_unique_section"),
+    68	        ("curvature_selects_axis", mutate("constant_curvature_ricci_eigenvalue_multiplicity", 1), "false_curvature_axis"),
+    69	        ("radial_map_global", mutate("radial_map_singular_orbits", 0), "false_global_radial_map"),
+    70	        ("large_gauge_preserves_component_charge", mutate("component_charge_after_large_frame_rotation", 0), "large_gauge_Hopf_witness"),
+    71	        ("raw_component_charge_gauge_invariant", mutate("raw_component_charge_full_frame_invariant", True), "false_component_gauge_invariance"),
+    72	        ("one_chirality_family", mutate("oriented_chiral_family_count", 1), "chirality_census"),
+    73	        ("orientation_selects_member", mutate("individual_member_selected", True), "false_member_population"),
+    74	        ("helicity_loses_opposite_chirality", mutate("normalized_helicity_by_chirality", [-1, -1]), "helicity_chiralities"),
+    75	        ("helicity_sets_scale", mutate("normalized_helicity_scale_blind", False), "false_scale_attachment"),
+    76	        ("family_populates_field", mutate("field_or_query_population_selected", True), "false_field_population"),
+    77	        ("metric_selects_fixed_target", mutate("fixed_cross_history_target_selected", True), "false_fixed_target"),
+    78	        ("kernel_changed", mutate("metric_and_kernel_changed", True), "kernel_regression"),
+    79	        ("export_to_nonspherical", remove_omission("nonspherical_deformations"), "scope_overexport"),
+    80	        ("import_old_action", remove_omission("action"), "action_import"),
+    81	        ("promote_history", remove_omission("history_selection"), "history_promotion"),
+    82	        ("promote_Xmax", remove_omission("physical_Xmax"), "Xmax_promotion"),
+    83	    ]
+    84	    records = []
+    85	    for name, change, expected in cases:
+    86	        mutant = copy.deepcopy(baseline)
+    87	        before = change(mutant)
+    88	        caught = False
+    89	        failure = ""
+    90	        try:
+    91	            validate(mutant)
+    92	        except AssertionError as exc:
+    93	            caught = True
+    94	            failure = str(exc)
+    95	        assert caught, name
+    96	        assert failure == expected, (name, failure, expected)
+    97	        records.append({
+    98	            "case": name,
+    99	            "caught": caught,
+   100	            "expected_failure": expected,
+   101	            "actual_failure": failure,
+   102	            "before": before,
+   103	        })
+   104	    result = {
+   105	        "status": "PASS",
+   106	        "baseline_valid": True,
+   107	        "hostile_cases": len(records),
+   108	        "direct_computed_or_required_premise_mutations": len(records),
+   109	        "records": records,
+   110	    }
+   111	    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   112	    print(json.dumps(result, indent=2, sort_keys=True))
+   113
+   114
+   115	if __name__ == "__main__":
+   116	    main()
+   117
+
+exec
+/bin/bash -lc "grep -RIn \"sympy\\|import .*numpy\\|import .*scipy\\|from .*sympy\\|from .*numpy\\|from .*scipy\" /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30" in /return
+ succeeded in 0ms:
+/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXTERNAL_REVIEW_RESPONSE.md:11:3. The registered production derivation is not sealed-dependency portable. [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:14) imports `sympy`, but no sealed dependency manifest accompanies the intake and `python3 .../derive_intrinsic_hopf_section.py` failed here with `ModuleNotFoundError: No module named 'sympy'`. That blocks the exact registered production replay required by [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:3).
+
+codex
+I’ve finished the static inspection pass and I’m moving to execution. The next step is a fresh writable clone under `/work`, then I’ll run only the four sealed replay commands under `python3 -S` plus the registered portability verifier.
+exec
+/bin/bash -lc 'tmpdir=$(mktemp -d /work/g306_review_XXXXXX) && cp -a /intake/. "$tmpdir" && printf '"'%s\\n' \""'$tmpdir"' in /return
+ succeeded in 0ms:
+/work/g306_review_sQNMxg
+
+exec
+/bin/bash -lc 'python3 -S /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py' in /work/g306_review_sQNMxg
+ succeeded in 0ms:
+{
+  "candidate_landing": "A",
+  "component_charge_after_large_frame_rotation": -1,
+  "component_charge_constant_map": 0,
+  "constant_curvature_ricci_eigenvalue_multiplicity": 3,
+  "each_family_parameter_space": "S2_isomorphic_SO4_over_U2",
+  "family_checks": {
+    "left": {
+      "skew": "J(u)^T=-J(u)",
+      "square": "J(u)^2=-(u.u)I4",
+      "unit_parameter_space": "S2"
+    },
+    "right": {
+      "skew": "J(u)^T=-J(u)",
+      "square": "J(u)^2=-(u.u)I4",
+      "unit_parameter_space": "S2"
+    }
+  },
+  "field_or_query_population_selected": false,
+  "fixed_cross_history_target_selected": false,
+  "general_killing_skew_core": 0,
+  "geometric_member_closed_great_circle_fibers": true,
+  "geometric_member_geodesic": true,
+  "geometric_member_killing": true,
+  "geometric_member_screen_rotation_checks": 6,
+  "geometric_member_unit": true,
+  "individual_member_selected": false,
+  "isotropy_fixed_tangent_dimension": 0,
+  "landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "metric_and_kernel_changed": false,
+  "metric_natural_unit_section_exists": false,
+  "normalized_helicity_by_chirality": [
+    -1,
+    1
+  ],
+  "normalized_helicity_scale_blind": true,
+  "omitted": [
+    "nonspherical_deformations",
+    "nontrivial_quotients",
+    "singular_or_rank_change_strata",
+    "topology_change",
+    "route_conditioned_population",
+    "action",
+    "dynamics",
+    "backreaction",
+    "history_selection",
+    "observations",
+    "source",
+    "mass",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "oriented_chiral_family_count": 2,
+  "production_assertions": 172,
+  "radial_map_singular_orbits": 2,
+  "raw_component_charge_full_frame_invariant": false,
+  "scope": "positive_G305_round_S3_standard_completion_all_positive_radii_both_chiralities",
+  "target_after_member_supply": "orbit_space_S2"
+}
+
+exec
+/bin/bash -lc 'python3 -S /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/run_catch_proofs.py' in /work/g306_review_sQNMxg
+ succeeded in 0ms:
+{
+  "baseline_valid": true,
+  "direct_computed_or_required_premise_mutations": 17,
+  "hostile_cases": 17,
+  "records": [
+    {
+      "actual_failure": "isotropy_fixed_vector",
+      "before": 0,
+      "case": "unique_isotropy_fixed_direction",
+      "caught": true,
+      "expected_failure": "isotropy_fixed_vector"
+    },
+    {
+      "actual_failure": "false_unique_section",
+      "before": false,
+      "case": "metric_selects_unit_section",
+      "caught": true,
+      "expected_failure": "false_unique_section"
+    },
+    {
+      "actual_failure": "false_curvature_axis",
+      "before": 3,
+      "case": "curvature_selects_axis",
+      "caught": true,
+      "expected_failure": "false_curvature_axis"
+    },
+    {
+      "actual_failure": "false_global_radial_map",
+      "before": 2,
+      "case": "radial_map_global",
+      "caught": true,
+      "expected_failure": "false_global_radial_map"
+    },
+    {
+      "actual_failure": "large_gauge_Hopf_witness",
+      "before": -1,
+      "case": "large_gauge_preserves_component_charge",
+      "caught": true,
+      "expected_failure": "large_gauge_Hopf_witness"
+    },
+    {
+      "actual_failure": "false_component_gauge_invariance",
+      "before": false,
+      "case": "raw_component_charge_gauge_invariant",
+      "caught": true,
+      "expected_failure": "false_component_gauge_invariance"
+    },
+    {
+      "actual_failure": "chirality_census",
+      "before": 2,
+      "case": "one_chirality_family",
+      "caught": true,
+      "expected_failure": "chirality_census"
+    },
+    {
+      "actual_failure": "false_member_population",
+      "before": false,
+      "case": "orientation_selects_member",
+      "caught": true,
+      "expected_failure": "false_member_population"
+    },
+    {
+      "actual_failure": "helicity_chiralities",
+      "before": [
+        -1,
+        1
+      ],
+      "case": "helicity_loses_opposite_chirality",
+      "caught": true,
+      "expected_failure": "helicity_chiralities"
+    },
+    {
+      "actual_failure": "false_scale_attachment",
+      "before": true,
+      "case": "helicity_sets_scale",
+      "caught": true,
+      "expected_failure": "false_scale_attachment"
+    },
+    {
+      "actual_failure": "false_field_population",
+      "before": false,
+      "case": "family_populates_field",
+      "caught": true,
+      "expected_failure": "false_field_population"
+    },
+    {
+      "actual_failure": "false_fixed_target",
+      "before": false,
+      "case": "metric_selects_fixed_target",
+      "caught": true,
+      "expected_failure": "false_fixed_target"
+    },
+    {
+      "actual_failure": "kernel_regression",
+      "before": false,
+      "case": "kernel_changed",
+      "caught": true,
+      "expected_failure": "kernel_regression"
+    },
+    {
+      "actual_failure": "scope_overexport",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "export_to_nonspherical",
+      "caught": true,
+      "expected_failure": "scope_overexport"
+    },
+    {
+      "actual_failure": "action_import",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "import_old_action",
+      "caught": true,
+      "expected_failure": "action_import"
+    },
+    {
+      "actual_failure": "history_promotion",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "promote_history",
+      "caught": true,
+      "expected_failure": "history_promotion"
+    },
+    {
+      "actual_failure": "Xmax_promotion",
+      "before": [
+        "nonspherical_deformations",
+        "nontrivial_quotients",
+        "singular_or_rank_change_strata",
+        "topology_change",
+        "route_conditioned_population",
+        "action",
+        "dynamics",
+        "backreaction",
+        "history_selection",
+        "observations",
+        "source",
+        "mass",
+        "physical_Xmax",
+        "protected_work"
+      ],
+      "case": "promote_Xmax",
+      "caught": true,
+      "expected_failure": "Xmax_promotion"
+    }
+  ],
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_intrinsic_hopf_section_independent.py' in /work/g306_review_sQNMxg
+ succeeded in 0ms:
+{
+  "helicity_radius_cases": 10,
+  "implementation": "standard_library_no_production_import",
+  "independent_checks": 22237,
+  "isotropy_fixed_tangent_dimension": 0,
+  "maximum_numeric_error": 1.0280862827727333e-09,
+  "midpoint_hopf_number": -1.0000000010280863,
+  "source_landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "status": "PASS",
+  "twist_signs": [
+    -1,
+    1
+  ]
+}
+
+exec
+/bin/bash -lc 'python3 -S /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py' in /work/g306_review_sQNMxg
+ succeeded in 0ms:
+PASS: G306 package; 28 required files; 15 source hashes
+
+exec
+/bin/bash -lc 'python3 -S /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py' in /work/g306_review_sQNMxg
+ succeeded in 0ms:
+{
+  "ambiguous_source_rejected": true,
+  "candidate_census_byte_identical": true,
+  "implementation": "standard_library_subprocess_and_fresh_temp_layout",
+  "missing_source_rejected": true,
+  "production_derivation_byte_identical": true,
+  "sealed_command_count": 4,
+  "sealed_commands": [
+    {
+      "returncode": 0,
+      "script": "derive_intrinsic_hopf_section.py"
+    },
+    {
+      "returncode": 0,
+      "script": "verify_intrinsic_hopf_section_independent.py"
+    },
+    {
+      "returncode": 0,
+      "script": "run_catch_proofs.py"
+    },
+    {
+      "returncode": 0,
+      "script": "verify_package.py"
+    }
+  ],
+  "source_hashes": 15,
+  "status": "PASS"
+}
+
+codex
+The sealed commands all pass in the writable clone. I’m doing the last comparison pass now: byte identity for regenerated artifacts and consistency checks across the bounded result files so I can decide whether any landing drift occurred.
+exec
+/bin/bash -lc 'sha256sum /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv' in /return
+ succeeded in 0ms:
+1dea213b2441edd4ec28b597521072dcbeff021c18ad1ca788ed06735439aed4  /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+1dea213b2441edd4ec28b597521072dcbeff021c18ad1ca788ed06735439aed4  /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+a371be1d5902ede91cd6d8de499d9d53959f7b54272851d296d72ba171233e0e  /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv
+a371be1d5902ede91cd6d8de499d9d53959f7b54272851d296d72ba171233e0e  /work/g306_review_sQNMxg/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json | sed -n '1,240p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "candidate_landing": "A",
+     3	  "component_charge_after_large_frame_rotation": -1,
+     4	  "component_charge_constant_map": 0,
+     5	  "constant_curvature_ricci_eigenvalue_multiplicity": 3,
+     6	  "each_family_parameter_space": "S2_isomorphic_SO4_over_U2",
+     7	  "family_checks": {
+     8	    "left": {
+     9	      "skew": "J(u)^T=-J(u)",
+    10	      "square": "J(u)^2=-(u.u)I4",
+    11	      "unit_parameter_space": "S2"
+    12	    },
+    13	    "right": {
+    14	      "skew": "J(u)^T=-J(u)",
+    15	      "square": "J(u)^2=-(u.u)I4",
+    16	      "unit_parameter_space": "S2"
+    17	    }
+    18	  },
+    19	  "field_or_query_population_selected": false,
+    20	  "fixed_cross_history_target_selected": false,
+    21	  "general_killing_skew_core": 0,
+    22	  "geometric_member_closed_great_circle_fibers": true,
+    23	  "geometric_member_geodesic": true,
+    24	  "geometric_member_killing": true,
+    25	  "geometric_member_screen_rotation_checks": 6,
+    26	  "geometric_member_unit": true,
+    27	  "individual_member_selected": false,
+    28	  "isotropy_fixed_tangent_dimension": 0,
+    29	  "landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+    30	  "metric_and_kernel_changed": false,
+    31	  "metric_natural_unit_section_exists": false,
+    32	  "normalized_helicity_by_chirality": [
+    33	    -1,
+    34	    1
+    35	  ],
+    36	  "normalized_helicity_scale_blind": true,
+    37	  "omitted": [
+    38	    "nonspherical_deformations",
+    39	    "nontrivial_quotients",
+    40	    "singular_or_rank_change_strata",
+    41	    "topology_change",
+    42	    "route_conditioned_population",
+    43	    "action",
+    44	    "dynamics",
+    45	    "backreaction",
+    46	    "history_selection",
+    47	    "observations",
+    48	    "source",
+    49	    "mass",
+    50	    "physical_Xmax",
+    51	    "protected_work"
+    52	  ],
+    53	  "oriented_chiral_family_count": 2,
+    54	  "production_assertions": 172,
+    55	  "radial_map_singular_orbits": 2,
+    56	  "raw_component_charge_full_frame_invariant": false,
+    57	  "scope": "positive_G305_round_S3_standard_completion_all_positive_radii_both_chiralities",
+    58	  "target_after_member_supply": "orbit_space_S2"
+    59	}
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	candidate	result	decisive_reason	scope
+     2	metric_natural_unit_section	NO	round_S3_isotropy_has_no_nonzero_fixed_tangent_vector	bounded_maximally_symmetric_slice
+     3	reciprocal_scalar_or_normalized_gradient	NO_GENERIC_HOPF_SECTION	contractible_target_gradient_zero_and_Frobenius_obstruction	scalar_only
+     4	curvature_eigendirection	NO	constant_curvature_spectrum_is_fully_degenerate	round_S3
+     5	observer_centered_radial_map	SUPPLIED_AND_NON_GLOBAL	observer_and_antipode_cut_locus_singularities	chosen_observer
+     6	component_Hopf_map	FAILS_FULL_FRAME_DESCENT	basepoint_fixed_Ad_q_changes_component_Hopf_class	supplied_triad
+     7	geometric_Hopf_congruence_family	INTRINSIC_FAMILY	two_oriented_S2_isometry_orbits_of_unit_Killing_Beltrami_fields	round_oriented_S3
+     8	individual_geometric_Hopf_member	NOT_SELECTED	SO4_acts_transitively_on_each_family_and_isotropy_selects_none	round_oriented_S3
+     9	intrinsic_normalized_helicity	DERIVED_CONDITIONAL	plus_or_minus_one_for_supplied_family_member_and_orientation	supplied_geometric_member
+    10	screen_connection_or_Euler_character	DIAGNOSTIC_NOT_SECTION	G290_G292_require_supplied_screen_base_direction_identification	supplied_pair_screen
+    11	complete_relation_query_direction	SUPPLIED_POPULATION	G300_control_fiber_has_no_owned_lawful_query_section	supplied_route_or_query
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	object	status	maximum_claim
+     2	metric_natural_unit_section	NOT_DERIVED_IN_ROUND_G305_SCOPE	isotropy_has_no_nonzero_fixed_tangent_vector
+     3	raw_component_Hopf_number	FAILS_FULL_LOCAL_FRAME_DESCENT	basepoint_fixed_large_SO3_rotation_changes_zero_to_minus_one
+     4	geometric_Hopf_congruence_family	DERIVED_MATHEMATICAL_METRIC_NATURAL_FAMILY	two_oriented_S2_isometry_orbits_not_physical_population
+     5	individual_geometric_member	NOT_SELECTED	SO4_transitive_on_each_family
+     6	intrinsic_normalized_helicity	DERIVED_CONDITIONAL_FOR_SUPPLIED_MEMBER	plus_or_minus_one_frame_independent_and_scale_blind
+     7	emergent_orbit_target	DERIVED_CONDITIONAL_AFTER_MEMBER_SUPPLY	S3_circle_orbit_space_is_S2_not_fixed_cross_history_target
+     8	fixed_physical_S2_target	OPEN	metric_selects_no_member_or_target_identification
+     9	lawful_field_or_query_population	OPEN	G300_control_family_remains_operational
+    10	action_dynamics_history_mass_Xmax	OPEN_EXCLUDED	outside_bounded_gate
+    11	metric_and_kernel	UNCHANGED	classification_only
+    12	fresh_external_review	REPAIRABLE_DEFECTS__BOUNDED_SCIENCE_SUPPORTED	three_replay_portability_defects_only
+    13	preregistered_portability_repairs	INTERNALLY_PASS__EXTERNAL_FOLLOWUP_PENDING	dependency_free_exact_production_and_unique_dual_layout_source_resolution
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREMISE_LEDGER.tsv | sed -n '1,160p'" in /return
+ succeeded in 0ms:
+     1	object	status	active_role	forbidden_promotion
+     2	G305_positive_round_S3_slice	DERIVED_CONDITIONAL	bounded_metric_domain	selected_complete_UDT_history
+     3	G305_slice_radius	FREE_AND_EXPLORED	all_positive_values_and_time_slice_carry	observed_scale_mass_or_physical_Xmax
+     4	slice_orientation	SUPPLIED_AND_BOTH_SIGNS_RETAINED	charge_and_chirality_sign_bookkeeping	metric_selected_parity
+     5	complete_local_spatial_frame_gauge	DERIVED_CONDITIONAL_REPRESENTATION_GAUGE	frame_descent_test	physical_triad
+     6	G300_celestial_S2_control_fiber	DERIVED_CONDITIONAL	all_direction_control_arena	lawful_query_population_or_fixed_target
+     7	G290_G292_screen_connection_and_Euler_character	DERIVED_CONDITIONAL	gauge_descended_comparison_objects	physical_map_or_history_selector
+     8	orthogonal_complex_structure_J	FREE_AND_EXPLORED_TEST_OBJECT	full_geometric_Hopf_congruence_family	owned_physical_field
+     9	unit_Killing_Beltrami_field	FREE_AND_EXPLORED_TEST_OBJECT	intrinsic_family_classification	populated_matter_or_carrier
+    10	historical_component_Hopf_map	CONDITIONAL_COMPARISON_ONLY	large_frame_gauge_control	metric_owned_target_or_charge
+    11	observer_center_radial_map	SUPPLIED_CONTROL_ONLY	cut_locus_and_naturality_control	global_intrinsic_section
+    12	old_Hopf_action_box_boundary_stability	OMITTED	outside_scope	metric_derived_dynamics
+    13	observations_source_mass_fit_physical_Xmax	OMITTED	outside_scope	implicit_anchor_or_selection
+    14	nontrivial_quotients_nonspherical_topology_change_singular_strata	OMITTED	explicit_scope_boundary	universal_no_go
+    15
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EVIDENCE_GATES.md | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	# G306 evidence gates
+     2
+     3	1. **Preregistered:** PASS — commit c5873d2c was pushed before outcome artifacts.
+     4	2. **Full bounded space:** PASS WITH EXPLICIT SCOPE — every positive radius and both oriented
+     5	   chiral families on the positive G305 standard round completion were covered. Nonspherical,
+     6	   quotient, singular, topology-changing, route-conditioned, and dynamically populated cases are
+     7	   outside scope.
+     8	3. **Independent verification:** PASS — 22,237 standard-library checks importing no production
+     9	   function; five radii, both families, multiple parameter and spatial samples, independent
+    10	   midpoint Hopf integration; maximum error \(1.0280862827727333\times10^{-9}\).
+    11	4. **Hostile controls:** PASS — 17 direct computed-evidence or required-premise mutations were
+    12	   caught with exact named failures.
+    13	5. **Premises:** PASS — the 288-row registry, 754 historical dispositions, startup route, archive
+    14	   integrity, relational-depth/orchestra guards, \(X_{\max}\) semantics, and corrected DOF
+    15	   semantics all pass. No physical member, target, action, population, history, scale, mass, or
+    16	   \(X_{\max}\) is promoted.
+    17	6. **Repository regression:** PASS — 199 passed and one expected xfail. The xfail is the registered
+    18	   matter-lane habit-pin sentinel and is unrelated to G306.
+    19	7. **Fresh external adversarial review:** SCIENCE SUPPORTED, REPAIR FOLLOW-UP PENDING — the reviewer
+    20	   independently reproduced the bounded geometry and found no scientific defect, but returned
+    21	   `REPAIRABLE_DEFECTS` for three sealed-replay portability issues.
+    22	8. **Preregistered portability repair:** PASS INTERNALLY — R1--R4 were banked at commit 1298deea;
+    23	   exact production now runs under `python3 -S` with byte-identical outputs; all four sealed commands
+    24	   pass from a fresh copied layout; missing and ambiguous source layouts are rejected.
+    25
+    26	Until the repair-only reviewer closes gate 8 externally, the package remains
+    27	`EXTERNAL_SCIENCE_SUPPORTED__FOLLOWUP_PENDING`.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PACKAGE_VERIFICATION_RESULT.json | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "full_repository_tests": {
+     3	    "expected_xfail": 1,
+     4	    "passed": 199,
+     5	    "status": "PASS"
+     6	  },
+     7	  "external_review": {
+     8	    "bounded_science": "SUPPORTED",
+     9	    "verdict": "REPAIRABLE_DEFECTS"
+    10	  },
+    11	  "package_required_files": 28,
+    12	  "premise_registry": {
+    13	    "historical_dispositions": 754,
+    14	    "rows": 288,
+    15	    "status": "PASS"
+    16	  },
+    17	  "source_hashes": 15,
+    18	  "standalone_package_verifier": "PASS",
+    19	  "sealed_portability": {
+    20	    "ambiguous_source_rejected": true,
+    21	    "missing_source_rejected": true,
+    22	    "production_derivation_byte_identical": true,
+    23	    "sealed_commands": 4,
+    24	    "status": "PASS"
+    25	  },
+    26	  "status": "PASS_WITH_REPAIR_FOLLOWUP_PENDING"
+    27	}
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PORTABILITY_VERIFICATION_RESULT.json | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "ambiguous_source_rejected": true,
+     3	  "candidate_census_byte_identical": true,
+     4	  "implementation": "standard_library_subprocess_and_fresh_temp_layout",
+     5	  "missing_source_rejected": true,
+     6	  "production_derivation_byte_identical": true,
+     7	  "sealed_command_count": 4,
+     8	  "sealed_commands": [
+     9	    {
+    10	      "returncode": 0,
+    11	      "script": "derive_intrinsic_hopf_section.py"
+    12	    },
+    13	    {
+    14	      "returncode": 0,
+    15	      "script": "verify_intrinsic_hopf_section_independent.py"
+    16	    },
+    17	    {
+    18	      "returncode": 0,
+    19	      "script": "run_catch_proofs.py"
+    20	    },
+    21	    {
+    22	      "returncode": 0,
+    23	      "script": "verify_package.py"
+    24	    }
+    25	  ],
+    26	  "source_hashes": 15,
+    27	  "status": "PASS"
+    28	}
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/INDEPENDENT_VERIFICATION.json | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "helicity_radius_cases": 10,
+     3	  "implementation": "standard_library_no_production_import",
+     4	  "independent_checks": 22237,
+     5	  "isotropy_fixed_tangent_dimension": 0,
+     6	  "maximum_numeric_error": 1.0280862827727333e-09,
+     7	  "midpoint_hopf_number": -1.0000000010280863,
+     8	  "source_landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+     9	  "status": "PASS",
+    10	  "twist_signs": [
+    11	    -1,
+    12	    1
+    13	  ]
+    14	}
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_PREREGISTRATION.md | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	# G306 external-review repair preregistration
+     2
+     3	Date: 2026-08-30
+     4	Status: `PREREGISTERED_BEFORE_REPAIRS`
+     5	Trigger: fresh external review verdict `REPAIRABLE_DEFECTS`
+     6
+     7	## Frozen repair scope
+     8
+     9	R1. Separate repository-only gates from the self-contained sealed replay. `COMMANDS.md` must state
+    10	which commands require the repository environment and which commands are required inside a sealed
+    11	intake. The fresh follow-up intake must contain every file used by every sealed command. It must not
+    12	claim that the repository-wide premise verifier or full pytest suite can be rerun from the bounded
+    13	intake. Their already recorded counts remain repository regression evidence only and will be rerun
+    14	in the repository before the follow-up intake is built.
+    15
+    16	R2. Make `verify_package.py` resolve every `SOURCE_MANIFEST.tsv` row in exactly one of two allowed
+    17	layouts: repository root or sealed `frozen_sources/`. It must reject missing and ambiguous matches,
+    18	and it must verify the same 15 registered source hashes in both layouts.
+    19
+    20	R3. Remove the unsealed SymPy dependency from the production derivation. Replace it with an exact,
+    21	standard-library-only implementation of the same preregistered algebra and geometry. The repaired
+    22	production replay must retain the exact landing, 172 production assertions, candidate census, and
+    23	all registered output fields. The independent verifier must remain implementation-distinct and
+    24	must not import production code.
+    25
+    26	R4. Rerun production, independent, hostile, package, premise-registry, and full repository gates;
+    27	build a fresh repair-only sealed intake; and prove that all sealed commands run from a writable
+    28	ephemeral copy using `python3 -S` and only sealed dependencies.
+    29
+    30	## Frozen scientific landing
+    31
+    32	These are evidence-portability repairs only. They may not alter the bounded scientific result:
+    33
+    34	`ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN`
+    35
+    36	No repair may select a field/query population, individual Hopf member, fixed physical target,
+    37	orientation, dynamics, action, history, magnitude, mass, scale, or physical `X_max`; modify the
+    38	metric or reciprocal kernel; or export the theorem outside the positive G305 standard round `S3`
+    39	completion.
+    40
+    41	## Acceptance contract
+    42
+    43	1. The self-contained sealed command list contains no unavailable repository asset or dependency.
+    44	2. The package verifier passes unchanged in the repository layout and in a copied sealed layout,
+    45	   while rejecting missing and ambiguous source resolutions.
+    46	3. The repaired production script runs under `python3 -S`, reports exactly 172 assertions, and
+    47	   reproduces the frozen landing and output fields without SymPy or another external dependency.
+    48	4. The independent standard-library replay remains separate, retains 22,237 checks, and reproduces
+    49	   both chiralities and the normalized Hopf result within its registered tolerance.
+    50	5. All 17 hostile direct mutations remain caught; the premise registry and full repository suite
+    51	   pass with the previously registered single expected xfail.
+    52	6. A fresh external repair-only reviewer verifies R1--R4 and confirms that the scientific landing
+    53	   did not change.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	# G306 command environments
+     2
+     3	## Self-contained package and sealed-intake replay
+     4
+     5	From the repository root or a writable copy of the sealed intake root:
+     6
+     7	```bash
+     8	python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py
+     9	python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_intrinsic_hopf_section_independent.py
+    10	python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/run_catch_proofs.py
+    11	python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py
+    12	```
+    13
+    14	These four commands use only Python's standard library and files included in the sealed intake.
+    15	They are the complete registered sealed replay.
+    16
+    17	The repair meta-certificate copies the package and frozen sources into a fresh temporary layout,
+    18	runs those four commands, compares production outputs byte-for-byte, and tests missing/ambiguous
+    19	source rejection:
+    20
+    21	```bash
+    22	python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py
+    23	```
+    24
+    25	## Repository-only gates
+    26
+    27	The following commands test the surrounding repository and are intentionally not claims about a
+    28	bounded intake's contents:
+    29
+    30	```bash
+    31	python3 verify_current_scientific_premises.py
+    32	python3 -m pytest tests/
+    33	```
+    34
+    35	They must pass in the repository before a follow-up intake is built. Their exact counts are recorded
+    36	in `PACKAGE_VERIFICATION_RESULT.json` and `EVIDENCE_GATES.md`; they are regression evidence, not
+    37	self-contained sealed replay commands.
+    38
+    39	The repository-only follow-up intake builder is:
+    40
+    41	```bash
+    42	python3 -S udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_repair_followup_intake.py
+    43	```
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CATCH_PROOF_RESULT.json | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "baseline_valid": true,
+     3	  "direct_computed_or_required_premise_mutations": 17,
+     4	  "hostile_cases": 17,
+     5	  "records": [
+     6	    {
+     7	      "actual_failure": "isotropy_fixed_vector",
+     8	      "before": 0,
+     9	      "case": "unique_isotropy_fixed_direction",
+    10	      "caught": true,
+    11	      "expected_failure": "isotropy_fixed_vector"
+    12	    },
+    13	    {
+    14	      "actual_failure": "false_unique_section",
+    15	      "before": false,
+    16	      "case": "metric_selects_unit_section",
+    17	      "caught": true,
+    18	      "expected_failure": "false_unique_section"
+    19	    },
+    20	    {
+    21	      "actual_failure": "false_curvature_axis",
+    22	      "before": 3,
+    23	      "case": "curvature_selects_axis",
+    24	      "caught": true,
+    25	      "expected_failure": "false_curvature_axis"
+    26	    },
+    27	    {
+    28	      "actual_failure": "false_global_radial_map",
+    29	      "before": 2,
+    30	      "case": "radial_map_global",
+    31	      "caught": true,
+    32	      "expected_failure": "false_global_radial_map"
+    33	    },
+    34	    {
+    35	      "actual_failure": "large_gauge_Hopf_witness",
+    36	      "before": -1,
+    37	      "case": "large_gauge_preserves_component_charge",
+    38	      "caught": true,
+    39	      "expected_failure": "large_gauge_Hopf_witness"
+    40	    },
+    41	    {
+    42	      "actual_failure": "false_component_gauge_invariance",
+    43	      "before": false,
+    44	      "case": "raw_component_charge_gauge_invariant",
+    45	      "caught": true,
+    46	      "expected_failure": "false_component_gauge_invariance"
+    47	    },
+    48	    {
+    49	      "actual_failure": "chirality_census",
+    50	      "before": 2,
+    51	      "case": "one_chirality_family",
+    52	      "caught": true,
+    53	      "expected_failure": "chirality_census"
+    54	    },
+    55	    {
+    56	      "actual_failure": "false_member_population",
+    57	      "before": false,
+    58	      "case": "orientation_selects_member",
+    59	      "caught": true,
+    60	      "expected_failure": "false_member_population"
+    61	    },
+    62	    {
+    63	      "actual_failure": "helicity_chiralities",
+    64	      "before": [
+    65	        -1,
+    66	        1
+    67	      ],
+    68	      "case": "helicity_loses_opposite_chirality",
+    69	      "caught": true,
+    70	      "expected_failure": "helicity_chiralities"
+    71	    },
+    72	    {
+    73	      "actual_failure": "false_scale_attachment",
+    74	      "before": true,
+    75	      "case": "helicity_sets_scale",
+    76	      "caught": true,
+    77	      "expected_failure": "false_scale_attachment"
+    78	    },
+    79	    {
+    80	      "actual_failure": "false_field_population",
+    81	      "before": false,
+    82	      "case": "family_populates_field",
+    83	      "caught": true,
+    84	      "expected_failure": "false_field_population"
+    85	    },
+    86	    {
+    87	      "actual_failure": "false_fixed_target",
+    88	      "before": false,
+    89	      "case": "metric_selects_fixed_target",
+    90	      "caught": true,
+    91	      "expected_failure": "false_fixed_target"
+    92	    },
+    93	    {
+    94	      "actual_failure": "kernel_regression",
+    95	      "before": false,
+    96	      "case": "kernel_changed",
+    97	      "caught": true,
+    98	      "expected_failure": "kernel_regression"
+    99	    },
+   100	    {
+   101	      "actual_failure": "scope_overexport",
+   102	      "before": [
+   103	        "nonspherical_deformations",
+   104	        "nontrivial_quotients",
+   105	        "singular_or_rank_change_strata",
+   106	        "topology_change",
+   107	        "route_conditioned_population",
+   108	        "action",
+   109	        "dynamics",
+   110	        "backreaction",
+   111	        "history_selection",
+   112	        "observations",
+   113	        "source",
+   114	        "mass",
+   115	        "physical_Xmax",
+   116	        "protected_work"
+   117	      ],
+   118	      "case": "export_to_nonspherical",
+   119	      "caught": true,
+   120	      "expected_failure": "scope_overexport"
+
+exec
+/bin/bash -lc "awk 'END{print NR-1}' /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/SOURCE_MANIFEST.tsv" in /return
+ succeeded in 0ms:
+15
+
+codex
+I have enough evidence to decide the landing unless the source manifest reveals a layout mismatch. I’m checking the manifest rows directly once, then I’ll close with the bounded verdict and any exact defects if they exist.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/SOURCE_MANIFEST.tsv | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	path	sha256	role
+     2	CURRENT_SCIENTIFIC_PREMISES.tsv	4730dd813cec45b51cc0fb134aa07467db4c44736c99c1735dd658964262aadc	exact_current_premise_authority
+     3	native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md	df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea	historical_topology_ownership_authority
+     4	native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv	de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4	historical_topology_status_ledger
+     5	udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/AUDIT_REPORT.md	b0a660145d706efda621b8f4dd90651ee7cca4718c320f32c8da2948dc9fbe35	frame_gauge_and_compatibility_control
+     6	udt_g289_native_kernel_hopfion_compatibility_history_constraint_audit_2026-08-28/COMPATIBILITY_LEDGER.tsv	2e78a17ec66337982d79d14a55fa2902318b350bfdefcb7cf8429538129654d8	frame_gauge_status_control
+     7	udt_g290_metric_native_topology_history_bridge_whiteboard_2026-08-28/EXACT_DERIVATION.md	cd617406460bc39d0b3815ed1e9a1770aae0c742d95b278b6b67316068958b9f	screen_holonomy_control
+     8	udt_g292_orientable_screen_differential_character_descent_2026-08-28/EXACT_DERIVATION.md	5110467642cb103339d8ba378a6e06942ba37ceb9736c02fe62cf1769eb9f7e0	screen_differential_character_control
+     9	udt_g292_orientable_screen_differential_character_descent_2026-08-28/STATUS_LEDGER.tsv	d9b8b99243ffc45b465b04b919645a7f8865961b24cf595022b2e93a21c2bbbb	screen_character_status_control
+    10	udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md	3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5	celestial_query_ownership_control
+    11	udt_g300_metric_celestial_query_bundle_descent_2026-08-29/STATUS_LEDGER.tsv	d817572c6fd748693c0fbd0526bbed7b9c74bebf43ddb4fce4e7f460ae5e65ff	celestial_query_status_control
+    12	udt_g304_global_cell_constant_sector_discriminator_2026-08-30/AUDIT_REPORT.md	f0a6663b3fdde0805c8f4035f819177ac70d9b9075b86358eb6619956541fa2d	positive_candidate_branch_control
+    13	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	6fb44360a2ec8b389e156d95beb69719b7ebba4c65790e21f363002a05ae5b6b	compact_round_domain_authority
+    14	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/EXACT_DERIVATION.md	c77acc3a0b9b8cef9cea07cc555eae9e42e5b7ab4938f959510adad230837c2d	global_round_slice_derivation
+    15	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/HOPF_REQUIREMENT_LEDGER.tsv	dad580c0bee041e99344f95189f5773142e759dcf20cc8ace6173f693aba88c6	open_map_target_descent_ledger
+    16	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/PREMISE_LEDGER.tsv	8b2b711692df1aae6347989298bd6ba591a02d7b8ea014783dcfb8efb2691e45	G305_choice_and_scope_control
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXTERNAL_REVIEW_RESPONSE.md | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	**Verdict**
+     2
+     3	`REPAIRABLE_DEFECTS`
+     4
+     5	**Findings**
+     6
+     7	1. The sealed intake does not contain all registered replay assets, so the full registered check set is not reproducible from the intake alone. [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:6) and [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:7) register `verify_current_scientific_premises.py` and `pytest tests/`, but the intake builder’s copied package list in [build_review_intake.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_review_intake.py:16) does not include either asset. In replay, `python3 verify_current_scientific_premises.py` failed with `No such file or directory`, and `python3 -m pytest tests/` failed before any sealed test replay.
+     8
+     9	2. The standalone package verifier is inconsistent with the sealed intake layout. [build_review_intake.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/build_review_intake.py:46) copies cited source material under `frozen_sources/`, but [verify_package.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py:78) resolves manifest paths directly as `ROOT / rel`. The first manifest entry is `CURRENT_SCIENTIFIC_PREMISES.tsv` at [SOURCE_MANIFEST.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/SOURCE_MANIFEST.tsv:2), so unmodified replay fails with `FileNotFoundError: /work/g306_review/CURRENT_SCIENTIFIC_PREMISES.tsv`. After a `/work`-only mirror of `frozen_sources/*` into the expected root-relative paths, the verifier passed, so this is a packaging defect, not a source-hash defect.
+    10
+    11	3. The registered production derivation is not sealed-dependency portable. [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:14) imports `sympy`, but no sealed dependency manifest accompanies the intake and `python3 .../derive_intrinsic_hopf_section.py` failed here with `ModuleNotFoundError: No module named 'sympy'`. That blocks the exact registered production replay required by [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:3).
+    12
+    13	**Bounded scientific assessment**
+    14
+    15	No scientific defect surfaced in the bounded G306 geometry itself. The no-section theorem is correctly scoped to the round slice and not exported beyond it ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:36), [EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:49)). The completeness argument for constant-unit Killing fields is mathematically coherent and does make the family census exhaustive within that class ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:146)). The two oriented components, each `SO(4)/U(2) ~ S^2`, and the nonselection of any member by isometry are supported ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:163)). The frame-dependent raw component Hopf number obstruction and the frame-independent normalized geometric helicity also check out in bounded scope ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:79), [EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:178)).
+    16
+    17	I reran the sealed standard-library verifier and hostile controls in `/work`; both passed exactly. I also performed a separate standard-library-only recheck of the quaternionic algebras, sample-family `V_J` identities, isotropy fixed-space dimension, `R(q)=Ad_q` Hopf witness, midpoint Hopf integral, and normalized helicity scaling; those matched the claimed bounded result to numerical tolerance.
+    18
+    19	**Adversarial questions**
+    20
+    21	- `metric-defined family` is justified as a geometric candidate census, not a physical selection premise, because `J` and the unit Killing field are kept as free test objects and population remains open ([PREMISE_LEDGER.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREMISE_LEDGER.tsv:8), [PREMISE_LEDGER.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREMISE_LEDGER.tsv:9), [STATUS_LEDGER.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv:9)).
+    22	- The family census is exhaustive within the stated class, not just a displayed subset ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:146)).
+    23	- The normalized helicity is genuinely local-frame invariant once `V_J` is supplied, because it is built from `alpha_J=g(V_J,.)` and `dalpha_J`, not from a component target ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:201)).
+    24	- That invariant does not depend on a chosen target or radius; its sign tracks only chirality plus slice orientation ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:186), [EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:202)).
+    25	- Slice orientation labels the two chiral signs; it does not select an individual member ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:45), [EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:173)).
+    26	- The `a(T)` carry is not overclaimed as live conservation; the text keeps it kinematic ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:213), [EXACT_DERIVATION.md](/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/EXACT_DERIVATION.md:200)).
+    27	- G306 does narrow G305’s open map problem without closing physical member or query population ([HOPF_REQUIREMENT_LEDGER.tsv](/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/HOPF_REQUIREMENT_LEDGER.tsv:5), [STATUS_LEDGER.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv:4), [AUDIT_REPORT.md](/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md:28)).
+    28	- The quotient `S^2` target emerges only after supplying a geometric member, consistent with the upstream supplied-identification boundary ([EXACT_DERIVATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:206), [EXACT_DERIVATION.md](/intake/frozen_sources/udt_g292_orientable_screen_differential_character_descent_2026-08-28/EXACT_DERIVATION.md:169)).
+    29
+    30	Net: the bounded G306 claim is scientifically supported on its stated round `S^3` scope, but the sealed package does not yet satisfy its own full replay/certification standard.
+
+codex
+**Findings**
+
+No defects found in preregistered repairs `R1` through `R4`.
+
+**Landing**
+
+`G306_REPAIRS_ACCEPTED`
+
+**Checks**
+
+- `R1` is satisfied. [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:3) separates the four sealed replay commands, [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:25) separately lists the two repository-only regression gates, and every sealed command is registered under `python3 -S` at [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:8) and [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:22). I reran the sealed commands from a writable copy under `/work`.
+- `R2` is satisfied. [verify_package.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py:31) resolves each source from exactly one of the two allowed layouts, and [verify_package.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_package.py:102) checks every manifest hash; the manifest has 15 rows at [SOURCE_MANIFEST.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/SOURCE_MANIFEST.tsv:2). [verify_repair_portability.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py:69) builds a fresh temp layout, [verify_repair_portability.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py:93) checks missing-source rejection, and [verify_repair_portability.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_repair_portability.py:106) checks ambiguous-source rejection. My sealed reruns passed `15` hashes and the portability verifier passed.
+- `R3` is satisfied. The repaired production script imports only standard-library modules at [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:14), uses exact rational and polynomial machinery at [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:16), [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:73), and [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:305), and retains `172` production assertions at [derive_intrinsic_hopf_section.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/derive_intrinsic_hopf_section.py:369). Replaying it under `python3 -S` produced byte-identical `DERIVATION_RESULT.json` and `CANDIDATE_CENSUS.tsv`.
+- `R4` is satisfied. The independent verifier remains implementation-distinct and explicitly avoids production imports at [verify_intrinsic_hopf_section_independent.py](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/verify_intrinsic_hopf_section_independent.py:2); the recorded result remains `22,237` checks at [INDEPENDENT_VERIFICATION.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/INDEPENDENT_VERIFICATION.json:4). Hostile controls remain `17` direct mutations at [CATCH_PROOF_RESULT.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CATCH_PROOF_RESULT.json:3). Portability records `4` passing sealed commands and `15` source hashes at [PORTABILITY_VERIFICATION_RESULT.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PORTABILITY_VERIFICATION_RESULT.json:7). I reran all four sealed commands plus the registered portability verifier in `/work`, all passing.
+- The bounded scientific landing is unchanged. The frozen landing in [REPAIR_PREREGISTRATION.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/REPAIR_PREREGISTRATION.md:32) matches the replayed landing in [DERIVATION_RESULT.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json:29) and the independent verifier’s `source_landing` at [INDEPENDENT_VERIFICATION.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/INDEPENDENT_VERIFICATION.json:8). No drift appears in family census or selection status at [CANDIDATE_CENSUS.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv:2), [DERIVATION_RESULT.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json:27), [DERIVATION_RESULT.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json:53), and [STATUS_LEDGER.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv:11). Excluded items remain excluded at [DERIVATION_RESULT.json](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json:37) and [PREMISE_LEDGER.tsv](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/PREMISE_LEDGER.tsv:13).
+
+I did not run `verify_current_scientific_premises.py` or `pytest`; [COMMANDS.md](/intake/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/COMMANDS.md:25) classifies them as repository-only regression gates, not sealed commands.
+tokens used
+56,494
+
+Script done on 2026-08-30 22:44:49-04:00 [COMMAND_EXIT_CODE="0"]

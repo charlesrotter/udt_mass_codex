@@ -43,5 +43,15 @@ and proved that missing and ambiguous source layouts are rejected.
 Repository-only gates were rerun after repair: the 288-row premise registry and 754 historical
 dispositions passed; pytest reported 199 passed and one expected xfail.
 
+The repair-only external reviewer then reran all four sealed commands and the registered
+portability verifier in a writable ephemeral copy. It found no defects and returned
+`G306_REPAIRS_ACCEPTED`. This closes R1--R4 externally without changing the bounded scientific
+landing, candidate census, metric, or reciprocal kernel.
+
+Authorized follow-up intake: `/tmp/udt_g306_repair_followup_aum9kdpo`; scope SHA-256
+`024e0389ebc66e01f9a328411c4d79a7b1661867029c81eb72e9a4fe9ef84c0e`; manifest SHA-256
+`7c5a216a5cade1e0f9094d620739b58f3325c8301fbaa06805816d9b6540cadd`; detached-seal SHA-256
+`d8719735e8bd78818ae9ee6cd99091517ee64dcfb4482c8471e00d5033912a0b`.
+
 No GPU, background solve, observation, fit, network download, protected package, or external action
 was used.

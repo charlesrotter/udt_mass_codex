@@ -1,7 +1,7 @@
 # G306 audit report
 
 Date: 2026-08-30
-Status: EXTERNAL_SCIENCE_SUPPORTED__PREREGISTERED_PORTABILITY_REPAIRS_COMPLETE__FOLLOWUP_PENDING
+Status: EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_REPLAY_PORTABILITY_REPAIRS
 
 ## Primary landing
 
@@ -46,5 +46,6 @@ unsealed SymPy. Repairs R1--R4 were preregistered and banked at commit 1298deea 
 production derivation now uses exact standard-library integer/rational/polynomial algebra under
 `python3 -S` and reproduces the original JSON and census byte-for-byte. All four sealed commands
 pass in a fresh copied intake; missing and ambiguous source layouts are rejected. Premise and full
-repository gates also pass. External repair-only follow-up remains pending, so the result is not
-yet graded externally accepted.
+repository gates also pass. The repair-only external reviewer reran all four sealed commands plus
+the portability verifier and returned `G306_REPAIRS_ACCEPTED` with no defects. The scientific
+landing, family census, metric, and reciprocal kernel are unchanged.

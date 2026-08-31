@@ -8,7 +8,12 @@
     "bounded_science": "SUPPORTED",
     "verdict": "REPAIRABLE_DEFECTS"
   },
-  "package_required_files": 28,
+  "external_repair_followup": {
+    "repairs": ["R1", "R2", "R3", "R4"],
+    "scientific_landing_changed": false,
+    "verdict": "G306_REPAIRS_ACCEPTED"
+  },
+  "package_required_files": 30,
   "premise_registry": {
     "historical_dispositions": 754,
     "rows": 288,
@@ -23,5 +28,5 @@
     "sealed_commands": 4,
     "status": "PASS"
   },
-  "status": "PASS_WITH_REPAIR_FOLLOWUP_PENDING"
+  "status": "PASS_EXTERNAL_REPAIRS_ACCEPTED"
 }

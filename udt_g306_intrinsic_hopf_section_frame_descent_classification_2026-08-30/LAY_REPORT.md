@@ -30,5 +30,7 @@ The outside reviewer independently reproduced that mathematical result. It found
 sealed replay package was inconveniently assembled: some repo-wide checks were listed as if they
 belonged inside the small intake, one verifier looked in the wrong folder, and the first derivation
 script expected SymPy. Those defects have been repaired without changing a scientific byte of the
-result. The exact production calculation now needs only ordinary Python. A repair-only external
-follow-up is still required before calling the package externally accepted.
+result. The exact production calculation now needs only ordinary Python. The repair-only reviewer
+reran the sealed package and accepted every repair with no defects. G306 is therefore externally
+closed in its bounded scope: the metric supplies the two Hopf families and their geometric
+invariant, but still does not choose or populate a physical member.

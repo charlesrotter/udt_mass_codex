@@ -28,10 +28,13 @@ Standard local PDE theorems are conditional imports; the kernel creates no evolu
 class, law, history, mass, source, query population, metric, or kernel was selected.
 G304's smooth-center static trace-free family retains only a positive-sector finite causal ceiling;
 `WORKING` G17 distinguishes its sign, not magnitude or physical `X_max`. Full WR-L is outside that
-family. G305 extends the positive branch through its standard completion: the ceiling is a regular
-observer horizon and slices are compact `S3`, supplying the old Hopfion domain without box/boundary
-scaffolding. No physical map/target, gauge descent, dynamics, history, mass, magnitude, or `X_max`
-follows. Final external repair closure returned `R3_COMPLETION_ACCEPTED`; metric/kernel unchanged.
+family. G305 extends the positive branch through a regular observer horizon to compact `S3` slices,
+removing the old box/boundary scaffold. G306 proves that the round metric intrinsically defines two
+orientation-relative Hopf-congruence families, while isotropy selects no individual member. A
+supplied geometric member has frame-independent, scale-blind normalized helicity `+1` or `-1`;
+raw component Hopf number fails full local-frame descent. Physical population, member/chirality,
+target, dynamics, history, mass, magnitude, and `X_max` remain open. The repair-only external
+review returned `G306_REPAIRS_ACCEPTED`; metric/kernel unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -45,7 +48,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300/G301/G302/G303/G304/G305.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -67,9 +70,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: test whether the complete metric/screen structure owns a physical `S3 -> S2` map or section
-with lawful frame-gauge descent, rather than only supplying the compact domain on which such maps
-can exist. Map premises first; do not import the old Hopf action, fixed target, box/boundary, source,
-mass, observation, fitted scale, physical `X_max`, protected work, or realized history.
+Next: test whether the already-derived complete relation, query, or path-population structure
+restricts or populates one member of G306's metric-defined Hopf families. Map premises first; do not
+import the old Hopf action, fixed target, box/boundary, source, mass, observation, fitted scale,
+physical `X_max`, protected work, or realized history.
 
 <!-- STARTUP_CURRENT_END -->

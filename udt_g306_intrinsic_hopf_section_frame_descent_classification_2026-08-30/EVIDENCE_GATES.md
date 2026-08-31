@@ -16,12 +16,15 @@
    \(X_{\max}\) is promoted.
 6. **Repository regression:** PASS — 199 passed and one expected xfail. The xfail is the registered
    matter-lane habit-pin sentinel and is unrelated to G306.
-7. **Fresh external adversarial review:** SCIENCE SUPPORTED, REPAIR FOLLOW-UP PENDING — the reviewer
-   independently reproduced the bounded geometry and found no scientific defect, but returned
-   `REPAIRABLE_DEFECTS` for three sealed-replay portability issues.
-8. **Preregistered portability repair:** PASS INTERNALLY — R1--R4 were banked at commit 1298deea;
-   exact production now runs under `python3 -S` with byte-identical outputs; all four sealed commands
-   pass from a fresh copied layout; missing and ambiguous source layouts are rejected.
+7. **Fresh external adversarial review:** SCIENCE SUPPORTED — the reviewer independently reproduced
+   the bounded geometry and found no scientific defect, while returning `REPAIRABLE_DEFECTS` for
+   three sealed-replay portability issues.
+8. **Preregistered portability repair:** EXTERNALLY ACCEPTED — R1--R4 were banked at commit
+   1298deea; exact production runs under `python3 -S` with byte-identical outputs; all four sealed
+   commands pass from a fresh copied layout; missing and ambiguous source layouts are rejected.
+   The repair-only reviewer reran the four commands and portability verifier and returned
+   `G306_REPAIRS_ACCEPTED` with no defects.
 
-Until the repair-only reviewer closes gate 8 externally, the package remains
-`EXTERNAL_SCIENCE_SUPPORTED__FOLLOWUP_PENDING`.
+All four banking gates are closed for the bounded G306 classification. Physical member or query
+population, target ownership, action, dynamics, history, magnitude, mass, scale, and physical
+`X_max` remain open.

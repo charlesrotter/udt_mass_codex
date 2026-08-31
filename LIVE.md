@@ -44,13 +44,14 @@ network, topology, and co-presence layers remain nonselective. Full WR-L is not 
 its exact trace-free residual is `2r/X`. Metric and kernel remain unchanged.
 G305 extends that bounded family through its standard connected global completions. The positive
 static ceiling is a regular observer horizon, not a material edge, and the completed spatial slices
-are compact `S3`. This natively supplies the old Hopfion's domain and removes its historical finite
-box/outer-boundary scaffold in that positive completion. An explicit `S3 -> S2` Hopf map has integer
-`-1` in the frozen orientation and persists kinematically, but the integer is scale-blind. The metric
-does not yet supply or select the physical map/section, fixed target, gauge-independent matter
-charge, dynamics, history, curvature magnitude, mass, or physical `X_max`. Zero and negative
-standard causal-cover slices remain contractible and require extra global data for a Hopf class.
-G305 is externally verified after preregistered evidence repairs; metric and kernel remain unchanged.
+are compact `S3`, removing the old finite box/outer-boundary scaffold. G306 then proves that the
+round metric intrinsically defines two orientation-relative `S2` families of unit Killing geodesic
+Hopf congruences. Isotropy selects no individual member. For a supplied geometric member, normalized
+helicity is the frame-independent, scale-blind value `+1` or `-1`; the raw component Hopf number
+fails full local-frame descent. The orbit `S2` arises only after a member is supplied. Physical
+field/query population, member or chirality selection, fixed target ownership, dynamics, history,
+curvature magnitude, mass, scale, and physical `X_max` remain open. G306 is externally accepted
+after preregistered replay-portability repairs; metric and kernel remain unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -65,11 +66,12 @@ G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
 
 Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305.
+G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
 The first group retains declared optical imports and no native SNe prediction; the later groups
 locate the open history propagation and narrow one candidate residual lane without selecting it.
 G304 distinguishes only the positive sign in its bounded static branch. G305 supplies its standard
-positive global `S3` domain but leaves physical map/field ownership and magnitude open.
+positive global `S3` domain; G306 narrows its intrinsic Hopf geometry to two symmetric families but
+leaves physical member/query population, dynamics, and magnitude open.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -97,11 +99,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G305 shows that the G304 finite static ceiling extends as a regular observer horizon in the standard
-positive global completion and that its spatial slices natively supply a compact `S3` Hopf domain.
-The next bounded gate is whether the complete metric/screen structure supplies an intrinsic physical
-`S3 -> S2` map or section with lawful frame-gauge descent, rather than merely making such maps
-mathematically available. Begin with MAP/PONDER and an exact premise census; do not import the old
-Hopf action, fixed target, box/boundary, observation, source, mass, fitted scale, physical `X_max`,
-protected work, or realized-history selection.
+G306 closes the intrinsic round-domain classification: the metric supplies two geometric Hopf
+families and a lawful normalized invariant for a supplied member, but isotropy selects and populates
+no member. The next bounded gate is whether the already-derived complete relation, query, or
+path-population structure restricts or populates one member without adding an action or field by
+hand. Begin with MAP/PONDER and an exact premise census. Do not import the old Hopf action, fixed
+target, box/boundary, observation, source, mass, fitted scale, physical `X_max`, protected work, or
+realized-history selection.
 <!-- STARTUP_CURRENT_END -->

@@ -53,6 +53,7 @@ def main() -> None:
         "REPAIR_ANCESTRY.md",
         "REPAIR_FOLLOWUP_REQUEST.md", "verify_repair_portability.py",
         "PORTABILITY_VERIFICATION_RESULT.json", "build_repair_followup_intake.py",
+        "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
     ]
     for name in required:
         assert (HERE / name).is_file(), name
@@ -84,6 +85,9 @@ def main() -> None:
     assert portability["missing_source_rejected"] is True
     assert portability["ambiguous_source_rejected"] is True
     assert portability["production_derivation_byte_identical"] is True
+    followup = (HERE / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md").read_text(encoding="utf-8")
+    assert "G306_REPAIRS_ACCEPTED" in followup
+    assert "No defects found" in followup
 
     for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
         assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
@@ -102,7 +106,17 @@ def main() -> None:
             assert sha256(resolve_source(rel)) == row["sha256"], rel
             source_rows += 1
     assert source_rows == 15
-    print(f"PASS: G306 package; {len(required)} required files; {source_rows} source hashes")
+    print(json.dumps({
+        "status": "PASS",
+        "landing": LANDING,
+        "production_assertions": derivation["production_assertions"],
+        "independent_checks": independent["independent_checks"],
+        "hostile_catches": catches["hostile_cases"],
+        "source_hashes_verified": source_rows,
+        "required_files": len(required),
+        "external_review": "G306_REPAIRS_ACCEPTED",
+        "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
+    }, sort_keys=True))
 
 
 if __name__ == "__main__":

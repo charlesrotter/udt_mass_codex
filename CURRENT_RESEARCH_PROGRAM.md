@@ -2,7 +2,7 @@
 
 Date: 2026-08-30
 
-`LIVE.md` controls status; the 288-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 289-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -50,17 +50,10 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   native provenance, direct redshift, Jacobi area, and no complete native SNe prediction.
 - G282/G283/G284/G285/G286/G287 locate neighboring tide, complete separation, nonunique propagation,
   and pair-arrow/profile-sign typing; no kernel formula changed.
-- G288 rebuilds center jets: `c2` is zero-tide constant curvature; independent angular/Weyl tide
-  first enters at `c4`.
-- G289 keeps the static Hopfion conditional; full frame gauge does not retain its raw charge.
-  Conformal twins keep the texture with different curvature.
-- G290 derives supplied screen holonomy, small-loop curvature, and time-live flux transgression;
-  arbitrary smooth histories remain admitted.
-- G291 is a lead; G292 makes orientable fixed-rank Euler flux exact. Equal pair block and Euler
-  class permit different local flux, so topology does not select history.
-- G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied additive parameter; `k` rescales, and
-  fixed Euler class leaves local flux free. The `M2/MN/A/NL` partition selects no law; G259 remains
-  conditional.
+- G288 derives zero-tide `c2` and independent angular/Weyl `c4`. G289/G290/G291/G292 keep Hopf topology
+  conditional and derive supplied holonomy/Euler flux without selecting local flux or history.
+- G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied parameter; `k` and local flux remain
+  free. The `M2/MN/A/NL` partition selects no law; G259 remains conditional.
 - G294 types “foundational infinite c” as nonpropagating connectedness, not signal speed. Pair graph,
   reciprocal groupoid, and physical foliation remain distinct; instantaneous global enforcement can
   signal. The missing object is a nonidentity complete-network constraint plus metric-causal update.
@@ -77,14 +70,12 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   completion turns every fixed-`Lambda` sector into the same rank-ten metric-wave principal system
   and null cone as Ricci-flat. Unsupplied-`Lambda` data obey `M_i=0,D_iH=0,Lambda=H/2`: one regional
   number, not a function. Standard PDE theorems are conditional; the kernel adds no evolution law.
-- G304 gives the bounded global/static discriminator. The exact trace-free primary family is
-  `f=1+b/r-(R0/12)r^2`; smooth center forces `b=0`. Only `R0>0` has a finite simple regular outer
-  static causal ceiling, so active `WORKING` G17 conditionally selects the positive sign in this
-  branch. It fixes neither magnitude nor physical `X_max`; full WR-L has residual `2r/X` and is not
-  an exact member. Founded relation layers remain nonselective; metric and kernel are unchanged.
-- G305 extends the positive branch through a regular observer horizon to compact `S3` slices,
-  removing the old Hopfion box/boundary scaffold. This supplies a mathematical domain, not a
-  physical map/target, gauge charge, dynamics, history, magnitude, mass, or physical `X_max`.
+- G304's bounded trace-free static family leaves only `R0>0` with a regular finite ceiling under
+  `WORKING` G17; magnitude, law, history, and physical `X_max` remain open.
+- G305 completes that branch through a regular horizon to compact `S3`, removing the Hopfion box.
+  G306 derives two metric-intrinsic Hopf families and normalized `+/-1` helicity for a supplied
+  member, but no population, target, dynamics, history, magnitude, mass, scale, or physical
+  `X_max`. Raw component charge fails full frame descent; metric/kernel remain unchanged.
 
 ## Open boundary
 
@@ -106,7 +97,8 @@ to two classes; G302 does not remove that fork. G303 gives both the same local c
 and functional data burden; trace-free adds one regional constant. G304 then uses the already-active
 working finite-ceiling condition to distinguish the positive sign in the smooth-center static
 branch. G305 extends that branch through its standard global completion and supplies a compact `S3`
-domain, but physical map/section ownership, constant magnitude, and physical `X_max` remain open.
+domain. G306 narrows the native geometry to two Hopf-congruence families but selects and populates
+no member; constant magnitude, dynamics, history, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -114,7 +106,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Test whether the complete metric/screen structure supplies an intrinsic physical `S3 -> S2` map or
-section with lawful frame-gauge descent on G305's compact positive domain. Do not import the old
-Hopf action, target, box/boundary, source, mass, observation, fitted scale, physical `X_max`,
-protected work, or a realized history.
+Test whether the already-derived complete relation, query, or path-population structure restricts
+or populates one member of G306's metric-defined Hopf families. Do not import the old Hopf action,
+target, box/boundary, source, mass, observation, fitted scale, physical `X_max`, protected work, or
+a realized history.
