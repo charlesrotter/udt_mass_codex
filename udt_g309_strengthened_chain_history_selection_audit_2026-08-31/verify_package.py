@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from derive_strengthened_history_audit import build_result
+
 
 ROOT = Path(__file__).resolve().parent
 LANDING = (
@@ -26,6 +28,11 @@ def main() -> None:
         "DERIVATION_RESULT.json",
         "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json",
+        "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
+        "EXTERNAL_REVIEW_REPAIR_REPORT.md",
+        "EXTERNAL_REVIEW_REPAIR_REQUEST.md",
     ]
     for name in required:
         assert (ROOT / name).is_file(), name
@@ -35,6 +42,7 @@ def main() -> None:
     catches = json.loads((ROOT / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
 
     assert production["landing"] == LANDING
+    assert production == build_result()
     assert production["candidate"] == "B"
     assert production["symbolic_checks"] == 13
     assert [row["order"] for row in production["flat_join_derivative_limits"]] == list(range(5))

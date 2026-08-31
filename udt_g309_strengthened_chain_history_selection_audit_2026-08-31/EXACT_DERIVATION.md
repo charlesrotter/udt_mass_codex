@@ -1,7 +1,7 @@
 # G309 exact derivation — strengthened postulates versus history selection
 
 Date: 2026-08-31
-Grade: `INTERNALLY_VERIFIED_BOUNDED_RESULT__FRESH_EXTERNAL_REVIEW_PENDING`
+Grade: `EXTERNAL_GPT54_ACCEPTED_WITH_STATED_CAVEATS__PREREGISTERED_REPLAY_REPAIR_INTERNALLY_VERIFIED__REPAIR_FOLLOWUP_PENDING`
 
 ## Bounded landing
 
@@ -234,4 +234,3 @@ Not accomplished:
 - four hostile formula mutations caught;
 - current 289-row premise registry verifier passed;
 - repository regression: 199 passed, one expected xfail.
-

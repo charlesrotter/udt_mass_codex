@@ -1,7 +1,7 @@
 # G309 audit report
 
 Date: 2026-08-31
-Status: `INTERNALLY_VERIFIED_BOUNDED_RESULT__FRESH_EXTERNAL_REVIEW_PENDING`
+Status: `EXTERNAL_GPT54_ACCEPTED_WITH_STATED_CAVEATS__PREREGISTERED_REPLAY_REPAIR_IMPLEMENTED__REPAIR_FOLLOWUP_PENDING`
 
 ## Landing
 
@@ -36,3 +36,9 @@ owns that equation. The Hopf results provide downstream consilience, not a deriv
 
 See `EXACT_DERIVATION.md` and the three machine-readable evidence files for the bounded proof.
 
+The fresh external reviewer found no scientific defect and independently reproduced the
+load-bearing curvature and residual results. It found a medium replay-portability defect because
+the production script required unavailable SymPy, plus a low clarification that repository-only
+gates were reported rather than sealed-replayed. The preregistered repair replaces the production
+replay with a dependency-free exact implementation and makes the package verifier execute it.
+Repair-only external follow-up remains pending; the scientific landing is unchanged.

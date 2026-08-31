@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -24,6 +25,11 @@ PACKAGE_FILES = (
     "EVIDENCE_GATES.md",
     "EXACT_DERIVATION.md",
     "EXTERNAL_REVIEW_REQUEST.md",
+    "EXTERNAL_REVIEW_RESPONSE.md",
+    "EXTERNAL_REVIEW_TRANSMISSION.md",
+    "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
+    "EXTERNAL_REVIEW_REPAIR_REPORT.md",
+    "EXTERNAL_REVIEW_REPAIR_REQUEST.md",
     "INDEPENDENT_VERIFICATION.json",
     "LAY_REPORT.md",
     "MAP.md",
@@ -40,6 +46,7 @@ PACKAGE_FILES = (
     "run_catch_proofs.py",
     "verify_package.py",
     "verify_strengthened_history_independent.py",
+    "launch_external_review.sh",
 )
 
 SOURCE_FILES = (
@@ -59,14 +66,18 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--repair-followup", action="store_true")
+    args = parser.parse_args()
     subprocess.run(
-        [sys.executable, str(PACKAGE / "verify_package.py")],
+        [sys.executable, "-S", str(PACKAGE / "verify_package.py")],
         cwd=PACKAGE,
         check=True,
         capture_output=True,
         text=True,
     )
-    intake = Path(tempfile.mkdtemp(prefix="udt_g309_review_", dir="/tmp"))
+    prefix = "udt_g309_repair_followup_" if args.repair_followup else "udt_g309_review_"
+    intake = Path(tempfile.mkdtemp(prefix=prefix, dir="/tmp"))
     package_target = intake / PACKAGE.name
     package_target.mkdir()
 
@@ -88,8 +99,13 @@ def main() -> None:
         shutil.copy2(source, target)
         payloads.append(target)
 
+    question = (
+        "repair-only follow-up review of preregistered G309 repairs R1-R4"
+        if args.repair_followup
+        else "fresh bounded adversarial review of the G309 layered history-selection result"
+    )
     scope = {
-        "question": "fresh bounded adversarial review of the G309 layered history-selection result",
+        "question": question,
         "package": PACKAGE.name,
         "payload_count_including_scope": len(payloads) + 1,
         "total_file_count_including_manifest_and_detached_seal": len(payloads) + 3,
@@ -101,6 +117,7 @@ def main() -> None:
             "access_repository_or_protected_packages": False,
             "use_internet_or_unsealed_observations": False,
             "select_or_canonize_law_history_scale_or_Xmax": False,
+            "repair_only": args.repair_followup,
         },
     }
     scope_path = intake / "REVIEW_SCOPE.json"
