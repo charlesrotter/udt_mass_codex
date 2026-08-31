@@ -21,3 +21,7 @@ reconstruct the unique field from such a completed relation; it does not claim t
 relation has already been selected.
 
 No metric term, reciprocal-kernel term, fitted coefficient, mass rule, or scale was added.
+
+An outside reviewer independently agreed with this geometric result. It found weaknesses in how
+the evidence package reconstructed and stress-tested the result, not in the result itself. Those
+evidence weaknesses have now been repaired internally; a repair-only follow-up remains pending.

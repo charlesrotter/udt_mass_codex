@@ -48,6 +48,10 @@ def main() -> None:
         "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
         "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md",
         "VERIFICATION_RESULT.json", "EXTERNAL_REVIEW_REQUEST.md",
+        "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_TRANSCRIPT.txt",
+        "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md", "REPAIR_REPORT.md",
+        "PORTABILITY_VERIFICATION_RESULT.json", "verify_repair_portability.py",
+        "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
         "build_review_intake.py", "verify_package.py",
     )
     for name in required:
@@ -60,6 +64,9 @@ def main() -> None:
     catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    portability = json.loads(
+        (HERE / "PORTABILITY_VERIFICATION_RESULT.json").read_text(encoding="utf-8")
+    )
 
     assert derivation["status"] == "PASS"
     assert derivation["landing_candidate"] == 2
@@ -79,24 +86,41 @@ def main() -> None:
     assert independent["implementation"] == "oriented_two_plane_outer_product_no_production_import"
     assert independent["imports_production_code"] is False
     assert independent["sample_cases"] == 1000
-    assert independent["independent_checks"] == 17000
+    assert independent["independent_checks"] == 32000
     assert independent["maximum_error"] < 2e-10
     assert independent["directed_germ_member_count"] == 2
     assert independent["signed_screen_member_count"] == 1
     assert independent["path_only_distinguishes_chirality"] is False
+    assert independent["reconstructs_members_from_pv"] is True
+    assert independent["evaluation_maps_verified_injective"] is True
+    assert independent["closed_quaternion_formulas_independently_recovered"] is True
 
     assert catches["status"] == "PASS"
     assert catches["baseline_valid"] is True
-    assert catches["hostile_cases"] == 14
-    assert catches["direct_mutations"] == 14
+    assert catches["hostile_cases"] == 22
+    assert catches["direct_mathematical_mutations"] == 8
+    assert catches["semantic_result_mutations"] == 14
     assert all(record["caught"] for record in catches["records"])
     assert verification["landing"] == LANDING
-    assert verification["status"] == "INTERNAL_GATES_PASS_EXTERNAL_PENDING"
+    assert verification["status"] == (
+        "INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING"
+    )
     assert verification["premise_audit"] == "PASS"
     assert verification["repository_regression"] == "199_passed_1_expected_xfail"
     assert premise_audit["status"] == "PASS"
     assert premise_audit["registry_rows"] == 289
     assert len(premise_audit["registry_sha256"]) == 64
+    assert portability["status"] == "PASS"
+    assert portability["repository_builder_passed"] is True
+    assert portability["sealed_builder_passed"] is True
+    assert portability["rebuilt_manifest_byte_identical"] is True
+    assert portability["missing_source_rejected"] is True
+    assert portability["missing_current_rejected"] is True
+    assert portability["ambiguous_source_rejected"] is True
+    assert portability["ambiguous_current_rejected"] is True
+    review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    assert "G307_REPAIRABLE_DEFECTS" in review
+    assert "no scientific defect found" in review
 
     expected_census = (
         ("round_metric_only", "two_S2_families", "no_member"),
@@ -140,7 +164,8 @@ def main() -> None:
         "independent_checks": independent["independent_checks"],
         "hostile_catches": catches["hostile_cases"],
         "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
-        "external_review": "PENDING",
+        "external_review": "G307_REPAIRABLE_DEFECTS__SCIENCE_SUPPORTED",
+        "repair_followup": "PENDING",
     }, sort_keys=True))
 
 

@@ -1,11 +1,14 @@
 {
   "external_review": "G307_REPAIRABLE_DEFECTS__SCIENCE_SUPPORTED",
-  "hostile_catches": 14,
-  "independent_checks": 17000,
+  "direct_mathematical_catches": 8,
+  "hostile_catches": 22,
+  "independent_checks": 32000,
   "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
   "metric_and_kernel_changed": false,
   "premise_audit": "PASS",
   "production_assertions": 1806,
   "repository_regression": "199_passed_1_expected_xfail",
-  "status": "EXTERNAL_SCIENCE_SUPPORTED__REPAIRS_PREREGISTERED"
+  "sealed_builder_replay": "PASS_BYTE_IDENTICAL",
+  "semantic_catches": 14,
+  "status": "INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING"
 }

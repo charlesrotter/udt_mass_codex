@@ -44,6 +44,21 @@ def project_out(a, basis):
     return out
 
 
+def qmul(a, b):
+    aw, ax, ay, az = a
+    bw, bx, by, bz = b
+    return [
+        aw * bw - ax * bx - ay * by - az * bz,
+        aw * bx + ax * bw + ay * bz - az * by,
+        aw * by - ax * bz + ay * bw + az * bx,
+        aw * bz + ax * by - ay * bx + az * bw,
+    ]
+
+
+def qconj(q):
+    return [q[0], -q[1], -q[2], -q[3]]
+
+
 def determinant(a):
     matrix = [list(row) for row in a]
     value = 1.0
@@ -75,6 +90,17 @@ def mscale(c, a):
 
 def matvec(a, v):
     return [dot(row, v) for row in a]
+
+
+def action_matrix(action):
+    basis = (
+        [1.0, 0.0, 0.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+    )
+    columns = [action(vector) for vector in basis]
+    return [[columns[j][i] for j in range(4)] for i in range(4)]
 
 
 def matmul(a, b):
@@ -117,6 +143,11 @@ def main():
         checks += 1
 
     identity = [[1.0 if i == j else 0.0 for j in range(4)] for i in range(4)]
+    imag_basis = (
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+    )
     samples = 1000
     radii = (0.125, 0.5, 1.0, 3.25, 11.0)
     for case in range(samples):
@@ -130,6 +161,45 @@ def main():
 
         plus = complex_operator(q, v, w, z, 1.0)
         minus = complex_operator(q, v, w, z, -1.0)
+
+        # Reconstruct each family member from (q,v) through the two independent
+        # imaginary-quaternion evaluation maps, not from the route/screen operators.
+        left_images = [qmul(axis, q) for axis in imag_basis]
+        right_images = [qmul(q, axis) for axis in imag_basis]
+        gram_identity = [[1.0 if i == j else 0.0 for j in range(3)] for i in range(3)]
+        left_gram = [[dot(left_images[i], left_images[j]) for j in range(3)] for i in range(3)]
+        right_gram = [[dot(right_images[i], right_images[j]) for j in range(3)] for i in range(3)]
+        check_error(left_gram, gram_identity, "left evaluation isometry")
+        check_error(right_gram, gram_identity, "right evaluation isometry")
+
+        left_coefficients = [dot(v, image) for image in left_images]
+        right_coefficients = [dot(v, image) for image in right_images]
+        reconstructed_left_v = [sum(left_coefficients[j] * left_images[j][i] for j in range(3)) for i in range(4)]
+        reconstructed_right_v = [sum(right_coefficients[j] * right_images[j][i] for j in range(3)) for i in range(4)]
+        check_error(reconstructed_left_v, v, "left unique coefficient solve")
+        check_error(reconstructed_right_v, v, "right unique coefficient solve")
+
+        u_left = [0.0] + left_coefficients
+        u_right = [0.0] + right_coefficients
+        check_scalar(u_left[0], 0.0, "left pure imaginary")
+        check_scalar(u_right[0], 0.0, "right pure imaginary")
+        check_scalar(dot(u_left, u_left), 1.0, "left unit coefficient")
+        check_scalar(dot(u_right, u_right), 1.0, "right unit coefficient")
+        check_error(qmul(u_left, q), v, "left reconstructed field value")
+        check_error(qmul(q, u_right), v, "right reconstructed field value")
+        check_error(u_left, qmul(v, qconj(q)), "left closed reconstruction formula")
+        check_error(u_right, qmul(qconj(q), v), "right closed reconstruction formula")
+
+        reconstructed_left = action_matrix(lambda x, u=u_left: qmul(u, x))
+        reconstructed_right = action_matrix(lambda x, u=u_right: qmul(x, u))
+        left_twist = dot(z, matvec(reconstructed_left, w))
+        right_twist = dot(z, matvec(reconstructed_right, w))
+        check_scalar(left_twist + right_twist, 0.0, "reconstructed opposite chirality")
+        left_sign = 1.0 if left_twist > 0.0 else -1.0
+        right_sign = 1.0 if right_twist > 0.0 else -1.0
+        check_error(reconstructed_left, complex_operator(q, v, w, z, left_sign), "left full operator reconstruction")
+        check_error(reconstructed_right, complex_operator(q, v, w, z, right_sign), "right full operator reconstruction")
+
         for operator, sign in ((plus, 1.0), (minus, -1.0)):
             check_error(madd(transpose(operator), operator), [[0.0] * 4 for _ in range(4)], "skew")
             check_error(matmul(operator, operator), mscale(-1.0, identity), "square")
@@ -161,8 +231,11 @@ def main():
         "signed_screen_member_count": 1,
         "path_only_distinguishes_chirality": False,
         "imports_production_code": False,
+        "reconstructs_members_from_pv": True,
+        "evaluation_maps_verified_injective": True,
+        "closed_quaternion_formulas_independently_recovered": True,
     }
-    assert checks >= 10000
+    assert checks >= 30000
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2, sort_keys=True))
 

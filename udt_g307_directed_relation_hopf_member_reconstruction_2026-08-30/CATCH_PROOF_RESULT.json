@@ -1,8 +1,48 @@
 {
   "baseline_valid": true,
-  "direct_mutations": 14,
-  "hostile_cases": 14,
+  "direct_mathematical_mutations": 8,
+  "hostile_cases": 22,
   "records": [
+    {
+      "case": "wrong_left_quaternion_order",
+      "caught": true,
+      "expected": "left_reconstruction"
+    },
+    {
+      "case": "wrong_right_quaternion_order",
+      "caught": true,
+      "expected": "right_reconstruction"
+    },
+    {
+      "case": "broken_route_plane_sign",
+      "caught": true,
+      "expected": "route_complex_structure"
+    },
+    {
+      "case": "same_instead_of_opposite_screen_turn",
+      "caught": true,
+      "expected": "opposite_transverse_turn"
+    },
+    {
+      "case": "omitted_inverse_radius_factor",
+      "caught": true,
+      "expected": "radius_scaling"
+    },
+    {
+      "case": "point_only_false_uniqueness",
+      "caught": true,
+      "expected": "point_does_not_supply_direction"
+    },
+    {
+      "case": "route_only_false_chirality_selection",
+      "caught": true,
+      "expected": "route_nonselection"
+    },
+    {
+      "case": "orientation_reversal_without_sign_reversal",
+      "caught": true,
+      "expected": "orientation_relative_twist"
+    },
     {
       "case": "metric_only_selects_member",
       "caught": true,
@@ -74,5 +114,6 @@
       "expected": "scope_export"
     }
   ],
+  "semantic_result_mutations": 14,
   "status": "PASS"
 }

@@ -6,12 +6,13 @@
    point/tangent germ, both chiralities, every oriented transverse screen, and every positive
    radius on the round G305 completion. Nonspherical, quotient, singular, topology-changing, and
    physical-population cases are excluded.
-3. **Independent verification:** PASS — 17,000 checks from an implementation-distinct
-   outer-product construction over 1,000 random frames; no production import; maximum error
+3. **Independent verification:** PASS AFTER R2 — 32,000 checks over 1,000 random frames; the
+   implementation independently solves the left/right evaluation maps from `(p,v)`, recovers the
+   closed formulas and full operators, imports no production function, and retains maximum error
    `4.1389114358025836e-13`.
-4. **Hostile controls:** PASS — all 14 direct evidence and ownership mutations were caught,
-   including metric-only selection, path-only chirality, population promotion, kernel change, and
-   out-of-scope mass/scale/`X_max` claims.
+4. **Hostile controls:** PASS AFTER R3 — eight direct exact mathematical corruptions plus fourteen
+   semantic ownership/report mutations were caught, including quaternion order, route sign,
+   transverse sign, radius scaling, orientation, population, kernel, mass/scale, and `X_max`.
 5. **Premise audit:** PASS — `verify_current_scientific_premises.py` completed successfully after
    the outcome. G298/G299/G300's supplied-query boundary and G305/G306's conditional round-domain
    boundary remain active.
@@ -20,9 +21,12 @@
 7. **Fresh external adversarial review:** SCIENCE SUPPORTED; REPAIRS REQUIRED — the reviewer found
    no bounded scientific defect and retained the exact landing, while returning
    `G307_REPAIRABLE_DEFECTS` for sealed-builder source resolution and narrower-than-claimed
-   independent/hostile replay coverage. Repairs R1--R4 are preregistered separately.
+   independent/hostile replay coverage.
+8. **Preregistered repairs:** PASS INTERNALLY — R1--R4 were pushed at `f91bfb85`; repository and
+   sealed builder outputs are byte-identical, missing/ambiguous layouts are rejected, and R2/R3
+   meet their strengthened contracts. Repair-only external follow-up is pending.
 
-The current maximum grade remains `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`
-until the preregistered repairs and repair-only follow-up close.
+The current maximum grade is
+`INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`.
 Physical query/route/screen population, dynamics, history, mass, scale, observation, and physical
 `X_max` remain open.

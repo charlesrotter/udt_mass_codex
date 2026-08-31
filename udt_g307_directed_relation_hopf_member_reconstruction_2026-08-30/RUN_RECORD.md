@@ -27,8 +27,10 @@ Command:
 python3 -S verify_directed_member_independent.py
 ```
 
-Result: PASS; 1,000 random oriented frames; 17,000 checks; maximum error
-`4.1389114358025836e-13`; no production import.
+Initial result: PASS; 1,000 random oriented frames; 17,000 checks; maximum error
+`4.1389114358025836e-13`; no production import. After preregistered R2, the verifier independently
+solves both evaluation maps from `(p,v)`, recovers the closed formulas and full operators, and
+passes 32,000 checks with the same maximum error.
 
 ## Hostile controls
 
@@ -38,7 +40,8 @@ Command:
 python3 -S run_catch_proofs.py
 ```
 
-Result: PASS; 14 of 14 direct mutations caught.
+Initial result: PASS; 14 semantic result mutations caught. After preregistered R3, the suite also
+catches eight direct exact mathematical corruptions, for 22 total hostile cases.
 
 ## Premise audit
 
@@ -58,7 +61,18 @@ Command:
 python3 -m pytest -q
 ```
 
-Result: PASS; `199 passed, 1 xfailed in 136.39s`. The expected xfail is the registered matter-lane
+Result: PASS; `199 passed, 1 xfailed in 137.60s`. The expected xfail is the registered matter-lane
 habit-pin sentinel and is unrelated to G307.
 
-External adversarial review remains pending at this record stage.
+## External review and repairs
+
+Fresh gpt-5.4 review returned `G307_REPAIRABLE_DEFECTS` while finding no scientific defect and
+retaining the exact landing. R1--R4 were preregistered and pushed at `f91bfb85`.
+
+```bash
+python3 -S verify_repair_portability.py
+```
+
+Result: PASS. Repository and sealed-layout builders produce identical manifests and detached
+seals; missing and ambiguous source layouts are rejected. Repair-only external follow-up remains
+pending.

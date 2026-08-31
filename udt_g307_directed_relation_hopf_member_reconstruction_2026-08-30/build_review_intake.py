@@ -22,7 +22,10 @@ PACKAGE_FILES = [
     "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv",
     "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json", "EXACT_DERIVATION.md",
     "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md", "RUN_RECORD.md",
-    "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "build_review_intake.py",
+    "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "EXTERNAL_REVIEW_RESPONSE.md",
+    "EXTERNAL_REVIEW_TRANSCRIPT.txt", "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md",
+    "REPAIR_REPORT.md", "verify_repair_portability.py", "PORTABILITY_VERIFICATION_RESULT.json",
+    "build_review_intake.py",
 ]
 CURRENT_FILES = [
     "CURRENT_SCIENTIFIC_PREMISES.md",
@@ -36,6 +39,28 @@ def digest(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             result.update(block)
     return result.hexdigest()
+
+
+def resolve_source(relative: Path) -> Path:
+    candidates = (REPO / relative, REPO / "frozen_sources" / relative)
+    matches = [path for path in candidates if path.is_file()]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"source resolution must be unique for {relative}: "
+            f"found {[str(path) for path in matches]}"
+        )
+    return matches[0]
+
+
+def resolve_current(name: str) -> Path:
+    candidates = (REPO / name, REPO / "frozen_current" / name)
+    matches = [path for path in candidates if path.is_file()]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"current source resolution must be unique for {name}: "
+            f"found {[str(path) for path in matches]}"
+        )
+    return matches[0]
 
 
 def main() -> None:
@@ -52,7 +77,7 @@ def main() -> None:
     with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
         source_rows = list(csv.DictReader(handle, delimiter="\t"))
     for row in source_rows:
-        source = REPO / row["path"]
+        source = resolve_source(Path(row["path"]))
         if digest(source) != row["sha256"]:
             raise AssertionError(f"source hash drift: {row['path']}")
         destination = frozen / row["path"]
@@ -62,7 +87,7 @@ def main() -> None:
     frozen_current = target / "frozen_current"
     frozen_current.mkdir()
     for name in CURRENT_FILES:
-        source = REPO / name
+        source = resolve_current(name)
         shutil.copy2(source, frozen_current / name)
 
     premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))

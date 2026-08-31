@@ -1,0 +1,13 @@
+{
+  "ambiguous_current_rejected": true,
+  "ambiguous_source_rejected": true,
+  "manifest_payloads": 44,
+  "missing_current_rejected": true,
+  "missing_source_rejected": true,
+  "rebuilt_manifest_byte_identical": true,
+  "repository_builder_passed": true,
+  "scope_sha256": "36228af00ece4b70ac3c7ee814255f5460f0ab650ed8e643bfc971ffc15fcab0",
+  "sealed_builder_passed": true,
+  "status": "PASS",
+  "total_files": 46
+}

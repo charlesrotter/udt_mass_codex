@@ -1,7 +1,7 @@
 # G307 audit report — conditional Hopf-member reconstruction from a complete directed germ
 
 Date: 2026-08-30
-Status: `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`
+Status: `INTERNALLY_REPAIRED_AFTER_EXTERNAL_SCIENTIFIC_SUPPORT__FOLLOWUP_PENDING`
 
 ## Primary landing
 
@@ -46,7 +46,10 @@ radii. Nonspherical, quotient, singular/cut/caustic, topology-changing, and dyna
 cases remain outside scope.
 
 The landing was preregistered at pushed commit `1bdfe7d2`. Exact production supplied 1,806 rational
-assertions. An unrelated outer-product implementation supplied 17,000 checks over 1,000 random
-frames with maximum error `4.1389114358025836e-13`. All 14 hostile mutations were caught. The
-current premise registry passed. Fresh external adversarial review is still required before the
-bounded package can be called externally closed.
+assertions. Fresh external review independently supported the theorem and found no route/screen
+conflation or ownership promotion, but required replay repairs. Those repairs were preregistered at
+`f91bfb85`. The strengthened independent implementation now supplies 32,000 checks over 1,000
+random frames, reconstructs both members directly from `(p,v)`, and retains maximum error
+`4.1389114358025836e-13`. Eight direct mathematical and fourteen semantic hostile mutations are
+caught. Repository and sealed intake rebuilds are byte-identical. The current premise registry
+passes. Repair-only external follow-up remains required before the package is externally closed.
