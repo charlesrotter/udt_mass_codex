@@ -39,14 +39,16 @@ def resolve_source(relative: Path) -> Path:
 def main() -> None:
     required = (
         "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
-        "PREMISE_LEDGER.tsv", "SOURCE_SCOPE.tsv", "SOURCE_MANIFEST.tsv",
+        "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "SOURCE_SCOPE.tsv",
+        "SOURCE_MANIFEST.tsv",
         "COMPLETENESS_MAP.md", "derive_directed_member_reconstruction.py",
         "verify_directed_member_independent.py", "run_catch_proofs.py",
         "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
         "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv", "STATUS_LEDGER.tsv",
         "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
         "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md",
-        "VERIFICATION_RESULT.json", "verify_package.py",
+        "VERIFICATION_RESULT.json", "EXTERNAL_REVIEW_REQUEST.md",
+        "build_review_intake.py", "verify_package.py",
     )
     for name in required:
         assert (HERE / name).is_file(), name
@@ -57,6 +59,7 @@ def main() -> None:
     )
     catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
     verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
 
     assert derivation["status"] == "PASS"
     assert derivation["landing_candidate"] == 2
@@ -91,6 +94,9 @@ def main() -> None:
     assert verification["status"] == "INTERNAL_GATES_PASS_EXTERNAL_PENDING"
     assert verification["premise_audit"] == "PASS"
     assert verification["repository_regression"] == "199_passed_1_expected_xfail"
+    assert premise_audit["status"] == "PASS"
+    assert premise_audit["registry_rows"] == 289
+    assert len(premise_audit["registry_sha256"]) == 64
 
     expected_census = (
         ("round_metric_only", "two_S2_families", "no_member"),
