@@ -1,0 +1,3632 @@
+Script started on 2026-08-31 11:38:16-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a05878-a62b-7142-8240-1039548fb129
+--------
+user
+The sealed intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake; do not edit evidence files or continue the research. Internet access, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Re-derive the load-bearing theorem independently and run registered standard-library checks only in an ephemeral copy. Do not select or propose a UDT field equation, action, source, matter model, physical history, mass law, numerical scale, observation, or X_max.\n\n# G308 fresh adversarial review request
+
+Review only the sealed intake. Do not continue the research or propose a replacement UDT law.
+
+## Question
+
+Does the bounded positive-standard G305 evidence prove that both G307 chiral Hopf members extend
+smoothly and causally over the complete `R x S3` geometry, that connected regular carry forbids a
+local chirality switch, and that a transverse-orientation-reversing metric isometry exchanges the
+two global sectors—while the metric alone still selects neither physical sector?
+
+## Required attacks
+
+1. Independently rederive the global fields `K_+(q)=J_+q` and `K_-(q)=J_-q` for every oriented
+   orthonormal frame, not merely the registered samples. Check smoothness, nonvanishing, closed
+   spatial orbits, and completeness for every positive scale.
+2. Audit time carry on `g=-dT^2+a(T)^2 gamma_1`. Verify or refute
+   `nabla_T(K/a)=0`, and distinguish spatial great-circle geodesics from four-dimensional
+   spacetime geodesics. Treat any conflation as a scientific defect.
+3. Verify that the reflection fixing the directed route plane and reversing the transverse screen
+   is a global isometry for arbitrary positive `a(T)`, exchanges `J_+` and `J_-`, lies in `O(4)`
+   with determinant `-1`, and cannot be replaced by an `SO(4)` exchange.
+4. Audit the connectedness claim carefully. Determine whether chirality can change continuously
+   while remaining in the registered regular orthogonal-complex/Hopf stratum, and state exactly
+   which degeneracy, discontinuity, singularity, boundary, or topology-changing routes remain
+   outside the theorem.
+5. Check pair reversal separately from parity. Verify whether `J -> -J` preserves the four-
+   dimensional Pfaffian chirality and whether G308 has typed reversal correctly.
+6. Audit the equivalence language. If spacetime or screen orientation is forgotten, determine
+   whether the two representatives form one full-`O(4)` mirror orbit. If orientation is retained,
+   determine whether they remain two distinguishable but unselected `SO(4)` sectors. Do not
+   silently treat an orientation-reversing isometry as physical gauge.
+7. Audit ownership. Global coherence may restrict one connected realization to constant
+   chirality, but it must not be promoted to physical population of either sign, dynamics,
+   history, stability, mass, source, scale, or `X_max`.
+8. Run the registered checks in a writable ephemeral copy and inspect for shared-code false
+   independence, vacuous assertions, missing branches, and loose tolerances. Confirm that G308
+   changes neither the G305 metric nor the reciprocal kernel.
+
+## Required response
+
+Lead with one exact verdict token:
+
+- `G308_BOUNDED_RESULT_ACCEPTED`
+- `G308_REPAIRABLE_DEFECTS`
+- `G308_SCIENTIFIC_DEFECT`
+- `G308_INCONSISTENT_OR_UNCLASSIFIED`
+
+Then list findings by severity, give the strongest defensible landing, report every command run,
+and distinguish scientific defects from replay or packaging defects. Do not edit evidence files
+and do not continue the research beyond this bounded adjudication.
+codex
+I’m treating this as a bounded forensic review of `/intake` only. I’ll first inventory the sealed intake, identify the G305/G307/G308 materials and registered checks, then run those checks only from an ephemeral copy under `/work`.
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+exec
+/bin/bash -lc pwd in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+ succeeded in 0ms:
+/return
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type d | sort' in /return
+ succeeded in 0ms:
+/intake
+/intake/frozen_current
+/intake/frozen_sources
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30
+/intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+
+codex
+`rg` is unavailable here, so I’m falling back to `find`/`grep`. Next I’m locating the intake documents, code, and test entry points tied to G305/G307/G308.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/TOPOLOGY_CENSUS.tsv
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+/intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+/intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COMMANDS.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COMPLETENESS_MAP.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EVIDENCE_GATES.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXACT_DERIVATION.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXTERNAL_REVIEW_REQUEST.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/LAY_REPORT.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/MAP.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PONDER.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREMISE_AUDIT_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREMISE_LEDGER.tsv
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREREGISTRATION.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREREGISTRATION_ANCESTRY.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/RUN_RECORD.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/SOURCE_MANIFEST.tsv
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/SOURCE_SCOPE.tsv
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/STATUS_LEDGER.tsv
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/VERIFICATION_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/run_catch_proofs.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py
+
+exec
+/bin/bash -lc "find /intake -maxdepth 4 -type f \\( -name '*.py' -o -name '*.md' -o -name '*.txt' -o -name '*.json' -o -name '*.toml' -o -name 'Makefile' -o -name '*.sh' \\) | sort" in /return
+ succeeded in 0ms:
+/intake/REVIEW_SCOPE.json
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+/intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COMMANDS.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COMPLETENESS_MAP.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EVIDENCE_GATES.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXACT_DERIVATION.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXTERNAL_REVIEW_REQUEST.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/LAY_REPORT.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/MAP.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PONDER.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREMISE_AUDIT_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREREGISTRATION.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/PREREGISTRATION_ANCESTRY.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/RUN_RECORD.md
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/VERIFICATION_RESULT.json
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/run_catch_proofs.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py
+/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py
+
+codex
+I have the intake inventory. Now I’m reading the scope, premises, derivation, and verification scripts to separate the scientific claim from the packaging and replay machinery before I execute anything.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /return
+ succeeded in 0ms:
+{
+  "allowed": [
+    "read intake",
+    "independently rederive the bounded theorem",
+    "run registered checks in a writable ephemeral copy",
+    "write review response outside intake"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue research",
+    "access repository or protected packages",
+    "use internet or unsealed observations",
+    "import field equation action source matter model physical population mass law fit scale or X_max",
+    "change registered question",
+    "promote metric coherence or mirror equivalence into physical population of a chirality"
+  ],
+  "frozen_current_count": 2,
+  "frozen_source_count": 9,
+  "package": "udt_g308_global_chirality_coherence_parity_classification_2026-08-31",
+  "package_file_count": 27,
+  "question": "audit the bounded global coherence parity and chirality classification on the positive standard G305 completion and its retained physical-population boundary",
+  "schema": "UDT_G308_FRESH_REVIEW_SCOPE_V1"
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md" in /return
+ succeeded in 0ms:
+# Premises
+`LIVE.md` and TSV own status.
+## Foundational relation
+
+| Object | Status | What is owned | What remains open |
+|---|---|---|---|
+| `c_E`, `G_obs` | `OBSERVED` | Anchors | Closure |
+| Reciprocal character | `DERIVED` | Determinant-one block on supplied depth | Values; `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` | Factorization | Owner |
+| Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
+| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
+| Pair-clock/state network | G215/G216--G276 | Carry/projective/scale descent | History/aggregation |
+| UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
+| Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
+| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale/history/`X_max` |
+| Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
+| Projective pair coordinate | `DERIVED` in declared class/radial stratum | `chi=tanh(phi_pair)` plus open-ball vector | Adoption; scale; completion |
+| Co-presence | `WORKING` | Membership | Population; signalling |
+| G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Constraint/update formula; history |
+| Non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` W6 | Nonpropagating relational membership; metric-causal controllable response | Constraint/update formula; population; history; global-now ownership |
+
+## Reconstruction hierarchy
+
+| Result | Bounded status | Maximum conclusion |
+|---|---|---|
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
+| G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198 | accepted/caveats | Reconstruction and chosen controls; germ/history open |
+| G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210 | verified/caveats | Direction, quiet, completion, channels |
+| G211/G212/G213/G214/G215/G216/G217/G218/G219 | accepted/caveats | Rank, clock, correspondence; flow open |
+| G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231 | external/exact | Null/screen/curvature/jets; values open |
+| G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248 | external/repaired | Closure/observational/sky controls; nonselective |
+| G249/G250/G251/G252/G253/G254/G255/G256 | external/repaired | One scale; no residual or value propagation |
+| G257/G258/G259/G260/G261/G262/G263/G264 | external/repaired | GR/angular/W4/sign controls; law open |
+| G265/G266/G267/G268/G269/G270 | external/repaired | Mutual state; `M_PT<=sech(delta)`; screen retained |
+| G271/G272/G273/G274/G275/G276 | external/repaired | Projective state/carry; one conditional scale; history open |
+| G277 observational anchor ownership | external/repair accepted | Conditional Cepheid/optical route |
+| G278 Cepheid/DES holdout | external/repair accepted | Resolution-sensitive lead |
+| G279 native-interface provenance | external/repair | Native core intact |
+| G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
+| G281 SNe audit | external/repair accepted | No native prediction; redshift survives |
+| G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
+| G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
+| G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
+| G285 complete-separation retyping | external/repairs confirmed | Same `phi`, different complete separation; propagation open |
+| G286 propagation discriminator | external/repairs accepted | Same prior jets, inequivalent futures; no identity propagation |
+| G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
+| G288/G289/G290/G291/G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
+| G293 architecture funnel | internal/caveats | Homogeneous flow uncalibrated; local flux free; no law |
+| G294 co-presence architecture | internal/caveats | Nonpropagating connectedness; causal update missing |
+| G295 causal-history classification | internal/caveats | Covariant law type; `AU=RA`; formula/history open |
+| G296 residual-order map | external/repairs | Metric minimal; curvature first local natural order; no formula |
+| G297 causal-dilation equivalence | external/repairs | Conditional radar germs; scalar collapse refuted; transfer open |
+| G298 relation/pair projection | external/repairs | Path-labelled state; multiple projections; physical choice open |
+| G299 kernel-domain ownership | external/repairs | Complete frame carry required; query subfunctor open |
+| G300 celestial query ownership | external refutation/repaired | Exact sky action; no owned lawful query family |
+| G301 principal classes | external/repairs | Ricci-flat or trace-free Ricci; neither selected |
+| G302 span/channel separation | external/repairs | 9 shape plus 1 scale direction; no selection |
+| G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
+| G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
+| G305 Hopf domain | external/repairs | Positive completion: compact `S3`; physical map/dynamics/scale open |
+| G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
+None selects completion/`X_max`.
+## Scale and limits
+
+| Object | Status | Guard |
+|---|---|---|
+| `X_max` | working asymptotic global-completion consequence target | Requires global completion; not an input, wall, center, seam, or boundary term |
+| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
+| Common-factor cancellation | `DERIVED` algebra only | Not Weyl gauge or scale-free proof |
+| Founded pair common scale | `FIXED` in bounded block | Determinant-one pair block; not a complete-metric theorem |
+| General complete pair scale | `CONDITIONAL/RETAINED` | Present after supplied complete assembly |
+| Common-scale principal rank | `DERIVED` source-bounded zero | No active `kappa` equation; not a no-go |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` composition permits changing ratios; screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4`; not physical history |
+| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+## Geometry, query, and causality
+
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
+  G282--G293 separate tide, sign, center jets, topology, local flux, and history without selecting
+  their values. G294 types “foundational infinite c” as nonpropagating relation, not signal speed;
+  instant enforcement can signal. W6 adopts only the non-signalling type. G295's `AU=RA` controls
+  bounded propagation but selects no formula or history. G296 finds the complete metric minimal and
+  curvature the first local natural nonidentity order, not a law.
+  G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
+  leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
+  G302 selects neither. G303 gives each fixed sector the same local causal principal system; the
+  broader class adds one regional constant. `WORKING` G17 and G304 distinguish only the positive
+  static sign. G305 adds compact `S3` slices. G306 derives two metric-intrinsic Hopf-congruence
+  families and a normalized invariant for a supplied member, while isotropy selects no physical
+  member; population, target, dynamics, history, magnitude, mass, and `X_max` remain open. W1
+  stays evaluative.
+
+## Carrier, action, source, and matter
+
+| Object | Status | Maximum statement |
+|---|---|---|
+| Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
+| Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
+| EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
+| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+## Observational boundary
+
+R2--R5 select no scale or `X_max`; G277--G306 leave law selection and realized history open. No native SNe
+prediction or value law follows.
+
+## How to use the registry
+
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority; conflicts stop. Run
+`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXTERNAL_REVIEW_REQUEST.md" in /return
+ succeeded in 0ms:
+# G308 fresh adversarial review request
+
+Review only the sealed intake. Do not continue the research or propose a replacement UDT law.
+
+## Question
+
+Does the bounded positive-standard G305 evidence prove that both G307 chiral Hopf members extend
+smoothly and causally over the complete `R x S3` geometry, that connected regular carry forbids a
+local chirality switch, and that a transverse-orientation-reversing metric isometry exchanges the
+two global sectors—while the metric alone still selects neither physical sector?
+
+## Required attacks
+
+1. Independently rederive the global fields `K_+(q)=J_+q` and `K_-(q)=J_-q` for every oriented
+   orthonormal frame, not merely the registered samples. Check smoothness, nonvanishing, closed
+   spatial orbits, and completeness for every positive scale.
+2. Audit time carry on `g=-dT^2+a(T)^2 gamma_1`. Verify or refute
+   `nabla_T(K/a)=0`, and distinguish spatial great-circle geodesics from four-dimensional
+   spacetime geodesics. Treat any conflation as a scientific defect.
+3. Verify that the reflection fixing the directed route plane and reversing the transverse screen
+   is a global isometry for arbitrary positive `a(T)`, exchanges `J_+` and `J_-`, lies in `O(4)`
+   with determinant `-1`, and cannot be replaced by an `SO(4)` exchange.
+4. Audit the connectedness claim carefully. Determine whether chirality can change continuously
+   while remaining in the registered regular orthogonal-complex/Hopf stratum, and state exactly
+   which degeneracy, discontinuity, singularity, boundary, or topology-changing routes remain
+   outside the theorem.
+5. Check pair reversal separately from parity. Verify whether `J -> -J` preserves the four-
+   dimensional Pfaffian chirality and whether G308 has typed reversal correctly.
+6. Audit the equivalence language. If spacetime or screen orientation is forgotten, determine
+   whether the two representatives form one full-`O(4)` mirror orbit. If orientation is retained,
+   determine whether they remain two distinguishable but unselected `SO(4)` sectors. Do not
+   silently treat an orientation-reversing isometry as physical gauge.
+7. Audit ownership. Global coherence may restrict one connected realization to constant
+   chirality, but it must not be promoted to physical population of either sign, dynamics,
+   history, stability, mass, source, scale, or `X_max`.
+8. Run the registered checks in a writable ephemeral copy and inspect for shared-code false
+   independence, vacuous assertions, missing branches, and loose tolerances. Confirm that G308
+   changes neither the G305 metric nor the reciprocal kernel.
+
+## Required response
+
+Lead with one exact verdict token:
+
+- `G308_BOUNDED_RESULT_ACCEPTED`
+- `G308_REPAIRABLE_DEFECTS`
+- `G308_SCIENTIFIC_DEFECT`
+- `G308_INCONSISTENT_OR_UNCLASSIFIED`
+
+Then list findings by severity, give the strongest defensible landing, report every command run,
+and distinguish scientific defects from replay or packaging defects. Do not edit evidence files
+and do not continue the research beyond this bounded adjudication.
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G308 exact derivation — coherence fixes a global sector, not its handedness
+
+Date: 2026-08-31
+Grade: `INTERNALLY_DERIVED_WITH_CAVEATS`
+
+## Bounded landing
+
+```text
+BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305
+__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING
+__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS
+__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN
+```
+
+This is preregistered candidate B. “Causally” means that both fields live smoothly on the same
+causal G305 spacetime and leave its metric and light cones unchanged. It does not mean that Hopf
+fibers are signals or four-dimensional causal trajectories.
+
+## 1. Exact arena
+
+The positive G305 standard completion is
+
+\[
+g=-dT^2+a(T)^2\gamma_1,
+\qquad
+a(T)=X\cosh(T/X)>0,
+\]
+
+on \(\mathbb R_T\times S^3\), where \(\gamma_1\) is the unit-round metric. For one supplied regular
+directed germ \((p,v)\), G307 reconstructs one orthogonal complex structure in each G306 chirality.
+Choose an oriented screen \((w,z)\) so \((p,v,w,z)\) is positively oriented. The two structures are
+
+\[
+J_+
+=v\otimes p-p\otimes v+z\otimes w-w\otimes z,
+\]
+
+\[
+J_-
+=v\otimes p-p\otimes v-z\otimes w+w\otimes z.
+\]
+
+They agree on the route plane and act oppositely on the screen:
+
+\[
+J_\pm p=v,
+\quad J_\pm v=-p,
+\quad J_+w=z,
+\quad J_-w=-z.
+\]
+
+## 2. Both candidates are global
+
+For every \(q\in S^3\subset\mathbb R^4\), define
+
+\[
+K_\pm(q)=J_\pm q.
+\]
+
+Since \(J_\pm^T=-J_\pm\) and \(J_\pm^2=-I\),
+
+\[
+q\cdot K_\pm(q)=0,
+\qquad
+|K_\pm(q)|=1.
+\]
+
+Thus both are smooth, nowhere-zero global tangent fields. On a radius-\(a\) slice their unit fields
+are \(V_\pm=K_\pm/a\), and their spatial integral curves are the complete closed circles
+
+\[
+q(s)=\cos(s/a)q(0)+\sin(s/a)J_\pm q(0),
+\]
+
+of period \(2\pi a\). Global existence therefore rejects neither chirality.
+
+## 3. Exact time carry and its limit
+
+For a time-independent lifted spatial field \(K\) on a warped product,
+
+\[
+\nabla_{\partial_T}K=\frac{a'}aK.
+\]
+
+Consequently,
+
+\[
+\boxed{
+\nabla_{\partial_T}\left(\frac Ka\right)=0.
+}
+\]
+
+Both normalized fields carry smoothly through every finite G305 time. This is kinematic carry on a
+supplied metric, not a field equation or physical evolution law.
+
+Spatially, each Hopf fiber is geodesic within its round slice. It is not automatically a
+four-dimensional spacetime geodesic: the warped-product connection gives
+
+\[
+\nabla^{(4)}_{V_\pm}V_\pm
+=\frac{a'}a\,\partial_T,
+\]
+
+which vanishes only where \(a'=0\). G308 therefore does not reinterpret the spatial fibers as
+signals or observer worldlines.
+
+## 4. A global mirror fixes the route and exchanges the candidates
+
+Define the orthogonal reflection
+
+\[
+S
+=p\otimes p+v\otimes v+w\otimes w-z\otimes z.
+\]
+
+Then
+
+\[
+S^2=I,
+\qquad
+\det S=-1,
+\]
+
+\[
+Sp=p,
+\quad Sv=v,
+\quad Sw=w,
+\quad Sz=-z,
+\]
+
+and exactly
+
+\[
+\boxed{SJ_+S^{-1}=J_-.}
+\]
+
+The map
+
+\[
+\mathcal P:(T,q)\mapsto(T,Sq)
+\]
+
+is a global isometry of the entire G305 warped product for every positive \(a(T)\). It fixes the
+supplied directed route plane, preserves the unoriented screen plane, reverses its orientation,
+and pushes the \(+\) field to the \(-\) field. Therefore the two candidates lie in one orbit of the
+full orientation-forgetting metric isometry group.
+
+This does not erase G307's signed-screen discriminator. If a signed transverse screen is retained
+as marked query data, \(\mathcal P\) is not query-preserving because it reverses that sign.
+
+## 5. Why orientation-preserving coherence leaves two sectors
+
+For a skew \(4\times4\) complex structure, let \(\operatorname{Pf}(J)=\pm1\) be its Pfaffian sign.
+Under an orthogonal change of frame \(R\),
+
+\[
+\operatorname{Pf}(RJR^T)
+=\det(R)\operatorname{Pf}(J).
+\]
+
+The two G307 candidates have opposite Pfaffian signs. Hence an `SO(4)` transformation preserves
+chirality and cannot exchange them, while a determinant-minus-one transformation does exchange
+them. With a supplied global orientation there are two distinguishable but symmetry-degenerate
+sectors. With orientation forgotten there is one mirror-equivalence class. Neither statement
+prefers a physical sign.
+
+## 6. What connected coherence really adds
+
+The chirality sign is a continuous map from the regular orthogonal-complex-structure arena to the
+discrete set \(\{+1,-1\}\). It is therefore constant on every connected smooth regular family.
+A direct interpolation between the two G307 representatives confirms the obstruction: at its
+midpoint the screen action vanishes, the determinant is zero, and \(J^2=-I\) fails.
+
+Thus a coherent regular spacetime cannot choose left in one region and right in another without
+leaving the G306/G307 stratum through degeneracy, discontinuity, a boundary, singularity, or
+topology change. Coherence reduces arbitrary local binary assignments to one global binary sector;
+it does not select which sector.
+
+## 7. Pair reversal does not choose chirality
+
+Reversing the ordered germ sends \(v\mapsto-v\) and reconstructs \(J\mapsto-J\). In four real
+dimensions,
+
+\[
+\operatorname{Pf}(-J)=\operatorname{Pf}(J).
+\]
+
+Equivalently, \(V\mapsto-V\) reverses fiber orientation while
+\(\alpha\wedge d\alpha\) retains its sign. Pair reversal therefore remains inside the same
+chirality component.
+
+## 8. Causal and metric equivalence
+
+For any tangent vector \((u,Y)\),
+
+\[
+g((u,Y),(u,Y))=-u^2+a(T)^2\gamma_1(Y,Y).
+\]
+
+Because \(S\) is orthogonal, this quadratic form is unchanged by \((u,Y)\mapsto(u,SY)\). Timelike,
+null, and spacelike classes and every metric curvature invariant are identical. Orientation-even
+field invariants also agree. Signed helicity distinguishes the two only after orientation is
+supplied; it labels a sector but does not select one.
+
+## 9. Ownership conclusion
+
+Additional supplied germs can test whether a proposed network belongs to one single global Hopf
+member. A mismatched set is rejected as incoherent. But every coherent `+` network has a mirrored
+coherent `-` network unless signed transverse orientation is independently retained. The current
+metric therefore supplies a consistency test, not a physical population or parity law.
+
+No metric or reciprocal-kernel term changed. Physical query/route/screen population, parity-
+sensitive dynamics, stability, matter, mass, scale, observation, history, and physical `X_max`
+remain open.
+
+## 10. Evidence
+
+- preregistered and pushed at `aaea5c12` before any executable or outcome;
+- 11,526 exact rational production assertions over 36 directed frames, 216 global points, both
+  chiralities, five scale/rate controls, pair reversal, and the conjugating reflection;
+- 79,200 implementation-distinct checks over 1,200 random oriented frames, maximum normalized
+  error `2.020605904817785e-14`, no production import;
+- eight direct mathematical and fourteen semantic hostile mutations caught;
+- current premise verifier passed after the result.
+
+codex
+The derivation claims the right distinctions so far, but I need to verify that the executable checks actually cover those claims independently and don’t smuggle them through shared code. I’m reading the package scripts and prior G305/G307 outputs next, then I’ll replay the registered checks from `/work`.
+Reviewing the sealed G308 intake requires separating scientific claims from verification machinery, then replaying the registered checks in an ephemeral copy and assessing independence and coverage.
+  → Read G305/G307/G308 derivation materials and verification scripts from /intake only
+  • Independently assess the geometry, chirality, parity, and connectedness claims against the bounded premises
+  • Replay registered standard-library checks from an ephemeral /work copy and inspect for false independence or vacuous coverage
+  • Deliver a severity-ordered verdict with scientific vs packaging defects and full command log
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact standard-library derivation for the bounded G308 classification."""
+
+from __future__ import annotations
+
+import csv
+import itertools
+import json
+from fractions import Fraction as F
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "DERIVATION_RESULT.json"
+CENSUS = HERE / "COHERENCE_CENSUS.tsv"
+LANDING = (
+    "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305"
+    "__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING"
+    "__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS"
+    "__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN"
+)
+Z = F(0)
+O = F(1)
+
+
+def qmul(a, b):
+    aw, ax, ay, az = a
+    bw, bx, by, bz = b
+    return (
+        aw * bw - ax * bx - ay * by - az * bz,
+        aw * bx + ax * bw + ay * bz - az * by,
+        aw * by - ax * bz + ay * bw + az * bx,
+        aw * bz + ax * by - ay * bx + az * bw,
+    )
+
+
+def qconj(q):
+    return (q[0], -q[1], -q[2], -q[3])
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def add(a, b):
+    return tuple(x + y for x, y in zip(a, b))
+
+
+def scale(c, a):
+    return tuple(c * x for x in a)
+
+
+def stereo(t):
+    squared = sum(x * x for x in t)
+    denominator = O + squared
+    return ((O - squared) / denominator,) + tuple(2 * x / denominator for x in t)
+
+
+def outer(a, b):
+    return tuple(tuple(a[i] * b[j] for j in range(4)) for i in range(4))
+
+
+def matadd(*matrices):
+    return tuple(
+        tuple(sum(matrix[i][j] for matrix in matrices) for j in range(4))
+        for i in range(4)
+    )
+
+
+def matscale(c, matrix):
+    return tuple(tuple(c * value for value in row) for row in matrix)
+
+
+def matvec(matrix, vector):
+    return tuple(sum(matrix[i][j] * vector[j] for j in range(4)) for i in range(4))
+
+
+def matmul(a, b):
+    return tuple(
+        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+        for i in range(4)
+    )
+
+
+def transpose(matrix):
+    return tuple(tuple(matrix[j][i] for j in range(4)) for i in range(4))
+
+
+def determinant(matrix):
+    result = Z
+    for permutation in itertools.permutations(range(4)):
+        inversions = sum(
+            permutation[i] > permutation[j]
+            for i in range(4)
+            for j in range(i + 1, 4)
+        )
+        term = O if inversions % 2 == 0 else -O
+        for i in range(4):
+            term *= matrix[i][permutation[i]]
+        result += term
+    return result
+
+
+def from_action(action):
+    basis = (
+        (O, Z, Z, Z),
+        (Z, O, Z, Z),
+        (Z, Z, O, Z),
+        (Z, Z, Z, O),
+    )
+    columns = [action(vector) for vector in basis]
+    return tuple(tuple(columns[j][i] for j in range(4)) for i in range(4))
+
+
+def columns(vectors):
+    return tuple(tuple(vectors[j][i] for j in range(4)) for i in range(4))
+
+
+def complex_structure(p, v, w, z, chirality):
+    route = matadd(outer(v, p), matscale(-O, outer(p, v)))
+    screen = matadd(outer(z, w), matscale(-O, outer(w, z)))
+    return matadd(route, matscale(chirality, screen))
+
+
+def reflection(p, v, w, z):
+    return matadd(outer(p, p), outer(v, v), outer(w, w), matscale(-O, outer(z, z)))
+
+
+def pfaffian(matrix):
+    return (
+        matrix[0][1] * matrix[2][3]
+        - matrix[0][2] * matrix[1][3]
+        + matrix[0][3] * matrix[1][2]
+    )
+
+
+def main():
+    identity = tuple(tuple(O if i == j else Z for j in range(4)) for i in range(4))
+    minus_identity = matscale(-O, identity)
+    imaginary_basis = (
+        (Z, O, Z, Z),
+        (Z, Z, O, Z),
+        (Z, Z, Z, O),
+    )
+    parameters = (
+        (F(0), F(0), F(0)),
+        (F(1, 2), F(0), F(0)),
+        (F(1, 3), F(1, 4), F(0)),
+        (F(-2, 5), F(1, 3), F(1, 7)),
+        (F(2, 3), F(-1, 5), F(3, 8)),
+        (F(-3, 7), F(-2, 9), F(1, 6)),
+    )
+    circle_pairs = (
+        (F(3, 5), F(4, 5)),
+        (F(5, 13), F(12, 13)),
+        (F(-8, 17), F(15, 17)),
+    )
+    scale_controls = (
+        (F(1, 2), F(-3, 7)),
+        (F(1), F(0)),
+        (F(7, 3), F(2, 5)),
+        (F(5), F(-4, 9)),
+        (F(19, 4), F(11, 13)),
+    )
+    assertions = 0
+
+    def check(condition, label):
+        nonlocal assertions
+        assert condition, label
+        assertions += 1
+
+    frame_cases = 0
+    global_point_cases = 0
+    for point_parameters in parameters:
+        p = stereo(point_parameters)
+        check(dot(p, p) == O, "unit supplied point")
+        for rotation_parameters in parameters:
+            rotation = stereo(rotation_parameters)
+            rotation_bar = qconj(rotation)
+            u, e, f = (
+                qmul(qmul(rotation, axis), rotation_bar) for axis in imaginary_basis
+            )
+            v = qmul(u, p)
+            w = qmul(e, p)
+            z = qmul(f, p)
+            frame = (p, v, w, z)
+            check(matmul(transpose(columns(frame)), columns(frame)) == identity, "oriented orthonormal frame")
+            check(determinant(columns(frame)) == O, "positive frame orientation")
+
+            left = complex_structure(p, v, w, z, O)
+            right = complex_structure(p, v, w, z, -O)
+            quaternion_left = from_action(lambda x, ul=qmul(v, qconj(p)): qmul(ul, x))
+            quaternion_right = from_action(lambda x, ur=qmul(qconj(p), v): qmul(x, ur))
+            check(left == quaternion_left, "left G307 reconstruction")
+            check(right == quaternion_right, "right G307 reconstruction")
+            for candidate, label in ((left, "left"), (right, "right")):
+                check(transpose(candidate) == matscale(-O, candidate), f"{label} skew")
+                check(matmul(candidate, candidate) == minus_identity, f"{label} complex")
+                check(matmul(transpose(candidate), candidate) == identity, f"{label} orthogonal")
+                check(matvec(candidate, p) == v, f"{label} supplied direction")
+                check(matvec(candidate, v) == scale(-O, p), f"{label} route closure")
+                check(abs(pfaffian(candidate)) == O, f"{label} chirality unit")
+            check(pfaffian(left) == -pfaffian(right), "opposite chirality")
+            check(matvec(left, w) == z and matvec(right, w) == scale(-O, z), "opposite screen turn")
+
+            mirror = reflection(p, v, w, z)
+            check(transpose(mirror) == mirror, "mirror symmetric")
+            check(matmul(mirror, mirror) == identity, "mirror involution")
+            check(determinant(mirror) == -O, "mirror orientation reversing")
+            check(matvec(mirror, p) == p and matvec(mirror, v) == v, "mirror fixes route germ")
+            check(matvec(mirror, w) == w and matvec(mirror, z) == scale(-O, z), "mirror reverses screen orientation")
+            check(matmul(matmul(mirror, left), mirror) == right, "mirror exchanges candidates")
+            check(pfaffian(right) == determinant(mirror) * pfaffian(left), "chirality transformation law")
+
+            reversed_left = matscale(-O, left)
+            reversed_right = matscale(-O, right)
+            check(matvec(reversed_left, p) == scale(-O, v), "left pair reversal")
+            check(matvec(reversed_right, p) == scale(-O, v), "right pair reversal")
+            check(pfaffian(reversed_left) == pfaffian(left), "left reversal preserves chirality")
+            check(pfaffian(reversed_right) == pfaffian(right), "right reversal preserves chirality")
+
+            midpoint = matscale(F(1, 2), matadd(left, right))
+            check(determinant(midpoint) == Z, "linear chirality switch degenerates")
+            check(matmul(midpoint, midpoint) != minus_identity, "switch leaves complex stratum")
+            check(matvec(midpoint, w) == (Z, Z, Z, Z), "switch loses transverse rank")
+
+            for global_parameters in parameters:
+                q = stereo(global_parameters)
+                for candidate, other, label in (
+                    (left, right, "left"),
+                    (right, left, "right"),
+                ):
+                    field = matvec(candidate, q)
+                    check(dot(q, field) == Z, f"{label} globally tangent")
+                    check(dot(field, field) == O, f"{label} globally nowhere zero")
+                    check(
+                        matvec(mirror, field)
+                        == matvec(other, matvec(mirror, q)),
+                        f"{label} global mirror equivariance",
+                    )
+                    for cosine, sine in circle_pairs:
+                        orbit_point = add(scale(cosine, q), scale(sine, field))
+                        check(dot(orbit_point, orbit_point) == O, f"{label} complete circle point")
+                        check(
+                            matvec(candidate, orbit_point)
+                            == add(scale(cosine, field), scale(-sine, q)),
+                            f"{label} circle flow",
+                        )
+                    for radius, radius_rate in scale_controls:
+                        unit_field = scale(O / radius, field)
+                        check(radius * radius * dot(unit_field, unit_field) == O, f"{label} slice unit norm")
+                        carry_coefficient = (
+                            -radius_rate / (radius * radius)
+                            + (O / radius) * (radius_rate / radius)
+                        )
+                        check(carry_coefficient == Z, f"{label} exact time-parallel unit carry")
+                        spacetime_acceleration = radius_rate / radius
+                        check(
+                            (spacetime_acceleration == Z) == (radius_rate == Z),
+                            f"{label} spacetime-geodesic iff static scale control",
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/run_catch_proofs.py" in /return
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile mathematical and ownership controls for G308."""
+
+from __future__ import annotations
+
+import copy
+import json
+from fractions import Fraction as F
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+SOURCE = HERE / "DERIVATION_RESULT.json"
+OUT = HERE / "CATCH_PROOF_RESULT.json"
+Z = F(0)
+O = F(1)
+
+
+def diagonal(values):
+    return tuple(
+        tuple(values[i] if i == j else Z for j in range(4))
+        for i in range(4)
+    )
+
+
+def matmul(a, b):
+    return tuple(
+        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+        for i in range(4)
+    )
+
+
+def matvec(a, v):
+    return tuple(sum(a[i][j] * v[j] for j in range(4)) for i in range(4))
+
+
+def transpose(a):
+    return tuple(tuple(a[j][i] for j in range(4)) for i in range(4))
+
+
+def matscale(c, a):
+    return tuple(tuple(c * value for value in row) for row in a)
+
+
+def matadd(a, b):
+    return tuple(tuple(a[i][j] + b[i][j] for j in range(4)) for i in range(4))
+
+
+def determinant(a):
+    # Sufficient exact elimination for the fixed witnesses below.
+    work = [list(row) for row in a]
+    result = O
+    for column in range(4):
+        pivot = next((row for row in range(column, 4) if work[row][column] != Z), None)
+        if pivot is None:
+            return Z
+        if pivot != column:
+            work[column], work[pivot] = work[pivot], work[column]
+            result = -result
+        pivot_value = work[column][column]
+        result *= pivot_value
+        for j in range(column, 4):
+            work[column][j] /= pivot_value
+        for row in range(column + 1, 4):
+            factor = work[row][column]
+            for j in range(column, 4):
+                work[row][j] -= factor * work[column][j]
+    return result
+
+
+def pfaffian(a):
+    return a[0][1] * a[2][3] - a[0][2] * a[1][3] + a[0][3] * a[1][2]
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def direct_mathematical_mutations():
+    left = (
+        (Z, -O, Z, Z),
+        (O, Z, Z, Z),
+        (Z, Z, Z, -O),
+        (Z, Z, O, Z),
+    )
+    right = (
+        (Z, -O, Z, Z),
+        (O, Z, Z, Z),
+        (Z, Z, Z, O),
+        (Z, Z, -O, Z),
+    )
+    mirror = diagonal((O, O, O, -O))
+    identity = diagonal((O, O, O, O))
+    p = (O, Z, Z, Z)
+    v = (Z, O, Z, Z)
+    w = (Z, Z, O, Z)
+    z = (Z, Z, Z, O)
+    q = (F(1, 2), F(1, 2), F(1, 2), F(1, 2))
+    records = []
+
+    def caught(name, condition, expected):
+        assert condition, name
+        records.append({"case": name, "caught": True, "expected": expected})
+
+    caught(
+        "false_one_sided_global_failure",
+        dot(matvec(left, q), matvec(left, q)) == O
+        and dot(matvec(right, q), matvec(right, q)) == O,
+        "both_global_fields",
+    )
+    caught(
+        "orientation_preserving_chirality_exchange",
+        pfaffian(left) == pfaffian(matmul(matmul(identity, left), transpose(identity)))
+        and pfaffian(left) != pfaffian(right),
+        "SO4_chirality_preservation",
+    )
+    midpoint = matscale(F(1, 2), matadd(left, right))
+    caught(
+        "smooth_local_chirality_switch",
+        determinant(midpoint) == Z,
+        "switch_leaves_regular_complex_stratum",
+    )
+    caught(
+        "pair_reversal_changes_chirality",
+        pfaffian(matscale(-O, left)) == pfaffian(left)
+        and pfaffian(matscale(-O, right)) == pfaffian(right),
+        "reversal_preserves_chirality",
+    )
+    caught(
+        "screen_preserving_parity_exchange",
+        matmul(matmul(mirror, left), mirror) == right
+        and matvec(mirror, p) == p
+        and matvec(mirror, v) == v
+        and matvec(mirror, w) == w
+        and matvec(mirror, z) == (Z, Z, Z, -O),
+        "exchange_reverses_transverse_orientation",
+    )
+    radius = F(7, 3)
+    spatial = (Z, Z, F(3, 5), F(4, 5))
+    reflected_spatial = matvec(mirror, spatial)
+    dt = F(5, 7)
+    before = -dt * dt + radius * radius * dot(spatial, spatial)
+    after = -dt * dt + radius * radius * dot(reflected_spatial, reflected_spatial)
+    caught(
+        "causal_cone_difference",
+        before == after,
+        "metric_and_causal_form_preserved",
+    )
+    expanding_radius = F(2)
+    expanding_radius_rate = F(1)
+    spacetime_time_acceleration = expanding_radius_rate / expanding_radius
+    caught(
+        "spatial_Hopf_fiber_called_spacetime_geodesic",
+        spacetime_time_acceleration == F(1, 2) and spacetime_time_acceleration != Z,
+        "nonzero_expanding_warp_time_acceleration",
+    )
+    caught(
+        "full_O4_fails_to_exchange",
+        determinant(mirror) == -O and matmul(matmul(mirror, left), mirror) == right,
+        "orientation_reversing_exchange",
+    )
+    return records
+
+
+def failure(result):
+    if result["metric_and_kernel_changed"]:
+        return "kernel_change"
+    if result["metric_or_causal_cone_changed"]:
+        return "causal_change"
+    if not result["both_global_smooth_nowhere_zero"]:
+        return "global_field_failure"
+    if result["SO4_exchanges_chirality"]:
+        return "SO4_false_exchange"
+    if not result["full_O4_exchanges_chirality"]:
+        return "O4_exchange_missing"
+    if result["pair_reversal_changes_chirality"]:
+        return "reversal_mistyped"
+    if result["connected_regular_carry_allows_local_chirality_switch"]:
+        return "switch_mistyped"
+    if result["spatial_hopf_fibers_automatically_spacetime_geodesic"]:
+        return "spacetime_geodesic_overclaim"
+    if result["physical_member_selected"]:
+        return "population_promotion"
+    required = {"action", "dynamics", "mass", "scale_selection", "physical_Xmax", "protected_work"}
+    if not required.issubset(result["omitted"]):
+        return "scope_export"
+    return None
+
+
+def main():
+    baseline = json.loads(SOURCE.read_text(encoding="utf-8"))
+    assert failure(baseline) is None
+    semantic_mutations = (
+        ("kernel_modified", "metric_and_kernel_changed", True, "kernel_change"),
+        ("causal_cone_changed", "metric_or_causal_cone_changed", True, "causal_change"),
+        ("one_global_field_fails", "both_global_smooth_nowhere_zero", False, "global_field_failure"),
+        ("SO4_selects_exchange", "SO4_exchanges_chirality", True, "SO4_false_exchange"),
+        ("pair_reversal_switches_sector", "pair_reversal_changes_chirality", True, "reversal_mistyped"),
+        ("local_chirality_switch_allowed", "connected_regular_carry_allows_local_chirality_switch", True, "switch_mistyped"),
+        ("spatial_fibers_called_spacetime_geodesics", "spatial_hopf_fibers_automatically_spacetime_geodesic", True, "spacetime_geodesic_overclaim"),
+        ("coherence_called_physical_population", "physical_member_selected", True, "population_promotion"),
+    )
+    semantic_records = []
+    for name, key, replacement, expected in semantic_mutations:
+        trial = copy.deepcopy(baseline)
+        trial[key] = replacement
+        actual = failure(trial)
+        assert actual == expected, (name, actual, expected)
+        semantic_records.append({"case": name, "caught": True, "expected": expected})
+
+    for omitted in ("action", "dynamics", "mass", "scale_selection", "physical_Xmax", "protected_work"):
+        trial = copy.deepcopy(baseline)
+        trial["omitted"].remove(omitted)
+        assert failure(trial) == "scope_export"
+        semantic_records.append({
+            "case": f"promote_{omitted}",
+            "caught": True,
+            "expected": "scope_export",
+        })
+
+    mathematical_records = direct_mathematical_mutations()
+    records = mathematical_records + semantic_records
+    result = {
+        "status": "PASS",
+        "baseline_valid": True,
+        "direct_mathematical_mutations": len(mathematical_records),
+        "semantic_result_mutations": len(semantic_records),
+        "hostile_cases": len(records),
+        "records": records,
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct numerical verification of the bounded G308 result."""
+
+from __future__ import annotations
+
+import itertools
+import json
+import math
+import random
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "INDEPENDENT_VERIFICATION.json"
+SEED = 3080831
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def add(a, b):
+    return tuple(x + y for x, y in zip(a, b))
+
+
+def scale(c, a):
+    return tuple(c * x for x in a)
+
+
+def norm(a):
+    return math.sqrt(dot(a, a))
+
+
+def normalize(a):
+    length = norm(a)
+    if length < 1e-12:
+        raise ValueError("degenerate vector")
+    return scale(1.0 / length, a)
+
+
+def outer(a, b):
+    return tuple(tuple(a[i] * b[j] for j in range(4)) for i in range(4))
+
+
+def matadd(*matrices):
+    return tuple(
+        tuple(sum(matrix[i][j] for matrix in matrices) for j in range(4))
+        for i in range(4)
+    )
+
+
+def matscale(c, matrix):
+    return tuple(tuple(c * value for value in row) for row in matrix)
+
+
+def matvec(matrix, vector):
+    return tuple(sum(matrix[i][j] * vector[j] for j in range(4)) for i in range(4))
+
+
+def matmul(a, b):
+    return tuple(
+        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+        for i in range(4)
+    )
+
+
+def transpose(matrix):
+    return tuple(tuple(matrix[j][i] for j in range(4)) for i in range(4))
+
+
+def determinant(matrix):
+    result = 0.0
+    for permutation in itertools.permutations(range(4)):
+        inversions = sum(
+            permutation[i] > permutation[j]
+            for i in range(4)
+            for j in range(i + 1, 4)
+        )
+        term = 1.0 if inversions % 2 == 0 else -1.0
+        for i in range(4):
+            term *= matrix[i][permutation[i]]
+        result += term
+    return result
+
+
+def determinant3(matrix):
+    return (
+        matrix[0][0] * (matrix[1][1] * matrix[2][2] - matrix[1][2] * matrix[2][1])
+        - matrix[0][1] * (matrix[1][0] * matrix[2][2] - matrix[1][2] * matrix[2][0])
+        + matrix[0][2] * (matrix[1][0] * matrix[2][1] - matrix[1][1] * matrix[2][0])
+    )
+
+
+def columns(vectors):
+    return tuple(tuple(vectors[j][i] for j in range(4)) for i in range(4))
+
+
+def orthogonal_fourth(p, v, w):
+    rows = (p, v, w)
+    cofactors = []
+    for excluded in range(4):
+        minor = tuple(
+            tuple(row[j] for j in range(4) if j != excluded)
+            for row in rows
+        )
+        cofactors.append(((-1.0) ** excluded) * determinant3(minor))
+    z = normalize(tuple(cofactors))
+    if determinant(columns((p, v, w, z))) < 0.0:
+        z = scale(-1.0, z)
+    return z
+
+
+def random_unit(rng):
+    return normalize(tuple(rng.gauss(0.0, 1.0) for _ in range(4)))
+
+
+def random_frame(rng):
+    while True:
+        try:
+            p = random_unit(rng)
+            raw_v = tuple(rng.gauss(0.0, 1.0) for _ in range(4))
+            v = normalize(add(raw_v, scale(-dot(raw_v, p), p)))
+            raw_w = tuple(rng.gauss(0.0, 1.0) for _ in range(4))
+            w = normalize(
+                add(
+                    add(raw_w, scale(-dot(raw_w, p), p)),
+                    scale(-dot(raw_w, v), v),
+                )
+            )
+            z = orthogonal_fourth(p, v, w)
+            return p, v, w, z
+        except ValueError:
+            continue
+
+
+def complex_structure(p, v, w, z, sign):
+    route = matadd(outer(v, p), matscale(-1.0, outer(p, v)))
+    screen = matadd(outer(z, w), matscale(-1.0, outer(w, z)))
+    return matadd(route, matscale(sign, screen))
+
+
+def reflection(p, v, w, z):
+    return matadd(outer(p, p), outer(v, v), outer(w, w), matscale(-1.0, outer(z, z)))
+
+
+def pfaffian(matrix):
+    return (
+        matrix[0][1] * matrix[2][3]
+        - matrix[0][2] * matrix[1][3]
+        + matrix[0][3] * matrix[1][2]
+    )
+
+
+def maximum_vector_error(a, b):
+    return max(abs(x - y) for x, y in zip(a, b))
+
+
+def maximum_matrix_error(a, b):
+    return max(abs(a[i][j] - b[i][j]) for i in range(4) for j in range(4))
+
+
+def main():
+    rng = random.Random(SEED)
+    identity = tuple(tuple(1.0 if i == j else 0.0 for j in range(4)) for i in range(4))
+    minus_identity = matscale(-1.0, identity)
+    checks = 0
+    maximum_error = 0.0
+
+    def check(condition, error=0.0):
+        nonlocal checks, maximum_error
+        assert condition
+        checks += 1
+        maximum_error = max(maximum_error, abs(error))
+
+    sample_cases = 1200
+    global_points_per_case = 4
+    for _ in range(sample_cases):
+        p, v, w, z = random_frame(rng)
+        left = complex_structure(p, v, w, z, 1.0)
+        right = complex_structure(p, v, w, z, -1.0)
+        mirror = reflection(p, v, w, z)
+
+        for candidate in (left, right):
+            skew_error = maximum_matrix_error(transpose(candidate), matscale(-1.0, candidate))
+            complex_error = maximum_matrix_error(matmul(candidate, candidate), minus_identity)
+            orthogonal_error = maximum_matrix_error(matmul(transpose(candidate), candidate), identity)
+            check(skew_error < 2e-12, skew_error)
+            check(complex_error < 2e-12, complex_error)
+            check(orthogonal_error < 2e-12, orthogonal_error)
+            check(abs(abs(pfaffian(candidate)) - 1.0) < 2e-12, abs(abs(pfaffian(candidate)) - 1.0))
+
+        check(abs(pfaffian(left) + pfaffian(right)) < 2e-12, pfaffian(left) + pfaffian(right))
+        check(abs(determinant(mirror) + 1.0) < 2e-12, determinant(mirror) + 1.0)
+        check(maximum_matrix_error(matmul(mirror, mirror), identity) < 2e-12, maximum_matrix_error(matmul(mirror, mirror), identity))
+        check(maximum_vector_error(matvec(mirror, p), p) < 2e-12, maximum_vector_error(matvec(mirror, p), p))
+        check(maximum_vector_error(matvec(mirror, v), v) < 2e-12, maximum_vector_error(matvec(mirror, v), v))
+        check(maximum_vector_error(matvec(mirror, w), w) < 2e-12, maximum_vector_error(matvec(mirror, w), w))
+        check(maximum_vector_error(matvec(mirror, z), scale(-1.0, z)) < 2e-12, maximum_vector_error(matvec(mirror, z), scale(-1.0, z)))
+        conjugated = matmul(matmul(mirror, left), transpose(mirror))
+        check(maximum_matrix_error(conjugated, right) < 3e-12, maximum_matrix_error(conjugated, right))
+
+        reversed_left = matscale(-1.0, left)
+        reversed_right = matscale(-1.0, right)
+        check(abs(pfaffian(reversed_left) - pfaffian(left)) < 2e-12, pfaffian(reversed_left) - pfaffian(left))
+        check(abs(pfaffian(reversed_right) - pfaffian(right)) < 2e-12, pfaffian(reversed_right) - pfaffian(right))
+        check(maximum_vector_error(matvec(reversed_left, p), scale(-1.0, v)) < 2e-12, maximum_vector_error(matvec(reversed_left, p), scale(-1.0, v)))
+
+        midpoint = matscale(0.5, matadd(left, right))
+        check(abs(determinant(midpoint)) < 2e-12, determinant(midpoint))
+        check(maximum_matrix_error(matmul(midpoint, midpoint), minus_identity) > 0.5)
+
+        rotation_frame = random_frame(rng)
+        rotation = columns(rotation_frame)
+        check(abs(determinant(rotation) - 1.0) < 2e-12, determinant(rotation) - 1.0)
+        rotated_left = matmul(matmul(rotation, left), transpose(rotation))
+        rotated_right = matmul(matmul(rotation, right), transpose(rotation))
+        check(abs(pfaffian(rotated_left) - pfaffian(left)) < 3e-12, pfaffian(rotated_left) - pfaffian(left))
+        check(abs(pfaffian(rotated_right) - pfaffian(right)) < 3e-12, pfaffian(rotated_right) - pfaffian(right))
+
+        radius = 10.0 ** rng.uniform(-2.0, 2.0)
+        radius_rate = rng.uniform(-3.0, 3.0)
+        first_carry_term = -radius_rate / (radius * radius)
+        second_carry_term = (1.0 / radius) * (radius_rate / radius)
+        carry = first_carry_term + second_carry_term
+        carry_scale = max(1.0, abs(first_carry_term) + abs(second_carry_term))
+        normalized_carry_error = carry / carry_scale
+        check(abs(normalized_carry_error) < 2e-12, normalized_carry_error)
+        if abs(radius_rate) > 1e-8:
+            check(abs(radius_rate / radius) > 0.0)
+
+        for _ in range(global_points_per_case):
+            q = random_unit(rng)
+            for candidate, other in ((left, right), (right, left)):
+                field = matvec(candidate, q)
+                check(abs(dot(q, field)) < 2e-12, dot(q, field))
+                check(abs(dot(field, field) - 1.0) < 3e-12, dot(field, field) - 1.0)
+                equivariance_error = maximum_vector_error(
+                    matvec(mirror, field),
+                    matvec(other, matvec(mirror, q)),
+                )
+                check(equivariance_error < 3e-12, equivariance_error)
+                unit_field = scale(1.0 / radius, field)
+                check(abs(radius * radius * dot(unit_field, unit_field) - 1.0) < 4e-12, radius * radius * dot(unit_field, unit_field) - 1.0)
+
+            raw_tangent = random_unit(rng)
+            spatial = add(raw_tangent, scale(-dot(raw_tangent, q), q))
+            dt = rng.uniform(-2.0, 2.0)
+            before = -dt * dt + radius * radius * dot(spatial, spatial)
+            reflected_spatial = matvec(mirror, spatial)
+            after = -dt * dt + radius * radius * dot(reflected_spatial, reflected_spatial)
+            causal_scale = max(1.0, abs(before) + abs(after))
+            causal_error = (before - after) / causal_scale
+            check(abs(causal_error) < 3e-12, causal_error)
+            check((before > 0.0) == (after > 0.0) and (before < 0.0) == (after < 0.0))
+
+    result = {
+        "status": "PASS",
+        "implementation": "random_oriented_frame_outer_product_and_pfaffian_no_production_import",
+        "imports_production_code": False,
+        "random_seed": SEED,
+        "sample_cases": sample_cases,
+        "global_points_per_case": global_points_per_case,
+        "independent_checks": checks,
+        "maximum_error": maximum_error,
+        "both_global_fields_verified": True,
+        "det_minus_one_exchange_verified": True,
+        "det_plus_one_chirality_preservation_verified": True,
+        "pair_reversal_chirality_preservation_verified": True,
+        "connected_switch_degeneracy_verified": True,
+        "causal_quadratic_form_preserved": True,
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""No-write integrity and semantic verifier for G308."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+LANDING = (
+    "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305"
+    "__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING"
+    "__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS"
+    "__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN"
+)
+
+
+def digest(path: Path) -> str:
+    result = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            result.update(block)
+    return result.hexdigest()
+
+
+def main():
+    required = (
+        "MAP.md", "PONDER.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+        "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "COMPLETENESS_MAP.md",
+        "SOURCE_SCOPE.tsv", "SOURCE_MANIFEST.tsv", "derive_global_chirality_coherence.py",
+        "verify_global_chirality_independent.py", "run_catch_proofs.py", "verify_package.py",
+        "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+        "COHERENCE_CENSUS.tsv", "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json",
+        "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
+        "RUN_RECORD.md", "COMMANDS.md",
+    )
+    for name in required:
+        assert (HERE / name).is_file(), name
+
+    derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    premise = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+
+    assert derivation["status"] == "PASS"
+    assert derivation["landing_candidate"] == "B"
+    assert derivation["landing"] == LANDING
+    assert derivation["production_assertions"] == 11526
+    assert derivation["frame_cases"] == 36
+    assert derivation["global_point_cases"] == 216
+    assert derivation["both_global_smooth_nowhere_zero"] is True
+    assert derivation["both_spatial_orbits_complete_closed"] is True
+    assert derivation["normalized_fields_time_parallel"] is True
+    assert derivation["spatial_hopf_fibers_automatically_spacetime_geodesic"] is False
+    assert derivation["reflection_fixes_directed_route_plane"] is True
+    assert derivation["reflection_reverses_transverse_orientation"] is True
+    assert derivation["full_O4_exchanges_chirality"] is True
+    assert derivation["SO4_exchanges_chirality"] is False
+    assert derivation["pair_reversal_changes_chirality"] is False
+    assert derivation["connected_regular_carry_allows_local_chirality_switch"] is False
+    assert derivation["metric_or_causal_cone_changed"] is False
+    assert derivation["physical_member_selected"] is False
+    assert derivation["metric_and_kernel_changed"] is False
+
+    assert independent["status"] == "PASS"
+    assert independent["imports_production_code"] is False
+    assert independent["independent_checks"] == 79200
+    assert independent["maximum_error"] < 5e-13
+    assert independent["both_global_fields_verified"] is True
+    assert independent["det_minus_one_exchange_verified"] is True
+    assert independent["det_plus_one_chirality_preservation_verified"] is True
+    assert independent["pair_reversal_chirality_preservation_verified"] is True
+    assert independent["connected_switch_degeneracy_verified"] is True
+    assert independent["causal_quadratic_form_preserved"] is True
+
+    assert catches["status"] == "PASS"
+    assert catches["hostile_cases"] == 22
+    assert catches["direct_mathematical_mutations"] == 8
+    assert catches["semantic_result_mutations"] == 14
+    assert all(record["caught"] for record in catches["records"])
+    assert verification["landing"] == LANDING
+    assert verification["production_assertions"] == 11526
+    assert verification["independent_checks"] == 79200
+    assert verification["status"] == "INTERNALLY_DERIVED_WITH_CAVEATS"
+    assert premise["status"] == "PASS"
+    assert premise["registry_rows"] == 289
+
+    expected_census = (
+        ("round_G305_metric_only", "two_continuous_chiral_families", "no_member"),
+        ("one_supplied_directed_germ", "two_global_members", "one_per_chirality"),
+        ("connected_smooth_regular_Hopf_carry", "one_constant_chirality_label_per_component", "no_sign_preference"),
+        ("unoriented_metric_full_O4_equivalence", "one_mirror_orbit_with_two_representatives", "orientation_blind_equivalence"),
+        ("oriented_metric_SO4_equivalence", "two_chiral_sectors", "degenerate_not_selected"),
+        ("supplied_signed_transverse_screen", "one_member", "conditional_reconstruction"),
+        ("active_physical_population", "zero_selected", "open"),
+    )
+    with (HERE / "COHERENCE_CENSUS.tsv").open(encoding="utf-8", newline="") as handle:
+        rows = tuple(
+            (row["data_level"], row["global_geometric_status"], row["ownership"])
+            for row in csv.DictReader(handle, delimiter="\t")
+        )
+    assert rows == expected_census
+
+    source_rows = 0
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            relative = Path(row["path"])
+            assert digest(ROOT / relative) == row["sha256"], relative
+            source_rows += 1
+    assert source_rows == 9
+
+    for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
+        assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
+
+    print(json.dumps({
+        "status": "PASS",
+        "landing": LANDING,
+        "required_files": len(required),
+        "source_hashes_verified": source_rows,
+        "production_assertions": derivation["production_assertions"],
+        "independent_checks": independent["independent_checks"],
+        "hostile_catches": catches["hostile_cases"],
+        "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
+        "external_review": "PENDING",
+    }, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '261,520p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py" in /return
+ succeeded in 0ms:
+                        )
+                global_point_cases += 1
+
+            frame_cases += 1
+
+    census = (
+        ("round_G305_metric_only", "two_continuous_chiral_families", "no_member"),
+        ("one_supplied_directed_germ", "two_global_members", "one_per_chirality"),
+        ("connected_smooth_regular_Hopf_carry", "one_constant_chirality_label_per_component", "no_sign_preference"),
+        ("unoriented_metric_full_O4_equivalence", "one_mirror_orbit_with_two_representatives", "orientation_blind_equivalence"),
+        ("oriented_metric_SO4_equivalence", "two_chiral_sectors", "degenerate_not_selected"),
+        ("supplied_signed_transverse_screen", "one_member", "conditional_reconstruction"),
+        ("active_physical_population", "zero_selected", "open"),
+    )
+    with CENSUS.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        writer.writerow(("data_level", "global_geometric_status", "ownership"))
+        writer.writerows(census)
+
+    result = {
+        "status": "PASS",
+        "landing_candidate": "B",
+        "landing": LANDING,
+        "scope": "positive_G305_standard_R_times_round_S3_regular_G307_members",
+        "production_assertions": assertions,
+        "frame_cases": frame_cases,
+        "global_point_cases": global_point_cases,
+        "scale_controls": len(scale_controls),
+        "both_global_smooth_nowhere_zero": True,
+        "both_spatial_orbits_complete_closed": True,
+        "normalized_fields_time_parallel": True,
+        "spatial_hopf_fibers_automatically_spacetime_geodesic": False,
+        "reflection_fixes_directed_route_plane": True,
+        "reflection_reverses_transverse_orientation": True,
+        "full_O4_exchanges_chirality": True,
+        "SO4_exchanges_chirality": False,
+        "pair_reversal_changes_chirality": False,
+        "connected_regular_carry_allows_local_chirality_switch": False,
+        "metric_or_causal_cone_changed": False,
+        "physical_member_selected": False,
+        "metric_and_kernel_changed": False,
+        "omitted": [
+            "nonspherical_deformations", "nontrivial_quotients", "singular_cut_caustic_strata",
+            "topology_change", "physical_query_route_screen_population", "action", "dynamics",
+            "stability", "backreaction", "history", "observation", "source", "matter", "mass",
+            "scale_selection", "physical_Xmax", "protected_work",
+        ],
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+I’ve confirmed the package structure: one exact derivation script, one claimed independent numerical verifier, one hostile mutation script, and one package verifier. Next I’m checking the frozen G305/G307 payloads and the package’s own run registration to see whether the scientific dependence chain is typed correctly.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "directed_germ_member_count": 2,
+  "exact_cases": 36,
+  "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
+  "landing_candidate": 2,
+  "lawful_query_population_selected": false,
+  "members_per_chirality": 1,
+  "metric_and_kernel_changed": false,
+  "omitted": [
+    "nonspherical_deformations",
+    "quotients",
+    "singular_cut_caustic_strata",
+    "topology_change",
+    "physical_query_route_population",
+    "action",
+    "dynamics",
+    "stability",
+    "backreaction",
+    "history",
+    "observation",
+    "source",
+    "mass",
+    "scale",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "path_only_member_count": 2,
+  "physical_member_selected": false,
+  "production_assertions": 1806,
+  "radii": [
+    "1/2",
+    "1",
+    "7/3",
+    "5",
+    "19/4"
+  ],
+  "scope": "positive_G305_round_S3_regular_directed_germs_oriented_screens_all_positive_radii",
+  "screen_twist_signs": [
+    -1,
+    1
+  ],
+  "signed_transverse_screen_member_count": 1,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "celestial_screen_euler_all_signs": 2,
+  "forbidden_inputs": [
+    "field_equation",
+    "action",
+    "source",
+    "matter_model",
+    "mass_law",
+    "observation",
+    "fit",
+    "physical_Xmax",
+    "old_Hopfion_boundary",
+    "protected_package"
+  ],
+  "hopf_number_frozen_orientation": -1,
+  "landing": "POSITIVE_STANDARD_GLOBAL_COMPLETION_NATIVELY_SUPPLIES_COMPACT_S3_HOPF_DOMAIN__STATIC_ZERO_IS_OBSERVER_HORIZON_NOT_MATERIAL_BOUNDARY__EXPLICIT_HOPF_CLASS_PERSISTS_KINEMATICALLY_AND_IS_SCALE_BLIND__TARGET_SECTION_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "negative_global_metric": [
+    "-cosh(rho)**2",
+    "L**2",
+    "L**2*sinh(rho)**2",
+    "L**2*sin(theta)**2*sinh(rho)**2"
+  ],
+  "negative_static_metric": [
+    "-1 - r**2/L**2",
+    "L**2/(L**2 + r**2)",
+    "r**2",
+    "r**2*sin(theta)**2"
+  ],
+  "null_optical_tidal_all_signs": 0,
+  "positive_global_metric": [
+    "-1",
+    "X**2*cosh(T/X)**2",
+    "X**2*sin(psi)**2*cosh(T/X)**2",
+    "X**2*sin(psi)**2*sin(theta)**2*cosh(T/X)**2"
+  ],
+  "positive_static_metric": [
+    "-1 + r**2/X**2",
+    "X**2/(X**2 - r**2)",
+    "r**2",
+    "r**2*sin(theta)**2"
+  ],
+  "prerequisite_ledger": [
+    [
+      "compact_S3_spatial_domain",
+      "DERIVED_CONDITIONAL_positive_standard_completion"
+    ],
+    [
+      "outer_boundary_collapse",
+      "NOT_NEEDED_positive_S3__STILL_NEEDED_for_R3_one_point_compactification"
+    ],
+    [
+      "nontrivial_map_class_exists",
+      "DERIVED_MATHEMATICAL_EXISTENCE_positive_S3"
+    ],
+    [
+      "physical_map_or_section",
+      "OPEN"
+    ],
+    [
+      "fixed_physical_S2_target",
+      "OPEN"
+    ],
+    [
+      "local_frame_gauge_descent",
+      "OPEN_for_fixed_target_Hopf_integer"
+    ],
+    [
+      "covariant_action",
+      "OPEN"
+    ],
+    [
+      "time_live_dynamics_or_conservation",
+      "OPEN__only_kinematic_product_slice_persistence_derived"
+    ],
+    [
+      "backreaction_or_history_selection",
+      "OPEN"
+    ],
+    [
+      "magnitude_mass_or_Xmax",
+      "OPEN"
+    ]
+  ],
+  "production_assertions": 77,
+  "scope": "smooth_center_G304_family_standard_simply_connected_completions_only",
+  "topology_census": [
+    {
+      "compact_without_boundary": true,
+      "extra_compactification_needed": false,
+      "ordinary_unbased_hopf_classes": "Z",
+      "sector": "R0_positive",
+      "standard_spatial_slice": "S3"
+    },
+    {
+      "compact_without_boundary": false,
+      "extra_compactification_needed": true,
+      "ordinary_unbased_hopf_classes": "trivial_on_contractible_domain",
+      "sector": "R0_zero",
+      "standard_spatial_slice": "R3"
+    },
+    {
+      "compact_without_boundary": false,
+      "extra_compactification_needed": true,
+      "ordinary_unbased_hopf_classes": "trivial_on_contractible_domain",
+      "sector": "R0_negative_causal_cover",
+      "standard_spatial_slice": "H3_isomorphic_R3"
+    }
+  ]
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/RUN_RECORD.md" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COMMANDS.md" in /return
+ succeeded in 0ms:
+# G308 run record
+
+Date: 2026-08-31
+
+## Preregistration
+
+- pushed commit: `aaea5c12`
+- parent: `5a199ca6`
+- no G308 executable or outcome existed in that commit
+
+## Production
+
+```bash
+python3 -S derive_global_chirality_coherence.py
+```
+
+PASS: candidate B; 11,526 exact assertions; 36 directed frames; 216 global point cases; both
+chiralities; five positive scale/rate controls.
+
+## Independent replay
+
+```bash
+python3 -S verify_global_chirality_independent.py
+```
+
+PASS: 79,200 implementation-distinct checks over 1,200 random frames; maximum normalized error
+`2.020605904817785e-14`; no production import.
+
+## Hostile controls
+
+```bash
+python3 -S run_catch_proofs.py
+```
+
+PASS: eight direct exact mathematical mutations and fourteen semantic/ownership mutations caught.
+
+## Premise audit
+
+```bash
+python3 verify_current_scientific_premises.py
+```
+
+PASS: 289 registry rows; registry SHA-256
+`10c7b53fc2820a63c7fee40d1a9d06325c7a3cb8c17d58329646eaf191de5ba8`.
+
+## Repository regression
+
+```bash
+python3 -m pytest -q
+```
+
+PASS: 199 passed and one expected xfail in 136.74 seconds. The xfail is the pre-existing
+matter-sector habit-pin gate; G308 introduced no regression.
+
+ succeeded in 0ms:
+# G308 registered commands
+
+## Package replays
+
+```bash
+python3 -S derive_global_chirality_coherence.py
+python3 -S verify_global_chirality_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+```
+
+The first three commands regenerate only their registered G308 outcome files. The package verifier
+is no-write.
+
+## Repository-only gates
+
+```bash
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q
+```
+
+These require the complete repository and are not promised as sealed-package replays.
+
+codex
+The package’s registered replays are limited to the four local `python3 -S` commands, and the repo-wide gates are explicitly out of sealed-package scope. I’m checking the stored JSON outputs and source manifest now so the replay environment under `/work` matches the package’s own assumptions.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json" in /return
+ succeeded in 0ms:
+{
+  "SO4_exchanges_chirality": false,
+  "both_global_smooth_nowhere_zero": true,
+  "both_spatial_orbits_complete_closed": true,
+  "connected_regular_carry_allows_local_chirality_switch": false,
+  "frame_cases": 36,
+  "full_O4_exchanges_chirality": true,
+  "global_point_cases": 216,
+  "landing": "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN",
+  "landing_candidate": "B",
+  "metric_and_kernel_changed": false,
+  "metric_or_causal_cone_changed": false,
+  "normalized_fields_time_parallel": true,
+  "omitted": [
+    "nonspherical_deformations",
+    "nontrivial_quotients",
+    "singular_cut_caustic_strata",
+    "topology_change",
+    "physical_query_route_screen_population",
+    "action",
+    "dynamics",
+    "stability",
+    "backreaction",
+    "history",
+    "observation",
+    "source",
+    "matter",
+    "mass",
+    "scale_selection",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "pair_reversal_changes_chirality": false,
+  "physical_member_selected": false,
+  "production_assertions": 11526,
+  "reflection_fixes_directed_route_plane": true,
+  "reflection_reverses_transverse_orientation": true,
+  "scale_controls": 5,
+  "scope": "positive_G305_standard_R_times_round_S3_regular_G307_members",
+  "spatial_hopf_fibers_automatically_spacetime_geodesic": false,
+  "status": "PASS"
+}
+
+ succeeded in 0ms:
+{
+  "both_global_fields_verified": true,
+  "causal_quadratic_form_preserved": true,
+  "connected_switch_degeneracy_verified": true,
+  "det_minus_one_exchange_verified": true,
+  "det_plus_one_chirality_preservation_verified": true,
+  "global_points_per_case": 4,
+  "implementation": "random_oriented_frame_outer_product_and_pfaffian_no_production_import",
+  "imports_production_code": false,
+  "independent_checks": 79200,
+  "maximum_error": 2.020605904817785e-14,
+  "pair_reversal_chirality_preservation_verified": true,
+  "random_seed": 3080831,
+  "sample_cases": 1200,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "baseline_valid": true,
+  "direct_mathematical_mutations": 8,
+  "hostile_cases": 22,
+  "records": [
+    {
+      "case": "false_one_sided_global_failure",
+      "caught": true,
+      "expected": "both_global_fields"
+    },
+    {
+      "case": "orientation_preserving_chirality_exchange",
+      "caught": true,
+      "expected": "SO4_chirality_preservation"
+    },
+    {
+      "case": "smooth_local_chirality_switch",
+      "caught": true,
+      "expected": "switch_leaves_regular_complex_stratum"
+    },
+    {
+      "case": "pair_reversal_changes_chirality",
+      "caught": true,
+      "expected": "reversal_preserves_chirality"
+    },
+    {
+      "case": "screen_preserving_parity_exchange",
+      "caught": true,
+      "expected": "exchange_reverses_transverse_orientation"
+    },
+    {
+      "case": "causal_cone_difference",
+      "caught": true,
+      "expected": "metric_and_causal_form_preserved"
+    },
+    {
+      "case": "spatial_Hopf_fiber_called_spacetime_geodesic",
+      "caught": true,
+      "expected": "nonzero_expanding_warp_time_acceleration"
+    },
+    {
+      "case": "full_O4_fails_to_exchange",
+      "caught": true,
+      "expected": "orientation_reversing_exchange"
+    },
+    {
+      "case": "kernel_modified",
+      "caught": true,
+      "expected": "kernel_change"
+    },
+    {
+      "case": "causal_cone_changed",
+      "caught": true,
+      "expected": "causal_change"
+    },
+    {
+      "case": "one_global_field_fails",
+      "caught": true,
+      "expected": "global_field_failure"
+    },
+    {
+      "case": "SO4_selects_exchange",
+      "caught": true,
+      "expected": "SO4_false_exchange"
+    },
+    {
+      "case": "pair_reversal_switches_sector",
+      "caught": true,
+      "expected": "reversal_mistyped"
+    },
+    {
+      "case": "local_chirality_switch_allowed",
+      "caught": true,
+      "expected": "switch_mistyped"
+    },
+    {
+      "case": "spatial_fibers_called_spacetime_geodesics",
+      "caught": true,
+      "expected": "spacetime_geodesic_overclaim"
+    },
+    {
+      "case": "coherence_called_physical_population",
+      "caught": true,
+      "expected": "population_promotion"
+    },
+    {
+      "case": "promote_action",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_dynamics",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_mass",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_scale_selection",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_physical_Xmax",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_protected_work",
+      "caught": true,
+      "expected": "scope_export"
+    }
+  ],
+  "semantic_result_mutations": 14,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/SOURCE_MANIFEST.tsv" in /return
+ succeeded in 0ms:
+sha256	path
+6fb44360a2ec8b389e156d95beb69719b7ebba4c65790e21f363002a05ae5b6b	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md
+ab1c0a841ba2ce13f1256eac191d2c1f0e54e15969f7b66ff00cfc27a5f08c7e	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json
+87105eaac45a1fd83615418efe884a13cd93119a7009642df957a0746ed52025	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/TOPOLOGY_CENSUS.tsv
+6471bdb75d721fa9894eaa2369c0af7e5b4355f282aeb06d394a261c50af2f75	udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md
+1dea213b2441edd4ec28b597521072dcbeff021c18ad1ca788ed06735439aed4	udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+a371be1d5902ede91cd6d8de499d9d53959f7b54272851d296d72ba171233e0e	udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv
+b9bb40aaf4e152c3f9c060d6b12a316e484433717266c450f1d1daed8f3dc6b5	udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+813d271e6c8fcf995a6cdb4991044b8dea00fd6c1d04ef3c33bde42ad09e0a7e	udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+1ee2c367e9f94fb55700f6c0a00a7867973abc3d790589b407231d4600fc4037	udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "candidate_landing": "A",
+  "component_charge_after_large_frame_rotation": -1,
+  "component_charge_constant_map": 0,
+  "constant_curvature_ricci_eigenvalue_multiplicity": 3,
+  "each_family_parameter_space": "S2_isomorphic_SO4_over_U2",
+  "family_checks": {
+    "left": {
+      "skew": "J(u)^T=-J(u)",
+      "square": "J(u)^2=-(u.u)I4",
+      "unit_parameter_space": "S2"
+    },
+    "right": {
+      "skew": "J(u)^T=-J(u)",
+      "square": "J(u)^2=-(u.u)I4",
+      "unit_parameter_space": "S2"
+    }
+  },
+  "field_or_query_population_selected": false,
+  "fixed_cross_history_target_selected": false,
+  "general_killing_skew_core": 0,
+  "geometric_member_closed_great_circle_fibers": true,
+  "geometric_member_geodesic": true,
+  "geometric_member_killing": true,
+  "geometric_member_screen_rotation_checks": 6,
+  "geometric_member_unit": true,
+  "individual_member_selected": false,
+  "isotropy_fixed_tangent_dimension": 0,
+  "landing": "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN",
+  "metric_and_kernel_changed": false,
+  "metric_natural_unit_section_exists": false,
+  "normalized_helicity_by_chirality": [
+    -1,
+    1
+  ],
+  "normalized_helicity_scale_blind": true,
+  "omitted": [
+    "nonspherical_deformations",
+    "nontrivial_quotients",
+    "singular_or_rank_change_strata",
+    "topology_change",
+    "route_conditioned_population",
+    "action",
+    "dynamics",
+    "backreaction",
+    "history_selection",
+    "observations",
+    "source",
+    "mass",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "oriented_chiral_family_count": 2,
+  "production_assertions": 172,
+  "radial_map_singular_orbits": 2,
+  "raw_component_charge_full_frame_invariant": false,
+  "scope": "positive_G305_round_S3_standard_completion_all_positive_radii_both_chiralities",
+  "target_after_member_supply": "orbit_space_S2"
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G306 audit report
+
+Date: 2026-08-30
+Status: EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_REPLAY_PORTABILITY_REPAIRS
+
+## Primary landing
+
+ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES
+__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER
+__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY
+__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT
+__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN
+
+## Result
+
+G305 supplied more than an empty compact domain, but less than a physical field. Every
+positive-radius round \(S^3\) slice intrinsically defines two orientation-relative \(S^2\)
+families of unit Killing fields whose integral curves are closed geodesic circles and whose
+screens undergo pure rotation. Each supplied member defines a Hopf fibration and has
+frame-independent normalized geometric helicity \(+1\) or \(-1\), independent of the slice
+radius.
+
+The full round-slice isotropy group selects no member: at each point its \(SO(3)\) isotropy fixes
+no nonzero tangent vector. A raw component Hopf map also remains unphysical by itself; a smooth
+basepoint-fixed local frame rotation changes its component charge from zero to \(-1\). The
+surviving invariant uses a supplied geometric vector field, not a fixed component target.
+
+Thus the metric narrows arbitrary \(S^3\to S^2\) maps to an intrinsic highly symmetric candidate
+family, but it does not populate a field, select a query, choose a chirality or member, import an
+action, or determine dynamics, history, curvature magnitude, mass, or physical \(X_{\max}\).
+
+## Scope and evidence
+
+The result is complete only for the positive G305 standard connected simply connected round-slice
+completion, all positive radii, and both chiralities. Nonspherical, quotient, singular,
+topology-changing, dynamically populated, and route-conditioned cases remain open.
+
+Preregistered at pushed commit c5873d2c; 172 production assertions; 22,237 independent checks;
+17 direct hostile mutations caught. Fresh external review returned `REPAIRABLE_DEFECTS` while
+explicitly finding no bounded scientific defect and independently reproducing the quaternionic,
+isotropy, frame-descent, Hopf, and helicity results.
+
+The three defects were replay portability only: repository-only commands were not distinguished
+from sealed commands, the source verifier assumed repository layout, and production imported
+unsealed SymPy. Repairs R1--R4 were preregistered and banked at commit 1298deea before repair. The
+production derivation now uses exact standard-library integer/rational/polynomial algebra under
+`python3 -S` and reproduces the original JSON and census byte-for-byte. All four sealed commands
+pass in a fresh copied intake; missing and ambiguous source layouts are rejected. Premise and full
+repository gates also pass. The repair-only external reviewer reran all four sealed commands plus
+the portability verifier and returned `G306_REPAIRS_ACCEPTED` with no defects. The scientific
+landing, family census, metric, and reciprocal kernel are unchanged.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G307 audit report — conditional Hopf-member reconstruction from a complete directed germ
+
+Date: 2026-08-30
+Status: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
+
+## Primary landing
+
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+
+## What was learned
+
+G306's metric-only ambiguity is not an unrestricted field once an actual directed relation is
+supplied. A point and ordered tangent select exactly one Hopf member in each of the two chiral
+families. Those two members generate the same complete great-circle route and agree on its tangent
+plane, so no amount of one-dimensional route following distinguishes them.
+
+Their difference appears in the transverse screen. Relative to one supplied screen orientation,
+one member rotates the screen by `+90` degrees and the other by `-90` degrees. One signed
+transverse-screen first derivative therefore reduces the two candidates to one.
+
+This is a substantial narrowing of G306's continuous family ambiguity:
+
+```text
+metric alone:          two continuous S2 families
+point + direction:     two members
+signed transverse jet: one member
+```
+
+## What was not learned
+
+Active premises still do not select which physical observer/event/route queries Nature populates,
+nor do they supply the transverse sign for such a population. Conditional reconstruction must not
+be renamed physical selection. The result introduces no action, source, mass law, scale, fit,
+history, observation, or `X_max`, and it modifies neither the primary metric nor the reciprocal
+kernel.
+
+## Scope and evidence
+
+The theorem is complete on the positive-radius round G305 completion, both G306 chiralities, all
+regular directed point/tangent germs, all regular oriented transverse screens, and all positive
+radii. Nonspherical, quotient, singular/cut/caustic, topology-changing, and dynamically populated
+cases remain outside scope.
+
+The landing was preregistered at pushed commit `1bdfe7d2`. Exact production supplied 1,806 rational
+assertions. Fresh external review independently supported the theorem and found no route/screen
+conflation or ownership promotion, but required replay repairs. Those repairs were preregistered at
+`f91bfb85`. The strengthened independent implementation now supplies 32,000 checks over 1,000
+random frames, reconstructs both members directly from `(p,v)`, and retains maximum error
+`4.1389114358025836e-13`. Eight direct mathematical and fourteen semantic hostile mutations are
+caught. Repository and sealed intake rebuilds are byte-identical. The current premise registry
+passes. Repair-only external follow-up independently replayed R1--R4 and returned
+`G307_REPAIRS_ACCEPTED`, with no replay defect or scientific regression. The bounded package is
+externally closed; physical relation population remains open exactly as stated above.
+
+codex
+I’ve reached the point where the main question is not the algebra but whether the package overstates the topology or the independence of its checks. I’m reading the package report language itself now, because a mathematically sound core can still fail this review if the ownership or equivalence claims are typed too strongly.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G308 audit report — global chirality coherence and parity
+
+Date: 2026-08-31
+Status: `INTERNALLY_DERIVED_WITH_CAVEATS`
+
+## Primary landing
+
+```text
+BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305
+__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING
+__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS
+__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN
+```
+
+## What was learned
+
+Both G307 candidates are smooth, complete, nowhere-zero global Hopf fields on every round G305
+slice and carry regularly through the exact time-live completion. Global coherence therefore does
+not reject one handedness.
+
+Coherence does impose a real restriction: a connected smooth regular field cannot switch
+chirality from region to region. It must remain in one global handedness sector unless it passes
+through degeneracy, discontinuity, a boundary, singularity, or topology change.
+
+The two surviving global sectors are exchanged by an exact orientation-reversing isometry that
+fixes the supplied directed route plane and reverses only the transverse screen orientation. If
+orientation is forgotten, they are two representatives of one metric equivalence class. If
+orientation is retained, they are two distinguishable but equally coherent sectors.
+
+## What was not learned
+
+The metric does not prefer one sign. Signed transverse data can conditionally identify one member,
+as G307 already proved, but current premises do not populate that sign physically. No action,
+dynamics, stability, matter, mass, observation, scale, history, or physical `X_max` was added.
+
+The Hopf fibers are spatial geodesics on each round slice, not generically four-dimensional
+spacetime geodesics. Both fields leave the metric and causal cones unchanged.
+
+## Scope
+
+Complete only on the positive standard G305 `R x S3` completion, both G306 chiralities, every
+regular supplied G307 germ, every positive scale, and smooth topology-preserving carry. The result
+does not cover nonspherical metrics, quotients, singular or topology-changing strata, or physical
+population/dynamics.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv" in /return
+ succeeded in 0ms:
+data_level	global_geometric_status	ownership
+round_G305_metric_only	two_continuous_chiral_families	no_member
+one_supplied_directed_germ	two_global_members	one_per_chirality
+connected_smooth_regular_Hopf_carry	one_constant_chirality_label_per_component	no_sign_preference
+unoriented_metric_full_O4_equivalence	one_mirror_orbit_with_two_representatives	orientation_blind_equivalence
+oriented_metric_SO4_equivalence	two_chiral_sectors	degenerate_not_selected
+supplied_signed_transverse_screen	one_member	conditional_reconstruction
+active_physical_population	zero_selected	open
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/VERIFICATION_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "direct_mathematical_catches": 8,
+  "hostile_catches": 22,
+  "independent_checks": 79200,
+  "landing": "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN",
+  "metric_and_kernel_changed": false,
+  "premise_audit": "PASS",
+  "production_assertions": 11526,
+  "repository_regression": "PASS__199_PASSED__1_EXPECTED_XFAIL__136_74_SECONDS",
+  "semantic_catches": 14,
+  "status": "INTERNALLY_DERIVED_WITH_CAVEATS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EVIDENCE_GATES.md" in /return
+ succeeded in 0ms:
+# G308 evidence gates
+
+1. **Preregistered:** PASS — candidate landings, scope, premise/source ledgers, omissions, and
+   certification contract were committed and pushed at `aaea5c12` before executable outcomes.
+2. **Full bounded space:** PASS WITH EXPLICIT SCOPE — analytic proofs cover every point and finite
+   time of the positive G305 standard completion, both G306 chiralities, arbitrary regular supplied
+   G307 germs, both orientation typings, pair reversal, and every positive scale.
+3. **Independent verification:** PASS — 79,200 checks over 1,200 random oriented frames, maximum
+   normalized error `2.020605904817785e-14`, no production import.
+4. **Hostile controls:** PASS — eight direct mathematical corruptions and fourteen semantic/
+   ownership corruptions caught.
+5. **Premise audit:** PASS — the 289-row exact registry verified after the result.
+6. **Repository regression:** PASS — 199 passed and one expected xfail in 136.74 seconds.
+7. **Fresh external review:** PENDING.
+
+Current maximum grade: `INTERNALLY_DERIVED_WITH_CAVEATS`.
+
+The metric, reciprocal kernel, member census, and physical-population boundary are unchanged.
+
+codex
+I’ve finished the read-only intake inspection and I’m switching to the ephemeral replay phase. I’m copying the sealed intake to `/work`, then I’ll run only the four registered `python3 -S` package commands there and compare the regenerated outputs against the sealed originals.
+exec
+/bin/bash -lc 'mkdir -p /work/g308_review && cp -a /intake/. /work/g308_review/' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_global_chirality_coherence.py' in /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+ succeeded in 259ms:
+{
+  "SO4_exchanges_chirality": false,
+  "both_global_smooth_nowhere_zero": true,
+  "both_spatial_orbits_complete_closed": true,
+  "connected_regular_carry_allows_local_chirality_switch": false,
+  "frame_cases": 36,
+  "full_O4_exchanges_chirality": true,
+  "global_point_cases": 216,
+  "landing": "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN",
+  "landing_candidate": "B",
+  "metric_and_kernel_changed": false,
+  "metric_or_causal_cone_changed": false,
+  "normalized_fields_time_parallel": true,
+  "omitted": [
+    "nonspherical_deformations",
+    "nontrivial_quotients",
+    "singular_cut_caustic_strata",
+    "topology_change",
+    "physical_query_route_screen_population",
+    "action",
+    "dynamics",
+    "stability",
+    "backreaction",
+    "history",
+    "observation",
+    "source",
+    "matter",
+    "mass",
+    "scale_selection",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "pair_reversal_changes_chirality": false,
+  "physical_member_selected": false,
+  "production_assertions": 11526,
+  "reflection_fixes_directed_route_plane": true,
+  "reflection_reverses_transverse_orientation": true,
+  "scale_controls": 5,
+  "scope": "positive_G305_standard_R_times_round_S3_regular_G307_members",
+  "spatial_hopf_fibers_automatically_spacetime_geodesic": false,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_global_chirality_independent.py' in /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+ succeeded in 543ms:
+{
+  "both_global_fields_verified": true,
+  "causal_quadratic_form_preserved": true,
+  "connected_switch_degeneracy_verified": true,
+  "det_minus_one_exchange_verified": true,
+  "det_plus_one_chirality_preservation_verified": true,
+  "global_points_per_case": 4,
+  "implementation": "random_oriented_frame_outer_product_and_pfaffian_no_production_import",
+  "imports_production_code": false,
+  "independent_checks": 79200,
+  "maximum_error": 2.020605904817785e-14,
+  "pair_reversal_chirality_preservation_verified": true,
+  "random_seed": 3080831,
+  "sample_cases": 1200,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py' in /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+ succeeded in 0ms:
+{
+  "baseline_valid": true,
+  "direct_mathematical_mutations": 8,
+  "hostile_cases": 22,
+  "records": [
+    {
+      "case": "false_one_sided_global_failure",
+      "caught": true,
+      "expected": "both_global_fields"
+    },
+    {
+      "case": "orientation_preserving_chirality_exchange",
+      "caught": true,
+      "expected": "SO4_chirality_preservation"
+    },
+    {
+      "case": "smooth_local_chirality_switch",
+      "caught": true,
+      "expected": "switch_leaves_regular_complex_stratum"
+    },
+    {
+      "case": "pair_reversal_changes_chirality",
+      "caught": true,
+      "expected": "reversal_preserves_chirality"
+    },
+    {
+      "case": "screen_preserving_parity_exchange",
+      "caught": true,
+      "expected": "exchange_reverses_transverse_orientation"
+    },
+    {
+      "case": "causal_cone_difference",
+      "caught": true,
+      "expected": "metric_and_causal_form_preserved"
+    },
+    {
+      "case": "spatial_Hopf_fiber_called_spacetime_geodesic",
+      "caught": true,
+      "expected": "nonzero_expanding_warp_time_acceleration"
+    },
+    {
+      "case": "full_O4_fails_to_exchange",
+      "caught": true,
+      "expected": "orientation_reversing_exchange"
+    },
+    {
+      "case": "kernel_modified",
+      "caught": true,
+      "expected": "kernel_change"
+    },
+    {
+      "case": "causal_cone_changed",
+      "caught": true,
+      "expected": "causal_change"
+    },
+    {
+      "case": "one_global_field_fails",
+      "caught": true,
+      "expected": "global_field_failure"
+    },
+    {
+      "case": "SO4_selects_exchange",
+      "caught": true,
+      "expected": "SO4_false_exchange"
+    },
+    {
+      "case": "pair_reversal_switches_sector",
+      "caught": true,
+      "expected": "reversal_mistyped"
+    },
+    {
+      "case": "local_chirality_switch_allowed",
+      "caught": true,
+      "expected": "switch_mistyped"
+    },
+    {
+      "case": "spatial_fibers_called_spacetime_geodesics",
+      "caught": true,
+      "expected": "spacetime_geodesic_overclaim"
+    },
+    {
+      "case": "coherence_called_physical_population",
+      "caught": true,
+      "expected": "population_promotion"
+    },
+    {
+      "case": "promote_action",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_dynamics",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_mass",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_scale_selection",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_physical_Xmax",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_protected_work",
+      "caught": true,
+      "expected": "scope_export"
+    }
+  ],
+  "semantic_result_mutations": 14,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py", line 134, in <module>
+    main()
+  File "/work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py", line 113, in main
+    assert digest(ROOT / relative) == row["sha256"], relative
+  File "/work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py", line 24, in digest
+    with path.open("rb") as handle:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/work/g308_review/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md'
+
+codex
+The first three registered replays passed exactly. The fourth failed immediately on a path assumption: `verify_package.py` expects the frozen source packages as direct siblings of the G308 package, but the sealed intake actually stores them under `frozen_sources/`. I’m checking whether that mismatch is an intended staging step or a real portability defect in the verifier.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Build a sealed, source-bounded G308 fresh-review intake."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import shutil
+import tempfile
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+PACKAGE_FILES = [
+    "MAP.md", "PONDER.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "COMPLETENESS_MAP.md",
+    "SOURCE_SCOPE.tsv", "SOURCE_MANIFEST.tsv", "derive_global_chirality_coherence.py",
+    "verify_global_chirality_independent.py", "run_catch_proofs.py", "verify_package.py",
+    "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+    "COHERENCE_CENSUS.tsv", "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json",
+    "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
+    "RUN_RECORD.md", "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "build_review_intake.py",
+]
+CURRENT_FILES = [
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+]
+
+
+def digest(path: Path) -> str:
+    result = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            result.update(block)
+    return result.hexdigest()
+
+
+def resolve_source(relative: Path) -> Path:
+    candidates = (REPO / relative, REPO / "frozen_sources" / relative)
+    matches = [path for path in candidates if path.is_file()]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"source resolution must be unique for {relative}: "
+            f"found {[str(path) for path in matches]}"
+        )
+    return matches[0]
+
+
+def resolve_current(name: str) -> Path:
+    candidates = (REPO / name, REPO / "frozen_current" / name)
+    matches = [path for path in candidates if path.is_file()]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"current source resolution must be unique for {name}: "
+            f"found {[str(path) for path in matches]}"
+        )
+    return matches[0]
+
+
+def main() -> None:
+    target = Path(tempfile.mkdtemp(prefix="udt_g308_review_", dir="/tmp"))
+    package_target = target / HERE.name
+    package_target.mkdir()
+    for name in PACKAGE_FILES:
+        source = HERE / name
+        if not source.is_file():
+            raise FileNotFoundError(source)
+        shutil.copy2(source, package_target / name)
+
+    frozen = target / "frozen_sources"
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        source_rows = list(csv.DictReader(handle, delimiter="\t"))
+    for row in source_rows:
+        source = resolve_source(Path(row["path"]))
+        if digest(source) != row["sha256"]:
+            raise AssertionError(f"source hash drift: {row['path']}")
+        destination = frozen / row["path"]
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
+    frozen_current = target / "frozen_current"
+    frozen_current.mkdir()
+    for name in CURRENT_FILES:
+        source = resolve_current(name)
+        shutil.copy2(source, frozen_current / name)
+
+    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    if digest(frozen_current / "CURRENT_SCIENTIFIC_PREMISES.tsv") != premise_audit["registry_sha256"]:
+        raise AssertionError("current premise registry drift since G308 audit")
+
+    scope = {
+        "schema": "UDT_G308_FRESH_REVIEW_SCOPE_V1",
+        "question": (
+            "audit the bounded global coherence parity and chirality classification on the "
+            "positive standard G305 completion and its retained physical-population boundary"
+        ),
+        "package": HERE.name,
+        "package_file_count": len(PACKAGE_FILES),
+        "frozen_source_count": len(source_rows),
+        "frozen_current_count": len(CURRENT_FILES),
+        "allowed": [
+            "read intake",
+            "independently rederive the bounded theorem",
+            "run registered checks in a writable ephemeral copy",
+            "write review response outside intake",
+        ],
+        "forbidden": [
+            "edit evidence files",
+            "continue research",
+            "access repository or protected packages",
+            "use internet or unsealed observations",
+            "import field equation action source matter model physical population mass law fit scale or X_max",
+            "change registered question",
+            "promote metric coherence or mirror equivalence into physical population of a chirality",
+        ],
+    }
+    scope_path = target / "REVIEW_SCOPE.json"
+    scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    payloads = sorted(path for path in target.rglob("*") if path.is_file())
+    manifest = target / "REVIEW_MANIFEST.tsv"
+    with manifest.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        writer.writerow(["sha256", "bytes", "path"])
+        for path in payloads:
+            writer.writerow([digest(path), path.stat().st_size, path.relative_to(target).as_posix()])
+    seal = target / "REVIEW_MANIFEST.sha256"
+    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+    print(json.dumps({
+        "intake": str(target),
+        "manifest_payloads": len(payloads),
+        "total_files": len(payloads) + 2,
+        "scope_sha256": digest(scope_path),
+        "manifest_sha256": digest(manifest),
+        "detached_seal_sha256": digest(seal),
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/SOURCE_SCOPE.tsv" in /return
+ succeeded in 0ms:
+path	role
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	current bounded G305 ownership and completion status
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json	exact G305 outcome
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/TOPOLOGY_CENSUS.tsv	global slice topology census
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md	current bounded G306 ownership and family status
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json	exact G306 family outcome
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/CANDIDATE_CENSUS.tsv	G306 family and selection census
+udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md	current externally accepted G307 status
+udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json	exact G307 member outcome
+udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv	G307 conditional selection census
+
+exec
+/bin/bash -lc 'find /work/g308_review -maxdepth 2 -type d | sort' in /return
+ succeeded in 0ms:
+/work/g308_review
+/work/g308_review/frozen_current
+/work/g308_review/frozen_sources
+/work/g308_review/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30
+/work/g308_review/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30
+/work/g308_review/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+/work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+
+codex
+`build_review_intake.py` confirms the defect: it creates `frozen_sources/...`, but `verify_package.py` hashes `HERE.parent / <relative>` and never looks under `frozen_sources/`. I’m reproducing that minimal fix in `/work` with sibling symlinks only to confirm this is a portability issue in the verifier, not a scientific failure in the result.
+exec
+/bin/bash -lc 'ln -s /work/g308_review/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30 /work/g308_review/udt_g305_global_completion_hopf_domain_bridge_2026-08-30 && ln -s /work/g308_review/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30 /work/g308_review/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30 && ln -s /work/g308_review/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30 /work/g308_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31
+ succeeded in 0ms:
+{"external_review": "PENDING", "hostile_catches": 22, "independent_checks": 79200, "landing": "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN", "metric_and_kernel_changed": false, "production_assertions": 11526, "required_files": 25, "source_hashes_verified": 9, "status": "PASS"}
+
+codex
+The scientific core looks internally coherent, so I’m tightening the review around evidence quality now: byte-identity of replayed outputs and the actual degree of independence in the “independent” verifier.
+exec
+/bin/bash -lc 'cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc 'cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc 'cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc 'cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py | sed -n '1,180p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""No-write integrity and semantic verifier for G308."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10
+    11
+    12	HERE = Path(__file__).resolve().parent
+    13	ROOT = HERE.parent
+    14	LANDING = (
+    15	    "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305"
+    16	    "__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING"
+    17	    "__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS"
+    18	    "__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN"
+    19	)
+    20
+    21
+    22	def digest(path: Path) -> str:
+    23	    result = hashlib.sha256()
+    24	    with path.open("rb") as handle:
+    25	        for block in iter(lambda: handle.read(1024 * 1024), b""):
+    26	            result.update(block)
+    27	    return result.hexdigest()
+    28
+    29
+    30	def main():
+    31	    required = (
+    32	        "MAP.md", "PONDER.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    33	        "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "COMPLETENESS_MAP.md",
+    34	        "SOURCE_SCOPE.tsv", "SOURCE_MANIFEST.tsv", "derive_global_chirality_coherence.py",
+    35	        "verify_global_chirality_independent.py", "run_catch_proofs.py", "verify_package.py",
+    36	        "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+    37	        "COHERENCE_CENSUS.tsv", "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json",
+    38	        "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
+    39	        "RUN_RECORD.md", "COMMANDS.md",
+    40	    )
+    41	    for name in required:
+    42	        assert (HERE / name).is_file(), name
+    43
+    44	    derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    45	    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    46	    catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    47	    verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    48	    premise = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    49
+    50	    assert derivation["status"] == "PASS"
+    51	    assert derivation["landing_candidate"] == "B"
+    52	    assert derivation["landing"] == LANDING
+    53	    assert derivation["production_assertions"] == 11526
+    54	    assert derivation["frame_cases"] == 36
+    55	    assert derivation["global_point_cases"] == 216
+    56	    assert derivation["both_global_smooth_nowhere_zero"] is True
+    57	    assert derivation["both_spatial_orbits_complete_closed"] is True
+    58	    assert derivation["normalized_fields_time_parallel"] is True
+    59	    assert derivation["spatial_hopf_fibers_automatically_spacetime_geodesic"] is False
+    60	    assert derivation["reflection_fixes_directed_route_plane"] is True
+    61	    assert derivation["reflection_reverses_transverse_orientation"] is True
+    62	    assert derivation["full_O4_exchanges_chirality"] is True
+    63	    assert derivation["SO4_exchanges_chirality"] is False
+    64	    assert derivation["pair_reversal_changes_chirality"] is False
+    65	    assert derivation["connected_regular_carry_allows_local_chirality_switch"] is False
+    66	    assert derivation["metric_or_causal_cone_changed"] is False
+    67	    assert derivation["physical_member_selected"] is False
+    68	    assert derivation["metric_and_kernel_changed"] is False
+    69
+    70	    assert independent["status"] == "PASS"
+    71	    assert independent["imports_production_code"] is False
+    72	    assert independent["independent_checks"] == 79200
+    73	    assert independent["maximum_error"] < 5e-13
+    74	    assert independent["both_global_fields_verified"] is True
+    75	    assert independent["det_minus_one_exchange_verified"] is True
+    76	    assert independent["det_plus_one_chirality_preservation_verified"] is True
+    77	    assert independent["pair_reversal_chirality_preservation_verified"] is True
+    78	    assert independent["connected_switch_degeneracy_verified"] is True
+    79	    assert independent["causal_quadratic_form_preserved"] is True
+    80
+    81	    assert catches["status"] == "PASS"
+    82	    assert catches["hostile_cases"] == 22
+    83	    assert catches["direct_mathematical_mutations"] == 8
+    84	    assert catches["semantic_result_mutations"] == 14
+    85	    assert all(record["caught"] for record in catches["records"])
+    86	    assert verification["landing"] == LANDING
+    87	    assert verification["production_assertions"] == 11526
+    88	    assert verification["independent_checks"] == 79200
+    89	    assert verification["status"] == "INTERNALLY_DERIVED_WITH_CAVEATS"
+    90	    assert premise["status"] == "PASS"
+    91	    assert premise["registry_rows"] == 289
+    92
+    93	    expected_census = (
+    94	        ("round_G305_metric_only", "two_continuous_chiral_families", "no_member"),
+    95	        ("one_supplied_directed_germ", "two_global_members", "one_per_chirality"),
+    96	        ("connected_smooth_regular_Hopf_carry", "one_constant_chirality_label_per_component", "no_sign_preference"),
+    97	        ("unoriented_metric_full_O4_equivalence", "one_mirror_orbit_with_two_representatives", "orientation_blind_equivalence"),
+    98	        ("oriented_metric_SO4_equivalence", "two_chiral_sectors", "degenerate_not_selected"),
+    99	        ("supplied_signed_transverse_screen", "one_member", "conditional_reconstruction"),
+   100	        ("active_physical_population", "zero_selected", "open"),
+   101	    )
+   102	    with (HERE / "COHERENCE_CENSUS.tsv").open(encoding="utf-8", newline="") as handle:
+   103	        rows = tuple(
+   104	            (row["data_level"], row["global_geometric_status"], row["ownership"])
+   105	            for row in csv.DictReader(handle, delimiter="\t")
+   106	        )
+   107	    assert rows == expected_census
+   108
+   109	    source_rows = 0
+   110	    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+   111	        for row in csv.DictReader(handle, delimiter="\t"):
+   112	            relative = Path(row["path"])
+   113	            assert digest(ROOT / relative) == row["sha256"], relative
+   114	            source_rows += 1
+   115	    assert source_rows == 9
+   116
+   117	    for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
+   118	        assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
+   119
+   120	    print(json.dumps({
+   121	        "status": "PASS",
+   122	        "landing": LANDING,
+   123	        "required_files": len(required),
+   124	        "source_hashes_verified": source_rows,
+   125	        "production_assertions": derivation["production_assertions"],
+   126	        "independent_checks": independent["independent_checks"],
+   127	        "hostile_catches": catches["hostile_cases"],
+   128	        "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
+   129	        "external_review": "PENDING",
+   130	    }, sort_keys=True))
+   131
+   132
+   133	if __name__ == "__main__":
+   134	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py | sed -n '1,260p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Implementation-distinct numerical verification of the bounded G308 result."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import itertools
+     7	import json
+     8	import math
+     9	import random
+    10	from pathlib import Path
+    11
+    12
+    13	HERE = Path(__file__).resolve().parent
+    14	OUT = HERE / "INDEPENDENT_VERIFICATION.json"
+    15	SEED = 3080831
+    16
+    17
+    18	def dot(a, b):
+    19	    return sum(x * y for x, y in zip(a, b))
+    20
+    21
+    22	def add(a, b):
+    23	    return tuple(x + y for x, y in zip(a, b))
+    24
+    25
+    26	def scale(c, a):
+    27	    return tuple(c * x for x in a)
+    28
+    29
+    30	def norm(a):
+    31	    return math.sqrt(dot(a, a))
+    32
+    33
+    34	def normalize(a):
+    35	    length = norm(a)
+    36	    if length < 1e-12:
+    37	        raise ValueError("degenerate vector")
+    38	    return scale(1.0 / length, a)
+    39
+    40
+    41	def outer(a, b):
+    42	    return tuple(tuple(a[i] * b[j] for j in range(4)) for i in range(4))
+    43
+    44
+    45	def matadd(*matrices):
+    46	    return tuple(
+    47	        tuple(sum(matrix[i][j] for matrix in matrices) for j in range(4))
+    48	        for i in range(4)
+    49	    )
+    50
+    51
+    52	def matscale(c, matrix):
+    53	    return tuple(tuple(c * value for value in row) for row in matrix)
+    54
+    55
+    56	def matvec(matrix, vector):
+    57	    return tuple(sum(matrix[i][j] * vector[j] for j in range(4)) for i in range(4))
+    58
+    59
+    60	def matmul(a, b):
+    61	    return tuple(
+    62	        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+    63	        for i in range(4)
+    64	    )
+    65
+    66
+    67	def transpose(matrix):
+    68	    return tuple(tuple(matrix[j][i] for j in range(4)) for i in range(4))
+    69
+    70
+    71	def determinant(matrix):
+    72	    result = 0.0
+    73	    for permutation in itertools.permutations(range(4)):
+    74	        inversions = sum(
+    75	            permutation[i] > permutation[j]
+    76	            for i in range(4)
+    77	            for j in range(i + 1, 4)
+    78	        )
+    79	        term = 1.0 if inversions % 2 == 0 else -1.0
+    80	        for i in range(4):
+    81	            term *= matrix[i][permutation[i]]
+    82	        result += term
+    83	    return result
+    84
+    85
+    86	def determinant3(matrix):
+    87	    return (
+    88	        matrix[0][0] * (matrix[1][1] * matrix[2][2] - matrix[1][2] * matrix[2][1])
+    89	        - matrix[0][1] * (matrix[1][0] * matrix[2][2] - matrix[1][2] * matrix[2][0])
+    90	        + matrix[0][2] * (matrix[1][0] * matrix[2][1] - matrix[1][1] * matrix[2][0])
+    91	    )
+    92
+    93
+    94	def columns(vectors):
+    95	    return tuple(tuple(vectors[j][i] for j in range(4)) for i in range(4))
+    96
+    97
+    98	def orthogonal_fourth(p, v, w):
+    99	    rows = (p, v, w)
+   100	    cofactors = []
+   101	    for excluded in range(4):
+   102	        minor = tuple(
+   103	            tuple(row[j] for j in range(4) if j != excluded)
+   104	            for row in rows
+   105	        )
+   106	        cofactors.append(((-1.0) ** excluded) * determinant3(minor))
+   107	    z = normalize(tuple(cofactors))
+   108	    if determinant(columns((p, v, w, z))) < 0.0:
+   109	        z = scale(-1.0, z)
+   110	    return z
+   111
+   112
+   113	def random_unit(rng):
+   114	    return normalize(tuple(rng.gauss(0.0, 1.0) for _ in range(4)))
+   115
+   116
+   117	def random_frame(rng):
+   118	    while True:
+   119	        try:
+   120	            p = random_unit(rng)
+   121	            raw_v = tuple(rng.gauss(0.0, 1.0) for _ in range(4))
+   122	            v = normalize(add(raw_v, scale(-dot(raw_v, p), p)))
+   123	            raw_w = tuple(rng.gauss(0.0, 1.0) for _ in range(4))
+   124	            w = normalize(
+   125	                add(
+   126	                    add(raw_w, scale(-dot(raw_w, p), p)),
+   127	                    scale(-dot(raw_w, v), v),
+   128	                )
+   129	            )
+   130	            z = orthogonal_fourth(p, v, w)
+   131	            return p, v, w, z
+   132	        except ValueError:
+   133	            continue
+   134
+   135
+   136	def complex_structure(p, v, w, z, sign):
+   137	    route = matadd(outer(v, p), matscale(-1.0, outer(p, v)))
+   138	    screen = matadd(outer(z, w), matscale(-1.0, outer(w, z)))
+   139	    return matadd(route, matscale(sign, screen))
+   140
+   141
+   142	def reflection(p, v, w, z):
+   143	    return matadd(outer(p, p), outer(v, v), outer(w, w), matscale(-1.0, outer(z, z)))
+   144
+   145
+   146	def pfaffian(matrix):
+   147	    return (
+   148	        matrix[0][1] * matrix[2][3]
+   149	        - matrix[0][2] * matrix[1][3]
+   150	        + matrix[0][3] * matrix[1][2]
+   151	    )
+   152
+   153
+   154	def maximum_vector_error(a, b):
+   155	    return max(abs(x - y) for x, y in zip(a, b))
+   156
+   157
+   158	def maximum_matrix_error(a, b):
+   159	    return max(abs(a[i][j] - b[i][j]) for i in range(4) for j in range(4))
+   160
+   161
+   162	def main():
+   163	    rng = random.Random(SEED)
+   164	    identity = tuple(tuple(1.0 if i == j else 0.0 for j in range(4)) for i in range(4))
+   165	    minus_identity = matscale(-1.0, identity)
+   166	    checks = 0
+   167	    maximum_error = 0.0
+   168
+   169	    def check(condition, error=0.0):
+   170	        nonlocal checks, maximum_error
+   171	        assert condition
+   172	        checks += 1
+   173	        maximum_error = max(maximum_error, abs(error))
+   174
+   175	    sample_cases = 1200
+   176	    global_points_per_case = 4
+   177	    for _ in range(sample_cases):
+   178	        p, v, w, z = random_frame(rng)
+   179	        left = complex_structure(p, v, w, z, 1.0)
+   180	        right = complex_structure(p, v, w, z, -1.0)
+   181	        mirror = reflection(p, v, w, z)
+   182
+   183	        for candidate in (left, right):
+   184	            skew_error = maximum_matrix_error(transpose(candidate), matscale(-1.0, candidate))
+   185	            complex_error = maximum_matrix_error(matmul(candidate, candidate), minus_identity)
+   186	            orthogonal_error = maximum_matrix_error(matmul(transpose(candidate), candidate), identity)
+   187	            check(skew_error < 2e-12, skew_error)
+   188	            check(complex_error < 2e-12, complex_error)
+   189	            check(orthogonal_error < 2e-12, orthogonal_error)
+   190	            check(abs(abs(pfaffian(candidate)) - 1.0) < 2e-12, abs(abs(pfaffian(candidate)) - 1.0))
+   191
+   192	        check(abs(pfaffian(left) + pfaffian(right)) < 2e-12, pfaffian(left) + pfaffian(right))
+   193	        check(abs(determinant(mirror) + 1.0) < 2e-12, determinant(mirror) + 1.0)
+   194	        check(maximum_matrix_error(matmul(mirror, mirror), identity) < 2e-12, maximum_matrix_error(matmul(mirror, mirror), identity))
+   195	        check(maximum_vector_error(matvec(mirror, p), p) < 2e-12, maximum_vector_error(matvec(mirror, p), p))
+   196	        check(maximum_vector_error(matvec(mirror, v), v) < 2e-12, maximum_vector_error(matvec(mirror, v), v))
+   197	        check(maximum_vector_error(matvec(mirror, w), w) < 2e-12, maximum_vector_error(matvec(mirror, w), w))
+   198	        check(maximum_vector_error(matvec(mirror, z), scale(-1.0, z)) < 2e-12, maximum_vector_error(matvec(mirror, z), scale(-1.0, z)))
+   199	        conjugated = matmul(matmul(mirror, left), transpose(mirror))
+   200	        check(maximum_matrix_error(conjugated, right) < 3e-12, maximum_matrix_error(conjugated, right))
+   201
+   202	        reversed_left = matscale(-1.0, left)
+   203	        reversed_right = matscale(-1.0, right)
+   204	        check(abs(pfaffian(reversed_left) - pfaffian(left)) < 2e-12, pfaffian(reversed_left) - pfaffian(left))
+   205	        check(abs(pfaffian(reversed_right) - pfaffian(right)) < 2e-12, pfaffian(reversed_right) - pfaffian(right))
+   206	        check(maximum_vector_error(matvec(reversed_left, p), scale(-1.0, v)) < 2e-12, maximum_vector_error(matvec(reversed_left, p), scale(-1.0, v)))
+   207
+   208	        midpoint = matscale(0.5, matadd(left, right))
+   209	        check(abs(determinant(midpoint)) < 2e-12, determinant(midpoint))
+   210	        check(maximum_matrix_error(matmul(midpoint, midpoint), minus_identity) > 0.5)
+   211
+   212	        rotation_frame = random_frame(rng)
+   213	        rotation = columns(rotation_frame)
+   214	        check(abs(determinant(rotation) - 1.0) < 2e-12, determinant(rotation) - 1.0)
+   215	        rotated_left = matmul(matmul(rotation, left), transpose(rotation))
+   216	        rotated_right = matmul(matmul(rotation, right), transpose(rotation))
+   217	        check(abs(pfaffian(rotated_left) - pfaffian(left)) < 3e-12, pfaffian(rotated_left) - pfaffian(left))
+   218	        check(abs(pfaffian(rotated_right) - pfaffian(right)) < 3e-12, pfaffian(rotated_right) - pfaffian(right))
+   219
+   220	        radius = 10.0 ** rng.uniform(-2.0, 2.0)
+   221	        radius_rate = rng.uniform(-3.0, 3.0)
+   222	        first_carry_term = -radius_rate / (radius * radius)
+   223	        second_carry_term = (1.0 / radius) * (radius_rate / radius)
+   224	        carry = first_carry_term + second_carry_term
+   225	        carry_scale = max(1.0, abs(first_carry_term) + abs(second_carry_term))
+   226	        normalized_carry_error = carry / carry_scale
+   227	        check(abs(normalized_carry_error) < 2e-12, normalized_carry_error)
+   228	        if abs(radius_rate) > 1e-8:
+   229	            check(abs(radius_rate / radius) > 0.0)
+   230
+   231	        for _ in range(global_points_per_case):
+   232	            q = random_unit(rng)
+   233	            for candidate, other in ((left, right), (right, left)):
+   234	                field = matvec(candidate, q)
+   235	                check(abs(dot(q, field)) < 2e-12, dot(q, field))
+   236	                check(abs(dot(field, field) - 1.0) < 3e-12, dot(field, field) - 1.0)
+   237	                equivariance_error = maximum_vector_error(
+   238	                    matvec(mirror, field),
+   239	                    matvec(other, matvec(mirror, q)),
+   240	                )
+   241	                check(equivariance_error < 3e-12, equivariance_error)
+   242	                unit_field = scale(1.0 / radius, field)
+   243	                check(abs(radius * radius * dot(unit_field, unit_field) - 1.0) < 4e-12, radius * radius * dot(unit_field, unit_field) - 1.0)
+   244
+   245	            raw_tangent = random_unit(rng)
+   246	            spatial = add(raw_tangent, scale(-dot(raw_tangent, q), q))
+   247	            dt = rng.uniform(-2.0, 2.0)
+   248	            before = -dt * dt + radius * radius * dot(spatial, spatial)
+   249	            reflected_spatial = matvec(mirror, spatial)
+   250	            after = -dt * dt + radius * radius * dot(reflected_spatial, reflected_spatial)
+   251	            causal_scale = max(1.0, abs(before) + abs(after))
+   252	            causal_error = (before - after) / causal_scale
+   253	            check(abs(causal_error) < 3e-12, causal_error)
+   254	            check((before > 0.0) == (after > 0.0) and (before < 0.0) == (after < 0.0))
+   255
+   256	    result = {
+   257	        "status": "PASS",
+   258	        "implementation": "random_oriented_frame_outer_product_and_pfaffian_no_production_import",
+   259	        "imports_production_code": False,
+   260	        "random_seed": SEED,
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py | sed -n '1,280p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact standard-library derivation for the bounded G308 classification."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import itertools
+     8	import json
+     9	from fractions import Fraction as F
+    10	from pathlib import Path
+    11
+    12
+    13	HERE = Path(__file__).resolve().parent
+    14	OUT = HERE / "DERIVATION_RESULT.json"
+    15	CENSUS = HERE / "COHERENCE_CENSUS.tsv"
+    16	LANDING = (
+    17	    "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305"
+    18	    "__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING"
+    19	    "__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS"
+    20	    "__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN"
+    21	)
+    22	Z = F(0)
+    23	O = F(1)
+    24
+    25
+    26	def qmul(a, b):
+    27	    aw, ax, ay, az = a
+    28	    bw, bx, by, bz = b
+    29	    return (
+    30	        aw * bw - ax * bx - ay * by - az * bz,
+    31	        aw * bx + ax * bw + ay * bz - az * by,
+    32	        aw * by - ax * bz + ay * bw + az * bx,
+    33	        aw * bz + ax * by - ay * bx + az * bw,
+    34	    )
+    35
+    36
+    37	def qconj(q):
+    38	    return (q[0], -q[1], -q[2], -q[3])
+    39
+    40
+    41	def dot(a, b):
+    42	    return sum(x * y for x, y in zip(a, b))
+    43
+    44
+    45	def add(a, b):
+    46	    return tuple(x + y for x, y in zip(a, b))
+    47
+    48
+    49	def scale(c, a):
+    50	    return tuple(c * x for x in a)
+    51
+    52
+    53	def stereo(t):
+    54	    squared = sum(x * x for x in t)
+    55	    denominator = O + squared
+    56	    return ((O - squared) / denominator,) + tuple(2 * x / denominator for x in t)
+    57
+    58
+    59	def outer(a, b):
+    60	    return tuple(tuple(a[i] * b[j] for j in range(4)) for i in range(4))
+    61
+    62
+    63	def matadd(*matrices):
+    64	    return tuple(
+    65	        tuple(sum(matrix[i][j] for matrix in matrices) for j in range(4))
+    66	        for i in range(4)
+    67	    )
+    68
+    69
+    70	def matscale(c, matrix):
+    71	    return tuple(tuple(c * value for value in row) for row in matrix)
+    72
+    73
+    74	def matvec(matrix, vector):
+    75	    return tuple(sum(matrix[i][j] * vector[j] for j in range(4)) for i in range(4))
+    76
+    77
+    78	def matmul(a, b):
+    79	    return tuple(
+    80	        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+    81	        for i in range(4)
+    82	    )
+    83
+    84
+    85	def transpose(matrix):
+    86	    return tuple(tuple(matrix[j][i] for j in range(4)) for i in range(4))
+    87
+    88
+    89	def determinant(matrix):
+    90	    result = Z
+    91	    for permutation in itertools.permutations(range(4)):
+    92	        inversions = sum(
+    93	            permutation[i] > permutation[j]
+    94	            for i in range(4)
+    95	            for j in range(i + 1, 4)
+    96	        )
+    97	        term = O if inversions % 2 == 0 else -O
+    98	        for i in range(4):
+    99	            term *= matrix[i][permutation[i]]
+   100	        result += term
+   101	    return result
+   102
+   103
+   104	def from_action(action):
+   105	    basis = (
+   106	        (O, Z, Z, Z),
+   107	        (Z, O, Z, Z),
+   108	        (Z, Z, O, Z),
+   109	        (Z, Z, Z, O),
+   110	    )
+   111	    columns = [action(vector) for vector in basis]
+   112	    return tuple(tuple(columns[j][i] for j in range(4)) for i in range(4))
+   113
+   114
+   115	def columns(vectors):
+   116	    return tuple(tuple(vectors[j][i] for j in range(4)) for i in range(4))
+   117
+   118
+   119	def complex_structure(p, v, w, z, chirality):
+   120	    route = matadd(outer(v, p), matscale(-O, outer(p, v)))
+   121	    screen = matadd(outer(z, w), matscale(-O, outer(w, z)))
+   122	    return matadd(route, matscale(chirality, screen))
+   123
+   124
+   125	def reflection(p, v, w, z):
+   126	    return matadd(outer(p, p), outer(v, v), outer(w, w), matscale(-O, outer(z, z)))
+   127
+   128
+   129	def pfaffian(matrix):
+   130	    return (
+   131	        matrix[0][1] * matrix[2][3]
+   132	        - matrix[0][2] * matrix[1][3]
+   133	        + matrix[0][3] * matrix[1][2]
+   134	    )
+   135
+   136
+   137	def main():
+   138	    identity = tuple(tuple(O if i == j else Z for j in range(4)) for i in range(4))
+   139	    minus_identity = matscale(-O, identity)
+   140	    imaginary_basis = (
+   141	        (Z, O, Z, Z),
+   142	        (Z, Z, O, Z),
+   143	        (Z, Z, Z, O),
+   144	    )
+   145	    parameters = (
+   146	        (F(0), F(0), F(0)),
+   147	        (F(1, 2), F(0), F(0)),
+   148	        (F(1, 3), F(1, 4), F(0)),
+   149	        (F(-2, 5), F(1, 3), F(1, 7)),
+   150	        (F(2, 3), F(-1, 5), F(3, 8)),
+   151	        (F(-3, 7), F(-2, 9), F(1, 6)),
+   152	    )
+   153	    circle_pairs = (
+   154	        (F(3, 5), F(4, 5)),
+   155	        (F(5, 13), F(12, 13)),
+   156	        (F(-8, 17), F(15, 17)),
+   157	    )
+   158	    scale_controls = (
+   159	        (F(1, 2), F(-3, 7)),
+   160	        (F(1), F(0)),
+   161	        (F(7, 3), F(2, 5)),
+   162	        (F(5), F(-4, 9)),
+   163	        (F(19, 4), F(11, 13)),
+   164	    )
+   165	    assertions = 0
+   166
+   167	    def check(condition, label):
+   168	        nonlocal assertions
+   169	        assert condition, label
+   170	        assertions += 1
+   171
+   172	    frame_cases = 0
+   173	    global_point_cases = 0
+   174	    for point_parameters in parameters:
+   175	        p = stereo(point_parameters)
+   176	        check(dot(p, p) == O, "unit supplied point")
+   177	        for rotation_parameters in parameters:
+   178	            rotation = stereo(rotation_parameters)
+   179	            rotation_bar = qconj(rotation)
+   180	            u, e, f = (
+   181	                qmul(qmul(rotation, axis), rotation_bar) for axis in imaginary_basis
+   182	            )
+   183	            v = qmul(u, p)
+   184	            w = qmul(e, p)
+   185	            z = qmul(f, p)
+   186	            frame = (p, v, w, z)
+   187	            check(matmul(transpose(columns(frame)), columns(frame)) == identity, "oriented orthonormal frame")
+   188	            check(determinant(columns(frame)) == O, "positive frame orientation")
+   189
+   190	            left = complex_structure(p, v, w, z, O)
+   191	            right = complex_structure(p, v, w, z, -O)
+   192	            quaternion_left = from_action(lambda x, ul=qmul(v, qconj(p)): qmul(ul, x))
+   193	            quaternion_right = from_action(lambda x, ur=qmul(qconj(p), v): qmul(x, ur))
+   194	            check(left == quaternion_left, "left G307 reconstruction")
+   195	            check(right == quaternion_right, "right G307 reconstruction")
+   196	            for candidate, label in ((left, "left"), (right, "right")):
+   197	                check(transpose(candidate) == matscale(-O, candidate), f"{label} skew")
+   198	                check(matmul(candidate, candidate) == minus_identity, f"{label} complex")
+   199	                check(matmul(transpose(candidate), candidate) == identity, f"{label} orthogonal")
+   200	                check(matvec(candidate, p) == v, f"{label} supplied direction")
+   201	                check(matvec(candidate, v) == scale(-O, p), f"{label} route closure")
+   202	                check(abs(pfaffian(candidate)) == O, f"{label} chirality unit")
+   203	            check(pfaffian(left) == -pfaffian(right), "opposite chirality")
+   204	            check(matvec(left, w) == z and matvec(right, w) == scale(-O, z), "opposite screen turn")
+   205
+   206	            mirror = reflection(p, v, w, z)
+   207	            check(transpose(mirror) == mirror, "mirror symmetric")
+   208	            check(matmul(mirror, mirror) == identity, "mirror involution")
+   209	            check(determinant(mirror) == -O, "mirror orientation reversing")
+   210	            check(matvec(mirror, p) == p and matvec(mirror, v) == v, "mirror fixes route germ")
+   211	            check(matvec(mirror, w) == w and matvec(mirror, z) == scale(-O, z), "mirror reverses screen orientation")
+   212	            check(matmul(matmul(mirror, left), mirror) == right, "mirror exchanges candidates")
+   213	            check(pfaffian(right) == determinant(mirror) * pfaffian(left), "chirality transformation law")
+   214
+   215	            reversed_left = matscale(-O, left)
+   216	            reversed_right = matscale(-O, right)
+   217	            check(matvec(reversed_left, p) == scale(-O, v), "left pair reversal")
+   218	            check(matvec(reversed_right, p) == scale(-O, v), "right pair reversal")
+   219	            check(pfaffian(reversed_left) == pfaffian(left), "left reversal preserves chirality")
+   220	            check(pfaffian(reversed_right) == pfaffian(right), "right reversal preserves chirality")
+   221
+   222	            midpoint = matscale(F(1, 2), matadd(left, right))
+   223	            check(determinant(midpoint) == Z, "linear chirality switch degenerates")
+   224	            check(matmul(midpoint, midpoint) != minus_identity, "switch leaves complex stratum")
+   225	            check(matvec(midpoint, w) == (Z, Z, Z, Z), "switch loses transverse rank")
+   226
+   227	            for global_parameters in parameters:
+   228	                q = stereo(global_parameters)
+   229	                for candidate, other, label in (
+   230	                    (left, right, "left"),
+   231	                    (right, left, "right"),
+   232	                ):
+   233	                    field = matvec(candidate, q)
+   234	                    check(dot(q, field) == Z, f"{label} globally tangent")
+   235	                    check(dot(field, field) == O, f"{label} globally nowhere zero")
+   236	                    check(
+   237	                        matvec(mirror, field)
+   238	                        == matvec(other, matvec(mirror, q)),
+   239	                        f"{label} global mirror equivariance",
+   240	                    )
+   241	                    for cosine, sine in circle_pairs:
+   242	                        orbit_point = add(scale(cosine, q), scale(sine, field))
+   243	                        check(dot(orbit_point, orbit_point) == O, f"{label} complete circle point")
+   244	                        check(
+   245	                            matvec(candidate, orbit_point)
+   246	                            == add(scale(cosine, field), scale(-sine, q)),
+   247	                            f"{label} circle flow",
+   248	                        )
+   249	                    for radius, radius_rate in scale_controls:
+   250	                        unit_field = scale(O / radius, field)
+   251	                        check(radius * radius * dot(unit_field, unit_field) == O, f"{label} slice unit norm")
+   252	                        carry_coefficient = (
+   253	                            -radius_rate / (radius * radius)
+   254	                            + (O / radius) * (radius_rate / radius)
+   255	                        )
+   256	                        check(carry_coefficient == Z, f"{label} exact time-parallel unit carry")
+   257	                        spacetime_acceleration = radius_rate / radius
+   258	                        check(
+   259	                            (spacetime_acceleration == Z) == (radius_rate == Z),
+   260	                            f"{label} spacetime-geodesic iff static scale control",
+   261	                        )
+   262	                global_point_cases += 1
+   263
+   264	            frame_cases += 1
+   265
+   266	    census = (
+   267	        ("round_G305_metric_only", "two_continuous_chiral_families", "no_member"),
+   268	        ("one_supplied_directed_germ", "two_global_members", "one_per_chirality"),
+   269	        ("connected_smooth_regular_Hopf_carry", "one_constant_chirality_label_per_component", "no_sign_preference"),
+   270	        ("unoriented_metric_full_O4_equivalence", "one_mirror_orbit_with_two_representatives", "orientation_blind_equivalence"),
+   271	        ("oriented_metric_SO4_equivalence", "two_chiral_sectors", "degenerate_not_selected"),
+   272	        ("supplied_signed_transverse_screen", "one_member", "conditional_reconstruction"),
+   273	        ("active_physical_population", "zero_selected", "open"),
+   274	    )
+   275	    with CENSUS.open("w", encoding="utf-8", newline="") as handle:
+   276	        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+   277	        writer.writerow(("data_level", "global_geometric_status", "ownership"))
+   278	        writer.writerows(census)
+   279
+   280	    result = {
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py | sed -n '1,180p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Build a sealed, source-bounded G308 fresh-review intake."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	import shutil
+    10	import tempfile
+    11	from pathlib import Path
+    12
+    13
+    14	HERE = Path(__file__).resolve().parent
+    15	REPO = HERE.parent
+    16	PACKAGE_FILES = [
+    17	    "MAP.md", "PONDER.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    18	    "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "COMPLETENESS_MAP.md",
+    19	    "SOURCE_SCOPE.tsv", "SOURCE_MANIFEST.tsv", "derive_global_chirality_coherence.py",
+    20	    "verify_global_chirality_independent.py", "run_catch_proofs.py", "verify_package.py",
+    21	    "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+    22	    "COHERENCE_CENSUS.tsv", "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json",
+    23	    "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
+    24	    "RUN_RECORD.md", "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "build_review_intake.py",
+    25	]
+    26	CURRENT_FILES = [
+    27	    "CURRENT_SCIENTIFIC_PREMISES.md",
+    28	    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    29	]
+    30
+    31
+    32	def digest(path: Path) -> str:
+    33	    result = hashlib.sha256()
+    34	    with path.open("rb") as handle:
+    35	        for block in iter(lambda: handle.read(1024 * 1024), b""):
+    36	            result.update(block)
+    37	    return result.hexdigest()
+    38
+    39
+    40	def resolve_source(relative: Path) -> Path:
+    41	    candidates = (REPO / relative, REPO / "frozen_sources" / relative)
+    42	    matches = [path for path in candidates if path.is_file()]
+    43	    if len(matches) != 1:
+    44	        raise AssertionError(
+    45	            f"source resolution must be unique for {relative}: "
+    46	            f"found {[str(path) for path in matches]}"
+    47	        )
+    48	    return matches[0]
+    49
+    50
+    51	def resolve_current(name: str) -> Path:
+    52	    candidates = (REPO / name, REPO / "frozen_current" / name)
+    53	    matches = [path for path in candidates if path.is_file()]
+    54	    if len(matches) != 1:
+    55	        raise AssertionError(
+    56	            f"current source resolution must be unique for {name}: "
+    57	            f"found {[str(path) for path in matches]}"
+    58	        )
+    59	    return matches[0]
+    60
+    61
+    62	def main() -> None:
+    63	    target = Path(tempfile.mkdtemp(prefix="udt_g308_review_", dir="/tmp"))
+    64	    package_target = target / HERE.name
+    65	    package_target.mkdir()
+    66	    for name in PACKAGE_FILES:
+    67	        source = HERE / name
+    68	        if not source.is_file():
+    69	            raise FileNotFoundError(source)
+    70	        shutil.copy2(source, package_target / name)
+    71
+    72	    frozen = target / "frozen_sources"
+    73	    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+    74	        source_rows = list(csv.DictReader(handle, delimiter="\t"))
+    75	    for row in source_rows:
+    76	        source = resolve_source(Path(row["path"]))
+    77	        if digest(source) != row["sha256"]:
+    78	            raise AssertionError(f"source hash drift: {row['path']}")
+    79	        destination = frozen / row["path"]
+    80	        destination.parent.mkdir(parents=True, exist_ok=True)
+    81	        shutil.copy2(source, destination)
+    82
+    83	    frozen_current = target / "frozen_current"
+    84	    frozen_current.mkdir()
+    85	    for name in CURRENT_FILES:
+    86	        source = resolve_current(name)
+    87	        shutil.copy2(source, frozen_current / name)
+    88
+    89	    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    90	    if digest(frozen_current / "CURRENT_SCIENTIFIC_PREMISES.tsv") != premise_audit["registry_sha256"]:
+    91	        raise AssertionError("current premise registry drift since G308 audit")
+    92
+    93	    scope = {
+    94	        "schema": "UDT_G308_FRESH_REVIEW_SCOPE_V1",
+    95	        "question": (
+    96	            "audit the bounded global coherence parity and chirality classification on the "
+    97	            "positive standard G305 completion and its retained physical-population boundary"
+    98	        ),
+    99	        "package": HERE.name,
+   100	        "package_file_count": len(PACKAGE_FILES),
+   101	        "frozen_source_count": len(source_rows),
+   102	        "frozen_current_count": len(CURRENT_FILES),
+   103	        "allowed": [
+   104	            "read intake",
+   105	            "independently rederive the bounded theorem",
+   106	            "run registered checks in a writable ephemeral copy",
+   107	            "write review response outside intake",
+   108	        ],
+   109	        "forbidden": [
+   110	            "edit evidence files",
+   111	            "continue research",
+   112	            "access repository or protected packages",
+   113	            "use internet or unsealed observations",
+   114	            "import field equation action source matter model physical population mass law fit scale or X_max",
+   115	            "change registered question",
+   116	            "promote metric coherence or mirror equivalence into physical population of a chirality",
+   117	        ],
+   118	    }
+   119	    scope_path = target / "REVIEW_SCOPE.json"
+   120	    scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   121
+   122	    payloads = sorted(path for path in target.rglob("*") if path.is_file())
+   123	    manifest = target / "REVIEW_MANIFEST.tsv"
+   124	    with manifest.open("w", encoding="utf-8", newline="") as handle:
+   125	        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+   126	        writer.writerow(["sha256", "bytes", "path"])
+   127	        for path in payloads:
+   128	            writer.writerow([digest(path), path.stat().st_size, path.relative_to(target).as_posix()])
+   129	    seal = target / "REVIEW_MANIFEST.sha256"
+   130	    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+   131	    print(json.dumps({
+   132	        "intake": str(target),
+   133	        "manifest_payloads": len(payloads),
+   134	        "total_files": len(payloads) + 2,
+   135	        "scope_sha256": digest(scope_path),
+   136	        "manifest_sha256": digest(manifest),
+   137	        "detached_seal_sha256": digest(seal),
+   138	    }, indent=2, sort_keys=True))
+   139
+   140
+   141	if __name__ == "__main__":
+   142	    main()
+
+The sealed-intake review is complete: I read the bounded source materials, independently assessed the theorem claims, replayed the registered standard-library checks in /work, and isolated one portability defect in verify_package.py without finding a bounded scientific defect.
+  ✓ Read G305/G307/G308 derivation materials and verification scripts from /intake only
+  ✓ Independently assess the geometry, chirality, parity, and connectedness claims against the bounded premises
+  ✓ Replay registered standard-library checks from an ephemeral /work copy and inspect for false independence or vacuous coverage
+  → Deliver a severity-ordered verdict with scientific vs packaging defects and full command log
+codex
+G308_REPAIRABLE_DEFECTS
+
+**Findings**
+- `Medium, replay/packaging defect`: the registered no-write verifier is not portable to the sealed intake layout it is supposed to check. [verify_package.py](/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py:12) sets `ROOT = HERE.parent` and then hashes `ROOT / row["path"]` at [line 113](/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py:113), but [build_review_intake.py](/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py:72) stores those frozen sources under `frozen_sources/`. In a fresh `/work` copy of the sealed intake, `python3 -S verify_package.py` failed with `FileNotFoundError`; it passed only after I added ephemeral sibling symlinks. This is repairable and not a bounded scientific defect.
+- `Low, evidence-quality caveat`: the claimed “independent” verifier is non-importing, but not fully independent of the constructive ansatz. [verify_global_chirality_independent.py](/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py:136) rebuilds the same outer-product `complex_structure` and the same `reflection` as production at [derive_global_chirality_coherence.py](/intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py:119). It is still a useful randomized algebraic stress test, but its independence claim is weaker than advertised.
+
+Scientific defects: none found within the bounded G305/G307/G308 scope.
+
+**Strongest Landing**
+Within the bounded positive-standard G305 setting, yes: both G307 chiral members extend as smooth nowhere-zero global Hopf fields on `R x S3`, their normalized slice fields satisfy `nabla_{∂T}(K/a)=0`, and the package correctly distinguishes slice geodesicity from four-dimensional spacetime geodesicity since `nabla^{(4)}_V V = (a'/a) ∂T` in general. A transverse-orientation-reversing reflection in `O(4)` with determinant `-1` globally conjugates `J_+` to `J_-`, while no `SO(4)` map can do so because Pfaffian chirality is `SO(4)`-invariant. Pair reversal `J -> -J` preserves the 4D Pfaffian sign, so it is not parity. Connected smooth regular carry cannot switch chirality without leaving the regular orthogonal-complex/Hopf stratum; only degeneracy, discontinuity, singular or boundary routes, topology change, or orientation-forgetting mirror identification remain outside the theorem. The metric alone still selects neither physical sector, and G308 changes neither the G305 metric nor the reciprocal kernel.
+
+**Commands**
+```text
+pwd  # exit 0
+rg --files /intake  # exit 127, rg not installed
+find /intake -maxdepth 2 -type d | sort  # exit 0
+find /intake -maxdepth 3 -type f | sort  # exit 0
+find /intake -maxdepth 4 -type f \( -name '*.py' -o -name '*.md' -o -name '*.txt' -o -name '*.json' -o -name '*.toml' -o -name 'Makefile' -o -name '*.sh' \) | sort  # exit 0
+sed -n '1,220p' /intake/REVIEW_SCOPE.json  # exit 0
+sed -n '1,260p' /intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXTERNAL_REVIEW_REQUEST.md  # exit 0
+sed -n '1,320p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EXACT_DERIVATION.md  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py  # exit 0
+sed -n '1,320p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/run_catch_proofs.py  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py  # exit 0
+sed -n '261,520p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py  # exit 0
+sed -n '1,240p' /intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/DERIVATION_RESULT.json  # exit 0
+sed -n '1,240p' /intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COMMANDS.md  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/RUN_RECORD.md  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/SOURCE_MANIFEST.tsv  # exit 0
+sed -n '1,220p' /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json  # exit 0
+sed -n '1,240p' /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md  # exit 0
+sed -n '1,240p' /intake/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md  # exit 0
+sed -n '1,240p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/VERIFICATION_RESULT.json  # exit 0
+sed -n '1,240p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv  # exit 0
+sed -n '1,220p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/EVIDENCE_GATES.md  # exit 0
+mkdir -p /work/g308_review && cp -a /intake/. /work/g308_review/  # exit 0
+python3 -S derive_global_chirality_coherence.py  # exit 0
+python3 -S verify_global_chirality_independent.py  # exit 0
+python3 -S run_catch_proofs.py  # exit 0
+python3 -S verify_package.py  # exit 1, FileNotFoundError on missing sibling source path
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py  # exit 0
+sed -n '1,260p' /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/SOURCE_SCOPE.tsv  # exit 0
+find /work/g308_review -maxdepth 2 -type d | sort  # exit 0
+ln -s /work/g308_review/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30 /work/g308_review/udt_g305_global_completion_hopf_domain_bridge_2026-08-30 && ln -s /work/g308_review/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30 /work/g308_review/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30 && ln -s /work/g308_review/frozen_sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30 /work/g308_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30  # exit 0
+python3 -S verify_package.py  # exit 0 after ephemeral symlink repair
+cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/DERIVATION_RESULT.json; echo $?  # 0
+cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/INDEPENDENT_VERIFICATION.json; echo $?  # 0
+cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/CATCH_PROOF_RESULT.json; echo $?  # 0
+cmp -s /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv /work/g308_review/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/COHERENCE_CENSUS.tsv; echo $?  # 0
+nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_package.py | sed -n '1,180p'  # exit 0
+nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/verify_global_chirality_independent.py | sed -n '1,260p'  # exit 0
+nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/derive_global_chirality_coherence.py | sed -n '1,280p'  # exit 0
+nl -ba /intake/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/build_review_intake.py | sed -n '1,180p'  # exit 0
+```
+
+I did not run the repository-only gates `python3 verify_current_scientific_premises.py` or `python3 -m pytest -q`, because the sealed scope explicitly excludes inspecting or relying on the wider repository.
+tokens used
+82,580
+
+Script done on 2026-08-31 11:43:14-04:00 [COMMAND_EXIT_CODE="0"]
