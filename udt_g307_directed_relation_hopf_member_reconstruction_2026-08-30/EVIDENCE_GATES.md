@@ -17,8 +17,12 @@
    boundary remain active.
 6. **Repository regression:** PASS — 199 passed and one expected xfail. The xfail is the registered
    matter-lane habit-pin sentinel and is unrelated to G307.
-7. **Fresh external adversarial review:** PENDING.
+7. **Fresh external adversarial review:** SCIENCE SUPPORTED; REPAIRS REQUIRED — the reviewer found
+   no bounded scientific defect and retained the exact landing, while returning
+   `G307_REPAIRABLE_DEFECTS` for sealed-builder source resolution and narrower-than-claimed
+   independent/hostile replay coverage. Repairs R1--R4 are preregistered separately.
 
-The current maximum grade is `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`.
+The current maximum grade remains `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`
+until the preregistered repairs and repair-only follow-up close.
 Physical query/route/screen population, dynamics, history, mass, scale, observation, and physical
 `X_max` remain open.

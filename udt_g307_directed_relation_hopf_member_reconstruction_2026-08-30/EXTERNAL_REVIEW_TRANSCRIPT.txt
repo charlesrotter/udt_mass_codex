@@ -1,0 +1,3007 @@
+Script started on 2026-08-31 08:22:08-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a057c5-180b-74b1-990f-60178aba0827
+--------
+user
+The sealed intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake; do not edit evidence files or continue the research. Internet access, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Re-derive the load-bearing theorem independently and run registered standard-library checks only in an ephemeral copy. Do not select or propose a UDT field equation, action, source, matter model, physical history, mass law, numerical scale, observation, or X_max.\n\n# G307 fresh adversarial review request
+
+Review only the sealed intake. Do not continue the research or propose a replacement UDT law.
+
+## Question
+
+Does the bounded positive-round G307 evidence prove that a supplied point and ordered tangent
+select exactly one G306 Hopf member per chirality, that the two survivors define the same complete
+one-dimensional great-circle route, and that one supplied signed transverse-screen first jet
+conditionally selects exactly one member—while active UDT premises still populate none of those
+physical relation data?
+
+## Required attacks
+
+1. Independently rederive the left/right quaternion reconstruction and prove or refute uniqueness
+   for every regular `(p,v)`, not merely the sampled witnesses.
+2. Check whether the phrase "complete one-dimensional route and metric frame carry" already
+   contains the transverse signed first derivative. Distinguish ordinary metric parallel transport
+   of a supplied screen frame from the transverse derivative of the candidate Hopf field. Flag any
+   conflation as a scientific defect.
+3. Audit orientation, screen-gauge, and pair-reversal typing. Determine whether the claimed binary
+   chirality datum is invariantly meaningful only after the stated orientations are supplied.
+4. Verify that the radius dependence is exactly a nonzero `1/a` factor and that the sign census is
+   valid for every positive radius.
+5. Audit G298/G299/G300 ownership: conditional reconstruction from supplied relation data must not
+   be promoted to a populated lawful query, route, screen, field, dynamics, or history.
+6. Run the registered checks in a writable ephemeral copy and inspect them for shared-code false
+   independence, vacuous assertions, missing branches, and loose tolerances.
+7. Confirm that no metric or reciprocal-kernel term, action, source, mass law, scale, observation,
+   or physical `X_max` entered.
+
+## Required response
+
+Lead with one exact verdict token:
+
+- `G307_BOUNDED_RESULT_ACCEPTED`
+- `G307_REPAIRABLE_DEFECTS`
+- `G307_SCIENTIFIC_DEFECT`
+- `G307_INCONSISTENT_OR_UNCLASSIFIED`
+
+Then list findings by severity, give the strongest defensible landing, report every command run,
+and distinguish scientific defects from replay/packaging defects. Do not edit evidence files and
+do not continue the research beyond this bounded adjudication.
+codex
+I’m treating this as a bounded forensic review of `/intake` only. I’ll inventory the sealed intake, identify the registered checks, and then re-derive the core geometric claims independently before I run anything in an ephemeral copy under `/work`.
+exec
+/bin/bash -lc pwd in /return
+ succeeded in 0ms:
+/return
+
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type d | sort' in /return
+ succeeded in 0ms:
+/intake
+/intake/frozen_current
+/intake/frozen_sources
+/intake/frozen_sources/udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29
+/intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29
+/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+
+codex
+`rg` is unavailable here, so I’m falling back to `find`/`grep`. Next I’m narrowing to the G307 package and the ownership/dependency materials it cites so I can separate scientific claims from packaging and provenance.
+exec
+/bin/bash -lc 'find /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30 -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMPLETENESS_MAP.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EVIDENCE_GATES.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/LAY_REPORT.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_AUDIT_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREREGISTRATION.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREREGISTRATION_ANCESTRY.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/RUN_RECORD.md
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_MANIFEST.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_SCOPE.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/VERIFICATION_RESULT.json
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py
+
+exec
+/bin/bash -lc 'find /intake/frozen_current -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.tsv
+
+exec
+/bin/bash -lc 'find /intake/frozen_sources -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/frozen_sources/udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md
+/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv
+
+codex
+I’ve identified the G307 package and the frozen premise/dependency records. Now I’m reading the formal derivation, audit notes, and premise ledgers together so I can check whether the theorem stated in the review request is actually what the intake establishes.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G307 exact derivation — directed relations reduce, but do not populate, the Hopf ambiguity
+
+Date: 2026-08-30
+Grade: `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`
+
+## Bounded landing
+
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+
+This is preregistered candidate 2. It is a conditional reconstruction theorem on the positive
+round G305/G306 completion. It does not change the metric or reciprocal kernel and does not add a
+field equation, source, matter sector, scale, observation, or physical population.
+
+## 1. Set-up
+
+Identify the unit round three-sphere with the unit quaternions. Let `p` be a supplied point and
+`v` a supplied ordered unit tangent at `p`, so
+
+\[
+|p|=|v|=1,\qquad \langle p,v\rangle=0.
+\]
+
+G306's two chiral families are the unit imaginary left- and right-multiplication fields
+
+\[
+V_L(q)=u_Lq,\qquad V_R(q)=qu_R,
+\]
+
+with `u_L` and `u_R` unit imaginary quaternions.
+
+## 2. One member in each chirality
+
+Requiring both fields to equal the supplied tangent at `p` gives
+
+\[
+u_Lp=v,\qquad pu_R=v.
+\]
+
+Quaternion inversion gives the unique solutions
+
+\[
+\boxed{u_L=v\bar p,\qquad u_R=\bar p v.}
+\]
+
+The maps from the imaginary quaternions to the tangent space,
+
+\[
+u\mapsto up,\qquad u\mapsto pu,
+\]
+
+are linear isometries. Hence each equation has exactly one solution in its respective chiral
+`S2` family. A supplied `(p,v)` therefore reduces two continuous `S2` families to exactly two
+members: one left and one right.
+
+## 3. Why the route still cannot choose between them
+
+Let `J_L` and `J_R` be the corresponding orthogonal complex structures. Both satisfy
+
+\[
+J_Lp=J_Rp=v,\qquad J_Lv=J_Rv=-p.
+\]
+
+They therefore agree on the entire oriented two-plane `span{p,v}`. The common great-circle route
+and its tangent are
+
+\[
+q(\theta)=\cos\theta\,p+\sin\theta\,v,
+\]
+
+\[
+\dot q(\theta)=\cos\theta\,v-\sin\theta\,p,
+\]
+
+and exactly
+
+\[
+J_Lq(\theta)=J_Rq(\theta)=\dot q(\theta).
+\]
+
+Thus the full one-dimensional route and metric frame carry along that route do not distinguish
+chirality. The distinction is transverse, not longitudinal.
+
+## 4. The smallest conditional discriminator
+
+Choose an oriented orthonormal screen `(w,z)` complementary to `span{p,v}`, with
+`(p,v,w,z)` positively oriented. The two complex structures act oppositely:
+
+\[
+J_Lw=z,\qquad J_Rw=-z,
+\]
+
+\[
+J_Lz=-w,\qquad J_Rz=w.
+\]
+
+On a round sphere of radius `a`, the supplied Hopf field has transverse covariant derivative
+
+\[
+\nabla_wV_{L/R}=\pm\frac{z}{a}.
+\]
+
+Therefore one oriented signed transverse-screen first derivative selects exactly one of the two
+remaining members. The magnitude `1/a` changes with radius; the discriminating sign does not.
+
+This is conditional reconstruction from supplied data. It is not a theorem that the metric alone
+chooses the sign or that active UDT premises populate a physical screen derivative.
+
+## 5. Exact ownership ladder
+
+| Supplied data | Geometric members remaining | Ownership conclusion |
+|---|---:|---|
+| round metric | two `S2` families | no member selected |
+| point `p` | two `S2` families | no direction supplied |
+| point plus ordered tangent `(p,v)` | two | one per chirality |
+| complete one-dimensional route and metric carry | two | both induce the same route |
+| oriented signed transverse-screen first jet | one | conditionally reconstructed |
+| active-premise lawful physical population | none selected | `OPEN` |
+
+G298–G300 already distinguish the rich metric-owned relation/control arena from a populated lawful
+query family. G307 does not close that ownership boundary. It identifies the smallest local datum
+that would close the G306 member ambiguity once a physical relation is supplied.
+
+## 6. Evidence
+
+- preregistered and pushed at `1bdfe7d2` before executable outcomes;
+- 1,806 exact standard-library rational assertions across 36 oriented frames;
+- all positive radii covered analytically, with five explicit scale controls;
+- 17,000 implementation-independent checks over 1,000 random oriented frames;
+- maximum independent numerical error `4.1389114358025836e-13`;
+- 14 direct hostile mutations caught;
+- current premise verifier passed after the result;
+- metric and reciprocal kernel explicitly frozen and unchanged.
+
+Fresh external adversarial review remains pending. Physical route/query/screen population,
+dynamics, history, mass, scale, observation, and physical `X_max` remain open.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G307 audit report — conditional Hopf-member reconstruction from a complete directed germ
+
+Date: 2026-08-30
+Status: `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`
+
+## Primary landing
+
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+
+## What was learned
+
+G306's metric-only ambiguity is not an unrestricted field once an actual directed relation is
+supplied. A point and ordered tangent select exactly one Hopf member in each of the two chiral
+families. Those two members generate the same complete great-circle route and agree on its tangent
+plane, so no amount of one-dimensional route following distinguishes them.
+
+Their difference appears in the transverse screen. Relative to one supplied screen orientation,
+one member rotates the screen by `+90` degrees and the other by `-90` degrees. One signed
+transverse-screen first derivative therefore reduces the two candidates to one.
+
+This is a substantial narrowing of G306's continuous family ambiguity:
+
+```text
+metric alone:          two continuous S2 families
+point + direction:     two members
+signed transverse jet: one member
+```
+
+## What was not learned
+
+Active premises still do not select which physical observer/event/route queries Nature populates,
+nor do they supply the transverse sign for such a population. Conditional reconstruction must not
+be renamed physical selection. The result introduces no action, source, mass law, scale, fit,
+history, observation, or `X_max`, and it modifies neither the primary metric nor the reciprocal
+kernel.
+
+## Scope and evidence
+
+The theorem is complete on the positive-radius round G305 completion, both G306 chiralities, all
+regular directed point/tangent germs, all regular oriented transverse screens, and all positive
+radii. Nonspherical, quotient, singular/cut/caustic, topology-changing, and dynamically populated
+cases remain outside scope.
+
+The landing was preregistered at pushed commit `1bdfe7d2`. Exact production supplied 1,806 rational
+assertions. An unrelated outer-product implementation supplied 17,000 checks over 1,000 random
+frames with maximum error `4.1389114358025836e-13`. All 14 hostile mutations were caught. The
+current premise registry passed. Fresh external adversarial review is still required before the
+bounded package can be called externally closed.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EVIDENCE_GATES.md" in /return
+ succeeded in 0ms:
+# Premises
+`LIVE.md` and TSV own status.
+## Foundational relation
+
+| Object | Status | What is owned | What remains open |
+|---|---|---|---|
+| `c_E`, `G_obs` | `OBSERVED` | Anchors | Closure |
+| Reciprocal character | `DERIVED` | Determinant-one block on supplied depth | Values; `3+1` assembly |
+| Pointwise `phi` | `CONDITIONAL` | Factorization | Owner |
+| Terminal `phi_pair` | `DERIVED_CONDITIONAL` | Pair imbalance | Physical pair map |
+| Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
+| Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
+| Pair-clock/state network | G215/G216--G276 | Carry/projective/scale descent | History/aggregation |
+| UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
+| Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
+| Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale/history/`X_max` |
+| Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
+| Projective pair coordinate | `DERIVED` in declared class/radial stratum | `chi=tanh(phi_pair)` plus open-ball vector | Adoption; scale; completion |
+| Co-presence | `WORKING` | Membership | Population; signalling |
+| G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Constraint/update formula; history |
+| Non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` W6 | Nonpropagating relational membership; metric-causal controllable response | Constraint/update formula; population; history; global-now ownership |
+
+## Reconstruction hierarchy
+
+| Result | Bounded status | Maximum conclusion |
+|---|---|---|
+| Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
+| G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198 | accepted/caveats | Reconstruction and chosen controls; germ/history open |
+| G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210 | verified/caveats | Direction, quiet, completion, channels |
+| G211/G212/G213/G214/G215/G216/G217/G218/G219 | accepted/caveats | Rank, clock, correspondence; flow open |
+| G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231 | external/exact | Null/screen/curvature/jets; values open |
+| G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248 | external/repaired | Closure/observational/sky controls; nonselective |
+| G249/G250/G251/G252/G253/G254/G255/G256 | external/repaired | One scale; no residual or value propagation |
+| G257/G258/G259/G260/G261/G262/G263/G264 | external/repaired | GR/angular/W4/sign controls; law open |
+| G265/G266/G267/G268/G269/G270 | external/repaired | Mutual state; `M_PT<=sech(delta)`; screen retained |
+| G271/G272/G273/G274/G275/G276 | external/repaired | Projective state/carry; one conditional scale; history open |
+| G277 observational anchor ownership | external/repair accepted | Conditional Cepheid/optical route |
+| G278 Cepheid/DES holdout | external/repair accepted | Resolution-sensitive lead |
+| G279 native-interface provenance | external/repair | Native core intact |
+| G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
+| G281 SNe audit | external/repair accepted | No native prediction; redshift survives |
+| G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
+| G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
+| G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
+| G285 complete-separation retyping | external/repairs confirmed | Same `phi`, different complete separation; propagation open |
+| G286 propagation discriminator | external/repairs accepted | Same prior jets, inequivalent futures; no identity propagation |
+| G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
+| G288/G289/G290/G291/G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
+| G293 architecture funnel | internal/caveats | Homogeneous flow uncalibrated; local flux free; no law |
+| G294 co-presence architecture | internal/caveats | Nonpropagating connectedness; causal update missing |
+| G295 causal-history classification | internal/caveats | Covariant law type; `AU=RA`; formula/history open |
+| G296 residual-order map | external/repairs | Metric minimal; curvature first local natural order; no formula |
+| G297 causal-dilation equivalence | external/repairs | Conditional radar germs; scalar collapse refuted; transfer open |
+| G298 relation/pair projection | external/repairs | Path-labelled state; multiple projections; physical choice open |
+| G299 kernel-domain ownership | external/repairs | Complete frame carry required; query subfunctor open |
+| G300 celestial query ownership | external refutation/repaired | Exact sky action; no owned lawful query family |
+| G301 principal classes | external/repairs | Ricci-flat or trace-free Ricci; neither selected |
+| G302 span/channel separation | external/repairs | 9 shape plus 1 scale direction; no selection |
+| G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
+| G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
+| G305 Hopf domain | external/repairs | Positive completion: compact `S3`; physical map/dynamics/scale open |
+| G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
+None selects completion/`X_max`.
+## Scale and limits
+
+| Object | Status | Guard |
+|---|---|---|
+| `X_max` | working asymptotic global-completion consequence target | Requires global completion; not an input, wall, center, seam, or boundary term |
+| Strong local CSN | `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` | Inactive unless explicitly reauthorized |
+| Common-factor cancellation | `DERIVED` algebra only | Not Weyl gauge or scale-free proof |
+| Founded pair common scale | `FIXED` in bounded block | Determinant-one pair block; not a complete-metric theorem |
+| General complete pair scale | `CONDITIONAL/RETAINED` | Present after supplied complete assembly |
+| Common-scale principal rank | `DERIVED` source-bounded zero | No active `kappa` equation; not a no-go |
+| Pair scale carry | `DERIVED_CONDITIONAL` | Half-density character; incomplete closure |
+| Base channel balance | `DERIVED` bounded | `B+(2)` composition permits changing ratios; screen/mixing law open |
+| Complete coframe score | `DERIVED_CONDITIONAL` | Gauge-fixed `3+3+4`; not physical history |
+| Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
+## Geometry, query, and causality
+
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
+  G282--G293 separate tide, sign, center jets, topology, local flux, and history without selecting
+  their values. G294 types “foundational infinite c” as nonpropagating relation, not signal speed;
+  instant enforcement can signal. W6 adopts only the non-signalling type. G295's `AU=RA` controls
+  bounded propagation but selects no formula or history. G296 finds the complete metric minimal and
+  curvature the first local natural nonidentity order, not a law.
+  G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
+  leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
+  G302 selects neither. G303 gives each fixed sector the same local causal principal system; the
+  broader class adds one regional constant. `WORKING` G17 and G304 distinguish only the positive
+  static sign. G305 adds compact `S3` slices. G306 derives two metric-intrinsic Hopf-congruence
+  families and a normalized invariant for a supplied member, while isotropy selects no physical
+  member; population, target, dynamics, history, magnitude, mass, and `X_max` remain open. W1
+  stays evaluative.
+
+## Carrier, action, source, and matter
+
+| Object | Status | Maximum statement |
+|---|---|---|
+| Celestial null-direction `S^2` | `CONDITIONAL` fiber | Does not derive a matter carrier or law |
+| Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
+| EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
+| Native source | `OPEN` | Geometric response/current roles do not supply source substance |
+| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+## Observational boundary
+
+R2--R5 select no scale or `X_max`; G277--G306 leave law selection and realized history open. No native SNe
+prediction or value law follows.
+
+## How to use the registry
+
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority; conflicts stop. Run
+`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
+
+ succeeded in 0ms:
+# G307 evidence gates
+
+1. **Preregistered:** PASS — map, frozen candidates, premise ledger, scope, and certification
+   contract were committed and pushed at `1bdfe7d2` before executable outcomes.
+2. **Full bounded space:** PASS WITH EXPLICIT SCOPE — the isometry proof covers every regular
+   point/tangent germ, both chiralities, every oriented transverse screen, and every positive
+   radius on the round G305 completion. Nonspherical, quotient, singular, topology-changing, and
+   physical-population cases are excluded.
+3. **Independent verification:** PASS — 17,000 checks from an implementation-distinct
+   outer-product construction over 1,000 random frames; no production import; maximum error
+   `4.1389114358025836e-13`.
+4. **Hostile controls:** PASS — all 14 direct evidence and ownership mutations were caught,
+   including metric-only selection, path-only chirality, population promotion, kernel change, and
+   out-of-scope mass/scale/`X_max` claims.
+5. **Premise audit:** PASS — `verify_current_scientific_premises.py` completed successfully after
+   the outcome. G298/G299/G300's supplied-query boundary and G305/G306's conditional round-domain
+   boundary remain active.
+6. **Repository regression:** PASS — 199 passed and one expected xfail. The xfail is the registered
+   matter-lane habit-pin sentinel and is unrelated to G307.
+7. **Fresh external adversarial review:** PENDING.
+
+The current maximum grade is `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`.
+Physical query/route/screen population, dynamics, history, mass, scale, observation, and physical
+`X_max` remain open.
+
+codex
+The core claim in the writeup is clear: `(p,v)` is supposed to collapse each chirality family to one member, while the route itself is claimed not to break the remaining left/right tie. I’m now checking whether that statement survives an independent derivation and whether the package’s own “route and frame carry” language smuggles in the transverse first jet it later treats as extra data.
+Review plan for the sealed G307 intake. I’ll keep the work bounded to reading `/intake` and running registered checks only from an ephemeral copy in `/work`.
+  ✓ Read G307 derivation, evidence, and dependency ownership records to identify the exact claims under review
+  → Independently re-derive the quaternion and route/screen statements, including orientation and radius dependence
+  • Inspect the registered check scripts for independence, branch coverage, and assertion quality
+  • Run the registered checks from an ephemeral copy under /work and record outcomes
+  • Synthesize findings with severity, verdict token, scientific vs packaging defects, and full command log
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G306 exact derivation — intrinsic Hopf families without physical member selection
+
+Date: 2026-08-30
+Grade: EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_REPLAY_PORTABILITY_REPAIRS
+
+## Bounded landing
+
+ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES
+__ISOTROPY_SELECTS_NO_PHYSICAL_MEMBER
+__SUPPLIED_GEOMETRIC_MEMBER_HAS_FRAME_INDEPENDENT_SCALE_BLIND_NORMALIZED_HELICITY
+__RAW_COMPONENT_HOPF_NUMBER_FAILS_FULL_LOCAL_FRAME_DESCENT
+__FIELD_QUERY_POPULATION_TARGET_ACTION_DYNAMICS_HISTORY_MAGNITUDE_MASS_AND_XMAX_REMAIN_OPEN
+
+This is preregistered landing A at pushed commit c5873d2c. It is a classification of geometry
+present on the bounded positive G305 completion, not a UDT field equation or a populated matter
+sector.
+
+## 1. Exact scope
+
+A constant-time slice of the positive G305 standard completion has round metric
+
+\[
+\gamma_a=a^2 d\Omega_3^2,
+\qquad
+a(T)=X\cosh(T/X)>0.
+\]
+
+The derivation covers every positive \(a\) and both orientation-relative chiralities. The G305
+candidate family and standard completion remain DERIVED_CONDITIONAL; neither is promoted to the
+selected UDT history. Nonspherical deformations, quotients, singular strata, topology change,
+physical population, action, dynamics, source, mass, observation, and physical \(X_{\max}\) are
+outside scope.
+
+## 2. No metric-natural individual section
+
+Let \(p\) be any point of round \(S^3\). Its orientation-preserving isometry isotropy group is
+\(SO(3)\), acting in the standard way on \(T_pS^3\). A section constructed naturally from the
+metric alone must be invariant under every isometry fixing \(p\). The only vector fixed by all of
+\(SO(3)\) is zero. Therefore
+
+\[
+\boxed{\text{no metric-natural unit tangent or celestial section exists on round }S^3.}
+\]
+
+The executable proof uses two independent orientation-preserving half-turns whose common fixed
+subspace in \(T_pS^3\) has dimension zero. Time orientation and a slice orientation do not remove
+the point isotropy and therefore do not select a member.
+
+This no-section theorem is bounded to the maximally symmetric round slice. A supplied route,
+observer, nonspherical field, or additional tensor can break the isotropy and is not ruled out.
+
+## 3. Scalar, curvature, and observer-centered controls
+
+The pointwise reciprocal scalar has contractible target \(\mathbb R\); it has no
+\(\pi_3(S^2)\) sector. Where a normalized gradient exists,
+
+\[
+n^\flat=\frac{d\phi}{|d\phi|}
+\]
+
+is undefined at gradient zeros and satisfies \(n^\flat\wedge dn^\flat=0\). It does not span the
+generic twisting sections below.
+
+Round \(S^3\) has
+
+\[
+\operatorname{Ric}=\frac{2}{a^2}\gamma,
+\]
+
+so its spatial Ricci eigenvalue has multiplicity three. Constant curvature supplies no preferred
+eigendirection.
+
+A direction defined by geodesic distance from a supplied observer is not universal data. It is
+undefined at the observer and at the antipodal cut locus, where the joining geodesic is not unique.
+It therefore does not give a smooth global Hopf section.
+
+## 4. Why a component Hopf number still fails frame descent
+
+Identify \(S^3\) with unit quaternions. The smooth point-dependent rotation
+
+\[
+R(q)=\operatorname{Ad}_q\in SO(3)
+\]
+
+equals the identity at the basepoint \(q=1\). Acting on a constant component direction \(i\) gives
+
+\[
+R(q)i=q i q^{-1},
+\]
+
+the standard Hopf component map. With the frozen G305 orientation, the constant component map has
+charge zero while the transformed map has charge \(-1\). Thus a basepoint-fixed allowed local
+frame change alters the raw component integer:
+
+\[
+\boxed{H_{\rm component}:0\longrightarrow -1.}
+\]
+
+This rederives G289's gauge obstruction on G305's actual compact domain. A component map into a
+fixed coordinate \(S^2\) is not by itself a physical invariant.
+
+## 5. The metric-defined geometric family
+
+The negative component result does not exhaust the geometry. Embed the round sphere as
+\(|x|=a\) in oriented Euclidean \(\mathbb R^4\). Let \(J\) be an orthogonal complex structure:
+
+\[
+J^T=-J,
+\qquad
+J^2=-I.
+\]
+
+Define the geometric vector field
+
+\[
+V_J(x)=\frac{Jx}{a}.
+\]
+
+Skewness and orthogonality give \(x\cdot V_J=0\) and \(|V_J|=1\). For tangent \(Y\),
+tangential projection of the ambient derivative gives
+
+\[
+\nabla_YV_J
+=\frac{JY}{a}+\frac{x\,\langle V_J,Y\rangle}{a^2}.
+\]
+
+Consequently:
+
+- \(\nabla_{V_J}V_J=0\), so the fibers are geodesics;
+- the Killing equation vanishes because \(J\) is skew;
+- on the screen orthogonal to \(V_J\), \(\nabla V_J\) is a pure quarter-turn divided by \(a\), so
+  expansion and shear vanish and only twist remains;
+- the integral curves are
+
+  \[
+  x(s)=\cos(s/a)x(0)+\sin(s/a)Jx(0),
+  \]
+
+  closed great circles of period \(2\pi a\).
+
+These are geometric vector fields, not component directions. Their defining properties use only
+the metric, orientation-relative Hodge structure, and the candidate field itself.
+
+## 6. The family census is complete
+
+Every Killing field on a round sphere is generated by some \(A\in\mathfrak{so}(4)\),
+\(V(x)=Ax\). If it has unit norm at every point of the radius-\(a\) sphere, then
+
+\[
+x^T A^T A x=1
+\]
+
+on \(|x|=a\). Homogeneity and polarization force
+
+\[
+A^T A=a^{-2}I.
+\]
+
+Therefore \(J=aA\) is an orthogonal complex structure. Conversely every such \(J\) gives the field
+in Section 5. Thus the constant-length unit Killing family is exactly the
+orthogonal-complex-structure family, not a hand-picked coordinate subset.
+
+On oriented \(\mathbb R^4\), the orthogonal complex structures have two chiral \(S^2\)
+components; each is
+
+\[
+SO(4)/U(2)\cong S^2.
+\]
+
+The production derivation realizes them as the unit linear combinations of left and right
+quaternionic multiplication matrices and verifies their opposite twist signs. \(SO(4)\) acts
+transitively on each \(S^2\), so the round metric defines both families but no member. Without a
+supplied orientation, the two chiralities are exchanged and only the orientation-blind union or
+absolute class remains.
+
+## 7. A frame-independent conditional invariant
+
+After a geometric member \(V_J\) is supplied, let
+
+\[
+\alpha_J=\gamma_a(V_J,\cdot).
+\]
+
+For the two chiralities,
+
+\[
+d\alpha_J=\pm\frac{2}{a}*\alpha_J.
+\]
+
+Since \(\operatorname{Vol}(S^3_a)=2\pi^2a^3\),
+
+\[
+\boxed{
+\mathcal H_g(V_J)
+=\frac{1}{4\pi^2a^2}
+\int_{S^3}\alpha_J\wedge d\alpha_J
+=\pm1.
+}
+\]
+
+Unlike the raw component number, this expression is built from the geometric field and metric and
+is invariant under a change of local frame. It is also independent of \(a\); therefore it cannot
+fix the curvature magnitude, mass, or physical \(X_{\max}\). It is a normalized geometric
+helicity for this supplied family, not a claim that arbitrary deformations retain an integer.
+
+For a supplied \(V_J\), its closed-circle orbit space is \(S^2\), and the quotient map is a Hopf
+fibration. The target therefore can emerge geometrically after the member is supplied. The round
+metric alone neither supplies \(J\) nor canonically identifies one member's quotient target with
+another history's internal target.
+
+## 8. Time-slice and screen/query typing
+
+Carrying a fixed test \(J\) through G305's explicit product slicing changes \(a(T)\) but not the
+normalized helicity. This is kinematic carry on a supplied smooth history, not field evolution,
+dynamic conservation, stability, or backreaction.
+
+G290/G292 screen holonomy and Euler character remain gauge-descended diagnostics of supplied
+screens. They do not provide \(V_J\). G300 supplies the complete celestial control sphere for a
+supplied clock and exact path-labelled transport, but it does not own a lawful direction/query
+population. G306 therefore narrows the map problem to a natural two-family candidate arena without
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/frozen_sources/udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G298 audit report — causal relation versus pair one-jet projection
+
+Date: 2026-08-29
+
+## Current bounded landing
+
+```text
+MULTIPLE_INEQUIVALENT_NATURAL_PAIR_ONE_JET_PROJECTIONS_SURVIVE_FROM_THE_DERIVED_COMPLETE_RELATION_STATE
+__NO_UNIQUE_TRANSFER_TO_G2_IS_OWNED
+```
+
+Grade: `EXTERNALLY_REVIEWED_DERIVED_WITH_CAVEATS`; exact review repairs and completion follow-up
+verified.
+
+## What was learned
+
+The causal-family idea is productive. A supplied directed null leg determines the endpoint clock
+ratio, source and target null ruler directions, parallel transport, and the higher directional
+delay carry. It therefore owns a rich branch-indexed relation state, not merely a scalar radar
+rate.
+
+That state supports at least two exact natural projections to calibrated pair one-jets. One uses
+the source ruler carried to the target; the other uses the target's local null ruler. Both are
+regular and recover the same reciprocal depth under W1. They are not equally complete: the
+target-local projection forgets transported-source/path carry. When transverse screen mismatch is
+active, their image planes are different. The exact separator is `-r^2 w`, nonzero whenever the
+screen component `w` is nonzero.
+
+## Type correction
+
+The natural construction is therefore not yet a unique direct map from causal diamonds to one
+rank-two germ. It factors through a richer path-labelled relation state and then admits multiple
+projections into the pair-germ arena. The transported-planar limit hides this distinction, which is
+why flat and radial controls can look uniquely closed.
+
+This is a scoped non-uniqueness result, not renewed generic “history underdetermination.” It says
+exactly which local projection remains unowned. The metric still constructs every candidate and the
+kernel still evaluates each candidate without scaffolding.
+
+## What remains open
+
+- whether Charles wishes provisionally to identify the physical pair germ with one particular
+  projection of the complete causal relation;
+- whether the kernel should instead take the enriched path-labelled relation state as its physical
+  input and treat rank-two germs as query projections;
+- higher surface-germ carry, reflection corners, caustics, and global branch population;
+- history dynamics, observational interface, scale, and `X_max`.
+
+## Four gates
+
+1. **Preregistered:** PASS — `c7128f21` was pushed before the outcome.
+2. **Full space or bounded scope:** PASS WITH CAVEATS — complete exact local regular-leg algebra and
+   active-screen separator; singular/higher/global strata excluded explicitly.
+3. **Independent verification:** PASS for the algebraic projection witness — separate
+   standard-library implementation, 20,000 cases and 358,543 assertions. It does not certify
+   completeness or physical ownership. Fresh review found no algebra defect; all registered
+   repairs are externally verified.
+4. **Premise audit:** PASS WITH CAVEATS — W1/W4/W5/W6 remain working clarifications; all physical
+   routes, observers, events, and the metric history remain supplied.
+
+All four gates are closed within the stated bounded local regular-leg scope. Startup and premise
+registry promotion must retain the exact caveats and open projection ownership.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G300 audit report — celestial control geometry and the surviving query-ownership gap
+
+Date: 2026-08-29
+
+## Repaired landing after fresh adversarial review
+
+```text
+NO_PROPER_LAWFUL_RANK_TWO_QUERY_FAMILY_IS_DERIVED
+__THE_QUERY_DOMAIN_REMAINS_WHOLLY_OPERATIONAL
+```
+
+Grade: `EXTERNALLY_REFUTED_AND_REPAIRED_WITH_CAVEATS`.
+
+## What was learned
+
+The metric does more than permit isolated `J_T` and `J_L` constructions. A unit observer clock
+canonically defines the whole sphere of spatial directions, equivalently the whole family of
+oriented Lorentzian two-planes containing that clock. The full path-labelled metric isometry
+transports this sphere exactly. Direction transport reverses and composes, and its clock factor is
+a multiplicative cocycle. Each supplied direction therefore gives a regular evaluator input.
+
+The fresh reviewer identified the decisive type boundary: these exact facts derive an algebraically
+available celestial control fiber, not a premise-owned lawful query family. G244 retains a supplied
+observation sheet, G179 a supplied germ, and G298/G299 a supplied relation/query boundary. Spatial
+isotropy also forbids a universal metric-plus-clock selected direction, although narrower
+route-conditioned sections remain possible.
+
+Lawful query-family ownership remains open. Individual query and route population remain supplied.
+
+## Important boundary
+
+Bare pair planes and W1 scalars still do not compose. The full path-labelled frame morphism remains
+the composition owner and carrier of screen information. G300 proves its all-direction sky action
+and cocycle; it does not derive a composable bare pair-germ functor or reduce the relation to `G_2`.
+
+The target-local G298 germ is one exact member. The transported-source G298 plane is also present
+after pair-domain orthogonalization, but G300 does not equate its inverse-sky query or clock weight
+with the actual route tangent. No G298 information is discarded and neither projection is chosen.
+
+## What remains open
+
+- ownership of a lawful typed query family or subfunctor;
+- which query directions and physical routes are populated;
+- route-conditioned sections;
+- singular, caustic, cut, reflection, and higher surface strata;
+- higher directional-delay and Jacobi outputs;
+- global history, dynamics, lawful data, scale, observation transfer, matter, source, action, and
+  `X_max`.
+
+The exact algebraic replays all passed, but they cannot certify premise ownership. No metric
+component or reciprocal-kernel formula changed.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G299 audit report — complete relation as kernel domain
+
+Date: 2026-08-29
+
+## Repaired landing after fresh adversarial review
+
+```text
+ACTIVE_PREMISES_REQUIRE_COMPLETE_CARRY_BUT_DO_NOT_TYPE_THE_KERNEL_DOMAIN
+__ARCHITECTURE_REMAINS_OPEN
+```
+
+Grade: `WORKING_FOUNDATIONAL_CLARIFICATION`; package status
+`EXTERNALLY_REVIEWED_REPAIRS_CLOSED`.
+
+## What was learned
+
+W5 provisionally owns the complete projective/frame component, and its wording incorporates G274's
+result that general nonradial composition needs the full path-labelled frame morphism and
+screen/frame carry. Neither `J_T` nor `J_L` contains that complete datum by itself, and no frozen
+source uniquely privileges either projection.
+
+The following type order is compatible with all active statements:
+
+```text
+metric-owned complete relation + typed query
+    -> rank-two query germ
+    -> full pullback metric
+    -> W1 and other query-typed outputs.
+```
+
+The two registered natural planes remain distinct on active screen carry, while their W1 clock
+depth is the same. Equality of that scalar does not identify their planes or other outputs. The
+active premises do not yet own the lawful query/germ family represented by `q` in this diagram.
+
+## What did not change
+
+- no metric component or reciprocal-kernel formula changed;
+- W5 remains working and non-canon;
+- no observer, event, route, or query population was selected;
+- no history, dynamics, scale, distance law, observation, matter, source, action, or `X_max` entered.
+
+## Internal evidence
+
+- preregistered and pushed at `9fd16ee1`;
+- nine source hashes and nine source-phrase checks;
+- 12,600 exact production cases and 50,431 assertions;
+- 20,000 implementation-distinct exact-rational cases and 200,002 assertions;
+- exact G274 right-carry separator;
+- seven hostile mutation catches.
+
+## External finding and remaining gate
+
+The fresh reviewer selected preregistered landing 3. The repair-only follow-up verified every
+scientific repair R1--R4 and found no stale contradictory verdict. Its only remaining defect was
+mechanical: the registered production replay required SymPy, which the minimal review image did
+not contain. The production script now falls back to exact standard-library `Fraction` arithmetic
+and reproduces the same 12,600 cases and 50,431 assertions under `python3 -S`. The R5-only
+follow-up reproduced all four registered checks, identical result JSON, and byte-identical
+scientific documents. G299 is externally closed at its bounded working-premise grade.
+
+codex
+The ownership boundary in G298–G300 is explicit in the frozen sources: supplied relation/query data may enable conditional reconstruction, but that is not lawful population. I’m moving to the executable side now to see whether the package’s checks actually test those distinctions independently or just replay the same assumptions in two places.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py" in /return
+ succeeded in 0ms:
+# G307 registered commands
+
+Run from this package directory with no third-party package import:
+
+```bash
+python3 -S derive_directed_member_reconstruction.py
+python3 -S verify_directed_member_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+python3 -S build_review_intake.py
+```
+
+Run the current premise audit from the repository root:
+
+```bash
+python3 verify_current_scientific_premises.py
+```
+
+The first three commands write only their registered JSON/TSV outcome files inside this package.
+`verify_package.py` and the premise verifier are no-write checks. The intake builder writes only a
+new sealed directory under `/tmp`.
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""No-write integrity and semantic verifier for the bounded G307 package."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+LANDING = (
+    "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY"
+    "__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY"
+    "__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN"
+)
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def resolve_source(relative: Path) -> Path:
+    candidates = (ROOT / relative, ROOT / "frozen_sources" / relative)
+    matches = [path for path in candidates if path.is_file()]
+    assert len(matches) == 1, (
+        f"source resolution must be unique for {relative}: "
+        f"found {[str(path) for path in matches]}"
+    )
+    return matches[0]
+
+
+def main() -> None:
+    required = (
+        "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+        "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "SOURCE_SCOPE.tsv",
+        "SOURCE_MANIFEST.tsv",
+        "COMPLETENESS_MAP.md", "derive_directed_member_reconstruction.py",
+        "verify_directed_member_independent.py", "run_catch_proofs.py",
+        "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv", "STATUS_LEDGER.tsv",
+        "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md",
+        "EVIDENCE_GATES.md", "RUN_RECORD.md", "COMMANDS.md",
+        "VERIFICATION_RESULT.json", "EXTERNAL_REVIEW_REQUEST.md",
+        "build_review_intake.py", "verify_package.py",
+    )
+    for name in required:
+        assert (HERE / name).is_file(), name
+
+    derivation = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads(
+        (HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8")
+    )
+    catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+
+    assert derivation["status"] == "PASS"
+    assert derivation["landing_candidate"] == 2
+    assert derivation["landing"] == LANDING
+    assert derivation["production_assertions"] == 1806
+    assert derivation["exact_cases"] == 36
+    assert derivation["directed_germ_member_count"] == 2
+    assert derivation["members_per_chirality"] == 1
+    assert derivation["path_only_member_count"] == 2
+    assert derivation["signed_transverse_screen_member_count"] == 1
+    assert derivation["screen_twist_signs"] == [-1, 1]
+    assert derivation["lawful_query_population_selected"] is False
+    assert derivation["physical_member_selected"] is False
+    assert derivation["metric_and_kernel_changed"] is False
+
+    assert independent["status"] == "PASS"
+    assert independent["implementation"] == "oriented_two_plane_outer_product_no_production_import"
+    assert independent["imports_production_code"] is False
+    assert independent["sample_cases"] == 1000
+    assert independent["independent_checks"] == 17000
+    assert independent["maximum_error"] < 2e-10
+    assert independent["directed_germ_member_count"] == 2
+    assert independent["signed_screen_member_count"] == 1
+    assert independent["path_only_distinguishes_chirality"] is False
+
+    assert catches["status"] == "PASS"
+    assert catches["baseline_valid"] is True
+    assert catches["hostile_cases"] == 14
+    assert catches["direct_mutations"] == 14
+    assert all(record["caught"] for record in catches["records"])
+    assert verification["landing"] == LANDING
+    assert verification["status"] == "INTERNAL_GATES_PASS_EXTERNAL_PENDING"
+    assert verification["premise_audit"] == "PASS"
+    assert verification["repository_regression"] == "199_passed_1_expected_xfail"
+    assert premise_audit["status"] == "PASS"
+    assert premise_audit["registry_rows"] == 289
+    assert len(premise_audit["registry_sha256"]) == 64
+
+    expected_census = (
+        ("round_metric_only", "two_S2_families", "no_member"),
+        ("supplied_point", "two_S2_families", "no_direction"),
+        ("supplied_point_and_ordered_unit_tangent", "two_members", "one_per_chirality"),
+        ("complete_one_dimensional_route_and_metric_frame_carry", "two_members", "same_route"),
+        ("supplied_oriented_signed_transverse_screen_first_jet", "one_member", "conditional_reconstruction"),
+        ("active_premise_owned_lawful_query_population", "zero_selected", "open"),
+    )
+    with (HERE / "MEMBER_CENSUS.tsv").open(encoding="utf-8", newline="") as handle:
+        rows = tuple(
+            (row["data_level"], row["remaining_geometric_members"], row["ownership"])
+            for row in csv.DictReader(handle, delimiter="\t")
+        )
+    assert rows == expected_census
+
+    for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
+        assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
+
+    forbidden = (
+        "8_25", "udt_native_onshell_timelive_reset_owner_audit",
+        "udt_pair_regime_flow_reciprocal_orchestra_amplification",
+        "udt_sne_xmax_G88_am_radial_compatibility_atlas",
+        "udt_kernel_plane_global_curvature_holonomy_atlas",
+    )
+    source_rows = 0
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            relative = Path(row["path"])
+            assert not any(token in str(relative) for token in forbidden)
+            assert sha256(resolve_source(relative)) == row["sha256"], relative
+            source_rows += 1
+    assert source_rows == 8
+
+    print(json.dumps({
+        "status": "PASS",
+        "landing": LANDING,
+        "required_files": len(required),
+        "source_hashes_verified": source_rows,
+        "production_assertions": derivation["production_assertions"],
+        "independent_checks": independent["independent_checks"],
+        "hostile_catches": catches["hostile_cases"],
+        "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
+        "external_review": "PENDING",
+    }, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact standard-library derivation for the bounded G307 member census."""
+
+from __future__ import annotations
+
+import csv
+import itertools
+import json
+from fractions import Fraction as F
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "DERIVATION_RESULT.json"
+CENSUS = HERE / "MEMBER_CENSUS.tsv"
+LANDING = (
+    "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY"
+    "__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY"
+    "__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN"
+)
+Z = F(0)
+O = F(1)
+
+
+def qmul(a, b):
+    aw, ax, ay, az = a
+    bw, bx, by, bz = b
+    return (
+        aw * bw - ax * bx - ay * by - az * bz,
+        aw * bx + ax * bw + ay * bz - az * by,
+        aw * by - ax * bz + ay * bw + az * bx,
+        aw * bz + ax * by - ay * bx + az * bw,
+    )
+
+
+def qconj(q):
+    return (q[0], -q[1], -q[2], -q[3])
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def add(a, b):
+    return tuple(x + y for x, y in zip(a, b))
+
+
+def scale(c, a):
+    return tuple(c * x for x in a)
+
+
+def stereo_quaternion(t):
+    s = sum(x * x for x in t)
+    d = O + s
+    return ((O - s) / d,) + tuple(2 * x / d for x in t)
+
+
+def matrix_from_action(action):
+    basis = (
+        (O, Z, Z, Z),
+        (Z, O, Z, Z),
+        (Z, Z, O, Z),
+        (Z, Z, Z, O),
+    )
+    columns = [action(e) for e in basis]
+    return tuple(tuple(columns[j][i] for j in range(4)) for i in range(4))
+
+
+def matvec(a, v):
+    return tuple(sum(a[i][j] * v[j] for j in range(4)) for i in range(4))
+
+
+def matmul(a, b):
+    return tuple(
+        tuple(sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4))
+        for i in range(4)
+    )
+
+
+def transpose(a):
+    return tuple(tuple(a[j][i] for j in range(4)) for i in range(4))
+
+
+def determinant(a):
+    total = Z
+    for p in itertools.permutations(range(4)):
+        inversions = sum(p[i] > p[j] for i in range(4) for j in range(i + 1, 4))
+        term = O if inversions % 2 == 0 else -O
+        for i in range(4):
+            term *= a[i][p[i]]
+        total += term
+    return total
+
+
+def columns_matrix(columns):
+    return tuple(tuple(columns[j][i] for j in range(4)) for i in range(4))
+
+
+def main():
+    assertions = 0
+
+    def check(condition, label):
+        nonlocal assertions
+        assert condition, label
+        assertions += 1
+
+    params = (
+        (F(0), F(0), F(0)),
+        (F(1, 2), F(0), F(0)),
+        (F(1, 3), F(1, 4), F(0)),
+        (F(-2, 5), F(1, 3), F(1, 7)),
+        (F(2, 3), F(-1, 5), F(3, 8)),
+        (F(-3, 7), F(-2, 9), F(1, 6)),
+    )
+    radii = (F(1, 2), F(1), F(7, 3), F(5), F(19, 4))
+    path_pairs = ((F(3, 5), F(4, 5)), (F(5, 13), F(12, 13)), (F(-8, 17), F(15, 17)))
+    imag_basis = (
+        (Z, O, Z, Z),
+        (Z, Z, O, Z),
+        (Z, Z, Z, O),
+    )
+    identity = tuple(tuple(O if i == j else Z for j in range(4)) for i in range(4))
+    minus_identity = tuple(tuple(-x for x in row) for row in identity)
+    case_count = 0
+
+    for qp in params:
+        q = stereo_quaternion(qp)
+        check(dot(q, q) == O, "unit point")
+        for rp in params:
+            r = stereo_quaternion(rp)
+            rb = qconj(r)
+            u, e, f = (qmul(qmul(r, axis), rb) for axis in imag_basis)
+            for vector, label in ((u, "u"), (e, "e"), (f, "f")):
+                check(vector[0] == Z, f"{label} pure")
+                check(dot(vector, vector) == O, f"{label} unit")
+            check(dot(u, e) == dot(u, f) == dot(e, f) == Z, "imaginary triad")
+            check(qmul(u, e) == f and qmul(e, u) == scale(-O, f), "oriented triad")
+
+            v = qmul(u, q)
+            w = qmul(e, q)
+            z = qmul(f, q)
+            for vector, label in ((v, "v"), (w, "w"), (z, "z")):
+                check(dot(vector, vector) == O, f"{label} unit")
+                check(dot(q, vector) == Z, f"{label} tangent")
+            check(dot(v, w) == dot(v, z) == dot(w, z) == Z, "tangent frame")
+
+            u_left = qmul(v, qconj(q))
+            u_right = qmul(qconj(q), v)
+            check(u_left == u, "left candidate reconstruction")
+            check(u_right[0] == Z and dot(u_right, u_right) == O, "right candidate reconstruction")
+
+            jl = matrix_from_action(lambda x, ul=u_left: qmul(ul, x))
+            jr = matrix_from_action(lambda x, ur=u_right: qmul(x, ur))
+            for matrix, label in ((jl, "left"), (jr, "right")):
+                check(transpose(matrix) == tuple(tuple(-x for x in row) for row in matrix), f"{label} skew")
+                check(matmul(matrix, matrix) == minus_identity, f"{label} complex")
+                check(matvec(matrix, q) == v, f"{label} supplied tangent")
+                check(matvec(matrix, v) == scale(-O, q), f"{label} common route plane")
+            check(matvec(jl, w) == z and matvec(jr, w) == scale(-O, z), "opposite screen turn")
+            check(matvec(jl, z) == scale(-O, w) and matvec(jr, z) == w, "opposite screen closure")
+            check(determinant(columns_matrix((q, v, w, matvec(jl, w)))) == O, "left chirality")
+            check(determinant(columns_matrix((q, v, w, matvec(jr, w)))) == -O, "right chirality")
+
+            # The evaluation maps u -> u q and u -> q u are isometries from Im(H) to T_q S3.
+            left_images = [qmul(axis, q) for axis in imag_basis]
+            right_images = [qmul(q, axis) for axis in imag_basis]
+            for images, label in ((left_images, "left"), (right_images, "right")):
+                gram = tuple(tuple(dot(images[i], images[j]) for j in range(3)) for i in range(3))
+                check(gram == tuple(tuple(O if i == j else Z for j in range(3)) for i in range(3)), f"{label} uniqueness")
+
+            for c, s in path_pairs:
+                route_point = add(scale(c, q), scale(s, v))
+                route_tangent = add(scale(c, v), scale(-s, q))
+                check(dot(route_point, route_point) == O, "route point unit")
+                check(matvec(jl, route_point) == route_tangent, "left route")
+                check(matvec(jr, route_point) == route_tangent, "right route")
+
+            for radius in radii:
+                check(dot(z, scale(O / radius, matvec(jl, w))) == O / radius, "left twist scale")
+                check(dot(z, scale(O / radius, matvec(jr, w))) == -O / radius, "right twist scale")
+            case_count += 1
+
+    census = (
+        ("round_metric_only", "two_S2_families", "no_member"),
+        ("supplied_point", "two_S2_families", "no_direction"),
+        ("supplied_point_and_ordered_unit_tangent", "two_members", "one_per_chirality"),
+        ("complete_one_dimensional_route_and_metric_frame_carry", "two_members", "same_route"),
+        ("supplied_oriented_signed_transverse_screen_first_jet", "one_member", "conditional_reconstruction"),
+        ("active_premise_owned_lawful_query_population", "zero_selected", "open"),
+    )
+    with CENSUS.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        writer.writerow(("data_level", "remaining_geometric_members", "ownership"))
+        writer.writerows(census)
+
+    result = {
+        "status": "PASS",
+        "landing_candidate": 2,
+        "landing": LANDING,
+        "scope": "positive_G305_round_S3_regular_directed_germs_oriented_screens_all_positive_radii",
+        "exact_cases": case_count,
+        "radii": [str(x) for x in radii],
+        "production_assertions": assertions,
+        "directed_germ_member_count": 2,
+        "members_per_chirality": 1,
+        "path_only_member_count": 2,
+        "signed_transverse_screen_member_count": 1,
+        "screen_twist_signs": [-1, 1],
+        "lawful_query_population_selected": False,
+        "physical_member_selected": False,
+        "metric_and_kernel_changed": False,
+        "omitted": [
+            "nonspherical_deformations", "quotients", "singular_cut_caustic_strata",
+            "topology_change", "physical_query_route_population", "action", "dynamics",
+            "stability", "backreaction", "history", "observation", "source", "mass",
+            "scale", "physical_Xmax", "protected_work",
+        ],
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct numerical replay using oriented two-plane operators."""
+
+from __future__ import annotations
+
+import json
+import math
+import random
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+OUT = HERE / "INDEPENDENT_VERIFICATION.json"
+SEED = 3070830
+
+
+def dot(a, b):
+    return sum(x * y for x, y in zip(a, b))
+
+
+def scale(c, a):
+    return [c * x for x in a]
+
+
+def add(*vectors):
+    return [sum(values) for values in zip(*vectors)]
+
+
+def norm(a):
+    return math.sqrt(dot(a, a))
+
+
+def unit(a):
+    n = norm(a)
+    if n < 1e-10:
+        raise ValueError("degenerate vector")
+    return scale(1.0 / n, a)
+
+
+def project_out(a, basis):
+    out = list(a)
+    for vector in basis:
+        out = add(out, scale(-dot(out, vector), vector))
+    return out
+
+
+def determinant(a):
+    matrix = [list(row) for row in a]
+    value = 1.0
+    for column in range(4):
+        pivot = max(range(column, 4), key=lambda row: abs(matrix[row][column]))
+        if pivot != column:
+            matrix[pivot], matrix[column] = matrix[column], matrix[pivot]
+            value *= -1.0
+        p = matrix[column][column]
+        value *= p
+        for row in range(column + 1, 4):
+            factor = matrix[row][column] / p
+            for j in range(column + 1, 4):
+                matrix[row][j] -= factor * matrix[column][j]
+    return value
+
+
+def outer(a, b):
+    return [[x * y for y in b] for x in a]
+
+
+def madd(*matrices):
+    return [[sum(matrix[i][j] for matrix in matrices) for j in range(4)] for i in range(4)]
+
+
+def mscale(c, a):
+    return [[c * x for x in row] for row in a]
+
+
+def matvec(a, v):
+    return [dot(row, v) for row in a]
+
+
+def matmul(a, b):
+    return [[sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4)] for i in range(4)]
+
+
+def transpose(a):
+    return [[a[j][i] for j in range(4)] for i in range(4)]
+
+
+def maxerr(a, b):
+    if isinstance(a[0], list):
+        return max(abs(a[i][j] - b[i][j]) for i in range(len(a)) for j in range(len(a[0])))
+    return max(abs(x - y) for x, y in zip(a, b))
+
+
+def complex_operator(q, v, w, z, sign):
+    route = madd(outer(v, q), mscale(-1.0, outer(q, v)))
+    screen = madd(outer(z, w), mscale(-1.0, outer(w, z)))
+    return madd(route, mscale(sign, screen))
+
+
+def main():
+    rng = random.Random(SEED)
+    checks = 0
+    worst = 0.0
+
+    def check_error(actual, expected, label):
+        nonlocal checks, worst
+        error = maxerr(actual, expected)
+        worst = max(worst, error)
+        assert error < 2e-10, (label, error)
+        checks += 1
+
+    def check_scalar(actual, expected, label):
+        nonlocal checks, worst
+        error = abs(actual - expected)
+        worst = max(worst, error)
+        assert error < 2e-10, (label, error)
+        checks += 1
+
+    identity = [[1.0 if i == j else 0.0 for j in range(4)] for i in range(4)]
+    samples = 1000
+    radii = (0.125, 0.5, 1.0, 3.25, 11.0)
+    for case in range(samples):
+        q = unit([rng.gauss(0.0, 1.0) for _ in range(4)])
+        v = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q]))
+        w = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q, v]))
+        z = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q, v, w]))
+        frame_rows = [[q[j], v[j], w[j], z[j]] for j in range(4)]
+        if determinant(frame_rows) < 0.0:
+            z = scale(-1.0, z)
+
+        plus = complex_operator(q, v, w, z, 1.0)
+        minus = complex_operator(q, v, w, z, -1.0)
+        for operator, sign in ((plus, 1.0), (minus, -1.0)):
+            check_error(madd(transpose(operator), operator), [[0.0] * 4 for _ in range(4)], "skew")
+            check_error(matmul(operator, operator), mscale(-1.0, identity), "square")
+            check_error(matvec(operator, q), v, "point tangent")
+            check_error(matvec(operator, v), scale(-1.0, q), "route plane")
+            check_error(matvec(operator, w), scale(sign, z), "screen sign")
+            check_error(matvec(operator, z), scale(-sign, w), "screen closure")
+
+        angle = rng.uniform(-math.pi, math.pi)
+        c, s = math.cos(angle), math.sin(angle)
+        route_point = add(scale(c, q), scale(s, v))
+        route_tangent = add(scale(c, v), scale(-s, q))
+        check_error(matvec(plus, route_point), route_tangent, "plus common route")
+        check_error(matvec(minus, route_point), route_tangent, "minus common route")
+        check_error(matvec(plus, w), scale(-1.0, matvec(minus, w)), "opposite transverse data")
+
+        radius = radii[case % len(radii)]
+        check_scalar(dot(z, scale(1.0 / radius, matvec(plus, w))), 1.0 / radius, "plus twist")
+        check_scalar(dot(z, scale(1.0 / radius, matvec(minus, w))), -1.0 / radius, "minus twist")
+
+    result = {
+        "status": "PASS",
+        "implementation": "oriented_two_plane_outer_product_no_production_import",
+        "random_seed": SEED,
+        "sample_cases": samples,
+        "independent_checks": checks,
+        "maximum_error": worst,
+        "directed_germ_member_count": 2,
+        "signed_screen_member_count": 1,
+        "path_only_distinguishes_chirality": False,
+        "imports_production_code": False,
+    }
+    assert checks >= 10000
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,340p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile semantic/evidence mutations for the bounded G307 result."""
+
+from __future__ import annotations
+
+import copy
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+SOURCE = HERE / "DERIVATION_RESULT.json"
+OUT = HERE / "CATCH_PROOF_RESULT.json"
+
+
+def failure(value):
+    if value["metric_and_kernel_changed"]:
+        return "kernel_change"
+    if value["directed_germ_member_count"] != 2:
+        return "directed_count"
+    if value["members_per_chirality"] != 1:
+        return "per_chirality_uniqueness"
+    if value["path_only_member_count"] != 2:
+        return "path_nonselection"
+    if value["signed_transverse_screen_member_count"] != 1:
+        return "signed_screen_uniqueness"
+    if value["screen_twist_signs"] != [-1, 1]:
+        return "opposite_twist"
+    if value["lawful_query_population_selected"]:
+        return "query_population_promotion"
+    if value["physical_member_selected"]:
+        return "physical_member_promotion"
+    required = {"mass", "scale", "physical_Xmax", "protected_work", "nonspherical_deformations"}
+    if not required.issubset(value["omitted"]):
+        return "scope_export"
+    if value["production_assertions"] <= 0:
+        return "vacuous_production"
+    return None
+
+
+def main():
+    base = json.loads(SOURCE.read_text(encoding="utf-8"))
+    assert failure(base) is None
+    mutations = (
+        ("metric_only_selects_member", "physical_member_selected", True, "physical_member_promotion"),
+        ("directed_germ_one_member", "directed_germ_member_count", 1, "directed_count"),
+        ("chirality_not_unique", "members_per_chirality", 2, "per_chirality_uniqueness"),
+        ("path_selects_chirality", "path_only_member_count", 1, "path_nonselection"),
+        ("screen_leaves_two", "signed_transverse_screen_member_count", 2, "signed_screen_uniqueness"),
+        ("same_twist_sign", "screen_twist_signs", [1, 1], "opposite_twist"),
+        ("control_fiber_called_population", "lawful_query_population_selected", True, "query_population_promotion"),
+        ("kernel_modified", "metric_and_kernel_changed", True, "kernel_change"),
+        ("empty_assertions", "production_assertions", 0, "vacuous_production"),
+    )
+    records = []
+    for name, key, replacement, expected in mutations:
+        trial = copy.deepcopy(base)
+        trial[key] = replacement
+        actual = failure(trial)
+        assert actual == expected, (name, actual, expected)
+        records.append({"case": name, "caught": True, "expected": expected})
+
+    for omitted in ("mass", "scale", "physical_Xmax", "protected_work", "nonspherical_deformations"):
+        trial = copy.deepcopy(base)
+        trial["omitted"].remove(omitted)
+        actual = failure(trial)
+        assert actual == "scope_export", (omitted, actual)
+        records.append({"case": f"promote_{omitted}", "caught": True, "expected": "scope_export"})
+
+    result = {
+        "status": "PASS",
+        "baseline_valid": True,
+        "hostile_cases": len(records),
+        "direct_mutations": len(records),
+        "records": records,
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py" in /return
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/VERIFICATION_RESULT.json" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Build a sealed, source-bounded G307 fresh-review intake."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import shutil
+import tempfile
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+PACKAGE_FILES = [
+    "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "SOURCE_SCOPE.tsv",
+    "SOURCE_MANIFEST.tsv", "COMPLETENESS_MAP.md",
+    "derive_directed_member_reconstruction.py", "verify_directed_member_independent.py",
+    "run_catch_proofs.py", "verify_package.py", "DERIVATION_RESULT.json",
+    "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv",
+    "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json", "EXACT_DERIVATION.md",
+    "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md", "RUN_RECORD.md",
+    "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "build_review_intake.py",
+]
+CURRENT_FILES = [
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+]
+
+
+def digest(path: Path) -> str:
+    result = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            result.update(block)
+    return result.hexdigest()
+
+
+def main() -> None:
+    target = Path(tempfile.mkdtemp(prefix="udt_g307_review_", dir="/tmp"))
+    package_target = target / HERE.name
+    package_target.mkdir()
+    for name in PACKAGE_FILES:
+        source = HERE / name
+        if not source.is_file():
+            raise FileNotFoundError(source)
+        shutil.copy2(source, package_target / name)
+
+    frozen = target / "frozen_sources"
+    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+        source_rows = list(csv.DictReader(handle, delimiter="\t"))
+    for row in source_rows:
+        source = REPO / row["path"]
+        if digest(source) != row["sha256"]:
+            raise AssertionError(f"source hash drift: {row['path']}")
+        destination = frozen / row["path"]
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
+
+    frozen_current = target / "frozen_current"
+    frozen_current.mkdir()
+    for name in CURRENT_FILES:
+        source = REPO / name
+        shutil.copy2(source, frozen_current / name)
+
+    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    if digest(frozen_current / "CURRENT_SCIENTIFIC_PREMISES.tsv") != premise_audit["registry_sha256"]:
+        raise AssertionError("current premise registry drift since G307 audit")
+
+    scope = {
+        "schema": "UDT_G307_FRESH_REVIEW_SCOPE_V1",
+        "question": (
+            "audit the bounded conditional Hopf-member reconstruction from supplied directed "
+            "and transverse-screen germs and the retained physical-population boundary"
+        ),
+        "package": HERE.name,
+        "package_file_count": len(PACKAGE_FILES),
+        "frozen_source_count": len(source_rows),
+        "frozen_current_count": len(CURRENT_FILES),
+        "allowed": [
+            "read intake",
+            "independently rederive the bounded theorem",
+            "run registered checks in a writable ephemeral copy",
+            "write review response outside intake",
+        ],
+        "forbidden": [
+            "edit evidence files",
+            "continue research",
+            "access repository or protected packages",
+            "use internet or unsealed observations",
+            "import field equation action source matter model physical population mass law fit scale or X_max",
+            "change registered question",
+            "promote a supplied relation datum into a UDT-populated physical field",
+        ],
+    }
+    scope_path = target / "REVIEW_SCOPE.json"
+    scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    payloads = sorted(path for path in target.rglob("*") if path.is_file())
+    manifest = target / "REVIEW_MANIFEST.tsv"
+    with manifest.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        writer.writerow(["sha256", "bytes", "path"])
+        for path in payloads:
+            writer.writerow([digest(path), path.stat().st_size, path.relative_to(target).as_posix()])
+    seal = target / "REVIEW_MANIFEST.sha256"
+    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+    print(json.dumps({
+        "intake": str(target),
+        "manifest_payloads": len(payloads),
+        "total_files": len(payloads) + 2,
+        "scope_sha256": digest(scope_path),
+        "manifest_sha256": digest(manifest),
+        "detached_seal_sha256": digest(seal),
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+{
+  "external_review": "PENDING",
+  "hostile_catches": 14,
+  "independent_checks": 17000,
+  "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
+  "metric_and_kernel_changed": false,
+  "premise_audit": "PASS",
+  "production_assertions": 1806,
+  "repository_regression": "199_passed_1_expected_xfail",
+  "status": "INTERNAL_GATES_PASS_EXTERNAL_PENDING"
+}
+
+exec
+/bin/bash -lc "find /intake -maxdepth 2 -name 'verify_current_scientific_premises.py' -o -name 'verify_current_scientific_premises.py'" in /return
+ succeeded in 0ms:
+codex
+The executable package is self-contained except for the repository-root premise verifier noted in `COMMANDS.md`. Because your scope forbids inspecting beyond `/intake`, I’m treating that root-level verifier as out of scope and relying instead on the sealed `PREMISE_AUDIT_RESULT.json` plus the frozen current premise registry included in the intake.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMPLETENESS_MAP.md" in /return
+ succeeded in 0ms:
+# G307 map — supplied directed relation versus physical Hopf-member population
+
+Date: 2026-08-30
+Status: `MAP_BEFORE_EXECUTABLE_OUTCOMES`
+
+## Whole question
+
+G306 derives two orientation-relative families of unit Killing geodesic Hopf congruences on the
+positive G305 round `S3` completion, but round isotropy selects no member. G307 asks a narrower
+question: how much of that member ambiguity is removed by an already-supplied complete observer
+relation, and does any active UDT premise populate the required relation data?
+
+This is metric-led. It changes neither the primary metric nor the reciprocal kernel. It imports no
+action, source, matter model, mass law, observation, fitted scale, physical `X_max`, or protected
+work.
+
+## Data ladder to classify
+
+1. Round metric alone.
+2. Supplied point `p` on the round slice.
+3. Supplied ordered unit tangent `v` at `p`, representing one regular directed route germ.
+4. The complete one-dimensional path-labelled relation along the geodesic determined by `(p,v)`.
+5. A supplied oriented transverse screen first jet, including the sign of its quarter-turn/twist.
+6. A populated lawful family of such route/screen germs.
+
+The levels must not be collapsed. Conditional reconstruction from supplied data is not physical
+population or selection of those data.
+
+## Candidate mechanism
+
+Write the round sphere as unit quaternions. The two G306 families may be represented by left and
+right multiplication by unit imaginary quaternions. For supplied `(p,v)`, test the exact candidates
+
+```text
+u_L = v conjugate(p)
+u_R = conjugate(p) v
+V_L(q) = u_L q
+V_R(q) = q u_R.
+```
+
+The preregistered hypothesis is that these are the unique members in the two chiral families that
+take value `v` at `p`; that both restrict identically to the same great-circle route; and that their
+transverse screen quarter-turns have opposite sign. This hypothesis is not an outcome until the
+registered exact and independent checks pass.
+
+## Scope
+
+The bounded arena is the positive G305 standard connected simply connected round `S3` completion,
+all positive radii, both G306 chiral families, regular unit directed germs, and regular oriented
+rank-two transverse screens. Nonspherical deformations, quotients, singular/cut/caustic strata,
+topology change, physical route population, action, dynamics, stability, backreaction, history,
+mass, scale, observation, and physical `X_max` remain outside scope.
+
+## Maximum conclusion
+
+At most G307 may prove a conditional reconstruction theorem and identify the smallest remaining
+population datum. It may not call a supplied route or screen physical, promote chirality to a
+metric choice, derive dynamics, or turn normalized helicity into mass, scale, or `X_max`.
+
+ succeeded in 0ms:
+# G307 bounded completeness map
+
+## Covered exactly
+
+- the positive-radius standard connected simply connected round `S3` completion supplied by G305;
+- both orientation-relative G306 Hopf-congruence families;
+- every regular point and ordered unit tangent pair `(p,v)` by the quaternionic isometry theorem;
+- every regular oriented rank-two screen complementary to `span{p,v}`;
+- the full great-circle route generated by `(p,v)`;
+- every positive slice radius, because radius enters only as the nonzero factor `1/a` in the
+  transverse first jet;
+- member counts after point, tangent, route, and signed transverse-screen data.
+
+The 36 exact rational frames and five explicit positive radii are executable witnesses of the
+general identities, not a finite sampling claim. The independent numerical replay uses 1,000
+unrelated random oriented frames as a coding and sign check.
+
+## Not covered
+
+- nonspherical deformations, quotients, singular/cut/caustic strata, or topology change;
+- ownership or population of physical observers, events, routes, queries, or screens;
+- an action, dynamics, stability, backreaction, source, matter or mass law;
+- observational calibration, a dimensionful scale, history selection, or physical `X_max`;
+- protected local packages.
+
+The theorem reconstructs a family member from supplied germ data. It does not derive that Nature
+supplies or populates those data.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv" in /return
+ succeeded in 0ms:
+object	status	active_role	forbidden_promotion
+positive_round_S3_completion	DERIVED_CONDITIONAL_G305	bounded_domain	selected_complete_UDT_history
+two_Hopf_congruence_families	DERIVED_MATHEMATICAL_G306	candidate_member_arena	populated_physical_field
+slice_orientation	SUPPLIED_BOTH_SIGNS_RETAINED	chirality_and_twist_sign_bookkeeping	metric_selected_parity
+point_p	SUPPLIED_CONTROL	isotropy_ladder	physical_observer_population
+ordered_unit_tangent_v	SUPPLIED_REGULAR_GERM	directed_route_reconstruction	lawful_populated_query
+path_label_and_frame_carry	DERIVED_CONDITIONAL_AFTER_ROUTE_SUPPLY	one_dimensional_relation_data	physical_route_population
+oriented_transverse_screen_first_jet	SUPPLIED_TEST_DATUM	chirality_discriminator	metric_owned_field_derivative
+G300_celestial_control_fiber	DERIVED_CONDITIONAL	all_direction_control_arena	lawful_query_family
+lawful_query_route_population	OPEN	ownership_boundary	silently_selected_input
+metric_and_reciprocal_kernel	FIXED_UNCHANGED	upstream_theory	modified_by_classification
+action_source_mass_scale_Xmax_observation	OMITTED	outside_scope	implicit_mechanism_or_anchor
+nonspherical_quotient_singular_topology_change	OMITTED	outside_scope	universal_export
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_AUDIT_RESULT.json" in /return
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_MANIFEST.tsv" in /return
+ succeeded in 0ms:
+{
+  "command": "python3 verify_current_scientific_premises.py",
+  "registry_rows": 289,
+  "registry_sha256": "10c7b53fc2820a63c7fee40d1a9d06325c7a3cb8c17d58329646eaf191de5ba8",
+  "status": "PASS"
+}
+
+ succeeded in 0ms:
+path	sha256	role
+udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md	56f871522dd099bf6d45984045cff2aeb05e42176eea118e8b72303542f53872	complete_relation_and_projection_boundary
+udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md	2ed70f891d4bebe9091abe4c9528fff01dd0bc07012132f74cf2b25329f1af8c	complete_carry_and_query_domain_boundary
+udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md	3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5	celestial_control_versus_population_boundary
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	6fb44360a2ec8b389e156d95beb69719b7ebba4c65790e21f363002a05ae5b6b	bounded_round_domain
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md	6471bdb75d721fa9894eaa2369c0af7e5b4355f282aeb06d394a261c50af2f75	two_family_member_nonselection_theorem
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md	1ac34b07b1a4959bd7d1a7da38898e8e8e90e088f1cf0c98f7c1d78f32274e9d	upstream_geometric_derivation
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json	1dea213b2441edd4ec28b597521072dcbeff021c18ad1ca788ed06735439aed4	frozen_upstream_machine_result
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/STATUS_LEDGER.tsv	6b136c3dc980017e96e202a988ab308d7649ce5ffbfde1e622f61607d4f26d60	upstream_ownership_ledger
+
+codex
+The package’s own premise ledger is at least typed correctly on paper: `path_label_and_frame_carry` and `oriented_transverse_screen_first_jet` are separate supplied data levels, and lawful population stays `OPEN`. The remaining issue is whether the derivation or checks quietly collapse those levels in practice.
+exec
+/bin/bash -lc "grep -RIn \"complete one-dimensional route and metric frame carry\\|transverse\\|screen first jet\\|parallel transport\\|frame carry\" /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30 /intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29 /intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29" in /return
+ succeeded in 0ms:
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMPLETENESS_MAP.md:11:  transverse first jet;
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMPLETENESS_MAP.md:12:- member counts after point, tangent, route, and signed transverse-screen data.
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py:188:        ("supplied_oriented_signed_transverse_screen_first_jet", "one_member", "conditional_reconstruction"),
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py:207:        "signed_transverse_screen_member_count": 1,
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md:23:5. A supplied oriented transverse screen first jet, including the sign of its quarter-turn/twist.
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md:43:transverse screen quarter-turns have opposite sign. This hypothesis is not an outcome until the
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md:50:rank-two transverse screens. Nonspherical deformations, quotients, singular/cut/caustic strata,
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv:6:supplied_oriented_signed_transverse_screen_first_jet	one_member	conditional_reconstruction
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md:21:Their difference appears in the transverse screen. Relative to one supplied screen orientation,
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md:23:transverse-screen first derivative therefore reduces the two candidates to one.
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md:30:signed transverse jet: one member
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md:36:nor do they supply the transverse sign for such a population. Conditional reconstruction must not
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md:44:regular directed point/tangent germs, all regular oriented transverse screens, and all positive
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv:6:complete_one_dimensional_route_and_metric_carry	DERIVED_CONDITIONAL_G307	two_members_induce_same_route	transverse_sign
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv:7:supplied_oriented_signed_transverse_screen_first_jet	DERIVED_CONDITIONAL_G307	exactly_one_member_reconstructed	physical_ownership_of_datum
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md:9:one-dimensional great-circle route, and that one supplied signed transverse-screen first jet
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md:17:2. Check whether the phrase "complete one-dimensional route and metric frame carry" already
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md:18:   contains the transverse signed first derivative. Distinguish ordinary metric parallel transport
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md:19:   of a supplied screen frame from the transverse derivative of the candidate Hopf field. Flag any
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json:42:  "signed_transverse_screen_member_count": 1,
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv:8:oriented_transverse_screen_first_jet	SUPPLIED_TEST_DATUM	chirality_discriminator	metric_owned_field_derivative
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/LAY_REPORT.md:16:choice, and then to one member when the transverse handedness is supplied.
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/LAY_REPORT.md:19:which observer routes and transverse handedness Nature actually populates. G307 tells us how to
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py:25:    if value["signed_transverse_screen_member_count"] != 1:
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py:49:        ("screen_leaves_two", "signed_transverse_screen_member_count", 2, "signed_screen_uniqueness"),
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py:147:        check_error(matvec(plus, w), scale(-1.0, matvec(minus, w)), "opposite transverse data")
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/RUN_RECORD.md:20:after `(p,v)`; two members after route data; one after signed transverse-screen first jet.
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREREGISTRATION.md:30:- prove their restrictions to the oriented transverse screen are opposite quarter-turns;
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py:76:            "and transverse-screen germs and the retained physical-population boundary"
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EVIDENCE_GATES.md:6:   point/tangent germ, both chiralities, every oriented transverse screen, and every positive
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:84:Thus the full one-dimensional route and metric frame carry along that route do not distinguish
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:85:chirality. The distinction is transverse, not longitudinal.
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:100:On a round sphere of radius `a`, the supplied Hopf field has transverse covariant derivative
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:106:Therefore one oriented signed transverse-screen first derivative selects exactly one of the two
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:120:| oriented signed transverse-screen first jet | one | conditionally reconstructed |
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py:72:    assert derivation["signed_transverse_screen_member_count"] == 1
+/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py:106:        ("supplied_oriented_signed_transverse_screen_first_jet", "one_member", "conditional_reconstruction"),
+/intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md:19:screen/frame carry. Neither `J_T` nor `J_L` contains that complete datum by itself, and no frozen
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/LAY_REPORT.md" in /return
+ succeeded in 0ms:
+# G307 lay report
+
+The round metric by itself allowed two whole families of equally valid twisting direction fields.
+G307 asked what happens once we stop looking at an empty symmetric universe and supply one actual
+directed observer relation.
+
+The answer is sharply simpler:
+
+- a location plus a direction reduces the many possibilities to two mirror versions;
+- both mirror versions follow exactly the same route, so watching only the route cannot tell them
+  apart;
+- they twist the surrounding two-dimensional screen in opposite directions;
+- one signed measurement of that sideways twist identifies one version.
+
+So the local geometric ambiguity has shrunk from two continuous families to one binary handedness
+choice, and then to one member when the transverse handedness is supplied.
+
+The remaining gap is not another formula inside the kernel. Current UDT premises do not yet say
+which observer routes and transverse handedness Nature actually populates. G307 tells us how to
+reconstruct the unique field from such a completed relation; it does not claim that the physical
+relation has already been selected.
+
+No metric term, reciprocal-kernel term, fitted coefficient, mass rule, or scale was added.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md" in /return
+ succeeded in 0ms:
+# G307 fresh adversarial review request
+
+Review only the sealed intake. Do not continue the research or propose a replacement UDT law.
+
+## Question
+
+Does the bounded positive-round G307 evidence prove that a supplied point and ordered tangent
+select exactly one G306 Hopf member per chirality, that the two survivors define the same complete
+one-dimensional great-circle route, and that one supplied signed transverse-screen first jet
+conditionally selects exactly one member—while active UDT premises still populate none of those
+physical relation data?
+
+## Required attacks
+
+1. Independently rederive the left/right quaternion reconstruction and prove or refute uniqueness
+   for every regular `(p,v)`, not merely the sampled witnesses.
+2. Check whether the phrase "complete one-dimensional route and metric frame carry" already
+   contains the transverse signed first derivative. Distinguish ordinary metric parallel transport
+   of a supplied screen frame from the transverse derivative of the candidate Hopf field. Flag any
+   conflation as a scientific defect.
+3. Audit orientation, screen-gauge, and pair-reversal typing. Determine whether the claimed binary
+   chirality datum is invariantly meaningful only after the stated orientations are supplied.
+4. Verify that the radius dependence is exactly a nonzero `1/a` factor and that the sign census is
+   valid for every positive radius.
+5. Audit G298/G299/G300 ownership: conditional reconstruction from supplied relation data must not
+   be promoted to a populated lawful query, route, screen, field, dynamics, or history.
+6. Run the registered checks in a writable ephemeral copy and inspect them for shared-code false
+   independence, vacuous assertions, missing branches, and loose tolerances.
+7. Confirm that no metric or reciprocal-kernel term, action, source, mass law, scale, observation,
+   or physical `X_max` entered.
+
+## Required response
+
+Lead with one exact verdict token:
+
+- `G307_BOUNDED_RESULT_ACCEPTED`
+- `G307_REPAIRABLE_DEFECTS`
+- `G307_SCIENTIFIC_DEFECT`
+- `G307_INCONSISTENT_OR_UNCLASSIFIED`
+
+Then list findings by severity, give the strongest defensible landing, report every command run,
+and distinguish scientific defects from replay/packaging defects. Do not edit evidence files and
+do not continue the research beyond this bounded adjudication.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv" in /return
+ succeeded in 0ms:
+object	status	result	remaining_open
+positive_round_S3_completion	DERIVED_CONDITIONAL_G305	bounded_domain_supplied	physical_history_selection
+two_chiral_Hopf_families	DERIVED_MATHEMATICAL_G306	complete_metric_defined_candidate_arena	physical_member_population
+metric_only_member_selection	DERIVED_NEGATIVE_G306	no_nonzero_isotropy_fixed_member	route_conditioned_reconstruction
+supplied_point_and_ordered_unit_tangent	DERIVED_CONDITIONAL_G307	exactly_one_member_per_chirality	chirality
+complete_one_dimensional_route_and_metric_carry	DERIVED_CONDITIONAL_G307	two_members_induce_same_route	transverse_sign
+supplied_oriented_signed_transverse_screen_first_jet	DERIVED_CONDITIONAL_G307	exactly_one_member_reconstructed	physical_ownership_of_datum
+lawful_query_route_screen_population	OPEN	no_active_premise_selects_population	selection_or_dynamical_bridge
+metric_and_reciprocal_kernel	FIXED_UNCHANGED	no_formula_modified	none_from_G307
+action_source_mass_scale_observation_Xmax	OMITTED	no_import_or_promotion	outside_scope
+nonspherical_quotient_singular_topology_change	OPEN	unexamined	future_extension
+
+codex
+I’ve reached the point where the main remaining work is executable validation. I’m about to make a writable copy of the sealed intake under `/work`, run only the registered G307 package commands there, and compare their behavior against the sealed JSON/TSV outputs without touching `/intake`.
+exec
+/bin/bash -lc 'mkdir -p /work/g307_review && cp -a /intake/. /work/g307_review/' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_directed_member_reconstruction.py' in /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "directed_germ_member_count": 2,
+  "exact_cases": 36,
+  "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
+  "landing_candidate": 2,
+  "lawful_query_population_selected": false,
+  "members_per_chirality": 1,
+  "metric_and_kernel_changed": false,
+  "omitted": [
+    "nonspherical_deformations",
+    "quotients",
+    "singular_cut_caustic_strata",
+    "topology_change",
+    "physical_query_route_population",
+    "action",
+    "dynamics",
+    "stability",
+    "backreaction",
+    "history",
+    "observation",
+    "source",
+    "mass",
+    "scale",
+    "physical_Xmax",
+    "protected_work"
+  ],
+  "path_only_member_count": 2,
+  "physical_member_selected": false,
+  "production_assertions": 1806,
+  "radii": [
+    "1/2",
+    "1",
+    "7/3",
+    "5",
+    "19/4"
+  ],
+  "scope": "positive_G305_round_S3_regular_directed_germs_oriented_screens_all_positive_radii",
+  "screen_twist_signs": [
+    -1,
+    1
+  ],
+  "signed_transverse_screen_member_count": 1,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_directed_member_independent.py' in /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "directed_germ_member_count": 2,
+  "implementation": "oriented_two_plane_outer_product_no_production_import",
+  "imports_production_code": false,
+  "independent_checks": 17000,
+  "maximum_error": 4.1389114358025836e-13,
+  "path_only_distinguishes_chirality": false,
+  "random_seed": 3070830,
+  "sample_cases": 1000,
+  "signed_screen_member_count": 1,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py' in /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{
+  "baseline_valid": true,
+  "direct_mutations": 14,
+  "hostile_cases": 14,
+  "records": [
+    {
+      "case": "metric_only_selects_member",
+      "caught": true,
+      "expected": "physical_member_promotion"
+    },
+    {
+      "case": "directed_germ_one_member",
+      "caught": true,
+      "expected": "directed_count"
+    },
+    {
+      "case": "chirality_not_unique",
+      "caught": true,
+      "expected": "per_chirality_uniqueness"
+    },
+    {
+      "case": "path_selects_chirality",
+      "caught": true,
+      "expected": "path_nonselection"
+    },
+    {
+      "case": "screen_leaves_two",
+      "caught": true,
+      "expected": "signed_screen_uniqueness"
+    },
+    {
+      "case": "same_twist_sign",
+      "caught": true,
+      "expected": "opposite_twist"
+    },
+    {
+      "case": "control_fiber_called_population",
+      "caught": true,
+      "expected": "query_population_promotion"
+    },
+    {
+      "case": "kernel_modified",
+      "caught": true,
+      "expected": "kernel_change"
+    },
+    {
+      "case": "empty_assertions",
+      "caught": true,
+      "expected": "vacuous_production"
+    },
+    {
+      "case": "promote_mass",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_scale",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_physical_Xmax",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_protected_work",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_nonspherical_deformations",
+      "caught": true,
+      "expected": "scope_export"
+    }
+  ],
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ succeeded in 0ms:
+{"external_review": "PENDING", "hostile_catches": 14, "independent_checks": 17000, "landing": "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN", "metric_and_kernel_changed": false, "production_assertions": 1806, "required_files": 26, "source_hashes_verified": 8, "status": "PASS"}
+
+exec
+/bin/bash -lc 'python3 -S build_review_intake.py' in /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py", line 121, in <module>
+    main()
+  File "/work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py", line 56, in main
+    if digest(source) != row["sha256"]:
+  File "/work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py", line 35, in digest
+    with path.open("rb") as handle:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/work/g307_review/udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md'
+
+codex
+The replay exposed a concrete packaging issue: `build_review_intake.py` does not resolve the frozen source paths in the sealed layout, so one registered command fails before any scientific check is at issue. I’m now comparing the successful replay outputs against the sealed artifacts and then I’ll finish the scientific assessment separately from that packaging defect.
+exec
+/bin/bash -lc 'sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json' in /return
+ succeeded in 0ms:
+813d271e6c8fcf995a6cdb4991044b8dea00fd6c1d04ef3c33bde42ad09e0a7e  /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+813d271e6c8fcf995a6cdb4991044b8dea00fd6c1d04ef3c33bde42ad09e0a7e  /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+
+exec
+/bin/bash -lc 'sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json /work/g307_review/udt_g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json' in /return
+ exited 1 in 0ms:
+sha256sum: /work/g307_review/udt_g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json: No such file or directory
+542217e11b0354a390484a2c00dc3ce5a4e7cca02ac079f23a2fe0b1e162f63d  /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+
+exec
+/bin/bash -lc 'sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json' in /return
+ succeeded in 0ms:
+29fd8a54f8c7e8d3af64423c7bdd25668245133390e2ea37381ffcded51d5b63  /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json
+29fd8a54f8c7e8d3af64423c7bdd25668245133390e2ea37381ffcded51d5b63  /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json
+
+exec
+/bin/bash -lc 'sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv' in /return
+ succeeded in 0ms:
+1ee2c367e9f94fb55700f6c0a00a7867973abc3d790589b407231d4600fc4037  /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+1ee2c367e9f94fb55700f6c0a00a7867973abc3d790589b407231d4600fc4037  /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+
+codex
+One comparison command had a bad path on my side; that was a replay bookkeeping error, not an intake defect. I’m rerunning that hash check correctly and then I have enough to write the adjudication.
+exec
+/bin/bash -lc 'sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json' in /return
+ succeeded in 0ms:
+542217e11b0354a390484a2c00dc3ce5a4e7cca02ac079f23a2fe0b1e162f63d  /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+542217e11b0354a390484a2c00dc3ce5a4e7cca02ac079f23a2fe0b1e162f63d  /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+
+codex
+I have the technical landing. I’m pulling line-numbered excerpts now so the final report can cite the exact places where the scientific theorem is supported and where the replay packaging falls short.
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md | sed -n '1,180p'" in /return
+ succeeded in 0ms:
+     1	# G307 exact derivation — directed relations reduce, but do not populate, the Hopf ambiguity
+     2
+     3	Date: 2026-08-30
+     4	Grade: `INTERNALLY_DERIVED_AND_INDEPENDENTLY_VERIFIED_WITH_CAVEATS`
+     5
+     6	## Bounded landing
+     7
+     8	```text
+     9	SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+    10	__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+    11	__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+    12	```
+    13
+    14	This is preregistered candidate 2. It is a conditional reconstruction theorem on the positive
+    15	round G305/G306 completion. It does not change the metric or reciprocal kernel and does not add a
+    16	field equation, source, matter sector, scale, observation, or physical population.
+    17
+    18	## 1. Set-up
+    19
+    20	Identify the unit round three-sphere with the unit quaternions. Let `p` be a supplied point and
+    21	`v` a supplied ordered unit tangent at `p`, so
+    22
+    23	\[
+    24	|p|=|v|=1,\qquad \langle p,v\rangle=0.
+    25	\]
+    26
+    27	G306's two chiral families are the unit imaginary left- and right-multiplication fields
+    28
+    29	\[
+    30	V_L(q)=u_Lq,\qquad V_R(q)=qu_R,
+    31	\]
+    32
+    33	with `u_L` and `u_R` unit imaginary quaternions.
+    34
+    35	## 2. One member in each chirality
+    36
+    37	Requiring both fields to equal the supplied tangent at `p` gives
+    38
+    39	\[
+    40	u_Lp=v,\qquad pu_R=v.
+    41	\]
+    42
+    43	Quaternion inversion gives the unique solutions
+    44
+    45	\[
+    46	\boxed{u_L=v\bar p,\qquad u_R=\bar p v.}
+    47	\]
+    48
+    49	The maps from the imaginary quaternions to the tangent space,
+    50
+    51	\[
+    52	u\mapsto up,\qquad u\mapsto pu,
+    53	\]
+    54
+    55	are linear isometries. Hence each equation has exactly one solution in its respective chiral
+    56	`S2` family. A supplied `(p,v)` therefore reduces two continuous `S2` families to exactly two
+    57	members: one left and one right.
+    58
+    59	## 3. Why the route still cannot choose between them
+    60
+    61	Let `J_L` and `J_R` be the corresponding orthogonal complex structures. Both satisfy
+    62
+    63	\[
+    64	J_Lp=J_Rp=v,\qquad J_Lv=J_Rv=-p.
+    65	\]
+    66
+    67	They therefore agree on the entire oriented two-plane `span{p,v}`. The common great-circle route
+    68	and its tangent are
+    69
+    70	\[
+    71	q(\theta)=\cos\theta\,p+\sin\theta\,v,
+    72	\]
+    73
+    74	\[
+    75	\dot q(\theta)=\cos\theta\,v-\sin\theta\,p,
+    76	\]
+    77
+    78	and exactly
+    79
+    80	\[
+    81	J_Lq(\theta)=J_Rq(\theta)=\dot q(\theta).
+    82	\]
+    83
+    84	Thus the full one-dimensional route and metric frame carry along that route do not distinguish
+    85	chirality. The distinction is transverse, not longitudinal.
+    86
+    87	## 4. The smallest conditional discriminator
+    88
+    89	Choose an oriented orthonormal screen `(w,z)` complementary to `span{p,v}`, with
+    90	`(p,v,w,z)` positively oriented. The two complex structures act oppositely:
+    91
+    92	\[
+    93	J_Lw=z,\qquad J_Rw=-z,
+    94	\]
+    95
+    96	\[
+    97	J_Lz=-w,\qquad J_Rz=w.
+    98	\]
+    99
+   100	On a round sphere of radius `a`, the supplied Hopf field has transverse covariant derivative
+   101
+   102	\[
+   103	\nabla_wV_{L/R}=\pm\frac{z}{a}.
+   104	\]
+   105
+   106	Therefore one oriented signed transverse-screen first derivative selects exactly one of the two
+   107	remaining members. The magnitude `1/a` changes with radius; the discriminating sign does not.
+   108
+   109	This is conditional reconstruction from supplied data. It is not a theorem that the metric alone
+   110	chooses the sign or that active UDT premises populate a physical screen derivative.
+   111
+   112	## 5. Exact ownership ladder
+   113
+   114	| Supplied data | Geometric members remaining | Ownership conclusion |
+   115	|---|---:|---|
+   116	| round metric | two `S2` families | no member selected |
+   117	| point `p` | two `S2` families | no direction supplied |
+   118	| point plus ordered tangent `(p,v)` | two | one per chirality |
+   119	| complete one-dimensional route and metric carry | two | both induce the same route |
+   120	| oriented signed transverse-screen first jet | one | conditionally reconstructed |
+   121	| active-premise lawful physical population | none selected | `OPEN` |
+   122
+   123	G298–G300 already distinguish the rich metric-owned relation/control arena from a populated lawful
+   124	query family. G307 does not close that ownership boundary. It identifies the smallest local datum
+   125	that would close the G306 member ambiguity once a physical relation is supplied.
+   126
+   127	## 6. Evidence
+   128
+   129	- preregistered and pushed at `1bdfe7d2` before executable outcomes;
+   130	- 1,806 exact standard-library rational assertions across 36 oriented frames;
+   131	- all positive radii covered analytically, with five explicit scale controls;
+   132	- 17,000 implementation-independent checks over 1,000 random oriented frames;
+   133	- maximum independent numerical error `4.1389114358025836e-13`;
+   134	- 14 direct hostile mutations caught;
+   135	- current premise verifier passed after the result;
+   136	- metric and reciprocal kernel explicitly frozen and unchanged.
+   137
+   138	Fresh external adversarial review remains pending. Physical route/query/screen population,
+   139	dynamics, history, mass, scale, observation, and physical `X_max` remain open.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py | sed -n '1,220p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Implementation-distinct numerical replay using oriented two-plane operators."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import json
+     7	import math
+     8	import random
+     9	from pathlib import Path
+    10
+    11
+    12	HERE = Path(__file__).resolve().parent
+    13	OUT = HERE / "INDEPENDENT_VERIFICATION.json"
+    14	SEED = 3070830
+    15
+    16
+    17	def dot(a, b):
+    18	    return sum(x * y for x, y in zip(a, b))
+    19
+    20
+    21	def scale(c, a):
+    22	    return [c * x for x in a]
+    23
+    24
+    25	def add(*vectors):
+    26	    return [sum(values) for values in zip(*vectors)]
+    27
+    28
+    29	def norm(a):
+    30	    return math.sqrt(dot(a, a))
+    31
+    32
+    33	def unit(a):
+    34	    n = norm(a)
+    35	    if n < 1e-10:
+    36	        raise ValueError("degenerate vector")
+    37	    return scale(1.0 / n, a)
+    38
+    39
+    40	def project_out(a, basis):
+    41	    out = list(a)
+    42	    for vector in basis:
+    43	        out = add(out, scale(-dot(out, vector), vector))
+    44	    return out
+    45
+    46
+    47	def determinant(a):
+    48	    matrix = [list(row) for row in a]
+    49	    value = 1.0
+    50	    for column in range(4):
+    51	        pivot = max(range(column, 4), key=lambda row: abs(matrix[row][column]))
+    52	        if pivot != column:
+    53	            matrix[pivot], matrix[column] = matrix[column], matrix[pivot]
+    54	            value *= -1.0
+    55	        p = matrix[column][column]
+    56	        value *= p
+    57	        for row in range(column + 1, 4):
+    58	            factor = matrix[row][column] / p
+    59	            for j in range(column + 1, 4):
+    60	                matrix[row][j] -= factor * matrix[column][j]
+    61	    return value
+    62
+    63
+    64	def outer(a, b):
+    65	    return [[x * y for y in b] for x in a]
+    66
+    67
+    68	def madd(*matrices):
+    69	    return [[sum(matrix[i][j] for matrix in matrices) for j in range(4)] for i in range(4)]
+    70
+    71
+    72	def mscale(c, a):
+    73	    return [[c * x for x in row] for row in a]
+    74
+    75
+    76	def matvec(a, v):
+    77	    return [dot(row, v) for row in a]
+    78
+    79
+    80	def matmul(a, b):
+    81	    return [[sum(a[i][k] * b[k][j] for k in range(4)) for j in range(4)] for i in range(4)]
+    82
+    83
+    84	def transpose(a):
+    85	    return [[a[j][i] for j in range(4)] for i in range(4)]
+    86
+    87
+    88	def maxerr(a, b):
+    89	    if isinstance(a[0], list):
+    90	        return max(abs(a[i][j] - b[i][j]) for i in range(len(a)) for j in range(len(a[0])))
+    91	    return max(abs(x - y) for x, y in zip(a, b))
+    92
+    93
+    94	def complex_operator(q, v, w, z, sign):
+    95	    route = madd(outer(v, q), mscale(-1.0, outer(q, v)))
+    96	    screen = madd(outer(z, w), mscale(-1.0, outer(w, z)))
+    97	    return madd(route, mscale(sign, screen))
+    98
+    99
+   100	def main():
+   101	    rng = random.Random(SEED)
+   102	    checks = 0
+   103	    worst = 0.0
+   104
+   105	    def check_error(actual, expected, label):
+   106	        nonlocal checks, worst
+   107	        error = maxerr(actual, expected)
+   108	        worst = max(worst, error)
+   109	        assert error < 2e-10, (label, error)
+   110	        checks += 1
+   111
+   112	    def check_scalar(actual, expected, label):
+   113	        nonlocal checks, worst
+   114	        error = abs(actual - expected)
+   115	        worst = max(worst, error)
+   116	        assert error < 2e-10, (label, error)
+   117	        checks += 1
+   118
+   119	    identity = [[1.0 if i == j else 0.0 for j in range(4)] for i in range(4)]
+   120	    samples = 1000
+   121	    radii = (0.125, 0.5, 1.0, 3.25, 11.0)
+   122	    for case in range(samples):
+   123	        q = unit([rng.gauss(0.0, 1.0) for _ in range(4)])
+   124	        v = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q]))
+   125	        w = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q, v]))
+   126	        z = unit(project_out([rng.gauss(0.0, 1.0) for _ in range(4)], [q, v, w]))
+   127	        frame_rows = [[q[j], v[j], w[j], z[j]] for j in range(4)]
+   128	        if determinant(frame_rows) < 0.0:
+   129	            z = scale(-1.0, z)
+   130
+   131	        plus = complex_operator(q, v, w, z, 1.0)
+   132	        minus = complex_operator(q, v, w, z, -1.0)
+   133	        for operator, sign in ((plus, 1.0), (minus, -1.0)):
+   134	            check_error(madd(transpose(operator), operator), [[0.0] * 4 for _ in range(4)], "skew")
+   135	            check_error(matmul(operator, operator), mscale(-1.0, identity), "square")
+   136	            check_error(matvec(operator, q), v, "point tangent")
+   137	            check_error(matvec(operator, v), scale(-1.0, q), "route plane")
+   138	            check_error(matvec(operator, w), scale(sign, z), "screen sign")
+   139	            check_error(matvec(operator, z), scale(-sign, w), "screen closure")
+   140
+   141	        angle = rng.uniform(-math.pi, math.pi)
+   142	        c, s = math.cos(angle), math.sin(angle)
+   143	        route_point = add(scale(c, q), scale(s, v))
+   144	        route_tangent = add(scale(c, v), scale(-s, q))
+   145	        check_error(matvec(plus, route_point), route_tangent, "plus common route")
+   146	        check_error(matvec(minus, route_point), route_tangent, "minus common route")
+   147	        check_error(matvec(plus, w), scale(-1.0, matvec(minus, w)), "opposite transverse data")
+   148
+   149	        radius = radii[case % len(radii)]
+   150	        check_scalar(dot(z, scale(1.0 / radius, matvec(plus, w))), 1.0 / radius, "plus twist")
+   151	        check_scalar(dot(z, scale(1.0 / radius, matvec(minus, w))), -1.0 / radius, "minus twist")
+   152
+   153	    result = {
+   154	        "status": "PASS",
+   155	        "implementation": "oriented_two_plane_outer_product_no_production_import",
+   156	        "random_seed": SEED,
+   157	        "sample_cases": samples,
+   158	        "independent_checks": checks,
+   159	        "maximum_error": worst,
+   160	        "directed_germ_member_count": 2,
+   161	        "signed_screen_member_count": 1,
+   162	        "path_only_distinguishes_chirality": False,
+   163	        "imports_production_code": False,
+   164	    }
+   165	    assert checks >= 10000
+   166	    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   167	    print(json.dumps(result, indent=2, sort_keys=True))
+   168
+   169
+   170	if __name__ == "__main__":
+   171	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py | sed -n '1,180p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Hostile semantic/evidence mutations for the bounded G307 result."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import copy
+     7	import json
+     8	from pathlib import Path
+     9
+    10
+    11	HERE = Path(__file__).resolve().parent
+    12	SOURCE = HERE / "DERIVATION_RESULT.json"
+    13	OUT = HERE / "CATCH_PROOF_RESULT.json"
+    14
+    15
+    16	def failure(value):
+    17	    if value["metric_and_kernel_changed"]:
+    18	        return "kernel_change"
+    19	    if value["directed_germ_member_count"] != 2:
+    20	        return "directed_count"
+    21	    if value["members_per_chirality"] != 1:
+    22	        return "per_chirality_uniqueness"
+    23	    if value["path_only_member_count"] != 2:
+    24	        return "path_nonselection"
+    25	    if value["signed_transverse_screen_member_count"] != 1:
+    26	        return "signed_screen_uniqueness"
+    27	    if value["screen_twist_signs"] != [-1, 1]:
+    28	        return "opposite_twist"
+    29	    if value["lawful_query_population_selected"]:
+    30	        return "query_population_promotion"
+    31	    if value["physical_member_selected"]:
+    32	        return "physical_member_promotion"
+    33	    required = {"mass", "scale", "physical_Xmax", "protected_work", "nonspherical_deformations"}
+    34	    if not required.issubset(value["omitted"]):
+    35	        return "scope_export"
+    36	    if value["production_assertions"] <= 0:
+    37	        return "vacuous_production"
+    38	    return None
+    39
+    40
+    41	def main():
+    42	    base = json.loads(SOURCE.read_text(encoding="utf-8"))
+    43	    assert failure(base) is None
+    44	    mutations = (
+    45	        ("metric_only_selects_member", "physical_member_selected", True, "physical_member_promotion"),
+    46	        ("directed_germ_one_member", "directed_germ_member_count", 1, "directed_count"),
+    47	        ("chirality_not_unique", "members_per_chirality", 2, "per_chirality_uniqueness"),
+    48	        ("path_selects_chirality", "path_only_member_count", 1, "path_nonselection"),
+    49	        ("screen_leaves_two", "signed_transverse_screen_member_count", 2, "signed_screen_uniqueness"),
+    50	        ("same_twist_sign", "screen_twist_signs", [1, 1], "opposite_twist"),
+    51	        ("control_fiber_called_population", "lawful_query_population_selected", True, "query_population_promotion"),
+    52	        ("kernel_modified", "metric_and_kernel_changed", True, "kernel_change"),
+    53	        ("empty_assertions", "production_assertions", 0, "vacuous_production"),
+    54	    )
+    55	    records = []
+    56	    for name, key, replacement, expected in mutations:
+    57	        trial = copy.deepcopy(base)
+    58	        trial[key] = replacement
+    59	        actual = failure(trial)
+    60	        assert actual == expected, (name, actual, expected)
+    61	        records.append({"case": name, "caught": True, "expected": expected})
+    62
+    63	    for omitted in ("mass", "scale", "physical_Xmax", "protected_work", "nonspherical_deformations"):
+    64	        trial = copy.deepcopy(base)
+    65	        trial["omitted"].remove(omitted)
+    66	        actual = failure(trial)
+    67	        assert actual == "scope_export", (omitted, actual)
+    68	        records.append({"case": f"promote_{omitted}", "caught": True, "expected": "scope_export"})
+    69
+    70	    result = {
+    71	        "status": "PASS",
+    72	        "baseline_valid": True,
+    73	        "hostile_cases": len(records),
+    74	        "direct_mutations": len(records),
+    75	        "records": records,
+    76	    }
+    77	    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    78	    print(json.dumps(result, indent=2, sort_keys=True))
+    79
+    80
+    81	if __name__ == "__main__":
+    82	    main()
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Build a sealed, source-bounded G307 fresh-review intake."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	import shutil
+    10	import tempfile
+    11	from pathlib import Path
+    12
+    13
+    14	HERE = Path(__file__).resolve().parent
+    15	REPO = HERE.parent
+    16	PACKAGE_FILES = [
+    17	    "MAP.md", "PREREGISTRATION.md", "PREREGISTRATION_ANCESTRY.md",
+    18	    "PREMISE_LEDGER.tsv", "PREMISE_AUDIT_RESULT.json", "SOURCE_SCOPE.tsv",
+    19	    "SOURCE_MANIFEST.tsv", "COMPLETENESS_MAP.md",
+    20	    "derive_directed_member_reconstruction.py", "verify_directed_member_independent.py",
+    21	    "run_catch_proofs.py", "verify_package.py", "DERIVATION_RESULT.json",
+    22	    "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json", "MEMBER_CENSUS.tsv",
+    23	    "STATUS_LEDGER.tsv", "VERIFICATION_RESULT.json", "EXACT_DERIVATION.md",
+    24	    "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md", "RUN_RECORD.md",
+    25	    "COMMANDS.md", "EXTERNAL_REVIEW_REQUEST.md", "build_review_intake.py",
+    26	]
+    27	CURRENT_FILES = [
+    28	    "CURRENT_SCIENTIFIC_PREMISES.md",
+    29	    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    30	]
+    31
+    32
+    33	def digest(path: Path) -> str:
+    34	    result = hashlib.sha256()
+    35	    with path.open("rb") as handle:
+    36	        for block in iter(lambda: handle.read(1024 * 1024), b""):
+    37	            result.update(block)
+    38	    return result.hexdigest()
+    39
+    40
+    41	def main() -> None:
+    42	    target = Path(tempfile.mkdtemp(prefix="udt_g307_review_", dir="/tmp"))
+    43	    package_target = target / HERE.name
+    44	    package_target.mkdir()
+    45	    for name in PACKAGE_FILES:
+    46	        source = HERE / name
+    47	        if not source.is_file():
+    48	            raise FileNotFoundError(source)
+    49	        shutil.copy2(source, package_target / name)
+    50
+    51	    frozen = target / "frozen_sources"
+    52	    with (HERE / "SOURCE_MANIFEST.tsv").open(encoding="utf-8", newline="") as handle:
+    53	        source_rows = list(csv.DictReader(handle, delimiter="\t"))
+    54	    for row in source_rows:
+    55	        source = REPO / row["path"]
+    56	        if digest(source) != row["sha256"]:
+    57	            raise AssertionError(f"source hash drift: {row['path']}")
+    58	        destination = frozen / row["path"]
+    59	        destination.parent.mkdir(parents=True, exist_ok=True)
+    60	        shutil.copy2(source, destination)
+    61
+    62	    frozen_current = target / "frozen_current"
+    63	    frozen_current.mkdir()
+    64	    for name in CURRENT_FILES:
+    65	        source = REPO / name
+    66	        shutil.copy2(source, frozen_current / name)
+    67
+    68	    premise_audit = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
+    69	    if digest(frozen_current / "CURRENT_SCIENTIFIC_PREMISES.tsv") != premise_audit["registry_sha256"]:
+    70	        raise AssertionError("current premise registry drift since G307 audit")
+    71
+    72	    scope = {
+    73	        "schema": "UDT_G307_FRESH_REVIEW_SCOPE_V1",
+    74	        "question": (
+    75	            "audit the bounded conditional Hopf-member reconstruction from supplied directed "
+    76	            "and transverse-screen germs and the retained physical-population boundary"
+    77	        ),
+    78	        "package": HERE.name,
+    79	        "package_file_count": len(PACKAGE_FILES),
+    80	        "frozen_source_count": len(source_rows),
+    81	        "frozen_current_count": len(CURRENT_FILES),
+    82	        "allowed": [
+    83	            "read intake",
+    84	            "independently rederive the bounded theorem",
+    85	            "run registered checks in a writable ephemeral copy",
+    86	            "write review response outside intake",
+    87	        ],
+    88	        "forbidden": [
+    89	            "edit evidence files",
+    90	            "continue research",
+    91	            "access repository or protected packages",
+    92	            "use internet or unsealed observations",
+    93	            "import field equation action source matter model physical population mass law fit scale or X_max",
+    94	            "change registered question",
+    95	            "promote a supplied relation datum into a UDT-populated physical field",
+    96	        ],
+    97	    }
+    98	    scope_path = target / "REVIEW_SCOPE.json"
+    99	    scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+   100
+   101	    payloads = sorted(path for path in target.rglob("*") if path.is_file())
+   102	    manifest = target / "REVIEW_MANIFEST.tsv"
+   103	    with manifest.open("w", encoding="utf-8", newline="") as handle:
+   104	        writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+   105	        writer.writerow(["sha256", "bytes", "path"])
+   106	        for path in payloads:
+   107	            writer.writerow([digest(path), path.stat().st_size, path.relative_to(target).as_posix()])
+   108	    seal = target / "REVIEW_MANIFEST.sha256"
+   109	    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+   110	    print(json.dumps({
+   111	        "intake": str(target),
+   112	        "manifest_payloads": len(payloads),
+   113	        "total_files": len(payloads) + 2,
+   114	        "scope_sha256": digest(scope_path),
+   115	        "manifest_sha256": digest(manifest),
+   116	        "detached_seal_sha256": digest(seal),
+   117	    }, indent=2, sort_keys=True))
+   118
+   119
+   120	if __name__ == "__main__":
+   121	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	object	status	active_role	forbidden_promotion
+     2	positive_round_S3_completion	DERIVED_CONDITIONAL_G305	bounded_domain	selected_complete_UDT_history
+     3	two_Hopf_congruence_families	DERIVED_MATHEMATICAL_G306	candidate_member_arena	populated_physical_field
+     4	slice_orientation	SUPPLIED_BOTH_SIGNS_RETAINED	chirality_and_twist_sign_bookkeeping	metric_selected_parity
+     5	point_p	SUPPLIED_CONTROL	isotropy_ladder	physical_observer_population
+     6	ordered_unit_tangent_v	SUPPLIED_REGULAR_GERM	directed_route_reconstruction	lawful_populated_query
+     7	path_label_and_frame_carry	DERIVED_CONDITIONAL_AFTER_ROUTE_SUPPLY	one_dimensional_relation_data	physical_route_population
+     8	oriented_transverse_screen_first_jet	SUPPLIED_TEST_DATUM	chirality_discriminator	metric_owned_field_derivative
+     9	G300_celestial_control_fiber	DERIVED_CONDITIONAL	all_direction_control_arena	lawful_query_family
+    10	lawful_query_route_population	OPEN	ownership_boundary	silently_selected_input
+    11	metric_and_reciprocal_kernel	FIXED_UNCHANGED	upstream_theory	modified_by_classification
+    12	action_source_mass_scale_Xmax_observation	OMITTED	outside_scope	implicit_mechanism_or_anchor
+    13	nonspherical_quotient_singular_topology_change	OMITTED	outside_scope	universal_export
+
+exec
+/bin/bash -lc "nl -ba /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md | sed -n '90,160p'" in /return
+ succeeded in 0ms:
+    90
+    91	the standard Hopf component map. With the frozen G305 orientation, the constant component map has
+    92	charge zero while the transformed map has charge \(-1\). Thus a basepoint-fixed allowed local
+    93	frame change alters the raw component integer:
+    94
+    95	\[
+    96	\boxed{H_{\rm component}:0\longrightarrow -1.}
+    97	\]
+    98
+    99	This rederives G289's gauge obstruction on G305's actual compact domain. A component map into a
+   100	fixed coordinate \(S^2\) is not by itself a physical invariant.
+   101
+   102	## 5. The metric-defined geometric family
+   103
+   104	The negative component result does not exhaust the geometry. Embed the round sphere as
+   105	\(|x|=a\) in oriented Euclidean \(\mathbb R^4\). Let \(J\) be an orthogonal complex structure:
+   106
+   107	\[
+   108	J^T=-J,
+   109	\qquad
+   110	J^2=-I.
+   111	\]
+   112
+   113	Define the geometric vector field
+   114
+   115	\[
+   116	V_J(x)=\frac{Jx}{a}.
+   117	\]
+   118
+   119	Skewness and orthogonality give \(x\cdot V_J=0\) and \(|V_J|=1\). For tangent \(Y\),
+   120	tangential projection of the ambient derivative gives
+   121
+   122	\[
+   123	\nabla_YV_J
+   124	=\frac{JY}{a}+\frac{x\,\langle V_J,Y\rangle}{a^2}.
+   125	\]
+   126
+   127	Consequently:
+   128
+   129	- \(\nabla_{V_J}V_J=0\), so the fibers are geodesics;
+   130	- the Killing equation vanishes because \(J\) is skew;
+   131	- on the screen orthogonal to \(V_J\), \(\nabla V_J\) is a pure quarter-turn divided by \(a\), so
+   132	  expansion and shear vanish and only twist remains;
+   133	- the integral curves are
+   134
+   135	  \[
+   136	  x(s)=\cos(s/a)x(0)+\sin(s/a)Jx(0),
+   137	  \]
+   138
+   139	  closed great circles of period \(2\pi a\).
+   140
+   141	These are geometric vector fields, not component directions. Their defining properties use only
+   142	the metric, orientation-relative Hodge structure, and the candidate field itself.
+   143
+   144	## 6. The family census is complete
+   145
+   146	Every Killing field on a round sphere is generated by some \(A\in\mathfrak{so}(4)\),
+   147	\(V(x)=Ax\). If it has unit norm at every point of the radius-\(a\) sphere, then
+   148
+   149	\[
+   150	x^T A^T A x=1
+   151	\]
+   152
+   153	on \(|x|=a\). Homogeneity and polarization force
+   154
+   155	\[
+   156	A^T A=a^{-2}I.
+   157	\]
+   158
+   159	Therefore \(J=aA\) is an orthogonal complex structure. Conversely every such \(J\) gives the field
+   160	in Section 5. Thus the constant-length unit Killing family is exactly the
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	# G307 registered commands
+     2
+     3	Run from this package directory with no third-party package import:
+     4
+     5	```bash
+     6	python3 -S derive_directed_member_reconstruction.py
+     7	python3 -S verify_directed_member_independent.py
+     8	python3 -S run_catch_proofs.py
+     9	python3 -S verify_package.py
+    10	python3 -S build_review_intake.py
+    11	```
+    12
+    13	Run the current premise audit from the repository root:
+    14
+    15	```bash
+    16	python3 verify_current_scientific_premises.py
+    17	```
+    18
+    19	The first three commands write only their registered JSON/TSV outcome files inside this package.
+    20	`verify_package.py` and the premise verifier are no-write checks. The intake builder writes only a
+    21	new sealed directory under `/tmp`.
+
+exec
+/bin/bash -lc "nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	object	status	result	remaining_open
+     2	positive_round_S3_completion	DERIVED_CONDITIONAL_G305	bounded_domain_supplied	physical_history_selection
+     3	two_chiral_Hopf_families	DERIVED_MATHEMATICAL_G306	complete_metric_defined_candidate_arena	physical_member_population
+     4	metric_only_member_selection	DERIVED_NEGATIVE_G306	no_nonzero_isotropy_fixed_member	route_conditioned_reconstruction
+     5	supplied_point_and_ordered_unit_tangent	DERIVED_CONDITIONAL_G307	exactly_one_member_per_chirality	chirality
+     6	complete_one_dimensional_route_and_metric_carry	DERIVED_CONDITIONAL_G307	two_members_induce_same_route	transverse_sign
+     7	supplied_oriented_signed_transverse_screen_first_jet	DERIVED_CONDITIONAL_G307	exactly_one_member_reconstructed	physical_ownership_of_datum
+     8	lawful_query_route_screen_population	OPEN	no_active_premise_selects_population	selection_or_dynamical_bridge
+     9	metric_and_reciprocal_kernel	FIXED_UNCHANGED	no_formula_modified	none_from_G307
+    10	action_source_mass_scale_observation_Xmax	OMITTED	no_import_or_promotion	outside_scope
+    11	nonspherical_quotient_singular_topology_change	OPEN	unexamined	future_extension
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_SCOPE.tsv" in /return
+ succeeded in 0ms:
+path	role
+CURRENT_SCIENTIFIC_PREMISES.tsv	exact_current_ownership_authority
+LIVE.md	current_gate_and_regression_boundary
+udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md	complete_relation_and_projection_boundary
+udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md	complete_carry_and_query_domain_boundary
+udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md	celestial_control_versus_lawful_population_boundary
+udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	bounded_round_domain
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md	two_family_and_member_nonselection_theorem
+udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/DERIVATION_RESULT.json	frozen_upstream_machine_result
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/RUN_RECORD.md" in /return
+ succeeded in 0ms:
+# G307 run record
+
+Date: 2026-08-30
+
+## Preregistration
+
+- pushed commit: `1bdfe7d27b01954bea270d9540acd2de27570508`
+- parent: `9385ea2f98be8042cd355a651ae0bc3357b7ff62`
+- no executable or outcome artifact existed in that commit
+
+## Production
+
+Command:
+
+```bash
+python3 -S derive_directed_member_reconstruction.py
+```
+
+Result: PASS; candidate 2; 36 exact rational cases; 1,806 assertions; one member per chirality
+after `(p,v)`; two members after route data; one after signed transverse-screen first jet.
+
+## Independent replay
+
+Command:
+
+```bash
+python3 -S verify_directed_member_independent.py
+```
+
+Result: PASS; 1,000 random oriented frames; 17,000 checks; maximum error
+`4.1389114358025836e-13`; no production import.
+
+## Hostile controls
+
+Command:
+
+```bash
+python3 -S run_catch_proofs.py
+```
+
+Result: PASS; 14 of 14 direct mutations caught.
+
+## Premise audit
+
+Command:
+
+```bash
+python3 verify_current_scientific_premises.py
+```
+
+Result: PASS.
+
+## Repository regression
+
+Command:
+
+```bash
+python3 -m pytest -q
+```
+
+Result: PASS; `199 passed, 1 xfailed in 136.39s`. The expected xfail is the registered matter-lane
+habit-pin sentinel and is unrelated to G307.
+
+External adversarial review remains pending at this record stage.
+
+Scientific re-derivation is complete and the registered replay has been exercised. One registered command fails in the sealed layout; the scientific theorem itself appears to hold within the stated bounded scope.
+  ✓ Read G307 derivation, evidence, and dependency ownership records to identify the exact claims under review
+  ✓ Independently re-derive the quaternion and route/screen statements, including orientation and radius dependence
+  ✓ Inspect the registered check scripts for independence, branch coverage, and assertion quality
+  ✓ Run the registered checks from an ephemeral copy under /work and record outcomes
+  → Synthesize findings with severity, verdict token, scientific vs packaging defects, and full command log
+codex
+G307_REPAIRABLE_DEFECTS
+
+**Findings**
+- `Replay/packaging defect:` one registered command is broken in the sealed layout. [COMMANDS.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md:6) registers `python3 -S build_review_intake.py`, but [build_review_intake.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py:55) and [build_review_intake.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py:65) resolve prerequisite files as `REPO / row["path"]` and `REPO / name`. In the sealed intake those inputs live under `frozen_sources/` and `frozen_current/`, so the registered replay fails with `FileNotFoundError` before sealing logic completes. This is repairable and non-scientific, but it prevents a clean all-commands replay from the review bundle as delivered.
+- `Replay weakness:` the “independent” verifier is genuinely import-independent, but it is narrower than the load-bearing theorem. [verify_directed_member_independent.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py:94) directly constructs the two `route ± screen` complex operators from an already oriented frame and then checks their properties at [verify_directed_member_independent.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py:131). It does not independently reconstruct `u_L=v\bar p`, `u_R=\bar p v`, or independently prove uniqueness from `(p,v)` alone. That is a replay-quality caveat, not a scientific refutation.
+- `Replay weakness:` the hostile-control script mutates reported result fields, not the derivation code or premises. [run_catch_proofs.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py:42) reads `DERIVATION_RESULT.json`, and [run_catch_proofs.py](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py:56) perturbs JSON values only. So the 14 catches are semantic/report guards, not mutation testing of the mathematics.
+- `Scientific review:` no scientific defect found in the bounded theorem. The reconstruction formulas and uniqueness claim are correct for every regular ordered `(p,v)`: if `u_L p=v` then `u_L=v\bar p`, and if `p u_R=v` then `u_R=\bar p v`; both are pure imaginary unit quaternions because `Re(v\bar p)=<v,p>=0` and norms multiply. The two survivors agree on `span{p,v}`, hence on the full great-circle `q(θ)=cosθ p+sinθ v`, exactly as stated in [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:43), [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:67), and [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:81).
+- `Scientific review:` I do not find the claimed route/screen conflation. The package keeps “complete one-dimensional route and metric carry” separate from “oriented signed transverse-screen first jet” in both the derivation and ledgers: [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:84), [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:100), [PREMISE_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv:7), [PREMISE_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv:8), [STATUS_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv:6), [STATUS_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv:7). Parallel transport of a supplied screen frame along the route is longitudinal metric carry; the chirality discriminator is the off-route transverse derivative `∇_w V = ± z/a`, which is extra data.
+- `Scientific review:` the chirality sign is orientation-relative, not absolute. The binary datum is meaningful only after the slice orientation and the oriented screen are supplied; reversing either swaps the labels/sign. The package types that correctly at [PREMISE_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv:4) and [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:89).
+- `Scientific review:` the radius dependence is exactly `1/a` for every `a>0`. From the upstream G306 field formula [EXACT_DERIVATION.md](/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:116) and covariant-derivative formula [EXACT_DERIVATION.md](/intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md:123), a transverse screen vector satisfies `∇_w V = Jw/a = ± z/a`. Since `a>0`, only the magnitude changes with radius; the sign census is stable on all positive radii.
+- `Scientific review:` the G298/G299/G300 ownership boundary is preserved. The frozen audits keep lawful query family and physical population open, and G307 repeats that boundary rather than promoting conditional reconstruction into a populated route, screen, field, dynamics, or history: [G298 audit](/intake/frozen_sources/udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md:24), [G299 audit](/intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md:14), [G300 audit](/intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md:14), [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:123).
+- `Scientific review:` no metric term, reciprocal-kernel term, action, source, matter model, mass law, scale, observation, or physical `X_max` entered. That omission is explicit in [EXACT_DERIVATION.md](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md:14), [PREMISE_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv:11), and [PREMISE_LEDGER.tsv](/intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv:12).
+
+**Landing**
+Strongest defensible bounded landing remains:
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+That scientific landing is supported. The downgrade from full acceptance is due to replay/packaging defects, not because the bounded theorem was refuted. In `/work`, `derive_directed_member_reconstruction.py`, `verify_directed_member_independent.py`, `run_catch_proofs.py`, and `verify_package.py` all passed; the regenerated `DERIVATION_RESULT.json`, `INDEPENDENT_VERIFICATION.json`, `CATCH_PROOF_RESULT.json`, and `MEMBER_CENSUS.tsv` matched the sealed copies byte-for-byte. I did not run `python3 verify_current_scientific_premises.py` because the sealed intake does not contain that script and your scope barred inspection outside `/intake`; I relied on the sealed `PREMISE_AUDIT_RESULT.json` plus the frozen current registry instead.
+
+**Commands**
+```bash
+pwd
+rg --files /intake
+find /intake -maxdepth 2 -type d | sort
+find /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30 -maxdepth 3 -type f | sort
+find /intake/frozen_current -maxdepth 3 -type f | sort
+find /intake/frozen_sources -maxdepth 3 -type f | sort
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EVIDENCE_GATES.md
+sed -n '1,220p' /intake/frozen_current/CURRENT_SCIENTIFIC_PREMISES.md
+sed -n '1,220p' /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md
+sed -n '1,220p' /intake/frozen_sources/udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md
+sed -n '1,220p' /intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/AUDIT_REPORT.md
+sed -n '1,220p' /intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md
+sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md
+sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_package.py
+sed -n '1,320p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/derive_directed_member_reconstruction.py
+sed -n '1,320p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py
+sed -n '1,340p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py
+sed -n '1,260p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/VERIFICATION_RESULT.json
+find /intake -maxdepth 2 -name 'verify_current_scientific_premises.py' -o -name 'verify_current_scientific_premises.py'
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MAP.md
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMPLETENESS_MAP.md
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_MANIFEST.tsv
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_AUDIT_RESULT.json
+grep -RIn "complete one-dimensional route and metric frame carry\|transverse\|screen first jet\|parallel transport\|frame carry" /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30 /intake/frozen_sources/udt_g299_complete_relation_kernel_domain_ownership_2026-08-29 /intake/frozen_sources/udt_g300_metric_celestial_query_bundle_descent_2026-08-29
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/LAY_REPORT.md
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXTERNAL_REVIEW_REQUEST.md
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv
+mkdir -p /work/g307_review && cp -a /intake/. /work/g307_review/
+python3 -S derive_directed_member_reconstruction.py
+python3 -S verify_directed_member_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+python3 -S build_review_intake.py
+sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/DERIVATION_RESULT.json
+sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json /work/g307_review/udt_g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/CATCH_PROOF_RESULT.json
+sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/MEMBER_CENSUS.tsv
+sha256sum /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json /work/g307_review/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/INDEPENDENT_VERIFICATION.json
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/EXACT_DERIVATION.md | sed -n '1,180p'
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/build_review_intake.py | sed -n '1,180p'
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/verify_directed_member_independent.py | sed -n '1,220p'
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/run_catch_proofs.py | sed -n '1,220p'
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/PREMISE_LEDGER.tsv | sed -n '1,80p'
+nl -ba /intake/frozen_sources/udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/EXACT_DERIVATION.md | sed -n '90,160p'
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/COMMANDS.md | sed -n '1,80p'
+nl -ba /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/STATUS_LEDGER.tsv | sed -n '1,80p'
+sed -n '1,240p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/SOURCE_SCOPE.tsv
+sed -n '1,220p' /intake/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/RUN_RECORD.md
+```
+tokens used
+88,982
+
+Script done on 2026-08-31 08:28:35-04:00 [COMMAND_EXIT_CODE="0"]
