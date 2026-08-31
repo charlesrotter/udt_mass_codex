@@ -22,18 +22,22 @@
 
 ## Reconstruction hierarchy
 
+Guard tokens:
+G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198;
+G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
+G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
+G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
+G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
+G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
+
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
 | Complete-pair evaluator | `VERIFIED_WITH_CAVEATS` | Pullback |
-| G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198 | accepted/caveats | Reconstruction and chosen controls; germ/history open |
-| G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210 | verified/caveats | Direction, quiet, completion, channels |
-| G211/G212/G213/G214/G215/G216/G217/G218/G219 | accepted/caveats | Rank, clock, correspondence; flow open |
-| G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231 | external/exact | Null/screen/curvature/jets; values open |
-| G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248 | external/repaired | Closure/observational/sky controls; nonselective |
-| G249/G250/G251/G252/G253/G254/G255/G256 | external/repaired | One scale; no residual or value propagation |
-| G257/G258/G259/G260/G261/G262/G263/G264 | external/repaired | GR/angular/W4/sign controls; law open |
-| G265/G266/G267/G268/G269/G270 | external/repaired | Mutual state; `M_PT<=sech(delta)`; screen retained |
-| G271/G272/G273/G274/G275/G276 | external/repaired | Projective state/carry; one conditional scale; history open |
+| G129--G198 | accepted/caveats | Reconstruction, pair pullback, and controls; germ/history open |
+| G199--G235 | verified/external | Direction, completion, rank, clock, null/screen geometry; values open |
+| G236--G256 | external/repaired | Observational/query/scale controls; no residual or propagation |
+| G257--G276 | external/repaired | GR/angular/sign and projective-state carry; law/history open |
 | G277 observational anchor ownership | external/repair accepted | Conditional Cepheid/optical route |
 | G278 Cepheid/DES holdout | external/repair accepted | Resolution-sensitive lead |
 | G279 native-interface provenance | external/repair | Native core intact |
@@ -62,7 +66,7 @@
 | G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
 | G307 directed-germ member reconstruction | external/repairs accepted | One member per chirality from supplied germ; signed transverse jet conditionally selects one |
 | G308 global chirality coherence | external/R3 accepted | One coherent global chirality sector; mirror parity leaves physical sign open |
-| G309 strengthened-chain history audit | internal; external pending | Hopf-compatible time-profile counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
+| G309 strengthened-chain history audit | external accepted/caveats; repair follow-up pending | Counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -80,12 +84,10 @@ None selects completion/`X_max`.
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 ## Geometry, query, and causality
 
-- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
-  G282--G293 separate tide, sign, center jets, topology, local flux, and history without selecting
-  their values. G294 types “foundational infinite c” as nonpropagating relation, not signal speed;
-  instant enforcement can signal. W6 adopts only the non-signalling type. G295's `AU=RA` controls
-  bounded propagation but selects no formula or history. G296 finds the complete metric minimal and
-  curvature the first local natural nonidentity order, not a law.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class. G282--G293
+  separate tide, sign, center, topology, flux, and history without selecting values. G294/W6 makes
+  co-presence non-signalling; G295 controls bounded propagation without a formula. G296 finds
+  curvature as the first local natural nonidentity order—not a law.
   G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
   leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
   G302 selects neither. G303 gives each fixed sector the same local causal principal system; the

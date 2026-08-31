@@ -14,12 +14,12 @@ h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
 phi_pair=delta_AB
 ```
 
-The downstream pair ratio `c_eff^(pair)/c_E=exp(-2 delta_AB)` is `CONDITIONAL`, not automatically a
-signal speed. The projective readout `chi_AB=tanh(delta_AB)` is uniquely derived only in G273's
-normalized scale-free linear-fractional class. W5 is Charles's provisional
+The pair ratio `c_eff^(pair)/c_E=exp(-2 delta_AB)` is `CONDITIONAL`, not automatically signal speed.
+The projective readout `chi_AB=tanh(delta_AB)` is derived only in G273's
+normalized scale-free linear-fractional class. W5 is provisional
 `WORKING_FOUNDATIONAL_CLARIFICATION`: physical normalized pair position is the complete
 screen-retaining projective relation state. It is not canon and changes neither metric nor kernel.
-W6 is Charles's provisional `WORKING_FOUNDATIONAL_CLARIFICATION`: co-presence may denote
+W6 is provisional `WORKING_FOUNDATIONAL_CLARIFICATION`: co-presence may denote
 non-propagating relational membership, while every controllable observable response remains inside
 the completed metric's causal structure. It is not canon, signal speed, global now, or a history law.
 
@@ -65,29 +65,24 @@ F1--F4, W1, W3--W6, and Hopf kinematics do not reject it. The `CONDITIONAL` G301
 residual does reject it and, on the positive standard round branch, forces
 `a(T)=X cosh((T-T0)/X)`. Thus that conditional branch has a fixed history shape and only one
 curvature scale, not a free function. Ownership of the G301 residual and calibration of `X` remain
-`OPEN`. G309 is internally verified; fresh external review is pending.
+`OPEN`. External G309 review found no defect; its dependency-free replay repair awaits repair-only
+follow-up.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
-Route tokens: G190--G198 are formula-level regression controls; G197 excludes P1, G116/G189, fits,
-`X_max`, scaffolds, and protected construction inputs. Supplied-to-reconstruction route:
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
+Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
+G282--G309 history/dynamics. The conditional G301 residual fixes the
+positive round history shape up to one scale; ownership, population, magnitude, and dynamics remain
+open.
+Guards:
+G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276.
-
-Observational/history route:
-G277/G278/G279/G280/G281; G282/G283/G284/G285/G286/G287; G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309.
-The first group retains declared optical imports and no native SNe prediction; the later groups
-locate the open history propagation and narrow one candidate residual lane without selecting it.
-G304 distinguishes only the positive sign in its bounded static branch. G305 supplies its standard
-positive global `S3` domain; G306--G308 narrow its intrinsic Hopf geometry from two families to one
-globally coherent but parity-degenerate supplied member. G309 proves those kinematics remain blind
-to the time profile, while the conditional G301 residual fixes the positive round history shape up
-to one scale. Physical law ownership, population, magnitude, and dynamics remain open.
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -95,13 +90,10 @@ derived numerical scale.
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-22_pre_cleanup/`, and
-`archive/startup_surface_2026-08-26_pre_g270/`.
+`archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`.
 
-Registry integration note: the exact 289-row registry currently ends at G306. G307--G309 are newer
-banked package evidence described above and must be read from their controlling reports until a
-separately verified registry migration adds their rows. This note does not promote G309 beyond its
-internal-review grade.
+The exact 289-row registry ends at G306. Read G307--G309 from their controlling reports pending a
+verified registry migration; G309 remains externally accepted with caveats.
 
 ### Observational boundary
 
@@ -120,11 +112,9 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G307/G308 close the bounded member/coherence question. G309 then shows that the remaining history
-gap is not the shape of the positive round solution *after* the G301 trace-free equation is adopted;
-that shape is fixed up to one scale. The next gate is fresh external adversarial review of G309,
-followed—only if it survives—by an explicit ownership decision: derive more support for the G301
-trace-free residual or provisionally adopt it as the candidate parent law before any scale
-calibration. Do not infer the equation from Hopf consilience, fit observations before the law class
-is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
+G309 passed fresh scientific review with replay caveats. First close its dependency-free repair-only
+follow-up. Then make an explicit ownership decision: derive more support for the G301 trace-free
+residual or provisionally adopt it as the candidate parent law before scale calibration. Do not
+infer the equation from Hopf consilience, fit before the law class is fixed, or import an action,
+source, mass law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

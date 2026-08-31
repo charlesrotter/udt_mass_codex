@@ -33,23 +33,26 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
 
 ## Dependency spine
 
-- G129--G165 are reconstruction/scaffold controls; G166--G184 derive pair pullback/equivalence;
-  G185--G189 are historical controls; G190--G198 are formula-level regression controls. G197/G198
-  protect provenance/germ boundaries; P1, G116/G189, fitted kernels, Lambda-CDM distance, `X_max`,
-  and protected work are absent from the active route.
-- G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210 cover direction, regimes,
-  completion, and time-live robustness. G211/G212/G213/G214 reconstruct without selecting values.
-- G215/G216/G217/G218/G219/G220/G221/G222/G223/G224 close supplied clock/null/screen carry;
-  G225 is a `STANDARD_GEOMETRIC_EVALUATOR`; G226/G227/G228/G229/G230/G231/G232/G233/G234/G235
-  add geometry and reconstruction without propagation.
-- G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248 type conditional observations,
-  redshift, sky, cone, and measure. G249/G250/G251/G252/G253/G254/G255/G256 isolate scale and the
-  missing law. G257/G258/G259/G260/G261/G262/G263/G264 retain angular/GR limits and sign boundaries.
-- G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276 derive mutual/projective state,
-  full carry, and one conditional scale. G277/G278/G279/G280/G281 preserve declared optical imports,
-  native provenance, direct redshift, Jacobi area, and no complete native SNe prediction.
-- G282/G283/G284/G285/G286/G287 locate neighboring tide, complete separation, nonunique propagation,
-  and pair-arrow/profile-sign typing; no kernel formula changed.
+Guard tokens:
+G129--G165/G166--G184/G185--G189/G190--G198;
+G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
+G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
+G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
+G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
+
+- G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
+  provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
+  are absent from the active route.
+- G199--G235 establish direction, regimes, completion, robustness, and supplied clock/null/screen
+  reconstruction without selecting values or propagation. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`.
+- G236--G256 type conditional observations, redshift, sky, cone, measure, scale, and the missing-law
+  boundary. G257--G276 retain GR/angular/sign limits and derive projective state, carry, and one
+  conditional scale.
+- G277--G281 preserve declared optical imports, direct redshift, native Jacobi evaluation, and no
+  complete native SNe prediction. G282--G287 isolate tide, separation, propagation, and sign typing;
+  no kernel formula changed.
 - G288 derives zero-tide `c2` and independent angular/Weyl `c4`. G289/G290/G291/G292 keep Hopf topology
   conditional and derive supplied holonomy/Euler flux without selecting local flux or history.
 - G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied parameter; `k` and local flux remain
@@ -84,19 +87,17 @@ update, response map, history, distance, scale, or `X_max` and changes neither m
   every registered Hopf kinematic while changing curvature. The founded/working chain therefore
   remains compatibility-only. The conditional G301 trace-free residual rejects the deformation
   and fixes the positive standard branch to `a=X cosh((T-T0)/X)`, leaving one scale rather than a
-  free history function. The residual's UDT ownership and the scale remain open.
+  free history function. External review found no scientific defect; dependency-free replay repair
+  follow-up is pending. The residual's UDT ownership and the scale remain open.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, W5 position typing, one-scale
-boundary, and G298's directed-leg relation state with its projections.
-It does not own populated germs/paths, a unique physical projection to one rank-two germ, joint
-depth/Jacobi history, operational distance, or numerical `X_max`. G280--G287 leave area, neighboring tide, and
-future propagation open. G288--G293 add center and screen/topology structure without a continuous
-history law. W6 adopts G294's non-signalling type only; no global present or response map follows.
-G295 regrades the target from one uniquely selected universe to a nonidentity well-posed solution
-family plus lawful data. The nonlinear residual, coefficients, screen propagation, data, scale,
-mass, population, and our realized history remain open. This is not a no-go against a native law.
+boundary, and G298 directed-leg state. It does not own populated germs/paths, one physical
+projection, joint depth/Jacobi history, operational distance, or numerical `X_max`. G288--G295 add
+center, topology, non-signalling type, and a well-posed-family target—not a continuous history law.
+Residual, data, scale, mass, population, and realized history remain open; this is no native-law
+no-go.
 G296 removes the need to posit an extra primitive geometric state and locates the first local native
 differential order, but it selects no residual formula or data. G297/G298 construct the earlier
 causal bridge, G299 proves complete carry is required, and G300 shows that even the exact all-sky
@@ -118,8 +119,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Freshly adversarially review G309. If accepted, make the next premise move explicit: either continue
-the search for a founding derivation of the G301 trace-free residual or provisionally adopt that
-candidate law, after which one independently valid observation may calibrate its remaining scale.
-Do not use Hopf consilience as an ownership proof or import an action, source, mass, fit, physical
-`X_max`, protected work, or an unrestricted realized history.
+Close G309's dependency-free repair follow-up. Then explicitly either continue seeking a founding
+derivation of the G301 trace-free residual or provisionally adopt it as candidate law; only then may
+an independent observation calibrate its scale. Do not turn Hopf consilience into ownership proof or
+import an action, source, mass, fit, physical `X_max`, protected work, or realized history.
