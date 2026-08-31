@@ -1,0 +1,14 @@
+object	status	note
+G305 positive standard completion	DERIVED_CONDITIONAL	bounded connected R times round S3 arena
+G307 left member global extension	DERIVED_CONDITIONAL	smooth nowhere-zero complete spatial Hopf field
+G307 right member global extension	DERIVED_CONDITIONAL	smooth nowhere-zero complete spatial Hopf field
+normalized time carry	DERIVED_CONDITIONAL	parallel along G305 time for supplied field
+spatial Hopf fibers	DERIVED_CONDITIONAL	geodesic within each round slice
+four-dimensional fiber geodesic claim	NOT_DERIVED	fails where a prime is nonzero
+connected chirality switching	EXCLUDED_ON_REGULAR_STRATUM	requires leaving one disconnected chiral component
+full O4 mirror equivalence	DERIVED_CONDITIONAL	orientation-reversing isometry fixes route plane and exchanges sectors
+SO4 chirality exchange	EXCLUDED	Pfaffian sign preserved
+pair reversal chirality switch	EXCLUDED	J to minus J retains Pfaffian sign
+physical member or chirality population	OPEN	coherence tests supplied assignments but supplies none
+metric and reciprocal kernel	UNCHANGED	no term added or removed
+action dynamics stability matter mass scale observation history Xmax	OPEN	excluded from G308

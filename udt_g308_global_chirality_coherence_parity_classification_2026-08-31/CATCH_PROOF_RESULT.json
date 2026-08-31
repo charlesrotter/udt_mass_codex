@@ -1,0 +1,119 @@
+{
+  "baseline_valid": true,
+  "direct_mathematical_mutations": 8,
+  "hostile_cases": 22,
+  "records": [
+    {
+      "case": "false_one_sided_global_failure",
+      "caught": true,
+      "expected": "both_global_fields"
+    },
+    {
+      "case": "orientation_preserving_chirality_exchange",
+      "caught": true,
+      "expected": "SO4_chirality_preservation"
+    },
+    {
+      "case": "smooth_local_chirality_switch",
+      "caught": true,
+      "expected": "switch_leaves_regular_complex_stratum"
+    },
+    {
+      "case": "pair_reversal_changes_chirality",
+      "caught": true,
+      "expected": "reversal_preserves_chirality"
+    },
+    {
+      "case": "screen_preserving_parity_exchange",
+      "caught": true,
+      "expected": "exchange_reverses_transverse_orientation"
+    },
+    {
+      "case": "causal_cone_difference",
+      "caught": true,
+      "expected": "metric_and_causal_form_preserved"
+    },
+    {
+      "case": "spatial_Hopf_fiber_called_spacetime_geodesic",
+      "caught": true,
+      "expected": "nonzero_expanding_warp_time_acceleration"
+    },
+    {
+      "case": "full_O4_fails_to_exchange",
+      "caught": true,
+      "expected": "orientation_reversing_exchange"
+    },
+    {
+      "case": "kernel_modified",
+      "caught": true,
+      "expected": "kernel_change"
+    },
+    {
+      "case": "causal_cone_changed",
+      "caught": true,
+      "expected": "causal_change"
+    },
+    {
+      "case": "one_global_field_fails",
+      "caught": true,
+      "expected": "global_field_failure"
+    },
+    {
+      "case": "SO4_selects_exchange",
+      "caught": true,
+      "expected": "SO4_false_exchange"
+    },
+    {
+      "case": "pair_reversal_switches_sector",
+      "caught": true,
+      "expected": "reversal_mistyped"
+    },
+    {
+      "case": "local_chirality_switch_allowed",
+      "caught": true,
+      "expected": "switch_mistyped"
+    },
+    {
+      "case": "spatial_fibers_called_spacetime_geodesics",
+      "caught": true,
+      "expected": "spacetime_geodesic_overclaim"
+    },
+    {
+      "case": "coherence_called_physical_population",
+      "caught": true,
+      "expected": "population_promotion"
+    },
+    {
+      "case": "promote_action",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_dynamics",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_mass",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_scale_selection",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_physical_Xmax",
+      "caught": true,
+      "expected": "scope_export"
+    },
+    {
+      "case": "promote_protected_work",
+      "caught": true,
+      "expected": "scope_export"
+    }
+  ],
+  "semantic_result_mutations": 14,
+  "status": "PASS"
+}

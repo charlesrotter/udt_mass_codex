@@ -1,0 +1,12 @@
+{
+  "direct_mathematical_catches": 8,
+  "hostile_catches": 22,
+  "independent_checks": 79200,
+  "landing": "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN",
+  "metric_and_kernel_changed": false,
+  "premise_audit": "PASS",
+  "production_assertions": 11526,
+  "repository_regression": "PASS__199_PASSED__1_EXPECTED_XFAIL__136_74_SECONDS",
+  "semantic_catches": 14,
+  "status": "INTERNALLY_DERIVED_WITH_CAVEATS"
+}

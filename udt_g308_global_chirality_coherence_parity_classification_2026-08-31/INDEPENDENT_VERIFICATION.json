@@ -1,0 +1,16 @@
+{
+  "both_global_fields_verified": true,
+  "causal_quadratic_form_preserved": true,
+  "connected_switch_degeneracy_verified": true,
+  "det_minus_one_exchange_verified": true,
+  "det_plus_one_chirality_preservation_verified": true,
+  "global_points_per_case": 4,
+  "implementation": "random_oriented_frame_outer_product_and_pfaffian_no_production_import",
+  "imports_production_code": false,
+  "independent_checks": 79200,
+  "maximum_error": 2.020605904817785e-14,
+  "pair_reversal_chirality_preservation_verified": true,
+  "random_seed": 3080831,
+  "sample_cases": 1200,
+  "status": "PASS"
+}
