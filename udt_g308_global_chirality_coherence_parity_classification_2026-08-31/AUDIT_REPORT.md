@@ -53,5 +53,11 @@ R1 now resolves manifest sources uniquely in repository or sealed `frozen_source
 rejecting missing and ambiguous layouts. R2 adds 121,600 method-distinct Hodge/group-orbit checks
 that do not import production or use its outer-product candidate construction. R3 retains the
 original 79,200 checks but correctly grades them as a constructive randomized cross-check. R4
-adds explicit portability gates. All repairs pass internally without changing the landing, metric,
-kernel, or physical-population boundary; repair-only external follow-up remains pending.
+adds explicit portability gates.
+
+The first repair-only follow-up confirmed R1, R2, R4, all sealed replays, byte stability, and no
+scientific regression, but returned `G308_REPAIRS_INCOMPLETE` because one stale run-record heading
+still called the 79,200-check calculation an “Independent replay.” That exact R3 wording residue is
+now removed under preregistration `71acf64f`; completion-only external follow-up remains pending.
+The Hodge verifier tests geometry, while physical-population nonselection remains separately
+audited rather than asserted by a numerical flag.

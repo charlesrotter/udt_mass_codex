@@ -14,3 +14,15 @@ At that point:
 
 This file and `REPAIR_PREREGISTRATION.md` are the outcome-blind repair contract. Their parent is
 `56e0d75e`; the bounded scientific landing remains unchanged unless a repair falsifies it.
+
+## R3 completion ancestry
+
+The first repair-only response and transcript were banked at `71acf64f` together with
+`R3_COMPLETION_PREREGISTRATION.md`, before the stale run-record heading was changed. That response
+confirmed R1, R2, R4, all sealed replays, byte stability, and unchanged science, but returned
+`G308_REPAIRS_INCOMPLETE` solely because the old 79,200-check calculation still appeared under an
+“Independent replay” heading.
+
+The bounded completion may change only that evidence language and make the already-established
+geometry/ownership division explicit. It may not alter any mathematical outcome or scientific
+landing.

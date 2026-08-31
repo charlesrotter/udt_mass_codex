@@ -26,7 +26,10 @@ PACKAGE_FILES = [
     "REPAIR_PREREGISTRATION.md", "REPAIR_ANCESTRY.md", "REPAIR_REPORT.md",
     "verify_chirality_hodge_independent.py", "HODGE_INDEPENDENT_VERIFICATION.json",
     "verify_repair_portability.py", "PORTABILITY_VERIFICATION_RESULT.json",
-    "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md", "build_review_intake.py",
+    "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md", "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt", "R3_COMPLETION_PREREGISTRATION.md",
+    "R3_COMPLETION_RESULT.json", "R3_COMPLETION_FOLLOWUP_REQUEST.md",
+    "build_review_intake.py",
 ]
 CURRENT_FILES = [
     "CURRENT_SCIENTIFIC_PREMISES.md",
@@ -96,10 +99,10 @@ def main() -> None:
         raise AssertionError("current premise registry drift since G308 audit")
 
     scope = {
-        "schema": "UDT_G308_REPAIR_FOLLOWUP_SCOPE_V1",
+        "schema": "UDT_G308_R3_COMPLETION_FOLLOWUP_SCOPE_V1",
         "question": (
-            "verify only preregistered G308 repairs R1 through R4 and retention of the unchanged "
-            "bounded global coherence parity and chirality landing"
+            "verify only the preregistered G308 R3 evidence-language completion and retention of "
+            "the unchanged bounded global coherence parity and chirality landing"
         ),
         "package": HERE.name,
         "package_file_count": len(PACKAGE_FILES),
@@ -107,7 +110,10 @@ def main() -> None:
         "frozen_current_count": len(CURRENT_FILES),
         "allowed": [
             "read intake",
-            "verify preregistered repairs R1 through R4",
+            "verify the preregistered R3 evidence-language completion",
+            "confirm the original 79200-check calculation is typed only as a constructive randomized cross-check",
+            "confirm the Hodge group-orbit calculation carries the method-distinct independent gate",
+            "confirm geometry verification remains distinct from physical-population ownership auditing",
             "confirm the bounded scientific landing is unchanged",
             "run registered checks in a writable ephemeral copy",
             "write review response outside intake",
@@ -119,7 +125,7 @@ def main() -> None:
             "use internet or unsealed observations",
             "import field equation action source matter model physical population mass law fit scale or X_max",
             "change the registered scientific question",
-            "continue beyond preregistered repairs R1 through R4",
+            "continue beyond the preregistered R3 evidence-language completion",
             "promote metric coherence or mirror equivalence into physical population of a chirality",
         ],
     }

@@ -38,10 +38,28 @@ hostile, portability, and census outputs were byte-identical to repository outco
 The post-repair premise audit passed. The full repository regression returned 199 passed with one
 expected xfail in 137.46 seconds.
 
-Repair-only external follow-up is the sole remaining closure gate.
+The first repair-only external follow-up returned `G308_REPAIRS_INCOMPLETE`. It confirmed R1,
+R2, and R4, all six sealed replays, byte stability, and the absence of scientific regression. Its
+sole blocking finding was one stale `RUN_RECORD.md` heading that still called the original
+79,200-check calculation an “Independent replay.”
+
+The exact R3 evidence-language completion was preregistered and pushed at `71acf64f`. The run
+record now describes that calculation only as a non-importing constructive randomized cross-check
+and gives the independent gate to the separate Hodge/group-orbit calculation.
+
+The Hodge verifier intentionally tests bounded geometry, not semantic physical-population
+ownership. The unchanged nonselection boundary is audited separately by the derivation result,
+status ledger, and semantic hostile controls; inserting a self-declared ownership boolean into a
+numerical verifier would not independently establish that boundary.
+
+R3 completion-only external follow-up is the sole remaining closure gate.
+
+After the completion, all six registered package replays pass, the 289-row premise audit passes,
+and the repository regression returns 199 passed with one expected xfail in 136.93 seconds. The
+six pre-existing load-bearing outcome files remain unchanged.
 
 ## Current grade
 
-`EXTERNALLY_REVIEWED__REPAIRS_INTERNAL_PASS__FOLLOWUP_PENDING`
+`EXTERNAL_REPAIR_FOLLOWUP_CONFIRMS_SCIENCE__R3_COMPLETION_INTERNAL_PASS__FINAL_FOLLOWUP_PENDING`
 
 The exact bounded G308 landing is unchanged.

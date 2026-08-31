@@ -51,7 +51,9 @@ def main():
         "REPAIR_ANCESTRY.md", "REPAIR_REPORT.md",
         "verify_chirality_hodge_independent.py", "HODGE_INDEPENDENT_VERIFICATION.json",
         "verify_repair_portability.py", "PORTABILITY_VERIFICATION_RESULT.json",
-        "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md", "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt", "R3_COMPLETION_PREREGISTRATION.md",
+        "R3_COMPLETION_RESULT.json", "R3_COMPLETION_FOLLOWUP_REQUEST.md",
     )
     for name in required:
         assert (HERE / name).is_file(), name
@@ -62,6 +64,7 @@ def main():
     hodge = json.loads((HERE / "HODGE_INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
     portability = json.loads((HERE / "PORTABILITY_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
     verification = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    completion = json.loads((HERE / "R3_COMPLETION_RESULT.json").read_text(encoding="utf-8"))
     premise = json.loads((HERE / "PREMISE_AUDIT_RESULT.json").read_text(encoding="utf-8"))
 
     assert derivation["status"] == "PASS"
@@ -127,12 +130,35 @@ def main():
     assert verification["constructive_randomized_checks"] == 79200
     assert verification["hodge_independent_checks"] == 121600
     assert verification["external_review"] == "G308_REPAIRABLE_DEFECTS__NO_BOUNDED_SCIENTIFIC_DEFECT"
-    assert verification["repair_status"] == "R1_R4_INTERNAL_PASS__EXTERNAL_FOLLOWUP_PENDING"
+    assert verification["external_repair_followup"] == (
+        "G308_REPAIRS_INCOMPLETE__R1_R2_R4_AND_UNCHANGED_SCIENCE_CONFIRMED"
+        "__R3_STALE_HEADING_ONLY"
+    )
+    assert verification["repair_status"] == (
+        "R1_R2_R4_EXTERNALLY_CONFIRMED__R3_COMPLETION_INTERNAL_PASS"
+        "__FINAL_FOLLOWUP_PENDING"
+    )
     assert verification["sealed_replay"] == "PASS__NO_SYMLINKS__NO_MANUAL_STAGING__6_OF_6_OUTCOMES_BYTE_IDENTICAL"
     assert verification["repository_regression"] == "PASS_POST_REPAIR__199_PASSED__1_EXPECTED_XFAIL__137_46_SECONDS"
-    assert verification["status"] == "EXTERNALLY_REVIEWED__REPAIRS_INTERNAL_PASS__FOLLOWUP_PENDING"
+    assert verification["status"] == (
+        "EXTERNAL_REPAIR_FOLLOWUP_CONFIRMS_SCIENCE__R3_COMPLETION_INTERNAL_PASS"
+        "__FINAL_FOLLOWUP_PENDING"
+    )
     assert premise["status"] == "PASS"
     assert premise["registry_rows"] == 289
+    assert completion["status"] == "PASS"
+    assert completion["preregistration_commit"] == "71acf64f"
+    assert completion["landing"] == LANDING
+    assert completion["constructive_randomized_checks"] == 79200
+    assert completion["hodge_independent_checks"] == 121600
+    assert completion["r3_evidence_language_complete"] is True
+    assert completion["metric_and_kernel_changed"] is False
+    assert completion["physical_member_selected"] is False
+    assert completion["registered_package_replays"] == "PASS__6_OF_6"
+    assert completion["premise_audit"] == "PASS__289_ROWS"
+    assert completion["repository_regression"] == (
+        "PASS__199_PASSED__1_EXPECTED_XFAIL__136_93_SECONDS"
+    )
 
     expected_census = (
         ("round_G305_metric_only", "two_continuous_chiral_families", "no_member"),
@@ -161,6 +187,15 @@ def main():
     for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md"):
         assert LANDING in (HERE / name).read_text(encoding="utf-8").replace("\n", "")
 
+    run_record = (HERE / "RUN_RECORD.md").read_text(encoding="utf-8")
+    assert "## Independent replay" not in run_record
+    assert "## Constructive randomized cross-check" in run_record
+    assert "## Method-distinct independent verification" in run_record
+    assert "79,200 non-importing constructive randomized cross-checks" in run_record
+    assert "This calculation does not carry the method-distinct\nindependent gate." in run_record
+    assert "This verifier tests the bounded geometry." in run_record
+    assert "It does not purport to prove physical-population\nownership" in run_record
+
     print(json.dumps({
         "status": "PASS",
         "landing": LANDING,
@@ -172,7 +207,8 @@ def main():
         "hostile_catches": catches["hostile_cases"],
         "portability": portability["status"],
         "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
-        "external_review": "PENDING",
+        "external_review": "G308_R3_COMPLETION_FOLLOWUP_PENDING",
+        "r3_completion": completion["status"],
     }, sort_keys=True))
 
 

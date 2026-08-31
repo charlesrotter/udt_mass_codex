@@ -225,4 +225,8 @@ remain open.
 - eight direct mathematical and fourteen semantic hostile mutations caught;
 - current premise verifier and the 199-test repository regression passed after the result;
 - fresh external review found no bounded scientific defect, one sealed-path portability defect,
-  and one evidence-independence caveat; R1--R4 now pass internally and await repair-only follow-up.
+  and one evidence-independence caveat;
+- repair-only follow-up confirmed R1, R2, R4, all sealed replays, byte stability, and unchanged
+  science, then found one stale R3 run-record heading;
+- that exact R3 wording residue is now corrected under preregistration `71acf64f` and awaits only
+  completion-only external follow-up.

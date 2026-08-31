@@ -21,5 +21,9 @@ used.
 An outside reviewer independently agreed with that scientific result. It found a bookkeeping bug
 in how one verifier located sealed source files and noted that our first randomized check used too
 similar a construction to count as fully independent. The path bug is repaired, and a genuinely
-different Hodge-star/group-orbit calculation now reaches the same answer. Final repair-only review
-is still pending.
+different Hodge-star/group-orbit calculation now reaches the same answer.
+
+The repair follow-up confirmed those fixes and found no scientific problem. It caught one leftover
+heading that still called the older randomized calculation “independent.” That label is now fixed:
+the older calculation is only a constructive cross-check, while the Hodge calculation carries the
+independent gate. One narrow completion-only review remains.
