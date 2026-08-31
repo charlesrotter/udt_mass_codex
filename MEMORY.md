@@ -19,6 +19,10 @@ are mirror-related; physical population remains open. G309 proves Hopf kinematic
 time profile. The conditional G301 trace-free residual does: on the positive round branch it fixes
 `a=X cosh((T-T0)/X)`, leaving one scale. Residual ownership, scale, mass, and `X_max` remain open.
 G309 and its dependency-free replay repair passed external review; metric/kernel unchanged.
+G310 externally verifies, after two preregistered evidence repairs, that one new unadopted
+Differential Dual Reciprocity postulate conditionally selects the G301 trace-free Ricci class and
+reduces the free history function to one scalar curvature datum. DDR ownership/adoption, magnitude,
+realized history, population, mass, scale, and physical `X_max` remain open.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -26,7 +30,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 W5 is noncanon normalized projective position; scale, native SNe area, and history remain open.
 
 ## Observations and premises
@@ -38,10 +42,10 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-An explicit choice between further derivation of G301 ownership
-and provisional adoption of its trace-free residual. Only after that may one scale be calibrated.
-Do not infer the equation from Hopf consilience or import an action, source, mass, fit, or physical
-`X_max`.
+An explicit choice between seeking stronger founding ownership for candidate DDR and provisionally
+adopting DDR as the candidate parent law. Only after that may its remaining scalar datum be
+calibrated. Do not call DDR derived from its economy or Hopf consilience, or import an action,
+source, mass, fit, or physical `X_max`.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

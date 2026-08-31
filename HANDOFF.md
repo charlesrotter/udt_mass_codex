@@ -36,6 +36,15 @@ field equation. The conditional G301 trace-free residual rejects it and fixes th
 `a(T)=X cosh((T-T0)/X)`. Within that conditional branch one
 curvature scale remains. Ownership and calibration remain open; metric/kernel unchanged.
 
+G310 supplies one sharply typed candidate bridge. `Differential Dual Reciprocity` asks the local
+curvature response to balance against every infinitesimal reciprocal pair-shape change. Those
+changes span all nine trace-free metric directions, so their only annihilator is the common trace
+line. Inside G301's nondegenerate conditional operator class this is exactly
+`R_ab-(R/4)g_ab=0`; Bianchi then leaves one regional scalar curvature datum, not a free function.
+DDR remains `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED` and does not select its magnitude, realized global
+history, population, mass, scale, or physical `X_max`. Fresh external review and the repair-only
+follow-up accepted the bounded theorem and both preregistered evidence repairs.
+
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
 Reciprocity remains a `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)`,
@@ -43,14 +52,14 @@ Reciprocity remains a `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-d
 or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G309 history/dynamics. Use `INDEX.md` for exact paths.
+G282--G310 history/dynamics. Use `INDEX.md` for exact paths.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290;
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
 G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
@@ -65,7 +74,7 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`.
 
-The exact 289-row registry currently ends at G306. Use the banked G307--G309 controlling reports
+The exact 289-row registry currently ends at G306. Use the banked G307--G310 controlling reports
 for those newer bounded results until a separately verified registry migration is completed.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
@@ -75,9 +84,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: decide whether to keep deriving ownership of the G301 trace-free residual or provisionally
-adopt it as the candidate parent law. Calibrate scale only
-afterward. Do not turn Hopf consilience into proof or import an action, source, mass, fitted scale,
-physical `X_max`, or protected work.
+Next: decide whether to keep seeking stronger founding ownership for externally verified candidate
+DDR or provisionally adopt DDR as the candidate parent law. Calibrate its remaining scalar datum
+only afterward. Do not turn the candidate's economy or Hopf consilience into proof or import an
+action, source, mass, fitted scale, physical `X_max`, or protected work.
 
 <!-- STARTUP_CURRENT_END -->

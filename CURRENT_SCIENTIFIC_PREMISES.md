@@ -29,7 +29,7 @@ G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -67,6 +67,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
 | G307 directed-germ member reconstruction | external/repairs accepted | One member per chirality from supplied germ; signed transverse jet conditionally selects one |
 | G308 global chirality coherence | external/R3 accepted | One coherent global chirality sector; mirror parity leaves physical sign open |
 | G309 strengthened-chain history audit | external review + repair accepted | Counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
+| G310 differential Dual Reciprocity candidate | external review + repairs accepted | One new unadopted all-pair curvature-balance postulate conditionally selects trace-free Ricci and leaves one scalar datum |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -95,9 +96,10 @@ None selects completion/`X_max`.
   static sign. G305 adds compact `S3` slices. G306--G308 derive the intrinsic Hopf families,
   conditional member reconstruction, and global parity/coherence classification without physical
   population. G309 proves that these kinematics are blind to smooth changes in the time profile.
-  The conditional G301 residual removes that functional freedom and leaves one scale on the
-  positive round branch, but its founding ownership, magnitude, mass, and `X_max` remain open. W1
-  stays evaluative.
+  G310 proves that one new compound DDR postulate selects that conditional trace-free residual and
+  removes the functional freedom, leaving one scalar datum and one positive-round scale. DDR remains
+  unadopted and underived; its magnitude, realized history, population, mass, and `X_max` remain
+  open. W1 stays evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -110,13 +112,14 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G309 leave founding ownership of the candidate law and the
-realized scale open. G309 conditionally fixes one positive-round history shape only after the G301
-residual is supplied. No native SNe prediction or observationally selected value law follows.
+R2--R5 select no scale or `X_max`; G277--G310 leave adoption and the realized scale open. G310
+supplies an externally verified candidate postulate that conditionally selects the G301 trace-free
+residual; it does not derive or adopt that postulate. No native SNe prediction or observationally
+selected value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority through G306; conflicts stop. G307--G309
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority through G306; conflicts stop. G307--G310
 are newer banked package evidence pending a separately verified registry migration and are listed
 here only at their exact package grades. Run `python3 verify_current_scientific_premises.py`; query
 exact rows only when load-bearing.

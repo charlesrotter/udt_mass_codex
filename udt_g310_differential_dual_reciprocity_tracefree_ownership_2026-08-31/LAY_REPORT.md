@@ -22,11 +22,11 @@ comparisons; they do not say that curvature must be stationary against every rec
 Calling the new rule “differential Dual Reciprocity” does not make it already derived. The honest
 result is therefore: we may have found a particularly economical missing postulate, and within the
 conditional G301 arena it produces the promising trace-free law exactly. It does not yet choose a
-particular history or scale; Charles has not adopted it, and the narrow repair follow-up is still
-needed.
+particular curvature magnitude or absolute scale, and Charles has not adopted it.
 
 The first outside review agreed that the bounded mathematics works. It found two shortcomings in
 how the evidence was demonstrated, not in the result: the scripts used half of the displayed
 tangent (which has the same span), and the independent script stated the final one-dimensional
-answer instead of deriving it from its own matrix. Both have now been repaired. A narrow external
-follow-up still has to verify those repairs.
+answer instead of deriving it from its own matrix. Both were repaired under a banked preregistration.
+The narrow outside follow-up independently replayed the repairs and accepted them without changing
+the scientific conclusion.

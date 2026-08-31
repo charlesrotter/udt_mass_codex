@@ -11,8 +11,9 @@
    annihilator.
 4. **Premise audited:** PASS internally — `DDR` and the all-pair requirement remain visibly
    `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`; G301 class assumptions remain conditional.
-5. **Fresh external review:** `G310_REPAIRABLE_DEFECTS` — bounded mathematics retained; R1 exact
-   tangent normalization and R2 independent-annihilator reconstruction implemented after
-   preregistration at `71f45256`; repair-only follow-up pending.
+5. **Fresh external review:** PASS after repair-only follow-up — the initial
+   `G310_REPAIRABLE_DEFECTS` retained the bounded mathematics; R1 exact tangent normalization and R2
+   independent-annihilator reconstruction were preregistered at `71f45256`, implemented, and then
+   accepted under `G310_R1_R2_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`.
 
-Current grade: `EXTERNAL_REVIEW_REPAIRS_IMPLEMENTED_PENDING_REPAIR_ONLY_FOLLOWUP`.
+Current grade: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`.

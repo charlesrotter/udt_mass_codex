@@ -67,13 +67,25 @@ residual does reject it and, on the positive standard round branch, forces
 curvature scale, not a free function. Ownership of the G301 residual and calibration of `X` remain
 `OPEN`. External G309 review found no defect; its dependency-free replay repair passed repair-only
 follow-up with the scientific landing unchanged.
+
+G310 tests one explicit candidate bridge rather than assuming the G301 residual. `Differential
+Dual Reciprocity` (`DDR`) proposes that the first local natural complete-metric curvature response
+balance against every infinitesimal reciprocal clock/ruler shape change. The all-plane reciprocal
+tangents span exactly the metric's nine trace-free shape directions; their annihilator is only the
+common trace line. Therefore, inside G301's nondegenerate conditional response class, DDR is exactly
+equivalent to `R_ab-(R/4)g_ab=0`. Contracted Bianchi leaves one connected-region scalar curvature
+datum instead of a free local history function. DDR does not fix that datum, a realized global
+history, population, mass, scale, or physical `X_max`. It is a
+`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived from F1--F4/W1--W6. Fresh gpt-5.4 review retained
+the bounded theorem; its two preregistered evidence repairs were accepted with the scientific
+landing unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G309 history/dynamics. The conditional G301 residual fixes the
+G282--G310 history/dynamics. Conditional DDR plus the G301 arena fixes the
 positive round history shape up to one scale; ownership, population, magnitude, and dynamics remain
 open.
 Guards:
@@ -82,7 +94,7 @@ G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -92,8 +104,8 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`.
 
-The exact 289-row registry ends at G306. Read G307--G309 from their controlling reports pending a
-verified registry migration; G309 and its replay-portability repair are externally accepted.
+The exact 289-row registry ends at G306. Read G307--G310 from their controlling reports pending a
+verified registry migration; G309 and G310 are externally accepted at their exact bounded grades.
 
 ### Observational boundary
 
@@ -112,9 +124,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G309 and its dependency-free repair passed external review. Next make an explicit ownership
-decision: derive more support for the G301 trace-free
-residual or provisionally adopt it as the candidate parent law before scale calibration. Do not
-infer the equation from Hopf consilience, fit before the law class is fixed, or import an action,
-source, mass law, physical `X_max`, or protected work.
+G310 and its preregistered evidence repairs passed external review. Next make an explicit physics
+decision: keep DDR as an externally verified candidate while seeking stronger founding ownership,
+or provisionally adopt DDR as the candidate parent law for downstream development. Only after that
+decision may the remaining scalar curvature datum be calibrated. Do not rename DDR as derived,
+infer it from Hopf consilience, fit before the law class is fixed, or import an action, source, mass
+law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

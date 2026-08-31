@@ -1,7 +1,7 @@
 # G310 audit report
 
 Date: 2026-08-31
-Status: `EXTERNAL_GPT54_REPAIRABLE_DEFECTS__R1_R2_IMPLEMENTED__FOLLOWUP_REQUIRED`
+Status: `EXTERNAL_GPT54_R1_R2_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`
 
 ## Landing
 
@@ -33,5 +33,6 @@ annihilator-reconstruction checks, and seven hostile mutations.
 The fresh external reviewer found no bounded mathematical refutation and no non-Einstein Ricci
 counterexample in the stated nondegenerate class. It found two evidence defects: the scripts used
 the span-equivalent half-tangent, and the separate verifier stated rather than computed the
-annihilator. Repairs R1 and R2 were preregistered at `71f45256`, then implemented. A repair-only
-external follow-up remains required before the external gate closes.
+annihilator. Repairs R1 and R2 were preregistered at `71f45256`, then implemented. The repair-only
+external follow-up replayed the four registered checks, independently confirmed both repairs, and
+returned `G310_R1_R2_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`.

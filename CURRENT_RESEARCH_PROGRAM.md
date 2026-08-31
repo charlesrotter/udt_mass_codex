@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -89,6 +89,12 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
   and fixes the positive standard branch to `a=X cosh((T-T0)/X)`, leaving one scale rather than a
   free history function. External review found no scientific defect, and its dependency-free replay
   repair passed follow-up. The residual's UDT ownership and the scale remain open.
+- G310 identifies and externally verifies one explicit candidate ownership bridge. The new
+  compound `DDR` postulate balances the conditional G301 curvature response against every
+  infinitesimal reciprocal pair-shape tangent. Exact all-plane span and annihilator reconstruction
+  make `DDR` equivalent to trace-free Ricci on G301's nondegenerate stratum, leaving one Bianchi-
+  constant scalar datum. This is a sufficiency theorem for a `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`,
+  not a derivation from the older founding/working chain or a selected magnitude/history/scale.
 
 ## Open boundary
 
@@ -109,9 +115,9 @@ working finite-ceiling condition to distinguish the positive sign in the smooth-
 branch. G305 extends that branch through its standard global completion and supplies a compact `S3`
 domain. G306--G308 narrow the native geometry to a globally coherent supplied member with two
 parity-related sectors, but select no physical population. G309 shows that this topology and carry
-do not select the time profile. If the G301 trace-free residual is provisionally adopted, however,
-the positive round history shape is already fixed up to one curvature scale. The ownership of that
-residual, the scale, population, mass, and physical `X_max` remain open.
+do not select the time profile. G310 shows that provisionally adopting DDR would select the G301
+trace-free residual; then the positive round history shape is fixed up to one curvature scale. DDR
+ownership/adoption, that scale, population, mass, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -119,7 +125,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Explicitly either continue seeking a founding derivation of the G301 trace-free residual or
-provisionally adopt it as candidate law; only then may
-an independent observation calibrate its scale. Do not turn Hopf consilience into ownership proof or
-import an action, source, mass, fit, physical `X_max`, protected work, or realized history.
+Explicitly either keep seeking stronger founding ownership for externally verified candidate DDR or
+provisionally adopt DDR as the candidate law. Only then may an independent observation calibrate its
+remaining scalar datum. Do not restamp DDR as derived, turn Hopf consilience into ownership proof,
+or import an action, source, mass, fit, physical `X_max`, protected work, or realized history.

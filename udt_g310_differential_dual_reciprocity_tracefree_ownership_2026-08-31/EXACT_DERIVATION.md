@@ -1,7 +1,7 @@
 # G310 exact derivation — differential Dual Reciprocity and trace-free ownership
 
 Date: 2026-08-31
-Grade: `EXTERNAL_REVIEW_REPAIRABLE_DEFECTS__R1_R2_IMPLEMENTED__FOLLOWUP_REQUIRED`
+Grade: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
 
 ## 1. Bounded landing
 
