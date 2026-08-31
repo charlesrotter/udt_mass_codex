@@ -1,5 +1,6 @@
 {
   "constructive_randomized_checks": 79200,
+  "external_followup": "G308_R3_COMPLETION_ACCEPTED__NO_DEFECTS",
   "hodge_independent_checks": 121600,
   "landing": "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN",
   "metric_and_kernel_changed": false,
@@ -9,5 +10,5 @@
   "registered_package_replays": "PASS__6_OF_6",
   "repository_regression": "PASS__199_PASSED__1_EXPECTED_XFAIL__136_93_SECONDS",
   "r3_evidence_language_complete": true,
-  "status": "PASS"
+  "status": "EXTERNALLY_ACCEPTED"
 }

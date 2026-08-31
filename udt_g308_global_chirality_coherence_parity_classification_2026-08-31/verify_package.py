@@ -54,6 +54,7 @@ def main():
         "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md", "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
         "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt", "R3_COMPLETION_PREREGISTRATION.md",
         "R3_COMPLETION_RESULT.json", "R3_COMPLETION_FOLLOWUP_REQUEST.md",
+        "EXTERNAL_R3_COMPLETION_RESPONSE.md", "EXTERNAL_R3_COMPLETION_TRANSCRIPT.txt",
     )
     for name in required:
         assert (HERE / name).is_file(), name
@@ -134,19 +135,17 @@ def main():
         "G308_REPAIRS_INCOMPLETE__R1_R2_R4_AND_UNCHANGED_SCIENCE_CONFIRMED"
         "__R3_STALE_HEADING_ONLY"
     )
-    assert verification["repair_status"] == (
-        "R1_R2_R4_EXTERNALLY_CONFIRMED__R3_COMPLETION_INTERNAL_PASS"
-        "__FINAL_FOLLOWUP_PENDING"
+    assert verification["external_r3_completion_followup"] == (
+        "G308_R3_COMPLETION_ACCEPTED__NO_DEFECTS"
     )
+    assert verification["repair_status"] == "R1_R4_AND_R3_COMPLETION_EXTERNALLY_ACCEPTED"
     assert verification["sealed_replay"] == "PASS__NO_SYMLINKS__NO_MANUAL_STAGING__6_OF_6_OUTCOMES_BYTE_IDENTICAL"
     assert verification["repository_regression"] == "PASS_POST_REPAIR__199_PASSED__1_EXPECTED_XFAIL__137_46_SECONDS"
-    assert verification["status"] == (
-        "EXTERNAL_REPAIR_FOLLOWUP_CONFIRMS_SCIENCE__R3_COMPLETION_INTERNAL_PASS"
-        "__FINAL_FOLLOWUP_PENDING"
-    )
+    assert verification["status"] == "EXTERNALLY_VERIFIED_AFTER_R3_COMPLETION"
     assert premise["status"] == "PASS"
     assert premise["registry_rows"] == 289
-    assert completion["status"] == "PASS"
+    assert completion["status"] == "EXTERNALLY_ACCEPTED"
+    assert completion["external_followup"] == "G308_R3_COMPLETION_ACCEPTED__NO_DEFECTS"
     assert completion["preregistration_commit"] == "71acf64f"
     assert completion["landing"] == LANDING
     assert completion["constructive_randomized_checks"] == 79200
@@ -207,7 +206,7 @@ def main():
         "hostile_catches": catches["hostile_cases"],
         "portability": portability["status"],
         "metric_and_kernel_changed": derivation["metric_and_kernel_changed"],
-        "external_review": "G308_R3_COMPLETION_FOLLOWUP_PENDING",
+        "external_review": "G308_R3_COMPLETION_ACCEPTED",
         "r3_completion": completion["status"],
     }, sort_keys=True))
 

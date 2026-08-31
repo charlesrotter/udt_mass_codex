@@ -25,9 +25,10 @@
     as a constructive randomized cross-check; the 121,600-check Hodge/group-orbit calculation
     carries the method-distinct independent gate. All six package replays, the 289-row premise
     audit, and the full 199-pass/one-expected-xfail repository regression pass after completion.
-    Completion-only external follow-up PENDING.
+12. **R3 completion-only external follow-up:** `G308_R3_COMPLETION_ACCEPTED` — no blocking,
+    medium, or low defects; all six sealed replays passed and all six load-bearing outcomes were
+    byte-identical.
 
-Current maximum grade:
-`EXTERNAL_REPAIR_FOLLOWUP_CONFIRMS_SCIENCE__R3_COMPLETION_INTERNAL_PASS__FINAL_FOLLOWUP_PENDING`.
+Current maximum grade: `EXTERNALLY_VERIFIED_AFTER_R3_COMPLETION`.
 
 The metric, reciprocal kernel, member census, and physical-population boundary are unchanged.

@@ -52,7 +52,10 @@ ownership. The unchanged nonselection boundary is audited separately by the deri
 status ledger, and semantic hostile controls; inserting a self-declared ownership boolean into a
 numerical verifier would not independently establish that boundary.
 
-R3 completion-only external follow-up is the sole remaining closure gate.
+The R3 completion-only external follow-up returned `G308_R3_COMPLETION_ACCEPTED` with no blocking,
+medium, or low defects. It reran all six sealed checks, confirmed byte identity of all six
+load-bearing outcomes, and accepted the unchanged landing, metric, kernel, census, and ownership
+boundary.
 
 After the completion, all six registered package replays pass, the 289-row premise audit passes,
 and the repository regression returns 199 passed with one expected xfail in 136.93 seconds. The
@@ -60,6 +63,6 @@ six pre-existing load-bearing outcome files remain unchanged.
 
 ## Current grade
 
-`EXTERNAL_REPAIR_FOLLOWUP_CONFIRMS_SCIENCE__R3_COMPLETION_INTERNAL_PASS__FINAL_FOLLOWUP_PENDING`
+`EXTERNALLY_VERIFIED_AFTER_R3_COMPLETION`
 
 The exact bounded G308 landing is unchanged.

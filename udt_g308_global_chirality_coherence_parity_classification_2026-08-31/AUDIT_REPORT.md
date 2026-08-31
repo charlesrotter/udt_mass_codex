@@ -1,7 +1,7 @@
 # G308 audit report — global chirality coherence and parity
 
 Date: 2026-08-31
-Status: `EXTERNALLY_REVIEWED__REPAIRS_INTERNAL_PASS__FOLLOWUP_PENDING`
+Status: `EXTERNALLY_VERIFIED_AFTER_R3_COMPLETION`
 
 ## Primary landing
 
@@ -58,6 +58,7 @@ adds explicit portability gates.
 The first repair-only follow-up confirmed R1, R2, R4, all sealed replays, byte stability, and no
 scientific regression, but returned `G308_REPAIRS_INCOMPLETE` because one stale run-record heading
 still called the 79,200-check calculation an “Independent replay.” That exact R3 wording residue is
-now removed under preregistration `71acf64f`; completion-only external follow-up remains pending.
+now removed under preregistration `71acf64f`. The completion-only external follow-up returned
+`G308_R3_COMPLETION_ACCEPTED` with no defects at any severity.
 The Hodge verifier tests geometry, while physical-population nonselection remains separately
 audited rather than asserted by a numerical flag.

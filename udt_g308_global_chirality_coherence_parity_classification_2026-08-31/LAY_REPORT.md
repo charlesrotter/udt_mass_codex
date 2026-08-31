@@ -23,7 +23,8 @@ in how one verifier located sealed source files and noted that our first randomi
 similar a construction to count as fully independent. The path bug is repaired, and a genuinely
 different Hodge-star/group-orbit calculation now reaches the same answer.
 
-The repair follow-up confirmed those fixes and found no scientific problem. It caught one leftover
+The first repair follow-up confirmed those fixes and found no scientific problem. It caught one leftover
 heading that still called the older randomized calculation “independent.” That label is now fixed:
 the older calculation is only a constructive cross-check, while the Hodge calculation carries the
-independent gate. One narrow completion-only review remains.
+independent gate. A final completion-only reviewer accepted the repair with no defects. G308 is
+externally verified within its stated bounded scope.

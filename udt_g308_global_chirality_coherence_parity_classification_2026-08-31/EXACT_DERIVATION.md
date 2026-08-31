@@ -228,5 +228,6 @@ remain open.
   and one evidence-independence caveat;
 - repair-only follow-up confirmed R1, R2, R4, all sealed replays, byte stability, and unchanged
   science, then found one stale R3 run-record heading;
-- that exact R3 wording residue is now corrected under preregistration `71acf64f` and awaits only
-  completion-only external follow-up.
+- that exact R3 wording residue was corrected under preregistration `71acf64f`;
+- completion-only external follow-up returned `G308_R3_COMPLETION_ACCEPTED` with no defects and
+  confirmed all six sealed replays and all six byte-stable load-bearing outcomes.
