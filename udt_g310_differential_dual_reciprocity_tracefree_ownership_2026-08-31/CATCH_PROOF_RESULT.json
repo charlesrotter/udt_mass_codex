@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "caught": true,
+      "mutation": "opposite_sign_ruler_tangent_called_reciprocal"
+    },
+    {
+      "caught": true,
+      "mutation": "one_pair_plane_called_complete"
+    },
+    {
+      "caught": true,
+      "mutation": "uncomposed_generators_called_complete"
+    },
+    {
+      "caught": true,
+      "mutation": "scalar_only_a_zero_called_nonidentity_shape_law"
+    },
+    {
+      "caught": true,
+      "mutation": "ddr_called_full_E_zero"
+    },
+    {
+      "caught": true,
+      "mutation": "common_trace_magnitude_called_fixed"
+    },
+    {
+      "caught": true,
+      "mutation": "annihilator_called_two_dimensional"
+    }
+  ],
+  "hostile_cases": 7,
+  "status": "PASS"
+}

@@ -1,0 +1,12 @@
+item	status	note
+founding_chain_implication	NOT_DERIVED	G309 counterfamily remains decisive
+differential_dual_reciprocity	NEW_CANDIDATE_POSTULATE_NOT_ADOPTED	all-pair curvature-response balance
+reciprocal_shape_span	DERIVED	rank nine in full four-dimensional traceless symmetric metric tangent
+balance_annihilator	DERIVED	one-dimensional span of g_ab
+G301_scalar_only_stratum	VACUOUS_CONTROL	a=0 passes balance identically and is rejected by nondegenerate principal gate
+G301_tracefree_zero_set	DERIVED_CONDITIONAL	DDR plus G301 class and a nonzero Ricci coefficient imply S_ab=0
+connected_scalar_datum	ONE_CONSTANT	dR=0 by contracted Bianchi
+positive_round_history	DERIVED_CONDITIONAL	a=X*cosh((T-T0)/X) after DDR/G301 and positive standard completion
+scale_selection	OPEN	DDR leaves common trace magnitude free
+postulate_adoption	NOT_AUTHORIZED	Charles owns working or canon verdict
+external_review	REPAIRABLE_DEFECTS__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP	bounded mathematics retained; exact-normalization and independent-annihilator evidence repaired after preregistration at 71f45256
