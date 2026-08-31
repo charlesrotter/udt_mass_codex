@@ -29,13 +29,12 @@ review returned `G306_REPAIRS_ACCEPTED`. G307 reduces supplied-germ ambiguity to
 chirality and a signed transverse jet conditionally picks one. G308 proves both chirality sectors
 extend globally; a mirror isometry exchanges them, so metric-only selection remains open.
 
-G309 passed external scientific review with replay caveats. A smooth time-live
+G309 and its dependency-free replay repair passed external review. A smooth time-live
 deformation preserves an entire quiet half-history and all round-`S3` Hopf kinematics while changing
 curvature, so the strengthened founded/working chain still supplies compatibility rather than a
 field equation. The conditional G301 trace-free residual rejects it and fixes the history to
 `a(T)=X cosh((T-T0)/X)`. Within that conditional branch one
-curvature scale remains. Ownership and calibration remain open; metric/kernel unchanged. Its
-dependency-free replay repair awaits follow-up.
+curvature scale remains. Ownership and calibration remain open; metric/kernel unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -76,8 +75,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: close G309's repair-only follow-up, then decide whether to keep deriving ownership of the G301
-trace-free residual or provisionally adopt it as the candidate parent law. Calibrate scale only
+Next: decide whether to keep deriving ownership of the G301 trace-free residual or provisionally
+adopt it as the candidate parent law. Calibrate scale only
 afterward. Do not turn Hopf consilience into proof or import an action, source, mass, fitted scale,
 physical `X_max`, or protected work.
 

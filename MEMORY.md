@@ -18,7 +18,7 @@ supplied germ to two chirality members, require one coherent global sector, and 
 are mirror-related; physical population remains open. G309 proves Hopf kinematics do not select the
 time profile. The conditional G301 trace-free residual does: on the positive round branch it fixes
 `a=X cosh((T-T0)/X)`, leaving one scale. Residual ownership, scale, mass, and `X_max` remain open.
-G309 is internally verified and awaits external review; metric/kernel unchanged.
+G309 and its dependency-free replay repair passed external review; metric/kernel unchanged.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -38,7 +38,7 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Fresh external review of G309, then an explicit choice between further derivation of G301 ownership
+An explicit choice between further derivation of G301 ownership
 and provisional adoption of its trace-free residual. Only after that may one scale be calibrated.
 Do not infer the equation from Hopf consilience or import an action, source, mass, fit, or physical
 `X_max`.

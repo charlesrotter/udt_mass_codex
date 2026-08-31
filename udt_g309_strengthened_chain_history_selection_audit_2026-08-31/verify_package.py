@@ -33,6 +33,8 @@ def main() -> None:
         "EXTERNAL_REVIEW_REPAIR_PREREGISTRATION.md",
         "EXTERNAL_REVIEW_REPAIR_REPORT.md",
         "EXTERNAL_REVIEW_REPAIR_REQUEST.md",
+        "EXTERNAL_REVIEW_REPAIR_FOLLOWUP_RESPONSE.md",
+        "EXTERNAL_REVIEW_REPAIR_FOLLOWUP_TRANSMISSION.md",
     ]
     for name in required:
         assert (ROOT / name).is_file(), name
@@ -52,6 +54,9 @@ def main() -> None:
     assert independent["independent_checks"] == 28
     assert catches["status"] == "PASS"
     assert catches["hostile_cases"] == 4
+    assert (ROOT / "EXTERNAL_REVIEW_REPAIR_FOLLOWUP_RESPONSE.md").read_text(
+        encoding="utf-8"
+    ).strip() == "`G309_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`"
 
     print(json.dumps({
         "status": "PASS",

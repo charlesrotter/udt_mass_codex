@@ -87,8 +87,8 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
   every registered Hopf kinematic while changing curvature. The founded/working chain therefore
   remains compatibility-only. The conditional G301 trace-free residual rejects the deformation
   and fixes the positive standard branch to `a=X cosh((T-T0)/X)`, leaving one scale rather than a
-  free history function. External review found no scientific defect; dependency-free replay repair
-  follow-up is pending. The residual's UDT ownership and the scale remain open.
+  free history function. External review found no scientific defect, and its dependency-free replay
+  repair passed follow-up. The residual's UDT ownership and the scale remain open.
 
 ## Open boundary
 
@@ -119,7 +119,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Close G309's dependency-free repair follow-up. Then explicitly either continue seeking a founding
-derivation of the G301 trace-free residual or provisionally adopt it as candidate law; only then may
+Explicitly either continue seeking a founding derivation of the G301 trace-free residual or
+provisionally adopt it as candidate law; only then may
 an independent observation calibrate its scale. Do not turn Hopf consilience into ownership proof or
 import an action, source, mass, fit, physical `X_max`, protected work, or realized history.

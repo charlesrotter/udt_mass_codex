@@ -65,8 +65,8 @@ F1--F4, W1, W3--W6, and Hopf kinematics do not reject it. The `CONDITIONAL` G301
 residual does reject it and, on the positive standard round branch, forces
 `a(T)=X cosh((T-T0)/X)`. Thus that conditional branch has a fixed history shape and only one
 curvature scale, not a free function. Ownership of the G301 residual and calibration of `X` remain
-`OPEN`. External G309 review found no defect; its dependency-free replay repair awaits repair-only
-follow-up.
+`OPEN`. External G309 review found no defect; its dependency-free replay repair passed repair-only
+follow-up with the scientific landing unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -93,7 +93,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`.
 
 The exact 289-row registry ends at G306. Read G307--G309 from their controlling reports pending a
-verified registry migration; G309 remains externally accepted with caveats.
+verified registry migration; G309 and its replay-portability repair are externally accepted.
 
 ### Observational boundary
 
@@ -112,8 +112,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G309 passed fresh scientific review with replay caveats. First close its dependency-free repair-only
-follow-up. Then make an explicit ownership decision: derive more support for the G301 trace-free
+G309 and its dependency-free repair passed external review. Next make an explicit ownership
+decision: derive more support for the G301 trace-free
 residual or provisionally adopt it as the candidate parent law before scale calibration. Do not
 infer the equation from Hopf consilience, fit before the law class is fixed, or import an action,
 source, mass law, physical `X_max`, or protected work.

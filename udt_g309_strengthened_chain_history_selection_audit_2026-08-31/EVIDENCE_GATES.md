@@ -19,5 +19,5 @@ optimized source and strengthens the package/intake gate. It changes no scientif
 
 The preregistered `4280cb5d` external-review repair replaces the SymPy-dependent production replay
 with a Python-standard-library exact replay, requires live-versus-saved equality, and distinguishes
-repository provenance gates from sealed replays. Internal repair gates pass; external repair-only
-follow-up remains pending.
+repository provenance gates from sealed replays. The external repair-only follow-up ran all four
+registered `python3 -S` commands and accepted R1--R4 with the scientific landing unchanged.

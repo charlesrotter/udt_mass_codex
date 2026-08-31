@@ -24,5 +24,5 @@ alone cannot prove the equation because it does not hear the changing scale.
 
 An outside adversarial reviewer checked this conclusion and found no scientific error. It did find
 that one verification script depended on a math package absent from the sealed review environment.
-That replay has now been replaced by a dependency-free version; this repair changes none of the
-physics or mathematics. A narrow follow-up review of the repair is still pending.
+That replay was replaced by a dependency-free version. A narrow follow-up reviewer reran every
+registered check and accepted the repair; none of the physics, mathematics, or conclusion changed.

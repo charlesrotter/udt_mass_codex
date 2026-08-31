@@ -66,7 +66,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306.
 | G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
 | G307 directed-germ member reconstruction | external/repairs accepted | One member per chirality from supplied germ; signed transverse jet conditionally selects one |
 | G308 global chirality coherence | external/R3 accepted | One coherent global chirality sector; mirror parity leaves physical sign open |
-| G309 strengthened-chain history audit | external accepted/caveats; repair follow-up pending | Counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
+| G309 strengthened-chain history audit | external review + repair accepted | Counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
 None selects completion/`X_max`.
 ## Scale and limits
 

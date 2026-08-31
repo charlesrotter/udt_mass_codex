@@ -55,3 +55,6 @@ independently reproduced the load-bearing witness. Its production replay exposed
 portability defect. Repair `4280cb5d` preregistered replacement of that replay by a dependency-free
 exact polynomial/flatness implementation, live-versus-saved equality in the package verifier, and
 the repository-versus-sealed replay wording above. No scientific claim changed.
+
+The repair-only follow-up ran all four registered commands under `python3 -S` in a fresh ephemeral
+copy and returned `G309_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`.

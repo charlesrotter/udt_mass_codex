@@ -1,7 +1,7 @@
 # G309 audit report
 
 Date: 2026-08-31
-Status: `EXTERNAL_GPT54_ACCEPTED_WITH_STATED_CAVEATS__PREREGISTERED_REPLAY_REPAIR_IMPLEMENTED__REPAIR_FOLLOWUP_PENDING`
+Status: `EXTERNAL_GPT54_ACCEPTED_WITH_STATED_CAVEATS__REPAIR_FOLLOWUP_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`
 
 ## Landing
 
@@ -41,4 +41,5 @@ load-bearing curvature and residual results. It found a medium replay-portabilit
 the production script required unavailable SymPy, plus a low clarification that repository-only
 gates were reported rather than sealed-replayed. The preregistered repair replaces the production
 replay with a dependency-free exact implementation and makes the package verifier execute it.
-Repair-only external follow-up remains pending; the scientific landing is unchanged.
+The repair-only external follow-up ran all four registered commands under `python3 -S` in a fresh
+ephemeral copy and returned `G309_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`.

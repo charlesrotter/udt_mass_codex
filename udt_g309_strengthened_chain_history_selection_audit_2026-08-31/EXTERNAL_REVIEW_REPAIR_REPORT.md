@@ -2,7 +2,7 @@
 
 Date: 2026-08-31
 Preregistered at: `4280cb5d`
-Status: `INTERNALLY_VERIFIED_REPAIR__EXTERNAL_REPAIR_FOLLOWUP_PENDING`
+Status: `EXTERNAL_REPAIR_FOLLOWUP_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`
 
 ## Repair results
 
@@ -37,3 +37,10 @@ repair preregistration, and the repair-only request are registered with the inta
 
 No metric, kernel, formula, witness, premise grade, candidate-B landing, conditional-law status,
 history, physical scale, or `X_max` claim changed.
+
+## External closure
+
+The repair-only reviewer ran the four registered `python3 -S` commands in a fresh ephemeral copy
+and returned `G309_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`. See
+`EXTERNAL_REVIEW_REPAIR_FOLLOWUP_RESPONSE.md` and
+`EXTERNAL_REVIEW_REPAIR_FOLLOWUP_TRANSMISSION.md`.

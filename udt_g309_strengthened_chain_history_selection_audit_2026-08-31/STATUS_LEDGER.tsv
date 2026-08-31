@@ -13,4 +13,4 @@ physical_chirality	OPEN	mirror-related sectors remain
 mass_source_stability_Xmax	OPEN	not tested
 canonization	NOT_AUTHORIZED	Charles owns verdict
 external_scientific_review	ACCEPTED_WITH_STATED_CAVEATS	no scientific defect; load-bearing formulas and witnesses independently reproduced
-external_replay_portability_repair	INTERNALLY_VERIFIED_FOLLOWUP_PENDING	dependency-free production replay and live-versus-saved equality; no scientific change
+external_replay_portability_repair	EXTERNAL_FOLLOWUP_ACCEPTED	dependency-free production replay and live-versus-saved equality; scientific landing unchanged
