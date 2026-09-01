@@ -35,6 +35,7 @@ PACKAGE_FILES = (
     "run_catch_proofs.py",
     "verify_package.py",
     "EXTERNAL_REVIEW_REQUEST.md",
+    "build_review_intake.py",
 )
 
 
@@ -55,6 +56,8 @@ def main():
         target = sources_target / row["path"]
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
+        if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            shutil.copy2(source, intake / "CURRENT_SCIENTIFIC_PREMISES.tsv")
 
     scope = {
         "question": "G312 quiet-GR response-constitution ownership discriminator",
