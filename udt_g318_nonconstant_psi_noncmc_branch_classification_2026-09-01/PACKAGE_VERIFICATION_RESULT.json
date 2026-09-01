@@ -1,0 +1,11 @@
+{
+  "atlas_rows": 16,
+  "center_witnesses": 4,
+  "external_review": "ACCEPTED",
+  "hostile_catches": "48/48",
+  "independent_assertions": 4440,
+  "landing": "NONCONSTANT_PSI_FORCES_A_POWER_LAW_NONCMC_INTERLOCK__G317_DIRECT_FORM_IS_OBSTRUCTED__POSITIVE_PERIODIC_TIDAL_BRANCH_EXISTS__NO_PHYSICAL_DATA_SELECTION",
+  "production_assertions": 14043,
+  "status": "PASS_EXTERNALLY_ACCEPTED",
+  "weyl_instances": 27
+}

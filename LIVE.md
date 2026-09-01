@@ -35,19 +35,10 @@ plus scale spans all ten metric directions but selects neither; G303 gives both 
 classes the same local metric-wave principal system, with the broader class carrying one connected-
 region constant. The reciprocal readout creates no evolution residual.
 
-G304's exact trace-free static family is `f=1+b/r-(R0/12)r^2`; smooth center forces `b=0`.
-`WORKING` G17 selects only the positive sign in this bounded branch, not magnitude, law, history, or
-physical `X_max`; `X=sqrt(12/R0)` is merely the static-patch radius. Full WR-L lies outside it.
-G305 completes the positive branch through a regular observer horizon to compact `S3`, removing the
-old box. G306 derives two metric-intrinsic Hopf families, but isotropy selects no member; a supplied
-member has frame-independent, scale-blind helicity `+1` or `-1`. G307 conditionally reconstructs a
-member from supplied directed/screen germs. G308 extends both mirror-related chiral sectors globally
-without physical population or chirality selection. All are externally closed; metric/kernel unchanged.
-
-G309 supplies a smooth time-live counterfamily preserving a quiet half-history and all round-`S3`
-Hopf kinematics while changing curvature: the founded/working chain remains compatibility-only.
-The `CONDITIONAL` G301 trace-free residual rejects it and fixes the positive round shape to
-`a(T)=X cosh((T-T0)/X)`, leaving one uncalibrated scale. External review and replay repair passed.
+G304--G309 bound the positive smooth-center static branch, complete it to compact `S3`, construct
+two mirror Hopf families, and prove topology/carry still select no time history or population.
+`WORKING` G17 selects sign only; `X=sqrt(12/R0)` is not physical `X_max`. The `CONDITIONAL` G301
+residual fixes the round shape `a(T)=X cosh((T-T0)/X)` up to one uncalibrated scale.
 
 G310 externally verifies the bounded G301 consequence: reciprocal pair-shape tangents span nine
 trace-free directions, so DDR gives `R_ab-(R/4)g_ab=0`; Bianchi leaves one scalar. Charles adopted
@@ -65,20 +56,19 @@ connected constant scalar. Global bootstrap may build/select the local metric, b
 remote-history response remains after its admitted local jet is fixed. Metric, kernel, angular
 cancellation, observations, scale, and `X_max` are unchanged.
 
-G313 maps `Ric=Lambda g` as a multibranch Einstein arena; Weyl/tide, topology, data, scalar, scale,
-and population remain open. G314 makes global bootstrap optional; no selector is owned.
-G315 accepts supplied constrained Cauchy/null data; G316 one conditional conformal construction.
-G317 externally accepts an exact coupled non-CMC family: constraints interlock its longitudinal,
-TT-mean, and scalar channels; `q=0` has zero initial Weyl, `q!=0` invariant electric tide.
-`tau(x)`, `p`, and `q` remain free; no physical data/history is selected. Null-corner
-normalization remains boost gauge. Interfaces are unchanged.
+G313 maps `Ric=Lambda g` as a multibranch Einstein arena; G314 makes global bootstrap optional. G315--G317
+constrain supplied data and establish constant-`psi` non-CMC zero/electric-tide branches. G318 frees
+`psi` in one sign-definite constant-ratio family: G317's form is obstructed, `tau=C psi^n`
+is forced, and one `n=-2` positive periodic tidal branch exists; `n<=-3`, `Lambda>=0` is obstructed
+within that power family. This is not a general theorem or selector. Data/history, topology, scalar,
+scale, population, and `X_max` remain open; interfaces unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G317 history/dynamics. The positive round cosh history is one exact branch of the G313
+G282--G318 history/dynamics. The positive round cosh history is one exact branch of the G313
 multibranch Einstein arena; G314 keeps unique-universe bootstrap optional and open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
@@ -86,7 +76,7 @@ G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -97,7 +87,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 300-row registry now includes G307--G317 at their externally reviewed bounded grades.
+The exact 301-row registry now includes G307--G318 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -116,9 +106,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Relax G317's constant-conformal-factor restriction in one bounded non-CMC family and determine
-whether the exact interlock survives, becomes obstructed, or branches when `psi` varies. This
-extends the construction surface; it does not choose Nature's data. Do not resume the optional
+Remove G318's constant-ratio separability restriction while retaining its flat marked-`T^3`,
+positive sign-definite, diagonal-TT, one-coordinate diagnostic frame. Classify the resulting full
+vector/scalar constraint family and determine which G318 obstructions or periodic branches survive.
+This extends the construction surface; it does not choose Nature's data. Do not resume the optional
 selector hunt without Charles; do not restamp premises, select a witness, misassign angular
 loud--quiet--loud, or import action, source, matter/mass, observation, scale, `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

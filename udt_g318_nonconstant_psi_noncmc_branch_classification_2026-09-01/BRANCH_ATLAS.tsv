@@ -1,0 +1,17 @@
+sector	object	classification	constraint_or_guard
+domain	flat marked T3	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	not selected topology
+field	positive nonconstant psi(x)	FREE_IN_REGISTERED_FAMILY	conformal geometry activated
+field	sign-definite tau(x)	CHOSE_POWER_BRANCH	zeros and sign changes omitted
+ansatz	constant mixed-eigenvalue ratio	FREE_AND_CLASSIFIED_IN_SLICE	not a physical ratio law
+vector	G317 k=1 form	OBSTRUCTED_IN_REGISTERED_NONCONSTANT_PSI_BRANCH	psi-prime times tau must vanish
+vector	k not equal 1	POWER_INTERLOCK	tau=C psi^n and k=n/(n+6)
+periodicity	TT mean and W	INTERLOCKED	alpha=2 mean(v)/3 and w-prime=(v-mean(v))/2
+scalar	general power branch	NONLINEAR_AUTONOMOUS_ODE	exact full nonlinear reduction
+obstruction	n less than or equal -3 with Lambda nonnegative	NO_NONCONSTANT_POSITIVE_PERIODIC_MEMBER_IN_SLICE	n=-6 excluded chart
+boundary	n=0	CMC_NOT_NONCMC	retained as boundary only
+existence	n=-2 strict center	POSITIVE_PERIODIC_LOCAL_FAMILY	period aligned by parameter covariance
+geometry	n=-2 d=0 center orbits	NONZERO_ELECTRIC_TIDE	magnetic tide zero but E nonzero
+geometry	n=-2 d nonzero nonconstant orbits	NONZERO_MAGNETIC_TIDE_SOMEWHERE	genuine Weyl witness
+freedom	psi orbit C d n	NOT_SELECTED	continuous and functional family remains
+scope	general non-CMC construction	OPEN_OMITTED	nonseparable nonflat nondiagonal multidimensional sectors outside
+all	physical history	NOT_SELECTED	lawful data construction only

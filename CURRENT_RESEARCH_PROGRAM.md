@@ -2,7 +2,7 @@
 
 Date: 2026-09-01
 
-`LIVE.md` controls status; the 300-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 301-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -84,7 +84,9 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   remain open. G314 makes unique-universe bootstrap optional; no selector is owned.
 - G315 accepts supplied constrained Cauchy/null data; G316 a conditional conformal construction.
   G317 accepts an exact coupled non-CMC constant-`psi` family with zero/electric-tide branches and
-  free function/parameters. None selects physical data/history; interfaces remain unchanged.
+  free function/parameters. G318 frees `psi` inside one sign-definite constant-ratio family: the
+  old G317 form is obstructed, `tau=C psi^n` is forced, and an exact positive periodic tidal branch
+  exists. None selects physical data/history; interfaces remain unchanged.
 
 ## Open boundary
 
@@ -110,8 +112,8 @@ inside G311's conditional G301 lane; the positive round history shape is then fi
 curvature scale. G312's two premises are owner-adopted provisionally, making bounded trace-free
 Ricci active. G313 shows its solution space is a multibranch Einstein arena, not a selected round
 universe. G314 makes unique-universe bootstrap an optional stronger ambition rather than a missing
-condition for bounded conditional dynamics. G315--G317 constrain and construct data, showing exact
-non-CMC interlock and tide separation without selection. Curvature
+condition for bounded conditional dynamics. G315--G318 constrain and construct data, showing exact
+non-CMC interlock, branching, and tide separation without selection. Curvature
 scale, population, mass, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -120,6 +122,6 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Relax G317's constant-`psi` restriction in one bounded family; classify interlock, obstruction, or
-branching without choosing Nature's data. Do not resume optional bootstrap without owner direction
-or import action, source, matter/mass, observation, fit, `X_max`, protected work, or realized history.
+Remove G318's constant-ratio restriction in the bounded frame. Classify the full
+vector/scalar family without choosing Nature's data. Do not resume bootstrap without owner direction
+or import action, source, matter/mass, observation, fit, `X_max`, protected work, or history.

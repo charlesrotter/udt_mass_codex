@@ -37,6 +37,10 @@ construction with solvable, obstructed, underfixed, and gauge-degenerate classes
 accepts an exact genuinely coupled non-CMC family with zero-initial-Weyl and invariant-electric-tide
 subbranches; `tau(x)`, `p`, and `q` remain free. No physical data/history is selected; null-corner
 normalization is boost gauge. Interfaces remain unchanged.
+G318 accepts a nonconstant-`psi` extension inside a chosen sign-definite constant-ratio family. It
+obstructs the unchanged G317 form, forces `tau=C psi^n`, and yields an exact nonlinear scalar ODE.
+The `n=-2` class contains positive periodic tidal members; `n<=-3`, `Lambda>=0` is obstructed in the
+registered power branch. This does not select a history or promote the separability ansatz.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta`; conditional `c_eff/c_E=exp(-2 delta)` is not signal speed. Completed-pair Dual
@@ -44,14 +48,14 @@ Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`. Population/history rem
 `OPEN`; higher/full carry is unresolved.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G317 history/dynamics. Use `INDEX.md` for exact paths.
+G282--G318 history/dynamics. Use `INDEX.md` for exact paths.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290;
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditional scale. G277--G281
 retain optical imports, direct redshift, native Jacobi evaluation, and no native SNe prediction.
@@ -66,7 +70,7 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 300-row registry includes G307--G317 at their externally reviewed bounded grades.
+The exact 301-row registry includes G307--G318 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -75,9 +79,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: relax G317's constant-`psi` restriction in one bounded non-CMC family and classify whether
-the exact interlock survives, becomes obstructed, or branches. This extends the construction rather
-than selecting Nature's data. Do not restart the optional selector hunt without owner direction;
-preserve existing import/nonpromotion guards.
+Next: remove G318's constant-ratio separability restriction in the same bounded diagnostic frame
+and classify the full vector/scalar family. This extends the construction rather than selecting
+Nature's data. Do not restart the optional selector hunt without owner direction; preserve existing
+import/nonpromotion guards.
 
 <!-- STARTUP_CURRENT_END -->
