@@ -36,26 +36,31 @@ postulate with two formulations: **Universal Reciprocity** is its plain-language
 its tested curvature-level mathematical formulation inside the bounded conditional G301 arena. The
 angular-sector cancellation—not DDR—owns loud--quiet--loud.
 
+G311 externally accepts the regular-local response-shape theorem: all pair-plane tangents span the
+nine trace-free metric directions, so Universal Reciprocity gives `TF_g(E)=0` for supplied symmetric
+`E`, but selects neither `E` nor `lambda`. Conditional G301 yields Einstein-space dynamics, one
+connected scalar, and two local metric configuration degrees of freedom. A Weyl-quadratic
+counterresponse proves the outer boundary. Metric/kernel are unchanged.
+Response constitution remains open.
+
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
-`phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
-Reciprocity remains a `WORKING_FOUNDATIONAL_CLARIFICATION`: `m=T L_sigma=sqrt(-det h_sigma)`,
-`Phi=-log T`. Events, functions, population, higher/full carry, history, and realization are supplied
-or `OPEN`.
+`phi_pair=delta`; conditional `c_eff/c_E=exp(-2 delta)` is not signal speed. Completed-pair Dual
+Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`. Population/history remain supplied or
+`OPEN`; higher/full carry is unresolved.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G310 history/dynamics. Use `INDEX.md` for exact paths.
+G282--G311 history/dynamics. Use `INDEX.md` for exact paths.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290;
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311.
 
-W5 is noncanon normalized projective position. G275/G276 leave one conditionally attached scale.
-G277/G278/G279/G280/G281 retain declared optical imports, direct redshift, native Jacobi evaluation,
-and no tracked native SNe prediction. G282/G283/G284/G285/G286/G287/G288 retain the open neighboring
-tide, propagation, profile, scale, mass, and history boundaries.
+W5 is noncanon normalized projective position. G275/G276 leave one conditional scale. G277--G281
+retain optical imports, direct redshift, native Jacobi evaluation, and no native SNe prediction.
+G282--G288 retain open propagation, profile, scale, mass, and history boundaries.
 
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw data:
@@ -66,7 +71,7 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 293-row registry includes G307--G310 at their externally reviewed bounded grades.
+The exact 294-row registry includes G307--G311 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -75,11 +80,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: derive the provisionally adopted postulate's full nonlinear covariant consequences beyond
-G310's bounded conditional arena, exposing every added premise; then characterize the surviving
-solution space before independently calibrating its scalar datum. Do not turn consistency,
-candidate economy, or Hopf consilience into proof; do not
-misassign angular loud--quiet--loud behavior; and do not import an action, source, mass, fitted scale,
-physical `X_max`, or protected work.
+Next: test ownership of G301's response constitution or natively reject G311's open alternatives;
+then characterize and calibrate surviving conditional solutions. Do not turn consistency/Hopf
+consilience into proof, misassign angular loud--quiet--loud, or import an action, source, mass, fitted
+scale, physical `X_max`, or protected work.
 
 <!-- STARTUP_CURRENT_END -->

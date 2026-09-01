@@ -21,6 +21,7 @@
 | Non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` W6 | Nonpropagating relational membership; metric-causal controllable response | Constraint/update formula; population; history; global-now ownership |
 | Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
 | Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
+| G311 covariant response | `EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY` | `TF_g(E)=0`; conditional G301 dynamics | Response constitution; scale/history |
 
 ## Reconstruction hierarchy
 
@@ -31,7 +32,7 @@ G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -70,6 +71,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 | G308 global chirality coherence | external/R3 accepted | Mirror sectors; physical sign open |
 | G309 history audit | external/repair accepted | Founded counterfamily; conditional G301 fixes shape up to scale |
 | G310 Universal Reciprocity / DDR | external/repairs + owner adoption accepted | Owner-provisionally-adopted, not-derived, noncanon postulate; conditionally selects trace-free Ricci and leaves one datum |
+| G311 covariant response | external/repair accepted | `TF_g(E)=0`; constitution open; conditional G301 dynamics |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -87,16 +89,13 @@ None selects completion/`X_max`.
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 ## Geometry, query, and causality
 
-- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class. G282--G296
-  separate tide, sign, topology, causality, and first natural differential order without a law.
-  G297--G300 derive complete carry but no physical query family. G301--G303 leave Ricci-flat versus
-  trace-free Ricci with one regional constant and the same causal principal system. G304--G308 add
-  the positive static sign, compact `S3`, and mirror Hopf families without population. G309 proves
-  those kinematics do not select the time profile. G310's DDR condition is the tested curvature-level
-  mathematical formulation of Charles's provisionally adopted Universal Reciprocity postulate. It
-  conditionally selects trace-free Ricci and leaves one scalar datum; extension, magnitude, history,
-  population, mass, and `X_max` remain open. Angular cancellation owns loud--quiet--loud. W1 remains
-  evaluative.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class. G282--G300
+  separate tide, topology, causality, differential order, carry, and query without a law. G301--G303
+  leave Ricci-flat versus trace-free Ricci with one constant and one causal principal system.
+  G304--G309 add positive sign, compact `S3`, Hopf families, and a nonselection counterhistory.
+  Provisionally adopted Universal Reciprocity/DDR conditionally selects trace-free Ricci; G311
+  extends its response-shape consequence but leaves response constitution, scale, population, mass,
+  and `X_max` open. Angular cancellation owns loud--quiet--loud. W1 remains evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -109,12 +108,11 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G310 leave extension and the realized scale open. G310
-supplies externally verified consistency/consequence evidence for the now provisionally adopted
-postulate, which conditionally selects the G301 trace-free residual. It does not derive or canonize
-the postulate. No native SNe prediction or observationally selected value law follows.
+R2--R5 select no scale/`X_max`; G277--G311 leave response constitution and scale open. G310 verifies
+bounded consequences of the provisionally adopted postulate, not its derivation/canonization. No
+native SNe prediction or observationally selected value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 293-row authority through G310; conflicts stop. Run
-`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
+The 294-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls through G311. Run its verifier; query exact
+rows only when load-bearing.

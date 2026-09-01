@@ -62,22 +62,29 @@ reciprocal. DDR is its tested
 curvature-level mathematical formulation inside the bounded conditional G301 arena, not a
 postulate derived from earlier pair algebra. The postulate is provisionally adopted, not canonized.
 The angular-sector cancellation, not DDR, owns loud--quiet--loud.
+
+G311 externally accepts the regular-local response-shape theorem. Tangents from all orthonormal
+timelike--spacelike pair planes span the nine trace-free metric directions; Universal Reciprocity
+therefore gives `TF_g(E)=0`, or `E=lambda(x)g`, for a **supplied** symmetric response `E`, but selects
+neither `E` nor `lambda`. Response constitution remains open. Conditional G301 then gives
+`Ric-(R/4)g=0`; Bianchi leaves one constant scalar and two local metric configuration degrees of
+freedom. A Weyl-quadratic counterresponse proves the outer boundary. Metric, kernel, angular
+cancellation, observations, scale, and `X_max` are unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G310 history/dynamics. Conditional DDR plus the G301 arena fixes the
-positive round history shape up to one scale; ownership, population, magnitude, and dynamics remain
-open.
+G282--G311 history/dynamics. Conditional G301 plus Universal Reciprocity fixes the positive round
+shape up to one scale; ownership and realization remain open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -88,7 +95,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 293-row registry now includes G307--G310 at their externally reviewed bounded grades.
+The exact 294-row registry now includes G307--G311 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -107,11 +114,8 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Universal Reciprocity/DDR is now provisionally adopted. Next derive its full nonlinear covariant
-consequences beyond G310's bounded conditional arena, with every additional premise exposed; then
-characterize the surviving solution space before independently calibrating its scalar datum. Do not
-rename the postulate as derived or canon, reopen its linguistic-versus-mathematical identification,
-or attribute
-angular loud--quiet--loud cancellation to it, infer it from Hopf consilience, fit before the law
-class is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
+Test whether UDT owns G301's first-curvature response constitution or natively rejects G311's open
+higher-order/nonlocal alternatives. Then characterize and calibrate the surviving conditional
+solutions. Do not call the postulate derived/canon, assign it angular loud--quiet--loud, fit before
+the law class is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

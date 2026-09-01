@@ -1,7 +1,7 @@
 # UDT Mass Codex — Codex Working Instructions
 
 Charles canonizes. Nothing enters `CANON.md` without his explicit sign-off. This repository is an
-evidence ledger, not a place to turn a promising lead into a stronger claim.
+evidence ledger; do not strengthen promising leads.
 
 ## Mandatory startup
 
@@ -28,7 +28,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   verifier audits the 293-row exact registry without dumping its wide rows into model context.
+   verifier audits the 294-row exact registry without dumping its wide rows into model context.
    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
@@ -94,7 +94,8 @@ Disk evidence wins over conversational memory.
 ## Binding UDT research rules
 
 - Remain pure to UDT: **the metric is the theory**. Universal Reciprocity/DDR is Charles's
-  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31): not derived or canon. Use only G310's scope.
+  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31): not derived or canon. G311 owns response shape
+  only; G301 response constitution/dynamics remain conditional.
 - G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
   reconstruct old selector/carry architecture from root prose.
 - The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,
