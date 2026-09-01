@@ -37,3 +37,8 @@ recover the current evidence grades, identify Universal Reciprocity and DDR as t
 and mathematical formulations of one proposed postulate, and keep that postulate separate from
 angular-sector loud--quiet--loud behavior. This result does not adopt the postulate and establishes
 no new UDT physics.
+
+## Later owner action
+
+Charles provisionally adopted the postulate on 2026-08-31 after this documentary result. See
+`ADOPTION_RECORD.md`. The statement above remains the historical grade at this result's time.

@@ -19,8 +19,8 @@
 | Co-presence | `WORKING` | Membership | Population; signalling |
 | G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Constraint/update formula; history |
 | Non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` W6 | Nonpropagating relational membership; metric-causal controllable response | Constraint/update formula; population; history; global-now ownership |
-| Universal Reciprocity | `PROPOSED_FOUNDATIONAL_FRAME` | Charles's plain-language formulation of the same proposed postulate mathematically expressed by DDR | Provisional adoption/canonization |
-| Differential Dual Reciprocity | `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Adoption; scalar datum; history |
+| Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
+| Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
 
 ## Reconstruction hierarchy
 
@@ -92,11 +92,11 @@ None selects completion/`X_max`.
   G297--G300 derive complete carry but no physical query family. G301--G303 leave Ricci-flat versus
   trace-free Ricci with one regional constant and the same causal principal system. G304--G308 add
   the positive static sign, compact `S3`, and mirror Hopf families without population. G309 proves
-  those kinematics do not select the time profile. G310's new unadopted DDR candidate is the tested
-  curvature-level mathematical formulation of Charles's plain-language Universal Reciprocity
-  postulate. It conditionally selects trace-free Ricci and leaves one scalar datum; adoption,
-  magnitude, history, population, mass, and `X_max` remain open. Angular cancellation owns
-  loud--quiet--loud. W1 remains evaluative.
+  those kinematics do not select the time profile. G310's DDR condition is the tested curvature-level
+  mathematical formulation of Charles's provisionally adopted Universal Reciprocity postulate. It
+  conditionally selects trace-free Ricci and leaves one scalar datum; extension, magnitude, history,
+  population, mass, and `X_max` remain open. Angular cancellation owns loud--quiet--loud. W1 remains
+  evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -109,10 +109,10 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale or `X_max`; G277--G310 leave adoption and the realized scale open. G310
-supplies an externally verified candidate postulate that conditionally selects the G301 trace-free
-residual; it does not derive or adopt that postulate. No native SNe prediction or observationally
-selected value law follows.
+R2--R5 select no scale or `X_max`; G277--G310 leave extension and the realized scale open. G310
+supplies externally verified consistency/consequence evidence for the now provisionally adopted
+postulate, which conditionally selects the G301 trace-free residual. It does not derive or canonize
+the postulate. No native SNe prediction or observationally selected value law follows.
 
 ## How to use the registry
 

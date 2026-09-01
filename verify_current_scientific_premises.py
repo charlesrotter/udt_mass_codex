@@ -117,6 +117,10 @@ STALE_STARTUP_TOKENS = (
     "motivates testing DDR",
     "motivates but does not derive DDR",
     "motivates but does not prove DDR",
+    "Neither formulation is adopted",
+    "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+    "provisionally adopt Universal Reciprocity/DDR",
+    "adoption remains open",
 )
 
 ARCHIVED_STARTUP_SNAPSHOTS = {
@@ -399,11 +403,12 @@ def validate_startup_surface(root: Path) -> None:
             "G310",
             "W6",
             "Universal Reciprocity",
-            "plain-language formulation",
-            "same proposed postulate",
+            "plain-language statement",
+            "one postulate with two formulations",
             "tested curvature-level mathematical formulation",
-            "Neither formulation is adopted",
-            "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+            "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+            "2026-08-31",
+            "not derived or canonized",
             "angular-sector cancellation",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -444,6 +449,8 @@ def validate_startup_surface(root: Path) -> None:
             "AGENTS guard absent: Primary-kernel regression gate")
     require("WORKING_FOUNDATIONAL_CLARIFICATION` (G176)" in controls["AGENTS.md"],
             "AGENTS lacks G176 completed-pair clarification")
+    require("OWNER_ADOPTED_PROVISIONAL_POSTULATE" in controls["AGENTS.md"],
+            "AGENTS lacks Universal Reciprocity/DDR provisional-adoption guard")
 
     required_routes = {
         "AGENTS.md": (
@@ -2182,17 +2189,35 @@ def main() -> None:
         require(review_token in response, f"{premise_id} external closure token changed")
 
     g310_row = by_id["G310"]
-    require("NOT_DERIVED_OR_ADOPTED" in g310_row["current_status"],
-            "G310 DDR was promoted without owner authorization")
+    require("NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON"
+            in g310_row["current_status"],
+            "G310 owner-adopted provisional stamp missing or changed")
     require("Universal Reciprocity and DDR falsely split into separate unresolved premises"
             in g310_row["forbidden_regression"],
             "G310 Universal Reciprocity/DDR identity guard missing")
-    require("provisional adoption or canonization of Universal Reciprocity DDR as one proposed postulate"
+    require("covariant extension beyond the bounded conditional G301 arena"
             in g310_row["open_scope"],
-            "G310 owner adoption gate missing")
+            "G310 post-adoption extension gate missing")
+    require("owner adoption omitted or demoted to unadopted candidate"
+            in g310_row["forbidden_regression"],
+            "G310 owner-adoption demotion guard missing")
+    require("provisional adoption called canonization proof or observational validation"
+            in g310_row["forbidden_regression"],
+            "G310 canonization guard missing")
     require("loud quiet loud attributed to DDR rather than angular cancellation"
             in g310_row["forbidden_regression"],
             "G310 angular-cancellation ownership guard missing")
+    adoption_record = (
+        ROOT
+        / "startup_surface_g310_universal_reciprocity_refresh_2026-08-31"
+        / "ADOPTION_RECORD.md"
+    )
+    require(adoption_record.is_file(), "Universal Reciprocity/DDR adoption record missing")
+    adoption_text = adoption_record.read_text(encoding="utf-8")
+    require('Authorization: **"Charles says provisionally adopt."**' in adoption_text,
+            "Universal Reciprocity/DDR owner authorization changed")
+    require("OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON" in adoption_text,
+            "Universal Reciprocity/DDR adoption grade changed")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14905,9 +14930,9 @@ def main() -> None:
     for token in [
         "on **supplied ordered depth**",
         "presentation potential",
-        "complete observer/event/path-to-depth assignment",
+        "not observer/event/path assignment",
         "Pair reversal negates",
-        "Angular, screen, and mixing data",
+        "Angular, screen, and mixing enter",
         "observed clock/ruler calibration scale",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
         "native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`",
@@ -14916,6 +14941,7 @@ def main() -> None:
         "EH metric-only action is `CONDITIONAL",
         "Bootstrap/stable-matter is a working hypothesis",
         "Primary-kernel regression gate",
+        "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
         "germ -> h=F^*g -> complete-pair Dual Reciprocity -> endpoint Phi values -> endpoint difference",
         "G142--G160 abstract carrier/carry/score architecture remains conditional historical control",
         "archive/scaffolded_kernel_controls_2026-08-19/README.md",

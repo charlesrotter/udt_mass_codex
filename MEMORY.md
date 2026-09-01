@@ -19,14 +19,14 @@ are mirror-related; physical population remains open. G309 proves Hopf kinematic
 time profile. The conditional G301 trace-free residual does: on the positive round branch it fixes
 `a=X cosh((T-T0)/X)`, leaving one scale. Residual ownership, scale, mass, and `X_max` remain open.
 G309 and its dependency-free replay repair passed external review; metric/kernel unchanged.
-G310 externally verifies, after two preregistered evidence repairs, that one new unadopted
-Differential Dual Reciprocity postulate conditionally selects the G301 trace-free Ricci class and
-reduces the free history function to one scalar curvature datum. DDR ownership/adoption, magnitude,
-realized history, population, mass, scale, and physical `X_max` remain open.
-Universal Reciprocity is Charles's plain-language formulation of the same proposed postulate that
-G310 expresses mathematically as DDR. G310 verifies the bounded curvature-level formulation and
-its conditional consequences; it does not derive or adopt the postulate. Angular cancellation, not
-DDR, owns loud--quiet--loud.
+G310 externally verifies, after two preregistered evidence repairs, that Differential Dual
+Reciprocity conditionally selects the G301 trace-free Ricci class and reduces the free history
+function to one scalar curvature datum.
+Universal Reciprocity is Charles's plain-language formulation of the same postulate that
+G310 expresses mathematically as DDR. Charles provisionally adopted it on 2026-08-31. G310 verifies
+the bounded curvature-level formulation and its conditional consequences; it does not derive or
+canonize the postulate. Extension, magnitude, history, population, mass, scale, and physical
+`X_max` remain open. Angular cancellation, not DDR, owns loud--quiet--loud.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -46,10 +46,10 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-An explicit choice between seeking stronger founding ownership for candidate DDR and provisionally
-adopting DDR as the candidate parent law. Only after that may its remaining scalar datum be
-calibrated. Do not call DDR derived from its economy or Hopf consilience, or import an action,
-source, mass, fit, or physical `X_max`.
+Derive the adopted postulate's full nonlinear covariant consequences beyond G310's bounded arena,
+exposing every added premise. Characterize the surviving solution space before independently
+calibrating its scalar datum. Do not call DDR derived or canon, or import an action, source, mass,
+fit, or physical `X_max`.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

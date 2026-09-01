@@ -53,13 +53,15 @@ G310 externally verifies one candidate bridge. `Differential Dual Reciprocity` (
 the conditional G301 curvature response against all reciprocal pair-shape tangents. Those tangents
 span nine trace-free metric directions, so on G301's nondegenerate stratum DDR is equivalent to
 `R_ab-(R/4)g_ab=0`; Bianchi leaves one regional scalar datum. DDR is
-`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived from F1--F4/W1--W6, and selects no magnitude,
-realized history, population, mass, scale, or physical `X_max`. External review and repairs passed.
-**Universal Reciprocity** is Charles's plain-language formulation of this same proposed postulate:
-UDT spacetime and all admissible pair responses must remain reciprocal. DDR is its tested
+`OWNER_ADOPTED_PROVISIONAL_POSTULATE` by Charles on 2026-08-31, not derived or canonized, and selects
+no magnitude, realized history, population, mass, scale, or physical `X_max`. External review and
+repairs passed before adoption and supply the bounded consistency/consequence evidence.
+Universal Reciprocity/DDR is one postulate with two formulations. **Universal Reciprocity** is
+Charles's plain-language statement: UDT spacetime and all admissible pair responses must remain
+reciprocal. DDR is its tested
 curvature-level mathematical formulation inside the bounded conditional G301 arena, not a
-postulate derived from earlier pair algebra. Neither formulation is adopted or canonized. The
-angular-sector cancellation, not DDR, owns loud--quiet--loud.
+postulate derived from earlier pair algebra. The postulate is provisionally adopted, not canonized.
+The angular-sector cancellation, not DDR, owns loud--quiet--loud.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -105,11 +107,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G310 and its preregistered evidence repairs passed external review. Next Charles decides whether to
-provisionally adopt Universal Reciprocity/DDR as one proposed postulate. If adopted, derive its
-downstream consequences and only then calibrate the remaining scalar curvature datum; if not,
-retain G310 as a conditional candidate. Do not reopen the settled linguistic-versus-mathematical
-identification, rename a postulate as derived, attribute
+Universal Reciprocity/DDR is now provisionally adopted. Next derive its full nonlinear covariant
+consequences beyond G310's bounded conditional arena, with every additional premise exposed; then
+characterize the surviving solution space before independently calibrating its scalar datum. Do not
+rename the postulate as derived or canon, reopen its linguistic-versus-mathematical identification,
+or attribute
 angular loud--quiet--loud cancellation to it, infer it from Hopf consilience, fit before the law
 class is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

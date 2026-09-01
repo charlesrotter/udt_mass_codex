@@ -79,10 +79,10 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
   G301 trace-free Ricci rejects it and fixes `a=X cosh((T-T0)/X)`, leaving one uncalibrated scale.
 - G310 externally verifies that one new `DDR` postulate selects trace-free Ricci on G301's
   nondegenerate stratum, leaving one scalar datum. It is a sufficiency theorem for a
-  `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not a derivation or selected history/scale.
-  **Universal Reciprocity** is Charles's plain-language formulation of this same proposed
-  postulate; DDR is its tested curvature-level mathematical formulation. Angular-sector interlock
-  owns loud--quiet--loud.
+  postulate now `OWNER_ADOPTED_PROVISIONAL_POSTULATE` by Charles (2026-08-31), not a derivation,
+  canonization, or selected history/scale. **Universal Reciprocity** is its plain-language
+  formulation; DDR is its tested curvature-level mathematical formulation. Angular-sector
+  interlock owns loud--quiet--loud.
 
 ## Open boundary
 
@@ -103,9 +103,9 @@ working finite-ceiling condition to distinguish the positive sign in the smooth-
 branch. G305 extends that branch through its standard global completion and supplies a compact `S3`
 domain. G306--G308 narrow the native geometry to a globally coherent supplied member with two
 parity-related sectors, but select no physical population. G309 shows that this topology and carry
-do not select the time profile. G310 shows that provisionally adopting DDR would select the G301
-trace-free residual; then the positive round history shape is fixed up to one curvature scale. DDR
-ownership/adoption, that scale, population, mass, and physical `X_max` remain open.
+do not select the time profile. Owner-adopted provisional DDR selects the G301 trace-free residual
+inside G310's bounded conditional arena; the positive round history shape is then fixed up to one
+curvature scale. Extension, that scale, population, mass, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -113,8 +113,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Charles decides whether to provisionally adopt Universal Reciprocity/DDR as one proposed postulate.
-If adopted, derive its downstream consequences and only then use an independent observation to
-calibrate the remaining scalar datum; if not, retain G310 as a conditional candidate. Do not
-restamp a postulate as derived, turn Hopf consilience or angular cancellation into ownership proof,
+Derive the provisionally adopted Universal Reciprocity/DDR postulate's full nonlinear covariant
+consequences beyond G310's bounded conditional arena, exposing every additional premise. Then
+characterize the surviving solution space before independently calibrating its scalar datum. Do not
+restamp a postulate as derived or canon, turn Hopf consilience or angular cancellation into proof,
 or import an action, source, mass, fit, physical `X_max`, protected work, or realized history.

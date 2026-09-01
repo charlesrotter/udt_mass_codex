@@ -30,11 +30,11 @@ fixes `a(T)=X cosh((T-T0)/X)`, leaving one uncalibrated scale.
 G310 externally verifies one candidate bridge: `Differential Dual Reciprocity` balances G301's
 conditional curvature response against all reciprocal pair-shape directions. On G301's
 nondegenerate stratum this is `R_ab-(R/4)g_ab=0`; Bianchi leaves one regional scalar datum. DDR is
-`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived, and selects no realized history, population,
-mass, scale, or physical `X_max`. **Universal Reciprocity** is Charles's plain-language formulation
-of this same proposed postulate; DDR is its tested curvature-level mathematical formulation inside
-the bounded conditional G301 arena. Neither formulation is adopted. The angular-sector
-cancellation—not DDR—owns loud--quiet--loud.
+`OWNER_ADOPTED_PROVISIONAL_POSTULATE` by Charles on 2026-08-31, not derived or canonized, and selects
+no realized history, population, mass, scale, or physical `X_max`. Universal Reciprocity/DDR is one
+postulate with two formulations: **Universal Reciprocity** is its plain-language statement; DDR is
+its tested curvature-level mathematical formulation inside the bounded conditional G301 arena. The
+angular-sector cancellation—not DDR—owns loud--quiet--loud.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -75,10 +75,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: Charles decides whether to provisionally adopt Universal Reciprocity/DDR as one proposed
-postulate. If adopted, derive its downstream consequences and calibrate the remaining scalar datum
-only afterward; if not, retain G310 as a conditional candidate. Do not turn consistency, candidate
-economy, or Hopf consilience into proof; do not
+Next: derive the provisionally adopted postulate's full nonlinear covariant consequences beyond
+G310's bounded conditional arena, exposing every added premise; then characterize the surviving
+solution space before independently calibrating its scalar datum. Do not turn consistency,
+candidate economy, or Hopf consilience into proof; do not
 misassign angular loud--quiet--loud behavior; and do not import an action, source, mass, fitted scale,
 physical `X_max`, or protected work.
 

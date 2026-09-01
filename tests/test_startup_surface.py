@@ -95,6 +95,7 @@ CURRENT_TARGETS = (
     "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
     "udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md",
     "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
 )
 
 
@@ -125,7 +126,10 @@ def _startup_copy(tmp_path: Path) -> Path:
     for relative in CURRENT_TARGETS:
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
-        if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+        if relative in (
+            "CURRENT_SCIENTIFIC_PREMISES.tsv",
+            "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+        ):
             shutil.copy2(REPO / relative, destination)
         else:
             destination.touch()
@@ -184,6 +188,17 @@ def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None
     root = _startup_copy(tmp_path)
     _replace(root / "AGENTS.md", "Primary-kernel regression gate", "REMOVED_KERNEL_GATE")
     with pytest.raises(SystemExit, match="AGENTS guard absent"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_agents_universal_reciprocity_adoption_demotion(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "AGENTS.md",
+        "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+        "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+    )
+    with pytest.raises(SystemExit, match="AGENTS lacks Universal Reciprocity/DDR"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -246,7 +261,25 @@ def test_catch_universal_reciprocity_derivation_promotion(tmp_path: Path) -> Non
 
 def test_catch_universal_reciprocity_ddr_false_separation(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "same proposed postulate", "two separate proposed postulates")
+    _replace(root / "LIVE.md", "one postulate with two formulations", "two separate postulates")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_universal_reciprocity_ddr_adoption_demotion(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "LIVE.md",
+        "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+        "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+    )
+    with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_universal_reciprocity_ddr_canonization(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "not derived or canonized", "derived and canonized")
     with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)
 

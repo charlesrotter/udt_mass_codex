@@ -93,17 +93,15 @@ Disk evidence wins over conversational memory.
 
 ## Binding UDT research rules
 
-- Remain pure to UDT: **the metric is the theory**.
-- G129--G165 are bounded controls, not the active kernel route. Their exact ownership and regression
-  guards live in `CURRENT_SCIENTIFIC_PREMISES.tsv`; do not reconstruct their old selector/carry
-  architecture from root prose.
+- Remain pure to UDT: **the metric is the theory**. Universal Reciprocity/DDR is Charles's
+  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31): not derived or canon. Use only G310's scope.
+- G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
+  reconstruct old selector/carry architecture from root prose.
 - The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,
-  not the complete observer/event/path-to-depth assignment. Pointwise `phi`: supplied-metric
-  presentation potential; terminal `phi_pair`: conditional pair readout. Pair reversal negates
-  `delta_AB`, not `phi`; whole-profile conjugation differs.
-- Angular, screen, and mixing data enter the complete pair pullback before terminal reciprocal
-  readout. Do not bolt the orchestra on afterward or promote a conditional strain/readout into the
-  unique physical observer law.
+  not observer/event/path assignment. Pointwise `phi` is a presentation potential; terminal
+  `phi_pair` a conditional readout. Pair reversal negates `delta_AB`, not `phi`; conjugation differs.
+- Angular, screen, and mixing enter the complete pullback before readout. Never bolt them on
+  afterward or promote a conditional readout into a unique observer law.
 - `WORKING_FOUNDATIONAL_CLARIFICATION` (G176): Dual Reciprocity applies to the completed physical
   observer-pair pullback after angular, screen, mixing, and shift contributions enter. On a supplied
   regular pair this fixes the reciprocal ruler density by

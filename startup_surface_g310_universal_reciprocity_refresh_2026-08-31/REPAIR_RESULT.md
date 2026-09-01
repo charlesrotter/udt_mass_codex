@@ -42,3 +42,8 @@ The repository no longer treats Universal Reciprocity and DDR as separate unreso
 or asks whether one derives the other. Charles's provisional-adoption decision remains open. No
 metric, kernel, field equation, history, population, mass, scale, physical `X_max`, or scientific
 landing changed.
+
+## Later owner action
+
+Charles provisionally adopted the postulate on 2026-08-31 after this semantic repair. See
+`ADOPTION_RECORD.md`. The statement above records the status when this repair closed.
