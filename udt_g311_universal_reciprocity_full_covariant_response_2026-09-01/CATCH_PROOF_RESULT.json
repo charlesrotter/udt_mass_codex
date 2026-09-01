@@ -1,0 +1,14 @@
+{
+  "catches": {
+    "eight_plane_mutation_is_rank_deficient": true,
+    "nonzero_pure_trace_response_refutes_full_E_zero": true,
+    "response_choice_is_detected_by_flrw_twin": true,
+    "single_radial_pair_rank_is_one": true,
+    "variable_lambda_refutes_constant_from_pointwise_balance": true,
+    "wrong_reciprocal_sign_is_not_tracefree": true
+  },
+  "caught": 6,
+  "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+  "expected": 6,
+  "verdict": "PASS"
+}

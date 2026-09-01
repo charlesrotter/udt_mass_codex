@@ -1,0 +1,2501 @@
+Script started on 2026-09-01 01:00:09-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a05b56-cba8-7513-a7c5-2b33abb80d83
+--------
+user
+The sealed G311 repair-follow-up intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake and verify only preregistered repairs R1-R3 plus the unchanged bounded scientific landing. Do not edit evidence files or continue the research. Network access is authorized only for Codex API transport. Internet browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Run registered checks only in a writable ephemeral copy. Do not access the repository or protected packages, use unsealed observations, or select or canonize a response law, history, scale, or X_max.\n\n# G311 repair-only external follow-up request
+
+## Frozen scope
+
+The fresh external reviewer returned `G311_REPAIRABLE_DEFECTS` while explicitly upholding the
+bounded scientific landing. Verify only preregistered repairs R1--R3 and that the scientific landing
+is unchanged. Do not reopen or continue the research.
+
+## Required checks
+
+1. **R1 dependency-free independence.** In a writable ephemeral copy, run
+   `python3 -S verify_covariant_response_independent.py`. Confirm that it imports only the Python
+   standard library, imports no production module, uses a different rational plane family and
+   component ordering, and independently reconstructs the exact metric two-jet curvature witness.
+   It must return rank nine, the metric-line annihilator, nonzero trace-free Ricci, zero Weyl, and the
+   unchanged conditional degree count.
+2. **R2 sealed containment.** Run all four commands in the registered sealed replay. Confirm that
+   `verify_package.py` resolves no path above its package, invokes no Git or repository gate, and
+   requires no undeclared dependency. The separately listed repository banking commands in
+   `COMMANDS.md` must be explicitly outside and unauthorized during the intake-only replay.
+3. **R3 evidence grade.** Confirm that `run_catch_proofs.py` is openly described as a shared-code
+   regression harness, and that no ledger, report, or verifier counts its 6/6 catches as
+   implementation-independent confirmation.
+4. **No scientific change.** Compare the retained landing and strongest conditional landing against
+   `EXTERNAL_REVIEW_RESPONSE.md` and `REPAIR_PREREGISTRATION.md`. The theorem, counterresponse,
+   response-constitution boundary, metric, reciprocal kernel, angular cancellation, and premise
+   grades must be unchanged.
+
+Return exactly one of:
+
+- `G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY`
+- `G311_REPAIRABLE_DEFECTS`
+- `G311_SCIENTIFIC_LANDING_CHANGED`
+
+List any remaining defect precisely. Do not edit evidence files, change the scientific question,
+continue the research, or select or canonize a response law, history, scale, or `X_max`.
+codex
+I’m treating this as an intake-only verification in `/intake`, with any execution confined to a writable copy under `/work`. I’ll first inventory the sealed materials and identify the preregistered commands and evidence files needed for R1-R3 and the unchanged-landing check.
+exec
+/bin/bash -c pwd in /intake
+ succeeded in 0ms:
+/intake
+
+exec
+/bin/bash -c 'rg --files' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+`rg` is unavailable in the sealed mount, so I’m falling back to basic filesystem listing from `/intake` only. Next I’m locating the registered replay instructions and the repair-related documents before I run anything in `/work`.
+exec
+/bin/bash -c 'find /intake -maxdepth 2 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/frozen_sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/frozen_sources/founding.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/CATCH_PROOF_RESULT.json
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EVIDENCE_GATES.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_REQUEST.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/INDEPENDENT_VERIFICATION.json
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/LAY_REPORT.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/MAP.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PACKAGE_VERIFICATION_RESULT.json
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PONDER.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PREMISE_LEDGER.tsv
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PREREGISTRATION.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PREREGISTRATION_ANCESTRY.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_ANCESTRY.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_FOLLOWUP_REQUEST.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/RUN_RECORD.md
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/SOURCE_SCOPE.tsv
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/STATUS_LEDGER.tsv
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/derive_covariant_response.py
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py
+
+exec
+/bin/bash -c 'find /intake -maxdepth 2 -type d | sort' in /intake
+ succeeded in 0ms:
+/intake
+/intake/frozen_sources
+/intake/frozen_sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31
+/intake/frozen_sources/udt_g296_complete_metric_native_residual_order_map_2026-08-29
+/intake/frozen_sources/udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30
+/intake/frozen_sources/udt_g302_reciprocal_trace_span_curvature_channel_separation_2026-08-30
+/intake/frozen_sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30
+/intake/frozen_sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01
+
+codex
+The package is self-contained at a single directory under `/intake`, which keeps the replay bounded. I’m reading the registered command list, the repair preregistration, the external review response, and the package/verifier code next so I can run only the authorized checks.
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+# G311 repair preregistration
+
+Date: 2026-09-01
+
+External verdict: `G311_REPAIRABLE_DEFECTS`.
+
+The reviewer found no scientific defect in the two-level G311 landing. These repairs are frozen
+before changing any affected implementation or evidence language. They may not alter the scientific
+question, theorem, counterresponse, or bounded conclusion.
+
+## R1 — dependency-free independent verifier
+
+Replace the undeclared SymPy dependency with a standard-library-only implementation that remains
+independent of `derive_covariant_response.py`. It must independently reconstruct:
+
+- rank nine of the reciprocal tangent span;
+- the one-dimensional response annihilator spanned by the metric;
+- the conformally flat, non-Einstein time-live countermetric at `b=1,t=0`, including nonzero
+  trace-free Ricci and zero Weyl;
+- the conditional G301 degree count.
+
+The replacement must run under `python3 -S`, reproduce a saved machine-readable result, and share
+no production imports.
+
+Falsification: any changed scientific value, nonzero Weyl component, rank other than nine, response
+annihilator other than the metric line, or hidden non-standard dependency fails R1.
+
+## R2 — intake-self-contained aggregate replay
+
+Remove every repository and Git-history access from the registered sealed aggregate replay. The
+intake verifier must use only files inside its own package plus a writable temporary directory.
+Repository-only premise and regression gates may remain documented as upstream banking gates, but
+must be explicitly outside the sealed replay and must not be invoked by it.
+
+The frozen preregistration commit and parent remain evidence recorded in
+`PREREGISTRATION_ANCESTRY.md`; this repair does not rewrite that historical claim.
+
+Falsification: any registered sealed command that resolves a path above the package, invokes Git,
+or requires an undeclared external dependency fails R2.
+
+## R3 — hostile-harness evidence grade
+
+Keep the hostile mutation harness as useful shared-code regression evidence, but remove every claim
+that it is implementation-independent confirmation. The dependency-free independent verifier is
+the separate implementation evidence; the hostile harness only proves that specified mutations are
+caught by the production machinery.
+
+Falsification: any package ledger, report, or verifier that grades the hostile harness as independent
+confirmation fails R3.
+
+## Retained landing
+
+```text
+FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN
+```
+
+Strongest retained conditional landing:
+
+```text
+G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS
+```
+
+Neither landing may be strengthened during repair. A fresh repair-only external follow-up is
+required before G311 can be graded `G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY`.
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md" in /intake
+exec
+/bin/bash -c "sed -n '1,320p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py" in /intake
+ succeeded in 0ms:
+`G311_REPAIRABLE_DEFECTS`
+
+No scientific defect surfaced in the two-level landing itself. Re-deriving from the sealed materials, I get the same bounded result: every local orthonormal timelike-spacelike plane can be realized by a regular freely falling pair germ; the reciprocal tangents span the 9-dimensional trace-free symmetric space; full-rank DDR therefore gives exactly `TF_g(E)=0`, not `E=0`, so pointwise `E=lambda(x)g` is allowed until an extra differential identity is added; and in the conditional G301 lane with `E=a Ric+b R g`, `a!=0` yields `Ric-(R/4)g=0`, then contracted Bianchi gives connected-constant `R`, with the usual 2 local metric configuration degrees of freedom after constraints and gauge. The FLRW-type countermetric also checks out independently: for `a(t)=exp(b t^2)`, `TF(Ric)=diag(-3b,-ba^2,-ba^2,-ba^2)`, so it is nonzero for `b!=0`; after conformal time, the metric is conformal to Minkowski, so Weyl vanishes and `Q_ab=C_acde C_b^{cde}=0` is a valid natural counterresponse outside G301. Current sealed premises leave those higher-order/nonlocal response architectures open, so G311’s nonselection boundary is real, not just a preference.
+
+Defects:
+- The registered “independent” verifier is not sealed-self-contained in this environment. [verify_covariant_response_independent.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py:10) imports `sympy`, but [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:6) does not declare that dependency. In the `/work` copy, `python3 verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.json` failed with `ModuleNotFoundError: No module named 'sympy'`.
+- The aggregate/package verifier is out of bounds for an intake-only sealed replay. [verify_package.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:15) defines `REPO = ROOT.parent` and later runs `git show`/`git merge-base` against repository history at lines 102-109; [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:12) also directs repo-root checks. That conflicts with the review instruction not to access the repository, so the registered suite is not portable to the authorized sealed-intake regime.
+- The hostile-mutation harness is shared-code, not independent evidence. [run_catch_proofs.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py:10) imports the production module and reuses its basis, pairing, rank, and tensor helpers. That is fine as a regression harness, but it cannot rule out common bugs in the production implementation and should not be treated as independent confirmation.
+
+Executed checks in `/work`:
+- `python3 -S derive_covariant_response.py --output DERIVATION_RESULT.json`: passed and reproduced the sealed JSON exactly.
+- `python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json`: passed and reproduced the sealed JSON exactly.
+- `python3 verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.json`: failed because `sympy` is unavailable.
+- `python3 -S verify_package.py`: failed immediately for the same reason, and code inspection shows it would also require forbidden repo access afterward.
+
+So the science lands as stated, but the registered-check package needs reproducibility/scope repairs before this can be promoted to `G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY`.
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Dependency-free independent reconstruction for the bounded G311 result."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+Q = Fraction
+N = 4
+SIG = (-1, 1, 1, 1)
+# Deliberately differs from the production component ordering.
+SYMMETRIC_COMPONENTS = (
+    (0, 0), (1, 1), (2, 2), (3, 3),
+    (0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3),
+)
+
+
+def minkowski_dot(left: tuple[Q, ...], right: tuple[Q, ...]) -> Q:
+    return sum(Q(SIG[i]) * left[i] * right[i] for i in range(N))
+
+
+def reciprocal_shape(u: tuple[Q, ...], n: tuple[Q, ...]) -> list[list[Q]]:
+    assert minkowski_dot(u, u) == -1
+    assert minkowski_dot(n, n) == 1
+    assert minkowski_dot(u, n) == 0
+    u_cov = tuple(Q(SIG[i]) * u[i] for i in range(N))
+    n_cov = tuple(Q(SIG[i]) * n[i] for i in range(N))
+    return [
+        [2 * (u_cov[i] * u_cov[j] + n_cov[i] * n_cov[j]) for j in range(N)]
+        for i in range(N)
+    ]
+
+
+def independent_pair_family() -> list[list[list[Q]]]:
+    basis = [tuple(Q(1) if i == j else Q(0) for i in range(N)) for j in range(N)]
+    pairs: list[tuple[tuple[Q, ...], tuple[Q, ...]]] = []
+    for spatial in (1, 2, 3):
+        pairs.append((basis[0], basis[spatial]))
+    for first, second in ((1, 2), (1, 3), (2, 3)):
+        n = tuple(Q(4, 5) * basis[first][k] + Q(3, 5) * basis[second][k] for k in range(N))
+        pairs.append((basis[0], n))
+    # A different rational boost family from the production implementation.
+    for spatial in (1, 2, 3):
+        u = tuple(Q(13, 5) * basis[0][k] + Q(12, 5) * basis[spatial][k] for k in range(N))
+        n = tuple(Q(12, 5) * basis[0][k] + Q(13, 5) * basis[spatial][k] for k in range(N))
+        pairs.append((u, n))
+    return [reciprocal_shape(u, n) for u, n in pairs]
+
+
+def row_reduce(matrix: list[list[Q]]) -> tuple[list[list[Q]], list[int]]:
+    work = [row[:] for row in matrix]
+    if not work:
+        return work, []
+    pivot_columns: list[int] = []
+    next_row = 0
+    for column in range(len(work[0])):
+        pivot = next((r for r in range(next_row, len(work)) if work[r][column]), None)
+        if pivot is None:
+            continue
+        work[next_row], work[pivot] = work[pivot], work[next_row]
+        divisor = work[next_row][column]
+        work[next_row] = [value / divisor for value in work[next_row]]
+        for r in range(len(work)):
+            if r == next_row or not work[r][column]:
+                continue
+            multiplier = work[r][column]
+            work[r] = [
+                work[r][c] - multiplier * work[next_row][c]
+                for c in range(len(work[r]))
+            ]
+        pivot_columns.append(column)
+        next_row += 1
+        if next_row == len(work):
+            break
+    return work, pivot_columns
+
+
+def matrix_rank(matrix: list[list[Q]]) -> int:
+    return len(row_reduce(matrix)[1])
+
+
+def kernel_basis(matrix: list[list[Q]]) -> list[list[Q]]:
+    reduced, pivots = row_reduce(matrix)
+    free = [column for column in range(len(matrix[0])) if column not in pivots]
+    result: list[list[Q]] = []
+    for free_column in free:
+        vector = [Q(0) for _ in range(len(matrix[0]))]
+        vector[free_column] = Q(1)
+        for row, pivot in enumerate(pivots):
+            vector[pivot] = -reduced[row][free_column]
+        result.append(vector)
+    return result
+
+
+def flattened_shape(tensor: list[list[Q]]) -> list[Q]:
+    return [tensor[i][j] for i, j in SYMMETRIC_COMPONENTS]
+
+
+def balance_functional(tensor: list[list[Q]]) -> list[Q]:
+    return [
+        Q(1 if i == j else 2) * Q(SIG[i] * SIG[j]) * tensor[i][j]
+        for i, j in SYMMETRIC_COMPONENTS
+    ]
+
+
+def inverse_diagonal(metric: list[list[Q]]) -> list[list[Q]]:
+    inverse = [[Q(0) for _ in range(N)] for _ in range(N)]
+    for i in range(N):
+        assert metric[i][i] and all(metric[i][j] == 0 for j in range(N) if j != i)
+        inverse[i][i] = 1 / metric[i][i]
+    return inverse
+
+
+def independent_countermetric_at_origin() -> tuple[list[list[Q]], Q, int]:
+    """Derive curvature at t=0 directly from exact metric two-jets.
+
+    The metric is diag(-1, exp(2 t^2), exp(2 t^2), exp(2 t^2)), corresponding to b=1.
+    Its first metric jet vanishes at t=0 and its only nonzero second jets are
+    d_t d_t g_ii=4 for spatial i. Christoffel derivatives and curvature are reconstructed from
+    those raw jets rather than importing the production curvature values.
+    """
+
+    g = [[Q(0) for _ in range(N)] for _ in range(N)]
+    for i, sign in enumerate(SIG):
+        g[i][i] = Q(sign)
+    g_inv = inverse_diagonal(g)
+
+    dg = [
+        [[Q(0) for _ in range(N)] for _ in range(N)]
+        for _ in range(N)
+    ]
+    # d2g[alpha][beta][mu][nu]
+    d2g = [
+        [
+            [[Q(0) for _ in range(N)] for _ in range(N)]
+            for _ in range(N)
+        ]
+        for _ in range(N)
+    ]
+    # exp(2 t^2)=1+2 t^2+O(t^4), hence the exact second derivative at zero is 2!*2=4.
+    spatial_metric_t2_coefficient = Q(2)
+    for spatial in (1, 2, 3):
+        d2g[0][0][spatial][spatial] = 2 * spatial_metric_t2_coefficient
+
+    # Gamma and dGamma are evaluated at the origin. Gamma vanishes because dg=0.
+    gamma = [
+        [[Q(0) for _ in range(N)] for _ in range(N)]
+        for _ in range(N)
+    ]
+    for rho in range(N):
+        for mu in range(N):
+            for nu in range(N):
+                gamma[rho][mu][nu] = Q(1, 2) * sum(
+                    g_inv[rho][lam]
+                    * (dg[mu][lam][nu] + dg[nu][lam][mu] - dg[lam][mu][nu])
+                    for lam in range(N)
+                )
+    assert all(gamma[rho][mu][nu] == 0 for rho in range(N) for mu in range(N) for nu in range(N))
+
+    dgamma = [
+        [
+            [
+                [Q(0) for _ in range(N)]
+                for _ in range(N)
+            ]
+            for _ in range(N)
+        ]
+        for _ in range(N)
+    ]
+    for alpha in range(N):
+        for rho in range(N):
+            for mu in range(N):
+                for nu in range(N):
+                    dgamma[alpha][rho][mu][nu] = Q(1, 2) * sum(
+                        g_inv[rho][lam]
+                        * (
+                            d2g[alpha][mu][lam][nu]
+                            + d2g[alpha][nu][lam][mu]
+                            - d2g[alpha][lam][mu][nu]
+                        )
+                        for lam in range(N)
+                    )
+
+    # R^rho_{ sigma mu nu} = d_mu Gamma^rho_{nu sigma} - d_nu Gamma^rho_{mu sigma}
+    # at this point because every Gamma vanishes.
+    riemann_up = [
+        [
+            [
+                [Q(0) for _ in range(N)]
+                for _ in range(N)
+            ]
+            for _ in range(N)
+        ]
+        for _ in range(N)
+    ]
+    for rho in range(N):
+        for sigma in range(N):
+            for mu in range(N):
+                for nu in range(N):
+                    riemann_up[rho][sigma][mu][nu] = (
+                        dgamma[mu][rho][nu][sigma] - dgamma[nu][rho][mu][sigma]
+                    )
+
+    ricci = [[Q(0) for _ in range(N)] for _ in range(N)]
+    for sigma in range(N):
+        for nu in range(N):
+            ricci[sigma][nu] = sum(
+                riemann_up[rho][sigma][rho][nu] for rho in range(N)
+            )
+    scalar = sum(g_inv[i][j] * ricci[i][j] for i in range(N) for j in range(N))
+    tracefree = [
+        [ricci[i][j] - scalar * g[i][j] / 4 for j in range(N)]
+        for i in range(N)
+    ]
+    assert ricci == [
+        [Q(-6), Q(0), Q(0), Q(0)],
+        [Q(0), Q(2), Q(0), Q(0)],
+        [Q(0), Q(0), Q(2), Q(0)],
+        [Q(0), Q(0), Q(0), Q(2)],
+    ]
+    assert scalar == 12
+    assert tracefree == [
+        [Q(-3), Q(0), Q(0), Q(0)],
+        [Q(0), Q(-1), Q(0), Q(0)],
+        [Q(0), Q(0), Q(-1), Q(0)],
+        [Q(0), Q(0), Q(0), Q(-1)],
+    ]
+
+    riemann_down = [
+        [
+            [
+                [sum(g[a][rho] * riemann_up[rho][bb][c][d] for rho in range(N)) for d in range(N)]
+                for c in range(N)
+            ]
+            for bb in range(N)
+        ]
+        for a in range(N)
+    ]
+    nonzero_weyl: list[tuple[int, int, int, int, Q]] = []
+    for a in range(N):
+        for bb in range(N):
+            for c in range(N):
+                for d in range(N):
+                    value = (
+                        riemann_down[a][bb][c][d]
+                        - Q(1, 2)
+                        * (
+                            g[a][c] * ricci[d][bb]
+                            - g[a][d] * ricci[c][bb]
+                            - g[bb][c] * ricci[d][a]
+                            + g[bb][d] * ricci[c][a]
+                        )
+                        + scalar
+                        * (g[a][c] * g[d][bb] - g[a][d] * g[c][bb])
+                        / 6
+                    )
+                    if value:
+                        nonzero_weyl.append((a, bb, c, d, value))
+    assert not nonzero_weyl
+    return tracefree, scalar, len(nonzero_weyl)
+
+
+def run() -> dict[str, object]:
+    shapes = independent_pair_family()
+    shape_rank = matrix_rank([flattened_shape(shape) for shape in shapes])
+    assert shape_rank == 9
+    assert all(
+        sum(Q(SIG[i]) * shape[i][i] for i in range(N)) == 0
+        for shape in shapes
+    )
+
+    balance = [balance_functional(shape) for shape in shapes]
+    annihilator = kernel_basis(balance)
+    assert matrix_rank(balance) == 9
+    assert len(annihilator) == 1
+    metric_vector = [Q(SIG[i]) if i == j else Q(0) for i, j in SYMMETRIC_COMPONENTS]
+    assert matrix_rank([annihilator[0], metric_vector]) == 1
+
+    tracefree_ricci, scalar, weyl_count = independent_countermetric_at_origin()
+    assert any(value for row in tracefree_ricci for value in row)
+    assert scalar == 12 and weyl_count == 0
+
+    result = {
+        "independent_method": (
+            "stdlib_fraction_rref_plus_exact_metric_two_jet_christoffel_riemann_weyl"
+        ),
+        "standard_library_only": True,
+        "shares_production_imports": False,
+        "reciprocal_shape_rank": shape_rank,
+        "balance_rank": matrix_rank(balance),
+        "annihilator_nullity": len(annihilator),
+        "annihilator_is_metric_line": True,
+        "flrw_evaluation": "b=1,t=0",
+        "flrw_scalar_curvature": int(scalar),
+        "flrw_tracefree_ricci": [
+            str(tracefree_ricci[i][i]) for i in range(N)
+        ],
+        "flrw_weyl_component_count_nonzero": weyl_count,
+        "response_architecture_counterexample_verified": True,
+        "conditional_g301_phase_dof_count": 12 - 4 - 4,
+        "conditional_g301_configuration_dof_count": (12 - 4 - 4) // 2,
+        "checks": 14,
+        "verdict": "PASS",
+    }
+    return result
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    payload = json.dumps(run(), indent=2, sort_keys=True) + "\n"
+    if args.output:
+        args.output.write_text(payload, encoding="utf-8")
+    else:
+        print(payload, end="")
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md" in /intake
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py" in /intake
+ succeeded in 0ms:
+# G311 registered checks
+
+Run from this package directory:
+
+```bash
+python3 -S derive_covariant_response.py --output DERIVATION_RESULT.json
+python3 -S verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+python3 -S verify_package.py
+```
+
+These four commands are the complete registered sealed replay. They use only this package and a
+writable temporary directory. The hostile harness is shared-code regression evidence; the separate
+dependency-free verifier is the implementation-independent check.
+
+Upstream repository banking gates, run from the repository root, are **not part of the registered
+sealed replay and are not authorized during an intake-only review**:
+
+```bash
+python3 verify_current_scientific_premises.py
+python3 -m pytest tests/
+```
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""No-persistent-output aggregate verifier for G311."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+PREREG_COMMIT = "ab93cf6e"
+PREREG_PARENT = "8ec52db6"
+
+
+def load(path: Path) -> dict[str, object]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def run_checked(command: list[str], cwd: Path, env: dict[str, str]) -> subprocess.CompletedProcess[str]:
+    result = subprocess.run(command, cwd=cwd, env=env, text=True, capture_output=True, check=False)
+    if result.returncode:
+        raise SystemExit(
+            f"command failed ({result.returncode}): {' '.join(command)}\n{result.stdout}{result.stderr}"
+        )
+    return result
+
+
+def verify() -> dict[str, object]:
+    env = os.environ.copy()
+    env["PYTHONDONTWRITEBYTECODE"] = "1"
+    with tempfile.TemporaryDirectory(prefix="g311_verify_") as tmp:
+        tmpdir = Path(tmp)
+        production_out = tmpdir / "production.json"
+        independent_out = tmpdir / "independent.json"
+        catches_out = tmpdir / "catches.json"
+        run_checked(
+            [sys.executable, "-S", "derive_covariant_response.py", "--output", str(production_out)],
+            ROOT,
+            env,
+        )
+        run_checked(
+            [sys.executable, "-S", "verify_covariant_response_independent.py", "--output", str(independent_out)],
+            ROOT,
+            env,
+        )
+        run_checked(
+            [sys.executable, "-S", "run_catch_proofs.py", "--output", str(catches_out)],
+            ROOT,
+            env,
+        )
+        assert load(production_out) == load(ROOT / "DERIVATION_RESULT.json")
+        assert load(independent_out) == load(ROOT / "INDEPENDENT_VERIFICATION.json")
+        assert load(catches_out) == load(ROOT / "CATCH_PROOF_RESULT.json")
+
+    production = load(ROOT / "DERIVATION_RESULT.json")
+    independent = load(ROOT / "INDEPENDENT_VERIFICATION.json")
+    catches = load(ROOT / "CATCH_PROOF_RESULT.json")
+    assert production["landing"] == (
+        "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY"
+        "__RESPONSE_CONSTITUTION_REMAINS_OPEN"
+    )
+    assert production["reciprocal_shape_rank"] == independent["reciprocal_shape_rank"] == 9
+    assert production["balance_rank"] == independent["balance_rank"] == 9
+    assert production["full_response_annihilator"] == "span(g_ab)"
+    assert independent["annihilator_is_metric_line"] is True
+    assert independent["standard_library_only"] is True
+    assert independent["shares_production_imports"] is False
+    assert production["response_architecture_selected_by_covariance_alone"] is False
+    assert independent["response_architecture_counterexample_verified"] is True
+    assert catches["caught"] == catches["expected"] == 6
+
+    exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    lay = (ROOT / "LAY_REPORT.md").read_text(encoding="utf-8")
+    ledger = (ROOT / "STATUS_LEDGER.tsv").read_text(encoding="utf-8")
+    for token in (
+        "E^{\\mathrm{TF}}_{ab}=0",
+        "response architecture",
+        "not derived or",
+        "initial data select one history",
+        "C_{abcd}=0",
+        "two metric configuration degrees of freedom",
+    ):
+        assert token.lower() in exact.lower(), token
+    for token in (
+        "first-curvature G301 branch",
+        "initial conditions select",
+        "metric, reciprocal kernel, angular cancellation",
+    ):
+        assert token.lower() in lay.lower(), token
+    assert "fresh_adversarial_review\tSCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS" in ledger
+    assert "repair_followup_review\tPENDING" in ledger
+
+    ancestry = (ROOT / "PREREGISTRATION_ANCESTRY.md").read_text(encoding="utf-8")
+    repair = (ROOT / "REPAIR_PREREGISTRATION.md").read_text(encoding="utf-8")
+    assert PREREG_COMMIT in ancestry and PREREG_PARENT in ancestry
+    for repair_token in (
+        "R1 — dependency-free independent verifier",
+        "R2 — intake-self-contained aggregate replay",
+        "R3 — hostile-harness evidence grade",
+    ):
+        assert repair_token in repair
+
+    # Intake-containment guard: the registered aggregate replay may not resolve above ROOT or
+    # invoke Git. Historical ancestry is frozen as documentary evidence, not recomputed here.
+    own_source = Path(__file__).read_text(encoding="utf-8")
+    forbidden_source_tokens = (
+        "ROOT" + ".parent",
+        "[" + "'git'",
+        "[" + '"git"',
+    )
+    for forbidden_source_token in forbidden_source_tokens:
+        assert forbidden_source_token not in own_source
+
+    return {
+        "verdict": "PASS",
+        "preregistration_commit": PREREG_COMMIT,
+        "saved_replays_match": True,
+        "production_checks": production["production_checks"],
+        "independent_checks": independent["checks"],
+        "hostile_catches": catches["caught"],
+        "hostile_harness_grade": catches["evidence_grade"],
+        "scientific_landing": production["landing"],
+        "sealed_replay_self_contained": True,
+        "fresh_adversarial_review": "SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS",
+        "repair_followup_review": "PENDING",
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    result = verify()
+    payload = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    if args.output:
+        args.output.write_text(payload, encoding="utf-8")
+    else:
+        print(payload, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Shared-code hostile regression mutations for the G311 production theorem."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+import derive_covariant_response as production
+
+
+def run() -> dict[str, object]:
+    hs = production.exact_pair_basis()
+    eta = production.metric()
+    e0 = (production.F(1), production.F(0), production.F(0), production.F(0))
+    e1 = (production.F(0), production.F(1), production.F(0), production.F(0))
+    uflat, nflat = production.lower(e0), production.lower(e1)
+    wrong = production.zeros()
+    for i in range(4):
+        for j in range(4):
+            wrong[i][j] = 2 * (uflat[i] * uflat[j] - nflat[i] * nflat[j])
+
+    lambda_at_zero = production.scale(production.F(1), eta)
+    lambda_at_one = production.scale(production.F(2), eta)
+    variable_trace_balances = all(
+        production.tensor_pair(response, h) == 0
+        for response in (lambda_at_zero, lambda_at_one)
+        for h in hs
+    )
+    ricci_flrw_t0 = production.zeros()
+    for i, value in enumerate(
+        (production.F(-6), production.F(2), production.F(2), production.F(2))
+    ):
+        ricci_flrw_t0[i][i] = value
+    zero_weyl_quadratic = production.zeros()
+    response_choice_detected = (
+        any(production.tensor_pair(ricci_flrw_t0, h) != 0 for h in hs)
+        and all(production.tensor_pair(zero_weyl_quadratic, h) == 0 for h in hs)
+    )
+
+    catches = {
+        "wrong_reciprocal_sign_is_not_tracefree": production.tensor_trace(wrong) != 0,
+        "single_radial_pair_rank_is_one": production.rank([production.flatten(hs[0])]) == 1,
+        "eight_plane_mutation_is_rank_deficient": production.rank([production.flatten(h) for h in hs[:8]]) == 8,
+        "nonzero_pure_trace_response_refutes_full_E_zero": all(
+            production.tensor_pair(production.scale(production.F(7), eta), h) == 0 for h in hs
+        ),
+        "variable_lambda_refutes_constant_from_pointwise_balance": (
+            variable_trace_balances and production.F(2) != 0
+        ),
+        "response_choice_is_detected_by_flrw_twin": response_choice_detected,
+    }
+    assert all(catches.values())
+    return {
+        "catches": catches,
+        "caught": sum(catches.values()),
+        "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+        "expected": len(catches),
+        "verdict": "PASS",
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+    payload = json.dumps(run(), indent=2, sort_keys=True) + "\n"
+    if args.output:
+        args.output.write_text(payload, encoding="utf-8")
+    else:
+        print(payload, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+The sealed code already looks materially different from the defect text in `EXTERNAL_REVIEW_RESPONSE.md`: the independent verifier is now stdlib-only, and `verify_package.py` is package-bounded with no Git pathing. I’m checking the saved evidence language and then replaying the four registered commands in `/work` against an ephemeral copy of the package.
+exec
+/bin/bash -c "grep -RIn \"implementation-independent\\|independent confirmation\\|SHARED_CODE_REGRESSION\\|6/6\\|hostile\" /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01" in /intake
+ succeeded in 0ms:
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_FOLLOWUP_REQUEST.md:22:   regression harness, and that no ledger, report, or verifier counts its 6/6 catches as
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_FOLLOWUP_REQUEST.md:23:   implementation-independent confirmation.
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:41:## R3 — hostile-harness evidence grade
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:43:Keep the hostile mutation harness as useful shared-code regression evidence, but remove every claim
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:44:that it is implementation-independent confirmation. The dependency-free independent verifier is
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:45:the separate implementation evidence; the hostile harness only proves that specified mutations are
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:48:Falsification: any package ledger, report, or verifier that grades the hostile harness as independent
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:13:writable temporary directory. The hostile harness is shared-code regression evidence; the separate
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:14:dependency-free verifier is the implementation-independent check.
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md:33:- 6/6 shared-code hostile regression mutations caught;
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md:39:to the intake package, and the hostile harness is explicitly graded as shared-code regression
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PACKAGE_VERIFICATION_RESULT.json:3:  "hostile_catches": 6,
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PACKAGE_VERIFICATION_RESULT.json:4:  "hostile_harness_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py:2:"""Shared-code hostile regression mutations for the G311 production theorem."""
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py:58:        "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_TRANSMISSION.md:34:ancestry access, and one shared-code hostile harness that must be described as regression evidence
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_TRANSMISSION.md:35:rather than independent confirmation.
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/RUN_RECORD.md:17:- shared-code hostile regression mutations: 6/6 caught;
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/RUN_RECORD.md:38:- R3: hostile harness graded `SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION`;
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/CATCH_PROOF_RESULT.json:11:  "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md:8:- The hostile-mutation harness is shared-code, not independent evidence. [run_catch_proofs.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py:10) imports the production module and reuses its basis, pairing, rank, and tensor helpers. That is fine as a regression harness, but it cannot rule out common bugs in the production implementation and should not be treated as independent confirmation.
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EVIDENCE_GATES.md:5:1. **Preregistered:** `PASS` — scientific question, candidate landings, hostile controls, and maximum
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EVIDENCE_GATES.md:26:The 6/6 hostile mutation catches are explicitly shared-code regression evidence, not independent
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:104:        "R3 — hostile-harness evidence grade",
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:125:        "hostile_catches": catches["caught"],
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:126:        "hostile_harness_grade": catches["evidence_grade"],
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/STATUS_LEDGER.tsv" in /intake
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+item	status	result_or_boundary
+universal_reciprocity_ddr	OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON	one postulate in plain and curvature-level formulations
+local_all_pair_germ_realization	DERIVED_REGULAR_LOCAL	every orthonormal timelike--spacelike plane has a freely falling local pair-germ realization
+global_actual_pair_population	OPEN_NOT_REQUIRED_FOR_LOCAL_UNIVERSAL_TEST	no global network population selected
+reciprocal_shape_span	INDEPENDENTLY_REDERIVED	rank nine in the full trace-free symmetric metric tangent
+full_covariant_ddr_equation	DERIVED_ON_ADOPTED_POSTULATE	TF_g(E)=0 equivalently E=lambda_of_x_g
+rank_r_shape_freedom	DERIVED	9_minus_r trace-free response directions remain
+pointwise_trace_lambda	FREE_WITHOUT_EXTRA_DIFFERENTIAL_IDENTITY	DDR alone does not make lambda constant
+divergence_free_response	UNOWNED_EXTRA_PREMISE	would make lambda constant
+G301_response_constitution	CONDITIONAL_CLASSIFICATION	smooth scale-free local metric-only symmetric curvature-order response with nonzero Ricci coefficient
+G301_ddr_equation	DERIVED_CONDITIONAL	Ric_ab_minus_R_over_4_g_ab_equals_zero
+G301_connected_scalar	DERIVED_CONDITIONAL	R_equals_R0 constant on each connected regular region
+G301_evolution_type	DERIVED_CONDITIONAL_NONLINEAR_COVARIANT	gauge-reduced quasilinear hyperbolic metric system
+G301_local_configuration_dof	DERIVED_CONDITIONAL_COUNT	two per spatial point plus one connected scalar datum
+response_architecture_uniqueness	REFUTED_OUTSIDE_G301	conformally flat non-Einstein metric separates Ricci and Weyl-quadratic responses
+realized_global_history	OPEN	initial data topology boundary and completion not selected
+metric_kernel_angular_change	NONE	complete pullback and angular cancellation unchanged
+observation_source_action_matter_mass_scale_Xmax	OMITTED_OPEN	not imported fitted or selected
+fresh_adversarial_review	SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS	external reviewer found no scientific defect and registered three certification repairs
+repair_followup_review	PENDING	dependency-free containment and evidence-grade repairs require repair-only external verification
+
+ succeeded in 0ms:
+# G311 audit report — scientific landing externally upheld, repairs pending follow-up
+
+Date: 2026-09-01
+Status: `SCIENTIFIC_LANDING_EXTERNALLY_UPHELD__CERTIFICATION_REPAIRED__FOLLOWUP_PENDING`
+
+## Landing
+
+```text
+FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY
+__RESPONSE_CONSTITUTION_REMAINS_OPEN
+```
+
+Every local orthonormal clock/ruler plane has a regular freely falling pair-germ realization. The
+owner-adopted Universal Reciprocity postulate therefore reaches all nine trace-free metric-shape
+directions locally, not merely a radial slice. For any covariant symmetric response `E`, its exact
+full-rank consequence is `TF_g(E)=0`, while the common trace survives.
+
+Inside the conditional G301 faithful first-curvature response class this gives
+`Ric-(R/4)g=0`; Bianchi makes `R` one connected constant, and the resulting nonlinear covariant
+equation has the ordinary two local metric configuration degrees of freedom after constraints and
+gauge. A law then defines an evolving solution space; initial data select a history.
+
+The response formula is not selected by covariance or reciprocity alone. A directly recomputed
+conformally flat, non-Einstein time-live metric fails Ricci-response DDR while satisfying a
+Weyl-quadratic response identically. That counterresponse lies outside G301 and proves the remaining
+premise boundary rather than refuting the conditional G301 theorem.
+
+## Evidence
+
+- 24 production exact checks;
+- 14 independently implemented dependency-free exact checks;
+- direct Christoffel/Riemann/Weyl countermetric calculation;
+- 6/6 shared-code hostile regression mutations caught;
+- preregistration committed and pushed at `ab93cf6e` before outcomes.
+
+The fresh external reviewer independently upheld the two-level scientific landing and registered
+only reproducibility, containment, and evidence-grade defects. Those repairs were preregistered at
+`30070cb8`: the independent replay is now standard-library-only, the aggregate replay is confined
+to the intake package, and the hostile harness is explicitly graded as shared-code regression
+evidence. No metric, reciprocal kernel, angular operator, or canon entry changed. Repair-only
+external follow-up remains required before final acceptance.
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EVIDENCE_GATES.md" in /intake
+ succeeded in 0ms:
+# G311 evidence gates
+
+Date: 2026-09-01
+
+1. **Preregistered:** `PASS` — scientific question, candidate landings, hostile controls, and maximum
+   conclusion were committed at `ab93cf6e` before implementations or outcomes.
+2. **Full space or bounded scope justified:** `PASS_WITH_SCOPE` — all regular local four-dimensional
+   metric components and all locally admissible orthonormal pair planes are covered. Singular,
+   caustic, global, source, matter, boundary, and observation sectors are explicitly omitted.
+3. **Independently verified:** `PASS_INTERNAL_AND_EXTERNAL_SCIENCE_UPHELD` — a separate
+   standard-library-only exact construction uses different rational planes and directly recomputes
+   the countermetric's metric two-jets, Christoffel derivatives, Riemann, Ricci, scalar, trace-free
+   Ricci, and Weyl tensors. The external reviewer independently reproduced the central rank and
+   countermetric results and found no scientific defect. Repair-only certification follow-up remains
+   pending.
+4. **Every premise audited:** `PASS_INTERNAL` — the unconditional response-shape theorem and the
+   conditional G301 equation are separated; conservation, response constitution, initial data,
+   observations, action, source, mass, scale, and `X_max` are not smuggled.
+
+Repository gates: exact 293-row premise/startup verifier `PASS`; full suite `211 passed, 1 known
+matter-sector xfail`.
+
+Current banking grade:
+`SCIENTIFIC_LANDING_EXTERNALLY_UPHELD__CERTIFICATION_REPAIRED__FOLLOWUP_PENDING`.
+
+The 6/6 hostile mutation catches are explicitly shared-code regression evidence, not independent
+confirmation.
+
+exec
+/bin/bash -c "sed -n '1,240p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/LAY_REPORT.md" in /intake
+ succeeded in 0ms:
+# G311 lay report
+
+Date: 2026-09-01
+Status: `SCIENTIFIC_LANDING_EXTERNALLY_UPHELD__CERTIFICATION_REPAIRED__FOLLOWUP_PENDING`
+
+Universal Reciprocity now has a clean full-spacetime meaning. At any regular location, we can
+mathematically place a freely falling observer and a neighboring ruler in any local direction. All
+of those possible pair tests together cover every way spacetime can be distorted directionally.
+The postulate says the curvature response cannot favor any of those directions.
+
+That forces the directional part of the response to vanish. It deliberately leaves one common
+overall curvature channel.
+
+The important limit is this: reciprocity still does not, by itself, name the response operator. If
+we use the conservative first-curvature response already classified in G301, the result is a full
+nonlinear spacetime equation. It reduces the formerly arbitrary `phi` profile to solutions evolved
+from lawful initial data and one constant curvature value. There are two local gravitational shape
+degrees of freedom, not an arbitrary fitted function.
+
+But a different higher-order response can obey the same reciprocity rule while allowing different
+metrics. We built an explicit smooth counterexample to prove that point. So the honest result is:
+
+> Universal Reciprocity closes the shape of whatever complete curvature response UDT owns. The
+> first-curvature G301 branch then gives a coherent evolving spacetime theory, but keeping the full
+> response in that branch remains one visible additional premise.
+
+This is real narrowing. “History” is no longer a demand that the laws pick one unique universe on
+the conditional branch. A law defines the allowed evolving universes; initial conditions select the
+one realized. Observations may later constrain those initial conditions and the remaining scalar,
+but they were not used here.
+
+The metric, reciprocal kernel, angular cancellation, and loud--quiet--loud ownership are unchanged.
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/INDEPENDENT_VERIFICATION.json" in /intake
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json" in /intake
+ succeeded in 0ms:
+{
+  "annihilator_is_metric_line": true,
+  "annihilator_nullity": 1,
+  "balance_rank": 9,
+  "checks": 14,
+  "conditional_g301_configuration_dof_count": 2,
+  "conditional_g301_phase_dof_count": 4,
+  "flrw_evaluation": "b=1,t=0",
+  "flrw_scalar_curvature": 12,
+  "flrw_tracefree_ricci": [
+    "-3",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "flrw_weyl_component_count_nonzero": 0,
+  "independent_method": "stdlib_fraction_rref_plus_exact_metric_two_jet_christoffel_riemann_weyl",
+  "reciprocal_shape_rank": 9,
+  "response_architecture_counterexample_verified": true,
+  "shares_production_imports": false,
+  "standard_library_only": true,
+  "verdict": "PASS"
+}
+
+ succeeded in 0ms:
+{
+  "adoption_status": "OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON",
+  "balance_rank": 9,
+  "countermetric": "g_b=-dt^2+exp(2*b*t^2)*(dx^2+dy^2+dz^2), evaluated at b=1,t=0",
+  "countermetric_scalar_curvature_at_t0": 12,
+  "countermetric_tracefree_ricci_nonzero": true,
+  "countermetric_weyl_zero": true,
+  "covariant_unconditional_equation": "TF_g(E)=0, equivalently E=lambda(x)*g",
+  "full_rank_shape_nullity": 0,
+  "full_response_annihilator": "span(g_ab)",
+  "g301_conditional_equation": "Ric_ab-(R/4)*g_ab=0",
+  "g301_connected_consequence": "dR=0; Ric_ab=(R0/4)*g_ab",
+  "g301_regional_scalar_data": 1,
+  "g301_remaining_initial_phase_dof_per_point": 4,
+  "g301_remaining_metric_configuration_dof_per_point": 2,
+  "lambda_constant_from_pointwise_ddr_alone": false,
+  "lambda_constant_if_divergence_free_response_added": true,
+  "landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+  "metric_or_kernel_changed": false,
+  "observations_sources_actions_matter_mass_scale_xmax_used": false,
+  "production_checks": 24,
+  "projector_is_lorentz_covariant": true,
+  "rank_census": {
+    "1": {
+      "pair_span_rank": 1,
+      "response_shape_nullity": 8
+    },
+    "2": {
+      "pair_span_rank": 2,
+      "response_shape_nullity": 7
+    },
+    "3": {
+      "pair_span_rank": 3,
+      "response_shape_nullity": 6
+    },
+    "4": {
+      "pair_span_rank": 4,
+      "response_shape_nullity": 5
+    },
+    "5": {
+      "pair_span_rank": 5,
+      "response_shape_nullity": 4
+    },
+    "6": {
+      "pair_span_rank": 6,
+      "response_shape_nullity": 3
+    },
+    "7": {
+      "pair_span_rank": 7,
+      "response_shape_nullity": 2
+    },
+    "8": {
+      "pair_span_rank": 8,
+      "response_shape_nullity": 1
+    },
+    "9": {
+      "pair_span_rank": 9,
+      "response_shape_nullity": 0
+    }
+  },
+  "reciprocal_shape_rank": 9,
+  "response_architecture_selected_by_covariance_alone": false,
+  "ricci_response_fails_countermetric_ddr": true,
+  "strongest_conditional_landing": "G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS",
+  "symmetric_metric_dimension": 10,
+  "weyl_quadratic_response_passes_countermetric_ddr": true
+}
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/CATCH_PROOF_RESULT.json" in /intake
+ succeeded in 0ms:
+{
+  "catches": {
+    "eight_plane_mutation_is_rank_deficient": true,
+    "nonzero_pure_trace_response_refutes_full_E_zero": true,
+    "response_choice_is_detected_by_flrw_twin": true,
+    "single_radial_pair_rank_is_one": true,
+    "variable_lambda_refutes_constant_from_pointwise_balance": true,
+    "wrong_reciprocal_sign_is_not_tracefree": true
+  },
+  "caught": 6,
+  "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+  "expected": 6,
+  "verdict": "PASS"
+}
+
+codex
+I’ve confirmed the saved evidence already claims the repaired posture: stdlib-only independent replay, intake-contained aggregate replay, and the hostile harness graded as shared-code regression only. I’m now running the four preregistered commands in a fresh `/work` copy and comparing the generated outputs to the sealed results.
+exec
+/bin/bash -c 'mktemp -d /work/g311_followup.XXXXXX' in /work
+ succeeded in 0ms:
+/work/g311_followup.ebhVMc
+
+exec
+/bin/bash -c 'cp -a /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01 /work/g311_followup.ebhVMc/' in /work
+ succeeded in 0ms:
+exec
+/bin/bash -c 'python3 -S verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.replayed.json' in /work/g311_followup.ebhVMc/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01
+ succeeded in 0ms:
+exec
+/bin/bash -c 'python3 -S derive_covariant_response.py --output DERIVATION_RESULT.replayed.json' in /work/g311_followup.ebhVMc/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01
+ succeeded in 0ms:
+exec
+/bin/bash -c 'python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.replayed.json' in /work/g311_followup.ebhVMc/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01
+ succeeded in 0ms:
+exec
+/bin/bash -c 'python3 -S verify_package.py' in /work/g311_followup.ebhVMc/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01
+ succeeded in 0ms:
+{
+  "fresh_adversarial_review": "SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS",
+  "hostile_catches": 6,
+  "hostile_harness_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+  "independent_checks": 14,
+  "preregistration_commit": "ab93cf6e",
+  "production_checks": 24,
+  "repair_followup_review": "PENDING",
+  "saved_replays_match": true,
+  "scientific_landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+  "sealed_replay_self_contained": true,
+  "verdict": "PASS"
+}
+
+codex
+The replay itself passed in the `/work` copy, including the aggregate verifier’s `saved_replays_match: true`. I’m finishing with a bounded source comparison: the independent verifier versus production for R1 independence, and the landing/counterresponse language versus the preregistered retained landing for the no-scientific-change check.
+exec
+/bin/bash -c "grep -n \"SYMMETRIC_COMPONENTS\\|exact_pair_basis\\|boost\\|4, 5\\|13, 5\\|3, 5\\|5, 4\\|3, 4\\|12, 5\" /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/derive_covariant_response.py" in /intake
+ succeeded in 0ms:
+153:def exact_pair_basis() -> list[list[list[F]]]:
+159:        n = tuple(F(3, 5) * e[i][k] + F(4, 5) * e[j][k] for k in range(DIM))
+185:    boost = [
+192:    assert congruence(boost, eta) == eta
+193:    lhs = tracefree(congruence(boost, e))
+194:    rhs = congruence(boost, tracefree(e))
+199:    pair_basis = exact_pair_basis()
+
+exec
+/bin/bash -c "sed -n '1,240p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/derive_covariant_response.py" in /intake
+exec
+/bin/bash -c "sed -n '1,220p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/PACKAGE_VERIFICATION_RESULT.json" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact production checks for the G311 covariant reciprocity classification."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from fractions import Fraction as F
+from pathlib import Path
+
+
+DIM = 4
+SIGNS = (F(-1), F(1), F(1), F(1))
+COMPONENTS = tuple((i, j) for i in range(DIM) for j in range(i, DIM))
+
+
+def zeros() -> list[list[F]]:
+    return [[F(0) for _ in range(DIM)] for _ in range(DIM)]
+
+
+def metric() -> list[list[F]]:
+    out = zeros()
+    for i, sign in enumerate(SIGNS):
+        out[i][i] = sign
+    return out
+
+
+def dot(v: tuple[F, ...], w: tuple[F, ...]) -> F:
+    return sum(SIGNS[i] * v[i] * w[i] for i in range(DIM))
+
+
+def lower(v: tuple[F, ...]) -> tuple[F, ...]:
+    return tuple(SIGNS[i] * v[i] for i in range(DIM))
+
+
+def reciprocal_tangent(u: tuple[F, ...], n: tuple[F, ...]) -> list[list[F]]:
+    assert dot(u, u) == -1
+    assert dot(n, n) == 1
+    assert dot(u, n) == 0
+    uf, nf = lower(u), lower(n)
+    out = zeros()
+    for i in range(DIM):
+        for j in range(DIM):
+            out[i][j] = 2 * (uf[i] * uf[j] + nf[i] * nf[j])
+    return out
+
+
+def flatten(tensor: list[list[F]]) -> list[F]:
+    return [tensor[i][j] for i, j in COMPONENTS]
+
+
+def unflatten(values: list[F]) -> list[list[F]]:
+    out = zeros()
+    for value, (i, j) in zip(values, COMPONENTS):
+        out[i][j] = value
+        out[j][i] = value
+    return out
+
+
+def tensor_trace(tensor: list[list[F]]) -> F:
+    return sum(SIGNS[i] * tensor[i][i] for i in range(DIM))
+
+
+def tensor_pair(left: list[list[F]], right: list[list[F]]) -> F:
+    total = F(0)
+    for i in range(DIM):
+        for j in range(DIM):
+            total += SIGNS[i] * SIGNS[j] * left[i][j] * right[i][j]
+    return total
+
+
+def add(a: list[list[F]], b: list[list[F]]) -> list[list[F]]:
+    return [[a[i][j] + b[i][j] for j in range(DIM)] for i in range(DIM)]
+
+
+def scale(c: F, tensor: list[list[F]]) -> list[list[F]]:
+    return [[c * tensor[i][j] for j in range(DIM)] for i in range(DIM)]
+
+
+def tracefree(tensor: list[list[F]]) -> list[list[F]]:
+    return add(tensor, scale(-tensor_trace(tensor) / DIM, metric()))
+
+
+def rref(matrix: list[list[F]]) -> tuple[list[list[F]], list[int]]:
+    rows = [row[:] for row in matrix]
+    if not rows:
+        return rows, []
+    n_rows, n_cols = len(rows), len(rows[0])
+    pivot_cols: list[int] = []
+    pivot_row = 0
+    for col in range(n_cols):
+        found = next((r for r in range(pivot_row, n_rows) if rows[r][col]), None)
+        if found is None:
+            continue
+        rows[pivot_row], rows[found] = rows[found], rows[pivot_row]
+        lead = rows[pivot_row][col]
+        rows[pivot_row] = [value / lead for value in rows[pivot_row]]
+        for r in range(n_rows):
+            if r == pivot_row or not rows[r][col]:
+                continue
+            factor = rows[r][col]
+            rows[r] = [rows[r][c] - factor * rows[pivot_row][c] for c in range(n_cols)]
+        pivot_cols.append(col)
+        pivot_row += 1
+        if pivot_row == n_rows:
+            break
+    return rows, pivot_cols
+
+
+def rank(matrix: list[list[F]]) -> int:
+    return len(rref(matrix)[1])
+
+
+def nullspace(matrix: list[list[F]]) -> list[list[F]]:
+    reduced, pivots = rref(matrix)
+    n_cols = len(matrix[0])
+    free_cols = [col for col in range(n_cols) if col not in pivots]
+    basis: list[list[F]] = []
+    for free in free_cols:
+        vector = [F(0) for _ in range(n_cols)]
+        vector[free] = F(1)
+        for row, pivot in enumerate(pivots):
+            vector[pivot] = -reduced[row][free]
+        basis.append(vector)
+    return basis
+
+
+def balance_row(h: list[list[F]]) -> list[F]:
+    row: list[F] = []
+    for i, j in COMPONENTS:
+        factor = F(1) if i == j else F(2)
+        row.append(factor * SIGNS[i] * SIGNS[j] * h[i][j])
+    return row
+
+
+def standard_tracefree_basis() -> list[list[F]]:
+    basis: list[list[F]] = []
+    for spatial in (1, 2, 3):
+        item = zeros()
+        item[0][0] = 1
+        item[spatial][spatial] = 1
+        basis.append(item)
+    for i in range(DIM):
+        for j in range(i + 1, DIM):
+            item = zeros()
+            item[i][j] = item[j][i] = 1
+            basis.append(item)
+    assert len(basis) == 9
+    assert all(tensor_trace(item) == 0 for item in basis)
+    return basis
+
+
+def exact_pair_basis() -> list[list[list[F]]]:
+    e = [tuple(F(1) if i == j else F(0) for i in range(DIM)) for j in range(DIM)]
+    pairs: list[tuple[tuple[F, ...], tuple[F, ...]]] = []
+    for i in (1, 2, 3):
+        pairs.append((e[0], e[i]))
+    for i, j in ((1, 2), (1, 3), (2, 3)):
+        n = tuple(F(3, 5) * e[i][k] + F(4, 5) * e[j][k] for k in range(DIM))
+        pairs.append((e[0], n))
+    for i in (1, 2, 3):
+        u = tuple(F(5, 3) * e[0][k] + F(4, 3) * e[i][k] for k in range(DIM))
+        n = tuple(F(4, 3) * e[0][k] + F(5, 3) * e[i][k] for k in range(DIM))
+        pairs.append((u, n))
+    return [reciprocal_tangent(u, n) for u, n in pairs]
+
+
+def matrix_multiply(a: list[list[F]], b: list[list[F]]) -> list[list[F]]:
+    return [
+        [sum(a[i][k] * b[k][j] for k in range(DIM)) for j in range(DIM)]
+        for i in range(DIM)
+    ]
+
+
+def transpose(a: list[list[F]]) -> list[list[F]]:
+    return [[a[j][i] for j in range(DIM)] for i in range(DIM)]
+
+
+def congruence(lorentz: list[list[F]], tensor: list[list[F]]) -> list[list[F]]:
+    return matrix_multiply(transpose(lorentz), matrix_multiply(tensor, lorentz))
+
+
+def projector_covariance_check() -> bool:
+    e = unflatten([F(2), F(1), F(-2), F(3), F(5), F(4), F(-1), F(7), F(6), F(11)])
+    boost = [
+        [F(5, 3), F(4, 3), F(0), F(0)],
+        [F(4, 3), F(5, 3), F(0), F(0)],
+        [F(0), F(0), F(1), F(0)],
+        [F(0), F(0), F(0), F(1)],
+    ]
+    eta = metric()
+    assert congruence(boost, eta) == eta
+    lhs = tracefree(congruence(boost, e))
+    rhs = congruence(boost, tracefree(e))
+    return lhs == rhs and tensor_trace(lhs) == 0
+
+
+def run() -> dict[str, object]:
+    pair_basis = exact_pair_basis()
+    pair_vectors = [flatten(item) for item in pair_basis]
+    shape_rank = rank(pair_vectors)
+    assert shape_rank == 9
+    assert all(tensor_trace(item) == 0 for item in pair_basis)
+
+    full_balance = [balance_row(item) for item in pair_basis]
+    balance_rank = rank(full_balance)
+    annihilator = nullspace(full_balance)
+    assert balance_rank == 9
+    assert len(annihilator) == 1
+    annihilator_tensor = unflatten(annihilator[0])
+    eta = metric()
+    scale_ratio = annihilator_tensor[0][0] / eta[0][0]
+    assert annihilator_tensor == scale(scale_ratio, eta)
+
+    tf_basis = standard_tracefree_basis()
+    rank_census: dict[str, dict[str, int]] = {}
+    for r in range(1, 10):
+        restricted = [
+            [tensor_pair(tf_direction, pair_basis[row]) for tf_direction in tf_basis]
+            for row in range(r)
+        ]
+        functional_rank = rank(restricted)
+        assert functional_rank == r
+        rank_census[str(r)] = {
+            "pair_span_rank": r,
+            "response_shape_nullity": 9 - functional_rank,
+        }
+
+    sample = unflatten([F(2), F(1), F(-2), F(3), F(5), F(4), F(-1), F(7), F(6), F(11)])
+    tf_sample = tracefree(sample)
+    assert tensor_trace(tf_sample) == 0
+    assert add(tf_sample, scale(tensor_trace(sample) / 4, eta)) == sample
+    assert projector_covariance_check()
+
+    for value in (F(-7), F(0), F(5, 3)):
+        pure_trace = scale(value, eta)
+        assert all(tensor_pair(pure_trace, h) == 0 for h in pair_basis)
+    variable_lambda_derivative_at_one = F(2)
+    assert variable_lambda_derivative_at_one != 0
+
+
+ succeeded in 0ms:
+{
+  "fresh_adversarial_review": "SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS",
+  "hostile_catches": 6,
+  "hostile_harness_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+  "independent_checks": 14,
+  "preregistration_commit": "ab93cf6e",
+  "production_checks": 24,
+  "repair_followup_review": "PENDING",
+  "saved_replays_match": true,
+  "scientific_landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+  "sealed_replay_self_contained": true,
+  "verdict": "PASS"
+}
+
+exec
+/bin/bash -c "grep -n \"FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY\\|G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS\\|response constitution\\|counterresponse\\|metric, reciprocal kernel, angular cancellation\\|metric_or_kernel_changed\\|observations_sources_actions_matter_mass_scale_xmax_used\" /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/LAY_REPORT.md /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/STATUS_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md:3:No scientific defect surfaced in the two-level landing itself. Re-deriving from the sealed materials, I get the same bounded result: every local orthonormal timelike-spacelike plane can be realized by a regular freely falling pair germ; the reciprocal tangents span the 9-dimensional trace-free symmetric space; full-rank DDR therefore gives exactly `TF_g(E)=0`, not `E=0`, so pointwise `E=lambda(x)g` is allowed until an extra differential identity is added; and in the conditional G301 lane with `E=a Ric+b R g`, `a!=0` yields `Ric-(R/4)g=0`, then contracted Bianchi gives connected-constant `R`, with the usual 2 local metric configuration degrees of freedom after constraints and gauge. The FLRW-type countermetric also checks out independently: for `a(t)=exp(b t^2)`, `TF(Ric)=diag(-3b,-ba^2,-ba^2,-ba^2)`, so it is nonzero for `b!=0`; after conformal time, the metric is conformal to Minkowski, so Weyl vanishes and `Q_ab=C_acde C_b^{cde}=0` is a valid natural counterresponse outside G301. Current sealed premises leave those higher-order/nonlocal response architectures open, so G311’s nonselection boundary is real, not just a preference.
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:9:question, theorem, counterresponse, or bounded conclusion.
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:54:FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:60:G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:18:  "landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:19:  "metric_or_kernel_changed": false,
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:20:  "observations_sources_actions_matter_mass_scale_xmax_used": false,
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:64:  "strongest_conditional_landing": "G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS",
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md:9:FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md:25:Weyl-quadratic response identically. That counterresponse lies outside G301 and proves the remaining
+/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/LAY_REPORT.md:32:The metric, reciprocal kernel, angular cancellation, and loud--quiet--loud ownership are unchanged.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/RUN_RECORD.md" in /intake
+ succeeded in 0ms:
+# G311 run record
+
+Date: 2026-09-01
+
+## Regime
+
+- regular local four-dimensional Lorentz metric;
+- all locally realizable orthonormal timelike--spacelike pair germs;
+- exact arithmetic for rank/projector checks;
+- exact dependency-free time-live countermetric reconstruction from metric two-jets;
+- conditional G301 Cauchy classification only after the response boundary is stated.
+
+## Outcomes
+
+- production exact checks: 24 passed;
+- independent dependency-free exact checks: 14 passed;
+- shared-code hostile regression mutations: 6/6 caught;
+- exact current-premise/startup verifier: `PASS` (293 rows);
+- full repository regression suite: `211 passed, 1 known matter-sector xfail`;
+- no GPU, numerical grid, tolerance, observation, fit, or long solve used.
+
+## Data and choice ledger
+
+- rational rotations and boosts: `MATHEMATICAL_METHOD`, changed in the independent implementation;
+- Lorentz signature `(-,+,+,+)`: `CHART/METHOD`, no physical preferred frame;
+- four spacetime dimensions: `CURRENT_UDT_COMPLETE_METRIC_ARENA`;
+- Universal Reciprocity/DDR: `OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON`;
+- G301 response formula: `CONDITIONAL`, never used in the unconditional projector theorem;
+- FLRW-form countermetric parameter `b=1,t=0`: `MATHEMATICAL_WITNESS`, not fitted physics;
+- sources, action, matter, mass, scale, observation, boundary, physical `X_max`: `OMITTED`.
+
+## External review and registered repairs
+
+- fresh external verdict: `G311_REPAIRABLE_DEFECTS`;
+- bounded scientific landing: independently upheld without scientific defect;
+- R1: undeclared SymPy dependency removed; independent replay now runs under `python3 -S`;
+- R2: aggregate sealed replay no longer accesses repository paths or Git history;
+- R3: hostile harness graded `SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION`;
+- repair-only external follow-up: `PENDING`.
+
+codex
+The replay is clean so far; I’m gathering exact file/line references for the acceptance basis so the final verdict is traceable to the sealed evidence without reopening anything beyond R1-R3 and the frozen landing comparison.
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md | sed -n '1,80p'" in /intake
+ succeeded in 0ms:
+     1	# G311 registered checks
+     2	
+     3	Run from this package directory:
+     4	
+     5	```bash
+     6	python3 -S derive_covariant_response.py --output DERIVATION_RESULT.json
+     7	python3 -S verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.json
+     8	python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+     9	python3 -S verify_package.py
+    10	```
+    11	
+    12	These four commands are the complete registered sealed replay. They use only this package and a
+    13	writable temporary directory. The hostile harness is shared-code regression evidence; the separate
+    14	dependency-free verifier is the implementation-independent check.
+    15	
+    16	Upstream repository banking gates, run from the repository root, are **not part of the registered
+    17	sealed replay and are not authorized during an intake-only review**:
+    18	
+    19	```bash
+    20	python3 verify_current_scientific_premises.py
+    21	python3 -m pytest tests/
+    22	```
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py | sed -n '1,260p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Dependency-free independent reconstruction for the bounded G311 result."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	from fractions import Fraction
+     9	from pathlib import Path
+    10	
+    11	
+    12	Q = Fraction
+    13	N = 4
+    14	SIG = (-1, 1, 1, 1)
+    15	# Deliberately differs from the production component ordering.
+    16	SYMMETRIC_COMPONENTS = (
+    17	    (0, 0), (1, 1), (2, 2), (3, 3),
+    18	    (0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3),
+    19	)
+    20	
+    21	
+    22	def minkowski_dot(left: tuple[Q, ...], right: tuple[Q, ...]) -> Q:
+    23	    return sum(Q(SIG[i]) * left[i] * right[i] for i in range(N))
+    24	
+    25	
+    26	def reciprocal_shape(u: tuple[Q, ...], n: tuple[Q, ...]) -> list[list[Q]]:
+    27	    assert minkowski_dot(u, u) == -1
+    28	    assert minkowski_dot(n, n) == 1
+    29	    assert minkowski_dot(u, n) == 0
+    30	    u_cov = tuple(Q(SIG[i]) * u[i] for i in range(N))
+    31	    n_cov = tuple(Q(SIG[i]) * n[i] for i in range(N))
+    32	    return [
+    33	        [2 * (u_cov[i] * u_cov[j] + n_cov[i] * n_cov[j]) for j in range(N)]
+    34	        for i in range(N)
+    35	    ]
+    36	
+    37	
+    38	def independent_pair_family() -> list[list[list[Q]]]:
+    39	    basis = [tuple(Q(1) if i == j else Q(0) for i in range(N)) for j in range(N)]
+    40	    pairs: list[tuple[tuple[Q, ...], tuple[Q, ...]]] = []
+    41	    for spatial in (1, 2, 3):
+    42	        pairs.append((basis[0], basis[spatial]))
+    43	    for first, second in ((1, 2), (1, 3), (2, 3)):
+    44	        n = tuple(Q(4, 5) * basis[first][k] + Q(3, 5) * basis[second][k] for k in range(N))
+    45	        pairs.append((basis[0], n))
+    46	    # A different rational boost family from the production implementation.
+    47	    for spatial in (1, 2, 3):
+    48	        u = tuple(Q(13, 5) * basis[0][k] + Q(12, 5) * basis[spatial][k] for k in range(N))
+    49	        n = tuple(Q(12, 5) * basis[0][k] + Q(13, 5) * basis[spatial][k] for k in range(N))
+    50	        pairs.append((u, n))
+    51	    return [reciprocal_shape(u, n) for u, n in pairs]
+    52	
+    53	
+    54	def row_reduce(matrix: list[list[Q]]) -> tuple[list[list[Q]], list[int]]:
+    55	    work = [row[:] for row in matrix]
+    56	    if not work:
+    57	        return work, []
+    58	    pivot_columns: list[int] = []
+    59	    next_row = 0
+    60	    for column in range(len(work[0])):
+    61	        pivot = next((r for r in range(next_row, len(work)) if work[r][column]), None)
+    62	        if pivot is None:
+    63	            continue
+    64	        work[next_row], work[pivot] = work[pivot], work[next_row]
+    65	        divisor = work[next_row][column]
+    66	        work[next_row] = [value / divisor for value in work[next_row]]
+    67	        for r in range(len(work)):
+    68	            if r == next_row or not work[r][column]:
+    69	                continue
+    70	            multiplier = work[r][column]
+    71	            work[r] = [
+    72	                work[r][c] - multiplier * work[next_row][c]
+    73	                for c in range(len(work[r]))
+    74	            ]
+    75	        pivot_columns.append(column)
+    76	        next_row += 1
+    77	        if next_row == len(work):
+    78	            break
+    79	    return work, pivot_columns
+    80	
+    81	
+    82	def matrix_rank(matrix: list[list[Q]]) -> int:
+    83	    return len(row_reduce(matrix)[1])
+    84	
+    85	
+    86	def kernel_basis(matrix: list[list[Q]]) -> list[list[Q]]:
+    87	    reduced, pivots = row_reduce(matrix)
+    88	    free = [column for column in range(len(matrix[0])) if column not in pivots]
+    89	    result: list[list[Q]] = []
+    90	    for free_column in free:
+    91	        vector = [Q(0) for _ in range(len(matrix[0]))]
+    92	        vector[free_column] = Q(1)
+    93	        for row, pivot in enumerate(pivots):
+    94	            vector[pivot] = -reduced[row][free_column]
+    95	        result.append(vector)
+    96	    return result
+    97	
+    98	
+    99	def flattened_shape(tensor: list[list[Q]]) -> list[Q]:
+   100	    return [tensor[i][j] for i, j in SYMMETRIC_COMPONENTS]
+   101	
+   102	
+   103	def balance_functional(tensor: list[list[Q]]) -> list[Q]:
+   104	    return [
+   105	        Q(1 if i == j else 2) * Q(SIG[i] * SIG[j]) * tensor[i][j]
+   106	        for i, j in SYMMETRIC_COMPONENTS
+   107	    ]
+   108	
+   109	
+   110	def inverse_diagonal(metric: list[list[Q]]) -> list[list[Q]]:
+   111	    inverse = [[Q(0) for _ in range(N)] for _ in range(N)]
+   112	    for i in range(N):
+   113	        assert metric[i][i] and all(metric[i][j] == 0 for j in range(N) if j != i)
+   114	        inverse[i][i] = 1 / metric[i][i]
+   115	    return inverse
+   116	
+   117	
+   118	def independent_countermetric_at_origin() -> tuple[list[list[Q]], Q, int]:
+   119	    """Derive curvature at t=0 directly from exact metric two-jets.
+   120	
+   121	    The metric is diag(-1, exp(2 t^2), exp(2 t^2), exp(2 t^2)), corresponding to b=1.
+   122	    Its first metric jet vanishes at t=0 and its only nonzero second jets are
+   123	    d_t d_t g_ii=4 for spatial i. Christoffel derivatives and curvature are reconstructed from
+   124	    those raw jets rather than importing the production curvature values.
+   125	    """
+   126	
+   127	    g = [[Q(0) for _ in range(N)] for _ in range(N)]
+   128	    for i, sign in enumerate(SIG):
+   129	        g[i][i] = Q(sign)
+   130	    g_inv = inverse_diagonal(g)
+   131	
+   132	    dg = [
+   133	        [[Q(0) for _ in range(N)] for _ in range(N)]
+   134	        for _ in range(N)
+   135	    ]
+   136	    # d2g[alpha][beta][mu][nu]
+   137	    d2g = [
+   138	        [
+   139	            [[Q(0) for _ in range(N)] for _ in range(N)]
+   140	            for _ in range(N)
+   141	        ]
+   142	        for _ in range(N)
+   143	    ]
+   144	    # exp(2 t^2)=1+2 t^2+O(t^4), hence the exact second derivative at zero is 2!*2=4.
+   145	    spatial_metric_t2_coefficient = Q(2)
+   146	    for spatial in (1, 2, 3):
+   147	        d2g[0][0][spatial][spatial] = 2 * spatial_metric_t2_coefficient
+   148	
+   149	    # Gamma and dGamma are evaluated at the origin. Gamma vanishes because dg=0.
+   150	    gamma = [
+   151	        [[Q(0) for _ in range(N)] for _ in range(N)]
+   152	        for _ in range(N)
+   153	    ]
+   154	    for rho in range(N):
+   155	        for mu in range(N):
+   156	            for nu in range(N):
+   157	                gamma[rho][mu][nu] = Q(1, 2) * sum(
+   158	                    g_inv[rho][lam]
+   159	                    * (dg[mu][lam][nu] + dg[nu][lam][mu] - dg[lam][mu][nu])
+   160	                    for lam in range(N)
+   161	                )
+   162	    assert all(gamma[rho][mu][nu] == 0 for rho in range(N) for mu in range(N) for nu in range(N))
+   163	
+   164	    dgamma = [
+   165	        [
+   166	            [
+   167	                [Q(0) for _ in range(N)]
+   168	                for _ in range(N)
+   169	            ]
+   170	            for _ in range(N)
+   171	        ]
+   172	        for _ in range(N)
+   173	    ]
+   174	    for alpha in range(N):
+   175	        for rho in range(N):
+   176	            for mu in range(N):
+   177	                for nu in range(N):
+   178	                    dgamma[alpha][rho][mu][nu] = Q(1, 2) * sum(
+   179	                        g_inv[rho][lam]
+   180	                        * (
+   181	                            d2g[alpha][mu][lam][nu]
+   182	                            + d2g[alpha][nu][lam][mu]
+   183	                            - d2g[alpha][lam][mu][nu]
+   184	                        )
+   185	                        for lam in range(N)
+   186	                    )
+   187	
+   188	    # R^rho_{ sigma mu nu} = d_mu Gamma^rho_{nu sigma} - d_nu Gamma^rho_{mu sigma}
+   189	    # at this point because every Gamma vanishes.
+   190	    riemann_up = [
+   191	        [
+   192	            [
+   193	                [Q(0) for _ in range(N)]
+   194	                for _ in range(N)
+   195	            ]
+   196	            for _ in range(N)
+   197	        ]
+   198	        for _ in range(N)
+   199	    ]
+   200	    for rho in range(N):
+   201	        for sigma in range(N):
+   202	            for mu in range(N):
+   203	                for nu in range(N):
+   204	                    riemann_up[rho][sigma][mu][nu] = (
+   205	                        dgamma[mu][rho][nu][sigma] - dgamma[nu][rho][mu][sigma]
+   206	                    )
+   207	
+   208	    ricci = [[Q(0) for _ in range(N)] for _ in range(N)]
+   209	    for sigma in range(N):
+   210	        for nu in range(N):
+   211	            ricci[sigma][nu] = sum(
+   212	                riemann_up[rho][sigma][rho][nu] for rho in range(N)
+   213	            )
+   214	    scalar = sum(g_inv[i][j] * ricci[i][j] for i in range(N) for j in range(N))
+   215	    tracefree = [
+   216	        [ricci[i][j] - scalar * g[i][j] / 4 for j in range(N)]
+   217	        for i in range(N)
+   218	    ]
+   219	    assert ricci == [
+   220	        [Q(-6), Q(0), Q(0), Q(0)],
+   221	        [Q(0), Q(2), Q(0), Q(0)],
+   222	        [Q(0), Q(0), Q(2), Q(0)],
+   223	        [Q(0), Q(0), Q(0), Q(2)],
+   224	    ]
+   225	    assert scalar == 12
+   226	    assert tracefree == [
+   227	        [Q(-3), Q(0), Q(0), Q(0)],
+   228	        [Q(0), Q(-1), Q(0), Q(0)],
+   229	        [Q(0), Q(0), Q(-1), Q(0)],
+   230	        [Q(0), Q(0), Q(0), Q(-1)],
+   231	    ]
+   232	
+   233	    riemann_down = [
+   234	        [
+   235	            [
+   236	                [sum(g[a][rho] * riemann_up[rho][bb][c][d] for rho in range(N)) for d in range(N)]
+   237	                for c in range(N)
+   238	            ]
+   239	            for bb in range(N)
+   240	        ]
+   241	        for a in range(N)
+   242	    ]
+   243	    nonzero_weyl: list[tuple[int, int, int, int, Q]] = []
+   244	    for a in range(N):
+   245	        for bb in range(N):
+   246	            for c in range(N):
+   247	                for d in range(N):
+   248	                    value = (
+   249	                        riemann_down[a][bb][c][d]
+   250	                        - Q(1, 2)
+   251	                        * (
+   252	                            g[a][c] * ricci[d][bb]
+   253	                            - g[a][d] * ricci[c][bb]
+   254	                            - g[bb][c] * ricci[d][a]
+   255	                            + g[bb][d] * ricci[c][a]
+   256	                        )
+   257	                        + scalar
+   258	                        * (g[a][c] * g[d][bb] - g[a][d] * g[c][bb])
+   259	                        / 6
+   260	                    )
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py | sed -n '1,220p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""No-persistent-output aggregate verifier for G311."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	import os
+     9	import subprocess
+    10	import sys
+    11	import tempfile
+    12	from pathlib import Path
+    13	
+    14	
+    15	ROOT = Path(__file__).resolve().parent
+    16	PREREG_COMMIT = "ab93cf6e"
+    17	PREREG_PARENT = "8ec52db6"
+    18	
+    19	
+    20	def load(path: Path) -> dict[str, object]:
+    21	    return json.loads(path.read_text(encoding="utf-8"))
+    22	
+    23	
+    24	def run_checked(command: list[str], cwd: Path, env: dict[str, str]) -> subprocess.CompletedProcess[str]:
+    25	    result = subprocess.run(command, cwd=cwd, env=env, text=True, capture_output=True, check=False)
+    26	    if result.returncode:
+    27	        raise SystemExit(
+    28	            f"command failed ({result.returncode}): {' '.join(command)}\n{result.stdout}{result.stderr}"
+    29	        )
+    30	    return result
+    31	
+    32	
+    33	def verify() -> dict[str, object]:
+    34	    env = os.environ.copy()
+    35	    env["PYTHONDONTWRITEBYTECODE"] = "1"
+    36	    with tempfile.TemporaryDirectory(prefix="g311_verify_") as tmp:
+    37	        tmpdir = Path(tmp)
+    38	        production_out = tmpdir / "production.json"
+    39	        independent_out = tmpdir / "independent.json"
+    40	        catches_out = tmpdir / "catches.json"
+    41	        run_checked(
+    42	            [sys.executable, "-S", "derive_covariant_response.py", "--output", str(production_out)],
+    43	            ROOT,
+    44	            env,
+    45	        )
+    46	        run_checked(
+    47	            [sys.executable, "-S", "verify_covariant_response_independent.py", "--output", str(independent_out)],
+    48	            ROOT,
+    49	            env,
+    50	        )
+    51	        run_checked(
+    52	            [sys.executable, "-S", "run_catch_proofs.py", "--output", str(catches_out)],
+    53	            ROOT,
+    54	            env,
+    55	        )
+    56	        assert load(production_out) == load(ROOT / "DERIVATION_RESULT.json")
+    57	        assert load(independent_out) == load(ROOT / "INDEPENDENT_VERIFICATION.json")
+    58	        assert load(catches_out) == load(ROOT / "CATCH_PROOF_RESULT.json")
+    59	
+    60	    production = load(ROOT / "DERIVATION_RESULT.json")
+    61	    independent = load(ROOT / "INDEPENDENT_VERIFICATION.json")
+    62	    catches = load(ROOT / "CATCH_PROOF_RESULT.json")
+    63	    assert production["landing"] == (
+    64	        "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY"
+    65	        "__RESPONSE_CONSTITUTION_REMAINS_OPEN"
+    66	    )
+    67	    assert production["reciprocal_shape_rank"] == independent["reciprocal_shape_rank"] == 9
+    68	    assert production["balance_rank"] == independent["balance_rank"] == 9
+    69	    assert production["full_response_annihilator"] == "span(g_ab)"
+    70	    assert independent["annihilator_is_metric_line"] is True
+    71	    assert independent["standard_library_only"] is True
+    72	    assert independent["shares_production_imports"] is False
+    73	    assert production["response_architecture_selected_by_covariance_alone"] is False
+    74	    assert independent["response_architecture_counterexample_verified"] is True
+    75	    assert catches["caught"] == catches["expected"] == 6
+    76	
+    77	    exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    78	    lay = (ROOT / "LAY_REPORT.md").read_text(encoding="utf-8")
+    79	    ledger = (ROOT / "STATUS_LEDGER.tsv").read_text(encoding="utf-8")
+    80	    for token in (
+    81	        "E^{\\mathrm{TF}}_{ab}=0",
+    82	        "response architecture",
+    83	        "not derived or",
+    84	        "initial data select one history",
+    85	        "C_{abcd}=0",
+    86	        "two metric configuration degrees of freedom",
+    87	    ):
+    88	        assert token.lower() in exact.lower(), token
+    89	    for token in (
+    90	        "first-curvature G301 branch",
+    91	        "initial conditions select",
+    92	        "metric, reciprocal kernel, angular cancellation",
+    93	    ):
+    94	        assert token.lower() in lay.lower(), token
+    95	    assert "fresh_adversarial_review\tSCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS" in ledger
+    96	    assert "repair_followup_review\tPENDING" in ledger
+    97	
+    98	    ancestry = (ROOT / "PREREGISTRATION_ANCESTRY.md").read_text(encoding="utf-8")
+    99	    repair = (ROOT / "REPAIR_PREREGISTRATION.md").read_text(encoding="utf-8")
+   100	    assert PREREG_COMMIT in ancestry and PREREG_PARENT in ancestry
+   101	    for repair_token in (
+   102	        "R1 — dependency-free independent verifier",
+   103	        "R2 — intake-self-contained aggregate replay",
+   104	        "R3 — hostile-harness evidence grade",
+   105	    ):
+   106	        assert repair_token in repair
+   107	
+   108	    # Intake-containment guard: the registered aggregate replay may not resolve above ROOT or
+   109	    # invoke Git. Historical ancestry is frozen as documentary evidence, not recomputed here.
+   110	    own_source = Path(__file__).read_text(encoding="utf-8")
+   111	    forbidden_source_tokens = (
+   112	        "ROOT" + ".parent",
+   113	        "[" + "'git'",
+   114	        "[" + '"git"',
+   115	    )
+   116	    for forbidden_source_token in forbidden_source_tokens:
+   117	        assert forbidden_source_token not in own_source
+   118	
+   119	    return {
+   120	        "verdict": "PASS",
+   121	        "preregistration_commit": PREREG_COMMIT,
+   122	        "saved_replays_match": True,
+   123	        "production_checks": production["production_checks"],
+   124	        "independent_checks": independent["checks"],
+   125	        "hostile_catches": catches["caught"],
+   126	        "hostile_harness_grade": catches["evidence_grade"],
+   127	        "scientific_landing": production["landing"],
+   128	        "sealed_replay_self_contained": True,
+   129	        "fresh_adversarial_review": "SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS",
+   130	        "repair_followup_review": "PENDING",
+   131	    }
+   132	
+   133	
+   134	def main() -> None:
+   135	    parser = argparse.ArgumentParser()
+   136	    parser.add_argument("--output", type=Path)
+   137	    args = parser.parse_args()
+   138	    result = verify()
+   139	    payload = json.dumps(result, indent=2, sort_keys=True) + "\n"
+   140	    if args.output:
+   141	        args.output.write_text(payload, encoding="utf-8")
+   142	    else:
+   143	        print(payload, end="")
+   144	
+   145	
+   146	if __name__ == "__main__":
+   147	    main()
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	`G311_REPAIRABLE_DEFECTS`
+     2	
+     3	No scientific defect surfaced in the two-level landing itself. Re-deriving from the sealed materials, I get the same bounded result: every local orthonormal timelike-spacelike plane can be realized by a regular freely falling pair germ; the reciprocal tangents span the 9-dimensional trace-free symmetric space; full-rank DDR therefore gives exactly `TF_g(E)=0`, not `E=0`, so pointwise `E=lambda(x)g` is allowed until an extra differential identity is added; and in the conditional G301 lane with `E=a Ric+b R g`, `a!=0` yields `Ric-(R/4)g=0`, then contracted Bianchi gives connected-constant `R`, with the usual 2 local metric configuration degrees of freedom after constraints and gauge. The FLRW-type countermetric also checks out independently: for `a(t)=exp(b t^2)`, `TF(Ric)=diag(-3b,-ba^2,-ba^2,-ba^2)`, so it is nonzero for `b!=0`; after conformal time, the metric is conformal to Minkowski, so Weyl vanishes and `Q_ab=C_acde C_b^{cde}=0` is a valid natural counterresponse outside G301. Current sealed premises leave those higher-order/nonlocal response architectures open, so G311’s nonselection boundary is real, not just a preference.
+     4	
+     5	Defects:
+     6	- The registered “independent” verifier is not sealed-self-contained in this environment. [verify_covariant_response_independent.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py:10) imports `sympy`, but [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:6) does not declare that dependency. In the `/work` copy, `python3 verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.json` failed with `ModuleNotFoundError: No module named 'sympy'`.
+     7	- The aggregate/package verifier is out of bounds for an intake-only sealed replay. [verify_package.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:15) defines `REPO = ROOT.parent` and later runs `git show`/`git merge-base` against repository history at lines 102-109; [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:12) also directs repo-root checks. That conflicts with the review instruction not to access the repository, so the registered suite is not portable to the authorized sealed-intake regime.
+     8	- The hostile-mutation harness is shared-code, not independent evidence. [run_catch_proofs.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py:10) imports the production module and reuses its basis, pairing, rank, and tensor helpers. That is fine as a regression harness, but it cannot rule out common bugs in the production implementation and should not be treated as independent confirmation.
+     9	
+    10	Executed checks in `/work`:
+    11	- `python3 -S derive_covariant_response.py --output DERIVATION_RESULT.json`: passed and reproduced the sealed JSON exactly.
+    12	- `python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json`: passed and reproduced the sealed JSON exactly.
+    13	- `python3 verify_covariant_response_independent.py --output INDEPENDENT_VERIFICATION.json`: failed because `sympy` is unavailable.
+    14	- `python3 -S verify_package.py`: failed immediately for the same reason, and code inspection shows it would also require forbidden repo access afterward.
+    15	
+    16	So the science lands as stated, but the registered-check package needs reproducibility/scope repairs before this can be promoted to `G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY`.
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py | sed -n '1,140p'" in /intake
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Shared-code hostile regression mutations for the G311 production theorem."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	from pathlib import Path
+     9	
+    10	import derive_covariant_response as production
+    11	
+    12	
+    13	def run() -> dict[str, object]:
+    14	    hs = production.exact_pair_basis()
+    15	    eta = production.metric()
+    16	    e0 = (production.F(1), production.F(0), production.F(0), production.F(0))
+    17	    e1 = (production.F(0), production.F(1), production.F(0), production.F(0))
+    18	    uflat, nflat = production.lower(e0), production.lower(e1)
+    19	    wrong = production.zeros()
+    20	    for i in range(4):
+    21	        for j in range(4):
+    22	            wrong[i][j] = 2 * (uflat[i] * uflat[j] - nflat[i] * nflat[j])
+    23	
+    24	    lambda_at_zero = production.scale(production.F(1), eta)
+    25	    lambda_at_one = production.scale(production.F(2), eta)
+    26	    variable_trace_balances = all(
+    27	        production.tensor_pair(response, h) == 0
+    28	        for response in (lambda_at_zero, lambda_at_one)
+    29	        for h in hs
+    30	    )
+    31	    ricci_flrw_t0 = production.zeros()
+    32	    for i, value in enumerate(
+    33	        (production.F(-6), production.F(2), production.F(2), production.F(2))
+    34	    ):
+    35	        ricci_flrw_t0[i][i] = value
+    36	    zero_weyl_quadratic = production.zeros()
+    37	    response_choice_detected = (
+    38	        any(production.tensor_pair(ricci_flrw_t0, h) != 0 for h in hs)
+    39	        and all(production.tensor_pair(zero_weyl_quadratic, h) == 0 for h in hs)
+    40	    )
+    41	
+    42	    catches = {
+    43	        "wrong_reciprocal_sign_is_not_tracefree": production.tensor_trace(wrong) != 0,
+    44	        "single_radial_pair_rank_is_one": production.rank([production.flatten(hs[0])]) == 1,
+    45	        "eight_plane_mutation_is_rank_deficient": production.rank([production.flatten(h) for h in hs[:8]]) == 8,
+    46	        "nonzero_pure_trace_response_refutes_full_E_zero": all(
+    47	            production.tensor_pair(production.scale(production.F(7), eta), h) == 0 for h in hs
+    48	        ),
+    49	        "variable_lambda_refutes_constant_from_pointwise_balance": (
+    50	            variable_trace_balances and production.F(2) != 0
+    51	        ),
+    52	        "response_choice_is_detected_by_flrw_twin": response_choice_detected,
+    53	    }
+    54	    assert all(catches.values())
+    55	    return {
+    56	        "catches": catches,
+    57	        "caught": sum(catches.values()),
+    58	        "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+    59	        "expected": len(catches),
+    60	        "verdict": "PASS",
+    61	    }
+    62	
+    63	
+    64	def main() -> None:
+    65	    parser = argparse.ArgumentParser()
+    66	    parser.add_argument("--output", type=Path)
+    67	    args = parser.parse_args()
+    68	    payload = json.dumps(run(), indent=2, sort_keys=True) + "\n"
+    69	    if args.output:
+    70	        args.output.write_text(payload, encoding="utf-8")
+    71	    else:
+    72	        print(payload, end="")
+    73	
+    74	
+    75	if __name__ == "__main__":
+    76	    main()
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "adoption_status": "OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON",
+     3	  "balance_rank": 9,
+     4	  "countermetric": "g_b=-dt^2+exp(2*b*t^2)*(dx^2+dy^2+dz^2), evaluated at b=1,t=0",
+     5	  "countermetric_scalar_curvature_at_t0": 12,
+     6	  "countermetric_tracefree_ricci_nonzero": true,
+     7	  "countermetric_weyl_zero": true,
+     8	  "covariant_unconditional_equation": "TF_g(E)=0, equivalently E=lambda(x)*g",
+     9	  "full_rank_shape_nullity": 0,
+    10	  "full_response_annihilator": "span(g_ab)",
+    11	  "g301_conditional_equation": "Ric_ab-(R/4)*g_ab=0",
+    12	  "g301_connected_consequence": "dR=0; Ric_ab=(R0/4)*g_ab",
+    13	  "g301_regional_scalar_data": 1,
+    14	  "g301_remaining_initial_phase_dof_per_point": 4,
+    15	  "g301_remaining_metric_configuration_dof_per_point": 2,
+    16	  "lambda_constant_from_pointwise_ddr_alone": false,
+    17	  "lambda_constant_if_divergence_free_response_added": true,
+    18	  "landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+    19	  "metric_or_kernel_changed": false,
+    20	  "observations_sources_actions_matter_mass_scale_xmax_used": false,
+    21	  "production_checks": 24,
+    22	  "projector_is_lorentz_covariant": true,
+    23	  "rank_census": {
+    24	    "1": {
+    25	      "pair_span_rank": 1,
+    26	      "response_shape_nullity": 8
+    27	    },
+    28	    "2": {
+    29	      "pair_span_rank": 2,
+    30	      "response_shape_nullity": 7
+    31	    },
+    32	    "3": {
+    33	      "pair_span_rank": 3,
+    34	      "response_shape_nullity": 6
+    35	    },
+    36	    "4": {
+    37	      "pair_span_rank": 4,
+    38	      "response_shape_nullity": 5
+    39	    },
+    40	    "5": {
+    41	      "pair_span_rank": 5,
+    42	      "response_shape_nullity": 4
+    43	    },
+    44	    "6": {
+    45	      "pair_span_rank": 6,
+    46	      "response_shape_nullity": 3
+    47	    },
+    48	    "7": {
+    49	      "pair_span_rank": 7,
+    50	      "response_shape_nullity": 2
+    51	    },
+    52	    "8": {
+    53	      "pair_span_rank": 8,
+    54	      "response_shape_nullity": 1
+    55	    },
+    56	    "9": {
+    57	      "pair_span_rank": 9,
+    58	      "response_shape_nullity": 0
+    59	    }
+    60	  },
+    61	  "reciprocal_shape_rank": 9,
+    62	  "response_architecture_selected_by_covariance_alone": false,
+    63	  "ricci_response_fails_countermetric_ddr": true,
+    64	  "strongest_conditional_landing": "G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS",
+    65	  "symmetric_metric_dimension": 10,
+    66	  "weyl_quadratic_response_passes_countermetric_ddr": true
+    67	}
+
+ succeeded in 0ms:
+     1	# G311 repair preregistration
+     2	
+     3	Date: 2026-09-01
+     4	
+     5	External verdict: `G311_REPAIRABLE_DEFECTS`.
+     6	
+     7	The reviewer found no scientific defect in the two-level G311 landing. These repairs are frozen
+     8	before changing any affected implementation or evidence language. They may not alter the scientific
+     9	question, theorem, counterresponse, or bounded conclusion.
+    10	
+    11	## R1 — dependency-free independent verifier
+    12	
+    13	Replace the undeclared SymPy dependency with a standard-library-only implementation that remains
+    14	independent of `derive_covariant_response.py`. It must independently reconstruct:
+    15	
+    16	- rank nine of the reciprocal tangent span;
+    17	- the one-dimensional response annihilator spanned by the metric;
+    18	- the conformally flat, non-Einstein time-live countermetric at `b=1,t=0`, including nonzero
+    19	  trace-free Ricci and zero Weyl;
+    20	- the conditional G301 degree count.
+    21	
+    22	The replacement must run under `python3 -S`, reproduce a saved machine-readable result, and share
+    23	no production imports.
+    24	
+    25	Falsification: any changed scientific value, nonzero Weyl component, rank other than nine, response
+    26	annihilator other than the metric line, or hidden non-standard dependency fails R1.
+    27	
+    28	## R2 — intake-self-contained aggregate replay
+    29	
+    30	Remove every repository and Git-history access from the registered sealed aggregate replay. The
+    31	intake verifier must use only files inside its own package plus a writable temporary directory.
+    32	Repository-only premise and regression gates may remain documented as upstream banking gates, but
+    33	must be explicitly outside the sealed replay and must not be invoked by it.
+    34	
+    35	The frozen preregistration commit and parent remain evidence recorded in
+    36	`PREREGISTRATION_ANCESTRY.md`; this repair does not rewrite that historical claim.
+    37	
+    38	Falsification: any registered sealed command that resolves a path above the package, invokes Git,
+    39	or requires an undeclared external dependency fails R2.
+    40	
+    41	## R3 — hostile-harness evidence grade
+    42	
+    43	Keep the hostile mutation harness as useful shared-code regression evidence, but remove every claim
+    44	that it is implementation-independent confirmation. The dependency-free independent verifier is
+    45	the separate implementation evidence; the hostile harness only proves that specified mutations are
+    46	caught by the production machinery.
+    47	
+    48	Falsification: any package ledger, report, or verifier that grades the hostile harness as independent
+    49	confirmation fails R3.
+    50	
+    51	## Retained landing
+    52	
+    53	```text
+    54	FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN
+    55	```
+    56	
+    57	Strongest retained conditional landing:
+    58	
+    59	```text
+    60	G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS
+    61	```
+    62	
+    63	Neither landing may be strengthened during repair. A fresh repair-only external follow-up is
+    64	required before G311 can be graded `G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY`.
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EVIDENCE_GATES.md | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	# G311 evidence gates
+     2	
+     3	Date: 2026-09-01
+     4	
+     5	1. **Preregistered:** `PASS` — scientific question, candidate landings, hostile controls, and maximum
+     6	   conclusion were committed at `ab93cf6e` before implementations or outcomes.
+     7	2. **Full space or bounded scope justified:** `PASS_WITH_SCOPE` — all regular local four-dimensional
+     8	   metric components and all locally admissible orthonormal pair planes are covered. Singular,
+     9	   caustic, global, source, matter, boundary, and observation sectors are explicitly omitted.
+    10	3. **Independently verified:** `PASS_INTERNAL_AND_EXTERNAL_SCIENCE_UPHELD` — a separate
+    11	   standard-library-only exact construction uses different rational planes and directly recomputes
+    12	   the countermetric's metric two-jets, Christoffel derivatives, Riemann, Ricci, scalar, trace-free
+    13	   Ricci, and Weyl tensors. The external reviewer independently reproduced the central rank and
+    14	   countermetric results and found no scientific defect. Repair-only certification follow-up remains
+    15	   pending.
+    16	4. **Every premise audited:** `PASS_INTERNAL` — the unconditional response-shape theorem and the
+    17	   conditional G301 equation are separated; conservation, response constitution, initial data,
+    18	   observations, action, source, mass, scale, and `X_max` are not smuggled.
+    19	
+    20	Repository gates: exact 293-row premise/startup verifier `PASS`; full suite `211 passed, 1 known
+    21	matter-sector xfail`.
+    22	
+    23	Current banking grade:
+    24	`SCIENTIFIC_LANDING_EXTERNALLY_UPHELD__CERTIFICATION_REPAIRED__FOLLOWUP_PENDING`.
+    25	
+    26	The 6/6 hostile mutation catches are explicitly shared-code regression evidence, not independent
+    27	confirmation.
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/LAY_REPORT.md | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	# G311 lay report
+     2	
+     3	Date: 2026-09-01
+     4	Status: `SCIENTIFIC_LANDING_EXTERNALLY_UPHELD__CERTIFICATION_REPAIRED__FOLLOWUP_PENDING`
+     5	
+     6	Universal Reciprocity now has a clean full-spacetime meaning. At any regular location, we can
+     7	mathematically place a freely falling observer and a neighboring ruler in any local direction. All
+     8	of those possible pair tests together cover every way spacetime can be distorted directionally.
+     9	The postulate says the curvature response cannot favor any of those directions.
+    10	
+    11	That forces the directional part of the response to vanish. It deliberately leaves one common
+    12	overall curvature channel.
+    13	
+    14	The important limit is this: reciprocity still does not, by itself, name the response operator. If
+    15	we use the conservative first-curvature response already classified in G301, the result is a full
+    16	nonlinear spacetime equation. It reduces the formerly arbitrary `phi` profile to solutions evolved
+    17	from lawful initial data and one constant curvature value. There are two local gravitational shape
+    18	degrees of freedom, not an arbitrary fitted function.
+    19	
+    20	But a different higher-order response can obey the same reciprocity rule while allowing different
+    21	metrics. We built an explicit smooth counterexample to prove that point. So the honest result is:
+    22	
+    23	> Universal Reciprocity closes the shape of whatever complete curvature response UDT owns. The
+    24	> first-curvature G301 branch then gives a coherent evolving spacetime theory, but keeping the full
+    25	> response in that branch remains one visible additional premise.
+    26	
+    27	This is real narrowing. “History” is no longer a demand that the laws pick one unique universe on
+    28	the conditional branch. A law defines the allowed evolving universes; initial conditions select the
+    29	one realized. Observations may later constrain those initial conditions and the remaining scalar,
+    30	but they were not used here.
+    31	
+    32	The metric, reciprocal kernel, angular cancellation, and loud--quiet--loud ownership are unchanged.
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	# G311 audit report — scientific landing externally upheld, repairs pending follow-up
+     2	
+     3	Date: 2026-09-01
+     4	Status: `SCIENTIFIC_LANDING_EXTERNALLY_UPHELD__CERTIFICATION_REPAIRED__FOLLOWUP_PENDING`
+     5	
+     6	## Landing
+     7	
+     8	```text
+     9	FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY
+    10	__RESPONSE_CONSTITUTION_REMAINS_OPEN
+    11	```
+    12	
+    13	Every local orthonormal clock/ruler plane has a regular freely falling pair-germ realization. The
+    14	owner-adopted Universal Reciprocity postulate therefore reaches all nine trace-free metric-shape
+    15	directions locally, not merely a radial slice. For any covariant symmetric response `E`, its exact
+    16	full-rank consequence is `TF_g(E)=0`, while the common trace survives.
+    17	
+    18	Inside the conditional G301 faithful first-curvature response class this gives
+    19	`Ric-(R/4)g=0`; Bianchi makes `R` one connected constant, and the resulting nonlinear covariant
+    20	equation has the ordinary two local metric configuration degrees of freedom after constraints and
+    21	gauge. A law then defines an evolving solution space; initial data select a history.
+    22	
+    23	The response formula is not selected by covariance or reciprocity alone. A directly recomputed
+    24	conformally flat, non-Einstein time-live metric fails Ricci-response DDR while satisfying a
+    25	Weyl-quadratic response identically. That counterresponse lies outside G301 and proves the remaining
+    26	premise boundary rather than refuting the conditional G301 theorem.
+    27	
+    28	## Evidence
+    29	
+    30	- 24 production exact checks;
+    31	- 14 independently implemented dependency-free exact checks;
+    32	- direct Christoffel/Riemann/Weyl countermetric calculation;
+    33	- 6/6 shared-code hostile regression mutations caught;
+    34	- preregistration committed and pushed at `ab93cf6e` before outcomes.
+    35	
+    36	The fresh external reviewer independently upheld the two-level scientific landing and registered
+    37	only reproducibility, containment, and evidence-grade defects. Those repairs were preregistered at
+    38	`30070cb8`: the independent replay is now standard-library-only, the aggregate replay is confined
+    39	to the intake package, and the hostile harness is explicitly graded as shared-code regression
+    40	evidence. No metric, reciprocal kernel, angular operator, or canon entry changed. Repair-only
+    41	external follow-up remains required before final acceptance.
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/STATUS_LEDGER.tsv | sed -n '1,80p'" in /intake
+ succeeded in 0ms:
+     1	item	status	result_or_boundary
+     2	universal_reciprocity_ddr	OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON	one postulate in plain and curvature-level formulations
+     3	local_all_pair_germ_realization	DERIVED_REGULAR_LOCAL	every orthonormal timelike--spacelike plane has a freely falling local pair-germ realization
+     4	global_actual_pair_population	OPEN_NOT_REQUIRED_FOR_LOCAL_UNIVERSAL_TEST	no global network population selected
+     5	reciprocal_shape_span	INDEPENDENTLY_REDERIVED	rank nine in the full trace-free symmetric metric tangent
+     6	full_covariant_ddr_equation	DERIVED_ON_ADOPTED_POSTULATE	TF_g(E)=0 equivalently E=lambda_of_x_g
+     7	rank_r_shape_freedom	DERIVED	9_minus_r trace-free response directions remain
+     8	pointwise_trace_lambda	FREE_WITHOUT_EXTRA_DIFFERENTIAL_IDENTITY	DDR alone does not make lambda constant
+     9	divergence_free_response	UNOWNED_EXTRA_PREMISE	would make lambda constant
+    10	G301_response_constitution	CONDITIONAL_CLASSIFICATION	smooth scale-free local metric-only symmetric curvature-order response with nonzero Ricci coefficient
+    11	G301_ddr_equation	DERIVED_CONDITIONAL	Ric_ab_minus_R_over_4_g_ab_equals_zero
+    12	G301_connected_scalar	DERIVED_CONDITIONAL	R_equals_R0 constant on each connected regular region
+    13	G301_evolution_type	DERIVED_CONDITIONAL_NONLINEAR_COVARIANT	gauge-reduced quasilinear hyperbolic metric system
+    14	G301_local_configuration_dof	DERIVED_CONDITIONAL_COUNT	two per spatial point plus one connected scalar datum
+    15	response_architecture_uniqueness	REFUTED_OUTSIDE_G301	conformally flat non-Einstein metric separates Ricci and Weyl-quadratic responses
+    16	realized_global_history	OPEN	initial data topology boundary and completion not selected
+    17	metric_kernel_angular_change	NONE	complete pullback and angular cancellation unchanged
+    18	observation_source_action_matter_mass_scale_Xmax	OMITTED_OPEN	not imported fitted or selected
+    19	fresh_adversarial_review	SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS	external reviewer found no scientific defect and registered three certification repairs
+    20	repair_followup_review	PENDING	dependency-free containment and evidence-grade repairs require repair-only external verification
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/INDEPENDENT_VERIFICATION.json | sed -n '1,120p'" in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "annihilator_is_metric_line": true,
+     3	  "annihilator_nullity": 1,
+     4	  "balance_rank": 9,
+     5	  "checks": 14,
+     6	  "conditional_g301_configuration_dof_count": 2,
+     7	  "conditional_g301_phase_dof_count": 4,
+     8	  "flrw_evaluation": "b=1,t=0",
+     9	  "flrw_scalar_curvature": 12,
+    10	  "flrw_tracefree_ricci": [
+    11	    "-3",
+    12	    "-1",
+    13	    "-1",
+    14	    "-1"
+    15	  ],
+    16	  "flrw_weyl_component_count_nonzero": 0,
+    17	  "independent_method": "stdlib_fraction_rref_plus_exact_metric_two_jet_christoffel_riemann_weyl",
+    18	  "reciprocal_shape_rank": 9,
+    19	  "response_architecture_counterexample_verified": true,
+    20	  "shares_production_imports": false,
+    21	  "standard_library_only": true,
+    22	  "verdict": "PASS"
+    23	}
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/CATCH_PROOF_RESULT.json | sed -n '1,80p'" in /intake
+ succeeded in 0ms:
+     1	{
+     2	  "catches": {
+     3	    "eight_plane_mutation_is_rank_deficient": true,
+     4	    "nonzero_pure_trace_response_refutes_full_E_zero": true,
+     5	    "response_choice_is_detected_by_flrw_twin": true,
+     6	    "single_radial_pair_rank_is_one": true,
+     7	    "variable_lambda_refutes_constant_from_pointwise_balance": true,
+     8	    "wrong_reciprocal_sign_is_not_tracefree": true
+     9	  },
+    10	  "caught": 6,
+    11	  "evidence_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+    12	  "expected": 6,
+    13	  "verdict": "PASS"
+    14	}
+
+exec
+/bin/bash -c "nl -ba /intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/derive_covariant_response.py | sed -n '1,190p'" in /intake
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Exact production checks for the G311 covariant reciprocity classification."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	from fractions import Fraction as F
+     9	from pathlib import Path
+    10	
+    11	
+    12	DIM = 4
+    13	SIGNS = (F(-1), F(1), F(1), F(1))
+    14	COMPONENTS = tuple((i, j) for i in range(DIM) for j in range(i, DIM))
+    15	
+    16	
+    17	def zeros() -> list[list[F]]:
+    18	    return [[F(0) for _ in range(DIM)] for _ in range(DIM)]
+    19	
+    20	
+    21	def metric() -> list[list[F]]:
+    22	    out = zeros()
+    23	    for i, sign in enumerate(SIGNS):
+    24	        out[i][i] = sign
+    25	    return out
+    26	
+    27	
+    28	def dot(v: tuple[F, ...], w: tuple[F, ...]) -> F:
+    29	    return sum(SIGNS[i] * v[i] * w[i] for i in range(DIM))
+    30	
+    31	
+    32	def lower(v: tuple[F, ...]) -> tuple[F, ...]:
+    33	    return tuple(SIGNS[i] * v[i] for i in range(DIM))
+    34	
+    35	
+    36	def reciprocal_tangent(u: tuple[F, ...], n: tuple[F, ...]) -> list[list[F]]:
+    37	    assert dot(u, u) == -1
+    38	    assert dot(n, n) == 1
+    39	    assert dot(u, n) == 0
+    40	    uf, nf = lower(u), lower(n)
+    41	    out = zeros()
+    42	    for i in range(DIM):
+    43	        for j in range(DIM):
+    44	            out[i][j] = 2 * (uf[i] * uf[j] + nf[i] * nf[j])
+    45	    return out
+    46	
+    47	
+    48	def flatten(tensor: list[list[F]]) -> list[F]:
+    49	    return [tensor[i][j] for i, j in COMPONENTS]
+    50	
+    51	
+    52	def unflatten(values: list[F]) -> list[list[F]]:
+    53	    out = zeros()
+    54	    for value, (i, j) in zip(values, COMPONENTS):
+    55	        out[i][j] = value
+    56	        out[j][i] = value
+    57	    return out
+    58	
+    59	
+    60	def tensor_trace(tensor: list[list[F]]) -> F:
+    61	    return sum(SIGNS[i] * tensor[i][i] for i in range(DIM))
+    62	
+    63	
+    64	def tensor_pair(left: list[list[F]], right: list[list[F]]) -> F:
+    65	    total = F(0)
+    66	    for i in range(DIM):
+    67	        for j in range(DIM):
+    68	            total += SIGNS[i] * SIGNS[j] * left[i][j] * right[i][j]
+    69	    return total
+    70	
+    71	
+    72	def add(a: list[list[F]], b: list[list[F]]) -> list[list[F]]:
+    73	    return [[a[i][j] + b[i][j] for j in range(DIM)] for i in range(DIM)]
+    74	
+    75	
+    76	def scale(c: F, tensor: list[list[F]]) -> list[list[F]]:
+    77	    return [[c * tensor[i][j] for j in range(DIM)] for i in range(DIM)]
+    78	
+    79	
+    80	def tracefree(tensor: list[list[F]]) -> list[list[F]]:
+    81	    return add(tensor, scale(-tensor_trace(tensor) / DIM, metric()))
+    82	
+    83	
+    84	def rref(matrix: list[list[F]]) -> tuple[list[list[F]], list[int]]:
+    85	    rows = [row[:] for row in matrix]
+    86	    if not rows:
+    87	        return rows, []
+    88	    n_rows, n_cols = len(rows), len(rows[0])
+    89	    pivot_cols: list[int] = []
+    90	    pivot_row = 0
+    91	    for col in range(n_cols):
+    92	        found = next((r for r in range(pivot_row, n_rows) if rows[r][col]), None)
+    93	        if found is None:
+    94	            continue
+    95	        rows[pivot_row], rows[found] = rows[found], rows[pivot_row]
+    96	        lead = rows[pivot_row][col]
+    97	        rows[pivot_row] = [value / lead for value in rows[pivot_row]]
+    98	        for r in range(n_rows):
+    99	            if r == pivot_row or not rows[r][col]:
+   100	                continue
+   101	            factor = rows[r][col]
+   102	            rows[r] = [rows[r][c] - factor * rows[pivot_row][c] for c in range(n_cols)]
+   103	        pivot_cols.append(col)
+   104	        pivot_row += 1
+   105	        if pivot_row == n_rows:
+   106	            break
+   107	    return rows, pivot_cols
+   108	
+   109	
+   110	def rank(matrix: list[list[F]]) -> int:
+   111	    return len(rref(matrix)[1])
+   112	
+   113	
+   114	def nullspace(matrix: list[list[F]]) -> list[list[F]]:
+   115	    reduced, pivots = rref(matrix)
+   116	    n_cols = len(matrix[0])
+   117	    free_cols = [col for col in range(n_cols) if col not in pivots]
+   118	    basis: list[list[F]] = []
+   119	    for free in free_cols:
+   120	        vector = [F(0) for _ in range(n_cols)]
+   121	        vector[free] = F(1)
+   122	        for row, pivot in enumerate(pivots):
+   123	            vector[pivot] = -reduced[row][free]
+   124	        basis.append(vector)
+   125	    return basis
+   126	
+   127	
+   128	def balance_row(h: list[list[F]]) -> list[F]:
+   129	    row: list[F] = []
+   130	    for i, j in COMPONENTS:
+   131	        factor = F(1) if i == j else F(2)
+   132	        row.append(factor * SIGNS[i] * SIGNS[j] * h[i][j])
+   133	    return row
+   134	
+   135	
+   136	def standard_tracefree_basis() -> list[list[F]]:
+   137	    basis: list[list[F]] = []
+   138	    for spatial in (1, 2, 3):
+   139	        item = zeros()
+   140	        item[0][0] = 1
+   141	        item[spatial][spatial] = 1
+   142	        basis.append(item)
+   143	    for i in range(DIM):
+   144	        for j in range(i + 1, DIM):
+   145	            item = zeros()
+   146	            item[i][j] = item[j][i] = 1
+   147	            basis.append(item)
+   148	    assert len(basis) == 9
+   149	    assert all(tensor_trace(item) == 0 for item in basis)
+   150	    return basis
+   151	
+   152	
+   153	def exact_pair_basis() -> list[list[list[F]]]:
+   154	    e = [tuple(F(1) if i == j else F(0) for i in range(DIM)) for j in range(DIM)]
+   155	    pairs: list[tuple[tuple[F, ...], tuple[F, ...]]] = []
+   156	    for i in (1, 2, 3):
+   157	        pairs.append((e[0], e[i]))
+   158	    for i, j in ((1, 2), (1, 3), (2, 3)):
+   159	        n = tuple(F(3, 5) * e[i][k] + F(4, 5) * e[j][k] for k in range(DIM))
+   160	        pairs.append((e[0], n))
+   161	    for i in (1, 2, 3):
+   162	        u = tuple(F(5, 3) * e[0][k] + F(4, 3) * e[i][k] for k in range(DIM))
+   163	        n = tuple(F(4, 3) * e[0][k] + F(5, 3) * e[i][k] for k in range(DIM))
+   164	        pairs.append((u, n))
+   165	    return [reciprocal_tangent(u, n) for u, n in pairs]
+   166	
+   167	
+   168	def matrix_multiply(a: list[list[F]], b: list[list[F]]) -> list[list[F]]:
+   169	    return [
+   170	        [sum(a[i][k] * b[k][j] for k in range(DIM)) for j in range(DIM)]
+   171	        for i in range(DIM)
+   172	    ]
+   173	
+   174	
+   175	def transpose(a: list[list[F]]) -> list[list[F]]:
+   176	    return [[a[j][i] for j in range(DIM)] for i in range(DIM)]
+   177	
+   178	
+   179	def congruence(lorentz: list[list[F]], tensor: list[list[F]]) -> list[list[F]]:
+   180	    return matrix_multiply(transpose(lorentz), matrix_multiply(tensor, lorentz))
+   181	
+   182	
+   183	def projector_covariance_check() -> bool:
+   184	    e = unflatten([F(2), F(1), F(-2), F(3), F(5), F(4), F(-1), F(7), F(6), F(11)])
+   185	    boost = [
+   186	        [F(5, 3), F(4, 3), F(0), F(0)],
+   187	        [F(4, 3), F(5, 3), F(0), F(0)],
+   188	        [F(0), F(0), F(1), F(0)],
+   189	        [F(0), F(0), F(0), F(1)],
+   190	    ]
+
+codex
+G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY
+
+In a writable `/work` copy, I ran the four registered sealed-replay commands from [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:6). All passed, and `verify_package.py` returned `PASS` with `saved_replays_match: true`. R1 is satisfied by the sealed independent verifier’s stdlib-only imports, no production import, different component ordering, different rational plane family, and direct metric two-jet curvature reconstruction in [verify_covariant_response_independent.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py:6), [verify_covariant_response_independent.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py:15), [verify_covariant_response_independent.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py:38), [verify_covariant_response_independent.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_covariant_response_independent.py:118), with the expected rank-nine / metric-line / nonzero trace-free Ricci / zero Weyl / unchanged degree-count results in [INDEPENDENT_VERIFICATION.json](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/INDEPENDENT_VERIFICATION.json:2). R2 is satisfied because the replay is explicitly package-bounded and repo banking commands are outside the intake-authorized replay in [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:12) and [COMMANDS.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/COMMANDS.md:16), while [verify_package.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:15) stays under `ROOT` and enforces no `ROOT.parent` or Git invocation at [verify_package.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/verify_package.py:108). R3 is satisfied because the harness is openly shared-code regression in [run_catch_proofs.py](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/run_catch_proofs.py:2), its result grade is `SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION` in [CATCH_PROOF_RESULT.json](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/CATCH_PROOF_RESULT.json:11), and the package evidence repeats that framing in [EVIDENCE_GATES.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EVIDENCE_GATES.md:26).
+
+The scientific landing is unchanged: the retained and strongest conditional landings in [REPAIR_PREREGISTRATION.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:54) and [REPAIR_PREREGISTRATION.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/REPAIR_PREREGISTRATION.md:60) match [DERIVATION_RESULT.json](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:18) and [DERIVATION_RESULT.json](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:64), and the bounded theorem/counterresponse/response-constitution boundary remain as stated in [EXTERNAL_REVIEW_RESPONSE.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXTERNAL_REVIEW_RESPONSE.md:3). Unchanged metric, reciprocal kernel, angular cancellation, and premise grades are recorded in [LAY_REPORT.md](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/LAY_REPORT.md:32), [STATUS_LEDGER.tsv](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/STATUS_LEDGER.tsv:17), and [DERIVATION_RESULT.json](/intake/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/DERIVATION_RESULT.json:19). Remaining defects: none.
+tokens used
+61,513
+
+Script done on 2026-09-01 01:03:06-04:00 [COMMAND_EXIT_CODE="0"]

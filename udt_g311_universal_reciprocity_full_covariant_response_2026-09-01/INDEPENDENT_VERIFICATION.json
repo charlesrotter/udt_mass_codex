@@ -1,0 +1,23 @@
+{
+  "annihilator_is_metric_line": true,
+  "annihilator_nullity": 1,
+  "balance_rank": 9,
+  "checks": 14,
+  "conditional_g301_configuration_dof_count": 2,
+  "conditional_g301_phase_dof_count": 4,
+  "flrw_evaluation": "b=1,t=0",
+  "flrw_scalar_curvature": 12,
+  "flrw_tracefree_ricci": [
+    "-3",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "flrw_weyl_component_count_nonzero": 0,
+  "independent_method": "stdlib_fraction_rref_plus_exact_metric_two_jet_christoffel_riemann_weyl",
+  "reciprocal_shape_rank": 9,
+  "response_architecture_counterexample_verified": true,
+  "shares_production_imports": false,
+  "standard_library_only": true,
+  "verdict": "PASS"
+}

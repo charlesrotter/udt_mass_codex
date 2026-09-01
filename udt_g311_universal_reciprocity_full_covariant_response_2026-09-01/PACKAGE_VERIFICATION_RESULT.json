@@ -1,0 +1,13 @@
+{
+  "fresh_adversarial_review": "SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS",
+  "hostile_catches": 6,
+  "hostile_harness_grade": "SHARED_CODE_REGRESSION_NOT_INDEPENDENT_CONFIRMATION",
+  "independent_checks": 14,
+  "preregistration_commit": "ab93cf6e",
+  "production_checks": 24,
+  "repair_followup_review": "G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY",
+  "saved_replays_match": true,
+  "scientific_landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+  "sealed_replay_self_contained": true,
+  "verdict": "PASS"
+}

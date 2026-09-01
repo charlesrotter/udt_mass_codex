@@ -1,0 +1,67 @@
+{
+  "adoption_status": "OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON",
+  "balance_rank": 9,
+  "countermetric": "g_b=-dt^2+exp(2*b*t^2)*(dx^2+dy^2+dz^2), evaluated at b=1,t=0",
+  "countermetric_scalar_curvature_at_t0": 12,
+  "countermetric_tracefree_ricci_nonzero": true,
+  "countermetric_weyl_zero": true,
+  "covariant_unconditional_equation": "TF_g(E)=0, equivalently E=lambda(x)*g",
+  "full_rank_shape_nullity": 0,
+  "full_response_annihilator": "span(g_ab)",
+  "g301_conditional_equation": "Ric_ab-(R/4)*g_ab=0",
+  "g301_connected_consequence": "dR=0; Ric_ab=(R0/4)*g_ab",
+  "g301_regional_scalar_data": 1,
+  "g301_remaining_initial_phase_dof_per_point": 4,
+  "g301_remaining_metric_configuration_dof_per_point": 2,
+  "lambda_constant_from_pointwise_ddr_alone": false,
+  "lambda_constant_if_divergence_free_response_added": true,
+  "landing": "FULL_COVARIANT_RECIPROCITY_CLOSES_RESPONSE_SHAPE_ONLY__RESPONSE_CONSTITUTION_REMAINS_OPEN",
+  "metric_or_kernel_changed": false,
+  "observations_sources_actions_matter_mass_scale_xmax_used": false,
+  "production_checks": 24,
+  "projector_is_lorentz_covariant": true,
+  "rank_census": {
+    "1": {
+      "pair_span_rank": 1,
+      "response_shape_nullity": 8
+    },
+    "2": {
+      "pair_span_rank": 2,
+      "response_shape_nullity": 7
+    },
+    "3": {
+      "pair_span_rank": 3,
+      "response_shape_nullity": 6
+    },
+    "4": {
+      "pair_span_rank": 4,
+      "response_shape_nullity": 5
+    },
+    "5": {
+      "pair_span_rank": 5,
+      "response_shape_nullity": 4
+    },
+    "6": {
+      "pair_span_rank": 6,
+      "response_shape_nullity": 3
+    },
+    "7": {
+      "pair_span_rank": 7,
+      "response_shape_nullity": 2
+    },
+    "8": {
+      "pair_span_rank": 8,
+      "response_shape_nullity": 1
+    },
+    "9": {
+      "pair_span_rank": 9,
+      "response_shape_nullity": 0
+    }
+  },
+  "reciprocal_shape_rank": 9,
+  "response_architecture_selected_by_covariance_alone": false,
+  "ricci_response_fails_countermetric_ddr": true,
+  "strongest_conditional_landing": "G301_FAITHFUL_BRANCH_GIVES_EINSTEIN_SPACE_DYNAMICS",
+  "symmetric_metric_dimension": 10,
+  "weyl_quadratic_response_passes_countermetric_ddr": true
+}

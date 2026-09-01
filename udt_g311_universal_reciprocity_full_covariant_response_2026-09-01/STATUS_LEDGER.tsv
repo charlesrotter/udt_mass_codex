@@ -1,0 +1,20 @@
+item	status	result_or_boundary
+universal_reciprocity_ddr	OWNER_ADOPTED_PROVISIONAL_POSTULATE__NOT_DERIVED__NOT_CANON	one postulate in plain and curvature-level formulations
+local_all_pair_germ_realization	DERIVED_REGULAR_LOCAL	every orthonormal timelike--spacelike plane has a freely falling local pair-germ realization
+global_actual_pair_population	OPEN_NOT_REQUIRED_FOR_LOCAL_UNIVERSAL_TEST	no global network population selected
+reciprocal_shape_span	INDEPENDENTLY_REDERIVED	rank nine in the full trace-free symmetric metric tangent
+full_covariant_ddr_equation	DERIVED_ON_ADOPTED_POSTULATE	TF_g(E)=0 equivalently E=lambda_of_x_g
+rank_r_shape_freedom	DERIVED	9_minus_r trace-free response directions remain
+pointwise_trace_lambda	FREE_WITHOUT_EXTRA_DIFFERENTIAL_IDENTITY	DDR alone does not make lambda constant
+divergence_free_response	UNOWNED_EXTRA_PREMISE	would make lambda constant
+G301_response_constitution	CONDITIONAL_CLASSIFICATION	smooth scale-free local metric-only symmetric curvature-order response with nonzero Ricci coefficient
+G301_ddr_equation	DERIVED_CONDITIONAL	Ric_ab_minus_R_over_4_g_ab_equals_zero
+G301_connected_scalar	DERIVED_CONDITIONAL	R_equals_R0 constant on each connected regular region
+G301_evolution_type	DERIVED_CONDITIONAL_NONLINEAR_COVARIANT	gauge-reduced quasilinear hyperbolic metric system
+G301_local_configuration_dof	DERIVED_CONDITIONAL_COUNT	two per spatial point plus one connected scalar datum
+response_architecture_uniqueness	REFUTED_OUTSIDE_G301	conformally flat non-Einstein metric separates Ricci and Weyl-quadratic responses
+realized_global_history	OPEN	initial data topology boundary and completion not selected
+metric_kernel_angular_change	NONE	complete pullback and angular cancellation unchanged
+observation_source_action_matter_mass_scale_Xmax	OMITTED_OPEN	not imported fitted or selected
+fresh_adversarial_review	SCIENTIFIC_LANDING_UPHELD_REPAIRABLE_DEFECTS	external reviewer found no scientific defect and registered three certification repairs
+repair_followup_review	G311_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY	R1_R3 accepted unchanged scientific landing and no remaining defect
