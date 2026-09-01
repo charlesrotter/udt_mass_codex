@@ -1,0 +1,85 @@
+{
+  "atlas_rows": 15,
+  "characteristic": {
+    "minimum_claim": "screen/shear plus compatible corner data supplied; constraints transport remaining variables",
+    "mixed_null": "Ric(ell,k)=-Lambda when g(ell,k)=-1",
+    "same_null": "L_ell theta=-theta^2/2-sigma^2; Lambda cancels because g(ell,ell)=0"
+  },
+  "evolution": {
+    "K": "(dt-L_beta)K=-DDN+N(R3ij+KKij-2KiKkj-Lambda gammaij)",
+    "gamma": "(dt-L_beta)gamma=-2NK"
+  },
+  "generic_local_configuration_modes": 2,
+  "generic_local_phase_space_functions": 4,
+  "guards": {
+    "global_completeness": false,
+    "metric_or_kernel_changed": false,
+    "pair_evolution_residual": false,
+    "selected_Lambda": false,
+    "selected_scale": false,
+    "unique_history": false
+  },
+  "landing": "ACTIVE_EQUATION_HAS_A_LAWFUL_CONDITIONAL_DATA_INTERFACE__CAUCHY_AND_CHARACTERISTIC_DATA_REMAIN_FREELY_SUPPLIED_WITH_DERIVED_CONSTRAINTS",
+  "null_samples": [
+    {
+      "Lambda": "0",
+      "ray_rhs": "0",
+      "sigma2": "0",
+      "theta": "0"
+    },
+    {
+      "Lambda": "3",
+      "ray_rhs": "-2",
+      "sigma2": "2",
+      "theta": "0"
+    },
+    {
+      "Lambda": "-2",
+      "ray_rhs": "-59/2",
+      "sigma2": "5",
+      "theta": "7"
+    },
+    {
+      "Lambda": "11/7",
+      "ray_rhs": "-8077/900",
+      "sigma2": "15529/1800",
+      "theta": "5/6"
+    },
+    {
+      "Lambda": "5",
+      "ray_rhs": "-109561/19600",
+      "sigma2": "81481/39200",
+      "theta": "53/20"
+    },
+    {
+      "Lambda": "-9/2",
+      "ray_rhs": "-410/9",
+      "sigma2": "122/9",
+      "theta": "-8"
+    }
+  ],
+  "production_assertions": 72,
+  "scope": "BOUNDED_REGULAR_LOCAL_G312_G313_METRIC_ONLY_VACUUM_DATA_INTERFACE",
+  "spacelike_constraints": {
+    "Hamiltonian": "R3+K^2-KijKij=2Lambda",
+    "momentum": "Dj(Kij-gammaijK)=0"
+  },
+  "witnesses": {
+    "berger_S3_G313": {
+      "Lambda": "3",
+      "signature": "berger_S3"
+    },
+    "flat_positive_slicing_H1": {
+      "Lambda": "3",
+      "signature": "flat_R3_nonzero_K"
+    },
+    "positive_product_time_symmetric": {
+      "Lambda": "3",
+      "signature": "S1xS2"
+    },
+    "round_positive_bounce_X1": {
+      "Lambda": "3",
+      "signature": "round_S3"
+    }
+  }
+}

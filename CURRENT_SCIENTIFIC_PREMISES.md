@@ -34,7 +34,7 @@ G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -76,6 +76,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | G311 covariant response | external/repair accepted | `TF_g(E)=0`; constitution open; conditional G301 dynamics |
 | G312/G313 | adoption + external | Active trace-free Ricci; multibranch arena |
 | G314 | external | Optional bootstrap; no adoption |
+| G315 | external | Constrained supplied data | No history |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -99,8 +100,8 @@ None selects completion/`X_max`.
   G304--G309 add positive sign, compact `S3`, Hopf families, and a nonselection counterhistory.
   Universal Reciprocity/DDR and G312's adopted GR-principal/Local Metric Sufficiency premises make
   trace-free Ricci active. G313 maps `Ric=Lambda g` as a multibranch arena; no global member, scalar,
-  scale, or population is selected. G314 makes bootstrap optional. Angular
-  cancellation owns loud--quiet--loud. W1 remains evaluative.
+  scale, or population is selected. G314 makes bootstrap optional. Angular cancellation owns
+  loud--quiet--loud. W1 remains evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -110,13 +111,12 @@ None selects completion/`X_max`.
 | Matter `S^2` carrier | `POSIT` | Conditional carrier branch only |
 | EH action | `CONDITIONAL_NOT_SELECTED` | Familiarity with GR is not derivation |
 | Native source | `OPEN` | Geometric response/current roles do not supply source substance |
-| Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
+| Complete action/source/boundary/mass | `OPEN` | No physics claim |
 ## Observational boundary
 
-R2--R5 select no scale/`X_max`; G312--G314 map bounded vacuum response nonselectively. Scale,
-population, data, history, and native SNe remain open.
+R2--R5 and G312--G315 select no scale, data, history, population, or native SNe prediction.
 
 ## How to use the registry
 
-The 297-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls through G314. Run its verifier; query exact
-rows only when load-bearing.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` controls the 298-row registry through G315; verify; query
+load-bearing rows.

@@ -215,7 +215,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -411,6 +411,7 @@ def validate_startup_surface(root: Path) -> None:
             "G312",
             "G313",
             "G314",
+            "G315",
             "G312 premises are owner-adopted provisionally.",
             "multibranch Einstein arena",
             "Local Metric Sufficiency",
@@ -470,7 +471,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "297-row exact registry",
+            "298-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -711,6 +712,7 @@ def validate_startup_surface(root: Path) -> None:
             "G312",
             "G313",
             "G314",
+            "G315",
             "response constitution",
             "Local Metric Sufficiency",
             "Universal Reciprocity",
@@ -849,6 +851,7 @@ def validate_startup_surface(root: Path) -> None:
             "G312",
             "G313",
             "G314",
+            "G315",
             "response constitution",
             "Local Metric Sufficiency",
             "Universal Reciprocity",
@@ -978,6 +981,7 @@ def validate_startup_surface(root: Path) -> None:
             "G312",
             "G313",
             "G314",
+            "G315",
             "Local Metric Sufficiency",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
             "Universal Reciprocity",
@@ -987,7 +991,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "297-row",
+            "298-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -1369,9 +1373,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 297, "premise registry must contain exactly 297 rows")
+    require(len(rows) == 298, "premise registry must contain exactly 298 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 297, "duplicate premise id")
+    require(len(by_id) == 298, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1552,6 +1556,11 @@ def main() -> None:
             "EXTERNALLY_ACCEPTED__ADMISSIBILITY_ACTUALIZATION_DISTINCTION_UPHELD",
             "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md",
             "GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_ARE_DISTINCT_MISSING_TYPES",
+        ),
+        "G315": (
+            "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED__PREREGISTERED_AT_6D26CA34",
+            "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md",
+            "ACTIVE_EQUATION_HAS_A_LAWFUL_CONDITIONAL_DATA_INTERFACE",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -1948,7 +1957,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
         line for line in registry_lines
-        if not line.startswith((b"G303\t", b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t"))
+        if not line.startswith((b"G303\t", b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g303_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -2018,7 +2027,7 @@ def main() -> None:
     g304_manifest = {row["path"]: row for row in read_tsv(g304 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
-        line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t"))
+        line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g304_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -2093,7 +2102,7 @@ def main() -> None:
     g305_sources = {row["path"]: row for row in read_tsv(g305 / "SOURCE_SCOPE.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
-        line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t"))
+        line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g305_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -2183,7 +2192,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
         line for line in registry_lines
-        if not line.startswith((b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t"))
+        if not line.startswith((b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g306_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -2452,6 +2461,43 @@ def main() -> None:
     require("ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA" in g313_audit
             and "GLOBAL_ADMISSIBILITY_REMAINS_OPEN" in g313_audit,
             "G313 scientific landing changed")
+
+    g315 = ROOT / "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01"
+    require((g315 / "verify_package.py").is_file(), "G315 package verifier missing")
+    g315_replay = subprocess.run(
+        [sys.executable, "-S", str(g315 / "verify_package.py")],
+        cwd=g315,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=False,
+    )
+    require(g315_replay.returncode == 0, f"G315 dependency-free replay failed: {g315_replay.stderr}")
+    require("G315 package verification PASS" in g315_replay.stdout,
+            "G315 package verification token changed")
+    g315_package = json.loads((g315 / "PACKAGE_VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
+    require(g315_package["status"] == "PASS" and g315_package["external_review"] == "ACCEPTED",
+            "G315 aggregate acceptance changed")
+    require(g315_package["production_assertions"] == 72
+            and g315_package["independent_assertions"] == 89
+            and g315_package["hostile_catches"] == "17/17"
+            and g315_package["atlas_rows"] == 15,
+            "G315 evidence counts changed")
+    g315_response = (g315 / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    require("G315_ACCEPTED__CONDITIONAL_DATA_INTERFACE_UPHELD" in g315_response,
+            "G315 external acceptance changed")
+    require("byte-identical to the sealed intake versions" in g315_response,
+            "G315 external replay identity changed")
+    g315_row = by_id["G315"]
+    require("CAUCHY_AND_INTERSECTING_NULL_DATA_INTERFACE_CLASSIFICATION_ONLY"
+            in g315_row["active_use"], "G315 active-use boundary changed")
+    require("physical initial characteristic or boundary data" in g315_row["open_scope"]
+            and "global existence completeness caustics" in g315_row["open_scope"],
+            "G315 open data boundary changed")
+    require("arbitrary seeds called lawful data" in g315_row["forbidden_regression"]
+            and "one null sheet called a complete universe" in g315_row["forbidden_regression"]
+            and "pair evaluator called an evolution residual" in g315_row["forbidden_regression"],
+            "G315 scientific regression guard changed")
 
     g310_row = by_id["G310"]
     require("NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON"
@@ -15251,7 +15297,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

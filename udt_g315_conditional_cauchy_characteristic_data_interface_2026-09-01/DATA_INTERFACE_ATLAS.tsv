@@ -1,0 +1,16 @@
+presentation	object	classification	constraint_or_role	guard
+connected scalar sector	Lambda	SUPPLIED_OR_INFERRED_CONSTANT	dLambda=0; H=2Lambda	not calibration or X_max
+spacelike	gamma_ij	SUPPLIED_PHYSICAL_DATA	positive-definite metric; coupled constraints	topology and shape unselected
+spacelike	K_ij	SUPPLIED_PHYSICAL_DATA	Hamiltonian and momentum constraints	initial metric rate
+spacelike	lapse N	FREE_GAUGE	positive regular gauge choice	not selected physics
+spacelike	shift beta^i	FREE_GAUGE	regular gauge choice	not selected physics
+spacelike	H	CONSTRAINED	H=2Lambda	one scalar constraint
+spacelike	M_i	CONSTRAINED	M_i=0	three momentum constraints
+spacelike	local physical phase space	FREELY_SUPPLIED_AFTER_CONSTRAINT_AND_GAUGE	generic principal count 4 functions	two configuration modes plus rates
+null	screen conformal/shear data	SUPPLIED_CHARACTERISTIC_DATA	regularity and corner compatibility	radiative/tidal data not selected
+null	initial screen scale and expansion	SUPPLIED_CORNER_DATA	cross-sheet compatibility	not fixed by one null sheet
+null	theta along generator	TRANSPORTED_CONSTRAINED	Raychaudhuri	Lambda absent from ell-ell projection
+null	generator parameter and normalization	FREE_GAUGE	regular affine/double-null choice	not physical scale
+null	mixed ell-k curvature	CONSTRAINED	Ric(ell,k)=-Lambda for g(ell,k)=-1	cross-normal channel sees Lambda
+all	pair pullback and reciprocal readout	DOWNSTREAM_EVALUATOR	acts on supplied evolved metric and germ	no independent evolution residual
+global	topology completeness population	OPEN_OMITTED	outside local interface	no selected universe

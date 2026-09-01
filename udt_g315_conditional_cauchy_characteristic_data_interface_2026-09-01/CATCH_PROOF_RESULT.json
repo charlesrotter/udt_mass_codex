@@ -1,0 +1,145 @@
+{
+  "all_caught": true,
+  "baseline_passes": true,
+  "caught": 17,
+  "hostile_mutations": 17,
+  "records": [
+    {
+      "caught": true,
+      "errors": [
+        "hamiltonian_lambda_coefficient: expected 2, got -2"
+      ],
+      "field": "hamiltonian_lambda_coefficient",
+      "mutation": "wrong_hamiltonian_Lambda_sign"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "evolution_lambda_coefficient: expected -1, got 1"
+      ],
+      "field": "evolution_lambda_coefficient",
+      "mutation": "wrong_evolution_Lambda_sign"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "momentum_constraint_present: expected True, got False"
+      ],
+      "field": "momentum_constraint_present",
+      "mutation": "erase_momentum_constraint"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "configuration_modes: expected 2, got 4",
+        "phase/configuration data type mismatch"
+      ],
+      "field": "configuration_modes",
+      "mutation": "four_configuration_modes"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "lapse_shift_class: expected 'GAUGE', got 'PHYSICAL_SELECTED'"
+      ],
+      "field": "lapse_shift_class",
+      "mutation": "lapse_shift_called_physical"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "all_seed_data_lawful: expected False, got True"
+      ],
+      "field": "all_seed_data_lawful",
+      "mutation": "all_seed_data_called_lawful"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "same_null_lambda_coefficient: expected 0, got 1"
+      ],
+      "field": "same_null_lambda_coefficient",
+      "mutation": "Lambda_inserted_in_same_null_focusing"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "mixed_null_lambda_coefficient: expected -1, got 0"
+      ],
+      "field": "mixed_null_lambda_coefficient",
+      "mutation": "mixed_null_Lambda_erased"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "intersecting_null_sheets_required_for_complete_local_characteristic_claim: expected True, got False"
+      ],
+      "field": "intersecting_null_sheets_required_for_complete_local_characteristic_claim",
+      "mutation": "single_null_sheet_called_complete"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "propagation_scope: expected 'LOCAL_CONDITIONAL', got 'GLOBAL_COMPLETE'"
+      ],
+      "field": "propagation_scope",
+      "mutation": "local_called_global_complete"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "pair_adds_evolution_residual: expected False, got True"
+      ],
+      "field": "pair_adds_evolution_residual",
+      "mutation": "pair_called_evolution_equation"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "unique_history_selected: expected False, got True"
+      ],
+      "field": "unique_history_selected",
+      "mutation": "unique_history_promoted"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "Lambda_selected_or_calibrated: expected False, got True"
+      ],
+      "field": "Lambda_selected_or_calibrated",
+      "mutation": "Lambda_called_calibrated"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "physical_Xmax_selected: expected False, got True"
+      ],
+      "field": "physical_Xmax_selected",
+      "mutation": "Xmax_promoted"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "metric_or_kernel_changed: expected False, got True"
+      ],
+      "field": "metric_or_kernel_changed",
+      "mutation": "kernel_change_claimed"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "action_source_matter_observation_imported: expected False, got True"
+      ],
+      "field": "action_source_matter_observation_imported",
+      "mutation": "physics_import_smuggled"
+    },
+    {
+      "caught": true,
+      "errors": [
+        "protected_work_used: expected False, got True"
+      ],
+      "field": "protected_work_used",
+      "mutation": "protected_work_smuggled"
+    }
+  ]
+}
