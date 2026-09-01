@@ -1,0 +1,9 @@
+{
+  "external_review": "REQUIRED",
+  "independent_checks": 4824,
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "preregistration_commit": "0c139b1c",
+  "production_checks": 4690,
+  "semantic_regression_catches": 6,
+  "status": "PASS"
+}

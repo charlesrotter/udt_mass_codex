@@ -1,0 +1,14 @@
+{
+  "conditional_closure": "IF_BOTH_MISSING_PREMISES_ARE_ADOPTED__G301_MEMBERSHIP_AND_G311_GIVE_TRACEFREE_RICCI",
+  "exact_checks": 4690,
+  "g311_on_g301": "TF_g(a_Ric+b_R_g)=a_S__A_NONZERO_GIVES_TRACEFREE_RICCI",
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "metric_kernel_changed": false,
+  "not_owned": [
+    "FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP",
+    "LOCAL_FINITE_JET_RESPONSE_CONSTITUTION"
+  ],
+  "observations_used": false,
+  "protected_inputs_used": false,
+  "status": "PASS"
+}

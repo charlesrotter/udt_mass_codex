@@ -1,0 +1,12 @@
+{
+  "checks": 4824,
+  "conditional_result": "FULL_QUIET_GR_PRINCIPAL_OVERLAP_PLUS_LOCAL_FINITE_JET_RESPONSE_CLOSES_G301_WITH_EXISTING_NO_SCALE_AND_REGULARITY_GATES",
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "production_imported": false,
+  "production_result_read": false,
+  "separation_witnesses": {
+    "gr_principal_but_not_local": "SCALE_FREE_NONLOCAL_METRIC_HISTORY",
+    "local_but_not_gr_principal": "PURE_CURVATURE_QUADRATIC"
+  },
+  "status": "PASS"
+}

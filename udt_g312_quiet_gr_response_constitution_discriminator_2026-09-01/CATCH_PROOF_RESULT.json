@@ -1,0 +1,13 @@
+{
+  "catch_count": 6,
+  "caught": {
+    "g301_owned": "G301 class assumptions promoted",
+    "mixed_has_no_length": "hidden length coefficient erased",
+    "nonlocal_has_no_carry": "nonlocal Green/boundary carry erased",
+    "quadratic_has_gr_principal": "solution overlap conflated with principal overlap",
+    "ratio_quiet_regular": "quiet singularity erased",
+    "shape_equals_constitution": "G311 response shape promoted into constitution"
+  },
+  "grade": "SEMANTIC_REGRESSION_CATCHES_NOT_INDEPENDENT_CONFIRMATION",
+  "status": "PASS"
+}

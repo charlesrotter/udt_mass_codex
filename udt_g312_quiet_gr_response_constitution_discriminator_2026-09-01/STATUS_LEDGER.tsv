@@ -1,0 +1,11 @@
+object	status	maximum_statement
+Universal_Reciprocity	OWNER_ADOPTED_PROVISIONAL_POSTULATE	response shape must remain reciprocal
+G311_response_shape	DERIVED_CONDITIONAL_ON_POSTULATE	TF_g(E)=0 for supplied symmetric E
+G301_classification	DERIVED_CONDITIONAL	regular local weight-one curvature response is a Ricci+bRg
+G312_G311_on_G301	DERIVED_CONDITIONAL	TF_g(aRic+bRg)=aS; a nonzero gives S=0
+W3_solution_overlap	WORKING_POSIT_BOUNDEDLY_VERIFIED	GR vacuum branch embeds
+full_quiet_GR_principal_overlap	OPEN_OWNER_CLARIFICATION	not supplied by solution overlap alone
+local_finite_jet_response	OPEN_PREMISE	independent of quiet principal overlap
+conditional_G301_closure	VERIFIED_WITH_CAVEATS	requires both open premises
+global_history_scale_population	OPEN	no selection or calibration
+metric_kernel_angular	UNCHANGED	no modification
