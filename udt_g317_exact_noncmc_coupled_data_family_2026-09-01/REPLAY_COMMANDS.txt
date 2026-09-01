@@ -1,0 +1,4 @@
+python3 -S derive_exact_noncmc_family.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
