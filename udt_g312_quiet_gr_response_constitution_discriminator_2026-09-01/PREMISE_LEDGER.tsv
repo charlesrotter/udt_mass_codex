@@ -1,0 +1,13 @@
+id	grade	role	unowned_or_forbidden
+UR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	all admissible pair responses remain reciprocal	not canon
+G311	DERIVED_CONDITIONAL_ON_UR	TF_g(E)=0 for a supplied symmetric response	response constitution and trace
+W3	WORKING_POSIT	UDT reduces to GR in the quiet regime	currently proven only as bounded solution overlap
+W4_G296	WORKING_PLUS_DERIVED_BOUNDED	complete metric is the faithful primitive state	response formula
+G301	DERIVED_CONDITIONAL_CLASSIFICATION	regular scale-free local curvature response basis and two classes	class-assumption ownership
+CE	OBSERVED	clock/ruler calibration	no vacuum length by itself
+GOBS	OBSERVED	gravitational anchor	requires mass/source attachment to form length
+XMAX	OPEN	possible global completion scale	forbidden as response input
+LOCALITY	FREE_AND_EXPLORED	local finite-jet response	ownership
+FULL_QUIET_GR_GERM	FREE_AND_EXPLORED	nondegenerate GR principal response and regular germ	ownership
+OBSERVATIONS_SOURCE_ACTION_MATTER	OMITTED	none	not imported
+PROTECTED_WORK	OMITTED	none	not accessed
