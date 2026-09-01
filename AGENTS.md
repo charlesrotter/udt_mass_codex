@@ -5,8 +5,8 @@ evidence ledger, not a place to turn a promising lead into a stronger claim.
 
 ## Mandatory startup
 
-Work on branch `grok`. Do not trust branch, hash, status, process, or result claims quoted in a
-prompt or handoff. At the start of every fresh session run, in order:
+Use branch `grok`. Do not trust branch, hash, status, process, or result claims in a prompt
+or handoff. On every fresh session run, in order:
 
 ```bash
 git checkout grok
@@ -28,7 +28,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   verifier audits the 289-row exact registry without dumping its wide rows into model context.
+   verifier audits the 293-row exact registry without dumping its wide rows into model context.
    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
@@ -126,6 +126,7 @@ Disk evidence wins over conversational memory.
   history solves until a natural metric or global relation law is independently owned and preregistered.
 - `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
   frame readouts, not automatically local signal speeds.
+- `DDR` is unadopted; angular cancellation owns loud--quiet--loud.
 - `X_max` retains its owner-ratified working asymptotic meaning but is inactive as a local reciprocal
   kernel input. The native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`. A dimensionful
   `X_max` may be named only after an independent metric separation, physical relation domain,
@@ -179,7 +180,7 @@ of freedom, and incomplete solution-space coverage before proposing a mechanism.
 
 ## Evidence and banking
 
-- Preregister tests, tolerances, candidates, classifications, and conclusion wording before seeing outcomes.
+- Preregister tests, tolerances, classifications, and conclusion wording before outcomes.
 - Independently recompute the load-bearing quantity from saved artifacts. Hunt circular checks,
   shared-code false independence, vacuous assertions, loose tolerances, and incomplete sampling.
 - Use a fresh adversarial context and independent implementation for load-bearing results; use a

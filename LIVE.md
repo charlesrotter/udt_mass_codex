@@ -35,50 +35,29 @@ plus scale spans all ten metric directions but selects neither; G303 gives both 
 classes the same local metric-wave principal system, with the broader class carrying one connected-
 region constant. The reciprocal readout creates no evolution residual.
 
-G304 performs the bounded global/static sign test. In the exact trace-free primary family
-`f=1+b/r-(R0/12)r^2`, smooth-center regularity forces `b=0`. Only `R0>0` has a finite simple
-regular outer static causal ceiling, so the active `WORKING` G17 condition conditionally selects
-the positive sign inside this branch. It does not fix the magnitude, field equation, history, or
-physical `X_max`; `X=sqrt(12/R0)` is only the algebraic static-patch radius. Founded relation,
-network, topology, and co-presence layers remain nonselective. Full WR-L is not in this family:
-its exact trace-free residual is `2r/X`. Metric and kernel remain unchanged.
-G305 extends that bounded family through its standard connected global completions. The positive
-static ceiling is a regular observer horizon, not a material edge, and the completed spatial slices
-are compact `S3`, removing the old finite box/outer-boundary scaffold. G306 then proves that the
-round metric intrinsically defines two orientation-relative `S2` families of unit Killing geodesic
-Hopf congruences. Isotropy selects no individual member. For a supplied geometric member, normalized
-helicity is the frame-independent, scale-blind value `+1` or `-1`; the raw component Hopf number
-fails full local-frame descent. The orbit `S2` arises only after a member is supplied. Physical
-field/query population, member or chirality selection, fixed target ownership, dynamics, history,
-curvature magnitude, mass, scale, and physical `X_max` remain open. G306 is externally accepted
-after preregistered replay-portability repairs. G307 then proves that a supplied point/direction
-reduces the continuous ambiguity to one member in each chirality, and a signed transverse-screen
-jet conditionally selects one. G308 proves both chiral members extend globally; regular connected
-carry fixes one global chirality sector but a transverse orientation-reversing isometry exchanges
-the two, so metric-only physical selection remains open. Both are externally closed. Metric and
-kernel remain unchanged.
+G304's exact trace-free static family is `f=1+b/r-(R0/12)r^2`; smooth center forces `b=0`.
+`WORKING` G17 selects only the positive sign in this bounded branch, not magnitude, law, history, or
+physical `X_max`; `X=sqrt(12/R0)` is merely the static-patch radius. Full WR-L lies outside it.
+G305 completes the positive branch through a regular observer horizon to compact `S3`, removing the
+old box. G306 derives two metric-intrinsic Hopf families, but isotropy selects no member; a supplied
+member has frame-independent, scale-blind helicity `+1` or `-1`. G307 conditionally reconstructs a
+member from supplied directed/screen germs. G308 extends both mirror-related chiral sectors globally
+without physical population or chirality selection. All are externally closed; metric/kernel unchanged.
 
-G309 separates the founded/working compatibility layer from the conditional G301 field-law layer.
-An exact smooth globally hyperbolic deformation preserves a whole quiet half-history, compact round
-`S3` slices, both Hopf families, and normalized Hopf time carry while changing invariant curvature.
-F1--F4, W1, W3--W6, and Hopf kinematics do not reject it. The `CONDITIONAL` G301 trace-free Ricci
-residual does reject it and, on the positive standard round branch, forces
-`a(T)=X cosh((T-T0)/X)`. Thus that conditional branch has a fixed history shape and only one
-curvature scale, not a free function. Ownership of the G301 residual and calibration of `X` remain
-`OPEN`. External G309 review found no defect; its dependency-free replay repair passed repair-only
-follow-up with the scientific landing unchanged.
+G309 supplies a smooth time-live counterfamily preserving a quiet half-history and all round-`S3`
+Hopf kinematics while changing curvature: the founded/working chain remains compatibility-only.
+The `CONDITIONAL` G301 trace-free residual rejects it and fixes the positive round shape to
+`a(T)=X cosh((T-T0)/X)`, leaving one uncalibrated scale. External review and replay repair passed.
 
-G310 tests one explicit candidate bridge rather than assuming the G301 residual. `Differential
-Dual Reciprocity` (`DDR`) proposes that the first local natural complete-metric curvature response
-balance against every infinitesimal reciprocal clock/ruler shape change. The all-plane reciprocal
-tangents span exactly the metric's nine trace-free shape directions; their annihilator is only the
-common trace line. Therefore, inside G301's nondegenerate conditional response class, DDR is exactly
-equivalent to `R_ab-(R/4)g_ab=0`. Contracted Bianchi leaves one connected-region scalar curvature
-datum instead of a free local history function. DDR does not fix that datum, a realized global
-history, population, mass, scale, or physical `X_max`. It is a
-`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived from F1--F4/W1--W6. Fresh gpt-5.4 review retained
-the bounded theorem; its two preregistered evidence repairs were accepted with the scientific
-landing unchanged.
+G310 externally verifies one candidate bridge. `Differential Dual Reciprocity` (`DDR`) balances
+the conditional G301 curvature response against all reciprocal pair-shape tangents. Those tangents
+span nine trace-free metric directions, so on G301's nondegenerate stratum DDR is equivalent to
+`R_ab-(R/4)g_ab=0`; Bianchi leaves one regional scalar datum. DDR is
+`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived from F1--F4/W1--W6, and selects no magnitude,
+realized history, population, mass, scale, or physical `X_max`. External review and repairs passed.
+Charles's proposed **Universal Reciprocity** framing is broader: admissible pair readouts and UDT
+laws must remain reciprocal. It motivates but does not derive DDR. The angular-sector cancellation,
+not DDR, owns loud--quiet--loud.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -102,10 +81,10 @@ derived numerical scale.
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`.
+`archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
+`archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 289-row registry ends at G306. Read G307--G310 from their controlling reports pending a
-verified registry migration; G309 and G310 are externally accepted at their exact bounded grades.
+The exact 293-row registry now includes G307--G310 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -124,10 +103,10 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G310 and its preregistered evidence repairs passed external review. Next make an explicit physics
-decision: keep DDR as an externally verified candidate while seeking stronger founding ownership,
-or provisionally adopt DDR as the candidate parent law for downstream development. Only after that
-decision may the remaining scalar curvature datum be calibrated. Do not rename DDR as derived,
-infer it from Hopf consilience, fit before the law class is fixed, or import an action, source, mass
-law, physical `X_max`, or protected work.
+G310 and its preregistered evidence repairs passed external review. Next test whether Charles's
+proposed Universal Reciprocity principle independently forces G310 DDR, or whether DDR must be
+provisionally adopted as its curvature-level implementation. Only after that ownership decision
+may the remaining scalar curvature datum be calibrated. Do not rename DDR as derived, attribute
+angular loud--quiet--loud cancellation to it, infer it from Hopf consilience, fit before the law
+class is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

@@ -76,6 +76,7 @@ STARTUP_ARCHIVE_CONTROLS = (
     "archive/startup_surface_2026-08-22_pre_cleanup/REPAIR_SCOPE.md",
     "archive/startup_surface_2026-08-26_pre_g270/README.md",
     "archive/startup_surface_2026-08-26_pre_g270/CURRENT_RESEARCH_PROGRAM.md",
+    "archive/startup_surface_2026-08-31_pre_universal_reciprocity/README.md",
 )
 
 STARTUP_SURFACE_CONTROLS = (
@@ -198,7 +199,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -386,7 +387,14 @@ def validate_startup_surface(root: Path) -> None:
             "G304",
             "G305",
             "G306",
+            "G307",
+            "G308",
+            "G309",
+            "G310",
             "W6",
+            "Universal Reciprocity",
+            "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+            "angular-sector cancellation",
             "G190--G198",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
             "supplied",
@@ -401,6 +409,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/startup_surface_2026-08-21_pre_g197",
             "archive/startup_surface_2026-08-22_pre_cleanup",
             "archive/startup_surface_2026-08-26_pre_g270",
+            "archive/startup_surface_2026-08-31_pre_universal_reciprocity",
             "higher/full",
             "OPEN",
         ):
@@ -430,7 +439,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "289-row exact registry",
+            "293-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -541,6 +550,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
             "archive/startup_surface_2026-08-26_pre_g270/",
+            "archive/startup_surface_2026-08-31_pre_universal_reciprocity/",
             "archive/scaffolded_kernel_controls_2026-08-19/README.md",
             "Historical negative controls",
             "CLAUDE.md",
@@ -661,6 +671,11 @@ def validate_startup_surface(root: Path) -> None:
             "G304",
             "G305",
             "G306",
+            "G307",
+            "G308",
+            "G309",
+            "G310",
+            "Universal Reciprocity",
             "W6",
             "G291",
             "G292",
@@ -673,6 +688,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/startup_surface_2026-08-17_pre_zoomout/",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-26_pre_g270/",
+            "archive/startup_surface_2026-08-31_pre_universal_reciprocity/",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
@@ -787,6 +803,11 @@ def validate_startup_surface(root: Path) -> None:
             "G304",
             "G305",
             "G306",
+            "G307",
+            "G308",
+            "G309",
+            "G310",
+            "Universal Reciprocity",
             "W6",
             "W5",
             "WORKING_FOUNDATIONAL_CLARIFICATION",
@@ -905,12 +926,18 @@ def validate_startup_surface(root: Path) -> None:
             "G304",
             "G305",
             "G306",
+            "G307",
+            "G308",
+            "G309",
+            "G310",
+            "Universal Reciprocity",
+            "Differential Dual Reciprocity",
             "W6",
             "W5",
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "289-row",
+            "293-row",
         ),
         "README.md": (
             "LIVE.md",
@@ -927,6 +954,7 @@ def validate_startup_surface(root: Path) -> None:
             "stop and give the orientation report",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
             "archive/startup_surface_2026-08-26_pre_g270/",
+            "archive/startup_surface_2026-08-31_pre_universal_reciprocity/",
             "codex_rehearsal_final.md",
             "historical/search-only evidence",
             "common-scale, elegant-frame, simple-metric, problem-statement",
@@ -1234,6 +1262,10 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g269_null_transport_mutual_clock_screen_interlock_2026-08-26/AUDIT_REPORT.md",
         "udt_g270_completed_pair_transported_screen_ownership_2026-08-26/AUDIT_REPORT.md",
         "udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/AUDIT_REPORT.md",
+        "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md",
+        "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
+        "udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md",
+        "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
@@ -1269,12 +1301,26 @@ def validate_startup_surface(root: Path) -> None:
         require(hashlib.sha256(path.read_bytes()).hexdigest() == expected_hash, f"pre-G270 startup hash mismatch: {name}")
         require(len(path.read_text(encoding="utf-8").splitlines()) == expected_lines, f"pre-G270 startup line-count mismatch: {name}")
 
+    pre_universal = root / "archive" / "startup_surface_2026-08-31_pre_universal_reciprocity"
+    pointer = pre_universal / "README.md"
+    require(pointer.is_file(), "pre-Universal-Reciprocity archive pointer missing")
+    pointer_text = pointer.read_text(encoding="utf-8")
+    for token in (
+        "dd4f294b",
+        "293-row",
+        "git show dd4f294b:<path>",
+        "Universal Reciprocity",
+        "loud--quiet--loud",
+        "No scientific evidence was moved, deleted, or regraded",
+    ):
+        require(token in pointer_text, f"pre-Universal-Reciprocity archive pointer lacks {token}")
+
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 289, "premise registry must contain exactly 289 rows")
+    require(len(rows) == 293, "premise registry must contain exactly 293 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 289, "duplicate premise id")
+    require(len(by_id) == 293, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1415,6 +1461,26 @@ def main() -> None:
             "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_REPLAY_PORTABILITY_REPAIRS__PREREGISTERED_AT_C5873D2C",
             "udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md",
             "ROUND_S3_METRIC_INTRINSICALLY_DEFINES_TWO_ORIENTED_HOPF_CONGRUENCE_FAMILIES",
+        ),
+        "G307": (
+            "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS__PREREGISTERED_AT_1BDFE7D2",
+            "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md",
+            "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY",
+        ),
+        "G308": (
+            "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_AND_R3_WORDING_REPAIRS__PREREGISTERED_AT_AAEA5C12",
+            "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
+            "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305",
+        ),
+        "G309": (
+            "EXTERNALLY_ACCEPTED_WITH_STATED_CAVEATS_AFTER_PREREGISTERED_DEPENDENCY_FREE_REPLAY_REPAIR__PREREGISTERED_AT_D0A22F9A",
+            "udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md",
+            "FOUNDED_STRENGTHENED_CHAIN_REMAINS_COMPATIBILITY_ONLY",
+        ),
+        "G310": (
+            "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS__PREREGISTERED_AT_2ECD25F4",
+            "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+            "ONE_NEW_DIFFERENTIAL_DUAL_RECIPROCITY_POSTULATE_SELECTS_G301_TRACEFREE_CLASS",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -1811,7 +1877,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
         line for line in registry_lines
-        if not line.startswith((b"G303\t", b"G304\t", b"G305\t", b"G306\t"))
+        if not line.startswith((b"G303\t", b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g303_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -1881,7 +1947,7 @@ def main() -> None:
     g304_manifest = {row["path"]: row for row in read_tsv(g304 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
-        line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t"))
+        line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g304_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -1956,7 +2022,7 @@ def main() -> None:
     g305_sources = {row["path"]: row for row in read_tsv(g305 / "SOURCE_SCOPE.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     frozen_registry = b"".join(
-        line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t"))
+        line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t"))
     )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g305_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
@@ -2044,10 +2110,76 @@ def main() -> None:
             "G306 sealed package replay changed")
     g306_manifest = {row["path"]: row for row in read_tsv(g306 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
-    frozen_registry = b"".join(line for line in registry_lines if not line.startswith(b"G306\t"))
+    frozen_registry = b"".join(
+        line for line in registry_lines
+        if not line.startswith((b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t"))
+    )
     require(hashlib.sha256(frozen_registry).hexdigest()
             == g306_manifest["CURRENT_SCIENTIFIC_PREMISES.tsv"]["sha256"],
             "G306 frozen premise-registry ancestry changed")
+
+    later_packages = (
+        (
+            "G307",
+            ROOT / "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30",
+            "SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN",
+            "G307_REPAIRS_ACCEPTED",
+            "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+            {"production_assertions": 1806, "independent_checks": 32000, "hostile_catches": 22},
+        ),
+        (
+            "G308",
+            ROOT / "udt_g308_global_chirality_coherence_parity_classification_2026-08-31",
+            "BOTH_G307_CHIRAL_MEMBERS_EXTEND_GLOBALLY_AND_CAUSALLY_ON_G305__CONNECTED_REGULAR_CARRY_FORBIDS_LOCAL_CHIRALITY_SWITCHING__TRANSVERSE_ORIENTATION_REVERSING_ISOMETRY_EXCHANGES_THE_TWO_SECTORS__METRIC_ONLY_PHYSICAL_SELECTION_REMAINS_OPEN",
+            "G308_R3_COMPLETION_ACCEPTED",
+            "EXTERNAL_R3_COMPLETION_RESPONSE.md",
+            {"production_assertions": 11526, "independent_checks": 79200, "hostile_catches": 22},
+        ),
+        (
+            "G309",
+            ROOT / "udt_g309_strengthened_chain_history_selection_audit_2026-08-31",
+            "FOUNDED_STRENGTHENED_CHAIN_REMAINS_COMPATIBILITY_ONLY__ROUND_HOPF_TIME_LIVE_COUNTERFAMILY_SURVIVES__CONDITIONAL_TRACEFREE_RESIDUAL_CLOSES_POSITIVE_STANDARD_COMPLETION_TO_ONE_SCALE__HOPF_STRUCTURE_DOES_NOT_OWN_OR_CALIBRATE_THAT_RESIDUAL",
+            "G309_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+            "EXTERNAL_REVIEW_REPAIR_FOLLOWUP_RESPONSE.md",
+            {"production_checks": 13, "independent_checks": 28, "hostile_cases": 4},
+        ),
+        (
+            "G310",
+            ROOT / "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31",
+            "ONE_NEW_DIFFERENTIAL_DUAL_RECIPROCITY_POSTULATE_SELECTS_G301_TRACEFREE_CLASS__NOT_DERIVED_OR_ADOPTED",
+            "G310_R1_R2_REPAIRS_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+            "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+            {"production_checks": 14, "independent_checks": 32, "hostile_cases": 7},
+        ),
+    )
+    for premise_id, package, landing, review_token, response_name, counts in later_packages:
+        require((package / "verify_package.py").is_file(), f"{premise_id} package verifier missing")
+        replay = subprocess.run(
+            [sys.executable, "-S", str(package / "verify_package.py")],
+            cwd=package,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=False,
+        )
+        require(replay.returncode == 0, f"{premise_id} dependency-free replay failed: {replay.stderr}")
+        payload = json.loads(replay.stdout)
+        require(payload["status"] == "PASS", f"{premise_id} package status changed")
+        require(payload["landing"] == landing, f"{premise_id} package landing changed")
+        for key, value in counts.items():
+            require(payload[key] == value, f"{premise_id} package count changed: {key}")
+        response = (package / response_name).read_text(encoding="utf-8")
+        require(review_token in response, f"{premise_id} external closure token changed")
+
+    g310_row = by_id["G310"]
+    require("NOT_DERIVED_OR_ADOPTED" in g310_row["current_status"],
+            "G310 DDR was promoted without owner authorization")
+    require("Universal Reciprocity wording used to hide the new all-pair stationarity premise"
+            in g310_row["forbidden_regression"],
+            "G310 Universal Reciprocity ownership guard missing")
+    require("loud quiet loud attributed to DDR rather than angular cancellation"
+            in g310_row["forbidden_regression"],
+            "G310 angular-cancellation ownership guard missing")
     w5 = by_id["W5"]
     require(
         w5["current_status"].startswith(
@@ -14815,7 +14947,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G303/G304/G305/G306 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

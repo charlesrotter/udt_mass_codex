@@ -17,33 +17,22 @@ has rank nine; Bianchi-completed fixed-`Lambda` sectors share Ricci-flat's rank-
 principal system and null cone. Lawful data carry one connected-region number, not a function.
 Standard local PDE theorems are conditional imports; the kernel creates no evolution residual. No
 class, law, history, mass, source, query population, metric, or kernel was selected.
-G304's smooth-center static trace-free family retains only a positive-sector finite causal ceiling;
-`WORKING` G17 distinguishes its sign, not magnitude or physical `X_max`. Full WR-L is outside that
-family. G305 extends the positive branch through a regular observer horizon to compact `S3` slices,
-removing the old box/boundary scaffold. G306 proves that the round metric intrinsically defines two
-orientation-relative Hopf-congruence families, while isotropy selects no individual member. A
-supplied geometric member has frame-independent, scale-blind normalized helicity `+1` or `-1`;
-raw component Hopf number fails full local-frame descent. Physical population, member/chirality,
-target, dynamics, history, mass, magnitude, and `X_max` remain open. The repair-only external
-review returned `G306_REPAIRS_ACCEPTED`. G307 reduces supplied-germ ambiguity to one member per
-chirality and a signed transverse jet conditionally picks one. G308 proves both chirality sectors
-extend globally; a mirror isometry exchanges them, so metric-only selection remains open.
+G304's bounded smooth-center trace-free branch retains only the positive finite-ceiling sign under
+`WORKING` G17; magnitude and physical `X_max` remain open. G305 completes it through a regular
+horizon to compact `S3`. G306 derives two intrinsic Hopf families but no member; a supplied member
+has scale-blind helicity `+1` or `-1`. G307 conditionally reconstructs a member from supplied germs;
+G308 extends both mirror-related sectors globally without selecting a physical one. Reviews passed.
 
-G309 and its dependency-free replay repair passed external review. A smooth time-live
-deformation preserves an entire quiet half-history and all round-`S3` Hopf kinematics while changing
-curvature, so the strengthened founded/working chain still supplies compatibility rather than a
-field equation. The conditional G301 trace-free residual rejects it and fixes the history to
-`a(T)=X cosh((T-T0)/X)`. Within that conditional branch one
-curvature scale remains. Ownership and calibration remain open; metric/kernel unchanged.
+G309's reviewed time-live counterfamily preserves quiet/Hopf kinematics while changing curvature,
+so the founded chain remains compatibility-only. Conditional G301 trace-free Ricci rejects it and
+fixes `a(T)=X cosh((T-T0)/X)`, leaving one uncalibrated scale.
 
-G310 supplies one sharply typed candidate bridge. `Differential Dual Reciprocity` asks the local
-curvature response to balance against every infinitesimal reciprocal pair-shape change. Those
-changes span all nine trace-free metric directions, so their only annihilator is the common trace
-line. Inside G301's nondegenerate conditional operator class this is exactly
-`R_ab-(R/4)g_ab=0`; Bianchi then leaves one regional scalar curvature datum, not a free function.
-DDR remains `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED` and does not select its magnitude, realized global
-history, population, mass, scale, or physical `X_max`. Fresh external review and the repair-only
-follow-up accepted the bounded theorem and both preregistered evidence repairs.
+G310 externally verifies one candidate bridge: `Differential Dual Reciprocity` balances G301's
+conditional curvature response against all reciprocal pair-shape directions. On G301's
+nondegenerate stratum this is `R_ab-(R/4)g_ab=0`; Bianchi leaves one regional scalar datum. DDR is
+`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived, and selects no realized history, population,
+mass, scale, or physical `X_max`. Charles's proposed **Universal Reciprocity** principle motivates
+but does not derive DDR. The angular-sector cancellation—not DDR—owns loud--quiet--loud.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -72,10 +61,10 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; authority:
 `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`.
+`archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
+`archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 289-row registry currently ends at G306. Use the banked G307--G310 controlling reports
-for those newer bounded results until a separately verified registry migration is completed.
+The exact 293-row registry includes G307--G310 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -84,9 +73,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: decide whether to keep seeking stronger founding ownership for externally verified candidate
-DDR or provisionally adopt DDR as the candidate parent law. Calibrate its remaining scalar datum
-only afterward. Do not turn the candidate's economy or Hopf consilience into proof or import an
-action, source, mass, fitted scale, physical `X_max`, or protected work.
+Next: test whether proposed Universal Reciprocity forces externally verified candidate DDR, or
+provisionally adopt DDR as its curvature-level implementation. Calibrate the remaining scalar datum
+only afterward. Do not turn the proposal, candidate economy, or Hopf consilience into proof; do not
+misassign angular loud--quiet--loud behavior; and do not import an action, source, mass, fitted scale,
+physical `X_max`, or protected work.
 
 <!-- STARTUP_CURRENT_END -->

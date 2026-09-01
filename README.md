@@ -51,6 +51,9 @@ The displaced G267-era active wording is indexed at
 `archive/startup_surface_2026-08-26_pre_g270/`. Its exact file versions remain recoverable from the
 recorded Git commit and hashes there.
 
+The pre-Universal-Reciprocity/G310-registry startup state is indexed at
+`archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
+
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`,
 `CODEX_STARTUP_REHEARSAL_2026-07-17.md`, `codex_rehearsal_final.md`, and
 `codex_rehearsal_transcript.txt` are historical/search-only evidence. The same is true of the ignored

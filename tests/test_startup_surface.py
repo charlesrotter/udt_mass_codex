@@ -91,6 +91,10 @@ CURRENT_TARGETS = (
     "udt_g284_emergent_ce_causal_projective_value_law_audit_2026-08-27/AUDIT_REPORT.md",
     "udt_g285_complete_separation_germ_retyping_audit_2026-08-27/AUDIT_REPORT.md",
     "udt_g286_complete_germ_propagation_discriminator_2026-08-28/AUDIT_REPORT.md",
+    "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md",
+    "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
+    "udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md",
+    "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
 )
 
 
@@ -217,7 +221,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G276", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G268", "G269", "G270", "G271", "G272", "G273", "G274", "G275", "G276", "G277", "G278", "G279", "G280", "G281", "G282", "G283", "G284", "G285", "G286", "G287", "G288", "G289", "G290", "G297", "G301", "G302", "G303", "G190--G198"))
+@pytest.mark.parametrize("token", ("G166--G276", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G268", "G269", "G270", "G271", "G272", "G273", "G274", "G275", "G276", "G277", "G278", "G279", "G280", "G281", "G282", "G283", "G284", "G285", "G286", "G287", "G288", "G289", "G290", "G297", "G301", "G302", "G303", "G307", "G308", "G309", "G310", "G190--G198"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")
@@ -230,6 +234,20 @@ def test_catch_stale_active_arc(tmp_path: Path) -> None:
     path = root / "INDEX.md"
     path.write_text(path.read_text(encoding="utf-8") + "\nACTIVE ARC = CMB PEAK OPTIMIZATION\n", encoding="utf-8")
     with pytest.raises(SystemExit, match="stale startup token"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_universal_reciprocity_ddr_collapse(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "Universal Reciprocity", "DDR_ALREADY_DERIVED")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_ddr_angular_regime_misattribution(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "angular-sector cancellation", "DDR curvature response")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)
 
 

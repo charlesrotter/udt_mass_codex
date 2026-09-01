@@ -2,7 +2,7 @@
 
 Date: 2026-08-31
 
-`LIVE.md` controls status; the 289-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 293-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -69,32 +69,18 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
   Ricci with one constant scalar datum; identity divergence would choose the former but is unowned.
 - G302 proves reciprocal shape plus common scale spans all ten metric directions and selects
   neither; its static channel split separates constant-curvature from angular/Weyl.
-- G303 closes the local nonlinear Cauchy/data gate. Raw trace-free Ricci has rank nine; Bianchi
-  completion turns every fixed-`Lambda` sector into the same rank-ten metric-wave principal system
-  and null cone as Ricci-flat. Unsupplied-`Lambda` data obey `M_i=0,D_iH=0,Lambda=H/2`: one regional
-  number, not a function. Standard PDE theorems are conditional; the kernel adds no evolution law.
-- G304's bounded trace-free static family leaves only `R0>0` with a regular finite ceiling under
-  `WORKING` G17; magnitude, law, history, and physical `X_max` remain open.
-- G305 completes that branch through a regular horizon to compact `S3`, removing the Hopfion box.
-  G306 derives two metric-intrinsic Hopf families and normalized `+/-1` helicity for a supplied
-  member, but no population, target, dynamics, history, magnitude, mass, scale, or physical
-  `X_max`. Raw component charge fails full frame descent; metric/kernel remain unchanged.
-- G307 reconstructs one member per chirality from a supplied directed germ, with a signed
-  transverse-screen jet conditionally distinguishing the pair. G308 proves both sectors extend
-  globally, connected regular carry forbids local switching, and mirror parity exchanges them.
-  Neither supplies physical population or chirality selection.
-- G309 exhibits a smooth round time-live counterfamily preserving a whole quiet half-history and
-  every registered Hopf kinematic while changing curvature. The founded/working chain therefore
-  remains compatibility-only. The conditional G301 trace-free residual rejects the deformation
-  and fixes the positive standard branch to `a=X cosh((T-T0)/X)`, leaving one scale rather than a
-  free history function. External review found no scientific defect, and its dependency-free replay
-  repair passed follow-up. The residual's UDT ownership and the scale remain open.
-- G310 identifies and externally verifies one explicit candidate ownership bridge. The new
-  compound `DDR` postulate balances the conditional G301 curvature response against every
-  infinitesimal reciprocal pair-shape tangent. Exact all-plane span and annihilator reconstruction
-  make `DDR` equivalent to trace-free Ricci on G301's nondegenerate stratum, leaving one Bianchi-
-  constant scalar datum. This is a sufficiency theorem for a `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`,
-  not a derivation from the older founding/working chain or a selected magnitude/history/scale.
+- G303 gives every fixed trace-free sector the same rank-ten metric-wave principal system and null
+  cone as Ricci-flat; one regional scalar datum remains. PDE theorems are conditional imports.
+- G304 uses `WORKING` G17 to select only the positive sign in the bounded smooth-center branch.
+  G305 completes it through a regular horizon to compact `S3`. G306--G308 derive two global,
+  mirror-related Hopf families and conditional member reconstruction, but no physical population,
+  magnitude, mass, scale, history, or physical `X_max`.
+- G309's reviewed counterfamily preserves quiet/Hopf kinematics while changing curvature. Conditional
+  G301 trace-free Ricci rejects it and fixes `a=X cosh((T-T0)/X)`, leaving one uncalibrated scale.
+- G310 externally verifies that one new `DDR` postulate selects trace-free Ricci on G301's
+  nondegenerate stratum, leaving one scalar datum. It is a sufficiency theorem for a
+  `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not a derivation or selected history/scale. Proposed
+  **Universal Reciprocity** motivates testing DDR; angular-sector interlock owns loud--quiet--loud.
 
 ## Open boundary
 
@@ -125,7 +111,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Explicitly either keep seeking stronger founding ownership for externally verified candidate DDR or
-provisionally adopt DDR as the candidate law. Only then may an independent observation calibrate its
-remaining scalar datum. Do not restamp DDR as derived, turn Hopf consilience into ownership proof,
-or import an action, source, mass, fit, physical `X_max`, protected work, or realized history.
+Test whether proposed Universal Reciprocity independently forces externally verified candidate DDR;
+if it does not, Charles may decide whether to provisionally adopt DDR as the curvature-level law.
+Only then may an independent observation calibrate its remaining scalar datum. Do not restamp DDR
+as derived, turn Hopf consilience or angular cancellation into ownership proof, or import an action,
+source, mass, fit, physical `X_max`, protected work, or realized history.

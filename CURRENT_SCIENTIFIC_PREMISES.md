@@ -19,6 +19,8 @@
 | Co-presence | `WORKING` | Membership | Population; signalling |
 | G294 co-presence architecture | `INTERNAL/VERIFIED_WITH_CAVEATS` | Nonpropagating relation is coherent if response remains metric-causal | Constraint/update formula; history |
 | Non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` W6 | Nonpropagating relational membership; metric-causal controllable response | Constraint/update formula; population; history; global-now ownership |
+| Universal Reciprocity | `PROPOSED_FOUNDATIONAL_FRAME` | Charles's proposed requirement that pair readouts and admissible UDT laws remain reciprocal | Whether it uniquely forces G310 DDR; adoption/canonization |
+| Differential Dual Reciprocity | `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED` G310 | Conditionally selects trace-free Ricci inside G301's nondegenerate arena | Founding ownership; adoption; scalar datum; realized history |
 
 ## Reconstruction hierarchy
 
@@ -63,11 +65,11 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 | G303 Cauchy/data classification | external/caveats | Fixed-`Lambda` sectors share rank-10 wave system; one constant; no selection |
 | G304 global/static sector discriminator | external/repairs verified | Working finite ceiling selects positive sign only in bounded smooth-center static trace-free branch; magnitude open |
 | G305 Hopf domain | external/repairs | Positive completion: compact `S3`; physical map/dynamics/scale open |
-| G306 intrinsic Hopf family/descent | external/repairs accepted | Round metric supplies two symmetric Hopf families; no physical member/population/dynamics/scale |
-| G307 directed-germ member reconstruction | external/repairs accepted | One member per chirality from supplied germ; signed transverse jet conditionally selects one |
-| G308 global chirality coherence | external/R3 accepted | One coherent global chirality sector; mirror parity leaves physical sign open |
-| G309 strengthened-chain history audit | external review + repair accepted | Counterfamily survives founded layer; conditional G301 residual fixes positive round history up to one scale |
-| G310 differential Dual Reciprocity candidate | external review + repairs accepted | One new unadopted all-pair curvature-balance postulate conditionally selects trace-free Ricci and leaves one scalar datum |
+| G306 intrinsic Hopf family/descent | external/repairs accepted | Two symmetric families; no population/dynamics/scale |
+| G307 directed-germ reconstruction | external/repairs accepted | Supplied germ conditionally selects a member |
+| G308 global chirality coherence | external/R3 accepted | Mirror sectors; physical sign open |
+| G309 history audit | external/repair accepted | Founded counterfamily; conditional G301 fixes shape up to scale |
+| G310 DDR candidate | external/repairs accepted | New unadopted postulate conditionally selects trace-free Ricci; one datum remains |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -85,21 +87,15 @@ None selects completion/`X_max`.
 | Projective `chi` | `DERIVED` bounded ratio | Blind to common scale and proper length; not a numerical `X_max` law |
 ## Geometry, query, and causality
 
-- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class. G282--G293
-  separate tide, sign, center, topology, flux, and history without selecting values. G294/W6 makes
-  co-presence non-signalling; G295 controls bounded propagation without a formula. G296 finds
-  curvature as the first local natural nonidentity order—not a law.
-  G297--G300 derive radar germs, complete carry, rank-two projections, and celestial control while
-  leaving physical query supply operational. G301 leaves Ricci-flat and trace-free Ricci classes;
-  G302 selects neither. G303 gives each fixed sector the same local causal principal system; the
-  broader class adds one regional constant. `WORKING` G17 and G304 distinguish only the positive
-  static sign. G305 adds compact `S3` slices. G306--G308 derive the intrinsic Hopf families,
-  conditional member reconstruction, and global parity/coherence classification without physical
-  population. G309 proves that these kinematics are blind to smooth changes in the time profile.
-  G310 proves that one new compound DDR postulate selects that conditional trace-free residual and
-  removes the functional freedom, leaving one scalar datum and one positive-round scale. DDR remains
-  unadopted and underived; its magnitude, realized history, population, mass, and `X_max` remain
-  open. W1 stays evaluative.
+- Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class. G282--G296
+  separate tide, sign, topology, causality, and first natural differential order without a law.
+  G297--G300 derive complete carry but no physical query family. G301--G303 leave Ricci-flat versus
+  trace-free Ricci with one regional constant and the same causal principal system. G304--G308 add
+  the positive static sign, compact `S3`, and mirror Hopf families without population. G309 proves
+  those kinematics do not select the time profile. G310's new unadopted DDR candidate conditionally
+  selects trace-free Ricci and leaves one scalar datum; magnitude, history, population, mass, and
+  `X_max` remain open. Proposed Universal Reciprocity motivates but does not prove DDR. Angular
+  cancellation owns loud--quiet--loud. W1 remains evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -119,7 +115,5 @@ selected value law follows.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 289-row authority through G306; conflicts stop. G307--G310
-are newer banked package evidence pending a separately verified registry migration and are listed
-here only at their exact package grades. Run `python3 verify_current_scientific_premises.py`; query
-exact rows only when load-bearing.
+`CURRENT_SCIENTIFIC_PREMISES.tsv` is the 293-row authority through G310; conflicts stop. Run
+`python3 verify_current_scientific_premises.py`; query exact rows only when load-bearing.
