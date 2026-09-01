@@ -69,7 +69,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
 | G307 directed-germ reconstruction | external/repairs accepted | Supplied germ conditionally selects a member |
 | G308 global chirality coherence | external/R3 accepted | Mirror sectors; physical sign open |
 | G309 history audit | external/repair accepted | Founded counterfamily; conditional G301 fixes shape up to scale |
-| G310 DDR candidate | external/repairs accepted | New unadopted postulate conditionally selects trace-free Ricci; one datum remains |
+| G310 Universal Reciprocity / DDR | external/repairs + owner adoption accepted | Owner-provisionally-adopted, not-derived, noncanon postulate; conditionally selects trace-free Ricci and leaves one datum |
 None selects completion/`X_max`.
 ## Scale and limits
 

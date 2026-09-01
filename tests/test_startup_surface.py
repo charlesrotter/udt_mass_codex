@@ -296,6 +296,18 @@ def test_catch_stale_universal_reciprocity_entailment_gate(tmp_path: Path) -> No
         premise_guard.validate_startup_surface(root)
 
 
+def test_catch_stale_universal_reciprocity_summary_grade(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / "CURRENT_SCIENTIFIC_PREMISES.md"
+    path.write_text(
+        path.read_text(encoding="utf-8")
+        + "\n| G310 DDR candidate | accepted | New unadopted postulate |\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(SystemExit, match="stale startup token"):
+        premise_guard.validate_startup_surface(root)
+
+
 def test_catch_ddr_angular_regime_misattribution(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "angular-sector cancellation", "DDR curvature response")

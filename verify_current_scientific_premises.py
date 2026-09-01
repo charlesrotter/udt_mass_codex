@@ -118,6 +118,7 @@ STALE_STARTUP_TOKENS = (
     "motivates but does not derive DDR",
     "motivates but does not prove DDR",
     "Neither formulation is adopted",
+    "New unadopted postulate",
     "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
     "provisionally adopt Universal Reciprocity/DDR",
     "adoption remains open",
