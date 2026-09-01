@@ -1,0 +1,17 @@
+object	status	meaning
+ratio-free A/B reduction	DERIVED_CONDITIONAL	follows from active constraints in registered slice
+conserved J0	DERIVED_CONDITIONAL	one free constraint integration constant
+regular B-nonzero reconstruction	DERIVED_CONDITIONAL	exact on each connected nowhere-zero component
+arbitrary positive periodic psi admissibility	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	large free J0 supplies regular sign-definite data
+B-zero compatibility conditions	DERIVED_CONDITIONAL	F=0 and Bprime=3HA at a zero
+global B-zero crossing classification	OPEN	not parameterized by G319
+G318 constant-ratio family	RETAINED_EXACT_SUBFAMILY	not erased or generalized
+G318 n<=-3 obstruction	ANSATZ_SCOPED	valid only with G318 constant ratio
+G318 periodic tidal branch	SURVIVES_EMBEDDED	still exact inside its subfamily
+flat marked T3 and one-coordinate frame	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	not physical topology or full census
+physical initial data	OPEN_NOT_SELECTED	constraint admissibility is not physical occupancy
+complete evolving history	OPEN_NOT_SELECTED	not addressed by snapshot constraints
+metric and reciprocal kernel	UNCHANGED	no construction or amendment
+scale and physical Xmax	OPEN_NOT_SELECTED	J0 is not an observed scale
+sources matter mass observations	OMITTED_OPEN	no import or fit
+

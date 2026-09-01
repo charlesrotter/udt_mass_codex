@@ -2,7 +2,7 @@
 
 Date: 2026-09-01
 
-`LIVE.md` controls status; the 301-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 302-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -86,35 +86,21 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   G317 accepts an exact coupled non-CMC constant-`psi` family with zero/electric-tide branches and
   free function/parameters. G318 frees `psi` inside one sign-definite constant-ratio family: the
   old G317 form is obstructed, `tau=C psi^n` is forced, and an exact positive periodic tidal branch
-  exists. None selects physical data/history; interfaces remain unchanged.
+  exists. G319 removes the ratio ansatz and derives a one-constant quadrature on the regular
+  stratum; every smooth positive periodic `psi` is admitted for sufficiently large free `J0`.
+  G318 remains an exact embedded subfamily, while global `B=0` crossings remain open. None selects
+  physical data/history; interfaces remain unchanged.
 
 ## Open boundary
 
-The corpus owns the evaluator, screen-before-readout, frame carry, W5 position typing, one-scale
-boundary, and G298 directed-leg state. It does not own populated germs/paths, one physical
-projection, joint depth/Jacobi history, operational distance, or numerical `X_max`. G288--G295 add
-center, topology, non-signalling type, and a well-posed-family target—not a continuous history law.
-Residual, data, scale, mass, population, and realized history remain open; this is no native-law
-no-go.
-G296 removes the need to posit an extra primitive geometric state and locates the first local native
-differential order, but it selects no residual formula or data. G297/G298 construct the earlier
-causal bridge, G299 proves complete carry is required, and G300 shows that even the exact all-sky
-control action does not type the lawful physical query family. Operational query supply is the
-current endpoint of that lane, not a metric or kernel failure. G301 narrows one local residual lane
-to two classes; G302 does not remove that fork. G303 gives both the same local causal propagation
-and functional data burden; trace-free adds one regional constant. G304 then uses the already-active
-working finite-ceiling condition to distinguish the positive sign in the smooth-center static
-branch. G305 extends that branch through its standard global completion and supplies a compact `S3`
-domain. G306--G308 narrow the native geometry to a globally coherent supplied member with two
-parity-related sectors, but select no physical population. G309 shows that this topology and carry
-do not select the time profile. Owner-adopted provisional DDR selects the G301 trace-free residual
-inside G311's conditional G301 lane; the positive round history shape is then fixed up to one
-curvature scale. G312's two premises are owner-adopted provisionally, making bounded trace-free
-Ricci active. G313 shows its solution space is a multibranch Einstein arena, not a selected round
-universe. G314 makes unique-universe bootstrap an optional stronger ambition rather than a missing
-condition for bounded conditional dynamics. G315--G318 constrain and construct data, showing exact
-non-CMC interlock, branching, and tide separation without selection. Curvature
-scale, population, mass, and physical `X_max` remain open.
+The corpus owns the evaluator, screen-before-readout, frame carry, W5 position typing, and bounded
+conditional dynamics. It does not own populated germs/paths, a physical projection, operational
+distance, numerical `X_max`, data, population, scale, or realized history. G296--G300 locate the
+first local differential order and complete carry/query boundaries without selecting a formula.
+G301--G312 narrow and owner-activate bounded trace-free Ricci; G313 keeps a multibranch Einstein
+arena, G314 keeps bootstrap optional, and G315--G319 construct broad constrained non-CMC snapshots
+without selecting one. The positive round branch remains fixed only up to curvature scale. This is
+not a native-law no-go; curvature scale, mass, population, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -122,6 +108,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Remove G318's constant-ratio restriction in the bounded frame. Classify the full
-vector/scalar family without choosing Nature's data. Do not resume bootstrap without owner direction
-or import action, source, matter/mass, observation, fit, `X_max`, protected work, or history.
+Quotient G319's broad positive-periodic-`psi` family by conformal-seed representation and spatial
+diffeomorphism, then use invariant curvature/tidal data to decide whether distinct profiles are
+genuinely distinct initial geometries. Do not choose Nature's data or resume bootstrap without
+owner direction, and do not import action, source, matter/mass, observation, fit, `X_max`, protected
+work, or history.
