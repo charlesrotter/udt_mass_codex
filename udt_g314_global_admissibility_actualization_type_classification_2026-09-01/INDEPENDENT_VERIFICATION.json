@@ -1,0 +1,18 @@
+{
+  "admissibility_does_not_supply_population": true,
+  "assertions": 114,
+  "boolean_predicates_exhausted": 16,
+  "bootstrap_without_supplied_data_requires_extra_structure": true,
+  "candidate_adopted": false,
+  "conditional_field_theory_requires_unique_universe_selector": false,
+  "distinct_fixed_point_sets": 8,
+  "endomaps_exhausted": 27,
+  "global_selection_local_response_compatible": true,
+  "landing": "GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_ARE_DISTINCT_MISSING_TYPES__CURRENT_STRUCTURE_SUPPLIES_NEITHER",
+  "network_reconstruction_is_identity": true,
+  "nonsingleton_nonidentity_predicates": 10,
+  "owned_acceptance_sets_are_identity": true,
+  "production_imported": false,
+  "production_result_read": false,
+  "status": "PASS"
+}

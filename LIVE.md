@@ -65,27 +65,28 @@ connected constant scalar. Global bootstrap may build/select the local metric, b
 remote-history response remains after its admitted local jet is fixed. Metric, kernel, angular
 cancellation, observations, scale, and `X_max` are unchanged.
 
-G313 maps that equation. Bianchi gives `Ric=Lambda g` with one connected constant, but exact
-product, Berger-`S3` local-data, plane-wave, and homothety witnesses leave Weyl/tide, topology,
-data, scalar, scale, and population open. External review accepted R1--R4 repairs without changing
-the landing. No owned global admissibility predicate selects a member. Global metric selection is
-compatible with Local Metric Sufficiency; a second remote-history response after the local jet is
-fixed is not. Metric/kernel/angular/observations remain unchanged.
+G313 externally maps `Ric=Lambda g` as a multibranch Einstein arena: product, Berger-`S3` local-data, plane-wave, and
+homothety witnesses leave Weyl/tide, topology, data, scalar, scale, and population open. No owned
+global selector exists. Global metric selection is compatible with Local Metric Sufficiency;
+hidden remote-history response is not. Interfaces remain unchanged.
+G314 separates optional global bootstrap from conditional dynamics. Neither selector type is owned.
+Conditional theory uses data.
+Reconstruction/fixed-point syntax select nothing; no candidate was adopted.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G313 history/dynamics. The positive round cosh history is one exact branch of the G313
-multibranch Einstein arena; global admissibility and physical realization remain open.
+G282--G314 history/dynamics. The positive round cosh history is one exact branch of the G313
+multibranch Einstein arena; G314 keeps unique-universe bootstrap optional and open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -96,7 +97,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 296-row registry now includes G307--G313 at their externally reviewed bounded grades.
+The exact 297-row registry now includes G307--G314 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -115,10 +116,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Map candidate global bootstrap/admissibility predicate types and their falsification gates on the
-G313 multibranch Einstein arena, without choosing a history or adding a hidden nonlocal response.
-Keep the free scalar separate from later calibration. Do not call the premises derived/canon, call
-the bounded law or any witness a selected universe, assign reciprocity angular loud--quiet--loud,
-or import an action, source, matter/mass law, observation, fitted scale, physical `X_max`, or
-protected work.
+Map the conditional-data interface of the active G313 Einstein arena: which Cauchy or
+characteristic data are constrained, which remain freely supplied, and what the bounded equation
+propagates. Do not resume a unique-universe selector hunt unless Charles explicitly chooses that
+stronger bootstrap ambition. Keep the free scalar separate from calibration; do not call the
+premises derived/canon, call a witness a selected universe, assign reciprocity angular
+loud--quiet--loud, or import an action, source, matter/mass law, observation, fitted scale, physical
+`X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

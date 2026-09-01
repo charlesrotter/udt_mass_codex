@@ -1,0 +1,315 @@
+{
+  "admissibility_actualization": {
+    "nonidentity_does_not_imply_unique": true,
+    "positive_acceptance_count": 3,
+    "positive_delta_population_count": 3,
+    "singleton_can_collapse_actualization_type": true,
+    "singleton_control_owned": false
+  },
+  "assertions": 43,
+  "bootstrap_fixed_points": {
+    "fixed_point_syntax_selects_without_B": false,
+    "reconstruction_fixed": [
+      "minkowski",
+      "positive_dS2_x_S2",
+      "round_dS_X1",
+      "round_dS_X2"
+    ],
+    "swap_map_fixed": [
+      "minkowski",
+      "positive_dS2_x_S2"
+    ],
+    "target_map_fixed": [
+      "round_dS_X1"
+    ]
+  },
+  "candidate_rows": [
+    {
+      "accepted_count": 4,
+      "accepts": "minkowski,positive_dS2_x_S2,round_dS_X1,round_dS_X2",
+      "candidate_id": "C01_ACTIVE_EQUATION",
+      "candidate_type": "equation_identity",
+      "extra_burden": "none inside the admitted arena",
+      "identity_on_registered_complete_family": true,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "Defines the arena and therefore accepts every registered complete solution.",
+      "ownership": "ACTIVE_BOUNDED_DERIVED",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 4,
+      "accepts": "minkowski,positive_dS2_x_S2,round_dS_X1,round_dS_X2",
+      "candidate_id": "C02_RECIPROCITY",
+      "candidate_type": "owned_response_compatibility",
+      "extra_burden": "none inside the admitted arena",
+      "identity_on_registered_complete_family": true,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "Constrains response shape; G313 witnesses all remain reciprocal.",
+      "ownership": "OWNER_ADOPTED_PROVISIONAL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 4,
+      "accepts": "minkowski,positive_dS2_x_S2,round_dS_X1,round_dS_X2",
+      "candidate_id": "C03_NETWORK_RECONSTRUCTION",
+      "candidate_type": "reconstruction_identity",
+      "extra_burden": "none",
+      "identity_on_registered_complete_family": true,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "The complete network reconstructs each supplied metric; it does not reject one.",
+      "ownership": "DERIVED_CONDITIONAL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 4,
+      "accepts": "minkowski,positive_dS2_x_S2,round_dS_X1,round_dS_X2",
+      "candidate_id": "C04_LOCAL_METRIC_SUFFICIENCY",
+      "candidate_type": "response_constitution",
+      "extra_burden": "none",
+      "identity_on_registered_complete_family": true,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "Allows global metric selection but forbids hidden history-dependent local response.",
+      "ownership": "OWNER_ADOPTED_PROVISIONAL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 3,
+      "accepts": "positive_dS2_x_S2,round_dS_X1,round_dS_X2",
+      "candidate_id": "C05_POSITIVE_LAMBDA",
+      "candidate_type": "curvature_sign_predicate",
+      "extra_burden": "one sign premise",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Rejects Minkowski but leaves round scales and the product history.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 3,
+      "accepts": "positive_dS2_x_S2,round_dS_X1,round_dS_X2",
+      "candidate_id": "C06_COMPACT_CAUCHY",
+      "candidate_type": "global_causal_topology_predicate",
+      "extra_burden": "one global compactness premise",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Leaves both round scales and the S1xS2 product.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 3,
+      "accepts": "minkowski,round_dS_X1,round_dS_X2",
+      "candidate_id": "C07_WEYL_ZERO",
+      "candidate_type": "curvature_predicate",
+      "extra_burden": "one conformal-flatness premise",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Leaves both round scales and Minkowski.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 2,
+      "accepts": "round_dS_X1,round_dS_X2",
+      "candidate_id": "C08_S3_TOPOLOGY",
+      "candidate_type": "topology_predicate",
+      "extra_burden": "one topology premise",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Leaves both homothetic round histories; Berger data are not a complete-history row.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 2,
+      "accepts": "positive_dS2_x_S2,round_dS_X1",
+      "candidate_id": "C09_FIXED_SCALE_X1",
+      "candidate_type": "scale_predicate",
+      "extra_burden": "one numerical scale attachment",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Leaves the round and product histories at the registered scale.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 2,
+      "accepts": "round_dS_X1,round_dS_X2",
+      "candidate_id": "C10_POSITIVE_ROUND_S3",
+      "candidate_type": "conjoined_branch_predicate",
+      "extra_burden": "positive sign plus conformal flatness plus round-S3 global branch",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Leaves the two homothetic positive round histories; this is not maximal symmetry alone.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 1,
+      "accepts": "round_dS_X1",
+      "candidate_id": "C11_ROUND_AND_SCALE",
+      "candidate_type": "conjoined_selector_control",
+      "extra_burden": "positive round-S3 branch plus a numerical scale",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": true,
+      "note": "Singleton only on the finite registered witnesses; not a full-arena uniqueness theorem.",
+      "ownership": "NOT_OWNED_CANDIDATE_CONTROL",
+      "singleton_on_registered_complete_family": true
+    },
+    {
+      "accepted_count": 0,
+      "accepts": "NOT_EVALUATED",
+      "candidate_id": "C12_EXTREMAL_ACTION",
+      "candidate_type": "variational_or_order_predicate",
+      "extra_burden": "functional plus comparison order plus extremum rule",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "No active UDT functional or order is supplied, so no acceptance set is evaluated.",
+      "ownership": "MISSING_NEW_STRUCTURE",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 0,
+      "accepts": "NOT_EVALUATED",
+      "candidate_id": "C13_OBSERVATIONAL_MATCH",
+      "candidate_type": "downstream_discrimination",
+      "extra_burden": "observation map data likelihood and decision rule",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "May discriminate a derived finite family; it is not a native admissibility law.",
+      "ownership": "OBSERVED_INTERFACE_ONLY",
+      "singleton_on_registered_complete_family": false
+    },
+    {
+      "accepted_count": 0,
+      "accepts": "NOT_EVALUATED",
+      "candidate_id": "C14_POPULATION_MEASURE",
+      "candidate_type": "actualization_or_population",
+      "extra_burden": "choice map or normalized measure on accepted classes",
+      "identity_on_registered_complete_family": false,
+      "nonidentity_on_registered_complete_family": false,
+      "note": "Not an admissibility predicate and not supplied by current premises.",
+      "ownership": "MISSING_NEW_STRUCTURE",
+      "singleton_on_registered_complete_family": false
+    }
+  ],
+  "complete_moduli_witness_count": 4,
+  "control_nonhistory_count": 2,
+  "interpretive_boundary": {
+    "bootstrap_from_no_supplied_data_requires_extra_structure": true,
+    "conditional_field_theory_requires_unique_universe_selector": false,
+    "g303_cauchy_method_remains_conditional": true,
+    "initial_or_boundary_data_may_label_a_conditional_history": true
+  },
+  "landing": "GLOBAL_ADMISSIBILITY_AND_ACTUALIZATION_ARE_DISTINCT_MISSING_TYPES__CURRENT_STRUCTURE_SUPPLIES_NEITHER",
+  "locality_compatibility": {
+    "global_metric_selection_allowed": true,
+    "hidden_history_local_response_forbidden": true,
+    "jet_factored_local_response_preserved": true
+  },
+  "minimum_missing_type": {
+    "first": "NONIDENTITY_DIFF_INVARIANT_ADMISSIBILITY_PREDICATE_OR_EQUIVALENTLY_SPECIFIED_NONIDENTITY_BOOTSTRAP_MAP",
+    "second_if_nonsingleton": "ACTUALIZATION_CHOICE_OR_POPULATION_MEASURE",
+    "two_premises_logically_forced": false
+  },
+  "nonpromotion": {
+    "candidate_adopted": false,
+    "full_solution_space_enumerated": false,
+    "metric_or_kernel_changed": false,
+    "observation_or_xmax_used": false
+  },
+  "scope": "BOUNDED_G312_G313_REGISTERED_CANDIDATE_TYPES_AND_WITNESSES_ONLY",
+  "status": "PASS",
+  "witnesses": [
+    {
+      "compact_cauchy": true,
+      "complete_history": true,
+      "globally_hyperbolic": true,
+      "grade": "EXACT_COMPLETE_HISTORY",
+      "lambda_sign": 1,
+      "name": "round_dS_X1",
+      "network_reconstructible": true,
+      "positive_round_s3": true,
+      "reciprocal": true,
+      "regular": true,
+      "scale_label": "X1",
+      "topology": "S3",
+      "weyl_zero": true
+    },
+    {
+      "compact_cauchy": true,
+      "complete_history": true,
+      "globally_hyperbolic": true,
+      "grade": "EXACT_COMPLETE_HISTORY_HOMOTHETIC",
+      "lambda_sign": 1,
+      "name": "round_dS_X2",
+      "network_reconstructible": true,
+      "positive_round_s3": true,
+      "reciprocal": true,
+      "regular": true,
+      "scale_label": "X2",
+      "topology": "S3",
+      "weyl_zero": true
+    },
+    {
+      "compact_cauchy": true,
+      "complete_history": true,
+      "globally_hyperbolic": true,
+      "grade": "EXACT_COMPLETE_HISTORY",
+      "lambda_sign": 1,
+      "name": "positive_dS2_x_S2",
+      "network_reconstructible": true,
+      "positive_round_s3": false,
+      "reciprocal": true,
+      "regular": true,
+      "scale_label": "X1",
+      "topology": "S1xS2",
+      "weyl_zero": false
+    },
+    {
+      "compact_cauchy": false,
+      "complete_history": true,
+      "globally_hyperbolic": true,
+      "grade": "EXACT_COMPLETE_HISTORY",
+      "lambda_sign": 0,
+      "name": "minkowski",
+      "network_reconstructible": true,
+      "positive_round_s3": false,
+      "reciprocal": true,
+      "regular": true,
+      "scale_label": "UNSCALED",
+      "topology": "R3",
+      "weyl_zero": true
+    },
+    {
+      "compact_cauchy": true,
+      "complete_history": false,
+      "globally_hyperbolic": false,
+      "grade": "EXACT_CONSTRAINT_DATA_CONDITIONAL_LOCAL_DEVELOPMENT",
+      "lambda_sign": 1,
+      "name": "berger_S3_data",
+      "network_reconstructible": true,
+      "positive_round_s3": false,
+      "reciprocal": true,
+      "regular": true,
+      "scale_label": "X1",
+      "topology": "S3",
+      "weyl_zero": false
+    },
+    {
+      "compact_cauchy": false,
+      "complete_history": false,
+      "globally_hyperbolic": false,
+      "grade": "EXACT_LOCAL_SOLUTION_GLOBAL_SCOPE_UNCLASSIFIED",
+      "lambda_sign": 0,
+      "name": "ricci_flat_plane_wave",
+      "network_reconstructible": true,
+      "positive_round_s3": false,
+      "reciprocal": true,
+      "regular": true,
+      "scale_label": "UNSCALED",
+      "topology": "R3",
+      "weyl_zero": false
+    }
+  ]
+}

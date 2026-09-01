@@ -1,0 +1,127 @@
+{
+  "baseline_clean": true,
+  "mutations_caught": 17,
+  "mutations_registered": 17,
+  "rows": [
+    {
+      "caught": true,
+      "mutation": "reconstruction_is_selection",
+      "observed_defects": [
+        "reconstruction_is_selection"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "nonidentity_implies_unique",
+      "observed_defects": [
+        "nonidentity_implies_unique"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "admissibility_equals_actualization",
+      "observed_defects": [
+        "admissibility_equals_actualization"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "maximal_symmetry_owned",
+      "observed_defects": [
+        "maximal_symmetry_owned"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "weyl_flatness_owned",
+      "observed_defects": [
+        "weyl_flatness_owned"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "topology_owned",
+      "observed_defects": [
+        "topology_owned"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "scale_owned",
+      "observed_defects": [
+        "scale_owned"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "berger_is_complete_history",
+      "observed_defects": [
+        "berger_is_complete_history"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "witnesses_exhaust_full_solution_space",
+      "observed_defects": [
+        "witnesses_exhaust_full_solution_space"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "global_selector_changes_local_response",
+      "observed_defects": [
+        "global_selector_changes_local_response"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "observation_is_native_selector",
+      "observed_defects": [
+        "observation_is_native_selector"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "xmax_is_selector_input",
+      "observed_defects": [
+        "xmax_is_selector_input"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "fixed_point_syntax_is_sufficient",
+      "observed_defects": [
+        "fixed_point_syntax_is_sufficient"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "current_owns_nonidentity_admissibility",
+      "observed_defects": [
+        "current_owns_nonidentity_admissibility"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "current_owns_actualization",
+      "observed_defects": [
+        "current_owns_actualization"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "landing",
+      "observed_defects": [
+        "landing_changed"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "scope",
+      "observed_defects": [
+        "scope_promoted"
+      ]
+    }
+  ],
+  "status": "PASS"
+}
