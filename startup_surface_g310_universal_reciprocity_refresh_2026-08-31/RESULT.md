@@ -8,7 +8,8 @@ Status: `VERIFIED_DOCUMENTARY_REFRESH__NO_NEW_PHYSICS`
 
 - migrated G307--G310 into the exact premise registry, increasing it from 289 to 293 rows;
 - updated the bounded startup authorities through G310;
-- separated proposed Universal Reciprocity, unadopted G310 DDR, and angular-sector cancellation;
+- identified Universal Reciprocity and G310 DDR as the linguistic and mathematical formulations
+  of one unadopted proposed postulate, separately from angular-sector cancellation;
 - archived the displaced startup state through an exact Git/hash recovery pointer;
 - added dependency-free G307--G310 package replays and hostile startup regression checks; and
 - compressed active orientation files back under their registered readability ceilings.
@@ -23,13 +24,16 @@ metric, kernel, law, history, population, scale, or physical `X_max` changed.
 3. Exact premise verifier: `PASS`, 293 rows, G307--G310 package replays, archive integrity, and 754
    historical dispositions.
 4. Repository tests: `PASS`, 205 passed and one known matter-sector xfail.
-5. Ordinary zero-context rehearsal: `PASS__NO_STARTUP_DEFECT`.
-6. Hostile zero-context rehearsal: `PASS__ALL_THREE_PROMOTIONS_REJECTED__NO_STARTUP_DEFECT`.
+5. Ordinary zero-context rehearsal: `PASS__ORIENTATION_RECOVERED`; it reproduced one stale semantic
+   gate subsequently identified by Charles and repaired under `REPAIR_PREREGISTRATION.md`.
+6. Hostile zero-context rehearsal: `PASS__PROMOTIONS_REJECTED`; it likewise reproduced the stale
+   separation, which the owner-directed repair removes.
 7. Premise audit: `PASS`; DDR remains `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`.
 
 ## Maximum conclusion
 
 The active startup surface and exact premise registry are current through G310. A fresh session can
-recover the current evidence grades and distinguish proposed Universal Reciprocity from the tested
-but unadopted DDR curvature postulate and from angular-sector loud--quiet--loud behavior. This result
-does not adopt Universal Reciprocity or DDR and establishes no new UDT physics.
+recover the current evidence grades, identify Universal Reciprocity and DDR as the plain-language
+and mathematical formulations of one proposed postulate, and keep that postulate separate from
+angular-sector loud--quiet--loud behavior. This result does not adopt the postulate and establishes
+no new UDT physics.

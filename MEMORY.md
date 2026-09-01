@@ -23,9 +23,10 @@ G310 externally verifies, after two preregistered evidence repairs, that one new
 Differential Dual Reciprocity postulate conditionally selects the G301 trace-free Ricci class and
 reduces the free history function to one scalar curvature datum. DDR ownership/adoption, magnitude,
 realized history, population, mass, scale, and physical `X_max` remain open.
-Charles's proposed Universal Reciprocity framing is broader: all admissible pair readouts and UDT
-spacetime laws should remain reciprocal. G310 DDR is one curvature-level candidate realization,
-not yet a derived or adopted consequence. Angular cancellation, not DDR, owns loud--quiet--loud.
+Universal Reciprocity is Charles's plain-language formulation of the same proposed postulate that
+G310 expresses mathematically as DDR. G310 verifies the bounded curvature-level formulation and
+its conditional consequences; it does not derive or adopt the postulate. Angular cancellation, not
+DDR, owns loud--quiet--loud.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;

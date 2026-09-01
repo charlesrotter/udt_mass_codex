@@ -55,9 +55,11 @@ span nine trace-free metric directions, so on G301's nondegenerate stratum DDR i
 `R_ab-(R/4)g_ab=0`; Bianchi leaves one regional scalar datum. DDR is
 `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived from F1--F4/W1--W6, and selects no magnitude,
 realized history, population, mass, scale, or physical `X_max`. External review and repairs passed.
-Charles's proposed **Universal Reciprocity** framing is broader: admissible pair readouts and UDT
-laws must remain reciprocal. It motivates but does not derive DDR. The angular-sector cancellation,
-not DDR, owns loud--quiet--loud.
+**Universal Reciprocity** is Charles's plain-language formulation of this same proposed postulate:
+UDT spacetime and all admissible pair responses must remain reciprocal. DDR is its tested
+curvature-level mathematical formulation inside the bounded conditional G301 arena, not a
+postulate derived from earlier pair algebra. Neither formulation is adopted or canonized. The
+angular-sector cancellation, not DDR, owns loud--quiet--loud.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -103,10 +105,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-G310 and its preregistered evidence repairs passed external review. Next test whether Charles's
-proposed Universal Reciprocity principle independently forces G310 DDR, or whether DDR must be
-provisionally adopted as its curvature-level implementation. Only after that ownership decision
-may the remaining scalar curvature datum be calibrated. Do not rename DDR as derived, attribute
+G310 and its preregistered evidence repairs passed external review. Next Charles decides whether to
+provisionally adopt Universal Reciprocity/DDR as one proposed postulate. If adopted, derive its
+downstream consequences and only then calibrate the remaining scalar curvature datum; if not,
+retain G310 as a conditional candidate. Do not reopen the settled linguistic-versus-mathematical
+identification, rename a postulate as derived, attribute
 angular loud--quiet--loud cancellation to it, infer it from Hopf consilience, fit before the law
 class is fixed, or import an action, source, mass law, physical `X_max`, or protected work.
 <!-- STARTUP_CURRENT_END -->

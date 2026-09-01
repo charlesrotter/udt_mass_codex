@@ -237,10 +237,29 @@ def test_catch_stale_active_arc(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_universal_reciprocity_ddr_collapse(tmp_path: Path) -> None:
+def test_catch_universal_reciprocity_derivation_promotion(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "Universal Reciprocity", "DDR_ALREADY_DERIVED")
     with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_universal_reciprocity_ddr_false_separation(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "same proposed postulate", "two separate proposed postulates")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_stale_universal_reciprocity_entailment_gate(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / "LIVE.md"
+    path.write_text(
+        path.read_text(encoding="utf-8")
+        + "\nTest whether proposed Universal Reciprocity forces DDR.\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(SystemExit, match="stale startup token"):
         premise_guard.validate_startup_surface(root)
 
 

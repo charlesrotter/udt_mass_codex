@@ -31,8 +31,10 @@ G310 externally verifies one candidate bridge: `Differential Dual Reciprocity` b
 conditional curvature response against all reciprocal pair-shape directions. On G301's
 nondegenerate stratum this is `R_ab-(R/4)g_ab=0`; Bianchi leaves one regional scalar datum. DDR is
 `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not derived, and selects no realized history, population,
-mass, scale, or physical `X_max`. Charles's proposed **Universal Reciprocity** principle motivates
-but does not derive DDR. The angular-sector cancellation—not DDR—owns loud--quiet--loud.
+mass, scale, or physical `X_max`. **Universal Reciprocity** is Charles's plain-language formulation
+of this same proposed postulate; DDR is its tested curvature-level mathematical formulation inside
+the bounded conditional G301 arena. Neither formulation is adopted. The angular-sector
+cancellation—not DDR—owns loud--quiet--loud.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta` and conditional `c_eff/c_E=exp(-2 delta)`, not signal speed. Completed-pair Dual
@@ -73,9 +75,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: test whether proposed Universal Reciprocity forces externally verified candidate DDR, or
-provisionally adopt DDR as its curvature-level implementation. Calibrate the remaining scalar datum
-only afterward. Do not turn the proposal, candidate economy, or Hopf consilience into proof; do not
+Next: Charles decides whether to provisionally adopt Universal Reciprocity/DDR as one proposed
+postulate. If adopted, derive its downstream consequences and calibrate the remaining scalar datum
+only afterward; if not, retain G310 as a conditional candidate. Do not turn consistency, candidate
+economy, or Hopf consilience into proof; do not
 misassign angular loud--quiet--loud behavior; and do not import an action, source, mass, fitted scale,
 physical `X_max`, or protected work.
 

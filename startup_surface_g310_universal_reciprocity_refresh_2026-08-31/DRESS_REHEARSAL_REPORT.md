@@ -16,35 +16,39 @@ zero-context mechanism avoided that disclosure and still provided independent or
 
 ## Ordinary rehearsal
 
-Result: `PASS__NO_STARTUP_DEFECT`
+Result: `PASS__ORIENTATION_RECOVERED__STALE_SEMANTIC_GATE_REPRODUCED`
 
 - recovered clean synchronized `grok` at the candidate HEAD;
 - verified the exact 293-row registry;
 - recovered the supplied-depth pair law and its conditional readouts;
-- distinguished pair reciprocity, proposed Universal Reciprocity, unadopted G310 DDR, and the
-  separate angular-sector loud--quiet--loud behavior;
+- recovered pair reciprocity, the proposed Universal Reciprocity/DDR material, and the separate
+  angular-sector loud--quiet--loud behavior;
 - retained the exact bounded G307--G310 grades and open scopes; and
-- returned the current gate: test whether Universal Reciprocity forces DDR, otherwise leave
-  provisional adoption to Charles before calibrating the remaining scalar datum.
+- reproduced the then-current but stale gate asking whether Universal Reciprocity forces DDR.
 
-The agent found no current inconsistency. It correctly treated its run as startup/report
-consistency, not a new scientific reproduction.
+The agent correctly treated its run as startup/report consistency, not a new scientific
+reproduction. Charles subsequently identified the semantic defect: Universal Reciprocity is his
+plain-language formulation of DDR, not a separate premise from which a postulate could be derived.
 
 ## Hostile rehearsal
 
-Result: `PASS__ALL_THREE_PROMOTIONS_REJECTED__NO_STARTUP_DEFECT`
+Result: `PASS__PROMOTIONS_REJECTED__STALE_SEMANTIC_SEPARATION_REPRODUCED`
 
 The agent independently rejected all planted regressions:
 
-1. Universal Reciprocity is not adopted and does not algebraically derive DDR.
+1. The proposed postulate is not adopted and DDR is not derived from earlier pair algebra.
 2. G310 does not fix the realized physical history or scale; one regional scalar datum remains.
 3. DDR does not cause loud--quiet--loud; angular cancellation/interlock owns that behavior.
 
-It verified the 293-row registry and all guards through G310, retained
-`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, and returned the same next gate as the ordinary rehearsal.
+It verified the 293-row registry and all guards through G310 and retained
+`NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, but reproduced the same stale separation as the ordinary
+rehearsal.
 
 ## Landing
 
-Both preregistered zero-context rehearsals passed. No post-rehearsal repair was required. The
-startup surface is current through G310 at its bounded evidence grades; this documentary result
-adopts no postulate and changes no metric, kernel, law, history, scale, or physical `X_max`.
+Both preregistered zero-context rehearsals successfully recovered the written startup surface and
+rejected scientific promotions. They did not catch that the written surface had separated two
+descriptions of one proposed postulate. Charles caught that semantic defect after the rehearsals;
+the owner-directed repair is preregistered in `REPAIR_PREREGISTRATION.md` and verified in
+`REPAIR_RESULT.md`. The repair adopts no postulate and changes no metric, kernel, law, history,
+scale, or physical `X_max`.

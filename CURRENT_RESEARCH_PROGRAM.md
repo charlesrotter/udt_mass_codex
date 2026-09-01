@@ -79,8 +79,10 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310.
   G301 trace-free Ricci rejects it and fixes `a=X cosh((T-T0)/X)`, leaving one uncalibrated scale.
 - G310 externally verifies that one new `DDR` postulate selects trace-free Ricci on G301's
   nondegenerate stratum, leaving one scalar datum. It is a sufficiency theorem for a
-  `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not a derivation or selected history/scale. Proposed
-  **Universal Reciprocity** motivates testing DDR; angular-sector interlock owns loud--quiet--loud.
+  `NEW_CANDIDATE_POSTULATE_NOT_ADOPTED`, not a derivation or selected history/scale.
+  **Universal Reciprocity** is Charles's plain-language formulation of this same proposed
+  postulate; DDR is its tested curvature-level mathematical formulation. Angular-sector interlock
+  owns loud--quiet--loud.
 
 ## Open boundary
 
@@ -111,8 +113,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Test whether proposed Universal Reciprocity independently forces externally verified candidate DDR;
-if it does not, Charles may decide whether to provisionally adopt DDR as the curvature-level law.
-Only then may an independent observation calibrate its remaining scalar datum. Do not restamp DDR
-as derived, turn Hopf consilience or angular cancellation into ownership proof, or import an action,
-source, mass, fit, physical `X_max`, protected work, or realized history.
+Charles decides whether to provisionally adopt Universal Reciprocity/DDR as one proposed postulate.
+If adopted, derive its downstream consequences and only then use an independent observation to
+calibrate the remaining scalar datum; if not, retain G310 as a conditional candidate. Do not
+restamp a postulate as derived, turn Hopf consilience or angular cancellation into ownership proof,
+or import an action, source, mass, fit, physical `X_max`, protected work, or realized history.

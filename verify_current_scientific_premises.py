@@ -111,6 +111,12 @@ STALE_STARTUP_TOKENS = (
     "Preregister a bounded asymptotic-response classification of G153",
     "culminates in the G129--G133 reconstruction/ownership chain",
     "Current artifact locations come from `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`",
+    "test whether proposed Universal Reciprocity forces",
+    "test whether proposed Universal Reciprocity independently forces",
+    "whether it uniquely forces G310 DDR",
+    "motivates testing DDR",
+    "motivates but does not derive DDR",
+    "motivates but does not prove DDR",
 )
 
 ARCHIVED_STARTUP_SNAPSHOTS = {
@@ -393,6 +399,10 @@ def validate_startup_surface(root: Path) -> None:
             "G310",
             "W6",
             "Universal Reciprocity",
+            "plain-language formulation",
+            "same proposed postulate",
+            "tested curvature-level mathematical formulation",
+            "Neither formulation is adopted",
             "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
             "angular-sector cancellation",
             "G190--G198",
@@ -2174,9 +2184,12 @@ def main() -> None:
     g310_row = by_id["G310"]
     require("NOT_DERIVED_OR_ADOPTED" in g310_row["current_status"],
             "G310 DDR was promoted without owner authorization")
-    require("Universal Reciprocity wording used to hide the new all-pair stationarity premise"
+    require("Universal Reciprocity and DDR falsely split into separate unresolved premises"
             in g310_row["forbidden_regression"],
-            "G310 Universal Reciprocity ownership guard missing")
+            "G310 Universal Reciprocity/DDR identity guard missing")
+    require("provisional adoption or canonization of Universal Reciprocity DDR as one proposed postulate"
+            in g310_row["open_scope"],
+            "G310 owner adoption gate missing")
     require("loud quiet loud attributed to DDR rather than angular cancellation"
             in g310_row["forbidden_regression"],
             "G310 angular-cancellation ownership guard missing")
