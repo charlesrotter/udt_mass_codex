@@ -1,0 +1,10 @@
+{
+  "atlas_rows": 14,
+  "external_review": "ACCEPTED",
+  "family_instances": 48,
+  "hostile_catches": "29/29",
+  "independent_assertions": 1191,
+  "landing": "EXACT_NONCMC_COUPLED_TORUS_FAMILY_EXISTS_WITH_ZERO_TIDE_AND_TIDAL_SUBBRANCHES__CONSTANT_PSI_CLASSIFICATION_FORCES_LAMBDA_MINUS_Q_SQUARED__NO_PHYSICAL_DATA_SELECTION",
+  "production_assertions": 1637,
+  "status": "PASS_EXTERNALLY_ACCEPTED"
+}

@@ -23,8 +23,10 @@ is selected; metric/kernel are unchanged.
 G313 maps `Ric=Lambda g` as a multibranch arena; data, topology, tide, scalar, scale, and population
 remain open. G314 makes unique-universe bootstrap optional; no selector is owned. G315 accepts
 constrained but supplied Cauchy/null data. G316 accepts one conditional conformal construction with
-solvable, obstructed, underfixed, and gauge-degenerate classes. Neither selects physical
-data/history; null-corner normalization is boost gauge. Interfaces remain unchanged.
+solvable, obstructed, underfixed, and gauge-degenerate classes. G317 accepts an exact coupled
+non-CMC constant-`psi` family with zero-tide and electric-tide branches while leaving `tau(x)`, `p`,
+and `q` free. None selects physical data/history; null-corner normalization is boost gauge.
+Interfaces remain unchanged.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -32,7 +34,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317.
 W5 is noncanon normalized projective position; scale, native SNe area, and history remain open.
 
 ## Observations and premises
@@ -44,8 +46,9 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Map one genuinely coupled non-CMC lawful-data family and its solvability/nonuniqueness boundary.
-This extends G316, not a selection of Nature's data; bootstrap remains optional unless Charles reopens it.
+Relax G317's constant-`psi` restriction in one bounded non-CMC family and classify whether the
+exact interlock survives, becomes obstructed, or branches. This is not a selection of Nature's
+data; bootstrap remains optional unless Charles reopens it.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

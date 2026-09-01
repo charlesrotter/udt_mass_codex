@@ -1,0 +1,15 @@
+sector	object	classification	constraint_or_guard
+domain	flat marked T3	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	not selected topology
+ansatz	constant psi=p	FREE_POSITIVE_PARAMETER_IN_SLICE	not calibrated scale
+ansatz	tau(x)	FREE_SMOOTH_PERIODIC_NONCMC_FUNCTION	arbitrary Fourier data retained
+ansatz	constant diagonal TT	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	transverse q channel retained
+vector	W	SOLVED_MODULO_TRANSLATION_KERNEL	w'=p^6(tau-mu)/2
+scalar	TT x coefficient	SOLVED_WITHIN_ANSATZ	alpha=2 p^6 mu/3
+scalar	Lambda	SOLVED_WITHIN_ANSATZ	Lambda=-q^2
+physical	gamma and K	LAWFUL_OUTPUT	direct constraints pass
+geometry	q=0	ZERO_INITIAL_WEYL	local flatness only conditional
+geometry	q!=0	NONZERO_ELECTRIC_WEYL	invariant tidal witness
+symmetry	q sign	AXIS_RELABELLED	y-z swap
+freedom	p q tau	NOT_SELECTED	family remains continuous and functional
+scope	general non-CMC construction	OPEN_OMITTED	nonconstant psi and other seeds outside
+all	physical history	NOT_SELECTED	construction characterizes lawful data only
