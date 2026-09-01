@@ -11,7 +11,7 @@
 | Complete pair orchestra | `DERIVED_CONDITIONAL` | Angular-before-readout | Extension |
 | Completed-pair Dual Reciprocity | `WORKING_FOUNDATIONAL_CLARIFICATION/DERIVED_CONDITIONAL` | `m=sqrt(-det h_sigma)` | Extension |
 | Pair-clock/state network | G215/G216--G276 | Carry/projective/scale descent | History/aggregation |
-| UDT--GR quiet reduction | `WORKING/POSIT` W3 | G257 embedding | Law; matter; history |
+| UDT--GR quiet reduction | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Full principal-response overlap; G257 solutions | Extension; matter; history |
 | Universal metric coupling | `WORKING/POSIT` W4 | One metric; form unchanged | Dynamics; history |
 | Physical normalized projective pair position | `WORKING_FOUNDATIONAL_CLARIFICATION` W5 | Complete projective state | Scale/history/`X_max` |
 | Pair `c_eff` | `CONDITIONAL` readout | Ratio | Owner; signal meaning |
@@ -22,7 +22,7 @@
 | Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
 | Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
 | G311 covariant response | `EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY` | `TF_g(E)=0`; conditional G301 dynamics | Response constitution; scale/history |
-| G312 discriminator | `EXTERNALLY_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY` | Conditional G301 closure if both are adopted | GR overlap; finite-jet locality; scale/history |
+| G312 bridge premises | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` | Local Metric Sufficiency + GR principal overlap; bounded trace-free Ricci | Bootstrap; scalar; history |
 
 ## Reconstruction hierarchy
 
@@ -73,7 +73,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312.
 | G309 history audit | external/repair accepted | Founded counterfamily; conditional G301 fixes shape up to scale |
 | G310 Universal Reciprocity / DDR | external/repairs + owner adoption accepted | Owner-provisionally-adopted, not-derived, noncanon postulate; conditionally selects trace-free Ricci and leaves one datum |
 | G311 covariant response | external/repair accepted | `TF_g(E)=0`; constitution open; conditional G301 dynamics |
-| G312 constitution discriminator | external/repair accepted | Two independent premise choices; conditional G301 closure |
+| G312 bridge/adoption | external + owner adoption | Two independent premises; bounded trace-free Ricci active |
 None selects completion/`X_max`.
 ## Scale and limits
 
@@ -96,10 +96,9 @@ None selects completion/`X_max`.
   leave Ricci-flat versus trace-free Ricci with one constant and one causal principal system.
   G304--G309 add positive sign, compact `S3`, Hopf families, and a nonselection counterhistory.
   Provisionally adopted Universal Reciprocity/DDR conditionally selects trace-free Ricci; G311
-  extends its response-shape consequence. G312 separates full quiet GR principal overlap from local
-  finite-jet response; if both are adopted, G301 closes. Scale,
-  population, mass, and `X_max` remain open. Angular cancellation owns loud--quiet--loud. W1 remains
-  evaluative.
+  extends its response-shape consequence. Charles adopted G312's independent GR-principal and Local
+  Metric Sufficiency premises; bounded trace-free Ricci is active. Bootstrap, scale, population,
+  mass, and `X_max` remain open. Angular cancellation owns loud--quiet--loud. W1 remains evaluative.
 
 ## Carrier, action, source, and matter
 
@@ -112,9 +111,8 @@ None selects completion/`X_max`.
 | Complete action/source/boundary/mass | `OPEN` | No complete physics claim |
 ## Observational boundary
 
-R2--R5 select no scale/`X_max`; G277--G312 leave two response-constitution premises and scale open.
-G310 verifies bounded consequences of the provisionally adopted postulate, not derivation/canon.
-No SNe prediction or selected value law follows.
+R2--R5 select no scale/`X_max`; G312 adoption activates only bounded vacuum response constitution.
+Bootstrap, scale, and history stay open. No SNe prediction or selected value law follows.
 
 ## How to use the registry
 

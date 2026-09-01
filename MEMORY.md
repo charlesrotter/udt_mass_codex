@@ -15,10 +15,11 @@ G310 verifies that Differential Dual Reciprocity conditionally selects G301 trac
 one scalar. Universal Reciprocity is Charles's plain-language formulation of DDR; he provisionally
 adopted the postulate on 2026-08-31. It is not derived/canonized and selects no history, mass, scale,
 or physical `X_max`. Angular cancellation, not DDR, owns loud--quiet--loud.
-G311 gives `TF_g(E)=0` for supplied symmetric response; the response constitution remains open.
-G312 narrows it to independent full quiet GR principal-response overlap and local finite-jet
-choices. Existing premises own neither. If both are adopted, existing gates close G301. G312
-changes no metric/kernel and selects no scale/history.
+G311 gives `TF_g(E)=0` for supplied response. G312 separates GR-principal overlap from Local Metric Sufficiency/local finite-jet response.
+Charles adopted both provisionally on
+2026-09-01; the bounded response constitution is trace-free Ricci with one scalar. Global bootstrap may select the
+local metric; no independent history response remains after its local jet is fixed. No scale/history
+is selected; metric/kernel are unchanged.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -38,10 +39,9 @@ a local input. Strong CSN is inactive; dynamics remain open.
 
 ## Next gate
 
-Clarify whether GR reduction includes full quiet principal dynamics and whether UDT vacuum response
-is local finite-jet. If both are provisionally adopted, characterize the conditional solution space
-before calibration. Do not call either choice or DDR derived/canon or import an action, source,
-mass, fit, or physical `X_max`.
+Characterize bounded trace-free Ricci solutions and bootstrap/admissibility; keep the scalar apart
+from calibration. Do not call the premises or DDR derived/canon, select a universe, or import an
+action, source, mass, fit, or physical `X_max`.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

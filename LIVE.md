@@ -56,12 +56,14 @@ plain-language statement and DDR its tested curvature-level mathematical formula
 not derived or canonized. It selects no history, population, mass,
 scale, or physical `X_max`; angular-sector cancellation owns loud--quiet--loud.
 
-G311 externally gives `TF_g(E)=0` for a supplied symmetric response; neither `E` nor its trace is
-selected. Response constitution remains open. G312 externally narrows it to two independent owner
-choices: full quiet GR principal-response overlap and local finite-jet response. Local quadratic
-and causal scale-free nonlocal-history witnesses separate the choices. If both are supplied,
-existing gates close G301 and Universal Reciprocity gives trace-free Ricci. Neither is adopted;
-metric, kernel, angular cancellation, observations, scale, and `X_max` are unchanged.
+G311 gives `TF_g(E)=0` for supplied symmetric response. G312 separated two independent premises:
+full quiet GR principal-response overlap and Local Metric Sufficiency/local finite-jet response.
+Charles provisionally adopted both on 2026-09-01. G312 premises are owner-adopted provisionally.
+They are not derived or canonized. Inside the registered regular local metric-only scale-free vacuum
+arena, existing gates and Universal Reciprocity now give `Ric-(R/4)g=0`; Bianchi leaves one
+connected constant scalar. Global bootstrap may build/select the local metric, but no independent
+remote-history response remains after its admitted local jet is fixed. Metric, kernel, angular
+cancellation, observations, scale, and `X_max` are unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
@@ -106,10 +108,9 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Map with Charles whether “UDT reduces to GR” provisionally includes the full quiet principal
-response and whether the vacuum response is local finite-jet rather than causal nonlocal history.
-If both are adopted, derive the G301/Universal-Reciprocity consequences and characterize the
-surviving conditional solution space before calibration. Do not silently combine the two choices,
-call either derived/canon, assign reciprocity angular loud--quiet--loud, or import an action, source,
-mass law, physical `X_max`, observation, or protected work.
+Characterize the bounded trace-free Ricci solution space and test global bootstrap/admissibility
+conditions without adding a hidden nonlocal response. Keep the free scalar separate from later
+calibration. Do not call the premises derived/canon, call the bounded law a selected universe,
+assign reciprocity angular loud--quiet--loud, or import an action, source, mass law, physical
+`X_max`, observation, or protected work.
 <!-- STARTUP_CURRENT_END -->

@@ -23,10 +23,12 @@ statement and DDR the tested curvature-level mathematical formulation: one postu
 formulations, not derived or canonized. It selects no history, mass, scale, or physical `X_max`;
 angular-sector cancellation owns loud--quiet--loud.
 
-G311 externally gives `TF_g(E)=0` for supplied symmetric `E`. Response constitution remains open.
-G312 narrows the response constitution to independent full quiet GR principal-response overlap and local finite-jet
-response choices. If both are supplied, existing gates close G301. Neither is adopted; metric,
-kernel, angular cancellation, observations, scale, and `X_max` are unchanged.
+G311 gives `TF_g(E)=0` for supplied symmetric `E`. G312 separates full quiet GR principal-response
+overlap from Local Metric Sufficiency/local finite-jet response. Charles adopted both provisionally
+on 2026-09-01. G312 premises are owner-adopted provisionally. In the registered bounded vacuum
+arena they close G301 to trace-free Ricci with one connected scalar. Global bootstrap may select the
+local metric; no independent remote-history response remains once its admitted local jet is fixed.
+Metric/kernel/angular cancellation remain unchanged; no universe, scale, or `X_max` is selected.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta`; conditional `c_eff/c_E=exp(-2 delta)` is not signal speed. Completed-pair Dual
@@ -65,10 +67,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: ask whether the intended GR reduction includes full quiet principal dynamics and whether UDT
-vacuum response is local finite-jet. If both are provisionally adopted, derive the conditional
-G301/Universal-Reciprocity solution space before calibration. Do not silently promote either
-choice, turn consistency/Hopf consilience into proof, misassign angular loud--quiet--loud, or import
-an action, source, mass, fitted scale, physical `X_max`, or protected work.
+Next: characterize bounded trace-free Ricci solutions and global bootstrap/admissibility without a
+hidden nonlocal response; keep the scalar separate from calibration. Do not call either premise
+derived/canon, turn the bounded law into a selected universe, misassign angular loud--quiet--loud,
+or import an action, source, mass, fitted scale, physical `X_max`, or protected work.
 
 <!-- STARTUP_CURRENT_END -->

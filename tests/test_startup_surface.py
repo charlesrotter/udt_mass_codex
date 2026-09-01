@@ -316,12 +316,12 @@ def test_catch_ddr_angular_regime_misattribution(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_g311_response_constitution_promotion(tmp_path: Path) -> None:
+def test_catch_g312_owner_adoption_demotion(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "LIVE.md",
-        "Response constitution remains open.",
-        "One response constitution is uniquely derived.",
+        "G312 premises are owner-adopted provisionally.",
+        "G312 premises remain open and unadopted.",
     )
     with pytest.raises(SystemExit, match="marked current block lacks"):
         premise_guard.validate_startup_surface(root)

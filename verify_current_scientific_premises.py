@@ -122,6 +122,11 @@ STALE_STARTUP_TOKENS = (
     "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
     "provisionally adopt Universal Reciprocity/DDR",
     "adoption remains open",
+    "Response constitution remains open.",
+    "G312 adopts neither",
+    "Existing premises own neither",
+    "If both are provisionally adopted",
+    "whether the vacuum response is local finite-jet",
 )
 
 ARCHIVED_STARTUP_SNAPSHOTS = {
@@ -404,7 +409,9 @@ def validate_startup_surface(root: Path) -> None:
             "G310",
             "G311",
             "G312",
-            "Response constitution remains open.",
+            "G312 premises are owner-adopted provisionally.",
+            "Local Metric Sufficiency",
+            "global bootstrap",
             "W6",
             "Universal Reciprocity",
             "plain-language statement",
@@ -567,6 +574,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g278_cepheid_scale_attachment_des_holdout_2026-08-27/",
             "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/",
             "udt_g280_projective_position_optical_area_bridge_audit_2026-08-27/",
+            "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
             "archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md",
             "archive/startup_surface_2026-08-21_pre_g197/",
             "archive/startup_surface_2026-08-22_pre_cleanup/",
@@ -699,6 +707,7 @@ def validate_startup_surface(root: Path) -> None:
             "G311",
             "G312",
             "response constitution",
+            "Local Metric Sufficiency",
             "Universal Reciprocity",
             "W6",
             "G291",
@@ -834,6 +843,7 @@ def validate_startup_surface(root: Path) -> None:
             "G311",
             "G312",
             "response constitution",
+            "Local Metric Sufficiency",
             "Universal Reciprocity",
             "W6",
             "W5",
@@ -959,6 +969,8 @@ def validate_startup_surface(root: Path) -> None:
             "G310",
             "G311",
             "G312",
+            "Local Metric Sufficiency",
+            "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
             "Universal Reciprocity",
             "Differential Dual Reciprocity",
             "W6",
@@ -2312,23 +2324,61 @@ def main() -> None:
 
     g312_row = by_id["G312"]
     require(
+        "OWNER_ADOPTED_PROVISIONAL_POSTULATES_AUTHORIZED_BY_CHARLES_ROTTER_2026_09_01"
+        in g312_row["current_status"]
+        and "NOT_DERIVED__NOT_CANON" in g312_row["current_status"],
+        "G312 two-premise owner-adoption stamp changed",
+    )
+    require(
         g312_row["active_use"]
-        == "ACTIVE_BOUNDED_RESPONSE_CONSTITUTION_PREMISE_MINIMALITY_AND_CONDITIONAL_G301_CLOSURE_THEOREM_ONLY",
+        == "ACTIVE_OWNER_ADOPTED_PROVISIONAL_FULL_QUIET_GR_PRINCIPAL_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_WITH_BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ONLY",
         "G312 active-use scope changed",
     )
     require(
-        "full quiet GR principal-response overlap" in g312_row["open_scope"]
-        and "local finite-jet" in g312_row["open_scope"],
-        "G312 two-premise boundary changed",
+        "global bootstrap" in g312_row["open_scope"]
+        and "scalar curvature magnitude and sign" in g312_row["open_scope"],
+        "G312 post-adoption open boundary changed",
     )
     require(
-        "G312 called derivation or adoption of either missing premise" in g312_row["forbidden_regression"],
-        "G312 premise-ownership regression guard missing",
+        "owner-adopted premises called derived canonized or observationally proved"
+        in g312_row["forbidden_regression"],
+        "G312 premise-grade regression guard missing",
     )
     require(
-        "causality called proof of locality" in g312_row["forbidden_regression"],
-        "G312 locality regression guard missing",
+        "Local Metric Sufficiency called proof that global bootstrap is impossible"
+        in g312_row["forbidden_regression"],
+        "G312 bootstrap-compatibility guard missing",
     )
+    require(
+        "bounded trace-free Ricci closure called a selected universe"
+        in g312_row["forbidden_regression"],
+        "G312 bounded-closure guard missing",
+    )
+    g312_adoption_record = (
+        ROOT
+        / "startup_surface_g312_two_premise_adoption_refresh_2026-09-01"
+        / "ADOPTION_RECORD.md"
+    )
+    require(g312_adoption_record.is_file(), "G312 two-premise adoption record missing")
+    g312_adoption_text = g312_adoption_record.read_text(encoding="utf-8")
+    require('Authorization: **"I accept both premises."**' in g312_adoption_text,
+            "G312 two-premise owner authorization changed")
+    require("OWNER_ADOPTED_PROVISIONAL_POSTULATES__NOT_DERIVED__NOT_CANON"
+            in g312_adoption_text,
+            "G312 two-premise adoption grade changed")
+    require("The local present may be built or selected by the global universe."
+            in g312_adoption_text,
+            "G312 bootstrap-compatibility statement changed")
+    g312_adoption_result = g312_adoption_record.with_name("ADOPTION_RESULT.md")
+    require(g312_adoption_result.is_file(), "G312 two-premise adoption result missing")
+    g312_adoption_result_text = g312_adoption_result.read_text(encoding="utf-8")
+    require(
+        "OWNER_ADOPTED_PROVISIONAL_POSTULATES__VERIFIED_LEDGER_TRANSITION__NOT_DERIVED__NOT_CANON"
+        in g312_adoption_result_text,
+        "G312 two-premise adoption result grade changed",
+    )
+    require("213 passed, one known matter-sector xfail" in g312_adoption_result_text,
+            "G312 two-premise adoption test record changed")
 
     g310_row = by_id["G310"]
     require("NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON"

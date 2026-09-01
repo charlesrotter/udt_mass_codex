@@ -2,10 +2,9 @@
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 294-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 295-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
-- Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`
-- Completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
+- Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
 - Coframe: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`
 - Equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
@@ -103,6 +102,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g308_global_chirality_coherence_parity_classification_2026-08-31/`; `udt_g309_strengthened_chain_history_selection_audit_2026-08-31/`;
   `udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/`; adoption: `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`;
   G311 response boundary: `udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md`; G312 boundary: `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`.
+  G312 adoption: `startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md`.
 - Historical controls: `SIMPLE_METRIC_MACRO.md` (static slice); `udt_canonical_geometry.md` (canonical-geometry monolith; use G281 regrades).
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.

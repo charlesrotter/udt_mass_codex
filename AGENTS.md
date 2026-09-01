@@ -93,9 +93,10 @@ Disk evidence wins over conversational memory.
 
 ## Binding UDT research rules
 
-- Remain pure to UDT: **the metric is the theory**. Universal Reciprocity/DDR is Charles's
-  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31): not derived or canon. G311 owns response shape
-  only; G301 response constitution/dynamics remain conditional.
+- Remain pure to UDT: **the metric is the theory**. Universal Reciprocity/DDR is
+  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31); G312's quiet-GR-principal/local-metric premises
+  are `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (2026-09-01). None is derived/canon. Bounded consequence:
+  trace-free Ricci; history/scale open.
 - G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
   reconstruct old selector/carry architecture from root prose.
 - The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,
@@ -125,7 +126,7 @@ Disk evidence wins over conversational memory.
   history solves until a natural metric or global relation law is independently owned and preregistered.
 - `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
   frame readouts, not automatically local signal speeds.
-- `DDR` is unadopted; angular cancellation owns loud--quiet--loud.
+- Angular cancellation alone owns loud--quiet--loud.
 - `X_max` retains its owner-ratified working asymptotic meaning but is inactive as a local reciprocal
   kernel input. The native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`. A dimensionful
   `X_max` may be named only after an independent metric separation, physical relation domain,
