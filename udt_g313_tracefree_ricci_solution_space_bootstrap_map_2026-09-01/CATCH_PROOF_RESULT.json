@@ -1,0 +1,92 @@
+{
+  "baseline_clean": true,
+  "mutations_caught": 12,
+  "mutations_registered": 12,
+  "rows": [
+    {
+      "caught": true,
+      "mutation": "wrong_trace_coefficient",
+      "observed_defects": [
+        "wrong_trace_coefficient"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "bianchi_magnitude_promotion",
+      "observed_defects": [
+        "bianchi_magnitude_promotion"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "weyl_erasure",
+      "observed_defects": [
+        "weyl_erasure"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "witness_erasure",
+      "observed_defects": [
+        "witness_erasure"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "xmax_smuggle",
+      "observed_defects": [
+        "xmax_smuggle"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "round_history_promotion",
+      "observed_defects": [
+        "round_history_promotion"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "locality_bootstrap_confusion",
+      "observed_defects": [
+        "locality_bootstrap_confusion"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "selector_response_type_confusion",
+      "observed_defects": [
+        "selector_response_type_confusion"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "cosh_residual_constant_mutation",
+      "observed_defects": [
+        "cosh_residual_constant_mutation"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "explicit_product_ricci_erasure",
+      "observed_defects": [
+        "explicit_product_ricci_erasure"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "product_cauchy_proof_erasure",
+      "observed_defects": [
+        "product_cauchy_proof_erasure"
+      ]
+    },
+    {
+      "caught": true,
+      "mutation": "bootstrap_factorization_erasure",
+      "observed_defects": [
+        "bootstrap_factorization_erasure"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

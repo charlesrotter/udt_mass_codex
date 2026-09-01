@@ -28,7 +28,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   verifier audits the 295-row exact registry without dumping its wide rows into model context.
+   verifier audits the 296-row exact registry without dumping its wide rows into model context.
    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
@@ -95,8 +95,8 @@ Disk evidence wins over conversational memory.
 
 - Remain pure to UDT: **the metric is the theory**. Universal Reciprocity/DDR is
   `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31); G312's quiet-GR-principal/local-metric premises
-  are `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (2026-09-01). None is derived/canon. Bounded consequence:
-  trace-free Ricci; history/scale open.
+  are `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (2026-09-01). None derived/canon. G313 maps
+  trace-free Ricci as a multibranch Einstein arena; admissibility, population, scale remain open.
 - G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
   reconstruct old selector/carry architecture from root prose.
 - The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,

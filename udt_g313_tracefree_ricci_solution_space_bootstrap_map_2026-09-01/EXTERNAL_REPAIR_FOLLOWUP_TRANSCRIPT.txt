@@ -1,0 +1,1469 @@
+Script started on 2026-09-01 11:57:31-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a05db0-a2a2-78e3-afd4-f9f8571ba2bd
+--------
+user
+The sealed G313 repair-follow-up intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake; do not edit evidence files or continue the research. Network access is authorized only for Codex API transport. Internet browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Do not access the repository or protected packages. Open /intake/package/REPAIR_FOLLOWUP_REQUEST.md and /intake/package/REPAIR_PREREGISTRATION.md, then verify only preregistered repairs R1 through R4 and the unchanged bounded scientific landing. Run registered checks only in a writable ephemeral copy. Return exactly one allowed verdict token followed by concise evidence and any remaining defect.
+
+codex
+I’m reading the two sealed intake documents first to extract the preregistered repairs, the allowed verdict tokens, and the exact bounded checks I’m permitted to run in `/work`.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/REPAIR_FOLLOWUP_REQUEST.md" in /intake
+ succeeded in 0ms:
+# G313 repair-only external follow-up request
+
+Verify only the four repairs preregistered in `REPAIR_PREREGISTRATION.md` and whether the original
+bounded scientific landing remains unchanged. Do not continue the research or select or canonize a
+law, history, scale, topology, population, source, action, matter model, mass law, observation, or
+physical `X_max`.
+
+## Required checks
+
+1. R1: confirm that production now evaluates the actual G309 residual
+   `Q[a]=a*a''-(a')^2-1` for the round cosh family at multiple exact scales and points, and that the
+   registered constant mutation is rejected.
+2. R2: confirm that the independent coordinate-tensor route begins with the explicit Lorentzian
+   product metric and reconstructs `Ric_ab=Lambda g_ab`; audit the separate compact `S1 x S2`
+   Cauchy proof and its witness-only scope.
+3. R3: confirm that production and independent exhaustive finite models distinguish a global
+   history predicate from a local response factoring through finite jets, and reject a hidden
+   history-dependent response on identical admitted jets.
+4. R4: confirm that the direct G307 and G308 audit reports are present in the sealed source set and
+   support only the already claimed nonselection boundary.
+5. Run the registered dependency-free replays in a writable ephemeral copy and verify that the
+   landing is unchanged.
+
+## Allowed verdicts
+
+```text
+G313_REPAIRS_R1_R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED
+G313_REPAIRS_INCOMPLETE__SCIENTIFIC_LANDING_RETAINED
+G313_REPAIR_REVEALS_SCIENTIFIC_REFUTATION
+G313_REPAIR_REVIEW_INCOMPLETE
+```
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/REPAIR_PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+# G313 repair-only preregistration
+
+Date: 2026-09-01
+Status: `PREREGISTERED_BEFORE_REPAIR_OUTCOMES`
+Scientific question and landing: unchanged
+
+External verdict:
+
+```text
+G313_REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED
+```
+
+The repair scope is limited to the four reviewer findings below. No new universe selector,
+history, scale, topology, population, source, action, matter model, mass law, observational result,
+physical `X_max`, metric term, or reciprocal-kernel term may enter.
+
+## R1 — replace the target-misaligned cosh check
+
+Replace the production check that merely evaluates `cosh^2-sinh^2=1` with an exact evaluation of
+the actual G309 residual
+
+```text
+Q[a] = a a'' - (a')^2 - 1
+```
+
+for `a(T)=X cosh((T-T0)/X)` over multiple exact rational `X` and hyperbolic parameter values. The
+repair passes only if every registered residual is exactly zero and a mutation of the constant term
+is caught.
+
+## R2 — independently complete the positive product witness
+
+Add an implementation-independent coordinate-tensor calculation for the explicit Lorentzian
+`dS2 x S2` metric. Starting from the metric, inverse, and first/second coordinate derivatives, it
+must reconstruct the Ricci tensor and verify `Ric_ab=Lambda g_ab` at multiple exact points and
+positive `Lambda` values. Add a separate explicit global argument for periodic `chi`, compact
+`S1 x S2` slices, temporal `tau`, and the Cauchy property. It must remain a witness, not a populated
+history claim.
+
+## R3 — strengthen the bootstrap/local-response type check
+
+Replace the toy topology comparison with an exhaustive finite type model that distinguishes:
+
+1. a whole-history acceptance predicate acting before local response;
+2. a local response map that factors through the admitted finite metric jet; and
+3. a forbidden hidden-history response assigning different responses to identical local jets.
+
+The production and independent routes must separately show that a global selector can distinguish
+histories with identical local jets without violating Local Metric Sufficiency, while the hidden
+response fails the equal-jet factorization test.
+
+## R4 — include direct G307 and G308 evidence
+
+Add the exact G307 and G308 `AUDIT_REPORT.md` files to `SOURCE_SCOPE.tsv` and the sealed intake.
+No claim from those reports may be strengthened; they are included only to make the existing
+G305--G308 nonselection citation directly auditable.
+
+## Certification contract
+
+The repair may close only if:
+
+- all four repairs are present and exact;
+- production, independent, hostile, and aggregate no-write replays pass under `python3 -S`;
+- a fresh manifest-authenticated sealed intake contains the direct G307/G308 sources;
+- current premise and repository regression checks remain green;
+- the landing remains exactly
+  `ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN`;
+- a repair-only external reviewer verifies only R1--R4 and the unchanged landing.
+
+Until that follow-up accepts, status remains
+`REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED__REPAIR_FOLLOWUP_PENDING`.
+
+codex
+I have the repair scope and verdict set. Next I’m locating the sealed source files and the registered no-write replay commands that correspond to R1 through R4 and the unchanged landing.
+exec
+/bin/bash -lc 'rg --files /intake/package' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc 'rg -n "python3 -S|no-write replay|replay|SOURCE_SCOPE|ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN|R1|R2|R3|R4|AUDIT_REPORT" /intake/package' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+`rg` is unavailable here, so I’m falling back to `find` and `grep` within `/intake` only.
+exec
+/bin/bash -lc 'find /intake/package -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/package/AUDIT_REPORT.md
+/intake/package/BOOTSTRAP_LEDGER.tsv
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md
+/intake/package/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/PREREGISTRATION.md
+/intake/package/PRODUCT_WITNESS_GLOBAL_PROOF.md
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md
+/intake/package/REPAIR_PREREGISTRATION.md
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOLUTION_SPACE_ATLAS.tsv
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_solution_space.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+
+exec
+/bin/bash -lc 'grep -RInE "python3 -S|no-write replay|replay|SOURCE_SCOPE|ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN|R1|R2|R3|R4|AUDIT_REPORT" /intake/package' in /intake
+ succeeded in 0ms:
+/intake/package/PRODUCT_WITNESS_GLOBAL_PROOF.md:4:Role: G313 repair R2; mathematical witness only
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:10:1. R1: confirm that production now evaluates the actual G309 residual
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:13:2. R2: confirm that the independent coordinate-tensor route begins with the explicit Lorentzian
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:16:3. R3: confirm that production and independent exhaustive finite models distinguish a global
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:19:4. R4: confirm that the direct G307 and G308 audit reports are present in the sealed source set and
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:21:5. Run the registered dependency-free replays in a writable ephemeral copy and verify that the
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:27:G313_REPAIRS_R1_R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED
+/intake/package/REPAIR_PREREGISTRATION.md:17:## R1 — replace the target-misaligned cosh check
+/intake/package/REPAIR_PREREGISTRATION.md:30:## R2 — independently complete the positive product witness
+/intake/package/REPAIR_PREREGISTRATION.md:39:## R3 — strengthen the bootstrap/local-response type check
+/intake/package/REPAIR_PREREGISTRATION.md:51:## R4 — include direct G307 and G308 evidence
+/intake/package/REPAIR_PREREGISTRATION.md:53:Add the exact G307 and G308 `AUDIT_REPORT.md` files to `SOURCE_SCOPE.tsv` and the sealed intake.
+/intake/package/REPAIR_PREREGISTRATION.md:62:- production, independent, hostile, and aggregate no-write replays pass under `python3 -S`;
+/intake/package/REPAIR_PREREGISTRATION.md:66:  `ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN`;
+/intake/package/REPAIR_PREREGISTRATION.md:67:- a repair-only external reviewer verifies only R1--R4 and the unchanged landing.
+/intake/package/INDEPENDENT_VERIFICATION.json:5:      "R3": "15/2",
+/intake/package/INDEPENDENT_VERIFICATION.json:11:      "R3": "6",
+/intake/package/INDEPENDENT_VERIFICATION.json:17:      "R3": "40/9",
+/intake/package/INDEPENDENT_VERIFICATION.json:23:      "R3": "7/2",
+/intake/package/INDEPENDENT_VERIFICATION.json:29:      "R3": "0",
+/intake/package/AUDIT_REPORT.md:55:`G313_REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED`. Repairs R1--R4 were preregistered and pushed
+/intake/package/derive_solution_space.py:145:                "R3": scalar_3,
+/intake/package/derive_solution_space.py:169:            "R3": berger_scalar,
+/intake/package/derive_solution_space.py:270:        "landing": "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN",
+/intake/package/verify_independent.py:206:            {"q": q, "horizontal_Ricci": horizontal, "vertical_Ricci": vertical, "R3": scalar}
+/intake/package/DERIVATION_RESULT.json:60:      "R3": "6",
+/intake/package/DERIVATION_RESULT.json:69:      "R3": "6",
+/intake/package/DERIVATION_RESULT.json:78:      "R3": "7/2",
+/intake/package/DERIVATION_RESULT.json:333:  "landing": "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN",
+/intake/package/SOURCE_SCOPE.tsv:5:udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md	bounded response-class basis and caveats
+/intake/package/SOURCE_SCOPE.tsv:6:udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/AUDIT_REPORT.md	Cauchy constraints and conditional local development
+/intake/package/SOURCE_SCOPE.tsv:7:udt_g304_global_cell_constant_sector_discriminator_2026-08-30/AUDIT_REPORT.md	static sign branch and scale caveat
+/intake/package/SOURCE_SCOPE.tsv:8:udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	round positive completion and topology caveats
+/intake/package/SOURCE_SCOPE.tsv:9:udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md	Hopf family nonselection boundary
+/intake/package/SOURCE_SCOPE.tsv:10:udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md	supplied directed/screen germ reconstruction and physical-population nonselection boundary
+/intake/package/SOURCE_SCOPE.tsv:11:udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md	global chirality carry and metric-only physical-selection boundary
+/intake/package/SOURCE_SCOPE.tsv:12:udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md	round cosh branch and conditional ownership
+/intake/package/SOURCE_SCOPE.tsv:14:udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md	Universal Reciprocity bounded consequence
+/intake/package/SOURCE_SCOPE.tsv:15:udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md	response-shape and outside-G301 counterresponse
+/intake/package/SOURCE_SCOPE.tsv:16:udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md	two-premise conditional closure theorem
+/intake/package/RUN_RECORD.md:9:python3 -S derive_solution_space.py --output DERIVATION_RESULT.json
+/intake/package/RUN_RECORD.md:10:python3 -S verify_independent.py --output INDEPENDENT_VERIFICATION.json
+/intake/package/RUN_RECORD.md:11:python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+/intake/package/RUN_RECORD.md:12:python3 -S verify_package.py
+/intake/package/RUN_RECORD.md:22:- dependency-free aggregate replay: `PASS`;
+/intake/package/RUN_RECORD.md:37:- R1: 25 exact evaluations of `Q[a]=a*a''-(a')^2-1` across five scales and five points, with the
+/intake/package/RUN_RECORD.md:39:- R2: 12 independent explicit-coordinate product-metric Ricci reconstructions plus a separate
+/intake/package/RUN_RECORD.md:41:- R3: production and independent exhaustive eight-selector/four-response-map type censuses;
+/intake/package/RUN_RECORD.md:42:- R4: direct G307 and G308 audit reports added to source scope and the corrected intake;
+/intake/package/RUN_RECORD.md:46:- aggregate dependency-free repair replay: `PASS`.
+/intake/package/REPLAY_COMMANDS.txt:1:python3 -S derive_solution_space.py --output DERIVATION_RESULT.json
+/intake/package/REPLAY_COMMANDS.txt:2:python3 -S verify_independent.py --output INDEPENDENT_VERIFICATION.json
+/intake/package/REPLAY_COMMANDS.txt:3:python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+/intake/package/REPLAY_COMMANDS.txt:4:python3 -S verify_package.py
+/intake/package/PREREGISTRATION.md:78:2. `ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN`;
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:6:- Medium: [verify_independent.py](/intake/package/verify_independent.py:40) independently checks product curvature invariants, but it does not independently verify the explicit positive product metric’s full claimed package properties: `Ric=Lambda g` from that Lorentzian metric and compact `S1 x S2` Cauchy topology, both asserted in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:62). The independent product-witness replay is therefore incomplete.
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:8:- Low: [SOURCE_SCOPE.tsv](/intake/package/SOURCE_SCOPE.tsv:4) omits the cited `G307`/`G308` source reports even though [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:185) invokes `G305--G308` collectively. The current registry and `LIVE.md` summary still support the nonselection reading, but direct file-level audit of those two gates is unavailable inside this intake.
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:12:The landing survives. Independently, the 4D contracted Bianchi completion is correct: from `S_ab=R_ab-(R/4)g_ab=0`, one gets `(1/4)∇_b R=0`, hence on each connected regular region `R=4Lambda` and `Ric_ab=Lambda g_ab` [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:14). The positive `dS2 x S2` product witness is a valid non-round Einstein witness with nonzero Weyl invariant and compact `S1 x S2` Cauchy slices [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:62). The Berger `(1,1,3/2)` data give Ricci eigenvalues `(-1/2,-1/2,9/2)` and satisfy the fixed-`Lambda=3` Hamiltonian constraint with `h^2=5/12`, but only G303-conditional local development follows [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:91), [AUDIT_REPORT.md](/intake/sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/AUDIT_REPORT.md:17). The Ricci-flat plane-wave and constant-homothety controls are also sound [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:130).
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:14:W5/W6/Hopf/relation premises do not reject the nonround witnesses; they characterize or condition the round branch without selecting it [AUDIT_REPORT.md](/intake/sources/udt_g304_global_cell_constant_sector_discriminator_2026-08-30/AUDIT_REPORT.md:28), [EXACT_DERIVATION.md](/intake/sources/udt_g309_strengthened_chain_history_selection_audit_2026-08-31/EXACT_DERIVATION.md:69), [LIVE.md](/intake/sources/LIVE.md:41). The adoption record’s type separation between a whole-history admissibility predicate and a forbidden hidden local-memory variable is coherent [ADOPTION_RECORD.md](/intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md:25).
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:22:All four registered replay commands passed in a writable `/work` copy.
+/intake/package/build_review_intake.py:24:    "AUDIT_REPORT.md",
+/intake/package/build_review_intake.py:27:    "SOURCE_SCOPE.tsv",
+/intake/package/build_review_intake.py:71:        csv.DictReader((PACKAGE / "SOURCE_SCOPE.tsv").open(encoding="utf-8", newline=""), delimiter="\t")
+/intake/package/build_review_intake.py:82:        "question": "G313 preregistered R1-R4 evidence repairs with unchanged scientific landing",
+/intake/package/build_review_intake.py:93:            "G313_REPAIRS_R1_R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED",
+/intake/package/SOLUTION_SPACE_ATLAS.tsv:6:flat_constant_curvature	zero	zero	R4	static_or_time_live	Minkowski member	admitted; not selected
+/intake/package/EVIDENCE_GATES.md:19:1 known matter-sector xfailed in 139.46s`; aggregate dependency-free replay `PASS`. Final
+/intake/package/EVIDENCE_GATES.md:23:committed and pushed at `6fcbeb36` before implementation. R1--R4 now pass locally, including 181
+/intake/package/EVIDENCE_GATES.md:25:sources, and the aggregate dependency-free replay.
+/intake/package/EXACT_DERIVATION.md:108:Fix `Lambda=3`. The round unit `S3` bounce has `R3=6` and `h=0`. Now take the Berger `S3` metric
+/intake/package/EXACT_DERIVATION.md:123:gives `R3+6h^2=6=2Lambda`; homogeneity makes the momentum constraint vanish. G303's explicitly
+/intake/package/EXACT_DERIVATION.md:127:At the time-symmetric slice of the product witness, `R3=6` and `K_ij=0` at the same `Lambda=3`, but
+/intake/package/verify_package.py:2:"""Dependency-free aggregate replay and semantic verifier for G313."""
+/intake/package/verify_package.py:30:        raise AssertionError(f"replay differs: {expected_name}")
+/intake/package/verify_package.py:42:        "AUDIT_REPORT.md",
+/intake/package/verify_package.py:56:    with tempfile.TemporaryDirectory(prefix="g313_replay_") as temporary_name:
+/intake/package/verify_package.py:62:    landing = "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN"
+/intake/package/verify_package.py:74:        raise AssertionError("R1 exact G309 residual replay")
+/intake/package/verify_package.py:76:        raise AssertionError("R3 production selector census")
+/intake/package/verify_package.py:78:        raise AssertionError("R3 production hidden-response rejection")
+/intake/package/verify_package.py:80:        raise AssertionError("R2 explicit product sample count")
+/intake/package/verify_package.py:82:        raise AssertionError("R2 explicit product Ricci")
+/intake/package/verify_package.py:84:        raise AssertionError("R2 compact product slice")
+/intake/package/verify_package.py:86:        raise AssertionError("R3 independent selector-response census")
+/intake/package/verify_package.py:88:    audit = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+/intake/package/verify_package.py:92:    sources = (ROOT / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+/intake/package/verify_package.py:120:        "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md",
+/intake/package/verify_package.py:121:        "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
+/intake/package/verify_package.py:124:            raise AssertionError(f"R4 direct source missing: {token}")
+/intake/package/verify_package.py:132:    print("preregistered repairs R1-R4 present; external repair follow-up pending")
+
+codex
+I’ve identified the sealed replay entrypoints. I’m reading the verifier and the repair-specific code paths now so I can confirm the checks being run match the preregistration before I execute them in `/work`.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/verify_package.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Dependency-free aggregate replay and semantic verifier for G313."""
+
+from __future__ import annotations
+
+import json
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def rerun(script: str, expected_name: str, temporary: Path) -> dict:
+    output = temporary / expected_name
+    subprocess.run(
+        [sys.executable, "-S", str(ROOT / script), "--output", str(output)],
+        check=True,
+        cwd=ROOT,
+    )
+    generated = output.read_bytes()
+    expected = (ROOT / expected_name).read_bytes()
+    if generated != expected:
+        raise AssertionError(f"replay differs: {expected_name}")
+    return json.loads(generated)
+
+
+def main() -> None:
+    required = [
+        "PREREGISTRATION.md",
+        "EXACT_DERIVATION.md",
+        "SOLUTION_SPACE_ATLAS.tsv",
+        "BOOTSTRAP_LEDGER.tsv",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "AUDIT_REPORT.md",
+        "LAY_REPORT.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PRODUCT_WITNESS_GLOBAL_PROOF.md",
+        "REPAIR_PREREGISTRATION.md",
+        "REPAIR_FOLLOWUP_REQUEST.md",
+        "EXTERNAL_REVIEW_RESPONSE.md",
+    ]
+    for name in required:
+        if not (ROOT / name).is_file():
+            raise AssertionError(f"missing required artifact: {name}")
+
+    with tempfile.TemporaryDirectory(prefix="g313_replay_") as temporary_name:
+        temporary = Path(temporary_name)
+        production = rerun("derive_solution_space.py", "DERIVATION_RESULT.json", temporary)
+        independent = rerun("verify_independent.py", "INDEPENDENT_VERIFICATION.json", temporary)
+        catches = rerun("run_catch_proofs.py", "CATCH_PROOF_RESULT.json", temporary)
+
+    landing = "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN"
+    if production["status"] != "PASS" or production["landing"] != landing:
+        raise AssertionError("production landing")
+    if production["assertions"] != 181:
+        raise AssertionError("production assertion count")
+    if independent["status"] != "PASS" or independent["assertions"] != 357:
+        raise AssertionError("independent result")
+    if not independent["round_uniqueness_refuted"] or not independent["scale_selection_refuted"]:
+        raise AssertionError("independent scientific controls")
+    if catches["mutations_registered"] != 12 or catches["mutations_caught"] != 12:
+        raise AssertionError("hostile catch count")
+    if len(production["cosh_checks"]) != 25 or any(row["Q"] != "0" for row in production["cosh_checks"]):
+        raise AssertionError("R1 exact G309 residual replay")
+    if production["bootstrap_type_check"]["selectors_exhausted"] != 8:
+        raise AssertionError("R3 production selector census")
+    if not production["bootstrap_type_check"]["hidden_history_response_rejected"]:
+        raise AssertionError("R3 production hidden-response rejection")
+    if len(independent["explicit_product_rows"]) != 12:
+        raise AssertionError("R2 explicit product sample count")
+    if not all(row["ricci_equals_lambda_metric"] for row in independent["explicit_product_rows"]):
+        raise AssertionError("R2 explicit product Ricci")
+    if not independent["product_global_structure"]["slice_compact"]:
+        raise AssertionError("R2 compact product slice")
+    if independent["bootstrap_type_check"]["factored_selector_response_cases"] != 32:
+        raise AssertionError("R3 independent selector-response census")
+
+    audit = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+    lay = (ROOT / "LAY_REPORT.md").read_text(encoding="utf-8")
+    exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    proof = (ROOT / "PRODUCT_WITNESS_GLOBAL_PROOF.md").read_text(encoding="utf-8")
+    sources = (ROOT / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+    external = (ROOT / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    required_tokens = [
+        "REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED__REPAIR_FOLLOWUP_PENDING",
+        "not the complete active",
+        "premise supplies a nonidentity predicate",
+    ]
+    for token in required_tokens:
+        if token not in audit:
+            raise AssertionError(f"audit token missing: {token}")
+    for token in (
+        "does not draw one unique universe",
+        "an initial/global selection rule still has to choose",
+        "This is compatible with Local",
+    ):
+        if token not in lay:
+            raise AssertionError(f"lay token missing: {token}")
+    for token in (
+        "It is not one",
+        "\\mathcal A:\\operatorname{Sol}/\\operatorname{Diff}",
+        "C_{abcd}C^{abcd}=\\frac{16}{3}\\Lambda^2",
+    ):
+        if token not in exact:
+            raise AssertionError(f"derivation token missing: {token}")
+    for token in ("strictly monotone", "S1 x S2", "It does not assert that UDT physically populates it"):
+        if token not in proof:
+            raise AssertionError(f"product proof token missing: {token}")
+    for token in (
+        "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md",
+        "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
+    ):
+        if token not in sources:
+            raise AssertionError(f"R4 direct source missing: {token}")
+    if "G313_REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED" not in external:
+        raise AssertionError("fresh external verdict missing")
+
+    print("G313 package verification PASS")
+    print("production assertions: 181")
+    print("independent assertions: 357")
+    print("hostile semantic mutations caught: 12/12")
+    print("preregistered repairs R1-R4 present; external repair follow-up pending")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/derive_solution_space.py" in /intake
+exec
+/bin/bash -lc "sed -n '1,280p' /intake/package/verify_independent.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact standard-library checks for the bounded G313 solution-space map."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+class Census:
+    def __init__(self) -> None:
+        self.checks = 0
+
+    def require(self, condition: bool, label: str) -> None:
+        self.checks += 1
+        if not condition:
+            raise AssertionError(label)
+
+
+def epsilon(i: int, j: int, k: int) -> int:
+    positive = {(0, 1, 2), (1, 2, 0), (2, 0, 1)}
+    negative = {(1, 0, 2), (2, 1, 0), (0, 2, 1)}
+    if (i, j, k) in positive:
+        return 1
+    if (i, j, k) in negative:
+        return -1
+    return 0
+
+
+def berger_ricci_from_koszul(q: Fraction) -> tuple[list[list[Fraction]], Fraction]:
+    """Compute Ricci for SU(2) lengths (1,1,q) from brackets and Koszul."""
+    lengths = [Fraction(1), Fraction(1), q]
+    structure = [
+        [
+            [
+                Fraction(2) * lengths[k] * epsilon(i, j, k) / (lengths[i] * lengths[j])
+                for k in range(3)
+            ]
+            for j in range(3)
+        ]
+        for i in range(3)
+    ]
+    connection = [
+        [
+            [
+                (
+                    structure[i][j][k]
+                    - structure[j][k][i]
+                    + structure[k][i][j]
+                )
+                / 2
+                for k in range(3)
+            ]
+            for j in range(3)
+        ]
+        for i in range(3)
+    ]
+
+    def riemann(i: int, j: int, k: int, m: int) -> Fraction:
+        return sum(
+            connection[j][k][n] * connection[i][n][m]
+            - connection[i][k][n] * connection[j][n][m]
+            - structure[i][j][n] * connection[n][k][m]
+            for n in range(3)
+        )
+
+    ricci = [
+        [sum(riemann(i, j, k, i) for i in range(3)) for k in range(3)]
+        for j in range(3)
+    ]
+    scalar = sum(ricci[i][i] for i in range(3))
+    return ricci, scalar
+
+
+def encode(value):
+    if isinstance(value, Fraction):
+        return str(value)
+    if isinstance(value, dict):
+        return {key: encode(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [encode(item) for item in value]
+    return value
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+
+    census = Census()
+
+    # Contracted Bianchi applied to S_ab=Ric_ab-(R/4)g_ab.
+    divergence_coefficient = Fraction(1, 2) - Fraction(1, 4)
+    census.require(divergence_coefficient == Fraction(1, 4), "Bianchi coefficient")
+    census.require(divergence_coefficient != 0, "Bianchi forces connected scalar constancy")
+
+    branch_rows = []
+    for lam in map(Fraction, (-5, -2, -1, 0, 1, 2, 5)):
+        scalar = 4 * lam
+        round_riemann_sq = Fraction(8, 3) * lam * lam
+        round_weyl_sq = round_riemann_sq - scalar * scalar / 6
+        nariai_riemann_sq = 8 * lam * lam
+        nariai_weyl_sq = nariai_riemann_sq - scalar * scalar / 6
+        census.require(round_weyl_sq == 0, f"round Weyl lambda={lam}")
+        census.require(nariai_weyl_sq == Fraction(16, 3) * lam * lam, f"product Weyl lambda={lam}")
+        if lam != 0:
+            census.require(nariai_weyl_sq > 0, f"nonzero product Weyl lambda={lam}")
+        branch_rows.append(
+            {
+                "lambda": lam,
+                "scalar_R": scalar,
+                "round_weyl_squared": round_weyl_sq,
+                "product_weyl_squared": nariai_weyl_sq,
+            }
+        )
+
+    # Constant homothety preserves the equation while changing the scalar magnitude.
+    homothety_rows = []
+    lam0 = Fraction(3)
+    for scale_sq in map(Fraction, (Fraction(1, 4), Fraction(1, 2), 1, 2, 3, 5, 9)):
+        scaled_lambda = lam0 / scale_sq
+        scaled_scalar = 4 * scaled_lambda
+        census.require(scaled_scalar * scale_sq == 4 * lam0, f"homothety response {scale_sq}")
+        census.require(scaled_lambda != 0, f"homothety nonzero {scale_sq}")
+        homothety_rows.append(
+            {"metric_multiplier": scale_sq, "lambda_after": scaled_lambda, "R_after": scaled_scalar}
+        )
+
+    # Positive fixed-Lambda compact Cauchy data: round S3, Nariai S1xS2, and nonround Berger S3.
+    lam = Fraction(3)
+    cauchy_rows = []
+    for name, scalar_3, h_sq, topology, round_state in (
+        ("round_S3_bounce", Fraction(6), Fraction(0), "S3", True),
+        ("nariai_S1xS2_bounce", Fraction(6), Fraction(0), "S1xS2", False),
+    ):
+        hamiltonian = scalar_3 + 6 * h_sq
+        census.require(hamiltonian == 2 * lam, f"Hamiltonian {name}")
+        cauchy_rows.append(
+            {
+                "name": name,
+                "topology": topology,
+                "round": round_state,
+                "R3": scalar_3,
+                "H_squared": h_sq,
+                "hamiltonian": hamiltonian,
+                "momentum": 0,
+            }
+        )
+
+    q = Fraction(3, 2)
+    berger_ricci, berger_scalar = berger_ricci_from_koszul(q)
+    expected_diagonal = [Fraction(-1, 2), Fraction(-1, 2), Fraction(9, 2)]
+    for i in range(3):
+        for j in range(3):
+            expected = expected_diagonal[i] if i == j else Fraction(0)
+            census.require(berger_ricci[i][j] == expected, f"Berger Ricci {i}{j}")
+    census.require(berger_scalar == Fraction(7, 2), "Berger scalar")
+    census.require(len(set(expected_diagonal)) > 1, "Berger data are nonround")
+    berger_h_sq = (2 * lam - berger_scalar) / 6
+    census.require(berger_h_sq == Fraction(5, 12), "Berger H squared")
+    census.require(berger_scalar + 6 * berger_h_sq == 2 * lam, "Berger Hamiltonian")
+    cauchy_rows.append(
+        {
+            "name": "berger_S3_pure_trace",
+            "topology": "S3",
+            "round": False,
+            "R3": berger_scalar,
+            "H_squared": berger_h_sq,
+            "hamiltonian": berger_scalar + 6 * berger_h_sq,
+            "momentum": 0,
+            "ricci_eigenvalues": expected_diagonal,
+        }
+    )
+
+    # Exact rational points evaluate the actual G309 residual Q[a]=a*a''-(a')^2-1.
+    cosh_checks = []
+    for scale in map(Fraction, (Fraction(1, 3), Fraction(1, 2), 1, 2, 5)):
+        for u in map(Fraction, (Fraction(1, 3), Fraction(1, 2), 1, 2, 3)):
+            cosh_value = (u + 1 / u) / 2
+            sinh_value = (1 / u - u) / 2
+            scale_factor = scale
+            a = scale_factor * cosh_value
+            a_prime = sinh_value
+            a_second = cosh_value / scale_factor
+            residual = a * a_second - a_prime * a_prime - 1
+            mutated_residual = a * a_second - a_prime * a_prime - 2
+            census.require(residual == 0, f"G309 Q[a] scale={scale} u={u}")
+            census.require(mutated_residual != 0, f"G309 Q[a] constant mutation scale={scale} u={u}")
+            cosh_checks.append(
+                {
+                    "scale_X": scale,
+                    "u": u,
+                    "a": a,
+                    "a_prime": a_prime,
+                    "a_second": a_second,
+                    "Q": residual,
+                }
+            )
+
+    # Ricci-flat plane-wave witness: H=A(x^2-y^2) has vanishing transverse Laplacian but nonzero tide.
+    plane_wave_rows = []
+    for amplitude in map(Fraction, (-5, -2, -1, 1, 2, 5)):
+        h_xx = 2 * amplitude
+        h_yy = -2 * amplitude
+        ricci_uu = -(h_xx + h_yy) / 2
+        census.require(ricci_uu == 0, f"plane-wave Ricci amplitude={amplitude}")
+        census.require(h_xx - h_yy != 0, f"plane-wave tide amplitude={amplitude}")
+        plane_wave_rows.append(
+            {"amplitude": amplitude, "Ric_uu": ricci_uu, "tidal_difference": h_xx - h_yy}
+        )
+
+    # Exhaustive finite type model: global acceptance precedes a response that factors through jets.
+    histories = ("round", "product", "wave")
+    jet_of = {"round": "j0", "product": "j0", "wave": "j1"}
+    response_values = (0, 1)
+    selector_count = 0
+    selector_response_combinations = 0
+    for selector_bits in range(1 << len(histories)):
+        accepted = {
+            history
+            for index, history in enumerate(histories)
+            if selector_bits & (1 << index)
+        }
+        selector_count += 1
+        for j0_response in response_values:
+            for j1_response in response_values:
+                response_of_jet = {"j0": j0_response, "j1": j1_response}
+                admitted_response = {
+                    history: response_of_jet[jet_of[history]] for history in accepted
+                }
+                for left in accepted:
+                    for right in accepted:
+                        if jet_of[left] == jet_of[right]:
+                            census.require(
+                                admitted_response[left] == admitted_response[right],
+                                f"local response factors through jet {selector_bits} {left} {right}",
+                            )
+                selector_response_combinations += 1
+
+    separating_selector = {"round", "wave"}
+    census.require("round" in separating_selector, "global selector accepts round witness")
+    census.require("product" not in separating_selector, "global selector may reject equal-jet product")
+    census.require(
+        jet_of["round"] == jet_of["product"],
+        "global selector may distinguish histories sharing one local jet",
+    )
+
+    hidden_history_response = {"round": 0, "product": 1, "wave": 0}
+    hidden_factorization_failure = any(
+        jet_of[left] == jet_of[right]
+        and hidden_history_response[left] != hidden_history_response[right]
+        for left in histories
+        for right in histories
+    )
+    census.require(hidden_factorization_failure, "hidden history response fails equal-jet factorization")
+    bootstrap_type_check = {
+        "histories": len(histories),
+        "jets": len(set(jet_of.values())),
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent formula-route verification for G313; imports no production code."""
+
+from __future__ import annotations
+
+import argparse
+import itertools
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+def encode(value):
+    if isinstance(value, Fraction):
+        return str(value)
+    if isinstance(value, dict):
+        return {key: encode(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [encode(item) for item in value]
+    return value
+
+
+def explicit_product_ricci(
+    lam: Fraction,
+    cosh_tau: Fraction,
+    sinh_tau: Fraction,
+    sin_theta: Fraction,
+    cos_theta: Fraction,
+) -> tuple[list[list[Fraction]], list[list[Fraction]], Fraction]:
+    """Reconstruct Ricci directly from the explicit dS2 x S2 metric at one exact point."""
+    n = 4
+    zero = Fraction(0)
+    half = Fraction(1, 2)
+    metric = [[zero for _ in range(n)] for _ in range(n)]
+    inverse = [[zero for _ in range(n)] for _ in range(n)]
+    diagonal = (
+        -1 / lam,
+        cosh_tau * cosh_tau / lam,
+        1 / lam,
+        sin_theta * sin_theta / lam,
+    )
+    inverse_diagonal = (
+        -lam,
+        lam / (cosh_tau * cosh_tau),
+        lam,
+        lam / (sin_theta * sin_theta),
+    )
+    for index in range(n):
+        metric[index][index] = diagonal[index]
+        inverse[index][index] = inverse_diagonal[index]
+
+    # dg[e][a][b] and ddg[e][f][a][b] are coordinate derivatives of g_ab.
+    dg = [[[zero for _ in range(n)] for _ in range(n)] for _ in range(n)]
+    ddg = [
+        [[[zero for _ in range(n)] for _ in range(n)] for _ in range(n)]
+        for _ in range(n)
+    ]
+    dg[0][1][1] = 2 * cosh_tau * sinh_tau / lam
+    ddg[0][0][1][1] = 2 * (cosh_tau * cosh_tau + sinh_tau * sinh_tau) / lam
+    dg[2][3][3] = 2 * sin_theta * cos_theta / lam
+    ddg[2][2][3][3] = 2 * (cos_theta * cos_theta - sin_theta * sin_theta) / lam
+
+    inverse_derivative = [
+        [[zero for _ in range(n)] for _ in range(n)] for _ in range(n)
+    ]
+    for e, a, b in itertools.product(range(n), repeat=3):
+        inverse_derivative[e][a][b] = -sum(
+            inverse[a][p] * dg[e][p][q] * inverse[q][b]
+            for p in range(n)
+            for q in range(n)
+        )
+
+    gamma = [
+        [[zero for _ in range(n)] for _ in range(n)] for _ in range(n)
+    ]
+    for a, b, c in itertools.product(range(n), repeat=3):
+        gamma[a][b][c] = half * sum(
+            inverse[a][d] * (dg[b][d][c] + dg[c][d][b] - dg[d][b][c])
+            for d in range(n)
+        )
+
+    gamma_derivative = [
+        [
+            [[zero for _ in range(n)] for _ in range(n)]
+            for _ in range(n)
+        ]
+        for _ in range(n)
+    ]
+    for e, a, b, c in itertools.product(range(n), repeat=4):
+        inverse_term = sum(
+            inverse_derivative[e][a][d]
+            * (dg[b][d][c] + dg[c][d][b] - dg[d][b][c])
+            for d in range(n)
+        )
+        metric_term = sum(
+            inverse[a][d]
+            * (ddg[e][b][d][c] + ddg[e][c][d][b] - ddg[e][d][b][c])
+            for d in range(n)
+        )
+        gamma_derivative[e][a][b][c] = half * (inverse_term + metric_term)
+
+    ricci = [[zero for _ in range(n)] for _ in range(n)]
+    for b, d in itertools.product(range(n), repeat=2):
+        ricci[b][d] = sum(
+            gamma_derivative[a][a][b][d]
+            - gamma_derivative[d][a][a][b]
+            + sum(
+                gamma[a][a][e] * gamma[e][b][d]
+                - gamma[a][d][e] * gamma[e][a][b]
+                for e in range(n)
+            )
+            for a in range(n)
+        )
+
+    temporal_gradient_norm = inverse[0][0]
+    return metric, ricci, temporal_gradient_norm
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+
+    checks = []
+
+    def require(condition: bool, label: str) -> None:
+        if not condition:
+            raise AssertionError(label)
+        checks.append(label)
+
+    # Independent trace/divergence route in n dimensions, specialized only after derivation.
+    for n in (3, 4, 5, 7):
+        coefficient = Fraction(1, 2) - Fraction(1, n)
+        require(coefficient == Fraction(n - 2, 2 * n), f"Bianchi n={n}")
+    require(Fraction(1, 2) - Fraction(1, 4) == Fraction(1, 4), "four-dimensional constancy")
+
+    # Product-space invariant route: each two-factor has Ric=k*g and curvature norm 4*k^2.
+    product_rows = []
+    for k in map(Fraction, (-7, -3, -1, 1, 3, 7)):
+        scalar = 4 * k
+        riemann_sq = 4 * k * k + 4 * k * k
+        weyl_sq = riemann_sq - scalar * scalar / 6
+        require(weyl_sq == Fraction(16, 3) * k * k, f"product Weyl k={k}")
+        require(weyl_sq != 0, f"product nonconformal k={k}")
+        product_rows.append({"k": k, "R": scalar, "Riemann_squared": riemann_sq, "Weyl_squared": weyl_sq})
+
+    # Independent coordinate-tensor route for the explicit positive Lorentzian product witness.
+    explicit_product_rows = []
+    hyperbolic_parameters = (Fraction(1, 2), Fraction(2, 3), Fraction(3, 2))
+    spherical_parameters = (Fraction(1, 2), Fraction(2, 3), Fraction(3, 4))
+    for lam in map(Fraction, (Fraction(1, 3), 1, 3, 7)):
+        for u, v in zip(hyperbolic_parameters, spherical_parameters):
+            cosh_tau = (u + 1 / u) / 2
+            sinh_tau = (1 / u - u) / 2
+            sin_theta = 2 * v / (1 + v * v)
+            cos_theta = (1 - v * v) / (1 + v * v)
+            require(cosh_tau * cosh_tau - sinh_tau * sinh_tau == 1, f"hyperbolic point {lam} {u}")
+            require(sin_theta * sin_theta + cos_theta * cos_theta == 1, f"sphere point {lam} {v}")
+            metric, ricci, temporal_norm = explicit_product_ricci(
+                lam, cosh_tau, sinh_tau, sin_theta, cos_theta
+            )
+            for row, column in itertools.product(range(4), repeat=2):
+                require(
+                    ricci[row][column] == lam * metric[row][column],
+                    f"explicit product Ricci lambda={lam} u={u} v={v} {row}{column}",
+                )
+            require(temporal_norm == -lam < 0, f"tau temporal lambda={lam} u={u} v={v}")
+            explicit_product_rows.append(
+                {
+                    "lambda": lam,
+                    "hyperbolic_parameter": u,
+                    "sphere_parameter": v,
+                    "ricci_equals_lambda_metric": True,
+                    "tau_gradient_norm": temporal_norm,
+                }
+            )
+
+    product_global_structure = {
+        "time_coordinate": "tau in R",
+        "spatial_slice": "S1_x_S2",
+        "chi_periodic": True,
+        "sphere_compact": True,
+        "slice_compact": True,
+        "tau_temporal": True,
+        "cauchy_argument": "PRODUCT_WITNESS_GLOBAL_PROOF.md",
+        "physical_population_claimed": False,
+    }
+    require(product_global_structure["chi_periodic"], "product chi is periodic")
+    require(product_global_structure["sphere_compact"], "product S2 is compact")
+    require(product_global_structure["slice_compact"], "product slice is compact")
+    require(product_global_structure["tau_temporal"], "product tau is temporal")
+    require(not product_global_structure["physical_population_claimed"], "product remains witness only")
+
+    # Closed Berger formulas provide a route independent of the production Koszul implementation.
+    berger_rows = []
+    for q in map(Fraction, (Fraction(1, 2), 1, Fraction(4, 3), Fraction(3, 2), 2)):
+        horizontal = 4 - 2 * q * q
+        vertical = 2 * q * q
+        scalar = 2 * horizontal + vertical
+        require(scalar == 8 - 2 * q * q, f"Berger scalar q={q}")
+        if q == 1:
+            require(horizontal == vertical, "round Berger q=1")
+        else:
+            require(horizontal != vertical, f"nonround Berger q={q}")
+        berger_rows.append(
+            {"q": q, "horizontal_Ricci": horizontal, "vertical_Ricci": vertical, "R3": scalar}
+        )
+
+    # Two distinct compact fixed-Lambda initial data sets satisfy the Hamiltonian constraint.
+    lam = Fraction(3)
+    initial_rows = [
+        ("round_S3", Fraction(6), Fraction(0)),
+        ("product_S1xS2", Fraction(6), Fraction(0)),
+        ("berger_S3", Fraction(7, 2), Fraction(5, 12)),
+    ]
+    for name, scalar_3, h_sq in initial_rows:
+        require(scalar_3 + 6 * h_sq == 2 * lam, f"constraint {name}")
+
+    # Coordinate 2D de Sitter factor: a''=a gives Ric_tt=g_tt and Ric_xx=g_xx at unit radius.
+    for u in map(Fraction, (Fraction(1, 4), Fraction(1, 2), 1, 2, 4)):
+        a = (u + 1 / u) / 2
+        adot = (1 / u - u) / 2
+        addot = a
+        require(-addot / a == -1, f"dS2 Ric_tt u={u}")
+        require(a * addot == a * a, f"dS2 Ric_xx u={u}")
+        require(a * a - adot * adot == 1, f"dS2 hyperbola u={u}")
+
+    # Homothety is checked through the response tensor, not only through scalar dimensions.
+    signature = [-1, 1, 1, 1]
+    for metric_multiplier in map(Fraction, (Fraction(1, 3), Fraction(1, 2), 2, 4, 7)):
+        lam_before = Fraction(5)
+        ricci_lower = [lam_before * item for item in signature]
+        metric_after = [metric_multiplier * item for item in signature]
+        scalar_after = 4 * lam_before / metric_multiplier
+        response_after = [
+            ricci_lower[i] - scalar_after * metric_after[i] / 4 for i in range(4)
+        ]
+        require(response_after == [0, 0, 0, 0], f"homothety tensor {metric_multiplier}")
+
+    # Plane-wave route: trace-free Hessian gives Ricci zero but a nonzero tidal Hessian.
+    for amplitude in map(Fraction, (-4, -1, 1, 4)):
+        hessian = [[2 * amplitude, 0], [0, -2 * amplitude]]
+        trace = hessian[0][0] + hessian[1][1]
+        determinant = hessian[0][0] * hessian[1][1]
+        require(trace == 0, f"plane trace {amplitude}")
+        require(determinant < 0, f"plane nonzero tide {amplitude}")
+
+    # Independent exhaustive factorization census for selector/response type separation.
+    histories = ("h0", "h1", "h2")
+    jet_classes = {"h0": 0, "h1": 0, "h2": 1}
+    selectors = list(itertools.product((False, True), repeat=len(histories)))
+    jet_response_maps = list(itertools.product((0, 1), repeat=2))
+    factored_cases = 0
+    for selector in selectors:
+        admitted = [history for history, keep in zip(histories, selector) if keep]
+        for response_map in jet_response_maps:
+            responses = {
+                history: response_map[jet_classes[history]] for history in admitted
+            }
+            for left in admitted:
+                for right in admitted:
+                    if jet_classes[left] == jet_classes[right]:
+                        require(
+                            responses[left] == responses[right],
+                            f"independent jet factorization {selector} {response_map}",
+                        )
+            factored_cases += 1
+    separating_selector_exists = any(
+        selector[0] != selector[1] for selector in selectors
+    )
+    require(separating_selector_exists, "global selector distinguishes equal-jet histories")
+    hidden_response = {"h0": 0, "h1": 1, "h2": 0}
+    hidden_response_rejected = hidden_response["h0"] != hidden_response["h1"]
+    require(hidden_response_rejected, "hidden history response violates equal-jet factorization")
+
+    result = {
+        "status": "PASS",
+        "implementation": "independent_closed_formula_and_tensor_route",
+        "assertions": len(checks),
+        "product_rows": product_rows,
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/run_catch_proofs.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Semantic hostile controls for the bounded G313 landing."""
+
+from __future__ import annotations
+
+import argparse
+import copy
+import json
+from pathlib import Path
+
+
+BASELINE = {
+    "trace_coefficient": "1/4",
+    "bianchi_scope": "connected_constancy_only",
+    "all_einstein_constant_curvature": False,
+    "weyl_active_witness": True,
+    "xmax_identified": False,
+    "unique_round_universe": False,
+    "bootstrap_compatible": True,
+    "global_predicate_is_local_memory": False,
+    "cosh_q_constant": "1",
+    "explicit_product_ricci_verified": True,
+    "product_cauchy_proof_present": True,
+    "bootstrap_equal_jet_factorization_verified": True,
+}
+
+
+def defects(claim: dict) -> list[str]:
+    found = []
+    if claim["trace_coefficient"] != "1/4":
+        found.append("wrong_trace_coefficient")
+    if claim["bianchi_scope"] != "connected_constancy_only":
+        found.append("bianchi_magnitude_promotion")
+    if claim["all_einstein_constant_curvature"]:
+        found.append("weyl_erasure")
+    if not claim["weyl_active_witness"]:
+        found.append("witness_erasure")
+    if claim["xmax_identified"]:
+        found.append("xmax_smuggle")
+    if claim["unique_round_universe"]:
+        found.append("round_history_promotion")
+    if not claim["bootstrap_compatible"]:
+        found.append("locality_bootstrap_confusion")
+    if claim["global_predicate_is_local_memory"]:
+        found.append("selector_response_type_confusion")
+    if claim["cosh_q_constant"] != "1":
+        found.append("cosh_residual_constant_mutation")
+    if not claim["explicit_product_ricci_verified"]:
+        found.append("explicit_product_ricci_erasure")
+    if not claim["product_cauchy_proof_present"]:
+        found.append("product_cauchy_proof_erasure")
+    if not claim["bootstrap_equal_jet_factorization_verified"]:
+        found.append("bootstrap_factorization_erasure")
+    return found
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+
+    if defects(BASELINE):
+        raise AssertionError("baseline must be clean")
+    mutations = [
+        ("wrong_trace_coefficient", "trace_coefficient", "1/3"),
+        ("bianchi_magnitude_promotion", "bianchi_scope", "fixes_numerical_value"),
+        ("weyl_erasure", "all_einstein_constant_curvature", True),
+        ("witness_erasure", "weyl_active_witness", False),
+        ("xmax_smuggle", "xmax_identified", True),
+        ("round_history_promotion", "unique_round_universe", True),
+        ("locality_bootstrap_confusion", "bootstrap_compatible", False),
+        ("selector_response_type_confusion", "global_predicate_is_local_memory", True),
+        ("cosh_residual_constant_mutation", "cosh_q_constant", "2"),
+        ("explicit_product_ricci_erasure", "explicit_product_ricci_verified", False),
+        ("product_cauchy_proof_erasure", "product_cauchy_proof_present", False),
+        (
+            "bootstrap_factorization_erasure",
+            "bootstrap_equal_jet_factorization_verified",
+            False,
+        ),
+    ]
+    rows = []
+    for expected, key, value in mutations:
+        mutant = copy.deepcopy(BASELINE)
+        mutant[key] = value
+        observed = defects(mutant)
+        if expected not in observed:
+            raise AssertionError(f"mutation not caught: {expected}")
+        rows.append({"mutation": expected, "caught": True, "observed_defects": observed})
+
+    result = {
+        "status": "PASS",
+        "baseline_clean": True,
+        "mutations_registered": len(mutations),
+        "mutations_caught": len(rows),
+        "rows": rows,
+    }
+    payload = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    if args.output:
+        args.output.write_text(payload, encoding="utf-8")
+    else:
+        print(payload, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+The registered replay is self-contained and dependency-free. I’m now creating a disposable `/work` copy of the package and running exactly the four preregistered `python3 -S` commands there, then I’ll cross-check R4 file presence in the sealed intake.
+2026-09-01T15:58:20.747599Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -rf /work/g313_followup && mkdir -p /work/g313_followup && cp -a /intake/package /work/g313_followup/package && cd /work/g313_followup/package && python3 -S derive_solution_space.py --output DERIVATION_RESULT.replay.json && python3 -S verify_independent.py --output INDEPENDENT_VERIFICATION.replay.json && python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.replay.json && python3 -S verify_package.py'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /work/g313_followup && mkdir -p /work/g313_followup && cp -a /intake/package /work/g313_followup/package && cd /work/g313_followup/package && python3 -S derive_solution_space.py --output DERIVATION_RESULT.replay.json && python3 -S verify_independent.py --output INDEPENDENT_VERIFICATION.replay.json && python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.replay.json && python3 -S verify_package.py'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+codex
+The workspace rejected the cleanup step, so I’m switching to a fresh temp directory under `/work` and keeping the replay sequence unchanged.
+exec
+/bin/bash -lc 'mktemp -d /work/g313_followup.XXXXXX' in /intake
+ succeeded in 0ms:
+/work/g313_followup.tEHSdO
+
+exec
+/bin/bash -lc 'cp -a /intake/package /work/g313_followup.tEHSdO/package' in /intake
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_solution_space.py --output DERIVATION_RESULT.replay.json' in /work/g313_followup.tEHSdO/package
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S verify_independent.py --output INDEPENDENT_VERIFICATION.replay.json' in /work/g313_followup.tEHSdO/package
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.replay.json' in /work/g313_followup.tEHSdO/package
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g313_followup.tEHSdO/package
+ succeeded in 143ms:
+G313 package verification PASS
+production assertions: 181
+independent assertions: 357
+hostile semantic mutations caught: 12/12
+preregistered repairs R1-R4 present; external repair follow-up pending
+
+codex
+The registered replays passed. I’m extracting only the repair-specific facts from the replay artifacts and confirming the two direct R4 source reports exist in the sealed `/intake/sources` tree referenced by `SOURCE_SCOPE.tsv`.
+exec
+/bin/bash -lc "grep -nE 'explicit_product_rows|product_global_structure|slice_compact|physical_population_claimed|factored_selector_response_cases' /work/g313_followup.tEHSdO/package/INDEPENDENT_VERIFICATION.replay.json" in /intake
+ succeeded in 0ms:
+37:    "factored_selector_response_cases": 32,
+42:  "explicit_product_rows": [
+131:  "product_global_structure": {
+134:    "physical_population_claimed": false,
+135:    "slice_compact": true,
+
+exec
+/bin/bash -lc "grep -nE 'mutations_registered|mutations_caught|cosh_residual_constant_mutation|explicit_product_ricci_erasure|product_cauchy_proof_erasure|bootstrap_factorization_erasure' /work/g313_followup.tEHSdO/package/CATCH_PROOF_RESULT.replay.json" in /intake
+ succeeded in 0ms:
+3:  "mutations_caught": 12,
+4:  "mutations_registered": 12,
+64:      "mutation": "cosh_residual_constant_mutation",
+66:        "cosh_residual_constant_mutation"
+71:      "mutation": "explicit_product_ricci_erasure",
+73:        "explicit_product_ricci_erasure"
+78:      "mutation": "product_cauchy_proof_erasure",
+80:        "product_cauchy_proof_erasure"
+85:      "mutation": "bootstrap_factorization_erasure",
+87:        "bootstrap_factorization_erasure"
+
+exec
+/bin/bash -lc "grep -nE 'landing|cosh_checks|bootstrap_type_check|selectors_exhausted|hidden_history_response_rejected' /work/g313_followup.tEHSdO/package/DERIVATION_RESULT.replay.json" in /intake
+ succeeded in 0ms:
+4:  "bootstrap_type_check": {
+6:    "hidden_history_response_rejected": true,
+11:    "selectors_exhausted": 8
+91:  "cosh_checks": [
+333:  "landing": "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN",
+
+exec
+/bin/bash -lc "grep -nE 'g307|g308' /intake/package/SOURCE_SCOPE.tsv && test -f /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md && test -f /intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md && echo PRESENT" in /intake
+ succeeded in 0ms:
+10:udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md	supplied directed/screen germ reconstruction and physical-population nonselection boundary
+11:udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md	global chirality carry and metric-only physical-selection boundary
+PRESENT
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import json
+from pathlib import Path
+root = Path('/work/g313_followup.tEHSdO/package')
+prod = json.loads((root/'DERIVATION_RESULT.replay.json').read_text())
+ind = json.loads((root/'INDEPENDENT_VERIFICATION.replay.json').read_text())
+cat = json.loads((root/'CATCH_PROOF_RESULT.replay.json').read_text())
+print('R1_Q_zero_count', sum(1 for row in prod['cosh_checks'] if row['Q']=='0'))
+print('R1_Q_total', len(prod['cosh_checks']))
+print('R3_selectors', prod['bootstrap_type_check']['selectors_exhausted'])
+print('R3_hidden_rejected', prod['bootstrap_type_check']['hidden_history_response_rejected'])
+print('R2_explicit_rows', len(ind['explicit_product_rows']))
+print('R2_explicit_all_true', all(row['ricci_equals_lambda_metric'] for row in ind['explicit_product_rows']))
+print('R2_slice_compact', ind['product_global_structure']['slice_compact'])
+print('R2_witness_only', not ind['product_global_structure']['physical_population_claimed'])
+print('R3_factored_cases', ind['bootstrap_type_check']['factored_selector_response_cases'])
+print('hostile_registered', cat['mutations_registered'])
+print('hostile_caught', cat['mutations_caught'])
+print('landing', prod['landing'])
+PY" in /intake
+ succeeded in 0ms:
+R1_Q_zero_count 25
+R1_Q_total 25
+R3_selectors 8
+R3_hidden_rejected True
+R2_explicit_rows 12
+R2_explicit_all_true True
+R2_slice_compact True
+R2_witness_only True
+R3_factored_cases 32
+hostile_registered 12
+hostile_caught 12
+landing ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN
+
+codex
+I’ve confirmed the replayed counts. I’m doing one final read-only pass over the proof/report text needed for R2’s witness-only boundary and R4’s nonstrengthened G307/G308 support.
+exec
+/bin/bash -lc "grep -nE 'S1 x S2|S1_x_S2|witness|physically populates|strictly monotone|Cauchy' /intake/package/PRODUCT_WITNESS_GLOBAL_PROOF.md" in /intake
+ succeeded in 0ms:
+1:# Independent global proof for the positive product witness
+4:Role: G313 repair R2; mathematical witness only
+21:1. Each constant-`tau` slice is `S1 x S2`: periodic `chi` supplies `S1`, and the angular factor is
+24:   strictly monotone on every future-directed causal curve.
+27:   spatial speed with respect to `tau`. Compactness of `S1 x S2` then gives a limiting spacetime
+31:   are Cauchy surfaces.
+33:This establishes a smooth, globally hyperbolic, compact-slice, non-round positive Einstein witness.
+34:It does not assert that UDT physically populates it.
+
+exec
+/bin/bash -lc "grep -nE 'nonselection|not select|does not select|physical-population|physical-selection boundary|non-round|round' /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+35:Active premises still do not select which physical observer/event/route queries Nature populates,
+43:The theorem is complete on the positive-radius round G305 completion, both G306 chiralities, all
+
+exec
+/bin/bash -lc "grep -nE 'nonselection|not select|does not select|physical-selection boundary|non-round|round' /intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+17:Both G307 candidates are smooth, complete, nowhere-zero global Hopf fields on every round G305
+36:The Hopf fibers are spatial geodesics on each round slice, not generically four-dimensional
+63:The Hodge verifier tests geometry, while physical-population nonselection remains separately
+
+exec
+/bin/bash -lc "grep -n 'ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN' /intake/package/DERIVATION_RESULT.json /intake/package/PREREGISTRATION.md /intake/package/REPAIR_PREREGISTRATION.md" in /intake
+ succeeded in 0ms:
+/intake/package/DERIVATION_RESULT.json:333:  "landing": "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN",
+/intake/package/PREREGISTRATION.md:78:2. `ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN`;
+/intake/package/REPAIR_PREREGISTRATION.md:66:  `ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN`;
+
+exec
+/bin/bash -lc "sed -n '58,68p' /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+exec
+/bin/bash -lc "sed -n '30,40p' /intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+## What was not learned
+
+The metric does not prefer one sign. Signed transverse data can conditionally identify one member,
+as G307 already proved, but current premises do not populate that sign physically. No action,
+dynamics, stability, matter, mass, observation, scale, history, or physical `X_max` was added.
+
+The Hopf fibers are spatial geodesics on each round slice, not generically four-dimensional
+spacetime geodesics. Both fields leave the metric and causal cones unchanged.
+
+## Scope
+
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md | sed -n '60,66p'" in /intake
+ succeeded in 0ms:
+exec
+/bin/bash -lc "wc -l /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md && sed -n '1,120p' /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+57 /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md
+# G307 audit report — conditional Hopf-member reconstruction from a complete directed germ
+
+Date: 2026-08-30
+Status: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
+
+## Primary landing
+
+```text
+SUPPLIED_DIRECTED_GERM_SELECTS_ONE_MEMBER_PER_CHIRAL_FAMILY
+__SIGNED_TRANSVERSE_SCREEN_GERM_SELECTS_ONE_MEMBER_CONDITIONALLY
+__ACTIVE_PREMISES_POPULATE_NEITHER__PHYSICAL_MEMBER_REMAINS_OPEN
+```
+
+## What was learned
+
+G306's metric-only ambiguity is not an unrestricted field once an actual directed relation is
+supplied. A point and ordered tangent select exactly one Hopf member in each of the two chiral
+families. Those two members generate the same complete great-circle route and agree on its tangent
+plane, so no amount of one-dimensional route following distinguishes them.
+
+Their difference appears in the transverse screen. Relative to one supplied screen orientation,
+one member rotates the screen by `+90` degrees and the other by `-90` degrees. One signed
+transverse-screen first derivative therefore reduces the two candidates to one.
+
+This is a substantial narrowing of G306's continuous family ambiguity:
+
+```text
+metric alone:          two continuous S2 families
+point + direction:     two members
+signed transverse jet: one member
+```
+
+## What was not learned
+
+Active premises still do not select which physical observer/event/route queries Nature populates,
+nor do they supply the transverse sign for such a population. Conditional reconstruction must not
+be renamed physical selection. The result introduces no action, source, mass law, scale, fit,
+history, observation, or `X_max`, and it modifies neither the primary metric nor the reciprocal
+kernel.
+
+## Scope and evidence
+
+The theorem is complete on the positive-radius round G305 completion, both G306 chiralities, all
+regular directed point/tangent germs, all regular oriented transverse screens, and all positive
+radii. Nonspherical, quotient, singular/cut/caustic, topology-changing, and dynamically populated
+cases remain outside scope.
+
+The landing was preregistered at pushed commit `1bdfe7d2`. Exact production supplied 1,806 rational
+assertions. Fresh external review independently supported the theorem and found no route/screen
+conflation or ownership promotion, but required replay repairs. Those repairs were preregistered at
+`f91bfb85`. The strengthened independent implementation now supplies 32,000 checks over 1,000
+random frames, reconstructs both members directly from `(p,v)`, and retains maximum error
+`4.1389114358025836e-13`. Eight direct mathematical and fourteen semantic hostile mutations are
+caught. Repository and sealed intake rebuilds are byte-identical. The current premise registry
+passes. Repair-only external follow-up independently replayed R1--R4 and returned
+`G307_REPAIRS_ACCEPTED`, with no replay defect or scientific regression. The bounded package is
+externally closed; physical relation population remains open exactly as stated above.
+
+codex
+I have enough to close this. I’m pulling exact line numbers for the final evidence references and then I’ll return the single verdict token with the bounded findings only.
+exec
+/bin/bash -lc "nl -ba /intake/package/PRODUCT_WITNESS_GLOBAL_PROOF.md | sed -n '1,40p'" in /intake
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_package.py | sed -n '50,125p'" in /intake
+ succeeded in 0ms:
+     1	# Independent global proof for the positive product witness
+     2
+     3	Date: 2026-09-01
+     4	Role: G313 repair R2; mathematical witness only
+     5
+     6	For positive `Lambda`, the explicit metric is
+     7
+     8	\[
+     9	g=\Lambda^{-1}\left[-d\tau^2+\cosh^2\tau\,d\chi^2+d\Omega_2^2\right],
+    10	\qquad \tau\in\mathbb R,\quad \chi\sim\chi+2\pi.
+    11	\]
+    12
+    13	`verify_independent.py` starts from this coordinate metric, its inverse, and its nonzero first and
+    14	second coordinate derivatives. Its generic Christoffel/Ricci contraction independently verifies
+    15	`Ric_ab=Lambda g_ab` at multiple exact rational hyperbolic and spherical points and at four positive
+    16	values of `Lambda`. It does not call the production implementation or assume the product Ricci
+    17	formula.
+    18
+    19	The global claims follow separately:
+    20
+    21	1. Each constant-`tau` slice is `S1 x S2`: periodic `chi` supplies `S1`, and the angular factor is
+    22	   the complete round `S2`. A finite product of compact spaces is compact.
+    23	2. The inverse metric gives `g^{-1}(d tau,d tau)=-Lambda<0`, so `tau` is a temporal function and is
+    24	   strictly monotone on every future-directed causal curve.
+    25	3. Suppose an inextendible causal curve had a finite upper or lower endpoint in `tau`. On every
+    26	   bounded `tau` interval the spatial metric is uniformly positive and the causal inequality bounds
+    27	   spatial speed with respect to `tau`. Compactness of `S1 x S2` then gives a limiting spacetime
+    28	   point, through which the causal curve can be extended. This contradicts inextendibility.
+    29	4. Therefore `tau` ranges from minus infinity to plus infinity on every inextendible causal curve.
+    30	   Strict monotonicity makes each constant-`tau` slice intersect that curve exactly once. The slices
+    31	   are Cauchy surfaces.
+    32
+    33	This establishes a smooth, globally hyperbolic, compact-slice, non-round positive Einstein witness.
+    34	It does not assert that UDT physically populates it.
+
+ succeeded in 0ms:
+    50	        "EXTERNAL_REVIEW_RESPONSE.md",
+    51	    ]
+    52	    for name in required:
+    53	        if not (ROOT / name).is_file():
+    54	            raise AssertionError(f"missing required artifact: {name}")
+    55
+    56	    with tempfile.TemporaryDirectory(prefix="g313_replay_") as temporary_name:
+    57	        temporary = Path(temporary_name)
+    58	        production = rerun("derive_solution_space.py", "DERIVATION_RESULT.json", temporary)
+    59	        independent = rerun("verify_independent.py", "INDEPENDENT_VERIFICATION.json", temporary)
+    60	        catches = rerun("run_catch_proofs.py", "CATCH_PROOF_RESULT.json", temporary)
+    61
+    62	    landing = "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN"
+    63	    if production["status"] != "PASS" or production["landing"] != landing:
+    64	        raise AssertionError("production landing")
+    65	    if production["assertions"] != 181:
+    66	        raise AssertionError("production assertion count")
+    67	    if independent["status"] != "PASS" or independent["assertions"] != 357:
+    68	        raise AssertionError("independent result")
+    69	    if not independent["round_uniqueness_refuted"] or not independent["scale_selection_refuted"]:
+    70	        raise AssertionError("independent scientific controls")
+    71	    if catches["mutations_registered"] != 12 or catches["mutations_caught"] != 12:
+    72	        raise AssertionError("hostile catch count")
+    73	    if len(production["cosh_checks"]) != 25 or any(row["Q"] != "0" for row in production["cosh_checks"]):
+    74	        raise AssertionError("R1 exact G309 residual replay")
+    75	    if production["bootstrap_type_check"]["selectors_exhausted"] != 8:
+    76	        raise AssertionError("R3 production selector census")
+    77	    if not production["bootstrap_type_check"]["hidden_history_response_rejected"]:
+    78	        raise AssertionError("R3 production hidden-response rejection")
+    79	    if len(independent["explicit_product_rows"]) != 12:
+    80	        raise AssertionError("R2 explicit product sample count")
+    81	    if not all(row["ricci_equals_lambda_metric"] for row in independent["explicit_product_rows"]):
+    82	        raise AssertionError("R2 explicit product Ricci")
+    83	    if not independent["product_global_structure"]["slice_compact"]:
+    84	        raise AssertionError("R2 compact product slice")
+    85	    if independent["bootstrap_type_check"]["factored_selector_response_cases"] != 32:
+    86	        raise AssertionError("R3 independent selector-response census")
+    87
+    88	    audit = (ROOT / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+    89	    lay = (ROOT / "LAY_REPORT.md").read_text(encoding="utf-8")
+    90	    exact = (ROOT / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    91	    proof = (ROOT / "PRODUCT_WITNESS_GLOBAL_PROOF.md").read_text(encoding="utf-8")
+    92	    sources = (ROOT / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+    93	    external = (ROOT / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    94	    required_tokens = [
+    95	        "REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED__REPAIR_FOLLOWUP_PENDING",
+    96	        "not the complete active",
+    97	        "premise supplies a nonidentity predicate",
+    98	    ]
+    99	    for token in required_tokens:
+   100	        if token not in audit:
+   101	            raise AssertionError(f"audit token missing: {token}")
+   102	    for token in (
+   103	        "does not draw one unique universe",
+   104	        "an initial/global selection rule still has to choose",
+   105	        "This is compatible with Local",
+   106	    ):
+   107	        if token not in lay:
+   108	            raise AssertionError(f"lay token missing: {token}")
+   109	    for token in (
+   110	        "It is not one",
+   111	        "\\mathcal A:\\operatorname{Sol}/\\operatorname{Diff}",
+   112	        "C_{abcd}C^{abcd}=\\frac{16}{3}\\Lambda^2",
+   113	    ):
+   114	        if token not in exact:
+   115	            raise AssertionError(f"derivation token missing: {token}")
+   116	    for token in ("strictly monotone", "S1 x S2", "It does not assert that UDT physically populates it"):
+   117	        if token not in proof:
+   118	            raise AssertionError(f"product proof token missing: {token}")
+   119	    for token in (
+   120	        "udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md",
+   121	        "udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md",
+   122	    ):
+   123	        if token not in sources:
+   124	            raise AssertionError(f"R4 direct source missing: {token}")
+   125	    if "G313_REPAIRABLE_DEFECTS__SCIENTIFIC_LANDING_RETAINED" not in external:
+
+exec
+/bin/bash -lc "nl -ba /intake/package/REPLAY_COMMANDS.txt | sed -n '1,10p'" in /intake
+ succeeded in 0ms:
+     1	python3 -S derive_solution_space.py --output DERIVATION_RESULT.json
+     2	python3 -S verify_independent.py --output INDEPENDENT_VERIFICATION.json
+     3	python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+     4	python3 -S verify_package.py
+
+exec
+/bin/bash -lc "nl -ba /intake/package/SOURCE_SCOPE.tsv | sed -n '8,12p'" in /intake
+ succeeded in 0ms:
+     8	udt_g305_global_completion_hopf_domain_bridge_2026-08-30/AUDIT_REPORT.md	round positive completion and topology caveats
+     9	udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/AUDIT_REPORT.md	Hopf family nonselection boundary
+    10	udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md	supplied directed/screen germ reconstruction and physical-population nonselection boundary
+    11	udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md	global chirality carry and metric-only physical-selection boundary
+    12	udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md	round cosh branch and conditional ownership
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md | sed -n '30,40p'" in /intake
+ succeeded in 0ms:
+    30	signed transverse jet: one member
+    31	```
+    32
+    33	## What was not learned
+    34
+    35	Active premises still do not select which physical observer/event/route queries Nature populates,
+    36	nor do they supply the transverse sign for such a population. Conditional reconstruction must not
+    37	be renamed physical selection. The result introduces no action, source, mass law, scale, fit,
+    38	history, observation, or `X_max`, and it modifies neither the primary metric nor the reciprocal
+    39	kernel.
+    40
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md | sed -n '14,22p'" in /intake
+ succeeded in 0ms:
+    14
+    15	## What was learned
+    16
+    17	Both G307 candidates are smooth, complete, nowhere-zero global Hopf fields on every round G305
+    18	slice and carry regularly through the exact time-live completion. Global coherence therefore does
+    19	not reject one handedness.
+    20
+    21	Coherence does impose a real restriction: a connected smooth regular field cannot switch
+    22	chirality from region to region. It must remain in one global handedness sector unless it passes
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md | sed -n '60,66p'" in /intake
+ succeeded in 0ms:
+    60	still called the 79,200-check calculation an “Independent replay.” That exact R3 wording residue is
+    61	now removed under preregistration `71acf64f`. The completion-only external follow-up returned
+    62	`G308_R3_COMPLETION_ACCEPTED` with no defects at any severity.
+    63	The Hodge verifier tests geometry, while physical-population nonselection remains separately
+    64	audited rather than asserted by a numerical flag.
+
+codex
+G313_REPAIRS_R1_R4_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED
+
+Executed exactly the four registered `python3 -S` replays from [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1) in a writable `/work` copy; [verify_package.py](/intake/package/verify_package.py:56) passed and confirmed the unchanged landing, `181` production assertions, `357` independent assertions, and `12/12` hostile mutations caught [verify_package.py](/intake/package/verify_package.py:62). R1: `25/25` exact `Q[a]=0` checks with the constant mutation rejected [verify_package.py](/intake/package/verify_package.py:73). R2: the independent route starts from the explicit Lorentzian product metric, verifies `Ric_ab=Lambda g_ab` on `12` exact samples, and the separate proof establishes compact `S1 x S2` Cauchy slices as a witness only [PRODUCT_WITNESS_GLOBAL_PROOF.md](/intake/package/PRODUCT_WITNESS_GLOBAL_PROOF.md:4), [verify_package.py](/intake/package/verify_package.py:79). R3: production exhausts `8` selectors, the independent census exhausts `32` selector-response cases, and the hidden-history response is rejected [verify_package.py](/intake/package/verify_package.py:75). R4: the direct G307/G308 reports are listed in [SOURCE_SCOPE.tsv](/intake/package/SOURCE_SCOPE.tsv:10) and present in `/intake/sources`; their text preserves only the prior nonselection/nonpopulation boundary [AUDIT_REPORT.md](/intake/sources/udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/AUDIT_REPORT.md:35), [AUDIT_REPORT.md](/intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md:17), [AUDIT_REPORT.md](/intake/sources/udt_g308_global_chirality_coherence_parity_classification_2026-08-31/AUDIT_REPORT.md:63). The landing remains `ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN` [DERIVATION_RESULT.json](/intake/package/DERIVATION_RESULT.json:333). Remaining defect: none within the preregistered R1-R4 scope.
+tokens used
+51,999
+
+Script done on 2026-09-01 12:00:53-04:00 [COMMAND_EXIT_CODE="0"]

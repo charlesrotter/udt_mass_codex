@@ -1,0 +1,370 @@
+{
+  "assertions": 181,
+  "bianchi_divergence_coefficient": "1/4",
+  "bootstrap_type_check": {
+    "equal_jet_histories_separable_globally": true,
+    "hidden_history_response_rejected": true,
+    "histories": 3,
+    "jet_factored_local_response_compatible": true,
+    "jets": 2,
+    "selector_response_combinations": 32,
+    "selectors_exhausted": 8
+  },
+  "branch_rows": [
+    {
+      "lambda": "-5",
+      "product_weyl_squared": "400/3",
+      "round_weyl_squared": "0",
+      "scalar_R": "-20"
+    },
+    {
+      "lambda": "-2",
+      "product_weyl_squared": "64/3",
+      "round_weyl_squared": "0",
+      "scalar_R": "-8"
+    },
+    {
+      "lambda": "-1",
+      "product_weyl_squared": "16/3",
+      "round_weyl_squared": "0",
+      "scalar_R": "-4"
+    },
+    {
+      "lambda": "0",
+      "product_weyl_squared": "0",
+      "round_weyl_squared": "0",
+      "scalar_R": "0"
+    },
+    {
+      "lambda": "1",
+      "product_weyl_squared": "16/3",
+      "round_weyl_squared": "0",
+      "scalar_R": "4"
+    },
+    {
+      "lambda": "2",
+      "product_weyl_squared": "64/3",
+      "round_weyl_squared": "0",
+      "scalar_R": "8"
+    },
+    {
+      "lambda": "5",
+      "product_weyl_squared": "400/3",
+      "round_weyl_squared": "0",
+      "scalar_R": "20"
+    }
+  ],
+  "cauchy_rows": [
+    {
+      "H_squared": "0",
+      "R3": "6",
+      "hamiltonian": "6",
+      "momentum": 0,
+      "name": "round_S3_bounce",
+      "round": true,
+      "topology": "S3"
+    },
+    {
+      "H_squared": "0",
+      "R3": "6",
+      "hamiltonian": "6",
+      "momentum": 0,
+      "name": "nariai_S1xS2_bounce",
+      "round": false,
+      "topology": "S1xS2"
+    },
+    {
+      "H_squared": "5/12",
+      "R3": "7/2",
+      "hamiltonian": "6",
+      "momentum": 0,
+      "name": "berger_S3_pure_trace",
+      "ricci_eigenvalues": [
+        "-1/2",
+        "-1/2",
+        "9/2"
+      ],
+      "round": false,
+      "topology": "S3"
+    }
+  ],
+  "cosh_checks": [
+    {
+      "Q": "0",
+      "a": "5/9",
+      "a_prime": "4/3",
+      "a_second": "5",
+      "scale_X": "1/3",
+      "u": "1/3"
+    },
+    {
+      "Q": "0",
+      "a": "5/12",
+      "a_prime": "3/4",
+      "a_second": "15/4",
+      "scale_X": "1/3",
+      "u": "1/2"
+    },
+    {
+      "Q": "0",
+      "a": "1/3",
+      "a_prime": "0",
+      "a_second": "3",
+      "scale_X": "1/3",
+      "u": "1"
+    },
+    {
+      "Q": "0",
+      "a": "5/12",
+      "a_prime": "-3/4",
+      "a_second": "15/4",
+      "scale_X": "1/3",
+      "u": "2"
+    },
+    {
+      "Q": "0",
+      "a": "5/9",
+      "a_prime": "-4/3",
+      "a_second": "5",
+      "scale_X": "1/3",
+      "u": "3"
+    },
+    {
+      "Q": "0",
+      "a": "5/6",
+      "a_prime": "4/3",
+      "a_second": "10/3",
+      "scale_X": "1/2",
+      "u": "1/3"
+    },
+    {
+      "Q": "0",
+      "a": "5/8",
+      "a_prime": "3/4",
+      "a_second": "5/2",
+      "scale_X": "1/2",
+      "u": "1/2"
+    },
+    {
+      "Q": "0",
+      "a": "1/2",
+      "a_prime": "0",
+      "a_second": "2",
+      "scale_X": "1/2",
+      "u": "1"
+    },
+    {
+      "Q": "0",
+      "a": "5/8",
+      "a_prime": "-3/4",
+      "a_second": "5/2",
+      "scale_X": "1/2",
+      "u": "2"
+    },
+    {
+      "Q": "0",
+      "a": "5/6",
+      "a_prime": "-4/3",
+      "a_second": "10/3",
+      "scale_X": "1/2",
+      "u": "3"
+    },
+    {
+      "Q": "0",
+      "a": "5/3",
+      "a_prime": "4/3",
+      "a_second": "5/3",
+      "scale_X": "1",
+      "u": "1/3"
+    },
+    {
+      "Q": "0",
+      "a": "5/4",
+      "a_prime": "3/4",
+      "a_second": "5/4",
+      "scale_X": "1",
+      "u": "1/2"
+    },
+    {
+      "Q": "0",
+      "a": "1",
+      "a_prime": "0",
+      "a_second": "1",
+      "scale_X": "1",
+      "u": "1"
+    },
+    {
+      "Q": "0",
+      "a": "5/4",
+      "a_prime": "-3/4",
+      "a_second": "5/4",
+      "scale_X": "1",
+      "u": "2"
+    },
+    {
+      "Q": "0",
+      "a": "5/3",
+      "a_prime": "-4/3",
+      "a_second": "5/3",
+      "scale_X": "1",
+      "u": "3"
+    },
+    {
+      "Q": "0",
+      "a": "10/3",
+      "a_prime": "4/3",
+      "a_second": "5/6",
+      "scale_X": "2",
+      "u": "1/3"
+    },
+    {
+      "Q": "0",
+      "a": "5/2",
+      "a_prime": "3/4",
+      "a_second": "5/8",
+      "scale_X": "2",
+      "u": "1/2"
+    },
+    {
+      "Q": "0",
+      "a": "2",
+      "a_prime": "0",
+      "a_second": "1/2",
+      "scale_X": "2",
+      "u": "1"
+    },
+    {
+      "Q": "0",
+      "a": "5/2",
+      "a_prime": "-3/4",
+      "a_second": "5/8",
+      "scale_X": "2",
+      "u": "2"
+    },
+    {
+      "Q": "0",
+      "a": "10/3",
+      "a_prime": "-4/3",
+      "a_second": "5/6",
+      "scale_X": "2",
+      "u": "3"
+    },
+    {
+      "Q": "0",
+      "a": "25/3",
+      "a_prime": "4/3",
+      "a_second": "1/3",
+      "scale_X": "5",
+      "u": "1/3"
+    },
+    {
+      "Q": "0",
+      "a": "25/4",
+      "a_prime": "3/4",
+      "a_second": "1/4",
+      "scale_X": "5",
+      "u": "1/2"
+    },
+    {
+      "Q": "0",
+      "a": "5",
+      "a_prime": "0",
+      "a_second": "1/5",
+      "scale_X": "5",
+      "u": "1"
+    },
+    {
+      "Q": "0",
+      "a": "25/4",
+      "a_prime": "-3/4",
+      "a_second": "1/4",
+      "scale_X": "5",
+      "u": "2"
+    },
+    {
+      "Q": "0",
+      "a": "25/3",
+      "a_prime": "-4/3",
+      "a_second": "1/3",
+      "scale_X": "5",
+      "u": "3"
+    }
+  ],
+  "equivalent_connected_equation": "Ric_ab=Lambda*g_ab; dLambda=0",
+  "existing_nonidentity_global_predicate_owned": false,
+  "global_predicate_type": "diffeomorphism-invariant acceptance predicate on complete histories",
+  "homothety_rows": [
+    {
+      "R_after": "48",
+      "lambda_after": "12",
+      "metric_multiplier": "1/4"
+    },
+    {
+      "R_after": "24",
+      "lambda_after": "6",
+      "metric_multiplier": "1/2"
+    },
+    {
+      "R_after": "12",
+      "lambda_after": "3",
+      "metric_multiplier": "1"
+    },
+    {
+      "R_after": "6",
+      "lambda_after": "3/2",
+      "metric_multiplier": "2"
+    },
+    {
+      "R_after": "4",
+      "lambda_after": "1",
+      "metric_multiplier": "3"
+    },
+    {
+      "R_after": "12/5",
+      "lambda_after": "3/5",
+      "metric_multiplier": "5"
+    },
+    {
+      "R_after": "4/3",
+      "lambda_after": "1/3",
+      "metric_multiplier": "9"
+    }
+  ],
+  "landing": "ACTIVE_EQUATION_DEFINES_MULTIBRANCH_EINSTEIN_ARENA__GLOBAL_ADMISSIBILITY_REMAINS_OPEN",
+  "physical_xmax_selected": false,
+  "plane_wave_rows": [
+    {
+      "Ric_uu": "0",
+      "amplitude": "-5",
+      "tidal_difference": "-20"
+    },
+    {
+      "Ric_uu": "0",
+      "amplitude": "-2",
+      "tidal_difference": "-8"
+    },
+    {
+      "Ric_uu": "0",
+      "amplitude": "-1",
+      "tidal_difference": "-4"
+    },
+    {
+      "Ric_uu": "0",
+      "amplitude": "1",
+      "tidal_difference": "4"
+    },
+    {
+      "Ric_uu": "0",
+      "amplitude": "2",
+      "tidal_difference": "8"
+    },
+    {
+      "Ric_uu": "0",
+      "amplitude": "5",
+      "tidal_difference": "20"
+    }
+  ],
+  "round_history_selected": false,
+  "scale_selected": false,
+  "status": "PASS"
+}

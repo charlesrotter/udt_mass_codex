@@ -1,0 +1,10 @@
+class	lambda_sector	weyl_sector	topology_or_domain	dynamical_character	owned_result	selection_status
+round_positive_cosh	positive	zero	R_x_S3	time_live	conditional exact G309 member with a=X*cosh((T-T0)/X)	not uniquely selected; one scale free
+positive_product_nariai	positive	nonzero	R_x_S1_x_S2	time_live	exact regular compact Einstein witness	admitted mathematically; population open
+positive_berger_S3_data	positive	nonround_initial_data	S3	local_Cauchy_development	exact constraint-satisfying nonround data at same lambda as round bounce	admitted locally; global completion and population open
+positive_static_patch	positive	zero	bounded_static_chart	static	G304 smooth-center chart of round positive completion	observer horizon is not a wall; not unique universe
+flat_constant_curvature	zero	zero	R4	static_or_time_live	Minkowski member	admitted; not selected
+ricci_flat_plane_wave	zero	nonzero	local_or_plane_wave_domain	time_live	exact Ricci-flat tidal witness	admitted mathematically; global class scoped
+negative_constant_curvature	negative	zero	AdS_type_local_or_covered_domain	static_or_time_live	exact constant-curvature sector	boundary/global completion open
+negative_weyl_active_product	negative	nonzero	AdS2_x_H2_type_product	time_live	exact algebraic Einstein product sector	boundary/global causality open
+constant_homothety	all_nonzero	preserved	same_manifold	preserved	maps solutions to solutions while lambda rescales	absolute scale not selected

@@ -2,7 +2,7 @@
 
 Date: 2026-09-01
 
-`LIVE.md` controls status; the 295-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 296-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -80,6 +80,10 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312.
 - G311 gives `TF_g(E)=0` for supplied `E`. G312 separates GR-principal overlap from Local Metric Sufficiency/local finite-jet response.
   Charles adopted both provisionally on 2026-09-01;
   existing gates now make the bounded response constitution trace-free Ricci. No history/scale is selected.
+- G313 externally maps the active bounded solution space. Bianchi gives `Ric=Lambda g` with one
+  connected constant, while exact round, product, Berger-`S3` local-data, plane-wave, and homothety
+  witnesses prove that Weyl/tide, topology, data, scalar, scale, and population remain unselected.
+  No owned nonidentity global admissibility predicate exists; metric/kernel/angular/observations are unchanged.
 
 ## Open boundary
 
@@ -103,7 +107,8 @@ parity-related sectors, but select no physical population. G309 shows that this 
 do not select the time profile. Owner-adopted provisional DDR selects the G301 trace-free residual
 inside G311's conditional G301 lane; the positive round history shape is then fixed up to one
 curvature scale. G312's two premises are owner-adopted provisionally, making bounded trace-free
-Ricci active. Bootstrap, curvature scale, population, mass, and physical `X_max` remain open.
+Ricci active. G313 shows its solution space is a multibranch Einstein arena, not a selected round
+universe. Bootstrap, curvature scale, population, mass, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -111,7 +116,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Characterize the bounded trace-free Ricci solution space and test global bootstrap/admissibility
-without an independent nonlocal response. Keep its scalar datum separate from calibration. Do not
-restamp a premise as derived/canon, turn bounded dynamics into a selected universe, or import an
-action, source, mass, fit, physical `X_max`, protected work, or realized history.
+Map candidate global bootstrap/admissibility predicate types and preregistered falsification gates
+on the G313 multibranch Einstein arena without an independent hidden-history local response. Keep
+its scalar datum separate from calibration. Do not restamp a premise as derived/canon, turn a
+witness into the selected universe, or import an action, source, matter/mass law, observation, fit,
+physical `X_max`, protected work, or realized history.

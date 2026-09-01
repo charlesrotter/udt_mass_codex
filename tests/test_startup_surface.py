@@ -327,6 +327,13 @@ def test_catch_g312_owner_adoption_demotion(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
+def test_catch_g313_multibranch_landing_omission(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "multibranch Einstein arena", "single round history")
+    with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
 def test_catch_stale_readme_frontier(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     path = root / "README.md"
