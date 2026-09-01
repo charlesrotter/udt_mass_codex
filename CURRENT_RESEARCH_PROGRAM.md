@@ -2,7 +2,7 @@
 
 Date: 2026-09-01
 
-`LIVE.md` controls status; the 294-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 295-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -71,25 +71,16 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311.
   neither; its static channel split separates constant-curvature from angular/Weyl.
 - G303 gives every fixed trace-free sector the same rank-ten metric-wave principal system and null
   cone as Ricci-flat; one regional scalar datum remains. PDE theorems are conditional imports.
-- G304 uses `WORKING` G17 to select only the positive sign in the bounded smooth-center branch.
-  G305 completes it through a regular horizon to compact `S3`. G306--G308 derive two global,
-  mirror-related Hopf families and conditional member reconstruction, but no physical population,
-  magnitude, mass, scale, history, or physical `X_max`.
-- G309's reviewed counterfamily preserves quiet/Hopf kinematics while changing curvature. Conditional
-  G301 trace-free Ricci rejects it and fixes `a=X cosh((T-T0)/X)`, leaving one uncalibrated scale.
-- G310 externally verifies that one new `DDR` postulate selects trace-free Ricci on G301's
-  nondegenerate stratum, leaving one scalar datum. It is a sufficiency theorem for a
-  postulate now `OWNER_ADOPTED_PROVISIONAL_POSTULATE` by Charles (2026-08-31), not a derivation,
-  canonization, or selected history/scale. **Universal Reciprocity** is its plain-language
-  formulation; DDR is its tested curvature-level mathematical formulation. Angular-sector
-  interlock owns loud--quiet--loud.
-- G311 extends Universal Reciprocity to every regular local observer-pair plane. Those
-  tangents span all nine trace-free symmetric metric directions, so the exact response-shape
-  consequence is `TF_g(E)=0`, not a selected response `E`. Within the separately conditional G301
-  nondegenerate first-curvature response lane, this becomes Einstein-space dynamics with one
-  connected scalar and two local metric configuration degrees of freedom. A Weyl-quadratic
-  counterresponse outside G301 proves response constitution remains open. Fresh and repair-only
-  review accepted this boundary; metric/kernel are unchanged.
+- G304--G309 add positive sign, compact `S3`, mirror Hopf families, and a counterhistory;
+  conditional trace-free Ricci fixes `a=X cosh((T-T0)/X)` but leaves one scale and no population.
+- G310 externally verifies the bounded `DDR` sufficiency theorem. Charles adopted the postulate as
+  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derivation or canon. **Universal
+  Reciprocity** is its plain-language formulation; DDR is its tested curvature-level mathematical
+  formulation. Angular-sector interlock owns loud--quiet--loud.
+- G311 gives `TF_g(E)=0` for supplied `E`; response constitution remains open. G312 separates the
+  required full quiet GR principal-response overlap and local finite-jet response choices. If both
+  are supplied, existing gates close G301 and Universal Reciprocity gives trace-free Ricci. G312
+  adopts neither; metric/kernel are unchanged.
 
 ## Open boundary
 
@@ -112,8 +103,8 @@ domain. G306--G308 narrow the native geometry to a globally coherent supplied me
 parity-related sectors, but select no physical population. G309 shows that this topology and carry
 do not select the time profile. Owner-adopted provisional DDR selects the G301 trace-free residual
 inside G311's conditional G301 lane; the positive round history shape is then fixed up to one
-curvature scale. Response-constitution ownership, that scale, population, mass, and physical
-`X_max` remain open.
+curvature scale. G312 reduces response-constitution ownership to the two explicit premise choices
+above. They, the curvature scale, population, mass, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
 preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
@@ -121,9 +112,9 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Determine whether UDT owns G301's smooth scale-free local metric-only first-curvature response
-constitution, or derive a native discriminator against the higher-order/nonlocal response
-architectures that G311 leaves open. Then characterize the surviving conditional solution space
-before independently calibrating its scalar datum. Do not
-restamp a postulate as derived or canon, turn Hopf consilience or angular cancellation into proof,
-or import an action, source, mass, fit, physical `X_max`, protected work, or realized history.
+Determine with Charles whether GR reduction means full quiet principal-response overlap and whether
+the vacuum response is local finite-jet. Treat them as two independent provisional choices. If both
+are adopted, characterize the conditional G301/Universal-Reciprocity solution space before
+independently calibrating its scalar datum. Do not restamp a postulate as derived or canon, turn
+Hopf consilience or angular cancellation into proof, or import an action, source, mass, fit,
+physical `X_max`, protected work, or realized history.

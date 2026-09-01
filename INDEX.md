@@ -102,7 +102,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   `udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/`; `udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/`;
   `udt_g308_global_chirality_coherence_parity_classification_2026-08-31/`; `udt_g309_strengthened_chain_history_selection_audit_2026-08-31/`;
   `udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/`; adoption: `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`;
-  G311 response constitution boundary: `udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md`.
+  G311 response boundary: `udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md`; G312 boundary: `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`.
 - Historical controls: `SIMPLE_METRIC_MACRO.md` (static slice); `udt_canonical_geometry.md` (canonical-geometry monolith; use G281 regrades).
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.

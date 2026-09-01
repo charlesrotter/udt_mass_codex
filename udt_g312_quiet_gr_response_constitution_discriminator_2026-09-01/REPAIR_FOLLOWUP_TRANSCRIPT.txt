@@ -1,0 +1,1008 @@
+Script started on 2026-09-01 10:05:38-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a05d4a-346d-7b92-ad9e-40c2352c0874
+--------
+user
+The sealed G312 repair-only intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Verify only preregistered R1 and the unchanged bounded landing. Inspect only /intake; do not edit evidence files or continue the research. Network access is authorized only for Codex API transport. Internet browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Run the registered aggregate replay only in a writable ephemeral copy. Do not access the repository or protected packages, change the scientific question, or adopt either premise.\n\n# G312 repair-only external follow-up request
+
+Date: 2026-09-01
+
+## Bounded task
+
+Verify only preregistered repair R1 and the unchanged bounded G312 scientific landing.
+
+1. Confirm `build_review_intake.py` is present in the repaired sealed package.
+2. In a writable ephemeral copy, run `python3 -S package/verify_package.py` without repository or
+   network access beyond the Codex API transport needed to launch the reviewer.
+3. Confirm the replay returns 4,690 production checks, 4,824 independent checks, six semantic
+   regression catches, and the unchanged landing
+   `TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED`.
+4. Confirm no scientific evidence, premise grade, witness, or conclusion changed during repair.
+
+Return one exact verdict:
+
+- `G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY`
+- `G312_REPAIR_INCOMPLETE__LANDING_RETAINED`
+- `G312_REPAIR_CHANGED_SCIENCE`
+- `G312_FOLLOWUP_INCOMPLETE`
+
+Do not edit evidence files, change the scientific question, adopt either premise, or continue the
+research.
+codex
+I’m verifying the sealed intake in place first, then I’ll make a writable copy under `/work` and run only the registered package replay there.
+exec
+/bin/bash -c 'pwd && rg --files .' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+/intake
+
+exec
+/bin/bash -c 'ls -la /work' in /
+ succeeded in 0ms:
+total 4
+drwx------  2 udt-admin udt-admin 4096 Sep  1 10:05 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  1 10:05 ..
+
+codex
+`rg` is not available here, so I’m falling back to `find` and reading the sealed package layout directly under `/intake`.
+exec
+/bin/bash -c 'find /intake -maxdepth 3 -type f | sort' in /
+ succeeded in 0ms:
+/intake/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md
+/intake/package/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PONDER.md
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/REPAIR_ANCESTRY.md
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md
+/intake/package/REPAIR_PREREGISTRATION.md
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_repair_followup_intake.py
+/intake/package/build_review_intake.py
+/intake/package/derive_response_constitution.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_package.py
+/intake/package/verify_response_constitution_independent.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/AUDIT_REPORT.md
+/intake/sources/udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/AUDIT_REPORT.md
+/intake/sources/udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/AUDIT_REPORT.md
+/intake/sources/udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md
+/intake/sources/udt_g296_complete_metric_native_residual_order_map_2026-08-29/AUDIT_REPORT.md
+/intake/sources/udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md
+/intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md
+/intake/sources/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md
+
+exec
+/bin/bash -c 'find /intake -maxdepth 3 -type d | sort' in /
+ succeeded in 0ms:
+/intake
+/intake/package
+/intake/sources
+/intake/sources/udt_g257_gr_quiet_limit_embedding_audit_2026-08-25
+/intake/sources/udt_g259_metric_only_parent_operator_fork_classification_2026-08-25
+/intake/sources/udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25
+/intake/sources/udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25
+/intake/sources/udt_g296_complete_metric_native_residual_order_map_2026-08-29
+/intake/sources/udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30
+/intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31
+/intake/sources/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01
+
+codex
+I’ve confirmed the repaired package includes `build_review_intake.py`. Next I’m reading the repair preregistration and package verification metadata to tie the replay result back to the bounded R1 request.
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/REPAIR_PREREGISTRATION.md" in /
+ succeeded in 0ms:
+# G312 repair preregistration
+
+Date: 2026-09-01
+
+External verdict: `G312_REPAIRABLE_DEFECTS__LANDING_RETAINED`.
+
+The reviewer found no scientific defect in the bounded G312 landing. This repair is frozen before
+changing the intake builder. It may not alter the scientific question, either independence witness,
+the premise ledger, or the bounded conclusion.
+
+## R1 — intake-self-contained aggregate replay
+
+Add the already registered `build_review_intake.py` to the exact package-file tuple copied by that
+builder. Rebuild a fresh sealed intake and verify in a writable ephemeral copy that:
+
+```bash
+python3 -S package/verify_package.py
+```
+
+runs successfully using only files inside the intake.
+
+Falsification: R1 fails if the builder remains absent, the aggregate replay accesses repository
+state, any scientific output changes, or the repaired intake cannot reproduce 4,690 production
+checks, 4,824 independent checks, and six semantic regression catches.
+
+## Retained landing
+
+```text
+TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED
+```
+
+The two clauses remain:
+
+1. `FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP`;
+2. `LOCAL_FINITE_JET_RESPONSE_CONSTITUTION`.
+
+A fresh repair-only external follow-up is required before G312 can be graded
+`G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY`.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/PACKAGE_VERIFICATION_RESULT.json" in /
+ succeeded in 0ms:
+{
+  "external_review": "REQUIRED",
+  "independent_checks": 4824,
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "preregistration_commit": "0c139b1c",
+  "production_checks": 4690,
+  "semantic_regression_catches": 6,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/REPAIR_FOLLOWUP_REQUEST.md" in /
+ succeeded in 0ms:
+# G312 repair-only external follow-up request
+
+Date: 2026-09-01
+
+## Bounded task
+
+Verify only preregistered repair R1 and the unchanged bounded G312 scientific landing.
+
+1. Confirm `build_review_intake.py` is present in the repaired sealed package.
+2. In a writable ephemeral copy, run `python3 -S package/verify_package.py` without repository or
+   network access beyond the Codex API transport needed to launch the reviewer.
+3. Confirm the replay returns 4,690 production checks, 4,824 independent checks, six semantic
+   regression catches, and the unchanged landing
+   `TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED`.
+4. Confirm no scientific evidence, premise grade, witness, or conclusion changed during repair.
+
+Return one exact verdict:
+
+- `G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY`
+- `G312_REPAIR_INCOMPLETE__LANDING_RETAINED`
+- `G312_REPAIR_CHANGED_SCIENCE`
+- `G312_FOLLOWUP_INCOMPLETE`
+
+Do not edit evidence files, change the scientific question, adopt either premise, or continue the
+research.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/INDEPENDENT_VERIFICATION.json" in /
+ succeeded in 0ms:
+{
+  "checks": 4824,
+  "conditional_result": "FULL_QUIET_GR_PRINCIPAL_OVERLAP_PLUS_LOCAL_FINITE_JET_RESPONSE_CLOSES_G301_WITH_EXISTING_NO_SCALE_AND_REGULARITY_GATES",
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "production_imported": false,
+  "production_result_read": false,
+  "separation_witnesses": {
+    "gr_principal_but_not_local": "SCALE_FREE_NONLOCAL_METRIC_HISTORY",
+    "local_but_not_gr_principal": "PURE_CURVATURE_QUADRATIC"
+  },
+  "status": "PASS"
+}
+
+codex
+The preregistration matches the user’s bounded task exactly. I’m now checking the repair ancestry and the sealed manifests so I can verify the repair added only the builder and did not alter the scientific payload.
+exec
+/bin/bash -c "sed -n '1,260p' /intake/package/REPAIR_ANCESTRY.md" in /
+ succeeded in 0ms:
+# G312 repair ancestry
+
+Date: 2026-09-01
+
+- Original preregistration commit: `0c139b1c`
+- External-review and repair-preregistration commit: `8175b112`
+- Repair scope: add `build_review_intake.py` to its own sealed package-file tuple.
+- Scientific landing retained:
+  `TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED`.
+
+The repair changes no derivation, premise grade, witness, metric, kernel, or scientific conclusion.
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/REVIEW_MANIFEST.tsv" in /
+ succeeded in 0ms:
+path	bytes	sha256
+CURRENT_SCIENTIFIC_PREMISES.tsv	597326	6cfb061d39f473880cf129472bfc9d85f6b924b3afc486d75614244f7f09ca54
+REVIEW_SCOPE.json	1131	e7225205736bab013b46537a4aadd3ef7c33e4e283fec0aa9a597d07ee9dfacf
+package/CATCH_PROOF_RESULT.json	542	47d17e959bedd8456da7a53ac684dce43e15e46d59044f77c88211ea0e6ee55d
+package/DERIVATION_RESULT.json	514	65752f5bf6d81cd3b90c73757c517c48eaa854529114f3c449582bbd1bc3dee6
+package/EVIDENCE_GATES.md	823	33e270cc74d3737bd892d4e46e09745db3cf6cb0f130acaacd325fdaae583f07
+package/EXACT_DERIVATION.md	5965	5baa220d25730a57cf2c2f1b49ee17ab7427b55496060ba9c7904a903cda285b
+package/EXTERNAL_REVIEW_REQUEST.md	1755	309391c64dbf4e22ad75ed3df26e51b00e4cbdebb1d8559d33431022dbcf1c88
+package/EXTERNAL_REVIEW_RESPONSE.md	3746	8bffb36acbae9f23320f5df7e399fa92ace465d9763dabe6b3c3c71b8ef791a1
+package/EXTERNAL_REVIEW_TRANSMISSION.md	1422	e9216d4287bec43b21f3145f47340f6206cd442b559f92ef29b6ab456966f09c
+package/INDEPENDENT_VERIFICATION.json	486	d080993d7b1c30fc9a9a472d317ab583193297e5dc80dbccdd4292b9aa2abfd0
+package/LAY_REPORT.md	1751	ad096060cae69a40ebb6ed3a760ff22f8deb0df37b8027cfa42cb88fec0cb863
+package/MAP.md	1411	ab1f90df4331c6f1a5c9e92b5fa11d22a3f3da31b90492520217a33e9c8c3e4c
+package/PACKAGE_VERIFICATION_RESULT.json	257	ba0cc004fb30616e034be06a5a14d9f21d9acad72e67b90fae74ca74c1544a05
+package/PONDER.md	1239	f587a9f11783f77c1a7baad358bee93bf9729bd008d1f9df6db9de688117e50d
+package/PREMISE_LEDGER.tsv	1059	a28690ec6e0bf61c6e25ce74e175a2220ac480dda2c795dcd0ccfac272e421a3
+package/PREREGISTRATION.md	4044	d6ed70118d10710557c6c79acc18def3216126674c75c94d91f423fc8d28b027
+package/PREREGISTRATION_ANCESTRY.md	410	d10d6491aec56ef6130ee6853e1fc3830e3f4ef33aa81fdae9d1161cd09f8c5e
+package/REPAIR_ANCESTRY.md	422	f786a89df8b7bd89d11e66c1fdd424106a4283b3e2f6a0c1b648623bd2d223eb
+package/REPAIR_FOLLOWUP_REQUEST.md	1009	85fe638636cdb90f5ee3161afed968d4dab61ac5bd36bc095bd4c1021ebfcb27
+package/REPAIR_PREREGISTRATION.md	1284	29caf03565f0eb575bc4c81934b6cd1b9c16448a895cdc5c8979507000e8b2b2
+package/RUN_RECORD.md	472	dd2970819d91143a2393d13f9b32f54a8ca17df34a4ac762293b7676648d8b05
+package/SOURCE_SCOPE.tsv	965	743bda8760d26c20b170d3d9a3a0a2f1eb45557c7a9d25e8b04793b7793a6dd1
+package/STATUS_LEDGER.tsv	831	02cc354498a126cb3acda8cb684428176058230b7ae9ba055e12324d26870cfa
+package/build_repair_followup_intake.py	4709	a3257214b84f89f9097cc40757618b6bc1acaeafd814cea9baa25064a214d655
+package/build_review_intake.py	3532	3601082549c2a700e15a06ae11eaadda87d01a23f5c3f6eb9410c98b9bed1e25
+package/derive_response_constitution.py	10033	5186378a22db7991e2b90f0ca650a11f88c76056a9742bd59356c732beb48f97
+package/run_catch_proofs.py	1812	44acadf9271cf89ba5fb53b48d1dbefc1489704ae5b4d8b53ffc81c0d892ce54
+package/verify_package.py	3250	7b686962c03da86a2c1203356bd91cba45abf32acf1a2fa9b5e1fa85e18d4053
+package/verify_response_constitution_independent.py	5418	ec589f766b680ca93c4aadbc01e2077878811c949e9b7b32a6b14cccd9d65543
+sources/CURRENT_SCIENTIFIC_PREMISES.tsv	597326	6cfb061d39f473880cf129472bfc9d85f6b924b3afc486d75614244f7f09ca54
+sources/udt_g257_gr_quiet_limit_embedding_audit_2026-08-25/AUDIT_REPORT.md	3346	ad4135a3d4dd52bb6c1229695b341957a1066659e00beffd737b7fa2b0c0e82c
+sources/udt_g259_metric_only_parent_operator_fork_classification_2026-08-25/AUDIT_REPORT.md	3954	34b122ada58931f422261f4c2d0cd941cc1f04c3afa77e25e93dad0eef61c8e6
+sources/udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/AUDIT_REPORT.md	2856	a28ee2332cf3e14e619c0c332339079605ca81e566d7513b0caa2e29af67d102
+sources/udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md	2336	25448d5586d268cfec20b403ff77b6d344903b5d9974fb3376900cba0578c125
+sources/udt_g296_complete_metric_native_residual_order_map_2026-08-29/AUDIT_REPORT.md	3355	0e443bfb9b947acaf2933b66af3c73ca20146016abd180d4ff424591f7851af7
+sources/udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md	3524	f2197ee7a23a88017a9ac970f9a187a13113cf0bbcc1dcbd493588e9c53a1c5f
+sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md	1871	e4adabc1e862423cc68297305ed51903107feac135497d33f26f230f6a192fe6
+sources/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md	2259	a411de5e2e40982c4f9c8107bd6d3a598dd55056924d4bc3d39d93f8db89e578
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/REVIEW_SCOPE.json" in /
+ succeeded in 0ms:
+{
+  "allowed": [
+    "inspect intake",
+    "run registered checks in writable ephemeral copy"
+  ],
+  "forbidden": [
+    "edit evidence",
+    "continue research",
+    "change scientific question or landing",
+    "access repository or protected packages",
+    "use internet or unsealed observations",
+    "adopt either premise or select history scale source action matter model or X_max"
+  ],
+  "mode": "read-only repair-only follow-up review",
+  "question": "G312 R1 intake-self-containment repair-only follow-up",
+  "repair": "R1_intake_self_contained_aggregate_replay",
+  "required_verdicts": [
+    "G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY",
+    "G312_REPAIR_INCOMPLETE__LANDING_RETAINED",
+    "G312_REPAIR_CHANGED_SCIENCE",
+    "G312_FOLLOWUP_INCOMPLETE"
+  ],
+  "retained_landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "sealed_replay": {
+    "external_review": "REQUIRED",
+    "independent_checks": 4824,
+    "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+    "preregistration_commit": "0c139b1c",
+    "production_checks": 4690,
+    "semantic_regression_catches": 6,
+    "status": "PASS"
+  }
+}
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/package/EXTERNAL_REVIEW_RESPONSE.md" in /
+ succeeded in 0ms:
+`G312_REPAIRABLE_DEFECTS__LANDING_RETAINED`
+
+**Findings**
+- Medium: the aggregate package verifier is not reproducible from the sealed intake. [verify_package.py](/intake/package/verify_package.py:55) requires `build_review_intake.py`, but that file is absent from the intake, so a fresh `/work` replay of `python3 -S verify_package.py` fails immediately even though [PACKAGE_VERIFICATION_RESULT.json](/intake/package/PACKAGE_VERIFICATION_RESULT.json:8) records `PASS`. Repair scope: either include the sealed `build_review_intake.py` in the intake, or remove it from the verifier’s required manifest if it is not actually part of the registered package, then rerun the aggregate verifier and regenerate [PACKAGE_VERIFICATION_RESULT.json](/intake/package/PACKAGE_VERIFICATION_RESULT.json:1). This is a packaging/reproducibility defect, not a scientific refutation; the three registered scientific replays in [RUN_RECORD.md](/intake/package/RUN_RECORD.md:12) did pass in `/work`.
+
+**Assessment**
+- `TF_g(a Ric+bRg)=aS` is exact, and concluding `S=0` requires `a != 0`; that matches the bounded G301/G311 lane [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:33), [udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md](/intake/sources/udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md:22).
+- The pure quadratic witness does what G312 claims: it contains every Ricci-flat solution but has vanishing flat first variation, so solution overlap does not imply full quiet GR principal overlap [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:81).
+- The scale-free nonlocal metric-only witness is dimensionally consistent, preserves Ricci-flat metrics and the quiet principal germ, and still needs Green/boundary/history carry, so GR-principal overlap does not imply locality [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:118).
+- Those two witnesses are enough to separate the two open clauses as logically independent in the bounded architecture space [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:143). I found no regular local metric-only no-scale extra-carry-free competitor outside G301 within sealed scope; G296’s order boundary and G301’s scale-free regularity argument block the obvious higher-order and ratio constructions [udt_g296_complete_metric_native_residual_order_map_2026-08-29/AUDIT_REPORT.md](/intake/sources/udt_g296_complete_metric_native_residual_order_map_2026-08-29/AUDIT_REPORT.md:18), [udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md](/intake/sources/udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/AUDIT_REPORT.md:18).
+- Premise ownership is handled correctly: W3 remains only bounded solution overlap [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:4), locality remains unowned [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:10), the full quiet GR germ remains unowned [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:11), and G311 still leaves response constitution open [udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md](/intake/sources/udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md:23).
+- In `/work`, I reproduced the registered outputs: 4,690 production checks [DERIVATION_RESULT.json](/intake/package/DERIVATION_RESULT.json:3), 4,824 dependency-free independent checks [INDEPENDENT_VERIFICATION.json](/intake/package/INDEPENDENT_VERIFICATION.json:2), and 6/6 semantic catches explicitly graded as regression evidence rather than independent confirmation [CATCH_PROOF_RESULT.json](/intake/package/CATCH_PROOF_RESULT.json:11).
+codex
+The sealed response already records the prior defect and states the intended repair scope. I’m reading the verifier itself now, then I’ll replay it from a copied intake under `/work` so the result is fresh rather than inherited.
+exec
+/bin/bash -c "sed -n '1,260p' /intake/package/verify_package.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Dependency-free aggregate verifier for the G312 package."""
+
+from __future__ import annotations
+
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+LANDING = "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED"
+
+
+def run(name):
+    completed = subprocess.run(
+        [sys.executable, "-S", str(HERE / name)],
+        cwd=HERE,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    if completed.returncode:
+        raise SystemExit(f"{name} failed: {completed.stderr}")
+    return json.loads(completed.stdout)
+
+
+def saved(name):
+    return json.loads((HERE / name).read_text(encoding="utf-8"))
+
+
+def main():
+    required = (
+        "MAP.md",
+        "PONDER.md",
+        "PREREGISTRATION.md",
+        "PREREGISTRATION_ANCESTRY.md",
+        "PREMISE_LEDGER.tsv",
+        "SOURCE_SCOPE.tsv",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "EVIDENCE_GATES.md",
+        "RUN_RECORD.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+        "derive_response_constitution.py",
+        "verify_response_constitution_independent.py",
+        "run_catch_proofs.py",
+        "EXTERNAL_REVIEW_REQUEST.md",
+        "build_review_intake.py",
+    )
+    for name in required:
+        if not (HERE / name).is_file():
+            raise SystemExit(f"missing required file: {name}")
+
+    production = run("derive_response_constitution.py")
+    independent = run("verify_response_constitution_independent.py")
+    catches = run("run_catch_proofs.py")
+    production_saved = saved("DERIVATION_RESULT.json")
+    independent_saved = saved("INDEPENDENT_VERIFICATION.json")
+    catches_saved = saved("CATCH_PROOF_RESULT.json")
+
+    assert production["status"] == independent["status"] == catches["status"] == "PASS"
+    assert production["landing"] == independent["landing"] == LANDING
+    assert production["exact_checks"] == production_saved["exact_checks"] == 4690
+    assert production["landing"] == production_saved["landing"]
+    assert production["ownership_result"]["not_owned"] == production_saved["not_owned"]
+    assert independent == independent_saved
+    assert catches == catches_saved
+    assert independent["production_imported"] is False
+    assert independent["production_result_read"] is False
+    assert catches["grade"] == "SEMANTIC_REGRESSION_CATCHES_NOT_INDEPENDENT_CONFIRMATION"
+    assert "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED" in (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    assert "The metric and reciprocal kernel were not changed." in (HERE / "LAY_REPORT.md").read_text(encoding="utf-8")
+
+    result = {
+        "status": "PASS",
+        "landing": LANDING,
+        "production_checks": production["exact_checks"],
+        "independent_checks": independent["checks"],
+        "semantic_regression_catches": catches["catch_count"],
+        "preregistration_commit": "0c139b1c",
+        "external_review": "REQUIRED",
+    }
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,240p' /intake/package/build_review_intake.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Build a sealed, self-contained G312 external-review intake under /tmp."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import shutil
+import tempfile
+from pathlib import Path
+
+
+PACKAGE = Path(__file__).resolve().parent
+ROOT = PACKAGE.parent
+
+PACKAGE_FILES = (
+    "MAP.md",
+    "PONDER.md",
+    "PREREGISTRATION.md",
+    "PREREGISTRATION_ANCESTRY.md",
+    "PREMISE_LEDGER.tsv",
+    "SOURCE_SCOPE.tsv",
+    "EXACT_DERIVATION.md",
+    "LAY_REPORT.md",
+    "STATUS_LEDGER.tsv",
+    "EVIDENCE_GATES.md",
+    "RUN_RECORD.md",
+    "DERIVATION_RESULT.json",
+    "INDEPENDENT_VERIFICATION.json",
+    "CATCH_PROOF_RESULT.json",
+    "PACKAGE_VERIFICATION_RESULT.json",
+    "derive_response_constitution.py",
+    "verify_response_constitution_independent.py",
+    "run_catch_proofs.py",
+    "verify_package.py",
+    "EXTERNAL_REVIEW_REQUEST.md",
+    "build_review_intake.py",
+)
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main():
+    intake = Path(tempfile.mkdtemp(prefix="udt_g312_review_", dir="/tmp"))
+    package_target = intake / "package"
+    package_target.mkdir()
+    for name in PACKAGE_FILES:
+        shutil.copy2(PACKAGE / name, package_target / name)
+
+    sources_target = intake / "sources"
+    for row in csv.DictReader((PACKAGE / "SOURCE_SCOPE.tsv").open(encoding="utf-8", newline=""), delimiter="\t"):
+        source = ROOT / row["path"]
+        target = sources_target / row["path"]
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+        if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            shutil.copy2(source, intake / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+
+    scope = {
+        "question": "G312 quiet-GR response-constitution ownership discriminator",
+        "mode": "fresh read-only adversarial review",
+        "allowed": ["inspect intake", "run checks in writable ephemeral copy"],
+        "forbidden": [
+            "edit evidence",
+            "continue research",
+            "access repository or protected packages",
+            "use unsealed observations",
+            "adopt a postulate or select a history scale source action matter model or X_max",
+        ],
+        "required_verdicts": [
+            "G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY",
+            "G312_REPAIRABLE_DEFECTS__LANDING_RETAINED",
+            "G312_SCIENTIFIC_LANDING_REFUTED",
+            "G312_REVIEW_INCOMPLETE",
+        ],
+    }
+    (intake / "REVIEW_SCOPE.json").write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    payloads = sorted(path for path in intake.rglob("*") if path.is_file())
+    manifest = intake / "REVIEW_MANIFEST.tsv"
+    with manifest.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
+        writer.writerow(("path", "bytes", "sha256"))
+        for path in payloads:
+            writer.writerow((path.relative_to(intake).as_posix(), path.stat().st_size, digest(path)))
+    seal = intake / "REVIEW_MANIFEST.sha256"
+    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+    print(json.dumps({
+        "intake": str(intake),
+        "payloads": len(payloads),
+        "total_files": len(payloads) + 2,
+        "scope_sha256": digest(intake / "REVIEW_SCOPE.json"),
+        "manifest_sha256": digest(manifest),
+        "detached_seal_sha256": digest(seal),
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/RUN_RECORD.md" in /
+ succeeded in 0ms:
+# G312 run record
+
+Date: 2026-09-01
+Device: CPU
+Arithmetic: Python standard-library exact `Fraction`
+GPU: not used
+Long solve: none
+
+Commands:
+
+```bash
+python3 -S derive_response_constitution.py
+python3 -S verify_response_constitution_independent.py
+python3 -S run_catch_proofs.py
+```
+
+Results:
+
+- production: 4,690 exact checks;
+- independent: 4,824 exact checks;
+- semantic regression catches: 6/6;
+- common landing: `TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED`.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/CATCH_PROOF_RESULT.json" in /
+ succeeded in 0ms:
+{
+  "catch_count": 6,
+  "caught": {
+    "g301_owned": "G301 class assumptions promoted",
+    "mixed_has_no_length": "hidden length coefficient erased",
+    "nonlocal_has_no_carry": "nonlocal Green/boundary carry erased",
+    "quadratic_has_gr_principal": "solution overlap conflated with principal overlap",
+    "ratio_quiet_regular": "quiet singularity erased",
+    "shape_equals_constitution": "G311 response shape promoted into constitution"
+  },
+  "grade": "SEMANTIC_REGRESSION_CATCHES_NOT_INDEPENDENT_CONFIRMATION",
+  "status": "PASS"
+}
+
+codex
+I’ve verified the aggregate script is self-contained and only shells into the other sealed package scripts. I’m making the ephemeral copy now and will replay `verify_package.py` there, then I’ll cross-check the science-facing outputs and ledgers against what the sealed repair ancestry claims was unchanged.
+2026-09-01T14:06:39.825407Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -c 'rm -rf /work/g312_followup && mkdir -p /work && cp -a /intake /work/g312_followup && python3 -S /work/g312_followup/package/verify_package.py'`: CreateProcess { message: "Rejected(\"`/bin/bash -c 'rm -rf /work/g312_followup && mkdir -p /work && cp -a /intake /work/g312_followup && python3 -S /work/g312_followup/package/verify_package.py'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/PREMISE_LEDGER.tsv" in /
+ succeeded in 0ms:
+id	grade	role	unowned_or_forbidden
+UR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	all admissible pair responses remain reciprocal	not canon
+G311	DERIVED_CONDITIONAL_ON_UR	TF_g(E)=0 for a supplied symmetric response	response constitution and trace
+W3	WORKING_POSIT	UDT reduces to GR in the quiet regime	currently proven only as bounded solution overlap
+W4_G296	WORKING_PLUS_DERIVED_BOUNDED	complete metric is the faithful primitive state	response formula
+G301	DERIVED_CONDITIONAL_CLASSIFICATION	regular scale-free local curvature response basis and two classes	class-assumption ownership
+CE	OBSERVED	clock/ruler calibration	no vacuum length by itself
+GOBS	OBSERVED	gravitational anchor	requires mass/source attachment to form length
+XMAX	OPEN	possible global completion scale	forbidden as response input
+LOCALITY	FREE_AND_EXPLORED	local finite-jet response	ownership
+FULL_QUIET_GR_GERM	FREE_AND_EXPLORED	nondegenerate GR principal response and regular germ	ownership
+OBSERVATIONS_SOURCE_ACTION_MATTER	OMITTED	none	not imported
+PROTECTED_WORK	OMITTED	none	not accessed
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/DERIVATION_RESULT.json" in /
+ succeeded in 0ms:
+{
+  "conditional_closure": "IF_BOTH_MISSING_PREMISES_ARE_ADOPTED__G301_MEMBERSHIP_AND_G311_GIVE_TRACEFREE_RICCI",
+  "exact_checks": 4690,
+  "g311_on_g301": "TF_g(a_Ric+b_R_g)=a_S__A_NONZERO_GIVES_TRACEFREE_RICCI",
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "metric_kernel_changed": false,
+  "not_owned": [
+    "FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP",
+    "LOCAL_FINITE_JET_RESPONSE_CONSTITUTION"
+  ],
+  "observations_used": false,
+  "protected_inputs_used": false,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/LAY_REPORT.md" in /
+ succeeded in 0ms:
+# G312 lay report
+
+We found the next gap, and it is much smaller than “we need an unknown field equation.”
+
+The present record proves that familiar GR vacuum shapes fit inside UDT. That is like proving a car
+can sit on a road. It does not yet prove that, when nudged, the car accelerates and steers exactly as
+GR predicts. A curvature-squared rule can accept all the same parked GR solutions while having the
+wrong small-disturbance behavior. So the intended claim “UDT becomes GR in the quiet regime” must
+explicitly include GR's local dynamical response, not only shared solutions.
+
+Even after making that clarification, a second choice remains. A law can use only the metric and
+respect the light cones while still remembering a whole earlier region through a retarded global
+calculation. That would match GR locally near quiet conditions but would not be a local equation.
+Nothing currently says UDT must reject such history-dependent laws; co-presence makes that question
+particularly real rather than merely technical.
+
+If Charles provisionally supplies both statements—full quiet dynamical GR overlap and a local
+finite-jet vacuum response—then the remaining freedom collapses to the already classified G301
+family. Universal Reciprocity immediately reduces that family to the trace-free Ricci equation.
+No fitting or new coefficient is needed for that closure.
+
+So G312 is progress, but not an automatic field-law derivation. It replaces a vague missing-law
+problem with two plain questions:
+
+1. Does “UDT reduces to GR” mean the full local dynamics, not merely shared GR solutions?
+2. Must the UDT metric response be local, or may causal co-presence carry nonlocal history?
+
+The metric and reciprocal kernel were not changed.
+
+codex
+The first replay attempt was blocked only because the shell wrapper used `rm -rf` under `/work`. I’m switching to a fresh unique directory so the replay stays non-destructive.
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/EXACT_DERIVATION.md" in /
+ succeeded in 0ms:
+# G312 exact derivation — quiet-GR response-constitution discriminator
+
+Date: 2026-09-01
+Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_REQUIRED`
+
+## 1. Landing
+
+```text
+TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED
+```
+
+This is not a return to an unrestricted formula search. Existing UDT structure leaves exactly two
+independent architecture choices load-bearing in this bounded lane:
+
+1. `FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP`;
+2. `LOCAL_FINITE_JET_RESPONSE_CONSTITUTION`.
+
+If both are provisionally supplied, the active no-new-operator-scale, quiet-regular, metric-only
+gates close the response to G301, and G311 then gives trace-free Ricci. Neither clause is currently
+derived or owner-adopted in that strengthened form.
+
+## 2. What G311 already fixes
+
+Inside G301, a natural response has
+
+\[
+E_{ab}=aR_{ab}+bR g_{ab}.
+\]
+
+Its trace-free part is exactly
+
+\[
+\operatorname{TF}_g(E)_{ab}
+=a\left(R_{ab}-\frac14R g_{ab}\right)=aS_{ab}.
+\]
+
+For the nondegenerate quiet-GR branch, \(a\ne0\). Universal Reciprocity therefore yields
+
+\[
+S_{ab}=0.
+\]
+
+The coefficient \(b\) is irrelevant to this response-shape equation. The unresolved issue is not
+which coefficient in G301 to fit; it is whether the physical response belongs to G301 at all.
+
+The production census verifies this identity on 128 exact rational symmetric tensors and arbitrary
+rational \((a,b)\), totaling 2,048 component identities. The independent flattened-tensor census
+checks 1,920 more identities with a different representation.
+
+## 3. Why the G301 ray theorem is exact
+
+Let \(K\) be algebraic curvature and \(F(K)\) the response. If
+
+\[
+F(tK)=tF(K),\qquad t>0,
+\]
+
+and \(F\) is differentiable at the quiet origin with \(F(0)=0\), then
+
+\[
+DF_0(K)=\lim_{t\to0^+}\frac{F(tK)-F(0)}t=F(K).
+\]
+
+Thus \(F=DF_0\) and is exactly linear in curvature. G301's externally certified Lorentz-natural
+basis census then leaves only \(R_{ab}\) and \(Rg_{ab}\).
+
+The quiet differentiability assumption matters. A nonlinear degree-one direction map such as
+
+\[
+H(x,y)=\frac{(x^3,y^3)}{x^2+y^2}
+\]
+
+is scale-free away from zero, but its directional derivatives are not additive and it is undefined
+at the quiet origin.
+
+## 4. Solution overlap is weaker than GR response overlap
+
+Consider the regular local curvature-quadratic response
+
+\[
+Q_{ab}=\operatorname{TF}_g\!\left(R_{ac}R_b{}^c\right).
+\]
+
+Every Ricci-flat GR metric satisfies \(Q_{ab}=0\). Hence it passes **solution overlap**. But
+
+\[
+Q[tR]=t^2Q[R],
+\]
+
+so its first variation at flat curvature vanishes. It has no GR quiet principal operator. Exact
+rational production and independent witnesses verify both facts.
+
+Therefore the current bounded W3 result—exact embedding of a GR vacuum branch—does not by itself
+own the complete GR quiet response germ. Charles's intended phrase “indistinguishable from GR at
+lab and solar scales” may motivate that strengthening, but it has not yet been formally adopted in
+this exact dynamical sense.
+
+## 5. Why no operator scale removes regular local corrections
+
+The GR-leading response has dimension \(L^{-2}\). A curvature polynomial of degree \(n>1\) has
+dimension \(L^{-2n}\), so adding it to the GR-leading term requires a coefficient with dimension
+
+\[
+L^{2(n-1)}.
+\]
+
+Neither \(c_E\) alone nor \(G_{\rm obs}\) without a source/mass attachment supplies that vacuum
+length. Physical \(X_{\max}\) remains open and is forbidden as an operator input. Curvature ratios
+can restore weight one without a new scale, but they are singular or nondifferentiable at the
+quiet origin. Consequently, **within a local finite-jet regular response**, full GR quiet-principal
+overlap plus the active no-scale gate closes the response to G301.
+
+## 6. Why locality is independent
+
+There are metric-only, scale-free, quiet-regular nonlocal competitors. A representative type is
+
+\[
+u=\Box^{-2}(R_{ab}R^{ab}),
+\qquad
+E_{ab}=S_{ab}+\alpha\,\operatorname{TF}_g(\nabla_a u\nabla_b u).
+\]
+
+Here \(u\) is dimensionless and the correction again has dimension \(L^{-2}\). With a retarded
+zero-source prescription it vanishes on Ricci-flat metrics and begins beyond first quiet order, so
+the GR quiet principal response survives. But \(\Box^{-2}\) requires a Green function plus
+boundary/history data. Two exact discrete histories with identical final local source data give
+different terminal integrated carry in both implementations.
+
+This is a counterarchitecture, not a proposed UDT law. It proves that GR principal overlap does not
+imply locality. Metric causality also does not settle the issue: a retarded nonlocal response can be
+causal while retaining history dependence. The non-signalling co-presence frame makes it especially
+important not to assume locality by habit.
+
+## 7. Independence and smallest honest closure
+
+The two witnesses separate the choices:
+
+| Witness | Local | GR solution overlap | GR principal overlap |
+|---|---:|---:|---:|
+| Pure curvature quadratic | yes | yes | no |
+| Scale-free nonlocal metric history | no | yes | yes |
+
+Thus neither missing clause entails the other. A sentence that simply conjoins them is one written
+sentence but two logically independent premises.
+
+The exact conditional theorem is:
+
+> If the vacuum UDT response is a regular local finite-jet natural response of the complete metric,
+> has the full GR quiet principal germ, and carries no independent operator scale, then it lies in
+> G301; owner-adopted Universal Reciprocity then gives \(R_{ab}-\tfrac14Rg_{ab}=0\).
+
+## 8. What remains open
+
+- whether Charles intends W3 to include full quiet dynamical/principal equivalence;
+- whether UDT response locality is a postulate, derivable from causal reciprocity, or intentionally
+  relaxed by co-presence;
+- the connected scalar's magnitude/sign, lawful data, global history, population, source/mass,
+  observations, completion, and physical \(X_{\max}\).
+
+No metric, reciprocal kernel, angular cancellation, or observational interface changed.
+
+exec
+/bin/bash -c 'tmpdir=$(mktemp -d /work/g312_followup.XXXXXX) && cp -a /intake/. "$tmpdir" && python3 -S "$tmpdir/package/verify_package.py"' in /
+ succeeded in 155ms:
+{
+  "external_review": "REQUIRED",
+  "independent_checks": 4824,
+  "landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+  "preregistration_commit": "0c139b1c",
+  "production_checks": 4690,
+  "semantic_regression_catches": 6,
+  "status": "PASS"
+}
+
+codex
+The replay succeeded in `/work` and returned the registered `PASS` tuple verbatim. I’m doing one last pass on the repair packager and the scientific ledgers so the final verdict is grounded in both the fresh replay and the sealed ancestry claims.
+exec
+/bin/bash -c "sed -n '1,260p' /intake/package/build_repair_followup_intake.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Build the sealed self-contained G312 R1 repair-only follow-up intake."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+PACKAGE = Path(__file__).resolve().parent
+ROOT = PACKAGE.parent
+PACKAGE_FILES = (
+    "CATCH_PROOF_RESULT.json",
+    "DERIVATION_RESULT.json",
+    "EVIDENCE_GATES.md",
+    "EXACT_DERIVATION.md",
+    "EXTERNAL_REVIEW_REQUEST.md",
+    "EXTERNAL_REVIEW_RESPONSE.md",
+    "EXTERNAL_REVIEW_TRANSMISSION.md",
+    "INDEPENDENT_VERIFICATION.json",
+    "LAY_REPORT.md",
+    "MAP.md",
+    "PACKAGE_VERIFICATION_RESULT.json",
+    "PONDER.md",
+    "PREMISE_LEDGER.tsv",
+    "PREREGISTRATION.md",
+    "PREREGISTRATION_ANCESTRY.md",
+    "REPAIR_ANCESTRY.md",
+    "REPAIR_FOLLOWUP_REQUEST.md",
+    "REPAIR_PREREGISTRATION.md",
+    "RUN_RECORD.md",
+    "SOURCE_SCOPE.tsv",
+    "STATUS_LEDGER.tsv",
+    "build_repair_followup_intake.py",
+    "build_review_intake.py",
+    "derive_response_constitution.py",
+    "run_catch_proofs.py",
+    "verify_package.py",
+    "verify_response_constitution_independent.py",
+)
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main() -> None:
+    intake = Path(tempfile.mkdtemp(prefix="udt_g312_repair_followup_", dir="/tmp"))
+    package_target = intake / "package"
+    package_target.mkdir()
+    for name in PACKAGE_FILES:
+        source = PACKAGE / name
+        if not source.is_file():
+            raise SystemExit(f"missing package file: {source}")
+        shutil.copy2(source, package_target / name)
+
+    sources_target = intake / "sources"
+    for row in csv.DictReader(
+        (PACKAGE / "SOURCE_SCOPE.tsv").open(encoding="utf-8", newline=""), delimiter="\t"
+    ):
+        source = ROOT / row["path"]
+        target = sources_target / row["path"]
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+        if row["path"] == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            shutil.copy2(source, intake / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+
+    replay = subprocess.run(
+        [sys.executable, "-S", str(package_target / "verify_package.py")],
+        cwd=package_target,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    if replay.returncode:
+        raise SystemExit(f"sealed aggregate replay failed: {replay.stderr}")
+    replay_result = json.loads(replay.stdout)
+
+    scope = {
+        "question": "G312 R1 intake-self-containment repair-only follow-up",
+        "mode": "read-only repair-only follow-up review",
+        "repair": "R1_intake_self_contained_aggregate_replay",
+        "retained_landing": "TWO_OR_MORE_INDEPENDENT_NEW_PREMISES_ARE_REQUIRED",
+        "sealed_replay": replay_result,
+        "allowed": ["inspect intake", "run registered checks in writable ephemeral copy"],
+        "forbidden": [
+            "edit evidence",
+            "continue research",
+            "change scientific question or landing",
+            "access repository or protected packages",
+            "use internet or unsealed observations",
+            "adopt either premise or select history scale source action matter model or X_max",
+        ],
+        "required_verdicts": [
+            "G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY",
+            "G312_REPAIR_INCOMPLETE__LANDING_RETAINED",
+            "G312_REPAIR_CHANGED_SCIENCE",
+            "G312_FOLLOWUP_INCOMPLETE",
+        ],
+    }
+    (intake / "REVIEW_SCOPE.json").write_text(
+        json.dumps(scope, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+
+    payloads = sorted(path for path in intake.rglob("*") if path.is_file())
+    manifest = intake / "REVIEW_MANIFEST.tsv"
+    with manifest.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.writer(stream, delimiter="\t", lineterminator="\n")
+        writer.writerow(("path", "bytes", "sha256"))
+        for path in payloads:
+            writer.writerow((path.relative_to(intake).as_posix(), path.stat().st_size, digest(path)))
+    seal = intake / "REVIEW_MANIFEST.sha256"
+    seal.write_text(f"{digest(manifest)}  REVIEW_MANIFEST.tsv\n", encoding="utf-8")
+    print(
+        json.dumps(
+            {
+                "intake": str(intake),
+                "payloads": len(payloads),
+                "total_files": len(payloads) + 2,
+                "scope_sha256": digest(intake / "REVIEW_SCOPE.json"),
+                "manifest_sha256": digest(manifest),
+                "detached_seal_sha256": digest(seal),
+            },
+            indent=2,
+            sort_keys=True,
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/STATUS_LEDGER.tsv" in /
+ succeeded in 0ms:
+object	status	maximum_statement
+Universal_Reciprocity	OWNER_ADOPTED_PROVISIONAL_POSTULATE	response shape must remain reciprocal
+G311_response_shape	DERIVED_CONDITIONAL_ON_POSTULATE	TF_g(E)=0 for supplied symmetric E
+G301_classification	DERIVED_CONDITIONAL	regular local weight-one curvature response is a Ricci+bRg
+G312_G311_on_G301	DERIVED_CONDITIONAL	TF_g(aRic+bRg)=aS; a nonzero gives S=0
+W3_solution_overlap	WORKING_POSIT_BOUNDEDLY_VERIFIED	GR vacuum branch embeds
+full_quiet_GR_principal_overlap	OPEN_OWNER_CLARIFICATION	not supplied by solution overlap alone
+local_finite_jet_response	OPEN_PREMISE	independent of quiet principal overlap
+conditional_G301_closure	VERIFIED_WITH_CAVEATS	requires both open premises
+global_history_scale_population	OPEN	no selection or calibration
+metric_kernel_angular	UNCHANGED	no modification
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/PREREGISTRATION_ANCESTRY.md" in /
+ succeeded in 0ms:
+# G312 preregistration ancestry
+
+The outcome-blind G312 files were committed and pushed at `0c139b1c` before any executable
+derivation or result artifact existed. That commit added only:
+
+- `MAP.md`
+- `PONDER.md`
+- `PREREGISTRATION.md`
+- `PREMISE_LEDGER.tsv`
+- `SOURCE_SCOPE.tsv`
+
+The registered landing set and falsification contract therefore predate all production,
+independent, and hostile-check outcomes.
+
+codex
+G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY
+tokens used
+25,250
+
+Script done on 2026-09-01 10:07:01-04:00 [COMMAND_EXIT_CODE="0"]

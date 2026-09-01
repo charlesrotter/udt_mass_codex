@@ -1,7 +1,7 @@
 # G312 exact derivation — quiet-GR response-constitution discriminator
 
 Date: 2026-09-01
-Status: `INTERNALLY_VERIFIED_WITH_CAVEATS__FRESH_EXTERNAL_REVIEW_REQUIRED`
+Status: `EXTERNALLY_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY`
 
 ## 1. Landing
 
@@ -158,3 +158,7 @@ The exact conditional theorem is:
   observations, completion, and physical \(X_{\max}\).
 
 No metric, reciprocal kernel, angular cancellation, or observational interface changed.
+
+Fresh external review independently retained the mathematics and premise ownership. After the
+single preregistered sealed-layout repair, the repair-only reviewer reproduced the aggregate replay
+and returned `G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY`.

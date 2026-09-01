@@ -26,3 +26,6 @@ problem with two plain questions:
 2. Must the UDT metric response be local, or may causal co-presence carry nonlocal history?
 
 The metric and reciprocal kernel were not changed.
+
+Fresh external review agreed. After one packaging-only repair, the sealed package replayed from an
+empty temporary directory and G312 was accepted with this exact two-premise boundary.
