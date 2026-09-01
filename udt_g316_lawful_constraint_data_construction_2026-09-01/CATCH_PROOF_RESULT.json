@@ -1,0 +1,89 @@
+{
+  "schema": "udt-g316-catch-v1",
+  "status": "PASS",
+  "baseline_accepted": true,
+  "mutation_count": 16,
+  "caught_count": 16,
+  "records": [
+    {
+      "mutation": "wrong_metric_power",
+      "caught": true,
+      "message": "G316 guard rejected metric_power: 2 != 4"
+    },
+    {
+      "mutation": "wrong_A_power",
+      "caught": true,
+      "message": "G316 guard rejected A_up_power: -8 != -10"
+    },
+    {
+      "mutation": "wrong_TT_scalar_power",
+      "caught": true,
+      "message": "G316 guard rejected TT_scalar_power: -5 != -7"
+    },
+    {
+      "mutation": "wrong_scalar_source_power",
+      "caught": true,
+      "message": "G316 guard rejected scalar_source_power: 4 != 5"
+    },
+    {
+      "mutation": "wrong_momentum_source_power",
+      "caught": true,
+      "message": "G316 guard rejected momentum_source_power: 4 != 6"
+    },
+    {
+      "mutation": "wrong_laplacian_coefficient",
+      "caught": true,
+      "message": "G316 guard rejected laplacian_coefficient: 8 != -8"
+    },
+    {
+      "mutation": "wrong_TT_sign",
+      "caught": true,
+      "message": "G316 guard rejected TT_sign: 1 != -1"
+    },
+    {
+      "mutation": "wrong_Lambda_sign",
+      "caught": true,
+      "message": "G316 guard rejected Lambda_coefficient: 2 != -2"
+    },
+    {
+      "mutation": "arbitrary_seeds_called_lawful",
+      "caught": true,
+      "message": "G316 guard rejected arbitrary_seeds_lawful: True != False"
+    },
+    {
+      "mutation": "cmc_promoted_to_udt",
+      "caught": true,
+      "message": "G316 guard rejected cmc_promoted: True != False"
+    },
+    {
+      "mutation": "W_called_unique",
+      "caught": true,
+      "message": "G316 guard rejected W_unique: True != False"
+    },
+    {
+      "mutation": "psi_called_physical_scale",
+      "caught": true,
+      "message": "G316 guard rejected psi_is_physical_scale: True != False"
+    },
+    {
+      "mutation": "boost_called_physical_scale",
+      "caught": true,
+      "message": "G316 guard rejected boost_is_physical_scale: True != False"
+    },
+    {
+      "mutation": "single_null_sheet_called_complete",
+      "caught": true,
+      "message": "G316 guard rejected one_null_sheet_complete: True != False"
+    },
+    {
+      "mutation": "physical_history_selected",
+      "caught": true,
+      "message": "G316 guard rejected history_selected: True != False"
+    },
+    {
+      "mutation": "forbidden_import_added",
+      "caught": true,
+      "message": "G316 guard rejected forbidden_import: True != False"
+    }
+  ]
+}

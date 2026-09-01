@@ -1,0 +1,13 @@
+presentation	object	classification	constraint_or_guard
+spacelike	conformal metric	SUPPLIED_SEED	conformal geometry; topology/boundary still supplied
+spacelike	TT tensor	SUPPLIED_SEED	tracefree divergence-free shape seed
+spacelike	mean curvature	SUPPLIED_SEED	CMC only a diagnostic subcase
+spacelike	Lambda	CONNECTED_SECTOR_INPUT_OR_INFERRED	no magnitude selection
+spacelike	psi	SOLVED_IF_SOLVABLE	positive conformal factor; existence may fail
+spacelike	W	SOLVED_MODULO_KERNEL_IF_SOLVABLE	conformal-Killing degeneracy
+spacelike	gamma and K	LAWFUL_OUTPUT	only after both constraints pass
+null corner	screen metric	BOOST_INVARIANT_GEOMETRY	does not fix null normalization
+null corner	ell expansion and shear	BOOST_WEIGHT_PLUS_ONE	one sheet transport data
+null corner	k expansion and shear	BOOST_WEIGHT_MINUS_ONE	transverse sheet remains required
+null corner	normal connection	GAUGE_CONNECTION	gradient shift; curl invariant
+all	physical history	NOT_SELECTED	construction characterizes lawful data only

@@ -1,0 +1,15 @@
+claim	status	scope_or_guard
+G316 landing	EXTERNALLY_ACCEPTED_BOUNDED__NO_SCIENTIFIC_DEFECT	fresh reviewer authenticated 31 payloads and reran four checks
+conformal scalar equation	DERIVED_CONDITIONAL	presentation of active G315 Hamiltonian constraint
+conformal vector equation	DERIVED_CONDITIONAL	presentation of active G315 momentum constraint
+conformal method	CONDITIONAL_IMPORTED_MATHEMATICAL_METHOD	no new UDT dynamics
+constant-mean-curvature decoupling	DERIVED_DIAGNOSTIC_SUBCASE	not promoted to UDT or complete data chart
+exact existence controls	VERIFIED_BOUNDED	constant coefficients on registered slices
+exact integrated nonexistence control	VERIFIED_BOUNDED	compact boundaryless Rbar=0 Abar-nonzero C<=0 class
+conformal-Killing obstruction	DERIVED_CONDITIONAL	compact boundaryless Fredholm setting
+null-corner boost laws	DERIVED_CONDITIONAL	regular transversely intersecting null sheets
+physical history selection	OPEN_NOT_ATTEMPTED	construction characterizes lawful data only
+external provenance scope	VERIFIED_WITH_PROTOCOL_LIMIT	sealed intake authenticated; Git ancestry not independently reconstructed
+global conformal solvability	OPEN_OMITTED	no Yamabe non-CMC boundary completeness theorem
+metric and reciprocal kernel	UNCHANGED	all construction remains upstream
+topology population scale X_max source matter observation	OPEN_OMITTED	no import or selection

@@ -2,7 +2,7 @@
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 298-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 299-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
@@ -104,12 +104,12 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   G311 response boundary: `udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md`; G312 boundary: `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`.
   G312 adoption: `startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md`;
   G313 solution-space/bootstrap: `udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md`;
-  G314 types: `udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md`; G315 data: `udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md`.
+  G314 types: `udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md`;
+  G315 data: `udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md`; G316 construction: `udt_g316_lawful_constraint_data_construction_2026-09-01/AUDIT_REPORT.md`.
 - Historical controls: `SIMPLE_METRIC_MACRO.md` (static slice); `udt_canonical_geometry.md` (canonical-geometry monolith; use G281 regrades).
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
-- Supplied germs/incidence controls: query G168--G171, then controlling G215, in the registry.
-- Pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`
+- Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
 - Historical negative controls — never kernel inputs: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
 - Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 - Matter/stability: begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
