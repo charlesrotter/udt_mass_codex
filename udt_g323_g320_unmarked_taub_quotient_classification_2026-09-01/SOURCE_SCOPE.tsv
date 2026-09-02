@@ -1,0 +1,8 @@
+source	role	access
+udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md	current data formulas	read_only
+udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md	marked quotient and Q_R boundary	read_only
+udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md	conditional local development and time reversal	read_only
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md	conditional MGHD theorem boundary	read_only
+CURRENT_SCIENTIFIC_PREMISES.md	premise orientation	read_only
+CURRENT_SCIENTIFIC_PREMISES.tsv	exact premise rows on demand	read_only
+
