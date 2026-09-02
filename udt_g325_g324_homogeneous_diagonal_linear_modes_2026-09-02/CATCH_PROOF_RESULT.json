@@ -1,0 +1,12 @@
+{
+  "assertion_count": 5,
+  "controls": {
+    "false_periodic_scaling_rejected": true,
+    "physical_shear_as_gauge_rejected": true,
+    "removed_exponent_constraint_rejected": true,
+    "wrong_kasner_tangent_rejected": true,
+    "wrong_scalar_directional_shape_rejected": true
+  },
+  "schema": "udt-g325-catch-proofs-v1",
+  "status": "PASS"
+}

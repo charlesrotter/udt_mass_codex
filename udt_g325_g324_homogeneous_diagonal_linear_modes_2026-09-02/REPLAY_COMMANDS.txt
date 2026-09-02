@@ -1,0 +1,4 @@
+python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json
+python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+python3 -S verify_package.py

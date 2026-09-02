@@ -1,0 +1,12 @@
+claim	status	scope
+G325_mode_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	spatially homogeneous diagonal synchronous first variations of G324
+time_shift_mode	DERIVED_GAUGE	local time-origin translation
+constant_strains	DERIVED_QUOTIENT_MODULI	three diagonal fixed-T3 lattice directions
+kasner_shear	DERIVED_CONDITIONAL	one local curvature-changing tangent at LRS Taub point
+connected_scalar_mode	DERIVED_CONDITIONAL	one constant delta-R direction retained by trace-free Ricci
+uniform_full_linear_stability	OPEN	nonzero Fourier and off-diagonal sectors absent; secular endpoint behavior
+nonlinear_stability	OPEN	outside first variation
+physical_occupancy	OPEN	no datum selected
+physical_scale	OPEN	no ruler attachment
+physical_Xmax	OPEN	not used or selected
+metric_kernel_angular_change	NO_CHANGE	G325 is analysis of the adopted equation around G324
