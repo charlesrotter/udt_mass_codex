@@ -1,0 +1,22 @@
+{
+  "authors": [
+    "Yvonne Choquet-Bruhat",
+    "Robert Geroch"
+  ],
+  "bounded_excerpt_word_count": 25,
+  "copyright_boundary": "Only three load-bearing fragments totaling 25 words are retained; the remainder is paraphrased.",
+  "doi": "10.1007/BF01645389",
+  "official_abstract_fragments": [
+    "initial data for Einstein's equations which satisfy the constraint conditions",
+    "an extension of every other development",
+    "may be embedded in exactly one such maximal development"
+  ],
+  "publication": "Communications in Mathematical Physics 14, 329-335 (1969)",
+  "publisher": "Springer Nature Link",
+  "retrieved_date": "2026-09-01",
+  "schema": "udt-g322-s09-primary-abstract-bounded-evidence-v1",
+  "scope_paraphrase": "For constraint-satisfying Einstein initial data, the official abstract states existence of a development extending every other same-data development and unique maximal placement for a solution carrying a Cauchy surface.",
+  "source_grade": "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT",
+  "title": "Global aspects of the Cauchy problem in general relativity",
+  "url": "https://link.springer.com/article/10.1007/BF01645389"
+}

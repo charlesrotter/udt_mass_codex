@@ -1,4 +1,5 @@
 path	role
+S09_PRIMARY_ABSTRACT_EVIDENCE.json	bounded authenticated official publisher abstract evidence for imported theorem scope
 LIVE.md	current authority and G322 gate
 CURRENT_SCIENTIFIC_PREMISES.tsv	exact G321 premise ownership
 startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md	Universal Reciprocity owner adoption
