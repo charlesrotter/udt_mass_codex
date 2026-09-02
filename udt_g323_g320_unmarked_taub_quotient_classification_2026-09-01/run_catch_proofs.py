@@ -3,6 +3,7 @@
 
 import json
 import math
+from fractions import Fraction
 from pathlib import Path
 
 
@@ -33,7 +34,23 @@ catch("wrong X prime factor", abs(pullback(mu, 2.0 * xp) - psi ** 4) > 1e-3)
 catch("omitted X channel", abs(pullback(mu, 0.0) - psi ** 4) > 1e-3)
 catch("extrinsic sign loss", abs((-mu * (-xp) / r ** 3) - b / 3.0) > 1e-3)
 catch("period is not slice Q_R", "L_X" != "Q_R")
-catch("primitive divisor rejected", 2 > 1)
+
+# Exact discrete catch-proof for the zero-integral step in the primitive-period lemma. For a
+# cyclic radial profile, every nontrivial rational winding shift has difference sum zero, hence a
+# zero or both signs. This does not replace the continuous proof in EXACT_DERIVATION.md; it ensures
+# the executable guard is no longer the former vacuous `2 > 1` assertion.
+cycle = tuple(Fraction(value) for value in (7, 11, 5, 13, 3, 17, 2, 19, 23, 29, 31, 37))
+primitive_lemma_caught = True
+for winding in (2, 3, 4, 6):
+    shift = len(cycle) // winding
+    differences = tuple(cycle[(index + shift) % len(cycle)] - value
+                        for index, value in enumerate(cycle))
+    primitive_lemma_caught &= sum(differences, Fraction(0)) == 0
+    primitive_lemma_caught &= (
+        any(value == 0 for value in differences)
+        or (min(differences) < 0 < max(differences))
+    )
+catch("primitive divisor zero-integral lemma", primitive_lemma_caught)
 catch("time orientation retained separately", "time_oriented" != "time_unoriented")
 catch("compact modulus is not local Ricci scalar", "Q_X" != "Ricci")
 catch("mode is not occupancy", "mode_control" != "occupied_universe")
@@ -53,4 +70,3 @@ result = {
     json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
 )
 print(f"G323 hostile PASS: {len(CAUGHT)}/{len(CAUGHT)} caught")
-

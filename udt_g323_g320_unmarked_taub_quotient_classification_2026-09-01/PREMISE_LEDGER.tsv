@@ -5,7 +5,7 @@ quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature b
 S_ab_zero	CONDITIONAL_ACTIVE_EQUATION	trace-free Ricci equation in bounded regular vacuum	full UDT field equation in every sector
 Ric_zero	DERIVED_CONDITIONAL	G321 connected Lambda=0 G320 sector	matter sourced or full UDT equation
 smooth_harmonic_wellposedness	IMPORTED_MATHEMATICAL_METHOD	conditional local development theorem	native UDT derivation
-maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum	native UDT derivation or arbitrary inextendibility
+maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum; explicit-quotient equality remains open	native UDT derivation or arbitrary inextendibility
 flat_marked_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	registered compact quotient family	physical topology
 one_coordinate_diagonal_LRS	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	explicit unmarked classification slice	complete solution space
 d_zero_Lambda_zero	PINNED_BY_G320_G321_CONTROL	registered Ricci-flat control sector	all UDT sectors
@@ -18,4 +18,3 @@ ambient_coordinate_change	CATEGORY_A_GEOMETRIC_METHOD	explicit isometry and embe
 compact_quotient_period	DERIVED_CANDIDATE_INVARIANT	unmarked global discriminator	observational scale without attachment
 c_E	OBSERVED_ANCHOR_INACTIVE	not used in dimensionless quotient classification	history selector
 X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
-

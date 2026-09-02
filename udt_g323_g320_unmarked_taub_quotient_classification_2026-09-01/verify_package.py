@@ -19,9 +19,11 @@ REQUIRED = (
     "PREREGISTRATION_ANCESTRY.md", "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt",
     "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
     "verify_package.py", "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
-    "CATCH_PROOF_RESULT.json", "QUOTIENT_ATLAS.tsv", "INDEPENDENT_FAILURE_AND_REPAIR.md",
-    "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md",
-    "AUDIT_REPORT.md", "RUN_RECORD.md",
+        "CATCH_PROOF_RESULT.json", "QUOTIENT_ATLAS.tsv", "INDEPENDENT_FAILURE_AND_REPAIR.md",
+        "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md",
+        "AUDIT_REPORT.md", "RUN_RECORD.md", "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REVIEW_TRANSCRIPT.txt", "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_LEDGER.tsv",
+        "REPAIR_FOLLOWUP_REQUEST.md", "verify_review_intake.py",
 )
 
 
@@ -89,8 +91,10 @@ def main():
     failure = (HERE / "INDEPENDENT_FAILURE_AND_REPAIR.md").read_text(encoding="utf-8")
     for token in (
         "The common local spacetime", "Exact embedding of the complete data",
-        "The forced global quotient period", "L_X(n+1)>L_X(n)",
-        "same unmarked metric spacetime", "G322's imported-theorem ownership",
+        "The forced global quotient period", "zero integral around the circle",
+        "primitive intersection lattice", "L_X(n+1)>L_X(n)",
+        "same unmarked metric spacetime", "G322's imported theorem supplies an MGHD",
+        "unmarked equivalence of the\nfull per-datum MGHDs remains open",
         "metric/kernel/angular sector are\nunchanged",
     ):
         need(token in exact, f"exact guard missing: {token}")
@@ -98,6 +102,7 @@ def main():
         "same Ricci-flat spacetime geometry", "closure number is strictly different",
         "same underlying spacetime with its direction of time reversed",
         "does not choose which compact quotient Nature occupies",
+        "not proved that each explicit quotient is already the largest possible",
         "does not alter the UDT metric, reciprocal kernel, angular cancellation",
     ):
         need(token in lay, f"lay guard missing: {token}")
@@ -112,6 +117,24 @@ def main():
         "did not relax a tolerance", "No scientific landing",
     ):
         need(token in failure, f"repair record missing: {token}")
+
+    review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    need(review.rstrip().endswith("G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED"),
+         "external review verdict missing")
+    transmission = (HERE / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
+    for token in (
+        "ef19bfdc41d7d30c7cf0887a3deea001a2726d15effc533ad36f2b9c97d31c0d",
+        "4d8a8e46bc957746e862dc0ba82ee6cd75cffb28b6dc535f48032c8fcf3433a1",
+        "c8f1af2ae5292928267897d1187403961c58d43b1ed795594fac094dabb5615e",
+        "a3485b51c89e40f326c3248d34f6e9d688bbab06e67e2f0ac5194d81dbe76ed1",
+    ):
+        need(token in transmission, f"external transmission token missing: {token}")
+
+    with (HERE / "REPAIR_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+        repairs = list(csv.DictReader(handle, delimiter="\t"))
+    need([row["repair"] for row in repairs] == ["R1", "R2", "R3", "R4"],
+         "repair ledger mismatch")
+    need(repairs[1]["scientific_landing"] == "BOUNDED_SCOPE_NARROWED", "MGHD repair not scoped")
 
     independent_source = (HERE / "verify_independent.py").read_text(encoding="utf-8")
     need("import derive_unmarked_quotients" not in independent_source, "independent imports production")
@@ -141,18 +164,19 @@ def main():
 
     result = {
         "schema": "udt-g323-package-verification-v1",
-        "status": "PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "status": "PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP",
         "landing": LANDING,
         "production_assertions": production["assertion_count"],
         "independent_assertions": independent["assertion_count"],
         "hostile_catches": f"{hostile['caught_count']}/{hostile['mutation_count']}",
         "atlas_rows": len(atlas),
-        "external_review": "PENDING",
+        "external_review": "REPAIRABLE_DEFECTS_REPAIRED",
+        "repair_followup": "PENDING",
     }
     (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
-    print("G323 package verification PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW")
+    print("G323 package verification PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP")
     print(f"production assertions: {result['production_assertions']}")
     print(f"independent assertions: {result['independent_assertions']}")
     print(f"hostile mutations caught: {result['hostile_catches']}")

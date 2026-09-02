@@ -1,7 +1,7 @@
 # G323 exact derivation — local refoliation and global compact quotient
 
-Date: 2026-09-01
-Grade: `INTERNALLY_VERIFIED_PENDING_FRESH_EXTERNAL_REVIEW`
+Date: 2026-09-01; repaired 2026-09-02
+Grade: `REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
 
 ## Bounded landing
 
@@ -158,9 +158,28 @@ L_X[\psi]
 \tag{9}
 \]
 
-Using a divisor of (9) repeats the same profile phase at the same `X` point and destroys the
-embedding. Thus (9) is global data, not an arbitrary coordinate-period choice after the complete
-datum is fixed.
+Here is the missing injectivity proof. Because `X'` has fixed nonzero sign, normalized ambient
+position
+
+\[
+\theta=X/L_X\pmod 1
+\]
+
+is a smooth degree-one coordinate on the embedded circle. Write its radial graph as
+`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+function
+
+\[
+d_k(\theta)=\rho(\theta+k/q)-\rho(\theta)
+\]
+
+has zero integral around the circle. It therefore vanishes somewhere: otherwise connectedness
+would give it one strict sign and a nonzero integral. At a zero, two distinct domain points have
+the same `R` and the same `X` modulo `P` (and the same `y,z` when those coordinates are held fixed),
+so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+registered fixed-sign graph stratum; it does not assume a cosine symmetry.
 
 The exact local isometry
 
@@ -177,11 +196,32 @@ rescales all three compact coordinate periods by `1/a`. It cannot change
 \tag{11}
 \]
 
-This is intrinsic to the compact spacetime quotient. To see why an isometry cannot mix away the
-`X` direction, use the curvature-defined constant-`R` leaves. Their shape operator has one
-eigenvalue proportional to `-1/2` along `X` and a repeated eigenvalue proportional to `+1` in the
-`y,z` plane. Hence the one-dimensional lattice and the two-dimensional lattice covolume in (11)
-are invariantly separated. Changes of basis inside the `y,z` lattice preserve its covolume.
+The invariant statement does not assume that an arbitrary presentation of the translation lattice
+is split. On a constant-`R` leaf, curvature and the leaf shape operator canonically split the
+translation space as the simple eigendirection `ell_X` and the repeated plane `E_perp`. For the
+registered quotients, let `Gamma` be the compact translation lattice and define
+
+\[
+\Lambda_X=\Gamma\cap\ell_X,
+\qquad
+\Lambda_\perp=\pi_{E_\perp}(\Gamma).
+\]
+
+The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+two lattice. Define the coordinate-normalized lattice modulus by
+
+\[
+\mathcal Q(\Gamma)=
+\frac{\operatorname{covol}_{\ell_X}(\Lambda_X)}
+{\sqrt{\operatorname{covol}_{E_\perp}(\Lambda_\perp)}}.
+\tag{11a}
+\]
+
+An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+projected covolume. A change of lattice basis, including generators sheared by an `X` component,
+changes neither object. The local scaling isometry (10) multiplies the numerator and the square
+root of the denominator by the same factor. Hence (11a) is an unmarked quotient invariant. For the
+registered split presentation, `Gamma=L_X Z+L_y Z+L_z Z`, so (11a) reduces exactly to (11).
 
 For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
 
@@ -212,7 +252,7 @@ The `n=1` and `n=2` data therefore have the same local metric form but inequival
 unmarked quotients. This is the whole-spacetime meaning hidden behind G320's slice values
 `1,4,9,16`.
 
-## 5. Maximal-development boundary
+## 5. Global-development boundary
 
 The curvature invariant (4) diverges at `R=0`, excluding a smooth curvature extension there. The
 three translation momenta give causal radial motion
@@ -225,9 +265,13 @@ three translation momenta give causal radial motion
 
 where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
 reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
-this supplies the explicit maximal-GH interface for the registered quotient. Identification with
-the per-datum MGHD retains G322's imported-theorem ownership and does not claim arbitrary
-Lorentzian inextendibility.
+this proves that (2) with the registered lattice is an explicit globally hyperbolic development.
+
+It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+G322's imported theorem supplies an MGHD for each fixed datum and a data-preserving embedding of
+this development into it, but equality would require a separate maximality/inextendibility theorem.
+Accordingly, G323 classifies the explicit Taub quotient developments; unmarked equivalence of the
+full per-datum MGHDs remains open.
 
 ## 6. Opposite `K` signs
 
@@ -249,9 +293,9 @@ in the time-oriented category.
   embedding.
 - `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
 - `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
-- `IMPORTED_MATHEMATICAL_METHOD_RETAINED`: G322 maximal-development uniqueness interface.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit globally hyperbolic quotient development.
+- `OPEN_NOT_PROVED`: equality of that explicit development with the per-datum G322 MGHD.
 - `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
 
 The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
 unchanged.
-

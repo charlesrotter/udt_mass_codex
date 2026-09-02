@@ -4,14 +4,14 @@ ambient_Ricci_zero	DERIVED_CONDITIONAL	direct exact tensor calculation
 complete_G320_data_embedding	DERIVED_CONDITIONAL	positive periodic B-nonzero branches
 profile_freedom_local_refoliation	DERIVED_CONDITIONAL	registered LRS family only
 primitive_compact_X_period	DERIVED_CONDITIONAL	injective compact Cauchy graph
-Q_X_global_modulus	DERIVED_CONDITIONAL	curvature eigenspace-split compact lattice
+Q_X_global_modulus	DERIVED_CONDITIONAL	primitive intersection lattice plus projected transverse covolume
 integer_mode_moduli_strictly_distinct	DERIVED_CONDITIONAL	psi_n=p+a cos nx J0-positive
 n1_n2_unmarked_quotients_distinct	DERIVED_CONDITIONAL	registered compact quotient category
 opposite_K_same_time_unoriented_metric	DERIVED_CONDITIONAL	registered sign branches
 opposite_K_oriented_spacetimes	DERIVED_CONDITIONAL_DISTINCT_ORIENTATIONS	monotone curvature time line
-MGHD_identification	CONDITIONAL_ON_IMPORTED_G322_THEOREM	per fixed datum
+explicit_GH_quotient_development	DERIVED_CONDITIONAL	registered Taub quotient category
+MGHD_identification	OPEN_NOT_PROVED	G322 guarantees per-datum MGHD but equality with explicit quotient is not established
 physical_occupancy	OPEN_NOT_SELECTED	all
 physical_topology	OPEN_NOT_SELECTED	all
 physical_scale	OPEN_NOT_SELECTED	all
 metric_kernel_angular_sector	UNCHANGED	all
-

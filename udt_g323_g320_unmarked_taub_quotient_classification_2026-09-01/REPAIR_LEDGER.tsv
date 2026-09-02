@@ -1,0 +1,5 @@
+repair	fresh_finding	bounded_change	scientific_landing
+R1	primitive-period assertion lacked a proof for arbitrary positive periodic profiles and alternate windings	add degree/winding and zero-integral collision proof for the registered fixed-sign graph stratum	UNCHANGED
+R2	explicit quotient was not proved equal to the per-datum G322 MGHD	downgrade to explicit globally hyperbolic development and reopen MGHD equality	BOUNDED_SCOPE_NARROWED
+R3	coordinate Q_X formula did not fully cover nonsplit compact lattices	define Q through the primitive eigendirection intersection lattice and projected transverse covolume	UNCHANGED
+R4	first sealed intake could not replay repository premise/suite attestations and package verifier did not authenticate the intake manifest	label repository gates external attestations and add a dependency-free sealed-intake authenticator	UNCHANGED

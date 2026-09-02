@@ -1,7 +1,7 @@
 # G323 internal audit report
 
-Date: 2026-09-01
-Status: `INTERNALLY_VERIFIED_PENDING_FRESH_EXTERNAL_REVIEW`
+Date: 2026-09-01; repaired 2026-09-02
+Status: `REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
 
 ## Result
 
@@ -18,12 +18,12 @@ __NO_OCCUPANCY_SELECTION
    forms in the explicit local metric `-R/mu dR^2 + mu/R dX^2 + R^2(dy^2+dz^2)`.
 2. Direct tensor calculation gives `Ric=0` and Kretschmann scalar `12 mu^2/R^6`.
 3. Thus the arbitrary profile is locally a refoliation/Cauchy-graph freedom in this LRS slice.
-4. Compact injectivity forces a global `X` period. The lattice-shape ratio
-   `Q_X=L_X/sqrt(L_y L_z)` survives all local parameter rescalings and isometry-allowed lattice
-   changes.
+4. A degree/winding plus zero-integral argument proves that compact injectivity forces the global
+   `X` period. The invariant lattice-intersection/projected-covolume definition of `Q_X` survives
+   local parameter rescalings, basis changes, and nonsplit lattice presentations.
 5. `L_X(n)` is strictly increasing for every positive integer mode. The registered `n=1` and
-   `n=2` maximal quotients are therefore globally inequivalent even after the initial marking is
-   forgotten.
+   `n=2` explicit globally hyperbolic Taub quotients are therefore inequivalent even after the
+   initial marking is forgotten. Equality of either explicit quotient with its G322 MGHD is open.
 6. Opposite `K` signs give the same time-unoriented metric quotient and opposite time orientations.
    The nonzero timelike gradient of the Kretschmann scalar forbids an orientation-preserving
    identification between those orientations.
@@ -41,13 +41,17 @@ __NO_OCCUPANCY_SELECTION
 - independent Ricci residuals: `4.44e-16` to `1.14e-13` after the documented failed-closed repair;
 - hostile mutations: 13/13 caught;
 - finite production periods: `6.5545166850`, `6.6232264275`, `6.7354404967`, `6.8880830208`.
-- exact 305-row premise registry and startup guards: pass;
-- full repository suite: `217 passed, 1 xfailed`.
+- exact 305-row premise registry and startup guards: repository-side pass, recorded as an external
+  attestation rather than replayable evidence in the first sealed intake;
+- full repository suite: repository-side `217 passed, 1 xfailed`, likewise an external attestation.
+- fresh external review: `G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`; repairs R1--R4 are
+  registered in `REPAIR_LEDGER.tsv` and await repair-only follow-up.
 
 ## Boundary
 
 This does not cover the full G319 moduli space, non-LRS data, `d` or `Lambda` nonzero, `B=0`
 crossings, matter/source sectors, stability, physical topology/occupancy, an observational scale,
-or full UDT. The G322 maximal-development theorem remains imported and conditional.
+or full UDT. The explicit quotient is a globally hyperbolic development. Equality with the G322
+MGHD is not proved and remains open.
 
-Fresh external adversarial review is required before an externally accepted grade.
+Repair-only external follow-up is required before an externally accepted grade.

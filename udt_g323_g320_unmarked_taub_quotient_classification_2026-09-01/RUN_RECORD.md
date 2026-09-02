@@ -38,6 +38,9 @@ preserved in `INDEPENDENT_FAILURE_AND_REPAIR.md`.
 ## Repository gates
 
 - aggregate package verification: pass;
-- exact 305-row premise registry and startup guards: pass;
-- full repository suite: `217 passed, 1 xfailed` in `141.87s`;
-- fresh external adversarial review: pending.
+- exact 305-row premise registry and startup guards: repository-side pass; the first sealed intake
+  recorded this as an external attestation rather than replayable intake evidence;
+- full repository suite: repository-side repair replay `217 passed, 1 xfailed` in `141.43s`; likewise an external
+  attestation in the first intake;
+- fresh external adversarial review: repairable defects R1--R4, bounded landing retained;
+- repair-only external follow-up: pending.

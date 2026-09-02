@@ -10,10 +10,9 @@ Date: 2026-09-01
 | Domain | compact `T^3` quotient and its explicit Cauchy graph | other topology, boundaries, topology change |
 | Gauge | initial marking forgotten; time orientation retained and forgotten separately | arbitrary physical population/occupancy quotient |
 | Modes | analytic all positive integer modes; finite controls `n=1..4` | arbitrary nonperiodic profiles and full moduli |
-| Dynamics | explicit whole Ricci-flat quotient plus conditional G322 MGHD identification | sourced dynamics, stability, perturbations |
+| Dynamics | explicit whole Ricci-flat globally hyperbolic quotient development | equality with conditional G322 MGHD, sourced dynamics, stability, perturbations |
 | Global equivalence | quotient modulus and opposite-`K` reversal in registered family | complete isometry classification outside the family |
 | Scale | dimensionless compact-lattice shape ratio only | physical ruler attachment, observation, `X_max` |
 
 The result may collapse profile freedom into refoliation while retaining a global quotient modulus.
 It cannot choose a physically occupied quotient, topology, datum, orientation, or scale.
-

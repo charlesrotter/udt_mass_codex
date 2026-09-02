@@ -1,0 +1,3635 @@
+Script started on 2026-09-02 00:10:32-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a0604f-bcd5-7da0-ab5a-9adb3a0aba73
+--------
+user
+The sealed G323 intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake; do not edit evidence files or continue the research. Web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. The network exists solely for the Codex API connection. Run only registered standard-library replays or bounded checks in a writable ephemeral copy. Treat the G310/G312 equation as owner-adopted provisional and the G321/G322 development theorems as imported conditional mathematical methods. Do not select or canonize a law, topology, history, scale, occupancy, or X_max.\n\n# G323 external adversarial review request
+
+Review the sealed G323 package as a fresh, read-only adversary. Do not edit evidence files or
+continue the research.
+
+## Claimed bounded landing
+
+```text
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+__NO_OCCUPANCY_SELECTION
+```
+
+The claim is conditional on the owner-adopted provisional bounded dynamics and the imported G321/
+G322 development theorems. It does not select physical topology, data, occupancy, scale, or a
+universe, and it changes neither metric nor reciprocal kernel.
+
+## Required fresh rederivations
+
+1. Starting only from the sealed G319/G320 formulas, independently derive or refute the proposed
+   ambient metric, its Ricci tensor, and its Kretschmann scalar.
+2. Verify the complete first and second fundamental forms of the proposed embedding. A match of
+   only the intrinsic metric is insufficient.
+3. Audit the Cauchy and maximal-development boundary. Decide whether the explicit quotient is the
+   G322 MGHD in the claimed bounded category, merely a proper development, or not a development.
+4. Attack the primitive-period argument. Determine whether another injective embedding, winding,
+   lattice choice, or spacetime diffeomorphism can change `L_X` for the same complete datum.
+5. Attack `Q_X=L_X/sqrt(L_y L_z)` as an unmarked isometry invariant. In particular test whether
+   the curvature/shape-operator eigensplitting genuinely prevents `X` from mixing with the repeated
+   `y,z` plane and whether all allowed local parameter rescalings preserve the ratio.
+6. Independently prove or refute strict `L_X(n+1)>L_X(n)` and the `n=1` versus `n=2` inequivalence.
+7. Verify the opposite-`K` classification in both the time-oriented and time-unoriented categories.
+   Attack the scalar-curvature-gradient argument against time reversal.
+8. Audit the failed-closed independent verifier repair, numerical tolerances, independence, scripts,
+   manifests, premise stamps, and forbidden promotions.
+
+## Required scope discipline
+
+- Do not import an action, source, matter model, observation, fit, physical scale, or `X_max`.
+- Do not promote the provisional field equation into canon or call a compact control the occupied
+  universe.
+- Do not accept a slice invariant as a whole-spacetime invariant without the global proof.
+- A theorem named in the package is not evidence unless its hypotheses and exact role are checked.
+
+## Verdict token
+
+End the response with exactly one:
+
+```text
+G323_ACCEPTED__LOCAL_REFOLIATION_AND_GLOBAL_QUOTIENT_CLASSIFICATION_UPHELD
+G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+G323_SCIENTIFIC_LANDING_REFUTED
+G323_REVIEW_INCOMPLETE
+```
+
+List every required repair before the final token.
+codex
+I’m treating this as a sealed, read-only adversarial review. I’ll first inventory `/intake`, identify the core formulas, proofs, and replay scripts, then rederive the metric and embedding claims from the sealed materials without editing or extending them.
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type d | sort' in /return
+ succeeded in 0ms:
+/intake
+/intake/package
+/intake/sources
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01
+
+codex
+`rg` is unavailable here, so I’m falling back to bounded `find`/`sed` reads. Next I’m locating the package manifest, review note, and any replay scripts that define the claimed landing and its dependencies.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/INDEPENDENT_FAILURE_AND_REPAIR.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/QUOTIENT_ATLAS.tsv
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_unmarked_quotients.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md
+
+exec
+/bin/bash -lc "find /intake -maxdepth 3 -type f | sort | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/INDEPENDENT_FAILURE_AND_REPAIR.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/QUOTIENT_ATLAS.tsv
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_unmarked_quotients.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md
+
+codex
+I have the package structure. Now I’m reading the owner’s exact derivation, the external review request, the premise ledger, and the replay commands to separate claimed proofs from what can actually be rederived or replayed.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/EXTERNAL_REVIEW_REQUEST.md" in /return
+ succeeded in 0ms:
+# G323 external adversarial review request
+
+Review the sealed G323 package as a fresh, read-only adversary. Do not edit evidence files or
+continue the research.
+
+## Claimed bounded landing
+
+```text
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+__NO_OCCUPANCY_SELECTION
+```
+
+The claim is conditional on the owner-adopted provisional bounded dynamics and the imported G321/
+G322 development theorems. It does not select physical topology, data, occupancy, scale, or a
+universe, and it changes neither metric nor reciprocal kernel.
+
+## Required fresh rederivations
+
+1. Starting only from the sealed G319/G320 formulas, independently derive or refute the proposed
+   ambient metric, its Ricci tensor, and its Kretschmann scalar.
+2. Verify the complete first and second fundamental forms of the proposed embedding. A match of
+   only the intrinsic metric is insufficient.
+3. Audit the Cauchy and maximal-development boundary. Decide whether the explicit quotient is the
+   G322 MGHD in the claimed bounded category, merely a proper development, or not a development.
+4. Attack the primitive-period argument. Determine whether another injective embedding, winding,
+   lattice choice, or spacetime diffeomorphism can change `L_X` for the same complete datum.
+5. Attack `Q_X=L_X/sqrt(L_y L_z)` as an unmarked isometry invariant. In particular test whether
+   the curvature/shape-operator eigensplitting genuinely prevents `X` from mixing with the repeated
+   `y,z` plane and whether all allowed local parameter rescalings preserve the ratio.
+6. Independently prove or refute strict `L_X(n+1)>L_X(n)` and the `n=1` versus `n=2` inequivalence.
+7. Verify the opposite-`K` classification in both the time-oriented and time-unoriented categories.
+   Attack the scalar-curvature-gradient argument against time reversal.
+8. Audit the failed-closed independent verifier repair, numerical tolerances, independence, scripts,
+   manifests, premise stamps, and forbidden promotions.
+
+## Required scope discipline
+
+- Do not import an action, source, matter model, observation, fit, physical scale, or `X_max`.
+- Do not promote the provisional field equation into canon or call a compact control the occupied
+  universe.
+- Do not accept a slice invariant as a whole-spacetime invariant without the global proof.
+- A theorem named in the package is not evidence unless its hypotheses and exact role are checked.
+
+## Verdict token
+
+End the response with exactly one:
+
+```text
+G323_ACCEPTED__LOCAL_REFOLIATION_AND_GLOBAL_QUOTIENT_CLASSIFICATION_UPHELD
+G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+G323_SCIENTIFIC_LANDING_REFUTED
+G323_REVIEW_INCOMPLETE
+```
+
+List every required repair before the final token.
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G323 exact derivation — local refoliation and global compact quotient
+
+Date: 2026-09-01
+Grade: `INTERNALLY_VERIFIED_PENDING_FRESH_EXTERNAL_REVIEW`
+
+## Bounded landing
+
+```text
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+__NO_OCCUPANCY_SELECTION
+```
+
+This is restricted to the G320/G321 `d=Lambda=0`, `J0>0`, one-coordinate, locally rotationally
+symmetric compact data. It neither selects an occupied spacetime nor classifies the full UDT
+solution space.
+
+## 1. Frozen G320 data
+
+For a smooth positive periodic profile `psi`, G319/G320 give
+
+\[
+\gamma=\psi^4(dx^2+dy^2+dz^2),
+\]
+
+\[
+B=\epsilon\psi^{-3}\sqrt{36(\psi')^2+J_0},\qquad
+F=12\psi''\psi^{-5},\qquad A=F/B,
+\]
+
+and
+
+\[
+K^x{}_x=\frac{3A-B}{6},\qquad
+K^y{}_y=K^z{}_z=\frac B3.
+\tag{1}
+\]
+
+G320 proved that different integer modes are not related by a spatial diffeomorphism of this
+chosen slice. G321 and G322 deliberately left open whether the slices belong to the same unmarked
+spacetime.
+
+## 2. The common local spacetime
+
+Set
+
+\[
+\mu=J_0/9,\qquad R=\psi^2.
+\]
+
+Consider
+
+\[
+\boxed{
+g_\mu=-\frac R\mu dR^2+\frac\mu R dX^2+R^2(dy^2+dz^2)
+},\qquad R>0.
+\tag{2}
+\]
+
+The nonzero Christoffel symbols, up to lower-index symmetry, are
+
+\[
+\Gamma^R{}_{RR}=\frac1{2R},\qquad
+\Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\qquad
+\Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,
+\]
+
+\[
+\Gamma^X{}_{RX}=-\frac1{2R},\qquad
+\Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R.
+\tag{3}
+\]
+
+Direct substitution gives
+
+\[
+R_{ab}=0,
+\qquad
+R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}.
+\tag{4}
+\]
+
+Production reconstructs (3)--(4) by exact rational index loops at three unrelated rational
+points; it does not call the metric Ricci-flat by analogy. The independent route reconstructs (3)
+from the metric and differentiates the nonzero entries separately.
+
+## 3. Exact embedding of the complete data
+
+Define
+
+\[
+X'=-\frac{3B\psi^6}{J_0}.
+\tag{5}
+\]
+
+Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+
+\[
+R'=2\psi\psi',
+\]
+
+the induced longitudinal metric is
+
+\[
+-\frac R\mu(R')^2+\frac\mu R(X')^2
+=-\frac{36\psi^4(\psi')^2}{J_0}
++\frac{\psi^4[36(\psi')^2+J_0]}{J_0}
+=\psi^4.
+\tag{6}
+\]
+
+The other two induced components are immediately `R^2=psi^4`, so the pullback of (2) is exactly
+the complete G320 intrinsic metric.
+
+A unit normal along the graph is
+
+\[
+n=\frac{\mu X'}{R^2}\partial_R+\frac{R'}\mu\partial_X.
+\tag{7}
+\]
+
+It obeys `g(n,n)=-1` and is orthogonal to the graph. Using the G321 convention
+`K=-1/2 L_n gamma`, equations (3), (5), and the G319 identity
+
+\[
+B'=3\frac{\psi'}\psi(A-B)
+\]
+
+give
+
+\[
+K^y{}_y=K^z{}_z=-\frac{\mu X'}{R^3}=\frac B3,
+\]
+
+\[
+K^x{}_x=\frac{3A-B}{6}.
+\tag{8}
+\]
+
+Thus both the first and second fundamental forms agree. The arbitrary positive profile is a Cauchy-
+graph shape inside (2), not a change of the local four-geometry.
+
+Because `R` has timelike gradient and the quotient spatial directions are compact, every constant-
+`R` torus is Cauchy. Since `X'` is nonzero, the embedded slice is a smooth spacelike graph over the
+compact `X` circle and is Cauchy as well.
+
+## 4. The forced global quotient period
+
+Injectivity fixes the primitive `X` period to the total graph advance
+
+\[
+\boxed{
+L_X[\psi]
+=\frac3{J_0}\int_0^{2\pi}
+\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+}.
+\tag{9}
+\]
+
+Using a divisor of (9) repeats the same profile phase at the same `X` point and destroys the
+embedding. Thus (9) is global data, not an arbitrary coordinate-period choice after the complete
+datum is fixed.
+
+The exact local isometry
+
+\[
+R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+\quad\mu_*=a^3\mu
+\tag{10}
+\]
+
+rescales all three compact coordinate periods by `1/a`. It cannot change
+
+\[
+\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+\tag{11}
+\]
+
+This is intrinsic to the compact spacetime quotient. To see why an isometry cannot mix away the
+`X` direction, use the curvature-defined constant-`R` leaves. Their shape operator has one
+eigenvalue proportional to `-1/2` along `X` and a repeated eigenvalue proportional to `+1` in the
+`y,z` plane. Hence the one-dimensional lattice and the two-dimensional lattice covolume in (11)
+are invariantly separated. Changes of basis inside the `y,z` lattice preserve its covolume.
+
+For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+
+\[
+L_X(n)=\frac3{J_0}\int_0^{2\pi}(p+a_0\cos u)^3
+\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+\tag{12}
+\]
+
+The integrand is pointwise nondecreasing in positive integer `n` and strictly increases wherever
+`sin(u)` is nonzero. Therefore
+
+\[
+\boxed{L_X(n+1)>L_X(n)}.
+\tag{13}
+\]
+
+For the registered controls, production obtains
+
+```text
+n=1  L_X=6.554516685020806
+n=2  L_X=6.623226427457768
+n=3  L_X=6.735440496746481
+n=4  L_X=6.888083020830009
+```
+
+The `n=1` and `n=2` data therefore have the same local metric form but inequivalent compact
+unmarked quotients. This is the whole-spacetime meaning hidden behind G320's slice values
+`1,4,9,16`.
+
+## 5. Maximal-development boundary
+
+The curvature invariant (4) diverges at `R=0`, excluding a smooth curvature extension there. The
+three translation momenta give causal radial motion
+
+\[
+\dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+-\kappa\frac\mu R,
+\tag{14}
+\]
+
+where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
+reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
+this supplies the explicit maximal-GH interface for the registered quotient. Identification with
+the per-datum MGHD retains G322's imported-theorem ownership and does not claim arbitrary
+Lorentzian inextendibility.
+
+## 6. Opposite `K` signs
+
+Changing `epsilon` reverses `B`, `A`, and every component of `K`. It also sends `X'` to `-X'` while
+leaving `L_X` unchanged. Reflection `X->-X` identifies the two embedded graphs in the same
+underlying quotient metric, with the unit normal reversed. Therefore:
+
+- after forgetting time orientation, the two signs are the same unmarked metric spacetime;
+- retaining time orientation, they are the two opposite orientations of that spacetime.
+
+Moreover, (4) has a nonzero timelike gradient throughout `R>0`. As the gradient of a scalar, it is
+preserved—not negated—by every isometry. It gives a canonical oriented timelike line, so there is
+no time-orientation-preserving isometry between the two opposite choices. They are distinct only
+in the time-oriented category.
+
+## 7. Exact status
+
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit local Ricci-flat form and complete Cauchy
+  embedding.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
+- `IMPORTED_MATHEMATICAL_METHOD_RETAINED`: G322 maximal-development uniqueness interface.
+- `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
+
+The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
+unchanged.
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/PREMISE_LEDGER.tsv" in /return
+ succeeded in 0ms:
+item	status	role	forbidden_promotion
+Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	upstream bounded dynamics ownership	derived theorem or canon
+Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	local finite-jet response scope	unique possible response principle
+quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature bounded arena	vacuum GR imported as UDT theorem
+S_ab_zero	CONDITIONAL_ACTIVE_EQUATION	trace-free Ricci equation in bounded regular vacuum	full UDT field equation in every sector
+Ric_zero	DERIVED_CONDITIONAL	G321 connected Lambda=0 G320 sector	matter sourced or full UDT equation
+smooth_harmonic_wellposedness	IMPORTED_MATHEMATICAL_METHOD	conditional local development theorem	native UDT derivation
+maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum	native UDT derivation or arbitrary inextendibility
+flat_marked_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	registered compact quotient family	physical topology
+one_coordinate_diagonal_LRS	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	explicit unmarked classification slice	complete solution space
+d_zero_Lambda_zero	PINNED_BY_G320_G321_CONTROL	registered Ricci-flat control sector	all UDT sectors
+J0_positive	FREE_AND_EXPLORED_CONSTRAINT_CONSTANT	common local curvature/quotient reconstruction	observed mass scale or selected constant
+psi_positive_periodic	FREE_AND_EXPLORED_PROFILE	registered Cauchy graphs	selected physical history
+p_3_over_2_a_1_over_5	CHOSE_CATEGORY_A_CONTROL	finite n comparison	physical coefficient
+n_positive_integer	FREE_AND_EXPLORED_CONTROL_FAMILY	compact-profile modes	particle number or selected population
+epsilon_plus_minus	FREE_AND_EXPLORED_TIME_REVERSE_BRANCHES	orientation classification	matter antimatter or two selected universes
+ambient_coordinate_change	CATEGORY_A_GEOMETRIC_METHOD	explicit isometry and embedding test	new UDT mechanism
+compact_quotient_period	DERIVED_CANDIDATE_INVARIANT	unmarked global discriminator	observational scale without attachment
+c_E	OBSERVED_ANCHOR_INACTIVE	not used in dimensionless quotient classification	history selector
+X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/REPLAY_COMMANDS.txt" in /return
+ succeeded in 0ms:
+python3 -S derive_unmarked_quotients.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+
+codex
+I’ve confirmed the core claim stack and the package’s own premise boundaries. Next I’m reading the upstream G319/G320 derivations and the independence/repair notes, because the review hinges on whether the G323 argument really follows from sealed formulas rather than from imported assertions or unchecked script behavior.
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G320 exact derivation — physical initial geometry after representation quotient
+
+Date: 2026-09-01
+Grade: `EXTERNALLY_ACCEPTED_BOUNDED`
+
+## Bounded landing
+
+```text
+G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION
+```
+
+This conclusion is restricted to the flat marked-`T^3`, one-coordinate, diagonal-TT, smooth
+positive periodic, sign-definite `B!=0` G319 slice. It does not classify the full constraint
+surface or choose physical initial data.
+
+## 1. Compare physical data, not conformal coordinates
+
+G319 uses the conformal presentation
+
+\[
+\gamma_{ij}=\psi^4\delta_{ij}.
+\]
+
+The physical initial datum is `(gamma,K)`, not the seed tuple. Two presentations are physically
+equivalent only when a spatial diffeomorphism carries the complete pair:
+
+\[
+(\widehat\gamma,\widehat K)=(f^*\gamma,f^*K).
+\]
+
+Consequently, raw differences in `psi`, coordinate phase, the auxiliary vector `W`, or the
+conformal seed cannot establish physical inequivalence. A scalar curvature invariant of the
+reconstructed physical metric can.
+
+## 2. Exact intrinsic separator
+
+For a three-dimensional conformal metric `gamma=psi^4 delta`, with `psi=psi(x)`,
+
+\[
+{}^{(3)}R=-8\psi^{-5}\psi'',
+\qquad
+d\mu_\gamma=\psi^6\,dx\,dy\,dz.
+\]
+
+On a periodic torus, integration by parts gives
+
+\[
+\mathcal S[\psi]
+:=\int_{T^3}{}^{(3)}R\,d\mu_\gamma
+=-8\int_{T^3}\psi\psi''\,d^3x
+=8\int_{T^3}(\psi')^2\,d^3x.
+\tag{1}
+\]
+
+Both `Vol(gamma)` and `S[psi]` are spatial-diffeomorphism invariants. Under a common constant
+rescaling `gamma -> ell^2 gamma`,
+
+\[
+\mathcal S\longmapsto \ell\mathcal S,
+\qquad
+\operatorname{Vol}^{1/3}\longmapsto \ell\operatorname{Vol}^{1/3}.
+\]
+
+Therefore
+
+\[
+\boxed{
+Q_R[\psi]
+=\frac{\mathcal S[\psi]}{\operatorname{Vol}(\gamma)^{1/3}}
+}
+\tag{2}
+\]
+
+is invariant under spatial diffeomorphisms and insensitive to an unattached common ruler scale.
+
+## 3. Same values and volume, inequivalent geometry
+
+Use the preregistered family
+
+\[
+\psi_n(x)=p+a\cos(nx),
+\qquad
+p=\frac32,
+\qquad
+a=\frac15,
+\qquad n\in\mathbb N.
+\tag{3}
+\]
+
+All members are positive. For every positive integer `n`, `cos(nx)` has the same value distribution
+on the circle, so
+
+\[
+\operatorname{Vol}(\gamma_n)
+=(2\pi)^3\left[
+p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
+\right]
+\tag{4}
+\]
+
+is independent of `n`. But
+
+\[
+\int_{T^3}(\psi_n')^2d^3x
+=(2\pi)^2\pi a^2n^2,
+\]
+
+and hence
+
+\[
+\boxed{Q_R[\psi_n]=n^2Q_R[\psi_1].}
+\tag{5}
+\]
+
+No spatial diffeomorphism can carry `gamma_n` to `gamma_m` for `n!=m`, because it would have to
+preserve `Q_R`. No conformal-seed rewrite can identify them either: a seed rewrite that represents
+the same physical metric must preserve every invariant of that metric. G319 admits every positive
+smooth periodic profile after a sufficiently large free `J0` is supplied. Equations (3)--(5)
+therefore exhibit at least a countably infinite set of genuinely inequivalent physical initial
+geometries in the registered G319 family.
+
+This is not a complete quotient. Profiles related by translations, reflections, or other lawful
+spatial diffeomorphisms remain equivalent, and G320 does not prove that every different-looking
+profile defines a different moduli point.
+
+## 4. Lawful G319 data, not merely intrinsic trial metrics
+
+For the finite replay controls `n=1,2,3,4`, set only for diagnosis
+
+\[
+d=0,
+\qquad
+\Lambda=0,
+\qquad
+J_0=100.
+\]
+
+G319 gives
+
+\[
+Z=36(\psi')^2+J_0,
+\qquad
+B=\epsilon\psi^{-3}\sqrt Z,
+\qquad
+A=F/B,
+\]
+
+with `epsilon=+1` and `epsilon=-1`. The preregistered bound
+
+\[
+Z+\psi^6F
+=36(\psi')^2+J_0+12\psi\psi''
+\ge J_0-12an^2(p+a)>0
+\]
+
+holds for all four modes. Thus `B` never vanishes and `tau=(A+B)/2` has the selected branch sign.
+Reconstructing `K` with the G319 formula gives maximum production residuals
+
+```text
+Hamiltonian       3.56e-15
+momentum          1.78e-15
+J0 drift          8.53e-14
+```
+
+over 16,384 points per mode and sign. The implementation-distinct verifier used different
+`p,a,J0`, modes `1,3,5`, and 3,072 points; it rebuilt Christoffels and Ricci by index loops and
+again obtained lawful physical data.
+
+The finite controls do not prove the arbitrary-profile theorem. G319's compactness theorem does.
+The controls prove that the registered invariant examples actually lie on the reconstructed
+constraint surface and catch implementation/sign errors.
+
+## 5. Representation controls
+
+### Spatial isometries
+
+For phase translations `psi_n(x-theta)` and reflections `psi_n(-x)`, production recomputed volume,
+total scalar curvature, `Q_R`, and volume-weighted `tr(K)`, `tr(K^2)`, and `tr(K^3)`. All remained
+equal within the registered numerical tolerance. These controls ensure that raw array differences
+are not mistaken for physics.
+
+### Conformal-seed covariance
+
+For any positive `vartheta(x)`, set
+
+\[
+\widehat{\bar\gamma}=\vartheta^4\bar\gamma,
+\qquad
+\widehat\psi=\psi/\vartheta,
+\qquad
+\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}.
+\]
+
+Then
+
+\[
+\widehat\psi^4\widehat{\bar\gamma}=\psi^4\bar\gamma,
+\qquad
+\widehat\psi^{-10}\widehat{\bar A}^{ij}=\psi^{-10}\bar A^{ij}.
+\]
+
+With unchanged `tau`, the reconstructed physical `(gamma,K)` is identical. Production and the
+independent verifier used different nonconstant `vartheta` controls. Their maximum pointwise
+metric errors were `3.56e-15` and `1.78e-15`; physical trace-free tensor errors were `1.67e-16`
+and `3.89e-16`. Different seed fields were correctly classified as the same physical datum.
+
+## 6. What the extrinsic channel adds
+
+The two signs reverse `K` while leaving the intrinsic metric and even contractions such as
+`tr(K^2)` unchanged; odd contractions reverse. Mode changes also alter the volume-weighted
+extrinsic contractions. These are useful physical characterizers of each reconstructed initial
+datum, but they are not load-bearing for the inequivalence theorem: the intrinsic `Q_R` separator
+already proves that the complete pairs cannot be diffeomorphic.
+
+## 7. Exact meaning and open boundary
+
+- `DERIVED_CONDITIONAL_IN_REGISTERED_SLICE`: equations (1)--(5).
+- `DERIVED_CONDITIONAL_IN_REGISTERED_SLICE`: at least countably many inequivalent physical initial
+  geometries occur within the G319 family.
+- `QUOTIENTED_CONTROLS`: phase, reflection, auxiliary-vector kernel, and conformal-seed duplicates.
+- `OPEN`: the complete moduli quotient of arbitrary G319 profiles.
+- `OPEN_NOT_SELECTED`: which initial data are physically occupied and how they evolve globally.
+
+Nothing here selects Nature's data, physical topology, history, population, source, matter/mass,
+observation, scale, or physical `X_max`. The UDT metric, reciprocal kernel, angular cancellation,
+and pair-readout interfaces are unchanged.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G319 exact derivation — ratio-free non-CMC constraint descent
+
+Date: 2026-09-01  
+Grade: `EXTERNALLY_ACCEPTED_BOUNDED`
+
+## Bounded landing
+
+```text
+RATIO_FREE_REGULAR_STRATUM_HAS_EXACT_QUADRATURE_AND_ARBITRARY_POSITIVE_PERIODIC_PSI__B_ZERO_REMAINS_A_COMPATIBILITY_STRATUM__G318_POWER_OBSTRUCTIONS_ARE_ANSATZ_SCOPED__NO_PHYSICAL_DATA_SELECTION
+```
+
+This is a theorem only inside the chosen flat marked-`T^3`, diagonal-TT, one-coordinate,
+sign-definite diagnostic slice registered in `PREREGISTRATION.md`. It is not a classification of
+the full non-CMC constraint surface and not a physical-history theorem.
+
+## 1. Registered conformal data
+
+Use
+
+\[
+\bar\gamma_{ij}=\delta_{ij},\qquad \psi=\psi(x)>0,
+\]
+
+and
+
+\[
+\bar A_{TT}+\bar L W
+=\operatorname{diag}\!\left(\frac{2v}{3},-\frac v3+d,-\frac v3-d\right).
+\]
+
+The exact vacuum constraints inherited conditionally from G315--G316 are
+
+\[
+v'=\psi^6\tau'
+\tag{1}
+\]
+
+and
+
+\[
+-8\psi''-\left(\frac23v^2+2d^2\right)\psi^{-7}
++\left(\frac23\tau^2-2\Lambda\right)\psi^5=0.
+\tag{2}
+\]
+
+G318 imposed the extra constant-ratio ansatz
+\(v=k\psi^6\tau\). G319 removes that assumption. The seed, torus, diagonal form, one-coordinate
+dependence, positivity, and sign choice remain chosen diagnostic restrictions.
+
+## 2. Ratio-free variables
+
+Define
+
+\[
+\lambda=v\psi^{-6},\qquad
+A=\tau+\lambda,\qquad B=\tau-\lambda,
+\qquad H=\frac{\psi'}{\psi}.
+\]
+
+Equation (1) gives
+
+\[
+\lambda'=\tau'-6H\lambda,
+\]
+
+so
+
+\[
+\boxed{B'=3H(A-B).}
+\tag{3}
+\]
+
+Multiplying (2) by \(3\psi^{-5}/2\) and using
+\(v^2\psi^{-12}=\lambda^2\) gives
+
+\[
+\tau^2-\lambda^2
+=12\psi''\psi^{-5}+3d^2\psi^{-12}+3\Lambda.
+\]
+
+Therefore
+
+\[
+\boxed{AB=F[\psi]},
+\qquad
+F[\psi]=12\psi''\psi^{-5}+3d^2\psi^{-12}+3\Lambda.
+\tag{4}
+\]
+
+No division has occurred.
+
+## 3. Exact first integral
+
+Multiplying (3) by \(2B\) and using (4),
+
+\[
+(B^2)'=6H(F-B^2).
+\]
+
+Thus
+
+\[
+(\psi^6B^2)'
+=72\psi'\psi''+18d^2\psi^{-7}\psi'+18\Lambda\psi^5\psi'.
+\]
+
+Every solution therefore obeys
+
+\[
+\boxed{
+J_0=\psi^6B^2-36(\psi')^2+3d^2\psi^{-6}-3\Lambda\psi^6,
+}
+\tag{5}
+\]
+
+where \(J_0\) is constant on the connected coordinate circle. Production verifies the derivative
+of (5) exactly on 87,586 rational constraint jets. An implementation-distinct Christoffel and
+physical-constraint calculation verifies the same result on 35,059 rational checks.
+
+## 4. Nowhere-zero regular stratum
+
+Solving (5) gives
+
+\[
+B^2=\psi^{-6}Z,
+\]
+
+with
+
+\[
+Z=36(\psi')^2-3d^2\psi^{-6}+3\Lambda\psi^6+J_0.
+\]
+
+On a connected component with \(B\ne0\), choose a fixed sign \(\epsilon=\pm1\):
+
+\[
+B=\epsilon\psi^{-3}\sqrt Z,
+\qquad
+A=\frac{F}{B}.
+\tag{6}
+\]
+
+Then
+
+\[
+\tau=\frac{A+B}{2},\qquad
+\lambda=\frac{A-B}{2},\qquad
+v=\psi^6\lambda.
+\tag{7}
+\]
+
+The physical mixed extrinsic-curvature eigenvalues are
+
+\[
+K^x{}_x=\frac{\tau+2\lambda}{3},
+\]
+
+\[
+K^y{}_y=\frac{\tau-\lambda}{3}+d\psi^{-6},
+\qquad
+K^z{}_z=\frac{\tau-\lambda}{3}-d\psi^{-6}.
+\tag{8}
+\]
+
+Direct substitution of (6)--(8) into the physical Hamiltonian and momentum constraints returns
+zero. The independent verifier rebuilds the spatial Christoffels and Ricci scalar by index loops;
+it does not import production functions or read the production output.
+
+Finally, periodic descent into the registered TT-plus-longitudinal chart is
+
+\[
+\alpha=\frac23\langle v\rangle,
+\qquad
+w'=\frac12\bigl(v-\langle v\rangle\bigr).
+\tag{9}
+\]
+
+The right side has zero mean, so a periodic \(w\) exists up to its translation kernel.
+
+## 5. Arbitrary-positive-profile theorem
+
+Let \(\psi\) be any smooth positive periodic function, and fix finite real \(d\) and \(\Lambda\).
+On the compact coordinate circle, define
+
+\[
+G=36(\psi')^2-3d^2\psi^{-6}+3\Lambda\psi^6.
+\]
+
+Both \(-G\) and \(-G-\psi^6F\) are bounded. Choose
+
+\[
+J_0>sup_x\max\{-G(x),-G(x)-\psi(x)^6F(x)\}.
+\tag{10}
+\]
+
+Then
+
+\[
+Z=G+J_0>0
+\]
+
+and
+
+\[
+B^2+F=\psi^{-6}\bigl(Z+\psi^6F\bigr)>0.
+\]
+
+Because
+
+\[
+\tau=\frac{B^2+F}{2B},
+\]
+
+the choice \(\epsilon=+1\) in (6) produces \(\tau>0\), while \(\epsilon=-1\) produces
+\(\tau<0\). All reconstructed quantities are smooth and periodic.
+
+Hence, in this registered regular stratum, the constraints admit **every** smooth positive
+periodic \(\psi\) after a sufficiently large free constraint constant \(J_0\) is supplied. This is
+an exact compactness argument, not a curve fit. The eight explicit Fourier controls in
+`PROFILE_ATLAS.tsv` are only replay witnesses; they are not the proof of the universal statement.
+
+The theorem says that these constraints do not select \(\psi\) inside this diagnostic slice. It
+does not say that arbitrary constraint data are physical histories, that the evolution is
+underdetermined, or that other slices cannot impose additional restrictions.
+
+## 6. The zero/crossing stratum
+
+Equation (5) remains valid when \(B=0\), but equation (6) does not. At a zero,
+
+\[
+\boxed{F=0}
+\tag{11}
+\]
+
+is required by (4), while (3) still gives
+
+\[
+\boxed{B'=3HA.}
+\tag{12}
+\]
+
+Thus a zero need not be stationary. Smooth sign-gluing depends on the vanishing order of the
+radicand and compatible data for \(A\). G319 verifies 324 exact compatible zero-stratum germs, but
+does not claim a global parameterization of every crossing. The correct grade is
+`COMPATIBILITY_GLUE_STRATUM_NOT_GLOBALLY_PARAMETERIZED`.
+
+## 7. What survives from G318
+
+For the G318 ansatz
+
+\[
+\tau=C\psi^n,
+\qquad
+\lambda=\frac{n}{n+6}\tau,
+\]
+
+one has
+
+\[
+A=\frac{2(n+3)}{n+6}\tau,
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/INDEPENDENT_FAILURE_AND_REPAIR.md" in /return
+ succeeded in 0ms:
+# G323 independent-verifier failure and repair
+
+The first independent run failed closed before producing `INDEPENDENT_VERIFICATION.json`.
+
+Its generic centered finite-difference derivative of the independently reconstructed Christoffel
+array gave a maximum Ricci cancellation error of `1.274324063161e-06` at `R=0.73`, above the frozen
+`5e-8` code threshold and far above the preregistered `5e-10` numerical-error ceiling.
+
+The repair did not relax a tolerance or change the candidate geometry. It replaced that noisy
+finite-difference derivative with explicit derivatives of the independently reconstructed nonzero
+connection components. The repaired Ricci route remains independent of production's exact dual-
+number metric/index implementation. Its four residuals are between `4.44e-16` and `1.14e-13`.
+
+The extrinsic check retains a separate centered derivative only for the solved embedding function;
+its maximum error is `1.224e-10`, inside the preregistered `5e-10` ceiling. The executable threshold
+was aligned to that frozen ceiling after the successful diagnostic.
+
+No scientific landing or maximum conclusion was changed.
+
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/INDEPENDENT_VERIFICATION.json" in /return
+ succeeded in 0ms:
+{
+  "ambient_ricci_numeric_independent": true,
+  "assertion_count": 33,
+  "complete_embedding_upheld": true,
+  "different_controls": true,
+  "local_isometry_and_global_modulus_upheld": true,
+  "max_extrinsic_error": 1.223864343202763e-10,
+  "max_pullback_error": 2.6645352591003757e-15,
+  "periods": {
+    "1": 4.750869207865608,
+    "2": 4.7638394044131465,
+    "3": 4.785339577757881,
+    "5": 4.853192923132354
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "schema": "udt-g323-independent-v1",
+  "status": "PASS",
+  "strict_mode_modulus_upheld": true
+}
+
+codex
+The upstream G319/G320 formulas are now in hand, and the first potential weak point is already visible: the G323 package leans on imported G321/G322 development theorems for the global boundary, so I’m reading those next to test whether the claimed quotient actually satisfies their hypotheses rather than inheriting their conclusion by label.
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G321 exact derivation — conditional local developments of G320 data
+
+Date: 2026-09-01
+
+Exact ownership stamp:
+`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+
+Exact scope stamp:
+`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+
+Exact bounded landing:
+`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+
+## 1. Scope and ownership
+
+Inside the owner-adopted provisional G310/G312 local regular metric-only scale-free vacuum arena,
+the active equation is
+
+\[
+S_{ab}:=R_{ab}-\frac14R g_{ab}=0.
+\]
+
+This equation is not derived from the earlier reciprocal representation and is not canonized.
+Contracted Bianchi gives, on each connected solution region,
+
+\[
+R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0.
+\tag{1}
+\]
+
+G321 adds no action, source, or equation. It applies the already caveated standard local geometric
+well-posedness theorem to the externally accepted G320 initial data.
+
+## 2. The supplied data
+
+The G320 control family is
+
+\[
+\psi_n(x)=\frac32+\frac15\cos(nx),\qquad
+\gamma_{ij}=\psi_n^4\delta_{ij},
+\tag{2}
+\]
+
+on the marked periodic three-torus. Since `psi_n>=13/10`, `gamma` is smooth and positive definite.
+G319 reconstructs the mixed eigenvalues of `K` from
+
+\[
+F=12\psi''\psi^{-5},\qquad
+Z=36(\psi')^2+J_0,
+\]
+
+\[
+B=\epsilon\psi^{-3}\sqrt Z,qquad A=F/B,qquad
+\tau=\frac{A+B}{2},\qquad \lambda_A=\frac{A-B}{2}.
+\tag{3}
+\]
+
+For the finite controls `J0=100`, `n=1,2,3,4`, and both `epsilon` signs,
+
+\[
+Z+\psi^6F\ge100-\frac{12}{5}n^2\frac{17}{10}>0.
+\tag{4}
+\]
+
+Thus the square root, `B`, `A`, `tau`, and `K` are smooth and `B` never vanishes. More generally,
+G319's compactness theorem supplies the same regularity for every positive integer mode after a
+sufficiently large free `J0` is supplied.
+
+## 3. The data determine the connected scalar sector
+
+For any spacelike datum, equation (1) requires
+
+\[
+\mathcal H:={}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+\]
+
+\[
+\mathcal M^i:=D_j(K^{ij}-\gamma^{ij}K)=0.
+\tag{5}
+\]
+
+Direct reconstruction gives production maxima
+
+```text
+|H|        4.45e-15
+|M|        1.78e-15
+|H/2|      2.23e-15
+```
+
+and the implementation-distinct connection/index-loop route gives
+
+```text
+|H|        2.67e-15
+|M|        1.73e-15.
+```
+
+Analytically these residuals vanish. Therefore every registered G320 control belongs to the same
+fixed sector
+
+\[
+\boxed{\Lambda=\mathcal H/2=0.}
+\tag{6}
+\]
+
+`Lambda` is not an additional choice after the complete datum is supplied.
+
+## 4. Full local principal system
+
+In harmonic coordinates, fixed-`Lambda` equation (1) has principal part
+
+\[
+-\frac12g^{cd}\partial_c\partial_d g_{ab}.
+\tag{7}
+\]
+
+The raw trace-free output projector has algebraic rank nine. Bianchi completion and the value (6)
+restore the full ten-component fixed-sector metric-wave system. The exact production rank audit
+gives
+
+\[
+\operatorname{rank}P_{\mathrm{TF}}=9,
+\qquad
+\operatorname{rank}P_{\Lambda=0}=10.
+\tag{8}
+\]
+
+The characteristic equation is the supplied metric null cone. Constancy of `Lambda` leaves the
+harmonic gauge-constraint propagation system homogeneous.
+
+## 5. Conditional geometric uniqueness
+
+The registered data satisfy every interface hypothesis exposed in G303/G315, with each evidence
+type kept explicit rather than represented by an unconditional executable boolean:
+
+- smooth compact boundary-free initial manifold;
+- smooth positive-definite `gamma`;
+- smooth symmetric `K`;
+- all four constraints (5);
+- one fixed connected `Lambda` sector;
+- full fixed-sector metric-wave principal system;
+- homogeneous gauge-constraint propagation.
+
+The first six items are supported by domain definitions, analytic regularity, constraint
+identities with two numerical backward-error replays, and exact finite-dimensional principal-rank
+algebra. Homogeneous gauge propagation is a formal Bianchi consequence within the standard
+harmonic reduction. The existence/uniqueness and geometric gauge-quotient theorem itself remains
+an imported conditional mathematical method; G321 does not machine-prove that theorem.
+
+Conditional on the imported standard smooth harmonic-gauge quasilinear-wave existence,
+uniqueness, and gauge-propagation theorems, each fixed datum therefore has a smooth local
+development. Two developments from the same datum are related by a spacetime diffeomorphism that
+commutes with the initial embeddings.
+
+This conditional theorem application is the load-bearing uniqueness step. Computing one immediate
+right-hand side does not prove a PDE theorem.
+
+## 6. Immediate geometric response
+
+As an independent interface check, choose only the presentation gauge `N=1`, `beta=0`. Then
+
+\[
+\partial_t\gamma_{ij}=-2K_{ij},
+\]
+
+\[
+\partial_tK_{ij}={}^{(3)}R_{ij}+K K_{ij}-2K_i{}^kK_{kj}
+\tag{9}
+\]
+
+for the registered `Lambda=0` controls. Every term on the right is a deterministic function of the
+complete supplied datum. The independent verifier reconstructs `R_ij` from Christoffel and Ricci
+index loops and agrees with the closed scalar formula to `1.34e-15`. No second right-hand side or
+extra reciprocal-kernel evolution channel appears.
+
+Lapse and shift describe the presentation of the same geometric development. Changing them does
+not produce new physical data or another local history.
+
+## 7. The two signs are time reverses
+
+Changing the G319 sign gives
+
+\[
+(\gamma,K)\longmapsto(\gamma,-K).
+\]
+
+Equation (9) then gives
+
+\[
+\partial_t\gamma\longmapsto-\partial_t\gamma,
+\qquad
+\partial_tK\longmapsto\partial_tK.
+\tag{10}
+\]
+
+Production checks (10) pointwise for all modes and obtains zero independent maximum parity error.
+The signs are two complete initial data related by time reversal, not two inequivalent futures from
+one fixed `(gamma,K)` datum.
+
+## 8. Different modes give different marked developments
+
+G320's intrinsic invariant obeys
+
+\[
+Q_R[\psi_n]=n^2Q_R[\psi_1].
+\tag{11}
+\]
+
+Any isometry between marked developments that commutes with their initial embeddings must pull
+back the complete initial data and hence preserve `Q_R`. Equation (11) forbids such an equivalence
+for `n!=m`.
+
+This does not prove that two unmarked maximal spacetimes could never contain these geometries as
+different slices. That global refoliation/realization quotient was preregistered as open.
+
+## 9. Exact landing and boundary
+
+Within the registered smooth local G320/G319 slice, the demonstrated breadth is ordinary Cauchy-
+data freedom: each fixed lawful datum conditionally has one local marked development up to
+diffeomorphism. There is no remaining missing **local** propagation equation inside this adopted
+bounded arena.
+
+Still open are physical occupancy, global existence and completeness, singularities, stability,
+unmarked same-spacetime classification, topology, population, source, matter/mass, observation,
+scale, physical `X_max`, and extension beyond the active regular local metric-only vacuum arena.
+The UDT metric, reciprocal kernel, angular cancellation, and observational interfaces are unchanged.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G323 internal audit report
+
+Date: 2026-09-01
+Status: `INTERNALLY_VERIFIED_PENDING_FRESH_EXTERNAL_REVIEW`
+
+## Result
+
+```text
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+__NO_OCCUPANCY_SELECTION
+```
+
+## Findings
+
+1. Every registered G320 profile and sign embeds with its complete first and second fundamental
+   forms in the explicit local metric `-R/mu dR^2 + mu/R dX^2 + R^2(dy^2+dz^2)`.
+2. Direct tensor calculation gives `Ric=0` and Kretschmann scalar `12 mu^2/R^6`.
+3. Thus the arbitrary profile is locally a refoliation/Cauchy-graph freedom in this LRS slice.
+4. Compact injectivity forces a global `X` period. The lattice-shape ratio
+   `Q_X=L_X/sqrt(L_y L_z)` survives all local parameter rescalings and isometry-allowed lattice
+   changes.
+5. `L_X(n)` is strictly increasing for every positive integer mode. The registered `n=1` and
+   `n=2` maximal quotients are therefore globally inequivalent even after the initial marking is
+   forgotten.
+6. Opposite `K` signs give the same time-unoriented metric quotient and opposite time orientations.
+   The nonzero timelike gradient of the Kretschmann scalar forbids an orientation-preserving
+   identification between those orientations.
+7. The result classifies the diagnostic family. It selects no physical datum, topology, quotient,
+   orientation, scale, or universe.
+8. The provisional field equation, UDT metric, reciprocal kernel, angular cancellation, and
+   observational interfaces are unchanged.
+
+## Raw gates
+
+- production: 78 assertions; maximum pullback error `8.882e-15`; maximum extrinsic error
+  `9.992e-16`;
+- independent: 33 assertions with different controls; maximum pullback error `2.665e-15` and
+  maximum extrinsic error `1.224e-10`;
+- independent Ricci residuals: `4.44e-16` to `1.14e-13` after the documented failed-closed repair;
+- hostile mutations: 13/13 caught;
+- finite production periods: `6.5545166850`, `6.6232264275`, `6.7354404967`, `6.8880830208`.
+- exact 305-row premise registry and startup guards: pass;
+- full repository suite: `217 passed, 1 xfailed`.
+
+## Boundary
+
+This does not cover the full G319 moduli space, non-LRS data, `d` or `Lambda` nonzero, `B=0`
+crossings, matter/source sectors, stability, physical topology/occupancy, an observational scale,
+or full UDT. The G322 maximal-development theorem remains imported and conditional.
+
+Fresh external adversarial review is required before an externally accepted grade.
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G322 audit report — maximal globally hyperbolic development
+
+Date: 2026-09-01
+Status: `EXTERNALLY_ACCEPTED_CONDITIONAL__REPAIRS_R1_R2_ACCEPTED`
+
+Ownership:
+`MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__CONDITIONAL_ON_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM`.
+
+Scope:
+`NO_CLAIM__GEODESIC_COMPLETENESS_OR_SINGULARITY_FREEDOM_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_CLASSIFICATION`.
+
+Landing:
+`FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY`.
+
+## Result
+
+The bounded global-Cauchy gate passes conditionally. Each fixed complete G321 datum matches the
+standard imported maximal-development theorem: the datum is smooth and lawful, its connected
+sector is exactly `Ric=0`, and G321 supplies the conditional local-development interface. The
+theorem then gives one maximal globally hyperbolic marked development per datum, up to a
+data-preserving isometry.
+
+This is not a native derivation of the theorem and not selection of a physical datum.
+
+## Raw gates
+
+| Gate | Production | Independent |
+|---|---:|---:|
+| Trace-free principal rank | 9 | source/interface cross-check |
+| Fixed-`Lambda` principal rank | 10 | direct geometric reconstruction |
+| Maximum Hamiltonian residual | `3.552713678800501e-15` | `2.6645352591003757e-15` |
+| Maximum momentum residual | `1.7763568394002505e-15` | `1.6653345369377348e-15` |
+| Direct Ricci anchor error | formula route | `1.3322676295501878e-15` |
+| Time-reversal error | exact branch construction | `0.0` |
+| Production machine assertions | 62 | — |
+| Independent assertions | — | 19 |
+
+Production used modes `1,2,3,4`; the independent direct connection/Ricci implementation used
+modes `1,3,5`, different profile controls, and did not import production or read its result.
+
+## Theorem boundary
+
+The bounded authenticated official-abstract evidence says the maximal development extends every
+other development of the same constraint data and supports unique maximal placement for a solution
+with a Cauchy surface. G322 imports that global mathematical result. Executable evidence only audits
+that the UDT bounded sector and data match the theorem interface.
+
+## Completeness boundary
+
+Covered: one maximal globally hyperbolic development per fixed datum in the registered marked
+`T^3`, `Lambda=0` family.
+
+Open: which datum is occupied; geodesic completeness; singularities; stability; Cauchy-horizon or
+other non-GH extensions; unmarked cross-datum refoliation; full data moduli; scale; source;
+matter/mass; observation; physical `X_max`; full UDT extension.
+
+## Banking gates
+
+1. Preregistered at commit `8bf4aedb`: yes.
+2. Full space or bounded scope justified: bounded registered family, explicitly justified.
+3. Independently verified: yes, implementation-distinct local reconstruction; global theorem stays imported.
+4. Every premise audited: yes; fresh review retained the bounded landing and repair-only follow-up
+   accepted R1/R2.
+
+Current grade: externally accepted conditional, within the exact bounded scope above.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/COMPLETENESS_MAP.md" in /return
+ succeeded in 0ms:
+# G323 completeness map
+
+Date: 2026-09-01
+
+| Criterion | Covered | Dropped / open |
+|---|---|---|
+| Fields | complete `(gamma,K)` and one explicit Ricci-flat ambient metric | matter, source, other coframe fields |
+| Equation | active bounded `Ric=0` sector | higher-order, nonlocal, sourced, singular UDT arenas |
+| Data | smooth positive periodic one-coordinate LRS G319/G320 branch with `J0>0` | `d!=0`, `Lambda!=0`, nondiagonal, multidimensional, `B=0` crossings |
+| Domain | compact `T^3` quotient and its explicit Cauchy graph | other topology, boundaries, topology change |
+| Gauge | initial marking forgotten; time orientation retained and forgotten separately | arbitrary physical population/occupancy quotient |
+| Modes | analytic all positive integer modes; finite controls `n=1..4` | arbitrary nonperiodic profiles and full moduli |
+| Dynamics | explicit whole Ricci-flat quotient plus conditional G322 MGHD identification | sourced dynamics, stability, perturbations |
+| Global equivalence | quotient modulus and opposite-`K` reversal in registered family | complete isometry classification outside the family |
+| Scale | dimensionless compact-lattice shape ratio only | physical ruler attachment, observation, `X_max` |
+
+The result may collapse profile freedom into refoliation while retaining a global quotient modulus.
+It cannot choose a physically occupied quotient, topology, datum, orientation, or scale.
+
+
+codex
+Plan from here:
+1. Recompute the ambient curvature and the full embedding data directly from the sealed formulas.
+2. Trace the quotient and maximal-development argument against the exact G321/G322 theorem interfaces.
+3. Stress-test the claimed invariants, monotonicity, and opposite-`K` classification, then audit the replay/repair machinery in `/work` without touching `/intake`.
+Substantial adversarial review of the sealed G323 package.
+  ✓ Read sealed package, upstream formulas, and replay instructions
+  → Independently rederive ambient metric curvature and embedding forms
+  • Audit global quotient, MGHD boundary, invariants, and monotonicity claims
+  • Replay bounded checks in /work and audit independence/repair/manifests
+  • Write adversarial verdict with required repairs
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/derive_unmarked_quotients.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""G323 production: explicit unmarked compact-quotient classification."""
+
+import csv
+from fractions import Fraction
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+P = 1.5
+AMP = 0.2
+J0 = 100.0
+MU = J0 / 9.0
+MODES = (1, 2, 3, 4)
+SIGNS = (-1, 1)
+SAMPLES = 16384
+TWO_PI = 2.0 * math.pi
+CHECKS = []
+LANDING = (
+    "REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_"
+    "TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_"
+    "AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_"
+    "TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION"
+)
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+class Dual:
+    """Exact value and first derivative in R for the tensor audit."""
+
+    __slots__ = ("v", "d")
+
+    def __init__(self, value, derivative=0):
+        self.v = Fraction(value)
+        self.d = Fraction(derivative)
+
+    @staticmethod
+    def lift(other):
+        return other if isinstance(other, Dual) else Dual(other)
+
+    def __add__(self, other):
+        other = self.lift(other)
+        return Dual(self.v + other.v, self.d + other.d)
+
+    __radd__ = __add__
+
+    def __neg__(self):
+        return Dual(-self.v, -self.d)
+
+    def __sub__(self, other):
+        return self + (-self.lift(other))
+
+    def __rsub__(self, other):
+        return self.lift(other) - self
+
+    def __mul__(self, other):
+        other = self.lift(other)
+        return Dual(self.v * other.v, self.d * other.v + self.v * other.d)
+
+    __rmul__ = __mul__
+
+    def __truediv__(self, other):
+        other = self.lift(other)
+        return Dual(
+            self.v / other.v,
+            (self.d * other.v - self.v * other.d) / (other.v * other.v),
+        )
+
+    def __rtruediv__(self, other):
+        return self.lift(other) / self
+
+
+def exact_ambient_tensor_audit(r_value, mu_value):
+    """Build Gamma, Ricci, and Kretschmann by exact index loops."""
+    r = Fraction(r_value)
+    mu = Fraction(mu_value)
+    g = [
+        Dual(-r / mu, -1 / mu),
+        Dual(mu / r, -mu / (r * r)),
+        Dual(r * r, 2 * r),
+        Dual(r * r, 2 * r),
+    ]
+    dg = [
+        Dual(-1 / mu, 0),
+        Dual(-mu / (r * r), 2 * mu / (r ** 3)),
+        Dual(2 * r, 2),
+        Dual(2 * r, 2),
+    ]
+    inv = [1 / item for item in g]
+    gamma = [[[Dual(0) for _ in range(4)] for _ in range(4)] for _ in range(4)]
+    for upper in range(4):
+        for lower_1 in range(4):
+            for lower_2 in range(4):
+                total = Dual(0)
+                # Diagonal metric: only contracted index equal to upper contributes.
+                contracted = upper
+                term = Dual(0)
+                if lower_1 == 0 and contracted == lower_2:
+                    term += dg[contracted]
+                if lower_2 == 0 and contracted == lower_1:
+                    term += dg[contracted]
+                if contracted == 0 and lower_1 == lower_2:
+                    term -= dg[lower_1]
+                total += inv[upper] * term / 2
+                gamma[upper][lower_1][lower_2] = total
+
+    ricci = [[Fraction(0) for _ in range(4)] for _ in range(4)]
+    for left in range(4):
+        for right in range(4):
+            total = Fraction(0)
+            for a in range(4):
+                if a == 0:
+                    total += gamma[a][left][right].d
+                if right == 0:
+                    total -= gamma[a][left][a].d
+                for b in range(4):
+                    total += gamma[a][a][b].v * gamma[b][left][right].v
+                    total -= gamma[a][right][b].v * gamma[b][left][a].v
+            ricci[left][right] = total
+
+    rup = [[[[Fraction(0) for _ in range(4)] for _ in range(4)]
+            for _ in range(4)] for _ in range(4)]
+    for upper in range(4):
+        for lower in range(4):
+            for c in range(4):
+                for d in range(4):
+                    total = Fraction(0)
+                    if c == 0:
+                        total += gamma[upper][d][lower].d
+                    if d == 0:
+                        total -= gamma[upper][c][lower].d
+                    for e in range(4):
+                        total += gamma[upper][c][e].v * gamma[e][d][lower].v
+                        total -= gamma[upper][d][e].v * gamma[e][c][lower].v
+                    rup[upper][lower][c][d] = total
+
+    kretschmann = Fraction(0)
+    for a in range(4):
+        for b in range(4):
+            for c in range(4):
+                for d in range(4):
+                    lowered = g[a].v * rup[a][b][c][d]
+                    kretschmann += (
+                        inv[a].v * inv[b].v * inv[c].v * inv[d].v
+                        * lowered * lowered
+                    )
+    return ricci, kretschmann
+
+
+def profile_jet(x_value, mode, p=P, amplitude=AMP):
+    u = mode * x_value
+    return (
+        p + amplitude * math.cos(u),
+        -amplitude * mode * math.sin(u),
+        -amplitude * mode * mode * math.cos(u),
+    )
+
+
+def embedding_row(x_value, mode, sign):
+    psi, psi_1, psi_2 = profile_jet(x_value, mode)
+    z_value = 36.0 * psi_1 * psi_1 + J0
+    root_z = math.sqrt(z_value)
+    b_value = sign * psi ** -3 * root_z
+    b_1 = b_value * (
+        -3.0 * psi_1 / psi + 36.0 * psi_1 * psi_2 / z_value
+    )
+    f_value = 12.0 * psi_2 * psi ** -5
+    a_value = f_value / b_value
+    kx_expected = (3.0 * a_value - b_value) / 6.0
+    ky_expected = b_value / 3.0
+
+    r_value = psi * psi
+    r_1 = 2.0 * psi * psi_1
+    r_2 = 2.0 * (psi_1 * psi_1 + psi * psi_2)
+    x_1 = -3.0 * b_value * psi ** 6 / J0
+    x_2 = -3.0 * (b_1 * psi ** 6 + 6.0 * b_value * psi ** 5 * psi_1) / J0
+
+    induced_xx = -(r_value / MU) * r_1 ** 2 + (MU / r_value) * x_1 ** 2
+    normal_r = MU * x_1 / r_value ** 2
+    normal_x = r_1 / MU
+    normal_norm = -(r_value / MU) * normal_r ** 2 + (MU / r_value) * normal_x ** 2
+    normal_tangent = (
+        -(r_value / MU) * normal_r * r_1
+        + (MU / r_value) * normal_x * x_1
+    )
+
+    # Nonzero ambient Christoffels needed by the embedded curve.
+    gamma_r_rr = 1.0 / (2.0 * r_value)
+    gamma_r_xx = -MU * MU / (2.0 * r_value ** 3)
+    gamma_x_rx = -1.0 / (2.0 * r_value)
+    n_cov_r = -x_1 / r_value
+    n_cov_x = r_1 / r_value
+    k_xx = (
+        n_cov_r * (r_2 + gamma_r_rr * r_1 ** 2 + gamma_r_xx * x_1 ** 2)
+        + n_cov_x * (x_2 + 2.0 * gamma_x_rx * r_1 * x_1)
+    )
+    kx_embedded = k_xx / induced_xx
+    ky_embedded = -MU * x_1 / r_value ** 3
+
+    # Four-curvature reconstructed on the slice: magnetic part vanishes in this LRS branch.
+    e_x = -J0 / (9.0 * psi ** 6)
+    e_y = J0 / (18.0 * psi ** 6)
+    c2_from_data = 8.0 * (e_x * e_x + 2.0 * e_y * e_y)
+    c2_ambient = 12.0 * MU * MU / r_value ** 6
+    return {
+        "psi": psi,
+        "B": b_value,
+        "X_prime": x_1,
+        "pullback_error": abs(induced_xx - psi ** 4),
+        "normal_norm_error": abs(normal_norm + 1.0),
+        "normal_tangent_error": abs(normal_tangent),
+        "kx_error": abs(kx_embedded - kx_expected),
+        "ky_error": abs(ky_embedded - ky_expected),
+        "curvature_join_error": abs(c2_from_data - c2_ambient),
+    }
+
+
+# Exact ambient checks at several rational points, using tensor construction rather than a name.
+for r_exact, mu_exact in ((Fraction(2, 3), Fraction(5, 7)),
+                          (Fraction(7, 5), Fraction(11, 4)),
+                          (Fraction(13, 6), Fraction(17, 9))):
+    ricci, kret = exact_ambient_tensor_audit(r_exact, mu_exact)
+    check(f"ambient Ricci exact R={r_exact} mu={mu_exact}",
+          all(value == 0 for row in ricci for value in row))
+    check(f"ambient Kretschmann exact R={r_exact} mu={mu_exact}",
+          kret == 12 * mu_exact * mu_exact / (r_exact ** 6))
+
+# Exact local-isometry component identities for an arbitrary rational scale.
+for scale in (Fraction(2, 3), Fraction(5, 4), Fraction(7, 2)):
+    r0 = Fraction(11, 7)
+    mu0 = Fraction(13, 9)
+    r_star = scale * r0
+    mu_star = scale ** 3 * mu0
+    check("local isometry RR", -(r_star / mu_star) * scale ** 2 == -r0 / mu0)
+    check("local isometry XX", (mu_star / r_star) / scale ** 2 == mu0 / r0)
+    check("local isometry YY", r_star ** 2 / scale ** 2 == r0 ** 2)
+
+atlas = []
+for mode in MODES:
+    for sign in SIGNS:
+        rows = [
+            embedding_row(TWO_PI * index / SAMPLES, mode, sign)
+            for index in range(SAMPLES)
+        ]
+        period_x = TWO_PI * math.fsum(abs(row["X_prime"]) for row in rows) / SAMPLES
+        summary = {
+            "mode": mode,
+            "sign": sign,
+            "L_X": period_x,
+            "Q_X": period_x / TWO_PI,
+            "min_abs_X_prime": min(abs(row["X_prime"]) for row in rows),
+            "max_pullback_error": max(row["pullback_error"] for row in rows),
+            "max_normal_norm_error": max(row["normal_norm_error"] for row in rows),
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/package/verify_independent.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct G323 verification; does not import/read production."""
+
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+P = 7.0 / 5.0
+AMP = 1.0 / 9.0
+J0 = 121.0
+MU = J0 / 9.0
+MODES = (1, 2, 3, 5)
+N = 6144
+TAU = 2.0 * math.pi
+CHECKS = []
+
+
+def need(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def metric(r):
+    return (-r / MU, MU / r, r * r, r * r)
+
+
+def metric_prime(r):
+    return (-1.0 / MU, -MU / (r * r), 2.0 * r, 2.0 * r)
+
+
+def connection(r):
+    g = metric(r)
+    gp = metric_prime(r)
+    inv = tuple(1.0 / value for value in g)
+    out = [[[0.0] * 4 for _ in range(4)] for _ in range(4)]
+    for a in range(4):
+        for b in range(4):
+            for c in range(4):
+                k = a
+                term = 0.0
+                if b == 0 and k == c:
+                    term += gp[k]
+                if c == 0 and k == b:
+                    term += gp[k]
+                if k == 0 and b == c:
+                    term -= gp[b]
+                out[a][b][c] = 0.5 * inv[a] * term
+    return out
+
+
+def ricci_from_closed_connection(r):
+    """Differentiate the independently reconstructed nonzero connection explicitly."""
+    g0 = connection(r)
+    deriv = [[[0.0] * 4 for _ in range(4)] for _ in range(4)]
+    deriv[0][0][0] = -1.0 / (2.0 * r * r)
+    deriv[0][1][1] = 3.0 * MU * MU / (2.0 * r ** 4)
+    deriv[1][0][1] = 1.0 / (2.0 * r * r)
+    deriv[1][1][0] = deriv[1][0][1]
+    deriv[2][0][2] = -1.0 / (r * r)
+    deriv[2][2][0] = deriv[2][0][2]
+    deriv[3][0][3] = -1.0 / (r * r)
+    deriv[3][3][0] = deriv[3][0][3]
+    ric = [[0.0] * 4 for _ in range(4)]
+    for b in range(4):
+        for d in range(4):
+            value = 0.0
+            for a in range(4):
+                if a == 0:
+                    value += deriv[a][b][d]
+                if d == 0:
+                    value -= deriv[a][b][a]
+                for e in range(4):
+                    value += g0[a][a][e] * g0[e][b][d]
+                    value -= g0[a][d][e] * g0[e][b][a]
+            ric[b][d] = value
+    return ric
+
+
+for r in (0.73, 1.41, 2.87, 5.13):
+    residual = max(abs(value) for row in ricci_from_closed_connection(r) for value in row)
+    print(f"independent Ricci diagnostic R={r}: {residual:.12e}")
+    need(f"independent ambient Ricci R={r}", residual < 5e-12)
+
+
+def independent_row(x, mode, sign):
+    u = mode * x
+    psi = P + AMP * math.cos(u)
+    p1 = -AMP * mode * math.sin(u)
+    p2 = -AMP * mode * mode * math.cos(u)
+    r = psi * psi
+    r1 = 2.0 * psi * p1
+    r2 = 2.0 * (p1 * p1 + psi * p2)
+    root = math.sqrt(36.0 * p1 * p1 + J0)
+    b = sign * root / (psi ** 3)
+    f = 12.0 * p2 / (psi ** 5)
+    expected = ((3.0 * f / b - b) / 6.0, b / 3.0, b / 3.0)
+
+    # Solve the first fundamental form for |X'| instead of importing the production formula.
+    xp_mag = math.sqrt((r / MU) * (psi ** 4 + (r / MU) * r1 * r1))
+    xp = -sign * xp_mag
+    # Central differentiation of the independently solved X' for the longitudinal K control.
+    h = 1.0e-5
+    def xp_at(xx):
+        uu = mode * xx
+        ps = P + AMP * math.cos(uu)
+        dps = -AMP * mode * math.sin(uu)
+        rr = ps * ps
+        rr1 = 2.0 * ps * dps
+        mag = math.sqrt((rr / MU) * (ps ** 4 + (rr / MU) * rr1 * rr1))
+        return -sign * mag
+    xp2 = (xp_at(x + h) - xp_at(x - h)) / (2.0 * h)
+    nr = MU * xp / (r * r)
+    nx = r1 / MU
+    ncov_r = -(r / MU) * nr
+    ncov_x = (MU / r) * nx
+    grrr = 1.0 / (2.0 * r)
+    grxx = -MU * MU / (2.0 * r ** 3)
+    gxrx = -1.0 / (2.0 * r)
+    kxx = (
+        ncov_r * (r2 + grrr * r1 * r1 + grxx * xp * xp)
+        + ncov_x * (xp2 + 2.0 * gxrx * r1 * xp)
+    ) / (psi ** 4)
+    kyy = -MU * xp / (r ** 3)
+    induced = -(r / MU) * r1 * r1 + (MU / r) * xp * xp
+    return abs(xp), abs(induced - psi ** 4), abs(kxx - expected[0]), abs(kyy - expected[1])
+
+
+periods = {}
+max_pullback = 0.0
+max_k = 0.0
+for mode in MODES:
+    sign_periods = []
+    for sign in (-1, 1):
+        rows = [independent_row(TAU * (i + 0.5) / N, mode, sign) for i in range(N)]
+        period = TAU * math.fsum(row[0] for row in rows) / N
+        sign_periods.append(period)
+        max_pullback = max(max_pullback, max(row[1] for row in rows))
+        max_k = max(max_k, max(max(row[2], row[3]) for row in rows))
+        need(f"independent pullback n={mode} sign={sign}", max(row[1] for row in rows) < 5e-11)
+        need(f"independent K n={mode} sign={sign}", max(max(row[2], row[3]) for row in rows) < 5e-10)
+    need(f"independent sign period n={mode}", abs(sign_periods[0] - sign_periods[1]) < 5e-13)
+    periods[mode] = sign_periods[0]
+
+for lower, upper in zip(MODES, MODES[1:]):
+    need(f"independent strict period {lower}->{upper}", periods[upper] > periods[lower])
+
+# Local metric rescaling isometry and quotient ratio invariance, tested separately.
+for scale in (0.61, 1.37, 2.2):
+    r = 1.73
+    mu = 2.41
+    target = (
+        -(scale * r) / (scale ** 3 * mu) * scale ** 2,
+        (scale ** 3 * mu) / (scale * r) / scale ** 2,
+        (scale * r) ** 2 / scale ** 2,
+    )
+    source = (-r / mu, mu / r, r * r)
+    need(f"independent local isometry scale={scale}",
+         max(abs(a - b) for a, b in zip(target, source)) < 2e-14)
+    lx, ly, lz = 3.7, 5.2, 6.1
+    q0 = lx / math.sqrt(ly * lz)
+    q1 = (lx / scale) / math.sqrt((ly / scale) * (lz / scale))
+    need(f"independent quotient modulus scale={scale}", abs(q0 - q1) < 2e-15)
+
+result = {
+    "schema": "udt-g323-independent-v1",
+    "status": "PASS",
+    "assertion_count": len(CHECKS),
+    "production_imported": False,
+    "production_result_read": False,
+    "different_controls": True,
+    "ambient_ricci_numeric_independent": True,
+    "complete_embedding_upheld": True,
+    "strict_mode_modulus_upheld": True,
+    "local_isometry_and_global_modulus_upheld": True,
+    "max_pullback_error": max_pullback,
+    "max_extrinsic_error": max_k,
+    "periods": {str(key): value for key, value in periods.items()},
+}
+(HERE / "INDEPENDENT_VERIFICATION.json").write_text(
+    json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+print(f"G323 independent PASS: {len(CHECKS)} assertions")
+print(f"max pullback error: {max_pullback:.3e}")
+print(f"max extrinsic error: {max_k:.3e}")
+
+exec
+/bin/bash -lc "sed -n '1,280p' /intake/package/run_catch_proofs.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile contract checks for G323."""
+
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+CAUGHT = []
+
+
+def catch(label, condition):
+    if not condition:
+        raise AssertionError(f"hostile mutation escaped: {label}")
+    CAUGHT.append(label)
+
+
+psi = 1.6
+p1 = 0.17
+j0 = 100.0
+mu = j0 / 9.0
+r = psi * psi
+r1 = 2.0 * psi * p1
+b = psi ** -3 * math.sqrt(36.0 * p1 * p1 + j0)
+xp = -3.0 * b * psi ** 6 / j0
+
+def pullback(mu_value, xp_value):
+    return -(r / mu_value) * r1 * r1 + (mu_value / r) * xp_value * xp_value
+
+catch("wrong mu factor", abs(pullback(j0 / 8.0, xp) - psi ** 4) > 1e-3)
+catch("wrong X prime factor", abs(pullback(mu, 2.0 * xp) - psi ** 4) > 1e-3)
+catch("omitted X channel", abs(pullback(mu, 0.0) - psi ** 4) > 1e-3)
+catch("extrinsic sign loss", abs((-mu * (-xp) / r ** 3) - b / 3.0) > 1e-3)
+catch("period is not slice Q_R", "L_X" != "Q_R")
+catch("primitive divisor rejected", 2 > 1)
+catch("time orientation retained separately", "time_oriented" != "time_unoriented")
+catch("compact modulus is not local Ricci scalar", "Q_X" != "Ricci")
+catch("mode is not occupancy", "mode_control" != "occupied_universe")
+catch("local common form is not global equality", "local_isometry" != "global_quotient_isometry")
+catch("no physical scale selected", "dimensionless_lattice_ratio" != "physical_ruler")
+catch("no kernel mutation", "classification" != "kernel_change")
+catch("no Xmax selection", "compact_period" != "X_max")
+
+result = {
+    "schema": "udt-g323-hostile-v1",
+    "status": "PASS",
+    "mutation_count": len(CAUGHT),
+    "caught_count": len(CAUGHT),
+    "caught": CAUGHT,
+}
+(HERE / "CATCH_PROOF_RESULT.json").write_text(
+    json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+print(f"G323 hostile PASS: {len(CAUGHT)}/{len(CAUGHT)} caught")
+
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/package/verify_package.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate no-write-input verifier for the internally verified G323 package."""
+
+import ast
+import csv
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+LANDING = (
+    "REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_"
+    "TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_"
+    "AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_"
+    "TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION"
+)
+REQUIRED = (
+    "MAP.md", "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "PREREGISTRATION.md",
+    "PREREGISTRATION_ANCESTRY.md", "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt",
+    "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
+    "verify_package.py", "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+    "CATCH_PROOF_RESULT.json", "QUOTIENT_ATLAS.tsv", "INDEPENDENT_FAILURE_AND_REPAIR.md",
+    "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md",
+    "AUDIT_REPORT.md", "RUN_RECORD.md",
+)
+
+
+def need(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+def main():
+    for name in REQUIRED:
+        need((HERE / name).is_file(), f"missing {name}")
+
+    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    hostile = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    need(production["status"] == "PASS_PENDING_EXTERNAL_REVIEW", "production status")
+    need(production["landing"] == LANDING, "production landing")
+    need(production["assertion_count"] >= 78, "production assertion floor")
+    for key in (
+        "ambient_ricci_flat_exact", "complete_data_embedding_pass",
+        "profiles_are_local_refoliations", "primitive_period_formula_pass",
+        "mode_period_strictly_increasing", "n1_n2_unmarked_compact_quotients_distinct",
+        "opposite_K_same_time_unoriented_metric", "opposite_K_time_orientations_distinct",
+    ):
+        need(production[key] is True, f"production gate absent: {key}")
+    for key in (
+        "physical_occupancy_selected", "unique_universe_selected", "physical_scale_selected",
+        "Xmax_selected", "metric_changed", "kernel_changed", "angular_cancellation_changed",
+    ):
+        need(production[key] is False, f"forbidden promotion: {key}")
+    need(production["max_pullback_error"] < 2e-11, "production pullback")
+    need(production["max_extrinsic_error"] < 2e-11, "production extrinsic")
+    need(production["max_curvature_join_error"] < 2e-11, "production curvature join")
+
+    need(independent["status"] == "PASS", "independent status")
+    need(independent["assertion_count"] >= 33, "independent assertion floor")
+    need(independent["production_imported"] is False, "independent production import")
+    need(independent["production_result_read"] is False, "independent production read")
+    need(independent["complete_embedding_upheld"] is True, "independent embedding")
+    need(independent["strict_mode_modulus_upheld"] is True, "independent mode modulus")
+    need(independent["local_isometry_and_global_modulus_upheld"] is True,
+         "independent local/global split")
+    need(independent["max_pullback_error"] < 5e-10, "independent pullback")
+    need(independent["max_extrinsic_error"] < 5e-10, "independent extrinsic")
+    need(hostile["status"] == "PASS", "hostile status")
+    need(hostile["caught_count"] == hostile["mutation_count"] >= 13, "hostile catches")
+
+    with (HERE / "QUOTIENT_ATLAS.tsv").open(encoding="utf-8", newline="") as handle:
+        atlas = list(csv.DictReader(handle, delimiter="\t"))
+    need(len(atlas) == 8, "atlas row count")
+    need({row["mode"] for row in atlas} == {"1", "2", "3", "4"}, "atlas modes")
+    need({row["sign"] for row in atlas} == {"-1", "1"}, "atlas signs")
+    for sign in ("-1", "1"):
+        rows = sorted((row for row in atlas if row["sign"] == sign), key=lambda row: int(row["mode"]))
+        need(all(float(b["L_X"]) > float(a["L_X"]) for a, b in zip(rows, rows[1:])),
+             f"period monotonic sign={sign}")
+    for mode in ("1", "2", "3", "4"):
+        rows = [row for row in atlas if row["mode"] == mode]
+        need(abs(float(rows[0]["L_X"]) - float(rows[1]["L_X"])) < 2e-13,
+             f"sign period mode={mode}")
+
+    exact = (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    lay = " ".join((HERE / "LAY_REPORT.md").read_text(encoding="utf-8").split())
+    prereg = (HERE / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    failure = (HERE / "INDEPENDENT_FAILURE_AND_REPAIR.md").read_text(encoding="utf-8")
+    for token in (
+        "The common local spacetime", "Exact embedding of the complete data",
+        "The forced global quotient period", "L_X(n+1)>L_X(n)",
+        "same unmarked metric spacetime", "G322's imported-theorem ownership",
+        "metric/kernel/angular sector are\nunchanged",
+    ):
+        need(token in exact, f"exact guard missing: {token}")
+    for token in (
+        "same Ricci-flat spacetime geometry", "closure number is strictly different",
+        "same underlying spacetime with its direction of time reversed",
+        "does not choose which compact quotient Nature occupies",
+        "does not alter the UDT metric, reciprocal kernel, angular cancellation",
+    ):
+        need(token in lay, f"lay guard missing: {token}")
+    for token in (
+        "PREREGISTERED_CONFIRMATION_AFTER_EXPLORATORY_WHITEBOARD",
+        "Candidate common ambient metric", "primitive `X` period",
+        "Possible landings", "may not select physical data",
+    ):
+        need(token.lower() in prereg.lower(), f"prereg guard missing: {token}")
+    for token in (
+        "first independent run failed closed", "1.274324063161e-06",
+        "did not relax a tolerance", "No scientific landing",
+    ):
+        need(token in failure, f"repair record missing: {token}")
+
+    independent_source = (HERE / "verify_independent.py").read_text(encoding="utf-8")
+    need("import derive_unmarked_quotients" not in independent_source, "independent imports production")
+    need("DERIVATION_RESULT.json" not in independent_source, "independent reads production")
+    allowed = {"ast", "csv", "fractions", "json", "math", "pathlib"}
+    for script in (
+        "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
+        "verify_package.py",
+    ):
+        tree = ast.parse((HERE / script).read_text(encoding="utf-8"), filename=script)
+        imported = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Import):
+                imported.update(alias.name.split(".")[0] for alias in node.names)
+            elif isinstance(node, ast.ImportFrom) and node.module:
+                imported.add(node.module.split(".")[0])
+        need(imported <= allowed, f"unregistered dependency {script}: {sorted(imported - allowed)}")
+
+    source_scope = (HERE / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+    for protected in (
+        "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+        "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+        "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12",
+        "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
+    ):
+        need(protected not in source_scope, f"protected source named: {protected}")
+
+    result = {
+        "schema": "udt-g323-package-verification-v1",
+        "status": "PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "production_assertions": production["assertion_count"],
+        "independent_assertions": independent["assertion_count"],
+        "hostile_catches": f"{hostile['caught_count']}/{hostile['mutation_count']}",
+        "atlas_rows": len(atlas),
+        "external_review": "PENDING",
+    }
+    (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print("G323 package verification PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW")
+    print(f"production assertions: {result['production_assertions']}")
+    print(f"independent assertions: {result['independent_assertions']}")
+    print(f"hostile mutations caught: {result['hostile_catches']}")
+    print(LANDING)
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '261,520p' /intake/package/derive_unmarked_quotients.py" in /return
+ succeeded in 0ms:
+            "max_normal_tangent_error": max(row["normal_tangent_error"] for row in rows),
+            "max_kx_error": max(row["kx_error"] for row in rows),
+            "max_ky_error": max(row["ky_error"] for row in rows),
+            "max_curvature_join_error": max(row["curvature_join_error"] for row in rows),
+        }
+        check(f"X prime nonzero n={mode} sign={sign}", summary["min_abs_X_prime"] > 0)
+        for key in (
+            "max_pullback_error", "max_normal_norm_error", "max_normal_tangent_error",
+            "max_kx_error", "max_ky_error", "max_curvature_join_error",
+        ):
+            check(f"{key} n={mode} sign={sign}", summary[key] < 2e-11)
+        atlas.append(summary)
+
+positive = {row["mode"]: row for row in atlas if row["sign"] == 1}
+negative = {row["mode"]: row for row in atlas if row["sign"] == -1}
+for mode in MODES:
+    check(f"sign-independent period n={mode}",
+          abs(positive[mode]["L_X"] - negative[mode]["L_X"]) < 2e-13)
+for lower, upper in zip(MODES, MODES[1:]):
+    check(f"strict mode period n={lower}->{upper}",
+          positive[upper]["L_X"] > positive[lower]["L_X"])
+
+with (HERE / "QUOTIENT_ATLAS.tsv").open("w", encoding="utf-8", newline="") as handle:
+    writer = csv.DictWriter(handle, fieldnames=tuple(atlas[0]), delimiter="\t", lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(atlas)
+
+result = {
+    "schema": "udt-g323-unmarked-taub-quotient-v1",
+    "status": "PASS_PENDING_EXTERNAL_REVIEW",
+    "landing": LANDING,
+    "assertion_count": len(CHECKS),
+    "ambient_ricci_flat_exact": True,
+    "ambient_kretschmann": "12*mu^2/R^6",
+    "complete_data_embedding_pass": True,
+    "profiles_are_local_refoliations": True,
+    "primitive_period_formula_pass": True,
+    "mode_period_strictly_increasing": True,
+    "n1_n2_unmarked_compact_quotients_distinct": True,
+    "opposite_K_same_time_unoriented_metric": True,
+    "opposite_K_time_orientations_distinct": True,
+    "physical_occupancy_selected": False,
+    "unique_universe_selected": False,
+    "physical_scale_selected": False,
+    "Xmax_selected": False,
+    "metric_changed": False,
+    "kernel_changed": False,
+    "angular_cancellation_changed": False,
+    "max_pullback_error": max(row["max_pullback_error"] for row in atlas),
+    "max_extrinsic_error": max(max(row["max_kx_error"], row["max_ky_error"]) for row in atlas),
+    "max_curvature_join_error": max(row["max_curvature_join_error"] for row in atlas),
+    "periods": {str(mode): positive[mode]["L_X"] for mode in MODES},
+}
+(HERE / "DERIVATION_RESULT.json").write_text(
+    json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+print(f"G323 production PASS: {len(CHECKS)} assertions")
+print(f"max pullback error: {result['max_pullback_error']:.3e}")
+print(f"max extrinsic error: {result['max_extrinsic_error']:.3e}")
+print("periods:", result["periods"])
+print(LANDING)
+
+
+codex
+I’ve finished the document pass. Before replaying anything, I’m checking the sealed manifest and scope files so I can confirm what evidence was frozen and whether the package’s own scripts are the only registered executables I should trust in `/work`.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/REVIEW_MANIFEST.tsv" in /return
+ succeeded in 0ms:
+path	bytes	sha256
+REVIEW_SCOPE.json	653	ef19bfdc41d7d30c7cf0887a3deea001a2726d15effc533ad36f2b9c97d31c0d
+package/AUDIT_REPORT.md	2641	bf2491b753602b970540b86054b97c075f4ab61251a420868f8a2fa2d986e3ea
+package/CATCH_PROOF_RESULT.json	545	5dfa9eedc64cbecac658b21c9d2d09a7b2d70389c03a62625bba2dd79e32e091
+package/COMPLETENESS_MAP.md	1424	e5e7299c1534b4d245925d57bf7f9936bcb1d3e24e714da2d08e974bd7368ce9
+package/DERIVATION_RESULT.json	1331	48e34aea67061103a2c7075b0e4e2184d8979ab5b04bc3ef803e43cea27de295
+package/EVIDENCE_GATES.md	1087	7a9d3838a245933d4b4d4a8c58d236d05f39b2c7c7e675677a4d21ffa217a828
+package/EXACT_DERIVATION.md	7139	d5a280b6068ccf4dabb89886251df5324c4b87ff86a90c658662960fac3f76a1
+package/EXTERNAL_REVIEW_REQUEST.md	2906	a3c283ee95f5f694edb8d50016370828950c25bdb7733963b64ebd79593eb1b8
+package/INDEPENDENT_FAILURE_AND_REPAIR.md	1134	0cabaeea06ad1cf88ff782da69daa517b2c74796802c0db4a561e08c41c6be60
+package/INDEPENDENT_VERIFICATION.json	584	4a0ebc7212614d93eaf30dcd851451bd7fd7b2eb53dc2e85b93de3650f3c4a7f
+package/LAY_REPORT.md	1521	04c0515c333419db6998b6d9332a090867bbfe5bf519a61dda40ab92bfd469ab
+package/MAP.md	2043	02bb0946593de298bdc0322b1f85b321def6f56ea8c16aea724f0e0e711b8ac6
+package/PACKAGE_VERIFICATION_RESULT.json	560	0ff89bb6b8044e064b4802260e5a21a37ac677eb2186d138dfb520d62d5e9eea
+package/PREMISE_LEDGER.tsv	2176	d79b04afda94db1d0b66cc9ff8c9fb4e35e6daafdfabbb044980111fa5344174
+package/PREREGISTRATION.md	5549	ca5d5d74f17e1bd71c32161c55e21e6fba4f7814c68eec8360685522092e36ee
+package/PREREGISTRATION_ANCESTRY.md	473	93a57fc8494de245bcb2d333718215def2b5dba831f5de8ff96ab1353469e5b9
+package/QUOTIENT_ATLAS.tsv	1603	dc18180ca4e10c589ea7aa1dc145680edf5a66c50c482fb66ad8ae04596c615c
+package/REPLAY_COMMANDS.txt	133	34ca5d3f6c97fb860e2069074ab2c6bd4669970d68a506baa9d3b7d7833a6dc7
+package/RUN_RECORD.md	1109	a8c8ceb2803e905f82e4d255856b5f220d2a992ab81d42f3f0843d75cf34a332
+package/SOURCE_SCOPE.tsv	654	ff78ad4c3211ba5b92e6dce24bb73bf3ec8504028d5829f136f1cb86b0bf5b45
+package/STATUS_LEDGER.tsv	1105	b9c0876e0b33bdbab08d7c0ede7a5566df50cd0426c7ff4cee96ee44ed1e5ee2
+package/build_review_intake.py	4390	63b6b49e98171a15729cec581acfad07bd87e27fc3c93ebc043871f07a737ee1
+package/derive_unmarked_quotients.py	11811	4d174d9c73e487367513dd24d71f139ae99d6eacfe5b3d4e2b6fc4ea5927252a
+package/run_catch_proofs.py	1846	ebcca18df10e7030046ff26e2fd18aaa6a10fd77e1a91bb4f83ddc4b50187989
+package/verify_independent.py	6313	8ef7c311616dbe4bd503080b07498b02ad4f84f7dd59fe33108569337109a50d
+package/verify_package.py	8473	f15ce670ee35d4e56795ec80a24da9761c176e3aea7bc949f11b94d72b115565
+sources/CURRENT_SCIENTIFIC_PREMISES.md	10271	032baddfb47660376c189e07c6ef585742bdb97b333e128648f69f2fca41964a
+sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md	6774	8176dc4c050dcb6f3e8fd3a15347ef1d7f52b199b1694519e4f76d28f74eddc6
+sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md	6757	0a1410c190e3b21ab1a67d694ec8c19699beba0ece49894f6157c1dbb8365c5b
+sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md	7098	27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4
+sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md	3055	d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /return
+ succeeded in 0ms:
+{
+  "allowed": [
+    "inspect only this sealed intake",
+    "run registered replays or bounded checks in a writable ephemeral copy",
+    "write the review response outside evidence files"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue the research",
+    "access the repository or protected packages",
+    "use internet or unsealed observations",
+    "select or canonize a law, topology, history, scale, occupancy, or X_max"
+  ],
+  "package_payload_count": 25,
+  "purpose": "fresh read-only adversarial review of bounded G323",
+  "schema": "udt-g323-external-review-scope-v1",
+  "source_commit": "1036e73d",
+  "source_payload_count": 5
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/REVIEW_MANIFEST.sha256" in /return
+ succeeded in 0ms:
+4d8a8e46bc957746e862dc0ba82ee6cd75cffb28b6dc535f48032c8fcf3433a1  REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/MAP.md" in /return
+ succeeded in 0ms:
+# G323 map — unmarked G320 developments
+
+Date: 2026-09-01
+Status: `PREREGISTERED_CONFIRMATION_AFTER_EXPLORATORY_WHITEBOARD`
+
+## Whole question
+
+Inside the exact bounded G320--G322 family, determine whether the registered `n=1` and `n=2`
+initial data are merely different Cauchy slices of one unmarked maximal development or belong to
+different global spacetime quotients. Separately classify the two opposite-`K` branches after the
+initial marking and, in turn, the time orientation are forgotten.
+
+This is an observing/classifying calculation. It does not target a preferred universe.
+
+## Bounded frame
+
+- active equation: the owner-adopted provisional G310/G312 trace-free Ricci equation, reduced by
+  G321 to `Ric=0` in the connected G320 controls;
+- data: the G320 flat marked-`T^3`, one-coordinate, diagonal, `d=Lambda=0`, `J0>0`, smooth positive
+  periodic profiles;
+- primary controls: `psi_n=3/2+(1/5)cos(nx)`, `n=1,2`, with both `B` signs;
+- quotient: spacetime isometry after forgetting the initial embedding; time-oriented and
+  time-unoriented categories are reported separately.
+
+## Metric-led route
+
+Reconstruct a common explicit four-metric directly from the G319 first integral and test exact
+embeddings of the complete physical data `(gamma,K)`. The local metric, induced metric, extrinsic
+curvature, Ricci tensor, curvature invariant, Cauchy property, compact quotient period, and branch
+orientation must all agree.
+
+No action, source, matter/mass model, observation, fit, physical scale, `X_max`, new field equation,
+or protected package is in scope.
+
+## Whiteboard disclosure
+
+The candidate ambient metric and the possibility of a surviving compact-period modulus were found
+during an exploratory algebraic whiteboard before this file was written. This is therefore a
+confirmation preregistration, not a blind outcome preregistration. All numerical tolerances,
+independent routes, hostile mutations, possible landings, and maximum conclusion are frozen before
+the production or independent outcome programs are created.
+
+
+codex
+I’ve confirmed the sealed scope and frozen payload list. I’m now making an ephemeral copy under `/work` and replaying only the registered standard-library scripts there, so any output files land outside the evidence tree.
+2026-09-02T04:11:43.007371Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -rf /work/g323_review && mkdir -p /work/g323_review && cp -R /intake/package /work/g323_review/ && cp -R /intake/sources /work/g323_review/ && cp /intake/REVIEW_MANIFEST.tsv /intake/REVIEW_MANIFEST.sha256 /intake/REVIEW_SCOPE.json /work/g323_review/'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /work/g323_review && mkdir -p /work/g323_review && cp -R /intake/package /work/g323_review/ && cp -R /intake/sources /work/g323_review/ && cp /intake/REVIEW_MANIFEST.tsv /intake/REVIEW_MANIFEST.sha256 /intake/REVIEW_SCOPE.json /work/g323_review/'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+codex
+The first copy attempt was blocked because the shell rejected an `rm`-style cleanup. I’m switching to a fresh uniquely named `/work` directory and leaving prior ephemeral state untouched.
+exec
+/bin/bash -lc 'review_dir=/work/g323_review_$(date +%s); mkdir -p "$review_dir"; cp -R /intake/package "$review_dir"/; cp -R /intake/sources "$review_dir"/; cp /intake/REVIEW_MANIFEST.tsv /intake/REVIEW_MANIFEST.sha256 /intake/REVIEW_SCOPE.json "$review_dir"/; printf '"'%s
+' \""'$review_dir"' in /return
+ succeeded in 0ms:
+/work/g323_review_1788322307
+
+exec
+/bin/bash -lc 'sha256sum REVIEW_MANIFEST.tsv' in /work/g323_review_1788322307
+ succeeded in 0ms:
+4d8a8e46bc957746e862dc0ba82ee6cd75cffb28b6dc535f48032c8fcf3433a1  REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -lc 'python3 -S package/derive_unmarked_quotients.py' in /work/g323_review_1788322307/package
+ exited 2 in 0ms:
+python3: can't open file '/work/g323_review_1788322307/package/package/derive_unmarked_quotients.py': [Errno 2] No such file or directory
+
+exec
+/bin/bash -lc 'python3 -S package/run_catch_proofs.py' in /work/g323_review_1788322307/package
+ exited 2 in 0ms:
+python3: can't open file '/work/g323_review_1788322307/package/package/run_catch_proofs.py': [Errno 2] No such file or directory
+
+codex
+The copied tree is intact; I only missed the working directory when invoking the scripts. I’m rerunning the registered replays from the copied `package/` directory now.
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py' in /work/g323_review_1788322307/package
+ succeeded in 0ms:
+G323 hostile PASS: 13/13 caught
+
+exec
+/bin/bash -lc 'python3 -S derive_unmarked_quotients.py' in /work/g323_review_1788322307/package
+ succeeded in 249ms:
+G323 production PASS: 78 assertions
+max pullback error: 8.882e-15
+max extrinsic error: 9.992e-16
+periods: {'1': 6.554516685020806, '2': 6.623226427457768, '3': 6.735440496746481, '4': 6.888083020830009}
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION
+
+exec
+/bin/bash -lc "sed -n '1,40p' QUOTIENT_ATLAS.tsv" in /work/g323_review_1788322307/package
+ succeeded in 0ms:
+mode	sign	L_X	Q_X	min_abs_X_prime	max_pullback_error	max_normal_norm_error	max_normal_tangent_error	max_kx_error	max_ky_error	max_curvature_join_error
+1	-1	6.554516685020806	1.043183729999365	0.6591	8.881784197001252e-15	1.6653345369377348e-15	1.1102230246251565e-16	5.551115123125783e-16	8.881784197001252e-16	6.394884621840902e-14
+1	1	6.554516685020806	1.043183729999365	0.6591	8.881784197001252e-15	1.6653345369377348e-15	1.1102230246251565e-16	5.551115123125783e-16	8.881784197001252e-16	6.394884621840902e-14
+2	-1	6.623226427457768	1.0541192251467784	0.6591	7.993605777301127e-15	1.4432899320127035e-15	2.220446049250313e-16	6.106226635438361e-16	6.661338147750939e-16	6.394884621840902e-14
+2	1	6.623226427457768	1.0541192251467784	0.6591	7.993605777301127e-15	1.4432899320127035e-15	2.220446049250313e-16	6.106226635438361e-16	6.661338147750939e-16	6.394884621840902e-14
+3	-1	6.735440496746481	1.0719786489585335	0.6591	8.881784197001252e-15	1.5543122344752192e-15	4.440892098500626e-16	6.938893903907228e-16	8.881784197001252e-16	6.394884621840902e-14
+3	1	6.735440496746481	1.0719786489585335	0.6591	8.881784197001252e-15	1.5543122344752192e-15	4.440892098500626e-16	6.938893903907228e-16	8.881784197001252e-16	6.394884621840902e-14
+4	-1	6.888083020830009	1.0962724611924506	0.6591	7.993605777301127e-15	1.4432899320127035e-15	6.661338147750939e-16	9.992007221626409e-16	8.881784197001252e-16	6.394884621840902e-14
+4	1	6.888083020830009	1.0962724611924506	0.6591	7.993605777301127e-15	1.4432899320127035e-15	6.661338147750939e-16	9.992007221626409e-16	8.881784197001252e-16	6.394884621840902e-14
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py' in /work/g323_review_1788322307/package
+ succeeded in 0ms:
+independent Ricci diagnostic R=0.73: 1.136868377216e-13
+independent Ricci diagnostic R=1.41: 7.105427357601e-15
+independent Ricci diagnostic R=2.87: 8.881784197001e-16
+independent Ricci diagnostic R=5.13: 4.440892098501e-16
+G323 independent PASS: 33 assertions
+max pullback error: 2.665e-15
+max extrinsic error: 1.224e-10
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g323_review_1788322307/package
+ succeeded in 0ms:
+G323 package verification PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW
+production assertions: 78
+independent assertions: 33
+hostile mutations caught: 13/13
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/EVIDENCE_GATES.md" in /return
+ succeeded in 0ms:
+# G323 evidence gates
+
+| Gate | Status | Evidence |
+|---|---|---|
+| Confirmation preregistration | PASS | commit `a43fe3ed`; exploratory-whiteboard disclosure explicit |
+| Exact ambient Ricci tensor | PASS | exact rational generic tensor/index route |
+| Exact curvature invariant | PASS | exact rational Riemann contraction |
+| Complete induced `(gamma,K)` | PASS | 8 branches x 16,384 points; analytic identities |
+| Independent reconstruction | PASS AFTER FAILED-CLOSED REPAIR | different controls, connection route, embedding solve |
+| Strict global mode modulus | PASS | analytic positive-measure inequality plus two numerical routes |
+| Opposite-sign orientation typing | PASS | exact reflection/normal reversal and scalar-gradient argument |
+| Hostile controls | PASS | 13/13 |
+| Premise audit | PASS | exact 305-row verifier and startup guards |
+| Full repository suite | PASS | 217 passed, one known documented xfail |
+| Fresh external adversarial review | PENDING | required for external acceptance |
+
+Current maximum grade: `INTERNALLY_VERIFIED_PENDING_FRESH_EXTERNAL_REVIEW`.
+
+exec
+/bin/bash -lc "sed -n '1,120p' /intake/package/QUOTIENT_ATLAS.tsv" in /return
+ succeeded in 0ms:
+mode	sign	L_X	Q_X	min_abs_X_prime	max_pullback_error	max_normal_norm_error	max_normal_tangent_error	max_kx_error	max_ky_error	max_curvature_join_error
+1	-1	6.554516685020806	1.043183729999365	0.6591	8.881784197001252e-15	1.6653345369377348e-15	1.1102230246251565e-16	5.551115123125783e-16	8.881784197001252e-16	6.394884621840902e-14
+1	1	6.554516685020806	1.043183729999365	0.6591	8.881784197001252e-15	1.6653345369377348e-15	1.1102230246251565e-16	5.551115123125783e-16	8.881784197001252e-16	6.394884621840902e-14
+2	-1	6.623226427457768	1.0541192251467784	0.6591	7.993605777301127e-15	1.4432899320127035e-15	2.220446049250313e-16	6.106226635438361e-16	6.661338147750939e-16	6.394884621840902e-14
+2	1	6.623226427457768	1.0541192251467784	0.6591	7.993605777301127e-15	1.4432899320127035e-15	2.220446049250313e-16	6.106226635438361e-16	6.661338147750939e-16	6.394884621840902e-14
+3	-1	6.735440496746481	1.0719786489585335	0.6591	8.881784197001252e-15	1.5543122344752192e-15	4.440892098500626e-16	6.938893903907228e-16	8.881784197001252e-16	6.394884621840902e-14
+3	1	6.735440496746481	1.0719786489585335	0.6591	8.881784197001252e-15	1.5543122344752192e-15	4.440892098500626e-16	6.938893903907228e-16	8.881784197001252e-16	6.394884621840902e-14
+4	-1	6.888083020830009	1.0962724611924506	0.6591	7.993605777301127e-15	1.4432899320127035e-15	6.661338147750939e-16	9.992007221626409e-16	8.881784197001252e-16	6.394884621840902e-14
+4	1	6.888083020830009	1.0962724611924506	0.6591	7.993605777301127e-15	1.4432899320127035e-15	6.661338147750939e-16	9.992007221626409e-16	8.881784197001252e-16	6.394884621840902e-14
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/PREREGISTRATION.md" in /return
+ succeeded in 0ms:
+# G323 preregistration — explicit unmarked development classification
+
+Date: 2026-09-01
+Status: `PREREGISTERED_CONFIRMATION_AFTER_EXPLORATORY_WHITEBOARD`
+
+## 1. Frozen data
+
+Use the G319/G320 physical data
+
+\[
+\gamma=\psi^4(dx^2+dy^2+dz^2),\qquad
+B=\epsilon\psi^{-3}\sqrt{36(\psi')^2+J_0},
+\]
+
+\[
+F=12\psi''\psi^{-5},\qquad A=F/B,
+\]
+
+\[
+K^x{}_x=(3A-B)/6,\qquad K^y{}_y=K^z{}_z=B/3,
+\]
+
+with `J0>0`, `epsilon=+-1`, and smooth positive `2 pi`-periodic `psi`. No data formula may be
+changed after seeing the confirmation outputs.
+
+## 2. Candidate common ambient metric
+
+Set
+
+\[
+\mu=J_0/9,\qquad R=\psi^2,
+\]
+
+and preregister the explicit metric
+
+\[
+g_\mu=-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2),
+\qquad R>0.
+\tag{1}
+\]
+
+The production route must calculate its connection and Ricci tensor directly and must not assume
+Ricci flatness by name or analogy.
+
+## 3. Candidate Cauchy embedding
+
+Define `X` along the supplied profile by
+
+\[
+X'(x)=-\frac{3B\psi^6}{J_0}.
+\tag{2}
+\]
+
+Preregister the exact requirements:
+
+1. the pullback of (1) by `(x,y,z)->(R(x),X(x),y,z)` equals `gamma`;
+2. with `K=-1/2 L_n gamma`, the induced mixed extrinsic curvature equals all three registered G320
+   eigenvalues;
+3. `X'` never vanishes, so the embedded circle is a graph over the compact `X` direction;
+4. the graph is a Cauchy surface because `R` is a temporal function, the graph is spacelike, and
+   the spatial quotient is compact.
+
+The forced primitive `X` period is
+
+\[
+L_X[\psi]
+=\frac{3}{J_0}\int_0^{2\pi}
+\psi^3\sqrt{36(\psi')^2+J_0}\,dx.
+\tag{3}
+\]
+
+A smaller divisor period is forbidden if it makes the embedding noninjective.
+
+## 4. Local-versus-global classification
+
+The coordinate change
+
+\[
+R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+\quad \mu_*=a^3\mu,
+\tag{4}
+\]
+
+must be checked as an exact local isometry. It rescales all three compact coordinate periods by
+the same factor. Because the `X` direction is the unique one-dimensional curvature eigendirection
+and the `y,z` plane is the repeated eigenspace, preregister the compact-lattice shape modulus
+
+\[
+\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}
+\tag{5}
+\]
+
+as the proposed time-independent unmarked discriminator. The controls keep `L_y=L_z=2 pi`.
+
+For
+
+\[
+\psi_n=p+a_0\cos(nx),\qquad p=3/2,\quad a_0=1/5,
+\]
+
+equation (3) becomes
+
+\[
+L_X(n)=\frac{3}{J_0}\int_0^{2\pi}
+(p+a_0\cos u)^3
+\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+\tag{6}
+\]
+
+Preregister the exact prediction `L_X(n+1)>L_X(n)` for every positive integer `n`, because the
+integrand is pointwise nondecreasing and strictly larger on a set of positive measure. If (1)--(6)
+all pass, `n=1` and `n=2` share the same local metric form but define inequivalent compact unmarked
+quotients.
+
+## 5. Four-curvature and orientation controls
+
+Directly verify
+
+\[
+R_{ab}=0,\qquad
+R_{abcd}R^{abcd}=12\mu^2/R^6.
+\tag{7}
+\]
+
+The curvature scalar must diverge at `R->0`, while radial null affine parameter and timelike proper
+time must have infinite reach as `R->infinity`. These are bounded maximal-development interface
+checks, not a claim about arbitrary Lorentzian extensions.
+
+Changing `epsilon` reverses `K` and `X'` but leaves (1), (3), and (5) unchanged. Preregister:
+
+- after forgetting time orientation, the two signs are the same unmarked metric quotient;
+- with time orientation retained, they are opposite orientations of that quotient;
+- a time-orientation-preserving identification is not automatic and must be rejected if the
+  monotone curvature time direction forbids it.
+
+## 6. Numerical and independent confirmation contract
+
+- Production: standard-library quadrature for `n=1..4`, both signs, at 16,384 points; exact formula
+  assertions for the pullback, extrinsic curvature, Ricci tensor, local isometry, mode monotonicity,
+  and forbidden promotions.
+- Independent: no import of production code or output; different `p,a0,J0`, modes `1,2,3,5`, and
+  sample count; rebuild the ambient connection/Ricci and embedding residuals by a different route.
+- Raw tolerances: pullback and extrinsic errors below `2e-11`; Ricci below `2e-11`; independent
+  quadrature monotonic margins strictly positive and numerical errors below `5e-10`.
+- Hostile mutations must catch a wrong `mu`, sign or factor in (2), omitted primitive-period gate,
+  a slice-only `Q_R` substituted for (5), loss of time-orientation typing, false profile selection,
+  and any metric/kernel/scale/occupancy promotion.
+- Run `python3 verify_current_scientific_premises.py` and the full repository suite before banking.
+- Fresh independent adversarial review is required before an externally accepted grade.
+
+## 7. Possible landings
+
+1. `COMMON_LOCAL_GEOMETRY__DISTINCT_COMPACT_UNMARKED_QUOTIENTS` if the explicit embedding and
+   strictly different modulus pass;
+2. `COMMON_UNMARKED_DEVELOPMENT__PROFILES_ARE_REFOLIATIONS` if the embeddings pass but the global
+   modulus is equal or removable by an isometry;
+3. `INITIAL_DATA_NOT_EMBEDDED_IN_CANDIDATE_AMBIENT` if either complete pullback fails;
+4. `UNMARKED_CLASSIFICATION_INCONCLUSIVE` if the independent or global-invariance gate fails.
+
+## 8. Maximum conclusion
+
+At most, G323 may classify the registered LRS `T^3`, `Lambda=d=0`, `J0>0` family as explicit
+unmarked Ricci-flat compact quotient developments and distinguish their quotient moduli and time
+orientations. It may not select physical data, a universe, topology, orientation, scale, source,
+matter/mass, observation, `X_max`, or promote the provisional dynamics to canon. The UDT metric,
+reciprocal kernel, and angular cancellation are unchanged.
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/RUN_RECORD.md" in /return
+ succeeded in 0ms:
+# G323 run record
+
+Date: 2026-09-01
+
+## Commands
+
+```text
+python3 -S derive_unmarked_quotients.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+```
+
+## Production
+
+- samples: 16,384 periodic points per mode/sign;
+- modes: 1, 2, 3, 4;
+- signs: -1, +1;
+- controls: `p=3/2`, `a=1/5`, `J0=100`, `mu=J0/9`;
+- assertions: 78;
+- maximum pullback error: `8.882e-15`;
+- maximum extrinsic error: `9.992e-16`.
+
+## Independent
+
+- samples: 6,144 midpoint points per mode/sign;
+- modes: 1, 2, 3, 5;
+- controls: `p=7/5`, `a=1/9`, `J0=121`;
+- production imported: no;
+- production result read: no;
+- assertions: 33;
+- maximum pullback error: `2.665e-15`;
+- maximum extrinsic error: `1.224e-10`.
+
+The initial independent finite-difference Ricci derivative failed closed. The exact repair history is
+preserved in `INDEPENDENT_FAILURE_AND_REPAIR.md`.
+
+## Repository gates
+
+- aggregate package verification: pass;
+- exact 305-row premise registry and startup guards: pass;
+- full repository suite: `217 passed, 1 xfailed` in `141.87s`;
+- fresh external adversarial review: pending.
+
+codex
+The replay suite passes in the ephemeral copy, but that only confirms the package is internally self-consistent. I’m now probing the weakest mathematical step directly: whether smaller `X` periods or alternative windings can realize the same complete datum without violating injectivity or the full `(gamma,K)` match.
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import math
+P=1.5
+A=0.2
+J0=100.0
+for n in [1,2,3,4]:
+    def psi(x):
+        return P + A*math.cos(n*x)
+    def p1(x):
+        return -A*n*math.sin(n*x)
+    def Xp(x):
+        ps=psi(x); d=p1(x)
+        b=ps**-3*math.sqrt(36*d*d+J0)
+        return -3*b*ps**6/J0
+    N=200000
+    xs=[2*math.pi*i/N for i in range(N+1)]
+    X=[0.0]
+    for i in range(N):
+        x0=xs[i]; x1=xs[i+1]
+        X.append(X[-1] + 0.5*(Xp(x0)+Xp(x1))*(x1-x0))
+    LX=abs(X[-1])
+    print('n',n,'LX',LX)
+    for m in range(2,7):
+        Pm=LX/m
+        found=False
+        # look for symmetry shift giving exact same R and X mod Pm approximately
+        for shift_i in range(1,N):
+            shift=2*math.pi*shift_i/N
+            dxX=[]
+            # sample a few points for periodic constancy of X(x+shift)-X(x)
+            vals=[]
+            for q in range(20):
+                i=(q*9973)%N
+                j=(i+shift_i)%N
+                vals.append((X[j]-X[i])%Pm)
+            span=max(vals)-min(vals)
+            if span<1e-6:
+                # also check R invariance on sample
+                if max(abs(psi(xs[(q*9973+shift_i)%N]) - psi(xs[(q*9973)%N])) for q in range(20))<1e-6:
+                    found=True
+                    print('  m',m,'sample symmetry shift',shift)
+                    break
+        if not found:
+            print('  m',m,'no obvious exact symmetry shift sampled')
+PY" in /work/g323_review_1788322307
+ succeeded in 10650ms:
+n 1 LX 6.554516685020825
+  m 2 no obvious exact symmetry shift sampled
+  m 3 no obvious exact symmetry shift sampled
+  m 4 no obvious exact symmetry shift sampled
+  m 5 no obvious exact symmetry shift sampled
+  m 6 no obvious exact symmetry shift sampled
+n 2 LX 6.623226427457626
+  m 2 no obvious exact symmetry shift sampled
+  m 3 sample symmetry shift 3.141592653589793
+  m 4 no obvious exact symmetry shift sampled
+  m 5 sample symmetry shift 3.141592653589793
+  m 6 no obvious exact symmetry shift sampled
+n 3 LX 6.735440496746302
+  m 2 no obvious exact symmetry shift sampled
+  m 3 no obvious exact symmetry shift sampled
+  m 4 no obvious exact symmetry shift sampled
+  m 5 no obvious exact symmetry shift sampled
+  m 6 no obvious exact symmetry shift sampled
+n 4 LX 6.888083020829976
+  m 2 sample symmetry shift 1.5707963267948966
+  m 3 sample symmetry shift 1.5707963267948966
+  m 4 no obvious exact symmetry shift sampled
+  m 5 sample symmetry shift 1.5707963267948966
+  m 6 sample symmetry shift 1.5707963267948966
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import math,bisect
+P0=1.5
+A=0.2
+J0=100.0
+for n in [1,2,3,4]:
+    def psi(x):
+        return P0 + A*math.cos(n*x)
+    def p1(x):
+        return -A*n*math.sin(n*x)
+    def Xp(x):
+        ps=psi(x); d=p1(x)
+        b=ps**-3*math.sqrt(36*d*d+J0)
+        return -3*b*ps**6/J0
+    N=50000
+    xs=[2*math.pi*i/N for i in range(N+1)]
+    X=[0.0]
+    for i in range(N):
+        x0=xs[i]; x1=xs[i+1]
+        X.append(X[-1] + 0.5*(Xp(x0)+Xp(x1))*(x1-x0))
+    LX=abs(X[-1]); X=[-v for v in X]  # make increasing
+    print('n',n,'LX',LX)
+    for m in range(2,7):
+        Pm=LX/m
+        hit=False
+        for i,x in enumerate(xs[:-1]):
+            # sample candidate y values with same psi by symmetry: +/-x + 2kpi/n maybe
+            cands=[]
+            for base in [(-x)%(2*math.pi), (2*math.pi/n - x)%(2*math.pi) if n"'!=0 else 0]:
+                cands.append(base)
+            cands.extend([((2*k*math.pi)/n + x)%(2*math.pi) for k in range(n)])
+            cands.extend([((2*k*math.pi)/n - x)%(2*math.pi) for k in range(n)])
+            for y in cands:
+                if abs(y-x)<1e-5 or y<=x+1e-5:
+                    continue
+                j=min(int(round(y/(2*math.pi)*N)),N)
+                if abs(psi(y)-psi(x))<1e-6:
+                    dx=X[j]-X[i]
+                    q=dx/Pm
+                    if abs(q-round(q))<1e-4:
+                        print('"'  m',m,'collision candidate x,y=',x,y,'dx/P=',q)
+                        hit=True
+                        break
+            if hit:
+                break
+        if not hit:
+            print('  m',m,'no sampled collision')
+PY" in /work/g323_review_1788322307
+ succeeded in 288ms:
+n 1 LX 6.554516685020835
+  m 2 collision candidate x,y= 1.1990830840221522 5.0841022231574335 dx/P= 1.0000776973219916
+  m 3 collision candidate x,y= 0.7654176341206171 5.5177676730589695 dx/P= 1.9999579097147833
+  m 4 collision candidate x,y= 0.5658636687645935 5.717321638414993 dx/P= 2.9999955322951624
+  m 5 collision candidate x,y= 0.4497504042879148 5.833434902891671 dx/P= 4.000023291672727
+  m 6 collision candidate x,y= 0.3734725346587546 5.909712772520832 dx/P= 5.000064468593444
+n 2 LX 6.623226427457712
+  m 2 collision candidate x,y= 0.0 3.141592653589793 dx/P= 1.0000000000000138
+  m 3 collision candidate x,y= 0.3854105867423958 2.7561820668473973 dx/P= 1.0000621161930399
+  m 4 collision candidate x,y= 0.0 3.141592653589793 dx/P= 2.0000000000000275
+  m 5 collision candidate x,y= 0.22694865329532665 2.9146440002944667 dx/P= 2.0000376073695487
+  m 6 collision candidate x,y= 0.0 3.141592653589793 dx/P= 3.000000000000041
+n 3 LX 6.73544049674645
+  m 2 collision candidate x,y= 0.40338049672092946 3.785409708065461 dx/P= 1.0000697610904647
+  m 3 collision candidate x,y= 0.0 2.0943951023931953 dx/P= 1.000027498681932
+  m 4 collision candidate x,y= 0.19289378893041328 1.901501313462782 dx/P= 0.9999569637238571
+  m 5 collision candidate x,y= 0.15356104890746908 4.0352291558789215 dx/P= 2.999936342666149
+  m 6 collision candidate x,y= 0.0 2.0943951023931953 dx/P= 2.000054997363864
+n 4 LX 6.888083020830006
+  m 2 collision candidate x,y= 0.0 3.141592653589793 dx/P= 0.9999999999999893
+  m 3 collision candidate x,y= 0.19779467347001337 4.514594306914677 dx/P= 1.999960134959753
+  m 4 collision candidate x,y= 0.0 1.5707963267948966 dx/P= 1.0000000000000033
+  m 5 collision candidate x,y= 0.11736990153811466 1.453426425256782 dx/P= 1.000075929028685
+  m 6 collision candidate x,y= 0.0 3.141592653589793 dx/P= 2.999999999999968
+
+codex
+The primitive-period claim is stronger than the mode-separation claim, so I’m checking it separately on both the preregistered cosine controls and a generic admissible positive periodic profile. If the “forced primitive period” argument only works for the symmetric controls, that narrows the legitimate landing materially.
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import math
+
+def test_profile(name,psi,dpsi,J0=100.0,N=4000):
+    xs=[2*math.pi*i/N for i in range(N+1)]
+    vals=[]
+    X=[0.0]
+    for i,x in enumerate(xs):
+        ps=psi(x); dp=dpsi(x)
+        b=ps**-3*math.sqrt(36*dp*dp+J0)
+        xp=3*b*ps**6/J0
+        vals.append((ps,xp))
+        if i:
+            x0=xs[i-1]; x1=x
+            ps0, xp0=vals[i-1]
+            ps1, xp1=vals[i]
+            X.append(X[-1] + 0.5*(xp0+xp1)*(x1-x0))
+    LX=X[-1]
+    for m in [2,3,4]:
+        P=LX/m
+        buckets={}
+        collision=False
+        # bucket by X mod P and R to detect approximate intersections
+        for i,x in enumerate(xs[:-1]):
+            R=vals[i][0]**2
+            xm=(X[i] % P)/P
+            key=(round(xm,4), round(R,4))
+            prev=buckets.get(key)
+            if prev is not None and abs(prev-x)>1e-2 and abs((prev-x)%(2*math.pi))>1e-2:
+                collision=True
+                break
+            buckets[key]=x
+        print(name,'m',m,'approx_collision',collision)
+
+# prereg cosine n=1
+n=1
+test_profile('cos1', lambda x:1.5+0.2*math.cos(n*x), lambda x:-0.2*n*math.sin(n*x))
+# generic positive periodic profile
+psi=lambda x:1.6+0.12*math.cos(x)+0.07*math.sin(2*x)+0.05*math.cos(3*x)
+dpsi=lambda x:-0.12*math.sin(x)+0.14*math.cos(2*x)-0.15*math.sin(3*x)
+mins=min(psi(2*math.pi*i/10000) for i in range(10000))
+print('generic min psi',mins)
+test_profile('generic', psi,dpsi)
+PY" in /work/g323_review_1788322307
+ succeeded in 0ms:
+cos1 m 2 approx_collision False
+cos1 m 3 approx_collision False
+cos1 m 4 approx_collision False
+generic min psi 1.4135155723493482
+generic m 2 approx_collision False
+generic m 3 approx_collision False
+generic m 4 approx_collision False
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import math,bisect
+
+def analyze(name,psi,dpsi,J0=100.0,N=50000):
+    xs=[2*math.pi*i/N for i in range(N+1)]
+    X=[0.0]
+    R=[]
+    XP=[]
+    for i,x in enumerate(xs):
+        ps=psi(x); dp=dpsi(x)
+        b=ps**-3*math.sqrt(36*dp*dp+J0)
+        xp=3*b*ps**6/J0
+        R.append(ps*ps)
+        XP.append(xp)
+        if i:
+            X.append(X[-1] + 0.5*(XP[i-1]+XP[i])*(xs[i]-xs[i-1]))
+    LX=X[-1]
+    def y_for_target(target):
+        j=bisect.bisect_left(X,target)
+        if j<=0: return xs[0]
+        if j>=len(X): return xs[-1]
+        x0,x1=xs[j-1],xs[j]
+        X0,X1=X[j-1],X[j]
+        t=(target-X0)/(X1-X0)
+        return x0+t*(x1-x0)
+    def R_at(y):
+        return psi(y)**2
+    print(name,'LX',LX)
+    for m in [2,3,4]:
+        P=LX/m
+        any_zero=False
+        for k in range(1,m):
+            vals=[]
+            M=2000
+            for i in range(M+1):
+                x=(LX-k*P)*i/M
+                # map xcoord in X-space to y? no use x parameter directly over available range
+            for i in range(1,M):
+                x=2*math.pi*i/M
+                target=X[int(x/(2*math.pi)*N)] + k*P
+                if target>=LX: continue
+                y=y_for_target(target)
+                vals.append((x,R_at(y)-psi(x)**2))
+            mn=min(v for _,v in vals); mx=max(v for _,v in vals)
+            cross=mn<=0<=mx or mx<=0<=mn
+            print(' ',m,k,'range',mn,mx,'cross',cross)
+            any_zero |= cross
+        print('  any zero',any_zero)
+
+analyze('cos1', lambda x:1.5+0.2*math.cos(x), lambda x:-0.2*math.sin(x))
+psi=lambda x:1.6+0.12*math.cos(x)+0.07*math.sin(2*x)+0.05*math.cos(3*x)
+dpsi=lambda x:-0.12*math.sin(x)+0.14*math.cos(2*x)-0.15*math.sin(3*x)
+analyze('generic', psi,dpsi)
+PY" in /work/g323_review_1788322307
+ succeeded in 0ms:
+cos1 LX 6.554516685020835
+  2 1 range -1.1999838121222597 1.1999999999999995 cross True
+  any zero True
+  3 1 range -1.0527651709348238 1.0527655306135182 cross True
+  3 2 range -0.7200333979116529 0.721914363901091 cross True
+  any zero True
+  4 1 range -0.8716591051080096 0.8716590936240778 cross True
+  4 2 range -1.1999838121222597 1.1999999999999995 cross True
+  4 3 range -0.41454722155083124 0.4155429618758779 cross True
+  any zero True
+generic LX 7.858884775837724
+  2 1 range -1.095204745748016 1.098447903571143 cross True
+  any zero True
+  3 1 range -1.0628472503736561 0.4051998848486811 cross True
+  3 2 range -0.6750223105895552 0.6454472742030912 cross True
+  any zero True
+  4 1 range -0.7975483561011489 0.6431853357471535 cross True
+  4 2 range -1.095204745748016 1.098447903571143 cross True
+  4 3 range -0.7923621107977401 0.4456670481988301 cross True
+  any zero True
+
+codex
+I’ve narrowed the review to two substantive mathematical gaps and one tooling gap. I’m pulling exact line references now so the repairs can be stated precisely rather than as general objections.
+exec
+/bin/bash -lc "nl -ba /intake/package/PREREGISTRATION.md | sed -n '20,140p'" in /return
+ succeeded in 0ms:
+    20	K^x{}_x=(3A-B)/6,\qquad K^y{}_y=K^z{}_z=B/3,
+    21	\]
+    22	
+    23	with `J0>0`, `epsilon=+-1`, and smooth positive `2 pi`-periodic `psi`. No data formula may be
+    24	changed after seeing the confirmation outputs.
+    25	
+    26	## 2. Candidate common ambient metric
+    27	
+    28	Set
+    29	
+    30	\[
+    31	\mu=J_0/9,\qquad R=\psi^2,
+    32	\]
+    33	
+    34	and preregister the explicit metric
+    35	
+    36	\[
+    37	g_\mu=-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2),
+    38	\qquad R>0.
+    39	\tag{1}
+    40	\]
+    41	
+    42	The production route must calculate its connection and Ricci tensor directly and must not assume
+    43	Ricci flatness by name or analogy.
+    44	
+    45	## 3. Candidate Cauchy embedding
+    46	
+    47	Define `X` along the supplied profile by
+    48	
+    49	\[
+    50	X'(x)=-\frac{3B\psi^6}{J_0}.
+    51	\tag{2}
+    52	\]
+    53	
+    54	Preregister the exact requirements:
+    55	
+    56	1. the pullback of (1) by `(x,y,z)->(R(x),X(x),y,z)` equals `gamma`;
+    57	2. with `K=-1/2 L_n gamma`, the induced mixed extrinsic curvature equals all three registered G320
+    58	   eigenvalues;
+    59	3. `X'` never vanishes, so the embedded circle is a graph over the compact `X` direction;
+    60	4. the graph is a Cauchy surface because `R` is a temporal function, the graph is spacelike, and
+    61	   the spatial quotient is compact.
+    62	
+    63	The forced primitive `X` period is
+    64	
+    65	\[
+    66	L_X[\psi]
+    67	=\frac{3}{J_0}\int_0^{2\pi}
+    68	\psi^3\sqrt{36(\psi')^2+J_0}\,dx.
+    69	\tag{3}
+    70	\]
+    71	
+    72	A smaller divisor period is forbidden if it makes the embedding noninjective.
+    73	
+    74	## 4. Local-versus-global classification
+    75	
+    76	The coordinate change
+    77	
+    78	\[
+    79	R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+    80	\quad \mu_*=a^3\mu,
+    81	\tag{4}
+    82	\]
+    83	
+    84	must be checked as an exact local isometry. It rescales all three compact coordinate periods by
+    85	the same factor. Because the `X` direction is the unique one-dimensional curvature eigendirection
+    86	and the `y,z` plane is the repeated eigenspace, preregister the compact-lattice shape modulus
+    87	
+    88	\[
+    89	\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}
+    90	\tag{5}
+    91	\]
+    92	
+    93	as the proposed time-independent unmarked discriminator. The controls keep `L_y=L_z=2 pi`.
+    94	
+    95	For
+    96	
+    97	\[
+    98	\psi_n=p+a_0\cos(nx),\qquad p=3/2,\quad a_0=1/5,
+    99	\]
+   100	
+   101	equation (3) becomes
+   102	
+   103	\[
+   104	L_X(n)=\frac{3}{J_0}\int_0^{2\pi}
+   105	(p+a_0\cos u)^3
+   106	\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+   107	\tag{6}
+   108	\]
+   109	
+   110	Preregister the exact prediction `L_X(n+1)>L_X(n)` for every positive integer `n`, because the
+   111	integrand is pointwise nondecreasing and strictly larger on a set of positive measure. If (1)--(6)
+   112	all pass, `n=1` and `n=2` share the same local metric form but define inequivalent compact unmarked
+   113	quotients.
+   114	
+   115	## 5. Four-curvature and orientation controls
+   116	
+   117	Directly verify
+   118	
+   119	\[
+   120	R_{ab}=0,\qquad
+   121	R_{abcd}R^{abcd}=12\mu^2/R^6.
+   122	\tag{7}
+   123	\]
+   124	
+   125	The curvature scalar must diverge at `R->0`, while radial null affine parameter and timelike proper
+   126	time must have infinite reach as `R->infinity`. These are bounded maximal-development interface
+   127	checks, not a claim about arbitrary Lorentzian extensions.
+   128	
+   129	Changing `epsilon` reverses `K` and `X'` but leaves (1), (3), and (5) unchanged. Preregister:
+   130	
+   131	- after forgetting time orientation, the two signs are the same unmarked metric quotient;
+   132	- with time orientation retained, they are opposite orientations of that quotient;
+   133	- a time-orientation-preserving identification is not automatic and must be rejected if the
+   134	  monotone curvature time direction forbids it.
+   135	
+   136	## 6. Numerical and independent confirmation contract
+   137	
+   138	- Production: standard-library quadrature for `n=1..4`, both signs, at 16,384 points; exact formula
+   139	  assertions for the pullback, extrinsic curvature, Ricci tensor, local isometry, mode monotonicity,
+   140	  and forbidden promotions.
+
+exec
+/bin/bash -lc "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '40,180p'" in /return
+ succeeded in 0ms:
+    40	G320 proved that different integer modes are not related by a spatial diffeomorphism of this
+    41	chosen slice. G321 and G322 deliberately left open whether the slices belong to the same unmarked
+    42	spacetime.
+    43	
+    44	## 2. The common local spacetime
+    45	
+    46	Set
+    47	
+    48	\[
+    49	\mu=J_0/9,\qquad R=\psi^2.
+    50	\]
+    51	
+    52	Consider
+    53	
+    54	\[
+    55	\boxed{
+    56	g_\mu=-\frac R\mu dR^2+\frac\mu R dX^2+R^2(dy^2+dz^2)
+    57	},\qquad R>0.
+    58	\tag{2}
+    59	\]
+    60	
+    61	The nonzero Christoffel symbols, up to lower-index symmetry, are
+    62	
+    63	\[
+    64	\Gamma^R{}_{RR}=\frac1{2R},\qquad
+    65	\Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\qquad
+    66	\Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,
+    67	\]
+    68	
+    69	\[
+    70	\Gamma^X{}_{RX}=-\frac1{2R},\qquad
+    71	\Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R.
+    72	\tag{3}
+    73	\]
+    74	
+    75	Direct substitution gives
+    76	
+    77	\[
+    78	R_{ab}=0,
+    79	\qquad
+    80	R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}.
+    81	\tag{4}
+    82	\]
+    83	
+    84	Production reconstructs (3)--(4) by exact rational index loops at three unrelated rational
+    85	points; it does not call the metric Ricci-flat by analogy. The independent route reconstructs (3)
+    86	from the metric and differentiates the nonzero entries separately.
+    87	
+    88	## 3. Exact embedding of the complete data
+    89	
+    90	Define
+    91	
+    92	\[
+    93	X'=-\frac{3B\psi^6}{J_0}.
+    94	\tag{5}
+    95	\]
+    96	
+    97	Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+    98	
+    99	\[
+   100	R'=2\psi\psi',
+   101	\]
+   102	
+   103	the induced longitudinal metric is
+   104	
+   105	\[
+   106	-\frac R\mu(R')^2+\frac\mu R(X')^2
+   107	=-\frac{36\psi^4(\psi')^2}{J_0}
+   108	+\frac{\psi^4[36(\psi')^2+J_0]}{J_0}
+   109	=\psi^4.
+   110	\tag{6}
+   111	\]
+   112	
+   113	The other two induced components are immediately `R^2=psi^4`, so the pullback of (2) is exactly
+   114	the complete G320 intrinsic metric.
+   115	
+   116	A unit normal along the graph is
+   117	
+   118	\[
+   119	n=\frac{\mu X'}{R^2}\partial_R+\frac{R'}\mu\partial_X.
+   120	\tag{7}
+   121	\]
+   122	
+   123	It obeys `g(n,n)=-1` and is orthogonal to the graph. Using the G321 convention
+   124	`K=-1/2 L_n gamma`, equations (3), (5), and the G319 identity
+   125	
+   126	\[
+   127	B'=3\frac{\psi'}\psi(A-B)
+   128	\]
+   129	
+   130	give
+   131	
+   132	\[
+   133	K^y{}_y=K^z{}_z=-\frac{\mu X'}{R^3}=\frac B3,
+   134	\]
+   135	
+   136	\[
+   137	K^x{}_x=\frac{3A-B}{6}.
+   138	\tag{8}
+   139	\]
+   140	
+   141	Thus both the first and second fundamental forms agree. The arbitrary positive profile is a Cauchy-
+   142	graph shape inside (2), not a change of the local four-geometry.
+   143	
+   144	Because `R` has timelike gradient and the quotient spatial directions are compact, every constant-
+   145	`R` torus is Cauchy. Since `X'` is nonzero, the embedded slice is a smooth spacelike graph over the
+   146	compact `X` circle and is Cauchy as well.
+   147	
+   148	## 4. The forced global quotient period
+   149	
+   150	Injectivity fixes the primitive `X` period to the total graph advance
+   151	
+   152	\[
+   153	\boxed{
+   154	L_X[\psi]
+   155	=\frac3{J_0}\int_0^{2\pi}
+   156	\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+   157	}.
+   158	\tag{9}
+   159	\]
+   160	
+   161	Using a divisor of (9) repeats the same profile phase at the same `X` point and destroys the
+   162	embedding. Thus (9) is global data, not an arbitrary coordinate-period choice after the complete
+   163	datum is fixed.
+   164	
+   165	The exact local isometry
+   166	
+   167	\[
+   168	R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+   169	\quad\mu_*=a^3\mu
+   170	\tag{10}
+   171	\]
+   172	
+   173	rescales all three compact coordinate periods by `1/a`. It cannot change
+   174	
+   175	\[
+   176	\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+   177	\tag{11}
+   178	\]
+   179	
+   180	This is intrinsic to the compact spacetime quotient. To see why an isometry cannot mix away the
+
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_package.py | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Aggregate no-write-input verifier for the internally verified G323 package."""
+     3	
+     4	import ast
+     5	import csv
+     6	import json
+     7	from pathlib import Path
+     8	
+     9	
+    10	HERE = Path(__file__).resolve().parent
+    11	LANDING = (
+    12	    "REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_"
+    13	    "TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_"
+    14	    "AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_"
+    15	    "TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION"
+    16	)
+    17	REQUIRED = (
+    18	    "MAP.md", "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "PREREGISTRATION.md",
+    19	    "PREREGISTRATION_ANCESTRY.md", "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt",
+    20	    "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
+    21	    "verify_package.py", "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+    22	    "CATCH_PROOF_RESULT.json", "QUOTIENT_ATLAS.tsv", "INDEPENDENT_FAILURE_AND_REPAIR.md",
+    23	    "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md",
+    24	    "AUDIT_REPORT.md", "RUN_RECORD.md",
+    25	)
+    26	
+    27	
+    28	def need(condition, message):
+    29	    if not condition:
+    30	        raise AssertionError(message)
+    31	
+    32	
+    33	def main():
+    34	    for name in REQUIRED:
+    35	        need((HERE / name).is_file(), f"missing {name}")
+    36	
+    37	    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    38	    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    39	    hostile = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    40	    need(production["status"] == "PASS_PENDING_EXTERNAL_REVIEW", "production status")
+    41	    need(production["landing"] == LANDING, "production landing")
+    42	    need(production["assertion_count"] >= 78, "production assertion floor")
+    43	    for key in (
+    44	        "ambient_ricci_flat_exact", "complete_data_embedding_pass",
+    45	        "profiles_are_local_refoliations", "primitive_period_formula_pass",
+    46	        "mode_period_strictly_increasing", "n1_n2_unmarked_compact_quotients_distinct",
+    47	        "opposite_K_same_time_unoriented_metric", "opposite_K_time_orientations_distinct",
+    48	    ):
+    49	        need(production[key] is True, f"production gate absent: {key}")
+    50	    for key in (
+    51	        "physical_occupancy_selected", "unique_universe_selected", "physical_scale_selected",
+    52	        "Xmax_selected", "metric_changed", "kernel_changed", "angular_cancellation_changed",
+    53	    ):
+    54	        need(production[key] is False, f"forbidden promotion: {key}")
+    55	    need(production["max_pullback_error"] < 2e-11, "production pullback")
+    56	    need(production["max_extrinsic_error"] < 2e-11, "production extrinsic")
+    57	    need(production["max_curvature_join_error"] < 2e-11, "production curvature join")
+    58	
+    59	    need(independent["status"] == "PASS", "independent status")
+    60	    need(independent["assertion_count"] >= 33, "independent assertion floor")
+    61	    need(independent["production_imported"] is False, "independent production import")
+    62	    need(independent["production_result_read"] is False, "independent production read")
+    63	    need(independent["complete_embedding_upheld"] is True, "independent embedding")
+    64	    need(independent["strict_mode_modulus_upheld"] is True, "independent mode modulus")
+    65	    need(independent["local_isometry_and_global_modulus_upheld"] is True,
+    66	         "independent local/global split")
+    67	    need(independent["max_pullback_error"] < 5e-10, "independent pullback")
+    68	    need(independent["max_extrinsic_error"] < 5e-10, "independent extrinsic")
+    69	    need(hostile["status"] == "PASS", "hostile status")
+    70	    need(hostile["caught_count"] == hostile["mutation_count"] >= 13, "hostile catches")
+    71	
+    72	    with (HERE / "QUOTIENT_ATLAS.tsv").open(encoding="utf-8", newline="") as handle:
+    73	        atlas = list(csv.DictReader(handle, delimiter="\t"))
+    74	    need(len(atlas) == 8, "atlas row count")
+    75	    need({row["mode"] for row in atlas} == {"1", "2", "3", "4"}, "atlas modes")
+    76	    need({row["sign"] for row in atlas} == {"-1", "1"}, "atlas signs")
+    77	    for sign in ("-1", "1"):
+    78	        rows = sorted((row for row in atlas if row["sign"] == sign), key=lambda row: int(row["mode"]))
+    79	        need(all(float(b["L_X"]) > float(a["L_X"]) for a, b in zip(rows, rows[1:])),
+    80	             f"period monotonic sign={sign}")
+    81	    for mode in ("1", "2", "3", "4"):
+    82	        rows = [row for row in atlas if row["mode"] == mode]
+    83	        need(abs(float(rows[0]["L_X"]) - float(rows[1]["L_X"])) < 2e-13,
+    84	             f"sign period mode={mode}")
+    85	
+    86	    exact = (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    87	    lay = " ".join((HERE / "LAY_REPORT.md").read_text(encoding="utf-8").split())
+    88	    prereg = (HERE / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    89	    failure = (HERE / "INDEPENDENT_FAILURE_AND_REPAIR.md").read_text(encoding="utf-8")
+    90	    for token in (
+    91	        "The common local spacetime", "Exact embedding of the complete data",
+    92	        "The forced global quotient period", "L_X(n+1)>L_X(n)",
+    93	        "same unmarked metric spacetime", "G322's imported-theorem ownership",
+    94	        "metric/kernel/angular sector are\nunchanged",
+    95	    ):
+    96	        need(token in exact, f"exact guard missing: {token}")
+    97	    for token in (
+    98	        "same Ricci-flat spacetime geometry", "closure number is strictly different",
+    99	        "same underlying spacetime with its direction of time reversed",
+   100	        "does not choose which compact quotient Nature occupies",
+   101	        "does not alter the UDT metric, reciprocal kernel, angular cancellation",
+   102	    ):
+   103	        need(token in lay, f"lay guard missing: {token}")
+   104	    for token in (
+   105	        "PREREGISTERED_CONFIRMATION_AFTER_EXPLORATORY_WHITEBOARD",
+   106	        "Candidate common ambient metric", "primitive `X` period",
+   107	        "Possible landings", "may not select physical data",
+   108	    ):
+   109	        need(token.lower() in prereg.lower(), f"prereg guard missing: {token}")
+   110	    for token in (
+   111	        "first independent run failed closed", "1.274324063161e-06",
+   112	        "did not relax a tolerance", "No scientific landing",
+   113	    ):
+   114	        need(token in failure, f"repair record missing: {token}")
+   115	
+   116	    independent_source = (HERE / "verify_independent.py").read_text(encoding="utf-8")
+   117	    need("import derive_unmarked_quotients" not in independent_source, "independent imports production")
+   118	    need("DERIVATION_RESULT.json" not in independent_source, "independent reads production")
+   119	    allowed = {"ast", "csv", "fractions", "json", "math", "pathlib"}
+   120	    for script in (
+   121	        "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
+   122	        "verify_package.py",
+   123	    ):
+   124	        tree = ast.parse((HERE / script).read_text(encoding="utf-8"), filename=script)
+   125	        imported = set()
+   126	        for node in ast.walk(tree):
+   127	            if isinstance(node, ast.Import):
+   128	                imported.update(alias.name.split(".")[0] for alias in node.names)
+   129	            elif isinstance(node, ast.ImportFrom) and node.module:
+   130	                imported.add(node.module.split(".")[0])
+   131	        need(imported <= allowed, f"unregistered dependency {script}: {sorted(imported - allowed)}")
+   132	
+   133	    source_scope = (HERE / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+   134	    for protected in (
+   135	        "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+   136	        "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+   137	        "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12",
+   138	        "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
+   139	    ):
+   140	        need(protected not in source_scope, f"protected source named: {protected}")
+   141	
+   142	    result = {
+   143	        "schema": "udt-g323-package-verification-v1",
+   144	        "status": "PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW",
+   145	        "landing": LANDING,
+   146	        "production_assertions": production["assertion_count"],
+   147	        "independent_assertions": independent["assertion_count"],
+   148	        "hostile_catches": f"{hostile['caught_count']}/{hostile['mutation_count']}",
+   149	        "atlas_rows": len(atlas),
+   150	        "external_review": "PENDING",
+   151	    }
+   152	    (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
+   153	        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+   154	    )
+   155	    print("G323 package verification PASS_INTERNALLY_VERIFIED_PENDING_EXTERNAL_REVIEW")
+   156	    print(f"production assertions: {result['production_assertions']}")
+   157	    print(f"independent assertions: {result['independent_assertions']}")
+   158	    print(f"hostile mutations caught: {result['hostile_catches']}")
+   159	    print(LANDING)
+   160	
+   161	
+   162	if __name__ == "__main__":
+   163	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/package/INDEPENDENT_FAILURE_AND_REPAIR.md | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	# G323 independent-verifier failure and repair
+     2	
+     3	The first independent run failed closed before producing `INDEPENDENT_VERIFICATION.json`.
+     4	
+     5	Its generic centered finite-difference derivative of the independently reconstructed Christoffel
+     6	array gave a maximum Ricci cancellation error of `1.274324063161e-06` at `R=0.73`, above the frozen
+     7	`5e-8` code threshold and far above the preregistered `5e-10` numerical-error ceiling.
+     8	
+     9	The repair did not relax a tolerance or change the candidate geometry. It replaced that noisy
+    10	finite-difference derivative with explicit derivatives of the independently reconstructed nonzero
+    11	connection components. The repaired Ricci route remains independent of production's exact dual-
+    12	number metric/index implementation. Its four residuals are between `4.44e-16` and `1.14e-13`.
+    13	
+    14	The extrinsic check retains a separate centered derivative only for the solved embedding function;
+    15	its maximum error is `1.224e-10`, inside the preregistered `5e-10` ceiling. The executable threshold
+    16	was aligned to that frozen ceiling after the successful diagnostic.
+    17	
+    18	No scientific landing or maximum conclusion was changed.
+    19	
+
+exec
+/bin/bash -lc "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '180,260p'" in /return
+ succeeded in 0ms:
+   180	This is intrinsic to the compact spacetime quotient. To see why an isometry cannot mix away the
+   181	`X` direction, use the curvature-defined constant-`R` leaves. Their shape operator has one
+   182	eigenvalue proportional to `-1/2` along `X` and a repeated eigenvalue proportional to `+1` in the
+   183	`y,z` plane. Hence the one-dimensional lattice and the two-dimensional lattice covolume in (11)
+   184	are invariantly separated. Changes of basis inside the `y,z` lattice preserve its covolume.
+   185	
+   186	For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+   187	
+   188	\[
+   189	L_X(n)=\frac3{J_0}\int_0^{2\pi}(p+a_0\cos u)^3
+   190	\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+   191	\tag{12}
+   192	\]
+   193	
+   194	The integrand is pointwise nondecreasing in positive integer `n` and strictly increases wherever
+   195	`sin(u)` is nonzero. Therefore
+   196	
+   197	\[
+   198	\boxed{L_X(n+1)>L_X(n)}.
+   199	\tag{13}
+   200	\]
+   201	
+   202	For the registered controls, production obtains
+   203	
+   204	```text
+   205	n=1  L_X=6.554516685020806
+   206	n=2  L_X=6.623226427457768
+   207	n=3  L_X=6.735440496746481
+   208	n=4  L_X=6.888083020830009
+   209	```
+   210	
+   211	The `n=1` and `n=2` data therefore have the same local metric form but inequivalent compact
+   212	unmarked quotients. This is the whole-spacetime meaning hidden behind G320's slice values
+   213	`1,4,9,16`.
+   214	
+   215	## 5. Maximal-development boundary
+   216	
+   217	The curvature invariant (4) diverges at `R=0`, excluding a smooth curvature extension there. The
+   218	three translation momenta give causal radial motion
+   219	
+   220	\[
+   221	\dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+   222	-\kappa\frac\mu R,
+   223	\tag{14}
+   224	\]
+   225	
+   226	where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
+   227	reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
+   228	this supplies the explicit maximal-GH interface for the registered quotient. Identification with
+   229	the per-datum MGHD retains G322's imported-theorem ownership and does not claim arbitrary
+   230	Lorentzian inextendibility.
+   231	
+   232	## 6. Opposite `K` signs
+   233	
+   234	Changing `epsilon` reverses `B`, `A`, and every component of `K`. It also sends `X'` to `-X'` while
+   235	leaving `L_X` unchanged. Reflection `X->-X` identifies the two embedded graphs in the same
+   236	underlying quotient metric, with the unit normal reversed. Therefore:
+   237	
+   238	- after forgetting time orientation, the two signs are the same unmarked metric spacetime;
+   239	- retaining time orientation, they are the two opposite orientations of that spacetime.
+   240	
+   241	Moreover, (4) has a nonzero timelike gradient throughout `R>0`. As the gradient of a scalar, it is
+   242	preserved—not negated—by every isometry. It gives a canonical oriented timelike line, so there is
+   243	no time-orientation-preserving isometry between the two opposite choices. They are distinct only
+   244	in the time-oriented category.
+   245	
+   246	## 7. Exact status
+   247	
+   248	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit local Ricci-flat form and complete Cauchy
+   249	  embedding.
+   250	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
+   251	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
+   252	- `IMPORTED_MATHEMATICAL_METHOD_RETAINED`: G322 maximal-development uniqueness interface.
+   253	- `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
+   254	
+   255	The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
+   256	unchanged.
+   257	
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+from pathlib import Path
+import hashlib
+root=Path('/work/g323_review_1788322307')
+rows=(root/'REVIEW_MANIFEST.tsv').read_text().splitlines()
+assert rows[0]=='path\\tbytes\\tsha256'
+count=0
+for line in rows[1:]:
+    path_s,bytes_s,sha=line.split('\\t')
+    p=root/path_s
+    data=p.read_bytes()
+    got=hashlib.sha256(data).hexdigest()
+    if got"'!=sha or len(data)!=int(bytes_s):
+        print('"'MISMATCH',path_s,len(data),got)
+        raise SystemExit(1)
+    count+=1
+print('manifest_rows_ok',count)
+PY" in /work/g323_review_1788322307
+ succeeded in 0ms:
+manifest_rows_ok 31
+
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_SCOPE.json | sed -n '1,120p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/package/REPLAY_COMMANDS.txt | sed -n '1,80p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/package/RUN_RECORD.md | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "allowed": [
+     3	    "inspect only this sealed intake",
+     4	    "run registered replays or bounded checks in a writable ephemeral copy",
+     5	    "write the review response outside evidence files"
+     6	  ],
+     7	  "forbidden": [
+     8	    "edit evidence files",
+     9	    "continue the research",
+    10	    "access the repository or protected packages",
+    11	    "use internet or unsealed observations",
+    12	    "select or canonize a law, topology, history, scale, occupancy, or X_max"
+    13	  ],
+    14	  "package_payload_count": 25,
+    15	  "purpose": "fresh read-only adversarial review of bounded G323",
+    16	  "schema": "udt-g323-external-review-scope-v1",
+    17	  "source_commit": "1036e73d",
+    18	  "source_payload_count": 5
+    19	}
+
+ succeeded in 0ms:
+     1	python3 -S derive_unmarked_quotients.py
+     2	python3 -S verify_independent.py
+     3	python3 -S run_catch_proofs.py
+     4	python3 -S verify_package.py
+
+ succeeded in 0ms:
+     1	# G323 run record
+     2	
+     3	Date: 2026-09-01
+     4	
+     5	## Commands
+     6	
+     7	```text
+     8	python3 -S derive_unmarked_quotients.py
+     9	python3 -S verify_independent.py
+    10	python3 -S run_catch_proofs.py
+    11	python3 -S verify_package.py
+    12	```
+    13	
+    14	## Production
+    15	
+    16	- samples: 16,384 periodic points per mode/sign;
+    17	- modes: 1, 2, 3, 4;
+    18	- signs: -1, +1;
+    19	- controls: `p=3/2`, `a=1/5`, `J0=100`, `mu=J0/9`;
+    20	- assertions: 78;
+    21	- maximum pullback error: `8.882e-15`;
+    22	- maximum extrinsic error: `9.992e-16`.
+    23	
+    24	## Independent
+    25	
+    26	- samples: 6,144 midpoint points per mode/sign;
+    27	- modes: 1, 2, 3, 5;
+    28	- controls: `p=7/5`, `a=1/9`, `J0=121`;
+    29	- production imported: no;
+    30	- production result read: no;
+    31	- assertions: 33;
+    32	- maximum pullback error: `2.665e-15`;
+    33	- maximum extrinsic error: `1.224e-10`.
+    34	
+    35	The initial independent finite-difference Ricci derivative failed closed. The exact repair history is
+    36	preserved in `INDEPENDENT_FAILURE_AND_REPAIR.md`.
+    37	
+    38	## Repository gates
+    39	
+    40	- aggregate package verification: pass;
+    41	- exact 305-row premise registry and startup guards: pass;
+    42	- full repository suite: `217 passed, 1 xfailed` in `141.87s`;
+    43	- fresh external adversarial review: pending.
+
+exec
+/bin/bash -lc "find /intake -maxdepth 3 -type f | sort | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/INDEPENDENT_FAILURE_AND_REPAIR.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/QUOTIENT_ATLAS.tsv
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_unmarked_quotients.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md
+
+Completed document review, rederivations, bounded replays, and adversarial checks.
+  ✓ Read sealed package, upstream formulas, and replay instructions
+  ✓ Independently rederive ambient metric curvature and embedding forms
+  ✓ Audit global quotient, MGHD boundary, invariants, and monotonicity claims
+  ✓ Replay bounded checks in /work and audit independence/repair/manifests
+  → Write adversarial verdict with required repairs
+Prepared final adversarial review and verdict.
+  ✓ Read sealed package, upstream formulas, and replay instructions
+  ✓ Independently rederive ambient metric curvature and embedding forms
+  ✓ Audit global quotient, MGHD boundary, invariants, and monotonicity claims
+  ✓ Replay bounded checks in /work and audit independence/repair/manifests
+  ✓ Write adversarial verdict with required repairs
+codex
+**Findings**
+- Repair 1: The primitive-period claim is overstated as written. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:150) and [PREREGISTRATION.md](/intake/package/PREREGISTRATION.md:63) assert that injectivity forces `L_X` and that any smaller divisor “repeats the same profile phase,” but that is not proved for arbitrary smooth positive periodic `psi` or for alternate compact lattice/winding realizations. I could independently close this for the preregistered cosine modes by symmetry plus continuity, so the `n=1` vs `n=2` separation survives, but the package must either restrict this step to that registered family or supply a real general proof.
+- Repair 2: The explicit quotient is proved to be a Ricci-flat globally hyperbolic development, not proved equal to the G322 MGHD. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:217) shows curvature blow-up at `R=0` and no causal endpoint at `R->infinity`, but that is not a theorem-level maximality proof. The document should be downgraded to “explicit GH development / MGHD interface” unless a separate maximality argument is added.
+- Repair 3: The `Q_X` argument needs a sharper global quotient statement. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:173) correctly uses the ambient eigensplitting to distinguish the `X` line from the repeated `y,z` plane locally, but it does not fully spell out why non-split compact lattices or mixed generators cannot alter the simple coordinate formula `L_X/sqrt(L_yL_z)`. Either define the invariant in lattice-intersection / projected-covolume terms, or narrow the claim to the registered split-translation quotients.
+- Repair 4: The audit tooling is weaker than the narrative claims. [verify_package.py](/intake/package/verify_package.py:33) never checks `REVIEW_MANIFEST.tsv` or `REVIEW_MANIFEST.sha256`, and the sealed intake does not include replayable artifacts for the claimed “305-row premise registry” or full repository suite noted in [RUN_RECORD.md](/intake/package/RUN_RECORD.md:38). Those need to be sealed and replayable, or explicitly downgraded to external attestations rather than intake evidence.
+
+**Upheld**
+Starting from the sealed G319/G320 formulas, I independently recover the ambient metric `g_mu=-R/mu dR^2+mu/R dX^2+R^2(dy^2+dz^2)`, its vanishing Ricci tensor, and Kretschmann scalar `12 mu^2/R^6` as stated in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:54). The full first and second fundamental forms also match for `R=psi^2` and `X'=-3B psi^6/J0`, not just the intrinsic metric, as claimed at [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:103). I also independently verify that the explicit quotient is a globally hyperbolic development by passing to the Kasner time coordinate `t=(2/3)R^{3/2}/sqrt(mu)`, so constant-`t` slices are Cauchy. The strict monotonicity `L_X(n+1)>L_X(n)` for the preregistered cosine modes is correct, and the opposite-`K` classification in the time-oriented vs time-unoriented categories is supported.
+
+In `/work/g323_review_1788322307` I replayed all four registered standard-library scripts. They passed with the recorded outputs, and I separately hash-checked all 31 sealed manifest entries against `REVIEW_MANIFEST.tsv`.
+
+G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+tokens used
+116,426
+
+Script done on 2026-09-02 00:20:09-04:00 [COMMAND_EXIT_CODE="0"]
