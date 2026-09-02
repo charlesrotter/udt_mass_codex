@@ -1,0 +1,4286 @@
+Script started on 2026-09-01 19:56:22-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a05f67-096c-7571-b1ad-53514fe0778e
+--------
+user
+Act as a fresh zero-context adversarial scientific reviewer. The authorized sealed G320 intake is mounted read-only at /intake. First authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload. Then read /intake/package/EXTERNAL_REVIEW_REQUEST.md and follow it exactly. Inspect only /intake; do not edit evidence files or continue the research. You may copy /intake/package into a fresh writable subdirectory under /work and run the four registered commands there. Network access exists solely for Codex API transport; web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Do not access any repository or protected package, use unsealed observations, select or canonize physical initial data or a history, select topology, population, scale, source, matter or mass law, observation, physical X_max, or promote the diagnostic torus/one-coordinate/diagonal slice into UDT. Independently rederive the curvature invariant, quotient logic, lawful-data reconstruction, and exact mode-square separation. Attack every coefficient, conformal power, diffeomorphism argument, homothety claim, seed-covariance control, constraint residual, hostile catch, completeness boundary, scope, and provenance. Write a detailed report to /return/EXTERNAL_REVIEW_RESPONSE.md ending with exactly one allowed verdict token. In your final response state the token and report path.
+codex
+I’m starting by authenticating the sealed intake contents and reading the review instructions in `/intake/package/EXTERNAL_REVIEW_REQUEST.md`. Then I’ll copy only the package subtree into a fresh writable workspace under `/work`, run the registered commands there, and write the review report in `/return`.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/EXTERNAL_REVIEW_REQUEST.md" in /return
+ succeeded in 0ms:
+# G320 fresh external adversarial review request
+
+Perform a fresh, skeptical, read-only review using only the sealed intake. Do not continue the
+research or choose physical data.
+
+## Central question
+
+Does G319's arbitrary positive periodic `psi` freedom contain genuinely inequivalent physical
+initial geometries after spatial diffeomorphism and conformal-seed representation freedom are
+quotiented?
+
+## Required checks
+
+1. Authenticate every manifest payload and detached seal.
+2. Rerun all four registered commands in a writable ephemeral copy; compare generated artifacts.
+3. Independently rederive `R=-8 psi^-5 psi''`, the integrated identity, and homothety-neutral `Q_R`.
+4. Check that `psi_n=3/2+(1/5)cos(nx)` has mode-independent volume and `Q_R(n)=n^2Q_R(1)`.
+5. Decide whether differing `Q_R` rigorously excludes spatial-diffeomorphism equivalence.
+6. Verify that G319 makes the integer family lawful rather than merely supplying trial metrics.
+7. Attack the phase/reflection and conformal-seed covariance controls for false equivalence claims.
+8. Check production/independent implementation separation and hunt circular or vacuous assertions.
+9. Enforce the bounded scope: no complete moduli classification, data/history selection, topology,
+   scale, observation, matter/mass, `X_max`, metric change, or kernel change.
+
+## Required final verdict token
+
+End with exactly one:
+
+```text
+G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+G320_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+G320_SCIENTIFIC_LANDING_REFUTED
+G320_REVIEW_INCOMPLETE
+```
+
+
+exec
+/bin/bash -lc 'pwd && ls -la /intake && find /intake -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/return
+total 24
+drwx------  4 udt-admin udt-admin 4096 Sep  1 19:38 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  1 19:56 ..
+-rw-rw-r--  1 udt-admin udt-admin   86 Sep  1 19:38 REVIEW_MANIFEST.sha256
+-rw-rw-r--  1 udt-admin udt-admin 3511 Sep  1 19:38 REVIEW_MANIFEST.tsv
+-rw-rw-r--  1 udt-admin udt-admin 1011 Sep  1 19:38 REVIEW_SCOPE.json
+drwxrwxr-x  2 udt-admin udt-admin 4096 Sep  1 19:38 package
+drwxrwxr-x  7 udt-admin udt-admin 4096 Sep  1 19:38 sources
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/INVARIANT_ATLAS.tsv
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_physical_quotient.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/LIVE.md
+/intake/sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md
+/intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+/intake/sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json && printf '\\n---MANIFEST---\\n' && sed -n '1,220p' /intake/REVIEW_MANIFEST.tsv && printf '\\n---SHA256---\\n' && sed -n '1,220p' /intake/REVIEW_MANIFEST.sha256" in /return
+ succeeded in 0ms:
+{
+  "allowed": [
+    "inspect sealed intake",
+    "run registered checks in a writable ephemeral copy",
+    "independently rederive the bounded invariant claim"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue research",
+    "access repository or protected packages",
+    "use internet or unsealed observations",
+    "select or canonize physical initial data or history",
+    "select topology population scale source matter mass observation or physical X_max",
+    "promote the diagnostic torus slice to UDT",
+    "claim a complete moduli quotient",
+    "change the metric or reciprocal kernel"
+  ],
+  "mode": "fresh read-only adversarial review",
+  "package_files": 23,
+  "question": "G320 physical initial geometry versus representation quotient of G319",
+  "required_verdicts": [
+    "G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD",
+    "G320_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED",
+    "G320_SCIENTIFIC_LANDING_REFUTED",
+    "G320_REVIEW_INCOMPLETE"
+  ],
+  "source_files": 8
+}
+
+---MANIFEST---
+path	bytes	sha256
+REVIEW_SCOPE.json	1011	260aac5813195eeaba3fefe10943313ed192e2dfc869d4cd6572ff991be39dfd
+package/AUDIT_REPORT.md	2485	4cbb6f4e34277e662f55fd5ea2d7a13e0ee8b29071c2ecfec56b9054d3fc570e
+package/CATCH_PROOF_RESULT.json	1092	6a1e20a3b23ecff854a5fbc7bff4873c1987220af397c95354606037edf1b149
+package/COMPLETENESS_MAP.md	1638	5cc3dc449efd5cfa43ee0cf13e63d5f2c52af3d8ca8afce402654cf080f71681
+package/DERIVATION_RESULT.json	14981	4aa3c6d90c269bfe7dda5382cc1fffbc13b92eb9fb6575bdb15316c7dfb816ca
+package/EVIDENCE_GATES.md	1105	25de0317b8e940df7e8653ce74ff9318aed55de3d48865bafc23b1d676d3ea17
+package/EXACT_DERIVATION.md	6811	2b8a31d05efabb28e3a3785c2dcaa2e4501ebcb72a46b98bdad8d4e461b628d2
+package/EXTERNAL_REVIEW_REQUEST.md	1561	b36c0c0b0d16649960352b9bb54e65a22c1204bb3d985bbb24e675e8b3e47c4d
+package/INDEPENDENT_VERIFICATION.json	3892	56901f921f7d9257c7f57eaf9b5327fc2f0aee499690147b0faaefc6f897b9b9
+package/INVARIANT_ATLAS.tsv	2204	125c348ab5240cb42c7d27bcb64d8a05519e5c3341c3b0dcb71b688603bd0ce9
+package/LAY_REPORT.md	1401	ddd7a934dadef4d822018b3f78c885f09df7459ab13e803fd7ef10aa028c4f18
+package/MAP.md	2962	25dc8be7931198932d19c165289ca732e1a5fc480f4aed7965c089588fa438db
+package/PACKAGE_VERIFICATION_RESULT.json	388	ee68a52a623e8f1180cac71661a7dea9fa0af96c15bf7a79df3a35d249c42ec3
+package/PREMISE_LEDGER.tsv	2027	579683cb67eb15711f4f9826f0c8e0252f55989c1c68ea2c94285c056e46345a
+package/PREREGISTRATION.md	5296	f6f896411dc1ab5ac9b10c67a98695288e1f7e2ac2ee5e48c2d1d642fce97277
+package/REPLAY_COMMANDS.txt	120	d33540634fcd60b96af69aa4df367d87774d000f7adfd850f4f0fbb0fd5b53a8
+package/RUN_RECORD.md	1067	a8586f0a03f60a25ba76116fcc01351e715567a14b27ef943fd2f4652cd2d275
+package/SOURCE_SCOPE.tsv	821	4b9ddec163c72e6d5e6e0e5acb6c8ebf8fa9ab396e836d9b45af81b9637bfb30
+package/STATUS_LEDGER.tsv	1513	5806ecc763d337696751ba10c15c9f88a5062cf557ee5597fe5669e83bec93c1
+package/build_review_intake.py	4403	4b9c1a6fee24153185b54e8cb3c1fa2fe04448ef1ecd53cafd51806709e209eb
+package/derive_physical_quotient.py	11195	13eaeb78f92e791c36928dea3f4e04d3e9bc0e353416c0952b8b86a87daf327b
+package/run_catch_proofs.py	4921	34ee6527f8f2f3b3be7ca1105aefb8ddb0f37e1dd8b14e31e5904ac55207ceae
+package/verify_independent.py	9762	67ae083c3dcabb5ed729c5fca4fedac84a7501360baedd56d355d0406c1c4080
+package/verify_package.py	7870	7f8d85ef66d0e0b02d39cbacbab54c6644f3817f17a75d621528cbe039e980e7
+sources/CURRENT_SCIENTIFIC_PREMISES.tsv	618639	4f3a593805ce8b599cffbbf4d8ffc5b355bb8b40ffd998fd6032beda8d686633
+sources/LIVE.md	7803	947761f7d32d0ee7a5f9879a38f9595b012f9dc035ccc69a19c0ad40f8d21257
+sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md	2114	4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md	8331	8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63
+sources/udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md	8790	a7ad81bcfa3a55b7f86107b175569064219235b4201465df9759a8d87c672390
+sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md	2320	363074f6009e5c0be420d109c8b2e20328d4f55885027138c2ed5f658e2a9da9
+sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md	6774	8176dc4c050dcb6f3e8fd3a15347ef1d7f52b199b1694519e4f76d28f74eddc6
+
+---SHA256---
+db9e81c81fe1706c0ff7759367af15d5ee632c9bf41b018eab49d38d64e83c45  REVIEW_MANIFEST.tsv
+
+codex
+I have the bounded scope and verdict options, and the package requests four specific replay commands plus an independent derivation check. Next I’m validating the detached seal and every manifest entry, then I’ll inspect the package’s replay instructions and the core derivation/audit materials before writing the report.
+Structured review workflow for the sealed G320 intake.
+  → Authenticate REVIEW_MANIFEST.tsv against REVIEW_MANIFEST.sha256 and verify every manifest payload in /intake
+  • Create fresh writable copy of /intake/package under /work and rerun the four registered commands there
+  • Read the requested package materials and independently check the invariant, quotient, lawfulness, and mode-square claims
+  • Write /return/EXTERNAL_REVIEW_RESPONSE.md with detailed findings and one allowed verdict token
+exec
+/bin/bash -lc 'sha256sum -c REVIEW_MANIFEST.sha256' in /intake
+ succeeded in 0ms:
+REVIEW_MANIFEST.tsv: OK
+
+exec
+/bin/bash -lc 'sha256sum REVIEW_MANIFEST.tsv REVIEW_SCOPE.json package/* sources/CURRENT_SCIENTIFIC_PREMISES.tsv sources/LIVE.md sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md sources/udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md' in /intake
+ succeeded in 0ms:
+db9e81c81fe1706c0ff7759367af15d5ee632c9bf41b018eab49d38d64e83c45  REVIEW_MANIFEST.tsv
+260aac5813195eeaba3fefe10943313ed192e2dfc869d4cd6572ff991be39dfd  REVIEW_SCOPE.json
+4cbb6f4e34277e662f55fd5ea2d7a13e0ee8b29071c2ecfec56b9054d3fc570e  package/AUDIT_REPORT.md
+6a1e20a3b23ecff854a5fbc7bff4873c1987220af397c95354606037edf1b149  package/CATCH_PROOF_RESULT.json
+5cc3dc449efd5cfa43ee0cf13e63d5f2c52af3d8ca8afce402654cf080f71681  package/COMPLETENESS_MAP.md
+4aa3c6d90c269bfe7dda5382cc1fffbc13b92eb9fb6575bdb15316c7dfb816ca  package/DERIVATION_RESULT.json
+25de0317b8e940df7e8653ce74ff9318aed55de3d48865bafc23b1d676d3ea17  package/EVIDENCE_GATES.md
+2b8a31d05efabb28e3a3785c2dcaa2e4501ebcb72a46b98bdad8d4e461b628d2  package/EXACT_DERIVATION.md
+b36c0c0b0d16649960352b9bb54e65a22c1204bb3d985bbb24e675e8b3e47c4d  package/EXTERNAL_REVIEW_REQUEST.md
+56901f921f7d9257c7f57eaf9b5327fc2f0aee499690147b0faaefc6f897b9b9  package/INDEPENDENT_VERIFICATION.json
+125c348ab5240cb42c7d27bcb64d8a05519e5c3341c3b0dcb71b688603bd0ce9  package/INVARIANT_ATLAS.tsv
+ddd7a934dadef4d822018b3f78c885f09df7459ab13e803fd7ef10aa028c4f18  package/LAY_REPORT.md
+25dc8be7931198932d19c165289ca732e1a5fc480f4aed7965c089588fa438db  package/MAP.md
+ee68a52a623e8f1180cac71661a7dea9fa0af96c15bf7a79df3a35d249c42ec3  package/PACKAGE_VERIFICATION_RESULT.json
+579683cb67eb15711f4f9826f0c8e0252f55989c1c68ea2c94285c056e46345a  package/PREMISE_LEDGER.tsv
+f6f896411dc1ab5ac9b10c67a98695288e1f7e2ac2ee5e48c2d1d642fce97277  package/PREREGISTRATION.md
+d33540634fcd60b96af69aa4df367d87774d000f7adfd850f4f0fbb0fd5b53a8  package/REPLAY_COMMANDS.txt
+a8586f0a03f60a25ba76116fcc01351e715567a14b27ef943fd2f4652cd2d275  package/RUN_RECORD.md
+4b9ddec163c72e6d5e6e0e5acb6c8ebf8fa9ab396e836d9b45af81b9637bfb30  package/SOURCE_SCOPE.tsv
+5806ecc763d337696751ba10c15c9f88a5062cf557ee5597fe5669e83bec93c1  package/STATUS_LEDGER.tsv
+4b9c1a6fee24153185b54e8cb3c1fa2fe04448ef1ecd53cafd51806709e209eb  package/build_review_intake.py
+13eaeb78f92e791c36928dea3f4e04d3e9bc0e353416c0952b8b86a87daf327b  package/derive_physical_quotient.py
+34ee6527f8f2f3b3be7ca1105aefb8ddb0f37e1dd8b14e31e5904ac55207ceae  package/run_catch_proofs.py
+67ae083c3dcabb5ed729c5fca4fedac84a7501360baedd56d355d0406c1c4080  package/verify_independent.py
+7f8d85ef66d0e0b02d39cbacbab54c6644f3817f17a75d621528cbe039e980e7  package/verify_package.py
+4f3a593805ce8b599cffbbf4d8ffc5b355bb8b40ffd998fd6032beda8d686633  sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+947761f7d32d0ee7a5f9879a38f9595b012f9dc035ccc69a19c0ad40f8d21257  sources/LIVE.md
+4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5  sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md
+ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1  sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63  sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md
+a7ad81bcfa3a55b7f86107b175569064219235b4201465df9759a8d87c672390  sources/udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md
+363074f6009e5c0be420d109c8b2e20328d4f55885027138c2ed5f658e2a9da9  sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md
+8176dc4c050dcb6f3e8fd3a15347ef1d7f52b199b1694519e4f76d28f74eddc6  sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+
+exec
+/bin/bash -lc "sed -n '1,120p' /intake/package/REPLAY_COMMANDS.txt && printf '\\n---VERIFY_PACKAGE---\\n' && sed -n '1,220p' /intake/package/verify_package.py && printf '\\n---VERIFY_INDEPENDENT---\\n' && sed -n '1,220p' /intake/package/verify_independent.py" in /return
+ succeeded in 0ms:
+python3 derive_physical_quotient.py
+python3 verify_independent.py
+python3 run_catch_proofs.py
+python3 verify_package.py
+
+---VERIFY_PACKAGE---
+#!/usr/bin/env python3
+"""Aggregate dependency-free verifier for the pre-external G320 package."""
+
+import ast
+import csv
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+LANDING = (
+    "G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_"
+    "SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__"
+    "NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION"
+)
+REQUIRED = (
+    "MAP.md", "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "PREREGISTRATION.md",
+    "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt", "derive_physical_quotient.py",
+    "verify_independent.py", "run_catch_proofs.py", "verify_package.py",
+    "build_review_intake.py", "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+    "CATCH_PROOF_RESULT.json", "INVARIANT_ATLAS.tsv", "EXACT_DERIVATION.md",
+    "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md", "AUDIT_REPORT.md",
+    "RUN_RECORD.md", "EXTERNAL_REVIEW_REQUEST.md",
+)
+
+
+def need(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+def main():
+    for name in REQUIRED:
+        need((HERE / name).is_file(), f"missing {name}")
+
+    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    hostile = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    need(production["status"] == "PASS_PENDING_EXTERNAL_REVIEW", "production status")
+    need(production["landing"] == LANDING, "production landing")
+    need(production["assertion_count"] >= 290, "production assertion floor")
+    need(production["Q_R_mode_scaling"] == "n^2", "mode scaling")
+    need(production["intrinsic_physical_inequivalence"] is True, "inequivalence absent")
+    need(production["countably_infinite_physical_directions_in_registered_family"] is True, "family breadth absent")
+    need(production["every_distinct_profile_proven_inequivalent"] is False, "complete quotient overclaim")
+    need(production["conformal_seed_full_data_duplicate_control_pass"] is True, "seed control")
+    need(independent["status"] == "PASS", "independent status")
+    need(independent["assertion_count"] >= 59, "independent assertion floor")
+    need(independent["production_imported"] is False, "independent imported production")
+    need(independent["production_result_read"] is False, "independent read production result")
+    need(independent["intrinsic_inequivalence_upheld"] is True, "independent separator")
+    need(hostile["status"] == "PASS", "hostile status")
+    need(hostile["caught_count"] == hostile["mutation_count"] >= 26, "hostile catches")
+
+    for key in (
+        "complete_moduli_classification", "physical_data_selected", "history_selected",
+        "scale_selected", "Xmax_selected", "metric_changed", "kernel_changed",
+    ):
+        need(production[key] is False, f"forbidden promotion: {key}")
+
+    with (HERE / "INVARIANT_ATLAS.tsv").open(encoding="utf-8", newline="") as handle:
+        atlas = list(csv.DictReader(handle, delimiter="\t"))
+    need(len(atlas) == 8, "atlas count")
+    need({row["mode"] for row in atlas} == {"1", "2", "3", "4"}, "atlas modes")
+    need({row["sign"] for row in atlas} == {"-1", "1"}, "atlas signs")
+    volumes = [float(row["volume"]) for row in atlas]
+    need(max(volumes) - min(volumes) < 2e-11, "volume mismatch")
+    for sign in ("-1", "1"):
+        rows = {int(row["mode"]): row for row in atlas if row["sign"] == sign}
+        base = float(rows[1]["Q_R"])
+        for mode in (2, 3, 4):
+            need(abs(float(rows[mode]["Q_R"]) / base - mode ** 2) < 2e-12, "Q ratio")
+    need(max(float(row["max_hamiltonian"]) for row in atlas) < 4e-15, "Hamiltonian")
+    need(max(float(row["max_momentum"]) for row in atlas) < 2e-15, "momentum")
+    need(all(float(row["min_signed_tau"]) > 0 for row in atlas), "tau sign")
+
+    exact = (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    lay = (HERE / "LAY_REPORT.md").read_text(encoding="utf-8")
+    lay_flat = " ".join(lay.split())
+    prereg = (HERE / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    request = (HERE / "EXTERNAL_REVIEW_REQUEST.md").read_text(encoding="utf-8")
+    for token in (
+        "compare physical data, not conformal coordinates",
+        "Q_R[\\psi_n]=n^2Q_R[\\psi_1]",
+        "at least a countably infinite set",
+        "not a complete quotient",
+        "same physical datum",
+        "metric, reciprocal kernel, angular cancellation",
+    ):
+        need(token.lower() in exact.lower(), f"exact guard missing: {token}")
+    for token in (
+        "some of the freedom is definitely real",
+        "1, 4, 9, 16",
+        "choose one universe",
+        "metric and reciprocal kernel were not changed",
+    ):
+        need(token.lower() in lay_flat.lower(), f"lay guard missing: {token}")
+    for token in (
+        "same physical initial datum",
+        "homothety-neutral invariant",
+        "does not prove\nthat every distinct profile",
+        "fresh external adversarial review",
+    ):
+        need(token in prereg, f"prereg guard missing: {token}")
+    for verdict in (
+        "G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD",
+        "G320_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED",
+        "G320_SCIENTIFIC_LANDING_REFUTED",
+        "G320_REVIEW_INCOMPLETE",
+    ):
+        need(verdict in request, f"external verdict missing: {verdict}")
+
+    independent_source = (HERE / "verify_independent.py").read_text(encoding="utf-8")
+    need("import derive_physical_quotient" not in independent_source, "independent import")
+    need("DERIVATION_RESULT.json" not in independent_source, "independent output read")
+
+    allowed_modules = {
+        "ast", "csv", "fractions", "hashlib", "json", "math", "pathlib", "shutil", "tempfile"
+    }
+    for script in (
+        "derive_physical_quotient.py", "verify_independent.py", "run_catch_proofs.py",
+        "verify_package.py", "build_review_intake.py",
+    ):
+        tree = ast.parse((HERE / script).read_text(encoding="utf-8"), filename=script)
+        imported = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Import):
+                imported.update(alias.name.split(".")[0] for alias in node.names)
+            elif isinstance(node, ast.ImportFrom) and node.module:
+                imported.add(node.module.split(".")[0])
+        need(imported <= allowed_modules, f"unregistered dependency in {script}: {sorted(imported - allowed_modules)}")
+
+    source_scope = (HERE / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+    for protected in (
+        "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+        "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+        "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12",
+        "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
+    ):
+        need(protected not in source_scope, f"protected source: {protected}")
+
+    result = {
+        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "production_assertions": production["assertion_count"],
+        "independent_assertions": independent["assertion_count"],
+        "hostile_catches": f"{hostile['caught_count']}/{hostile['mutation_count']}",
+        "atlas_rows": len(atlas),
+        "external_review": "PENDING",
+    }
+    (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print("G320 package verification PASS_PENDING_EXTERNAL_REVIEW")
+    print(f"production assertions: {result['production_assertions']}")
+    print(f"independent assertions: {result['independent_assertions']}")
+    print(f"hostile mutations caught: {result['hostile_catches']}")
+    print(LANDING)
+
+
+if __name__ == "__main__":
+    main()
+
+---VERIFY_INDEPENDENT---
+#!/usr/bin/env python3
+"""Implementation-distinct G320 verification from physical tensors.
+
+This file imports no production code and reads no production output.
+"""
+
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+CHECKS = []
+TWO_PI = 2.0 * math.pi
+SAMPLES = 3072  # CATEGORY_A_NUMERICAL_QUADRATURE
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def delta(left, right):
+    return 1.0 if left == right else 0.0
+
+
+def ricci_scalar_by_index_loops(psi, psi_prime, psi_second):
+    h_value = psi_prime / psi
+    h_prime = psi_second / psi - h_value ** 2
+    u = (2.0 * h_value, 0.0, 0.0)
+    u_prime = (2.0 * h_prime, 0.0, 0.0)
+    gamma = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    dgamma_x = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for upper in range(3):
+        for left in range(3):
+            for right in range(3):
+                gamma[upper][left][right] = (
+                    delta(upper, left) * u[right]
+                    + delta(upper, right) * u[left]
+                    - delta(left, right) * u[upper]
+                )
+                dgamma_x[upper][left][right] = (
+                    delta(upper, left) * u_prime[right]
+                    + delta(upper, right) * u_prime[left]
+                    - delta(left, right) * u_prime[upper]
+                )
+    ricci = [[0.0 for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            value = dgamma_x[0][i][j]
+            if j == 0:
+                value -= sum(dgamma_x[k][i][k] for k in range(3))
+            for k in range(3):
+                for ell in range(3):
+                    value += gamma[k][i][j] * gamma[ell][k][ell]
+                    value -= gamma[ell][i][k] * gamma[k][j][ell]
+            ricci[i][j] = value
+    return psi ** -4 * sum(ricci[i][i] for i in range(3)), gamma
+
+
+def momentum_by_index_loops(gamma, kdiag, kdiag_prime, tau, tau_prime):
+    pmat = [[0.0 for _ in range(3)] for _ in range(3)]
+    pprime = [[0.0 for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        pmat[i][i] = kdiag[i] - tau
+        pprime[i][i] = kdiag_prime[i] - tau_prime
+    answer = []
+    for i in range(3):
+        value = pprime[0][i]
+        for j in range(3):
+            for m in range(3):
+                value += gamma[j][j][m] * pmat[m][i]
+                value -= gamma[m][j][i] * pmat[j][m]
+        answer.append(value)
+    return tuple(answer)
+
+
+def profile(x_value, mode, phase, reflected, p_value, amplitude):
+    coordinate = -x_value if reflected else x_value
+    orientation = -1.0 if reflected else 1.0
+    argument = mode * (coordinate - phase)
+    psi = p_value + amplitude * math.cos(argument)
+    psi_prime = -amplitude * mode * math.sin(argument) * orientation
+    psi_second = -amplitude * mode ** 2 * math.cos(argument)
+    psi_third = amplitude * mode ** 3 * math.sin(argument) * orientation
+    return psi, psi_prime, psi_second, psi_third
+
+
+def evaluate(mode, sign, phase=0.0, reflected=False, p_value=4.0 / 3.0, amplitude=1.0 / 7.0):
+    volume_terms = []
+    scalar_terms = []
+    tau_terms = []
+    k2_terms = []
+    max_ricci_formula_error = 0.0
+    max_hamiltonian = 0.0
+    max_momentum = 0.0
+    min_signed_tau = float("inf")
+    j0 = 200.0
+    for index in range(SAMPLES):
+        x_value = TWO_PI * index / SAMPLES
+        psi, psi_prime, psi_second, psi_third = profile(
+            x_value, mode, phase, reflected, p_value, amplitude
+        )
+        scalar_loop, gamma = ricci_scalar_by_index_loops(psi, psi_prime, psi_second)
+        scalar_closed = -8.0 * psi ** -5 * psi_second
+        max_ricci_formula_error = max(max_ricci_formula_error, abs(scalar_loop - scalar_closed))
+
+        f_value = 12.0 * psi_second * psi ** -5
+        f_prime = 12.0 * (
+            psi_third * psi ** -5 - 5.0 * psi_second * psi ** -6 * psi_prime
+        )
+        z_value = 36.0 * psi_prime ** 2 + j0
+        z_prime = 72.0 * psi_prime * psi_second
+        b_value = sign * psi ** -3 * math.sqrt(z_value)
+        b_prime = b_value * (-3.0 * psi_prime / psi + z_prime / (2.0 * z_value))
+        a_value = f_value / b_value
+        a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+        tau = 0.5 * (a_value + b_value)
+        mu = 0.5 * (a_value - b_value)
+        tau_prime = 0.5 * (a_prime + b_prime)
+        mu_prime = 0.5 * (a_prime - b_prime)
+        kdiag = (
+            (tau + 2.0 * mu) / 3.0,
+            (tau - mu) / 3.0,
+            (tau - mu) / 3.0,
+        )
+        kdiag_prime = (
+            (tau_prime + 2.0 * mu_prime) / 3.0,
+            (tau_prime - mu_prime) / 3.0,
+            (tau_prime - mu_prime) / 3.0,
+        )
+        hamiltonian = scalar_loop + tau ** 2 - sum(item * item for item in kdiag)
+        momentum = momentum_by_index_loops(
+            gamma, kdiag, kdiag_prime, tau, tau_prime
+        )
+        max_hamiltonian = max(max_hamiltonian, abs(hamiltonian))
+        max_momentum = max(max_momentum, *(abs(item) for item in momentum))
+        min_signed_tau = min(min_signed_tau, sign * tau)
+        weight = psi ** 6
+        volume_terms.append(weight)
+        scalar_terms.append(weight * scalar_loop)
+        tau_terms.append(weight * tau)
+        k2_terms.append(weight * sum(item * item for item in kdiag))
+    volume = TWO_PI ** 3 * math.fsum(volume_terms) / SAMPLES
+    total_scalar = TWO_PI ** 3 * math.fsum(scalar_terms) / SAMPLES
+    return {
+        "volume": volume,
+        "total_scalar": total_scalar,
+        "Q_R": total_scalar / volume ** (1.0 / 3.0),
+        "weighted_tau": math.fsum(tau_terms) / math.fsum(volume_terms),
+        "weighted_K2": math.fsum(k2_terms) / math.fsum(volume_terms),
+        "max_ricci_formula_error": max_ricci_formula_error,
+        "max_hamiltonian": max_hamiltonian,
+        "max_momentum": max_momentum,
+        "min_signed_tau": min_signed_tau,
+    }
+
+
+# Different controls from production: distinct p, amplitude, modes, sample count, and J0.
+modes = (1, 3, 5)
+for sign in (-1, 1):
+    baseline = evaluate(1, sign)
+    check(f"independent baseline lawful sign={sign}", baseline["max_hamiltonian"] < 2e-12 and baseline["max_momentum"] < 2e-12)
+    check(f"independent baseline tau sign={sign}", baseline["min_signed_tau"] > 0)
+    check(f"independent direct Ricci sign={sign}", baseline["max_ricci_formula_error"] < 2e-14)
+    for mode in modes[1:]:
+        current = evaluate(mode, sign)
+        check(f"independent same volume n={mode} sign={sign}", abs(current["volume"] - baseline["volume"]) < 2e-11)
+        check(f"independent Q ratio n={mode} sign={sign}", abs(current["Q_R"] / baseline["Q_R"] - mode ** 2) < 3e-12)
+        check(f"independent lawful n={mode} sign={sign}", current["max_hamiltonian"] < 3e-12 and current["max_momentum"] < 3e-12)
+        check(f"independent tau sign n={mode} sign={sign}", current["min_signed_tau"] > 0)
+        check(f"independent direct Ricci n={mode} sign={sign}", current["max_ricci_formula_error"] < 3e-13)
+
+
+# Independent isometry controls on a mode absent from the production family.
+for sign in (-1, 1):
+    baseline = evaluate(5, sign)
+    for phase, reflected in ((0.223, False), (0.817, False), (0.0, True)):
+        control = evaluate(5, sign, phase=phase, reflected=reflected)
+        for key in ("volume", "total_scalar", "Q_R", "weighted_tau", "weighted_K2"):
+            tolerance = 5e-11 * max(1.0, abs(baseline[key]))
+            check(f"independent isometry {key} sign={sign} phase={phase} reflect={reflected}", abs(control[key] - baseline[key]) < tolerance)
+
+
+# Independent conformal-seed identity with a different nonconstant seed factor.
+max_seed_metric_error = 0.0
+max_seed_physical_a_error = 0.0
+max_raw_seed_difference = 0.0
+for index in range(SAMPLES):
+    x_value = TWO_PI * index / SAMPLES
+    psi = profile(x_value, 3, 0.0, False, 4.0 / 3.0, 1.0 / 7.0)[0]
+    theta = math.exp(0.07 * math.cos(2.0 * x_value))
+    reconstructed = (psi / theta) ** 4 * theta ** 4
+    max_seed_metric_error = max(max_seed_metric_error, abs(reconstructed - psi ** 4))
+    max_raw_seed_difference = max(max_raw_seed_difference, abs(psi / theta - psi))
+    for bar_a in (1.75, -0.5, -1.25):
+        original_physical_a = psi ** -10 * bar_a
+        transformed_physical_a = (psi / theta) ** -10 * theta ** -10 * bar_a
+        max_seed_physical_a_error = max(
+            max_seed_physical_a_error,
+            abs(transformed_physical_a - original_physical_a),
+        )
+check("independent seed fields differ", max_raw_seed_difference > 0.05)
+check("independent seed metric identical", max_seed_metric_error < 4e-15)
+check("independent seed physical A identical", max_seed_physical_a_error < 4e-15)
+
+
+result = {
+    "schema": "udt-g320-independent-physical-tensor-v1",
+    "status": "PASS",
+    "assertion_count": len(CHECKS),
+    "method": "direct Christoffel-Ricci index loops plus physical constraint reconstruction",
+    "production_imported": False,
+    "production_result_read": False,
+    "control_modes": list(modes),
+    "branches": [-1, 1],
+    "Q_R_mode_scaling": "n^2",
+    "intrinsic_inequivalence_upheld": True,
+    "isometry_controls_pass": True,
+
+codex
+The seal checks passed so far: the detached hash matches `REVIEW_MANIFEST.tsv`, and direct SHA-256 recomputation matches every manifest entry I sampled from the full manifest. I’m moving to the executable evidence now: replay instructions, the production derivation script, the independent verifier, and the hostile mutation checker.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/run_catch_proofs.py" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/derive_physical_quotient.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile mutation catches for the preregistered G320 quotient audit."""
+
+from fractions import Fraction
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+CATCHES = []
+
+
+def catch(label, rejected):
+    if not rejected:
+        raise AssertionError(f"mutation escaped: {label}")
+    CATCHES.append(label)
+
+
+psi = Fraction(7, 5)
+psi_prime = Fraction(2, 7)
+psi_second = Fraction(-3, 11)
+correct_r = -8 * psi ** -5 * psi_second
+correct_density = psi ** 6
+catch("wrong Ricci conformal power", -8 * psi ** -4 * psi_second != correct_r)
+catch("wrong Ricci sign", 8 * psi ** -5 * psi_second != correct_r)
+catch("wrong volume conformal power", psi ** 5 != correct_density)
+catch("omitted volume weight", correct_r != correct_r * correct_density)
+
+p = Fraction(3, 2)
+a = Fraction(1, 5)
+average_psi6 = p ** 6 + Fraction(15, 2) * p ** 4 * a ** 2 + Fraction(45, 8) * p ** 2 * a ** 4 + Fraction(5, 16) * a ** 6
+catch("wrong psi6 cosine moment", average_psi6 != p ** 6 + 15 * p ** 4 * a ** 2 + 15 * p ** 2 * a ** 4 + a ** 6)
+catch("linear rather than square mode scaling", 4 ** 2 != 4)
+catch("mode-independent curvature mutation", 4 ** 2 != 1)
+
+# A raw array changes under a phase shift while its invariant integral does not.
+samples = 64
+raw = [float(p) + float(a) * math.cos(2 * math.pi * index / samples) for index in range(samples)]
+shifted = [float(p) + float(a) * math.cos(2 * math.pi * index / samples - 0.37) for index in range(samples)]
+catch("raw-array physical discriminator", max(abs(left - right) for left, right in zip(raw, shifted)) > 0.01)
+raw_mean6 = math.fsum(value ** 6 for value in raw) / samples
+shifted_mean6 = math.fsum(value ** 6 for value in shifted) / samples
+catch("phase falsely changes volume", abs(raw_mean6 - shifted_mean6) < 1e-12)
+
+# Total scalar alone is not homothety neutral, whereas Q_R is.
+volume = 17.0
+total_scalar = 5.0
+scale = 3.0
+q_value = total_scalar / volume ** (1.0 / 3.0)
+q_scaled = (scale * total_scalar) / (scale ** 3 * volume) ** (1.0 / 3.0)
+catch("total scalar called scale-free", scale * total_scalar != total_scalar)
+catch("homothety normalization omitted", abs(q_scaled - q_value) < 1e-14)
+
+# The conformal-seed transformation must divide psi by theta.
+theta = Fraction(6, 5)
+gamma = psi ** 4
+gamma_good = (psi / theta) ** 4 * theta ** 4
+gamma_bad = (psi * theta) ** 4 * theta ** 4
+catch("correct seed duplicate rejected", gamma_good == gamma)
+catch("wrong seed transformation accepted", gamma_bad != gamma)
+
+# A wrong B power can preserve AB=F and therefore the scalar constraint, but it
+# violates the registered first integral with the same J0.
+psi_f = 1.4
+psip_f = 0.2
+psipp_f = -0.3
+j0 = 100.0
+f_value = 12.0 * psipp_f * psi_f ** -5
+z_value = 36.0 * psip_f ** 2 + j0
+b_good = psi_f ** -3 * math.sqrt(z_value)
+b_bad = psi_f ** -2 * math.sqrt(z_value)
+
+
+def ham_from_b(b_value):
+    a_value = f_value / b_value
+    tau = 0.5 * (a_value + b_value)
+    mu = 0.5 * (a_value - b_value)
+    kdiag = ((tau + 2 * mu) / 3, (tau - mu) / 3, (tau - mu) / 3)
+    return -8 * psi_f ** -5 * psipp_f + tau ** 2 - sum(item * item for item in kdiag)
+
+
+catch("correct B reconstruction perturbed", abs(ham_from_b(b_good)) < 1e-14)
+catch("AB factorization alone is blind to wrong B", abs(ham_from_b(b_bad)) < 1e-14)
+j_good = psi_f ** 6 * b_good ** 2 - 36 * psip_f ** 2
+j_bad = psi_f ** 6 * b_bad ** 2 - 36 * psip_f ** 2
+catch("correct B first integral", abs(j_good - j0) < 1e-13)
+catch("wrong B conformal power accepted", abs(j_bad - j0) > 1.0)
+
+# Scope and ownership mutations.
+complete_moduli = False
+physical_data_selected = False
+history_selected = False
+metric_changed = False
+kernel_changed = False
+scale_selected = False
+xmax_selected = False
+catch("complete quotient invented", complete_moduli is False)
+catch("physical data selected", physical_data_selected is False)
+catch("history selected", history_selected is False)
+catch("metric or kernel mutation", metric_changed is False and kernel_changed is False)
+catch("scale or Xmax selection", scale_selected is False and xmax_selected is False)
+
+prereg = (HERE / "PREREGISTRATION.md").read_text(encoding="utf-8")
+catch("prereg lacks physical quotient", "same physical initial datum" in prereg)
+catch("prereg lacks scale-free separator", "Q_R" in prereg and "homothety-neutral" in prereg)
+catch("prereg lacks incomplete-moduli guard", "does not prove\nthat every distinct profile" in prereg)
+catch("prereg lacks external-review gate", "fresh external adversarial review" in prereg)
+
+result = {
+    "schema": "udt-g320-hostile-catches-v1",
+    "status": "PASS",
+    "mutation_count": len(CATCHES),
+    "caught_count": len(CATCHES),
+    "mutations": CATCHES,
+}
+(HERE / "CATCH_PROOF_RESULT.json").write_text(
+    json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+print(json.dumps({"status": "PASS", "caught": len(CATCHES), "total": len(CATCHES)}, indent=2))
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""G320 production derivation: quotient G319 representation freedom physically."""
+
+import csv
+from fractions import Fraction
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+CHECKS = []
+P = Fraction(3, 2)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+A = Fraction(1, 5)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+D_VALUE = 0.0  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+LAMBDA = 0.0  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+J0 = 100.0  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+MODES = (1, 2, 3, 4)  # FREE_AND_EXPLORED_CONTROL_FAMILY
+SAMPLES = 16384  # CATEGORY_A_NUMERICAL_QUADRATURE
+TWO_PI = 2.0 * math.pi
+
+LANDING = (
+    "G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_"
+    "SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__"
+    "NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION"
+)
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def mean(values):
+    return math.fsum(values) / len(values)
+
+
+def profile_jet(x_value, mode, phase=0.0, reflected=False, p=float(P), amplitude=float(A)):
+    argument_x = -x_value if reflected else x_value
+    argument = mode * (argument_x - phase)
+    orientation = -1.0 if reflected else 1.0
+    psi = p + amplitude * math.cos(argument)
+    psi_prime = -amplitude * mode * math.sin(argument) * orientation
+    psi_second = -amplitude * mode * mode * math.cos(argument)
+    psi_third = amplitude * mode ** 3 * math.sin(argument) * orientation
+    return psi, psi_prime, psi_second, psi_third
+
+
+def reconstruct(psi, psi_prime, psi_second, psi_third, sign):
+    f_value = 12.0 * psi_second * psi ** -5
+    f_prime = 12.0 * (
+        psi_third * psi ** -5 - 5.0 * psi_second * psi ** -6 * psi_prime
+    )
+    g_value = 36.0 * psi_prime ** 2
+    g_prime = 72.0 * psi_prime * psi_second
+    z_value = g_value + J0
+    b_value = sign * psi ** -3 * math.sqrt(z_value)
+    b_prime = b_value * (-3.0 * psi_prime / psi + g_prime / (2.0 * z_value))
+    a_value = f_value / b_value
+    a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+    tau = 0.5 * (a_value + b_value)
+    lambda_value = 0.5 * (a_value - b_value)
+    tau_prime = 0.5 * (a_prime + b_prime)
+    lambda_prime = 0.5 * (a_prime - b_prime)
+    kdiag = (
+        (tau + 2.0 * lambda_value) / 3.0,
+        (tau - lambda_value) / 3.0,
+        (tau - lambda_value) / 3.0,
+        )
+    kdiag_prime = (
+        (tau_prime + 2.0 * lambda_prime) / 3.0,
+        (tau_prime - lambda_prime) / 3.0,
+        (tau_prime - lambda_prime) / 3.0,
+    )
+    scalar_3 = -8.0 * psi ** -5 * psi_second
+    hamiltonian = scalar_3 + tau ** 2 - math.fsum(item * item for item in kdiag)
+    h_value = psi_prime / psi
+    momentum = (
+        kdiag_prime[0] - tau_prime + 6.0 * h_value * kdiag[0]
+        - 2.0 * h_value * tau
+    )
+    j_value = psi ** 6 * b_value ** 2 - 36.0 * psi_prime ** 2
+    return {
+        "R3": scalar_3,
+        "tau": tau,
+        "K2": math.fsum(item * item for item in kdiag),
+        "K3": math.fsum(item ** 3 for item in kdiag),
+        "hamiltonian": hamiltonian,
+        "momentum": momentum,
+        "J": j_value,
+        "B2": b_value ** 2,
+        "B2_plus_F": b_value ** 2 + f_value,
+    }
+
+
+def summarize(mode, sign, phase=0.0, reflected=False):
+    rows = []
+    for index in range(SAMPLES):
+        x_value = TWO_PI * index / SAMPLES
+        jet = profile_jet(x_value, mode, phase=phase, reflected=reflected)
+        psi = jet[0]
+        physical = reconstruct(*jet, sign)
+        weight = psi ** 6
+        rows.append((psi, weight, physical))
+
+    volume = TWO_PI ** 3 * mean([row[1] for row in rows])
+    total_scalar = TWO_PI ** 3 * mean(
+        [row[1] * row[2]["R3"] for row in rows]
+    )
+    q_scalar = total_scalar / volume ** (1.0 / 3.0)
+
+    def weighted_average(key):
+        numerator = mean([row[1] * row[2][key] for row in rows])
+        denominator = mean([row[1] for row in rows])
+        return numerator / denominator
+
+    return {
+        "mode": mode,
+        "sign": sign,
+        "phase": phase,
+        "reflected": reflected,
+        "volume": volume,
+        "total_scalar": total_scalar,
+        "Q_R": q_scalar,
+        "weighted_tau": weighted_average("tau"),
+        "weighted_K2": weighted_average("K2"),
+        "weighted_K3": weighted_average("K3"),
+        "min_psi": min(row[0] for row in rows),
+        "min_signed_tau": min(sign * row[2]["tau"] for row in rows),
+        "min_B2": min(row[2]["B2"] for row in rows),
+        "min_B2_plus_F": min(row[2]["B2_plus_F"] for row in rows),
+        "max_hamiltonian": max(abs(row[2]["hamiltonian"]) for row in rows),
+        "max_momentum": max(abs(row[2]["momentum"]) for row in rows),
+        "max_J_drift": max(abs(row[2]["J"] - J0) for row in rows),
+    }
+
+
+# Exact coefficient identities: no outcome sampling is used for the separator theorem.
+p = P
+a = A
+average_psi6 = (
+    p ** 6
+    + Fraction(15, 2) * p ** 4 * a ** 2
+    + Fraction(45, 8) * p ** 2 * a ** 4
+    + Fraction(5, 16) * a ** 6
+)
+check("positive profile exact", p > abs(a))
+check("positive volume coefficient exact", average_psi6 > 0)
+for mode in MODES:
+    integral_gradient_coefficient = Fraction(1, 2) * a ** 2 * mode ** 2
+    check(f"gradient coefficient positive n={mode}", integral_gradient_coefficient > 0)
+    check(
+        f"mode-square scaling exact n={mode}",
+        integral_gradient_coefficient
+        == mode ** 2 * Fraction(1, 2) * a ** 2,
+    )
+    positivity_margin = Fraction(100) - 12 * a * mode ** 2 * (p + a)
+    check(f"regular reconstruction bound n={mode}", positivity_margin > 0)
+
+
+atlas = []
+base_by_sign = {}
+for mode in MODES:
+    for sign in (-1, 1):
+        summary = summarize(mode, sign)
+        expected_volume = TWO_PI ** 3 * float(average_psi6)
+        expected_scalar = 32.0 * math.pi ** 3 * float(a ** 2) * mode ** 2
+        check(f"volume analytic n={mode} sign={sign}", abs(summary["volume"] - expected_volume) < 2e-11)
+        check(f"scalar analytic n={mode} sign={sign}", abs(summary["total_scalar"] - expected_scalar) < 2e-10)
+        check(f"psi positive n={mode} sign={sign}", summary["min_psi"] > 0)
+        check(f"tau sign n={mode} sign={sign}", summary["min_signed_tau"] > 0)
+        check(f"B2 positive n={mode} sign={sign}", summary["min_B2"] > 0)
+        check(f"B2 plus F positive n={mode} sign={sign}", summary["min_B2_plus_F"] > 0)
+        check(f"Hamiltonian n={mode} sign={sign}", summary["max_hamiltonian"] < 2e-12)
+        check(f"momentum n={mode} sign={sign}", summary["max_momentum"] < 2e-12)
+        check(f"J constant n={mode} sign={sign}", summary["max_J_drift"] < 2e-12)
+        if mode == 1:
+            base_by_sign[sign] = summary
+        else:
+            q_ratio = summary["Q_R"] / base_by_sign[sign]["Q_R"]
+            check(f"Q mode-square ratio n={mode} sign={sign}", abs(q_ratio - mode ** 2) < 2e-12)
+        atlas.append(summary)
+
+
+# Explicit spatial-isometry controls: phase translations and reflections preserve every integral.
+for mode in MODES:
+    for sign in (-1, 1):
+        baseline = next(row for row in atlas if row["mode"] == mode and row["sign"] == sign)
+        for phase in (0.137, 0.511, 1.203):
+            shifted = summarize(mode, sign, phase=phase)
+            for key in ("volume", "total_scalar", "Q_R", "weighted_tau", "weighted_K2", "weighted_K3"):
+                tolerance = 3e-11 * max(1.0, abs(baseline[key]))
+                check(f"phase invariant {key} n={mode} sign={sign} phase={phase}", abs(shifted[key] - baseline[key]) < tolerance)
+        reflected = summarize(mode, sign, reflected=True)
+        for key in ("volume", "total_scalar", "Q_R", "weighted_tau", "weighted_K2", "weighted_K3"):
+            tolerance = 3e-11 * max(1.0, abs(baseline[key]))
+            check(f"reflection invariant {key} n={mode} sign={sign}", abs(reflected[key] - baseline[key]) < tolerance)
+
+
+# Conformal-seed representation control: a nonconstant seed rewrite reconstructs the same gamma.
+seed_max_error = 0.0
+seed_max_physical_a_error = 0.0
+raw_seed_difference = 0.0
+for index in range(SAMPLES):
+    x_value = TWO_PI * index / SAMPLES
+    psi = profile_jet(x_value, 2)[0]
+    theta = 1.0 + 0.1 * math.sin(3.0 * x_value)
+    psi_hat = psi / theta
+    bar_gamma_hat_factor = theta ** 4
+    gamma_factor = psi ** 4
+    gamma_hat_factor = psi_hat ** 4 * bar_gamma_hat_factor
+    seed_max_error = max(seed_max_error, abs(gamma_hat_factor - gamma_factor))
+    raw_seed_difference = max(raw_seed_difference, abs(psi_hat - psi))
+    for bar_a in (2.0, -0.75, -1.25):
+        physical_a = psi ** -10 * bar_a
+        bar_a_hat = theta ** -10 * bar_a
+        physical_a_hat = psi_hat ** -10 * bar_a_hat
+        seed_max_physical_a_error = max(
+            seed_max_physical_a_error, abs(physical_a_hat - physical_a)
+        )
+check("nontrivial seed rewrite", raw_seed_difference > 0.01)
+check("seed rewrite reconstructs same gamma", seed_max_error < 4e-15)
+check("seed rewrite reconstructs same physical A", seed_max_physical_a_error < 4e-15)
+
+
+# Homothety control: numerator and denominator scale together, leaving Q_R fixed.
+reference = base_by_sign[1]
+for length_scale in (0.3, 2.0, 7.5):
+    scaled_total_scalar = length_scale * reference["total_scalar"]
+    scaled_volume = length_scale ** 3 * reference["volume"]
+    scaled_q = scaled_total_scalar / scaled_volume ** (1.0 / 3.0)
+    check(f"homothety-neutral Q scale={length_scale}", abs(scaled_q - reference["Q_R"]) < 2e-13)
+
+
+with (HERE / "INVARIANT_ATLAS.tsv").open("w", encoding="utf-8", newline="") as handle:
+    fieldnames = tuple(atlas[0].keys())
+    writer = csv.DictWriter(handle, fieldnames=fieldnames, delimiter="\t", lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(atlas)
+
+
+result = {
+    "schema": "udt-g320-physical-initial-geometry-quotient-v1",
+    "status": "PASS_PENDING_EXTERNAL_REVIEW",
+    "landing": LANDING,
+    "assertion_count": len(CHECKS),
+    "analytic_family": "psi_n=3/2+(1/5)cos(nx)",
+    "modes_checked": list(MODES),
+    "branches_checked": [-1, 1],
+    "same_volume_all_modes": True,
+    "Q_R_mode_scaling": "n^2",
+    "intrinsic_physical_inequivalence": True,
+    "countably_infinite_physical_directions_in_registered_family": True,
+    "every_distinct_profile_proven_inequivalent": False,
+    "phase_reflection_controls_pass": True,
+    "conformal_seed_full_data_duplicate_control_pass": True,
+    "seed_rewrite_max_metric_error": seed_max_error,
+    "seed_rewrite_max_physical_A_error": seed_max_physical_a_error,
+    "complete_moduli_classification": False,
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/EXACT_DERIVATION.md && printf '\\n---AUDIT---\\n' && sed -n '1,240p' /intake/package/AUDIT_REPORT.md && printf '\\n---COMPLETE---\\n' && sed -n '1,220p' /intake/package/COMPLETENESS_MAP.md" in /return
+ succeeded in 0ms:
+# G320 exact derivation — physical initial geometry after representation quotient
+
+Date: 2026-09-01
+Grade: `INTERNALLY_DERIVED_AND_IMPLEMENTATION_DISTINCT_VERIFIED__PENDING_EXTERNAL_REVIEW`
+
+## Bounded landing
+
+```text
+G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION
+```
+
+This conclusion is restricted to the flat marked-`T^3`, one-coordinate, diagonal-TT, smooth
+positive periodic, sign-definite `B!=0` G319 slice. It does not classify the full constraint
+surface or choose physical initial data.
+
+## 1. Compare physical data, not conformal coordinates
+
+G319 uses the conformal presentation
+
+\[
+\gamma_{ij}=\psi^4\delta_{ij}.
+\]
+
+The physical initial datum is `(gamma,K)`, not the seed tuple. Two presentations are physically
+equivalent only when a spatial diffeomorphism carries the complete pair:
+
+\[
+(\widehat\gamma,\widehat K)=(f^*\gamma,f^*K).
+\]
+
+Consequently, raw differences in `psi`, coordinate phase, the auxiliary vector `W`, or the
+conformal seed cannot establish physical inequivalence. A scalar curvature invariant of the
+reconstructed physical metric can.
+
+## 2. Exact intrinsic separator
+
+For a three-dimensional conformal metric `gamma=psi^4 delta`, with `psi=psi(x)`,
+
+\[
+{}^{(3)}R=-8\psi^{-5}\psi'',
+\qquad
+d\mu_\gamma=\psi^6\,dx\,dy\,dz.
+\]
+
+On a periodic torus, integration by parts gives
+
+\[
+\mathcal S[\psi]
+:=\int_{T^3}{}^{(3)}R\,d\mu_\gamma
+=-8\int_{T^3}\psi\psi''\,d^3x
+=8\int_{T^3}(\psi')^2\,d^3x.
+\tag{1}
+\]
+
+Both `Vol(gamma)` and `S[psi]` are spatial-diffeomorphism invariants. Under a common constant
+rescaling `gamma -> ell^2 gamma`,
+
+\[
+\mathcal S\longmapsto \ell\mathcal S,
+\qquad
+\operatorname{Vol}^{1/3}\longmapsto \ell\operatorname{Vol}^{1/3}.
+\]
+
+Therefore
+
+\[
+\boxed{
+Q_R[\psi]
+=\frac{\mathcal S[\psi]}{\operatorname{Vol}(\gamma)^{1/3}}
+}
+\tag{2}
+\]
+
+is invariant under spatial diffeomorphisms and insensitive to an unattached common ruler scale.
+
+## 3. Same values and volume, inequivalent geometry
+
+Use the preregistered family
+
+\[
+\psi_n(x)=p+a\cos(nx),
+\qquad
+p=\frac32,
+\qquad
+a=\frac15,
+\qquad n\in\mathbb N.
+\tag{3}
+\]
+
+All members are positive. For every positive integer `n`, `cos(nx)` has the same value distribution
+on the circle, so
+
+\[
+\operatorname{Vol}(\gamma_n)
+=(2\pi)^3\left[
+p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
+\right]
+\tag{4}
+\]
+
+is independent of `n`. But
+
+\[
+\int_{T^3}(\psi_n')^2d^3x
+=(2\pi)^2\pi a^2n^2,
+\]
+
+and hence
+
+\[
+\boxed{Q_R[\psi_n]=n^2Q_R[\psi_1].}
+\tag{5}
+\]
+
+No spatial diffeomorphism can carry `gamma_n` to `gamma_m` for `n!=m`, because it would have to
+preserve `Q_R`. No conformal-seed rewrite can identify them either: a seed rewrite that represents
+the same physical metric must preserve every invariant of that metric. G319 admits every positive
+smooth periodic profile after a sufficiently large free `J0` is supplied. Equations (3)--(5)
+therefore exhibit at least a countably infinite set of genuinely inequivalent physical initial
+geometries in the registered G319 family.
+
+This is not a complete quotient. Profiles related by translations, reflections, or other lawful
+spatial diffeomorphisms remain equivalent, and G320 does not prove that every different-looking
+profile defines a different moduli point.
+
+## 4. Lawful G319 data, not merely intrinsic trial metrics
+
+For the finite replay controls `n=1,2,3,4`, set only for diagnosis
+
+\[
+d=0,
+\qquad
+\Lambda=0,
+\qquad
+J_0=100.
+\]
+
+G319 gives
+
+\[
+Z=36(\psi')^2+J_0,
+\qquad
+B=\epsilon\psi^{-3}\sqrt Z,
+\qquad
+A=F/B,
+\]
+
+with `epsilon=+1` and `epsilon=-1`. The preregistered bound
+
+\[
+Z+\psi^6F
+=36(\psi')^2+J_0+12\psi\psi''
+\ge J_0-12an^2(p+a)>0
+\]
+
+holds for all four modes. Thus `B` never vanishes and `tau=(A+B)/2` has the selected branch sign.
+Reconstructing `K` with the G319 formula gives maximum production residuals
+
+```text
+Hamiltonian       3.56e-15
+momentum          1.78e-15
+J0 drift          8.53e-14
+```
+
+over 16,384 points per mode and sign. The implementation-distinct verifier used different
+`p,a,J0`, modes `1,3,5`, and 3,072 points; it rebuilt Christoffels and Ricci by index loops and
+again obtained lawful physical data.
+
+The finite controls do not prove the arbitrary-profile theorem. G319's compactness theorem does.
+The controls prove that the registered invariant examples actually lie on the reconstructed
+constraint surface and catch implementation/sign errors.
+
+## 5. Representation controls
+
+### Spatial isometries
+
+For phase translations `psi_n(x-theta)` and reflections `psi_n(-x)`, production recomputed volume,
+total scalar curvature, `Q_R`, and volume-weighted `tr(K)`, `tr(K^2)`, and `tr(K^3)`. All remained
+equal within the registered numerical tolerance. These controls ensure that raw array differences
+are not mistaken for physics.
+
+### Conformal-seed covariance
+
+For any positive `vartheta(x)`, set
+
+\[
+\widehat{\bar\gamma}=\vartheta^4\bar\gamma,
+\qquad
+\widehat\psi=\psi/\vartheta,
+\qquad
+\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}.
+\]
+
+Then
+
+\[
+\widehat\psi^4\widehat{\bar\gamma}=\psi^4\bar\gamma,
+\qquad
+\widehat\psi^{-10}\widehat{\bar A}^{ij}=\psi^{-10}\bar A^{ij}.
+\]
+
+With unchanged `tau`, the reconstructed physical `(gamma,K)` is identical. Production and the
+independent verifier used different nonconstant `vartheta` controls. Their maximum pointwise
+metric errors were `3.56e-15` and `1.78e-15`; physical trace-free tensor errors were `1.67e-16`
+and `3.89e-16`. Different seed fields were correctly classified as the same physical datum.
+
+## 6. What the extrinsic channel adds
+
+The two signs reverse `K` while leaving the intrinsic metric and even contractions such as
+`tr(K^2)` unchanged; odd contractions reverse. Mode changes also alter the volume-weighted
+extrinsic contractions. These are useful physical characterizers of each reconstructed initial
+datum, but they are not load-bearing for the inequivalence theorem: the intrinsic `Q_R` separator
+already proves that the complete pairs cannot be diffeomorphic.
+
+## 7. Exact meaning and open boundary
+
+- `DERIVED_CONDITIONAL_IN_REGISTERED_SLICE`: equations (1)--(5).
+- `DERIVED_CONDITIONAL_IN_REGISTERED_SLICE`: at least countably many inequivalent physical initial
+  geometries occur within the G319 family.
+- `QUOTIENTED_CONTROLS`: phase, reflection, auxiliary-vector kernel, and conformal-seed duplicates.
+- `OPEN`: the complete moduli quotient of arbitrary G319 profiles.
+- `OPEN_NOT_SELECTED`: which initial data are physically occupied and how they evolve globally.
+
+Nothing here selects Nature's data, physical topology, history, population, source, matter/mass,
+observation, scale, or physical `X_max`. The UDT metric, reciprocal kernel, angular cancellation,
+and pair-readout interfaces are unchanged.
+
+
+---AUDIT---
+# G320 internal audit report
+
+Date: 2026-09-01
+
+## Result
+
+```text
+G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION
+```
+
+## Findings
+
+1. The physical comparison was performed on reconstructed `(gamma,K)`, not raw `psi` or seeds.
+2. The exact invariant `Q_R=(integral R dmu)/Vol^(1/3)` is diffeomorphism and homothety invariant.
+3. The positive profiles `psi_n=3/2+(1/5)cos(nx)` have the same volume but
+   `Q_R(n)=n^2 Q_R(1)`.
+4. G319's arbitrary-positive-profile theorem makes every integer mode lawful after a sufficiently
+   large free `J0`; hence the registered family contains at least countably many inequivalent
+   physical initial geometries.
+5. Modes `1--4` were explicitly reconstructed in both signs at `d=Lambda=0,J0=100`; direct physical
+   constraint residuals remained below `3.6e-15` and `J0` drift below `8.6e-14`.
+6. Phase translations and reflections preserved all registered invariant summaries.
+7. Nonconstant conformal-seed rewrites preserved both the physical metric and trace-free tensor.
+8. An implementation-distinct verifier used different profiles, modes `1,3,5`, sample count, seed
+   rewrite, and `J0`; it rebuilt Ricci by index loops and upheld the separator and constraints.
+9. The result proves that G319 freedom is not purely representation. It does not classify every
+   equivalence class or choose physical initial data.
+10. The metric, reciprocal kernel, angular cancellation, scale, observations, and `X_max` are unchanged.
+
+## Evidence counts
+
+- production assertions: 290;
+- independent assertions: 59;
+- hostile mutations caught: 26/26;
+- production controls: 4 modes x 2 signs at 16,384 periodic points;
+- independent controls: 3 different modes x 2 signs at 3,072 points, plus isometry controls.
+- current exact premise registry: pass;
+- full repository suite: 214 passed and one known documented xfail.
+
+## Remaining scope
+
+The audit does not cover the complete G319 moduli quotient, nonflat primary seeds, multidimensional
+profiles, nondiagonal tensors, `B=0` crossings, evolution, stability, physical topology, population,
+sources, matter/mass, observations, scale, physical history, or `X_max`.
+
+## Review status
+
+Internal derivation and implementation-distinct verification pass. Fresh external adversarial
+review remains required before the result is externally accepted or added to the current registry.
+
+---COMPLETE---
+# G320 completeness map
+
+Date: 2026-09-01
+
+| Criterion | Covered | Dropped / open |
+|---|---|---|
+| Fields | reconstructed physical `gamma_ij,K^i_j` for G319 regular controls | general coframe, matter, omitted tensor components |
+| Equations | full G319 scalar/vector constraints for every witness; physical replay required | evolution and constraints outside the registered slice |
+| Domain | smooth positive one-coordinate profiles on dimensionless marked flat `T^3` | nonflat seeds as primary slices, boundaries, asymptotics, multidimensional dependence |
+| Regularity | positive `psi`, both sign-definite `B!=0` branches | `B=0` crossings, low regularity, sign-changing branch |
+| Representation quotient | spatial diffeomorphism/isometry controls and conformal-seed duplicates | complete global moduli classification of all seed tuples |
+| Branches | modes `n=1..4`, phases/reflections, both signs | all smooth profiles and every disconnected constraint branch |
+| Dynamical character | initial-data geometry only | time evolution, maximal development, singularity formation |
+| Topology | chosen marked torus diagnostic | physical topology and population |
+| Stability | not tested | all stability questions |
+| Scale/regime | scale-free invariant comparison in bounded G312--G319 vacuum arena | physical scale, observations, source/matter/mass, `X_max`, full UDT extension |
+
+This is one quotient-audit tile. It can prove that the registered freedom is not entirely
+representational by explicit invariant separation. It cannot prove every different-looking profile
+is physically distinct or that any member is physically occupied.
+
+codex
+I’ve confirmed the package’s stated landing and checks from the sealed materials. Next I’m creating the permitted ephemeral copy under `/work`, replaying the four registered commands there, and comparing the regenerated artifacts against the sealed package outputs before I assess the mathematical claims themselves.
+exec
+/bin/bash -lc 'set -e
+mkdir -p /work
+REVIEW_DIR=$(mktemp -d /work/g320_review_XXXXXX)
+cp -a /intake/package/. "$REVIEW_DIR"/
+printf '"'%s
+' \""'$REVIEW_DIR"
+cd "$REVIEW_DIR"
+python3 derive_physical_quotient.py > derive.out
+python3 verify_independent.py > independent.out
+python3 run_catch_proofs.py > catch.out
+python3 verify_package.py > package.out
+printf '"'\\n---HASHES---\\n'
+sha256sum DERIVATION_RESULT.json INDEPENDENT_VERIFICATION.json CATCH_PROOF_RESULT.json PACKAGE_VERIFICATION_RESULT.json INVARIANT_ATLAS.tsv
+printf '\\n---DIFFS---\\n'
+diff -u /intake/package/DERIVATION_RESULT.json DERIVATION_RESULT.json || true
+printf '\\n@@INDEPENDENT@@\\n'
+diff -u /intake/package/INDEPENDENT_VERIFICATION.json INDEPENDENT_VERIFICATION.json || true
+printf '\\n@@CATCH@@\\n'
+diff -u /intake/package/CATCH_PROOF_RESULT.json CATCH_PROOF_RESULT.json || true
+printf '\\n@@PACKAGE@@\\n'
+diff -u /intake/package/PACKAGE_VERIFICATION_RESULT.json PACKAGE_VERIFICATION_RESULT.json || true
+printf '\\n@@ATLAS@@\\n'
+diff -u /intake/package/INVARIANT_ATLAS.tsv INVARIANT_ATLAS.tsv || true
+printf '\\n---STDOUT derive---\\n'
+sed -n '1,80p' derive.out
+printf '\\n---STDOUT independent---\\n'
+sed -n '1,80p' independent.out
+printf '\\n---STDOUT catch---\\n'
+sed -n '1,80p' catch.out
+printf '\\n---STDOUT package---\\n'
+sed -n '1,80p' package.out" in /return
+ succeeded in 3122ms:
+
+---HASHES---
+4aa3c6d90c269bfe7dda5382cc1fffbc13b92eb9fb6575bdb15316c7dfb816ca  DERIVATION_RESULT.json
+56901f921f7d9257c7f57eaf9b5327fc2f0aee499690147b0faaefc6f897b9b9  INDEPENDENT_VERIFICATION.json
+6a1e20a3b23ecff854a5fbc7bff4873c1987220af397c95354606037edf1b149  CATCH_PROOF_RESULT.json
+ee68a52a623e8f1180cac71661a7dea9fa0af96c15bf7a79df3a35d249c42ec3  PACKAGE_VERIFICATION_RESULT.json
+125c348ab5240cb42c7d27bcb64d8a05519e5c3341c3b0dcb71b688603bd0ce9  INVARIANT_ATLAS.tsv
+
+---DIFFS---
+
+@@INDEPENDENT@@
+
+@@CATCH@@
+
+@@PACKAGE@@
+
+@@ATLAS@@
+
+---STDOUT derive---
+{
+  "status": "PASS_PENDING_EXTERNAL_REVIEW",
+  "landing": "G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION",
+  "assertions": 290,
+  "modes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "branches": [
+    -1,
+    1
+  ],
+  "seed_rewrite_max_metric_error": 3.552713678800501e-15,
+  "seed_rewrite_max_physical_A_error": 1.6653345369377348e-16
+}
+
+---STDOUT independent---
+{
+  "status": "PASS",
+  "assertions": 59,
+  "control_modes": [
+    1,
+    3,
+    5
+  ],
+  "max_seed_metric_error": 1.7763568394002505e-15,
+  "max_seed_physical_A_error": 3.885780586188048e-16
+}
+
+---STDOUT catch---
+{
+  "status": "PASS",
+  "caught": 26,
+  "total": 26
+}
+
+---STDOUT package---
+G320 package verification PASS_PENDING_EXTERNAL_REVIEW
+production assertions: 290
+independent assertions: 59
+hostile mutations caught: 26/26
+G319_FREEDOM_NOT_PURE_REPRESENTATION__SCALE_FREE_INTRINSIC_CURVATURE_SEPARATES_LAWFUL_PROFILES__DECLARED_GAUGE_DUPLICATES_QUOTIENTED__NO_COMPLETE_MODULI_OR_PHYSICAL_DATA_SELECTION
+
+codex
+The replay is in progress in a disposable copy at `/work/g320_review_yvUVBj`. After that finishes I’ll compare the regenerated JSON and atlas outputs byte-for-byte against the sealed package, then move to the adversarial derivation review.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/PREREGISTRATION.md && printf '\\n---GATES---\\n' && sed -n '1,220p' /intake/package/EVIDENCE_GATES.md && printf '\\n---RUN_RECORD---\\n' && sed -n '1,220p' /intake/package/RUN_RECORD.md" in /return
+ succeeded in 0ms:
+# G320 preregistration — physical versus representational G319 freedom
+
+Date: 2026-09-01
+Status: `PREREGISTERED_BEFORE_OUTCOME_SCRIPTS_OR_RESULTS`
+
+## 1. Frozen bounded frame
+
+Retain G319's exact flat marked-`T^3`, one-coordinate, diagonal-TT, smooth positive periodic,
+sign-definite `B!=0` diagnostic slice. Reconstruct
+
+\[
+\gamma_{ij}=\psi^4\delta_{ij}
+\]
+
+and `K^i_j` by G319 equations (6)--(8). Do not modify the active conditional equation, metric, or
+reciprocal kernel.
+
+## 2. Physical equivalence relation
+
+Two conformal tuples count as the same physical initial datum when they reconstruct pairs related
+by a spatial diffeomorphism,
+
+\[
+(\widehat\gamma,\widehat K)=(f^*\gamma,f^*K).
+\]
+
+Raw seed fields, raw `psi`, coordinate phase, and auxiliary `W` are not comparison criteria.
+Conformal seed changes satisfying
+
+\[
+\widehat{\bar\gamma}=\vartheta^4\bar\gamma,
+\qquad
+\widehat\psi=\psi/\vartheta,
+\qquad \vartheta>0,
+\]
+
+reconstruct the same intrinsic metric and must be accepted as representation controls. A complete
+seed transformation is equivalent only when it reconstructs the same `K` as well.
+
+## 3. Exact intrinsic invariants
+
+For `gamma=psi^4 delta` in three dimensions and `psi=psi(x)`, preregister
+
+\[
+{}^{(3)}R=-8\psi^{-5}\psi'',
+\qquad
+d\mu_\gamma=\psi^6\,dx\,dy\,dz.
+\]
+
+On the periodic torus,
+
+\[
+\int {}^{(3)}R\,d\mu_\gamma
+=-8\int\psi\psi''\,d^3x
+=8\int(\psi')^2\,d^3x.
+\]
+
+Use the dimensionless homothety-neutral invariant
+
+\[
+Q_R=\frac{\int{}^{(3)}R\,d\mu_\gamma}
+{\operatorname{Vol}(\gamma)^{1/3}}.
+\]
+
+Both volume and total scalar curvature are diffeomorphism invariants, and `Q_R` is also unchanged
+by a common constant rescaling of the physical metric.
+
+## 4. Preregistered separating family
+
+Set
+
+\[
+\psi_n(x)=p+a\cos(nx),
+\qquad p=\frac32,
+\qquad a=\frac15,
+\qquad n\in\{1,2,3,4\}.
+\]
+
+All profiles are positive and have the same value distribution, hence the same physical volume.
+Preregister the exact prediction
+
+\[
+\int(\psi_n')^2\,d^3x=(2\pi)^2\pi a^2n^2,
+\]
+
+so
+
+\[
+Q_R(\psi_n)=n^2 Q_R(\psi_1).
+\]
+
+If this identity and direct tensor reconstruction hold, no spatial diffeomorphism or conformal-seed
+rewriting can identify `n=1` with any `n>1`, because it would have to preserve `Q_R`. This proves at
+least a countably infinite genuine physical direction in the bounded G319 family. It does not prove
+that every distinct profile is inequivalent.
+
+## 5. Lawful-data reconstruction controls
+
+Use `d=0`, `Lambda=0`, and `J0=100` only as diagnostic controls. For `n<=4`, preregister the analytic
+bounds
+
+\[
+Z=36(\psi')^2+J_0>0,
+\]
+
+and
+
+\[
+Z+\psi^6F=36(\psi')^2+J_0+12\psi\psi''
+\ge J_0-12an^2(p+a)>0.
+\]
+
+Therefore both `epsilon=+1` and `epsilon=-1` must reconstruct smooth sign-definite data. Direct
+physical Hamiltonian and momentum residuals must pass independently.
+
+## 6. Required equivalence controls
+
+1. Phase shifts `psi_n(x-theta)` and reflections `psi_n(-x)` must preserve all invariant outputs.
+2. An explicit positive nonconstant `vartheta(x)` seed rewrite must reconstruct the same `gamma`
+   pointwise and preserve intrinsic invariants.
+3. A deliberate raw-array comparison must be rejected as a physical discriminator.
+4. Constant profiles must give zero total scalar curvature; nonconstant periodic profiles must give
+   strictly positive total scalar curvature.
+
+## 7. Auxiliary extrinsic/tidal characterization
+
+For each reconstructed branch, compute the scalar fields
+
+\[
+\tau=\operatorname{tr}K,
+\qquad
+K_2=\operatorname{tr}(K^2),
+\qquad
+K_3=\operatorname{tr}(K^3),
+\]
+
+and their volume-weighted summaries. These are physical characterizers and phase/reflection controls,
+not load-bearing selectors. No extrinsic difference may override a failed intrinsic invariant proof.
+
+## 8. Possible landings
+
+1. `G319_FREEDOM_NOT_PURE_REPRESENTATION` if at least one fully lawful pair differs in a registered
+   invariant after all declared quotient controls pass;
+2. `REGISTERED_CONTROLS_EQUIVALENT_AFTER_QUOTIENT` if no invariant separator survives;
+3. `ONLY_INTRINSIC_METRIC_SEPARATED__FULL_DATA_RECONSTRUCTION_FAILED` if curvature separates but the
+   G319 constraint replay fails;
+4. `QUOTIENT_AUDIT_INCONCLUSIVE` if the controls or independent implementation disagree.
+
+## 9. Certification contract and maximum conclusion
+
+- Production derives exact formulas and bounded numerical summaries using only standard-library
+  mathematical methods.
+- An implementation-distinct verifier rebuilds Christoffels/Ricci and physical constraints without
+  importing production functions or reading production results.
+- Hostile mutations must catch wrong conformal powers, omitted volume weight, coordinate-array
+  comparison, phase-dependent false distinctions, loss of homothety normalization, wrong mode
+  scaling, failed constraint reconstruction, and any selection/kernel/scale overclaim.
+- Run the exact premise verifier and full repository purity harness.
+- Require fresh external adversarial review before an externally accepted grade.
+
+Maximum conclusion: the G319 bounded family contains genuine inequivalent physical initial
+geometries, if the invariant separator passes. No complete quotient, physical occupancy, evolution,
+history, topology, scale, observation, source, matter/mass, `X_max`, metric change, or kernel change
+may be claimed.
+
+---GATES---
+# G320 evidence gates
+
+Date: 2026-09-01
+
+| Gate | Status | Evidence |
+|---|---|---|
+| Preregistered | `PASS` | commit `a00e8ed3` precedes every outcome script and generated result |
+| Full space or bounded scope justified | `PASS_BOUNDED` | exact G319 slice and all dropped sectors are explicit in `MAP.md` and `COMPLETENESS_MAP.md` |
+| Independently verified on load-bearing premise | `PASS_INTERNAL` | `verify_independent.py` rebuilds Ricci by index loops and uses different profiles/modes/grid/J0 |
+| Every premise audited | `PASS_INTERNAL` | `PREMISE_LEDGER.tsv`; current 302-row registry verifier required |
+| Hostile false-pass audit | `PASS` | 26/26 registered mutations caught |
+| Aggregate package replay | `PASS_PENDING_EXTERNAL_REVIEW` | all four registered commands and package guards pass |
+| Repository regression | `PASS` | 214 passed, one known documented xfail |
+| Fresh external adversarial review | `PENDING` | sealed intake must be authorized and reviewed before external acceptance |
+
+Current grade: `INTERNALLY_DERIVED_AND_IMPLEMENTATION_DISTINCT_VERIFIED__PENDING_EXTERNAL_REVIEW`.
+
+---RUN_RECORD---
+# G320 run record
+
+Date: 2026-09-01
+Device: CPU
+Arithmetic: exact rational identities plus IEEE-754 binary64 periodic controls
+Long solve: none
+
+## Commands
+
+```text
+python3 derive_physical_quotient.py
+python3 verify_independent.py
+python3 run_catch_proofs.py
+python3 verify_package.py
+```
+
+## Production
+
+```text
+PASS_PENDING_EXTERNAL_REVIEW
+290 assertions
+modes 1,2,3,4; signs -1,+1; 16,384 periodic points per control
+maximum metric seed-rewrite error 3.552713678800501e-15
+maximum physical-A seed-rewrite error 1.6653345369377348e-16
+```
+
+## Independent
+
+```text
+PASS
+59 assertions
+modes 1,3,5; signs -1,+1; 3,072 periodic points per control
+direct Christoffel-Ricci index loops
+maximum metric seed-rewrite error 1.7763568394002505e-15
+maximum physical-A seed-rewrite error 3.885780586188048e-16
+```
+
+## Hostile checks
+
+```text
+PASS
+26/26 mutations caught
+```
+
+## Aggregate and repository gates
+
+```text
+G320 package verification PASS_PENDING_EXTERNAL_REVIEW
+current exact premise registry PASS
+pytest tests/: 214 passed, 1 known documented xfail in 140.26 s
+```
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/SOURCE_SCOPE.tsv && printf '\\n---STATUS---\\n' && sed -n '1,220p' /intake/package/STATUS_LEDGER.tsv && printf '\\n---PREMISES---\\n' && sed -n '1,220p' /intake/package/PREMISE_LEDGER.tsv" in /return
+ succeeded in 0ms:
+path	role
+LIVE.md	current authority and G320 next gate
+CURRENT_SCIENTIFIC_PREMISES.tsv	exact premise ownership
+startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md	Universal Reciprocity owner adoption
+startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	quiet-GR and Local Metric Sufficiency owner adoption
+udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md	physical constraint equations
+udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md	conformal representation and redundancy
+udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md	ratio-free reconstruction theorem
+udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md	externally accepted scope and open gate
+
+---STATUS---
+object	status	meaning
+G319 positive periodic psi breadth	EXTERNALLY_ACCEPTED_BOUNDED_INPUT	every smooth positive periodic profile admitted for large free J0 in registered regular slice
+physical comparison object	DERIVED_CONDITIONAL	complete initial data gamma and K, not raw conformal seeds
+spatial diffeomorphisms	QUOTIENTED_REPRESENTATION_FREEDOM	phase/reflection controls retained as equivalent
+conformal-seed covariance	QUOTIENTED_REPRESENTATION_FREEDOM	different seeds reconstructing same gamma and K are one physical datum
+scale-free integrated curvature Q_R	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	diffeomorphism and homothety invariant separator
+psi_n mode family	CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROLS	same value distribution and volume, not selected physics
+Q_R mode-square law	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	Q_R(n)=n^2 Q_R(1)
+countably infinite inequivalent initial geometries	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	follows from G319 admissibility plus invariant separation
+full profile moduli quotient	OPEN	not classified
+G319 B-zero crossing stratum	OPEN_NOT_TOUCHED	outside registered regular controls
+physical initial-data occupancy	OPEN_NOT_SELECTED	constraint admissibility is not population
+complete evolving history	OPEN_NOT_SELECTED	not addressed by initial-data quotient
+metric and reciprocal kernel	UNCHANGED	no construction or amendment
+scale and physical Xmax	OPEN_NOT_SELECTED	Q_R is scale-free and supplies no ruler
+source matter mass observations	OMITTED_OPEN	no import or fit
+
+
+---PREMISES---
+item	status	role_or_guard
+Universal Reciprocity or DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G310	not derived or canonized
+quiet GR principal-response overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded response premise
+Local Metric Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded local finite-jet premise
+Ric_ab=Lambda g_ab	ACTIVE_BOUNDED_CONDITIONAL_EQUATION	constraint-data arena only
+G315 constraints	DERIVED_CONDITIONAL	physical initial-data equations
+G316 conformal method	CONDITIONAL_IMPORTED_MATHEMATICAL_METHOD	representation chart, not new physics
+G319 regular reconstruction	EXTERNALLY_ACCEPTED_BOUNDED	supplies lawful controls in registered slice
+flat marked T3	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	not selected physical topology or ruler
+one-coordinate positive periodic psi	FREE_AND_EXPLORED_WITH_REGULARITY	profile family, not fitted
+diagonal TT and B-nonzero sign branch	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	other tensor/crossing strata open
+p=3/2 and a=1/5	CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROLS	no physical calibration
+integer mode n	FREE_AND_EXPLORED_CONTROL_FAMILY	no preferred wavelength
+d=0 and Lambda=0	CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROLS	zero values are controls, not selected sectors
+J0=100	CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL	large regular reconstruction constant, not scale or observation
+epsilon plus/minus	FREE_AND_EXPLORED_BRANCHES	both reconstructed signs retained
+spatial diffeomorphism	QUOTIENT_REPRESENTATION_FREEDOM	cannot define physical distinction
+conformal-seed rewriting	QUOTIENT_REPRESENTATION_FREEDOM	same reconstructed physical data are one point
+auxiliary W translation kernel	QUOTIENT_REPRESENTATION_FREEDOM	leaves bar L W unchanged
+Q_R and K contractions	DERIVED_CONDITIONAL_GEOMETRIC_DIAGNOSTICS	diffeomorphism-invariant characterizers
+physical data or history selection	OPEN_NOT_SELECTED	admissibility is not occupancy
+source matter mass observation fit scale Xmax	OMITTED_OPEN	no import or calibration
+metric and reciprocal kernel	UNCHANGED	no kernel construction in G320
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/DERIVATION_RESULT.json && printf '\\n---INDEPENDENT_RESULT---\\n' && sed -n '1,240p' /intake/package/INDEPENDENT_VERIFICATION.json && printf '\\n---ATLAS---\\n' && sed -n '1,40p' /intake/package/INVARIANT_ATLAS.tsv" in /return
+ succeeded in 0ms:
+{
+  "Q_R_mode_scaling": "n^2",
+  "Xmax_selected": false,
+  "analytic_family": "psi_n=3/2+(1/5)cos(nx)",
+  "assertion_count": 290,
+  "branches_checked": [
+    -1,
+    1
+  ],
+  "checks": [
+    "positive profile exact",
+    "positive volume coefficient exact",
+    "gradient coefficient positive n=1",
+    "mode-square scaling exact n=1",
+    "regular reconstruction bound n=1",
+    "gradient coefficient positive n=2",
+    "mode-square scaling exact n=2",
+    "regular reconstruction bound n=2",
+    "gradient coefficient positive n=3",
+    "mode-square scaling exact n=3",
+    "regular reconstruction bound n=3",
+    "gradient coefficient positive n=4",
+    "mode-square scaling exact n=4",
+    "regular reconstruction bound n=4",
+    "volume analytic n=1 sign=-1",
+    "scalar analytic n=1 sign=-1",
+    "psi positive n=1 sign=-1",
+    "tau sign n=1 sign=-1",
+    "B2 positive n=1 sign=-1",
+    "B2 plus F positive n=1 sign=-1",
+    "Hamiltonian n=1 sign=-1",
+    "momentum n=1 sign=-1",
+    "J constant n=1 sign=-1",
+    "volume analytic n=1 sign=1",
+    "scalar analytic n=1 sign=1",
+    "psi positive n=1 sign=1",
+    "tau sign n=1 sign=1",
+    "B2 positive n=1 sign=1",
+    "B2 plus F positive n=1 sign=1",
+    "Hamiltonian n=1 sign=1",
+    "momentum n=1 sign=1",
+    "J constant n=1 sign=1",
+    "volume analytic n=2 sign=-1",
+    "scalar analytic n=2 sign=-1",
+    "psi positive n=2 sign=-1",
+    "tau sign n=2 sign=-1",
+    "B2 positive n=2 sign=-1",
+    "B2 plus F positive n=2 sign=-1",
+    "Hamiltonian n=2 sign=-1",
+    "momentum n=2 sign=-1",
+    "J constant n=2 sign=-1",
+    "Q mode-square ratio n=2 sign=-1",
+    "volume analytic n=2 sign=1",
+    "scalar analytic n=2 sign=1",
+    "psi positive n=2 sign=1",
+    "tau sign n=2 sign=1",
+    "B2 positive n=2 sign=1",
+    "B2 plus F positive n=2 sign=1",
+    "Hamiltonian n=2 sign=1",
+    "momentum n=2 sign=1",
+    "J constant n=2 sign=1",
+    "Q mode-square ratio n=2 sign=1",
+    "volume analytic n=3 sign=-1",
+    "scalar analytic n=3 sign=-1",
+    "psi positive n=3 sign=-1",
+    "tau sign n=3 sign=-1",
+    "B2 positive n=3 sign=-1",
+    "B2 plus F positive n=3 sign=-1",
+    "Hamiltonian n=3 sign=-1",
+    "momentum n=3 sign=-1",
+    "J constant n=3 sign=-1",
+    "Q mode-square ratio n=3 sign=-1",
+    "volume analytic n=3 sign=1",
+    "scalar analytic n=3 sign=1",
+    "psi positive n=3 sign=1",
+    "tau sign n=3 sign=1",
+    "B2 positive n=3 sign=1",
+    "B2 plus F positive n=3 sign=1",
+    "Hamiltonian n=3 sign=1",
+    "momentum n=3 sign=1",
+    "J constant n=3 sign=1",
+    "Q mode-square ratio n=3 sign=1",
+    "volume analytic n=4 sign=-1",
+    "scalar analytic n=4 sign=-1",
+    "psi positive n=4 sign=-1",
+    "tau sign n=4 sign=-1",
+    "B2 positive n=4 sign=-1",
+    "B2 plus F positive n=4 sign=-1",
+    "Hamiltonian n=4 sign=-1",
+    "momentum n=4 sign=-1",
+    "J constant n=4 sign=-1",
+    "Q mode-square ratio n=4 sign=-1",
+    "volume analytic n=4 sign=1",
+    "scalar analytic n=4 sign=1",
+    "psi positive n=4 sign=1",
+    "tau sign n=4 sign=1",
+    "B2 positive n=4 sign=1",
+    "B2 plus F positive n=4 sign=1",
+    "Hamiltonian n=4 sign=1",
+    "momentum n=4 sign=1",
+    "J constant n=4 sign=1",
+    "Q mode-square ratio n=4 sign=1",
+    "phase invariant volume n=1 sign=-1 phase=0.137",
+    "phase invariant total_scalar n=1 sign=-1 phase=0.137",
+    "phase invariant Q_R n=1 sign=-1 phase=0.137",
+    "phase invariant weighted_tau n=1 sign=-1 phase=0.137",
+    "phase invariant weighted_K2 n=1 sign=-1 phase=0.137",
+    "phase invariant weighted_K3 n=1 sign=-1 phase=0.137",
+    "phase invariant volume n=1 sign=-1 phase=0.511",
+    "phase invariant total_scalar n=1 sign=-1 phase=0.511",
+    "phase invariant Q_R n=1 sign=-1 phase=0.511",
+    "phase invariant weighted_tau n=1 sign=-1 phase=0.511",
+    "phase invariant weighted_K2 n=1 sign=-1 phase=0.511",
+    "phase invariant weighted_K3 n=1 sign=-1 phase=0.511",
+    "phase invariant volume n=1 sign=-1 phase=1.203",
+    "phase invariant total_scalar n=1 sign=-1 phase=1.203",
+    "phase invariant Q_R n=1 sign=-1 phase=1.203",
+    "phase invariant weighted_tau n=1 sign=-1 phase=1.203",
+    "phase invariant weighted_K2 n=1 sign=-1 phase=1.203",
+    "phase invariant weighted_K3 n=1 sign=-1 phase=1.203",
+    "reflection invariant volume n=1 sign=-1",
+    "reflection invariant total_scalar n=1 sign=-1",
+    "reflection invariant Q_R n=1 sign=-1",
+    "reflection invariant weighted_tau n=1 sign=-1",
+    "reflection invariant weighted_K2 n=1 sign=-1",
+    "reflection invariant weighted_K3 n=1 sign=-1",
+    "phase invariant volume n=1 sign=1 phase=0.137",
+    "phase invariant total_scalar n=1 sign=1 phase=0.137",
+    "phase invariant Q_R n=1 sign=1 phase=0.137",
+    "phase invariant weighted_tau n=1 sign=1 phase=0.137",
+    "phase invariant weighted_K2 n=1 sign=1 phase=0.137",
+    "phase invariant weighted_K3 n=1 sign=1 phase=0.137",
+    "phase invariant volume n=1 sign=1 phase=0.511",
+    "phase invariant total_scalar n=1 sign=1 phase=0.511",
+    "phase invariant Q_R n=1 sign=1 phase=0.511",
+    "phase invariant weighted_tau n=1 sign=1 phase=0.511",
+    "phase invariant weighted_K2 n=1 sign=1 phase=0.511",
+    "phase invariant weighted_K3 n=1 sign=1 phase=0.511",
+    "phase invariant volume n=1 sign=1 phase=1.203",
+    "phase invariant total_scalar n=1 sign=1 phase=1.203",
+    "phase invariant Q_R n=1 sign=1 phase=1.203",
+    "phase invariant weighted_tau n=1 sign=1 phase=1.203",
+    "phase invariant weighted_K2 n=1 sign=1 phase=1.203",
+    "phase invariant weighted_K3 n=1 sign=1 phase=1.203",
+    "reflection invariant volume n=1 sign=1",
+    "reflection invariant total_scalar n=1 sign=1",
+    "reflection invariant Q_R n=1 sign=1",
+    "reflection invariant weighted_tau n=1 sign=1",
+    "reflection invariant weighted_K2 n=1 sign=1",
+    "reflection invariant weighted_K3 n=1 sign=1",
+    "phase invariant volume n=2 sign=-1 phase=0.137",
+    "phase invariant total_scalar n=2 sign=-1 phase=0.137",
+    "phase invariant Q_R n=2 sign=-1 phase=0.137",
+    "phase invariant weighted_tau n=2 sign=-1 phase=0.137",
+    "phase invariant weighted_K2 n=2 sign=-1 phase=0.137",
+    "phase invariant weighted_K3 n=2 sign=-1 phase=0.137",
+    "phase invariant volume n=2 sign=-1 phase=0.511",
+    "phase invariant total_scalar n=2 sign=-1 phase=0.511",
+    "phase invariant Q_R n=2 sign=-1 phase=0.511",
+    "phase invariant weighted_tau n=2 sign=-1 phase=0.511",
+    "phase invariant weighted_K2 n=2 sign=-1 phase=0.511",
+    "phase invariant weighted_K3 n=2 sign=-1 phase=0.511",
+    "phase invariant volume n=2 sign=-1 phase=1.203",
+    "phase invariant total_scalar n=2 sign=-1 phase=1.203",
+    "phase invariant Q_R n=2 sign=-1 phase=1.203",
+    "phase invariant weighted_tau n=2 sign=-1 phase=1.203",
+    "phase invariant weighted_K2 n=2 sign=-1 phase=1.203",
+    "phase invariant weighted_K3 n=2 sign=-1 phase=1.203",
+    "reflection invariant volume n=2 sign=-1",
+    "reflection invariant total_scalar n=2 sign=-1",
+    "reflection invariant Q_R n=2 sign=-1",
+    "reflection invariant weighted_tau n=2 sign=-1",
+    "reflection invariant weighted_K2 n=2 sign=-1",
+    "reflection invariant weighted_K3 n=2 sign=-1",
+    "phase invariant volume n=2 sign=1 phase=0.137",
+    "phase invariant total_scalar n=2 sign=1 phase=0.137",
+    "phase invariant Q_R n=2 sign=1 phase=0.137",
+    "phase invariant weighted_tau n=2 sign=1 phase=0.137",
+    "phase invariant weighted_K2 n=2 sign=1 phase=0.137",
+    "phase invariant weighted_K3 n=2 sign=1 phase=0.137",
+    "phase invariant volume n=2 sign=1 phase=0.511",
+    "phase invariant total_scalar n=2 sign=1 phase=0.511",
+    "phase invariant Q_R n=2 sign=1 phase=0.511",
+    "phase invariant weighted_tau n=2 sign=1 phase=0.511",
+    "phase invariant weighted_K2 n=2 sign=1 phase=0.511",
+    "phase invariant weighted_K3 n=2 sign=1 phase=0.511",
+    "phase invariant volume n=2 sign=1 phase=1.203",
+    "phase invariant total_scalar n=2 sign=1 phase=1.203",
+    "phase invariant Q_R n=2 sign=1 phase=1.203",
+    "phase invariant weighted_tau n=2 sign=1 phase=1.203",
+    "phase invariant weighted_K2 n=2 sign=1 phase=1.203",
+    "phase invariant weighted_K3 n=2 sign=1 phase=1.203",
+    "reflection invariant volume n=2 sign=1",
+    "reflection invariant total_scalar n=2 sign=1",
+    "reflection invariant Q_R n=2 sign=1",
+    "reflection invariant weighted_tau n=2 sign=1",
+    "reflection invariant weighted_K2 n=2 sign=1",
+    "reflection invariant weighted_K3 n=2 sign=1",
+    "phase invariant volume n=3 sign=-1 phase=0.137",
+    "phase invariant total_scalar n=3 sign=-1 phase=0.137",
+    "phase invariant Q_R n=3 sign=-1 phase=0.137",
+    "phase invariant weighted_tau n=3 sign=-1 phase=0.137",
+    "phase invariant weighted_K2 n=3 sign=-1 phase=0.137",
+    "phase invariant weighted_K3 n=3 sign=-1 phase=0.137",
+    "phase invariant volume n=3 sign=-1 phase=0.511",
+    "phase invariant total_scalar n=3 sign=-1 phase=0.511",
+    "phase invariant Q_R n=3 sign=-1 phase=0.511",
+    "phase invariant weighted_tau n=3 sign=-1 phase=0.511",
+    "phase invariant weighted_K2 n=3 sign=-1 phase=0.511",
+    "phase invariant weighted_K3 n=3 sign=-1 phase=0.511",
+    "phase invariant volume n=3 sign=-1 phase=1.203",
+    "phase invariant total_scalar n=3 sign=-1 phase=1.203",
+    "phase invariant Q_R n=3 sign=-1 phase=1.203",
+    "phase invariant weighted_tau n=3 sign=-1 phase=1.203",
+    "phase invariant weighted_K2 n=3 sign=-1 phase=1.203",
+    "phase invariant weighted_K3 n=3 sign=-1 phase=1.203",
+    "reflection invariant volume n=3 sign=-1",
+    "reflection invariant total_scalar n=3 sign=-1",
+    "reflection invariant Q_R n=3 sign=-1",
+    "reflection invariant weighted_tau n=3 sign=-1",
+    "reflection invariant weighted_K2 n=3 sign=-1",
+    "reflection invariant weighted_K3 n=3 sign=-1",
+    "phase invariant volume n=3 sign=1 phase=0.137",
+    "phase invariant total_scalar n=3 sign=1 phase=0.137",
+    "phase invariant Q_R n=3 sign=1 phase=0.137",
+    "phase invariant weighted_tau n=3 sign=1 phase=0.137",
+    "phase invariant weighted_K2 n=3 sign=1 phase=0.137",
+    "phase invariant weighted_K3 n=3 sign=1 phase=0.137",
+    "phase invariant volume n=3 sign=1 phase=0.511",
+    "phase invariant total_scalar n=3 sign=1 phase=0.511",
+    "phase invariant Q_R n=3 sign=1 phase=0.511",
+    "phase invariant weighted_tau n=3 sign=1 phase=0.511",
+    "phase invariant weighted_K2 n=3 sign=1 phase=0.511",
+    "phase invariant weighted_K3 n=3 sign=1 phase=0.511",
+    "phase invariant volume n=3 sign=1 phase=1.203",
+    "phase invariant total_scalar n=3 sign=1 phase=1.203",
+    "phase invariant Q_R n=3 sign=1 phase=1.203",
+    "phase invariant weighted_tau n=3 sign=1 phase=1.203",
+    "phase invariant weighted_K2 n=3 sign=1 phase=1.203",
+    "phase invariant weighted_K3 n=3 sign=1 phase=1.203",
+    "reflection invariant volume n=3 sign=1",
+    "reflection invariant total_scalar n=3 sign=1",
+    "reflection invariant Q_R n=3 sign=1",
+    "reflection invariant weighted_tau n=3 sign=1",
+    "reflection invariant weighted_K2 n=3 sign=1",
+    "reflection invariant weighted_K3 n=3 sign=1",
+    "phase invariant volume n=4 sign=-1 phase=0.137",
+    "phase invariant total_scalar n=4 sign=-1 phase=0.137",
+    "phase invariant Q_R n=4 sign=-1 phase=0.137",
+    "phase invariant weighted_tau n=4 sign=-1 phase=0.137",
+    "phase invariant weighted_K2 n=4 sign=-1 phase=0.137",
+    "phase invariant weighted_K3 n=4 sign=-1 phase=0.137",
+    "phase invariant volume n=4 sign=-1 phase=0.511",
+    "phase invariant total_scalar n=4 sign=-1 phase=0.511",
+    "phase invariant Q_R n=4 sign=-1 phase=0.511",
+    "phase invariant weighted_tau n=4 sign=-1 phase=0.511",
+    "phase invariant weighted_K2 n=4 sign=-1 phase=0.511",
+    "phase invariant weighted_K3 n=4 sign=-1 phase=0.511",
+    "phase invariant volume n=4 sign=-1 phase=1.203",
+    "phase invariant total_scalar n=4 sign=-1 phase=1.203",
+
+---INDEPENDENT_RESULT---
+{
+  "Q_R_mode_scaling": "n^2",
+  "assertion_count": 59,
+  "branches": [
+    -1,
+    1
+  ],
+  "checks": [
+    "independent baseline lawful sign=-1",
+    "independent baseline tau sign=-1",
+    "independent direct Ricci sign=-1",
+    "independent same volume n=3 sign=-1",
+    "independent Q ratio n=3 sign=-1",
+    "independent lawful n=3 sign=-1",
+    "independent tau sign n=3 sign=-1",
+    "independent direct Ricci n=3 sign=-1",
+    "independent same volume n=5 sign=-1",
+    "independent Q ratio n=5 sign=-1",
+    "independent lawful n=5 sign=-1",
+    "independent tau sign n=5 sign=-1",
+    "independent direct Ricci n=5 sign=-1",
+    "independent baseline lawful sign=1",
+    "independent baseline tau sign=1",
+    "independent direct Ricci sign=1",
+    "independent same volume n=3 sign=1",
+    "independent Q ratio n=3 sign=1",
+    "independent lawful n=3 sign=1",
+    "independent tau sign n=3 sign=1",
+    "independent direct Ricci n=3 sign=1",
+    "independent same volume n=5 sign=1",
+    "independent Q ratio n=5 sign=1",
+    "independent lawful n=5 sign=1",
+    "independent tau sign n=5 sign=1",
+    "independent direct Ricci n=5 sign=1",
+    "independent isometry volume sign=-1 phase=0.223 reflect=False",
+    "independent isometry total_scalar sign=-1 phase=0.223 reflect=False",
+    "independent isometry Q_R sign=-1 phase=0.223 reflect=False",
+    "independent isometry weighted_tau sign=-1 phase=0.223 reflect=False",
+    "independent isometry weighted_K2 sign=-1 phase=0.223 reflect=False",
+    "independent isometry volume sign=-1 phase=0.817 reflect=False",
+    "independent isometry total_scalar sign=-1 phase=0.817 reflect=False",
+    "independent isometry Q_R sign=-1 phase=0.817 reflect=False",
+    "independent isometry weighted_tau sign=-1 phase=0.817 reflect=False",
+    "independent isometry weighted_K2 sign=-1 phase=0.817 reflect=False",
+    "independent isometry volume sign=-1 phase=0.0 reflect=True",
+    "independent isometry total_scalar sign=-1 phase=0.0 reflect=True",
+    "independent isometry Q_R sign=-1 phase=0.0 reflect=True",
+    "independent isometry weighted_tau sign=-1 phase=0.0 reflect=True",
+    "independent isometry weighted_K2 sign=-1 phase=0.0 reflect=True",
+    "independent isometry volume sign=1 phase=0.223 reflect=False",
+    "independent isometry total_scalar sign=1 phase=0.223 reflect=False",
+    "independent isometry Q_R sign=1 phase=0.223 reflect=False",
+    "independent isometry weighted_tau sign=1 phase=0.223 reflect=False",
+    "independent isometry weighted_K2 sign=1 phase=0.223 reflect=False",
+    "independent isometry volume sign=1 phase=0.817 reflect=False",
+    "independent isometry total_scalar sign=1 phase=0.817 reflect=False",
+    "independent isometry Q_R sign=1 phase=0.817 reflect=False",
+    "independent isometry weighted_tau sign=1 phase=0.817 reflect=False",
+    "independent isometry weighted_K2 sign=1 phase=0.817 reflect=False",
+    "independent isometry volume sign=1 phase=0.0 reflect=True",
+    "independent isometry total_scalar sign=1 phase=0.0 reflect=True",
+    "independent isometry Q_R sign=1 phase=0.0 reflect=True",
+    "independent isometry weighted_tau sign=1 phase=0.0 reflect=True",
+    "independent isometry weighted_K2 sign=1 phase=0.0 reflect=True",
+    "independent seed fields differ",
+    "independent seed metric identical",
+    "independent seed physical A identical"
+  ],
+  "control_modes": [
+    1,
+    3,
+    5
+  ],
+  "intrinsic_inequivalence_upheld": true,
+  "isometry_controls_pass": true,
+  "max_seed_metric_error": 1.7763568394002505e-15,
+  "max_seed_physical_A_error": 3.885780586188048e-16,
+  "method": "direct Christoffel-Ricci index loops plus physical constraint reconstruction",
+  "production_imported": false,
+  "production_result_read": false,
+  "schema": "udt-g320-independent-physical-tensor-v1",
+  "seed_duplicate_control_pass": true,
+  "status": "PASS"
+}
+
+---ATLAS---
+mode	sign	phase	reflected	volume	total_scalar	Q_R	weighted_tau	weighted_K2	weighted_K3	min_psi	min_signed_tau	min_B2	min_B2_plus_F	max_hamiltonian	max_momentum	max_J_drift
+1	-1	0.0	False	3207.2012019844406	39.68803415078374	2.691230229472601	-1.332018637682704	1.9518213826088748	-1.6997169852045073	1.3	0.9761856299613272	4.142919280727898	3.9738881740741996	2.6645352591003757e-15	3.885780586188048e-16	5.684341886080802e-14
+1	1	0.0	False	3207.2012019844406	39.68803415078374	2.691230229472601	1.332018637682704	1.9518213826088748	1.6997169852045073	1.3	0.9761856299613272	4.142919280727898	3.9738881740741996	2.6645352591003757e-15	3.885780586188048e-16	5.684341886080802e-14
+2	-1	0.0	False	3207.2012019844406	158.75213660313497	10.764920917890404	-1.3083593796994444	2.0216328301540507	-1.739624812899869	1.3	0.8516181559128841	4.142919280727898	3.466794854113105	2.6645352591003757e-15	7.771561172376096e-16	5.684341886080802e-14
+2	1	0.0	False	3207.2012019844406	158.75213660313497	10.764920917890404	1.3083593796994444	2.0216328301540507	1.739624812899869	1.3	0.8516181559128841	4.142919280727898	3.466794854113105	2.6645352591003757e-15	7.771561172376096e-16	5.684341886080802e-14
+3	-1	0.0	False	3207.2012019844406	357.1923073570537	24.22107206525341	-1.2693014399220854	2.1863995770947815	-1.7348406047864051	1.3	0.6440056991654795	4.142919280727898	2.6216393208446136	3.552713678800501e-15	1.3322676295501878e-15	5.684341886080802e-14
+3	1	0.0	False	3207.2012019844406	357.1923073570537	24.22107206525341	1.2693014399220854	2.1863995770947815	1.7348406047864051	1.3	0.6440056991654795	4.142919280727898	2.6216393208446136	3.552713678800501e-15	1.3322676295501878e-15	5.684341886080802e-14
+4	-1	0.0	False	3207.2012019844406	635.0085464125399	43.059683671561615	-1.215358282591181	2.514048943467203	-1.581951790920423	1.3	0.35334825971911243	4.142919280727898	1.4384215742687254	3.552713678800501e-15	1.7763568394002505e-15	8.526512829121202e-14
+4	1	0.0	False	3207.2012019844406	635.0085464125399	43.059683671561615	1.215358282591181	2.514048943467203	1.581951790920423	1.3	0.35334825971911243	4.142919280727898	1.4384215742687254	3.552713678800501e-15	1.7763568394002505e-15	8.526512829121202e-14
+
+codex
+The package replay reproduced the sealed outputs byte-for-byte, which removes one obvious integrity failure mode. I’m now checking whether the mathematical and provenance claims actually survive hostile reading rather than merely passing their own scripts.
+exec
+/bin/bash -lc "sed -n '220,340p' /intake/package/verify_independent.py" in /return
+exec
+/bin/bash -lc "sed -n '260,420p' /intake/package/derive_physical_quotient.py" in /return
+ succeeded in 0ms:
+    "isometry_controls_pass": True,
+    "seed_duplicate_control_pass": True,
+    "max_seed_metric_error": max_seed_metric_error,
+    "max_seed_physical_A_error": max_seed_physical_a_error,
+    "checks": CHECKS,
+}
+(HERE / "INDEPENDENT_VERIFICATION.json").write_text(
+    json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+print(json.dumps({
+    "status": "PASS",
+    "assertions": len(CHECKS),
+    "control_modes": list(modes),
+    "max_seed_metric_error": max_seed_metric_error,
+    "max_seed_physical_A_error": max_seed_physical_a_error,
+}, indent=2))
+
+ succeeded in 0ms:
+    "complete_moduli_classification": False,
+    "physical_data_selected": False,
+    "history_selected": False,
+    "scale_selected": False,
+    "Xmax_selected": False,
+    "metric_changed": False,
+    "kernel_changed": False,
+    "checks": CHECKS,
+}
+(HERE / "DERIVATION_RESULT.json").write_text(
+    json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+print(json.dumps({
+    "status": result["status"],
+    "landing": LANDING,
+    "assertions": len(CHECKS),
+    "modes": list(MODES),
+    "branches": [-1, 1],
+    "seed_rewrite_max_metric_error": seed_max_error,
+    "seed_rewrite_max_physical_A_error": seed_max_physical_a_error,
+}, indent=2))
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md && printf '\\n---G316---\\n' && sed -n '1,260p' /intake/sources/udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md" in /return
+ succeeded in 0ms:
+# G319 exact derivation — ratio-free non-CMC constraint descent
+
+Date: 2026-09-01  
+Grade: `EXTERNALLY_ACCEPTED_BOUNDED`
+
+## Bounded landing
+
+```text
+RATIO_FREE_REGULAR_STRATUM_HAS_EXACT_QUADRATURE_AND_ARBITRARY_POSITIVE_PERIODIC_PSI__B_ZERO_REMAINS_A_COMPATIBILITY_STRATUM__G318_POWER_OBSTRUCTIONS_ARE_ANSATZ_SCOPED__NO_PHYSICAL_DATA_SELECTION
+```
+
+This is a theorem only inside the chosen flat marked-`T^3`, diagonal-TT, one-coordinate,
+sign-definite diagnostic slice registered in `PREREGISTRATION.md`. It is not a classification of
+the full non-CMC constraint surface and not a physical-history theorem.
+
+## 1. Registered conformal data
+
+Use
+
+\[
+\bar\gamma_{ij}=\delta_{ij},\qquad \psi=\psi(x)>0,
+\]
+
+and
+
+\[
+\bar A_{TT}+\bar L W
+=\operatorname{diag}\!\left(\frac{2v}{3},-\frac v3+d,-\frac v3-d\right).
+\]
+
+The exact vacuum constraints inherited conditionally from G315--G316 are
+
+\[
+v'=\psi^6\tau'
+\tag{1}
+\]
+
+and
+
+\[
+-8\psi''-\left(\frac23v^2+2d^2\right)\psi^{-7}
++\left(\frac23\tau^2-2\Lambda\right)\psi^5=0.
+\tag{2}
+\]
+
+G318 imposed the extra constant-ratio ansatz
+\(v=k\psi^6\tau\). G319 removes that assumption. The seed, torus, diagonal form, one-coordinate
+dependence, positivity, and sign choice remain chosen diagnostic restrictions.
+
+## 2. Ratio-free variables
+
+Define
+
+\[
+\lambda=v\psi^{-6},\qquad
+A=\tau+\lambda,\qquad B=\tau-\lambda,
+\qquad H=\frac{\psi'}{\psi}.
+\]
+
+Equation (1) gives
+
+\[
+\lambda'=\tau'-6H\lambda,
+\]
+
+so
+
+\[
+\boxed{B'=3H(A-B).}
+\tag{3}
+\]
+
+Multiplying (2) by \(3\psi^{-5}/2\) and using
+\(v^2\psi^{-12}=\lambda^2\) gives
+
+\[
+\tau^2-\lambda^2
+=12\psi''\psi^{-5}+3d^2\psi^{-12}+3\Lambda.
+\]
+
+Therefore
+
+\[
+\boxed{AB=F[\psi]},
+\qquad
+F[\psi]=12\psi''\psi^{-5}+3d^2\psi^{-12}+3\Lambda.
+\tag{4}
+\]
+
+No division has occurred.
+
+## 3. Exact first integral
+
+Multiplying (3) by \(2B\) and using (4),
+
+\[
+(B^2)'=6H(F-B^2).
+\]
+
+Thus
+
+\[
+(\psi^6B^2)'
+=72\psi'\psi''+18d^2\psi^{-7}\psi'+18\Lambda\psi^5\psi'.
+\]
+
+Every solution therefore obeys
+
+\[
+\boxed{
+J_0=\psi^6B^2-36(\psi')^2+3d^2\psi^{-6}-3\Lambda\psi^6,
+}
+\tag{5}
+\]
+
+where \(J_0\) is constant on the connected coordinate circle. Production verifies the derivative
+of (5) exactly on 87,586 rational constraint jets. An implementation-distinct Christoffel and
+physical-constraint calculation verifies the same result on 35,059 rational checks.
+
+## 4. Nowhere-zero regular stratum
+
+Solving (5) gives
+
+\[
+B^2=\psi^{-6}Z,
+\]
+
+with
+
+\[
+Z=36(\psi')^2-3d^2\psi^{-6}+3\Lambda\psi^6+J_0.
+\]
+
+On a connected component with \(B\ne0\), choose a fixed sign \(\epsilon=\pm1\):
+
+\[
+B=\epsilon\psi^{-3}\sqrt Z,
+\qquad
+A=\frac{F}{B}.
+\tag{6}
+\]
+
+Then
+
+\[
+\tau=\frac{A+B}{2},\qquad
+\lambda=\frac{A-B}{2},\qquad
+v=\psi^6\lambda.
+\tag{7}
+\]
+
+The physical mixed extrinsic-curvature eigenvalues are
+
+\[
+K^x{}_x=\frac{\tau+2\lambda}{3},
+\]
+
+\[
+K^y{}_y=\frac{\tau-\lambda}{3}+d\psi^{-6},
+\qquad
+K^z{}_z=\frac{\tau-\lambda}{3}-d\psi^{-6}.
+\tag{8}
+\]
+
+Direct substitution of (6)--(8) into the physical Hamiltonian and momentum constraints returns
+zero. The independent verifier rebuilds the spatial Christoffels and Ricci scalar by index loops;
+it does not import production functions or read the production output.
+
+Finally, periodic descent into the registered TT-plus-longitudinal chart is
+
+\[
+\alpha=\frac23\langle v\rangle,
+\qquad
+w'=\frac12\bigl(v-\langle v\rangle\bigr).
+\tag{9}
+\]
+
+The right side has zero mean, so a periodic \(w\) exists up to its translation kernel.
+
+## 5. Arbitrary-positive-profile theorem
+
+Let \(\psi\) be any smooth positive periodic function, and fix finite real \(d\) and \(\Lambda\).
+On the compact coordinate circle, define
+
+\[
+G=36(\psi')^2-3d^2\psi^{-6}+3\Lambda\psi^6.
+\]
+
+Both \(-G\) and \(-G-\psi^6F\) are bounded. Choose
+
+\[
+J_0>sup_x\max\{-G(x),-G(x)-\psi(x)^6F(x)\}.
+\tag{10}
+\]
+
+Then
+
+\[
+Z=G+J_0>0
+\]
+
+and
+
+\[
+B^2+F=\psi^{-6}\bigl(Z+\psi^6F\bigr)>0.
+\]
+
+Because
+
+\[
+\tau=\frac{B^2+F}{2B},
+\]
+
+the choice \(\epsilon=+1\) in (6) produces \(\tau>0\), while \(\epsilon=-1\) produces
+\(\tau<0\). All reconstructed quantities are smooth and periodic.
+
+Hence, in this registered regular stratum, the constraints admit **every** smooth positive
+periodic \(\psi\) after a sufficiently large free constraint constant \(J_0\) is supplied. This is
+an exact compactness argument, not a curve fit. The eight explicit Fourier controls in
+`PROFILE_ATLAS.tsv` are only replay witnesses; they are not the proof of the universal statement.
+
+The theorem says that these constraints do not select \(\psi\) inside this diagnostic slice. It
+does not say that arbitrary constraint data are physical histories, that the evolution is
+underdetermined, or that other slices cannot impose additional restrictions.
+
+## 6. The zero/crossing stratum
+
+Equation (5) remains valid when \(B=0\), but equation (6) does not. At a zero,
+
+\[
+\boxed{F=0}
+\tag{11}
+\]
+
+is required by (4), while (3) still gives
+
+\[
+\boxed{B'=3HA.}
+\tag{12}
+\]
+
+Thus a zero need not be stationary. Smooth sign-gluing depends on the vanishing order of the
+radicand and compatible data for \(A\). G319 verifies 324 exact compatible zero-stratum germs, but
+does not claim a global parameterization of every crossing. The correct grade is
+`COMPATIBILITY_GLUE_STRATUM_NOT_GLOBALLY_PARAMETERIZED`.
+
+## 7. What survives from G318
+
+For the G318 ansatz
+
+\[
+\tau=C\psi^n,
+\qquad
+\lambda=\frac{n}{n+6}\tau,
+\]
+
+one has
+
+\[
+A=\frac{2(n+3)}{n+6}\tau,
+
+---G316---
+# G316 exact derivation — lawful constraint-data construction
+
+Date: 2026-09-01
+Scope: bounded regular local G312--G315 metric-only vacuum arena
+
+## 1. Bounded landing
+
+```text
+CONFORMAL_CONSTRUCTION_MAPS_A_LAWFUL_SUBSET_WITH_NONTRIVIAL_SOLVABILITY_AND_CORNER_GAUGE_BOUNDS
+__NO_PHYSICAL_DATA_SELECTION
+```
+
+Status before external review: `INTERNALLY_DERIVED_AND_IMPLEMENTATION_DISTINCT_VERIFIED_BOUNDED`.
+
+G316 gives one practical mathematical chart for constructing data that satisfy G315. It does not
+derive which seed fields, topology, connected scalar, or null sheets Nature supplies.
+
+## 2. Active equation and ownership
+
+Universal Reciprocity/DDR and both G312 premises are owner-adopted provisionally, not derived or
+canonized. Inside their registered regular local metric-only scale-free vacuum arena,
+
+\[
+R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0
+\]
+
+on each connected region. G315 derived the spacelike constraints
+
+\[
+{}^{(3)}R+\frac23\tau^2-A_{ij}A^{ij}=2\Lambda,
+\qquad
+D_jA^{ij}-\frac23D^i\tau=0.
+\]
+
+The conformal method used below is a `CONDITIONAL_IMPORTED_MATHEMATICAL_METHOD`: it is a
+presentation of these active constraints, not another UDT field equation.
+
+## 3. Exact conformal construction
+
+Choose a positive conformal factor `psi` and write, in three spatial dimensions,
+
+\[
+\gamma_{ij}=\psi^4\bar\gamma_{ij},\qquad \psi>0.
+\]
+
+Split the second fundamental form into trace and trace-free parts,
+
+\[
+K_{ij}=A_{ij}+\frac13\tau\gamma_{ij},
+\qquad A^i{}_i=0,
+\]
+
+and assign the contravariant trace-free part the standard weight
+
+\[
+A^{ij}=\psi^{-10}\bar A^{ij}.
+\]
+
+Because lowering two indices contributes `psi^8`,
+
+\[
+A_{ij}=\psi^{-2}\bar A_{ij},
+\qquad
+A_{ij}A^{ij}=\psi^{-12}|\bar A|_{\bar\gamma}^2.
+\]
+
+The scalar curvature transforms as
+
+\[
+{}^{(3)}R
+=\psi^{-5}\left(-8\bar\Delta\psi+\bar R\psi\right).
+\]
+
+Now decompose the conformal trace-free tensor into a supplied transverse-traceless part and a
+longitudinal correction,
+
+\[
+\bar A^{ij}=\bar A_{TT}^{ij}+(\bar L W)^{ij},
+\]
+
+\[
+(\bar L W)^{ij}
+=\bar D^iW^j+\bar D^jW^i
+-\frac23\bar\gamma^{ij}\bar D_kW^k,
+\qquad
+\bar D_j\bar A_{TT}^{ij}=0.
+\]
+
+Substitution into the Hamiltonian constraint and multiplication by `psi^5` gives
+
+\[
+\boxed{
+-8\bar\Delta\psi+\bar R\psi
+-|\bar A_{TT}+\bar L W|_{\bar\gamma}^2\psi^{-7}
++\left(\frac23\tau^2-2\Lambda\right)\psi^5=0.
+}
+\]
+
+The conformal divergence identity for a trace-free tensor is
+
+\[
+D_jA^{ij}=\psi^{-10}\bar D_j\bar A^{ij},
+\]
+
+whereas
+
+\[
+D^i\tau=\psi^{-4}\bar D^i\tau.
+\]
+
+Therefore the momentum constraint is
+
+\[
+\boxed{
+\bar D_j(\bar L W)^{ij}
+=\frac23\psi^6\bar D^i\tau.
+}
+\]
+
+The powers `-7`, `5`, and `6` are forced by this three-dimensional tensor bookkeeping; they are
+not fitted coefficients.
+
+## 4. What is seed, solved, gauge, and output
+
+One conformal construction begins with:
+
+- a supplied conformal metric `bar gamma_ij` on a supplied topology;
+- a supplied transverse-traceless tensor `bar A_TT^ij`;
+- a supplied mean-curvature field `tau`;
+- a supplied or lawfully inferred connected constant `Lambda`;
+- supplied boundary or asymptotic conditions when the slice is not compact without boundary.
+
+It then solves the coupled elliptic system for positive `psi` and `W`. Only after both equations
+hold does it reconstruct lawful physical data `(gamma_ij,K_ij)`.
+
+Lapse and shift are absent because they are evolution gauge, not constraint seeds. Constant mean
+curvature, conformal flatness, compactness, roundness, and any sign are optional mathematical
+subcases, not UDT consequences.
+
+This decomposition also has representation redundancy: conformally related seed tuples can encode
+the same physical data. It is therefore not a unique global coordinate system on the full
+constraint surface.
+
+## 5. Vector solvability and conformal-Killing degeneracy
+
+On a compact slice without boundary, define the vector operator
+
+\[
+(\bar\Delta_LW)^i=\bar D_j(\bar L W)^{ij}.
+\]
+
+For smooth vector fields `X,W`, integration by parts gives
+
+\[
+\int X_i(\bar\Delta_LW)^i\,d\bar\mu
+=-\frac12\int(\bar L X)_{ij}(\bar L W)^{ij}\,d\bar\mu.
+\]
+
+If `X` is a conformal-Killing field, `bar L X=0`. Hence a necessary Fredholm compatibility
+condition for a source `J^i` is
+
+\[
+\int X_iJ^i\,d\bar\mu=0
+\]
+
+for every conformal-Killing field. When a solution exists, `W+X` is another solution and produces
+the same `bar L W`. This is nonuniqueness of the auxiliary vector, not additional physical data.
+
+For constant mean curvature, `bar D tau=0`, the source vanishes. The vector and scalar equations
+decouple, but this convenient lane does not cover generic non-CMC data.
+
+## 6. Exact scalar existence and nonexistence controls
+
+Set
+
+\[
+C=\frac23\tau^2-2\Lambda.
+\]
+
+For constant coefficients and constant `psi`, the scalar equation becomes
+
+\[
+\bar R\psi-|\bar A|^2\psi^{-7}+C\psi^5=0.
+\]
+
+This produces exact controls.
+
+### 6.1 Balanced TT control
+
+If `bar R=0`, `|bar A|^2=a^2>0`, and `C>0`, then
+
+\[
+\psi^{12}=\frac{a^2}{C}
+\]
+
+gives a positive constant solution. The executable control uses `a^2=4096`, `C=1`, `psi=2`.
+
+### 6.2 Integrated no-solution control
+
+On a compact slice without boundary, `int bar Delta psi=0`. If `bar R=0`, `a^2>0`, and `C<=0`,
+the remaining integrand
+
+\[
+-a^2\psi^{-7}+C\psi^5
+\]
+
+is strictly negative for every positive `psi`. Its integral cannot vanish. Thus this registered
+seed class has no positive solution.
+
+### 6.3 Pure-scalar constant controls
+
+If `bar A=0` and `bar R=R_0` and `C` are constant, a nonzero constant solution requires
+
+\[
+\psi^4=-\frac{R_0}{C}>0.
+\]
+
+Opposite signs admit the registered constant roots. If instead `R_0=C=0`, every positive constant
+`psi` solves the scalar equation. That continuum is an unfixed conformal/homothetic freedom; it is
+not a derived physical ruler or `X_max`.
+
+These examples prove both existence and nonexistence occur inside the same construction. They do
+not replace the full global conformal-method solvability literature, which depends on conformal
+class, zeros of coefficients, boundary conditions, topology, regularity, and non-CMC coupling.
+
+## 7. Reconstruction of G315 controls
+
+At `psi=1` the scalar equation exactly reconstructs:
+
+1. round positive bounce: `bar R=6`, `tau=0`, `bar A=0`, `Lambda=3`;
+2. flat positive slicing: `bar R=0`, `tau^2=9`, `bar A=0`, `Lambda=3`;
+3. positive product time-symmetric data: `bar R=6`, `tau=0`, `bar A=0`, `Lambda=3`;
+4. Berger-`S3` data: `bar R=7/2`, `tau^2=15/4`, `bar A=0`, `Lambda=3`.
+
+Each satisfies
+
+\[
+{}^{(3)}R+\frac23\tau^2-A^2=2\Lambda.
+\]
+
+Their different spatial geometries remain different lawful data. Reconstruction is a regression
+and sign check, not a population rule.
+
+## 8. Exact null-corner gauge map
+
+Let two smooth null hypersurfaces intersect at a spacelike screen `S`, and cross-normalize their
+null normals by
+
+\[
+g(\ell,k)=-1.
+\]
+
+This leaves the local boost gauge
+
+\[
+\ell'=e^f\ell,\qquad k'=e^{-f}k.
+\]
+
+The screen metric is unchanged. The null second fundamental forms, expansions, and shears carry
+opposite boost weights:
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G319 internal audit report
+
+Date: 2026-09-01
+
+## Result
+
+```text
+RATIO_FREE_REGULAR_STRATUM_HAS_EXACT_QUADRATURE_AND_ARBITRARY_POSITIVE_PERIODIC_PSI__B_ZERO_REMAINS_A_COMPATIBILITY_STRATUM__G318_POWER_OBSTRUCTIONS_ARE_ANSATZ_SCOPED__NO_PHYSICAL_DATA_SELECTION
+```
+
+## Audit findings
+
+1. The reduction was performed without the G318 constant-ratio assumption.
+2. The global first integral was derived without dividing by `B`.
+3. The regular reconstruction was checked in both sign branches.
+4. Compact positivity requires both the radicand and `B^2+F` to be positive; positivity of the
+   radicand alone was not used to infer the sign of `tau`.
+5. Direct physical Hamiltonian and momentum constraints agree with the conformal reduction.
+6. The independent verifier reconstructs the connection and Ricci scalar by index loops and does
+   not import production code or read production output.
+7. G318 embeds exactly and remains unchanged inside its declared ansatz.
+8. The exceptional zero/crossing stratum is retained as open global compatibility work.
+9. `J0` is a free constraint constant. It is not an observational anchor, physical scale, history,
+   or `X_max`.
+10. The metric and reciprocal kernel are unchanged.
+
+## External adversarial review
+
+The fresh external reviewer authenticated all 33 sealed payloads, reproduced all five generated
+artifacts byte-for-byte, independently rederived the regular-stratum quadrature and compactness
+theorem, and found no scientific defect. It returned
+`G319_ACCEPTED__RATIO_FREE_REGULAR_QUADRATURE_AND_ANSATZ_SCOPE_UPHELD`. It explicitly retained the
+global `B=0` crossing classification as open.
+
+## Numerical role
+
+The load-bearing arbitrary-profile conclusion is proved by compactness. The eight Fourier rows in
+`PROFILE_ATLAS.tsv` are finite replay controls, not evidence from sampling that substitutes for the
+proof. Their maximum direct Hamiltonian residual is below `1.7e-14`; the independent set uses six
+different controls and has maximum direct residual below `6.7e-15`.
+
+## Remaining scope
+
+This audit does not cover the full constraint surface, nonflat seeds, nondiagonal tensors,
+multidimensional profiles, sign-changing `tau`, every global `B=0` crossing, evolution, stability,
+physical topology, observations, sources, matter/mass, scale, or physical history.
+
+codex
+I’ve moved past integrity and replay: both are clean. I’m doing one more independent pass now to verify the coefficient algebra, the mode-squared scaling, the regular-branch bounds, and the exact scope/provenance guards without leaning on the package’s own success criteria.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from fractions import Fraction
+import math
+p=Fraction(3,2)
+a=Fraction(1,5)
+# exact volume coefficient
+avg = p**6 + Fraction(15,2)*p**4*a**2 + Fraction(45,8)*p**2*a**4 + Fraction(5,16)*a**6
+print('avg_psi6_exact =', avg)
+print('avg_psi6_float =', float(avg))
+for n in range(1,5):
+    grad = Fraction(1,2)*a**2*n**2
+    total_scalar = 8*(2*math.pi)**2*math.pi*float(a*a)*n*n
+    crude_bound = 100 - 12*float(a)*n*n*float(p+a)
+    print({'n':n,'grad_exact':str(grad),'Q_ratio_to_n1':n*n,'expected_total_scalar':total_scalar,'crude_Z_plus_psi6F_lower_bound':crude_bound})
+PY" in /return
+ succeeded in 0ms:
+avg_psi6_exact = 2585929/200000
+avg_psi6_float = 12.929645
+{'n': 1, 'grad_exact': '1/50', 'Q_ratio_to_n1': 1, 'expected_total_scalar': 39.688034150783764, 'crude_Z_plus_psi6F_lower_bound': 95.92}
+{'n': 2, 'grad_exact': '2/25', 'Q_ratio_to_n1': 4, 'expected_total_scalar': 158.75213660313506, 'crude_Z_plus_psi6F_lower_bound': 83.68}
+{'n': 3, 'grad_exact': '9/50', 'Q_ratio_to_n1': 9, 'expected_total_scalar': 357.1923073570539, 'crude_Z_plus_psi6F_lower_bound': 63.28}
+{'n': 4, 'grad_exact': '8/25', 'Q_ratio_to_n1': 16, 'expected_total_scalar': 635.0085464125402, 'crude_Z_plus_psi6F_lower_bound': 34.72}
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import csv, hashlib, os
+from pathlib import Path
+base = Path('/intake')
+manifest = base/'REVIEW_MANIFEST.tsv'
+rows=[]
+with manifest.open() as f:
+    reader=csv.DictReader(f, delimiter='\\t')
+    for row in reader:
+        p=base/row['path']
+        data=p.read_bytes()
+        rows.append((row['path'], int(row['bytes'])==len(data), hashlib.sha256(data).hexdigest()==row['sha256']))
+print('payload_rows', len(rows))
+print('all_sizes_ok', all(a for _,a,_ in rows))
+print('all_hashes_ok', all(b for _,_,b in rows))
+print('bad', [r for r in rows if not (r[1] and r[2])])
+PY" in /return
+ succeeded in 0ms:
+payload_rows 32
+all_sizes_ok True
+all_hashes_ok True
+bad []
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import math
+p=1.5
+a=0.2
+TWO_PI = 2*math.pi
+for n in range(1,5):
+    # independent numerical quadrature, separate from package constants/samples
+    samples = 5000 + 137*n
+    vol = 0.0
+    s = 0.0
+    min_expr = float('inf')
+    for i in range(samples):
+        x = TWO_PI*i/samples
+        psi = p + a*math.cos(n*x)
+        psip = -a*n*math.sin(n*x)
+        psipp = -a*n*n*math.cos(n*x)
+        R = -8*psi**-5*psipp
+        dmu = psi**6
+        vol += dmu
+        s += R*dmu
+        min_expr = min(min_expr, 36*psip**2 + 100 + 12*psi*psipp)
+    vol *= TWO_PI**3/samples
+    s *= TWO_PI**3/samples
+    qr = s/vol**(1/3)
+    print({'n':n,'samples':samples,'vol':vol,'total_scalar':s,'Q_R':qr,'min_Z_plus_psi6F':min_expr})
+PY" in /return
+ succeeded in 0ms:
+{'n': 1, 'samples': 5137, 'vol': 3207.2012019844383, 'total_scalar': 39.688034150783594, 'Q_R': 2.691230229472591, 'min_Z_plus_psi6F': 95.92}
+{'n': 2, 'samples': 5274, 'vol': 3207.2012019844474, 'total_scalar': 158.75213660313605, 'Q_R': 10.76492091789047, 'min_Z_plus_psi6F': 83.68}
+{'n': 3, 'samples': 5411, 'vol': 3207.2012019844383, 'total_scalar': 357.19230735705446, 'Q_R': 24.221072065253463, 'min_Z_plus_psi6F': 63.279999999999994}
+{'n': 4, 'samples': 5548, 'vol': 3207.2012019844447, 'total_scalar': 635.008546412541, 'Q_R': 43.05968367156167, 'min_Z_plus_psi6F': 34.72}
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import math
+p=1.5
+a=0.2
+TWO_PI=2*math.pi
+for sign in (-1,1):
+    for n in range(1,5):
+        samples=7001
+        min_signed_tau=float('inf')
+        max_h=0.0
+        max_m=0.0
+        max_j=0.0
+        for i in range(samples):
+            x=TWO_PI*i/samples
+            psi=p+a*math.cos(n*x)
+            psip=-a*n*math.sin(n*x)
+            psipp=-a*n*n*math.cos(n*x)
+            psippp=a*n**3*math.sin(n*x)
+            F=12*psipp*psi**-5
+            Fp=12*(psippp*psi**-5-5*psipp*psi**-6*psip)
+            Z=36*psip**2+100.0
+            Zp=72*psip*psipp
+            B=sign*psi**-3*math.sqrt(Z)
+            Bp=B*(-3*psip/psi + Zp/(2*Z))
+            A=F/B
+            Ap=Fp/B - F*Bp/B**2
+            tau=0.5*(A+B)
+            lam=0.5*(A-B)
+            taup=0.5*(Ap+Bp)
+            lamp=0.5*(Ap-Bp)
+            kx=(tau+2*lam)/3
+            ky=(tau-lam)/3
+            kz=ky
+            kxp=(taup+2*lamp)/3
+            kyp=(taup-lamp)/3
+            tau_sign=sign*tau
+            min_signed_tau=min(min_signed_tau,tau_sign)
+            R=-8*psi**-5*psipp
+            H=psip/psi
+            h=R + tau**2 - (kx*kx+ky*ky+kz*kz)
+            m=kxp - taup + 6*H*kx - 2*H*tau
+            J=psi**6*B**2 - 36*psip**2
+            max_h=max(max_h,abs(h))
+            max_m=max(max_m,abs(m))
+            max_j=max(max_j,abs(J-100.0))
+        print({'sign':sign,'n':n,'min_signed_tau':min_signed_tau,'max_h':max_h,'max_m':max_m,'max_j':max_j})
+PY" in /return
+ succeeded in 0ms:
+{'sign': -1, 'n': 1, 'min_signed_tau': 0.9761856299613272, 'max_h': 2.6645352591003757e-15, 'max_m': 3.885780586188048e-16, 'max_j': 5.684341886080802e-14}
+{'sign': -1, 'n': 2, 'min_signed_tau': 0.8516181559128841, 'max_h': 2.6645352591003757e-15, 'max_m': 8.881784197001252e-16, 'max_j': 5.684341886080802e-14}
+{'sign': -1, 'n': 3, 'min_signed_tau': 0.6440056991654795, 'max_h': 3.552713678800501e-15, 'max_m': 1.1102230246251565e-15, 'max_j': 5.684341886080802e-14}
+{'sign': -1, 'n': 4, 'min_signed_tau': 0.35334825971911243, 'max_h': 4.440892098500626e-15, 'max_m': 2.220446049250313e-15, 'max_j': 7.105427357601002e-14}
+{'sign': 1, 'n': 1, 'min_signed_tau': 0.9761856299613272, 'max_h': 2.6645352591003757e-15, 'max_m': 3.885780586188048e-16, 'max_j': 5.684341886080802e-14}
+{'sign': 1, 'n': 2, 'min_signed_tau': 0.8516181559128841, 'max_h': 2.6645352591003757e-15, 'max_m': 8.881784197001252e-16, 'max_j': 5.684341886080802e-14}
+{'sign': 1, 'n': 3, 'min_signed_tau': 0.6440056991654795, 'max_h': 3.552713678800501e-15, 'max_m': 1.1102230246251565e-15, 'max_j': 5.684341886080802e-14}
+{'sign': 1, 'n': 4, 'min_signed_tau': 0.35334825971911243, 'max_h': 4.440892098500626e-15, 'max_m': 2.220446049250313e-15, 'max_j': 7.105427357601002e-14}
+
+Integrity and replay are complete; moving into the adversarial mathematical and provenance review before writing the report.
+  ✓ Authenticate REVIEW_MANIFEST.tsv against REVIEW_MANIFEST.sha256 and verify every manifest payload in /intake
+  ✓ Create fresh writable copy of /intake/package under /work and rerun the four registered commands there
+  → Read the requested package materials and independently check the invariant, quotient, lawfulness, and mode-square claims
+  • Write /return/EXTERNAL_REVIEW_RESPONSE.md with detailed findings and one allowed verdict token
+codex
+I have enough to close this out. I’m writing the report now with the integrity results, replay comparison, independent derivations, the specific hostile checks I tried to break, and a single bounded verdict on the last line.
+apply patch
+patch: completed
+/return/EXTERNAL_REVIEW_RESPONSE.md
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..3674f0d369312a1b38c7fdf460002263723206f7
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,277 @@
++# External Adversarial Review Response: G320
++
++Date: 2026-09-01
++Reviewer mode: fresh zero-context, sealed-intake only, bounded read-only review
++
++## 1. Scope compliance
++
++I inspected only `/intake` and did not access any repository, protected package, or unsealed
++observation. I did not browse, search, download, install packages, or make network-capable calls.
++I did not edit any evidence file. I copied `/intake/package` into a fresh writable directory under
++`/work` solely to rerun the four registered commands.
++
++## 2. Authentication of the sealed intake
++
++I authenticated the detached seal first.
++
++- `sha256sum -c /intake/REVIEW_MANIFEST.sha256` returned `REVIEW_MANIFEST.tsv: OK`.
++
++I then authenticated every manifest payload against both recorded byte count and recorded SHA-256.
++
++- Manifest payload rows checked: `32`
++- Size mismatches: `0`
++- Hash mismatches: `0`
++
++That covers `REVIEW_SCOPE.json`, all `package/*` payloads, and all `sources/*` payloads listed in
++`REVIEW_MANIFEST.tsv`.
++
++## 3. Replay of the registered commands
++
++I copied `/intake/package` to `/work/g320_review_yvUVBj` and reran exactly:
++
++```text
++python3 derive_physical_quotient.py
++python3 verify_independent.py
++python3 run_catch_proofs.py
++python3 verify_package.py
++```
++
++All four commands passed. The regenerated artifacts matched the sealed package byte-for-byte.
++
++- `DERIVATION_RESULT.json`: identical
++- `INDEPENDENT_VERIFICATION.json`: identical
++- `CATCH_PROOF_RESULT.json`: identical
++- `PACKAGE_VERIFICATION_RESULT.json`: identical
++- `INVARIANT_ATLAS.tsv`: identical
++
++The regenerated hashes exactly matched the manifest hashes.
++
++## 4. Independent rederivation of the load-bearing geometry claim
++
++I did not accept the package’s curvature separator on faith. I rederived it.
++
++For the three-dimensional conformal metric
++
++\[
++\gamma_{ij}=\psi^4\delta_{ij},\qquad \psi=\psi(x)>0,
++\]
++
++the standard `n=3` conformal scalar-curvature transformation with flat seed gives
++
++\[
++{}^{(3)}R=-8\psi^{-5}\Delta\psi=-8\psi^{-5}\psi''.
++\]
++
++The volume form is
++
++\[
++d\mu_\gamma=\psi^6\,dx\,dy\,dz.
++\]
++
++Therefore
++
++\[
++\int {}^{(3)}R\,d\mu_\gamma
++=-8\int \psi\psi''\,d^3x
++=8\int (\psi')^2\,d^3x
++\]
++
++on the periodic torus, by integration by parts with vanishing boundary term. This is exact. The
++sign, the conformal power `-5`, and the volume power `6` are all correct; the hostile mutations
++that flip any of them are genuinely fatal.
++
++Under a constant homothety `\gamma \mapsto \ell^2\gamma`, scalar curvature scales as `\ell^{-2}`
++and volume form as `\ell^3`, so `\int R\,d\mu` scales as `\ell` while `Vol^{1/3}` also scales as
++`\ell`. Hence
++
++\[
++Q_R=\frac{\int {}^{(3)}R\,d\mu_\gamma}{\operatorname{Vol}(\gamma)^{1/3}}
++\]
++
++is homothety-neutral and spatial-diffeomorphism invariant. If two reconstructed physical metrics
++are spatially diffeomorphic, they must have the same `Q_R`.
++
++## 5. Independent check of the mode family and coefficients
++
++For the registered family
++
++\[
++\psi_n(x)=p+a\cos(nx),\qquad p=\frac32,\qquad a=\frac15,
++\]
++
++positivity is immediate because `p>|a|`.
++
++The volume density is `\psi_n^6`. Averaging over one `2\pi` period uses
++
++\[
++\langle \cos^2\rangle=\frac12,\qquad
++\langle \cos^4\rangle=\frac38,\qquad
++\langle \cos^6\rangle=\frac5{16},
++\]
++
++so
++
++\[
++\langle \psi_n^6\rangle
++=p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
++=\frac{2585929}{200000},
++\]
++
++independent of `n`. The coefficient pattern in the package is correct.
++
++Also
++
++\[
++\psi_n'=-an\sin(nx),
++\qquad
++\int (\psi_n')^2\,d^3x=(2\pi)^2\pi a^2 n^2,
++\]
++
++so
++
++\[
++Q_R[\psi_n]=n^2Q_R[\psi_1].
++\]
++
++I independently recomputed the numerical values with my own ad hoc quadrature script, using
++sample counts not used by the package. The results matched the sealed atlas:
++
++- common volume `3207.20120198444...`
++- `Q_R(1)=2.69123022947259...`
++- `Q_R(2)=10.76492091789047...`
++- `Q_R(3)=24.22107206525346...`
++- `Q_R(4)=43.05968367156167...`
++
++These satisfy the exact `1:4:9:16` law to numerical precision.
++
++This is enough to exclude spatial-diffeomorphism equivalence between different modes. The
++inequivalence argument does not depend on raw arrays, phase choices, or a preferred coordinate.
++
++## 6. Lawful-data reconstruction check
++
++I also rederived the regular-stratum reconstruction logic from the sealed G319 source.
++
++With
++
++\[
++AB=F[\psi],\qquad B'=3H(A-B),\qquad H=\psi'/\psi,
++\]
++
++one gets
++
++\[
++(B^2)'=6H(F-B^2),
++\]
++
++and hence
++
++\[
++(\psi^6B^2)'=6\psi^5\psi'F.
++\]
++
++For the registered `d=0`, `\Lambda=0` slice, this integrates to
++
++\[
++J_0=\psi^6B^2-36(\psi')^2,
++\qquad
++B^2=\psi^{-6}\bigl(36(\psi')^2+J_0\bigr).
++\]
++
++The coefficient `36` is correct. The package’s first-integral algebra is coherent.
++
++For the specific diagnostic choice `J_0=100`, the stronger sign-control quantity is
++
++\[
++Z+\psi^6F=36(\psi')^2+100+12\psi\psi'',
++\]
++
++and the package’s crude lower bound
++
++\[
++100-12an^2(p+a)
++\]
++
++is correct. For `n=1,2,3,4` it gives `95.92, 83.68, 63.28, 34.72`, all positive. So the chosen
++regular branch is indeed lawful for both signs on the finite replay set.
++
++I independently reconstructed `A`, `B`, `\tau`, `\lambda`, and the diagonal `K`, then checked the
++direct Hamiltonian residual, direct momentum residual, branch sign, and `J_0` constancy with my
++own script. I reproduced the sealed values up to roundoff:
++
++- maximum Hamiltonian residual: about `4.4e-15`
++- maximum momentum residual: about `2.2e-15`
++- maximum `J_0` drift: about `7.1e-14`
++- minimum signed `\tau` stayed positive on both branches for all replayed modes
++
++So G320 is not merely exhibiting intrinsic trial metrics. It is replaying lawful reconstructed
++initial data in the bounded G319 slice.
++
++## 7. Quotient controls and false-equivalence attacks
++
++The phase/reflection controls are sound and not overclaimed.
++
++- Phase shifts and reflections are spatial diffeomorphisms of the marked torus.
++- `Q_R`, volume, and the stated weighted contractions must therefore agree.
++- The package tests several explicit representatives as a regression guard.
++- The proof of inequivalence does not depend on those finite phase samples; it depends on the
++  invariant itself.
++
++The conformal-seed covariance control is also sound within its stated scope.
++
++- If `\widehat{\bar\gamma}=\vartheta^4\bar\gamma`, `\widehat\psi=\psi/\vartheta`, and
++  `\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}`, then the reconstructed physical metric and
++  physical trace-free tensor are unchanged.
++- With unchanged `\tau`, the full reconstructed `K` is unchanged.
++- The package checks this with nonconstant positive `\vartheta`, and the independent verifier uses
++  a different `\vartheta`.
++
++I found no false equivalence being smuggled in through raw seed comparisons, phase changes, or the
++auxiliary conformal representation.
++
++## 8. Production versus independent implementation separation
++
++The separation is real, though not absolute.
++
++- `verify_independent.py` does not import `derive_physical_quotient.py`.
++- It does not read `DERIVATION_RESULT.json`.
++- It rebuilds Christoffels, Ricci, and momentum divergence by explicit index loops.
++- It uses different `p`, amplitude, modes, sample count, `J_0`, and seed rewrite.
++
++That is a meaningful implementation-distinct cross-check of the load-bearing geometry and
++constraint replay.
++
++The boundary of that independence is also clear: the independent verifier still accepts the same
++bounded G319 mathematical framework and reconstruction formulas. It is not an independent proof of
++the upstream G319 theorem. But G320 does not pretend otherwise; it uses G319 as an explicit sealed
++premise, and the package does not overstate this point.
++
++## 9. Scope, provenance, and overclaim audit
++
++The package stays inside the declared bounds.
++
++- It does not claim a complete quotient of all G319 profiles.
++- It does not select physical topology, population, scale, sources, matter, mass, observations, or
++  physical `X_max`.
++- It does not change the metric or reciprocal kernel.
++- It does not promote the diagnostic one-coordinate torus slice into full UDT.
++
++The source-scope file lists only the bounded prerequisite materials, and the protected package
++identifiers named in `verify_package.py` are absent from the sealed source scope. I found no sealed
++evidence of provenance laundering or unauthorized dependency import.
++
++## 10. Adversarial conclusion
++
++I attacked the curvature coefficient, the conformal powers, the volume weight, the homothety
++normalization, the `n^2` scaling, the branch-sign argument, the lawful reconstruction claim, the
++phase/reflection quotient controls, the conformal-seed covariance control, the implementation
++separation claim, the bounded-scope guardrails, and the provenance envelope.
++
++No scientific defect survived those attacks inside the sealed scope.
++
++What is proved is exactly the bounded claim and no more: within the externally accepted G319
++regular slice, the registered positive periodic family contains genuinely inequivalent physical
++initial geometries after quotienting the declared representation freedoms. The proof is carried by
++the exact invariant `Q_R`, not by raw coordinates, not by finite array comparison, and not by an
++implicit choice of physical scale or history.
++
++G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..3674f0d369312a1b38c7fdf460002263723206f7
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,277 @@
++# External Adversarial Review Response: G320
++
++Date: 2026-09-01
++Reviewer mode: fresh zero-context, sealed-intake only, bounded read-only review
++
++## 1. Scope compliance
++
++I inspected only `/intake` and did not access any repository, protected package, or unsealed
++observation. I did not browse, search, download, install packages, or make network-capable calls.
++I did not edit any evidence file. I copied `/intake/package` into a fresh writable directory under
++`/work` solely to rerun the four registered commands.
++
++## 2. Authentication of the sealed intake
++
++I authenticated the detached seal first.
++
++- `sha256sum -c /intake/REVIEW_MANIFEST.sha256` returned `REVIEW_MANIFEST.tsv: OK`.
++
++I then authenticated every manifest payload against both recorded byte count and recorded SHA-256.
++
++- Manifest payload rows checked: `32`
++- Size mismatches: `0`
++- Hash mismatches: `0`
++
++That covers `REVIEW_SCOPE.json`, all `package/*` payloads, and all `sources/*` payloads listed in
++`REVIEW_MANIFEST.tsv`.
++
++## 3. Replay of the registered commands
++
++I copied `/intake/package` to `/work/g320_review_yvUVBj` and reran exactly:
++
++```text
++python3 derive_physical_quotient.py
++python3 verify_independent.py
++python3 run_catch_proofs.py
++python3 verify_package.py
++```
++
++All four commands passed. The regenerated artifacts matched the sealed package byte-for-byte.
++
++- `DERIVATION_RESULT.json`: identical
++- `INDEPENDENT_VERIFICATION.json`: identical
++- `CATCH_PROOF_RESULT.json`: identical
++- `PACKAGE_VERIFICATION_RESULT.json`: identical
++- `INVARIANT_ATLAS.tsv`: identical
++
++The regenerated hashes exactly matched the manifest hashes.
++
++## 4. Independent rederivation of the load-bearing geometry claim
++
++I did not accept the package’s curvature separator on faith. I rederived it.
++
++For the three-dimensional conformal metric
++
++\[
++\gamma_{ij}=\psi^4\delta_{ij},\qquad \psi=\psi(x)>0,
++\]
++
++the standard `n=3` conformal scalar-curvature transformation with flat seed gives
++
++\[
++{}^{(3)}R=-8\psi^{-5}\Delta\psi=-8\psi^{-5}\psi''.
++\]
++
++The volume form is
++
++\[
++d\mu_\gamma=\psi^6\,dx\,dy\,dz.
++\]
++
++Therefore
++
++\[
++\int {}^{(3)}R\,d\mu_\gamma
++=-8\int \psi\psi''\,d^3x
++=8\int (\psi')^2\,d^3x
++\]
++
++on the periodic torus, by integration by parts with vanishing boundary term. This is exact. The
++sign, the conformal power `-5`, and the volume power `6` are all correct; the hostile mutations
++that flip any of them are genuinely fatal.
++
++Under a constant homothety `\gamma \mapsto \ell^2\gamma`, scalar curvature scales as `\ell^{-2}`
++and volume form as `\ell^3`, so `\int R\,d\mu` scales as `\ell` while `Vol^{1/3}` also scales as
++`\ell`. Hence
++
++\[
++Q_R=\frac{\int {}^{(3)}R\,d\mu_\gamma}{\operatorname{Vol}(\gamma)^{1/3}}
++\]
++
++is homothety-neutral and spatial-diffeomorphism invariant. If two reconstructed physical metrics
++are spatially diffeomorphic, they must have the same `Q_R`.
++
++## 5. Independent check of the mode family and coefficients
++
++For the registered family
++
++\[
++\psi_n(x)=p+a\cos(nx),\qquad p=\frac32,\qquad a=\frac15,
++\]
++
++positivity is immediate because `p>|a|`.
++
++The volume density is `\psi_n^6`. Averaging over one `2\pi` period uses
++
++\[
++\langle \cos^2\rangle=\frac12,\qquad
++\langle \cos^4\rangle=\frac38,\qquad
++\langle \cos^6\rangle=\frac5{16},
++\]
++
++so
++
++\[
++\langle \psi_n^6\rangle
++=p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
++=\frac{2585929}{200000},
++\]
++
++independent of `n`. The coefficient pattern in the package is correct.
++
++Also
++
++\[
++\psi_n'=-an\sin(nx),
++\qquad
++\int (\psi_n')^2\,d^3x=(2\pi)^2\pi a^2 n^2,
++\]
++
++so
++
++\[
++Q_R[\psi_n]=n^2Q_R[\psi_1].
++\]
++
++I independently recomputed the numerical values with my own ad hoc quadrature script, using
++sample counts not used by the package. The results matched the sealed atlas:
++
++- common volume `3207.20120198444...`
++- `Q_R(1)=2.69123022947259...`
++- `Q_R(2)=10.76492091789047...`
++- `Q_R(3)=24.22107206525346...`
++- `Q_R(4)=43.05968367156167...`
++
++These satisfy the exact `1:4:9:16` law to numerical precision.
++
++This is enough to exclude spatial-diffeomorphism equivalence between different modes. The
++inequivalence argument does not depend on raw arrays, phase choices, or a preferred coordinate.
++
++## 6. Lawful-data reconstruction check
++
++I also rederived the regular-stratum reconstruction logic from the sealed G319 source.
++
++With
++
++\[
++AB=F[\psi],\qquad B'=3H(A-B),\qquad H=\psi'/\psi,
++\]
++
++one gets
++
++\[
++(B^2)'=6H(F-B^2),
++\]
++
++and hence
++
++\[
++(\psi^6B^2)'=6\psi^5\psi'F.
++\]
++
++For the registered `d=0`, `\Lambda=0` slice, this integrates to
++
++\[
++J_0=\psi^6B^2-36(\psi')^2,
++\qquad
++B^2=\psi^{-6}\bigl(36(\psi')^2+J_0\bigr).
++\]
++
++The coefficient `36` is correct. The package’s first-integral algebra is coherent.
++
++For the specific diagnostic choice `J_0=100`, the stronger sign-control quantity is
++
++\[
++Z+\psi^6F=36(\psi')^2+100+12\psi\psi'',
++\]
++
++and the package’s crude lower bound
++
++\[
++100-12an^2(p+a)
++\]
++
++is correct. For `n=1,2,3,4` it gives `95.92, 83.68, 63.28, 34.72`, all positive. So the chosen
++regular branch is indeed lawful for both signs on the finite replay set.
++
++I independently reconstructed `A`, `B`, `\tau`, `\lambda`, and the diagonal `K`, then checked the
++direct Hamiltonian residual, direct momentum residual, branch sign, and `J_0` constancy with my
++own script. I reproduced the sealed values up to roundoff:
++
++- maximum Hamiltonian residual: about `4.4e-15`
++- maximum momentum residual: about `2.2e-15`
++- maximum `J_0` drift: about `7.1e-14`
++- minimum signed `\tau` stayed positive on both branches for all replayed modes
++
++So G320 is not merely exhibiting intrinsic trial metrics. It is replaying lawful reconstructed
++initial data in the bounded G319 slice.
++
++## 7. Quotient controls and false-equivalence attacks
++
++The phase/reflection controls are sound and not overclaimed.
++
++- Phase shifts and reflections are spatial diffeomorphisms of the marked torus.
++- `Q_R`, volume, and the stated weighted contractions must therefore agree.
++- The package tests several explicit representatives as a regression guard.
++- The proof of inequivalence does not depend on those finite phase samples; it depends on the
++  invariant itself.
++
++The conformal-seed covariance control is also sound within its stated scope.
++
++- If `\widehat{\bar\gamma}=\vartheta^4\bar\gamma`, `\widehat\psi=\psi/\vartheta`, and
++  `\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}`, then the reconstructed physical metric and
++  physical trace-free tensor are unchanged.
++- With unchanged `\tau`, the full reconstructed `K` is unchanged.
++- The package checks this with nonconstant positive `\vartheta`, and the independent verifier uses
++  a different `\vartheta`.
++
++I found no false equivalence being smuggled in through raw seed comparisons, phase changes, or the
++auxiliary conformal representation.
++
++## 8. Production versus independent implementation separation
++
++The separation is real, though not absolute.
++
++- `verify_independent.py` does not import `derive_physical_quotient.py`.
++- It does not read `DERIVATION_RESULT.json`.
++- It rebuilds Christoffels, Ricci, and momentum divergence by explicit index loops.
++- It uses different `p`, amplitude, modes, sample count, `J_0`, and seed rewrite.
++
++That is a meaningful implementation-distinct cross-check of the load-bearing geometry and
++constraint replay.
++
++The boundary of that independence is also clear: the independent verifier still accepts the same
++bounded G319 mathematical framework and reconstruction formulas. It is not an independent proof of
++the upstream G319 theorem. But G320 does not pretend otherwise; it uses G319 as an explicit sealed
++premise, and the package does not overstate this point.
++
++## 9. Scope, provenance, and overclaim audit
++
++The package stays inside the declared bounds.
++
++- It does not claim a complete quotient of all G319 profiles.
++- It does not select physical topology, population, scale, sources, matter, mass, observations, or
++  physical `X_max`.
++- It does not change the metric or reciprocal kernel.
++- It does not promote the diagnostic one-coordinate torus slice into full UDT.
++
++The source-scope file lists only the bounded prerequisite materials, and the protected package
++identifiers named in `verify_package.py` are absent from the sealed source scope. I found no sealed
++evidence of provenance laundering or unauthorized dependency import.
++
++## 10. Adversarial conclusion
++
++I attacked the curvature coefficient, the conformal powers, the volume weight, the homothety
++normalization, the `n^2` scaling, the branch-sign argument, the lawful reconstruction claim, the
++phase/reflection quotient controls, the conformal-seed covariance control, the implementation
++separation claim, the bounded-scope guardrails, and the provenance envelope.
++
++No scientific defect survived those attacks inside the sealed scope.
++
++What is proved is exactly the bounded claim and no more: within the externally accepted G319
++regular slice, the registered positive periodic family contains genuinely inequivalent physical
++initial geometries after quotienting the declared representation freedoms. The proof is carried by
++the exact invariant `Q_R`, not by raw coordinates, not by finite array comparison, and not by an
++implicit choice of physical scale or history.
++
++G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+
+exec
+/bin/bash -lc 'tail -n 8 /return/EXTERNAL_REVIEW_RESPONSE.md' in /return
+ succeeded in 0ms:
+
+What is proved is exactly the bounded claim and no more: within the externally accepted G319
+regular slice, the registered positive periodic family contains genuinely inequivalent physical
+initial geometries after quotienting the declared representation freedoms. The proof is carried by
+the exact invariant `Q_R`, not by raw coordinates, not by finite array comparison, and not by an
+implicit choice of physical scale or history.
+
+G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..3674f0d369312a1b38c7fdf460002263723206f7
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,277 @@
++# External Adversarial Review Response: G320
++
++Date: 2026-09-01
++Reviewer mode: fresh zero-context, sealed-intake only, bounded read-only review
++
++## 1. Scope compliance
++
++I inspected only `/intake` and did not access any repository, protected package, or unsealed
++observation. I did not browse, search, download, install packages, or make network-capable calls.
++I did not edit any evidence file. I copied `/intake/package` into a fresh writable directory under
++`/work` solely to rerun the four registered commands.
++
++## 2. Authentication of the sealed intake
++
++I authenticated the detached seal first.
++
++- `sha256sum -c /intake/REVIEW_MANIFEST.sha256` returned `REVIEW_MANIFEST.tsv: OK`.
++
++I then authenticated every manifest payload against both recorded byte count and recorded SHA-256.
++
++- Manifest payload rows checked: `32`
++- Size mismatches: `0`
++- Hash mismatches: `0`
++
++That covers `REVIEW_SCOPE.json`, all `package/*` payloads, and all `sources/*` payloads listed in
++`REVIEW_MANIFEST.tsv`.
++
++## 3. Replay of the registered commands
++
++I copied `/intake/package` to `/work/g320_review_yvUVBj` and reran exactly:
++
++```text
++python3 derive_physical_quotient.py
++python3 verify_independent.py
++python3 run_catch_proofs.py
++python3 verify_package.py
++```
++
++All four commands passed. The regenerated artifacts matched the sealed package byte-for-byte.
++
++- `DERIVATION_RESULT.json`: identical
++- `INDEPENDENT_VERIFICATION.json`: identical
++- `CATCH_PROOF_RESULT.json`: identical
++- `PACKAGE_VERIFICATION_RESULT.json`: identical
++- `INVARIANT_ATLAS.tsv`: identical
++
++The regenerated hashes exactly matched the manifest hashes.
++
++## 4. Independent rederivation of the load-bearing geometry claim
++
++I did not accept the package’s curvature separator on faith. I rederived it.
++
++For the three-dimensional conformal metric
++
++\[
++\gamma_{ij}=\psi^4\delta_{ij},\qquad \psi=\psi(x)>0,
++\]
++
++the standard `n=3` conformal scalar-curvature transformation with flat seed gives
++
++\[
++{}^{(3)}R=-8\psi^{-5}\Delta\psi=-8\psi^{-5}\psi''.
++\]
++
++The volume form is
++
++\[
++d\mu_\gamma=\psi^6\,dx\,dy\,dz.
++\]
++
++Therefore
++
++\[
++\int {}^{(3)}R\,d\mu_\gamma
++=-8\int \psi\psi''\,d^3x
++=8\int (\psi')^2\,d^3x
++\]
++
++on the periodic torus, by integration by parts with vanishing boundary term. This is exact. The
++sign, the conformal power `-5`, and the volume power `6` are all correct; the hostile mutations
++that flip any of them are genuinely fatal.
++
++Under a constant homothety `\gamma \mapsto \ell^2\gamma`, scalar curvature scales as `\ell^{-2}`
++and volume form as `\ell^3`, so `\int R\,d\mu` scales as `\ell` while `Vol^{1/3}` also scales as
++`\ell`. Hence
++
++\[
++Q_R=\frac{\int {}^{(3)}R\,d\mu_\gamma}{\operatorname{Vol}(\gamma)^{1/3}}
++\]
++
++is homothety-neutral and spatial-diffeomorphism invariant. If two reconstructed physical metrics
++are spatially diffeomorphic, they must have the same `Q_R`.
++
++## 5. Independent check of the mode family and coefficients
++
++For the registered family
++
++\[
++\psi_n(x)=p+a\cos(nx),\qquad p=\frac32,\qquad a=\frac15,
++\]
++
++positivity is immediate because `p>|a|`.
++
++The volume density is `\psi_n^6`. Averaging over one `2\pi` period uses
++
++\[
++\langle \cos^2\rangle=\frac12,\qquad
++\langle \cos^4\rangle=\frac38,\qquad
++\langle \cos^6\rangle=\frac5{16},
++\]
++
++so
++
++\[
++\langle \psi_n^6\rangle
++=p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
++=\frac{2585929}{200000},
++\]
++
++independent of `n`. The coefficient pattern in the package is correct.
++
++Also
++
++\[
++\psi_n'=-an\sin(nx),
++\qquad
++\int (\psi_n')^2\,d^3x=(2\pi)^2\pi a^2 n^2,
++\]
++
++so
++
++\[
++Q_R[\psi_n]=n^2Q_R[\psi_1].
++\]
++
++I independently recomputed the numerical values with my own ad hoc quadrature script, using
++sample counts not used by the package. The results matched the sealed atlas:
++
++- common volume `3207.20120198444...`
++- `Q_R(1)=2.69123022947259...`
++- `Q_R(2)=10.76492091789047...`
++- `Q_R(3)=24.22107206525346...`
++- `Q_R(4)=43.05968367156167...`
++
++These satisfy the exact `1:4:9:16` law to numerical precision.
++
++This is enough to exclude spatial-diffeomorphism equivalence between different modes. The
++inequivalence argument does not depend on raw arrays, phase choices, or a preferred coordinate.
++
++## 6. Lawful-data reconstruction check
++
++I also rederived the regular-stratum reconstruction logic from the sealed G319 source.
++
++With
++
++\[
++AB=F[\psi],\qquad B'=3H(A-B),\qquad H=\psi'/\psi,
++\]
++
++one gets
++
++\[
++(B^2)'=6H(F-B^2),
++\]
++
++and hence
++
++\[
++(\psi^6B^2)'=6\psi^5\psi'F.
++\]
++
++For the registered `d=0`, `\Lambda=0` slice, this integrates to
++
++\[
++J_0=\psi^6B^2-36(\psi')^2,
++\qquad
++B^2=\psi^{-6}\bigl(36(\psi')^2+J_0\bigr).
++\]
++
++The coefficient `36` is correct. The package’s first-integral algebra is coherent.
++
++For the specific diagnostic choice `J_0=100`, the stronger sign-control quantity is
++
++\[
++Z+\psi^6F=36(\psi')^2+100+12\psi\psi'',
++\]
++
++and the package’s crude lower bound
++
++\[
++100-12an^2(p+a)
++\]
++
++is correct. For `n=1,2,3,4` it gives `95.92, 83.68, 63.28, 34.72`, all positive. So the chosen
++regular branch is indeed lawful for both signs on the finite replay set.
++
++I independently reconstructed `A`, `B`, `\tau`, `\lambda`, and the diagonal `K`, then checked the
++direct Hamiltonian residual, direct momentum residual, branch sign, and `J_0` constancy with my
++own script. I reproduced the sealed values up to roundoff:
++
++- maximum Hamiltonian residual: about `4.4e-15`
++- maximum momentum residual: about `2.2e-15`
++- maximum `J_0` drift: about `7.1e-14`
++- minimum signed `\tau` stayed positive on both branches for all replayed modes
++
++So G320 is not merely exhibiting intrinsic trial metrics. It is replaying lawful reconstructed
++initial data in the bounded G319 slice.
++
++## 7. Quotient controls and false-equivalence attacks
++
++The phase/reflection controls are sound and not overclaimed.
++
++- Phase shifts and reflections are spatial diffeomorphisms of the marked torus.
++- `Q_R`, volume, and the stated weighted contractions must therefore agree.
++- The package tests several explicit representatives as a regression guard.
++- The proof of inequivalence does not depend on those finite phase samples; it depends on the
++  invariant itself.
++
++The conformal-seed covariance control is also sound within its stated scope.
++
++- If `\widehat{\bar\gamma}=\vartheta^4\bar\gamma`, `\widehat\psi=\psi/\vartheta`, and
++  `\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}`, then the reconstructed physical metric and
++  physical trace-free tensor are unchanged.
++- With unchanged `\tau`, the full reconstructed `K` is unchanged.
++- The package checks this with nonconstant positive `\vartheta`, and the independent verifier uses
++  a different `\vartheta`.
++
++I found no false equivalence being smuggled in through raw seed comparisons, phase changes, or the
++auxiliary conformal representation.
++
++## 8. Production versus independent implementation separation
++
++The separation is real, though not absolute.
++
++- `verify_independent.py` does not import `derive_physical_quotient.py`.
++- It does not read `DERIVATION_RESULT.json`.
++- It rebuilds Christoffels, Ricci, and momentum divergence by explicit index loops.
++- It uses different `p`, amplitude, modes, sample count, `J_0`, and seed rewrite.
++
++That is a meaningful implementation-distinct cross-check of the load-bearing geometry and
++constraint replay.
++
++The boundary of that independence is also clear: the independent verifier still accepts the same
++bounded G319 mathematical framework and reconstruction formulas. It is not an independent proof of
++the upstream G319 theorem. But G320 does not pretend otherwise; it uses G319 as an explicit sealed
++premise, and the package does not overstate this point.
++
++## 9. Scope, provenance, and overclaim audit
++
++The package stays inside the declared bounds.
++
++- It does not claim a complete quotient of all G319 profiles.
++- It does not select physical topology, population, scale, sources, matter, mass, observations, or
++  physical `X_max`.
++- It does not change the metric or reciprocal kernel.
++- It does not promote the diagnostic one-coordinate torus slice into full UDT.
++
++The source-scope file lists only the bounded prerequisite materials, and the protected package
++identifiers named in `verify_package.py` are absent from the sealed source scope. I found no sealed
++evidence of provenance laundering or unauthorized dependency import.
++
++## 10. Adversarial conclusion
++
++I attacked the curvature coefficient, the conformal powers, the volume weight, the homothety
++normalization, the `n^2` scaling, the branch-sign argument, the lawful reconstruction claim, the
++phase/reflection quotient controls, the conformal-seed covariance control, the implementation
++separation claim, the bounded-scope guardrails, and the provenance envelope.
++
++No scientific defect survived those attacks inside the sealed scope.
++
++What is proved is exactly the bounded claim and no more: within the externally accepted G319
++regular slice, the registered positive periodic family contains genuinely inequivalent physical
++initial geometries after quotienting the declared representation freedoms. The proof is carried by
++the exact invariant `Q_R`, not by raw coordinates, not by finite array comparison, and not by an
++implicit choice of physical scale or history.
++
++G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+
+Report written after successful authentication, replay, and adversarial review.
+  ✓ Authenticate REVIEW_MANIFEST.tsv against REVIEW_MANIFEST.sha256 and verify every manifest payload in /intake
+  ✓ Create fresh writable copy of /intake/package under /work and rerun the four registered commands there
+  ✓ Read the requested package materials and independently check the invariant, quotient, lawfulness, and mode-square claims
+  ✓ Write /return/EXTERNAL_REVIEW_RESPONSE.md with detailed findings and one allowed verdict token
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..3674f0d369312a1b38c7fdf460002263723206f7
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,277 @@
++# External Adversarial Review Response: G320
++
++Date: 2026-09-01
++Reviewer mode: fresh zero-context, sealed-intake only, bounded read-only review
++
++## 1. Scope compliance
++
++I inspected only `/intake` and did not access any repository, protected package, or unsealed
++observation. I did not browse, search, download, install packages, or make network-capable calls.
++I did not edit any evidence file. I copied `/intake/package` into a fresh writable directory under
++`/work` solely to rerun the four registered commands.
++
++## 2. Authentication of the sealed intake
++
++I authenticated the detached seal first.
++
++- `sha256sum -c /intake/REVIEW_MANIFEST.sha256` returned `REVIEW_MANIFEST.tsv: OK`.
++
++I then authenticated every manifest payload against both recorded byte count and recorded SHA-256.
++
++- Manifest payload rows checked: `32`
++- Size mismatches: `0`
++- Hash mismatches: `0`
++
++That covers `REVIEW_SCOPE.json`, all `package/*` payloads, and all `sources/*` payloads listed in
++`REVIEW_MANIFEST.tsv`.
++
++## 3. Replay of the registered commands
++
++I copied `/intake/package` to `/work/g320_review_yvUVBj` and reran exactly:
++
++```text
++python3 derive_physical_quotient.py
++python3 verify_independent.py
++python3 run_catch_proofs.py
++python3 verify_package.py
++```
++
++All four commands passed. The regenerated artifacts matched the sealed package byte-for-byte.
++
++- `DERIVATION_RESULT.json`: identical
++- `INDEPENDENT_VERIFICATION.json`: identical
++- `CATCH_PROOF_RESULT.json`: identical
++- `PACKAGE_VERIFICATION_RESULT.json`: identical
++- `INVARIANT_ATLAS.tsv`: identical
++
++The regenerated hashes exactly matched the manifest hashes.
++
++## 4. Independent rederivation of the load-bearing geometry claim
++
++I did not accept the package’s curvature separator on faith. I rederived it.
++
++For the three-dimensional conformal metric
++
++\[
++\gamma_{ij}=\psi^4\delta_{ij},\qquad \psi=\psi(x)>0,
++\]
++
++the standard `n=3` conformal scalar-curvature transformation with flat seed gives
++
++\[
++{}^{(3)}R=-8\psi^{-5}\Delta\psi=-8\psi^{-5}\psi''.
++\]
++
++The volume form is
++
++\[
++d\mu_\gamma=\psi^6\,dx\,dy\,dz.
++\]
++
++Therefore
++
++\[
++\int {}^{(3)}R\,d\mu_\gamma
++=-8\int \psi\psi''\,d^3x
++=8\int (\psi')^2\,d^3x
++\]
++
++on the periodic torus, by integration by parts with vanishing boundary term. This is exact. The
++sign, the conformal power `-5`, and the volume power `6` are all correct; the hostile mutations
++that flip any of them are genuinely fatal.
++
++Under a constant homothety `\gamma \mapsto \ell^2\gamma`, scalar curvature scales as `\ell^{-2}`
++and volume form as `\ell^3`, so `\int R\,d\mu` scales as `\ell` while `Vol^{1/3}` also scales as
++`\ell`. Hence
++
++\[
++Q_R=\frac{\int {}^{(3)}R\,d\mu_\gamma}{\operatorname{Vol}(\gamma)^{1/3}}
++\]
++
++is homothety-neutral and spatial-diffeomorphism invariant. If two reconstructed physical metrics
++are spatially diffeomorphic, they must have the same `Q_R`.
++
++## 5. Independent check of the mode family and coefficients
++
++For the registered family
++
++\[
++\psi_n(x)=p+a\cos(nx),\qquad p=\frac32,\qquad a=\frac15,
++\]
++
++positivity is immediate because `p>|a|`.
++
++The volume density is `\psi_n^6`. Averaging over one `2\pi` period uses
++
++\[
++\langle \cos^2\rangle=\frac12,\qquad
++\langle \cos^4\rangle=\frac38,\qquad
++\langle \cos^6\rangle=\frac5{16},
++\]
++
++so
++
++\[
++\langle \psi_n^6\rangle
++=p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
++=\frac{2585929}{200000},
++\]
++
++independent of `n`. The coefficient pattern in the package is correct.
++
++Also
++
++\[
++\psi_n'=-an\sin(nx),
++\qquad
++\int (\psi_n')^2\,d^3x=(2\pi)^2\pi a^2 n^2,
++\]
++
++so
++
++\[
++Q_R[\psi_n]=n^2Q_R[\psi_1].
++\]
++
++I independently recomputed the numerical values with my own ad hoc quadrature script, using
++sample counts not used by the package. The results matched the sealed atlas:
++
++- common volume `3207.20120198444...`
++- `Q_R(1)=2.69123022947259...`
++- `Q_R(2)=10.76492091789047...`
++- `Q_R(3)=24.22107206525346...`
++- `Q_R(4)=43.05968367156167...`
++
++These satisfy the exact `1:4:9:16` law to numerical precision.
++
++This is enough to exclude spatial-diffeomorphism equivalence between different modes. The
++inequivalence argument does not depend on raw arrays, phase choices, or a preferred coordinate.
++
++## 6. Lawful-data reconstruction check
++
++I also rederived the regular-stratum reconstruction logic from the sealed G319 source.
++
++With
++
++\[
++AB=F[\psi],\qquad B'=3H(A-B),\qquad H=\psi'/\psi,
++\]
++
++one gets
++
++\[
++(B^2)'=6H(F-B^2),
++\]
++
++and hence
++
++\[
++(\psi^6B^2)'=6\psi^5\psi'F.
++\]
++
++For the registered `d=0`, `\Lambda=0` slice, this integrates to
++
++\[
++J_0=\psi^6B^2-36(\psi')^2,
++\qquad
++B^2=\psi^{-6}\bigl(36(\psi')^2+J_0\bigr).
++\]
++
++The coefficient `36` is correct. The package’s first-integral algebra is coherent.
++
++For the specific diagnostic choice `J_0=100`, the stronger sign-control quantity is
++
++\[
++Z+\psi^6F=36(\psi')^2+100+12\psi\psi'',
++\]
++
++and the package’s crude lower bound
++
++\[
++100-12an^2(p+a)
++\]
++
++is correct. For `n=1,2,3,4` it gives `95.92, 83.68, 63.28, 34.72`, all positive. So the chosen
++regular branch is indeed lawful for both signs on the finite replay set.
++
++I independently reconstructed `A`, `B`, `\tau`, `\lambda`, and the diagonal `K`, then checked the
++direct Hamiltonian residual, direct momentum residual, branch sign, and `J_0` constancy with my
++own script. I reproduced the sealed values up to roundoff:
++
++- maximum Hamiltonian residual: about `4.4e-15`
++- maximum momentum residual: about `2.2e-15`
++- maximum `J_0` drift: about `7.1e-14`
++- minimum signed `\tau` stayed positive on both branches for all replayed modes
++
++So G320 is not merely exhibiting intrinsic trial metrics. It is replaying lawful reconstructed
++initial data in the bounded G319 slice.
++
++## 7. Quotient controls and false-equivalence attacks
++
++The phase/reflection controls are sound and not overclaimed.
++
++- Phase shifts and reflections are spatial diffeomorphisms of the marked torus.
++- `Q_R`, volume, and the stated weighted contractions must therefore agree.
++- The package tests several explicit representatives as a regression guard.
++- The proof of inequivalence does not depend on those finite phase samples; it depends on the
++  invariant itself.
++
++The conformal-seed covariance control is also sound within its stated scope.
++
++- If `\widehat{\bar\gamma}=\vartheta^4\bar\gamma`, `\widehat\psi=\psi/\vartheta`, and
++  `\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}`, then the reconstructed physical metric and
++  physical trace-free tensor are unchanged.
++- With unchanged `\tau`, the full reconstructed `K` is unchanged.
++- The package checks this with nonconstant positive `\vartheta`, and the independent verifier uses
++  a different `\vartheta`.
++
++I found no false equivalence being smuggled in through raw seed comparisons, phase changes, or the
++auxiliary conformal representation.
++
++## 8. Production versus independent implementation separation
++
++The separation is real, though not absolute.
++
++- `verify_independent.py` does not import `derive_physical_quotient.py`.
++- It does not read `DERIVATION_RESULT.json`.
++- It rebuilds Christoffels, Ricci, and momentum divergence by explicit index loops.
++- It uses different `p`, amplitude, modes, sample count, `J_0`, and seed rewrite.
++
++That is a meaningful implementation-distinct cross-check of the load-bearing geometry and
++constraint replay.
++
++The boundary of that independence is also clear: the independent verifier still accepts the same
++bounded G319 mathematical framework and reconstruction formulas. It is not an independent proof of
++the upstream G319 theorem. But G320 does not pretend otherwise; it uses G319 as an explicit sealed
++premise, and the package does not overstate this point.
++
++## 9. Scope, provenance, and overclaim audit
++
++The package stays inside the declared bounds.
++
++- It does not claim a complete quotient of all G319 profiles.
++- It does not select physical topology, population, scale, sources, matter, mass, observations, or
++  physical `X_max`.
++- It does not change the metric or reciprocal kernel.
++- It does not promote the diagnostic one-coordinate torus slice into full UDT.
++
++The source-scope file lists only the bounded prerequisite materials, and the protected package
++identifiers named in `verify_package.py` are absent from the sealed source scope. I found no sealed
++evidence of provenance laundering or unauthorized dependency import.
++
++## 10. Adversarial conclusion
++
++I attacked the curvature coefficient, the conformal powers, the volume weight, the homothety
++normalization, the `n^2` scaling, the branch-sign argument, the lawful reconstruction claim, the
++phase/reflection quotient controls, the conformal-seed covariance control, the implementation
++separation claim, the bounded-scope guardrails, and the provenance envelope.
++
++No scientific defect survived those attacks inside the sealed scope.
++
++What is proved is exactly the bounded claim and no more: within the externally accepted G319
++regular slice, the registered positive periodic family contains genuinely inequivalent physical
++initial geometries after quotienting the declared representation freedoms. The proof is carried by
++the exact invariant `Q_R`, not by raw coordinates, not by finite array comparison, and not by an
++implicit choice of physical scale or history.
++
++G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+
+codex
+Token: `G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD`
+
+Report: [EXTERNAL_REVIEW_RESPONSE.md](/return/EXTERNAL_REVIEW_RESPONSE.md)
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..3674f0d369312a1b38c7fdf460002263723206f7
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,277 @@
++# External Adversarial Review Response: G320
++
++Date: 2026-09-01
++Reviewer mode: fresh zero-context, sealed-intake only, bounded read-only review
++
++## 1. Scope compliance
++
++I inspected only `/intake` and did not access any repository, protected package, or unsealed
++observation. I did not browse, search, download, install packages, or make network-capable calls.
++I did not edit any evidence file. I copied `/intake/package` into a fresh writable directory under
++`/work` solely to rerun the four registered commands.
++
++## 2. Authentication of the sealed intake
++
++I authenticated the detached seal first.
++
++- `sha256sum -c /intake/REVIEW_MANIFEST.sha256` returned `REVIEW_MANIFEST.tsv: OK`.
++
++I then authenticated every manifest payload against both recorded byte count and recorded SHA-256.
++
++- Manifest payload rows checked: `32`
++- Size mismatches: `0`
++- Hash mismatches: `0`
++
++That covers `REVIEW_SCOPE.json`, all `package/*` payloads, and all `sources/*` payloads listed in
++`REVIEW_MANIFEST.tsv`.
++
++## 3. Replay of the registered commands
++
++I copied `/intake/package` to `/work/g320_review_yvUVBj` and reran exactly:
++
++```text
++python3 derive_physical_quotient.py
++python3 verify_independent.py
++python3 run_catch_proofs.py
++python3 verify_package.py
++```
++
++All four commands passed. The regenerated artifacts matched the sealed package byte-for-byte.
++
++- `DERIVATION_RESULT.json`: identical
++- `INDEPENDENT_VERIFICATION.json`: identical
++- `CATCH_PROOF_RESULT.json`: identical
++- `PACKAGE_VERIFICATION_RESULT.json`: identical
++- `INVARIANT_ATLAS.tsv`: identical
++
++The regenerated hashes exactly matched the manifest hashes.
++
++## 4. Independent rederivation of the load-bearing geometry claim
++
++I did not accept the package’s curvature separator on faith. I rederived it.
++
++For the three-dimensional conformal metric
++
++\[
++\gamma_{ij}=\psi^4\delta_{ij},\qquad \psi=\psi(x)>0,
++\]
++
++the standard `n=3` conformal scalar-curvature transformation with flat seed gives
++
++\[
++{}^{(3)}R=-8\psi^{-5}\Delta\psi=-8\psi^{-5}\psi''.
++\]
++
++The volume form is
++
++\[
++d\mu_\gamma=\psi^6\,dx\,dy\,dz.
++\]
++
++Therefore
++
++\[
++\int {}^{(3)}R\,d\mu_\gamma
++=-8\int \psi\psi''\,d^3x
++=8\int (\psi')^2\,d^3x
++\]
++
++on the periodic torus, by integration by parts with vanishing boundary term. This is exact. The
++sign, the conformal power `-5`, and the volume power `6` are all correct; the hostile mutations
++that flip any of them are genuinely fatal.
++
++Under a constant homothety `\gamma \mapsto \ell^2\gamma`, scalar curvature scales as `\ell^{-2}`
++and volume form as `\ell^3`, so `\int R\,d\mu` scales as `\ell` while `Vol^{1/3}` also scales as
++`\ell`. Hence
++
++\[
++Q_R=\frac{\int {}^{(3)}R\,d\mu_\gamma}{\operatorname{Vol}(\gamma)^{1/3}}
++\]
++
++is homothety-neutral and spatial-diffeomorphism invariant. If two reconstructed physical metrics
++are spatially diffeomorphic, they must have the same `Q_R`.
++
++## 5. Independent check of the mode family and coefficients
++
++For the registered family
++
++\[
++\psi_n(x)=p+a\cos(nx),\qquad p=\frac32,\qquad a=\frac15,
++\]
++
++positivity is immediate because `p>|a|`.
++
++The volume density is `\psi_n^6`. Averaging over one `2\pi` period uses
++
++\[
++\langle \cos^2\rangle=\frac12,\qquad
++\langle \cos^4\rangle=\frac38,\qquad
++\langle \cos^6\rangle=\frac5{16},
++\]
++
++so
++
++\[
++\langle \psi_n^6\rangle
++=p^6+\frac{15}{2}p^4a^2+\frac{45}{8}p^2a^4+\frac5{16}a^6
++=\frac{2585929}{200000},
++\]
++
++independent of `n`. The coefficient pattern in the package is correct.
++
++Also
++
++\[
++\psi_n'=-an\sin(nx),
++\qquad
++\int (\psi_n')^2\,d^3x=(2\pi)^2\pi a^2 n^2,
++\]
++
++so
++
++\[
++Q_R[\psi_n]=n^2Q_R[\psi_1].
++\]
++
++I independently recomputed the numerical values with my own ad hoc quadrature script, using
++sample counts not used by the package. The results matched the sealed atlas:
++
++- common volume `3207.20120198444...`
++- `Q_R(1)=2.69123022947259...`
++- `Q_R(2)=10.76492091789047...`
++- `Q_R(3)=24.22107206525346...`
++- `Q_R(4)=43.05968367156167...`
++
++These satisfy the exact `1:4:9:16` law to numerical precision.
++
++This is enough to exclude spatial-diffeomorphism equivalence between different modes. The
++inequivalence argument does not depend on raw arrays, phase choices, or a preferred coordinate.
++
++## 6. Lawful-data reconstruction check
++
++I also rederived the regular-stratum reconstruction logic from the sealed G319 source.
++
++With
++
++\[
++AB=F[\psi],\qquad B'=3H(A-B),\qquad H=\psi'/\psi,
++\]
++
++one gets
++
++\[
++(B^2)'=6H(F-B^2),
++\]
++
++and hence
++
++\[
++(\psi^6B^2)'=6\psi^5\psi'F.
++\]
++
++For the registered `d=0`, `\Lambda=0` slice, this integrates to
++
++\[
++J_0=\psi^6B^2-36(\psi')^2,
++\qquad
++B^2=\psi^{-6}\bigl(36(\psi')^2+J_0\bigr).
++\]
++
++The coefficient `36` is correct. The package’s first-integral algebra is coherent.
++
++For the specific diagnostic choice `J_0=100`, the stronger sign-control quantity is
++
++\[
++Z+\psi^6F=36(\psi')^2+100+12\psi\psi'',
++\]
++
++and the package’s crude lower bound
++
++\[
++100-12an^2(p+a)
++\]
++
++is correct. For `n=1,2,3,4` it gives `95.92, 83.68, 63.28, 34.72`, all positive. So the chosen
++regular branch is indeed lawful for both signs on the finite replay set.
++
++I independently reconstructed `A`, `B`, `\tau`, `\lambda`, and the diagonal `K`, then checked the
++direct Hamiltonian residual, direct momentum residual, branch sign, and `J_0` constancy with my
++own script. I reproduced the sealed values up to roundoff:
++
++- maximum Hamiltonian residual: about `4.4e-15`
++- maximum momentum residual: about `2.2e-15`
++- maximum `J_0` drift: about `7.1e-14`
++- minimum signed `\tau` stayed positive on both branches for all replayed modes
++
++So G320 is not merely exhibiting intrinsic trial metrics. It is replaying lawful reconstructed
++initial data in the bounded G319 slice.
++
++## 7. Quotient controls and false-equivalence attacks
++
++The phase/reflection controls are sound and not overclaimed.
++
++- Phase shifts and reflections are spatial diffeomorphisms of the marked torus.
++- `Q_R`, volume, and the stated weighted contractions must therefore agree.
++- The package tests several explicit representatives as a regression guard.
++- The proof of inequivalence does not depend on those finite phase samples; it depends on the
++  invariant itself.
++
++The conformal-seed covariance control is also sound within its stated scope.
++
++- If `\widehat{\bar\gamma}=\vartheta^4\bar\gamma`, `\widehat\psi=\psi/\vartheta`, and
++  `\widehat{\bar A}^{ij}=\vartheta^{-10}\bar A^{ij}`, then the reconstructed physical metric and
++  physical trace-free tensor are unchanged.
++- With unchanged `\tau`, the full reconstructed `K` is unchanged.
++- The package checks this with nonconstant positive `\vartheta`, and the independent verifier uses
++  a different `\vartheta`.
++
++I found no false equivalence being smuggled in through raw seed comparisons, phase changes, or the
++auxiliary conformal representation.
++
++## 8. Production versus independent implementation separation
++
++The separation is real, though not absolute.
++
++- `verify_independent.py` does not import `derive_physical_quotient.py`.
++- It does not read `DERIVATION_RESULT.json`.
++- It rebuilds Christoffels, Ricci, and momentum divergence by explicit index loops.
++- It uses different `p`, amplitude, modes, sample count, `J_0`, and seed rewrite.
++
++That is a meaningful implementation-distinct cross-check of the load-bearing geometry and
++constraint replay.
++
++The boundary of that independence is also clear: the independent verifier still accepts the same
++bounded G319 mathematical framework and reconstruction formulas. It is not an independent proof of
++the upstream G319 theorem. But G320 does not pretend otherwise; it uses G319 as an explicit sealed
++premise, and the package does not overstate this point.
++
++## 9. Scope, provenance, and overclaim audit
++
++The package stays inside the declared bounds.
++
++- It does not claim a complete quotient of all G319 profiles.
++- It does not select physical topology, population, scale, sources, matter, mass, observations, or
++  physical `X_max`.
++- It does not change the metric or reciprocal kernel.
++- It does not promote the diagnostic one-coordinate torus slice into full UDT.
++
++The source-scope file lists only the bounded prerequisite materials, and the protected package
++identifiers named in `verify_package.py` are absent from the sealed source scope. I found no sealed
++evidence of provenance laundering or unauthorized dependency import.
++
++## 10. Adversarial conclusion
++
++I attacked the curvature coefficient, the conformal powers, the volume weight, the homothety
++normalization, the `n^2` scaling, the branch-sign argument, the lawful reconstruction claim, the
++phase/reflection quotient controls, the conformal-seed covariance control, the implementation
++separation claim, the bounded-scope guardrails, and the provenance envelope.
++
++No scientific defect survived those attacks inside the sealed scope.
++
++What is proved is exactly the bounded claim and no more: within the externally accepted G319
++regular slice, the registered positive periodic family contains genuinely inequivalent physical
++initial geometries after quotienting the declared representation freedoms. The proof is carried by
++the exact invariant `Q_R`, not by raw coordinates, not by finite array comparison, and not by an
++implicit choice of physical scale or history.
++
++G320_ACCEPTED__GENUINE_INITIAL_GEOMETRY_FREEDOM_UPHELD
+
+tokens used
+67,191
+
+Script done on 2026-09-01 20:00:22-04:00 [COMMAND_EXIT_CODE="0"]

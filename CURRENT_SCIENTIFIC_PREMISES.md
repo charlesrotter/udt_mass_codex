@@ -22,7 +22,7 @@
 | Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
 | Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
 | G311 covariant response | `EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY` | `TF_g(E)=0`; conditional G301 dynamics | Response constitution; scale/history |
-| G312--G319 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Dynamics/non-CMC data | Scale/history/selector |
+| G312--G320 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Dynamics/data/quotient | Scale/history/selector |
 
 ## Reconstruction hierarchy
 
@@ -33,7 +33,7 @@ G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -75,7 +75,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | G311 covariant response | external/repair accepted | `TF_g(E)=0`; constitution open; conditional G301 dynamics |
 | G312/G313 | adoption + external | Active trace-free Ricci; multibranch arena |
 | G314 | external | Optional bootstrap; no adoption |
-| G315--G319 | external | Constrained/constructed non-CMC data; G319 ratio-free regular stratum | No selector/history |
+| G315--G320 | external | Constrained data; genuine quotient breadth | No selector/history |
 ## Scale and limits
 
 | Object | Status | Guard |
@@ -98,9 +98,8 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   G304--G309 add positive sign, compact `S3`, Hopf families, and a nonselection counterhistory.
   Universal Reciprocity/DDR and G312's adopted GR-principal/Local Metric Sufficiency premises make
   trace-free Ricci active. G313 maps `Ric=Lambda g` as a multibranch arena; no global member, scalar,
-  scale, or population is selected. G314 makes bootstrap optional. G315--G319 construct non-CMC
-  interlock/tide branches and a broad ratio-free positive-periodic-`psi` regular stratum without
-  selection. Angular cancellation owns
+  scale, or population is selected. G314 makes bootstrap optional. G315--G320 construct non-CMC
+  branches with genuine quotient breadth but no selection. Angular cancellation owns
   loud--quiet--loud. W1 remains evaluative.
 
 ## Carrier, action, source, and matter
@@ -114,8 +113,8 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | Complete action/source/boundary/mass | `OPEN` | No physics claim |
 ## Observational boundary
 
-R2--R5 and G312--G319 select no scale, data, history, population, or native SNe prediction.
+R2--R5 and G312--G320 select no scale, occupied data, history, population, or native SNe prediction.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv`: 302-row through G319; verify before querying.
+`CURRENT_SCIENTIFIC_PREMISES.tsv`: 303-row through G320; verify before querying.

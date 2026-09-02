@@ -1,0 +1,17 @@
+object	status	meaning
+G319 positive periodic psi breadth	EXTERNALLY_ACCEPTED_BOUNDED_INPUT	every smooth positive periodic profile admitted for large free J0 in registered regular slice
+physical comparison object	DERIVED_CONDITIONAL	complete initial data gamma and K, not raw conformal seeds
+spatial diffeomorphisms	QUOTIENTED_REPRESENTATION_FREEDOM	phase/reflection controls retained as equivalent
+conformal-seed covariance	QUOTIENTED_REPRESENTATION_FREEDOM	different seeds reconstructing same gamma and K are one physical datum
+scale-free integrated curvature Q_R	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	diffeomorphism and homothety invariant separator
+psi_n mode family	CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROLS	same value distribution and volume, not selected physics
+Q_R mode-square law	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	Q_R(n)=n^2 Q_R(1)
+countably infinite inequivalent initial geometries	DERIVED_CONDITIONAL_IN_REGISTERED_SLICE	follows from G319 admissibility plus invariant separation
+full profile moduli quotient	OPEN	not classified
+G319 B-zero crossing stratum	OPEN_NOT_TOUCHED	outside registered regular controls
+physical initial-data occupancy	OPEN_NOT_SELECTED	constraint admissibility is not population
+complete evolving history	OPEN_NOT_SELECTED	not addressed by initial-data quotient
+metric and reciprocal kernel	UNCHANGED	no construction or amendment
+scale and physical Xmax	OPEN_NOT_SELECTED	Q_R is scale-free and supplies no ruler
+source matter mass observations	OMITTED_OPEN	no import or fit
+fresh external adversarial review	PASS	G320 accepted genuine bounded initial-geometry freedom after declared quotient

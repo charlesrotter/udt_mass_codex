@@ -96,6 +96,7 @@ CURRENT_TARGETS = (
     "udt_g309_strengthened_chain_history_selection_audit_2026-08-31/AUDIT_REPORT.md",
     "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
     "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md",
+    "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md",
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
 )
 
@@ -237,7 +238,7 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G276", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G268", "G269", "G270", "G271", "G272", "G273", "G274", "G275", "G276", "G277", "G278", "G279", "G280", "G281", "G282", "G283", "G284", "G285", "G286", "G287", "G288", "G289", "G290", "G297", "G301", "G302", "G303", "G307", "G308", "G309", "G310", "G311", "G190--G198"))
+@pytest.mark.parametrize("token", ("G166--G276", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G268", "G269", "G270", "G271", "G272", "G273", "G274", "G275", "G276", "G277", "G278", "G279", "G280", "G281", "G282", "G283", "G284", "G285", "G286", "G287", "G288", "G289", "G290", "G297", "G301", "G302", "G303", "G307", "G308", "G309", "G310", "G311", "G320", "G190--G198"))
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")
