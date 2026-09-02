@@ -1,0 +1,7 @@
+path_or_source	load_bearing_role	access
+udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	explicit Taub metric curvature first integral and quotient modulus	read_only
+udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv	upstream premise ownership	read_only
+udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md	upstream scope boundary	read_only
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md	per-datum smooth MGHD category	read_only
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json	maximal-Cauchy theorem source evidence	read_only
+Galloway--Ling--Sbierski_arXiv_1704.00353	one-sided extension-boundary theorem	primary_external_read_only
