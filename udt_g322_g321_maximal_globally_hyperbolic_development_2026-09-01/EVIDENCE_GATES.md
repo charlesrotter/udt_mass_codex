@@ -15,4 +15,5 @@ Date: 2026-09-01
 5. **External review.** The fresh reviewer authenticated and replayed the package, retained the
    bounded landing, and registered two repairable evidence defects. R1 adds bounded authenticated
    official-abstract evidence; R2 completes the four-command human run record. Repair-only external
-   follow-up remains pending.
+   follow-up authenticated the repaired packet, reproduced every tracked output byte-for-byte, and
+   accepted both repairs without changing the scientific landing.

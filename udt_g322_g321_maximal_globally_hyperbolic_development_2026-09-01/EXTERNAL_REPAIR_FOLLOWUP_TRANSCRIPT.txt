@@ -1,0 +1,2400 @@
+Script started on 2026-09-01 22:45:13-04:00 [TERM="dumb" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a06001-a11c-76a2-b198-8dd61f367e2f
+--------
+user
+The sealed repair-only intake is mounted read-only at /intake. Writable ephemeral checks may use /work. Inspect only /intake and verify only registered G322 repairs R1 and R2 plus the unchanged bounded scientific landing. Do not edit evidence files or continue the research. Internet access, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Run only the registered standard-library checks in a writable ephemeral copy. Do not alter or propose an equation, theorem application, physical history, source, matter model, scale, X_max, or occupancy rule.\n\n# G322 repair-only external follow-up request
+
+Date: 2026-09-01
+
+## Frozen scientific landing
+
+The fresh reviewer returned
+`G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`. The equation, theorem application, bounded
+family, and scientific landing are frozen. This follow-up may verify only repairs R1 and R2 in
+`REPAIR_LEDGER.tsv`.
+
+## Registered repairs
+
+1. **R1 — primary theorem evidence.** Confirm that
+   `S09_PRIMARY_ABSTRACT_EVIDENCE.json` contains official publisher metadata, three bounded
+   load-bearing fragments totaling exactly 25 words, and enough authenticated content to support
+   the constraint-data, every-other-development extension, and unique-maximal-embedding scope.
+   Confirm that production, independent, and aggregate checks consume this evidence directly.
+2. **R2 — human run record.** Confirm that `RUN_RECORD.md` now lists all four commands registered in
+   `REPLAY_COMMANDS.txt` exactly.
+
+## Required checks
+
+1. Authenticate the scope, manifest, detached seal, and every payload before reading the repairs.
+2. Confirm the fresh external response and exact R1/R2 repair ledger.
+3. Copy the sealed tree to a writable ephemeral directory and run exactly the four registered
+   commands.
+4. Confirm the regenerated outputs and all 14 hostile mutations, including the new R13/R14 catches.
+5. Confirm that the bounded scientific landing and every exclusion remain unchanged.
+6. Do not broaden the scientific question or continue the research.
+
+## Permitted verdict tokens
+
+```text
+G322_REPAIRS_ACCEPTED__CONDITIONAL_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT_PER_FIXED_DATUM_UPHELD
+G322_REPAIR_INCOMPLETE__BOUNDED_LANDING_RETAINED
+G322_REPAIR_REFUTES_PRIOR_LANDING
+```
+
+End the response with exactly one token.
+codex
+I’m verifying the sealed intake in place first: scope, manifest, detached seal, and payload integrity, then I’ll inspect the registered repair records and replay only the four registered checks from a writable copy under `/work`.
+exec
+/bin/bash -lc 'rg --files /intake' in /
+exec
+/bin/bash -lc pwd in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+ succeeded in 0ms:
+/intake
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DATA_INTERFACE.tsv
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/REPAIR_LEDGER.tsv
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json
+/intake/package/SCOPE_MATRIX.tsv
+/intake/package/SOURCE_NOTE.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/THEOREM_INTERFACE.tsv
+/intake/package/build_repair_followup_intake.py
+/intake/package/build_review_intake.py
+/intake/package/derive_maximal_development.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/LIVE.md
+
+codex
+I have the intake layout. Next I’m reading the scope and manifest material, then I’ll locate the detached seal path and compare the registered repair records before replaying the four commands.
+exec
+/bin/bash -lc 'find /intake -type f | sort' in /
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.tsv" in /
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /
+ succeeded in 0ms:
+{
+  "allowed": [
+    "inspect only this sealed intake",
+    "verify only REPAIR_LEDGER.tsv repairs R1 and R2",
+    "copy the intake to a writable ephemeral directory",
+    "run exactly the four package/REPLAY_COMMANDS.txt commands",
+    "perform bounded repair-only checks",
+    "write the response only to the designated return directory"
+  ],
+  "forbidden": [
+    "edit intake or evidence files",
+    "continue the research or broaden the scientific question",
+    "access the repository or protected packages",
+    "use internet or unsealed observations",
+    "change the equation theorem application bounded family or scientific landing",
+    "select or canonize a law history datum scale topology population source matter mass or Xmax"
+  ],
+  "fresh_verdict": "G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED",
+  "permitted_verdicts": [
+    "G322_REPAIRS_ACCEPTED__CONDITIONAL_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT_PER_FIXED_DATUM_UPHELD",
+    "G322_REPAIR_INCOMPLETE__BOUNDED_LANDING_RETAINED",
+    "G322_REPAIR_REFUTES_PRIOR_LANDING"
+  ],
+  "question": "verify only registered G322 repairs R1 and R2",
+  "registered_commands": [
+    "python3 -S derive_maximal_development.py",
+    "python3 -S verify_independent.py",
+    "python3 -S run_catch_proofs.py",
+    "python3 -S verify_package.py"
+  ],
+  "schema": "udt-g322-r1-r2-repair-followup-scope-v1"
+}
+
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DATA_INTERFACE.tsv
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/REPAIR_LEDGER.tsv
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json
+/intake/package/SCOPE_MATRIX.tsv
+/intake/package/SOURCE_NOTE.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/THEOREM_INTERFACE.tsv
+/intake/package/build_repair_followup_intake.py
+/intake/package/build_review_intake.py
+/intake/package/derive_maximal_development.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/LIVE.md
+/intake/sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md
+/intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+/intake/sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md
+/intake/sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+/intake/sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_UNIVERSE.tsv
+/intake/sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv
+
+ succeeded in 0ms:
+sha256	bytes	path
+0ad6c5f125a106ef496d3e8d27c54e5d7b8cfe3e3041efad85c48e5cff801f59	1362	REVIEW_SCOPE.json
+4cd831c019ff8611c63686cb3993cb393b8a0e2c2bfb7447c20e354228478d2c	3091	package/AUDIT_REPORT.md
+5d1798d92c7883f271808ed43dfa069e696a93fb28137828f0eb46b19cffe968	3044	package/CATCH_PROOF_RESULT.json
+e997d759775c99d609c561c17f6ebae8446f666de80eafb09ef0c4095ade3e1d	1410	package/COMPLETENESS_MAP.md
+6d38af25c1b3f43e1c8b0d494158881e7e682092d14de5ce39172f01973cd4bf	683	package/DATA_INTERFACE.tsv
+dc88d9a7d2a09010ea1c60a8eb5fda85921dcf68eef59426d10264dbbb8bd0a4	1924	package/DERIVATION_RESULT.json
+60429f757b2b1f2e37d11b42d91dfcd390f257b4f70240ce413d0ddd60dd92f0	1231	package/EVIDENCE_GATES.md
+7bf6a0c7b86a2c74cf63c0945640daed261c28e787254b323dcd51f1dafb6d98	5905	package/EXACT_DERIVATION.md
+e2482403c1585794c06203f0431a5883ffe92a04e98f903fff624d5e0e1cc4d1	1741	package/EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md
+872408433e1eb6d7fa299ec97f9f309a080325de181cc8a77ca2a2508b394bd1	2381	package/EXTERNAL_REVIEW_REQUEST.md
+2e16fb66b7c5f85e75383860cfe75072c7f1cd6d47c11c54fe1f594c5b34c6da	2087	package/EXTERNAL_REVIEW_RESPONSE.md
+3836f056117a895753995a7155089e469a38912b24a92afc93d1af486c51bd7c	721	package/INDEPENDENT_VERIFICATION.json
+a09f00d60e0c84078d11cdff4014b987803a7309e2cd7ad493008dc41291b64e	1258	package/LAY_REPORT.md
+f5cb05fb9e898df2080de8031f53328d6d166a7b8c6442b416bc70b858e4c8bd	3078	package/MAP.md
+60fd5c9dc96c2d6d0281f16854a8bb3a9a3e003509a2e13b5fdd5b9fd8a0820e	474	package/PACKAGE_VERIFICATION_RESULT.json
+57fe041f57ad3ad4abfc08832b5aaf0567f521f9cbf847164cd3f6fbf4290168	2300	package/PREMISE_LEDGER.tsv
+78bda66bfb953f27d447b705b6e9ee6a2f920714bda3cf3bdb789900b651eb48	5378	package/PREREGISTRATION.md
+1554a66b4beb5a252c2b6c193b6b64aca1f1dbd1ba4bfcb2056274cbd3f01666	437	package/PREREGISTRATION_ANCESTRY.md
+df494a75929e91529620ef5bcbcd2061fdffa90b60c70e03e7bfcc2909b64d07	425	package/REPAIR_LEDGER.tsv
+5b74b899fcd225c3b104fc522177e89f898193a1a6cc31826860933295b6ed7c	134	package/REPLAY_COMMANDS.txt
+18df34d1dae5e8d86bb711ee8a7cab6398933ad6c4273bf98d32b3ebfbf1495b	1220	package/RUN_RECORD.md
+9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5	1159	package/S09_PRIMARY_ABSTRACT_EVIDENCE.json
+452219d875172eb4c1dfa7cfdd60b4fc486a5f861b961f9730b65c76a08641dd	575	package/SCOPE_MATRIX.tsv
+58ecb532631d1d58602f90d66245393272f2a91a15132137c38d59616a277e77	1372	package/SOURCE_NOTE.md
+d8a9b5892d7b444f52749faa6bbeb67846f8d3d49c313383236308b9edb5943c	1347	package/SOURCE_SCOPE.tsv
+004c3cf340f5b697c9f76957ef90f429d217de587649f1b5589a4924d64ca2e1	1640	package/STATUS_LEDGER.tsv
+7d439ada36c686410912f169dc11ae259e4172a0e40d985ce29746fc6c0e5fac	801	package/THEOREM_INTERFACE.tsv
+b5143efe82fce2aeca1f64a5948b10f94ac19c8aeef5f0d6f583110760142478	4587	package/build_repair_followup_intake.py
+10d6eecb4f916c39c42da296121a01073fec3edb3aa55bae35066aa635de30a2	4534	package/build_review_intake.py
+f48e0fbacfb9f0f4c7c5c837a716e0ae95544ee3747a021517205bc149eeef94	11896	package/derive_maximal_development.py
+1a55eea54fb9273438d5e8ab1a7df17ecb7541e9947f8a9d16da3c1d6dd7318a	6413	package/run_catch_proofs.py
+53af7e15f6a5814b34653022dbafc6750ac99a0d4cb2612d89515deac8b95150	9277	package/verify_independent.py
+7db5e92b60fbb5be6f24dd7198c22b3853543b1cd62b22a3fea1619309c6fbe3	11681	package/verify_package.py
+cd7899bce068844cf26687a891de491e53cdf5670b718ad95e5d0e83e76b3c64	624175	sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+3bf0c69625c9e4aa4498094615879a233f0334bd64e672770eb4225131325973	7252	sources/LIVE.md
+4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5	2114	sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md
+ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1	3061	sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+4eb48002d2424e9745d92fcbf734213dec81a912343057d76775961f93b6b378	7206	sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md
+8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63	8331	sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md
+8176dc4c050dcb6f3e8fd3a15347ef1d7f52b199b1694519e4f76d28f74eddc6	6774	sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+0a1410c190e3b21ab1a67d694ec8c19699beba0ece49894f6157c1dbb8365c5b	6757	sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md
+27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4	7098	sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md
+1c37a3bd4ef2674bf356b92c3511e01f1d6432836286121483c1a02ece74af58	5755	sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+ac19daea86b71ac012d0732d16e6f02a97ad15dfeb2143e6ac9116184a3d4810	3318	sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_UNIVERSE.tsv
+4be070911b3547a706d342e296487b2a6f62017cb9bbfd7e470d91dd5ce5afbb	4824	sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.sha256" in /
+ succeeded in 0ms:
+3dd486dea106a1941d4184fd0d75109e115d9454d1788b603d97b4ffa33d51ca  REVIEW_MANIFEST.tsv
+
+codex
+The detached seal appears to be the manifest checksum file at `/intake/REVIEW_MANIFEST.sha256`. I’m validating that first, then checking every manifest entry’s hash and byte count before opening the repair artifacts.
+exec
+/bin/bash -lc "python3 - <<'PY'
+import hashlib, pathlib, sys
+root = pathlib.Path('/intake')
+manifest = root / 'REVIEW_MANIFEST.tsv'
+seal = root / 'REVIEW_MANIFEST.sha256'
+expected = seal.read_text().strip().split()[0]
+actual = hashlib.sha256(manifest.read_bytes()).hexdigest()
+print('manifest_sha256', actual)
+print('seal_expected', expected)
+print('manifest_seal_match', actual == expected)
+lines = manifest.read_text().splitlines()
+header = lines[0].split('\\t')
+if header "'!= ['"'sha256','bytes','path']:
+    print('bad_header', header)
+    sys.exit(2)
+count = 0
+for i, line in enumerate(lines[1:], start=2):
+    sha, b, rel = line.split('\\t')
+    path = root / rel
+    data = path.read_bytes()
+    actual_sha = hashlib.sha256(data).hexdigest()
+    actual_b = len(data)
+    ok = (actual_sha == sha and actual_b == int(b))
+    print(f'{rel}\\tsha_ok={actual_sha == sha}\\tbytes_ok={actual_b == int(b)}')
+    if not ok:
+        sys.exit(1)
+    count += 1
+print('payload_entries_verified', count)
+PY" in /
+ succeeded in 0ms:
+manifest_sha256 3dd486dea106a1941d4184fd0d75109e115d9454d1788b603d97b4ffa33d51ca
+seal_expected 3dd486dea106a1941d4184fd0d75109e115d9454d1788b603d97b4ffa33d51ca
+manifest_seal_match True
+REVIEW_SCOPE.json	sha_ok=True	bytes_ok=True
+package/AUDIT_REPORT.md	sha_ok=True	bytes_ok=True
+package/CATCH_PROOF_RESULT.json	sha_ok=True	bytes_ok=True
+package/COMPLETENESS_MAP.md	sha_ok=True	bytes_ok=True
+package/DATA_INTERFACE.tsv	sha_ok=True	bytes_ok=True
+package/DERIVATION_RESULT.json	sha_ok=True	bytes_ok=True
+package/EVIDENCE_GATES.md	sha_ok=True	bytes_ok=True
+package/EXACT_DERIVATION.md	sha_ok=True	bytes_ok=True
+package/EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md	sha_ok=True	bytes_ok=True
+package/EXTERNAL_REVIEW_REQUEST.md	sha_ok=True	bytes_ok=True
+package/EXTERNAL_REVIEW_RESPONSE.md	sha_ok=True	bytes_ok=True
+package/INDEPENDENT_VERIFICATION.json	sha_ok=True	bytes_ok=True
+package/LAY_REPORT.md	sha_ok=True	bytes_ok=True
+package/MAP.md	sha_ok=True	bytes_ok=True
+package/PACKAGE_VERIFICATION_RESULT.json	sha_ok=True	bytes_ok=True
+package/PREMISE_LEDGER.tsv	sha_ok=True	bytes_ok=True
+package/PREREGISTRATION.md	sha_ok=True	bytes_ok=True
+package/PREREGISTRATION_ANCESTRY.md	sha_ok=True	bytes_ok=True
+package/REPAIR_LEDGER.tsv	sha_ok=True	bytes_ok=True
+package/REPLAY_COMMANDS.txt	sha_ok=True	bytes_ok=True
+package/RUN_RECORD.md	sha_ok=True	bytes_ok=True
+package/S09_PRIMARY_ABSTRACT_EVIDENCE.json	sha_ok=True	bytes_ok=True
+package/SCOPE_MATRIX.tsv	sha_ok=True	bytes_ok=True
+package/SOURCE_NOTE.md	sha_ok=True	bytes_ok=True
+package/SOURCE_SCOPE.tsv	sha_ok=True	bytes_ok=True
+package/STATUS_LEDGER.tsv	sha_ok=True	bytes_ok=True
+package/THEOREM_INTERFACE.tsv	sha_ok=True	bytes_ok=True
+package/build_repair_followup_intake.py	sha_ok=True	bytes_ok=True
+package/build_review_intake.py	sha_ok=True	bytes_ok=True
+package/derive_maximal_development.py	sha_ok=True	bytes_ok=True
+package/run_catch_proofs.py	sha_ok=True	bytes_ok=True
+package/verify_independent.py	sha_ok=True	bytes_ok=True
+package/verify_package.py	sha_ok=True	bytes_ok=True
+sources/CURRENT_SCIENTIFIC_PREMISES.tsv	sha_ok=True	bytes_ok=True
+sources/LIVE.md	sha_ok=True	bytes_ok=True
+sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md	sha_ok=True	bytes_ok=True
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	sha_ok=True	bytes_ok=True
+sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md	sha_ok=True	bytes_ok=True
+sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md	sha_ok=True	bytes_ok=True
+sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md	sha_ok=True	bytes_ok=True
+sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md	sha_ok=True	bytes_ok=True
+sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md	sha_ok=True	bytes_ok=True
+sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md	sha_ok=True	bytes_ok=True
+sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_UNIVERSE.tsv	sha_ok=True	bytes_ok=True
+sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv	sha_ok=True	bytes_ok=True
+payload_entries_verified 45
+
+codex
+Integrity checks are clean: the manifest seal matches and all 45 manifest payload entries match both hash and size. I’m reading the reviewer response, repair ledger, replay commands, and the two repair targets now, then I’ll stage the writable replay under `/work`.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/REPLAY_COMMANDS.txt" in /
+ succeeded in 0ms:
+python3 -S derive_maximal_development.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/REPAIR_LEDGER.tsv" in /
+ succeeded in 0ms:
+repair	fresh_finding	bounded_change	scientific_landing
+R1	independent S09 source-scope check relied on typed summary without sealed official abstract content	add 25-word bounded official-publisher evidence and require production independent and aggregate authentication	UNCHANGED
+R2	human run record listed two commands while registered replay contains four	list all four exact registered commands in RUN_RECORD.md	UNCHANGED
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/RUN_RECORD.md" in /
+ succeeded in 0ms:
+# G322 run record
+
+Date: 2026-09-01
+Python: `3.10.12`
+Preregistration: `8bf4aedb`
+
+Question: apply the imported maximal Cauchy-development theorem to the fixed complete G321 data,
+without changing the UDT equation or selecting data.
+
+Commands:
+
+```text
+python3 -S derive_maximal_development.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+```
+
+Production controls: `p=3/2`, `a=1/5`, `J0=100`, modes `1,2,3,4`, both signs, 2,048 periodic
+points per mode/sign.
+
+Independent controls: `p=1.7`, `a=0.12`, `J0=300`, modes `1,3,5`, both signs, 1,024 periodic
+points per mode/sign, direct connection/Ricci index loops.
+
+Production output: `PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW`, 62 machine assertions.
+
+Independent output: `PASS_INDEPENDENT`, 19 assertions, no production import or production-result
+read.
+
+Aggregate output: all 14 hostile evidence mutations caught; package verifier passed with the fresh
+external review graded `REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`. Repairs R1 and R2 are
+preregistered in `REPAIR_LEDGER.tsv`; repair-only follow-up is pending.
+
+No GPU or time integration was used. This is a theorem-interface audit, not a numerical evolution.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/EXTERNAL_REVIEW_RESPONSE.md" in /
+ succeeded in 0ms:
+**Findings**
+- Medium: The required independent S09 source-scope check is only partially evidenced. Both executable checks read the typed `S09` summary row in [SOURCE_VERIFICATION.tsv](/intake/sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv:10) and test summary substrings in [derive_maximal_development.py](/intake/package/derive_maximal_development.py:163) and [verify_independent.py](/intake/package/verify_independent.py:128). The aggregate verifier then only checks the DOI and source-grade string in [SOURCE_NOTE.md](/intake/package/SOURCE_NOTE.md:5) via [verify_package.py](/intake/package/verify_package.py:149). I found no sealed raw official abstract text inside `/intake` to independently authenticate the exact theorem wording from official source content itself. That is a repairable source-evidence gap, not a scientific contradiction.
+- Low: The human run record is incomplete. [RUN_RECORD.md](/intake/package/RUN_RECORD.md:10) lists only two commands, while the registered replay requires four in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1).
+
+I did not find a refuting theorem-interface failure. The detached manifest hash matched, all 40 manifest payloads matched recorded hash and size, the replayed `/work/g322_replay/package` run reproduced the sealed outputs byte-for-byte, and `diff -rq` showed no package drift. The vacuum-sector mapping `S_ab=0` + Bianchi + supplied `Lambda=0` constraints to `Ric_ab=0`, the marked globally hyperbolic development category, and the exclusions against completeness, arbitrary inextendibility, occupancy, and unmarked cross-datum overclaim are stated consistently in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:28) and [THEOREM_INTERFACE.tsv](/intake/package/THEOREM_INTERFACE.tsv:2). Protected inputs also remain unchanged within the sealed package’s own boundary statements in [STATUS_LEDGER.tsv](/intake/package/STATUS_LEDGER.tsv:17) and [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:167).
+
+G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json" in /
+ succeeded in 0ms:
+{
+  "authors": [
+    "Yvonne Choquet-Bruhat",
+    "Robert Geroch"
+  ],
+  "bounded_excerpt_word_count": 25,
+  "copyright_boundary": "Only three load-bearing fragments totaling 25 words are retained; the remainder is paraphrased.",
+  "doi": "10.1007/BF01645389",
+  "official_abstract_fragments": [
+    "initial data for Einstein's equations which satisfy the constraint conditions",
+    "an extension of every other development",
+    "may be embedded in exactly one such maximal development"
+  ],
+  "publication": "Communications in Mathematical Physics 14, 329-335 (1969)",
+  "publisher": "Springer Nature Link",
+  "retrieved_date": "2026-09-01",
+  "schema": "udt-g322-s09-primary-abstract-bounded-evidence-v1",
+  "scope_paraphrase": "For constraint-satisfying Einstein initial data, the official abstract states existence of a development extending every other same-data development and unique maximal placement for a solution carrying a Cauchy surface.",
+  "source_grade": "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT",
+  "title": "Global aspects of the Cauchy problem in general relativity",
+  "url": "https://link.springer.com/article/10.1007/BF01645389"
+}
+
+codex
+`RUN_RECORD.md` now contains the four registered commands exactly, and `S09_PRIMARY_ABSTRACT_EVIDENCE.json` includes the bounded excerpt structure expected for R1. I’m tracing where that evidence is consumed in the production, independent, and aggregate checks before replaying the registered commands.
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/derive_maximal_development.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""G322 production: audit the conditional maximal-Cauchy theorem interface."""
+
+import csv
+from fractions import Fraction
+import hashlib
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+SOURCE_ROOTS = (REPO, REPO / "sources")
+CHECKS = []
+P = Fraction(3, 2)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+AMPLITUDE = Fraction(1, 5)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+J0 = 100.0  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+MODES = (1, 2, 3, 4)  # FREE_AND_EXPLORED_FINITE_REPLAY
+SIGNS = (-1, 1)  # FREE_AND_EXPLORED_BRANCHES
+SAMPLES = 2048  # CATEGORY_A_NUMERICAL_QUADRATURE
+
+LANDING = (
+    "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_"
+    "DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY"
+)
+
+SOURCE_PATHS = (
+    "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md",
+    "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md",
+    "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md",
+    "udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv",
+)
+
+THEOREM_INTERFACE = (
+    ("H1", "smooth connected initial manifold", "SUPPORTED_BOUNDED", "analytic-domain", "marked T3"),
+    ("H2", "smooth gamma and symmetric K", "SUPPORTED_BOUNDED", "analytic-regularity", "registered regular branch"),
+    ("H3", "vacuum constraints", "SUPPORTED_BOUNDED", "identity-plus-backward-error", "Lambda=0"),
+    ("H4", "active equation equals Ric=0", "SUPPORTED_BOUNDED", "Bianchi-and-sector-algebra", "connected Lambda=0 sector"),
+    ("H5", "at least one local development", "CONDITIONAL_IMPORTED", "G321-theorem-application", "not machine-proved"),
+    ("H6", "globally hyperbolic development category", "IMPORTED_DEFINITION", "theorem-interface", "Sigma is Cauchy"),
+    ("H7", "data-preserving isometric embeddings", "IMPORTED_DEFINITION", "theorem-interface", "marked equivalence"),
+    ("H8", "maximal extension and uniqueness", "CONDITIONAL_IMPORTED", "primary-publisher-abstract", "not a UDT derivation"),
+)
+
+SCOPE_MATRIX = (
+    ("maximal_GH_exists_per_fixed_datum", "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE"),
+    ("every_same_datum_GH_development_embeds", "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE"),
+    ("same_datum_maximal_developments_isometric", "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE"),
+    ("geodesic_completeness", "OPEN_NOT_ENTAILED"),
+    ("singularity_or_curvature_control", "OPEN_NOT_ENTAILED"),
+    ("arbitrary_Lorentzian_inextendibility", "OPEN_NOT_ENTAILED"),
+    ("stability", "OPEN_NOT_TESTED"),
+    ("unmarked_cross_datum_spacetime_identity", "OPEN_NOT_CLASSIFIED"),
+    ("physical_initial_data_occupancy", "OPEN_NOT_SELECTED"),
+    ("metric_kernel_angular_interface", "UNCHANGED"),
+)
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def sha256(path):
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def source_path(relative):
+    matches = [root / relative for root in SOURCE_ROOTS if (root / relative).is_file()]
+    if not matches:
+        raise FileNotFoundError(relative)
+    return matches[0]
+
+
+def matrix_rank(matrix):
+    work = [[Fraction(value) for value in row] for row in matrix]
+    rank = 0
+    for column in range(len(work[0])):
+        pivot = next((row for row in range(rank, len(work)) if work[row][column]), None)
+        if pivot is None:
+            continue
+        work[rank], work[pivot] = work[pivot], work[rank]
+        scale = work[rank][column]
+        work[rank] = [value / scale for value in work[rank]]
+        for row in range(len(work)):
+            if row != rank and work[row][column]:
+                factor = work[row][column]
+                work[row] = [a - factor * b for a, b in zip(work[row], work[rank])]
+        rank += 1
+    return rank
+
+
+def tracefree_projector():
+    pairs = [(a, b) for a in range(4) for b in range(a, 4)]
+    metric = (-1, 1, 1, 1)
+    columns = []
+    for c, d in pairs:
+        tensor = [[Fraction(0) for _ in range(4)] for _ in range(4)]
+        tensor[c][d] = tensor[d][c] = Fraction(1)
+        trace = sum(Fraction(metric[a]) * tensor[a][a] for a in range(4))
+        output = [[tensor[a][b] for b in range(4)] for a in range(4)]
+        for a in range(4):
+            output[a][a] -= Fraction(1, 4) * trace * metric[a]
+        columns.append([output[a][b] for a, b in pairs])
+    return [[columns[column][row] for column in range(10)] for row in range(10)]
+
+
+def profile_jet(x_value, mode):
+    angle = mode * x_value
+    p = float(P)
+    amplitude = float(AMPLITUDE)
+    return (
+        p + amplitude * math.cos(angle),
+        -amplitude * mode * math.sin(angle),
+        -amplitude * mode * mode * math.cos(angle),
+        amplitude * mode ** 3 * math.sin(angle),
+    )
+
+
+def reconstruct(psi, psi_1, psi_2, psi_3, sign):
+    f_value = 12.0 * psi_2 * psi ** -5
+    f_prime = 12.0 * (psi_3 * psi ** -5 - 5.0 * psi_2 * psi ** -6 * psi_1)
+    z_value = 36.0 * psi_1 ** 2 + J0
+    z_prime = 72.0 * psi_1 * psi_2
+    b_value = sign * psi ** -3 * math.sqrt(z_value)
+    b_prime = b_value * (-3.0 * psi_1 / psi + z_prime / (2.0 * z_value))
+    a_value = f_value / b_value
+    a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+    tau = 0.5 * (a_value + b_value)
+    anisotropy = 0.5 * (a_value - b_value)
+    tau_prime = 0.5 * (a_prime + b_prime)
+    anisotropy_prime = 0.5 * (a_prime - b_prime)
+    mixed_k = (
+        (tau + 2.0 * anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+    )
+    mixed_k_prime = (
+        (tau_prime + 2.0 * anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+    )
+    u_1 = psi_1 / psi
+    scalar_3 = -8.0 * psi ** -5 * psi_2
+    hamiltonian = scalar_3 + tau ** 2 - math.fsum(value * value for value in mixed_k)
+    momentum_x = mixed_k_prime[0] - tau_prime + 6.0 * u_1 * mixed_k[0] - 2.0 * u_1 * tau
+    return psi, z_value, scalar_3, hamiltonian, momentum_x
+
+
+fingerprints = {}
+for relative in SOURCE_PATHS:
+    path = source_path(relative)
+    check(f"source exists {relative}", path.is_file())
+    fingerprints[relative] = sha256(path)
+
+with source_path(SOURCE_PATHS[-1]).open(encoding="utf-8", newline="") as handle:
+    source_rows = {row["source_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+s09 = source_rows["S09"]
+check("S09 primary abstract grade", s09["access_grade"] == "PRIMARY_ABSTRACT_METADATA")
+check("S09 maximal development scope", "maximal Cauchy development" in s09["exact_supported_scope"])
+check("S09 comparison-only limitation", "comparison-only" in s09["limitations"])
+
+primary_path = HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json"
+check("S09 bounded primary evidence exists", primary_path.is_file())
+fingerprints[primary_path.name] = sha256(primary_path)
+primary = json.loads(primary_path.read_text(encoding="utf-8"))
+fragments = primary["official_abstract_fragments"]
+joined_fragments = " ".join(fragments).lower()
+check("S09 bounded primary schema", primary["schema"] == "udt-g322-s09-primary-abstract-bounded-evidence-v1")
+check("S09 bounded primary grade", primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT")
+check("S09 bounded primary DOI", primary["doi"] == "10.1007/BF01645389")
+check("S09 bounded excerpt word count", sum(len(fragment.split()) for fragment in fragments) == primary["bounded_excerpt_word_count"] == 25)
+check("S09 constraint antecedent", "constraint conditions" in joined_fragments)
+check("S09 every-development extension", "extension of every other development" in joined_fragments)
+check("S09 unique maximal embedding", "embedded in exactly one such maximal development" in joined_fragments)
+
+raw_rank = matrix_rank(tracefree_projector())
+fixed_rank = matrix_rank([[int(row == column) for column in range(10)] for row in range(10)])
+check("raw tracefree rank nine", raw_rank == 9)
+check("fixed Lambda principal rank ten", fixed_rank == 10)
+
+atlas = []
+q_values = {}
+max_hamiltonian = 0.0
+max_momentum = 0.0
+for mode in MODES:
+    margin = Fraction(100) - 12 * AMPLITUDE * mode ** 2 * (P + AMPLITUDE)
+    check(f"regular margin mode={mode}", margin > 0)
+    for sign in SIGNS:
+        rows = [reconstruct(*profile_jet(2.0 * math.pi * index / SAMPLES, mode), sign)
+                for index in range(SAMPLES)]
+        local_h = max(abs(row[3]) for row in rows)
+        local_m = max(abs(row[4]) for row in rows)
+        max_hamiltonian = max(max_hamiltonian, local_h)
+        max_momentum = max(max_momentum, local_m)
+        check(f"positive gamma mode={mode} sign={sign}", min(row[0] for row in rows) > 0)
+        check(f"regular B mode={mode} sign={sign}", min(row[1] for row in rows) > 0)
+        check(f"Hamiltonian mode={mode} sign={sign}", local_h < 4e-12)
+        check(f"momentum mode={mode} sign={sign}", local_m < 4e-12)
+        volume = (2.0 * math.pi) ** 3 * math.fsum(row[0] ** 6 for row in rows) / SAMPLES
+        total_scalar = (2.0 * math.pi) ** 3 * math.fsum(
+            row[0] ** 6 * row[2] for row in rows
+        ) / SAMPLES
+        q_value = total_scalar / volume ** (1.0 / 3.0)
+        q_values[(mode, sign)] = q_value
+        atlas.append({
+            "mode": mode,
+            "sign": sign,
+            "min_psi": min(row[0] for row in rows),
+            "min_z": min(row[1] for row in rows),
+            "max_hamiltonian": local_h,
+            "max_momentum": local_m,
+            "Q_R": q_value,
+        })
+
+base_q = q_values[(1, 1)]
+for mode in MODES:
+    for sign in SIGNS:
+        check(f"Q_R separator mode={mode} sign={sign}", abs(q_values[(mode, sign)] / base_q - mode ** 2) < 4e-12)
+
+with (HERE / "DATA_INTERFACE.tsv").open("w", encoding="utf-8", newline="") as handle:
+    writer = csv.DictWriter(handle, fieldnames=tuple(atlas[0]), delimiter="\t", lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(atlas)
+
+with (HERE / "THEOREM_INTERFACE.tsv").open("w", encoding="utf-8", newline="") as handle:
+    writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+    writer.writerow(("id", "hypothesis", "status", "evidence_type", "boundary"))
+    writer.writerows(THEOREM_INTERFACE)
+
+with (HERE / "SCOPE_MATRIX.tsv").open("w", encoding="utf-8", newline="") as handle:
+    writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
+    writer.writerow(("claim", "status"))
+    writer.writerows(SCOPE_MATRIX)
+
+result = {
+    "schema": "udt-g322-maximal-globally-hyperbolic-development-v1",
+    "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+    "landing": LANDING,
+    "machine_assertion_count": len(CHECKS),
+    "raw_tracefree_principal_rank": raw_rank,
+    "fixed_lambda_principal_rank": fixed_rank,
+    "constraint_sector": "Lambda=0",
+    "max_hamiltonian_residual": max_hamiltonian,
+    "max_momentum_residual": max_momentum,
+    "theorem_interface_status": "CONDITIONAL_APPLICATION_SUPPORTED__IMPORTED_THEOREM_NOT_MACHINE_PROVED",
+    "source_fingerprints": fingerprints,
+    "maximal_GH_per_fixed_datum": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+    "geodesic_completeness": "OPEN_NOT_ENTAILED",
+    "arbitrary_Lorentzian_inextendibility": "OPEN_NOT_ENTAILED",
+    "physical_occupancy": "OPEN_NOT_SELECTED",
+    "unmarked_cross_datum_classification": "OPEN_NOT_CLASSIFIED",
+    "metric_kernel_angular_interface": "UNCHANGED",
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/verify_independent.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct G322 check using direct connection/Ricci loops."""
+
+import csv
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+SOURCE_ROOTS = (REPO, REPO / "sources")
+CHECKS = []
+P = 1.7  # CHOSE_CATEGORY_A_INDEPENDENT_CONTROL
+AMPLITUDE = 0.12  # CHOSE_CATEGORY_A_INDEPENDENT_CONTROL
+J0 = 300.0  # CHOSE_CATEGORY_A_INDEPENDENT_CONTROL
+MODES = (1, 3, 5)  # FREE_AND_EXPLORED_INDEPENDENT_CONTROLS
+SIGNS = (-1, 1)  # FREE_AND_EXPLORED_BRANCHES
+SAMPLES = 1024  # CATEGORY_A_NUMERICAL_QUADRATURE
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def jet(x_value, mode):
+    angle = mode * x_value
+    return (
+        P + AMPLITUDE * math.cos(angle),
+        -AMPLITUDE * mode * math.sin(angle),
+        -AMPLITUDE * mode ** 2 * math.cos(angle),
+        AMPLITUDE * mode ** 3 * math.sin(angle),
+    )
+
+
+def geometry(psi, psi_1, psi_2):
+    scale = psi ** 4
+    scale_1 = 4.0 * psi ** 3 * psi_1
+    scale_2 = 12.0 * psi ** 2 * psi_1 ** 2 + 4.0 * psi ** 3 * psi_2
+    g = [[scale * float(i == j) for j in range(3)] for i in range(3)]
+    g_inv = [[float(i == j) / scale for j in range(3)] for i in range(3)]
+    dg = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    ddg = [[[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        dg[0][i][i] = scale_1
+        ddg[0][0][i][i] = scale_2
+    dg_inv = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        dg_inv[0][i][i] = -scale_1 / scale ** 2
+
+    connection = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    dconnection = [[[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for upper in range(3):
+        for i in range(3):
+            for j in range(3):
+                for lower in range(3):
+                    bracket = dg[i][j][lower] + dg[j][i][lower] - dg[lower][i][j]
+                    connection[upper][i][j] += 0.5 * g_inv[upper][lower] * bracket
+                    for derivative in range(3):
+                        dbracket = (
+                            ddg[derivative][i][j][lower]
+                            + ddg[derivative][j][i][lower]
+                            - ddg[derivative][lower][i][j]
+                        )
+                        dconnection[derivative][upper][i][j] += 0.5 * (
+                            dg_inv[derivative][upper][lower] * bracket
+                            + g_inv[upper][lower] * dbracket
+                        )
+
+    ricci = [[0.0 for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                ricci[i][j] += dconnection[k][k][i][j] - dconnection[j][k][i][k]
+                for lower in range(3):
+                    ricci[i][j] += (
+                        connection[k][i][j] * connection[lower][k][lower]
+                        - connection[lower][i][k] * connection[k][j][lower]
+                    )
+    scalar = sum(g_inv[i][j] * ricci[i][j] for i in range(3) for j in range(3))
+    return g, connection, scalar
+
+
+def reconstruct(psi, psi_1, psi_2, psi_3, sign):
+    f_value = 12.0 * psi_2 * psi ** -5
+    f_prime = 12.0 * (psi_3 * psi ** -5 - 5.0 * psi_2 * psi ** -6 * psi_1)
+    z_value = 36.0 * psi_1 ** 2 + J0
+    z_prime = 72.0 * psi_1 * psi_2
+    b_value = sign * psi ** -3 * math.sqrt(z_value)
+    b_prime = b_value * (-3.0 * psi_1 / psi + z_prime / (2.0 * z_value))
+    a_value = f_value / b_value
+    a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+    tau = 0.5 * (a_value + b_value)
+    anisotropy = 0.5 * (a_value - b_value)
+    tau_prime = 0.5 * (a_prime + b_prime)
+    anisotropy_prime = 0.5 * (a_prime - b_prime)
+    mixed_k = [
+        (tau + 2.0 * anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+    ]
+    mixed_k_prime = [
+        (tau_prime + 2.0 * anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+    ]
+    g, connection, scalar = geometry(psi, psi_1, psi_2)
+    hamiltonian = scalar + tau ** 2 - sum(value ** 2 for value in mixed_k)
+    tensor = [mixed_k[index] - tau for index in range(3)]
+    momentum = []
+    for i in range(3):
+        value = mixed_k_prime[0] - tau_prime if i == 0 else 0.0
+        for j in range(3):
+            value += connection[j][j][i] * tensor[i]
+            value -= connection[j][j][i] * tensor[j]
+        momentum.append(value)
+    return {
+        "psi": psi,
+        "scalar": scalar,
+        "hamiltonian": hamiltonian,
+        "momentum": tuple(momentum),
+        "K": tuple(g[index][index] * mixed_k[index] for index in range(3)),
+    }
+
+
+source_relative = "udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv"
+source_path = next((root / source_relative for root in SOURCE_ROOTS if (root / source_relative).is_file()), None)
+check("independent source resolved", source_path is not None)
+with source_path.open(encoding="utf-8", newline="") as handle:
+    sources = {row["source_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+s09 = sources["S09"]
+check("independent primary source grade", s09["access_grade"] == "PRIMARY_ABSTRACT_METADATA")
+check("independent maximal theorem scope", "maximal Cauchy development" in s09["exact_supported_scope"])
+check("independent theorem limitation", "Einstein dynamics" in s09["limitations"])
+
+primary_path = HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json"
+check("independent bounded primary evidence exists", primary_path.is_file())
+primary = json.loads(primary_path.read_text(encoding="utf-8"))
+fragments = primary["official_abstract_fragments"]
+joined_fragments = " ".join(fragments).lower()
+check("independent bounded primary schema", primary["schema"] == "udt-g322-s09-primary-abstract-bounded-evidence-v1")
+check("independent bounded primary grade", primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT")
+check("independent bounded primary DOI", primary["doi"] == "10.1007/BF01645389")
+check("independent bounded excerpt word count", sum(len(fragment.split()) for fragment in fragments) == primary["bounded_excerpt_word_count"] == 25)
+check("independent constraint antecedent", "constraint conditions" in joined_fragments)
+check("independent every-development extension", "extension of every other development" in joined_fragments)
+check("independent unique maximal embedding", "embedded in exactly one such maximal development" in joined_fragments)
+
+max_hamiltonian = 0.0
+max_momentum = 0.0
+max_ricci_formula_error = 0.0
+max_time_reverse_error = 0.0
+q_values = {}
+for mode in MODES:
+    branch_rows = {}
+    for sign in SIGNS:
+        rows = []
+        for index in range(SAMPLES):
+            x_value = 2.0 * math.pi * index / SAMPLES
+            values = jet(x_value, mode)
+            row = reconstruct(*values, sign)
+            rows.append(row)
+            expected_scalar = -8.0 * values[0] ** -5 * values[2]
+            max_ricci_formula_error = max(max_ricci_formula_error, abs(row["scalar"] - expected_scalar))
+            max_hamiltonian = max(max_hamiltonian, abs(row["hamiltonian"]))
+            max_momentum = max(max_momentum, *(abs(value) for value in row["momentum"]))
+        branch_rows[sign] = rows
+    weights = [row["psi"] ** 6 for row in branch_rows[1]]
+    volume = (2.0 * math.pi) ** 3 * math.fsum(weights) / SAMPLES
+    total_scalar = (2.0 * math.pi) ** 3 * math.fsum(
+        row["psi"] ** 6 * row["scalar"] for row in branch_rows[1]
+    ) / SAMPLES
+    q_values[mode] = total_scalar / volume ** (1.0 / 3.0)
+    for minus, plus in zip(branch_rows[-1], branch_rows[1]):
+        max_time_reverse_error = max(
+            max_time_reverse_error,
+            *(abs(a + b) for a, b in zip(minus["K"], plus["K"])),
+        )
+
+check("independent direct Ricci loop", max_ricci_formula_error < 3e-13)
+check("independent Hamiltonian", max_hamiltonian < 6e-12)
+check("independent momentum", max_momentum < 6e-12)
+check("independent time reversal", max_time_reverse_error < 6e-12)
+for mode in MODES:
+    check(f"independent Q_R n={mode}", abs(q_values[mode] / q_values[1] - mode ** 2) < 6e-12)
+
+result = {
+    "schema": "udt-g322-independent-maximal-development-v1",
+    "status": "PASS_INDEPENDENT",
+    "assertion_count": len(CHECKS),
+    "production_imported": False,
+    "production_output_read": False,
+    "direct_connection_ricci_loop": True,
+    "modes_checked": list(MODES),
+    "branches_checked": list(SIGNS),
+    "max_ricci_formula_error": max_ricci_formula_error,
+    "max_hamiltonian_residual": max_hamiltonian,
+    "max_momentum_residual": max_momentum,
+    "max_time_reversal_error": max_time_reverse_error,
+    "theorem_source_scope": "INDEPENDENTLY_AUTHENTICATED_PRIMARY_PUBLISHER_BOUNDED_EXCERPT",
+    "maximal_development_conclusion": "UPHELD_CONDITIONAL_ON_IMPORTED_THEOREM",
+    "completeness_or_occupancy_claim": "NONE",
+}
+with (HERE / "INDEPENDENT_VERIFICATION.json").open("w", encoding="utf-8") as handle:
+    json.dump(result, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+print(json.dumps(result, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "grep -R -n \"S09_PRIMARY_ABSTRACT_EVIDENCE\\|PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT\\|official_abstract_fragments\\|source_grade\" /intake/package /intake/sources" in /
+ succeeded in 0ms:
+/intake/package/SOURCE_NOTE.md:13:`S09_PRIMARY_ABSTRACT_EVIDENCE.json` preserves the official title, authors, DOI, publisher,
+/intake/package/SOURCE_NOTE.md:20:Sealed evidence grade: `PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT`.
+/intake/package/verify_independent.py:138:primary_path = HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json"
+/intake/package/verify_independent.py:141:fragments = primary["official_abstract_fragments"]
+/intake/package/verify_independent.py:144:check("independent bounded primary grade", primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT")
+/intake/package/EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md:15:   `S09_PRIMARY_ABSTRACT_EVIDENCE.json` contains official publisher metadata, three bounded
+/intake/package/DERIVATION_RESULT.json:16:    "S09_PRIMARY_ABSTRACT_EVIDENCE.json": "9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5",
+/intake/package/run_catch_proofs.py:152:    lambda package: mutate_json(package, "S09_PRIMARY_ABSTRACT_EVIDENCE.json", bounded_excerpt_word_count=24),
+/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json:9:  "official_abstract_fragments": [
+/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json:19:  "source_grade": "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT",
+/intake/package/SOURCE_SCOPE.tsv:2:S09_PRIMARY_ABSTRACT_EVIDENCE.json	bounded authenticated official publisher abstract evidence for imported theorem scope
+/intake/package/derive_maximal_development.py:170:primary_path = HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json"
+/intake/package/derive_maximal_development.py:174:fragments = primary["official_abstract_fragments"]
+/intake/package/derive_maximal_development.py:177:check("S09 bounded primary grade", primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT")
+/intake/package/EXACT_DERIVATION.md:110:The bounded authenticated publisher evidence in `S09_PRIMARY_ABSTRACT_EVIDENCE.json` and the
+/intake/package/verify_package.py:32:    "S09_PRIMARY_ABSTRACT_EVIDENCE.json", "REPAIR_LEDGER.tsv",
+/intake/package/verify_package.py:156:primary = json.loads((HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json").read_text(encoding="utf-8"))
+/intake/package/verify_package.py:157:fragments = primary["official_abstract_fragments"]
+/intake/package/verify_package.py:160:require(primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT", "primary evidence grade")
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/verify_package.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate verification for the G322 theorem-interface package."""
+
+import ast
+import csv
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+LANDING = (
+    "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_"
+    "DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY"
+)
+OWNERSHIP = (
+    "MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__CONDITIONAL_ON_IMPORTED_"
+    "CHOQUET_BRUHAT_GEROCH_THEOREM"
+)
+SCOPE = (
+    "NO_CLAIM__GEODESIC_COMPLETENESS_OR_SINGULARITY_FREEDOM_OR_PHYSICAL_"
+    "OCCUPANCY_OR_UNMARKED_CLASSIFICATION"
+)
+REQUIRED = (
+    "MAP.md", "PREREGISTRATION.md", "PREMISE_LEDGER.tsv", "SOURCE_SCOPE.tsv",
+    "COMPLETENESS_MAP.md", "PREREGISTRATION_ANCESTRY.md", "SOURCE_NOTE.md",
+    "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "EVIDENCE_GATES.md",
+    "STATUS_LEDGER.tsv", "RUN_RECORD.md", "REPLAY_COMMANDS.txt", "DATA_INTERFACE.tsv",
+    "THEOREM_INTERFACE.tsv", "SCOPE_MATRIX.tsv", "DERIVATION_RESULT.json",
+    "INDEPENDENT_VERIFICATION.json", "derive_maximal_development.py",
+    "verify_independent.py", "run_catch_proofs.py", "verify_package.py",
+    "build_review_intake.py", "EXTERNAL_REVIEW_REQUEST.md",
+    "S09_PRIMARY_ABSTRACT_EVIDENCE.json", "REPAIR_LEDGER.tsv",
+    "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
+    "build_repair_followup_intake.py",
+)
+ALLOWED_IMPORTS = {
+    "ast", "csv", "fractions", "hashlib", "json", "math", "pathlib", "shutil",
+    "subprocess", "sys", "tempfile",
+}
+EXPECTED_INTERFACE = {
+    "H1": "SUPPORTED_BOUNDED",
+    "H2": "SUPPORTED_BOUNDED",
+    "H3": "SUPPORTED_BOUNDED",
+    "H4": "SUPPORTED_BOUNDED",
+    "H5": "CONDITIONAL_IMPORTED",
+    "H6": "IMPORTED_DEFINITION",
+    "H7": "IMPORTED_DEFINITION",
+    "H8": "CONDITIONAL_IMPORTED",
+}
+EXPECTED_SCOPE = {
+    "maximal_GH_exists_per_fixed_datum": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+    "every_same_datum_GH_development_embeds": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+    "same_datum_maximal_developments_isometric": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+    "geodesic_completeness": "OPEN_NOT_ENTAILED",
+    "singularity_or_curvature_control": "OPEN_NOT_ENTAILED",
+    "arbitrary_Lorentzian_inextendibility": "OPEN_NOT_ENTAILED",
+    "stability": "OPEN_NOT_TESTED",
+    "unmarked_cross_datum_spacetime_identity": "OPEN_NOT_CLASSIFIED",
+    "physical_initial_data_occupancy": "OPEN_NOT_SELECTED",
+    "metric_kernel_angular_interface": "UNCHANGED",
+}
+
+
+def require(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+mutation_probe = (HERE / ".g322_mutation_probe").is_file()
+for name in REQUIRED:
+    require((HERE / name).is_file(), f"missing {name}")
+if not mutation_probe:
+    require((HERE / "CATCH_PROOF_RESULT.json").is_file(), "missing CATCH_PROOF_RESULT.json")
+
+production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+require(production["landing"] == LANDING, "landing drift")
+require(production["status"] == "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW", "production status drift")
+require(production["raw_tracefree_principal_rank"] == 9, "raw rank drift")
+require(production["fixed_lambda_principal_rank"] == 10, "fixed rank drift")
+require(production["constraint_sector"] == "Lambda=0", "constraint sector drift")
+require(production["max_hamiltonian_residual"] < 5e-12, "production Hamiltonian")
+require(production["max_momentum_residual"] < 5e-12, "production momentum")
+require(
+    production["theorem_interface_status"]
+    == "CONDITIONAL_APPLICATION_SUPPORTED__IMPORTED_THEOREM_NOT_MACHINE_PROVED",
+    "theorem import boundary drift",
+)
+require(
+    production["maximal_GH_per_fixed_datum"]
+    == "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+    "maximal conclusion drift",
+)
+require(production["geodesic_completeness"] == "OPEN_NOT_ENTAILED", "completeness overclaim")
+require(
+    production["arbitrary_Lorentzian_inextendibility"] == "OPEN_NOT_ENTAILED",
+    "inextendibility overclaim",
+)
+require(production["physical_occupancy"] == "OPEN_NOT_SELECTED", "occupancy overclaim")
+require(
+    production["unmarked_cross_datum_classification"] == "OPEN_NOT_CLASSIFIED",
+    "unmarked classification overclaim",
+)
+require(production["metric_kernel_angular_interface"] == "UNCHANGED", "metric/kernel regression")
+
+require(independent["status"] == "PASS_INDEPENDENT", "independent status")
+require(not independent["production_imported"], "independent imported production")
+require(not independent["production_output_read"], "independent read production output")
+require(independent["max_hamiltonian_residual"] < 6e-12, "independent Hamiltonian")
+require(independent["max_momentum_residual"] < 6e-12, "independent momentum")
+require(independent["max_ricci_formula_error"] < 3e-13, "independent Ricci")
+require(independent["max_time_reversal_error"] < 6e-12, "independent time reversal")
+require(
+    independent["maximal_development_conclusion"]
+    == "UPHELD_CONDITIONAL_ON_IMPORTED_THEOREM",
+    "independent theorem boundary",
+)
+require(independent["completeness_or_occupancy_claim"] == "NONE", "independent overclaim")
+
+with (HERE / "DATA_INTERFACE.tsv").open(encoding="utf-8", newline="") as handle:
+    atlas = list(csv.DictReader(handle, delimiter="\t"))
+require(len(atlas) == 8, "data interface row count")
+base = float(next(row for row in atlas if row["mode"] == "1" and row["sign"] == "1")["Q_R"])
+for row in atlas:
+    mode = int(row["mode"])
+    require(float(row["max_hamiltonian"]) < 5e-12, "atlas Hamiltonian")
+    require(float(row["max_momentum"]) < 5e-12, "atlas momentum")
+    require(abs(float(row["Q_R"]) / base - mode ** 2) < 5e-12, "atlas Q_R")
+
+with (HERE / "THEOREM_INTERFACE.tsv").open(encoding="utf-8", newline="") as handle:
+    interface = {row["id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+require({key: row["status"] for key, row in interface.items()} == EXPECTED_INTERFACE, "theorem interface drift")
+require(all(row["evidence_type"].strip() and row["boundary"].strip() for row in interface.values()), "empty theorem evidence")
+
+with (HERE / "SCOPE_MATRIX.tsv").open(encoding="utf-8", newline="") as handle:
+    scope_rows = {row["claim"]: row["status"] for row in csv.DictReader(handle, delimiter="\t")}
+require(scope_rows == EXPECTED_SCOPE, "scope matrix drift")
+
+with (HERE / "STATUS_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+    ledger = {row["object"]: row["status"] for row in csv.DictReader(handle, delimiter="\t")}
+require(ledger["Choquet-Bruhat--Geroch theorem"] == "IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL", "theorem ownership")
+require(ledger["geodesic completeness"] == "OPEN_NOT_ENTAILED", "ledger completeness")
+require(ledger["physical initial-data occupancy"] == "OPEN_NOT_SELECTED", "ledger occupancy")
+require(ledger["metric reciprocal kernel angular interface"] == "UNCHANGED", "ledger interface")
+
+for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md"):
+    normalized = "".join((HERE / name).read_text(encoding="utf-8").split())
+    require(LANDING in normalized, f"landing missing from {name}")
+    require(OWNERSHIP in normalized, f"ownership missing from {name}")
+    require(SCOPE in normalized, f"scope missing from {name}")
+
+source_note = (HERE / "SOURCE_NOTE.md").read_text(encoding="utf-8")
+require("10.1007/BF01645389" in source_note, "primary source locator missing")
+require("PRIMARY_PUBLISHER_ABSTRACT_METADATA__IMPORTED_MATHEMATICAL_METHOD" in source_note, "source grade drift")
+
+primary = json.loads((HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json").read_text(encoding="utf-8"))
+fragments = primary["official_abstract_fragments"]
+joined_fragments = " ".join(fragments).lower()
+require(primary["schema"] == "udt-g322-s09-primary-abstract-bounded-evidence-v1", "primary evidence schema")
+require(primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT", "primary evidence grade")
+require(primary["doi"] == "10.1007/BF01645389", "primary evidence DOI")
+require(sum(len(fragment.split()) for fragment in fragments) == primary["bounded_excerpt_word_count"] == 25, "primary excerpt word count")
+require("constraint conditions" in joined_fragments, "primary constraint antecedent")
+require("extension of every other development" in joined_fragments, "primary extension scope")
+require("embedded in exactly one such maximal development" in joined_fragments, "primary unique embedding scope")
+
+registered_commands = (HERE / "REPLAY_COMMANDS.txt").read_text(encoding="utf-8").splitlines()
+run_record = (HERE / "RUN_RECORD.md").read_text(encoding="utf-8")
+require(len(registered_commands) == 4, "registered command count")
+require(all(command in run_record for command in registered_commands), "human run record incomplete")
+
+with (HERE / "REPAIR_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+    repairs = {row["repair"]: row for row in csv.DictReader(handle, delimiter="\t")}
+require(set(repairs) == {"R1", "R2"}, "repair ledger scope")
+require(all(row["scientific_landing"] == "UNCHANGED" for row in repairs.values()), "repair changed science")
+
+for script_name in (
+    "derive_maximal_development.py", "verify_independent.py", "run_catch_proofs.py",
+    "verify_package.py", "build_review_intake.py", "build_repair_followup_intake.py",
+):
+    tree = ast.parse((HERE / script_name).read_text(encoding="utf-8"))
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            imports = [alias.name.split(".")[0] for alias in node.names]
+        elif isinstance(node, ast.ImportFrom):
+            imports = [(node.module or "").split(".")[0]]
+        else:
+            continue
+        require(all(name in ALLOWED_IMPORTS for name in imports), f"unregistered import in {script_name}: {imports}")
+
+if not mutation_probe:
+    catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    require(catches["status"] == "PASS_ALL_MUTATIONS_CAUGHT", "hostile status")
+    require(catches["caught_count"] == catches["expected_count"] == 14, "hostile count")
+    require(all(item["verifier_returncode"] != 0 for item in catches["details"]), "hostile survivor")
+
+external_text = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+require("G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED" in external_text, "fresh repairable verdict absent")
+followup = HERE / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md"
+if followup.is_file():
+    followup_text = followup.read_text(encoding="utf-8")
+    require(
+        "G322_REPAIRS_ACCEPTED__CONDITIONAL_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT_PER_FIXED_DATUM_UPHELD"
+        in followup_text,
+        "repair follow-up acceptance absent",
+    )
+    package_status = "PASS_EXTERNALLY_ACCEPTED__CONDITIONAL_MAXIMAL_GH_PER_FIXED_DATUM"
+else:
+    package_status = "PASS_REPAIRED__EXTERNAL_FOLLOWUP_PENDING"
+
+result = {
+    "schema": "udt-g322-package-verification-v1",
+    "status": package_status,
+    "landing": LANDING,
+    "required_files": len(REQUIRED) + 1,
+    "data_rows": len(atlas),
+    "production_assertions": production["machine_assertion_count"],
+    "independent_assertions": independent["assertion_count"],
+    "hostile_catches": 0 if mutation_probe else catches["caught_count"],
+    "primary_excerpt_words": primary["bounded_excerpt_word_count"],
+    "repairs_registered": sorted(repairs),
+}
+with (HERE / "PACKAGE_VERIFICATION_RESULT.json").open("w", encoding="utf-8") as handle:
+    json.dump(result, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+print(json.dumps(result, indent=2, sort_keys=True))
+
+codex
+The code path is clear: production, independent, and aggregate verification all load `S09_PRIMARY_ABSTRACT_EVIDENCE.json` directly and enforce the 25-word bounded evidence conditions. I’m reading the hostile-mutation registrations and current sealed outputs, then I’ll replay the four commands in `/work` and compare the regenerated artifacts back to the sealed package.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/CATCH_PROOF_RESULT.json" in /
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/STATUS_LEDGER.tsv" in /
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/DERIVATION_RESULT.json" in /
+ succeeded in 0ms:
+{
+  "baseline_verifier_returncode": 0,
+  "caught_count": 14,
+  "details": [
+    {
+      "expected_rejection": "atlas Hamiltonian",
+      "expected_rejection_observed": true,
+      "label": "R1_constraint_residual_corrupted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "constraint sector drift",
+      "expected_rejection_observed": true,
+      "label": "R2_Lambda_sector_changed",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "raw rank drift",
+      "expected_rejection_observed": true,
+      "label": "R3_principal_completion_reversed",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "theorem import boundary drift",
+      "expected_rejection_observed": true,
+      "label": "R4_imported_theorem_called_machine_proved",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "maximal conclusion drift",
+      "expected_rejection_observed": true,
+      "label": "R5_maximal_conclusion_made_unconditional",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "completeness overclaim",
+      "expected_rejection_observed": true,
+      "label": "R6_maximality_called_geodesic_completeness",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "inextendibility overclaim",
+      "expected_rejection_observed": true,
+      "label": "R7_maximality_called_absolute_inextendibility",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "occupancy overclaim",
+      "expected_rejection_observed": true,
+      "label": "R8_per_datum_called_physical_occupancy",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "unmarked classification overclaim",
+      "expected_rejection_observed": true,
+      "label": "R9_marked_called_unmarked_classification",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "metric/kernel regression",
+      "expected_rejection_observed": true,
+      "label": "R10_metric_kernel_change_smuggled",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "theorem interface drift",
+      "expected_rejection_observed": true,
+      "label": "R11_theorem_interface_H8_promoted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "scope matrix drift",
+      "expected_rejection_observed": true,
+      "label": "R12_scope_matrix_completeness_promoted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "primary excerpt word count",
+      "expected_rejection_observed": true,
+      "label": "R13_primary_abstract_word_count_corrupted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "human run record incomplete",
+      "expected_rejection_observed": true,
+      "label": "R14_human_run_record_command_omitted",
+      "verifier_returncode": 1
+    }
+  ],
+  "expected_count": 14,
+  "mutation_method": "EPHEMERAL_ACTUAL_EVIDENCE_MUTATION_THEN_AGGREGATE_REJECTION",
+  "schema": "udt-g322-hostile-catches-v1",
+  "status": "PASS_ALL_MUTATIONS_CAUGHT"
+}
+
+ succeeded in 0ms:
+{
+  "arbitrary_Lorentzian_inextendibility": "OPEN_NOT_ENTAILED",
+  "constraint_sector": "Lambda=0",
+  "fixed_lambda_principal_rank": 10,
+  "geodesic_completeness": "OPEN_NOT_ENTAILED",
+  "landing": "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY",
+  "machine_assertion_count": 62,
+  "max_hamiltonian_residual": 3.552713678800501e-15,
+  "max_momentum_residual": 1.7763568394002505e-15,
+  "maximal_GH_per_fixed_datum": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+  "metric_kernel_angular_interface": "UNCHANGED",
+  "physical_occupancy": "OPEN_NOT_SELECTED",
+  "raw_tracefree_principal_rank": 9,
+  "schema": "udt-g322-maximal-globally-hyperbolic-development-v1",
+  "source_fingerprints": {
+    "S09_PRIMARY_ABSTRACT_EVIDENCE.json": "9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5",
+    "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md": "4eb48002d2424e9745d92fcbf734213dec81a912343057d76775961f93b6b378",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md": "8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63",
+    "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md": "0a1410c190e3b21ab1a67d694ec8c19699beba0ece49894f6157c1dbb8365c5b",
+    "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4",
+    "udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv": "4be070911b3547a706d342e296487b2a6f62017cb9bbfd7e470d91dd5ce5afbb"
+  },
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "theorem_interface_status": "CONDITIONAL_APPLICATION_SUPPORTED__IMPORTED_THEOREM_NOT_MACHINE_PROVED",
+  "unmarked_cross_datum_classification": "OPEN_NOT_CLASSIFIED"
+}
+
+ succeeded in 0ms:
+object	status	boundary
+Universal Reciprocity or DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G310	not derived or canonized
+quiet GR principal-response overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded response premise
+Local Metric Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded local response premise
+trace-free Ricci equation	ACTIVE_BOUNDED_CONDITIONAL_EQUATION	becomes Ric=0 on connected G320 sector
+G321 local marked development	EXTERNALLY_ACCEPTED_BOUNDED_CONDITIONAL	one local development per fixed complete datum
+Choquet-Bruhat--Geroch theorem	IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL	not a native UDT theorem
+maximal globally hyperbolic development per datum	INTERNALLY_VERIFIED_CONDITIONAL__FRESH_EXTERNAL_REVIEW_REPAIRABLE	bounded landing retained; repair-only follow-up pending
+different modes as marked developments	DERIVED_CONDITIONAL	Q_R separates initial data
+opposite K signs	DERIVED_TIME_REVERSED_DATA	not two futures from one datum
+geodesic completeness	OPEN_NOT_ENTAILED	maximal GH does not imply it
+singularity freedom or curvature bounds	OPEN_NOT_ENTAILED	maximal GH does not imply them
+arbitrary Lorentzian inextendibility	OPEN_NOT_ENTAILED	non-GH extensions not classified
+stability	OPEN_NOT_TESTED	no perturbative or nonlinear result
+unmarked cross-datum realization	OPEN_NOT_CLASSIFIED	different Cauchy slices may share an unmarked spacetime
+physical initial-data occupancy	OPEN_NOT_SELECTED	one maximal development per datum is not actualization
+metric reciprocal kernel angular interface	UNCHANGED	no construction change
+scale source matter mass observation Xmax	OPEN_NOT_IMPORTED	outside G322
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/run_catch_proofs.py" in /
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile G322 checks by mutating actual evidence in ephemeral package copies."""
+
+import csv
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tempfile
+
+
+HERE = Path(__file__).resolve().parent
+DETAILS = []
+
+
+def mutate_result(package, **changes):
+    path = package / "DERIVATION_RESULT.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    data.update(changes)
+    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def mutate_json(package, name, **changes):
+    path = package / name
+    data = json.loads(path.read_text(encoding="utf-8"))
+    data.update(changes)
+    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def remove_text(package, name, target):
+    path = package / name
+    text = path.read_text(encoding="utf-8")
+    if target not in text:
+        raise AssertionError(f"hostile target missing: {target}")
+    path.write_text(text.replace(target, "", 1), encoding="utf-8")
+
+
+def mutate_tsv(package, name, key_name, key_value, field, value):
+    path = package / name
+    with path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    target = next(row for row in rows if row[key_name] == key_value)
+    target[field] = str(value)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=tuple(rows[0]), delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def run_verifier(package):
+    return subprocess.run(
+        [sys.executable, "-S", "verify_package.py"],
+        cwd=package,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+
+
+def run_mutation(label, mutator, expected):
+    with tempfile.TemporaryDirectory(prefix="udt_g322_hostile_") as temp:
+        package = Path(temp) / "package"
+        shutil.copytree(HERE, package, ignore=shutil.ignore_patterns("__pycache__"))
+        (package / ".g322_mutation_probe").write_text("ephemeral hostile probe\n", encoding="utf-8")
+        mutator(package)
+        completed = run_verifier(package)
+        combined = completed.stdout + completed.stderr
+        if completed.returncode == 0 or expected not in combined:
+            raise AssertionError(
+                f"mutation survived or failed for wrong reason: {label}; "
+                f"returncode={completed.returncode}; expected={expected!r}; output={combined[-800:]!r}"
+            )
+        DETAILS.append({
+            "label": label,
+            "verifier_returncode": completed.returncode,
+            "expected_rejection": expected,
+            "expected_rejection_observed": True,
+        })
+
+
+with tempfile.TemporaryDirectory(prefix="udt_g322_baseline_") as temp:
+    baseline = Path(temp) / "package"
+    shutil.copytree(HERE, baseline, ignore=shutil.ignore_patterns("__pycache__"))
+    (baseline / ".g322_mutation_probe").write_text("ephemeral hostile probe\n", encoding="utf-8")
+    baseline_run = run_verifier(baseline)
+    if baseline_run.returncode != 0:
+        raise AssertionError(f"unmutated baseline failed: {(baseline_run.stdout + baseline_run.stderr)[-1200:]}")
+
+run_mutation(
+    "R1_constraint_residual_corrupted",
+    lambda package: mutate_tsv(package, "DATA_INTERFACE.tsv", "mode", "1", "max_hamiltonian", 1.0),
+    "atlas Hamiltonian",
+)
+run_mutation(
+    "R2_Lambda_sector_changed",
+    lambda package: mutate_result(package, constraint_sector="Lambda=1"),
+    "constraint sector drift",
+)
+run_mutation(
+    "R3_principal_completion_reversed",
+    lambda package: mutate_result(package, raw_tracefree_principal_rank=10, fixed_lambda_principal_rank=9),
+    "raw rank drift",
+)
+run_mutation(
+    "R4_imported_theorem_called_machine_proved",
+    lambda package: mutate_result(package, theorem_interface_status="NATIVE_MACHINE_PROVED"),
+    "theorem import boundary drift",
+)
+run_mutation(
+    "R5_maximal_conclusion_made_unconditional",
+    lambda package: mutate_result(package, maximal_GH_per_fixed_datum="UNCONDITIONAL_DERIVED"),
+    "maximal conclusion drift",
+)
+run_mutation(
+    "R6_maximality_called_geodesic_completeness",
+    lambda package: mutate_result(package, geodesic_completeness="DERIVED_TRUE"),
+    "completeness overclaim",
+)
+run_mutation(
+    "R7_maximality_called_absolute_inextendibility",
+    lambda package: mutate_result(package, arbitrary_Lorentzian_inextendibility="DERIVED_TRUE"),
+    "inextendibility overclaim",
+)
+run_mutation(
+    "R8_per_datum_called_physical_occupancy",
+    lambda package: mutate_result(package, physical_occupancy="SELECTED"),
+    "occupancy overclaim",
+)
+run_mutation(
+    "R9_marked_called_unmarked_classification",
+    lambda package: mutate_result(package, unmarked_cross_datum_classification="CLASSIFIED"),
+    "unmarked classification overclaim",
+)
+run_mutation(
+    "R10_metric_kernel_change_smuggled",
+    lambda package: mutate_result(package, metric_kernel_angular_interface="CHANGED"),
+    "metric/kernel regression",
+)
+run_mutation(
+    "R11_theorem_interface_H8_promoted",
+    lambda package: mutate_tsv(package, "THEOREM_INTERFACE.tsv", "id", "H8", "status", "DERIVED_NATIVE"),
+    "theorem interface drift",
+)
+run_mutation(
+    "R12_scope_matrix_completeness_promoted",
+    lambda package: mutate_tsv(package, "SCOPE_MATRIX.tsv", "claim", "geodesic_completeness", "status", "DERIVED_TRUE"),
+    "scope matrix drift",
+)
+run_mutation(
+    "R13_primary_abstract_word_count_corrupted",
+    lambda package: mutate_json(package, "S09_PRIMARY_ABSTRACT_EVIDENCE.json", bounded_excerpt_word_count=24),
+    "primary excerpt word count",
+)
+run_mutation(
+    "R14_human_run_record_command_omitted",
+    lambda package: remove_text(package, "RUN_RECORD.md", "python3 -S verify_package.py"),
+    "human run record incomplete",
+)
+
+output = {
+    "schema": "udt-g322-hostile-catches-v1",
+    "status": "PASS_ALL_MUTATIONS_CAUGHT",
+    "mutation_method": "EPHEMERAL_ACTUAL_EVIDENCE_MUTATION_THEN_AGGREGATE_REJECTION",
+    "baseline_verifier_returncode": baseline_run.returncode,
+    "caught_count": len(DETAILS),
+    "expected_count": 14,
+    "details": DETAILS,
+}
+with (HERE / "CATCH_PROOF_RESULT.json").open("w", encoding="utf-8") as handle:
+    json.dump(output, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+print(json.dumps(output, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/INDEPENDENT_VERIFICATION.json" in /
+ succeeded in 0ms:
+{
+  "assertion_count": 19,
+  "branches_checked": [
+    -1,
+    1
+  ],
+  "completeness_or_occupancy_claim": "NONE",
+  "direct_connection_ricci_loop": true,
+  "max_hamiltonian_residual": 2.6645352591003757e-15,
+  "max_momentum_residual": 1.6653345369377348e-15,
+  "max_ricci_formula_error": 1.3322676295501878e-15,
+  "max_time_reversal_error": 0.0,
+  "maximal_development_conclusion": "UPHELD_CONDITIONAL_ON_IMPORTED_THEOREM",
+  "modes_checked": [
+    1,
+    3,
+    5
+  ],
+  "production_imported": false,
+  "production_output_read": false,
+  "schema": "udt-g322-independent-maximal-development-v1",
+  "status": "PASS_INDEPENDENT",
+  "theorem_source_scope": "INDEPENDENTLY_AUTHENTICATED_PRIMARY_PUBLISHER_BOUNDED_EXCERPT"
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/PACKAGE_VERIFICATION_RESULT.json" in /
+ succeeded in 0ms:
+{
+  "data_rows": 8,
+  "hostile_catches": 14,
+  "independent_assertions": 19,
+  "landing": "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY",
+  "primary_excerpt_words": 25,
+  "production_assertions": 62,
+  "repairs_registered": [
+    "R1",
+    "R2"
+  ],
+  "required_files": 31,
+  "schema": "udt-g322-package-verification-v1",
+  "status": "PASS_REPAIRED__EXTERNAL_FOLLOWUP_PENDING"
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/EXACT_DERIVATION.md" in /
+ succeeded in 0ms:
+# G322 exact derivation — maximal globally hyperbolic development per fixed datum
+
+Date: 2026-09-01
+
+Exact ownership stamp:
+`MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__CONDITIONAL_ON_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM`.
+
+Exact scope stamp:
+`NO_CLAIM__GEODESIC_COMPLETENESS_OR_SINGULARITY_FREEDOM_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_CLASSIFICATION`.
+
+Exact bounded landing:
+`FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY`.
+
+## 1. Ownership
+
+Universal Reciprocity/DDR and the G312 response premises are owner-adopted provisionally, not
+derived or canonized. In their registered regular metric-only scale-free vacuum arena, the active
+equation is
+
+\[
+S_{ab}=R_{ab}-\frac14R g_{ab}=0.
+\tag{1}
+\]
+
+G322 adds no field equation, action, source, matter model, boundary condition, or physical scale.
+It applies an imported mathematical theorem to already accepted data.
+
+## 2. Exact equation match on the registered sector
+
+Contracted Bianchi gives
+
+\[
+\nabla^aS_{ab}=\frac14\nabla_bR.
+\]
+
+Thus on a connected solution region,
+
+\[
+R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0.
+\tag{2}
+\]
+
+The spacelike constraints are
+
+\[
+{}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+\qquad
+D_j(K^{ij}-\gamma^{ij}K)=0.
+\tag{3}
+\]
+
+Every registered G320 datum has the left side of the first equation equal to zero and satisfies all
+three momentum constraints. Therefore its connected sector is
+
+\[
+\boxed{\Lambda=0},
+\]
+
+and equations (1)–(2) become exactly
+
+\[
+\boxed{R_{ab}=0}.
+\tag{4}
+\]
+
+Production independently obtained
+
+```text
+max |Hamiltonian| = 3.552713678800501e-15
+max |momentum|    = 1.7763568394002505e-15
+```
+
+and the implementation-distinct direct connection/Ricci route obtained
+
+```text
+max |Hamiltonian| = 2.6645352591003757e-15
+max |momentum|    = 1.6653345369377348e-15
+max Ricci anchor error = 1.3322676295501878e-15.
+```
+
+These are backward-error checks of the analytic identities, not the global theorem.
+
+## 3. Development category
+
+For one fixed complete datum \((\Sigma,\gamma,K)\), a marked development is a triple
+\((M,g,i)\) such that:
+
+1. \((M,g)\) is a smooth time-oriented solution of (4);
+2. \(i:\Sigma\to M\) embeds \(\Sigma\) as a Cauchy surface;
+3. the induced metric and second fundamental form are exactly \((\gamma,K)\).
+
+A morphism from \((M_1,g_1,i_1)\) to \((M_2,g_2,i_2)\) is an isometric embedding \(F\) satisfying
+
+\[
+F\circ i_1=i_2.
+\tag{5}
+\]
+
+This is the data-preserving marked category. Coordinate, lapse, shift, and harmonic-gauge copies
+represent the same geometry.
+
+## 4. Imported global theorem
+
+The Choquet-Bruhat--Geroch theorem is imported with the following bounded content:
+
+- constraint-satisfying Einstein data possess a maximal Cauchy development;
+- that development extends every other development of the same data;
+- a solution carrying a Cauchy surface embeds into one corresponding maximal development.
+
+The bounded authenticated publisher evidence in `S09_PRIMARY_ABSTRACT_EVIDENCE.json` and the
+repository's registered S09 source row support this exact scope. G322 does not prove the theorem
+computationally or promote it to a UDT postulate.
+
+## 5. Application to G321 data
+
+G321 established, conditional on the local harmonic theorem, that each complete G320 datum is
+smooth, regular, constraint-satisfying, and has a local marked development. Section 2 establishes
+that the active equation is exactly (4) for those data. All declared theorem-interface hypotheses
+therefore match.
+
+Conditional on the imported global theorem, for every fixed complete registered datum there is a
+maximal globally hyperbolic marked development \((M_{\max},g_{\max},i_{\max})\). Every other
+globally hyperbolic development of that same datum has a data-preserving isometric embedding into
+it. Two maximal developments of the same datum are data-preserving isometric.
+
+This closes the maximal globally hyperbolic continuation question **per supplied datum** inside the
+bounded arena. It supplies no map selecting a datum.
+
+## 6. Cross-datum structure
+
+G320 gives
+
+\[
+Q_R[\psi_n]=n^2Q_R[\psi_1].
+\tag{6}
+\]
+
+An isometry of marked developments must preserve their initial data and hence (6). Different
+integer modes therefore remain different marked maximal developments. This yields at least a
+countable family in the registered slice; it is not a full moduli classification.
+
+Changing \(K\) to \(-K\) gives time-reversed complete data. The associated maximal developments
+are time reverses in the marked time-oriented category. G322 does not decide whether different
+data can occur as different unmarked Cauchy slices in one larger spacetime.
+
+## 7. What maximality does not mean
+
+“Maximal globally hyperbolic” is maximal only in the category defined in section 3. It does not
+imply:
+
+- geodesic completeness or infinite proper-time duration;
+- bounded curvature, absence of singularities, or stability;
+- inextendibility as an arbitrary Lorentzian manifold;
+- determinism beyond a Cauchy horizon;
+- physical occupancy, a unique universe, or an observational prediction.
+
+These are logically separate questions. In particular, a non-globally-hyperbolic extension can
+exist without contradicting the theorem.
+
+## 8. Exact landing
+
+Conditional on the imported Choquet-Bruhat--Geroch theorem, each fixed complete G321 datum in the
+registered smooth connected marked-`T^3`, `Lambda=0` family has one maximal globally hyperbolic
+marked development up to data-preserving isometry. The remaining freedom is selection among
+initial data and questions beyond global hyperbolicity—not a missing evolution equation in this
+bounded arena.
+
+The metric, reciprocal kernel, angular cancellation, optical imports, and observational interfaces
+are unchanged. Scale, physical `X_max`, source, matter/mass, stability, singularity structure,
+arbitrary extensions, occupancy, and full UDT extension remain open.
+
+codex
+I’m moving to the writable replay now. I’ll copy the sealed intake to a fresh directory under `/work`, run the four registered commands there in order, and then compare the regenerated outputs against the sealed package.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import shutil, time
+src = Path('/intake')
+dst = Path('/work') / f'g322_replay_{int(time.time())}'
+shutil.copytree(src, dst)
+print(dst)
+PY" in /
+ succeeded in 0ms:
+/work/g322_replay_1788317190
+
+exec
+/bin/bash -lc 'python3 -S derive_maximal_development.py' in /work/g322_replay_1788317190/package
+ succeeded in 0ms:
+{
+  "arbitrary_Lorentzian_inextendibility": "OPEN_NOT_ENTAILED",
+  "constraint_sector": "Lambda=0",
+  "fixed_lambda_principal_rank": 10,
+  "geodesic_completeness": "OPEN_NOT_ENTAILED",
+  "landing": "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY",
+  "machine_assertion_count": 62,
+  "max_hamiltonian_residual": 3.552713678800501e-15,
+  "max_momentum_residual": 1.7763568394002505e-15,
+  "maximal_GH_per_fixed_datum": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+  "metric_kernel_angular_interface": "UNCHANGED",
+  "physical_occupancy": "OPEN_NOT_SELECTED",
+  "raw_tracefree_principal_rank": 9,
+  "schema": "udt-g322-maximal-globally-hyperbolic-development-v1",
+  "source_fingerprints": {
+    "S09_PRIMARY_ABSTRACT_EVIDENCE.json": "9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5",
+    "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md": "4eb48002d2424e9745d92fcbf734213dec81a912343057d76775961f93b6b378",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md": "8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63",
+    "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md": "0a1410c190e3b21ab1a67d694ec8c19699beba0ece49894f6157c1dbb8365c5b",
+    "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4",
+    "udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv": "4be070911b3547a706d342e296487b2a6f62017cb9bbfd7e470d91dd5ce5afbb"
+  },
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "theorem_interface_status": "CONDITIONAL_APPLICATION_SUPPORTED__IMPORTED_THEOREM_NOT_MACHINE_PROVED",
+  "unmarked_cross_datum_classification": "OPEN_NOT_CLASSIFIED"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py' in /work/g322_replay_1788317190/package
+ succeeded in 538ms:
+{
+  "assertion_count": 19,
+  "branches_checked": [
+    -1,
+    1
+  ],
+  "completeness_or_occupancy_claim": "NONE",
+  "direct_connection_ricci_loop": true,
+  "max_hamiltonian_residual": 2.6645352591003757e-15,
+  "max_momentum_residual": 1.6653345369377348e-15,
+  "max_ricci_formula_error": 1.3322676295501878e-15,
+  "max_time_reversal_error": 0.0,
+  "maximal_development_conclusion": "UPHELD_CONDITIONAL_ON_IMPORTED_THEOREM",
+  "modes_checked": [
+    1,
+    3,
+    5
+  ],
+  "production_imported": false,
+  "production_output_read": false,
+  "schema": "udt-g322-independent-maximal-development-v1",
+  "status": "PASS_INDEPENDENT",
+  "theorem_source_scope": "INDEPENDENTLY_AUTHENTICATED_PRIMARY_PUBLISHER_BOUNDED_EXCERPT"
+}
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py' in /work/g322_replay_1788317190/package
+ succeeded in 247ms:
+{
+  "baseline_verifier_returncode": 0,
+  "caught_count": 14,
+  "details": [
+    {
+      "expected_rejection": "atlas Hamiltonian",
+      "expected_rejection_observed": true,
+      "label": "R1_constraint_residual_corrupted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "constraint sector drift",
+      "expected_rejection_observed": true,
+      "label": "R2_Lambda_sector_changed",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "raw rank drift",
+      "expected_rejection_observed": true,
+      "label": "R3_principal_completion_reversed",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "theorem import boundary drift",
+      "expected_rejection_observed": true,
+      "label": "R4_imported_theorem_called_machine_proved",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "maximal conclusion drift",
+      "expected_rejection_observed": true,
+      "label": "R5_maximal_conclusion_made_unconditional",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "completeness overclaim",
+      "expected_rejection_observed": true,
+      "label": "R6_maximality_called_geodesic_completeness",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "inextendibility overclaim",
+      "expected_rejection_observed": true,
+      "label": "R7_maximality_called_absolute_inextendibility",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "occupancy overclaim",
+      "expected_rejection_observed": true,
+      "label": "R8_per_datum_called_physical_occupancy",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "unmarked classification overclaim",
+      "expected_rejection_observed": true,
+      "label": "R9_marked_called_unmarked_classification",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "metric/kernel regression",
+      "expected_rejection_observed": true,
+      "label": "R10_metric_kernel_change_smuggled",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "theorem interface drift",
+      "expected_rejection_observed": true,
+      "label": "R11_theorem_interface_H8_promoted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "scope matrix drift",
+      "expected_rejection_observed": true,
+      "label": "R12_scope_matrix_completeness_promoted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "primary excerpt word count",
+      "expected_rejection_observed": true,
+      "label": "R13_primary_abstract_word_count_corrupted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "human run record incomplete",
+      "expected_rejection_observed": true,
+      "label": "R14_human_run_record_command_omitted",
+      "verifier_returncode": 1
+    }
+  ],
+  "expected_count": 14,
+  "mutation_method": "EPHEMERAL_ACTUAL_EVIDENCE_MUTATION_THEN_AGGREGATE_REJECTION",
+  "schema": "udt-g322-hostile-catches-v1",
+  "status": "PASS_ALL_MUTATIONS_CAUGHT"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g322_replay_1788317190/package
+ succeeded in 0ms:
+{
+  "data_rows": 8,
+  "hostile_catches": 14,
+  "independent_assertions": 19,
+  "landing": "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY",
+  "primary_excerpt_words": 25,
+  "production_assertions": 62,
+  "repairs_registered": [
+    "R1",
+    "R2"
+  ],
+  "required_files": 31,
+  "schema": "udt-g322-package-verification-v1",
+  "status": "PASS_REPAIRED__EXTERNAL_FOLLOWUP_PENDING"
+}
+
+codex
+The replay finished cleanly. I’m doing a strict file-for-file comparison against the sealed manifest set now so I can confirm the regenerated outputs match exactly and that nothing outside the registered repair surface drifted.
+exec
+/bin/bash -lc "python3 - <<'PY'
+import hashlib, pathlib, json
+sealed = pathlib.Path('/intake')
+replay = pathlib.Path('/work/g322_replay_1788317190')
+manifest = sealed / 'REVIEW_MANIFEST.tsv'
+entries = []
+for line in manifest.read_text().splitlines()[1:]:
+    sha, b, rel = line.split('\\t')
+    s = sealed / rel
+    r = replay / rel
+    s_bytes = s.read_bytes()
+    r_bytes = r.read_bytes()
+    same = s_bytes == r_bytes
+    entries.append((rel, same, hashlib.sha256(r_bytes).hexdigest(), len(r_bytes)))
+    if not same:
+        print('DIFF', rel)
+print('all_manifest_files_match', all(item[1] for item in entries))
+print('compared_entries', len(entries))
+for rel, same, sha, size in entries:
+    if rel.startswith('package/') and rel.split('/')[-1] in {
+        'DATA_INTERFACE.tsv','THEOREM_INTERFACE.tsv','SCOPE_MATRIX.tsv',
+        'DERIVATION_RESULT.json','INDEPENDENT_VERIFICATION.json',
+        'CATCH_PROOF_RESULT.json','PACKAGE_VERIFICATION_RESULT.json'
+    }:
+        print(f'OUTPUT {rel} sha256={sha} bytes={size} match={same}')
+PY" in /
+ succeeded in 0ms:
+all_manifest_files_match True
+compared_entries 45
+OUTPUT package/CATCH_PROOF_RESULT.json sha256=5d1798d92c7883f271808ed43dfa069e696a93fb28137828f0eb46b19cffe968 bytes=3044 match=True
+OUTPUT package/DATA_INTERFACE.tsv sha256=6d38af25c1b3f43e1c8b0d494158881e7e682092d14de5ce39172f01973cd4bf bytes=683 match=True
+OUTPUT package/DERIVATION_RESULT.json sha256=dc88d9a7d2a09010ea1c60a8eb5fda85921dcf68eef59426d10264dbbb8bd0a4 bytes=1924 match=True
+OUTPUT package/INDEPENDENT_VERIFICATION.json sha256=3836f056117a895753995a7155089e469a38912b24a92afc93d1af486c51bd7c bytes=721 match=True
+OUTPUT package/PACKAGE_VERIFICATION_RESULT.json sha256=60fd5c9dc96c2d6d0281f16854a8bb3a9a3e003509a2e13b5fdd5b9fd8a0820e bytes=474 match=True
+OUTPUT package/SCOPE_MATRIX.tsv sha256=452219d875172eb4c1dfa7cfdd60b4fc486a5f861b961f9730b65c76a08641dd bytes=575 match=True
+OUTPUT package/THEOREM_INTERFACE.tsv sha256=7d439ada36c686410912f169dc11ae259e4172a0e40d985ce29746fc6c0e5fac bytes=801 match=True
+
+codex
+I have the replay parity result: all 45 manifest-tracked files in the writable replay match the sealed intake byte-for-byte after the four registered commands. I’m pulling exact line references for the repaired evidence, command record, and the new R13/R14 mutation catches for the closeout.
+exec
+/bin/bash -lc "nl -ba /intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json | sed -n '1,220p'" in /
+ succeeded in 0ms:
+     1	{
+     2	  "authors": [
+     3	    "Yvonne Choquet-Bruhat",
+     4	    "Robert Geroch"
+     5	  ],
+     6	  "bounded_excerpt_word_count": 25,
+     7	  "copyright_boundary": "Only three load-bearing fragments totaling 25 words are retained; the remainder is paraphrased.",
+     8	  "doi": "10.1007/BF01645389",
+     9	  "official_abstract_fragments": [
+    10	    "initial data for Einstein's equations which satisfy the constraint conditions",
+    11	    "an extension of every other development",
+    12	    "may be embedded in exactly one such maximal development"
+    13	  ],
+    14	  "publication": "Communications in Mathematical Physics 14, 329-335 (1969)",
+    15	  "publisher": "Springer Nature Link",
+    16	  "retrieved_date": "2026-09-01",
+    17	  "schema": "udt-g322-s09-primary-abstract-bounded-evidence-v1",
+    18	  "scope_paraphrase": "For constraint-satisfying Einstein initial data, the official abstract states existence of a development extending every other same-data development and unique maximal placement for a solution carrying a Cauchy surface.",
+    19	  "source_grade": "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT",
+    20	  "title": "Global aspects of the Cauchy problem in general relativity",
+    21	  "url": "https://link.springer.com/article/10.1007/BF01645389"
+    22	}
+
+exec
+/bin/bash -lc "nl -ba /intake/package/REPAIR_LEDGER.tsv | sed -n '1,80p'" in /
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_independent.py | sed -n '132,156p'" in /
+ succeeded in 0ms:
+     1	repair	fresh_finding	bounded_change	scientific_landing
+     2	R1	independent S09 source-scope check relied on typed summary without sealed official abstract content	add 25-word bounded official-publisher evidence and require production independent and aggregate authentication	UNCHANGED
+     3	R2	human run record listed two commands while registered replay contains four	list all four exact registered commands in RUN_RECORD.md	UNCHANGED
+
+ succeeded in 0ms:
+   132	    sources = {row["source_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+   133	s09 = sources["S09"]
+   134	check("independent primary source grade", s09["access_grade"] == "PRIMARY_ABSTRACT_METADATA")
+   135	check("independent maximal theorem scope", "maximal Cauchy development" in s09["exact_supported_scope"])
+   136	check("independent theorem limitation", "Einstein dynamics" in s09["limitations"])
+   137	
+   138	primary_path = HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json"
+   139	check("independent bounded primary evidence exists", primary_path.is_file())
+   140	primary = json.loads(primary_path.read_text(encoding="utf-8"))
+   141	fragments = primary["official_abstract_fragments"]
+   142	joined_fragments = " ".join(fragments).lower()
+   143	check("independent bounded primary schema", primary["schema"] == "udt-g322-s09-primary-abstract-bounded-evidence-v1")
+   144	check("independent bounded primary grade", primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT")
+   145	check("independent bounded primary DOI", primary["doi"] == "10.1007/BF01645389")
+   146	check("independent bounded excerpt word count", sum(len(fragment.split()) for fragment in fragments) == primary["bounded_excerpt_word_count"] == 25)
+   147	check("independent constraint antecedent", "constraint conditions" in joined_fragments)
+   148	check("independent every-development extension", "extension of every other development" in joined_fragments)
+   149	check("independent unique maximal embedding", "embedded in exactly one such maximal development" in joined_fragments)
+   150	
+   151	max_hamiltonian = 0.0
+   152	max_momentum = 0.0
+   153	max_ricci_formula_error = 0.0
+   154	max_time_reverse_error = 0.0
+   155	q_values = {}
+   156	for mode in MODES:
+
+exec
+/bin/bash -lc "nl -ba /intake/package/RUN_RECORD.md | sed -n '1,220p'" in /
+ succeeded in 0ms:
+     1	# G322 run record
+     2	
+     3	Date: 2026-09-01
+     4	Python: `3.10.12`
+     5	Preregistration: `8bf4aedb`
+     6	
+     7	Question: apply the imported maximal Cauchy-development theorem to the fixed complete G321 data,
+     8	without changing the UDT equation or selecting data.
+     9	
+    10	Commands:
+    11	
+    12	```text
+    13	python3 -S derive_maximal_development.py
+    14	python3 -S verify_independent.py
+    15	python3 -S run_catch_proofs.py
+    16	python3 -S verify_package.py
+    17	```
+    18	
+    19	Production controls: `p=3/2`, `a=1/5`, `J0=100`, modes `1,2,3,4`, both signs, 2,048 periodic
+    20	points per mode/sign.
+    21	
+    22	Independent controls: `p=1.7`, `a=0.12`, `J0=300`, modes `1,3,5`, both signs, 1,024 periodic
+    23	points per mode/sign, direct connection/Ricci index loops.
+    24	
+    25	Production output: `PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW`, 62 machine assertions.
+    26	
+    27	Independent output: `PASS_INDEPENDENT`, 19 assertions, no production import or production-result
+    28	read.
+    29	
+    30	Aggregate output: all 14 hostile evidence mutations caught; package verifier passed with the fresh
+    31	external review graded `REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`. Repairs R1 and R2 are
+    32	preregistered in `REPAIR_LEDGER.tsv`; repair-only follow-up is pending.
+    33	
+    34	No GPU or time integration was used. This is a theorem-interface audit, not a numerical evolution.
+
+exec
+/bin/bash -lc "nl -ba /intake/package/derive_maximal_development.py | sed -n '158,186p'" in /
+exec
+/bin/bash -lc "nl -ba /intake/package/EXTERNAL_REVIEW_RESPONSE.md | sed -n '1,220p'" in /
+ succeeded in 0ms:
+   158	for relative in SOURCE_PATHS:
+   159	    path = source_path(relative)
+   160	    check(f"source exists {relative}", path.is_file())
+   161	    fingerprints[relative] = sha256(path)
+   162	
+   163	with source_path(SOURCE_PATHS[-1]).open(encoding="utf-8", newline="") as handle:
+   164	    source_rows = {row["source_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+   165	s09 = source_rows["S09"]
+   166	check("S09 primary abstract grade", s09["access_grade"] == "PRIMARY_ABSTRACT_METADATA")
+   167	check("S09 maximal development scope", "maximal Cauchy development" in s09["exact_supported_scope"])
+   168	check("S09 comparison-only limitation", "comparison-only" in s09["limitations"])
+   169	
+   170	primary_path = HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json"
+   171	check("S09 bounded primary evidence exists", primary_path.is_file())
+   172	fingerprints[primary_path.name] = sha256(primary_path)
+   173	primary = json.loads(primary_path.read_text(encoding="utf-8"))
+   174	fragments = primary["official_abstract_fragments"]
+   175	joined_fragments = " ".join(fragments).lower()
+   176	check("S09 bounded primary schema", primary["schema"] == "udt-g322-s09-primary-abstract-bounded-evidence-v1")
+   177	check("S09 bounded primary grade", primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT")
+   178	check("S09 bounded primary DOI", primary["doi"] == "10.1007/BF01645389")
+   179	check("S09 bounded excerpt word count", sum(len(fragment.split()) for fragment in fragments) == primary["bounded_excerpt_word_count"] == 25)
+   180	check("S09 constraint antecedent", "constraint conditions" in joined_fragments)
+   181	check("S09 every-development extension", "extension of every other development" in joined_fragments)
+   182	check("S09 unique maximal embedding", "embedded in exactly one such maximal development" in joined_fragments)
+   183	
+   184	raw_rank = matrix_rank(tracefree_projector())
+   185	fixed_rank = matrix_rank([[int(row == column) for column in range(10)] for row in range(10)])
+   186	check("raw tracefree rank nine", raw_rank == 9)
+
+ succeeded in 0ms:
+     1	**Findings**
+     2	- Medium: The required independent S09 source-scope check is only partially evidenced. Both executable checks read the typed `S09` summary row in [SOURCE_VERIFICATION.tsv](/intake/sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv:10) and test summary substrings in [derive_maximal_development.py](/intake/package/derive_maximal_development.py:163) and [verify_independent.py](/intake/package/verify_independent.py:128). The aggregate verifier then only checks the DOI and source-grade string in [SOURCE_NOTE.md](/intake/package/SOURCE_NOTE.md:5) via [verify_package.py](/intake/package/verify_package.py:149). I found no sealed raw official abstract text inside `/intake` to independently authenticate the exact theorem wording from official source content itself. That is a repairable source-evidence gap, not a scientific contradiction.
+     3	- Low: The human run record is incomplete. [RUN_RECORD.md](/intake/package/RUN_RECORD.md:10) lists only two commands, while the registered replay requires four in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1).
+     4	
+     5	I did not find a refuting theorem-interface failure. The detached manifest hash matched, all 40 manifest payloads matched recorded hash and size, the replayed `/work/g322_replay/package` run reproduced the sealed outputs byte-for-byte, and `diff -rq` showed no package drift. The vacuum-sector mapping `S_ab=0` + Bianchi + supplied `Lambda=0` constraints to `Ric_ab=0`, the marked globally hyperbolic development category, and the exclusions against completeness, arbitrary inextendibility, occupancy, and unmarked cross-datum overclaim are stated consistently in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:28) and [THEOREM_INTERFACE.tsv](/intake/package/THEOREM_INTERFACE.tsv:2). Protected inputs also remain unchanged within the sealed package’s own boundary statements in [STATUS_LEDGER.tsv](/intake/package/STATUS_LEDGER.tsv:17) and [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:167).
+     6	
+     7	G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+
+exec
+/bin/bash -lc "nl -ba /intake/package/STATUS_LEDGER.tsv | sed -n '1,40p'" in /
+ succeeded in 0ms:
+     1	object	status	boundary
+     2	Universal Reciprocity or DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G310	not derived or canonized
+     3	quiet GR principal-response overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded response premise
+     4	Local Metric Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded local response premise
+     5	trace-free Ricci equation	ACTIVE_BOUNDED_CONDITIONAL_EQUATION	becomes Ric=0 on connected G320 sector
+     6	G321 local marked development	EXTERNALLY_ACCEPTED_BOUNDED_CONDITIONAL	one local development per fixed complete datum
+     7	Choquet-Bruhat--Geroch theorem	IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL	not a native UDT theorem
+     8	maximal globally hyperbolic development per datum	INTERNALLY_VERIFIED_CONDITIONAL__FRESH_EXTERNAL_REVIEW_REPAIRABLE	bounded landing retained; repair-only follow-up pending
+     9	different modes as marked developments	DERIVED_CONDITIONAL	Q_R separates initial data
+    10	opposite K signs	DERIVED_TIME_REVERSED_DATA	not two futures from one datum
+    11	geodesic completeness	OPEN_NOT_ENTAILED	maximal GH does not imply it
+    12	singularity freedom or curvature bounds	OPEN_NOT_ENTAILED	maximal GH does not imply them
+    13	arbitrary Lorentzian inextendibility	OPEN_NOT_ENTAILED	non-GH extensions not classified
+    14	stability	OPEN_NOT_TESTED	no perturbative or nonlinear result
+    15	unmarked cross-datum realization	OPEN_NOT_CLASSIFIED	different Cauchy slices may share an unmarked spacetime
+    16	physical initial-data occupancy	OPEN_NOT_SELECTED	one maximal development per datum is not actualization
+    17	metric reciprocal kernel angular interface	UNCHANGED	no construction change
+    18	scale source matter mass observation Xmax	OPEN_NOT_IMPORTED	outside G322
+
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_package.py | sed -n '150,182p'" in /
+ succeeded in 0ms:
+   150	    require(SCOPE in normalized, f"scope missing from {name}")
+   151	
+   152	source_note = (HERE / "SOURCE_NOTE.md").read_text(encoding="utf-8")
+   153	require("10.1007/BF01645389" in source_note, "primary source locator missing")
+   154	require("PRIMARY_PUBLISHER_ABSTRACT_METADATA__IMPORTED_MATHEMATICAL_METHOD" in source_note, "source grade drift")
+   155	
+   156	primary = json.loads((HERE / "S09_PRIMARY_ABSTRACT_EVIDENCE.json").read_text(encoding="utf-8"))
+   157	fragments = primary["official_abstract_fragments"]
+   158	joined_fragments = " ".join(fragments).lower()
+   159	require(primary["schema"] == "udt-g322-s09-primary-abstract-bounded-evidence-v1", "primary evidence schema")
+   160	require(primary["source_grade"] == "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT", "primary evidence grade")
+   161	require(primary["doi"] == "10.1007/BF01645389", "primary evidence DOI")
+   162	require(sum(len(fragment.split()) for fragment in fragments) == primary["bounded_excerpt_word_count"] == 25, "primary excerpt word count")
+   163	require("constraint conditions" in joined_fragments, "primary constraint antecedent")
+   164	require("extension of every other development" in joined_fragments, "primary extension scope")
+   165	require("embedded in exactly one such maximal development" in joined_fragments, "primary unique embedding scope")
+   166	
+   167	registered_commands = (HERE / "REPLAY_COMMANDS.txt").read_text(encoding="utf-8").splitlines()
+   168	run_record = (HERE / "RUN_RECORD.md").read_text(encoding="utf-8")
+   169	require(len(registered_commands) == 4, "registered command count")
+   170	require(all(command in run_record for command in registered_commands), "human run record incomplete")
+   171	
+   172	with (HERE / "REPAIR_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+   173	    repairs = {row["repair"]: row for row in csv.DictReader(handle, delimiter="\t")}
+   174	require(set(repairs) == {"R1", "R2"}, "repair ledger scope")
+   175	require(all(row["scientific_landing"] == "UNCHANGED" for row in repairs.values()), "repair changed science")
+   176	
+   177	for script_name in (
+   178	    "derive_maximal_development.py", "verify_independent.py", "run_catch_proofs.py",
+   179	    "verify_package.py", "build_review_intake.py", "build_repair_followup_intake.py",
+   180	):
+   181	    tree = ast.parse((HERE / script_name).read_text(encoding="utf-8"))
+   182	    for node in ast.walk(tree):
+
+exec
+/bin/bash -lc "nl -ba /intake/package/run_catch_proofs.py | sed -n '120,170p'" in /
+ succeeded in 0ms:
+   120	run_mutation(
+   121	    "R7_maximality_called_absolute_inextendibility",
+   122	    lambda package: mutate_result(package, arbitrary_Lorentzian_inextendibility="DERIVED_TRUE"),
+   123	    "inextendibility overclaim",
+   124	)
+   125	run_mutation(
+   126	    "R8_per_datum_called_physical_occupancy",
+   127	    lambda package: mutate_result(package, physical_occupancy="SELECTED"),
+   128	    "occupancy overclaim",
+   129	)
+   130	run_mutation(
+   131	    "R9_marked_called_unmarked_classification",
+   132	    lambda package: mutate_result(package, unmarked_cross_datum_classification="CLASSIFIED"),
+   133	    "unmarked classification overclaim",
+   134	)
+   135	run_mutation(
+   136	    "R10_metric_kernel_change_smuggled",
+   137	    lambda package: mutate_result(package, metric_kernel_angular_interface="CHANGED"),
+   138	    "metric/kernel regression",
+   139	)
+   140	run_mutation(
+   141	    "R11_theorem_interface_H8_promoted",
+   142	    lambda package: mutate_tsv(package, "THEOREM_INTERFACE.tsv", "id", "H8", "status", "DERIVED_NATIVE"),
+   143	    "theorem interface drift",
+   144	)
+   145	run_mutation(
+   146	    "R12_scope_matrix_completeness_promoted",
+   147	    lambda package: mutate_tsv(package, "SCOPE_MATRIX.tsv", "claim", "geodesic_completeness", "status", "DERIVED_TRUE"),
+   148	    "scope matrix drift",
+   149	)
+   150	run_mutation(
+   151	    "R13_primary_abstract_word_count_corrupted",
+   152	    lambda package: mutate_json(package, "S09_PRIMARY_ABSTRACT_EVIDENCE.json", bounded_excerpt_word_count=24),
+   153	    "primary excerpt word count",
+   154	)
+   155	run_mutation(
+   156	    "R14_human_run_record_command_omitted",
+   157	    lambda package: remove_text(package, "RUN_RECORD.md", "python3 -S verify_package.py"),
+   158	    "human run record incomplete",
+   159	)
+   160	
+   161	output = {
+   162	    "schema": "udt-g322-hostile-catches-v1",
+   163	    "status": "PASS_ALL_MUTATIONS_CAUGHT",
+   164	    "mutation_method": "EPHEMERAL_ACTUAL_EVIDENCE_MUTATION_THEN_AGGREGATE_REJECTION",
+   165	    "baseline_verifier_returncode": baseline_run.returncode,
+   166	    "caught_count": len(DETAILS),
+   167	    "expected_count": 14,
+   168	    "details": DETAILS,
+   169	}
+   170	with (HERE / "CATCH_PROOF_RESULT.json").open("w", encoding="utf-8") as handle:
+
+exec
+/bin/bash -lc "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '1,180p'" in /
+ succeeded in 0ms:
+     1	# G322 exact derivation — maximal globally hyperbolic development per fixed datum
+     2	
+     3	Date: 2026-09-01
+     4	
+     5	Exact ownership stamp:
+     6	`MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__CONDITIONAL_ON_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM`.
+     7	
+     8	Exact scope stamp:
+     9	`NO_CLAIM__GEODESIC_COMPLETENESS_OR_SINGULARITY_FREEDOM_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_CLASSIFICATION`.
+    10	
+    11	Exact bounded landing:
+    12	`FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY`.
+    13	
+    14	## 1. Ownership
+    15	
+    16	Universal Reciprocity/DDR and the G312 response premises are owner-adopted provisionally, not
+    17	derived or canonized. In their registered regular metric-only scale-free vacuum arena, the active
+    18	equation is
+    19	
+    20	\[
+    21	S_{ab}=R_{ab}-\frac14R g_{ab}=0.
+    22	\tag{1}
+    23	\]
+    24	
+    25	G322 adds no field equation, action, source, matter model, boundary condition, or physical scale.
+    26	It applies an imported mathematical theorem to already accepted data.
+    27	
+    28	## 2. Exact equation match on the registered sector
+    29	
+    30	Contracted Bianchi gives
+    31	
+    32	\[
+    33	\nabla^aS_{ab}=\frac14\nabla_bR.
+    34	\]
+    35	
+    36	Thus on a connected solution region,
+    37	
+    38	\[
+    39	R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0.
+    40	\tag{2}
+    41	\]
+    42	
+    43	The spacelike constraints are
+    44	
+    45	\[
+    46	{}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+    47	\qquad
+    48	D_j(K^{ij}-\gamma^{ij}K)=0.
+    49	\tag{3}
+    50	\]
+    51	
+    52	Every registered G320 datum has the left side of the first equation equal to zero and satisfies all
+    53	three momentum constraints. Therefore its connected sector is
+    54	
+    55	\[
+    56	\boxed{\Lambda=0},
+    57	\]
+    58	
+    59	and equations (1)–(2) become exactly
+    60	
+    61	\[
+    62	\boxed{R_{ab}=0}.
+    63	\tag{4}
+    64	\]
+    65	
+    66	Production independently obtained
+    67	
+    68	```text
+    69	max |Hamiltonian| = 3.552713678800501e-15
+    70	max |momentum|    = 1.7763568394002505e-15
+    71	```
+    72	
+    73	and the implementation-distinct direct connection/Ricci route obtained
+    74	
+    75	```text
+    76	max |Hamiltonian| = 2.6645352591003757e-15
+    77	max |momentum|    = 1.6653345369377348e-15
+    78	max Ricci anchor error = 1.3322676295501878e-15.
+    79	```
+    80	
+    81	These are backward-error checks of the analytic identities, not the global theorem.
+    82	
+    83	## 3. Development category
+    84	
+    85	For one fixed complete datum \((\Sigma,\gamma,K)\), a marked development is a triple
+    86	\((M,g,i)\) such that:
+    87	
+    88	1. \((M,g)\) is a smooth time-oriented solution of (4);
+    89	2. \(i:\Sigma\to M\) embeds \(\Sigma\) as a Cauchy surface;
+    90	3. the induced metric and second fundamental form are exactly \((\gamma,K)\).
+    91	
+    92	A morphism from \((M_1,g_1,i_1)\) to \((M_2,g_2,i_2)\) is an isometric embedding \(F\) satisfying
+    93	
+    94	\[
+    95	F\circ i_1=i_2.
+    96	\tag{5}
+    97	\]
+    98	
+    99	This is the data-preserving marked category. Coordinate, lapse, shift, and harmonic-gauge copies
+   100	represent the same geometry.
+   101	
+   102	## 4. Imported global theorem
+   103	
+   104	The Choquet-Bruhat--Geroch theorem is imported with the following bounded content:
+   105	
+   106	- constraint-satisfying Einstein data possess a maximal Cauchy development;
+   107	- that development extends every other development of the same data;
+   108	- a solution carrying a Cauchy surface embeds into one corresponding maximal development.
+   109	
+   110	The bounded authenticated publisher evidence in `S09_PRIMARY_ABSTRACT_EVIDENCE.json` and the
+   111	repository's registered S09 source row support this exact scope. G322 does not prove the theorem
+   112	computationally or promote it to a UDT postulate.
+   113	
+   114	## 5. Application to G321 data
+   115	
+   116	G321 established, conditional on the local harmonic theorem, that each complete G320 datum is
+   117	smooth, regular, constraint-satisfying, and has a local marked development. Section 2 establishes
+   118	that the active equation is exactly (4) for those data. All declared theorem-interface hypotheses
+   119	therefore match.
+   120	
+   121	Conditional on the imported global theorem, for every fixed complete registered datum there is a
+   122	maximal globally hyperbolic marked development \((M_{\max},g_{\max},i_{\max})\). Every other
+   123	globally hyperbolic development of that same datum has a data-preserving isometric embedding into
+   124	it. Two maximal developments of the same datum are data-preserving isometric.
+   125	
+   126	This closes the maximal globally hyperbolic continuation question **per supplied datum** inside the
+   127	bounded arena. It supplies no map selecting a datum.
+   128	
+   129	## 6. Cross-datum structure
+   130	
+   131	G320 gives
+   132	
+   133	\[
+   134	Q_R[\psi_n]=n^2Q_R[\psi_1].
+   135	\tag{6}
+   136	\]
+   137	
+   138	An isometry of marked developments must preserve their initial data and hence (6). Different
+   139	integer modes therefore remain different marked maximal developments. This yields at least a
+   140	countable family in the registered slice; it is not a full moduli classification.
+   141	
+   142	Changing \(K\) to \(-K\) gives time-reversed complete data. The associated maximal developments
+   143	are time reverses in the marked time-oriented category. G322 does not decide whether different
+   144	data can occur as different unmarked Cauchy slices in one larger spacetime.
+   145	
+   146	## 7. What maximality does not mean
+   147	
+   148	“Maximal globally hyperbolic” is maximal only in the category defined in section 3. It does not
+   149	imply:
+   150	
+   151	- geodesic completeness or infinite proper-time duration;
+   152	- bounded curvature, absence of singularities, or stability;
+   153	- inextendibility as an arbitrary Lorentzian manifold;
+   154	- determinism beyond a Cauchy horizon;
+   155	- physical occupancy, a unique universe, or an observational prediction.
+   156	
+   157	These are logically separate questions. In particular, a non-globally-hyperbolic extension can
+   158	exist without contradicting the theorem.
+   159	
+   160	## 8. Exact landing
+   161	
+   162	Conditional on the imported Choquet-Bruhat--Geroch theorem, each fixed complete G321 datum in the
+   163	registered smooth connected marked-`T^3`, `Lambda=0` family has one maximal globally hyperbolic
+   164	marked development up to data-preserving isometry. The remaining freedom is selection among
+   165	initial data and questions beyond global hyperbolicity—not a missing evolution equation in this
+   166	bounded arena.
+   167	
+   168	The metric, reciprocal kernel, angular cancellation, optical imports, and observational interfaces
+   169	are unchanged. Scale, physical `X_max`, source, matter/mass, stability, singularity structure,
+   170	arbitrary extensions, occupancy, and full UDT extension remain open.
+
+exec
+/bin/bash -lc "nl -ba /intake/package/REPLAY_COMMANDS.txt | sed -n '1,40p'" in /
+ succeeded in 0ms:
+     1	python3 -S derive_maximal_development.py
+     2	python3 -S verify_independent.py
+     3	python3 -S run_catch_proofs.py
+     4	python3 -S verify_package.py
+
+exec
+/bin/bash -lc "nl -ba /intake/package/EXTERNAL_REVIEW_RESPONSE.md | sed -n '1,80p'" in /
+ succeeded in 0ms:
+     1	**Findings**
+     2	- Medium: The required independent S09 source-scope check is only partially evidenced. Both executable checks read the typed `S09` summary row in [SOURCE_VERIFICATION.tsv](/intake/sources/udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv:10) and test summary substrings in [derive_maximal_development.py](/intake/package/derive_maximal_development.py:163) and [verify_independent.py](/intake/package/verify_independent.py:128). The aggregate verifier then only checks the DOI and source-grade string in [SOURCE_NOTE.md](/intake/package/SOURCE_NOTE.md:5) via [verify_package.py](/intake/package/verify_package.py:149). I found no sealed raw official abstract text inside `/intake` to independently authenticate the exact theorem wording from official source content itself. That is a repairable source-evidence gap, not a scientific contradiction.
+     3	- Low: The human run record is incomplete. [RUN_RECORD.md](/intake/package/RUN_RECORD.md:10) lists only two commands, while the registered replay requires four in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1).
+     4	
+     5	I did not find a refuting theorem-interface failure. The detached manifest hash matched, all 40 manifest payloads matched recorded hash and size, the replayed `/work/g322_replay/package` run reproduced the sealed outputs byte-for-byte, and `diff -rq` showed no package drift. The vacuum-sector mapping `S_ab=0` + Bianchi + supplied `Lambda=0` constraints to `Ric_ab=0`, the marked globally hyperbolic development category, and the exclusions against completeness, arbitrary inextendibility, occupancy, and unmarked cross-datum overclaim are stated consistently in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:28) and [THEOREM_INTERFACE.tsv](/intake/package/THEOREM_INTERFACE.tsv:2). Protected inputs also remain unchanged within the sealed package’s own boundary statements in [STATUS_LEDGER.tsv](/intake/package/STATUS_LEDGER.tsv:17) and [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:167).
+     6	
+     7	G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+
+codex
+Authenticated `/intake` successfully: [`REVIEW_MANIFEST.sha256`](/intake/REVIEW_MANIFEST.sha256:1) matches [`REVIEW_MANIFEST.tsv`](/intake/REVIEW_MANIFEST.tsv:1), and all 45 manifest-tracked payloads matched recorded SHA-256 and byte counts before repair inspection. The fresh external response remains `G322_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED` in [`EXTERNAL_REVIEW_RESPONSE.md`](/intake/package/EXTERNAL_REVIEW_RESPONSE.md:7), and the repair ledger is exactly limited to R1/R2 with `scientific_landing = UNCHANGED` in [`REPAIR_LEDGER.tsv`](/intake/package/REPAIR_LEDGER.tsv:2).
+
+R1 is repaired: [`S09_PRIMARY_ABSTRACT_EVIDENCE.json`](/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json:6) has official publisher metadata, three official abstract fragments, and `bounded_excerpt_word_count = 25`; the fragments cover the constraint antecedent, every-other-development extension, and unique maximal embedding scope at lines [10](/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json:10), [11](/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json:11), and [12](/intake/package/S09_PRIMARY_ABSTRACT_EVIDENCE.json:12). That evidence is consumed directly by production in [`derive_maximal_development.py`](/intake/package/derive_maximal_development.py:170), by the independent check in [`verify_independent.py`](/intake/package/verify_independent.py:138), and by the aggregate verifier in [`verify_package.py`](/intake/package/verify_package.py:156). R2 is repaired: [`RUN_RECORD.md`](/intake/package/RUN_RECORD.md:12) lists the same four registered commands as [`REPLAY_COMMANDS.txt`](/intake/package/REPLAY_COMMANDS.txt:1) through [4](/intake/package/REPLAY_COMMANDS.txt:4).
+
+I copied the sealed tree to `/work/g322_replay_1788317190` and ran exactly the four registered commands in `/work/g322_replay_1788317190/package`. The regenerated outputs matched the sealed package byte-for-byte across all 45 manifest files, including [`DERIVATION_RESULT.json`](/intake/package/DERIVATION_RESULT.json:1), [`INDEPENDENT_VERIFICATION.json`](/intake/package/INDEPENDENT_VERIFICATION.json:1), [`CATCH_PROOF_RESULT.json`](/intake/package/CATCH_PROOF_RESULT.json:1), and [`PACKAGE_VERIFICATION_RESULT.json`](/intake/package/PACKAGE_VERIFICATION_RESULT.json:1). All 14 hostile mutations were caught, including the new R13 and R14 registrations in [`run_catch_proofs.py`](/intake/package/run_catch_proofs.py:150) and [155](/intake/package/run_catch_proofs.py:155). The bounded landing and exclusions remain unchanged in [`EXACT_DERIVATION.md`](/intake/package/EXACT_DERIVATION.md:11), [146](/intake/package/EXACT_DERIVATION.md:146), and [`STATUS_LEDGER.tsv`](/intake/package/STATUS_LEDGER.tsv:11).
+
+G322_REPAIRS_ACCEPTED__CONDITIONAL_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT_PER_FIXED_DATUM_UPHELD
+tokens used
+50,750
+
+Script done on 2026-09-01 22:47:45-04:00 [COMMAND_EXIT_CODE="0"]

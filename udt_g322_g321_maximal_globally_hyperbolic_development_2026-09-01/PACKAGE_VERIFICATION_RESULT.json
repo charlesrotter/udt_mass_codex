@@ -1,0 +1,15 @@
+{
+  "data_rows": 8,
+  "hostile_catches": 14,
+  "independent_assertions": 19,
+  "landing": "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY",
+  "primary_excerpt_words": 25,
+  "production_assertions": 62,
+  "repairs_registered": [
+    "R1",
+    "R2"
+  ],
+  "required_files": 34,
+  "schema": "udt-g322-package-verification-v1",
+  "status": "PASS_EXTERNALLY_ACCEPTED__CONDITIONAL_MAXIMAL_GH_PER_FIXED_DATUM"
+}

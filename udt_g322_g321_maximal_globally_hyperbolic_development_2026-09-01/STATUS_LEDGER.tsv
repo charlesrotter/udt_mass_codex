@@ -5,7 +5,7 @@ Local Metric Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE__G312	bounded local
 trace-free Ricci equation	ACTIVE_BOUNDED_CONDITIONAL_EQUATION	becomes Ric=0 on connected G320 sector
 G321 local marked development	EXTERNALLY_ACCEPTED_BOUNDED_CONDITIONAL	one local development per fixed complete datum
 Choquet-Bruhat--Geroch theorem	IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL	not a native UDT theorem
-maximal globally hyperbolic development per datum	INTERNALLY_VERIFIED_CONDITIONAL__FRESH_EXTERNAL_REVIEW_REPAIRABLE	bounded landing retained; repair-only follow-up pending
+maximal globally hyperbolic development per datum	EXTERNALLY_ACCEPTED_CONDITIONAL__REPAIRS_R1_R2_ACCEPTED	one maximal globally hyperbolic marked development per fixed datum only
 different modes as marked developments	DERIVED_CONDITIONAL	Q_R separates initial data
 opposite K signs	DERIVED_TIME_REVERSED_DATA	not two futures from one datum
 geodesic completeness	OPEN_NOT_ENTAILED	maximal GH does not imply it

@@ -1,0 +1,94 @@
+{
+  "baseline_verifier_returncode": 0,
+  "caught_count": 14,
+  "details": [
+    {
+      "expected_rejection": "atlas Hamiltonian",
+      "expected_rejection_observed": true,
+      "label": "R1_constraint_residual_corrupted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "constraint sector drift",
+      "expected_rejection_observed": true,
+      "label": "R2_Lambda_sector_changed",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "raw rank drift",
+      "expected_rejection_observed": true,
+      "label": "R3_principal_completion_reversed",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "theorem import boundary drift",
+      "expected_rejection_observed": true,
+      "label": "R4_imported_theorem_called_machine_proved",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "maximal conclusion drift",
+      "expected_rejection_observed": true,
+      "label": "R5_maximal_conclusion_made_unconditional",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "completeness overclaim",
+      "expected_rejection_observed": true,
+      "label": "R6_maximality_called_geodesic_completeness",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "inextendibility overclaim",
+      "expected_rejection_observed": true,
+      "label": "R7_maximality_called_absolute_inextendibility",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "occupancy overclaim",
+      "expected_rejection_observed": true,
+      "label": "R8_per_datum_called_physical_occupancy",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "unmarked classification overclaim",
+      "expected_rejection_observed": true,
+      "label": "R9_marked_called_unmarked_classification",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "metric/kernel regression",
+      "expected_rejection_observed": true,
+      "label": "R10_metric_kernel_change_smuggled",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "theorem interface drift",
+      "expected_rejection_observed": true,
+      "label": "R11_theorem_interface_H8_promoted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "scope matrix drift",
+      "expected_rejection_observed": true,
+      "label": "R12_scope_matrix_completeness_promoted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "primary excerpt word count",
+      "expected_rejection_observed": true,
+      "label": "R13_primary_abstract_word_count_corrupted",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "human run record incomplete",
+      "expected_rejection_observed": true,
+      "label": "R14_human_run_record_command_omitted",
+      "verifier_returncode": 1
+    }
+  ],
+  "expected_count": 14,
+  "mutation_method": "EPHEMERAL_ACTUAL_EVIDENCE_MUTATION_THEN_AGGREGATE_REJECTION",
+  "schema": "udt-g322-hostile-catches-v1",
+  "status": "PASS_ALL_MUTATIONS_CAUGHT"
+}

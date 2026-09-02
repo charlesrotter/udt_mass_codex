@@ -1,7 +1,7 @@
 # G322 audit report — maximal globally hyperbolic development
 
 Date: 2026-09-01
-Status: `INTERNALLY_DERIVED_AND_IMPLEMENTATION_DISTINCT_VERIFIED__EXTERNAL_REVIEW_PENDING`
+Status: `EXTERNALLY_ACCEPTED_CONDITIONAL__REPAIRS_R1_R2_ACCEPTED`
 
 Ownership:
 `MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__CONDITIONAL_ON_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM`.
@@ -32,8 +32,8 @@ This is not a native derivation of the theorem and not selection of a physical d
 | Maximum momentum residual | `1.7763568394002505e-15` | `1.6653345369377348e-15` |
 | Direct Ricci anchor error | formula route | `1.3322676295501878e-15` |
 | Time-reversal error | exact branch construction | `0.0` |
-| Production machine assertions | 54 | — |
-| Independent assertions | — | 11 |
+| Production machine assertions | 62 | — |
+| Independent assertions | — | 19 |
 
 Production used modes `1,2,3,4`; the independent direct connection/Ricci implementation used
 modes `1,3,5`, different profile controls, and did not import production or read its result.
@@ -59,7 +59,7 @@ matter/mass; observation; physical `X_max`; full UDT extension.
 1. Preregistered at commit `8bf4aedb`: yes.
 2. Full space or bounded scope justified: bounded registered family, explicitly justified.
 3. Independently verified: yes, implementation-distinct local reconstruction; global theorem stays imported.
-4. Every premise audited: yes internally; fresh external review retained the bounded landing and
-   registered only R1/R2 evidence repairs.
+4. Every premise audited: yes; fresh review retained the bounded landing and repair-only follow-up
+   accepted R1/R2.
 
-Current grade remains repair-pending until repair-only external follow-up.
+Current grade: externally accepted conditional, within the exact bounded scope above.

@@ -31,7 +31,8 @@ REQUIRED = (
     "build_review_intake.py", "EXTERNAL_REVIEW_REQUEST.md",
     "S09_PRIMARY_ABSTRACT_EVIDENCE.json", "REPAIR_LEDGER.tsv",
     "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REPAIR_FOLLOWUP_REQUEST.md",
-    "build_repair_followup_intake.py",
+    "build_repair_followup_intake.py", "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md", "REPAIR_PREREGISTRATION_ANCESTRY.md",
 )
 ALLOWED_IMPORTS = {
     "ast", "csv", "fractions", "hashlib", "json", "math", "pathlib", "shutil",

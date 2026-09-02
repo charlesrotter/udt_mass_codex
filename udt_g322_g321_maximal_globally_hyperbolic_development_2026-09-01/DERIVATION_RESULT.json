@@ -1,0 +1,26 @@
+{
+  "arbitrary_Lorentzian_inextendibility": "OPEN_NOT_ENTAILED",
+  "constraint_sector": "Lambda=0",
+  "fixed_lambda_principal_rank": 10,
+  "geodesic_completeness": "OPEN_NOT_ENTAILED",
+  "landing": "FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY",
+  "machine_assertion_count": 62,
+  "max_hamiltonian_residual": 3.552713678800501e-15,
+  "max_momentum_residual": 1.7763568394002505e-15,
+  "maximal_GH_per_fixed_datum": "CONDITIONAL_IMPORTED_THEOREM_CONSEQUENCE",
+  "metric_kernel_angular_interface": "UNCHANGED",
+  "physical_occupancy": "OPEN_NOT_SELECTED",
+  "raw_tracefree_principal_rank": 9,
+  "schema": "udt-g322-maximal-globally-hyperbolic-development-v1",
+  "source_fingerprints": {
+    "S09_PRIMARY_ABSTRACT_EVIDENCE.json": "9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5",
+    "udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md": "4eb48002d2424e9745d92fcbf734213dec81a912343057d76775961f93b6b378",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md": "8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63",
+    "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md": "0a1410c190e3b21ab1a67d694ec8c19699beba0ece49894f6157c1dbb8365c5b",
+    "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4",
+    "udt_gr_lorentzian_relational_architecture_audit_2026-07-27/SOURCE_VERIFICATION.tsv": "4be070911b3547a706d342e296487b2a6f62017cb9bbfd7e470d91dd5ce5afbb"
+  },
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "theorem_interface_status": "CONDITIONAL_APPLICATION_SUPPORTED__IMPORTED_THEOREM_NOT_MACHINE_PROVED",
+  "unmarked_cross_datum_classification": "OPEN_NOT_CLASSIFIED"
+}

@@ -1,0 +1,9 @@
+id	hypothesis	status	evidence_type	boundary
+H1	smooth connected initial manifold	SUPPORTED_BOUNDED	analytic-domain	marked T3
+H2	smooth gamma and symmetric K	SUPPORTED_BOUNDED	analytic-regularity	registered regular branch
+H3	vacuum constraints	SUPPORTED_BOUNDED	identity-plus-backward-error	Lambda=0
+H4	active equation equals Ric=0	SUPPORTED_BOUNDED	Bianchi-and-sector-algebra	connected Lambda=0 sector
+H5	at least one local development	CONDITIONAL_IMPORTED	G321-theorem-application	not machine-proved
+H6	globally hyperbolic development category	IMPORTED_DEFINITION	theorem-interface	Sigma is Cauchy
+H7	data-preserving isometric embeddings	IMPORTED_DEFINITION	theorem-interface	marked equivalence
+H8	maximal extension and uniqueness	CONDITIONAL_IMPORTED	primary-publisher-abstract	not a UDT derivation
