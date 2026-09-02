@@ -143,8 +143,6 @@ def main() -> None:
     gauge_sum = sum(gauge_w)
     gate(all(-value + P[index] * gauge_sum == 0
              for index, value in enumerate(gauge_w)), "gauge_ode_solution")
-    gate(all(2 * P[index] == 2 * P[index] for index in range(3)),
-         "time_shift_lie_derivative_witness")
 
     # Exact all-mode checks at unrelated rational times and amplitudes.
     samples = (

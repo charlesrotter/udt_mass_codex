@@ -35,7 +35,7 @@ def main() -> None:
     independent = load(package / "INDEPENDENT_VERIFICATION.json")
     hostile = load(package / "CATCH_PROOF_RESULT.json")
     gate(production["landing"] == LANDING, "production_landing")
-    gate(production["assertion_count"] == 37, "production_assertion_count")
+    gate(production["assertion_count"] == 36, "production_assertion_count")
     gate(independent["assertion_count"] == 111, "independent_assertion_count")
     gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
     gate(production["mode_dimensions"] == {

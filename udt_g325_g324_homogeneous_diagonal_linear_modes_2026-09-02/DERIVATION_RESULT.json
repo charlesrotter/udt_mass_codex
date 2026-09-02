@@ -1,7 +1,7 @@
 {
   "Xmax_selected": false,
   "angular_sector_changed": false,
-  "assertion_count": 37,
+  "assertion_count": 36,
   "background_exponents": [
     "-1/3",
     "2/3",
@@ -17,7 +17,6 @@
     "connected_scalar_particular_unique",
     "connected_scalar_metric_coefficients",
     "gauge_ode_solution",
-    "time_shift_lie_derivative_witness",
     "tracefree_time_zero_0",
     "tracefree_space_zero_0",
     "einstein_time_0",
