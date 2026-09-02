@@ -1,0 +1,12 @@
+{
+  "assertion_count": 5,
+  "controls": [
+    "wrong_ode_coefficient_caught",
+    "dropped_repeated_root_log_mode_caught",
+    "false_torus_periodicity_caught",
+    "fake_curvature_free_log_mode_caught",
+    "wrong_combined_dimension_caught"
+  ],
+  "schema": "udt-g326-catch-proofs-v1",
+  "status": "PASS"
+}
