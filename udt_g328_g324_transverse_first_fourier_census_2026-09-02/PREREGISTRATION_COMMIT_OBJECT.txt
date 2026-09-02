@@ -1,0 +1,8 @@
+tree 2f4f3619296f1abdf7581b69533baf4e2fcc0857
+parent a61af5f6451c6ff46f00bce833fa172167d52f9e
+author Charles Rotter <charles@charlesrotter.com> 1788384452 -0400
+committer Charles Rotter <charles@charlesrotter.com> 1788384452 -0400
+
+Preregister G328 transverse Fourier census
+
+Freeze the complete ten-component, periodic-gauge-quotiented primitive transverse-mode classification before deriving any outcome.

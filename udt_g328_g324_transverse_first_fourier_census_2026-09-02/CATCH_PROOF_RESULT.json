@@ -1,0 +1,14 @@
+{
+  "assertion_count": 7,
+  "caught": [
+    "omitted_lapse_equation_rejected",
+    "nonperiodic_affine_gauge_rejected",
+    "wrong_transverse_gradient_power_rejected",
+    "fake_k_zero_scalar_elimination_rejected",
+    "discarded_second_time_branch_rejected",
+    "wrong_real_phase_dimension_rejected",
+    "sign_flipped_reconstruction_rejected"
+  ],
+  "schema": "udt-g328-transverse-catch-proofs-v1",
+  "status": "ALL_HOSTILE_MUTATIONS_REJECTED"
+}
