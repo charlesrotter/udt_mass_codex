@@ -1,0 +1,25 @@
+{
+  "schema": "udt-g324-gls-primary-source-bounded-evidence-v1",
+  "title": "Timelike completeness as an obstruction to C0-extensions",
+  "authors": [
+    "Gregory J. Galloway",
+    "Eric Ling",
+    "Jan Sbierski"
+  ],
+  "arxiv": "1704.00353v4",
+  "related_doi": "10.1007/s00220-017-3019-2",
+  "url": "https://arxiv.org/abs/1704.00353",
+  "retrieved_date": "2026-09-02",
+  "source_grade": "PRIMARY_AUTHOR_ARXIV_FULL_TEXT_BOUNDED_EXCERPT",
+  "bounded_excerpt_word_count": 20,
+  "copyright_boundary": "Two load-bearing fragments totaling 20 whitespace-delimited words are retained; all other content is paraphrased.",
+  "boundary_nonempty_fragment": "∂+M∪∂−M≠∅.",
+  "endpoint_fragment": "If ∂+M≠∅, then there is a future directed timelike geodesic in M that has a future endpoint on ∂M.",
+  "scope_paraphrase": "For a smooth at least C2 globally hyperbolic spacetime inside a C0 extension, the boundary is nonempty and a nonempty future boundary is reached by a future timelike geodesic. Hence future timelike geodesic completeness rules out the future boundary; the time dual locates a past-directed timelike geodesic at a remaining past boundary.",
+  "not_imported": [
+    "a UDT physical law",
+    "a field equation",
+    "past C0 inextendibility of the G323 metric",
+    "physical occupancy or topology selection"
+  ]
+}

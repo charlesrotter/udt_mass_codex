@@ -1,0 +1,12 @@
+{
+  "assertion_count": 5,
+  "controls": {
+    "erased_lattice_modulus_rejected": true,
+    "finite_future_parameter_rejected": true,
+    "missing_global_hyperbolicity_rejected": true,
+    "new_physical_law_dependency_rejected": true,
+    "zero_curvature_obstruction_rejected": true
+  },
+  "schema": "udt-g324-catch-proofs-v1",
+  "status": "PASS"
+}
