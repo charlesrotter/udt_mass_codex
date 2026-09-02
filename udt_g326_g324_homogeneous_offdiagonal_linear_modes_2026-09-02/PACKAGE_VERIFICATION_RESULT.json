@@ -1,5 +1,5 @@
 {
-  "assertion_count": 56,
+  "assertion_count": 57,
   "checks": [
     "production_landing",
     "production_assertion_count",
@@ -37,9 +37,10 @@
     "count_not_population",
     "exact_fourier_boundary",
     "lay_stability_boundary",
-    "status_external_science_accepted_repairs_pending",
+    "status_external_repairs_accepted",
     "fresh_external_acceptance_token",
     "external_report_acceptance_token",
+    "external_repair_acceptance_token",
     "writable_copy_command_registered",
     "writable_permission_command_registered",
     "sealed_intake_remains_read_only",
@@ -62,5 +63,5 @@
   "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
   "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
   "schema": "udt-g326-package-verification-v1",
-  "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP"
+  "status": "PASS_EXTERNAL_G326_REPAIRS_ACCEPTED"
 }

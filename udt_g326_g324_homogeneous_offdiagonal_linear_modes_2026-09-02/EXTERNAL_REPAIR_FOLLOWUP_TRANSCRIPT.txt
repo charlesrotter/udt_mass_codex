@@ -1,0 +1,3780 @@
+Script started on 2026-09-02 13:42:58-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a06337-874b-7c80-9de0-3c859c7fb9f8
+--------
+user
+Act as a fresh zero-context repair-only adversarial scientific reviewer. The sealed G326 repair-follow-up intake is mounted read-only at /intake. First authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload. Inspect only /intake; do not edit evidence files or continue the research. Follow /intake/REPLAY_PRECONDITION.md and use /work for writable ephemeral checks. Network access exists solely for Codex API transport; web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Do not access any repository or protected package. Verify only registered repairs R1 and R2 and whether the already accepted bounded G326 scientific landing is unchanged. Independently prove that the exact source-integrity gates and all three canned-substitution rejection tests are live, and verify the read-only-intake to writable-ephemeral-copy replay procedure. Run the four registered commands literally in the writable copy. Do not reopen the scientific question. Write the detailed report to /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md and end it with exactly one allowed outcome from REPAIR_FOLLOWUP_REQUEST.md. In the final response state the outcome and report path.\n\n# G326 repair-only external follow-up request
+
+Fresh-review verdict: `ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`.
+
+Verify only repairs R1 and R2 in `REPAIR_LEDGER.tsv` and whether the unchanged bounded scientific
+landing remains supported. Do not reopen, extend, or continue the research.
+
+## R1 — exact computational-source integrity
+
+1. Confirm that `verify_package.py` pins exact SHA-256 digests for
+   `derive_offdiagonal_modes.py`, `verify_offdiagonal_independent.py`, and
+   `run_catch_proofs.py`.
+2. Confirm that the aggregate verifier executably replaces each of those three sources, one at a
+   time, with a canned banked-artifact emitter and requires the mutated package to fail at the
+   corresponding `source_integrity:<name>` gate.
+3. Confirm these are live rejection proofs rather than string-only assertions.
+4. Follow `REPLAY_PRECONDITION.md`, run the four registered commands literally, and confirm exact
+   reproduction of all three banked JSON artifacts plus successful aggregate verification.
+
+## R2 — writable ephemeral-copy replay
+
+1. Confirm that `REPLAY_PRECONDITION.md` explicitly preserves the sealed intake as read-only.
+2. Confirm that its copy and permission commands create a writable ephemeral copy suitable for the
+   registered replay without changing evidence in the intake.
+3. Confirm that the scope permits checks only in that ephemeral copy and does not permit evidence
+   edits or research continuation.
+
+## Scientific boundary
+
+R1 and R2 must not change the metric, reciprocal kernel, angular sector, adopted field equation,
+off-diagonal ODE, solution basis, six-constant classification, combined twelve-constant count, or
+any premise. The bounded landing remains limited to homogeneous synchronous first variation. It
+does not establish full linear or nonlinear stability, classify nonzero Fourier modes, select a
+physical history, topology, occupancy, scale, observation, or `X_max`.
+
+Allowed follow-up outcomes:
+
+- accept R1 and R2 and the unchanged bounded landing;
+- identify a concrete incomplete registered repair;
+- retain the already accepted bounded scientific grade while recording any remaining evidence
+  defect.
+codex
+I’m treating this as a sealed-evidence review. I’ll first inventory `/intake`, read the replay precondition and scope files, then verify the manifest and payload hashes before I touch any writable replay work in `/work`.
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.tsv" in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+ succeeded in 0ms:
+relative_path	bytes	sha256
+ADVERSARIAL_REVIEW_REQUEST.md	2487	4c6c5966ddc140cc2a3b44ee34b4ed38a443d791d2b9fec2ca45add68d22d982
+AUDIT_REPORT.md	2812	345e35355974b850d1d91ef65de570dc8409a71c56cb7d308be05ea1782951a5
+CATCH_PROOF_RESULT.json	308	3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa
+COMPLETENESS_MAP.md	1253	7c1d9ddc35743cdf8c51ccfacfb2e79c8f09e7eccfa041aa7fd131aed9886173
+DERIVATION_RESULT.json	2752	6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12
+EVIDENCE_GATES.md	1329	308c6fed306887520113583f9071888311eff21d6d91c872973fc0c09258ecee
+EXACT_DERIVATION.md	7882	e2a986473cbef35ae69097c2642324a91e1053b4f028e65f3bece0320540a81e
+EXTERNAL_REVIEW_FINAL_RESPONSE.md	124	442c34b6dd65f47e339be1022d719a62111cb712a40102de64357a837a961a73
+EXTERNAL_REVIEW_RESPONSE.md	11206	ecb692358b65dab95314ad4eb6d0b741c3d006c4099a6b007696bb7da16de14c
+EXTERNAL_REVIEW_TRANSCRIPT.txt	301253	91bdb44f560b7e027edc8b244ceb8af5e7e879f4f804c30a6da1f2655dcd67d9
+EXTERNAL_REVIEW_TRANSMISSION.md	1695	e47d8f0d82d199e66827704b486f4279a42042216fedc1e1178804cdaf0de0d2
+INDEPENDENT_VERIFICATION.json	6100	0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6
+LAY_REPORT.md	1464	f01071d8216a8588944d00c4021b4ea56ebaaac9254e2cde16574216813ded70
+MAP.md	1801	1b0d8c86b36641914bd9a47c8492addf0127571106c467057888c8df1d514eb1
+PACKAGE_VERIFICATION_RESULT.json	2591	044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d
+PREMISE_LEDGER.tsv	1004	5a66bff2decbfb01b8c589ed7fa9f586dd2897322e72016bd6148a9577f7811b
+PREREGISTRATION.md	4268	f00a440ab040366cfd88c5f5d773aa7556f08a2b10273a0342e597936f358731
+PREREGISTRATION_EXECUTION_NOTE.md	1096	35399d1450b03c815be86e1131f29102c32889c0d55e561aa4abdf45ed01ef88
+REPAIR_FOLLOWUP_REQUEST.md	2167	b0caffc2a1936456fa6d46731291a9a90c22d6d8f1fdab6857bc47270478916a
+REPAIR_LEDGER.tsv	580	20b841321620c1b6d9d642c83a057e5b3ffae04e512c142cbc15fdaf1e192960
+REPLAY_COMMANDS.txt	354	9fab85e62d1e0c1593419701609a0824ac855a3e15baeeef2cb7fe969934dc6e
+REPLAY_PRECONDITION.md	626	15ba57461ae519919b5ee95c8f2ecb6ca3098747a743fd62e352a6afabd0100f
+REVIEW_SCOPE.json	682	c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8
+RUN_RECORD.md	1806	99731e3a9e48043b33bd5eb0df95f386cb45492077e4ec7c9a41482cb304d09d
+SOURCE_SCOPE.tsv	703	cef1193f752f6e1e9c03281965f97978c1c4cd342355b7ebce880f3d1ffcf7c0
+STATUS_LEDGER.tsv	760	9606bd2458012b2699f83c11a5781a7011e60dbf157deb3c4ccac04a02015966
+build_repair_followup_intake.py	4872	d8a77bce715309f589f5367909f2df9442c51717761fa70620d7aef09432d30b
+derive_offdiagonal_modes.py	7416	8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2
+run_catch_proofs.py	1779	8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add
+sources/CURRENT_SCIENTIFIC_PREMISES.tsv	635056	8e8e2e84a2a29b274fa4a9e0c18ff70e9ccbf421c2f59ce7754d721a1c8925bf
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md	1871	e4adabc1e862423cc68297305ed51903107feac135497d33f26f230f6a192fe6
+sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	9131	186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b
+sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md	7728	5563c949b952fd0ddd0365f58e24eb14894d8bdaae7cab8a6bc5fad983bee776
+sources/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md	6339	b3ddb761d74fc5a712bda41af090b9c0610f4560758f678905b3860f3bb7a99c
+verify_offdiagonal_independent.py	9656	b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5
+verify_package.py	10007	37c2741ec8260206f09d4fcf09d5275e36160438216ddfdf9458c808dcf79a37
+verify_review_intake.py	1416	347d7203c5e08468ce7532abb6f53c0de0ae6362096cd345ccf92bfeceb53bb0
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPLAY_PRECONDITION.md" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPAIR_FOLLOWUP_REQUEST.md" in /return
+ succeeded in 0ms:
+# G326 sealed replay precondition
+
+The sealed intake is deliberately read-only. Before running `REPLAY_COMMANDS.txt`, make a writable
+ephemeral copy without changing the intake:
+
+```bash
+mkdir -p /work/g326_review_writable
+cp -r /intake/. /work/g326_review_writable/
+chmod -R u+w /work/g326_review_writable
+cd /work/g326_review_writable
+```
+
+Then run the four lines in `REPLAY_COMMANDS.txt` literally. Generated files go only under
+`.review_runtime/` in the writable copy. The sealed intake itself remains read-only throughout.
+
+This is an execution precondition, not a scientific premise and not permission to edit evidence.
+
+ succeeded in 0ms:
+{
+  "allowed_question": "R1 exact source-integrity and canned-substitution rejection; R2 explicit writable ephemeral-copy precondition; unchanged bounded G326 scientific landing",
+  "ephemeral_copy_checks_allowed": true,
+  "evidence_read_only": true,
+  "internet_browsing_allowed": false,
+  "law_history_scale_selection_allowed": false,
+  "manifest_payload_count": 38,
+  "protected_package_access_allowed": false,
+  "purpose": "read-only repair-only verification of G326 R1 and R2",
+  "repository_access_allowed": false,
+  "research_continuation_allowed": false,
+  "schema": "udt-g326-r1-r2-repair-followup-scope-v1",
+  "source_commit": "265f43741eacc4e55cd9303f51ffc9e53c973a1f"
+}
+
+ succeeded in 0ms:
+# G326 repair-only external follow-up request
+
+Fresh-review verdict: `ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`.
+
+Verify only repairs R1 and R2 in `REPAIR_LEDGER.tsv` and whether the unchanged bounded scientific
+landing remains supported. Do not reopen, extend, or continue the research.
+
+## R1 — exact computational-source integrity
+
+1. Confirm that `verify_package.py` pins exact SHA-256 digests for
+   `derive_offdiagonal_modes.py`, `verify_offdiagonal_independent.py`, and
+   `run_catch_proofs.py`.
+2. Confirm that the aggregate verifier executably replaces each of those three sources, one at a
+   time, with a canned banked-artifact emitter and requires the mutated package to fail at the
+   corresponding `source_integrity:<name>` gate.
+3. Confirm these are live rejection proofs rather than string-only assertions.
+4. Follow `REPLAY_PRECONDITION.md`, run the four registered commands literally, and confirm exact
+   reproduction of all three banked JSON artifacts plus successful aggregate verification.
+
+## R2 — writable ephemeral-copy replay
+
+1. Confirm that `REPLAY_PRECONDITION.md` explicitly preserves the sealed intake as read-only.
+2. Confirm that its copy and permission commands create a writable ephemeral copy suitable for the
+   registered replay without changing evidence in the intake.
+3. Confirm that the scope permits checks only in that ephemeral copy and does not permit evidence
+   edits or research continuation.
+
+## Scientific boundary
+
+R1 and R2 must not change the metric, reciprocal kernel, angular sector, adopted field equation,
+off-diagonal ODE, solution basis, six-constant classification, combined twelve-constant count, or
+any premise. The bounded landing remains limited to homogeneous synchronous first variation. It
+does not establish full linear or nonlinear stability, classify nonzero Fourier modes, select a
+physical history, topology, occupancy, scale, observation, or `X_max`.
+
+Allowed follow-up outcomes:
+
+- accept R1 and R2 and the unchanged bounded landing;
+- identify a concrete incomplete registered repair;
+- retain the already accepted bounded scientific grade while recording any remaining evidence
+  defect.
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.sha256" in /return
+ succeeded in 0ms:
+d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPAIR_LEDGER.tsv" in /return
+ succeeded in 0ms:
+repair	status	preregistered_problem	required_closure	scientific_effect
+R1	IMPLEMENTED_PENDING_REPAIR_FOLLOWUP	aggregate verifier accepts canned replacements for independent and hostile scripts	exact source-integrity gates plus three executable canned-substitution rejection proofs	none; retained accepted G326 landing
+R2	IMPLEMENTED_PENDING_REPAIR_FOLLOWUP	sealed permissions can survive an archive-style copy and prevent literal replay	explicit REPLAY_PRECONDITION plus aggregate gates preserving read-only intake and writable ephemeral copy	none; retained accepted G326 landing
+
+codex
+I’ve confirmed the scope and the repair request framing. Next I’m authenticating the intake manifest and reading the verifier/replay scripts so I can test only the registered R1/R2 behavior in a writable copy.
+Sealed review will proceed from evidence authentication to replay and rejection-proof execution, limited to R1/R2 and the unchanged bounded landing.
+  → Authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload under /intake
+  • Inspect R1/R2 evidence files and the four registered replay commands without expanding scientific scope
+  • Create writable ephemeral copy in /work per REPLAY_PRECONDITION.md and run the four commands literally
+  • Independently exercise the three canned-substitution rejection tests in the writable copy and confirm source-integrity gates are live
+  • Write detailed report to /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md with one allowed outcome
+exec
+/bin/bash -lc 'sha256sum /intake/REVIEW_MANIFEST.tsv' in /return
+ succeeded in 0ms:
+d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e  /intake/REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -lc 'find /intake -type f | sort' in /return
+ succeeded in 0ms:
+/intake/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/AUDIT_REPORT.md
+/intake/CATCH_PROOF_RESULT.json
+/intake/COMPLETENESS_MAP.md
+/intake/DERIVATION_RESULT.json
+/intake/EVIDENCE_GATES.md
+/intake/EXACT_DERIVATION.md
+/intake/EXTERNAL_REVIEW_FINAL_RESPONSE.md
+/intake/EXTERNAL_REVIEW_RESPONSE.md
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt
+/intake/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/INDEPENDENT_VERIFICATION.json
+/intake/LAY_REPORT.md
+/intake/MAP.md
+/intake/PACKAGE_VERIFICATION_RESULT.json
+/intake/PREMISE_LEDGER.tsv
+/intake/PREREGISTRATION.md
+/intake/PREREGISTRATION_EXECUTION_NOTE.md
+/intake/REPAIR_FOLLOWUP_REQUEST.md
+/intake/REPAIR_LEDGER.tsv
+/intake/REPLAY_COMMANDS.txt
+/intake/REPLAY_PRECONDITION.md
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/RUN_RECORD.md
+/intake/SOURCE_SCOPE.tsv
+/intake/STATUS_LEDGER.tsv
+/intake/build_repair_followup_intake.py
+/intake/derive_offdiagonal_modes.py
+/intake/run_catch_proofs.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+/intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md
+/intake/sources/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md
+/intake/verify_offdiagonal_independent.py
+/intake/verify_package.py
+/intake/verify_review_intake.py
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPLAY_COMMANDS.txt" in /return
+ succeeded in 0ms:
+python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
+python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import hashlib, sys
+manifest = Path('/intake/REVIEW_MANIFEST.tsv').read_text().splitlines()
+header = manifest[0].split('\\t')
+assert header == ['relative_path','bytes','sha256'], header
+root = Path('/intake')
+seen = 0
+errors = []
+for line in manifest[1:]:
+    rel, b, h = line.split('\\t')
+    p = root / rel
+    if not p.is_file():
+        errors.append(f'MISSING\\t{rel}')
+        continue
+    data = p.read_bytes()
+    if len(data) "'!= int(b):
+        errors.append(f'"'BYTES\\t{rel}\\t{len(data)}\\t{b}')
+    digest = hashlib.sha256(data).hexdigest()
+    if digest "'!= h:
+        errors.append(f'"'SHA256\\t{rel}\\t{digest}\\t{h}')
+    seen += 1
+print(f'MANIFEST_ROWS={seen}')
+if errors:
+    print('\\n'.join(errors))
+    sys.exit(1)
+# also check for extra files not listed
+manifest_paths = {line.split('\\t')[0] for line in manifest[1:]}
+actual_paths = {str(p.relative_to(root)) for p in root.rglob('*') if p.is_file()}
+extra = sorted(actual_paths - manifest_paths)
+missing = sorted(manifest_paths - actual_paths)
+print(f'ACTUAL_FILES={len(actual_paths)}')
+print(f'EXTRA_FILES={len(extra)}')
+print(f'MISSING_FILES={len(missing)}')
+if extra:
+    print('\\n'.join('EXTRA\\t'+x for x in extra))
+    sys.exit(1)
+PY" in /return
+ exited 1 in 0ms:
+MANIFEST_ROWS=38
+ACTUAL_FILES=40
+EXTRA_FILES=2
+MISSING_FILES=0
+EXTRA	REVIEW_MANIFEST.sha256
+EXTRA	REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/verify_review_intake.py" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/verify_package.py" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/derive_offdiagonal_modes.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Authenticate a sealed G326 review intake without repository access."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main() -> None:
+    root = Path(__file__).resolve().parent
+    manifest = root / "REVIEW_MANIFEST.tsv"
+    seal = root / "REVIEW_MANIFEST.sha256"
+    scope = root / "REVIEW_SCOPE.json"
+    assert digest(manifest) == seal.read_text().strip(), "detached manifest seal mismatch"
+    rows = list(csv.DictReader(manifest.open(newline=""), delimiter="\t"))
+    for row in rows:
+        path = root / row["relative_path"]
+        assert path.is_file(), row["relative_path"]
+        assert path.stat().st_size == int(row["bytes"]), row["relative_path"]
+        assert digest(path) == row["sha256"], row["relative_path"]
+    metadata = json.loads(scope.read_text())
+    assert len(rows) == metadata["manifest_payload_count"]
+    assert metadata["evidence_read_only"] is True
+    assert metadata["research_continuation_allowed"] is False
+    print(json.dumps({
+        "status": "PASS",
+        "manifest_payload_count": len(rows),
+        "total_file_count": len(rows) + 2,
+        "manifest_sha256": digest(manifest),
+        "scope_sha256": digest(scope),
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Production algebra for the bounded G326 homogeneous off-diagonal census."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+
+LANDING = (
+    "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__"
+    "ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__"
+    "NO_FULL_STABILITY_CLAIM"
+)
+
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+PAIRS = ((0, 1), (0, 2), (1, 2))
+
+
+def rank(rows: list[list[Fraction]]) -> int:
+    matrix = [row[:] for row in rows]
+    row_index = 0
+    for column in range(len(matrix[0]) if matrix else 0):
+        pivot = next((r for r in range(row_index, len(matrix)) if matrix[r][column]), None)
+        if pivot is None:
+            continue
+        matrix[row_index], matrix[pivot] = matrix[pivot], matrix[row_index]
+        value = matrix[row_index][column]
+        matrix[row_index] = [entry / value for entry in matrix[row_index]]
+        for r in range(len(matrix)):
+            if r == row_index or not matrix[r][column]:
+                continue
+            value = matrix[r][column]
+            matrix[r] = [left - value * right
+                         for left, right in zip(matrix[r], matrix[row_index])]
+        row_index += 1
+    return row_index
+
+
+def characteristic(pi: Fraction, pj: Fraction, exponent: Fraction) -> Fraction:
+    """Coefficient of T^(m-2) in the exact off-diagonal Ricci ODE."""
+    return exponent * exponent - 2 * (pi + pj) * exponent + 4 * pi * pj
+
+
+def characteristic_derivative(pi: Fraction, pj: Fraction, exponent: Fraction) -> Fraction:
+    """Log-solution coefficient after differentiating the power solution in m."""
+    return 2 * exponent - 2 * (pi + pj)
+
+
+def cover_map() -> list[list[Fraction]]:
+    """A^i_j -> 3 diagonal plus 5 off-diagonal lattice coefficients at C_i=1."""
+    # Columns: A11,A12,A13,A21,A22,A23,A31,A32,A33.
+    rows = []
+    for column in (0, 4, 8):
+        row = [Fraction(0)] * 9
+        row[column] = 1
+        rows.append(row)
+    for column in (1, 3, 2, 6):
+        row = [Fraction(0)] * 9
+        row[column] = 1
+        rows.append(row)
+    row = [Fraction(0)] * 9
+    row[5] = 1
+    row[7] = 1
+    rows.append(row)
+    return rows
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    gate(sum(P) == 1, "background_kasner_sum")
+    gate(sum(value * value for value in P) == 1, "background_kasner_square_sum")
+
+    roots: dict[str, list[str]] = {}
+    for i, j in PAIRS:
+        pi, pj = P[i], P[j]
+        first, second = 2 * pi, 2 * pj
+        label = f"{i + 1}{j + 1}"
+        gate(characteristic(pi, pj, first) == 0, f"root_{label}_left")
+        gate(characteristic(pi, pj, second) == 0, f"root_{label}_right")
+        discriminant = 4 * (pi - pj) ** 2
+        gate(discriminant >= 0, f"real_roots_{label}")
+        if pi == pj:
+            gate(first == second, f"repeated_root_{label}")
+            gate(characteristic_derivative(pi, pj, first) == 0,
+                 f"log_solution_exact_{label}")
+            roots[label] = [f"T^{first}", f"T^{first}*log(T/Tref)"]
+        else:
+            gate(first != second, f"distinct_roots_{label}")
+            roots[label] = [f"T^{first}", f"T^{second}"]
+
+    gate(sum(len(values) for values in roots.values()) == 6,
+         "six_complete_offdiagonal_integration_constants")
+
+    # Constant linear cover-coordinate changes have one transverse-rotation kernel.
+    full_map = cover_map()
+    gate(len(full_map) == 8 and rank(full_map) == 8, "full_cover_image_rank_eight")
+    offdiagonal_rows = full_map[3:]
+    gate(len(offdiagonal_rows) == 5 and rank(offdiagonal_rows) == 5,
+         "offdiagonal_cover_image_rank_five")
+    transverse_rotation = [Fraction(0)] * 9
+    transverse_rotation[5] = 1
+    transverse_rotation[7] = -1
+    gate(all(sum(row[column] * transverse_rotation[column] for column in range(9)) == 0
+             for row in full_map), "cover_map_kernel_contains_transverse_rotation")
+    gate(9 - rank(full_map) == 1, "cover_map_kernel_exactly_one_dimensional")
+
+    # The five nonzero off-diagonal image generators are affine on the cover and nonperiodic on T3.
+    periods = (Fraction(5), Fraction(7), Fraction(11))
+    affine_generators = ((0, 1), (1, 0), (0, 2), (2, 0), (1, 2))
+    for target, source in affine_generators:
+        gate(periods[source] != 0, f"affine_jump_nonzero_{target}{source}")
+    gate(len(affine_generators) == 5, "five_nonperiodic_offdiagonal_cover_generators")
+
+    # The transverse repeated-root mode is a genuine curvature-changing Kasner tangent.
+    time = Fraction(11, 5)
+    cross_shear = Fraction(13, 17)
+    tidal_cross = -cross_shear / (3 * time**2)
+    gate(tidal_cross == Fraction(-325, 6171), "transverse_tidal_witness_exact")
+    gate(tidal_cross != 0, "transverse_tidal_witness_nonzero")
+    gate(Fraction(4) * cross_shear**2 / (9 * time**4) > 0,
+         "transverse_tidal_eigenvalue_discriminant_positive")
+
+    # Structural first-order counts and boundaries.
+    gate(5 + 1 == 6, "offdiagonal_dimension_partition")
+    gate(3 + 5 == 8, "combined_quotient_lattice_dimension_eight")
+    gate(1 + 8 + 2 + 1 == 12, "combined_homogeneous_dimension_twelve")
+    gate(P[1] == P[2], "transverse_background_degeneracy")
+
+    result = {
+        "schema": "udt-g326-homogeneous-offdiagonal-production-v1",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "background_exponents": [str(value) for value in P],
+        "offdiagonal_ode": (
+            "k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0"
+        ),
+        "general_solutions": roots,
+        "mode_dimensions": {
+            "fixed_quotient_lattice_moduli": 5,
+            "local_transverse_kasner_shear": 1,
+            "quotient_legal_gauge": 0,
+            "connected_scalar_curvature": 0,
+        },
+        "combined_g325_g326_dimensions": {
+            "residual_time_translation_gauge": 1,
+            "fixed_quotient_lattice_moduli": 8,
+            "local_kasner_shear_components": 2,
+            "connected_scalar_curvature": 1,
+            "total_integration_constants": 12,
+        },
+        "transverse_tidal_witness": "delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)",
+        "linearized_scalar_curvature": "0",
+        "full_homogeneous_synchronous_first_variation_closed_with_g325": True,
+        "full_linear_stability_proved": False,
+        "nonlinear_stability_proved": False,
+        "inhomogeneous_modes_classified": False,
+        "physical_occupancy_selected": False,
+        "physical_scale_selected": False,
+        "Xmax_selected": False,
+        "metric_changed": False,
+        "kernel_changed": False,
+        "angular_sector_changed": False,
+        "python_version": sys.version,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate, provenance, and exact-replay verifier for the bounded G326 package."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import shlex
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+LANDING = (
+    "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__"
+    "ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__"
+    "NO_FULL_STABILITY_CLAIM"
+)
+
+SOURCE_SHA256 = {
+    "derive_offdiagonal_modes.py":
+        "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+    "verify_offdiagonal_independent.py":
+        "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+    "run_catch_proofs.py":
+        "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+}
+
+
+def load(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def canned_emitter(artifact: str) -> str:
+    return f'''#!/usr/bin/env python3
+import argparse
+from pathlib import Path
+parser = argparse.ArgumentParser()
+parser.add_argument("--output", required=True)
+args = parser.parse_args()
+root = Path(__file__).resolve().parent
+rendered = (root / "{artifact}").read_text(encoding="utf-8")
+output = root / args.output
+output.parent.mkdir(parents=True, exist_ok=True)
+output.write_text(rendered, encoding="utf-8")
+print(rendered, end="")
+'''
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default=None)
+    args = parser.parse_args()
+    package = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    production = load(package / "DERIVATION_RESULT.json")
+    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    hostile = load(package / "CATCH_PROOF_RESULT.json")
+
+    gate(production["landing"] == LANDING, "production_landing")
+    gate(production["assertion_count"] == 33, "production_assertion_count")
+    gate(independent["assertion_count"] == 137, "independent_assertion_count")
+    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    gate(production["mode_dimensions"] == {
+        "connected_scalar_curvature": 0,
+        "fixed_quotient_lattice_moduli": 5,
+        "local_transverse_kasner_shear": 1,
+        "quotient_legal_gauge": 0,
+    }, "exact_offdiagonal_dimensions")
+    gate(production["combined_g325_g326_dimensions"] == {
+        "connected_scalar_curvature": 1,
+        "fixed_quotient_lattice_moduli": 8,
+        "local_kasner_shear_components": 2,
+        "residual_time_translation_gauge": 1,
+        "total_integration_constants": 12,
+    }, "exact_combined_dimensions")
+    gate(production["general_solutions"] == {
+        "12": ["T^-2/3", "T^4/3"],
+        "13": ["T^-2/3", "T^4/3"],
+        "23": ["T^4/3", "T^4/3*log(T/Tref)"],
+    }, "complete_solution_basis")
+    gate(production["linearized_scalar_curvature"] == "0",
+         "production_scalar_zero")
+    gate(independent["linearized_scalar_curvature"] == "0",
+         "independent_scalar_zero")
+    gate(independent["transverse_lattice_mixed_tidal"] == {},
+         "independent_lattice_tidal_zero")
+    gate(independent["transverse_shear_mixed_tidal"] == {
+        "T^-2*log^0": "-1/3"
+    }, "independent_shear_tidal_witness")
+    gate(independent["offdiagonal_lattice_dimension"] == 5,
+         "independent_lattice_dimension")
+    gate(independent["offdiagonal_local_shear_dimension"] == 1,
+         "independent_shear_dimension")
+    gate(independent["combined_homogeneous_integration_constants"] == 12,
+         "independent_combined_count")
+    gate(independent["production_imported"] is False,
+         "independent_no_production_import")
+    gate(independent["production_result_read"] is False,
+         "independent_no_production_result_read")
+    gate(hostile["controls"] == [
+        "wrong_ode_coefficient_caught",
+        "dropped_repeated_root_log_mode_caught",
+        "false_torus_periodicity_caught",
+        "fake_curvature_free_log_mode_caught",
+        "wrong_combined_dimension_caught",
+    ], "all_hostile_controls")
+    gate(production["full_homogeneous_synchronous_first_variation_closed_with_g325"],
+         "bounded_homogeneous_closure")
+    gate(not production["full_linear_stability_proved"], "no_full_linear_overclaim")
+    gate(not production["nonlinear_stability_proved"], "no_nonlinear_overclaim")
+    gate(not production["inhomogeneous_modes_classified"], "inhomogeneous_open")
+    gate(not production["physical_occupancy_selected"], "occupancy_open")
+    gate(not production["physical_scale_selected"], "scale_open")
+    gate(not production["Xmax_selected"], "xmax_open")
+    gate(not production["metric_changed"] and not production["kernel_changed"]
+         and not production["angular_sector_changed"], "native_objects_unchanged")
+
+    for name, expected in SOURCE_SHA256.items():
+        gate(digest(package / name) == expected, f"source_integrity:{name}")
+
+    independent_text = (package / "verify_offdiagonal_independent.py").read_text()
+    gate("import derive_offdiagonal_modes" not in independent_text,
+         "static_no_production_import")
+    gate("from derive_offdiagonal_modes" not in independent_text,
+         "static_no_production_from_import")
+    gate("DERIVATION_RESULT.json" not in independent_text,
+         "static_no_production_result_read")
+    exact = (package / "EXACT_DERIVATION.md").read_text()
+    lay = (package / "LAY_REPORT.md").read_text()
+    status = (package / "STATUS_LEDGER.tsv").read_text()
+    gates = (package / "EVIDENCE_GATES.md").read_text()
+    note = (package / "PREREGISTRATION_EXECUTION_NOTE.md").read_text()
+    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+    gate("curvature change beyond the" in note and "Lie transport" in note,
+         "curvature_falsifier_clarified_preproduction")
+    gate("not a physical population or probability count" in exact,
+         "count_not_population")
+    gate("Every nonzero Fourier mode" in exact, "exact_fourier_boundary")
+    gate("It still does not show that the spacetime is stable" in lay,
+         "lay_stability_boundary")
+    gate("EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING" in status,
+         "status_external_science_accepted_repairs_pending")
+    gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in gates,
+         "fresh_external_acceptance_token")
+    gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in
+         (package / "EXTERNAL_REVIEW_RESPONSE.md").read_text(),
+         "external_report_acceptance_token")
+    precondition = (package / "REPLAY_PRECONDITION.md").read_text()
+    gate("cp -r /intake/. /work/g326_review_writable/" in precondition,
+         "writable_copy_command_registered")
+    gate("chmod -R u+w /work/g326_review_writable" in precondition,
+         "writable_permission_command_registered")
+    gate("sealed intake itself remains read-only" in precondition,
+         "sealed_intake_remains_read_only")
+
+    replay_lines = [
+        line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+        if line.strip()
+    ]
+    gate(len(replay_lines) == 4, "registered_command_count")
+    with tempfile.TemporaryDirectory(prefix="udt_g326_replay_") as temporary:
+        copy = Path(temporary) / "package"
+        shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+        for line, artifact in zip(replay_lines[:3], (
+            "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json"
+        )):
+            completed = subprocess.run(
+                shlex.split(line), cwd=copy, check=True, capture_output=True, text=True
+            )
+            gate(completed.returncode == 0, f"replay_exit:{artifact}")
+            generated = copy / ".review_runtime" / artifact
+            gate(generated.is_file(), f"replay_created:{artifact}")
+            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+        gate(replay_lines[3] == (
+            "python3 -S verify_package.py --output "
+            ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
+        ), "fourth_command_self")
+
+    # Repair R1: the exact aggregate verifier must reject scripts replaced by canned emitters.
+    canned_targets = {
+        "derive_offdiagonal_modes.py": "DERIVATION_RESULT.json",
+        "verify_offdiagonal_independent.py": "INDEPENDENT_VERIFICATION.json",
+        "run_catch_proofs.py": "CATCH_PROOF_RESULT.json",
+    }
+    for script_name, artifact_name in canned_targets.items():
+        with tempfile.TemporaryDirectory(prefix="udt_g326_canned_") as temporary:
+            copy = Path(temporary) / "package"
+            shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+            (copy / script_name).write_text(canned_emitter(artifact_name), encoding="utf-8")
+            completed = subprocess.run(
+                [sys.executable, "-S", "verify_package.py"], cwd=copy,
+                capture_output=True, text=True
+            )
+            gate(completed.returncode != 0 and
+                 f"source_integrity:{script_name}" in completed.stderr,
+                 f"canned_substitution_rejected:{script_name}")
+
+    result = {
+        "schema": "udt-g326-package-verification-v1",
+        "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "python_version": sys.version,
+        "exact_replay": True,
+    }
+    rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    if args.output:
+        output = package / args.output
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/run_catch_proofs.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile mutation checks for the bounded G326 off-diagonal census."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="CATCH_PROOF_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    caught: list[str] = []
+
+    def catch(condition: bool, name: str) -> None:
+        assert condition, name
+        caught.append(name)
+
+    pi, pj = Fraction(-1, 3), Fraction(2, 3)
+    exponent = 2 * pi
+    correct = exponent**2 - 2 * (pi + pj) * exponent + 4 * pi * pj
+    mutated = exponent**2 - 2 * (pi + pj) * exponent
+    catch(correct == 0 and mutated != 0, "wrong_ode_coefficient_caught")
+
+    catch(5 != 6, "dropped_repeated_root_log_mode_caught")
+
+    period = Fraction(11)
+    affine_coefficient = Fraction(3, 7)
+    catch(affine_coefficient * period != 0, "false_torus_periodicity_caught")
+
+    time = Fraction(7, 3)
+    shear = Fraction(5, 9)
+    actual_tidal = -shear / (3 * time**2)
+    fake_tidal = Fraction(0)
+    catch(actual_tidal != fake_tidal, "fake_curvature_free_log_mode_caught")
+
+    catch(1 + 8 + 2 + 1 == 12 and 1 + 8 + 1 + 1 != 12,
+          "wrong_combined_dimension_caught")
+
+    result = {
+        "schema": "udt-g326-catch-proofs-v1",
+        "status": "PASS",
+        "assertion_count": len(caught),
+        "controls": caught,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/verify_offdiagonal_independent.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent direct tensor verifier for G326; no production imports or result reads."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+
+class Expr:
+    """Exact truncated-epsilon sums of T^power log(T)^log_power."""
+
+    def __init__(self, terms=None):
+        self.terms = {
+            (int(eps), Fraction(power), int(log_power)): Fraction(value)
+            for (eps, power, log_power), value in (terms or {}).items()
+            if value and int(eps) <= 1
+        }
+
+    @staticmethod
+    def monomial(value=1, eps=0, power=0, log_power=0):
+        return Expr({(eps, Fraction(power), log_power): Fraction(value)})
+
+    def __add__(self, other):
+        out = dict(self.terms)
+        for key, value in other.terms.items():
+            out[key] = out.get(key, Fraction(0)) + value
+            if not out[key]:
+                del out[key]
+        return Expr(out)
+
+    def __neg__(self):
+        return Expr({key: -value for key, value in self.terms.items()})
+
+    def __sub__(self, other):
+        return self + (-other)
+
+    def __mul__(self, other):
+        out = {}
+        for (eps_a, power_a, log_a), value_a in self.terms.items():
+            for (eps_b, power_b, log_b), value_b in other.terms.items():
+                if eps_a + eps_b > 1:
+                    continue
+                key = (eps_a + eps_b, power_a + power_b, log_a + log_b)
+                out[key] = out.get(key, Fraction(0)) + value_a * value_b
+        return Expr(out)
+
+    def scale(self, value):
+        return Expr({key: Fraction(value) * coefficient
+                     for key, coefficient in self.terms.items()})
+
+    def dt(self):
+        out = Expr()
+        for (eps, power, log_power), value in self.terms.items():
+            if power:
+                out = out + Expr.monomial(value * power, eps, power - 1, log_power)
+            if log_power:
+                out = out + Expr.monomial(
+                    value * log_power, eps, power - 1, log_power - 1
+                )
+        return out
+
+    def epsilon_part(self):
+        return Expr({(0, power, log_power): value
+                     for (eps, power, log_power), value in self.terms.items() if eps == 1})
+
+    def is_zero(self):
+        return not self.terms
+
+    def __eq__(self, other):
+        if not isinstance(other, Expr):
+            return NotImplemented
+        return self.terms == other.terms
+
+    def serial(self):
+        return {
+            f"T^{power}*log^{log_power}": str(value)
+            for (eps, power, log_power), value in sorted(self.terms.items())
+        }
+
+
+ZERO = Expr()
+ONE = Expr.monomial()
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+
+
+def partial(value: Expr, coordinate: int) -> Expr:
+    return value.dt() if coordinate == 0 else ZERO
+
+
+def mode_component(name: str) -> tuple[int, int, Expr]:
+    modes = {
+        "xy_x": (1, 2, Expr.monomial(power=2 * P[0])),
+        "xy_y": (1, 2, Expr.monomial(power=2 * P[1])),
+        "xz_x": (1, 3, Expr.monomial(power=2 * P[0])),
+        "xz_z": (1, 3, Expr.monomial(power=2 * P[2])),
+        "yz_lattice": (2, 3, Expr.monomial(power=2 * P[1])),
+        "yz_shear": (2, 3, Expr.monomial(2, power=2 * P[1], log_power=1)),
+    }
+    return modes[name]
+
+
+def direct_tensor_mode(name: str):
+    dim = 4
+    g0 = [Expr.monomial(-1)] + [Expr.monomial(power=2 * value) for value in P]
+    inverse0 = [Expr.monomial(-1)] + [Expr.monomial(power=-2 * value) for value in P]
+    g = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    inverse = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for index in range(dim):
+        g[index][index] = g0[index]
+        inverse[index][index] = inverse0[index]
+    left, right, component = mode_component(name)
+    perturbation = Expr({(1, power, log_power): value
+                         for (eps, power, log_power), value in component.terms.items()})
+    g[left][right] = perturbation
+    g[right][left] = perturbation
+    inverse_perturbation = (inverse0[left] * perturbation * inverse0[right]).scale(-1)
+    inverse[left][right] = inverse_perturbation
+    inverse[right][left] = inverse_perturbation
+
+    gamma = [[[ZERO for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                value = ZERO
+                for d in range(dim):
+                    bracket = (partial(g[d][c], b) + partial(g[d][b], c)
+                               - partial(g[b][c], d))
+                    value = value + inverse[a][d] * bracket
+                gamma[a][b][c] = value.scale(Fraction(1, 2))
+
+    riemann = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    value = partial(gamma[a][b][d], c) - partial(gamma[a][b][c], d)
+                    for e in range(dim):
+                        value = value + gamma[a][e][c] * gamma[e][b][d]
+                        value = value - gamma[a][e][d] * gamma[e][b][c]
+                    riemann[a][b][c][d] = value
+
+    ricci = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for b in range(dim):
+        for d in range(dim):
+            for a in range(dim):
+                ricci[b][d] = ricci[b][d] + riemann[a][b][a][d]
+    scalar = ZERO
+    for a in range(dim):
+        for b in range(dim):
+            scalar = scalar + inverse[a][b] * ricci[a][b]
+    tracefree = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            tracefree[a][b] = ricci[a][b] - scalar * g[a][b].scale(Fraction(1, 4))
+    return g, riemann, ricci, scalar, tracefree
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    modes = ("xy_x", "xy_y", "xz_x", "xz_z", "yz_lattice", "yz_shear")
+    tensors = {}
+    for name in modes:
+        metric, riemann, ricci, scalar, tracefree = direct_tensor_mode(name)
+        tensors[name] = (metric, riemann)
+        for a in range(4):
+            for b in range(4):
+                gate(tracefree[a][b].epsilon_part().is_zero(),
+                     f"direct_tracefree_zero:{name}:{a}:{b}")
+        gate(scalar.epsilon_part().is_zero(), f"direct_scalar_zero:{name}")
+        for spatial in range(1, 4):
+            gate(ricci[0][spatial].epsilon_part().is_zero(),
+                 f"direct_momentum_zero:{name}:{spatial}")
+
+    # Reconstruct all five lattice modes as Lie derivatives of the cover metric.
+    generators = {
+        "xy_x": (0, 1),
+        "xy_y": (1, 0),
+        "xz_x": (0, 2),
+        "xz_z": (2, 0),
+        "yz_lattice": (1, 2),
+    }
+    for name, (target, source) in generators.items():
+        metric, _ = tensors[name]
+        expected = Expr.monomial(power=2 * P[target])
+        actual = metric[source + 1][target + 1].epsilon_part()
+        gate(actual == expected, f"direct_cover_lie_metric:{name}")
+        period = (Fraction(5), Fraction(7), Fraction(11))[source]
+        gate(period != 0, f"direct_cover_generator_nonperiodic:{name}")
+
+    # The transverse constant mode has no mixed tidal split; the log mode does.
+    _, riemann_lattice = tensors["yz_lattice"]
+    _, riemann_shear = tensors["yz_shear"]
+    lattice_yz = riemann_lattice[2][0][3][0].epsilon_part()
+    shear_yz = riemann_shear[2][0][3][0].epsilon_part()
+    shear_zy = riemann_shear[3][0][2][0].epsilon_part()
+    expected_shear = Expr.monomial(Fraction(-1, 3), power=-2)
+    gate(lattice_yz.is_zero(), "direct_transverse_lattice_no_tidal_split")
+    gate(shear_yz == expected_shear, "direct_transverse_shear_tidal_yz")
+    gate(shear_zy == expected_shear, "direct_transverse_shear_tidal_zy")
+
+    # Independent rank/count audit: nine affine spatial generators have one metric-image kernel.
+    # The kernel is the y-z rotation; all other eight directions alter quotient lattice attachment.
+    outputs = {
+        "A11", "A22", "A33", "A12", "A21", "A13", "A31", "A23_plus_A32"
+    }
+    gate(len(outputs) == 8, "independent_full_lattice_image_dimension_eight")
+    gate(len(generators) == 5, "independent_offdiagonal_lattice_dimension_five")
+    gate(9 - len(outputs) == 1, "independent_transverse_rotation_kernel_dimension_one")
+    gate(1 + 8 + 2 + 1 == 12, "independent_combined_homogeneous_count_twelve")
+
+    result = {
+        "schema": "udt-g326-homogeneous-offdiagonal-independent-v1",
+        "status": "PASS",
+        "assertion_count": len(checks),
+        "checks": checks,
+        "production_imported": False,
+        "production_result_read": False,
+        "direct_tensor_modes": list(modes),
+        "linearized_scalar_curvature": "0",
+        "transverse_lattice_mixed_tidal": lattice_yz.serial(),
+        "transverse_shear_mixed_tidal": shear_yz.serial(),
+        "offdiagonal_lattice_dimension": 5,
+        "offdiagonal_local_shear_dimension": 1,
+        "combined_homogeneous_integration_constants": 12,
+        "python_version": sys.version,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+The manifest seal matches, and the payload rows verify cleanly; the only unlisted files are the manifest and its detached SHA file, which is consistent with the scope’s `manifest_payload_count`. I’m now checking the remaining intake-only evidence for the unchanged landing and then I’ll perform the registered replay in `/work` exactly as prescribed.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/PACKAGE_VERIFICATION_RESULT.json" in /return
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/STATUS_LEDGER.tsv" in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 56,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "exact_offdiagonal_dimensions",
+    "exact_combined_dimensions",
+    "complete_solution_basis",
+    "production_scalar_zero",
+    "independent_scalar_zero",
+    "independent_lattice_tidal_zero",
+    "independent_shear_tidal_witness",
+    "independent_lattice_dimension",
+    "independent_shear_dimension",
+    "independent_combined_count",
+    "independent_no_production_import",
+    "independent_no_production_result_read",
+    "all_hostile_controls",
+    "bounded_homogeneous_closure",
+    "no_full_linear_overclaim",
+    "no_nonlinear_overclaim",
+    "inhomogeneous_open",
+    "occupancy_open",
+    "scale_open",
+    "xmax_open",
+    "native_objects_unchanged",
+    "source_integrity:derive_offdiagonal_modes.py",
+    "source_integrity:verify_offdiagonal_independent.py",
+    "source_integrity:run_catch_proofs.py",
+    "static_no_production_import",
+    "static_no_production_from_import",
+    "static_no_production_result_read",
+    "exact_landing_token",
+    "curvature_falsifier_clarified_preproduction",
+    "count_not_population",
+    "exact_fourier_boundary",
+    "lay_stability_boundary",
+    "status_external_science_accepted_repairs_pending",
+    "fresh_external_acceptance_token",
+    "external_report_acceptance_token",
+    "writable_copy_command_registered",
+    "writable_permission_command_registered",
+    "sealed_intake_remains_read_only",
+    "registered_command_count",
+    "replay_exit:DERIVATION_RESULT.json",
+    "replay_created:DERIVATION_RESULT.json",
+    "replay_exact:DERIVATION_RESULT.json",
+    "replay_exit:INDEPENDENT_VERIFICATION.json",
+    "replay_created:INDEPENDENT_VERIFICATION.json",
+    "replay_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:CATCH_PROOF_RESULT.json",
+    "replay_created:CATCH_PROOF_RESULT.json",
+    "replay_exact:CATCH_PROOF_RESULT.json",
+    "fourth_command_self",
+    "canned_substitution_rejected:derive_offdiagonal_modes.py",
+    "canned_substitution_rejected:verify_offdiagonal_independent.py",
+    "canned_substitution_rejected:run_catch_proofs.py"
+  ],
+  "exact_replay": true,
+  "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g326-package-verification-v1",
+  "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP"
+}
+
+ succeeded in 0ms:
+claim	status	scope
+G326_offdiagonal_census	EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING	five quotient lattice/frame moduli plus one local transverse Kasner shear
+full_homogeneous_combined_census	EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING	one gauge plus eight lattice plus two shear plus one scalar equals twelve
+nonzero_Fourier_modes	OPEN	outside homogeneous sector
+full_linear_stability	OPEN	requires all Fourier and gauge sectors plus norm and endpoint control
+nonlinear_stability	OPEN	outside first variation
+physical_occupancy	OPEN	no datum selected
+physical_scale	OPEN	no ruler attachment
+physical_Xmax	OPEN	not used or selected
+metric_kernel_angular_change	FORBIDDEN	G326 is analysis of the adopted equation around G324
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/EVIDENCE_GATES.md" in /return
+ succeeded in 0ms:
+# G326 evidence gates
+
+Date: 2026-09-02
+
+1. Preregistered: `PASS`, commit `32fa2f98`; curvature terminology clarified before production at
+   commit `04c7fb8f`.
+2. Full bounded space: `PASS_INTERNAL`, all three off-diagonal homogeneous second-order equations
+   solved without endpoint data; repeated root retained.
+3. Independently verified: `PASS_EXTERNAL_SCIENCE`, direct Christoffel/Riemann engine plus fresh
+   external rederivation; non-scientific verifier repairs R1 and R2 remain pending.
+4. Premise audited: `PASS_INTERNAL`, owner-provisional equation explicit; no action, source,
+   observation, scale, matter/mass, physical population, or `X_max` imported.
+
+Aggregate replay: `PASS_INTERNAL`, 46 checks with byte-exact regeneration. Repository gates:
+308-row premise registry `PASS`; full suite `218 passed, 1 expected xfail`.
+
+Repairs R1 and R2: `IMPLEMENTED_PENDING_REPAIR_FOLLOWUP`. The aggregate verifier now pins the exact
+three computational sources and executably proves that canned replacements of production,
+independent, or hostile scripts are rejected. `REPLAY_PRECONDITION.md` makes the writable-copy step
+explicit while retaining a read-only sealed intake.
+
+Fresh external verdict: `ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`.
+
+Current grade: `EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING`.
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/INDEPENDENT_VERIFICATION.json" in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 137,
+  "checks": [
+    "direct_tracefree_zero:xy_x:0:0",
+    "direct_tracefree_zero:xy_x:0:1",
+    "direct_tracefree_zero:xy_x:0:2",
+    "direct_tracefree_zero:xy_x:0:3",
+    "direct_tracefree_zero:xy_x:1:0",
+    "direct_tracefree_zero:xy_x:1:1",
+    "direct_tracefree_zero:xy_x:1:2",
+    "direct_tracefree_zero:xy_x:1:3",
+    "direct_tracefree_zero:xy_x:2:0",
+    "direct_tracefree_zero:xy_x:2:1",
+    "direct_tracefree_zero:xy_x:2:2",
+    "direct_tracefree_zero:xy_x:2:3",
+    "direct_tracefree_zero:xy_x:3:0",
+    "direct_tracefree_zero:xy_x:3:1",
+    "direct_tracefree_zero:xy_x:3:2",
+    "direct_tracefree_zero:xy_x:3:3",
+    "direct_scalar_zero:xy_x",
+    "direct_momentum_zero:xy_x:1",
+    "direct_momentum_zero:xy_x:2",
+    "direct_momentum_zero:xy_x:3",
+    "direct_tracefree_zero:xy_y:0:0",
+    "direct_tracefree_zero:xy_y:0:1",
+    "direct_tracefree_zero:xy_y:0:2",
+    "direct_tracefree_zero:xy_y:0:3",
+    "direct_tracefree_zero:xy_y:1:0",
+    "direct_tracefree_zero:xy_y:1:1",
+    "direct_tracefree_zero:xy_y:1:2",
+    "direct_tracefree_zero:xy_y:1:3",
+    "direct_tracefree_zero:xy_y:2:0",
+    "direct_tracefree_zero:xy_y:2:1",
+    "direct_tracefree_zero:xy_y:2:2",
+    "direct_tracefree_zero:xy_y:2:3",
+    "direct_tracefree_zero:xy_y:3:0",
+    "direct_tracefree_zero:xy_y:3:1",
+    "direct_tracefree_zero:xy_y:3:2",
+    "direct_tracefree_zero:xy_y:3:3",
+    "direct_scalar_zero:xy_y",
+    "direct_momentum_zero:xy_y:1",
+    "direct_momentum_zero:xy_y:2",
+    "direct_momentum_zero:xy_y:3",
+    "direct_tracefree_zero:xz_x:0:0",
+    "direct_tracefree_zero:xz_x:0:1",
+    "direct_tracefree_zero:xz_x:0:2",
+    "direct_tracefree_zero:xz_x:0:3",
+    "direct_tracefree_zero:xz_x:1:0",
+    "direct_tracefree_zero:xz_x:1:1",
+    "direct_tracefree_zero:xz_x:1:2",
+    "direct_tracefree_zero:xz_x:1:3",
+    "direct_tracefree_zero:xz_x:2:0",
+    "direct_tracefree_zero:xz_x:2:1",
+    "direct_tracefree_zero:xz_x:2:2",
+    "direct_tracefree_zero:xz_x:2:3",
+    "direct_tracefree_zero:xz_x:3:0",
+    "direct_tracefree_zero:xz_x:3:1",
+    "direct_tracefree_zero:xz_x:3:2",
+    "direct_tracefree_zero:xz_x:3:3",
+    "direct_scalar_zero:xz_x",
+    "direct_momentum_zero:xz_x:1",
+    "direct_momentum_zero:xz_x:2",
+    "direct_momentum_zero:xz_x:3",
+    "direct_tracefree_zero:xz_z:0:0",
+    "direct_tracefree_zero:xz_z:0:1",
+    "direct_tracefree_zero:xz_z:0:2",
+    "direct_tracefree_zero:xz_z:0:3",
+    "direct_tracefree_zero:xz_z:1:0",
+    "direct_tracefree_zero:xz_z:1:1",
+    "direct_tracefree_zero:xz_z:1:2",
+    "direct_tracefree_zero:xz_z:1:3",
+    "direct_tracefree_zero:xz_z:2:0",
+    "direct_tracefree_zero:xz_z:2:1",
+    "direct_tracefree_zero:xz_z:2:2",
+    "direct_tracefree_zero:xz_z:2:3",
+    "direct_tracefree_zero:xz_z:3:0",
+    "direct_tracefree_zero:xz_z:3:1",
+    "direct_tracefree_zero:xz_z:3:2",
+    "direct_tracefree_zero:xz_z:3:3",
+    "direct_scalar_zero:xz_z",
+    "direct_momentum_zero:xz_z:1",
+    "direct_momentum_zero:xz_z:2",
+    "direct_momentum_zero:xz_z:3",
+    "direct_tracefree_zero:yz_lattice:0:0",
+    "direct_tracefree_zero:yz_lattice:0:1",
+    "direct_tracefree_zero:yz_lattice:0:2",
+    "direct_tracefree_zero:yz_lattice:0:3",
+    "direct_tracefree_zero:yz_lattice:1:0",
+    "direct_tracefree_zero:yz_lattice:1:1",
+    "direct_tracefree_zero:yz_lattice:1:2",
+    "direct_tracefree_zero:yz_lattice:1:3",
+    "direct_tracefree_zero:yz_lattice:2:0",
+    "direct_tracefree_zero:yz_lattice:2:1",
+    "direct_tracefree_zero:yz_lattice:2:2",
+    "direct_tracefree_zero:yz_lattice:2:3",
+    "direct_tracefree_zero:yz_lattice:3:0",
+    "direct_tracefree_zero:yz_lattice:3:1",
+    "direct_tracefree_zero:yz_lattice:3:2",
+    "direct_tracefree_zero:yz_lattice:3:3",
+    "direct_scalar_zero:yz_lattice",
+    "direct_momentum_zero:yz_lattice:1",
+    "direct_momentum_zero:yz_lattice:2",
+    "direct_momentum_zero:yz_lattice:3",
+    "direct_tracefree_zero:yz_shear:0:0",
+    "direct_tracefree_zero:yz_shear:0:1",
+    "direct_tracefree_zero:yz_shear:0:2",
+    "direct_tracefree_zero:yz_shear:0:3",
+    "direct_tracefree_zero:yz_shear:1:0",
+    "direct_tracefree_zero:yz_shear:1:1",
+    "direct_tracefree_zero:yz_shear:1:2",
+    "direct_tracefree_zero:yz_shear:1:3",
+    "direct_tracefree_zero:yz_shear:2:0",
+    "direct_tracefree_zero:yz_shear:2:1",
+    "direct_tracefree_zero:yz_shear:2:2",
+    "direct_tracefree_zero:yz_shear:2:3",
+    "direct_tracefree_zero:yz_shear:3:0",
+    "direct_tracefree_zero:yz_shear:3:1",
+    "direct_tracefree_zero:yz_shear:3:2",
+    "direct_tracefree_zero:yz_shear:3:3",
+    "direct_scalar_zero:yz_shear",
+    "direct_momentum_zero:yz_shear:1",
+    "direct_momentum_zero:yz_shear:2",
+    "direct_momentum_zero:yz_shear:3",
+    "direct_cover_lie_metric:xy_x",
+    "direct_cover_generator_nonperiodic:xy_x",
+    "direct_cover_lie_metric:xy_y",
+    "direct_cover_generator_nonperiodic:xy_y",
+    "direct_cover_lie_metric:xz_x",
+    "direct_cover_generator_nonperiodic:xz_x",
+    "direct_cover_lie_metric:xz_z",
+    "direct_cover_generator_nonperiodic:xz_z",
+    "direct_cover_lie_metric:yz_lattice",
+    "direct_cover_generator_nonperiodic:yz_lattice",
+    "direct_transverse_lattice_no_tidal_split",
+    "direct_transverse_shear_tidal_yz",
+    "direct_transverse_shear_tidal_zy",
+    "independent_full_lattice_image_dimension_eight",
+    "independent_offdiagonal_lattice_dimension_five",
+    "independent_transverse_rotation_kernel_dimension_one",
+    "independent_combined_homogeneous_count_twelve"
+  ],
+  "combined_homogeneous_integration_constants": 12,
+  "direct_tensor_modes": [
+    "xy_x",
+    "xy_y",
+    "xz_x",
+    "xz_z",
+    "yz_lattice",
+    "yz_shear"
+  ],
+  "linearized_scalar_curvature": "0",
+  "offdiagonal_lattice_dimension": 5,
+  "offdiagonal_local_shear_dimension": 1,
+  "production_imported": false,
+  "production_result_read": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g326-homogeneous-offdiagonal-independent-v1",
+  "status": "PASS",
+  "transverse_lattice_mixed_tidal": {},
+  "transverse_shear_mixed_tidal": {
+    "T^-2*log^0": "-1/3"
+  }
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/DERIVATION_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 33,
+  "background_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "checks": [
+    "background_kasner_sum",
+    "background_kasner_square_sum",
+    "root_12_left",
+    "root_12_right",
+    "real_roots_12",
+    "distinct_roots_12",
+    "root_13_left",
+    "root_13_right",
+    "real_roots_13",
+    "distinct_roots_13",
+    "root_23_left",
+    "root_23_right",
+    "real_roots_23",
+    "repeated_root_23",
+    "log_solution_exact_23",
+    "six_complete_offdiagonal_integration_constants",
+    "full_cover_image_rank_eight",
+    "offdiagonal_cover_image_rank_five",
+    "cover_map_kernel_contains_transverse_rotation",
+    "cover_map_kernel_exactly_one_dimensional",
+    "affine_jump_nonzero_01",
+    "affine_jump_nonzero_10",
+    "affine_jump_nonzero_02",
+    "affine_jump_nonzero_20",
+    "affine_jump_nonzero_12",
+    "five_nonperiodic_offdiagonal_cover_generators",
+    "transverse_tidal_witness_exact",
+    "transverse_tidal_witness_nonzero",
+    "transverse_tidal_eigenvalue_discriminant_positive",
+    "offdiagonal_dimension_partition",
+    "combined_quotient_lattice_dimension_eight",
+    "combined_homogeneous_dimension_twelve",
+    "transverse_background_degeneracy"
+  ],
+  "combined_g325_g326_dimensions": {
+    "connected_scalar_curvature": 1,
+    "fixed_quotient_lattice_moduli": 8,
+    "local_kasner_shear_components": 2,
+    "residual_time_translation_gauge": 1,
+    "total_integration_constants": 12
+  },
+  "full_homogeneous_synchronous_first_variation_closed_with_g325": true,
+  "full_linear_stability_proved": false,
+  "general_solutions": {
+    "12": [
+      "T^-2/3",
+      "T^4/3"
+    ],
+    "13": [
+      "T^-2/3",
+      "T^4/3"
+    ],
+    "23": [
+      "T^4/3",
+      "T^4/3*log(T/Tref)"
+    ]
+  },
+  "inhomogeneous_modes_classified": false,
+  "kernel_changed": false,
+  "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "linearized_scalar_curvature": "0",
+  "metric_changed": false,
+  "mode_dimensions": {
+    "connected_scalar_curvature": 0,
+    "fixed_quotient_lattice_moduli": 5,
+    "local_transverse_kasner_shear": 1,
+    "quotient_legal_gauge": 0
+  },
+  "nonlinear_stability_proved": false,
+  "offdiagonal_ode": "k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0",
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g326-homogeneous-offdiagonal-production-v1",
+  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+  "transverse_tidal_witness": "delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)"
+}
+
+exec
+/bin/bash -lc "stat -c '%A %a %n' /intake /intake/* /intake/sources /intake/sources/* /intake/sources/*/* 2>/dev/null" in /return
+ succeeded in 0ms:
+dr-xr-xr-x 555 /intake
+-r--r--r-- 444 /intake/ADVERSARIAL_REVIEW_REQUEST.md
+-r--r--r-- 444 /intake/AUDIT_REPORT.md
+-r--r--r-- 444 /intake/CATCH_PROOF_RESULT.json
+-r--r--r-- 444 /intake/COMPLETENESS_MAP.md
+-r--r--r-- 444 /intake/DERIVATION_RESULT.json
+-r--r--r-- 444 /intake/EVIDENCE_GATES.md
+-r--r--r-- 444 /intake/EXACT_DERIVATION.md
+-r--r--r-- 444 /intake/EXTERNAL_REVIEW_FINAL_RESPONSE.md
+-r--r--r-- 444 /intake/EXTERNAL_REVIEW_RESPONSE.md
+-r--r--r-- 444 /intake/EXTERNAL_REVIEW_TRANSCRIPT.txt
+-r--r--r-- 444 /intake/EXTERNAL_REVIEW_TRANSMISSION.md
+-r--r--r-- 444 /intake/INDEPENDENT_VERIFICATION.json
+-r--r--r-- 444 /intake/LAY_REPORT.md
+-r--r--r-- 444 /intake/MAP.md
+-r--r--r-- 444 /intake/PACKAGE_VERIFICATION_RESULT.json
+-r--r--r-- 444 /intake/PREMISE_LEDGER.tsv
+-r--r--r-- 444 /intake/PREREGISTRATION.md
+-r--r--r-- 444 /intake/PREREGISTRATION_EXECUTION_NOTE.md
+-r--r--r-- 444 /intake/REPAIR_FOLLOWUP_REQUEST.md
+-r--r--r-- 444 /intake/REPAIR_LEDGER.tsv
+-r--r--r-- 444 /intake/REPLAY_COMMANDS.txt
+-r--r--r-- 444 /intake/REPLAY_PRECONDITION.md
+-r--r--r-- 444 /intake/REVIEW_MANIFEST.sha256
+-r--r--r-- 444 /intake/REVIEW_MANIFEST.tsv
+-r--r--r-- 444 /intake/REVIEW_SCOPE.json
+-r--r--r-- 444 /intake/RUN_RECORD.md
+-r--r--r-- 444 /intake/SOURCE_SCOPE.tsv
+-r--r--r-- 444 /intake/STATUS_LEDGER.tsv
+-r--r--r-- 444 /intake/build_repair_followup_intake.py
+-r--r--r-- 444 /intake/derive_offdiagonal_modes.py
+-r--r--r-- 444 /intake/run_catch_proofs.py
+dr-xr-xr-x 555 /intake/sources
+-r--r--r-- 444 /intake/verify_offdiagonal_independent.py
+-r--r--r-- 444 /intake/verify_package.py
+-r--r--r-- 444 /intake/verify_review_intake.py
+dr-xr-xr-x 555 /intake/sources
+-r--r--r-- 444 /intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+dr-xr-xr-x 555 /intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01
+dr-xr-xr-x 555 /intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31
+dr-xr-xr-x 555 /intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01
+dr-xr-xr-x 555 /intake/sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02
+dr-xr-xr-x 555 /intake/sources/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02
+-r--r--r-- 444 /intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+-r--r--r-- 444 /intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md
+-r--r--r-- 444 /intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md
+-r--r--r-- 444 /intake/sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md
+-r--r--r-- 444 /intake/sources/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md
+
+exec
+/bin/bash -lc 'python3 -S /intake/verify_review_intake.py' in /return
+ succeeded in 0ms:
+{
+  "manifest_payload_count": 38,
+  "manifest_sha256": "d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e",
+  "scope_sha256": "c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8",
+  "status": "PASS",
+  "total_file_count": 40
+}
+
+exec
+/bin/bash -lc "test -w /intake; printf 'WRITABLE=%s\\n' "'$?' in /return
+ succeeded in 0ms:
+WRITABLE=1
+
+codex
+I’ve confirmed `/intake` is actually mounted read-only at the filesystem level and that the scope forbids both research continuation and repository/package access. Next step is the controlled replay: I’ll mirror the intake into `/work/g326_review_writable`, keep the intake untouched, and execute the four registered commands exactly as written.
+exec
+/bin/bash -lc 'ls -ld /work /work/g326_review_writable' in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/RUN_RECORD.md" in /return
+ succeeded in 0ms:
+# G326 run record
+
+Date: 2026-09-02
+
+## Preregistration
+
+- `32fa2f98`: bounded question, candidate landing, falsifiers, completeness map, premise ledger,
+  sources, and replay commands frozen.
+- `04c7fb8f`: pre-production clarification that curvature of cover-coordinate modes is evaluated
+  modulo Lie transport, while the log mode uses transverse tidal splitting.
+
+## Production classification algebra
+
+```text
+python3 -S derive_offdiagonal_modes.py --output DERIVATION_RESULT.json
+```
+
+Result: 33 exact assertions passed; preregistered positive landing obtained. This script checks the
+announced ODE's exact solution and classification algebra; the implementation-distinct direct
+tensor engine and external rederivation are load-bearing for deriving that ODE from the metric.
+
+## Independent direct tensor verification
+
+```text
+python3 -S verify_offdiagonal_independent.py --output INDEPENDENT_VERIFICATION.json
+```
+
+Result: 137 exact component assertions passed. The verifier imports no production code and reads no
+production result.
+
+## Hostile controls
+
+```text
+python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+```
+
+Result: 5 of 5 registered mutation classes caught.
+
+## Aggregate replay and repository gates
+
+```text
+python3 -S verify_package.py --output PACKAGE_VERIFICATION_RESULT.json
+python3 verify_current_scientific_premises.py
+python3 -m pytest -q
+```
+
+Results: 46 aggregate package checks passed with byte-exact regeneration of all three generated
+artifacts; the 308-row premise registry passed; the full repository suite passed `218` tests with
+one registered expected failure.
+
+## Current boundary
+
+Fresh external science review accepted the bounded result. Evidence repairs R1 and R2 are
+implemented and await repair-only follow-up. No long solve or GPU process was used.
+
+ exited 2 in 0ms:
+ls: cannot access '/work/g326_review_writable': No such file or directory
+drwx------ 2 udt-admin udt-admin 4096 Sep  2 13:42 /work
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/PREREGISTRATION_EXECUTION_NOTE.md" in /return
+ succeeded in 0ms:
+# G326 preregistration execution note
+
+Date: 2026-09-02
+Timing: before production computation
+
+The phrase “nonzero linearized local curvature” in falsifier 3 means curvature change beyond the
+Lie transport generated by the corresponding local cover-coordinate vector field. A raw coordinate
+component of `delta Riemann` need not vanish under a pure coordinate change when the background
+curvature is nonzero. The load-bearing test is therefore either
+
+\[
+\delta Riemann-\mathcal L_\xi Riemann=0
+\]
+
+for a claimed cover-coordinate mode, or an equivalent local invariant/operator-spectrum test.
+This clarifies the already preregistered gauge-versus-geometry distinction; it does not change the
+candidate count, landing, falsifiers, or permitted conclusions.
+
+For the transverse logarithmic candidate, the intended witness is the first-order splitting of the
+background-degenerate transverse tidal operator. Such a splitting cannot be produced by Lie
+transport within that degenerate eigenspace. Scalar polynomial invariants may remain silent at
+first order and are not required as the witness.
+
+exec
+/bin/bash -lc 'mkdir -p /work/g326_review_writable' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'cp -r /intake/. /work/g326_review_writable/' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'chmod -R u+w /work/g326_review_writable' in /return
+ succeeded in 0ms:
+codex
+The writable mirror is in place under `/work/g326_review_writable` with user-write permission added only there. I’m now running the four replay commands verbatim in that copy and then I’ll validate the generated artifacts against the sealed banked JSON.
+exec
+/bin/bash -lc 'python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json' in /work/g326_review_writable
+ succeeded in 0ms:
+{
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 33,
+  "background_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "checks": [
+    "background_kasner_sum",
+    "background_kasner_square_sum",
+    "root_12_left",
+    "root_12_right",
+    "real_roots_12",
+    "distinct_roots_12",
+    "root_13_left",
+    "root_13_right",
+    "real_roots_13",
+    "distinct_roots_13",
+    "root_23_left",
+    "root_23_right",
+    "real_roots_23",
+    "repeated_root_23",
+    "log_solution_exact_23",
+    "six_complete_offdiagonal_integration_constants",
+    "full_cover_image_rank_eight",
+    "offdiagonal_cover_image_rank_five",
+    "cover_map_kernel_contains_transverse_rotation",
+    "cover_map_kernel_exactly_one_dimensional",
+    "affine_jump_nonzero_01",
+    "affine_jump_nonzero_10",
+    "affine_jump_nonzero_02",
+    "affine_jump_nonzero_20",
+    "affine_jump_nonzero_12",
+    "five_nonperiodic_offdiagonal_cover_generators",
+    "transverse_tidal_witness_exact",
+    "transverse_tidal_witness_nonzero",
+    "transverse_tidal_eigenvalue_discriminant_positive",
+    "offdiagonal_dimension_partition",
+    "combined_quotient_lattice_dimension_eight",
+    "combined_homogeneous_dimension_twelve",
+    "transverse_background_degeneracy"
+  ],
+  "combined_g325_g326_dimensions": {
+    "connected_scalar_curvature": 1,
+    "fixed_quotient_lattice_moduli": 8,
+    "local_kasner_shear_components": 2,
+    "residual_time_translation_gauge": 1,
+    "total_integration_constants": 12
+  },
+  "full_homogeneous_synchronous_first_variation_closed_with_g325": true,
+  "full_linear_stability_proved": false,
+  "general_solutions": {
+    "12": [
+      "T^-2/3",
+      "T^4/3"
+    ],
+    "13": [
+      "T^-2/3",
+      "T^4/3"
+    ],
+    "23": [
+      "T^4/3",
+      "T^4/3*log(T/Tref)"
+    ]
+  },
+  "inhomogeneous_modes_classified": false,
+  "kernel_changed": false,
+  "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "linearized_scalar_curvature": "0",
+  "metric_changed": false,
+  "mode_dimensions": {
+    "connected_scalar_curvature": 0,
+    "fixed_quotient_lattice_moduli": 5,
+    "local_transverse_kasner_shear": 1,
+    "quotient_legal_gauge": 0
+  },
+  "nonlinear_stability_proved": false,
+  "offdiagonal_ode": "k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0",
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g326-homogeneous-offdiagonal-production-v1",
+  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+  "transverse_tidal_witness": "delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json' in /work/g326_review_writable
+ succeeded in 0ms:
+{
+  "assertion_count": 137,
+  "checks": [
+    "direct_tracefree_zero:xy_x:0:0",
+    "direct_tracefree_zero:xy_x:0:1",
+    "direct_tracefree_zero:xy_x:0:2",
+    "direct_tracefree_zero:xy_x:0:3",
+    "direct_tracefree_zero:xy_x:1:0",
+    "direct_tracefree_zero:xy_x:1:1",
+    "direct_tracefree_zero:xy_x:1:2",
+    "direct_tracefree_zero:xy_x:1:3",
+    "direct_tracefree_zero:xy_x:2:0",
+    "direct_tracefree_zero:xy_x:2:1",
+    "direct_tracefree_zero:xy_x:2:2",
+    "direct_tracefree_zero:xy_x:2:3",
+    "direct_tracefree_zero:xy_x:3:0",
+    "direct_tracefree_zero:xy_x:3:1",
+    "direct_tracefree_zero:xy_x:3:2",
+    "direct_tracefree_zero:xy_x:3:3",
+    "direct_scalar_zero:xy_x",
+    "direct_momentum_zero:xy_x:1",
+    "direct_momentum_zero:xy_x:2",
+    "direct_momentum_zero:xy_x:3",
+    "direct_tracefree_zero:xy_y:0:0",
+    "direct_tracefree_zero:xy_y:0:1",
+    "direct_tracefree_zero:xy_y:0:2",
+    "direct_tracefree_zero:xy_y:0:3",
+    "direct_tracefree_zero:xy_y:1:0",
+    "direct_tracefree_zero:xy_y:1:1",
+    "direct_tracefree_zero:xy_y:1:2",
+    "direct_tracefree_zero:xy_y:1:3",
+    "direct_tracefree_zero:xy_y:2:0",
+    "direct_tracefree_zero:xy_y:2:1",
+    "direct_tracefree_zero:xy_y:2:2",
+    "direct_tracefree_zero:xy_y:2:3",
+    "direct_tracefree_zero:xy_y:3:0",
+    "direct_tracefree_zero:xy_y:3:1",
+    "direct_tracefree_zero:xy_y:3:2",
+    "direct_tracefree_zero:xy_y:3:3",
+    "direct_scalar_zero:xy_y",
+    "direct_momentum_zero:xy_y:1",
+    "direct_momentum_zero:xy_y:2",
+    "direct_momentum_zero:xy_y:3",
+    "direct_tracefree_zero:xz_x:0:0",
+    "direct_tracefree_zero:xz_x:0:1",
+    "direct_tracefree_zero:xz_x:0:2",
+    "direct_tracefree_zero:xz_x:0:3",
+    "direct_tracefree_zero:xz_x:1:0",
+    "direct_tracefree_zero:xz_x:1:1",
+    "direct_tracefree_zero:xz_x:1:2",
+    "direct_tracefree_zero:xz_x:1:3",
+    "direct_tracefree_zero:xz_x:2:0",
+    "direct_tracefree_zero:xz_x:2:1",
+    "direct_tracefree_zero:xz_x:2:2",
+    "direct_tracefree_zero:xz_x:2:3",
+    "direct_tracefree_zero:xz_x:3:0",
+    "direct_tracefree_zero:xz_x:3:1",
+    "direct_tracefree_zero:xz_x:3:2",
+    "direct_tracefree_zero:xz_x:3:3",
+    "direct_scalar_zero:xz_x",
+    "direct_momentum_zero:xz_x:1",
+    "direct_momentum_zero:xz_x:2",
+    "direct_momentum_zero:xz_x:3",
+    "direct_tracefree_zero:xz_z:0:0",
+    "direct_tracefree_zero:xz_z:0:1",
+    "direct_tracefree_zero:xz_z:0:2",
+    "direct_tracefree_zero:xz_z:0:3",
+    "direct_tracefree_zero:xz_z:1:0",
+    "direct_tracefree_zero:xz_z:1:1",
+    "direct_tracefree_zero:xz_z:1:2",
+    "direct_tracefree_zero:xz_z:1:3",
+    "direct_tracefree_zero:xz_z:2:0",
+    "direct_tracefree_zero:xz_z:2:1",
+    "direct_tracefree_zero:xz_z:2:2",
+    "direct_tracefree_zero:xz_z:2:3",
+    "direct_tracefree_zero:xz_z:3:0",
+    "direct_tracefree_zero:xz_z:3:1",
+    "direct_tracefree_zero:xz_z:3:2",
+    "direct_tracefree_zero:xz_z:3:3",
+    "direct_scalar_zero:xz_z",
+    "direct_momentum_zero:xz_z:1",
+    "direct_momentum_zero:xz_z:2",
+    "direct_momentum_zero:xz_z:3",
+    "direct_tracefree_zero:yz_lattice:0:0",
+    "direct_tracefree_zero:yz_lattice:0:1",
+    "direct_tracefree_zero:yz_lattice:0:2",
+    "direct_tracefree_zero:yz_lattice:0:3",
+    "direct_tracefree_zero:yz_lattice:1:0",
+    "direct_tracefree_zero:yz_lattice:1:1",
+    "direct_tracefree_zero:yz_lattice:1:2",
+    "direct_tracefree_zero:yz_lattice:1:3",
+    "direct_tracefree_zero:yz_lattice:2:0",
+    "direct_tracefree_zero:yz_lattice:2:1",
+    "direct_tracefree_zero:yz_lattice:2:2",
+    "direct_tracefree_zero:yz_lattice:2:3",
+    "direct_tracefree_zero:yz_lattice:3:0",
+    "direct_tracefree_zero:yz_lattice:3:1",
+    "direct_tracefree_zero:yz_lattice:3:2",
+    "direct_tracefree_zero:yz_lattice:3:3",
+    "direct_scalar_zero:yz_lattice",
+    "direct_momentum_zero:yz_lattice:1",
+    "direct_momentum_zero:yz_lattice:2",
+    "direct_momentum_zero:yz_lattice:3",
+    "direct_tracefree_zero:yz_shear:0:0",
+    "direct_tracefree_zero:yz_shear:0:1",
+    "direct_tracefree_zero:yz_shear:0:2",
+    "direct_tracefree_zero:yz_shear:0:3",
+    "direct_tracefree_zero:yz_shear:1:0",
+    "direct_tracefree_zero:yz_shear:1:1",
+    "direct_tracefree_zero:yz_shear:1:2",
+    "direct_tracefree_zero:yz_shear:1:3",
+    "direct_tracefree_zero:yz_shear:2:0",
+    "direct_tracefree_zero:yz_shear:2:1",
+    "direct_tracefree_zero:yz_shear:2:2",
+    "direct_tracefree_zero:yz_shear:2:3",
+    "direct_tracefree_zero:yz_shear:3:0",
+    "direct_tracefree_zero:yz_shear:3:1",
+    "direct_tracefree_zero:yz_shear:3:2",
+    "direct_tracefree_zero:yz_shear:3:3",
+    "direct_scalar_zero:yz_shear",
+    "direct_momentum_zero:yz_shear:1",
+    "direct_momentum_zero:yz_shear:2",
+    "direct_momentum_zero:yz_shear:3",
+    "direct_cover_lie_metric:xy_x",
+    "direct_cover_generator_nonperiodic:xy_x",
+    "direct_cover_lie_metric:xy_y",
+    "direct_cover_generator_nonperiodic:xy_y",
+    "direct_cover_lie_metric:xz_x",
+    "direct_cover_generator_nonperiodic:xz_x",
+    "direct_cover_lie_metric:xz_z",
+    "direct_cover_generator_nonperiodic:xz_z",
+    "direct_cover_lie_metric:yz_lattice",
+    "direct_cover_generator_nonperiodic:yz_lattice",
+    "direct_transverse_lattice_no_tidal_split",
+    "direct_transverse_shear_tidal_yz",
+    "direct_transverse_shear_tidal_zy",
+    "independent_full_lattice_image_dimension_eight",
+    "independent_offdiagonal_lattice_dimension_five",
+    "independent_transverse_rotation_kernel_dimension_one",
+    "independent_combined_homogeneous_count_twelve"
+  ],
+  "combined_homogeneous_integration_constants": 12,
+  "direct_tensor_modes": [
+    "xy_x",
+    "xy_y",
+    "xz_x",
+    "xz_z",
+    "yz_lattice",
+    "yz_shear"
+  ],
+  "linearized_scalar_curvature": "0",
+  "offdiagonal_lattice_dimension": 5,
+  "offdiagonal_local_shear_dimension": 1,
+  "production_imported": false,
+  "production_result_read": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g326-homogeneous-offdiagonal-independent-v1",
+  "status": "PASS",
+  "transverse_lattice_mixed_tidal": {},
+  "transverse_shear_mixed_tidal": {
+    "T^-2*log^0": "-1/3"
+  }
+}
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json' in /work/g326_review_writable
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": [
+    "wrong_ode_coefficient_caught",
+    "dropped_repeated_root_log_mode_caught",
+    "false_torus_periodicity_caught",
+    "fake_curvature_free_log_mode_caught",
+    "wrong_combined_dimension_caught"
+  ],
+  "schema": "udt-g326-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json' in /work/g326_review_writable
+ succeeded in 145ms:
+{
+  "assertion_count": 56,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "exact_offdiagonal_dimensions",
+    "exact_combined_dimensions",
+    "complete_solution_basis",
+    "production_scalar_zero",
+    "independent_scalar_zero",
+    "independent_lattice_tidal_zero",
+    "independent_shear_tidal_witness",
+    "independent_lattice_dimension",
+    "independent_shear_dimension",
+    "independent_combined_count",
+    "independent_no_production_import",
+    "independent_no_production_result_read",
+    "all_hostile_controls",
+    "bounded_homogeneous_closure",
+    "no_full_linear_overclaim",
+    "no_nonlinear_overclaim",
+    "inhomogeneous_open",
+    "occupancy_open",
+    "scale_open",
+    "xmax_open",
+    "native_objects_unchanged",
+    "source_integrity:derive_offdiagonal_modes.py",
+    "source_integrity:verify_offdiagonal_independent.py",
+    "source_integrity:run_catch_proofs.py",
+    "static_no_production_import",
+    "static_no_production_from_import",
+    "static_no_production_result_read",
+    "exact_landing_token",
+    "curvature_falsifier_clarified_preproduction",
+    "count_not_population",
+    "exact_fourier_boundary",
+    "lay_stability_boundary",
+    "status_external_science_accepted_repairs_pending",
+    "fresh_external_acceptance_token",
+    "external_report_acceptance_token",
+    "writable_copy_command_registered",
+    "writable_permission_command_registered",
+    "sealed_intake_remains_read_only",
+    "registered_command_count",
+    "replay_exit:DERIVATION_RESULT.json",
+    "replay_created:DERIVATION_RESULT.json",
+    "replay_exact:DERIVATION_RESULT.json",
+    "replay_exit:INDEPENDENT_VERIFICATION.json",
+    "replay_created:INDEPENDENT_VERIFICATION.json",
+    "replay_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:CATCH_PROOF_RESULT.json",
+    "replay_created:CATCH_PROOF_RESULT.json",
+    "replay_exact:CATCH_PROOF_RESULT.json",
+    "fourth_command_self",
+    "canned_substitution_rejected:derive_offdiagonal_modes.py",
+    "canned_substitution_rejected:verify_offdiagonal_independent.py",
+    "canned_substitution_rejected:run_catch_proofs.py"
+  ],
+  "exact_replay": true,
+  "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g326-package-verification-v1",
+  "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP"
+}
+
+exec
+/bin/bash -lc "cmp -s /intake/DERIVATION_RESULT.json /work/g326_review_writable/.review_runtime/DERIVATION_RESULT.json; printf 'DERIVATION_CMP=%s\\n' "'$?; sha256sum /intake/DERIVATION_RESULT.json /work/g326_review_writable/.review_runtime/DERIVATION_RESULT.json' in /return
+exec
+/bin/bash -lc "cmp -s /intake/INDEPENDENT_VERIFICATION.json /work/g326_review_writable/.review_runtime/INDEPENDENT_VERIFICATION.json; printf 'INDEPENDENT_CMP=%s\\n' "'$?; sha256sum /intake/INDEPENDENT_VERIFICATION.json /work/g326_review_writable/.review_runtime/INDEPENDENT_VERIFICATION.json' in /return
+exec
+/bin/bash -lc "cmp -s /intake/CATCH_PROOF_RESULT.json /work/g326_review_writable/.review_runtime/CATCH_PROOF_RESULT.json; printf 'CATCH_CMP=%s\\n' "'$?; sha256sum /intake/CATCH_PROOF_RESULT.json /work/g326_review_writable/.review_runtime/CATCH_PROOF_RESULT.json' in /return
+ succeeded in 0ms:
+DERIVATION_CMP=0
+6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12  /intake/DERIVATION_RESULT.json
+6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12  /work/g326_review_writable/.review_runtime/DERIVATION_RESULT.json
+
+ succeeded in 0ms:
+INDEPENDENT_CMP=0
+0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6  /intake/INDEPENDENT_VERIFICATION.json
+0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6  /work/g326_review_writable/.review_runtime/INDEPENDENT_VERIFICATION.json
+
+ succeeded in 0ms:
+CATCH_CMP=0
+3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa  /intake/CATCH_PROOF_RESULT.json
+3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa  /work/g326_review_writable/.review_runtime/CATCH_PROOF_RESULT.json
+
+exec
+/bin/bash -lc "stat -c '%A %a %n' /work/g326_review_writable /work/g326_review_writable/*.py /work/g326_review_writable/.review_runtime" in /return
+ succeeded in 0ms:
+drwxrwxr-x 775 /work/g326_review_writable
+-rw-r--r-- 644 /work/g326_review_writable/build_repair_followup_intake.py
+-rw-r--r-- 644 /work/g326_review_writable/derive_offdiagonal_modes.py
+-rw-r--r-- 644 /work/g326_review_writable/run_catch_proofs.py
+-rw-r--r-- 644 /work/g326_review_writable/verify_offdiagonal_independent.py
+-rw-r--r-- 644 /work/g326_review_writable/verify_package.py
+-rw-r--r-- 644 /work/g326_review_writable/verify_review_intake.py
+drwxrwxr-x 775 /work/g326_review_writable/.review_runtime
+
+exec
+/bin/bash -lc "cmp -s /intake/PACKAGE_VERIFICATION_RESULT.json /work/g326_review_writable/.review_runtime/PACKAGE_VERIFICATION_RESULT.json; printf 'PACKAGE_CMP=%s\\n' "'$?; sha256sum /intake/PACKAGE_VERIFICATION_RESULT.json /work/g326_review_writable/.review_runtime/PACKAGE_VERIFICATION_RESULT.json' in /return
+ succeeded in 0ms:
+PACKAGE_CMP=0
+044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d  /intake/PACKAGE_VERIFICATION_RESULT.json
+044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d  /work/g326_review_writable/.review_runtime/PACKAGE_VERIFICATION_RESULT.json
+
+exec
+/bin/bash -lc "test -w /work/g326_review_writable; printf 'WORKDIR_WRITABLE=%s\\n' "'$?' in /return
+ succeeded in 0ms:
+WORKDIR_WRITABLE=0
+
+codex
+The literal replay reproduced all four banked JSON outputs byte-for-byte in the writable copy, including the aggregate verifier result. I’m now doing the separate adversarial step the request requires: manual one-at-a-time source substitution in fresh writable copies to show the `source_integrity:*` gates fail even when the substituted script still emits the expected banked artifact.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import json, shutil, subprocess, sys
+
+base = Path('/work')
+source = Path('/work/g326_review_writable')
+results = []
+mutations = {
+    'derive_offdiagonal_modes.py': ('DERIVATION_RESULT.json', 'python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json'),
+    'verify_offdiagonal_independent.py': ('INDEPENDENT_VERIFICATION.json', 'python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json'),
+    'run_catch_proofs.py': ('CATCH_PROOF_RESULT.json', 'python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json'),
+}
+
+def emitter(artifact: str) -> str:
+    return f'''#"'!/usr/bin/env python3
+import argparse
+from pathlib import Path
+parser = argparse.ArgumentParser()
+parser.add_argument("--output", required=True)
+args = parser.parse_args()
+root = Path(__file__).resolve().parent
+rendered = (root / "{artifact}").read_text(encoding="utf-8")
+output = root / args.output
+output.parent.mkdir(parents=True, exist_ok=True)
+output.write_text(rendered, encoding="utf-8")
+print(rendered, end="")
+'"'''
+
+for script, (artifact, literal_cmd) in mutations.items():
+    copy = base / ('g326_mut_' + script.replace('.py',''))
+    if copy.exists():
+        shutil.rmtree(copy)
+    shutil.copytree(source, copy, ignore=shutil.ignore_patterns('.review_runtime'))
+    (copy / script).write_text(emitter(artifact), encoding='utf-8')
+    emitted = subprocess.run(literal_cmd.split(), cwd=copy, capture_output=True, text=True)
+    if emitted.returncode "'!= 0:
+        raise SystemExit(f'"'emitter failed for {script}: {emitted.stderr}')
+    original = (source / artifact).read_text(encoding='utf-8')
+    generated = (copy / '.review_runtime' / artifact).read_text(encoding='utf-8')
+    exact = (generated == original)
+    verified = subprocess.run([sys.executable, '-S', 'verify_package.py'], cwd=copy, capture_output=True, text=True)
+    results.append({
+        'script': script,
+        'artifact': artifact,
+        'literal_command': literal_cmd,
+        'emitter_exit': emitted.returncode,
+        'artifact_exact': exact,
+        'verify_exit': verified.returncode,
+        'stderr': verified.stderr.strip().splitlines()[-1] if verified.stderr.strip() else '',
+        'source_gate_seen': f'source_integrity:{script}' in verified.stderr,
+    })
+print(json.dumps(results, indent=2))
+PY" in /return
+ succeeded in 0ms:
+[
+  {
+    "script": "derive_offdiagonal_modes.py",
+    "artifact": "DERIVATION_RESULT.json",
+    "literal_command": "python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json",
+    "emitter_exit": 0,
+    "artifact_exact": true,
+    "verify_exit": 1,
+    "stderr": "AssertionError: source_integrity:derive_offdiagonal_modes.py",
+    "source_gate_seen": true
+  },
+  {
+    "script": "verify_offdiagonal_independent.py",
+    "artifact": "INDEPENDENT_VERIFICATION.json",
+    "literal_command": "python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json",
+    "emitter_exit": 0,
+    "artifact_exact": true,
+    "verify_exit": 1,
+    "stderr": "AssertionError: source_integrity:verify_offdiagonal_independent.py",
+    "source_gate_seen": true
+  },
+  {
+    "script": "run_catch_proofs.py",
+    "artifact": "CATCH_PROOF_RESULT.json",
+    "literal_command": "python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json",
+    "emitter_exit": 0,
+    "artifact_exact": true,
+    "verify_exit": 1,
+    "stderr": "AssertionError: source_integrity:run_catch_proofs.py",
+    "source_gate_seen": true
+  }
+]
+
+codex
+The adversarial substitutions behaved as required: each canned replacement still reproduced the corresponding banked JSON, and `verify_package.py` then failed specifically at the matching `source_integrity:<script>` assertion. I’m collecting exact file references now and then I’ll write the repair-only report to `/return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md`.
+exec
+/bin/bash -lc "nl -ba /intake/verify_package.py | sed -n '1,260p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/REPLAY_PRECONDITION.md | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	# G326 sealed replay precondition
+     2	
+     3	The sealed intake is deliberately read-only. Before running `REPLAY_COMMANDS.txt`, make a writable
+     4	ephemeral copy without changing the intake:
+     5	
+     6	```bash
+     7	mkdir -p /work/g326_review_writable
+     8	cp -r /intake/. /work/g326_review_writable/
+     9	chmod -R u+w /work/g326_review_writable
+    10	cd /work/g326_review_writable
+    11	```
+    12	
+    13	Then run the four lines in `REPLAY_COMMANDS.txt` literally. Generated files go only under
+    14	`.review_runtime/` in the writable copy. The sealed intake itself remains read-only throughout.
+    15	
+    16	This is an execution precondition, not a scientific premise and not permission to edit evidence.
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Aggregate, provenance, and exact-replay verifier for the bounded G326 package."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import hashlib
+     8	import json
+     9	import shlex
+    10	import shutil
+    11	import subprocess
+    12	import sys
+    13	import tempfile
+    14	from pathlib import Path
+    15	
+    16	
+    17	LANDING = (
+    18	    "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__"
+    19	    "ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__"
+    20	    "NO_FULL_STABILITY_CLAIM"
+    21	)
+    22	
+    23	SOURCE_SHA256 = {
+    24	    "derive_offdiagonal_modes.py":
+    25	        "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+    26	    "verify_offdiagonal_independent.py":
+    27	        "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+    28	    "run_catch_proofs.py":
+    29	        "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+    30	}
+    31	
+    32	
+    33	def load(path: Path):
+    34	    return json.loads(path.read_text(encoding="utf-8"))
+    35	
+    36	
+    37	def digest(path: Path) -> str:
+    38	    return hashlib.sha256(path.read_bytes()).hexdigest()
+    39	
+    40	
+    41	def canned_emitter(artifact: str) -> str:
+    42	    return f'''#!/usr/bin/env python3
+    43	import argparse
+    44	from pathlib import Path
+    45	parser = argparse.ArgumentParser()
+    46	parser.add_argument("--output", required=True)
+    47	args = parser.parse_args()
+    48	root = Path(__file__).resolve().parent
+    49	rendered = (root / "{artifact}").read_text(encoding="utf-8")
+    50	output = root / args.output
+    51	output.parent.mkdir(parents=True, exist_ok=True)
+    52	output.write_text(rendered, encoding="utf-8")
+    53	print(rendered, end="")
+    54	'''
+    55	
+    56	
+    57	def main() -> None:
+    58	    parser = argparse.ArgumentParser()
+    59	    parser.add_argument("--output", default=None)
+    60	    args = parser.parse_args()
+    61	    package = Path(__file__).resolve().parent
+    62	    checks: list[str] = []
+    63	
+    64	    def gate(condition: bool, name: str) -> None:
+    65	        assert condition, name
+    66	        checks.append(name)
+    67	
+    68	    production = load(package / "DERIVATION_RESULT.json")
+    69	    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    70	    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    71	
+    72	    gate(production["landing"] == LANDING, "production_landing")
+    73	    gate(production["assertion_count"] == 33, "production_assertion_count")
+    74	    gate(independent["assertion_count"] == 137, "independent_assertion_count")
+    75	    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    76	    gate(production["mode_dimensions"] == {
+    77	        "connected_scalar_curvature": 0,
+    78	        "fixed_quotient_lattice_moduli": 5,
+    79	        "local_transverse_kasner_shear": 1,
+    80	        "quotient_legal_gauge": 0,
+    81	    }, "exact_offdiagonal_dimensions")
+    82	    gate(production["combined_g325_g326_dimensions"] == {
+    83	        "connected_scalar_curvature": 1,
+    84	        "fixed_quotient_lattice_moduli": 8,
+    85	        "local_kasner_shear_components": 2,
+    86	        "residual_time_translation_gauge": 1,
+    87	        "total_integration_constants": 12,
+    88	    }, "exact_combined_dimensions")
+    89	    gate(production["general_solutions"] == {
+    90	        "12": ["T^-2/3", "T^4/3"],
+    91	        "13": ["T^-2/3", "T^4/3"],
+    92	        "23": ["T^4/3", "T^4/3*log(T/Tref)"],
+    93	    }, "complete_solution_basis")
+    94	    gate(production["linearized_scalar_curvature"] == "0",
+    95	         "production_scalar_zero")
+    96	    gate(independent["linearized_scalar_curvature"] == "0",
+    97	         "independent_scalar_zero")
+    98	    gate(independent["transverse_lattice_mixed_tidal"] == {},
+    99	         "independent_lattice_tidal_zero")
+   100	    gate(independent["transverse_shear_mixed_tidal"] == {
+   101	        "T^-2*log^0": "-1/3"
+   102	    }, "independent_shear_tidal_witness")
+   103	    gate(independent["offdiagonal_lattice_dimension"] == 5,
+   104	         "independent_lattice_dimension")
+   105	    gate(independent["offdiagonal_local_shear_dimension"] == 1,
+   106	         "independent_shear_dimension")
+   107	    gate(independent["combined_homogeneous_integration_constants"] == 12,
+   108	         "independent_combined_count")
+   109	    gate(independent["production_imported"] is False,
+   110	         "independent_no_production_import")
+   111	    gate(independent["production_result_read"] is False,
+   112	         "independent_no_production_result_read")
+   113	    gate(hostile["controls"] == [
+   114	        "wrong_ode_coefficient_caught",
+   115	        "dropped_repeated_root_log_mode_caught",
+   116	        "false_torus_periodicity_caught",
+   117	        "fake_curvature_free_log_mode_caught",
+   118	        "wrong_combined_dimension_caught",
+   119	    ], "all_hostile_controls")
+   120	    gate(production["full_homogeneous_synchronous_first_variation_closed_with_g325"],
+   121	         "bounded_homogeneous_closure")
+   122	    gate(not production["full_linear_stability_proved"], "no_full_linear_overclaim")
+   123	    gate(not production["nonlinear_stability_proved"], "no_nonlinear_overclaim")
+   124	    gate(not production["inhomogeneous_modes_classified"], "inhomogeneous_open")
+   125	    gate(not production["physical_occupancy_selected"], "occupancy_open")
+   126	    gate(not production["physical_scale_selected"], "scale_open")
+   127	    gate(not production["Xmax_selected"], "xmax_open")
+   128	    gate(not production["metric_changed"] and not production["kernel_changed"]
+   129	         and not production["angular_sector_changed"], "native_objects_unchanged")
+   130	
+   131	    for name, expected in SOURCE_SHA256.items():
+   132	        gate(digest(package / name) == expected, f"source_integrity:{name}")
+   133	
+   134	    independent_text = (package / "verify_offdiagonal_independent.py").read_text()
+   135	    gate("import derive_offdiagonal_modes" not in independent_text,
+   136	         "static_no_production_import")
+   137	    gate("from derive_offdiagonal_modes" not in independent_text,
+   138	         "static_no_production_from_import")
+   139	    gate("DERIVATION_RESULT.json" not in independent_text,
+   140	         "static_no_production_result_read")
+   141	    exact = (package / "EXACT_DERIVATION.md").read_text()
+   142	    lay = (package / "LAY_REPORT.md").read_text()
+   143	    status = (package / "STATUS_LEDGER.tsv").read_text()
+   144	    gates = (package / "EVIDENCE_GATES.md").read_text()
+   145	    note = (package / "PREREGISTRATION_EXECUTION_NOTE.md").read_text()
+   146	    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+   147	    gate("curvature change beyond the" in note and "Lie transport" in note,
+   148	         "curvature_falsifier_clarified_preproduction")
+   149	    gate("not a physical population or probability count" in exact,
+   150	         "count_not_population")
+   151	    gate("Every nonzero Fourier mode" in exact, "exact_fourier_boundary")
+   152	    gate("It still does not show that the spacetime is stable" in lay,
+   153	         "lay_stability_boundary")
+   154	    gate("EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING" in status,
+   155	         "status_external_science_accepted_repairs_pending")
+   156	    gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in gates,
+   157	         "fresh_external_acceptance_token")
+   158	    gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in
+   159	         (package / "EXTERNAL_REVIEW_RESPONSE.md").read_text(),
+   160	         "external_report_acceptance_token")
+   161	    precondition = (package / "REPLAY_PRECONDITION.md").read_text()
+   162	    gate("cp -r /intake/. /work/g326_review_writable/" in precondition,
+   163	         "writable_copy_command_registered")
+   164	    gate("chmod -R u+w /work/g326_review_writable" in precondition,
+   165	         "writable_permission_command_registered")
+   166	    gate("sealed intake itself remains read-only" in precondition,
+   167	         "sealed_intake_remains_read_only")
+   168	
+   169	    replay_lines = [
+   170	        line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+   171	        if line.strip()
+   172	    ]
+   173	    gate(len(replay_lines) == 4, "registered_command_count")
+   174	    with tempfile.TemporaryDirectory(prefix="udt_g326_replay_") as temporary:
+   175	        copy = Path(temporary) / "package"
+   176	        shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+   177	        for line, artifact in zip(replay_lines[:3], (
+   178	            "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json"
+   179	        )):
+   180	            completed = subprocess.run(
+   181	                shlex.split(line), cwd=copy, check=True, capture_output=True, text=True
+   182	            )
+   183	            gate(completed.returncode == 0, f"replay_exit:{artifact}")
+   184	            generated = copy / ".review_runtime" / artifact
+   185	            gate(generated.is_file(), f"replay_created:{artifact}")
+   186	            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+   187	        gate(replay_lines[3] == (
+   188	            "python3 -S verify_package.py --output "
+   189	            ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
+   190	        ), "fourth_command_self")
+   191	
+   192	    # Repair R1: the exact aggregate verifier must reject scripts replaced by canned emitters.
+   193	    canned_targets = {
+   194	        "derive_offdiagonal_modes.py": "DERIVATION_RESULT.json",
+   195	        "verify_offdiagonal_independent.py": "INDEPENDENT_VERIFICATION.json",
+   196	        "run_catch_proofs.py": "CATCH_PROOF_RESULT.json",
+   197	    }
+   198	    for script_name, artifact_name in canned_targets.items():
+   199	        with tempfile.TemporaryDirectory(prefix="udt_g326_canned_") as temporary:
+   200	            copy = Path(temporary) / "package"
+   201	            shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+   202	            (copy / script_name).write_text(canned_emitter(artifact_name), encoding="utf-8")
+   203	            completed = subprocess.run(
+   204	                [sys.executable, "-S", "verify_package.py"], cwd=copy,
+   205	                capture_output=True, text=True
+   206	            )
+   207	            gate(completed.returncode != 0 and
+   208	                 f"source_integrity:{script_name}" in completed.stderr,
+   209	                 f"canned_substitution_rejected:{script_name}")
+   210	
+   211	    result = {
+   212	        "schema": "udt-g326-package-verification-v1",
+   213	        "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP",
+   214	        "landing": LANDING,
+   215	        "assertion_count": len(checks),
+   216	        "checks": checks,
+   217	        "python_version": sys.version,
+   218	        "exact_replay": True,
+   219	    }
+   220	    rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
+   221	    if args.output:
+   222	        output = package / args.output
+   223	        output.parent.mkdir(parents=True, exist_ok=True)
+   224	        output.write_text(rendered, encoding="utf-8")
+   225	    print(rendered, end="")
+   226	
+   227	
+   228	if __name__ == "__main__":
+   229	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_SCOPE.json | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "allowed_question": "R1 exact source-integrity and canned-substitution rejection; R2 explicit writable ephemeral-copy precondition; unchanged bounded G326 scientific landing",
+     3	  "ephemeral_copy_checks_allowed": true,
+     4	  "evidence_read_only": true,
+     5	  "internet_browsing_allowed": false,
+     6	  "law_history_scale_selection_allowed": false,
+     7	  "manifest_payload_count": 38,
+     8	  "protected_package_access_allowed": false,
+     9	  "purpose": "read-only repair-only verification of G326 R1 and R2",
+    10	  "repository_access_allowed": false,
+    11	  "research_continuation_allowed": false,
+    12	  "schema": "udt-g326-r1-r2-repair-followup-scope-v1",
+    13	  "source_commit": "265f43741eacc4e55cd9303f51ffc9e53c973a1f"
+    14	}
+
+exec
+/bin/bash -lc "nl -ba /intake/DERIVATION_RESULT.json | sed -n '1,240p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/EVIDENCE_GATES.md | sed -n '1,240p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/REPLAY_COMMANDS.txt | sed -n '1,220p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/verify_review_intake.py | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
+     2	python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+     3	python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+     4	python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
+
+ succeeded in 0ms:
+     1	# G326 evidence gates
+     2	
+     3	Date: 2026-09-02
+     4	
+     5	1. Preregistered: `PASS`, commit `32fa2f98`; curvature terminology clarified before production at
+     6	   commit `04c7fb8f`.
+     7	2. Full bounded space: `PASS_INTERNAL`, all three off-diagonal homogeneous second-order equations
+     8	   solved without endpoint data; repeated root retained.
+     9	3. Independently verified: `PASS_EXTERNAL_SCIENCE`, direct Christoffel/Riemann engine plus fresh
+    10	   external rederivation; non-scientific verifier repairs R1 and R2 remain pending.
+    11	4. Premise audited: `PASS_INTERNAL`, owner-provisional equation explicit; no action, source,
+    12	   observation, scale, matter/mass, physical population, or `X_max` imported.
+    13	
+    14	Aggregate replay: `PASS_INTERNAL`, 46 checks with byte-exact regeneration. Repository gates:
+    15	308-row premise registry `PASS`; full suite `218 passed, 1 expected xfail`.
+    16	
+    17	Repairs R1 and R2: `IMPLEMENTED_PENDING_REPAIR_FOLLOWUP`. The aggregate verifier now pins the exact
+    18	three computational sources and executably proves that canned replacements of production,
+    19	independent, or hostile scripts are rejected. `REPLAY_PRECONDITION.md` makes the writable-copy step
+    20	explicit while retaining a read-only sealed intake.
+    21	
+    22	Fresh external verdict: `ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`.
+    23	
+    24	Current grade: `EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING`.
+
+ succeeded in 0ms:
+     1	{
+     2	  "Xmax_selected": false,
+     3	  "angular_sector_changed": false,
+     4	  "assertion_count": 33,
+     5	  "background_exponents": [
+     6	    "-1/3",
+     7	    "2/3",
+     8	    "2/3"
+     9	  ],
+    10	  "checks": [
+    11	    "background_kasner_sum",
+    12	    "background_kasner_square_sum",
+    13	    "root_12_left",
+    14	    "root_12_right",
+    15	    "real_roots_12",
+    16	    "distinct_roots_12",
+    17	    "root_13_left",
+    18	    "root_13_right",
+    19	    "real_roots_13",
+    20	    "distinct_roots_13",
+    21	    "root_23_left",
+    22	    "root_23_right",
+    23	    "real_roots_23",
+    24	    "repeated_root_23",
+    25	    "log_solution_exact_23",
+    26	    "six_complete_offdiagonal_integration_constants",
+    27	    "full_cover_image_rank_eight",
+    28	    "offdiagonal_cover_image_rank_five",
+    29	    "cover_map_kernel_contains_transverse_rotation",
+    30	    "cover_map_kernel_exactly_one_dimensional",
+    31	    "affine_jump_nonzero_01",
+    32	    "affine_jump_nonzero_10",
+    33	    "affine_jump_nonzero_02",
+    34	    "affine_jump_nonzero_20",
+    35	    "affine_jump_nonzero_12",
+    36	    "five_nonperiodic_offdiagonal_cover_generators",
+    37	    "transverse_tidal_witness_exact",
+    38	    "transverse_tidal_witness_nonzero",
+    39	    "transverse_tidal_eigenvalue_discriminant_positive",
+    40	    "offdiagonal_dimension_partition",
+    41	    "combined_quotient_lattice_dimension_eight",
+    42	    "combined_homogeneous_dimension_twelve",
+    43	    "transverse_background_degeneracy"
+    44	  ],
+    45	  "combined_g325_g326_dimensions": {
+    46	    "connected_scalar_curvature": 1,
+    47	    "fixed_quotient_lattice_moduli": 8,
+    48	    "local_kasner_shear_components": 2,
+    49	    "residual_time_translation_gauge": 1,
+    50	    "total_integration_constants": 12
+    51	  },
+    52	  "full_homogeneous_synchronous_first_variation_closed_with_g325": true,
+    53	  "full_linear_stability_proved": false,
+    54	  "general_solutions": {
+    55	    "12": [
+    56	      "T^-2/3",
+    57	      "T^4/3"
+    58	    ],
+    59	    "13": [
+    60	      "T^-2/3",
+    61	      "T^4/3"
+    62	    ],
+    63	    "23": [
+    64	      "T^4/3",
+    65	      "T^4/3*log(T/Tref)"
+    66	    ]
+    67	  },
+    68	  "inhomogeneous_modes_classified": false,
+    69	  "kernel_changed": false,
+    70	  "landing": "HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+    71	  "linearized_scalar_curvature": "0",
+    72	  "metric_changed": false,
+    73	  "mode_dimensions": {
+    74	    "connected_scalar_curvature": 0,
+    75	    "fixed_quotient_lattice_moduli": 5,
+    76	    "local_transverse_kasner_shear": 1,
+    77	    "quotient_legal_gauge": 0
+    78	  },
+    79	  "nonlinear_stability_proved": false,
+    80	  "offdiagonal_ode": "k_ij''+[1-2*(p_i+p_j)]*k_ij'/T+4*p_i*p_j*k_ij/T^2=0",
+    81	  "physical_occupancy_selected": false,
+    82	  "physical_scale_selected": false,
+    83	  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    84	  "schema": "udt-g326-homogeneous-offdiagonal-production-v1",
+    85	  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+    86	  "transverse_tidal_witness": "delta(E^y_z)=delta(E^z_y)=-q_cross/(3*T^2)"
+    87	}
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Authenticate a sealed G326 review intake without repository access."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10	
+    11	
+    12	def digest(path: Path) -> str:
+    13	    return hashlib.sha256(path.read_bytes()).hexdigest()
+    14	
+    15	
+    16	def main() -> None:
+    17	    root = Path(__file__).resolve().parent
+    18	    manifest = root / "REVIEW_MANIFEST.tsv"
+    19	    seal = root / "REVIEW_MANIFEST.sha256"
+    20	    scope = root / "REVIEW_SCOPE.json"
+    21	    assert digest(manifest) == seal.read_text().strip(), "detached manifest seal mismatch"
+    22	    rows = list(csv.DictReader(manifest.open(newline=""), delimiter="\t"))
+    23	    for row in rows:
+    24	        path = root / row["relative_path"]
+    25	        assert path.is_file(), row["relative_path"]
+    26	        assert path.stat().st_size == int(row["bytes"]), row["relative_path"]
+    27	        assert digest(path) == row["sha256"], row["relative_path"]
+    28	    metadata = json.loads(scope.read_text())
+    29	    assert len(rows) == metadata["manifest_payload_count"]
+    30	    assert metadata["evidence_read_only"] is True
+    31	    assert metadata["research_continuation_allowed"] is False
+    32	    print(json.dumps({
+    33	        "status": "PASS",
+    34	        "manifest_payload_count": len(rows),
+    35	        "total_file_count": len(rows) + 2,
+    36	        "manifest_sha256": digest(manifest),
+    37	        "scope_sha256": digest(scope),
+    38	    }, indent=2, sort_keys=True))
+    39	
+    40	
+    41	if __name__ == "__main__":
+    42	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/INDEPENDENT_VERIFICATION.json | sed -n '1,240p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "assertion_count": 137,
+     3	  "checks": [
+     4	    "direct_tracefree_zero:xy_x:0:0",
+     5	    "direct_tracefree_zero:xy_x:0:1",
+     6	    "direct_tracefree_zero:xy_x:0:2",
+     7	    "direct_tracefree_zero:xy_x:0:3",
+     8	    "direct_tracefree_zero:xy_x:1:0",
+     9	    "direct_tracefree_zero:xy_x:1:1",
+    10	    "direct_tracefree_zero:xy_x:1:2",
+    11	    "direct_tracefree_zero:xy_x:1:3",
+    12	    "direct_tracefree_zero:xy_x:2:0",
+    13	    "direct_tracefree_zero:xy_x:2:1",
+    14	    "direct_tracefree_zero:xy_x:2:2",
+    15	    "direct_tracefree_zero:xy_x:2:3",
+    16	    "direct_tracefree_zero:xy_x:3:0",
+    17	    "direct_tracefree_zero:xy_x:3:1",
+    18	    "direct_tracefree_zero:xy_x:3:2",
+    19	    "direct_tracefree_zero:xy_x:3:3",
+    20	    "direct_scalar_zero:xy_x",
+    21	    "direct_momentum_zero:xy_x:1",
+    22	    "direct_momentum_zero:xy_x:2",
+    23	    "direct_momentum_zero:xy_x:3",
+    24	    "direct_tracefree_zero:xy_y:0:0",
+    25	    "direct_tracefree_zero:xy_y:0:1",
+    26	    "direct_tracefree_zero:xy_y:0:2",
+    27	    "direct_tracefree_zero:xy_y:0:3",
+    28	    "direct_tracefree_zero:xy_y:1:0",
+    29	    "direct_tracefree_zero:xy_y:1:1",
+    30	    "direct_tracefree_zero:xy_y:1:2",
+    31	    "direct_tracefree_zero:xy_y:1:3",
+    32	    "direct_tracefree_zero:xy_y:2:0",
+    33	    "direct_tracefree_zero:xy_y:2:1",
+    34	    "direct_tracefree_zero:xy_y:2:2",
+    35	    "direct_tracefree_zero:xy_y:2:3",
+    36	    "direct_tracefree_zero:xy_y:3:0",
+    37	    "direct_tracefree_zero:xy_y:3:1",
+    38	    "direct_tracefree_zero:xy_y:3:2",
+    39	    "direct_tracefree_zero:xy_y:3:3",
+    40	    "direct_scalar_zero:xy_y",
+    41	    "direct_momentum_zero:xy_y:1",
+    42	    "direct_momentum_zero:xy_y:2",
+    43	    "direct_momentum_zero:xy_y:3",
+    44	    "direct_tracefree_zero:xz_x:0:0",
+    45	    "direct_tracefree_zero:xz_x:0:1",
+    46	    "direct_tracefree_zero:xz_x:0:2",
+    47	    "direct_tracefree_zero:xz_x:0:3",
+    48	    "direct_tracefree_zero:xz_x:1:0",
+    49	    "direct_tracefree_zero:xz_x:1:1",
+    50	    "direct_tracefree_zero:xz_x:1:2",
+    51	    "direct_tracefree_zero:xz_x:1:3",
+    52	    "direct_tracefree_zero:xz_x:2:0",
+    53	    "direct_tracefree_zero:xz_x:2:1",
+    54	    "direct_tracefree_zero:xz_x:2:2",
+    55	    "direct_tracefree_zero:xz_x:2:3",
+    56	    "direct_tracefree_zero:xz_x:3:0",
+    57	    "direct_tracefree_zero:xz_x:3:1",
+    58	    "direct_tracefree_zero:xz_x:3:2",
+    59	    "direct_tracefree_zero:xz_x:3:3",
+    60	    "direct_scalar_zero:xz_x",
+    61	    "direct_momentum_zero:xz_x:1",
+    62	    "direct_momentum_zero:xz_x:2",
+    63	    "direct_momentum_zero:xz_x:3",
+    64	    "direct_tracefree_zero:xz_z:0:0",
+    65	    "direct_tracefree_zero:xz_z:0:1",
+    66	    "direct_tracefree_zero:xz_z:0:2",
+    67	    "direct_tracefree_zero:xz_z:0:3",
+    68	    "direct_tracefree_zero:xz_z:1:0",
+    69	    "direct_tracefree_zero:xz_z:1:1",
+    70	    "direct_tracefree_zero:xz_z:1:2",
+    71	    "direct_tracefree_zero:xz_z:1:3",
+    72	    "direct_tracefree_zero:xz_z:2:0",
+    73	    "direct_tracefree_zero:xz_z:2:1",
+    74	    "direct_tracefree_zero:xz_z:2:2",
+    75	    "direct_tracefree_zero:xz_z:2:3",
+    76	    "direct_tracefree_zero:xz_z:3:0",
+    77	    "direct_tracefree_zero:xz_z:3:1",
+    78	    "direct_tracefree_zero:xz_z:3:2",
+    79	    "direct_tracefree_zero:xz_z:3:3",
+    80	    "direct_scalar_zero:xz_z",
+    81	    "direct_momentum_zero:xz_z:1",
+    82	    "direct_momentum_zero:xz_z:2",
+    83	    "direct_momentum_zero:xz_z:3",
+    84	    "direct_tracefree_zero:yz_lattice:0:0",
+    85	    "direct_tracefree_zero:yz_lattice:0:1",
+    86	    "direct_tracefree_zero:yz_lattice:0:2",
+    87	    "direct_tracefree_zero:yz_lattice:0:3",
+    88	    "direct_tracefree_zero:yz_lattice:1:0",
+    89	    "direct_tracefree_zero:yz_lattice:1:1",
+    90	    "direct_tracefree_zero:yz_lattice:1:2",
+    91	    "direct_tracefree_zero:yz_lattice:1:3",
+    92	    "direct_tracefree_zero:yz_lattice:2:0",
+    93	    "direct_tracefree_zero:yz_lattice:2:1",
+    94	    "direct_tracefree_zero:yz_lattice:2:2",
+    95	    "direct_tracefree_zero:yz_lattice:2:3",
+    96	    "direct_tracefree_zero:yz_lattice:3:0",
+    97	    "direct_tracefree_zero:yz_lattice:3:1",
+    98	    "direct_tracefree_zero:yz_lattice:3:2",
+    99	    "direct_tracefree_zero:yz_lattice:3:3",
+   100	    "direct_scalar_zero:yz_lattice",
+   101	    "direct_momentum_zero:yz_lattice:1",
+   102	    "direct_momentum_zero:yz_lattice:2",
+   103	    "direct_momentum_zero:yz_lattice:3",
+   104	    "direct_tracefree_zero:yz_shear:0:0",
+   105	    "direct_tracefree_zero:yz_shear:0:1",
+   106	    "direct_tracefree_zero:yz_shear:0:2",
+   107	    "direct_tracefree_zero:yz_shear:0:3",
+   108	    "direct_tracefree_zero:yz_shear:1:0",
+   109	    "direct_tracefree_zero:yz_shear:1:1",
+   110	    "direct_tracefree_zero:yz_shear:1:2",
+   111	    "direct_tracefree_zero:yz_shear:1:3",
+   112	    "direct_tracefree_zero:yz_shear:2:0",
+   113	    "direct_tracefree_zero:yz_shear:2:1",
+   114	    "direct_tracefree_zero:yz_shear:2:2",
+   115	    "direct_tracefree_zero:yz_shear:2:3",
+   116	    "direct_tracefree_zero:yz_shear:3:0",
+   117	    "direct_tracefree_zero:yz_shear:3:1",
+   118	    "direct_tracefree_zero:yz_shear:3:2",
+   119	    "direct_tracefree_zero:yz_shear:3:3",
+   120	    "direct_scalar_zero:yz_shear",
+   121	    "direct_momentum_zero:yz_shear:1",
+   122	    "direct_momentum_zero:yz_shear:2",
+   123	    "direct_momentum_zero:yz_shear:3",
+   124	    "direct_cover_lie_metric:xy_x",
+   125	    "direct_cover_generator_nonperiodic:xy_x",
+   126	    "direct_cover_lie_metric:xy_y",
+   127	    "direct_cover_generator_nonperiodic:xy_y",
+   128	    "direct_cover_lie_metric:xz_x",
+   129	    "direct_cover_generator_nonperiodic:xz_x",
+   130	    "direct_cover_lie_metric:xz_z",
+   131	    "direct_cover_generator_nonperiodic:xz_z",
+   132	    "direct_cover_lie_metric:yz_lattice",
+   133	    "direct_cover_generator_nonperiodic:yz_lattice",
+   134	    "direct_transverse_lattice_no_tidal_split",
+   135	    "direct_transverse_shear_tidal_yz",
+   136	    "direct_transverse_shear_tidal_zy",
+   137	    "independent_full_lattice_image_dimension_eight",
+   138	    "independent_offdiagonal_lattice_dimension_five",
+   139	    "independent_transverse_rotation_kernel_dimension_one",
+   140	    "independent_combined_homogeneous_count_twelve"
+   141	  ],
+   142	  "combined_homogeneous_integration_constants": 12,
+   143	  "direct_tensor_modes": [
+   144	    "xy_x",
+   145	    "xy_y",
+   146	    "xz_x",
+   147	    "xz_z",
+   148	    "yz_lattice",
+   149	    "yz_shear"
+   150	  ],
+   151	  "linearized_scalar_curvature": "0",
+   152	  "offdiagonal_lattice_dimension": 5,
+   153	  "offdiagonal_local_shear_dimension": 1,
+   154	  "production_imported": false,
+   155	  "production_result_read": false,
+   156	  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+   157	  "schema": "udt-g326-homogeneous-offdiagonal-independent-v1",
+   158	  "status": "PASS",
+   159	  "transverse_lattice_mixed_tidal": {},
+   160	  "transverse_shear_mixed_tidal": {
+   161	    "T^-2*log^0": "-1/3"
+   162	  }
+   163	}
+
+exec
+/bin/bash -lc "nl -ba /intake/STATUS_LEDGER.tsv | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	claim	status	scope
+     2	G326_offdiagonal_census	EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING	five quotient lattice/frame moduli plus one local transverse Kasner shear
+     3	full_homogeneous_combined_census	EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING	one gauge plus eight lattice plus two shear plus one scalar equals twelve
+     4	nonzero_Fourier_modes	OPEN	outside homogeneous sector
+     5	full_linear_stability	OPEN	requires all Fourier and gauge sectors plus norm and endpoint control
+     6	nonlinear_stability	OPEN	outside first variation
+     7	physical_occupancy	OPEN	no datum selected
+     8	physical_scale	OPEN	no ruler attachment
+     9	physical_Xmax	OPEN	not used or selected
+    10	metric_kernel_angular_change	FORBIDDEN	G326 is analysis of the adopted equation around G324
+
+exec
+/bin/bash -lc "nl -ba /intake/REPAIR_LEDGER.tsv | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	repair	status	preregistered_problem	required_closure	scientific_effect
+     2	R1	IMPLEMENTED_PENDING_REPAIR_FOLLOWUP	aggregate verifier accepts canned replacements for independent and hostile scripts	exact source-integrity gates plus three executable canned-substitution rejection proofs	none; retained accepted G326 landing
+     3	R2	IMPLEMENTED_PENDING_REPAIR_FOLLOWUP	sealed permissions can survive an archive-style copy and prevent literal replay	explicit REPLAY_PRECONDITION plus aggregate gates preserving read-only intake and writable ephemeral copy	none; retained accepted G326 landing
+
+codex
+I have enough evidence to close this without widening scope. I’m writing the report now and will end it with one of the three allowed follow-up outcomes, verbatim.
+apply patch
+patch: completed
+/return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..8be2b8fdb455a5f8d69a1024729d937d922dbe6e
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,192 @@
++# External Repair Follow-Up Response
++
++Date: 2026-09-02
++Reviewer mode: fresh zero-context, repair-only, adversarial
++Evidence root inspected: `/intake` only
++Writable workspace used for replay checks: `/work`
++
++## Scope and compliance
++
++I followed `/intake/REPLAY_PRECONDITION.md` and restricted all writable execution to `/work`. I did
++not edit any file under `/intake`, did not access any repository, did not access any protected
++package, and did not use browsing, downloads, package installation, `curl`, `wget`, or
++network-capable Python.
++
++`/intake/REVIEW_SCOPE.json` states:
++
++- `evidence_read_only: true`
++- `ephemeral_copy_checks_allowed: true`
++- `repository_access_allowed: false`
++- `protected_package_access_allowed: false`
++- `research_continuation_allowed: false`
++
++These settings are consistent with a repair-only review of R1 and R2 and inconsistent with any
++research continuation.
++
++## Intake authentication
++
++I authenticated the sealed intake in two ways.
++
++1. Detached manifest seal:
++   `sha256(/intake/REVIEW_MANIFEST.tsv) =
++   d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`,
++   which exactly matches `/intake/REVIEW_MANIFEST.sha256`.
++2. Full manifest walk:
++   all 38 manifest payload rows in `/intake/REVIEW_MANIFEST.tsv` existed, matched the declared byte
++   counts, and matched the declared SHA-256 digests.
++
++I also ran `/intake/verify_review_intake.py`, which returned `PASS` with:
++
++- `manifest_payload_count = 38`
++- `total_file_count = 40`
++- `manifest_sha256 = d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`
++- `scope_sha256 = c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8`
++
++The two unlisted files are the manifest itself and its detached seal, which is consistent with
++`manifest_payload_count: 38` in the scope file.
++
++Filesystem state also matches the sealed-intake claim: `/intake` is `555` and its files are `444`,
++and `test -w /intake` returned nonzero.
++
++## R1 review: exact computational-source integrity
++
++### R1.1 Exact SHA-256 pins are present
++
++`/intake/verify_package.py` hard-pins exact SHA-256 digests for the three required computational
++sources:
++
++- `derive_offdiagonal_modes.py`
++- `verify_offdiagonal_independent.py`
++- `run_catch_proofs.py`
++
++The pins appear in `SOURCE_SHA256`, and the verifier enforces them by recomputing each digest and
++asserting `source_integrity:<name>` for each file.
++
++### R1.2 The aggregate verifier contains executable canned-substitution rejection logic
++
++`/intake/verify_package.py` defines a real `canned_emitter()` that reads a banked JSON artifact and
++writes it to the requested output path. It then:
++
++1. copies the package to a temporary writable directory,
++2. replaces exactly one of the three scripts with that emitter,
++3. runs `verify_package.py` in the mutated copy, and
++4. requires nonzero exit plus the matching `source_integrity:<script>` failure marker on stderr.
++
++This is executable mutation logic, not a string-only declaration.
++
++### R1.3 Independent live proof that the three source-integrity gates reject canned substitution
++
++I did not rely only on reading `verify_package.py`. In fresh writable copies under `/work`, I
++manually replaced each source one at a time with a canned emitter, then ran the corresponding
++literal command so the substituted script emitted the expected banked artifact, and finally ran
++`python3 -S verify_package.py`.
++
++Observed results:
++
++- Mutated `derive_offdiagonal_modes.py`:
++  the emitter reproduced `DERIVATION_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:derive_offdiagonal_modes.py`.
++- Mutated `verify_offdiagonal_independent.py`:
++  the emitter reproduced `INDEPENDENT_VERIFICATION.json` exactly, then aggregate verification failed
++  with `AssertionError: source_integrity:verify_offdiagonal_independent.py`.
++- Mutated `run_catch_proofs.py`:
++  the emitter reproduced `CATCH_PROOF_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:run_catch_proofs.py`.
++
++That is the required live rejection proof. The verifier does not merely inspect strings; it rejects
++executable source substitution even when the substituted script still reproduces the banked JSON.
++
++### R1.4 Literal replay in writable copy
++
++I followed `/intake/REPLAY_PRECONDITION.md` literally:
++
++```bash
++mkdir -p /work/g326_review_writable
++cp -r /intake/. /work/g326_review_writable/
++chmod -R u+w /work/g326_review_writable
++cd /work/g326_review_writable
++```
++
++I then ran the four registered commands literally from `/intake/REPLAY_COMMANDS.txt`:
++
++```bash
++python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++Results:
++
++- all four commands exited `0`;
++- the writable copy became writable as intended (`/work/g326_review_writable` and the copied
++  sources were mode `u+w`);
++- all four generated JSON files in `.review_runtime/` matched the banked intake files byte-for-byte
++  by both `cmp -s` and SHA-256;
++- aggregate verification returned
++  `PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP` with `assertion_count = 56`.
++
++Exact replay confirmations:
++
++- `DERIVATION_RESULT.json` exact:
++  `6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12`
++- `INDEPENDENT_VERIFICATION.json` exact:
++  `0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6`
++- `CATCH_PROOF_RESULT.json` exact:
++  `3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa`
++- `PACKAGE_VERIFICATION_RESULT.json` exact:
++  `044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d`
++
++Conclusion on R1: implemented and verified.
++
++## R2 review: writable ephemeral-copy replay
++
++`/intake/REPLAY_PRECONDITION.md` explicitly states that the sealed intake is read-only, requires a
++writable copy under `/work/g326_review_writable`, and states that generated files go only under
++`.review_runtime/` in the writable copy. It further states that this is an execution precondition,
++not permission to edit evidence.
++
++This satisfies the three requested R2 checks:
++
++1. The sealed intake is explicitly preserved as read-only.
++2. The registered `cp -r` plus `chmod -R u+w` commands create a writable replay copy without
++   changing intake evidence.
++3. The scope permits checks only in that ephemeral copy and does not permit evidence edits or
++   research continuation.
++
++My observed filesystem state matched the instruction:
++
++- `/intake` remained nonwritable during the review.
++- `/work/g326_review_writable` was writable after the registered permission step.
++- all replay outputs landed in `/work/g326_review_writable/.review_runtime/`.
++
++Conclusion on R2: implemented and verified.
++
++## Scientific boundary check
++
++I did not reopen the scientific question. I verified only whether the bounded accepted landing was
++unchanged.
++
++The bounded landing remains the same:
++
++- off-diagonal mode dimensions remain `5` fixed quotient lattice moduli plus `1` local transverse
++  Kasner shear;
++- the combined homogeneous count remains `12`;
++- the accepted landing token remains
++  `HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM`;
++- `metric_changed`, `kernel_changed`, and `angular_sector_changed` remain `false`;
++- the bounded closure remains limited to homogeneous synchronous first variation;
++- nonzero Fourier modes, full linear stability, nonlinear stability, physical occupancy, physical
++  scale, and `X_max` remain open or unselected.
++
++This matches the scientific boundary stated in the request and the current accepted-grade ledgers.
++
++## Verdict
++
++Both registered repairs are complete on the evidence supplied. R1 now has exact source-digest pins
++plus three live executable canned-substitution rejection proofs. R2 now has an explicit read-only
++intake to writable-ephemeral-copy replay procedure, and the literal replay works exactly as
++registered without changing sealed evidence. The already accepted bounded G326 landing is unchanged
++and remains supported within its stated boundary.
++
++accept R1 and R2 and the unchanged bounded landing;
+
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..8be2b8fdb455a5f8d69a1024729d937d922dbe6e
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,192 @@
++# External Repair Follow-Up Response
++
++Date: 2026-09-02
++Reviewer mode: fresh zero-context, repair-only, adversarial
++Evidence root inspected: `/intake` only
++Writable workspace used for replay checks: `/work`
++
++## Scope and compliance
++
++I followed `/intake/REPLAY_PRECONDITION.md` and restricted all writable execution to `/work`. I did
++not edit any file under `/intake`, did not access any repository, did not access any protected
++package, and did not use browsing, downloads, package installation, `curl`, `wget`, or
++network-capable Python.
++
++`/intake/REVIEW_SCOPE.json` states:
++
++- `evidence_read_only: true`
++- `ephemeral_copy_checks_allowed: true`
++- `repository_access_allowed: false`
++- `protected_package_access_allowed: false`
++- `research_continuation_allowed: false`
++
++These settings are consistent with a repair-only review of R1 and R2 and inconsistent with any
++research continuation.
++
++## Intake authentication
++
++I authenticated the sealed intake in two ways.
++
++1. Detached manifest seal:
++   `sha256(/intake/REVIEW_MANIFEST.tsv) =
++   d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`,
++   which exactly matches `/intake/REVIEW_MANIFEST.sha256`.
++2. Full manifest walk:
++   all 38 manifest payload rows in `/intake/REVIEW_MANIFEST.tsv` existed, matched the declared byte
++   counts, and matched the declared SHA-256 digests.
++
++I also ran `/intake/verify_review_intake.py`, which returned `PASS` with:
++
++- `manifest_payload_count = 38`
++- `total_file_count = 40`
++- `manifest_sha256 = d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`
++- `scope_sha256 = c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8`
++
++The two unlisted files are the manifest itself and its detached seal, which is consistent with
++`manifest_payload_count: 38` in the scope file.
++
++Filesystem state also matches the sealed-intake claim: `/intake` is `555` and its files are `444`,
++and `test -w /intake` returned nonzero.
++
++## R1 review: exact computational-source integrity
++
++### R1.1 Exact SHA-256 pins are present
++
++`/intake/verify_package.py` hard-pins exact SHA-256 digests for the three required computational
++sources:
++
++- `derive_offdiagonal_modes.py`
++- `verify_offdiagonal_independent.py`
++- `run_catch_proofs.py`
++
++The pins appear in `SOURCE_SHA256`, and the verifier enforces them by recomputing each digest and
++asserting `source_integrity:<name>` for each file.
++
++### R1.2 The aggregate verifier contains executable canned-substitution rejection logic
++
++`/intake/verify_package.py` defines a real `canned_emitter()` that reads a banked JSON artifact and
++writes it to the requested output path. It then:
++
++1. copies the package to a temporary writable directory,
++2. replaces exactly one of the three scripts with that emitter,
++3. runs `verify_package.py` in the mutated copy, and
++4. requires nonzero exit plus the matching `source_integrity:<script>` failure marker on stderr.
++
++This is executable mutation logic, not a string-only declaration.
++
++### R1.3 Independent live proof that the three source-integrity gates reject canned substitution
++
++I did not rely only on reading `verify_package.py`. In fresh writable copies under `/work`, I
++manually replaced each source one at a time with a canned emitter, then ran the corresponding
++literal command so the substituted script emitted the expected banked artifact, and finally ran
++`python3 -S verify_package.py`.
++
++Observed results:
++
++- Mutated `derive_offdiagonal_modes.py`:
++  the emitter reproduced `DERIVATION_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:derive_offdiagonal_modes.py`.
++- Mutated `verify_offdiagonal_independent.py`:
++  the emitter reproduced `INDEPENDENT_VERIFICATION.json` exactly, then aggregate verification failed
++  with `AssertionError: source_integrity:verify_offdiagonal_independent.py`.
++- Mutated `run_catch_proofs.py`:
++  the emitter reproduced `CATCH_PROOF_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:run_catch_proofs.py`.
++
++That is the required live rejection proof. The verifier does not merely inspect strings; it rejects
++executable source substitution even when the substituted script still reproduces the banked JSON.
++
++### R1.4 Literal replay in writable copy
++
++I followed `/intake/REPLAY_PRECONDITION.md` literally:
++
++```bash
++mkdir -p /work/g326_review_writable
++cp -r /intake/. /work/g326_review_writable/
++chmod -R u+w /work/g326_review_writable
++cd /work/g326_review_writable
++```
++
++I then ran the four registered commands literally from `/intake/REPLAY_COMMANDS.txt`:
++
++```bash
++python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++Results:
++
++- all four commands exited `0`;
++- the writable copy became writable as intended (`/work/g326_review_writable` and the copied
++  sources were mode `u+w`);
++- all four generated JSON files in `.review_runtime/` matched the banked intake files byte-for-byte
++  by both `cmp -s` and SHA-256;
++- aggregate verification returned
++  `PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP` with `assertion_count = 56`.
++
++Exact replay confirmations:
++
++- `DERIVATION_RESULT.json` exact:
++  `6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12`
++- `INDEPENDENT_VERIFICATION.json` exact:
++  `0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6`
++- `CATCH_PROOF_RESULT.json` exact:
++  `3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa`
++- `PACKAGE_VERIFICATION_RESULT.json` exact:
++  `044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d`
++
++Conclusion on R1: implemented and verified.
++
++## R2 review: writable ephemeral-copy replay
++
++`/intake/REPLAY_PRECONDITION.md` explicitly states that the sealed intake is read-only, requires a
++writable copy under `/work/g326_review_writable`, and states that generated files go only under
++`.review_runtime/` in the writable copy. It further states that this is an execution precondition,
++not permission to edit evidence.
++
++This satisfies the three requested R2 checks:
++
++1. The sealed intake is explicitly preserved as read-only.
++2. The registered `cp -r` plus `chmod -R u+w` commands create a writable replay copy without
++   changing intake evidence.
++3. The scope permits checks only in that ephemeral copy and does not permit evidence edits or
++   research continuation.
++
++My observed filesystem state matched the instruction:
++
++- `/intake` remained nonwritable during the review.
++- `/work/g326_review_writable` was writable after the registered permission step.
++- all replay outputs landed in `/work/g326_review_writable/.review_runtime/`.
++
++Conclusion on R2: implemented and verified.
++
++## Scientific boundary check
++
++I did not reopen the scientific question. I verified only whether the bounded accepted landing was
++unchanged.
++
++The bounded landing remains the same:
++
++- off-diagonal mode dimensions remain `5` fixed quotient lattice moduli plus `1` local transverse
++  Kasner shear;
++- the combined homogeneous count remains `12`;
++- the accepted landing token remains
++  `HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM`;
++- `metric_changed`, `kernel_changed`, and `angular_sector_changed` remain `false`;
++- the bounded closure remains limited to homogeneous synchronous first variation;
++- nonzero Fourier modes, full linear stability, nonlinear stability, physical occupancy, physical
++  scale, and `X_max` remain open or unselected.
++
++This matches the scientific boundary stated in the request and the current accepted-grade ledgers.
++
++## Verdict
++
++Both registered repairs are complete on the evidence supplied. R1 now has exact source-digest pins
++plus three live executable canned-substitution rejection proofs. R2 now has an explicit read-only
++intake to writable-ephemeral-copy replay procedure, and the literal replay works exactly as
++registered without changing sealed evidence. The already accepted bounded G326 landing is unchanged
++and remains supported within its stated boundary.
++
++accept R1 and R2 and the unchanged bounded landing;
+
+exec
+/bin/bash -lc 'tail -n 5 /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md' in /return
+ succeeded in 0ms:
+intake to writable-ephemeral-copy replay procedure, and the literal replay works exactly as
+registered without changing sealed evidence. The already accepted bounded G326 landing is unchanged
+and remains supported within its stated boundary.
+
+accept R1 and R2 and the unchanged bounded landing;
+
+exec
+/bin/bash -lc 'wc -l /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md' in /return
+ succeeded in 0ms:
+192 /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..8be2b8fdb455a5f8d69a1024729d937d922dbe6e
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,192 @@
++# External Repair Follow-Up Response
++
++Date: 2026-09-02
++Reviewer mode: fresh zero-context, repair-only, adversarial
++Evidence root inspected: `/intake` only
++Writable workspace used for replay checks: `/work`
++
++## Scope and compliance
++
++I followed `/intake/REPLAY_PRECONDITION.md` and restricted all writable execution to `/work`. I did
++not edit any file under `/intake`, did not access any repository, did not access any protected
++package, and did not use browsing, downloads, package installation, `curl`, `wget`, or
++network-capable Python.
++
++`/intake/REVIEW_SCOPE.json` states:
++
++- `evidence_read_only: true`
++- `ephemeral_copy_checks_allowed: true`
++- `repository_access_allowed: false`
++- `protected_package_access_allowed: false`
++- `research_continuation_allowed: false`
++
++These settings are consistent with a repair-only review of R1 and R2 and inconsistent with any
++research continuation.
++
++## Intake authentication
++
++I authenticated the sealed intake in two ways.
++
++1. Detached manifest seal:
++   `sha256(/intake/REVIEW_MANIFEST.tsv) =
++   d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`,
++   which exactly matches `/intake/REVIEW_MANIFEST.sha256`.
++2. Full manifest walk:
++   all 38 manifest payload rows in `/intake/REVIEW_MANIFEST.tsv` existed, matched the declared byte
++   counts, and matched the declared SHA-256 digests.
++
++I also ran `/intake/verify_review_intake.py`, which returned `PASS` with:
++
++- `manifest_payload_count = 38`
++- `total_file_count = 40`
++- `manifest_sha256 = d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`
++- `scope_sha256 = c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8`
++
++The two unlisted files are the manifest itself and its detached seal, which is consistent with
++`manifest_payload_count: 38` in the scope file.
++
++Filesystem state also matches the sealed-intake claim: `/intake` is `555` and its files are `444`,
++and `test -w /intake` returned nonzero.
++
++## R1 review: exact computational-source integrity
++
++### R1.1 Exact SHA-256 pins are present
++
++`/intake/verify_package.py` hard-pins exact SHA-256 digests for the three required computational
++sources:
++
++- `derive_offdiagonal_modes.py`
++- `verify_offdiagonal_independent.py`
++- `run_catch_proofs.py`
++
++The pins appear in `SOURCE_SHA256`, and the verifier enforces them by recomputing each digest and
++asserting `source_integrity:<name>` for each file.
++
++### R1.2 The aggregate verifier contains executable canned-substitution rejection logic
++
++`/intake/verify_package.py` defines a real `canned_emitter()` that reads a banked JSON artifact and
++writes it to the requested output path. It then:
++
++1. copies the package to a temporary writable directory,
++2. replaces exactly one of the three scripts with that emitter,
++3. runs `verify_package.py` in the mutated copy, and
++4. requires nonzero exit plus the matching `source_integrity:<script>` failure marker on stderr.
++
++This is executable mutation logic, not a string-only declaration.
++
++### R1.3 Independent live proof that the three source-integrity gates reject canned substitution
++
++I did not rely only on reading `verify_package.py`. In fresh writable copies under `/work`, I
++manually replaced each source one at a time with a canned emitter, then ran the corresponding
++literal command so the substituted script emitted the expected banked artifact, and finally ran
++`python3 -S verify_package.py`.
++
++Observed results:
++
++- Mutated `derive_offdiagonal_modes.py`:
++  the emitter reproduced `DERIVATION_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:derive_offdiagonal_modes.py`.
++- Mutated `verify_offdiagonal_independent.py`:
++  the emitter reproduced `INDEPENDENT_VERIFICATION.json` exactly, then aggregate verification failed
++  with `AssertionError: source_integrity:verify_offdiagonal_independent.py`.
++- Mutated `run_catch_proofs.py`:
++  the emitter reproduced `CATCH_PROOF_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:run_catch_proofs.py`.
++
++That is the required live rejection proof. The verifier does not merely inspect strings; it rejects
++executable source substitution even when the substituted script still reproduces the banked JSON.
++
++### R1.4 Literal replay in writable copy
++
++I followed `/intake/REPLAY_PRECONDITION.md` literally:
++
++```bash
++mkdir -p /work/g326_review_writable
++cp -r /intake/. /work/g326_review_writable/
++chmod -R u+w /work/g326_review_writable
++cd /work/g326_review_writable
++```
++
++I then ran the four registered commands literally from `/intake/REPLAY_COMMANDS.txt`:
++
++```bash
++python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++Results:
++
++- all four commands exited `0`;
++- the writable copy became writable as intended (`/work/g326_review_writable` and the copied
++  sources were mode `u+w`);
++- all four generated JSON files in `.review_runtime/` matched the banked intake files byte-for-byte
++  by both `cmp -s` and SHA-256;
++- aggregate verification returned
++  `PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP` with `assertion_count = 56`.
++
++Exact replay confirmations:
++
++- `DERIVATION_RESULT.json` exact:
++  `6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12`
++- `INDEPENDENT_VERIFICATION.json` exact:
++  `0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6`
++- `CATCH_PROOF_RESULT.json` exact:
++  `3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa`
++- `PACKAGE_VERIFICATION_RESULT.json` exact:
++  `044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d`
++
++Conclusion on R1: implemented and verified.
++
++## R2 review: writable ephemeral-copy replay
++
++`/intake/REPLAY_PRECONDITION.md` explicitly states that the sealed intake is read-only, requires a
++writable copy under `/work/g326_review_writable`, and states that generated files go only under
++`.review_runtime/` in the writable copy. It further states that this is an execution precondition,
++not permission to edit evidence.
++
++This satisfies the three requested R2 checks:
++
++1. The sealed intake is explicitly preserved as read-only.
++2. The registered `cp -r` plus `chmod -R u+w` commands create a writable replay copy without
++   changing intake evidence.
++3. The scope permits checks only in that ephemeral copy and does not permit evidence edits or
++   research continuation.
++
++My observed filesystem state matched the instruction:
++
++- `/intake` remained nonwritable during the review.
++- `/work/g326_review_writable` was writable after the registered permission step.
++- all replay outputs landed in `/work/g326_review_writable/.review_runtime/`.
++
++Conclusion on R2: implemented and verified.
++
++## Scientific boundary check
++
++I did not reopen the scientific question. I verified only whether the bounded accepted landing was
++unchanged.
++
++The bounded landing remains the same:
++
++- off-diagonal mode dimensions remain `5` fixed quotient lattice moduli plus `1` local transverse
++  Kasner shear;
++- the combined homogeneous count remains `12`;
++- the accepted landing token remains
++  `HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM`;
++- `metric_changed`, `kernel_changed`, and `angular_sector_changed` remain `false`;
++- the bounded closure remains limited to homogeneous synchronous first variation;
++- nonzero Fourier modes, full linear stability, nonlinear stability, physical occupancy, physical
++  scale, and `X_max` remain open or unselected.
++
++This matches the scientific boundary stated in the request and the current accepted-grade ledgers.
++
++## Verdict
++
++Both registered repairs are complete on the evidence supplied. R1 now has exact source-digest pins
++plus three live executable canned-substitution rejection proofs. R2 now has an explicit read-only
++intake to writable-ephemeral-copy replay procedure, and the literal replay works exactly as
++registered without changing sealed evidence. The already accepted bounded G326 landing is unchanged
++and remains supported within its stated boundary.
++
++accept R1 and R2 and the unchanged bounded landing;
+
+Authenticated the sealed intake, completed literal replay in the writable copy, independently exercised all three canned-substitution failures, and wrote the repair-follow-up report.
+  ✓ Authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload under /intake
+  ✓ Inspect R1/R2 evidence files and the four registered replay commands without expanding scientific scope
+  ✓ Create writable ephemeral copy in /work per REPLAY_PRECONDITION.md and run the four commands literally
+  ✓ Independently exercise the three canned-substitution rejection tests in the writable copy and confirm source-integrity gates are live
+  ✓ Write detailed report to /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md with one allowed outcome
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..8be2b8fdb455a5f8d69a1024729d937d922dbe6e
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,192 @@
++# External Repair Follow-Up Response
++
++Date: 2026-09-02
++Reviewer mode: fresh zero-context, repair-only, adversarial
++Evidence root inspected: `/intake` only
++Writable workspace used for replay checks: `/work`
++
++## Scope and compliance
++
++I followed `/intake/REPLAY_PRECONDITION.md` and restricted all writable execution to `/work`. I did
++not edit any file under `/intake`, did not access any repository, did not access any protected
++package, and did not use browsing, downloads, package installation, `curl`, `wget`, or
++network-capable Python.
++
++`/intake/REVIEW_SCOPE.json` states:
++
++- `evidence_read_only: true`
++- `ephemeral_copy_checks_allowed: true`
++- `repository_access_allowed: false`
++- `protected_package_access_allowed: false`
++- `research_continuation_allowed: false`
++
++These settings are consistent with a repair-only review of R1 and R2 and inconsistent with any
++research continuation.
++
++## Intake authentication
++
++I authenticated the sealed intake in two ways.
++
++1. Detached manifest seal:
++   `sha256(/intake/REVIEW_MANIFEST.tsv) =
++   d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`,
++   which exactly matches `/intake/REVIEW_MANIFEST.sha256`.
++2. Full manifest walk:
++   all 38 manifest payload rows in `/intake/REVIEW_MANIFEST.tsv` existed, matched the declared byte
++   counts, and matched the declared SHA-256 digests.
++
++I also ran `/intake/verify_review_intake.py`, which returned `PASS` with:
++
++- `manifest_payload_count = 38`
++- `total_file_count = 40`
++- `manifest_sha256 = d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`
++- `scope_sha256 = c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8`
++
++The two unlisted files are the manifest itself and its detached seal, which is consistent with
++`manifest_payload_count: 38` in the scope file.
++
++Filesystem state also matches the sealed-intake claim: `/intake` is `555` and its files are `444`,
++and `test -w /intake` returned nonzero.
++
++## R1 review: exact computational-source integrity
++
++### R1.1 Exact SHA-256 pins are present
++
++`/intake/verify_package.py` hard-pins exact SHA-256 digests for the three required computational
++sources:
++
++- `derive_offdiagonal_modes.py`
++- `verify_offdiagonal_independent.py`
++- `run_catch_proofs.py`
++
++The pins appear in `SOURCE_SHA256`, and the verifier enforces them by recomputing each digest and
++asserting `source_integrity:<name>` for each file.
++
++### R1.2 The aggregate verifier contains executable canned-substitution rejection logic
++
++`/intake/verify_package.py` defines a real `canned_emitter()` that reads a banked JSON artifact and
++writes it to the requested output path. It then:
++
++1. copies the package to a temporary writable directory,
++2. replaces exactly one of the three scripts with that emitter,
++3. runs `verify_package.py` in the mutated copy, and
++4. requires nonzero exit plus the matching `source_integrity:<script>` failure marker on stderr.
++
++This is executable mutation logic, not a string-only declaration.
++
++### R1.3 Independent live proof that the three source-integrity gates reject canned substitution
++
++I did not rely only on reading `verify_package.py`. In fresh writable copies under `/work`, I
++manually replaced each source one at a time with a canned emitter, then ran the corresponding
++literal command so the substituted script emitted the expected banked artifact, and finally ran
++`python3 -S verify_package.py`.
++
++Observed results:
++
++- Mutated `derive_offdiagonal_modes.py`:
++  the emitter reproduced `DERIVATION_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:derive_offdiagonal_modes.py`.
++- Mutated `verify_offdiagonal_independent.py`:
++  the emitter reproduced `INDEPENDENT_VERIFICATION.json` exactly, then aggregate verification failed
++  with `AssertionError: source_integrity:verify_offdiagonal_independent.py`.
++- Mutated `run_catch_proofs.py`:
++  the emitter reproduced `CATCH_PROOF_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:run_catch_proofs.py`.
++
++That is the required live rejection proof. The verifier does not merely inspect strings; it rejects
++executable source substitution even when the substituted script still reproduces the banked JSON.
++
++### R1.4 Literal replay in writable copy
++
++I followed `/intake/REPLAY_PRECONDITION.md` literally:
++
++```bash
++mkdir -p /work/g326_review_writable
++cp -r /intake/. /work/g326_review_writable/
++chmod -R u+w /work/g326_review_writable
++cd /work/g326_review_writable
++```
++
++I then ran the four registered commands literally from `/intake/REPLAY_COMMANDS.txt`:
++
++```bash
++python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++Results:
++
++- all four commands exited `0`;
++- the writable copy became writable as intended (`/work/g326_review_writable` and the copied
++  sources were mode `u+w`);
++- all four generated JSON files in `.review_runtime/` matched the banked intake files byte-for-byte
++  by both `cmp -s` and SHA-256;
++- aggregate verification returned
++  `PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP` with `assertion_count = 56`.
++
++Exact replay confirmations:
++
++- `DERIVATION_RESULT.json` exact:
++  `6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12`
++- `INDEPENDENT_VERIFICATION.json` exact:
++  `0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6`
++- `CATCH_PROOF_RESULT.json` exact:
++  `3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa`
++- `PACKAGE_VERIFICATION_RESULT.json` exact:
++  `044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d`
++
++Conclusion on R1: implemented and verified.
++
++## R2 review: writable ephemeral-copy replay
++
++`/intake/REPLAY_PRECONDITION.md` explicitly states that the sealed intake is read-only, requires a
++writable copy under `/work/g326_review_writable`, and states that generated files go only under
++`.review_runtime/` in the writable copy. It further states that this is an execution precondition,
++not permission to edit evidence.
++
++This satisfies the three requested R2 checks:
++
++1. The sealed intake is explicitly preserved as read-only.
++2. The registered `cp -r` plus `chmod -R u+w` commands create a writable replay copy without
++   changing intake evidence.
++3. The scope permits checks only in that ephemeral copy and does not permit evidence edits or
++   research continuation.
++
++My observed filesystem state matched the instruction:
++
++- `/intake` remained nonwritable during the review.
++- `/work/g326_review_writable` was writable after the registered permission step.
++- all replay outputs landed in `/work/g326_review_writable/.review_runtime/`.
++
++Conclusion on R2: implemented and verified.
++
++## Scientific boundary check
++
++I did not reopen the scientific question. I verified only whether the bounded accepted landing was
++unchanged.
++
++The bounded landing remains the same:
++
++- off-diagonal mode dimensions remain `5` fixed quotient lattice moduli plus `1` local transverse
++  Kasner shear;
++- the combined homogeneous count remains `12`;
++- the accepted landing token remains
++  `HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM`;
++- `metric_changed`, `kernel_changed`, and `angular_sector_changed` remain `false`;
++- the bounded closure remains limited to homogeneous synchronous first variation;
++- nonzero Fourier modes, full linear stability, nonlinear stability, physical occupancy, physical
++  scale, and `X_max` remain open or unselected.
++
++This matches the scientific boundary stated in the request and the current accepted-grade ledgers.
++
++## Verdict
++
++Both registered repairs are complete on the evidence supplied. R1 now has exact source-digest pins
++plus three live executable canned-substitution rejection proofs. R2 now has an explicit read-only
++intake to writable-ephemeral-copy replay procedure, and the literal replay works exactly as
++registered without changing sealed evidence. The already accepted bounded G326 landing is unchanged
++and remains supported within its stated boundary.
++
++accept R1 and R2 and the unchanged bounded landing;
+
+codex
+Outcome: `accept R1 and R2 and the unchanged bounded landing;`
+
+Report: [EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md](/return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md)
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..8be2b8fdb455a5f8d69a1024729d937d922dbe6e
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,192 @@
++# External Repair Follow-Up Response
++
++Date: 2026-09-02
++Reviewer mode: fresh zero-context, repair-only, adversarial
++Evidence root inspected: `/intake` only
++Writable workspace used for replay checks: `/work`
++
++## Scope and compliance
++
++I followed `/intake/REPLAY_PRECONDITION.md` and restricted all writable execution to `/work`. I did
++not edit any file under `/intake`, did not access any repository, did not access any protected
++package, and did not use browsing, downloads, package installation, `curl`, `wget`, or
++network-capable Python.
++
++`/intake/REVIEW_SCOPE.json` states:
++
++- `evidence_read_only: true`
++- `ephemeral_copy_checks_allowed: true`
++- `repository_access_allowed: false`
++- `protected_package_access_allowed: false`
++- `research_continuation_allowed: false`
++
++These settings are consistent with a repair-only review of R1 and R2 and inconsistent with any
++research continuation.
++
++## Intake authentication
++
++I authenticated the sealed intake in two ways.
++
++1. Detached manifest seal:
++   `sha256(/intake/REVIEW_MANIFEST.tsv) =
++   d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`,
++   which exactly matches `/intake/REVIEW_MANIFEST.sha256`.
++2. Full manifest walk:
++   all 38 manifest payload rows in `/intake/REVIEW_MANIFEST.tsv` existed, matched the declared byte
++   counts, and matched the declared SHA-256 digests.
++
++I also ran `/intake/verify_review_intake.py`, which returned `PASS` with:
++
++- `manifest_payload_count = 38`
++- `total_file_count = 40`
++- `manifest_sha256 = d9d99483dba8d74cc25eacbeec3ef72ae43213c0ea5ab78c78530df2bfca437e`
++- `scope_sha256 = c8ae629f7028fb1e6bb3ef59d2672bb2dd42f3a6e833839133607d3cd3d3b7f8`
++
++The two unlisted files are the manifest itself and its detached seal, which is consistent with
++`manifest_payload_count: 38` in the scope file.
++
++Filesystem state also matches the sealed-intake claim: `/intake` is `555` and its files are `444`,
++and `test -w /intake` returned nonzero.
++
++## R1 review: exact computational-source integrity
++
++### R1.1 Exact SHA-256 pins are present
++
++`/intake/verify_package.py` hard-pins exact SHA-256 digests for the three required computational
++sources:
++
++- `derive_offdiagonal_modes.py`
++- `verify_offdiagonal_independent.py`
++- `run_catch_proofs.py`
++
++The pins appear in `SOURCE_SHA256`, and the verifier enforces them by recomputing each digest and
++asserting `source_integrity:<name>` for each file.
++
++### R1.2 The aggregate verifier contains executable canned-substitution rejection logic
++
++`/intake/verify_package.py` defines a real `canned_emitter()` that reads a banked JSON artifact and
++writes it to the requested output path. It then:
++
++1. copies the package to a temporary writable directory,
++2. replaces exactly one of the three scripts with that emitter,
++3. runs `verify_package.py` in the mutated copy, and
++4. requires nonzero exit plus the matching `source_integrity:<script>` failure marker on stderr.
++
++This is executable mutation logic, not a string-only declaration.
++
++### R1.3 Independent live proof that the three source-integrity gates reject canned substitution
++
++I did not rely only on reading `verify_package.py`. In fresh writable copies under `/work`, I
++manually replaced each source one at a time with a canned emitter, then ran the corresponding
++literal command so the substituted script emitted the expected banked artifact, and finally ran
++`python3 -S verify_package.py`.
++
++Observed results:
++
++- Mutated `derive_offdiagonal_modes.py`:
++  the emitter reproduced `DERIVATION_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:derive_offdiagonal_modes.py`.
++- Mutated `verify_offdiagonal_independent.py`:
++  the emitter reproduced `INDEPENDENT_VERIFICATION.json` exactly, then aggregate verification failed
++  with `AssertionError: source_integrity:verify_offdiagonal_independent.py`.
++- Mutated `run_catch_proofs.py`:
++  the emitter reproduced `CATCH_PROOF_RESULT.json` exactly, then aggregate verification failed with
++  `AssertionError: source_integrity:run_catch_proofs.py`.
++
++That is the required live rejection proof. The verifier does not merely inspect strings; it rejects
++executable source substitution even when the substituted script still reproduces the banked JSON.
++
++### R1.4 Literal replay in writable copy
++
++I followed `/intake/REPLAY_PRECONDITION.md` literally:
++
++```bash
++mkdir -p /work/g326_review_writable
++cp -r /intake/. /work/g326_review_writable/
++chmod -R u+w /work/g326_review_writable
++cd /work/g326_review_writable
++```
++
++I then ran the four registered commands literally from `/intake/REPLAY_COMMANDS.txt`:
++
++```bash
++python3 -S derive_offdiagonal_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 -S verify_offdiagonal_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++Results:
++
++- all four commands exited `0`;
++- the writable copy became writable as intended (`/work/g326_review_writable` and the copied
++  sources were mode `u+w`);
++- all four generated JSON files in `.review_runtime/` matched the banked intake files byte-for-byte
++  by both `cmp -s` and SHA-256;
++- aggregate verification returned
++  `PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP` with `assertion_count = 56`.
++
++Exact replay confirmations:
++
++- `DERIVATION_RESULT.json` exact:
++  `6babb0ea591c57ab7a554d51dad73b6dbeafad26d1b66094c489df235eb17f12`
++- `INDEPENDENT_VERIFICATION.json` exact:
++  `0f96adaab2f55d56975bb9e33cb3c6e18dd9a9e4fd951ec3ba6cac936cf97ec6`
++- `CATCH_PROOF_RESULT.json` exact:
++  `3f31d3ede44933831a3a946c0e8610a3089865d0630f438f06c43605f92e80fa`
++- `PACKAGE_VERIFICATION_RESULT.json` exact:
++  `044a517d2cc0c72535213c5701f5d0bc3c11efcfefe0ed34389b87fb07a0511d`
++
++Conclusion on R1: implemented and verified.
++
++## R2 review: writable ephemeral-copy replay
++
++`/intake/REPLAY_PRECONDITION.md` explicitly states that the sealed intake is read-only, requires a
++writable copy under `/work/g326_review_writable`, and states that generated files go only under
++`.review_runtime/` in the writable copy. It further states that this is an execution precondition,
++not permission to edit evidence.
++
++This satisfies the three requested R2 checks:
++
++1. The sealed intake is explicitly preserved as read-only.
++2. The registered `cp -r` plus `chmod -R u+w` commands create a writable replay copy without
++   changing intake evidence.
++3. The scope permits checks only in that ephemeral copy and does not permit evidence edits or
++   research continuation.
++
++My observed filesystem state matched the instruction:
++
++- `/intake` remained nonwritable during the review.
++- `/work/g326_review_writable` was writable after the registered permission step.
++- all replay outputs landed in `/work/g326_review_writable/.review_runtime/`.
++
++Conclusion on R2: implemented and verified.
++
++## Scientific boundary check
++
++I did not reopen the scientific question. I verified only whether the bounded accepted landing was
++unchanged.
++
++The bounded landing remains the same:
++
++- off-diagonal mode dimensions remain `5` fixed quotient lattice moduli plus `1` local transverse
++  Kasner shear;
++- the combined homogeneous count remains `12`;
++- the accepted landing token remains
++  `HOMOGENEOUS_OFFDIAGONAL_MODES_CLOSE_AS_FIVE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_TRANSVERSE_KASNER_SHEAR__NO_NEW_GAUGE_OR_SCALAR_MODE__NO_FULL_STABILITY_CLAIM`;
++- `metric_changed`, `kernel_changed`, and `angular_sector_changed` remain `false`;
++- the bounded closure remains limited to homogeneous synchronous first variation;
++- nonzero Fourier modes, full linear stability, nonlinear stability, physical occupancy, physical
++  scale, and `X_max` remain open or unselected.
++
++This matches the scientific boundary stated in the request and the current accepted-grade ledgers.
++
++## Verdict
++
++Both registered repairs are complete on the evidence supplied. R1 now has exact source-digest pins
++plus three live executable canned-substitution rejection proofs. R2 now has an explicit read-only
++intake to writable-ephemeral-copy replay procedure, and the literal replay works exactly as
++registered without changing sealed evidence. The already accepted bounded G326 landing is unchanged
++and remains supported within its stated boundary.
++
++accept R1 and R2 and the unchanged bounded landing;
+
+tokens used
+62,998
+
+Script done on 2026-09-02 13:46:28-04:00 [COMMAND_EXIT_CODE="0"]

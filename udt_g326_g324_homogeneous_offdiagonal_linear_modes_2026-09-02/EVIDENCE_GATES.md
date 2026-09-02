@@ -6,19 +6,22 @@ Date: 2026-09-02
    commit `04c7fb8f`.
 2. Full bounded space: `PASS_INTERNAL`, all three off-diagonal homogeneous second-order equations
    solved without endpoint data; repeated root retained.
-3. Independently verified: `PASS_EXTERNAL_SCIENCE`, direct Christoffel/Riemann engine plus fresh
-   external rederivation; non-scientific verifier repairs R1 and R2 remain pending.
+3. Independently verified: `PASS_EXTERNAL`, direct Christoffel/Riemann engine plus fresh external
+   rederivation; repairs R1 and R2 were independently replayed and accepted.
 4. Premise audited: `PASS_INTERNAL`, owner-provisional equation explicit; no action, source,
    observation, scale, matter/mass, physical population, or `X_max` imported.
 
-Aggregate replay: `PASS_INTERNAL`, 46 checks with byte-exact regeneration. Repository gates:
+Aggregate replay: `PASS_INTERNAL`, 57 final checks with byte-exact regeneration. Repository gates:
 308-row premise registry `PASS`; full suite `218 passed, 1 expected xfail`.
 
-Repairs R1 and R2: `IMPLEMENTED_PENDING_REPAIR_FOLLOWUP`. The aggregate verifier now pins the exact
+Repairs R1 and R2: `PASS_EXTERNAL`. The aggregate verifier pins the exact
 three computational sources and executably proves that canned replacements of production,
 independent, or hostile scripts are rejected. `REPLAY_PRECONDITION.md` makes the writable-copy step
-explicit while retaining a read-only sealed intake.
+explicit while retaining a read-only sealed intake. The repair-only reviewer independently repeated
+all three substitutions and all four registered replays.
 
 Fresh external verdict: `ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`.
 
-Current grade: `EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING`.
+Repair follow-up: `accept R1 and R2 and the unchanged bounded landing;`.
+
+Current grade: `EXTERNALLY_ACCEPTED_AFTER_R1_R2_EVIDENCE_REPAIR`.

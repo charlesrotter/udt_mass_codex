@@ -22,7 +22,7 @@
 | Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
 | Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
 | G311 covariant response | `EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY` | `TF_g(E)=0`; conditional G301 dynamics | Response constitution; scale/history |
-| G312--G325 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Local Metric Sufficiency; propagation/quotients; bounded diagonal modes | stability/scale/selector |
+| G312--G326 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Local Metric Sufficiency; propagation/quotients; complete bounded homogeneous modes | Fourier modes/stability/scale/selector |
 
 ## Reconstruction hierarchy
 
@@ -33,7 +33,7 @@ G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -73,6 +73,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | G323 | external/repairs accepted | Refoliation; quotient separation | MGHD equality; occupancy; scale |
 | G324 | external/repairs accepted | Registered quotients equal per-datum smooth MGHDs; modulus survives | `C0` past boundary; stability; occupancy; scale |
 | G325 | external/R1 repair accepted | Exact six-constant homogeneous diagonal first-variation census: gauge, lattice, shear, scalar | Off-diagonal/Fourier modes; full stability; occupancy; scale |
+| G326 | external/R1-R2 accepted | Five quotient moduli plus one shear; combined count twelve | Fourier modes; stability; occupancy; scale |
 ## Scale and limits
 
 | Object | Status | Guard |
@@ -93,10 +94,10 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   separate tide/carry/query without a law. G301--G312 activate bounded trace-free Ricci; G313/G314
   keep multibranch/bootstrap open. G315--G320 construct initial-data breadth; G321/G322 conditionally
   give local/maximal-GH development per datum. G323 separates explicit quotients; G324 identifies
-  each registered quotient with its per-datum smooth MGHD and retains the modulus. G325 separates
-  the complete bounded homogeneous diagonal first variations into gauge, lattice moduli, local
-  shear, and connected scalar sectors. Off-diagonal/Fourier modes, stability, and selection stay
-  open.
+  each registered quotient with its per-datum smooth MGHD and retains the modulus. G325/G326
+  separate the complete bounded homogeneous synchronous first variations into gauge, lattice
+  moduli, local shear, and connected scalar sectors. Nonzero Fourier modes, stability, and
+  selection stay open.
   Angular cancellation owns loud--quiet--loud; W1 evaluates.
 
 ## Carrier, action, source, and matter
@@ -110,8 +111,8 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | Complete action/source/boundary/mass | `OPEN` | No physics claim |
 ## Observational boundary
 
-R2--R5/G312--G325 select no scale, occupancy, universe, or native SNe prediction.
+R2--R5/G312--G326 select no scale, occupancy, universe, or native SNe prediction.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv`: 308-row through G325; verify before querying.
+`CURRENT_SCIENTIFIC_PREMISES.tsv`: 309-row through G326; verify before querying.

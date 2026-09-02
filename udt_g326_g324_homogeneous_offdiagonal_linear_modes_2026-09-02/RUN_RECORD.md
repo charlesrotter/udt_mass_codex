@@ -44,11 +44,12 @@ python3 verify_current_scientific_premises.py
 python3 -m pytest -q
 ```
 
-Results: 46 aggregate package checks passed with byte-exact regeneration of all three generated
+Results: 57 final aggregate package checks passed with byte-exact regeneration of all three generated
 artifacts; the 308-row premise registry passed; the full repository suite passed `218` tests with
 one registered expected failure.
 
 ## Current boundary
 
-Fresh external science review accepted the bounded result. Evidence repairs R1 and R2 are
-implemented and await repair-only follow-up. No long solve or GPU process was used.
+Fresh external science review accepted the bounded result. A repair-only external follow-up
+independently accepted R1 exact source-integrity enforcement, R2 writable-copy replay, and the
+unchanged bounded landing. No long solve or GPU process was used.

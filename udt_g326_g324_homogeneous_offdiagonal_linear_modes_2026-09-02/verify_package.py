@@ -151,13 +151,16 @@ def main() -> None:
     gate("Every nonzero Fourier mode" in exact, "exact_fourier_boundary")
     gate("It still does not show that the spacetime is stable" in lay,
          "lay_stability_boundary")
-    gate("EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING" in status,
-         "status_external_science_accepted_repairs_pending")
+    gate("EXTERNALLY_ACCEPTED_AFTER_R1_R2_EVIDENCE_REPAIR" in status,
+         "status_external_repairs_accepted")
     gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in gates,
          "fresh_external_acceptance_token")
     gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in
          (package / "EXTERNAL_REVIEW_RESPONSE.md").read_text(),
          "external_report_acceptance_token")
+    gate("accept R1 and R2 and the unchanged bounded landing;" in
+         (package / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md").read_text(),
+         "external_repair_acceptance_token")
     precondition = (package / "REPLAY_PRECONDITION.md").read_text()
     gate("cp -r /intake/. /work/g326_review_writable/" in precondition,
          "writable_copy_command_registered")
@@ -210,7 +213,7 @@ def main() -> None:
 
     result = {
         "schema": "udt-g326-package-verification-v1",
-        "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP",
+        "status": "PASS_EXTERNAL_G326_REPAIRS_ACCEPTED",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,

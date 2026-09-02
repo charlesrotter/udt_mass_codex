@@ -1,7 +1,7 @@
 # INDEX — `LIVE.md` wins.
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`. 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 308-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 309-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
@@ -106,7 +106,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   G319: `udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md`; G320: `udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md`;
   G321: `udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md`; G322: `udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md`;
   G323: `udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/AUDIT_REPORT.md`; G324: `udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/AUDIT_REPORT.md`;
-  G325 diagonal modes: `udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`.
+  G325 diagonal: `udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`; G326 off-diagonal: `udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`.
 - Historical controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `X_max` reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
