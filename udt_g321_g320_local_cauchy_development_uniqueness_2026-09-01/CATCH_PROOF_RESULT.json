@@ -1,0 +1,96 @@
+{
+  "baseline_verifier_returncode": 0,
+  "caught": [
+    "R1_wrong_Hamiltonian_sign",
+    "R2_arbitrary_Lambda_despite_H_zero",
+    "R3_omitted_momentum_constraint",
+    "R4_lapse_shift_called_physical_branches",
+    "R5_collapsed_K_sign_branches",
+    "R6_wrong_time_reversal_parity",
+    "R7_first_jet_determinism_called_PDE_proof",
+    "R8_imported_theorem_caveat_erased",
+    "R9_marked_local_upgraded_to_unmarked_global",
+    "R10_uniqueness_called_physical_occupancy",
+    "R11_raw_rank_nine_called_complete_evolution",
+    "R12_metric_or_kernel_change_smuggled"
+  ],
+  "caught_count": 12,
+  "details": [
+    {
+      "expected_rejection": "atlas Hamiltonian",
+      "expected_rejection_observed": true,
+      "label": "R1_wrong_Hamiltonian_sign",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "sector",
+      "expected_rejection_observed": true,
+      "label": "R2_arbitrary_Lambda_despite_H_zero",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "atlas momentum",
+      "expected_rejection_observed": true,
+      "label": "R3_omitted_momentum_constraint",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "gauge variables promoted to physical data",
+      "expected_rejection_observed": true,
+      "label": "R4_lapse_shift_called_physical_branches",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "K sign branches collapsed",
+      "expected_rejection_observed": true,
+      "label": "R5_collapsed_K_sign_branches",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "time reversal field",
+      "expected_rejection_observed": true,
+      "label": "R6_wrong_time_reversal_parity",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "conditional theorem caveat lost",
+      "expected_rejection_observed": true,
+      "label": "R7_first_jet_determinism_called_PDE_proof",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "conditional theorem caveat lost",
+      "expected_rejection_observed": true,
+      "label": "R8_imported_theorem_caveat_erased",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "unmarked quotient overclaim",
+      "expected_rejection_observed": true,
+      "label": "R9_marked_local_upgraded_to_unmarked_global",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "data selection overclaim",
+      "expected_rejection_observed": true,
+      "label": "R10_uniqueness_called_physical_occupancy",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "raw rank",
+      "expected_rejection_observed": true,
+      "label": "R11_raw_rank_nine_called_complete_evolution",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "metric/kernel regression",
+      "expected_rejection_observed": true,
+      "label": "R12_metric_or_kernel_change_smuggled",
+      "verifier_returncode": 1
+    }
+  ],
+  "expected_count": 12,
+  "mutation_method": "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION",
+  "schema": "udt-g321-hostile-catches-v2",
+  "status": "PASS_ALL_MUTATIONS_CAUGHT"
+}

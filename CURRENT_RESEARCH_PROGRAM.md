@@ -2,7 +2,7 @@
 
 Date: 2026-09-01
 
-`LIVE.md` controls status; the 303-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 304-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -82,19 +82,20 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   existing gates now make the bounded response constitution trace-free Ricci. No history/scale is selected.
 - G313 maps `Ric=Lambda g` as a multibranch arena; data, topology, tide, scalar, scale, and population
   remain open. G314 makes unique-universe bootstrap optional; no selector is owned.
-- G315 accepts supplied constrained Cauchy/null data; G316 a conditional conformal construction.
-  G317 accepts an exact coupled non-CMC constant-`psi` family with zero/electric-tide branches and
-  free function/parameters. G318 frees `psi` inside one sign-definite constant-ratio family: the
-  old G317 form is obstructed, `tau=C psi^n` is forced, and an exact positive periodic tidal branch
-  exists. G319 removes the ratio ansatz and derives a one-constant quadrature on the regular
-  stratum; every smooth positive periodic `psi` is admitted for sufficiently large free `J0`.
-  G318 remains an exact embedded subfamily, while global `B=0` crossings remain open. None selects
-  physical data/history; interfaces remain unchanged.
+- G315--G319 construct constrained non-CMC data. G319 removes G318's ratio ansatz: its regular
+  stratum admits every smooth positive periodic `psi` for large free `J0`; G318 embeds and global
+  `B=0` crossings remain open. None selects physical data/history.
 - G320 compares reconstructed physical `(gamma,K)`, not raw conformal seeds. After quotienting
   declared spatial isometries and conformal-seed duplicates, the homothety-neutral integrated
   curvature `Q_R` separates the lawful integer-mode family by `n^2`. The G319 breadth therefore
   contains at least countably many genuine physical initial geometries. This is not a complete
   moduli quotient, occupancy rule, evolution theorem, or metric/kernel change.
+- G321 applies the already declared standard smooth harmonic well-posedness theorem conditionally.
+  Each fixed complete G320 datum has one local marked development up to a data-preserving
+  spacetime diffeomorphism. Opposite `K` signs are distinct time-reversed data, not two futures from
+  one datum. Thus the registered breadth is ordinary local Cauchy-data freedom, not evidence of a
+  missing local equation. The theorem is an imported mathematical method; physical data occupancy,
+  unmarked refoliation, and maximal/global development remain open.
 
 ## Open boundary
 
@@ -103,9 +104,10 @@ conditional dynamics. It does not own populated germs/paths, a physical projecti
 distance, numerical `X_max`, data, population, scale, or realized history. G296--G300 locate the
 first local differential order and complete carry/query boundaries without selecting a formula.
 G301--G312 narrow and owner-activate bounded trace-free Ricci; G313 keeps a multibranch Einstein
-arena, G314 keeps bootstrap optional, G315--G319 construct broad constrained non-CMC snapshots, and
-G320 proves some of their breadth is genuine physical initial-geometry freedom after quotient.
-None selects one. The positive round branch remains fixed only up to curvature scale. This is
+arena, G314 keeps bootstrap optional, G315--G319 construct broad constrained non-CMC snapshots,
+G320 proves some of their breadth is genuine physical initial-geometry freedom after quotient, and
+G321 conditionally gives each supplied complete datum one local marked development. None selects
+one or establishes its maximal global completion. The positive round branch remains fixed only up to curvature scale. This is
 not a native-law no-go; curvature scale, mass, population, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -114,9 +116,10 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Test whether the inequivalent G320 initial geometries determine unique local developments under the
-active bounded trace-free-Ricci equation, conditional on the already declared local well-posedness
-import. The maximum conclusion is that the remaining breadth is ordinary Cauchy-data freedom
-rather than a missing local law. Do not choose Nature's data, infer global actualization, or resume
-bootstrap without owner direction; do not import action, source, matter/mass, observation, fit,
-`X_max`, protected work, or history.
+Determine whether the G321 local marked developments admit unique maximal globally hyperbolic
+developments under the standard imported Einstein-sector theorem, and type exactly what “maximal”
+does and does not supply. The maximum conclusion is one maximal globally hyperbolic history for
+each supplied complete datum, up to data-preserving diffeomorphism. It must not be called geodesic
+completeness, singularity avoidance, stability, unmarked refoliation classification, physical
+occupancy, or a unique universe. Do not choose Nature's data, restart optional bootstrap, or import
+action, source, matter/mass, observation, fit, `X_max`, protected work, or a new equation.

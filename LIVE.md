@@ -47,36 +47,26 @@ plain-language statement and DDR its tested curvature-level mathematical formula
 not derived or canonized. It selects no history, population, mass,
 scale, or physical `X_max`; angular-sector cancellation owns loud--quiet--loud.
 
-G311 gives `TF_g(E)=0` for supplied symmetric response. G312 separated two independent premises:
-full quiet GR principal-response overlap and Local Metric Sufficiency/local finite-jet response.
-Charles provisionally adopted both on 2026-09-01. G312 premises are owner-adopted provisionally.
-They are not derived or canonized. Inside the registered regular local metric-only scale-free vacuum
-arena, existing gates and Universal Reciprocity now give `Ric-(R/4)g=0`; Bianchi leaves one
-connected constant scalar. Global bootstrap may build/select the local metric, but no independent
-remote-history response remains after its admitted local jet is fixed. Metric, kernel, angular
-cancellation, observations, scale, and `X_max` are unchanged.
+G311 gives `TF_g(E)=0`. Charles provisionally adopted G312's quiet-GR response and Local Metric
+Sufficiency premises on 2026-09-01. G312 premises are owner-adopted provisionally. They are not
+theorems or canon. With Universal Reciprocity they give `Ric-(R/4)g=0` and one connected scalar in the
+bounded arena. Global bootstrap stays optional; metric/kernel/angular interfaces are unchanged.
 
-G313 maps `Ric=Lambda g` as a multibranch Einstein arena; G314 makes global bootstrap optional.
-G315--G317 constrain supplied data and establish constant-`psi` non-CMC zero/electric-tide
-branches. G318 frees `psi` inside one sign-definite constant-ratio family and finds power-law
-interlock, scoped obstructions, and a positive periodic tidal branch. G319 removes that ratio
-assumption in the same narrow diagnostic frame. The two constraints have an exact one-constant
-quadrature, and every smooth positive periodic `psi` has regular sign-definite reconstructed data
-for sufficiently large free `J0`. Thus the G318 obstructions are ansatz-scoped; G318 survives
-exactly as an embedded subfamily. `B=0` remains a compatibility/gluing stratum whose global
-crossings are unclassified. This is not a full constraint census or selector. Data/history,
-topology, scalar, scale, population, and `X_max` remain open; interfaces unchanged.
-G320 shows this breadth is not pure bookkeeping. After quotienting declared seed and spatial-
-isometry duplicates, the homothety-neutral `Q_R` separates a lawful mode family by `n^2`.
-Thus the bounded slice contains countably many inequivalent physical initial geometries. G320
-neither classifies full moduli, selects data, evolves history, nor changes metric/kernel.
+G313 is a multibranch Einstein arena; G314 keeps global bootstrap optional. G315--G319 construct
+broad non-CMC data; G319's regular stratum admits every smooth positive periodic `psi` for large
+free `J0`, while global `B=0` crossings remain open. G320's homothety-neutral `Q_R` then separates
+a lawful mode family by `n^2`, proving genuine initial-geometry breadth after quotient.
+Conditional on the imported smooth harmonic theorem, G321 gives each fixed complete datum one
+local marked development; opposite `K` signs are time reverses. Both evidence repairs were
+externally accepted. This is ordinary Cauchy-data freedom, not data selection, unmarked
+classification, or maximal/global history.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G320 history/dynamics. The positive round cosh history is one exact branch of the G313
+G282--G321 history/dynamics. The positive round cosh history is one exact branch of the G313
 multibranch Einstein arena; G314 keeps unique-universe bootstrap optional and open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
@@ -84,7 +74,7 @@ G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -95,7 +85,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 303-row registry now includes G307--G320 at their externally reviewed bounded grades.
+The exact 304-row registry now includes G307--G321 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -114,11 +104,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Determine whether G320's genuinely different lawful initial geometries have unique local
-developments under the active bounded trace-free-Ricci equation, conditional on the already
-declared local well-posedness import. The purpose is to distinguish ordinary Cauchy-data freedom
-from a missing law, not to choose Nature's data or assert a complete global history. Keep global
-actualization/bootstrap optional. Do not restamp premises, select a witness, misassign angular
-loud--quiet--loud, or import action, source, matter/mass, observation, scale, `X_max`, or protected
-work.
+Determine whether the G321 local marked developments admit unique maximal globally hyperbolic
+developments under the standard imported Einstein-sector theorem. Type “maximal” carefully: one
+maximal globally hyperbolic development per supplied complete datum up to a data-preserving
+diffeomorphism would not prove geodesic completeness, singularity avoidance, stability, unmarked
+refoliation classification, physical occupancy, or a unique universe. Keep actualization/bootstrap
+optional. Do not restamp premises, select a witness, misassign angular loud--quiet--loud, or import
+action, source, matter/mass, observation, scale, `X_max`, protected work, or a new equation.
 <!-- STARTUP_CURRENT_END -->

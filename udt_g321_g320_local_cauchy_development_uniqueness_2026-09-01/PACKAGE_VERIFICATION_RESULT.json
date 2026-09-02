@@ -1,0 +1,10 @@
+{
+  "atlas_rows": 8,
+  "hostile_catches": 12,
+  "independent_assertions": 7,
+  "landing": "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION",
+  "production_assertions": 163894,
+  "required_files": 33,
+  "schema": "udt-g321-package-verification-v1",
+  "status": "PASS_EXTERNALLY_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS"
+}

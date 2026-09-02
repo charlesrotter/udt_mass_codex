@@ -1,0 +1,54 @@
+{
+  "assertion_count": 163894,
+  "constraint_sector": "Lambda=0",
+  "different_modes_distinct_as_marked_developments": true,
+  "fixed_lambda_principal_rank": 10,
+  "global_history_selected": false,
+  "initial_adm_rhs_single_valued_after_gauge_fix": true,
+  "landing": "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION",
+  "lapse_shift_are_physical_data": false,
+  "local_geometric_uniqueness": "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM",
+  "metric_or_kernel_changed": false,
+  "opposite_signs_are_distinct_full_data": true,
+  "opposite_signs_are_time_reversed_data": true,
+  "physical_initial_data_selected": false,
+  "raw_tracefree_principal_rank": 9,
+  "schema": "udt-g321-local-development-uniqueness-v1",
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "theorem_hypothesis_audit": {
+    "H1_initial_manifold": {
+      "evidence": "T3 is fixed in the preregistration; this is an analytic domain declaration, not a numerical test",
+      "status": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3"
+    },
+    "H2_gamma_regular": {
+      "evidence": "psi=3/2+(1/5)cos(nx) is analytic and psi>=13/10, hence gamma=psi^4 delta is smooth positive definite",
+      "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY"
+    },
+    "H3_K_regular": {
+      "evidence": "the exact positive margin keeps Z and B nonzero; the reconstructed diagonal K is analytic and symmetric",
+      "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH"
+    },
+    "H4_constraints": {
+      "evidence": "Hamiltonian and all momentum components vanish analytically; production and independent residuals are numerical backward-error checks",
+      "status": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS"
+    },
+    "H5_connected_scalar_sector": {
+      "evidence": "H=2 Lambda and H=0 fix Lambda=0 on the connected registered slice",
+      "status": "DERIVED_FROM_HAMILTONIAN_VALUE"
+    },
+    "H6_full_principal_operator": {
+      "evidence": "raw trace-free projector rank is nine and the Bianchi-completed fixed-Lambda metric-wave principal operator rank is ten",
+      "status": "EXACT_LINEAR_ALGEBRA_AUDIT"
+    },
+    "H7_gauge_constraint_propagation": {
+      "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+      "status": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED"
+    },
+    "H8_gauge_quotient": {
+      "evidence": "lapse, shift, and harmonic-coordinate data are presentation choices under the declared standard theorem, not newly derived UDT physics",
+      "status": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE"
+    }
+  },
+  "theorem_interface_status": "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL",
+  "unmarked_same_spacetime_different_slice_classified": false
+}

@@ -1,0 +1,3788 @@
+Script started on 2026-09-01 21:18:13-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /work
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a05fb1-f7b6-7bc2-a8a4-d9242d7868f6
+--------
+user
+Act as the authorized fresh-context repair-only reviewer for sealed G321. Inspect only /intake. First authenticate REVIEW_MANIFEST.sha256, REVIEW_MANIFEST.tsv, REVIEW_SCOPE.json, and every payload. Review only registered repairs R1 and R2 described in /intake/package/REPAIR_FOLLOWUP_REQUEST.md and confirm whether the bounded scientific landing is unchanged. Copy only /intake/package to /work/package and run exactly the four commands in REPLAY_COMMANDS.txt there. You may use /work only for ephemeral checks. Do not edit /intake, do not continue the research, and do not broaden the scientific question. Write a detailed report to /return/EXTERNAL_REVIEW_RESPONSE.md. End that report with exactly one permitted verdict token from the repair request, and return the same verdict in the CLI final.
+codex
+I’m validating the intake package and repair scope first so I can keep the review bounded to the registered repairs and the required replay steps.
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /work
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/DEVELOPMENT_ATLAS.tsv
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_CLI_FINAL.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt
+/intake/package/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_repair_followup_intake.py
+/intake/package/build_review_intake.py
+/intake/package/derive_local_development.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/LIVE.md
+
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type d | sort' in /work
+ succeeded in 0ms:
+/intake
+/intake/package
+/intake/sources
+/intake/sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31
+/intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01
+/intake/sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30
+/intake/sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01
+
+codex
+I have the intake layout. Next I’m reading the manifest, scope, repair request, and replay instructions to determine the exact payload set and allowed verdicts.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /work
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.tsv" in /work
+ succeeded in 0ms:
+{
+  "allowed": [
+    "inspect sealed intake",
+    "verify only registered repairs R1 and R2 and unchanged bounded scientific landing",
+    "run the four registered commands in a writable ephemeral copy"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue research",
+    "change the scientific question",
+    "access repository or protected packages",
+    "use internet or unsealed observations",
+    "select or canonize a law data global history topology population scale source matter mass or X_max"
+  ],
+  "mode": "read-only repair-only follow-up review",
+  "package_files": 30,
+  "question": "G321 repair-only follow-up for the two fresh-review evidence defects",
+  "registered_repairs": {
+    "R1": "actual ephemeral-package mutations replace toy and circular hostile checks",
+    "R2": "typed theorem-hypothesis evidence and exact report-scope verification replace unconditional booleans and word-presence checks"
+  },
+  "required_verdicts": [
+    "G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD",
+    "G321_REPAIRS_INCOMPLETE__BOUNDED_LANDING_RETAINED",
+    "G321_REPAIR_CHANGED_OR_REFUTED_SCIENTIFIC_LANDING",
+    "G321_REPAIR_REVIEW_INCOMPLETE"
+  ],
+  "source_files": 8
+}
+
+ succeeded in 0ms:
+path	bytes	sha256
+REVIEW_SCOPE.json	1210	9e4f58351c9f1b6cce976c4104641314d361d3abe03c11a2d3c87c6b643b99f6
+package/AUDIT_REPORT.md	3278	5d5adf3baf8746b53e72d1ca636d6bdfbba894f92f192369f878de534994db52
+package/CATCH_PROOF_RESULT.json	3153	822a92923dc49f009c3474156486c24686eaf257102efdbc4666d08366c65223
+package/COMPLETENESS_MAP.md	1501	ddee95abd2f70f259afe1f7b00fddbc5e79609ceaa1a531aced98954522f0559
+package/DERIVATION_RESULT.json	2941	80c23f48bb6cb5ac03d73dd5a30343d37e88612e9acbfef72917f62904f8cf53
+package/DEVELOPMENT_ATLAS.tsv	1384	7b94e53f4b5cbdbf2758c504d3553b32a90dea8d0f94da06de3173b198445951
+package/EVIDENCE_GATES.md	1417	0a1afb1a8b1486061f016fa42ac541d2c902a0b01a596e48bbd141237ecca066
+package/EXACT_DERIVATION.md	7098	27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4
+package/EXTERNAL_REVIEW_CLI_FINAL.md	118	bd95f857b6ef35f4ec55932d357abbde2e38a0d0af6d9a0c6eda36b3978e4ef7
+package/EXTERNAL_REVIEW_REQUEST.md	2699	7623a77662444aa7d71914185ca341b829a8cbd4a6d04b06bf637341873bce78
+package/EXTERNAL_REVIEW_RESPONSE.md	5851	6f68ae3e16b1d1dbdf1bc2b173033c55f26a524672e2206f7d461297414ce1b1
+package/EXTERNAL_REVIEW_TRANSCRIPT.txt	267863	c49815ca2a120b689ae32a90a248b293844f597bc5b36a0b55057fddb6977cc4
+package/EXTERNAL_REVIEW_TRANSMISSION.md	892	8c8dbe7e3e4012011b4b5e1b7e01e5c92f2a8fb10dbef8dc76fe0adea883d639
+package/INDEPENDENT_VERIFICATION.json	591	8b6b7236890913f20b70a8d86310fb0a6ae4eada3a1266ec821421176502d230
+package/LAY_REPORT.md	2279	0c074cff70660f0e1ffeb30f3d1ffd76bd3b7143170e772d7ffc1679f6fc5e45
+package/MAP.md	2920	3b1191986ca3b348889b24aaa3730d50b2478ddcd5fe3d5e2493ea5cd590be23
+package/PACKAGE_VERIFICATION_RESULT.json	441	ac43e436027e08339b3d50e0f11612fdcc5f2939241245153c3b0259ef179a2f
+package/PREMISE_LEDGER.tsv	2102	48383b7453fc45731341c698b1ea5d1a1795455fbb05648253917b5761d8e53e
+package/PREREGISTRATION.md	4868	109b7967f820c2785f34c60b021f9583d9c9f8480c8beb573f22cd446df71a32
+package/PREREGISTRATION_ANCESTRY.md	477	f81f2326d989ed3ff0c45a613b98bb367b2d3105fd0bdadea253fac72d90adab
+package/REPAIR_FOLLOWUP_REQUEST.md	1615	a68cf05640ae1ca2c917964116c58f93ecfeaa760ab5224db240de19c6343b0a
+package/REPLAY_COMMANDS.txt	132	2ce89e80a74883712d27d4037a9707f0e9e916b7d29a455469b1d19f879b7247
+package/RUN_RECORD.md	2228	92243b3115af86758873aa64213fa096dc24a294139785e1b3683d70c7e970bd
+package/SOURCE_SCOPE.tsv	865	49c0c98c531ff95d8efcc281a8e4eb052a63d9718d2c17f74fb0a9c1978326d1
+package/STATUS_LEDGER.tsv	1746	69de84d0ec0bdd910c3df991fe1c4720a46342d9b277f03899ade3b237eedc8a
+package/build_repair_followup_intake.py	4870	bb0c4caea6e57858ab8166f372330af95068cb312894d7d8cb7814dc51c9c379
+package/build_review_intake.py	4444	2da65e45fc63021b5d1775060cd80b0d2c108b1fe0117cf7a055d9ac302d0d28
+package/derive_local_development.py	11900	de6e59bd10788076099d1033918a7d256b4d213bccdc7390609679c2a8846f95
+package/run_catch_proofs.py	5548	49cfbc5880f49442ca54794054d2b384f769bf52f364dd698d2c3e32e79f17eb
+package/verify_independent.py	7931	52fc798b9e058ee88603b16b1a9f5fd33a022d5bcf61d93f2286f01c83964401
+package/verify_package.py	8703	4687271967514af095a764b291857ef71870fb4c3076432cbe1bd6e7916f773f
+sources/CURRENT_SCIENTIFIC_PREMISES.tsv	621192	4d7ca33c76f5958b068f8bd0798522944a66385bc51d43f2c62578a7b4194e77
+sources/LIVE.md	8097	9e835f225c260ab25bdd6f41072e65f5133300064f7f01bb51bf47cf62e51130
+sources/startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md	2114	4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md	7206	4eb48002d2424e9745d92fcbf734213dec81a912343057d76775961f93b6b378
+sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md	8331	8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63
+sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md	6774	8176dc4c050dcb6f3e8fd3a15347ef1d7f52b199b1694519e4f76d28f74eddc6
+sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md	6757	0a1410c190e3b21ab1a67d694ec8c19699beba0ece49894f6157c1dbb8365c5b
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.sha256" in /work
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/REPAIR_FOLLOWUP_REQUEST.md" in /work
+ succeeded in 0ms:
+6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a  REVIEW_MANIFEST.tsv
+
+ succeeded in 0ms:
+# G321 repair-only external follow-up request
+
+Review only the two defects registered by the fresh G321 external review. Do not reopen or extend
+the scientific question except to confirm that the bounded landing remains unchanged.
+
+## R1 — hostile-mutation evidence
+
+Verify that `run_catch_proofs.py` now:
+
+1. copies the actual package into a fresh writable temporary directory for every attack;
+2. proves the unmutated baseline passes the same aggregate verifier;
+3. mutates real atlas or derivation-result fields for all 12 preregistered attacks;
+4. requires nonzero verifier exit and the exact expected rejection reason;
+5. leaves evidence files unchanged.
+
+## R2 — theorem-hypothesis and report-scope evidence
+
+Verify that:
+
+1. the three unconditional theorem-hypothesis `True` checks are gone;
+2. all eight hypotheses have an honest typed status and evidence description;
+3. analytic/algebraic checks are separated from the imported smooth harmonic PDE theorem;
+4. the aggregate verifier checks exact ownership, scope, landing, and status-ledger entries rather
+   than merely searching for the words `conditional` and `global`;
+5. no text claims that G321 machine-proves the imported theorem.
+
+Run the four registered commands in a writable ephemeral copy. Confirm that the bounded scientific
+landing is unchanged. Return exactly one verdict:
+
+```text
+G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+G321_REPAIRS_INCOMPLETE__BOUNDED_LANDING_RETAINED
+G321_REPAIR_CHANGED_OR_REFUTED_SCIENTIFIC_LANDING
+G321_REPAIR_REVIEW_INCOMPLETE
+```
+
+Do not edit evidence files or continue the research.
+
+exec
+/bin/bash -lc "sed -n '1,120p' /intake/package/REPLAY_COMMANDS.txt" in /work
+ succeeded in 0ms:
+python3 -S derive_local_development.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+
+codex
+Plan:
+1. Authenticate the intake manifest chain and every listed payload.
+2. Read the repair-specific code and evidence files for R1 and R2, staying within `/intake`.
+3. Copy only `/intake/package` to `/work/package` and run the four registered replay commands there.
+4. Compare the replayed results against the claimed bounded landing, then write the review report and return the required verdict.
+  → Authenticate the intake manifest chain and every listed payload
+  • Read the repair-specific code and evidence files for R1 and R2 within /intake
+  • Copy only /intake/package to /work/package and run the four registered replay commands there
+  • Assess bounded landing unchanged, write /return/EXTERNAL_REVIEW_RESPONSE.md, and return the required verdict
+codex
+I’m checking the manifest chain now: first the hash of `REVIEW_MANIFEST.tsv`, then every file listed in the manifest against its recorded size and SHA-256.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import hashlib, json
+root = Path('/intake')
+manifest_sha = root / 'REVIEW_MANIFEST.sha256'
+manifest_tsv = root / 'REVIEW_MANIFEST.tsv'
+line = manifest_sha.read_text().strip().split()
+expected_manifest_hash = line[0]
+actual_manifest_hash = hashlib.sha256(manifest_tsv.read_bytes()).hexdigest()
+rows = manifest_tsv.read_text().splitlines()
+header = rows[0].split('\\t')
+assert header == ['path','bytes','sha256'], header
+results = []
+all_ok = True
+for raw in rows[1:]:
+    path_s, bytes_s, sha_s = raw.split('\\t')
+    p = root / path_s
+    exists = p.exists()
+    size = p.stat().st_size if exists else None
+    digest = hashlib.sha256(p.read_bytes()).hexdigest() if exists else None
+    ok = exists and size == int(bytes_s) and digest == sha_s
+    all_ok = all_ok and ok
+    results.append({'path': path_s, 'exists': exists, 'size_ok': size == int(bytes_s) if exists else False, 'sha_ok': digest == sha_s if exists else False})
+print(json.dumps({
+    'manifest_sha256_expected': expected_manifest_hash,
+    'manifest_sha256_actual': actual_manifest_hash,
+    'manifest_sha256_ok': actual_manifest_hash == expected_manifest_hash,
+    'payload_count': len(results),
+    'all_payloads_ok': all_ok,
+    'failures': [r for r in results if not (r['exists'] and r['size_ok'] and r['sha_ok'])]
+}, indent=2))
+PY" in /work
+ succeeded in 0ms:
+{
+  "manifest_sha256_expected": "6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a",
+  "manifest_sha256_actual": "6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a",
+  "manifest_sha256_ok": true,
+  "payload_count": 39,
+  "all_payloads_ok": true,
+  "failures": []
+}
+
+codex
+The manifest chain is clean. I’m reading the repair-relevant implementation and evidence next, focusing on the hostile mutation harness, typed hypothesis status, and the aggregate scope checks.
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/package/verify_package.py" in /work
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/package/verify_independent.py" in /work
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/run_catch_proofs.py" in /work
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate G321 package verification."""
+
+import ast
+import csv
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+LANDING = (
+    "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__"
+    "REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__"
+    "NO_GLOBAL_OR_OCCUPANCY_SELECTION"
+)
+THEOREM_STAMP = (
+    "LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_"
+    "HARMONIC_WELLPOSEDNESS_THEOREM"
+)
+SCOPE_STAMP = (
+    "NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_"
+    "SPACETIME_CLASSIFICATION"
+)
+EXPECTED_HYPOTHESIS_STATUSES = {
+    "H1_initial_manifold": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3",
+    "H2_gamma_regular": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY",
+    "H3_K_regular": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH",
+    "H4_constraints": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS",
+    "H5_connected_scalar_sector": "DERIVED_FROM_HAMILTONIAN_VALUE",
+    "H6_full_principal_operator": "EXACT_LINEAR_ALGEBRA_AUDIT",
+    "H7_gauge_constraint_propagation": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED",
+    "H8_gauge_quotient": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE",
+}
+REQUIRED = (
+    "MAP.md", "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "PREREGISTRATION.md",
+    "PREREGISTRATION_ANCESTRY.md", "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt",
+    "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv",
+    "EVIDENCE_GATES.md", "RUN_RECORD.md", "DEVELOPMENT_ATLAS.tsv",
+    "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+    "derive_local_development.py", "verify_independent.py", "run_catch_proofs.py",
+    "verify_package.py", "build_review_intake.py", "EXTERNAL_REVIEW_REQUEST.md",
+    "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_CLI_FINAL.md",
+    "EXTERNAL_REVIEW_TRANSCRIPT.txt", "EXTERNAL_REVIEW_TRANSMISSION.md",
+    "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
+)
+ALLOWED_IMPORTS = {
+    "ast", "csv", "fractions", "hashlib", "json", "math", "pathlib", "shutil",
+    "subprocess", "sys", "tempfile",
+}
+
+
+def require(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+for name in REQUIRED:
+    require((HERE / name).is_file(), f"missing {name}")
+
+production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+mutation_probe = (HERE / ".g321_mutation_probe").is_file()
+require(production["landing"] == LANDING, "landing drift")
+require(production["local_geometric_uniqueness"] == "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM", "conditional theorem caveat lost")
+require(production["raw_tracefree_principal_rank"] == 9, "raw rank")
+require(production["fixed_lambda_principal_rank"] == 10, "completed rank")
+require(production["constraint_sector"] == "Lambda=0", "sector")
+require(production["theorem_interface_status"] == "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL", "theorem interface type")
+require(
+    {key: value["status"] for key, value in production["theorem_hypothesis_audit"].items()}
+    == EXPECTED_HYPOTHESIS_STATUSES,
+    "theorem hypothesis ledger drift",
+)
+require(all(value["evidence"].strip() for value in production["theorem_hypothesis_audit"].values()), "empty theorem evidence")
+require(not production["lapse_shift_are_physical_data"], "gauge variables promoted to physical data")
+require(production["initial_adm_rhs_single_valued_after_gauge_fix"], "initial ADM response lost")
+require(production["opposite_signs_are_distinct_full_data"], "K sign branches collapsed")
+require(production["opposite_signs_are_time_reversed_data"], "time reversal field")
+require(production["different_modes_distinct_as_marked_developments"], "marked mode separation field")
+require(not production["physical_initial_data_selected"], "data selection overclaim")
+require(not production["global_history_selected"], "global history overclaim")
+require(not production["unmarked_same_spacetime_different_slice_classified"], "unmarked quotient overclaim")
+require(not production["metric_or_kernel_changed"], "metric/kernel regression")
+require(independent["status"] == "PASS_INDEPENDENT", "independent status")
+require(not independent["production_imported"], "independent imports production")
+require(not independent["production_output_read"], "independent reads production result")
+require(independent["max_hamiltonian_residual"] < 5e-12, "independent Hamiltonian")
+require(independent["max_momentum_residual"] < 5e-12, "independent momentum")
+require(independent["max_time_reversal_error"] < 5e-12, "time reversal")
+if not mutation_probe:
+    require(catches["status"] == "PASS_ALL_MUTATIONS_CAUGHT", "catch status")
+    require(catches["caught_count"] == catches["expected_count"] == 12, "catch count")
+    require(catches["mutation_method"] == "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION", "hostile method")
+    require(all(item["verifier_returncode"] != 0 for item in catches["details"]), "a hostile mutation survived verifier")
+
+with (HERE / "DEVELOPMENT_ATLAS.tsv").open(encoding="utf-8", newline="") as handle:
+    atlas = list(csv.DictReader(handle, delimiter="\t"))
+require(len(atlas) == 8, "atlas row count")
+base = float(next(row for row in atlas if row["mode"] == "1" and row["sign"] == "1")["Q_R"])
+for row in atlas:
+    mode = int(row["mode"])
+    require(float(row["max_hamiltonian"]) < 5e-12, "atlas Hamiltonian")
+    require(float(row["max_momentum"]) < 5e-12, "atlas momentum")
+    require(abs(float(row["Q_R"]) / base - mode ** 2) < 5e-12, "atlas Q_R ratio")
+
+for script_name in ("derive_local_development.py", "verify_independent.py", "run_catch_proofs.py", "verify_package.py", "build_review_intake.py", "build_repair_followup_intake.py"):
+    tree = ast.parse((HERE / script_name).read_text(encoding="utf-8"))
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            imports = [alias.name.split(".")[0] for alias in node.names]
+        elif isinstance(node, ast.ImportFrom):
+            imports = [(node.module or "").split(".")[0]]
+        else:
+            continue
+        require(all(name in ALLOWED_IMPORTS for name in imports), f"unregistered import in {script_name}: {imports}")
+
+for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md"):
+    report_text = (HERE / name).read_text(encoding="utf-8")
+    require(LANDING in report_text.replace("\n", ""), f"exact landing missing from {name}")
+    require(THEOREM_STAMP in report_text.replace("\n", ""), f"exact theorem ownership stamp missing from {name}")
+    require(SCOPE_STAMP in report_text.replace("\n", ""), f"exact scope stamp missing from {name}")
+
+with (HERE / "STATUS_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+    status_rows = {row["object"]: row for row in csv.DictReader(handle, delimiter="\t")}
+require(status_rows["standard local wellposedness"]["status"] == "IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL", "wellposedness ownership drift")
+require(status_rows["unmarked same-spacetime relation"]["status"] == "OPEN", "unmarked classification drift")
+require(status_rows["physical data occupancy"]["status"] == "OPEN_NOT_SELECTED", "occupancy drift")
+require(status_rows["global history existence stability"]["status"] == "OPEN", "global history drift")
+
+external_review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+require("G321_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED" in external_review, "fresh review verdict not preserved")
+transmission = (HERE / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
+require("aeda3727b7ff5e66c5ec7a0da9363c84ec6084245006c2fec5d421cc97654202" in transmission, "fresh scope hash missing")
+require("c9c50ccec969cb9911b1ce197cc129fbbbd26d51e40c32305d2617ed72789bd9" in transmission, "fresh manifest hash missing")
+
+result = {
+    "schema": "udt-g321-package-verification-v1",
+    "status": "PASS_REPAIRS_INTERNALLY_VERIFIED_PENDING_REPAIR_ONLY_FOLLOWUP",
+    "landing": LANDING,
+    "required_files": len(REQUIRED),
+    "atlas_rows": len(atlas),
+    "production_assertions": production["assertion_count"],
+    "independent_assertions": independent["assertion_count"],
+    "hostile_catches": catches["caught_count"],
+}
+with (HERE / "PACKAGE_VERIFICATION_RESULT.json").open("w", encoding="utf-8") as handle:
+    json.dump(result, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+print(json.dumps(result, indent=2, sort_keys=True))
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct G321 verification using connection/index loops."""
+
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+CHECKS = []
+P = 1.7  # CHOSE_CATEGORY_A_INDEPENDENT_CONTROL
+AMPLITUDE = 0.12  # CHOSE_CATEGORY_A_INDEPENDENT_CONTROL
+J0 = 300.0  # CHOSE_CATEGORY_A_INDEPENDENT_CONTROL
+MODES = (1, 3, 5)  # FREE_AND_EXPLORED_INDEPENDENT_CONTROLS
+SIGNS = (-1, 1)  # FREE_AND_EXPLORED_BRANCHES
+SAMPLES = 3072  # CATEGORY_A_NUMERICAL_QUADRATURE
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def jet(x_value, mode):
+    angle = mode * x_value
+    return (
+        P + AMPLITUDE * math.cos(angle),
+        -AMPLITUDE * mode * math.sin(angle),
+        -AMPLITUDE * mode ** 2 * math.cos(angle),
+        AMPLITUDE * mode ** 3 * math.sin(angle),
+    )
+
+
+def geometry(psi, psi_1, psi_2):
+    scale = psi ** 4
+    scale_1 = 4.0 * psi ** 3 * psi_1
+    scale_2 = 12.0 * psi ** 2 * psi_1 ** 2 + 4.0 * psi ** 3 * psi_2
+    g = [[scale * float(i == j) for j in range(3)] for i in range(3)]
+    g_inv = [[float(i == j) / scale for j in range(3)] for i in range(3)]
+    dg = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    ddg = [[[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        dg[0][i][i] = scale_1
+        ddg[0][0][i][i] = scale_2
+    dg_inv = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        dg_inv[0][i][i] = -scale_1 / scale ** 2
+
+    gamma = [[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    dgamma = [[[[0.0 for _ in range(3)] for _ in range(3)] for _ in range(3)] for _ in range(3)]
+    for upper in range(3):
+        for i in range(3):
+            for j in range(3):
+                for lower in range(3):
+                    bracket = dg[i][j][lower] + dg[j][i][lower] - dg[lower][i][j]
+                    gamma[upper][i][j] += 0.5 * g_inv[upper][lower] * bracket
+                    for derivative in range(3):
+                        dbracket = (
+                            ddg[derivative][i][j][lower]
+                            + ddg[derivative][j][i][lower]
+                            - ddg[derivative][lower][i][j]
+                        )
+                        dgamma[derivative][upper][i][j] += 0.5 * (
+                            dg_inv[derivative][upper][lower] * bracket
+                            + g_inv[upper][lower] * dbracket
+                        )
+
+    ricci = [[0.0 for _ in range(3)] for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            for k in range(3):
+                ricci[i][j] += dgamma[k][k][i][j] - dgamma[j][k][i][k]
+                for lower in range(3):
+                    ricci[i][j] += (
+                        gamma[k][i][j] * gamma[lower][k][lower]
+                        - gamma[lower][i][k] * gamma[k][j][lower]
+                    )
+    scalar = sum(g_inv[i][j] * ricci[i][j] for i in range(3) for j in range(3))
+    return g, g_inv, gamma, ricci, scalar
+
+
+def reconstruct(psi, psi_1, psi_2, psi_3, sign):
+    f_value = 12.0 * psi_2 * psi ** -5
+    f_prime = 12.0 * (psi_3 * psi ** -5 - 5.0 * psi_2 * psi ** -6 * psi_1)
+    z_value = 36.0 * psi_1 ** 2 + J0
+    z_prime = 72.0 * psi_1 * psi_2
+    b_value = sign * psi ** -3 * math.sqrt(z_value)
+    b_prime = b_value * (-3.0 * psi_1 / psi + z_prime / (2.0 * z_value))
+    a_value = f_value / b_value
+    a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+    tau = 0.5 * (a_value + b_value)
+    anisotropy = 0.5 * (a_value - b_value)
+    tau_prime = 0.5 * (a_prime + b_prime)
+    anisotropy_prime = 0.5 * (a_prime - b_prime)
+    mixed_k = [
+        (tau + 2.0 * anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+    ]
+    mixed_k_prime = [
+        (tau_prime + 2.0 * anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+    ]
+    g, _, gamma, ricci, scalar = geometry(psi, psi_1, psi_2)
+    hamiltonian = scalar + tau ** 2 - sum(value ** 2 for value in mixed_k)
+
+    tensor = [[0.0 for _ in range(3)] for _ in range(3)]
+    for index in range(3):
+        tensor[index][index] = mixed_k[index] - tau
+    momentum = []
+    for i in range(3):
+        value = mixed_k_prime[0] - tau_prime if i == 0 else 0.0
+        for j in range(3):
+            value += gamma[j][j][i] * tensor[i][i]
+            value -= gamma[j][j][i] * tensor[j][j]
+        momentum.append(value)
+
+    k_cov = [g[index][index] * mixed_k[index] for index in range(3)]
+    gamma_dot = [-2.0 * value for value in k_cov]
+    k_dot = [
+        ricci[index][index] + tau * k_cov[index]
+        - 2.0 * g[index][index] * mixed_k[index] ** 2
+        for index in range(3)
+    ]
+    return {
+        "g": tuple(g[index][index] for index in range(3)),
+        "K": tuple(k_cov),
+        "gamma_dot": tuple(gamma_dot),
+        "K_dot": tuple(k_dot),
+        "hamiltonian": hamiltonian,
+        "momentum": tuple(momentum),
+        "scalar": scalar,
+    }
+
+
+max_hamiltonian = 0.0
+max_momentum = 0.0
+max_ricci_formula_error = 0.0
+max_time_reversal_error = 0.0
+q_values = {}
+for mode in MODES:
+    branch_rows = {}
+    weighted_scalar = []
+    weights = []
+    for sign in SIGNS:
+        rows = []
+        for index in range(SAMPLES):
+            x_value = 2.0 * math.pi * index / SAMPLES
+            values = jet(x_value, mode)
+            row = reconstruct(*values, sign)
+            rows.append(row)
+            psi, psi_1, psi_2, _ = values
+            expected_scalar = -8.0 * psi ** -5 * psi_2
+            max_ricci_formula_error = max(max_ricci_formula_error, abs(row["scalar"] - expected_scalar))
+            max_hamiltonian = max(max_hamiltonian, abs(row["hamiltonian"]))
+            max_momentum = max(max_momentum, *(abs(value) for value in row["momentum"]))
+            if sign == 1:
+                weights.append(psi ** 6)
+                weighted_scalar.append(psi ** 6 * row["scalar"])
+        branch_rows[sign] = rows
+
+    volume = (2.0 * math.pi) ** 3 * math.fsum(weights) / SAMPLES
+    total_scalar = (2.0 * math.pi) ** 3 * math.fsum(weighted_scalar) / SAMPLES
+    q_values[mode] = total_scalar / volume ** (1.0 / 3.0)
+
+    for minus, plus in zip(branch_rows[-1], branch_rows[1]):
+        for axis in range(3):
+            max_time_reversal_error = max(
+                max_time_reversal_error,
+                abs(minus["K"][axis] + plus["K"][axis]),
+                abs(minus["gamma_dot"][axis] + plus["gamma_dot"][axis]),
+                abs(minus["K_dot"][axis] - plus["K_dot"][axis]),
+            )
+
+check("direct loop Ricci agrees with scalar anchor", max_ricci_formula_error < 2e-13)
+check("independent Hamiltonian", max_hamiltonian < 5e-12)
+check("independent momentum", max_momentum < 5e-12)
+check("independent time reversal", max_time_reversal_error < 5e-12)
+for mode in MODES:
+    check(f"independent Q mode square n={mode}", abs(q_values[mode] / q_values[1] - mode ** 2) < 5e-12)
+
+result = {
+    "schema": "udt-g321-independent-local-development-v1",
+    "status": "PASS_INDEPENDENT",
+    "assertion_count": len(CHECKS),
+    "production_imported": False,
+    "production_output_read": False,
+    "connection_ricci_index_loop": True,
+    "modes_checked": list(MODES),
+    "branches_checked": list(SIGNS),
+    "max_ricci_formula_error": max_ricci_formula_error,
+    "max_hamiltonian_residual": max_hamiltonian,
+    "max_momentum_residual": max_momentum,
+    "max_time_reversal_error": max_time_reversal_error,
+    "conditional_theorem_application_upheld": True,
+    "global_or_occupancy_claim": False,
+}
+with (HERE / "INDEPENDENT_VERIFICATION.json").open("w", encoding="utf-8") as handle:
+    json.dump(result, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+print(json.dumps(result, indent=2, sort_keys=True))
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile G321 checks by mutating real package artifacts in ephemeral copies."""
+
+import csv
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tempfile
+
+
+HERE = Path(__file__).resolve().parent
+CAUGHT = []
+DETAILS = []
+
+
+def mutate_result(package, **changes):
+    path = package / "DERIVATION_RESULT.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    data.update(changes)
+    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def mutate_atlas(package, field, value):
+    path = package / "DEVELOPMENT_ATLAS.tsv"
+    with path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    rows[0][field] = str(value)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=tuple(rows[0]), delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def run_verifier(package):
+    return subprocess.run(
+        [sys.executable, "-S", "verify_package.py"],
+        cwd=package,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+
+
+def run_mutation(label, mutator, expected_message):
+    with tempfile.TemporaryDirectory(prefix="udt_g321_hostile_") as temp:
+        package = Path(temp) / "package"
+        shutil.copytree(HERE, package, ignore=shutil.ignore_patterns("__pycache__"))
+        (package / ".g321_mutation_probe").write_text("ephemeral hostile probe\n", encoding="utf-8")
+        mutator(package)
+        completed = run_verifier(package)
+        combined = completed.stdout + completed.stderr
+        rejected = completed.returncode != 0 and expected_message in combined
+        if not rejected:
+            raise AssertionError(
+                f"mutation survived or failed for wrong reason: {label}; "
+                f"returncode={completed.returncode}; expected={expected_message!r}; output={combined[-800:]!r}"
+            )
+        CAUGHT.append(label)
+        DETAILS.append({
+            "label": label,
+            "verifier_returncode": completed.returncode,
+            "expected_rejection": expected_message,
+            "expected_rejection_observed": True,
+        })
+
+
+# Prove the unmutated real package copy passes the same verifier route before any attack.
+with tempfile.TemporaryDirectory(prefix="udt_g321_hostile_baseline_") as temp:
+    baseline = Path(temp) / "package"
+    shutil.copytree(HERE, baseline, ignore=shutil.ignore_patterns("__pycache__"))
+    (baseline / ".g321_mutation_probe").write_text("ephemeral hostile probe\n", encoding="utf-8")
+    baseline_run = run_verifier(baseline)
+    if baseline_run.returncode != 0:
+        raise AssertionError(f"unmutated baseline failed: {(baseline_run.stdout + baseline_run.stderr)[-1200:]}")
+
+
+run_mutation(
+    "R1_wrong_Hamiltonian_sign",
+    lambda package: mutate_atlas(package, "max_hamiltonian", 1.0),
+    "atlas Hamiltonian",
+)
+run_mutation(
+    "R2_arbitrary_Lambda_despite_H_zero",
+    lambda package: mutate_result(package, constraint_sector="Lambda=1"),
+    "sector",
+)
+run_mutation(
+    "R3_omitted_momentum_constraint",
+    lambda package: mutate_atlas(package, "max_momentum", 0.25),
+    "atlas momentum",
+)
+run_mutation(
+    "R4_lapse_shift_called_physical_branches",
+    lambda package: mutate_result(package, lapse_shift_are_physical_data=True),
+    "gauge variables promoted to physical data",
+)
+run_mutation(
+    "R5_collapsed_K_sign_branches",
+    lambda package: mutate_result(package, opposite_signs_are_distinct_full_data=False),
+    "K sign branches collapsed",
+)
+run_mutation(
+    "R6_wrong_time_reversal_parity",
+    lambda package: mutate_result(package, opposite_signs_are_time_reversed_data=False),
+    "time reversal field",
+)
+run_mutation(
+    "R7_first_jet_determinism_called_PDE_proof",
+    lambda package: mutate_result(package, local_geometric_uniqueness="DERIVED_FROM_INITIAL_ADM_RHS"),
+    "conditional theorem caveat lost",
+)
+run_mutation(
+    "R8_imported_theorem_caveat_erased",
+    lambda package: mutate_result(package, local_geometric_uniqueness="UNCONDITIONAL"),
+    "conditional theorem caveat lost",
+)
+run_mutation(
+    "R9_marked_local_upgraded_to_unmarked_global",
+    lambda package: mutate_result(package, unmarked_same_spacetime_different_slice_classified=True),
+    "unmarked quotient overclaim",
+)
+run_mutation(
+    "R10_uniqueness_called_physical_occupancy",
+    lambda package: mutate_result(package, physical_initial_data_selected=True, global_history_selected=True),
+    "data selection overclaim",
+)
+run_mutation(
+    "R11_raw_rank_nine_called_complete_evolution",
+    lambda package: mutate_result(package, raw_tracefree_principal_rank=10, fixed_lambda_principal_rank=9),
+    "raw rank",
+)
+run_mutation(
+    "R12_metric_or_kernel_change_smuggled",
+    lambda package: mutate_result(package, metric_or_kernel_changed=True),
+    "metric/kernel regression",
+)
+
+
+output = {
+    "schema": "udt-g321-hostile-catches-v2",
+    "status": "PASS_ALL_MUTATIONS_CAUGHT",
+    "mutation_method": "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION",
+    "baseline_verifier_returncode": baseline_run.returncode,
+    "caught_count": len(CAUGHT),
+    "expected_count": 12,
+    "caught": CAUGHT,
+    "details": DETAILS,
+}
+with (HERE / "CATCH_PROOF_RESULT.json").open("w", encoding="utf-8") as handle:
+    json.dump(output, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+print(json.dumps(output, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/DERIVATION_RESULT.json" in /work
+ succeeded in 0ms:
+{
+  "assertion_count": 163894,
+  "constraint_sector": "Lambda=0",
+  "different_modes_distinct_as_marked_developments": true,
+  "fixed_lambda_principal_rank": 10,
+  "global_history_selected": false,
+  "initial_adm_rhs_single_valued_after_gauge_fix": true,
+  "landing": "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION",
+  "lapse_shift_are_physical_data": false,
+  "local_geometric_uniqueness": "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM",
+  "metric_or_kernel_changed": false,
+  "opposite_signs_are_distinct_full_data": true,
+  "opposite_signs_are_time_reversed_data": true,
+  "physical_initial_data_selected": false,
+  "raw_tracefree_principal_rank": 9,
+  "schema": "udt-g321-local-development-uniqueness-v1",
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "theorem_hypothesis_audit": {
+    "H1_initial_manifold": {
+      "evidence": "T3 is fixed in the preregistration; this is an analytic domain declaration, not a numerical test",
+      "status": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3"
+    },
+    "H2_gamma_regular": {
+      "evidence": "psi=3/2+(1/5)cos(nx) is analytic and psi>=13/10, hence gamma=psi^4 delta is smooth positive definite",
+      "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY"
+    },
+    "H3_K_regular": {
+      "evidence": "the exact positive margin keeps Z and B nonzero; the reconstructed diagonal K is analytic and symmetric",
+      "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH"
+    },
+    "H4_constraints": {
+      "evidence": "Hamiltonian and all momentum components vanish analytically; production and independent residuals are numerical backward-error checks",
+      "status": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS"
+    },
+    "H5_connected_scalar_sector": {
+      "evidence": "H=2 Lambda and H=0 fix Lambda=0 on the connected registered slice",
+      "status": "DERIVED_FROM_HAMILTONIAN_VALUE"
+    },
+    "H6_full_principal_operator": {
+      "evidence": "raw trace-free projector rank is nine and the Bianchi-completed fixed-Lambda metric-wave principal operator rank is ten",
+      "status": "EXACT_LINEAR_ALGEBRA_AUDIT"
+    },
+    "H7_gauge_constraint_propagation": {
+      "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+      "status": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED"
+    },
+    "H8_gauge_quotient": {
+      "evidence": "lapse, shift, and harmonic-coordinate data are presentation choices under the declared standard theorem, not newly derived UDT physics",
+      "status": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE"
+    }
+  },
+  "theorem_interface_status": "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL",
+  "unmarked_same_spacetime_different_slice_classified": false
+}
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/STATUS_LEDGER.tsv" in /work
+ succeeded in 0ms:
+object	status	maximum_statement
+G321 preregistration	BANKED_BEFORE_OUTCOMES__863A1E9E	bounded test contract only
+G320 finite controls	INTERNALLY_RECONSTRUCTED_LAWFUL	all modes and signs lie in Lambda zero sector
+raw tracefree principal operator	DERIVED_RANK_NINE	not the complete fixed-sector evolution system
+Bianchi-completed fixed sector	DERIVED_RANK_TEN	full local metric-wave principal part
+ADM initial right-hand side	DERIVED_SINGLE_VALUED_IN_CHOSEN_GAUGE	interface check not PDE proof
+standard local wellposedness	IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL	local existence and uniqueness up to diffeomorphism
+G320 local marked developments	SCIENTIFIC_LANDING_RETAINED__REPAIRS_INTERNALLY_VERIFIED_PENDING_FOLLOWUP	each fixed datum has one local marked development
+opposite K signs	DERIVED_TIME_REVERSED_DATA	not two futures from one datum
+different integer modes	DERIVED_DISTINCT_MARKED_DEVELOPMENTS	Q_R forbids data-preserving equivalence
+unmarked same-spacetime relation	OPEN	different-slice realization not classified
+physical data occupancy	OPEN_NOT_SELECTED	uniqueness is not selection
+global history existence stability	OPEN	local tile only
+metric kernel angular observations	UNCHANGED	no interface modification
+source matter mass scale Xmax	OPEN_OMITTED	no import or selection
+fresh external adversarial review	REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED	all payloads authenticated and registered outputs reproduced exactly
+hostile mutation layer	REPAIRED_INTERNALLY	12 actual ephemeral-package mutations rejected for registered reasons
+theorem hypothesis audit	REPAIRED_INTERNALLY	eight typed evidence entries; imported PDE theorem not machine-proved
+repair-only external followup	PENDING	required before externally accepted grade
+
+codex
+The key repair hooks are present in the verifier. I’m checking the derivation generator and narrative files now to confirm the old unconditional placeholders are actually removed and the scoped landing text still matches everywhere.
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/package/derive_local_development.py" in /work
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""G321 production: audit local-development hypotheses for G320 data."""
+
+import csv
+from fractions import Fraction
+import json
+import math
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+CHECKS = []
+P = Fraction(3, 2)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+AMPLITUDE = Fraction(1, 5)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+J0 = 100.0  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+MODES = (1, 2, 3, 4)  # FREE_AND_EXPLORED_FINITE_REPLAY
+SIGNS = (-1, 1)  # FREE_AND_EXPLORED_BRANCHES
+SAMPLES = 4096  # CATEGORY_A_NUMERICAL_QUADRATURE
+TWO_PI = 2.0 * math.pi
+
+LANDING = (
+    "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__"
+    "REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__"
+    "NO_GLOBAL_OR_OCCUPANCY_SELECTION"
+)
+
+THEOREM_HYPOTHESIS_AUDIT = {
+    "H1_initial_manifold": {
+        "status": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3",
+        "evidence": "T3 is fixed in the preregistration; this is an analytic domain declaration, not a numerical test",
+    },
+    "H2_gamma_regular": {
+        "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY",
+        "evidence": "psi=3/2+(1/5)cos(nx) is analytic and psi>=13/10, hence gamma=psi^4 delta is smooth positive definite",
+    },
+    "H3_K_regular": {
+        "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH",
+        "evidence": "the exact positive margin keeps Z and B nonzero; the reconstructed diagonal K is analytic and symmetric",
+    },
+    "H4_constraints": {
+        "status": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS",
+        "evidence": "Hamiltonian and all momentum components vanish analytically; production and independent residuals are numerical backward-error checks",
+    },
+    "H5_connected_scalar_sector": {
+        "status": "DERIVED_FROM_HAMILTONIAN_VALUE",
+        "evidence": "H=2 Lambda and H=0 fix Lambda=0 on the connected registered slice",
+    },
+    "H6_full_principal_operator": {
+        "status": "EXACT_LINEAR_ALGEBRA_AUDIT",
+        "evidence": "raw trace-free projector rank is nine and the Bianchi-completed fixed-Lambda metric-wave principal operator rank is ten",
+    },
+    "H7_gauge_constraint_propagation": {
+        "status": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED",
+        "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+    },
+    "H8_gauge_quotient": {
+        "status": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE",
+        "evidence": "lapse, shift, and harmonic-coordinate data are presentation choices under the declared standard theorem, not newly derived UDT physics",
+    },
+}
+
+
+def check(label, condition):
+    if not condition:
+        raise AssertionError(label)
+    CHECKS.append(label)
+
+
+def matrix_rank(matrix):
+    work = [[Fraction(value) for value in row] for row in matrix]
+    rows = len(work)
+    cols = len(work[0])
+    rank = 0
+    for col in range(cols):
+        pivot = next((row for row in range(rank, rows) if work[row][col]), None)
+        if pivot is None:
+            continue
+        work[rank], work[pivot] = work[pivot], work[rank]
+        scale = work[rank][col]
+        work[rank] = [value / scale for value in work[rank]]
+        for row in range(rows):
+            if row != rank and work[row][col]:
+                factor = work[row][col]
+                work[row] = [a - factor * b for a, b in zip(work[row], work[rank])]
+        rank += 1
+    return rank
+
+
+def tracefree_projector():
+    pairs = [(a, b) for a in range(4) for b in range(a, 4)]
+    metric = (-1, 1, 1, 1)
+    columns = []
+    for c, d in pairs:
+        tensor = [[Fraction(0) for _ in range(4)] for _ in range(4)]
+        tensor[c][d] = tensor[d][c] = Fraction(1)
+        trace = sum(Fraction(metric[a]) * tensor[a][a] for a in range(4))
+        output = [[tensor[a][b] for b in range(4)] for a in range(4)]
+        for a in range(4):
+            output[a][a] -= Fraction(1, 4) * trace * metric[a]
+        columns.append([output[a][b] for a, b in pairs])
+    return [[columns[col][row] for col in range(10)] for row in range(10)]
+
+
+def profile_jet(x_value, mode, p=float(P), amplitude=float(AMPLITUDE)):
+    angle = mode * x_value
+    return (
+        p + amplitude * math.cos(angle),
+        -amplitude * mode * math.sin(angle),
+        -amplitude * mode * mode * math.cos(angle),
+        amplitude * mode ** 3 * math.sin(angle),
+    )
+
+
+def reconstruct(psi, psi_1, psi_2, psi_3, sign):
+    f_value = 12.0 * psi_2 * psi ** -5
+    f_prime = 12.0 * (psi_3 * psi ** -5 - 5.0 * psi_2 * psi ** -6 * psi_1)
+    z_value = 36.0 * psi_1 ** 2 + J0
+    z_prime = 72.0 * psi_1 * psi_2
+    b_value = sign * psi ** -3 * math.sqrt(z_value)
+    b_prime = b_value * (-3.0 * psi_1 / psi + z_prime / (2.0 * z_value))
+    a_value = f_value / b_value
+    a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+    tau = 0.5 * (a_value + b_value)
+    anisotropy = 0.5 * (a_value - b_value)
+    tau_prime = 0.5 * (a_prime + b_prime)
+    anisotropy_prime = 0.5 * (a_prime - b_prime)
+    mixed_k = (
+        (tau + 2.0 * anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+        (tau - anisotropy) / 3.0,
+    )
+    mixed_k_prime = (
+        (tau_prime + 2.0 * anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+        (tau_prime - anisotropy_prime) / 3.0,
+    )
+
+    u_1 = psi_1 / psi
+    ricci_cov = (
+        -4.0 * psi_2 / psi + 4.0 * u_1 ** 2,
+        -2.0 * psi_2 / psi - 2.0 * u_1 ** 2,
+        -2.0 * psi_2 / psi - 2.0 * u_1 ** 2,
+    )
+    gamma_factor = psi ** 4
+    scalar_3 = math.fsum(ricci_cov) / gamma_factor
+    k_squared = math.fsum(value * value for value in mixed_k)
+    hamiltonian = scalar_3 + tau ** 2 - k_squared
+    momentum_x = (
+        mixed_k_prime[0] - tau_prime + 6.0 * u_1 * mixed_k[0]
+        - 2.0 * u_1 * tau
+    )
+    k_cov = tuple(gamma_factor * value for value in mixed_k)
+    gamma_dot = tuple(-2.0 * value for value in k_cov)
+    k_dot = tuple(
+        ricci_cov[index] + tau * k_cov[index]
+        - 2.0 * gamma_factor * mixed_k[index] ** 2
+        for index in range(3)
+    )
+    return {
+        "psi": psi,
+        "z": z_value,
+        "gamma": (gamma_factor,) * 3,
+        "K": k_cov,
+        "tau": tau,
+        "R3": scalar_3,
+        "hamiltonian": hamiltonian,
+        "momentum": (momentum_x, 0.0, 0.0),
+        "gamma_dot": gamma_dot,
+        "K_dot": k_dot,
+    }
+
+
+def mean(values):
+    return math.fsum(values) / len(values)
+
+
+def summarize(mode, sign):
+    rows = []
+    for index in range(SAMPLES):
+        x_value = TWO_PI * index / SAMPLES
+        rows.append(reconstruct(*profile_jet(x_value, mode), sign))
+    volume = TWO_PI ** 3 * mean([row["psi"] ** 6 for row in rows])
+    total_scalar = TWO_PI ** 3 * mean(
+        [row["psi"] ** 6 * row["R3"] for row in rows]
+    )
+    return {
+        "mode": mode,
+        "sign": sign,
+        "min_psi": min(row["psi"] for row in rows),
+        "min_z": min(row["z"] for row in rows),
+        "max_hamiltonian": max(abs(row["hamiltonian"]) for row in rows),
+        "max_momentum": max(abs(value) for row in rows for value in row["momentum"]),
+        "max_lambda_inferred": max(abs(0.5 * row["hamiltonian"]) for row in rows),
+        "volume": volume,
+        "Q_R": total_scalar / volume ** (1.0 / 3.0),
+        "mean_gamma_dot_norm2": mean([
+            math.fsum(value * value for value in row["gamma_dot"]) for row in rows
+        ]),
+        "mean_K_dot_norm2": mean([
+            math.fsum(value * value for value in row["K_dot"]) for row in rows
+        ]),
+        "rows": rows,
+    }
+
+
+# Exact principal-rank audit: raw trace-free output is nine-dimensional, while each
+# Bianchi-completed fixed-Lambda harmonic system has ten metric-wave directions.
+raw_projector = tracefree_projector()
+raw_rank = matrix_rank(raw_projector)
+fixed_sector_rank = matrix_rank([[int(i == j) for j in range(10)] for i in range(10)])
+check("raw tracefree rank nine", raw_rank == 9)
+check("fixed sector principal rank ten", fixed_sector_rank == 10)
+
+# Nonnumerical theorem hypotheses are typed explicitly in THEOREM_HYPOTHESIS_AUDIT.
+# They are not counted as executable assertions.  In particular, G321 does not pretend
+# to machine-prove the imported local harmonic well-posedness theorem.
+
+summaries = {}
+atlas = []
+for mode in MODES:
+    margin = Fraction(100) - 12 * AMPLITUDE * mode ** 2 * (P + AMPLITUDE)
+    check(f"exact regular margin mode={mode}", margin > 0)
+    for sign in SIGNS:
+        summary = summarize(mode, sign)
+        summaries[(mode, sign)] = summary
+        check(f"positive metric mode={mode} sign={sign}", summary["min_psi"] > 0)
+        check(f"regular branch mode={mode} sign={sign}", summary["min_z"] > 0)
+        check(f"Hamiltonian mode={mode} sign={sign}", summary["max_hamiltonian"] < 3e-12)
+        check(f"momentum mode={mode} sign={sign}", summary["max_momentum"] < 3e-12)
+        check(f"Lambda zero mode={mode} sign={sign}", summary["max_lambda_inferred"] < 2e-12)
+        atlas.append({key: value for key, value in summary.items() if key != "rows"})
+
+base_q = summaries[(1, 1)]["Q_R"]
+for mode in MODES:
+    for sign in SIGNS:
+        ratio = summaries[(mode, sign)]["Q_R"] / base_q
+        check(f"marked Q_R separator mode={mode} sign={sign}", abs(ratio - mode ** 2) < 3e-12)
+
+# K-sign branches are exact time reverses in unit lapse and zero shift.
+for mode in MODES:
+    negative = summaries[(mode, -1)]["rows"]
+    positive = summaries[(mode, 1)]["rows"]
+    for index, (minus, plus) in enumerate(zip(negative, positive)):
+        check(f"same gamma mode={mode} point={index}", minus["gamma"] == plus["gamma"])
+        for axis in range(3):
+            tolerance = 2e-13 * max(1.0, abs(plus["K"][axis]))
+            check(
+                f"K time reverse mode={mode} point={index} axis={axis}",
+                abs(minus["K"][axis] + plus["K"][axis]) < tolerance,
+            )
+            check(
+                f"gamma dot time reverse mode={mode} point={index} axis={axis}",
+                abs(minus["gamma_dot"][axis] + plus["gamma_dot"][axis]) < 2 * tolerance,
+            )
+            tolerance_dot = 3e-12 * max(1.0, abs(plus["K_dot"][axis]))
+            check(
+                f"K dot time-even mode={mode} point={index} axis={axis}",
+                abs(minus["K_dot"][axis] - plus["K_dot"][axis]) < tolerance_dot,
+            )
+
+with (HERE / "DEVELOPMENT_ATLAS.tsv").open("w", encoding="utf-8", newline="") as handle:
+    writer = csv.DictWriter(handle, fieldnames=tuple(atlas[0]), delimiter="\t", lineterminator="\n")
+    writer.writeheader()
+    writer.writerows(atlas)
+
+result = {
+    "schema": "udt-g321-local-development-uniqueness-v1",
+    "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+    "landing": LANDING,
+    "assertion_count": len(CHECKS),
+    "raw_tracefree_principal_rank": raw_rank,
+    "fixed_lambda_principal_rank": fixed_sector_rank,
+    "constraint_sector": "Lambda=0",
+    "theorem_hypothesis_audit": THEOREM_HYPOTHESIS_AUDIT,
+    "theorem_interface_status": "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL",
+    "initial_adm_rhs_single_valued_after_gauge_fix": True,
+    "lapse_shift_are_physical_data": False,
+    "local_geometric_uniqueness": "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM",
+    "different_modes_distinct_as_marked_developments": True,
+    "opposite_signs_are_distinct_full_data": True,
+    "opposite_signs_are_time_reversed_data": True,
+    "unmarked_same_spacetime_different_slice_classified": False,
+    "global_history_selected": False,
+    "physical_initial_data_selected": False,
+    "metric_or_kernel_changed": False,
+}
+with (HERE / "DERIVATION_RESULT.json").open("w", encoding="utf-8") as handle:
+    json.dump(result, handle, indent=2, sort_keys=True)
+    handle.write("\n")
+
+print(json.dumps(result, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/EXACT_DERIVATION.md" in /work
+ succeeded in 0ms:
+# G321 exact derivation — conditional local developments of G320 data
+
+Date: 2026-09-01
+
+Exact ownership stamp:
+`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+
+Exact scope stamp:
+`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+
+Exact bounded landing:
+`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+
+## 1. Scope and ownership
+
+Inside the owner-adopted provisional G310/G312 local regular metric-only scale-free vacuum arena,
+the active equation is
+
+\[
+S_{ab}:=R_{ab}-\frac14R g_{ab}=0.
+\]
+
+This equation is not derived from the earlier reciprocal representation and is not canonized.
+Contracted Bianchi gives, on each connected solution region,
+
+\[
+R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0.
+\tag{1}
+\]
+
+G321 adds no action, source, or equation. It applies the already caveated standard local geometric
+well-posedness theorem to the externally accepted G320 initial data.
+
+## 2. The supplied data
+
+The G320 control family is
+
+\[
+\psi_n(x)=\frac32+\frac15\cos(nx),\qquad
+\gamma_{ij}=\psi_n^4\delta_{ij},
+\tag{2}
+\]
+
+on the marked periodic three-torus. Since `psi_n>=13/10`, `gamma` is smooth and positive definite.
+G319 reconstructs the mixed eigenvalues of `K` from
+
+\[
+F=12\psi''\psi^{-5},\qquad
+Z=36(\psi')^2+J_0,
+\]
+
+\[
+B=\epsilon\psi^{-3}\sqrt Z,qquad A=F/B,qquad
+\tau=\frac{A+B}{2},\qquad \lambda_A=\frac{A-B}{2}.
+\tag{3}
+\]
+
+For the finite controls `J0=100`, `n=1,2,3,4`, and both `epsilon` signs,
+
+\[
+Z+\psi^6F\ge100-\frac{12}{5}n^2\frac{17}{10}>0.
+\tag{4}
+\]
+
+Thus the square root, `B`, `A`, `tau`, and `K` are smooth and `B` never vanishes. More generally,
+G319's compactness theorem supplies the same regularity for every positive integer mode after a
+sufficiently large free `J0` is supplied.
+
+## 3. The data determine the connected scalar sector
+
+For any spacelike datum, equation (1) requires
+
+\[
+\mathcal H:={}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+\]
+
+\[
+\mathcal M^i:=D_j(K^{ij}-\gamma^{ij}K)=0.
+\tag{5}
+\]
+
+Direct reconstruction gives production maxima
+
+```text
+|H|        4.45e-15
+|M|        1.78e-15
+|H/2|      2.23e-15
+```
+
+and the implementation-distinct connection/index-loop route gives
+
+```text
+|H|        2.67e-15
+|M|        1.73e-15.
+```
+
+Analytically these residuals vanish. Therefore every registered G320 control belongs to the same
+fixed sector
+
+\[
+\boxed{\Lambda=\mathcal H/2=0.}
+\tag{6}
+\]
+
+`Lambda` is not an additional choice after the complete datum is supplied.
+
+## 4. Full local principal system
+
+In harmonic coordinates, fixed-`Lambda` equation (1) has principal part
+
+\[
+-\frac12g^{cd}\partial_c\partial_d g_{ab}.
+\tag{7}
+\]
+
+The raw trace-free output projector has algebraic rank nine. Bianchi completion and the value (6)
+restore the full ten-component fixed-sector metric-wave system. The exact production rank audit
+gives
+
+\[
+\operatorname{rank}P_{\mathrm{TF}}=9,
+\qquad
+\operatorname{rank}P_{\Lambda=0}=10.
+\tag{8}
+\]
+
+The characteristic equation is the supplied metric null cone. Constancy of `Lambda` leaves the
+harmonic gauge-constraint propagation system homogeneous.
+
+## 5. Conditional geometric uniqueness
+
+The registered data satisfy every interface hypothesis exposed in G303/G315, with each evidence
+type kept explicit rather than represented by an unconditional executable boolean:
+
+- smooth compact boundary-free initial manifold;
+- smooth positive-definite `gamma`;
+- smooth symmetric `K`;
+- all four constraints (5);
+- one fixed connected `Lambda` sector;
+- full fixed-sector metric-wave principal system;
+- homogeneous gauge-constraint propagation.
+
+The first six items are supported by domain definitions, analytic regularity, constraint
+identities with two numerical backward-error replays, and exact finite-dimensional principal-rank
+algebra. Homogeneous gauge propagation is a formal Bianchi consequence within the standard
+harmonic reduction. The existence/uniqueness and geometric gauge-quotient theorem itself remains
+an imported conditional mathematical method; G321 does not machine-prove that theorem.
+
+Conditional on the imported standard smooth harmonic-gauge quasilinear-wave existence,
+uniqueness, and gauge-propagation theorems, each fixed datum therefore has a smooth local
+development. Two developments from the same datum are related by a spacetime diffeomorphism that
+commutes with the initial embeddings.
+
+This conditional theorem application is the load-bearing uniqueness step. Computing one immediate
+right-hand side does not prove a PDE theorem.
+
+## 6. Immediate geometric response
+
+As an independent interface check, choose only the presentation gauge `N=1`, `beta=0`. Then
+
+\[
+\partial_t\gamma_{ij}=-2K_{ij},
+\]
+
+\[
+\partial_tK_{ij}={}^{(3)}R_{ij}+K K_{ij}-2K_i{}^kK_{kj}
+\tag{9}
+\]
+
+for the registered `Lambda=0` controls. Every term on the right is a deterministic function of the
+complete supplied datum. The independent verifier reconstructs `R_ij` from Christoffel and Ricci
+index loops and agrees with the closed scalar formula to `1.34e-15`. No second right-hand side or
+extra reciprocal-kernel evolution channel appears.
+
+Lapse and shift describe the presentation of the same geometric development. Changing them does
+not produce new physical data or another local history.
+
+## 7. The two signs are time reverses
+
+Changing the G319 sign gives
+
+\[
+(\gamma,K)\longmapsto(\gamma,-K).
+\]
+
+Equation (9) then gives
+
+\[
+\partial_t\gamma\longmapsto-\partial_t\gamma,
+\qquad
+\partial_tK\longmapsto\partial_tK.
+\tag{10}
+\]
+
+Production checks (10) pointwise for all modes and obtains zero independent maximum parity error.
+The signs are two complete initial data related by time reversal, not two inequivalent futures from
+one fixed `(gamma,K)` datum.
+
+## 8. Different modes give different marked developments
+
+G320's intrinsic invariant obeys
+
+\[
+Q_R[\psi_n]=n^2Q_R[\psi_1].
+\tag{11}
+\]
+
+Any isometry between marked developments that commutes with their initial embeddings must pull
+back the complete initial data and hence preserve `Q_R`. Equation (11) forbids such an equivalence
+for `n!=m`.
+
+This does not prove that two unmarked maximal spacetimes could never contain these geometries as
+different slices. That global refoliation/realization quotient was preregistered as open.
+
+## 9. Exact landing and boundary
+
+Within the registered smooth local G320/G319 slice, the demonstrated breadth is ordinary Cauchy-
+data freedom: each fixed lawful datum conditionally has one local marked development up to
+diffeomorphism. There is no remaining missing **local** propagation equation inside this adopted
+bounded arena.
+
+Still open are physical occupancy, global existence and completeness, singularities, stability,
+unmarked same-spacetime classification, topology, population, source, matter/mass, observation,
+scale, physical `X_max`, and extension beyond the active regular local metric-only vacuum arena.
+The UDT metric, reciprocal kernel, angular cancellation, and observational interfaces are unchanged.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/AUDIT_REPORT.md" in /work
+ succeeded in 0ms:
+# G321 internal audit report
+
+Date: 2026-09-01
+
+Exact ownership stamp:
+`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+
+Exact scope stamp:
+`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+
+Exact bounded landing:
+`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+
+## Result
+
+```text
+G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS
+__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA
+__NO_GLOBAL_OR_OCCUPANCY_SELECTION
+```
+
+Status: `REPAIRS_INTERNALLY_VERIFIED_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP`.
+
+## Findings
+
+1. All eight finite G320 mode/sign controls are smooth lawful data in the same `Lambda=0` sector.
+2. Raw trace-free principal rank is nine; Bianchi-completed fixed-sector rank is ten.
+3. Every exposed interface hypothesis has an explicit evidence type. Analytic and algebraic items
+   pass; gauge propagation and local geometric uniqueness remain conditional on the imported
+   smooth harmonic theorem. The executable layer no longer claims to machine-prove that theorem.
+4. In unit lapse and zero shift, the complete ADM right-hand side is single-valued for each datum.
+   This is an interface check, not the uniqueness proof.
+5. The two `K` signs give exact time-reversed data: `gamma_dot` is odd and `K_dot` is even.
+6. G320's `Q_R` separator prevents a data-preserving isometry between different integer modes, so
+   their marked local developments remain distinct.
+7. The audit does not classify whether different marked slices occur in one larger unmarked
+   spacetime, and it makes no global existence or physical-occupancy claim.
+8. Metric, reciprocal kernel, angular cancellation, scale, and observational interfaces are unchanged.
+
+## Evidence
+
+- production: 163,897 assertions over four modes, both signs, 4,096 periodic points, exact
+  principal-rank algebra, constraints, `Lambda`, mode separation, and time-reversal parity;
+- independent: different `p,a,J0`, modes `1,3,5`, 3,072 points, and direct connection/Ricci index
+  loops; maximum constraint residual below `2.7e-15` and parity error exactly zero;
+- hostile controls: 12 actual ephemeral-package mutations, each rejected by the aggregate verifier;
+- no production function or production result is imported by the independent verifier.
+
+## Boundary
+
+This is a theorem-application audit on a bounded smooth local diagnostic family. It is not an
+explicit long-time solve, full data-moduli theorem, unmarked spacetime quotient, global history,
+initial-data selector, stability result, or extension to source/matter/mass/observation/scale/
+`X_max`.
+
+## Fresh external review and repair
+
+The fresh reviewer authenticated all 33 payloads and reproduced every registered artifact
+byte-for-byte. It retained the scientific landing but found that the original hostile controls
+were mostly toy/circular assertions and that several theorem hypotheses were represented by bare
+`True` checks. The repair replaces those with actual ephemeral-package mutations and an explicit
+eight-row typed hypothesis audit. A repair-only follow-up remains required before acceptance.
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/LAY_REPORT.md" in /work
+ succeeded in 0ms:
+# G321 lay report
+
+Exact ownership stamp:
+`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+
+Exact scope stamp:
+`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+
+Exact bounded landing:
+`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+
+G320 found many genuinely different legal starting geometries. G321 asked whether the current UDT
+equation knows what to do next once any one complete starting geometry is supplied.
+
+Inside the present bounded vacuum framework, the answer is conditionally **yes**.
+
+Each starting geometry contains both its spatial shape and its initial rate of change. Those data
+satisfy all the constraint equations and fix the remaining regional curvature constant to zero.
+The active equation then gives one immediate response. The standard mathematical theorem for this
+kind of causal metric equation says that the response continues into one local spacetime, apart
+from harmless changes of coordinates.
+
+The two sign choices are not two futures produced from the same starting point. They reverse the
+initial rate and therefore describe time-reversed starting data. Likewise, the `1,4,9,16` curvature
+pattern means the four spatial-wave examples remain different when their initial surfaces are
+kept marked.
+
+This is the normal structure of a dynamical physical theory: a law plus complete initial data gives
+one local evolution. It does not say which initial data Nature chose, whether the solutions remain
+regular forever, or whether apparently different slices could belong to one larger global
+spacetime. The local uniqueness conclusion also remains conditional on a standard imported
+mathematical well-posedness theorem. No metric or reciprocal-kernel formula changed.
+
+The first outside review agreed with that scientific result. It did catch that some of our test
+machinery was claiming more rigor than it delivered. We repaired the machinery: it now damages
+copies of the real package and confirms the verifier rejects each damaged copy, while clearly
+separating what the scripts check from what the imported mathematical theorem supplies.
+
+exec
+/bin/bash -lc 'rg -n "True|conditional|global|machine-prove|machine prove|machine-proved|theorem_hypothesis_audit|IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL|OPEN_NOT_SELECTED|OPEN" /intake/package/derive_local_development.py /intake/package/*.md /intake/package/*.json /intake/package/*.tsv' in /work
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+codex
+I’ve confirmed the narrative files carry the same exact landing and explicitly keep the imported theorem conditional. I’m doing a tighter spot-check for leftover placeholder checks before replaying the registered commands.
+exec
+/bin/bash -lc "grep -n \"check(.*True\\|theorem_hypothesis_audit\\|machine-prove\\|machine-proved\\|machine prove\\|conditional\\|global\" /intake/package/derive_local_development.py /intake/package/verify_package.py /intake/package/*.md /intake/package/*.json /intake/package/*.tsv" in /work
+ succeeded in 0ms:
+/intake/package/derive_local_development.py:54:        "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+/intake/package/derive_local_development.py:216:# to machine-prove the imported local harmonic well-posedness theorem.
+/intake/package/derive_local_development.py:274:    "theorem_hypothesis_audit": THEOREM_HYPOTHESIS_AUDIT,
+/intake/package/derive_local_development.py:283:    "global_history_selected": False,
+/intake/package/verify_package.py:65:require(production["local_geometric_uniqueness"] == "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM", "conditional theorem caveat lost")
+/intake/package/verify_package.py:71:    {key: value["status"] for key, value in production["theorem_hypothesis_audit"].items()}
+/intake/package/verify_package.py:75:require(all(value["evidence"].strip() for value in production["theorem_hypothesis_audit"].values()), "empty theorem evidence")
+/intake/package/verify_package.py:82:require(not production["global_history_selected"], "global history overclaim")
+/intake/package/verify_package.py:129:require(status_rows["global history existence stability"]["status"] == "OPEN", "global history drift")
+/intake/package/AUDIT_REPORT.md:29:   pass; gauge propagation and local geometric uniqueness remain conditional on the imported
+/intake/package/AUDIT_REPORT.md:30:   smooth harmonic theorem. The executable layer no longer claims to machine-prove that theorem.
+/intake/package/AUDIT_REPORT.md:37:   spacetime, and it makes no global existence or physical-occupancy claim.
+/intake/package/AUDIT_REPORT.md:52:explicit long-time solve, full data-moduli theorem, unmarked spacetime quotient, global history,
+/intake/package/COMPLETENESS_MAP.md:10:| Domain | smooth compact boundary-free marked `T^3` local slab | boundaries, asymptotics, topology change, global completion |
+/intake/package/COMPLETENESS_MAP.md:11:| Gauge | lapse/shift and harmonic coordinate freedom explicitly quotiented | global gauge/atlas pathologies |
+/intake/package/COMPLETENESS_MAP.md:13:| Dynamics | local existence and uniqueness conditional on imported theorem | explicit long-time solve, maximal future, singularities |
+/intake/package/COMPLETENESS_MAP.md:20:complete universe is globally determined.
+/intake/package/EVIDENCE_GATES.md:15:   PDE well-posedness is an imported conditional mathematical theorem; no data, history, scale,
+/intake/package/EVIDENCE_GATES.md:20:that the imported PDE theorem is not machine-proved here.
+/intake/package/EXACT_DERIVATION.md:1:# G321 exact derivation — conditional local developments of G320 data
+/intake/package/EXACT_DERIVATION.md:133:type kept explicit rather than represented by an unconditional executable boolean:
+/intake/package/EXACT_DERIVATION.md:147:an imported conditional mathematical method; G321 does not machine-prove that theorem.
+/intake/package/EXACT_DERIVATION.md:154:This conditional theorem application is the load-bearing uniqueness step. Computing one immediate
+/intake/package/EXACT_DERIVATION.md:213:different slices. That global refoliation/realization quotient was preregistered as open.
+/intake/package/EXACT_DERIVATION.md:218:data freedom: each fixed lawful datum conditionally has one local marked development up to
+/intake/package/EXACT_DERIVATION.md:222:Still open are physical occupancy, global existence and completeness, singularities, stability,
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:8:Determine whether G321 correctly applies the already declared conditional smooth local
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:14:global history?
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:22:   momentum hypothesis used to invoke the conditional local theorem.
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:27:   harmonic existence/uniqueness/gauge-propagation theorem remains an imported conditional method.
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:30:   overclaims unmarked same-spacetime inequivalence, global existence, or physical occupancy.
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:40:an equation, initial datum, global history, topology, population, scale, source, matter/mass law,
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:42:conditional mathematical theorem with an asserted UDT derivation.
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:53:  unconditional `True` checks rather than by explicit verification
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:58:- The aggregate verifier only checks for the presence of the words `conditional` and `global` in
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:77:  imported and conditional
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:78:  (`/intake/sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md:36`,
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:85:  marked developments without overclaiming an unmarked global quotient
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:88:- G321 itself keeps the core uniqueness step conditional on the imported harmonic theorem, treats
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:90:  branches, and explicitly leaves unmarked/global classification open
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:96:correctly applies the already-imported conditional local well-posedness interface to support one
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:97:local marked metric development up to diffeomorphism, while keeping global history, physical
+/intake/package/LAY_REPORT.md:15:Inside the present bounded vacuum framework, the answer is conditionally **yes**.
+/intake/package/LAY_REPORT.md:30:regular forever, or whether apparently different slices could belong to one larger global
+/intake/package/LAY_REPORT.md:31:spacetime. The local uniqueness conclusion also remains conditional on a standard imported
+/intake/package/MAP.md:27:   larger unmarked spacetime. G321 does not classify or exclude that global possibility.
+/intake/package/MAP.md:52:- exact scope guards against global-history, occupancy, stability, or scale claims.
+/intake/package/MAP.md:56:G321 may conclude, conditionally, that each registered smooth G320 datum has one local marked
+/intake/package/MAP.md:57:development up to diffeomorphism. It may not select initial data, prove global existence or
+/intake/package/PREREGISTRATION.md:1:# G321 preregistration — conditional local development uniqueness
+/intake/package/PREREGISTRATION.md:20:The conditional imported local theorem may be applied only if all of the following pass:
+/intake/package/PREREGISTRATION.md:56:consistency check, not by itself a proof of PDE uniqueness; the latter remains conditional on the
+/intake/package/PREREGISTRATION.md:95:  marked-local uniqueness to unmarked or global history selection.
+/intake/package/PREREGISTRATION.md:99:Maximum conclusion: conditional on the already declared smooth local well-posedness import, each
+/intake/package/PREREGISTRATION.md:102:equation. No physical occupancy, complete global history, unmarked-spacetime classification,
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:20:1. the three unconditional theorem-hypothesis `True` checks are gone;
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:24:   than merely searching for the words `conditional` and `global`;
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:25:5. no text claims that G321 machine-proves the imported theorem.
+/intake/package/RUN_RECORD.md:46:toy/circular and the executable theorem audit used unconditional booleans for nonnumerical facts.
+/intake/package/RUN_RECORD.md:55:4. explicitly states that the standard PDE theorem is imported and not machine-proved by G321.
+/intake/package/CATCH_PROOF_RESULT.json:12:    "R9_marked_local_upgraded_to_unmarked_global",
+/intake/package/CATCH_PROOF_RESULT.json:56:      "expected_rejection": "conditional theorem caveat lost",
+/intake/package/CATCH_PROOF_RESULT.json:62:      "expected_rejection": "conditional theorem caveat lost",
+/intake/package/CATCH_PROOF_RESULT.json:70:      "label": "R9_marked_local_upgraded_to_unmarked_global",
+/intake/package/DERIVATION_RESULT.json:6:  "global_history_selected": false,
+/intake/package/DERIVATION_RESULT.json:18:  "theorem_hypothesis_audit": {
+/intake/package/DERIVATION_RESULT.json:44:      "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+/intake/package/INDEPENDENT_VERIFICATION.json:7:  "conditional_theorem_application_upheld": true,
+/intake/package/INDEPENDENT_VERIFICATION.json:9:  "global_or_occupancy_claim": false,
+/intake/package/PREMISE_LEDGER.tsv:7:standard harmonic local well-posedness	IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL	not a UDT law or global theorem
+/intake/package/PREMISE_LEDGER.tsv:21:global existence stability singularities	OMITTED_OPEN	local theorem only
+/intake/package/SOURCE_SCOPE.tsv:6:udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md	conditional local geometric uniqueness theorem interface
+/intake/package/SOURCE_SCOPE.tsv:7:udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md	constraints and ADM evolution presentation
+/intake/package/STATUS_LEDGER.tsv:13:global history existence stability	OPEN	local tile only
+/intake/package/STATUS_LEDGER.tsv:18:theorem hypothesis audit	REPAIRED_INTERNALLY	eight typed evidence entries; imported PDE theorem not machine-proved
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/package/CATCH_PROOF_RESULT.json" in /work
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/package/EXTERNAL_REVIEW_RESPONSE.md" in /work
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/EXTERNAL_REVIEW_TRANSMISSION.md" in /work
+ succeeded in 0ms:
+{
+  "baseline_verifier_returncode": 0,
+  "caught": [
+    "R1_wrong_Hamiltonian_sign",
+    "R2_arbitrary_Lambda_despite_H_zero",
+    "R3_omitted_momentum_constraint",
+    "R4_lapse_shift_called_physical_branches",
+    "R5_collapsed_K_sign_branches",
+    "R6_wrong_time_reversal_parity",
+    "R7_first_jet_determinism_called_PDE_proof",
+    "R8_imported_theorem_caveat_erased",
+    "R9_marked_local_upgraded_to_unmarked_global",
+    "R10_uniqueness_called_physical_occupancy",
+    "R11_raw_rank_nine_called_complete_evolution",
+    "R12_metric_or_kernel_change_smuggled"
+  ],
+  "caught_count": 12,
+  "details": [
+    {
+      "expected_rejection": "atlas Hamiltonian",
+      "expected_rejection_observed": true,
+      "label": "R1_wrong_Hamiltonian_sign",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "sector",
+      "expected_rejection_observed": true,
+      "label": "R2_arbitrary_Lambda_despite_H_zero",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "atlas momentum",
+      "expected_rejection_observed": true,
+      "label": "R3_omitted_momentum_constraint",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "gauge variables promoted to physical data",
+      "expected_rejection_observed": true,
+      "label": "R4_lapse_shift_called_physical_branches",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "K sign branches collapsed",
+      "expected_rejection_observed": true,
+      "label": "R5_collapsed_K_sign_branches",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "time reversal field",
+      "expected_rejection_observed": true,
+      "label": "R6_wrong_time_reversal_parity",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "conditional theorem caveat lost",
+      "expected_rejection_observed": true,
+      "label": "R7_first_jet_determinism_called_PDE_proof",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "conditional theorem caveat lost",
+      "expected_rejection_observed": true,
+      "label": "R8_imported_theorem_caveat_erased",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "unmarked quotient overclaim",
+      "expected_rejection_observed": true,
+      "label": "R9_marked_local_upgraded_to_unmarked_global",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "data selection overclaim",
+      "expected_rejection_observed": true,
+      "label": "R10_uniqueness_called_physical_occupancy",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "raw rank",
+      "expected_rejection_observed": true,
+      "label": "R11_raw_rank_nine_called_complete_evolution",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "metric/kernel regression",
+      "expected_rejection_observed": true,
+      "label": "R12_metric_or_kernel_change_smuggled",
+      "verifier_returncode": 1
+    }
+  ],
+  "expected_count": 12,
+  "mutation_method": "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION",
+  "schema": "udt-g321-hostile-catches-v2",
+  "status": "PASS_ALL_MUTATIONS_CAUGHT"
+}
+
+ succeeded in 0ms:
+# G321 fresh external-review transmission record
+
+Date: 2026-09-01
+
+Charles authorized transmission of the sealed 35-file intake at
+`/tmp/udt_g321_review_ca0l_7ub` for fresh read-only adversarial review.
+
+Authenticated seals:
+
+- `REVIEW_SCOPE.json`: `aeda3727b7ff5e66c5ec7a0da9363c84ec6084245006c2fec5d421cc97654202`
+- `REVIEW_MANIFEST.tsv`: `c9c50ccec969cb9911b1ce197cc129fbbbd26d51e40c32305d2617ed72789bd9`
+- detached seal: `087cfdffadcdcd328ee5fea2e66b37f05b95aaae80c61d4a2365b7305d2374c8`
+
+The external reviewer authenticated every payload and reproduced all registered outputs exactly.
+It retained the bounded scientific landing while registering two repairable evidence defects:
+hostile checks that did not mutate the actual package and an executable theorem-hypothesis audit
+that overstated what had been machine checked.
+
+Verdict: `G321_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`.
+
+ succeeded in 0ms:
+# External Adversarial Review of G321
+
+## Scope and procedure
+
+I treated this as a fresh bounded review of the sealed intake only. I authenticated
+`REVIEW_MANIFEST.sha256`, `REVIEW_MANIFEST.tsv`, `REVIEW_SCOPE.json`, and all 33 manifest payloads
+before relying on the package. The detached seal matched the manifest SHA-256 exactly, and every
+listed payload matched both its byte count and SHA-256.
+
+I then copied only `/intake/package` to a writable work directory and ran exactly the four
+registered commands from `REPLAY_COMMANDS.txt`:
+
+- `python3 -S derive_local_development.py`
+- `python3 -S verify_independent.py`
+- `python3 -S run_catch_proofs.py`
+- `python3 -S verify_package.py`
+
+All four commands passed. The five regenerated artifacts were byte-identical to the sealed
+artifacts in `/intake/package`:
+
+- `DEVELOPMENT_ATLAS.tsv`
+- `DERIVATION_RESULT.json`
+- `INDEPENDENT_VERIFICATION.json`
+- `CATCH_PROOF_RESULT.json`
+- `PACKAGE_VERIFICATION_RESULT.json`
+
+## Main findings
+
+### 1. The hostile-mutation evidence is materially overstated because most checks are vacuous or circular.
+
+The package presents `run_catch_proofs.py` as evidence that 12 registered mutations are rejected,
+but the implementation does not mutate the actual derivation, replay outputs, or report text in a
+substantive way.
+
+- `R1` through `R6` are toy tautology checks on hand-written numbers and tuples, not attacks on the
+  package computations or claims (`/intake/package/run_catch_proofs.py:18`, `:23`, `:27`, `:31`,
+  `:43`, `:48`).
+- `R7` through `R12` are circular: they read `DERIVATION_RESULT.json` and confirm that the file
+  already contains the desired booleans or strings, rather than independently probing whether the
+  derivation, scripts, or narrative would fail under those mutations
+  (`/intake/package/run_catch_proofs.py:54`, `:58`, `:65`, `:71`, `:78`, `:84`, `:90`).
+
+This does not refute the G321 landing, but it does mean the claimed hostile-check support is weaker
+than advertised. The repair is straightforward: mutate actual result fields, derivation text, or
+implementation paths and assert that the verifier fails for the mutated package.
+
+### 2. The executable theorem-hypothesis audit is weaker than the narrative claim.
+
+The report states that every exposed hypothesis of the imported local theorem passes, but the
+executable checks do not fully substantiate that claim.
+
+- In `derive_local_development.py`, several nonnumerical theorem hypotheses are marked as passing by
+  unconditional `True` checks rather than by explicit verification
+  (`/intake/package/derive_local_development.py:179`-`:182`).
+- The same script then records
+  `registered_controls_meet_smooth_local_theorem_hypotheses: True` in the result JSON
+  (`/intake/package/derive_local_development.py:232`-`:248`).
+- The aggregate verifier only checks for the presence of the words `conditional` and `global` in
+  three markdown files, which is not a meaningful semantic audit of theorem scope or caveats
+  (`/intake/package/verify_package.py:78`-`:81`).
+
+Again, this is repairable rather than fatal, because the mathematical source chain itself does most
+of the real work. But the package should not present the current executable layer as a complete
+machine-checked audit of theorem applicability.
+
+## Scientific assessment
+
+Despite those support-evidence defects, the bounded scientific landing itself remains intact.
+
+- G303 explicitly derives `S_ab=0 => Ric_ab = Lambda g_ab` with `dLambda=0`, derives the spacelike
+  constraints `H=2 Lambda`, `M=0`, and distinguishes the raw rank-nine trace-free symbol from the
+  Bianchi-completed fixed-sector rank-ten metric-wave system
+  (`/intake/sources/udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/EXACT_DERIVATION.md:36`,
+  `:75`, `:117`).
+- G315 gives the required spacelike data interface, treats lapse/shift as gauge, writes the ADM
+  evolution system with the `-Lambda gamma_ij` term, and keeps local well-posedness explicitly
+  imported and conditional
+  (`/intake/sources/udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md:36`,
+  `:91`, `:111`, `:117`).
+- G319 supplies the regular `B != 0` reconstruction and shows that the registered family gives
+  smooth lawful constraint data in the bounded slice
+  (`/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:120`,
+  `:165`, `:217`).
+- G320 supplies the intrinsic invariant `Q_R` and the `n^2` mode separation needed to distinguish
+  marked developments without overclaiming an unmarked global quotient
+  (`/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md:35`,
+  `:76`, `:115`, `:122`).
+- G321 itself keeps the core uniqueness step conditional on the imported harmonic theorem, treats
+  the unit-lapse zero-shift calculation only as an interface check, distinguishes time-reversed sign
+  branches, and explicitly leaves unmarked/global classification open
+  (`/intake/package/EXACT_DERIVATION.md:121`, `:138`, `:141`, `:162`, `:196`, `:201`).
+
+On that record, I do not find a scientific refutation of the bounded claim:
+
+For each fixed complete G320 datum in the declared smooth marked `T^3` slice, the package
+correctly applies the already-imported conditional local well-posedness interface to support one
+local marked metric development up to diffeomorphism, while keeping global history, physical
+occupancy, and unmarked same-spacetime classification outside scope.
+
+## Verdict
+
+The package should not receive the cleanest acceptance grade because its hostile-mutation and
+executable theorem-audit layers overstate how much has been independently stress-tested. But those
+defects are repairable and do not presently overturn the bounded mathematical landing.
+
+G321_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/package/PACKAGE_VERIFICATION_RESULT.json" in /work
+ succeeded in 0ms:
+{
+  "atlas_rows": 8,
+  "hostile_catches": 12,
+  "independent_assertions": 7,
+  "landing": "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION",
+  "production_assertions": 163894,
+  "required_files": 29,
+  "schema": "udt-g321-package-verification-v1",
+  "status": "PASS_REPAIRS_INTERNALLY_VERIFIED_PENDING_REPAIR_ONLY_FOLLOWUP"
+}
+
+codex
+I’ve finished the sealed-read review. Next I’m making the required writable copy in `/work/package`, then I’ll execute the four registered replay commands there and compare the regenerated artifacts to the sealed package.
+exec
+/bin/bash -lc "if [ -e /work/package ]; then printf 'exists\\n'; else printf 'missing\\n'; fi" in /work
+ succeeded in 0ms:
+missing
+
+exec
+/bin/bash -lc 'cp -a /intake/package /work/package' in /work
+ succeeded in 0ms:
+  ✓ Authenticate the intake manifest chain and every listed payload
+  ✓ Read the repair-specific code and evidence files for R1 and R2 within /intake
+  → Copy only /intake/package to /work/package and run the four registered replay commands there
+  • Assess bounded landing unchanged, write /return/EXTERNAL_REVIEW_RESPONSE.md, and return the required verdict
+exec
+/bin/bash -lc 'python3 -S derive_local_development.py' in /work/package
+ succeeded in 187ms:
+{
+  "assertion_count": 163894,
+  "constraint_sector": "Lambda=0",
+  "different_modes_distinct_as_marked_developments": true,
+  "fixed_lambda_principal_rank": 10,
+  "global_history_selected": false,
+  "initial_adm_rhs_single_valued_after_gauge_fix": true,
+  "landing": "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION",
+  "lapse_shift_are_physical_data": false,
+  "local_geometric_uniqueness": "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM",
+  "metric_or_kernel_changed": false,
+  "opposite_signs_are_distinct_full_data": true,
+  "opposite_signs_are_time_reversed_data": true,
+  "physical_initial_data_selected": false,
+  "raw_tracefree_principal_rank": 9,
+  "schema": "udt-g321-local-development-uniqueness-v1",
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+  "theorem_hypothesis_audit": {
+    "H1_initial_manifold": {
+      "evidence": "T3 is fixed in the preregistration; this is an analytic domain declaration, not a numerical test",
+      "status": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3"
+    },
+    "H2_gamma_regular": {
+      "evidence": "psi=3/2+(1/5)cos(nx) is analytic and psi>=13/10, hence gamma=psi^4 delta is smooth positive definite",
+      "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY"
+    },
+    "H3_K_regular": {
+      "evidence": "the exact positive margin keeps Z and B nonzero; the reconstructed diagonal K is analytic and symmetric",
+      "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH"
+    },
+    "H4_constraints": {
+      "evidence": "Hamiltonian and all momentum components vanish analytically; production and independent residuals are numerical backward-error checks",
+      "status": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS"
+    },
+    "H5_connected_scalar_sector": {
+      "evidence": "H=2 Lambda and H=0 fix Lambda=0 on the connected registered slice",
+      "status": "DERIVED_FROM_HAMILTONIAN_VALUE"
+    },
+    "H6_full_principal_operator": {
+      "evidence": "raw trace-free projector rank is nine and the Bianchi-completed fixed-Lambda metric-wave principal operator rank is ten",
+      "status": "EXACT_LINEAR_ALGEBRA_AUDIT"
+    },
+    "H7_gauge_constraint_propagation": {
+      "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+      "status": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED"
+    },
+    "H8_gauge_quotient": {
+      "evidence": "lapse, shift, and harmonic-coordinate data are presentation choices under the declared standard theorem, not newly derived UDT physics",
+      "status": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE"
+    }
+  },
+  "theorem_interface_status": "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL",
+  "unmarked_same_spacetime_different_slice_classified": false
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py' in /work/package
+ succeeded in 1753ms:
+{
+  "assertion_count": 7,
+  "branches_checked": [
+    -1,
+    1
+  ],
+  "conditional_theorem_application_upheld": true,
+  "connection_ricci_index_loop": true,
+  "global_or_occupancy_claim": false,
+  "max_hamiltonian_residual": 2.6645352591003757e-15,
+  "max_momentum_residual": 1.7208456881689926e-15,
+  "max_ricci_formula_error": 1.3322676295501878e-15,
+  "max_time_reversal_error": 0.0,
+  "modes_checked": [
+    1,
+    3,
+    5
+  ],
+  "production_imported": false,
+  "production_output_read": false,
+  "schema": "udt-g321-independent-local-development-v1",
+  "status": "PASS_INDEPENDENT"
+}
+
+codex
+The production replay has regenerated the main derivation output cleanly. I’m finishing the independent and hostile replay passes now, then I’ll compare the regenerated artifacts against the sealed hashes before writing the review.
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py' in /work/package
+ succeeded in 204ms:
+{
+  "baseline_verifier_returncode": 0,
+  "caught": [
+    "R1_wrong_Hamiltonian_sign",
+    "R2_arbitrary_Lambda_despite_H_zero",
+    "R3_omitted_momentum_constraint",
+    "R4_lapse_shift_called_physical_branches",
+    "R5_collapsed_K_sign_branches",
+    "R6_wrong_time_reversal_parity",
+    "R7_first_jet_determinism_called_PDE_proof",
+    "R8_imported_theorem_caveat_erased",
+    "R9_marked_local_upgraded_to_unmarked_global",
+    "R10_uniqueness_called_physical_occupancy",
+    "R11_raw_rank_nine_called_complete_evolution",
+    "R12_metric_or_kernel_change_smuggled"
+  ],
+  "caught_count": 12,
+  "details": [
+    {
+      "expected_rejection": "atlas Hamiltonian",
+      "expected_rejection_observed": true,
+      "label": "R1_wrong_Hamiltonian_sign",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "sector",
+      "expected_rejection_observed": true,
+      "label": "R2_arbitrary_Lambda_despite_H_zero",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "atlas momentum",
+      "expected_rejection_observed": true,
+      "label": "R3_omitted_momentum_constraint",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "gauge variables promoted to physical data",
+      "expected_rejection_observed": true,
+      "label": "R4_lapse_shift_called_physical_branches",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "K sign branches collapsed",
+      "expected_rejection_observed": true,
+      "label": "R5_collapsed_K_sign_branches",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "time reversal field",
+      "expected_rejection_observed": true,
+      "label": "R6_wrong_time_reversal_parity",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "conditional theorem caveat lost",
+      "expected_rejection_observed": true,
+      "label": "R7_first_jet_determinism_called_PDE_proof",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "conditional theorem caveat lost",
+      "expected_rejection_observed": true,
+      "label": "R8_imported_theorem_caveat_erased",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "unmarked quotient overclaim",
+      "expected_rejection_observed": true,
+      "label": "R9_marked_local_upgraded_to_unmarked_global",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "data selection overclaim",
+      "expected_rejection_observed": true,
+      "label": "R10_uniqueness_called_physical_occupancy",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "raw rank",
+      "expected_rejection_observed": true,
+      "label": "R11_raw_rank_nine_called_complete_evolution",
+      "verifier_returncode": 1
+    },
+    {
+      "expected_rejection": "metric/kernel regression",
+      "expected_rejection_observed": true,
+      "label": "R12_metric_or_kernel_change_smuggled",
+      "verifier_returncode": 1
+    }
+  ],
+  "expected_count": 12,
+  "mutation_method": "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION",
+  "schema": "udt-g321-hostile-catches-v2",
+  "status": "PASS_ALL_MUTATIONS_CAUGHT"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/package
+ succeeded in 0ms:
+{
+  "atlas_rows": 8,
+  "hostile_catches": 12,
+  "independent_assertions": 7,
+  "landing": "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION",
+  "production_assertions": 163894,
+  "required_files": 29,
+  "schema": "udt-g321-package-verification-v1",
+  "status": "PASS_REPAIRS_INTERNALLY_VERIFIED_PENDING_REPAIR_ONLY_FOLLOWUP"
+}
+
+codex
+All four registered replay commands passed in `/work/package`. I’m doing the final comparison and pulling exact file references for the report, then I’ll write the verdicted response into `/return`.
+exec
+/bin/bash -lc "nl -ba /intake/package/run_catch_proofs.py | sed -n '1,220p'" in /work
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Hostile G321 checks by mutating real package artifacts in ephemeral copies."""
+     3	
+     4	import csv
+     5	import json
+     6	from pathlib import Path
+     7	import shutil
+     8	import subprocess
+     9	import sys
+    10	import tempfile
+    11	
+    12	
+    13	HERE = Path(__file__).resolve().parent
+    14	CAUGHT = []
+    15	DETAILS = []
+    16	
+    17	
+    18	def mutate_result(package, **changes):
+    19	    path = package / "DERIVATION_RESULT.json"
+    20	    data = json.loads(path.read_text(encoding="utf-8"))
+    21	    data.update(changes)
+    22	    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    23	
+    24	
+    25	def mutate_atlas(package, field, value):
+    26	    path = package / "DEVELOPMENT_ATLAS.tsv"
+    27	    with path.open(encoding="utf-8", newline="") as handle:
+    28	        rows = list(csv.DictReader(handle, delimiter="\t"))
+    29	    rows[0][field] = str(value)
+    30	    with path.open("w", encoding="utf-8", newline="") as handle:
+    31	        writer = csv.DictWriter(handle, fieldnames=tuple(rows[0]), delimiter="\t", lineterminator="\n")
+    32	        writer.writeheader()
+    33	        writer.writerows(rows)
+    34	
+    35	
+    36	def run_verifier(package):
+    37	    return subprocess.run(
+    38	        [sys.executable, "-S", "verify_package.py"],
+    39	        cwd=package,
+    40	        text=True,
+    41	        capture_output=True,
+    42	        check=False,
+    43	    )
+    44	
+    45	
+    46	def run_mutation(label, mutator, expected_message):
+    47	    with tempfile.TemporaryDirectory(prefix="udt_g321_hostile_") as temp:
+    48	        package = Path(temp) / "package"
+    49	        shutil.copytree(HERE, package, ignore=shutil.ignore_patterns("__pycache__"))
+    50	        (package / ".g321_mutation_probe").write_text("ephemeral hostile probe\n", encoding="utf-8")
+    51	        mutator(package)
+    52	        completed = run_verifier(package)
+    53	        combined = completed.stdout + completed.stderr
+    54	        rejected = completed.returncode != 0 and expected_message in combined
+    55	        if not rejected:
+    56	            raise AssertionError(
+    57	                f"mutation survived or failed for wrong reason: {label}; "
+    58	                f"returncode={completed.returncode}; expected={expected_message!r}; output={combined[-800:]!r}"
+    59	            )
+    60	        CAUGHT.append(label)
+    61	        DETAILS.append({
+    62	            "label": label,
+    63	            "verifier_returncode": completed.returncode,
+    64	            "expected_rejection": expected_message,
+    65	            "expected_rejection_observed": True,
+    66	        })
+    67	
+    68	
+    69	# Prove the unmutated real package copy passes the same verifier route before any attack.
+    70	with tempfile.TemporaryDirectory(prefix="udt_g321_hostile_baseline_") as temp:
+    71	    baseline = Path(temp) / "package"
+    72	    shutil.copytree(HERE, baseline, ignore=shutil.ignore_patterns("__pycache__"))
+    73	    (baseline / ".g321_mutation_probe").write_text("ephemeral hostile probe\n", encoding="utf-8")
+    74	    baseline_run = run_verifier(baseline)
+    75	    if baseline_run.returncode != 0:
+    76	        raise AssertionError(f"unmutated baseline failed: {(baseline_run.stdout + baseline_run.stderr)[-1200:]}")
+    77	
+    78	
+    79	run_mutation(
+    80	    "R1_wrong_Hamiltonian_sign",
+    81	    lambda package: mutate_atlas(package, "max_hamiltonian", 1.0),
+    82	    "atlas Hamiltonian",
+    83	)
+    84	run_mutation(
+    85	    "R2_arbitrary_Lambda_despite_H_zero",
+    86	    lambda package: mutate_result(package, constraint_sector="Lambda=1"),
+    87	    "sector",
+    88	)
+    89	run_mutation(
+    90	    "R3_omitted_momentum_constraint",
+    91	    lambda package: mutate_atlas(package, "max_momentum", 0.25),
+    92	    "atlas momentum",
+    93	)
+    94	run_mutation(
+    95	    "R4_lapse_shift_called_physical_branches",
+    96	    lambda package: mutate_result(package, lapse_shift_are_physical_data=True),
+    97	    "gauge variables promoted to physical data",
+    98	)
+    99	run_mutation(
+   100	    "R5_collapsed_K_sign_branches",
+   101	    lambda package: mutate_result(package, opposite_signs_are_distinct_full_data=False),
+   102	    "K sign branches collapsed",
+   103	)
+   104	run_mutation(
+   105	    "R6_wrong_time_reversal_parity",
+   106	    lambda package: mutate_result(package, opposite_signs_are_time_reversed_data=False),
+   107	    "time reversal field",
+   108	)
+   109	run_mutation(
+   110	    "R7_first_jet_determinism_called_PDE_proof",
+   111	    lambda package: mutate_result(package, local_geometric_uniqueness="DERIVED_FROM_INITIAL_ADM_RHS"),
+   112	    "conditional theorem caveat lost",
+   113	)
+   114	run_mutation(
+   115	    "R8_imported_theorem_caveat_erased",
+   116	    lambda package: mutate_result(package, local_geometric_uniqueness="UNCONDITIONAL"),
+   117	    "conditional theorem caveat lost",
+   118	)
+   119	run_mutation(
+   120	    "R9_marked_local_upgraded_to_unmarked_global",
+   121	    lambda package: mutate_result(package, unmarked_same_spacetime_different_slice_classified=True),
+   122	    "unmarked quotient overclaim",
+   123	)
+   124	run_mutation(
+   125	    "R10_uniqueness_called_physical_occupancy",
+   126	    lambda package: mutate_result(package, physical_initial_data_selected=True, global_history_selected=True),
+   127	    "data selection overclaim",
+   128	)
+   129	run_mutation(
+   130	    "R11_raw_rank_nine_called_complete_evolution",
+   131	    lambda package: mutate_result(package, raw_tracefree_principal_rank=10, fixed_lambda_principal_rank=9),
+   132	    "raw rank",
+   133	)
+   134	run_mutation(
+   135	    "R12_metric_or_kernel_change_smuggled",
+   136	    lambda package: mutate_result(package, metric_or_kernel_changed=True),
+   137	    "metric/kernel regression",
+   138	)
+   139	
+   140	
+   141	output = {
+   142	    "schema": "udt-g321-hostile-catches-v2",
+   143	    "status": "PASS_ALL_MUTATIONS_CAUGHT",
+   144	    "mutation_method": "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION",
+   145	    "baseline_verifier_returncode": baseline_run.returncode,
+   146	    "caught_count": len(CAUGHT),
+   147	    "expected_count": 12,
+   148	    "caught": CAUGHT,
+   149	    "details": DETAILS,
+   150	}
+   151	with (HERE / "CATCH_PROOF_RESULT.json").open("w", encoding="utf-8") as handle:
+   152	    json.dump(output, handle, indent=2, sort_keys=True)
+   153	    handle.write("\n")
+   154	print(json.dumps(output, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "nl -ba /intake/package/derive_local_development.py | sed -n '1,320p'" in /work
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""G321 production: audit local-development hypotheses for G320 data."""
+     3	
+     4	import csv
+     5	from fractions import Fraction
+     6	import json
+     7	import math
+     8	from pathlib import Path
+     9	
+    10	
+    11	HERE = Path(__file__).resolve().parent
+    12	CHECKS = []
+    13	P = Fraction(3, 2)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+    14	AMPLITUDE = Fraction(1, 5)  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+    15	J0 = 100.0  # CHOSE_CATEGORY_A_DIAGNOSTIC_CONTROL
+    16	MODES = (1, 2, 3, 4)  # FREE_AND_EXPLORED_FINITE_REPLAY
+    17	SIGNS = (-1, 1)  # FREE_AND_EXPLORED_BRANCHES
+    18	SAMPLES = 4096  # CATEGORY_A_NUMERICAL_QUADRATURE
+    19	TWO_PI = 2.0 * math.pi
+    20	
+    21	LANDING = (
+    22	    "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__"
+    23	    "REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__"
+    24	    "NO_GLOBAL_OR_OCCUPANCY_SELECTION"
+    25	)
+    26	
+    27	THEOREM_HYPOTHESIS_AUDIT = {
+    28	    "H1_initial_manifold": {
+    29	        "status": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3",
+    30	        "evidence": "T3 is fixed in the preregistration; this is an analytic domain declaration, not a numerical test",
+    31	    },
+    32	    "H2_gamma_regular": {
+    33	        "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY",
+    34	        "evidence": "psi=3/2+(1/5)cos(nx) is analytic and psi>=13/10, hence gamma=psi^4 delta is smooth positive definite",
+    35	    },
+    36	    "H3_K_regular": {
+    37	        "status": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH",
+    38	        "evidence": "the exact positive margin keeps Z and B nonzero; the reconstructed diagonal K is analytic and symmetric",
+    39	    },
+    40	    "H4_constraints": {
+    41	        "status": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS",
+    42	        "evidence": "Hamiltonian and all momentum components vanish analytically; production and independent residuals are numerical backward-error checks",
+    43	    },
+    44	    "H5_connected_scalar_sector": {
+    45	        "status": "DERIVED_FROM_HAMILTONIAN_VALUE",
+    46	        "evidence": "H=2 Lambda and H=0 fix Lambda=0 on the connected registered slice",
+    47	    },
+    48	    "H6_full_principal_operator": {
+    49	        "status": "EXACT_LINEAR_ALGEBRA_AUDIT",
+    50	        "evidence": "raw trace-free projector rank is nine and the Bianchi-completed fixed-Lambda metric-wave principal operator rank is ten",
+    51	    },
+    52	    "H7_gauge_constraint_propagation": {
+    53	        "status": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED",
+    54	        "evidence": "fixed Lambda leaves the standard harmonic gauge-constraint propagation system homogeneous; G321 does not machine-prove the PDE theorem",
+    55	    },
+    56	    "H8_gauge_quotient": {
+    57	        "status": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE",
+    58	        "evidence": "lapse, shift, and harmonic-coordinate data are presentation choices under the declared standard theorem, not newly derived UDT physics",
+    59	    },
+    60	}
+    61	
+    62	
+    63	def check(label, condition):
+    64	    if not condition:
+    65	        raise AssertionError(label)
+    66	    CHECKS.append(label)
+    67	
+    68	
+    69	def matrix_rank(matrix):
+    70	    work = [[Fraction(value) for value in row] for row in matrix]
+    71	    rows = len(work)
+    72	    cols = len(work[0])
+    73	    rank = 0
+    74	    for col in range(cols):
+    75	        pivot = next((row for row in range(rank, rows) if work[row][col]), None)
+    76	        if pivot is None:
+    77	            continue
+    78	        work[rank], work[pivot] = work[pivot], work[rank]
+    79	        scale = work[rank][col]
+    80	        work[rank] = [value / scale for value in work[rank]]
+    81	        for row in range(rows):
+    82	            if row != rank and work[row][col]:
+    83	                factor = work[row][col]
+    84	                work[row] = [a - factor * b for a, b in zip(work[row], work[rank])]
+    85	        rank += 1
+    86	    return rank
+    87	
+    88	
+    89	def tracefree_projector():
+    90	    pairs = [(a, b) for a in range(4) for b in range(a, 4)]
+    91	    metric = (-1, 1, 1, 1)
+    92	    columns = []
+    93	    for c, d in pairs:
+    94	        tensor = [[Fraction(0) for _ in range(4)] for _ in range(4)]
+    95	        tensor[c][d] = tensor[d][c] = Fraction(1)
+    96	        trace = sum(Fraction(metric[a]) * tensor[a][a] for a in range(4))
+    97	        output = [[tensor[a][b] for b in range(4)] for a in range(4)]
+    98	        for a in range(4):
+    99	            output[a][a] -= Fraction(1, 4) * trace * metric[a]
+   100	        columns.append([output[a][b] for a, b in pairs])
+   101	    return [[columns[col][row] for col in range(10)] for row in range(10)]
+   102	
+   103	
+   104	def profile_jet(x_value, mode, p=float(P), amplitude=float(AMPLITUDE)):
+   105	    angle = mode * x_value
+   106	    return (
+   107	        p + amplitude * math.cos(angle),
+   108	        -amplitude * mode * math.sin(angle),
+   109	        -amplitude * mode * mode * math.cos(angle),
+   110	        amplitude * mode ** 3 * math.sin(angle),
+   111	    )
+   112	
+   113	
+   114	def reconstruct(psi, psi_1, psi_2, psi_3, sign):
+   115	    f_value = 12.0 * psi_2 * psi ** -5
+   116	    f_prime = 12.0 * (psi_3 * psi ** -5 - 5.0 * psi_2 * psi ** -6 * psi_1)
+   117	    z_value = 36.0 * psi_1 ** 2 + J0
+   118	    z_prime = 72.0 * psi_1 * psi_2
+   119	    b_value = sign * psi ** -3 * math.sqrt(z_value)
+   120	    b_prime = b_value * (-3.0 * psi_1 / psi + z_prime / (2.0 * z_value))
+   121	    a_value = f_value / b_value
+   122	    a_prime = f_prime / b_value - f_value * b_prime / b_value ** 2
+   123	    tau = 0.5 * (a_value + b_value)
+   124	    anisotropy = 0.5 * (a_value - b_value)
+   125	    tau_prime = 0.5 * (a_prime + b_prime)
+   126	    anisotropy_prime = 0.5 * (a_prime - b_prime)
+   127	    mixed_k = (
+   128	        (tau + 2.0 * anisotropy) / 3.0,
+   129	        (tau - anisotropy) / 3.0,
+   130	        (tau - anisotropy) / 3.0,
+   131	    )
+   132	    mixed_k_prime = (
+   133	        (tau_prime + 2.0 * anisotropy_prime) / 3.0,
+   134	        (tau_prime - anisotropy_prime) / 3.0,
+   135	        (tau_prime - anisotropy_prime) / 3.0,
+   136	    )
+   137	
+   138	    u_1 = psi_1 / psi
+   139	    ricci_cov = (
+   140	        -4.0 * psi_2 / psi + 4.0 * u_1 ** 2,
+   141	        -2.0 * psi_2 / psi - 2.0 * u_1 ** 2,
+   142	        -2.0 * psi_2 / psi - 2.0 * u_1 ** 2,
+   143	    )
+   144	    gamma_factor = psi ** 4
+   145	    scalar_3 = math.fsum(ricci_cov) / gamma_factor
+   146	    k_squared = math.fsum(value * value for value in mixed_k)
+   147	    hamiltonian = scalar_3 + tau ** 2 - k_squared
+   148	    momentum_x = (
+   149	        mixed_k_prime[0] - tau_prime + 6.0 * u_1 * mixed_k[0]
+   150	        - 2.0 * u_1 * tau
+   151	    )
+   152	    k_cov = tuple(gamma_factor * value for value in mixed_k)
+   153	    gamma_dot = tuple(-2.0 * value for value in k_cov)
+   154	    k_dot = tuple(
+   155	        ricci_cov[index] + tau * k_cov[index]
+   156	        - 2.0 * gamma_factor * mixed_k[index] ** 2
+   157	        for index in range(3)
+   158	    )
+   159	    return {
+   160	        "psi": psi,
+   161	        "z": z_value,
+   162	        "gamma": (gamma_factor,) * 3,
+   163	        "K": k_cov,
+   164	        "tau": tau,
+   165	        "R3": scalar_3,
+   166	        "hamiltonian": hamiltonian,
+   167	        "momentum": (momentum_x, 0.0, 0.0),
+   168	        "gamma_dot": gamma_dot,
+   169	        "K_dot": k_dot,
+   170	    }
+   171	
+   172	
+   173	def mean(values):
+   174	    return math.fsum(values) / len(values)
+   175	
+   176	
+   177	def summarize(mode, sign):
+   178	    rows = []
+   179	    for index in range(SAMPLES):
+   180	        x_value = TWO_PI * index / SAMPLES
+   181	        rows.append(reconstruct(*profile_jet(x_value, mode), sign))
+   182	    volume = TWO_PI ** 3 * mean([row["psi"] ** 6 for row in rows])
+   183	    total_scalar = TWO_PI ** 3 * mean(
+   184	        [row["psi"] ** 6 * row["R3"] for row in rows]
+   185	    )
+   186	    return {
+   187	        "mode": mode,
+   188	        "sign": sign,
+   189	        "min_psi": min(row["psi"] for row in rows),
+   190	        "min_z": min(row["z"] for row in rows),
+   191	        "max_hamiltonian": max(abs(row["hamiltonian"]) for row in rows),
+   192	        "max_momentum": max(abs(value) for row in rows for value in row["momentum"]),
+   193	        "max_lambda_inferred": max(abs(0.5 * row["hamiltonian"]) for row in rows),
+   194	        "volume": volume,
+   195	        "Q_R": total_scalar / volume ** (1.0 / 3.0),
+   196	        "mean_gamma_dot_norm2": mean([
+   197	            math.fsum(value * value for value in row["gamma_dot"]) for row in rows
+   198	        ]),
+   199	        "mean_K_dot_norm2": mean([
+   200	            math.fsum(value * value for value in row["K_dot"]) for row in rows
+   201	        ]),
+   202	        "rows": rows,
+   203	    }
+   204	
+   205	
+   206	# Exact principal-rank audit: raw trace-free output is nine-dimensional, while each
+   207	# Bianchi-completed fixed-Lambda harmonic system has ten metric-wave directions.
+   208	raw_projector = tracefree_projector()
+   209	raw_rank = matrix_rank(raw_projector)
+   210	fixed_sector_rank = matrix_rank([[int(i == j) for j in range(10)] for i in range(10)])
+   211	check("raw tracefree rank nine", raw_rank == 9)
+   212	check("fixed sector principal rank ten", fixed_sector_rank == 10)
+   213	
+   214	# Nonnumerical theorem hypotheses are typed explicitly in THEOREM_HYPOTHESIS_AUDIT.
+   215	# They are not counted as executable assertions.  In particular, G321 does not pretend
+   216	# to machine-prove the imported local harmonic well-posedness theorem.
+   217	
+   218	summaries = {}
+   219	atlas = []
+   220	for mode in MODES:
+   221	    margin = Fraction(100) - 12 * AMPLITUDE * mode ** 2 * (P + AMPLITUDE)
+   222	    check(f"exact regular margin mode={mode}", margin > 0)
+   223	    for sign in SIGNS:
+   224	        summary = summarize(mode, sign)
+   225	        summaries[(mode, sign)] = summary
+   226	        check(f"positive metric mode={mode} sign={sign}", summary["min_psi"] > 0)
+   227	        check(f"regular branch mode={mode} sign={sign}", summary["min_z"] > 0)
+   228	        check(f"Hamiltonian mode={mode} sign={sign}", summary["max_hamiltonian"] < 3e-12)
+   229	        check(f"momentum mode={mode} sign={sign}", summary["max_momentum"] < 3e-12)
+   230	        check(f"Lambda zero mode={mode} sign={sign}", summary["max_lambda_inferred"] < 2e-12)
+   231	        atlas.append({key: value for key, value in summary.items() if key != "rows"})
+   232	
+   233	base_q = summaries[(1, 1)]["Q_R"]
+   234	for mode in MODES:
+   235	    for sign in SIGNS:
+   236	        ratio = summaries[(mode, sign)]["Q_R"] / base_q
+   237	        check(f"marked Q_R separator mode={mode} sign={sign}", abs(ratio - mode ** 2) < 3e-12)
+   238	
+   239	# K-sign branches are exact time reverses in unit lapse and zero shift.
+   240	for mode in MODES:
+   241	    negative = summaries[(mode, -1)]["rows"]
+   242	    positive = summaries[(mode, 1)]["rows"]
+   243	    for index, (minus, plus) in enumerate(zip(negative, positive)):
+   244	        check(f"same gamma mode={mode} point={index}", minus["gamma"] == plus["gamma"])
+   245	        for axis in range(3):
+   246	            tolerance = 2e-13 * max(1.0, abs(plus["K"][axis]))
+   247	            check(
+   248	                f"K time reverse mode={mode} point={index} axis={axis}",
+   249	                abs(minus["K"][axis] + plus["K"][axis]) < tolerance,
+   250	            )
+   251	            check(
+   252	                f"gamma dot time reverse mode={mode} point={index} axis={axis}",
+   253	                abs(minus["gamma_dot"][axis] + plus["gamma_dot"][axis]) < 2 * tolerance,
+   254	            )
+   255	            tolerance_dot = 3e-12 * max(1.0, abs(plus["K_dot"][axis]))
+   256	            check(
+   257	                f"K dot time-even mode={mode} point={index} axis={axis}",
+   258	                abs(minus["K_dot"][axis] - plus["K_dot"][axis]) < tolerance_dot,
+   259	            )
+   260	
+   261	with (HERE / "DEVELOPMENT_ATLAS.tsv").open("w", encoding="utf-8", newline="") as handle:
+   262	    writer = csv.DictWriter(handle, fieldnames=tuple(atlas[0]), delimiter="\t", lineterminator="\n")
+   263	    writer.writeheader()
+   264	    writer.writerows(atlas)
+   265	
+   266	result = {
+   267	    "schema": "udt-g321-local-development-uniqueness-v1",
+   268	    "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+   269	    "landing": LANDING,
+   270	    "assertion_count": len(CHECKS),
+   271	    "raw_tracefree_principal_rank": raw_rank,
+   272	    "fixed_lambda_principal_rank": fixed_sector_rank,
+   273	    "constraint_sector": "Lambda=0",
+   274	    "theorem_hypothesis_audit": THEOREM_HYPOTHESIS_AUDIT,
+   275	    "theorem_interface_status": "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL",
+   276	    "initial_adm_rhs_single_valued_after_gauge_fix": True,
+   277	    "lapse_shift_are_physical_data": False,
+   278	    "local_geometric_uniqueness": "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM",
+   279	    "different_modes_distinct_as_marked_developments": True,
+   280	    "opposite_signs_are_distinct_full_data": True,
+   281	    "opposite_signs_are_time_reversed_data": True,
+   282	    "unmarked_same_spacetime_different_slice_classified": False,
+   283	    "global_history_selected": False,
+   284	    "physical_initial_data_selected": False,
+   285	    "metric_or_kernel_changed": False,
+   286	}
+   287	with (HERE / "DERIVATION_RESULT.json").open("w", encoding="utf-8") as handle:
+   288	    json.dump(result, handle, indent=2, sort_keys=True)
+   289	    handle.write("\n")
+   290	
+   291	print(json.dumps(result, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_package.py | sed -n '1,220p'" in /work
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Aggregate G321 package verification."""
+     3	
+     4	import ast
+     5	import csv
+     6	import json
+     7	from pathlib import Path
+     8	
+     9	
+    10	HERE = Path(__file__).resolve().parent
+    11	LANDING = (
+    12	    "G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__"
+    13	    "REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__"
+    14	    "NO_GLOBAL_OR_OCCUPANCY_SELECTION"
+    15	)
+    16	THEOREM_STAMP = (
+    17	    "LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_"
+    18	    "HARMONIC_WELLPOSEDNESS_THEOREM"
+    19	)
+    20	SCOPE_STAMP = (
+    21	    "NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_"
+    22	    "SPACETIME_CLASSIFICATION"
+    23	)
+    24	EXPECTED_HYPOTHESIS_STATUSES = {
+    25	    "H1_initial_manifold": "DECLARED_DIAGNOSTIC_DOMAIN__STANDARD_SMOOTH_COMPACT_BOUNDARY_FREE_T3",
+    26	    "H2_gamma_regular": "ANALYTICALLY_VERIFIED_ON_REGISTERED_FAMILY",
+    27	    "H3_K_regular": "ANALYTICALLY_VERIFIED_ON_REGISTERED_REGULAR_BRANCH",
+    28	    "H4_constraints": "ANALYTIC_IDENTITY_WITH_TWO_NUMERICAL_REPLAYS",
+    29	    "H5_connected_scalar_sector": "DERIVED_FROM_HAMILTONIAN_VALUE",
+    30	    "H6_full_principal_operator": "EXACT_LINEAR_ALGEBRA_AUDIT",
+    31	    "H7_gauge_constraint_propagation": "FORMAL_BIANCHI_CONSEQUENCE__THEOREM_APPLICATION_REMAINS_IMPORTED",
+    32	    "H8_gauge_quotient": "IMPORTED_STANDARD_GEOMETRIC_CAUCHY_INTERFACE",
+    33	}
+    34	REQUIRED = (
+    35	    "MAP.md", "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "PREREGISTRATION.md",
+    36	    "PREREGISTRATION_ANCESTRY.md", "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt",
+    37	    "EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv",
+    38	    "EVIDENCE_GATES.md", "RUN_RECORD.md", "DEVELOPMENT_ATLAS.tsv",
+    39	    "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json",
+    40	    "derive_local_development.py", "verify_independent.py", "run_catch_proofs.py",
+    41	    "verify_package.py", "build_review_intake.py", "EXTERNAL_REVIEW_REQUEST.md",
+    42	    "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_CLI_FINAL.md",
+    43	    "EXTERNAL_REVIEW_TRANSCRIPT.txt", "EXTERNAL_REVIEW_TRANSMISSION.md",
+    44	    "REPAIR_FOLLOWUP_REQUEST.md", "build_repair_followup_intake.py",
+    45	)
+    46	ALLOWED_IMPORTS = {
+    47	    "ast", "csv", "fractions", "hashlib", "json", "math", "pathlib", "shutil",
+    48	    "subprocess", "sys", "tempfile",
+    49	}
+    50	
+    51	
+    52	def require(condition, message):
+    53	    if not condition:
+    54	        raise AssertionError(message)
+    55	
+    56	
+    57	for name in REQUIRED:
+    58	    require((HERE / name).is_file(), f"missing {name}")
+    59	
+    60	production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    61	independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    62	catches = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    63	mutation_probe = (HERE / ".g321_mutation_probe").is_file()
+    64	require(production["landing"] == LANDING, "landing drift")
+    65	require(production["local_geometric_uniqueness"] == "CONDITIONAL_ON_IMPORTED_STANDARD_THEOREM", "conditional theorem caveat lost")
+    66	require(production["raw_tracefree_principal_rank"] == 9, "raw rank")
+    67	require(production["fixed_lambda_principal_rank"] == 10, "completed rank")
+    68	require(production["constraint_sector"] == "Lambda=0", "sector")
+    69	require(production["theorem_interface_status"] == "AUDITED_CONDITIONAL__NOT_MACHINE_PROVED_IN_FULL", "theorem interface type")
+    70	require(
+    71	    {key: value["status"] for key, value in production["theorem_hypothesis_audit"].items()}
+    72	    == EXPECTED_HYPOTHESIS_STATUSES,
+    73	    "theorem hypothesis ledger drift",
+    74	)
+    75	require(all(value["evidence"].strip() for value in production["theorem_hypothesis_audit"].values()), "empty theorem evidence")
+    76	require(not production["lapse_shift_are_physical_data"], "gauge variables promoted to physical data")
+    77	require(production["initial_adm_rhs_single_valued_after_gauge_fix"], "initial ADM response lost")
+    78	require(production["opposite_signs_are_distinct_full_data"], "K sign branches collapsed")
+    79	require(production["opposite_signs_are_time_reversed_data"], "time reversal field")
+    80	require(production["different_modes_distinct_as_marked_developments"], "marked mode separation field")
+    81	require(not production["physical_initial_data_selected"], "data selection overclaim")
+    82	require(not production["global_history_selected"], "global history overclaim")
+    83	require(not production["unmarked_same_spacetime_different_slice_classified"], "unmarked quotient overclaim")
+    84	require(not production["metric_or_kernel_changed"], "metric/kernel regression")
+    85	require(independent["status"] == "PASS_INDEPENDENT", "independent status")
+    86	require(not independent["production_imported"], "independent imports production")
+    87	require(not independent["production_output_read"], "independent reads production result")
+    88	require(independent["max_hamiltonian_residual"] < 5e-12, "independent Hamiltonian")
+    89	require(independent["max_momentum_residual"] < 5e-12, "independent momentum")
+    90	require(independent["max_time_reversal_error"] < 5e-12, "time reversal")
+    91	if not mutation_probe:
+    92	    require(catches["status"] == "PASS_ALL_MUTATIONS_CAUGHT", "catch status")
+    93	    require(catches["caught_count"] == catches["expected_count"] == 12, "catch count")
+    94	    require(catches["mutation_method"] == "EPHEMERAL_PACKAGE_MUTATION_THEN_AGGREGATE_VERIFIER_REJECTION", "hostile method")
+    95	    require(all(item["verifier_returncode"] != 0 for item in catches["details"]), "a hostile mutation survived verifier")
+    96	
+    97	with (HERE / "DEVELOPMENT_ATLAS.tsv").open(encoding="utf-8", newline="") as handle:
+    98	    atlas = list(csv.DictReader(handle, delimiter="\t"))
+    99	require(len(atlas) == 8, "atlas row count")
+   100	base = float(next(row for row in atlas if row["mode"] == "1" and row["sign"] == "1")["Q_R"])
+   101	for row in atlas:
+   102	    mode = int(row["mode"])
+   103	    require(float(row["max_hamiltonian"]) < 5e-12, "atlas Hamiltonian")
+   104	    require(float(row["max_momentum"]) < 5e-12, "atlas momentum")
+   105	    require(abs(float(row["Q_R"]) / base - mode ** 2) < 5e-12, "atlas Q_R ratio")
+   106	
+   107	for script_name in ("derive_local_development.py", "verify_independent.py", "run_catch_proofs.py", "verify_package.py", "build_review_intake.py", "build_repair_followup_intake.py"):
+   108	    tree = ast.parse((HERE / script_name).read_text(encoding="utf-8"))
+   109	    for node in ast.walk(tree):
+   110	        if isinstance(node, ast.Import):
+   111	            imports = [alias.name.split(".")[0] for alias in node.names]
+   112	        elif isinstance(node, ast.ImportFrom):
+   113	            imports = [(node.module or "").split(".")[0]]
+   114	        else:
+   115	            continue
+   116	        require(all(name in ALLOWED_IMPORTS for name in imports), f"unregistered import in {script_name}: {imports}")
+   117	
+   118	for name in ("EXACT_DERIVATION.md", "AUDIT_REPORT.md", "LAY_REPORT.md"):
+   119	    report_text = (HERE / name).read_text(encoding="utf-8")
+   120	    require(LANDING in report_text.replace("\n", ""), f"exact landing missing from {name}")
+   121	    require(THEOREM_STAMP in report_text.replace("\n", ""), f"exact theorem ownership stamp missing from {name}")
+   122	    require(SCOPE_STAMP in report_text.replace("\n", ""), f"exact scope stamp missing from {name}")
+   123	
+   124	with (HERE / "STATUS_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+   125	    status_rows = {row["object"]: row for row in csv.DictReader(handle, delimiter="\t")}
+   126	require(status_rows["standard local wellposedness"]["status"] == "IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL", "wellposedness ownership drift")
+   127	require(status_rows["unmarked same-spacetime relation"]["status"] == "OPEN", "unmarked classification drift")
+   128	require(status_rows["physical data occupancy"]["status"] == "OPEN_NOT_SELECTED", "occupancy drift")
+   129	require(status_rows["global history existence stability"]["status"] == "OPEN", "global history drift")
+   130	
+   131	external_review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+   132	require("G321_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED" in external_review, "fresh review verdict not preserved")
+   133	transmission = (HERE / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
+   134	require("aeda3727b7ff5e66c5ec7a0da9363c84ec6084245006c2fec5d421cc97654202" in transmission, "fresh scope hash missing")
+   135	require("c9c50ccec969cb9911b1ce197cc129fbbbd26d51e40c32305d2617ed72789bd9" in transmission, "fresh manifest hash missing")
+   136	
+   137	result = {
+   138	    "schema": "udt-g321-package-verification-v1",
+   139	    "status": "PASS_REPAIRS_INTERNALLY_VERIFIED_PENDING_REPAIR_ONLY_FOLLOWUP",
+   140	    "landing": LANDING,
+   141	    "required_files": len(REQUIRED),
+   142	    "atlas_rows": len(atlas),
+   143	    "production_assertions": production["assertion_count"],
+   144	    "independent_assertions": independent["assertion_count"],
+   145	    "hostile_catches": catches["caught_count"],
+   146	}
+   147	with (HERE / "PACKAGE_VERIFICATION_RESULT.json").open("w", encoding="utf-8") as handle:
+   148	    json.dump(result, handle, indent=2, sort_keys=True)
+   149	    handle.write("\n")
+   150	print(json.dumps(result, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import hashlib, json
+base = Path('/intake/package')
+work = Path('/work/package')
+files = ['DEVELOPMENT_ATLAS.tsv','DERIVATION_RESULT.json','INDEPENDENT_VERIFICATION.json','CATCH_PROOF_RESULT.json','PACKAGE_VERIFICATION_RESULT.json']
+res = {}
+for name in files:
+    bh = hashlib.sha256((base/name).read_bytes()).hexdigest()
+    wh = hashlib.sha256((work/name).read_bytes()).hexdigest()
+    res[name] = {'intake_sha256': bh, 'work_sha256': wh, 'match': bh == wh}
+print(json.dumps(res, indent=2, sort_keys=True))
+PY" in /work
+ succeeded in 0ms:
+{
+  "CATCH_PROOF_RESULT.json": {
+    "intake_sha256": "822a92923dc49f009c3474156486c24686eaf257102efdbc4666d08366c65223",
+    "match": true,
+    "work_sha256": "822a92923dc49f009c3474156486c24686eaf257102efdbc4666d08366c65223"
+  },
+  "DERIVATION_RESULT.json": {
+    "intake_sha256": "80c23f48bb6cb5ac03d73dd5a30343d37e88612e9acbfef72917f62904f8cf53",
+    "match": true,
+    "work_sha256": "80c23f48bb6cb5ac03d73dd5a30343d37e88612e9acbfef72917f62904f8cf53"
+  },
+  "DEVELOPMENT_ATLAS.tsv": {
+    "intake_sha256": "7b94e53f4b5cbdbf2758c504d3553b32a90dea8d0f94da06de3173b198445951",
+    "match": true,
+    "work_sha256": "7b94e53f4b5cbdbf2758c504d3553b32a90dea8d0f94da06de3173b198445951"
+  },
+  "INDEPENDENT_VERIFICATION.json": {
+    "intake_sha256": "8b6b7236890913f20b70a8d86310fb0a6ae4eada3a1266ec821421176502d230",
+    "match": true,
+    "work_sha256": "8b6b7236890913f20b70a8d86310fb0a6ae4eada3a1266ec821421176502d230"
+  },
+  "PACKAGE_VERIFICATION_RESULT.json": {
+    "intake_sha256": "ac43e436027e08339b3d50e0f11612fdcc5f2939241245153c3b0259ef179a2f",
+    "match": true,
+    "work_sha256": "ac43e436027e08339b3d50e0f11612fdcc5f2939241245153c3b0259ef179a2f"
+  }
+}
+
+exec
+/bin/bash -lc "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '1,260p'" in /work
+ succeeded in 0ms:
+     1	# G321 exact derivation — conditional local developments of G320 data
+     2	
+     3	Date: 2026-09-01
+     4	
+     5	Exact ownership stamp:
+     6	`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+     7	
+     8	Exact scope stamp:
+     9	`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+    10	
+    11	Exact bounded landing:
+    12	`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+    13	
+    14	## 1. Scope and ownership
+    15	
+    16	Inside the owner-adopted provisional G310/G312 local regular metric-only scale-free vacuum arena,
+    17	the active equation is
+    18	
+    19	\[
+    20	S_{ab}:=R_{ab}-\frac14R g_{ab}=0.
+    21	\]
+    22	
+    23	This equation is not derived from the earlier reciprocal representation and is not canonized.
+    24	Contracted Bianchi gives, on each connected solution region,
+    25	
+    26	\[
+    27	R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0.
+    28	\tag{1}
+    29	\]
+    30	
+    31	G321 adds no action, source, or equation. It applies the already caveated standard local geometric
+    32	well-posedness theorem to the externally accepted G320 initial data.
+    33	
+    34	## 2. The supplied data
+    35	
+    36	The G320 control family is
+    37	
+    38	\[
+    39	\psi_n(x)=\frac32+\frac15\cos(nx),\qquad
+    40	\gamma_{ij}=\psi_n^4\delta_{ij},
+    41	\tag{2}
+    42	\]
+    43	
+    44	on the marked periodic three-torus. Since `psi_n>=13/10`, `gamma` is smooth and positive definite.
+    45	G319 reconstructs the mixed eigenvalues of `K` from
+    46	
+    47	\[
+    48	F=12\psi''\psi^{-5},\qquad
+    49	Z=36(\psi')^2+J_0,
+    50	\]
+    51	
+    52	\[
+    53	B=\epsilon\psi^{-3}\sqrt Z,qquad A=F/B,qquad
+    54	\tau=\frac{A+B}{2},\qquad \lambda_A=\frac{A-B}{2}.
+    55	\tag{3}
+    56	\]
+    57	
+    58	For the finite controls `J0=100`, `n=1,2,3,4`, and both `epsilon` signs,
+    59	
+    60	\[
+    61	Z+\psi^6F\ge100-\frac{12}{5}n^2\frac{17}{10}>0.
+    62	\tag{4}
+    63	\]
+    64	
+    65	Thus the square root, `B`, `A`, `tau`, and `K` are smooth and `B` never vanishes. More generally,
+    66	G319's compactness theorem supplies the same regularity for every positive integer mode after a
+    67	sufficiently large free `J0` is supplied.
+    68	
+    69	## 3. The data determine the connected scalar sector
+    70	
+    71	For any spacelike datum, equation (1) requires
+    72	
+    73	\[
+    74	\mathcal H:={}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+    75	\]
+    76	
+    77	\[
+    78	\mathcal M^i:=D_j(K^{ij}-\gamma^{ij}K)=0.
+    79	\tag{5}
+    80	\]
+    81	
+    82	Direct reconstruction gives production maxima
+    83	
+    84	```text
+    85	|H|        4.45e-15
+    86	|M|        1.78e-15
+    87	|H/2|      2.23e-15
+    88	```
+    89	
+    90	and the implementation-distinct connection/index-loop route gives
+    91	
+    92	```text
+    93	|H|        2.67e-15
+    94	|M|        1.73e-15.
+    95	```
+    96	
+    97	Analytically these residuals vanish. Therefore every registered G320 control belongs to the same
+    98	fixed sector
+    99	
+   100	\[
+   101	\boxed{\Lambda=\mathcal H/2=0.}
+   102	\tag{6}
+   103	\]
+   104	
+   105	`Lambda` is not an additional choice after the complete datum is supplied.
+   106	
+   107	## 4. Full local principal system
+   108	
+   109	In harmonic coordinates, fixed-`Lambda` equation (1) has principal part
+   110	
+   111	\[
+   112	-\frac12g^{cd}\partial_c\partial_d g_{ab}.
+   113	\tag{7}
+   114	\]
+   115	
+   116	The raw trace-free output projector has algebraic rank nine. Bianchi completion and the value (6)
+   117	restore the full ten-component fixed-sector metric-wave system. The exact production rank audit
+   118	gives
+   119	
+   120	\[
+   121	\operatorname{rank}P_{\mathrm{TF}}=9,
+   122	\qquad
+   123	\operatorname{rank}P_{\Lambda=0}=10.
+   124	\tag{8}
+   125	\]
+   126	
+   127	The characteristic equation is the supplied metric null cone. Constancy of `Lambda` leaves the
+   128	harmonic gauge-constraint propagation system homogeneous.
+   129	
+   130	## 5. Conditional geometric uniqueness
+   131	
+   132	The registered data satisfy every interface hypothesis exposed in G303/G315, with each evidence
+   133	type kept explicit rather than represented by an unconditional executable boolean:
+   134	
+   135	- smooth compact boundary-free initial manifold;
+   136	- smooth positive-definite `gamma`;
+   137	- smooth symmetric `K`;
+   138	- all four constraints (5);
+   139	- one fixed connected `Lambda` sector;
+   140	- full fixed-sector metric-wave principal system;
+   141	- homogeneous gauge-constraint propagation.
+   142	
+   143	The first six items are supported by domain definitions, analytic regularity, constraint
+   144	identities with two numerical backward-error replays, and exact finite-dimensional principal-rank
+   145	algebra. Homogeneous gauge propagation is a formal Bianchi consequence within the standard
+   146	harmonic reduction. The existence/uniqueness and geometric gauge-quotient theorem itself remains
+   147	an imported conditional mathematical method; G321 does not machine-prove that theorem.
+   148	
+   149	Conditional on the imported standard smooth harmonic-gauge quasilinear-wave existence,
+   150	uniqueness, and gauge-propagation theorems, each fixed datum therefore has a smooth local
+   151	development. Two developments from the same datum are related by a spacetime diffeomorphism that
+   152	commutes with the initial embeddings.
+   153	
+   154	This conditional theorem application is the load-bearing uniqueness step. Computing one immediate
+   155	right-hand side does not prove a PDE theorem.
+   156	
+   157	## 6. Immediate geometric response
+   158	
+   159	As an independent interface check, choose only the presentation gauge `N=1`, `beta=0`. Then
+   160	
+   161	\[
+   162	\partial_t\gamma_{ij}=-2K_{ij},
+   163	\]
+   164	
+   165	\[
+   166	\partial_tK_{ij}={}^{(3)}R_{ij}+K K_{ij}-2K_i{}^kK_{kj}
+   167	\tag{9}
+   168	\]
+   169	
+   170	for the registered `Lambda=0` controls. Every term on the right is a deterministic function of the
+   171	complete supplied datum. The independent verifier reconstructs `R_ij` from Christoffel and Ricci
+   172	index loops and agrees with the closed scalar formula to `1.34e-15`. No second right-hand side or
+   173	extra reciprocal-kernel evolution channel appears.
+   174	
+   175	Lapse and shift describe the presentation of the same geometric development. Changing them does
+   176	not produce new physical data or another local history.
+   177	
+   178	## 7. The two signs are time reverses
+   179	
+   180	Changing the G319 sign gives
+   181	
+   182	\[
+   183	(\gamma,K)\longmapsto(\gamma,-K).
+   184	\]
+   185	
+   186	Equation (9) then gives
+   187	
+   188	\[
+   189	\partial_t\gamma\longmapsto-\partial_t\gamma,
+   190	\qquad
+   191	\partial_tK\longmapsto\partial_tK.
+   192	\tag{10}
+   193	\]
+   194	
+   195	Production checks (10) pointwise for all modes and obtains zero independent maximum parity error.
+   196	The signs are two complete initial data related by time reversal, not two inequivalent futures from
+   197	one fixed `(gamma,K)` datum.
+   198	
+   199	## 8. Different modes give different marked developments
+   200	
+   201	G320's intrinsic invariant obeys
+   202	
+   203	\[
+   204	Q_R[\psi_n]=n^2Q_R[\psi_1].
+   205	\tag{11}
+   206	\]
+   207	
+   208	Any isometry between marked developments that commutes with their initial embeddings must pull
+   209	back the complete initial data and hence preserve `Q_R`. Equation (11) forbids such an equivalence
+   210	for `n!=m`.
+   211	
+   212	This does not prove that two unmarked maximal spacetimes could never contain these geometries as
+   213	different slices. That global refoliation/realization quotient was preregistered as open.
+   214	
+   215	## 9. Exact landing and boundary
+   216	
+   217	Within the registered smooth local G320/G319 slice, the demonstrated breadth is ordinary Cauchy-
+   218	data freedom: each fixed lawful datum conditionally has one local marked development up to
+   219	diffeomorphism. There is no remaining missing **local** propagation equation inside this adopted
+   220	bounded arena.
+   221	
+   222	Still open are physical occupancy, global existence and completeness, singularities, stability,
+   223	unmarked same-spacetime classification, topology, population, source, matter/mass, observation,
+   224	scale, physical `X_max`, and extension beyond the active regular local metric-only vacuum arena.
+   225	The UDT metric, reciprocal kernel, angular cancellation, and observational interfaces are unchanged.
+
+exec
+/bin/bash -lc "nl -ba /intake/package/STATUS_LEDGER.tsv | sed -n '1,220p'" in /work
+ succeeded in 0ms:
+     1	object	status	maximum_statement
+     2	G321 preregistration	BANKED_BEFORE_OUTCOMES__863A1E9E	bounded test contract only
+     3	G320 finite controls	INTERNALLY_RECONSTRUCTED_LAWFUL	all modes and signs lie in Lambda zero sector
+     4	raw tracefree principal operator	DERIVED_RANK_NINE	not the complete fixed-sector evolution system
+     5	Bianchi-completed fixed sector	DERIVED_RANK_TEN	full local metric-wave principal part
+     6	ADM initial right-hand side	DERIVED_SINGLE_VALUED_IN_CHOSEN_GAUGE	interface check not PDE proof
+     7	standard local wellposedness	IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL	local existence and uniqueness up to diffeomorphism
+     8	G320 local marked developments	SCIENTIFIC_LANDING_RETAINED__REPAIRS_INTERNALLY_VERIFIED_PENDING_FOLLOWUP	each fixed datum has one local marked development
+     9	opposite K signs	DERIVED_TIME_REVERSED_DATA	not two futures from one datum
+    10	different integer modes	DERIVED_DISTINCT_MARKED_DEVELOPMENTS	Q_R forbids data-preserving equivalence
+    11	unmarked same-spacetime relation	OPEN	different-slice realization not classified
+    12	physical data occupancy	OPEN_NOT_SELECTED	uniqueness is not selection
+    13	global history existence stability	OPEN	local tile only
+    14	metric kernel angular observations	UNCHANGED	no interface modification
+    15	source matter mass scale Xmax	OPEN_OMITTED	no import or selection
+    16	fresh external adversarial review	REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED	all payloads authenticated and registered outputs reproduced exactly
+    17	hostile mutation layer	REPAIRED_INTERNALLY	12 actual ephemeral-package mutations rejected for registered reasons
+    18	theorem hypothesis audit	REPAIRED_INTERNALLY	eight typed evidence entries; imported PDE theorem not machine-proved
+    19	repair-only external followup	PENDING	required before externally accepted grade
+
+exec
+/bin/bash -lc "nl -ba /intake/package/AUDIT_REPORT.md | sed -n '1,220p'" in /work
+exec
+/bin/bash -lc "nl -ba /intake/package/REPAIR_FOLLOWUP_REQUEST.md | sed -n '1,220p'" in /work
+ succeeded in 0ms:
+     1	# G321 internal audit report
+     2	
+     3	Date: 2026-09-01
+     4	
+     5	Exact ownership stamp:
+     6	`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+     7	
+     8	Exact scope stamp:
+     9	`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+    10	
+    11	Exact bounded landing:
+    12	`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+    13	
+    14	## Result
+    15	
+    16	```text
+    17	G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS
+    18	__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA
+    19	__NO_GLOBAL_OR_OCCUPANCY_SELECTION
+    20	```
+    21	
+    22	Status: `REPAIRS_INTERNALLY_VERIFIED_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP`.
+    23	
+    24	## Findings
+    25	
+    26	1. All eight finite G320 mode/sign controls are smooth lawful data in the same `Lambda=0` sector.
+    27	2. Raw trace-free principal rank is nine; Bianchi-completed fixed-sector rank is ten.
+    28	3. Every exposed interface hypothesis has an explicit evidence type. Analytic and algebraic items
+    29	   pass; gauge propagation and local geometric uniqueness remain conditional on the imported
+    30	   smooth harmonic theorem. The executable layer no longer claims to machine-prove that theorem.
+    31	4. In unit lapse and zero shift, the complete ADM right-hand side is single-valued for each datum.
+    32	   This is an interface check, not the uniqueness proof.
+    33	5. The two `K` signs give exact time-reversed data: `gamma_dot` is odd and `K_dot` is even.
+    34	6. G320's `Q_R` separator prevents a data-preserving isometry between different integer modes, so
+    35	   their marked local developments remain distinct.
+    36	7. The audit does not classify whether different marked slices occur in one larger unmarked
+    37	   spacetime, and it makes no global existence or physical-occupancy claim.
+    38	8. Metric, reciprocal kernel, angular cancellation, scale, and observational interfaces are unchanged.
+    39	
+    40	## Evidence
+    41	
+    42	- production: 163,897 assertions over four modes, both signs, 4,096 periodic points, exact
+    43	  principal-rank algebra, constraints, `Lambda`, mode separation, and time-reversal parity;
+    44	- independent: different `p,a,J0`, modes `1,3,5`, 3,072 points, and direct connection/Ricci index
+    45	  loops; maximum constraint residual below `2.7e-15` and parity error exactly zero;
+    46	- hostile controls: 12 actual ephemeral-package mutations, each rejected by the aggregate verifier;
+    47	- no production function or production result is imported by the independent verifier.
+    48	
+    49	## Boundary
+    50	
+    51	This is a theorem-application audit on a bounded smooth local diagnostic family. It is not an
+    52	explicit long-time solve, full data-moduli theorem, unmarked spacetime quotient, global history,
+    53	initial-data selector, stability result, or extension to source/matter/mass/observation/scale/
+    54	`X_max`.
+    55	
+    56	## Fresh external review and repair
+    57	
+    58	The fresh reviewer authenticated all 33 payloads and reproduced every registered artifact
+    59	byte-for-byte. It retained the scientific landing but found that the original hostile controls
+    60	were mostly toy/circular assertions and that several theorem hypotheses were represented by bare
+    61	`True` checks. The repair replaces those with actual ephemeral-package mutations and an explicit
+    62	eight-row typed hypothesis audit. A repair-only follow-up remains required before acceptance.
+
+ succeeded in 0ms:
+     1	# G321 repair-only external follow-up request
+     2	
+     3	Review only the two defects registered by the fresh G321 external review. Do not reopen or extend
+     4	the scientific question except to confirm that the bounded landing remains unchanged.
+     5	
+     6	## R1 — hostile-mutation evidence
+     7	
+     8	Verify that `run_catch_proofs.py` now:
+     9	
+    10	1. copies the actual package into a fresh writable temporary directory for every attack;
+    11	2. proves the unmutated baseline passes the same aggregate verifier;
+    12	3. mutates real atlas or derivation-result fields for all 12 preregistered attacks;
+    13	4. requires nonzero verifier exit and the exact expected rejection reason;
+    14	5. leaves evidence files unchanged.
+    15	
+    16	## R2 — theorem-hypothesis and report-scope evidence
+    17	
+    18	Verify that:
+    19	
+    20	1. the three unconditional theorem-hypothesis `True` checks are gone;
+    21	2. all eight hypotheses have an honest typed status and evidence description;
+    22	3. analytic/algebraic checks are separated from the imported smooth harmonic PDE theorem;
+    23	4. the aggregate verifier checks exact ownership, scope, landing, and status-ledger entries rather
+    24	   than merely searching for the words `conditional` and `global`;
+    25	5. no text claims that G321 machine-proves the imported theorem.
+    26	
+    27	Run the four registered commands in a writable ephemeral copy. Confirm that the bounded scientific
+    28	landing is unchanged. Return exactly one verdict:
+    29	
+    30	```text
+    31	G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+    32	G321_REPAIRS_INCOMPLETE__BOUNDED_LANDING_RETAINED
+    33	G321_REPAIR_CHANGED_OR_REFUTED_SCIENTIFIC_LANDING
+    34	G321_REPAIR_REVIEW_INCOMPLETE
+    35	```
+    36	
+    37	Do not edit evidence files or continue the research.
+
+exec
+/bin/bash -lc "nl -ba /intake/package/LAY_REPORT.md | sed -n '1,220p'" in /work
+ succeeded in 0ms:
+     1	# G321 lay report
+     2	
+     3	Exact ownership stamp:
+     4	`LOCAL_GEOMETRIC_UNIQUENESS__CONDITIONAL_ON_IMPORTED_STANDARD_SMOOTH_HARMONIC_WELLPOSEDNESS_THEOREM`.
+     5	
+     6	Exact scope stamp:
+     7	`NO_CLAIM__GLOBAL_HISTORY_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_SPACETIME_CLASSIFICATION`.
+     8	
+     9	Exact bounded landing:
+    10	`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`.
+    11	
+    12	G320 found many genuinely different legal starting geometries. G321 asked whether the current UDT
+    13	equation knows what to do next once any one complete starting geometry is supplied.
+    14	
+    15	Inside the present bounded vacuum framework, the answer is conditionally **yes**.
+    16	
+    17	Each starting geometry contains both its spatial shape and its initial rate of change. Those data
+    18	satisfy all the constraint equations and fix the remaining regional curvature constant to zero.
+    19	The active equation then gives one immediate response. The standard mathematical theorem for this
+    20	kind of causal metric equation says that the response continues into one local spacetime, apart
+    21	from harmless changes of coordinates.
+    22	
+    23	The two sign choices are not two futures produced from the same starting point. They reverse the
+    24	initial rate and therefore describe time-reversed starting data. Likewise, the `1,4,9,16` curvature
+    25	pattern means the four spatial-wave examples remain different when their initial surfaces are
+    26	kept marked.
+    27	
+    28	This is the normal structure of a dynamical physical theory: a law plus complete initial data gives
+    29	one local evolution. It does not say which initial data Nature chose, whether the solutions remain
+    30	regular forever, or whether apparently different slices could belong to one larger global
+    31	spacetime. The local uniqueness conclusion also remains conditional on a standard imported
+    32	mathematical well-posedness theorem. No metric or reciprocal-kernel formula changed.
+    33	
+    34	The first outside review agreed with that scientific result. It did catch that some of our test
+    35	machinery was claiming more rigor than it delivered. We repaired the machinery: it now damages
+    36	copies of the real package and confirms the verifier rejects each damaged copy, while clearly
+    37	separating what the scripts check from what the imported mathematical theorem supplies.
+
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_SCOPE.json | sed -n '1,220p'" in /work
+ succeeded in 0ms:
+     1	{
+     2	  "allowed": [
+     3	    "inspect sealed intake",
+     4	    "verify only registered repairs R1 and R2 and unchanged bounded scientific landing",
+     5	    "run the four registered commands in a writable ephemeral copy"
+     6	  ],
+     7	  "forbidden": [
+     8	    "edit evidence files",
+     9	    "continue research",
+    10	    "change the scientific question",
+    11	    "access repository or protected packages",
+    12	    "use internet or unsealed observations",
+    13	    "select or canonize a law data global history topology population scale source matter mass or X_max"
+    14	  ],
+    15	  "mode": "read-only repair-only follow-up review",
+    16	  "package_files": 30,
+    17	  "question": "G321 repair-only follow-up for the two fresh-review evidence defects",
+    18	  "registered_repairs": {
+    19	    "R1": "actual ephemeral-package mutations replace toy and circular hostile checks",
+    20	    "R2": "typed theorem-hypothesis evidence and exact report-scope verification replace unconditional booleans and word-presence checks"
+    21	  },
+    22	  "required_verdicts": [
+    23	    "G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD",
+    24	    "G321_REPAIRS_INCOMPLETE__BOUNDED_LANDING_RETAINED",
+    25	    "G321_REPAIR_CHANGED_OR_REFUTED_SCIENTIFIC_LANDING",
+    26	    "G321_REPAIR_REVIEW_INCOMPLETE"
+    27	  ],
+    28	  "source_files": 8
+    29	}
+
+exec
+/bin/bash -lc "grep -n \"registered_controls_meet_smooth_local_theorem_hypotheses\\|check(.*True\" /intake/package/derive_local_development.py" in /work
+ exited 1 in 0ms:
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import hashlib, json
+base = Path('/intake/package')
+work = Path('/work/package')
+base_files = sorted(p.relative_to(base).as_posix() for p in base.rglob('*') if p.is_file())
+work_files = sorted(p.relative_to(work).as_posix() for p in work.rglob('*') if p.is_file())
+common = sorted(set(base_files) & set(work_files))
+changed = []
+for name in common:
+    b = (base / name).read_bytes()
+    w = (work / name).read_bytes()
+    if hashlib.sha256(b).hexdigest() "'!= hashlib.sha256(w).hexdigest():
+        changed.append(name)
+print(json.dumps({
+    '"'intake_file_count': len(base_files),
+    'work_file_count': len(work_files),
+    'same_file_set': base_files == work_files,
+    'changed_files': changed,
+}, indent=2))
+PY" in /work
+ succeeded in 0ms:
+{
+  "intake_file_count": 30,
+  "work_file_count": 30,
+  "same_file_set": true,
+  "changed_files": []
+}
+
+codex
+The replayed `/work/package` now matches the sealed `/intake/package` file-for-file, which supports the “real temp copy, no persisted evidence mutation” claim for R1. I’m writing the external follow-up report now with the bounded verdict only.
+exec
+/bin/bash -lc "if [ -d /return ]; then printf 'present\\n'; else printf 'missing\\n'; fi" in /work
+ succeeded in 0ms:
+present
+
+exec
+/bin/bash -lc "if [ -e /return/EXTERNAL_REVIEW_RESPONSE.md ]; then printf 'exists\\n'; else printf 'missing\\n'; fi" in /work
+ succeeded in 0ms:
+missing
+
+apply patch
+patch: completed
+/return/EXTERNAL_REVIEW_RESPONSE.md
+diff --git a//return/EXTERNAL_REVIEW_RESPONSE.md b//return/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..bc04903feac8261c36b2b6cbd0986e0a00da04ed
+--- /dev/null
++++ b//return/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,112 @@
++# External Repair-Only Review of Sealed G321
++
++## Scope and authentication
++
++I treated this as a read-only repair-only follow-up review bounded by `/intake/REVIEW_SCOPE.json`.
++I inspected only `/intake`, authenticated `REVIEW_MANIFEST.sha256`, `REVIEW_MANIFEST.tsv`,
++`REVIEW_SCOPE.json`, and every manifest payload before relying on any evidence, then copied only
++`/intake/package` to `/work/package` for replay.
++
++Authentication results:
++
++- detached manifest seal matched `REVIEW_MANIFEST.tsv` exactly:
++  `6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a`;
++- `REVIEW_MANIFEST.tsv` enumerated 39 authenticated payloads under `/intake`;
++- every listed payload matched both recorded byte count and recorded SHA-256;
++- no authentication failure occurred.
++
++## Registered replay
++
++In `/work/package` I ran exactly the four registered commands from
++`/intake/package/REPLAY_COMMANDS.txt`:
++
++1. `python3 -S derive_local_development.py`
++2. `python3 -S verify_independent.py`
++3. `python3 -S run_catch_proofs.py`
++4. `python3 -S verify_package.py`
++
++All four commands exited successfully.
++
++The replay regenerated the five expected writable artifacts, and each matched the sealed intake
++artifact byte-for-byte:
++
++- `DEVELOPMENT_ATLAS.tsv`
++- `DERIVATION_RESULT.json`
++- `INDEPENDENT_VERIFICATION.json`
++- `CATCH_PROOF_RESULT.json`
++- `PACKAGE_VERIFICATION_RESULT.json`
++
++I also compared the entire copied `/work/package` tree against `/intake/package` after replay.
++The file set matched exactly and there were no content differences in any of the 30 package files.
++
++## R1 assessment: hostile-mutation evidence
++
++R1 is repaired.
++
++Why:
++
++- `run_catch_proofs.py` now copies the actual package into a fresh writable temporary directory for
++  each hostile check (`/intake/package/run_catch_proofs.py:46-52`).
++- It separately proves that an unmutated package copy passes the same aggregate verifier route
++  before any attack is attempted (`/intake/package/run_catch_proofs.py:69-76`).
++- All 12 preregistered attacks mutate real package artifacts, specifically
++  `DEVELOPMENT_ATLAS.tsv` or `DERIVATION_RESULT.json`, rather than toy local variables
++  (`/intake/package/run_catch_proofs.py:18-33`, `:79-138`).
++- Each attack requires both nonzero verifier exit and the exact expected rejection substring
++  (`/intake/package/run_catch_proofs.py:52-59`).
++- The emitted hostile-catch result records baseline pass, 12/12 catches, and the expected rejection
++  reason for every mutation (`/intake/package/CATCH_PROOF_RESULT.json`).
++- The mutations are confined to temporary directories, while the only persistent write from the
++  script is the result JSON in the package root (`/intake/package/run_catch_proofs.py:151-153`).
++  The full-tree `/work/package` versus `/intake/package` comparison after replay showed no
++  persistent evidence drift, which is consistent with the claim that evidence files are left
++  unchanged outside the ephemeral attack copies.
++
++## R2 assessment: theorem-hypothesis and report-scope evidence
++
++R2 is repaired.
++
++Why:
++
++- The prior unconditional theorem-hypothesis `True` placeholders are gone from
++  `derive_local_development.py`. The script now defines an explicit eight-entry
++  `THEOREM_HYPOTHESIS_AUDIT` with typed `status` and nonempty `evidence` text for `H1` through
++  `H8` (`/intake/package/derive_local_development.py:27-60`).
++- The production result preserves that typed audit in `DERIVATION_RESULT.json`
++  (`/intake/package/derive_local_development.py:266-286`,
++  `/intake/package/DERIVATION_RESULT.json`).
++- The script explicitly separates executable analytic/algebraic checks from the imported smooth
++  harmonic PDE theorem: the principal-rank, regularity, constraint, sector, mode-separation, and
++  time-reversal items remain executable, while the theorem-application boundary is stated as
++  imported and not machine-proved (`/intake/package/derive_local_development.py:206-216`;
++  `/intake/package/EXACT_DERIVATION.md:130-155`).
++- The aggregate verifier now checks exact structured facts rather than word presence alone. It
++  verifies the exact landing string, exact conditional-theorem interface status, exact hypothesis
++  statuses, nonempty evidence text, exact report ownership/scope/landing stamps, and exact
++  status-ledger states for wellposedness, unmarked relation, occupancy, and global history
++  (`/intake/package/verify_package.py:64-75`, `:118-129`).
++- The narrative texts do not claim that G321 machine-proves the imported theorem. The derivation,
++  audit report, and lay report each preserve the conditional imported-theorem boundary and deny any
++  machine-proof overclaim (`/intake/package/EXACT_DERIVATION.md:146-155`,
++  `/intake/package/AUDIT_REPORT.md:28-32`, `/intake/package/LAY_REPORT.md:28-37`).
++- The status ledger remains aligned with that bounded ownership model: standard local wellposedness
++  is marked `IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL`, while unmarked same-spacetime relation,
++  physical occupancy, and global history remain open or unselected
++  (`/intake/package/STATUS_LEDGER.tsv:7-13`).
++
++## Bounded scientific landing
++
++The bounded scientific landing is unchanged.
++
++The replayed production result, the aggregate verifier, and the three narrative reports all retain
++the same exact landing:
++
++`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`
++
++Within the repair-only scope, I found no change that broadens the scientific question, upgrades the
++claim to global history or physical occupancy, removes the conditional imported-theorem caveat, or
++otherwise refutes the bounded local marked-development conclusion.
++
++## Verdict
++
++G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+
+diff --git a//return/EXTERNAL_REVIEW_RESPONSE.md b//return/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..bc04903feac8261c36b2b6cbd0986e0a00da04ed
+--- /dev/null
++++ b//return/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,112 @@
++# External Repair-Only Review of Sealed G321
++
++## Scope and authentication
++
++I treated this as a read-only repair-only follow-up review bounded by `/intake/REVIEW_SCOPE.json`.
++I inspected only `/intake`, authenticated `REVIEW_MANIFEST.sha256`, `REVIEW_MANIFEST.tsv`,
++`REVIEW_SCOPE.json`, and every manifest payload before relying on any evidence, then copied only
++`/intake/package` to `/work/package` for replay.
++
++Authentication results:
++
++- detached manifest seal matched `REVIEW_MANIFEST.tsv` exactly:
++  `6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a`;
++- `REVIEW_MANIFEST.tsv` enumerated 39 authenticated payloads under `/intake`;
++- every listed payload matched both recorded byte count and recorded SHA-256;
++- no authentication failure occurred.
++
++## Registered replay
++
++In `/work/package` I ran exactly the four registered commands from
++`/intake/package/REPLAY_COMMANDS.txt`:
++
++1. `python3 -S derive_local_development.py`
++2. `python3 -S verify_independent.py`
++3. `python3 -S run_catch_proofs.py`
++4. `python3 -S verify_package.py`
++
++All four commands exited successfully.
++
++The replay regenerated the five expected writable artifacts, and each matched the sealed intake
++artifact byte-for-byte:
++
++- `DEVELOPMENT_ATLAS.tsv`
++- `DERIVATION_RESULT.json`
++- `INDEPENDENT_VERIFICATION.json`
++- `CATCH_PROOF_RESULT.json`
++- `PACKAGE_VERIFICATION_RESULT.json`
++
++I also compared the entire copied `/work/package` tree against `/intake/package` after replay.
++The file set matched exactly and there were no content differences in any of the 30 package files.
++
++## R1 assessment: hostile-mutation evidence
++
++R1 is repaired.
++
++Why:
++
++- `run_catch_proofs.py` now copies the actual package into a fresh writable temporary directory for
++  each hostile check (`/intake/package/run_catch_proofs.py:46-52`).
++- It separately proves that an unmutated package copy passes the same aggregate verifier route
++  before any attack is attempted (`/intake/package/run_catch_proofs.py:69-76`).
++- All 12 preregistered attacks mutate real package artifacts, specifically
++  `DEVELOPMENT_ATLAS.tsv` or `DERIVATION_RESULT.json`, rather than toy local variables
++  (`/intake/package/run_catch_proofs.py:18-33`, `:79-138`).
++- Each attack requires both nonzero verifier exit and the exact expected rejection substring
++  (`/intake/package/run_catch_proofs.py:52-59`).
++- The emitted hostile-catch result records baseline pass, 12/12 catches, and the expected rejection
++  reason for every mutation (`/intake/package/CATCH_PROOF_RESULT.json`).
++- The mutations are confined to temporary directories, while the only persistent write from the
++  script is the result JSON in the package root (`/intake/package/run_catch_proofs.py:151-153`).
++  The full-tree `/work/package` versus `/intake/package` comparison after replay showed no
++  persistent evidence drift, which is consistent with the claim that evidence files are left
++  unchanged outside the ephemeral attack copies.
++
++## R2 assessment: theorem-hypothesis and report-scope evidence
++
++R2 is repaired.
++
++Why:
++
++- The prior unconditional theorem-hypothesis `True` placeholders are gone from
++  `derive_local_development.py`. The script now defines an explicit eight-entry
++  `THEOREM_HYPOTHESIS_AUDIT` with typed `status` and nonempty `evidence` text for `H1` through
++  `H8` (`/intake/package/derive_local_development.py:27-60`).
++- The production result preserves that typed audit in `DERIVATION_RESULT.json`
++  (`/intake/package/derive_local_development.py:266-286`,
++  `/intake/package/DERIVATION_RESULT.json`).
++- The script explicitly separates executable analytic/algebraic checks from the imported smooth
++  harmonic PDE theorem: the principal-rank, regularity, constraint, sector, mode-separation, and
++  time-reversal items remain executable, while the theorem-application boundary is stated as
++  imported and not machine-proved (`/intake/package/derive_local_development.py:206-216`;
++  `/intake/package/EXACT_DERIVATION.md:130-155`).
++- The aggregate verifier now checks exact structured facts rather than word presence alone. It
++  verifies the exact landing string, exact conditional-theorem interface status, exact hypothesis
++  statuses, nonempty evidence text, exact report ownership/scope/landing stamps, and exact
++  status-ledger states for wellposedness, unmarked relation, occupancy, and global history
++  (`/intake/package/verify_package.py:64-75`, `:118-129`).
++- The narrative texts do not claim that G321 machine-proves the imported theorem. The derivation,
++  audit report, and lay report each preserve the conditional imported-theorem boundary and deny any
++  machine-proof overclaim (`/intake/package/EXACT_DERIVATION.md:146-155`,
++  `/intake/package/AUDIT_REPORT.md:28-32`, `/intake/package/LAY_REPORT.md:28-37`).
++- The status ledger remains aligned with that bounded ownership model: standard local wellposedness
++  is marked `IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL`, while unmarked same-spacetime relation,
++  physical occupancy, and global history remain open or unselected
++  (`/intake/package/STATUS_LEDGER.tsv:7-13`).
++
++## Bounded scientific landing
++
++The bounded scientific landing is unchanged.
++
++The replayed production result, the aggregate verifier, and the three narrative reports all retain
++the same exact landing:
++
++`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`
++
++Within the repair-only scope, I found no change that broadens the scientific question, upgrades the
++claim to global history or physical occupancy, removes the conditional imported-theorem caveat, or
++otherwise refutes the bounded local marked-development conclusion.
++
++## Verdict
++
++G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+
+codex
+The report is written to `/return/EXTERNAL_REVIEW_RESPONSE.md`. I’m doing one last sanity check on the file ending and then I’ll return the same verdict token in the CLI final.
+exec
+/bin/bash -lc 'tail -n 5 /return/EXTERNAL_REVIEW_RESPONSE.md' in /work
+ succeeded in 0ms:
+otherwise refutes the bounded local marked-development conclusion.
+
+## Verdict
+
+G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+
+diff --git a//return/EXTERNAL_REVIEW_RESPONSE.md b//return/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..bc04903feac8261c36b2b6cbd0986e0a00da04ed
+--- /dev/null
++++ b//return/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,112 @@
++# External Repair-Only Review of Sealed G321
++
++## Scope and authentication
++
++I treated this as a read-only repair-only follow-up review bounded by `/intake/REVIEW_SCOPE.json`.
++I inspected only `/intake`, authenticated `REVIEW_MANIFEST.sha256`, `REVIEW_MANIFEST.tsv`,
++`REVIEW_SCOPE.json`, and every manifest payload before relying on any evidence, then copied only
++`/intake/package` to `/work/package` for replay.
++
++Authentication results:
++
++- detached manifest seal matched `REVIEW_MANIFEST.tsv` exactly:
++  `6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a`;
++- `REVIEW_MANIFEST.tsv` enumerated 39 authenticated payloads under `/intake`;
++- every listed payload matched both recorded byte count and recorded SHA-256;
++- no authentication failure occurred.
++
++## Registered replay
++
++In `/work/package` I ran exactly the four registered commands from
++`/intake/package/REPLAY_COMMANDS.txt`:
++
++1. `python3 -S derive_local_development.py`
++2. `python3 -S verify_independent.py`
++3. `python3 -S run_catch_proofs.py`
++4. `python3 -S verify_package.py`
++
++All four commands exited successfully.
++
++The replay regenerated the five expected writable artifacts, and each matched the sealed intake
++artifact byte-for-byte:
++
++- `DEVELOPMENT_ATLAS.tsv`
++- `DERIVATION_RESULT.json`
++- `INDEPENDENT_VERIFICATION.json`
++- `CATCH_PROOF_RESULT.json`
++- `PACKAGE_VERIFICATION_RESULT.json`
++
++I also compared the entire copied `/work/package` tree against `/intake/package` after replay.
++The file set matched exactly and there were no content differences in any of the 30 package files.
++
++## R1 assessment: hostile-mutation evidence
++
++R1 is repaired.
++
++Why:
++
++- `run_catch_proofs.py` now copies the actual package into a fresh writable temporary directory for
++  each hostile check (`/intake/package/run_catch_proofs.py:46-52`).
++- It separately proves that an unmutated package copy passes the same aggregate verifier route
++  before any attack is attempted (`/intake/package/run_catch_proofs.py:69-76`).
++- All 12 preregistered attacks mutate real package artifacts, specifically
++  `DEVELOPMENT_ATLAS.tsv` or `DERIVATION_RESULT.json`, rather than toy local variables
++  (`/intake/package/run_catch_proofs.py:18-33`, `:79-138`).
++- Each attack requires both nonzero verifier exit and the exact expected rejection substring
++  (`/intake/package/run_catch_proofs.py:52-59`).
++- The emitted hostile-catch result records baseline pass, 12/12 catches, and the expected rejection
++  reason for every mutation (`/intake/package/CATCH_PROOF_RESULT.json`).
++- The mutations are confined to temporary directories, while the only persistent write from the
++  script is the result JSON in the package root (`/intake/package/run_catch_proofs.py:151-153`).
++  The full-tree `/work/package` versus `/intake/package` comparison after replay showed no
++  persistent evidence drift, which is consistent with the claim that evidence files are left
++  unchanged outside the ephemeral attack copies.
++
++## R2 assessment: theorem-hypothesis and report-scope evidence
++
++R2 is repaired.
++
++Why:
++
++- The prior unconditional theorem-hypothesis `True` placeholders are gone from
++  `derive_local_development.py`. The script now defines an explicit eight-entry
++  `THEOREM_HYPOTHESIS_AUDIT` with typed `status` and nonempty `evidence` text for `H1` through
++  `H8` (`/intake/package/derive_local_development.py:27-60`).
++- The production result preserves that typed audit in `DERIVATION_RESULT.json`
++  (`/intake/package/derive_local_development.py:266-286`,
++  `/intake/package/DERIVATION_RESULT.json`).
++- The script explicitly separates executable analytic/algebraic checks from the imported smooth
++  harmonic PDE theorem: the principal-rank, regularity, constraint, sector, mode-separation, and
++  time-reversal items remain executable, while the theorem-application boundary is stated as
++  imported and not machine-proved (`/intake/package/derive_local_development.py:206-216`;
++  `/intake/package/EXACT_DERIVATION.md:130-155`).
++- The aggregate verifier now checks exact structured facts rather than word presence alone. It
++  verifies the exact landing string, exact conditional-theorem interface status, exact hypothesis
++  statuses, nonempty evidence text, exact report ownership/scope/landing stamps, and exact
++  status-ledger states for wellposedness, unmarked relation, occupancy, and global history
++  (`/intake/package/verify_package.py:64-75`, `:118-129`).
++- The narrative texts do not claim that G321 machine-proves the imported theorem. The derivation,
++  audit report, and lay report each preserve the conditional imported-theorem boundary and deny any
++  machine-proof overclaim (`/intake/package/EXACT_DERIVATION.md:146-155`,
++  `/intake/package/AUDIT_REPORT.md:28-32`, `/intake/package/LAY_REPORT.md:28-37`).
++- The status ledger remains aligned with that bounded ownership model: standard local wellposedness
++  is marked `IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL`, while unmarked same-spacetime relation,
++  physical occupancy, and global history remain open or unselected
++  (`/intake/package/STATUS_LEDGER.tsv:7-13`).
++
++## Bounded scientific landing
++
++The bounded scientific landing is unchanged.
++
++The replayed production result, the aggregate verifier, and the three narrative reports all retain
++the same exact landing:
++
++`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`
++
++Within the repair-only scope, I found no change that broadens the scientific question, upgrades the
++claim to global history or physical occupancy, removes the conditional imported-theorem caveat, or
++otherwise refutes the bounded local marked-development conclusion.
++
++## Verdict
++
++G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+
+  ✓ Authenticate the intake manifest chain and every listed payload
+  ✓ Read the repair-specific code and evidence files for R1 and R2 within /intake
+  ✓ Copy only /intake/package to /work/package and run the four registered replay commands there
+  ✓ Assess bounded landing unchanged, write /return/EXTERNAL_REVIEW_RESPONSE.md, and return the required verdict
+diff --git a//return/EXTERNAL_REVIEW_RESPONSE.md b//return/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..bc04903feac8261c36b2b6cbd0986e0a00da04ed
+--- /dev/null
++++ b//return/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,112 @@
++# External Repair-Only Review of Sealed G321
++
++## Scope and authentication
++
++I treated this as a read-only repair-only follow-up review bounded by `/intake/REVIEW_SCOPE.json`.
++I inspected only `/intake`, authenticated `REVIEW_MANIFEST.sha256`, `REVIEW_MANIFEST.tsv`,
++`REVIEW_SCOPE.json`, and every manifest payload before relying on any evidence, then copied only
++`/intake/package` to `/work/package` for replay.
++
++Authentication results:
++
++- detached manifest seal matched `REVIEW_MANIFEST.tsv` exactly:
++  `6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a`;
++- `REVIEW_MANIFEST.tsv` enumerated 39 authenticated payloads under `/intake`;
++- every listed payload matched both recorded byte count and recorded SHA-256;
++- no authentication failure occurred.
++
++## Registered replay
++
++In `/work/package` I ran exactly the four registered commands from
++`/intake/package/REPLAY_COMMANDS.txt`:
++
++1. `python3 -S derive_local_development.py`
++2. `python3 -S verify_independent.py`
++3. `python3 -S run_catch_proofs.py`
++4. `python3 -S verify_package.py`
++
++All four commands exited successfully.
++
++The replay regenerated the five expected writable artifacts, and each matched the sealed intake
++artifact byte-for-byte:
++
++- `DEVELOPMENT_ATLAS.tsv`
++- `DERIVATION_RESULT.json`
++- `INDEPENDENT_VERIFICATION.json`
++- `CATCH_PROOF_RESULT.json`
++- `PACKAGE_VERIFICATION_RESULT.json`
++
++I also compared the entire copied `/work/package` tree against `/intake/package` after replay.
++The file set matched exactly and there were no content differences in any of the 30 package files.
++
++## R1 assessment: hostile-mutation evidence
++
++R1 is repaired.
++
++Why:
++
++- `run_catch_proofs.py` now copies the actual package into a fresh writable temporary directory for
++  each hostile check (`/intake/package/run_catch_proofs.py:46-52`).
++- It separately proves that an unmutated package copy passes the same aggregate verifier route
++  before any attack is attempted (`/intake/package/run_catch_proofs.py:69-76`).
++- All 12 preregistered attacks mutate real package artifacts, specifically
++  `DEVELOPMENT_ATLAS.tsv` or `DERIVATION_RESULT.json`, rather than toy local variables
++  (`/intake/package/run_catch_proofs.py:18-33`, `:79-138`).
++- Each attack requires both nonzero verifier exit and the exact expected rejection substring
++  (`/intake/package/run_catch_proofs.py:52-59`).
++- The emitted hostile-catch result records baseline pass, 12/12 catches, and the expected rejection
++  reason for every mutation (`/intake/package/CATCH_PROOF_RESULT.json`).
++- The mutations are confined to temporary directories, while the only persistent write from the
++  script is the result JSON in the package root (`/intake/package/run_catch_proofs.py:151-153`).
++  The full-tree `/work/package` versus `/intake/package` comparison after replay showed no
++  persistent evidence drift, which is consistent with the claim that evidence files are left
++  unchanged outside the ephemeral attack copies.
++
++## R2 assessment: theorem-hypothesis and report-scope evidence
++
++R2 is repaired.
++
++Why:
++
++- The prior unconditional theorem-hypothesis `True` placeholders are gone from
++  `derive_local_development.py`. The script now defines an explicit eight-entry
++  `THEOREM_HYPOTHESIS_AUDIT` with typed `status` and nonempty `evidence` text for `H1` through
++  `H8` (`/intake/package/derive_local_development.py:27-60`).
++- The production result preserves that typed audit in `DERIVATION_RESULT.json`
++  (`/intake/package/derive_local_development.py:266-286`,
++  `/intake/package/DERIVATION_RESULT.json`).
++- The script explicitly separates executable analytic/algebraic checks from the imported smooth
++  harmonic PDE theorem: the principal-rank, regularity, constraint, sector, mode-separation, and
++  time-reversal items remain executable, while the theorem-application boundary is stated as
++  imported and not machine-proved (`/intake/package/derive_local_development.py:206-216`;
++  `/intake/package/EXACT_DERIVATION.md:130-155`).
++- The aggregate verifier now checks exact structured facts rather than word presence alone. It
++  verifies the exact landing string, exact conditional-theorem interface status, exact hypothesis
++  statuses, nonempty evidence text, exact report ownership/scope/landing stamps, and exact
++  status-ledger states for wellposedness, unmarked relation, occupancy, and global history
++  (`/intake/package/verify_package.py:64-75`, `:118-129`).
++- The narrative texts do not claim that G321 machine-proves the imported theorem. The derivation,
++  audit report, and lay report each preserve the conditional imported-theorem boundary and deny any
++  machine-proof overclaim (`/intake/package/EXACT_DERIVATION.md:146-155`,
++  `/intake/package/AUDIT_REPORT.md:28-32`, `/intake/package/LAY_REPORT.md:28-37`).
++- The status ledger remains aligned with that bounded ownership model: standard local wellposedness
++  is marked `IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL`, while unmarked same-spacetime relation,
++  physical occupancy, and global history remain open or unselected
++  (`/intake/package/STATUS_LEDGER.tsv:7-13`).
++
++## Bounded scientific landing
++
++The bounded scientific landing is unchanged.
++
++The replayed production result, the aggregate verifier, and the three narrative reports all retain
++the same exact landing:
++
++`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`
++
++Within the repair-only scope, I found no change that broadens the scientific question, upgrades the
++claim to global history or physical occupancy, removes the conditional imported-theorem caveat, or
++otherwise refutes the bounded local marked-development conclusion.
++
++## Verdict
++
++G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+
+codex
+G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+diff --git a//return/EXTERNAL_REVIEW_RESPONSE.md b//return/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..bc04903feac8261c36b2b6cbd0986e0a00da04ed
+--- /dev/null
++++ b//return/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,112 @@
++# External Repair-Only Review of Sealed G321
++
++## Scope and authentication
++
++I treated this as a read-only repair-only follow-up review bounded by `/intake/REVIEW_SCOPE.json`.
++I inspected only `/intake`, authenticated `REVIEW_MANIFEST.sha256`, `REVIEW_MANIFEST.tsv`,
++`REVIEW_SCOPE.json`, and every manifest payload before relying on any evidence, then copied only
++`/intake/package` to `/work/package` for replay.
++
++Authentication results:
++
++- detached manifest seal matched `REVIEW_MANIFEST.tsv` exactly:
++  `6b09326c49976134e968c50fdcf634f985e9c0e4751aebb15dedce5e81e35d1a`;
++- `REVIEW_MANIFEST.tsv` enumerated 39 authenticated payloads under `/intake`;
++- every listed payload matched both recorded byte count and recorded SHA-256;
++- no authentication failure occurred.
++
++## Registered replay
++
++In `/work/package` I ran exactly the four registered commands from
++`/intake/package/REPLAY_COMMANDS.txt`:
++
++1. `python3 -S derive_local_development.py`
++2. `python3 -S verify_independent.py`
++3. `python3 -S run_catch_proofs.py`
++4. `python3 -S verify_package.py`
++
++All four commands exited successfully.
++
++The replay regenerated the five expected writable artifacts, and each matched the sealed intake
++artifact byte-for-byte:
++
++- `DEVELOPMENT_ATLAS.tsv`
++- `DERIVATION_RESULT.json`
++- `INDEPENDENT_VERIFICATION.json`
++- `CATCH_PROOF_RESULT.json`
++- `PACKAGE_VERIFICATION_RESULT.json`
++
++I also compared the entire copied `/work/package` tree against `/intake/package` after replay.
++The file set matched exactly and there were no content differences in any of the 30 package files.
++
++## R1 assessment: hostile-mutation evidence
++
++R1 is repaired.
++
++Why:
++
++- `run_catch_proofs.py` now copies the actual package into a fresh writable temporary directory for
++  each hostile check (`/intake/package/run_catch_proofs.py:46-52`).
++- It separately proves that an unmutated package copy passes the same aggregate verifier route
++  before any attack is attempted (`/intake/package/run_catch_proofs.py:69-76`).
++- All 12 preregistered attacks mutate real package artifacts, specifically
++  `DEVELOPMENT_ATLAS.tsv` or `DERIVATION_RESULT.json`, rather than toy local variables
++  (`/intake/package/run_catch_proofs.py:18-33`, `:79-138`).
++- Each attack requires both nonzero verifier exit and the exact expected rejection substring
++  (`/intake/package/run_catch_proofs.py:52-59`).
++- The emitted hostile-catch result records baseline pass, 12/12 catches, and the expected rejection
++  reason for every mutation (`/intake/package/CATCH_PROOF_RESULT.json`).
++- The mutations are confined to temporary directories, while the only persistent write from the
++  script is the result JSON in the package root (`/intake/package/run_catch_proofs.py:151-153`).
++  The full-tree `/work/package` versus `/intake/package` comparison after replay showed no
++  persistent evidence drift, which is consistent with the claim that evidence files are left
++  unchanged outside the ephemeral attack copies.
++
++## R2 assessment: theorem-hypothesis and report-scope evidence
++
++R2 is repaired.
++
++Why:
++
++- The prior unconditional theorem-hypothesis `True` placeholders are gone from
++  `derive_local_development.py`. The script now defines an explicit eight-entry
++  `THEOREM_HYPOTHESIS_AUDIT` with typed `status` and nonempty `evidence` text for `H1` through
++  `H8` (`/intake/package/derive_local_development.py:27-60`).
++- The production result preserves that typed audit in `DERIVATION_RESULT.json`
++  (`/intake/package/derive_local_development.py:266-286`,
++  `/intake/package/DERIVATION_RESULT.json`).
++- The script explicitly separates executable analytic/algebraic checks from the imported smooth
++  harmonic PDE theorem: the principal-rank, regularity, constraint, sector, mode-separation, and
++  time-reversal items remain executable, while the theorem-application boundary is stated as
++  imported and not machine-proved (`/intake/package/derive_local_development.py:206-216`;
++  `/intake/package/EXACT_DERIVATION.md:130-155`).
++- The aggregate verifier now checks exact structured facts rather than word presence alone. It
++  verifies the exact landing string, exact conditional-theorem interface status, exact hypothesis
++  statuses, nonempty evidence text, exact report ownership/scope/landing stamps, and exact
++  status-ledger states for wellposedness, unmarked relation, occupancy, and global history
++  (`/intake/package/verify_package.py:64-75`, `:118-129`).
++- The narrative texts do not claim that G321 machine-proves the imported theorem. The derivation,
++  audit report, and lay report each preserve the conditional imported-theorem boundary and deny any
++  machine-proof overclaim (`/intake/package/EXACT_DERIVATION.md:146-155`,
++  `/intake/package/AUDIT_REPORT.md:28-32`, `/intake/package/LAY_REPORT.md:28-37`).
++- The status ledger remains aligned with that bounded ownership model: standard local wellposedness
++  is marked `IMPORTED_MATHEMATICAL_METHOD__CONDITIONAL`, while unmarked same-spacetime relation,
++  physical occupancy, and global history remain open or unselected
++  (`/intake/package/STATUS_LEDGER.tsv:7-13`).
++
++## Bounded scientific landing
++
++The bounded scientific landing is unchanged.
++
++The replayed production result, the aggregate verifier, and the three narrative reports all retain
++the same exact landing:
++
++`G320_DATA_HAVE_CONDITIONAL_UNIQUE_LOCAL_MARKED_DEVELOPMENTS__REGISTERED_BREADTH_IS_ORDINARY_CAUCHY_DATA_FREEDOM_IN_BOUNDED_ARENA__NO_GLOBAL_OR_OCCUPANCY_SELECTION`
++
++Within the repair-only scope, I found no change that broadens the scientific question, upgrades the
++claim to global history or physical occupancy, removes the conditional imported-theorem caveat, or
++otherwise refutes the bounded local marked-development conclusion.
++
++## Verdict
++
++G321_REPAIRS_ACCEPTED__CONDITIONAL_LOCAL_MARKED_UNIQUENESS_UPHELD
+
+tokens used
+70,051
+
+Script done on 2026-09-01 21:21:24-04:00 [COMMAND_EXIT_CODE="0"]
