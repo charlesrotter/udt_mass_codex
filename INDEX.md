@@ -1,7 +1,7 @@
 # INDEX — `LIVE.md` wins.
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`. 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 309-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 310-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
@@ -93,8 +93,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
 - G297--G310: `udt_g297_complete_pair_causal_dilation_equivalence_2026-08-29/`; `udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/`;
   `udt_g299_complete_relation_kernel_domain_ownership_2026-08-29/`; `udt_g300_metric_celestial_query_bundle_descent_2026-08-29/`;
   `udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/`; `udt_g302_reciprocal_trace_span_curvature_channel_separation_2026-08-30/`;
-  `udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/`;
-  `udt_g304_global_cell_constant_sector_discriminator_2026-08-30/`; `udt_g305_global_completion_hopf_domain_bridge_2026-08-30/`;
+  `udt_g303_two_class_nonlinear_cauchy_data_classification_2026-08-30/`; `udt_g304_global_cell_constant_sector_discriminator_2026-08-30/`; `udt_g305_global_completion_hopf_domain_bridge_2026-08-30/`;
   `udt_g306_intrinsic_hopf_section_frame_descent_classification_2026-08-30/`; `udt_g307_directed_relation_hopf_member_reconstruction_2026-08-30/`;
   `udt_g308_global_chirality_coherence_parity_classification_2026-08-31/`; `udt_g309_strengthened_chain_history_selection_audit_2026-08-31/`;
   `udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/`; adoption: `startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md`;
@@ -106,12 +105,13 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   G319: `udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md`; G320: `udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md`;
   G321: `udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md`; G322: `udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md`;
   G323: `udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/AUDIT_REPORT.md`; G324: `udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/AUDIT_REPORT.md`;
-  G325 diagonal: `udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`; G326 off-diagonal: `udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`.
-- Historical controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `X_max` reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
+  G325 diagonal: `udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`; G326 off-diagonal: `udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/AUDIT_REPORT.md`;
+  G327 axial tensor Fourier tile: `udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/AUDIT_REPORT.md`.
+- Controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
 - Historical negative controls — never kernel inputs: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
-- Quarantine and regression rule: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
+- Quarantine: `archive/scaffolded_kernel_controls_2026-08-19/README.md`
 - Matter/stability: begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths — see `LIVE.md` and `AGENTS.md`; do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without authority.
 Snapshots: `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`, `archive/startup_surface_2026-08-26_pre_g270/`,

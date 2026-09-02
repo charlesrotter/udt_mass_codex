@@ -1,0 +1,2846 @@
+Script started on 2026-09-02 16:02:13-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a063b7-06b6-76b2-a90f-7067cf50000c
+--------
+user
+Act as a zero-context repair-only external reviewer. The corrected sealed G327 intake is mounted read-only at /intake. First authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload. Inspect only /intake; do not edit evidence files or continue the research. Writable ephemeral checks may use /work. Network access exists solely for Codex API transport; web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Do not access any repository or protected package. Verify only preregistered repairs R1--R3 and the unchanged bounded scientific landing. Run the four registered commands literally in one writable ephemeral copy; do not use host packages. Confirm the vendored runtime is actually used, independently recompute the raw Git commit and blob identifiers, inspect the nested fourth-command guard for bypass, and compare regenerated scientific artifacts byte for byte. Do not reopen, extend, or alter the scientific question. Write the detailed report to /return/EXTERNAL_REVIEW_RESPONSE.md and end it with exactly one allowed verdict token. In the final response state the token and report path.\n\n# G327 repair-only external follow-up request
+
+Date: 2026-09-02
+
+Verify only the three evidence repairs preregistered in `REPAIR_PREREGISTRATION.md`:
+
+1. R1: the vendored SymPy/mpmath archive makes the four registered commands replay without host
+   packages, installs, downloads, repository access, or protected-package access;
+2. R2: the dependency-free intake-local proof authenticates the raw preregistration commit object,
+   exact changeset, and five blobs, with its trusted-timestamp ceiling explicit;
+3. R3: the outer aggregate literally executes the fourth registered command in a fresh copy and
+   the recursion guard bypasses no scientific, source-integrity, provenance, status, or scope gate.
+
+Also verify that all three scientific JSON artifacts remain byte-identical and that the bounded
+scientific landing is unchanged. Do not reopen or extend the scientific question.
+
+Return exactly one token:
+
+```text
+ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+REFINE__G327_R1_R2_R3_REPAIRS
+REFUTE__G327_REPAIR_NONINTERFERENCE
+```
+codex
+I’m treating this as a bounded external verification: first I’ll inventory `/intake`, authenticate the review scope and manifest chain, then I’ll locate the preregistered repairs and the four literal commands before executing them in a writable copy under `/work`.
+exec
+/bin/bash -lc 'find /intake -maxdepth 3 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/AUDIT_REPORT.md
+/intake/CATCH_PROOF_RESULT.json
+/intake/COMPLETENESS_MAP.md
+/intake/DERIVATION_RESULT.json
+/intake/EVIDENCE_GATES.md
+/intake/EXACT_DERIVATION.md
+/intake/EXTERNAL_REVIEW_FINAL_RESPONSE.md
+/intake/EXTERNAL_REVIEW_RESPONSE.md
+/intake/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/INDEPENDENT_VERIFICATION.json
+/intake/LAY_REPORT.md
+/intake/MAP.md
+/intake/PACKAGE_VERIFICATION_RESULT.json
+/intake/PREMISE_LEDGER.tsv
+/intake/PREREGISTRATION.md
+/intake/PREREGISTRATION_CHANGESET.tsv
+/intake/PREREGISTRATION_COMMIT_OBJECT.txt
+/intake/PREREGISTRATION_PROOF_RESULT.json
+/intake/PREREGISTRATION_TREE.tsv
+/intake/REPAIR_FOLLOWUP_REQUEST.md
+/intake/REPAIR_IMPLEMENTATION.md
+/intake/REPAIR_PREREGISTRATION.md
+/intake/REPLAY_COMMANDS.txt
+/intake/REPLAY_PRECONDITION.md
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/RUN_RECORD.md
+/intake/SOURCE_MANIFEST.tsv
+/intake/SOURCE_NOTE.md
+/intake/SOURCE_SCOPE.tsv
+/intake/STATUS_LEDGER.tsv
+/intake/VENDORED_RUNTIME_MANIFEST.json
+/intake/VENDORED_SYMPY_RUNTIME.zip
+/intake/build_review_intake.py
+/intake/build_vendored_runtime.py
+/intake/derive_axial_tensor_modes.py
+/intake/run_catch_proofs.py
+/intake/sealed_runtime.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.tsv
+/intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md
+/intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md
+/intake/sources/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md
+/intake/sources/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md
+/intake/verify_independent.py
+/intake/verify_package.py
+/intake/verify_preregistration_proof.py
+/intake/verify_review_intake.py
+
+exec
+/bin/bash -lc 'pwd && ls -la /intake && ls -la /work 2>/dev/null || true' in /return
+ succeeded in 0ms:
+/return
+total 6636
+dr-xr-xr-x  3 udt-admin udt-admin    4096 Sep  2 15:32 .
+drwxr-xr-x 16 udt-admin udt-admin     320 Sep  2 16:02 ..
+-r--r--r--  1 udt-admin udt-admin    3352 Sep  2 14:25 ADVERSARIAL_REVIEW_REQUEST.md
+-r--r--r--  1 udt-admin udt-admin    3673 Sep  2 15:28 AUDIT_REPORT.md
+-r--r--r--  1 udt-admin udt-admin     393 Sep  2 14:22 CATCH_PROOF_RESULT.json
+-r--r--r--  1 udt-admin udt-admin    1300 Sep  2 14:14 COMPLETENESS_MAP.md
+-r--r--r--  1 udt-admin udt-admin    2880 Sep  2 14:22 DERIVATION_RESULT.json
+-r--r--r--  1 udt-admin udt-admin    1190 Sep  2 15:28 EVIDENCE_GATES.md
+-r--r--r--  1 udt-admin udt-admin    7028 Sep  2 14:21 EXACT_DERIVATION.md
+-r--r--r--  1 udt-admin udt-admin     106 Sep  2 15:22 EXTERNAL_REVIEW_FINAL_RESPONSE.md
+-r--r--r--  1 udt-admin udt-admin    7945 Sep  2 15:22 EXTERNAL_REVIEW_RESPONSE.md
+-r--r--r--  1 udt-admin udt-admin     819 Sep  2 15:22 EXTERNAL_REVIEW_TRANSMISSION.md
+-r--r--r--  1 udt-admin udt-admin    2144 Sep  2 14:22 INDEPENDENT_VERIFICATION.json
+-r--r--r--  1 udt-admin udt-admin    1216 Sep  2 14:21 LAY_REPORT.md
+-r--r--r--  1 udt-admin udt-admin    2408 Sep  2 14:14 MAP.md
+-r--r--r--  1 udt-admin udt-admin    3521 Sep  2 15:27 PACKAGE_VERIFICATION_RESULT.json
+-r--r--r--  1 udt-admin udt-admin    1206 Sep  2 14:14 PREMISE_LEDGER.tsv
+-r--r--r--  1 udt-admin udt-admin    5093 Sep  2 14:14 PREREGISTRATION.md
+-r--r--r--  1 udt-admin udt-admin     395 Sep  2 15:24 PREREGISTRATION_CHANGESET.tsv
+-r--r--r--  1 udt-admin udt-admin     277 Sep  2 15:25 PREREGISTRATION_COMMIT_OBJECT.txt
+-r--r--r--  1 udt-admin udt-admin     632 Sep  2 15:27 PREREGISTRATION_PROOF_RESULT.json
+-r--r--r--  1 udt-admin udt-admin     660 Sep  2 15:24 PREREGISTRATION_TREE.tsv
+-r--r--r--  1 udt-admin udt-admin    1051 Sep  2 15:28 REPAIR_FOLLOWUP_REQUEST.md
+-r--r--r--  1 udt-admin udt-admin    2035 Sep  2 15:28 REPAIR_IMPLEMENTATION.md
+-r--r--r--  1 udt-admin udt-admin    3537 Sep  2 15:22 REPAIR_PREREGISTRATION.md
+-r--r--r--  1 udt-admin udt-admin     334 Sep  2 14:22 REPLAY_COMMANDS.txt
+-r--r--r--  1 udt-admin udt-admin     839 Sep  2 15:28 REPLAY_PRECONDITION.md
+-r--r--r--  1 udt-admin udt-admin      65 Sep  2 15:32 REVIEW_MANIFEST.sha256
+-r--r--r--  1 udt-admin udt-admin    5010 Sep  2 15:32 REVIEW_MANIFEST.tsv
+-r--r--r--  1 udt-admin udt-admin     742 Sep  2 15:32 REVIEW_SCOPE.json
+-r--r--r--  1 udt-admin udt-admin    1625 Sep  2 15:28 RUN_RECORD.md
+-r--r--r--  1 udt-admin udt-admin     278 Sep  2 15:26 SOURCE_MANIFEST.tsv
+-r--r--r--  1 udt-admin udt-admin    1061 Sep  2 15:28 SOURCE_NOTE.md
+-r--r--r--  1 udt-admin udt-admin     818 Sep  2 14:14 SOURCE_SCOPE.tsv
+-r--r--r--  1 udt-admin udt-admin    1612 Sep  2 15:28 STATUS_LEDGER.tsv
+-r--r--r--  1 udt-admin udt-admin     359 Sep  2 15:24 VENDORED_RUNTIME_MANIFEST.json
+-r--r--r--  1 udt-admin udt-admin 6557132 Sep  2 15:24 VENDORED_SYMPY_RUNTIME.zip
+-r--r--r--  1 udt-admin udt-admin    4609 Sep  2 15:29 build_review_intake.py
+-r--r--r--  1 udt-admin udt-admin    2193 Sep  2 15:24 build_vendored_runtime.py
+-r--r--r--  1 udt-admin udt-admin   12935 Sep  2 15:25 derive_axial_tensor_modes.py
+-r--r--r--  1 udt-admin udt-admin    3187 Sep  2 15:25 run_catch_proofs.py
+-r--r--r--  1 udt-admin udt-admin     466 Sep  2 15:25 sealed_runtime.py
+dr-xr-xr-x  8 udt-admin udt-admin    4096 Sep  2 15:32 sources
+-r--r--r--  1 udt-admin udt-admin    9501 Sep  2 15:25 verify_independent.py
+-r--r--r--  1 udt-admin udt-admin   13377 Sep  2 15:26 verify_package.py
+-r--r--r--  1 udt-admin udt-admin    3151 Sep  2 15:24 verify_preregistration_proof.py
+-r--r--r--  1 udt-admin udt-admin    2057 Sep  2 14:25 verify_review_intake.py
+total 4
+drwx------  2 udt-admin udt-admin 4096 Sep  2 16:02 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  2 16:02 ..
+
+codex
+I’ve confirmed the intake boundary and file set. Next I’m reading the scope, manifest, preregistration, and replay command definitions so I can authenticate the sealed evidence before any execution.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_MANIFEST.sha256" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /return
+ succeeded in 0ms:
+97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd
+
+ succeeded in 0ms:
+{
+  "allowed_repairs": [
+    "R1_vendored_runtime",
+    "R2_preregistration_proof",
+    "R3_literal_fourth_replay"
+  ],
+  "download_or_install_allowed": false,
+  "ephemeral_copy_checks_allowed": true,
+  "evidence_read_only": true,
+  "fresh_scientific_question_allowed": false,
+  "internet_browsing_allowed": false,
+  "law_history_scale_selection_allowed": false,
+  "manifest_payload_count": 49,
+  "new_physics_import_allowed": false,
+  "protected_package_access_allowed": false,
+  "question": "G327 evidence repairs R1-R3 with unchanged bounded scientific landing",
+  "repository_access_allowed": false,
+  "research_continuation_allowed": false,
+  "schema": "udt-g327-repair-followup-scope-v1",
+  "scientific_landing_change_allowed": false
+}
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/REVIEW_MANIFEST.tsv" in /return
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/REPAIR_PREREGISTRATION.md" in /return
+ succeeded in 0ms:
+relative_path	bytes	sha256
+ADVERSARIAL_REVIEW_REQUEST.md	3352	e00ce74d27c98f79c021acfa9eb99b2cb665da5cabd727a16759b2e88b82083f
+AUDIT_REPORT.md	3673	22f68a38d349752c32293876be3b31c3321cd23383c10cf73ba5cc2cad49d760
+CATCH_PROOF_RESULT.json	393	ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe
+COMPLETENESS_MAP.md	1300	9ea944c36519a7173cbc307df68edc708e11806279ff75597f0328d9874dafa6
+DERIVATION_RESULT.json	2880	5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491
+EVIDENCE_GATES.md	1190	4f1938df9bb99bbd71f1a3e34f80ffb3617732853d6c326e5311364ddfae9656
+EXACT_DERIVATION.md	7028	cb8212fe3b584bd3ba42240e7234f15571b4571f347d2003bc9f9a20b5dd3835
+EXTERNAL_REVIEW_FINAL_RESPONSE.md	106	783c211d877e78250e7b49c1c9416d801d9617ff19165584397732ee7cfe3ec1
+EXTERNAL_REVIEW_RESPONSE.md	7945	f1a60ff0329db1279e55f133002890fbad6855693fd697f959933cb2d694732f
+EXTERNAL_REVIEW_TRANSMISSION.md	819	6ef12e355f7e8938fdfae61eedb0e71b6c23924766e1a67ca39823a7f381f2c3
+INDEPENDENT_VERIFICATION.json	2144	2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48
+LAY_REPORT.md	1216	b6eb2330c52a769991781ab18e9bd3fc7c0c1a2ed0db16c9bf1cb2bacb97678a
+MAP.md	2408	84a45f7f0c71e0fe0716efda60ab703fbac61e697a5e012679bf6adab74b07c3
+PACKAGE_VERIFICATION_RESULT.json	3521	59e83f3e7d1f0f70ec335b434ac9d85476e81c98fb7e7bedbf2f331896f4dfb8
+PREMISE_LEDGER.tsv	1206	294dec120ee10a970133018b709ac5a3951dc2ed645a16e4092c94a5bd66d63d
+PREREGISTRATION.md	5093	a7b37b2596cf1e5fbdc5c798821cc06a4b40c61eb97b12cf9eb0a5f5a8237437
+PREREGISTRATION_CHANGESET.tsv	395	072dd0c606df7bad099782c90f772e811fff540b6d258a3f940316f7695ebbe7
+PREREGISTRATION_COMMIT_OBJECT.txt	277	7d20d13530475fc8ef76d30b987b08404ac8c028ef79c142c04eb6b65841018e
+PREREGISTRATION_PROOF_RESULT.json	632	6b5f0d58653aef665441aa0630d33f1d5207dd0522d47ebb52e026aeba18f3e5
+PREREGISTRATION_TREE.tsv	660	17ce00cc1874016dbc0cd7e293fe60491738d7ce8f09ed4bbd7ea8b74eb0ebbe
+REPAIR_FOLLOWUP_REQUEST.md	1051	ec79919475504f53ca3544acfbf8687b7ce99d6ce104bd31331e2cde6d616c65
+REPAIR_IMPLEMENTATION.md	2035	b8ad8607d7afb37149da4b730c73367a6e4d2043ef301263e5a142586cbb2b19
+REPAIR_PREREGISTRATION.md	3537	95147c9d3bbcdb6db865eefc36828441279985c6da6ac0b66cd5272b9ef5498f
+REPLAY_COMMANDS.txt	334	3ae9859db1a160c88eaaf28a3b981075b9fd2a9f504d2da3cb7012cb8180f22a
+REPLAY_PRECONDITION.md	839	a1fe71a15be33137632ccdb786f1997df70fc4fde37ed32eccfbdf2f46d23133
+REVIEW_SCOPE.json	742	425520aab17baeb7038fa223113e4a20cac697dbd560d5760142da1866880550
+RUN_RECORD.md	1625	1052f4f7abba7ec8694bc46404603031f74a57a82b2615c52c9b2250e40ca163
+SOURCE_MANIFEST.tsv	278	a85449993bc3334f7e5ab7ef0c8105477496c1a0e45f8006d60abaf6a58b065c
+SOURCE_NOTE.md	1061	b935ad2ad42ec024cb0b0a77d7cc59daa4d41441c2373c966fc2f7adbb12e721
+SOURCE_SCOPE.tsv	818	64a015609135bfebda888da8e15380bbfb30339bc6e002cfd231528cd9aa292b
+STATUS_LEDGER.tsv	1612	faf2207d81425d756daabee26bb47236f644093b4482de221b08bc339e8530bf
+VENDORED_RUNTIME_MANIFEST.json	359	91a9ecc39986c64748745473519b641011a4b642127f9d3692cd3891ba5f7ce7
+VENDORED_SYMPY_RUNTIME.zip	6557132	caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d
+build_review_intake.py	4609	c872dbcbe60ba523e0bea3c3923e47cc85d11c9239f71f24267efc393b680d84
+build_vendored_runtime.py	2193	eced6467998e7395c46f92e517952a6721498bfa9c8fe55a8152b4bf8f208289
+derive_axial_tensor_modes.py	12935	3bb966992088d279a8a13444048ef4ba62fec93f2667e7d7b312166c21926e21
+run_catch_proofs.py	3187	7c972121356cfe9900e19b1544ea62c48c8e0bd97745c7e407ad6479b4d21d4e
+sealed_runtime.py	466	32a3aa6ed3b676ffd1572b5f21b08a6ee7e381983c3fb9b2aea1635d5e480199
+sources/CURRENT_SCIENTIFIC_PREMISES.tsv	637728	122aaa1c7d64d9a4974fbf995a1ad979ceebc625b07c4ad30f713d1da9839785
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md	1871	e4adabc1e862423cc68297305ed51903107feac135497d33f26f230f6a192fe6
+sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	9131	186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b
+sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md	7728	5563c949b952fd0ddd0365f58e24eb14894d8bdaae7cab8a6bc5fad983bee776
+sources/udt_g325_g324_homogeneous_diagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md	6339	b3ddb761d74fc5a712bda41af090b9c0610f4560758f678905b3860f3bb7a99c
+sources/udt_g326_g324_homogeneous_offdiagonal_linear_modes_2026-09-02/EXACT_DERIVATION.md	7882	e2a986473cbef35ae69097c2642324a91e1053b4f028e65f3bece0320540a81e
+verify_independent.py	9501	aed32b5fd4003ad3674944edfd3fb58de6b29a94a53472a58f89623285c24ba6
+verify_package.py	13377	d3f48316dfbdf03a29f2a838800665a5d4ef35673de76c823858e15284089ff4
+verify_preregistration_proof.py	3151	d70c07079d7d6429f7c8818621e03e9e7c9daeff88772c1cc332daa96c5c5726
+verify_review_intake.py	2057	906a2e4401cf67012187e14e68f6a0a35b3248bc450165826a736f817314dfc6
+
+ succeeded in 0ms:
+# G327 external-review repair preregistration
+
+Date: 2026-09-02
+Trigger: fresh external verdict `REFINE__G327_BOUNDED_LANDING`
+
+The fresh reviewer found no scientific defect in the bounded primitive axial tensor census. It
+identified three evidence-chain defects. The following repairs are frozen before implementation.
+They may not alter the metric, equation, perturbation sector, mode equation, solution basis,
+endpoint classification, dimension count, curvature witness, or bounded scientific landing.
+
+## R1 — self-contained exact runtime
+
+Vendor the exact Python dependencies needed by the three registered symbolic programs into one
+deterministic intake-local archive. Add an intake-local bootstrap that makes the archive importable
+without internet, installation, repository access, protected-package access, or a host user site.
+The corrected sealed intake must demonstrate all registered commands from a writable ephemeral
+copy with the host user site disabled.
+
+Acceptance:
+
+- the archive contains the recorded SymPy 1.13.1 and its required mpmath dependency;
+- the archive and bootstrap are included in and authenticated by the sealed manifest;
+- a dependency-isolated probe reports SymPy 1.13.1 from the vendored archive;
+- all registered replays complete without internet, installation, or access outside the intake.
+
+Falsification: any registered computation still depends on an unsealed host package path, or fails
+when the host user site is disabled.
+
+## R2 — sealed preregistration ancestry proof
+
+Add intake-local, manifest-authenticated evidence containing the raw G327 preregistration commit
+object, its name-status change, and the exact preregistration tree entries. The verifier must
+recompute the Git commit object identifier from the raw commit payload and require
+`9bec301bc265bf67afa5f8398f7557ccdabb855b` exactly. It must also require that only the five frozen
+preregistration files entered at that commit and authenticate their blob identifiers.
+
+Acceptance: the corrected intake lets a reviewer validate the commit object and frozen file set
+without repository access.
+
+Falsification: the recomputed commit identifier, changed-file set, or registered blob identifiers
+do not match the frozen proof.
+
+This proves the content and Git ancestry marker carried by the repository. It is not an external
+trusted timestamp or a claim that Git can prove human outcome blindness by itself.
+
+## R3 — literal fourth-command replay
+
+Strengthen `verify_package.py` so its outer run executes all four lines in
+`REPLAY_COMMANDS.txt` from one fresh writable package copy. The fourth line must be invoked
+literally. A narrowly scoped environment sentinel may tell that nested invocation not to recurse
+again; it may not bypass scientific, source-integrity, provenance, or status gates. The outer run
+must confirm the fourth command exits successfully and creates its declared ephemeral artifact.
+
+Acceptance: the aggregate artifact records a successful literal fourth-command replay.
+
+Falsification: the fourth line is merely string-checked, is not executed, recurses without bound,
+or can pass after a source substitution.
+
+## Maximum retained conclusion
+
+If R1--R3 pass locally and a repair-only external reviewer accepts them, the original bounded
+scientific landing may be upgraded only to externally accepted after evidence repair. No full
+Fourier-spectrum, linear-stability, nonlinear-stability, endpoint-admissibility, occupancy,
+history, scale, observation, matter/mass, or physical `X_max` conclusion follows.
+
+
+exec
+/bin/bash -lc "sed -n '1,200p' /intake/REPLAY_COMMANDS.txt" in /return
+ succeeded in 0ms:
+python3 derive_axial_tensor_modes.py --output .review_runtime/DERIVATION_RESULT.json
+python3 verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+python3 run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
+
+codex
+The preregistration pins the exact verification target cleanly. I’m moving to code and proof inspection now: bootstrap/runtime isolation, preregistration proof logic, and the fourth-command recursion guard.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/sealed_runtime.py" in /return
+ succeeded in 0ms:
+"""Activate the intake-local G327 symbolic runtime using only the standard library."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+
+def activate_runtime() -> Path:
+    archive = Path(__file__).resolve().with_name("VENDORED_SYMPY_RUNTIME.zip")
+    if not archive.is_file():
+        raise RuntimeError(f"sealed runtime missing: {archive}")
+    if str(archive) not in sys.path:
+        sys.path.insert(0, str(archive))
+    return archive
+
+
+exec
+/bin/bash -lc "sed -n '1,320p' /intake/verify_package.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate, provenance, and no-write replay verifier for G327."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import shlex
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+LANDING = (
+    "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__"
+    "BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__"
+    "OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM"
+)
+
+SOURCE_SHA256 = {
+    "derive_axial_tensor_modes.py":
+        "3bb966992088d279a8a13444048ef4ba62fec93f2667e7d7b312166c21926e21",
+    "verify_independent.py":
+        "aed32b5fd4003ad3674944edfd3fb58de6b29a94a53472a58f89623285c24ba6",
+    "run_catch_proofs.py":
+        "7c972121356cfe9900e19b1544ea62c48c8e0bd97745c7e407ad6479b4d21d4e",
+}
+
+EVIDENCE_SHA256 = {
+    "sealed_runtime.py":
+        "32a3aa6ed3b676ffd1572b5f21b08a6ee7e381983c3fb9b2aea1635d5e480199",
+    "VENDORED_SYMPY_RUNTIME.zip":
+        "caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d",
+    "VENDORED_RUNTIME_MANIFEST.json":
+        "91a9ecc39986c64748745473519b641011a4b642127f9d3692cd3891ba5f7ce7",
+    "verify_preregistration_proof.py":
+        "d70c07079d7d6429f7c8818621e03e9e7c9daeff88772c1cc332daa96c5c5726",
+    "PREREGISTRATION_COMMIT_OBJECT.txt":
+        "7d20d13530475fc8ef76d30b987b08404ac8c028ef79c142c04eb6b65841018e",
+    "PREREGISTRATION_CHANGESET.tsv":
+        "072dd0c606df7bad099782c90f772e811fff540b6d258a3f940316f7695ebbe7",
+    "PREREGISTRATION_TREE.tsv":
+        "17ce00cc1874016dbc0cd7e293fe60491738d7ce8f09ed4bbd7ea8b74eb0ebbe",
+}
+
+
+def load(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def canned_emitter(artifact: str) -> str:
+    return f'''#!/usr/bin/env python3
+import argparse
+from pathlib import Path
+parser = argparse.ArgumentParser()
+parser.add_argument("--output", required=True)
+args = parser.parse_args()
+root = Path(__file__).resolve().parent
+rendered = (root / "{artifact}").read_text(encoding="utf-8")
+output = root / args.output
+output.parent.mkdir(parents=True, exist_ok=True)
+output.write_text(rendered, encoding="utf-8")
+print(rendered, end="")
+'''
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default=None)
+    args = parser.parse_args()
+    package = Path(__file__).resolve().parent
+    nested_replay = os.environ.get("UDT_G327_NESTED_AGGREGATE") == "1"
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    production = load(package / "DERIVATION_RESULT.json")
+    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    hostile = load(package / "CATCH_PROOF_RESULT.json")
+
+    gate(production["landing"] == LANDING, "production_landing")
+    gate(independent["landing"] == LANDING, "independent_landing")
+    gate(production["status"] == "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+         "production_status")
+    gate(independent["status"] == "INDEPENDENT_VERIFIED", "independent_status")
+    gate(hostile["status"] == "PASS", "hostile_status")
+    gate(production["assertion_count"] == 32, "production_assertion_count")
+    gate(independent["assertion_count"] == 25, "independent_assertion_count")
+    gate(hostile["caught"] == hostile["attempted"] == 6, "hostile_six_of_six")
+    gate(production["mode_ode"] == "H''+H'/T+nu^2*T^(2/3)*H=0", "exact_mode_ode")
+    gate(production["time_basis"] == ["J_0(z)", "Y_0(z)"], "complete_time_basis")
+    gate(production["time_wronskian"] == "T*W_T=8/(3*pi)", "nonzero_wronskian")
+    gate(production["real_solution_dimension"] == 8, "production_dimension_eight")
+    gate(independent["real_solution_dimension"] == 8, "independent_dimension_eight")
+    gate(production["linearized_scalar_curvature"] == "0", "production_scalar_zero")
+    gate(independent["linearized_scalar_curvature"] == "0", "independent_scalar_zero")
+    gate(production["plus_tidal_on_shell"] == (
+        "-Derivative(h_plus(T), T)/(3*T) + 4*h_plus(T)/(9*T**2) + "
+        "T**(2/3)*k**2*h_plus(T)/C1**2"
+    ), "plus_tidal_formula_exact")
+    gate(production["cross_tidal_on_shell"] == (
+        "-Derivative(h_cross(T), T)/(3*T) + 4*h_cross(T)/(9*T**2) + "
+        "T**(2/3)*k**2*h_cross(T)/C1**2"
+    ), "cross_tidal_formula_exact")
+    gate(production["compact_time_norm_finite"], "compact_time_norm_finite")
+    gate("T^(-2/3)" in production["future_endpoint"], "future_power_recorded")
+    gate(not production["full_fourier_spectrum_classified"], "full_spectrum_open")
+    gate(not production["full_linear_stability_proved"], "linear_stability_open")
+    gate(not production["nonlinear_stability_proved"], "nonlinear_stability_open")
+    gate(not production["physical_occupancy_selected"], "occupancy_open")
+    gate(not production["physical_scale_selected"], "scale_open")
+    gate(not production["Xmax_selected"], "xmax_open")
+    gate(not production["metric_changed"] and not production["kernel_changed"]
+         and not production["angular_sector_changed"] and not production["equation_changed"],
+         "native_objects_and_equation_unchanged")
+
+    for name, expected in SOURCE_SHA256.items():
+        gate(digest(package / name) == expected, f"source_integrity:{name}")
+    manifest_rows = {
+        fields[0]: fields[1]
+        for line in (package / "SOURCE_MANIFEST.tsv").read_text(encoding="utf-8").splitlines()[1:]
+        if line.strip()
+        for fields in [line.split("\t")]
+    }
+    gate(manifest_rows == SOURCE_SHA256, "source_manifest_exact")
+    for name, expected in EVIDENCE_SHA256.items():
+        gate(digest(package / name) == expected, f"evidence_integrity:{name}")
+
+    runtime_manifest = load(package / "VENDORED_RUNTIME_MANIFEST.json")
+    gate(runtime_manifest["archive_sha256"] == EVIDENCE_SHA256[
+        "VENDORED_SYMPY_RUNTIME.zip"
+    ], "runtime_manifest_archive_hash")
+    gate(runtime_manifest["packages"] == {"mpmath": "1.3.0", "sympy": "1.13.1"},
+         "runtime_versions_registered")
+    isolated_environment = os.environ.copy()
+    isolated_environment["PYTHONNOUSERSITE"] = "1"
+    runtime_probe = subprocess.run(
+        [sys.executable, "-c", (
+            "from sealed_runtime import activate_runtime; p=activate_runtime(); "
+            "import json,sympy,mpmath; print(json.dumps({"
+            "'archive':str(p),'sympy':sympy.__version__,'sympy_file':sympy.__file__,"
+            "'mpmath':mpmath.__version__,'mpmath_file':mpmath.__file__},sort_keys=True))"
+        )],
+        cwd=package, env=isolated_environment, check=True, capture_output=True, text=True,
+    )
+    runtime_state = json.loads(runtime_probe.stdout)
+    gate(runtime_state["sympy"] == "1.13.1" and runtime_state["mpmath"] == "1.3.0",
+         "dependency_isolated_runtime_versions")
+    gate("VENDORED_SYMPY_RUNTIME.zip" in runtime_state["sympy_file"]
+         and "VENDORED_SYMPY_RUNTIME.zip" in runtime_state["mpmath_file"],
+         "dependency_isolated_runtime_paths")
+
+    preregistration = subprocess.run(
+        [sys.executable, "-S", "verify_preregistration_proof.py"],
+        cwd=package, check=True, capture_output=True, text=True,
+    )
+    preregistration_result = json.loads(preregistration.stdout)
+    gate(preregistration_result["status"] == "PASS", "preregistration_proof_pass")
+    gate(preregistration_result["commit"] ==
+         "9bec301bc265bf67afa5f8398f7557ccdabb855b",
+         "preregistration_commit_object_authenticated")
+
+    independent_text = (package / "verify_independent.py").read_text(encoding="utf-8")
+    gate("import derive_axial_tensor_modes" not in independent_text,
+         "independent_no_production_import")
+    gate("from derive_axial_tensor_modes" not in independent_text,
+         "independent_no_production_from_import")
+    gate("DERIVATION_RESULT.json" not in independent_text,
+         "independent_no_production_result_read")
+
+    exact = (package / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    audit = (package / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+    lay = (package / "LAY_REPORT.md").read_text(encoding="utf-8")
+    ledger = (package / "PREMISE_LEDGER.tsv").read_text(encoding="utf-8")
+    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+    gate("9bec301b" in audit, "preregistration_commit_recorded")
+    gate("not the complete nonzero Fourier problem" in audit, "audit_scope_boundary")
+    gate("not proof that the whole spacetime is stable" in lay, "lay_stability_boundary")
+    gate("OWNER_ADOPTED_PROVISIONAL_POSTULATE" in ledger, "owner_postulate_visible")
+    gate("ABSENT" in ledger and "source action matter observation fit scale Xmax" in ledger,
+         "forbidden_imports_absent")
+
+    replay_lines = [
+        line.strip()
+        for line in (package / "REPLAY_COMMANDS.txt").read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    gate(len(replay_lines) == 4, "registered_command_count")
+    gate(all(".review_runtime/" in line for line in replay_lines),
+         "all_registered_outputs_ephemeral")
+    gate(replay_lines[3] == (
+        "python3 -S verify_package.py --output "
+        ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
+    ), "fourth_command_self")
+
+    artifact_names = (
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "PACKAGE_VERIFICATION_RESULT.json",
+    )
+    literal_replay_count = 0
+    literal_fourth_command_replayed = False
+    if not nested_replay:
+        with tempfile.TemporaryDirectory(prefix="udt_g327_replay_") as temporary:
+            copy = Path(temporary) / "package"
+            shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+            for index, (line, artifact) in enumerate(zip(replay_lines, artifact_names)):
+                environment = isolated_environment.copy()
+                if index == 3:
+                    environment["UDT_G327_NESTED_AGGREGATE"] = "1"
+                completed = subprocess.run(
+                    shlex.split(line), cwd=copy, env=environment, check=True,
+                    capture_output=True, text=True,
+                )
+                literal_replay_count += 1
+                gate(completed.returncode == 0, f"replay_exit:{artifact}")
+                generated = copy / ".review_runtime" / artifact
+                gate(generated.is_file(), f"replay_created:{artifact}")
+                if index < 3:
+                    gate(generated.read_bytes() == (package / artifact).read_bytes(),
+                         f"replay_byte_exact:{artifact}")
+                else:
+                    child = load(generated)
+                    gate(child["status"] == "PASS_INTERNAL_PENDING_EXTERNAL_REPAIR_REVIEW",
+                         "fourth_command_child_status")
+                    gate(child["nested_replay"] is True,
+                         "fourth_command_child_recursion_guard")
+                    literal_fourth_command_replayed = True
+        gate(literal_replay_count == 4, "all_four_registered_commands_replayed")
+        gate(literal_fourth_command_replayed, "literal_fourth_command_replayed")
+    else:
+        gate(nested_replay, "nested_replay_guard_active")
+
+    # Reject a replacement that merely republishes the banked artifact.
+    canned_targets = {
+        "derive_axial_tensor_modes.py": "DERIVATION_RESULT.json",
+        "verify_independent.py": "INDEPENDENT_VERIFICATION.json",
+        "run_catch_proofs.py": "CATCH_PROOF_RESULT.json",
+    }
+    if not nested_replay:
+        for script_name, artifact_name in canned_targets.items():
+            with tempfile.TemporaryDirectory(prefix="udt_g327_canned_") as temporary:
+                copy = Path(temporary) / "package"
+                shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+                (copy / script_name).write_text(canned_emitter(artifact_name), encoding="utf-8")
+                completed = subprocess.run(
+                    [sys.executable, "-S", "verify_package.py"], cwd=copy,
+                    capture_output=True, text=True
+                )
+                gate(completed.returncode != 0
+                     and f"source_integrity:{script_name}" in completed.stderr,
+                     f"canned_substitution_rejected:{script_name}")
+
+    result = {
+        "schema": "udt-g327-package-verification-v1",
+        "status": "PASS_INTERNAL_PENDING_EXTERNAL_REPAIR_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "exact_replay": True,
+        "registered_replay_count": literal_replay_count,
+        "literal_fourth_command_replayed": literal_fourth_command_replayed,
+        "nested_replay": nested_replay,
+        "vendored_runtime_used": True,
+        "preregistration_commit_authenticated": True,
+        "banked_evidence_overwritten": False,
+        "python_version": sys.version,
+    }
+    rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    if args.output:
+        output = package / args.output
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,280p' /intake/verify_independent.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Implementation-distinct exact verifier for G327.
+
+This route constructs the epsilon-dependent metric, inverts it exactly, builds its full
+Christoffel/Ricci tensors, and only then differentiates at epsilon=0. It imports neither the
+production module nor its generated result.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from sealed_runtime import activate_runtime
+
+activate_runtime()
+import sympy as sp
+
+
+EXPECTED_LANDING = (
+    "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__"
+    "BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__"
+    "OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM"
+)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+
+    t, x, y, z = sp.symbols("t x y z", positive=True, real=True)
+    eps = sp.symbols("eps", real=True)
+    ax, ap, wave = sp.symbols("A_x A_p wave", positive=True, real=True)
+    plus = sp.Function("P")(t)
+    cross = sp.Function("C")(t)
+    spatial_phase = sp.exp(sp.I * wave * x)
+    coords = (t, x, y, z)
+    n = 4
+
+    axial = ax**2 * t ** sp.Rational(-2, 3)
+    transverse = ap**2 * t ** sp.Rational(4, 3)
+    metric = sp.zeros(n)
+    metric[0, 0] = -1
+    metric[1, 1] = axial
+    metric[2, 2] = transverse * (1 + 2 * eps * plus * spatial_phase)
+    metric[3, 3] = transverse * (1 - 2 * eps * plus * spatial_phase)
+    metric[2, 3] = metric[3, 2] = 2 * eps * transverse * cross * spatial_phase
+    inverse = sp.simplify(metric.inv())
+
+    connection = [[[
+        sp.Rational(1, 2) * sum(
+            inverse[a, d] * (
+                sp.diff(metric[d, c], coords[b])
+                + sp.diff(metric[d, b], coords[c])
+                - sp.diff(metric[b, c], coords[d])
+            )
+            for d in range(n)
+        )
+        for c in range(n)] for b in range(n)] for a in range(n)]
+
+    ricci = sp.MutableDenseMatrix(n, n, [0] * n**2)
+    for a in range(n):
+        for b in range(n):
+            value = 0
+            for c in range(n):
+                value += sp.diff(connection[c][a][b], coords[c])
+                value -= sp.diff(connection[c][a][c], coords[b])
+                for d in range(n):
+                    value += connection[c][c][d] * connection[d][a][b]
+                    value -= connection[c][b][d] * connection[d][a][c]
+            ricci[a, b] = value
+
+    scalar = sum(inverse[a, b] * ricci[a, b] for a in range(n) for b in range(n))
+
+    def linear(expression: sp.Expr) -> sp.Expr:
+        return sp.factor(sp.simplify(sp.diff(expression, eps).subs(eps, 0)))
+
+    delta_ricci = sp.MutableDenseMatrix(n, n, lambda a, b: linear(ricci[a, b]))
+    delta_scalar = linear(scalar)
+    background_metric = metric.subs(eps, 0)
+    delta_tf = sp.MutableDenseMatrix(
+        n,
+        n,
+        lambda a, b: sp.factor(sp.simplify(
+            delta_ricci[a, b] - delta_scalar * background_metric[a, b] / 4
+        )),
+    )
+
+    plus_operator = (
+        sp.diff(plus, t, 2) + sp.diff(plus, t) / t
+        + wave**2 * t ** sp.Rational(2, 3) * plus / ax**2
+    )
+    cross_operator = (
+        sp.diff(cross, t, 2) + sp.diff(cross, t) / t
+        + wave**2 * t ** sp.Rational(2, 3) * cross / ax**2
+    )
+    expected_plus = transverse * spatial_phase * plus_operator
+    expected_cross = transverse * spatial_phase * cross_operator
+
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    gate(delta_scalar == 0, "full_metric_route_scalar_zero")
+    allowed = {(2, 2), (2, 3), (3, 2), (3, 3)}
+    for a in range(n):
+        for b in range(n):
+            if (a, b) not in allowed:
+                gate(delta_tf[a, b] == 0, f"full_metric_constraint_zero_{a}{b}")
+    gate(sp.simplify(delta_tf[2, 2] - expected_plus) == 0,
+         "full_metric_plus_equation")
+    gate(sp.simplify(delta_tf[3, 3] + expected_plus) == 0,
+         "full_metric_plus_partner")
+    gate(sp.simplify(delta_tf[2, 3] - expected_cross) == 0,
+         "full_metric_cross_equation")
+    gate(sp.simplify(delta_tf[3, 2] - expected_cross) == 0,
+         "full_metric_cross_partner")
+
+    # Independent gauge check from the exact Lie derivative of the background.
+    q = [sp.Function(f"q{a}")(t) * spatial_phase for a in range(n)]
+    lie = sp.MutableDenseMatrix(n, n, [0] * n**2)
+    for a in range(n):
+        for b in range(n):
+            lie[a, b] = sp.simplify(
+                sum(q[c] * sp.diff(background_metric[a, b], coords[c]) for c in range(n))
+                + sum(background_metric[c, b] * sp.diff(q[c], coords[a]) for c in range(n))
+                + sum(background_metric[a, c] * sp.diff(q[c], coords[b]) for c in range(n))
+            )
+    transverse_tf = sp.Matrix([
+        [sp.simplify((lie[2, 2] - lie[3, 3]) / (2 * transverse)),
+         sp.simplify(lie[2, 3] / transverse)],
+        [sp.simplify(lie[3, 2] / transverse),
+         sp.simplify((lie[3, 3] - lie[2, 2]) / (2 * transverse))],
+    ])
+    gate(transverse_tf == sp.zeros(2), "independent_periodic_gauge_zero_tensor_image")
+
+    # Reconstruct a lower-index tidal component from the full epsilon-dependent connection.
+    def riemann_up(a: int, b: int, c: int, d: int) -> sp.Expr:
+        value = sp.diff(connection[a][b][d], coords[c]) - sp.diff(
+            connection[a][b][c], coords[d]
+        )
+        for e in range(n):
+            value += connection[a][c][e] * connection[e][b][d]
+            value -= connection[a][d][e] * connection[e][b][c]
+        return value
+
+    def riemann_lower(a: int, b: int, c: int, d: int) -> sp.Expr:
+        return sum(metric[a, e] * riemann_up(e, b, c, d) for e in range(n))
+
+    plus_tide = linear(
+        (riemann_lower(0, 2, 0, 2) - riemann_lower(0, 3, 0, 3))
+        / (2 * transverse * spatial_phase)
+    )
+    cross_tide = linear(
+        riemann_lower(0, 2, 0, 3) / (transverse * spatial_phase)
+    )
+    plus_tide_on_shell = sp.factor(sp.simplify(plus_tide.subs(
+        sp.diff(plus, t, 2),
+        -sp.diff(plus, t) / t - wave**2 * t ** sp.Rational(2, 3) * plus / ax**2,
+    )))
+    cross_tide_on_shell = sp.factor(sp.simplify(cross_tide.subs(
+        sp.diff(cross, t, 2),
+        -sp.diff(cross, t) / t - wave**2 * t ** sp.Rational(2, 3) * cross / ax**2,
+    )))
+    plus_sample = sp.simplify(plus_tide_on_shell.subs({
+        t: 1, ax: 1, wave: 1, plus: 1, sp.diff(plus, t): 0,
+    }))
+    cross_sample = sp.simplify(cross_tide_on_shell.subs({
+        t: 1, ax: 1, wave: 1, cross: 1, sp.diff(cross, t): 0,
+    }))
+    gate(plus_sample == sp.Rational(13, 9), "independent_plus_curvature_witness")
+    gate(cross_sample == sp.Rational(13, 9), "independent_cross_curvature_witness")
+
+    # Independent solution check: transform the ODE coefficient-by-coefficient.
+    nu = sp.symbols("nu", positive=True, real=True)
+    argument = sp.Rational(3, 4) * nu * t ** sp.Rational(4, 3)
+    test_function = sp.Function("F")
+    composed = test_function(argument)
+    transformed = sp.factor(sp.simplify(
+        sp.diff(composed, t, 2) + sp.diff(composed, t) / t
+        + nu**2 * t ** sp.Rational(2, 3) * composed
+    ))
+    target = sp.diff(argument, t)**2 * (
+        sp.Subs(sp.diff(test_function(sp.Symbol("u")), sp.Symbol("u"), 2),
+                sp.Symbol("u"), argument)
+        + sp.Subs(sp.diff(test_function(sp.Symbol("u")), sp.Symbol("u")),
+                  sp.Symbol("u"), argument) / argument
+        + test_function(argument)
+    )
+    gate(sp.simplify(transformed - target) == 0, "independent_bessel_transform")
+
+    # Frobenius analysis at t=0 independently recovers a repeated indicial root zero.
+    m = sp.symbols("m")
+    indicial = sp.expand(m * (m - 1) + m)
+    gate(indicial == m**2, "past_indicial_repeated_zero_root")
+    gate(sp.solve(indicial, m) == [0], "past_finite_and_log_pair")
+
+    # WKB/Bessel large-argument exponent and state dimension.
+    argument_power = sp.Rational(4, 3)
+    gate(-argument_power / 2 == sp.Rational(-2, 3),
+         "independent_future_envelope_power")
+    gate(2 * 2 * 2 == 8, "independent_real_dimension_eight")
+
+    result = {
+        "schema": "udt-g327-axial-first-fourier-independent-v1",
+        "status": "INDEPENDENT_VERIFIED",
+        "landing": EXPECTED_LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "method": "exact epsilon metric inversion then full Christoffel/Ricci differentiation",
+        "mode_ode": "H''+H'/t+nu^2*t^(2/3)*H=0",
+        "bessel_argument": "3*nu*t^(4/3)/4",
+        "linearized_scalar_curvature": "0",
+        "real_solution_dimension": 8,
+        "plus_tidal_on_shell": str(plus_tide_on_shell),
+        "cross_tidal_on_shell": str(cross_tide_on_shell),
+        "future_relative_envelope": "t^(-2/3)",
+        "full_fourier_spectrum_classified": False,
+        "full_linear_stability_proved": False,
+        "metric_changed": False,
+        "kernel_changed": False,
+        "angular_sector_changed": False,
+        "equation_changed": False,
+        "python_version": sys.version,
+        "sympy_version": sp.__version__,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/verify_preregistration_proof.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Dependency-free verifier for the sealed G327 preregistration commit proof."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+COMMIT = "9bec301bc265bf67afa5f8398f7557ccdabb855b"
+PREFIX = "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/"
+FILES = {
+    PREFIX + "COMPLETENESS_MAP.md": "90164d56a09cc658104ee99666f328b9e0a61be0",
+    PREFIX + "MAP.md": "e9ec11a0557b1d572a1d572d9c245f5eb0ccb70b",
+    PREFIX + "PREMISE_LEDGER.tsv": "1babd1a4c5b7691f8c7670d490dd043f5c109504",
+    PREFIX + "PREREGISTRATION.md": "1b687ca3344457ed208215a3b85a54d3b5f2f253",
+    PREFIX + "SOURCE_SCOPE.tsv": "0a93ab8adb6c0b1a00cfa5d2b036e58e314d35ef",
+}
+
+
+def git_object(kind: str, payload: bytes) -> str:
+    header = f"{kind} {len(payload)}\0".encode("ascii")
+    return hashlib.sha1(header + payload).hexdigest()
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default=None)
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    commit_payload = (root / "PREREGISTRATION_COMMIT_OBJECT.txt").read_bytes()
+    gate(git_object("commit", commit_payload) == COMMIT, "raw_commit_object_hash")
+    commit_text = commit_payload.decode("utf-8")
+    gate("tree 1a7fedca384e509831597d19ff16d032526e4731\n" in commit_text,
+         "commit_tree_recorded")
+    gate("parent 2077ec6bef8dab2102a7b64dc8c5146c5670716c\n" in commit_text,
+         "commit_parent_recorded")
+
+    with (root / "PREREGISTRATION_CHANGESET.tsv").open(newline="", encoding="utf-8") as handle:
+        changes = list(csv.DictReader(handle, delimiter="\t"))
+    gate({row["path"] for row in changes} == set(FILES), "exact_preregistered_file_set")
+    gate(all(row["status"] == "A" for row in changes), "all_five_added_at_preregistration")
+
+    with (root / "PREREGISTRATION_TREE.tsv").open(newline="", encoding="utf-8") as handle:
+        tree = list(csv.DictReader(handle, delimiter="\t"))
+    gate({row["path"]: row["object"] for row in tree} == FILES,
+         "tree_blob_registry_exact")
+    gate(all(row["mode"] == "100644" and row["type"] == "blob" for row in tree),
+         "tree_modes_and_types_exact")
+
+    for path, expected in FILES.items():
+        local = root / path.removeprefix(PREFIX)
+        gate(git_object("blob", local.read_bytes()) == expected,
+             "blob:" + local.name)
+
+    result = {
+        "schema": "udt-g327-preregistration-proof-v1",
+        "status": "PASS",
+        "commit": COMMIT,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "scope_note": "content-and-ancestry-marker proof, not an external trusted timestamp",
+    }
+    rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    if args.output:
+        output = root / args.output
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(rendered, encoding="utf-8")
+    print(rendered, end="")
+
+
+if __name__ == "__main__":
+    main()
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/VENDORED_RUNTIME_MANIFEST.json && printf '\\n---\\n' && sed -n '1,220p' /intake/REPLAY_PRECONDITION.md" in /return
+ succeeded in 0ms:
+{
+  "archive": "VENDORED_SYMPY_RUNTIME.zip",
+  "archive_bytes": 6557132,
+  "archive_sha256": "caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d",
+  "excluded": [
+    "__pycache__",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "file_count": 1633,
+  "packages": {
+    "mpmath": "1.3.0",
+    "sympy": "1.13.1"
+  },
+  "schema": "udt-g327-vendored-runtime-v1"
+}
+
+---
+# G327 sealed replay precondition
+
+The sealed intake itself remains read-only. Authenticate it first:
+
+```text
+python3 -S verify_review_intake.py
+```
+
+Then create a writable ephemeral copy before running the registered commands:
+
+```text
+cp -r /intake/. /work/g327_review_writable/
+chmod -R u+w /work/g327_review_writable
+cd /work/g327_review_writable
+```
+
+Run the four lines in `REPLAY_COMMANDS.txt` literally. They write only under `.review_runtime/` and
+must not overwrite the sealed or banked evidence files.
+
+The intake contains its exact symbolic dependencies in `VENDORED_SYMPY_RUNTIME.zip`. To prove the
+host user site is not supplying them, the reviewer may run the four commands with
+`PYTHONNOUSERSITE=1`; the registered programs activate only the sealed archive before importing
+SymPy. No install or network access is required.
+
+codex
+The runtime bootstrap is minimal and the aggregate verifier does execute the fourth line literally, but I still need independent confirmation rather than relying on its self-report. I’m checking the remaining scripts and then I’ll run the literal replay in a fresh `/work` copy with the user site disabled.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/derive_axial_tensor_modes.py" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/run_catch_proofs.py" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/verify_review_intake.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Exact production derivation for the bounded G327 axial tensor sector."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from sealed_runtime import activate_runtime
+
+activate_runtime()
+import sympy as sp
+
+
+LANDING = (
+    "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__"
+    "BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__"
+    "OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM"
+)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+
+    T, X, y, z_coord = sp.symbols("T X y z", positive=True, real=True)
+    C1, Cp, k = sp.symbols("C1 Cp k", positive=True, real=True)
+    hp = sp.Function("h_plus")(T)
+    hx = sp.Function("h_cross")(T)
+    phase = sp.exp(sp.I * k * X)
+    coordinates = (T, X, y, z_coord)
+    dimension = 4
+
+    a2 = C1**2 * T ** sp.Rational(-2, 3)
+    b2 = Cp**2 * T ** sp.Rational(4, 3)
+    g0 = sp.diag(-1, a2, b2, b2)
+    g0_inverse = sp.diag(-1, 1 / a2, 1 / b2, 1 / b2)
+    perturbation = sp.zeros(dimension)
+    perturbation[2, 2] = 2 * b2 * hp * phase
+    perturbation[3, 3] = -2 * b2 * hp * phase
+    perturbation[2, 3] = perturbation[3, 2] = 2 * b2 * hx * phase
+    inverse_perturbation = -g0_inverse * perturbation * g0_inverse
+
+    gamma0 = [[[
+        sp.simplify(sp.Rational(1, 2) * sum(
+            g0_inverse[a, d] * (
+                sp.diff(g0[d, c], coordinates[b])
+                + sp.diff(g0[d, b], coordinates[c])
+                - sp.diff(g0[b, c], coordinates[d])
+            )
+            for d in range(dimension)
+        ))
+        for c in range(dimension)] for b in range(dimension)] for a in range(dimension)]
+
+    delta_gamma = [[[
+        sp.simplify(sp.Rational(1, 2) * sum(
+            inverse_perturbation[a, d] * (
+                sp.diff(g0[d, c], coordinates[b])
+                + sp.diff(g0[d, b], coordinates[c])
+                - sp.diff(g0[b, c], coordinates[d])
+            )
+            + g0_inverse[a, d] * (
+                sp.diff(perturbation[d, c], coordinates[b])
+                + sp.diff(perturbation[d, b], coordinates[c])
+                - sp.diff(perturbation[b, c], coordinates[d])
+            )
+            for d in range(dimension)
+        ))
+        for c in range(dimension)] for b in range(dimension)] for a in range(dimension)]
+
+    delta_ricci = sp.MutableDenseMatrix(dimension, dimension, [0] * dimension**2)
+    for a in range(dimension):
+        for b in range(dimension):
+            value = 0
+            for c in range(dimension):
+                value += sp.diff(delta_gamma[c][a][b], coordinates[c])
+                value -= sp.diff(delta_gamma[c][a][c], coordinates[b])
+                for d in range(dimension):
+                    value += delta_gamma[c][c][d] * gamma0[d][a][b]
+                    value += gamma0[c][c][d] * delta_gamma[d][a][b]
+                    value -= delta_gamma[c][b][d] * gamma0[d][a][c]
+                    value -= gamma0[c][b][d] * delta_gamma[d][a][c]
+            delta_ricci[a, b] = sp.simplify(sp.expand(value))
+
+    delta_scalar = sp.simplify(sum(
+        g0_inverse[a, b] * delta_ricci[a, b]
+        for a in range(dimension) for b in range(dimension)
+    ))
+    delta_tracefree = sp.MutableDenseMatrix(
+        dimension,
+        dimension,
+        lambda a, b: sp.simplify(delta_ricci[a, b] - delta_scalar * g0[a, b] / 4),
+    )
+
+    expected_plus = b2 * phase * (
+        sp.diff(hp, T, 2) + sp.diff(hp, T) / T + k**2 * T ** sp.Rational(2, 3) * hp / C1**2
+    )
+    expected_cross = b2 * phase * (
+        sp.diff(hx, T, 2) + sp.diff(hx, T) / T + k**2 * T ** sp.Rational(2, 3) * hx / C1**2
+    )
+
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    gate(delta_scalar == 0, "linearized_scalar_zero")
+    expected_nonzero = {(2, 2), (3, 3), (2, 3), (3, 2)}
+    for a in range(dimension):
+        for b in range(dimension):
+            if (a, b) not in expected_nonzero:
+                gate(delta_tracefree[a, b] == 0, f"constraint_component_zero_{a}{b}")
+    gate(sp.simplify(delta_tracefree[2, 2] - expected_plus) == 0,
+         "plus_equation_exact")
+    gate(sp.simplify(delta_tracefree[3, 3] + expected_plus) == 0,
+         "plus_trace_partner_exact")
+    gate(sp.simplify(delta_tracefree[2, 3] - expected_cross) == 0,
+         "cross_equation_exact")
+    gate(sp.simplify(delta_tracefree[3, 2] - expected_cross) == 0,
+         "cross_symmetry_exact")
+
+    # Gauge image: for a same-mode periodic vector, the transverse block receives only
+    # the pure-trace time-shift term because all transverse derivatives vanish.
+    xi0, xi1, xi2, xi3 = [sp.Function(f"xi_{index}")(T) * phase for index in range(4)]
+    xi = (xi0, xi1, xi2, xi3)
+    lie = sp.MutableDenseMatrix(dimension, dimension, [0] * dimension**2)
+    for a in range(dimension):
+        for b in range(dimension):
+            lie[a, b] = sp.simplify(
+                sum(xi[c] * sp.diff(g0[a, b], coordinates[c]) for c in range(dimension))
+                + sum(g0[c, b] * sp.diff(xi[c], coordinates[a]) for c in range(dimension))
+                + sum(g0[a, c] * sp.diff(xi[c], coordinates[b]) for c in range(dimension))
+            )
+    transverse_trace = sp.simplify((lie[2, 2] + lie[3, 3]) / (2 * b2))
+    lie_tf_22 = sp.simplify(lie[2, 2] / b2 - transverse_trace)
+    lie_tf_33 = sp.simplify(lie[3, 3] / b2 - transverse_trace)
+    lie_tf_23 = sp.simplify(lie[2, 3] / b2)
+    gate(lie_tf_22 == 0 and lie_tf_33 == 0 and lie_tf_23 == 0,
+         "periodic_same_mode_gauge_has_zero_transverse_tf_image")
+
+    # Direct first variation of R_{0 A 0 B}; a nonzero on-shell tidal response is retained.
+    delta_riemann_up = [[[[0 for _ in range(dimension)] for _ in range(dimension)]
+                          for _ in range(dimension)] for _ in range(dimension)]
+    for a in range(dimension):
+        for b in range(dimension):
+            for c in range(dimension):
+                for d in range(dimension):
+                    value = (
+                        sp.diff(delta_gamma[a][b][d], coordinates[c])
+                        - sp.diff(delta_gamma[a][b][c], coordinates[d])
+                    )
+                    for e in range(dimension):
+                        value += delta_gamma[a][c][e] * gamma0[e][b][d]
+                        value += gamma0[a][c][e] * delta_gamma[e][b][d]
+                        value -= delta_gamma[a][d][e] * gamma0[e][b][c]
+                        value -= gamma0[a][d][e] * delta_gamma[e][b][c]
+                    delta_riemann_up[a][b][c][d] = sp.simplify(value)
+
+    # R_{a b c d}=g_{a e} R^e_{b c d}; background R^e_{b c d} is reconstructed.
+    riemann0_up = [[[[0 for _ in range(dimension)] for _ in range(dimension)]
+                     for _ in range(dimension)] for _ in range(dimension)]
+    for a in range(dimension):
+        for b in range(dimension):
+            for c in range(dimension):
+                for d in range(dimension):
+                    value = (
+                        sp.diff(gamma0[a][b][d], coordinates[c])
+                        - sp.diff(gamma0[a][b][c], coordinates[d])
+                    )
+                    for e in range(dimension):
+                        value += gamma0[a][c][e] * gamma0[e][b][d]
+                        value -= gamma0[a][d][e] * gamma0[e][b][c]
+                    riemann0_up[a][b][c][d] = sp.simplify(value)
+
+    def delta_riemann_lower(a: int, b: int, c: int, d: int) -> sp.Expr:
+        return sp.simplify(sum(
+            perturbation[a, e] * riemann0_up[e][b][c][d]
+            + g0[a, e] * delta_riemann_up[e][b][c][d]
+            for e in range(dimension)
+        ))
+
+    tidal_plus = sp.simplify(
+        (delta_riemann_lower(0, 2, 0, 2) - delta_riemann_lower(0, 3, 0, 3))
+        / (2 * b2 * phase)
+    )
+    tidal_cross = sp.simplify(delta_riemann_lower(0, 2, 0, 3) / (b2 * phase))
+    plus_on_shell = sp.simplify(tidal_plus.subs(
+        sp.diff(hp, T, 2),
+        -sp.diff(hp, T) / T - k**2 * T ** sp.Rational(2, 3) * hp / C1**2,
+    ))
+    cross_on_shell = sp.simplify(tidal_cross.subs(
+        sp.diff(hx, T, 2),
+        -sp.diff(hx, T) / T - k**2 * T ** sp.Rational(2, 3) * hx / C1**2,
+    ))
+    plus_tidal_sample = sp.simplify(plus_on_shell.subs({
+        T: 1, C1: 1, k: 1, hp: 1, sp.diff(hp, T): 0,
+    }))
+    cross_tidal_sample = sp.simplify(cross_on_shell.subs({
+        T: 1, C1: 1, k: 1, hx: 1, sp.diff(hx, T): 0,
+    }))
+    gate(plus_tidal_sample == sp.Rational(13, 9),
+         "plus_tidal_response_nonzero_exact_sample")
+    gate(cross_tidal_sample == sp.Rational(13, 9),
+         "cross_tidal_response_nonzero_exact_sample")
+
+    # The change z=3*nu*T^(4/3)/4 gives the order-zero Bessel equation.
+    nu = sp.symbols("nu", positive=True, real=True)
+    z = sp.Rational(3, 4) * nu * T ** sp.Rational(4, 3)
+    z_prime = sp.diff(z, T)
+    z_second = sp.diff(z, T, 2)
+    gate(sp.simplify(z_prime - nu * T ** sp.Rational(1, 3)) == 0,
+         "bessel_change_first_derivative")
+    gate(sp.simplify(z_second + z_prime / T - z_prime**2 / z) == 0,
+         "bessel_change_first_derivative_coefficient")
+    gate(sp.simplify(nu**2 * T ** sp.Rational(2, 3) - z_prime**2) == 0,
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Dependency-free manifest and read-only-boundary verifier for a sealed G327 intake."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import stat
+from pathlib import Path
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main() -> None:
+    intake = Path(__file__).resolve().parent
+    manifest = intake / "REVIEW_MANIFEST.tsv"
+    seal = intake / "REVIEW_MANIFEST.sha256"
+    assert manifest.is_file(), "manifest_missing"
+    assert seal.is_file(), "detached_seal_missing"
+    assert seal.read_text(encoding="utf-8").strip() == digest(manifest), "seal_mismatch"
+
+    with manifest.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    assert rows, "empty_manifest"
+    registered = set()
+    for row in rows:
+        relative = row["relative_path"]
+        path = intake / relative
+        assert path.is_file(), f"missing:{relative}"
+        assert path.stat().st_size == int(row["bytes"]), f"size:{relative}"
+        assert digest(path) == row["sha256"], f"sha256:{relative}"
+        assert not path.stat().st_mode & (stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH), (
+            f"writable:{relative}"
+        )
+        registered.add(relative)
+
+    actual = {
+        path.relative_to(intake).as_posix()
+        for path in intake.rglob("*")
+        if path.is_file() and path.name not in {"REVIEW_MANIFEST.tsv", "REVIEW_MANIFEST.sha256"}
+    }
+    assert actual == registered, "unregistered_or_missing_payload"
+    scope = json.loads((intake / "REVIEW_SCOPE.json").read_text(encoding="utf-8"))
+    assert scope["evidence_read_only"] is True
+    assert scope["research_continuation_allowed"] is False
+    assert scope["ephemeral_copy_checks_allowed"] is True
+    print(json.dumps({
+        "status": "PASS",
+        "payload_count": len(rows),
+        "manifest_sha256": digest(manifest),
+        "read_only_payloads": True,
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile controls for the preregistered G327 failure modes."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+from sealed_runtime import activate_runtime
+
+activate_runtime()
+import sympy as sp
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="CATCH_PROOF_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+
+    t, nu = sp.symbols("t nu", positive=True, real=True)
+    z = sp.Rational(3, 4) * nu * t ** sp.Rational(4, 3)
+    j0 = sp.besselj(0, z)
+
+    def ode(function: sp.Expr, damping: sp.Expr, gradient_power: sp.Rational) -> sp.Expr:
+        return sp.simplify(
+            sp.diff(function, t, 2)
+            + damping * sp.diff(function, t) / t
+            + nu**2 * t**gradient_power * function
+        )
+
+    controls: dict[str, bool] = {}
+    controls["wrong_gradient_power_rejected"] = ode(
+        j0, sp.Integer(1), sp.Rational(-2, 3)
+    ) != 0
+    controls["missing_hubble_damping_rejected"] = ode(
+        j0, sp.Integer(0), sp.Rational(2, 3)
+    ) != 0
+
+    # Reconstruct the transverse Lie image for a generic same-mode periodic vector.
+    x = sp.symbols("x", real=True)
+    b2 = t ** sp.Rational(4, 3)
+    phase = sp.exp(sp.I * nu * x)
+    xi0 = sp.Function("xi0")(t) * phase
+    lie_yy = xi0 * sp.diff(b2, t)
+    lie_zz = xi0 * sp.diff(b2, t)
+    lie_yz = sp.Integer(0)
+    gauge_tensor_image = sp.Matrix([
+        [(lie_yy - lie_zz) / (2 * b2), lie_yz / b2],
+        [lie_yz / b2, (lie_zz - lie_yy) / (2 * b2)],
+    ]).applyfunc(sp.simplify)
+    fake_gauge_image = sp.Matrix([[1, 0], [0, -1]])
+    controls["fake_tensor_gauge_origin_rejected"] = (
+        gauge_tensor_image == sp.zeros(2) and fake_gauge_image != gauge_tensor_image
+    )
+
+    # One time function cannot span a second-order equation: use the exact transformed Wronskian.
+    exact_time_wronskian = sp.simplify(
+        t * sp.diff(z, t) * 2 / (sp.pi * z)
+    )
+    exact_time_dimension = 2
+    controls["discarded_logarithmic_branch_rejected"] = (
+        exact_time_wronskian == sp.Rational(8, 3) / sp.pi
+        and exact_time_wronskian != 0
+        and exact_time_dimension != 1
+    )
+
+    exact_real_dimension = 2 * 2 * exact_time_dimension
+    tensor_product_basis = sp.eye(exact_real_dimension)
+    controls["wrong_real_dimension_rejected"] = (
+        tensor_product_basis.rank() == 8 and exact_real_dimension != 4
+    )
+
+    exact_future_power = -sp.Rational(1, 2) * sp.Rational(4, 3)
+    controls["false_future_power_rejected"] = exact_future_power != -sp.Rational(1, 2)
+
+    if not all(controls.values()):
+        raise AssertionError(controls)
+
+    result = {
+        "schema": "udt-g327-hostile-catch-proof-v1",
+        "status": "PASS",
+        "caught": sum(controls.values()),
+        "attempted": len(controls),
+        "controls": controls,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPAIR_IMPLEMENTATION.md" in /return
+ succeeded in 0ms:
+# G327 repairs R1--R3 implementation record
+
+Date: 2026-09-02
+Repair contract: commit `46f3aaaa`
+Scientific landing: unchanged
+
+## R1 — completed
+
+`build_vendored_runtime.py` produced deterministic archive
+`VENDORED_SYMPY_RUNTIME.zip` with SHA-256
+`caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d`.
+It contains 1,633 non-cache source/data files from SymPy 1.13.1 and mpmath 1.3.0.
+`sealed_runtime.py` activates that archive before any of the three symbolic programs imports
+SymPy. With `PYTHONNOUSERSITE=1`, all three programs run and reproduce their banked JSON artifacts
+byte for byte.
+
+## R2 — completed
+
+The intake-local proof contains the raw preregistration commit payload, exact five-file changeset,
+and the five blob IDs at commit `9bec301bc265bf67afa5f8398f7557ccdabb855b`.
+`verify_preregistration_proof.py` independently recomputes Git object IDs with the standard-library
+SHA-1 object encoding and passes 12 assertions. Its precise ceiling is visible: it authenticates
+content and the Git ancestry marker, not an external trusted timestamp.
+
+## R3 — completed
+
+The aggregate verifier now executes all four registered lines literally in one fresh copy. The
+fourth invocation receives only `UDT_G327_NESTED_AGGREGATE=1`; it reruns every scientific,
+source-integrity, provenance, status, and scope gate but does not recursively launch a fifth copy.
+The outer result records `registered_replay_count: 4`,
+`literal_fourth_command_replayed: true`, and 73 assertions.
+
+## Noninterference
+
+The only changes to the three scientific scripts are the standard-library lines that activate the
+sealed runtime before importing the same SymPy version. Their generated scientific artifacts are
+byte-identical to the prerepair artifacts. No equation, sign, coefficient, field, boundary,
+solution branch, norm, physical premise, metric, kernel, angular sector, source, action, matter,
+observation, scale, history, or `X_max` statement changed.
+
+Status:
+`R1_R2_R3_INTERNAL_PASS__EXTERNAL_REPAIR_ONLY_FOLLOWUP_REQUIRED`.
+
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/AUDIT_REPORT.md" in /return
+ succeeded in 0ms:
+# G327 audit report — primitive axial Fourier tensor modes
+
+Date: 2026-09-02
+Grade: `SCIENTIFIC_CORE_EXTERNALLY_UNREFUTED__EVIDENCE_REPAIRS_INTERNAL_PASS_PENDING_FOLLOWUP`
+
+## Bounded landing
+
+```text
+PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS
+__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES
+__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+```
+
+The first spatially varying tensor tile closes cleanly on every registered G324 compact Taub
+quotient. The primitive axial harmonic carries two gauge-invariant transverse polarizations. Each
+real phase and polarization has the exact time basis `J_0(z),Y_0(z)` with
+`z=3 nu T^(4/3)/4`, for eight real constants in the complete declared eigenspace.
+
+One branch is finite toward the past end and the other has logarithmic amplitude there. Both
+oscillate and decay as `T^(-2/3)` toward the expanding end in the preregistered metric-relative
+first-order phase-space norm. No branch was excluded by a boundary condition or merit test.
+
+Production directly linearized the metric connection; the independent route inverted and
+differentiated the full epsilon-dependent metric. All constraint and out-of-sector components
+vanish exactly, the scalar variation is zero, and direct tidal components show the solutions are
+local curvature-changing modes rather than gauge or lattice deformations. Six hostile mutations
+are rejected.
+
+## Four gates
+
+1. **Preregistered:** `PASS`, commit `9bec301b`.
+2. **Full bounded space:** `PASS_INTERNAL`, both polarizations, phases, and time solutions in the
+   declared primitive axial tensor eigenspace.
+3. **Independent:** `PASS_EXTERNAL_SCIENTIFIC_ASSESSMENT`, implementation-distinct full-metric
+   tensor reconstruction plus fresh external direct audit; no bounded mathematical refutation.
+4. **Premise audited:** `PASS_INTERNAL`; all choices are visible and no new physical premise or
+   imported equation was used.
+
+## Fresh external review and evidence repairs
+
+The fresh gpt-5.4 reviewer authenticated the 34-payload sealed intake and found no sign error,
+missing in-sector degree of freedom, false Bessel identity, gauge defect, or scope promotion. It
+returned `REFINE__G327_BOUNDED_LANDING` solely because the isolated host lacked SymPy, the bare
+preregistration commit string was not an intake-local proof, and the aggregate verifier did not
+literally execute its fourth registered command from the fresh copy.
+
+Repairs R1--R3 were preregistered at commit `46f3aaaa`, then implemented without changing any
+scientific source expression or generated scientific JSON value:
+
+- a deterministic 6.6 MB intake-local archive supplies SymPy 1.13.1 and mpmath 1.3.0 with host user
+  packages disabled;
+- a dependency-free verifier authenticates the raw Git commit object, exact five-file changeset,
+  and every preregistration blob at `9bec301bc265bf67afa5f8398f7557ccdabb855b`;
+- the aggregate verifier executes all four registered commands in one fresh copy, with a narrow
+  recursion sentinel on the nested fourth command, and records 73 outer assertions.
+
+All three scientific artifacts remain byte-identical to the prerepair versions. External
+repair-only follow-up remains required before the evidence gate is accepted.
+
+## Boundary
+
+This is one inhomogeneous sector, not the complete nonzero Fourier problem and not a linear or
+nonlinear stability theorem. Scalar/vector sectors, other wavevector directions and harmonics,
+full endpoint control, occupancy, history, scale, observation, matter/mass, and physical `X_max`
+remain open. The metric, reciprocal kernel, angular sector, and adopted bounded equation are
+unchanged.
+
+codex
+I have enough context to move from inspection to verification. Next I’m authenticating the full manifest set, replaying the four registered commands in one writable `/work` copy with the user site disabled, and running a couple of narrow guard tests in scratch copies to confirm the nested sentinel does not bypass the required gates.
+exec
+/bin/bash -lc 'rg -n "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES|NO_FULL_STABILITY_CLAIM|not the complete nonzero Fourier problem|not proof that the whole spacetime is stable" /intake/EXACT_DERIVATION.md /intake/AUDIT_REPORT.md /intake/LAY_REPORT.md /intake/DERIVATION_RESULT.json /intake/INDEPENDENT_VERIFICATION.json' in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import csv, hashlib, json, stat
+from pathlib import Path
+intake = Path('/intake')
+manifest = intake / 'REVIEW_MANIFEST.tsv'
+seal = intake / 'REVIEW_MANIFEST.sha256'
+manifest_hash = hashlib.sha256(manifest.read_bytes()).hexdigest()
+rows = list(csv.DictReader(manifest.open(encoding='utf-8', newline=''), delimiter='\\t'))
+registered = set()
+problems = []
+for row in rows:
+    rel = row['relative_path']
+    path = intake / rel
+    registered.add(rel)
+    if not path.is_file():
+        problems.append(['missing', rel])
+        continue
+    if path.stat().st_size "'!= int(row['"'bytes']):
+        problems.append(['size', rel, path.stat().st_size, int(row['bytes'])])
+    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+    if digest "'!= row['"'sha256']:
+        problems.append(['sha256', rel, digest, row['sha256']])
+    if path.stat().st_mode & (stat.S_IWUSR | stat.S_IWGRP | stat.S_IWOTH):
+        problems.append(['writable', rel])
+actual = {
+    p.relative_to(intake).as_posix()
+    for p in intake.rglob('*')
+    if p.is_file() and p.name not in {'REVIEW_MANIFEST.tsv', 'REVIEW_MANIFEST.sha256'}
+}
+print(json.dumps({
+    'seal_matches': seal.read_text(encoding='utf-8').strip() == manifest_hash,
+    'manifest_hash': manifest_hash,
+    'row_count': len(rows),
+    'actual_payload_count': len(actual),
+    'registered_matches_actual': registered == actual,
+    'problems': problems[:10],
+    'problem_count': len(problems)
+}, indent=2, sort_keys=True))
+PY" in /return
+ succeeded in 0ms:
+{
+  "actual_payload_count": 49,
+  "manifest_hash": "97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd",
+  "problem_count": 0,
+  "problems": [],
+  "registered_matches_actual": true,
+  "row_count": 49,
+  "seal_matches": true
+}
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import zipfile, json
+from pathlib import Path
+archive = Path('/intake/VENDORED_SYMPY_RUNTIME.zip')
+with zipfile.ZipFile(archive) as zf:
+    names = [n for n in zf.namelist() if not n.endswith('/')]
+print(json.dumps({
+    'entries': len(names),
+    'has_sympy_init': 'sympy/__init__.py' in names,
+    'has_mpmath_init': 'mpmath/__init__.py' in names,
+    'has_pycache': any('__pycache__' in n for n in names),
+    'has_pyc': any(n.endswith('.pyc') for n in names),
+    'has_pyo': any(n.endswith('.pyo') for n in names)
+}, indent=2, sort_keys=True))
+PY" in /return
+ succeeded in 0ms:
+{
+  "entries": 1633,
+  "has_mpmath_init": true,
+  "has_pyc": false,
+  "has_pycache": false,
+  "has_pyo": false,
+  "has_sympy_init": true
+}
+
+codex
+The sealed manifest chain authenticated cleanly: 49 registered payloads, detached seal match, no digest or read-only mismatches. `rg` is unavailable here, so I’m falling back to `grep` for the remaining landing-boundary checks and then running the preregistration and replay execution.
+exec
+/bin/bash -lc "grep -nE 'PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES|NO_FULL_STABILITY_CLAIM|not the complete nonzero Fourier problem|not proof that the whole spacetime is stable' /intake/EXACT_DERIVATION.md /intake/AUDIT_REPORT.md /intake/LAY_REPORT.md /intake/DERIVATION_RESULT.json /intake/INDEPENDENT_VERIFICATION.json" in /return
+ succeeded in 0ms:
+/intake/EXACT_DERIVATION.md:227:PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS
+/intake/EXACT_DERIVATION.md:229:__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+/intake/AUDIT_REPORT.md:9:PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS
+/intake/AUDIT_REPORT.md:11:__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+/intake/AUDIT_REPORT.md:62:This is one inhomogeneous sector, not the complete nonzero Fourier problem and not a linear or
+/intake/LAY_REPORT.md:17:This is a positive first inhomogeneous result, not proof that the whole spacetime is stable. Other
+/intake/DERIVATION_RESULT.json:52:  "landing": "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM",
+/intake/INDEPENDENT_VERIFICATION.json:38:  "landing": "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM",
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import csv, hashlib, json
+from pathlib import Path
+COMMIT='9bec301bc265bf67afa5f8398f7557ccdabb855b'
+PREFIX='udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/'
+intake=Path('/intake')
+def git_object(kind,payload):
+    header=f'{kind} {len(payload)}\\0'.encode('ascii')
+    return hashlib.sha1(header+payload).hexdigest()
+commit_payload=(intake/'PREREGISTRATION_COMMIT_OBJECT.txt').read_bytes()
+commit_text=commit_payload.decode('utf-8')
+changes=list(csv.DictReader((intake/'PREREGISTRATION_CHANGESET.tsv').open(encoding='utf-8', newline=''), delimiter='\\t'))
+tree=list(csv.DictReader((intake/'PREREGISTRATION_TREE.tsv').open(encoding='utf-8', newline=''), delimiter='\\t'))
+blob_ids={}
+for row in tree:
+    rel=row['path'].removeprefix(PREFIX)
+    blob_ids[rel]=git_object('blob',(intake/rel).read_bytes())
+print(json.dumps({
+    'commit_id': git_object('commit', commit_payload),
+    'expected_commit': COMMIT,
+    'tree_line': commit_text.splitlines()[0],
+    'parent_line': commit_text.splitlines()[1],
+    'changeset_paths': [row['path'] for row in changes],
+    'changeset_statuses': sorted(set(row['status'] for row in changes)),
+    'tree_objects': {row['path']: row['object'] for row in tree},
+    'recomputed_blob_ids': blob_ids
+}, indent=2, sort_keys=True))
+PY" in /return
+ succeeded in 0ms:
+{
+  "changeset_paths": [
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/COMPLETENESS_MAP.md",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/MAP.md",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/PREMISE_LEDGER.tsv",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/PREREGISTRATION.md",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/SOURCE_SCOPE.tsv"
+  ],
+  "changeset_statuses": [
+    "A"
+  ],
+  "commit_id": "9bec301bc265bf67afa5f8398f7557ccdabb855b",
+  "expected_commit": "9bec301bc265bf67afa5f8398f7557ccdabb855b",
+  "parent_line": "parent 2077ec6bef8dab2102a7b64dc8c5146c5670716c",
+  "recomputed_blob_ids": {
+    "COMPLETENESS_MAP.md": "90164d56a09cc658104ee99666f328b9e0a61be0",
+    "MAP.md": "e9ec11a0557b1d572a1d572d9c245f5eb0ccb70b",
+    "PREMISE_LEDGER.tsv": "1babd1a4c5b7691f8c7670d490dd043f5c109504",
+    "PREREGISTRATION.md": "1b687ca3344457ed208215a3b85a54d3b5f2f253",
+    "SOURCE_SCOPE.tsv": "0a93ab8adb6c0b1a00cfa5d2b036e58e314d35ef"
+  },
+  "tree_line": "tree 1a7fedca384e509831597d19ff16d032526e4731",
+  "tree_objects": {
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/COMPLETENESS_MAP.md": "90164d56a09cc658104ee99666f328b9e0a61be0",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/MAP.md": "e9ec11a0557b1d572a1d572d9c245f5eb0ccb70b",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/PREMISE_LEDGER.tsv": "1babd1a4c5b7691f8c7670d490dd043f5c109504",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/PREREGISTRATION.md": "1b687ca3344457ed208215a3b85a54d3b5f2f253",
+    "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/SOURCE_SCOPE.tsv": "0a93ab8adb6c0b1a00cfa5d2b036e58e314d35ef"
+  }
+}
+
+exec
+/bin/bash -lc 'python3 -S /intake/verify_preregistration_proof.py' in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 12,
+  "checks": [
+    "raw_commit_object_hash",
+    "commit_tree_recorded",
+    "commit_parent_recorded",
+    "exact_preregistered_file_set",
+    "all_five_added_at_preregistration",
+    "tree_blob_registry_exact",
+    "tree_modes_and_types_exact",
+    "blob:COMPLETENESS_MAP.md",
+    "blob:MAP.md",
+    "blob:PREMISE_LEDGER.tsv",
+    "blob:PREREGISTRATION.md",
+    "blob:SOURCE_SCOPE.tsv"
+  ],
+  "commit": "9bec301bc265bf67afa5f8398f7557ccdabb855b",
+  "schema": "udt-g327-preregistration-proof-v1",
+  "scope_note": "content-and-ancestry-marker proof, not an external trusted timestamp",
+  "status": "PASS"
+}
+
+codex
+The preregistration proof recomputes cleanly: raw commit object `9bec301bc265bf67afa5f8398f7557ccdabb855b`, exact five-file `A` changeset, and all five blob IDs match independently. I’m setting up the writable `/work` copy now and then I’ll run the four literal commands there under `PYTHONNOUSERSITE=1`, followed by direct output and guard checks.
+2026-09-02T20:04:09.430292Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -rf /work/g327_review_writable && mkdir -p /work/g327_review_writable && cp -r /intake/. /work/g327_review_writable/ && chmod -R u+w /work/g327_review_writable'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /work/g327_review_writable && mkdir -p /work/g327_review_writable && cp -r /intake/. /work/g327_review_writable/ && chmod -R u+w /work/g327_review_writable'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+codex
+The writable copy creation tripped the tool’s safety filter on `rm -rf`, so I’m switching to a fresh unique directory instead of replacing an existing path. That keeps the evidence boundary intact and still satisfies the single-copy replay requirement.
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+from pathlib import Path
+import uuid
+base = Path('/work')
+base.mkdir(exist_ok=True)
+path = base / f'g327_review_writable_{uuid.uuid4().hex[:8]}'
+path.mkdir()
+print(path)
+PY" in /return
+ succeeded in 0ms:
+/work/g327_review_writable_00f1db00
+
+exec
+/bin/bash -lc 'cp -r /intake/. /work/g327_review_writable_00f1db00/ && chmod -R u+w /work/g327_review_writable_00f1db00' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc "PYTHONNOUSERSITE=1 python3 -S - <<'PY'
+import json
+from sealed_runtime import activate_runtime
+archive = activate_runtime()
+import sympy, mpmath
+print(json.dumps({
+  'archive': str(archive),
+  'sympy_version': sympy.__version__,
+  'sympy_file': sympy.__file__,
+  'mpmath_version': mpmath.__version__,
+  'mpmath_file': mpmath.__file__,
+}, indent=2, sort_keys=True))
+PY" in /work/g327_review_writable_00f1db00
+ succeeded in 1232ms:
+{
+  "archive": "/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip",
+  "mpmath_file": "/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/mpmath/__init__.py",
+  "mpmath_version": "1.3.0",
+  "sympy_file": "/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/sympy/__init__.py",
+  "sympy_version": "1.13.1"
+}
+
+exec
+/bin/bash -lc bash in /work/g327_review_writable_00f1db00
+codex
+The four literal commands completed in a single writable copy and the fourth produced a 73-check aggregate pass. I’m doing two final independent checks now: direct byte-for-byte comparison of the three regenerated scientific artifacts, and scratch-copy tamper tests to confirm the nested sentinel does not skip source-integrity or landing/status gates.
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+import hashlib, json
+from pathlib import Path
+base = Path('/work/g327_review_writable_00f1db00/.review_runtime')
+intake = Path('/intake')
+files = ['DERIVATION_RESULT.json','INDEPENDENT_VERIFICATION.json','CATCH_PROOF_RESULT.json']
+report = {}
+for name in files:
+    gen = base / name
+    ref = intake / name
+    report[name] = {
+        'byte_identical': gen.read_bytes() == ref.read_bytes(),
+        'generated_sha256': hashlib.sha256(gen.read_bytes()).hexdigest(),
+        'reference_sha256': hashlib.sha256(ref.read_bytes()).hexdigest(),
+    }
+print(json.dumps(report, indent=2, sort_keys=True))
+PY" in /return
+ succeeded in 0ms:
+{
+  "CATCH_PROOF_RESULT.json": {
+    "byte_identical": true,
+    "generated_sha256": "ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe",
+    "reference_sha256": "ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe"
+  },
+  "DERIVATION_RESULT.json": {
+    "byte_identical": true,
+    "generated_sha256": "5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491",
+    "reference_sha256": "5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491"
+  },
+  "INDEPENDENT_VERIFICATION.json": {
+    "byte_identical": true,
+    "generated_sha256": "2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48",
+    "reference_sha256": "2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48"
+  }
+}
+
+exec
+/bin/bash -lc "python3 -S - <<'PY'
+from pathlib import Path
+import json
+base = Path('/work/g327_review_writable_00f1db00/.review_runtime')
+for name in ['DERIVATION_RESULT.json','INDEPENDENT_VERIFICATION.json','PACKAGE_VERIFICATION_RESULT.json']:
+    data = json.loads((base / name).read_text(encoding='utf-8'))
+    print(name, data.get('landing', data.get('status')))
+PY" in /return
+ succeeded in 0ms:
+DERIVATION_RESULT.json PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+INDEPENDENT_VERIFICATION.json PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+PACKAGE_VERIFICATION_RESULT.json PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+
+codex
+The regenerated scientific artifacts are byte-identical to the sealed copies. For the recursion guard, I’m using the narrowest additional check: a direct nested invocation under the sentinel and inspection of its emitted check list, so I can confirm the guard only suppresses recursive replay and not the scientific, provenance, integrity, status, or scope gates.
+exec
+/bin/bash -lc 'UDT_G327_NESTED_AGGREGATE=1 PYTHONNOUSERSITE=1 python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT_nested_direct.json' in /work/g327_review_writable_00f1db00
+ succeeded in 1275ms:
+{
+  "assertion_count": 56,
+  "banked_evidence_overwritten": false,
+  "checks": [
+    "production_landing",
+    "independent_landing",
+    "production_status",
+    "independent_status",
+    "hostile_status",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_six_of_six",
+    "exact_mode_ode",
+    "complete_time_basis",
+    "nonzero_wronskian",
+    "production_dimension_eight",
+    "independent_dimension_eight",
+    "production_scalar_zero",
+    "independent_scalar_zero",
+    "plus_tidal_formula_exact",
+    "cross_tidal_formula_exact",
+    "compact_time_norm_finite",
+    "future_power_recorded",
+    "full_spectrum_open",
+    "linear_stability_open",
+    "nonlinear_stability_open",
+    "occupancy_open",
+    "scale_open",
+    "xmax_open",
+    "native_objects_and_equation_unchanged",
+    "source_integrity:derive_axial_tensor_modes.py",
+    "source_integrity:verify_independent.py",
+    "source_integrity:run_catch_proofs.py",
+    "source_manifest_exact",
+    "evidence_integrity:sealed_runtime.py",
+    "evidence_integrity:VENDORED_SYMPY_RUNTIME.zip",
+    "evidence_integrity:VENDORED_RUNTIME_MANIFEST.json",
+    "evidence_integrity:verify_preregistration_proof.py",
+    "evidence_integrity:PREREGISTRATION_COMMIT_OBJECT.txt",
+    "evidence_integrity:PREREGISTRATION_CHANGESET.tsv",
+    "evidence_integrity:PREREGISTRATION_TREE.tsv",
+    "runtime_manifest_archive_hash",
+    "runtime_versions_registered",
+    "dependency_isolated_runtime_versions",
+    "dependency_isolated_runtime_paths",
+    "preregistration_proof_pass",
+    "preregistration_commit_object_authenticated",
+    "independent_no_production_import",
+    "independent_no_production_from_import",
+    "independent_no_production_result_read",
+    "exact_landing_token",
+    "preregistration_commit_recorded",
+    "audit_scope_boundary",
+    "lay_stability_boundary",
+    "owner_postulate_visible",
+    "forbidden_imports_absent",
+    "registered_command_count",
+    "all_registered_outputs_ephemeral",
+    "fourth_command_self",
+    "nested_replay_guard_active"
+  ],
+  "exact_replay": true,
+  "landing": "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM",
+  "literal_fourth_command_replayed": false,
+  "nested_replay": true,
+  "preregistration_commit_authenticated": true,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "registered_replay_count": 0,
+  "schema": "udt-g327-package-verification-v1",
+  "status": "PASS_INTERNAL_PENDING_EXTERNAL_REPAIR_REVIEW",
+  "vendored_runtime_used": true
+}
+
+codex
+I have the core evidence. Before I write the review, I’m collecting exact line references for the runtime bootstrap, preregistration proof, and nested-guard branch so the report is audit-ready rather than just narrative.
+exec
+/bin/bash -lc "nl -ba /intake/sealed_runtime.py | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	"""Activate the intake-local G327 symbolic runtime using only the standard library."""
+     2	
+     3	from __future__ import annotations
+     4	
+     5	import sys
+     6	from pathlib import Path
+     7	
+     8	
+     9	def activate_runtime() -> Path:
+    10	    archive = Path(__file__).resolve().with_name("VENDORED_SYMPY_RUNTIME.zip")
+    11	    if not archive.is_file():
+    12	        raise RuntimeError(f"sealed runtime missing: {archive}")
+    13	    if str(archive) not in sys.path:
+    14	        sys.path.insert(0, str(archive))
+    15	    return archive
+    16	
+
+exec
+/bin/bash -lc "nl -ba /intake/verify_preregistration_proof.py | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Dependency-free verifier for the sealed G327 preregistration commit proof."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import csv
+     8	import hashlib
+     9	import json
+    10	from pathlib import Path
+    11	
+    12	
+    13	COMMIT = "9bec301bc265bf67afa5f8398f7557ccdabb855b"
+    14	PREFIX = "udt_g327_g324_axial_first_fourier_tensor_modes_2026-09-02/"
+    15	FILES = {
+    16	    PREFIX + "COMPLETENESS_MAP.md": "90164d56a09cc658104ee99666f328b9e0a61be0",
+    17	    PREFIX + "MAP.md": "e9ec11a0557b1d572a1d572d9c245f5eb0ccb70b",
+    18	    PREFIX + "PREMISE_LEDGER.tsv": "1babd1a4c5b7691f8c7670d490dd043f5c109504",
+    19	    PREFIX + "PREREGISTRATION.md": "1b687ca3344457ed208215a3b85a54d3b5f2f253",
+    20	    PREFIX + "SOURCE_SCOPE.tsv": "0a93ab8adb6c0b1a00cfa5d2b036e58e314d35ef",
+    21	}
+    22	
+    23	
+    24	def git_object(kind: str, payload: bytes) -> str:
+    25	    header = f"{kind} {len(payload)}\0".encode("ascii")
+    26	    return hashlib.sha1(header + payload).hexdigest()
+    27	
+    28	
+    29	def main() -> None:
+    30	    parser = argparse.ArgumentParser()
+    31	    parser.add_argument("--output", default=None)
+    32	    args = parser.parse_args()
+    33	    root = Path(__file__).resolve().parent
+    34	    checks: list[str] = []
+    35	
+    36	    def gate(condition: bool, name: str) -> None:
+    37	        assert condition, name
+    38	        checks.append(name)
+    39	
+    40	    commit_payload = (root / "PREREGISTRATION_COMMIT_OBJECT.txt").read_bytes()
+    41	    gate(git_object("commit", commit_payload) == COMMIT, "raw_commit_object_hash")
+    42	    commit_text = commit_payload.decode("utf-8")
+    43	    gate("tree 1a7fedca384e509831597d19ff16d032526e4731\n" in commit_text,
+    44	         "commit_tree_recorded")
+    45	    gate("parent 2077ec6bef8dab2102a7b64dc8c5146c5670716c\n" in commit_text,
+    46	         "commit_parent_recorded")
+    47	
+    48	    with (root / "PREREGISTRATION_CHANGESET.tsv").open(newline="", encoding="utf-8") as handle:
+    49	        changes = list(csv.DictReader(handle, delimiter="\t"))
+    50	    gate({row["path"] for row in changes} == set(FILES), "exact_preregistered_file_set")
+    51	    gate(all(row["status"] == "A" for row in changes), "all_five_added_at_preregistration")
+    52	
+    53	    with (root / "PREREGISTRATION_TREE.tsv").open(newline="", encoding="utf-8") as handle:
+    54	        tree = list(csv.DictReader(handle, delimiter="\t"))
+    55	    gate({row["path"]: row["object"] for row in tree} == FILES,
+    56	         "tree_blob_registry_exact")
+    57	    gate(all(row["mode"] == "100644" and row["type"] == "blob" for row in tree),
+    58	         "tree_modes_and_types_exact")
+    59	
+    60	    for path, expected in FILES.items():
+    61	        local = root / path.removeprefix(PREFIX)
+    62	        gate(git_object("blob", local.read_bytes()) == expected,
+    63	             "blob:" + local.name)
+    64	
+    65	    result = {
+    66	        "schema": "udt-g327-preregistration-proof-v1",
+    67	        "status": "PASS",
+    68	        "commit": COMMIT,
+    69	        "assertion_count": len(checks),
+    70	        "checks": checks,
+    71	        "scope_note": "content-and-ancestry-marker proof, not an external trusted timestamp",
+    72	    }
+    73	    rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
+    74	    if args.output:
+    75	        output = root / args.output
+    76	        output.parent.mkdir(parents=True, exist_ok=True)
+    77	        output.write_text(rendered, encoding="utf-8")
+    78	    print(rendered, end="")
+    79	
+    80	
+    81	if __name__ == "__main__":
+    82	    main()
+    83	
+
+exec
+/bin/bash -lc "nl -ba /intake/verify_package.py | sed -n '1,280p'" in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Aggregate, provenance, and no-write replay verifier for G327."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import hashlib
+     8	import json
+     9	import os
+    10	import shlex
+    11	import shutil
+    12	import subprocess
+    13	import sys
+    14	import tempfile
+    15	from pathlib import Path
+    16	
+    17	
+    18	LANDING = (
+    19	    "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS__"
+    20	    "BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES__"
+    21	    "OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM"
+    22	)
+    23	
+    24	SOURCE_SHA256 = {
+    25	    "derive_axial_tensor_modes.py":
+    26	        "3bb966992088d279a8a13444048ef4ba62fec93f2667e7d7b312166c21926e21",
+    27	    "verify_independent.py":
+    28	        "aed32b5fd4003ad3674944edfd3fb58de6b29a94a53472a58f89623285c24ba6",
+    29	    "run_catch_proofs.py":
+    30	        "7c972121356cfe9900e19b1544ea62c48c8e0bd97745c7e407ad6479b4d21d4e",
+    31	}
+    32	
+    33	EVIDENCE_SHA256 = {
+    34	    "sealed_runtime.py":
+    35	        "32a3aa6ed3b676ffd1572b5f21b08a6ee7e381983c3fb9b2aea1635d5e480199",
+    36	    "VENDORED_SYMPY_RUNTIME.zip":
+    37	        "caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d",
+    38	    "VENDORED_RUNTIME_MANIFEST.json":
+    39	        "91a9ecc39986c64748745473519b641011a4b642127f9d3692cd3891ba5f7ce7",
+    40	    "verify_preregistration_proof.py":
+    41	        "d70c07079d7d6429f7c8818621e03e9e7c9daeff88772c1cc332daa96c5c5726",
+    42	    "PREREGISTRATION_COMMIT_OBJECT.txt":
+    43	        "7d20d13530475fc8ef76d30b987b08404ac8c028ef79c142c04eb6b65841018e",
+    44	    "PREREGISTRATION_CHANGESET.tsv":
+    45	        "072dd0c606df7bad099782c90f772e811fff540b6d258a3f940316f7695ebbe7",
+    46	    "PREREGISTRATION_TREE.tsv":
+    47	        "17ce00cc1874016dbc0cd7e293fe60491738d7ce8f09ed4bbd7ea8b74eb0ebbe",
+    48	}
+    49	
+    50	
+    51	def load(path: Path):
+    52	    return json.loads(path.read_text(encoding="utf-8"))
+    53	
+    54	
+    55	def digest(path: Path) -> str:
+    56	    return hashlib.sha256(path.read_bytes()).hexdigest()
+    57	
+    58	
+    59	def canned_emitter(artifact: str) -> str:
+    60	    return f'''#!/usr/bin/env python3
+    61	import argparse
+    62	from pathlib import Path
+    63	parser = argparse.ArgumentParser()
+    64	parser.add_argument("--output", required=True)
+    65	args = parser.parse_args()
+    66	root = Path(__file__).resolve().parent
+    67	rendered = (root / "{artifact}").read_text(encoding="utf-8")
+    68	output = root / args.output
+    69	output.parent.mkdir(parents=True, exist_ok=True)
+    70	output.write_text(rendered, encoding="utf-8")
+    71	print(rendered, end="")
+    72	'''
+    73	
+    74	
+    75	def main() -> None:
+    76	    parser = argparse.ArgumentParser()
+    77	    parser.add_argument("--output", default=None)
+    78	    args = parser.parse_args()
+    79	    package = Path(__file__).resolve().parent
+    80	    nested_replay = os.environ.get("UDT_G327_NESTED_AGGREGATE") == "1"
+    81	    checks: list[str] = []
+    82	
+    83	    def gate(condition: bool, name: str) -> None:
+    84	        assert condition, name
+    85	        checks.append(name)
+    86	
+    87	    production = load(package / "DERIVATION_RESULT.json")
+    88	    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    89	    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    90	
+    91	    gate(production["landing"] == LANDING, "production_landing")
+    92	    gate(independent["landing"] == LANDING, "independent_landing")
+    93	    gate(production["status"] == "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+    94	         "production_status")
+    95	    gate(independent["status"] == "INDEPENDENT_VERIFIED", "independent_status")
+    96	    gate(hostile["status"] == "PASS", "hostile_status")
+    97	    gate(production["assertion_count"] == 32, "production_assertion_count")
+    98	    gate(independent["assertion_count"] == 25, "independent_assertion_count")
+    99	    gate(hostile["caught"] == hostile["attempted"] == 6, "hostile_six_of_six")
+   100	    gate(production["mode_ode"] == "H''+H'/T+nu^2*T^(2/3)*H=0", "exact_mode_ode")
+   101	    gate(production["time_basis"] == ["J_0(z)", "Y_0(z)"], "complete_time_basis")
+   102	    gate(production["time_wronskian"] == "T*W_T=8/(3*pi)", "nonzero_wronskian")
+   103	    gate(production["real_solution_dimension"] == 8, "production_dimension_eight")
+   104	    gate(independent["real_solution_dimension"] == 8, "independent_dimension_eight")
+   105	    gate(production["linearized_scalar_curvature"] == "0", "production_scalar_zero")
+   106	    gate(independent["linearized_scalar_curvature"] == "0", "independent_scalar_zero")
+   107	    gate(production["plus_tidal_on_shell"] == (
+   108	        "-Derivative(h_plus(T), T)/(3*T) + 4*h_plus(T)/(9*T**2) + "
+   109	        "T**(2/3)*k**2*h_plus(T)/C1**2"
+   110	    ), "plus_tidal_formula_exact")
+   111	    gate(production["cross_tidal_on_shell"] == (
+   112	        "-Derivative(h_cross(T), T)/(3*T) + 4*h_cross(T)/(9*T**2) + "
+   113	        "T**(2/3)*k**2*h_cross(T)/C1**2"
+   114	    ), "cross_tidal_formula_exact")
+   115	    gate(production["compact_time_norm_finite"], "compact_time_norm_finite")
+   116	    gate("T^(-2/3)" in production["future_endpoint"], "future_power_recorded")
+   117	    gate(not production["full_fourier_spectrum_classified"], "full_spectrum_open")
+   118	    gate(not production["full_linear_stability_proved"], "linear_stability_open")
+   119	    gate(not production["nonlinear_stability_proved"], "nonlinear_stability_open")
+   120	    gate(not production["physical_occupancy_selected"], "occupancy_open")
+   121	    gate(not production["physical_scale_selected"], "scale_open")
+   122	    gate(not production["Xmax_selected"], "xmax_open")
+   123	    gate(not production["metric_changed"] and not production["kernel_changed"]
+   124	         and not production["angular_sector_changed"] and not production["equation_changed"],
+   125	         "native_objects_and_equation_unchanged")
+   126	
+   127	    for name, expected in SOURCE_SHA256.items():
+   128	        gate(digest(package / name) == expected, f"source_integrity:{name}")
+   129	    manifest_rows = {
+   130	        fields[0]: fields[1]
+   131	        for line in (package / "SOURCE_MANIFEST.tsv").read_text(encoding="utf-8").splitlines()[1:]
+   132	        if line.strip()
+   133	        for fields in [line.split("\t")]
+   134	    }
+   135	    gate(manifest_rows == SOURCE_SHA256, "source_manifest_exact")
+   136	    for name, expected in EVIDENCE_SHA256.items():
+   137	        gate(digest(package / name) == expected, f"evidence_integrity:{name}")
+   138	
+   139	    runtime_manifest = load(package / "VENDORED_RUNTIME_MANIFEST.json")
+   140	    gate(runtime_manifest["archive_sha256"] == EVIDENCE_SHA256[
+   141	        "VENDORED_SYMPY_RUNTIME.zip"
+   142	    ], "runtime_manifest_archive_hash")
+   143	    gate(runtime_manifest["packages"] == {"mpmath": "1.3.0", "sympy": "1.13.1"},
+   144	         "runtime_versions_registered")
+   145	    isolated_environment = os.environ.copy()
+   146	    isolated_environment["PYTHONNOUSERSITE"] = "1"
+   147	    runtime_probe = subprocess.run(
+   148	        [sys.executable, "-c", (
+   149	            "from sealed_runtime import activate_runtime; p=activate_runtime(); "
+   150	            "import json,sympy,mpmath; print(json.dumps({"
+   151	            "'archive':str(p),'sympy':sympy.__version__,'sympy_file':sympy.__file__,"
+   152	            "'mpmath':mpmath.__version__,'mpmath_file':mpmath.__file__},sort_keys=True))"
+   153	        )],
+   154	        cwd=package, env=isolated_environment, check=True, capture_output=True, text=True,
+   155	    )
+   156	    runtime_state = json.loads(runtime_probe.stdout)
+   157	    gate(runtime_state["sympy"] == "1.13.1" and runtime_state["mpmath"] == "1.3.0",
+   158	         "dependency_isolated_runtime_versions")
+   159	    gate("VENDORED_SYMPY_RUNTIME.zip" in runtime_state["sympy_file"]
+   160	         and "VENDORED_SYMPY_RUNTIME.zip" in runtime_state["mpmath_file"],
+   161	         "dependency_isolated_runtime_paths")
+   162	
+   163	    preregistration = subprocess.run(
+   164	        [sys.executable, "-S", "verify_preregistration_proof.py"],
+   165	        cwd=package, check=True, capture_output=True, text=True,
+   166	    )
+   167	    preregistration_result = json.loads(preregistration.stdout)
+   168	    gate(preregistration_result["status"] == "PASS", "preregistration_proof_pass")
+   169	    gate(preregistration_result["commit"] ==
+   170	         "9bec301bc265bf67afa5f8398f7557ccdabb855b",
+   171	         "preregistration_commit_object_authenticated")
+   172	
+   173	    independent_text = (package / "verify_independent.py").read_text(encoding="utf-8")
+   174	    gate("import derive_axial_tensor_modes" not in independent_text,
+   175	         "independent_no_production_import")
+   176	    gate("from derive_axial_tensor_modes" not in independent_text,
+   177	         "independent_no_production_from_import")
+   178	    gate("DERIVATION_RESULT.json" not in independent_text,
+   179	         "independent_no_production_result_read")
+   180	
+   181	    exact = (package / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+   182	    audit = (package / "AUDIT_REPORT.md").read_text(encoding="utf-8")
+   183	    lay = (package / "LAY_REPORT.md").read_text(encoding="utf-8")
+   184	    ledger = (package / "PREMISE_LEDGER.tsv").read_text(encoding="utf-8")
+   185	    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+   186	    gate("9bec301b" in audit, "preregistration_commit_recorded")
+   187	    gate("not the complete nonzero Fourier problem" in audit, "audit_scope_boundary")
+   188	    gate("not proof that the whole spacetime is stable" in lay, "lay_stability_boundary")
+   189	    gate("OWNER_ADOPTED_PROVISIONAL_POSTULATE" in ledger, "owner_postulate_visible")
+   190	    gate("ABSENT" in ledger and "source action matter observation fit scale Xmax" in ledger,
+   191	         "forbidden_imports_absent")
+   192	
+   193	    replay_lines = [
+   194	        line.strip()
+   195	        for line in (package / "REPLAY_COMMANDS.txt").read_text(encoding="utf-8").splitlines()
+   196	        if line.strip()
+   197	    ]
+   198	    gate(len(replay_lines) == 4, "registered_command_count")
+   199	    gate(all(".review_runtime/" in line for line in replay_lines),
+   200	         "all_registered_outputs_ephemeral")
+   201	    gate(replay_lines[3] == (
+   202	        "python3 -S verify_package.py --output "
+   203	        ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
+   204	    ), "fourth_command_self")
+   205	
+   206	    artifact_names = (
+   207	        "DERIVATION_RESULT.json",
+   208	        "INDEPENDENT_VERIFICATION.json",
+   209	        "CATCH_PROOF_RESULT.json",
+   210	        "PACKAGE_VERIFICATION_RESULT.json",
+   211	    )
+   212	    literal_replay_count = 0
+   213	    literal_fourth_command_replayed = False
+   214	    if not nested_replay:
+   215	        with tempfile.TemporaryDirectory(prefix="udt_g327_replay_") as temporary:
+   216	            copy = Path(temporary) / "package"
+   217	            shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+   218	            for index, (line, artifact) in enumerate(zip(replay_lines, artifact_names)):
+   219	                environment = isolated_environment.copy()
+   220	                if index == 3:
+   221	                    environment["UDT_G327_NESTED_AGGREGATE"] = "1"
+   222	                completed = subprocess.run(
+   223	                    shlex.split(line), cwd=copy, env=environment, check=True,
+   224	                    capture_output=True, text=True,
+   225	                )
+   226	                literal_replay_count += 1
+   227	                gate(completed.returncode == 0, f"replay_exit:{artifact}")
+   228	                generated = copy / ".review_runtime" / artifact
+   229	                gate(generated.is_file(), f"replay_created:{artifact}")
+   230	                if index < 3:
+   231	                    gate(generated.read_bytes() == (package / artifact).read_bytes(),
+   232	                         f"replay_byte_exact:{artifact}")
+   233	                else:
+   234	                    child = load(generated)
+   235	                    gate(child["status"] == "PASS_INTERNAL_PENDING_EXTERNAL_REPAIR_REVIEW",
+   236	                         "fourth_command_child_status")
+   237	                    gate(child["nested_replay"] is True,
+   238	                         "fourth_command_child_recursion_guard")
+   239	                    literal_fourth_command_replayed = True
+   240	        gate(literal_replay_count == 4, "all_four_registered_commands_replayed")
+   241	        gate(literal_fourth_command_replayed, "literal_fourth_command_replayed")
+   242	    else:
+   243	        gate(nested_replay, "nested_replay_guard_active")
+   244	
+   245	    # Reject a replacement that merely republishes the banked artifact.
+   246	    canned_targets = {
+   247	        "derive_axial_tensor_modes.py": "DERIVATION_RESULT.json",
+   248	        "verify_independent.py": "INDEPENDENT_VERIFICATION.json",
+   249	        "run_catch_proofs.py": "CATCH_PROOF_RESULT.json",
+   250	    }
+   251	    if not nested_replay:
+   252	        for script_name, artifact_name in canned_targets.items():
+   253	            with tempfile.TemporaryDirectory(prefix="udt_g327_canned_") as temporary:
+   254	                copy = Path(temporary) / "package"
+   255	                shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+   256	                (copy / script_name).write_text(canned_emitter(artifact_name), encoding="utf-8")
+   257	                completed = subprocess.run(
+   258	                    [sys.executable, "-S", "verify_package.py"], cwd=copy,
+   259	                    capture_output=True, text=True
+   260	                )
+   261	                gate(completed.returncode != 0
+   262	                     and f"source_integrity:{script_name}" in completed.stderr,
+   263	                     f"canned_substitution_rejected:{script_name}")
+   264	
+   265	    result = {
+   266	        "schema": "udt-g327-package-verification-v1",
+   267	        "status": "PASS_INTERNAL_PENDING_EXTERNAL_REPAIR_REVIEW",
+   268	        "landing": LANDING,
+   269	        "assertion_count": len(checks),
+   270	        "checks": checks,
+   271	        "exact_replay": True,
+   272	        "registered_replay_count": literal_replay_count,
+   273	        "literal_fourth_command_replayed": literal_fourth_command_replayed,
+   274	        "nested_replay": nested_replay,
+   275	        "vendored_runtime_used": True,
+   276	        "preregistration_commit_authenticated": True,
+   277	        "banked_evidence_overwritten": False,
+   278	        "python_version": sys.version,
+   279	    }
+   280	    rendered = json.dumps(result, indent=2, sort_keys=True) + "\n"
+
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_SCOPE.json | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "allowed_repairs": [
+     3	    "R1_vendored_runtime",
+     4	    "R2_preregistration_proof",
+     5	    "R3_literal_fourth_replay"
+     6	  ],
+     7	  "download_or_install_allowed": false,
+     8	  "ephemeral_copy_checks_allowed": true,
+     9	  "evidence_read_only": true,
+    10	  "fresh_scientific_question_allowed": false,
+    11	  "internet_browsing_allowed": false,
+    12	  "law_history_scale_selection_allowed": false,
+    13	  "manifest_payload_count": 49,
+    14	  "new_physics_import_allowed": false,
+    15	  "protected_package_access_allowed": false,
+    16	  "question": "G327 evidence repairs R1-R3 with unchanged bounded scientific landing",
+    17	  "repository_access_allowed": false,
+    18	  "research_continuation_allowed": false,
+    19	  "schema": "udt-g327-repair-followup-scope-v1",
+    20	  "scientific_landing_change_allowed": false
+    21	}
+
+exec
+/bin/bash -lc "nl -ba /intake/REPLAY_COMMANDS.txt | sed -n '1,80p' && printf '\\n' && nl -ba /intake/REPLAY_PRECONDITION.md | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	python3 derive_axial_tensor_modes.py --output .review_runtime/DERIVATION_RESULT.json
+     2	python3 verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+     3	python3 run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+     4	python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
+
+     1	# G327 sealed replay precondition
+     2	
+     3	The sealed intake itself remains read-only. Authenticate it first:
+     4	
+     5	```text
+     6	python3 -S verify_review_intake.py
+     7	```
+     8	
+     9	Then create a writable ephemeral copy before running the registered commands:
+    10	
+    11	```text
+    12	cp -r /intake/. /work/g327_review_writable/
+    13	chmod -R u+w /work/g327_review_writable
+    14	cd /work/g327_review_writable
+    15	```
+    16	
+    17	Run the four lines in `REPLAY_COMMANDS.txt` literally. They write only under `.review_runtime/` and
+    18	must not overwrite the sealed or banked evidence files.
+    19	
+    20	The intake contains its exact symbolic dependencies in `VENDORED_SYMPY_RUNTIME.zip`. To prove the
+    21	host user site is not supplying them, the reviewer may run the four commands with
+    22	`PYTHONNOUSERSITE=1`; the registered programs activate only the sealed archive before importing
+    23	SymPy. No install or network access is required.
+
+exec
+/bin/bash -lc "nl -ba /intake/LAY_REPORT.md | sed -n '1,60p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/AUDIT_REPORT.md | sed -n '1,90p'" in /return
+exec
+/bin/bash -lc "grep -n 'from sealed_runtime import activate_runtime\\|activate_runtime()' /intake/derive_axial_tensor_modes.py /intake/verify_independent.py /intake/run_catch_proofs.py" in /return
+ succeeded in 0ms:
+     1	# G327 lay report
+     2	
+     3	We have now turned on the first genuine ripple across the compact G324 universe instead of letting
+     4	every point change in lockstep.
+     5	
+     6	For a ripple traveling around the special axial direction, the metric permits the familiar two
+     7	independent sideways distortions. Neither is a coordinate illusion, and neither secretly forces
+     8	another part of the metric to switch on. Each ripple has two possible placements around the
+     9	circle and two independent time behaviors, giving eight real constants in this deliberately
+    10	bounded sector.
+    11	
+    12	Toward the expanding future, both time behaviors oscillate faster while their size relative to the
+    13	background metric falls like `T^(-2/3)` in the declared first-order diagnostic. Toward the past
+    14	singular end, one remains finite and the other grows logarithmically. We kept both; no boundary
+    15	rule was imposed to select the nicer one.
+    16	
+    17	This is a positive first inhomogeneous result, not proof that the whole spacetime is stable. Other
+    18	ripple directions, scalar and vector disturbances, higher modes, and nonlinear interactions have
+    19	not yet been classified. Nothing was added to or changed in the UDT metric, reciprocal kernel,
+    20	angular behavior, or adopted bounded equation.
+    21	
+
+ succeeded in 0ms:
+/intake/derive_axial_tensor_modes.py:11:from sealed_runtime import activate_runtime
+/intake/derive_axial_tensor_modes.py:13:activate_runtime()
+/intake/verify_independent.py:16:from sealed_runtime import activate_runtime
+/intake/verify_independent.py:18:activate_runtime()
+/intake/run_catch_proofs.py:10:from sealed_runtime import activate_runtime
+/intake/run_catch_proofs.py:12:activate_runtime()
+
+ succeeded in 0ms:
+     1	# G327 audit report — primitive axial Fourier tensor modes
+     2	
+     3	Date: 2026-09-02
+     4	Grade: `SCIENTIFIC_CORE_EXTERNALLY_UNREFUTED__EVIDENCE_REPAIRS_INTERNAL_PASS_PENDING_FOLLOWUP`
+     5	
+     6	## Bounded landing
+     7	
+     8	```text
+     9	PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS
+    10	__BESSEL_ZERO_TIME_BASIS__FINITE_AND_LOGARITHMIC_PAST_BRANCHES
+    11	__OSCILLATORY_T_MINUS_TWO_THIRDS_FUTURE_DECAY__NO_FULL_STABILITY_CLAIM
+    12	```
+    13	
+    14	The first spatially varying tensor tile closes cleanly on every registered G324 compact Taub
+    15	quotient. The primitive axial harmonic carries two gauge-invariant transverse polarizations. Each
+    16	real phase and polarization has the exact time basis `J_0(z),Y_0(z)` with
+    17	`z=3 nu T^(4/3)/4`, for eight real constants in the complete declared eigenspace.
+    18	
+    19	One branch is finite toward the past end and the other has logarithmic amplitude there. Both
+    20	oscillate and decay as `T^(-2/3)` toward the expanding end in the preregistered metric-relative
+    21	first-order phase-space norm. No branch was excluded by a boundary condition or merit test.
+    22	
+    23	Production directly linearized the metric connection; the independent route inverted and
+    24	differentiated the full epsilon-dependent metric. All constraint and out-of-sector components
+    25	vanish exactly, the scalar variation is zero, and direct tidal components show the solutions are
+    26	local curvature-changing modes rather than gauge or lattice deformations. Six hostile mutations
+    27	are rejected.
+    28	
+    29	## Four gates
+    30	
+    31	1. **Preregistered:** `PASS`, commit `9bec301b`.
+    32	2. **Full bounded space:** `PASS_INTERNAL`, both polarizations, phases, and time solutions in the
+    33	   declared primitive axial tensor eigenspace.
+    34	3. **Independent:** `PASS_EXTERNAL_SCIENTIFIC_ASSESSMENT`, implementation-distinct full-metric
+    35	   tensor reconstruction plus fresh external direct audit; no bounded mathematical refutation.
+    36	4. **Premise audited:** `PASS_INTERNAL`; all choices are visible and no new physical premise or
+    37	   imported equation was used.
+    38	
+    39	## Fresh external review and evidence repairs
+    40	
+    41	The fresh gpt-5.4 reviewer authenticated the 34-payload sealed intake and found no sign error,
+    42	missing in-sector degree of freedom, false Bessel identity, gauge defect, or scope promotion. It
+    43	returned `REFINE__G327_BOUNDED_LANDING` solely because the isolated host lacked SymPy, the bare
+    44	preregistration commit string was not an intake-local proof, and the aggregate verifier did not
+    45	literally execute its fourth registered command from the fresh copy.
+    46	
+    47	Repairs R1--R3 were preregistered at commit `46f3aaaa`, then implemented without changing any
+    48	scientific source expression or generated scientific JSON value:
+    49	
+    50	- a deterministic 6.6 MB intake-local archive supplies SymPy 1.13.1 and mpmath 1.3.0 with host user
+    51	  packages disabled;
+    52	- a dependency-free verifier authenticates the raw Git commit object, exact five-file changeset,
+    53	  and every preregistration blob at `9bec301bc265bf67afa5f8398f7557ccdabb855b`;
+    54	- the aggregate verifier executes all four registered commands in one fresh copy, with a narrow
+    55	  recursion sentinel on the nested fourth command, and records 73 outer assertions.
+    56	
+    57	All three scientific artifacts remain byte-identical to the prerepair versions. External
+    58	repair-only follow-up remains required before the evidence gate is accepted.
+    59	
+    60	## Boundary
+    61	
+    62	This is one inhomogeneous sector, not the complete nonzero Fourier problem and not a linear or
+    63	nonlinear stability theorem. Scalar/vector sectors, other wavevector directions and harmonics,
+    64	full endpoint control, occupancy, history, scale, observation, matter/mass, and physical `X_max`
+    65	remain open. The metric, reciprocal kernel, angular sector, and adopted bounded equation are
+    66	unchanged.
+
+exec
+/bin/bash -lc 'python3 -S /intake/verify_review_intake.py' in /return
+ succeeded in 0ms:
+{
+  "manifest_sha256": "97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd",
+  "payload_count": 49,
+  "read_only_payloads": true,
+  "status": "PASS"
+}
+
+codex
+I’m writing the review report now. It will record the exact authentication results, the literal replay from the writable copy, the nested-guard inspection, and a single final verdict token on the last line.
+2026-09-02T20:07:06.109919Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to read /return/EXTERNAL_REVIEW_RESPONSE.md: No such file or directory (os error 2)
+codex
+The first patch attempt used an absolute path, which this editor rejected. I’m retrying against the workspace-relative path and replacing the report atomically.
+2026-09-02T20:07:09.536616Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to read /return/EXTERNAL_REVIEW_RESPONSE.md: No such file or directory (os error 2)
+exec
+/bin/bash -lc 'ls -l /return/EXTERNAL_REVIEW_RESPONSE.md && stat /return/EXTERNAL_REVIEW_RESPONSE.md' in /return
+ exited 2 in 0ms:
+ls: cannot access '/return/EXTERNAL_REVIEW_RESPONSE.md': No such file or directory
+
+apply patch
+patch: completed
+/return/EXTERNAL_REVIEW_RESPONSE.md
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..97057e4334e35088ccdc4021cb9be29cad230ee4
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,88 @@
++# G327 Repair-Only External Review
++
++No repair-blocking findings were identified within the allowed scope.
++
++## Scope and method
++
++- I inspected only `/intake` and used `/work/g327_review_writable_00f1db00` for writable ephemeral replay.
++- I did not browse, download, install packages, access any repository, or modify sealed evidence under `/intake`.
++- I authenticated `REVIEW_SCOPE.json`, `REVIEW_MANIFEST.tsv`, `REVIEW_MANIFEST.sha256`, and every manifest payload before replay.
++
++## Intake authentication
++
++- `REVIEW_SCOPE.json` fixes the scope to repairs `R1` through `R3`, forbids research continuation, repository access, installs/downloads, and scientific-landing changes, and declares `manifest_payload_count: 49`.
++- Independent recomputation of the detached seal matched `REVIEW_MANIFEST.tsv` SHA-256 `97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd`.
++- All 49 registered payloads existed, matched their recorded byte counts and SHA-256 values, were read-only, and exactly matched the actual sealed payload set.
++- `python3 -S /intake/verify_review_intake.py` also passed with `payload_count: 49`.
++
++## R1
++
++- The vendored runtime archive authenticated as SHA-256 `caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d`, matching `VENDORED_RUNTIME_MANIFEST.json`.
++- Independent zip inspection found 1,633 non-directory entries, including `sympy/__init__.py` and `mpmath/__init__.py`, with no `__pycache__`, `.pyc`, or `.pyo` entries.
++- The runtime bootstrap in `sealed_runtime.py` prepends only `VENDORED_SYMPY_RUNTIME.zip` to `sys.path`.
++- The three symbolic scripts each activate that bootstrap before importing SymPy.
++- In the writable copy, with `PYTHONNOUSERSITE=1`, an independent probe reported:
++  - `sympy 1.13.1` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/sympy/__init__.py`
++  - `mpmath 1.3.0` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/mpmath/__init__.py`
++- I then ran the four registered commands literally from one writable copy, with `PYTHONNOUSERSITE=1` exported in the shell:
++
++```text
++python3 derive_axial_tensor_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++- All four commands exited successfully without any install, download, repository, or network activity.
++
++## R2
++
++- I independently recomputed the raw Git commit object identifier from `PREREGISTRATION_COMMIT_OBJECT.txt` using standard Git object encoding and obtained exactly `9bec301bc265bf67afa5f8398f7557ccdabb855b`.
++- The raw commit payload records tree `1a7fedca384e509831597d19ff16d032526e4731` and parent `2077ec6bef8dab2102a7b64dc8c5146c5670716c`.
++- `PREREGISTRATION_CHANGESET.tsv` records exactly five added paths, all status `A`:
++  - `COMPLETENESS_MAP.md`
++  - `MAP.md`
++  - `PREMISE_LEDGER.tsv`
++  - `PREREGISTRATION.md`
++  - `SOURCE_SCOPE.tsv`
++- `PREREGISTRATION_TREE.tsv` records exactly those five blob objects and modes/types `100644 blob`.
++- Independent blob-ID recomputation from the sealed local payloads matched all five registered SHA-1 blob identifiers exactly.
++- `python3 -S /intake/verify_preregistration_proof.py` passed with 12 assertions.
++- The trusted-timestamp ceiling is explicit and correctly bounded: the proof authenticates content plus the Git ancestry marker only; it does not claim an external trusted timestamp.
++
++## R3
++
++- `REPLAY_COMMANDS.txt` contains exactly four registered lines, and the fourth line is literally `python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json`.
++- In `verify_package.py`, the nested sentinel is only `UDT_G327_NESTED_AGGREGATE=1`.
++- The sentinel branch is entered only after the verifier has already executed the scientific landing/status checks, source-integrity checks, evidence-integrity checks, vendored-runtime checks, preregistration-proof checks, independence checks, and scope-boundary checks.
++- The outer aggregate run succeeded with:
++  - `registered_replay_count: 4`
++  - `literal_fourth_command_replayed: true`
++  - `assertion_count: 73`
++- The outer verifier also rejects canned artifact republishing by mutating each of the first three scripts in scratch copies and requiring a source-integrity failure.
++- I independently ran a direct nested invocation in the writable copy with `UDT_G327_NESTED_AGGREGATE=1` and `PYTHONNOUSERSITE=1`. It passed with 56 checks, including:
++  - `production_landing`
++  - `production_status`
++  - `source_integrity:derive_axial_tensor_modes.py`
++  - `source_manifest_exact`
++  - `evidence_integrity:PREREGISTRATION_COMMIT_OBJECT.txt`
++  - `preregistration_proof_pass`
++  - `audit_scope_boundary`
++  - `lay_stability_boundary`
++  - `nested_replay_guard_active`
++- On inspection, the sentinel suppresses only recursive replay/canned-substitution loops. I found no bypass of scientific, source-integrity, provenance, status, or scope gates.
++
++## Scientific noninterference
++
++- The three regenerated scientific JSON artifacts were byte-identical to the sealed originals:
++  - `DERIVATION_RESULT.json` SHA-256 `5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491`
++  - `INDEPENDENT_VERIFICATION.json` SHA-256 `2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48`
++  - `CATCH_PROOF_RESULT.json` SHA-256 `ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe`
++- The bounded scientific landing token is unchanged across the sealed derivation, independent verification, aggregate verifier, exact derivation, audit report, and lay report.
++- The sealed boundary language also remains unchanged: it is still not the complete nonzero Fourier problem and not proof of whole-spacetime stability.
++
++## Conclusion
++
++Within the permitted zero-context repair-only scope, I found the preregistered repairs `R1` through `R3` implemented and authenticated, the fourth command literally replayed from one fresh writable copy, the nested guard non-bypassing for the required gates, and the bounded scientific landing unchanged with byte-identical scientific artifacts.
++
++ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..97057e4334e35088ccdc4021cb9be29cad230ee4
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,88 @@
++# G327 Repair-Only External Review
++
++No repair-blocking findings were identified within the allowed scope.
++
++## Scope and method
++
++- I inspected only `/intake` and used `/work/g327_review_writable_00f1db00` for writable ephemeral replay.
++- I did not browse, download, install packages, access any repository, or modify sealed evidence under `/intake`.
++- I authenticated `REVIEW_SCOPE.json`, `REVIEW_MANIFEST.tsv`, `REVIEW_MANIFEST.sha256`, and every manifest payload before replay.
++
++## Intake authentication
++
++- `REVIEW_SCOPE.json` fixes the scope to repairs `R1` through `R3`, forbids research continuation, repository access, installs/downloads, and scientific-landing changes, and declares `manifest_payload_count: 49`.
++- Independent recomputation of the detached seal matched `REVIEW_MANIFEST.tsv` SHA-256 `97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd`.
++- All 49 registered payloads existed, matched their recorded byte counts and SHA-256 values, were read-only, and exactly matched the actual sealed payload set.
++- `python3 -S /intake/verify_review_intake.py` also passed with `payload_count: 49`.
++
++## R1
++
++- The vendored runtime archive authenticated as SHA-256 `caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d`, matching `VENDORED_RUNTIME_MANIFEST.json`.
++- Independent zip inspection found 1,633 non-directory entries, including `sympy/__init__.py` and `mpmath/__init__.py`, with no `__pycache__`, `.pyc`, or `.pyo` entries.
++- The runtime bootstrap in `sealed_runtime.py` prepends only `VENDORED_SYMPY_RUNTIME.zip` to `sys.path`.
++- The three symbolic scripts each activate that bootstrap before importing SymPy.
++- In the writable copy, with `PYTHONNOUSERSITE=1`, an independent probe reported:
++  - `sympy 1.13.1` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/sympy/__init__.py`
++  - `mpmath 1.3.0` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/mpmath/__init__.py`
++- I then ran the four registered commands literally from one writable copy, with `PYTHONNOUSERSITE=1` exported in the shell:
++
++```text
++python3 derive_axial_tensor_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++- All four commands exited successfully without any install, download, repository, or network activity.
++
++## R2
++
++- I independently recomputed the raw Git commit object identifier from `PREREGISTRATION_COMMIT_OBJECT.txt` using standard Git object encoding and obtained exactly `9bec301bc265bf67afa5f8398f7557ccdabb855b`.
++- The raw commit payload records tree `1a7fedca384e509831597d19ff16d032526e4731` and parent `2077ec6bef8dab2102a7b64dc8c5146c5670716c`.
++- `PREREGISTRATION_CHANGESET.tsv` records exactly five added paths, all status `A`:
++  - `COMPLETENESS_MAP.md`
++  - `MAP.md`
++  - `PREMISE_LEDGER.tsv`
++  - `PREREGISTRATION.md`
++  - `SOURCE_SCOPE.tsv`
++- `PREREGISTRATION_TREE.tsv` records exactly those five blob objects and modes/types `100644 blob`.
++- Independent blob-ID recomputation from the sealed local payloads matched all five registered SHA-1 blob identifiers exactly.
++- `python3 -S /intake/verify_preregistration_proof.py` passed with 12 assertions.
++- The trusted-timestamp ceiling is explicit and correctly bounded: the proof authenticates content plus the Git ancestry marker only; it does not claim an external trusted timestamp.
++
++## R3
++
++- `REPLAY_COMMANDS.txt` contains exactly four registered lines, and the fourth line is literally `python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json`.
++- In `verify_package.py`, the nested sentinel is only `UDT_G327_NESTED_AGGREGATE=1`.
++- The sentinel branch is entered only after the verifier has already executed the scientific landing/status checks, source-integrity checks, evidence-integrity checks, vendored-runtime checks, preregistration-proof checks, independence checks, and scope-boundary checks.
++- The outer aggregate run succeeded with:
++  - `registered_replay_count: 4`
++  - `literal_fourth_command_replayed: true`
++  - `assertion_count: 73`
++- The outer verifier also rejects canned artifact republishing by mutating each of the first three scripts in scratch copies and requiring a source-integrity failure.
++- I independently ran a direct nested invocation in the writable copy with `UDT_G327_NESTED_AGGREGATE=1` and `PYTHONNOUSERSITE=1`. It passed with 56 checks, including:
++  - `production_landing`
++  - `production_status`
++  - `source_integrity:derive_axial_tensor_modes.py`
++  - `source_manifest_exact`
++  - `evidence_integrity:PREREGISTRATION_COMMIT_OBJECT.txt`
++  - `preregistration_proof_pass`
++  - `audit_scope_boundary`
++  - `lay_stability_boundary`
++  - `nested_replay_guard_active`
++- On inspection, the sentinel suppresses only recursive replay/canned-substitution loops. I found no bypass of scientific, source-integrity, provenance, status, or scope gates.
++
++## Scientific noninterference
++
++- The three regenerated scientific JSON artifacts were byte-identical to the sealed originals:
++  - `DERIVATION_RESULT.json` SHA-256 `5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491`
++  - `INDEPENDENT_VERIFICATION.json` SHA-256 `2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48`
++  - `CATCH_PROOF_RESULT.json` SHA-256 `ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe`
++- The bounded scientific landing token is unchanged across the sealed derivation, independent verification, aggregate verifier, exact derivation, audit report, and lay report.
++- The sealed boundary language also remains unchanged: it is still not the complete nonzero Fourier problem and not proof of whole-spacetime stability.
++
++## Conclusion
++
++Within the permitted zero-context repair-only scope, I found the preregistered repairs `R1` through `R3` implemented and authenticated, the fourth command literally replayed from one fresh writable copy, the nested guard non-bypassing for the required gates, and the bounded scientific landing unchanged with byte-identical scientific artifacts.
++
++ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+
+exec
+/bin/bash -lc 'tail -n 5 /return/EXTERNAL_REVIEW_RESPONSE.md' in /return
+ succeeded in 0ms:
+## Conclusion
+
+Within the permitted zero-context repair-only scope, I found the preregistered repairs `R1` through `R3` implemented and authenticated, the fourth command literally replayed from one fresh writable copy, the nested guard non-bypassing for the required gates, and the bounded scientific landing unchanged with byte-identical scientific artifacts.
+
+ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..97057e4334e35088ccdc4021cb9be29cad230ee4
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,88 @@
++# G327 Repair-Only External Review
++
++No repair-blocking findings were identified within the allowed scope.
++
++## Scope and method
++
++- I inspected only `/intake` and used `/work/g327_review_writable_00f1db00` for writable ephemeral replay.
++- I did not browse, download, install packages, access any repository, or modify sealed evidence under `/intake`.
++- I authenticated `REVIEW_SCOPE.json`, `REVIEW_MANIFEST.tsv`, `REVIEW_MANIFEST.sha256`, and every manifest payload before replay.
++
++## Intake authentication
++
++- `REVIEW_SCOPE.json` fixes the scope to repairs `R1` through `R3`, forbids research continuation, repository access, installs/downloads, and scientific-landing changes, and declares `manifest_payload_count: 49`.
++- Independent recomputation of the detached seal matched `REVIEW_MANIFEST.tsv` SHA-256 `97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd`.
++- All 49 registered payloads existed, matched their recorded byte counts and SHA-256 values, were read-only, and exactly matched the actual sealed payload set.
++- `python3 -S /intake/verify_review_intake.py` also passed with `payload_count: 49`.
++
++## R1
++
++- The vendored runtime archive authenticated as SHA-256 `caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d`, matching `VENDORED_RUNTIME_MANIFEST.json`.
++- Independent zip inspection found 1,633 non-directory entries, including `sympy/__init__.py` and `mpmath/__init__.py`, with no `__pycache__`, `.pyc`, or `.pyo` entries.
++- The runtime bootstrap in `sealed_runtime.py` prepends only `VENDORED_SYMPY_RUNTIME.zip` to `sys.path`.
++- The three symbolic scripts each activate that bootstrap before importing SymPy.
++- In the writable copy, with `PYTHONNOUSERSITE=1`, an independent probe reported:
++  - `sympy 1.13.1` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/sympy/__init__.py`
++  - `mpmath 1.3.0` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/mpmath/__init__.py`
++- I then ran the four registered commands literally from one writable copy, with `PYTHONNOUSERSITE=1` exported in the shell:
++
++```text
++python3 derive_axial_tensor_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++- All four commands exited successfully without any install, download, repository, or network activity.
++
++## R2
++
++- I independently recomputed the raw Git commit object identifier from `PREREGISTRATION_COMMIT_OBJECT.txt` using standard Git object encoding and obtained exactly `9bec301bc265bf67afa5f8398f7557ccdabb855b`.
++- The raw commit payload records tree `1a7fedca384e509831597d19ff16d032526e4731` and parent `2077ec6bef8dab2102a7b64dc8c5146c5670716c`.
++- `PREREGISTRATION_CHANGESET.tsv` records exactly five added paths, all status `A`:
++  - `COMPLETENESS_MAP.md`
++  - `MAP.md`
++  - `PREMISE_LEDGER.tsv`
++  - `PREREGISTRATION.md`
++  - `SOURCE_SCOPE.tsv`
++- `PREREGISTRATION_TREE.tsv` records exactly those five blob objects and modes/types `100644 blob`.
++- Independent blob-ID recomputation from the sealed local payloads matched all five registered SHA-1 blob identifiers exactly.
++- `python3 -S /intake/verify_preregistration_proof.py` passed with 12 assertions.
++- The trusted-timestamp ceiling is explicit and correctly bounded: the proof authenticates content plus the Git ancestry marker only; it does not claim an external trusted timestamp.
++
++## R3
++
++- `REPLAY_COMMANDS.txt` contains exactly four registered lines, and the fourth line is literally `python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json`.
++- In `verify_package.py`, the nested sentinel is only `UDT_G327_NESTED_AGGREGATE=1`.
++- The sentinel branch is entered only after the verifier has already executed the scientific landing/status checks, source-integrity checks, evidence-integrity checks, vendored-runtime checks, preregistration-proof checks, independence checks, and scope-boundary checks.
++- The outer aggregate run succeeded with:
++  - `registered_replay_count: 4`
++  - `literal_fourth_command_replayed: true`
++  - `assertion_count: 73`
++- The outer verifier also rejects canned artifact republishing by mutating each of the first three scripts in scratch copies and requiring a source-integrity failure.
++- I independently ran a direct nested invocation in the writable copy with `UDT_G327_NESTED_AGGREGATE=1` and `PYTHONNOUSERSITE=1`. It passed with 56 checks, including:
++  - `production_landing`
++  - `production_status`
++  - `source_integrity:derive_axial_tensor_modes.py`
++  - `source_manifest_exact`
++  - `evidence_integrity:PREREGISTRATION_COMMIT_OBJECT.txt`
++  - `preregistration_proof_pass`
++  - `audit_scope_boundary`
++  - `lay_stability_boundary`
++  - `nested_replay_guard_active`
++- On inspection, the sentinel suppresses only recursive replay/canned-substitution loops. I found no bypass of scientific, source-integrity, provenance, status, or scope gates.
++
++## Scientific noninterference
++
++- The three regenerated scientific JSON artifacts were byte-identical to the sealed originals:
++  - `DERIVATION_RESULT.json` SHA-256 `5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491`
++  - `INDEPENDENT_VERIFICATION.json` SHA-256 `2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48`
++  - `CATCH_PROOF_RESULT.json` SHA-256 `ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe`
++- The bounded scientific landing token is unchanged across the sealed derivation, independent verification, aggregate verifier, exact derivation, audit report, and lay report.
++- The sealed boundary language also remains unchanged: it is still not the complete nonzero Fourier problem and not proof of whole-spacetime stability.
++
++## Conclusion
++
++Within the permitted zero-context repair-only scope, I found the preregistered repairs `R1` through `R3` implemented and authenticated, the fourth command literally replayed from one fresh writable copy, the nested guard non-bypassing for the required gates, and the bounded scientific landing unchanged with byte-identical scientific artifacts.
++
++ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+
+codex
+`ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED`
+
+Report: [EXTERNAL_REVIEW_RESPONSE.md](/return/EXTERNAL_REVIEW_RESPONSE.md)
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..97057e4334e35088ccdc4021cb9be29cad230ee4
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,88 @@
++# G327 Repair-Only External Review
++
++No repair-blocking findings were identified within the allowed scope.
++
++## Scope and method
++
++- I inspected only `/intake` and used `/work/g327_review_writable_00f1db00` for writable ephemeral replay.
++- I did not browse, download, install packages, access any repository, or modify sealed evidence under `/intake`.
++- I authenticated `REVIEW_SCOPE.json`, `REVIEW_MANIFEST.tsv`, `REVIEW_MANIFEST.sha256`, and every manifest payload before replay.
++
++## Intake authentication
++
++- `REVIEW_SCOPE.json` fixes the scope to repairs `R1` through `R3`, forbids research continuation, repository access, installs/downloads, and scientific-landing changes, and declares `manifest_payload_count: 49`.
++- Independent recomputation of the detached seal matched `REVIEW_MANIFEST.tsv` SHA-256 `97d4345cd1cdaa8015a476629ed2f86a2a24ec92dc60f8cfead333c352c6bebd`.
++- All 49 registered payloads existed, matched their recorded byte counts and SHA-256 values, were read-only, and exactly matched the actual sealed payload set.
++- `python3 -S /intake/verify_review_intake.py` also passed with `payload_count: 49`.
++
++## R1
++
++- The vendored runtime archive authenticated as SHA-256 `caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d`, matching `VENDORED_RUNTIME_MANIFEST.json`.
++- Independent zip inspection found 1,633 non-directory entries, including `sympy/__init__.py` and `mpmath/__init__.py`, with no `__pycache__`, `.pyc`, or `.pyo` entries.
++- The runtime bootstrap in `sealed_runtime.py` prepends only `VENDORED_SYMPY_RUNTIME.zip` to `sys.path`.
++- The three symbolic scripts each activate that bootstrap before importing SymPy.
++- In the writable copy, with `PYTHONNOUSERSITE=1`, an independent probe reported:
++  - `sympy 1.13.1` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/sympy/__init__.py`
++  - `mpmath 1.3.0` from `/work/g327_review_writable_00f1db00/VENDORED_SYMPY_RUNTIME.zip/mpmath/__init__.py`
++- I then ran the four registered commands literally from one writable copy, with `PYTHONNOUSERSITE=1` exported in the shell:
++
++```text
++python3 derive_axial_tensor_modes.py --output .review_runtime/DERIVATION_RESULT.json
++python3 verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
++python3 run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
++python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json
++```
++
++- All four commands exited successfully without any install, download, repository, or network activity.
++
++## R2
++
++- I independently recomputed the raw Git commit object identifier from `PREREGISTRATION_COMMIT_OBJECT.txt` using standard Git object encoding and obtained exactly `9bec301bc265bf67afa5f8398f7557ccdabb855b`.
++- The raw commit payload records tree `1a7fedca384e509831597d19ff16d032526e4731` and parent `2077ec6bef8dab2102a7b64dc8c5146c5670716c`.
++- `PREREGISTRATION_CHANGESET.tsv` records exactly five added paths, all status `A`:
++  - `COMPLETENESS_MAP.md`
++  - `MAP.md`
++  - `PREMISE_LEDGER.tsv`
++  - `PREREGISTRATION.md`
++  - `SOURCE_SCOPE.tsv`
++- `PREREGISTRATION_TREE.tsv` records exactly those five blob objects and modes/types `100644 blob`.
++- Independent blob-ID recomputation from the sealed local payloads matched all five registered SHA-1 blob identifiers exactly.
++- `python3 -S /intake/verify_preregistration_proof.py` passed with 12 assertions.
++- The trusted-timestamp ceiling is explicit and correctly bounded: the proof authenticates content plus the Git ancestry marker only; it does not claim an external trusted timestamp.
++
++## R3
++
++- `REPLAY_COMMANDS.txt` contains exactly four registered lines, and the fourth line is literally `python3 -S verify_package.py --output .review_runtime/PACKAGE_VERIFICATION_RESULT.json`.
++- In `verify_package.py`, the nested sentinel is only `UDT_G327_NESTED_AGGREGATE=1`.
++- The sentinel branch is entered only after the verifier has already executed the scientific landing/status checks, source-integrity checks, evidence-integrity checks, vendored-runtime checks, preregistration-proof checks, independence checks, and scope-boundary checks.
++- The outer aggregate run succeeded with:
++  - `registered_replay_count: 4`
++  - `literal_fourth_command_replayed: true`
++  - `assertion_count: 73`
++- The outer verifier also rejects canned artifact republishing by mutating each of the first three scripts in scratch copies and requiring a source-integrity failure.
++- I independently ran a direct nested invocation in the writable copy with `UDT_G327_NESTED_AGGREGATE=1` and `PYTHONNOUSERSITE=1`. It passed with 56 checks, including:
++  - `production_landing`
++  - `production_status`
++  - `source_integrity:derive_axial_tensor_modes.py`
++  - `source_manifest_exact`
++  - `evidence_integrity:PREREGISTRATION_COMMIT_OBJECT.txt`
++  - `preregistration_proof_pass`
++  - `audit_scope_boundary`
++  - `lay_stability_boundary`
++  - `nested_replay_guard_active`
++- On inspection, the sentinel suppresses only recursive replay/canned-substitution loops. I found no bypass of scientific, source-integrity, provenance, status, or scope gates.
++
++## Scientific noninterference
++
++- The three regenerated scientific JSON artifacts were byte-identical to the sealed originals:
++  - `DERIVATION_RESULT.json` SHA-256 `5690b46eb0404425c6c7ab56da1db25b7d5b5fea44d647919b87c89640c5c491`
++  - `INDEPENDENT_VERIFICATION.json` SHA-256 `2cf480694c7799511a874e907d75c3579871fd30afdfe17c419c74e64cc2ec48`
++  - `CATCH_PROOF_RESULT.json` SHA-256 `ea1d7f441d2c318ebf2cf712d31a9729516e54f551a1190c77ef851fea05ebfe`
++- The bounded scientific landing token is unchanged across the sealed derivation, independent verification, aggregate verifier, exact derivation, audit report, and lay report.
++- The sealed boundary language also remains unchanged: it is still not the complete nonzero Fourier problem and not proof of whole-spacetime stability.
++
++## Conclusion
++
++Within the permitted zero-context repair-only scope, I found the preregistered repairs `R1` through `R3` implemented and authenticated, the fourth command literally replayed from one fresh writable copy, the nested guard non-bypassing for the required gates, and the bounded scientific landing unchanged with byte-identical scientific artifacts.
++
++ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+
+tokens used
+78,786
+
+Script done on 2026-09-02 16:07:53-04:00 [COMMAND_EXIT_CODE="0"]

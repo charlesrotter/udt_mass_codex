@@ -28,3 +28,12 @@ all scientific, source-integrity, provenance, status, and scope gates still run.
 
 The repaired outer aggregate has 73 assertions. The raw preregistration proof has 12 assertions.
 All three scientific JSON artifacts are byte-identical before and after the evidence repair.
+
+## External repair-only replay
+
+The external reviewer authenticated all 49 sealed payloads and ran all four registered commands
+from one writable ephemeral copy with host user packages disabled. It independently verified the
+vendored runtime, raw preregistration commit and five blobs, literal nested fourth command, and
+byte identity of all three regenerated scientific artifacts. Final token:
+
+`ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED`.

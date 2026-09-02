@@ -39,5 +39,4 @@ solution branch, norm, physical premise, metric, kernel, angular sector, source,
 observation, scale, history, or `X_max` statement changed.
 
 Status:
-`R1_R2_R3_INTERNAL_PASS__EXTERNAL_REPAIR_ONLY_FOLLOWUP_REQUIRED`.
-
+`R1_R2_R3_EXTERNALLY_ACCEPTED__SCIENTIFIC_LANDING_UNCHANGED`.

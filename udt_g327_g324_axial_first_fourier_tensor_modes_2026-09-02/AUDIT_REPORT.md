@@ -1,7 +1,7 @@
 # G327 audit report — primitive axial Fourier tensor modes
 
 Date: 2026-09-02
-Grade: `SCIENTIFIC_CORE_EXTERNALLY_UNREFUTED__EVIDENCE_REPAIRS_INTERNAL_PASS_PENDING_FOLLOWUP`
+Grade: `EXTERNALLY_ACCEPTED_AFTER_R1_R2_R3_EVIDENCE_REPAIR`
 
 ## Bounded landing
 
@@ -31,9 +31,9 @@ are rejected.
 1. **Preregistered:** `PASS`, commit `9bec301b`.
 2. **Full bounded space:** `PASS_INTERNAL`, both polarizations, phases, and time solutions in the
    declared primitive axial tensor eigenspace.
-3. **Independent:** `PASS_EXTERNAL_SCIENTIFIC_ASSESSMENT`, implementation-distinct full-metric
-   tensor reconstruction plus fresh external direct audit; no bounded mathematical refutation.
-4. **Premise audited:** `PASS_INTERNAL`; all choices are visible and no new physical premise or
+3. **Independent:** `PASS_EXTERNAL`, implementation-distinct full-metric tensor reconstruction,
+   fresh external scientific audit, and accepted repair-only replay.
+4. **Premise audited:** `PASS_EXTERNAL`; all choices are visible and no new physical premise or
    imported equation was used.
 
 ## Fresh external review and evidence repairs
@@ -54,8 +54,18 @@ scientific source expression or generated scientific JSON value:
 - the aggregate verifier executes all four registered commands in one fresh copy, with a narrow
   recursion sentinel on the nested fourth command, and records 73 outer assertions.
 
-All three scientific artifacts remain byte-identical to the prerepair versions. External
-repair-only follow-up remains required before the evidence gate is accepted.
+All three scientific artifacts remain byte-identical to the prerepair versions. The sealed
+repair-only follow-up independently authenticated all 49 payloads, loaded SymPy and mpmath only
+from the intake-local archive with host user packages disabled, recomputed the preregistration
+commit and five blob IDs, ran all four registered commands literally in one writable ephemeral
+copy, and verified that the nested recursion guard bypasses none of the scientific, integrity,
+provenance, status, or scope gates. It returned:
+
+```text
+ACCEPT__G327_R1_R2_R3_REPAIRS__SCIENTIFIC_LANDING_UNCHANGED
+```
+
+The bounded result is therefore externally accepted after R1--R3 evidence repair.
 
 ## Boundary
 

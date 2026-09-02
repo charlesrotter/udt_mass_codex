@@ -1,10 +1,10 @@
 item	status	detail
-primitive_axial_tensor_sector	SCIENTIFIC_CORE_EXTERNALLY_UNREFUTED_EVIDENCE_REPAIRS_PENDING_FOLLOWUP	complete two-polarization two-phase first-harmonic eigenspace
+primitive_axial_tensor_sector	EXTERNALLY_ACCEPTED_AFTER_R1_R2_R3_EVIDENCE_REPAIR	complete two-polarization two-phase first-harmonic eigenspace
 external_scientific_assessment	PASS_NO_BOUNDED_REFUTATION	fresh reviewer accepted equations gauge count witness asymptotics and scope
 vendored_runtime	PASS_INTERNAL_REPAIRED	sealed SymPy 1.13.1 and mpmath 1.3.0 work with host user site disabled
 preregistration_ancestry	PASS_INTERNAL_REPAIRED	raw commit object exact changeset and five blobs authenticated at 9bec301b
 literal_fourth_replay	PASS_INTERNAL_REPAIRED	outer verifier executes all four lines with bounded nested recursion guard
-external_repair_followup	PENDING	R1 R2 R3 only scientific landing frozen
+external_repair_followup	PASS_ACCEPTED	R1 R2 R3 independently verified and scientific landing unchanged
 constraint_closure	DERIVED_EXACT	all out-of-sector first-variation residuals vanish
 linearized_scalar	DERIVED_EXACT	zero for nonzero tensor Fourier mode
 gauge_classification	DERIVED_EXACT	periodic same-mode diffeomorphisms have zero transverse-TF image

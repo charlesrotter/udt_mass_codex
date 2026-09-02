@@ -13,7 +13,7 @@ Date: 2026-09-02
 | Premise/provenance audit | `PASS_INTERNAL_REPAIRED` | raw commit + exact five blobs authenticated |
 | Fresh external scientific review | `PASS_NO_REFUTATION` | bounded mathematics accepted; evidence repair required |
 | Vendored isolated runtime | `PASS_INTERNAL_REPAIRED` | SymPy 1.13.1 + mpmath 1.3.0 from sealed archive |
-| External repair-only follow-up | `PENDING` | must verify only R1--R3 and unchanged landing |
+| External repair-only follow-up | `PASS` | R1--R3 accepted; all scientific artifacts byte-identical |
 
 Maximum current grade:
-`SCIENTIFIC_CORE_EXTERNALLY_UNREFUTED__EVIDENCE_REPAIRS_INTERNAL_PASS_PENDING_FOLLOWUP`.
+`EXTERNALLY_ACCEPTED_AFTER_R1_R2_R3_EVIDENCE_REPAIR`.

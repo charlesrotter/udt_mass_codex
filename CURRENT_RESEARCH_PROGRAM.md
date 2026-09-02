@@ -2,7 +2,7 @@
 
 Date: 2026-09-02
 
-`LIVE.md` controls status; the 309-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 310-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -96,6 +96,10 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   one time gauge, eight quotient lattice/frame moduli, two local shears, and one scalar. Evidence
   repairs were accepted. Fourier modes, full stability, endpoint control, occupancy, and scale stay
   open.
+- G327 closes the primitive axial transverse-tracefree Fourier tile: two gauge-invariant
+  polarizations, two real phases, `J0/Y0` time basis, and eight real constants. Its finite/logarithmic
+  past split and oscillatory `T^(-2/3)` future decay are classifications in the declared norm, not
+  endpoint selection or stability. Other wavevectors and coupled sectors stay open.
 
 ## Open boundary
 
@@ -109,7 +113,8 @@ G320 proves some of their breadth is genuine physical initial-geometry freedom a
 G321/G322 conditionally give each datum local then maximal-GH development. G323 proves local
 refoliation and separates explicit compact quotients; G324 identifies those quotients with their
 per-datum smooth MGHDs and preserves the modulus there. G325/G326 classify the complete bounded
-homogeneous synchronous first variations but do not select them or establish stability. None
+homogeneous synchronous first variations, and G327 classifies the first axial tensor Fourier tile,
+but none selects perturbations or establishes stability. None
 selects data.
 The positive round branch retains one curvature scale. This is
 not a native-law no-go; curvature scale, mass, population, and physical `X_max` remain open.
@@ -120,8 +125,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister the first nonzero Fourier-mode first-variation sector around the explicit G324 quotient
-MGHDs, fixing the mode, gauge, constraint, norm, and compact-time endpoint contract before
-computation. Do not infer full linear or nonlinear
+Preregister the primitive transverse-wavevector first-variation sector around the explicit G324
+quotient MGHDs, including its full periodic gauge/constraint decomposition and fixing its norm and
+compact-time endpoint contract before computation. Do not infer full linear or nonlinear
 stability, occupancy, uniqueness, singularity avoidance, arbitrary inextendibility, scale, or
 `X_max`. Import no action, source, matter/mass, observation, fit, protected work, or new equation.
