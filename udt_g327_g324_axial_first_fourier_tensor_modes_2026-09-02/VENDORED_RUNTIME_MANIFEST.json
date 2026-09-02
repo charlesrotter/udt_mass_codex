@@ -1,0 +1,16 @@
+{
+  "archive": "VENDORED_SYMPY_RUNTIME.zip",
+  "archive_bytes": 6557132,
+  "archive_sha256": "caa6a0b9aae296979d86b54ae5ce8a1df50081c0701aaae4c2e370867a233d9d",
+  "excluded": [
+    "__pycache__",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "file_count": 1633,
+  "packages": {
+    "mpmath": "1.3.0",
+    "sympy": "1.13.1"
+  },
+  "schema": "udt-g327-vendored-runtime-v1"
+}

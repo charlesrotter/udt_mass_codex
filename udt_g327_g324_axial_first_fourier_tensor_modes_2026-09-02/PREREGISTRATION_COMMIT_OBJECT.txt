@@ -1,0 +1,6 @@
+tree 1a7fedca384e509831597d19ff16d032526e4731
+parent 2077ec6bef8dab2102a7b64dc8c5146c5670716c
+author Charles Rotter <charles@charlesrotter.com> 1788372886 -0400
+committer Charles Rotter <charles@charlesrotter.com> 1788372886 -0400
+
+Preregister G327 axial Fourier tensor sector

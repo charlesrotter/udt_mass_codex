@@ -1,0 +1,21 @@
+{
+  "assertion_count": 12,
+  "checks": [
+    "raw_commit_object_hash",
+    "commit_tree_recorded",
+    "commit_parent_recorded",
+    "exact_preregistered_file_set",
+    "all_five_added_at_preregistration",
+    "tree_blob_registry_exact",
+    "tree_modes_and_types_exact",
+    "blob:COMPLETENESS_MAP.md",
+    "blob:MAP.md",
+    "blob:PREMISE_LEDGER.tsv",
+    "blob:PREREGISTRATION.md",
+    "blob:SOURCE_SCOPE.tsv"
+  ],
+  "commit": "9bec301bc265bf67afa5f8398f7557ccdabb855b",
+  "schema": "udt-g327-preregistration-proof-v1",
+  "scope_note": "content-and-ancestry-marker proof, not an external trusted timestamp",
+  "status": "PASS"
+}

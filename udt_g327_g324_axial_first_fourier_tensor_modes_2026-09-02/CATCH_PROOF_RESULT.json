@@ -1,0 +1,14 @@
+{
+  "attempted": 6,
+  "caught": 6,
+  "controls": {
+    "discarded_logarithmic_branch_rejected": true,
+    "fake_tensor_gauge_origin_rejected": true,
+    "false_future_power_rejected": true,
+    "missing_hubble_damping_rejected": true,
+    "wrong_gradient_power_rejected": true,
+    "wrong_real_dimension_rejected": true
+  },
+  "schema": "udt-g327-hostile-catch-proof-v1",
+  "status": "PASS"
+}
