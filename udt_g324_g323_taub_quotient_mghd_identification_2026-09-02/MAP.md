@@ -36,8 +36,8 @@ This is a mathematical maximality test, not a new UDT response law or observatio
 1. Recompute the timelike radial first integral and show infinite future proper-time reach.
 2. Show a finite-proper-time past endpoint cannot occur at finite positive `R`.
 3. Use the divergent Kretschmann scalar at `R -> 0` to obstruct a `C2` extension there.
-4. Apply the one-sided extension-boundary theorem and the G322 maximal-Cauchy theorem only in
-   their declared categories.
+4. Apply the orientation-neutral Galloway--Ling--Sbierski extension-endpoint theorem and the G322
+   maximal-Cauchy theorem only in their declared categories.
 5. Transfer the result to G323's already-derived unmarked compact-lattice modulus.
 
 ## Forbidden promotions

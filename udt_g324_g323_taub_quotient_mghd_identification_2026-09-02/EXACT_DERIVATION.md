@@ -139,26 +139,25 @@ geodesic continuation theorem extends it inside (1). This contradicts inextendib
 Equivalently, the image of a compact slab is compact and therefore closed in any Hausdorff
 extension. An extension-boundary endpoint cannot lie at finite positive `R`.
 
-## 5. The one-sided extension argument
+## 5. The orientation-neutral extension-endpoint argument
 
 G324 imports the bounded interface recorded in `GLS_PRIMARY_SOURCE_EVIDENCE.json` from Galloway,
-Ling, and Sbierski:
-
-1. a proper `C0` extension of a smooth globally hyperbolic spacetime has a nonempty future or past
-   boundary;
-2. a nonempty future boundary is reached by a future-directed timelike geodesic in the original
-   spacetime;
-3. the time-dual statement holds for a past boundary.
+Ling, and Sbierski. Their Theorem 2 states, in formal transcription, that a smooth, at least `C2`,
+time-oriented, globally hyperbolic Lorentzian manifold admitting a `C0` extension contains a
+timelike geodesic with an endpoint on the extension boundary. The evidence record gives the exact
+source version, PDF SHA-256, theorem number and page location, and two exact fragments totaling 23
+words. The
+theorem itself does not privilege the future or past direction.
 
 These are Lorentzian-geometry theorems, not physical UDT laws.
 
-Assume for contradiction that (1) has a proper time-oriented `C2` Lorentzian extension. By (12), a
-future boundary would give a future timelike geodesic with a finite endpoint, contradicting future
-timelike completeness. Hence the future boundary is empty. The extension boundary is nevertheless
-nonempty, so its past boundary is nonempty; the time-dual endpoint theorem supplies a past-directed
-timelike geodesic ending there.
+Assume for contradiction that (1) has a proper time-oriented `C2` Lorentzian extension; it is also a
+`C0` extension, so the imported theorem supplies a boundary-ending timelike geodesic in (1). Orient
+that geodesic toward its extension endpoint. It cannot be future-directed, because (12) proves
+future timelike geodesic completeness. It must therefore be past-directed. No separate time-dual
+theorem or assertion about a named one-sided boundary is used.
 
-Section 4 excludes a finite positive limiting radius, and a past-directed causal curve cannot run
+Section 4 excludes a finite positive limiting radius, and a past-directed timelike curve cannot run
 from finite `R` to `R=infinity`. Therefore the boundary geodesic must have
 
 \[
@@ -220,7 +219,7 @@ Preregistered landing:
 EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES
 ```
 
-Status: `PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW`.
+Status: `PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP`.
 
 Derived conditionally in the registered family:
 

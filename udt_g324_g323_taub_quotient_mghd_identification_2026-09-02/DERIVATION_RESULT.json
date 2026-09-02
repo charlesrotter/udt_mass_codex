@@ -25,9 +25,9 @@
     "gls_primary_identifier",
     "gls_related_doi",
     "gls_bounded_excerpt",
-    "gls_extension_boundary_nonempty",
-    "gls_future_boundary_geodesic",
-    "gls_future_completeness_consequence",
+    "gls_theorem_2_hypotheses",
+    "gls_theorem_2_boundary_endpoint",
+    "gls_endpoint_orientation_neutral",
     "g323_ricci_flat_source",
     "g323_primitive_modulus_source",
     "g323_registered_moduli_strict",
@@ -53,5 +53,5 @@
   "radial_kretschmann": "12*mu^2/R^6",
   "registered_lattice_modulus_survives_MGHD": true,
   "schema": "udt-g324-taub-mghd-production-v1",
-  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW"
+  "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP"
 }

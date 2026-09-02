@@ -1,0 +1,3440 @@
+Script started on 2026-09-02 10:37:50-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a0628e-0c6b-7541-b663-76be14f406d9
+--------
+user
+Act as a fresh zero-context adversarial scientific reviewer. The sealed G324 intake is mounted read-only at /intake. First authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload. Then read /intake/package/EXTERNAL_REVIEW_REQUEST.md and follow it exactly. Inspect only /intake; do not edit evidence files or continue the research. You may copy the package into /work and run the four registered commands there. Network access exists solely for Codex API transport; web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Do not access any repository or protected package, use unsealed observations, select or canonize a law, history, topology, occupancy, scale, or X_max, or import a new field equation, source, action, or matter model. Independently attack the Kasner transformation, Ricci and Kretschmann calculations, all timelike momentum branches, the compact-slab argument, the one-sided extension-theorem interface, the C2 curvature obstruction, the MGHD-surjectivity implication, and the inherited lattice-modulus claim. Keep C0 past inextendibility and physical selection explicitly outside the result. Write a detailed report to /return/EXTERNAL_REVIEW_RESPONSE.md ending with exactly one verdict token of your choosing that clearly states accept, repair, refute, or unresolved. In your final response state the token and report path.\n\n# G324 fresh external adversarial review request
+
+Please independently audit the bounded G324 result. Do not continue the research or propose a new
+physical law.
+
+## Primary question
+
+Does the exact G323 Taub quotient already equal the smooth G322 maximal globally hyperbolic
+development of each fixed registered datum, and does the G323 compact-lattice modulus therefore
+survive at the unmarked MGHD level?
+
+## Required attacks
+
+1. Independently recompute the Kasner transformation, Ricci tensor, and Kretschmann scalar.
+2. Check the conserved-momentum first integral and whether **every** future timelike geodesic has
+   infinite proper-time reach, including `p_X=0`.
+3. Authenticate the exact regularity, global-hyperbolicity, and one-sided boundary hypotheses of
+   the Galloway--Ling--Sbierski theorem interface from the sealed evidence.
+4. Try to construct an extension endpoint at finite positive `R`, at `R=infinity`, or at `R=0`.
+5. Decide whether curvature blow-up is used only for `C2` obstruction and whether the package
+   correctly refuses to claim past `C0` inextendibility.
+6. Audit the implication from time-oriented `C2` inextendibility to equality with the smooth G322
+   per-datum MGHD.
+7. Audit the transfer of G323's primitive lattice modulus to unmarked MGHDs without enlarging the
+   registered quotient category.
+8. Check that no physical topology, occupancy, scale, `X_max`, field equation, source, matter law,
+   or kernel/angular modification was introduced.
+9. Run the four registered commands in a writable ephemeral copy and report exact failures.
+
+## Allowed landings
+
+- accept the preregistered landing;
+- refute it with a concrete mathematical counterexample;
+- require bounded repairs while preserving or narrowing the scientific landing;
+- return `CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY` if a load-bearing theorem step is
+  unsupported.
+codex
+I’m treating this as a sealed-evidence audit. I’ll first authenticate the manifest files and read the package instructions under `/intake`, then I’ll work only from that evidence, run the registered commands in a writable copy, and write the review report to `/return/EXTERNAL_REVIEW_RESPONSE.md`.
+exec
+/bin/bash -lc 'rg --files /intake' in /return
+exec
+/bin/bash -lc pwd in /return
+ succeeded in 0ms:
+/return
+
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc 'ls -la /intake' in /return
+ succeeded in 0ms:
+total 28
+drwx------  4 udt-admin udt-admin 4096 Sep  2 10:25 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  2 10:37 ..
+-rw-rw-r--  1 udt-admin udt-admin   86 Sep  2 10:25 REVIEW_MANIFEST.sha256
+-rw-rw-r--  1 udt-admin udt-admin 4653 Sep  2 10:25 REVIEW_MANIFEST.tsv
+-rw-rw-r--  1 udt-admin udt-admin  617 Sep  2 10:25 REVIEW_SCOPE.json
+drwxrwxr-x  2 udt-admin udt-admin 4096 Sep  2 10:25 package
+drwxrwxr-x  4 udt-admin udt-admin 4096 Sep  2 10:25 sources
+
+codex
+`rg` is unavailable here, so I’m falling back to `find` and the standard checksum tools. Next I’m enumerating the sealed contents and validating the top-level scope and manifest hashes before reading the review instructions.
+exec
+/bin/bash -lc 'cat /intake/REVIEW_SCOPE.json' in /return
+exec
+/bin/bash -lc 'find /intake -type f | sort' in /return
+ succeeded in 0ms:
+{
+  "allowed": [
+    "inspect only this sealed intake",
+    "run registered checks in a writable ephemeral copy",
+    "independently rederive the bounded mathematical result"
+  ],
+  "forbidden": [
+    "edit evidence files",
+    "continue the research",
+    "access the repository or protected packages",
+    "use internet or unsealed observations",
+    "select or canonize a law, history, topology, occupancy, scale, or X_max"
+  ],
+  "question": "G323 explicit Taub quotient equality with its smooth per-datum G322 MGHD",
+  "review_type": "fresh_read_only_adversarial",
+  "schema": "udt-g324-fresh-review-scope-v1"
+}
+
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_MANIFEST.tsv
+/intake/package/SOURCE_NOTE.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_taub_mghd.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/package/verify_review_intake.py
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv
+
+exec
+/bin/bash -lc 'cat /intake/REVIEW_MANIFEST.sha256' in /return
+ succeeded in 0ms:
+0bcc407d40802f0944ac826604cd3093f643d7188462815f5e121b3f8d2d78f5  REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -lc 'head -n 20 /intake/REVIEW_MANIFEST.tsv' in /return
+ succeeded in 0ms:
+sha256	bytes	relative_path
+701747b55d4eb523924132bfa15b40ec09845d4ccf09f216d6fb7561f554afd1	617	REVIEW_SCOPE.json
+053e7e14594b964c0f4236df2a18db0bc2d6a9415793a1c59f3d3656e06dba3a	2455	package/AUDIT_REPORT.md
+51c076dfb38764019aa40d4dc57ca1d45cde81332f148cc4d728445e31e4e743	348	package/CATCH_PROOF_RESULT.json
+d4f75bebae2bbb341c3f6c8068c3353c5a88ae77a19b69b8fc895e8e50f00c3d	1263	package/COMPLETENESS_MAP.md
+029e0cab5863316aae9c74e19ba4cbe9bb03c481a63c7267a5528835eba86286	1962	package/DERIVATION_RESULT.json
+e1864e3e3a484606323bcc4eab444a91f717638f149a71113dae62b54fb0c5ed	772	package/EVIDENCE_GATES.md
+4575200b4d34225ede51cf722ec9c62c0680509547e29d23c72d8db4f8f49375	7519	package/EXACT_DERIVATION.md
+d5bce3b9f92622f0fcda09f1841aa4accd771f2e9d2e66d3a8113364583036d5	1889	package/EXTERNAL_REVIEW_REQUEST.md
+b0a3ba1ce064091e37696eccdafe84eed30ae2e8cffa92312517bb01d93d3a0c	1342	package/GLS_PRIMARY_SOURCE_EVIDENCE.json
+bed3faa6d8613f365970dc0f2cfee49a7dea0c73e728461903f9dcb7e564aa7a	1263	package/INDEPENDENT_VERIFICATION.json
+177fa7a78b251bea7e961902d8f6031bf3b00f7621c9a09a2ffdc7a2ad00616f	1218	package/LAY_REPORT.md
+fa5aa0ce6e019a3f3b974faf632b3fdc6918db8703cca87f43cdc5c851ba1d70	2131	package/MAP.md
+5630bc413ee2d7611b20ce6c4ed72834aa1f4ccb6a6775505cdc67051cd66352	2105	package/PREMISE_LEDGER.tsv
+ece12eebf10671a171d302d70eff4a808cdfd39366201c70d7d0640a03705d3b	4643	package/PREREGISTRATION.md
+5b1510b30045f03a3dd148de46747ebc3787038b870a8f05f663f23900a9bad3	464	package/PREREGISTRATION_ANCESTRY.md
+2d897568f5105fc4ffa4bf5263599dd6ac488e290c4e3d033a0f07b4fba41d16	276	package/REPLAY_COMMANDS.txt
+17ed477b3a12b990b04b2ad4155a516e1325a8432aaa6b936a2a97d114e7a860	1079	package/RUN_RECORD.md
+c51ddf3db4715672c73ae19057e4d92bafc12bfe2fa07c0eaa8a3dd629bb735f	2178	package/SOURCE_MANIFEST.tsv
+5ed9d6771ca93663e51f516333dfb42b553d36b1453e0c6571d3320a7b22e59c	1011	package/SOURCE_NOTE.md
+
+exec
+/bin/bash -lc 'tail -n 20 /intake/REVIEW_MANIFEST.tsv' in /return
+ succeeded in 0ms:
+98bc8d17c476946d6e8946002aa9f346b813b57ab231fa5d22de2419419fbab3	817	package/SOURCE_SCOPE.tsv
+bcc0b52044ded09f2e1987e05fc3b06a977fff7699d46b151d908e38489af8a7	1313	package/STATUS_LEDGER.tsv
+03cb10dda98396631e9cd2c3e5e977d5f624ecd6fa5e45056150d5baa0f7061d	3806	package/build_review_intake.py
+ce4e91a880a162d15bb02333245578dfe24e955ca72b8ce90ea875e05d052dbf	7778	package/derive_taub_mghd.py
+1061ca25904c8b31616c111e19b559859f8144f403d3e888e7f7ceb089cf0821	1697	package/run_catch_proofs.py
+19aedae026693024eef295142ea272f25533b4db406ce65739aeee48020ec0d3	7764	package/verify_independent.py
+65c0b36c3fed9dfb29b94bc77a0dd8824a6a31bb53619887e17cbd6234b5a955	5957	package/verify_package.py
+61d9f5ec1585b51d789c25b4f96cce6c2c0db5b5d6b39080b6de7161818917c0	1104	package/verify_review_intake.py
+7bf6a0c7b86a2c74cf63c0945640daed261c28e787254b323dcd51f1dafb6d98	5905	sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md
+7d35769b5544627e0595d639027681751d97a734dc54e93ddbcd2b8ce9ee09b3	2782	sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+57fe041f57ad3ad4abfc08832b5aaf0567f521f9cbf847164cd3f6fbf4290168	2300	sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv
+9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5	1159	sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json
+921ff8270414c2c397a87191918bae9837d665e7f4e8a9485b7820e2a5ddcc9b	1646	sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv
+fd9b0183e770574db090a7187fa30436746ecfb8d4eef14f0d39dafbcf7aee0d	1450	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md
+48e34aea67061103a2c7075b0e4e2184d8979ab5b04bc3ef803e43cea27de295	1331	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json
+186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b	9131	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md
+c4414270b3a31f81b51940b134a0daf754b3d9b9512b65439229edfec1944207	1774	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+3225cf337f9e2075ed4268502c9bb47f4e8919c4cae97b0aeb7b894029866567	2216	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv
+dc18180ca4e10c589ea7aa1dc145680edf5a66c50c482fb66ad8ae04596c615c	1603	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv
+2d7f0a13dc372f9df7fc476c82522f314951f677f0a43b3d16bfdb1d8efc0d4d	1263	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv
+
+exec
+/bin/bash -lc 'sha256sum /intake/REVIEW_MANIFEST.tsv' in /return
+ succeeded in 0ms:
+0bcc407d40802f0944ac826604cd3093f643d7188462815f5e121b3f8d2d78f5  /intake/REVIEW_MANIFEST.tsv
+
+exec
+/bin/bash -lc 'cat /intake/package/EXTERNAL_REVIEW_REQUEST.md' in /return
+ succeeded in 0ms:
+# G324 fresh external adversarial review request
+
+Please independently audit the bounded G324 result. Do not continue the research or propose a new
+physical law.
+
+## Primary question
+
+Does the exact G323 Taub quotient already equal the smooth G322 maximal globally hyperbolic
+development of each fixed registered datum, and does the G323 compact-lattice modulus therefore
+survive at the unmarked MGHD level?
+
+## Required attacks
+
+1. Independently recompute the Kasner transformation, Ricci tensor, and Kretschmann scalar.
+2. Check the conserved-momentum first integral and whether **every** future timelike geodesic has
+   infinite proper-time reach, including `p_X=0`.
+3. Authenticate the exact regularity, global-hyperbolicity, and one-sided boundary hypotheses of
+   the Galloway--Ling--Sbierski theorem interface from the sealed evidence.
+4. Try to construct an extension endpoint at finite positive `R`, at `R=infinity`, or at `R=0`.
+5. Decide whether curvature blow-up is used only for `C2` obstruction and whether the package
+   correctly refuses to claim past `C0` inextendibility.
+6. Audit the implication from time-oriented `C2` inextendibility to equality with the smooth G322
+   per-datum MGHD.
+7. Audit the transfer of G323's primitive lattice modulus to unmarked MGHDs without enlarging the
+   registered quotient category.
+8. Check that no physical topology, occupancy, scale, `X_max`, field equation, source, matter law,
+   or kernel/angular modification was introduced.
+9. Run the four registered commands in a writable ephemeral copy and report exact failures.
+
+## Allowed landings
+
+- accept the preregistered landing;
+- refute it with a concrete mathematical counterexample;
+- require bounded repairs while preserving or narrowing the scientific landing;
+- return `CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY` if a load-bearing theorem step is
+  unsupported.
+
+exec
+/bin/bash -lc 'cat /intake/package/REPLAY_COMMANDS.txt' in /return
+ succeeded in 0ms:
+python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json
+python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+python3 -S verify_package.py
+
+codex
+The top-level manifest hash matches. I’m now verifying every manifest payload against `/intake/REVIEW_MANIFEST.tsv`, then I’ll use only authenticated package materials for the actual audit.
+exec
+/bin/bash -lc 'while IFS=$'"'\\t' read -r sha bytes rel; do
+  if [ \""'$sha" = "sha256" ]; then
+    continue
+  fi
+  path="/intake/$rel"
+  actual_sha=$(sha256sum "$path" | awk '"'{print "'$1}'"')
+  actual_bytes="'$(wc -c < "$path" | tr -d '"' ')
+  if [ \""'$actual_sha" != "$sha" ] || [ "$actual_bytes" != "$bytes" ]; then
+    printf '"'MISMATCH\\t%s\\tmanifest_sha=%s\\tactual_sha=%s\\tmanifest_bytes=%s\\tactual_bytes=%s\\n' \""'$rel" "$sha" "$actual_sha" "$bytes" "$actual_bytes"
+  fi
+done < /intake/REVIEW_MANIFEST.tsv' in /return
+ succeeded in 0ms:
+codex
+The authenticated intake is internally consistent so far: no hash or byte-count mismatches across the manifest payloads. Next I’m reading the package map, derivation, theorem-evidence file, and verification scripts to reconstruct the claimed chain and attack points from sealed sources only.
+exec
+/bin/bash -lc 'cat /intake/package/verify_independent.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent exact tensor and endpoint checks for G324; imports no production code."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+class Expr:
+    """Finite Laurent polynomial in R and mu with exact rational coefficients."""
+
+    def __init__(self, terms=None):
+        self.terms = {k: Fraction(v) for k, v in (terms or {}).items() if v}
+
+    @staticmethod
+    def monomial(value=1, r_power=0, mu_power=0):
+        return Expr({(r_power, mu_power): Fraction(value)})
+
+    def __add__(self, other):
+        out = dict(self.terms)
+        for key, value in other.terms.items():
+            out[key] = out.get(key, Fraction(0)) + value
+            if not out[key]:
+                del out[key]
+        return Expr(out)
+
+    def __neg__(self):
+        return Expr({key: -value for key, value in self.terms.items()})
+
+    def __sub__(self, other):
+        return self + (-other)
+
+    def __mul__(self, other):
+        out = {}
+        for (ra, ma), va in self.terms.items():
+            for (rb, mb), vb in other.terms.items():
+                key = (ra + rb, ma + mb)
+                out[key] = out.get(key, Fraction(0)) + va * vb
+        return Expr(out)
+
+    def scale(self, value):
+        return Expr({key: Fraction(value) * coefficient for key, coefficient in self.terms.items()})
+
+    def dr(self):
+        return Expr({(rp - 1, mp): coefficient * rp
+                     for (rp, mp), coefficient in self.terms.items() if rp})
+
+    def inverse_monomial(self):
+        assert len(self.terms) == 1
+        (rp, mp), coefficient = next(iter(self.terms.items()))
+        return Expr.monomial(1 / coefficient, -rp, -mp)
+
+    def __eq__(self, other):
+        return self.terms == other.terms
+
+    def serial(self):
+        return {f"R^{rp}*mu^{mp}": str(value)
+                for (rp, mp), value in sorted(self.terms.items())}
+
+
+ZERO = Expr()
+HALF = Fraction(1, 2)
+
+
+def partial(value, coordinate):
+    return value.dr() if coordinate == 0 else ZERO
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks = []
+
+    def gate(condition, name):
+        assert condition, name
+        checks.append(name)
+
+    dim = 4
+    g = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    g[0][0] = Expr.monomial(-1, 1, -1)
+    g[1][1] = Expr.monomial(1, -1, 1)
+    g[2][2] = Expr.monomial(1, 2, 0)
+    g[3][3] = Expr.monomial(1, 2, 0)
+    inverse = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        inverse[a][a] = g[a][a].inverse_monomial()
+        gate(g[a][a] * inverse[a][a] == Expr.monomial(), f"inverse_metric_{a}")
+
+    gamma = [[[ZERO for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                value = ZERO
+                for d in range(dim):
+                    bracket = partial(g[d][c], b) + partial(g[d][b], c) - partial(g[b][c], d)
+                    value = value + inverse[a][d] * bracket
+                gamma[a][b][c] = value.scale(HALF)
+
+    riemann = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    value = partial(gamma[a][b][d], c) - partial(gamma[a][b][c], d)
+                    for e in range(dim):
+                        value = value + gamma[a][e][c] * gamma[e][b][d]
+                        value = value - gamma[a][e][d] * gamma[e][b][c]
+                    riemann[a][b][c][d] = value
+
+    ricci = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for b in range(dim):
+        for d in range(dim):
+            for a in range(dim):
+                ricci[b][d] = ricci[b][d] + riemann[a][b][a][d]
+            gate(ricci[b][d] == ZERO, f"ricci_zero_{b}_{d}")
+
+    lowered = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    for e in range(dim):
+                        lowered[a][b][c][d] = (
+                            lowered[a][b][c][d] + g[a][e] * riemann[e][b][c][d]
+                        )
+
+    kretschmann = ZERO
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    term = lowered[a][b][c][d] * lowered[a][b][c][d]
+                    term = term * inverse[a][a] * inverse[b][b] * inverse[c][c] * inverse[d][d]
+                    kretschmann = kretschmann + term
+    expected_k = Expr.monomial(12, -6, 2)
+    gate(kretschmann == expected_k, "kretschmann_exact")
+
+    # Independent coefficient-level derivation of the momentum first integral.
+    r_over_mu = Expr.monomial(1, 1, -1)
+    mu_over_r3 = Expr.monomial(1, -3, 1)
+    mu_over_r = Expr.monomial(1, -1, 1)
+    direct_px = Expr.monomial(1, 1, -1)
+    direct_transverse = Expr.monomial(1, -2, 0)
+    rdot_coefficients = {
+        "px2": Expr.monomial(),
+        "transverse": mu_over_r3,
+        "kappa": -mu_over_r,
+    }
+    residual_coefficients = {
+        "px2": (-r_over_mu) * rdot_coefficients["px2"] + direct_px,
+        "transverse": (-r_over_mu) * rdot_coefficients["transverse"] + direct_transverse,
+        "kappa": (-r_over_mu) * rdot_coefficients["kappa"] - Expr.monomial(),
+    }
+    gate(all(value == ZERO for value in residual_coefficients.values()),
+         "first_integral_coefficient_identity")
+
+    # Power tests are derived independently from the exact first integral.
+    future_complete = Fraction(0) >= -1 and Fraction(1, 2) >= -1
+    gate(Fraction(0) >= -1, "future_px_nonzero_infinite_parameter")
+    gate(Fraction(1, 2) >= -1, "future_px_zero_infinite_parameter")
+    gate(Fraction(3, 2) > -1 and Fraction(1, 2) > -1,
+         "past_zero_reached_in_finite_parameter")
+    gate(expected_k.terms[(-6, 2)] > 0, "past_scalar_diverges")
+
+    source = json.loads((root / "GLS_PRIMARY_SOURCE_EVIDENCE.json").read_text())
+    gate(source["source_grade"] == "PRIMARY_AUTHOR_ARXIV_FULL_TEXT_BOUNDED_EXCERPT",
+         "source_grade")
+    gate(source["bounded_excerpt_word_count"] == 20, "source_quote_budget")
+    boundary_nonempty = source["boundary_nonempty_fragment"].endswith("≠∅.")
+    endpoint_theorem = "future endpoint on ∂M" in source["endpoint_fragment"]
+    gate(boundary_nonempty, "extension_has_one_sided_boundary")
+    gate(endpoint_theorem, "one_sided_endpoint_theorem_content")
+    smooth_mghd_identification = (
+        future_complete
+        and boundary_nonempty
+        and endpoint_theorem
+        and expected_k.terms[(-6, 2)] > 0
+    )
+
+    result = {
+        "schema": "udt-g324-taub-mghd-independent-v1",
+        "status": "PASS",
+        "assertion_count": len(checks),
+        "checks": checks,
+        "production_imported": False,
+        "production_result_read": False,
+        "ricci_exact_zero": True,
+        "kretschmann": kretschmann.serial(),
+        "first_integral_independent": True,
+        "future_timelike_complete": future_complete,
+        "past_C2_obstruction": True,
+        "smooth_MGHD_identification_upheld": smooth_mghd_identification,
+        "metric_changed": False,
+        "kernel_changed": False,
+    }
+    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc 'cat /intake/package/MAP.md' in /return
+ succeeded in 0ms:
+# G324 map — explicit Taub quotient versus its per-datum MGHD
+
+Date: 2026-09-02
+
+## Whole question
+
+G323 constructed, for each registered compact datum, an explicit smooth Ricci-flat globally
+hyperbolic Taub quotient
+
+\[
+g_\mu=-\frac{R}{\mu}\,dR^2+\frac{\mu}{R}\,dX^2
+      +R^2(dy^2+dz^2),\qquad R>0,\quad \mu>0,
+\]
+
+with a complete Cauchy graph and a mode-dependent compact-lattice modulus. G322 conditionally
+supplied one maximal globally hyperbolic development (MGHD) for each fixed datum. G323 deliberately
+left open whether its explicit quotient is already that MGHD.
+
+G324 asks only:
+
+> Is each registered explicit G323 Taub quotient already the smooth MGHD of its own fixed G322
+> datum, and if so does the G323 compact-lattice modulus survive at the MGHD level?
+
+## Frame
+
+- `MAP`: compare one explicit quotient with the MGHD of the same fixed marked datum.
+- `OBSERVE`: rederive causal geodesic reach and curvature behavior from the displayed metric.
+- `PONDER`: distinguish smooth/C2 inextendibility from C0 inextendibility and from physical
+  selection.
+- `DERIVE`: use only exact metric identities plus declared imported Lorentzian-geometry theorems.
+
+This is a mathematical maximality test, not a new UDT response law or observational test.
+
+## Proposed bounded action
+
+1. Recompute the timelike radial first integral and show infinite future proper-time reach.
+2. Show a finite-proper-time past endpoint cannot occur at finite positive `R`.
+3. Use the divergent Kretschmann scalar at `R -> 0` to obstruct a `C2` extension there.
+4. Apply the one-sided extension-boundary theorem and the G322 maximal-Cauchy theorem only in
+   their declared categories.
+5. Transfer the result to G323's already-derived unmarked compact-lattice modulus.
+
+## Forbidden promotions
+
+G324 cannot select physical topology, quotient, orientation, datum, scale, observer population,
+source, matter model, mass law, observation, `X_max`, or a full UDT equation. It cannot make the
+owner-adopted provisional premises derived or canonical. It cannot claim stability, perturbative
+completeness, or coverage outside the registered G323 family.
+
+exec
+/bin/bash -lc 'cat /intake/package/EXACT_DERIVATION.md' in /return
+ succeeded in 0ms:
+# G324 exact derivation — smooth maximality of the registered Taub quotients
+
+Date: 2026-09-02
+
+## 1. Question and ownership
+
+G323 derived the explicit quotient metric
+
+\[
+g_\mu=-\frac{R}{\mu}\,dR^2+\frac{\mu}{R}\,dX^2
+      +R^2(dy^2+dz^2),
+\qquad R>0,\quad\mu>0,
+\tag{1}
+\]
+
+with the registered compact translation lattice. It proved that each fixed G320 datum embeds as a
+complete Cauchy graph, but stopped short of identifying (1) with the datum's G322 maximal globally
+hyperbolic development (MGHD).
+
+This derivation closes only that mathematical interface. The active `Ric=0` sector remains
+conditional on the owner-adopted provisional premises recorded in `PREMISE_LEDGER.tsv`. The two
+global existence/extension results are imported mathematical methods, not UDT postulates.
+
+## 2. Proper-time form and exact curvature
+
+Set
+
+\[
+T=\frac{2}{3\sqrt\mu}R^{3/2}.
+\tag{2}
+\]
+
+Then the radial term in (1) is exactly `-dT^2`. After constant rescalings of the three spatial
+coordinates, (1) is the compact Kasner metric
+
+\[
+g=-dT^2+C_X^2T^{-2/3}dX^2
+  +C_\perp^2T^{4/3}(dy^2+dz^2),
+\tag{3}
+\]
+
+with exponents
+
+\[
+(p_X,p_y,p_z)=\left(-\frac13,\frac23,\frac23\right),
+\qquad \sum_i p_i=\sum_i p_i^2=1.
+\tag{4}
+\]
+
+The Kasner identities give `Ric=0`. An independent direct tensor contraction gives
+
+\[
+\boxed{\mathcal K:=R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}}.
+\tag{5}
+\]
+
+Thus the spacetime is regular for every finite positive `R`, while the scalar invariant diverges as
+`R -> 0`.
+
+Also
+
+\[
+g^{-1}(dR,dR)=-\frac\mu R<0,
+\tag{6}
+\]
+
+so `R` is temporal. Choose the time orientation in which `R` increases. On any compact interval
+`0<a<=R<=b<infinity`, causal coordinate speeds are bounded. Since the spatial quotient is compact,
+an inextendible causal curve cannot stop inside such a slab. Consequently `R` ranges from zero to
+infinity on every inextendible causal curve and each constant-`R` torus is Cauchy, reproducing the
+G323 global-hyperbolicity gate.
+
+## 3. Exact timelike reach
+
+The three translation symmetries give conserved momenta
+
+\[
+p_X=\frac\mu R\dot X,
+\qquad p_y=R^2\dot y,
+\qquad p_z=R^2\dot z.
+\tag{7}
+\]
+
+Writing `kappa=g(dot gamma,dot gamma)`, the normalization identity is
+
+\[
+\dot R^2=p_X^2+\frac{\mu P}{R^3}-\kappa\frac\mu R,
+\qquad P=p_y^2+p_z^2.
+\tag{8}
+\]
+
+For a unit timelike geodesic, `kappa=-1`, so the right side is strictly positive. Its sign cannot
+turn; in the chosen future orientation `dot R>0`, and every future timelike geodesic has
+`R -> infinity`.
+
+Its future proper-time reach is
+
+\[
+\Delta\tau=\int^{\infty}
+\frac{dR}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
+\tag{9}
+\]
+
+If `p_X` is nonzero, then for `R>=1`
+
+\[
+\frac{d\tau}{dR}\ge
+\frac{1}{\sqrt{p_X^2+\mu(P+1)}},
+\tag{10}
+\]
+
+and (9) diverges. If `p_X=0`, then
+
+\[
+\frac{d\tau}{dR}\ge
+\sqrt{\frac{R}{\mu(P+1)}},
+\tag{11}
+\]
+
+and it again diverges. Therefore
+
+\[
+\boxed{(M,g_\mu)\text{ is future timelike geodesically complete}.}
+\tag{12}
+\]
+
+Toward `R=0`, the integrand instead behaves as `R^(3/2)` when `P>0` and as `R^(1/2)` when
+`P=0`; the past end has finite proper-time reach. This locates an incomplete end but does not by
+itself prove inextendibility.
+
+## 4. No finite-positive-`R` endpoint
+
+Suppose a geodesic has a finite affine/proper parameter endpoint while `R` remains in `[a,b]` with
+`0<a<b<infinity`. Equation (8) bounds `dot R`; (7) bounds every spatial coordinate velocity. The
+metric and its Christoffel symbols are smooth and bounded on the compact quotient slab
+`[a,b] x T3`. The geodesic state remains in a compact subset of the tangent bundle, so the ordinary
+geodesic continuation theorem extends it inside (1). This contradicts inextendibility.
+
+Equivalently, the image of a compact slab is compact and therefore closed in any Hausdorff
+extension. An extension-boundary endpoint cannot lie at finite positive `R`.
+
+## 5. The one-sided extension argument
+
+G324 imports the bounded interface recorded in `GLS_PRIMARY_SOURCE_EVIDENCE.json` from Galloway,
+Ling, and Sbierski:
+
+1. a proper `C0` extension of a smooth globally hyperbolic spacetime has a nonempty future or past
+   boundary;
+2. a nonempty future boundary is reached by a future-directed timelike geodesic in the original
+   spacetime;
+3. the time-dual statement holds for a past boundary.
+
+These are Lorentzian-geometry theorems, not physical UDT laws.
+
+Assume for contradiction that (1) has a proper time-oriented `C2` Lorentzian extension. By (12), a
+future boundary would give a future timelike geodesic with a finite endpoint, contradicting future
+timelike completeness. Hence the future boundary is empty. The extension boundary is nevertheless
+nonempty, so its past boundary is nonempty; the time-dual endpoint theorem supplies a past-directed
+timelike geodesic ending there.
+
+Section 4 excludes a finite positive limiting radius, and a past-directed causal curve cannot run
+from finite `R` to `R=infinity`. Therefore the boundary geodesic must have
+
+\[
+R\longrightarrow0.
+\tag{13}
+\]
+
+But in a `C2` extension the Riemann tensor and the scalar (5) are continuous and finite in a
+neighborhood of the endpoint. Equation (5) diverges along (13), a contradiction. Thus
+
+\[
+\boxed{(M,g_\mu)\text{ admits no proper time-oriented }C^2
+\text{ Lorentzian extension}.}
+\tag{14}
+\]
+
+This proves the regularity needed for the smooth MGHD interface. It does **not** prove that the
+past singular end is `C0`-inextendible.
+
+## 6. Identification with the G322 MGHD
+
+Fix one registered G323 datum. G323 gives a data-preserving Cauchy embedding of its explicit
+quotient into the smooth MGHD supplied conditionally by G322. An isometric embedding between
+equal-dimensional manifolds has open image. If that image were proper, the MGHD would be a proper
+smooth—and hence `C2`—time-oriented Lorentzian extension of (1), contradicting (14).
+
+Therefore the embedding is onto:
+
+\[
+\boxed{\text{each registered explicit G323 quotient is its fixed datum's smooth G322 MGHD}.}
+\tag{15}
+\]
+
+This is a per-datum theorem. It does not select a datum.
+
+## 7. Transfer of the compact-lattice modulus
+
+G323 already derived the unmarked invariant
+
+\[
+\mathcal Q(\Gamma)=
+\frac{\operatorname{covol}_{\ell_X}(\Gamma\cap\ell_X)}
+{\sqrt{\operatorname{covol}_{E_\perp}(\pi_{E_\perp}\Gamma)}}
+\tag{16}
+\]
+
+and proved it strictly mode-dependent for the registered integer family. Equation (15) identifies
+each MGHD with its explicit quotient; it neither modifies nor refits (16). Hence two registered
+quotients with different `Q(Gamma)` cannot become the same unmarked MGHD.
+
+The opposite-`K` conclusion also remains exactly G323's: one time-unoriented metric and its two
+opposite time orientations. G324 adds no universe/anti-universe interpretation.
+
+## 8. Exact landing and boundary
+
+Preregistered landing:
+
+```text
+EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES
+```
+
+Status: `PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW`.
+
+Derived conditionally in the registered family:
+
+- future timelike geodesic completeness;
+- no proper time-oriented `C2` Lorentzian extension;
+- equality of each explicit quotient with its smooth per-datum G322 MGHD;
+- survival of G323's registered compact-lattice modulus at MGHD level.
+
+Still open or inactive:
+
+- past `C0` inextendibility;
+- stability and perturbations;
+- other topologies, lattices, data, sources, and full UDT sectors;
+- physical datum/topology/orientation/occupancy selection;
+- scale attachment, observation, mass, and physical `X_max`.
+
+The UDT metric, reciprocal kernel, and angular sector are unchanged.
+
+exec
+/bin/bash -lc 'cat /intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json' in /return
+ succeeded in 0ms:
+{
+  "schema": "udt-g324-gls-primary-source-bounded-evidence-v1",
+  "title": "Timelike completeness as an obstruction to C0-extensions",
+  "authors": [
+    "Gregory J. Galloway",
+    "Eric Ling",
+    "Jan Sbierski"
+  ],
+  "arxiv": "1704.00353v4",
+  "related_doi": "10.1007/s00220-017-3019-2",
+  "url": "https://arxiv.org/abs/1704.00353",
+  "retrieved_date": "2026-09-02",
+  "source_grade": "PRIMARY_AUTHOR_ARXIV_FULL_TEXT_BOUNDED_EXCERPT",
+  "bounded_excerpt_word_count": 20,
+  "copyright_boundary": "Two load-bearing fragments totaling 20 whitespace-delimited words are retained; all other content is paraphrased.",
+  "boundary_nonempty_fragment": "∂+M∪∂−M≠∅.",
+  "endpoint_fragment": "If ∂+M≠∅, then there is a future directed timelike geodesic in M that has a future endpoint on ∂M.",
+  "scope_paraphrase": "For a smooth at least C2 globally hyperbolic spacetime inside a C0 extension, the boundary is nonempty and a nonempty future boundary is reached by a future timelike geodesic. Hence future timelike geodesic completeness rules out the future boundary; the time dual locates a past-directed timelike geodesic at a remaining past boundary.",
+  "not_imported": [
+    "a UDT physical law",
+    "a field equation",
+    "past C0 inextendibility of the G323 metric",
+    "physical occupancy or topology selection"
+  ]
+}
+
+exec
+/bin/bash -lc 'cat /intake/package/verify_package.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate, replay, and source-containment verifier for G324."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+LANDING = (
+    "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__"
+    "REGISTERED_LATTICE_MODULUS_SURVIVES"
+)
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def resolve_source_root(package: Path, supplied: str | None) -> Path:
+    if supplied:
+        return Path(supplied).resolve()
+    direct = package.parent
+    name = "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01"
+    if (direct / name).is_dir():
+        return direct
+    return direct / "sources"
+
+
+def load(path: Path):
+    return json.loads(path.read_text())
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source-root", default=None)
+    parser.add_argument("--output", default=None)
+    args = parser.parse_args()
+
+    package = Path(__file__).resolve().parent
+    source_root = resolve_source_root(package, args.source_root)
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    production = load(package / "DERIVATION_RESULT.json")
+    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    gate(production["landing"] == LANDING, "production_landing")
+    gate(production["assertion_count"] == 29, "production_assertion_count")
+    gate(independent["assertion_count"] == 30, "independent_assertion_count")
+    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    gate(production["explicit_quotient_equals_smooth_per_datum_MGHD"], "mghd_positive")
+    gate(production["registered_lattice_modulus_survives_MGHD"], "modulus_positive")
+    gate(production["proper_time_oriented_C2_extension_excluded"], "c2_extension_excluded")
+    gate(not production["C0_past_inextendibility_proved"], "c0_past_not_overclaimed")
+    gate(not production["physical_occupancy_selected"], "occupancy_not_selected")
+    gate(not production["physical_scale_selected"], "scale_not_selected")
+    gate(not production["Xmax_selected"], "xmax_not_selected")
+    gate(not production["metric_changed"] and not production["kernel_changed"],
+         "metric_kernel_unchanged")
+    gate(independent["production_imported"] is False, "independent_no_production_import")
+    gate(independent["production_result_read"] is False, "independent_no_result_read")
+    gate(independent["kretschmann"] == {"R^-6*mu^2": "12"}, "independent_kretschmann")
+    gate(all(hostile["controls"].values()), "all_hostile_controls")
+
+    independent_text = (package / "verify_independent.py").read_text()
+    gate("import derive_taub_mghd" not in independent_text, "static_no_production_import")
+    gate("DERIVATION_RESULT.json" not in independent_text, "static_no_production_result_read")
+
+    source = load(package / "GLS_PRIMARY_SOURCE_EVIDENCE.json")
+    quoted = source["boundary_nonempty_fragment"].split() + source["endpoint_fragment"].split()
+    gate(len(quoted) == source["bounded_excerpt_word_count"] == 20, "source_quote_count_exact")
+    gate(source["arxiv"] == "1704.00353v4", "source_primary_identifier")
+
+    with (package / "SOURCE_MANIFEST.tsv").open(newline="") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    gate(len(rows) == 12, "source_manifest_count")
+    for row in rows:
+        path = source_root / row["relative_path"]
+        gate(path.is_file(), f"source_exists:{row['relative_path']}")
+        gate(digest(path) == row["sha256"], f"source_hash:{row['relative_path']}")
+
+    exact = (package / "EXACT_DERIVATION.md").read_text()
+    lay = (package / "LAY_REPORT.md").read_text()
+    status = (package / "STATUS_LEDGER.tsv").read_text()
+    premise = (package / "PREMISE_LEDGER.tsv").read_text()
+    gate(LANDING in exact, "exact_landing_token")
+    gate("does **not** prove that the\npast singular end is `C0`-inextendible" in exact,
+         "exact_c0_boundary")
+    gate("choose which compact shape Nature uses" in lay, "lay_occupancy_boundary")
+    gate("PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW" in status, "status_external_pending")
+    gate("IMPORTED_MATHEMATICAL_METHOD" in premise, "premise_import_typed")
+
+    # Exact replay into a temporary directory. Nothing in the evidence directory is changed.
+    with tempfile.TemporaryDirectory(prefix="udt_g324_replay_") as temp:
+        temp_path = Path(temp)
+        commands = (
+            ("derive_taub_mghd.py", "DERIVATION_RESULT.json"),
+            ("verify_independent.py", "INDEPENDENT_VERIFICATION.json"),
+            ("run_catch_proofs.py", "CATCH_PROOF_RESULT.json"),
+        )
+        for script, output in commands:
+            command = [sys.executable, "-S", str(package / script), "--output", str(temp_path / output)]
+            if script == "derive_taub_mghd.py":
+                command.extend(("--source-root", str(source_root)))
+            completed = subprocess.run(command, cwd=package, check=True, capture_output=True, text=True)
+            gate(completed.returncode == 0, f"replay_exit:{script}")
+            gate(load(temp_path / output) == load(package / output), f"replay_exact:{output}")
+
+    result = {
+        "schema": "udt-g324-package-verification-v1",
+        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "python_version": sys.version,
+        "registered_source_count": len(rows),
+        "replay_exact": True,
+        "evidence_directory_unchanged_by_replay": True,
+    }
+    if args.output:
+        Path(args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+I have the package’s claimed proof chain now. The next pass is separating what is actually established from what is only asserted by checking the source-manifested upstream evidence, the production derivation script, and the hostile control script.
+exec
+/bin/bash -lc 'cat /intake/package/derive_taub_mghd.py' in /return
+exec
+/bin/bash -lc 'cat /intake/package/run_catch_proofs.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Production checks for the bounded G324 Taub-quotient MGHD identification."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import math
+from fractions import Fraction
+from pathlib import Path
+
+
+LANDING = (
+    "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__"
+    "REGISTERED_LATTICE_MODULUS_SURVIVES"
+)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+    parser.add_argument("--source-root", default=None)
+    args = parser.parse_args()
+
+    root = Path(__file__).resolve().parent
+    if args.source_root is not None:
+        source_root = Path(args.source_root).resolve()
+    elif (root.parent / "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01").is_dir():
+        source_root = root.parent
+    else:
+        source_root = root.parent / "sources"
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    # Independent proper-time form of the metric: Kasner exponents (-1/3,2/3,2/3).
+    p = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+    gate(sum(p) == 1, "kasner_sum_p")
+    gate(sum(x * x for x in p) == 1, "kasner_sum_p2")
+    gate(sum(x * (x - 1) for x in p) == 0, "ricci_time_coefficient_zero")
+    gate(all(x * (sum(p) - 1) == 0 for x in p), "ricci_space_coefficients_zero")
+
+    k1 = sum(x * x * (x - 1) * (x - 1) for x in p)
+    k2 = sum(p[i] * p[i] * p[j] * p[j] for i in range(3) for j in range(i + 1, 3))
+    kasner_k_coefficient = 4 * (k1 + k2)
+    # t=(2/3)R^(3/2)/sqrt(mu), so t^4=(16/81)R^6/mu^2.
+    radial_k_coefficient = kasner_k_coefficient * Fraction(81, 16)
+    gate(kasner_k_coefficient == Fraction(64, 27), "kasner_kretschmann_coefficient")
+    gate(radial_k_coefficient == 12, "radial_kretschmann_12_mu2_over_R6")
+    sample_radius = Fraction(25, 7)
+    sample_mu = Fraction(11, 5)
+    dt_dR_squared = sample_radius / sample_mu
+    transformed_radial_coefficient = (-sample_radius / sample_mu) / dt_dR_squared
+    gate(transformed_radial_coefficient == -1, "proper_time_radial_coefficient_minus_one")
+
+    # Exact rational samples of the conserved-momentum first integral and metric norm.
+    samples = (
+        (Fraction(2), Fraction(3), Fraction(1), Fraction(4), Fraction(5), Fraction(-1)),
+        (Fraction(7, 3), Fraction(5, 2), Fraction(0), Fraction(2), Fraction(0), Fraction(-1)),
+        (Fraction(3, 2), Fraction(9, 4), Fraction(6), Fraction(0), Fraction(1), Fraction(0)),
+    )
+    for index, (mu, radius, px, py, pz, kappa) in enumerate(samples):
+        transverse = py * py + pz * pz
+        rdot2 = px * px + mu * transverse / radius**3 - kappa * mu / radius
+        xdot = px * radius / mu
+        ydot = py / radius**2
+        zdot = pz / radius**2
+        norm = (
+            -radius * rdot2 / mu
+            + mu * xdot * xdot / radius
+            + radius**2 * (ydot * ydot + zdot * zdot)
+        )
+        gate(norm == kappa, f"first_integral_norm_sample_{index}")
+        gate(rdot2 > 0, f"first_integral_positive_sample_{index}")
+
+    # Analytic comparison exponents. Integral R^a dR diverges at infinity iff a>=-1.
+    px_nonzero_future_integrand_power = Fraction(0)
+    px_zero_future_integrand_power = Fraction(1, 2)
+    future_px_nonzero_complete = px_nonzero_future_integrand_power >= -1
+    future_px_zero_complete = px_zero_future_integrand_power >= -1
+    future_complete = future_px_nonzero_complete and future_px_zero_complete
+    gate(future_px_nonzero_complete, "future_reach_px_nonzero_diverges")
+    gate(future_px_zero_complete, "future_reach_px_zero_diverges")
+
+    # Near R=0 the proper-time integrand is R^(3/2) with transverse momentum,
+    # and R^(1/2) without it; both are integrable and locate the incomplete end.
+    gate(Fraction(3, 2) > -1, "past_reach_transverse_finite")
+    gate(Fraction(1, 2) > -1, "past_reach_radial_finite")
+
+    # A concrete compact-slab bound checks the continuation inequalities.
+    mu = 2.0
+    lower, upper = 0.4, 3.0
+    px, transverse = 1.3, 2.7
+    rdot_bound = math.sqrt(px * px + mu * transverse / lower**3 + mu / lower)
+    xdot_bound = abs(px) * upper / mu
+    transverse_velocity_bound = math.sqrt(transverse) / lower**2
+    finite_interior_bounds = all(
+        math.isfinite(v) for v in (rdot_bound, xdot_bound, transverse_velocity_bound)
+    )
+    gate(finite_interior_bounds, "finite_interior_velocity_bounds")
+
+    source = json.loads((root / "GLS_PRIMARY_SOURCE_EVIDENCE.json").read_text())
+    gate(source["arxiv"] == "1704.00353v4", "gls_primary_identifier")
+    gate(source["related_doi"] == "10.1007/s00220-017-3019-2", "gls_related_doi")
+    gate(source["bounded_excerpt_word_count"] <= 25, "gls_bounded_excerpt")
+    theorem_boundary_nonempty = source["boundary_nonempty_fragment"] == "∂+M∪∂−M≠∅."
+    theorem_future_endpoint = "future directed timelike geodesic" in source["endpoint_fragment"]
+    gate(theorem_boundary_nonempty, "gls_extension_boundary_nonempty")
+    gate(theorem_future_endpoint, "gls_future_boundary_geodesic")
+    gate("future timelike geodesic completeness" in source["scope_paraphrase"],
+         "gls_future_completeness_consequence")
+
+    upstream = json.loads(
+        (source_root / "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01"
+         / "DERIVATION_RESULT.json").read_text()
+    )
+    periods = [float(upstream["periods"][str(n)]) for n in (1, 2, 3, 4)]
+    gate(upstream["ambient_ricci_flat_exact"], "g323_ricci_flat_source")
+    gate(upstream["primitive_period_formula_pass"], "g323_primitive_modulus_source")
+    gate(all(b > a for a, b in zip(periods, periods[1:])), "g323_registered_moduli_strict")
+
+    # Logical interface: any proper smooth MGHD embedding would be a proper C2 extension.
+    future_boundary_excluded = future_complete and theorem_future_endpoint
+    remaining_boundary_forced_past = future_boundary_excluded and theorem_boundary_nonempty
+    finite_positive_radius_endpoint_excluded = finite_interior_bounds
+    past_c2_endpoint_excluded_by_scalar = radial_k_coefficient > 0
+    proper_c2_extension_excluded = all(
+        (
+            future_boundary_excluded,
+            remaining_boundary_forced_past,
+            finite_positive_radius_endpoint_excluded,
+            past_c2_endpoint_excluded_by_scalar,
+        )
+    )
+    gate(proper_c2_extension_excluded, "proper_time_oriented_c2_extension_excluded")
+    gate(proper_c2_extension_excluded and upstream["primitive_period_formula_pass"],
+         "smooth_mghd_identification_and_modulus_transfer")
+
+    result = {
+        "schema": "udt-g324-taub-mghd-production-v1",
+        "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "kasner_exponents": [str(x) for x in p],
+        "kasner_kretschmann_coefficient": str(kasner_k_coefficient),
+        "radial_kretschmann": "12*mu^2/R^6",
+        "future_timelike_complete": future_complete,
+        "past_timelike_incomplete": True,
+        "proper_time_oriented_C2_extension_excluded": True,
+        "explicit_quotient_equals_smooth_per_datum_MGHD": True,
+        "registered_lattice_modulus_survives_MGHD": True,
+        "C0_past_inextendibility_proved": False,
+        "physical_occupancy_selected": False,
+        "physical_topology_selected": False,
+        "physical_scale_selected": False,
+        "Xmax_selected": False,
+        "metric_changed": False,
+        "kernel_changed": False,
+        "angular_sector_changed": False,
+    }
+    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile controls for G324's load-bearing implication chain."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="CATCH_PROOF_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+
+    def positive_landing(future_integrand_power, curvature_coefficient,
+                         globally_hyperbolic, modulus_distinct, imports_new_physics):
+        return (
+            future_integrand_power >= -1
+            and curvature_coefficient > 0
+            and globally_hyperbolic
+            and modulus_distinct
+            and not imports_new_physics
+        )
+
+    assert positive_landing(0, 12, True, True, False)
+    controls = {
+        "finite_future_parameter_rejected": not positive_landing(-2, 12, True, True, False),
+        "zero_curvature_obstruction_rejected": not positive_landing(0, 0, True, True, False),
+        "missing_global_hyperbolicity_rejected": not positive_landing(0, 12, False, True, False),
+        "erased_lattice_modulus_rejected": not positive_landing(0, 12, True, False, False),
+        "new_physical_law_dependency_rejected": not positive_landing(0, 12, True, True, True),
+    }
+    assert all(controls.values())
+    result = {
+        "schema": "udt-g324-catch-proofs-v1",
+        "status": "PASS",
+        "assertion_count": len(controls),
+        "controls": controls,
+    }
+    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc 'cat /intake/package/SOURCE_MANIFEST.tsv' in /return
+exec
+/bin/bash -lc 'cat /intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md' in /return
+ succeeded in 0ms:
+sha256	relative_path	role
+186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	explicit metric global argument and modulus
+48e34aea67061103a2c7075b0e4e2184d8979ab5b04bc3ef803e43cea27de295	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json	accepted upstream machine result
+dc18180ca4e10c589ea7aa1dc145680edf5a66c50c482fb66ad8ae04596c615c	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv	registered modulus controls
+3225cf337f9e2075ed4268502c9bb47f4e8919c4cae97b0aeb7b894029866567	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv	upstream ownership
+fd9b0183e770574db090a7187fa30436746ecfb8d4eef14f0d39dafbcf7aee0d	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md	upstream scope
+2d7f0a13dc372f9df7fc476c82522f314951f677f0a43b3d16bfdb1d8efc0d4d	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv	accepted status boundary
+c4414270b3a31f81b51940b134a0daf754b3d9b9512b65439229edfec1944207	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md	external acceptance boundary
+7bf6a0c7b86a2c74cf63c0945640daed261c28e787254b323dcd51f1dafb6d98	udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md	per-datum MGHD interface
+9856304eb589b01ae58a6fbf429210bb3edd490d672a2ac114fec078f7c1bfb5	udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json	maximal-Cauchy theorem evidence
+57fe041f57ad3ad4abfc08832b5aaf0567f521f9cbf847164cd3f6fbf4290168	udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv	MGHD premise ownership
+921ff8270414c2c397a87191918bae9837d665e7f4e8a9485b7820e2a5ddcc9b	udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv	MGHD accepted boundary
+7d35769b5544627e0595d639027681751d97a734dc54e93ddbcd2b8ce9ee09b3	udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md	MGHD external acceptance
+
+ succeeded in 0ms:
+# G322 exact derivation — maximal globally hyperbolic development per fixed datum
+
+Date: 2026-09-01
+
+Exact ownership stamp:
+`MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENT__CONDITIONAL_ON_IMPORTED_CHOQUET_BRUHAT_GEROCH_THEOREM`.
+
+Exact scope stamp:
+`NO_CLAIM__GEODESIC_COMPLETENESS_OR_SINGULARITY_FREEDOM_OR_PHYSICAL_OCCUPANCY_OR_UNMARKED_CLASSIFICATION`.
+
+Exact bounded landing:
+`FIXED_G321_DATA_HAVE_CONDITIONAL_UNIQUE_MAXIMAL_GLOBALLY_HYPERBOLIC_DEVELOPMENTS__MAXIMALITY_IS_PER_DATUM_AND_NOT_COMPLETENESS_OR_OCCUPANCY`.
+
+## 1. Ownership
+
+Universal Reciprocity/DDR and the G312 response premises are owner-adopted provisionally, not
+derived or canonized. In their registered regular metric-only scale-free vacuum arena, the active
+equation is
+
+\[
+S_{ab}=R_{ab}-\frac14R g_{ab}=0.
+\tag{1}
+\]
+
+G322 adds no field equation, action, source, matter model, boundary condition, or physical scale.
+It applies an imported mathematical theorem to already accepted data.
+
+## 2. Exact equation match on the registered sector
+
+Contracted Bianchi gives
+
+\[
+\nabla^aS_{ab}=\frac14\nabla_bR.
+\]
+
+Thus on a connected solution region,
+
+\[
+R_{ab}=\Lambda g_{ab},\qquad d\Lambda=0.
+\tag{2}
+\]
+
+The spacelike constraints are
+
+\[
+{}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+\qquad
+D_j(K^{ij}-\gamma^{ij}K)=0.
+\tag{3}
+\]
+
+Every registered G320 datum has the left side of the first equation equal to zero and satisfies all
+three momentum constraints. Therefore its connected sector is
+
+\[
+\boxed{\Lambda=0},
+\]
+
+and equations (1)–(2) become exactly
+
+\[
+\boxed{R_{ab}=0}.
+\tag{4}
+\]
+
+Production independently obtained
+
+```text
+max |Hamiltonian| = 3.552713678800501e-15
+max |momentum|    = 1.7763568394002505e-15
+```
+
+and the implementation-distinct direct connection/Ricci route obtained
+
+```text
+max |Hamiltonian| = 2.6645352591003757e-15
+max |momentum|    = 1.6653345369377348e-15
+max Ricci anchor error = 1.3322676295501878e-15.
+```
+
+These are backward-error checks of the analytic identities, not the global theorem.
+
+## 3. Development category
+
+For one fixed complete datum \((\Sigma,\gamma,K)\), a marked development is a triple
+\((M,g,i)\) such that:
+
+1. \((M,g)\) is a smooth time-oriented solution of (4);
+2. \(i:\Sigma\to M\) embeds \(\Sigma\) as a Cauchy surface;
+3. the induced metric and second fundamental form are exactly \((\gamma,K)\).
+
+A morphism from \((M_1,g_1,i_1)\) to \((M_2,g_2,i_2)\) is an isometric embedding \(F\) satisfying
+
+\[
+F\circ i_1=i_2.
+\tag{5}
+\]
+
+This is the data-preserving marked category. Coordinate, lapse, shift, and harmonic-gauge copies
+represent the same geometry.
+
+## 4. Imported global theorem
+
+The Choquet-Bruhat--Geroch theorem is imported with the following bounded content:
+
+- constraint-satisfying Einstein data possess a maximal Cauchy development;
+- that development extends every other development of the same data;
+- a solution carrying a Cauchy surface embeds into one corresponding maximal development.
+
+The bounded authenticated publisher evidence in `S09_PRIMARY_ABSTRACT_EVIDENCE.json` and the
+repository's registered S09 source row support this exact scope. G322 does not prove the theorem
+computationally or promote it to a UDT postulate.
+
+## 5. Application to G321 data
+
+G321 established, conditional on the local harmonic theorem, that each complete G320 datum is
+smooth, regular, constraint-satisfying, and has a local marked development. Section 2 establishes
+that the active equation is exactly (4) for those data. All declared theorem-interface hypotheses
+therefore match.
+
+Conditional on the imported global theorem, for every fixed complete registered datum there is a
+maximal globally hyperbolic marked development \((M_{\max},g_{\max},i_{\max})\). Every other
+globally hyperbolic development of that same datum has a data-preserving isometric embedding into
+it. Two maximal developments of the same datum are data-preserving isometric.
+
+This closes the maximal globally hyperbolic continuation question **per supplied datum** inside the
+bounded arena. It supplies no map selecting a datum.
+
+## 6. Cross-datum structure
+
+G320 gives
+
+\[
+Q_R[\psi_n]=n^2Q_R[\psi_1].
+\tag{6}
+\]
+
+An isometry of marked developments must preserve their initial data and hence (6). Different
+integer modes therefore remain different marked maximal developments. This yields at least a
+countable family in the registered slice; it is not a full moduli classification.
+
+Changing \(K\) to \(-K\) gives time-reversed complete data. The associated maximal developments
+are time reverses in the marked time-oriented category. G322 does not decide whether different
+data can occur as different unmarked Cauchy slices in one larger spacetime.
+
+## 7. What maximality does not mean
+
+“Maximal globally hyperbolic” is maximal only in the category defined in section 3. It does not
+imply:
+
+- geodesic completeness or infinite proper-time duration;
+- bounded curvature, absence of singularities, or stability;
+- inextendibility as an arbitrary Lorentzian manifold;
+- determinism beyond a Cauchy horizon;
+- physical occupancy, a unique universe, or an observational prediction.
+
+These are logically separate questions. In particular, a non-globally-hyperbolic extension can
+exist without contradicting the theorem.
+
+## 8. Exact landing
+
+Conditional on the imported Choquet-Bruhat--Geroch theorem, each fixed complete G321 datum in the
+registered smooth connected marked-`T^3`, `Lambda=0` family has one maximal globally hyperbolic
+marked development up to data-preserving isometry. The remaining freedom is selection among
+initial data and questions beyond global hyperbolicity—not a missing evolution equation in this
+bounded arena.
+
+The metric, reciprocal kernel, angular cancellation, optical imports, and observational interfaces
+are unchanged. Scale, physical `X_max`, source, matter/mass, stability, singularity structure,
+arbitrary extensions, occupancy, and full UDT extension remain open.
+
+exec
+/bin/bash -lc 'cat /intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md' in /return
+ succeeded in 0ms:
+# G323 exact derivation — local refoliation and global compact quotient
+
+Date: 2026-09-01; repaired 2026-09-02
+Grade: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`
+
+## Bounded landing
+
+```text
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+__NO_OCCUPANCY_SELECTION
+```
+
+This is restricted to the G320/G321 `d=Lambda=0`, `J0>0`, one-coordinate, locally rotationally
+symmetric compact data. It neither selects an occupied spacetime nor classifies the full UDT
+solution space.
+
+## 1. Frozen G320 data
+
+For a smooth positive periodic profile `psi`, G319/G320 give
+
+\[
+\gamma=\psi^4(dx^2+dy^2+dz^2),
+\]
+
+\[
+B=\epsilon\psi^{-3}\sqrt{36(\psi')^2+J_0},\qquad
+F=12\psi''\psi^{-5},\qquad A=F/B,
+\]
+
+and
+
+\[
+K^x{}_x=\frac{3A-B}{6},\qquad
+K^y{}_y=K^z{}_z=\frac B3.
+\tag{1}
+\]
+
+G320 proved that different integer modes are not related by a spatial diffeomorphism of this
+chosen slice. G321 and G322 deliberately left open whether the slices belong to the same unmarked
+spacetime.
+
+## 2. The common local spacetime
+
+Set
+
+\[
+\mu=J_0/9,\qquad R=\psi^2.
+\]
+
+Consider
+
+\[
+\boxed{
+g_\mu=-\frac R\mu dR^2+\frac\mu R dX^2+R^2(dy^2+dz^2)
+},\qquad R>0.
+\tag{2}
+\]
+
+The nonzero Christoffel symbols, up to lower-index symmetry, are
+
+\[
+\Gamma^R{}_{RR}=\frac1{2R},\qquad
+\Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\qquad
+\Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,
+\]
+
+\[
+\Gamma^X{}_{RX}=-\frac1{2R},\qquad
+\Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R.
+\tag{3}
+\]
+
+Direct substitution gives
+
+\[
+R_{ab}=0,
+\qquad
+R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}.
+\tag{4}
+\]
+
+Production reconstructs (3)--(4) by exact rational index loops at three unrelated rational
+points; it does not call the metric Ricci-flat by analogy. The independent route reconstructs (3)
+from the metric and differentiates the nonzero entries separately.
+
+## 3. Exact embedding of the complete data
+
+Define
+
+\[
+X'=-\frac{3B\psi^6}{J_0}.
+\tag{5}
+\]
+
+Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+
+\[
+R'=2\psi\psi',
+\]
+
+the induced longitudinal metric is
+
+\[
+-\frac R\mu(R')^2+\frac\mu R(X')^2
+=-\frac{36\psi^4(\psi')^2}{J_0}
++\frac{\psi^4[36(\psi')^2+J_0]}{J_0}
+=\psi^4.
+\tag{6}
+\]
+
+The other two induced components are immediately `R^2=psi^4`, so the pullback of (2) is exactly
+the complete G320 intrinsic metric.
+
+A unit normal along the graph is
+
+\[
+n=\frac{\mu X'}{R^2}\partial_R+\frac{R'}\mu\partial_X.
+\tag{7}
+\]
+
+It obeys `g(n,n)=-1` and is orthogonal to the graph. Using the G321 convention
+`K=-1/2 L_n gamma`, equations (3), (5), and the G319 identity
+
+\[
+B'=3\frac{\psi'}\psi(A-B)
+\]
+
+give
+
+\[
+K^y{}_y=K^z{}_z=-\frac{\mu X'}{R^3}=\frac B3,
+\]
+
+\[
+K^x{}_x=\frac{3A-B}{6}.
+\tag{8}
+\]
+
+Thus both the first and second fundamental forms agree. The arbitrary positive profile is a Cauchy-
+graph shape inside (2), not a change of the local four-geometry.
+
+Because `R` has timelike gradient and the quotient spatial directions are compact, every constant-
+`R` torus is Cauchy. Since `X'` is nonzero, the embedded slice is a smooth spacelike graph over the
+compact `X` circle and is Cauchy as well.
+
+## 4. The forced global quotient period
+
+Injectivity fixes the primitive `X` period to the total graph advance
+
+\[
+\boxed{
+L_X[\psi]
+=\frac3{J_0}\int_0^{2\pi}
+\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+}.
+\tag{9}
+\]
+
+Here is the missing injectivity proof. Because `X'` has fixed nonzero sign, normalized ambient
+position
+
+\[
+\theta=X/L_X\pmod 1
+\]
+
+is a smooth degree-one coordinate on the embedded circle. Write its radial graph as
+`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+function
+
+\[
+d_k(\theta)=\rho(\theta+k/q)-\rho(\theta)
+\]
+
+has zero integral around the circle. It therefore vanishes somewhere: otherwise connectedness
+would give it one strict sign and a nonzero integral. At a zero, two distinct domain points have
+the same `R` and the same `X` modulo `P` (and the same `y,z` when those coordinates are held fixed),
+so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+registered fixed-sign graph stratum; it does not assume a cosine symmetry.
+
+The exact local isometry
+
+\[
+R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+\quad\mu_*=a^3\mu
+\tag{10}
+\]
+
+rescales all three compact coordinate periods by `1/a`. It cannot change
+
+\[
+\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+\tag{11}
+\]
+
+The invariant statement does not assume that an arbitrary presentation of the translation lattice
+is split. On a constant-`R` leaf, curvature and the leaf shape operator canonically split the
+translation space as the simple eigendirection `ell_X` and the repeated plane `E_perp`. For the
+registered quotients, let `Gamma` be the compact translation lattice and define
+
+\[
+\Lambda_X=\Gamma\cap\ell_X,
+\qquad
+\Lambda_\perp=\pi_{E_\perp}(\Gamma).
+\]
+
+The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+two lattice. Define the coordinate-normalized lattice modulus by
+
+\[
+\mathcal Q(\Gamma)=
+\frac{\operatorname{covol}_{\ell_X}(\Lambda_X)}
+{\sqrt{\operatorname{covol}_{E_\perp}(\Lambda_\perp)}}.
+\tag{11a}
+\]
+
+An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+projected covolume. A change of lattice basis, including generators sheared by an `X` component,
+changes neither object. The local scaling isometry (10) multiplies the numerator and the square
+root of the denominator by the same factor. Hence (11a) is an unmarked quotient invariant. For the
+registered split presentation, `Gamma=L_X Z+L_y Z+L_z Z`, so (11a) reduces exactly to (11).
+
+For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+
+\[
+L_X(n)=\frac3{J_0}\int_0^{2\pi}(p+a_0\cos u)^3
+\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+\tag{12}
+\]
+
+The integrand is pointwise nondecreasing in positive integer `n` and strictly increases wherever
+`sin(u)` is nonzero. Therefore
+
+\[
+\boxed{L_X(n+1)>L_X(n)}.
+\tag{13}
+\]
+
+For the registered controls, production obtains
+
+```text
+n=1  L_X=6.554516685020806
+n=2  L_X=6.623226427457768
+n=3  L_X=6.735440496746481
+n=4  L_X=6.888083020830009
+```
+
+The `n=1` and `n=2` data therefore have the same local metric form but inequivalent compact
+unmarked quotients. This is the whole-spacetime meaning hidden behind G320's slice values
+`1,4,9,16`.
+
+## 5. Global-development boundary
+
+The curvature invariant (4) diverges at `R=0`, excluding a smooth curvature extension there. The
+three translation momenta give causal radial motion
+
+\[
+\dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+-\kappa\frac\mu R,
+\tag{14}
+\]
+
+where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
+reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
+this proves that (2) with the registered lattice is an explicit globally hyperbolic development.
+
+It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+G322's imported theorem supplies an MGHD for each fixed datum and a data-preserving embedding of
+this development into it, but equality would require a separate maximality/inextendibility theorem.
+Accordingly, G323 classifies the explicit Taub quotient developments; unmarked equivalence of the
+full per-datum MGHDs remains open.
+
+## 6. Opposite `K` signs
+
+Changing `epsilon` reverses `B`, `A`, and every component of `K`. It also sends `X'` to `-X'` while
+leaving `L_X` unchanged. Reflection `X->-X` identifies the two embedded graphs in the same
+underlying quotient metric, with the unit normal reversed. Therefore:
+
+- after forgetting time orientation, the two signs are the same unmarked metric spacetime;
+- retaining time orientation, they are the two opposite orientations of that spacetime.
+
+Moreover, (4) has a nonzero timelike gradient throughout `R>0`. As the gradient of a scalar, it is
+preserved—not negated—by every isometry. It gives a canonical oriented timelike line, so there is
+no time-orientation-preserving isometry between the two opposite choices. They are distinct only
+in the time-oriented category.
+
+## 7. Exact status
+
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit local Ricci-flat form and complete Cauchy
+  embedding.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit globally hyperbolic quotient development.
+- `OPEN_NOT_PROVED`: equality of that explicit development with the per-datum G322 MGHD.
+- `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
+
+The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
+unchanged.
+
+codex
+The likely load-bearing point is the GLS interface, not the curvature algebra. I’m now checking whether the sealed evidence actually authenticates the precise theorem hypotheses and the past-boundary/time-dual step, because that is the narrow place where the maximality identification can fail without any tensor error.
+exec
+/bin/bash -lc 'cat /intake/package/STATUS_LEDGER.tsv' in /return
+ succeeded in 0ms:
+item	status	scope
+G324_landing	PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW	registered G323 compact split-lattice Taub quotient family
+future_timelike_geodesic_completeness	DERIVED_CONDITIONAL	exact metric with chosen increasing-R time orientation
+finite_positive_R_endpoint	EXCLUDED_DERIVED_CONDITIONAL	compact quotient slab and geodesic continuation
+future_C0_extension_boundary	EXCLUDED_CONDITIONAL_IMPORTED_THEOREM	Galloway--Ling--Sbierski one-sided theorem
+past_C2_extension_boundary	EXCLUDED_DERIVED_CONDITIONAL	Kretschmann blow-up after endpoint localization
+proper_time_oriented_C2_extension	EXCLUDED_DERIVED_CONDITIONAL	registered quotient metric
+explicit_quotient_equals_per_datum_smooth_MGHD	DERIVED_CONDITIONAL_PENDING_EXTERNAL_REVIEW	G322 smooth marked development category
+registered_compact_lattice_modulus_survives_MGHD	DERIVED_CONDITIONAL_PENDING_EXTERNAL_REVIEW	G323 invariant transferred through MGHD equality
+past_C0_inextendibility	OPEN_NOT_PROVED	curvature blow-up alone is insufficient at C0
+stability_and_perturbations	OPEN_NOT_TESTED	outside G324
+physical_topology_or_occupancy	OPEN_NOT_SELECTED	no population rule
+physical_scale	OPEN_NOT_SELECTED	mu and lattice size remain unattached
+X_max	OPEN_INACTIVE	not used
+metric_kernel_angular_sector	UNCHANGED	no new operator or physical mechanism
+
+exec
+/bin/bash -lc 'cat /intake/package/PREMISE_LEDGER.tsv' in /return
+ succeeded in 0ms:
+item	status	role	forbidden_promotion
+Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	upstream bounded dynamics ownership	derived theorem or canon
+Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	local finite-jet response scope	unique possible response principle
+quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature bounded arena	vacuum GR imported as UDT theorem
+S_ab_zero	CONDITIONAL_ACTIVE_EQUATION	trace-free Ricci equation in bounded regular vacuum	full UDT field equation in every sector
+Ric_zero	DERIVED_CONDITIONAL	connected Lambda=0 G320/G321 control sector	matter-sourced or full UDT equation
+explicit_Taub_metric	DERIVED_CONDITIONAL_G323	tested spacetime in registered quotient family	selected physical history
+flat_marked_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	registered compact quotient family	physical topology
+registered_split_lattice	CHOSE_BOUNDED_DIAGNOSTIC_FAMILY	G323 quotient modulus scope	all compact quotients
+mu_positive	FREE_AND_EXPLORED_CONSTANT	regular Taub metric parameter	observed or selected scale
+R_positive	PINNED_BY_EXPLICIT_CHART	entire displayed quotient development	physical boundary or preferred radius
+Kretschmann_scalar	DERIVED_CONDITIONAL_G323	C2 past-extension obstruction	C0 curvature obstruction
+causal_geodesic_first_integral	DERIVED_CONDITIONAL_G323	proper/affine reach calculation	new dynamics
+Choquet_Bruhat_Geroch_MGHD_theorem	IMPORTED_MATHEMATICAL_METHOD	per-datum smooth MGHD interface	native UDT law or arbitrary extension theorem
+Galloway_Ling_Sbierski_one_sided_boundary_theorem	IMPORTED_MATHEMATICAL_METHOD	future C0-boundary exclusion from future timelike completeness	native UDT law or full C0 inextendibility
+geodesic_ODE_continuation	IMPORTED_MATHEMATICAL_METHOD	finite-positive-R endpoint exclusion	physical propagation postulate
+compact_lattice_modulus	DERIVED_CONDITIONAL_G323	unmarked global discriminator	physical occupancy or ruler attachment
+c_E	OBSERVED_ANCHOR_INACTIVE	not used in dimensionless maximality test	history selector
+X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
+
+exec
+/bin/bash -lc 'cat /intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json' in /return
+ succeeded in 0ms:
+{
+  "authors": [
+    "Yvonne Choquet-Bruhat",
+    "Robert Geroch"
+  ],
+  "bounded_excerpt_word_count": 25,
+  "copyright_boundary": "Only three load-bearing fragments totaling 25 words are retained; the remainder is paraphrased.",
+  "doi": "10.1007/BF01645389",
+  "official_abstract_fragments": [
+    "initial data for Einstein's equations which satisfy the constraint conditions",
+    "an extension of every other development",
+    "may be embedded in exactly one such maximal development"
+  ],
+  "publication": "Communications in Mathematical Physics 14, 329-335 (1969)",
+  "publisher": "Springer Nature Link",
+  "retrieved_date": "2026-09-01",
+  "schema": "udt-g322-s09-primary-abstract-bounded-evidence-v1",
+  "scope_paraphrase": "For constraint-satisfying Einstein initial data, the official abstract states existence of a development extending every other same-data development and unique maximal placement for a solution carrying a Cauchy surface.",
+  "source_grade": "PRIMARY_PUBLISHER_ABSTRACT_BOUNDED_EXCERPT",
+  "title": "Global aspects of the Cauchy problem in general relativity",
+  "url": "https://link.springer.com/article/10.1007/BF01645389"
+}
+
+exec
+/bin/bash -lc 'cat /intake/package/COMPLETENESS_MAP.md' in /return
+ succeeded in 0ms:
+# G324 completeness map
+
+Date: 2026-09-02
+
+| Criterion | Covered | Dropped / open |
+|---|---|---|
+| Metric | exact G323 Taub form on `R>0` | other UDT metrics and coframe sectors |
+| Equation | registered connected `Ric=0` control | sourced, higher-order, nonlocal, singular sectors |
+| Data | each fixed smooth G323 Cauchy datum | selection among data and full data moduli |
+| Domain | registered compact split-translation `T3` quotient | other topology, boundaries, topology change |
+| Time | both `R -> 0` and `R -> infinity` ends | perturbations and alternate asymptotics |
+| Extension class | smooth/C2 Lorentzian and globally hyperbolic extensions | standalone proof of C0 past inextendibility |
+| Equivalence | data-preserving MGHD equality; inherited G323 unmarked modulus | isometry classification outside registered family |
+| Physics | no new physical premise | occupancy, scale, observations, matter, mass, `X_max` |
+
+## Maximum possible gain
+
+If all gates pass, G324 may close only the mathematical sentence that the explicit registered G323
+quotient is the smooth per-datum G322 MGHD, and therefore that G323's quotient modulus remains a
+distinction between those registered unmarked MGHD spacetimes.
+
+It cannot decide which member Nature occupies.
+
+exec
+/bin/bash -lc 'cat /intake/package/AUDIT_REPORT.md' in /return
+ succeeded in 0ms:
+# G324 audit report — Taub quotient MGHD identification
+
+Date: 2026-09-02
+Status: `PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW`
+
+## Landing
+
+```text
+EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES
+```
+
+## What was learned
+
+The explicit G323 quotient is not merely a displayed globally hyperbolic portion of a potentially
+larger smooth spacetime. Exact geodesic analysis shows that its expanding end has infinite proper-
+time reach for every future timelike geodesic. The standard one-sided extension theorem therefore
+rules out a future extension boundary. Any remaining smooth extension boundary must lie toward
+`R=0`, but the invariant curvature `12 mu^2/R^6` diverges there and forbids a `C2` endpoint.
+
+Consequently each explicit quotient is already the smooth maximal globally hyperbolic development
+of its own fixed G322 datum. G323's primitive compact-lattice modulus therefore survives after the
+initial marking is forgotten at the MGHD level.
+
+## Evidence
+
+- production: 29 exact/analytic assertions after source-evidence correction;
+- independent: 30 exact tensor/interface assertions after source-evidence correction;
+- hostile controls: 5/5 rejected;
+- two independent curvature routes: Kasner identities and a direct exact Laurent-tensor engine;
+- imported source boundary: Galloway--Ling--Sbierski one-sided extension theorem, explicitly typed
+  as mathematical method;
+- upstream global-development interface: the already-audited conditional G322 theorem.
+
+The final exact counts are generated in the replayed JSON artifacts and must be checked by
+`verify_package.py`; the prose count above is not a substitute for replay.
+
+## Four gates
+
+1. **Preregistered:** yes, commit recorded in `PREREGISTRATION_ANCESTRY.md`.
+2. **Full bounded space:** yes for every member of the exact registered G323 Taub quotient family;
+   no claim outside it.
+3. **Independent:** yes, the independent verifier imports neither production code nor its result.
+4. **Premise audited:** yes; both physical-premise ownership and imported theorem ownership remain
+   explicit.
+
+External adversarial verification remains required before banking.
+
+## What did not change
+
+No metric coefficient, reciprocal-kernel operator, angular-sector cancellation, field equation,
+scale, observation, topology choice, or occupancy rule changed. The result closes one mathematical
+continuation gap. It does not choose which allowed spacetime is physical.
+
+codex
+I’ve confirmed the metric-side calculations are consistent: the difficult part is not the Kasner or proper-time algebra. The audit now turns on whether the sealed theorem evidence is strong enough to justify the specific past-boundary step used to upgrade local extension obstruction into full per-datum MGHD equality.
+exec
+/bin/bash -lc "grep -R -n \"Galloway\\|Ling\\|Sbierski\\|boundary\\|time-dual\\|past boundary\\|future boundary\" /intake/package /intake/sources" in /return
+ succeeded in 0ms:
+/intake/package/SOURCE_NOTE.md:5:G324 imports one mathematical extension-boundary result from Gregory J. Galloway, Eric Ling, and
+/intake/package/SOURCE_NOTE.md:6:Jan Sbierski, *Timelike completeness as an obstruction to C0-extensions*, arXiv:1704.00353v4,
+/intake/package/SOURCE_NOTE.md:11:future boundary. Its preceding endpoint theorem and time dual say that a nonempty remaining past
+/intake/package/SOURCE_NOTE.md:12:boundary is reached by a past-directed timelike geodesic.
+/intake/package/INDEPENDENT_VERIFICATION.json:32:    "extension_has_one_sided_boundary",
+/intake/package/MAP.md:39:4. Apply the one-sided extension-boundary theorem and the G322 maximal-Cauchy theorem only in
+/intake/package/AUDIT_REPORT.md:17:rules out a future extension boundary. Any remaining smooth extension boundary must lie toward
+/intake/package/AUDIT_REPORT.md:30:- imported source boundary: Galloway--Ling--Sbierski one-sided extension theorem, explicitly typed
+/intake/package/STATUS_LEDGER.tsv:5:future_C0_extension_boundary	EXCLUDED_CONDITIONAL_IMPORTED_THEOREM	Galloway--Ling--Sbierski one-sided theorem
+/intake/package/STATUS_LEDGER.tsv:6:past_C2_extension_boundary	EXCLUDED_DERIVED_CONDITIONAL	Kretschmann blow-up after endpoint localization
+/intake/package/verify_independent.py:176:    boundary_nonempty = source["boundary_nonempty_fragment"].endswith("≠∅.")
+/intake/package/verify_independent.py:178:    gate(boundary_nonempty, "extension_has_one_sided_boundary")
+/intake/package/verify_independent.py:182:        and boundary_nonempty
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:17:3. Authenticate the exact regularity, global-hyperbolicity, and one-sided boundary hypotheses of
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:18:   the Galloway--Ling--Sbierski theorem interface from the sealed evidence.
+/intake/package/DERIVATION_RESULT.json:28:    "gls_extension_boundary_nonempty",
+/intake/package/DERIVATION_RESULT.json:29:    "gls_future_boundary_geodesic",
+/intake/package/PREMISE_LEDGER.tsv:11:R_positive	PINNED_BY_EXPLICIT_CHART	entire displayed quotient development	physical boundary or preferred radius
+/intake/package/PREMISE_LEDGER.tsv:15:Galloway_Ling_Sbierski_one_sided_boundary_theorem	IMPORTED_MATHEMATICAL_METHOD	future C0-boundary exclusion from future timelike completeness	native UDT law or full C0 inextendibility
+/intake/package/PREMISE_LEDGER.tsv:19:X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
+/intake/package/SOURCE_SCOPE.tsv:4:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md	upstream scope boundary	read_only
+/intake/package/SOURCE_SCOPE.tsv:7:Galloway--Ling--Sbierski_arXiv_1704.00353	one-sided extension-boundary theorem	primary_external_read_only
+/intake/package/derive_taub_mghd.py:108:    theorem_boundary_nonempty = source["boundary_nonempty_fragment"] == "∂+M∪∂−M≠∅."
+/intake/package/derive_taub_mghd.py:110:    gate(theorem_boundary_nonempty, "gls_extension_boundary_nonempty")
+/intake/package/derive_taub_mghd.py:111:    gate(theorem_future_endpoint, "gls_future_boundary_geodesic")
+/intake/package/derive_taub_mghd.py:125:    future_boundary_excluded = future_complete and theorem_future_endpoint
+/intake/package/derive_taub_mghd.py:126:    remaining_boundary_forced_past = future_boundary_excluded and theorem_boundary_nonempty
+/intake/package/derive_taub_mghd.py:131:            future_boundary_excluded,
+/intake/package/derive_taub_mghd.py:132:            remaining_boundary_forced_past,
+/intake/package/SOURCE_MANIFEST.tsv:7:2d7f0a13dc372f9df7fc476c82522f314951f677f0a43b3d16bfdb1d8efc0d4d	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv	accepted status boundary
+/intake/package/SOURCE_MANIFEST.tsv:8:c4414270b3a31f81b51940b134a0daf754b3d9b9512b65439229edfec1944207	udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md	external acceptance boundary
+/intake/package/SOURCE_MANIFEST.tsv:12:921ff8270414c2c397a87191918bae9837d665e7f4e8a9485b7820e2a5ddcc9b	udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv	MGHD accepted boundary
+/intake/package/PREREGISTRATION.md:42:   timelike-geodesically-complete globally hyperbolic spacetime has no future boundary in a `C0`
+/intake/package/PREREGISTRATION.md:43:   extension. Use the time-dual endpoint result only to locate a hypothetical remaining boundary;
+/intake/package/PREREGISTRATION.md:70:- any proof requires a new field equation, physical boundary, scale, source, fit, or occupancy rule.
+/intake/package/EXACT_DERIVATION.md:140:extension. An extension-boundary endpoint cannot lie at finite positive `R`.
+/intake/package/EXACT_DERIVATION.md:144:G324 imports the bounded interface recorded in `GLS_PRIMARY_SOURCE_EVIDENCE.json` from Galloway,
+/intake/package/EXACT_DERIVATION.md:145:Ling, and Sbierski:
+/intake/package/EXACT_DERIVATION.md:148:   boundary;
+/intake/package/EXACT_DERIVATION.md:149:2. a nonempty future boundary is reached by a future-directed timelike geodesic in the original
+/intake/package/EXACT_DERIVATION.md:151:3. the time-dual statement holds for a past boundary.
+/intake/package/EXACT_DERIVATION.md:156:future boundary would give a future timelike geodesic with a finite endpoint, contradicting future
+/intake/package/EXACT_DERIVATION.md:157:timelike completeness. Hence the future boundary is empty. The extension boundary is nevertheless
+/intake/package/EXACT_DERIVATION.md:158:nonempty, so its past boundary is nonempty; the time-dual endpoint theorem supplies a past-directed
+/intake/package/EXACT_DERIVATION.md:162:from finite `R` to `R=infinity`. Therefore the boundary geodesic must have
+/intake/package/EXACT_DERIVATION.md:215:## 8. Exact landing and boundary
+/intake/package/verify_package.py:80:    quoted = source["boundary_nonempty_fragment"].split() + source["endpoint_fragment"].split()
+/intake/package/verify_package.py:98:         "exact_c0_boundary")
+/intake/package/verify_package.py:99:    gate("choose which compact shape Nature uses" in lay, "lay_occupancy_boundary")
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:5:    "Gregory J. Galloway",
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:6:    "Eric Ling",
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:7:    "Jan Sbierski"
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:15:  "copyright_boundary": "Two load-bearing fragments totaling 20 whitespace-delimited words are retained; all other content is paraphrased.",
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:16:  "boundary_nonempty_fragment": "∂+M∪∂−M≠∅.",
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:18:  "scope_paraphrase": "For a smooth at least C2 globally hyperbolic spacetime inside a C0 extension, the boundary is nonempty and a nonempty future boundary is reached by a future timelike geodesic. Hence future timelike geodesic completeness rules out the future boundary; the time dual locates a past-directed timelike geodesic at a remaining past boundary.",
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv:20:X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md:255:## 5. Global-development boundary
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv:1:object	status	boundary
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json:7:  "copyright_boundary": "Only three load-bearing fragments totaling 25 words are retained; the remainder is paraphrased.",
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md:25:G322 adds no field equation, action, source, matter model, boundary condition, or physical scale.
+
+exec
+/bin/bash -lc 'cat /intake/package/INDEPENDENT_VERIFICATION.json' in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 30,
+  "checks": [
+    "inverse_metric_0",
+    "inverse_metric_1",
+    "inverse_metric_2",
+    "inverse_metric_3",
+    "ricci_zero_0_0",
+    "ricci_zero_0_1",
+    "ricci_zero_0_2",
+    "ricci_zero_0_3",
+    "ricci_zero_1_0",
+    "ricci_zero_1_1",
+    "ricci_zero_1_2",
+    "ricci_zero_1_3",
+    "ricci_zero_2_0",
+    "ricci_zero_2_1",
+    "ricci_zero_2_2",
+    "ricci_zero_2_3",
+    "ricci_zero_3_0",
+    "ricci_zero_3_1",
+    "ricci_zero_3_2",
+    "ricci_zero_3_3",
+    "kretschmann_exact",
+    "first_integral_coefficient_identity",
+    "future_px_nonzero_infinite_parameter",
+    "future_px_zero_infinite_parameter",
+    "past_zero_reached_in_finite_parameter",
+    "past_scalar_diverges",
+    "source_grade",
+    "source_quote_budget",
+    "extension_has_one_sided_boundary",
+    "one_sided_endpoint_theorem_content"
+  ],
+  "first_integral_independent": true,
+  "future_timelike_complete": true,
+  "kernel_changed": false,
+  "kretschmann": {
+    "R^-6*mu^2": "12"
+  },
+  "metric_changed": false,
+  "past_C2_obstruction": true,
+  "production_imported": false,
+  "production_result_read": false,
+  "ricci_exact_zero": true,
+  "schema": "udt-g324-taub-mghd-independent-v1",
+  "smooth_MGHD_identification_upheld": true,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'cat /intake/package/DERIVATION_RESULT.json' in /return
+ succeeded in 0ms:
+{
+  "C0_past_inextendibility_proved": false,
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 29,
+  "checks": [
+    "kasner_sum_p",
+    "kasner_sum_p2",
+    "ricci_time_coefficient_zero",
+    "ricci_space_coefficients_zero",
+    "kasner_kretschmann_coefficient",
+    "radial_kretschmann_12_mu2_over_R6",
+    "proper_time_radial_coefficient_minus_one",
+    "first_integral_norm_sample_0",
+    "first_integral_positive_sample_0",
+    "first_integral_norm_sample_1",
+    "first_integral_positive_sample_1",
+    "first_integral_norm_sample_2",
+    "first_integral_positive_sample_2",
+    "future_reach_px_nonzero_diverges",
+    "future_reach_px_zero_diverges",
+    "past_reach_transverse_finite",
+    "past_reach_radial_finite",
+    "finite_interior_velocity_bounds",
+    "gls_primary_identifier",
+    "gls_related_doi",
+    "gls_bounded_excerpt",
+    "gls_extension_boundary_nonempty",
+    "gls_future_boundary_geodesic",
+    "gls_future_completeness_consequence",
+    "g323_ricci_flat_source",
+    "g323_primitive_modulus_source",
+    "g323_registered_moduli_strict",
+    "proper_time_oriented_c2_extension_excluded",
+    "smooth_mghd_identification_and_modulus_transfer"
+  ],
+  "explicit_quotient_equals_smooth_per_datum_MGHD": true,
+  "future_timelike_complete": true,
+  "kasner_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "kasner_kretschmann_coefficient": "64/27",
+  "kernel_changed": false,
+  "landing": "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES",
+  "metric_changed": false,
+  "past_timelike_incomplete": true,
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "physical_topology_selected": false,
+  "proper_time_oriented_C2_extension_excluded": true,
+  "radial_kretschmann": "12*mu^2/R^6",
+  "registered_lattice_modulus_survives_MGHD": true,
+  "schema": "udt-g324-taub-mghd-production-v1",
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW"
+}
+
+exec
+/bin/bash -lc 'cat /intake/package/CATCH_PROOF_RESULT.json' in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": {
+    "erased_lattice_modulus_rejected": true,
+    "finite_future_parameter_rejected": true,
+    "missing_global_hyperbolicity_rejected": true,
+    "new_physical_law_dependency_rejected": true,
+    "zero_curvature_obstruction_rejected": true
+  },
+  "schema": "udt-g324-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'cat /intake/package/SOURCE_NOTE.md' in /return
+ succeeded in 0ms:
+# G324 theorem source note
+
+Date: 2026-09-02
+
+G324 imports one mathematical extension-boundary result from Gregory J. Galloway, Eric Ling, and
+Jan Sbierski, *Timelike completeness as an obstruction to C0-extensions*, arXiv:1704.00353v4,
+related DOI `10.1007/s00220-017-3019-2`.
+
+The primary author-posted full text states the one-sided theorem needed here: for a smooth `C2`
+globally hyperbolic spacetime in a `C0` extension, future timelike geodesic completeness leaves no
+future boundary. Its preceding endpoint theorem and time dual say that a nonempty remaining past
+boundary is reached by a past-directed timelike geodesic.
+
+G324 uses this only as an `IMPORTED_MATHEMATICAL_METHOD`. The Taub metric's future completeness,
+finite-interior continuation, past curvature blow-up, and application to the G322 MGHD are derived
+separately. The paper is not a UDT premise or field equation, and G324 does not claim a standalone
+proof of past `C0` inextendibility.
+
+Primary source: https://arxiv.org/abs/1704.00353
+
+exec
+/bin/bash -lc 'cat /intake/package/PREREGISTRATION.md' in /return
+ succeeded in 0ms:
+# G324 preregistration — Taub quotient MGHD identification
+
+Date: 2026-09-02
+State: frozen before production outcome
+
+## 1. Exact bounded question
+
+For every fixed datum in the registered G323 compact split-lattice family, decide whether the
+explicit quotient
+
+\[
+(M,g_\mu)=\left((0,\infty)_R\times T^3,
+-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2)\right)
+\]
+
+is already its smooth maximal globally hyperbolic development under the conditional G322 theorem.
+If it is, determine whether the already-derived G323 primitive lattice modulus consequently
+distinguishes the registered unmarked MGHDs.
+
+## 2. Preregistered proof obligations
+
+The positive landing requires all of the following:
+
+1. **Exact metric gate.** Independently recompute `Ric=0` and
+   `Riemann_abcd Riemann^abcd = 12 mu^2/R^6`.
+2. **Temporal/Cauchy gate.** Retain G323's exact temporal `R` foliation and compact Cauchy slices.
+3. **First-integral gate.** Independently derive for an affinely parameterized causal geodesic
+
+   \[
+   \dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+   -\kappa\frac{\mu}{R},
+   \]
+
+   with `kappa=-1` for unit timelike and `0` for null curves.
+4. **Future-completeness gate.** Prove every future-directed timelike geodesic has infinite proper
+   time as `R -> infinity`, treating `p_X != 0` and `p_X = 0` separately.
+5. **Finite-interior gate.** Prove a geodesic with a finite parameter endpoint and `R` bounded in a
+   compact subinterval of `(0,infinity)` extends inside the original quotient.
+6. **Past-curvature gate.** Prove every finite-parameter past endpoint forced outside the quotient
+   has `R -> 0`, where the Kretschmann scalar diverges, excluding a `C2` endpoint.
+7. **Theorem-interface gate.** Authenticate and apply only the one-sided statement that a future
+   timelike-geodesically-complete globally hyperbolic spacetime has no future boundary in a `C0`
+   extension. Use the time-dual endpoint result only to locate a hypothetical remaining boundary;
+   use curvature only for the `C2` contradiction.
+8. **MGHD gate.** Show any proper smooth G322 MGHD extension would be a forbidden proper `C2`
+   Lorentzian extension. Conclude equality only in the smooth per-datum category.
+9. **Modulus gate.** Use, without strengthening, G323's already-derived primitive-lattice modulus
+   to distinguish only the registered unmarked MGHDs.
+
+## 3. Preregistered landings
+
+- `EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES`
+  if all nine proof obligations pass.
+- `EXPLICIT_TAUB_QUOTIENT_MAXIMALITY_REFUTED`
+  if a proper smooth globally hyperbolic same-datum extension is constructed or a required endpoint
+  claim is false.
+- `CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY`
+  if no counterextension is found but any proof obligation or theorem hypothesis remains open.
+
+## 4. Preregistered falsifiers
+
+The positive landing fails if any of the following occurs:
+
+- a future-directed timelike geodesic reaches `R=infinity` in finite proper time;
+- a finite-parameter extension endpoint can occur with `R` bounded away from zero and infinity;
+- the curvature invariant stays bounded as a forced past endpoint is approached;
+- the one-sided extension theorem does not apply to the exact regularity/global-hyperbolicity class;
+- a proper smooth same-datum globally hyperbolic extension exists;
+- G323's modulus is not invariant in its stated registered quotient category;
+- any proof requires a new field equation, physical boundary, scale, source, fit, or occupancy rule.
+
+## 5. Certification contract
+
+- Production and independent implementations must not import each other.
+- Exact symbolic identities are checked separately from asymptotic inequalities.
+- Hostile controls must flip the result when future proper-time reach is artificially made finite,
+  curvature blow-up is removed, theorem hypotheses are removed, or the lattice modulus is erased.
+- Raw residuals or exact symbolic zeros are the gate; formatted summaries are not evidence.
+- A fresh sealed adversarial review is required before banking a positive or negative verdict.
+
+## 6. Maximum conclusion
+
+At most: conditional on the owner-adopted provisional premises, the registered `Ric=0` reduction,
+the imported G322 maximal-Cauchy theorem, and the imported one-sided extension theorem, each
+explicit G323 Taub quotient is its fixed datum's smooth MGHD; the already-derived registered
+compact-lattice modulus therefore survives at MGHD level.
+
+Not concluded: C0 past inextendibility, stability, physical topology or occupancy, a unique
+universe, scale attachment, observation, matter/mass physics, `X_max`, or full UDT dynamics.
+
+codex
+I have enough context to execute the registered replay without touching the sealed intake. I’m moving to a writable copy under `/work`, running exactly the four declared commands there, and then I’ll finish the adversarial assessment against the replayed artifacts and the sealed theorem evidence.
+exec
+/bin/bash -lc 'ls -la /work' in /return
+ succeeded in 0ms:
+total 4
+drwx------  2 udt-admin udt-admin 4096 Sep  2 10:37 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  2 10:37 ..
+
+exec
+/bin/bash -lc 'find /intake/package -maxdepth 1 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_MANIFEST.tsv
+/intake/package/SOURCE_NOTE.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_review_intake.py
+/intake/package/derive_taub_mghd.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/package/verify_review_intake.py
+
+exec
+/bin/bash -lc 'find /intake/sources -maxdepth 2 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv
+/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv
+
+codex
+I’m setting up the ephemeral replay area now. The copy will contain only the authenticated package and its authenticated source rows so the registered commands run against the same sealed evidence without mutating `/intake`.
+exec
+/bin/bash -lc 'mkdir -p /work/g324_review/package
+mkdir -p /work/g324_review/sources
+cp -a /intake/package/. /work/g324_review/package/
+cp -a /intake/sources/. /work/g324_review/sources/' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json' in /work/g324_review/package
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/work/g324_review/package/derive_taub_mghd.py", line 169, in <module>
+    main()
+  File "/work/g324_review/package/derive_taub_mghd.py", line 164, in main
+    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+  File "/usr/lib/python3.10/pathlib.py", line 1154, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/DERIVATION_RESULT.json'
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json' in /work/g324_review/package
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/work/g324_review/package/run_catch_proofs.py", line 47, in <module>
+    main()
+  File "/work/g324_review/package/run_catch_proofs.py", line 42, in main
+    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+  File "/usr/lib/python3.10/pathlib.py", line 1154, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/CATCH_PROOF_RESULT.json'
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json' in /work/g324_review/package
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/work/g324_review/package/verify_independent.py", line 208, in <module>
+    main()
+  File "/work/g324_review/package/verify_independent.py", line 203, in main
+    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+  File "/usr/lib/python3.10/pathlib.py", line 1154, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/INDEPENDENT_VERIFICATION.json'
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g324_review/package
+ succeeded in 0ms:
+{
+  "assertion_count": 56,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "mghd_positive",
+    "modulus_positive",
+    "c2_extension_excluded",
+    "c0_past_not_overclaimed",
+    "occupancy_not_selected",
+    "scale_not_selected",
+    "xmax_not_selected",
+    "metric_kernel_unchanged",
+    "independent_no_production_import",
+    "independent_no_result_read",
+    "independent_kretschmann",
+    "all_hostile_controls",
+    "static_no_production_import",
+    "static_no_production_result_read",
+    "source_quote_count_exact",
+    "source_primary_identifier",
+    "source_manifest_count",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "exact_landing_token",
+    "exact_c0_boundary",
+    "lay_occupancy_boundary",
+    "status_external_pending",
+    "premise_import_typed",
+    "replay_exit:derive_taub_mghd.py",
+    "replay_exact:DERIVATION_RESULT.json",
+    "replay_exit:verify_independent.py",
+    "replay_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:run_catch_proofs.py",
+    "replay_exact:CATCH_PROOF_RESULT.json"
+  ],
+  "evidence_directory_unchanged_by_replay": true,
+  "landing": "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "registered_source_count": 12,
+  "replay_exact": true,
+  "schema": "udt-g324-package-verification-v1",
+  "status": "PASS_PENDING_EXTERNAL_REVIEW"
+}
+
+codex
+The registered replay exposed an operational defect immediately: three of the four commands fail exactly as written because `.review_runtime/` is not created first. I’m preserving that as a concrete package failure, then rerunning the same commands after creating that directory so I can separate execution hygiene from the mathematical theorem audit.
+exec
+/bin/bash -lc 'mkdir -p /work/g324_review/package/.review_runtime' in /return
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json' in /work/g324_review/package
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json' in /work/g324_review/package
+ succeeded in 0ms:
+{
+  "C0_past_inextendibility_proved": false,
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 29,
+  "checks": [
+    "kasner_sum_p",
+    "kasner_sum_p2",
+    "ricci_time_coefficient_zero",
+    "ricci_space_coefficients_zero",
+    "kasner_kretschmann_coefficient",
+    "radial_kretschmann_12_mu2_over_R6",
+    "proper_time_radial_coefficient_minus_one",
+    "first_integral_norm_sample_0",
+    "first_integral_positive_sample_0",
+    "first_integral_norm_sample_1",
+    "first_integral_positive_sample_1",
+    "first_integral_norm_sample_2",
+    "first_integral_positive_sample_2",
+    "future_reach_px_nonzero_diverges",
+    "future_reach_px_zero_diverges",
+    "past_reach_transverse_finite",
+    "past_reach_radial_finite",
+    "finite_interior_velocity_bounds",
+    "gls_primary_identifier",
+    "gls_related_doi",
+    "gls_bounded_excerpt",
+    "gls_extension_boundary_nonempty",
+    "gls_future_boundary_geodesic",
+    "gls_future_completeness_consequence",
+    "g323_ricci_flat_source",
+    "g323_primitive_modulus_source",
+    "g323_registered_moduli_strict",
+    "proper_time_oriented_c2_extension_excluded",
+    "smooth_mghd_identification_and_modulus_transfer"
+  ],
+  "explicit_quotient_equals_smooth_per_datum_MGHD": true,
+  "future_timelike_complete": true,
+  "kasner_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "kasner_kretschmann_coefficient": "64/27",
+  "kernel_changed": false,
+  "landing": "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES",
+  "metric_changed": false,
+  "past_timelike_incomplete": true,
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "physical_topology_selected": false,
+  "proper_time_oriented_C2_extension_excluded": true,
+  "radial_kretschmann": "12*mu^2/R^6",
+  "registered_lattice_modulus_survives_MGHD": true,
+  "schema": "udt-g324-taub-mghd-production-v1",
+  "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW"
+}
+
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": {
+    "erased_lattice_modulus_rejected": true,
+    "finite_future_parameter_rejected": true,
+    "missing_global_hyperbolicity_rejected": true,
+    "new_physical_law_dependency_rejected": true,
+    "zero_curvature_obstruction_rejected": true
+  },
+  "schema": "udt-g324-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json' in /work/g324_review/package
+ succeeded in 0ms:
+{
+  "assertion_count": 30,
+  "checks": [
+    "inverse_metric_0",
+    "inverse_metric_1",
+    "inverse_metric_2",
+    "inverse_metric_3",
+    "ricci_zero_0_0",
+    "ricci_zero_0_1",
+    "ricci_zero_0_2",
+    "ricci_zero_0_3",
+    "ricci_zero_1_0",
+    "ricci_zero_1_1",
+    "ricci_zero_1_2",
+    "ricci_zero_1_3",
+    "ricci_zero_2_0",
+    "ricci_zero_2_1",
+    "ricci_zero_2_2",
+    "ricci_zero_2_3",
+    "ricci_zero_3_0",
+    "ricci_zero_3_1",
+    "ricci_zero_3_2",
+    "ricci_zero_3_3",
+    "kretschmann_exact",
+    "first_integral_coefficient_identity",
+    "future_px_nonzero_infinite_parameter",
+    "future_px_zero_infinite_parameter",
+    "past_zero_reached_in_finite_parameter",
+    "past_scalar_diverges",
+    "source_grade",
+    "source_quote_budget",
+    "extension_has_one_sided_boundary",
+    "one_sided_endpoint_theorem_content"
+  ],
+  "first_integral_independent": true,
+  "future_timelike_complete": true,
+  "kernel_changed": false,
+  "kretschmann": {
+    "R^-6*mu^2": "12"
+  },
+  "metric_changed": false,
+  "past_C2_obstruction": true,
+  "production_imported": false,
+  "production_result_read": false,
+  "ricci_exact_zero": true,
+  "schema": "udt-g324-taub-mghd-independent-v1",
+  "smooth_MGHD_identification_upheld": true,
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g324_review/package
+ succeeded in 0ms:
+{
+  "assertion_count": 56,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "mghd_positive",
+    "modulus_positive",
+    "c2_extension_excluded",
+    "c0_past_not_overclaimed",
+    "occupancy_not_selected",
+    "scale_not_selected",
+    "xmax_not_selected",
+    "metric_kernel_unchanged",
+    "independent_no_production_import",
+    "independent_no_result_read",
+    "independent_kretschmann",
+    "all_hostile_controls",
+    "static_no_production_import",
+    "static_no_production_result_read",
+    "source_quote_count_exact",
+    "source_primary_identifier",
+    "source_manifest_count",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/DERIVATION_RESULT.json",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/QUOTIENT_ATLAS.tsv",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/COMPLETENESS_MAP.md",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/STATUS_LEDGER.tsv",
+    "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/S09_PRIMARY_ABSTRACT_EVIDENCE.json",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/PREMISE_LEDGER.tsv",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/STATUS_LEDGER.tsv",
+    "source_exists:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "source_hash:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+    "exact_landing_token",
+    "exact_c0_boundary",
+    "lay_occupancy_boundary",
+    "status_external_pending",
+    "premise_import_typed",
+    "replay_exit:derive_taub_mghd.py",
+    "replay_exact:DERIVATION_RESULT.json",
+    "replay_exit:verify_independent.py",
+    "replay_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:run_catch_proofs.py",
+    "replay_exact:CATCH_PROOF_RESULT.json"
+  ],
+  "evidence_directory_unchanged_by_replay": true,
+  "landing": "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "registered_source_count": 12,
+  "replay_exact": true,
+  "schema": "udt-g324-package-verification-v1",
+  "status": "PASS_PENDING_EXTERNAL_REVIEW"
+}
+
+codex
+I’m down to two materially relevant issues. The metric and geodesic computations hold up, but I need precise line references for the theorem-interface gap and the replay defect before I write the sealed report.
+exec
+/bin/bash -lc "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '130,180p'" in /return
+ succeeded in 0ms:
+   130	
+   131	## 4. No finite-positive-`R` endpoint
+   132	
+   133	Suppose a geodesic has a finite affine/proper parameter endpoint while `R` remains in `[a,b]` with
+   134	`0<a<b<infinity`. Equation (8) bounds `dot R`; (7) bounds every spatial coordinate velocity. The
+   135	metric and its Christoffel symbols are smooth and bounded on the compact quotient slab
+   136	`[a,b] x T3`. The geodesic state remains in a compact subset of the tangent bundle, so the ordinary
+   137	geodesic continuation theorem extends it inside (1). This contradicts inextendibility.
+   138	
+   139	Equivalently, the image of a compact slab is compact and therefore closed in any Hausdorff
+   140	extension. An extension-boundary endpoint cannot lie at finite positive `R`.
+   141	
+   142	## 5. The one-sided extension argument
+   143	
+   144	G324 imports the bounded interface recorded in `GLS_PRIMARY_SOURCE_EVIDENCE.json` from Galloway,
+   145	Ling, and Sbierski:
+   146	
+   147	1. a proper `C0` extension of a smooth globally hyperbolic spacetime has a nonempty future or past
+   148	   boundary;
+   149	2. a nonempty future boundary is reached by a future-directed timelike geodesic in the original
+   150	   spacetime;
+   151	3. the time-dual statement holds for a past boundary.
+   152	
+   153	These are Lorentzian-geometry theorems, not physical UDT laws.
+   154	
+   155	Assume for contradiction that (1) has a proper time-oriented `C2` Lorentzian extension. By (12), a
+   156	future boundary would give a future timelike geodesic with a finite endpoint, contradicting future
+   157	timelike completeness. Hence the future boundary is empty. The extension boundary is nevertheless
+   158	nonempty, so its past boundary is nonempty; the time-dual endpoint theorem supplies a past-directed
+   159	timelike geodesic ending there.
+   160	
+   161	Section 4 excludes a finite positive limiting radius, and a past-directed causal curve cannot run
+   162	from finite `R` to `R=infinity`. Therefore the boundary geodesic must have
+   163	
+   164	\[
+   165	R\longrightarrow0.
+   166	\tag{13}
+   167	\]
+   168	
+   169	But in a `C2` extension the Riemann tensor and the scalar (5) are continuous and finite in a
+   170	neighborhood of the endpoint. Equation (5) diverges along (13), a contradiction. Thus
+   171	
+   172	\[
+   173	\boxed{(M,g_\mu)\text{ admits no proper time-oriented }C^2
+   174	\text{ Lorentzian extension}.}
+   175	\tag{14}
+   176	\]
+   177	
+   178	This proves the regularity needed for the smooth MGHD interface. It does **not** prove that the
+   179	past singular end is `C0`-inextendible.
+   180	
+
+exec
+/bin/bash -lc 'nl -ba /intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json' in /return
+ succeeded in 0ms:
+     1	{
+     2	  "schema": "udt-g324-gls-primary-source-bounded-evidence-v1",
+     3	  "title": "Timelike completeness as an obstruction to C0-extensions",
+     4	  "authors": [
+     5	    "Gregory J. Galloway",
+     6	    "Eric Ling",
+     7	    "Jan Sbierski"
+     8	  ],
+     9	  "arxiv": "1704.00353v4",
+    10	  "related_doi": "10.1007/s00220-017-3019-2",
+    11	  "url": "https://arxiv.org/abs/1704.00353",
+    12	  "retrieved_date": "2026-09-02",
+    13	  "source_grade": "PRIMARY_AUTHOR_ARXIV_FULL_TEXT_BOUNDED_EXCERPT",
+    14	  "bounded_excerpt_word_count": 20,
+    15	  "copyright_boundary": "Two load-bearing fragments totaling 20 whitespace-delimited words are retained; all other content is paraphrased.",
+    16	  "boundary_nonempty_fragment": "∂+M∪∂−M≠∅.",
+    17	  "endpoint_fragment": "If ∂+M≠∅, then there is a future directed timelike geodesic in M that has a future endpoint on ∂M.",
+    18	  "scope_paraphrase": "For a smooth at least C2 globally hyperbolic spacetime inside a C0 extension, the boundary is nonempty and a nonempty future boundary is reached by a future timelike geodesic. Hence future timelike geodesic completeness rules out the future boundary; the time dual locates a past-directed timelike geodesic at a remaining past boundary.",
+    19	  "not_imported": [
+    20	    "a UDT physical law",
+    21	    "a field equation",
+    22	    "past C0 inextendibility of the G323 metric",
+    23	    "physical occupancy or topology selection"
+    24	  ]
+    25	}
+
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_independent.py | sed -n '190,208p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/package/run_catch_proofs.py | sed -n '34,47p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/package/derive_taub_mghd.py | sed -n '150,170p'" in /return
+exec
+/bin/bash -lc 'nl -ba /intake/package/REPLAY_COMMANDS.txt' in /return
+ succeeded in 0ms:
+   150	        "future_timelike_complete": future_complete,
+   151	        "past_timelike_incomplete": True,
+   152	        "proper_time_oriented_C2_extension_excluded": True,
+   153	        "explicit_quotient_equals_smooth_per_datum_MGHD": True,
+   154	        "registered_lattice_modulus_survives_MGHD": True,
+   155	        "C0_past_inextendibility_proved": False,
+   156	        "physical_occupancy_selected": False,
+   157	        "physical_topology_selected": False,
+   158	        "physical_scale_selected": False,
+   159	        "Xmax_selected": False,
+   160	        "metric_changed": False,
+   161	        "kernel_changed": False,
+   162	        "angular_sector_changed": False,
+   163	    }
+   164	    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   165	    print(json.dumps(result, indent=2, sort_keys=True))
+   166	
+   167	
+   168	if __name__ == "__main__":
+   169	    main()
+
+ succeeded in 0ms:
+   190	        "assertion_count": len(checks),
+   191	        "checks": checks,
+   192	        "production_imported": False,
+   193	        "production_result_read": False,
+   194	        "ricci_exact_zero": True,
+   195	        "kretschmann": kretschmann.serial(),
+   196	        "first_integral_independent": True,
+   197	        "future_timelike_complete": future_complete,
+   198	        "past_C2_obstruction": True,
+   199	        "smooth_MGHD_identification_upheld": smooth_mghd_identification,
+   200	        "metric_changed": False,
+   201	        "kernel_changed": False,
+   202	    }
+   203	    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   204	    print(json.dumps(result, indent=2, sort_keys=True))
+   205	
+   206	
+   207	if __name__ == "__main__":
+   208	    main()
+
+ succeeded in 0ms:
+    34	    }
+    35	    assert all(controls.values())
+    36	    result = {
+    37	        "schema": "udt-g324-catch-proofs-v1",
+    38	        "status": "PASS",
+    39	        "assertion_count": len(controls),
+    40	        "controls": controls,
+    41	    }
+    42	    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    43	    print(json.dumps(result, indent=2, sort_keys=True))
+    44	
+    45	
+    46	if __name__ == "__main__":
+    47	    main()
+
+ succeeded in 0ms:
+     1	python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json
+     2	python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+     3	python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+     4	python3 -S verify_package.py
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md | sed -n '52,95p'" in /return
+ succeeded in 0ms:
+    52	Every registered G320 datum has the left side of the first equation equal to zero and satisfies all
+    53	three momentum constraints. Therefore its connected sector is
+    54	
+    55	\[
+    56	\boxed{\Lambda=0},
+    57	\]
+    58	
+    59	and equations (1)–(2) become exactly
+    60	
+    61	\[
+    62	\boxed{R_{ab}=0}.
+    63	\tag{4}
+    64	\]
+    65	
+    66	Production independently obtained
+    67	
+    68	```text
+    69	max |Hamiltonian| = 3.552713678800501e-15
+    70	max |momentum|    = 1.7763568394002505e-15
+    71	```
+    72	
+    73	and the implementation-distinct direct connection/Ricci route obtained
+    74	
+    75	```text
+    76	max |Hamiltonian| = 2.6645352591003757e-15
+    77	max |momentum|    = 1.6653345369377348e-15
+    78	max Ricci anchor error = 1.3322676295501878e-15.
+    79	```
+    80	
+    81	These are backward-error checks of the analytic identities, not the global theorem.
+    82	
+    83	## 3. Development category
+    84	
+    85	For one fixed complete datum \((\Sigma,\gamma,K)\), a marked development is a triple
+    86	\((M,g,i)\) such that:
+    87	
+    88	1. \((M,g)\) is a smooth time-oriented solution of (4);
+    89	2. \(i:\Sigma\to M\) embeds \(\Sigma\) as a Cauchy surface;
+    90	3. the induced metric and second fundamental form are exactly \((\gamma,K)\).
+    91	
+    92	A morphism from \((M_1,g_1,i_1)\) to \((M_2,g_2,i_2)\) is an isometric embedding \(F\) satisfying
+    93	
+    94	\[
+    95	F\circ i_1=i_2.
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md | sed -n '120,220p'" in /return
+ succeeded in 0ms:
+   120	\tag{7}
+   121	\]
+   122	
+   123	It obeys `g(n,n)=-1` and is orthogonal to the graph. Using the G321 convention
+   124	`K=-1/2 L_n gamma`, equations (3), (5), and the G319 identity
+   125	
+   126	\[
+   127	B'=3\frac{\psi'}\psi(A-B)
+   128	\]
+   129	
+   130	give
+   131	
+   132	\[
+   133	K^y{}_y=K^z{}_z=-\frac{\mu X'}{R^3}=\frac B3,
+   134	\]
+   135	
+   136	\[
+   137	K^x{}_x=\frac{3A-B}{6}.
+   138	\tag{8}
+   139	\]
+   140	
+   141	Thus both the first and second fundamental forms agree. The arbitrary positive profile is a Cauchy-
+   142	graph shape inside (2), not a change of the local four-geometry.
+   143	
+   144	Because `R` has timelike gradient and the quotient spatial directions are compact, every constant-
+   145	`R` torus is Cauchy. Since `X'` is nonzero, the embedded slice is a smooth spacelike graph over the
+   146	compact `X` circle and is Cauchy as well.
+   147	
+   148	## 4. The forced global quotient period
+   149	
+   150	Injectivity fixes the primitive `X` period to the total graph advance
+   151	
+   152	\[
+   153	\boxed{
+   154	L_X[\psi]
+   155	=\frac3{J_0}\int_0^{2\pi}
+   156	\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+   157	}.
+   158	\tag{9}
+   159	\]
+   160	
+   161	Here is the missing injectivity proof. Because `X'` has fixed nonzero sign, normalized ambient
+   162	position
+   163	
+   164	\[
+   165	\theta=X/L_X\pmod 1
+   166	\]
+   167	
+   168	is a smooth degree-one coordinate on the embedded circle. Write its radial graph as
+   169	`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+   170	require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+   171	function
+   172	
+   173	\[
+   174	d_k(\theta)=\rho(\theta+k/q)-\rho(\theta)
+   175	\]
+   176	
+   177	has zero integral around the circle. It therefore vanishes somewhere: otherwise connectedness
+   178	would give it one strict sign and a nonzero integral. At a zero, two distinct domain points have
+   179	the same `R` and the same `X` modulo `P` (and the same `y,z` when those coordinates are held fixed),
+   180	so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+   181	complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+   182	registered fixed-sign graph stratum; it does not assume a cosine symmetry.
+   183	
+   184	The exact local isometry
+   185	
+   186	\[
+   187	R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+   188	\quad\mu_*=a^3\mu
+   189	\tag{10}
+   190	\]
+   191	
+   192	rescales all three compact coordinate periods by `1/a`. It cannot change
+   193	
+   194	\[
+   195	\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+   196	\tag{11}
+   197	\]
+   198	
+   199	The invariant statement does not assume that an arbitrary presentation of the translation lattice
+   200	is split. On a constant-`R` leaf, curvature and the leaf shape operator canonically split the
+   201	translation space as the simple eigendirection `ell_X` and the repeated plane `E_perp`. For the
+   202	registered quotients, let `Gamma` be the compact translation lattice and define
+   203	
+   204	\[
+   205	\Lambda_X=\Gamma\cap\ell_X,
+   206	\qquad
+   207	\Lambda_\perp=\pi_{E_\perp}(\Gamma).
+   208	\]
+   209	
+   210	The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+   211	two lattice. Define the coordinate-normalized lattice modulus by
+   212	
+   213	\[
+   214	\mathcal Q(\Gamma)=
+   215	\frac{\operatorname{covol}_{\ell_X}(\Lambda_X)}
+   216	{\sqrt{\operatorname{covol}_{E_\perp}(\Lambda_\perp)}}.
+   217	\tag{11a}
+   218	\]
+   219	
+   220	An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+
+exec
+/bin/bash -lc "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '60,130p'" in /return
+ succeeded in 0ms:
+    60	Also
+    61	
+    62	\[
+    63	g^{-1}(dR,dR)=-\frac\mu R<0,
+    64	\tag{6}
+    65	\]
+    66	
+    67	so `R` is temporal. Choose the time orientation in which `R` increases. On any compact interval
+    68	`0<a<=R<=b<infinity`, causal coordinate speeds are bounded. Since the spatial quotient is compact,
+    69	an inextendible causal curve cannot stop inside such a slab. Consequently `R` ranges from zero to
+    70	infinity on every inextendible causal curve and each constant-`R` torus is Cauchy, reproducing the
+    71	G323 global-hyperbolicity gate.
+    72	
+    73	## 3. Exact timelike reach
+    74	
+    75	The three translation symmetries give conserved momenta
+    76	
+    77	\[
+    78	p_X=\frac\mu R\dot X,
+    79	\qquad p_y=R^2\dot y,
+    80	\qquad p_z=R^2\dot z.
+    81	\tag{7}
+    82	\]
+    83	
+    84	Writing `kappa=g(dot gamma,dot gamma)`, the normalization identity is
+    85	
+    86	\[
+    87	\dot R^2=p_X^2+\frac{\mu P}{R^3}-\kappa\frac\mu R,
+    88	\qquad P=p_y^2+p_z^2.
+    89	\tag{8}
+    90	\]
+    91	
+    92	For a unit timelike geodesic, `kappa=-1`, so the right side is strictly positive. Its sign cannot
+    93	turn; in the chosen future orientation `dot R>0`, and every future timelike geodesic has
+    94	`R -> infinity`.
+    95	
+    96	Its future proper-time reach is
+    97	
+    98	\[
+    99	\Delta\tau=\int^{\infty}
+   100	\frac{dR}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
+   101	\tag{9}
+   102	\]
+   103	
+   104	If `p_X` is nonzero, then for `R>=1`
+   105	
+   106	\[
+   107	\frac{d\tau}{dR}\ge
+   108	\frac{1}{\sqrt{p_X^2+\mu(P+1)}},
+   109	\tag{10}
+   110	\]
+   111	
+   112	and (9) diverges. If `p_X=0`, then
+   113	
+   114	\[
+   115	\frac{d\tau}{dR}\ge
+   116	\sqrt{\frac{R}{\mu(P+1)}},
+   117	\tag{11}
+   118	\]
+   119	
+   120	and it again diverges. Therefore
+   121	
+   122	\[
+   123	\boxed{(M,g_\mu)\text{ is future timelike geodesically complete}.}
+   124	\tag{12}
+   125	\]
+   126	
+   127	Toward `R=0`, the integrand instead behaves as `R^(3/2)` when `P>0` and as `R^(1/2)` when
+   128	`P=0`; the past end has finite proper-time reach. This locates an incomplete end but does not by
+   129	itself prove inextendibility.
+   130	
+
+exec
+/bin/bash -lc 'cat /intake/package/EVIDENCE_GATES.md' in /return
+exec
+/bin/bash -lc "nl -ba /intake/package/PREMISE_LEDGER.tsv | sed -n '12,17p'" in /return
+ succeeded in 0ms:
+# G324 evidence gates
+
+Date: 2026-09-02
+
+| Gate | State | Evidence |
+|---|---|---|
+| Preregistered | PASS | `PREREGISTRATION.md`, frozen commit in `PREREGISTRATION_ANCESTRY.md` |
+| Full bounded space | PASS | analytic proof for all `mu>0` and every registered compact lattice |
+| Independent verification | PASS | exact direct tensor engine plus independent first-integral coefficients |
+| Premise audit | PASS | `PREMISE_LEDGER.tsv`, `SOURCE_NOTE.md`, bounded source evidence |
+| Hostile controls | PASS | `CATCH_PROOF_RESULT.json` |
+| Fresh external review | PENDING | required before banking |
+
+The maximum conclusion is the preregistered smooth per-datum MGHD identification and registered
+modulus transfer. No physical selection or full-UDT conclusion is authorized.
+
+ succeeded in 0ms:
+    12	Kretschmann_scalar	DERIVED_CONDITIONAL_G323	C2 past-extension obstruction	C0 curvature obstruction
+    13	causal_geodesic_first_integral	DERIVED_CONDITIONAL_G323	proper/affine reach calculation	new dynamics
+    14	Choquet_Bruhat_Geroch_MGHD_theorem	IMPORTED_MATHEMATICAL_METHOD	per-datum smooth MGHD interface	native UDT law or arbitrary extension theorem
+    15	Galloway_Ling_Sbierski_one_sided_boundary_theorem	IMPORTED_MATHEMATICAL_METHOD	future C0-boundary exclusion from future timelike completeness	native UDT law or full C0 inextendibility
+    16	geodesic_ODE_continuation	IMPORTED_MATHEMATICAL_METHOD	finite-positive-R endpoint exclusion	physical propagation postulate
+    17	compact_lattice_modulus	DERIVED_CONDITIONAL_G323	unmarked global discriminator	physical occupancy or ruler attachment
+
+exec
+/bin/bash -lc 'nl -ba /intake/package/SOURCE_NOTE.md' in /return
+ succeeded in 0ms:
+     1	# G324 theorem source note
+     2	
+     3	Date: 2026-09-02
+     4	
+     5	G324 imports one mathematical extension-boundary result from Gregory J. Galloway, Eric Ling, and
+     6	Jan Sbierski, *Timelike completeness as an obstruction to C0-extensions*, arXiv:1704.00353v4,
+     7	related DOI `10.1007/s00220-017-3019-2`.
+     8	
+     9	The primary author-posted full text states the one-sided theorem needed here: for a smooth `C2`
+    10	globally hyperbolic spacetime in a `C0` extension, future timelike geodesic completeness leaves no
+    11	future boundary. Its preceding endpoint theorem and time dual say that a nonempty remaining past
+    12	boundary is reached by a past-directed timelike geodesic.
+    13	
+    14	G324 uses this only as an `IMPORTED_MATHEMATICAL_METHOD`. The Taub metric's future completeness,
+    15	finite-interior continuation, past curvature blow-up, and application to the G322 MGHD are derived
+    16	separately. The paper is not a UDT premise or field equation, and G324 does not claim a standalone
+    17	proof of past `C0` inextendibility.
+    18	
+    19	Primary source: https://arxiv.org/abs/1704.00353
+
+exec
+/bin/bash -lc "nl -ba /intake/package/verify_package.py | sed -n '100,122p'" in /return
+ succeeded in 0ms:
+   100	    gate("PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW" in status, "status_external_pending")
+   101	    gate("IMPORTED_MATHEMATICAL_METHOD" in premise, "premise_import_typed")
+   102	
+   103	    # Exact replay into a temporary directory. Nothing in the evidence directory is changed.
+   104	    with tempfile.TemporaryDirectory(prefix="udt_g324_replay_") as temp:
+   105	        temp_path = Path(temp)
+   106	        commands = (
+   107	            ("derive_taub_mghd.py", "DERIVATION_RESULT.json"),
+   108	            ("verify_independent.py", "INDEPENDENT_VERIFICATION.json"),
+   109	            ("run_catch_proofs.py", "CATCH_PROOF_RESULT.json"),
+   110	        )
+   111	        for script, output in commands:
+   112	            command = [sys.executable, "-S", str(package / script), "--output", str(temp_path / output)]
+   113	            if script == "derive_taub_mghd.py":
+   114	                command.extend(("--source-root", str(source_root)))
+   115	            completed = subprocess.run(command, cwd=package, check=True, capture_output=True, text=True)
+   116	            gate(completed.returncode == 0, f"replay_exit:{script}")
+   117	            gate(load(temp_path / output) == load(package / output), f"replay_exact:{output}")
+   118	
+   119	    result = {
+   120	        "schema": "udt-g324-package-verification-v1",
+   121	        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+   122	        "landing": LANDING,
+
+codex
+I’m writing the report now. The result is not a mathematical refutation of the Taub calculations; it is a theorem-interface failure plus an exact replay defect, so the report will land as unresolved with bounded repairs identified.
+apply patch
+patch: completed
+/return/EXTERNAL_REVIEW_RESPONSE.md
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..87c6625eb8054b9bf19f0e9d469138944f0ca1ca
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,99 @@
++# G324 External Adversarial Review Response
++
++I authenticated the sealed intake before relying on it. The top-level manifest hash in
++`/intake/REVIEW_MANIFEST.sha256` matches the computed SHA-256 of `REVIEW_MANIFEST.tsv`, and every
++payload row in `REVIEW_MANIFEST.tsv` matched both its recorded SHA-256 and byte count. I inspected
++only `/intake`, except for copying the authenticated package into `/work/g324_review` to run the
++registered commands, and I did not edit any evidence file.
++
++## Findings
++
++1. **Load-bearing theorem step is not fully authenticated from the sealed evidence, so the current method does not close the MGHD equality claim.**
++   The proof of `C2` inextendibility in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:142) explicitly uses three GLS ingredients, including item 3, “the time-dual statement holds for a past boundary,” and then uses that past-boundary geodesic localization at [lines 157-159](/intake/package/EXACT_DERIVATION.md:157). But the sealed primary-source evidence file [GLS_PRIMARY_SOURCE_EVIDENCE.json](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:1) contains exact quoted fragments only for nonempty boundary and the future-boundary endpoint statement at [lines 16-17](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:16). The regularity/global-hyperbolicity hypotheses and the past-boundary time-dual step appear only inside `scope_paraphrase` at [line 18](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:18), not as authenticated quoted theorem content. The declared import is also narrower in [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:15): it records GLS only for “future C0-boundary exclusion from future timelike completeness,” not for the additional past-boundary endpoint theorem actually used. Because the contradiction at `R -> 0` needs the past-boundary localization step, this is a load-bearing support gap, not a cosmetic citation issue.
++
++2. **Three of the four registered replay commands fail exactly as written.**
++   The registered commands in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1) write into `.review_runtime/...`, but the directory is never created by those commands. In a clean writable copy, the first three commands fail with `FileNotFoundError` at the output write sites in [derive_taub_mghd.py](/intake/package/derive_taub_mghd.py:164), [verify_independent.py](/intake/package/verify_independent.py:203), and [run_catch_proofs.py](/intake/package/run_catch_proofs.py:42). Only `python3 -S verify_package.py` passes as written. After I created `.review_runtime/` manually, all four commands completed. This is a bounded repair, but it is still a real failure under required attack 9.
++
++3. **The package self-verifier does not actually replay the first three commands as registered.**
++   [verify_package.py](/intake/package/verify_package.py:103) claims an “Exact replay,” but it redirects outputs to a temporary directory at [lines 112-117](/intake/package/verify_package.py:112) instead of exercising the paths from `REPLAY_COMMANDS.txt`. That is why `verify_package.py` passes even though the first three registered commands fail verbatim in a fresh copy. This does not refute the mathematics, but it means the package overstates its command-level replay hygiene.
++
++## Independent attack results
++
++1. **Kasner transformation, Ricci tensor, and Kretschmann scalar:** pass.
++   From
++   \[
++   g_\mu=-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2),
++   \]
++   the change of variable \(T=\frac{2}{3\sqrt{\mu}}R^{3/2}\) gives `-dT^2` exactly, and the metric becomes diagonal Kasner with exponents \((-1/3,2/3,2/3)\). Those satisfy \(\sum p_i=\sum p_i^2=1\), so the vacuum Kasner Ricci identities give `Ric=0`. Directly from the `R`-chart,
++   \[
++   \Gamma^R{}_{RR}=\frac1{2R},\quad
++   \Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\quad
++   \Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,\quad
++   \Gamma^X{}_{RX}=-\frac1{2R},\quad
++   \Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R,
++   \]
++   and the Kretschmann scalar reduces to
++   \[
++   R_{abcd}R^{abcd}=12\mu^2R^{-6}.
++   \]
++   I found no tensor error in the package on this point.
++
++2. **Conserved momentum first integral and all timelike branches, including `p_X=0`:** pass.
++   The translational Killing fields give
++   \[
++   p_X=\frac{\mu}{R}\dot X,\qquad p_y=R^2\dot y,\qquad p_z=R^2\dot z.
++   \]
++   Substituting into the norm constraint yields
++   \[
++   \dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}-\kappa\frac{\mu}{R}.
++   \]
++   For unit timelike geodesics, `kappa=-1`, so \(\dot R^2>0\) for all `R>0`. In the chosen future orientation, future-directed timelike geodesics have `dot R>0`. As `R -> infinity`,
++   \[
++   \frac{d\tau}{dR}=\frac{1}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
++   \]
++   If `p_X != 0`, this tends to a positive constant, so the proper-time integral diverges. If `p_X=0`, then \(d\tau/dR \sim \sqrt{R/\mu}\), which also diverges on integration. I found no missed finite-future-proper-time branch.
++
++3. **Compact-slab / finite positive `R` endpoint attack:** pass.
++   On any slab `a <= R <= b` with `0<a<b<infinity`, the metric coefficients, inverse coefficients, and Christoffel symbols are bounded on the compact quotient. The first integral bounds `dot R`; the conserved momenta bound the spatial coordinate speeds. So a geodesic with finite parameter endpoint while staying in such a slab has bounded state and extends by the standard geodesic ODE continuation theorem. I found no finite-positive-`R` endpoint.
++
++4. **Extension endpoint at `R=infinity`:** no counterexample found.
++   With the chosen time orientation, `R` increases on future timelike curves and decreases on past timelike curves. A past-boundary endpoint geodesic, if supplied by the theorem interface, cannot run from a finite interior point to `R=infinity` while remaining past-directed. So the only remaining candidate endpoint is `R -> 0`.
++
++5. **`R=0` / curvature obstruction:** conditionally pass.
++   Once a boundary-reaching past-directed timelike geodesic is available, the scalar \(12\mu^2/R^6\) diverges as `R -> 0`, which is sufficient to obstruct a `C2` endpoint and only a `C2` endpoint. The package correctly keeps past `C0` inextendibility outside its claim at [EXACT_DERIVATION.md lines 178-179](/intake/package/EXACT_DERIVATION.md:178).
++
++6. **MGHD-surjectivity implication:** conditionally pass.
++   Given smooth time-oriented `C2` inextendibility, the step from G323’s data-preserving embedding into the G322 smooth MGHD to surjectivity is sound. G322’s category is explicitly fixed-datum, smooth, time-oriented, and data-preserving at [G322 EXACT_DERIVATION.md lines 83-95](/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md:83). A proper image would indeed define a proper smooth, hence `C2`, extension. I found no separate flaw here.
++
++7. **Inherited lattice-modulus claim:** conditionally pass.
++   The transfer step is valid if the MGHD equality step is valid. G323 already sealed the primitive quotient invariant and its strict mode dependence in [G323 EXACT_DERIVATION.md lines 148-220](/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md:148). G324 does not enlarge the quotient category; it only pushes that invariant through the claimed equality.
++
++8. **No unauthorized physics or new model content:** pass.
++   I found no introduction of a new field equation, source, action, topology choice, occupancy rule, scale, `X_max`, or kernel/angular modification. The package consistently keeps C0 past inextendibility and physical selection outside scope.
++
++## Registered command replay
++
++In `/work/g324_review/package`, the four registered commands behaved as follows when run exactly as listed:
++
++1. `python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/DERIVATION_RESULT.json'`
++2. `python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/INDEPENDENT_VERIFICATION.json'`
++3. `python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/CATCH_PROOF_RESULT.json'`
++4. `python3 -S verify_package.py`
++   Passed.
++
++After creating `.review_runtime/` manually in the writable copy, all four commands passed. That repair is operational, not mathematical.
++
++## Conclusion
++
++I did **not** find a concrete tensor, geodesic, or modulus counterexample inside the sealed evidence. The positive case is plausible on the mathematics already written. But the present package does not authenticate the full GLS theorem interface it actually uses: the past-boundary time-dual endpoint step is load-bearing, while the sealed primary-source evidence quotes only the future-direction endpoint statement and the nonempty-boundary fragment, and the premise ledger declares a narrower import than the proof consumes. Under the review request’s allowed landings, that leaves the result unresolved rather than accepted.
++
++Minimal bounded repairs are clear:
++
++- seal exact support for the precise GLS hypotheses actually used, including the past-boundary/time-dual endpoint step, or narrow the proof so it avoids that step;
++- align the premise ledger with the exact imported theorem content;
++- make the registered replay commands create `.review_runtime/` or write to an existing output directory.
++
++UNRESOLVED__CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..87c6625eb8054b9bf19f0e9d469138944f0ca1ca
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,99 @@
++# G324 External Adversarial Review Response
++
++I authenticated the sealed intake before relying on it. The top-level manifest hash in
++`/intake/REVIEW_MANIFEST.sha256` matches the computed SHA-256 of `REVIEW_MANIFEST.tsv`, and every
++payload row in `REVIEW_MANIFEST.tsv` matched both its recorded SHA-256 and byte count. I inspected
++only `/intake`, except for copying the authenticated package into `/work/g324_review` to run the
++registered commands, and I did not edit any evidence file.
++
++## Findings
++
++1. **Load-bearing theorem step is not fully authenticated from the sealed evidence, so the current method does not close the MGHD equality claim.**
++   The proof of `C2` inextendibility in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:142) explicitly uses three GLS ingredients, including item 3, “the time-dual statement holds for a past boundary,” and then uses that past-boundary geodesic localization at [lines 157-159](/intake/package/EXACT_DERIVATION.md:157). But the sealed primary-source evidence file [GLS_PRIMARY_SOURCE_EVIDENCE.json](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:1) contains exact quoted fragments only for nonempty boundary and the future-boundary endpoint statement at [lines 16-17](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:16). The regularity/global-hyperbolicity hypotheses and the past-boundary time-dual step appear only inside `scope_paraphrase` at [line 18](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:18), not as authenticated quoted theorem content. The declared import is also narrower in [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:15): it records GLS only for “future C0-boundary exclusion from future timelike completeness,” not for the additional past-boundary endpoint theorem actually used. Because the contradiction at `R -> 0` needs the past-boundary localization step, this is a load-bearing support gap, not a cosmetic citation issue.
++
++2. **Three of the four registered replay commands fail exactly as written.**
++   The registered commands in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1) write into `.review_runtime/...`, but the directory is never created by those commands. In a clean writable copy, the first three commands fail with `FileNotFoundError` at the output write sites in [derive_taub_mghd.py](/intake/package/derive_taub_mghd.py:164), [verify_independent.py](/intake/package/verify_independent.py:203), and [run_catch_proofs.py](/intake/package/run_catch_proofs.py:42). Only `python3 -S verify_package.py` passes as written. After I created `.review_runtime/` manually, all four commands completed. This is a bounded repair, but it is still a real failure under required attack 9.
++
++3. **The package self-verifier does not actually replay the first three commands as registered.**
++   [verify_package.py](/intake/package/verify_package.py:103) claims an “Exact replay,” but it redirects outputs to a temporary directory at [lines 112-117](/intake/package/verify_package.py:112) instead of exercising the paths from `REPLAY_COMMANDS.txt`. That is why `verify_package.py` passes even though the first three registered commands fail verbatim in a fresh copy. This does not refute the mathematics, but it means the package overstates its command-level replay hygiene.
++
++## Independent attack results
++
++1. **Kasner transformation, Ricci tensor, and Kretschmann scalar:** pass.
++   From
++   \[
++   g_\mu=-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2),
++   \]
++   the change of variable \(T=\frac{2}{3\sqrt{\mu}}R^{3/2}\) gives `-dT^2` exactly, and the metric becomes diagonal Kasner with exponents \((-1/3,2/3,2/3)\). Those satisfy \(\sum p_i=\sum p_i^2=1\), so the vacuum Kasner Ricci identities give `Ric=0`. Directly from the `R`-chart,
++   \[
++   \Gamma^R{}_{RR}=\frac1{2R},\quad
++   \Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\quad
++   \Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,\quad
++   \Gamma^X{}_{RX}=-\frac1{2R},\quad
++   \Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R,
++   \]
++   and the Kretschmann scalar reduces to
++   \[
++   R_{abcd}R^{abcd}=12\mu^2R^{-6}.
++   \]
++   I found no tensor error in the package on this point.
++
++2. **Conserved momentum first integral and all timelike branches, including `p_X=0`:** pass.
++   The translational Killing fields give
++   \[
++   p_X=\frac{\mu}{R}\dot X,\qquad p_y=R^2\dot y,\qquad p_z=R^2\dot z.
++   \]
++   Substituting into the norm constraint yields
++   \[
++   \dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}-\kappa\frac{\mu}{R}.
++   \]
++   For unit timelike geodesics, `kappa=-1`, so \(\dot R^2>0\) for all `R>0`. In the chosen future orientation, future-directed timelike geodesics have `dot R>0`. As `R -> infinity`,
++   \[
++   \frac{d\tau}{dR}=\frac{1}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
++   \]
++   If `p_X != 0`, this tends to a positive constant, so the proper-time integral diverges. If `p_X=0`, then \(d\tau/dR \sim \sqrt{R/\mu}\), which also diverges on integration. I found no missed finite-future-proper-time branch.
++
++3. **Compact-slab / finite positive `R` endpoint attack:** pass.
++   On any slab `a <= R <= b` with `0<a<b<infinity`, the metric coefficients, inverse coefficients, and Christoffel symbols are bounded on the compact quotient. The first integral bounds `dot R`; the conserved momenta bound the spatial coordinate speeds. So a geodesic with finite parameter endpoint while staying in such a slab has bounded state and extends by the standard geodesic ODE continuation theorem. I found no finite-positive-`R` endpoint.
++
++4. **Extension endpoint at `R=infinity`:** no counterexample found.
++   With the chosen time orientation, `R` increases on future timelike curves and decreases on past timelike curves. A past-boundary endpoint geodesic, if supplied by the theorem interface, cannot run from a finite interior point to `R=infinity` while remaining past-directed. So the only remaining candidate endpoint is `R -> 0`.
++
++5. **`R=0` / curvature obstruction:** conditionally pass.
++   Once a boundary-reaching past-directed timelike geodesic is available, the scalar \(12\mu^2/R^6\) diverges as `R -> 0`, which is sufficient to obstruct a `C2` endpoint and only a `C2` endpoint. The package correctly keeps past `C0` inextendibility outside its claim at [EXACT_DERIVATION.md lines 178-179](/intake/package/EXACT_DERIVATION.md:178).
++
++6. **MGHD-surjectivity implication:** conditionally pass.
++   Given smooth time-oriented `C2` inextendibility, the step from G323’s data-preserving embedding into the G322 smooth MGHD to surjectivity is sound. G322’s category is explicitly fixed-datum, smooth, time-oriented, and data-preserving at [G322 EXACT_DERIVATION.md lines 83-95](/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md:83). A proper image would indeed define a proper smooth, hence `C2`, extension. I found no separate flaw here.
++
++7. **Inherited lattice-modulus claim:** conditionally pass.
++   The transfer step is valid if the MGHD equality step is valid. G323 already sealed the primitive quotient invariant and its strict mode dependence in [G323 EXACT_DERIVATION.md lines 148-220](/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md:148). G324 does not enlarge the quotient category; it only pushes that invariant through the claimed equality.
++
++8. **No unauthorized physics or new model content:** pass.
++   I found no introduction of a new field equation, source, action, topology choice, occupancy rule, scale, `X_max`, or kernel/angular modification. The package consistently keeps C0 past inextendibility and physical selection outside scope.
++
++## Registered command replay
++
++In `/work/g324_review/package`, the four registered commands behaved as follows when run exactly as listed:
++
++1. `python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/DERIVATION_RESULT.json'`
++2. `python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/INDEPENDENT_VERIFICATION.json'`
++3. `python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/CATCH_PROOF_RESULT.json'`
++4. `python3 -S verify_package.py`
++   Passed.
++
++After creating `.review_runtime/` manually in the writable copy, all four commands passed. That repair is operational, not mathematical.
++
++## Conclusion
++
++I did **not** find a concrete tensor, geodesic, or modulus counterexample inside the sealed evidence. The positive case is plausible on the mathematics already written. But the present package does not authenticate the full GLS theorem interface it actually uses: the past-boundary time-dual endpoint step is load-bearing, while the sealed primary-source evidence quotes only the future-direction endpoint statement and the nonempty-boundary fragment, and the premise ledger declares a narrower import than the proof consumes. Under the review request’s allowed landings, that leaves the result unresolved rather than accepted.
++
++Minimal bounded repairs are clear:
++
++- seal exact support for the precise GLS hypotheses actually used, including the past-boundary/time-dual endpoint step, or narrow the proof so it avoids that step;
++- align the premise ledger with the exact imported theorem content;
++- make the registered replay commands create `.review_runtime/` or write to an existing output directory.
++
++UNRESOLVED__CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY
+
+codex
+The report is written. I’m doing one final readback to ensure the verdict token is the last line and that the report stays within the sealed-review boundaries.
+exec
+/bin/bash -lc 'tail -n 20 /return/EXTERNAL_REVIEW_RESPONSE.md' in /return
+ succeeded in 0ms:
+2. `python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json`
+   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/INDEPENDENT_VERIFICATION.json'`
+3. `python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json`
+   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/CATCH_PROOF_RESULT.json'`
+4. `python3 -S verify_package.py`
+   Passed.
+
+After creating `.review_runtime/` manually in the writable copy, all four commands passed. That repair is operational, not mathematical.
+
+## Conclusion
+
+I did **not** find a concrete tensor, geodesic, or modulus counterexample inside the sealed evidence. The positive case is plausible on the mathematics already written. But the present package does not authenticate the full GLS theorem interface it actually uses: the past-boundary time-dual endpoint step is load-bearing, while the sealed primary-source evidence quotes only the future-direction endpoint statement and the nonempty-boundary fragment, and the premise ledger declares a narrower import than the proof consumes. Under the review request’s allowed landings, that leaves the result unresolved rather than accepted.
+
+Minimal bounded repairs are clear:
+
+- seal exact support for the precise GLS hypotheses actually used, including the past-boundary/time-dual endpoint step, or narrow the proof so it avoids that step;
+- align the premise ledger with the exact imported theorem content;
+- make the registered replay commands create `.review_runtime/` or write to an existing output directory.
+
+UNRESOLVED__CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..87c6625eb8054b9bf19f0e9d469138944f0ca1ca
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,99 @@
++# G324 External Adversarial Review Response
++
++I authenticated the sealed intake before relying on it. The top-level manifest hash in
++`/intake/REVIEW_MANIFEST.sha256` matches the computed SHA-256 of `REVIEW_MANIFEST.tsv`, and every
++payload row in `REVIEW_MANIFEST.tsv` matched both its recorded SHA-256 and byte count. I inspected
++only `/intake`, except for copying the authenticated package into `/work/g324_review` to run the
++registered commands, and I did not edit any evidence file.
++
++## Findings
++
++1. **Load-bearing theorem step is not fully authenticated from the sealed evidence, so the current method does not close the MGHD equality claim.**
++   The proof of `C2` inextendibility in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:142) explicitly uses three GLS ingredients, including item 3, “the time-dual statement holds for a past boundary,” and then uses that past-boundary geodesic localization at [lines 157-159](/intake/package/EXACT_DERIVATION.md:157). But the sealed primary-source evidence file [GLS_PRIMARY_SOURCE_EVIDENCE.json](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:1) contains exact quoted fragments only for nonempty boundary and the future-boundary endpoint statement at [lines 16-17](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:16). The regularity/global-hyperbolicity hypotheses and the past-boundary time-dual step appear only inside `scope_paraphrase` at [line 18](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:18), not as authenticated quoted theorem content. The declared import is also narrower in [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:15): it records GLS only for “future C0-boundary exclusion from future timelike completeness,” not for the additional past-boundary endpoint theorem actually used. Because the contradiction at `R -> 0` needs the past-boundary localization step, this is a load-bearing support gap, not a cosmetic citation issue.
++
++2. **Three of the four registered replay commands fail exactly as written.**
++   The registered commands in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1) write into `.review_runtime/...`, but the directory is never created by those commands. In a clean writable copy, the first three commands fail with `FileNotFoundError` at the output write sites in [derive_taub_mghd.py](/intake/package/derive_taub_mghd.py:164), [verify_independent.py](/intake/package/verify_independent.py:203), and [run_catch_proofs.py](/intake/package/run_catch_proofs.py:42). Only `python3 -S verify_package.py` passes as written. After I created `.review_runtime/` manually, all four commands completed. This is a bounded repair, but it is still a real failure under required attack 9.
++
++3. **The package self-verifier does not actually replay the first three commands as registered.**
++   [verify_package.py](/intake/package/verify_package.py:103) claims an “Exact replay,” but it redirects outputs to a temporary directory at [lines 112-117](/intake/package/verify_package.py:112) instead of exercising the paths from `REPLAY_COMMANDS.txt`. That is why `verify_package.py` passes even though the first three registered commands fail verbatim in a fresh copy. This does not refute the mathematics, but it means the package overstates its command-level replay hygiene.
++
++## Independent attack results
++
++1. **Kasner transformation, Ricci tensor, and Kretschmann scalar:** pass.
++   From
++   \[
++   g_\mu=-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2),
++   \]
++   the change of variable \(T=\frac{2}{3\sqrt{\mu}}R^{3/2}\) gives `-dT^2` exactly, and the metric becomes diagonal Kasner with exponents \((-1/3,2/3,2/3)\). Those satisfy \(\sum p_i=\sum p_i^2=1\), so the vacuum Kasner Ricci identities give `Ric=0`. Directly from the `R`-chart,
++   \[
++   \Gamma^R{}_{RR}=\frac1{2R},\quad
++   \Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\quad
++   \Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,\quad
++   \Gamma^X{}_{RX}=-\frac1{2R},\quad
++   \Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R,
++   \]
++   and the Kretschmann scalar reduces to
++   \[
++   R_{abcd}R^{abcd}=12\mu^2R^{-6}.
++   \]
++   I found no tensor error in the package on this point.
++
++2. **Conserved momentum first integral and all timelike branches, including `p_X=0`:** pass.
++   The translational Killing fields give
++   \[
++   p_X=\frac{\mu}{R}\dot X,\qquad p_y=R^2\dot y,\qquad p_z=R^2\dot z.
++   \]
++   Substituting into the norm constraint yields
++   \[
++   \dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}-\kappa\frac{\mu}{R}.
++   \]
++   For unit timelike geodesics, `kappa=-1`, so \(\dot R^2>0\) for all `R>0`. In the chosen future orientation, future-directed timelike geodesics have `dot R>0`. As `R -> infinity`,
++   \[
++   \frac{d\tau}{dR}=\frac{1}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
++   \]
++   If `p_X != 0`, this tends to a positive constant, so the proper-time integral diverges. If `p_X=0`, then \(d\tau/dR \sim \sqrt{R/\mu}\), which also diverges on integration. I found no missed finite-future-proper-time branch.
++
++3. **Compact-slab / finite positive `R` endpoint attack:** pass.
++   On any slab `a <= R <= b` with `0<a<b<infinity`, the metric coefficients, inverse coefficients, and Christoffel symbols are bounded on the compact quotient. The first integral bounds `dot R`; the conserved momenta bound the spatial coordinate speeds. So a geodesic with finite parameter endpoint while staying in such a slab has bounded state and extends by the standard geodesic ODE continuation theorem. I found no finite-positive-`R` endpoint.
++
++4. **Extension endpoint at `R=infinity`:** no counterexample found.
++   With the chosen time orientation, `R` increases on future timelike curves and decreases on past timelike curves. A past-boundary endpoint geodesic, if supplied by the theorem interface, cannot run from a finite interior point to `R=infinity` while remaining past-directed. So the only remaining candidate endpoint is `R -> 0`.
++
++5. **`R=0` / curvature obstruction:** conditionally pass.
++   Once a boundary-reaching past-directed timelike geodesic is available, the scalar \(12\mu^2/R^6\) diverges as `R -> 0`, which is sufficient to obstruct a `C2` endpoint and only a `C2` endpoint. The package correctly keeps past `C0` inextendibility outside its claim at [EXACT_DERIVATION.md lines 178-179](/intake/package/EXACT_DERIVATION.md:178).
++
++6. **MGHD-surjectivity implication:** conditionally pass.
++   Given smooth time-oriented `C2` inextendibility, the step from G323’s data-preserving embedding into the G322 smooth MGHD to surjectivity is sound. G322’s category is explicitly fixed-datum, smooth, time-oriented, and data-preserving at [G322 EXACT_DERIVATION.md lines 83-95](/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md:83). A proper image would indeed define a proper smooth, hence `C2`, extension. I found no separate flaw here.
++
++7. **Inherited lattice-modulus claim:** conditionally pass.
++   The transfer step is valid if the MGHD equality step is valid. G323 already sealed the primitive quotient invariant and its strict mode dependence in [G323 EXACT_DERIVATION.md lines 148-220](/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md:148). G324 does not enlarge the quotient category; it only pushes that invariant through the claimed equality.
++
++8. **No unauthorized physics or new model content:** pass.
++   I found no introduction of a new field equation, source, action, topology choice, occupancy rule, scale, `X_max`, or kernel/angular modification. The package consistently keeps C0 past inextendibility and physical selection outside scope.
++
++## Registered command replay
++
++In `/work/g324_review/package`, the four registered commands behaved as follows when run exactly as listed:
++
++1. `python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/DERIVATION_RESULT.json'`
++2. `python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/INDEPENDENT_VERIFICATION.json'`
++3. `python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/CATCH_PROOF_RESULT.json'`
++4. `python3 -S verify_package.py`
++   Passed.
++
++After creating `.review_runtime/` manually in the writable copy, all four commands passed. That repair is operational, not mathematical.
++
++## Conclusion
++
++I did **not** find a concrete tensor, geodesic, or modulus counterexample inside the sealed evidence. The positive case is plausible on the mathematics already written. But the present package does not authenticate the full GLS theorem interface it actually uses: the past-boundary time-dual endpoint step is load-bearing, while the sealed primary-source evidence quotes only the future-direction endpoint statement and the nonempty-boundary fragment, and the premise ledger declares a narrower import than the proof consumes. Under the review request’s allowed landings, that leaves the result unresolved rather than accepted.
++
++Minimal bounded repairs are clear:
++
++- seal exact support for the precise GLS hypotheses actually used, including the past-boundary/time-dual endpoint step, or narrow the proof so it avoids that step;
++- align the premise ledger with the exact imported theorem content;
++- make the registered replay commands create `.review_runtime/` or write to an existing output directory.
++
++UNRESOLVED__CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY
+
+codex
+`UNRESOLVED__CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY`
+
+Report: [EXTERNAL_REVIEW_RESPONSE.md](/return/EXTERNAL_REVIEW_RESPONSE.md)
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..87c6625eb8054b9bf19f0e9d469138944f0ca1ca
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,99 @@
++# G324 External Adversarial Review Response
++
++I authenticated the sealed intake before relying on it. The top-level manifest hash in
++`/intake/REVIEW_MANIFEST.sha256` matches the computed SHA-256 of `REVIEW_MANIFEST.tsv`, and every
++payload row in `REVIEW_MANIFEST.tsv` matched both its recorded SHA-256 and byte count. I inspected
++only `/intake`, except for copying the authenticated package into `/work/g324_review` to run the
++registered commands, and I did not edit any evidence file.
++
++## Findings
++
++1. **Load-bearing theorem step is not fully authenticated from the sealed evidence, so the current method does not close the MGHD equality claim.**
++   The proof of `C2` inextendibility in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:142) explicitly uses three GLS ingredients, including item 3, “the time-dual statement holds for a past boundary,” and then uses that past-boundary geodesic localization at [lines 157-159](/intake/package/EXACT_DERIVATION.md:157). But the sealed primary-source evidence file [GLS_PRIMARY_SOURCE_EVIDENCE.json](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:1) contains exact quoted fragments only for nonempty boundary and the future-boundary endpoint statement at [lines 16-17](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:16). The regularity/global-hyperbolicity hypotheses and the past-boundary time-dual step appear only inside `scope_paraphrase` at [line 18](/intake/package/GLS_PRIMARY_SOURCE_EVIDENCE.json:18), not as authenticated quoted theorem content. The declared import is also narrower in [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:15): it records GLS only for “future C0-boundary exclusion from future timelike completeness,” not for the additional past-boundary endpoint theorem actually used. Because the contradiction at `R -> 0` needs the past-boundary localization step, this is a load-bearing support gap, not a cosmetic citation issue.
++
++2. **Three of the four registered replay commands fail exactly as written.**
++   The registered commands in [REPLAY_COMMANDS.txt](/intake/package/REPLAY_COMMANDS.txt:1) write into `.review_runtime/...`, but the directory is never created by those commands. In a clean writable copy, the first three commands fail with `FileNotFoundError` at the output write sites in [derive_taub_mghd.py](/intake/package/derive_taub_mghd.py:164), [verify_independent.py](/intake/package/verify_independent.py:203), and [run_catch_proofs.py](/intake/package/run_catch_proofs.py:42). Only `python3 -S verify_package.py` passes as written. After I created `.review_runtime/` manually, all four commands completed. This is a bounded repair, but it is still a real failure under required attack 9.
++
++3. **The package self-verifier does not actually replay the first three commands as registered.**
++   [verify_package.py](/intake/package/verify_package.py:103) claims an “Exact replay,” but it redirects outputs to a temporary directory at [lines 112-117](/intake/package/verify_package.py:112) instead of exercising the paths from `REPLAY_COMMANDS.txt`. That is why `verify_package.py` passes even though the first three registered commands fail verbatim in a fresh copy. This does not refute the mathematics, but it means the package overstates its command-level replay hygiene.
++
++## Independent attack results
++
++1. **Kasner transformation, Ricci tensor, and Kretschmann scalar:** pass.
++   From
++   \[
++   g_\mu=-\frac{R}{\mu}dR^2+\frac{\mu}{R}dX^2+R^2(dy^2+dz^2),
++   \]
++   the change of variable \(T=\frac{2}{3\sqrt{\mu}}R^{3/2}\) gives `-dT^2` exactly, and the metric becomes diagonal Kasner with exponents \((-1/3,2/3,2/3)\). Those satisfy \(\sum p_i=\sum p_i^2=1\), so the vacuum Kasner Ricci identities give `Ric=0`. Directly from the `R`-chart,
++   \[
++   \Gamma^R{}_{RR}=\frac1{2R},\quad
++   \Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\quad
++   \Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,\quad
++   \Gamma^X{}_{RX}=-\frac1{2R},\quad
++   \Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R,
++   \]
++   and the Kretschmann scalar reduces to
++   \[
++   R_{abcd}R^{abcd}=12\mu^2R^{-6}.
++   \]
++   I found no tensor error in the package on this point.
++
++2. **Conserved momentum first integral and all timelike branches, including `p_X=0`:** pass.
++   The translational Killing fields give
++   \[
++   p_X=\frac{\mu}{R}\dot X,\qquad p_y=R^2\dot y,\qquad p_z=R^2\dot z.
++   \]
++   Substituting into the norm constraint yields
++   \[
++   \dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}-\kappa\frac{\mu}{R}.
++   \]
++   For unit timelike geodesics, `kappa=-1`, so \(\dot R^2>0\) for all `R>0`. In the chosen future orientation, future-directed timelike geodesics have `dot R>0`. As `R -> infinity`,
++   \[
++   \frac{d\tau}{dR}=\frac{1}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
++   \]
++   If `p_X != 0`, this tends to a positive constant, so the proper-time integral diverges. If `p_X=0`, then \(d\tau/dR \sim \sqrt{R/\mu}\), which also diverges on integration. I found no missed finite-future-proper-time branch.
++
++3. **Compact-slab / finite positive `R` endpoint attack:** pass.
++   On any slab `a <= R <= b` with `0<a<b<infinity`, the metric coefficients, inverse coefficients, and Christoffel symbols are bounded on the compact quotient. The first integral bounds `dot R`; the conserved momenta bound the spatial coordinate speeds. So a geodesic with finite parameter endpoint while staying in such a slab has bounded state and extends by the standard geodesic ODE continuation theorem. I found no finite-positive-`R` endpoint.
++
++4. **Extension endpoint at `R=infinity`:** no counterexample found.
++   With the chosen time orientation, `R` increases on future timelike curves and decreases on past timelike curves. A past-boundary endpoint geodesic, if supplied by the theorem interface, cannot run from a finite interior point to `R=infinity` while remaining past-directed. So the only remaining candidate endpoint is `R -> 0`.
++
++5. **`R=0` / curvature obstruction:** conditionally pass.
++   Once a boundary-reaching past-directed timelike geodesic is available, the scalar \(12\mu^2/R^6\) diverges as `R -> 0`, which is sufficient to obstruct a `C2` endpoint and only a `C2` endpoint. The package correctly keeps past `C0` inextendibility outside its claim at [EXACT_DERIVATION.md lines 178-179](/intake/package/EXACT_DERIVATION.md:178).
++
++6. **MGHD-surjectivity implication:** conditionally pass.
++   Given smooth time-oriented `C2` inextendibility, the step from G323’s data-preserving embedding into the G322 smooth MGHD to surjectivity is sound. G322’s category is explicitly fixed-datum, smooth, time-oriented, and data-preserving at [G322 EXACT_DERIVATION.md lines 83-95](/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md:83). A proper image would indeed define a proper smooth, hence `C2`, extension. I found no separate flaw here.
++
++7. **Inherited lattice-modulus claim:** conditionally pass.
++   The transfer step is valid if the MGHD equality step is valid. G323 already sealed the primitive quotient invariant and its strict mode dependence in [G323 EXACT_DERIVATION.md lines 148-220](/intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md:148). G324 does not enlarge the quotient category; it only pushes that invariant through the claimed equality.
++
++8. **No unauthorized physics or new model content:** pass.
++   I found no introduction of a new field equation, source, action, topology choice, occupancy rule, scale, `X_max`, or kernel/angular modification. The package consistently keeps C0 past inextendibility and physical selection outside scope.
++
++## Registered command replay
++
++In `/work/g324_review/package`, the four registered commands behaved as follows when run exactly as listed:
++
++1. `python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/DERIVATION_RESULT.json'`
++2. `python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/INDEPENDENT_VERIFICATION.json'`
++3. `python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json`
++   Failed: `FileNotFoundError: [Errno 2] No such file or directory: '/work/g324_review/package/.review_runtime/CATCH_PROOF_RESULT.json'`
++4. `python3 -S verify_package.py`
++   Passed.
++
++After creating `.review_runtime/` manually in the writable copy, all four commands passed. That repair is operational, not mathematical.
++
++## Conclusion
++
++I did **not** find a concrete tensor, geodesic, or modulus counterexample inside the sealed evidence. The positive case is plausible on the mathematics already written. But the present package does not authenticate the full GLS theorem interface it actually uses: the past-boundary time-dual endpoint step is load-bearing, while the sealed primary-source evidence quotes only the future-direction endpoint statement and the nonempty-boundary fragment, and the premise ledger declares a narrower import than the proof consumes. Under the review request’s allowed landings, that leaves the result unresolved rather than accepted.
++
++Minimal bounded repairs are clear:
++
++- seal exact support for the precise GLS hypotheses actually used, including the past-boundary/time-dual endpoint step, or narrow the proof so it avoids that step;
++- align the premise ledger with the exact imported theorem content;
++- make the registered replay commands create `.review_runtime/` or write to an existing output directory.
++
++UNRESOLVED__CURRENT_METHOD_DOES_NOT_CLOSE_TAUB_QUOTIENT_MAXIMALITY
+
+tokens used
+83,581
+
+Script done on 2026-09-02 10:42:30-04:00 [COMMAND_EXIT_CODE="0"]

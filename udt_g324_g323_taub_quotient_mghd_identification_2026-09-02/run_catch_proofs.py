@@ -39,7 +39,9 @@ def main() -> None:
         "assertion_count": len(controls),
         "controls": controls,
     }
-    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    output_path = root / args.output
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(json.dumps(result, indent=2, sort_keys=True))
 
 

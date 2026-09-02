@@ -31,3 +31,15 @@ verification result.
 CPU-only exact/analytic checks. No GPU, long solve, fit, observational outcome, or network access
 is used by the registered replay. Network access was used only to inspect the primary arXiv theorem
 source before sealing its bounded evidence record.
+
+## Fresh external review and bounded repairs
+
+The fresh reviewer independently upheld the metric, curvature, first-integral, completeness,
+finite-slab, MGHD-interface, modulus-transfer, and no-new-physics calculations. It returned
+`UNRESOLVED` because the sealed evidence did not authenticate the past-directed half of the theorem
+route and because three advertised commands assumed `.review_runtime/` already existed.
+
+The registered repair does not change the result. It uses the cited paper's orientation-neutral
+Theorem 2 directly, records its exact source hash and location, derives the endpoint direction from
+G324 future completeness, makes each producer create its output parent, and makes the aggregate
+verifier reproduce the first three advertised commands literally inside a fresh copy.

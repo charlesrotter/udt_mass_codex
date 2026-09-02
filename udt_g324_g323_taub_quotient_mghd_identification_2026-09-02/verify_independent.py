@@ -172,14 +172,20 @@ def main() -> None:
     source = json.loads((root / "GLS_PRIMARY_SOURCE_EVIDENCE.json").read_text())
     gate(source["source_grade"] == "PRIMARY_AUTHOR_ARXIV_FULL_TEXT_BOUNDED_EXCERPT",
          "source_grade")
-    gate(source["bounded_excerpt_word_count"] == 20, "source_quote_budget")
-    boundary_nonempty = source["boundary_nonempty_fragment"].endswith("≠∅.")
-    endpoint_theorem = "future endpoint on ∂M" in source["endpoint_fragment"]
-    gate(boundary_nonempty, "extension_has_one_sided_boundary")
-    gate(endpoint_theorem, "one_sided_endpoint_theorem_content")
+    gate(source["bounded_excerpt_word_count"] == 23, "source_quote_budget")
+    endpoint_theorem = "end point on the boundary" in source["endpoint_fragment"]
+    theorem_hypotheses = all(
+        token in source["formal_theorem_transcription"]
+        for token in ("C2", "time-oriented", "globally hyperbolic", "C0 extension")
+    )
+    gate("globally hyperbolic Lorentzian manifold" in source["hypotheses_fragment"],
+         "extension_endpoint_exact_hypotheses_fragment")
+    gate(source["theorem_label"] == "Theorem 2", "extension_endpoint_theorem_label")
+    gate(endpoint_theorem, "extension_endpoint_theorem_content")
+    gate(theorem_hypotheses, "extension_endpoint_theorem_hypotheses")
     smooth_mghd_identification = (
         future_complete
-        and boundary_nonempty
+        and theorem_hypotheses
         and endpoint_theorem
         and expected_k.terms[(-6, 2)] > 0
     )
@@ -200,7 +206,9 @@ def main() -> None:
         "metric_changed": False,
         "kernel_changed": False,
     }
-    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    output_path = root / args.output
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(json.dumps(result, indent=2, sort_keys=True))
 
 

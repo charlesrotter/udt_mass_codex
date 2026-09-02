@@ -1,5 +1,5 @@
 {
-  "assertion_count": 30,
+  "assertion_count": 32,
   "checks": [
     "inverse_metric_0",
     "inverse_metric_1",
@@ -29,8 +29,10 @@
     "past_scalar_diverges",
     "source_grade",
     "source_quote_budget",
-    "extension_has_one_sided_boundary",
-    "one_sided_endpoint_theorem_content"
+    "extension_endpoint_exact_hypotheses_fragment",
+    "extension_endpoint_theorem_label",
+    "extension_endpoint_theorem_content",
+    "extension_endpoint_theorem_hypotheses"
   ],
   "first_integral_independent": true,
   "future_timelike_complete": true,

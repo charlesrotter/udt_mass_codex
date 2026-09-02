@@ -12,7 +12,7 @@ R_positive	PINNED_BY_EXPLICIT_CHART	entire displayed quotient development	physic
 Kretschmann_scalar	DERIVED_CONDITIONAL_G323	C2 past-extension obstruction	C0 curvature obstruction
 causal_geodesic_first_integral	DERIVED_CONDITIONAL_G323	proper/affine reach calculation	new dynamics
 Choquet_Bruhat_Geroch_MGHD_theorem	IMPORTED_MATHEMATICAL_METHOD	per-datum smooth MGHD interface	native UDT law or arbitrary extension theorem
-Galloway_Ling_Sbierski_one_sided_boundary_theorem	IMPORTED_MATHEMATICAL_METHOD	future C0-boundary exclusion from future timelike completeness	native UDT law or full C0 inextendibility
+Galloway_Ling_Sbierski_Theorem_2	IMPORTED_MATHEMATICAL_METHOD	orientation-neutral timelike endpoint in any C0 extension; G324 future completeness forces the endpoint past-directed	native UDT law or full C0 inextendibility
 geodesic_ODE_continuation	IMPORTED_MATHEMATICAL_METHOD	finite-positive-R endpoint exclusion	physical propagation postulate
 compact_lattice_modulus	DERIVED_CONDITIONAL_G323	unmarked global discriminator	physical occupancy or ruler attachment
 c_E	OBSERVED_ANCHOR_INACTIVE	not used in dimensionless maximality test	history selector

@@ -7,6 +7,8 @@ import argparse
 import csv
 import hashlib
 import json
+import shlex
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -56,7 +58,7 @@ def main() -> None:
     hostile = load(package / "CATCH_PROOF_RESULT.json")
     gate(production["landing"] == LANDING, "production_landing")
     gate(production["assertion_count"] == 29, "production_assertion_count")
-    gate(independent["assertion_count"] == 30, "independent_assertion_count")
+    gate(independent["assertion_count"] == 32, "independent_assertion_count")
     gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
     gate(production["explicit_quotient_equals_smooth_per_datum_MGHD"], "mghd_positive")
     gate(production["registered_lattice_modulus_survives_MGHD"], "modulus_positive")
@@ -77,9 +79,13 @@ def main() -> None:
     gate("DERIVATION_RESULT.json" not in independent_text, "static_no_production_result_read")
 
     source = load(package / "GLS_PRIMARY_SOURCE_EVIDENCE.json")
-    quoted = source["boundary_nonempty_fragment"].split() + source["endpoint_fragment"].split()
-    gate(len(quoted) == source["bounded_excerpt_word_count"] == 20, "source_quote_count_exact")
+    quoted = source["hypotheses_fragment"].split() + source["endpoint_fragment"].split()
+    gate(len(quoted) == source["bounded_excerpt_word_count"] == 23, "source_quote_count_exact")
     gate(source["arxiv"] == "1704.00353v4", "source_primary_identifier")
+    gate(source["theorem_label"] == "Theorem 2", "source_theorem_label")
+    gate(source["primary_pdf_sha256"] ==
+         "069c6f4bcb1c1569ec8546f8579250c6128f1f3fa893516bb3a147a1570cf92a",
+         "source_pdf_hash")
 
     with (package / "SOURCE_MANIFEST.tsv").open(newline="") as handle:
         rows = list(csv.DictReader(handle, delimiter="\t"))
@@ -97,28 +103,45 @@ def main() -> None:
     gate("does **not** prove that the\npast singular end is `C0`-inextendible" in exact,
          "exact_c0_boundary")
     gate("choose which compact shape Nature uses" in lay, "lay_occupancy_boundary")
-    gate("PASS_PENDING_EXTERNAL_ADVERSARIAL_REVIEW" in status, "status_external_pending")
+    gate("PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP" in status,
+         "status_repair_followup_pending")
     gate("IMPORTED_MATHEMATICAL_METHOD" in premise, "premise_import_typed")
 
-    # Exact replay into a temporary directory. Nothing in the evidence directory is changed.
+    # Reproduce the first three registered commands literally in a fresh package copy. The current
+    # verifier invocation is itself the fourth registered command, so it must not recurse.
     with tempfile.TemporaryDirectory(prefix="udt_g324_replay_") as temp:
         temp_path = Path(temp)
-        commands = (
-            ("derive_taub_mghd.py", "DERIVATION_RESULT.json"),
-            ("verify_independent.py", "INDEPENDENT_VERIFICATION.json"),
-            ("run_catch_proofs.py", "CATCH_PROOF_RESULT.json"),
+        replay_package = temp_path / "package"
+        replay_sources = temp_path / "sources"
+        shutil.copytree(package, replay_package, ignore=shutil.ignore_patterns(".review_runtime"))
+        for row in rows:
+            source_path = source_root / row["relative_path"]
+            target = replay_sources / row["relative_path"]
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_path, target)
+        replay_lines = [
+            line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+            if line.strip()
+        ]
+        gate(len(replay_lines) == 4, "registered_command_count")
+        expected_outputs = (
+            "DERIVATION_RESULT.json",
+            "INDEPENDENT_VERIFICATION.json",
+            "CATCH_PROOF_RESULT.json",
         )
-        for script, output in commands:
-            command = [sys.executable, "-S", str(package / script), "--output", str(temp_path / output)]
-            if script == "derive_taub_mghd.py":
-                command.extend(("--source-root", str(source_root)))
-            completed = subprocess.run(command, cwd=package, check=True, capture_output=True, text=True)
-            gate(completed.returncode == 0, f"replay_exit:{script}")
-            gate(load(temp_path / output) == load(package / output), f"replay_exact:{output}")
+        for line, output in zip(replay_lines[:3], expected_outputs):
+            completed = subprocess.run(
+                shlex.split(line), cwd=replay_package, check=True, capture_output=True, text=True
+            )
+            gate(completed.returncode == 0, f"literal_replay_exit:{line}")
+            generated = replay_package / ".review_runtime" / output
+            gate(generated.is_file(), f"literal_replay_output:{output}")
+            gate(load(generated) == load(package / output), f"literal_replay_exact:{output}")
+        gate(replay_lines[3] == "python3 -S verify_package.py", "current_invocation_is_command_4")
 
     result = {
         "schema": "udt-g324-package-verification-v1",
-        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+        "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,

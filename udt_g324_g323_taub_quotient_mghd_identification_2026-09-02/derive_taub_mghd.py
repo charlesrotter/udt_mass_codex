@@ -105,12 +105,14 @@ def main() -> None:
     gate(source["arxiv"] == "1704.00353v4", "gls_primary_identifier")
     gate(source["related_doi"] == "10.1007/s00220-017-3019-2", "gls_related_doi")
     gate(source["bounded_excerpt_word_count"] <= 25, "gls_bounded_excerpt")
-    theorem_boundary_nonempty = source["boundary_nonempty_fragment"] == "∂+M∪∂−M≠∅."
-    theorem_future_endpoint = "future directed timelike geodesic" in source["endpoint_fragment"]
-    gate(theorem_boundary_nonempty, "gls_extension_boundary_nonempty")
-    gate(theorem_future_endpoint, "gls_future_boundary_geodesic")
-    gate("future timelike geodesic completeness" in source["scope_paraphrase"],
-         "gls_future_completeness_consequence")
+    theorem_hypotheses = source["formal_theorem_transcription"].startswith(
+        "smooth at least C2 + time-oriented + globally hyperbolic + admits a C0 extension"
+    )
+    theorem_endpoint = "end point on the boundary" in source["endpoint_fragment"]
+    theorem_orientation_neutral = "orientation-neutral" in source["scope_paraphrase"]
+    gate(theorem_hypotheses, "gls_theorem_2_hypotheses")
+    gate(theorem_endpoint, "gls_theorem_2_boundary_endpoint")
+    gate(theorem_orientation_neutral, "gls_endpoint_orientation_neutral")
 
     upstream = json.loads(
         (source_root / "udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01"
@@ -122,14 +124,14 @@ def main() -> None:
     gate(all(b > a for a, b in zip(periods, periods[1:])), "g323_registered_moduli_strict")
 
     # Logical interface: any proper smooth MGHD embedding would be a proper C2 extension.
-    future_boundary_excluded = future_complete and theorem_future_endpoint
-    remaining_boundary_forced_past = future_boundary_excluded and theorem_boundary_nonempty
+    extension_endpoint_supplied = theorem_hypotheses and theorem_endpoint
+    endpoint_forced_past = future_complete and extension_endpoint_supplied
     finite_positive_radius_endpoint_excluded = finite_interior_bounds
     past_c2_endpoint_excluded_by_scalar = radial_k_coefficient > 0
     proper_c2_extension_excluded = all(
         (
-            future_boundary_excluded,
-            remaining_boundary_forced_past,
+            extension_endpoint_supplied,
+            endpoint_forced_past,
             finite_positive_radius_endpoint_excluded,
             past_c2_endpoint_excluded_by_scalar,
         )
@@ -140,7 +142,7 @@ def main() -> None:
 
     result = {
         "schema": "udt-g324-taub-mghd-production-v1",
-        "status": "PASS_PENDING_INDEPENDENT_AND_EXTERNAL_REVIEW",
+        "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,
@@ -161,7 +163,9 @@ def main() -> None:
         "kernel_changed": False,
         "angular_sector_changed": False,
     }
-    (root / args.output).write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    output_path = root / args.output
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(json.dumps(result, indent=2, sort_keys=True))
 
 

@@ -1,5 +1,5 @@
 {
-  "assertion_count": 56,
+  "assertion_count": 63,
   "checks": [
     "production_landing",
     "production_assertion_count",
@@ -21,6 +21,8 @@
     "static_no_production_result_read",
     "source_quote_count_exact",
     "source_primary_identifier",
+    "source_theorem_label",
+    "source_pdf_hash",
     "source_manifest_count",
     "source_exists:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
     "source_hash:udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md",
@@ -49,14 +51,19 @@
     "exact_landing_token",
     "exact_c0_boundary",
     "lay_occupancy_boundary",
-    "status_external_pending",
+    "status_repair_followup_pending",
     "premise_import_typed",
-    "replay_exit:derive_taub_mghd.py",
-    "replay_exact:DERIVATION_RESULT.json",
-    "replay_exit:verify_independent.py",
-    "replay_exact:INDEPENDENT_VERIFICATION.json",
-    "replay_exit:run_catch_proofs.py",
-    "replay_exact:CATCH_PROOF_RESULT.json"
+    "registered_command_count",
+    "literal_replay_exit:python3 -S derive_taub_mghd.py --output .review_runtime/DERIVATION_RESULT.json",
+    "literal_replay_output:DERIVATION_RESULT.json",
+    "literal_replay_exact:DERIVATION_RESULT.json",
+    "literal_replay_exit:python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json",
+    "literal_replay_output:INDEPENDENT_VERIFICATION.json",
+    "literal_replay_exact:INDEPENDENT_VERIFICATION.json",
+    "literal_replay_exit:python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json",
+    "literal_replay_output:CATCH_PROOF_RESULT.json",
+    "literal_replay_exact:CATCH_PROOF_RESULT.json",
+    "current_invocation_is_command_4"
   ],
   "evidence_directory_unchanged_by_replay": true,
   "landing": "EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES",
@@ -64,5 +71,5 @@
   "registered_source_count": 12,
   "replay_exact": true,
   "schema": "udt-g324-package-verification-v1",
-  "status": "PASS_PENDING_EXTERNAL_REVIEW"
+  "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP"
 }
