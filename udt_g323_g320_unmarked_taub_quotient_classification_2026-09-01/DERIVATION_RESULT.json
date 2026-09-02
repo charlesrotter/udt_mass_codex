@@ -1,0 +1,31 @@
+{
+  "Xmax_selected": false,
+  "ambient_kretschmann": "12*mu^2/R^6",
+  "ambient_ricci_flat_exact": true,
+  "angular_cancellation_changed": false,
+  "assertion_count": 78,
+  "complete_data_embedding_pass": true,
+  "kernel_changed": false,
+  "landing": "REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION",
+  "max_curvature_join_error": 6.394884621840902e-14,
+  "max_extrinsic_error": 9.992007221626409e-16,
+  "max_pullback_error": 8.881784197001252e-15,
+  "metric_changed": false,
+  "mode_period_strictly_increasing": true,
+  "n1_n2_unmarked_compact_quotients_distinct": true,
+  "opposite_K_same_time_unoriented_metric": true,
+  "opposite_K_time_orientations_distinct": true,
+  "periods": {
+    "1": 6.554516685020806,
+    "2": 6.623226427457768,
+    "3": 6.735440496746481,
+    "4": 6.888083020830009
+  },
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "primitive_period_formula_pass": true,
+  "profiles_are_local_refoliations": true,
+  "schema": "udt-g323-unmarked-taub-quotient-v1",
+  "status": "PASS_PENDING_EXTERNAL_REVIEW",
+  "unique_universe_selected": false
+}

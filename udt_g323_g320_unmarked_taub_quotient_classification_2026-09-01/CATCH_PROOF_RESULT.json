@@ -1,0 +1,21 @@
+{
+  "caught": [
+    "wrong mu factor",
+    "wrong X prime factor",
+    "omitted X channel",
+    "extrinsic sign loss",
+    "period is not slice Q_R",
+    "primitive divisor rejected",
+    "time orientation retained separately",
+    "compact modulus is not local Ricci scalar",
+    "mode is not occupancy",
+    "local common form is not global equality",
+    "no physical scale selected",
+    "no kernel mutation",
+    "no Xmax selection"
+  ],
+  "caught_count": 13,
+  "mutation_count": 13,
+  "schema": "udt-g323-hostile-v1",
+  "status": "PASS"
+}

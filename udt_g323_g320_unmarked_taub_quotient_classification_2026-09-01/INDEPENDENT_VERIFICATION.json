@@ -1,0 +1,20 @@
+{
+  "ambient_ricci_numeric_independent": true,
+  "assertion_count": 33,
+  "complete_embedding_upheld": true,
+  "different_controls": true,
+  "local_isometry_and_global_modulus_upheld": true,
+  "max_extrinsic_error": 1.223864343202763e-10,
+  "max_pullback_error": 2.6645352591003757e-15,
+  "periods": {
+    "1": 4.750869207865608,
+    "2": 4.7638394044131465,
+    "3": 4.785339577757881,
+    "5": 4.853192923132354
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "schema": "udt-g323-independent-v1",
+  "status": "PASS",
+  "strict_mode_modulus_upheld": true
+}
