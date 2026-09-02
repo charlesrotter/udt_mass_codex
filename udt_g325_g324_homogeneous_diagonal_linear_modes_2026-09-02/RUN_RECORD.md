@@ -20,6 +20,15 @@ Date: 2026-09-02
    multiplying the whole scalar mode only renames its free amplitude. The invalid control was
    replaced by a wrong *relative directional shape*, which the equation must reject.
 6. Production, independent direct tensor, and all five repaired hostile controls then passed.
+7. The fresh sealed external reviewer independently rederived the six-constant solution and
+   accepted the bounded census. It identified one further non-load-bearing tautological production
+   assertion.
+8. Repair R1 was preregistered at commit `28e28742`, applied at commit `ec760b87`, and removed that
+   assertion without changing the metric, equation, solution, mode count, or classifications.
+9. The repair-only reviewer authenticated all 33 payloads, ran the four registered commands
+   literally, found all three regenerated JSON artifacts byte-identical to the banked artifacts,
+   confirmed the direct independent Lie-derivative witness remained, and accepted R1 plus the
+   unchanged bounded landing.
 
 ## Exact replay
 

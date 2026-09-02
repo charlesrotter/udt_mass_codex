@@ -1,5 +1,5 @@
 claim	status	scope
-G325_mode_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	spatially homogeneous diagonal synchronous first variations of G324
+G325_mode_census	EXTERNALLY_ACCEPTED_AFTER_R1_EVIDENCE_REPAIR	spatially homogeneous diagonal synchronous first variations of G324
 time_shift_mode	DERIVED_GAUGE	local time-origin translation
 constant_strains	DERIVED_QUOTIENT_MODULI	three diagonal fixed-T3 lattice directions
 kasner_shear	DERIVED_CONDITIONAL	one local curvature-changing tangent at LRS Taub point

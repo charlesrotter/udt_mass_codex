@@ -1,7 +1,7 @@
 # G325 exact derivation — homogeneous diagonal modes around the G324 quotient
 
 Date: 2026-09-02
-Status: `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`
+Status: `EXTERNALLY_ACCEPTED_AFTER_R1_EVIDENCE_REPAIR`
 
 ## 1. Bounded question
 

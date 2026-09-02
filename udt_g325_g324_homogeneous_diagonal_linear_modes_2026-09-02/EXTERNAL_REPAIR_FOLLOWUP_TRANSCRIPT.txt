@@ -1,0 +1,3111 @@
+Script started on 2026-09-02 12:27:09-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a062f2-200e-7b81-b338-5ea840faae76
+--------
+user
+Act as a fresh zero-context repair-only scientific reviewer. The corrected sealed G325 intake is mounted read-only at /intake. First authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload. Inspect only /intake; do not edit evidence files or continue the research. Writable ephemeral checks may use /work. Network access exists solely for Codex API transport; web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Verify only registered repair R1: removal of the vacuous production assertion, consistent 36-assertion production accounting, literal four-command replay with exact artifact equality, retention of the independent direct Lie-derivative witness, and the unchanged already accepted bounded G325 scientific landing. Do not reopen the scientific question. Write the detailed report to /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md. End it with exactly one token: ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING or REJECT__G325_R1_REPAIR_INCOMPLETE. In the final response state the token and report path.\n\n# G325 repair-only external follow-up request
+
+Fresh-review verdict: `ACCEPT__G325_BOUNDED_MODE_CENSUS`.
+
+Verify only repair R1 in `REPAIR_LEDGER.tsv` and whether the unchanged bounded scientific landing
+remains supported. Do not reopen or continue the research.
+
+## R1 — remove one vacuous production assertion
+
+1. Confirm that `derive_modes.py` no longer records the tautological
+   `time_shift_lie_derivative_witness` assertion.
+2. Confirm that the production artifact and aggregate verifier consistently declare 36 production
+   assertions rather than 37.
+3. Run the four registered commands literally in a writable ephemeral copy and confirm exact
+   reproduction of the three banked JSON artifacts.
+4. Confirm that the genuine direct Lie-derivative calculation remains in
+   `verify_independent.py`, and that the external review's own derivation still independently
+   supports classification of the `1/T` mode as residual time-origin gauge.
+
+## Scientific boundary
+
+R1 must not change the metric, the adopted trace-free Ricci equation, the general solution, the
+six-constant census, mode classifications, quotient, physical premises, or scope. It does not
+promote G325 to full linear or nonlinear stability and does not classify off-diagonal or
+inhomogeneous modes or select topology, occupancy, scale, observations, history, or `X_max`.
+
+Allowed follow-up outcomes:
+
+- accept R1 and the unchanged bounded landing;
+- identify a concrete incomplete R1 repair;
+- keep the result at its already accepted bounded grade while recording the remaining evidence
+  defect.
+codex
+I’m starting by authenticating the intake scope and manifest, then I’ll trace the registered R1 evidence and replay instructions strictly within `/intake`, using `/work` only for ephemeral reproduction checks.
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/CATCH_PROOF_RESULT.json
+/intake/COMPLETENESS_MAP.md
+/intake/DERIVATION_RESULT.json
+/intake/EVIDENCE_GATES.md
+/intake/EXACT_DERIVATION.md
+/intake/EXTERNAL_REVIEW_FINAL_RESPONSE.md
+/intake/EXTERNAL_REVIEW_RESPONSE.md
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt
+/intake/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/INDEPENDENT_VERIFICATION.json
+/intake/LAY_REPORT.md
+/intake/MAP.md
+/intake/PREMISE_LEDGER.tsv
+/intake/PREREGISTRATION.md
+/intake/REPAIR_FOLLOWUP_REQUEST.md
+/intake/REPAIR_LEDGER.tsv
+/intake/REPLAY_COMMANDS.txt
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/RUN_RECORD.md
+/intake/SOURCE_SCOPE.tsv
+/intake/STATUS_LEDGER.tsv
+/intake/build_repair_followup_intake.py
+/intake/derive_modes.py
+/intake/run_catch_proofs.py
+/intake/verify_independent.py
+/intake/verify_package.py
+/intake/verify_review_intake.py
+
+exec
+/bin/bash -lc 'pwd && ls -la /intake && echo && ls -la /work && echo && ls -la /return' in /return
+ succeeded in 0ms:
+/return
+total 344
+dr-xr-xr-x  3 udt-admin udt-admin   4096 Sep  2 12:24 .
+drwxr-xr-x 16 udt-admin udt-admin    320 Sep  2 12:27 ..
+-r--r--r--  1 udt-admin udt-admin   2125 Sep  2 12:06 ADVERSARIAL_REVIEW_REQUEST.md
+-r--r--r--  1 udt-admin udt-admin    344 Sep  2 11:58 CATCH_PROOF_RESULT.json
+-r--r--r--  1 udt-admin udt-admin   1149 Sep  2 11:51 COMPLETENESS_MAP.md
+-r--r--r--  1 udt-admin udt-admin   2421 Sep  2 12:22 DERIVATION_RESULT.json
+-r--r--r--  1 udt-admin udt-admin   1084 Sep  2 12:02 EVIDENCE_GATES.md
+-r--r--r--  1 udt-admin udt-admin   6336 Sep  2 12:02 EXACT_DERIVATION.md
+-r--r--r--  1 udt-admin udt-admin    117 Sep  2 12:20 EXTERNAL_REVIEW_FINAL_RESPONSE.md
+-r--r--r--  1 udt-admin udt-admin   5341 Sep  2 12:20 EXTERNAL_REVIEW_RESPONSE.md
+-r--r--r--  1 udt-admin udt-admin 187799 Sep  2 12:20 EXTERNAL_REVIEW_TRANSCRIPT.txt
+-r--r--r--  1 udt-admin udt-admin   1526 Sep  2 12:21 EXTERNAL_REVIEW_TRANSMISSION.md
+-r--r--r--  1 udt-admin udt-admin   5231 Sep  2 11:58 INDEPENDENT_VERIFICATION.json
+-r--r--r--  1 udt-admin udt-admin   1355 Sep  2 12:02 LAY_REPORT.md
+-r--r--r--  1 udt-admin udt-admin   1965 Sep  2 11:51 MAP.md
+-r--r--r--  1 udt-admin udt-admin   1797 Sep  2 11:51 PREMISE_LEDGER.tsv
+-r--r--r--  1 udt-admin udt-admin   3862 Sep  2 11:51 PREREGISTRATION.md
+-r--r--r--  1 udt-admin udt-admin   1573 Sep  2 12:21 REPAIR_FOLLOWUP_REQUEST.md
+-r--r--r--  1 udt-admin udt-admin    537 Sep  2 12:21 REPAIR_LEDGER.tsv
+-r--r--r--  1 udt-admin udt-admin    272 Sep  2 12:02 REPLAY_COMMANDS.txt
+-r--r--r--  1 udt-admin udt-admin     65 Sep  2 12:24 REVIEW_MANIFEST.sha256
+-r--r--r--  1 udt-admin udt-admin   3396 Sep  2 12:24 REVIEW_MANIFEST.tsv
+-r--r--r--  1 udt-admin udt-admin    601 Sep  2 12:24 REVIEW_SCOPE.json
+-r--r--r--  1 udt-admin udt-admin   1125 Sep  2 12:02 RUN_RECORD.md
+-r--r--r--  1 udt-admin udt-admin    590 Sep  2 12:02 SOURCE_SCOPE.tsv
+-r--r--r--  1 udt-admin udt-admin    853 Sep  2 12:02 STATUS_LEDGER.tsv
+-r--r--r--  1 udt-admin udt-admin   4609 Sep  2 12:23 build_repair_followup_intake.py
+-r--r--r--  1 udt-admin udt-admin   9600 Sep  2 12:22 derive_modes.py
+-r--r--r--  1 udt-admin udt-admin   3007 Sep  2 11:58 run_catch_proofs.py
+dr-xr-xr-x  6 udt-admin udt-admin   4096 Sep  2 12:24 sources
+-r--r--r--  1 udt-admin udt-admin  10153 Sep  2 11:58 verify_independent.py
+-r--r--r--  1 udt-admin udt-admin   5091 Sep  2 12:22 verify_package.py
+-r--r--r--  1 udt-admin udt-admin   1416 Sep  2 12:06 verify_review_intake.py
+
+total 4
+drwx------  2 udt-admin udt-admin 4096 Sep  2 12:27 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  2 12:27 ..
+
+total 4
+drwx------  2 udt-admin udt-admin 4096 Sep  2 12:27 .
+drwxr-xr-x 16 udt-admin udt-admin  320 Sep  2 12:27 ..
+
+codex
+The intake contains a self-contained repair package. I’m reading the scope, manifest, replay registry, and verifier sources next so I can authenticate the package and isolate R1 without drifting into broader scientific review.
+exec
+/bin/bash -lc "sed -n '1,240p' /intake/REVIEW_MANIFEST.tsv" in /return
+ succeeded in 0ms:
+relative_path	bytes	sha256
+ADVERSARIAL_REVIEW_REQUEST.md	2125	970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1
+CATCH_PROOF_RESULT.json	344	7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609
+COMPLETENESS_MAP.md	1149	d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6
+DERIVATION_RESULT.json	2421	1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71
+EVIDENCE_GATES.md	1084	3673935c37bd8b1fcd5bcc91ed6cdc012cfd4cef1e3918eb5d3654788b21c6ea
+EXACT_DERIVATION.md	6336	993ffcb4a93970942c5781debeada36f20ae1f86e2010d6864f53120ddef3574
+EXTERNAL_REVIEW_FINAL_RESPONSE.md	117	3373afb9640c24899b152200d92491b6c0ca9f6e1055c9c2f1b121108748477c
+EXTERNAL_REVIEW_RESPONSE.md	5341	84cc1ef072368588019a0fb32eb10d4ff9def022051ff0331a329d71d6903ed3
+EXTERNAL_REVIEW_TRANSCRIPT.txt	187799	bcf449cfac9a31b281e19048a514ce9f3316d31ec557136d8808e44cda572465
+EXTERNAL_REVIEW_TRANSMISSION.md	1526	85e63a6cd86566314c632601cc13889e0f4d5ceba3ddc99177715e29a0dd2d8f
+INDEPENDENT_VERIFICATION.json	5231	103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94
+LAY_REPORT.md	1355	cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769
+MAP.md	1965	2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3
+PREMISE_LEDGER.tsv	1797	43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176
+PREREGISTRATION.md	3862	3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5
+REPAIR_FOLLOWUP_REQUEST.md	1573	7c9c38f13eb65cddcc3203de1c3aa551c88e65279dc2bafbb1c66560fc66a710
+REPAIR_LEDGER.tsv	537	c62bf2fe0b926d62e1564752dfb38b2f3e825c2f821cb4ee577a7cdef60abe6d
+REPLAY_COMMANDS.txt	272	4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be
+REVIEW_SCOPE.json	601	6c58facc105e81366773032db89e39e13d395696812e7e1e0ffe6df36f960f7a
+RUN_RECORD.md	1125	d341c6fd6dc5d7c95062934953f6d605a84e7ce921bbbad37fa05bd1a04fd95c
+SOURCE_SCOPE.tsv	590	f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05
+STATUS_LEDGER.tsv	853	52231d307b633474c333ca91a81e6c518645620154c5b97837c2cb0dde8a1bb5
+build_repair_followup_intake.py	4609	641417912e3c1ce331c32be8d4d2c33c1ba7a74f48e7fa9e0d0a819efec914a1
+derive_modes.py	9600	7b1141de9a16a68c647a806af7d2935bc70c5b3b2a975e207203130e8b4d10cd
+run_catch_proofs.py	3007	055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md	7725	a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0
+sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	9131	186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b
+sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md	7728	5563c949b952fd0ddd0365f58e24eb14894d8bdaae7cab8a6bc5fad983bee776
+sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/PREMISE_LEDGER.tsv	2143	cae1cbd0028bc994296f326f7533f70f1587250afcfdf6e69e7f3cd925e5749b
+verify_independent.py	10153	8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f
+verify_package.py	5091	2f4b8829b557e44c7f25488fc7754fe9afdab4d92ba8e0972144fbede358fe77
+verify_review_intake.py	1416	a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REVIEW_SCOPE.json" in /return
+ succeeded in 0ms:
+{
+  "allowed_question": "R1 removal of one vacuous production assertion and unchanged bounded G325 landing",
+  "ephemeral_copy_checks_allowed": true,
+  "evidence_read_only": true,
+  "internet_browsing_allowed": false,
+  "law_history_scale_selection_allowed": false,
+  "manifest_payload_count": 33,
+  "protected_package_access_allowed": false,
+  "purpose": "read-only repair-only verification of G325 R1",
+  "repository_access_allowed": false,
+  "research_continuation_allowed": false,
+  "schema": "udt-g325-r1-repair-followup-scope-v1",
+  "source_commit": "ec760b8711b11bd8b0ee0e1815aa90f5cacd7a96"
+}
+
+exec
+/bin/bash -lc "sed -n '1,120p' /intake/REVIEW_MANIFEST.sha256" in /return
+ succeeded in 0ms:
+151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPAIR_LEDGER.tsv" in /return
+ succeeded in 0ms:
+repair	fresh_review_finding	bounded_change	scientific_change	verification
+R1	derive_modes.py records time_shift_lie_derivative_witness using the tautology 2*P[index] == 2*P[index]	remove the vacuous production gate, reduce the declared production assertion count by one, regenerate the production artifact, and retain the independent direct Lie-derivative witness	none; the external reviewer independently derived the gauge mode and accepted the six-mode census	literal registered replay, exact artifact equality, and repair-only review
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPLAY_COMMANDS.txt" in /return
+ succeeded in 0ms:
+python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json
+python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+python3 -S verify_package.py
+
+codex
+The scope file is narrow and explicit: read-only repair verification of R1 only. The next step is checking the hash chain and the exact code/artifact deltas tied to the registered four-command replay.
+exec
+/bin/bash -lc 'sha256sum /intake/REVIEW_MANIFEST.tsv /intake/REVIEW_SCOPE.json' in /return
+ succeeded in 0ms:
+151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04  /intake/REVIEW_MANIFEST.tsv
+6c58facc105e81366773032db89e39e13d395696812e7e1e0ffe6df36f960f7a  /intake/REVIEW_SCOPE.json
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/derive_modes.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Production derivation for the bounded G325 homogeneous diagonal mode census."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+
+LANDING = (
+    "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__"
+    "THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__"
+    "ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM"
+)
+
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+
+
+def matrix_rank(rows: list[list[Fraction]]) -> int:
+    matrix = [row[:] for row in rows]
+    if not matrix:
+        return 0
+    rank = 0
+    columns = len(matrix[0])
+    for column in range(columns):
+        pivot = next((index for index in range(rank, len(matrix))
+                      if matrix[index][column]), None)
+        if pivot is None:
+            continue
+        matrix[rank], matrix[pivot] = matrix[pivot], matrix[rank]
+        scale = matrix[rank][column]
+        matrix[rank] = [value / scale for value in matrix[rank]]
+        for index in range(len(matrix)):
+            if index == rank:
+                continue
+            scale = matrix[index][column]
+            if scale:
+                matrix[index] = [left - scale * right
+                                 for left, right in zip(matrix[index], matrix[rank])]
+        rank += 1
+    return rank
+
+
+def solve_linear(matrix: list[list[Fraction]], rhs: list[Fraction]) -> list[Fraction]:
+    augmented = [row[:] + [value] for row, value in zip(matrix, rhs)]
+    n = len(matrix)
+    for column in range(n):
+        pivot = next(index for index in range(column, n) if augmented[index][column])
+        augmented[column], augmented[pivot] = augmented[pivot], augmented[column]
+        scale = augmented[column][column]
+        augmented[column] = [value / scale for value in augmented[column]]
+        for index in range(n):
+            if index == column:
+                continue
+            scale = augmented[index][column]
+            augmented[index] = [left - scale * right
+                                for left, right in zip(augmented[index], augmented[column])]
+    return [augmented[index][-1] for index in range(n)]
+
+
+def residuals(
+    time: Fraction,
+    gauge: Fraction,
+    shear: Fraction,
+    scalar: Fraction,
+) -> dict[str, object]:
+    """Exact first-order Ricci and trace-free residuals from the Bianchi-I metric."""
+    q = (Fraction(0), shear, -shear)
+    first = [
+        q_i / time - p_i * gauge / time**2
+        + (1 - p_i) * scalar * time / 2
+        for p_i, q_i in zip(P, q)
+    ]
+    second = [
+        -q_i / time**2 + 2 * p_i * gauge / time**3
+        + (1 - p_i) * scalar / 2
+        for p_i, q_i in zip(P, q)
+    ]
+    expansion = sum(first)
+    ricci_00 = -sum(second_i + 2 * p_i * first_i / time
+                    for p_i, first_i, second_i in zip(P, first, second))
+    ricci_space = [
+        second_i + first_i / time + p_i * expansion / time
+        for p_i, first_i, second_i in zip(P, first, second)
+    ]
+    scalar_curvature = -ricci_00 + sum(ricci_space)
+    tracefree_00 = ricci_00 + scalar_curvature / 4
+    tracefree_space = [value - scalar_curvature / 4 for value in ricci_space]
+    hamiltonian = (expansion - sum(p_i * first_i for p_i, first_i in zip(P, first))) / time
+    return {
+        "first": first,
+        "second": second,
+        "ricci_00": ricci_00,
+        "ricci_space": ricci_space,
+        "scalar_curvature": scalar_curvature,
+        "tracefree_00": tracefree_00,
+        "tracefree_space": tracefree_space,
+        "hamiltonian": hamiltonian,
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    gate(sum(P) == 1, "background_kasner_sum")
+    gate(sum(value * value for value in P) == 1, "background_kasner_square_sum")
+
+    # The constant-in-log-time exponent vector is constrained by sum(q)=p.q=0.
+    constraint_rows = [[Fraction(1), Fraction(1), Fraction(1)], list(P)]
+    gate(matrix_rank(constraint_rows) == 2, "exponent_constraint_rank_two")
+    q_basis = [Fraction(0), Fraction(1), Fraction(-1)]
+    gate(sum(q_basis) == 0, "kasner_shear_zero_trace")
+    gate(sum(p_i * q_i for p_i, q_i in zip(P, q_basis)) == 0,
+         "kasner_shear_tangent_constraint")
+    gate(matrix_rank(constraint_rows + [q_basis]) == 3,
+         "kasner_shear_spans_one_dimensional_nullspace")
+
+    # The connected-scalar particular solution is unique at the w_i=T*u_i' level.
+    scalar_matrix = [
+        [2 * (1 if i == j else 0) + P[i] for j in range(3)]
+        for i in range(3)
+    ]
+    scalar_w = solve_linear(scalar_matrix, [Fraction(1)] * 3)
+    expected_scalar_w = [(1 - value) / 2 for value in P]
+    gate(scalar_w == expected_scalar_w, "connected_scalar_particular_unique")
+    scalar_u = [value / 2 for value in scalar_w]
+    gate(scalar_u == [(1 - value) / 4 for value in P],
+         "connected_scalar_metric_coefficients")
+
+    # The T^-1 solution at w=T*u' is precisely the time-translation Lie derivative.
+    gauge_w = [-value for value in P]
+    gauge_sum = sum(gauge_w)
+    gate(all(-value + P[index] * gauge_sum == 0
+             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+
+    # Exact all-mode checks at unrelated rational times and amplitudes.
+    samples = (
+        (Fraction(2, 3), Fraction(7, 5), Fraction(-4, 9), Fraction(5, 11)),
+        (Fraction(7, 4), Fraction(-3, 8), Fraction(9, 13), Fraction(-2, 7)),
+        (Fraction(19, 6), Fraction(0), Fraction(5, 3), Fraction(0)),
+    )
+    for index, (time, gauge, shear, scalar) in enumerate(samples):
+        result = residuals(time, gauge, shear, scalar)
+        gate(result["tracefree_00"] == 0, f"tracefree_time_zero_{index}")
+        gate(all(value == 0 for value in result["tracefree_space"]),
+             f"tracefree_space_zero_{index}")
+        gate(result["ricci_00"] == -scalar, f"einstein_time_{index}")
+        gate(all(value == scalar for value in result["ricci_space"]),
+             f"einstein_space_{index}")
+        gate(result["scalar_curvature"] == 4 * scalar,
+             f"scalar_curvature_four_lambda_{index}")
+        gate(result["hamiltonian"] == scalar, f"hamiltonian_constraint_{index}")
+
+    # Constant strains are a complete three-dimensional integration-constant sector.
+    lattice_forms = [
+        [Fraction(1), Fraction(1), Fraction(1)],
+        [Fraction(1), Fraction(-1, 2), Fraction(-1, 2)],
+        [Fraction(0), Fraction(1), Fraction(-1)],
+    ]
+    gate(matrix_rank(lattice_forms) == 3, "three_lattice_modulus_coordinates")
+    periods = (Fraction(5), Fraction(7), Fraction(11))
+    nonzero_strain = (Fraction(2, 5), Fraction(-3, 7), Fraction(4, 11))
+    jumps = [strain * period for strain, period in zip(nonzero_strain, periods)]
+    gate(all(value != 0 for value in jumps), "cover_scaling_vector_not_periodic")
+    gate(all(Fraction(0) * period == 0 for period in periods),
+         "zero_scaling_vector_periodic")
+
+    # Local curvature distinguishes the shear mode even though scalar invariants are symmetric
+    # under y-z exchange at first order.
+    shear = Fraction(13, 17)
+    time = Fraction(11, 5)
+    electric_weyl_y_minus_z = -2 * shear / (3 * time**2)
+    gate(electric_weyl_y_minus_z != 0, "local_weyl_eigenvalue_split_nonzero")
+    gate(electric_weyl_y_minus_z == Fraction(-650, 6171),
+         "local_weyl_eigenvalue_split_exact")
+
+    # Endpoint behavior follows from exact basis functions and is classification, not a filter.
+    shear_log_coefficient = Fraction(1)
+    scalar_power = Fraction(2)
+    gauge_power = Fraction(-1)
+    gate(shear_log_coefficient != 0, "shear_log_secular_both_ends")
+    gate(scalar_power > 0, "scalar_mode_quadratic_future_growth")
+    gate(scalar_power > 0, "scalar_mode_zero_at_past_end")
+    gate(gauge_power < 0 and gauge_w == [-value for value in P],
+         "time_shift_growth_is_gauge")
+
+    result = {
+        "schema": "udt-g325-homogeneous-diagonal-production-v1",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "background_exponents": [str(value) for value in P],
+        "general_solution": (
+            "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+"
+            "(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0"
+        ),
+        "mode_dimensions": {
+            "residual_time_translation_gauge": 1,
+            "fixed_quotient_lattice_moduli": 3,
+            "local_kasner_shear": 1,
+            "connected_scalar_curvature": 1,
+        },
+        "linearized_scalar_curvature": "4*lambda",
+        "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+        "full_linear_stability_proved": False,
+        "nonlinear_stability_proved": False,
+        "inhomogeneous_modes_classified": False,
+        "offdiagonal_modes_classified": False,
+        "physical_occupancy_selected": False,
+        "physical_scale_selected": False,
+        "Xmax_selected": False,
+        "metric_changed": False,
+        "kernel_changed": False,
+        "angular_sector_changed": False,
+        "python_version": sys.version,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,280p' /intake/verify_independent.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent direct first-order tensor engine for G325; no production imports/results."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+
+class Expr:
+    """Exact truncated-epsilon sums of t^power log(t)^log_power."""
+
+    def __init__(self, terms=None):
+        self.terms = {
+            (int(eps), Fraction(power), int(log_power)): Fraction(value)
+            for (eps, power, log_power), value in (terms or {}).items()
+            if value and int(eps) <= 1
+        }
+
+    @staticmethod
+    def monomial(value=1, eps=0, power=0, log_power=0):
+        return Expr({(eps, Fraction(power), log_power): Fraction(value)})
+
+    def __add__(self, other):
+        out = dict(self.terms)
+        for key, value in other.terms.items():
+            out[key] = out.get(key, Fraction(0)) + value
+            if not out[key]:
+                del out[key]
+        return Expr(out)
+
+    def __neg__(self):
+        return Expr({key: -value for key, value in self.terms.items()})
+
+    def __sub__(self, other):
+        return self + (-other)
+
+    def __mul__(self, other):
+        out = {}
+        for (eps_a, power_a, log_a), value_a in self.terms.items():
+            for (eps_b, power_b, log_b), value_b in other.terms.items():
+                eps = eps_a + eps_b
+                if eps > 1:
+                    continue
+                key = (eps, power_a + power_b, log_a + log_b)
+                out[key] = out.get(key, Fraction(0)) + value_a * value_b
+        return Expr(out)
+
+    def scale(self, value):
+        return Expr({key: Fraction(value) * coefficient
+                     for key, coefficient in self.terms.items()})
+
+    def dt(self):
+        out = Expr()
+        for (eps, power, log_power), value in self.terms.items():
+            if power:
+                out = out + Expr.monomial(
+                    value * power, eps, power - 1, log_power
+                )
+            if log_power:
+                out = out + Expr.monomial(
+                    value * log_power, eps, power - 1, log_power - 1
+                )
+        return out
+
+    def with_epsilon(self):
+        return Expr({(1, power, log_power): value
+                     for (eps, power, log_power), value in self.terms.items()
+                     if eps == 0})
+
+    def inverse_first_order(self):
+        base = [(key, value) for key, value in self.terms.items() if key[0] == 0]
+        assert len(base) == 1
+        (eps, power, log_power), coefficient = base[0]
+        assert eps == 0 and log_power == 0
+        inverse_base = Expr.monomial(1 / coefficient, 0, -power, 0)
+        perturbation = Expr({key: value for key, value in self.terms.items() if key[0] == 1})
+        return inverse_base - inverse_base * inverse_base * perturbation
+
+    def epsilon_part(self):
+        return Expr({(0, power, log_power): value
+                     for (eps, power, log_power), value in self.terms.items() if eps == 1})
+
+    def is_zero(self):
+        return not self.terms
+
+    def __eq__(self, other):
+        if not isinstance(other, Expr):
+            return NotImplemented
+        return self.terms == other.terms
+
+    def serial(self):
+        return {
+            f"eps^{eps}*T^{power}*log^{log_power}": str(value)
+            for (eps, power, log_power), value in sorted(self.terms.items())
+        }
+
+
+ZERO = Expr()
+ONE = Expr.monomial()
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+
+
+def partial(value: Expr, coordinate: int) -> Expr:
+    return value.dt() if coordinate == 0 else ZERO
+
+
+def mode_u(name: str, index: int) -> Expr:
+    if name == "constant_x":
+        return ONE if index == 0 else ZERO
+    if name == "constant_y":
+        return ONE if index == 1 else ZERO
+    if name == "constant_z":
+        return ONE if index == 2 else ZERO
+    if name == "gauge":
+        return Expr.monomial(P[index], power=-1)
+    if name == "shear":
+        coefficient = (Fraction(0), Fraction(1), Fraction(-1))[index]
+        return Expr.monomial(coefficient, power=0, log_power=1) if coefficient else ZERO
+    if name == "scalar":
+        return Expr.monomial((1 - P[index]) / 4, power=2)
+    raise ValueError(name)
+
+
+def direct_tensor_mode(name: str):
+    dim = 4
+    g = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    g[0][0] = Expr.monomial(-1)
+    for spatial in range(3):
+        background = Expr.monomial(power=2 * P[spatial])
+        perturbation = background * mode_u(name, spatial).with_epsilon().scale(2)
+        g[spatial + 1][spatial + 1] = background + perturbation
+    inverse = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for index in range(dim):
+        inverse[index][index] = g[index][index].inverse_first_order()
+
+    gamma = [[[ZERO for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                value = ZERO
+                for d in range(dim):
+                    bracket = partial(g[d][c], b) + partial(g[d][b], c) - partial(g[b][c], d)
+                    value = value + inverse[a][d] * bracket
+                gamma[a][b][c] = value.scale(Fraction(1, 2))
+
+    riemann = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    value = partial(gamma[a][b][d], c) - partial(gamma[a][b][c], d)
+                    for e in range(dim):
+                        value = value + gamma[a][e][c] * gamma[e][b][d]
+                        value = value - gamma[a][e][d] * gamma[e][b][c]
+                    riemann[a][b][c][d] = value
+
+    ricci = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for b in range(dim):
+        for d in range(dim):
+            for a in range(dim):
+                ricci[b][d] = ricci[b][d] + riemann[a][b][a][d]
+
+    scalar = ZERO
+    for a in range(dim):
+        scalar = scalar + inverse[a][a] * ricci[a][a]
+    tracefree = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            tracefree[a][b] = ricci[a][b] - scalar * g[a][b].scale(Fraction(1, 4))
+
+    lowered = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    for e in range(dim):
+                        lowered[a][b][c][d] = lowered[a][b][c][d] + g[a][e] * riemann[e][b][c][d]
+    electric = []
+    for spatial in range(1, 4):
+        electric.append(lowered[0][spatial][0][spatial] * inverse[spatial][spatial])
+    return g, ricci, scalar, tracefree, electric
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    modes = ("constant_x", "constant_y", "constant_z", "gauge", "shear", "scalar")
+    scalar_eps = None
+    shear_split = None
+    for name in modes:
+        metric, ricci, scalar, tracefree, electric = direct_tensor_mode(name)
+        for a in range(4):
+            for b in range(4):
+                gate(tracefree[a][b].epsilon_part().is_zero(),
+                     f"direct_tracefree_zero:{name}:{a}:{b}")
+        if name in ("constant_x", "constant_y", "constant_z", "gauge", "shear"):
+            gate(scalar.epsilon_part().is_zero(), f"direct_scalar_zero:{name}")
+        if name == "scalar":
+            scalar_eps = scalar.epsilon_part()
+            gate(scalar_eps == Expr.monomial(4), "direct_scalar_mode_delta_R_four")
+        if name == "shear":
+            shear_split = (electric[1] - electric[2]).epsilon_part()
+            expected_options = (Expr.monomial(Fraction(-2, 3), power=-2),
+                                Expr.monomial(Fraction(2, 3), power=-2))
+            gate(shear_split in expected_options, "direct_shear_curvature_split")
+
+    # Direct Lie derivative in synchronous coordinates: L_(d/dT) g_ii = d_T g_ii.
+    gauge_metric, _, _, _, _ = direct_tensor_mode("gauge")
+    for spatial in range(3):
+        background = Expr.monomial(power=2 * P[spatial])
+        expected = background.dt()
+        actual = gauge_metric[spatial + 1][spatial + 1].epsilon_part()
+        gate(actual == expected, f"direct_time_shift_lie_derivative:{spatial}")
+
+    # A scaling generator c*x on a compact coordinate circle is single-valued only for c=0.
+    for label, coefficient, period in (
+        ("x", Fraction(2, 3), Fraction(5)),
+        ("y", Fraction(-4, 7), Fraction(11)),
+        ("z", Fraction(9, 13), Fraction(17)),
+    ):
+        gate(coefficient * period != 0, f"scaling_generator_fails_periodicity:{label}")
+
+    # Exact parameter count from two independent exponent constraints.
+    q = (Fraction(0), Fraction(1), Fraction(-1))
+    gate(sum(q) == 0, "independent_q_trace_constraint")
+    gate(sum(p_i * q_i for p_i, q_i in zip(P, q)) == 0,
+         "independent_q_kasner_constraint")
+
+    result = {
+        "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+        "status": "PASS",
+        "assertion_count": len(checks),
+        "checks": checks,
+        "production_imported": False,
+        "production_result_read": False,
+        "direct_tensor_modes": list(modes),
+        "linearized_scalar_curvature": scalar_eps.serial(),
+        "linearized_shear_curvature_split": shear_split.serial(),
+        "time_shift_is_lie_derivative": True,
+        "constant_cover_scalings_fail_fixed_quotient_periodicity": True,
+        "python_version": sys.version,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,260p' /intake/verify_package.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate and exact replay verifier for the bounded G325 package."""
+
+from __future__ import annotations
+
+import json
+import shlex
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+LANDING = (
+    "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__"
+    "THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__"
+    "ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM"
+)
+
+
+def load(path: Path):
+    return json.loads(path.read_text())
+
+
+def main() -> None:
+    package = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    production = load(package / "DERIVATION_RESULT.json")
+    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    gate(production["landing"] == LANDING, "production_landing")
+    gate(production["assertion_count"] == 36, "production_assertion_count")
+    gate(independent["assertion_count"] == 111, "independent_assertion_count")
+    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    gate(production["mode_dimensions"] == {
+        "connected_scalar_curvature": 1,
+        "fixed_quotient_lattice_moduli": 3,
+        "local_kasner_shear": 1,
+        "residual_time_translation_gauge": 1,
+    }, "exact_mode_dimensions")
+    gate(production["linearized_scalar_curvature"] == "4*lambda",
+         "production_scalar_witness")
+    gate(independent["linearized_scalar_curvature"] == {
+        "eps^0*T^0*log^0": "4"
+    }, "independent_scalar_witness")
+    gate(independent["linearized_shear_curvature_split"] == {
+        "eps^0*T^-2*log^0": "-2/3"
+    }, "independent_shear_witness")
+    gate(independent["production_imported"] is False, "independent_no_production_import")
+    gate(independent["production_result_read"] is False, "independent_no_result_read")
+    gate(all(hostile["controls"].values()), "all_hostile_controls")
+    gate(not production["full_linear_stability_proved"], "no_full_linear_overclaim")
+    gate(not production["nonlinear_stability_proved"], "no_nonlinear_overclaim")
+    gate(not production["inhomogeneous_modes_classified"], "inhomogeneous_open")
+    gate(not production["offdiagonal_modes_classified"], "offdiagonal_open")
+    gate(not production["physical_occupancy_selected"], "occupancy_open")
+    gate(not production["physical_scale_selected"], "scale_open")
+    gate(not production["Xmax_selected"], "xmax_open")
+    gate(not production["metric_changed"] and not production["kernel_changed"]
+         and not production["angular_sector_changed"], "native_objects_unchanged")
+
+    independent_text = (package / "verify_independent.py").read_text()
+    gate("import derive_modes" not in independent_text, "static_no_production_import")
+    gate("DERIVATION_RESULT.json" not in independent_text, "static_no_production_result_read")
+    exact = (package / "EXACT_DERIVATION.md").read_text()
+    lay = (package / "LAY_REPORT.md").read_text()
+    status = (package / "STATUS_LEDGER.tsv").read_text()
+    gates = (package / "EVIDENCE_GATES.md").read_text()
+    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+    gate("does **not** prove uniform linear stability" in exact,
+         "exact_stability_boundary")
+    gate("not proof that the G324 spacetime is stable" in lay, "lay_stability_boundary")
+    gate("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in status,
+         "status_pending_external")
+    gate("Fresh external review | PENDING" in gates, "external_review_pending")
+
+    replay_lines = [line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+                    if line.strip()]
+    gate(len(replay_lines) == 4, "registered_command_count")
+    with tempfile.TemporaryDirectory(prefix="udt_g325_replay_") as temporary:
+        copy = Path(temporary) / "package"
+        shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+        for line, artifact in zip(replay_lines[:3], (
+            "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json"
+        )):
+            completed = subprocess.run(
+                shlex.split(line), cwd=copy, check=True, capture_output=True, text=True
+            )
+            gate(completed.returncode == 0, f"replay_exit:{artifact}")
+            generated = copy / ".review_runtime" / artifact
+            gate(generated.is_file(), f"replay_created:{artifact}")
+            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+        gate(replay_lines[3] == "python3 -S verify_package.py", "fourth_command_self")
+
+    result = {
+        "schema": "udt-g325-package-verification-v1",
+        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "python_version": sys.version,
+        "exact_replay": True,
+    }
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/DERIVATION_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 36,
+  "background_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "checks": [
+    "background_kasner_sum",
+    "background_kasner_square_sum",
+    "exponent_constraint_rank_two",
+    "kasner_shear_zero_trace",
+    "kasner_shear_tangent_constraint",
+    "kasner_shear_spans_one_dimensional_nullspace",
+    "connected_scalar_particular_unique",
+    "connected_scalar_metric_coefficients",
+    "gauge_ode_solution",
+    "tracefree_time_zero_0",
+    "tracefree_space_zero_0",
+    "einstein_time_0",
+    "einstein_space_0",
+    "scalar_curvature_four_lambda_0",
+    "hamiltonian_constraint_0",
+    "tracefree_time_zero_1",
+    "tracefree_space_zero_1",
+    "einstein_time_1",
+    "einstein_space_1",
+    "scalar_curvature_four_lambda_1",
+    "hamiltonian_constraint_1",
+    "tracefree_time_zero_2",
+    "tracefree_space_zero_2",
+    "einstein_time_2",
+    "einstein_space_2",
+    "scalar_curvature_four_lambda_2",
+    "hamiltonian_constraint_2",
+    "three_lattice_modulus_coordinates",
+    "cover_scaling_vector_not_periodic",
+    "zero_scaling_vector_periodic",
+    "local_weyl_eigenvalue_split_nonzero",
+    "local_weyl_eigenvalue_split_exact",
+    "shear_log_secular_both_ends",
+    "scalar_mode_quadratic_future_growth",
+    "scalar_mode_zero_at_past_end",
+    "time_shift_growth_is_gauge"
+  ],
+  "full_linear_stability_proved": false,
+  "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+  "inhomogeneous_modes_classified": false,
+  "kernel_changed": false,
+  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "linearized_scalar_curvature": "4*lambda",
+  "metric_changed": false,
+  "mode_dimensions": {
+    "connected_scalar_curvature": 1,
+    "fixed_quotient_lattice_moduli": 3,
+    "local_kasner_shear": 1,
+    "residual_time_translation_gauge": 1
+  },
+  "nonlinear_stability_proved": false,
+  "offdiagonal_modes_classified": false,
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-production-v1",
+  "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+}
+
+codex
+The production artifact already advertises `assertion_count: 36`, and the current `derive_modes.py` no longer contains the named tautological check. I’m verifying that this isn’t just cosmetic by hashing every payload and replaying the exact registered commands in an isolated writable copy.
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/verify_review_intake.py" in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Authenticate a sealed G325 review intake without repository access."""
+
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main() -> None:
+    root = Path(__file__).resolve().parent
+    manifest = root / "REVIEW_MANIFEST.tsv"
+    seal = root / "REVIEW_MANIFEST.sha256"
+    scope = root / "REVIEW_SCOPE.json"
+    assert digest(manifest) == seal.read_text().strip(), "detached manifest seal mismatch"
+    rows = list(csv.DictReader(manifest.open(newline=""), delimiter="\t"))
+    for row in rows:
+        path = root / row["relative_path"]
+        assert path.is_file(), row["relative_path"]
+        assert path.stat().st_size == int(row["bytes"]), row["relative_path"]
+        assert digest(path) == row["sha256"], row["relative_path"]
+    metadata = json.loads(scope.read_text())
+    assert len(rows) == metadata["manifest_payload_count"]
+    assert metadata["evidence_read_only"] is True
+    assert metadata["research_continuation_allowed"] is False
+    print(json.dumps({
+        "status": "PASS",
+        "manifest_payload_count": len(rows),
+        "total_file_count": len(rows) + 2,
+        "manifest_sha256": digest(manifest),
+        "scope_sha256": digest(scope),
+    }, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/INDEPENDENT_VERIFICATION.json" in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 111,
+  "checks": [
+    "direct_tracefree_zero:constant_x:0:0",
+    "direct_tracefree_zero:constant_x:0:1",
+    "direct_tracefree_zero:constant_x:0:2",
+    "direct_tracefree_zero:constant_x:0:3",
+    "direct_tracefree_zero:constant_x:1:0",
+    "direct_tracefree_zero:constant_x:1:1",
+    "direct_tracefree_zero:constant_x:1:2",
+    "direct_tracefree_zero:constant_x:1:3",
+    "direct_tracefree_zero:constant_x:2:0",
+    "direct_tracefree_zero:constant_x:2:1",
+    "direct_tracefree_zero:constant_x:2:2",
+    "direct_tracefree_zero:constant_x:2:3",
+    "direct_tracefree_zero:constant_x:3:0",
+    "direct_tracefree_zero:constant_x:3:1",
+    "direct_tracefree_zero:constant_x:3:2",
+    "direct_tracefree_zero:constant_x:3:3",
+    "direct_scalar_zero:constant_x",
+    "direct_tracefree_zero:constant_y:0:0",
+    "direct_tracefree_zero:constant_y:0:1",
+    "direct_tracefree_zero:constant_y:0:2",
+    "direct_tracefree_zero:constant_y:0:3",
+    "direct_tracefree_zero:constant_y:1:0",
+    "direct_tracefree_zero:constant_y:1:1",
+    "direct_tracefree_zero:constant_y:1:2",
+    "direct_tracefree_zero:constant_y:1:3",
+    "direct_tracefree_zero:constant_y:2:0",
+    "direct_tracefree_zero:constant_y:2:1",
+    "direct_tracefree_zero:constant_y:2:2",
+    "direct_tracefree_zero:constant_y:2:3",
+    "direct_tracefree_zero:constant_y:3:0",
+    "direct_tracefree_zero:constant_y:3:1",
+    "direct_tracefree_zero:constant_y:3:2",
+    "direct_tracefree_zero:constant_y:3:3",
+    "direct_scalar_zero:constant_y",
+    "direct_tracefree_zero:constant_z:0:0",
+    "direct_tracefree_zero:constant_z:0:1",
+    "direct_tracefree_zero:constant_z:0:2",
+    "direct_tracefree_zero:constant_z:0:3",
+    "direct_tracefree_zero:constant_z:1:0",
+    "direct_tracefree_zero:constant_z:1:1",
+    "direct_tracefree_zero:constant_z:1:2",
+    "direct_tracefree_zero:constant_z:1:3",
+    "direct_tracefree_zero:constant_z:2:0",
+    "direct_tracefree_zero:constant_z:2:1",
+    "direct_tracefree_zero:constant_z:2:2",
+    "direct_tracefree_zero:constant_z:2:3",
+    "direct_tracefree_zero:constant_z:3:0",
+    "direct_tracefree_zero:constant_z:3:1",
+    "direct_tracefree_zero:constant_z:3:2",
+    "direct_tracefree_zero:constant_z:3:3",
+    "direct_scalar_zero:constant_z",
+    "direct_tracefree_zero:gauge:0:0",
+    "direct_tracefree_zero:gauge:0:1",
+    "direct_tracefree_zero:gauge:0:2",
+    "direct_tracefree_zero:gauge:0:3",
+    "direct_tracefree_zero:gauge:1:0",
+    "direct_tracefree_zero:gauge:1:1",
+    "direct_tracefree_zero:gauge:1:2",
+    "direct_tracefree_zero:gauge:1:3",
+    "direct_tracefree_zero:gauge:2:0",
+    "direct_tracefree_zero:gauge:2:1",
+    "direct_tracefree_zero:gauge:2:2",
+    "direct_tracefree_zero:gauge:2:3",
+    "direct_tracefree_zero:gauge:3:0",
+    "direct_tracefree_zero:gauge:3:1",
+    "direct_tracefree_zero:gauge:3:2",
+    "direct_tracefree_zero:gauge:3:3",
+    "direct_scalar_zero:gauge",
+    "direct_tracefree_zero:shear:0:0",
+    "direct_tracefree_zero:shear:0:1",
+    "direct_tracefree_zero:shear:0:2",
+    "direct_tracefree_zero:shear:0:3",
+    "direct_tracefree_zero:shear:1:0",
+    "direct_tracefree_zero:shear:1:1",
+    "direct_tracefree_zero:shear:1:2",
+    "direct_tracefree_zero:shear:1:3",
+    "direct_tracefree_zero:shear:2:0",
+    "direct_tracefree_zero:shear:2:1",
+    "direct_tracefree_zero:shear:2:2",
+    "direct_tracefree_zero:shear:2:3",
+    "direct_tracefree_zero:shear:3:0",
+    "direct_tracefree_zero:shear:3:1",
+    "direct_tracefree_zero:shear:3:2",
+    "direct_tracefree_zero:shear:3:3",
+    "direct_scalar_zero:shear",
+    "direct_shear_curvature_split",
+    "direct_tracefree_zero:scalar:0:0",
+    "direct_tracefree_zero:scalar:0:1",
+    "direct_tracefree_zero:scalar:0:2",
+    "direct_tracefree_zero:scalar:0:3",
+    "direct_tracefree_zero:scalar:1:0",
+    "direct_tracefree_zero:scalar:1:1",
+    "direct_tracefree_zero:scalar:1:2",
+    "direct_tracefree_zero:scalar:1:3",
+    "direct_tracefree_zero:scalar:2:0",
+    "direct_tracefree_zero:scalar:2:1",
+    "direct_tracefree_zero:scalar:2:2",
+    "direct_tracefree_zero:scalar:2:3",
+    "direct_tracefree_zero:scalar:3:0",
+    "direct_tracefree_zero:scalar:3:1",
+    "direct_tracefree_zero:scalar:3:2",
+    "direct_tracefree_zero:scalar:3:3",
+    "direct_scalar_mode_delta_R_four",
+    "direct_time_shift_lie_derivative:0",
+    "direct_time_shift_lie_derivative:1",
+    "direct_time_shift_lie_derivative:2",
+    "scaling_generator_fails_periodicity:x",
+    "scaling_generator_fails_periodicity:y",
+    "scaling_generator_fails_periodicity:z",
+    "independent_q_trace_constraint",
+    "independent_q_kasner_constraint"
+  ],
+  "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+  "direct_tensor_modes": [
+    "constant_x",
+    "constant_y",
+    "constant_z",
+    "gauge",
+    "shear",
+    "scalar"
+  ],
+  "linearized_scalar_curvature": {
+    "eps^0*T^0*log^0": "4"
+  },
+  "linearized_shear_curvature_split": {
+    "eps^0*T^-2*log^0": "-2/3"
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+  "status": "PASS",
+  "time_shift_is_lie_derivative": true
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/CATCH_PROOF_RESULT.json" in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": {
+    "false_periodic_scaling_rejected": true,
+    "physical_shear_as_gauge_rejected": true,
+    "removed_exponent_constraint_rejected": true,
+    "wrong_kasner_tangent_rejected": true,
+    "wrong_scalar_directional_shape_rejected": true
+  },
+  "schema": "udt-g325-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/EXTERNAL_REVIEW_RESPONSE.md" in /return
+ succeeded in 0ms:
+# External Adversarial Review — G325
+
+## Authentication
+
+I authenticated the intake before reading scientific claims.
+
+- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
+- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
+- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
+
+## Independent derivation
+
+Starting only from the sealed background metric
+
+\[
+g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
+\]
+
+and the diagonal synchronous perturbation
+
+\[
+g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
+\]
+
+the diagonal Bianchi-I Ricci tensor is
+
+\[
+R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
+\]
+
+with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
+Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
+
+\[
+\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
+\]
+
+so the exact first-order ODEs are
+
+\[
+\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
+\]
+
+plus the time/Hamiltonian relation
+
+\[
+\frac{V-\sum_i p_i v_i}{T}=\lambda.
+\]
+
+Solving these directly gives
+
+\[
+u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
+\]
+
+with
+
+\[
+\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
+\]
+
+For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
+
+\[
+(q_1,q_2,q_3)=q(0,1,-1).
+\]
+
+Hence the complete declared sector has exactly six constants:
+
+- `tau`: one residual time-origin gauge constant;
+- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
+- `q`: one genuine local Kasner-shear constant;
+- `lambda`: one connected scalar-curvature constant.
+
+There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
+
+## Classification checks
+
+The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
+
+\[
+(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
+\]
+
+which is exactly the `p_i/T` mode up to the passive/active sign convention.
+
+The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
+
+\[
+\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
+\]
+
+For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
+
+The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
+
+\[
+\delta R=0,
+\]
+
+but the orthonormal electric-curvature split is
+
+\[
+\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
+\]
+
+so the mode is not gauge and is not an artifact of scalar blindness.
+
+The scalar mode is the unique connected scalar-curvature direction:
+
+\[
+u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
+\]
+
+It is local, curvature-changing, and not a new source or action term.
+
+## Replay, provenance, and boundaries
+
+I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
+
+I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+
+Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
+
+On the exact preregistered question, the answer is yes in the stated bounded category.
+
+ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+codex
+I’ve confirmed the direct independent witness is still present in `verify_independent.py`; the remaining work is the strict replay and byte-level artifact comparison, because the built-in aggregate verifier only checks parsed JSON equality for the regenerated files.
+exec
+/bin/bash -lc "rg -n \"time_shift_lie_derivative_witness|2 \\* P\\[index\\] == 2 \\* P\\[index\\]|time_shift_growth_is_gauge|direct_time_shift_lie_derivative\" /intake" in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/REPAIR_FOLLOWUP_REQUEST.md" in /return
+ succeeded in 0ms:
+# G325 repair-only external follow-up request
+
+Fresh-review verdict: `ACCEPT__G325_BOUNDED_MODE_CENSUS`.
+
+Verify only repair R1 in `REPAIR_LEDGER.tsv` and whether the unchanged bounded scientific landing
+remains supported. Do not reopen or continue the research.
+
+## R1 — remove one vacuous production assertion
+
+1. Confirm that `derive_modes.py` no longer records the tautological
+   `time_shift_lie_derivative_witness` assertion.
+2. Confirm that the production artifact and aggregate verifier consistently declare 36 production
+   assertions rather than 37.
+3. Run the four registered commands literally in a writable ephemeral copy and confirm exact
+   reproduction of the three banked JSON artifacts.
+4. Confirm that the genuine direct Lie-derivative calculation remains in
+   `verify_independent.py`, and that the external review's own derivation still independently
+   supports classification of the `1/T` mode as residual time-origin gauge.
+
+## Scientific boundary
+
+R1 must not change the metric, the adopted trace-free Ricci equation, the general solution, the
+six-constant census, mode classifications, quotient, physical premises, or scope. It does not
+promote G325 to full linear or nonlinear stability and does not classify off-diagonal or
+inhomogeneous modes or select topology, occupancy, scale, observations, history, or `X_max`.
+
+Allowed follow-up outcomes:
+
+- accept R1 and the unchanged bounded landing;
+- identify a concrete incomplete R1 repair;
+- keep the result at its already accepted bounded grade while recording the remaining evidence
+  defect.
+
+exec
+/bin/bash -lc 'python3 -S /intake/verify_review_intake.py' in /work
+ succeeded in 0ms:
+{
+  "manifest_payload_count": 33,
+  "manifest_sha256": "151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04",
+  "scope_sha256": "6c58facc105e81366773032db89e39e13d395696812e7e1e0ffe6df36f960f7a",
+  "status": "PASS",
+  "total_file_count": 35
+}
+
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/EXTERNAL_REVIEW_FINAL_RESPONSE.md" in /return
+exec
+/bin/bash -lc "sed -n '1,220p' /intake/STATUS_LEDGER.tsv" in /return
+ succeeded in 0ms:
+claim	status	scope
+G325_mode_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	spatially homogeneous diagonal synchronous first variations of G324
+time_shift_mode	DERIVED_GAUGE	local time-origin translation
+constant_strains	DERIVED_QUOTIENT_MODULI	three diagonal fixed-T3 lattice directions
+kasner_shear	DERIVED_CONDITIONAL	one local curvature-changing tangent at LRS Taub point
+connected_scalar_mode	DERIVED_CONDITIONAL	one constant delta-R direction retained by trace-free Ricci
+uniform_full_linear_stability	OPEN	nonzero Fourier and off-diagonal sectors absent; secular endpoint behavior
+nonlinear_stability	OPEN	outside first variation
+physical_occupancy	OPEN	no datum selected
+physical_scale	OPEN	no ruler attachment
+physical_Xmax	OPEN	not used or selected
+metric_kernel_angular_change	NO_CHANGE	G325 is analysis of the adopted equation around G324
+
+ succeeded in 0ms:
+Token: `ACCEPT__G325_BOUNDED_MODE_CENSUS`
+
+Report: [EXTERNAL_REVIEW_RESPONSE.md](/return/EXTERNAL_REVIEW_RESPONSE.md)
+codex
+I’m moving to the isolated replay now: a fresh copy under `/work`, the four registered commands run verbatim from that copy, then byte-for-byte comparison of the three regenerated JSON artifacts against the banked intake files.
+2026-09-02T16:28:07.067433Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc "rm -rf /work/g325_r1_review && mkdir -p /work/g325_r1_review && cp -R /intake/. /work/g325_r1_review/ && ls -ld /work/g325_r1_review && ls -l /work/g325_r1_review | sed -n '1,8p'"`: CreateProcess { message: "Rejected(\"`/bin/bash -lc \\\"rm -rf /work/g325_r1_review && mkdir -p /work/g325_r1_review && cp -R /intake/. /work/g325_r1_review/ && ls -ld /work/g325_r1_review && ls -l /work/g325_r1_review | sed -n '1,8p'\\\"` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+codex
+The environment blocks destructive cleanup, so I’m switching to a fresh unique `/work` directory instead of reusing one. That keeps the replay isolated without touching existing workspace state.
+exec
+/bin/bash -lc 'mktemp -d /work/g325_r1_review.XXXXXX' in /work
+ succeeded in 0ms:
+/work/g325_r1_review.pfA9w4
+
+exec
+/bin/bash -lc 'cp -R /intake/. /work/g325_r1_review.pfA9w4/' in /work
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'ls -ld /work/g325_r1_review.pfA9w4' in /work
+ succeeded in 0ms:
+drwx------ 3 udt-admin udt-admin 4096 Sep  2 12:28 /work/g325_r1_review.pfA9w4
+
+exec
+/bin/bash -lc 'python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json' in /work/g325_r1_review.pfA9w4
+ succeeded in 0ms:
+{
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 36,
+  "background_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "checks": [
+    "background_kasner_sum",
+    "background_kasner_square_sum",
+    "exponent_constraint_rank_two",
+    "kasner_shear_zero_trace",
+    "kasner_shear_tangent_constraint",
+    "kasner_shear_spans_one_dimensional_nullspace",
+    "connected_scalar_particular_unique",
+    "connected_scalar_metric_coefficients",
+    "gauge_ode_solution",
+    "tracefree_time_zero_0",
+    "tracefree_space_zero_0",
+    "einstein_time_0",
+    "einstein_space_0",
+    "scalar_curvature_four_lambda_0",
+    "hamiltonian_constraint_0",
+    "tracefree_time_zero_1",
+    "tracefree_space_zero_1",
+    "einstein_time_1",
+    "einstein_space_1",
+    "scalar_curvature_four_lambda_1",
+    "hamiltonian_constraint_1",
+    "tracefree_time_zero_2",
+    "tracefree_space_zero_2",
+    "einstein_time_2",
+    "einstein_space_2",
+    "scalar_curvature_four_lambda_2",
+    "hamiltonian_constraint_2",
+    "three_lattice_modulus_coordinates",
+    "cover_scaling_vector_not_periodic",
+    "zero_scaling_vector_periodic",
+    "local_weyl_eigenvalue_split_nonzero",
+    "local_weyl_eigenvalue_split_exact",
+    "shear_log_secular_both_ends",
+    "scalar_mode_quadratic_future_growth",
+    "scalar_mode_zero_at_past_end",
+    "time_shift_growth_is_gauge"
+  ],
+  "full_linear_stability_proved": false,
+  "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+  "inhomogeneous_modes_classified": false,
+  "kernel_changed": false,
+  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "linearized_scalar_curvature": "4*lambda",
+  "metric_changed": false,
+  "mode_dimensions": {
+    "connected_scalar_curvature": 1,
+    "fixed_quotient_lattice_moduli": 3,
+    "local_kasner_shear": 1,
+    "residual_time_translation_gauge": 1
+  },
+  "nonlinear_stability_proved": false,
+  "offdiagonal_modes_classified": false,
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-production-v1",
+  "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json' in /work/g325_r1_review.pfA9w4
+ succeeded in 0ms:
+{
+  "assertion_count": 111,
+  "checks": [
+    "direct_tracefree_zero:constant_x:0:0",
+    "direct_tracefree_zero:constant_x:0:1",
+    "direct_tracefree_zero:constant_x:0:2",
+    "direct_tracefree_zero:constant_x:0:3",
+    "direct_tracefree_zero:constant_x:1:0",
+    "direct_tracefree_zero:constant_x:1:1",
+    "direct_tracefree_zero:constant_x:1:2",
+    "direct_tracefree_zero:constant_x:1:3",
+    "direct_tracefree_zero:constant_x:2:0",
+    "direct_tracefree_zero:constant_x:2:1",
+    "direct_tracefree_zero:constant_x:2:2",
+    "direct_tracefree_zero:constant_x:2:3",
+    "direct_tracefree_zero:constant_x:3:0",
+    "direct_tracefree_zero:constant_x:3:1",
+    "direct_tracefree_zero:constant_x:3:2",
+    "direct_tracefree_zero:constant_x:3:3",
+    "direct_scalar_zero:constant_x",
+    "direct_tracefree_zero:constant_y:0:0",
+    "direct_tracefree_zero:constant_y:0:1",
+    "direct_tracefree_zero:constant_y:0:2",
+    "direct_tracefree_zero:constant_y:0:3",
+    "direct_tracefree_zero:constant_y:1:0",
+    "direct_tracefree_zero:constant_y:1:1",
+    "direct_tracefree_zero:constant_y:1:2",
+    "direct_tracefree_zero:constant_y:1:3",
+    "direct_tracefree_zero:constant_y:2:0",
+    "direct_tracefree_zero:constant_y:2:1",
+    "direct_tracefree_zero:constant_y:2:2",
+    "direct_tracefree_zero:constant_y:2:3",
+    "direct_tracefree_zero:constant_y:3:0",
+    "direct_tracefree_zero:constant_y:3:1",
+    "direct_tracefree_zero:constant_y:3:2",
+    "direct_tracefree_zero:constant_y:3:3",
+    "direct_scalar_zero:constant_y",
+    "direct_tracefree_zero:constant_z:0:0",
+    "direct_tracefree_zero:constant_z:0:1",
+    "direct_tracefree_zero:constant_z:0:2",
+    "direct_tracefree_zero:constant_z:0:3",
+    "direct_tracefree_zero:constant_z:1:0",
+    "direct_tracefree_zero:constant_z:1:1",
+    "direct_tracefree_zero:constant_z:1:2",
+    "direct_tracefree_zero:constant_z:1:3",
+    "direct_tracefree_zero:constant_z:2:0",
+    "direct_tracefree_zero:constant_z:2:1",
+    "direct_tracefree_zero:constant_z:2:2",
+    "direct_tracefree_zero:constant_z:2:3",
+    "direct_tracefree_zero:constant_z:3:0",
+    "direct_tracefree_zero:constant_z:3:1",
+    "direct_tracefree_zero:constant_z:3:2",
+    "direct_tracefree_zero:constant_z:3:3",
+    "direct_scalar_zero:constant_z",
+    "direct_tracefree_zero:gauge:0:0",
+    "direct_tracefree_zero:gauge:0:1",
+    "direct_tracefree_zero:gauge:0:2",
+    "direct_tracefree_zero:gauge:0:3",
+    "direct_tracefree_zero:gauge:1:0",
+    "direct_tracefree_zero:gauge:1:1",
+    "direct_tracefree_zero:gauge:1:2",
+    "direct_tracefree_zero:gauge:1:3",
+    "direct_tracefree_zero:gauge:2:0",
+    "direct_tracefree_zero:gauge:2:1",
+    "direct_tracefree_zero:gauge:2:2",
+    "direct_tracefree_zero:gauge:2:3",
+    "direct_tracefree_zero:gauge:3:0",
+    "direct_tracefree_zero:gauge:3:1",
+    "direct_tracefree_zero:gauge:3:2",
+    "direct_tracefree_zero:gauge:3:3",
+    "direct_scalar_zero:gauge",
+    "direct_tracefree_zero:shear:0:0",
+    "direct_tracefree_zero:shear:0:1",
+    "direct_tracefree_zero:shear:0:2",
+    "direct_tracefree_zero:shear:0:3",
+    "direct_tracefree_zero:shear:1:0",
+    "direct_tracefree_zero:shear:1:1",
+    "direct_tracefree_zero:shear:1:2",
+    "direct_tracefree_zero:shear:1:3",
+    "direct_tracefree_zero:shear:2:0",
+    "direct_tracefree_zero:shear:2:1",
+    "direct_tracefree_zero:shear:2:2",
+    "direct_tracefree_zero:shear:2:3",
+    "direct_tracefree_zero:shear:3:0",
+    "direct_tracefree_zero:shear:3:1",
+    "direct_tracefree_zero:shear:3:2",
+    "direct_tracefree_zero:shear:3:3",
+    "direct_scalar_zero:shear",
+    "direct_shear_curvature_split",
+    "direct_tracefree_zero:scalar:0:0",
+    "direct_tracefree_zero:scalar:0:1",
+    "direct_tracefree_zero:scalar:0:2",
+    "direct_tracefree_zero:scalar:0:3",
+    "direct_tracefree_zero:scalar:1:0",
+    "direct_tracefree_zero:scalar:1:1",
+    "direct_tracefree_zero:scalar:1:2",
+    "direct_tracefree_zero:scalar:1:3",
+    "direct_tracefree_zero:scalar:2:0",
+    "direct_tracefree_zero:scalar:2:1",
+    "direct_tracefree_zero:scalar:2:2",
+    "direct_tracefree_zero:scalar:2:3",
+    "direct_tracefree_zero:scalar:3:0",
+    "direct_tracefree_zero:scalar:3:1",
+    "direct_tracefree_zero:scalar:3:2",
+    "direct_tracefree_zero:scalar:3:3",
+    "direct_scalar_mode_delta_R_four",
+    "direct_time_shift_lie_derivative:0",
+    "direct_time_shift_lie_derivative:1",
+    "direct_time_shift_lie_derivative:2",
+    "scaling_generator_fails_periodicity:x",
+    "scaling_generator_fails_periodicity:y",
+    "scaling_generator_fails_periodicity:z",
+    "independent_q_trace_constraint",
+    "independent_q_kasner_constraint"
+  ],
+  "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+  "direct_tensor_modes": [
+    "constant_x",
+    "constant_y",
+    "constant_z",
+    "gauge",
+    "shear",
+    "scalar"
+  ],
+  "linearized_scalar_curvature": {
+    "eps^0*T^0*log^0": "4"
+  },
+  "linearized_shear_curvature_split": {
+    "eps^0*T^-2*log^0": "-2/3"
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+  "status": "PASS",
+  "time_shift_is_lie_derivative": true
+}
+
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json' in /work/g325_r1_review.pfA9w4
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": {
+    "false_periodic_scaling_rejected": true,
+    "physical_shear_as_gauge_rejected": true,
+    "removed_exponent_constraint_rejected": true,
+    "wrong_kasner_tangent_rejected": true,
+    "wrong_scalar_directional_shape_rejected": true
+  },
+  "schema": "udt-g325-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g325_r1_review.pfA9w4
+ succeeded in 0ms:
+{
+  "assertion_count": 37,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "exact_mode_dimensions",
+    "production_scalar_witness",
+    "independent_scalar_witness",
+    "independent_shear_witness",
+    "independent_no_production_import",
+    "independent_no_result_read",
+    "all_hostile_controls",
+    "no_full_linear_overclaim",
+    "no_nonlinear_overclaim",
+    "inhomogeneous_open",
+    "offdiagonal_open",
+    "occupancy_open",
+    "scale_open",
+    "xmax_open",
+    "native_objects_unchanged",
+    "static_no_production_import",
+    "static_no_production_result_read",
+    "exact_landing_token",
+    "exact_stability_boundary",
+    "lay_stability_boundary",
+    "status_pending_external",
+    "external_review_pending",
+    "registered_command_count",
+    "replay_exit:DERIVATION_RESULT.json",
+    "replay_created:DERIVATION_RESULT.json",
+    "replay_exact:DERIVATION_RESULT.json",
+    "replay_exit:INDEPENDENT_VERIFICATION.json",
+    "replay_created:INDEPENDENT_VERIFICATION.json",
+    "replay_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:CATCH_PROOF_RESULT.json",
+    "replay_created:CATCH_PROOF_RESULT.json",
+    "replay_exact:CATCH_PROOF_RESULT.json",
+    "fourth_command_self"
+  ],
+  "exact_replay": true,
+  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-package-verification-v1",
+  "status": "PASS_PENDING_EXTERNAL_REVIEW"
+}
+
+codex
+The literal replay succeeded. One nuance matters for the report: `verify_package.py` has its own 37 aggregate checks, but its production-specific gate now explicitly requires `production["assertion_count"] == 36`; that is consistent with the repair request and distinct from the verifier’s own check count.
+exec
+/bin/bash -lc 'cmp -s /work/g325_r1_review.pfA9w4/.review_runtime/INDEPENDENT_VERIFICATION.json /intake/INDEPENDENT_VERIFICATION.json; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc 'cmp -s /work/g325_r1_review.pfA9w4/.review_runtime/CATCH_PROOF_RESULT.json /intake/CATCH_PROOF_RESULT.json; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc 'cmp -s /work/g325_r1_review.pfA9w4/.review_runtime/DERIVATION_RESULT.json /intake/DERIVATION_RESULT.json; echo $?' in /return
+ succeeded in 0ms:
+0
+
+exec
+/bin/bash -lc 'sha256sum /work/g325_r1_review.pfA9w4/.review_runtime/DERIVATION_RESULT.json /work/g325_r1_review.pfA9w4/.review_runtime/INDEPENDENT_VERIFICATION.json /work/g325_r1_review.pfA9w4/.review_runtime/CATCH_PROOF_RESULT.json /intake/DERIVATION_RESULT.json /intake/INDEPENDENT_VERIFICATION.json /intake/CATCH_PROOF_RESULT.json' in /return
+ succeeded in 0ms:
+1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71  /work/g325_r1_review.pfA9w4/.review_runtime/DERIVATION_RESULT.json
+103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94  /work/g325_r1_review.pfA9w4/.review_runtime/INDEPENDENT_VERIFICATION.json
+7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609  /work/g325_r1_review.pfA9w4/.review_runtime/CATCH_PROOF_RESULT.json
+1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71  /intake/DERIVATION_RESULT.json
+103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94  /intake/INDEPENDENT_VERIFICATION.json
+7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609  /intake/CATCH_PROOF_RESULT.json
+
+codex
+The regenerated artifacts are byte-identical to the banked JSON files: all three `cmp` checks returned `0`, and their SHA-256 digests match exactly. I’m collecting precise line references now so the written report can tie each conclusion to sealed evidence.
+exec
+/bin/bash -lc "nl -ba /intake/verify_independent.py | sed -n '180,260p'" in /return
+ succeeded in 0ms:
+   180	            for c in range(dim):
+   181	                for d in range(dim):
+   182	                    for e in range(dim):
+   183	                        lowered[a][b][c][d] = lowered[a][b][c][d] + g[a][e] * riemann[e][b][c][d]
+   184	    electric = []
+   185	    for spatial in range(1, 4):
+   186	        electric.append(lowered[0][spatial][0][spatial] * inverse[spatial][spatial])
+   187	    return g, ricci, scalar, tracefree, electric
+   188
+   189
+   190	def main() -> None:
+   191	    parser = argparse.ArgumentParser()
+   192	    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+   193	    args = parser.parse_args()
+   194	    root = Path(__file__).resolve().parent
+   195	    checks: list[str] = []
+   196
+   197	    def gate(condition: bool, name: str) -> None:
+   198	        assert condition, name
+   199	        checks.append(name)
+   200
+   201	    modes = ("constant_x", "constant_y", "constant_z", "gauge", "shear", "scalar")
+   202	    scalar_eps = None
+   203	    shear_split = None
+   204	    for name in modes:
+   205	        metric, ricci, scalar, tracefree, electric = direct_tensor_mode(name)
+   206	        for a in range(4):
+   207	            for b in range(4):
+   208	                gate(tracefree[a][b].epsilon_part().is_zero(),
+   209	                     f"direct_tracefree_zero:{name}:{a}:{b}")
+   210	        if name in ("constant_x", "constant_y", "constant_z", "gauge", "shear"):
+   211	            gate(scalar.epsilon_part().is_zero(), f"direct_scalar_zero:{name}")
+   212	        if name == "scalar":
+   213	            scalar_eps = scalar.epsilon_part()
+   214	            gate(scalar_eps == Expr.monomial(4), "direct_scalar_mode_delta_R_four")
+   215	        if name == "shear":
+   216	            shear_split = (electric[1] - electric[2]).epsilon_part()
+   217	            expected_options = (Expr.monomial(Fraction(-2, 3), power=-2),
+   218	                                Expr.monomial(Fraction(2, 3), power=-2))
+   219	            gate(shear_split in expected_options, "direct_shear_curvature_split")
+   220
+   221	    # Direct Lie derivative in synchronous coordinates: L_(d/dT) g_ii = d_T g_ii.
+   222	    gauge_metric, _, _, _, _ = direct_tensor_mode("gauge")
+   223	    for spatial in range(3):
+   224	        background = Expr.monomial(power=2 * P[spatial])
+   225	        expected = background.dt()
+   226	        actual = gauge_metric[spatial + 1][spatial + 1].epsilon_part()
+   227	        gate(actual == expected, f"direct_time_shift_lie_derivative:{spatial}")
+   228
+   229	    # A scaling generator c*x on a compact coordinate circle is single-valued only for c=0.
+   230	    for label, coefficient, period in (
+   231	        ("x", Fraction(2, 3), Fraction(5)),
+   232	        ("y", Fraction(-4, 7), Fraction(11)),
+   233	        ("z", Fraction(9, 13), Fraction(17)),
+   234	    ):
+   235	        gate(coefficient * period != 0, f"scaling_generator_fails_periodicity:{label}")
+   236
+   237	    # Exact parameter count from two independent exponent constraints.
+   238	    q = (Fraction(0), Fraction(1), Fraction(-1))
+   239	    gate(sum(q) == 0, "independent_q_trace_constraint")
+   240	    gate(sum(p_i * q_i for p_i, q_i in zip(P, q)) == 0,
+   241	         "independent_q_kasner_constraint")
+   242
+   243	    result = {
+   244	        "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+   245	        "status": "PASS",
+   246	        "assertion_count": len(checks),
+   247	        "checks": checks,
+   248	        "production_imported": False,
+   249	        "production_result_read": False,
+   250	        "direct_tensor_modes": list(modes),
+   251	        "linearized_scalar_curvature": scalar_eps.serial(),
+   252	        "linearized_shear_curvature_split": shear_split.serial(),
+   253	        "time_shift_is_lie_derivative": True,
+   254	        "constant_cover_scalings_fail_fixed_quotient_periodicity": True,
+   255	        "python_version": sys.version,
+   256	    }
+   257	    output = root / args.output
+   258	    output.parent.mkdir(parents=True, exist_ok=True)
+   259	    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   260	    print(json.dumps(result, indent=2, sort_keys=True))
+
+exec
+/bin/bash -lc "nl -ba /intake/verify_package.py | sed -n '20,140p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/derive_modes.py | sed -n '100,220p'" in /return
+exec
+/bin/bash -lc "grep -R -n \"time_shift_lie_derivative_witness\\|2 \\* P\\[index\\] == 2 \\* P\\[index\\]\\|time_shift_growth_is_gauge\\|gauge_ode_solution\" /intake" in /return
+exec
+/bin/bash -lc "nl -ba /intake/EXTERNAL_REVIEW_RESPONSE.md | sed -n '1,140p'" in /return
+ succeeded in 0ms:
+   100	        "tracefree_space": tracefree_space,
+   101	        "hamiltonian": hamiltonian,
+   102	    }
+   103
+   104
+   105	def main() -> None:
+   106	    parser = argparse.ArgumentParser()
+   107	    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+   108	    args = parser.parse_args()
+   109	    root = Path(__file__).resolve().parent
+   110	    checks: list[str] = []
+   111
+   112	    def gate(condition: bool, name: str) -> None:
+   113	        assert condition, name
+   114	        checks.append(name)
+   115
+   116	    gate(sum(P) == 1, "background_kasner_sum")
+   117	    gate(sum(value * value for value in P) == 1, "background_kasner_square_sum")
+   118
+   119	    # The constant-in-log-time exponent vector is constrained by sum(q)=p.q=0.
+   120	    constraint_rows = [[Fraction(1), Fraction(1), Fraction(1)], list(P)]
+   121	    gate(matrix_rank(constraint_rows) == 2, "exponent_constraint_rank_two")
+   122	    q_basis = [Fraction(0), Fraction(1), Fraction(-1)]
+   123	    gate(sum(q_basis) == 0, "kasner_shear_zero_trace")
+   124	    gate(sum(p_i * q_i for p_i, q_i in zip(P, q_basis)) == 0,
+   125	         "kasner_shear_tangent_constraint")
+   126	    gate(matrix_rank(constraint_rows + [q_basis]) == 3,
+   127	         "kasner_shear_spans_one_dimensional_nullspace")
+   128
+   129	    # The connected-scalar particular solution is unique at the w_i=T*u_i' level.
+   130	    scalar_matrix = [
+   131	        [2 * (1 if i == j else 0) + P[i] for j in range(3)]
+   132	        for i in range(3)
+   133	    ]
+   134	    scalar_w = solve_linear(scalar_matrix, [Fraction(1)] * 3)
+   135	    expected_scalar_w = [(1 - value) / 2 for value in P]
+   136	    gate(scalar_w == expected_scalar_w, "connected_scalar_particular_unique")
+   137	    scalar_u = [value / 2 for value in scalar_w]
+   138	    gate(scalar_u == [(1 - value) / 4 for value in P],
+   139	         "connected_scalar_metric_coefficients")
+   140
+   141	    # The T^-1 solution at w=T*u' is precisely the time-translation Lie derivative.
+   142	    gauge_w = [-value for value in P]
+   143	    gauge_sum = sum(gauge_w)
+   144	    gate(all(-value + P[index] * gauge_sum == 0
+   145	             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+   146
+   147	    # Exact all-mode checks at unrelated rational times and amplitudes.
+   148	    samples = (
+   149	        (Fraction(2, 3), Fraction(7, 5), Fraction(-4, 9), Fraction(5, 11)),
+   150	        (Fraction(7, 4), Fraction(-3, 8), Fraction(9, 13), Fraction(-2, 7)),
+   151	        (Fraction(19, 6), Fraction(0), Fraction(5, 3), Fraction(0)),
+   152	    )
+   153	    for index, (time, gauge, shear, scalar) in enumerate(samples):
+   154	        result = residuals(time, gauge, shear, scalar)
+   155	        gate(result["tracefree_00"] == 0, f"tracefree_time_zero_{index}")
+   156	        gate(all(value == 0 for value in result["tracefree_space"]),
+   157	             f"tracefree_space_zero_{index}")
+   158	        gate(result["ricci_00"] == -scalar, f"einstein_time_{index}")
+   159	        gate(all(value == scalar for value in result["ricci_space"]),
+   160	             f"einstein_space_{index}")
+   161	        gate(result["scalar_curvature"] == 4 * scalar,
+   162	             f"scalar_curvature_four_lambda_{index}")
+   163	        gate(result["hamiltonian"] == scalar, f"hamiltonian_constraint_{index}")
+   164
+   165	    # Constant strains are a complete three-dimensional integration-constant sector.
+   166	    lattice_forms = [
+   167	        [Fraction(1), Fraction(1), Fraction(1)],
+   168	        [Fraction(1), Fraction(-1, 2), Fraction(-1, 2)],
+   169	        [Fraction(0), Fraction(1), Fraction(-1)],
+   170	    ]
+   171	    gate(matrix_rank(lattice_forms) == 3, "three_lattice_modulus_coordinates")
+   172	    periods = (Fraction(5), Fraction(7), Fraction(11))
+   173	    nonzero_strain = (Fraction(2, 5), Fraction(-3, 7), Fraction(4, 11))
+   174	    jumps = [strain * period for strain, period in zip(nonzero_strain, periods)]
+   175	    gate(all(value != 0 for value in jumps), "cover_scaling_vector_not_periodic")
+   176	    gate(all(Fraction(0) * period == 0 for period in periods),
+   177	         "zero_scaling_vector_periodic")
+   178
+   179	    # Local curvature distinguishes the shear mode even though scalar invariants are symmetric
+   180	    # under y-z exchange at first order.
+   181	    shear = Fraction(13, 17)
+   182	    time = Fraction(11, 5)
+   183	    electric_weyl_y_minus_z = -2 * shear / (3 * time**2)
+   184	    gate(electric_weyl_y_minus_z != 0, "local_weyl_eigenvalue_split_nonzero")
+   185	    gate(electric_weyl_y_minus_z == Fraction(-650, 6171),
+   186	         "local_weyl_eigenvalue_split_exact")
+   187
+   188	    # Endpoint behavior follows from exact basis functions and is classification, not a filter.
+   189	    shear_log_coefficient = Fraction(1)
+   190	    scalar_power = Fraction(2)
+   191	    gauge_power = Fraction(-1)
+   192	    gate(shear_log_coefficient != 0, "shear_log_secular_both_ends")
+   193	    gate(scalar_power > 0, "scalar_mode_quadratic_future_growth")
+   194	    gate(scalar_power > 0, "scalar_mode_zero_at_past_end")
+   195	    gate(gauge_power < 0 and gauge_w == [-value for value in P],
+   196	         "time_shift_growth_is_gauge")
+   197
+   198	    result = {
+   199	        "schema": "udt-g325-homogeneous-diagonal-production-v1",
+   200	        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+   201	        "landing": LANDING,
+   202	        "assertion_count": len(checks),
+   203	        "checks": checks,
+   204	        "background_exponents": [str(value) for value in P],
+   205	        "general_solution": (
+   206	            "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+"
+   207	            "(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0"
+   208	        ),
+   209	        "mode_dimensions": {
+   210	            "residual_time_translation_gauge": 1,
+   211	            "fixed_quotient_lattice_moduli": 3,
+   212	            "local_kasner_shear": 1,
+   213	            "connected_scalar_curvature": 1,
+   214	        },
+   215	        "linearized_scalar_curvature": "4*lambda",
+   216	        "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+   217	        "full_linear_stability_proved": False,
+   218	        "nonlinear_stability_proved": False,
+   219	        "inhomogeneous_modes_classified": False,
+   220	        "offdiagonal_modes_classified": False,
+
+ succeeded in 0ms:
+    20
+    21
+    22	def load(path: Path):
+    23	    return json.loads(path.read_text())
+    24
+    25
+    26	def main() -> None:
+    27	    package = Path(__file__).resolve().parent
+    28	    checks: list[str] = []
+    29
+    30	    def gate(condition: bool, name: str) -> None:
+    31	        assert condition, name
+    32	        checks.append(name)
+    33
+    34	    production = load(package / "DERIVATION_RESULT.json")
+    35	    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    36	    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    37	    gate(production["landing"] == LANDING, "production_landing")
+    38	    gate(production["assertion_count"] == 36, "production_assertion_count")
+    39	    gate(independent["assertion_count"] == 111, "independent_assertion_count")
+    40	    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    41	    gate(production["mode_dimensions"] == {
+    42	        "connected_scalar_curvature": 1,
+    43	        "fixed_quotient_lattice_moduli": 3,
+    44	        "local_kasner_shear": 1,
+    45	        "residual_time_translation_gauge": 1,
+    46	    }, "exact_mode_dimensions")
+    47	    gate(production["linearized_scalar_curvature"] == "4*lambda",
+    48	         "production_scalar_witness")
+    49	    gate(independent["linearized_scalar_curvature"] == {
+    50	        "eps^0*T^0*log^0": "4"
+    51	    }, "independent_scalar_witness")
+    52	    gate(independent["linearized_shear_curvature_split"] == {
+    53	        "eps^0*T^-2*log^0": "-2/3"
+    54	    }, "independent_shear_witness")
+    55	    gate(independent["production_imported"] is False, "independent_no_production_import")
+    56	    gate(independent["production_result_read"] is False, "independent_no_result_read")
+    57	    gate(all(hostile["controls"].values()), "all_hostile_controls")
+    58	    gate(not production["full_linear_stability_proved"], "no_full_linear_overclaim")
+    59	    gate(not production["nonlinear_stability_proved"], "no_nonlinear_overclaim")
+    60	    gate(not production["inhomogeneous_modes_classified"], "inhomogeneous_open")
+    61	    gate(not production["offdiagonal_modes_classified"], "offdiagonal_open")
+    62	    gate(not production["physical_occupancy_selected"], "occupancy_open")
+    63	    gate(not production["physical_scale_selected"], "scale_open")
+    64	    gate(not production["Xmax_selected"], "xmax_open")
+    65	    gate(not production["metric_changed"] and not production["kernel_changed"]
+    66	         and not production["angular_sector_changed"], "native_objects_unchanged")
+    67
+    68	    independent_text = (package / "verify_independent.py").read_text()
+    69	    gate("import derive_modes" not in independent_text, "static_no_production_import")
+    70	    gate("DERIVATION_RESULT.json" not in independent_text, "static_no_production_result_read")
+    71	    exact = (package / "EXACT_DERIVATION.md").read_text()
+    72	    lay = (package / "LAY_REPORT.md").read_text()
+    73	    status = (package / "STATUS_LEDGER.tsv").read_text()
+    74	    gates = (package / "EVIDENCE_GATES.md").read_text()
+    75	    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+    76	    gate("does **not** prove uniform linear stability" in exact,
+    77	         "exact_stability_boundary")
+    78	    gate("not proof that the G324 spacetime is stable" in lay, "lay_stability_boundary")
+    79	    gate("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in status,
+    80	         "status_pending_external")
+    81	    gate("Fresh external review | PENDING" in gates, "external_review_pending")
+    82
+    83	    replay_lines = [line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+    84	                    if line.strip()]
+    85	    gate(len(replay_lines) == 4, "registered_command_count")
+    86	    with tempfile.TemporaryDirectory(prefix="udt_g325_replay_") as temporary:
+    87	        copy = Path(temporary) / "package"
+    88	        shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+    89	        for line, artifact in zip(replay_lines[:3], (
+    90	            "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json"
+    91	        )):
+    92	            completed = subprocess.run(
+    93	                shlex.split(line), cwd=copy, check=True, capture_output=True, text=True
+    94	            )
+    95	            gate(completed.returncode == 0, f"replay_exit:{artifact}")
+    96	            generated = copy / ".review_runtime" / artifact
+    97	            gate(generated.is_file(), f"replay_created:{artifact}")
+    98	            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+    99	        gate(replay_lines[3] == "python3 -S verify_package.py", "fourth_command_self")
+   100
+   101	    result = {
+   102	        "schema": "udt-g325-package-verification-v1",
+   103	        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+   104	        "landing": LANDING,
+   105	        "assertion_count": len(checks),
+   106	        "checks": checks,
+   107	        "python_version": sys.version,
+   108	        "exact_replay": True,
+   109	    }
+   110	    print(json.dumps(result, indent=2, sort_keys=True))
+   111
+   112
+   113	if __name__ == "__main__":
+   114	    main()
+
+ succeeded in 0ms:
+/intake/REPAIR_FOLLOWUP_REQUEST.md:11:   `time_shift_lie_derivative_witness` assertion.
+/intake/DERIVATION_RESULT.json:19:    "gauge_ode_solution",
+/intake/DERIVATION_RESULT.json:46:    "time_shift_growth_is_gauge"
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:630:    "gauge_ode_solution",
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:631:    "time_shift_lie_derivative_witness",
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:658:    "time_shift_growth_is_gauge"
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1331:             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1332:    gate(all(2 * P[index] == 2 * P[index] for index in range(3)),
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1333:         "time_shift_lie_derivative_witness")
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1384:         "time_shift_growth_is_gauge")
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1490:    "gauge_ode_solution",
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1491:    "time_shift_lie_derivative_witness",
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:1518:    "time_shift_growth_is_gauge"
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:3433:   145	             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:3434:   146	    gate(all(2 * P[index] == 2 * P[index] for index in range(3)),
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:3435:   147	         "time_shift_lie_derivative_witness")
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:3486:   198	         "time_shift_growth_is_gauge")
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:3777:+I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:3911:+I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:4054:+I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:4193:+I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+/intake/EXTERNAL_REVIEW_TRANSCRIPT.txt:4331:+I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+/intake/REPAIR_LEDGER.tsv:2:R1	derive_modes.py records time_shift_lie_derivative_witness using the tautology 2*P[index] == 2*P[index]	remove the vacuous production gate, reduce the declared production assertion count by one, regenerate the production artifact, and retain the independent direct Lie-derivative witness	none; the external reviewer independently derived the gauge mode and accepted the six-mode census	literal registered replay, exact artifact equality, and repair-only review
+/intake/derive_modes.py:145:             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+/intake/derive_modes.py:196:         "time_shift_growth_is_gauge")
+/intake/EXTERNAL_REVIEW_RESPONSE.md:121:I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+
+ succeeded in 0ms:
+     1	# External Adversarial Review — G325
+     2
+     3	## Authentication
+     4
+     5	I authenticated the intake before reading scientific claims.
+     6
+     7	- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
+     8	- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
+     9	- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
+    10
+    11	## Independent derivation
+    12
+    13	Starting only from the sealed background metric
+    14
+    15	\[
+    16	g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
+    17	\]
+    18
+    19	and the diagonal synchronous perturbation
+    20
+    21	\[
+    22	g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
+    23	\]
+    24
+    25	the diagonal Bianchi-I Ricci tensor is
+    26
+    27	\[
+    28	R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
+    29	\]
+    30
+    31	with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
+    32	Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
+    33
+    34	\[
+    35	\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
+    36	\]
+    37
+    38	so the exact first-order ODEs are
+    39
+    40	\[
+    41	\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
+    42	\]
+    43
+    44	plus the time/Hamiltonian relation
+    45
+    46	\[
+    47	\frac{V-\sum_i p_i v_i}{T}=\lambda.
+    48	\]
+    49
+    50	Solving these directly gives
+    51
+    52	\[
+    53	u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
+    54	\]
+    55
+    56	with
+    57
+    58	\[
+    59	\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
+    60	\]
+    61
+    62	For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
+    63
+    64	\[
+    65	(q_1,q_2,q_3)=q(0,1,-1).
+    66	\]
+    67
+    68	Hence the complete declared sector has exactly six constants:
+    69
+    70	- `tau`: one residual time-origin gauge constant;
+    71	- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
+    72	- `q`: one genuine local Kasner-shear constant;
+    73	- `lambda`: one connected scalar-curvature constant.
+    74
+    75	There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
+    76
+    77	## Classification checks
+    78
+    79	The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
+    80
+    81	\[
+    82	(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
+    83	\]
+    84
+    85	which is exactly the `p_i/T` mode up to the passive/active sign convention.
+    86
+    87	The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
+    88
+    89	\[
+    90	\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
+    91	\]
+    92
+    93	For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
+    94
+    95	The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
+    96
+    97	\[
+    98	\delta R=0,
+    99	\]
+   100
+   101	but the orthonormal electric-curvature split is
+   102
+   103	\[
+   104	\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
+   105	\]
+   106
+   107	so the mode is not gauge and is not an artifact of scalar blindness.
+   108
+   109	The scalar mode is the unique connected scalar-curvature direction:
+   110
+   111	\[
+   112	u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
+   113	\]
+   114
+   115	It is local, curvature-changing, and not a new source or action term.
+   116
+   117	## Replay, provenance, and boundaries
+   118
+   119	I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
+   120
+   121	I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
+   122
+   123	Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
+   124
+   125	On the exact preregistered question, the answer is yes in the stated bounded category.
+   126
+   127	ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_SCOPE.json | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "allowed_question": "R1 removal of one vacuous production assertion and unchanged bounded G325 landing",
+     3	  "ephemeral_copy_checks_allowed": true,
+     4	  "evidence_read_only": true,
+     5	  "internet_browsing_allowed": false,
+     6	  "law_history_scale_selection_allowed": false,
+     7	  "manifest_payload_count": 33,
+     8	  "protected_package_access_allowed": false,
+     9	  "purpose": "read-only repair-only verification of G325 R1",
+    10	  "repository_access_allowed": false,
+    11	  "research_continuation_allowed": false,
+    12	  "schema": "udt-g325-r1-repair-followup-scope-v1",
+    13	  "source_commit": "ec760b8711b11bd8b0ee0e1815aa90f5cacd7a96"
+    14	}
+
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_MANIFEST.sha256 | sed -n '1,20p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/REVIEW_MANIFEST.tsv | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04
+
+ succeeded in 0ms:
+     1	relative_path	bytes	sha256
+     2	ADVERSARIAL_REVIEW_REQUEST.md	2125	970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1
+     3	CATCH_PROOF_RESULT.json	344	7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609
+     4	COMPLETENESS_MAP.md	1149	d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6
+     5	DERIVATION_RESULT.json	2421	1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71
+     6	EVIDENCE_GATES.md	1084	3673935c37bd8b1fcd5bcc91ed6cdc012cfd4cef1e3918eb5d3654788b21c6ea
+     7	EXACT_DERIVATION.md	6336	993ffcb4a93970942c5781debeada36f20ae1f86e2010d6864f53120ddef3574
+     8	EXTERNAL_REVIEW_FINAL_RESPONSE.md	117	3373afb9640c24899b152200d92491b6c0ca9f6e1055c9c2f1b121108748477c
+     9	EXTERNAL_REVIEW_RESPONSE.md	5341	84cc1ef072368588019a0fb32eb10d4ff9def022051ff0331a329d71d6903ed3
+    10	EXTERNAL_REVIEW_TRANSCRIPT.txt	187799	bcf449cfac9a31b281e19048a514ce9f3316d31ec557136d8808e44cda572465
+    11	EXTERNAL_REVIEW_TRANSMISSION.md	1526	85e63a6cd86566314c632601cc13889e0f4d5ceba3ddc99177715e29a0dd2d8f
+    12	INDEPENDENT_VERIFICATION.json	5231	103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94
+    13	LAY_REPORT.md	1355	cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769
+    14	MAP.md	1965	2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3
+    15	PREMISE_LEDGER.tsv	1797	43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176
+    16	PREREGISTRATION.md	3862	3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5
+    17	REPAIR_FOLLOWUP_REQUEST.md	1573	7c9c38f13eb65cddcc3203de1c3aa551c88e65279dc2bafbb1c66560fc66a710
+    18	REPAIR_LEDGER.tsv	537	c62bf2fe0b926d62e1564752dfb38b2f3e825c2f821cb4ee577a7cdef60abe6d
+    19	REPLAY_COMMANDS.txt	272	4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be
+    20	REVIEW_SCOPE.json	601	6c58facc105e81366773032db89e39e13d395696812e7e1e0ffe6df36f960f7a
+    21	RUN_RECORD.md	1125	d341c6fd6dc5d7c95062934953f6d605a84e7ce921bbbad37fa05bd1a04fd95c
+    22	SOURCE_SCOPE.tsv	590	f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05
+    23	STATUS_LEDGER.tsv	853	52231d307b633474c333ca91a81e6c518645620154c5b97837c2cb0dde8a1bb5
+    24	build_repair_followup_intake.py	4609	641417912e3c1ce331c32be8d4d2c33c1ba7a74f48e7fa9e0d0a819efec914a1
+    25	derive_modes.py	9600	7b1141de9a16a68c647a806af7d2935bc70c5b3b2a975e207203130e8b4d10cd
+    26	run_catch_proofs.py	3007	055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90
+    27	sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+    28	sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md	7725	a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0
+    29	sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	9131	186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b
+    30	sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md	7728	5563c949b952fd0ddd0365f58e24eb14894d8bdaae7cab8a6bc5fad983bee776
+    31	sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/PREMISE_LEDGER.tsv	2143	cae1cbd0028bc994296f326f7533f70f1587250afcfdf6e69e7f3cd925e5749b
+    32	verify_independent.py	10153	8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f
+    33	verify_package.py	5091	2f4b8829b557e44c7f25488fc7754fe9afdab4d92ba8e0972144fbede358fe77
+    34	verify_review_intake.py	1416	a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958
+
+exec
+/bin/bash -lc "nl -ba /intake/REPLAY_COMMANDS.txt | sed -n '1,20p'" in /return
+ succeeded in 0ms:
+     1	python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json
+     2	python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+     3	python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+     4	python3 -S verify_package.py
+
+exec
+/bin/bash -lc "nl -ba /intake/DERIVATION_RESULT.json | sed -n '1,120p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "Xmax_selected": false,
+     3	  "angular_sector_changed": false,
+     4	  "assertion_count": 36,
+     5	  "background_exponents": [
+     6	    "-1/3",
+     7	    "2/3",
+     8	    "2/3"
+     9	  ],
+    10	  "checks": [
+    11	    "background_kasner_sum",
+    12	    "background_kasner_square_sum",
+    13	    "exponent_constraint_rank_two",
+    14	    "kasner_shear_zero_trace",
+    15	    "kasner_shear_tangent_constraint",
+    16	    "kasner_shear_spans_one_dimensional_nullspace",
+    17	    "connected_scalar_particular_unique",
+    18	    "connected_scalar_metric_coefficients",
+    19	    "gauge_ode_solution",
+    20	    "tracefree_time_zero_0",
+    21	    "tracefree_space_zero_0",
+    22	    "einstein_time_0",
+    23	    "einstein_space_0",
+    24	    "scalar_curvature_four_lambda_0",
+    25	    "hamiltonian_constraint_0",
+    26	    "tracefree_time_zero_1",
+    27	    "tracefree_space_zero_1",
+    28	    "einstein_time_1",
+    29	    "einstein_space_1",
+    30	    "scalar_curvature_four_lambda_1",
+    31	    "hamiltonian_constraint_1",
+    32	    "tracefree_time_zero_2",
+    33	    "tracefree_space_zero_2",
+    34	    "einstein_time_2",
+    35	    "einstein_space_2",
+    36	    "scalar_curvature_four_lambda_2",
+    37	    "hamiltonian_constraint_2",
+    38	    "three_lattice_modulus_coordinates",
+    39	    "cover_scaling_vector_not_periodic",
+    40	    "zero_scaling_vector_periodic",
+    41	    "local_weyl_eigenvalue_split_nonzero",
+    42	    "local_weyl_eigenvalue_split_exact",
+    43	    "shear_log_secular_both_ends",
+    44	    "scalar_mode_quadratic_future_growth",
+    45	    "scalar_mode_zero_at_past_end",
+    46	    "time_shift_growth_is_gauge"
+    47	  ],
+    48	  "full_linear_stability_proved": false,
+    49	  "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+    50	  "inhomogeneous_modes_classified": false,
+    51	  "kernel_changed": false,
+    52	  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+    53	  "linearized_scalar_curvature": "4*lambda",
+    54	  "metric_changed": false,
+    55	  "mode_dimensions": {
+    56	    "connected_scalar_curvature": 1,
+    57	    "fixed_quotient_lattice_moduli": 3,
+    58	    "local_kasner_shear": 1,
+    59	    "residual_time_translation_gauge": 1
+    60	  },
+    61	  "nonlinear_stability_proved": false,
+    62	  "offdiagonal_modes_classified": false,
+    63	  "physical_occupancy_selected": false,
+    64	  "physical_scale_selected": false,
+    65	  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    66	  "schema": "udt-g325-homogeneous-diagonal-production-v1",
+    67	  "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+    68	  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+    69	}
+
+exec
+/bin/bash -lc "nl -ba /intake/REPAIR_LEDGER.tsv | sed -n '1,40p'" in /return
+ succeeded in 0ms:
+     1	repair	fresh_review_finding	bounded_change	scientific_change	verification
+     2	R1	derive_modes.py records time_shift_lie_derivative_witness using the tautology 2*P[index] == 2*P[index]	remove the vacuous production gate, reduce the declared production assertion count by one, regenerate the production artifact, and retain the independent direct Lie-derivative witness	none; the external reviewer independently derived the gauge mode and accepted the six-mode census	literal registered replay, exact artifact equality, and repair-only review
+
+exec
+/bin/bash -lc "nl -ba /intake/verify_review_intake.py | sed -n '1,120p'" in /return
+exec
+/bin/bash -lc "nl -ba /intake/STATUS_LEDGER.tsv | sed -n '1,40p'" in /return
+ succeeded in 0ms:
+     1	claim	status	scope
+     2	G325_mode_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	spatially homogeneous diagonal synchronous first variations of G324
+     3	time_shift_mode	DERIVED_GAUGE	local time-origin translation
+     4	constant_strains	DERIVED_QUOTIENT_MODULI	three diagonal fixed-T3 lattice directions
+     5	kasner_shear	DERIVED_CONDITIONAL	one local curvature-changing tangent at LRS Taub point
+     6	connected_scalar_mode	DERIVED_CONDITIONAL	one constant delta-R direction retained by trace-free Ricci
+     7	uniform_full_linear_stability	OPEN	nonzero Fourier and off-diagonal sectors absent; secular endpoint behavior
+     8	nonlinear_stability	OPEN	outside first variation
+     9	physical_occupancy	OPEN	no datum selected
+    10	physical_scale	OPEN	no ruler attachment
+    11	physical_Xmax	OPEN	not used or selected
+    12	metric_kernel_angular_change	NO_CHANGE	G325 is analysis of the adopted equation around G324
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Authenticate a sealed G325 review intake without repository access."""
+     3
+     4	from __future__ import annotations
+     5
+     6	import csv
+     7	import hashlib
+     8	import json
+     9	from pathlib import Path
+    10
+    11
+    12	def digest(path: Path) -> str:
+    13	    return hashlib.sha256(path.read_bytes()).hexdigest()
+    14
+    15
+    16	def main() -> None:
+    17	    root = Path(__file__).resolve().parent
+    18	    manifest = root / "REVIEW_MANIFEST.tsv"
+    19	    seal = root / "REVIEW_MANIFEST.sha256"
+    20	    scope = root / "REVIEW_SCOPE.json"
+    21	    assert digest(manifest) == seal.read_text().strip(), "detached manifest seal mismatch"
+    22	    rows = list(csv.DictReader(manifest.open(newline=""), delimiter="\t"))
+    23	    for row in rows:
+    24	        path = root / row["relative_path"]
+    25	        assert path.is_file(), row["relative_path"]
+    26	        assert path.stat().st_size == int(row["bytes"]), row["relative_path"]
+    27	        assert digest(path) == row["sha256"], row["relative_path"]
+    28	    metadata = json.loads(scope.read_text())
+    29	    assert len(rows) == metadata["manifest_payload_count"]
+    30	    assert metadata["evidence_read_only"] is True
+    31	    assert metadata["research_continuation_allowed"] is False
+    32	    print(json.dumps({
+    33	        "status": "PASS",
+    34	        "manifest_payload_count": len(rows),
+    35	        "total_file_count": len(rows) + 2,
+    36	        "manifest_sha256": digest(manifest),
+    37	        "scope_sha256": digest(scope),
+    38	    }, indent=2, sort_keys=True))
+    39
+    40
+    41	if __name__ == "__main__":
+    42	    main()
+
+exec
+/bin/bash -lc "nl -ba /intake/INDEPENDENT_VERIFICATION.json | sed -n '1,160p'" in /return
+ succeeded in 0ms:
+     1	{
+     2	  "assertion_count": 111,
+     3	  "checks": [
+     4	    "direct_tracefree_zero:constant_x:0:0",
+     5	    "direct_tracefree_zero:constant_x:0:1",
+     6	    "direct_tracefree_zero:constant_x:0:2",
+     7	    "direct_tracefree_zero:constant_x:0:3",
+     8	    "direct_tracefree_zero:constant_x:1:0",
+     9	    "direct_tracefree_zero:constant_x:1:1",
+    10	    "direct_tracefree_zero:constant_x:1:2",
+    11	    "direct_tracefree_zero:constant_x:1:3",
+    12	    "direct_tracefree_zero:constant_x:2:0",
+    13	    "direct_tracefree_zero:constant_x:2:1",
+    14	    "direct_tracefree_zero:constant_x:2:2",
+    15	    "direct_tracefree_zero:constant_x:2:3",
+    16	    "direct_tracefree_zero:constant_x:3:0",
+    17	    "direct_tracefree_zero:constant_x:3:1",
+    18	    "direct_tracefree_zero:constant_x:3:2",
+    19	    "direct_tracefree_zero:constant_x:3:3",
+    20	    "direct_scalar_zero:constant_x",
+    21	    "direct_tracefree_zero:constant_y:0:0",
+    22	    "direct_tracefree_zero:constant_y:0:1",
+    23	    "direct_tracefree_zero:constant_y:0:2",
+    24	    "direct_tracefree_zero:constant_y:0:3",
+    25	    "direct_tracefree_zero:constant_y:1:0",
+    26	    "direct_tracefree_zero:constant_y:1:1",
+    27	    "direct_tracefree_zero:constant_y:1:2",
+    28	    "direct_tracefree_zero:constant_y:1:3",
+    29	    "direct_tracefree_zero:constant_y:2:0",
+    30	    "direct_tracefree_zero:constant_y:2:1",
+    31	    "direct_tracefree_zero:constant_y:2:2",
+    32	    "direct_tracefree_zero:constant_y:2:3",
+    33	    "direct_tracefree_zero:constant_y:3:0",
+    34	    "direct_tracefree_zero:constant_y:3:1",
+    35	    "direct_tracefree_zero:constant_y:3:2",
+    36	    "direct_tracefree_zero:constant_y:3:3",
+    37	    "direct_scalar_zero:constant_y",
+    38	    "direct_tracefree_zero:constant_z:0:0",
+    39	    "direct_tracefree_zero:constant_z:0:1",
+    40	    "direct_tracefree_zero:constant_z:0:2",
+    41	    "direct_tracefree_zero:constant_z:0:3",
+    42	    "direct_tracefree_zero:constant_z:1:0",
+    43	    "direct_tracefree_zero:constant_z:1:1",
+    44	    "direct_tracefree_zero:constant_z:1:2",
+    45	    "direct_tracefree_zero:constant_z:1:3",
+    46	    "direct_tracefree_zero:constant_z:2:0",
+    47	    "direct_tracefree_zero:constant_z:2:1",
+    48	    "direct_tracefree_zero:constant_z:2:2",
+    49	    "direct_tracefree_zero:constant_z:2:3",
+    50	    "direct_tracefree_zero:constant_z:3:0",
+    51	    "direct_tracefree_zero:constant_z:3:1",
+    52	    "direct_tracefree_zero:constant_z:3:2",
+    53	    "direct_tracefree_zero:constant_z:3:3",
+    54	    "direct_scalar_zero:constant_z",
+    55	    "direct_tracefree_zero:gauge:0:0",
+    56	    "direct_tracefree_zero:gauge:0:1",
+    57	    "direct_tracefree_zero:gauge:0:2",
+    58	    "direct_tracefree_zero:gauge:0:3",
+    59	    "direct_tracefree_zero:gauge:1:0",
+    60	    "direct_tracefree_zero:gauge:1:1",
+    61	    "direct_tracefree_zero:gauge:1:2",
+    62	    "direct_tracefree_zero:gauge:1:3",
+    63	    "direct_tracefree_zero:gauge:2:0",
+    64	    "direct_tracefree_zero:gauge:2:1",
+    65	    "direct_tracefree_zero:gauge:2:2",
+    66	    "direct_tracefree_zero:gauge:2:3",
+    67	    "direct_tracefree_zero:gauge:3:0",
+    68	    "direct_tracefree_zero:gauge:3:1",
+    69	    "direct_tracefree_zero:gauge:3:2",
+    70	    "direct_tracefree_zero:gauge:3:3",
+    71	    "direct_scalar_zero:gauge",
+    72	    "direct_tracefree_zero:shear:0:0",
+    73	    "direct_tracefree_zero:shear:0:1",
+    74	    "direct_tracefree_zero:shear:0:2",
+    75	    "direct_tracefree_zero:shear:0:3",
+    76	    "direct_tracefree_zero:shear:1:0",
+    77	    "direct_tracefree_zero:shear:1:1",
+    78	    "direct_tracefree_zero:shear:1:2",
+    79	    "direct_tracefree_zero:shear:1:3",
+    80	    "direct_tracefree_zero:shear:2:0",
+    81	    "direct_tracefree_zero:shear:2:1",
+    82	    "direct_tracefree_zero:shear:2:2",
+    83	    "direct_tracefree_zero:shear:2:3",
+    84	    "direct_tracefree_zero:shear:3:0",
+    85	    "direct_tracefree_zero:shear:3:1",
+    86	    "direct_tracefree_zero:shear:3:2",
+    87	    "direct_tracefree_zero:shear:3:3",
+    88	    "direct_scalar_zero:shear",
+    89	    "direct_shear_curvature_split",
+    90	    "direct_tracefree_zero:scalar:0:0",
+    91	    "direct_tracefree_zero:scalar:0:1",
+    92	    "direct_tracefree_zero:scalar:0:2",
+    93	    "direct_tracefree_zero:scalar:0:3",
+    94	    "direct_tracefree_zero:scalar:1:0",
+    95	    "direct_tracefree_zero:scalar:1:1",
+    96	    "direct_tracefree_zero:scalar:1:2",
+    97	    "direct_tracefree_zero:scalar:1:3",
+    98	    "direct_tracefree_zero:scalar:2:0",
+    99	    "direct_tracefree_zero:scalar:2:1",
+   100	    "direct_tracefree_zero:scalar:2:2",
+   101	    "direct_tracefree_zero:scalar:2:3",
+   102	    "direct_tracefree_zero:scalar:3:0",
+   103	    "direct_tracefree_zero:scalar:3:1",
+   104	    "direct_tracefree_zero:scalar:3:2",
+   105	    "direct_tracefree_zero:scalar:3:3",
+   106	    "direct_scalar_mode_delta_R_four",
+   107	    "direct_time_shift_lie_derivative:0",
+   108	    "direct_time_shift_lie_derivative:1",
+   109	    "direct_time_shift_lie_derivative:2",
+   110	    "scaling_generator_fails_periodicity:x",
+   111	    "scaling_generator_fails_periodicity:y",
+   112	    "scaling_generator_fails_periodicity:z",
+   113	    "independent_q_trace_constraint",
+   114	    "independent_q_kasner_constraint"
+   115	  ],
+   116	  "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+   117	  "direct_tensor_modes": [
+   118	    "constant_x",
+   119	    "constant_y",
+   120	    "constant_z",
+   121	    "gauge",
+   122	    "shear",
+   123	    "scalar"
+   124	  ],
+   125	  "linearized_scalar_curvature": {
+   126	    "eps^0*T^0*log^0": "4"
+   127	  },
+   128	  "linearized_shear_curvature_split": {
+   129	    "eps^0*T^-2*log^0": "-2/3"
+   130	  },
+   131	  "production_imported": false,
+   132	  "production_result_read": false,
+   133	  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+   134	  "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+   135	  "status": "PASS",
+   136	  "time_shift_is_lie_derivative": true
+   137	}
+
+codex
+I have enough to decide the repair, but I’m checking the sealed derivation text once more for the “unchanged bounded landing” boundary: metric/equation/general solution/six-constant census and the explicit non-promotion beyond the already accepted grade.
+exec
+/bin/bash -lc "nl -ba /intake/LAY_REPORT.md | sed -n '1,200p'" in /return
+ succeeded in 0ms:
+     1	# G325 lay report
+     2
+     3	The G324 spacetime is not an isolated mathematical needle. In the complete “same everywhere on
+     4	each spatial slice, with no cross-terms” perturbation sector, nearby possibilities exist—but they
+     5	have four different meanings.
+     6
+     7	- One apparent change only moves the zero point of the time coordinate.
+     8	- Three changes alter the lengths and shape of the compact wraparound space. Locally they look
+     9	  like coordinate rescalings, but they cannot be removed by a well-defined coordinate change on
+    10	  the fixed torus.
+    11	- One change makes the two previously equal transverse directions expand at slightly different
+    12	  rates. It changes the local tidal field and is therefore genuine geometry.
+    13	- One change moves the spacetime into a neighboring constant-curvature branch already allowed by
+    14	  Universal Reciprocity's provisional trace-free equation. Its value remains free.
+    15
+    16	The local shear difference grows logarithmically relative to the chosen symmetric background, and
+    17	the constant-curvature mode grows quadratically toward the expanding end. Consequently this is
+    18	evidence of real neighboring UDT histories, not proof that the G324 spacetime is stable.
+    19
+    20	This result changes no UDT metric, reciprocal kernel, angular cancellation, premise, scale, or
+    21	physical `X_max`. Spatially varying waves and cross-direction modes remain to be classified.
+
+exec
+/bin/bash -lc "nl -ba /intake/EXACT_DERIVATION.md | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	# G325 exact derivation — homogeneous diagonal modes around the G324 quotient
+     2
+     3	Date: 2026-09-02
+     4	Status: `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`
+     5
+     6	## 1. Bounded question
+     7
+     8	On every compact G324 Taub quotient, classify the complete spatially homogeneous diagonal
+     9	synchronous first variation of the active bounded equation
+    10
+    11	\[
+    12	S_{ab}:=R_{ab}-\frac14R g_{ab}=0.
+    13	\tag{1}
+    14	\]
+    15
+    16	This is a first-variation theorem on compact time intervals inside `T>0`. It is not a nonlinear or
+    17	full linear-stability statement.
+    18
+    19	After G324's proper-time and constant spatial-coordinate changes, the local metric is
+    20
+    21	\[
+    22	g_0=-dT^2+\sum_{i=1}^3 C_i^2T^{2p_i}(dx^i)^2,
+    23	\qquad
+    24	(p_1,p_2,p_3)=\left(-\frac13,\frac23,\frac23\right).
+    25	\tag{2}
+    26	\]
+    27
+    28	The constants `C_i` retain the quotient lattice attachment. Write
+    29
+    30	\[
+    31	g_{ii}=C_i^2T^{2p_i}\left[1+2\epsilon u_i(T)\right]+O(\epsilon^2).
+    32	\tag{3}
+    33	\]
+    34
+    35	## 2. Direct metric equations
+    36
+    37	For a diagonal Bianchi-I metric let
+    38
+    39	\[
+    40	\alpha_i=\log C_i+p_i\log T+\epsilon u_i,
+    41	\qquad H_i=\dot\alpha_i,
+    42	\qquad \theta=\sum_iH_i.
+    43	\]
+    44
+    45	A direct Christoffel and Ricci calculation gives
+    46
+    47	\[
+    48	R_{00}=-\sum_i(\dot H_i+H_i^2),
+    49	\qquad
+    50	\frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i.
+    51	\tag{4}
+    52	\]
+    53
+    54	The background satisfies both Kasner identities, `sum p_i=sum p_i^2=1`, and is Ricci-flat.
+    55	The trace-free equation plus the contracted Bianchi identity makes any connected regular solution
+    56	Einstein with a spacetime constant. At first order write that free constant as `lambda`:
+    57
+    58	\[
+    59	\delta R_{ab}=\lambda (g_0)_{ab},
+    60	\qquad \delta R=4\lambda,
+    61	\qquad d\lambda=0.
+    62	\tag{5}
+    63	\]
+    64
+    65	This does not add a cosmological source or select `lambda`; it retains the regional scalar datum
+    66	already present in G303/G310--G313.
+    67
+    68	With `v_i=dot u_i` and `V=sum v_i`, direct linearization of (4) gives
+    69
+    70	\[
+    71	\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,
+    72	\tag{6}
+    73	\]
+    74
+    75	and the time equation is
+    76
+    77	\[
+    78	\sum_i\left(\dot v_i+\frac{2p_iv_i}{T}\right)=\lambda.
+    79	\tag{7}
+    80	\]
+    81
+    82	Equivalently, the linearized Hamiltonian constraint is
+    83
+    84	\[
+    85	\frac{V-\sum_i p_iv_i}{T}=\lambda.
+    86	\tag{8}
+    87	\]
+    88
+    89	The direct tensor verifier reconstructs (4)--(8) from (3), rather than importing the production
+    90	ODE.
+    91
+    92	## 3. General solution and completeness in the declared sector
+    93
+    94	Set `s=log(T/T_ref)`, `w_i=T v_i`, and `W=sum w_i`. Equation (6) becomes
+    95
+    96	\[
+    97	\frac{dw_i}{ds}+p_iW=\lambda T^2.
+    98	\tag{9}
+    99	\]
+   100
+   101	Summing gives
+   102
+   103	\[
+   104	\frac{dW}{ds}+W=3\lambda T^2,
+   105	\]
+   106
+   107	so
+   108
+   109	\[
+   110	W=\lambda T^2-\frac{G}{T}.
+   111	\tag{10}
+   112	\]
+   113
+   114	Substitution into (9), integration, and (8) give the complete solution
+   115
+   116	\[
+   117	\boxed{
+   118	u_i(T)=c_i+q_i\log\frac{T}{T_{\rm ref}}
+   119	       +\frac{p_iG}{T}
+   120	       +\frac{1-p_i}{4}\lambda T^2
+   121	}
+   122	\tag{11}
+   123	\]
+   124
+   125	with
+   126
+   127	\[
+   128	\sum_iq_i=0,
+   129	\qquad
+   130	\sum_ip_iq_i=0.
+   131	\tag{12}
+   132	\]
+   133
+   134	The two rows in (12) have rank two. At the LRS Taub point their one-dimensional nullspace is
+   135
+   136	\[
+   137	(q_1,q_2,q_3)=q(0,1,-1).
+   138	\tag{13}
+   139	\]
+   140
+   141	Changing `T_ref` only shifts the `c_i`; it adds no parameter. Thus (11) contains exactly six
+   142	independent constants: three `c_i`, one `q`, one `G`, and one `lambda`.
+   143
+   144	## 4. Gauge versus compact-lattice modes
+   145
+   146	The `G` term is the Lie derivative generated by a shift of the Kasner time origin. Indeed, for
+   147	`xi=G partial_T`,
+   148
+   149	\[
+   150	(\mathcal L_\xi g_0)_{ii}=G\partial_T(g_0)_{ii}
+   151	=2g_{0,ii}\frac{p_iG}{T}.
+   152	\tag{14}
+   153	\]
+   154
+   155	It is therefore residual synchronous gauge, equivalently the tangent to the exact replacement
+   156	`T -> T+epsilon G` after translating the singular-time origin.
+   157
+   158	Each constant `c_i` is locally generated on the universal cover by a coordinate scaling
+   159	`xi=c_i x^i partial_i`. On a quotient circle of period `L_i`, however,
+   160
+   161	\[
+   162	\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
+   163	\tag{15}
+   164	\]
+   165
+   166	Unless `c_i=0`, that vector field is not single-valued and is not a diffeomorphism generator of
+   167	the fixed torus. The three constants are therefore global quotient-lattice modes, not local
+   168	curvature modes and not legal fixed-quotient gauge.
+   169
+   170	An invertible decomposition is
+   171
+   172	\[
+   173	\delta\log V_{\rm lattice}=c_1+c_2+c_3,
+   174	\]
+   175
+   176	\[
+   177	\delta\log Q_X=c_1-\frac12(c_2+c_3),
+   178	\qquad
+   179	\delta\log A_\perp=c_2-c_3.
+   180	\tag{16}
+   181	\]
+   182
+   183	The middle channel is the infinitesimal form of G323's registered axial/transverse modulus. The
+   184	other two extend the diagonal fixed-quotient census; they do not imply physical population or an
+   185	observed ruler scale.
+   186
+   187	## 5. Genuine local modes
+   188
+   189	The `q` mode is tangent to the exact Kasner circle:
+   190
+   191	\[
+   192	p_2=\frac23+\epsilon q,
+   193	\qquad
+   194	p_3=\frac23-\epsilon q,
+   195	\qquad
+   196	p_1=-\frac13+O(\epsilon^2).
+   197	\tag{17}
+   198	\]
+   199
+   200	It is not gauge. In an orthonormal frame the electric curvature eigenvalues split by
+   201
+   202	\[
+   203	\boxed{
+   204	\delta(E_y-E_z)=-\frac{2q}{3T^2}
+   205	}.
+   206	\tag{18}
+   207	\]
+   208
+   209	The independent direct Riemann engine recovers (18). Scalar polynomial invariants can miss this
+   210	at first order because the background is symmetric under interchange of `y` and `z`; the tensor
+   211	eigenvalue splitting does not.
+   212
+   213	The `lambda` mode is also local and invariant:
+   214
+   215	\[
+   216	\boxed{\delta R=4\lambda.}
+   217	\tag{19}
+   218	\]
+   219
+   220	It moves away from the Ricci-flat G324 sector into a neighboring constant-scalar sector allowed by
+
+exec
+/bin/bash -lc "nl -ba /intake/PREMISE_LEDGER.tsv | sed -n '1,80p'" in /return
+ succeeded in 0ms:
+     1	item	status	role	forbidden_promotion
+     2	Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	upstream bounded dynamics ownership	derived theorem or canon
+     3	Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	local finite-jet response scope	unique possible response principle
+     4	quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature bounded arena	vacuum GR imported as UDT theorem
+     5	tracefree_Ricci	CONDITIONAL_ACTIVE_EQUATION	linearized equation in bounded regular vacuum	full UDT field equation in every sector
+     6	G324_Taub_quotient	DERIVED_CONDITIONAL_EXTERNALLY_ACCEPTED	exact background MGHD family	selected physical universe
+     7	proper_time_synchronous_chart	PINNED_BY_G324_METRIC_PLUS_CATEGORY_A_GAUGE	makes the homogeneous diagonal equations explicit	preferred physical clock slicing
+     8	registered_split_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	fixed quotient for gauge-versus-modulus test	physical topology
+     9	homogeneous_diagonal_sector	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	complete zero-Fourier diagonal census	complete perturbation space
+    10	linear_amplitude	CHOSE_CONTROLLED_FIRST_VARIATION	derivative of exact covariant residual at the G324 metric	nonlinear stability
+    11	perturbation_constants	FREE_AND_EXPLORED	all constants admitted by the sector equations	observed or populated values
+    12	connected_scalar_variation	FREE_AND_EXPLORED	G303/G310 regional scalar datum at first order	selected cosmological scale
+    13	periodic_quotient_diffeomorphisms	PINNED_BY_QUOTIENT_GEOMETRY	legal gauge transformations on fixed T3	arbitrary cover coordinate rescalings
+    14	tensor_algebra_and_ODE_solution	CATEGORY_A_MATHEMATICAL_METHOD	exact classification method	new UDT mechanism
+    15	c_E	OBSERVED_ANCHOR_INACTIVE	not used	perturbation selector
+    16	X_max	OPEN_INACTIVE	excluded	boundary condition or selected scale
+
+exec
+/bin/bash -lc "nl -ba /intake/EXACT_DERIVATION.md | sed -n '220,320p'" in /return
+ succeeded in 0ms:
+   220	It moves away from the Ricci-flat G324 sector into a neighboring constant-scalar sector allowed by
+   221	the active trace-free equation. The equation does not set its numerical value.
+   222
+   223	## 6. Time behavior and controlled linear scope
+   224
+   225	On any compact interval `0<T_min<=T<=T_max<infinity`, choose `epsilon` so that every
+   226	`|epsilon u_i|` is small. The first variation is then controlled with omitted metric terms
+   227	`O(epsilon^2 max |u|^2)`.
+   228
+   229	Globally in time:
+   230
+   231	- the quotient-lattice modes are constant;
+   232	- the Kasner-shear mode grows as `log T` in relative metric amplitude toward both logarithmic ends;
+   233	- the scalar mode grows as `T^2` toward the future and tends to zero toward `T=0`;
+   234	- the `1/T` growth toward `T=0` is the time-origin gauge mode.
+   235
+   236	Therefore this calculation does **not** prove uniform linear stability on the full MGHD. The shear
+   237	is an exact tangent to neighboring Kasner histories, so its secular logarithm shows departure from
+   238	the chosen LRS representative, not a nonlinear instability theorem.
+   239
+   240	## 7. Bounded landing
+   241
+   242	```text
+   243	HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI
+   244	__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM
+   245	```
+   246
+   247	Still open: off-diagonal homogeneous modes, every nonzero Fourier mode, nonlinear mode coupling,
+   248	full stability, other quotient lattices/topologies, physical occupancy, scale, matter/mass,
+   249	observations, and physical `X_max`. No metric, reciprocal-kernel, or angular-sector formula changed.
+
+codex
+I’ve finished the review logic. I’m writing the sealed follow-up report to `/return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md` now, with the evidence chain, replay results, and a repair-only verdict.
+apply patch
+patch: completed
+/return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..437969cf96040cb319d1a24ec6d94b96b8041494
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,69 @@
++# External Repair Follow-Up Review — G325 R1
++
++## Scope and method
++
++I treated this as a fresh zero-context, repair-only review. I inspected only `/intake`, used `/work` for ephemeral replay, did not edit evidence files, and did not reopen the scientific question. The sealed scope explicitly limits review to R1 and unchanged bounded support: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:2), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:9), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:11).
++
++## Authentication
++
++I authenticated the intake before relying on any scientific or replay claims.
++
++- The detached seal matches the manifest SHA-256. `REVIEW_MANIFEST.sha256` contains `151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04`: [REVIEW_MANIFEST.sha256](/intake/REVIEW_MANIFEST.sha256:1). A direct `sha256sum /intake/REVIEW_MANIFEST.tsv` returned the same digest.
++- The scope file hash also matches the manifest entry: [REVIEW_MANIFEST.tsv](/intake/REVIEW_MANIFEST.tsv:20).
++- The manifest registers 33 payloads, consistent with the scope metadata: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [verify_review_intake.py](/intake/verify_review_intake.py:22), [verify_review_intake.py](/intake/verify_review_intake.py:29).
++- I ran `python3 -S /intake/verify_review_intake.py` from `/work`; it returned `status: PASS`, `manifest_payload_count: 33`, `total_file_count: 35`. The verifier checks file presence, byte counts, and SHA-256 for every manifest payload: [verify_review_intake.py](/intake/verify_review_intake.py:21), [verify_review_intake.py](/intake/verify_review_intake.py:23), [verify_review_intake.py](/intake/verify_review_intake.py:27), [verify_review_intake.py](/intake/verify_review_intake.py:32).
++
++## R1 verification
++
++### 1. Vacuous production assertion removed
++
++Registered R1 states that `derive_modes.py` had recorded `time_shift_lie_derivative_witness` as the tautology `2*P[index] == 2*P[index]`, and required removal of that production gate while retaining the independent witness: [REPAIR_LEDGER.tsv](/intake/REPAIR_LEDGER.tsv:2).
++
++In the current sealed `derive_modes.py`, the gauge section contains only the substantive ODE check
++`gauge_ode_solution` at lines 141-145, followed immediately by the sample residual checks at line 147: [derive_modes.py](/intake/derive_modes.py:141), [derive_modes.py](/intake/derive_modes.py:145), [derive_modes.py](/intake/derive_modes.py:147). The current source does not record `time_shift_lie_derivative_witness`, and the current production artifact check list omits it as well: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:10), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:46).
++
++### 2. Production accounting is now 36, and the aggregate verifier expects 36 production assertions
++
++The banked production artifact declares `assertion_count: 36`: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:4). The current `derive_modes.py` writes `"assertion_count": len(checks)` into the artifact: [derive_modes.py](/intake/derive_modes.py:198), [derive_modes.py](/intake/derive_modes.py:202).
++
++The aggregate verifier now explicitly requires the production artifact to carry 36 assertions:
++[verify_package.py](/intake/verify_package.py:37), [verify_package.py](/intake/verify_package.py:38). I also ran the literal fourth registered command, `python3 -S verify_package.py`, in the ephemeral copy; it exited successfully and passed its `production_assertion_count` gate. Its own aggregate result has `assertion_count: 37`, but that is the verifier's total number of checks, not a reversion of the production artifact to 37. On the repair question actually posed, the production accounting is consistent.
++
++### 3. Literal four-command replay reproduced the three banked JSON artifacts exactly
++
++The registered commands are exactly these four lines: [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:1), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:2), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:3), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:4).
++
++I copied `/intake` to a fresh writable directory under `/work/g325_r1_review.pfA9w4` and ran those four commands literally there. All four exited with code 0. For the first three commands, I checked exact artifact equality against the banked intake files with `cmp -s`; all three comparisons returned `0`. I also compared SHA-256 digests:
++
++- `DERIVATION_RESULT.json`: regenerated and banked both `1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71`
++- `INDEPENDENT_VERIFICATION.json`: regenerated and banked both `103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94`
++- `CATCH_PROOF_RESULT.json`: regenerated and banked both `7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609`
++
++This satisfies the exact replay requirement, not merely semantic JSON equality.
++
++### 4. The genuine independent direct Lie-derivative witness remains, and the external derivation still supports the gauge classification
++
++The independent verifier still contains the direct Lie-derivative calculation in synchronous coordinates:
++[verify_independent.py](/intake/verify_independent.py:221), [verify_independent.py](/intake/verify_independent.py:227). It computes the gauge mode metric directly, differentiates the background metric, and gates equality componentwise as `direct_time_shift_lie_derivative:{spatial}`. The banked independent artifact records those checks and `time_shift_is_lie_derivative: true`: [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:107), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:109), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:136).
++
++The external review's own derivation remains present in the sealed intake and still supports classification of the `1/T` mode as residual time-origin gauge. It derives the six-constant solution
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:50), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:75),
++then states the time-shift classification directly via the Lie derivative
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:79), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:85).
++
++## Unchanged bounded landing
++
++R1 did not reopen or change the scientific landing supported in the sealed intake.
++
++- The adopted bounded equation and background metric are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:12), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:22), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:25).
++- The general solution and six-constant census are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:117), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:142).
++- The gauge, quotient-modulus, local shear, and connected scalar classifications are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:146), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:168), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:203), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:216).
++- The bounded non-promotion remains explicit: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:236), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:247), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:249), [LAY_REPORT.md](/intake/LAY_REPORT.md:16), [LAY_REPORT.md](/intake/LAY_REPORT.md:20).
++- The banked production artifact still carries the same landing token, same mode dimensions, and the same open-sector flags: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:49), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:52), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:55), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:61), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:64), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:67).
++- The status ledger still keeps the result at the already bounded grade, with full linear stability, nonlinear stability, occupancy, scale, and `X_max` all open, and with no metric/kernel/angular change: [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:2), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:7), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:12).
++
++## Verdict
++
++R1 is complete. The vacuous production assertion has been removed from `derive_modes.py`; the production artifact now declares 36 assertions; the aggregate verifier now expects 36 production assertions; the four registered commands replay literally and reproduce the three banked JSON artifacts byte-for-byte; the independent direct Lie-derivative witness remains intact; and the already accepted bounded G325 landing remains unchanged and supported within the sealed scope.
++
++ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING
+
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..437969cf96040cb319d1a24ec6d94b96b8041494
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,69 @@
++# External Repair Follow-Up Review — G325 R1
++
++## Scope and method
++
++I treated this as a fresh zero-context, repair-only review. I inspected only `/intake`, used `/work` for ephemeral replay, did not edit evidence files, and did not reopen the scientific question. The sealed scope explicitly limits review to R1 and unchanged bounded support: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:2), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:9), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:11).
++
++## Authentication
++
++I authenticated the intake before relying on any scientific or replay claims.
++
++- The detached seal matches the manifest SHA-256. `REVIEW_MANIFEST.sha256` contains `151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04`: [REVIEW_MANIFEST.sha256](/intake/REVIEW_MANIFEST.sha256:1). A direct `sha256sum /intake/REVIEW_MANIFEST.tsv` returned the same digest.
++- The scope file hash also matches the manifest entry: [REVIEW_MANIFEST.tsv](/intake/REVIEW_MANIFEST.tsv:20).
++- The manifest registers 33 payloads, consistent with the scope metadata: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [verify_review_intake.py](/intake/verify_review_intake.py:22), [verify_review_intake.py](/intake/verify_review_intake.py:29).
++- I ran `python3 -S /intake/verify_review_intake.py` from `/work`; it returned `status: PASS`, `manifest_payload_count: 33`, `total_file_count: 35`. The verifier checks file presence, byte counts, and SHA-256 for every manifest payload: [verify_review_intake.py](/intake/verify_review_intake.py:21), [verify_review_intake.py](/intake/verify_review_intake.py:23), [verify_review_intake.py](/intake/verify_review_intake.py:27), [verify_review_intake.py](/intake/verify_review_intake.py:32).
++
++## R1 verification
++
++### 1. Vacuous production assertion removed
++
++Registered R1 states that `derive_modes.py` had recorded `time_shift_lie_derivative_witness` as the tautology `2*P[index] == 2*P[index]`, and required removal of that production gate while retaining the independent witness: [REPAIR_LEDGER.tsv](/intake/REPAIR_LEDGER.tsv:2).
++
++In the current sealed `derive_modes.py`, the gauge section contains only the substantive ODE check
++`gauge_ode_solution` at lines 141-145, followed immediately by the sample residual checks at line 147: [derive_modes.py](/intake/derive_modes.py:141), [derive_modes.py](/intake/derive_modes.py:145), [derive_modes.py](/intake/derive_modes.py:147). The current source does not record `time_shift_lie_derivative_witness`, and the current production artifact check list omits it as well: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:10), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:46).
++
++### 2. Production accounting is now 36, and the aggregate verifier expects 36 production assertions
++
++The banked production artifact declares `assertion_count: 36`: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:4). The current `derive_modes.py` writes `"assertion_count": len(checks)` into the artifact: [derive_modes.py](/intake/derive_modes.py:198), [derive_modes.py](/intake/derive_modes.py:202).
++
++The aggregate verifier now explicitly requires the production artifact to carry 36 assertions:
++[verify_package.py](/intake/verify_package.py:37), [verify_package.py](/intake/verify_package.py:38). I also ran the literal fourth registered command, `python3 -S verify_package.py`, in the ephemeral copy; it exited successfully and passed its `production_assertion_count` gate. Its own aggregate result has `assertion_count: 37`, but that is the verifier's total number of checks, not a reversion of the production artifact to 37. On the repair question actually posed, the production accounting is consistent.
++
++### 3. Literal four-command replay reproduced the three banked JSON artifacts exactly
++
++The registered commands are exactly these four lines: [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:1), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:2), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:3), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:4).
++
++I copied `/intake` to a fresh writable directory under `/work/g325_r1_review.pfA9w4` and ran those four commands literally there. All four exited with code 0. For the first three commands, I checked exact artifact equality against the banked intake files with `cmp -s`; all three comparisons returned `0`. I also compared SHA-256 digests:
++
++- `DERIVATION_RESULT.json`: regenerated and banked both `1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71`
++- `INDEPENDENT_VERIFICATION.json`: regenerated and banked both `103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94`
++- `CATCH_PROOF_RESULT.json`: regenerated and banked both `7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609`
++
++This satisfies the exact replay requirement, not merely semantic JSON equality.
++
++### 4. The genuine independent direct Lie-derivative witness remains, and the external derivation still supports the gauge classification
++
++The independent verifier still contains the direct Lie-derivative calculation in synchronous coordinates:
++[verify_independent.py](/intake/verify_independent.py:221), [verify_independent.py](/intake/verify_independent.py:227). It computes the gauge mode metric directly, differentiates the background metric, and gates equality componentwise as `direct_time_shift_lie_derivative:{spatial}`. The banked independent artifact records those checks and `time_shift_is_lie_derivative: true`: [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:107), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:109), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:136).
++
++The external review's own derivation remains present in the sealed intake and still supports classification of the `1/T` mode as residual time-origin gauge. It derives the six-constant solution
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:50), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:75),
++then states the time-shift classification directly via the Lie derivative
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:79), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:85).
++
++## Unchanged bounded landing
++
++R1 did not reopen or change the scientific landing supported in the sealed intake.
++
++- The adopted bounded equation and background metric are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:12), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:22), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:25).
++- The general solution and six-constant census are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:117), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:142).
++- The gauge, quotient-modulus, local shear, and connected scalar classifications are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:146), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:168), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:203), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:216).
++- The bounded non-promotion remains explicit: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:236), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:247), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:249), [LAY_REPORT.md](/intake/LAY_REPORT.md:16), [LAY_REPORT.md](/intake/LAY_REPORT.md:20).
++- The banked production artifact still carries the same landing token, same mode dimensions, and the same open-sector flags: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:49), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:52), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:55), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:61), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:64), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:67).
++- The status ledger still keeps the result at the already bounded grade, with full linear stability, nonlinear stability, occupancy, scale, and `X_max` all open, and with no metric/kernel/angular change: [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:2), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:7), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:12).
++
++## Verdict
++
++R1 is complete. The vacuous production assertion has been removed from `derive_modes.py`; the production artifact now declares 36 assertions; the aggregate verifier now expects 36 production assertions; the four registered commands replay literally and reproduce the three banked JSON artifacts byte-for-byte; the independent direct Lie-derivative witness remains intact; and the already accepted bounded G325 landing remains unchanged and supported within the sealed scope.
++
++ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING
+
+codex
+The report is written. I’m doing one final readback to confirm the file path, the closing token, and that I didn’t accidentally append anything after the verdict line.
+exec
+/bin/bash -lc 'tail -n 5 /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md' in /return
+ succeeded in 0ms:
+## Verdict
+
+R1 is complete. The vacuous production assertion has been removed from `derive_modes.py`; the production artifact now declares 36 assertions; the aggregate verifier now expects 36 production assertions; the four registered commands replay literally and reproduce the three banked JSON artifacts byte-for-byte; the independent direct Lie-derivative witness remains intact; and the already accepted bounded G325 landing remains unchanged and supported within the sealed scope.
+
+ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING
+
+exec
+/bin/bash -lc 'wc -l /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md' in /return
+ succeeded in 0ms:
+69 /return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..437969cf96040cb319d1a24ec6d94b96b8041494
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,69 @@
++# External Repair Follow-Up Review — G325 R1
++
++## Scope and method
++
++I treated this as a fresh zero-context, repair-only review. I inspected only `/intake`, used `/work` for ephemeral replay, did not edit evidence files, and did not reopen the scientific question. The sealed scope explicitly limits review to R1 and unchanged bounded support: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:2), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:9), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:11).
++
++## Authentication
++
++I authenticated the intake before relying on any scientific or replay claims.
++
++- The detached seal matches the manifest SHA-256. `REVIEW_MANIFEST.sha256` contains `151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04`: [REVIEW_MANIFEST.sha256](/intake/REVIEW_MANIFEST.sha256:1). A direct `sha256sum /intake/REVIEW_MANIFEST.tsv` returned the same digest.
++- The scope file hash also matches the manifest entry: [REVIEW_MANIFEST.tsv](/intake/REVIEW_MANIFEST.tsv:20).
++- The manifest registers 33 payloads, consistent with the scope metadata: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [verify_review_intake.py](/intake/verify_review_intake.py:22), [verify_review_intake.py](/intake/verify_review_intake.py:29).
++- I ran `python3 -S /intake/verify_review_intake.py` from `/work`; it returned `status: PASS`, `manifest_payload_count: 33`, `total_file_count: 35`. The verifier checks file presence, byte counts, and SHA-256 for every manifest payload: [verify_review_intake.py](/intake/verify_review_intake.py:21), [verify_review_intake.py](/intake/verify_review_intake.py:23), [verify_review_intake.py](/intake/verify_review_intake.py:27), [verify_review_intake.py](/intake/verify_review_intake.py:32).
++
++## R1 verification
++
++### 1. Vacuous production assertion removed
++
++Registered R1 states that `derive_modes.py` had recorded `time_shift_lie_derivative_witness` as the tautology `2*P[index] == 2*P[index]`, and required removal of that production gate while retaining the independent witness: [REPAIR_LEDGER.tsv](/intake/REPAIR_LEDGER.tsv:2).
++
++In the current sealed `derive_modes.py`, the gauge section contains only the substantive ODE check
++`gauge_ode_solution` at lines 141-145, followed immediately by the sample residual checks at line 147: [derive_modes.py](/intake/derive_modes.py:141), [derive_modes.py](/intake/derive_modes.py:145), [derive_modes.py](/intake/derive_modes.py:147). The current source does not record `time_shift_lie_derivative_witness`, and the current production artifact check list omits it as well: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:10), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:46).
++
++### 2. Production accounting is now 36, and the aggregate verifier expects 36 production assertions
++
++The banked production artifact declares `assertion_count: 36`: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:4). The current `derive_modes.py` writes `"assertion_count": len(checks)` into the artifact: [derive_modes.py](/intake/derive_modes.py:198), [derive_modes.py](/intake/derive_modes.py:202).
++
++The aggregate verifier now explicitly requires the production artifact to carry 36 assertions:
++[verify_package.py](/intake/verify_package.py:37), [verify_package.py](/intake/verify_package.py:38). I also ran the literal fourth registered command, `python3 -S verify_package.py`, in the ephemeral copy; it exited successfully and passed its `production_assertion_count` gate. Its own aggregate result has `assertion_count: 37`, but that is the verifier's total number of checks, not a reversion of the production artifact to 37. On the repair question actually posed, the production accounting is consistent.
++
++### 3. Literal four-command replay reproduced the three banked JSON artifacts exactly
++
++The registered commands are exactly these four lines: [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:1), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:2), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:3), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:4).
++
++I copied `/intake` to a fresh writable directory under `/work/g325_r1_review.pfA9w4` and ran those four commands literally there. All four exited with code 0. For the first three commands, I checked exact artifact equality against the banked intake files with `cmp -s`; all three comparisons returned `0`. I also compared SHA-256 digests:
++
++- `DERIVATION_RESULT.json`: regenerated and banked both `1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71`
++- `INDEPENDENT_VERIFICATION.json`: regenerated and banked both `103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94`
++- `CATCH_PROOF_RESULT.json`: regenerated and banked both `7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609`
++
++This satisfies the exact replay requirement, not merely semantic JSON equality.
++
++### 4. The genuine independent direct Lie-derivative witness remains, and the external derivation still supports the gauge classification
++
++The independent verifier still contains the direct Lie-derivative calculation in synchronous coordinates:
++[verify_independent.py](/intake/verify_independent.py:221), [verify_independent.py](/intake/verify_independent.py:227). It computes the gauge mode metric directly, differentiates the background metric, and gates equality componentwise as `direct_time_shift_lie_derivative:{spatial}`. The banked independent artifact records those checks and `time_shift_is_lie_derivative: true`: [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:107), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:109), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:136).
++
++The external review's own derivation remains present in the sealed intake and still supports classification of the `1/T` mode as residual time-origin gauge. It derives the six-constant solution
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:50), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:75),
++then states the time-shift classification directly via the Lie derivative
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:79), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:85).
++
++## Unchanged bounded landing
++
++R1 did not reopen or change the scientific landing supported in the sealed intake.
++
++- The adopted bounded equation and background metric are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:12), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:22), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:25).
++- The general solution and six-constant census are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:117), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:142).
++- The gauge, quotient-modulus, local shear, and connected scalar classifications are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:146), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:168), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:203), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:216).
++- The bounded non-promotion remains explicit: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:236), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:247), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:249), [LAY_REPORT.md](/intake/LAY_REPORT.md:16), [LAY_REPORT.md](/intake/LAY_REPORT.md:20).
++- The banked production artifact still carries the same landing token, same mode dimensions, and the same open-sector flags: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:49), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:52), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:55), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:61), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:64), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:67).
++- The status ledger still keeps the result at the already bounded grade, with full linear stability, nonlinear stability, occupancy, scale, and `X_max` all open, and with no metric/kernel/angular change: [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:2), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:7), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:12).
++
++## Verdict
++
++R1 is complete. The vacuous production assertion has been removed from `derive_modes.py`; the production artifact now declares 36 assertions; the aggregate verifier now expects 36 production assertions; the four registered commands replay literally and reproduce the three banked JSON artifacts byte-for-byte; the independent direct Lie-derivative witness remains intact; and the already accepted bounded G325 landing remains unchanged and supported within the sealed scope.
++
++ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING
+
+codex
+ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING
+
+Report: [EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md](/return/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md)
+diff --git a/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..437969cf96040cb319d1a24ec6d94b96b8041494
+--- /dev/null
++++ b/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md
+@@ -0,0 +1,69 @@
++# External Repair Follow-Up Review — G325 R1
++
++## Scope and method
++
++I treated this as a fresh zero-context, repair-only review. I inspected only `/intake`, used `/work` for ephemeral replay, did not edit evidence files, and did not reopen the scientific question. The sealed scope explicitly limits review to R1 and unchanged bounded support: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:2), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:9), [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:11).
++
++## Authentication
++
++I authenticated the intake before relying on any scientific or replay claims.
++
++- The detached seal matches the manifest SHA-256. `REVIEW_MANIFEST.sha256` contains `151129cbfbb3431118352175eecfa85a03a2f7d9832c2993eecffefc2f371f04`: [REVIEW_MANIFEST.sha256](/intake/REVIEW_MANIFEST.sha256:1). A direct `sha256sum /intake/REVIEW_MANIFEST.tsv` returned the same digest.
++- The scope file hash also matches the manifest entry: [REVIEW_MANIFEST.tsv](/intake/REVIEW_MANIFEST.tsv:20).
++- The manifest registers 33 payloads, consistent with the scope metadata: [REVIEW_SCOPE.json](/intake/REVIEW_SCOPE.json:7), [verify_review_intake.py](/intake/verify_review_intake.py:22), [verify_review_intake.py](/intake/verify_review_intake.py:29).
++- I ran `python3 -S /intake/verify_review_intake.py` from `/work`; it returned `status: PASS`, `manifest_payload_count: 33`, `total_file_count: 35`. The verifier checks file presence, byte counts, and SHA-256 for every manifest payload: [verify_review_intake.py](/intake/verify_review_intake.py:21), [verify_review_intake.py](/intake/verify_review_intake.py:23), [verify_review_intake.py](/intake/verify_review_intake.py:27), [verify_review_intake.py](/intake/verify_review_intake.py:32).
++
++## R1 verification
++
++### 1. Vacuous production assertion removed
++
++Registered R1 states that `derive_modes.py` had recorded `time_shift_lie_derivative_witness` as the tautology `2*P[index] == 2*P[index]`, and required removal of that production gate while retaining the independent witness: [REPAIR_LEDGER.tsv](/intake/REPAIR_LEDGER.tsv:2).
++
++In the current sealed `derive_modes.py`, the gauge section contains only the substantive ODE check
++`gauge_ode_solution` at lines 141-145, followed immediately by the sample residual checks at line 147: [derive_modes.py](/intake/derive_modes.py:141), [derive_modes.py](/intake/derive_modes.py:145), [derive_modes.py](/intake/derive_modes.py:147). The current source does not record `time_shift_lie_derivative_witness`, and the current production artifact check list omits it as well: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:10), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:46).
++
++### 2. Production accounting is now 36, and the aggregate verifier expects 36 production assertions
++
++The banked production artifact declares `assertion_count: 36`: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:4). The current `derive_modes.py` writes `"assertion_count": len(checks)` into the artifact: [derive_modes.py](/intake/derive_modes.py:198), [derive_modes.py](/intake/derive_modes.py:202).
++
++The aggregate verifier now explicitly requires the production artifact to carry 36 assertions:
++[verify_package.py](/intake/verify_package.py:37), [verify_package.py](/intake/verify_package.py:38). I also ran the literal fourth registered command, `python3 -S verify_package.py`, in the ephemeral copy; it exited successfully and passed its `production_assertion_count` gate. Its own aggregate result has `assertion_count: 37`, but that is the verifier's total number of checks, not a reversion of the production artifact to 37. On the repair question actually posed, the production accounting is consistent.
++
++### 3. Literal four-command replay reproduced the three banked JSON artifacts exactly
++
++The registered commands are exactly these four lines: [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:1), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:2), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:3), [REPLAY_COMMANDS.txt](/intake/REPLAY_COMMANDS.txt:4).
++
++I copied `/intake` to a fresh writable directory under `/work/g325_r1_review.pfA9w4` and ran those four commands literally there. All four exited with code 0. For the first three commands, I checked exact artifact equality against the banked intake files with `cmp -s`; all three comparisons returned `0`. I also compared SHA-256 digests:
++
++- `DERIVATION_RESULT.json`: regenerated and banked both `1e37ab61628aa9bd156dd573d37bd74bc6dbeac1464661f4d70c7b8312817e71`
++- `INDEPENDENT_VERIFICATION.json`: regenerated and banked both `103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94`
++- `CATCH_PROOF_RESULT.json`: regenerated and banked both `7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609`
++
++This satisfies the exact replay requirement, not merely semantic JSON equality.
++
++### 4. The genuine independent direct Lie-derivative witness remains, and the external derivation still supports the gauge classification
++
++The independent verifier still contains the direct Lie-derivative calculation in synchronous coordinates:
++[verify_independent.py](/intake/verify_independent.py:221), [verify_independent.py](/intake/verify_independent.py:227). It computes the gauge mode metric directly, differentiates the background metric, and gates equality componentwise as `direct_time_shift_lie_derivative:{spatial}`. The banked independent artifact records those checks and `time_shift_is_lie_derivative: true`: [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:107), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:109), [INDEPENDENT_VERIFICATION.json](/intake/INDEPENDENT_VERIFICATION.json:136).
++
++The external review's own derivation remains present in the sealed intake and still supports classification of the `1/T` mode as residual time-origin gauge. It derives the six-constant solution
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:50), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:75),
++then states the time-shift classification directly via the Lie derivative
++[EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:79), [EXTERNAL_REVIEW_RESPONSE.md](/intake/EXTERNAL_REVIEW_RESPONSE.md:85).
++
++## Unchanged bounded landing
++
++R1 did not reopen or change the scientific landing supported in the sealed intake.
++
++- The adopted bounded equation and background metric are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:12), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:22), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:25).
++- The general solution and six-constant census are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:117), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:142).
++- The gauge, quotient-modulus, local shear, and connected scalar classifications are unchanged: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:146), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:168), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:203), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:216).
++- The bounded non-promotion remains explicit: [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:236), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:247), [EXACT_DERIVATION.md](/intake/EXACT_DERIVATION.md:249), [LAY_REPORT.md](/intake/LAY_REPORT.md:16), [LAY_REPORT.md](/intake/LAY_REPORT.md:20).
++- The banked production artifact still carries the same landing token, same mode dimensions, and the same open-sector flags: [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:49), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:52), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:55), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:61), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:64), [DERIVATION_RESULT.json](/intake/DERIVATION_RESULT.json:67).
++- The status ledger still keeps the result at the already bounded grade, with full linear stability, nonlinear stability, occupancy, scale, and `X_max` all open, and with no metric/kernel/angular change: [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:2), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:7), [STATUS_LEDGER.tsv](/intake/STATUS_LEDGER.tsv:12).
++
++## Verdict
++
++R1 is complete. The vacuous production assertion has been removed from `derive_modes.py`; the production artifact now declares 36 assertions; the aggregate verifier now expects 36 production assertions; the four registered commands replay literally and reproduce the three banked JSON artifacts byte-for-byte; the independent direct Lie-derivative witness remains intact; and the already accepted bounded G325 landing remains unchanged and supported within the sealed scope.
++
++ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING
+
+tokens used
+73,850
+
+Script done on 2026-09-02 12:30:23-04:00 [COMMAND_EXIT_CODE="0"]

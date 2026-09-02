@@ -76,9 +76,17 @@ def main() -> None:
     gate("does **not** prove uniform linear stability" in exact,
          "exact_stability_boundary")
     gate("not proof that the G324 spacetime is stable" in lay, "lay_stability_boundary")
-    gate("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in status,
-         "status_pending_external")
-    gate("Fresh external review | PENDING" in gates, "external_review_pending")
+    gate("EXTERNALLY_ACCEPTED_AFTER_R1_EVIDENCE_REPAIR" in status,
+         "status_external_acceptance")
+    gate("Fresh external review | PASS" in gates, "fresh_external_review_pass")
+    gate("Repair-only external follow-up | PASS" in gates, "repair_followup_pass")
+    gate("time_shift_lie_derivative_witness" not in
+         (package / "derive_modes.py").read_text(), "vacuous_production_gate_removed")
+    gate("ACCEPT__G325_BOUNDED_MODE_CENSUS" in
+         (package / "EXTERNAL_REVIEW_RESPONSE.md").read_text(), "fresh_review_acceptance_token")
+    gate("ACCEPT__G325_R1_REPAIR_AND_UNCHANGED_BOUNDED_LANDING" in
+         (package / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md").read_text(),
+         "repair_followup_acceptance_token")
 
     replay_lines = [line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
                     if line.strip()]
@@ -100,7 +108,7 @@ def main() -> None:
 
     result = {
         "schema": "udt-g325-package-verification-v1",
-        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+        "status": "PASS_EXTERNALLY_ACCEPTED_AFTER_R1_REPAIR",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,
