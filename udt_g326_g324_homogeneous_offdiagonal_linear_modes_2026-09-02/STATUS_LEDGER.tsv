@@ -1,0 +1,10 @@
+claim	status	scope
+G326_offdiagonal_census	PREREGISTERED_PENDING_DERIVATION	spatially homogeneous off-diagonal synchronous first variations of G324
+full_homogeneous_combined_census	OPEN	depends on successful G326 classification and no double count with G325
+nonzero_Fourier_modes	OPEN	outside homogeneous sector
+full_linear_stability	OPEN	requires all Fourier and gauge sectors plus norm and endpoint control
+nonlinear_stability	OPEN	outside first variation
+physical_occupancy	OPEN	no datum selected
+physical_scale	OPEN	no ruler attachment
+physical_Xmax	OPEN	not used or selected
+metric_kernel_angular_change	FORBIDDEN	G326 is analysis of the adopted equation around G324
