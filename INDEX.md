@@ -1,11 +1,11 @@
 # INDEX — `LIVE.md` wins.
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`. 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 304-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 305-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
-- Coframe: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`; equivalence ceiling: `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
+- Coframe: `udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/`; `udt_g184_regular_branch_equivalence_classification_2026-08-19/`
 - Matrix screen: `udt_g188_complete_coframe_null_jacobi_extension_2026-08-20/`
 - Chosen-family evaluators/controls: `udt_g190_completed_pair_timelive_frequency_screen_join_2026-08-20/`;
   `udt_g195_antisymmetric_screen_rotation_boundary_2026-08-20/`; `udt_g196_longitudinal_screen_mixing_descent_2026-08-20/`
@@ -16,8 +16,7 @@
 - Completion: `udt_g205_primary_metric_geodesic_causal_completion_2026-08-21/`
 - Robustness G206--G210: `udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`; `udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`;
   `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`; `udt_g209_g205_timespace_shift_robustness_2026-08-21/`; `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
-- Basis/history: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`;
-  `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
+- Basis/history: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`; `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
 - Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
   `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
 - Clock incidence/rate: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`;
@@ -105,7 +104,8 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`.
   G315 data: `udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md`; G316 construction: `udt_g316_lawful_constraint_data_construction_2026-09-01/AUDIT_REPORT.md`;
   G317/G318: `udt_g317_exact_noncmc_coupled_data_family_2026-09-01/AUDIT_REPORT.md`; `udt_g318_nonconstant_psi_noncmc_branch_classification_2026-09-01/AUDIT_REPORT.md`;
   G319: `udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/AUDIT_REPORT.md`; G320: `udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md`;
-  G321 local development: `udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md`.
+  G321 local development: `udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md`;
+  G322 maximal globally hyperbolic development per datum: `udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md`.
 - Historical controls: `SIMPLE_METRIC_MACRO.md` (static slice); `udt_canonical_geometry.md` (canonical-geometry monolith; use G281 regrades).
 - `X_max` dependency reversal: `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.

@@ -59,14 +59,20 @@ a lawful mode family by `n^2`, proving genuine initial-geometry breadth after qu
 Conditional on the imported smooth harmonic theorem, G321 gives each fixed complete datum one
 local marked development; opposite `K` signs are time reverses. Both evidence repairs were
 externally accepted. This is ordinary Cauchy-data freedom, not data selection, unmarked
-classification, or maximal/global history.
+classification, or physical occupancy. G322 then applies the imported
+Choquet--Bruhat--Geroch theorem: each fixed complete G321 datum has one maximal globally
+hyperbolic marked development up to data-preserving isometry, and every globally hyperbolic
+development of that same datum embeds in it. Its two evidence repairs were externally accepted.
+This closes maximal globally hyperbolic continuation per supplied datum only; it does not prove
+geodesic completeness, singularity freedom, stability, arbitrary Lorentzian inextendibility,
+unmarked cross-datum equivalence, or a selected universe.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G321 history/dynamics. The positive round cosh history is one exact branch of the G313
+G282--G322 history/dynamics. The positive round cosh history is one exact branch of the G313
 multibranch Einstein arena; G314 keeps unique-universe bootstrap optional and open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
@@ -74,7 +80,7 @@ G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -85,7 +91,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 304-row registry now includes G307--G321 at their externally reviewed bounded grades.
+The exact 305-row registry now includes G307--G322 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -104,11 +110,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Determine whether the G321 local marked developments admit unique maximal globally hyperbolic
-developments under the standard imported Einstein-sector theorem. Type “maximal” carefully: one
-maximal globally hyperbolic development per supplied complete datum up to a data-preserving
-diffeomorphism would not prove geodesic completeness, singularity avoidance, stability, unmarked
-refoliation classification, physical occupancy, or a unique universe. Keep actualization/bootstrap
-optional. Do not restamp premises, select a witness, misassign angular loud--quiet--loud, or import
-action, source, matter/mass, observation, scale, `X_max`, protected work, or a new equation.
+Classify unmarked cross-datum equivalence inside the bounded G320--G322 family. Start with the
+registered `n=1` versus `n=2` modes and opposite-`K` time reversals: determine whether distinct
+marked data can be different Cauchy slices of one unmarked maximal development or must represent
+distinct unmarked spacetimes. Do not infer physical occupancy, a unique universe, geodesic
+completeness, singularity freedom, stability, arbitrary Lorentzian inextendibility, scale, or
+`X_max`. Keep actualization/bootstrap optional and import no action, source, matter/mass,
+observation, protected work, or new equation.
 <!-- STARTUP_CURRENT_END -->
