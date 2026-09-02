@@ -1,0 +1,2 @@
+repair	fresh_review_finding	bounded_change	scientific_change	verification
+R1	derive_modes.py records time_shift_lie_derivative_witness using the tautology 2*P[index] == 2*P[index]	remove the vacuous production gate, reduce the declared production assertion count by one, regenerate the production artifact, and retain the independent direct Lie-derivative witness	none; the external reviewer independently derived the gauge mode and accepted the six-mode census	literal registered replay, exact artifact equality, and repair-only review

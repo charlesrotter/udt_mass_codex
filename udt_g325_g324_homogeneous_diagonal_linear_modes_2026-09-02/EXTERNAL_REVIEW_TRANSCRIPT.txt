@@ -1,0 +1,4342 @@
+Script started on 2026-09-02 12:12:03-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a062e4-4d42-7e70-b8ff-783241ec0ae2
+--------
+user
+Act as a fresh zero-context adversarial scientific reviewer. The sealed G325 intake is mounted read-only at /intake. First authenticate REVIEW_SCOPE.json, REVIEW_MANIFEST.tsv, REVIEW_MANIFEST.sha256, and every manifest payload. Inspect only /intake; do not edit evidence files or continue the research. Writable ephemeral checks may use /work. Network access exists solely for Codex API transport; web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. Do not access any repository or protected package. Independently attack mode completeness, constraint propagation, gauge classification, quotient periodicity, curvature witnesses, scalar-mode normalization, controlled-linearization scope, and native provenance. Run the four registered commands literally in a writable ephemeral copy. Write the detailed report to /return/EXTERNAL_REVIEW_RESPONSE.md and end it with exactly one allowed verdict token. In the final response state the token and report path.\n\n# External adversarial review request — G325
+
+## Required stance
+
+Treat the G325 landing as false until independently established. Inspect only this sealed intake.
+Do not continue the research, select a preferred universe, or strengthen the stated scope.
+
+## Exact question
+
+For the G324 compact Taub quotient, does the complete spatially homogeneous diagonal synchronous
+first variation of the adopted bounded trace-free Ricci equation contain exactly:
+
+- one residual time-origin gauge constant;
+- three fixed-quotient lattice-modulus constants;
+- one genuine local Kasner-shear constant;
+- one connected scalar-curvature constant?
+
+## Required checks
+
+1. Authenticate `REVIEW_MANIFEST.tsv` and its detached seal before reading scientific claims.
+2. Rederive the diagonal Bianchi-I Ricci tensor and solve the complete linearized system without
+   trusting `EXACT_DERIVATION.md` or production code.
+3. Check the Hamiltonian constraint, parameter count, and absence of an additional integration
+   constant.
+4. Verify the time-shift Lie derivative and decide whether it is gauge in the stated bounded
+   category.
+5. Challenge the claim that constant cover-coordinate strains fail to descend as fixed-torus
+   gauge. Account for continuous quotient moduli versus discrete lattice automorphisms.
+6. Independently test the electric-curvature split for the Kasner shear and `delta R=4 lambda` for
+   the scalar mode.
+7. Check whether first-order scalar blindness under `y-z` exchange has been handled honestly.
+8. Check the controlled-linearization statement and reject any full or nonlinear stability
+   inference.
+9. Audit native provenance: no new UDT equation, action, source, observation, fit, scale, or
+   `X_max` may enter.
+10. Run all four `REPLAY_COMMANDS.txt` commands in a writable ephemeral copy and hunt circular,
+    vacuous, or mutation-insensitive assertions.
+
+## Allowed verdicts
+
+- `ACCEPT__G325_BOUNDED_MODE_CENSUS`
+- `REPAIR_REQUIRED__G325`
+- `REFUTE__G325_MODE_CENSUS`
+
+Give exact reasons and preserve every open boundary. Do not edit intake files or continue beyond
+reviewing the preregistered question.
+codex
+I’m treating `/intake` as sealed evidence and starting with authentication only: inventory the intake, verify the detached seal, then hash-check every manifest-listed payload before reading any scientific content.
+exec
+/bin/bash -lc 'find /intake -maxdepth 2 -type f | sort' in /return
+ succeeded in 0ms:
+/intake/ADVERSARIAL_REVIEW_REQUEST.md
+/intake/CATCH_PROOF_RESULT.json
+/intake/COMPLETENESS_MAP.md
+/intake/DERIVATION_RESULT.json
+/intake/EVIDENCE_GATES.md
+/intake/EXACT_DERIVATION.md
+/intake/INDEPENDENT_VERIFICATION.json
+/intake/LAY_REPORT.md
+/intake/MAP.md
+/intake/PREMISE_LEDGER.tsv
+/intake/PREREGISTRATION.md
+/intake/REPLAY_COMMANDS.txt
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/RUN_RECORD.md
+/intake/SOURCE_SCOPE.tsv
+/intake/STATUS_LEDGER.tsv
+/intake/derive_modes.py
+/intake/run_catch_proofs.py
+/intake/verify_independent.py
+/intake/verify_package.py
+/intake/verify_review_intake.py
+
+exec
+/bin/bash -lc pwd in /return
+ succeeded in 0ms:
+/return
+
+codex
+The intake inventory is established. Next I’m verifying the detached SHA-256 seal on the manifest and then checking every payload hash listed there before I open the substantive review materials.
+exec
+/bin/bash -lc 'cat /intake/REVIEW_MANIFEST.sha256' in /return
+ succeeded in 0ms:
+3573ea0c1cf34c7fcfa8f6132c1784431d5b48f461c98e77f58c940a99752c6a
+
+exec
+/bin/bash -lc 'cat /intake/REVIEW_MANIFEST.tsv' in /return
+ succeeded in 0ms:
+relative_path	bytes	sha256
+ADVERSARIAL_REVIEW_REQUEST.md	2125	970339132ce7084e2de31dac6c6cdfe167ff0adc2d9c5af3edd9e02acb0936b1
+CATCH_PROOF_RESULT.json	344	7f1d2cb484c25bb7d773f5dd5cd9f71ea5c2265491ee622111d5b1293a35b609
+COMPLETENESS_MAP.md	1149	d62b7c4c9fe9939787a8fdbc1c8426750c756c3259e79d680afb5620ea4bdab6
+DERIVATION_RESULT.json	2462	cfb4a2fec5dce89e830b8dfa782d318f319e80bfb5cf6a351d5c8f0a7b1af27b
+EVIDENCE_GATES.md	1084	3673935c37bd8b1fcd5bcc91ed6cdc012cfd4cef1e3918eb5d3654788b21c6ea
+EXACT_DERIVATION.md	6336	993ffcb4a93970942c5781debeada36f20ae1f86e2010d6864f53120ddef3574
+INDEPENDENT_VERIFICATION.json	5231	103a8b40e208fb831d8661154359c4109ca4023bfe24c3071ca8a4d3e22bea94
+LAY_REPORT.md	1355	cbf3b5112b6858df4d1ec4d9c2e618951a6447f4ab104e1a22a051f14710e769
+MAP.md	1965	2d95348e1f3094bd5c9e5c84a44d4b31a592575f3736f4689015242ae36638b3
+PREMISE_LEDGER.tsv	1797	43c3cbb2057f3eeaaf78d25ceee926fd3ca11bd4104a62f9a42bb15a7b450176
+PREREGISTRATION.md	3862	3e14b8cf5ed8a5587a46e092ba5bac614680ea505e1625a0a35a7981958d2fd5
+REPLAY_COMMANDS.txt	272	4976d35f32425dd2df9d9d0857d42be3daa188fc62a91446c543ec91cd8399be
+REVIEW_SCOPE.json	443	0e7fe7c69e0941d5228e6b214369f15ab10bd571ce792d8c62388414a3ec5ede
+RUN_RECORD.md	1125	d341c6fd6dc5d7c95062934953f6d605a84e7ce921bbbad37fa05bd1a04fd95c
+SOURCE_SCOPE.tsv	590	f59fb0fbaf31fc893eeae1e844601208f0f1715d9645471f7935ae8b913e7c05
+STATUS_LEDGER.tsv	853	52231d307b633474c333ca91a81e6c518645620154c5b97837c2cb0dde8a1bb5
+derive_modes.py	9712	b33dc2dc7d32d5d1a0b961d226931d9e87978d0aa2ec5bdf2a51932f3336351e
+run_catch_proofs.py	3007	055e639a00eb0a575eebe93ccc0fecfcf61e68bf66041132f944fb50ecbe6e90
+sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	3061	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1
+sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md	7725	a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0
+sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	9131	186f60e198783e0bed197e20b59c9cca8516e4f51e53caadd1d491057e96b37b
+sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md	7728	5563c949b952fd0ddd0365f58e24eb14894d8bdaae7cab8a6bc5fad983bee776
+sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/PREMISE_LEDGER.tsv	2143	cae1cbd0028bc994296f326f7533f70f1587250afcfdf6e69e7f3cd925e5749b
+verify_independent.py	10153	8016acab91bf4d0dcbaf49736597cdc152a5ebaa0f395547aef9d632399e137f
+verify_package.py	5091	2e09c7ddedeca042cd1226d3606bf0abada6b49d3b91d3218c399acda2c6637c
+verify_review_intake.py	1416	a190f9fb00bdabad94ea4bd61fe2f75a66d77999f6431803b2f1d77a4a0e2958
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+import hashlib, pathlib, sys
+manifest = pathlib.Path('/intake/REVIEW_MANIFEST.tsv')
+seal = pathlib.Path('/intake/REVIEW_MANIFEST.sha256').read_text().strip()
+actual = hashlib.sha256(manifest.read_bytes()).hexdigest()
+print('manifest_sha256', actual)
+print('seal_matches', actual == seal)
+PY" in /return
+ succeeded in 0ms:
+manifest_sha256 3573ea0c1cf34c7fcfa8f6132c1784431d5b48f461c98e77f58c940a99752c6a
+seal_matches True
+
+codex
+The detached seal matches the manifest. I’m now validating every listed file’s byte count and SHA-256 so the later scientific review rests only on authenticated payloads.
+exec
+/bin/bash -lc "python3 - <<'PY'
+from pathlib import Path
+import csv, hashlib
+root = Path('/intake')
+manifest = root/'REVIEW_MANIFEST.tsv'
+rows = list(csv.DictReader(manifest.open(), delimiter='\\t'))
+errors = []
+count = 0
+for row in rows:
+    path = root / row['relative_path']
+    if not path.exists():
+        errors.append(f\"missing\\t{row['relative_path']}\")
+        continue
+    data = path.read_bytes()
+    size = len(data)
+    sha = hashlib.sha256(data).hexdigest()
+    if size "'!= int(row['"'bytes']):
+        errors.append(f\"size\\t{row['relative_path']}\\tmanifest={row['bytes']}\\tactual={size}\")
+    if sha "'!= row['"'sha256']:
+        errors.append(f\"sha256\\t{row['relative_path']}\\tmanifest={row['sha256']}\\tactual={sha}\")
+    count += 1
+print(f'checked_rows\\t{len(rows)}')
+print(f'files_present\\t{count}')
+if errors:
+    print('AUTH_FAIL')
+    for e in errors:
+        print(e)
+else:
+    print('AUTH_OK')
+PY" in /return
+ succeeded in 0ms:
+checked_rows	26
+files_present	26
+AUTH_OK
+
+codex
+Authentication passed for all 26 manifest entries, including `REVIEW_SCOPE.json`. I have enough context to proceed with the sealed review, and I’m splitting the work into independent derivation, replay auditing, and report synthesis.
+Authenticated the sealed intake. Proceeding with independent review inside `/intake` plus replay execution in `/work` without touching evidence files.
+  → Read scope and replay instructions, then stage a writable ephemeral copy for command replay
+  • Independently derive and solve the diagonal Bianchi-I linearized system, checking gauge, constraints, parameter count, scalar mode, and quotient issues
+  • Audit native provenance and mutation sensitivity from intake materials and replay outputs
+  • Write `/return/EXTERNAL_REVIEW_RESPONSE.md` ending with exactly one allowed verdict token
+exec
+/bin/bash -lc 'cat /intake/REVIEW_SCOPE.json' in /return
+exec
+/bin/bash -lc 'cat /intake/REPLAY_COMMANDS.txt' in /return
+ succeeded in 0ms:
+python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json
+python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json
+python3 -S verify_package.py
+
+ succeeded in 0ms:
+{
+  "ephemeral_copy_checks_allowed": true,
+  "evidence_read_only": true,
+  "internet_browsing_allowed": false,
+  "law_history_scale_selection_allowed": false,
+  "manifest_payload_count": 26,
+  "protected_package_access_allowed": false,
+  "question": "bounded homogeneous diagonal linear mode census around G324",
+  "repository_access_allowed": false,
+  "research_continuation_allowed": false,
+  "schema": "udt-g325-external-review-scope-v1"
+}
+
+exec
+/bin/bash -lc 'cat /intake/MAP.md' in /return
+ succeeded in 0ms:
+# G325 map — homogeneous diagonal perturbations of the G324 quotient
+
+Date: 2026-09-02
+State: preregistered before production computation
+
+## Whole question
+
+For the explicit compact G324 Taub quotient, what does the complete spatially homogeneous,
+diagonal, synchronous linearized solution space of the active trace-free Ricci equation contain?
+Separate:
+
+1. residual spacetime gauge;
+2. deformations that are coordinate changes on the universal cover but genuine compact-lattice
+   moduli on a fixed quotient;
+3. local curvature-changing perturbations;
+4. the connected-region scalar-curvature variation retained by G303/G310--G313.
+
+This is `METRIC_LED`. It characterizes every mode in the declared sector. It does not target
+stability, a preferred universe, mass, observation, or a desired perturbation shape.
+
+## Exact bounded regime
+
+- background: every G324 quotient written in proper time as the LRS Kasner/Taub metric;
+- topology: the registered compact split-translation `T3` quotient;
+- equation: the owner-provisionally-adopted bounded trace-free Ricci equation;
+- perturbations: first order, spatially homogeneous, diagonal, synchronous;
+- time interval: arbitrary compact subinterval of `T>0`; endpoint uniformity is separately
+  characterized and never assumed;
+- amplitudes: all infinitesimal constants allowed by the exact linearized equations.
+
+## Deliberately omitted
+
+Nonzero spatial Fourier modes, off-diagonal modes, nonlinear amplitudes, other topologies,
+matter/source/action sectors, observations, occupancy, scale selection, past `C0` extension, and
+physical `X_max`. No conclusion from this tile may be promoted to any omitted sector.
+
+## Maximum conclusion
+
+At most G325 may give an exact mode census and bounded-in-time behavior for the declared diagonal
+homogeneous sector. It cannot prove nonlinear or full linear stability, choose a physical datum,
+or modify the UDT metric, reciprocal kernel, angular sector, or adopted equation.
+
+codex
+I’ve confirmed the review scope and the four literal replay commands. Next I’m reading the preregistration and provenance ledgers, then I’ll build an independent derivation before comparing it against the intake’s own outputs.
+exec
+/bin/bash -lc 'cat /intake/EVIDENCE_GATES.md' in /return
+ succeeded in 0ms:
+# G325 evidence gates
+
+Date: 2026-09-02
+
+| Gate | State | Evidence |
+|---|---|---|
+| Preregistered before outcome | PASS | commit `3875663f` |
+| Full bounded space | PASS | general solution of all homogeneous diagonal synchronous equations |
+| Independent tensor route | PASS | direct truncated-epsilon Christoffel/Riemann engine; no production import/result read |
+| Raw/exact residual | PASS | exact rational/symbolic zero for every tensor component and basis mode |
+| Gauge witness | PASS | explicit Lie derivative for time shift |
+| Quotient witness | PASS | nonperiodicity of cover-scaling generators on fixed circles |
+| Physical-mode witness | PASS | exact electric-curvature split and `delta R=4 lambda` |
+| Hostile controls | PASS | 5/5 mutations rejected after repairing one invalid amplitude-renaming control |
+| Premise audit | PASS internally | owner-adopted and bounded-sector dependencies remain explicit |
+| Fresh external review | PENDING | required before accepted/banked verdict |
+
+Maximum grade before external review: `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`.
+
+exec
+/bin/bash -lc 'cat /intake/PREMISE_LEDGER.tsv' in /return
+ succeeded in 0ms:
+item	status	role	forbidden_promotion
+Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	upstream bounded dynamics ownership	derived theorem or canon
+Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	local finite-jet response scope	unique possible response principle
+quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature bounded arena	vacuum GR imported as UDT theorem
+tracefree_Ricci	CONDITIONAL_ACTIVE_EQUATION	linearized equation in bounded regular vacuum	full UDT field equation in every sector
+G324_Taub_quotient	DERIVED_CONDITIONAL_EXTERNALLY_ACCEPTED	exact background MGHD family	selected physical universe
+proper_time_synchronous_chart	PINNED_BY_G324_METRIC_PLUS_CATEGORY_A_GAUGE	makes the homogeneous diagonal equations explicit	preferred physical clock slicing
+registered_split_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	fixed quotient for gauge-versus-modulus test	physical topology
+homogeneous_diagonal_sector	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	complete zero-Fourier diagonal census	complete perturbation space
+linear_amplitude	CHOSE_CONTROLLED_FIRST_VARIATION	derivative of exact covariant residual at the G324 metric	nonlinear stability
+perturbation_constants	FREE_AND_EXPLORED	all constants admitted by the sector equations	observed or populated values
+connected_scalar_variation	FREE_AND_EXPLORED	G303/G310 regional scalar datum at first order	selected cosmological scale
+periodic_quotient_diffeomorphisms	PINNED_BY_QUOTIENT_GEOMETRY	legal gauge transformations on fixed T3	arbitrary cover coordinate rescalings
+tensor_algebra_and_ODE_solution	CATEGORY_A_MATHEMATICAL_METHOD	exact classification method	new UDT mechanism
+c_E	OBSERVED_ANCHOR_INACTIVE	not used	perturbation selector
+X_max	OPEN_INACTIVE	excluded	boundary condition or selected scale
+
+exec
+/bin/bash -lc 'cat /intake/SOURCE_SCOPE.tsv' in /return
+ succeeded in 0ms:
+relative_path	role
+udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md	exact background metric and MGHD boundary
+udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/PREMISE_LEDGER.tsv	upstream premise ownership
+udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md	compact quotient and lattice modulus
+udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md	bounded trace-free Ricci equation
+startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	owner adoption scope
+
+exec
+/bin/bash -lc 'cat /intake/PREREGISTRATION.md' in /return
+ succeeded in 0ms:
+# G325 preregistration — homogeneous diagonal linear mode census
+
+Date: 2026-09-02
+State: frozen before production outcome
+
+## 1. Exact background and perturbation
+
+Use proper time `T>0` and fixed compact quotient coordinates:
+
+\[
+g_0=-dT^2+\sum_{i=1}^3 C_i^2T^{2p_i}(dx^i)^2,
+\qquad p=(-1/3,2/3,2/3).
+\]
+
+Write the complete diagonal homogeneous synchronous first variation as
+
+\[
+g_{ii}=C_i^2T^{2p_i}\,[1+2\epsilon u_i(T)]+O(\epsilon^2).
+\]
+
+Linearize the active bounded equation
+
+\[
+R_{ab}-\frac14R g_{ab}=0
+\]
+
+without fixing the connected first-order scalar datum.
+
+## 2. Proof obligations
+
+The positive classification requires all of the following:
+
+1. derive the exact diagonal Bianchi-I Ricci tensor directly from the metric;
+2. independently linearize the tensor equation and the Hamiltonian/propagation system;
+3. prove the general solution, not one selected solution;
+4. verify the linearized constraint is preserved;
+5. identify every residual homogeneous synchronous gauge vector and exhibit its metric variation;
+6. test whether cover-coordinate strains descend to periodic diffeomorphisms of the fixed `T3`;
+7. decompose constant strains into overall lattice volume, axial/transverse modulus, and transverse
+   aspect ratio;
+8. exhibit a local curvature tensor component that detects any claimed physical shear mode;
+9. verify that the scalar-sector mode changes `R` by a spacetime constant at first order;
+10. state where each relative perturbation remains small and refuse endpoint-uniform stability if
+    secular growth occurs.
+
+## 3. Preregistered landing
+
+If the general solution contains exactly one time-shift gauge constant, three quotient-lattice
+constants, one local Kasner-shear constant, and one connected scalar-curvature constant, use:
+
+```text
+HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI
+__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM
+```
+
+If an additional independent solution survives, use:
+
+```text
+G325_EXTRA_HOMOGENEOUS_DIAGONAL_MODE_SURVIVES
+```
+
+If any claimed gauge/modulus/physical classification fails an invariant or quotient test, use:
+
+```text
+G325_MODE_CLASSIFICATION_REFUTED
+```
+
+If the equations are solved but completeness or independence is not certified, use:
+
+```text
+G325_HOMOGENEOUS_DIAGONAL_CENSUS_OPEN
+```
+
+## 4. Falsifiers
+
+- the proposed general solution leaves a nonzero raw linearized trace-free Ricci residual;
+- the constraint admits another independent integration constant;
+- the time-shift mode is not a Lie derivative of the background;
+- a constant spatial strain is generated by a well-defined periodic vector field on the fixed
+  quotient;
+- the proposed Kasner-shear mode has zero linearized local curvature tensor modulo gauge;
+- the proposed scalar mode has nonconstant linearized scalar curvature;
+- any conclusion requires a source, action, fit, boundary value, physical scale, or `X_max`.
+
+## 5. Certification contract
+
+- Production and independent implementations may share only the written background and
+  preregistration, never code or generated results.
+- Exact symbolic zeros or raw coefficient residuals are load-bearing.
+- Hostile controls must reject a removed constraint, wrong Kasner vector, falsely periodic scaling
+  generator, and wrong scalar-mode coefficient.
+- The repository premise verifier and full purity suite must pass before banking.
+- A fresh sealed adversarial review is required before an accepted verdict.
+
+## 6. Maximum conclusion
+
+At most: an exact classification of the spatially homogeneous diagonal synchronous first
+variations of the G324 quotient in the active bounded trace-free Ricci arena, together with their
+finite-time and endpoint behavior. No nonlinear stability, full linear stability, occupancy,
+topology selection, scale, observation, matter/mass, or physical `X_max` follows.
+
+exec
+/bin/bash -lc 'cat /intake/COMPLETENESS_MAP.md' in /return
+ succeeded in 0ms:
+# G325 completeness map
+
+Date: 2026-09-02
+
+| Criterion | Covered | Dropped / open |
+|---|---|---|
+| Fields | all three diagonal homogeneous spatial metric amplitudes; connected scalar variation | lapse/shift after synchronous gauge; off-diagonal and inhomogeneous modes |
+| Equation | exact first variation of trace-free Ricci around every G324 local Taub metric | nonlinear equation and nonvacuum sectors |
+| Domain | full compact registered split `T3`, arbitrary `T>0` | other lattices/topologies and the singular endpoint |
+| Gauge | every homogeneous residual synchronous gauge; quotient periodicity | general inhomogeneous gauge vectors |
+| Branch | tangent directions at the LRS Taub point, including scalar-sector departure | other backgrounds and finite branch continuation |
+| Behavior | exact time dependence; uniform endpoint validity explicitly tested | nonlinear stability and mode coupling |
+| Physics | no new physical premise or fitted value | occupancy, scale, observations, matter, mass, `X_max` |
+
+This is one perturbative tile. Nonzero Fourier and off-diagonal sectors remain required before any
+full linear-stability statement.
+
+codex
+The hand derivation exposed a nontrivial coupled sector, so I’m switching to an independent symbolic check in `/work` to avoid carrying an algebra mistake into the review. I’ll keep it separate from the intake code and only use local tools already present.
+exec
+/bin/bash -lc "python3 - <<'PY'
+try:
+    import sympy
+    print(sympy.__version__)
+except Exception as e:
+    print('NO_SYMPY', e)
+PY" in /work
+ succeeded in 0ms:
+NO_SYMPY No module named 'sympy'
+
+codex
+The independent ODE structure is now clear enough to compare against the intake’s claimed basis. I’m reading the recorded derivation and verification outputs next, and then I’ll replay the four registered commands in `/work` exactly as written.
+exec
+/bin/bash -lc 'cat /intake/INDEPENDENT_VERIFICATION.json' in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 111,
+  "checks": [
+    "direct_tracefree_zero:constant_x:0:0",
+    "direct_tracefree_zero:constant_x:0:1",
+    "direct_tracefree_zero:constant_x:0:2",
+    "direct_tracefree_zero:constant_x:0:3",
+    "direct_tracefree_zero:constant_x:1:0",
+    "direct_tracefree_zero:constant_x:1:1",
+    "direct_tracefree_zero:constant_x:1:2",
+    "direct_tracefree_zero:constant_x:1:3",
+    "direct_tracefree_zero:constant_x:2:0",
+    "direct_tracefree_zero:constant_x:2:1",
+    "direct_tracefree_zero:constant_x:2:2",
+    "direct_tracefree_zero:constant_x:2:3",
+    "direct_tracefree_zero:constant_x:3:0",
+    "direct_tracefree_zero:constant_x:3:1",
+    "direct_tracefree_zero:constant_x:3:2",
+    "direct_tracefree_zero:constant_x:3:3",
+    "direct_scalar_zero:constant_x",
+    "direct_tracefree_zero:constant_y:0:0",
+    "direct_tracefree_zero:constant_y:0:1",
+    "direct_tracefree_zero:constant_y:0:2",
+    "direct_tracefree_zero:constant_y:0:3",
+    "direct_tracefree_zero:constant_y:1:0",
+    "direct_tracefree_zero:constant_y:1:1",
+    "direct_tracefree_zero:constant_y:1:2",
+    "direct_tracefree_zero:constant_y:1:3",
+    "direct_tracefree_zero:constant_y:2:0",
+    "direct_tracefree_zero:constant_y:2:1",
+    "direct_tracefree_zero:constant_y:2:2",
+    "direct_tracefree_zero:constant_y:2:3",
+    "direct_tracefree_zero:constant_y:3:0",
+    "direct_tracefree_zero:constant_y:3:1",
+    "direct_tracefree_zero:constant_y:3:2",
+    "direct_tracefree_zero:constant_y:3:3",
+    "direct_scalar_zero:constant_y",
+    "direct_tracefree_zero:constant_z:0:0",
+    "direct_tracefree_zero:constant_z:0:1",
+    "direct_tracefree_zero:constant_z:0:2",
+    "direct_tracefree_zero:constant_z:0:3",
+    "direct_tracefree_zero:constant_z:1:0",
+    "direct_tracefree_zero:constant_z:1:1",
+    "direct_tracefree_zero:constant_z:1:2",
+    "direct_tracefree_zero:constant_z:1:3",
+    "direct_tracefree_zero:constant_z:2:0",
+    "direct_tracefree_zero:constant_z:2:1",
+    "direct_tracefree_zero:constant_z:2:2",
+    "direct_tracefree_zero:constant_z:2:3",
+    "direct_tracefree_zero:constant_z:3:0",
+    "direct_tracefree_zero:constant_z:3:1",
+    "direct_tracefree_zero:constant_z:3:2",
+    "direct_tracefree_zero:constant_z:3:3",
+    "direct_scalar_zero:constant_z",
+    "direct_tracefree_zero:gauge:0:0",
+    "direct_tracefree_zero:gauge:0:1",
+    "direct_tracefree_zero:gauge:0:2",
+    "direct_tracefree_zero:gauge:0:3",
+    "direct_tracefree_zero:gauge:1:0",
+    "direct_tracefree_zero:gauge:1:1",
+    "direct_tracefree_zero:gauge:1:2",
+    "direct_tracefree_zero:gauge:1:3",
+    "direct_tracefree_zero:gauge:2:0",
+    "direct_tracefree_zero:gauge:2:1",
+    "direct_tracefree_zero:gauge:2:2",
+    "direct_tracefree_zero:gauge:2:3",
+    "direct_tracefree_zero:gauge:3:0",
+    "direct_tracefree_zero:gauge:3:1",
+    "direct_tracefree_zero:gauge:3:2",
+    "direct_tracefree_zero:gauge:3:3",
+    "direct_scalar_zero:gauge",
+    "direct_tracefree_zero:shear:0:0",
+    "direct_tracefree_zero:shear:0:1",
+    "direct_tracefree_zero:shear:0:2",
+    "direct_tracefree_zero:shear:0:3",
+    "direct_tracefree_zero:shear:1:0",
+    "direct_tracefree_zero:shear:1:1",
+    "direct_tracefree_zero:shear:1:2",
+    "direct_tracefree_zero:shear:1:3",
+    "direct_tracefree_zero:shear:2:0",
+    "direct_tracefree_zero:shear:2:1",
+    "direct_tracefree_zero:shear:2:2",
+    "direct_tracefree_zero:shear:2:3",
+    "direct_tracefree_zero:shear:3:0",
+    "direct_tracefree_zero:shear:3:1",
+    "direct_tracefree_zero:shear:3:2",
+    "direct_tracefree_zero:shear:3:3",
+    "direct_scalar_zero:shear",
+    "direct_shear_curvature_split",
+    "direct_tracefree_zero:scalar:0:0",
+    "direct_tracefree_zero:scalar:0:1",
+    "direct_tracefree_zero:scalar:0:2",
+    "direct_tracefree_zero:scalar:0:3",
+    "direct_tracefree_zero:scalar:1:0",
+    "direct_tracefree_zero:scalar:1:1",
+    "direct_tracefree_zero:scalar:1:2",
+    "direct_tracefree_zero:scalar:1:3",
+    "direct_tracefree_zero:scalar:2:0",
+    "direct_tracefree_zero:scalar:2:1",
+    "direct_tracefree_zero:scalar:2:2",
+    "direct_tracefree_zero:scalar:2:3",
+    "direct_tracefree_zero:scalar:3:0",
+    "direct_tracefree_zero:scalar:3:1",
+    "direct_tracefree_zero:scalar:3:2",
+    "direct_tracefree_zero:scalar:3:3",
+    "direct_scalar_mode_delta_R_four",
+    "direct_time_shift_lie_derivative:0",
+    "direct_time_shift_lie_derivative:1",
+    "direct_time_shift_lie_derivative:2",
+    "scaling_generator_fails_periodicity:x",
+    "scaling_generator_fails_periodicity:y",
+    "scaling_generator_fails_periodicity:z",
+    "independent_q_trace_constraint",
+    "independent_q_kasner_constraint"
+  ],
+  "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+  "direct_tensor_modes": [
+    "constant_x",
+    "constant_y",
+    "constant_z",
+    "gauge",
+    "shear",
+    "scalar"
+  ],
+  "linearized_scalar_curvature": {
+    "eps^0*T^0*log^0": "4"
+  },
+  "linearized_shear_curvature_split": {
+    "eps^0*T^-2*log^0": "-2/3"
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+  "status": "PASS",
+  "time_shift_is_lie_derivative": true
+}
+
+exec
+/bin/bash -lc 'cat /intake/CATCH_PROOF_RESULT.json' in /return
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": {
+    "false_periodic_scaling_rejected": true,
+    "physical_shear_as_gauge_rejected": true,
+    "removed_exponent_constraint_rejected": true,
+    "wrong_kasner_tangent_rejected": true,
+    "wrong_scalar_directional_shape_rejected": true
+  },
+  "schema": "udt-g325-catch-proofs-v1",
+  "status": "PASS"
+}
+
+exec
+/bin/bash -lc 'cat /intake/DERIVATION_RESULT.json' in /return
+ succeeded in 0ms:
+{
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 37,
+  "background_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "checks": [
+    "background_kasner_sum",
+    "background_kasner_square_sum",
+    "exponent_constraint_rank_two",
+    "kasner_shear_zero_trace",
+    "kasner_shear_tangent_constraint",
+    "kasner_shear_spans_one_dimensional_nullspace",
+    "connected_scalar_particular_unique",
+    "connected_scalar_metric_coefficients",
+    "gauge_ode_solution",
+    "time_shift_lie_derivative_witness",
+    "tracefree_time_zero_0",
+    "tracefree_space_zero_0",
+    "einstein_time_0",
+    "einstein_space_0",
+    "scalar_curvature_four_lambda_0",
+    "hamiltonian_constraint_0",
+    "tracefree_time_zero_1",
+    "tracefree_space_zero_1",
+    "einstein_time_1",
+    "einstein_space_1",
+    "scalar_curvature_four_lambda_1",
+    "hamiltonian_constraint_1",
+    "tracefree_time_zero_2",
+    "tracefree_space_zero_2",
+    "einstein_time_2",
+    "einstein_space_2",
+    "scalar_curvature_four_lambda_2",
+    "hamiltonian_constraint_2",
+    "three_lattice_modulus_coordinates",
+    "cover_scaling_vector_not_periodic",
+    "zero_scaling_vector_periodic",
+    "local_weyl_eigenvalue_split_nonzero",
+    "local_weyl_eigenvalue_split_exact",
+    "shear_log_secular_both_ends",
+    "scalar_mode_quadratic_future_growth",
+    "scalar_mode_zero_at_past_end",
+    "time_shift_growth_is_gauge"
+  ],
+  "full_linear_stability_proved": false,
+  "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+  "inhomogeneous_modes_classified": false,
+  "kernel_changed": false,
+  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "linearized_scalar_curvature": "4*lambda",
+  "metric_changed": false,
+  "mode_dimensions": {
+    "connected_scalar_curvature": 1,
+    "fixed_quotient_lattice_moduli": 3,
+    "local_kasner_shear": 1,
+    "residual_time_translation_gauge": 1
+  },
+  "nonlinear_stability_proved": false,
+  "offdiagonal_modes_classified": false,
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-production-v1",
+  "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+}
+
+exec
+/bin/bash -lc 'cat /intake/RUN_RECORD.md' in /return
+ succeeded in 0ms:
+# G325 run record
+
+Date: 2026-09-02
+
+## Environment
+
+- Python: `3.10.12`
+- external Python packages: none (`python3 -S`)
+- GPU: not used
+- long/background process: none
+
+## Chronology
+
+1. Preregistration committed and pushed as `3875663f` before production execution.
+2. Production exact ODE/mode calculation passed.
+3. The first independent tensor replay stopped because the verifier expression class lacked value
+   equality. Equality was implemented; no scientific formula changed.
+4. A vacuous production assertion was removed before evidence banking.
+5. The first hostile replay correctly refused a proposed “wrong scalar coefficient” control:
+   multiplying the whole scalar mode only renames its free amplitude. The invalid control was
+   replaced by a wrong *relative directional shape*, which the equation must reject.
+6. Production, independent direct tensor, and all five repaired hostile controls then passed.
+
+## Exact replay
+
+Run the four commands in `REPLAY_COMMANDS.txt`. The first three write only beneath
+`.review_runtime`; the fourth checks exact equality with the banked artifacts and document gates.
+
+2026-09-02T16:16:36.162628Z ERROR codex_core::tools::router: error=exec_command failed for `/bin/bash -lc 'rm -rf /work/g325_review_copy && mkdir -p /work/g325_review_copy && cp -a /intake/. /work/g325_review_copy/'`: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /work/g325_review_copy && mkdir -p /work/g325_review_copy && cp -a /intake/. /work/g325_review_copy/'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }
+exec
+/bin/bash -lc 'cat /intake/verify_package.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate and exact replay verifier for the bounded G325 package."""
+
+from __future__ import annotations
+
+import json
+import shlex
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+
+LANDING = (
+    "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__"
+    "THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__"
+    "ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM"
+)
+
+
+def load(path: Path):
+    return json.loads(path.read_text())
+
+
+def main() -> None:
+    package = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    production = load(package / "DERIVATION_RESULT.json")
+    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    gate(production["landing"] == LANDING, "production_landing")
+    gate(production["assertion_count"] == 37, "production_assertion_count")
+    gate(independent["assertion_count"] == 111, "independent_assertion_count")
+    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    gate(production["mode_dimensions"] == {
+        "connected_scalar_curvature": 1,
+        "fixed_quotient_lattice_moduli": 3,
+        "local_kasner_shear": 1,
+        "residual_time_translation_gauge": 1,
+    }, "exact_mode_dimensions")
+    gate(production["linearized_scalar_curvature"] == "4*lambda",
+         "production_scalar_witness")
+    gate(independent["linearized_scalar_curvature"] == {
+        "eps^0*T^0*log^0": "4"
+    }, "independent_scalar_witness")
+    gate(independent["linearized_shear_curvature_split"] == {
+        "eps^0*T^-2*log^0": "-2/3"
+    }, "independent_shear_witness")
+    gate(independent["production_imported"] is False, "independent_no_production_import")
+    gate(independent["production_result_read"] is False, "independent_no_result_read")
+    gate(all(hostile["controls"].values()), "all_hostile_controls")
+    gate(not production["full_linear_stability_proved"], "no_full_linear_overclaim")
+    gate(not production["nonlinear_stability_proved"], "no_nonlinear_overclaim")
+    gate(not production["inhomogeneous_modes_classified"], "inhomogeneous_open")
+    gate(not production["offdiagonal_modes_classified"], "offdiagonal_open")
+    gate(not production["physical_occupancy_selected"], "occupancy_open")
+    gate(not production["physical_scale_selected"], "scale_open")
+    gate(not production["Xmax_selected"], "xmax_open")
+    gate(not production["metric_changed"] and not production["kernel_changed"]
+         and not production["angular_sector_changed"], "native_objects_unchanged")
+
+    independent_text = (package / "verify_independent.py").read_text()
+    gate("import derive_modes" not in independent_text, "static_no_production_import")
+    gate("DERIVATION_RESULT.json" not in independent_text, "static_no_production_result_read")
+    exact = (package / "EXACT_DERIVATION.md").read_text()
+    lay = (package / "LAY_REPORT.md").read_text()
+    status = (package / "STATUS_LEDGER.tsv").read_text()
+    gates = (package / "EVIDENCE_GATES.md").read_text()
+    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+    gate("does **not** prove uniform linear stability" in exact,
+         "exact_stability_boundary")
+    gate("not proof that the G324 spacetime is stable" in lay, "lay_stability_boundary")
+    gate("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in status,
+         "status_pending_external")
+    gate("Fresh external review | PENDING" in gates, "external_review_pending")
+
+    replay_lines = [line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+                    if line.strip()]
+    gate(len(replay_lines) == 4, "registered_command_count")
+    with tempfile.TemporaryDirectory(prefix="udt_g325_replay_") as temporary:
+        copy = Path(temporary) / "package"
+        shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+        for line, artifact in zip(replay_lines[:3], (
+            "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json"
+        )):
+            completed = subprocess.run(
+                shlex.split(line), cwd=copy, check=True, capture_output=True, text=True
+            )
+            gate(completed.returncode == 0, f"replay_exit:{artifact}")
+            generated = copy / ".review_runtime" / artifact
+            gate(generated.is_file(), f"replay_created:{artifact}")
+            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+        gate(replay_lines[3] == "python3 -S verify_package.py", "fourth_command_self")
+
+    result = {
+        "schema": "udt-g325-package-verification-v1",
+        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "python_version": sys.version,
+        "exact_replay": True,
+    }
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc 'cat /intake/run_catch_proofs.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Hostile mutations for the preregistered G325 mode classification."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from fractions import Fraction
+from pathlib import Path
+
+
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+
+
+def tracefree_residual(time, first, second):
+    expansion = sum(first)
+    ricci_00 = -sum(second_i + 2 * p_i * first_i / time
+                    for p_i, first_i, second_i in zip(P, first, second))
+    ricci_space = [second_i + first_i / time + p_i * expansion / time
+                   for p_i, first_i, second_i in zip(P, first, second)]
+    scalar = -ricci_00 + sum(ricci_space)
+    return [ricci_00 + scalar / 4] + [value - scalar / 4 for value in ricci_space]
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="CATCH_PROOF_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+
+    time = Fraction(7, 5)
+    bad_q = (Fraction(1), Fraction(-1), Fraction(0))
+    bad_first = [value / time for value in bad_q]
+    bad_second = [-value / time**2 for value in bad_q]
+    wrong_q_rejected = any(tracefree_residual(time, bad_first, bad_second))
+
+    scalar = Fraction(3, 11)
+    # A common multiplier would only rename the free scalar amplitude. Mutate the relative
+    # directional shape instead: (1+p_i), rather than the derived (1-p_i).
+    bad_first = [(1 + p_i) * scalar * time / 2 for p_i in P]
+    bad_second = [(1 + p_i) * scalar / 2 for p_i in P]
+    wrong_scalar_shape_rejected = any(tracefree_residual(time, bad_first, bad_second))
+
+    period = Fraction(13, 3)
+    strain = Fraction(5, 17)
+    false_periodic_scaling_rejected = strain * period != 0
+
+    removed_constraint_vector = (Fraction(1), Fraction(0), Fraction(-1))
+    removed_constraint_rejected = (
+        sum(removed_constraint_vector) == 0
+        and sum(p_i * q_i for p_i, q_i in zip(P, removed_constraint_vector)) != 0
+    )
+
+    fake_gauge_q = (Fraction(0), Fraction(1), Fraction(-1))
+    curvature_split = -2 * fake_gauge_q[1] / (3 * time**2)
+    physical_shear_as_gauge_rejected = curvature_split != 0
+
+    controls = {
+        "wrong_kasner_tangent_rejected": wrong_q_rejected,
+        "wrong_scalar_directional_shape_rejected": wrong_scalar_shape_rejected,
+        "false_periodic_scaling_rejected": false_periodic_scaling_rejected,
+        "removed_exponent_constraint_rejected": removed_constraint_rejected,
+        "physical_shear_as_gauge_rejected": physical_shear_as_gauge_rejected,
+    }
+    assert all(controls.values()), controls
+    result = {
+        "schema": "udt-g325-catch-proofs-v1",
+        "status": "PASS",
+        "assertion_count": len(controls),
+        "controls": controls,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc 'cat /intake/verify_independent.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Independent direct first-order tensor engine for G325; no production imports/results."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+
+class Expr:
+    """Exact truncated-epsilon sums of t^power log(t)^log_power."""
+
+    def __init__(self, terms=None):
+        self.terms = {
+            (int(eps), Fraction(power), int(log_power)): Fraction(value)
+            for (eps, power, log_power), value in (terms or {}).items()
+            if value and int(eps) <= 1
+        }
+
+    @staticmethod
+    def monomial(value=1, eps=0, power=0, log_power=0):
+        return Expr({(eps, Fraction(power), log_power): Fraction(value)})
+
+    def __add__(self, other):
+        out = dict(self.terms)
+        for key, value in other.terms.items():
+            out[key] = out.get(key, Fraction(0)) + value
+            if not out[key]:
+                del out[key]
+        return Expr(out)
+
+    def __neg__(self):
+        return Expr({key: -value for key, value in self.terms.items()})
+
+    def __sub__(self, other):
+        return self + (-other)
+
+    def __mul__(self, other):
+        out = {}
+        for (eps_a, power_a, log_a), value_a in self.terms.items():
+            for (eps_b, power_b, log_b), value_b in other.terms.items():
+                eps = eps_a + eps_b
+                if eps > 1:
+                    continue
+                key = (eps, power_a + power_b, log_a + log_b)
+                out[key] = out.get(key, Fraction(0)) + value_a * value_b
+        return Expr(out)
+
+    def scale(self, value):
+        return Expr({key: Fraction(value) * coefficient
+                     for key, coefficient in self.terms.items()})
+
+    def dt(self):
+        out = Expr()
+        for (eps, power, log_power), value in self.terms.items():
+            if power:
+                out = out + Expr.monomial(
+                    value * power, eps, power - 1, log_power
+                )
+            if log_power:
+                out = out + Expr.monomial(
+                    value * log_power, eps, power - 1, log_power - 1
+                )
+        return out
+
+    def with_epsilon(self):
+        return Expr({(1, power, log_power): value
+                     for (eps, power, log_power), value in self.terms.items()
+                     if eps == 0})
+
+    def inverse_first_order(self):
+        base = [(key, value) for key, value in self.terms.items() if key[0] == 0]
+        assert len(base) == 1
+        (eps, power, log_power), coefficient = base[0]
+        assert eps == 0 and log_power == 0
+        inverse_base = Expr.monomial(1 / coefficient, 0, -power, 0)
+        perturbation = Expr({key: value for key, value in self.terms.items() if key[0] == 1})
+        return inverse_base - inverse_base * inverse_base * perturbation
+
+    def epsilon_part(self):
+        return Expr({(0, power, log_power): value
+                     for (eps, power, log_power), value in self.terms.items() if eps == 1})
+
+    def is_zero(self):
+        return not self.terms
+
+    def __eq__(self, other):
+        if not isinstance(other, Expr):
+            return NotImplemented
+        return self.terms == other.terms
+
+    def serial(self):
+        return {
+            f"eps^{eps}*T^{power}*log^{log_power}": str(value)
+            for (eps, power, log_power), value in sorted(self.terms.items())
+        }
+
+
+ZERO = Expr()
+ONE = Expr.monomial()
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+
+
+def partial(value: Expr, coordinate: int) -> Expr:
+    return value.dt() if coordinate == 0 else ZERO
+
+
+def mode_u(name: str, index: int) -> Expr:
+    if name == "constant_x":
+        return ONE if index == 0 else ZERO
+    if name == "constant_y":
+        return ONE if index == 1 else ZERO
+    if name == "constant_z":
+        return ONE if index == 2 else ZERO
+    if name == "gauge":
+        return Expr.monomial(P[index], power=-1)
+    if name == "shear":
+        coefficient = (Fraction(0), Fraction(1), Fraction(-1))[index]
+        return Expr.monomial(coefficient, power=0, log_power=1) if coefficient else ZERO
+    if name == "scalar":
+        return Expr.monomial((1 - P[index]) / 4, power=2)
+    raise ValueError(name)
+
+
+def direct_tensor_mode(name: str):
+    dim = 4
+    g = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    g[0][0] = Expr.monomial(-1)
+    for spatial in range(3):
+        background = Expr.monomial(power=2 * P[spatial])
+        perturbation = background * mode_u(name, spatial).with_epsilon().scale(2)
+        g[spatial + 1][spatial + 1] = background + perturbation
+    inverse = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for index in range(dim):
+        inverse[index][index] = g[index][index].inverse_first_order()
+
+    gamma = [[[ZERO for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                value = ZERO
+                for d in range(dim):
+                    bracket = partial(g[d][c], b) + partial(g[d][b], c) - partial(g[b][c], d)
+                    value = value + inverse[a][d] * bracket
+                gamma[a][b][c] = value.scale(Fraction(1, 2))
+
+    riemann = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    value = partial(gamma[a][b][d], c) - partial(gamma[a][b][c], d)
+                    for e in range(dim):
+                        value = value + gamma[a][e][c] * gamma[e][b][d]
+                        value = value - gamma[a][e][d] * gamma[e][b][c]
+                    riemann[a][b][c][d] = value
+
+    ricci = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for b in range(dim):
+        for d in range(dim):
+            for a in range(dim):
+                ricci[b][d] = ricci[b][d] + riemann[a][b][a][d]
+
+    scalar = ZERO
+    for a in range(dim):
+        scalar = scalar + inverse[a][a] * ricci[a][a]
+    tracefree = [[ZERO for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            tracefree[a][b] = ricci[a][b] - scalar * g[a][b].scale(Fraction(1, 4))
+
+    lowered = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+                for _ in range(dim)] for _ in range(dim)]
+    for a in range(dim):
+        for b in range(dim):
+            for c in range(dim):
+                for d in range(dim):
+                    for e in range(dim):
+                        lowered[a][b][c][d] = lowered[a][b][c][d] + g[a][e] * riemann[e][b][c][d]
+    electric = []
+    for spatial in range(1, 4):
+        electric.append(lowered[0][spatial][0][spatial] * inverse[spatial][spatial])
+    return g, ricci, scalar, tracefree, electric
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    modes = ("constant_x", "constant_y", "constant_z", "gauge", "shear", "scalar")
+    scalar_eps = None
+    shear_split = None
+    for name in modes:
+        metric, ricci, scalar, tracefree, electric = direct_tensor_mode(name)
+        for a in range(4):
+            for b in range(4):
+                gate(tracefree[a][b].epsilon_part().is_zero(),
+                     f"direct_tracefree_zero:{name}:{a}:{b}")
+        if name in ("constant_x", "constant_y", "constant_z", "gauge", "shear"):
+            gate(scalar.epsilon_part().is_zero(), f"direct_scalar_zero:{name}")
+        if name == "scalar":
+            scalar_eps = scalar.epsilon_part()
+            gate(scalar_eps == Expr.monomial(4), "direct_scalar_mode_delta_R_four")
+        if name == "shear":
+            shear_split = (electric[1] - electric[2]).epsilon_part()
+            expected_options = (Expr.monomial(Fraction(-2, 3), power=-2),
+                                Expr.monomial(Fraction(2, 3), power=-2))
+            gate(shear_split in expected_options, "direct_shear_curvature_split")
+
+    # Direct Lie derivative in synchronous coordinates: L_(d/dT) g_ii = d_T g_ii.
+    gauge_metric, _, _, _, _ = direct_tensor_mode("gauge")
+    for spatial in range(3):
+        background = Expr.monomial(power=2 * P[spatial])
+        expected = background.dt()
+        actual = gauge_metric[spatial + 1][spatial + 1].epsilon_part()
+        gate(actual == expected, f"direct_time_shift_lie_derivative:{spatial}")
+
+    # A scaling generator c*x on a compact coordinate circle is single-valued only for c=0.
+    for label, coefficient, period in (
+        ("x", Fraction(2, 3), Fraction(5)),
+        ("y", Fraction(-4, 7), Fraction(11)),
+        ("z", Fraction(9, 13), Fraction(17)),
+    ):
+        gate(coefficient * period != 0, f"scaling_generator_fails_periodicity:{label}")
+
+    # Exact parameter count from two independent exponent constraints.
+    q = (Fraction(0), Fraction(1), Fraction(-1))
+    gate(sum(q) == 0, "independent_q_trace_constraint")
+    gate(sum(p_i * q_i for p_i, q_i in zip(P, q)) == 0,
+         "independent_q_kasner_constraint")
+
+    result = {
+        "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+        "status": "PASS",
+        "assertion_count": len(checks),
+        "checks": checks,
+        "production_imported": False,
+        "production_result_read": False,
+        "direct_tensor_modes": list(modes),
+        "linearized_scalar_curvature": scalar_eps.serial(),
+        "linearized_shear_curvature_split": shear_split.serial(),
+        "time_shift_is_lie_derivative": True,
+        "constant_cover_scalings_fail_fixed_quotient_periodicity": True,
+        "python_version": sys.version,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -lc 'cat /intake/derive_modes.py' in /return
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Production derivation for the bounded G325 homogeneous diagonal mode census."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+
+LANDING = (
+    "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__"
+    "THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__"
+    "ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM"
+)
+
+P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+
+
+def matrix_rank(rows: list[list[Fraction]]) -> int:
+    matrix = [row[:] for row in rows]
+    if not matrix:
+        return 0
+    rank = 0
+    columns = len(matrix[0])
+    for column in range(columns):
+        pivot = next((index for index in range(rank, len(matrix))
+                      if matrix[index][column]), None)
+        if pivot is None:
+            continue
+        matrix[rank], matrix[pivot] = matrix[pivot], matrix[rank]
+        scale = matrix[rank][column]
+        matrix[rank] = [value / scale for value in matrix[rank]]
+        for index in range(len(matrix)):
+            if index == rank:
+                continue
+            scale = matrix[index][column]
+            if scale:
+                matrix[index] = [left - scale * right
+                                 for left, right in zip(matrix[index], matrix[rank])]
+        rank += 1
+    return rank
+
+
+def solve_linear(matrix: list[list[Fraction]], rhs: list[Fraction]) -> list[Fraction]:
+    augmented = [row[:] + [value] for row, value in zip(matrix, rhs)]
+    n = len(matrix)
+    for column in range(n):
+        pivot = next(index for index in range(column, n) if augmented[index][column])
+        augmented[column], augmented[pivot] = augmented[pivot], augmented[column]
+        scale = augmented[column][column]
+        augmented[column] = [value / scale for value in augmented[column]]
+        for index in range(n):
+            if index == column:
+                continue
+            scale = augmented[index][column]
+            augmented[index] = [left - scale * right
+                                for left, right in zip(augmented[index], augmented[column])]
+    return [augmented[index][-1] for index in range(n)]
+
+
+def residuals(
+    time: Fraction,
+    gauge: Fraction,
+    shear: Fraction,
+    scalar: Fraction,
+) -> dict[str, object]:
+    """Exact first-order Ricci and trace-free residuals from the Bianchi-I metric."""
+    q = (Fraction(0), shear, -shear)
+    first = [
+        q_i / time - p_i * gauge / time**2
+        + (1 - p_i) * scalar * time / 2
+        for p_i, q_i in zip(P, q)
+    ]
+    second = [
+        -q_i / time**2 + 2 * p_i * gauge / time**3
+        + (1 - p_i) * scalar / 2
+        for p_i, q_i in zip(P, q)
+    ]
+    expansion = sum(first)
+    ricci_00 = -sum(second_i + 2 * p_i * first_i / time
+                    for p_i, first_i, second_i in zip(P, first, second))
+    ricci_space = [
+        second_i + first_i / time + p_i * expansion / time
+        for p_i, first_i, second_i in zip(P, first, second)
+    ]
+    scalar_curvature = -ricci_00 + sum(ricci_space)
+    tracefree_00 = ricci_00 + scalar_curvature / 4
+    tracefree_space = [value - scalar_curvature / 4 for value in ricci_space]
+    hamiltonian = (expansion - sum(p_i * first_i for p_i, first_i in zip(P, first))) / time
+    return {
+        "first": first,
+        "second": second,
+        "ricci_00": ricci_00,
+        "ricci_space": ricci_space,
+        "scalar_curvature": scalar_curvature,
+        "tracefree_00": tracefree_00,
+        "tracefree_space": tracefree_space,
+        "hamiltonian": hamiltonian,
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parent
+    checks: list[str] = []
+
+    def gate(condition: bool, name: str) -> None:
+        assert condition, name
+        checks.append(name)
+
+    gate(sum(P) == 1, "background_kasner_sum")
+    gate(sum(value * value for value in P) == 1, "background_kasner_square_sum")
+
+    # The constant-in-log-time exponent vector is constrained by sum(q)=p.q=0.
+    constraint_rows = [[Fraction(1), Fraction(1), Fraction(1)], list(P)]
+    gate(matrix_rank(constraint_rows) == 2, "exponent_constraint_rank_two")
+    q_basis = [Fraction(0), Fraction(1), Fraction(-1)]
+    gate(sum(q_basis) == 0, "kasner_shear_zero_trace")
+    gate(sum(p_i * q_i for p_i, q_i in zip(P, q_basis)) == 0,
+         "kasner_shear_tangent_constraint")
+    gate(matrix_rank(constraint_rows + [q_basis]) == 3,
+         "kasner_shear_spans_one_dimensional_nullspace")
+
+    # The connected-scalar particular solution is unique at the w_i=T*u_i' level.
+    scalar_matrix = [
+        [2 * (1 if i == j else 0) + P[i] for j in range(3)]
+        for i in range(3)
+    ]
+    scalar_w = solve_linear(scalar_matrix, [Fraction(1)] * 3)
+    expected_scalar_w = [(1 - value) / 2 for value in P]
+    gate(scalar_w == expected_scalar_w, "connected_scalar_particular_unique")
+    scalar_u = [value / 2 for value in scalar_w]
+    gate(scalar_u == [(1 - value) / 4 for value in P],
+         "connected_scalar_metric_coefficients")
+
+    # The T^-1 solution at w=T*u' is precisely the time-translation Lie derivative.
+    gauge_w = [-value for value in P]
+    gauge_sum = sum(gauge_w)
+    gate(all(-value + P[index] * gauge_sum == 0
+             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+    gate(all(2 * P[index] == 2 * P[index] for index in range(3)),
+         "time_shift_lie_derivative_witness")
+
+    # Exact all-mode checks at unrelated rational times and amplitudes.
+    samples = (
+        (Fraction(2, 3), Fraction(7, 5), Fraction(-4, 9), Fraction(5, 11)),
+        (Fraction(7, 4), Fraction(-3, 8), Fraction(9, 13), Fraction(-2, 7)),
+        (Fraction(19, 6), Fraction(0), Fraction(5, 3), Fraction(0)),
+    )
+    for index, (time, gauge, shear, scalar) in enumerate(samples):
+        result = residuals(time, gauge, shear, scalar)
+        gate(result["tracefree_00"] == 0, f"tracefree_time_zero_{index}")
+        gate(all(value == 0 for value in result["tracefree_space"]),
+             f"tracefree_space_zero_{index}")
+        gate(result["ricci_00"] == -scalar, f"einstein_time_{index}")
+        gate(all(value == scalar for value in result["ricci_space"]),
+             f"einstein_space_{index}")
+        gate(result["scalar_curvature"] == 4 * scalar,
+             f"scalar_curvature_four_lambda_{index}")
+        gate(result["hamiltonian"] == scalar, f"hamiltonian_constraint_{index}")
+
+    # Constant strains are a complete three-dimensional integration-constant sector.
+    lattice_forms = [
+        [Fraction(1), Fraction(1), Fraction(1)],
+        [Fraction(1), Fraction(-1, 2), Fraction(-1, 2)],
+        [Fraction(0), Fraction(1), Fraction(-1)],
+    ]
+    gate(matrix_rank(lattice_forms) == 3, "three_lattice_modulus_coordinates")
+    periods = (Fraction(5), Fraction(7), Fraction(11))
+    nonzero_strain = (Fraction(2, 5), Fraction(-3, 7), Fraction(4, 11))
+    jumps = [strain * period for strain, period in zip(nonzero_strain, periods)]
+    gate(all(value != 0 for value in jumps), "cover_scaling_vector_not_periodic")
+    gate(all(Fraction(0) * period == 0 for period in periods),
+         "zero_scaling_vector_periodic")
+
+    # Local curvature distinguishes the shear mode even though scalar invariants are symmetric
+    # under y-z exchange at first order.
+    shear = Fraction(13, 17)
+    time = Fraction(11, 5)
+    electric_weyl_y_minus_z = -2 * shear / (3 * time**2)
+    gate(electric_weyl_y_minus_z != 0, "local_weyl_eigenvalue_split_nonzero")
+    gate(electric_weyl_y_minus_z == Fraction(-650, 6171),
+         "local_weyl_eigenvalue_split_exact")
+
+    # Endpoint behavior follows from exact basis functions and is classification, not a filter.
+    shear_log_coefficient = Fraction(1)
+    scalar_power = Fraction(2)
+    gauge_power = Fraction(-1)
+    gate(shear_log_coefficient != 0, "shear_log_secular_both_ends")
+    gate(scalar_power > 0, "scalar_mode_quadratic_future_growth")
+    gate(scalar_power > 0, "scalar_mode_zero_at_past_end")
+    gate(gauge_power < 0 and gauge_w == [-value for value in P],
+         "time_shift_growth_is_gauge")
+
+    result = {
+        "schema": "udt-g325-homogeneous-diagonal-production-v1",
+        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+        "landing": LANDING,
+        "assertion_count": len(checks),
+        "checks": checks,
+        "background_exponents": [str(value) for value in P],
+        "general_solution": (
+            "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+"
+            "(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0"
+        ),
+        "mode_dimensions": {
+            "residual_time_translation_gauge": 1,
+            "fixed_quotient_lattice_moduli": 3,
+            "local_kasner_shear": 1,
+            "connected_scalar_curvature": 1,
+        },
+        "linearized_scalar_curvature": "4*lambda",
+        "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+        "full_linear_stability_proved": False,
+        "nonlinear_stability_proved": False,
+        "inhomogeneous_modes_classified": False,
+        "offdiagonal_modes_classified": False,
+        "physical_occupancy_selected": False,
+        "physical_scale_selected": False,
+        "Xmax_selected": False,
+        "metric_changed": False,
+        "kernel_changed": False,
+        "angular_sector_changed": False,
+        "python_version": sys.version,
+    }
+    output = root / args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+I’ve inspected the replay and verifier scripts. The next step is execution in a fresh writable copy so I can test exact replay and whether the package relies on circular or mutation-insensitive checks in practice.
+exec
+/bin/bash -lc 'mktemp -d -p /work g325_review_copy.XXXXXX' in /work
+ succeeded in 0ms:
+/work/g325_review_copy.XgbfJE
+
+exec
+/bin/bash -lc 'cp -a /intake/. /work/g325_review_copy.XgbfJE/' in /work
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json' in /work/g325_review_copy.XgbfJE
+ exited 1 in 0ms:
+Traceback (most recent call last):
+  File "/work/g325_review_copy.XgbfJE/derive_modes.py", line 238, in <module>
+    main()
+  File "/work/g325_review_copy.XgbfJE/derive_modes.py", line 232, in main
+    output.parent.mkdir(parents=True, exist_ok=True)
+  File "/usr/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/work/g325_review_copy.XgbfJE/.review_runtime'
+
+codex
+The first literal replay failed for a non-scientific reason: `cp -a` preserved the intake’s read-only mode into the ephemeral copy, so the command couldn’t create `.review_runtime`. I’m correcting only the copy permissions and rerunning the registered commands literally.
+exec
+/bin/bash -lc 'chmod -R u+w /work/g325_review_copy.XgbfJE' in /work
+ succeeded in 0ms:
+exec
+/bin/bash -lc 'python3 -S derive_modes.py --output .review_runtime/DERIVATION_RESULT.json' in /work/g325_review_copy.XgbfJE
+exec
+/bin/bash -lc 'python3 -S run_catch_proofs.py --output .review_runtime/CATCH_PROOF_RESULT.json' in /work/g325_review_copy.XgbfJE
+ succeeded in 0ms:
+{
+  "assertion_count": 5,
+  "controls": {
+    "false_periodic_scaling_rejected": true,
+    "physical_shear_as_gauge_rejected": true,
+    "removed_exponent_constraint_rejected": true,
+    "wrong_kasner_tangent_rejected": true,
+    "wrong_scalar_directional_shape_rejected": true
+  },
+  "schema": "udt-g325-catch-proofs-v1",
+  "status": "PASS"
+}
+
+ succeeded in 0ms:
+{
+  "Xmax_selected": false,
+  "angular_sector_changed": false,
+  "assertion_count": 37,
+  "background_exponents": [
+    "-1/3",
+    "2/3",
+    "2/3"
+  ],
+  "checks": [
+    "background_kasner_sum",
+    "background_kasner_square_sum",
+    "exponent_constraint_rank_two",
+    "kasner_shear_zero_trace",
+    "kasner_shear_tangent_constraint",
+    "kasner_shear_spans_one_dimensional_nullspace",
+    "connected_scalar_particular_unique",
+    "connected_scalar_metric_coefficients",
+    "gauge_ode_solution",
+    "time_shift_lie_derivative_witness",
+    "tracefree_time_zero_0",
+    "tracefree_space_zero_0",
+    "einstein_time_0",
+    "einstein_space_0",
+    "scalar_curvature_four_lambda_0",
+    "hamiltonian_constraint_0",
+    "tracefree_time_zero_1",
+    "tracefree_space_zero_1",
+    "einstein_time_1",
+    "einstein_space_1",
+    "scalar_curvature_four_lambda_1",
+    "hamiltonian_constraint_1",
+    "tracefree_time_zero_2",
+    "tracefree_space_zero_2",
+    "einstein_time_2",
+    "einstein_space_2",
+    "scalar_curvature_four_lambda_2",
+    "hamiltonian_constraint_2",
+    "three_lattice_modulus_coordinates",
+    "cover_scaling_vector_not_periodic",
+    "zero_scaling_vector_periodic",
+    "local_weyl_eigenvalue_split_nonzero",
+    "local_weyl_eigenvalue_split_exact",
+    "shear_log_secular_both_ends",
+    "scalar_mode_quadratic_future_growth",
+    "scalar_mode_zero_at_past_end",
+    "time_shift_growth_is_gauge"
+  ],
+  "full_linear_stability_proved": false,
+  "general_solution": "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0",
+  "inhomogeneous_modes_classified": false,
+  "kernel_changed": false,
+  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "linearized_scalar_curvature": "4*lambda",
+  "metric_changed": false,
+  "mode_dimensions": {
+    "connected_scalar_curvature": 1,
+    "fixed_quotient_lattice_moduli": 3,
+    "local_kasner_shear": 1,
+    "residual_time_translation_gauge": 1
+  },
+  "nonlinear_stability_proved": false,
+  "offdiagonal_modes_classified": false,
+  "physical_occupancy_selected": false,
+  "physical_scale_selected": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-production-v1",
+  "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+  "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW"
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_independent.py --output .review_runtime/INDEPENDENT_VERIFICATION.json' in /work/g325_review_copy.XgbfJE
+ succeeded in 0ms:
+{
+  "assertion_count": 111,
+  "checks": [
+    "direct_tracefree_zero:constant_x:0:0",
+    "direct_tracefree_zero:constant_x:0:1",
+    "direct_tracefree_zero:constant_x:0:2",
+    "direct_tracefree_zero:constant_x:0:3",
+    "direct_tracefree_zero:constant_x:1:0",
+    "direct_tracefree_zero:constant_x:1:1",
+    "direct_tracefree_zero:constant_x:1:2",
+    "direct_tracefree_zero:constant_x:1:3",
+    "direct_tracefree_zero:constant_x:2:0",
+    "direct_tracefree_zero:constant_x:2:1",
+    "direct_tracefree_zero:constant_x:2:2",
+    "direct_tracefree_zero:constant_x:2:3",
+    "direct_tracefree_zero:constant_x:3:0",
+    "direct_tracefree_zero:constant_x:3:1",
+    "direct_tracefree_zero:constant_x:3:2",
+    "direct_tracefree_zero:constant_x:3:3",
+    "direct_scalar_zero:constant_x",
+    "direct_tracefree_zero:constant_y:0:0",
+    "direct_tracefree_zero:constant_y:0:1",
+    "direct_tracefree_zero:constant_y:0:2",
+    "direct_tracefree_zero:constant_y:0:3",
+    "direct_tracefree_zero:constant_y:1:0",
+    "direct_tracefree_zero:constant_y:1:1",
+    "direct_tracefree_zero:constant_y:1:2",
+    "direct_tracefree_zero:constant_y:1:3",
+    "direct_tracefree_zero:constant_y:2:0",
+    "direct_tracefree_zero:constant_y:2:1",
+    "direct_tracefree_zero:constant_y:2:2",
+    "direct_tracefree_zero:constant_y:2:3",
+    "direct_tracefree_zero:constant_y:3:0",
+    "direct_tracefree_zero:constant_y:3:1",
+    "direct_tracefree_zero:constant_y:3:2",
+    "direct_tracefree_zero:constant_y:3:3",
+    "direct_scalar_zero:constant_y",
+    "direct_tracefree_zero:constant_z:0:0",
+    "direct_tracefree_zero:constant_z:0:1",
+    "direct_tracefree_zero:constant_z:0:2",
+    "direct_tracefree_zero:constant_z:0:3",
+    "direct_tracefree_zero:constant_z:1:0",
+    "direct_tracefree_zero:constant_z:1:1",
+    "direct_tracefree_zero:constant_z:1:2",
+    "direct_tracefree_zero:constant_z:1:3",
+    "direct_tracefree_zero:constant_z:2:0",
+    "direct_tracefree_zero:constant_z:2:1",
+    "direct_tracefree_zero:constant_z:2:2",
+    "direct_tracefree_zero:constant_z:2:3",
+    "direct_tracefree_zero:constant_z:3:0",
+    "direct_tracefree_zero:constant_z:3:1",
+    "direct_tracefree_zero:constant_z:3:2",
+    "direct_tracefree_zero:constant_z:3:3",
+    "direct_scalar_zero:constant_z",
+    "direct_tracefree_zero:gauge:0:0",
+    "direct_tracefree_zero:gauge:0:1",
+    "direct_tracefree_zero:gauge:0:2",
+    "direct_tracefree_zero:gauge:0:3",
+    "direct_tracefree_zero:gauge:1:0",
+    "direct_tracefree_zero:gauge:1:1",
+    "direct_tracefree_zero:gauge:1:2",
+    "direct_tracefree_zero:gauge:1:3",
+    "direct_tracefree_zero:gauge:2:0",
+    "direct_tracefree_zero:gauge:2:1",
+    "direct_tracefree_zero:gauge:2:2",
+    "direct_tracefree_zero:gauge:2:3",
+    "direct_tracefree_zero:gauge:3:0",
+    "direct_tracefree_zero:gauge:3:1",
+    "direct_tracefree_zero:gauge:3:2",
+    "direct_tracefree_zero:gauge:3:3",
+    "direct_scalar_zero:gauge",
+    "direct_tracefree_zero:shear:0:0",
+    "direct_tracefree_zero:shear:0:1",
+    "direct_tracefree_zero:shear:0:2",
+    "direct_tracefree_zero:shear:0:3",
+    "direct_tracefree_zero:shear:1:0",
+    "direct_tracefree_zero:shear:1:1",
+    "direct_tracefree_zero:shear:1:2",
+    "direct_tracefree_zero:shear:1:3",
+    "direct_tracefree_zero:shear:2:0",
+    "direct_tracefree_zero:shear:2:1",
+    "direct_tracefree_zero:shear:2:2",
+    "direct_tracefree_zero:shear:2:3",
+    "direct_tracefree_zero:shear:3:0",
+    "direct_tracefree_zero:shear:3:1",
+    "direct_tracefree_zero:shear:3:2",
+    "direct_tracefree_zero:shear:3:3",
+    "direct_scalar_zero:shear",
+    "direct_shear_curvature_split",
+    "direct_tracefree_zero:scalar:0:0",
+    "direct_tracefree_zero:scalar:0:1",
+    "direct_tracefree_zero:scalar:0:2",
+    "direct_tracefree_zero:scalar:0:3",
+    "direct_tracefree_zero:scalar:1:0",
+    "direct_tracefree_zero:scalar:1:1",
+    "direct_tracefree_zero:scalar:1:2",
+    "direct_tracefree_zero:scalar:1:3",
+    "direct_tracefree_zero:scalar:2:0",
+    "direct_tracefree_zero:scalar:2:1",
+    "direct_tracefree_zero:scalar:2:2",
+    "direct_tracefree_zero:scalar:2:3",
+    "direct_tracefree_zero:scalar:3:0",
+    "direct_tracefree_zero:scalar:3:1",
+    "direct_tracefree_zero:scalar:3:2",
+    "direct_tracefree_zero:scalar:3:3",
+    "direct_scalar_mode_delta_R_four",
+    "direct_time_shift_lie_derivative:0",
+    "direct_time_shift_lie_derivative:1",
+    "direct_time_shift_lie_derivative:2",
+    "scaling_generator_fails_periodicity:x",
+    "scaling_generator_fails_periodicity:y",
+    "scaling_generator_fails_periodicity:z",
+    "independent_q_trace_constraint",
+    "independent_q_kasner_constraint"
+  ],
+  "constant_cover_scalings_fail_fixed_quotient_periodicity": true,
+  "direct_tensor_modes": [
+    "constant_x",
+    "constant_y",
+    "constant_z",
+    "gauge",
+    "shear",
+    "scalar"
+  ],
+  "linearized_scalar_curvature": {
+    "eps^0*T^0*log^0": "4"
+  },
+  "linearized_shear_curvature_split": {
+    "eps^0*T^-2*log^0": "-2/3"
+  },
+  "production_imported": false,
+  "production_result_read": false,
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+  "status": "PASS",
+  "time_shift_is_lie_derivative": true
+}
+
+exec
+/bin/bash -lc 'python3 -S verify_package.py' in /work/g325_review_copy.XgbfJE
+ succeeded in 0ms:
+{
+  "assertion_count": 37,
+  "checks": [
+    "production_landing",
+    "production_assertion_count",
+    "independent_assertion_count",
+    "hostile_assertion_count",
+    "exact_mode_dimensions",
+    "production_scalar_witness",
+    "independent_scalar_witness",
+    "independent_shear_witness",
+    "independent_no_production_import",
+    "independent_no_result_read",
+    "all_hostile_controls",
+    "no_full_linear_overclaim",
+    "no_nonlinear_overclaim",
+    "inhomogeneous_open",
+    "offdiagonal_open",
+    "occupancy_open",
+    "scale_open",
+    "xmax_open",
+    "native_objects_unchanged",
+    "static_no_production_import",
+    "static_no_production_result_read",
+    "exact_landing_token",
+    "exact_stability_boundary",
+    "lay_stability_boundary",
+    "status_pending_external",
+    "external_review_pending",
+    "registered_command_count",
+    "replay_exit:DERIVATION_RESULT.json",
+    "replay_created:DERIVATION_RESULT.json",
+    "replay_exact:DERIVATION_RESULT.json",
+    "replay_exit:INDEPENDENT_VERIFICATION.json",
+    "replay_created:INDEPENDENT_VERIFICATION.json",
+    "replay_exact:INDEPENDENT_VERIFICATION.json",
+    "replay_exit:CATCH_PROOF_RESULT.json",
+    "replay_created:CATCH_PROOF_RESULT.json",
+    "replay_exact:CATCH_PROOF_RESULT.json",
+    "fourth_command_self"
+  ],
+  "exact_replay": true,
+  "landing": "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "schema": "udt-g325-package-verification-v1",
+  "status": "PASS_PENDING_EXTERNAL_REVIEW"
+}
+
+codex
+The registered replay succeeded after fixing the copied permissions, and the regenerated artifacts matched the banked ones exactly. I’m now closing the remaining review edges: provenance, scope boundaries, and whether the written derivation honestly matches the independent census.
+exec
+/bin/bash -lc 'nl -ba /intake/ADVERSARIAL_REVIEW_REQUEST.md' in /return
+ succeeded in 0ms:
+     1	# External adversarial review request — G325
+     2	
+     3	## Required stance
+     4	
+     5	Treat the G325 landing as false until independently established. Inspect only this sealed intake.
+     6	Do not continue the research, select a preferred universe, or strengthen the stated scope.
+     7	
+     8	## Exact question
+     9	
+    10	For the G324 compact Taub quotient, does the complete spatially homogeneous diagonal synchronous
+    11	first variation of the adopted bounded trace-free Ricci equation contain exactly:
+    12	
+    13	- one residual time-origin gauge constant;
+    14	- three fixed-quotient lattice-modulus constants;
+    15	- one genuine local Kasner-shear constant;
+    16	- one connected scalar-curvature constant?
+    17	
+    18	## Required checks
+    19	
+    20	1. Authenticate `REVIEW_MANIFEST.tsv` and its detached seal before reading scientific claims.
+    21	2. Rederive the diagonal Bianchi-I Ricci tensor and solve the complete linearized system without
+    22	   trusting `EXACT_DERIVATION.md` or production code.
+    23	3. Check the Hamiltonian constraint, parameter count, and absence of an additional integration
+    24	   constant.
+    25	4. Verify the time-shift Lie derivative and decide whether it is gauge in the stated bounded
+    26	   category.
+    27	5. Challenge the claim that constant cover-coordinate strains fail to descend as fixed-torus
+    28	   gauge. Account for continuous quotient moduli versus discrete lattice automorphisms.
+    29	6. Independently test the electric-curvature split for the Kasner shear and `delta R=4 lambda` for
+    30	   the scalar mode.
+    31	7. Check whether first-order scalar blindness under `y-z` exchange has been handled honestly.
+    32	8. Check the controlled-linearization statement and reject any full or nonlinear stability
+    33	   inference.
+    34	9. Audit native provenance: no new UDT equation, action, source, observation, fit, scale, or
+    35	   `X_max` may enter.
+    36	10. Run all four `REPLAY_COMMANDS.txt` commands in a writable ephemeral copy and hunt circular,
+    37	    vacuous, or mutation-insensitive assertions.
+    38	
+    39	## Allowed verdicts
+    40	
+    41	- `ACCEPT__G325_BOUNDED_MODE_CENSUS`
+    42	- `REPAIR_REQUIRED__G325`
+    43	- `REFUTE__G325_MODE_CENSUS`
+    44	
+    45	Give exact reasons and preserve every open boundary. Do not edit intake files or continue beyond
+    46	reviewing the preregistered question.
+
+exec
+/bin/bash -lc 'nl -ba /intake/STATUS_LEDGER.tsv' in /return
+ succeeded in 0ms:
+     1	claim	status	scope
+     2	G325_mode_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	spatially homogeneous diagonal synchronous first variations of G324
+     3	time_shift_mode	DERIVED_GAUGE	local time-origin translation
+     4	constant_strains	DERIVED_QUOTIENT_MODULI	three diagonal fixed-T3 lattice directions
+     5	kasner_shear	DERIVED_CONDITIONAL	one local curvature-changing tangent at LRS Taub point
+     6	connected_scalar_mode	DERIVED_CONDITIONAL	one constant delta-R direction retained by trace-free Ricci
+     7	uniform_full_linear_stability	OPEN	nonzero Fourier and off-diagonal sectors absent; secular endpoint behavior
+     8	nonlinear_stability	OPEN	outside first variation
+     9	physical_occupancy	OPEN	no datum selected
+    10	physical_scale	OPEN	no ruler attachment
+    11	physical_Xmax	OPEN	not used or selected
+    12	metric_kernel_angular_change	NO_CHANGE	G325 is analysis of the adopted equation around G324
+
+exec
+/bin/bash -lc 'nl -ba /intake/EXACT_DERIVATION.md' in /return
+ succeeded in 0ms:
+     1	# G325 exact derivation — homogeneous diagonal modes around the G324 quotient
+     2	
+     3	Date: 2026-09-02
+     4	Status: `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`
+     5	
+     6	## 1. Bounded question
+     7	
+     8	On every compact G324 Taub quotient, classify the complete spatially homogeneous diagonal
+     9	synchronous first variation of the active bounded equation
+    10	
+    11	\[
+    12	S_{ab}:=R_{ab}-\frac14R g_{ab}=0.
+    13	\tag{1}
+    14	\]
+    15	
+    16	This is a first-variation theorem on compact time intervals inside `T>0`. It is not a nonlinear or
+    17	full linear-stability statement.
+    18	
+    19	After G324's proper-time and constant spatial-coordinate changes, the local metric is
+    20	
+    21	\[
+    22	g_0=-dT^2+\sum_{i=1}^3 C_i^2T^{2p_i}(dx^i)^2,
+    23	\qquad
+    24	(p_1,p_2,p_3)=\left(-\frac13,\frac23,\frac23\right).
+    25	\tag{2}
+    26	\]
+    27	
+    28	The constants `C_i` retain the quotient lattice attachment. Write
+    29	
+    30	\[
+    31	g_{ii}=C_i^2T^{2p_i}\left[1+2\epsilon u_i(T)\right]+O(\epsilon^2).
+    32	\tag{3}
+    33	\]
+    34	
+    35	## 2. Direct metric equations
+    36	
+    37	For a diagonal Bianchi-I metric let
+    38	
+    39	\[
+    40	\alpha_i=\log C_i+p_i\log T+\epsilon u_i,
+    41	\qquad H_i=\dot\alpha_i,
+    42	\qquad \theta=\sum_iH_i.
+    43	\]
+    44	
+    45	A direct Christoffel and Ricci calculation gives
+    46	
+    47	\[
+    48	R_{00}=-\sum_i(\dot H_i+H_i^2),
+    49	\qquad
+    50	\frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i.
+    51	\tag{4}
+    52	\]
+    53	
+    54	The background satisfies both Kasner identities, `sum p_i=sum p_i^2=1`, and is Ricci-flat.
+    55	The trace-free equation plus the contracted Bianchi identity makes any connected regular solution
+    56	Einstein with a spacetime constant. At first order write that free constant as `lambda`:
+    57	
+    58	\[
+    59	\delta R_{ab}=\lambda (g_0)_{ab},
+    60	\qquad \delta R=4\lambda,
+    61	\qquad d\lambda=0.
+    62	\tag{5}
+    63	\]
+    64	
+    65	This does not add a cosmological source or select `lambda`; it retains the regional scalar datum
+    66	already present in G303/G310--G313.
+    67	
+    68	With `v_i=dot u_i` and `V=sum v_i`, direct linearization of (4) gives
+    69	
+    70	\[
+    71	\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,
+    72	\tag{6}
+    73	\]
+    74	
+    75	and the time equation is
+    76	
+    77	\[
+    78	\sum_i\left(\dot v_i+\frac{2p_iv_i}{T}\right)=\lambda.
+    79	\tag{7}
+    80	\]
+    81	
+    82	Equivalently, the linearized Hamiltonian constraint is
+    83	
+    84	\[
+    85	\frac{V-\sum_i p_iv_i}{T}=\lambda.
+    86	\tag{8}
+    87	\]
+    88	
+    89	The direct tensor verifier reconstructs (4)--(8) from (3), rather than importing the production
+    90	ODE.
+    91	
+    92	## 3. General solution and completeness in the declared sector
+    93	
+    94	Set `s=log(T/T_ref)`, `w_i=T v_i`, and `W=sum w_i`. Equation (6) becomes
+    95	
+    96	\[
+    97	\frac{dw_i}{ds}+p_iW=\lambda T^2.
+    98	\tag{9}
+    99	\]
+   100	
+   101	Summing gives
+   102	
+   103	\[
+   104	\frac{dW}{ds}+W=3\lambda T^2,
+   105	\]
+   106	
+   107	so
+   108	
+   109	\[
+   110	W=\lambda T^2-\frac{G}{T}.
+   111	\tag{10}
+   112	\]
+   113	
+   114	Substitution into (9), integration, and (8) give the complete solution
+   115	
+   116	\[
+   117	\boxed{
+   118	u_i(T)=c_i+q_i\log\frac{T}{T_{\rm ref}}
+   119	       +\frac{p_iG}{T}
+   120	       +\frac{1-p_i}{4}\lambda T^2
+   121	}
+   122	\tag{11}
+   123	\]
+   124	
+   125	with
+   126	
+   127	\[
+   128	\sum_iq_i=0,
+   129	\qquad
+   130	\sum_ip_iq_i=0.
+   131	\tag{12}
+   132	\]
+   133	
+   134	The two rows in (12) have rank two. At the LRS Taub point their one-dimensional nullspace is
+   135	
+   136	\[
+   137	(q_1,q_2,q_3)=q(0,1,-1).
+   138	\tag{13}
+   139	\]
+   140	
+   141	Changing `T_ref` only shifts the `c_i`; it adds no parameter. Thus (11) contains exactly six
+   142	independent constants: three `c_i`, one `q`, one `G`, and one `lambda`.
+   143	
+   144	## 4. Gauge versus compact-lattice modes
+   145	
+   146	The `G` term is the Lie derivative generated by a shift of the Kasner time origin. Indeed, for
+   147	`xi=G partial_T`,
+   148	
+   149	\[
+   150	(\mathcal L_\xi g_0)_{ii}=G\partial_T(g_0)_{ii}
+   151	=2g_{0,ii}\frac{p_iG}{T}.
+   152	\tag{14}
+   153	\]
+   154	
+   155	It is therefore residual synchronous gauge, equivalently the tangent to the exact replacement
+   156	`T -> T+epsilon G` after translating the singular-time origin.
+   157	
+   158	Each constant `c_i` is locally generated on the universal cover by a coordinate scaling
+   159	`xi=c_i x^i partial_i`. On a quotient circle of period `L_i`, however,
+   160	
+   161	\[
+   162	\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
+   163	\tag{15}
+   164	\]
+   165	
+   166	Unless `c_i=0`, that vector field is not single-valued and is not a diffeomorphism generator of
+   167	the fixed torus. The three constants are therefore global quotient-lattice modes, not local
+   168	curvature modes and not legal fixed-quotient gauge.
+   169	
+   170	An invertible decomposition is
+   171	
+   172	\[
+   173	\delta\log V_{\rm lattice}=c_1+c_2+c_3,
+   174	\]
+   175	
+   176	\[
+   177	\delta\log Q_X=c_1-\frac12(c_2+c_3),
+   178	\qquad
+   179	\delta\log A_\perp=c_2-c_3.
+   180	\tag{16}
+   181	\]
+   182	
+   183	The middle channel is the infinitesimal form of G323's registered axial/transverse modulus. The
+   184	other two extend the diagonal fixed-quotient census; they do not imply physical population or an
+   185	observed ruler scale.
+   186	
+   187	## 5. Genuine local modes
+   188	
+   189	The `q` mode is tangent to the exact Kasner circle:
+   190	
+   191	\[
+   192	p_2=\frac23+\epsilon q,
+   193	\qquad
+   194	p_3=\frac23-\epsilon q,
+   195	\qquad
+   196	p_1=-\frac13+O(\epsilon^2).
+   197	\tag{17}
+   198	\]
+   199	
+   200	It is not gauge. In an orthonormal frame the electric curvature eigenvalues split by
+   201	
+   202	\[
+   203	\boxed{
+   204	\delta(E_y-E_z)=-\frac{2q}{3T^2}
+   205	}.
+   206	\tag{18}
+   207	\]
+   208	
+   209	The independent direct Riemann engine recovers (18). Scalar polynomial invariants can miss this
+   210	at first order because the background is symmetric under interchange of `y` and `z`; the tensor
+   211	eigenvalue splitting does not.
+   212	
+   213	The `lambda` mode is also local and invariant:
+   214	
+   215	\[
+   216	\boxed{\delta R=4\lambda.}
+   217	\tag{19}
+   218	\]
+   219	
+   220	It moves away from the Ricci-flat G324 sector into a neighboring constant-scalar sector allowed by
+   221	the active trace-free equation. The equation does not set its numerical value.
+   222	
+   223	## 6. Time behavior and controlled linear scope
+   224	
+   225	On any compact interval `0<T_min<=T<=T_max<infinity`, choose `epsilon` so that every
+   226	`|epsilon u_i|` is small. The first variation is then controlled with omitted metric terms
+   227	`O(epsilon^2 max |u|^2)`.
+   228	
+   229	Globally in time:
+   230	
+   231	- the quotient-lattice modes are constant;
+   232	- the Kasner-shear mode grows as `log T` in relative metric amplitude toward both logarithmic ends;
+   233	- the scalar mode grows as `T^2` toward the future and tends to zero toward `T=0`;
+   234	- the `1/T` growth toward `T=0` is the time-origin gauge mode.
+   235	
+   236	Therefore this calculation does **not** prove uniform linear stability on the full MGHD. The shear
+   237	is an exact tangent to neighboring Kasner histories, so its secular logarithm shows departure from
+   238	the chosen LRS representative, not a nonlinear instability theorem.
+   239	
+   240	## 7. Bounded landing
+   241	
+   242	```text
+   243	HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__THREE_QUOTIENT_LATTICE_MODULI
+   244	__ONE_LOCAL_KASNER_SHEAR__ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM
+   245	```
+   246	
+   247	Still open: off-diagonal homogeneous modes, every nonzero Fourier mode, nonlinear mode coupling,
+   248	full stability, other quotient lattices/topologies, physical occupancy, scale, matter/mass,
+   249	observations, and physical `X_max`. No metric, reciprocal-kernel, or angular-sector formula changed.
+
+exec
+/bin/bash -lc 'nl -ba /intake/sources/udt_g323_g320_unmarked_taub_quotient_classification_2026-09-01/EXACT_DERIVATION.md' in /return
+exec
+/bin/bash -lc 'nl -ba /intake/sources/udt_g324_g323_taub_quotient_mghd_identification_2026-09-02/EXACT_DERIVATION.md' in /return
+ succeeded in 0ms:
+     1	# G323 exact derivation — local refoliation and global compact quotient
+     2	
+     3	Date: 2026-09-01; repaired 2026-09-02
+     4	Grade: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`
+     5	
+     6	## Bounded landing
+     7	
+     8	```text
+     9	REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+    10	__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+    11	__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+    12	__NO_OCCUPANCY_SELECTION
+    13	```
+    14	
+    15	This is restricted to the G320/G321 `d=Lambda=0`, `J0>0`, one-coordinate, locally rotationally
+    16	symmetric compact data. It neither selects an occupied spacetime nor classifies the full UDT
+    17	solution space.
+    18	
+    19	## 1. Frozen G320 data
+    20	
+    21	For a smooth positive periodic profile `psi`, G319/G320 give
+    22	
+    23	\[
+    24	\gamma=\psi^4(dx^2+dy^2+dz^2),
+    25	\]
+    26	
+    27	\[
+    28	B=\epsilon\psi^{-3}\sqrt{36(\psi')^2+J_0},\qquad
+    29	F=12\psi''\psi^{-5},\qquad A=F/B,
+    30	\]
+    31	
+    32	and
+    33	
+    34	\[
+    35	K^x{}_x=\frac{3A-B}{6},\qquad
+    36	K^y{}_y=K^z{}_z=\frac B3.
+    37	\tag{1}
+    38	\]
+    39	
+    40	G320 proved that different integer modes are not related by a spatial diffeomorphism of this
+    41	chosen slice. G321 and G322 deliberately left open whether the slices belong to the same unmarked
+    42	spacetime.
+    43	
+    44	## 2. The common local spacetime
+    45	
+    46	Set
+    47	
+    48	\[
+    49	\mu=J_0/9,\qquad R=\psi^2.
+    50	\]
+    51	
+    52	Consider
+    53	
+    54	\[
+    55	\boxed{
+    56	g_\mu=-\frac R\mu dR^2+\frac\mu R dX^2+R^2(dy^2+dz^2)
+    57	},\qquad R>0.
+    58	\tag{2}
+    59	\]
+    60	
+    61	The nonzero Christoffel symbols, up to lower-index symmetry, are
+    62	
+    63	\[
+    64	\Gamma^R{}_{RR}=\frac1{2R},\qquad
+    65	\Gamma^R{}_{XX}=-\frac{\mu^2}{2R^3},\qquad
+    66	\Gamma^R{}_{yy}=\Gamma^R{}_{zz}=\mu,
+    67	\]
+    68	
+    69	\[
+    70	\Gamma^X{}_{RX}=-\frac1{2R},\qquad
+    71	\Gamma^y{}_{Ry}=\Gamma^z{}_{Rz}=\frac1R.
+    72	\tag{3}
+    73	\]
+    74	
+    75	Direct substitution gives
+    76	
+    77	\[
+    78	R_{ab}=0,
+    79	\qquad
+    80	R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}.
+    81	\tag{4}
+    82	\]
+    83	
+    84	Production reconstructs (3)--(4) by exact rational index loops at three unrelated rational
+    85	points; it does not call the metric Ricci-flat by analogy. The independent route reconstructs (3)
+    86	from the metric and differentiates the nonzero entries separately.
+    87	
+    88	## 3. Exact embedding of the complete data
+    89	
+    90	Define
+    91	
+    92	\[
+    93	X'=-\frac{3B\psi^6}{J_0}.
+    94	\tag{5}
+    95	\]
+    96	
+    97	Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+    98	
+    99	\[
+   100	R'=2\psi\psi',
+   101	\]
+   102	
+   103	the induced longitudinal metric is
+   104	
+   105	\[
+   106	-\frac R\mu(R')^2+\frac\mu R(X')^2
+   107	=-\frac{36\psi^4(\psi')^2}{J_0}
+   108	+\frac{\psi^4[36(\psi')^2+J_0]}{J_0}
+   109	=\psi^4.
+   110	\tag{6}
+   111	\]
+   112	
+   113	The other two induced components are immediately `R^2=psi^4`, so the pullback of (2) is exactly
+   114	the complete G320 intrinsic metric.
+   115	
+   116	A unit normal along the graph is
+   117	
+   118	\[
+   119	n=\frac{\mu X'}{R^2}\partial_R+\frac{R'}\mu\partial_X.
+   120	\tag{7}
+   121	\]
+   122	
+   123	It obeys `g(n,n)=-1` and is orthogonal to the graph. Using the G321 convention
+   124	`K=-1/2 L_n gamma`, equations (3), (5), and the G319 identity
+   125	
+   126	\[
+   127	B'=3\frac{\psi'}\psi(A-B)
+   128	\]
+   129	
+   130	give
+   131	
+   132	\[
+   133	K^y{}_y=K^z{}_z=-\frac{\mu X'}{R^3}=\frac B3,
+   134	\]
+   135	
+   136	\[
+   137	K^x{}_x=\frac{3A-B}{6}.
+   138	\tag{8}
+   139	\]
+   140	
+   141	Thus both the first and second fundamental forms agree. The arbitrary positive profile is a Cauchy-
+   142	graph shape inside (2), not a change of the local four-geometry.
+   143	
+   144	Because `R` has timelike gradient and the quotient spatial directions are compact, every constant-
+   145	`R` torus is Cauchy. Since `X'` is nonzero, the embedded slice is a smooth spacelike graph over the
+   146	compact `X` circle and is Cauchy as well.
+   147	
+   148	## 4. The forced global quotient period
+   149	
+   150	Injectivity fixes the primitive `X` period to the total graph advance
+   151	
+   152	\[
+   153	\boxed{
+   154	L_X[\psi]
+   155	=\frac3{J_0}\int_0^{2\pi}
+   156	\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+   157	}.
+   158	\tag{9}
+   159	\]
+   160	
+   161	Here is the missing injectivity proof. Because `X'` has fixed nonzero sign, normalized ambient
+   162	position
+   163	
+   164	\[
+   165	\theta=X/L_X\pmod 1
+   166	\]
+   167	
+   168	is a smooth degree-one coordinate on the embedded circle. Write its radial graph as
+   169	`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+   170	require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+   171	function
+   172	
+   173	\[
+   174	d_k(\theta)=\rho(\theta+k/q)-\rho(\theta)
+   175	\]
+   176	
+   177	has zero integral around the circle. It therefore vanishes somewhere: otherwise connectedness
+   178	would give it one strict sign and a nonzero integral. At a zero, two distinct domain points have
+   179	the same `R` and the same `X` modulo `P` (and the same `y,z` when those coordinates are held fixed),
+   180	so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+   181	complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+   182	registered fixed-sign graph stratum; it does not assume a cosine symmetry.
+   183	
+   184	The exact local isometry
+   185	
+   186	\[
+   187	R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+   188	\quad\mu_*=a^3\mu
+   189	\tag{10}
+   190	\]
+   191	
+   192	rescales all three compact coordinate periods by `1/a`. It cannot change
+   193	
+   194	\[
+   195	\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+   196	\tag{11}
+   197	\]
+   198	
+   199	The invariant statement does not assume that an arbitrary presentation of the translation lattice
+   200	is split. On a constant-`R` leaf, curvature and the leaf shape operator canonically split the
+   201	translation space as the simple eigendirection `ell_X` and the repeated plane `E_perp`. For the
+   202	registered quotients, let `Gamma` be the compact translation lattice and define
+   203	
+   204	\[
+   205	\Lambda_X=\Gamma\cap\ell_X,
+   206	\qquad
+   207	\Lambda_\perp=\pi_{E_\perp}(\Gamma).
+   208	\]
+   209	
+   210	The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+   211	two lattice. Define the coordinate-normalized lattice modulus by
+   212	
+   213	\[
+   214	\mathcal Q(\Gamma)=
+   215	\frac{\operatorname{covol}_{\ell_X}(\Lambda_X)}
+   216	{\sqrt{\operatorname{covol}_{E_\perp}(\Lambda_\perp)}}.
+   217	\tag{11a}
+   218	\]
+   219	
+   220	An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+   221	projected covolume. A change of lattice basis, including generators sheared by an `X` component,
+   222	changes neither object. The local scaling isometry (10) multiplies the numerator and the square
+   223	root of the denominator by the same factor. Hence (11a) is an unmarked quotient invariant. For the
+   224	registered split presentation, `Gamma=L_X Z+L_y Z+L_z Z`, so (11a) reduces exactly to (11).
+   225	
+   226	For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+   227	
+   228	\[
+   229	L_X(n)=\frac3{J_0}\int_0^{2\pi}(p+a_0\cos u)^3
+   230	\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+   231	\tag{12}
+   232	\]
+   233	
+   234	The integrand is pointwise nondecreasing in positive integer `n` and strictly increases wherever
+   235	`sin(u)` is nonzero. Therefore
+   236	
+   237	\[
+   238	\boxed{L_X(n+1)>L_X(n)}.
+   239	\tag{13}
+   240	\]
+   241	
+   242	For the registered controls, production obtains
+   243	
+   244	```text
+   245	n=1  L_X=6.554516685020806
+   246	n=2  L_X=6.623226427457768
+   247	n=3  L_X=6.735440496746481
+   248	n=4  L_X=6.888083020830009
+   249	```
+   250	
+   251	The `n=1` and `n=2` data therefore have the same local metric form but inequivalent compact
+   252	unmarked quotients. This is the whole-spacetime meaning hidden behind G320's slice values
+   253	`1,4,9,16`.
+   254	
+   255	## 5. Global-development boundary
+   256	
+   257	The curvature invariant (4) diverges at `R=0`, excluding a smooth curvature extension there. The
+   258	three translation momenta give causal radial motion
+   259	
+   260	\[
+   261	\dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+   262	-\kappa\frac\mu R,
+   263	\tag{14}
+   264	\]
+   265	
+   266	where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
+   267	reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
+   268	this proves that (2) with the registered lattice is an explicit globally hyperbolic development.
+   269	
+   270	It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+   271	G322's imported theorem supplies an MGHD for each fixed datum and a data-preserving embedding of
+   272	this development into it, but equality would require a separate maximality/inextendibility theorem.
+   273	Accordingly, G323 classifies the explicit Taub quotient developments; unmarked equivalence of the
+   274	full per-datum MGHDs remains open.
+   275	
+   276	## 6. Opposite `K` signs
+   277	
+   278	Changing `epsilon` reverses `B`, `A`, and every component of `K`. It also sends `X'` to `-X'` while
+   279	leaving `L_X` unchanged. Reflection `X->-X` identifies the two embedded graphs in the same
+   280	underlying quotient metric, with the unit normal reversed. Therefore:
+   281	
+   282	- after forgetting time orientation, the two signs are the same unmarked metric spacetime;
+   283	- retaining time orientation, they are the two opposite orientations of that spacetime.
+   284	
+   285	Moreover, (4) has a nonzero timelike gradient throughout `R>0`. As the gradient of a scalar, it is
+   286	preserved—not negated—by every isometry. It gives a canonical oriented timelike line, so there is
+   287	no time-orientation-preserving isometry between the two opposite choices. They are distinct only
+   288	in the time-oriented category.
+   289	
+   290	## 7. Exact status
+   291	
+   292	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit local Ricci-flat form and complete Cauchy
+   293	  embedding.
+   294	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
+   295	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
+   296	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit globally hyperbolic quotient development.
+   297	- `OPEN_NOT_PROVED`: equality of that explicit development with the per-datum G322 MGHD.
+   298	- `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
+   299	
+   300	The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
+   301	unchanged.
+
+ succeeded in 0ms:
+     1	# G324 exact derivation — smooth maximality of the registered Taub quotients
+     2	
+     3	Date: 2026-09-02
+     4	
+     5	## 1. Question and ownership
+     6	
+     7	G323 derived the explicit quotient metric
+     8	
+     9	\[
+    10	g_\mu=-\frac{R}{\mu}\,dR^2+\frac{\mu}{R}\,dX^2
+    11	      +R^2(dy^2+dz^2),
+    12	\qquad R>0,\quad\mu>0,
+    13	\tag{1}
+    14	\]
+    15	
+    16	with the registered compact translation lattice. It proved that each fixed G320 datum embeds as a
+    17	complete Cauchy graph, but stopped short of identifying (1) with the datum's G322 maximal globally
+    18	hyperbolic development (MGHD).
+    19	
+    20	This derivation closes only that mathematical interface. The active `Ric=0` sector remains
+    21	conditional on the owner-adopted provisional premises recorded in `PREMISE_LEDGER.tsv`. The two
+    22	global existence/extension results are imported mathematical methods, not UDT postulates.
+    23	
+    24	## 2. Proper-time form and exact curvature
+    25	
+    26	Set
+    27	
+    28	\[
+    29	T=\frac{2}{3\sqrt\mu}R^{3/2}.
+    30	\tag{2}
+    31	\]
+    32	
+    33	Then the radial term in (1) is exactly `-dT^2`. After constant rescalings of the three spatial
+    34	coordinates, (1) is the compact Kasner metric
+    35	
+    36	\[
+    37	g=-dT^2+C_X^2T^{-2/3}dX^2
+    38	  +C_\perp^2T^{4/3}(dy^2+dz^2),
+    39	\tag{3}
+    40	\]
+    41	
+    42	with exponents
+    43	
+    44	\[
+    45	(p_X,p_y,p_z)=\left(-\frac13,\frac23,\frac23\right),
+    46	\qquad \sum_i p_i=\sum_i p_i^2=1.
+    47	\tag{4}
+    48	\]
+    49	
+    50	The Kasner identities give `Ric=0`. An independent direct tensor contraction gives
+    51	
+    52	\[
+    53	\boxed{\mathcal K:=R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}}.
+    54	\tag{5}
+    55	\]
+    56	
+    57	Thus the spacetime is regular for every finite positive `R`, while the scalar invariant diverges as
+    58	`R -> 0`.
+    59	
+    60	Also
+    61	
+    62	\[
+    63	g^{-1}(dR,dR)=-\frac\mu R<0,
+    64	\tag{6}
+    65	\]
+    66	
+    67	so `R` is temporal. Choose the time orientation in which `R` increases. On any compact interval
+    68	`0<a<=R<=b<infinity`, causal coordinate speeds are bounded. Since the spatial quotient is compact,
+    69	an inextendible causal curve cannot stop inside such a slab. Consequently `R` ranges from zero to
+    70	infinity on every inextendible causal curve and each constant-`R` torus is Cauchy, reproducing the
+    71	G323 global-hyperbolicity gate.
+    72	
+    73	## 3. Exact timelike reach
+    74	
+    75	The three translation symmetries give conserved momenta
+    76	
+    77	\[
+    78	p_X=\frac\mu R\dot X,
+    79	\qquad p_y=R^2\dot y,
+    80	\qquad p_z=R^2\dot z.
+    81	\tag{7}
+    82	\]
+    83	
+    84	Writing `kappa=g(dot gamma,dot gamma)`, the normalization identity is
+    85	
+    86	\[
+    87	\dot R^2=p_X^2+\frac{\mu P}{R^3}-\kappa\frac\mu R,
+    88	\qquad P=p_y^2+p_z^2.
+    89	\tag{8}
+    90	\]
+    91	
+    92	For a unit timelike geodesic, `kappa=-1`, so the right side is strictly positive. Its sign cannot
+    93	turn; in the chosen future orientation `dot R>0`, and every future timelike geodesic has
+    94	`R -> infinity`.
+    95	
+    96	Its future proper-time reach is
+    97	
+    98	\[
+    99	\Delta\tau=\int^{\infty}
+   100	\frac{dR}{\sqrt{p_X^2+\mu P/R^3+\mu/R}}.
+   101	\tag{9}
+   102	\]
+   103	
+   104	If `p_X` is nonzero, then for `R>=1`
+   105	
+   106	\[
+   107	\frac{d\tau}{dR}\ge
+   108	\frac{1}{\sqrt{p_X^2+\mu(P+1)}},
+   109	\tag{10}
+   110	\]
+   111	
+   112	and (9) diverges. If `p_X=0`, then
+   113	
+   114	\[
+   115	\frac{d\tau}{dR}\ge
+   116	\sqrt{\frac{R}{\mu(P+1)}},
+   117	\tag{11}
+   118	\]
+   119	
+   120	and it again diverges. Therefore
+   121	
+   122	\[
+   123	\boxed{(M,g_\mu)\text{ is future timelike geodesically complete}.}
+   124	\tag{12}
+   125	\]
+   126	
+   127	Toward `R=0`, the integrand instead behaves as `R^(3/2)` when `P>0` and as `R^(1/2)` when
+   128	`P=0`; the past end has finite proper-time reach. This locates an incomplete end but does not by
+   129	itself prove inextendibility.
+   130	
+   131	## 4. No finite-positive-`R` endpoint
+   132	
+   133	Suppose a geodesic has a finite affine/proper parameter endpoint while `R` remains in `[a,b]` with
+   134	`0<a<b<infinity`. Equation (8) bounds `dot R`; (7) bounds every spatial coordinate velocity. The
+   135	metric and its Christoffel symbols are smooth and bounded on the compact quotient slab
+   136	`[a,b] x T3`. The geodesic state remains in a compact subset of the tangent bundle, so the ordinary
+   137	geodesic continuation theorem extends it inside (1). This contradicts inextendibility.
+   138	
+   139	Equivalently, the image of a compact slab is compact and therefore closed in any Hausdorff
+   140	extension. An extension-boundary endpoint cannot lie at finite positive `R`.
+   141	
+   142	## 5. The orientation-neutral extension-endpoint argument
+   143	
+   144	G324 imports the bounded interface recorded in `GLS_PRIMARY_SOURCE_EVIDENCE.json` from Galloway,
+   145	Ling, and Sbierski. Their Theorem 2 states, in formal transcription, that a smooth, at least `C2`,
+   146	time-oriented, globally hyperbolic Lorentzian manifold admitting a `C0` extension contains a
+   147	timelike geodesic with an endpoint on the extension boundary. The evidence record gives the exact
+   148	source version, PDF SHA-256, theorem number and page location, and two exact fragments totaling 23
+   149	words. The
+   150	theorem itself does not privilege the future or past direction.
+   151	
+   152	These are Lorentzian-geometry theorems, not physical UDT laws.
+   153	
+   154	Assume for contradiction that (1) has a proper time-oriented `C2` Lorentzian extension; it is also a
+   155	`C0` extension, so the imported theorem supplies a boundary-ending timelike geodesic in (1). Orient
+   156	that geodesic toward its extension endpoint. It cannot be future-directed, because (12) proves
+   157	future timelike geodesic completeness. It must therefore be past-directed. No separate time-dual
+   158	theorem or assertion about a named one-sided boundary is used.
+   159	
+   160	Section 4 excludes a finite positive limiting radius, and a past-directed timelike curve cannot run
+   161	from finite `R` to `R=infinity`. Therefore the boundary geodesic must have
+   162	
+   163	\[
+   164	R\longrightarrow0.
+   165	\tag{13}
+   166	\]
+   167	
+   168	But in a `C2` extension the Riemann tensor and the scalar (5) are continuous and finite in a
+   169	neighborhood of the endpoint. Equation (5) diverges along (13), a contradiction. Thus
+   170	
+   171	\[
+   172	\boxed{(M,g_\mu)\text{ admits no proper time-oriented }C^2
+   173	\text{ Lorentzian extension}.}
+   174	\tag{14}
+   175	\]
+   176	
+   177	This proves the regularity needed for the smooth MGHD interface. It does **not** prove that the
+   178	past singular end is `C0`-inextendible.
+   179	
+   180	## 6. Identification with the G322 MGHD
+   181	
+   182	Fix one registered G323 datum. G323 gives a data-preserving Cauchy embedding of its explicit
+   183	quotient into the smooth MGHD supplied conditionally by G322. An isometric embedding between
+   184	equal-dimensional manifolds has open image. If that image were proper, the MGHD would be a proper
+   185	smooth—and hence `C2`—time-oriented Lorentzian extension of (1), contradicting (14).
+   186	
+   187	Therefore the embedding is onto:
+   188	
+   189	\[
+   190	\boxed{\text{each registered explicit G323 quotient is its fixed datum's smooth G322 MGHD}.}
+   191	\tag{15}
+   192	\]
+   193	
+   194	This is a per-datum theorem. It does not select a datum.
+   195	
+   196	## 7. Transfer of the compact-lattice modulus
+   197	
+   198	G323 already derived the unmarked invariant
+   199	
+   200	\[
+   201	\mathcal Q(\Gamma)=
+   202	\frac{\operatorname{covol}_{\ell_X}(\Gamma\cap\ell_X)}
+   203	{\sqrt{\operatorname{covol}_{E_\perp}(\pi_{E_\perp}\Gamma)}}
+   204	\tag{16}
+   205	\]
+   206	
+   207	and proved it strictly mode-dependent for the registered integer family. Equation (15) identifies
+   208	each MGHD with its explicit quotient; it neither modifies nor refits (16). Hence two registered
+   209	quotients with different `Q(Gamma)` cannot become the same unmarked MGHD.
+   210	
+   211	The opposite-`K` conclusion also remains exactly G323's: one time-unoriented metric and its two
+   212	opposite time orientations. G324 adds no universe/anti-universe interpretation.
+   213	
+   214	## 8. Exact landing and boundary
+   215	
+   216	Preregistered landing:
+   217	
+   218	```text
+   219	EXPLICIT_TAUB_QUOTIENTS_ARE_SMOOTH_MGHDS__REGISTERED_LATTICE_MODULUS_SURVIVES
+   220	```
+   221	
+   222	Status: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`.
+   223	
+   224	Derived conditionally in the registered family:
+   225	
+   226	- future timelike geodesic completeness;
+   227	- no proper time-oriented `C2` Lorentzian extension;
+   228	- equality of each explicit quotient with its smooth per-datum G322 MGHD;
+   229	- survival of G323's registered compact-lattice modulus at MGHD level.
+   230	
+   231	Still open or inactive:
+   232	
+   233	- past `C0` inextendibility;
+   234	- stability and perturbations;
+   235	- other topologies, lattices, data, sources, and full UDT sectors;
+   236	- physical datum/topology/orientation/occupancy selection;
+   237	- scale attachment, observation, mass, and physical `X_max`.
+   238	
+   239	The UDT metric, reciprocal kernel, and angular sector are unchanged.
+
+exec
+/bin/bash -lc 'nl -ba /intake/sources/startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md' in /return
+ succeeded in 0ms:
+     1	# G312 two-premise provisional-adoption record
+     2	
+     3	Date: 2026-09-01
+     4	Owner: Charles Rotter
+     5	Authorization: **"I accept both premises."**
+     6	Status: `OWNER_ADOPTED_PROVISIONAL_POSTULATES__NOT_DERIVED__NOT_CANON`
+     7	
+     8	## Premise 1 — full quiet-GR principal-response overlap
+     9	
+    10	In the quiet terrestrial/solar regime, UDT must reproduce GR's local principal response and
+    11	dynamics, not merely contain completed vacuum solutions that also solve GR.
+    12	
+    13	This is an owner clarification of UDT's original stated GR-limit behavior. It is not inferred from
+    14	observations and does not import a GR field equation into UDT.
+    15	
+    16	## Premise 2 — Local Metric Sufficiency
+    17	
+    18	In vacuum, the physical response at an event is completely determined by the completed local metric
+    19	geometry and finitely many of its derivatives. No independent remote-history or memory variable is
+    20	needed after that local metric jet is fixed.
+    21	
+    22	`LOCAL_METRIC_SUFFICIENCY` is the plain-language formulation of G312's
+    23	`LOCAL_FINITE_JET_RESPONSE_CONSTITUTION` premise.
+    24	
+    25	## Bootstrap compatibility
+    26	
+    27	The local present may be built or selected by the global universe. A bootstrap condition, topology,
+    28	boundary completion, or whole-history admissibility law may determine which local metric occurs.
+    29	Local Metric Sufficiency says only that identical admitted local metric jets cannot produce
+    30	different vacuum responses solely because of an additional hidden remote-history label.
+    31	
+    32	## Epistemic separation and active consequence
+    33	
+    34	- Charles's authorization supplies provisional ownership of the two premises.
+    35	- G312 supplies externally accepted evidence that they are independent and jointly sufficient,
+    36	  with the already active quiet-regularity, metric-only, scale-free, G301, and Universal Reciprocity
+    37	  gates, for the bounded consequence
+    38	  `R_ab-(R/4)g_ab=0`.
+    39	- Bianchi then leaves one constant scalar `R` on each connected regular region.
+    40	- Neither the owner statement nor G312 derives or canonizes the premises.
+    41	
+    42	The historical G312 report correctly records both choices as open when externally reviewed. This
+    43	later owner action supersedes only their adoption grade. It does not alter the reviewed separation,
+    44	conditional theorem, or historical evidence.
+    45	
+    46	## Active limits
+    47	
+    48	The bounded trace-free Ricci response is not a selected universe. Scalar magnitude/sign, lawful
+    49	data, topology, boundary completion, global bootstrap rule, realized history, observer/path
+    50	population, source, action, matter, mass, observation, absolute scale, and physical `X_max` remain
+    51	open. Singular, auxiliary-field, source, and matter extensions remain outside the theorem.
+    52	
+    53	The metric, reciprocal kernel, angular cancellation, and observational interface are unchanged.
+    54	Angular cancellation—not Universal Reciprocity or the new premises—owns loud--quiet--loud.
+    55	
+    56	## Next gate
+    57	
+    58	Characterize the bounded trace-free Ricci solution space and determine what global bootstrap or
+    59	admissibility conditions can select a complete history without contradicting Local Metric
+    60	Sufficiency. Keep the scalar datum separate from later observational calibration.
+
+exec
+/bin/bash -lc "python3 - <<'PY'
+from fractions import Fraction
+P = (Fraction(-1,3), Fraction(2,3), Fraction(2,3))
+# Independent basis inferred from hand derivation.
+# u_i = c_i + q_i log T - p_i*tau/T + (1-p_i)*lam*T"'^2/4, with q=(0,k,-k).
+
+def residual(T, tau=0, k=0, lam=0, c=(0,0,0)):
+    first=[]
+    second=[]
+    q=(0,k,-k)
+    for p,qi,ci in zip(P,q,c):
+        u1 = qi/T + (-p)*(-tau)/T**2 + (1-p)*lam*T/2  # derivative of q log T + p*tau/T? careful basis chosen below
+        u2 = -qi/T**2 + 2*p*(-tau)/T**3 + (1-p)*lam/2
+        first.append(u1)
+        second.append(u2)
+    R00 = -sum(u2 + 2*p*u1/T for p,u1,u2 in zip(P,first,second))
+    Rii = [u2 + u1/T + p*sum(first)/T for p,u1,u2 in zip(P,first,second)]
+    R = -R00 + sum(Rii)
+    E00 = R00 + R/4
+    Eii = [r - R/4 for r in Rii]
+    return R00,Rii,R,E00,Eii
+for vals in [(Fraction(7,5),Fraction(3,2),Fraction(4,7),Fraction(5,11)),(Fraction(9,4),0,Fraction(2,3),0),(Fraction(11,6),Fraction(5,4),0,0)]:
+    T,tau,k,lam=vals
+    R00,Rii,R,E00,Eii = residual(T,tau,k,lam)
+    print('"'T',T,'tau',tau,'k',k,'lam',lam)
+    print('R00',R00,'Rii',Rii,'R',R,'E00',E00,'Eii',Eii)
+PY" in /work
+ succeeded in 0ms:
+T 7/5 tau 3/2 k 4/7 lam 5/11
+R00 -5/11 Rii [Fraction(5, 11), Fraction(5, 11), Fraction(5, 11)] R 20/11 E00 0 Eii [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+T 9/4 tau 0 k 2/3 lam 0
+R00 0 Rii [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] R 0 E00 0 Eii [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+T 11/6 tau 5/4 k 0 lam 0
+R00 0 Rii [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)] R 0 E00 0 Eii [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+
+exec
+/bin/bash -lc 'rg -n "trace-free Ricci|R_ab|Bianchi|constant scalar|bounded" /intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md' in /return
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -lc "nl -ba /intake/sources/udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md | sed -n '1,220p'" in /return
+ succeeded in 0ms:
+     1	# G310 exact derivation — differential Dual Reciprocity and trace-free ownership
+     2	
+     3	Date: 2026-08-31
+     4	Grade: `EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS`
+     5	
+     6	## 1. Bounded landing
+     7	
+     8	```text
+     9	ONE_NEW_DIFFERENTIAL_DUAL_RECIPROCITY_POSTULATE_SELECTS_G301_TRACEFREE_CLASS
+    10	__NOT_DERIVED_OR_ADOPTED
+    11	```
+    12	
+    13	The wording “one new postulate” means one compound, explicitly typed law premise inside G301's
+    14	already conditional local operator arena. It does not mean F1--F4 or W1--W6 have now been shown to
+    15	imply that arena or the postulate.
+    16	
+    17	## 2. The candidate postulate
+    18	
+    19	Let `(V,g)` be one regular four-dimensional Lorentz tangent space. For every orthonormal ordered
+    20	timelike-spacelike pair `(u,n)`, define the infinitesimal reciprocal metric tangent
+    21	
+    22	\[
+    23	H(u,n)=2\bigl(u^\flat\!\otimes u^\flat+n^\flat\!\otimes n^\flat\bigr).
+    24	\]
+    25	
+    26	Directly differentiating the founded pair block gives
+    27	
+    28	\[
+    29	\left.\frac{d}{ds}\right|_{s=0}
+    30	\left[D(s)^T\operatorname{diag}(-1,1)D(s)\right]
+    31	=2\operatorname{diag}(1,1),
+    32	\]
+    33	
+    34	so this is exactly the reciprocal shape tangent embedded in the chosen pair plane. Its metric trace
+    35	is
+    36	
+    37	\[
+    38	\operatorname{tr}_gH=2\bigl(g(u,u)+g(n,n)\bigr)=2(-1+1)=0.
+    39	\]
+    40	
+    41	The proposed differential Dual Reciprocity statement (`DDR`) is:
+    42	
+    43	> The first local natural complete-metric curvature response `E_ab` has zero contraction with every
+    44	> reciprocal pair-shape tangent on a physical solution:
+    45	> \[
+    46	> \langle E,H(u,n)\rangle_g=0
+    47	> \quad\text{for all orthonormal }(u,n).
+    48	> \]
+    49	
+    50	This is a new law-level balance statement. Algebraic Dual Reciprocity supplies `H`; it does not
+    51	state the displayed stationarity condition. “First local natural curvature response” also places
+    52	the candidate inside G301's conditional smooth, scale-free, local metric-only symmetric rank-two
+    53	curvature class. Those typing clauses remain part of the proposed premise rather than hidden
+    54	theorems of W4.
+    55	
+    56	## 3. All reciprocal planes span the nine shape directions
+    57	
+    58	Choose an orthonormal frame `(e0,e1,e2,e3)`. The three tangents
+    59	
+    60	\[
+    61	H(e_0,e_i),\qquad i=1,2,3,
+    62	\]
+    63	
+    64	span the diagonal trace-free subspace.
+    65	
+    66	For two spatial basis vectors, choose rational `c,s` with `c^2+s^2=1` and set
+    67	`n=c e_i+s e_j`. The exact combination
+    68	
+    69	\[
+    70	\frac12H(e_0,n)
+    71	-c^2\frac12H(e_0,e_i)
+    72	-s^2\frac12H(e_0,e_j)
+    73	=cs\,(e_i^\flat\!\odot e_j^\flat)
+    74	\]
+    75	
+    76	produces each of the three spatial off-diagonal directions.
+    77	
+    78	For each `i`, choose rational hyperbolic data `C^2-S^2=1` and set
+    79	
+    80	\[
+    81	u'=Ce_0+Se_i,\qquad n'=Se_0+Ce_i.
+    82	\]
+    83	
+    84	Then
+    85	
+    86	\[
+    87	\frac12H(u',n')-(C^2+S^2)\frac12H(e_0,e_i)
+    88	=-2CS\,(e_0^\flat\!\odot e_i^\flat),
+    89	\]
+    90	
+    91	which produces the three time-space off-diagonal directions. Therefore
+    92	
+    93	\[
+    94	\boxed{
+    95	\operatorname{span}\{H(u,n)\}=S^2_0(V^*),\qquad \dim S^2_0(V^*)=9.
+    96	}
+    97	\]
+    98	
+    99	The production certificate independently builds 133 exact rational Lorentz transforms of one seed
+   100	plane. Their orbit has rank nine; the uncomposed generators have rank eight, and the first exact
+   101	greedy basis occurs at indices `0,1,3,4,5,6,7,9,38`. Adding `g_ab` raises the rank to ten. The
+   102	separate verifier uses different rational rotation and boost data and constructs the nine standard
+   103	directions explicitly. After external review, both certificates retain the full displayed
+   104	factor-two normalization rather than using the span-equivalent half-tangent.
+   105	
+   106	## 4. The annihilator is exactly the common trace line
+   107	
+   108	The metric pairing on symmetric tensors is nondegenerate, and
+   109	
+   110	\[
+   111	S^2(V^*)=S^2_0(V^*)\oplus\mathbb Rg.
+   112	\]
+   113	
+   114	Consequently
+   115	
+   116	\[
+   117	\boxed{
+   118	\langle E,H(u,n)\rangle_g=0\ \forall(u,n)
+   119	\iff E\in\mathbb Rg.
+   120	}
+   121	\]
+   122	
+   123	The constructive proof makes this elementary. The three diagonal planes give
+   124	`E_ii=-E_00`; rotated spatial planes give `E_ij=0`; boosted planes give `E_0i=0`. Hence `E` is a
+   125	multiple of `g`. The exact balance matrix has rank nine and one-dimensional nullspace `span(g_ab)`.
+   126	The repaired separate verifier now independently builds the Lorentz-pairing rows, row-reduces them,
+   127	computes their nullspace, and reads these component equations from that computed vector.
+   128	
+   129	This already proves that DDR constrains shape but cannot fix the common trace magnitude. Replacing
+   130	the conclusion by `E=0` would be an overconstraint not contained in DDR.
+   131	
+   132	## 5. Conditional insertion of the G301 response
+   133	
+   134	G301 proves, inside its frozen smooth scale-free natural rank-two curvature lane,
+   135	
+   136	\[
+   137	E_{ab}=aR_{ab}+bR g_{ab}.
+   138	\]
+   139	
+   140	Every reciprocal tangent is traceless, so
+   141	
+   142	\[
+   143	\langle E,H\rangle_g
+   144	=a\langle\operatorname{Ric},H\rangle_g
+   145	+bR\langle g,H\rangle_g
+   146	=a\langle\operatorname{Ric},H\rangle_g.
+   147	\]
+   148	
+   149	Equivalently,
+   150	
+   151	\[
+   152	\operatorname{TF}(E)=a\left(R_{ab}-\frac14Rg_{ab}\right)=aS_{ab}.
+   153	\]
+   154	
+   155	Thus on the nondegenerate G301 principal stratum `a!=0`,
+   156	
+   157	\[
+   158	\boxed{
+   159	\mathrm{DDR}\iff S_{ab}=R_{ab}-\frac14Rg_{ab}=0.
+   160	}
+   161	\]
+   162	
+   163	The coefficient `b` cancels, so DDR selects the trace-free zero set without choosing a
+   164	representative response formula. When `a=0`, `E=bRg` lies in the trace line for every metric and DDR
+   165	is vacuous. This is why G301's nonzero Ricci/principal gate is load-bearing.
+   166	
+   167	No action is used. If one later describes DDR as restricted virtual work or determinant-preserving
+   168	variation, that is an interpretation of the displayed balance, not an independent derivation of it.
+   169	
+   170	## 6. What remains after the conditional closure
+   171	
+   172	The contracted Bianchi identity gives
+   173	
+   174	\[
+   175	\nabla^aS_{ab}=\frac14\nabla_bR.
+   176	\]
+   177	
+   178	Therefore a connected DDR/G301 solution has
+   179	
+   180	\[
+   181	R=R_0=\text{constant},
+   182	\qquad
+   183	R_{ab}=\frac{R_0}{4}g_{ab}.
+   184	\]
+   185	
+   186	DDR leaves one scalar datum rather than a free local function. It does not choose its value or sign.
+   187	This precisely matches the nine reciprocal shape directions plus one retained common metric-scale
+   188	direction found in G302.
+   189	
+   190	In the primary static-spherical chart, the covariant residual reduces to
+   191	
+   192	\[
+   193	r^2f''-2f+2=0,
+   194	\qquad
+   195	f(r)=1+\frac br-\frac{R_0}{12}r^2.
+   196	\]
+   197	
+   198	In the positive round time-live arena, it reduces to
+   199	
+   200	\[
+   201	aa''-a'^2-1=0,
+   202	\]
+   203	
+   204	whose positive standard complete family is
+   205	
+   206	\[
+   207	a(T)=X\cosh\left(\frac{T-T_0}{X}\right).
+   208	\]
+   209	
+   210	These are downstream regression checks. They did not enter the covariant derivation. Smooth-center
+   211	and the active working finite-ceiling condition may subsequently remove `b` and distinguish the
+   212	positive sign in their already bounded G304 scope; neither fixes `X`.
+   213	
+   214	## 7. Countermodels and exact boundary
+   215	
+   216	The result survives its preregistered controls:
+   217	
+   218	- one radial pair plane has rank one and cannot determine the response;
+   219	- the uncomposed finite generator family has rank eight, not nine;
+   220	- scalar-only `a=0` satisfies every balance identically and is not a shape law;
+
+codex
+I have the scientific verdict. Before writing the report I’m pulling exact line references for the few evidentiary weak spots, especially the tautological gauge-witness check, so the review stays precise rather than impressionistic.
+exec
+/bin/bash -lc 'nl -ba /intake/run_catch_proofs.py' in /return
+exec
+/bin/bash -lc 'nl -ba /intake/derive_modes.py' in /return
+exec
+/bin/bash -lc 'nl -ba /intake/verify_independent.py' in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Hostile mutations for the preregistered G325 mode classification."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	from fractions import Fraction
+     9	from pathlib import Path
+    10	
+    11	
+    12	P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+    13	
+    14	
+    15	def tracefree_residual(time, first, second):
+    16	    expansion = sum(first)
+    17	    ricci_00 = -sum(second_i + 2 * p_i * first_i / time
+    18	                    for p_i, first_i, second_i in zip(P, first, second))
+    19	    ricci_space = [second_i + first_i / time + p_i * expansion / time
+    20	                   for p_i, first_i, second_i in zip(P, first, second)]
+    21	    scalar = -ricci_00 + sum(ricci_space)
+    22	    return [ricci_00 + scalar / 4] + [value - scalar / 4 for value in ricci_space]
+    23	
+    24	
+    25	def main() -> None:
+    26	    parser = argparse.ArgumentParser()
+    27	    parser.add_argument("--output", default="CATCH_PROOF_RESULT.json")
+    28	    args = parser.parse_args()
+    29	    root = Path(__file__).resolve().parent
+    30	
+    31	    time = Fraction(7, 5)
+    32	    bad_q = (Fraction(1), Fraction(-1), Fraction(0))
+    33	    bad_first = [value / time for value in bad_q]
+    34	    bad_second = [-value / time**2 for value in bad_q]
+    35	    wrong_q_rejected = any(tracefree_residual(time, bad_first, bad_second))
+    36	
+    37	    scalar = Fraction(3, 11)
+    38	    # A common multiplier would only rename the free scalar amplitude. Mutate the relative
+    39	    # directional shape instead: (1+p_i), rather than the derived (1-p_i).
+    40	    bad_first = [(1 + p_i) * scalar * time / 2 for p_i in P]
+    41	    bad_second = [(1 + p_i) * scalar / 2 for p_i in P]
+    42	    wrong_scalar_shape_rejected = any(tracefree_residual(time, bad_first, bad_second))
+    43	
+    44	    period = Fraction(13, 3)
+    45	    strain = Fraction(5, 17)
+    46	    false_periodic_scaling_rejected = strain * period != 0
+    47	
+    48	    removed_constraint_vector = (Fraction(1), Fraction(0), Fraction(-1))
+    49	    removed_constraint_rejected = (
+    50	        sum(removed_constraint_vector) == 0
+    51	        and sum(p_i * q_i for p_i, q_i in zip(P, removed_constraint_vector)) != 0
+    52	    )
+    53	
+    54	    fake_gauge_q = (Fraction(0), Fraction(1), Fraction(-1))
+    55	    curvature_split = -2 * fake_gauge_q[1] / (3 * time**2)
+    56	    physical_shear_as_gauge_rejected = curvature_split != 0
+    57	
+    58	    controls = {
+    59	        "wrong_kasner_tangent_rejected": wrong_q_rejected,
+    60	        "wrong_scalar_directional_shape_rejected": wrong_scalar_shape_rejected,
+    61	        "false_periodic_scaling_rejected": false_periodic_scaling_rejected,
+    62	        "removed_exponent_constraint_rejected": removed_constraint_rejected,
+    63	        "physical_shear_as_gauge_rejected": physical_shear_as_gauge_rejected,
+    64	    }
+    65	    assert all(controls.values()), controls
+    66	    result = {
+    67	        "schema": "udt-g325-catch-proofs-v1",
+    68	        "status": "PASS",
+    69	        "assertion_count": len(controls),
+    70	        "controls": controls,
+    71	    }
+    72	    output = root / args.output
+    73	    output.parent.mkdir(parents=True, exist_ok=True)
+    74	    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    75	    print(json.dumps(result, indent=2, sort_keys=True))
+    76	
+    77	
+    78	if __name__ == "__main__":
+    79	    main()
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Independent direct first-order tensor engine for G325; no production imports/results."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	import sys
+     9	from fractions import Fraction
+    10	from pathlib import Path
+    11	
+    12	
+    13	class Expr:
+    14	    """Exact truncated-epsilon sums of t^power log(t)^log_power."""
+    15	
+    16	    def __init__(self, terms=None):
+    17	        self.terms = {
+    18	            (int(eps), Fraction(power), int(log_power)): Fraction(value)
+    19	            for (eps, power, log_power), value in (terms or {}).items()
+    20	            if value and int(eps) <= 1
+    21	        }
+    22	
+    23	    @staticmethod
+    24	    def monomial(value=1, eps=0, power=0, log_power=0):
+    25	        return Expr({(eps, Fraction(power), log_power): Fraction(value)})
+    26	
+    27	    def __add__(self, other):
+    28	        out = dict(self.terms)
+    29	        for key, value in other.terms.items():
+    30	            out[key] = out.get(key, Fraction(0)) + value
+    31	            if not out[key]:
+    32	                del out[key]
+    33	        return Expr(out)
+    34	
+    35	    def __neg__(self):
+    36	        return Expr({key: -value for key, value in self.terms.items()})
+    37	
+    38	    def __sub__(self, other):
+    39	        return self + (-other)
+    40	
+    41	    def __mul__(self, other):
+    42	        out = {}
+    43	        for (eps_a, power_a, log_a), value_a in self.terms.items():
+    44	            for (eps_b, power_b, log_b), value_b in other.terms.items():
+    45	                eps = eps_a + eps_b
+    46	                if eps > 1:
+    47	                    continue
+    48	                key = (eps, power_a + power_b, log_a + log_b)
+    49	                out[key] = out.get(key, Fraction(0)) + value_a * value_b
+    50	        return Expr(out)
+    51	
+    52	    def scale(self, value):
+    53	        return Expr({key: Fraction(value) * coefficient
+    54	                     for key, coefficient in self.terms.items()})
+    55	
+    56	    def dt(self):
+    57	        out = Expr()
+    58	        for (eps, power, log_power), value in self.terms.items():
+    59	            if power:
+    60	                out = out + Expr.monomial(
+    61	                    value * power, eps, power - 1, log_power
+    62	                )
+    63	            if log_power:
+    64	                out = out + Expr.monomial(
+    65	                    value * log_power, eps, power - 1, log_power - 1
+    66	                )
+    67	        return out
+    68	
+    69	    def with_epsilon(self):
+    70	        return Expr({(1, power, log_power): value
+    71	                     for (eps, power, log_power), value in self.terms.items()
+    72	                     if eps == 0})
+    73	
+    74	    def inverse_first_order(self):
+    75	        base = [(key, value) for key, value in self.terms.items() if key[0] == 0]
+    76	        assert len(base) == 1
+    77	        (eps, power, log_power), coefficient = base[0]
+    78	        assert eps == 0 and log_power == 0
+    79	        inverse_base = Expr.monomial(1 / coefficient, 0, -power, 0)
+    80	        perturbation = Expr({key: value for key, value in self.terms.items() if key[0] == 1})
+    81	        return inverse_base - inverse_base * inverse_base * perturbation
+    82	
+    83	    def epsilon_part(self):
+    84	        return Expr({(0, power, log_power): value
+    85	                     for (eps, power, log_power), value in self.terms.items() if eps == 1})
+    86	
+    87	    def is_zero(self):
+    88	        return not self.terms
+    89	
+    90	    def __eq__(self, other):
+    91	        if not isinstance(other, Expr):
+    92	            return NotImplemented
+    93	        return self.terms == other.terms
+    94	
+    95	    def serial(self):
+    96	        return {
+    97	            f"eps^{eps}*T^{power}*log^{log_power}": str(value)
+    98	            for (eps, power, log_power), value in sorted(self.terms.items())
+    99	        }
+   100	
+   101	
+   102	ZERO = Expr()
+   103	ONE = Expr.monomial()
+   104	P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+   105	
+   106	
+   107	def partial(value: Expr, coordinate: int) -> Expr:
+   108	    return value.dt() if coordinate == 0 else ZERO
+   109	
+   110	
+   111	def mode_u(name: str, index: int) -> Expr:
+   112	    if name == "constant_x":
+   113	        return ONE if index == 0 else ZERO
+   114	    if name == "constant_y":
+   115	        return ONE if index == 1 else ZERO
+   116	    if name == "constant_z":
+   117	        return ONE if index == 2 else ZERO
+   118	    if name == "gauge":
+   119	        return Expr.monomial(P[index], power=-1)
+   120	    if name == "shear":
+   121	        coefficient = (Fraction(0), Fraction(1), Fraction(-1))[index]
+   122	        return Expr.monomial(coefficient, power=0, log_power=1) if coefficient else ZERO
+   123	    if name == "scalar":
+   124	        return Expr.monomial((1 - P[index]) / 4, power=2)
+   125	    raise ValueError(name)
+   126	
+   127	
+   128	def direct_tensor_mode(name: str):
+   129	    dim = 4
+   130	    g = [[ZERO for _ in range(dim)] for _ in range(dim)]
+   131	    g[0][0] = Expr.monomial(-1)
+   132	    for spatial in range(3):
+   133	        background = Expr.monomial(power=2 * P[spatial])
+   134	        perturbation = background * mode_u(name, spatial).with_epsilon().scale(2)
+   135	        g[spatial + 1][spatial + 1] = background + perturbation
+   136	    inverse = [[ZERO for _ in range(dim)] for _ in range(dim)]
+   137	    for index in range(dim):
+   138	        inverse[index][index] = g[index][index].inverse_first_order()
+   139	
+   140	    gamma = [[[ZERO for _ in range(dim)] for _ in range(dim)] for _ in range(dim)]
+   141	    for a in range(dim):
+   142	        for b in range(dim):
+   143	            for c in range(dim):
+   144	                value = ZERO
+   145	                for d in range(dim):
+   146	                    bracket = partial(g[d][c], b) + partial(g[d][b], c) - partial(g[b][c], d)
+   147	                    value = value + inverse[a][d] * bracket
+   148	                gamma[a][b][c] = value.scale(Fraction(1, 2))
+   149	
+   150	    riemann = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+   151	                for _ in range(dim)] for _ in range(dim)]
+   152	    for a in range(dim):
+   153	        for b in range(dim):
+   154	            for c in range(dim):
+   155	                for d in range(dim):
+   156	                    value = partial(gamma[a][b][d], c) - partial(gamma[a][b][c], d)
+   157	                    for e in range(dim):
+   158	                        value = value + gamma[a][e][c] * gamma[e][b][d]
+   159	                        value = value - gamma[a][e][d] * gamma[e][b][c]
+   160	                    riemann[a][b][c][d] = value
+   161	
+   162	    ricci = [[ZERO for _ in range(dim)] for _ in range(dim)]
+   163	    for b in range(dim):
+   164	        for d in range(dim):
+   165	            for a in range(dim):
+   166	                ricci[b][d] = ricci[b][d] + riemann[a][b][a][d]
+   167	
+   168	    scalar = ZERO
+   169	    for a in range(dim):
+   170	        scalar = scalar + inverse[a][a] * ricci[a][a]
+   171	    tracefree = [[ZERO for _ in range(dim)] for _ in range(dim)]
+   172	    for a in range(dim):
+   173	        for b in range(dim):
+   174	            tracefree[a][b] = ricci[a][b] - scalar * g[a][b].scale(Fraction(1, 4))
+   175	
+   176	    lowered = [[[[ZERO for _ in range(dim)] for _ in range(dim)]
+   177	                for _ in range(dim)] for _ in range(dim)]
+   178	    for a in range(dim):
+   179	        for b in range(dim):
+   180	            for c in range(dim):
+   181	                for d in range(dim):
+   182	                    for e in range(dim):
+   183	                        lowered[a][b][c][d] = lowered[a][b][c][d] + g[a][e] * riemann[e][b][c][d]
+   184	    electric = []
+   185	    for spatial in range(1, 4):
+   186	        electric.append(lowered[0][spatial][0][spatial] * inverse[spatial][spatial])
+   187	    return g, ricci, scalar, tracefree, electric
+   188	
+   189	
+   190	def main() -> None:
+   191	    parser = argparse.ArgumentParser()
+   192	    parser.add_argument("--output", default="INDEPENDENT_VERIFICATION.json")
+   193	    args = parser.parse_args()
+   194	    root = Path(__file__).resolve().parent
+   195	    checks: list[str] = []
+   196	
+   197	    def gate(condition: bool, name: str) -> None:
+   198	        assert condition, name
+   199	        checks.append(name)
+   200	
+   201	    modes = ("constant_x", "constant_y", "constant_z", "gauge", "shear", "scalar")
+   202	    scalar_eps = None
+   203	    shear_split = None
+   204	    for name in modes:
+   205	        metric, ricci, scalar, tracefree, electric = direct_tensor_mode(name)
+   206	        for a in range(4):
+   207	            for b in range(4):
+   208	                gate(tracefree[a][b].epsilon_part().is_zero(),
+   209	                     f"direct_tracefree_zero:{name}:{a}:{b}")
+   210	        if name in ("constant_x", "constant_y", "constant_z", "gauge", "shear"):
+   211	            gate(scalar.epsilon_part().is_zero(), f"direct_scalar_zero:{name}")
+   212	        if name == "scalar":
+   213	            scalar_eps = scalar.epsilon_part()
+   214	            gate(scalar_eps == Expr.monomial(4), "direct_scalar_mode_delta_R_four")
+   215	        if name == "shear":
+   216	            shear_split = (electric[1] - electric[2]).epsilon_part()
+   217	            expected_options = (Expr.monomial(Fraction(-2, 3), power=-2),
+   218	                                Expr.monomial(Fraction(2, 3), power=-2))
+   219	            gate(shear_split in expected_options, "direct_shear_curvature_split")
+   220	
+   221	    # Direct Lie derivative in synchronous coordinates: L_(d/dT) g_ii = d_T g_ii.
+   222	    gauge_metric, _, _, _, _ = direct_tensor_mode("gauge")
+   223	    for spatial in range(3):
+   224	        background = Expr.monomial(power=2 * P[spatial])
+   225	        expected = background.dt()
+   226	        actual = gauge_metric[spatial + 1][spatial + 1].epsilon_part()
+   227	        gate(actual == expected, f"direct_time_shift_lie_derivative:{spatial}")
+   228	
+   229	    # A scaling generator c*x on a compact coordinate circle is single-valued only for c=0.
+   230	    for label, coefficient, period in (
+   231	        ("x", Fraction(2, 3), Fraction(5)),
+   232	        ("y", Fraction(-4, 7), Fraction(11)),
+   233	        ("z", Fraction(9, 13), Fraction(17)),
+   234	    ):
+   235	        gate(coefficient * period != 0, f"scaling_generator_fails_periodicity:{label}")
+   236	
+   237	    # Exact parameter count from two independent exponent constraints.
+   238	    q = (Fraction(0), Fraction(1), Fraction(-1))
+   239	    gate(sum(q) == 0, "independent_q_trace_constraint")
+   240	    gate(sum(p_i * q_i for p_i, q_i in zip(P, q)) == 0,
+   241	         "independent_q_kasner_constraint")
+   242	
+   243	    result = {
+   244	        "schema": "udt-g325-homogeneous-diagonal-independent-v1",
+   245	        "status": "PASS",
+   246	        "assertion_count": len(checks),
+   247	        "checks": checks,
+   248	        "production_imported": False,
+   249	        "production_result_read": False,
+   250	        "direct_tensor_modes": list(modes),
+   251	        "linearized_scalar_curvature": scalar_eps.serial(),
+   252	        "linearized_shear_curvature_split": shear_split.serial(),
+   253	        "time_shift_is_lie_derivative": True,
+   254	        "constant_cover_scalings_fail_fixed_quotient_periodicity": True,
+   255	        "python_version": sys.version,
+   256	    }
+   257	    output = root / args.output
+   258	    output.parent.mkdir(parents=True, exist_ok=True)
+   259	    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   260	    print(json.dumps(result, indent=2, sort_keys=True))
+   261	
+   262	
+   263	if __name__ == "__main__":
+   264	    main()
+
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Production derivation for the bounded G325 homogeneous diagonal mode census."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import argparse
+     7	import json
+     8	import sys
+     9	from fractions import Fraction
+    10	from pathlib import Path
+    11	
+    12	
+    13	LANDING = (
+    14	    "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__"
+    15	    "THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__"
+    16	    "ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM"
+    17	)
+    18	
+    19	P = (Fraction(-1, 3), Fraction(2, 3), Fraction(2, 3))
+    20	
+    21	
+    22	def matrix_rank(rows: list[list[Fraction]]) -> int:
+    23	    matrix = [row[:] for row in rows]
+    24	    if not matrix:
+    25	        return 0
+    26	    rank = 0
+    27	    columns = len(matrix[0])
+    28	    for column in range(columns):
+    29	        pivot = next((index for index in range(rank, len(matrix))
+    30	                      if matrix[index][column]), None)
+    31	        if pivot is None:
+    32	            continue
+    33	        matrix[rank], matrix[pivot] = matrix[pivot], matrix[rank]
+    34	        scale = matrix[rank][column]
+    35	        matrix[rank] = [value / scale for value in matrix[rank]]
+    36	        for index in range(len(matrix)):
+    37	            if index == rank:
+    38	                continue
+    39	            scale = matrix[index][column]
+    40	            if scale:
+    41	                matrix[index] = [left - scale * right
+    42	                                 for left, right in zip(matrix[index], matrix[rank])]
+    43	        rank += 1
+    44	    return rank
+    45	
+    46	
+    47	def solve_linear(matrix: list[list[Fraction]], rhs: list[Fraction]) -> list[Fraction]:
+    48	    augmented = [row[:] + [value] for row, value in zip(matrix, rhs)]
+    49	    n = len(matrix)
+    50	    for column in range(n):
+    51	        pivot = next(index for index in range(column, n) if augmented[index][column])
+    52	        augmented[column], augmented[pivot] = augmented[pivot], augmented[column]
+    53	        scale = augmented[column][column]
+    54	        augmented[column] = [value / scale for value in augmented[column]]
+    55	        for index in range(n):
+    56	            if index == column:
+    57	                continue
+    58	            scale = augmented[index][column]
+    59	            augmented[index] = [left - scale * right
+    60	                                for left, right in zip(augmented[index], augmented[column])]
+    61	    return [augmented[index][-1] for index in range(n)]
+    62	
+    63	
+    64	def residuals(
+    65	    time: Fraction,
+    66	    gauge: Fraction,
+    67	    shear: Fraction,
+    68	    scalar: Fraction,
+    69	) -> dict[str, object]:
+    70	    """Exact first-order Ricci and trace-free residuals from the Bianchi-I metric."""
+    71	    q = (Fraction(0), shear, -shear)
+    72	    first = [
+    73	        q_i / time - p_i * gauge / time**2
+    74	        + (1 - p_i) * scalar * time / 2
+    75	        for p_i, q_i in zip(P, q)
+    76	    ]
+    77	    second = [
+    78	        -q_i / time**2 + 2 * p_i * gauge / time**3
+    79	        + (1 - p_i) * scalar / 2
+    80	        for p_i, q_i in zip(P, q)
+    81	    ]
+    82	    expansion = sum(first)
+    83	    ricci_00 = -sum(second_i + 2 * p_i * first_i / time
+    84	                    for p_i, first_i, second_i in zip(P, first, second))
+    85	    ricci_space = [
+    86	        second_i + first_i / time + p_i * expansion / time
+    87	        for p_i, first_i, second_i in zip(P, first, second)
+    88	    ]
+    89	    scalar_curvature = -ricci_00 + sum(ricci_space)
+    90	    tracefree_00 = ricci_00 + scalar_curvature / 4
+    91	    tracefree_space = [value - scalar_curvature / 4 for value in ricci_space]
+    92	    hamiltonian = (expansion - sum(p_i * first_i for p_i, first_i in zip(P, first))) / time
+    93	    return {
+    94	        "first": first,
+    95	        "second": second,
+    96	        "ricci_00": ricci_00,
+    97	        "ricci_space": ricci_space,
+    98	        "scalar_curvature": scalar_curvature,
+    99	        "tracefree_00": tracefree_00,
+   100	        "tracefree_space": tracefree_space,
+   101	        "hamiltonian": hamiltonian,
+   102	    }
+   103	
+   104	
+   105	def main() -> None:
+   106	    parser = argparse.ArgumentParser()
+   107	    parser.add_argument("--output", default="DERIVATION_RESULT.json")
+   108	    args = parser.parse_args()
+   109	    root = Path(__file__).resolve().parent
+   110	    checks: list[str] = []
+   111	
+   112	    def gate(condition: bool, name: str) -> None:
+   113	        assert condition, name
+   114	        checks.append(name)
+   115	
+   116	    gate(sum(P) == 1, "background_kasner_sum")
+   117	    gate(sum(value * value for value in P) == 1, "background_kasner_square_sum")
+   118	
+   119	    # The constant-in-log-time exponent vector is constrained by sum(q)=p.q=0.
+   120	    constraint_rows = [[Fraction(1), Fraction(1), Fraction(1)], list(P)]
+   121	    gate(matrix_rank(constraint_rows) == 2, "exponent_constraint_rank_two")
+   122	    q_basis = [Fraction(0), Fraction(1), Fraction(-1)]
+   123	    gate(sum(q_basis) == 0, "kasner_shear_zero_trace")
+   124	    gate(sum(p_i * q_i for p_i, q_i in zip(P, q_basis)) == 0,
+   125	         "kasner_shear_tangent_constraint")
+   126	    gate(matrix_rank(constraint_rows + [q_basis]) == 3,
+   127	         "kasner_shear_spans_one_dimensional_nullspace")
+   128	
+   129	    # The connected-scalar particular solution is unique at the w_i=T*u_i' level.
+   130	    scalar_matrix = [
+   131	        [2 * (1 if i == j else 0) + P[i] for j in range(3)]
+   132	        for i in range(3)
+   133	    ]
+   134	    scalar_w = solve_linear(scalar_matrix, [Fraction(1)] * 3)
+   135	    expected_scalar_w = [(1 - value) / 2 for value in P]
+   136	    gate(scalar_w == expected_scalar_w, "connected_scalar_particular_unique")
+   137	    scalar_u = [value / 2 for value in scalar_w]
+   138	    gate(scalar_u == [(1 - value) / 4 for value in P],
+   139	         "connected_scalar_metric_coefficients")
+   140	
+   141	    # The T^-1 solution at w=T*u' is precisely the time-translation Lie derivative.
+   142	    gauge_w = [-value for value in P]
+   143	    gauge_sum = sum(gauge_w)
+   144	    gate(all(-value + P[index] * gauge_sum == 0
+   145	             for index, value in enumerate(gauge_w)), "gauge_ode_solution")
+   146	    gate(all(2 * P[index] == 2 * P[index] for index in range(3)),
+   147	         "time_shift_lie_derivative_witness")
+   148	
+   149	    # Exact all-mode checks at unrelated rational times and amplitudes.
+   150	    samples = (
+   151	        (Fraction(2, 3), Fraction(7, 5), Fraction(-4, 9), Fraction(5, 11)),
+   152	        (Fraction(7, 4), Fraction(-3, 8), Fraction(9, 13), Fraction(-2, 7)),
+   153	        (Fraction(19, 6), Fraction(0), Fraction(5, 3), Fraction(0)),
+   154	    )
+   155	    for index, (time, gauge, shear, scalar) in enumerate(samples):
+   156	        result = residuals(time, gauge, shear, scalar)
+   157	        gate(result["tracefree_00"] == 0, f"tracefree_time_zero_{index}")
+   158	        gate(all(value == 0 for value in result["tracefree_space"]),
+   159	             f"tracefree_space_zero_{index}")
+   160	        gate(result["ricci_00"] == -scalar, f"einstein_time_{index}")
+   161	        gate(all(value == scalar for value in result["ricci_space"]),
+   162	             f"einstein_space_{index}")
+   163	        gate(result["scalar_curvature"] == 4 * scalar,
+   164	             f"scalar_curvature_four_lambda_{index}")
+   165	        gate(result["hamiltonian"] == scalar, f"hamiltonian_constraint_{index}")
+   166	
+   167	    # Constant strains are a complete three-dimensional integration-constant sector.
+   168	    lattice_forms = [
+   169	        [Fraction(1), Fraction(1), Fraction(1)],
+   170	        [Fraction(1), Fraction(-1, 2), Fraction(-1, 2)],
+   171	        [Fraction(0), Fraction(1), Fraction(-1)],
+   172	    ]
+   173	    gate(matrix_rank(lattice_forms) == 3, "three_lattice_modulus_coordinates")
+   174	    periods = (Fraction(5), Fraction(7), Fraction(11))
+   175	    nonzero_strain = (Fraction(2, 5), Fraction(-3, 7), Fraction(4, 11))
+   176	    jumps = [strain * period for strain, period in zip(nonzero_strain, periods)]
+   177	    gate(all(value != 0 for value in jumps), "cover_scaling_vector_not_periodic")
+   178	    gate(all(Fraction(0) * period == 0 for period in periods),
+   179	         "zero_scaling_vector_periodic")
+   180	
+   181	    # Local curvature distinguishes the shear mode even though scalar invariants are symmetric
+   182	    # under y-z exchange at first order.
+   183	    shear = Fraction(13, 17)
+   184	    time = Fraction(11, 5)
+   185	    electric_weyl_y_minus_z = -2 * shear / (3 * time**2)
+   186	    gate(electric_weyl_y_minus_z != 0, "local_weyl_eigenvalue_split_nonzero")
+   187	    gate(electric_weyl_y_minus_z == Fraction(-650, 6171),
+   188	         "local_weyl_eigenvalue_split_exact")
+   189	
+   190	    # Endpoint behavior follows from exact basis functions and is classification, not a filter.
+   191	    shear_log_coefficient = Fraction(1)
+   192	    scalar_power = Fraction(2)
+   193	    gauge_power = Fraction(-1)
+   194	    gate(shear_log_coefficient != 0, "shear_log_secular_both_ends")
+   195	    gate(scalar_power > 0, "scalar_mode_quadratic_future_growth")
+   196	    gate(scalar_power > 0, "scalar_mode_zero_at_past_end")
+   197	    gate(gauge_power < 0 and gauge_w == [-value for value in P],
+   198	         "time_shift_growth_is_gauge")
+   199	
+   200	    result = {
+   201	        "schema": "udt-g325-homogeneous-diagonal-production-v1",
+   202	        "status": "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW",
+   203	        "landing": LANDING,
+   204	        "assertion_count": len(checks),
+   205	        "checks": checks,
+   206	        "background_exponents": [str(value) for value in P],
+   207	        "general_solution": (
+   208	            "u_i=c_i+q_i*log(T/Tref)+p_i*G/T+"
+   209	            "(1-p_i)*lambda*T^2/4; sum(q)=sum(p_i*q_i)=0"
+   210	        ),
+   211	        "mode_dimensions": {
+   212	            "residual_time_translation_gauge": 1,
+   213	            "fixed_quotient_lattice_moduli": 3,
+   214	            "local_kasner_shear": 1,
+   215	            "connected_scalar_curvature": 1,
+   216	        },
+   217	        "linearized_scalar_curvature": "4*lambda",
+   218	        "shear_curvature_witness": "delta(E_y-E_z)=-2*q/(3*T^2)",
+   219	        "full_linear_stability_proved": False,
+   220	        "nonlinear_stability_proved": False,
+   221	        "inhomogeneous_modes_classified": False,
+   222	        "offdiagonal_modes_classified": False,
+   223	        "physical_occupancy_selected": False,
+   224	        "physical_scale_selected": False,
+   225	        "Xmax_selected": False,
+   226	        "metric_changed": False,
+   227	        "kernel_changed": False,
+   228	        "angular_sector_changed": False,
+   229	        "python_version": sys.version,
+   230	    }
+   231	    output = root / args.output
+   232	    output.parent.mkdir(parents=True, exist_ok=True)
+   233	    output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+   234	    print(json.dumps(result, indent=2, sort_keys=True))
+   235	
+   236	
+   237	if __name__ == "__main__":
+   238	    main()
+
+exec
+/bin/bash -lc 'nl -ba /intake/verify_package.py' in /return
+ succeeded in 0ms:
+     1	#!/usr/bin/env python3
+     2	"""Aggregate and exact replay verifier for the bounded G325 package."""
+     3	
+     4	from __future__ import annotations
+     5	
+     6	import json
+     7	import shlex
+     8	import shutil
+     9	import subprocess
+    10	import sys
+    11	import tempfile
+    12	from pathlib import Path
+    13	
+    14	
+    15	LANDING = (
+    16	    "HOMOGENEOUS_DIAGONAL_MODES_CLOSE_AS_TIME_GAUGE__"
+    17	    "THREE_QUOTIENT_LATTICE_MODULI__ONE_LOCAL_KASNER_SHEAR__"
+    18	    "ONE_CONNECTED_SCALAR_MODE__NO_FULL_STABILITY_CLAIM"
+    19	)
+    20	
+    21	
+    22	def load(path: Path):
+    23	    return json.loads(path.read_text())
+    24	
+    25	
+    26	def main() -> None:
+    27	    package = Path(__file__).resolve().parent
+    28	    checks: list[str] = []
+    29	
+    30	    def gate(condition: bool, name: str) -> None:
+    31	        assert condition, name
+    32	        checks.append(name)
+    33	
+    34	    production = load(package / "DERIVATION_RESULT.json")
+    35	    independent = load(package / "INDEPENDENT_VERIFICATION.json")
+    36	    hostile = load(package / "CATCH_PROOF_RESULT.json")
+    37	    gate(production["landing"] == LANDING, "production_landing")
+    38	    gate(production["assertion_count"] == 37, "production_assertion_count")
+    39	    gate(independent["assertion_count"] == 111, "independent_assertion_count")
+    40	    gate(hostile["assertion_count"] == 5, "hostile_assertion_count")
+    41	    gate(production["mode_dimensions"] == {
+    42	        "connected_scalar_curvature": 1,
+    43	        "fixed_quotient_lattice_moduli": 3,
+    44	        "local_kasner_shear": 1,
+    45	        "residual_time_translation_gauge": 1,
+    46	    }, "exact_mode_dimensions")
+    47	    gate(production["linearized_scalar_curvature"] == "4*lambda",
+    48	         "production_scalar_witness")
+    49	    gate(independent["linearized_scalar_curvature"] == {
+    50	        "eps^0*T^0*log^0": "4"
+    51	    }, "independent_scalar_witness")
+    52	    gate(independent["linearized_shear_curvature_split"] == {
+    53	        "eps^0*T^-2*log^0": "-2/3"
+    54	    }, "independent_shear_witness")
+    55	    gate(independent["production_imported"] is False, "independent_no_production_import")
+    56	    gate(independent["production_result_read"] is False, "independent_no_result_read")
+    57	    gate(all(hostile["controls"].values()), "all_hostile_controls")
+    58	    gate(not production["full_linear_stability_proved"], "no_full_linear_overclaim")
+    59	    gate(not production["nonlinear_stability_proved"], "no_nonlinear_overclaim")
+    60	    gate(not production["inhomogeneous_modes_classified"], "inhomogeneous_open")
+    61	    gate(not production["offdiagonal_modes_classified"], "offdiagonal_open")
+    62	    gate(not production["physical_occupancy_selected"], "occupancy_open")
+    63	    gate(not production["physical_scale_selected"], "scale_open")
+    64	    gate(not production["Xmax_selected"], "xmax_open")
+    65	    gate(not production["metric_changed"] and not production["kernel_changed"]
+    66	         and not production["angular_sector_changed"], "native_objects_unchanged")
+    67	
+    68	    independent_text = (package / "verify_independent.py").read_text()
+    69	    gate("import derive_modes" not in independent_text, "static_no_production_import")
+    70	    gate("DERIVATION_RESULT.json" not in independent_text, "static_no_production_result_read")
+    71	    exact = (package / "EXACT_DERIVATION.md").read_text()
+    72	    lay = (package / "LAY_REPORT.md").read_text()
+    73	    status = (package / "STATUS_LEDGER.tsv").read_text()
+    74	    gates = (package / "EVIDENCE_GATES.md").read_text()
+    75	    gate(LANDING in exact.replace("\n", ""), "exact_landing_token")
+    76	    gate("does **not** prove uniform linear stability" in exact,
+    77	         "exact_stability_boundary")
+    78	    gate("not proof that the G324 spacetime is stable" in lay, "lay_stability_boundary")
+    79	    gate("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in status,
+    80	         "status_pending_external")
+    81	    gate("Fresh external review | PENDING" in gates, "external_review_pending")
+    82	
+    83	    replay_lines = [line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
+    84	                    if line.strip()]
+    85	    gate(len(replay_lines) == 4, "registered_command_count")
+    86	    with tempfile.TemporaryDirectory(prefix="udt_g325_replay_") as temporary:
+    87	        copy = Path(temporary) / "package"
+    88	        shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+    89	        for line, artifact in zip(replay_lines[:3], (
+    90	            "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json", "CATCH_PROOF_RESULT.json"
+    91	        )):
+    92	            completed = subprocess.run(
+    93	                shlex.split(line), cwd=copy, check=True, capture_output=True, text=True
+    94	            )
+    95	            gate(completed.returncode == 0, f"replay_exit:{artifact}")
+    96	            generated = copy / ".review_runtime" / artifact
+    97	            gate(generated.is_file(), f"replay_created:{artifact}")
+    98	            gate(load(generated) == load(package / artifact), f"replay_exact:{artifact}")
+    99	        gate(replay_lines[3] == "python3 -S verify_package.py", "fourth_command_self")
+   100	
+   101	    result = {
+   102	        "schema": "udt-g325-package-verification-v1",
+   103	        "status": "PASS_PENDING_EXTERNAL_REVIEW",
+   104	        "landing": LANDING,
+   105	        "assertion_count": len(checks),
+   106	        "checks": checks,
+   107	        "python_version": sys.version,
+   108	        "exact_replay": True,
+   109	    }
+   110	    print(json.dumps(result, indent=2, sort_keys=True))
+   111	
+   112	
+   113	if __name__ == "__main__":
+   114	    main()
+
+codex
+I’m writing the report now. It will record the independent derivation, the replay result, the one non-load-bearing vacuous check I found, and the bounded verdict without promoting anything beyond the preregistered sector.
+apply patch
+patch: completed
+/return/EXTERNAL_REVIEW_RESPONSE.md
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..03dc663dca7c82ed16f21056b1c41fac00cf642e
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,127 @@
++# External Adversarial Review — G325
++
++## Authentication
++
++I authenticated the intake before reading scientific claims.
++
++- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
++- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
++- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
++
++## Independent derivation
++
++Starting only from the sealed background metric
++
++\[
++g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
++\]
++
++and the diagonal synchronous perturbation
++
++\[
++g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
++\]
++
++the diagonal Bianchi-I Ricci tensor is
++
++\[
++R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
++\]
++
++with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
++Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
++
++\[
++\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
++\]
++
++so the exact first-order ODEs are
++
++\[
++\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
++\]
++
++plus the time/Hamiltonian relation
++
++\[
++\frac{V-\sum_i p_i v_i}{T}=\lambda.
++\]
++
++Solving these directly gives
++
++\[
++u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
++\]
++
++with
++
++\[
++\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
++\]
++
++For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
++
++\[
++(q_1,q_2,q_3)=q(0,1,-1).
++\]
++
++Hence the complete declared sector has exactly six constants:
++
++- `tau`: one residual time-origin gauge constant;
++- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
++- `q`: one genuine local Kasner-shear constant;
++- `lambda`: one connected scalar-curvature constant.
++
++There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
++
++## Classification checks
++
++The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
++
++\[
++(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
++\]
++
++which is exactly the `p_i/T` mode up to the passive/active sign convention.
++
++The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
++
++\[
++\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
++\]
++
++For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
++
++The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
++
++\[
++\delta R=0,
++\]
++
++but the orthonormal electric-curvature split is
++
++\[
++\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
++\]
++
++so the mode is not gauge and is not an artifact of scalar blindness.
++
++The scalar mode is the unique connected scalar-curvature direction:
++
++\[
++u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
++\]
++
++It is local, curvature-changing, and not a new source or action term.
++
++## Replay, provenance, and boundaries
++
++I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
++
++I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
++
++Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
++
++On the exact preregistered question, the answer is yes in the stated bounded category.
++
++ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..03dc663dca7c82ed16f21056b1c41fac00cf642e
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,127 @@
++# External Adversarial Review — G325
++
++## Authentication
++
++I authenticated the intake before reading scientific claims.
++
++- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
++- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
++- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
++
++## Independent derivation
++
++Starting only from the sealed background metric
++
++\[
++g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
++\]
++
++and the diagonal synchronous perturbation
++
++\[
++g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
++\]
++
++the diagonal Bianchi-I Ricci tensor is
++
++\[
++R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
++\]
++
++with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
++Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
++
++\[
++\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
++\]
++
++so the exact first-order ODEs are
++
++\[
++\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
++\]
++
++plus the time/Hamiltonian relation
++
++\[
++\frac{V-\sum_i p_i v_i}{T}=\lambda.
++\]
++
++Solving these directly gives
++
++\[
++u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
++\]
++
++with
++
++\[
++\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
++\]
++
++For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
++
++\[
++(q_1,q_2,q_3)=q(0,1,-1).
++\]
++
++Hence the complete declared sector has exactly six constants:
++
++- `tau`: one residual time-origin gauge constant;
++- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
++- `q`: one genuine local Kasner-shear constant;
++- `lambda`: one connected scalar-curvature constant.
++
++There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
++
++## Classification checks
++
++The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
++
++\[
++(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
++\]
++
++which is exactly the `p_i/T` mode up to the passive/active sign convention.
++
++The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
++
++\[
++\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
++\]
++
++For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
++
++The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
++
++\[
++\delta R=0,
++\]
++
++but the orthonormal electric-curvature split is
++
++\[
++\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
++\]
++
++so the mode is not gauge and is not an artifact of scalar blindness.
++
++The scalar mode is the unique connected scalar-curvature direction:
++
++\[
++u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
++\]
++
++It is local, curvature-changing, and not a new source or action term.
++
++## Replay, provenance, and boundaries
++
++I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
++
++I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
++
++Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
++
++On the exact preregistered question, the answer is yes in the stated bounded category.
++
++ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+exec
+/bin/bash -lc 'tail -n 5 /return/EXTERNAL_REVIEW_RESPONSE.md' in /return
+ succeeded in 0ms:
+Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
+
+On the exact preregistered question, the answer is yes in the stated bounded category.
+
+ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..03dc663dca7c82ed16f21056b1c41fac00cf642e
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,127 @@
++# External Adversarial Review — G325
++
++## Authentication
++
++I authenticated the intake before reading scientific claims.
++
++- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
++- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
++- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
++
++## Independent derivation
++
++Starting only from the sealed background metric
++
++\[
++g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
++\]
++
++and the diagonal synchronous perturbation
++
++\[
++g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
++\]
++
++the diagonal Bianchi-I Ricci tensor is
++
++\[
++R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
++\]
++
++with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
++Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
++
++\[
++\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
++\]
++
++so the exact first-order ODEs are
++
++\[
++\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
++\]
++
++plus the time/Hamiltonian relation
++
++\[
++\frac{V-\sum_i p_i v_i}{T}=\lambda.
++\]
++
++Solving these directly gives
++
++\[
++u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
++\]
++
++with
++
++\[
++\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
++\]
++
++For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
++
++\[
++(q_1,q_2,q_3)=q(0,1,-1).
++\]
++
++Hence the complete declared sector has exactly six constants:
++
++- `tau`: one residual time-origin gauge constant;
++- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
++- `q`: one genuine local Kasner-shear constant;
++- `lambda`: one connected scalar-curvature constant.
++
++There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
++
++## Classification checks
++
++The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
++
++\[
++(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
++\]
++
++which is exactly the `p_i/T` mode up to the passive/active sign convention.
++
++The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
++
++\[
++\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
++\]
++
++For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
++
++The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
++
++\[
++\delta R=0,
++\]
++
++but the orthonormal electric-curvature split is
++
++\[
++\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
++\]
++
++so the mode is not gauge and is not an artifact of scalar blindness.
++
++The scalar mode is the unique connected scalar-curvature direction:
++
++\[
++u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
++\]
++
++It is local, curvature-changing, and not a new source or action term.
++
++## Replay, provenance, and boundaries
++
++I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
++
++I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
++
++Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
++
++On the exact preregistered question, the answer is yes in the stated bounded category.
++
++ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+Completed the sealed review, replayed the registered commands in a writable ephemeral copy, and wrote the external report with a bounded verdict.
+  ✓ Read scope and replay instructions, then stage a writable ephemeral copy for command replay
+  ✓ Independently derive and solve the diagonal Bianchi-I linearized system, checking gauge, constraints, parameter count, scalar mode, and quotient issues
+  ✓ Audit native provenance and mutation sensitivity from intake materials and replay outputs
+  ✓ Write `/return/EXTERNAL_REVIEW_RESPONSE.md` ending with exactly one allowed verdict token
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..03dc663dca7c82ed16f21056b1c41fac00cf642e
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,127 @@
++# External Adversarial Review — G325
++
++## Authentication
++
++I authenticated the intake before reading scientific claims.
++
++- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
++- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
++- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
++
++## Independent derivation
++
++Starting only from the sealed background metric
++
++\[
++g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
++\]
++
++and the diagonal synchronous perturbation
++
++\[
++g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
++\]
++
++the diagonal Bianchi-I Ricci tensor is
++
++\[
++R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
++\]
++
++with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
++Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
++
++\[
++\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
++\]
++
++so the exact first-order ODEs are
++
++\[
++\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
++\]
++
++plus the time/Hamiltonian relation
++
++\[
++\frac{V-\sum_i p_i v_i}{T}=\lambda.
++\]
++
++Solving these directly gives
++
++\[
++u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
++\]
++
++with
++
++\[
++\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
++\]
++
++For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
++
++\[
++(q_1,q_2,q_3)=q(0,1,-1).
++\]
++
++Hence the complete declared sector has exactly six constants:
++
++- `tau`: one residual time-origin gauge constant;
++- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
++- `q`: one genuine local Kasner-shear constant;
++- `lambda`: one connected scalar-curvature constant.
++
++There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
++
++## Classification checks
++
++The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
++
++\[
++(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
++\]
++
++which is exactly the `p_i/T` mode up to the passive/active sign convention.
++
++The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
++
++\[
++\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
++\]
++
++For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
++
++The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
++
++\[
++\delta R=0,
++\]
++
++but the orthonormal electric-curvature split is
++
++\[
++\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
++\]
++
++so the mode is not gauge and is not an artifact of scalar blindness.
++
++The scalar mode is the unique connected scalar-curvature direction:
++
++\[
++u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
++\]
++
++It is local, curvature-changing, and not a new source or action term.
++
++## Replay, provenance, and boundaries
++
++I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
++
++I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
++
++Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
++
++On the exact preregistered question, the answer is yes in the stated bounded category.
++
++ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+codex
+Token: `ACCEPT__G325_BOUNDED_MODE_CENSUS`
+
+Report: [EXTERNAL_REVIEW_RESPONSE.md](/return/EXTERNAL_REVIEW_RESPONSE.md)
+diff --git a/EXTERNAL_REVIEW_RESPONSE.md b/EXTERNAL_REVIEW_RESPONSE.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..03dc663dca7c82ed16f21056b1c41fac00cf642e
+--- /dev/null
++++ b/EXTERNAL_REVIEW_RESPONSE.md
+@@ -0,0 +1,127 @@
++# External Adversarial Review — G325
++
++## Authentication
++
++I authenticated the intake before reading scientific claims.
++
++- `REVIEW_MANIFEST.sha256` matches the SHA-256 of `REVIEW_MANIFEST.tsv`.
++- All 26 manifest payloads are present, with exact byte counts and SHA-256 matches.
++- This includes `REVIEW_SCOPE.json`, the four replay scripts, the banked JSON artifacts, and the upstream source payloads listed in `SOURCE_SCOPE.tsv`.
++
++## Independent derivation
++
++Starting only from the sealed background metric
++
++\[
++g_0=-dT^2+\sum_{i=1}^3 C_i^2 T^{2p_i}(dx^i)^2,\qquad p=\left(-\frac13,\frac23,\frac23\right),
++\]
++
++and the diagonal synchronous perturbation
++
++\[
++g_{ii}=C_i^2T^{2p_i}[1+2\epsilon u_i(T)]+O(\epsilon^2),
++\]
++
++the diagonal Bianchi-I Ricci tensor is
++
++\[
++R_{00}=-\sum_i(\dot H_i+H_i^2),\qquad \frac{R_{ii}}{g_{ii}}=\dot H_i+\theta H_i,
++\]
++
++with `H_i=\dot a_i/a_i`, `a_i=C_iT^{p_i}(1+\epsilon u_i)`, and `theta=sum_i H_i`.
++Linearizing the adopted trace-free Ricci equation and using contracted Bianchi on a connected regular region gives
++
++\[
++\delta R_{ab}=\lambda (g_0)_{ab},\qquad \delta R=4\lambda,
++\]
++
++so the exact first-order ODEs are
++
++\[
++\dot v_i+\frac{v_i}{T}+\frac{p_iV}{T}=\lambda,\qquad v_i=\dot u_i,\quad V=\sum_i v_i,
++\]
++
++plus the time/Hamiltonian relation
++
++\[
++\frac{V-\sum_i p_i v_i}{T}=\lambda.
++\]
++
++Solving these directly gives
++
++\[
++u_i(T)=c_i+q_i\log(T/T_{\mathrm{ref}})-\frac{p_i\tau}{T}+\frac{1-p_i}{4}\lambda T^2,
++\]
++
++with
++
++\[
++\sum_i q_i=0,\qquad \sum_i p_i q_i=0.
++\]
++
++For `p=(-1/3,2/3,2/3)`, the `q_i` space is one-dimensional:
++
++\[
++(q_1,q_2,q_3)=q(0,1,-1).
++\]
++
++Hence the complete declared sector has exactly six constants:
++
++- `tau`: one residual time-origin gauge constant;
++- `c_1,c_2,c_3`: three fixed-quotient lattice-modulus constants;
++- `q`: one genuine local Kasner-shear constant;
++- `lambda`: one connected scalar-curvature constant.
++
++There is no seventh independent integration constant. The two linear constraints on the logarithmic coefficients remove the extra candidate anisotropy, and `T_ref` only reabsorbs into the `c_i`.
++
++## Classification checks
++
++The time-shift mode is genuine residual synchronous gauge. For constant `xi^0=tau`, `xi^i=0`,
++
++\[
++(\mathcal L_\xi g_0)_{ii}=tau\,\partial_T(g_0)_{ii}=2g_{0,ii}\frac{p_i tau}{T},
++\]
++
++which is exactly the `p_i/T` mode up to the passive/active sign convention.
++
++The constant strains are not fixed-torus gauge. On the universal cover, `xi^i=c_i x^i` gives the constant diagonal strain, but on a quotient circle of period `L_i`,
++
++\[
++\xi^i(x^i+L_i)-\xi^i(x^i)=c_iL_i.
++\]
++
++For a periodic vector field this jump must vanish, so nonzero `c_i` do not descend to legal gauge on the fixed quotient. Discrete lattice automorphisms, including `y-z` exchange, do not remove these infinitesimal directions; they identify exact quotient presentations only discretely. In the diagonal slice these three constants are continuous fixed-quotient moduli.
++
++The Kasner-shear mode is locally nontrivial even though first-order scalar invariants are blind to `y-z` exchange. For `q(0,\log T,-\log T)`,
++
++\[
++\delta R=0,
++\]
++
++but the orthonormal electric-curvature split is
++
++\[
++\delta(E_y-E_z)=-\frac{2q}{3T^2}\neq 0,
++\]
++
++so the mode is not gauge and is not an artifact of scalar blindness.
++
++The scalar mode is the unique connected scalar-curvature direction:
++
++\[
++u_i^{(\lambda)}=\frac{1-p_i}{4}\lambda T^2,\qquad \delta R=4\lambda.
++\]
++
++It is local, curvature-changing, and not a new source or action term.
++
++## Replay, provenance, and boundaries
++
++I ran the four registered commands literally in a writable ephemeral copy under `/work`. After correcting the copied file permissions so the ephemeral copy was actually writable, all four commands succeeded, and the first three regenerated artifacts exactly matched the banked JSON outputs. The independent verifier does not import production code or read production results, and its tensor engine reconstructs Christoffels, Riemann, Ricci, scalar curvature, and the trace-free residual directly.
++
++I did find one non-load-bearing vacuity: `derive_modes.py:146-147` records `time_shift_lie_derivative_witness` as the tautology `2 * P[index] == 2 * P[index]`. That assertion should not be cited as evidence. This does not overturn the census because the same point is genuinely checked by the independent tensor route in `verify_independent.py:221-227`, and my own derivation also confirms it. The hostile proofs are serviceable but lightweight: some checks in `verify_independent.py:229-240` and `run_catch_proofs.py:44-56` are arithmetic witnesses rather than deep mutation-hard tests. I treat those as evidence-quality caveats, not as scientific refutations.
++
++Native provenance stayed inside the sealed scope. I found no introduction of a new UDT equation, action, source, observation, fit, selected scale, or `X_max`. The active equation remains the previously scoped trace-free Ricci law, the background metric and quotient provenance come from the listed upstream G323/G324 materials, and the written G325 boundary remains controlled first variation only. I reject any promotion to full linear stability, nonlinear stability, other topologies, off-diagonal modes, nonzero Fourier modes, occupancy, or physical scale.
++
++On the exact preregistered question, the answer is yes in the stated bounded category.
++
++ACCEPT__G325_BOUNDED_MODE_CENSUS
+
+tokens used
+106,561
+
+Script done on 2026-09-02 12:19:28-04:00 [COMMAND_EXIT_CODE="0"]
