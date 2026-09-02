@@ -9,13 +9,15 @@ Date: 2026-09-02
 - `04c7fb8f`: pre-production clarification that curvature of cover-coordinate modes is evaluated
   modulo Lie transport, while the log mode uses transverse tidal splitting.
 
-## Production
+## Production classification algebra
 
 ```text
 python3 -S derive_offdiagonal_modes.py --output DERIVATION_RESULT.json
 ```
 
-Result: 33 exact assertions passed; preregistered positive landing obtained.
+Result: 33 exact assertions passed; preregistered positive landing obtained. This script checks the
+announced ODE's exact solution and classification algebra; the implementation-distinct direct
+tensor engine and external rederivation are load-bearing for deriving that ODE from the metric.
 
 ## Independent direct tensor verification
 
@@ -48,5 +50,5 @@ one registered expected failure.
 
 ## Current boundary
 
-Internal exact result only. Fresh sealed adversarial review is required before acceptance. No long
-solve or GPU process was used.
+Fresh external science review accepted the bounded result. Evidence repairs R1 and R2 are
+implemented and await repair-only follow-up. No long solve or GPU process was used.

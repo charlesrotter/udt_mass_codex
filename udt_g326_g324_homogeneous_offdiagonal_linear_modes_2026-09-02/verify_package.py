@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import shlex
 import shutil
@@ -19,9 +20,38 @@ LANDING = (
     "NO_FULL_STABILITY_CLAIM"
 )
 
+SOURCE_SHA256 = {
+    "derive_offdiagonal_modes.py":
+        "8b7e1187544afc4fb8aff070981cdb5317adf3eabfcdf64cc8e40e9c6bd94ec2",
+    "verify_offdiagonal_independent.py":
+        "b108e0d981c89693265d81cbb9590ab87a61fb1665e3240c843fb114de4da5a5",
+    "run_catch_proofs.py":
+        "8e14824c910f131999ccf945fbc753eac8aa8d00050298fea578960f2b025add",
+}
+
 
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def digest(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def canned_emitter(artifact: str) -> str:
+    return f'''#!/usr/bin/env python3
+import argparse
+from pathlib import Path
+parser = argparse.ArgumentParser()
+parser.add_argument("--output", required=True)
+args = parser.parse_args()
+root = Path(__file__).resolve().parent
+rendered = (root / "{artifact}").read_text(encoding="utf-8")
+output = root / args.output
+output.parent.mkdir(parents=True, exist_ok=True)
+output.write_text(rendered, encoding="utf-8")
+print(rendered, end="")
+'''
 
 
 def main() -> None:
@@ -98,6 +128,9 @@ def main() -> None:
     gate(not production["metric_changed"] and not production["kernel_changed"]
          and not production["angular_sector_changed"], "native_objects_unchanged")
 
+    for name, expected in SOURCE_SHA256.items():
+        gate(digest(package / name) == expected, f"source_integrity:{name}")
+
     independent_text = (package / "verify_offdiagonal_independent.py").read_text()
     gate("import derive_offdiagonal_modes" not in independent_text,
          "static_no_production_import")
@@ -118,10 +151,20 @@ def main() -> None:
     gate("Every nonzero Fourier mode" in exact, "exact_fourier_boundary")
     gate("It still does not show that the spacetime is stable" in lay,
          "lay_stability_boundary")
-    gate("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in status,
-         "status_pending_external")
-    gate("fresh external review still required" in gates,
-         "external_review_not_preclaimed")
+    gate("EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING" in status,
+         "status_external_science_accepted_repairs_pending")
+    gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in gates,
+         "fresh_external_acceptance_token")
+    gate("ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS" in
+         (package / "EXTERNAL_REVIEW_RESPONSE.md").read_text(),
+         "external_report_acceptance_token")
+    precondition = (package / "REPLAY_PRECONDITION.md").read_text()
+    gate("cp -r /intake/. /work/g326_review_writable/" in precondition,
+         "writable_copy_command_registered")
+    gate("chmod -R u+w /work/g326_review_writable" in precondition,
+         "writable_permission_command_registered")
+    gate("sealed intake itself remains read-only" in precondition,
+         "sealed_intake_remains_read_only")
 
     replay_lines = [
         line.strip() for line in (package / "REPLAY_COMMANDS.txt").read_text().splitlines()
@@ -146,9 +189,28 @@ def main() -> None:
             ".review_runtime/PACKAGE_VERIFICATION_RESULT.json"
         ), "fourth_command_self")
 
+    # Repair R1: the exact aggregate verifier must reject scripts replaced by canned emitters.
+    canned_targets = {
+        "derive_offdiagonal_modes.py": "DERIVATION_RESULT.json",
+        "verify_offdiagonal_independent.py": "INDEPENDENT_VERIFICATION.json",
+        "run_catch_proofs.py": "CATCH_PROOF_RESULT.json",
+    }
+    for script_name, artifact_name in canned_targets.items():
+        with tempfile.TemporaryDirectory(prefix="udt_g326_canned_") as temporary:
+            copy = Path(temporary) / "package"
+            shutil.copytree(package, copy, ignore=shutil.ignore_patterns(".review_runtime"))
+            (copy / script_name).write_text(canned_emitter(artifact_name), encoding="utf-8")
+            completed = subprocess.run(
+                [sys.executable, "-S", "verify_package.py"], cwd=copy,
+                capture_output=True, text=True
+            )
+            gate(completed.returncode != 0 and
+                 f"source_integrity:{script_name}" in completed.stderr,
+                 f"canned_substitution_rejected:{script_name}")
+
     result = {
         "schema": "udt-g326-package-verification-v1",
-        "status": "PASS_INTERNAL_PENDING_EXTERNAL_REVIEW",
+        "status": "PASS_EXTERNAL_SCIENCE__R1_R2_IMPLEMENTED_PENDING_FOLLOWUP",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,

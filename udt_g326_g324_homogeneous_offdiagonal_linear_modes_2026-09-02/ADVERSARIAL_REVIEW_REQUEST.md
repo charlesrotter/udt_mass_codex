@@ -32,8 +32,8 @@ legal gauge or scalar-curvature mode?
    nonlinear-stability, physical-occupancy, scale, or universe-selection inference.
 10. Audit native provenance: no new metric, reciprocal kernel, angular law, equation, action,
     source, observation, fit, scale, or `X_max` may enter.
-11. Run all four registered commands in a writable ephemeral copy and hunt circular, vacuous, or
-    mutation-insensitive assertions.
+11. Follow `REPLAY_PRECONDITION.md`, then run all four registered commands in the writable
+    ephemeral copy and hunt circular, vacuous, or mutation-insensitive assertions.
 
 ## Allowed verdicts
 

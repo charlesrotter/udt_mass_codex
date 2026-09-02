@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the sealed, self-contained, read-only G326 adversarial-review intake."""
+"""Build the sealed, self-contained G326 R1/R2 repair-only follow-up intake."""
 
 from __future__ import annotations
 
@@ -7,6 +7,8 @@ import csv
 import hashlib
 import json
 import shutil
+import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -30,6 +32,7 @@ PACKAGE_FILES = (
     "run_catch_proofs.py",
     "verify_package.py",
     "verify_review_intake.py",
+    "build_repair_followup_intake.py",
     "DERIVATION_RESULT.json",
     "INDEPENDENT_VERIFICATION.json",
     "CATCH_PROOF_RESULT.json",
@@ -37,7 +40,11 @@ PACKAGE_FILES = (
     "ADVERSARIAL_REVIEW_REQUEST.md",
     "AUDIT_REPORT.md",
     "EXTERNAL_REVIEW_RESPONSE.md",
+    "EXTERNAL_REVIEW_FINAL_RESPONSE.md",
+    "EXTERNAL_REVIEW_TRANSCRIPT.txt",
+    "EXTERNAL_REVIEW_TRANSMISSION.md",
     "REPAIR_LEDGER.tsv",
+    "REPAIR_FOLLOWUP_REQUEST.md",
 )
 
 
@@ -48,12 +55,16 @@ def digest(path: Path) -> str:
 def main() -> None:
     package = Path(__file__).resolve().parent
     repository = package.parent
-    destination = Path(tempfile.mkdtemp(prefix="udt_g326_review_", dir="/tmp"))
+    source_commit = subprocess.run(
+        ["git", "rev-parse", "HEAD"], cwd=repository, check=True, capture_output=True, text=True
+    ).stdout.strip()
+    destination = Path(tempfile.mkdtemp(prefix="udt_g326_repair_followup_", dir="/tmp"))
     payloads: list[Path] = []
 
     for name in PACKAGE_FILES:
         source = package / name
-        assert source.is_file(), source
+        if not source.is_file():
+            raise FileNotFoundError(source)
         target = destination / name
         shutil.copy2(source, target)
         payloads.append(target)
@@ -62,7 +73,8 @@ def main() -> None:
         source_rows = list(csv.DictReader(handle, delimiter="\t"))
     for row in source_rows:
         source = repository / row["path"]
-        assert source.is_file(), source
+        if not source.is_file():
+            raise FileNotFoundError(source)
         target = destination / "sources" / row["path"]
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, target)
@@ -70,8 +82,9 @@ def main() -> None:
 
     scope_path = destination / "REVIEW_SCOPE.json"
     scope = {
-        "schema": "udt-g326-external-review-scope-v1",
-        "question": "bounded homogeneous off-diagonal linear mode census around G324",
+        "schema": "udt-g326-r1-r2-repair-followup-scope-v1",
+        "source_commit": source_commit,
+        "purpose": "read-only repair-only verification of G326 R1 and R2",
         "manifest_payload_count": len(payloads) + 1,
         "evidence_read_only": True,
         "research_continuation_allowed": False,
@@ -79,10 +92,23 @@ def main() -> None:
         "protected_package_access_allowed": False,
         "internet_browsing_allowed": False,
         "ephemeral_copy_checks_allowed": True,
+        "allowed_question": (
+            "R1 exact source-integrity and canned-substitution rejection; R2 explicit writable "
+            "ephemeral-copy precondition; unchanged bounded G326 scientific landing"
+        ),
         "law_history_scale_selection_allowed": False,
     }
     scope_path.write_text(json.dumps(scope, indent=2, sort_keys=True) + "\n")
     payloads.append(scope_path)
+
+    # Prove the corrected package replays exactly before sealing it.
+    subprocess.run(
+        [sys.executable, "-S", str(destination / "verify_package.py")],
+        cwd=destination,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
 
     manifest = destination / "REVIEW_MANIFEST.tsv"
     with manifest.open("w", newline="") as handle:
@@ -94,6 +120,14 @@ def main() -> None:
             ))
     seal = destination / "REVIEW_MANIFEST.sha256"
     seal.write_text(digest(manifest) + "\n")
+
+    subprocess.run(
+        [sys.executable, "-S", str(destination / "verify_review_intake.py")],
+        cwd=destination,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
 
     for path in destination.rglob("*"):
         path.chmod(0o555 if path.is_dir() else 0o444)

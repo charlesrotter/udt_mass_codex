@@ -14,6 +14,11 @@ Date: 2026-09-02
 Aggregate replay: `PASS_INTERNAL`, 46 checks with byte-exact regeneration. Repository gates:
 308-row premise registry `PASS`; full suite `218 passed, 1 expected xfail`.
 
+Repairs R1 and R2: `IMPLEMENTED_PENDING_REPAIR_FOLLOWUP`. The aggregate verifier now pins the exact
+three computational sources and executably proves that canned replacements of production,
+independent, or hostile scripts are rejected. `REPLAY_PRECONDITION.md` makes the writable-copy step
+explicit while retaining a read-only sealed intake.
+
 Fresh external verdict: `ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`.
 
 Current grade: `EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING`.
