@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-09-01
+Date: 2026-09-02
 
-`LIVE.md` controls status; the 305-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 306-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -99,6 +99,9 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 - G322 conditionally imports Choquet--Bruhat--Geroch: each fixed G321 datum has one maximal globally
   hyperbolic marked development containing all same-datum globally hyperbolic developments. Repairs
   were externally accepted. Completeness, stability, unmarked equivalence, and occupancy stay open.
+- G323 makes registered profiles local Taub refoliations, while a primitive lattice modulus
+  separates their explicit compact quotients. Opposite `K` signs reverse time orientation. Repairs
+  were accepted; MGHD equality, occupancy, and scale remain open.
 
 ## Open boundary
 
@@ -109,9 +112,9 @@ first local differential order and complete carry/query boundaries without selec
 G301--G312 narrow and owner-activate bounded trace-free Ricci; G313 keeps a multibranch Einstein
 arena, G314 keeps bootstrap optional, G315--G319 construct broad constrained non-CMC snapshots,
 G320 proves some of their breadth is genuine physical initial-geometry freedom after quotient, and
-G321 gives each supplied datum one conditional local development; G322 conditionally extends it
-maximally within the globally hyperbolic class. Neither selects occupied data nor classifies
-unmarked cross-datum equivalence. The positive round branch remains fixed only up to curvature scale. This is
+G321/G322 conditionally give each datum local then maximal-GH development. G323 proves local
+refoliation and separates explicit compact quotients; MGHD equality stays open. None selects data.
+The positive round branch retains one curvature scale. This is
 not a native-law no-go; curvature scale, mass, population, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -120,8 +123,6 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Classify unmarked cross-datum equivalence in G320--G322, starting with `n=1` versus `n=2` and
-opposite-`K` time reversals. Are distinct marked geometries slices of one unmarked maximal
-development or distinct spacetimes? Bound the result; do not infer occupancy, a unique universe,
-completeness, stability, or arbitrary Lorentzian inextendibility. Import no action, source,
+Test whether G323 explicit quotients equal their G322 MGHDs and retain the lattice modulus. Do not
+infer occupancy, uniqueness, completeness, stability, or inextendibility. Import no action, source,
 matter/mass, observation, fit, `X_max`, protected work, or equation.

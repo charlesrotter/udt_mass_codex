@@ -1,0 +1,1408 @@
+Script started on 2026-09-02 05:55:28-04:00 [<not executed on terminal>]
+OpenAI Codex v0.144.5
+--------
+workdir: /return
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a0618b-8869-7b81-90b8-6edcec2d3244
+--------
+user
+The sealed G323 repair-follow-up intake is mounted read-only at /intake. Inspect only /intake and verify only registered repairs R1-R4 plus the retained bounded explicit-quotient landing. Writable ephemeral checks may use /work. Do not edit evidence files or continue the research. Web browsing, web search, downloads, package installation, curl, wget, and network-capable Python calls are prohibited. The network exists solely for the Codex API connection. Treat repository premise and suite results as external attestations unless independently replayable from this intake. Do not select or canonize a law, topology, history, scale, occupancy, or X_max.\n\n# G323 repair-only external follow-up request
+
+Verify only the four repairs registered in `REPAIR_LEDGER.tsv` and the retained bounded scientific
+landing. Do not continue the research.
+
+1. **R1:** Check the degree/winding and zero-integral collision proof establishing the primitive
+   `X` period in the registered fixed-sign graph stratum.
+2. **R2:** Confirm that every claim now stops at an explicit globally hyperbolic Taub quotient
+   development and that equality with the per-datum G322 MGHD is explicitly open.
+3. **R3:** Check the lattice-intersection/projected-covolume definition of the unmarked modulus,
+   including nonsplit generators and the registered split reduction to `L_X/sqrt(L_y L_z)`.
+4. **R4:** Run `python3 -S package/verify_review_intake.py` from the intake root; verify that all
+   repository-only premise and suite results are labelled external attestations rather than sealed
+   replay evidence.
+
+The unchanged bounded landing concerns the explicit registered Taub quotient developments only.
+It does not identify them with their MGHDs, select occupancy/topology/scale, alter the metric or
+kernel, or promote the provisional field equation.
+
+End with exactly one:
+
+```text
+G323_REPAIRS_ACCEPTED__BOUNDED_EXPLICIT_QUOTIENT_LANDING_RETAINED
+G323_REPAIRS_INCOMPLETE
+G323_REPAIR_FOLLOWUP_REFUTES_RETAINED_LANDING
+```
+codex
+I’m verifying only the sealed intake at `/intake`, limited to registered repairs `R1`-`R4` and the retained bounded explicit-quotient landing. I’ll first inventory the intake contents and locate `REPAIR_LEDGER.tsv`, the review verifier, and the repair-specific evidence without touching anything outside `/intake` except ephemeral execution in `/work` if needed.
+exec
+/bin/bash -c 'rg --files /intake' in /intake
+ exited 127 in 0ms:
+/bin/bash: line 1: rg: command not found
+
+exec
+/bin/bash -c pwd in /intake
+ succeeded in 0ms:
+/intake
+
+codex
+`rg` is unavailable in this environment, so I’m falling back to filesystem-native listing. Next I’m mapping the intake tree and locating the registered repair ledger and verifier inputs.
+exec
+/bin/bash -c 'find /intake -maxdepth 3 -type f | sort' in /intake
+ succeeded in 0ms:
+/intake/REVIEW_MANIFEST.sha256
+/intake/REVIEW_MANIFEST.tsv
+/intake/REVIEW_SCOPE.json
+/intake/package/AUDIT_REPORT.md
+/intake/package/CATCH_PROOF_RESULT.json
+/intake/package/COMPLETENESS_MAP.md
+/intake/package/DERIVATION_RESULT.json
+/intake/package/EVIDENCE_GATES.md
+/intake/package/EXACT_DERIVATION.md
+/intake/package/EXTERNAL_REVIEW_REQUEST.md
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt
+/intake/package/EXTERNAL_REVIEW_TRANSMISSION.md
+/intake/package/INDEPENDENT_FAILURE_AND_REPAIR.md
+/intake/package/INDEPENDENT_VERIFICATION.json
+/intake/package/LAY_REPORT.md
+/intake/package/MAP.md
+/intake/package/PACKAGE_VERIFICATION_RESULT.json
+/intake/package/PREMISE_LEDGER.tsv
+/intake/package/PREREGISTRATION.md
+/intake/package/PREREGISTRATION_ANCESTRY.md
+/intake/package/QUOTIENT_ATLAS.tsv
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md
+/intake/package/REPAIR_LEDGER.tsv
+/intake/package/REPLAY_COMMANDS.txt
+/intake/package/RUN_RECORD.md
+/intake/package/SOURCE_SCOPE.tsv
+/intake/package/STATUS_LEDGER.tsv
+/intake/package/build_repair_followup_intake.py
+/intake/package/derive_unmarked_quotients.py
+/intake/package/run_catch_proofs.py
+/intake/package/verify_independent.py
+/intake/package/verify_package.py
+/intake/package/verify_review_intake.py
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md
+
+exec
+/bin/bash -c 'find /intake -maxdepth 3 -type d | sort' in /intake
+ succeeded in 0ms:
+/intake
+/intake/package
+/intake/sources
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01
+
+codex
+I have the intake map. I’m now reading the repair ledger, follow-up request, and verifier script to anchor the exact registered claims before checking each repair and the retained landing against sealed evidence only.
+Verifying only the sealed intake against the four registered repairs and the retained bounded landing, with repository/suite claims treated as external unless replayable from intake.
+  → Read the repair ledger, follow-up request, and verifier script to extract the exact registered repair targets and landing constraints.
+  • Inspect sealed evidence for R1-R3 and confirm whether the repaired statements and definitions match the registered scope.
+  • Run the intake verifier for R4 and check that repository-only premises/suite results are marked as external attestations.
+  • Decide whether the retained bounded explicit-quotient landing survives the repair-only review and report the required disposition.
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/REPAIR_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+repair	fresh_finding	bounded_change	scientific_landing
+R1	primitive-period assertion lacked a proof for arbitrary positive periodic profiles and alternate windings	add degree/winding and zero-integral collision proof for the registered fixed-sign graph stratum	UNCHANGED
+R2	explicit quotient was not proved equal to the per-datum G322 MGHD	downgrade to explicit globally hyperbolic development and reopen MGHD equality	BOUNDED_SCOPE_NARROWED
+R3	coordinate Q_X formula did not fully cover nonsplit compact lattices	define Q through the primitive eigendirection intersection lattice and projected transverse covolume	UNCHANGED
+R4	first sealed intake could not replay repository premise/suite attestations and package verifier did not authenticate the intake manifest	label repository gates external attestations and add a dependency-free sealed-intake authenticator	UNCHANGED
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/REPAIR_FOLLOWUP_REQUEST.md" in /intake
+ succeeded in 0ms:
+# G323 repair-only external follow-up request
+
+Verify only the four repairs registered in `REPAIR_LEDGER.tsv` and the retained bounded scientific
+landing. Do not continue the research.
+
+1. **R1:** Check the degree/winding and zero-integral collision proof establishing the primitive
+   `X` period in the registered fixed-sign graph stratum.
+2. **R2:** Confirm that every claim now stops at an explicit globally hyperbolic Taub quotient
+   development and that equality with the per-datum G322 MGHD is explicitly open.
+3. **R3:** Check the lattice-intersection/projected-covolume definition of the unmarked modulus,
+   including nonsplit generators and the registered split reduction to `L_X/sqrt(L_y L_z)`.
+4. **R4:** Run `python3 -S package/verify_review_intake.py` from the intake root; verify that all
+   repository-only premise and suite results are labelled external attestations rather than sealed
+   replay evidence.
+
+The unchanged bounded landing concerns the explicit registered Taub quotient developments only.
+It does not identify them with their MGHDs, select occupancy/topology/scale, alter the metric or
+kernel, or promote the provisional field equation.
+
+End with exactly one:
+
+```text
+G323_REPAIRS_ACCEPTED__BOUNDED_EXPLICIT_QUOTIENT_LANDING_RETAINED
+G323_REPAIRS_INCOMPLETE
+G323_REPAIR_FOLLOWUP_REFUTES_RETAINED_LANDING
+```
+
+exec
+/bin/bash -c "sed -n '1,260p' /intake/package/verify_review_intake.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Dependency-free authentication of a sealed G323 review intake."""
+
+import csv
+import hashlib
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+
+
+def sha256(path):
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def need(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+def main():
+    manifest_path = ROOT / "REVIEW_MANIFEST.tsv"
+    seal_path = ROOT / "REVIEW_MANIFEST.sha256"
+    scope_path = ROOT / "REVIEW_SCOPE.json"
+    need(manifest_path.is_file(), "missing manifest")
+    need(seal_path.is_file(), "missing detached seal")
+    need(scope_path.is_file(), "missing scope")
+
+    sealed_digest, sealed_name = seal_path.read_text(encoding="utf-8").strip().split()
+    need(sealed_name == "REVIEW_MANIFEST.tsv", "detached-seal target")
+    need(sha256(manifest_path) == sealed_digest, "detached-seal mismatch")
+
+    with manifest_path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    need(rows, "empty manifest")
+    recorded = set()
+    for row in rows:
+        relative = Path(row["path"])
+        need(not relative.is_absolute() and ".." not in relative.parts, "unsafe manifest path")
+        need(relative.as_posix() not in recorded, "duplicate manifest path")
+        recorded.add(relative.as_posix())
+        payload = ROOT / relative
+        need(payload.is_file(), f"missing payload: {relative}")
+        need(payload.stat().st_size == int(row["bytes"]), f"byte mismatch: {relative}")
+        need(sha256(payload) == row["sha256"], f"hash mismatch: {relative}")
+
+    scope = json.loads(scope_path.read_text(encoding="utf-8"))
+    package_count = sum(path.startswith("package/") for path in recorded)
+    source_count = sum(path.startswith("sources/") for path in recorded)
+    need(package_count == scope["package_payload_count"], "package count mismatch")
+    need(source_count == scope["source_payload_count"], "source count mismatch")
+    need(len(rows) == package_count + source_count + 1, "manifest payload count mismatch")
+
+    actual = {
+        path.relative_to(ROOT).as_posix()
+        for path in ROOT.rglob("*")
+        if path.is_file()
+    }
+    expected = recorded | {"REVIEW_MANIFEST.tsv", "REVIEW_MANIFEST.sha256"}
+    need(actual == expected, f"unmanifested file set: {sorted(actual ^ expected)}")
+    print(f"G323 sealed intake authentication PASS: {len(rows)} payloads; {len(actual)} files")
+
+
+if __name__ == "__main__":
+    main()
+
+codex
+The registered scope is clear: `R2` is a bounded narrowing, while `R1`, `R3`, and `R4` must be fully supported inside the intake. I’m now tracing the exact repaired text and proof locations in the sealed package rather than relying on summary ledgers.
+exec
+/bin/bash -c "grep -RIn \"primitive\\|winding\\|zero-integral\\|fixed-sign\\|graph stratum\\|period\" /intake/package /intake/sources" in /intake
+ succeeded in 0ms:
+/intake/package/COMPLETENESS_MAP.md:9:| Data | smooth positive periodic one-coordinate LRS G319/G320 branch with `J0>0` | `d!=0`, `Lambda!=0`, nondiagonal, multidimensional, `B=0` crossings |
+/intake/package/COMPLETENESS_MAP.md:12:| Modes | analytic all positive integer modes; finite controls `n=1..4` | arbitrary nonperiodic profiles and full moduli |
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:6:1. **R1:** Check the degree/winding and zero-integral collision proof establishing the primitive
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:7:   `X` period in the registered fixed-sign graph stratum.
+/intake/package/INDEPENDENT_VERIFICATION.json:9:  "periods": {
+/intake/package/MAP.md:20:  periodic profiles;
+/intake/package/MAP.md:29:curvature, Ricci tensor, curvature invariant, Cauchy property, compact quotient period, and branch
+/intake/package/MAP.md:37:The candidate ambient metric and the possibility of a surviving compact-period modulus were found
+/intake/package/AUDIT_REPORT.md:21:4. A degree/winding plus zero-integral argument proves that compact injectivity forces the global
+/intake/package/AUDIT_REPORT.md:22:   `X` period. The invariant lattice-intersection/projected-covolume definition of `Q_X` survives
+/intake/package/AUDIT_REPORT.md:43:- finite production periods: `6.5545166850`, `6.6232264275`, `6.7354404967`, `6.8880830208`.
+/intake/package/STATUS_LEDGER.tsv:4:complete_G320_data_embedding	DERIVED_CONDITIONAL	positive periodic B-nonzero branches
+/intake/package/STATUS_LEDGER.tsv:6:primitive_compact_X_period	DERIVED_CONDITIONAL	injective compact Cauchy graph
+/intake/package/STATUS_LEDGER.tsv:7:Q_X_global_modulus	DERIVED_CONDITIONAL	primitive intersection lattice plus projected transverse covolume
+/intake/package/derive_unmarked_quotients.py:252:        period_x = TWO_PI * math.fsum(abs(row["X_prime"]) for row in rows) / SAMPLES
+/intake/package/derive_unmarked_quotients.py:256:            "L_X": period_x,
+/intake/package/derive_unmarked_quotients.py:257:            "Q_X": period_x / TWO_PI,
+/intake/package/derive_unmarked_quotients.py:277:    check(f"sign-independent period n={mode}",
+/intake/package/derive_unmarked_quotients.py:280:    check(f"strict mode period n={lower}->{upper}",
+/intake/package/derive_unmarked_quotients.py:297:    "primitive_period_formula_pass": True,
+/intake/package/derive_unmarked_quotients.py:298:    "mode_period_strictly_increasing": True,
+/intake/package/derive_unmarked_quotients.py:312:    "periods": {str(mode): positive[mode]["L_X"] for mode in MODES},
+/intake/package/derive_unmarked_quotients.py:320:print("periods:", result["periods"])
+/intake/package/verify_independent.py:131:periods = {}
+/intake/package/verify_independent.py:135:    sign_periods = []
+/intake/package/verify_independent.py:138:        period = TAU * math.fsum(row[0] for row in rows) / N
+/intake/package/verify_independent.py:139:        sign_periods.append(period)
+/intake/package/verify_independent.py:144:    need(f"independent sign period n={mode}", abs(sign_periods[0] - sign_periods[1]) < 5e-13)
+/intake/package/verify_independent.py:145:    periods[mode] = sign_periods[0]
+/intake/package/verify_independent.py:148:    need(f"independent strict period {lower}->{upper}", periods[upper] > periods[lower])
+/intake/package/verify_independent.py:180:    "periods": {str(key): value for key, value in periods.items()},
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:27:4. Attack the primitive-period argument. Determine whether another injective embedding, winding,
+/intake/package/DERIVATION_RESULT.json:14:  "mode_period_strictly_increasing": true,
+/intake/package/DERIVATION_RESULT.json:18:  "periods": {
+/intake/package/DERIVATION_RESULT.json:26:  "primitive_period_formula_pass": true,
+/intake/package/PREMISE_LEDGER.tsv:13:psi_positive_periodic	FREE_AND_EXPLORED_PROFILE	registered Cauchy graphs	selected physical history
+/intake/package/PREMISE_LEDGER.tsv:18:compact_quotient_period	DERIVED_CANDIDATE_INVARIANT	unmarked global discriminator	observational scale without attachment
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:40:4. Attack the primitive-period argument. Determine whether another injective embedding, winding,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:196:4. Attack the primitive-period argument. Determine whether another injective embedding, winding,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:252:For a smooth positive periodic profile `psi`, G319/G320 give
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:328:Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:379:## 4. The forced global quotient period
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:381:Injectivity fixes the primitive `X` period to the total graph advance
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:393:embedding. Thus (9) is global data, not an arbitrary coordinate-period choice after the complete
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:404:rescales all three compact coordinate periods by `1/a`. It cannot change
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:417:For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:505:psi_positive_periodic	FREE_AND_EXPLORED_PROFILE	registered Cauchy graphs	selected physical history
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:510:compact_quotient_period	DERIVED_CANDIDATE_INVARIANT	unmarked global discriminator	observational scale without attachment
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:540:positive periodic, sign-definite `B!=0` G319 slice. It does not classify the full constraint
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:572:On a periodic torus, integration by parts gives
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:645:smooth periodic profile after a sufficiently large free `J0` is supplied. Equations (3)--(5)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:926:Finally, periodic descent into the registered TT-plus-longitudinal chart is
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:935:The right side has zero mean, so a periodic \(w\) exists up to its translation kernel.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:939:Let \(\psi\) be any smooth positive periodic function, and fix finite real \(d\) and \(\Lambda\).
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:972:\(\tau<0\). All reconstructed quantities are smooth and periodic.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:975:periodic \(\psi\) after a sufficiently large free constraint constant \(J_0\) is supplied. This is
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1053:  "periods": {
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1114:on the marked periodic three-torus. Since `psi_n>=13/10`, `gamma` is smooth and positive definite.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1320:4. Compact injectivity forces a global `X` period. The lattice-shape ratio
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1342:- finite production periods: `6.5545166850`, `6.6232264275`, `6.7354404967`, `6.8880830208`.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1434:| Data | smooth positive periodic one-coordinate LRS G319/G320 branch with `J0>0` | `d!=0`, `Lambda!=0`, nondiagonal, multidimensional, `B=0` crossings |
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1437:| Modes | analytic all positive integer modes; finite controls `n=1..4` | arbitrary nonperiodic profiles and full moduli |
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1711:        period_x = TWO_PI * math.fsum(abs(row["X_prime"]) for row in rows) / SAMPLES
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1715:            "L_X": period_x,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1716:            "Q_X": period_x / TWO_PI,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1854:periods = {}
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1858:    sign_periods = []
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1861:        period = TAU * math.fsum(row[0] for row in rows) / N
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1862:        sign_periods.append(period)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1867:    need(f"independent sign period n={mode}", abs(sign_periods[0] - sign_periods[1]) < 5e-13)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1868:    periods[mode] = sign_periods[0]
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1871:    need(f"independent strict period {lower}->{upper}", periods[upper] > periods[lower])
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1903:    "periods": {str(key): value for key, value in periods.items()},
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1949:catch("period is not slice Q_R", "L_X" != "Q_R")
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1950:catch("primitive divisor rejected", 2 > 1)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1957:catch("no Xmax selection", "compact_period" != "X_max")
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2019:        "profiles_are_local_refoliations", "primitive_period_formula_pass",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2020:        "mode_period_strictly_increasing", "n1_n2_unmarked_compact_quotients_distinct",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2054:             f"period monotonic sign={sign}")
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2058:             f"sign period mode={mode}")
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2066:        "The forced global quotient period", "L_X(n+1)>L_X(n)",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2080:        "Candidate common ambient metric", "primitive `X` period",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2158:    check(f"sign-independent period n={mode}",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2161:    check(f"strict mode period n={lower}->{upper}",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2178:    "primitive_period_formula_pass": True,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2179:    "mode_period_strictly_increasing": True,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2193:    "periods": {str(mode): positive[mode]["L_X"] for mode in MODES},
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2201:print("periods:", result["periods"])
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2293:  periodic profiles;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2302:curvature, Ricci tensor, curvature invariant, Cauchy property, compact quotient period, and branch
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2310:The candidate ambient metric and the possibility of a surviving compact-period modulus were found
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2356:periods: {'1': 6.554516685020806, '2': 6.623226427457768, '3': 6.735440496746481, '4': 6.888083020830009}
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2451:with `J0>0`, `epsilon=+-1`, and smooth positive `2 pi`-periodic `psi`. No data formula may be
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2491:The forced primitive `X` period is
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2500:A smaller divisor period is forbidden if it makes the embedding noninjective.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2512:must be checked as an exact local isometry. It rescales all three compact coordinate periods by
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2573:- Hostile mutations must catch a wrong `mu`, sign or factor in (2), omitted primitive-period gate,
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2615:- samples: 16,384 periodic points per mode/sign;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2645:The replay suite passes in the ephemeral copy, but that only confirms the package is internally self-consistent. I’m now probing the weakest mathematical step directly: whether smaller `X` periods or alternative windings can realize the same complete datum without violating injectivity or the full `(gamma,K)` match.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2676:            # sample a few points for periodic constancy of X(x+shift)-X(x)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2794:The primitive-period claim is stronger than the mode-separation claim, so I’m checking it separately on both the preregistered cosine controls and a generic admissible positive periodic profile. If the “forced primitive period” argument only works for the symmetric controls, that narrows the legitimate landing materially.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2833:# generic positive periodic profile
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2934:    23	with `J0>0`, `epsilon=+-1`, and smooth positive `2 pi`-periodic `psi`. No data formula may be
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2974:    63	The forced primitive `X` period is
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2983:    72	A smaller divisor period is forbidden if it makes the embedding noninjective.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2995:    84	must be checked as an exact local isometry. It rescales all three compact coordinate periods by
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3113:    97	Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3164:   148	## 4. The forced global quotient period
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3166:   150	Injectivity fixes the primitive `X` period to the total graph advance
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3178:   162	embedding. Thus (9) is global data, not an arbitrary coordinate-period choice after the complete
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3189:   173	rescales all three compact coordinate periods by `1/a`. It cannot change
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3245:    45	        "profiles_are_local_refoliations", "primitive_period_formula_pass",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3246:    46	        "mode_period_strictly_increasing", "n1_n2_unmarked_compact_quotients_distinct",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3280:    80	             f"period monotonic sign={sign}")
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3284:    84	             f"sign period mode={mode}")
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3292:    92	        "The forced global quotient period", "L_X(n+1)>L_X(n)",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3306:   106	        "Candidate common ambient metric", "primitive `X` period",
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3397:   186	For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3541:    16	- samples: 16,384 periodic points per mode/sign;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3621:- Repair 1: The primitive-period claim is overstated as written. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:150) and [PREREGISTRATION.md](/intake/package/PREREGISTRATION.md:63) assert that injectivity forces `L_X` and that any smaller divisor “repeats the same profile phase,” but that is not proved for arbitrary smooth positive periodic `psi` or for alternate compact lattice/winding realizations. I could independently close this for the preregistered cosine modes by symmetry plus continuity, so the `n=1` vs `n=2` separation survives, but the package must either restrict this step to that registered family or supply a real general proof.
+/intake/package/run_catch_proofs.py:36:catch("period is not slice Q_R", "L_X" != "Q_R")
+/intake/package/run_catch_proofs.py:38:# Exact discrete catch-proof for the zero-integral step in the primitive-period lemma. For a
+/intake/package/run_catch_proofs.py:39:# cyclic radial profile, every nontrivial rational winding shift has difference sum zero, hence a
+/intake/package/run_catch_proofs.py:43:primitive_lemma_caught = True
+/intake/package/run_catch_proofs.py:44:for winding in (2, 3, 4, 6):
+/intake/package/run_catch_proofs.py:45:    shift = len(cycle) // winding
+/intake/package/run_catch_proofs.py:48:    primitive_lemma_caught &= sum(differences, Fraction(0)) == 0
+/intake/package/run_catch_proofs.py:49:    primitive_lemma_caught &= (
+/intake/package/run_catch_proofs.py:53:catch("primitive divisor zero-integral lemma", primitive_lemma_caught)
+/intake/package/run_catch_proofs.py:60:catch("no Xmax selection", "compact_period" != "X_max")
+/intake/package/PREREGISTRATION_ANCESTRY.md:10:The preregistration explicitly discloses that the candidate ambient metric and quotient-period
+/intake/package/REPAIR_LEDGER.tsv:2:R1	primitive-period assertion lacked a proof for arbitrary positive periodic profiles and alternate windings	add degree/winding and zero-integral collision proof for the registered fixed-sign graph stratum	UNCHANGED
+/intake/package/REPAIR_LEDGER.tsv:4:R3	coordinate Q_X formula did not fully cover nonsplit compact lattices	define Q through the primitive eigendirection intersection lattice and projected transverse covolume	UNCHANGED
+/intake/package/RUN_RECORD.md:16:- samples: 16,384 periodic points per mode/sign;
+/intake/package/PREREGISTRATION.md:23:with `J0>0`, `epsilon=+-1`, and smooth positive `2 pi`-periodic `psi`. No data formula may be
+/intake/package/PREREGISTRATION.md:63:The forced primitive `X` period is
+/intake/package/PREREGISTRATION.md:72:A smaller divisor period is forbidden if it makes the embedding noninjective.
+/intake/package/PREREGISTRATION.md:84:must be checked as an exact local isometry. It rescales all three compact coordinate periods by
+/intake/package/PREREGISTRATION.md:145:- Hostile mutations must catch a wrong `mu`, sign or factor in (2), omitted primitive-period gate,
+/intake/package/CATCH_PROOF_RESULT.json:7:    "period is not slice Q_R",
+/intake/package/CATCH_PROOF_RESULT.json:8:    "primitive divisor zero-integral lemma",
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:2:- Repair 1: The primitive-period claim is overstated as written. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:150) and [PREREGISTRATION.md](/intake/package/PREREGISTRATION.md:63) assert that injectivity forces `L_X` and that any smaller divisor “repeats the same profile phase,” but that is not proved for arbitrary smooth positive periodic `psi` or for alternate compact lattice/winding realizations. I could independently close this for the preregistered cosine modes by symmetry plus continuity, so the `n=1` vs `n=2` separation survives, but the package must either restrict this step to that registered family or supply a real general proof.
+/intake/package/EXACT_DERIVATION.md:21:For a smooth positive periodic profile `psi`, G319/G320 give
+/intake/package/EXACT_DERIVATION.md:97:Since `J0>0`, `B` and `X'` never vanish on a fixed-sign branch. With
+/intake/package/EXACT_DERIVATION.md:148:## 4. The forced global quotient period
+/intake/package/EXACT_DERIVATION.md:150:Injectivity fixes the primitive `X` period to the total graph advance
+/intake/package/EXACT_DERIVATION.md:169:`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+/intake/package/EXACT_DERIVATION.md:170:require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+/intake/package/EXACT_DERIVATION.md:180:so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+/intake/package/EXACT_DERIVATION.md:181:complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+/intake/package/EXACT_DERIVATION.md:182:registered fixed-sign graph stratum; it does not assume a cosine symmetry.
+/intake/package/EXACT_DERIVATION.md:192:rescales all three compact coordinate periods by `1/a`. It cannot change
+/intake/package/EXACT_DERIVATION.md:210:The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+/intake/package/EXACT_DERIVATION.md:220:An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+/intake/package/EXACT_DERIVATION.md:226:For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+/intake/package/verify_package.py:47:        "profiles_are_local_refoliations", "primitive_period_formula_pass",
+/intake/package/verify_package.py:48:        "mode_period_strictly_increasing", "n1_n2_unmarked_compact_quotients_distinct",
+/intake/package/verify_package.py:82:             f"period monotonic sign={sign}")
+/intake/package/verify_package.py:86:             f"sign period mode={mode}")
+/intake/package/verify_package.py:94:        "The forced global quotient period", "zero integral around the circle",
+/intake/package/verify_package.py:95:        "primitive intersection lattice", "L_X(n+1)>L_X(n)",
+/intake/package/verify_package.py:111:        "Candidate common ambient metric", "primitive `X` period",
+/intake/sources/udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md:44:on the marked periodic three-torus. Since `psi_n>=13/10`, `gamma` is smooth and positive definite.
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md:13:positive periodic, sign-definite `B!=0` G319 slice. It does not classify the full constraint
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md:45:On a periodic torus, integration by parts gives
+/intake/sources/udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/EXACT_DERIVATION.md:118:smooth periodic profile after a sufficiently large free `J0` is supplied. Equations (3)--(5)
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:169:Finally, periodic descent into the registered TT-plus-longitudinal chart is
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:178:The right side has zero mean, so a periodic \(w\) exists up to its translation kernel.
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:182:Let \(\psi\) be any smooth positive periodic function, and fix finite real \(d\) and \(\Lambda\).
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:215:\(\tau<0\). All reconstructed quantities are smooth and periodic.
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:218:periodic \(\psi\) after a sufficiently large free constraint constant \(J_0\) is supplied. This is
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:269:- the G318 \(n\le-3\) periodic obstruction remains valid **inside that ansatz**;
+/intake/sources/udt_g319_ratio_free_noncmc_constraint_descent_2026-09-01/EXACT_DERIVATION.md:270:- the G318 positive periodic tidal family remains an embedded subfamily;
+
+exec
+/bin/bash -c "grep -RIn \"globally hyperbolic\\|MGHD\\|maximal globally hyperbolic\\|Taub quotient\\|explicit quotient\\|explicit globally hyperbolic development\" /intake/package /intake/sources" in /intake
+ succeeded in 0ms:
+/intake/package/COMPLETENESS_MAP.md:13:| Dynamics | explicit whole Ricci-flat globally hyperbolic quotient development | equality with conditional G322 MGHD, sourced dynamics, stability, perturbations |
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:8:2. **R2:** Confirm that every claim now stops at an explicit globally hyperbolic Taub quotient
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:9:   development and that equality with the per-datum G322 MGHD is explicitly open.
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:16:The unchanged bounded landing concerns the explicit registered Taub quotient developments only.
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:17:It does not identify them with their MGHDs, select occupancy/topology/scale, alter the metric or
+/intake/package/AUDIT_REPORT.md:25:   `n=2` explicit globally hyperbolic Taub quotients are therefore inequivalent even after the
+/intake/package/AUDIT_REPORT.md:26:   initial marking is forgotten. Equality of either explicit quotient with its G322 MGHD is open.
+/intake/package/AUDIT_REPORT.md:54:or full UDT. The explicit quotient is a globally hyperbolic development. Equality with the G322
+/intake/package/AUDIT_REPORT.md:55:MGHD is not proved and remains open.
+/intake/package/STATUS_LEDGER.tsv:12:explicit_GH_quotient_development	DERIVED_CONDITIONAL	registered Taub quotient category
+/intake/package/STATUS_LEDGER.tsv:13:MGHD_identification	OPEN_NOT_PROVED	G322 guarantees per-datum MGHD but equality with explicit quotient is not established
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:25:3. Audit the Cauchy and maximal-development boundary. Decide whether the explicit quotient is the
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:26:   G322 MGHD in the claimed bounded category, merely a proper development, or not a development.
+/intake/package/PREMISE_LEDGER.tsv:8:maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum; explicit-quotient equality remains open	native UDT derivation or arbitrary inextendibility
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:38:3. Audit the Cauchy and maximal-development boundary. Decide whether the explicit quotient is the
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:39:   G322 MGHD in the claimed bounded category, merely a proper development, or not a development.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:194:3. Audit the Cauchy and maximal-development boundary. Decide whether the explicit quotient is the
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:195:   G322 MGHD in the claimed bounded category, merely a proper development, or not a development.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:460:the per-datum MGHD retains G322's imported-theorem ownership and does not claim arbitrary
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:500:maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum	native UDT derivation or arbitrary inextendibility
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1357:# G322 audit report — maximal globally hyperbolic development
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1376:theorem then gives one maximal globally hyperbolic marked development per datum, up to a
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1406:Covered: one maximal globally hyperbolic development per fixed datum in the registered marked
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1438:| Dynamics | explicit whole Ricci-flat quotient plus conditional G322 MGHD identification | sourced dynamics, stability, perturbations |
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1454:  • Audit global quotient, MGHD boundary, invariants, and monotonicity claims
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3440:   229	the per-datum MGHD retains G322's imported-theorem ownership and does not claim arbitrary
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3610:  ✓ Audit global quotient, MGHD boundary, invariants, and monotonicity claims
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3616:  ✓ Audit global quotient, MGHD boundary, invariants, and monotonicity claims
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3622:- Repair 2: The explicit quotient is proved to be a Ricci-flat globally hyperbolic development, not proved equal to the G322 MGHD. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:217) shows curvature blow-up at `R=0` and no causal endpoint at `R->infinity`, but that is not a theorem-level maximality proof. The document should be downgraded to “explicit GH development / MGHD interface” unless a separate maximality argument is added.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3627:Starting from the sealed G319/G320 formulas, I independently recover the ambient metric `g_mu=-R/mu dR^2+mu/R dX^2+R^2(dy^2+dz^2)`, its vanishing Ricci tensor, and Kretschmann scalar `12 mu^2/R^6` as stated in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:54). The full first and second fundamental forms also match for `R=psi^2` and `X'=-3B psi^6/J0`, not just the intrinsic metric, as claimed at [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:103). I also independently verify that the explicit quotient is a globally hyperbolic development by passing to the Kasner time coordinate `t=(2/3)R^{3/2}/sqrt(mu)`, so constant-`t` slices are Cauchy. The strict monotonicity `L_X(n+1)>L_X(n)` for the preregistered cosine modes is correct, and the opposite-`K` classification in the time-oriented vs time-unoriented categories is supported.
+/intake/package/LAY_REPORT.md:15:explicit compact globally hyperbolic spacetime quotients even though they share the same local
+/intake/package/LAY_REPORT.md:26:One global boundary remains deliberately open: we have not proved that each explicit quotient is
+/intake/package/LAY_REPORT.md:27:already the largest possible globally hyperbolic development promised conditionally by G322. The
+/intake/package/REPAIR_LEDGER.tsv:3:R2	explicit quotient was not proved equal to the per-datum G322 MGHD	downgrade to explicit globally hyperbolic development and reopen MGHD equality	BOUNDED_SCOPE_NARROWED
+/intake/package/SOURCE_SCOPE.tsv:5:udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md	conditional MGHD theorem boundary	read_only
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:3:- Repair 2: The explicit quotient is proved to be a Ricci-flat globally hyperbolic development, not proved equal to the G322 MGHD. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:217) shows curvature blow-up at `R=0` and no causal endpoint at `R->infinity`, but that is not a theorem-level maximality proof. The document should be downgraded to “explicit GH development / MGHD interface” unless a separate maximality argument is added.
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:8:Starting from the sealed G319/G320 formulas, I independently recover the ambient metric `g_mu=-R/mu dR^2+mu/R dX^2+R^2(dy^2+dz^2)`, its vanishing Ricci tensor, and Kretschmann scalar `12 mu^2/R^6` as stated in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:54). The full first and second fundamental forms also match for `R=psi^2` and `X'=-3B psi^6/J0`, not just the intrinsic metric, as claimed at [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:103). I also independently verify that the explicit quotient is a globally hyperbolic development by passing to the Kasner time coordinate `t=(2/3)R^{3/2}/sqrt(mu)`, so constant-`t` slices are Cauchy. The strict monotonicity `L_X(n+1)>L_X(n)` for the preregistered cosine modes is correct, and the opposite-`K` classification in the time-oriented vs time-unoriented categories is supported.
+/intake/package/EXACT_DERIVATION.md:268:this proves that (2) with the registered lattice is an explicit globally hyperbolic development.
+/intake/package/EXACT_DERIVATION.md:270:It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+/intake/package/EXACT_DERIVATION.md:271:G322's imported theorem supplies an MGHD for each fixed datum and a data-preserving embedding of
+/intake/package/EXACT_DERIVATION.md:273:Accordingly, G323 classifies the explicit Taub quotient developments; unmarked equivalence of the
+/intake/package/EXACT_DERIVATION.md:274:full per-datum MGHDs remains open.
+/intake/package/EXACT_DERIVATION.md:296:- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit globally hyperbolic quotient development.
+/intake/package/EXACT_DERIVATION.md:297:- `OPEN_NOT_PROVED`: equality of that explicit development with the per-datum G322 MGHD.
+/intake/package/verify_package.py:96:        "same unmarked metric spacetime", "G322's imported theorem supplies an MGHD",
+/intake/package/verify_package.py:97:        "unmarked equivalence of the\nfull per-datum MGHDs remains open",
+/intake/package/verify_package.py:105:        "not proved that each explicit quotient is already the largest possible",
+/intake/package/verify_package.py:137:    need(repairs[1]["scientific_landing"] == "BOUNDED_SCOPE_NARROWED", "MGHD repair not scoped")
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:25:| G312--G322 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Local Metric Sufficiency; propagation through MGHD per datum | Unmarked quotient/scale/selector |
+/intake/sources/CURRENT_SCIENTIFIC_PREMISES.md:80:| G322 | external/repairs accepted | Conditional maximal globally hyperbolic development per datum | Unmarked equivalence; completeness; occupancy |
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md:1:# G322 audit report — maximal globally hyperbolic development
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md:20:theorem then gives one maximal globally hyperbolic marked development per datum, up to a
+/intake/sources/udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md:50:Covered: one maximal globally hyperbolic development per fixed datum in the registered marked
+
+exec
+/bin/bash -c "grep -RIn \"unmarked modulus\\|projected transverse covolume\\|covolume\\|nonsplit\\|split reduction\\|L_X/sqrt(L_y L_z)\\|intersection lattice\\|primitive eigendirection\" /intake/package /intake/sources" in /intake
+ succeeded in 0ms:
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:10:3. **R3:** Check the lattice-intersection/projected-covolume definition of the unmarked modulus,
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:11:   including nonsplit generators and the registered split reduction to `L_X/sqrt(L_y L_z)`.
+/intake/package/AUDIT_REPORT.md:22:   `X` period. The invariant lattice-intersection/projected-covolume definition of `Q_X` survives
+/intake/package/AUDIT_REPORT.md:23:   local parameter rescalings, basis changes, and nonsplit lattice presentations.
+/intake/package/STATUS_LEDGER.tsv:7:Q_X_global_modulus	DERIVED_CONDITIONAL	primitive intersection lattice plus projected transverse covolume
+/intake/package/EXTERNAL_REVIEW_REQUEST.md:29:5. Attack `Q_X=L_X/sqrt(L_y L_z)` as an unmarked isometry invariant. In particular test whether
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:42:5. Attack `Q_X=L_X/sqrt(L_y L_z)` as an unmarked isometry invariant. In particular test whether
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:198:5. Attack `Q_X=L_X/sqrt(L_y L_z)` as an unmarked isometry invariant. In particular test whether
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:414:`y,z` plane. Hence the one-dimensional lattice and the two-dimensional lattice covolume in (11)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:415:are invariantly separated. Changes of basis inside the `y,z` lattice preserve its covolume.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1321:   `Q_X=L_X/sqrt(L_y L_z)` survives all local parameter rescalings and isometry-allowed lattice
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3394:   183	`y,z` plane. Hence the one-dimensional lattice and the two-dimensional lattice covolume in (11)
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3395:   184	are invariantly separated. Changes of basis inside the `y,z` lattice preserve its covolume.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3623:- Repair 3: The `Q_X` argument needs a sharper global quotient statement. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:173) correctly uses the ambient eigensplitting to distinguish the `X` line from the repeated `y,z` plane locally, but it does not fully spell out why non-split compact lattices or mixed generators cannot alter the simple coordinate formula `L_X/sqrt(L_yL_z)`. Either define the invariant in lattice-intersection / projected-covolume terms, or narrow the claim to the registered split-translation quotients.
+/intake/package/REPAIR_LEDGER.tsv:4:R3	coordinate Q_X formula did not fully cover nonsplit compact lattices	define Q through the primitive eigendirection intersection lattice and projected transverse covolume	UNCHANGED
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:4:- Repair 3: The `Q_X` argument needs a sharper global quotient statement. [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:173) correctly uses the ambient eigensplitting to distinguish the `X` line from the repeated `y,z` plane locally, but it does not fully spell out why non-split compact lattices or mixed generators cannot alter the simple coordinate formula `L_X/sqrt(L_yL_z)`. Either define the invariant in lattice-intersection / projected-covolume terms, or narrow the claim to the registered split-translation quotients.
+/intake/package/EXACT_DERIVATION.md:220:An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+/intake/package/EXACT_DERIVATION.md:221:projected covolume. A change of lattice basis, including generators sheared by an `X` component,
+/intake/package/verify_package.py:95:        "primitive intersection lattice", "L_X(n+1)>L_X(n)",
+
+codex
+I’ve located the repair-sensitive sections in `EXACT_DERIVATION.md` and the audit artifacts. Next I’m reading those exact passages, because the decision turns on whether the repaired claims are actually narrowed and supported there, not just mentioned in the ledgers.
+exec
+/bin/bash -c "sed -n '140,240p' /intake/package/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+
+Thus both the first and second fundamental forms agree. The arbitrary positive profile is a Cauchy-
+graph shape inside (2), not a change of the local four-geometry.
+
+Because `R` has timelike gradient and the quotient spatial directions are compact, every constant-
+`R` torus is Cauchy. Since `X'` is nonzero, the embedded slice is a smooth spacelike graph over the
+compact `X` circle and is Cauchy as well.
+
+## 4. The forced global quotient period
+
+Injectivity fixes the primitive `X` period to the total graph advance
+
+\[
+\boxed{
+L_X[\psi]
+=\frac3{J_0}\int_0^{2\pi}
+\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+}.
+\tag{9}
+\]
+
+Here is the missing injectivity proof. Because `X'` has fixed nonzero sign, normalized ambient
+position
+
+\[
+\theta=X/L_X\pmod 1
+\]
+
+is a smooth degree-one coordinate on the embedded circle. Write its radial graph as
+`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+function
+
+\[
+d_k(\theta)=\rho(\theta+k/q)-\rho(\theta)
+\]
+
+has zero integral around the circle. It therefore vanishes somewhere: otherwise connectedness
+would give it one strict sign and a nonzero integral. At a zero, two distinct domain points have
+the same `R` and the same `X` modulo `P` (and the same `y,z` when those coordinates are held fixed),
+so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+registered fixed-sign graph stratum; it does not assume a cosine symmetry.
+
+The exact local isometry
+
+\[
+R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+\quad\mu_*=a^3\mu
+\tag{10}
+\]
+
+rescales all three compact coordinate periods by `1/a`. It cannot change
+
+\[
+\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+\tag{11}
+\]
+
+The invariant statement does not assume that an arbitrary presentation of the translation lattice
+is split. On a constant-`R` leaf, curvature and the leaf shape operator canonically split the
+translation space as the simple eigendirection `ell_X` and the repeated plane `E_perp`. For the
+registered quotients, let `Gamma` be the compact translation lattice and define
+
+\[
+\Lambda_X=\Gamma\cap\ell_X,
+\qquad
+\Lambda_\perp=\pi_{E_\perp}(\Gamma).
+\]
+
+The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+two lattice. Define the coordinate-normalized lattice modulus by
+
+\[
+\mathcal Q(\Gamma)=
+\frac{\operatorname{covol}_{\ell_X}(\Lambda_X)}
+{\sqrt{\operatorname{covol}_{E_\perp}(\Lambda_\perp)}}.
+\tag{11a}
+\]
+
+An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+projected covolume. A change of lattice basis, including generators sheared by an `X` component,
+changes neither object. The local scaling isometry (10) multiplies the numerator and the square
+root of the denominator by the same factor. Hence (11a) is an unmarked quotient invariant. For the
+registered split presentation, `Gamma=L_X Z+L_y Z+L_z Z`, so (11a) reduces exactly to (11).
+
+For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+
+\[
+L_X(n)=\frac3{J_0}\int_0^{2\pi}(p+a_0\cos u)^3
+\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+\tag{12}
+\]
+
+The integrand is pointwise nondecreasing in positive integer `n` and strictly increases wherever
+`sin(u)` is nonzero. Therefore
+
+\[
+\boxed{L_X(n+1)>L_X(n)}.
+\tag{13}
+\]
+
+exec
+/bin/bash -c "sed -n '240,320p' /intake/package/EXACT_DERIVATION.md" in /intake
+ succeeded in 0ms:
+\]
+
+For the registered controls, production obtains
+
+```text
+n=1  L_X=6.554516685020806
+n=2  L_X=6.623226427457768
+n=3  L_X=6.735440496746481
+n=4  L_X=6.888083020830009
+```
+
+The `n=1` and `n=2` data therefore have the same local metric form but inequivalent compact
+unmarked quotients. This is the whole-spacetime meaning hidden behind G320's slice values
+`1,4,9,16`.
+
+## 5. Global-development boundary
+
+The curvature invariant (4) diverges at `R=0`, excluding a smooth curvature extension there. The
+three translation momenta give causal radial motion
+
+\[
+\dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+-\kappa\frac\mu R,
+\tag{14}
+\]
+
+where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
+reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
+this proves that (2) with the registered lattice is an explicit globally hyperbolic development.
+
+It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+G322's imported theorem supplies an MGHD for each fixed datum and a data-preserving embedding of
+this development into it, but equality would require a separate maximality/inextendibility theorem.
+Accordingly, G323 classifies the explicit Taub quotient developments; unmarked equivalence of the
+full per-datum MGHDs remains open.
+
+## 6. Opposite `K` signs
+
+Changing `epsilon` reverses `B`, `A`, and every component of `K`. It also sends `X'` to `-X'` while
+leaving `L_X` unchanged. Reflection `X->-X` identifies the two embedded graphs in the same
+underlying quotient metric, with the unit normal reversed. Therefore:
+
+- after forgetting time orientation, the two signs are the same unmarked metric spacetime;
+- retaining time orientation, they are the two opposite orientations of that spacetime.
+
+Moreover, (4) has a nonzero timelike gradient throughout `R>0`. As the gradient of a scalar, it is
+preserved—not negated—by every isometry. It gives a canonical oriented timelike line, so there is
+no time-orientation-preserving isometry between the two opposite choices. They are distinct only
+in the time-oriented category.
+
+## 7. Exact status
+
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit local Ricci-flat form and complete Cauchy
+  embedding.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
+- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit globally hyperbolic quotient development.
+- `OPEN_NOT_PROVED`: equality of that explicit development with the per-datum G322 MGHD.
+- `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
+
+The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
+unchanged.
+
+exec
+/bin/bash -c "sed -n '1,140p' /intake/package/AUDIT_REPORT.md" in /intake
+ succeeded in 0ms:
+# G323 internal audit report
+
+Date: 2026-09-01; repaired 2026-09-02
+Status: `REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
+
+## Result
+
+```text
+REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_TAUB_FORM
+__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_AND_THUS_DISTINCT_UNMARKED_QUOTIENTS
+__OPPOSITE_K_SIGNS_ARE_ONE_TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS
+__NO_OCCUPANCY_SELECTION
+```
+
+## Findings
+
+1. Every registered G320 profile and sign embeds with its complete first and second fundamental
+   forms in the explicit local metric `-R/mu dR^2 + mu/R dX^2 + R^2(dy^2+dz^2)`.
+2. Direct tensor calculation gives `Ric=0` and Kretschmann scalar `12 mu^2/R^6`.
+3. Thus the arbitrary profile is locally a refoliation/Cauchy-graph freedom in this LRS slice.
+4. A degree/winding plus zero-integral argument proves that compact injectivity forces the global
+   `X` period. The invariant lattice-intersection/projected-covolume definition of `Q_X` survives
+   local parameter rescalings, basis changes, and nonsplit lattice presentations.
+5. `L_X(n)` is strictly increasing for every positive integer mode. The registered `n=1` and
+   `n=2` explicit globally hyperbolic Taub quotients are therefore inequivalent even after the
+   initial marking is forgotten. Equality of either explicit quotient with its G322 MGHD is open.
+6. Opposite `K` signs give the same time-unoriented metric quotient and opposite time orientations.
+   The nonzero timelike gradient of the Kretschmann scalar forbids an orientation-preserving
+   identification between those orientations.
+7. The result classifies the diagnostic family. It selects no physical datum, topology, quotient,
+   orientation, scale, or universe.
+8. The provisional field equation, UDT metric, reciprocal kernel, angular cancellation, and
+   observational interfaces are unchanged.
+
+## Raw gates
+
+- production: 78 assertions; maximum pullback error `8.882e-15`; maximum extrinsic error
+  `9.992e-16`;
+- independent: 33 assertions with different controls; maximum pullback error `2.665e-15` and
+  maximum extrinsic error `1.224e-10`;
+- independent Ricci residuals: `4.44e-16` to `1.14e-13` after the documented failed-closed repair;
+- hostile mutations: 13/13 caught;
+- finite production periods: `6.5545166850`, `6.6232264275`, `6.7354404967`, `6.8880830208`.
+- exact 305-row premise registry and startup guards: repository-side pass, recorded as an external
+  attestation rather than replayable evidence in the first sealed intake;
+- full repository suite: repository-side `217 passed, 1 xfailed`, likewise an external attestation.
+- fresh external review: `G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`; repairs R1--R4 are
+  registered in `REPAIR_LEDGER.tsv` and await repair-only follow-up.
+
+## Boundary
+
+This does not cover the full G319 moduli space, non-LRS data, `d` or `Lambda` nonzero, `B=0`
+crossings, matter/source sectors, stability, physical topology/occupancy, an observational scale,
+or full UDT. The explicit quotient is a globally hyperbolic development. Equality with the G322
+MGHD is not proved and remains open.
+
+Repair-only external follow-up is required before an externally accepted grade.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/PREMISE_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+item	status	role	forbidden_promotion
+Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	upstream bounded dynamics ownership	derived theorem or canon
+Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	local finite-jet response scope	unique possible response principle
+quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature bounded arena	vacuum GR imported as UDT theorem
+S_ab_zero	CONDITIONAL_ACTIVE_EQUATION	trace-free Ricci equation in bounded regular vacuum	full UDT field equation in every sector
+Ric_zero	DERIVED_CONDITIONAL	G321 connected Lambda=0 G320 sector	matter sourced or full UDT equation
+smooth_harmonic_wellposedness	IMPORTED_MATHEMATICAL_METHOD	conditional local development theorem	native UDT derivation
+maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum; explicit-quotient equality remains open	native UDT derivation or arbitrary inextendibility
+flat_marked_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	registered compact quotient family	physical topology
+one_coordinate_diagonal_LRS	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	explicit unmarked classification slice	complete solution space
+d_zero_Lambda_zero	PINNED_BY_G320_G321_CONTROL	registered Ricci-flat control sector	all UDT sectors
+J0_positive	FREE_AND_EXPLORED_CONSTRAINT_CONSTANT	common local curvature/quotient reconstruction	observed mass scale or selected constant
+psi_positive_periodic	FREE_AND_EXPLORED_PROFILE	registered Cauchy graphs	selected physical history
+p_3_over_2_a_1_over_5	CHOSE_CATEGORY_A_CONTROL	finite n comparison	physical coefficient
+n_positive_integer	FREE_AND_EXPLORED_CONTROL_FAMILY	compact-profile modes	particle number or selected population
+epsilon_plus_minus	FREE_AND_EXPLORED_TIME_REVERSE_BRANCHES	orientation classification	matter antimatter or two selected universes
+ambient_coordinate_change	CATEGORY_A_GEOMETRIC_METHOD	explicit isometry and embedding test	new UDT mechanism
+compact_quotient_period	DERIVED_CANDIDATE_INVARIANT	unmarked global discriminator	observational scale without attachment
+c_E	OBSERVED_ANCHOR_INACTIVE	not used in dimensionless quotient classification	history selector
+X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
+
+codex
+The core repaired statements are present in the derivation and audit report. I’m now checking whether the intake consistently fences off non-replayable repository claims as external attestations, because that is the only part of `R4` that the authenticator script alone cannot establish.
+exec
+/bin/bash -c "sed -n '1,260p' /intake/package/verify_package.py" in /intake
+ succeeded in 0ms:
+#!/usr/bin/env python3
+"""Aggregate no-write-input verifier for the internally verified G323 package."""
+
+import ast
+import csv
+import json
+from pathlib import Path
+
+
+HERE = Path(__file__).resolve().parent
+LANDING = (
+    "REGISTERED_G320_PROFILES_EMBED_AS_CAUCHY_GRAPHS_IN_ONE_LOCAL_RICCI_FLAT_"
+    "TAUB_FORM__INTEGER_MODES_HAVE_STRICTLY_DISTINCT_COMPACT_LATTICE_MODULI_"
+    "AND_THUS_DISTINCT_UNMARKED_QUOTIENTS__OPPOSITE_K_SIGNS_ARE_ONE_"
+    "TIME_UNORIENTED_METRIC_WITH_OPPOSITE_TIME_ORIENTATIONS__NO_OCCUPANCY_SELECTION"
+)
+REQUIRED = (
+    "MAP.md", "PREMISE_LEDGER.tsv", "COMPLETENESS_MAP.md", "PREREGISTRATION.md",
+    "PREREGISTRATION_ANCESTRY.md", "SOURCE_SCOPE.tsv", "REPLAY_COMMANDS.txt",
+    "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
+    "verify_package.py", "DERIVATION_RESULT.json", "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json", "QUOTIENT_ATLAS.tsv", "INDEPENDENT_FAILURE_AND_REPAIR.md",
+        "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md",
+        "AUDIT_REPORT.md", "RUN_RECORD.md", "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REVIEW_TRANSCRIPT.txt", "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_LEDGER.tsv",
+        "REPAIR_FOLLOWUP_REQUEST.md", "verify_review_intake.py",
+)
+
+
+def need(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+def main():
+    for name in REQUIRED:
+        need((HERE / name).is_file(), f"missing {name}")
+
+    production = json.loads((HERE / "DERIVATION_RESULT.json").read_text(encoding="utf-8"))
+    independent = json.loads((HERE / "INDEPENDENT_VERIFICATION.json").read_text(encoding="utf-8"))
+    hostile = json.loads((HERE / "CATCH_PROOF_RESULT.json").read_text(encoding="utf-8"))
+    need(production["status"] == "PASS_PENDING_EXTERNAL_REVIEW", "production status")
+    need(production["landing"] == LANDING, "production landing")
+    need(production["assertion_count"] >= 78, "production assertion floor")
+    for key in (
+        "ambient_ricci_flat_exact", "complete_data_embedding_pass",
+        "profiles_are_local_refoliations", "primitive_period_formula_pass",
+        "mode_period_strictly_increasing", "n1_n2_unmarked_compact_quotients_distinct",
+        "opposite_K_same_time_unoriented_metric", "opposite_K_time_orientations_distinct",
+    ):
+        need(production[key] is True, f"production gate absent: {key}")
+    for key in (
+        "physical_occupancy_selected", "unique_universe_selected", "physical_scale_selected",
+        "Xmax_selected", "metric_changed", "kernel_changed", "angular_cancellation_changed",
+    ):
+        need(production[key] is False, f"forbidden promotion: {key}")
+    need(production["max_pullback_error"] < 2e-11, "production pullback")
+    need(production["max_extrinsic_error"] < 2e-11, "production extrinsic")
+    need(production["max_curvature_join_error"] < 2e-11, "production curvature join")
+
+    need(independent["status"] == "PASS", "independent status")
+    need(independent["assertion_count"] >= 33, "independent assertion floor")
+    need(independent["production_imported"] is False, "independent production import")
+    need(independent["production_result_read"] is False, "independent production read")
+    need(independent["complete_embedding_upheld"] is True, "independent embedding")
+    need(independent["strict_mode_modulus_upheld"] is True, "independent mode modulus")
+    need(independent["local_isometry_and_global_modulus_upheld"] is True,
+         "independent local/global split")
+    need(independent["max_pullback_error"] < 5e-10, "independent pullback")
+    need(independent["max_extrinsic_error"] < 5e-10, "independent extrinsic")
+    need(hostile["status"] == "PASS", "hostile status")
+    need(hostile["caught_count"] == hostile["mutation_count"] >= 13, "hostile catches")
+
+    with (HERE / "QUOTIENT_ATLAS.tsv").open(encoding="utf-8", newline="") as handle:
+        atlas = list(csv.DictReader(handle, delimiter="\t"))
+    need(len(atlas) == 8, "atlas row count")
+    need({row["mode"] for row in atlas} == {"1", "2", "3", "4"}, "atlas modes")
+    need({row["sign"] for row in atlas} == {"-1", "1"}, "atlas signs")
+    for sign in ("-1", "1"):
+        rows = sorted((row for row in atlas if row["sign"] == sign), key=lambda row: int(row["mode"]))
+        need(all(float(b["L_X"]) > float(a["L_X"]) for a, b in zip(rows, rows[1:])),
+             f"period monotonic sign={sign}")
+    for mode in ("1", "2", "3", "4"):
+        rows = [row for row in atlas if row["mode"] == mode]
+        need(abs(float(rows[0]["L_X"]) - float(rows[1]["L_X"])) < 2e-13,
+             f"sign period mode={mode}")
+
+    exact = (HERE / "EXACT_DERIVATION.md").read_text(encoding="utf-8")
+    lay = " ".join((HERE / "LAY_REPORT.md").read_text(encoding="utf-8").split())
+    prereg = (HERE / "PREREGISTRATION.md").read_text(encoding="utf-8")
+    failure = (HERE / "INDEPENDENT_FAILURE_AND_REPAIR.md").read_text(encoding="utf-8")
+    for token in (
+        "The common local spacetime", "Exact embedding of the complete data",
+        "The forced global quotient period", "zero integral around the circle",
+        "primitive intersection lattice", "L_X(n+1)>L_X(n)",
+        "same unmarked metric spacetime", "G322's imported theorem supplies an MGHD",
+        "unmarked equivalence of the\nfull per-datum MGHDs remains open",
+        "metric/kernel/angular sector are\nunchanged",
+    ):
+        need(token in exact, f"exact guard missing: {token}")
+    for token in (
+        "same Ricci-flat spacetime geometry", "closure number is strictly different",
+        "same underlying spacetime with its direction of time reversed",
+        "does not choose which compact quotient Nature occupies",
+        "not proved that each explicit quotient is already the largest possible",
+        "does not alter the UDT metric, reciprocal kernel, angular cancellation",
+    ):
+        need(token in lay, f"lay guard missing: {token}")
+    for token in (
+        "PREREGISTERED_CONFIRMATION_AFTER_EXPLORATORY_WHITEBOARD",
+        "Candidate common ambient metric", "primitive `X` period",
+        "Possible landings", "may not select physical data",
+    ):
+        need(token.lower() in prereg.lower(), f"prereg guard missing: {token}")
+    for token in (
+        "first independent run failed closed", "1.274324063161e-06",
+        "did not relax a tolerance", "No scientific landing",
+    ):
+        need(token in failure, f"repair record missing: {token}")
+
+    review = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    need(review.rstrip().endswith("G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED"),
+         "external review verdict missing")
+    transmission = (HERE / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
+    for token in (
+        "ef19bfdc41d7d30c7cf0887a3deea001a2726d15effc533ad36f2b9c97d31c0d",
+        "4d8a8e46bc957746e862dc0ba82ee6cd75cffb28b6dc535f48032c8fcf3433a1",
+        "c8f1af2ae5292928267897d1187403961c58d43b1ed795594fac094dabb5615e",
+        "a3485b51c89e40f326c3248d34f6e9d688bbab06e67e2f0ac5194d81dbe76ed1",
+    ):
+        need(token in transmission, f"external transmission token missing: {token}")
+
+    with (HERE / "REPAIR_LEDGER.tsv").open(encoding="utf-8", newline="") as handle:
+        repairs = list(csv.DictReader(handle, delimiter="\t"))
+    need([row["repair"] for row in repairs] == ["R1", "R2", "R3", "R4"],
+         "repair ledger mismatch")
+    need(repairs[1]["scientific_landing"] == "BOUNDED_SCOPE_NARROWED", "MGHD repair not scoped")
+
+    independent_source = (HERE / "verify_independent.py").read_text(encoding="utf-8")
+    need("import derive_unmarked_quotients" not in independent_source, "independent imports production")
+    need("DERIVATION_RESULT.json" not in independent_source, "independent reads production")
+    allowed = {"ast", "csv", "fractions", "json", "math", "pathlib"}
+    for script in (
+        "derive_unmarked_quotients.py", "verify_independent.py", "run_catch_proofs.py",
+        "verify_package.py",
+    ):
+        tree = ast.parse((HERE / script).read_text(encoding="utf-8"), filename=script)
+        imported = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Import):
+                imported.update(alias.name.split(".")[0] for alias in node.names)
+            elif isinstance(node, ast.ImportFrom) and node.module:
+                imported.add(node.module.split(".")[0])
+        need(imported <= allowed, f"unregistered dependency {script}: {sorted(imported - allowed)}")
+
+    source_scope = (HERE / "SOURCE_SCOPE.tsv").read_text(encoding="utf-8")
+    for protected in (
+        "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+        "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+        "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12",
+        "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
+    ):
+        need(protected not in source_scope, f"protected source named: {protected}")
+
+    result = {
+        "schema": "udt-g323-package-verification-v1",
+        "status": "PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP",
+        "landing": LANDING,
+        "production_assertions": production["assertion_count"],
+        "independent_assertions": independent["assertion_count"],
+        "hostile_catches": f"{hostile['caught_count']}/{hostile['mutation_count']}",
+        "atlas_rows": len(atlas),
+        "external_review": "REPAIRABLE_DEFECTS_REPAIRED",
+        "repair_followup": "PENDING",
+    }
+    (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    print("G323 package verification PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP")
+    print(f"production assertions: {result['production_assertions']}")
+    print(f"independent assertions: {result['independent_assertions']}")
+    print(f"hostile mutations caught: {result['hostile_catches']}")
+    print(LANDING)
+
+
+if __name__ == "__main__":
+    main()
+
+exec
+/bin/bash -c "sed -n '1,240p' /intake/package/RUN_RECORD.md" in /intake
+ succeeded in 0ms:
+# G323 run record
+
+Date: 2026-09-01
+
+## Commands
+
+```text
+python3 -S derive_unmarked_quotients.py
+python3 -S verify_independent.py
+python3 -S run_catch_proofs.py
+python3 -S verify_package.py
+```
+
+## Production
+
+- samples: 16,384 periodic points per mode/sign;
+- modes: 1, 2, 3, 4;
+- signs: -1, +1;
+- controls: `p=3/2`, `a=1/5`, `J0=100`, `mu=J0/9`;
+- assertions: 78;
+- maximum pullback error: `8.882e-15`;
+- maximum extrinsic error: `9.992e-16`.
+
+## Independent
+
+- samples: 6,144 midpoint points per mode/sign;
+- modes: 1, 2, 3, 5;
+- controls: `p=7/5`, `a=1/9`, `J0=121`;
+- production imported: no;
+- production result read: no;
+- assertions: 33;
+- maximum pullback error: `2.665e-15`;
+- maximum extrinsic error: `1.224e-10`.
+
+The initial independent finite-difference Ricci derivative failed closed. The exact repair history is
+preserved in `INDEPENDENT_FAILURE_AND_REPAIR.md`.
+
+## Repository gates
+
+- aggregate package verification: pass;
+- exact 305-row premise registry and startup guards: repository-side pass; the first sealed intake
+  recorded this as an external attestation rather than replayable intake evidence;
+- full repository suite: repository-side repair replay `217 passed, 1 xfailed` in `141.43s`; likewise an external
+  attestation in the first intake;
+- fresh external adversarial review: repairable defects R1--R4, bounded landing retained;
+- repair-only external follow-up: pending.
+
+exec
+/bin/bash -c "grep -RIn \"external attestation\\|external attestations\\|replayable evidence\\|repository-side\\|full repository suite\\|exact 305-row premise registry\\|217 passed, 1 xfailed\" /intake/package /intake/sources" in /intake
+ succeeded in 0ms:
+/intake/package/REPAIR_FOLLOWUP_REQUEST.md:13:   repository-only premise and suite results are labelled external attestations rather than sealed
+/intake/package/AUDIT_REPORT.md:44:- exact 305-row premise registry and startup guards: repository-side pass, recorded as an external
+/intake/package/AUDIT_REPORT.md:45:  attestation rather than replayable evidence in the first sealed intake;
+/intake/package/AUDIT_REPORT.md:46:- full repository suite: repository-side `217 passed, 1 xfailed`, likewise an external attestation.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1343:- exact 305-row premise registry and startup guards: pass;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1344:- full repository suite: `217 passed, 1 xfailed`.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2576:- Run `python3 verify_current_scientific_premises.py` and the full repository suite before banking.
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2640:- exact 305-row premise registry and startup guards: pass;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:2641:- full repository suite: `217 passed, 1 xfailed` in `141.87s`;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3566:    41	- exact 305-row premise registry and startup guards: pass;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3567:    42	- full repository suite: `217 passed, 1 xfailed` in `141.87s`;
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:3624:- Repair 4: The audit tooling is weaker than the narrative claims. [verify_package.py](/intake/package/verify_package.py:33) never checks `REVIEW_MANIFEST.tsv` or `REVIEW_MANIFEST.sha256`, and the sealed intake does not include replayable artifacts for the claimed “305-row premise registry” or full repository suite noted in [RUN_RECORD.md](/intake/package/RUN_RECORD.md:38). Those need to be sealed and replayable, or explicitly downgraded to external attestations rather than intake evidence.
+/intake/package/REPAIR_LEDGER.tsv:5:R4	first sealed intake could not replay repository premise/suite attestations and package verifier did not authenticate the intake manifest	label repository gates external attestations and add a dependency-free sealed-intake authenticator	UNCHANGED
+/intake/package/RUN_RECORD.md:41:- exact 305-row premise registry and startup guards: repository-side pass; the first sealed intake
+/intake/package/RUN_RECORD.md:42:  recorded this as an external attestation rather than replayable intake evidence;
+/intake/package/RUN_RECORD.md:43:- full repository suite: repository-side repair replay `217 passed, 1 xfailed` in `141.43s`; likewise an external
+/intake/package/PREREGISTRATION.md:148:- Run `python3 verify_current_scientific_premises.py` and the full repository suite before banking.
+/intake/package/EXTERNAL_REVIEW_RESPONSE.md:5:- Repair 4: The audit tooling is weaker than the narrative claims. [verify_package.py](/intake/package/verify_package.py:33) never checks `REVIEW_MANIFEST.tsv` or `REVIEW_MANIFEST.sha256`, and the sealed intake does not include replayable artifacts for the claimed “305-row premise registry” or full repository suite noted in [RUN_RECORD.md](/intake/package/RUN_RECORD.md:38). Those need to be sealed and replayable, or explicitly downgraded to external attestations rather than intake evidence.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/STATUS_LEDGER.tsv" in /intake
+ succeeded in 0ms:
+claim	status	scope
+explicit_ambient_metric	DERIVED_CONDITIONAL	registered d=Lambda=0 J0-positive LRS family
+ambient_Ricci_zero	DERIVED_CONDITIONAL	direct exact tensor calculation
+complete_G320_data_embedding	DERIVED_CONDITIONAL	positive periodic B-nonzero branches
+profile_freedom_local_refoliation	DERIVED_CONDITIONAL	registered LRS family only
+primitive_compact_X_period	DERIVED_CONDITIONAL	injective compact Cauchy graph
+Q_X_global_modulus	DERIVED_CONDITIONAL	primitive intersection lattice plus projected transverse covolume
+integer_mode_moduli_strictly_distinct	DERIVED_CONDITIONAL	psi_n=p+a cos nx J0-positive
+n1_n2_unmarked_quotients_distinct	DERIVED_CONDITIONAL	registered compact quotient category
+opposite_K_same_time_unoriented_metric	DERIVED_CONDITIONAL	registered sign branches
+opposite_K_oriented_spacetimes	DERIVED_CONDITIONAL_DISTINCT_ORIENTATIONS	monotone curvature time line
+explicit_GH_quotient_development	DERIVED_CONDITIONAL	registered Taub quotient category
+MGHD_identification	OPEN_NOT_PROVED	G322 guarantees per-datum MGHD but equality with explicit quotient is not established
+physical_occupancy	OPEN_NOT_SELECTED	all
+physical_topology	OPEN_NOT_SELECTED	all
+physical_scale	OPEN_NOT_SELECTED	all
+metric_kernel_angular_sector	UNCHANGED	all
+
+codex
+I’ve confirmed the repaired derivation text now contains the missing `R1` and `R3` mechanisms, and the main derivation explicitly stops short of MGHD equality for `R2`. I’m doing one more consistency pass for lingering overclaims elsewhere in the intake before I run the sealed-intake authenticator.
+exec
+/bin/bash -c "grep -RIn \"conditional G322 MGHD identification\\|whole Ricci-flat quotient plus conditional G322 MGHD identification\\|already the per-datum G322 MGHD\\|same as the G322 MGHD\\|maximal globally hyperbolic\" /intake/package" in /intake
+ succeeded in 0ms:
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1357:# G322 audit report — maximal globally hyperbolic development
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1376:theorem then gives one maximal globally hyperbolic marked development per datum, up to a
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1406:Covered: one maximal globally hyperbolic development per fixed datum in the registered marked
+/intake/package/EXTERNAL_REVIEW_TRANSCRIPT.txt:1438:| Dynamics | explicit whole Ricci-flat quotient plus conditional G322 MGHD identification | sourced dynamics, stability, perturbations |
+/intake/package/EXACT_DERIVATION.md:270:It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/COMPLETENESS_MAP.md" in /intake
+ succeeded in 0ms:
+# G323 completeness map
+
+Date: 2026-09-01
+
+| Criterion | Covered | Dropped / open |
+|---|---|---|
+| Fields | complete `(gamma,K)` and one explicit Ricci-flat ambient metric | matter, source, other coframe fields |
+| Equation | active bounded `Ric=0` sector | higher-order, nonlocal, sourced, singular UDT arenas |
+| Data | smooth positive periodic one-coordinate LRS G319/G320 branch with `J0>0` | `d!=0`, `Lambda!=0`, nondiagonal, multidimensional, `B=0` crossings |
+| Domain | compact `T^3` quotient and its explicit Cauchy graph | other topology, boundaries, topology change |
+| Gauge | initial marking forgotten; time orientation retained and forgotten separately | arbitrary physical population/occupancy quotient |
+| Modes | analytic all positive integer modes; finite controls `n=1..4` | arbitrary nonperiodic profiles and full moduli |
+| Dynamics | explicit whole Ricci-flat globally hyperbolic quotient development | equality with conditional G322 MGHD, sourced dynamics, stability, perturbations |
+| Global equivalence | quotient modulus and opposite-`K` reversal in registered family | complete isometry classification outside the family |
+| Scale | dimensionless compact-lattice shape ratio only | physical ruler attachment, observation, `X_max` |
+
+The result may collapse profile freedom into refoliation while retaining a global quotient modulus.
+It cannot choose a physically occupied quotient, topology, datum, orientation, or scale.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/LAY_REPORT.md" in /intake
+ succeeded in 0ms:
+# G323 lay report
+
+The whiteboard found that the earlier alternatives were neither completely different universes nor
+merely coordinate tricks.
+
+Imagine one flexible spacetime tube whose cross-sections are three-dimensional tori. The different
+`psi` curves tell us how a chosen “now” surface wiggles through that tube. Locally, every registered
+curve sits in the same Ricci-flat spacetime geometry. Much of the apparent free profile was therefore
+freedom to choose a differently shaped snapshot.
+
+But the tube must also close around its compact direction. The total distance needed for that
+closure is fixed by the complete snapshot—both its intrinsic shape and how it is embedded in time.
+For modes 1, 2, 3, and 4 that closure number is strictly different. It cannot be removed by a
+coordinate relabeling or by changing the unattached common scale. So the modes are different
+explicit compact globally hyperbolic spacetime quotients even though they share the same local
+spacetime form.
+
+The two signs of `K` are simpler: they are the same underlying spacetime with its direction of time
+reversed. If we ignore the time arrow, they are one metric, not a universe/anti-universe pair.
+
+This is meaningful linear progress. It answers the exact marked-versus-unmarked question that was
+left after G322 and explains what the `1, 4, 9, 16` result was seeing. It does not choose which
+compact quotient Nature occupies, and it does not alter the UDT metric, reciprocal kernel, angular
+cancellation, field equation, physical scale, or `X_max`.
+
+One global boundary remains deliberately open: we have not proved that each explicit quotient is
+already the largest possible globally hyperbolic development promised conditionally by G322. The
+result classifies the explicit spacetime developments we constructed, not every possible extension
+of them.
+
+exec
+/bin/bash -c "sed -n '1,220p' /intake/package/MAP.md" in /intake
+ succeeded in 0ms:
+# G323 map — unmarked G320 developments
+
+Date: 2026-09-01
+Status: `PREREGISTERED_CONFIRMATION_AFTER_EXPLORATORY_WHITEBOARD`
+
+## Whole question
+
+Inside the exact bounded G320--G322 family, determine whether the registered `n=1` and `n=2`
+initial data are merely different Cauchy slices of one unmarked maximal development or belong to
+different global spacetime quotients. Separately classify the two opposite-`K` branches after the
+initial marking and, in turn, the time orientation are forgotten.
+
+This is an observing/classifying calculation. It does not target a preferred universe.
+
+## Bounded frame
+
+- active equation: the owner-adopted provisional G310/G312 trace-free Ricci equation, reduced by
+  G321 to `Ric=0` in the connected G320 controls;
+- data: the G320 flat marked-`T^3`, one-coordinate, diagonal, `d=Lambda=0`, `J0>0`, smooth positive
+  periodic profiles;
+- primary controls: `psi_n=3/2+(1/5)cos(nx)`, `n=1,2`, with both `B` signs;
+- quotient: spacetime isometry after forgetting the initial embedding; time-oriented and
+  time-unoriented categories are reported separately.
+
+## Metric-led route
+
+Reconstruct a common explicit four-metric directly from the G319 first integral and test exact
+embeddings of the complete physical data `(gamma,K)`. The local metric, induced metric, extrinsic
+curvature, Ricci tensor, curvature invariant, Cauchy property, compact quotient period, and branch
+orientation must all agree.
+
+No action, source, matter/mass model, observation, fit, physical scale, `X_max`, new field equation,
+or protected package is in scope.
+
+## Whiteboard disclosure
+
+The candidate ambient metric and the possibility of a surviving compact-period modulus were found
+during an exploratory algebraic whiteboard before this file was written. This is therefore a
+confirmation preregistration, not a blind outcome preregistration. All numerical tolerances,
+independent routes, hostile mutations, possible landings, and maximum conclusion are frozen before
+the production or independent outcome programs are created.
+
+
+codex
+I’ve finished the document pass. The remaining hard check is `R4`: authenticating the sealed intake itself, then tying that result back to the external-attestation labels already recorded for the repository-only premise and suite gates.
+exec
+/bin/bash -c 'python3 -S package/verify_review_intake.py' in /intake
+ succeeded in 0ms:
+G323 sealed intake authentication PASS: 37 payloads; 39 files
+
+codex
+The intake authenticator passed cleanly. I’m collecting exact line references for the repaired proof, the MGHD boundary narrowing, the invariant modulus definition, and the external-attestation labels so the final disposition is tied to specific sealed locations.
+exec
+/bin/bash -c "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '148,230p'" in /intake
+ succeeded in 0ms:
+   148	## 4. The forced global quotient period
+   149	
+   150	Injectivity fixes the primitive `X` period to the total graph advance
+   151	
+   152	\[
+   153	\boxed{
+   154	L_X[\psi]
+   155	=\frac3{J_0}\int_0^{2\pi}
+   156	\psi^3\sqrt{36(\psi')^2+J_0}\,dx
+   157	}.
+   158	\tag{9}
+   159	\]
+   160	
+   161	Here is the missing injectivity proof. Because `X'` has fixed nonzero sign, normalized ambient
+   162	position
+   163	
+   164	\[
+   165	\theta=X/L_X\pmod 1
+   166	\]
+   167	
+   168	is a smooth degree-one coordinate on the embedded circle. Write its radial graph as
+   169	`rho(theta)=R(x(theta))`. If the same graph closed on a smaller ambient period `P`, closure would
+   170	require `L_X=qP` for an integer winding number `q>1`. For any `k=1,...,q-1`, the continuous
+   171	function
+   172	
+   173	\[
+   174	d_k(\theta)=\rho(\theta+k/q)-\rho(\theta)
+   175	\]
+   176	
+   177	has zero integral around the circle. It therefore vanishes somewhere: otherwise connectedness
+   178	would give it one strict sign and a nonzero integral. At a zero, two distinct domain points have
+   179	the same `R` and the same `X` modulo `P` (and the same `y,z` when those coordinates are held fixed),
+   180	so the proposed embedding is not injective. Thus `q=1` and (9) is the primitive period for this
+   181	complete graph embedding. This argument applies to every smooth positive periodic `psi` in the
+   182	registered fixed-sign graph stratum; it does not assume a cosine symmetry.
+   183	
+   184	The exact local isometry
+   185	
+   186	\[
+   187	R_*=aR,\quad X_*=X/a,\quad y_*=y/a,\quad z_*=z/a,
+   188	\quad\mu_*=a^3\mu
+   189	\tag{10}
+   190	\]
+   191	
+   192	rescales all three compact coordinate periods by `1/a`. It cannot change
+   193	
+   194	\[
+   195	\boxed{\mathcal Q_X=L_X/\sqrt{L_yL_z}}.
+   196	\tag{11}
+   197	\]
+   198	
+   199	The invariant statement does not assume that an arbitrary presentation of the translation lattice
+   200	is split. On a constant-`R` leaf, curvature and the leaf shape operator canonically split the
+   201	translation space as the simple eigendirection `ell_X` and the repeated plane `E_perp`. For the
+   202	registered quotients, let `Gamma` be the compact translation lattice and define
+   203	
+   204	\[
+   205	\Lambda_X=\Gamma\cap\ell_X,
+   206	\qquad
+   207	\Lambda_\perp=\pi_{E_\perp}(\Gamma).
+   208	\]
+   209	
+   210	The embedded primitive `X` circle makes `Lambda_X` rank one; consequently `Lambda_perp` is a rank-
+   211	two lattice. Define the coordinate-normalized lattice modulus by
+   212	
+   213	\[
+   214	\mathcal Q(\Gamma)=
+   215	\frac{\operatorname{covol}_{\ell_X}(\Lambda_X)}
+   216	{\sqrt{\operatorname{covol}_{E_\perp}(\Lambda_\perp)}}.
+   217	\tag{11a}
+   218	\]
+   219	
+   220	An isometry preserves the curvature-defined splitting, the primitive intersection lattice, and the
+   221	projected covolume. A change of lattice basis, including generators sheared by an `X` component,
+   222	changes neither object. The local scaling isometry (10) multiplies the numerator and the square
+   223	root of the denominator by the same factor. Hence (11a) is an unmarked quotient invariant. For the
+   224	registered split presentation, `Gamma=L_X Z+L_y Z+L_z Z`, so (11a) reduces exactly to (11).
+   225	
+   226	For `psi_n=p+a_0 cos(nx)`, periodic substitution gives
+   227	
+   228	\[
+   229	L_X(n)=\frac3{J_0}\int_0^{2\pi}(p+a_0\cos u)^3
+   230	\sqrt{J_0+36a_0^2n^2\sin^2u}\,du.
+
+exec
+/bin/bash -c "nl -ba /intake/package/EXACT_DERIVATION.md | sed -n '258,305p'" in /intake
+ succeeded in 0ms:
+   258	three translation momenta give causal radial motion
+   259	
+   260	\[
+   261	\dot R^2=p_X^2+\frac{\mu(p_y^2+p_z^2)}{R^3}
+   262	-\kappa\frac\mu R,
+   263	\tag{14}
+   264	\]
+   265	
+   266	where `kappa=-1` for timelike and `0` for null curves. Equation (14) has infinite affine/proper
+   267	reach as `R->infinity`; no causal endpoint is hidden there. Together with the Cauchy foliation,
+   268	this proves that (2) with the registered lattice is an explicit globally hyperbolic development.
+   269	
+   270	It does **not** by itself prove that this explicit development is already the per-datum G322 MGHD.
+   271	G322's imported theorem supplies an MGHD for each fixed datum and a data-preserving embedding of
+   272	this development into it, but equality would require a separate maximality/inextendibility theorem.
+   273	Accordingly, G323 classifies the explicit Taub quotient developments; unmarked equivalence of the
+   274	full per-datum MGHDs remains open.
+   275	
+   276	## 6. Opposite `K` signs
+   277	
+   278	Changing `epsilon` reverses `B`, `A`, and every component of `K`. It also sends `X'` to `-X'` while
+   279	leaving `L_X` unchanged. Reflection `X->-X` identifies the two embedded graphs in the same
+   280	underlying quotient metric, with the unit normal reversed. Therefore:
+   281	
+   282	- after forgetting time orientation, the two signs are the same unmarked metric spacetime;
+   283	- retaining time orientation, they are the two opposite orientations of that spacetime.
+   284	
+   285	Moreover, (4) has a nonzero timelike gradient throughout `R>0`. As the gradient of a scalar, it is
+   286	preserved—not negated—by every isometry. It gives a canonical oriented timelike line, so there is
+   287	no time-orientation-preserving isometry between the two opposite choices. They are distinct only
+   288	in the time-oriented category.
+   289	
+   290	## 7. Exact status
+   291	
+   292	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit local Ricci-flat form and complete Cauchy
+   293	  embedding.
+   294	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: strictly mode-dependent compact quotient modulus.
+   295	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: opposite-`K` time-orientation classification.
+   296	- `DERIVED_CONDITIONAL_IN_REGISTERED_FAMILY`: explicit globally hyperbolic quotient development.
+   297	- `OPEN_NOT_PROVED`: equality of that explicit development with the per-datum G322 MGHD.
+   298	- `OPEN_NOT_SELECTED`: physical topology, quotient, orientation, data, scale, and occupancy.
+   299	
+   300	The field equation remains owner-adopted provisional and the metric/kernel/angular sector are
+   301	unchanged.
+
+exec
+/bin/bash -c "nl -ba /intake/package/AUDIT_REPORT.md | sed -n '18,60p'" in /intake
+ succeeded in 0ms:
+    18	   forms in the explicit local metric `-R/mu dR^2 + mu/R dX^2 + R^2(dy^2+dz^2)`.
+    19	2. Direct tensor calculation gives `Ric=0` and Kretschmann scalar `12 mu^2/R^6`.
+    20	3. Thus the arbitrary profile is locally a refoliation/Cauchy-graph freedom in this LRS slice.
+    21	4. A degree/winding plus zero-integral argument proves that compact injectivity forces the global
+    22	   `X` period. The invariant lattice-intersection/projected-covolume definition of `Q_X` survives
+    23	   local parameter rescalings, basis changes, and nonsplit lattice presentations.
+    24	5. `L_X(n)` is strictly increasing for every positive integer mode. The registered `n=1` and
+    25	   `n=2` explicit globally hyperbolic Taub quotients are therefore inequivalent even after the
+    26	   initial marking is forgotten. Equality of either explicit quotient with its G322 MGHD is open.
+    27	6. Opposite `K` signs give the same time-unoriented metric quotient and opposite time orientations.
+    28	   The nonzero timelike gradient of the Kretschmann scalar forbids an orientation-preserving
+    29	   identification between those orientations.
+    30	7. The result classifies the diagnostic family. It selects no physical datum, topology, quotient,
+    31	   orientation, scale, or universe.
+    32	8. The provisional field equation, UDT metric, reciprocal kernel, angular cancellation, and
+    33	   observational interfaces are unchanged.
+    34	
+    35	## Raw gates
+    36	
+    37	- production: 78 assertions; maximum pullback error `8.882e-15`; maximum extrinsic error
+    38	  `9.992e-16`;
+    39	- independent: 33 assertions with different controls; maximum pullback error `2.665e-15` and
+    40	  maximum extrinsic error `1.224e-10`;
+    41	- independent Ricci residuals: `4.44e-16` to `1.14e-13` after the documented failed-closed repair;
+    42	- hostile mutations: 13/13 caught;
+    43	- finite production periods: `6.5545166850`, `6.6232264275`, `6.7354404967`, `6.8880830208`.
+    44	- exact 305-row premise registry and startup guards: repository-side pass, recorded as an external
+    45	  attestation rather than replayable evidence in the first sealed intake;
+    46	- full repository suite: repository-side `217 passed, 1 xfailed`, likewise an external attestation.
+    47	- fresh external review: `G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`; repairs R1--R4 are
+    48	  registered in `REPAIR_LEDGER.tsv` and await repair-only follow-up.
+    49	
+    50	## Boundary
+    51	
+    52	This does not cover the full G319 moduli space, non-LRS data, `d` or `Lambda` nonzero, `B=0`
+    53	crossings, matter/source sectors, stability, physical topology/occupancy, an observational scale,
+    54	or full UDT. The explicit quotient is a globally hyperbolic development. Equality with the G322
+    55	MGHD is not proved and remains open.
+    56	
+    57	Repair-only external follow-up is required before an externally accepted grade.
+
+exec
+/bin/bash -c "nl -ba /intake/package/RUN_RECORD.md | sed -n '36,48p'" in /intake
+ succeeded in 0ms:
+    36	preserved in `INDEPENDENT_FAILURE_AND_REPAIR.md`.
+    37	
+    38	## Repository gates
+    39	
+    40	- aggregate package verification: pass;
+    41	- exact 305-row premise registry and startup guards: repository-side pass; the first sealed intake
+    42	  recorded this as an external attestation rather than replayable intake evidence;
+    43	- full repository suite: repository-side repair replay `217 passed, 1 xfailed` in `141.43s`; likewise an external
+    44	  attestation in the first intake;
+    45	- fresh external adversarial review: repairable defects R1--R4, bounded landing retained;
+    46	- repair-only external follow-up: pending.
+
+exec
+/bin/bash -c "nl -ba /intake/package/STATUS_LEDGER.tsv | sed -n '1,20p'" in /intake
+ succeeded in 0ms:
+     1	claim	status	scope
+     2	explicit_ambient_metric	DERIVED_CONDITIONAL	registered d=Lambda=0 J0-positive LRS family
+     3	ambient_Ricci_zero	DERIVED_CONDITIONAL	direct exact tensor calculation
+     4	complete_G320_data_embedding	DERIVED_CONDITIONAL	positive periodic B-nonzero branches
+     5	profile_freedom_local_refoliation	DERIVED_CONDITIONAL	registered LRS family only
+     6	primitive_compact_X_period	DERIVED_CONDITIONAL	injective compact Cauchy graph
+     7	Q_X_global_modulus	DERIVED_CONDITIONAL	primitive intersection lattice plus projected transverse covolume
+     8	integer_mode_moduli_strictly_distinct	DERIVED_CONDITIONAL	psi_n=p+a cos nx J0-positive
+     9	n1_n2_unmarked_quotients_distinct	DERIVED_CONDITIONAL	registered compact quotient category
+    10	opposite_K_same_time_unoriented_metric	DERIVED_CONDITIONAL	registered sign branches
+    11	opposite_K_oriented_spacetimes	DERIVED_CONDITIONAL_DISTINCT_ORIENTATIONS	monotone curvature time line
+    12	explicit_GH_quotient_development	DERIVED_CONDITIONAL	registered Taub quotient category
+    13	MGHD_identification	OPEN_NOT_PROVED	G322 guarantees per-datum MGHD but equality with explicit quotient is not established
+    14	physical_occupancy	OPEN_NOT_SELECTED	all
+    15	physical_topology	OPEN_NOT_SELECTED	all
+    16	physical_scale	OPEN_NOT_SELECTED	all
+    17	metric_kernel_angular_sector	UNCHANGED	all
+
+exec
+/bin/bash -c "nl -ba /intake/package/PREMISE_LEDGER.tsv | sed -n '1,24p'" in /intake
+ succeeded in 0ms:
+     1	item	status	role	forbidden_promotion
+     2	Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	upstream bounded dynamics ownership	derived theorem or canon
+     3	Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	local finite-jet response scope	unique possible response principle
+     4	quiet_GR_principal_overlap	OWNER_ADOPTED_PROVISIONAL_POSTULATE	first-curvature bounded arena	vacuum GR imported as UDT theorem
+     5	S_ab_zero	CONDITIONAL_ACTIVE_EQUATION	trace-free Ricci equation in bounded regular vacuum	full UDT field equation in every sector
+     6	Ric_zero	DERIVED_CONDITIONAL	G321 connected Lambda=0 G320 sector	matter sourced or full UDT equation
+     7	smooth_harmonic_wellposedness	IMPORTED_MATHEMATICAL_METHOD	conditional local development theorem	native UDT derivation
+     8	maximal_GH_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional MGHD per fixed datum; explicit-quotient equality remains open	native UDT derivation or arbitrary inextendibility
+     9	flat_marked_T3	CHOSE_BOUNDED_DIAGNOSTIC_DOMAIN	registered compact quotient family	physical topology
+    10	one_coordinate_diagonal_LRS	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	explicit unmarked classification slice	complete solution space
+    11	d_zero_Lambda_zero	PINNED_BY_G320_G321_CONTROL	registered Ricci-flat control sector	all UDT sectors
+    12	J0_positive	FREE_AND_EXPLORED_CONSTRAINT_CONSTANT	common local curvature/quotient reconstruction	observed mass scale or selected constant
+    13	psi_positive_periodic	FREE_AND_EXPLORED_PROFILE	registered Cauchy graphs	selected physical history
+    14	p_3_over_2_a_1_over_5	CHOSE_CATEGORY_A_CONTROL	finite n comparison	physical coefficient
+    15	n_positive_integer	FREE_AND_EXPLORED_CONTROL_FAMILY	compact-profile modes	particle number or selected population
+    16	epsilon_plus_minus	FREE_AND_EXPLORED_TIME_REVERSE_BRANCHES	orientation classification	matter antimatter or two selected universes
+    17	ambient_coordinate_change	CATEGORY_A_GEOMETRIC_METHOD	explicit isometry and embedding test	new UDT mechanism
+    18	compact_quotient_period	DERIVED_CANDIDATE_INVARIANT	unmarked global discriminator	observational scale without attachment
+    19	c_E	OBSERVED_ANCHOR_INACTIVE	not used in dimensionless quotient classification	history selector
+    20	X_max	OPEN_INACTIVE	excluded	boundary scale or selected value
+
+Completed the sealed-intake review: the repaired derivation and ledgers support R1-R3, the intake authenticator passed for R4, and the retained landing remains bounded to explicit quotient developments only.
+  ✓ Read the repair ledger, follow-up request, and verifier script to extract the exact registered repair targets and landing constraints.
+  ✓ Inspect sealed evidence for R1-R3 and confirm whether the repaired statements and definitions match the registered scope.
+  ✓ Run the intake verifier for R4 and check that repository-only premises/suite results are marked as external attestations.
+  ✓ Decide whether the retained bounded explicit-quotient landing survives the repair-only review and report the required disposition.
+codex
+`R1` is repaired in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:161): the proof now explicitly uses fixed-sign monotonicity to get a degree-one `X` coordinate, then the zero-integral collision argument rules out every nontrivial winding divisor `q>1`, establishing the primitive `X` period on the registered fixed-sign graph stratum.
+
+`R2` is repaired in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:268), [AUDIT_REPORT.md](/intake/package/AUDIT_REPORT.md:24), and [STATUS_LEDGER.tsv](/intake/package/STATUS_LEDGER.tsv:12): the claim stops at an explicit globally hyperbolic Taub quotient development, and equality with the per-datum G322 MGHD is stated as open. `R3` is repaired in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:199): the unmarked modulus is defined via `\Lambda_X=\Gamma\cap \ell_X` and `\Lambda_\perp=\pi_{E_\perp}(\Gamma)` with projected covolume, and only then reduced in the registered split case to `L_X/sqrt(L_y L_z)`.
+
+`R4` passes: `python3 -S package/verify_review_intake.py` from `/intake` returned `G323 sealed intake authentication PASS: 37 payloads; 39 files`. The repository-only premise/suite results are now labeled external attestations in [AUDIT_REPORT.md](/intake/package/AUDIT_REPORT.md:44) and [RUN_RECORD.md](/intake/package/RUN_RECORD.md:40), not sealed replay evidence. The retained landing also stays bounded: occupancy/topology/scale remain open in [STATUS_LEDGER.tsv](/intake/package/STATUS_LEDGER.tsv:13), the field-equation/metric-kernel sector remains unchanged in [EXACT_DERIVATION.md](/intake/package/EXACT_DERIVATION.md:300), and `X_max` remains excluded in [PREMISE_LEDGER.tsv](/intake/package/PREMISE_LEDGER.tsv:20).
+
+G323_REPAIRS_ACCEPTED__BOUNDED_EXPLICIT_QUOTIENT_LANDING_RETAINED
+tokens used
+75,725
+
+Script done on 2026-09-02 05:57:39-04:00 [COMMAND_EXIT_CODE="0"]

@@ -43,4 +43,5 @@ preserved in `INDEPENDENT_FAILURE_AND_REPAIR.md`.
 - full repository suite: repository-side repair replay `217 passed, 1 xfailed` in `141.43s`; likewise an external
   attestation in the first intake;
 - fresh external adversarial review: repairable defects R1--R4, bounded landing retained;
-- repair-only external follow-up: pending.
+- repair-only external follow-up: accepted; repairs R1--R4 and the bounded explicit-quotient
+  landing were retained.

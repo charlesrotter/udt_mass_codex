@@ -1,7 +1,7 @@
 # G323 internal audit report
 
 Date: 2026-09-01; repaired 2026-09-02
-Status: `REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
+Status: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`
 
 ## Result
 
@@ -44,8 +44,9 @@ __NO_OCCUPANCY_SELECTION
 - exact 305-row premise registry and startup guards: repository-side pass, recorded as an external
   attestation rather than replayable evidence in the first sealed intake;
 - full repository suite: repository-side `217 passed, 1 xfailed`, likewise an external attestation.
-- fresh external review: `G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`; repairs R1--R4 are
-  registered in `REPAIR_LEDGER.tsv` and await repair-only follow-up.
+- fresh external review: `G323_REPAIRABLE_DEFECTS__BOUNDED_LANDING_RETAINED`;
+- repair-only external follow-up:
+  `G323_REPAIRS_ACCEPTED__BOUNDED_EXPLICIT_QUOTIENT_LANDING_RETAINED`.
 
 ## Boundary
 
@@ -54,4 +55,4 @@ crossings, matter/source sectors, stability, physical topology/occupancy, an obs
 or full UDT. The explicit quotient is a globally hyperbolic development. Equality with the G322
 MGHD is not proved and remains open.
 
-Repair-only external follow-up is required before an externally accepted grade.
+Repairs R1--R4 and the retained bounded landing were accepted by the repair-only external follow-up.

@@ -1,7 +1,7 @@
 # G323 exact derivation — local refoliation and global compact quotient
 
 Date: 2026-09-01; repaired 2026-09-02
-Grade: `REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
+Grade: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`
 
 ## Bounded landing
 

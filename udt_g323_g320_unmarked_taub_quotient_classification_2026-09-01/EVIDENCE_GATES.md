@@ -13,6 +13,6 @@
 | Premise audit | PASS, EXTERNAL ATTESTATION IN FIRST INTAKE | exact 305-row repository verifier and startup guards |
 | Full repository suite | PASS, EXTERNAL ATTESTATION IN FIRST INTAKE | 217 passed, one known documented xfail |
 | Fresh external adversarial review | REPAIRABLE | four bounded repairs; scientific landing retained |
-| Repair-only external follow-up | PENDING | required for external acceptance |
+| Repair-only external follow-up | ACCEPTED | R1--R4 and retained bounded landing verified |
 
-Current maximum grade: `REPAIRED_PENDING_EXTERNAL_FOLLOWUP`.
+Current maximum grade: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`.

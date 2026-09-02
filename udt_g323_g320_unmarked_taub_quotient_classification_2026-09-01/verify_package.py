@@ -24,6 +24,8 @@ REQUIRED = (
         "AUDIT_REPORT.md", "RUN_RECORD.md", "EXTERNAL_REVIEW_RESPONSE.md",
         "EXTERNAL_REVIEW_TRANSCRIPT.txt", "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_LEDGER.tsv",
         "REPAIR_FOLLOWUP_REQUEST.md", "verify_review_intake.py",
+        "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md", "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
 )
 
 
@@ -136,6 +138,22 @@ def main():
          "repair ledger mismatch")
     need(repairs[1]["scientific_landing"] == "BOUNDED_SCOPE_NARROWED", "MGHD repair not scoped")
 
+    followup = (HERE / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md").read_text(encoding="utf-8")
+    need(followup.rstrip().endswith(
+        "G323_REPAIRS_ACCEPTED__BOUNDED_EXPLICIT_QUOTIENT_LANDING_RETAINED"
+    ), "repair follow-up verdict missing")
+    followup_transmission = (
+        HERE / "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md"
+    ).read_text(encoding="utf-8")
+    for token in (
+        "07cc29dc528bc0f5ae7c2eae4239d7312b0d3e2904249a1e73b749abbbccf06f",
+        "63fe473e2fbbefb79ddc583654ae981a56b91299c0285c41578f8c4081642dce",
+        "b90344046f8c561025d70ea8632c85263938a92e4ad122c17230b7de74621995",
+        "c4414270b3a31f81b51940b134a0daf754b3d9b9512b65439229edfec1944207",
+        "d76f3ed4211e45a16f50742c512f39ac935dbe0d970424b22a6a14a8b68a77f4",
+    ):
+        need(token in followup_transmission, f"repair follow-up transmission token missing: {token}")
+
     independent_source = (HERE / "verify_independent.py").read_text(encoding="utf-8")
     need("import derive_unmarked_quotients" not in independent_source, "independent imports production")
     need("DERIVATION_RESULT.json" not in independent_source, "independent reads production")
@@ -164,19 +182,19 @@ def main():
 
     result = {
         "schema": "udt-g323-package-verification-v1",
-        "status": "PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP",
+        "status": "PASS_EXTERNALLY_ACCEPTED_AFTER_REPAIRS",
         "landing": LANDING,
         "production_assertions": production["assertion_count"],
         "independent_assertions": independent["assertion_count"],
         "hostile_catches": f"{hostile['caught_count']}/{hostile['mutation_count']}",
         "atlas_rows": len(atlas),
         "external_review": "REPAIRABLE_DEFECTS_REPAIRED",
-        "repair_followup": "PENDING",
+        "repair_followup": "ACCEPTED",
     }
     (HERE / "PACKAGE_VERIFICATION_RESULT.json").write_text(
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
-    print("G323 package verification PASS_REPAIRED_PENDING_EXTERNAL_FOLLOWUP")
+    print("G323 package verification PASS_EXTERNALLY_ACCEPTED_AFTER_REPAIRS")
     print(f"production assertions: {result['production_assertions']}")
     print(f"independent assertions: {result['independent_assertions']}")
     print(f"hostile mutations caught: {result['hostile_catches']}")
