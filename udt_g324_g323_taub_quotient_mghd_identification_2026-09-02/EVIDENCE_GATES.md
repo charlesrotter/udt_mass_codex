@@ -10,7 +10,7 @@ Date: 2026-09-02
 | Premise audit | PASS | `PREMISE_LEDGER.tsv`, `SOURCE_NOTE.md`, bounded source evidence |
 | Hostile controls | PASS | `CATCH_PROOF_RESULT.json` |
 | Fresh external review | UNRESOLVED_WITH_BOUNDED_REPAIRS | `EXTERNAL_REVIEW_RESPONSE.md` |
-| Repair-only external follow-up | PENDING | required before banking |
+| Repair-only external follow-up | PASS | R1--R3 accepted; `EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md` |
 
 The maximum conclusion is the preregistered smooth per-datum MGHD identification and registered
 modulus transfer. No physical selection or full-UDT conclusion is authorized.

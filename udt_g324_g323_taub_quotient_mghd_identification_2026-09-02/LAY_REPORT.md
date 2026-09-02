@@ -16,5 +16,5 @@ maximal developments, not an artifact of having stopped the coordinates too earl
 
 What it does **not** do is choose which compact shape Nature uses. It does not set a physical
 scale, add matter, prove stability, alter the metric or reciprocal kernel, or determine
-`X_max`. It closes a mathematical completeness gap inside the registered family. A fresh external
-review is still pending.
+`X_max`. It closes a mathematical completeness gap inside the registered family. The repaired proof
+and exact clean-copy replay were accepted by the external repair-only reviewer.

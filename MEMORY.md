@@ -17,20 +17,13 @@ mass, scale, or physical `X_max`; angular cancellation owns loud--quiet--loud.
 G311 gives `TF_g(E)=0` for supplied response. G312 separates GR-principal overlap from
 Local Metric Sufficiency. Charles provisionally adopted both on 2026-09-01. The bounded response constitution is trace-free
 Ricci with one scalar; metric/kernel are unchanged, while scale and history remain open.
-G313 is a multibranch arena; G314 keeps bootstrap optional. G315--G317 supply constrained data and
-exact non-CMC zero/tidal branches. G318 varies `psi` under a constant ratio, yielding scoped power
-interlock. G319 removes that ratio: its regular stratum admits every smooth positive periodic
-`psi` for large free `J0`; G318 embeds exactly and global `B=0` crossings remain open. None selects
-physical data/history; interfaces remain unchanged.
-G320 finds countably infinite lawful initial geometries after declared duplicate quotients.
-G321 conditionally gives each complete G320 datum one local marked development, up to a
-data-preserving diffeomorphism, using imported smooth harmonic well-posedness. This is ordinary
-Cauchy-data freedom. G322 conditionally gives each fixed datum one maximal globally hyperbolic
-marked development under the imported Choquet--Bruhat--Geroch theorem. Data selection, unmarked
-cross-datum equivalence, geodesic completeness, singularity freedom, and stability remain open.
-G323 makes registered profiles local Taub refoliations but separates their explicit compact
-quotients by a lattice modulus. Opposite `K` signs reverse time orientation. MGHD equality,
-occupancy, and scale remain open.
+G313/G314 leave a multibranch arena and optional bootstrap. G315--G319 build broad non-CMC
+constrained data; G320 proves countably many geometries survive quotient. Imported theorems give
+each datum a local (G321) and maximal-GH (G322) marked development, without selecting data.
+G323 turns registered profiles into Taub refoliations and separates compact quotients by a lattice
+modulus. G324 identifies each quotient with its datum's smooth G322 MGHD, proves future timelike
+completeness and proper `C2` inextendibility, and preserves the modulus. Past `C0` inextendibility,
+stability, occupancy, and scale remain open.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route tokens:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
@@ -38,7 +31,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324.
 W5 is noncanon normalized projective position; scale, native SNe area, and history remain open.
 
 ## Observations and premises
@@ -50,8 +43,9 @@ a local input. Strong CSN is inactive.
 
 ## Next gate
 
-Test whether G323 explicit quotients equal their G322 MGHDs and retain the lattice modulus. Keep
-this distinct from completeness, stability, singularity avoidance, occupancy, or uniqueness.
+Classify bounded linearized modes around the G324 quotient MGHDs, separating gauge and lattice
+variation from physical perturbations. Keep this distinct from nonlinear stability, singularity
+avoidance, occupancy, scale, or uniqueness.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,

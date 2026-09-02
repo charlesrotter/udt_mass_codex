@@ -34,8 +34,11 @@ G313 is a multibranch Einstein arena; G314 keeps global bootstrap optional. G315
 separates a countable mode family after quotient. Imported theorems conditionally give each datum
 one local marked development (G321) and one maximal globally hyperbolic marked development (G322).
 G323 makes registered profiles local Taub refoliations, while a compact lattice modulus separates
-their explicit quotient developments. Opposite `K` signs reverse time orientation. Its repairs
-were accepted; MGHD equality, occupancy, completeness, stability, and scale remain open.
+their explicit quotient developments. Opposite `K` signs reverse time orientation. G324 proves
+future timelike completeness, excludes proper time-oriented `C2` extensions, identifies every
+registered quotient with its fixed datum's smooth G322 MGHD, and preserves the modulus there. Its
+repairs were externally accepted. Past `C0` inextendibility, stability, occupancy, and scale remain
+open.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta`; conditional `c_eff/c_E=exp(-2 delta)` is not signal speed. Completed-pair Dual
@@ -43,14 +46,14 @@ Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`. Population/history rem
 `OPEN`; higher/full carry is unresolved.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G323 history/dynamics. Use `INDEX.md` for exact paths.
+G282--G324 history/dynamics. Use `INDEX.md` for exact paths.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290;
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditional scale. G277--G281
 retain optical imports, direct redshift, native Jacobi evaluation, and no native SNe prediction.
@@ -65,7 +68,7 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 306-row registry includes G307--G323 at their externally reviewed bounded grades.
+The exact 307-row registry includes G307--G324 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -74,8 +77,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: test whether G323 explicit quotients equal their G322 MGHDs and retain the lattice modulus.
-Do not infer occupancy, uniqueness, completeness, singularity freedom, stability, or inextendibility;
-do not restart the selector hunt or weaken existing guards.
+Next: classify bounded linearized modes around the G324 quotient MGHDs, separating gauge and lattice
+variation from physical perturbations. Do not infer nonlinear stability, occupancy, uniqueness,
+singularity freedom, arbitrary inextendibility, scale, or `X_max`; do not restart the selector hunt
+or weaken existing guards.
 
 <!-- STARTUP_CURRENT_END -->

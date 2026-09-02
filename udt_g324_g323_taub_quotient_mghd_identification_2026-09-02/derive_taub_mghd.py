@@ -142,7 +142,7 @@ def main() -> None:
 
     result = {
         "schema": "udt-g324-taub-mghd-production-v1",
-        "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP",
+        "status": "EXTERNALLY_ACCEPTED_AFTER_REPAIRS",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,

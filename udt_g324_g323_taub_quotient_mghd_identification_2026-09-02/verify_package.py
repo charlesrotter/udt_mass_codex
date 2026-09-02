@@ -103,9 +103,26 @@ def main() -> None:
     gate("does **not** prove that the\npast singular end is `C0`-inextendible" in exact,
          "exact_c0_boundary")
     gate("choose which compact shape Nature uses" in lay, "lay_occupancy_boundary")
-    gate("PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP" in status,
-         "status_repair_followup_pending")
+    gate("EXTERNALLY_ACCEPTED_AFTER_REPAIRS" in status,
+         "status_external_repair_followup_accepted")
     gate("IMPORTED_MATHEMATICAL_METHOD" in premise, "premise_import_typed")
+
+    external_token = "ACCEPT__R1_R2_R3_COMPLETE__BOUNDED_LANDING_UNCHANGED"
+    external_response = package / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md"
+    external_final = package / "EXTERNAL_REPAIR_FOLLOWUP_FINAL_RESPONSE.md"
+    external_transcript = package / "EXTERNAL_REPAIR_FOLLOWUP_TRANSCRIPT.txt"
+    gate(digest(external_response) ==
+         "8445873159a37c36534e9a578cb86f22629956b47555e3ffd0a03ffe16c5752d",
+         "external_response_hash")
+    gate(digest(external_final) ==
+         "a2e8aa94acd6126537ce9d7ea0a3eba0a9c3e296dd07ffef2566f9d8fb06a0b7",
+         "external_final_hash")
+    gate(digest(external_transcript) ==
+         "06cc7e3e03b44119042c3ab6afd702538d6788d47090da4d8b9c48565dc28222",
+         "external_transcript_hash")
+    gate(external_response.read_text().count(external_token) == 1,
+         "external_response_single_accept_token")
+    gate(external_token in external_final.read_text(), "external_final_accept_token")
 
     # Reproduce the first three registered commands literally in a fresh package copy. The current
     # verifier invocation is itself the fourth registered command, so it must not recurse.
@@ -141,7 +158,7 @@ def main() -> None:
 
     result = {
         "schema": "udt-g324-package-verification-v1",
-        "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP",
+        "status": "EXTERNALLY_ACCEPTED_AFTER_REPAIRS",
         "landing": LANDING,
         "assertion_count": len(checks),
         "checks": checks,

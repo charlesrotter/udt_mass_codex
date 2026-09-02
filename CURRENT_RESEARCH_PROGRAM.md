@@ -2,7 +2,7 @@
 
 Date: 2026-09-02
 
-`LIVE.md` controls status; the 306-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 307-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -40,7 +40,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -57,14 +57,9 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   conditional and derive supplied holonomy/Euler flux without selecting local flux or history.
 - G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied parameter; `k` and local flux remain
   free. The `M2/MN/A/NL` partition selects no law; G259 remains conditional.
-- G294 types “foundational infinite c” as nonpropagating connectedness, not signal speed. Pair graph,
-  reciprocal groupoid, and physical foliation remain distinct; instantaneous global enforcement can
-  signal. The missing object is a nonidentity complete-network constraint plus metric-causal update.
-- G295 derives bounded `AU=RA` compatibility but no formula or data. G296 places first local natural
-  nonidentity content at curvature order, not at an equation. G297--G300 derive conditional radar
-  germs, distinct rank-two projections, required complete frame carry, and exact celestial control.
-  They refute universal scalar collapse but leave the lawful query family and unique transfer open;
-  metric and kernel remain unchanged.
+- G294 types “foundational infinite c” as nonpropagating connectedness with metric-causal response;
+  it supplies no global enforcement law. G295--G300 locate covariant law, carry, and query boundaries
+  without selecting values, lawful germs, or transfer. Metric and kernel remain unchanged.
 - G301 narrows the declared scale-free metric two-jet lane to generic Ricci-flat or trace-free
   Ricci with one constant scalar datum; identity divergence would choose the former but is unowned.
 - G302 proves reciprocal shape plus common scale spans all ten metric directions and selects
@@ -90,18 +85,13 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   curvature `Q_R` separates the lawful integer-mode family by `n^2`. The G319 breadth therefore
   contains at least countably many genuine physical initial geometries. This is not a complete
   moduli quotient, occupancy rule, evolution theorem, or metric/kernel change.
-- G321 applies the already declared standard smooth harmonic well-posedness theorem conditionally.
-  Each fixed complete G320 datum has one local marked development up to a data-preserving
-  spacetime diffeomorphism. Opposite `K` signs are distinct time-reversed data, not two futures from
-  one datum. Thus the registered breadth is ordinary local Cauchy-data freedom, not evidence of a
-  missing local equation. The theorem is an imported mathematical method; physical data occupancy,
-  unmarked refoliation, and maximal/global development remain open.
-- G322 conditionally imports Choquet--Bruhat--Geroch: each fixed G321 datum has one maximal globally
-  hyperbolic marked development containing all same-datum globally hyperbolic developments. Repairs
-  were externally accepted. Completeness, stability, unmarked equivalence, and occupancy stay open.
-- G323 makes registered profiles local Taub refoliations, while a primitive lattice modulus
-  separates their explicit compact quotients. Opposite `K` signs reverse time orientation. Repairs
-  were accepted; MGHD equality, occupancy, and scale remain open.
+- G321/G322 conditionally import standard smooth development theorems: each complete datum has one
+  local then maximal-GH marked development. This is Cauchy-data freedom, not occupancy.
+- G323 makes registered profiles Taub refoliations and separates compact quotients by a lattice
+  modulus. G324 proves future timelike completeness and proper `C2` inextendibility, identifies each
+  quotient with its smooth per-datum MGHD, and preserves the modulus. Repairs were externally
+  accepted. Past `C0` inextendibility, stability, nonregistered families, occupancy, and scale stay
+  open.
 
 ## Open boundary
 
@@ -113,7 +103,8 @@ G301--G312 narrow and owner-activate bounded trace-free Ricci; G313 keeps a mult
 arena, G314 keeps bootstrap optional, G315--G319 construct broad constrained non-CMC snapshots,
 G320 proves some of their breadth is genuine physical initial-geometry freedom after quotient, and
 G321/G322 conditionally give each datum local then maximal-GH development. G323 proves local
-refoliation and separates explicit compact quotients; MGHD equality stays open. None selects data.
+refoliation and separates explicit compact quotients; G324 identifies those quotients with their
+per-datum smooth MGHDs and preserves the modulus there. None selects data.
 The positive round branch retains one curvature scale. This is
 not a native-law no-go; curvature scale, mass, population, and physical `X_max` remain open.
 
@@ -123,6 +114,7 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Test whether G323 explicit quotients equal their G322 MGHDs and retain the lattice modulus. Do not
-infer occupancy, uniqueness, completeness, stability, or inextendibility. Import no action, source,
-matter/mass, observation, fit, `X_max`, protected work, or equation.
+Classify the bounded linearized constraint/evolution modes around the explicit G324 quotient MGHDs,
+separating gauge and compact-lattice variations from genuine perturbations. Do not infer nonlinear
+stability, occupancy, uniqueness, singularity avoidance, arbitrary inextendibility, scale, or
+`X_max`. Import no action, source, matter/mass, observation, fit, protected work, or new equation.

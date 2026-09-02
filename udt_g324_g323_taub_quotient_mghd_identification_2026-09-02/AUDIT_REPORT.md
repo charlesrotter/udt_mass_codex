@@ -1,7 +1,7 @@
 # G324 audit report — Taub quotient MGHD identification
 
 Date: 2026-09-02
-Status: `PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP`
+Status: `EXTERNALLY_ACCEPTED_AFTER_REPAIRS`
 
 ## Landing
 
@@ -45,8 +45,9 @@ The final exact counts are generated in the replayed JSON artifacts and must be 
    explicit.
 
 Fresh external review found no mathematical counterexample but required the three bounded repairs
-registered in `REPAIR_LEDGER.tsv`. Repair-only external verification remains required before
-banking.
+registered in `REPAIR_LEDGER.tsv`. The repair-only external follow-up authenticated the corrected
+intake, reran the registered commands literally in clean writable copies, accepted R1--R3, and
+returned `ACCEPT__R1_R2_R3_COMPLETE__BOUNDED_LANDING_UNCHANGED`.
 
 ## What did not change
 

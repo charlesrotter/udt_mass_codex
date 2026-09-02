@@ -43,3 +43,14 @@ The registered repair does not change the result. It uses the cited paper's orie
 Theorem 2 directly, records its exact source hash and location, derives the endpoint direction from
 G324 future completeness, makes each producer create its output parent, and makes the aggregate
 verifier reproduce the first three advertised commands literally inside a fresh copy.
+
+## Repair-only external acceptance
+
+The corrected 48-file intake was externally reviewed under the registered repair-only scope. The
+reviewer authenticated all 46 manifest payloads, accepted R1--R3, independently ran the literal
+commands in clean writable copies, and confirmed that the bounded scientific landing did not
+change. Final token:
+
+```text
+ACCEPT__R1_R2_R3_COMPLETE__BOUNDED_LANDING_UNCHANGED
+```

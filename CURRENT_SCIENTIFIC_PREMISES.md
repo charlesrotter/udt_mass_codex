@@ -22,7 +22,7 @@
 | Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
 | Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
 | G311 covariant response | `EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY` | `TF_g(E)=0`; conditional G301 dynamics | Response constitution; scale/history |
-| G312--G323 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Local Metric Sufficiency; propagation/quotients | MGHD equality/scale/selector |
+| G312--G324 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + external | Local Metric Sufficiency; propagation/quotients | stability/scale/selector |
 
 ## Reconstruction hierarchy
 
@@ -33,7 +33,7 @@ G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -42,16 +42,8 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | G199--G235 | verified/external | Direction, completion, rank, clock, null/screen geometry; values open |
 | G236--G256 | external/repaired | Observational/query/scale controls; no residual or propagation |
 | G257--G276 | external/repaired | GR/angular/sign and projective-state carry; law/history open |
-| G277 observational anchor ownership | external/repair accepted | Conditional Cepheid/optical route |
-| G278 Cepheid/DES holdout | external/repair accepted | Resolution-sensitive lead |
-| G279 native-interface provenance | external/repair | Native core intact |
-| G280 projective/optical bridge | external/repair | Same W5 state, different Jacobi area |
-| G281 SNe audit | external/repair accepted | No native prediction; redshift survives |
-| G282 history/Jacobi law type | external/R1 accepted | Curvature values need a law |
-| G283 identity nonselection | external/repair accepted | Compatibility selects no tidal values |
-| G284 causal/projective discriminator | external/repairs confirmed | Reconstructs cone/tidal response; no selection |
-| G285 complete-separation retyping | external/repairs confirmed | Same `phi`, different complete separation; propagation open |
-| G286 propagation discriminator | external/repairs accepted | Same prior jets, inequivalent futures; no identity propagation |
+| G277--G281 | external/repaired | Observational typing; native core intact; no native SNe prediction |
+| G282--G286 | external/repaired | Tidal/history identities reconstruct but do not select or propagate values |
 | G287 profile/arrow sign typing | external/repairs accepted | Reversal flips directed `delta`, not ambient `phi`; no kernel regression |
 | G288/G289/G290/G291/G292 | external | Center/Hopf/holonomy/Euler flux accepted; history open |
 | G293 architecture funnel | internal/caveats | Homogeneous flow uncalibrated; local flux free; no law |
@@ -79,6 +71,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | G321 | external/repairs accepted | Fixed complete data conditionally give one local marked development | Maximal history; occupancy |
 | G322 | external/repairs accepted | Conditional maximal globally hyperbolic development per datum | Unmarked equivalence; completeness; occupancy |
 | G323 | external/repairs accepted | Refoliation; quotient separation | MGHD equality; occupancy; scale |
+| G324 | external/repairs accepted | Registered quotients equal per-datum smooth MGHDs; modulus survives | `C0` past boundary; stability; occupancy; scale |
 ## Scale and limits
 
 | Object | Status | Guard |
@@ -98,8 +91,9 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class. G282--G300
   separate tide/carry/query without a law. G301--G312 activate bounded trace-free Ricci; G313/G314
   keep multibranch/bootstrap open. G315--G320 construct initial-data breadth; G321/G322 conditionally
-  give local/maximal-GH development per datum. G323 separates explicit quotients; MGHD equality
-  and selection stay open.
+  give local/maximal-GH development per datum. G323 separates explicit quotients; G324 identifies
+  each registered quotient with its per-datum smooth MGHD and retains the modulus. Stability and
+  selection stay open.
   Angular cancellation owns loud--quiet--loud; W1 evaluates.
 
 ## Carrier, action, source, and matter
@@ -113,8 +107,8 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | Complete action/source/boundary/mass | `OPEN` | No physics claim |
 ## Observational boundary
 
-R2--R5/G312--G323 select no scale, occupancy, universe, or native SNe prediction.
+R2--R5/G312--G324 select no scale, occupancy, universe, or native SNe prediction.
 
 ## How to use the registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv`: 306-row through G323; verify before querying.
+`CURRENT_SCIENTIFIC_PREMISES.tsv`: 307-row through G324; verify before querying.

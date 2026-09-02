@@ -53,5 +53,5 @@
   "radial_kretschmann": "12*mu^2/R^6",
   "registered_lattice_modulus_survives_MGHD": true,
   "schema": "udt-g324-taub-mghd-production-v1",
-  "status": "PASS_PENDING_REPAIR_ONLY_EXTERNAL_FOLLOWUP"
+  "status": "EXTERNALLY_ACCEPTED_AFTER_REPAIRS"
 }
