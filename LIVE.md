@@ -63,13 +63,19 @@ G327 externally accepts after R1--R3 repair the primitive axial tensor Fourier t
 gauge-invariant polarizations, two phases, and `J0/Y0`, totaling eight real constants. Past branches
 are finite/logarithmic; both future branches oscillate with `T^(-2/3)` relative-norm decay. Other
 directions/sectors and stability remain open. Metric/kernel/angular/equation are unchanged.
+G328 internally verifies, pending fresh external review, the complete primitive transverse
+`y`-directed nonzero Fourier first variation modulo all four periodic same-mode gauge functions.
+It has two physical master families: even `J0/Y0` and odd `J3/Y3`, two real phases each, hence
+eight real constants. Its past branches are finite/logarithmic and `T`/`T^(-1)`; all future branches
+oscillate with `T^(-1/6)` relative envelope. This closes one transverse tile, not the oblique
+spectrum or stability, and changes no metric, kernel, angular sector, or equation.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G327 history/dynamics. The positive round cosh history is one exact branch of the G313
+G282--G328 history/dynamics. The positive round cosh history is one exact branch of the G313
 multibranch Einstein arena; G314 keeps unique-universe bootstrap optional and open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
@@ -77,7 +83,7 @@ G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -88,7 +94,8 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 310-row registry now includes G307--G327 at their externally reviewed bounded grades.
+The exact 311-row registry includes G307--G327 at their externally reviewed bounded grades and
+G328 at `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`.
 
 ### Observational boundary
 
@@ -107,11 +114,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Preregister the primitive transverse-wavevector first-variation sector around the explicit G324
-quotient MGHDs, with its full periodic gauge/constraint decomposition, mode norm, and compact-time
-endpoint contract explicit. G327 closes only the symmetry-protected primitive axial tensor tile;
-higher axial harmonics repeat its structure and are lower priority than the anisotropic transverse
-coupling question. This next gate is not a claim of full
+Obtain fresh external adversarial review of G328's preregistered primitive transverse-wavevector
+first-variation census. If accepted, preregister the first genuinely oblique nonzero Fourier
+covector with the full ten-component periodic gauge/constraint decomposition and compact-time
+endpoint contract. G327 closes only the axial tensor tile and G328 only one transverse tile. This
+next gate is not a claim of full
 linear or nonlinear stability, physical occupancy,
 singularity avoidance, arbitrary Lorentzian inextendibility, scale, or `X_max`. Keep
 actualization/bootstrap optional and import no action, source, matter/mass, observation, protected
