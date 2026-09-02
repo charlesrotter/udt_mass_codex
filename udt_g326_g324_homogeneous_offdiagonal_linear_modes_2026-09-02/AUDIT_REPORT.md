@@ -2,7 +2,7 @@
 
 Date: 2026-09-02
 
-Grade: `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`
+Grade: `EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING`
 
 ## Bounded landing
 
@@ -23,9 +23,15 @@ one time-origin gauge constant, eight lattice/frame moduli, two local shear comp
 connected scalar-curvature constant. This is a twelve-constant solution-space census, not a
 physical population count.
 
-The result is exact internally: production algebra, an implementation-distinct direct tensor
-engine, and five hostile mutation controls all pass, and the registered replay is byte-exact. Fresh
-sealed adversarial review remains required before an accepted grade.
+The scientific result was independently rederived by a sealed external reviewer, which returned
+`ACCEPT__G326_BOUNDED_OFFDIAGONAL_CENSUS`. Production algebra, an implementation-distinct direct
+tensor engine, and five hostile mutation controls all pass, and the registered replay is
+byte-exact.
+
+The reviewer also proved that the aggregate verifier can accept canned replacements for its
+independent and hostile scripts, and found that the writable-copy replay precondition was too easy
+to miss. Repairs R1 and R2 are preregistered as evidence-only changes; the scientific landing is
+unchanged and will not be promoted to final package acceptance until their repair-only follow-up.
 
 The repository premise verifier passed all 308 exact rows, and the full regression suite passed
 `218` tests with one registered expected failure.
@@ -40,6 +46,6 @@ angular-sector formula, source, action, or adopted equation was changed.
 1. Preregistered: `PASS`, commits `32fa2f98` and pre-production clarification `04c7fb8f`.
 2. Full bounded space: `PASS_INTERNAL`, all three homogeneous off-diagonal equations and their
    general solutions were classified.
-3. Independently verified: `PASS_INTERNAL`; fresh external review remains pending.
+3. Independently verified: `PASS_EXTERNAL_SCIENCE`; evidence repairs R1 and R2 remain pending.
 4. Premise audited: `PASS_INTERNAL`, with the owner-provisional bounded equation explicit and no
    forbidden physical imports.

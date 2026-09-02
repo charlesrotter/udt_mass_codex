@@ -1,6 +1,6 @@
 claim	status	scope
-G326_offdiagonal_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	five quotient lattice/frame moduli plus one local transverse Kasner shear
-full_homogeneous_combined_census	INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW	one gauge plus eight lattice plus two shear plus one scalar equals twelve
+G326_offdiagonal_census	EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING	five quotient lattice/frame moduli plus one local transverse Kasner shear
+full_homogeneous_combined_census	EXTERNAL_SCIENTIFIC_ACCEPTED__EVIDENCE_REPAIRS_R1_R2_PENDING	one gauge plus eight lattice plus two shear plus one scalar equals twelve
 nonzero_Fourier_modes	OPEN	outside homogeneous sector
 full_linear_stability	OPEN	requires all Fourier and gauge sectors plus norm and endpoint control
 nonlinear_stability	OPEN	outside first variation

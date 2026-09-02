@@ -1,0 +1,3 @@
+repair	status	preregistered_problem	required_closure	scientific_effect
+R1	PREREGISTERED_BEFORE_REPAIR	aggregate verifier accepts canned replacements for independent and hostile scripts	add exact source-integrity gates and prove both canned substitutions are rejected	none; retained accepted G326 landing
+R2	PREREGISTERED_BEFORE_REPAIR	sealed permissions can survive an archive-style copy and prevent literal replay	state and mechanically verify the writable-ephemeral-copy precondition without weakening sealed intake permissions	none; retained accepted G326 landing
