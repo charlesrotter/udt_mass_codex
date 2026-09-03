@@ -1,0 +1,17 @@
+item	status	use_or_limit
+UDT_metric	pinned-by-THEORY	metric is the only varying physical field in this audit
+tracefree_response	pinned-by-THEORY_CONDITIONAL	owner-adopted provisional G310/G312 response; not canon
+Einstein_completion	pinned-by-THEORY_CONDITIONAL	contracted Bianchi gives Ric=Lambda*g on a connected regular vacuum region
+Berger_S3_data	free-and-explored	all a>0 c>0 with round a=c and nonround a!=c separated; not selected occupancy
+G313_numeric_witness	free-and-explored	a=1 c=3/2 Lambda=3 h^2=5/12 is an exact regression witness only
+extrinsic_curvature	free-and-explored_WITHIN_SCOPED_SLICE	K=h*gamma with both h signs and every constraint-compatible magnitude; the isotropic form is the declared G313 homogeneous slice, not a universal UDT condition
+spatial_orientation	free-and-explored	both signs retained; orientation-blind absolute invariant reported
+line_orientation	free-and-explored	both V and -V retained
+local_Cauchy_theorem	IMPORTED_MATHEMATICAL_METHOD	carries data isometries into the unique local development; not a UDT law
+S2_carrier	OMITTED_OPEN	no independent carrier or target is supplied
+action_or_energy	OMITTED_OPEN	no L2+L4 EH or other action enters
+source_matter_mass	OMITTED_OPEN	no source matter coupling mass law or backreaction
+boundary	free-and-explored_WITHIN_SCOPED_TOPOLOGY	compact boundary-free S3 candidate; no boundary value is imposed
+other_topologies	free-and-explored_AS_CONTROLS	round S3 and admitted non-S3 histories prevent universal promotion
+global_time	OMITTED_OPEN	local nonzero smooth interval only
+observations_scale_Xmax	OMITTED_OPEN	no observation fit scale Xmax or calibration
