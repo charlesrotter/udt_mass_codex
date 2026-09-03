@@ -5,10 +5,12 @@ Einstein_completion	pinned-by-THEORY_CONDITIONAL	contracted Bianchi gives Ric=La
 Berger_base	free-and-explored	all a>0 c>0 with a!=c in the theorem; round a=c retained as boundary
 metric_perturbation	free-and-explored	all smooth positive metrics in a sufficiently small uniform C2 neighborhood; no symmetry required
 explicit_conformal_bump	free-and-explored_CONTROL	global smooth nonhomogeneous witness; not asserted to solve the Einstein constraints
+weighted_contact_metric_family	free-and-explored_MATHEMATICAL_CONTROL	explicit smooth S3 metrics used to test Ricci-line orbit closure; not selected histories and not asserted constraint-compatible
 line_orientation	free-and-explored	both signs retained; metric selects at most an unoriented line
 spatial_orientation	free-and-explored	no orientation-dependent physical selection
 spectral_perturbation_theory	IMPORTED_MATHEMATICAL_METHOD	finite-dimensional self-adjoint spectral-cluster continuity; changes no physics
 line_bundle_classification	IMPORTED_MATHEMATICAL_METHOD	H1(S3;Z2)=0 implies real line bundles are trivial; selects no sign or flow
+Sasaki_curvature_identity	IMPORTED_MATHEMATICAL_METHOD	Ric(xi,.)=2 eta in three dimensions; independently recomputed from the displayed metric rather than used as physics
 near_Hopf_irrational_flow	free-and-explored_LOGICAL_CONTROL	shows line closeness/topology alone do not entail closed leaves; not a Ricci-eigenline witness
 local_Cauchy_theorem	IMPORTED_MATHEMATICAL_METHOD	conditional smooth development only for constraint-compatible data
 constraint_solution_census	OMITTED_OPEN	no claim that every nearby spatial metric extends to lawful vacuum Cauchy data

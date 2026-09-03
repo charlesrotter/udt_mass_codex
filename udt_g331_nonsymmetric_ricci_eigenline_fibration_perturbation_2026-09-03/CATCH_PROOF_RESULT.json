@@ -1,0 +1,67 @@
+{
+  "all_caught": true,
+  "catch_count": 10,
+  "production_output_read": false,
+  "records": [
+    {
+      "caught": true,
+      "last_line": "AssertionError: g330_witness_gap_five",
+      "name": "base_gap_normalization",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: sample_1_reeb_unit",
+      "name": "weighted_metric_horizontal_form",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: sample_0_full_ricci_projector_form",
+      "name": "weighted_ricci_projector",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: irrational_10_nonzero_sqrt2_part",
+      "name": "irrational_orbit_certificate",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: bump_0_vertical_line_tilt",
+      "name": "conformal_ricci_sign",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: s3_line_bundle_triviality",
+      "name": "s3_line_bundle_class",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: bump_not_promoted_to_lawful_data",
+      "name": "constraint_compatibility_promotion",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: irrational_flow_has_no_common_fibre_period",
+      "name": "common_fibre_period_promotion",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: family_0_unit_reeb_identity",
+      "name": "independent_weighted_metric",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: spectral_0_strict_half_gap",
+      "name": "independent_half_gap",
+      "returncode": 1
+    }
+  ]
+}

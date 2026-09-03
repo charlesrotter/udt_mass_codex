@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-09-02
+Date: 2026-09-03
 
-`LIVE.md` controls status; the 313-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 314-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -35,7 +35,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -107,6 +107,13 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   local persistence while the eigengap stays open. The round limit and other topologies block
   universal selection. No old carrier/action, stability, occupancy, matter/mass, scale, or `X_max`
   is recovered.
+- G331 is externally accepted without scientific repair. On the complete sufficiently `C2`-close
+  spatial-metric neighborhood, a uniform simple Ricci gap preserves a global smooth metric-native
+  line. Exact weighted contact metrics arbitrarily near nonround Berger data retain that Ricci line
+  while irrational weights make generic orbits nonclosed and dense on invariant tori. Thus Hopf
+  circle fibration and G330's common-period normalization are not open in ambient spatial metric
+  space. The explicit metrics are not proved active-constraint-compatible; local dynamic line carry
+  remains conditional on independent constraint compatibility and an open gap.
 
 ## Open boundary
 
@@ -116,7 +123,9 @@ scale, or realized history. G296--G312 locates and owner-activates bounded trace
 G313--G324 retains multiple data, developments, quotients, and optional bootstrap. G325/G326
 classifies homogeneous variations; G327/G328/G329 close axial, transverse, and strict-oblique
 single-mode tiles. G330 adds a metric-native Hopf history discriminator on a supplied nonround
-Berger-`S3` stratum. None selects data/perturbations or proves general stability. The positive round branch retains one
+Berger-`S3` stratum. G331 preserves the line under a uniform gap but separates it from non-open
+closed-fibre/period structure. Active-constraint realization remains open. None selects
+data/perturbations or proves general stability. The positive round branch retains one
 curvature scale; mass, population, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -125,9 +134,11 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister a bounded nonsymmetric metric perturbation test of the G330 nonround Berger-`S3`
-stratum. Determine whether the metric-defined simple Ricci eigenline stays a smooth global
-line/fibration and identify eigengap or topology failure modes. Keep this distinct from energetic
-or long-time stability and from physical selection. Import no old carrier/action, source,
-matter/mass, observation, fit, protected work, new equation, scale, or `X_max`. The mode-uniform
-G325--G329 assembly remains a later conditional-Einstein-arena task.
+Preregister a bounded constraint-data existence/obstruction test near G331's unequal-weight contact
+metrics. Determine whether any genuinely nonsymmetric spatial metric with irregular Ricci
+eigenflow admits extrinsic curvature satisfying the complete active provisional vacuum constraints,
+or whether those constraints force additional orbit rigidity. Keep all extrinsic-curvature
+components free unless the constraints force otherwise. Do not assume pure trace, homogeneity,
+closed fibres, or a chosen topology; do not import an old carrier/action, source, matter/mass,
+observation, fit, protected work, new equation, scale, or `X_max`. Evolution and stability are later
+questions. The mode-uniform G325--G329 assembly remains a later conditional-Einstein-arena task.
