@@ -2,7 +2,7 @@
 
 Date: 2026-09-03
 
-`LIVE.md` controls status; the 319-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 320-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -93,19 +93,27 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   double silence survives and requires the third jet. Finite boosts preserve the full-matrix
   response while terminal `Phi` is zero-boost blind. This is initial second jet only, not explicit
   finite-time evolution, stability, occupancy, or selection.
+- G337 is independently verified and pending fresh external review. On inherited double silence,
+  the active equation fixes the initial third normal response from complete smooth `(gamma,K)` and
+  their spatial jets. Two exact invariantly distinct lawful germs share
+  `(R,b,C,Lambda,mu)` but have different `s2`, so the pointwise tuple is not a complete state.
+  Equal weights give `s2=8*b*mu` and retain both strict roots. Fixed finite boosts retain the
+  full-matrix response while terminal `Phi` is zero-boost blind. This is initial third-jet
+  ownership, not explicit development, persistence, stability, occupancy, or selection.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
-many legal data/developments, G332 constraint embedding, and G333--G336's bounded first/second
+many legal data/developments, G332 constraint embedding, and G333--G337's bounded first/second/third
 response, finite-boost distribution, and nonzero local sign persistence. It does not own populated germs,
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
 history. G332 closes the specific G331 constraint-existence question; G333/G334 close one
 normal-jet response and its finite-boost congruence, with arbitrary transport still supplied.
 G335 closes qualitative local persistence for nonzero initial response on conditional smooth
-marked developments. G336 classifies the complete exact first-order-silent set at second normal
-order and leaves a lawful double-silent stratum. Its third jet, arbitrary higher carry, explicit
-finite-time development, and global persistence remain open. The
+marked developments. G336 classifies the exact first-order-silent set at second normal order.
+G337 shows that complete initial fields own the inherited third response on double silence while
+the five-number pointwise tuple does not. Arbitrary higher carry, the complete third-zero locus,
+explicit finite-time development, and global persistence remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
 R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and no preferred scale
@@ -114,9 +122,8 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Preregister a bounded metric-led third-normal-jet ownership test on G336's exact double-silent
-stratum. Differentiate the full active conditional evolution once, retaining spatial derivatives
-of curvature and `K`, lapse/shift presentation, direction and pair-frame carry, and
-normal-versus-observer-time distinctions. Determine which terms the supplied G332 data and
-constraints actually own before deriving a formula. Do not infer physical-germ population, global
-persistence, topology selection, stability, occupancy, matter/mass, scale, `X_max`, or canon.
+Seal and submit G337 for fresh adversarial review. Do not begin a fourth-jet ladder before that
+gate. If retained, map the bounded choice between classifying arbitrary higher pair-germ carry and
+constructing an explicit short-time development of a declared lawful datum. Do not infer physical-
+germ population, global persistence, topology selection, stability, occupancy, matter/mass,
+scale, `X_max`, or canon.

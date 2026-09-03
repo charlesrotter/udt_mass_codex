@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "homogeneous_baseline",
+    "ricci_variation_omitted",
+    "n_gamma_sign_reversed",
+    "inverse_metric_and_cubic_term_omitted",
+    "cubic_K_term_omitted",
+    "strict_constraint_control",
+    "premature_or_wrong_constraint_differentiation",
+    "pointwise_tuple_promoted_to_complete_field",
+    "spatial_invariant_erased",
+    "negative_root_retained",
+    "root_branch_collapsed",
+    "strict_branch_called_boundary",
+    "double_silent_direction_discarded",
+    "terminal_scalar_promoted_to_complete_pair_response",
+    "initial_third_jet_promoted_to_stability",
+    "initial_third_jet_promoted_to_history_selection",
+    "external_physics_or_topology_imported"
+  ],
+  "mutations_caught": 17,
+  "package": "G337",
+  "verdict": "PASS"
+}

@@ -1,0 +1,46 @@
+{
+  "all_passed": true,
+  "check_count": 26,
+  "checks": [
+    "same_R_-1_0",
+    "q0_-1_0",
+    "s1_-1_0",
+    "cross_-1_0",
+    "production_target_rederived_-1_0",
+    "same_R_-1_1",
+    "q0_-1_1",
+    "s1_-1_1",
+    "cross_-1_1",
+    "production_target_rederived_-1_1",
+    "tuple_nonownership_-1",
+    "invariant_spatial_germs_distinct_-1",
+    "same_R_1_0",
+    "q0_1_0",
+    "s1_1_0",
+    "cross_1_0",
+    "production_target_rederived_1_0",
+    "same_R_1_1",
+    "q0_1_1",
+    "s1_1_1",
+    "cross_1_1",
+    "production_target_rederived_1_1",
+    "tuple_nonownership_1",
+    "invariant_spatial_germs_distinct_1",
+    "homogeneous_formula_-1",
+    "homogeneous_formula_1"
+  ],
+  "checks_sha256": "76576b9c0a0f0a9e9dd08dae3567bb5e21818936db6e7ff32e58bee64751aafe",
+  "imports_production_code": false,
+  "method": "exact covariant Ricci-variation formula on independently rebuilt coordinate jets",
+  "reads_production_output": false,
+  "twin_s2": {
+    "-1": [
+      "-11982281327/699840000",
+      "-207122235829/18895680000"
+    ],
+    "1": [
+      "11982281327/699840000",
+      "207122235829/18895680000"
+    ]
+  }
+}
