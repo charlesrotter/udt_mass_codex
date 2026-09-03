@@ -38,7 +38,8 @@ while `mu=1` is only the branch-meeting boundary. Exact double silence remains a
 third jet. Finite boosts retain `s1` in the complete matrix even where terminal `Phi` is blind.
 This is initial second jet only, not finite-time evolution, stability, selection, scale, or canon.
 
-G337 is independently verified and awaits fresh external review. The full active conditional
+G337's bounded mathematics survived fresh external review. One sealed source-layout replay defect
+is preregistered at `0b8cfc45`, repaired locally, and awaits repair-only follow-up. The full active conditional
 equation fixes the inherited third response from complete smooth `(gamma,K)` and their spatial
 jets. Exact lawful twins share `(R,b,C,Lambda,mu)` but have different third responses, so that
 five-number pointwise tuple is not a complete state. Equal weights give `s2=8*b*mu`; both roots are
@@ -72,8 +73,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: seal and externally review G337. Do not start a fourth-jet ladder first. If the bounded result
-is retained, map whether the next useful tile is arbitrary higher pair-germ carry or an explicit
+Next: seal the corrected G337 R1 intake and obtain repair-only external follow-up. Do not start a
+fourth-jet ladder first. If R1 is accepted, map whether the next useful tile is arbitrary higher pair-germ carry or an explicit
 short-time development of one declared lawful datum. Do not select data, germs, occupancy,
 matter/mass, scale, `X_max`, or canon.
 

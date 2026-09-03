@@ -28,7 +28,8 @@ all three signs. Interior classification depends on direction carry; the strict 
 endpoint has `s1=1`; vertical `mu=1` is only a branch boundary. Exact double silence survives for
 third-jet analysis. This is initial second jet, not finite-time evolution or stability.
 
-G337 is independently verified pending fresh external review. On inherited double silence, the
+G337's mathematics survived fresh external review; its preregistered sealed source-layout repair is
+implemented locally and pending repair-only follow-up. On inherited double silence, the
 active equation fixes the initial third response from complete smooth `(gamma,K)` and their
 spatial jets. Exact lawful twins share `(R,b,C,Lambda,mu)` but differ in `s2`; the compressed tuple
 is not a complete state. Equal weights give `s2=8*b*mu` with both roots retained. This is initial
@@ -49,7 +50,7 @@ anchors; depth is supplied; pair `c_eff` is not automatically signal speed; stro
 
 ## Next gate
 
-Seal and externally review G337 before extending the local derivative ladder. If retained, decide
+Seal the corrected G337 R1 intake and obtain repair-only external follow-up before extending the local derivative ladder. If accepted, decide
 between arbitrary higher pair-germ carry and an explicit short-time development of a declared
 lawful datum. Do not claim finite-time/global stability, occupancy, scale, `X_max`, or canon.
 

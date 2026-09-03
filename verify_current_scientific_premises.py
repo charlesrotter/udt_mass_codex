@@ -1756,7 +1756,7 @@ def main() -> None:
             "G336_INHERITED_SILENT_SECOND_JET_IS_EXACT_BUT_SIGN_INDEFINITE",
         ),
         "G337": (
-            "INDEPENDENTLY_VERIFIED_DERIVED_CONDITIONAL_BOUNDED_PENDING_EXTERNAL_REVIEW",
+            "EXTERNAL_ACCEPT_WITH_REPAIR_PENDING_R1_FOLLOWUP",
             "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
             "G337_FULL_INITIAL_FIELDS_OWN_INHERITED_DOUBLE_SILENT_THIRD_JET",
         ),
@@ -4003,8 +4003,31 @@ def main() -> None:
     require(g337_hostile["verdict"] == "PASS"
             and g337_hostile["mutations_caught"] == 17,
             "G337 hostile controls changed")
+    g337_external_path = g337 / "EXTERNAL_REVIEW_RESPONSE.md"
+    g337_external = g337_external_path.read_text(encoding="utf-8")
+    g337_repair_prereg = (g337 / "PREREGISTRATION_EXTERNAL_REPAIR.md").read_text(
+        encoding="utf-8"
+    )
+    g337_repair = (g337 / "REPAIR_IMPLEMENTATION.md").read_text(encoding="utf-8")
+    require(hashlib.sha256(g337_external_path.read_bytes()).hexdigest()
+            == "f211d162488c84ae5a10b22eaa69daf1474c2f41dedfc714abc5e1738a96c597"
+            and g337_external.rstrip().endswith(
+                "ACCEPT_WITH_REPAIRS__G337_BOUNDED_THIRD_JET_OWNERSHIP_RETAINED"
+            )
+            and "No mathematical defect strong enough to refute" in g337_external,
+            "G337 fresh external review changed")
+    require("Preregistered at commit: `0b8cfc45`" in g337_repair
+            and "SEALED_REPLAY_SOURCE_LAYOUT_REPAIR_ONLY" in g337_repair_prereg
+            and "sources/" in g337_repair
+            and "byte-identical" in g337_repair,
+            "G337 R1 preregistration or local implementation changed")
     g337_row = by_id["G337"]
-    require("PENDING_EXTERNAL_REVIEW" in g337_row["current_status"]
+    require("EXTERNAL_ACCEPT_WITH_REPAIR_PENDING_R1_FOLLOWUP"
+            in g337_row["current_status"]
+            and "FRESH_GPT54_REDERIVATION_RETAINED_MATHEMATICS"
+            in g337_row["current_status"]
+            and "SEALED_SOURCE_LAYOUT_R1_PREREGISTERED_AT_0B8CFC45_AND_LOCALLY_REPAIRED"
+            in g337_row["current_status"]
             and "149_EXACT_PRODUCTION_CHECKS" in g337_row["current_status"]
             and "26_IMPLEMENTATION_DISTINCT_EXACT_CHECKS" in g337_row["current_status"]
             and "69_AGGREGATE_GATES" in g337_row["current_status"]

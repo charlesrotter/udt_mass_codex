@@ -35,12 +35,14 @@ def run(script: str, output: Path):
 
 
 def frozen_source(relative: Path, size: int, digest: str) -> bytes:
-    candidate = (ROOT / relative).resolve()
-    if not candidate.is_relative_to(ROOT.resolve()):
-        raise AssertionError(f"source escaped repository: {relative}")
-    payload = candidate.read_bytes() if candidate.is_file() else b""
-    if len(payload) == size and hashlib.sha256(payload).hexdigest() == digest:
-        return payload
+    for base in (ROOT, ROOT / "sources"):
+        resolved_base = base.resolve()
+        candidate = (base / relative).resolve()
+        if not candidate.is_relative_to(resolved_base):
+            raise AssertionError(f"source escaped allowed root: {relative}")
+        payload = candidate.read_bytes() if candidate.is_file() else b""
+        if len(payload) == size and hashlib.sha256(payload).hexdigest() == digest:
+            return payload
     replay = subprocess.run(
         ["git", "show", f"{PREREG_COMMIT}:{relative.as_posix()}"],
         cwd=ROOT, capture_output=True, check=False,

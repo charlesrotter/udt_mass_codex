@@ -11,3 +11,7 @@ Date: 2026-09-03
 7. Six frozen sources were hashed from the preregistration commit.
 8. Aggregate dependency-free replay passed 69 gates.
 9. No long solve, GPU, observation, fit, protected package, or external physics was used.
+10. Fresh external review retained the mathematics and requested one sealed source-layout repair.
+11. R1 was preregistered and pushed at commit `0b8cfc45` before implementation.
+12. The corrected verifier resolves authenticated frozen sources directly from the sealed layout.
+13. A direct sealed-copy aggregate replay is now a builder gate; external follow-up remains pending.

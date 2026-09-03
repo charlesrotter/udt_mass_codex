@@ -6,6 +6,9 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import json
+import subprocess
+import tempfile
 from pathlib import Path
 
 
@@ -16,6 +19,7 @@ def digest(path: Path) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("intake")
+    parser.add_argument("--replay-package", action="store_true")
     args = parser.parse_args()
     intake = Path(args.intake).resolve()
     manifest, seal = intake / "REVIEW_MANIFEST.tsv", intake / "REVIEW_MANIFEST.sha256"
@@ -39,6 +43,32 @@ def main() -> None:
             f"sealed file-set mismatch: extras={sorted(actual-expected)}, missing={sorted(expected-actual)}"
         )
     print(f"G337 intake PASS: {len(rows)} payloads")
+    if args.replay_package:
+        with tempfile.TemporaryDirectory(prefix="g337_sealed_replay_") as temporary:
+            output = Path(temporary) / "PACKAGE_VERIFICATION_RESULT.json"
+            result = subprocess.run(
+                [
+                    "python3", "-B", "-S", str(intake / "package" / "verify_package.py"),
+                    "--output", str(output),
+                ],
+                cwd=intake,
+                text=True,
+                capture_output=True,
+                check=False,
+            )
+            if result.returncode:
+                raise SystemExit(
+                    "sealed aggregate replay failed: " + (result.stderr or result.stdout)
+                )
+            payload = json.loads(output.read_text(encoding="utf-8"))
+            registered = intake / "package" / "PACKAGE_VERIFICATION_RESULT.json"
+            if output.read_bytes() != registered.read_bytes():
+                raise SystemExit("sealed aggregate replay changed the registered result")
+            if not payload.get("all_passed"):
+                raise SystemExit("sealed aggregate replay did not pass")
+            print(
+                f"G337 sealed package replay PASS: {payload['check_count']} aggregate gates"
+            )
 
 
 if __name__ == "__main__":

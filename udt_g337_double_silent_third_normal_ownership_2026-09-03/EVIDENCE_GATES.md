@@ -14,7 +14,10 @@
 | Finite fixed boosts | PASS | exact analytic identity and rational controls |
 | Premise audit | PASS | no imported physical mechanism |
 | Aggregate package replay | PASS | 69/69 gates |
-| Fresh external review | PENDING | sealed intake not yet dispatched |
+| Fresh external review | PASS WITH R1 | mathematics retained; sealed source-layout repair requested |
+| R1 preregistration | PASS | commit `0b8cfc45`; no scientific change permitted |
+| R1 implementation | PASS LOCALLY | direct sealed-layout aggregate replay added |
+| R1 external follow-up | PENDING | corrected intake not yet dispatched |
 
 Current bounded grade:
-`DERIVED_CONDITIONAL_BOUNDED__INDEPENDENTLY_VERIFIED__PENDING_EXTERNAL_REVIEW`.
+`DERIVED_CONDITIONAL_BOUNDED__EXTERNAL_ACCEPT_WITH_REPAIR__PENDING_REPAIR_FOLLOWUP`.

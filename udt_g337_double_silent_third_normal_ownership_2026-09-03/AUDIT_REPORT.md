@@ -22,7 +22,10 @@ Landing:
 - independent verifier: 26 exact checks, no production import or result read;
 - hostile suite: 17/17 mutations caught;
 - aggregate package replay: 69/69 gates passed;
-- fresh external adversarial review: pending.
+- fresh external adversarial review: bounded mathematics retained;
+- requested repair: sealed source-layout replay only;
+- R1 preregistered at `0b8cfc45` and implemented without changing scientific outputs;
+- repair-only external follow-up: pending authorization.
 
 Current maximum grade:
-`DERIVED_CONDITIONAL_BOUNDED__INDEPENDENTLY_VERIFIED__PENDING_EXTERNAL_REVIEW`.
+`DERIVED_CONDITIONAL_BOUNDED__EXTERNAL_ACCEPT_WITH_REPAIR__PENDING_REPAIR_FOLLOWUP`.

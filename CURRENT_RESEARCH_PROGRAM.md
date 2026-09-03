@@ -122,8 +122,8 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Seal and submit G337 for fresh adversarial review. Do not begin a fourth-jet ladder before that
-gate. If retained, map the bounded choice between classifying arbitrary higher pair-germ carry and
+Seal and submit the corrected G337 R1 package for repair-only external follow-up. Do not begin a
+fourth-jet ladder before that gate. If accepted, map the bounded choice between classifying arbitrary higher pair-germ carry and
 constructing an explicit short-time development of a declared lawful datum. Do not infer physical-
 germ population, global persistence, topology selection, stability, occupancy, matter/mass,
 scale, `X_max`, or canon.

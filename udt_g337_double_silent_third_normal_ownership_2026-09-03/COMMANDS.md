@@ -9,3 +9,10 @@ python3 -B -S udt_g337_double_silent_third_normal_ownership_2026-09-03/verify_do
 python3 -B -S udt_g337_double_silent_third_normal_ownership_2026-09-03/run_catch_proofs.py --output udt_g337_double_silent_third_normal_ownership_2026-09-03/CATCH_PROOF_RESULT.json
 python3 -B -S udt_g337_double_silent_third_normal_ownership_2026-09-03/verify_package.py --output udt_g337_double_silent_third_normal_ownership_2026-09-03/PACKAGE_VERIFICATION_RESULT.json
 ```
+
+Repair-only packaging and sealed-layout replay:
+
+```bash
+python3 -B -S udt_g337_double_silent_third_normal_ownership_2026-09-03/build_repair_followup_intake.py
+python3 -B -S INTAKE/package/verify_review_intake.py INTAKE --replay-package
+```

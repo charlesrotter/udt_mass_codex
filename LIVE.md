@@ -57,7 +57,8 @@ blind at zero boost. This is an initial second-jet classification, not finite-ti
 stability, occupancy/history selection, matter/mass, scale, `X_max`, or canon. Metric, kernel,
 angular sector, and adopted equation remain unchanged.
 
-G337 is independently verified and pending fresh external review. On exact inherited double
+G337's bounded mathematics survived fresh external review; one sealed-replay source-layout repair
+is preregistered at `0b8cfc45`, implemented locally, and pending repair-only follow-up. On exact inherited double
 silence, the active conditional equation fixes the third normal response from the complete smooth
 initial fields `(gamma,K)` and their spatial jets. It does not reduce to the five pointwise labels
 `(R,b,C,Lambda,mu)`: two exact invariantly distinct lawful germs share those labels but have
@@ -76,7 +77,7 @@ G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337.
 
-Authority: the exact 320-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through independently verified G337 pending external review.
+Authority: the exact 320-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G337 external acceptance with R1 follow-up pending.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -100,8 +101,8 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Seal G337 and obtain a fresh read-only adversarial review of the complete-field versus pointwise-
-tuple ownership result. Do not begin a fourth-jet ladder before that gate. If retained, map the
+Seal the corrected G337 R1 package and obtain a repair-only external follow-up. Do not begin a
+fourth-jet ladder before that gate. If the repair is accepted, map the
 next bounded choice between arbitrary higher pair-germ carry and an explicit short-time development
 of a declared lawful datum; do not select occupancy, topology, matter/mass, scale, `X_max`, or
 canon, and do not claim finite-time/global stability from an initial jet.
