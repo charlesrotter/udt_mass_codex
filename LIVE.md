@@ -26,7 +26,7 @@ G166--G276 is structural; G277--G281 controls observations; G282--G300 isolates 
 causal carry, and query ownership. G301--G309 narrows a bounded equation fork and constructs compact
 branches. G310's Universal Reciprocity is Charles's plain-language statement; DDR is its tested
 curvature-level mathematical formulation: one postulate with two formulations. It is
-`OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or canonized.
+`OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or canonized;
 angular-sector cancellation owns loud--quiet--loud. G312 premises are owner-adopted provisionally. Its quiet-GR
 response and Local Metric Sufficiency make trace-free Ricci the bounded response constitution with
 one connected scalar; global bootstrap remains optional. Metric, kernel, and angular interfaces are
@@ -57,17 +57,28 @@ the complete pair pullback records this spatial first jet while its terminal sca
 uses no Hopf/orbit/topology input. It is one first-instant result, not a general pair theorem,
 evolution, persistence, stability, occupancy, matter/mass, scale, physical `X_max`, or canon.
 
+G334 is externally accepted after preregistered evidence repairs R1--R3. For every G333 unit
+direction and every finite local boost, the inherited first normal pair jet is the exact Lorentz
+congruence
+`2q[[sinh(z)^2,sinh(z)cosh(z)],[sinh(z)cosh(z),cosh(z)^2]]`. Its mixed trace remains `2q`; the
+complete inherited matrix retains `q`, while terminal `n(Phi)=q sinh(z)^2` is blind at zero boost.
+For arbitrary supplied frame transport the additional matrix is
+`[[-2alpha,beta-gamma],[beta-gamma,2delta]]`, so boost value alone does not determine the general
+pair first jet. This is still the G333 normal derivative, not boosted-observer time evolution,
+finite-time persistence, all physical germs, stability, occupancy, matter/mass, scale, `X_max`, or
+canon. Metric, kernel, angular sector, and adopted equation remain unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G333 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G334 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334.
 
-Authority: the exact 316-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through externally accepted G333.
+Authority: the exact 317-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through externally accepted G334.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -91,11 +102,10 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Preregister a metric-led first-jet extension from G333's normal--spatial diagnostic to arbitrary
-locally boosted orthonormal timelike--spatial pair germs on the same G332 slice. Keep boost,
-direction, both square-root branches, and vector transport explicit. Determine how the already
-derived common-plus-directional response is distributed among `h00`, `h01`, `h11` and terminal
-`Phi`. Do not claim all physical germs, finite-time evolution, topology selection, stability,
-occupancy, matter/mass, scale, `X_max`, or canon. If this closes, proceed to a separately
-preregistered nonzero-time persistence test.
+Preregister the metric-led nonzero-time persistence test that G334 now makes well typed. Follow the
+G334 complete pair matrix along a bounded marked development, keeping observer direction, boost,
+frame transport, spatial first jet, both G332 branches, and the distinction between normal and
+observer-time derivatives explicit. Determine what persists, mixes, or is lost without selecting
+physical germs or occupancy. Do not claim global persistence, stability, matter/mass, scale,
+`X_max`, or canon.
 <!-- STARTUP_CURRENT_END -->

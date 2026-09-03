@@ -1,0 +1,33 @@
+{
+  "checks": [
+    "fresh_review_builder_pass",
+    "fresh_review_declared_count_exact",
+    "fresh_review_actual_count_exact",
+    "fresh_review_has_no_bytecode",
+    "fresh_review_intake_verifier_pass",
+    "fresh_review_package_replay_pass",
+    "fresh_review_scientific_103_retained",
+    "fresh_review_replay_byte_exact_and_no_extra",
+    "fresh_review_hostile_extra_rejected",
+    "fresh_review_hostile_extra_rejection_reason",
+    "repair_followup_builder_pass",
+    "repair_followup_declared_count_exact",
+    "repair_followup_actual_count_exact",
+    "repair_followup_has_no_bytecode",
+    "repair_followup_intake_verifier_pass",
+    "repair_followup_package_replay_pass",
+    "repair_followup_scientific_103_retained",
+    "repair_followup_replay_byte_exact_and_no_extra",
+    "repair_followup_hostile_extra_rejected",
+    "repair_followup_hostile_extra_rejection_reason"
+  ],
+  "checks_passed": 20,
+  "fresh_review_file_count": 43,
+  "landing": "G334_SEALED_FILE_SET_AND_NO_BYTECODE_REPLAY_REPAIRED__SCIENTIFIC_LANDING_UNCHANGED",
+  "package": "G334",
+  "r3_landing": "G334_FRESH_AND_REPAIR_FOLLOWUP_SEALED_PRODUCTS_EXPLICITLY_SEPARATED__R1_R2_BEHAVIOR_RETAINED__SCIENTIFIC_LANDING_UNCHANGED",
+  "repair_followup_file_count": 46,
+  "result_is_digest_independent": true,
+  "scientific_landing_changed": false,
+  "verdict": "PASS"
+}

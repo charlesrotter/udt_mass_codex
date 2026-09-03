@@ -1,0 +1,15 @@
+item	status	maximum_statement
+G334_preregistration	PREREGISTERED	frozen at commit 9781aa87 before outcome execution
+inherited_finite_boost_response	DERIVED_CONDITIONAL_BOUNDED	exact Lorentz congruence of G333 first normal jet
+boost_invariant_q	DERIVED_CONDITIONAL_BOUNDED	mixed trace/2 or diagonal difference/2 on inherited transport
+terminal_Phi	DERIVED_CONDITIONAL_BOUNDED	q*sinh(z)^2 on inherited transport; blind at zero boost
+arbitrary_pair_first_jet	TRANSPORT_QUALIFIED	pointwise boost alone is insufficient
+Lorentz_boost_rate	DERIVED_CONDITIONAL_BOUNDED	antisymmetric frame rate cancels from first metric-component jet
+reorthonormalized_frame	CLASSIFICATION_CONTROL	raw component jet may vanish while geometry moves into transport
+new_response_channel	NOT_FOUND_IN_BOUNDED_SCOPE	boost redistributes q and creates no independent invariant
+observer_time_evolution	OPEN	requires spatial jet and nonzero-time development
+all_physical_germs_population	OPEN	no pair population or transport rule selected
+topology_Hopf	NOT_LOAD_BEARING	no orbit closure or fibre input used
+metric_kernel_angular	UNCHANGED	evaluated rather than modified
+external_review	EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS	fresh scientific landing retained and final R1-R3 follow-up accepted
+matter_mass_scale_Xmax_canon	OPEN	no claim

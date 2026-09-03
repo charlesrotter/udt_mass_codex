@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "baseline_nonzero_and_branched",
+    "wrong_cross_sign",
+    "dropped_general_transport_terms",
+    "terminal_phi_transport_omission",
+    "false_terminal_completeness_at_zero_boost",
+    "collapsed_G332_branches",
+    "normal_derivative_promoted_to_observer_time",
+    "boost_value_called_transport_complete",
+    "Lorentz_boost_rate_false_leak",
+    "zero_frame_components_called_zero_geometry",
+    "terminal_phi_sign_mutation",
+    "inserted_Hopf_dependency",
+    "scope_tokens_present",
+    "scope_promotion_rejected"
+  ],
+  "mutations_caught": 12,
+  "package": "G334",
+  "verdict": "PASS"
+}
