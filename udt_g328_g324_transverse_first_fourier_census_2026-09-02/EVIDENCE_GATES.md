@@ -10,7 +10,10 @@ Date: 2026-09-02
 3. **Independent:** yes; production uses direct four-dimensional connection variation, while the
    independent verifier uses Gauss--Codazzi/ADM first variation plus a separately reconstructed
    Lie image and special-function reduction.
-4. **Premise audited:** yes; the 310-row exact current-premise verifier passed, and the repository
-   suite passed `219 passed, 1 known xfailed`.
+4. **Premise audited:** yes; the 311-row exact current-premise verifier passed after external
+   recording, and the repository suite passed `220 passed, 1 known xfailed`.
 
-External adversarial review is still required before an externally accepted grade.
+Fresh external `gpt-5.4` review authenticated the intake, reran all registered checks, independently
+reconstructed the load-bearing algebra, and returned
+`ACCEPT__G328_BOUNDED_TRANSVERSE_CENSUS` without repair. The acceptance remains limited to the
+declared primitive transverse tile.

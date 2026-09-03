@@ -28,7 +28,7 @@ Metric/kernel/angular cancellation remain unchanged; no universe, scale, or `X_m
 G313--G324 leaves a multibranch Einstein arena, optional global bootstrap, marked developments, a compact lattice modulus, future
 completeness and proper `C2` inextendibility; past `C0`, occupancy, scale, and stability stay open.
 G325/G326 closes twelve homogeneous constants. G327 externally accepts axial `J0/Y0` modes.
-G328 internally verifies pending review the complete transverse `y` tile: even `J0/Y0`, odd
+G328 is externally accepted without repair for the complete transverse `y` tile: even `J0/Y0`, odd
 `J3/Y3`, eight constants, and future `T^(-1/6)` relative envelope. Oblique modes remain open;
 metric/kernel/angular/equation are unchanged.
 
@@ -60,8 +60,7 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 311-row registry includes G307--G327 at their externally reviewed bounded grades and
-G328 at its internal-verified, external-pending grade.
+The exact 311-row registry includes G307--G328 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -70,8 +69,8 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: obtain fresh external adversarial review of G328. If accepted, preregister the first genuinely
-oblique nonzero Fourier covector around the G324 quotient MGHDs, with full periodic gauge/constraint
+Next: preregister the first genuinely oblique nonzero Fourier covector around the G324 quotient
+MGHDs, with full periodic gauge/constraint
 decomposition and compact-time endpoint contract. G327 closes only the primitive axial tensor tile
 and G328 only one transverse tile. Do not infer
 full linear or nonlinear stability, occupancy, uniqueness,

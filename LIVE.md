@@ -63,7 +63,7 @@ G327 externally accepts after R1--R3 repair the primitive axial tensor Fourier t
 gauge-invariant polarizations, two phases, and `J0/Y0`, totaling eight real constants. Past branches
 are finite/logarithmic; both future branches oscillate with `T^(-2/3)` relative-norm decay. Other
 directions/sectors and stability remain open. Metric/kernel/angular/equation are unchanged.
-G328 internally verifies, pending fresh external review, the complete primitive transverse
+G328 is externally accepted after a fresh no-repair adversarial review of the complete primitive transverse
 `y`-directed nonzero Fourier first variation modulo all four periodic same-mode gauge functions.
 It has two physical master families: even `J0/Y0` and odd `J3/Y3`, two real phases each, hence
 eight real constants. Its past branches are finite/logarithmic and `T`/`T^(-1)`; all future branches
@@ -94,8 +94,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 311-row registry includes G307--G327 at their externally reviewed bounded grades and
-G328 at `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`.
+The exact 311-row registry includes G307--G328 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -114,8 +113,7 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Obtain fresh external adversarial review of G328's preregistered primitive transverse-wavevector
-first-variation census. If accepted, preregister the first genuinely oblique nonzero Fourier
+Preregister the first genuinely oblique nonzero Fourier
 covector with the full ten-component periodic gauge/constraint decomposition and compact-time
 endpoint contract. G327 closes only the axial tensor tile and G328 only one transverse tile. This
 next gate is not a claim of full

@@ -90,7 +90,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   polarizations, two real phases, `J0/Y0` time basis, and eight real constants. Its finite/logarithmic
   past split and oscillatory `T^(-2/3)` future decay are classifications in the declared norm, not
   endpoint selection or stability. Other wavevectors and coupled sectors stay open.
-- G328 internally closes, pending external review, the complete primitive transverse `y`-directed
+- G328 is externally accepted without repair for the complete primitive transverse `y`-directed
   Fourier tile modulo four periodic gauge functions. Its physical quotient has even `J0/Y0` and odd
   `J3/Y3` masters, two phases each and eight real constants. Its past branch classes and future
   `T^(-1/6)` relative envelope are classifications, not endpoint selection or stability. Oblique
@@ -102,8 +102,8 @@ The corpus owns the evaluator, screen-before-readout, frame carry, W5 typing, an
 conditional dynamics. It does not own populated germs, operational distance, data, population,
 scale, or realized history. G296--G312 locates and owner-activates bounded trace-free Ricci;
 G313--G324 retains multiple data, developments, quotients, and optional bootstrap. G325/G326
-classifies homogeneous variations; G327 the axial Fourier tile; G328 one transverse tile pending
-review. None selects data/perturbations or proves stability. The positive round branch retains one
+classifies homogeneous variations; G327 the axial Fourier tile; G328 one externally accepted
+transverse tile. None selects data/perturbations or proves stability. The positive round branch retains one
 curvature scale; mass, population, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -112,8 +112,8 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Obtain fresh external adversarial review of G328. If accepted, preregister the first genuinely
-oblique nonzero Fourier covector around the explicit G324 quotient MGHDs, including the full
+Preregister the first genuinely oblique nonzero Fourier covector around the explicit G324 quotient
+MGHDs, including the full
 periodic gauge/constraint decomposition and compact-time endpoint contract. Do not infer full linear or nonlinear
 stability, occupancy, uniqueness, singularity avoidance, arbitrary inextendibility, scale, or
 `X_max`. Import no action, source, matter/mass, observation, fit, protected work, or new equation.

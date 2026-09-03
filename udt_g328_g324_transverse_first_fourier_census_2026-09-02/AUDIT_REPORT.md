@@ -1,7 +1,7 @@
 # G328 audit report — primitive transverse Fourier census
 
 Date: 2026-09-02
-Status: `INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW`
+Status: `EXTERNALLY_ACCEPTED_NO_REPAIR`
 
 ## Landing
 
@@ -39,8 +39,12 @@ gauge-invariant masters, so neither family is a coordinate artifact.
   reconstruction;
 - aggregate package verifier: 71 assertions, four literal commands replayed in a clean writable
   copy from the vendored SymPy runtime, and three canned-answer substitutions rejected;
-- exact current-premise verifier passed on 310 rows through G327;
-- repository suite: `219 passed, 1 known xfailed`.
+- exact current-premise verifier passed after external recording on 311 rows through G328;
+- repository suite after external recording: `220 passed, 1 known xfailed`.
+- fresh external `gpt-5.4` reviewer authenticated all 40 manifest payloads, replayed all four
+  registered commands from the vendored runtime, independently rebuilt the ten-component
+  calculation and exact quotient, and returned
+  `ACCEPT__G328_BOUNDED_TRANSVERSE_CENSUS` without requesting repair.
 
 ## Four gates
 
@@ -59,4 +63,5 @@ do physical occupancy, topology selection, scale, observations, matter/mass, his
 and physical `X_max`.
 
 No UDT metric coefficient, reciprocal-kernel operator, angular-sector formula, or field equation
-was modified. External adversarial review is pending.
+was modified. Fresh external adversarial review accepted this bounded tile without repair; it did
+not broaden the claim to the oblique spectrum or stability.

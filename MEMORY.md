@@ -12,7 +12,7 @@ Local Metric Sufficiency are owner-provisional, not derived or canon; the bounde
 is trace-free Ricci with one scalar. Scale, history, and physical `X_max` remain open.
 G313--G324 leaves broad data, marked developments, a compact lattice modulus, future completeness,
 and proper `C2` inextendibility. G325/G326 closes twelve homogeneous constants. G327 externally
-accepts axial `J0/Y0` modes. G328 internally verifies pending review the complete transverse `y`
+accepts axial `J0/Y0` modes. G328 is externally accepted without repair for the complete transverse `y`
 tile: even `J0/Y0`, odd `J3/Y3`, eight constants, future `T^(-1/6)` relative envelope. Oblique
 modes, past `C0`, stability, occupancy, and scale remain open; metric/kernel/angular are unchanged.
 
@@ -34,8 +34,8 @@ a local input. Strong CSN is inactive.
 
 ## Next gate
 
-Obtain fresh external review of G328. If accepted, preregister the first genuinely oblique nonzero
-Fourier covector around the G324 quotient MGHDs with full periodic gauge/constraint decomposition
+Preregister the first genuinely oblique nonzero Fourier covector around the G324 quotient MGHDs
+with full periodic gauge/constraint decomposition
 and compact-time endpoint contract. G327 closes only the axial tensor tile and G328 only one
 transverse tile. Keep this distinct from full stability, singularity avoidance, occupancy, scale,
 or uniqueness.

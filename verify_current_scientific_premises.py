@@ -1675,7 +1675,7 @@ def main() -> None:
             "PRIMITIVE_AXIAL_TENSOR_MODE_CLOSES_AS_TWO_GAUGE_INVARIANT_POLARIZATIONS",
         ),
         "G328": (
-            "INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW__PREREGISTERED_AT_96298482",
+            "EXTERNALLY_ACCEPTED_NO_REPAIR__FRESH_GPT54_AUTHENTICATED_40_PAYLOADS",
             "udt_g328_g324_transverse_first_fourier_census_2026-09-02/AUDIT_REPORT.md",
             "PRIMITIVE_TRANSVERSE_FOURIER_SECTOR_CLOSES_MODULO_PERIODIC_GAUGE",
         ),
@@ -3235,10 +3235,25 @@ def main() -> None:
             and g328_catch["assertion_count"] == 7
             and len(g328_catch["caught"]) == 7,
             "G328 hostile controls changed")
-    require("INTERNAL_VERIFIED_PENDING_EXTERNAL_REVIEW" in
+    require("EXTERNALLY_ACCEPTED_NO_REPAIR" in
             (g328 / "AUDIT_REPORT.md").read_text(encoding="utf-8"),
-            "G328 internal-pending grade changed")
+            "G328 externally accepted grade changed")
+    g328_external_path = g328 / "EXTERNAL_REVIEW.md"
+    g328_external = g328_external_path.read_text(encoding="utf-8")
+    require(
+        hashlib.sha256(g328_external_path.read_bytes()).hexdigest()
+        == "9fc5ed67f54643dc62be672a582d4d9650904dcab59c77f96e2467d271afa59a"
+        and g328_external.rstrip().endswith("ACCEPT__G328_BOUNDED_TRANSVERSE_CENSUS")
+        and "full `3 + 7 = 10` symmetric metric content" in g328_external
+        and "No branch was missing" in g328_external,
+        "G328 fresh external acceptance changed",
+    )
     g328_row = by_id["G328"]
+    require("EXTERNALLY_ACCEPTED_NO_REPAIR" in g328_row["current_status"]
+            and "FRESH_GPT54_AUTHENTICATED_40_PAYLOADS" in g328_row["current_status"]
+            and "EXACT_VERDICT_ACCEPT_G328_BOUNDED_TRANSVERSE_CENSUS"
+            in g328_row["current_status"],
+            "G328 external registry grade changed")
     require("COMPLETE_PRIMITIVE_TRANSVERSE_Y_DIRECTED_NONZERO_FOURIER_FIRST_VARIATION"
             in g328_row["active_use"], "G328 active-use boundary changed")
     require("oblique wavevectors" in g328_row["open_scope"]

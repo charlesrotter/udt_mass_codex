@@ -22,7 +22,7 @@
 | Universal Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` 2026-08-31 | Charles's plain-language statement of the postulate expressed mathematically by DDR | Extension; canonization |
 | Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` G310 | Tested mathematical formulation; conditionally selects trace-free Ricci in bounded G301 | Extension; scalar datum; history |
 | G311 covariant response | `EXTERNALLY_ACCEPTED_WITH_RESPONSE_CONSTITUTION_BOUNDARY` | `TF_g(E)=0`; conditional G301 dynamics | Response constitution; scale/history |
-| G312--G328 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + mixed grades | Local Metric Sufficiency; quotient/mode tiles | G328 review; oblique sectors; stability; scale; selector |
+| G312--G328 | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` + mixed grades | Local Metric Sufficiency; quotient/mode tiles | Oblique sectors; stability; scale; selector |
 
 ## Reconstruction hierarchy
 
@@ -75,7 +75,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 | G325 | external/R1 accepted | Six homogeneous diagonal constants: gauge, lattice, shear, scalar | Off-diagonal/Fourier; stability; occupancy; scale |
 | G326 | external/R1-R2 accepted | Five quotient moduli plus one shear; homogeneous total twelve | Fourier; stability; occupancy; scale |
 | G327 | external/R1--R3 accepted | Axial tensor tile: two polarizations, `J0/Y0`, eight constants | Other directions/sectors; stability; occupancy; scale |
-| G328 | internal verified; external pending | Complete transverse `y` tile: even `J0/Y0`, odd `J3/Y3`, eight constants | External review; oblique sectors; stability; occupancy; scale |
+| G328 | externally accepted; no repair | Complete transverse `y` tile: even `J0/Y0`, odd `J3/Y3`, eight constants | Oblique sectors; stability; occupancy; scale |
 ## Scale and limits
 
 | Object | Status | Guard |
@@ -95,7 +95,7 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
 - Pullbacks and the bivector area bilinear recover `g`; scalars stop at positive conformal class.
   G282--G312 separates boundaries and activates bounded trace-free Ricci. G313--G324 retains many
   data/developments and quotients. G325/G326 classifies homogeneous variations; G327 axial and G328
-  one internally verified transverse Fourier tile. Oblique sectors, stability, and selection stay open.
+  one externally accepted transverse Fourier tile. Oblique sectors, stability, and selection stay open.
   Angular cancellation owns loud--quiet--loud; W1 evaluates.
 
 ## Carrier, action, source, and matter
