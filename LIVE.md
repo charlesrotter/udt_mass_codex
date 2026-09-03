@@ -63,13 +63,21 @@ strict-oblique tile: four periodic gauges leave two parity masters and eight con
 components and the changing physical angle remain; residuals, G327/G328 limits, Wronskians, and
 controlled endpoint branches close. These are single-mode results, not mode-uniform or nonlinear
 stability; metric/kernel/angular/equation are unchanged.
+G330 is externally accepted after preregistered evidence repairs. On supplied nonround Berger-`S3`
+constraint data, the spatial Ricci tensor has a simple metric-defined eigenline whose closed orbits
+are the Hopf fibres. Fibre-length normalization gives orientation-blind absolute helicity one.
+Conditional on the general imported smooth marked Einstein-Cauchy theorem and its standard
+isometry-extension consequence, that line persists on a nonzero local interval while its eigengap
+stays open. The round limit selects no line, and other admitted topologies remain controls. This is
+a metric-native local history discriminator, not the old carrier/action, a stability theorem, an
+occupancy selector, matter/mass, scale, `X_max`, or canon; metric/kernel/angular/equation are unchanged.
 A supplied germ pulls
 `B,Q,S,Y,Z` into `h=F^*g` before readout. Completed-pair Dual
 Reciprocity remains provisional: `m=T L_sigma=sqrt(-det h_sigma)` and `Phi=-log T`. Events, germs,
 population, higher/full carry, history, and global realization remain supplied or `OPEN`.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G329 history/dynamics. The positive round cosh history is one exact branch of the G313
+G282--G330 history/dynamics. The positive round cosh history is one exact branch of the G313
 multibranch Einstein arena; G314 keeps unique-universe bootstrap optional and open.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
@@ -77,7 +85,7 @@ G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290.
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330.
 
 `X_max` remains an open frame-shared positional-dilation asymptote, not an input, wall, center, or
 derived numerical scale.
@@ -88,7 +96,7 @@ Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evaluator:
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 312-row registry includes G307--G329 at their externally reviewed bounded grades.
+The exact 313-row registry includes G307--G330 at their externally reviewed bounded grades.
 
 ### Observational boundary
 
@@ -107,12 +115,11 @@ Do not stage, modify, mine, or cite without specific dispatch:
 
 ### Next gate
 
-Preregister a mode-uniform assembly of the G325--G329 homogeneous, axial, transverse, and oblique
-strata on the full registered compact Fourier lattice. Fix one geometric perturbation norm and test
-constraint preservation, summability, component-axis transitions, and estimates uniform in mode on
-compact positive-time intervals before asking whether a bounded full linear-stability statement is
-supportable. Do not filter endpoint branches or infer nonlinear stability, physical occupancy,
-singularity avoidance, arbitrary Lorentzian inextendibility, scale, or `X_max`. Keep
-actualization/bootstrap optional and import no action, source, matter/mass, observation, protected
-work, or new equation.
+Preregister the first genuinely nonsymmetric metric perturbation test of G330's nonround Berger-`S3`
+stratum under the active conditional equation. Ask whether the simple Ricci eigenline remains a
+smooth global line/fibration for a bounded perturbation class, identify the exact eigengap and
+topology obstructions, and separate local structural persistence from energetic or long-time
+stability. Use the complete metric only: do not reimport the old `S2` carrier or `L2+L4` action, and
+do not infer physical occupancy, matter/mass, scale, `X_max`, or canon. Mode-uniform G325--G329
+assembly remains a valid later GR-arena task, not the immediate UDT frontier.
 <!-- STARTUP_CURRENT_END -->

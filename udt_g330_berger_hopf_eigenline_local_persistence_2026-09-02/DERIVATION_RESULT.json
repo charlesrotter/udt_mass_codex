@@ -1,0 +1,110 @@
+{
+  "Xmax_selected": false,
+  "action_imported": false,
+  "all_passed": true,
+  "carrier_imported": false,
+  "check_count": 39,
+  "checks": [
+    "ricci_00_exact",
+    "ricci_01_exact",
+    "ricci_02_exact",
+    "ricci_10_exact",
+    "ricci_11_exact",
+    "ricci_12_exact",
+    "ricci_20_exact",
+    "ricci_21_exact",
+    "ricci_22_exact",
+    "scalar_exact",
+    "eigengap_exact",
+    "g313_gap_five",
+    "g313_horizontal",
+    "g313_vertical",
+    "g313_scalar",
+    "g313_hamiltonian_constraint",
+    "spectral_projector_rank_one",
+    "rotation_0_orthogonal",
+    "projector_0_covariant",
+    "rotation_1_orthogonal",
+    "projector_1_covariant",
+    "rotation_2_orthogonal",
+    "projector_2_covariant",
+    "normalized_hopf_magnitude_one",
+    "line_reversal_invariant",
+    "orientation_reversal_absolute_invariant",
+    "scale_1/3_gap",
+    "scale_1/3_hopf",
+    "scale_2_gap",
+    "scale_2_hopf",
+    "scale_11/5_gap",
+    "scale_11/5_hopf",
+    "round_limit_degenerate",
+    "local_gap_control_1_3/2_-1",
+    "local_gap_control_1_3/2_1",
+    "local_gap_control_2_1_-1",
+    "local_gap_control_2_1_1",
+    "local_gap_control_5/4_7/4_-1",
+    "local_gap_control_5/4_7/4_1"
+  ],
+  "data_constraint": "R3+6*h^2=2*Lambda; momentum vanishes by homogeneity",
+  "dynamic_scope": "nonzero local interval only; smooth U(2)-symmetric development and open eigengap",
+  "eigengap": [
+    {
+      "a_power": -4,
+      "c_power": 2,
+      "coefficient": "4"
+    },
+    {
+      "a_power": -2,
+      "c_power": 0,
+      "coefficient": "-4"
+    }
+  ],
+  "g313_witness": {
+    "a": "1",
+    "c": "3/2",
+    "ricci": [
+      "-1/2",
+      "-1/2",
+      "9/2"
+    ]
+  },
+  "history_selected": false,
+  "landing": "NONROUND_BERGER_S3_METRIC_DEFINES_INTRINSIC_HOPF_EIGENLINE__NORMALIZED_ABSOLUTE_HELICITY_ONE__LOCAL_SMOOTH_EINSTEIN_DEVELOPMENT_PRESERVES_WHILE_GAP_OPEN__ROUND_AND_OTHER_TOPOLOGY_CONTROLS_BLOCK_UNIVERSAL_SELECTOR",
+  "normalized_hopf": "-1",
+  "projector": "P=(Ric-lambda_h I)/(lambda_v-lambda_h); intrinsic rank-one line for a!=c",
+  "ricci_horizontal": [
+    {
+      "a_power": -4,
+      "c_power": 2,
+      "coefficient": "-2"
+    },
+    {
+      "a_power": -2,
+      "c_power": 0,
+      "coefficient": "4"
+    }
+  ],
+  "ricci_vertical": [
+    {
+      "a_power": -4,
+      "c_power": 2,
+      "coefficient": "2"
+    }
+  ],
+  "round_control": "a=c makes the Ricci eigengap zero and removes instantaneous line selection",
+  "scalar": [
+    {
+      "a_power": -4,
+      "c_power": 2,
+      "coefficient": "-2"
+    },
+    {
+      "a_power": -2,
+      "c_power": 0,
+      "coefficient": "8"
+    }
+  ],
+  "scale_selected": false,
+  "stability_claimed": false,
+  "universal_selector": false
+}

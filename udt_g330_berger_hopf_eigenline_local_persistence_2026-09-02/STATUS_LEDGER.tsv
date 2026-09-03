@@ -1,0 +1,16 @@
+object	status	scope_or_limit
+Berger_spatial_Ricci	DERIVED_CONDITIONAL	exact full a>0 c>0 homogeneous S3 family
+nonround_simple_eigenline	DERIVED_CONDITIONAL	metric-defined for a!=c
+frame_gauge_descent	DERIVED_CONDITIONAL	spectral projector transforms tensorially
+Hopf_circle_fibration	DERIVED_CONDITIONAL	integral curves of the simple line on Berger S3
+normalized_absolute_helicity	DERIVED_CONDITIONAL	magnitude one; scale and line-orientation blind
+round_limit	EXACT_NEGATIVE_CONTROL	a=c closes eigengap and selects no member
+local_time_persistence	DERIVED_CONDITIONAL_ON_GENERAL_IMPORTED_EINSTEIN_CAUCHY_UNIQUENESS	nonzero smooth interval while eigengap stays open; depends on the theorem's standard isometry-extension consequence; G321 is a scoped application/interface, not proof of the imported theorem
+global_time_persistence	OPEN	gap closure topology change singularities arbitrary perturbations
+history_discrimination	DERIVED_CONDITIONAL	presence separates admitted nonround Berger from round and non-S3 histories
+history_or_occupancy_selection	OPEN	active equation admits all controls
+historical_S2_carrier	NOT_USED	old round-target field remains POSIT
+historical_L2_L4_stability	NOT_TRANSFERRED	independent carrier energy is not the metric perturbation problem
+matter_mass_backreaction	OPEN	no source action or mass law
+scale_and_Xmax	OPEN	topological magnitude is scale blind
+metric_kernel_angular_equation	UNCHANGED	bounded analysis of an admitted conditional metric-data stratum

@@ -1,0 +1,55 @@
+{
+  "all_caught": true,
+  "catch_count": 8,
+  "production_output_read": false,
+  "records": [
+    {
+      "caught": true,
+      "last_line": "AssertionError: ricci_00_exact",
+      "name": "structure_normalization",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: ricci_00_exact",
+      "name": "ricci_closed_form",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: g313_gap_five",
+      "name": "g313_witness",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: normalized_hopf_magnitude_one",
+      "name": "hopf_normalization",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: round_limit_degenerate",
+      "name": "round_degeneracy",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: rotation_1_projector_descent",
+      "name": "frame_covariance",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: line_sign_cancels",
+      "name": "line_sign",
+      "returncode": 1
+    },
+    {
+      "caught": true,
+      "last_line": "AssertionError: jet_0_1_open_gap",
+      "name": "local_gap",
+      "returncode": 1
+    }
+  ]
+}
