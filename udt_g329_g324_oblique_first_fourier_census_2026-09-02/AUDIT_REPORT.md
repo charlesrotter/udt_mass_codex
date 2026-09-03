@@ -1,6 +1,7 @@
 # G329 audit report — primitive oblique Fourier census
 
 Date: 2026-09-02
+Status: `EXTERNALLY_ACCEPTED_NO_REPAIR`
 
 ## Result
 
@@ -37,11 +38,16 @@ __NO_FULL_STABILITY_CLAIM
 
 ## Evidence grade
 
-The internal grade is
+The externally reviewed bounded grade is
 
 ```text
-DERIVED_CONDITIONAL__INTERNALLY_VERIFIED__EXTERNAL_REVIEW_PENDING
+DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_NO_REPAIR
 ```
+
+Fresh external `gpt-5.4` review authenticated all 41 manifest payloads, reproduced the five saved
+JSON artifacts byte-for-byte by running the four registered commands with the vendored runtime,
+independently eliminated the gauge and constraints from the raw ten-component residuals, and
+returned `ACCEPT__G329_BOUNDED_OBLIQUE_CENSUS` without requesting repair.
 
 The result remains conditional because the G324 background is not selected physical occupancy and
 the trace-free response equation remains an owner-adopted provisional postulate, not a derived or
@@ -49,7 +55,7 @@ canonized law.
 
 ## Boundary
 
-This closes one oblique linear tile. It does not prove full Fourier or nonlinear stability, choose
+This externally closes one oblique linear tile. It does not prove full Fourier or nonlinear stability, choose
 initial data or endpoint branches, select a physical universe, determine a scale, add sources or
 matter, or alter the UDT metric, reciprocal kernel, angular sector, response equation, or physical
 `X_max`.

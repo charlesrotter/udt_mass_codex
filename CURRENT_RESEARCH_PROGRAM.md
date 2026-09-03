@@ -2,7 +2,7 @@
 
 Date: 2026-09-02
 
-`LIVE.md` controls status; the 311-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 312-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
 
 ## Architecture
 
@@ -35,7 +35,7 @@ G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
 G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328.
+G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329.
 
 - G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
   provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
@@ -95,6 +95,11 @@ G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/
   `J3/Y3` masters, two phases each and eight real constants. Its past branch classes and future
   `T^(-1/6)` relative envelope are classifications, not endpoint selection or stability. Oblique
   wavevectors and simultaneous modes stay open.
+- G329 is externally accepted without repair for the complete ten-component primitive strict-oblique
+  tile. Four periodic gauges leave two second-order parity masters and eight real constants. Exact
+  parity decoupling retains both wave components and the time-changing physical propagation angle;
+  every reconstructed residual, G327/G328 limit, Wronskian, and controlled endpoint branch checks.
+  This closes single-mode oblique algebra, not mode-uniform or nonlinear stability.
 
 ## Open boundary
 
@@ -102,8 +107,8 @@ The corpus owns the evaluator, screen-before-readout, frame carry, W5 typing, an
 conditional dynamics. It does not own populated germs, operational distance, data, population,
 scale, or realized history. G296--G312 locates and owner-activates bounded trace-free Ricci;
 G313--G324 retains multiple data, developments, quotients, and optional bootstrap. G325/G326
-classifies homogeneous variations; G327 the axial Fourier tile; G328 one externally accepted
-transverse tile. None selects data/perturbations or proves stability. The positive round branch retains one
+classifies homogeneous variations; G327/G328/G329 close axial, transverse, and strict-oblique
+single-mode tiles. None selects data/perturbations or proves mode-uniform stability. The positive round branch retains one
 curvature scale; mass, population, and physical `X_max` remain open.
 
 R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
@@ -112,8 +117,10 @@ structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-
 
 ## Current next gate
 
-Preregister the first genuinely oblique nonzero Fourier covector around the explicit G324 quotient
-MGHDs, including the full
-periodic gauge/constraint decomposition and compact-time endpoint contract. Do not infer full linear or nonlinear
-stability, occupancy, uniqueness, singularity avoidance, arbitrary inextendibility, scale, or
-`X_max`. Import no action, source, matter/mass, observation, fit, protected work, or new equation.
+Preregister a mode-uniform assembly across the G325--G329 strata on the full registered compact
+Fourier lattice. Declare one geometric perturbation norm and test constraint preservation,
+summability, component-axis transitions, and estimates uniform in mode on compact positive-time
+intervals. Only then ask whether a bounded full linear-stability statement is supportable. Do not
+filter endpoint branches or infer nonlinear stability, occupancy, uniqueness, singularity
+avoidance, arbitrary inextendibility, scale, or `X_max`. Import no action, source, matter/mass,
+observation, fit, protected work, or new equation.

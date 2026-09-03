@@ -29,8 +29,13 @@ G313--G324 leaves a multibranch Einstein arena, optional global bootstrap, marke
 completeness and proper `C2` inextendibility; past `C0`, occupancy, scale, and stability stay open.
 G325/G326 closes twelve homogeneous constants. G327 externally accepts axial `J0/Y0` modes.
 G328 is externally accepted without repair for the complete transverse `y` tile: even `J0/Y0`, odd
-`J3/Y3`, eight constants, and future `T^(-1/6)` relative envelope. Oblique modes remain open;
-metric/kernel/angular/equation are unchanged.
+`J3/Y3`, eight constants, and future `T^(-1/6)` relative envelope. Its oblique extension is closed
+by G329 below; metric/kernel/angular/equation are unchanged.
+G329 is externally accepted without repair for the full ten-component primitive strict-oblique tile:
+four periodic gauges leave two parity masters and eight real constants. Both masters retain the
+time-changing physical wave angle; all residuals, component limits, Wronskians, and controlled
+endpoint branches close exactly. This is single-mode closure, not mode-uniform stability;
+metric/kernel/angular/equation remain unchanged.
 
 On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
 `phi_pair=delta`; conditional `c_eff/c_E=exp(-2 delta)` is not signal speed. Completed-pair Dual
@@ -38,14 +43,14 @@ Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`. Population/history rem
 `OPEN`; higher/full carry is unresolved.
 
 Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G328 history/dynamics. Use `INDEX.md` for exact paths.
+G282--G329 history/dynamics. Use `INDEX.md` for exact paths.
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
 G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290;
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328.
+G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329.
 
 W5 is noncanon normalized projective position. G275/G276 leave one conditional scale. G277--G281
 retain optical imports, direct redshift, native Jacobi evaluation, and no native SNe prediction.
@@ -60,7 +65,7 @@ R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified
 `archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 
-The exact 311-row registry includes G307--G328 at their externally reviewed bounded grades.
+The exact 312-row registry includes G307--G329 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -69,12 +74,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
 
-Next: preregister the first genuinely oblique nonzero Fourier covector around the G324 quotient
-MGHDs, with full periodic gauge/constraint
-decomposition and compact-time endpoint contract. G327 closes only the primitive axial tensor tile
-and G328 only one transverse tile. Do not infer
-full linear or nonlinear stability, occupancy, uniqueness,
-singularity freedom, arbitrary inextendibility, scale, or `X_max`; do not restart the selector hunt
-or weaken existing guards.
+Next: preregister a mode-uniform assembly across G325--G329 on the full registered compact Fourier
+lattice, with one geometric perturbation norm, constraint preservation, summability, component-axis
+transitions, and compact-positive-time estimates uniform in mode. Do not filter endpoint branches or
+infer nonlinear stability, occupancy, uniqueness, singularity freedom, arbitrary inextendibility,
+scale, or `X_max`; do not restart the selector hunt or weaken existing guards.
 
 <!-- STARTUP_CURRENT_END -->
