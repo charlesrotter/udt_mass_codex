@@ -10,7 +10,8 @@ Date: 2026-09-03
 - full conditional ADM second normal derivative at the initial slice;
 - inherited Lie carry and arbitrary unit-direction first carry;
 - every finite boost analytically;
-- horizontal, vertical, and interior silent strata;
+- strict horizontal and interior silent strata;
+- vertical branch-meeting closure boundary, separately typed and not counted as strict data;
 - exact positive, zero, and negative second-response witnesses;
 - direct exact, implementation-distinct, hostile, aggregate, and fresh external checks.
 

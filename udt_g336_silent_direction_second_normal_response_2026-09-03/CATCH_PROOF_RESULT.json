@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "baseline_double_silent",
+    "ricci_term_dropped",
+    "wrong_adm_sign",
+    "K_squared_omitted",
+    "G332_branch_collapsed",
+    "double_silent_discarded",
+    "Lie_carry_called_universal",
+    "zero_boost_terminal_called_complete",
+    "second_jet_promoted_to_stability",
+    "horizontal_endpoint_carry_dependence_inserted",
+    "vertical_boundary_called_strict",
+    "horizontal_vertical_endpoint_swapped",
+    "topology_imported",
+    "external_physics_imported"
+  ],
+  "mutations_caught": 14,
+  "package": "G336",
+  "verdict": "PASS"
+}
