@@ -66,12 +66,12 @@ Production must:
 
 ## 3. Predeclared outcomes
 
-If the quotient closes as two coupled physical second-order amplitudes per complex phase, with
-complete compact-time reconstruction and controlled endpoint classification, use:
+If the quotient closes as two physical second-order amplitudes per complex phase, with complete
+compact-time reconstruction and an exact coupling/decoupling classification, use:
 
 ```text
 PRIMITIVE_OBLIQUE_FOURIER_SECTOR_CLOSES_MODULO_PERIODIC_GAUGE
-__TWO_COUPLED_PHYSICAL_AMPLITUDES__EXACT_COMPACT_TIME_CENSUS
+__TWO_PHYSICAL_AMPLITUDES__EXACT_COUPLING_CLASSIFICATION__EXACT_COMPACT_TIME_CENSUS
 __NO_FULL_STABILITY_CLAIM
 ```
 
@@ -121,9 +121,9 @@ The positive classification is falsified by any of the following:
   history/topology/population, or physical `X_max`.
 
 Hostile tests must at minimum reject an omitted lapse/shift equation, one zeroed oblique component,
-a nonperiodic affine gauge, a frozen instantaneous propagation angle, a false decoupled-polarization
-claim, a fake `delta R=0` statement at the zero mode, a discarded endpoint branch, an incorrect real
-dimension, and a sign-flipped reconstruction.
+a nonperiodic affine gauge, a frozen instantaneous propagation angle, a falsely assumed
+polarization-coupling or -decoupling claim, a fake `delta R=0` statement at the zero mode, a
+discarded endpoint branch, an incorrect real dimension, and a sign-flipped reconstruction.
 
 ## 5. Certification contract
 

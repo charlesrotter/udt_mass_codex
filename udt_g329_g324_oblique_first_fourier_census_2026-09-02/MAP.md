@@ -56,7 +56,8 @@ operators may differ from both earlier tiles.
 ## Maximum conclusion
 
 One complete gauge-quotiented first-variation census for the primitive oblique `(1,1,0)` Fourier
-tile, with an exact coupled master system or an exact proof that such closure fails. This cannot
+tile, with an exact physical master system and an exact coupling/decoupling classification, or an
+exact proof that such closure fails. This cannot
 establish the entire nonzero Fourier spectrum, simultaneous modes, endpoint admissibility, full
 linear or nonlinear stability, physical occupancy, history selection, topology selection, scale,
 mass, observation, singularity avoidance, or physical `X_max`.
