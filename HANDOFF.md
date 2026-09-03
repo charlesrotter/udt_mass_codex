@@ -6,92 +6,65 @@
 
 ## Resume anchor — 2026-09-03
 
+On supplied ordered depth, `phi_pair=delta_AB`; conditional `c_eff/c_E=exp(-2 delta_AB)` is not
+automatically signal speed. On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout.
+Completed-pair Dual Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`; population,
+higher/full carry, and history remain supplied or `OPEN`.
+
 G166--G276 is structural; G277--G281 controls observations; G282--G300 isolates history, topology,
-causal carry, and query ownership. G294/W6 allows nonpropagating connectedness only with
-metric-causal response. G301--G309 narrows the equation fork and supplies bounded compact/Hopf
-families; conditional trace-free Ricci gives `a=X cosh((T-T0)/X)` with one free scale.
+causal carry, and query ownership. G310 Universal Reciprocity is Charles's plain-language statement
+and DDR its tested curvature-level mathematical formulation: one postulate with two formulations.
+It is `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or canonized.
+angular-sector cancellation owns loud--quiet--loud. G312 premises are owner-adopted provisionally.
+Quiet-GR response plus Local Metric Sufficiency yields trace-free Ricci as the bounded response
+constitution with one scalar. Metric/kernel/angular remain unchanged; global bootstrap is optional.
 
-G310 externally verifies the bounded bridge: `Differential Dual Reciprocity` gives
-`R_ab-(R/4)g_ab=0` and one regional scalar. Charles adopted it as
-`OWNER_ADOPTED_PROVISIONAL_POSTULATE` on 2026-08-31. Universal Reciprocity is the plain-language
-statement and DDR the tested curvature-level mathematical formulation: one postulate with two
-formulations, not derived or canonized. It selects no history, mass, scale, or physical `X_max`;
-angular-sector cancellation owns loud--quiet--loud.
+G313/G314 retain a multibranch Einstein arena. G315--G324 establish broad data, per-datum
+developments, quotient breadth, and bounded completeness/inextendibility. G325--G329 are
+homogeneous and single-mode classifications, not stability. G330 defines a metric-native Ricci
+eigenline on supplied nonround Berger-`S3`; G331 preserves the line under a uniform gap but shows
+that closed Hopf fibres are not open in nearby spatial metrics.
 
-G311 gives `TF_g(E)=0` for supplied symmetric `E`. G312 separates full quiet GR principal-response
-overlap from Local Metric Sufficiency/local finite-jet response. Charles adopted both provisionally
-on 2026-09-01. G312 premises are owner-adopted provisionally. In the registered bounded vacuum
-arena they close G301 to trace-free Ricci with one connected scalar. Global bootstrap may select the
-local metric; no independent remote-history response remains once its admitted local jet is fixed.
-Metric/kernel/angular cancellation remain unchanged; no universe, scale, or `X_max` is selected.
+G332 is externally accepted after preregistered evidence repairs. An explicit smooth
+extrinsic-curvature witness embeds every complete positive-weight G331 weighted-contact metric into
+the active provisional vacuum initial-constraint manifold for fixed finite connected `Lambda` and
+sufficiently large auxiliary `|C|`. Irrational unequal weights thus supply lawful initial data with
+generic nonclosed dense Ricci eigenflow. Initial constraints do not impose Hopf-circle rigidity.
+This is existence, not a full `K` census, evolution, stability, occupancy, matter/mass, scale,
+`X_max`, or canon; `C` and `Lambda` are not selected physical constants.
 
-G313--G324 leaves a multibranch Einstein arena, optional global bootstrap, marked developments, a compact lattice modulus, future
-completeness and proper `C2` inextendibility; past `C0`, occupancy, scale, and stability stay open.
-G325/G326 closes twelve homogeneous constants. G327 externally accepts axial `J0/Y0` modes.
-G328 is externally accepted without repair for the complete transverse `y` tile: even `J0/Y0`, odd
-`J3/Y3`, eight constants, and future `T^(-1/6)` relative envelope. Its oblique extension is closed
-by G329 below; metric/kernel/angular/equation are unchanged.
-G329 is externally accepted without repair for the full ten-component primitive strict-oblique tile:
-four periodic gauges leave two parity masters and eight real constants. Both masters retain the
-time-changing physical wave angle; all residuals, component limits, Wronskians, and controlled
-endpoint branches close exactly. This is single-mode closure, not mode-uniform stability;
-metric/kernel/angular/equation remain unchanged.
-G330 is externally accepted after preregistered repairs. On supplied nonround Berger-`S3` data, the
-metric's spatial Ricci tensor selects one unoriented Hopf eigenline; intrinsic fibre-length
-normalization gives absolute helicity one. Conditional on the general imported marked
-Einstein-Cauchy theorem and its standard isometry-extension consequence, the line persists locally
-while its eigengap remains open. Round and other-topology controls block any universe selector.
-This neither revives the old carrier/action nor proves perturbative/global stability, occupancy,
-matter/mass, scale, or `X_max`; metric/kernel/angular/equation remain unchanged.
-G331 is externally accepted without scientific repair. Its full `C2` gap theorem preserves the
-metric-native Ricci line, but exact nearby weighted contact metrics show that closed Hopf fibres and
-G330's common-period normalization are not open in ambient spatial metric space. The counterfamily
-has not been embedded in the active vacuum constraint manifold. Only independently
-constraint-compatible data receive conditional local line carry while the gap remains open. No
-fibration stability, occupancy, matter/mass, scale, or `X_max` is selected.
+Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
+G215--G276 reconstruction; G277--G281 observations; G282--G332 history/dynamics. Evaluator:
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
-On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout. Founded depth gives
-`phi_pair=delta`; conditional `c_eff/c_E=exp(-2 delta)` is not signal speed. Completed-pair Dual
-Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`. Population/history remain supplied or
-`OPEN`; higher/full carry is unresolved.
-
-Route pointers: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs; G215--G276 reconstruction; G277--G281 observations;
-G282--G331 history/dynamics. Use `INDEX.md` for exact paths.
 Guards:
-G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224;
-G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
-G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
-G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290;
-G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331.
+G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
+G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
+G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332.
 
-W5 is noncanon normalized projective position. G275/G276 leave one conditional scale. G277--G281
-retain optical imports, direct redshift, native Jacobi evaluation, and no native SNe prediction.
-G282--G288 retain open propagation, profile, scale, mass, and history boundaries.
-
+W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
-184,300 covariance rows are unresolved and no preferred scale follows. Raw data:
-`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`; evaluator:
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
-`archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-22_pre_cleanup/`, `archive/startup_surface_2026-08-26_pre_g270/`,
+184,300 covariance rows are unresolved and no preferred scale follows. Raw:
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` (315 rows through G332). Archives:
+`archive/startup_surface_2026-08-17_pre_zoomout/`,
+`archive/startup_surface_2026-08-21_pre_g197/`,
+`archive/startup_surface_2026-08-22_pre_cleanup/`,
+`archive/startup_surface_2026-08-26_pre_g270/`,
 `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
-
-The exact 314-row registry includes G307--G331 at their externally reviewed bounded grades.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
-- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`;
-- `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`;
-- `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`;
-- `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`.
+- `udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/`
+- `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`
+- `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
+- `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: preregister a bounded constraint-data existence/obstruction test near G331's unequal-weight
-spatial metrics. Determine whether a genuinely nonsymmetric irregular Ricci eigenflow can be
-completed by extrinsic curvature satisfying the active provisional vacuum constraints, or whether
-the constraints force extra orbit rigidity. Keep the full extrinsic-curvature freedom and do not
-import the old carrier/action, a new equation, stability, occupancy, matter/mass, scale, `X_max`, or
-canon. The G325--G329 mode-uniform assembly remains later arena work.
+Next: preregister a bounded local-dynamic persistence test for the G332 lawful data. Under only the
+already imported conditional marked Einstein development, test whether the Ricci eigengap and
+irregular/nonclosed orbit character persist on a nonzero interval. Do not infer circle-fibration or
+long-time stability, or select data, constants, topology, occupancy, matter/mass, scale, `X_max`, or
+canon. Avoid another Fourier-tile census.
 
 <!-- STARTUP_CURRENT_END -->

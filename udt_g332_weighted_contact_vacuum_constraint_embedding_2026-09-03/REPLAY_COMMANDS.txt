@@ -1,0 +1,4 @@
+python3 derive_weighted_constraint_embedding.py --output DERIVATION_RESULT.json
+python3 verify_weighted_constraint_embedding_independent.py --output INDEPENDENT_VERIFICATION.json
+python3 run_catch_proofs.py --output CATCH_PROOF_RESULT.json
+python3 verify_package.py

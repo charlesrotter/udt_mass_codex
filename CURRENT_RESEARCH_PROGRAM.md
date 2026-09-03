@@ -2,7 +2,7 @@
 
 Date: 2026-09-03
 
-`LIVE.md` controls status; the 314-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls premise ownership.
+`LIVE.md` controls status; the 315-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -11,134 +11,80 @@ Keep three layers distinct:
 1. Founded relation: supplied ordered depth gives the determinant-one clock/ruler block.
 2. Supplied metric/pair: `h=F^*g`; angular, screen, mixing, and shift enter before evaluation.
 3. Completed calibration: provisional `WORKING_FOUNDATIONAL_CLARIFICATION`
-   `m=sqrt(-det h_sigma)`, `Phi=-log T`; this is not bare-metric-derived or canon.
+   `m=sqrt(-det h_sigma)`, `Phi=-log T`; not canon or bare-metric-derived.
 
 ```text
 h_AB=diag(-exp(-2 delta_AB),exp(+2 delta_AB))
 phi_pair=delta_AB
-c_eff^(pair)/c_E=exp(-2 delta_AB)       # conditional ratio
-chi_AB=tanh(delta_AB)                    # scoped projective readout
+c_eff^(pair)/c_E=exp(-2 delta_AB)
+chi_AB=tanh(delta_AB)
 h=Y^T B^T eta_2 B Y +(S Y+Z)^T Q^T Q(S Y+Z)
 ```
 
-W5 provisionally makes screen-retaining projective state physical normalized pair position; active
-screen requires path-labelled frame carry. W6 provisionally permits nonpropagating co-presence only
-with metric-causal observable response. Both are noncanon `WORKING_FOUNDATIONAL_CLARIFICATION`s;
-neither changes the metric/kernel or supplies population, history, distance, scale, or `X_max`.
+W5 makes complete projective state physical normalized pair position provisionally. W6 permits
+nonpropagating co-presence only with metric-causal response. Neither supplies population, history,
+distance, scale, or `X_max`.
 
 ## Dependency spine
 
 Guard tokens:
-G129--G165/G166--G184/G185--G189/G190--G198;
-G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
-G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
-G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256;
-G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
-G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296;
-G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331.
+G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214;
+G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
+G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
+G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332.
 
-- G129--G198 are reconstruction, scaffold, pair-pullback, and formula-level regression controls; G197/G198 protect
-  provenance/germ boundaries. P1, fitted kernels, Lambda-CDM distance, `X_max`, and protected work
-  are absent from the active route.
-- G199--G235 establish direction, regimes, completion, robustness, and supplied clock/null/screen
-  reconstruction without selecting values or propagation. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`.
-- G236--G256 type conditional observations, redshift, sky, cone, measure, scale, and the missing-law
-  boundary. G257--G276 retain GR/angular/sign limits and derive projective state, carry, and one
-  conditional scale.
-- G277--G281 preserve declared optical imports, direct redshift, native Jacobi evaluation, and no
-  complete native SNe prediction. G282--G287 isolate tide, separation, propagation, and sign typing;
-  no kernel formula changed.
-- G288 derives zero-tide `c2` and independent angular/Weyl `c4`. G289/G290/G291/G292 keep Hopf topology
-  conditional and derive supplied holonomy/Euler flux without selecting local flux or history.
-- G293 derives `delta=ks`, `chi=tanh(ks)` only on a supplied parameter; `k` and local flux remain
-  free. The `M2/MN/A/NL` partition selects no law; G259 remains conditional.
-- G294 types “foundational infinite c” as nonpropagating connectedness with metric-causal response;
-  it supplies no global enforcement law. G295--G300 locate covariant law, carry, and query boundaries
-  without selecting values, lawful germs, or transfer. Metric and kernel remain unchanged.
-- G301 narrows the declared scale-free metric two-jet lane to generic Ricci-flat or trace-free
-  Ricci with one constant scalar datum; identity divergence would choose the former but is unowned.
-- G302 proves reciprocal shape plus common scale spans all ten metric directions and selects
-  neither; its static channel split separates constant-curvature from angular/Weyl.
-- G303 gives every fixed trace-free sector the same rank-ten metric-wave principal system and null
-  cone as Ricci-flat; one regional scalar datum remains. PDE theorems are conditional imports.
-- G304--G309 add positive sign, compact `S3`, mirror Hopf families, and a counterhistory;
-  conditional trace-free Ricci fixes `a=X cosh((T-T0)/X)` but leaves one scale and no population.
-- G310 externally verifies the bounded `DDR` sufficiency theorem. Charles adopted the postulate as
-  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derivation or canon. **Universal Reciprocity**
-  is its plain-language formulation; DDR is its tested curvature-level mathematical
-  formulation. Angular-sector interlock owns loud--quiet--loud.
-- G311 gives `TF_g(E)=0` for supplied `E`. G312 separates GR-principal overlap from Local Metric Sufficiency/local finite-jet response.
-  Charles adopted both provisionally on 2026-09-01;
-  existing gates now make the bounded response constitution trace-free Ricci. No history/scale is selected.
-- G313 maps `Ric=Lambda g` as a multibranch arena; data, topology, tide, scalar, scale, and population
-  remain open. G314 makes unique-universe bootstrap optional; no selector is owned.
-- G315--G319 constructs broad constrained non-CMC data; no datum/history is selected.
-- G320 quotients seed duplicates and separates at least countably many physical initial geometries
-  by homothety-neutral `Q_R`; it is not a complete moduli quotient or occupancy/evolution rule.
-- G321/G322 conditionally import standard smooth development theorems: each complete datum has one
-  local then maximal-GH marked development. This is Cauchy-data freedom, not occupancy.
-- G323 makes registered profiles Taub refoliations and separates compact quotients by a lattice
-  modulus. G324 proves future timelike completeness and proper `C2` inextendibility, identifies each
-  quotient with its smooth per-datum MGHD, and preserves the modulus. Repairs were externally
-  accepted. Past `C0` inextendibility, stability, nonregistered families, occupancy, and scale stay
-  open.
-- G325/G326 externally close the complete twelve-constant homogeneous synchronous first variation:
-  one time gauge, eight quotient lattice/frame moduli, two local shears, and one scalar. Evidence
-  repairs were accepted. Fourier modes, full stability, endpoint control, occupancy, and scale stay
-  open.
-- G327 closes the primitive axial transverse-tracefree Fourier tile: two gauge-invariant
-  polarizations, two real phases, `J0/Y0` time basis, and eight real constants. Its finite/logarithmic
-  past split and oscillatory `T^(-2/3)` future decay are classifications in the declared norm, not
-  endpoint selection or stability. Other wavevectors and coupled sectors stay open.
-- G328 is externally accepted without repair for the complete primitive transverse `y`-directed
-  Fourier tile modulo four periodic gauge functions. Its physical quotient has even `J0/Y0` and odd
-  `J3/Y3` masters, two phases each and eight real constants. Its past branch classes and future
-  `T^(-1/6)` relative envelope are classifications, not endpoint selection or stability. Oblique
-  wavevectors and simultaneous modes stay open.
-- G329 is externally accepted without repair for the complete ten-component primitive strict-oblique
-  tile. Four periodic gauges leave two second-order parity masters and eight real constants. Exact
-  parity decoupling retains both wave components and the time-changing physical propagation angle;
-  every reconstructed residual, G327/G328 limit, Wronskian, and controlled endpoint branch checks.
-  This closes single-mode oblique algebra, not mode-uniform or nonlinear stability.
-- G330 is externally accepted after preregistered R1--R3 repairs. Nonround Berger-`S3` spatial
-  Ricci has a simple intrinsic eigenline whose closed orbits are the Hopf fibres; intrinsic
-  fibre-length normalization gives absolute helicity one. General imported smooth marked
-  Einstein-Cauchy uniqueness plus its standard isometry-extension consequence gives conditional
-  local persistence while the eigengap stays open. The round limit and other topologies block
-  universal selection. No old carrier/action, stability, occupancy, matter/mass, scale, or `X_max`
-  is recovered.
-- G331 is externally accepted without scientific repair. On the complete sufficiently `C2`-close
-  spatial-metric neighborhood, a uniform simple Ricci gap preserves a global smooth metric-native
-  line. Exact weighted contact metrics arbitrarily near nonround Berger data retain that Ricci line
-  while irrational weights make generic orbits nonclosed and dense on invariant tori. Thus Hopf
-  circle fibration and G330's common-period normalization are not open in ambient spatial metric
-  space. The explicit metrics are not proved active-constraint-compatible; local dynamic line carry
-  remains conditional on independent constraint compatibility and an open gap.
+- G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
+  G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
+  `X_max`, and protected work are absent. G225 is a `STANDARD_GEOMETRIC_EVALUATOR`.
+- G199--G256 establishes direction, completion, clock/null/screen geometry, and observation/query
+  typing without selecting values. G257--G276 adds GR/angular/sign limits, projective carry, and one
+  conditional scale. G277--G281 keeps optical imports declared and no native SNe prediction.
+- G282--G300 separates tide, history, sign, topology, co-presence, causal carry, and query ownership.
+  G294's “foundational infinite c” architecture is nonpropagating membership with metric-causal
+  response, not a history law.
+- G301 leaves Ricci-flat versus trace-free Ricci in a bounded scale-free metric two-jet lane.
+  G302 finds nine reciprocal-shape plus one scale direction. G303 gives the same metric-wave
+  principal system at fixed scalar; PDE theorems are conditional imports.
+- G304--G309 bounds positive, compact, mirror-Hopf branches. Conditional trace-free Ricci gives the
+  round cosh history up to one scale, not a selected universe.
+- G310 verifies bounded DDR sufficiency. Charles adopted Universal Reciprocity/DDR provisionally on
+  2026-08-31; it is not derived or canon. G311 gives `TF_g(E)=0`. G312's owner-provisional quiet-GR
+  response and Local Metric Sufficiency close the bounded response constitution to trace-free
+  Ricci with one connected scalar.
+- G313/G314 retain a multibranch Einstein arena and optional bootstrap. G315--G324 constructs broad
+  constrained data, per-datum marked developments, quotient breadth, and scoped
+  completeness/inextendibility. No occupancy is selected.
+- G325/G326 classifies twelve homogeneous constants. G327/G328/G329 close axial, transverse, and
+  strict-oblique single-mode tiles. These are not mode-uniform or nonlinear stability.
+- G330 extracts a simple metric-native Ricci eigenline on supplied nonround Berger-`S3` and gives
+  conditional local carry while its gap remains open. G331 extends line persistence to a full
+  uniform-`C2` neighborhood but proves closed Hopf fibres/common period are not perturbation-open.
+- G332 is externally accepted after preregistered evidence repairs. For every complete
+  positive-weight G331 weighted-contact metric, fixed finite connected `Lambda`, and sufficiently
+  large auxiliary `|C|`, an explicit smooth symmetric extrinsic-curvature witness solves both
+  active provisional vacuum initial constraints. Irrational unequal weights therefore yield lawful
+  initial data with generic nonclosed dense Ricci eigenflow. Initial constraints do not force Hopf
+  rigidity. This is existence, not a full `K` census, evolution, stability, occupancy, matter/mass,
+  scale, `X_max`, or canon.
 
 ## Open boundary
 
-The corpus owns the evaluator, screen-before-readout, frame carry, W5 typing, and bounded
-conditional dynamics. It does not own populated germs, operational distance, data, population,
-scale, or realized history. G296--G312 locates and owner-activates bounded trace-free Ricci;
-G313--G324 retains multiple data, developments, quotients, and optional bootstrap. G325/G326
-classifies homogeneous variations; G327/G328/G329 close axial, transverse, and strict-oblique
-single-mode tiles. G330 adds a metric-native Hopf history discriminator on a supplied nonround
-Berger-`S3` stratum. G331 preserves the line under a uniform gap but separates it from non-open
-closed-fibre/period structure. Active-constraint realization remains open. None selects
-data/perturbations or proves general stability. The positive round branch retains one
-curvature scale; mass, population, and physical `X_max` remain open.
+The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
+many legal data/developments, and G332 constraint embedding. It does not own populated germs,
+operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
+history. G332 closes the specific G331 constraint-existence question, not dynamic persistence. The
+metric, kernel, angular cancellation, and adopted equation are unchanged.
 
-R2--R5 retain verified-with-caveats pattern controls with 184,300 unresolved covariance rows and no
-preferred scale. G236/G237/G242/G243/G258 use imported transfer. G259--G276 are outcome-blind
-structural audits. Evaluator: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
+R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and no preferred scale
+follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
+`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 ## Current next gate
 
-Preregister a bounded constraint-data existence/obstruction test near G331's unequal-weight contact
-metrics. Determine whether any genuinely nonsymmetric spatial metric with irregular Ricci
-eigenflow admits extrinsic curvature satisfying the complete active provisional vacuum constraints,
-or whether those constraints force additional orbit rigidity. Keep all extrinsic-curvature
-components free unless the constraints force otherwise. Do not assume pure trace, homogeneity,
-closed fibres, or a chosen topology; do not import an old carrier/action, source, matter/mass,
-observation, fit, protected work, new equation, scale, or `X_max`. Evolution and stability are later
-questions. The mode-uniform G325--G329 assembly remains a later conditional-Einstein-arena task.
+Preregister a bounded local-dynamic persistence test for G332's lawful initial data. Conditional on
+the already imported smooth marked Einstein-Cauchy development, determine whether the simple Ricci
+eigengap and irregular/nonclosed orbit character persist on a nonzero interval, bifurcate, or
+disappear. Keep all data and both square-root branches visible. Do not infer circle-fibration or
+long-time/nonlinear stability and do not select weights, `C`, `Lambda`, topology, occupancy,
+matter/mass, scale, `X_max`, or canon. Avoid another Fourier-tile census.

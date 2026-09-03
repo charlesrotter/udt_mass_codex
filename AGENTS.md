@@ -28,7 +28,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   verifier audits the 314-row exact registry without dumping its wide rows into model context.
+   verifier audits the 315-row exact registry without dumping its wide rows into model context.
    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
@@ -44,13 +44,11 @@ relevant, begin with
 `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; use
 `stability_branch_follow_256_DECISION.md` only as durable lane evidence.
 
-`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`, dated rehearsal reports,
-and files under `archive/` are historical compatibility paths, not generic startup reads. The
-fixed-base `CODEX_STARTUP_REHEARSAL_2026-07-17.md`, `codex_rehearsal_final.md`, and
-`codex_rehearsal_transcript.txt` remain at root because their paths are retained provenance; their
-old HEAD, branch, `LIVE`, or `NEXT` text is never current authority. The ignored local
-`memory_export.md`, when present, is likewise a historical snapshot. Open any of these only when a
-task makes dated evidence load-bearing. Use `INDEX.md` for current frontier paths. Despite its historical name,
+`UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`, dated rehearsals, and
+`archive/` are historical, not startup reads. Root files `CODEX_STARTUP_REHEARSAL_2026-07-17.md`,
+`codex_rehearsal_final.md`, and `codex_rehearsal_transcript.txt` retain fixed-path provenance; their
+old status text is never authority. The ignored `memory_export.md` is likewise historical. Open
+these only when load-bearing; use `INDEX.md` for current paths. Despite its historical name,
 `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is the repository-reorganization relocation ledger
 (1,114 data rows plus its header): query it only for a known old path; it is not a startup read or a current-frontier index. Do
 not rewrite fixed historical ownership/readiness snapshots to mimic current paths.
@@ -97,9 +95,9 @@ Disk evidence wins over conversational memory.
   `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31); G312's quiet-GR-principal/local-metric premises
   are `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (2026-09-01). None derived/canon. G313 maps a
   multibranch arena. G314 separates optional bootstrap from conditional dynamics; none adopted.
-  G315--G320: bounded data/quotient; no history selected. G330/G331 separate the metric-native
-  Ricci line from the non-open Hopf-fibration/period structure; active-constraint realization,
-  stability, occupancy, and scale remain open.
+  G315--G320: bounded data/quotient; no history selected. G330--G332 separate the metric-native
+  Ricci line from Hopf-fibration rigidity and embed the irregular family in the active initial
+  constraints; dynamic persistence, stability, occupancy, and scale remain open.
 - G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
   reconstruct old selector/carry architecture from root prose.
 - The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,

@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "baseline_closes",
+    "dropping_connection_terms_is_caught",
+    "square_root_coefficient_mutation",
+    "trace_inversion_mutation",
+    "hamiltonian_norm_sign_mutation",
+    "constant_lambda_term_omission",
+    "unit_projector_normalization_mutation",
+    "xi_of_b_nonzero_mutation",
+    "geodesic_identity_mutation",
+    "scope_boundary_baseline",
+    "scope_promotion_mutation"
+  ],
+  "mutations_caught": 9,
+  "package": "G332",
+  "verdict": "PASS"
+}

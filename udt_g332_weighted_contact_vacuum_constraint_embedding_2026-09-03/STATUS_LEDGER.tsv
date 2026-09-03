@@ -1,0 +1,17 @@
+claim	status	maximum_statement
+G331_weighted_metric_smoothness	EXTERNALLY_ACCEPTED_INPUT	global smooth positive S3 metric for all positive weights
+weighted_Reeb_unit_Killing	DERIVED_CONDITIONAL	global unit Killing field of supplied weighted metric
+weighted_Reeb_Ricci_line	EXTERNALLY_ACCEPTED_INPUT	exact Ricci eigenline in G331 gap-open neighborhood
+unit_Killing_constraint_lemma	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL	explicit K solves active constraints whenever radicand is strictly positive
+compact_global_existence	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL	finite C exists for every fixed finite Lambda on compact unit-Killing metric
+irrational_weight_constraint_data	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	exact smooth initial data with generic nonclosed dense Ricci-line orbits
+constraint_orbit_rigidity	REFUTED_IN_REGISTERED_FAMILY	active initial constraints do not force closed Hopf circles
+full_extrinsic_curvature_census	OPEN	existence witness does not classify all K
+radicand_crossing_stratum	OPEN	branch regularity at zeros not globally classified
+local_development	CONDITIONAL_IMPORTED_THEOREM	each lawful smooth datum has a marked local development
+dynamic_Ricci_line_carry	OPEN	requires eigengap persistence in the development
+nonlinear_stability	OPEN	no long-time perturbation theorem
+physical_occupancy	OPEN	no datum or branch selected
+matter_mass_scale_Xmax	OPEN	no inference
+metric_kernel_angular_equation	UNCHANGED	G332 adds constraint data only
+canon	OPEN	Charles has not canonized this result
