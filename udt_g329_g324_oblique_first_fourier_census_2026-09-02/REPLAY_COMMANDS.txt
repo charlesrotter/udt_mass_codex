@@ -1,0 +1,4 @@
+python3 -S derive_oblique_modes.py --output /tmp/G329_DERIVATION_RESULT.json --raw-output /tmp/G329_RAW_RESIDUALS.json
+python3 -S verify_independent.py --output /tmp/G329_INDEPENDENT_VERIFICATION.json
+python3 -S run_catch_proofs.py --output /tmp/G329_CATCH_PROOF_RESULT.json
+python3 -S verify_package.py --output /tmp/G329_PACKAGE_VERIFICATION_RESULT.json

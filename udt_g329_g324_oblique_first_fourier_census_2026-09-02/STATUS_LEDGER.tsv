@@ -1,0 +1,14 @@
+claim	status	qualification
+G324 compact Taub quotient	DERIVED_CONDITIONAL_BACKGROUND	fixed background; not selected physical occupancy
+trace-free response equation	OWNER_ADOPTED_PROVISIONAL_POSTULATE	conditional on Universal Reciprocity / DDR and G312 premises
+complete ten-component oblique linearization	DERIVED_CONDITIONAL	primitive (1,1,0) tile; direct first variation
+four-function periodic gauge quotient	DERIVED_CONDITIONAL	strict alpha beta nonzero stratum on compact positive-time intervals
+two physical scalar masters	DERIVED_CONDITIONAL	exact z-even and z-odd parity amplitudes
+exact parity decoupling	DERIVED_CONDITIONAL	both equations retain both wave components and angle-change terms
+eight real physical constants	DERIVED_CONDITIONAL	two masters times two time constants times two real phases
+G327 and G328 component recovery	DERIVED_CONDITIONAL	regression limits only; even transverse edge needs E=T^2 W
+endpoint leading branch census	DERIVED_CONDITIONAL	no branch filtered or physical endpoint condition adopted
+full Fourier stability	OPEN	other lattice modes, uniform estimates, and simultaneous modes absent
+nonlinear stability	OPEN	no second variation or mode coupling
+physical population scale history X_max	OPEN	no selection or observational attachment
+UDT metric kernel angular sector	UNCHANGED	this tile analyzes the adopted response equation on a supplied conditional background

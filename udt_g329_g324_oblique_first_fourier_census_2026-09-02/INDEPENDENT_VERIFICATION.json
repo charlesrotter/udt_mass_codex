@@ -1,0 +1,43 @@
+{
+  "schema": "udt-g329-independent-verification-v1",
+  "method": "synchronous ADM/Gauss-Codazzi reduction plus independent full-gauge invariants",
+  "landing": "PRIMITIVE_OBLIQUE_FOURIER_SECTOR_CLOSES_MODULO_PERIODIC_GAUGE__TWO_PHYSICAL_AMPLITUDES__EXACT_COUPLING_CLASSIFICATION__EXACT_COMPACT_TIME_CENSUS__NO_FULL_STABILITY_CLAIM",
+  "physical_dimension_real": 8,
+  "coupling": "z-even and z-odd invariants obey separate scalar equations with alpha,beta-dependent coefficients",
+  "endpoint_classification": {
+    "past": "even finite/log after E=T^2 W; odd T and T^-1",
+    "future": "both oscillatory with leading T^-2/3 relative envelope"
+  },
+  "checks": [
+    "adm_odd_constraint_exact",
+    "adm_odd_x_evolution_exact",
+    "adm_odd_y_evolution_exact",
+    "adm_odd_master_reduces_to_constraint",
+    "adm_even_11_exact",
+    "adm_even_12_exact",
+    "adm_even_22_exact",
+    "adm_even_33_exact",
+    "adm_even_x_constraint_exact",
+    "adm_even_y_constraint_exact",
+    "adm_even_master_reduces_to_two_constraints",
+    "independent_even_orbit_gauge_invariant",
+    "independent_odd_orbit_gauge_invariant",
+    "independent_strict_oblique_gauge_rank_four",
+    "independent_gauge_determinant",
+    "independent_G327_even_limit",
+    "independent_G328_odd_limit",
+    "independent_G327_odd_limit",
+    "independent_G328_even_rescaled_limit",
+    "independent_even_wronskian",
+    "independent_odd_wronskian",
+    "independent_even_past_damping",
+    "independent_even_past_repeated_root",
+    "independent_odd_past_roots",
+    "independent_future_damping",
+    "independent_future_even_frequency",
+    "independent_future_odd_frequency",
+    "independent_eight_real_constants"
+  ],
+  "check_count": 28,
+  "reads_production_output": false
+}

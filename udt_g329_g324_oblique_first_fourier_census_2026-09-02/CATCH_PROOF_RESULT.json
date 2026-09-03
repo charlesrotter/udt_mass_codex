@@ -1,0 +1,19 @@
+{
+  "schema": "udt-g329-catch-proofs-v1",
+  "all_caught": true,
+  "catch_count": 11,
+  "checks": [
+    "omitted_lapse_shift_equations_rejected",
+    "zeroed_required_oblique_shift_rejected",
+    "zeroed_wave_component_rejected_as_different_rank_stratum",
+    "nonperiodic_affine_gauge_rejected",
+    "frozen_instantaneous_propagation_angle_rejected",
+    "frozen_angle_odd_master_rejected",
+    "invented_polarization_coupling_rejected",
+    "fake_zero_mode_delta_R_conclusion_rejected",
+    "discarded_endpoint_branch_rejected",
+    "incorrect_real_dimension_rejected",
+    "sign_flipped_reconstruction_rejected"
+  ],
+  "production_output_read": false
+}

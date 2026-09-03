@@ -1,0 +1,45 @@
+{
+  "schema": "udt-g329-raw-residuals-v1",
+  "variables": {
+    "odd": [
+      "N",
+      "H",
+      "Q"
+    ],
+    "even": [
+      "A",
+      "B",
+      "C",
+      "U",
+      "V",
+      "W",
+      "Z"
+    ]
+  },
+  "odd_scalar": "0",
+  "even_scalar": "(6*T**(50/3)*alpha**2*A(T) + 6*T**(50/3)*alpha**2*W(T) + 6*T**(50/3)*alpha**2*Z(T) - 6*I*T**(49/3)*alpha*Derivative(B(T), T) - 6*T**(47/3)*alpha*beta*V(T) - 6*I*T**(46/3)*alpha*B(T) - 6*I*T**(46/3)*beta*Derivative(C(T), T) + 6*T**(44/3)*beta**2*A(T) + 6*T**(44/3)*beta**2*U(T) + 6*T**(44/3)*beta**2*Z(T) - 6*I*T**(43/3)*beta*C(T) + 6*T**16*Derivative(U(T), (T, 2)) + 6*T**16*Derivative(W(T), (T, 2)) + 6*T**16*Derivative(Z(T), (T, 2)) - 6*T**15*Derivative(A(T), T) + 4*T**15*Derivative(U(T), T) + 10*T**15*Derivative(W(T), T) + 10*T**15*Derivative(Z(T), T))/(3*T**16)",
+  "odd_upper_triangle": {
+    "00": "0",
+    "01": "0",
+    "02": "0",
+    "03": "(I*T**(5/3)*alpha*Derivative(H(T), T) - I*T**(2/3)*alpha*H(T) + I*T**(2/3)*beta*Derivative(Q(T), T) + T**2*alpha**2*N(T) + beta**2*N(T))/(2*T**(2/3))",
+    "11": "0",
+    "12": "0",
+    "13": "(-3*I*T**(26/3)*alpha*Derivative(N(T), T) + 3*T**(25/3)*Derivative(H(T), (T, 2)) - 7*I*T**(23/3)*alpha*N(T) + 3*T**(22/3)*Derivative(H(T), T) - 3*T**(19/3)*H(T) - 3*T**8*alpha*beta*Q(T) + 3*T**7*beta**2*H(T))/(6*T**8)",
+    "22": "0",
+    "23": "(3*T**(7/3)*Derivative(Q(T), (T, 2)) - 3*I*T**(5/3)*beta*Derivative(N(T), T) + 3*T**(4/3)*Derivative(Q(T), T) - I*T**(2/3)*beta*N(T) + 3*T**3*alpha**2*Q(T) - 3*T**2*alpha*beta*H(T))/(6*T)",
+    "33": "0"
+  },
+  "even_upper_triangle": {
+    "00": "(-3*T**(16/3)*alpha**2*A(T) - 3*T**(14/3)*Derivative(U(T), (T, 2)) - 3*T**(14/3)*Derivative(W(T), (T, 2)) - 3*T**(14/3)*Derivative(Z(T), (T, 2)) + 3*T**(11/3)*Derivative(A(T), T) + 2*T**(11/3)*Derivative(U(T), T) - 4*T**(11/3)*Derivative(W(T), T) - 4*T**(11/3)*Derivative(Z(T), T) - 3*T**(10/3)*beta**2*A(T) + 3*I*T**5*alpha*Derivative(B(T), T) - I*T**4*alpha*B(T) + 3*I*T**4*beta*Derivative(C(T), T) + 2*I*T**3*beta*C(T))/(3*T**(14/3))",
+    "01": "(-6*I*T**(35/3)*alpha*Derivative(W(T), T) - 6*I*T**(35/3)*alpha*Derivative(Z(T), T) + 8*I*T**(32/3)*alpha*A(T) - 6*I*T**(32/3)*alpha*W(T) - 6*I*T**(32/3)*alpha*Z(T) + 3*I*T**(32/3)*beta*Derivative(V(T), T) + 3*I*T**(29/3)*beta*V(T) - 3*T**11*alpha*beta*C(T) + 3*T**10*beta**2*B(T))/(6*T**(35/3))",
+    "02": "(3*I*T**(11/3)*alpha*Derivative(V(T), T) - 3*I*T**(8/3)*alpha*V(T) - 6*I*T**(8/3)*beta*Derivative(U(T), T) - 6*I*T**(8/3)*beta*Derivative(Z(T), T) + 2*I*T**(5/3)*beta*A(T) + 6*I*T**(5/3)*beta*U(T) + 3*T**4*alpha**2*C(T) - 3*T**3*alpha*beta*B(T))/(6*T**(8/3))",
+    "03": "0",
+    "11": "(3*T**(29/3)*alpha**2*A(T) + 3*T**(29/3)*alpha**2*W(T) + 3*T**(29/3)*alpha**2*Z(T) - 3*I*T**(28/3)*alpha*Derivative(B(T), T) - 3*T**(26/3)*alpha*beta*V(T) - 3*I*T**(25/3)*alpha*B(T) + 3*T**(23/3)*beta**2*U(T) + I*T**(22/3)*beta*C(T) + 3*T**9*Derivative(U(T), (T, 2)) + T**8*Derivative(A(T), T) + 2*T**8*Derivative(U(T), T) - T**8*Derivative(W(T), T) - T**8*Derivative(Z(T), T))/(3*T**(29/3))",
+    "12": "(-3*I*T**(41/3)*alpha*Derivative(C(T), T) + 3*T**(40/3)*Derivative(V(T), (T, 2)) - 7*I*T**(38/3)*alpha*C(T) - 3*I*T**(38/3)*beta*Derivative(B(T), T) + 3*T**(37/3)*Derivative(V(T), T) + 2*I*T**(35/3)*beta*B(T) - 3*T**(34/3)*V(T) + 6*T**13*alpha*beta*A(T) + 6*T**13*alpha*beta*Z(T))/(6*T**13)",
+    "13": "0",
+    "22": "(3*T**(7/3)*Derivative(W(T), (T, 2)) - 2*I*T**(5/3)*alpha*B(T) - 3*I*T**(5/3)*beta*Derivative(C(T), T) - 2*T**(4/3)*Derivative(A(T), T) + 2*T**(4/3)*Derivative(U(T), T) + 5*T**(4/3)*Derivative(W(T), T) + 2*T**(4/3)*Derivative(Z(T), T) - 3*I*T**(2/3)*beta*C(T) + 3*T**3*alpha**2*W(T) - 3*T**2*alpha*beta*V(T) + 3*T*beta**2*A(T) + 3*T*beta**2*U(T) + 3*T*beta**2*Z(T))/(3*T)",
+    "23": "0",
+    "33": "(3*T**(7/3)*Derivative(Z(T), (T, 2)) - 2*I*T**(5/3)*alpha*B(T) - 2*T**(4/3)*Derivative(A(T), T) + 2*T**(4/3)*Derivative(U(T), T) + 2*T**(4/3)*Derivative(W(T), T) + 5*T**(4/3)*Derivative(Z(T), T) - 2*I*T**(2/3)*beta*C(T) + 3*T**3*alpha**2*Z(T) + 3*T*beta**2*Z(T))/(3*T)"
+  }
+}
