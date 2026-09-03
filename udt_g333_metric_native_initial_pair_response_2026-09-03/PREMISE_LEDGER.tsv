@@ -1,0 +1,20 @@
+item	status	use_or_limit
+UDT_metric	pinned-by-THEORY	the metric and its first normal jet are the objects tested
+Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	active only through bounded trace-free Ricci response; not derived or canon
+quiet_GR_response	OWNER_ADOPTED_PROVISIONAL_POSTULATE	G312 bounded principal-response overlap
+Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	G312 local finite-jet response
+Einstein_completion	pinned-by-THEORY_CONDITIONAL	Ric=Lambda*g only inside active provisional arena
+G315_sign_convention	pinned-by-THEORY_CONDITIONAL	K=-(1/2)L_n gamma
+G332_initial_data	pinned-by-THEORY_CONDITIONAL	complete compact unit-Killing construction on strict radicand stratum
+unit_direction_v	free-and-explored	all mu=gamma(v,xi)^2 in [0,1]
+C_constant	free-and-explored	both signs and all strict-radicand magnitudes; not a selected scale
+Lambda	free-and-explored_CONDITIONAL	fixed finite connected scalar; not calibrated
+square_root_branch	free-and-explored	both signs retained
+Gaussian_normal_presentation	CHOSE_GAUGE_PRESENTATION_CONTROL	unit lapse and zero shift only for evaluation at the slice
+pair_germ	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	supplied normal--spatial germ; not all physical observer pairs
+orbit_closure	CLASSIFICATION_ONLY	rational/irrational labels never enter response formulas
+Hopf_topology	OMITTED_OPEN	neither success criterion nor input
+later_evolution_stability	OMITTED_OPEN	first normal jet only
+source_matter_mass_action	OMITTED_OPEN	no imported physical mechanism
+observations_scale_Xmax	OMITTED_OPEN	no fit, transfer, ruler, or physical X_max
+physical_occupancy	OMITTED_OPEN	no datum or history selected
