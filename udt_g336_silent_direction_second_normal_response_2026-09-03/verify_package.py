@@ -82,8 +82,8 @@ def main() -> None:
 
         require(production["landing"] == LANDING, "landing_exact")
         require(production["grade"] ==
-                "DERIVED_CONDITIONAL_BOUNDED__EXPLORATORY_FORMULA_DISCLOSED"
-                "__EXTERNALLY_RETAINED_PENDING_R2_FOLLOWUP", "grade_repair_pending_exact")
+                "DERIVED_CONDITIONAL_BOUNDED"
+                "__EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS", "grade_accepted_exact")
         require(production["classifications"] == [
             "INHERITED_LIE_CARRY_SECOND_JET_EXACT",
             "SILENT_SET_SPLITS_POSITIVE_ZERO_NEGATIVE",
@@ -144,7 +144,8 @@ def main() -> None:
         "EXECUTION_NOTE.md", "EXACT_DERIVATION.md", "LAY_REPORT.md", "STATUS_LEDGER.tsv",
         "AUDIT_REPORT.md", "EVIDENCE_GATES.md", "COMMANDS.md", "RUN_RECORD.md",
         "EXTERNAL_REVIEW_REQUEST.md", "EXTERNAL_REVIEW_RESPONSE.md",
-        "EXTERNAL_REVIEW_TRANSMISSION.md", "REPAIR_IMPLEMENTATION.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md", "EXTERNAL_REPAIR_FOLLOWUP.md",
+        "REPAIR_IMPLEMENTATION.md",
         "REPAIR_FOLLOWUP_REQUEST.md", "build_review_intake.py",
         "build_repair_followup_intake.py", "verify_review_intake.py",
     )
@@ -161,6 +162,7 @@ def main() -> None:
     lay = (PACKAGE / "LAY_REPORT.md").read_text(encoding="utf-8")
     audit = (PACKAGE / "AUDIT_REPORT.md").read_text(encoding="utf-8")
     external = (PACKAGE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    followup = (PACKAGE / "EXTERNAL_REPAIR_FOLLOWUP.md").read_text(encoding="utf-8")
     ledger = (PACKAGE / "PREMISE_LEDGER.tsv").read_text(encoding="utf-8")
     require("EXPLORATORY_FORMULA_DISCLOSED" in prereg, "prereg_disclosure_status")
     require("not represented as a blind discovery" in disclosure,
@@ -189,10 +191,12 @@ def main() -> None:
             "lay_not_complete_history")
     require("ACCEPT_WITH_REPAIRS__G336_BOUNDED_SILENT_SECOND_JET_RETAINED" in external,
             "external_math_retained")
-    require("Repair-only" in exact and "follow-up confirmation remains pending" in exact,
-            "external_R2_followup_pending")
-    require("EXTERNALLY_RETAINED_PENDING_R2_FOLLOWUP" in audit,
-            "audit_R2_followup_pending")
+    require("REPAIRS_ACCEPTED__G336_BOUNDED_SILENT_SECOND_JET_RETAINED" in followup,
+            "external_R2_followup_accepted")
+    require("follow-up independently accepted R2" in exact,
+            "exact_R2_followup_accepted")
+    require("EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS" in audit,
+            "audit_external_accepted")
     require("Universal_Reciprocity_DDR\tOWNER_ADOPTED_PROVISIONAL_POSTULATE" in ledger,
             "DDR_owner_provisional")
     require("observations_scale_Xmax\tOMITTED_OPEN" in ledger,
@@ -233,7 +237,7 @@ def main() -> None:
         "landing": LANDING,
         "registered_outputs_replayed": True,
         "package_mutated": False,
-        "external_review": "ACCEPT_WITH_REPAIRS_PENDING_R2_FOLLOWUP",
+        "external_review": "ACCEPTED_AFTER_PREREGISTERED_REPAIRS",
     }
     text = json.dumps(payload, indent=2, sort_keys=True) + "\n"
     if args.output:

@@ -32,64 +32,42 @@ response and Local Metric Sufficiency make trace-free Ricci the bounded response
 one connected scalar; global bootstrap remains optional. Metric, kernel, and angular interfaces are
 unchanged.
 
-G313/G314 retain a multibranch Einstein arena and no selector. G315--G324 establish broad lawful
-data, per-datum marked developments, quotient breadth, future completeness, and scoped
-inextendibility. G325--G329 classify homogeneous and single-Fourier-mode variations, not stability.
-G330 finds a metric-native Ricci eigenline on supplied nonround Berger-`S3` data. G331 proves that
-a uniform Ricci gap preserves the line while nearby weighted-contact metrics can replace closed
-Hopf fibres by generic nonclosed dense torus orbits.
+G313--G324 retain a multibranch Einstein arena, broad data/developments, quotient breadth, and
+scoped completeness—not a selector. G325--G329 classify single-mode variations, not stability.
+G330/G331 give a metric-native Ricci eigenline whose uniform-gap persistence does not force closed
+Hopf fibres.
 
-G332 is externally accepted after preregistered R1/R2 evidence repairs. For every complete
-positive-weight G331 weighted-contact `S3` metric, fixed finite connected `Lambda`, and sufficiently
-large auxiliary `|C|`, an explicit smooth extrinsic-curvature tensor satisfies both active
-provisional vacuum initial constraints. Irrational unequal weights therefore give lawful initial
-data with irregular nonclosed Ricci eigenflow: the initial constraints do not force Hopf-circle
-rigidity. This is one exact witness inside unrestricted symmetric `K`, not a full `K` census,
-evolution, persistence, stability, occupancy, matter/mass, scale, physical `X_max`, or canon.
-`Lambda` and `C` are not newly derived physical constants. Metric/kernel/angular/equation remain
-unchanged.
+G332 is externally accepted after evidence repairs: an explicit smooth `K` embeds every complete
+positive-weight G331 metric into both provisional vacuum constraints for fixed auxiliary
+`Lambda,C`; this is existence, not a `K` census or selection. G333 derives
+`H=-K^sharp` and `gamma(Hv,v)=(b-C)/2-b*mu` for every strict datum; the declared complete pair
+pullback sees this first jet when terminal `Phi` does not. G334 proves exact finite-boost Lorentz
+congruence, while arbitrary frame transport remains supplied. G335 conditionally preserves each
+nonzero response's sign on a datum-specific local interval; exact silence passes to higher jets.
+None supplies finite-time/global stability, occupancy, matter/mass, scale, `X_max`, or canon.
 
-G333 is externally accepted after preregistered R1--R4 evidence repairs. Every strict G332 datum
-has the exact first normal response `H=-K^sharp`. Its rate along any unit spatial direction is
-`gamma(Hv,v)=(b-C)/2-b*mu`, so the metric supplies a common response plus a curvature-linked
-directional imbalance. For the declared Lie-transported Gaussian normal--spatial diagnostic germ,
-the complete pair pullback records this spatial first jet while its terminal scalar does not. This
-uses no Hopf/orbit/topology input. It is one first-instant result, not a general pair theorem,
-evolution, persistence, stability, occupancy, matter/mass, scale, physical `X_max`, or canon.
-
-G334 is externally accepted after preregistered evidence repairs R1--R3. For every G333 unit
-direction and every finite local boost, the inherited first normal pair jet is the exact Lorentz
-congruence
-`2q[[sinh(z)^2,sinh(z)cosh(z)],[sinh(z)cosh(z),cosh(z)^2]]`. Its mixed trace remains `2q`; the
-complete inherited matrix retains `q`, while terminal `n(Phi)=q sinh(z)^2` is blind at zero boost.
-For arbitrary supplied frame transport the additional matrix is
-`[[-2alpha,beta-gamma],[beta-gamma,2delta]]`, so boost value alone does not determine the general
-pair first jet. This is still the G333 normal derivative, not boosted-observer time evolution,
-finite-time persistence, all physical germs, stability, occupancy, matter/mass, scale, `X_max`, or
-canon. Metric, kernel, angular sector, and adopted equation remain unchanged.
-
-G335 is externally accepted without scientific repairs. Conditional on the existing standard
-smooth local marked-development theorem, every nonzero G333 directional response persists with the
-same sign on some datum/germ-specific local normal-time interval. Exact first-order silent
-directions occur at `mu=(b-C)/(2b)` precisely when `b!=0` and `|b|>=|C|`; their higher response
-remains open. A fixed compact datum with `sup|b|<|C|` has one uniform all-direction local interval,
-but no interval uniform over the unrestricted G332 family follows. Raw components remain
-transport-qualified, terminal `Phi` remains blind at zero boost, and boosted-observer time still
-requires the spatial jet. This is local qualitative continuation, not an explicit duration,
-finite-time solve, global stability, occupancy/history selection, matter/mass, scale, `X_max`, or
-canon. Metric, kernel, angular sector, and adopted equation remain unchanged.
+G336 is externally accepted after preregistered R1/R2 scope and wording repairs. On every exact
+G335 first-order-silent direction, the inherited second normal jet is
+`s1=Lambda-Ric3(v,v)+2K^2(v,v)=1+(R-6)mu/2+b^2*mu^2`. Lawful data realize positive, zero, and
+negative values. Interior sign classification depends on supplied direction carry; the strict
+horizontal endpoint has `s1=1` and its first-carry correction vanishes. The vertical `mu=1`
+endpoint is only the branch-meeting boundary. Exact double silence is lawful and passes the local
+question to the third jet. The finite-boost pair matrix retains `s1`, while terminal `Phi` remains
+blind at zero boost. This is an initial second-jet classification, not finite-time evolution,
+stability, occupancy/history selection, matter/mass, scale, `X_max`, or canon. Metric, kernel,
+angular sector, and adopted equation remain unchanged.
 
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G335 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G336 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336.
 
-Authority: the exact 318-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through externally accepted G335.
+Authority: the exact 319-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through externally accepted G336.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -113,10 +91,11 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Preregister the metric-led higher-jet test on G335's exact first-order-silent directions. Compute
-the second normal response from the full active conditional evolution for both G332 branches,
-keeping every silent point/direction, frame carry, the spatial jet, and normal-versus-observer-time
-derivatives explicit. Determine whether each silent direction remains silent, turns on, or splits;
-do not select data, germs, or occupancy, and do not claim global persistence, stability,
-matter/mass, scale, `X_max`, or canon.
+Preregister a bounded metric-led third-normal-jet ownership test on G336's exact double-silent
+stratum. Differentiate the full active conditional evolution once, retaining spatial derivatives
+of curvature and `K`, lapse/shift presentation, direction and pair-frame carry, and
+normal-versus-observer-time distinctions. First determine which third-jet terms are fixed by the
+supplied G332 initial data and constraints; derive only the owned portion and land underdetermined
+if higher spatial data remain free. Do not select data, germs, occupancy, topology, matter/mass,
+scale, `X_max`, or canon, and do not claim finite-time or global stability.
 <!-- STARTUP_CURRENT_END -->

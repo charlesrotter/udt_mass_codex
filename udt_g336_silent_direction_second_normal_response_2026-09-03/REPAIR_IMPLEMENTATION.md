@@ -8,5 +8,6 @@ The externally requested wording-only repair was implemented exactly as preregis
 - `mu=1` remains exclusively the branch-meeting closure-boundary diagnostic;
 - no formula, coefficient, branch, numerical result, premise, or bounded landing changed.
 
-All registered production, independent, hostile, and aggregate checks are replayed after this
-repair. Final external repair-only confirmation remains pending.
+All registered production, independent, hostile, and aggregate checks were replayed after this
+repair. External repair-only follow-up authenticated the corrected intake, reproduced all checks,
+and accepted R2 with the bounded scientific landing unchanged.

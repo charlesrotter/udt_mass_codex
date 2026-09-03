@@ -12,7 +12,7 @@ __VERTICAL_ENDPOINT_IS_BRANCH_MEETING_BOUNDARY
 __DOUBLE_SILENT_STRATUM_REQUIRES_HIGHER_JET
 ```
 
-Grade: `DERIVED_CONDITIONAL_BOUNDED__EXPLORATORY_FORMULA_DISCLOSED__EXTERNALLY_RETAINED_PENDING_R2_FOLLOWUP`.
+Grade: `DERIVED_CONDITIONAL_BOUNDED__EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS`.
 
 ## Four evidence gates
 
@@ -42,9 +42,12 @@ Grade: `DERIVED_CONDITIONAL_BOUNDED__EXPLORATORY_FORMULA_DISCLOSED__EXTERNALLY_R
 - External R2: one textual `0<mu<=1` scope slip was preregistered and changed to the strict
   `0<mu<1` domain; no scientific claim changed.
 
-## Remaining repair boundary
+## External closure and remaining scientific boundary
 
-The reviewer returned `ACCEPT_WITH_REPAIRS__G336_BOUNDED_SILENT_SECOND_JET_RETAINED`. The exact
-wording repair is implemented under the separately banked R2 preregistration. Repair-only external
-confirmation remains pending, so the package must not yet be described as finally externally
-accepted. It is not canonized, stable, or a complete history.
+The fresh reviewer returned `ACCEPT_WITH_REPAIRS__G336_BOUNDED_SILENT_SECOND_JET_RETAINED`. The
+exact wording repair was implemented under the separately banked R2 preregistration. Repair-only
+follow-up authenticated the 42-file intake, reran all registered checks, confirmed byte-identical
+scientific outputs, and returned `REPAIRS_ACCEPTED__G336_BOUNDED_SILENT_SECOND_JET_RETAINED`.
+
+The bounded second-jet classification is therefore externally accepted after preregistered
+repairs. It is not canonized, stable, finite-time evolution, or a complete history.

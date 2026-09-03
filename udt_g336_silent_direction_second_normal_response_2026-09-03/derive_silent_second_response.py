@@ -426,8 +426,8 @@ def derive() -> dict:
     )
     return {
         "package": "G336",
-        "grade": "DERIVED_CONDITIONAL_BOUNDED__EXPLORATORY_FORMULA_DISCLOSED"
-                 "__EXTERNALLY_RETAINED_PENDING_R2_FOLLOWUP",
+        "grade": "DERIVED_CONDITIONAL_BOUNDED"
+                 "__EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS",
         "landing": landing,
         "classifications": [
             "INHERITED_LIE_CARRY_SECOND_JET_EXACT",

@@ -28,3 +28,22 @@ ACCEPT_WITH_REPAIRS__G336_BOUNDED_SILENT_SECOND_JET_RETAINED
 
 The sole finding was the textual strict-domain slip registered in
 `PREREGISTRATION_EXTERNAL_REPAIR.md`. No mathematical or scientific claim was refuted.
+
+## Repair-only follow-up
+
+Charles authorized the corrected sealed 42-file intake at
+`/tmp/udt_g336_repair_followup_65ham97d`:
+
+```text
+REVIEW_SCOPE.json     c19e9431200dca97795da9d588caaa1acd4080aa62b162925ca3c9b39547e905
+REVIEW_MANIFEST.tsv   7a89ada1da5713ffd294df59855f90c0818f43f593b6674fc1efa658d028bad6
+detached seal         af9b055f507b2ca94c02d4c4bf35f208322d7da112a6a4c6ff480fd639928ccc
+manifest payloads     40 PASS
+```
+
+The reviewer authenticated all 42 files, replayed the registered evidence in a writable ephemeral
+copy, confirmed byte-identical outputs and the unchanged bounded landing, and returned:
+
+```text
+REPAIRS_ACCEPTED__G336_BOUNDED_SILENT_SECOND_JET_RETAINED
+```

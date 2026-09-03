@@ -17,4 +17,7 @@
 - External verdict: `ACCEPT_WITH_REPAIRS__G336_BOUNDED_SILENT_SECOND_JET_RETAINED`
 - R2 preregistration commit: `332671f5`
 - R2 implementation: strict zero surface corrected from `0<mu<=1` to `0<mu<1`; no scientific
-  change; repair-only external follow-up pending
+  change
+- Repair-follow-up intake: 42 files; 40 manifest payloads; exact authentication PASS
+- Repair-follow-up verdict: `REPAIRS_ACCEPTED__G336_BOUNDED_SILENT_SECOND_JET_RETAINED`
+- Repair-follow-up replay: 48,375 production; 3,860 independent; 14 hostile; 97 aggregate gates

@@ -1,7 +1,7 @@
 # G336 exact derivation — second normal response on the silent set
 
 Date: 2026-09-03
-Status: `DERIVED_CONDITIONAL_BOUNDED__EXPLORATORY_FORMULA_DISCLOSED__EXTERNALLY_RETAINED_PENDING_R2_FOLLOWUP`
+Status: `DERIVED_CONDITIONAL_BOUNDED__EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS`
 
 ## 1. Bounded landing
 
@@ -243,7 +243,7 @@ second jet, finite boosts, and independent carry controls. It passes 3,860 check
 `run_catch_proofs.py` catches 14 algebraic, carry, endpoint, and scope mutations.
 Fresh external adversarial review retained the complete bounded mathematics and requested only the
 registered R2 wording repair that restricts the zero-surface statement to `0<mu<1`. Repair-only
-follow-up confirmation remains pending.
+follow-up independently accepted R2 and the unchanged bounded scientific landing.
 
 ## 9. Exact boundary
 

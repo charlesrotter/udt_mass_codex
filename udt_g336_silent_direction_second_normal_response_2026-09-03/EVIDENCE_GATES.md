@@ -18,7 +18,7 @@
 | External adversarial review | PASS WITH R2 | mathematics retained; one wording-only strict-domain repair requested |
 | R2 preregistration | PASS | commit `332671f5`; no scientific change permitted |
 | R2 repair implementation | PASS LOCALLY | `0<mu<1`; vertical endpoint remains boundary-only |
-| R2 external follow-up | PENDING | corrected sealed repair intake requires authorization |
+| R2 external follow-up | PASS | authenticated 42 files; 97 gates replayed; repair accepted |
 
-Maximum current grade:
-`DERIVED_CONDITIONAL_BOUNDED__EXPLORATORY_FORMULA_DISCLOSED__EXTERNALLY_RETAINED_PENDING_R2_FOLLOWUP`.
+Final bounded grade:
+`DERIVED_CONDITIONAL_BOUNDED__EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS`.

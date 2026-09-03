@@ -26,6 +26,7 @@ PACKAGE_FILES = (
     "LAY_REPORT.md", "STATUS_LEDGER.tsv", "AUDIT_REPORT.md", "EVIDENCE_GATES.md",
     "COMMANDS.md", "RUN_RECORD.md", "EXTERNAL_REVIEW_REQUEST.md",
     "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
+    "EXTERNAL_REPAIR_FOLLOWUP.md",
     "REPAIR_IMPLEMENTATION.md", "REPAIR_FOLLOWUP_REQUEST.md",
     "build_review_intake.py", "build_repair_followup_intake.py", "verify_review_intake.py",
 )
