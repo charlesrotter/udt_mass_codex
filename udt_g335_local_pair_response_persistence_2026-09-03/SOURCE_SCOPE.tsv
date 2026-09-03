@@ -1,0 +1,7 @@
+source_id	path	load_bearing_role
+S01	udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/EXACT_DERIVATION.md	strict lawful data and both algebraic branches
+S02	udt_g333_metric_native_initial_pair_response_2026-09-03/EXACT_DERIVATION.md	initial geometric normal rate q0
+S03	udt_g334_boosted_pair_first_jet_response_2026-09-03/EXACT_DERIVATION.md	finite-boost congruence and transport boundary
+S04	udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md	complete local metric evolution and gauge typing
+S05	udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md	conditional standard smooth marked-development theorem application
+S06	CURRENT_SCIENTIFIC_PREMISES.tsv	exact current premise ownership and forbidden regressions
