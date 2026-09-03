@@ -33,21 +33,29 @@ generic nonclosed dense Ricci eigenflow. Initial constraints do not impose Hopf-
 This is existence, not a full `K` census, evolution, stability, occupancy, matter/mass, scale,
 `X_max`, or canon; `C` and `Lambda` are not selected physical constants.
 
+G333 is externally accepted after preregistered evidence repairs. The exact first normal response
+of every strict G332 datum is `H=-K^sharp`, with unit-direction rate
+`gamma(Hv,v)=(b-C)/2-b*mu`. Thus the supplied metric itself gives a common response plus a
+curvature-linked directional imbalance. In the declared Lie-transported Gaussian normal--spatial
+germ, the complete pair pullback records that first spatial response even though its terminal
+scalar does not. No Hopf/topology input is used. This is first jet only, not evolution, persistence,
+stability, occupancy, scale, or canon.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G332 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G333 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333.
 
 W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv` (315 rows through G332). Archives:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` (316 rows through G333). Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -61,10 +69,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: preregister a bounded local-dynamic persistence test for the G332 lawful data. Under only the
-already imported conditional marked Einstein development, test whether the Ricci eigengap and
-irregular/nonclosed orbit character persist on a nonzero interval. Do not infer circle-fibration or
-long-time stability, or select data, constants, topology, occupancy, matter/mass, scale, `X_max`, or
-canon. Avoid another Fourier-tile census.
+Next: preregister a metric-led first-jet extension from G333's normal--spatial diagnostic to
+arbitrary locally boosted orthonormal timelike--spatial pair germs on the same G332 slice. Track
+`h00`, `h01`, `h11` and terminal `Phi` with boost, direction, branch, and transport explicit.
+Do not claim all physical germs, evolution, topology selection, stability, occupancy, scale,
+`X_max`, or canon. A nonzero-time persistence test follows only after this pair-germ extension.
 
 <!-- STARTUP_CURRENT_END -->

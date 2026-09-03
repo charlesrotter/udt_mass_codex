@@ -29,3 +29,5 @@ The mathematical landing was retained. Four wording/scope repairs were requested
 bilinear contraction typing, theorem-level vector transport, narrower implementation-independence
 language, and a precise statement of what the detached manifest seal establishes.
 
+The detached manifest seal establishes internal payload integrity and replay consistency for this
+sealed intake. It does not establish third-party authorship or provenance outside the intake.

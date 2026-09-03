@@ -1,0 +1,18 @@
+claim	status	scope
+G332_response_endomorphism_H_equals_minus_Ksharp	DERIVED_CONDITIONAL_BOUNDED	first normal jet under G315 convention
+horizontal_rate_(b-C)/2	DERIVED_CONDITIONAL_BOUNDED	G332 strict branch
+vertical_rate_-(C+b)/2	DERIVED_CONDITIONAL_BOUNDED	G332 strict branch
+all_direction_rate_(b-C)/2-b*mu	DERIVED_CONDITIONAL_BOUNDED	all unit v with mu in [0,1]
+tracefree_eigenvalues_b/3_b/3_-2b/3	DERIVED_CONDITIONAL_BOUNDED	initial rate endomorphism
+curvature_to_b_to_response_interlock	DERIVED_CONDITIONAL_BOUNDED	C Lambda branch and G332 datum supplied
+complete_pair_spatial_strain	DERIVED_CONDITIONAL_BOUNDED	supplied Gaussian normal-spatial germ
+terminal_Phi_first_jet_blindness	DERIVED_CONDITIONAL_BOUNDED_ONLY_FOR_DECLARED_GERM	not a statement about arbitrary physical pairs
+Hopf_or_orbit_period_required	REJECTED_IN_BOUNDED_LOCAL_FORMULA	no topology input used
+Hopf_persistence_or_stability	OPEN	nonzero time not tested
+general_observer_pair_response	OPEN	oblique null accelerated shifted and screen-mixed germs omitted
+physical_history_or_occupancy	OPEN	no datum or branch selected
+matter_mass_source_action	OPEN	not introduced
+absolute_scale_or_Xmax	OPEN	not selected
+observational_prediction	OPEN	no transfer or calibration
+canonization	OPEN	Charles owns verdict
+external_review	EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_REPAIRS	fresh result retained and R1--R4 accepted

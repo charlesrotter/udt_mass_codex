@@ -12,6 +12,10 @@ endomorphism
 H^i_j = (1/2) gamma^(ik) L_n gamma_kj = -K^i_j
 ```
 
+Post-review notation clarification, which changes no frozen candidate or acceptance gate: whenever
+this package writes `H(v,v)`, it means the bilinear contraction
+`gamma(Hv,v)=(1/2)(L_n gamma)(v,v)`.
+
 and its value on every unit separation direction `v`. Decompose it invariantly into trace and
 trace-free parts. Evaluate the complete supplied pair germ spanned by the unit normal `n` and `v`.
 Classify which first-jet channels are visible in the complete pair metric and which are visible in
@@ -40,7 +44,8 @@ The production derivation must verify:
 6. Equal-weight constant-curvature and unequal-weight nonconstant-curvature controls.
 7. No dependence on orbit period, rationality, Hopf quotient, or fibre normalization.
 8. For the supplied normal--spatial germ, the complete pair spatial-length derivative agrees with
-   `H(v,v)` while the proper-normal clock entry has zero first derivative in Gaussian presentation.
+   `gamma(Hv,v)` while the proper-normal clock entry has zero first derivative in Gaussian
+   presentation.
 9. Terminal `Phi=-1/2 log(-h_00)` is consequently blind to this particular first spatial strain,
    without promoting that scoped fact into a theorem about every physical pair germ.
 

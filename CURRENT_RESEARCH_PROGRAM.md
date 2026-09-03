@@ -2,7 +2,7 @@
 
 Date: 2026-09-03
 
-`LIVE.md` controls status; the 315-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 316-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -67,13 +67,19 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   initial data with generic nonclosed dense Ricci eigenflow. Initial constraints do not force Hopf
   rigidity. This is existence, not a full `K` census, evolution, stability, occupancy, matter/mass,
   scale, `X_max`, or canon.
+- G333 is externally accepted after preregistered evidence repairs. Every strict G332 datum has
+  `H=-K^sharp` and all-direction rate `gamma(Hv,v)=(b-C)/2-b*mu`. The complete declared
+  normal--spatial pair pullback records this curvature-linked spatial first jet even when its
+  terminal scalar does not. No Hopf/topology input is used. This is first jet only and does not
+  establish general-pair response, evolution, persistence, stability, or occupancy.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
-many legal data/developments, and G332 constraint embedding. It does not own populated germs,
+many legal data/developments, G332 constraint embedding, and G333's bounded first response. It does not own populated germs,
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
-history. G332 closes the specific G331 constraint-existence question, not dynamic persistence. The
+history. G332 closes the specific G331 constraint-existence question; G333 closes only one
+normal--spatial first-jet response. General pair germs and dynamic persistence remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
 R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and no preferred scale
@@ -82,9 +88,10 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Preregister a bounded local-dynamic persistence test for G332's lawful initial data. Conditional on
-the already imported smooth marked Einstein-Cauchy development, determine whether the simple Ricci
-eigengap and irregular/nonclosed orbit character persist on a nonzero interval, bifurcate, or
-disappear. Keep all data and both square-root branches visible. Do not infer circle-fibration or
-long-time/nonlinear stability and do not select weights, `C`, `Lambda`, topology, occupancy,
-matter/mass, scale, `X_max`, or canon. Avoid another Fourier-tile census.
+Preregister a metric-led first-jet extension from G333's normal--spatial diagnostic to arbitrary
+locally boosted orthonormal timelike--spatial pair germs on the same G332 slice. Keep the boost,
+unit spatial direction, both square-root branches, and vector transport explicit. Determine how the
+existing common-plus-directional response enters `h00`, `h01`, `h11` and terminal `Phi`. Do
+not infer all physical germs, finite-time evolution, topology selection, stability, occupancy,
+matter/mass, scale, `X_max`, or canon. If closed, the next separately preregistered gate is
+nonzero-time persistence.

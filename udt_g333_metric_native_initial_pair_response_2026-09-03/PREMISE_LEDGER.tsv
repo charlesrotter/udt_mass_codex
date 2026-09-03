@@ -11,6 +11,7 @@ C_constant	free-and-explored	both signs and all strict-radicand magnitudes; not 
 Lambda	free-and-explored_CONDITIONAL	fixed finite connected scalar; not calibrated
 square_root_branch	free-and-explored	both signs retained
 Gaussian_normal_presentation	CHOSE_GAUGE_PRESENTATION_CONTROL	unit lapse and zero shift only for evaluation at the slice
+v_normal_extension	CHOSE_TRANSPORT_PRESENTATION_CONTROL	[n,v]=L_n v=0 at evaluation point; not physical data
 pair_germ	CHOSE_BOUNDED_DIAGNOSTIC_SLICE	supplied normal--spatial germ; not all physical observer pairs
 orbit_closure	CLASSIFICATION_ONLY	rational/irrational labels never enter response formulas
 Hopf_topology	OMITTED_OPEN	neither success criterion nor input

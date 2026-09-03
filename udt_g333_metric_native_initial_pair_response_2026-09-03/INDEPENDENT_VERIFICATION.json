@@ -1,0 +1,508 @@
+{
+  "checks": [
+    "rotation_orthogonal",
+    "case_0_strict_radicand",
+    "case_0_-1_trace",
+    "case_0_-1_shear_trace",
+    "case_0_-1_shear_norm",
+    "case_0_-1_hamiltonian",
+    "case_0_-1_direction_0",
+    "case_0_-1_finite_jet_0",
+    "case_0_-1_direction_1",
+    "case_0_-1_finite_jet_1",
+    "case_0_-1_direction_2",
+    "case_0_-1_finite_jet_2",
+    "case_0_-1_direction_3",
+    "case_0_-1_finite_jet_3",
+    "case_0_-1_direction_4",
+    "case_0_-1_finite_jet_4",
+    "case_0_1_trace",
+    "case_0_1_shear_trace",
+    "case_0_1_shear_norm",
+    "case_0_1_hamiltonian",
+    "case_0_1_direction_0",
+    "case_0_1_finite_jet_0",
+    "case_0_1_direction_1",
+    "case_0_1_finite_jet_1",
+    "case_0_1_direction_2",
+    "case_0_1_finite_jet_2",
+    "case_0_1_direction_3",
+    "case_0_1_finite_jet_3",
+    "case_0_1_direction_4",
+    "case_0_1_finite_jet_4",
+    "case_1_strict_radicand",
+    "case_1_-1_trace",
+    "case_1_-1_shear_trace",
+    "case_1_-1_shear_norm",
+    "case_1_-1_hamiltonian",
+    "case_1_-1_direction_0",
+    "case_1_-1_finite_jet_0",
+    "case_1_-1_direction_1",
+    "case_1_-1_finite_jet_1",
+    "case_1_-1_direction_2",
+    "case_1_-1_finite_jet_2",
+    "case_1_-1_direction_3",
+    "case_1_-1_finite_jet_3",
+    "case_1_-1_direction_4",
+    "case_1_-1_finite_jet_4",
+    "case_1_1_trace",
+    "case_1_1_shear_trace",
+    "case_1_1_shear_norm",
+    "case_1_1_hamiltonian",
+    "case_1_1_direction_0",
+    "case_1_1_finite_jet_0",
+    "case_1_1_direction_1",
+    "case_1_1_finite_jet_1",
+    "case_1_1_direction_2",
+    "case_1_1_finite_jet_2",
+    "case_1_1_direction_3",
+    "case_1_1_finite_jet_3",
+    "case_1_1_direction_4",
+    "case_1_1_finite_jet_4",
+    "case_2_strict_radicand",
+    "case_2_-1_trace",
+    "case_2_-1_shear_trace",
+    "case_2_-1_shear_norm",
+    "case_2_-1_hamiltonian",
+    "case_2_-1_direction_0",
+    "case_2_-1_finite_jet_0",
+    "case_2_-1_direction_1",
+    "case_2_-1_finite_jet_1",
+    "case_2_-1_direction_2",
+    "case_2_-1_finite_jet_2",
+    "case_2_-1_direction_3",
+    "case_2_-1_finite_jet_3",
+    "case_2_-1_direction_4",
+    "case_2_-1_finite_jet_4",
+    "case_2_1_trace",
+    "case_2_1_shear_trace",
+    "case_2_1_shear_norm",
+    "case_2_1_hamiltonian",
+    "case_2_1_direction_0",
+    "case_2_1_finite_jet_0",
+    "case_2_1_direction_1",
+    "case_2_1_finite_jet_1",
+    "case_2_1_direction_2",
+    "case_2_1_finite_jet_2",
+    "case_2_1_direction_3",
+    "case_2_1_finite_jet_3",
+    "case_2_1_direction_4",
+    "case_2_1_finite_jet_4",
+    "case_3_strict_radicand",
+    "case_3_-1_trace",
+    "case_3_-1_shear_trace",
+    "case_3_-1_shear_norm",
+    "case_3_-1_hamiltonian",
+    "case_3_-1_direction_0",
+    "case_3_-1_finite_jet_0",
+    "case_3_-1_direction_1",
+    "case_3_-1_finite_jet_1",
+    "case_3_-1_direction_2",
+    "case_3_-1_finite_jet_2",
+    "case_3_-1_direction_3",
+    "case_3_-1_finite_jet_3",
+    "case_3_-1_direction_4",
+    "case_3_-1_finite_jet_4",
+    "case_3_1_trace",
+    "case_3_1_shear_trace",
+    "case_3_1_shear_norm",
+    "case_3_1_hamiltonian",
+    "case_3_1_direction_0",
+    "case_3_1_finite_jet_0",
+    "case_3_1_direction_1",
+    "case_3_1_finite_jet_1",
+    "case_3_1_direction_2",
+    "case_3_1_finite_jet_2",
+    "case_3_1_direction_3",
+    "case_3_1_finite_jet_3",
+    "case_3_1_direction_4",
+    "case_3_1_finite_jet_4",
+    "case_4_strict_radicand",
+    "case_4_-1_trace",
+    "case_4_-1_shear_trace",
+    "case_4_-1_shear_norm",
+    "case_4_-1_hamiltonian",
+    "case_4_-1_direction_0",
+    "case_4_-1_finite_jet_0",
+    "case_4_-1_direction_1",
+    "case_4_-1_finite_jet_1",
+    "case_4_-1_direction_2",
+    "case_4_-1_finite_jet_2",
+    "case_4_-1_direction_3",
+    "case_4_-1_finite_jet_3",
+    "case_4_-1_direction_4",
+    "case_4_-1_finite_jet_4",
+    "case_4_1_trace",
+    "case_4_1_shear_trace",
+    "case_4_1_shear_norm",
+    "case_4_1_hamiltonian",
+    "case_4_1_direction_0",
+    "case_4_1_finite_jet_0",
+    "case_4_1_direction_1",
+    "case_4_1_finite_jet_1",
+    "case_4_1_direction_2",
+    "case_4_1_finite_jet_2",
+    "case_4_1_direction_3",
+    "case_4_1_finite_jet_3",
+    "case_4_1_direction_4",
+    "case_4_1_finite_jet_4"
+  ],
+  "checks_passed": 146,
+  "imports_production": false,
+  "package": "G333",
+  "reads_production_result": false,
+  "records": [
+    {
+      "branch": -1,
+      "case": 0,
+      "direction": 0,
+      "matrix_rate": -0.19900987672415482,
+      "mu": 0.0
+    },
+    {
+      "branch": -1,
+      "case": 0,
+      "direction": 1,
+      "matrix_rate": 7.1442772345172365,
+      "mu": 0.36
+    },
+    {
+      "branch": -1,
+      "case": 0,
+      "direction": 2,
+      "matrix_rate": 12.855722765482765,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": -1,
+      "case": 0,
+      "direction": 3,
+      "matrix_rate": 4.500693874470335,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 0,
+      "direction": 4,
+      "matrix_rate": 4.500693874470336,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 0,
+      "direction": 0,
+      "matrix_rate": 40.199009876724155,
+      "mu": 0.0
+    },
+    {
+      "branch": 1,
+      "case": 0,
+      "direction": 1,
+      "matrix_rate": 18.455722765482765,
+      "mu": 0.36
+    },
+    {
+      "branch": 1,
+      "case": 0,
+      "direction": 2,
+      "matrix_rate": 1.5442772345172315,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": 1,
+      "case": 0,
+      "direction": 3,
+      "matrix_rate": 26.283306125529663,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 0,
+      "direction": 4,
+      "matrix_rate": 26.283306125529663,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 1,
+      "direction": 0,
+      "matrix_rate": -40.17070010825462,
+      "mu": 0.0
+    },
+    {
+      "branch": -1,
+      "case": 1,
+      "direction": 1,
+      "matrix_rate": -18.4477960303113,
+      "mu": 0.36
+    },
+    {
+      "branch": -1,
+      "case": 1,
+      "direction": 2,
+      "matrix_rate": -1.5522039696887049,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": -1,
+      "case": 1,
+      "direction": 3,
+      "matrix_rate": -26.26804149837089,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 1,
+      "direction": 4,
+      "matrix_rate": -26.2680414983709,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 1,
+      "direction": 0,
+      "matrix_rate": 0.1707001082546178,
+      "mu": 0.0
+    },
+    {
+      "branch": 1,
+      "case": 1,
+      "direction": 1,
+      "matrix_rate": -7.152203969688706,
+      "mu": 0.36
+    },
+    {
+      "branch": 1,
+      "case": 1,
+      "direction": 2,
+      "matrix_rate": -12.847796030311295,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": 1,
+      "case": 1,
+      "direction": 3,
+      "matrix_rate": -4.51595850162911,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 1,
+      "direction": 4,
+      "matrix_rate": -4.515958501629111,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 2,
+      "direction": 0,
+      "matrix_rate": 0.15896508075582716,
+      "mu": 0.0
+    },
+    {
+      "branch": -1,
+      "case": 2,
+      "direction": 1,
+      "matrix_rate": 7.244510222611631,
+      "mu": 0.36
+    },
+    {
+      "branch": -1,
+      "case": 2,
+      "direction": 2,
+      "matrix_rate": 12.755489777388371,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": -1,
+      "case": 2,
+      "direction": 3,
+      "matrix_rate": 4.693713971543542,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 2,
+      "direction": 4,
+      "matrix_rate": 4.693713971543542,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 2,
+      "direction": 0,
+      "matrix_rate": 39.84103491924417,
+      "mu": 0.0
+    },
+    {
+      "branch": 1,
+      "case": 2,
+      "direction": 1,
+      "matrix_rate": 18.35548977738837,
+      "mu": 0.36
+    },
+    {
+      "branch": 1,
+      "case": 2,
+      "direction": 2,
+      "matrix_rate": 1.644510222611622,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": 1,
+      "case": 2,
+      "direction": 3,
+      "matrix_rate": 26.09028602845646,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 2,
+      "direction": 4,
+      "matrix_rate": 26.090286028456458,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 3,
+      "direction": 0,
+      "matrix_rate": -40.02730693967149,
+      "mu": 0.0
+    },
+    {
+      "branch": -1,
+      "case": 3,
+      "direction": 1,
+      "matrix_rate": -18.407645943108015,
+      "mu": 0.36
+    },
+    {
+      "branch": -1,
+      "case": 3,
+      "direction": 2,
+      "matrix_rate": -1.5923540568919705,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": -1,
+      "case": 3,
+      "direction": 3,
+      "matrix_rate": -26.190723901870868,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 3,
+      "direction": 4,
+      "matrix_rate": -26.190723901870864,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 3,
+      "direction": 0,
+      "matrix_rate": 0.02730693967149378,
+      "mu": 0.0
+    },
+    {
+      "branch": 1,
+      "case": 3,
+      "direction": 1,
+      "matrix_rate": -7.192354056891982,
+      "mu": 0.36
+    },
+    {
+      "branch": 1,
+      "case": 3,
+      "direction": 2,
+      "matrix_rate": -12.807645943108021,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": 1,
+      "case": 3,
+      "direction": 3,
+      "matrix_rate": -4.593276098129131,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 3,
+      "direction": 4,
+      "matrix_rate": -4.593276098129131,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 4,
+      "direction": 0,
+      "matrix_rate": 0.2010101267766693,
+      "mu": 0.0
+    },
+    {
+      "branch": -1,
+      "case": 4,
+      "direction": 1,
+      "matrix_rate": 7.256282835497467,
+      "mu": 0.36
+    },
+    {
+      "branch": -1,
+      "case": 4,
+      "direction": 2,
+      "matrix_rate": 12.743717164502534,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": -1,
+      "case": 4,
+      "direction": 3,
+      "matrix_rate": 4.7163846603579795,
+      "mu": 0.2304
+    },
+    {
+      "branch": -1,
+      "case": 4,
+      "direction": 4,
+      "matrix_rate": 4.71638466035798,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 4,
+      "direction": 0,
+      "matrix_rate": 39.798989873223334,
+      "mu": 0.0
+    },
+    {
+      "branch": 1,
+      "case": 4,
+      "direction": 1,
+      "matrix_rate": 18.343717164502536,
+      "mu": 0.36
+    },
+    {
+      "branch": 1,
+      "case": 4,
+      "direction": 2,
+      "matrix_rate": 1.6562828354974641,
+      "mu": 0.6400000000000001
+    },
+    {
+      "branch": 1,
+      "case": 4,
+      "direction": 3,
+      "matrix_rate": 26.067615339642025,
+      "mu": 0.2304
+    },
+    {
+      "branch": 1,
+      "case": 4,
+      "direction": 4,
+      "matrix_rate": 26.067615339642025,
+      "mu": 0.2304
+    }
+  ],
+  "verdict": "PASS",
+  "verifier": "independent_rotated_matrix_and_centered_first_jet"
+}

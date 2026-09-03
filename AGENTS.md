@@ -28,7 +28,7 @@ Read from disk in this exact bounded order:
 2. `HANDOFF.md` — only its matching current block.
 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
-   verifier audits the 315-row exact registry without dumping its wide rows into model context.
+   verifier audits the 316-row exact registry without dumping its wide rows into model context.
    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
@@ -95,9 +95,9 @@ Disk evidence wins over conversational memory.
   `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31); G312's quiet-GR-principal/local-metric premises
   are `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (2026-09-01). None derived/canon. G313 maps a
   multibranch arena. G314 separates optional bootstrap from conditional dynamics; none adopted.
-  G315--G320: bounded data/quotient; no history selected. G330--G332 separate the metric-native
-  Ricci line from Hopf-fibration rigidity and embed the irregular family in the active initial
-  constraints; dynamic persistence, stability, occupancy, and scale remain open.
+  G315--G320: bounded data/quotient; no history selected. G330--G332 separate Ricci line from Hopf
+  rigidity and embed irregular data. G333 derives a topology-free first response; general germs,
+  evolution, stability, occupancy, and scale remain open.
 - G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
   reconstruct old selector/carry architecture from root prose.
 - The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,

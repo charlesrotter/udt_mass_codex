@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "baseline_closes",
+    "wrong_G315_sign",
+    "dropped_directional_b_channel",
+    "trace_C_sign_mutation",
+    "shear_coefficient_mutation",
+    "branch_collapse_mutation",
+    "lapse_promoted_to_physics_mutation",
+    "normal_rate_restores_lapse_independence",
+    "terminal_scalar_false_completeness",
+    "inserted_topology_dependency",
+    "scope_baseline",
+    "Hopf_stability_scope_promotion"
+  ],
+  "mutations_caught": 9,
+  "package": "G333",
+  "verdict": "PASS"
+}
