@@ -1756,7 +1756,7 @@ def main() -> None:
             "G336_INHERITED_SILENT_SECOND_JET_IS_EXACT_BUT_SIGN_INDEFINITE",
         ),
         "G337": (
-            "EXTERNAL_ACCEPT_WITH_REPAIR_PENDING_R1_FOLLOWUP",
+            "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_SEALED_REPLAY_REPAIR",
             "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
             "G337_FULL_INITIAL_FIELDS_OWN_INHERITED_DOUBLE_SILENT_THIRD_JET",
         ),
@@ -4009,6 +4009,8 @@ def main() -> None:
         encoding="utf-8"
     )
     g337_repair = (g337 / "REPAIR_IMPLEMENTATION.md").read_text(encoding="utf-8")
+    g337_repair_external_path = g337 / "EXTERNAL_REPAIR_FOLLOWUP.md"
+    g337_repair_external = g337_repair_external_path.read_text(encoding="utf-8")
     require(hashlib.sha256(g337_external_path.read_bytes()).hexdigest()
             == "f211d162488c84ae5a10b22eaa69daf1474c2f41dedfc714abc5e1738a96c597"
             and g337_external.rstrip().endswith(
@@ -4021,12 +4023,26 @@ def main() -> None:
             and "sources/" in g337_repair
             and "byte-identical" in g337_repair,
             "G337 R1 preregistration or local implementation changed")
+    require(hashlib.sha256(g337_repair_external_path.read_bytes()).hexdigest()
+            == "f6e5fd6b862c27c7945e39b93e1cb043a09342bf31e5a345147629b1b8b30d2d"
+            and g337_repair_external.rstrip().endswith(
+                "REPAIRS_ACCEPTED__G337_BOUNDED_THIRD_JET_OWNERSHIP_RETAINED"
+            )
+            and "G337 sealed package replay PASS: 69 aggregate gates"
+            in g337_repair_external
+            and "when `git` was unavailable" in g337_repair_external
+            and "registered outputs remained byte-identical" in g337_repair_external,
+            "G337 repair-only external acceptance changed")
     g337_row = by_id["G337"]
-    require("EXTERNAL_ACCEPT_WITH_REPAIR_PENDING_R1_FOLLOWUP"
+    require("EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_SEALED_REPLAY_REPAIR"
             in g337_row["current_status"]
             and "FRESH_GPT54_REDERIVATION_RETAINED_MATHEMATICS"
             in g337_row["current_status"]
-            and "SEALED_SOURCE_LAYOUT_R1_PREREGISTERED_AT_0B8CFC45_AND_LOCALLY_REPAIRED"
+            and "R1_REPAIR_FOLLOWUP_AUTHENTICATED_39_PAYLOADS_41_FILES_AND_GITLESS_69_GATE_REPLAY"
+            in g337_row["current_status"]
+            and "REGISTERED_OUTPUTS_BYTE_IDENTICAL"
+            in g337_row["current_status"]
+            and "SEALED_SOURCE_LAYOUT_R1_PREREGISTERED_AT_0B8CFC45_AND_EXTERNALLY_ACCEPTED"
             in g337_row["current_status"]
             and "149_EXACT_PRODUCTION_CHECKS" in g337_row["current_status"]
             and "26_IMPLEMENTATION_DISTINCT_EXACT_CHECKS" in g337_row["current_status"]

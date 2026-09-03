@@ -52,7 +52,7 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 | G334 | external/repairs | Exact finite-boost congruence; general first jet remains transport-qualified |
 | G335 | external/no repairs | Nonzero first response persists locally; exact silent set passes to higher jet |
 | G336 | external/repairs | Exact silent-set second jet has every sign; interior carry dependence; lawful double silence |
-| G337 | external accept with repair/follow-up pending | Complete initial fields own inherited double-silent third jet; pointwise tuple does not |
+| G337 | external/repair accepted | Complete initial fields own inherited double-silent third jet; pointwise tuple does not |
 
 G332's exact witness is
 `K=((C-b)/2)gamma+b xi_flat tensor xi_flat`, with
@@ -93,7 +93,8 @@ G337 differentiates the active equation once more on exact double silence. Compl
 pointwise tuple `(R,b,C,Lambda,mu)` does not: exact invariantly distinct lawful twins share it but
 have different `s2`. Equal weights give `s2=8*b*mu` with both roots retained. This is not an
 explicit positive-time development or stability theorem. Fresh review retained this mathematics;
-one sealed source-layout replay repair is implemented locally and awaits repair-only follow-up.
+the preregistered sealed source-layout repair passed repair-only external follow-up without Git and
+with all registered outputs byte-identical.
 
 ## Scale and geometric limits
 

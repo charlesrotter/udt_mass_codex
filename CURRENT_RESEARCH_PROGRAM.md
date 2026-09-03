@@ -93,7 +93,8 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   double silence survives and requires the third jet. Finite boosts preserve the full-matrix
   response while terminal `Phi` is zero-boost blind. This is initial second jet only, not explicit
   finite-time evolution, stability, occupancy, or selection.
-- G337 is independently verified and pending fresh external review. On inherited double silence,
+- G337 is externally accepted after R1. Its sealed replay passed without Git and every registered
+  output was byte-identical. On inherited double silence,
   the active equation fixes the initial third normal response from complete smooth `(gamma,K)` and
   their spatial jets. Two exact invariantly distinct lawful germs share
   `(R,b,C,Lambda,mu)` but have different `s2`, so the pointwise tuple is not a complete state.
@@ -122,8 +123,8 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Seal and submit the corrected G337 R1 package for repair-only external follow-up. Do not begin a
-fourth-jet ladder before that gate. If accepted, map the bounded choice between classifying arbitrary higher pair-germ carry and
-constructing an explicit short-time development of a declared lawful datum. Do not infer physical-
+Map the bounded choice between classifying arbitrary higher pair-germ carry and constructing an
+explicit short-time development of a declared lawful datum. Do not automatically extend the local
+derivative ladder; first establish which branch materially advances the UDT question. Do not infer physical-
 germ population, global persistence, topology selection, stability, occupancy, matter/mass,
 scale, `X_max`, or canon.

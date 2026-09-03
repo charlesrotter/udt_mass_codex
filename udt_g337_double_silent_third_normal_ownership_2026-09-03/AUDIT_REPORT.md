@@ -25,7 +25,9 @@ Landing:
 - fresh external adversarial review: bounded mathematics retained;
 - requested repair: sealed source-layout replay only;
 - R1 preregistered at `0b8cfc45` and implemented without changing scientific outputs;
-- repair-only external follow-up: pending authorization.
+- repair-only external follow-up: accepted after an exact 41-file/39-payload authentication;
+- the reviewer reran the sealed package with `git` unavailable and obtained 69/69 gates;
+- production, independent, hostile, and aggregate outputs remained byte-identical.
 
 Current maximum grade:
-`DERIVED_CONDITIONAL_BOUNDED__EXTERNAL_ACCEPT_WITH_REPAIR__PENDING_REPAIR_FOLLOWUP`.
+`EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_AFTER_PREREGISTERED_R1_SEALED_REPLAY_REPAIR`.

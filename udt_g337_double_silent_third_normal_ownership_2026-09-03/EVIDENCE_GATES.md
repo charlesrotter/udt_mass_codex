@@ -16,8 +16,8 @@
 | Aggregate package replay | PASS | 69/69 gates |
 | Fresh external review | PASS WITH R1 | mathematics retained; sealed source-layout repair requested |
 | R1 preregistration | PASS | commit `0b8cfc45`; no scientific change permitted |
-| R1 implementation | PASS LOCALLY | direct sealed-layout aggregate replay added |
-| R1 external follow-up | PENDING | corrected intake not yet dispatched |
+| R1 implementation | PASS | direct sealed-layout aggregate replay added |
+| R1 external follow-up | PASS | exact intake authenticated; Gitless sealed replay passed 69/69 gates; registered outputs byte-identical |
 
 Current bounded grade:
-`DERIVED_CONDITIONAL_BOUNDED__EXTERNAL_ACCEPT_WITH_REPAIR__PENDING_REPAIR_FOLLOWUP`.
+`EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_AFTER_PREREGISTERED_R1_SEALED_REPLAY_REPAIR`.
