@@ -36,6 +36,8 @@ def main() -> None:
         "CATCH_PROOF_RESULT.json", "EXACT_DERIVATION.md", "LAY_REPORT.md",
         "STATUS_LEDGER.tsv", "EVIDENCE_GATES.md", "RUN_RECORD.md", "REPLAY_COMMANDS.txt",
         "SOURCE_MANIFEST.tsv",
+        "AUDIT_REPORT.md", "ADVERSARIAL_REVIEW_REQUEST.md",
+        "build_review_intake.py", "verify_review_intake.py",
     ]
     for name in required:
         gate((root / name).is_file(), f"required_{name}")

@@ -24,7 +24,7 @@ python3 -S run_catch_proofs.py --output CATCH_PROOF_RESULT.json
 - production: exit 0, 121/121 gates;
 - independent ADM verification: exit 0, 28/28 gates;
 - hostile catches: exit 0, 11/11 mutations rejected;
-- aggregate package verifier: exit 0, 55/55 gates;
+- aggregate package verifier: exit 0, 59/59 gates;
 - production and independent landing tokens agree exactly;
 - no long process remains running.
 

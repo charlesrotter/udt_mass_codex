@@ -10,7 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 G328 = ROOT.parent / "udt_g328_g324_transverse_first_fourier_census_2026-09-02"
-sys.path.insert(0, str(G328))
+RUNTIME_ROOT = ROOT if (ROOT / "sealed_runtime.py").is_file() else G328
+sys.path.insert(0, str(RUNTIME_ROOT))
 from sealed_runtime import activate_runtime  # noqa: E402
 
 activate_runtime()

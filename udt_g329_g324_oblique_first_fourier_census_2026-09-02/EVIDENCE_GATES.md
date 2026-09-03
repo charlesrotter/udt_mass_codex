@@ -18,7 +18,7 @@ Additional controls:
 - 121 direct symbolic production gates;
 - 28 implementation-distinct ADM/gauge gates;
 - 11 hostile mutations caught;
-- 55 aggregate package checks;
+- 59 aggregate package checks;
 - exact all-component representative reconstruction;
 - exact nonzero Wronskians and both endpoint branches retained;
 - exact G327/G328 component-limit regression.
