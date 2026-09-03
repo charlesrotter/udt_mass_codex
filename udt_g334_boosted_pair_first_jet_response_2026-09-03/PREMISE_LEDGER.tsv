@@ -1,0 +1,27 @@
+item	status	use_or_limit
+UDT_metric	pinned-by-THEORY	the metric and its supplied pair pullback are the objects evaluated
+Universal_Reciprocity_DDR	OWNER_ADOPTED_PROVISIONAL_POSTULATE	active only through the bounded response constitution; not derived or canon
+quiet_GR_response	OWNER_ADOPTED_PROVISIONAL_POSTULATE	G312 bounded response premise
+Local_Metric_Sufficiency	OWNER_ADOPTED_PROVISIONAL_POSTULATE	G312 local finite-jet response premise
+Einstein_completion	pinned-by-THEORY_CONDITIONAL	Ric=Lambda*g only inside the active provisional arena
+G315_sign_convention	pinned-by-THEORY_CONDITIONAL	K=-(1/2)L_n gamma
+G332_initial_data	pinned-by-THEORY_CONDITIONAL	strict-radicand compact unit-Killing construction
+G333_first_response	pinned-by-THEORY_CONDITIONAL	q=gamma(Hv,v)=(b-C)/2-b*mu
+complete_pair_pullback	DERIVED_CONDITIONAL	h=F^*g with all supplied germ data entering before readout
+terminal_Phi	DERIVED_CONDITIONAL	Phi=-(1/2)log(-h00) on the regular calibrated stratum
+unit_direction_v	free-and-explored	all mu=gamma(v,xi)^2 in [0,1]
+boost_rapidity_z	free-and-explored	all finite positive negative and zero rapidities; no population weight
+square_root_branch	free-and-explored	both G332 signs retained
+directional_rate_q	derived_from_G333	positive negative and zero controls retained; never fitted
+Gaussian_normal_presentation	CHOSE_GAUGE_PRESENTATION_CONTROL	first derivative along n at the initial slice
+inherited_v_transport	CHOSE_TRANSPORT_PRESENTATION_CONTROL	[n,v]=0 defines one declared coordinate-germ subclass
+local_boost_rate	free-and-explored_GERM_DATA	retained symbolically to test Lorentz-frame-rate cancellation
+general_pair_transport	free-and-explored_GERM_DATA	commutator components retained; not fixed by pointwise boost
+moving_orthonormalization	CLASSIFICATION_CONTROL	may move response from raw h components into frame transport
+observer_time_derivative	OMITTED_OPEN	n derivative is not u derivative
+screen_and_null_limit	OMITTED_OPEN	no arbitrary screen mixing or infinite-boost claim
+Hopf_topology	OMITTED_OPEN	neither input nor success criterion
+later_evolution_stability	OMITTED_OPEN	first normal jet only
+source_matter_mass_action	OMITTED_OPEN	no imported physical mechanism
+observations_scale_Xmax	OMITTED_OPEN	no fit transfer ruler or physical X_max
+physical_occupancy	OMITTED_OPEN	no boost germ datum or history selected
