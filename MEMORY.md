@@ -34,12 +34,18 @@ inherited G333 normal first jet by exact Lorentz congruence. The full pair matri
 terminal `n(Phi)=q*sinh(z)^2` is blind at zero boost. General frame transport remains supplied and
 adds independent component terms; observer-time evolution still requires the spatial jet.
 
+G335 is externally accepted without repairs. Conditional smooth local marked evolution keeps every
+nonzero G333 directional response's sign on a datum/germ-specific normal-time interval. Exact
+first-order silent directions require higher-jet analysis. One fixed compact `sup|b|<|C|` datum has
+an all-direction interval; the full family does not. This is local continuation, not a duration,
+finite-time solve, global stability, selection, scale, or canon.
+
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227;
 G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258;
 G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289;
 G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321;
-G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334.
+G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335.
 
 ## Observations and premises
 
@@ -49,10 +55,10 @@ anchors; depth is supplied; pair `c_eff` is not automatically signal speed; stro
 
 ## Next gate
 
-Preregister a bounded metric-led nonzero-time persistence test for the G334 complete pair matrix.
-Keep boost, direction, branch, frame transport, spatial jet, and normal-versus-observer time
-explicit; do not claim global persistence, topology selection, stability, occupancy, scale,
-`X_max`, or canon.
+Preregister a bounded metric-led second-normal-jet test on G335's exact first-order-silent
+directions. Keep every silent point/direction, both branches, frame transport, spatial jet, and
+normal-versus-observer time explicit; do not claim global persistence, topology selection,
+stability, occupancy, scale, `X_max`, or canon.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,

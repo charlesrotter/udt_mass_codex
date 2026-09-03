@@ -68,17 +68,28 @@ pair first jet. This is still the G333 normal derivative, not boosted-observer t
 finite-time persistence, all physical germs, stability, occupancy, matter/mass, scale, `X_max`, or
 canon. Metric, kernel, angular sector, and adopted equation remain unchanged.
 
+G335 is externally accepted without scientific repairs. Conditional on the existing standard
+smooth local marked-development theorem, every nonzero G333 directional response persists with the
+same sign on some datum/germ-specific local normal-time interval. Exact first-order silent
+directions occur at `mu=(b-C)/(2b)` precisely when `b!=0` and `|b|>=|C|`; their higher response
+remains open. A fixed compact datum with `sup|b|<|C|` has one uniform all-direction local interval,
+but no interval uniform over the unrestricted G332 family follows. Raw components remain
+transport-qualified, terminal `Phi` remains blind at zero boost, and boosted-observer time still
+requires the spatial jet. This is local qualitative continuation, not an explicit duration,
+finite-time solve, global stability, occupancy/history selection, matter/mass, scale, `X_max`, or
+canon. Metric, kernel, angular sector, and adopted equation remain unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G334 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G335 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335.
 
-Authority: the exact 317-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through externally accepted G334.
+Authority: the exact 318-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through externally accepted G335.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -102,10 +113,10 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Preregister the metric-led nonzero-time persistence test that G334 now makes well typed. Follow the
-G334 complete pair matrix along a bounded marked development, keeping observer direction, boost,
-frame transport, spatial first jet, both G332 branches, and the distinction between normal and
-observer-time derivatives explicit. Determine what persists, mixes, or is lost without selecting
-physical germs or occupancy. Do not claim global persistence, stability, matter/mass, scale,
-`X_max`, or canon.
+Preregister the metric-led higher-jet test on G335's exact first-order-silent directions. Compute
+the second normal response from the full active conditional evolution for both G332 branches,
+keeping every silent point/direction, frame carry, the spatial jet, and normal-versus-observer-time
+derivatives explicit. Determine whether each silent direction remains silent, turns on, or splits;
+do not select data, germs, or occupancy, and do not claim global persistence, stability,
+matter/mass, scale, `X_max`, or canon.
 <!-- STARTUP_CURRENT_END -->

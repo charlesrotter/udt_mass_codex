@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "baseline_gap",
+    "baseline_silent",
+    "continuity_called_fixed_duration",
+    "silent_direction_discarded",
+    "silent_endpoint_strictness_mutation",
+    "component_zero_called_zero_geometry",
+    "terminal_phi_called_complete_at_zero_boost",
+    "branch_collapse",
+    "normal_called_observer_time",
+    "full_family_uniform_gap_claim",
+    "local_called_global_stability",
+    "control_example_called_G332_proof",
+    "inserted_Hopf_dependency",
+    "inserted_physics_input"
+  ],
+  "mutations_caught": 12,
+  "package": "G335",
+  "verdict": "PASS"
+}
