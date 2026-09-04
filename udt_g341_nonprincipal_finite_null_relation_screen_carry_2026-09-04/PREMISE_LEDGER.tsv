@@ -1,0 +1,20 @@
+item	status	role
+Taub_Kasner_metric	DERIVED_CONDITIONAL_BOUNDED	fixed exact spacetime from G323/G324/G338--G340
+provisional_vacuum_equation	OWNER_ADOPTED_PROVISIONAL_POSTULATES_NOT_CANON	conditional arena only
+positive_time_domain	PINNED_BY_THEORY_FOR_THIS_SPACETIME	T greater than zero regular component
+normal_observer_congruence	SUPPLIED	fixed spatial labels and metric-unit clocks
+emission_event_and_nonzero_lift	FREE_AND_EXPLORED_QUERY_DATA	all positive emission times and all nonzero spatial lifts
+compact_translation_lattice	SUPPLIED_CONDITIONAL	all winding and homotopy labels retained
+future_time_orientation	PINNED_BY_THEORY	future metric-null branch
+projective_momentum_direction	FREE_AND_EXPLORED_QUERY_DATA	all directions including both principal boundaries
+positive_momentum_scale	GAUGE	affine normalization only
+Cx_Cperp	FREE_AND_EXPLORED_SUPPLIED_METRIC_LABELS	all positive values tested without physical calibration
+Levi_Civita_transport	MATHEMATICAL_METHOD	connection uniquely determined by supplied metric
+endpoint_frequency_ratio	DERIVED_CONDITIONAL	normal clocks on each supplied regular directed leg
+G269_screen_mismatch	DERIVED_CONDITIONAL	endpoint clock relative to transported source null plane
+G298_relation_state	DERIVED_CONDITIONAL	full branch-indexed causal state before any rank-two projection
+numerical_quadrature_root_and_RK_parameters	CATEGORY_A_METHOD	soundness controls only; no physics selection
+electromagnetic_light_model	OMITTED	no emission absorption brightness spectrum or detection
+physical_route_or_distance_protocol	OPEN	no winding branch or distance convention selected
+observer_and_route_population	OPEN	no physical occupancy or branch population
+scale_Xmax	OPEN	no attachment or selection
