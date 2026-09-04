@@ -1,0 +1,30 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "compact_labels_not_aggregated": true,
+    "directional_formulas": true,
+    "external_review_acceptance": true,
+    "external_transmission_provenance": true,
+    "frequency_reversal_and_endpoint_reset": true,
+    "frozen_script_hashes": true,
+    "frozen_source_hashes": true,
+    "general_screen_covariance": true,
+    "hostile_20_of_20": true,
+    "independent_4251_of_4251": true,
+    "inverse_G345_geometric_mean": true,
+    "metric_sky_and_area_derivation": true,
+    "mixed_principal_and_coincidence": true,
+    "no_write_replay_derive_directional_angular_area.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_directional_angular_area_independent.py": true,
+    "preregistration_and_no_retuning": true,
+    "production_11204_of_11204": true,
+    "scope_and_premise_guard": true,
+    "stationary_sewing_typed": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "landing": "TWO_DIRECTIONAL_METRIC_ANGULAR_AREA_JACOBIANS_CLOSE__SQUARED_FREQUENCY_REVERSAL_AND_INVERSE_G345_GEOMETRIC_MEAN__EXACT_AFFINE_REFERENCE_GL2_ENDPOINT_RESET_AND_STATIONARY_SEWING__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_BRIGHTNESS_FLUX_LUMINOSITY_PROBABILITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "review_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED"
+}

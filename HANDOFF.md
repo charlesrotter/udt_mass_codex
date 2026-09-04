@@ -27,15 +27,11 @@ forced; arbitrary frame transport remains supplied; exact silence passes to high
 conditional local classifications, not finite-time/global stability, occupancy, matter/mass,
 scale, `X_max`, or canon. Metric/kernel/angular/equation are unchanged.
 
-G338--G345 are externally accepted bounded evaluations on one exact supplied Taub/Kasner spacetime.
-G338/G339 separate finite-time pair response, fixed-label separation, and local-ruler carry. G340
-separates slice length, path-labelled null exchange, chosen radar, and projective clock contrast.
-G341 closes the per-lift future-null inverse and cone rank; compact alternatives remain path labels.
-G342 gives the source-normalized two-screen Jacobi map. G343 extends it to a bilocal four-by-four
-phase-space propagator that composes, is symplectic, reverses by inverse, and is invariant under its
-arbitrary reference event. Endpoint unit normalizations differ by the existing metric frequency
-ratio. These are geometric results, not light/brightness, physical route/population, occupancy,
-stability, scale, or `X_max` selection.
+G338--G346 are externally accepted bounded evaluations on one supplied Taub/Kasner spacetime.
+G338--G341 separate pair response, ruler carry, slice/null/radar/projective relations, and labelled
+cone lifts. G342/G343 give the two-screen Jacobi map and bilocal symplectic propagator, with exact
+composition, reversal, endpoint frequency reset, and no hidden reference scale. These are geometry,
+not light/brightness, route/population, occupancy, stability, scale, or `X_max` selection.
 G344 adds the homogeneous quadratic endpoint generator and its affine-weighted screen bidensity on
 every noncoincident fixed-ray segment. The mixed Hessian, stationary composition, reversal,
 reference and screen covariance, principal limits, and separate compact labels close. Its residual
@@ -44,10 +40,15 @@ been selected.
 G345 uses both observers' metric frequencies and endpoint metric screen areas to cancel the
 bidensity's affine and screen-coordinate weights. The resulting positive scalar reverses
 symmetrically and sews with the normalized stationary join factor. It is unique only in its stated
-monomial class and is not yet a directional angular-area map, light law, or physical distance.
+monomial class and is not itself a directional angular-area map, light law, or physical distance.
+G346 derives the two directional infinitesimal metric angular-area Jacobians. Their ratio is the
+squared endpoint frequency ratio and their geometric mean is exactly inverse G345; affine,
+reference, `GL(2)`, endpoint reset, reversal, sewing, principal, coincidence, and compact-label
+checks close. Fresh external review accepted without required repair. The normal observers and
+labelled ray remain supplied, and no finite beam, light/brightness law, distance, or route is selected.
 
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G345 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G346 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -55,13 +56,13 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346.
 
 W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv` (328 rows through G345). Archives:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` (329 rows through G346). Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -75,11 +76,12 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: starting only from G342--G345, derive or refute the two directional metric screen-area per
-metric celestial-solid-angle Jacobians. Test their frequency-ratio reversal law and whether the
-inverse G345 scalar is exactly their geometric mean, including general screen coordinates,
-affine/endpoint-unit gauges, stationary sewing, principal limits, and compact labels. Keep it
-geometric: no brightness, flux, luminosity, probability, transfer import, observational-distance
-selection, physical route/population, occupancy, scale, `X_max`, stability, or canon.
+Next: starting only from G340/G343/G346, replace either supplied normal endpoint observer by an
+arbitrary future timelike unit observer. Derive the metric-native changes in frequency, sky solid
+angle, screen coordinates, and both directional area Jacobians; test whether squared-frequency
+reversal and inverse-G345 mean retain covariant form through finite boosts short of null. Keep it
+infinitesimal and geometric: no finite-beam, brightness, flux, luminosity, probability, transfer,
+observational-distance, preferred observer/route/population, occupancy, scale, `X_max`, stability,
+or canon.
 
 <!-- STARTUP_CURRENT_END -->

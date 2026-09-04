@@ -1,9 +1,14 @@
 item	status	note
-G346_preregistration	READY_TO_BANK	outcomes unseen
-production	NOT_RUN	frozen formulas not yet evaluated
-independent_verification	NOT_RUN	implementation-distinct route required
-hostile_mutations	NOT_RUN	catch proofs required
-directional_angular_area	OPEN	bounded gate under test
+G346_preregistration	PASS	9a037558 banked and pushed before outcome execution
+production	PASS	11204 of 11204 on first frozen execution
+independent_verification	PASS	4251 of 4251 including direct log-time RK4 Jacobi columns
+hostile_mutations	PASS	20 of 20 caught
+directional_angular_area	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	fresh gpt-5.4 review accepted without required repair
+frequency_reversal	DERIVED_CONDITIONAL_BOUNDED	directional ratio equals squared endpoint metric frequency ratio
+G345_geometric_mean	DERIVED_CONDITIONAL_BOUNDED	inverse G345 scalar is exact geometric mean
+stationary_composition	DERIVED_CONDITIONAL_BOUNDED	normalized joined Hessian required; bare multiplication false
+affine_reference_GL2_covariance	DERIVED_CONDITIONAL_BOUNDED	all declared bookkeeping weights cancel
+compact_lifts	SUPPLIED_PATH_LABELS	retained separately; none selected or summed
 brightness_flux_luminosity_probability_distance	OPEN_NOT_DERIVED	no transfer or observational attachment
 physical_route_or_observer_population	OPEN_NOT_DERIVED	spacetime normal congruence and labelled ray supplied
 matter_mass_scale_Xmax	OPEN_NOT_DERIVED	no attachment or selection

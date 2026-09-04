@@ -1,0 +1,28 @@
+{
+  "caught": 20,
+  "failed": [],
+  "mutations": {
+    "G345_not_inverted": true,
+    "arithmetic_mean_replaces_geometric_mean": true,
+    "bare_multiplicative_sewing": true,
+    "compact_lifts_summed_or_selected": true,
+    "endpoint_reset_factor_omitted": true,
+    "finite_beam_promotion_rejected": true,
+    "forbidden_physical_promotion": true,
+    "frequency_product_used_for_reversal": true,
+    "frequency_ratio_reversed": true,
+    "hidden_unconverted_reference_event": true,
+    "metric_musical_map_omitted": true,
+    "negative_scope_token_is_load_bearing": true,
+    "omit_one_source_frequency_power": true,
+    "omit_source_metric_area": true,
+    "omit_target_metric_area": true,
+    "one_principal_screen_deleted": true,
+    "stationary_factor_inverted": true,
+    "use_target_frequency_for_forward_map": true,
+    "wrong_GL2_metric_transform": true,
+    "wrong_GL2_position_block_transform": true
+  },
+  "status": "PASS",
+  "total": 20
+}

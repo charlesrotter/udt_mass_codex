@@ -1,0 +1,33 @@
+{
+  "assertions": 11204,
+  "coincidence_sequence": [
+    0.999993905572601,
+    0.9999981820048063,
+    0.9999993949852846,
+    0.9999998185981376
+  ],
+  "failed": [],
+  "landing": "TWO_DIRECTIONAL_METRIC_ANGULAR_AREA_JACOBIANS_CLOSE__SQUARED_FREQUENCY_REVERSAL_AND_INVERSE_G345_GEOMETRIC_MEAN__EXACT_AFFINE_REFERENCE_GL2_ENDPOINT_RESET_AND_STATIONARY_SEWING__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_BRIGHTNESS_FLUX_LUMINOSITY_PROBABILITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "maxima": {
+    "affine_relative_error": 4.0225473063105635e-16,
+    "endpoint_reset_relative_error": 2.98457122214132e-16,
+    "general_screen_relative_error": 1.7710785995225723e-15,
+    "geometric_mean_relative_error": 4.987843226005652e-16,
+    "mixed_formula_relative_error": 1.2212453270876722e-15,
+    "principal_relative_error": 3.774758283725532e-15,
+    "reference_relative_error": 7.105427357601002e-15,
+    "reversal_relative_error": 1.7609972333806675e-15,
+    "stationary_sewing_relative_error": 3.542999227335031e-14
+  },
+  "preregistration_commit": "9a037558",
+  "selected_alternatives": [
+    "A",
+    "R1",
+    "G1",
+    "C1",
+    "S1",
+    "N1",
+    "Q1"
+  ],
+  "status": "PASS"
+}

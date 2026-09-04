@@ -1,0 +1,17 @@
+{
+  "assertions": 4251,
+  "failed": [],
+  "maxima": {
+    "affine_error": 3.539281803774135e-16,
+    "composition_error": 9.98350167131679e-11,
+    "endpoint_reset_error": 3.5436285241350872e-15,
+    "general_frame_error": 7.12353667027511e-16,
+    "geometric_mean_error": 1.6794386486674364e-15,
+    "principal_error": 4.2322206105188054e-14,
+    "reversal_error": 3.28091451144386e-15,
+    "rk4_basis_error": 3.072819776406277e-13,
+    "sky_map_error": 3.166591796149879e-16
+  },
+  "method": "independent lambda-gamma Simpson-log fundamental basis, explicit metric sky musical map, direct endpoint-unit recomputation, and log-time RK4 Jacobi integration; imports no production or G342-G345 implementation",
+  "status": "PASS"
+}
