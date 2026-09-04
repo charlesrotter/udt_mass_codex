@@ -13,6 +13,7 @@ parallel_screen_basis	DERIVED_CONDITIONAL_BOUNDED	G341/G343 parallel quotient sc
 endpoint_screen_rotations	FREE_AND_EXPLORED_GAUGE	independent O(2) basis changes at both endpoints
 endpoint_screen_positions	FREE_AND_EXPLORED_QUERY_DATA	arbitrary R2 x R2 endpoint values
 quadratic_generating_function	CATEGORY_A_SYMPLECTIC_ANALYSIS	derived from G343 blocks; not a new physical action
+additive_endpoint_function	CHOSE_GENERATOR_NORMALIZATION	homogeneous representative sets k(T1,T0)=0; general endpoint coboundary remains gauge
 mixed_hessian_determinant	CATEGORY_A_GEOMETRIC_DENSITY	basis and affine weights retained
 compact_translation_lattice	SUPPLIED_CONDITIONAL	all lift labels retained separately
 numeric_quadrature_and_matrix_controls	CATEGORY_A_METHOD	certification only
