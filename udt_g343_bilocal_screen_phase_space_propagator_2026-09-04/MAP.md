@@ -23,16 +23,23 @@ Use only
  g=-dT^2+C_X^2T^{-2/3}dX^2+C_\perp^2T^{4/3}(dY^2+dZ^2),\qquad T>0,
 \]
 
-the G341 parallel quotient-screen basis, every projective null direction, one positive affine
-normalization held fixed along each ray, arbitrary positive endpoint times, and every supplied
-compact-lattice lift. The affine normalization is gauge, not a physical energy or scale.
+the G341 parallel quotient-screen basis, every projective null direction, one supplied positive-time
+reference event on the ray, one positive affine normalization held fixed along the ray, arbitrary
+positive endpoint times, and every supplied compact-lattice lift. The reference event is coordinate
+bookkeeping and the affine normalization is gauge; neither is a physical energy or selected scale.
 
 Write the projective direction without an axis singularity as
 
+With the G341 invariant `lambda=C_X p_perp/(C_perp |p_X|)` and supplied reference time `T_*`, write
+
 \[
- \rho={ (p_X/C_X)^2\over (p_X/C_X)^2+(p_\perp/C_\perp)^2}\in[0,1],\qquad
- \kappa=\sqrt{(p_X/C_X)^2+(p_\perp/C_\perp)^2}>0.
+ \rho={T_*^2\over T_*^2+\lambda^2}\in[0,1],\qquad
+ \nu=\left.{dT\over ds}\right|_{T_*}>0.
 \]
+
+Thus `rho` depends only on the dimensionless ratio `lambda/T_*`, while `nu` fixes affine gauge.
+Changing `T_*` merely re-coordinates the same ray and must leave the propagator unchanged after the
+derived parameter conversion. No unlike dimensionful quantities are added.
 
 The calculation must retain both screen coordinates and both screen derivatives. Axial symmetry
 may diagonalize the two scalar sectors, but the four-dimensional phase-space invariant and its
@@ -40,9 +47,10 @@ endpoint transformations must be checked rather than inferred from G342's determ
 
 ## Pure and easy routes
 
-- Pure route used here: keep one affine gauge along the entire ray, derive the full metric tidal
-  system, construct the bilocal fundamental matrix, and only afterward translate to separate
-  endpoint clock normalizations. This keeps composition and reversal well typed.
+- Pure route used here: mark one arbitrary reference event, keep its affine gauge along the entire
+  ray, derive the full metric tidal system, construct the bilocal fundamental matrix, verify
+  reference-event covariance, and only afterward translate to separate endpoint clock
+  normalizations. This keeps composition and reversal well typed without inserting a scale.
 - Easier control only: multiply independently source-normalized G342 vertex maps. That loses the
   common derivative units at intermediate points and is therefore preregistered as an invalid
   shortcut, not a candidate physical construction.
@@ -54,11 +62,13 @@ endpoint transformations must be checked rather than inferred from G342's determ
 2. Prove or refute exact composition and preservation of the canonical screen Wronskian.
 3. Derive endpoint reversal in a common affine gauge and the conversion law when each endpoint
    independently declares unit local frequency.
-4. Recover the G342 vertex map as a boundary case rather than treating it as a new premise.
-5. Take nonsingular longitudinal and transverse principal limits.
-6. Retain each compact lift as a separate path-labelled propagator and distinguish composition on
+4. Prove that changing the supplied reference event only changes the direction/gauge coordinates,
+   not the physical propagator.
+5. Recover the G342 vertex map as a boundary case rather than treating it as a new premise.
+6. Take nonsingular longitudinal and transverse principal limits.
+7. Retain each compact lift as a separate path-labelled propagator and distinguish composition on
    one lift from summing or selecting lifts.
-7. Audit affine gauge, endpoint basis, direction chart, and every forbidden physical attachment.
+8. Audit affine gauge, endpoint basis, direction chart, and every forbidden physical attachment.
 
 ## Maximum conclusion
 

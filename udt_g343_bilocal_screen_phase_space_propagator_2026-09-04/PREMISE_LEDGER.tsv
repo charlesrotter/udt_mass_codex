@@ -5,14 +5,16 @@ positive_time_domain	PINNED_BY_THEORY_FOR_THIS_SPACETIME	T greater than zero reg
 normal_observer_null_congruence	SUPPLIED	fixed spatial labels and metric-unit clocks
 parallel_quotient_screen	DERIVED_CONDITIONAL_BOUNDED	G341 screen basis carried along each labelled ray
 endpoint_times	FREE_AND_EXPLORED_QUERY_DATA	all positive pairs and ordered triples
-future_projective_null_direction	FREE_AND_EXPLORED_QUERY_DATA	rho from zero through one including both principal limits
-positive_affine_gauge_kappa	GAUGE_FREE_AND_EXPLORED	held common along a ray; no energy or physical scale attachment
+reference_event_Tstar	SUPPLIED_GAUGE_BOOKKEEPING	arbitrary positive event on the same ray; covariance explicitly tested
+future_projective_null_direction	FREE_AND_EXPLORED_QUERY_DATA	rho=Tstar^2/(Tstar^2+lambda^2) from zero through one including both principal limits
+positive_reference_frequency_nu	GAUGE_FREE_AND_EXPLORED	held common along a ray; no energy or physical scale attachment
 separate_source_frequency_one	CHOSE_QUERY_CALIBRATION	used only after common-affine derivation to recover G342 and type endpoint reciprocity
 compact_translation_lattice	SUPPLIED_CONDITIONAL	all winding and homotopy labels retained separately
 Cx_Cperp	FREE_AND_EXPLORED_SUPPLIED_METRIC_LABELS	all positive values; cancel from the screen propagator
 Levi_Civita_Riemann_Jacobi	CATEGORY_A_GEOMETRY	metric-derived evaluator, not dynamics or radiative physics
 fundamental_matrix_and_symplectic_algebra	CATEGORY_A_METHOD	analysis of the metric Jacobi system
 numerical_quadrature_and_ODE_controls	CATEGORY_A_METHOD	certification only
+hidden_unit_reference_scale	FORBIDDEN	Tstar remains explicit and reference-event covariance is required
 electromagnetic_or_light_model	OMITTED	no emission absorption intensity spectrum or detection
 luminosity_or_observational_distance	OMITTED	bilocal screen propagation is not attached to observed flux or distance
 physical_route_or_population	OPEN	no compact lift selected, summed, or weighted

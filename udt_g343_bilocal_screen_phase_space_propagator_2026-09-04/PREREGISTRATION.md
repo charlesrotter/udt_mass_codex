@@ -7,9 +7,12 @@ Outcome status: analytic, computational, and independent-replay outcomes unseen
 
 Freeze the exact G341/G342 metric, regular component `T>0`, normal-observer null congruence, the
 G341 parallel quotient-screen basis, all projective directions `rho in [0,1]`, arbitrary positive
-endpoint triples, one positive affine gauge `kappa` held fixed along each ray, and every supplied
-compact-lattice lift. Endpoint order is free: future propagation has `T_1>T_0`, while algebraic
-reversal is tested for both orders.
+endpoint triples, one arbitrary positive-time reference event `T_*`, one positive reference
+frequency `nu=(dT/ds)|T_*` held fixed along each ray, and every supplied compact-lattice lift. The
+regular chart is `rho=T_*^2/(T_*^2+lambda^2)` and may never be formed by adding unlike dimensionful
+momentum components. Endpoint order is free: future propagation has `T_1>T_0`, while algebraic
+reversal is tested for both orders. Changing `T_*` must be tested as a coordinate/gauge change, not
+treated as a different ray or physical scale.
 
 No luminosity, electromagnetic transfer, source spectrum, detector, observed distance, radar
 choice, route population, topology selection, matter model, scale, `X_max`, stability criterion,
@@ -54,17 +57,21 @@ or canon claim may enter.
    when each endpoint resets emitted frequency to one.
 4. Recover G342's two source-normalized vertex widths and both principal limits exactly. Any
    singularity or unexplained normalization mismatch selects `C` or `D`.
-5. Production must cover at least 6,000 checks over logarithmically distributed endpoint triples,
-   direction values including both axes and near-axis cases, and affine gauges. Independent code
+5. Prove and test reference-event covariance by changing `T_*`, converting `rho` and `nu` through
+   the same invariant `lambda` and affine tangent, and recovering the identical `4 x 4` map.
+6. Production must cover at least 6,000 checks over logarithmically distributed endpoint triples,
+   reference events, direction values including both axes and near-axis cases, and affine gauges.
+   Independent code
    may not import production or G341/G342 implementation and must use direct first-order Jacobi
    integration plus an implementation-distinct fundamental-matrix route for at least 2,500 checks.
-6. Raw double-precision relative tolerance is `5e-9` for quadrature identities and `2e-7` for the
+7. Raw double-precision relative tolerance is `5e-9` for quadrature identities and `2e-7` for the
    independent ODE route. Exact algebraic identities are required where available.
-7. Hostile mutations must catch at least: independently renormalized intermediate affine gauges,
+8. Hostile mutations must catch at least: hidden `T_*=1` scale, independently renormalized
+   intermediate affine gauges,
    wrong composition order, reversal without inversion, wrong bilocal `B` sign, swapped `A/D`,
    curvature sign flip, injected screen mixing, broken Wronskian, lost longitudinal limit, lost
    transverse limit, deleted compact path label, and promotion to luminosity/distance/scale.
-8. Every script must run with `python3 -S`, support `UDT_NO_WRITE=1`, and preserve evidence bytes in
+9. Every script must run with `python3 -S`, support `UDT_NO_WRITE=1`, and preserve evidence bytes in
    no-write mode.
 
 ## Premise and completeness gate
