@@ -1,0 +1,37 @@
+{
+  "all_passed": true,
+  "catches_passed": 13,
+  "catches_total": 13,
+  "checks": {
+    "broken_wronskian": true,
+    "curvature_sign_flip": true,
+    "deleted_compact_path_label": true,
+    "hidden_unit_reference_scale": true,
+    "injected_screen_mixing": true,
+    "intermediate_affine_renormalization": true,
+    "lost_longitudinal_limit": true,
+    "lost_transverse_limit": true,
+    "physical_readout_promotion": true,
+    "reversal_without_inverse": true,
+    "swapped_A_D_blocks": true,
+    "wrong_bilocal_B_sign": true,
+    "wrong_composition_order": true
+  },
+  "landing": "FULL_BILOCAL_PHASE_SPACE_PROPAGATOR_CLOSES__EXACT_COMPOSITION_SYMPLECTICITY__COMMON_AFFINE_INVERSE_AND_SOURCE_NORMALIZED_FREQUENCY_RECIPROCITY__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_LUMINOSITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "messages": {
+    "broken_wronskian": "broken_wronskian",
+    "curvature_sign_flip": "curvature_sign_flip",
+    "deleted_compact_path_label": "deleted_compact_path_label",
+    "hidden_unit_reference_scale": "hidden_unit_reference_scale",
+    "injected_screen_mixing": "injected_screen_mixing",
+    "intermediate_affine_renormalization": "intermediate_affine_renormalization",
+    "lost_longitudinal_limit": "lost_longitudinal_limit",
+    "lost_transverse_limit": "lost_transverse_limit",
+    "physical_readout_promotion": "physical_readout_promotion",
+    "reversal_without_inverse": "reversal_without_inverse",
+    "swapped_A_D_blocks": "swapped_A_D_blocks",
+    "wrong_bilocal_B_sign": "wrong_bilocal_B_sign",
+    "wrong_composition_order": "wrong_composition_order"
+  },
+  "validator_shared_by_baseline_and_mutants": true
+}

@@ -1,0 +1,15 @@
+{
+  "assertions": 2960,
+  "failed": [],
+  "landing": "INDEPENDENT_DIRECT_METRIC_CURVATURE_RK_AND_FUNDAMENTAL_MATRIX_VERIFICATION",
+  "maxima": {
+    "composition_relative_error": 8.048941603813503e-12,
+    "curvature_relative_error": 3.039235529911366e-15,
+    "ode_fundamental_relative_error": 1.4629478184424727e-12,
+    "reference_event_covariance_relative_error": 1.2434497875801753e-14,
+    "reversal_relative_error": 9.734435479913373e-12,
+    "symplectic_relative_error": 6.439293542825866e-15
+  },
+  "method": "generic coordinate metric two-jet curvature plus log-time RK4 and independently assembled unit-Wronskian basis",
+  "status": "PASS"
+}

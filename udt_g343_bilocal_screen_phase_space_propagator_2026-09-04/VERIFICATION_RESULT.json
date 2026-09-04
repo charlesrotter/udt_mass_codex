@@ -1,0 +1,29 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "bounded_claim_language": true,
+    "compact_paths_not_selected": true,
+    "composition_and_symplecticity": true,
+    "corrected_preregistration_commit": true,
+    "dimensionally_typed_direction_chart": true,
+    "discarded_runs_preserved": true,
+    "external_review_authenticated_and_accepted": true,
+    "external_transmission_provenance": true,
+    "frozen_source_hashes": true,
+    "full_bilocal_blocks": true,
+    "hostile_13_of_13": true,
+    "independent_2960_of_2960": true,
+    "landing_agreement": true,
+    "no_write_replay_derive_bilocal_propagator.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_bilocal_independent.py": true,
+    "principal_limits_and_g342_recovery": true,
+    "production_8888_of_8888": true,
+    "reference_event_covariance": true,
+    "typed_endpoint_reciprocity": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "landing": "FULL_BILOCAL_PHASE_SPACE_PROPAGATOR_CLOSES__EXACT_COMPOSITION_SYMPLECTICITY__COMMON_AFFINE_INVERSE_AND_SOURCE_NORMALIZED_FREQUENCY_RECIPROCITY__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_LUMINOSITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED"
+}

@@ -2,7 +2,7 @@
 
 Date: 2026-09-04
 
-`LIVE.md` controls status; the 325-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 326-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -61,58 +61,27 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   complete-pair first, finite-boost, silent-second, and full-field third initial responses. Closed
   Hopf fibres are not forced; arbitrary carry remains supplied; silence passes to higher jets.
   These are conditional local classifications, not evolution, stability, occupancy, or selection.
-- G338 is externally accepted without required repair. On the exact supplied G323/G324
-  Taub/Kasner spacetime and the declared commuting-translation-field carry,
-  `G=rho*u^(-2/3)+(1-rho)*u^(4/3)` owns the complete shifted pair pullback with `det(h)=-G` for all
-  directions, all finite initial boosts, and the full regular interval. At zero boost terminal
-  `Phi` is blind while `m=sqrt(G)` evolves. The unique first-order-silent direction `rho=2/3`
-  turns on exactly on both finite-time sides. This is an explicit bounded development/evaluation,
-  not a universal carry, stability, occupancy/history, topology, scale, or `X_max` theorem.
-- G339 is externally accepted without required repair. On the same spacetime and supplied normal
-  congruence, the Lie/commuting field is the infinitesimal fixed-label observer-separation query;
-  parallel/Fermi local rulers are different objects and remain unit. Raw pair components and W1
-  readouts vary over the exact diagnostic carry family, while the transport-subtracted typed
-  pair-plus-carry state recovers the same normal deformation tensor. Rotating orthonormal and
-  principal-axis accelerated Fermi controls preserve this distinction. This is not finite-separated
-  observer comparison, a physical carry/population selector, occupancy, scale, or `X_max`.
-- G340 is externally accepted without required repair or finding at any severity. On the same
-  supplied spacetime and fixed-label normal observers, the metric directly supplies same-slice
-  distance, path-labelled null exchange, general null quadrature, exact principal arrival/frequency
-  laws, principal transported-planar projective readout, and conditional radar timing. The four
-  constructions remain distinct; every compact winding is retained. No phenomenological light
-  model is needed for timing/frequency geometry, while emission/transfer/detection remain outside
-  scope. No physical protocol/population, occupancy, scale, or `X_max` is selected.
-- G341 is externally accepted without required repair or finding. On the same exact spacetime,
-  every nonzero universal-cover lift has one future null leg, and the one-event future cone has no
-  positive-time interior conjugate caustic. Compact alternatives are path-labelled. Mixed rays
-  have trivial screen-quotient rotation but nonzero full G269 mismatch, including the unique
-  zero-shift mixed direction. This is not a generic cone/stability theorem or light/brightness
-  model and selects no physical route/population, occupancy, scale, or `X_max`.
-- G342 is externally accepted without finding. Fixed-affine source-sky variation and an independent
-  metric/Riemann/RK route give the exact two-screen Jacobi map on the G341 cone. Widths, rates,
-  area, and mean expansion stay positive; expansion decreases; shear vanishes only longitudinally
-  or at the vertex. Compact lifts keep separate positive maps. This is geometric beam response,
-  not luminosity, distance, route selection, stability, or a generic theorem.
+- G338/G339 give one exact finite-time pair evaluation and separate fixed-label observer separation
+  from local-ruler carry; typed pair-plus-carry data retain the metric deformation.
+- G340/G341 separate slice, null, radar, and projective relations, then close the path-labelled
+  future-null inverse and cone rank for all projective directions on that exact spacetime.
+- G342/G343 give the two-screen source-vertex Jacobi map and its full bilocal four-by-four
+  phase-space extension. The latter composes, is symplectic, reverses by inverse, has no hidden
+  reference scale, and retains all compact path labels. These are geometric results, not a light
+  model, physical distance, route/population selection, stability, occupancy, scale, or `X_max`.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
 many legal data/developments, G332 constraint embedding, G333--G337's response jets, G338's exact
 finite-time pair evaluation, G339's carry typing, G340's finite-pair causal geometry, G341's full
-cone/carry tile, and G342's two-screen Jacobi map. It
+cone/carry tile, G342's two-screen Jacobi map, and G343's full bilocal phase-space propagator. It
 does not own populated germs, a physical
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
-history. G332 closes the specific G331 constraint-existence question; G333/G334 close one
-normal-jet response and its finite-boost congruence, with arbitrary transport still supplied.
-G335 closes qualitative local persistence for nonzero initial response on conditional smooth
-marked developments. G336 classifies the exact first-order-silent set at second normal order.
-G337 shows that complete initial fields own the inherited third response on double silence while
-the five-number pointwise tuple does not. G338 supplies one explicit finite-time development and
-complete pair response under one declared carry. G339 classifies how that response changes under
-an exact diagnostic carry family and shows how typed pair-plus-carry data retain the normal metric
-deformation. G340 closes the principal finite-separated timing/frequency tile; G341 closes the
-nonprincipal per-lift inverse, cone rank, and screen-carry tile on this exact spacetime. G342 closes
-the source-normalized two-dimensional Jacobi/beam-area response on that exact cone. Generic G332 finite-time
+history. G332 supplies constraint witnesses; G333--G337 close bounded initial response jets but
+leave arbitrary transport and global evolution open. G338--G343 then supply one explicit finite-time
+pair/carry evaluation, finite-separated causal geometry, full path-labelled null cone, two-screen
+Jacobi map, and bilocal phase-space propagator. Generic G332 finite-time
 development, the complete third-zero locus, and global persistence also remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
@@ -122,9 +91,10 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-On the same exact spacetime and G341/G342 cone, derive the full bilocal four-by-four screen
-phase-space Jacobi propagator between arbitrary positive-time points. Test exact composition,
-Wronskian/symplectic structure, endpoint reversal/reciprocity, principal limits, and compact path
-labels directly from the metric. Do not import luminosity or a light/transfer model or infer a
-universal physical distance protocol, germ population, global persistence, topology selection,
-stability, occupancy, matter/mass, observations, scale, `X_max`, or canon.
+Starting only from G343's exact bilocal symplectic map, derive or refute a globally regular
+quadratic endpoint generating function and its determinant density on every noncoincident segment
+of each fixed labelled ray. Test endpoint Hessians, composition, reference-event and affine/screen
+basis covariance, both principal limits, and per-lift labels. Do not import luminosity or a
+light/transfer model or infer a universal physical distance protocol, germ population, global
+persistence, topology selection, stability, occupancy, matter/mass, observations, scale, `X_max`,
+or canon.

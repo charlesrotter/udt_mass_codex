@@ -1,0 +1,15 @@
+item	status	maximum_claim
+G343_bilocal_phase_space_map	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	full 4x4 screen propagator on supplied G341/G342 rays
+common_affine_composition	DERIVED_CONDITIONAL_BOUNDED	exact groupoid composition on each fixed labelled ray
+screen_Wronskian_symplecticity	DERIVED_CONDITIONAL_BOUNDED	M transpose J M equals J; not quantum or radiative physics
+common_affine_endpoint_reversal	DERIVED_CONDITIONAL_BOUNDED	reverse map is exact inverse
+separate_source_normalization	DERIVED_CONDITIONAL_BOUNDED	frequency-ratio conjugation; not an added transfer law
+reference_event_Tstar	GAUGE_BOOKKEEPING_COVARIANT	no preferred time or scale selected
+G342_vertex_recovery	DERIVED_CONDITIONAL_BOUNDED	exact boundary case
+principal_directions	DERIVED_CONDITIONAL_BOUNDED	both retain full phase-space rank
+compact_lifts	SUPPLIED_PATH_LABELS	each has separate propagator; no sum weight or selection
+external_review	ACCEPTED_WITHOUT_FINDING_OR_REPAIR	authenticated 29 payloads; 19 of 19 replay; separate scratch reconstruction
+metric_kernel_angular_equation	UNCHANGED	no new physics object introduced
+luminosity_distance_transfer	NOT_USED	open observational attachment
+route_population_occupancy	OPEN	no physical branch selected
+matter_mass_scale_Xmax_canon	OPEN	no claim

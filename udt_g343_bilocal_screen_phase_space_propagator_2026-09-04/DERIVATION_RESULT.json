@@ -1,0 +1,27 @@
+{
+  "assertions": 8888,
+  "failed": [],
+  "landing": "FULL_BILOCAL_PHASE_SPACE_PROPAGATOR_CLOSES__EXACT_COMPOSITION_SYMPLECTICITY__COMMON_AFFINE_INVERSE_AND_SOURCE_NORMALIZED_FREQUENCY_RECIPROCITY__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_LUMINOSITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "maxima": {
+    "composition_relative_error": 1.3247134512261843e-14,
+    "g342_vertex_recovery_relative_error": 9.662469068589168e-16,
+    "gauge_covariance_relative_error": 4.829470157119431e-14,
+    "principal_limit_relative_error": 3.228398296572961e-14,
+    "reference_event_covariance_relative_error": 1.7763568394002505e-14,
+    "reversal_relative_error": 5.684341886080802e-14,
+    "source_reciprocity_relative_error": 3.885780586188048e-15,
+    "symplectic_relative_error": 8.881784197001252e-16,
+    "wronskian_error": 8.881784197001252e-16
+  },
+  "method": "regular projective-direction chart plus exact bilocal reduction-of-order fundamental matrices",
+  "preregistration_commit": "71db75f4",
+  "selected_alternatives": [
+    "A",
+    "C1",
+    "W1",
+    "R1",
+    "P1",
+    "Q1"
+  ],
+  "status": "PASS"
+}
