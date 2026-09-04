@@ -1,0 +1,9 @@
+item	status	note
+G347_preregistration	READY_UNBANKED	outcomes unseen; must commit and push before execution
+production	NOT_RUN	frozen command in COMMANDS.md
+independent_verification	NOT_RUN	implementation-distinct route required
+hostile_mutations	NOT_RUN	minimum mutation list frozen
+external_review	NOT_REQUESTED	fresh sealed adversarial review required before result banking
+endpoint_observer_covariance	OPEN	alternatives A through D frozen
+preferred_observer_light_distance_scale_Xmax	OPEN_NOT_DERIVED	outside maximum conclusion
+canon	OPEN	Charles alone canonizes
