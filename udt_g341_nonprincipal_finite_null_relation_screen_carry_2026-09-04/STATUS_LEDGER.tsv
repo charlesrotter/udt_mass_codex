@@ -1,0 +1,23 @@
+object	status	boundary
+G341_metric	DERIVED_CONDITIONAL_BOUNDED	exact supplied G323/G324/G338--G340 Taub--Kasner spacetime
+normal_observers	SUPPLIED	fixed spatial labels and metric-unit clocks
+nonprincipal_endpoint_map	DERIVED_CONDITIONAL_BOUNDED	exact all mixed directions and positive times
+per_lift_global_inverse	DERIVED_CONDITIONAL_BOUNDED	one future null solution for every nonzero universal-cover lift
+universal_cover_null_cone_rank	DERIVED_CONDITIONAL_BOUNDED	no interior rank loss for T greater than Te greater than zero
+principal_direction_boundaries	DERIVED_CONDITIONAL_BOUNDED	regular in Cartesian projective charts
+compact_multiplicity	DERIVED_CONDITIONAL_BOUNDED	separate lattice-labelled branches and possible ties
+endpoint_frequency_depth	DERIVED_CONDITIONAL_BOUNDED	all supplied future null legs
+mixed_zero_shift_direction	DERIVED_CONDITIONAL_BOUNDED	zero depth with nonzero displacement and screen mismatch
+parallel_screen_basis	DERIVED_CONDITIONAL_BOUNDED	identity rotation in the null screen quotient
+G269_endpoint_clock_mismatch	DERIVED_CONDITIONAL_BOUNDED	nonzero exactly on mixed rays
+G298_pair_planes	DERIVED_CONDITIONAL_BOUNDED	both regular and distinct on mixed rays; neither selected
+production	OBSERVED	8992 of 8992 checks pass
+independent_verification	OBSERVED	4400 of 4400 direct metric and Christoffel checks pass
+hostile_controls	OBSERVED	16 of 16 mutations caught
+electromagnetic_light_model	NOT_USED	still needed for emission brightness spectrum absorption detection
+physical_route_distance_population	OPEN	no protocol branch or observer occupancy selected
+generic_spacetime_stability	OPEN	no perturbation or generic G332 theorem
+metric_kernel_angular_equation	UNCHANGED	no new mechanism or modification
+scale_Xmax	OPEN	no scale attachment or Xmax selection
+canon	OPEN	Charles canonizes
+external_review	EXTERNALLY_ACCEPTED_NO_REQUIRED_REPAIR	fresh sealed gpt-5.4 rederivation and replay; no findings at any severity

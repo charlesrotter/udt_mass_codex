@@ -1,0 +1,30 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "analytic_global_inverse": true,
+    "compact_multiplicity_path_labelled": true,
+    "endpoint_rank_and_principal_charts": true,
+    "evidence_reports_agree": true,
+    "external_acceptance_authenticated": true,
+    "external_transmission_authenticated": true,
+    "frozen_source_hashes": true,
+    "hostile_16_of_16": true,
+    "independent_4400_of_4400": true,
+    "landing_agreement": true,
+    "metric_kernel_equation_unchanged": true,
+    "no_caustic_scope_is_bounded": true,
+    "no_light_route_scale_selection": true,
+    "no_write_replay_derive_nonprincipal_relation.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_nonprincipal_independent.py": true,
+    "preregistration_commit": true,
+    "production_8992_of_8992": true,
+    "reversal_and_signed_depth_typed": true,
+    "screen_carry_and_quotient_distinguished": true,
+    "zero_shift_full_relation_active": true
+  },
+  "checks_passed": 22,
+  "checks_total": 22,
+  "landing": "EACH_NONZERO_UNIVERSAL_COVER_LIFT_HAS_ONE_REGULAR_FUTURE_NULL_SOLUTION__NO_INTERIOR_CONJUGATE_CAUSTIC_ON_THE_SUPPLIED_TAUB_KASNER_NULL_CONE__MIXED_RAYS_HAVE_NONZERO_G269_NULL_ROTATION_WITH_TRIVIAL_SCREEN_QUOTIENT_ROTATION__COMPACT_MULTIPLICITY_IS_PATH_LABELLED_NOT_PER_LIFT_NONUNIQUENESS__NO_LIGHT_MODEL_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED"
+}

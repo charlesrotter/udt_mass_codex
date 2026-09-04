@@ -72,8 +72,17 @@ brightness, spectrum, absorption, and detection still do. Radar is a chosen diag
 No physical protocol, observer/route population, occupancy, topology, scale, `X_max`, or canon is
 selected. Metric, kernel, angular sector, and equation are unchanged.
 
+G341 is externally accepted without required repair or finding at any severity. On that exact
+spacetime, every nonzero universal-cover spatial lift from a fixed emission event has one future
+null leg; the complete future cone has no positive-time interior conjugate caustic, including both
+principal limits in regular charts. Compact multiplicity is path-labelled. Mixed rays have zero
+null-screen-quotient rotation but nonzero G269 clock/screen mismatch, including the unique
+zero-frequency-shift mixed direction, so the full relation remains active. This is one exact cone,
+not a generic/stability theorem or light/brightness model. No physical route/population, protocol,
+occupancy, scale, `X_max`, or canon is selected; metric/kernel/angular/equation are unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G340 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G341 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -81,9 +90,9 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341.
 
-Authority: the exact 323-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G340 external
+Authority: the exact 324-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G341 external
 acceptance without required repair.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -108,9 +117,9 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-On the same exact spacetime, lift G340's principal transported-planar result to the full supplied
-nonprincipal finite directed-null relation state. Characterize endpoint-inverse branch multiplicity
-and transported screen mismatch/carry while retaining caustic and rank-change boundaries. Do not
-import a light/transfer model or infer a universal distance protocol, physical route/population,
-occupancy, topology, matter/mass, scale, `X_max`, stability, or canon.
+On the same exact spacetime and G341 cone, derive the full two-dimensional metric Jacobi/beam-area
+map for every supplied direction and classify its expansion, shear, principal limits, and compact
+path labels. This is geometric screen response, not luminosity or an electromagnetic transfer
+model. Do not infer physical route/population, distance protocol, occupancy, topology, matter/mass,
+observations, scale, `X_max`, stability, or canon.
 <!-- STARTUP_CURRENT_END -->

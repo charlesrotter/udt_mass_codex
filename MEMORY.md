@@ -18,17 +18,19 @@ Closed Hopf fibres are not forced; arbitrary transport remains supplied; silence
 jets. This is conditional local structure, not stability, occupancy, scale, or canon.
 
 G338/G339 give one exact finite-time pair evaluation and distinguish fixed-label observer
-separation from local ruler carry. G340 then relates same-slice distance, path-labelled null
-exchange, chosen radar, and principal projective contrast on that spacetime, retaining all compact
-windings. Null timing/frequency needs no light model; emission/transfer/detection, nonprincipal
-screen carry, physical protocol/population, occupancy, stability, scale, and `X_max` remain open.
+separation from local ruler carry. G340 relates same-slice distance, path-labelled null exchange,
+chosen radar, and principal projective contrast. G341 then closes the full nonprincipal per-lift
+inverse and screen carry on that one exact cone: compact alternatives remain path labels, no
+interior conjugate caustic occurs, and zero screen-quotient rotation does not erase the mixed full
+relation. Null timing/frequency needs no light model; emission/transfer/detection, physical
+protocol/population, occupancy, stability, scale, and `X_max` remain open.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227;
 G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258;
 G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289;
 G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321;
-G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
+G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341.
 
 ## Observations and premises
 
@@ -38,10 +40,9 @@ anchors; depth is supplied; pair `c_eff` is not automatically signal speed; stro
 
 ## Next gate
 
-Extend G340 from principal transported-planar routes to the full supplied nonprincipal finite
-directed-null relation state on the same spacetime. Characterize inverse branch multiplicity and
-transported screen carry without importing a light model or selecting a universal protocol,
-population, occupancy, scale, `X_max`, stability, or canon.
+Derive the full two-dimensional metric Jacobi/beam-area map on the exact G341 cone, including
+expansion, shear, principal limits, and compact path labels. Do not import luminosity/transfer or
+select a universal protocol, population, occupancy, scale, `X_max`, stability, or canon.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,

@@ -1,0 +1,43 @@
+{
+  "all_passed": true,
+  "catches_passed": 16,
+  "catches_total": 16,
+  "checks": {
+    "branch_crossing_conflation": true,
+    "deleted_winding": true,
+    "endpoint_rank_loss": true,
+    "folded_endpoint_derivative": true,
+    "folded_transverse_derivative": true,
+    "frequency_orientation_reversal": true,
+    "invented_screen_rotation": true,
+    "light_model_import": true,
+    "mixed_screen_erasure": true,
+    "null_gauge_omitted": true,
+    "pair_plane_conflation": true,
+    "physical_route_selection": true,
+    "polar_axis_false_caustic": true,
+    "scale_xmax_promotion": true,
+    "signed_depth_distance_conflation": true,
+    "zero_shift_relation_erasure": true
+  },
+  "landing": "EACH_NONZERO_UNIVERSAL_COVER_LIFT_HAS_ONE_REGULAR_FUTURE_NULL_SOLUTION__NO_INTERIOR_CONJUGATE_CAUSTIC_ON_THE_SUPPLIED_TAUB_KASNER_NULL_CONE__MIXED_RAYS_HAVE_NONZERO_G269_NULL_ROTATION_WITH_TRIVIAL_SCREEN_QUOTIENT_ROTATION__COMPACT_MULTIPLICITY_IS_PATH_LABELLED_NOT_PER_LIFT_NONUNIQUENESS__NO_LIGHT_MODEL_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "messages": {
+    "branch_crossing_conflation": "branch_crossing_conflation",
+    "deleted_winding": "deleted_winding",
+    "endpoint_rank_loss": "endpoint_rank_loss",
+    "folded_endpoint_derivative": "folded_endpoint_derivative",
+    "folded_transverse_derivative": "folded_transverse_derivative",
+    "frequency_orientation_reversal": "frequency_orientation_reversal",
+    "invented_screen_rotation": "invented_screen_rotation",
+    "light_model_import": "light_model_import",
+    "mixed_screen_erasure": "mixed_screen_erasure",
+    "null_gauge_omitted": "null_gauge_omitted",
+    "pair_plane_conflation": "pair_plane_conflation",
+    "physical_route_selection": "physical_route_selection",
+    "polar_axis_false_caustic": "polar_axis_false_caustic",
+    "scale_xmax_promotion": "scale_xmax_promotion",
+    "signed_depth_distance_conflation": "signed_depth_distance_conflation",
+    "zero_shift_relation_erasure": "zero_shift_relation_erasure"
+  },
+  "validator_shared_by_baseline_and_mutants": true
+}
