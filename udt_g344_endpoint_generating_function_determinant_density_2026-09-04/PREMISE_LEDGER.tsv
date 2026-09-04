@@ -1,0 +1,24 @@
+item	status	role
+G343_exact_propagator	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	sole mathematical input to the endpoint construction
+provisional_vacuum_equation	OWNER_ADOPTED_PROVISIONAL_POSTULATES_NOT_CANON	conditional arena inherited through G343 only
+positive_time_domain	PINNED_BY_THEORY_FOR_THIS_SPACETIME	T greater than zero regular component
+distinct_endpoint_times	FREE_AND_EXPLORED_QUERY_DATA	all positive ordered pairs with T1 not equal to T0
+coincident_endpoint_exclusion	PINNED_BY_GENERATING_CHART	B equals zero for the identity map; not a physical rejection
+fixed_labelled_null_ray	SUPPLIED	no ray or compact lift is selected
+projective_direction	FREE_AND_EXPLORED_QUERY_DATA	all directions including both principal limits
+common_affine_gauge	SUPPLIED_GAUGE_BOOKKEEPING	required canonical derivative unit along a composed ray
+affine_rescaling	FREE_AND_EXPLORED_GAUGE	positive common rescalings classified explicitly
+separate_endpoint_frequency_units	CHOSE_QUERY_CALIBRATION	used only to type why independent endpoint units are not one canonical chart
+parallel_screen_basis	DERIVED_CONDITIONAL_BOUNDED	G341/G343 parallel quotient screen
+endpoint_screen_rotations	FREE_AND_EXPLORED_GAUGE	independent O(2) basis changes at both endpoints
+endpoint_screen_positions	FREE_AND_EXPLORED_QUERY_DATA	arbitrary R2 x R2 endpoint values
+quadratic_generating_function	CATEGORY_A_SYMPLECTIC_ANALYSIS	derived from G343 blocks; not a new physical action
+mixed_hessian_determinant	CATEGORY_A_GEOMETRIC_DENSITY	basis and affine weights retained
+compact_translation_lattice	SUPPLIED_CONDITIONAL	all lift labels retained separately
+numeric_quadrature_and_matrix_controls	CATEGORY_A_METHOD	certification only
+textbook_Van_Vleck_or_optical_action	OMITTED_NOT_USED	comparison vocabulary may not supply the result
+electromagnetic_or_light_model	OMITTED	no emission absorption intensity spectrum or detection
+luminosity_flux_probability_or_observational_distance	OMITTED	no physical attachment to determinant density
+physical_route_or_population	OPEN	no lift selected summed or weighted
+generic_spacetime_or_stability	OPEN	one exact spacetime and ray family only
+matter_mass_scale_Xmax	OPEN	no attachment or selection
