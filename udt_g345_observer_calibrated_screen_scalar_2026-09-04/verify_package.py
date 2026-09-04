@@ -145,7 +145,29 @@ def main():
         and "Charles alone canonizes" in premise
     )
     checks["no_forbidden_physical_promotion"] = all(token in exact + lay + audit for token in (
-        "not yet", "not a physical light-transfer", "No luminosity", "does not choose a path",
+        "not yet", "light-transfer or observational-distance law", "No luminosity",
+        "does not choose a path",
+    ))
+
+    external_path = root / "EXTERNAL_REVIEW_RESPONSE.md"
+    external = external_path.read_text(encoding="utf-8")
+    checks["external_review_acceptance"] = (
+        digest(external_path)
+        == "688ada3bce98b97dbe95e158f52af5fe7040b20ff6cfe872c95bac4acfb3206c"
+        and external.rstrip().endswith(
+            "ACCEPT_G345_BOUNDED_OBSERVER_CALIBRATED_SCREEN_SCALAR"
+        )
+        and "I found no high-, medium-, or blocking low-severity defect." in external
+        and "do not rise to a scientific finding" in external
+    )
+    transmission = (root / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
+    checks["external_transmission_provenance"] = all(token in transmission for token in (
+        "29 manifest payloads",
+        "7eaac32355b0772ca835621f11c6fbec8adab138f36a26d7301be2c50a805cae",
+        "8686ac1a7285313d3418099c331915acddd43d3cddecc729bdadbf8d7193a554",
+        "5ec6f18e8034a2382619f5858507579c50c5f5a02a246671f95a988aa1ee0837",
+        "688ada3bce98b97dbe95e158f52af5fe7040b20ff6cfe872c95bac4acfb3206c",
+        "ACCEPT_G345_BOUNDED_OBSERVER_CALIBRATED_SCREEN_SCALAR",
     ))
 
     before = snapshot(root)

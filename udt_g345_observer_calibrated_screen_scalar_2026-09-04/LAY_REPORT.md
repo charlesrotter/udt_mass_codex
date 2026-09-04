@@ -19,3 +19,7 @@ depends on an arbitrary ray parameter or screen coordinates. It is still only th
 supplied observer pair and one supplied labelled ray in one supplied spacetime. It is not yet
 brightness, luminosity, flux, probability, observational distance, or a theory of light, and it
 does not choose a path, universe, scale, or `X_max`.
+
+A fresh external reviewer independently checked the formulas and replayed the evidence, then
+accepted this bounded result. It noted a few weak bookkeeping assertions in the test harness, but
+found no defect in the mathematical result. Those test-quality cautions remain visible.

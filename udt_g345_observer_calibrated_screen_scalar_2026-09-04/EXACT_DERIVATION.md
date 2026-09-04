@@ -1,7 +1,7 @@
 # G345 exact derivation — observer-calibrated endpoint screen scalar
 
 Date: 2026-09-04
-Status: internally verified, awaiting fresh external adversarial review
+Status: `EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED`
 
 ## 1. Inputs and exact type problem
 
@@ -319,5 +319,8 @@ selected.
 
 No luminosity, flux, probability, amplitude, observational distance, emission, detection,
 electromagnetic transfer, path population, matter/mass, physical scale, `X_max`, or canon follows.
-Fresh external adversarial review remains required before this package can be registered as an
-externally accepted bounded result.
+Fresh external `gpt-5.4` review authenticated all 29 sealed payloads, reproduced the registered
+`17/17` aggregate and all three underlying replays, independently reconstructed the load-bearing
+formulas, and accepted the bounded result. Its three non-blocking caveats concern documentary or
+tautological verifier assertions and text-token integrity guards; none is mathematical evidence,
+and none changes the scientific landing.

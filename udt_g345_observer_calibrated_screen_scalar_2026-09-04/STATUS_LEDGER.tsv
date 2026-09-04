@@ -3,7 +3,8 @@ G345_preregistration	PASS	d22f1bdb banked and pushed before outcome execution
 production	PASS	9824 of 9824 after recorded numerical-diagnostic repair
 independent_verification	PASS	4360 of 4360 implementation-distinct checks
 hostile_mutations	PASS	17 of 17 caught
-observer_calibrated_screen_scalar	INTERNALLY_VERIFIED_CONDITIONAL_BOUNDED	awaiting fresh external adversarial review
+observer_calibrated_screen_scalar	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	fresh gpt-5.4 accepted with no high medium or blocking low finding
+external_verifier_quality_caveats	RETAINED_NONBLOCKING	documentary compact labels tautological named coverage assertions and text-token integrity sentries are not analytic proof
 monomial_uniqueness	DERIVED_CONDITIONAL_CLASSIFICATION	unique only for reversal-symmetric first-power determinant monomials
 physical_observable_uniqueness	OPEN_NOT_DERIVED	arbitrary functions and operational attachments remain
 stationary_composition	DERIVED_CONDITIONAL_BOUNDED	normalized joined Hessian required

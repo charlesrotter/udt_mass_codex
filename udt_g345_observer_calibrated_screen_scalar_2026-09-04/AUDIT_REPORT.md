@@ -3,7 +3,7 @@
 Date: 2026-09-04
 Preregistration commit: `d22f1bdb`
 Qualification commit: `f20a5072`
-Current status: `INTERNALLY_VERIFIED_AWAITING_EXTERNAL_ADVERSARIAL_REVIEW`
+Current status: `EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED`
 
 ## Result
 
@@ -29,9 +29,10 @@ close; each compact lift remains separate.
    every nonidentity ordering triple, every projective direction including both principals, every
    declared gauge conversion, and each supplied compact lift on this one exact spacetime/ray
    family. Generic spacetimes, observers, nonlinear beams, and physical transfer remain open.
-3. **Independently verified on the load-bearing premise:** yes internally. Production passed
+3. **Independently verified on the load-bearing premise:** yes. Production passed
    `9824/9824`; an implementation-distinct reference-free Simpson reconstruction passed
-   `4360/4360`; hostile mutations passed `17/17`. Fresh external review remains outstanding.
+   `4360/4360`; hostile mutations passed `17/17`. Fresh external review authenticated the sealed
+   package, reproduced those checks, and independently reconstructed the core formulas.
 4. **Every premise audited:** yes in `PREMISE_LEDGER.tsv`. The provisional vacuum equation remains
    owner-adopted and not canon; the spacetime, observer, ray, and lift are supplied conditional
    arena data.
@@ -53,8 +54,20 @@ diagnostic. The preregistered pole formula and tolerance were unchanged.
   observational formula supplies the result.
 - The independent verifier imports no production or G343/G344 implementation.
 
-## Bounded verdict
+## External verdict and bounded grade
 
-This is ready for fresh sealed adversarial review as a bounded conditional geometric result. It is
-not yet ready to be registered as externally accepted, and it is not a physical light-transfer or
-distance law.
+Fresh external `gpt-5.4` review authenticated all 29 sealed payloads, reproduced the `17/17`
+aggregate and all three underlying replays, independently checked the algebra and numerical closed
+forms, found no high-, medium-, or blocking low-severity defect, and returned:
+
+```text
+ACCEPT_G345_BOUNDED_OBSERVER_CALIBRATED_SCREEN_SCALAR
+```
+
+The reviewer retained three non-blocking verifier-quality caveats. Compact-label retention is
+documentary because no lift aggregation exists in G345; a few named coverage checks are tautologies
+even though their underlying loops exercise the declared domain; and text-token guards are package
+integrity sentries, not analytic proof. These caveats are preserved rather than silently rewritten.
+
+The accepted object remains a bounded conditional geometric scalar. It is not a physical
+light-transfer or observational-distance law.

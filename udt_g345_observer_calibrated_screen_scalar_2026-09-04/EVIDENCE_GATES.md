@@ -11,7 +11,10 @@ Date: 2026-09-04
 | Hostile mutations | PASS | `CATCH_PROOF_RESULT.json`: `17/17` |
 | First execution preserved | PASS | `PREREGISTRATION_EXECUTION_NOTE.md` |
 | Premise audit | PASS | `PREMISE_LEDGER.tsv`; no imported transfer law |
-| Fresh external adversarial review | OPEN | sealed intake not yet dispatched |
+| Fresh external adversarial review | PASS | 29 payloads authenticated; formulas independently reconstructed; bounded result accepted |
+| Final aggregate | PASS | `19/19`, including exact external return and transmission provenance |
+| Repository integration | PASS | 328-row premise verifier; 220 tests passed and 1 pre-existing xfail |
 
-The current grade is `INTERNALLY_VERIFIED_AWAITING_EXTERNAL_ADVERSARIAL_REVIEW`. No external
-acceptance or scientific canon claim is made.
+The current grade is `EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED`. The reviewer found no high-,
+medium-, or blocking low-severity defect. Its three non-blocking verifier-quality caveats remain in
+`EXTERNAL_REVIEW_RESPONSE.md`; no scientific canon claim is made.

@@ -53,3 +53,34 @@ and repair are preserved in `PREREGISTRATION_EXECUTION_NOTE.md`. The repaired ag
 `17/17`, including all three no-write sub-replays and exact package-byte preservation.
 
 All listed runs were bounded CPU checks. No long solve or background process was started.
+
+## External and final integration gates
+
+The fresh external reviewer authenticated all 29 sealed payloads, reproduced production
+`9824/9824`, independent `4360/4360`, hostile `17/17`, and aggregate `17/17`, and independently
+checked the load-bearing formulas. It returned:
+
+```text
+ACCEPT_G345_BOUNDED_OBSERVER_CALIBRATED_SCREEN_SCALAR
+```
+
+The reviewer retained three non-blocking verifier-quality caveats: documentary compact-label
+assertions, tautological named coverage assertions whose underlying loops still cover the declared
+domain, and brittle text-token guards. They do not change the bounded scientific result and are
+preserved in `EXTERNAL_REVIEW_RESPONSE.md`.
+
+After adding exact external-return authentication, the final aggregate contains `19/19` gates.
+
+```text
+PYTHONDONTWRITEBYTECODE=1 python3 -B verify_current_scientific_premises.py
+PASS: 328-row registry and G345 startup/premise guards
+
+PYTHONDONTWRITEBYTECODE=1 python3 -B -m pytest tests/
+220 passed, 1 xfailed
+```
+
+The first full-suite integration run reached `219 passed, 1 xfailed` and found one documentation-
+only failure: the combined G343/G344/G345 pointer in `INDEX.md` exceeded the 220-character line
+limit. The pointer was split while keeping the 118-line cap, its targeted test passed, and the clean
+full-suite rerun produced the result above. The marked xfail is the existing matter-sector habit-pin
+gate and is unrelated to G345.

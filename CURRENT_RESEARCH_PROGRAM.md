@@ -2,7 +2,7 @@
 
 Date: 2026-09-04
 
-`LIVE.md` controls status; the 327-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 328-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -74,6 +74,10 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   stationary composition, reversal, reference/screen covariance, principal limits, and compact
   labels close. The additive endpoint coboundary is normalization; no scalar flux or distance is
   selected.
+- G345 combines the G344 bidensity with both endpoint metric frequencies and metric screen area
+  forms. Common-affine, reference-event, and general screen-coordinate weights cancel; reversal
+  and typed stationary sewing close. The resulting scalar is unique only in one declared monomial
+  class and is not yet a directional angular-area map, light law, or observational distance.
 
 ## Open boundary
 
@@ -81,13 +85,14 @@ The corpus owns the evaluator, screen-before-readout, frame carry, bounded respo
 many legal data/developments, G332 constraint embedding, G333--G337's response jets, G338's exact
 finite-time pair evaluation, G339's carry typing, G340's finite-pair causal geometry, G341's full
 cone/carry tile, G342's two-screen Jacobi map, G343's full bilocal phase-space propagator, and
-G344's endpoint generator and bidensity. It
+G344's endpoint generator and bidensity, and G345's observer-calibrated scalar. It
 does not own populated germs, a physical
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
 history. G332 supplies constraint witnesses; G333--G337 close bounded initial response jets but
-leave arbitrary transport and global evolution open. G338--G344 then supply one explicit finite-time
+leave arbitrary transport and global evolution open. G338--G345 then supply one explicit finite-time
 pair/carry evaluation, finite-separated causal geometry, full path-labelled null cone, two-screen
-Jacobi map, bilocal phase-space propagator, and endpoint generator/bidensity. Generic G332 finite-time
+Jacobi map, bilocal phase-space propagator, endpoint generator/bidensity, and observer-calibrated
+scalar. Generic G332 finite-time
 development, the complete third-zero locus, and global persistence also remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
@@ -97,11 +102,12 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Starting only from G340's metric-owned endpoint clock ratio and G344's affine-weighted endpoint
-screen bidensity, derive or refute whether normal-observer endpoint clocks and screen area forms
-cancel the affine and screen weights to produce an observer-calibrated scalar reciprocity object
-on each fixed labelled ray. Test reversal, stationary composition, reference/affine/screen
-covariance, principal limits, and compact labels. Do not import flux, luminosity, probability,
-observational distance, or a light/transfer model or infer a physical route/protocol/population,
-global persistence, topology selection, stability, occupancy, matter/mass, observations, scale,
-`X_max`, or canon.
+Starting only from G342--G345's metric-owned screen map, endpoint observers, and accepted scalar,
+derive or refute the two directional infinitesimal angular-area Jacobians: metric screen area at
+one endpoint per metric celestial solid angle at the other. Test the frequency-ratio reversal law
+and whether the inverse G345 scalar is exactly their geometric mean, including general endpoint
+screen coordinates, common-affine and endpoint-unit gauges, stationary sewing, both principal
+limits, and each compact path label. Do not import brightness, flux, luminosity, probability,
+observational-distance selection, or a light/transfer model or infer a physical route/protocol/
+population, global persistence, topology selection, stability, occupancy, matter/mass,
+observations, scale, `X_max`, or canon.
