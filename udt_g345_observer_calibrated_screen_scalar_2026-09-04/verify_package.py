@@ -19,6 +19,7 @@ LANDING = (
     "__NO_LIGHT_FLUX_LUMINOSITY_PROBABILITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED"
 )
 PREREGISTRATION_COMMIT = "d22f1bdb"
+QUALIFICATION_COMMIT = "f20a5072"
 SCRIPT_HASHES = {
     "derive_screen_scalar.py": "a4da2b7d1a534dd97b6f040aac98270b75cd3bdb007a6d6ac85ed8994b983dec",
     "verify_screen_scalar_independent.py": "4bf6825a081ac1ba72ae03fc64ab4be7cd3f9cc184aa5ba2badfb93ace401fbb",
@@ -106,6 +107,7 @@ def main():
     checks["preregistration_token_and_execution_repair"] = (
         PREREGISTRATION_COMMIT in audit
         and PREREGISTRATION_COMMIT in note
+        and QUALIFICATION_COMMIT in audit
         and "9822/9824" in note
         and "two-scale consistency" in note
         and "No candidate formula" in note

@@ -2,6 +2,7 @@
 
 Date: 2026-09-04
 Preregistration commit: `d22f1bdb`
+Qualification commit: `f20a5072`
 Current status: `INTERNALLY_VERIFIED_AWAITING_EXTERNAL_ADVERSARIAL_REVIEW`
 
 ## Result

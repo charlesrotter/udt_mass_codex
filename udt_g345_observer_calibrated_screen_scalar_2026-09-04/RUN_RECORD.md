@@ -8,6 +8,7 @@ GPU: not used
 ## Preregistration
 
 Commit `d22f1bdb` was pushed to `origin/grok` before execution.
+The complete internally qualified result was banked at commit `f20a5072` before sealing for review.
 
 ## Production first execution
 
