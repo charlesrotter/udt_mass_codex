@@ -1,0 +1,19 @@
+item	status	note
+G338_Lie_finite_time_response	DERIVED_CONDITIONAL_BOUNDED	retained exactly as lambda zero endpoint
+Lie_connecting_field	DERIVED_FOR_SUPPLIED_NORMAL_CONGRUENCE	infinitesimal separation of fixed comoving labels
+parallel_local_ruler	STANDARD_GEOMETRIC_CONTROL	exactly unit and raw-pair quiet
+Fermi_on_geodesic_normal	DERIVED_STANDARD_IDENTITY	equals parallel carry
+rotating_orthonormal_ruler	DERIVED_CONDITIONAL_BOUNDED	norm stays fixed while direction and carry change
+accelerated_principal_Fermi_pair	DERIVED_CONDITIONAL_BOUNDED	nonzero acceleration with constant local Gram matrix
+lambda_carry_homotopy	CHOSE_DIAGNOSTIC_NOT_PHYSICS	exactly interpolates Lie and parallel endpoints
+raw_pair_component_history	CARRY_DEPENDENT	not invariant under arbitrary smooth pair-frame congruence
+metric_deformation_tensor	DERIVED_FOR_FIXED_NORMAL_CONGRUENCE	recovered after explicit transport subtraction
+normal_H_shape_ratios	DERIVED_CONDITIONAL_BOUNDED	carry-independent but slicing/congruence-qualified
+physical_observer_population	OPEN	no carry or congruence selected
+generic_accelerated_congruence	OPEN	principal controls are not a full census
+metric_kernel_angular_equation	UNCHANGED	no new dynamics or scaffold
+occupancy_topology_stability	OPEN	one supplied spacetime only
+observation_scale_Xmax	OPEN	no fit or physical attachment
+matter_mass_source_action	OPEN	vacuum carry classification only
+canon	OPEN	Charles canonizes
+external_review	EXTERNALLY_ACCEPTED_NO_REQUIRED_REPAIR	fresh sealed gpt-5.4 rederivation and replay

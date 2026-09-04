@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "catches": {
+    "acceleration_treated_as_metric_selected": true,
+    "dropped_transport_term": true,
+    "fermi_distinguished_from_parallel_on_geodesic_normal": true,
+    "gl_whitening_promoted_to_no_metric_deformation": true,
+    "lie_mislabeled_parallel": true,
+    "observer_population_promoted": true,
+    "orthonormal_quietness_promoted_to_zero_geometry": true,
+    "parallel_mislabeled_connecting": true,
+    "scale_or_xmax_promoted": true,
+    "shift_deleted_from_complete_pair": true,
+    "terminal_scalar_called_carry_invariant": true,
+    "wrong_lambda_endpoint": true
+  },
+  "catches_passed": 12,
+  "catches_total": 12,
+  "landing": "FINITE_TIME_PAIR_COMPONENTS_DEPEND_ON_SUPPLIED_CARRY__G338_LIE_CARRY_IS_THE_COMOVING_OBSERVER_SEPARATION_QUERY__PARALLEL_AND_FERMI_LOCAL_RULERS_ARE_QUIET_CONTROLS__METRIC_DEFORMATION_IS_RECOVERED_FROM_TYPED_PAIR_PLUS_CARRY__NO_PHYSICAL_CARRY_SELECTED"
+}

@@ -1,0 +1,25 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "clock_boundary_not_spacetime_boundary": true,
+    "connecting_field_is_infinitesimal_and_supplied": true,
+    "external_acceptance_authenticated": true,
+    "external_transmission_authenticated": true,
+    "frozen_source_hashes_or_preregistration_commit": true,
+    "hostile_12_of_12": true,
+    "independent_16155_of_16155": true,
+    "landing_agreement": true,
+    "no_population_or_scale_selection": true,
+    "no_write_replay_derive_carry_type_classification.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_carry_type_independent.py": true,
+    "parallel_is_different_query": true,
+    "preregistration_commit_recorded": true,
+    "production_2182_of_2182": true,
+    "quiet_does_not_erase_curvature": true
+  },
+  "checks_passed": 17,
+  "checks_total": 17,
+  "landing": "FINITE_TIME_PAIR_COMPONENTS_DEPEND_ON_SUPPLIED_CARRY__G338_LIE_CARRY_IS_THE_COMOVING_OBSERVER_SEPARATION_QUERY__PARALLEL_AND_FERMI_LOCAL_RULERS_ARE_QUIET_CONTROLS__METRIC_DEFORMATION_IS_RECOVERED_FROM_TYPED_PAIR_PLUS_CARRY__NO_PHYSICAL_CARRY_SELECTED"
+}

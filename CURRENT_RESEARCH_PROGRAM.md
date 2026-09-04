@@ -2,7 +2,7 @@
 
 Date: 2026-09-03
 
-`LIVE.md` controls status; the 321-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 322-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -82,12 +82,19 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   `Phi` is blind while `m=sqrt(G)` evolves. The unique first-order-silent direction `rho=2/3`
   turns on exactly on both finite-time sides. This is an explicit bounded development/evaluation,
   not a universal carry, stability, occupancy/history, topology, scale, or `X_max` theorem.
+- G339 is externally accepted without required repair. On the same spacetime and supplied normal
+  congruence, the Lie/commuting field is the infinitesimal fixed-label observer-separation query;
+  parallel/Fermi local rulers are different objects and remain unit. Raw pair components and W1
+  readouts vary over the exact diagnostic carry family, while the transport-subtracted typed
+  pair-plus-carry state recovers the same normal deformation tensor. Rotating orthonormal and
+  principal-axis accelerated Fermi controls preserve this distinction. This is not finite-separated
+  observer comparison, a physical carry/population selector, occupancy, scale, or `X_max`.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
 many legal data/developments, G332 constraint embedding, G333--G337's bounded first/second/third
-response, and G338's one exact finite-time pair evaluation. It does not own populated germs,
+response, G338's one exact finite-time pair evaluation, and G339's exact carry typing. It does not own populated germs,
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
 history. G332 closes the specific G331 constraint-existence question; G333/G334 close one
 normal-jet response and its finite-boost congruence, with arbitrary transport still supplied.
@@ -95,8 +102,10 @@ G335 closes qualitative local persistence for nonzero initial response on condit
 marked developments. G336 classifies the exact first-order-silent set at second normal order.
 G337 shows that complete initial fields own the inherited third response on double silence while
 the five-number pointwise tuple does not. G338 supplies one explicit finite-time development and
-complete pair response under one declared carry. Arbitrary metric-compatible carry, generic G332
-finite-time development, the complete third-zero locus, and global persistence remain open. The
+complete pair response under one declared carry. G339 classifies how that response changes under
+an exact diagnostic carry family and shows how typed pair-plus-carry data retain the normal metric
+deformation. Finite-separated observer comparison, generic G332 finite-time development, the
+complete third-zero locus, and global persistence remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
 R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and no preferred scale
@@ -105,8 +114,8 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-On the same exact G338 spacetime, classify how the completed-pair response depends on alternative
-supplied metric-compatible carries. Separate commuting/Lie, parallel, Fermi, and accelerated
-observer carry before testing whether any invariant quotient survives. Do not infer a universal
-physical carry, germ population, global persistence, topology selection, stability, occupancy,
-matter/mass, scale, `X_max`, or canon.
+On the same exact spacetime, lift G339's infinitesimal connecting-field result to supplied
+finite-separated normal-observer pairs. Separate slice-geodesic distance, causal null/radar
+exchange, completed projective readout, and compact-quotient path/winding labels. Do not infer a
+universal physical distance protocol, carry, germ population, global persistence, topology
+selection, stability, occupancy, matter/mass, scale, `X_max`, or canon.

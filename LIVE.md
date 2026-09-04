@@ -78,17 +78,28 @@ nullness is not an ambient singularity. This is one bounded explicit dynamic eva
 universal carry, stability, occupancy/history, topology, scale, `X_max`, or canon theorem. Metric,
 kernel, angular sector, and equation are unchanged.
 
+G339 is externally accepted without required repair. On that same supplied spacetime and geodesic
+normal congruence, the exact transport identity separates metric deformation from pair carry.
+G338's Lie/commuting field is the infinitesimal connecting field between fixed-label normal
+observers; a parallel or Fermi-carried local ruler answers a different question and remains unit.
+The full diagnostic Lie-to-parallel family, rotating orthonormal carries, and three principal-axis
+accelerated Fermi controls preserve this distinction. Raw pair components and W1 readouts depend on
+declared carry, while typed pair-plus-carry data recover the same normal deformation tensor.
+Clock-null basis boundaries are not spacetime or pair-plane singularities. No physical carry,
+finite-separated observer population, occupancy, scale, `X_max`, or canon is selected. Metric,
+kernel, angular sector, and equation are unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G338 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G339 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339.
 
-Authority: the exact 321-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G338 external
+Authority: the exact 322-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G339 external
 acceptance without required repair.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -113,8 +124,9 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Classify how G338's exact finite-time completed-pair response changes under alternative supplied
-metric-compatible pair carries on the same spacetime. Separate commuting/Lie, parallel, Fermi, and
-accelerated observer carry before asking whether any is physically selected. Do not infer a
-universal carry, occupancy, topology, matter/mass, scale, `X_max`, stability, or canon.
+Lift the G339 infinitesimal connecting-field result to supplied finite-separated normal-observer
+pairs on the same exact spacetime. Distinguish slice-geodesic separation, causal null/radar exchange,
+complete projective pair readout, and compact-quotient path/winding labels before asking which
+protocol or population is physical. Do not infer a universal distance protocol, carry, occupancy,
+topology, matter/mass, scale, `X_max`, stability, or canon.
 <!-- STARTUP_CURRENT_END -->

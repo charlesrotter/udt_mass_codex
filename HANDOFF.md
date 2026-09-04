@@ -53,21 +53,29 @@ while `m=sqrt(G)` evolves, and the unique first-order-silent direction `rho=2/3`
 both sides of the reference time. This does not select the carry, spacetime, population, topology,
 scale, `X_max`, stability, or canon.
 
+G339 is externally accepted without required repair. On the same supplied spacetime and normal
+congruence, G338's Lie/commuting field is precisely the infinitesimal separation query for
+fixed-label comoving observers. Parallel/Fermi local rulers remain unit because they are different
+transported objects. The exact transport identity recovers the same normal metric deformation from
+typed pair-plus-carry data across the full diagnostic carry family and bounded rotating/accelerated
+controls. Raw W1 readouts remain carry/calibration dependent. No physical carry, finite observer
+population, occupancy, scale, `X_max`, or canon is selected.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G338 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G339 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339.
 
 W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv` (321 rows through G338). Archives:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` (322 rows through G339). Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -81,9 +89,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: on the same explicit spacetime, classify which parts of G338's finite-time response survive
-alternative supplied metric-compatible carries. Do not call commuting/Lie, parallel, Fermi, or
-accelerated carry physically selected without a premise. Do not select data, germs, occupancy,
-matter/mass, scale, `X_max`, stability, or canon.
+Next: lift G339 from infinitesimal connecting fields to supplied finite-separated normal-observer
+pairs on the same explicit spacetime. Keep slice distance, null/radar exchange, projective pair
+readout, and compact path labels distinct. Do not select a physical protocol, carry, population,
+occupancy, matter/mass, scale, `X_max`, stability, or canon.
 
 <!-- STARTUP_CURRENT_END -->
