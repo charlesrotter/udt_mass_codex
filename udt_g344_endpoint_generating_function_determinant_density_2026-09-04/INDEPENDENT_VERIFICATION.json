@@ -1,0 +1,17 @@
+{
+  "assertions": 4882,
+  "failed": [],
+  "landing": "INDEPENDENT_FUNDAMENTAL_BASIS_FINITE_HESSIAN_AND_ONSHELL_ACTION_VERIFICATION",
+  "maxima": {
+    "action_integral_relative_error": 5.380906802026781e-14,
+    "composition_relative_error": 9.800017484347815e-12,
+    "density_relative_error": 9.420668713310874e-11,
+    "finite_gradient_relative_error": 3.055226072135042e-10,
+    "finite_mixed_hessian_relative_error": 4.765060002218977e-08,
+    "reference_relative_error": 1.2266145247958771e-14,
+    "screen_relative_error": 9.769682786556433e-16,
+    "state_integral_relative_error": 2.2394617948529441e-13
+  },
+  "method": "independent Simpson fundamental basis, finite endpoint derivatives, and RK4 on-shell Jacobi action",
+  "status": "PASS"
+}

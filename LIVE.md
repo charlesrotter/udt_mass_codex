@@ -40,7 +40,7 @@ Hopf fibres; arbitrary frame carry remains supplied; exact silence passes to hig
 conditional local classifications, not finite-time/global stability, occupancy/history selection,
 matter/mass, scale, `X_max`, or canon. Metric, kernel, angular sector, and equation are unchanged.
 
-G338--G343 are externally accepted bounded evaluations on one supplied G323/G324 Taub/Kasner
+G338--G344 are externally accepted bounded evaluations on one supplied G323/G324 Taub/Kasner
 spacetime. G338 gives the finite-time complete-pair response under declared commuting carry; G339
 separates fixed-label observer separation from parallel/Fermi ruler carry. G340 distinguishes
 same-slice length, path-labelled null exchange, chosen radar, and projective clock contrast. G341
@@ -52,12 +52,18 @@ G343 closes the corresponding full bilocal four-by-four screen phase-space map b
 positive-time endpoints. In one common affine gauge it composes exactly, is symplectic, and
 reverses by matrix inverse; separately normalized endpoints are related by the already-derived
 metric frequency ratio. The arbitrary reference event is pure bookkeeping, not a hidden scale.
+G344 derives the corresponding homogeneous quadratic endpoint generator on every noncoincident
+segment of each fixed labelled ray. Its negative mixed Hessian is the inverse-transpose position
+block and its determinant is a positive affine-weighted endpoint screen bidensity. It composes by
+stationary elimination, reverses, remains regular at both principal limits, and retains compact
+path labels. An additive endpoint coboundary remains a harmless generator normalization; no scalar
+flux, probability, luminosity, or observational distance has been derived.
 Null timing and geometric beam response require no phenomenological light model, but emission,
 brightness, transfer, detection, route/population, generic stability, occupancy/history, topology,
 scale, `X_max`, and canon remain open. Metric, kernel, angular sector, and equation are unchanged.
 
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G343 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G344 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -65,9 +71,9 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344.
 
-Authority: the exact 326-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G343 external
+Authority: the exact 327-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G344 external
 acceptance without required repair.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -92,11 +98,12 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting only from G343's exact bilocal symplectic map, derive or refute a globally regular
-quadratic endpoint generating function and its determinant density on every noncoincident segment
-of each fixed labelled ray. Test endpoint Hessians, composition, reference-event and affine/screen
-basis covariance, both principal limits, and per-lift labels. This remains geometric endpoint
-transport, not luminosity, observational distance, or an electromagnetic transfer model. Do not
-infer physical route/population, occupancy, topology, matter/mass, observations, scale, `X_max`,
-stability, or canon.
+Starting only from G340's metric-owned endpoint clock ratio and G344's affine-weighted endpoint
+screen bidensity, derive or refute whether metric-owned normal-observer endpoint clocks and screen
+area forms cancel the affine and screen weights to produce an observer-calibrated scalar
+reciprocity object on each fixed labelled ray. Test reversal, stationary composition, reference
+and affine changes, screen bases, principal limits, and compact path labels. This remains causal
+geometry, not flux, luminosity, probability, observational distance, or electromagnetic transfer.
+Do not infer physical route/population, occupancy, topology, matter/mass, observations, scale,
+`X_max`, stability, or canon.
 <!-- STARTUP_CURRENT_END -->

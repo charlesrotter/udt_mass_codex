@@ -1,0 +1,20 @@
+item	status	scope_or_note
+G344_landing	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	one exact supplied G343 spacetime and fixed labelled ray family
+quadratic_homogeneous_generator	DERIVED_CONDITIONAL_BOUNDED	all distinct positive endpoint pairs
+additive_endpoint_coboundary	OPEN_GAUGE_NORMALIZATION	map and determinant are blind; homogeneous representative chooses zero
+B_block_invertibility	DERIVED_CONDITIONAL_BOUNDED	analytic on full noncoincident positive-time direction domain
+mixed_endpoint_Hessian	DERIVED_CONDITIONAL_BOUNDED	K equals B inverse transpose
+determinant_density	DERIVED_CONDITIONAL_BOUNDED	positive absolute endpoint screen bidensity with affine weight two
+stationary_composition	DERIVED_CONDITIONAL_BOUNDED	all six endpoint orders when total endpoints are distinct
+identity_composition	CHART_BOUNDARY	type-I Hessian degenerates when outer endpoints coincide
+common_affine_reversal	DERIVED_CONDITIONAL_BOUNDED	generator antisymmetric and density symmetric
+independent_endpoint_frequency_units	CONFORMALLY_SYMPLECTIC_TYPED	must not be called one bare canonical chart
+reference_event	GAUGE_BOOKKEEPING	no hidden scale
+screen_basis	COVARIANT_CONDITIONAL	generator scalar; mixed Hessian endpoint tensor; determinant bidensity
+principal_limits	DERIVED_CONDITIONAL_BOUNDED	both regular away from coincidence
+G342_area_recovery	DERIVED_CONDITIONAL_BOUNDED	geometric source-vertex det B only
+compact_lifts	SUPPLIED_PATH_LABELS	no sum weight or physical selection
+light_flux_probability_distance	OPEN_NOT_DERIVED	forbidden promotion
+route_population_occupancy	OPEN_NOT_SELECTED	no physical history claim
+matter_mass_scale_Xmax	OPEN_NOT_SELECTED	no attachment
+canon	NOT_AUTHORIZED	Charles canonizes

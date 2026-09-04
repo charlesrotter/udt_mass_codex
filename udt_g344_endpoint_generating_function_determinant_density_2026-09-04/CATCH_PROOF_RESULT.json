@@ -1,0 +1,22 @@
+{
+  "caught": 14,
+  "failed": [],
+  "mutations": {
+    "deleted_compact_path_label": true,
+    "dropped_density_absolute_value": true,
+    "false_affine_invariance": true,
+    "forbidden_physical_promotion": true,
+    "hidden_unit_reference_scale": true,
+    "independent_endpoint_units_called_canonical": true,
+    "injected_screen_mixing": true,
+    "lost_longitudinal_screen_direction": true,
+    "missing_B_inverse": true,
+    "omitted_stationary_hessian": true,
+    "swapped_A_D_hessians": true,
+    "wrong_composition_order": true,
+    "wrong_cross_hessian_transpose": true,
+    "wrong_source_momentum_sign": true
+  },
+  "status": "PASS",
+  "total": 14
+}

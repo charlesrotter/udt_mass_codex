@@ -1,0 +1,31 @@
+{
+  "assertions": 13580,
+  "failed": [],
+  "landing": "GLOBAL_NONCOINCIDENT_QUADRATIC_SCREEN_ENDPOINT_GENERATOR_CLOSES__MIXED_HESSIAN_IS_A_TYPED_AFFINE_WEIGHTED_ENDPOINT_BIDENSITY__EXACT_STATIONARY_COMPOSITION_REVERSAL_REFERENCE_AND_SCREEN_COVARIANCE__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_LIGHT_FLUX_DISTANCE_PROBABILITY_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "maxima": {
+    "affine_density_weight_relative_error": 6.148577771605116e-16,
+    "affine_generator_weight_relative_error": 1.676093147840087e-14,
+    "block_composition_relative_error": 6.217248937900877e-15,
+    "density_composition_relative_error": 1.0032514674597403e-14,
+    "g342_area_recovery_relative_error": 1.218934242084337e-15,
+    "generator_composition_relative_error": 3.2374849128501303e-13,
+    "generator_reconstruction_relative_error": 7.547200958616531e-15,
+    "hessian_identity_relative_error": 9.094947017729282e-13,
+    "principal_relative_error": 1.272872367168619e-13,
+    "reference_covariance_relative_error": 2.004548090802836e-14,
+    "reversal_relative_error": 2.004548090802836e-14,
+    "screen_covariance_relative_error": 2.004548090802836e-14
+  },
+  "method": "G343 exact blocks plus direct quadratic Hessian and stationary-composition algebra",
+  "preregistration_commit": "5c16ca60",
+  "selected_alternatives": [
+    "A",
+    "C1",
+    "R1",
+    "A1",
+    "S1",
+    "P1",
+    "Q1"
+  ],
+  "status": "PASS"
+}

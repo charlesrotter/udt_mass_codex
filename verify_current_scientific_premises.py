@@ -215,7 +215,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -440,6 +440,7 @@ def validate_startup_surface(root: Path) -> None:
             "G341",
             "G342",
             "G343",
+            "G344",
             "G312 premises are owner-adopted provisionally.",
             "multibranch Einstein arena",
             "Local Metric Sufficiency",
@@ -1082,6 +1083,7 @@ def validate_startup_surface(root: Path) -> None:
             "G341",
             "G342",
             "G343",
+            "G344",
             "Local Metric Sufficiency",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
             "Universal Reciprocity",
@@ -1091,7 +1093,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "326 rows",
+            "327 rows",
         ),
         "README.md": (
             "LIVE.md",
@@ -1473,9 +1475,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 326, "premise registry must contain exactly 326 rows")
+    require(len(rows) == 327, "premise registry must contain exactly 327 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 326, "duplicate premise id")
+    require(len(by_id) == 327, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1800,6 +1802,11 @@ def main() -> None:
         "G343": (
             "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED",
             "udt_g343_bilocal_screen_phase_space_propagator_2026-09-04/AUDIT_REPORT.md",
+            "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED",
+        ),
+        "G344": (
+            "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED",
+            "udt_g344_endpoint_generating_function_determinant_density_2026-09-04/AUDIT_REPORT.md",
             "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED",
         ),
     }
@@ -2195,6 +2202,7 @@ def main() -> None:
             "G303 external review or repair ancestry changed")
     g303_manifest = {row["path"]: row for row in read_tsv(g303 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+    registry_lines = tuple(line for line in registry_lines if not line.startswith(b"G344\t"))
     frozen_registry = b"".join(
         line for line in registry_lines
         if not line.startswith((b"G303\t", b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2266,6 +2274,7 @@ def main() -> None:
             "G304 external review or repair ancestry changed")
     g304_manifest = {row["path"]: row for row in read_tsv(g304 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+    registry_lines = tuple(line for line in registry_lines if not line.startswith(b"G344\t"))
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
     )
@@ -2341,6 +2350,7 @@ def main() -> None:
             "G305 external repair ancestry changed")
     g305_sources = {row["path"]: row for row in read_tsv(g305 / "SOURCE_SCOPE.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+    registry_lines = tuple(line for line in registry_lines if not line.startswith(b"G344\t"))
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
     )
@@ -2430,6 +2440,7 @@ def main() -> None:
             "G306 sealed package replay changed")
     g306_manifest = {row["path"]: row for row in read_tsv(g306 / "SOURCE_MANIFEST.tsv")}
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+    registry_lines = tuple(line for line in registry_lines if not line.startswith(b"G344\t"))
     frozen_registry = b"".join(
         line for line in registry_lines
         if not line.startswith((b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -5016,6 +5027,179 @@ def main() -> None:
             and "aggregate integrity gate called automated analytic proof"
             in g343_row["forbidden_regression"],
             "G343 scientific regression guard changed")
+
+    g344 = ROOT / "udt_g344_endpoint_generating_function_determinant_density_2026-09-04"
+    for name in (
+        "MAP.md",
+        "PREREGISTRATION.md",
+        "PREMISE_LEDGER.tsv",
+        "COMPLETENESS_MAP.md",
+        "PREREGISTRATION_EXECUTION_NOTE.md",
+        "EXACT_DERIVATION.md",
+        "LAY_REPORT.md",
+        "STATUS_LEDGER.tsv",
+        "AUDIT_REPORT.md",
+        "EVIDENCE_GATES.md",
+        "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REVIEW_TRANSMISSION.md",
+        "SOURCE_SCOPE.tsv",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "derive_endpoint_generator.py",
+        "verify_endpoint_generator_independent.py",
+        "run_catch_proofs.py",
+        "verify_package.py",
+    ):
+        require((g344 / name).is_file(), f"G344 evidence missing: {name}")
+    g344_production = json.loads((g344 / "DERIVATION_RESULT.json").read_text(
+        encoding="utf-8"
+    ))
+    g344_independent = json.loads((g344 / "INDEPENDENT_VERIFICATION.json").read_text(
+        encoding="utf-8"
+    ))
+    g344_hostile = json.loads((g344 / "CATCH_PROOF_RESULT.json").read_text(
+        encoding="utf-8"
+    ))
+    g344_package = json.loads((g344 / "VERIFICATION_RESULT.json").read_text(
+        encoding="utf-8"
+    ))
+    require(g344_production["status"] == "PASS"
+            and g344_production["assertions"] == 13580
+            and g344_production["failed"] == []
+            and g344_production["preregistration_commit"] == "5c16ca60"
+            and g344_production["selected_alternatives"]
+            == ["A", "C1", "R1", "A1", "S1", "P1", "Q1"]
+            and g344_production["maxima"]["hessian_identity_relative_error"] < 5e-9
+            and g344_production["maxima"]["generator_composition_relative_error"] < 5e-9,
+            "G344 production evidence changed")
+    require(g344_independent["status"] == "PASS"
+            and g344_independent["assertions"] == 4882
+            and g344_independent["failed"] == []
+            and "finite endpoint derivatives" in g344_independent["method"]
+            and g344_independent["maxima"]["finite_mixed_hessian_relative_error"] < 3e-7
+            and g344_independent["maxima"]["action_integral_relative_error"] < 3e-7,
+            "G344 independent reconstruction changed")
+    require(g344_hostile["status"] == "PASS"
+            and g344_hostile["caught"] == g344_hostile["total"] == 14
+            and g344_hostile["failed"] == []
+            and all(g344_hostile["mutations"].values()),
+            "G344 hostile controls changed")
+    require(g344_package["all_passed"] is True
+            and g344_package["checks_passed"] == g344_package["checks_total"] == 21,
+            "G344 aggregate package evidence changed")
+
+    g344_before = {
+        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g344.iterdir() if path.is_file()
+    }
+    g344_env = dict(os.environ)
+    g344_env["UDT_NO_WRITE"] = "1"
+    g344_env["PYTHONDONTWRITEBYTECODE"] = "1"
+    for script, token in (
+        ("derive_endpoint_generator.py", '"assertions": 13580'),
+        ("verify_endpoint_generator_independent.py", '"assertions": 4882'),
+        ("run_catch_proofs.py", '"caught": 14'),
+        ("verify_package.py", '"checks_total": 21'),
+    ):
+        replay = subprocess.run(
+            [sys.executable, "-B", "-S", str(g344 / script)],
+            cwd=g344,
+            env=g344_env,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        require(replay.returncode == 0 and token in replay.stdout,
+                f"G344 dependency-free no-write replay failed: {script}: {replay.stderr}")
+    g344_after = {
+        path.name: hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g344.iterdir() if path.is_file()
+    }
+    require(g344_before == g344_after, "G344 no-write replay changed evidence bytes")
+
+    for source_line in (g344 / "SOURCE_SCOPE.tsv").read_text(
+            encoding="utf-8").splitlines()[1:]:
+        if not source_line.strip():
+            continue
+        source_path, expected_hash, _status, _allowed, _forbidden = source_line.split("\t")
+        if expected_hash == "NA_METHOD":
+            continue
+        direct_source = ROOT / source_path
+        require(direct_source.is_file()
+                and hashlib.sha256(direct_source.read_bytes()).hexdigest() == expected_hash,
+                f"G344 frozen source provenance changed: {source_path}")
+
+    g344_external_path = g344 / "EXTERNAL_REVIEW_RESPONSE.md"
+    g344_external = g344_external_path.read_text(encoding="utf-8")
+    require(hashlib.sha256(g344_external_path.read_bytes()).hexdigest()
+            == "c01f0f13bb08d0675d6d637c5960a1fd25963b287ada01cb45905283340c95ff"
+            and g344_external.rstrip().endswith(
+                "ACCEPT_G344_BOUNDED_SCREEN_ENDPOINT_GENERATOR_AND_BIDENSITY"
+            )
+            and "No high-severity findings" in g344_external
+            and "No medium-severity findings" in g344_external
+            and "does not replace the analytic proof" in g344_external,
+            "G344 external acceptance changed")
+    g344_transmission = (g344 / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(
+        encoding="utf-8"
+    )
+    for token in (
+        "29 manifest payloads",
+        "a3958fa39a20e1e3bab5bf977d963527df8a89d82cd16bd4ab92d0f3c525c6ee",
+        "c12c583fb415d707f372f43073c8ba06f4e4731e241c833778e35e1774d9f1a3",
+        "293d95dc9257b3ffe9bfcf7de39ba9168a67384a30726e3e226abe9842e76170",
+        "c01f0f13bb08d0675d6d637c5960a1fd25963b287ada01cb45905283340c95ff",
+        "ACCEPT_G344_BOUNDED_SCREEN_ENDPOINT_GENERATOR_AND_BIDENSITY",
+    ):
+        require(token in g344_transmission, f"G344 transmission provenance absent: {token}")
+    g344_row = by_id["G344"]
+    require("EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED"
+            in g344_row["current_status"]
+            and "13580_PRODUCTION_CHECKS" in g344_row["current_status"]
+            and "4882_IMPLEMENTATION_DISTINCT_SIMPSON_FINITE_HESSIAN_RK_ACTION_CHECKS"
+            in g344_row["current_status"]
+            and "14_OF_14_HOSTILE_MUTATIONS_CAUGHT" in g344_row["current_status"]
+            and "21_POSTREVIEW_AGGREGATE_NO_WRITE_AND_RETURN_AUTHENTICATION_GATES"
+            in g344_row["current_status"]
+            and "ADDITIVE_ENDPOINT_COBOUNDARY_IS_GENERATOR_NORMALIZATION_NOT_DENSITY_PHYSICS"
+            in g344_row["current_status"]
+            and "COMPACT_LIFT_EXECUTABLE_COVERAGE_DOCUMENTARY_NO_AGGREGATION_PATH"
+            in g344_row["current_status"]
+            and "METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED"
+            in g344_row["current_status"],
+            "G344 registry grade changed")
+    require("ALL_DISTINCT_POSITIVE_ENDPOINT_PAIRS_AND_ALL_SIX_TRIPLE_ORDERINGS"
+            in g344_row["active_use"]
+            and "EVERY_PROJECTIVE_NULL_DIRECTION" in g344_row["active_use"]
+            and "INDEPENDENT_ENDPOINT_O2_SCREEN_BASES" in g344_row["active_use"]
+            and "ALL_SUPPLIED_COMPACT_LATTICE_LIFTS_RETAINED_SEPARATELY"
+            in g344_row["active_use"]
+            and "FULL_SCREEN_ENDPOINT_GENERATOR_MIXED_HESSIAN_AND_DETERMINANT_BIDENSITY"
+            in g344_row["active_use"],
+            "G344 active-use boundary changed")
+    require("generic or perturbed spacetime endpoint generators" in g344_row["open_scope"]
+            and "observer-calibrated invariant scalar density" in g344_row["open_scope"]
+            and "radiative emission intensity brightness luminosity"
+            in g344_row["open_scope"]
+            and "physical route protocol observer or germ population"
+            in g344_row["open_scope"]
+            and "scale physical Xmax stability and canon" in g344_row["open_scope"],
+            "G344 open boundary changed")
+    require("geometric endpoint generator called spacetime action electromagnetic light transfer"
+            in g344_row["forbidden_regression"]
+            and "affine-weighted determinant bidensity called gauge-invariant scalar flux"
+            in g344_row["forbidden_regression"]
+            and "additive endpoint coboundary called physical phase"
+            in g344_row["forbidden_regression"]
+            and "compact lifts summed weighted or physically selected"
+            in g344_row["forbidden_regression"]
+            and "documentary compact-label or text-token checks called analytic proof"
+            in g344_row["forbidden_regression"]
+            and "implementation-distinct verification called premise-independent"
+            in g344_row["forbidden_regression"],
+            "G344 scientific regression guard changed")
 
     g310_row = by_id["G310"]
     require("NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON"
@@ -17815,7 +17999,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

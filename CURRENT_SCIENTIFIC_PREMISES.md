@@ -16,7 +16,7 @@
 | W6 non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Membership with metric-causal response | Population/history |
 | Universal Reciprocity / Differential Dual Reciprocity (DDR) | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension; canon |
 | Quiet-GR response; Local Metric Sufficiency | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` G312 | Bounded local response constitution | Matter/history |
-| G313--G343 | mixed conditional/external grades | Solution/development/response/finite-pair/beam/phase-space tiles | Generic development, selection, population, persistence, scale |
+| G313--G344 | mixed conditional/external grades | Solution/development/response/finite-pair/beam/phase-space/generator tiles | Generic development, selection, population, persistence, scale |
 
 Pair `c_eff` is a `CONDITIONAL` ratio, not automatically signal speed. `X_max` is a
 working asymptotic global-completion consequence target, never a local input, wall, center, or scale.
@@ -29,7 +29,7 @@ G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198/G199/G200/G201
 G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278;
 G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -59,6 +59,7 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 | G341 | external/no required repair | Full nonprincipal per-lift null inverse, cone rank, compact path labels, and mixed screen carry on that exact spacetime |
 | G342 | external/no required repair | Full source-normalized two-screen Jacobi map, area, expansion, shear, and principal limits on that exact cone |
 | G343 | external/no required repair | Full bilocal four-by-four screen phase-space propagator, composition, symplecticity, reversal, and reference-event covariance on that exact cone |
+| G344 | external/no required repair | Global noncoincident homogeneous quadratic endpoint generator, mixed Hessian, stationary composition, and affine-weighted determinant bidensity on each fixed labelled ray |
 
 G332 supplies exact constraint witnesses for every positive-weight G331 metric; it proves
 existence, not a full `K` census, persistence, stability, occupancy, or selection. Its auxiliary
@@ -85,6 +86,12 @@ reverses, and preserves the screen Wronskian; changing the marked reference even
 bookkeeping, and separately normalized endpoints differ by the already-owned metric frequency
 ratio. It is still geometric phase-space transport, not radiative transfer or distance selection.
 
+G344 converts that map into its exact endpoint-generator form on every noncoincident positive-time
+segment. The mixed endpoint Hessian and determinant bidensity compose exactly and remain regular
+at both principal limits. The generator retains an additive endpoint coboundary normalization,
+while the density is unaffected. This is still weighted geometric screen transport, not a scalar
+flux, probability, luminosity, or observational distance.
+
 ## Scale and geometric limits
 
 | Object | Status | Guard |
@@ -96,14 +103,15 @@ ratio. It is still geometric phase-space transport, not radiative transfer or di
 | `X_max` | `WORKING/OPEN` | Global completion only |
 
 Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at the positive conformal class.
-Angular cancellation owns loud--quiet--loud. G330--G343 add a metric-native line,
+Angular cancellation owns loud--quiet--loud. G330--G344 add a metric-native line,
 its non-fibration neighborhood, exact initial-constraint embedding, and one first-jet pair
 response, its finite-boost congruence, qualitative local sign persistence away from the exact
 silent set, the exact silent-set second jet, and complete-field ownership of the inherited third
 jet on double silence, one explicit finite-time pair evaluation, its exact bounded carry
 classification, one finite-separated normal-pair causal classification, the full nonprincipal
-cone, its exact two-screen Jacobi map, and its full bilocal phase-space propagator. A canonical
-endpoint generating function/determinant density, physical distance protocol, generic finite-time
+cone, its exact two-screen Jacobi map, its full bilocal phase-space propagator, and its endpoint
+generator and affine-weighted bidensity. An observer-calibrated scalar density, physical distance
+protocol, generic finite-time
 development, the complete third-zero locus, global persistence, and physical germ population
 remain open.
 
@@ -116,8 +124,8 @@ remain open.
 | EH action | `CONDITIONAL_NOT_SELECTED` | GR familiarity is not derivation |
 | Native source/action/mass | `OPEN` | No physics claim |
 
-R2--R5/G312--G343 select no scale, occupancy, universe, matter law, or SNe prediction.
+R2--R5/G312--G344 select no scale, occupancy, universe, matter law, or SNe prediction.
 
 ## Registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv`: 326 rows through G343; verify before querying.
+`CURRENT_SCIENTIFIC_PREMISES.tsv`: 327 rows through G344; verify before querying.

@@ -1,0 +1,29 @@
+{
+  "all_passed": true,
+  "checks": {
+    "additive_endpoint_coboundary_qualified": true,
+    "aggregate_replay_changes_no_bytes": true,
+    "analytic_B_invertibility": true,
+    "bounded_nonphysical_language": true,
+    "coincidence_and_compact_labels_typed": true,
+    "external_review_acceptance": true,
+    "external_transmission_provenance": true,
+    "frozen_dependency_hashes": true,
+    "frozen_script_hashes": true,
+    "generator_and_hessians": true,
+    "hostile_14_of_14": true,
+    "independent_4882_of_4882": true,
+    "no_write_replay_derive_endpoint_generator.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_endpoint_generator_independent.py": true,
+    "preregistration_and_qualification_tokens": true,
+    "principal_limits_and_G342_recovery": true,
+    "production_13580_of_13580": true,
+    "reversal_and_affine_weights": true,
+    "screen_bidensity_and_reference_covariance": true,
+    "stationary_composition_and_density": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "landing": "GLOBAL_NONCOINCIDENT_QUADRATIC_SCREEN_ENDPOINT_GENERATOR_CLOSES__MIXED_HESSIAN_IS_A_TYPED_AFFINE_WEIGHTED_ENDPOINT_BIDENSITY__EXACT_STATIONARY_COMPOSITION_REVERSAL_REFERENCE_AND_SCREEN_COVARIANCE__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_LIGHT_FLUX_DISTANCE_PROBABILITY_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED"
+}
