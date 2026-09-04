@@ -1,0 +1,15 @@
+item	status	note
+G345_preregistration	PASS	d22f1bdb banked and pushed before outcome execution
+production	PASS	9824 of 9824 after recorded numerical-diagnostic repair
+independent_verification	PASS	4360 of 4360 implementation-distinct checks
+hostile_mutations	PASS	17 of 17 caught
+observer_calibrated_screen_scalar	INTERNALLY_VERIFIED_CONDITIONAL_BOUNDED	awaiting fresh external adversarial review
+monomial_uniqueness	DERIVED_CONDITIONAL_CLASSIFICATION	unique only for reversal-symmetric first-power determinant monomials
+physical_observable_uniqueness	OPEN_NOT_DERIVED	arbitrary functions and operational attachments remain
+stationary_composition	DERIVED_CONDITIONAL_BOUNDED	normalized joined Hessian required
+affine_reference_GL2_covariance	DERIVED_CONDITIONAL_BOUNDED	all declared bookkeeping weights cancel
+compact_lifts	SUPPLIED_PATH_LABELS	retained separately; none selected or summed
+light_flux_luminosity_probability_distance	OPEN_NOT_DERIVED	no transfer or observational attachment
+observer_ray_population	OPEN_NOT_DERIVED	spacetime normal congruence and labelled ray supplied
+matter_mass_scale_Xmax	OPEN_NOT_DERIVED	no attachment or selection
+canon	OPEN	Charles alone canonizes

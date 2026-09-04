@@ -1,0 +1,25 @@
+{
+  "caught": 17,
+  "failed": [],
+  "mutations": {
+    "asymmetric_frequency_exponents": true,
+    "dropped_absolute_orientation": true,
+    "forbidden_physical_promotion": true,
+    "hidden_unit_reference_event": true,
+    "mixed_independent_segment_gauges": true,
+    "multiplied_endpoint_frequencies": true,
+    "naive_multiplicative_composition": true,
+    "negative_scope_token_removed": true,
+    "omitted_middle_frequency_square": true,
+    "omitted_source_frequency": true,
+    "omitted_source_metric_screen_area": true,
+    "omitted_target_frequency": true,
+    "omitted_target_metric_screen_area": true,
+    "summed_or_selected_compact_lifts": true,
+    "used_frequency_ratio_only": true,
+    "used_sqrt_frequency_product_at_determinant_level": true,
+    "wrong_general_frame_tensor_transform": true
+  },
+  "status": "PASS",
+  "total": 17
+}

@@ -1,0 +1,25 @@
+{
+  "all_passed": true,
+  "checks": {
+    "affine_weight_derivation": true,
+    "aggregate_replay_changes_no_bytes": true,
+    "frozen_script_hashes": true,
+    "frozen_source_hashes": true,
+    "general_screen_scalar_derivation": true,
+    "hostile_17_of_17": true,
+    "independent_4360_of_4360": true,
+    "no_forbidden_physical_promotion": true,
+    "no_write_replay_derive_screen_scalar.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_screen_scalar_independent.py": true,
+    "preregistration_token_and_execution_repair": true,
+    "production_9824_of_9824": true,
+    "reference_free_and_principal_formulas": true,
+    "reversal_and_endpoint_reset": true,
+    "scope_and_nonuniqueness_guard": true,
+    "stationary_composition_typed": true
+  },
+  "checks_passed": 17,
+  "checks_total": 17,
+  "landing": "OBSERVER_CALIBRATED_ENDPOINT_SCREEN_DETERMINANT_SCALAR_CLOSES__UNIQUE_IN_THE_SYMMETRIC_FIRST_POWER_FREQUENCY_MONOMIAL_CLASS__EXACT_AFFINE_REFERENCE_GL2_REVERSAL_AND_STATIONARY_SEWING__BOTH_PRINCIPAL_LIMITS_AND_EACH_COMPACT_PATH_LABEL_RETAINED__NO_LIGHT_FLUX_LUMINOSITY_PROBABILITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED"
+}
