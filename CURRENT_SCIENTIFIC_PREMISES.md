@@ -16,7 +16,7 @@
 | W6 non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Membership with metric-causal response | Population/history |
 | Universal Reciprocity / Differential Dual Reciprocity (DDR) | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension; canon |
 | Quiet-GR response; Local Metric Sufficiency | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` G312 | Bounded local response constitution | Matter/history |
-| G313--G340 | mixed conditional/external grades | Solution/data/development/mode/Hopf/constraint/response/carry/finite-pair tiles | Generic development; nonprincipal finite-pair completion; global persistence; physical germ population; selector; scale |
+| G313--G340 | mixed conditional/external grades | Solution/development/response/finite-pair tiles | Generic development, selection, population, persistence, scale |
 
 Pair `c_eff` is a `CONDITIONAL` ratio, not automatically signal speed. `X_max` is a
 working asymptotic global-completion consequence target, never a local input, wall, center, or scale.
@@ -57,72 +57,17 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 | G339 | external/no required repair | Exact separation of infinitesimal observer separation, local-ruler carry, and recoverable metric deformation |
 | G340 | external/no required repair | Finite-separated normal-pair slice/null/radar/projective relations and compact winding branches on one supplied spacetime |
 
-G332's exact witness is
-`K=((C-b)/2)gamma+b xi_flat tensor xi_flat`, with
-`b=-C +/- sqrt(2(R+2C^2-2Lambda))` and strict uniform radicand condition. It proves existence for
-the complete positive-weight weighted-contact family, including irrational unequal weights with
-generic dense/nonclosed Ricci eigenflow. It does not prove a full extrinsic-curvature census,
-necessity, dynamic persistence, stability, occupancy, or selection. `C` and `Lambda` are not
-UDT-derived physical constants.
+G332 supplies exact constraint witnesses for every positive-weight G331 metric; it proves
+existence, not a full `K` census, persistence, stability, occupancy, or selection. Its auxiliary
+`C` and `Lambda` are not UDT-derived physical constants. G333--G337 then evaluate complete-pair
+initial responses through first, finite-boost, silent second, and full-field third normal jets.
+They show that full fields and carry matter, not that a history or topology is selected.
 
-G333 then evaluates, rather than modifies, those lawful initial data. It gives
-`H=-K^sharp` and `gamma(Hv,v)=(b-C)/2-b*mu` for every unit spatial direction. This is an
-exact first-normal-jet result. Its declared Gaussian normal--spatial pair germ shows that the
-complete pair pullback can retain first spatial response information absent from its terminal
-scalar. Other pair germs and all nonzero-time persistence remain open; no Hopf/topology input is
-used.
-
-G334 distributes that same normal first jet through every finite local boost. On inherited
-transport the full pair matrix retains `q` invariantly while terminal `n(Phi)=q*sinh(z)^2` is blind
-at zero boost. A general supplied frame transport adds independent component terms, so boost alone
-does not select the arbitrary pair first jet. The tested derivative remains normal to the initial
-slice; observer-time evolution and nonzero-time persistence remain open.
-
-G335 follows that response into conditional smooth local marked evolution. Every initially nonzero
-direction keeps the same sign on some datum/germ-specific local interval. Exact first-order silent
-directions occur iff `b!=0` and `|b|>=|C|` and remain open to the second normal jet. A fixed compact
-datum with `sup|b|<|C|` has one all-direction local interval; this does not widen to a uniform
-interval over the unrestricted family. Raw components and observer time remain carry-qualified.
-
-G336 evaluates the exact first-order-silent set at the next normal order. For inherited Lie carry,
-`s1=1+(R-6)mu/2+b^2*mu^2`; lawful G332 data realize positive, zero, and negative values. Interior
-sign is not all-carry invariant, the strict horizontal endpoint has `s1=1`, and vertical `mu=1` is
-only the branch-meeting boundary. Exact double silence remains lawful and passes the local question
-to the third jet. The finite-boost pair matrix retains `s1` even though terminal `Phi` is blind at
-zero boost.
-
-G337 differentiates the active equation once more on exact double silence. Complete smooth
-`(gamma,K)` and their spatial jets determine the inherited initial third response. The compressed
-pointwise tuple `(R,b,C,Lambda,mu)` does not: exact invariantly distinct lawful twins share it but
-have different `s2`. Equal weights give `s2=8*b*mu` with both roots retained. This is not an
-explicit positive-time development or stability theorem. Fresh review retained this mathematics;
-the preregistered sealed source-layout repair passed repair-only external follow-up without Git and
-with all registered outputs byte-identical.
-
-G338 then leaves the derivative ladder and evaluates one already-lawful exact spacetime through
-finite time. Under a declared commuting-translation-field carry,
-`G=rho*u^(-2/3)+(1-rho)*u^(4/3)` gives the full shifted completed-pair matrix with `det(h)=-G`.
-Zero-boost terminal `Phi` is blind while ruler density evolves, and the unique initially silent
-direction `rho=2/3` turns on exactly away from the reference slice. This closes one bounded
-finite-time evaluation, not generic G332 evolution, arbitrary or physical carry, stability,
-occupancy/history, topology, scale, or `X_max`.
-
-G339 holds that spacetime and normal congruence fixed while varying pair carry. The Lie/commuting
-field is exactly the infinitesimal connecting field between fixed-label normal observers;
-parallel/Fermi local rulers are different transported objects and remain unit. The full diagnostic
-carry family changes raw pair components and terminal readouts, while the exact transport identity
-recovers the same normal deformation from typed pair-plus-carry data. Rotating orthonormal and
-principal accelerated Fermi controls do not erase curvature. This does not classify finite
-observer separation or select a physical carry, population, occupancy, scale, or `X_max`.
-
-G340 evaluates supplied finite-separated fixed-label normal observers on that same spacetime. The
-metric fixes same-slice length, the general path-labelled null Hamiltonian/quadrature, exact
-principal arrival/frequency laws, principal transported-planar projective readout, and conditional
-two-leg radar timing. Those four constructions remain distinct; all compact winding branches are
-retained, with the half-period earliest-arrival tie. Metric-null timing/frequency geometry requires
-no phenomenological light model, while emission/transfer/detection remain outside scope. Generic
-nonprincipal endpoint inversion and screen transfer, and every physical protocol/population or
-scale selection, remain open.
+G338 evaluates one lawful Taub/Kasner spacetime through finite time under declared carry; G339
+separates fixed-label observer separation from parallel/Fermi local rulers. G340 classifies its
+finite-separated normal-pair slice, path-labelled null, chosen-radar, and principal-projective
+relations while retaining compact windings. These are bounded metric evaluations, not generic
+development, physical protocol/population, stability, occupancy/history, scale, or `X_max`.
 
 ## Scale and geometric limits
 

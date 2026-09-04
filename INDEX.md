@@ -67,6 +67,7 @@
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`;
   chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+  Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`; `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
 ## Observational lane
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
@@ -82,7 +83,6 @@
 - R5 accepted follow-up/manifest: `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_EXTERNAL_FOLLOWUP_REVIEW.md`; `udt_observed_angular_pattern_raw_restart_2026-08-12/R5_FINAL_EVIDENCE_MANIFEST.tsv`
 - Verified raw archive: `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`
 R2--R5 select no feature, scale, origin, cosmology, or `X_max`; status/program/premise guide: `LIVE.md`; `CURRENT_RESEARCH_PROGRAM.md`; `CURRENT_SCIENTIFIC_PREMISES.md`.
-- Exact premise registry: `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Known-old-path relocation lookup only: `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`
 - W5 projective-position clarification: `founding.md`; G273/G274 above. W6 non-signalling co-presence clarification: `founding.md`; G294 above.
@@ -116,5 +116,3 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`; status/program/p
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
 - Historical negative controls — never kernel inputs: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; quarantine: `archive/scaffolded_kernel_controls_2026-08-19/README.md`.
 - Matter/stability: begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
-## Protected local paths — see `LIVE.md` and `AGENTS.md`; do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without authority.
-Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`; `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.

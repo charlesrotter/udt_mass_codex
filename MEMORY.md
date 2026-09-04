@@ -12,49 +12,16 @@ owner-provisional, not derived or canon; the bounded response constitution is tr
 Metric/kernel/angular are unchanged.
 
 G313--G324 retain broad data/developments, quotient breadth, and scoped completeness. G325--G329
-classify single-mode tiles, not stability. G330/G331 give a persistent metric-native Ricci
-eigenline but do not force closed Hopf fibres.
+classify isolated modes, not stability. G330--G337 connect a persistent metric-native Ricci
+eigenline to exact constraint witnesses and complete-pair initial response through three jets.
+Closed Hopf fibres are not forced; arbitrary transport remains supplied; silence passes to higher
+jets. This is conditional local structure, not stability, occupancy, scale, or canon.
 
-G332 externally supplies an exact `K` satisfying both provisional vacuum constraints for every
-positive-weight G331 metric; this is existence, not selection. G333 derives
-`gamma(Hv,v)=(b-C)/2-b*gamma(v,xi)^2`; the declared pair pullback sees that first jet when terminal
-`Phi` does not. G334 gives exact finite-boost congruence while general transport remains supplied.
-G335 conditionally preserves each nonzero sign on a datum-specific local interval; exact silence
-passes to higher jets. None establishes finite-time/global stability, occupancy, scale, or canon.
-
-G336 is externally accepted after preregistered scope/wording repairs. On every exact first-order
-silent direction, inherited second response is `s1=1+(R-6)mu/2+b^2*mu^2` and lawful data realize
-all three signs. Interior classification depends on direction carry; the strict horizontal
-endpoint has `s1=1`; vertical `mu=1` is only a branch boundary. Exact double silence survives for
-third-jet analysis. This is initial second jet, not finite-time evolution or stability.
-
-G337 is externally accepted after its preregistered sealed source-layout repair. The repair-only
-reviewer passed the sealed replay without Git and reproduced all registered outputs byte-for-byte.
-On inherited double silence, the
-active equation fixes the initial third response from complete smooth `(gamma,K)` and their
-spatial jets. Exact lawful twins share `(R,b,C,Lambda,mu)` but differ in `s2`; the compressed tuple
-is not a complete state. Equal weights give `s2=8*b*mu` with both roots retained. This is initial
-third-jet ownership only; metric/kernel/angular/equation are unchanged.
-
-G338 is externally accepted. On a supplied Taub/Kasner spacetime
-and declared commuting-translation carry, the unchanged kernel has an exact finite-time
-response. Zero-boost terminal `Phi` is blind while ruler density evolves; the unique initial
-first-order-silent direction turns on exactly. Carry, spacetime occupancy, topology, stability,
-scale, and `X_max` remain unselected.
-
-G339 is externally accepted. On the same supplied spacetime, the Lie/commuting field measures the
-infinitesimal separation of fixed-label normal observers, while parallel/Fermi local rulers are
-different objects and can remain unit. Raw pair readouts depend on carry, but typed pair-plus-carry
-data recover the same normal metric deformation. Finite-separated pairs, physical carry/population,
-occupancy, scale, and `X_max` remain open.
-
-G340 is externally accepted with no required repair or finding. On that same spacetime and supplied
-fixed-label normal observers, the metric directly relates same-slice distance, path-labelled null
-exchange, chosen radar timing, and principal projective clock contrast without identifying them.
-It gives general null quadrature, exact principal arrival/frequency laws, and all compact winding
-branches. A phenomenological light model is unnecessary for null timing/frequency geometry but is
-still needed for emission, brightness, spectrum, absorption, and detection. Generic nonprincipal
-inverse branches/screen carry and every physical protocol/population or scale remain open.
+G338/G339 give one exact finite-time pair evaluation and distinguish fixed-label observer
+separation from local ruler carry. G340 then relates same-slice distance, path-labelled null
+exchange, chosen radar, and principal projective contrast on that spacetime, retaining all compact
+windings. Null timing/frequency needs no light model; emission/transfer/detection, nonprincipal
+screen carry, physical protocol/population, occupancy, stability, scale, and `X_max` remain open.
 
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227;

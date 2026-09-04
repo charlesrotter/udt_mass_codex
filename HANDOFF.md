@@ -20,46 +20,17 @@ Quiet-GR response plus Local Metric Sufficiency yields trace-free Ricci as the b
 constitution with one scalar. Metric/kernel/angular remain unchanged; global bootstrap is optional.
 
 G313--G324 retain a multibranch Einstein arena, broad data/developments, quotient breadth, and
-scoped completeness—not a selector. G325--G329 classify single modes, not stability. G330/G331
-give a metric-native Ricci eigenline but do not force closed Hopf fibres.
+scoped completeness—not a selector. G325--G329 classify isolated modes, not stability. G330--G337
+connect a metric-native Ricci eigenline to exact constraint witnesses and complete-pair first,
+finite-boost, silent second, and full-field third initial response jets. Closed Hopf fibres are not
+forced; arbitrary frame transport remains supplied; exact silence passes to higher jets. These are
+conditional local classifications, not finite-time/global stability, occupancy, matter/mass,
+scale, `X_max`, or canon. Metric/kernel/angular/equation are unchanged.
 
-G332 externally supplies an exact `K` satisfying both provisional vacuum constraints for every
-positive-weight G331 metric; this is existence, not selection. G333 derives
-`H=-K^sharp` and `gamma(Hv,v)=(b-C)/2-b*mu`; the declared complete pair pullback sees that first
-jet when terminal `Phi` does not. G334 gives exact finite-boost congruence while arbitrary frame
-transport remains supplied. G335 conditionally preserves each nonzero sign on a datum-specific
-local interval; exact silence passes to higher jets. None establishes finite-time/global stability,
-occupancy, matter/mass, scale, `X_max`, or canon.
-
-G336 is externally accepted after preregistered scope/wording repairs. On the complete exact silent
-set, inherited second response is `s1=1+(R-6)mu/2+b^2*mu^2` and lawful data realize every sign.
-Interior classification depends on direction carry; the strict horizontal endpoint has `s1=1`,
-while `mu=1` is only the branch-meeting boundary. Exact double silence remains and requires the
-third jet. Finite boosts retain `s1` in the complete matrix even where terminal `Phi` is blind.
-This is initial second jet only, not finite-time evolution, stability, selection, scale, or canon.
-
-G337 is externally accepted after its preregistered R1 sealed source-layout repair. External
-follow-up passed without Git and reproduced registered outputs byte-for-byte.
-The full active conditional
-equation fixes the inherited third response from complete smooth `(gamma,K)` and their spatial
-jets. Exact lawful twins share `(R,b,C,Lambda,mu)` but have different third responses, so that
-five-number pointwise tuple is not a complete state. Equal weights give `s2=8*b*mu`; both roots are
-retained. This is initial third-jet ownership only; metric/kernel/angular/equation are unchanged.
-
-G338 is externally accepted. On one supplied G323/G324 Taub/Kasner
-spacetime and a declared commuting-translation carry, the unchanged completed-pair kernel gives a
-finite-time response for all directions and finite boosts. Zero-boost terminal `Phi` is blind
-while `m=sqrt(G)` evolves, and the unique first-order-silent direction `rho=2/3` turns on exactly on
-both sides of the reference time. This does not select the carry, spacetime, population, topology,
-scale, `X_max`, stability, or canon.
-
-G339 is externally accepted without required repair. On the same supplied spacetime and normal
-congruence, G338's Lie/commuting field is precisely the infinitesimal separation query for
-fixed-label comoving observers. Parallel/Fermi local rulers remain unit because they are different
-transported objects. The exact transport identity recovers the same normal metric deformation from
-typed pair-plus-carry data across the full diagnostic carry family and bounded rotating/accelerated
-controls. Raw W1 readouts remain carry/calibration dependent. No physical carry, finite observer
-population, occupancy, scale, `X_max`, or canon is selected.
+G338/G339 give one exact finite-time completed-pair response and distinguish fixed-label observer
+separation from parallel/Fermi ruler carry. Typed pair-plus-carry data recover the same metric
+deformation, but no physical carry, population, occupancy, topology, stability, scale, or `X_max`
+is selected.
 
 G340 is externally accepted without required repair or finding at any severity. On the same
 supplied spacetime and fixed-label normal observers, the metric directly relates four distinct
@@ -77,7 +48,8 @@ Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
 
 W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;

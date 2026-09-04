@@ -32,40 +32,12 @@ response and Local Metric Sufficiency make trace-free Ricci the bounded response
 one connected scalar; global bootstrap remains optional. Metric, kernel, and angular interfaces are
 unchanged.
 
-G313--G324 retain a multibranch Einstein arena, broad data/developments, quotient breadth, and
-scoped completeness—not a selector. G325--G329 classify single-mode variations, not stability.
-G330/G331 give a metric-native Ricci eigenline whose uniform-gap persistence does not force closed
-Hopf fibres.
-
-G332 is externally accepted after evidence repairs: an explicit smooth `K` embeds every complete
-positive-weight G331 metric into both provisional vacuum constraints for fixed auxiliary
-`Lambda,C`; this is existence, not a `K` census or selection. G333 derives
-`H=-K^sharp` and `gamma(Hv,v)=(b-C)/2-b*mu` for every strict datum; the declared complete pair
-pullback sees this first jet when terminal `Phi` does not. G334 proves exact finite-boost Lorentz
-congruence, while arbitrary frame transport remains supplied. G335 conditionally preserves each
-nonzero response's sign on a datum-specific local interval; exact silence passes to higher jets.
-None supplies finite-time/global stability, occupancy, matter/mass, scale, `X_max`, or canon.
-
-G336 is externally accepted after preregistered R1/R2 scope and wording repairs. On every exact
-G335 first-order-silent direction, the inherited second normal jet is
-`s1=Lambda-Ric3(v,v)+2K^2(v,v)=1+(R-6)mu/2+b^2*mu^2`. Lawful data realize positive, zero, and
-negative values. Interior sign classification depends on supplied direction carry; the strict
-horizontal endpoint has `s1=1` and its first-carry correction vanishes. The vertical `mu=1`
-endpoint is only the branch-meeting boundary. Exact double silence is lawful and passes the local
-question to the third jet. The finite-boost pair matrix retains `s1`, while terminal `Phi` remains
-blind at zero boost. This is an initial second-jet classification, not finite-time evolution,
-stability, occupancy/history selection, matter/mass, scale, `X_max`, or canon. Metric, kernel,
-angular sector, and adopted equation remain unchanged.
-
-G337 is externally accepted after its preregistered sealed-replay source-layout repair. The external
-follow-up authenticated the exact intake, passed the repaired replay with Git unavailable, and
-reproduced every registered output byte-for-byte. On exact inherited double
-silence, the active conditional equation fixes the third normal response from the complete smooth
-initial fields `(gamma,K)` and their spatial jets. It does not reduce to the five pointwise labels
-`(R,b,C,Lambda,mu)`: two exact invariantly distinct lawful germs share those labels but have
-different third responses. The equal-weight control gives `s2=8*b*mu`, retaining both strict roots.
-Finite boosts retain the full-matrix response while terminal `Phi` is zero-boost blind. This is an
-initial third-jet ownership result, not explicit evolution, stability, occupancy/history selection,
+G313--G324 retain a multibranch Einstein arena, broad initial data/developments, quotient breadth,
+and scoped completeness—not a selector. G325--G329 classify isolated linear modes, not stability.
+G330--G337 connect the metric-native Ricci eigenline to complete-pair first, finite-boost, silent
+second, and full-field third initial response jets. Uniform-gap persistence does not force closed
+Hopf fibres; arbitrary frame carry remains supplied; exact silence passes to higher jets. These are
+conditional local classifications, not finite-time/global stability, occupancy/history selection,
 matter/mass, scale, `X_max`, or canon. Metric, kernel, angular sector, and equation are unchanged.
 
 G338 is externally accepted without required repair. On the exact supplied G323/G324 Taub/Kasner
@@ -108,7 +80,8 @@ Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
 
 Authority: the exact 323-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G340 external
 acceptance without required repair.

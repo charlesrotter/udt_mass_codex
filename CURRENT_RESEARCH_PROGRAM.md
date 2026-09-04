@@ -57,24 +57,10 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   completeness/inextendibility. No occupancy is selected.
 - G325/G326 classifies twelve homogeneous constants. G327/G328/G329 close axial, transverse, and
   strict-oblique single-mode tiles. These are not mode-uniform or nonlinear stability.
-- G330 extracts a simple metric-native Ricci eigenline on supplied nonround Berger-`S3` and gives
-  conditional local carry while its gap remains open. G331 extends line persistence to a full
-  uniform-`C2` neighborhood but proves closed Hopf fibres/common period are not perturbation-open.
-- G332 externally supplies lawful constraint data for every positive-weight G331 metric and finite
-  connected `Lambda`; irrational weights allow dense nonclosed Ricci eigenflow. This is existence,
-  not Hopf rigidity, a full `K` census, evolution, stability, occupancy, scale, or canon.
-- G333 derives `H=-K^sharp` and `gamma(Hv,v)=(b-C)/2-b*mu`; the complete pair pullback sees this
-  spatial first jet when terminal `Phi` does not. It is not a general-pair or persistence theorem.
-- G334 carries that first jet through any finite local boost by exact Lorentz congruence. Arbitrary
-  frame transport and the boosted observer derivative still require supplied terms/spatial jets.
-- G335 conditionally preserves every nonzero response sign on a datum/germ-specific local interval;
-  a fixed compact `sup|b|<|C|` datum has a uniform all-direction interval. It gives no family-uniform
-  duration, explicit evolution, global stability, occupancy, or selection.
-- G336 gives `s1=1+(R-6)mu/2+b^2*mu^2` on the exact first-order-silent set, with every sign lawful.
-  Carry matters in the interior; the horizontal endpoint has `s1=1`. Exact double silence survives.
-- G337 shows the active equation fixes the initial third response from complete smooth fields and
-  spatial jets. Lawful twins with equal `(R,b,C,Lambda,mu)` can differ in `s2`; equal weights give
-  `s2=8*b*mu` with both roots. This is third-jet ownership, not persistence or selection.
+- G330--G337 connect a persistent metric-native Ricci eigenline to exact constraint witnesses and
+  complete-pair first, finite-boost, silent-second, and full-field third initial responses. Closed
+  Hopf fibres are not forced; arbitrary carry remains supplied; silence passes to higher jets.
+  These are conditional local classifications, not evolution, stability, occupancy, or selection.
 - G338 is externally accepted without required repair. On the exact supplied G323/G324
   Taub/Kasner spacetime and the declared commuting-translation-field carry,
   `G=rho*u^(-2/3)+(1-rho)*u^(4/3)` owns the complete shifted pair pullback with `det(h)=-G` for all
