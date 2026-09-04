@@ -1,0 +1,23 @@
+{
+  "all_passed": true,
+  "catches": {
+    "ce_called_history_selector": true,
+    "frequency_ratio_reversed": true,
+    "general_quadrature_hidden": true,
+    "metric_kernel_modified": true,
+    "null_route_promoted_to_light_field": true,
+    "physical_protocol_promoted": true,
+    "premise_independence_overclaimed": true,
+    "production_independent_circularity": true,
+    "projective_called_dimensionful_radar": true,
+    "radar_equals_slice": true,
+    "radar_midpoint_equals_reflection": true,
+    "signed_depth_called_distance_sign": true,
+    "winding_omission": true,
+    "wrong_longitudinal_power": true,
+    "wrong_transverse_power": true
+  },
+  "catches_passed": 15,
+  "catches_total": 15,
+  "landing": "METRIC_NULL_GEOMETRY_CLOSES_A_PATH_LABELLED_FINITE_NORMAL_PAIR_FAMILY__NO_PHENOMENOLOGICAL_LIGHT_MODEL_REQUIRED__SLICE_DISTANCE_NULL_EXCHANGE_RADAR_AND_PROJECTIVE_READOUT_ARE_RELATED_NOT_IDENTICAL__COMPACT_WINDINGS_REMAIN_DISTINCT_BRANCHES__NO_PHYSICAL_PROTOCOL_POPULATION_SCALE_OR_XMAX_SELECTED"
+}

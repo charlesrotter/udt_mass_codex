@@ -1,0 +1,19 @@
+object	status	boundary
+G340_metric	DERIVED_CONDITIONAL_BOUNDED	exact supplied G323/G324 Taub--Kasner spacetime
+normal_observers	SUPPLIED	fixed spatial labels and proper-clock parameter T
+same_slice_distance	DERIVED_CONDITIONAL_BOUNDED	shortest geodesic of the supplied normal slice and lattice
+general_null_Hamiltonian	DERIVED_CONDITIONAL_BOUNDED	all supplied regular momentum/path branches
+general_endpoint_inverse	OPEN_NOT_CLASSIFIED	may be branch-multiple
+principal_axis_arrival	DERIVED_CONDITIONAL_BOUNDED	exact all positive times and supplied windings
+endpoint_frequency_ratio	DERIVED_CONDITIONAL_BOUNDED	normal observers on supplied regular principal null leg
+principal_projective_readout	DERIVED_CONDITIONAL_BOUNDED	transported-planar G298 projection
+radar_protocol	CHOSE_DIAGNOSTIC_CONTROL	ideal reflection and arithmetic midpoint
+radar_timing	DERIVED_CONDITIONAL_BOUNDED	principal supplied outgoing and return lifts
+compact_windings	DERIVED_CONDITIONAL_BOUNDED	branches retained; earliest and half-period tie classified
+electromagnetic_light_model	NOT_USED	needed later for emission intensity spectrum absorption detection
+physical_distance_protocol	OPEN	no slice radar projective optical or affine selection
+physical_observer_route_population	OPEN	no population or detected-branch selection
+metric_kernel_angular_equation	UNCHANGED	no new mechanism or modification
+scale_Xmax	OPEN	no scale attachment or Xmax selection
+canon	OPEN	Charles canonizes
+external_review	EXTERNALLY_ACCEPTED_NO_REQUIRED_REPAIR	fresh sealed gpt-5.4 rederivation and replay; no findings at any severity

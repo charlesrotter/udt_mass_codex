@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-03
+## CURRENT STATE — 2026-09-04
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
@@ -89,17 +89,28 @@ Clock-null basis boundaries are not spacetime or pair-plane singularities. No ph
 finite-separated observer population, occupancy, scale, `X_max`, or canon is selected. Metric,
 kernel, angular sector, and equation are unchanged.
 
+G340 is externally accepted without required repair or finding at any severity. On the same exact
+supplied spacetime and fixed-label normal observers, the metric alone gives same-slice distance,
+the general path-labelled null Hamiltonian/quadrature, exact principal arrival and frequency laws,
+principal transported-planar projective readout, and conditional two-leg radar timing. Slice
+distance, null exchange, radar, and projective position are related but not identical. Compact
+windings remain distinct lawful branches, including a two-branch earliest-arrival tie at a
+half-period. Null timing/frequency geometry needs no phenomenological light model; emission,
+brightness, spectrum, absorption, and detection still do. Radar is a chosen diagnostic protocol.
+No physical protocol, observer/route population, occupancy, topology, scale, `X_max`, or canon is
+selected. Metric, kernel, angular sector, and equation are unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G339 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G340 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340.
 
-Authority: the exact 322-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G339 external
+Authority: the exact 323-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G340 external
 acceptance without required repair.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -124,9 +135,9 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Lift the G339 infinitesimal connecting-field result to supplied finite-separated normal-observer
-pairs on the same exact spacetime. Distinguish slice-geodesic separation, causal null/radar exchange,
-complete projective pair readout, and compact-quotient path/winding labels before asking which
-protocol or population is physical. Do not infer a universal distance protocol, carry, occupancy,
-topology, matter/mass, scale, `X_max`, stability, or canon.
+On the same exact spacetime, lift G340's principal transported-planar result to the full supplied
+nonprincipal finite directed-null relation state. Characterize endpoint-inverse branch multiplicity
+and transported screen mismatch/carry while retaining caustic and rank-change boundaries. Do not
+import a light/transfer model or infer a universal distance protocol, physical route/population,
+occupancy, topology, matter/mass, scale, `X_max`, stability, or canon.
 <!-- STARTUP_CURRENT_END -->
