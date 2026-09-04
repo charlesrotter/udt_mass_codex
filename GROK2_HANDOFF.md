@@ -3,17 +3,18 @@
 Do not edit `HANDOFF.md` on this branch. That file tracks `origin/grok`.
 Read `GROK2_LIVE.md` first on this branch.
 
-## Resume
+## Resume — 2026-09-04
 
-Unbanked dilation skeleton in `udt_session_dilation_skeleton_2026-08-14/`.
-Incorporation brief for the other workstation:
-`udt_session_dilation_skeleton_2026-08-14/GROK_KERNEL_PARALLEL.md`.
+Role: external auditor. Charles canonizes and steers `grok`. This seat
+cross-checks nativeness, stamps, remainder-shrinking vs circling, and whether
+quiet-GR / methods stay filters and tagged imports rather than scaffolding.
 
-Honest claim: \(\tanh\) lapse, rest \(z\), Liouville \(d_L\), August lock-defect
-\(\mu\), Earth–sky pair, megamaser slope \(X\sim 4\times 10^3\,\mathrm{Mpc}\)
-as a measurement. May align. Not guaranteed.
+Do not drive tiles. Do not edit `CANON.md` or `LIVE.md`. Do not merge
+`grok2` into `grok` unless asked.
 
-`grok` owns the banked uncompressed evaluator. Parallel, not a rival kernel.
+Unbanked dilation skeleton remains in
+`udt_session_dilation_skeleton_2026-08-14/` (background only).
 
-Next: stay on `grok2`. Wait for Charles. Do not pick \(k\) or \(\omega\) to
-fit BAO. Do not edit `CANON.md`. Do not merge unless asked.
+Last look this session: `grok` @ `50c3da8d`, G343. Re-pull on restart.
+
+Next: wait for Charles. If “pull and look,” follow `GROK2_STARTUP.md`.
