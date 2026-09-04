@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "catches_passed": 10,
+  "catches_total": 10,
+  "checks": {
+    "affine_normalization_error": true,
+    "curvature_sign_flip": true,
+    "determinant_absolute_mask": true,
+    "fixed_affine_tangent_error": true,
+    "lost_azimuth_normalization": true,
+    "offdiagonal_injection": true,
+    "physical_readout_promotion": true,
+    "principal_axis_chart_loss": true,
+    "quotient_path_deletion": true,
+    "screen_swap_or_erasure": true
+  },
+  "landing": "FULL_METRIC_JACOBI_MAP_CLOSES__BOTH_SCREEN_RATES_AND_MEAN_EXPANSION_POSITIVE__SHEAR_ZERO_ONLY_ON_LONGITUDINAL_SYMMETRY_LOCUS_OR_VERTEX__EACH_COMPACT_LIFT_RETAINS_POSITIVE_AREA_WITH_PATH_LABEL__NO_LUMINOSITY_DISTANCE_ROUTE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "validator_shared_by_baseline_and_mutants": true
+}

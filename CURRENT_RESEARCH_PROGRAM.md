@@ -2,7 +2,7 @@
 
 Date: 2026-09-04
 
-`LIVE.md` controls status; the 324-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 325-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -88,13 +88,18 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   have trivial screen-quotient rotation but nonzero full G269 mismatch, including the unique
   zero-shift mixed direction. This is not a generic cone/stability theorem or light/brightness
   model and selects no physical route/population, occupancy, scale, or `X_max`.
+- G342 is externally accepted without finding. Fixed-affine source-sky variation and an independent
+  metric/Riemann/RK route give the exact two-screen Jacobi map on the G341 cone. Widths, rates,
+  area, and mean expansion stay positive; expansion decreases; shear vanishes only longitudinally
+  or at the vertex. Compact lifts keep separate positive maps. This is geometric beam response,
+  not luminosity, distance, route selection, stability, or a generic theorem.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
-many legal data/developments, G332 constraint embedding, G333--G337's bounded first/second/third
-response, G338's one exact finite-time pair evaluation, G339's exact carry typing, G340's
-finite-separated normal-pair causal geometry, and G341's complete nonprincipal cone/carry tile. It
+many legal data/developments, G332 constraint embedding, G333--G337's response jets, G338's exact
+finite-time pair evaluation, G339's carry typing, G340's finite-pair causal geometry, G341's full
+cone/carry tile, and G342's two-screen Jacobi map. It
 does not own populated germs, a physical
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
 history. G332 closes the specific G331 constraint-existence question; G333/G334 close one
@@ -106,8 +111,8 @@ the five-number pointwise tuple does not. G338 supplies one explicit finite-time
 complete pair response under one declared carry. G339 classifies how that response changes under
 an exact diagnostic carry family and shows how typed pair-plus-carry data retain the normal metric
 deformation. G340 closes the principal finite-separated timing/frequency tile; G341 closes the
-nonprincipal per-lift inverse, cone rank, and screen-carry tile on this exact spacetime. The full
-two-dimensional Jacobi/beam-area response remains open. Generic G332 finite-time
+nonprincipal per-lift inverse, cone rank, and screen-carry tile on this exact spacetime. G342 closes
+the source-normalized two-dimensional Jacobi/beam-area response on that exact cone. Generic G332 finite-time
 development, the complete third-zero locus, and global persistence also remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
@@ -117,8 +122,9 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-On the same exact spacetime and G341 cone, derive the full two-dimensional metric Jacobi/beam-area
-map for every supplied direction and classify expansion, shear, principal limits, and compact path
-labels. Do not import luminosity or a light/transfer model or infer a universal physical distance
-protocol, germ population, global persistence, topology selection, stability, occupancy,
-matter/mass, observations, scale, `X_max`, or canon.
+On the same exact spacetime and G341/G342 cone, derive the full bilocal four-by-four screen
+phase-space Jacobi propagator between arbitrary positive-time points. Test exact composition,
+Wronskian/symplectic structure, endpoint reversal/reciprocity, principal limits, and compact path
+labels directly from the metric. Do not import luminosity or a light/transfer model or infer a
+universal physical distance protocol, germ population, global persistence, topology selection,
+stability, occupancy, matter/mass, observations, scale, `X_max`, or canon.

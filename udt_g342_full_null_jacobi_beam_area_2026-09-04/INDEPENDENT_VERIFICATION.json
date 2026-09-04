@@ -1,0 +1,11 @@
+{
+  "assertions": 2080,
+  "failed": [],
+  "landing": "INDEPENDENT_DIRECT_METRIC_CURVATURE_AND_RK_JACOBI_VERIFICATION",
+  "maxima": {
+    "curvature_error": 8.139322549283179e-15,
+    "rk_map_relative_error": 4.0420728509142683e-11
+  },
+  "method": "generic coordinate metric two-jet curvature plus independent Simpson/RK4",
+  "status": "PASS"
+}

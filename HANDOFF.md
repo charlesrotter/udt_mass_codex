@@ -47,8 +47,12 @@ screen-quotient rotation but nonzero full G269 mismatch—even at the unique zer
 This is not a generic cone/stability or light/brightness result and selects no physical route,
 population, protocol, occupancy, scale, or `X_max`.
 
+G342 is externally accepted without finding. Its exact source-normalized two-screen Jacobi map has
+positive widths, rates, and area; expansion decreases but stays positive; shear vanishes only
+longitudinally or at the vertex. This is not luminosity, distance, route selection, or stability.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G341 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G342 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -56,13 +60,13 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342.
 
 W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv` (324 rows through G341). Archives:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` (325 rows through G342). Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -76,9 +80,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: derive the full two-dimensional metric Jacobi/beam-area map on the exact G341 future cone,
-including expansion, shear, principal limits, and compact path labels. Keep it geometric: no
-luminosity/transfer import or physical route/population, distance, occupancy, scale, `X_max`,
-stability, or canon selection.
+Next: derive the full bilocal four-by-four screen phase-space Jacobi propagator between arbitrary
+positive-time points on the exact G341/G342 cone, including composition, Wronskian/symplectic
+structure, endpoint reversal/reciprocity, principal limits, and compact path labels. Keep it
+geometric: no luminosity/transfer import or physical route/population, distance, occupancy, scale,
+`X_max`, stability, or canon selection.
 
 <!-- STARTUP_CURRENT_END -->

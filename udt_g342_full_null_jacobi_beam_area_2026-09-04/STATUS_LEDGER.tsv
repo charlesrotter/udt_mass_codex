@@ -1,0 +1,15 @@
+item	status	qualification
+G342_full_Jacobi_map	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	fresh sealed review found no defect at any severity
+two_screen_eigenresponses	DERIVED_CONDITIONAL_BOUNDED	positive on every supplied regular future leg
+oriented_Jacobi_area	DERIVED_CONDITIONAL_BOUNDED	positive in matched parallel screen; absolute value endpoint-O2 invariant
+mean_expansion	DERIVED_CONDITIONAL_BOUNDED	positive and decreasing at every finite regular point
+mixed_shear	DERIVED_CONDITIONAL_BOUNDED	positive gap on every nonlongitudinal direction
+longitudinal_shear	DERIVED_CONDITIONAL_BOUNDED	zero by symmetry
+screen_offdiagonal	DERIVED_CONDITIONAL_BOUNDED	zero by axial reflection on this spacetime only
+compact_lattice_response	DERIVED_CONDITIONAL_BOUNDED	positive per lift; all path labels retained
+metric_kernel_angular_equation	UNCHANGED	no new dynamics or readout constitution
+light_luminosity_distance_attachment	NOT_USED	geometric map only
+physical_route_population	OPEN	no lift selected weighted or summed
+generic_spacetime_stability	OPEN	one exact spacetime and one cone only
+scale_Xmax	OPEN	no attachment or selection
+external_review	EXTERNALLY_ACCEPTED_NO_REQUIRED_REPAIR	independent sealed rederivation and replay; no finding at any severity

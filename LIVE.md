@@ -40,49 +40,20 @@ Hopf fibres; arbitrary frame carry remains supplied; exact silence passes to hig
 conditional local classifications, not finite-time/global stability, occupancy/history selection,
 matter/mass, scale, `X_max`, or canon. Metric, kernel, angular sector, and equation are unchanged.
 
-G338 is externally accepted without required repair. On the exact supplied G323/G324 Taub/Kasner
-spacetime and only under a declared commuting-translation-field pair carry, the unchanged G176/W1
-kernel gives `G=rho*u^(-2/3)+(1-rho)*u^(4/3)`, the full shifted pair pullback has `det(h)=-G`, and
-the complete regular interval is classified for every direction and finite initial boost. At zero
-boost terminal `Phi` remains blind while ruler density `m=sqrt(G)` evolves. The unique initially
-first-order-silent direction `rho=2/3` turns on exactly on both finite-time sides. Pair-germ
-nullness is not an ambient singularity. This is one bounded explicit dynamic evaluation, not a
-universal carry, stability, occupancy/history, topology, scale, `X_max`, or canon theorem. Metric,
-kernel, angular sector, and equation are unchanged.
-
-G339 is externally accepted without required repair. On that same supplied spacetime and geodesic
-normal congruence, the exact transport identity separates metric deformation from pair carry.
-G338's Lie/commuting field is the infinitesimal connecting field between fixed-label normal
-observers; a parallel or Fermi-carried local ruler answers a different question and remains unit.
-The full diagnostic Lie-to-parallel family, rotating orthonormal carries, and three principal-axis
-accelerated Fermi controls preserve this distinction. Raw pair components and W1 readouts depend on
-declared carry, while typed pair-plus-carry data recover the same normal deformation tensor.
-Clock-null basis boundaries are not spacetime or pair-plane singularities. No physical carry,
-finite-separated observer population, occupancy, scale, `X_max`, or canon is selected. Metric,
-kernel, angular sector, and equation are unchanged.
-
-G340 is externally accepted without required repair or finding at any severity. On the same exact
-supplied spacetime and fixed-label normal observers, the metric alone gives same-slice distance,
-the general path-labelled null Hamiltonian/quadrature, exact principal arrival and frequency laws,
-principal transported-planar projective readout, and conditional two-leg radar timing. Slice
-distance, null exchange, radar, and projective position are related but not identical. Compact
-windings remain distinct lawful branches, including a two-branch earliest-arrival tie at a
-half-period. Null timing/frequency geometry needs no phenomenological light model; emission,
-brightness, spectrum, absorption, and detection still do. Radar is a chosen diagnostic protocol.
-No physical protocol, observer/route population, occupancy, topology, scale, `X_max`, or canon is
-selected. Metric, kernel, angular sector, and equation are unchanged.
-
-G341 is externally accepted without required repair or finding at any severity. On that exact
-spacetime, every nonzero universal-cover spatial lift from a fixed emission event has one future
-null leg; the complete future cone has no positive-time interior conjugate caustic, including both
-principal limits in regular charts. Compact multiplicity is path-labelled. Mixed rays have zero
-null-screen-quotient rotation but nonzero G269 clock/screen mismatch, including the unique
-zero-frequency-shift mixed direction, so the full relation remains active. This is one exact cone,
-not a generic/stability theorem or light/brightness model. No physical route/population, protocol,
-occupancy, scale, `X_max`, or canon is selected; metric/kernel/angular/equation are unchanged.
+G338--G342 are externally accepted bounded evaluations on one supplied G323/G324 Taub/Kasner
+spacetime. G338 gives the finite-time complete-pair response under declared commuting carry; G339
+separates fixed-label observer separation from parallel/Fermi ruler carry. G340 distinguishes
+same-slice length, path-labelled null exchange, chosen radar, and projective clock contrast. G341
+closes the full per-lift future-null inverse and cone rank: compact alternatives keep path labels,
+and zero screen-quotient rotation does not erase mixed G269 carry. G342 derives the complete
+source-normalized two-screen Jacobi map: both widths, rates, and oriented area stay positive;
+expansion decreases but remains positive; shear vanishes only longitudinally or at the vertex.
+Null timing and geometric beam response require no phenomenological light model, but emission,
+brightness, transfer, detection, route/population, generic stability, occupancy/history, topology,
+scale, `X_max`, and canon remain open. Metric, kernel, angular sector, and equation are unchanged.
 
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G341 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G342 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -90,9 +61,9 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342.
 
-Authority: the exact 324-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G341 external
+Authority: the exact 325-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G342 external
 acceptance without required repair.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -117,9 +88,10 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-On the same exact spacetime and G341 cone, derive the full two-dimensional metric Jacobi/beam-area
-map for every supplied direction and classify its expansion, shear, principal limits, and compact
-path labels. This is geometric screen response, not luminosity or an electromagnetic transfer
-model. Do not infer physical route/population, distance protocol, occupancy, topology, matter/mass,
-observations, scale, `X_max`, stability, or canon.
+On the same exact spacetime and G341/G342 cone, derive the full bilocal four-by-four screen
+phase-space Jacobi propagator between arbitrary positive-time points. Test exact composition,
+Wronskian/symplectic structure, endpoint reversal/reciprocity, both principal limits, and per-lift
+path labels directly from the metric. This remains geometric screen transport, not luminosity or
+an electromagnetic transfer model. Do not infer physical route/population, distance protocol,
+occupancy, topology, matter/mass, observations, scale, `X_max`, stability, or canon.
 <!-- STARTUP_CURRENT_END -->
