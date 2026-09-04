@@ -2,7 +2,7 @@
 
 Date: 2026-09-03
 
-`LIVE.md` controls status; the 320-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 321-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -60,61 +60,43 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 - G330 extracts a simple metric-native Ricci eigenline on supplied nonround Berger-`S3` and gives
   conditional local carry while its gap remains open. G331 extends line persistence to a full
   uniform-`C2` neighborhood but proves closed Hopf fibres/common period are not perturbation-open.
-- G332 is externally accepted after preregistered evidence repairs. For every complete
-  positive-weight G331 weighted-contact metric, fixed finite connected `Lambda`, and sufficiently
-  large auxiliary `|C|`, an explicit smooth symmetric extrinsic-curvature witness solves both
-  active provisional vacuum initial constraints. Irrational unequal weights therefore yield lawful
-  initial data with generic nonclosed dense Ricci eigenflow. Initial constraints do not force Hopf
-  rigidity. This is existence, not a full `K` census, evolution, stability, occupancy, matter/mass,
-  scale, `X_max`, or canon.
-- G333 is externally accepted after preregistered evidence repairs. Every strict G332 datum has
-  `H=-K^sharp` and all-direction rate `gamma(Hv,v)=(b-C)/2-b*mu`. The complete declared
-  normal--spatial pair pullback records this curvature-linked spatial first jet even when its
-  terminal scalar does not. No Hopf/topology input is used. This is first jet only and does not
-  establish general-pair response, evolution, persistence, stability, or occupancy.
-- G334 is externally accepted after preregistered evidence repairs. Every finite local boost gives
-  an exact Lorentz congruence of the inherited G333 first normal pair jet. The full matrix retains
-  `q`; terminal `n(Phi)=q*sinh(z)^2` is blind at zero boost. Arbitrary supplied frame transport adds
-  independent first-jet terms, and promotion to the boosted-observer derivative requires the
-  unsupplied spatial jet. This closes the bounded finite-boost distribution question, not
-  observer-time evolution, finite-time persistence, physical-germ population, or occupancy.
-- G335 is externally accepted without scientific repairs. Conditional smooth local marked
-  evolution makes every nonzero G333 directional response persist with the same sign on some
-  datum/germ-specific local normal-time interval. Exact first-order silent directions remain open
-  to the higher jet. A fixed compact datum with `sup|b|<|C|` has one uniform all-direction local
-  interval, but no interval uniform over the full G332 family follows. Raw components remain
-  transport-qualified and observer time still requires the spatial jet. This is qualitative local
-  continuation, not an explicit duration, finite-time solve, global stability, or selection.
-- G336 is externally accepted after preregistered scope and wording repairs. On G335's complete
-  exact silent set, the inherited second normal jet is
-  `s1=Lambda-Ric3(v,v)+2K^2(v,v)=1+(R-6)mu/2+b^2*mu^2`. Its lawful sign is indefinite. Interior
-  classification depends on supplied direction carry; the strict horizontal endpoint has `s1=1`
-  and no first-carry correction, while vertical `mu=1` is only the branch-meeting boundary. Exact
-  double silence survives and requires the third jet. Finite boosts preserve the full-matrix
-  response while terminal `Phi` is zero-boost blind. This is initial second jet only, not explicit
-  finite-time evolution, stability, occupancy, or selection.
-- G337 is externally accepted after R1. Its sealed replay passed without Git and every registered
-  output was byte-identical. On inherited double silence,
-  the active equation fixes the initial third normal response from complete smooth `(gamma,K)` and
-  their spatial jets. Two exact invariantly distinct lawful germs share
-  `(R,b,C,Lambda,mu)` but have different `s2`, so the pointwise tuple is not a complete state.
-  Equal weights give `s2=8*b*mu` and retain both strict roots. Fixed finite boosts retain the
-  full-matrix response while terminal `Phi` is zero-boost blind. This is initial third-jet
-  ownership, not explicit development, persistence, stability, occupancy, or selection.
+- G332 externally supplies lawful constraint data for every positive-weight G331 metric and finite
+  connected `Lambda`; irrational weights allow dense nonclosed Ricci eigenflow. This is existence,
+  not Hopf rigidity, a full `K` census, evolution, stability, occupancy, scale, or canon.
+- G333 derives `H=-K^sharp` and `gamma(Hv,v)=(b-C)/2-b*mu`; the complete pair pullback sees this
+  spatial first jet when terminal `Phi` does not. It is not a general-pair or persistence theorem.
+- G334 carries that first jet through any finite local boost by exact Lorentz congruence. Arbitrary
+  frame transport and the boosted observer derivative still require supplied terms/spatial jets.
+- G335 conditionally preserves every nonzero response sign on a datum/germ-specific local interval;
+  a fixed compact `sup|b|<|C|` datum has a uniform all-direction interval. It gives no family-uniform
+  duration, explicit evolution, global stability, occupancy, or selection.
+- G336 gives `s1=1+(R-6)mu/2+b^2*mu^2` on the exact first-order-silent set, with every sign lawful.
+  Carry matters in the interior; the horizontal endpoint has `s1=1`. Exact double silence survives.
+- G337 shows the active equation fixes the initial third response from complete smooth fields and
+  spatial jets. Lawful twins with equal `(R,b,C,Lambda,mu)` can differ in `s2`; equal weights give
+  `s2=8*b*mu` with both roots. This is third-jet ownership, not persistence or selection.
+- G338 is externally accepted without required repair. On the exact supplied G323/G324
+  Taub/Kasner spacetime and the declared commuting-translation-field carry,
+  `G=rho*u^(-2/3)+(1-rho)*u^(4/3)` owns the complete shifted pair pullback with `det(h)=-G` for all
+  directions, all finite initial boosts, and the full regular interval. At zero boost terminal
+  `Phi` is blind while `m=sqrt(G)` evolves. The unique first-order-silent direction `rho=2/3`
+  turns on exactly on both finite-time sides. This is an explicit bounded development/evaluation,
+  not a universal carry, stability, occupancy/history, topology, scale, or `X_max` theorem.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
-many legal data/developments, G332 constraint embedding, and G333--G337's bounded first/second/third
-response, finite-boost distribution, and nonzero local sign persistence. It does not own populated germs,
+many legal data/developments, G332 constraint embedding, G333--G337's bounded first/second/third
+response, and G338's one exact finite-time pair evaluation. It does not own populated germs,
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
 history. G332 closes the specific G331 constraint-existence question; G333/G334 close one
 normal-jet response and its finite-boost congruence, with arbitrary transport still supplied.
 G335 closes qualitative local persistence for nonzero initial response on conditional smooth
 marked developments. G336 classifies the exact first-order-silent set at second normal order.
 G337 shows that complete initial fields own the inherited third response on double silence while
-the five-number pointwise tuple does not. Arbitrary higher carry, the complete third-zero locus,
-explicit finite-time development, and global persistence remain open. The
+the five-number pointwise tuple does not. G338 supplies one explicit finite-time development and
+complete pair response under one declared carry. Arbitrary metric-compatible carry, generic G332
+finite-time development, the complete third-zero locus, and global persistence remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
 R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and no preferred scale
@@ -123,8 +105,8 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Map the bounded choice between classifying arbitrary higher pair-germ carry and constructing an
-explicit short-time development of a declared lawful datum. Do not automatically extend the local
-derivative ladder; first establish which branch materially advances the UDT question. Do not infer physical-
-germ population, global persistence, topology selection, stability, occupancy, matter/mass,
-scale, `X_max`, or canon.
+On the same exact G338 spacetime, classify how the completed-pair response depends on alternative
+supplied metric-compatible carries. Separate commuting/Lie, parallel, Fermi, and accelerated
+observer carry before testing whether any invariant quotient survives. Do not infer a universal
+physical carry, germ population, global persistence, topology selection, stability, occupancy,
+matter/mass, scale, `X_max`, or canon.

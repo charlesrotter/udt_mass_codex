@@ -16,7 +16,7 @@
 | W6 non-signalling co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Membership with metric-causal response | Population/history |
 | Universal Reciprocity / Differential Dual Reciprocity (DDR) | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension; canon |
 | Quiet-GR response; Local Metric Sufficiency | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` G312 | Bounded local response constitution | Matter/history |
-| G313--G337 | mixed conditional/external grades | Solution/data/development/mode/Hopf/constraint/response tiles | Explicit development; higher carry; global persistence; physical germ population; selector; scale |
+| G313--G338 | mixed conditional/external grades | Solution/data/development/mode/Hopf/constraint/response tiles | Generic development; arbitrary carry; global persistence; physical germ population; selector; scale |
 
 Pair `c_eff` is a `CONDITIONAL` ratio, not automatically signal speed. `X_max` is a
 working asymptotic global-completion consequence target, never a local input, wall, center, or scale.
@@ -29,7 +29,7 @@ G129--G165/G166--G175/G176--G180/G181--G184/G185--G189/G190--G198/G199/G200/G201
 G215/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248;
 G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278;
 G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338.
 
 | Result | Bounded status | Maximum conclusion |
 |---|---|---|
@@ -53,6 +53,7 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 | G335 | external/no repairs | Nonzero first response persists locally; exact silent set passes to higher jet |
 | G336 | external/repairs | Exact silent-set second jet has every sign; interior carry dependence; lawful double silence |
 | G337 | external/repair accepted | Complete initial fields own inherited double-silent third jet; pointwise tuple does not |
+| G338 | external/no required repair | Exact finite-time completed-pair response on supplied Taub/Kasner spacetime under declared commuting carry |
 
 G332's exact witness is
 `K=((C-b)/2)gamma+b xi_flat tensor xi_flat`, with
@@ -96,6 +97,14 @@ explicit positive-time development or stability theorem. Fresh review retained t
 the preregistered sealed source-layout repair passed repair-only external follow-up without Git and
 with all registered outputs byte-identical.
 
+G338 then leaves the derivative ladder and evaluates one already-lawful exact spacetime through
+finite time. Under a declared commuting-translation-field carry,
+`G=rho*u^(-2/3)+(1-rho)*u^(4/3)` gives the full shifted completed-pair matrix with `det(h)=-G`.
+Zero-boost terminal `Phi` is blind while ruler density evolves, and the unique initially silent
+direction `rho=2/3` turns on exactly away from the reference slice. This closes one bounded
+finite-time evaluation, not generic G332 evolution, arbitrary or physical carry, stability,
+occupancy/history, topology, scale, or `X_max`.
+
 ## Scale and geometric limits
 
 | Object | Status | Guard |
@@ -107,12 +116,13 @@ with all registered outputs byte-identical.
 | `X_max` | `WORKING/OPEN` | Global completion only |
 
 Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at the positive conformal class.
-Angular cancellation owns loud--quiet--loud. G330--G337 add a metric-native line,
+Angular cancellation owns loud--quiet--loud. G330--G338 add a metric-native line,
 its non-fibration neighborhood, exact initial-constraint embedding, and one first-jet pair
 response, its finite-boost congruence, qualitative local sign persistence away from the exact
 silent set, the exact silent-set second jet, and complete-field ownership of the inherited third
-jet on double silence. Arbitrary higher carry, the complete third-zero locus, explicit finite-time
-development, global persistence, and physical germ population remain open.
+jet on double silence, and one explicit finite-time pair evaluation. Arbitrary metric-compatible
+carry, generic finite-time development, the complete third-zero locus, global persistence, and
+physical germ population remain open.
 
 ## Carrier, action, source, observations
 
@@ -123,8 +133,8 @@ development, global persistence, and physical germ population remain open.
 | EH action | `CONDITIONAL_NOT_SELECTED` | GR familiarity is not derivation |
 | Native source/action/mass | `OPEN` | No physics claim |
 
-R2--R5/G312--G337 select no scale, occupancy, universe, matter law, or SNe prediction.
+R2--R5/G312--G338 select no scale, occupancy, universe, matter law, or SNe prediction.
 
 ## Registry
 
-`CURRENT_SCIENTIFIC_PREMISES.tsv`: 320 rows through G337; verify before querying.
+`CURRENT_SCIENTIFIC_PREMISES.tsv`: 321 rows through G338; verify before querying.

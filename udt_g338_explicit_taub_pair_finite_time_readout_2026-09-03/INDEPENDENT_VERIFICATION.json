@@ -1,0 +1,30 @@
+{
+  "all_passed": true,
+  "checks": {
+    "direct_pullback_random_sweep": true,
+    "independent_w1_random_sweep": true,
+    "longitudinal_closed_boundary": true,
+    "mixed_two_boundaries_0": true,
+    "mixed_two_boundaries_1": true,
+    "mixed_two_boundaries_2": true,
+    "mixed_two_boundaries_3": true,
+    "pair_boundary_has_finite_ambient_curvature": true,
+    "random_regular_cases_nonempty": true,
+    "silent_exact_finite_time_turn_on": true,
+    "silent_first_derivative_numerically_zero": true,
+    "silent_second_derivative_matches_four_ninths": true,
+    "source_ricci_reconstruction": true,
+    "transverse_closed_boundary": true,
+    "zero_boost_full_pair_not_blind": true,
+    "zero_boost_terminal_blind": true
+  },
+  "checks_passed": 16,
+  "checks_total": 16,
+  "landing": "EXPLICIT_LAWFUL_TAUB_DEVELOPMENT_CARRIES_NATIVE_COMPLETED_PAIR_RESPONSE_FOR_FINITE_TIME__ZERO_BOOST_TERMINAL_BLINDNESS_COEXISTS_WITH_NONTRIVIAL_RULER_DENSITY__INITIAL_SILENCE_CAN_TURN_ON_EXACTLY__NO_OCCUPANCY_OR_SCALE_SELECTION",
+  "max_relative_determinant_error": 1.0451522687531487e-11,
+  "max_w1_error": 1.7053025658242404e-13,
+  "method": "independent direct-basis numerical reconstruction; no production import or result read",
+  "random_cases": 500,
+  "regular_cases": 219,
+  "seed": 338
+}

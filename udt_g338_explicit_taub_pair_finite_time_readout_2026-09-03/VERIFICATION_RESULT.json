@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "checks": {
+    "AUDIT_REPORT.md_has_bounded_conclusion": true,
+    "EXACT_DERIVATION.md_has_bounded_conclusion": true,
+    "LAY_REPORT.md_has_bounded_conclusion": true,
+    "aggregate_replay_changes_no_bytes": true,
+    "frozen_source_hashes": true,
+    "hostile_9_of_9": true,
+    "independent_16_of_16": true,
+    "landing_agreement": true,
+    "no_write_replay_derive_explicit_taub_pair_readout.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_explicit_taub_pair_readout_independent.py": true,
+    "production_169_of_169": true
+  },
+  "checks_passed": 12,
+  "checks_total": 12,
+  "landing": "EXPLICIT_LAWFUL_TAUB_DEVELOPMENT_CARRIES_NATIVE_COMPLETED_PAIR_RESPONSE_FOR_FINITE_TIME__ZERO_BOOST_TERMINAL_BLINDNESS_COEXISTS_WITH_NONTRIVIAL_RULER_DENSITY__INITIAL_SILENCE_CAN_TURN_ON_EXACTLY__NO_OCCUPANCY_OR_SCALE_SELECTION"
+}

@@ -1,7 +1,7 @@
 # INDEX — `LIVE.md` wins.
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`. 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 320-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 321-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
@@ -66,7 +66,7 @@
 - Pair-first plane/reachability: `udt_pair_first_relational_plane_reconstruction_2026-08-12/`; `udt_pair_terminal_reachability_atlas_2026-08-12/`
 - Chord/screen prerequisites: `udt_pair_chord_network_descent_audit_2026-08-12/`; `udt_g119_finite_radius_timelive_spherical_screen_theorem_2026-08-16/`
 - Operational frequency junction: `udt_g116_calibrated_frequency_terminal_pair_junction_2026-08-16/`;
-  chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`.
+  chronology: `archive/startup_surface_2026-08-17_pre_zoomout/INDEX.md`; pre-G197: `archive/startup_surface_2026-08-21_pre_g197/`; G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
 ## Observational lane
 - Held-out BOSS query typing: `udt_g238_bao_heldout_query_typing_2026-08-23/`
 - Frozen joint dual-SNe state: `udt_g237_dual_sne_joint_relational_state_freeze_2026-08-23/`
@@ -108,11 +108,11 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`; status/program/p
   G331/G332: `udt_g331_nonsymmetric_ricci_eigenline_fibration_perturbation_2026-09-03/`; `udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/`.
   G333/G334: `udt_g333_metric_native_initial_pair_response_2026-09-03/`; `udt_g334_boosted_pair_first_jet_response_2026-09-03/`.
   G335/G336/G337: `udt_g335_local_pair_response_persistence_2026-09-03/`; `udt_g336_silent_direction_second_normal_response_2026-09-03/`; `udt_g337_double_silent_third_normal_ownership_2026-09-03/`.
+  G338 finite-time pair readout: `udt_g338_explicit_taub_pair_finite_time_readout_2026-09-03/`.
 - Controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
 - Historical negative controls — never kernel inputs: `udt_g164_scaffold_subtraction_anchor_sufficiency_whiteboard_2026-08-18/`; quarantine: `archive/scaffolded_kernel_controls_2026-08-19/README.md`.
 - Matter/stability: begin with `udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv`; for topology use `native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md` and its ledger.
 ## Protected local paths — see `LIVE.md` and `AGENTS.md`; do not stage, modify, mine, or cite protected curvature-atlas work, the stopped native-on-shell draft, or local unbanked packages without authority.
-Snapshots: `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`, `archive/startup_surface_2026-08-26_pre_g270/`, `archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-17_pre_zoomout/`, `archive/startup_surface_2026-08-14/`; G218: `archive/startup_surface_2026-08-22_pre_cleanup/`.
+Snapshots: `archive/startup_surface_2026-08-26_pre_g270/`; `archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.

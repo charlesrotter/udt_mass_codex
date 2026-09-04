@@ -1,0 +1,16 @@
+{
+  "all_passed": true,
+  "catches": {
+    "common_time_rescaling_is_invisible": true,
+    "no_regular_interval_claim_rejected": true,
+    "normalization_erases_all_change_rejected": true,
+    "omitted_ruler_calibration_fails_unit_determinant": true,
+    "omitted_shift_breaks_raw_determinant": true,
+    "pair_boundary_not_ambient_singularity": true,
+    "physical_occupancy_not_in_inputs": true,
+    "terminal_scalar_faithfulness_claim_rejected": true,
+    "wrong_longitudinal_exponent_breaks_silence": true
+  },
+  "catches_passed": 9,
+  "catches_total": 9
+}

@@ -68,18 +68,28 @@ Finite boosts retain the full-matrix response while terminal `Phi` is zero-boost
 initial third-jet ownership result, not explicit evolution, stability, occupancy/history selection,
 matter/mass, scale, `X_max`, or canon. Metric, kernel, angular sector, and equation are unchanged.
 
+G338 is externally accepted without required repair. On the exact supplied G323/G324 Taub/Kasner
+spacetime and only under a declared commuting-translation-field pair carry, the unchanged G176/W1
+kernel gives `G=rho*u^(-2/3)+(1-rho)*u^(4/3)`, the full shifted pair pullback has `det(h)=-G`, and
+the complete regular interval is classified for every direction and finite initial boost. At zero
+boost terminal `Phi` remains blind while ruler density `m=sqrt(G)` evolves. The unique initially
+first-order-silent direction `rho=2/3` turns on exactly on both finite-time sides. Pair-germ
+nullness is not an ambient singularity. This is one bounded explicit dynamic evaluation, not a
+universal carry, stability, occupancy/history, topology, scale, `X_max`, or canon theorem. Metric,
+kernel, angular sector, and equation are unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G337 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G338 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
 G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337.
+G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338.
 
-Authority: the exact 320-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G337 external
-acceptance after preregistered R1 repair.
+Authority: the exact 321-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G338 external
+acceptance without required repair.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -103,9 +113,8 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Map the next bounded choice between arbitrary higher pair-germ carry and an explicit short-time
-development of a declared lawful datum. Do not automatically continue a fourth-jet ladder; first
-ask which branch materially advances the UDT question. Do not select occupancy, topology,
-matter/mass, scale, `X_max`, or canon, and do not claim finite-time/global stability from an initial
-jet.
+Classify how G338's exact finite-time completed-pair response changes under alternative supplied
+metric-compatible pair carries on the same spacetime. Separate commuting/Lie, parallel, Fermi, and
+accelerated observer carry before asking whether any is physically selected. Do not infer a
+universal carry, occupancy, topology, matter/mass, scale, `X_max`, stability, or canon.
 <!-- STARTUP_CURRENT_END -->
