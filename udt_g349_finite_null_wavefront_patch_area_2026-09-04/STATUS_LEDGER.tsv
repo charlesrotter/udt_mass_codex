@@ -1,10 +1,13 @@
 item	status	note
-G349_preregistration	READY_UNBANKED	outcomes unseen; commit and push before execution
-production	NOT_RUN	frozen command in COMMANDS.md
-independent_verification	NOT_RUN	implementation-distinct quadrature and multiplicity route required
-hostile_mutations	NOT_RUN	minimum mutation list frozen
-external_review	NOT_REQUESTED	fresh sealed adversarial review required before result banking
-finite_patch_area_theorem	OPEN	primary alternatives A through D frozen
-union_vs_multiplicity	OPEN	must not identify local Jacobian integral with union area without global multiplicity
+G349_preregistration	PASS	outcome-unseen commit 84cb5264 pushed before execution
+production	PASS_REPAIRED	44321/44321; includes mixed screen-rank-one ordinary-rank-two null witness
+independent_verification	PASS_LOCAL_REPAIRED	14321/14321 by implementation-distinct route including separate mixed witness
+hostile_mutations	PASS_AFTER_RECORDED_REPAIRS	first 20/21 wording-hook failure; 21/21 after 134ecd4a; external-rank repair now 22/22
+external_review	ACCEPT_WITH_CAVEATS_REPAIR_REQUIRED	exact report retained; ordinary rank versus screen rank repair frozen at c2967132
+aggregate_replay	PASS_REPAIRED	21/21; nested 44321/44321, 14321/14321, 22/22; byte-stable
+repository_regression	PASS	221 passed, one registered xfail, zero failures
+premise_audit	PASS	331 current rows and 754 historical dispositions
+finite_patch_area_theorem	DERIVED_CONDITIONAL_REPAIR_PENDING_FOLLOWUP	alternative A survives with positive area classified by transverse screen rank
+union_vs_multiplicity	DERIVED_CONDITIONAL_REPAIR_PENDING_FOLLOWUP	spacelike multiplicity-weighted sheet area differs from geometric union in overlaps
 light_distance_population_scale_Xmax	OPEN_NOT_DERIVED	outside maximum conclusion
 canon	OPEN	Charles alone canonizes

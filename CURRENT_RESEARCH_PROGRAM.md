@@ -119,7 +119,7 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 Starting from G348, test whether its infinitesimal null-screen Jacobian integrates into a
 coordinate-free finite geometric null-exponential/wavefront patch map on a supplied small celestial
 patch of an arbitrary smooth metric. Retain folds, caustics, overlapping sheets, path labels, and
-multiplicity; distinguish multiplicity-weighted absolute-Jacobian area from physical image-union
+multiplicity; distinguish multiplicity-weighted absolute-Jacobian area from geometric endpoint image-union
 area. Keep the metric, geodesic, source observer, patch, affine cut, and paths supplied. Do not import
 light/emission/brightness/flux/luminosity/probability/detection, observational-distance selection,
 or infer a preferred observer, route/protocol/population, global history, topology selection,

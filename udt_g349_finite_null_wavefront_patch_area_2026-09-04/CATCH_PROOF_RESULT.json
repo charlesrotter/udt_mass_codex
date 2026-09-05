@@ -1,0 +1,31 @@
+{
+  "caught": 22,
+  "external_repair_preregistration_commit": "c2967132",
+  "failed": [],
+  "mutations": {
+    "add_transverse_cut_gradient": true,
+    "call_caustic_singular_spacetime": true,
+    "call_every_rank_one_a_fold": true,
+    "confuse_rank_zero_absolute_and_union": true,
+    "count_only_one_fold_sheet": true,
+    "delete_rank_one": true,
+    "delete_rank_zero": true,
+    "demand_strict_injectivity_for_equality": true,
+    "equate_ordinary_rank_two_with_positive_metric_area": true,
+    "hide_physics_pins": true,
+    "identify_fold_sheet_and_union": true,
+    "insert_target_observer_factor": true,
+    "make_signed_area_positive": true,
+    "omit_preimage_multiplicity": true,
+    "promote_to_canon": true,
+    "promote_to_distance_population_history_scale_Xmax": true,
+    "promote_to_light_transfer": true,
+    "retain_auxiliary_metric_physically": true,
+    "select_or_weight_path_labels": true,
+    "turn_isolated_crossing_into_positive_area_overlap": true,
+    "use_signed_for_sheet_area": true,
+    "wrong_observer_power": true
+  },
+  "status": "PASS",
+  "total": 22
+}

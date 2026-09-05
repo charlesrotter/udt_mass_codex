@@ -59,6 +59,22 @@ def lorentz_dot(a, b):
     return -a[0] * b[0] + sum(a[i] * b[i] for i in range(1, 4))
 
 
+def auxiliary_dot(a, b):
+    weights = (2.0, 3.0, 5.0, 7.0)
+    return sum(weights[i] * a[i] * b[i] for i in range(4))
+
+
+def gram_det(v, w, dot):
+    return dot(v, v) * dot(w, w) - dot(v, w) ** 2
+
+
+def independent(v, w):
+    return any(
+        abs(v[i] * w[j] - v[j] * w[i]) > 1e-14
+        for i in range(4) for j in range(i + 1, 4)
+    )
+
+
 def random_invertible():
     while True:
         a = [[RNG.uniform(-2.0, 2.0), RNG.uniform(-2.0, 2.0)],
@@ -115,6 +131,30 @@ def variable_cut_checks():
         jac = math.sqrt(max(0.0, (hxx * hyy - hxy * hxy) /
                             (sxx * syy - sxy * sxy)))
         check("cut_gradient_cancellation", jac, tau * tau, 5e-10)
+
+
+def mixed_caustic_cut_rank_checks():
+    # At a transverse rank-one caustic, a nonconstant cut can restore ordinary
+    # rank two only by adding the null generator. The resulting plane is null,
+    # not spacelike, and therefore carries zero Lorentzian two-area.
+    k = (1.0, 0.0, 0.0, 1.0)
+    jacobi_kernel = (0.0, 0.0, 0.0, 0.0)
+    jacobi_regular = (0.0, 0.0, 1.0, 0.0)
+    df_kernel = tuple(jacobi_kernel[i] + k[i] for i in range(4))
+    df_regular = jacobi_regular
+    lorentz_gram = gram_det(df_kernel, df_regular, lorentz_dot)
+    auxiliary_gram = gram_det(df_kernel, df_regular, auxiliary_dot)
+    weight = math.sqrt(max(0.0, lorentz_gram / auxiliary_gram))
+    jacobian = math.sqrt(max(0.0, lorentz_gram))
+
+    check_true("mixed_cut_ordinary_rank_two", independent(df_kernel, df_regular))
+    check_true("mixed_cut_screen_rank_one", jacobi_kernel == (0.0, 0.0, 0.0, 0.0)
+               and jacobi_regular[2] != 0.0)
+    check("mixed_cut_lorentzian_gram_zero", lorentz_gram, 0.0, 5e-10)
+    check_true("mixed_cut_auxiliary_gram_positive", auxiliary_gram > 0.0)
+    check("mixed_cut_null_weight_zero", weight, 0.0, 5e-10)
+    check("mixed_cut_metric_jacobian_zero", jacobian, 0.0, 5e-10)
+    check_true("mixed_cut_ranks_are_distinct", independent(df_kernel, df_regular))
 
 
 def map_and_multiplicity_checks():
@@ -179,6 +219,7 @@ def observer_checks():
 def main():
     coordinate_covariance_checks()
     variable_cut_checks()
+    mixed_caustic_cut_rank_checks()
     map_and_multiplicity_checks()
     observer_checks()
     selected = ["A", "T1", "J1", "M1", "U1", "E1", "C1", "S1", "O1", "L1", "P1"]
@@ -187,9 +228,13 @@ def main():
         "assertions": ASSERTIONS,
         "failed": FAILED[:20],
         "maxima": MAXIMA,
+        "preregistration_commit": "84cb5264",
+        "repair_commit": "134ecd4a",
         "selected_alternatives": selected,
-        "map_classes": ["injective", "variable_cut", "rank_one_fold", "rank_zero_square",
-                        "isolated_intersection", "labelled_identical_sheets"],
+        "map_classes": ["injective", "variable_cut", "mixed_screen_rank_one_ordinary_rank_two_null",
+                        "rank_one_fold", "rank_zero_square", "isolated_intersection",
+                        "labelled_identical_sheets"],
+        "external_repair_preregistration_commit": "c2967132",
         "landing": "FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED",
     }
     print(json.dumps(result, indent=2, sort_keys=True))

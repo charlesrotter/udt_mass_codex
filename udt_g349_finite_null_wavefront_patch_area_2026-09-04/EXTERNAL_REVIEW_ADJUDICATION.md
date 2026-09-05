@@ -1,7 +1,7 @@
 # G349 external-review adjudication
 
 Date: 2026-09-04
-Status: `REPAIR_PREREGISTERED_NOT_YET_EXECUTED`
+Status: `REPAIR_EXECUTED_LOCALLY_PENDING_EXTERNAL_FOLLOWUP`
 
 ## Accepted finding
 
@@ -17,10 +17,11 @@ It changes the correct classifier from ordinary rank to transverse quotient-scre
 zero metric weight to the newly exposed ordinary-rank-two null stratum. Multiplicity and geometric
 union area must be defined on the spacelike regular image.
 
-Until the preregistered R1–R4 repair is implemented and externally rechecked, the G349 grade is:
+The preregistered R1–R4 repair is now implemented and locally replayed. Until it is externally
+rechecked, the G349 grade is:
 
 ```text
-ACCEPT_WITH_CAVEATS_REPAIR_REQUIRED
+PREREGISTERED_LOCALLY_REPAIRED_PENDING_EXTERNAL_FOLLOWUP
 ```
 
 No UDT law, light model, transfer law, physical population, history, scale, or `X_max` is added by

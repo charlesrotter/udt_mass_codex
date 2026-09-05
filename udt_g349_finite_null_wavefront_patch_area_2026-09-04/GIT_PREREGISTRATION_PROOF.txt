@@ -1,0 +1,9 @@
+G349 documentary chronology
+
+84cb5264 Preregister G349 finite null-wavefront patch area
+134ecd4a Repair G349 hostile cusp guard
+
+The first commit contains MAP.md, PREREGISTRATION.md, PREMISE_LEDGER.tsv, COMPLETENESS_MAP.md,
+SOURCE_SCOPE.tsv, COMMANDS.md, STATUS_LEDGER.tsv, and all three outcome-unseen executable routes.
+The second commit contains the first-execution note and the behavioral-only hostile cusp repair.
+Both commits were pushed to origin/grok before the result documents were assembled.

@@ -45,6 +45,35 @@ def dot_lorentz(a, b):
     return -a[0] * b[0] + sum(a[i] * b[i] for i in range(1, 4))
 
 
+def dot_euclidean(a, b):
+    return sum(a[i] * b[i] for i in range(4))
+
+
+def gram_det_vectors(v, w, dot):
+    return dot(v, v) * dot(w, w) - dot(v, w) ** 2
+
+
+def vector_rank(vectors, tolerance=1e-12):
+    matrix = [list(row) for row in zip(*vectors)]
+    rows, columns = len(matrix), len(matrix[0])
+    rank = 0
+    for column in range(columns):
+        pivot = next((row for row in range(rank, rows)
+                      if abs(matrix[row][column]) > tolerance), None)
+        if pivot is None:
+            continue
+        matrix[rank], matrix[pivot] = matrix[pivot], matrix[rank]
+        scale = matrix[rank][column]
+        matrix[rank] = [value / scale for value in matrix[rank]]
+        for row in range(rows):
+            if row != rank:
+                factor = matrix[row][column]
+                matrix[row] = [matrix[row][j] - factor * matrix[rank][j]
+                               for j in range(columns)]
+        rank += 1
+    return rank
+
+
 def sky_point(x, y):
     return (x, y, math.sqrt(1.0 - x * x - y * y))
 
@@ -78,6 +107,30 @@ def finite_difference_cut_checks():
         tau = 1.3 + 0.17 * x - 0.11 * y + 0.07 * x * y
         check("finite_difference_cut_jacobian", jacobian, tau * tau, 3e-6)
         check_true("finite_difference_spacelike_density", target_det > 0.0)
+
+
+def independent_mixed_rank_checks():
+    # Independent reconstruction with nonzero longitudinal Jacobi pieces.
+    k = (1.0, 0.0, 0.0, 1.0)
+    jacobi_kernel = tuple(0.37 * value for value in k)
+    jacobi_regular = (-0.2, 1.4, 0.0, -0.2)
+    dtau_kernel, dtau_regular = 0.63, -0.4
+    df_kernel = tuple(jacobi_kernel[i] + dtau_kernel * k[i] for i in range(4))
+    df_regular = tuple(jacobi_regular[i] + dtau_regular * k[i] for i in range(4))
+    screen_columns = ((jacobi_kernel[1], jacobi_kernel[2]),
+                      (jacobi_regular[1], jacobi_regular[2]))
+    lorentz_gram = gram_det_vectors(df_kernel, df_regular, dot_lorentz)
+    euclidean_gram = gram_det_vectors(df_kernel, df_regular, dot_euclidean)
+    weight = math.sqrt(max(0.0, lorentz_gram / euclidean_gram))
+
+    check("independent_mixed_ordinary_rank", float(vector_rank((df_kernel, df_regular))), 2.0, 0.0)
+    check("independent_mixed_screen_rank", float(vector_rank(screen_columns)), 1.0, 0.0)
+    check("independent_mixed_lorentz_gram", lorentz_gram, 0.0, 5e-10)
+    check_true("independent_mixed_auxiliary_positive", euclidean_gram > 0.0)
+    check("independent_mixed_null_weight", weight, 0.0, 5e-10)
+    check("independent_mixed_metric_area", math.sqrt(max(0.0, lorentz_gram)), 0.0, 5e-10)
+    check_true("independent_mixed_rank_separation", vector_rank((df_kernel, df_regular))
+               > vector_rank(screen_columns))
 
 
 def polygon_area(points):
@@ -154,6 +207,7 @@ def observer_checks():
 
 def main():
     finite_difference_cut_checks()
+    independent_mixed_rank_checks()
     quadrature_and_multiplicity_checks()
     observer_checks()
     result = {
@@ -161,7 +215,8 @@ def main():
         "assertions": ASSERTIONS,
         "failed": FAILED[:20],
         "maxima": MAXIMA,
-        "method": "independent central-difference cut map, mapped-cell fold area, polar rank-zero quadrature, explicit root counts, and rapidity observer reconstruction; imports no production code and reads no production result",
+        "method": "independent central-difference cut map, Gaussian-elimination mixed screen/ordinary-rank reconstruction, mapped-cell fold area, polar rank-zero quadrature, explicit root counts, and rapidity observer reconstruction; imports no production code and reads no production result",
+        "external_repair_preregistration_commit": "c2967132",
         "mesh_errors": {},
         "landing": "INDEPENDENT_FINITE_PATCH_MULTIPLICITY_AND_OBSERVER_IDENTITIES_RECONSTRUCTED",
     }

@@ -1,0 +1,32 @@
+{
+  "assertions": 14321,
+  "external_repair_preregistration_commit": "c2967132",
+  "failed": [],
+  "landing": "INDEPENDENT_FINITE_PATCH_MULTIPLICITY_AND_OBSERVER_IDENTITIES_RECONSTRUCTED",
+  "maxima": {
+    "finite_difference_cut_jacobian": 6.64484023360501e-11,
+    "fold_polygon_sheet_area": 0.0,
+    "fold_preimage_equation_negative": 1.1102230246251565e-16,
+    "fold_preimage_equation_positive": 1.1102230246251565e-16,
+    "fold_union_from_range": 0.0,
+    "identical_label_sheet_census": 0.0,
+    "identical_label_union": 0.0,
+    "independent_mixed_lorentz_gram": 0.0,
+    "independent_mixed_metric_area": 0.0,
+    "independent_mixed_null_weight": 0.0,
+    "independent_mixed_ordinary_rank": 0.0,
+    "independent_mixed_screen_rank": 0.0,
+    "isolated_crossing_sheet_area": 0.0,
+    "isolated_crossing_union_area": 0.0,
+    "rank_zero_finest_sheet_area": 0.0007669903937594924,
+    "rank_zero_union_area": 0.0,
+    "rapidity_observer_product": 7.105427357601002e-15
+  },
+  "mesh_errors": {
+    "16": 0.012271846303116618,
+    "32": 0.003067961575836442,
+    "64": 0.0007669903937594924
+  },
+  "method": "independent central-difference cut map, Gaussian-elimination mixed screen/ordinary-rank reconstruction, mapped-cell fold area, polar rank-zero quadrature, explicit root counts, and rapidity observer reconstruction; imports no production code and reads no production result",
+  "status": "PASS"
+}

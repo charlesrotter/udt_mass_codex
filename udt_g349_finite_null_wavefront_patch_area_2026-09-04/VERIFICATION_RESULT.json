@@ -1,0 +1,30 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "bounded_physical_scope": true,
+    "critical_and_orientation_branches": true,
+    "finite_area_formula": true,
+    "finite_observer_covariance": true,
+    "first_failure_and_repair_recorded": true,
+    "frozen_external_repair_evidence": true,
+    "frozen_preregistration_hashes": true,
+    "frozen_source_hashes": true,
+    "geometric_not_physical_union_scope": true,
+    "hostile_22_of_22": true,
+    "independent_14321_of_14321": true,
+    "metric_only_provenance": true,
+    "mixed_rank_repair": true,
+    "no_bytecode_or_special_output": true,
+    "production_44321_of_44321": true,
+    "registered_no_write_replays": true,
+    "repaired_script_hashes": true,
+    "selected_alternatives": true,
+    "stdlib_only_imports": true,
+    "union_distinction_and_equality": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "landing": "FINITE_METRIC_NULL_PATCH_AREA_CLOSES_WITH_MULTIPLICITY__UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__CAUSTICS_ORIENTATION_OBSERVER_AND_LABEL_BRANCHES_RETAINED__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED",
+  "review_status": "PREREGISTERED_LOCALLY_REPAIRED_PENDING_EXTERNAL_FOLLOWUP"
+}

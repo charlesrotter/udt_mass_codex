@@ -25,6 +25,17 @@ def main():
     cusp_rank_one = True
     cusp_kernel = (0.0, 1.0)
     cusp_critical_tangent = (0.0, 1.0)
+    # Mixed caustic/cut counterexample: ordinary rank two, transverse screen
+    # rank one, and zero Lorentzian two-area.
+    k = (1.0, 0.0, 0.0, 1.0)
+    screen = (0.0, 0.0, 1.0, 0.0)
+    ordinary_independent = k != screen
+    lorentz_gram = (
+        (-k[0] * k[0] + sum(k[i] * k[i] for i in range(1, 4)))
+        * (-screen[0] * screen[0] + sum(screen[i] * screen[i] for i in range(1, 4)))
+        - (-k[0] * screen[0] + sum(k[i] * screen[i] for i in range(1, 4))) ** 2
+    )
+    screen_rank = 1
 
     mutations = {
         "add_transverse_cut_gradient": "d tau_n(v) k_n" in prereg
@@ -36,6 +47,8 @@ def main():
         "delete_rank_zero": "rank-zero" in prereg,
         "call_every_rank_one_a_fold": cusp_rank_one
         and cusp_kernel == cusp_critical_tangent,
+        "equate_ordinary_rank_two_with_positive_metric_area": ordinary_independent
+        and screen_rank == 1 and lorentz_gram == 0.0,
         "call_caustic_singular_spacetime": "but remain in `F`" in prereg,
         "omit_preimage_multiplicity": "N(F,U;y)" in prereg,
         "count_only_one_fold_sheet": fold_absolute == 2.0 * fold_union,
@@ -61,6 +74,7 @@ def main():
         "total": len(mutations),
         "failed": failed,
         "mutations": mutations,
+        "external_repair_preregistration_commit": "c2967132",
     }
     print(json.dumps(result, indent=2, sort_keys=True))
     if not os.environ.get("UDT_NO_WRITE"):
