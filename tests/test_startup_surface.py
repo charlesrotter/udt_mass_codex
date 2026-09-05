@@ -97,7 +97,11 @@ CURRENT_TARGETS = (
     "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
     "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/AUDIT_REPORT.md",
     "udt_g320_g319_physical_initial_geometry_quotient_audit_2026-09-01/AUDIT_REPORT.md",
+    "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
+    "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+    "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
 )
 
 
@@ -238,11 +242,23 @@ def test_catch_missing_raw_archive_route(tmp_path: Path) -> None:
         premise_guard.validate_startup_surface(root)
 
 
-@pytest.mark.parametrize("token", ("G166--G276", "G197", "G215", "G216", "G217", "G218", "G219", "G220", "G221", "G222", "G223", "G224", "G225", "G226", "G227", "G228", "G229", "G230", "G231", "G232", "G233", "G234", "G235", "G236", "G237", "G238", "G239", "G240", "G241", "G242", "G243", "G244", "G245", "G246", "G247", "G248", "G249", "G250", "G251", "G252", "G253", "G254", "G255", "G256", "G257", "G258", "G259", "G260", "G261", "G262", "G263", "G264", "G265", "G266", "G267", "G268", "G269", "G270", "G271", "G272", "G273", "G274", "G275", "G276", "G277", "G278", "G279", "G280", "G281", "G282", "G283", "G284", "G285", "G286", "G287", "G288", "G289", "G290", "G297", "G301", "G302", "G303", "G307", "G308", "G309", "G310", "G311", "G320", "G321", "G322", "G323", "G327", "G328", "G346", "G190--G198"))
+@pytest.mark.parametrize(
+    "token",
+    (
+        "G166--G276",
+        "G277--G281",
+        "G282--G312",
+        "G313--G337",
+        "G338--G349",
+        "G190--G198",
+        "formula-level controls",
+        "not construction inputs",
+    ),
+)
 def test_catch_missing_current_dependency_spine(tmp_path: Path, token: str) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", token, "REMOVED_CURRENT_SPINE")
-    with pytest.raises(SystemExit, match="marked current block lacks"):
+    with pytest.raises(SystemExit, match="LIVE semantic dependency spine lacks"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -258,6 +274,17 @@ def test_catch_universal_reciprocity_derivation_promotion(tmp_path: Path) -> Non
     root = _startup_copy(tmp_path)
     _replace(root / "LIVE.md", "Universal Reciprocity", "DDR_ALREADY_DERIVED")
     with pytest.raises(SystemExit, match="marked current block lacks"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_additive_universal_reciprocity_derivation_promotion(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / "LIVE.md"
+    path.write_text(
+        path.read_text(encoding="utf-8") + "\nUniversal Reciprocity is DERIVED.\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(SystemExit, match="contradictory Universal Reciprocity/DDR promotion"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -373,19 +400,26 @@ def test_catch_missing_current_parent_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "INDEX.md",
-        "udt_pair_terminal_reachability_atlas_2026-08-12/",
-        "REMOVED_REACHABILITY/",
+        "udt_g350_frequency_area_carried_content_ownership_2026-09-05/",
+        "REMOVED_G350_PARENT/",
     )
     with pytest.raises(SystemExit, match="current route lacks"):
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_missing_g203_route(tmp_path: Path) -> None:
+def test_catch_unattributed_g350_next_gate(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "LIVE.md", "G350's proven nonuniqueness", "the proven nonuniqueness")
+    with pytest.raises(SystemExit, match="LIVE next gate lacks bound G350 attribution"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_missing_startup_archive_index_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "INDEX.md",
-        "udt_g203_quiet_overlap_parameter_ownership_classification_2026-08-21/",
-        "REMOVED_G203/",
+        "archive/STARTUP_SURFACE_HISTORY.md",
+        "REMOVED_STARTUP_HISTORY/",
     )
     with pytest.raises(SystemExit, match="current route lacks"):
         premise_guard.validate_startup_surface(root)
@@ -437,7 +471,14 @@ def test_catch_obsolete_solver_first_target(tmp_path: Path) -> None:
 def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(root / "INDEX.md", "Chosen-family evaluators/controls:", "Current longitudinal result:")
-    with pytest.raises(SystemExit, match="INDEX chosen-family/scaffold quarantine"):
+    with pytest.raises(SystemExit, match="current route lacks|INDEX chosen-family/archive quarantine"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "AGENTS.md", "333-row exact registry", "320-row exact registry")
+    with pytest.raises(SystemExit, match="current route lacks 333-row exact registry"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -620,7 +661,7 @@ def test_catch_pre_zoomout_archive_snapshot_mutation(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     path = root / "archive/startup_surface_2026-08-17_pre_zoomout/LIVE.md"
     path.write_text(path.read_text(encoding="utf-8") + "\nmutation\n", encoding="utf-8")
-    with pytest.raises(SystemExit, match="pre-zoomout archive hash mismatch"):
+    with pytest.raises(SystemExit, match="pre-zoomout (archive|startup) hash mismatch"):
         premise_guard.validate_startup_surface(root)
 
 

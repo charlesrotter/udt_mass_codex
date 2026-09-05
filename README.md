@@ -41,18 +41,8 @@ current research frontier. Do not reconstruct the frontier from this deliberatel
 
 ## Historical material
 
-The pre-zoomout startup surface is preserved under
-`archive/startup_surface_2026-08-17_pre_zoomout/`; earlier verbose startup prose remains under
-`archive/startup_surface_2026-08-14/`; the pre-G197 and pre-current-cleanup surfaces are indexed by
-`archive/startup_surface_2026-08-21_pre_g197/` and
-`archive/startup_surface_2026-08-22_pre_cleanup/`. None is current authority.
-
-The displaced G267-era active wording is indexed at
-`archive/startup_surface_2026-08-26_pre_g270/`. Its exact file versions remain recoverable from the
-recorded Git commit and hashes there.
-
-The pre-Universal-Reciprocity/G310-registry startup state is indexed at
-`archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
+Use `archive/STARTUP_SURFACE_HISTORY.md` for the nonauthoritative startup-surface chronology and
+exact Git recovery anchors. Historical surfaces are not startup reads.
 
 `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md`, `STATE.md`, `HANDOFF_ARCHIVE.md`,
 `CODEX_STARTUP_REHEARSAL_2026-07-17.md`, `codex_rehearsal_final.md`, and

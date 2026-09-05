@@ -6,79 +6,30 @@
 
 ## Resume anchor — 2026-09-05
 
-On supplied ordered depth, `phi_pair=delta_AB`; conditional `c_eff/c_E=exp(-2 delta_AB)` is not
-automatically signal speed. On a supplied germ, `B,Q,S,Y,Z` enters `h=F^*g` before readout.
-Completed-pair Dual Reciprocity remains `WORKING_FOUNDATIONAL_CLARIFICATION`; population,
-higher/full carry, and history remain supplied or `OPEN`.
+Only on a supplied regular calibrated pair, `phi_pair=delta_AB` is `DERIVED_CONDITIONAL`; conditional
+`c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed. On a supplied regular germ,
+`B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity remains
+`WORKING_FOUNDATIONAL_CLARIFICATION`; population, higher/full carry, and history remain supplied or
+`OPEN`.
 
-G166--G276 is structural; G277--G281 controls observations; G282--G300 isolates history, topology,
-causal carry, and query ownership. G310 Universal Reciprocity is Charles's plain-language statement
-and DDR its tested curvature-level mathematical formulation: one postulate with two formulations.
-It is `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or canonized.
-angular-sector cancellation owns loud--quiet--loud. G312 premises are owner-adopted provisionally.
-Quiet-GR response plus Local Metric Sufficiency yields trace-free Ricci as the bounded response
-constitution with one scalar. Metric/kernel/angular remain unchanged; global bootstrap is optional.
+W5 and W6 remain working foundational clarifications. Universal Reciprocity and DDR are one
+postulate with two formulations, `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31), not derived or
+canonized. G312 premises are owner-adopted provisionally. Their bounded quiet-GR/Local Metric
+Sufficiency response constitution is trace-free Ricci with one connected scalar. The multibranch
+Einstein arena remains; no global bootstrap or universe is selected, and angular-sector cancellation
+owns loud--quiet--loud. Metric, kernel, angular sector, and adopted equation are unchanged.
 
-G313--G324 retain a multibranch Einstein arena, broad data/developments, quotient breadth, and
-scoped completeness—not a selector. G325--G329 classify isolated modes, not stability. G330--G337
-connect a metric-native Ricci eigenline to exact constraint witnesses and complete-pair first,
-finite-boost, silent second, and full-field third initial response jets. Closed Hopf fibres are not
-forced; arbitrary frame transport remains supplied; exact silence passes to higher jets. These are
-conditional local classifications, not finite-time/global stability, occupancy, matter/mass,
-scale, `X_max`, or canon. Metric/kernel/angular/equation are unchanged.
+Current frontier: G338--G349 derive metric-owned pair/null-screen/area geometry but no carried
+content or transfer law. G350 classifies the declared local multiplicative candidates as the
+nonunique family `R^p A^q`; no principle selects `p` or `q`, and inverse area requires a new
+conservation premise. This is not a light, flux, luminosity, distance, population, history, scale,
+matter, or `X_max` law.
 
-G338--G347 are externally accepted bounded evaluations on one supplied Taub/Kasner spacetime.
-G338--G341 separate pair response, ruler carry, slice/null/radar/projective relations, and labelled
-cone lifts. G342/G343 close the two-screen Jacobi map and bilocal symplectic propagator. G344/G345
-add the endpoint generator, affine-weighted bidensity, and reversal-symmetric scalar with typed
-sewing. G346 gives the two directional infinitesimal metric angular-area Jacobians: their ratio is
-squared endpoint frequency and their mean is inverse G345. G347 extends them to arbitrary finite
-future-timelike endpoint observers: quotient screens change isometrically, sky area by inverse
-frequency squared, and each directional area by its source factor squared; reversal, mean, and
-sewing remain covariant. Fresh `gpt-5.6-sol` review accepted without repair. This is geometry, not
-observer invariance, preferred population, finite-beam/light transfer, distance, scale, or `X_max`.
-
-G348 lifts that fixed-spacetime result to every supplied smooth time-oriented four-dimensional
-Lorentzian metric and supplied regular affine future-null geodesic. The quotient-screen Jacobi flow,
-directional areas, and finite-timelike observer law are coordinate-free; rank-one conjugacy gives a
-simple signed-area zero/sign flip and rank-zero conjugacy a double zero/no flip. Full phase space
-remains regular while generator/inverse-area charts fail at conjugacy. Fresh `gpt-5.6-sol` review
-accepted without scientific repair. This is general Lorentzian geometry, not a UDT selector or a
-finite-beam/light-transfer/distance law.
-
-G349 integrates this over supplied compact patches: finite metric sheet area counts spacelike
-preimages; geometric union needs global endpoint preimages. A mixed null-sheet gap found on fresh
-review was preregistered, repaired, independently reconstructed, and accepted by `gpt-5.6-sol`.
-No transfer, distance, population, history, scale, or `X_max` follows; core structures are unchanged.
-
-G350 classifies every continuous positive local two-ratio multiplier on the chosen full abstract
-domain as `T_(p,q)=R^p A^q`, with arbitrary real weights. Reversal, sewing, and observer covariance
-do not choose them. Inverse area requires a new unadopted conservation premise; source content,
-caustic continuation, and label aggregation remain supplied. Fresh review caveats were
-preregistered, repaired without changing the scientific landing, and accepted on repair-only
-follow-up. No carried field, light/flux/luminosity law, distance, history, scale, or `X_max` follows.
-
-Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G350 history/dynamics. Evaluator:
-`udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
-
-Guards:
-G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235;
-G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
-G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
-G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350.
-
-W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
-R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
-184,300 covariance rows are unresolved and no preferred scale follows. Raw:
-`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv` (333 rows through G350). Archives:
-`archive/startup_surface_2026-08-17_pre_zoomout/`,
-`archive/startup_surface_2026-08-21_pre_g197/`,
-`archive/startup_surface_2026-08-22_pre_cleanup/`,
-`archive/startup_surface_2026-08-26_pre_g270/`,
-`archive/startup_surface_2026-08-31_pre_universal_reciprocity/`.
+Authority: the exact 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
+`udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
+covariance rows are unresolved, no preferred scale follows, and the raw archive is
+`/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`.
 
 Protected—do not stage, modify, mine, or cite without dispatch:
 
@@ -87,10 +38,9 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: starting from G350's nonuniqueness, MAP/PONDER the smallest independent carried-object premise
-lattice—what is carried, its observer weight, whether it obeys labelwise conservation or local
-balance, and how caustics/labels are handled. Do not select weights from habit or observations and
-do not derive until Charles chooses whether to add this physical layer. Keep source, detector,
-population, history, scale, matter, `X_max`, and canon supplied or open.
+Next: MAP/PONDER the G350 carried-object premise lattice—object, observer weight,
+conservation/local balance, and caustic/label handling. Treat every option as a `NEW PREMISE`; do
+not choose weights from habit or observations, and do not derive until Charles decides whether to
+add the layer. Source, detector, population, history, matter, scale, `X_max`, and canon stay open.
 
 <!-- STARTUP_CURRENT_END -->
