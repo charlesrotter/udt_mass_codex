@@ -6,9 +6,9 @@
 
 - **Edition date:** 2026-09-05
 - **Scientific source snapshot:** `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`
-- **Manuscript state:** `FIDELITY_REVIEWED_PILOT — PARTIAL_MANUSCRIPT`
-- **Complete pilot coverage:** G350 and G351
-- **Supporting definitions used by the pilot:** G348 and G349
+- **Manuscript state:** `FIDELITY_REVIEWED_FOUNDATIONS_AND_PILOT — PARTIAL_MANUSCRIPT`
+- **Complete chapter coverage:** F1--F4 with G01/G02, and G350--G351
+- **Supporting definitions used by the transfer pilot:** G348 and G349
 - **Accepted successor acknowledged but not yet synthesized:** G352
 - **Method revision used for drafting:** `657f5485d50fed4005455c33ebf1bf559b3ad516`
 
@@ -18,7 +18,19 @@ Charles's separate control. The exact registry and the cited evidence packages
 remain authoritative for scientific grades; `LIVE.md` remains authoritative
 for current operational status.
 
-The declared pilot lineage is exactly:
+The declared foundations lineage is:
+
+```text
+F1 clock/ruler conversion interpretation
+  + F2 Dual Reciprocity
+  + F3 ordered composition and reversal
+  + explicit positivity, continuity or measurability, and separate nontriviality inputs
+  -> G01/G02 reciprocal character on supplied ordered depth
+  + F4 declared quadratic/areal readout
+  -> primary static-spherical metric form with supplied presentation phi(r)
+```
+
+The declared transfer-pilot lineage is:
 
 ```text
 G348 metric null-screen and frequency geometry
@@ -29,10 +41,10 @@ G348 metric null-screen and frequency geometry
 
 G352 is accepted at the selected snapshot and is named at the end of the pilot
 so that this edition does not imply that G351 is the current endpoint. Its
-argument is `NOT_YET_SYNTHESIZED` here. The founding construction, completed
-pair kernel, response-law development, and the rest of the causal development
-are also `NOT_YET_SYNTHESIZED`; their headings below are a map for later work,
-not a claim of coverage.
+argument is `NOT_YET_SYNTHESIZED` here. The completed pair kernel,
+response-law development, and the rest of the causal development are also
+`NOT_YET_SYNTHESIZED`; their headings below are a map for later work, not a
+claim of coverage.
 
 This edition excludes observational fitting, a selected spacetime history,
 physical ray population, source physics, light or detector models, matter,
@@ -54,14 +66,21 @@ excludes protected local work and every unaccepted or unregistered branch.
 
 ## Reader orientation
 
-The pilot asks a narrow question. Suppose a spacetime metric and a labelled
-family of null paths have already been supplied. The metric then lets us compare
-two things between two cuts of one retained path: frequency and transverse
-sheet area. What rules can consistently transfer a scalar-valued component
-using only those two ratios? And what additional restriction follows if a
-finite amount assigned to the path labels is conserved?
+This edition contains two completed, source-grounded parts of a larger account.
+The first reconstructs the founding clock/ruler premises, the exact reciprocal
+character they support on a supplied ordered depth, and the declared readout
+that yields the primary static-spherical metric. It also records the crucial
+boundary: the founding argument does not assign a depth to every physical
+observer, event, separation, or history.
 
-The answer comes in two logically separate steps.
+The second part is a later transfer pilot. Suppose a spacetime metric and a
+labelled family of null paths have already been supplied. The metric then lets
+us compare two things between two cuts of one retained path: frequency and
+transverse sheet area. What rules can consistently transfer a scalar-valued
+component using only those two ratios? And what additional restriction follows
+if a finite amount assigned to the path labels is conserved?
+
+The transfer answer comes in two logically separate steps.
 
 1. G350 proves that every continuous, positive, local, multiplicative rule on
    its chosen full two-ratio domain is
@@ -173,22 +192,358 @@ physical object.
 
 ## 2. Foundations
 
-`NOT_YET_SYNTHESIZED`
+### 2.1 Premise and convention ledger
 
-This part will eventually distinguish observed calibration, owner postulates,
-declared readouts, derived reciprocal representation, and open assignment
-problems. The pilot does not reconstruct those claims.
+The founding construction has several inputs with different epistemic roles.
+They must not be collapsed into a single claim that "the metric was derived
+from reciprocity alone."
 
-**Unresolved join:** connect the founding ordered-depth representation to the
-later supplied null-path quantities without equating presentation \(\phi\),
-terminal pair readout, metric frequency ratio, or physical signal speed.
+| Item | Status in this account | Exact role |
+|---|---|---|
+| \(c_E\) | `OBSERVED` calibration plus proposed foundational interpretation | Converts the clock and ruler units in the paired description. |
+| F1 | proposed foundational interpretation of the observed calibration | Treats \(L=c_ET\) and \(T=L/c_E\) as coequal clock/ruler conversions. |
+| F2 | foundational Dual Reciprocity interpretation | Requires positional comparison to act contragrediently on the two conversion channels. |
+| F3 | `POSIT` | Supplies additive composition and reversal of ordered comparison depth. |
+| positivity and continuity or measurability | explicit mathematical assumptions | Exclude irregular characters and permit the exponential classification. |
+| one nonidentity comparison | separate nontriviality input | Excludes the trivial representation, which also obeys composition. |
+| sign and unit of \(\delta\) | `CHOSE` | Fix the convention for the additive logarithmic coordinate. |
+| F4 | `DECLARED READOUT` / local Lorentzian continuity | Reads the transformed clock/ruler coframe quadratically and supplies the areal angular sector in the primary chart. |
+| G01/G02 | `DERIVED` in their bounded scope | Give the reciprocal character and its matrix action once ordered depth is supplied. |
+
+The later W1, W5, W6, quiet-GR, and response-law premises are not inputs to the
+proof in this chapter. They refine the complete physical interpretation or
+dynamics downstream. Their later adoption cannot be used retroactively to make
+F1--F4 say more than their own argument establishes.
+
+### 2.2 F1: the reciprocal \(c_E\) identity
+
+The observed dimensional calibration is written
+
+\[
+L=c_ET,
+\qquad
+T=\frac{L}{c_E}.
+\]
+
+F1 interprets these as coequal conversions between clock and ruler channels.
+The constant \(c_E\) has units of length per time. This identity aligns the
+units, but by itself it does not imply a reciprocal squeeze, select a distance,
+define a signal speed, determine a metric history, or give an equation for
+\(\phi\).
+
+### 2.3 F2: Dual Reciprocity supplies the inverse pairing
+
+Write the clock/ruler column and a positive diagonal comparison as
+
+\[
+q=\begin{pmatrix}c_Edt\\dr\end{pmatrix},
+\qquad
+P(\Delta)=\begin{pmatrix}u(\Delta)&0\\0&v(\Delta)\end{pmatrix}.
+\]
+
+Dual Reciprocity preserves the off-diagonal evaluation pairing
+
+\[
+K=\begin{pmatrix}0&1\\1&0\end{pmatrix},
+\qquad
+P(\Delta)^T K P(\Delta)=K.
+\]
+
+Direct multiplication gives
+
+\[
+P^TKP
+=\begin{pmatrix}0&u(\Delta)v(\Delta)\\
+u(\Delta)v(\Delta)&0\end{pmatrix},
+\]
+
+and therefore
+
+\[
+\boxed{u(\Delta)v(\Delta)=1.}
+\]
+
+This is the step that makes the two channels inverse rather than equal. If one
+asked only for ordinary covariance of the conversion map, the corresponding
+condition would give \(u=v\), not \(uv=1\). The reciprocal character therefore
+uses F2; it does not follow from the numerical existence of \(c_E\).
+
+### 2.4 F3: composition turns the inverse pair into an exponential
+
+F3 supplies the ordered comparison law
+
+\[
+P(\Delta_1+\Delta_2)=P(\Delta_1)P(\Delta_2),
+\qquad
+P(-\Delta)=P(\Delta)^{-1}.
+\]
+
+Because \(u>0\), \(\log u\) is additive. Under the stated continuity or
+measurability condition, an additive real character is linear. After choosing
+the sign and unit of its additive coordinate and using \(v=u^{-1}\), the
+nontrivial branch is
+
+\[
+\boxed{
+D(\delta)=\operatorname{diag}(e^{-\delta},e^{+\delta})
+}
+\]
+
+with
+
+\[
+D(\delta_2)D(\delta_1)=D(\delta_1+\delta_2),
+\qquad
+D(-\delta)=D(\delta)^{-1}.
+\]
+
+The result is a one-dimensional reciprocal representation. Nontriviality is
+not a consequence of the group laws: \(D=I\) would satisfy them too.
+
+### 2.5 F4: from reciprocal coframe to the primary metric
+
+F4 is the declared geometrical readout. It says to read the transformed clock
+and ruler coframe quadratically with Lorentzian sign, and, in the bounded
+static-spherical chart, to use \(r\) as areal radius. When the local
+presentation potential is denoted by \(\phi(r)\), this gives
+
+\[
+\boxed{
+ds^2=-e^{-2\phi(r)}c_E^2dt^2
+     +e^{+2\phi(r)}dr^2
+     +r^2d\Omega^2.
+}
+\]
+
+Thus the metric form follows from F1--F3 only after F4's readout and chart
+choice are supplied. The formula fixes how a supplied \(\phi\) enters the
+clock and radial ruler coefficients. It does not, at this stage, determine
+which function \(\phi(r)\) a physical spacetime realizes.
+
+### 2.6 Maximum conclusion of the founding premise chain
+
+The bounded founded implication is
+
+\[
+\boxed{
+\text{supplied ordered depth }\delta
+\longmapsto
+D(\delta)=\operatorname{diag}(e^{-\delta},e^{+\delta}).
+}
+\]
+
+Together with F4, a supplied primary presentation \(\phi(r)\) is read as the
+metric above. The reverse physical assignment
+
+\[
+\boxed{
+(\text{events, observers, separation, history})
+\longmapsto \delta
+}
+\]
+
+is not contained in this proof. Neither is a field equation, source, action,
+matter model, path population, absolute scale, \(X_{\max}\), or observational
+prediction.
 
 ## 3. Reciprocal construction
 
-`NOT_YET_SYNTHESIZED`
+### 3.1 What the reciprocal character fixes
 
-This part will reconstruct what the reciprocal representation fixes and what
-remains a supplied event/observer/path-to-depth assignment.
+The matrix \(D(\delta)\) has determinant one. One channel acquires
+\(e^{-\delta}\), the other \(e^{+\delta}\), and their product remains one.
+Composition adds depths and reversal negates the ordered depth. These are exact
+algebraic properties for every supplied \(\delta\).
+
+In the primary static-spherical presentation, it is useful to write
+
+\[
+f=e^{-2\phi}>0,
+\]
+
+so that
+
+\[
+ds^2=-f(r)c_E^2dt^2+f(r)^{-1}dr^2+r^2d\Omega^2.
+\]
+
+The reciprocal clock-radius block has determinant \(-c_E^2\). Consequently
+the full coordinate volume density is
+
+\[
+\sqrt{-g}=c_Er^2\sin\theta.
+\]
+
+This cancellation is an algebraic consequence of the reciprocal radial block.
+It is not a field equation and does not select \(f\) or \(\phi\).
+
+### 3.2 The representation current, correctly typed
+
+For
+
+\[
+S(\phi)=\operatorname{diag}(e^{-\phi},e^{+\phi}),
+\]
+
+the matrix-valued one-form is
+
+\[
+\mathcal J=S^{-1}dS=\operatorname{diag}(-d\phi,d\phi).
+\]
+
+Its representation quadratic form is the symmetric tensor statement
+
+\[
+\boxed{
+\frac12\operatorname{Tr}(\mathcal J\otimes\mathcal J)
+=d\phi\otimes d\phi.
+}
+\]
+
+After evaluation on a tangent vector \(X\),
+
+\[
+\frac12\operatorname{Tr}(\mathcal J(X)^2)=(X\phi)^2.
+\]
+
+A scalar contraction such as
+\(g^{ab}\partial_a\phi\partial_b\phi\) additionally uses the spacetime metric.
+Exterior multiplication instead gives \(\mathcal J\wedge\mathcal J=0\) because
+the reciprocal Lie algebra is abelian. None of these identities promotes the
+quadratic form into a physical action, energy, or equation of motion.
+
+### 3.3 Four related quantities that must remain distinct
+
+The current source hierarchy distinguishes:
+
+- \(\delta_{AB}\): a supplied signed depth on an ordered pair;
+- \(\phi(r)\): a pointwise presentation potential for a supplied primary
+  metric;
+- \(\widehat\Phi_{\rm pair}\): the terminal scalar read from a supplied,
+  regular, calibrated completed pair metric;
+- \(V(A)\): an endpoint potential only on branches where the pair-depth law is
+  endpoint exact.
+
+They can coincide in a matched calibrated primary radial reduction. Their
+notation and occasional numerical agreement do not establish a universal
+identity.
+
+In particular, pair reversal is
+
+\[
+(g_\phi,A,B,\delta_{AB})
+\longmapsto
+(g_\phi,B,A,-\delta_{AB}).
+\]
+
+It leaves the supplied metric profile \(\phi(r)\) unchanged. Replacing the
+whole metric profile by its conjugate, \(g_\phi\mapsto g_{-\phi}\), is a
+different operation and generally changes the geometry. The sign of an
+ordered arrow is therefore not, by itself, a label for a micro- or
+cosmological regime; physical regime language needs an owned scale-to-profile
+assignment.
+
+### 3.4 Why a pointwise factorization does not own physical depth
+
+The current registered G01/G02 audit tests whether the complete factorized coframe can
+universally recover one preferred pointwise \(\phi\). Let \(z=e^\phi>0\), use
+the multiplicative notation
+
+\[
+D_\times(z)=\operatorname{diag}(z^{-1},z),
+\]
+
+and write a supplied complete coframe as
+
+\[
+\vartheta=D_\times(z)\,\bar\vartheta.
+\]
+
+For any positive local function \(h\), the simultaneous replacement
+
+\[
+z'=zh,
+\qquad
+\bar\vartheta'=D_\times(h)^{-1}\bar\vartheta
+\]
+
+leaves the complete coframe unchanged:
+
+\[
+D_\times(z')\bar\vartheta'=D_\times(z)\bar\vartheta=\vartheta.
+\]
+
+Thus the same completed geometry can admit different reciprocal
+factorizations unless an additional reference or physical depth owner is
+supplied. This does not erase \(\phi\) as the logarithmic coordinate of the
+representation. It says that a chosen pointwise factor is not automatically a
+universal observable extracted from arbitrary complete geometry.
+
+### 3.5 A real but branch-local metric owner
+
+On a stationary branch possessing an intrinsic timelike Killing line \(K\),
+define its lapse norm
+
+\[
+N(x)=\sqrt{-g(K,K)}\big|_x.
+\]
+
+For ordered points \(p,q\), the metric then supplies
+
+\[
+q_K(p,q)=\frac{N(q)}{N(p)},
+\qquad
+\delta_K(p,q)=-\log q_K(p,q)
+=\log\!\frac{N(p)}{N(q)}.
+\]
+
+This ratio composes, reverses, and is unchanged by a constant rescaling of
+\(K\). It is therefore a genuine metric-native depth owner on that stationary
+stratum. It is not a universal construction for nonstationary geometries or
+arbitrary observer pairs, where the required intrinsic Killing line may not
+exist.
+
+### 3.6 What calibration and transport do not add
+
+Three tempting identifications fail at the type boundary.
+
+First, \(c_E\) matches clock and ruler units but does not normalize the
+dimensionless depth. The family
+
+\[
+D_a(\Delta)=\operatorname{diag}(e^{-a\Delta},e^{+a\Delta})
+\]
+
+obeys pairing preservation, composition, and reversal for every constant
+\(a\). A physical separation-to-depth attachment must supply what the abstract
+character does not.
+
+Second, signed ordered depth and nonnegative symmetric separation cannot be
+the same scalar for a nonzero pair: reversal requires
+\(\delta_{BA}=-\delta_{AB}\), whereas separation magnitude satisfies
+\(\rho(B,A)=\rho(A,B)>0\). A physical construction may need both a magnitude
+and an oriented lift.
+
+Third, Levi-Civita transport preserves the Lorentz metric, whereas nonzero
+reciprocal dilation does not act as a Lorentz isometry of the unbalanced
+clock/ruler interval. The off-diagonal \(K\) above is the dual evaluation
+pairing, not the local spacetime interval. Ordinary metric transport cannot be
+renamed the missing depth law.
+
+### 3.7 Boundary to the completed kernel
+
+W1 later places Dual Reciprocity after the full angular, screen, shift, and
+mixing pullback. W5 later gives a working physical interpretation to the
+complete projective pair state, and W6 distinguishes non-signalling
+co-presence from causal response. Those working clarifications do not change
+F1--F4, \(D(\delta)\), or the primary metric, and they do not supply a general
+event/observer/path-to-depth assignment.
+
+Their detailed proofs and complete pair formulas belong to Section 4 and are
+`NOT_YET_SYNTHESIZED` in this edition. The safe join is therefore only this:
+the founding character is the algebraic reciprocal core later used by a
+supplied completed-pair construction; it is not yet being identified with a
+null-path frequency ratio, physical distance, or signal speed.
 
 ## 4. Completed metric and pair kernel
 
@@ -511,6 +866,57 @@ supernova-distance prediction.
 All paths below are relative to the repository root and refer to scientific
 snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`.
 
+### G01 — `MAIN_ARGUMENT`, `FIDELITY_REVIEWED`
+
+- **Manuscript use:** Sections 2.6 and 3.3--3.7, especially the exact
+  input/output boundary, pointwise presentation freedom, and stationary
+  Killing branch.
+- **Source:**
+  [founding ownership audit](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md),
+  with the current premise language and corrected current typing in
+  [founding.md](founding.md).
+- **Dependencies actually used:** supplied ordered depth; positive reciprocal
+  character; supplied factorized complete coframe; and, only for the positive
+  branch-local result, a stationary metric with an intrinsic timelike Killing
+  line.
+- **Exact source grade:**
+
+```text
+DERIVED_RECIPROCAL_CHARACTER_ON_SUPPLIED_ORDERED_DEPTH
+```
+
+- **Open scope retained from the exact registry row:** general
+  observer/event/path-to-depth law; signed-orientation/nonnegative-magnitude
+  join; endpoint-exact potential branches; and physical normalization/profile.
+
+### G02 — `MAIN_ARGUMENT`, `FIDELITY_REVIEWED`
+
+- **Manuscript use:** Sections 2.3--2.6 and 3.1--3.2, the exact matrix
+  character and its algebraic consequences on supplied depth.
+- **Source:**
+  [G02 exact derivation](udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md),
+  with the direct F1--F4 assumption ledger in
+  [the founding-postulate derivation](UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md)
+  read through the current corrections in [founding.md](founding.md).
+- **Dependencies actually used:** F1 conversion interpretation, F2
+  contragredient pairing, F3 composition and reversal, positivity, continuity
+  or measurability, a nonidentity input, and chosen sign/unit convention; F4
+  enters only for the primary metric readout.
+- **Exact source grade:**
+
+```text
+DERIVED_DELTA_MAPS_TO_DIAG_EXP_MINUS_DELTA_EXP_PLUS_DELTA
+```
+
+- **Open scope retained from the exact registry row:** physical map to
+  \(\delta\); physical complete-pair cocycle selection; degeneracy/global-loop
+  continuation; and complete realization.
+- **Historical-source correction:** the older founding-postulate document is
+  used for its bounded assumption ledger and direct matrix derivation, not for
+  its obsolete review-state header or its untyped shorthand
+  \(\tfrac12\operatorname{Tr}(\mathcal J^2)=d\phi^2\). Section 3.2 follows the
+  current symmetric-tensor typing in `founding.md`.
+
 ### G348 — `SUPPORTING_LEMMA`, `PARTIAL`
 
 - **Manuscript use:** Section 1 and Section 6 definitions of metric frequency,
@@ -602,7 +1008,8 @@ EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PRE
 
 | Join | Strongest statement in this edition | Missing authority |
 |---|---|---|
-| Founding ordered depth to null-path state | Both belong to the planned metric/kernel account; no identity is asserted here. | A source-grounded reconstruction matching objects and domains. |
+| Physical situation to founding depth | The reciprocal character is exact after ordered depth is supplied; a stationary Killing branch has a metric-native owner. | A general observer/event/path-to-depth law, including the signed-arrow/nonnegative-magnitude join. |
+| Founding depth to null-path state | Both are now typed in this manuscript, but no universal identity is asserted between \(\delta\), presentation \(\phi\), terminal pair readout, or metric frequency ratio. | The completed-pair construction and a supplied physical query; Section 4 is not yet synthesized. |
 | Metric geometry to carried content | Geometry supplies \(R\) and \(A\), not nonzero content. | A physical source/content premise or derivation. |
 | G350 to G351 | Exact after adding the owner-provisional conserved label measure. | Conservation is not metric-derived. |
 | G351 to G352 | Registry records an accepted conditional clock-rate readout. | Full source reconstruction is not yet in this manuscript. |
@@ -613,6 +1020,12 @@ EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PRE
 
 ## Appendix C. Evidence and review limits
 
+- The F1--F4 reconstruction separates interpretation, posit, convention,
+  declared readout, and derived consequence. Its equations do not derive the
+  physical map to depth or the function \(\phi(r)\).
+- G01/G02's exact reciprocal character is relational and applies on supplied
+  ordered depth. The factorization witness and branch-local Killing result are
+  boundaries on universal ownership, not competing metric laws.
 - G350's classification is an analytic theorem for its declared class. Large
   executable counts are regression evidence, not thousands of independent
   proofs.
@@ -630,6 +1043,15 @@ EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PRE
 
 ## Appendix D. Edition change record
 
+- **2026-09-05, reviewed foundations expansion:** reconstructed F1--F4 and
+  G01/G02; separated every premise, mathematical assumption, convention, and
+  declared readout from the derived reciprocal character; added the primary
+  metric readout, correctly typed representation current, factorization
+  freedom, stationary branch-local owner, and exact unresolved physical-depth
+  boundary. Fresh source-first fidelity review found one minor dependency-spine
+  omission: the short lineage omitted F3 reversal and the separate positivity
+  input although the body included both. The lineage was repaired, and final
+  review returned `ACCEPT` with no change to the scientific conclusion.
 - **2026-09-05, candidate pilot:** created the full manuscript skeleton; wrote
   the continuous G350–G351 pilot; added supporting G348/G349 definitions;
   acknowledged G352 without synthesizing it; recorded source grades,
