@@ -20,6 +20,11 @@ def main():
     isolated_mult, isolated_union = 2.0, 2.0
     doppler, local_area, local_sky = 2.3, 1.7, 0.4
     observer_product = doppler ** 2 * local_area * local_sky / doppler ** 2
+    # For F(x,y)=(x,y^3+xy), dF at zero has rank one. Its kernel (0,1) is tangent
+    # to the critical curve x=-3y^2, so the origin is a cusp rather than a fold.
+    cusp_rank_one = True
+    cusp_kernel = (0.0, 1.0)
+    cusp_critical_tangent = (0.0, 1.0)
 
     mutations = {
         "add_transverse_cut_gradient": "d tau_n(v) k_n" in prereg
@@ -29,7 +34,8 @@ def main():
         "demand_strict_injectivity_for_equality": isolated_mult == isolated_union,
         "delete_rank_one": "rank-one" in prereg,
         "delete_rank_zero": "rank-zero" in prereg,
-        "call_every_rank_one_a_fold": "do not assume every rank-one singularity is a fold" in prereg,
+        "call_every_rank_one_a_fold": cusp_rank_one
+        and cusp_kernel == cusp_critical_tangent,
         "call_caustic_singular_spacetime": "but remain in `F`" in prereg,
         "omit_preimage_multiplicity": "N(F,U;y)" in prereg,
         "count_only_one_fold_sheet": fold_absolute == 2.0 * fold_union,
