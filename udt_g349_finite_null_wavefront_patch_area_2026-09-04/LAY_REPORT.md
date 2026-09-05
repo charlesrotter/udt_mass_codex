@@ -1,7 +1,7 @@
 # G349 lay report — from one infinitesimal ray to a finite patch
 
 Date: 2026-09-04
-Grade: `PREREGISTERED_LOCALLY_REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
+Grade: `EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS`
 
 ## What we learned
 
@@ -34,6 +34,9 @@ a new light or transfer law.
 This does not say how much energy or brightness travels on a sheet, which paths are physically
 populated, how a detector responds, or which area should be called an observational distance. It
 also does not choose a metric history, physical scale, or `X_max`.
+
+The independent repair-only reviewer rebuilt the tricky zero-area null-sheet example from scratch,
+replayed every registered check, and accepted the repair without another defect.
 
 So the advance is real but bounded: the metric now owns a finite, caustic-aware geometric area for
 a supplied ray patch. The next layer will have to decide what physical information, if any, is

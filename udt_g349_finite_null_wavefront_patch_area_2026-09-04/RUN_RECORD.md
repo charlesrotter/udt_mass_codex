@@ -55,6 +55,29 @@ Date: 2026-09-04
 27. Fresh full repository regression: PASS `221`, XFAIL `1`, FAIL `0` in `402.34s`.
 28. Fresh full scientific-premise verifier: PASS `331` rows, current bounded startup route, archive
     integrity, relational-depth/orchestra and `X_max` guards, and all `754` historical dispositions.
+29. The corrected sealed 39-file repair intake contained `37` authenticated manifest payloads plus
+    its manifest and detached seal. External session `01a06fb2-58a2-79e1-855b-d481138c68fd`
+    reproduced aggregate `21/21`, production `44321/44321`, independent `14321/14321`, and hostile
+    `22/22` without changing intake bytes.
+30. The repair-only reviewer independently reconstructed the mixed screen-rank-one,
+    ordinary-rank-two null witness with exact rational arithmetic, confirmed zero Lorentzian metric
+    area despite positive auxiliary area, and returned `ACCEPT_G349_R1_R4_REPAIR_FOLLOWUP`.
+31. The exact 244-line response was retained byte-for-byte at SHA-256
+    `4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb`.
+32. The final 332-row premise audit passed. The first post-refresh full repository regression then
+    returned `220` passed, one registered xfail, and one failure: `HANDOFF.md` had regrown to `615`
+    words against its `600`-word readability limit. No scientific or executable check failed.
+33. The active handoff, memory, and index prose was compacted without changing status, ownership,
+    or the next gate. The failed regression remains recorded here rather than overwritten.
+34. The focused startup-readability replay exposed a second presentation-only defect: the compacted
+    `INDEX.md` remained within its line/word budgets but one frontier pointer was `291` characters,
+    above the `220`-character readability limit. The G347--G349 pointer was wrapped and an existing
+    two-line G213/G214 pointer was compacted to retain the overall line budget; no status changed.
+35. The repaired focused startup-readability replay passed `1/1`.
+36. The final full repository regression passed `221`, with one registered xfail and no failures,
+    in `402.57s`.
+37. The final aggregate no-write replay passed `21/21`, and the final scientific-premise audit
+    passed all `332` rows, including G349, plus all `754` historical dispositions.
 
 ## Registered commands
 

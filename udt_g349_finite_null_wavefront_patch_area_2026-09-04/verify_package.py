@@ -32,6 +32,8 @@ REPAIRED_SCRIPTS = {
 REPAIR_EVIDENCE = {
     "EXTERNAL_REVIEW_RESPONSE.md": "aadf46778a28a074550bb039139095ea3ef16a16c3deac1ec9903384334293c1",
     "REPAIR_PREREGISTRATION.md": "9dad6012e2251886b1506d5c1df23d67ec7ae07836c60122299fe1b148ba6a25",
+    "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md": "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+    "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md": "9d03d3a0a18af04380a8a596dba9afb567bc12780499a51661b94530ef46f862",
 }
 
 SOURCE_HASHES = {
@@ -180,7 +182,7 @@ def main():
         "checks_passed": sum(checks.values()),
         "checks_total": len(checks),
         "landing": production["landing"],
-        "review_status": "PREREGISTERED_LOCALLY_REPAIRED_PENDING_EXTERNAL_FOLLOWUP",
+        "review_status": "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS",
     }
     output = json.dumps(result, indent=2, sort_keys=True) + "\n"
     print(output, end="")

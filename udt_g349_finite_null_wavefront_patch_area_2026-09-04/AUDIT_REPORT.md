@@ -1,7 +1,10 @@
 # G349 audit report — finite null-wavefront patch area
 
 Date: 2026-09-04
-Grade: `PREREGISTERED_LOCALLY_REPAIRED_PENDING_EXTERNAL_FOLLOWUP`
+Grade: `EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS`
+
+Registry landing:
+`G349_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTS_R1_R4_AND_THE_BOUNDED_FINITE_METRIC_PATCH_AREA_THEOREM__SPACELIKE_SHEET_AREA_IS_THE_INTEGRAL_OF_THE_METRIC_TWO_JACOBIAN_WITH_PREIMAGE_MULTIPLICITY__GEOMETRIC_UNION_AREA_REQUIRES_GLOBAL_PREIMAGE_IDENTIFICATION__MIXED_ORDINARY_RANK_TWO_SCREEN_RANK_ONE_NULL_SHEETS_HAVE_ZERO_METRIC_AREA__NO_LIGHT_TRANSFER_DISTANCE_POPULATION_HISTORY_SCALE_XMAX_OR_CANON__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G349_SOURCE__CONFLICT_MEANS_STOP`
 
 ## Finding
 
@@ -45,10 +48,13 @@ also have zero Lorentzian metric two-area.
   `c2967132` before the scientific documents and scripts changed.
 - The repaired production and independent routes each contain a separate mixed-stratum check, and
   the repaired hostile route catches `22/22` mutations.
-- Repaired aggregate no-write verification passed `21/21` with byte stability. The fresh full
-  repository passed `221` tests with one registered expected failure; the full premise verifier
-  passed all `331` rows and `754` historical dispositions. External repair-only follow-up remains
-  required before banking.
+- Final repaired aggregate no-write verification passed `21/21` with byte stability. The final
+  full repository regression passed `221` tests with one registered expected failure; the final
+  premise verifier passed all `332` rows, including G349, and `754` historical dispositions.
+- The sealed repair-only reviewer authenticated all `37` payloads, reproduced aggregate `21/21`,
+  production `44321/44321`, independent `14321/14321`, and hostile `22/22`, and independently
+  reconstructed the mixed-rank witness with exact rational arithmetic. It found no remaining
+  R1--R4 defect or landing regression and returned `ACCEPT_G349_R1_R4_REPAIR_FOLLOWUP`.
 - Before repair, aggregate no-write verification passed `18/18`; the full repository suite passed `221` tests
   with one registered expected failure, and the 331-row scientific-premise registry plus all 754
   historical dispositions passed after the startup compactness repair at `b0393099`.
@@ -75,4 +81,4 @@ the supplied metric, source, patch, cut, rays, observers, endpoints, orientation
 physical population or weighting.
 
 No light, transfer, distance, history, occupancy, topology, stability, matter/mass, scale,
-`X_max`, or canon follows. Repair execution is not external follow-up acceptance.
+`X_max`, or canon follows. External acceptance closes only the preregistered bounded G349 theorem.

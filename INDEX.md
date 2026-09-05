@@ -1,7 +1,7 @@
 # INDEX — `LIVE.md` wins.
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`. 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 331-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 332-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
@@ -16,8 +16,7 @@
 - Robustness G206--G210: `udt_g206_g205_conformal_timelive_nonspherical_robustness_2026-08-21/`; `udt_g207_g205_tracefree_screen_timelive_robustness_2026-08-21/`;
   `udt_g208_g205_radial_screen_mixing_robustness_2026-08-21/`; `udt_g209_g205_timespace_shift_robustness_2026-08-21/`; `udt_g210_g205_spatial_volume_robustness_2026-08-21/`
 - Basis/history: `udt_g211_complete_diagonal_scalar_basis_closure_2026-08-22/`; `udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/`
-- Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`;
-  `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
+- Rank and cover descent: `udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/`; `udt_g214_completed_tuple_overlap_and_three_observer_carry_2026-08-22/`
 - Clock incidence/rate: `udt_g215_completed_scalar_shared_clock_incidence_descent_2026-08-22/`;
   `udt_g216_observer_event_comparison_clock_rate_ownership_2026-08-22/`; `udt_g217_founded_depth_event_pair_first_jet_ownership_2026-08-22/`
 - Clock-arrow bridge: `udt_g218_query_indexed_clock_correspondence_whiteboard_2026-08-22/`; `udt_g219_clock_arrow_dynamic_protocol_discrimination_2026-08-22/`
@@ -110,7 +109,8 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`; status/program/p
   G341/G342 null carry/beam: `udt_g341_nonprincipal_finite_null_relation_screen_carry_2026-09-04/`; `udt_g342_full_null_jacobi_beam_area_2026-09-04/`.
   G343/G344 phase space and endpoint generator: `udt_g343_bilocal_screen_phase_space_propagator_2026-09-04/`; `udt_g344_endpoint_generating_function_determinant_density_2026-09-04/`;
   G345/G346 scalar/directional area: `udt_g345_observer_calibrated_screen_scalar_2026-09-04/`; `udt_g346_directional_angular_area_reciprocity_2026-09-04/`.
-  G347/G348 observer covariance and generic caustics theorem: `udt_g347_arbitrary_endpoint_observer_angular_area_covariance_2026-09-04/`; `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`.
+  G347/G348 observer covariance and generic caustics theorem: `udt_g347_arbitrary_endpoint_observer_angular_area_covariance_2026-09-04/`; `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`;
+  G349 finite null-patch area: `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`.
 - Controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.

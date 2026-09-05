@@ -215,7 +215,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
-        "G348", "G347", "G346", "G345", "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+        "G349", "G348", "G347", "G346", "G345", "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
@@ -445,6 +445,7 @@ def validate_startup_surface(root: Path) -> None:
             "G346",
             "G347",
             "G348",
+            "G349",
             "G312 premises are owner-adopted provisionally.",
             "multibranch Einstein arena",
             "Local Metric Sufficiency",
@@ -1099,7 +1100,7 @@ def validate_startup_surface(root: Path) -> None:
             "positive conformal class",
             "Founded pair common scale",
             "bivector area bilinear",
-            "331 rows",
+            "332 rows",
         ),
         "README.md": (
             "LIVE.md",
@@ -1481,9 +1482,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 331, "premise registry must contain exactly 331 rows")
+    require(len(rows) == 332, "premise registry must contain exactly 332 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 331, "duplicate premise id")
+    require(len(by_id) == 332, "duplicate premise id")
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1834,6 +1835,11 @@ def main() -> None:
             "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED",
             "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
             "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED",
+        ),
+        "G349": (
+            "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_AFTER_PREREGISTERED_R1_R4_REPAIRS",
+            "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+            "G349_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTS_R1_R4_AND_THE_BOUNDED_FINITE_METRIC_PATCH_AREA_THEOREM",
         ),
     }
     for premise_id, (status_prefix, source, landing_token) in latest_rows.items():
@@ -2230,7 +2236,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -2305,7 +2311,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2384,7 +2390,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2477,7 +2483,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -5852,6 +5858,131 @@ def main() -> None:
             and "tautological hostile or text-token guards called mathematical proof"
             in g348_row["forbidden_regression"],
             "G348 scientific regression guard changed")
+
+    g349 = ROOT / "udt_g349_finite_null_wavefront_patch_area_2026-09-04"
+    for name in (
+        "AUDIT_REPORT.md",
+        "EXACT_DERIVATION.md",
+        "DERIVATION_RESULT.json",
+        "INDEPENDENT_VERIFICATION.json",
+        "CATCH_PROOF_RESULT.json",
+        "VERIFICATION_RESULT.json",
+        "EXTERNAL_REVIEW_RESPONSE.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md",
+        "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md",
+        "verify_package.py",
+    ):
+        require((g349 / name).is_file(), f"G349 evidence missing: {name}")
+    g349_production = json.loads((g349 / "DERIVATION_RESULT.json").read_text(
+        encoding="utf-8"
+    ))
+    g349_independent = json.loads((g349 / "INDEPENDENT_VERIFICATION.json").read_text(
+        encoding="utf-8"
+    ))
+    g349_hostile = json.loads((g349 / "CATCH_PROOF_RESULT.json").read_text(
+        encoding="utf-8"
+    ))
+    g349_package = json.loads((g349 / "VERIFICATION_RESULT.json").read_text(
+        encoding="utf-8"
+    ))
+    require(g349_production["status"] == "PASS"
+            and g349_production["assertions"] == 44321
+            and g349_production["failed"] == []
+            and g349_production["preregistration_commit"] == "84cb5264"
+            and g349_production["external_repair_preregistration_commit"] == "c2967132",
+            "G349 production evidence changed")
+    require(g349_independent["status"] == "PASS"
+            and g349_independent["assertions"] == 14321
+            and g349_independent["failed"] == []
+            and "imports no production" in g349_independent["method"],
+            "G349 independent reconstruction changed")
+    require(g349_hostile["status"] == "PASS"
+            and g349_hostile["caught"] == g349_hostile["total"] == 22
+            and g349_hostile["failed"] == []
+            and all(g349_hostile["mutations"].values()),
+            "G349 hostile controls changed")
+    require(g349_package["all_passed"] is True
+            and g349_package["checks_passed"] == g349_package["checks_total"] == 21
+            and g349_package["review_status"]
+            == "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R4_REPAIRS",
+            "G349 aggregate package evidence changed")
+
+    g349_before = {
+        path.relative_to(g349).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g349.rglob("*") if path.is_file() and "__pycache__" not in path.parts
+    }
+    g349_env = dict(os.environ)
+    g349_env["UDT_NO_WRITE"] = "1"
+    g349_env["PYTHONDONTWRITEBYTECODE"] = "1"
+    g349_replay = subprocess.run(
+        [sys.executable, "-B", "-S", str(g349 / "verify_package.py")],
+        cwd=g349,
+        env=g349_env,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=False,
+    )
+    require(g349_replay.returncode == 0 and '"checks_total": 21' in g349_replay.stdout,
+            f"G349 dependency-free no-write replay failed: {g349_replay.stderr}")
+    g349_after = {
+        path.relative_to(g349).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in g349.rglob("*") if path.is_file() and "__pycache__" not in path.parts
+    }
+    require(g349_before == g349_after, "G349 no-write replay changed evidence bytes")
+
+    g349_followup_path = g349 / "EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md"
+    g349_followup = g349_followup_path.read_text(encoding="utf-8")
+    require(hashlib.sha256(g349_followup_path.read_bytes()).hexdigest()
+            == "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb"
+            and g349_followup.rstrip().endswith("ACCEPT_G349_R1_R4_REPAIR_FOLLOWUP")
+            and "`r_F=2`" in g349_followup
+            and "`r_s=1`" in g349_followup
+            and "No defect remains within R1--R4" in g349_followup,
+            "G349 external repair acceptance changed")
+    g349_transmission = (g349 / "EXTERNAL_REPAIR_FOLLOWUP_TRANSMISSION.md").read_text(
+        encoding="utf-8"
+    )
+    for token in (
+        "39-file intake",
+        "gpt-5.6-sol",
+        "75b6692d7154db7568ceb9ae38b8afae974d57b958f52d5b3da7b568209135b3",
+        "01e40ce1a5b97f61a1edfafaa468b554304285efba94b746ffe647bb00af7417",
+        "1a07d11cb2e5b1ab81aeea2614bf4c26391b8def1c96669c011868ab0fed9727",
+        "4852b3a868b2920a1cc2e08c2fe4521a8e1e9b819dc56ea68cb124df700e0dcb",
+        "01a06fb2-58a2-79e1-855b-d481138c68fd",
+        "ACCEPT_G349_R1_R4_REPAIR_FOLLOWUP",
+    ):
+        require(token in g349_transmission, f"G349 transmission provenance absent: {token}")
+    g349_row = by_id["G349"]
+    require("R1_R4_PREREGISTERED_AT_C2967132" in g349_row["current_status"]
+            and "44321_PRODUCTION_ASSERTIONS" in g349_row["current_status"]
+            and "14321_IMPLEMENTATION_DISTINCT_ASSERTIONS" in g349_row["current_status"]
+            and "22_OF_22_HOSTILE_MUTATIONS_CAUGHT" in g349_row["current_status"]
+            and "ORDINARY_RANK_TWO_NULL_SHEETS_HAVE_ZERO_METRIC_AREA"
+            in g349_row["current_status"]
+            and "METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED" in g349_row["current_status"],
+            "G349 registry grade changed")
+    require("COMPLETE_FINITE_ENDPOINT_MAP" in g349_row["active_use"]
+            and "EVERY_ORDINARY_AND_TRANSVERSE_RANK_STRATUM_RETAINED"
+            in g349_row["active_use"]
+            and "GEOMETRIC_IMAGE_UNION" in g349_row["active_use"],
+            "G349 active-use boundary changed")
+    require("physical emitted or detected wave and carried content" in g349_row["open_scope"]
+            and "observational distance" in g349_row["open_scope"]
+            and "selected metric history topology occupancy and stability"
+            in g349_row["open_scope"]
+            and "physical Xmax observations and canon" in g349_row["open_scope"],
+            "G349 open boundary changed")
+    require("ordinary endpoint rank substituted for quotient-screen rank"
+            in g349_row["forbidden_regression"]
+            and "multiplicity-weighted sheet area confused with geometric union area"
+            in g349_row["forbidden_regression"]
+            and "general Lorentzian geometry called uniquely diagnostic of UDT"
+            in g349_row["forbidden_regression"]
+            and "documentary or token guards called mathematical proof"
+            in g349_row["forbidden_regression"],
+            "G349 scientific regression guard changed")
 
     g310_row = by_id["G310"]
     require("NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON"
@@ -18651,7 +18782,7 @@ def main() -> None:
     require(presentation["P04"]["status"] == "CHOSE_COMPARISON_CONFIGURATION", "DOF comparison branch promotion")
     require(presentation["P05"]["status"] == "DERIVED_FOUNDED_SUBGROUP__FULL_EXTENSION_OPEN", "DOF founded branch regression")
     print(
-        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348 startup and premise guards; PASS: {len(rows)}-row premise "
+        f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349 startup and premise guards; PASS: {len(rows)}-row premise "
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics"

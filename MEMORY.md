@@ -35,12 +35,16 @@ and sign flip; rank-zero conjugacy gives a double zero without a flip. Full phas
 while generator/inverse-area charts become singular. External review accepted without scientific
 repair. This is general Lorentzian geometry, not a finite beam, light law, distance, or UDT selector.
 
+G349 integrates patches: sheet area counts preimages; union needs global preimages. External review
+accepted R1--R4 after reconstruction. No content, transfer,
+distance, population, history, scale, or `X_max`.
+
 G190--G214 are formula-level regression, off-ray, and provenance controls. Active route:
 G197/G198/G199/G200/G201/G202/G203/G204/G205/G206/G207/G208/G209/G210/G211/G212/G213/G214/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227;
 G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258;
 G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289;
 G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321;
-G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348.
+G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349.
 
 ## Observations and premises
 
@@ -50,12 +54,10 @@ anchors; depth is supplied; pair `c_eff` is not automatically signal speed; stro
 
 ## Next gate
 
-Starting from G348, test the coordinate-free finite geometric null-exponential/wavefront map of a
-supplied small celestial patch. Retain folds, caustics, overlaps, sheets, path labels, and
-multiplicity; distinguish multiplicity-weighted absolute-Jacobian area from physical image-union
-area. Keep every metric/geodesic/observer/patch/cut/path supplied. Import no light, transfer,
-brightness/flux/luminosity/probability/detector, observational distance, population, history, scale,
-`X_max`, stability, or canon.
+Starting from G349, test whether frequency/redshift, finite area, reversal, and sewing uniquely fix
+nonzero carried content. Classify local multiplicative candidates and counterfamilies. Keep
+emission, detector, population, history, and scale supplied; import no observational transfer,
+distance, matter, `X_max`, stability, or canon.
 
 Authority: `CURRENT_SCIENTIFIC_PREMISES.tsv`. Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,

@@ -67,8 +67,17 @@ configuration-space generator or inverse area scalar is only chartwise. Fresh `g
 accepted without scientific repair. This is a general Lorentzian geometric theorem, not a uniquely
 UDT selector or finite-beam/light-transfer/distance result.
 
+G349 integrates that infinitesimal density over any supplied compact regular celestial patch. The
+result is finite metric sheet area counted with spacelike preimage multiplicity; geometric union
+area additionally needs the full endpoint map to identify overlaps. Caustics, folds, cusps,
+ordinary/screen rank differences, orientations, finite observers, and path labels remain typed.
+Initial external review found an ordinary-rank-two but screen-rank-one null-sheet gap; R1--R4 were
+preregistered, repaired, and accepted by fresh `gpt-5.6-sol` follow-up after an independent exact
+reconstruction. No emitted wave, carried content, transfer, distance, population, history, scale,
+or `X_max` follows. Metric, kernel, angular sector, and equation are unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G348 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G349 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -76,10 +85,10 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349.
 
-Authority: the exact 331-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G348 external
-acceptance without required repair and with non-blocking scope caveats retained.
+Authority: the exact 332-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G349 external
+acceptance after preregistered R1--R4 repairs and with scope caveats retained.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -103,11 +112,11 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G348, test whether its infinitesimal null-screen Jacobian integrates into a
-coordinate-free finite geometric null-exponential/wavefront patch map on a supplied small celestial
-patch of an arbitrary smooth metric. Retain folds, caustics, overlapping sheets, path labels, and
-multiplicity; distinguish the multiplicity-weighted integral of the absolute Jacobian from the area
-of the physical image union. Keep the metric, geodesic, source observer, patch, affine cut, and paths
-supplied. Do not infer a light/emission/brightness/flux/luminosity/probability/detector model,
-observational distance, preferred observer/route/population, history, matter, scale, `X_max`, or canon.
+Starting from G349, determine whether metric-derived frequency/redshift, finite sheet area,
+reversal, and sewing uniquely determine any nonzero scalar carried-content or transfer law across
+supplied cuts. Classify all admissible local multiplicative candidates and build counterfamilies if
+they remain free. Keep emission/content, detector, path population, metric history, and scale
+supplied; do not import brightness, flux, luminosity, probability, observational distance, matter,
+`X_max`, or canon. At most close the ownership boundary between metric geometry and a new radiative
+premise.
 <!-- STARTUP_CURRENT_END -->
