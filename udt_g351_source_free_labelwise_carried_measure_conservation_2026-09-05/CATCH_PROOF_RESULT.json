@@ -1,0 +1,59 @@
+{
+  "all_passed": true,
+  "baseline_failures": [],
+  "caught": {
+    "change_bounded_science": true,
+    "create_from_zero": true,
+    "divide_zero_density": true,
+    "finite_caustic_density": true,
+    "import_light_physics": true,
+    "promote_full_measure_to_density": true,
+    "promote_premise_to_derived": true,
+    "replace_measure_by_union": true,
+    "select_cross_label_physics": true,
+    "select_p": true,
+    "wrong_frequency_weight": true,
+    "wrong_q": true
+  },
+  "classification": "MATHEMATICAL_WITNESS_AND_SEMANTIC_REGRESSION_GUARD",
+  "diagnostics": {
+    "change_bounded_science": [
+      "bounded ceiling violated"
+    ],
+    "create_from_zero": [
+      "conservation cannot create source content"
+    ],
+    "divide_zero_density": [
+      "zero density requires division-free equality rather than a ratio"
+    ],
+    "finite_caustic_density": [
+      "inverse-area density need not remain finite at caustics"
+    ],
+    "import_light_physics": [
+      "light or energy physics imported"
+    ],
+    "promote_full_measure_to_density": [
+      "an arbitrary finite measure may have a singular part with no ordinary density"
+    ],
+    "promote_premise_to_derived": [
+      "conservation premise ownership changed"
+    ],
+    "replace_measure_by_union": [
+      "geometric union drops label multiplicity"
+    ],
+    "select_cross_label_physics": [
+      "measure additivity does not select physical aggregation"
+    ],
+    "select_p": [
+      "conservation does not select observer weight"
+    ],
+    "wrong_frequency_weight": [
+      "frequency exponent violates conservation witness"
+    ],
+    "wrong_q": [
+      "area exponent violates conservation witness"
+    ]
+  },
+  "mutations_caught": 12,
+  "mutations_total": 12
+}

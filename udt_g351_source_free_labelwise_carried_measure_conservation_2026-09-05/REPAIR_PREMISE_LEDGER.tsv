@@ -1,0 +1,15 @@
+item	status	role_after_R1
+source_free_label_measure_conservation	OWNER_ADOPTED_PROVISIONAL_PREMISE	full finite nonnegative additive measure is unchanged between supplied regular cuts; not derived or canon
+lebesgue_decomposition	MATHEMATICAL_METHOD	separates absolutely continuous and singular parts without adding physical content
+regular_area_equivalence	DERIVED_FROM_SUPPLIED_REGULAR_GEOMETRY	positive finite Jacobians make regular sheet-area measures mutually absolutely continuous
+nonzero_ac_density	BOUNDED_THEOREM_DOMAIN	only this component receives an ordinary transfer exponent
+inverse_area_q_minus_one	DERIVED_CONDITIONAL	Radon--Nikodym chain rule plus G350 full independent positive character domain
+observer_weight_p	OPEN_NOT_SELECTED	arbitrary real representation weight
+fixed_omega_reference	MATHEMATICAL_DIMENSIONAL_REFERENCE	one common positive reference makes real powers dimensionless and cancels from transfer ratios
+singular_measure_component	SUPPLIED_OR_GENERATED_BY_PUSHFORWARD	carried as a measure; no ordinary area density or q
+zero_measure	SUPPLIED_OPEN	remains zero; cannot identify an exponent alone
+source_population	SUPPLIED_OPEN	conservation creates neither content nor populated labels
+caustic_pushforward	DERIVED_CONDITIONAL_WEAK_MEASURE	full finite measure persists while pointwise density may fail or diverge
+light_energy_detector_distance	OPEN_NOT_DERIVED	no transfer interpretation selected
+metric_kernel_response_history_scale_Xmax	UNCHANGED_OPEN	no geometry, history, occupancy, or scale selection
+canon	OPEN	Charles alone canonizes

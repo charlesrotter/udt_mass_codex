@@ -1,0 +1,31 @@
+{
+  "all_passed": true,
+  "atomic_counterexample_dimension": 2,
+  "atomic_counterexample_passed": true,
+  "caustic_families": 120,
+  "checks_passed": 60325,
+  "checks_total": 60325,
+  "density_scope": "NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_COMPONENT",
+  "exact_arithmetic": true,
+  "failed": [],
+  "landing": "OWNER_PROVISIONAL_SOURCE_FREE_LABEL_MEASURE_CONSERVATION__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__OBSERVER_WEIGHT_P_REMAINS_ARBITRARY__T_P_EQUALS_R_TO_P_A_INVERSE_WITH_IDENTITY_SEWING_REVERSAL_AND_COVARIANCE__FULL_FINITE_MEASURE_REMAINS_DEFINED_THROUGH_CAUSTIC_RANK_LOSS_WHILE_POINTWISE_DENSITY_NEED_NOT__SINGULAR_MEASURE_PART_HAS_NO_ORDINARY_DENSITY_EXPONENT__SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_AND_CANON_REMAIN_OPEN",
+  "measure_cases": 1200,
+  "metric_kernel_changed": false,
+  "observer_weight_selected": false,
+  "p_values": [
+    "-5/2",
+    "-2",
+    "-1",
+    "-1/3",
+    "0",
+    "1/3",
+    "1",
+    "2",
+    "7/3"
+  ],
+  "premise_status": "OWNER_ADOPTED_PROVISIONAL_PREMISE",
+  "random_seed": 3510905,
+  "regular_log_cases": 3600,
+  "selected_area_weight": "-1",
+  "singular_part_has_ordinary_q": false
+}

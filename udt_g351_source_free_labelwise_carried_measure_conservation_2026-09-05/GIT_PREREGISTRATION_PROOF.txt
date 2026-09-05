@@ -1,0 +1,7 @@
+commit 42e4824111aa76890b20483d22cc23bb848aecaf
+AuthorDate: Sat Sep 5 12:30:50 2026 -0400
+CommitDate: Sat Sep 5 12:30:50 2026 -0400
+Subject: Preregister G351 carried-measure conservation
+
+The commit was pushed to origin/grok before any G351 calculation was executed. It contains only
+MAP.md, PREMISE_LEDGER.tsv, PREREGISTRATION.md, and SOURCE_SCOPE.tsv.

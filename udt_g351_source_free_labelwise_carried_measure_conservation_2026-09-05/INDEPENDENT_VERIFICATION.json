@@ -1,0 +1,29 @@
+{
+  "all_passed": true,
+  "assertions": 11290,
+  "atomic_counterexample_dimension": 2,
+  "atomic_counterexample_passed": true,
+  "checks_passed": 11290,
+  "checks_total": 11290,
+  "density_scope": "NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_COMPONENT",
+  "exact_arithmetic": true,
+  "failed": [],
+  "imports_production": false,
+  "landing": "OWNER_PROVISIONAL_SOURCE_FREE_LABEL_MEASURE_CONSERVATION__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__OBSERVER_WEIGHT_P_REMAINS_ARBITRARY__T_P_EQUALS_R_TO_P_A_INVERSE_WITH_IDENTITY_SEWING_REVERSAL_AND_COVARIANCE__FULL_FINITE_MEASURE_REMAINS_DEFINED_THROUGH_CAUSTIC_RANK_LOSS_WHILE_POINTWISE_DENSITY_NEED_NOT__SINGULAR_MEASURE_PART_HAS_NO_ORDINARY_DENSITY_EXPONENT__SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_AND_CANON_REMAIN_OPEN",
+  "p_selected": false,
+  "p_witnesses": [
+    "-3",
+    "-2",
+    "-1",
+    "-1/2",
+    "0",
+    "1/2",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "q_unique_given_measure_conservation": true,
+  "reads_production_result": false,
+  "singular_part_has_ordinary_q": false
+}
