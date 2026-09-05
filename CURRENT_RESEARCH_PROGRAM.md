@@ -2,7 +2,7 @@
 
 Date: 2026-09-04
 
-`LIVE.md` controls status; the 329-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 330-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -85,6 +85,12 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   External review accepted without required repair. Normal observers and the labelled ray remain
   supplied; no finite beam, transfer, brightness, flux, luminosity, probability, physical distance,
   route/population, scale, or `X_max` is selected.
+- G347 replaces the supplied normal endpoint observers by arbitrary finite future-timelike
+  observers. Observer screens are isometric representatives of the intrinsic null quotient;
+  celestial area transforms by the inverse squared frequency factor, and each directional area
+  transforms by its source factor squared. Squared-frequency reversal, inverse-G345 geometric
+  mean, and stationary sewing retain covariant form. External review accepted without repair.
+  No preferred observer/population, light law, distance, scale, or `X_max` is selected.
 
 ## Open boundary
 
@@ -92,15 +98,17 @@ The corpus owns the evaluator, screen-before-readout, frame carry, bounded respo
 many legal data/developments, G332 constraint embedding, G333--G337's response jets, G338's exact
 finite-time pair evaluation, G339's carry typing, G340's finite-pair causal geometry, G341's full
 cone/carry tile, G342's two-screen Jacobi map, G343's full bilocal phase-space propagator, and
-G344's endpoint generator and bidensity, G345's observer-calibrated scalar, and G346's two
-directional infinitesimal angular-area Jacobians. It
+G344's endpoint generator and bidensity, G345's observer-calibrated scalar, G346's two
+directional infinitesimal angular-area Jacobians, and G347's arbitrary-endpoint-observer
+covariance law. It
 does not own populated germs, a physical
 operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
 history. G332 supplies constraint witnesses; G333--G337 close bounded initial response jets but
-leave arbitrary transport and global evolution open. G338--G346 then supply one explicit finite-time
+leave arbitrary transport and global evolution open. G338--G347 then supply one explicit finite-time
 pair/carry evaluation, finite-separated causal geometry, full path-labelled null cone, two-screen
 Jacobi map, bilocal phase-space propagator, endpoint generator/bidensity, observer-calibrated
-scalar, and its two directional angular-area maps. Generic G332 finite-time
+scalar, its two directional angular-area maps, and their arbitrary finite-timelike observer
+covariance. Generic G332 finite-time
 development, the complete third-zero locus, and global persistence also remain open. The
 metric, kernel, angular cancellation, and adopted equation are unchanged.
 
@@ -110,13 +118,12 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Starting only from G340/G343/G346's metric-owned null relation, screen propagator, and directional
-area pair, replace the supplied normal endpoint observers by arbitrary future timelike unit
-observers. Derive or refute the exact metric-native transformation of frequency, local sky solid
-angle, screen coordinates, and both directional area Jacobians under independent endpoint changes.
-Test whether squared-frequency reversal and the inverse-G345 mean retain covariant form, including
-general screen coordinates, affine gauge, principal directions, finite boosts short of null, and
-each compact path label. Do not import finite-beam evolution, brightness, flux, luminosity,
-probability, observational-distance selection, or a light/transfer model or infer a preferred
-observer, route/protocol/population, global persistence, topology selection, stability, occupancy,
+Starting from G343--G347, test whether the observer-covariant directional-area package extends as
+a coordinate-free theorem to every supplied regular null segment of an arbitrary four-dimensional
+Lorentzian UDT metric. Rederive the quotient-screen Jacobi propagator, symplectic reversal, two
+directional areas, and arbitrary endpoint-observer transformation directly from the metric.
+Classify conjugate/rank-loss crossings and orientation signs without dropping singular branches.
+Do not import finite-beam evolution, brightness, flux, luminosity, probability,
+observational-distance selection, or a light/transfer model or infer a preferred observer,
+route/protocol/population, global persistence, topology selection, stability, occupancy,
 matter/mass, observations, scale, `X_max`, or canon.

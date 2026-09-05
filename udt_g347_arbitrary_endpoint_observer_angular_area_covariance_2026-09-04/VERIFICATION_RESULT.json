@@ -1,0 +1,30 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "compact_labels_not_aggregated": true,
+    "external_review_acceptance": true,
+    "external_transmission_provenance": true,
+    "finite_boost_boundary": true,
+    "frozen_script_hashes": true,
+    "frozen_source_hashes": true,
+    "hostile_22_of_22": true,
+    "independent_23547_of_23547": true,
+    "native_not_imported_optics": true,
+    "no_write_replay_derive_endpoint_observer_covariance.py": true,
+    "no_write_replay_run_catch_proofs.py": true,
+    "no_write_replay_verify_endpoint_observer_covariance_independent.py": true,
+    "preregistered_without_retuning": true,
+    "production_73924_of_73924": true,
+    "quotient_screen_isometry": true,
+    "reversal_and_G345_covariance": true,
+    "scope_and_premise_guard": true,
+    "sky_frequency_conformality": true,
+    "source_doppler_squared_areas": true,
+    "stationary_sewing_covariance": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "landing": "EXACT_FINITE_TIMELIKE_ENDPOINT_OBSERVER_COVARIANCE_CLOSES__QUOTIENT_SCREEN_ISOMETRY_AND_INVERSE_FREQUENCY_SKY_CONFORMALITY__SOURCE_DOPPLER_SQUARED_DIRECTIONAL_AREAS__SQUARED_FREQUENCY_REVERSAL_INVERSE_G345_MEAN_AND_STATIONARY_SEWING_RETAIN_COVARIANT_FORM__NO_PREFERRED_OBSERVER_LIGHT_DISTANCE_POPULATION_SCALE_OR_XMAX_SELECTED",
+  "review_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED"
+}

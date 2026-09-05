@@ -1,0 +1,33 @@
+{
+  "assertions": 23547,
+  "failed": [],
+  "finite_difference_cases": 206,
+  "maxima": {
+    "finite_difference_aberration": 1.6742648933920634e-11,
+    "independent_GL2_area": 8.318559823663775e-16,
+    "independent_GL2_scalar": 7.52497610863024e-16,
+    "independent_affine_area": 6.425577975418936e-16,
+    "independent_baseline_sewing": 8.72707753603437e-16,
+    "independent_changed_sewing": 7.897415532309498e-16,
+    "independent_forward_factor": 4.556192904052194e-16,
+    "independent_join_frequency": 3.647502373463188e-16,
+    "independent_mean": 3.021875433824442e-16,
+    "independent_reversal": 4.0294404953294204e-16,
+    "independent_reverse_factor": 4.518078844236951e-16,
+    "independent_scalar_change": 3.7628528593942325e-16,
+    "projected_area": 1.5210055437364645e-14,
+    "projected_length": 2.842170943040401e-14,
+    "projected_observer_orthogonality": 7.815970093361102e-14,
+    "projected_ray_orthogonality": 2.2737367544323206e-13,
+    "rapidity_frequency": 5.062833622702183e-15,
+    "rapidity_unit": 3.637978807078478e-12,
+    "shared_omega0": 0.0,
+    "shared_omega1": 0.0,
+    "shared_omega2": 0.0,
+    "sky_area_factor": 1.2533114872353991e-14,
+    "sky_derivative_scale": 2.914335439641036e-15
+  },
+  "method": "independent rapidity-chart Lorentz reconstruction, quotient projection, five-point celestial finite differences, reference-free Simpson bilocal blocks, and explicit determinant sewing; imports no production or G340/G343/G345/G346 implementation",
+  "near_null_cases": 345,
+  "status": "PASS"
+}

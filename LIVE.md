@@ -40,41 +40,25 @@ Hopf fibres; arbitrary frame carry remains supplied; exact silence passes to hig
 conditional local classifications, not finite-time/global stability, occupancy/history selection,
 matter/mass, scale, `X_max`, or canon. Metric, kernel, angular sector, and equation are unchanged.
 
-G338--G346 are externally accepted bounded evaluations on one supplied G323/G324 Taub/Kasner
-spacetime. G338 gives the finite-time complete-pair response under declared commuting carry; G339
-separates fixed-label observer separation from parallel/Fermi ruler carry. G340 distinguishes
-same-slice length, path-labelled null exchange, chosen radar, and projective clock contrast. G341
-closes the full per-lift future-null inverse and cone rank: compact alternatives keep path labels,
-and zero screen-quotient rotation does not erase mixed G269 carry. G342 derives the complete
-source-normalized two-screen Jacobi map: both widths, rates, and oriented area stay positive;
-expansion decreases but remains positive; shear vanishes only longitudinally or at the vertex.
-G343 closes the corresponding full bilocal four-by-four screen phase-space map between arbitrary
-positive-time endpoints. In one common affine gauge it composes exactly, is symplectic, and
-reverses by matrix inverse; separately normalized endpoints are related by the already-derived
-metric frequency ratio. The arbitrary reference event is pure bookkeeping, not a hidden scale.
-G344 derives the corresponding homogeneous quadratic endpoint generator on every noncoincident
-segment of each fixed labelled ray. Its negative mixed Hessian is the inverse-transpose position
-block and its determinant is a positive affine-weighted endpoint screen bidensity. It composes by
-stationary elimination, reverses, remains regular at both principal limits, and retains compact
-path labels. An additive endpoint coboundary remains a harmless generator normalization; no scalar
-flux, probability, luminosity, or observational distance has been derived.
-G345 combines that bidensity with both endpoint observers' metric frequencies and metric screen
-area forms. The resulting positive scalar is invariant under common affine rescaling, the marked
-reference event, and independent endpoint `GL(2)` screen coordinates; it is symmetric under
-reversal and obeys stationary sewing with a normalized join factor. The form is unique only inside
-the declared reversal-symmetric first-power determinant monomial class. By itself it is not a
-directional angular-area map, physical distance, brightness, flux, probability, or selected protocol.
-G346 derives both directional infinitesimal metric area/sky-angle Jacobians: their ratio is the
-squared endpoint-frequency ratio and their mean is inverse G345. All declared gauges, reversals,
-sewing, limits, coincidence, and compact labels close. Fresh `gpt-5.4` review authenticated and
-independently accepted the bounded result. Normal observers and the ray remain supplied; no finite
-beam, light/brightness law, physical distance, route, or observation is selected.
+G338--G347 are externally accepted bounded evaluations on one supplied G323/G324 Taub/Kasner
+spacetime. G338--G341 separate pair response, ruler carry, slice/null/radar/projective relations,
+and path-labelled cone lifts. G342/G343 close the two-screen Jacobi map and bilocal symplectic
+propagator with composition, reversal, frequency reset, and no hidden reference scale. G344 adds
+the endpoint generator and affine-weighted screen bidensity; its additive coboundary is only
+normalization. G345 cancels affine/reference/`GL(2)` weights into a reversal-symmetric scalar with
+typed sewing. G346 resolves it into two directional infinitesimal metric angular-area Jacobians:
+their ratio is squared endpoint frequency and their geometric mean is inverse G345.
+G347 removes the normal-observer restriction. Every finite future-timelike endpoint observer sees
+an isometric quotient screen and an inverse-frequency-squared sky area; each directional area gains
+only its source factor squared, while reversal, mean, and sewing retain covariant form. Fresh
+`gpt-5.6-sol` review accepted without repair. Covariance is not numerical observer invariance; null
+observers remain a singular boundary and no preferred observer or population is chosen.
 Null timing and geometric beam response require no phenomenological light model, but emission,
 brightness, transfer, detection, route/population, generic stability, occupancy/history, topology,
 scale, `X_max`, and canon remain open. Metric, kernel, angular sector, and equation are unchanged.
 
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G346 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G347 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -82,10 +66,10 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347.
 
-Authority: the exact 329-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G346 external
-acceptance without required repair and with non-blocking verifier-quality caveats retained.
+Authority: the exact 330-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G347 external
+acceptance without required repair and with non-blocking scope caveats retained.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -109,10 +93,12 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G340/G343/G346, replace either normal endpoint observer by an arbitrary future
-timelike unit observer. Derive the metric-native changes in frequency, sky angle, screen, and both
-directional areas; test reversal and inverse-G345 mean through finite boosts short of null. Retain
-all gauges, principal directions, and compact labels. Do not infer finite beams, light/brightness,
+Starting from G343--G347, test whether the observer-covariant directional-area package is a
+coordinate-free theorem on every supplied regular null segment of an arbitrary four-dimensional
+Lorentzian UDT metric, rather than a property of the supplied Taub/Kasner example. Rederive the
+quotient-screen Jacobi propagator, symplectic reversal, two directional areas, and arbitrary
+endpoint-observer law directly from the metric; classify conjugate/rank-loss crossings and
+orientation signs without deleting them. Do not infer finite beams, light/brightness/transfer,
 observational distance, preferred observer/route/population, occupancy, matter, scale, `X_max`,
 stability, or canon.
 <!-- STARTUP_CURRENT_END -->

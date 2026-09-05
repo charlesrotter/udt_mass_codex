@@ -1,9 +1,11 @@
 item	status	note
-G347_preregistration	READY_UNBANKED	outcomes unseen; must commit and push before execution
-production	NOT_RUN	frozen command in COMMANDS.md
-independent_verification	NOT_RUN	implementation-distinct route required
-hostile_mutations	NOT_RUN	minimum mutation list frozen
-external_review	NOT_REQUESTED	fresh sealed adversarial review required before result banking
-endpoint_observer_covariance	OPEN	alternatives A through D frozen
+G347_preregistration	PASS	c80d2666 committed and pushed before outcome execution
+production	PASS	73924 of 73924 including 1200 boosts above 0.99
+independent_verification	PASS	23547 of 23547 including independent rapidity chart and sky finite differences
+hostile_mutations	PASS	22 of 22 caught
+aggregate_no_write_replay	PASS	19 of 19 after recorded wording-only repair
+external_review	PASS	gpt-5.6-sol authenticated 28 payloads and accepted without required repair
+external_scratch_reconstruction	PASS	10831 of 10831 checks; maximum normalized error 2.4771164354994268e-08
+endpoint_observer_covariance	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	alternative A with Q1 S1 A1 R1 G1 N1 B1 P1
 preferred_observer_light_distance_scale_Xmax	OPEN_NOT_DERIVED	outside maximum conclusion
 canon	OPEN	Charles alone canonizes

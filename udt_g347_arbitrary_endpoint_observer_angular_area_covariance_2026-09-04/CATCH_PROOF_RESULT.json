@@ -1,0 +1,30 @@
+{
+  "caught": 22,
+  "failed": [],
+  "mutations": {
+    "G345_endpoint0_factor_omitted": true,
+    "G345_endpoint1_factor_omitted": true,
+    "G345_factor_inverted": true,
+    "G345_not_inverted_in_mean": true,
+    "affine_B_not_rescaled": true,
+    "arithmetic_mean_used": true,
+    "compact_lifts_summed_or_selected": true,
+    "doppler_factor_reversed": true,
+    "forbidden_physical_promotion": true,
+    "join_factor_left_unchanged": true,
+    "join_factor_multiplied_by_D1_squared": true,
+    "negative_scope_token_load_bearing": true,
+    "nonisometric_projection_sign": true,
+    "null_observer_boundary_made_regular": true,
+    "null_rotation_term_omitted": true,
+    "numerical_observer_invariance_declared": true,
+    "one_sky_power": true,
+    "preferred_observer_promotion": true,
+    "screen_dual_map_reversed": true,
+    "sky_factor_not_inverse": true,
+    "target_doppler_added_to_forward_area": true,
+    "transverse_boost_deleted": true
+  },
+  "status": "PASS",
+  "total": 22
+}
