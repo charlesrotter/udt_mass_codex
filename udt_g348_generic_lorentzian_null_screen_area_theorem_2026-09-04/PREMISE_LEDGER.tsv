@@ -11,7 +11,7 @@ Jacobi_equation	DERIVED_CANDIDATE	metric geodesic-deviation linearization; reder
 screen_rank	PINNED_BY_THEORY_FROM_DIMENSION	two because spacetime dimension is four
 tidal_profile	FREE_AND_EXPLORED_QUERY_DATA	arbitrary self-adjoint two-screen curvature profile
 rank_B	FREE_AND_EXPLORED_QUERY_DATA	rank two one and zero all retained
-conjugate_crossing_order	FREE_AND_EXPLORED_QUERY_DATA	simple multiple and degenerate zeros classified
+conjugate_crossing_order	DERIVED_CANDIDATE	test whether Wronskian forces zero order equal to kernel dimension
 screen_orientation	SUPPLIED_OPTIONAL_STRUCTURE	signed determinant only after compatible orientations; absolute area needs none
 common_affine_scale	FREE_AND_EXPLORED_GAUGE	all positive rescalings
 endpoint_GL2_coordinates	FREE_AND_EXPLORED_GAUGE	arbitrary well-conditioned passive changes

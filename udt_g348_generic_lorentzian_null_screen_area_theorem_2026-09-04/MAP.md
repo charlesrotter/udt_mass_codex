@@ -76,9 +76,9 @@ The theorem must not assume `det B>0` or delete conjugate endpoints.
   generator is singular, while the full symplectic phase map remains invertible.
 - the sign of oriented `det B` is meaningful only after compatible endpoint orientations are
   supplied; the orientation-free area uses `|det B|`;
-- across a finite-order zero, the oriented sign changes exactly when the determinant's zero order
-  is odd. Rank alone does not settle a degenerate crossing. A simple rank-one crossing flips sign;
-  a transverse rank-zero double crossing does not.
+- test whether the conserved Wronskian forces every conjugate crossing to be transverse, with
+  determinant-zero order equal to `dim ker B`. If it does, rank one flips the oriented sign and
+  rank zero is a double zero without a sign flip; any higher-order counterexample must be retained.
 
 ## Required classifications
 
@@ -86,7 +86,8 @@ The theorem must not assume `det B>0` or delete conjugate endpoints.
 2. Derive the full phase-space symplectic law without a coordinate or field-equation ansatz.
 3. Derive composition, reversal, affine typing, and screen-coordinate covariance.
 4. Derive both directional areas and arbitrary endpoint-observer factors.
-5. Retain and classify rank-two, rank-one, rank-zero, coincidence, and noncoincident conjugate cases.
+5. Retain and classify rank-two, rank-one, rank-zero, coincidence, and noncoincident conjugate cases;
+   prove Wronskian-forced transversality or exhibit the counterexample.
 6. State exactly where generator, inverse determinant, and stationary sewing charts fail.
 7. Separate oriented sign from positive metric area and avoid a false global positivity claim.
 8. State all supplied spacetime, geodesic, endpoint, observer, path, and operational dependence.

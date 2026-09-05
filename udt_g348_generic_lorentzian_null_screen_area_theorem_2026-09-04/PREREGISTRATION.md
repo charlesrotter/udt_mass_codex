@@ -37,6 +37,8 @@ remain supplied and separate.
 - observers: `O1__G347_SOURCE_FACTOR_COVARIANCE_IS_POINTWISE_GENERIC` or `O2__SPACETIME_SPECIFIC`;
 - singular strata: `C1__FULL_PHASE_FLOW_REGULAR_WHILE_AREA_RANK_DROPS` or
   `C2__CONJUGATE_POINT_INVALIDATES_FULL_TRANSPORT`;
+- crossing order: `X1__WRONSKIAN_FORCES_ZERO_ORDER_EQUAL_TO_KERNEL_DIMENSION` or
+  `X2__HIGHER_ORDER_DEGENERATE_METRIC_JACOBI_CROSSING_EXISTS`;
 - orientation: `S1__ABSOLUTE_AREA_IS_INTRINSIC_AND_ORIENTED_SIGN_NEEDS_ORIENTATION_DATA` or
   `S2__UNIVERSAL_POSITIVE_ORIENTED_DETERMINANT`;
 - sewing: `W1__TYPE_I_STATIONARY_SEWING_IS_CHARTWISE_ONLY` or `W2__GLOBAL_BARE_SEWING`;
@@ -102,9 +104,11 @@ mathscr_A'_(0<-1)=D_1^2 mathscr_A_(0<-1).
    symplectic; the type-I generator and inverse determinant scalar are singular.
 3. `rank B=0`: the same singular-chart conclusion holds with a two-direction rank loss. Coincidence
    is one rank-zero example but need not be the only one.
-4. On any punctured interval where `det B` is nonzero, its oriented sign is constant. At an isolated
-   finite-order zero of order `m`, the sign changes iff `m` is odd. Rank does not determine `m` at
-   a degenerate crossing.
+4. On any interval where `det B` is nonzero, its oriented sign is constant. Freeze as a candidate,
+   not an assumption, that the Wronskian maps `ker B` injectively onto the metric-orthogonal
+   complement of `im B`; if proved, the determinant-zero order equals `dim ker B`. In two screen
+   dimensions rank one then gives a simple sign-changing zero, while rank zero gives a double zero
+   with no sign change. Alternative `X2` wins if any genuine metric Jacobi counterexample exists.
 5. An oriented determinant is intrinsic only after compatible endpoint orientations are supplied.
    Under reversal in those transported orientations, two screen dimensions make
    `det(-B^*)=det B`. Under arbitrary independent orientation changes, only `|det B|` is invariant.
@@ -119,9 +123,9 @@ mathscr_A'_(0<-1)=D_1^2 mathscr_A_(0<-1).
    reversal, and the `B` adjoint law.
 3. Derive affine, arbitrary `GL(2)`, orientation, observer-screen, sky-area, and directional-area
    transformations without assuming a preferred orthonormal frame.
-4. Exhibit rank-two, simple rank-one, transverse rank-zero, higher-order/degenerate, coincidence,
-   and nonconjugate negative-tide witnesses. A branch is characterized, never rejected for having
-   zero area or a singular type-I chart.
+4. Exhibit rank-two, simple rank-one, transverse rank-zero, coincidence, and nonconjugate
+   negative-tide witnesses. Prove `X1` or exhibit a genuine higher-order/degenerate `X2` witness.
+   A branch is characterized, never rejected for zero area or a singular type-I chart.
 5. Production must execute at least 20,000 standard-library-only checks across noncommuting
    symmetric two-screen tidal profiles, exact constant-tide witnesses, endpoint orders, affine
    scales, endpoint coordinates, observer changes, and all rank strata.
@@ -134,6 +138,7 @@ mathscr_A'_(0<-1)=D_1^2 mathscr_A_(0<-1).
    nonsymplectic flow; wrong reversal transpose/sign; forced `det B>0`; deletion of rank-one or
    rank-zero cases; treating singular `B` as singular `M`; finite inverse determinant at a caustic;
    false global stationary sewing; missing absolute value; orientation-free signed determinant;
+   wrong conjugate zero order or an unproved degenerate crossing;
    wrong affine power; target observer factor; numerical observer invariance; summed path labels;
    or promotion to light, distance, population, scale, `X_max`, or canon.
 9. Every executable must run with `python3 -S`, support `UDT_NO_WRITE=1`, and preserve package
