@@ -1,0 +1,24 @@
+item	status	role
+Lorentzian_metric	SUPPLIED_ARBITRARY	smooth time-oriented four-dimensional metric; no field equation or symmetry selected
+source_event	SUPPLIED_QUERY_DATA	common source vertex p
+source_observer	SUPPLIED_QUERY_DATA	finite future unit timelike observer defining one celestial sky presentation
+celestial_patch	FREE_AND_EXPLORED_QUERY_DATA	arbitrary compact piecewise-smooth patch within a regular congruence domain
+null_geodesic_family	SUPPLIED_QUERY_DATA	all future source rays labelled by the patch
+affine_cut	FREE_AND_EXPLORED_QUERY_DATA	arbitrary positive smooth cut inside common regular existence domain
+null_exponential_map	PINNED_BY_THEORY_FROM_METRIC	F(n)=exp_p(tau(n) k(n)) on the supplied domain
+Levi_Civita_connection	PINNED_BY_THEORY_FROM_METRIC	unique torsion-free metric-compatible connection
+Jacobi_differential	PINNED_BY_G348	metric differential of each supplied ray map
+metric_two_Jacobian	DERIVED_CANDIDATE	positive sheet-area density from induced spacelike quotient metric
+map_critical_set	FREE_AND_EXPLORED_QUERY_DATA	rank two one and zero retained; no injectivity or genericity filter
+preimage_multiplicity	DERIVED_CANDIDATE	global integer-valued count from the full supplied finite map
+path_labels	SUPPLIED_OPTIONAL_STRUCTURE	kept separately; disjoint-union census is mathematical not physical weighting
+orientations	SUPPLIED_OPTIONAL_STRUCTURE	needed only for signed sheet coefficient
+area_formula	CATEGORY_A_METHOD	standard smooth-map integration theorem; no physical transfer content
+quadrature_and_root_counting	CATEGORY_A_METHOD	numerical verification only
+auxiliary_Riemannian_chart_measure	CATEGORY_A_METHOD	proof scaffold for pseudo-Riemannian area formula; final spacelike density independent of it
+owner_provisional_response_equation	OMITTED_NOT_NEEDED	the theorem is tested for every supplied smooth metric
+light_transfer_detector	OMITTED	no emission absorption intensity or detection
+brightness_flux_luminosity_probability_distance	OMITTED	no observational transfer or distance selection
+preferred_observer_route_population	OPEN	no selection weighting or aggregation
+history_occupancy_stability_matter_mass_scale_Xmax	OPEN	no attachment or selection
+canon	OPEN	Charles alone canonizes
