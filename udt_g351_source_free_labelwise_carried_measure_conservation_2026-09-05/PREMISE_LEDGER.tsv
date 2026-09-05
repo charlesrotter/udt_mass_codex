@@ -1,0 +1,22 @@
+item	status	role
+Lorentzian_metric	SUPPLIED_ARBITRARY	smooth time-oriented four-dimensional metric; no field equation or symmetry selected
+label_space	SUPPLIED_QUERY_DATA	measurable labels for one future-null family
+label_to_cut_maps	PINNED_BY_G348_G349	metric-defined labelled maps to supplied cuts
+metric_frequency_ratio_R	PINNED_BY_G346_G348	positive endpoint observer contraction ratio
+metric_sheet_area_ratio_A	PINNED_BY_G349	positive Jacobian ratio on regular screen-rank-two cuts
+G350_character_family	DERIVED_CONDITIONAL_BOUNDED	T_(p,q)=R^p A^q on the declared local continuous positive multiplicative class
+carried_measure	OWNER_ADOPTED_PROVISIONAL_PREMISE	finite nonnegative additive measure on populated label sets
+source_free_labelwise_conservation	OWNER_ADOPTED_PROVISIONAL_PREMISE	the same label measure is retained between cuts
+observer_frequency_weight_p	FREE_AND_EXPLORED	arbitrary real endpoint-readout weight
+area_weight_q	TO_BE_DERIVED_CONDITIONAL	candidate consequence q=-1 of measure conservation
+source_measure	SUPPLIED_OPEN	zero and arbitrary finite nonzero measures retained
+label_population	SUPPLIED_OPEN	no physical ray population selected
+caustic_rank_loss	PINNED_BY_G348_G349	label measure retained while pointwise area-density chart may diverge or fail
+disjoint_label_additivity	PART_OF_ADOPTED_MEASURE_PREMISE	measure addition only; no phase or interference
+cross_label_physical_aggregation	OPEN	pushforward multiplicity is mathematical; detector resolution is absent
+signed_or_complex_amplitude	OMITTED_OPEN	would require additional phase and carry premises
+source_sink_balance	OMITTED_OPEN	would require an independent source law
+Maxwell_QED_photon_energy	OMITTED_NOT_USED	must not select p or interpret the carrier
+emission_absorption_detector_brightness_luminosity_distance	OMITTED_OPEN	no observational transfer claim
+history_occupancy_matter_mass_scale_Xmax	OPEN	no attachment or selection
+canon	OPEN	Charles alone canonizes
