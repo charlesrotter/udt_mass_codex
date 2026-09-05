@@ -1,0 +1,24 @@
+item	status	role
+Lorentzian_metric	SUPPLIED_ARBITRARY	smooth time-oriented four-dimensional metric; no field equation or symmetry selected
+labelled_null_family	SUPPLIED_QUERY_DATA	one supplied future-null family and its measurable transverse labels
+ordered_cuts	FREE_AND_EXPLORED_QUERY_DATA	identity reversal and all three-cut orderings on the common retained domain
+endpoint_observers	FREE_AND_EXPLORED_QUERY_DATA	arbitrary finite future unit timelike observers
+metric_frequency_ratio_R	PINNED_BY_G347_G348	positive proper-time phase-frequency ratio between endpoints
+metric_sheet_area_ratio_A	PINNED_BY_G349	positive Jacobian ratio on regular screen-rank-two cuts
+G350_character_family	DERIVED_CONDITIONAL_BOUNDED	T_(p,q)=R^p A^q on the declared full positive local character domain
+G351_conserved_label_measure	OWNER_ADOPTED_PROVISIONAL_PREMISE	finite nonnegative countably additive source-free label measure; q=-1 for its nonzero absolutely continuous regular density
+causal_phase_event_coordinate	SUPPLIED_BY_G352_PREMISE_OR_QUERY	monotone dimensionless Theta with future-null gradient on the retained family
+phase_crossing_spacing	SUPPLIED_CONVENTION	fixed positive DeltaTheta; common rescaling must cancel from the readout
+clock_rate_readout	OWNER_ADOPTED_PROVISIONAL_PREMISE	crossings per observer proper time per metric sheet area
+clock_rate_observer_weight	TO_BE_DERIVED_CONDITIONAL	candidate p=1 only for the adopted clock-rate readout
+observer_neutral_density_p0	RETAINED_CONDITIONAL	G351 bare measure density remains a distinct readout
+other_observer_weights	RETAINED_OPEN	other physical readout types are not excluded or selected
+source_measure	SUPPLIED_OPEN	zero and arbitrary finite nonzero measures retained
+phase_source_and_population	SUPPLIED_OPEN	geometry does not create crossings or populate labels
+caustic_rank_loss	PINNED_BY_G348_G349	frequency-weighted measure may survive while ordinary density may diverge or fail
+frequency_integrability	CHOSE_BOUNDED_REGULARITY	positive observer frequency integrable against the supplied finite measure on the retained patch
+cross_label_physical_aggregation	OPEN	measure pushforward is mathematical; detector addition cancellation and interference absent
+exact_algebra_and_measure_theory	CATEGORY_A_METHOD	certification and analytic derivation only
+Maxwell_QED_photon_energy_luminosity	OMITTED_NOT_USED	may not select or interpret the clock-rate readout
+history_occupancy_matter_mass_scale_Xmax	OPEN	no attachment or selection
+canon	OPEN	Charles alone canonizes
