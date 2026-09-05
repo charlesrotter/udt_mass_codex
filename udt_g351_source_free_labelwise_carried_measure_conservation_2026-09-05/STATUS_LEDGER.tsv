@@ -5,7 +5,7 @@ analytic_derivation	DERIVED_CONDITIONAL	nonzero absolutely continuous regular de
 production	PASS_LOCAL_EXACT_REPAIRED	60325/60325 exact rational assertions including atomic counterexample
 independent_verification	PASS_LOCAL_EXACT_REPAIRED	11290/11290 implementation-distinct assertions including atomic counterexample
 hostile_catches	PASS_LOCAL_REPAIRED	12/12 mathematical and semantic mutations caught
-aggregate_verifier	PASS_LOCAL_NO_WRITE_FINAL	43/43 after R1-R4 and completion acceptance
+aggregate_verifier	PASS_LOCAL_NO_WRITE_FINAL	45/45 after R1-R5 and completion acceptance
 area_weight_q	DERIVED_CONDITIONAL_MINUS_ONE	nonzero absolutely continuous regular density inside G350 declared full abstract character domain
 observer_weight_p	OPEN_NOT_SELECTED	all real p retained; rational witnesses span both signs and zero
 carried_measure	OWNER_ADOPTED_PROVISIONAL_PREMISE	full finite nonnegative additive label measure conserved; need not have ordinary density
@@ -16,5 +16,5 @@ cross_label_physics	OPEN_NOT_SELECTED	pushforward multiplicity is not detector a
 metric_kernel_equation	UNCHANGED	no geometry or response-law modification
 light_flux_luminosity_distance	OPEN_NOT_DERIVED	no observational transfer claim
 history_occupancy_matter_mass_scale_Xmax	OPEN	no attachment or selection
-external_review	PENDING_SEALED_EXTERNAL_REVIEW	R4 completion reviewer accepted; final sealed external review still required
+external_review	PENDING_SEALED_EXTERNAL_REVIEW	R4 scientific completion accepted; R5 sealed-package repair passed locally; final external review still required
 canon	OPEN	Charles alone canonizes

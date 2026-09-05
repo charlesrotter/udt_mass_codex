@@ -29,8 +29,8 @@ part; that part has no ordinary density exponent.
   reproduced by both implementations. The repair was preregistered before execution.
 - R2--R4 repaired exact notation, moved the atomic witness into the two-dimensional screen domain,
   and synchronized evidence state. The final repair-only internal reviewer returned `ACCEPT`.
-- Final aggregate no-write package replay: 43/43, including exact saved-state and review-source
-  guards.
+- Final aggregate no-write package replay: 45/45, including exact saved-state, review-source, and
+  sealed-package self-containment guards.
 
 ## Caustic statement
 

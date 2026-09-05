@@ -33,4 +33,12 @@ the saved aggregate and these evidence-state surfaces.
 
 R4 synchronized the saved state and added exact aggregate guards. The repair-only completion
 reviewer returned `ACCEPT`; the final aggregate passed 43/43 without changing package bytes or
-creating bytecode. Sealed external review remains pending.
+creating bytecode.
+
+Before transmission, the first sealed-copy replay exposed that the builder had omitted itself even
+though the aggregate verifier requires it. R5 was committed and pushed before repair. The builder
+now includes every package file required by the verifier, and the aggregate checks this containment
+directly. The R5 sealed-copy aggregate passed 45/45 without changing package bytes or creating
+bytecode. An ephemeral hostile copy with the builder self-entry removed was rejected at 43/45,
+with the new containment guard and saved-state exactness both failing. The defective intake was
+superseded and was not transmitted. Sealed external review remains pending.

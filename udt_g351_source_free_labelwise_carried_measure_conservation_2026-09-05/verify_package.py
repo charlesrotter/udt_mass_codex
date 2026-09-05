@@ -69,9 +69,10 @@ def frozen_source_hashes_pass():
 def stdlib_only_pass():
     allowed = {
         "ast", "fractions", "hashlib", "json", "os", "pathlib", "random",
-        "subprocess", "sys",
+        "shutil", "subprocess", "sys", "tempfile",
     }
     for name in (
+        "build_review_intake.py",
         "derive_carried_measure_conservation.py",
         "verify_carried_measure_independent.py",
         "run_catch_proofs.py",
@@ -108,6 +109,16 @@ def builder_sources_match_scope():
     return configured is not None and set(configured) == set(declared)
 
 
+def builder_package_files():
+    tree = ast.parse((HERE / "build_review_intake.py").read_text(encoding="utf-8"))
+    for node in tree.body:
+        if isinstance(node, ast.Assign) and any(
+            isinstance(target, ast.Name) and target.id == "PACKAGE_FILES" for target in node.targets
+        ):
+            return tuple(ast.literal_eval(node.value))
+    return ()
+
+
 def main():
     required = (
         "ADVERSARIAL_REVIEW_REQUEST.md", "AUDIT_REPORT.md",
@@ -120,6 +131,7 @@ def main():
         "PREMISE_LEDGER.tsv", "PREREGISTRATION.md", "REPAIR_EXECUTION_RECORD.md",
         "R2_REPAIR_PREREGISTRATION.md", "R3_REPAIR_PREREGISTRATION.md",
         "R4_COMPLETION_REVIEW_RESPONSE.md", "R4_REPAIR_PREREGISTRATION.md",
+        "R5_PACKAGING_REPAIR_PREREGISTRATION.md",
         "REPAIR_PREMISE_LEDGER.tsv",
         "REPAIR_PREREGISTRATION.md",
         "RUN_RECORD.md", "SOURCE_SCOPE.tsv",
@@ -164,6 +176,9 @@ def main():
         "aggregate_replay_changes_no_bytes": before == after,
         "stdlib_only_imports": stdlib_only_pass(),
         "review_builder_sources_match_scope": builder_sources_match_scope(),
+        "review_builder_includes_all_required_package_files": set(required).issubset(
+            set(builder_package_files())
+        ),
         "owner_premise_visible": "OWNER_ADOPTED_PROVISIONAL_PREMISE" in premises
         and "not derived" in exact,
         "area_weight_unique_in_bounded_domain": "q=-1" in exact
@@ -221,15 +236,23 @@ def main():
         "r4_repair_preregistered": "G351 R4 saved-aggregate and evidence-state repair preregistration" in (
             HERE / "R4_REPAIR_PREREGISTRATION.md"
         ).read_text(encoding="utf-8"),
+        "r5_packaging_repair_preregistered": (
+            "G351 R5 sealed-package self-containment repair preregistration" in (
+                HERE / "R5_PACKAGING_REPAIR_PREREGISTRATION.md"
+            ).read_text(encoding="utf-8")
+            and "omitted `build_review_intake.py`" in (
+                HERE / "R5_PACKAGING_REPAIR_PREREGISTRATION.md"
+            ).read_text(encoding="utf-8")
+        ),
         "evidence_gates_internal_complete": (
             "INTERNALLY_VERIFIED_PENDING_SEALED_EXTERNAL_REVIEW" in evidence_gates
-            and "Final aggregate replay is 43/43" in evidence_gates
+            and "Final aggregate replay is 45/45" in evidence_gates
         ),
         "status_ledger_internal_complete": (
-            "PASS_LOCAL_NO_WRITE_FINAL\t43/43" in status_ledger
+            "PASS_LOCAL_NO_WRITE_FINAL\t45/45" in status_ledger
             and "PENDING_SEALED_EXTERNAL_REVIEW" in status_ledger
         ),
-        "run_record_r1_r4_complete": "final aggregate passed 43/43" in run_record,
+        "run_record_r1_r5_complete": "R5 sealed-copy aggregate passed 45/45" in run_record,
         "r4_completion_review_acceptance": r4_review.rstrip().endswith("```")
         and "\nACCEPT\n" in r4_review and "repair completion only" in r4_review,
         "registered_no_write_commands": sum(
