@@ -1,7 +1,7 @@
 # INDEX — `LIVE.md` wins.
 1. Follow `AGENTS.md`. 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`. 3. Read `CURRENT_RESEARCH_PROGRAM.md`. 4. Read `CURRENT_SCIENTIFIC_PREMISES.md`; run `python3 verify_current_scientific_premises.py`.
 5. Read `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`. 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report. 7. After orientation, query only load-bearing evidence.
-## Active relational frontier — authority: 332-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
+## Active relational frontier — authority: 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv`
 - Evaluator/pair descent: `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`; `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`
 - Spherical pullback: `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`; completed-pair premise: `udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/`
 - Scaffold audit: `udt_g177_completed_pair_kernel_scaffolding_regression_audit_2026-08-19/`; `udt_g178_completed_pair_kernel_fresh_adversarial_review_2026-08-19/`
@@ -110,7 +110,8 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`; status/program/p
   G343/G344 phase space and endpoint generator: `udt_g343_bilocal_screen_phase_space_propagator_2026-09-04/`; `udt_g344_endpoint_generating_function_determinant_density_2026-09-04/`;
   G345/G346 scalar/directional area: `udt_g345_observer_calibrated_screen_scalar_2026-09-04/`; `udt_g346_directional_angular_area_reciprocity_2026-09-04/`.
   G347/G348 observer covariance and generic caustics theorem: `udt_g347_arbitrary_endpoint_observer_angular_area_covariance_2026-09-04/`; `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`;
-  G349 finite null-patch area: `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`.
+  G349 finite null-patch area: `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`;
+  G350 carried-content ownership boundary: `udt_g350_frequency_area_carried_content_ownership_2026-09-05/`.
 - Controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.

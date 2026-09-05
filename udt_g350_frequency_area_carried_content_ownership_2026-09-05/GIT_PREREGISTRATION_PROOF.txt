@@ -1,0 +1,15 @@
+G350 OUTCOME-UNSEEN PREREGISTRATION PROOF
+
+commit 2b050a38521cf311a1c833555a47f47de9a364fa
+Author: Charles Rotter <charles@charlesrotter.com>
+AuthorDate: Sat Sep 5 09:11:28 2026 -0400
+CommitDate: Sat Sep 5 09:11:28 2026 -0400
+
+    Preregister G350 carried-content ownership
+
+The commit added 12 files and 758 lines, including MAP.md, PREREGISTRATION.md,
+PREMISE_LEDGER.tsv, COMPLETENESS_MAP.md, SOURCE_SCOPE.tsv, all three executable routes, and
+FROZEN_PREREGISTRATION_HASHES.tsv. It was pushed to origin/grok before the first scientific
+execution. Exact frozen file hashes are retained in FROZEN_PREREGISTRATION_HASHES.tsv.
+
+First outcome chronology is recorded in PREREGISTRATION_EXECUTION_NOTE.md and RUN_RECORD.md.

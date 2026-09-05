@@ -1,0 +1,11 @@
+{
+  "all_passed": true,
+  "checks_passed": 4000,
+  "checks_total": 4000,
+  "direct_cases": 2000,
+  "log_domain_cases": 2000,
+  "max_log_domain_absolute_error": 4.547473508864641e-13,
+  "max_mixed_absolute_relative_normalized_error": 1.0706291899391277e-14,
+  "seed": 3500531,
+  "tolerance": 2e-11
+}

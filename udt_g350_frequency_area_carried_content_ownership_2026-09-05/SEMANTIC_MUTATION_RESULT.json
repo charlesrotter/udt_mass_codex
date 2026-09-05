@@ -1,0 +1,23 @@
+{
+  "all_passed": true,
+  "checks": {
+    "abstract_group_witness_separates_named_characters": true,
+    "caustic_one_sided_limits_exchange_zero_and_infinity": true,
+    "comparison_dependent_pair_weights_rejected": true,
+    "cross_label_aggregation_not_selected": true,
+    "endpoint_zero_cochain_sews": true,
+    "metric_characters_allow_q_minus_one": true,
+    "metric_characters_allow_q_zero": true,
+    "metric_only_q_zero_does_not_preserve_new_invariant": true,
+    "new_invariant_selects_q_minus_one": true,
+    "nonlinear_log_character_rejected": true,
+    "observer_covariance_allows_p_two": true,
+    "observer_covariance_allows_p_zero": true,
+    "simultaneous_zero_ratio_is_path_dependent": true,
+    "zero_area_has_no_positive_group_inverse": true
+  },
+  "checks_passed": 14,
+  "checks_total": 14,
+  "failed": [],
+  "method": "independent semantic mutant witnesses"
+}

@@ -1,0 +1,21 @@
+{
+  "all_passed": true,
+  "cases": 5000,
+  "caustic_classification": {
+    "q_negative": "infinity",
+    "q_positive": "zero",
+    "q_zero": "finite_frequency_factor",
+    "reversal": "zero_infinity_exchange"
+  },
+  "character_family": "log T=p log R+q log A",
+  "checks_passed": 35295,
+  "checks_total": 35295,
+  "endpoint_coboundary_family_survives": true,
+  "imports_production": false,
+  "method": "exact rational logarithmic character reconstruction",
+  "nonlinear_log_candidate_fails_sewing": true,
+  "reads_production_result": false,
+  "seed": 935005,
+  "source_normalization_remains_free": true,
+  "valid_distinct_characters": 6
+}

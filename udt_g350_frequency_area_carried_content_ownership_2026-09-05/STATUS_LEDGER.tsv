@@ -1,13 +1,20 @@
 item	status	note
-G350_preregistration	FROZEN_OUTCOME_UNSEEN	awaiting commit and push before execution
-production	NOT_RUN	registered dependency-free direct positive-ratio checks
-independent_verification	NOT_RUN	registered exact rational logarithmic reconstruction
-hostile_mutations	NOT_RUN	25 preregistered claim mutations
-external_review	NOT_RUN	fresh sealed review only after local evidence closes
-continuous_character_classification	OPEN	primary alternatives A--D frozen
-observer_weight	OPEN	no carried scalar type selected
+G350_preregistration	PASS	outcome-unseen commit 2b050a38 pushed before execution
+production	PASS_LOCAL_FROZEN	120010/120010; historical field named max_relative_error computes a mixed normalized diagnostic
+repair_numerics	PASS_LOCAL	4000/4000; 2000 direct plus 2000 wide-log checks; maxima 1.0706291899391277e-14 and 4.547473508864641e-13
+independent_formula_verification	PASS_LOCAL	35295/35295 implementation-distinct exact rational logarithmic formula checks; not completeness proof
+historical_contract_guard	PASS_LIMITED	25/25 hard-coded contract fields enumerated; not semantic hostile proof
+semantic_mutations	PASS_LOCAL_REPAIR	14/14 independent semantic witnesses
+aggregate_replay	PASS_LOCAL_REPAIRED	first 21/23 documentary-only failure; repaired replay 23/23 byte-stable
+post_external_repair_aggregate	PASS_LOCAL	30/30 byte-stable; original frozen and new repair routes reproduced
+repository_regression	PASS	221 passed one registered xfail zero failures
+premise_audit	PASS	333 current rows and 754 historical dispositions after final startup banking
+external_review	ACCEPT_WITH_CAVEATS	central theorem retained; precision and evidence repairs R1-R4 required
+external_repair_followup	ACCEPT	ACCEPT_G350_R1_R4_REPAIR_FOLLOWUP; no remaining defect or scientific regression
+continuous_character_classification	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_AFTER_PREREGISTERED_R1_R4_REPAIRS	alternative B unchanged; T=R^p A^q for arbitrary real p q
+observer_weight	OPEN_NOT_SELECTED	covariance types p but does not fix it
 sheet_conservation	NEW_PREMISE_CANDIDATE_NOT_ADOPTED	conditional discriminator only
 source_content	OPEN	zero and arbitrary nonzero values retained
-caustic_transfer	OPEN	zero-area boundary retained
+caustic_transfer	OPEN_NOT_SELECTED	positive pointwise ratio chart ends at zero area; supplied measure needed
 light_distance_population_scale_Xmax	OPEN_NOT_DERIVED	outside maximum conclusion
 canon	OPEN	Charles alone canonizes

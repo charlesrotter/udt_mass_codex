@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-04
+## CURRENT STATE — 2026-09-05
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides older status prose.
 
@@ -76,8 +76,19 @@ preregistered, repaired, and accepted by fresh `gpt-5.6-sol` follow-up after an 
 reconstruction. No emitted wave, carried content, transfer, distance, population, history, scale,
 or `X_max` follows. Metric, kernel, angular sector, and equation are unchanged.
 
+G350 closes the next ownership boundary. On one supplied retained label and the common positive
+screen-rank-two stratum, every continuous positive local multiplier built only from metric
+frequency ratio `R` and metric sheet-area ratio `A`, with identity and exact multiplicative sewing
+on the chosen full abstract domain, is `T_(p,q)=R^p A^q` for arbitrary real `p,q`. Reversal and
+observer covariance select neither weight. Inverse-area behavior requires a new unadopted
+conservation premise; nonzero source content, caustic continuation, and cross-label aggregation
+remain supplied or open. Fresh `gpt-5.6-sol` review accepted the theorem with precision caveats;
+R1--R4 were preregistered, repaired without changing frozen scientific evidence, and accepted on
+repair-only follow-up. No carried field, light/flux/luminosity law, distance, population, history,
+scale, or `X_max` follows. Metric, kernel, angular sector, and equation are unchanged.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G349 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G350 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -85,9 +96,9 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350.
 
-Authority: the exact 332-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G349 external
+Authority: the exact 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G350 external
 acceptance after preregistered R1--R4 repairs and with scope caveats retained.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -112,11 +123,12 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G349, determine whether metric-derived frequency/redshift, finite sheet area,
-reversal, and sewing uniquely determine any nonzero scalar carried-content or transfer law across
-supplied cuts. Classify all admissible local multiplicative candidates and build counterfamilies if
-they remain free. Keep emission/content, detector, path population, metric history, and scale
-supplied; do not import brightness, flux, luminosity, probability, observational distance, matter,
-`X_max`, or canon. At most close the ownership boundary between metric geometry and a new radiative
-premise.
+Starting from G350's proven nonuniqueness, MAP and PONDER the smallest independent carried-object
+premise lattice: what is carried, its observer weight, whether a labelwise conservation or local
+balance rule is adopted, and how it continues through caustics or across labels. State each option
+as a new premise with distinct consequences; do not choose `p` or `q` from habit or observations.
+Keep source content, detector, path population, metric history, and scale supplied; import no
+photon/energy model, brightness, flux, luminosity, probability, observational distance, matter,
+`X_max`, or canon. No derivation or computation begins until Charles chooses whether this physical
+layer belongs in UDT.
 <!-- STARTUP_CURRENT_END -->

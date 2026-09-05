@@ -1,0 +1,35 @@
+{
+  "all_passed": true,
+  "candidate_weights_selected": false,
+  "cases": 12000,
+  "caustic_extension_selected": false,
+  "character_family": "T_(p,q)(R,A)=R^p A^q",
+  "checks_passed": 120010,
+  "checks_total": 120010,
+  "max_relative_error": 4.537593487734792e-15,
+  "named_counterfamily": {
+    "T_00": 1.0,
+    "T_01": 2.3,
+    "T_0m1": 0.4347826086956522,
+    "T_10": 1.7,
+    "T_1m1": 0.7391304347826088,
+    "T_2m1": 1.2565217391304349
+  },
+  "nonzero_source_selected": false,
+  "seed": 3500509,
+  "selected_primary_alternative": "B__CONTINUOUS_LOCAL_MULTIPLICATIVE_TRANSFERS_FORM_A_NONUNIQUE_CHARACTER_FAMILY",
+  "selected_secondary_alternatives": [
+    "K1__LOG_T_IS_LINEAR_P_LOG_R_PLUS_Q_LOG_A",
+    "R1__IDENTITY_AND_SEWING_IMPLY_RECIPROCAL_REVERSAL",
+    "O1__COVARIANCE_TYPES_P_BUT_DOES_NOT_SELECT_IT",
+    "S1__Q_MINUS_ONE_FOLLOWS_ONLY_AFTER_A_NEW_CONSERVATION_PREMISE",
+    "Z1__METRIC_FREQUENCY_EXISTS_BUT_CARRIED_FREQUENCY_WEIGHT_IS_OPEN",
+    "N1__HOMOGENEOUS_TRANSFER_PRESERVES_ZERO_AND_NEEDS_SOURCE_DATA",
+    "E1__ENDPOINT_COBOUNDARIES_WIDEN_THE_CANDIDATE_CLASS",
+    "C1__POSITIVE_RATIO_TRANSFER_IS_REGULAR_STRATUM_ONLY",
+    "L1__PER_LABEL_ONLY_WITH_NO_METRIC_WEIGHT_OR_SUM",
+    "P1__OWNERSHIP_BOUNDARY_ONLY"
+  ],
+  "sheet_conservation_derived": false,
+  "tolerance": 2e-11
+}

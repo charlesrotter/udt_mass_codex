@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-09-04
+Date: 2026-09-05
 
-`LIVE.md` controls status; the 332-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ G129--G165/G166--G184/G185--G189/G190--G198/G197/G198/G199/G200/G201/G202/G203/G
 G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/G230/G231/G232/G233/G234/G235/G236/G237/G238/G239/G240/G241/G242/G243/G244/G245;
 G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/G275/G276;
 G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308;
-G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349.
+G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350.
 
 - G129--G198 covers reconstruction, pair pullback, scaffold exclusion, and formula-level regression;
   G197/G198 protect provenance and germ boundaries. P1, fitted kernels, Lambda-CDM distance,
@@ -104,11 +104,17 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
   screen-rank-one null sheets have zero metric area. Caustics, orientations, observers, and labels
   remain typed. Fresh external repair follow-up accepted preregistered R1--R4 after independent
   exact reconstruction. This is geometry, not emitted content, transfer, distance, or population.
+- G350 classifies the declared continuous positive local frequency/area multiplicative rules on
+  one supplied retained label as `T_(p,q)=R^p A^q`, with arbitrary real `p,q`. Reversal, sewing,
+  and observer covariance do not select the weights. Inverse area requires a new unadopted
+  conservation premise; source content, caustic continuation, and cross-label aggregation remain
+  supplied/open. Fresh review caveats were preregistered, repaired, and accepted on repair-only
+  follow-up without changing the bounded theorem or any frozen scientific evidence.
 
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
-legal data/developments, G332 constraint witnesses, G333--G337 response jets, and G338--G349's
+legal data/developments, G332 constraint witnesses, G333--G337 response jets, and G338--G350's
 finite-pair and finite-patch null-screen geometry summarized above. It does not own populated
 germs, physical operational distance, initial-data occupancy, a unique universe, scale,
 matter/mass, or realized history. Arbitrary transport, global evolution, generic G332 finite-time
@@ -122,10 +128,9 @@ follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:
 
 ## Current next gate
 
-Starting from G349, test whether metric-derived frequency/redshift, finite sheet area, reversal, and
-sewing uniquely determine any nonzero scalar carried-content or transfer law across supplied cuts.
-Classify admissible local multiplicative candidates and construct counterfamilies if free. Keep
-emission/content, detector, path population, metric history, and scale supplied. Do not import
-brightness, flux, luminosity, probability, observational distance, matter, `X_max`, or canon. The
-maximum result is an ownership boundary: metric-unique geometric transport or a demonstrated need
-for an additional radiative premise.
+Starting from G350's demonstrated nonuniqueness, MAP/PONDER the smallest independent
+carried-object premise lattice: define what is carried, its observer weight, whether labelwise
+conservation or local balance is adopted, and how caustics and labels are handled. Keep every
+candidate visibly `NEW PREMISE`; do not choose `p` or `q` from habit or observations. No derivation
+or computation begins until Charles decides whether this physical layer belongs in UDT. Keep
+source, detector, population, history, scale, matter, `X_max`, and canon supplied or open.

@@ -1,0 +1,32 @@
+{
+  "all_passed": true,
+  "caught": [
+    "assert_unique",
+    "delete_identity",
+    "fix_p",
+    "fix_q",
+    "derive_conservation",
+    "fix_frequency_weight",
+    "create_source",
+    "break_zero",
+    "omit_reversal",
+    "break_sewing",
+    "additive_transfer",
+    "drop_observer_covariance",
+    "claim_observer_invariance",
+    "claim_exhaustive",
+    "remove_coboundaries",
+    "finite_inverse_area_at_caustic",
+    "delete_caustics",
+    "sum_labels_physically",
+    "import_photon_energy",
+    "promote_brightness",
+    "promote_distance",
+    "promote_matter",
+    "select_scale_xmax",
+    "promote_canon",
+    "wrong_primary"
+  ],
+  "mutations_caught": 25,
+  "mutations_total": 25
+}
