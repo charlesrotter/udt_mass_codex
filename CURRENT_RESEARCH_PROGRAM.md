@@ -102,24 +102,13 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 ## Open boundary
 
 The corpus owns the evaluator, screen-before-readout, frame carry, bounded response constitution,
-many legal data/developments, G332 constraint embedding, G333--G337's response jets, G338's exact
-finite-time pair evaluation, G339's carry typing, G340's finite-pair causal geometry, G341's full
-cone/carry tile, G342's two-screen Jacobi map, G343's full bilocal phase-space propagator, and
-G344's endpoint generator and bidensity, G345's observer-calibrated scalar, G346's two
-directional infinitesimal angular-area Jacobians, G347's arbitrary-endpoint-observer covariance
-law, and G348's arbitrary-smooth-metric theorem with conjugate-crossing classification. It
-does not own populated germs, a physical
-operational distance, initial-data occupancy, a unique universe, scale, matter/mass, or realized
-history. G332 supplies constraint witnesses; G333--G337 close bounded initial response jets but
-leave arbitrary transport and global evolution open. G338--G347 supply one explicit finite-time
-pair/carry evaluation, finite-separated causal geometry, full path-labelled null cone, two-screen
-Jacobi map, bilocal phase-space propagator, endpoint generator/bidensity, observer-calibrated
-scalar, its two directional angular-area maps, and their arbitrary finite-timelike observer
-covariance; G348 proves their infinitesimal coordinate-free content generally. A finite geometric
-patch/wavefront theorem, and the distinction between multiplicity-weighted and image-union area,
-remain open. Generic G332 finite-time
-development, the complete third-zero locus, and global persistence also remain open. The
-metric, kernel, angular cancellation, and adopted equation are unchanged.
+legal data/developments, G332 constraint witnesses, G333--G337 response jets, and G338--G348's
+finite-pair and infinitesimal null-screen geometry summarized above. It does not own populated
+germs, physical operational distance, initial-data occupancy, a unique universe, scale,
+matter/mass, or realized history. Arbitrary transport, global evolution, generic G332 finite-time
+development, the complete third-zero locus, and global persistence remain open. So do a finite
+geometric wavefront-patch theorem and the distinction between multiplicity-weighted and image-union
+area. The metric, kernel, angular cancellation, and adopted equation are unchanged.
 
 R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and no preferred scale
 follows. G236/G237/G242/G243/G258 use imported transfer. Evaluator:

@@ -65,35 +65,14 @@ G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/
 | G347 | external/no required repair | Arbitrary finite-timelike endpoint-observer covariance; quotient-screen isometry, inverse-square sky factor, source-Doppler-squared areas, and covariant reversal/mean/sewing |
 | G348 | external/no scientific repair | Coordinate-free quotient-screen/Jacobi/area/observer theorem on arbitrary supplied smooth time-oriented 4D Lorentzian metrics; conjugate rank-loss and orientation classified |
 
-G332 supplies exact constraint witnesses for every positive-weight G331 metric; it proves
-existence, not a full `K` census, persistence, stability, occupancy, or selection. Its auxiliary
-`C` and `Lambda` are not UDT-derived physical constants. G333--G337 then evaluate complete-pair
-initial responses through first, finite-boost, silent second, and full-field third normal jets.
-They show that full fields and carry matter, not that a history or topology is selected.
-
-G338--G341 close one supplied Taub/Kasner finite-pair evaluation, ruler-carry distinction,
-slice/null/radar relations, and full per-lift cone. G342--G344 close its two-screen Jacobi map,
-bilocal symplectic propagator, and endpoint generator/bidensity. G345 combines the bidensity with
-both observers' metric frequencies and screen areas, cancelling affine, reference, and general
-screen-coordinate bookkeeping. Reversal and typed stationary sewing close. G346 resolves that
-scalar into the two directional infinitesimal metric screen-area per local-sky-solid-angle maps:
-their ratio is the squared metric frequency ratio and their geometric mean is inverse G345. G347
-removes the normal-observer restriction: all finite future-timelike endpoint observers are covered,
-with the intrinsic screen quotient isometric and source frequency factors carrying each
-directional-area change. This is covariance, not numerical observer invariance, and it does not
-select an observer population. It remains bounded geometric transport on a supplied labelled
-ray—not generic development, finite-beam evolution, light transfer, observational distance,
-route or population selection, occupancy, stability, scale, or `X_max`.
-
-G348 removes the dependence on that single Taub/Kasner example. On any supplied smooth
-time-oriented 4D Lorentzian metric and supplied regular affine future-null geodesic, the quotient
-screen and connection, self-adjoint curvature tide, symplectic Jacobi flow, two directional
-infinitesimal areas, and arbitrary finite-timelike endpoint-observer covariance are coordinate-free
-metric consequences. At a conjugate point, rank-one loss gives a simple signed determinant zero
-and orientation flip; rank-zero loss gives a double zero without a flip. The full phase-space map
-stays regular although type-I generators, inverse area scalars, and stationary sewing are only
-chartwise. This remains general Lorentzian geometry, not a selected UDT history, finite beam, light
-transfer, observational distance, or population law.
+G332 proves constraint-witness existence, not a full `K` census, persistence, stability,
+occupancy, or selection; its auxiliary `C` and `Lambda` are not UDT constants. G333--G337 show
+complete fields and carry govern bounded response jets, without selecting history or topology.
+G338--G347 build supplied finite-pair, causal, cone, screen, phase-space, endpoint, and
+finite-observer geometric transport. G348 proves its infinitesimal quotient/Jacobi/area content for
+arbitrary supplied smooth Lorentzian metrics and classifies conjugate rank loss. These are metric
+consequences, not generic development, finite-beam transfer, observational distance, physical
+population, occupancy, stability, scale, or `X_max`.
 
 ## Scale and geometric limits
 

@@ -110,8 +110,7 @@ R2--R5 select no feature, scale, origin, cosmology, or `X_max`; status/program/p
   G341/G342 null carry/beam: `udt_g341_nonprincipal_finite_null_relation_screen_carry_2026-09-04/`; `udt_g342_full_null_jacobi_beam_area_2026-09-04/`.
   G343/G344 phase space and endpoint generator: `udt_g343_bilocal_screen_phase_space_propagator_2026-09-04/`; `udt_g344_endpoint_generating_function_determinant_density_2026-09-04/`;
   G345/G346 scalar/directional area: `udt_g345_observer_calibrated_screen_scalar_2026-09-04/`; `udt_g346_directional_angular_area_reciprocity_2026-09-04/`.
-  G347 observer covariance: `udt_g347_arbitrary_endpoint_observer_angular_area_covariance_2026-09-04/`;
-  G348 generic theorem and caustics: `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`.
+  G347/G348 observer covariance and generic caustics theorem: `udt_g347_arbitrary_endpoint_observer_angular_area_covariance_2026-09-04/`; `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`.
 - Controls: `SIMPLE_METRIC_MACRO.md`; `udt_canonical_geometry.md`; `udt_g163_xmax_dependency_reversal_audit_2026-08-18/`; `udt_g165_conformal_fiber_rank_audit_2026-08-18/`.
 - Primary metric: pair kernel `udt_g166_primary_metric_ordered_pair_kernel_descent_2026-08-18/`; bounded pair pullback `udt_g167_primary_metric_full_pair_pullback_orchestra_2026-08-18/`.
 - Supplied germs/incidence controls: query G168--G171, then G215; pair/orchestra correction: `udt_complete_pair_phi_orchestra_audit_2026-08-05/`.
