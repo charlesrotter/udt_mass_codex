@@ -1,0 +1,27 @@
+{
+  "baseline_passed": true,
+  "caught": [
+    "wrong_p",
+    "wrong_q",
+    "phase_scale_leak",
+    "atomic_count_called_smooth",
+    "signed_product_measure",
+    "hidden_phase_label_factorization",
+    "factorization_called_g351_derived",
+    "realization_called_derived",
+    "preferred_observer",
+    "universal_p",
+    "source_creation",
+    "finite_caustic_density",
+    "image_union_substitution",
+    "cross_label_promotion",
+    "premise_called_derived",
+    "light_energy_import",
+    "detector_distance_import",
+    "history_scale_import"
+  ],
+  "mutations_caught": 18,
+  "mutations_total": 18,
+  "semantic_regression_only": true,
+  "status": "PASS"
+}

@@ -60,8 +60,14 @@ completion consequence—not a local input, wall, center, or numerical scale.
   defined, while an ordinary finite density need not; singular content has no ordinary density
   exponent. This is not yet light, flux, distance, source, population, cross-label physics, or a
   detector law.
+- G352 records Charles's owner-adopted provisional clock-rate readout and an explicit chosen
+  continuous total-phase-variation, phase-independent nonnegative product realization. External R2
+  repair review accepted the bounded consequence `T_clock=R A^-1`, so `(p,q)=(1,-1)` is unique
+  only for this readout inside G350's full independent positive character domain. Literal atomic
+  crossings, G351's `p=0` density, and all other readout types remain distinct/open. No light,
+  energy, source, population, detector, distance, history, matter, scale, `X_max`, or canon follows.
 
-Authority: the exact 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G351. Use `INDEX.md` for
+Authority: the exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G352. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -82,11 +88,12 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G351's externally accepted conditional inverse-area result, MAP and PONDER the
-remaining observer-weight question: what physical readout, if any, is represented by `p`, and what
-smallest independent premise would type it. Treat each choice as a `NEW PREMISE`. Do not choose `p`
-from familiar light formulas or observations. Keep source magnitude, populated labels, local
-sourced balance, detector and
-cross-label behavior, light, distance, history, matter, scale, `X_max`, and canon supplied or open.
-Do not derive or compute until Charles decides whether a particular carried readout belongs in UDT.
+Starting from G352's externally accepted conditional clock-rate readout, MAP and PONDER the
+physical-realization question: whether any metric-native carried object realizes the required phase
+and conserved label measure. Do not call
+the readout light, energy, brightness, or detector response and do not choose a source or population
+by familiarity. The next bounded test must separate what the metric supplies from the G351/G352
+owner-provisional premises and chosen product realization. History, matter, scale, `X_max`, and
+canon remain open; no derivation or computation begins until the realization question and its
+falsification ceiling are explicit.
 <!-- STARTUP_CURRENT_END -->

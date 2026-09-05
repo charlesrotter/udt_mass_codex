@@ -1,0 +1,22 @@
+{
+  "area_weight_for_regular_density": -1,
+  "case_count": 2400,
+  "caustic_steps": 160,
+  "checks_passed": 103648,
+  "checks_total": 103648,
+  "continuous_phase_intensity": true,
+  "distinct_base_states": 2400,
+  "exact_arithmetic": true,
+  "frequency_weight_for_clock_rate": 1,
+  "landing": "OWNER_PROVISIONAL_CLOCK_RATE_READOUT__CHOSE_CONTINUOUS_TOTAL_PHASE_INTENSITY_AND_PHASE_INDEPENDENT_LABEL_PRODUCT__P_EQUALS_ONE_AND_Q_EQUALS_MINUS_ONE_ONLY_FOR_THIS_READOUT__T_CLOCK_EQUALS_R_A_INVERSE__PHASE_NORMALIZATION_OBSERVER_COVARIANCE_SEWING_AND_REVERSAL_CLOSE__INTEGRABLE_RATE_MEASURE_SURVIVES_CAUSTIC_RANK_LOSS_WHILE_DENSITY_NEED_NOT__LITERAL_ATOMIC_CROSSING_COUNT_P_ZERO_DENSITY_AND_OTHER_READOUT_WEIGHTS_REMAIN_DISTINCT__NO_LIGHT_ENERGY_DETECTOR_DISTANCE_HISTORY_SCALE_XMAX_MATTER_MASS_OR_CANON",
+  "light_or_energy_identified": false,
+  "literal_discrete_instantaneous_rate_claimed": false,
+  "observer_covariance_weight": 1,
+  "observer_neutral_p0_retained": true,
+  "phase_label_factorization_derived_from_g351": false,
+  "phase_label_factorization_explicit_and_supplied": true,
+  "phase_rescaling_cancels": true,
+  "product_measure_nonnegative": true,
+  "source_or_population_generated": false,
+  "universal_p_selected": false
+}

@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -18,6 +18,7 @@ grades and source paths; run `python3 verify_current_scientific_premises.py` bef
 | Universal Reciprocity / Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension and canon |
 | Quiet-GR response; Local Metric Sufficiency | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (G312) | Bounded local response constitution | Matter/history/canon |
 | Source-free label-measure conservation | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G351) | Countably additive measure; inverse-area regular density | `p`, sources, population, light/cross-label physics |
+| Continuous clock-rate readout | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G352) | On chosen phase/product realization, `T_clock=R A^-1` | Atomic rate, physical object, sources, population, light/energy |
 
 Universal Reciprocity is the plain-language postulate and DDR its tested curvature-level
 formulation: one postulate with two formulations, not a derivation. Angular-sector cancellation
@@ -41,6 +42,7 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G349 | Finite supplied null-patch metric sheet area with multiplicity; geometric union needs global preimages |
 | G350 | Nonunique local multiplicative family `T_(p,q)=R^p A^q`; weights/content/conservation unselected |
 | G351 | Conditional `T_p=R^p A^-1` for nonzero absolutely continuous regular density; `p` and physical content remain open |
+| G352 | Conditional `T_clock=R A^-1`; `(p,q)=(1,-1)` only for the chosen continuous clock-rate readout |
 
 G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
 premise, not a metric derivation: a standard finite nonnegative countably additive measure on
@@ -50,6 +52,13 @@ positive character domain. `p` remains arbitrary. The measure and measurable pus
 caustics, but an ordinary finite density need not; singular content has no ordinary density
 exponent. This is not selection of light or flux, source content, cross-label physics,
 observational distance, physical population, occupancy, stability, matter, scale, or `X_max`.
+
+G352 adds an owner-provisional readout, not a physical light law. With a supplied nonzero
+future-raised null phase gradient and an explicitly chosen continuous total-phase-variation product
+using the same phase-independent G351 label measure, its nonzero absolutely continuous regular
+clock-rate density transfers as `R A^-1`. Literal atomic crossings do not thereby acquire a smooth
+instantaneous rate; `p=0` and other readouts remain distinct. The phase, source, populated labels,
+physical carried object, detector, light/energy meaning, history, and scale remain supplied or open.
 
 ## Scale, carrier, action, and observations
 
@@ -66,5 +75,5 @@ observational distance, physical population, occupancy, stability, matter, scale
 | Native source/action/mass | `OPEN` | No physics claim |
 
 Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at the positive
-conformal class. R2--R5 and G312--G351 select no scale, occupancy, universe, matter law, or SNe
+conformal class. R2--R5 and G312--G352 select no scale, occupancy, universe, matter law, or SNe
 prediction.

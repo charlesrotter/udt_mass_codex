@@ -36,3 +36,27 @@ REPAIR_G352_BOUNDED_CLOCK_RATE_READOUT
 
 The review retained the conditional `R A^-1` algebra but required the repairs preregistered in
 `R2_PREREGISTRATION_EXTERNAL_REVIEW_REPAIRS.md`.
+
+## R2 repair-only follow-up
+
+Charles authorized the sealed 44-file intake at `/tmp/udt_g352_repair_followup_3e758vzs`, containing
+42 manifest payloads plus `REVIEW_MANIFEST.tsv` and its detached seal. The authorized hashes were:
+
+- `REVIEW_SCOPE.json`: `868bc1961161e500e2dfb8ca07953ed0b9220cb24f8b9de1057e440483921d70`
+- `REVIEW_MANIFEST.tsv`: `fca43c879c68563619ddf2690559da6f3f7b1b7f33b02f4d52627f7cf2f87224`
+- `REVIEW_MANIFEST.sha256`: `7861065326057dd98123a773664ad5aa9c996db64466511b419a749f16c9253e`
+
+Session `01a07355-b749-7a01-8d4f-226a7faaf11b` authenticated the exact intake, copied it to a
+writable ephemeral workspace, and replayed all four registered no-write checks. The returned
+`EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md` is 13,241 bytes with SHA-256
+`f04c7d38567bdb56854c1ee6fc4da80b0307be3aa62286127a61775dcaf3760e`; the repository copy is
+byte-identical. Its terminal verdict was:
+
+```text
+ACCEPT_G352_R2_REPAIR_COMPLETION
+```
+
+The reviewer retained two evidence qualifications: the unsigned co-sealed manifest establishes
+internal byte consistency rather than external authorship or a trusted timestamp, and the
+repository suite and chronology claims were documentary because they were outside the registered
+intake-only follow-up.

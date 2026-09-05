@@ -1,0 +1,19 @@
+{
+  "case_count": 2700,
+  "caustic_steps": 180,
+  "checks_passed": 73889,
+  "checks_total": 73889,
+  "continuous_phase_intensity": true,
+  "distinct_base_states": 2700,
+  "imports_production": false,
+  "literal_discrete_instantaneous_rate_claimed": false,
+  "method": "independent_additive_log_coordinate_reconstruction",
+  "phase_label_factorization_explicit_and_supplied": true,
+  "phase_normalization_closes": true,
+  "product_measure_nonnegative": true,
+  "reads_production_result": false,
+  "status": "PASS",
+  "typed_area_weight": -1,
+  "typed_frequency_weight": 1,
+  "universal_p_selected": false
+}

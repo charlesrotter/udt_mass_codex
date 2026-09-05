@@ -1,0 +1,31 @@
+item	status	role
+Lorentzian_metric	SUPPLIED_ARBITRARY	smooth time-oriented four-dimensional metric; no field equation or symmetry selected
+labelled_null_family	SUPPLIED_QUERY_DATA	one supplied future-null family and measurable transverse labels
+nonzero_phase_covector	SUPPLIED_QUERY_DATA	k=dTheta has nonzero future-raised null orientation on retained domain
+local_observer_tangent	FREE_AND_EXPLORED_QUERY_DATA	arbitrary finite future unit timelike tangent; fixes local intensity but not global worldline or phase-range intersections
+metric_frequency_ratio_R	PINNED_BY_G347_G348	positive proper-time phase-frequency ratio between endpoints
+metric_sheet_area_ratio_A	PINNED_BY_G349	positive Jacobian ratio on regular screen-rank-two cuts
+G350_character_family	DERIVED_CONDITIONAL_BOUNDED	T_(p,q)=R^p A^q on declared full independent positive character domain
+G351_conserved_label_measure	OWNER_ADOPTED_PROVISIONAL_PREMISE	finite nonnegative countably additive source-free label measure; q=-1 only for nonzero absolutely continuous regular density
+clock_rate_readout	OWNER_ADOPTED_PROVISIONAL_PREMISE	crossings per observer proper time per metric sheet area
+continuous_total_phase_intensity	CHOSE_BOUNDED_MATHEMATICAL_REALIZATION	dN_cont=|dTheta|/DeltaTheta; not ordinary derivative of literal discrete step-count
+literal_atomic_crossing_count	RETAINED_DISTINCT_OPEN	proper-time counting measure is atomic; smooth intensity needs additional averaging interpolation or coarse graining
+product_measurable_space	SUPPLIED_QUERY_DATA	phase and transverse label product sigma-algebra
+phase_spacing	SUPPLIED_QUERY_DATA	common fixed positive DeltaTheta; only common positive affine rescaling covered
+phase_label_factorization	CHOSE_BOUNDED_MATHEMATICAL_REALIZATION	(|dTheta|/DeltaTheta) tensor mu with same phase-independent mu support and weight on each slice; no phase-label correlation
+factorization_ownership	NOT_DERIVED	factorization is not supplied by G351 metric reciprocity DDR or owner canon
+label_and_map_measurability	SUPPLIED_QUERY_DATA	label preservation across cuts and measurable cut maps and frequency weights
+clock_rate_observer_weight	DERIVED_CONDITIONAL_BOUNDED	p=1 only for chosen continuous clock-rate density
+observer_neutral_density_p0	RETAINED_CONDITIONAL	G351 bare measure density remains distinct p=0 readout
+other_observer_weights	RETAINED_OPEN	other physical readout types are not excluded or selected
+source_measure	SUPPLIED_OPEN	zero and arbitrary finite nonzero measures retained
+phase_source_and_population	SUPPLIED_OPEN	geometry does not create phase object or populate labels
+regular_density_domain	PINNED_BOUNDED	nonzero absolutely continuous common support with finite positive Jacobians for ratio statement; zero handled division-free
+caustic_rank_loss	PINNED_BY_G348_G349	frequency-weighted measure may survive while ordinary density may diverge or fail
+frequency_integrability	CHOSE_BOUNDED_REGULARITY	measurable positive observer frequency integrable against supplied finite measure on retained patch
+cross_label_physical_aggregation	OPEN	measure pushforward is mathematical; detector addition cancellation and interference absent
+exact_algebra_and_measure_theory	CATEGORY_A_METHOD	certification and analytic derivation only
+executable_counts	REGRESSION_EVIDENCE	assertion totals over explicitly reported distinct generated states; not independent proofs
+Maxwell_QED_photon_energy_luminosity	OMITTED_NOT_USED	may not select or interpret clock-rate readout
+history_occupancy_matter_mass_scale_Xmax	OPEN	no attachment or selection
+canon	OPEN	Charles alone canonizes

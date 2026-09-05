@@ -26,8 +26,12 @@ standard finite nonnegative countably additive measure; external review accepts 
 `T_p=R^p A^-1` for its nonzero absolutely continuous regular density. This fixes `q=-1` but leaves
 `p`, source, population, cross-label behavior, detector, light, distance, history, scale, matter,
 and `X_max` open. Finite measure survives caustic pushforward even when ordinary density does not.
+G352 then provisionally types one continuous clock-rate readout. External R2 repair review accepts
+`T_clock=R A^-1`, fixing `(p,q)=(1,-1)` only for that explicitly chosen continuous phase/product
+realization. Atomic crossings, `p=0`, other readouts, and every physical interpretation remain
+distinct or open.
 
-Authority: the exact 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+Authority: the exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
 Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
 covariance rows are unresolved, no preferred scale follows, and the raw archive is
@@ -40,10 +44,10 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: MAP/PONDER the G351 observer-weight remainder—what physical readout, if any, `p` represents
-and what smallest independent premise would type it. Treat each choice as a `NEW PREMISE`; do not
-choose `p` from habit, familiar light formulas, or observations, and do not derive until Charles
-decides. Source, detector, population, cross-label physics, history, matter, scale, `X_max`, and
-canon stay open.
+Next: MAP/PONDER the G352 physical-realization remainder—whether any metric-native carried object
+supplies the phase and conserved label measure needed by the accepted conditional clock-rate
+readout. Keep the owner-provisional premises and chosen product explicit. Do not relabel the result
+as light, energy, brightness, detector response, source, or population; history, matter, scale,
+`X_max`, and canon stay open.
 
 <!-- STARTUP_CURRENT_END -->

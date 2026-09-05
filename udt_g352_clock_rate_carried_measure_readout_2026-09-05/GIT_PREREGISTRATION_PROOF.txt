@@ -1,0 +1,27 @@
+G352 preregistration chronology (documentary Git evidence)
+
+Initial preregistration commit:
+f5ee339382af3f9699be14a90fd4fc3d3d8fbfb0
+AuthorDate: 2026-09-05 15:55:05 -0400
+CommitDate: 2026-09-05 15:55:05 -0400
+Title: Preregister G352 clock-rate readout
+
+Outcome-unseen R1 sign-repair commit:
+14afc1993605bd38b9600e221a22f2ef4956e57c
+AuthorDate: 2026-09-05 15:56:21 -0400
+CommitDate: 2026-09-05 15:56:21 -0400
+Title: Preregister G352 phase-sign repair
+
+At the first registered outcome run, HEAD and origin/grok both named 14afc199. The outcome code and
+result artifacts were created afterward.
+
+Fresh external-review repair preregistration commit:
+b0bc9f24372ead537d1b814888a691224242ac46
+Title: Preregister G352 external review repairs
+
+The authenticated REPAIR report, transmission record, and R2 repair contract were committed and
+pushed before any R2 repair was executed. R2 result artifacts were changed afterward.
+
+This file is documentary provenance. It is not a signed attestation, trusted external timestamp,
+or proof available to an intake-only reviewer unless the relevant Git objects or an independent
+remote receipt are also supplied.
