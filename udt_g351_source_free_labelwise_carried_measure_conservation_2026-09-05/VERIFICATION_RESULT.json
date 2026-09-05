@@ -13,7 +13,9 @@
     "dimensionless_frequency_reference": true,
     "dimensionless_reference_retained_in_conservation_quotient": true,
     "division_free_zero_density": true,
-    "evidence_gates_internal_complete": true,
+    "evidence_gates_external_complete": true,
+    "external_review_acceptance": true,
+    "external_review_provenance": true,
     "finite_measure_scope": true,
     "frozen_preregistration_hashes": true,
     "frozen_source_hashes": true,
@@ -43,13 +45,13 @@
     "run_record_r1_r5_complete": true,
     "saved_aggregate_exact_current": true,
     "singular_q_undefined": true,
-    "status_ledger_internal_complete": true,
+    "status_ledger_external_complete": true,
     "stdlib_only_imports": true,
     "zero_source_stays_zero": true
   },
-  "checks_passed": 45,
-  "checks_total": 45,
+  "checks_passed": 47,
+  "checks_total": 47,
   "failed": [],
   "landing": "OWNER_PROVISIONAL_SOURCE_FREE_LABEL_MEASURE_CONSERVATION__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__OBSERVER_WEIGHT_P_REMAINS_ARBITRARY__T_P_EQUALS_R_TO_P_A_INVERSE_WITH_IDENTITY_SEWING_REVERSAL_AND_COVARIANCE__FULL_FINITE_MEASURE_REMAINS_DEFINED_THROUGH_CAUSTIC_RANK_LOSS_WHILE_POINTWISE_DENSITY_NEED_NOT__SINGULAR_MEASURE_PART_HAS_NO_ORDINARY_DENSITY_EXPONENT__SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_AND_CANON_REMAIN_OPEN",
-  "review_status": "INTERNALLY_VERIFIED_PENDING_SEALED_EXTERNAL_REVIEW"
+  "review_status": "EXTERNAL_REVIEW_ACCEPTED"
 }

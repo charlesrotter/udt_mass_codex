@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -13,14 +13,17 @@ kernel, angular cancellation, and adopted equation are unchanged.
 G313--G337 characterize a multibranch solution arena and bounded response structure without
 selecting occupancy, history, matter, stability, or scale. G338--G349 derive metric-owned causal and
 null-screen area geometry on supplied spacetimes, not a light or transfer law. G350 leaves the exact
-local multiplicative family `R^p A^q`; neither weight nor carried content is selected, and inverse
-area requires a new conservation premise.
+local multiplicative family `R^p A^q`. G351 provisionally adopts source-free conservation of one
+standard finite label measure; its externally accepted bounded consequence fixes `q=-1` for the
+nonzero absolutely continuous regular density, giving `R^p A^-1`, while leaving observer weight
+`p` open.
 
 ## Open gate
 
-MAP/PONDER whether UDT should add a carried-object layer and, if so, its object, observer weight,
-conservation/local-balance rule, and caustic/label handling. Every option is a `NEW PREMISE`.
-Source, detector, population, realized history, matter, scale, `X_max`, and canon remain open.
+MAP/PONDER what physical readout, if any, the remaining observer weight `p` represents and what
+smallest independent premise would type it. Every option is a `NEW PREMISE`; do not import a familiar
+light formula. Source, detector, population, cross-label physics, realized history, matter, scale,
+`X_max`, and canon remain open.
 
 Use `INDEX.md` for current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for historical
 startup surfaces. R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and

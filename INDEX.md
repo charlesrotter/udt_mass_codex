@@ -8,7 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -28,8 +28,10 @@ path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a fr
   `udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md`.
 - Current generic null-screen geometry: `udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/`;
   `udt_g349_finite_null_wavefront_patch_area_2026-09-04/`.
-- Current ownership boundary and next-gate parent:
+- Current transfer-character boundary:
   `udt_g350_frequency_area_carried_content_ownership_2026-09-05/`.
+- Current owner-provisional conservation result and next-gate parent:
+  `udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/`.
 
 ## Retained comparison and observational lanes
 

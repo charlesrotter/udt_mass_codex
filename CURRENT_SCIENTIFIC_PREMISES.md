@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -17,6 +17,7 @@ grades and source paths; run `python3 verify_current_scientific_premises.py` bef
 | W6 co-presence | `WORKING_FOUNDATIONAL_CLARIFICATION` | Nonpropagating membership with metric-causal response | Population/history |
 | Universal Reciprocity / Differential Dual Reciprocity | `OWNER_ADOPTED_PROVISIONAL_POSTULATE` | Bounded G310 trace-free response | Extension and canon |
 | Quiet-GR response; Local Metric Sufficiency | `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (G312) | Bounded local response constitution | Matter/history/canon |
+| Source-free label-measure conservation | `OWNER_ADOPTED_PROVISIONAL_PREMISE` (G351) | Countably additive measure; inverse-area regular density | `p`, sources, population, light/cross-label physics |
 
 Universal Reciprocity is the plain-language postulate and DDR its tested curvature-level
 formulation: one postulate with two formulations, not a derivation. Angular-sector cancellation
@@ -39,11 +40,16 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G348 | General supplied smooth Lorentzian infinitesimal quotient/Jacobi/area theorem with conjugate-rank classification |
 | G349 | Finite supplied null-patch metric sheet area with multiplicity; geometric union needs global preimages |
 | G350 | Nonunique local multiplicative family `T_(p,q)=R^p A^q`; weights/content/conservation unselected |
+| G351 | Conditional `T_p=R^p A^-1` for nonzero absolutely continuous regular density; `p` and physical content remain open |
 
-G330--G350 are conditional or general metric geometry, not selection of a carried object, light or
-flux law, observational distance, physical population, occupancy, stability, matter, scale, or
-`X_max`. G350 closes a classification boundary: inverse-area behavior needs a new conservation
-premise; source content, caustic continuation, and cross-label aggregation remain supplied or open.
+G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
+premise, not a metric derivation: a standard finite nonnegative countably additive measure on
+supplied labels is unchanged between source-free cuts. Its nonzero absolutely continuous regular
+density therefore carries inverse metric sheet area and fixes `q=-1` inside G350's full independent
+positive character domain. `p` remains arbitrary. The measure and measurable pushforward survive
+caustics, but an ordinary finite density need not; singular content has no ordinary density
+exponent. This is not selection of light or flux, source content, cross-label physics,
+observational distance, physical population, occupancy, stability, matter, scale, or `X_max`.
 
 ## Scale, carrier, action, and observations
 
@@ -60,5 +66,5 @@ premise; source content, caustic continuation, and cross-label aggregation remai
 | Native source/action/mass | `OPEN` | No physics claim |
 
 Pullbacks plus the bivector area bilinear can recover `g`; scalar data stop at the positive
-conformal class. R2--R5 and G312--G350 select no scale, occupancy, universe, matter law, or SNe
+conformal class. R2--R5 and G312--G351 select no scale, occupancy, universe, matter law, or SNe
 prediction.

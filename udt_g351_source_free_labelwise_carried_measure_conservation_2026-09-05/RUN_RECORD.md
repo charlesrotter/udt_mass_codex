@@ -41,4 +41,15 @@ now includes every package file required by the verifier, and the aggregate chec
 directly. The R5 sealed-copy aggregate passed 45/45 without changing package bytes or creating
 bytecode. An ephemeral hostile copy with the builder self-entry removed was rejected at 43/45,
 with the new containment guard and saved-state exactness both failing. The defective intake was
-superseded and was not transmitted. Sealed external review remains pending.
+superseded and was not transmitted.
+
+The corrected 42-payload/44-file intake was then transmitted under Charles's explicit read-only
+authorization. The fresh `gpt-5.6-sol` reviewer authenticated every payload, replayed the final
+45/45 aggregate, independently reconstructed the bounded Radon--Nikodym and character-coordinate
+proofs, and returned `ACCEPT_G351_BOUNDED_CARRIED_MEASURE_CONSERVATION`. It retained the exact
+scientific boundary and recorded that the executable counts are regression evidence, not the
+analytic proof; implementation distinction is not proof independence; and the co-sealed chronology
+is documentary rather than a trusted timestamp.
+
+The post-review live no-write aggregate then passed 47/47. Its two added gates authenticate the
+banked external response and transmission record; the mathematical landing is unchanged.

@@ -1,12 +1,16 @@
 # G351 lay report
 
 Date: 2026-09-05
-Status: internally reproduced; external review pending
+Status: externally accepted in the stated bounded scope
 
 ## What changed
 
 Charles provisionally added one new rule: in an empty region, the amount assigned to a fixed set of
 ray labels is carried forward without being created or destroyed.
+
+The external reviewer accepted the resulting mathematics after independently rebuilding the main
+argument. Here, “amount” is a standard countably additive nonnegative measure, not merely a finite-
+addition bookkeeping rule.
 
 This did not change the metric or reciprocal kernel. The metric still determines how ray bundles
 spread or focus and how endpoint clocks compare.
@@ -53,3 +57,7 @@ The advance is precise: after the newly adopted provisional conservation premise
 of any nonzero smooth regular density is fixed. The remaining smooth-density ambiguity has been
 reduced from two exponents `(p,q)` to one exponent `p`, plus the still-supplied source and
 population data. Singular carried content remains measure-valued rather than density-valued.
+
+The many automated checks show that the recorded implementation is reproducible and resistant to
+registered mistakes. They are not the mathematical proof; the independently reconstructed measure-
+theory argument is what supports the accepted conclusion.

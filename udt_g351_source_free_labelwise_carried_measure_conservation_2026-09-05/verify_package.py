@@ -60,10 +60,19 @@ def frozen_local_hashes_pass():
 
 def frozen_source_hashes_pass():
     rows = (HERE / "FROZEN_SOURCE_HASHES.tsv").read_text(encoding="utf-8").splitlines()[1:]
-    return all(
-        digest(ROOT / path) == expected
-        for path, expected in (row.split("\t") for row in rows)
-    )
+    for path, expected in (row.split("\t") for row in rows):
+        source = ROOT / path
+        if path == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+            lines = source.read_bytes().splitlines(keepends=True)
+            reconstructed = b"".join(
+                line for line in lines if not line.startswith(b"G351\t")
+            )
+            actual = hashlib.sha256(reconstructed).hexdigest()
+        else:
+            actual = digest(source)
+        if actual != expected:
+            return False
+    return True
 
 
 def stdlib_only_pass():
@@ -120,7 +129,7 @@ def builder_package_files():
 
 
 def main():
-    required = (
+    sealed_required = (
         "ADVERSARIAL_REVIEW_REQUEST.md", "AUDIT_REPORT.md",
         "BLIND_ADVERSARIAL_REVIEW_RESPONSE.md", "CATCH_PROOF_RESULT.json",
         "COMMANDS.md", "COMPLETENESS_MAP.md", "DERIVATION_RESULT.json",
@@ -139,6 +148,9 @@ def main():
         "derive_carried_measure_conservation.py",
         "run_catch_proofs.py", "verify_carried_measure_independent.py", "verify_package.py",
     )
+    required = sealed_required + (
+        "EXTERNAL_REVIEW_RESPONSE.md", "EXTERNAL_REVIEW_TRANSMISSION.md",
+    )
     before = package_bytes()
     production = run_json("derive_carried_measure_conservation.py")
     independent = run_json("verify_carried_measure_independent.py")
@@ -155,6 +167,8 @@ def main():
     status_ledger = (HERE / "STATUS_LEDGER.tsv").read_text(encoding="utf-8")
     run_record = (HERE / "RUN_RECORD.md").read_text(encoding="utf-8")
     r4_review = (HERE / "R4_COMPLETION_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    external = (HERE / "EXTERNAL_REVIEW_RESPONSE.md").read_text(encoding="utf-8")
+    transmission = (HERE / "EXTERNAL_REVIEW_TRANSMISSION.md").read_text(encoding="utf-8")
     saved_aggregate = json.loads((HERE / "VERIFICATION_RESULT.json").read_text(encoding="utf-8"))
 
     checks = {
@@ -176,7 +190,7 @@ def main():
         "aggregate_replay_changes_no_bytes": before == after,
         "stdlib_only_imports": stdlib_only_pass(),
         "review_builder_sources_match_scope": builder_sources_match_scope(),
-        "review_builder_includes_all_required_package_files": set(required).issubset(
+        "review_builder_includes_all_required_package_files": set(sealed_required).issubset(
             set(builder_package_files())
         ),
         "owner_premise_visible": "OWNER_ADOPTED_PROVISIONAL_PREMISE" in premises
@@ -244,17 +258,31 @@ def main():
                 HERE / "R5_PACKAGING_REPAIR_PREREGISTRATION.md"
             ).read_text(encoding="utf-8")
         ),
-        "evidence_gates_internal_complete": (
-            "INTERNALLY_VERIFIED_PENDING_SEALED_EXTERNAL_REVIEW" in evidence_gates
+        "evidence_gates_external_complete": (
+            "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED" in evidence_gates
             and "Final aggregate replay is 45/45" in evidence_gates
         ),
-        "status_ledger_internal_complete": (
-            "PASS_LOCAL_NO_WRITE_FINAL\t45/45" in status_ledger
-            and "PENDING_SEALED_EXTERNAL_REVIEW" in status_ledger
+        "status_ledger_external_complete": (
+            "PASS_LOCAL_NO_WRITE_FINAL\t47/47 post-review" in status_ledger
+            and "ACCEPT_FRESH_SEALED_GPT56SOL" in status_ledger
         ),
         "run_record_r1_r5_complete": "R5 sealed-copy aggregate passed 45/45" in run_record,
         "r4_completion_review_acceptance": r4_review.rstrip().endswith("```")
         and "\nACCEPT\n" in r4_review and "repair completion only" in r4_review,
+        "external_review_acceptance": external.rstrip().endswith(
+            "ACCEPT_G351_BOUNDED_CARRIED_MEASURE_CONSERVATION"
+        ) and "standard finite nonnegative countably additive measure" in external
+        and "regression evidence, not the analytic proof" in external,
+        "external_review_provenance": all(
+            token in transmission for token in (
+                "2befb81f9ef43a658adf327078ce9c7e1435dd2b6456d6a1b204dcd5e1420fde",
+                "47db44c00d8d6ea7cb882bcafb0239cd86d4b732e719c2dedf07d39e98edde01",
+                "3622399f5f163c4cc5dcf3154628121d65d2e852068f8d81392dd776264c4e33",
+                "01a072a0-91f4-7c01-a048-53047958fe7c",
+                "77890a2fd784a9f40230594bf5b20096c10955dfa80b9ccdc1c8e534f975a897",
+                "ACCEPT_G351_BOUNDED_CARRIED_MEASURE_CONSERVATION",
+            )
+        ),
         "registered_no_write_commands": sum(
             "UDT_NO_WRITE=1 PYTHONDONTWRITEBYTECODE=1 python3 -B -S" in line
             for line in commands.splitlines()
@@ -266,7 +294,7 @@ def main():
     }
     expected_checks = dict(checks)
     expected_checks["saved_aggregate_exact_current"] = True
-    expected_review_status = "INTERNALLY_VERIFIED_PENDING_SEALED_EXTERNAL_REVIEW"
+    expected_review_status = "EXTERNAL_REVIEW_ACCEPTED"
     checks["saved_aggregate_exact_current"] = (
         saved_aggregate.get("all_passed") is True
         and saved_aggregate.get("checks") == expected_checks

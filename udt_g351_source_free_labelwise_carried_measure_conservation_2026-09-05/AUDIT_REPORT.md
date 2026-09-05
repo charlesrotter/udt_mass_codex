@@ -1,12 +1,13 @@
-# G351 internal audit report
+# G351 audit report
 
 Date: 2026-09-05
-Grade: `INTERNALLY_VERIFIED_PENDING_FRESH_EXTERNAL_REVIEW`
+Grade: `EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED`
 
 ## Finding
 
 Conditional on Charles's owner-adopted provisional source-free labelwise carried-measure premise,
-the nonzero absolutely continuous regular metric-area density is `s/J`. Hence its area transfer is
+with “measure” retaining its standard countably additive nonnegative meaning, the nonzero absolutely
+continuous regular metric-area density is `s/J`. Hence its area transfer is
 exactly `A^-1`. Combining this with an arbitrary declared observer frequency weight `p` gives
 
 ```text
@@ -29,8 +30,15 @@ part; that part has no ordinary density exponent.
   reproduced by both implementations. The repair was preregistered before execution.
 - R2--R4 repaired exact notation, moved the atomic witness into the two-dimensional screen domain,
   and synchronized evidence state. The final repair-only internal reviewer returned `ACCEPT`.
-- Final aggregate no-write package replay: 45/45, including exact saved-state, review-source, and
-  sealed-package self-containment guards.
+- Final sealed-intake aggregate no-write replay: 45/45, including exact saved-state, review-source,
+  and sealed-package self-containment guards. The post-review live aggregate passes 47/47 and adds
+  exact external-acceptance and transmission-provenance guards.
+- Fresh external `gpt-5.6-sol` review authenticated all 42 payloads and the exact 44-file intake,
+  independently reconstructed the analytic proof, reproduced the registered 45/45 replay, and
+  returned `ACCEPT_G351_BOUNDED_CARRIED_MEASURE_CONSERVATION`.
+- The reviewer retained evidence caveats: large check counts are regression evidence rather than
+  proof; implementation-distinct is not proof-independent; several checks are formula or token
+  guards; and co-sealed chronology remains documentary rather than externally time-authenticated.
 
 ## Caustic statement
 
@@ -50,7 +58,7 @@ No source magnitude, populated label set, observer weight `p`, phase, interferen
 emission, absorption, light, photon, energy, brightness, flux, luminosity, observational distance,
 history, occupancy, matter/mass, scale, `X_max`, or canon follows.
 
-## Landing pending external review
+## Externally accepted bounded landing
 
 ```text
 OWNER_PROVISIONAL_SOURCE_FREE_LABEL_MEASURE_CONSERVATION

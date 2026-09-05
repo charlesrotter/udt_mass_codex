@@ -100,6 +100,7 @@ CURRENT_TARGETS = (
     "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
     "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
     "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
 )
@@ -400,17 +401,21 @@ def test_catch_missing_current_parent_route(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "INDEX.md",
-        "udt_g350_frequency_area_carried_content_ownership_2026-09-05/",
-        "REMOVED_G350_PARENT/",
+        "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/",
+        "REMOVED_G351_PARENT/",
     )
     with pytest.raises(SystemExit, match="current route lacks"):
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_unattributed_g350_next_gate(tmp_path: Path) -> None:
+def test_catch_unattributed_g351_next_gate(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "LIVE.md", "G350's proven nonuniqueness", "the proven nonuniqueness")
-    with pytest.raises(SystemExit, match="LIVE next gate lacks bound G350 attribution"):
+    _replace(
+        root / "LIVE.md",
+        "G351's externally accepted conditional inverse-area result",
+        "the accepted inverse-area result",
+    )
+    with pytest.raises(SystemExit, match="LIVE next gate lacks bound G351 attribution"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -477,8 +482,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
 
 def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "AGENTS.md", "333-row exact registry", "320-row exact registry")
-    with pytest.raises(SystemExit, match="current route lacks 333-row exact registry"):
+    _replace(root / "AGENTS.md", "334-row exact registry", "320-row exact registry")
+    with pytest.raises(SystemExit, match="current route lacks 334-row exact registry"):
         premise_guard.validate_startup_surface(root)
 
 

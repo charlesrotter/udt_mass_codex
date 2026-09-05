@@ -51,11 +51,17 @@ completion consequence—not a local input, wall, center, or numerical scale.
 - G350 proves a bounded nonuniqueness result: every continuous positive local multiplier built only
   from metric frequency ratio `R` and metric sheet-area ratio `A`, with identity and exact
   multiplicative sewing on the declared full abstract domain, is `T_(p,q)=R^p A^q` for arbitrary
-  real `p,q`. Reciprocity and observer covariance choose neither weight. Inverse-area behavior needs
-  a new conservation premise, currently unadopted. External review accepted the preregistered R1--R4 repairs
-  without changing this bounded result.
+  real `p,q`. Reciprocity and observer covariance choose neither weight.
+- G351 records Charles's owner-adopted provisional source-free labelwise carried-measure premise.
+  Fresh external review accepted the bounded consequence: for a standard finite nonnegative
+  countably additive measure, the nonzero absolutely continuous regular density carries inverse
+  metric sheet area, so `T_p=R^p A^-1` and `q=-1` inside G350's declared full independent positive
+  character domain. `p` remains arbitrary. At caustics the finite measure and its pushforward remain
+  defined, while an ordinary finite density need not; singular content has no ordinary density
+  exponent. This is not yet light, flux, distance, source, population, cross-label physics, or a
+  detector law.
 
-Authority: the exact 333-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G350. Use `INDEX.md` for
+Authority: the exact 334-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G351. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -76,10 +82,11 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G350's proven nonuniqueness, MAP and PONDER the smallest independent carried-object
-premise lattice: what is carried, its observer weight, whether labelwise conservation or local
-balance is adopted, and how caustics and labels are handled. Each option is a `NEW PREMISE`; do not
-choose `p` or `q` from habit or observations. Do not derive or compute until Charles decides whether
-this physical layer belongs in UDT. Keep source, detector, path population, history, matter, scale,
-`X_max`, and canon supplied or open.
+Starting from G351's externally accepted conditional inverse-area result, MAP and PONDER the
+remaining observer-weight question: what physical readout, if any, is represented by `p`, and what
+smallest independent premise would type it. Treat each choice as a `NEW PREMISE`. Do not choose `p`
+from familiar light formulas or observations. Keep source magnitude, populated labels, local
+sourced balance, detector and
+cross-label behavior, light, distance, history, matter, scale, `X_max`, and canon supplied or open.
+Do not derive or compute until Charles decides whether a particular carried readout belongs in UDT.
 <!-- STARTUP_CURRENT_END -->
