@@ -1,0 +1,25 @@
+item	status	role
+Lorentzian_metric	SUPPLIED_ARBITRARY	smooth time-oriented four-dimensional metric; no field equation or symmetry selected
+labelled_null_family	SUPPLIED_QUERY_DATA	same supplied regular future-null rays at every cut
+ordered_cuts	FREE_AND_EXPLORED_QUERY_DATA	all finite identity reversal and three-cut orderings on the common domain
+endpoint_observers	FREE_AND_EXPLORED_QUERY_DATA	finite future unit timelike observers; no population selected
+common_affine_normalization	FREE_AND_EXPLORED_GAUGE	positive rescaling cancels from frequency and area ratios
+metric_frequency	PINNED_BY_G346_G348	positive endpoint contraction with supplied observer
+metric_two_Jacobian	PINNED_BY_G348_G349	positive on the common screen-rank-two stratum
+frequency_ratio	DERIVED_CANDIDATE	R_ji=omega_j/omega_i
+sheet_area_ratio	DERIVED_CANDIDATE	A_ji=J_j/J_i relative to one common source presentation
+two_ratio_local_class	CHOSE_BOUNDED_CLASSIFICATION	continuous positive dimensionless multiplicative candidates only
+character_weights_p_q	FREE_AND_EXPLORED	no exponent fixed by habit or observation
+carried_scalar	UNSUPPLIED_OPEN	its physical type observer weight and source value are not defined
+source_value_or_distribution	UNSUPPLIED_OPEN	zero and arbitrary positive normalizations retained
+sheet_measure_conservation	NEW_PREMISE_CANDIDATE_NOT_ADOPTED	tested only as a conditional discriminator
+endpoint_metric_coboundary	FREE_AND_EXPLORED_ENLARGEMENT	arbitrary positive local W_j/W_i counterfamily
+caustic_zero_area_strata	PINNED_BY_G348_G349	retained as boundary where positive ratio chart fails
+path_labels	SUPPLIED_OPTIONAL_STRUCTURE	kept separate; no physical sum weight or interference
+continuous_Cauchy_theorem	CATEGORY_A_METHOD	classifies positive group characters; no physics import
+numeric_identity_checks	CATEGORY_A_METHOD	certification only
+nonlocal_memory_additive_interacting_or_field_transfer	OMITTED_OPEN	outside bounded multiplicative scalar class
+Maxwell_QED_photon_energy_or_optical_transfer	OMITTED_NOT_USED	may not select candidate weights or interpretation
+brightness_flux_luminosity_probability_detector_distance	OMITTED	no observational or radiative attachment
+history_occupancy_stability_matter_mass_scale_Xmax	OPEN	no attachment or selection
+canon	OPEN	Charles alone canonizes
