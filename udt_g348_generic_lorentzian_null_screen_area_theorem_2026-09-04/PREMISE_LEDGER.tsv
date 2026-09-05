@@ -1,0 +1,27 @@
+item	status	role
+Lorentzian_metric	SUPPLIED_ARBITRARY	smooth time-oriented four-dimensional metric; no field equation or symmetry selected
+null_geodesic	SUPPLIED_QUERY_DATA	regular affine future null segment with nonzero tangent
+endpoint_events	FREE_AND_EXPLORED_QUERY_DATA	arbitrary finite ordered endpoints including conjugate pairs
+endpoint_observers	FREE_AND_EXPLORED_QUERY_DATA	all finite future unit timelike observers
+Levi_Civita_connection	PINNED_BY_THEORY_FROM_METRIC	unique torsion-free metric-compatible connection
+curvature_convention	CHOSE_COORDINATE_CONVENTION	fixed explicitly; opposite convention changes paired signs only
+quotient_screen	DERIVED_CANDIDATE	k-perp modulo k with induced positive metric
+quotient_connection	DERIVED_CANDIDATE	Levi-Civita derivative modulo k
+Jacobi_equation	DERIVED_CANDIDATE	metric geodesic-deviation linearization; rederived rather than imported optics
+screen_rank	PINNED_BY_THEORY_FROM_DIMENSION	two because spacetime dimension is four
+tidal_profile	FREE_AND_EXPLORED_QUERY_DATA	arbitrary self-adjoint two-screen curvature profile
+rank_B	FREE_AND_EXPLORED_QUERY_DATA	rank two one and zero all retained
+conjugate_crossing_order	FREE_AND_EXPLORED_QUERY_DATA	simple multiple and degenerate zeros classified
+screen_orientation	SUPPLIED_OPTIONAL_STRUCTURE	signed determinant only after compatible orientations; absolute area needs none
+common_affine_scale	FREE_AND_EXPLORED_GAUGE	all positive rescalings
+endpoint_GL2_coordinates	FREE_AND_EXPLORED_GAUGE	arbitrary well-conditioned passive changes
+phase_integrators	CATEGORY_A_METHOD	piecewise-exact Hamiltonian and independent smooth RK route
+standard_ODE_symplectic_algebra	CATEGORY_A_METHOD	analysis tools only; no physical import
+G343_to_G347	EXTERNALLY_ACCEPTED_BOUNDED_INPUTS	comparison targets not proof of the generic theorem
+owner_provisional_response_equation	OMITTED_NOT_NEEDED	the theorem is tested for every supplied Lorentzian metric
+global_hyperbolicity_topology_field_equation	OMITTED_NOT_NEEDED	local segment theorem only
+finite_beam_light_transfer_detector	OMITTED	no emission absorption intensity or detection
+brightness_flux_luminosity_probability_distance	OMITTED	no observational transfer or distance selection
+preferred_observer_route_path_population	OPEN	no selection weighting or aggregation
+history_occupancy_stability_matter_mass_scale_Xmax	OPEN	no attachment or selection
+canon	OPEN	Charles alone canonizes
