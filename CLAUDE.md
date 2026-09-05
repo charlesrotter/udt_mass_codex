@@ -6,8 +6,8 @@ canonizes; nothing is canonical without his sign-off.
 ## Charles's working principles (binding, embed in every plan)
 
 1. **Uncover what the metric is doing. Do not import or create
-   mechanisms.** Every coupling, source, or operator must be derived from
-   the UDT metric/action, never posited because it would help.
+   mechanisms.** Every coupling, source, operator, or action must be admitted by current scientific
+   evidence or an explicit work order; never presume or posit one because it would help.
 2. **No approximations or linearizations except as short-lived hypothesis
    development** — never as stated results or as inputs to other
    calculations. (Legacy warning: exp(-2·phi0) ~ 5 at hadronic depth;
@@ -19,12 +19,11 @@ canonizes; nothing is canonical without his sign-off.
    terms, constraint equations, junction conditions, DtN/Calderon theory,
    geon/self-trapping literature) can be transformed under positional
    dilation and explored natively.
-5. **The orchestra metaphor**: mass emergence is expected to be a
-   composition of sectors playing together (radial phi, angular,
-   boundary, topology) — invisible if any instrument is probed alone.
-   Null results on solo instruments do not rule out the ensemble.
-6. **Zoom out often.** No tunnel vision. Re-read STATE.md and step back
-   before each new push.
+5. **Historical hunches are not premises.** The dated “orchestra” picture may motivate questions,
+   but it supplies no field, action, carrier, boundary, topology, or completion requirement. Use the
+   current premise registry to determine which objects a task actually admits.
+6. **Zoom out often.** No tunnel vision. Re-read the current block of `LIVE.md` and the relevant
+   portion of `CURRENT_RESEARCH_PROGRAM.md`, then step back before each new push.
 7. **Derive UDT's equations NATIVELY; never default to the parent theory's
    (GR's) standard form** (Charles, 2026-06-18). UDT EXTENDS GR but is NOT
    GR: derive the metric AND the field equations from the positional-dilation
@@ -35,11 +34,6 @@ canonizes; nothing is canonical without his sign-off.
    Interrogate every "this term folds away / reduces to the standard case"
    step — that is exactly where the parent theory sneaks back in. (Principle 1
    applied to the EQUATIONS THEMSELVES.)
-
-Charles's standing physical hunch (2026-06-10): native discreteness will
-come from an INTERACTION of the phi sector and the angular sector —
-perhaps through a metric function not yet uncovered. Treat phi-angular
-coupling as the prime suspect for the discreteness gap.
 
 ## How we work (binding method — Charles, 2026-06-14)
 
@@ -145,13 +139,13 @@ EXPANDED, self-contained full-form lives as auto-loading skills in `.claude/skil
 relevant one at the relevant moment (the inline tripwire is the trigger, the skill is the protocol):
 - **`solver-first`** — the mismatch -> SOLVER-not-MECHANISM four-question protocol (run on any
   result far from observation, BEFORE reaching for a mechanism).
-- **`verifier-before-record`** — what a clean blind adversarial pass requires (run before committing
-  ANY result; fresh zero-context, re-run, hunt false passes, redo the catch-proof, verdict).
+- **`verifier-before-record`** — what a clean blind adversarial pass requires before scientific
+  promotion or a reviewed-synthesis claim. Explicitly labeled draft checkpoints may be committed
+  before review without becoming accepted dependencies.
 - **`no-shortcuts`** — the anti-import/anti-freeze checklist + `python3 -m pytest tests/` (the P1+P2
   purity harness; run when building/editing solver code or before banking a result).
-- **`completeness-map`** — the ten completeness criteria + standing questions (run every push;
-  every result is ONE tile). (Old instrument `archive/SOLVER_COMPLETENESS_MAP.md` — archived; live
-  status = LIVE.md + `pytest tests/`.)
+- **`completeness-map`** — premise-relative coverage and standing questions for a declared problem;
+  every result is one scoped tile, and no checklist is an if-and-only-if completeness proof.
 - **`solution-space-not-imposition`** — the 4-point anti-imposition audit (ansatz/BC ledger;
   characterize-not-filter; observe-not-target; solution-space completeness) + the PROVENANCE/
   HONESTY-never-MERIT limit on any gate we build (run before any solve/result). Gate =
@@ -217,6 +211,20 @@ Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
    back in — show the term's fate from the positional-dilation operator NATIVELY; do not assume the
    inherited form. (GR as reference is allowed (lane #2); ADOPTING GR's answer as UDT's is the smuggle.) [[derive-natively-not-inherited-form]]
 
+## Documentation synthesis
+
+Method files do not introduce scientific premises or make historical inventories current. Within a
+Charles-authorized synthesis, faithful explanation, same-premise proof reconstruction, and small
+algebra/sign checks are permitted; a missing scientific connection stays visibly open. Standard
+mathematics may be used as method with its hypotheses checked, but it does not become UDT physics by
+appearing in the explanation.
+
+A labeled draft or candidate-synthesis checkpoint may be committed before fidelity review. Review is
+required before calling a synthesis reviewed or using it as an accepted scientific dependency, and
+must be proportional to the actual change. Editorial review never upgrades the underlying source
+grade, adopts a premise, establishes empirical truth, or creates canon. See `AGENTS.md` for the
+controlling scoped-synthesis rules.
+
 ## Session workflow
 
 - **Maximize the use of subagents to preserve main context** (Charles,
@@ -270,9 +278,10 @@ Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
   earlier claim by EDITING (with the change visible in git) is now preferred over
   piling addenda. A RECONCILIATION is owed: consolidate the proliferated
   solvers/scripts to ONE canonical solver + its harness, retire the rest.
-- **Verifier-before-record**: every result (positive or negative) gets a
-  blind adversarial verifier pass, recorded in its results doc with agent
-  id and date, before commit.
+- **Verifier-before-record**: every scientific result (positive or negative) gets a blind
+  adversarial verifier pass, recorded with reviewer identity and date, before promotion or an
+  accepted-result commit. A labeled draft checkpoint may be committed before review under the
+  scoped-synthesis rules; it does not change scientific status or become an accepted dependency.
 - **Pre-register before testing**: falsification contracts (frozen model,
   candidate lists, tolerances, look-elsewhere accounting) are committed
   BEFORE the test runs. No retuning after.
@@ -309,12 +318,8 @@ Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
 
 ## Canon
 
-Charles-canonized statements live in CANON.md (append-only). As of
-2026-06-10: R-areal reading (rho = r is a theorem; branch-(iii) statics
-closed), the finite-cell canon (no spatial infinity; universe and matter
-cells are finite mirrored domains), and the discreteness-program
-redirect (nonstationary weld sector / transfer ladder / ensembles).
-
+Only `CANON.md` records canonized statements, and only Charles may change it. This method charter
+does not summarize, extend, or reinterpret canon.
 
 ## Orientation
 

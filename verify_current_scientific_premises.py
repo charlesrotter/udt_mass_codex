@@ -418,10 +418,6 @@ def validate_startup_surface(root: Path) -> None:
     )
     require("Primary-kernel regression gate" in controls["AGENTS.md"],
             "AGENTS guard absent: Primary-kernel regression gate")
-    require("WORKING_FOUNDATIONAL_CLARIFICATION` (G176)" in controls["AGENTS.md"],
-            "AGENTS lacks G176 completed-pair clarification")
-    require("OWNER_ADOPTED_PROVISIONAL_POSTULATE" in controls["AGENTS.md"],
-            "AGENTS lacks Universal Reciprocity/DDR provisional-adoption guard")
 
     required_routes = {
         "AGENTS.md": (
@@ -682,10 +678,17 @@ def validate_startup_surface(root: Path) -> None:
 
     completeness_skill = (root / ".claude/skills/completeness-map/SKILL.md").read_text(encoding="utf-8")
     solver_first_skill = (root / ".claude/skills/solver-first/SKILL.md").read_text(encoding="utf-8")
-    require("`archive/SOLVER_COMPLETENESS_MAP.md`" in completeness_skill,
-            "completeness skill still targets missing live root instrument")
-    require((root / "archive/SOLVER_COMPLETENESS_MAP.md").is_file(),
-            "completeness skill archive target missing")
+    require(
+        "premise-relative coverage" in completeness_skill
+        and "not an if-and-only-if proof" in completeness_skill
+        and "Method instructions do not supply scientific premises" in completeness_skill,
+        "completeness skill lacks premise-relative method boundary",
+    )
+    require(
+        "a variational theory's full solution space is exhausted iff all ten are covered"
+        not in completeness_skill,
+        "completeness skill retains unsupported checklist iff claim",
+    )
     require(
         "`archive/SOLVER_COMPLETENESS_MAP.md`" in solver_first_skill
         and "- `SOLVER_COMPLETENESS_MAP.md`" not in solver_first_skill,
@@ -693,6 +696,48 @@ def validate_startup_surface(root: Path) -> None:
     )
     require("update every push" not in completeness_skill,
             "completeness skill retains obsolete update-every-push instruction")
+
+    agents = controls["AGENTS.md"]
+    normalized_agents = " ".join(agents.split())
+    verifier_skill = (root / ".claude/skills/verifier-before-record/SKILL.md").read_text(
+        encoding="utf-8"
+    )
+    for phrase in (
+        "Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific",
+        "Historical field, action, carrier, boundary, topology, and finite-cell examples are branch-specific",
+        "Standard mathematics and numerical methods are allowed as methods",
+        "Mark an unsupported join open",
+        "Do not add a physical premise, replace an equation",
+        "import a fitted profile",
+        "A labeled draft or candidate-synthesis checkpoint may be saved and committed",
+        "Review documentation in proportion to what changed",
+        "A claimed independent reviewer must be an actual separate context",
+        "do not stage, modify, delete, mine, or cite these without an explicit dispatch",
+    ):
+        require(phrase in normalized_agents, f"AGENTS scoped-synthesis guard missing or changed: {phrase}")
+    normalized_agents_lower = normalized_agents.lower()
+    for forbidden in (
+        "historical action and carrier examples are current premises",
+        "an authorized synthesis may add a physical premise",
+        "an authorized synthesis may fit observational data",
+        "protected local work may be accessed without dispatch",
+    ):
+        require(forbidden not in normalized_agents_lower, f"AGENTS synthesis contradiction present: {forbidden}")
+    require(
+        "candidate synthesis may be saved in a clearly" in verifier_skill
+        and "does not promote science" in verifier_skill,
+        "verifier skill blocks or promotes labeled draft checkpoints",
+    )
+    claude = controls["CLAUDE.md"]
+    normalized_claude_synthesis = " ".join(claude.split())
+    for phrase in (
+        "Method files do not introduce scientific premises",
+        "a missing scientific connection stays visibly open",
+        "A labeled draft or candidate-synthesis checkpoint may be committed before fidelity review",
+        "Only `CANON.md` records canonized statements",
+    ):
+        require(phrase in normalized_claude_synthesis, f"CLAUDE synthesis alignment missing or changed: {phrase}")
+    require("finite-cell canon" not in claude, "CLAUDE retains dated finite-cell canon summary")
 
     require(
         re.search(r"\budt_g\d+", controls["README.md"], flags=re.IGNORECASE) is None,
@@ -18520,11 +18565,10 @@ def main() -> None:
 
     agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
     for token in [
-        "on **supplied ordered depth**",
-        "presentation potential",
-        "not observer/event/path assignment",
-        "Pair reversal negates",
-        "Angular, screen, and mixing enter",
+        "Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific",
+        "Current status comes from the current status documents",
+        "A coverage checklist is premise-relative",
+        "Primary-kernel regression gate",
         "observed clock/ruler calibration scale",
         "CHALLENGED_OWNER_POSTULATE_NOT_DERIVED",
         "native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`",
@@ -18532,13 +18576,8 @@ def main() -> None:
         "S^2` carrier is a `POSIT",
         "EH metric-only action is `CONDITIONAL",
         "Bootstrap/stable-matter is a working hypothesis",
-        "Primary-kernel regression gate",
-        "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
-        "germ -> h=F^*g -> complete-pair Dual Reciprocity -> endpoint Phi values -> endpoint difference",
-        "G142--G160 abstract carrier/carry/score architecture remains conditional historical control",
-        "archive/scaffolded_kernel_controls_2026-08-19/README.md",
     ]:
-        require(token in agents, f"AGENTS guard absent: {token}")
+        require(token in agents, f"AGENTS method guard absent: {token}")
 
     scaffold_archive = ROOT / "archive/scaffolded_kernel_controls_2026-08-19/README.md"
     require(scaffold_archive.is_file(), "scaffolded-kernel quarantine pointer missing")

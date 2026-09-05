@@ -1,13 +1,19 @@
 ---
 name: verifier-before-record
-description: Use before committing or recording ANY result (positive OR negative). Defines what a clean blind adversarial verifier pass requires; binding repo discipline.
+description: Use before promoting any scientific result or claiming a synthesis is reviewed; labeled draft checkpoints remain recoverable without scientific promotion.
 ---
 
 # Verifier-before-record (binding)
 
-Every result gets a BLIND ADVERSARIAL verifier pass, recorded in its results doc with the
-verifier's agent id + date, BEFORE commit. Negative results are first-class — they get the
-same pass.
+Every scientific result gets a blind adversarial verifier pass, recorded with the reviewer's
+identity and date, before promotion or an accepted-result commit. Negative scientific results are
+first-class and receive the same scrutiny.
+
+A draft, failed attempt, incomplete explanation, or candidate synthesis may be saved in a clearly
+labeled checkpoint before review. The checkpoint must identify its source snapshot, scope,
+limitations, and review state; it does not promote science, alter registry grades, or silently become
+an accepted dependency. Calling a synthesis `FIDELITY_REVIEWED` still requires a real separate-context
+review proportional to what the synthesis changed.
 
 ## A clean blind pass requires
 - FRESH ZERO-CONTEXT instance (no conversation history). For load-bearing / native-vs-import /
@@ -24,6 +30,16 @@ same pass.
   "PROVEN to machine precision" from "CONSISTENCY-checked / REGRESSION-locked."
 - Leave the repo EXACTLY as found (restore scratch edits; note UNTRACKED files won't
   `git checkout` back — back them up manually).
+
+## Fidelity review for an accepted-source synthesis
+
+- Check the actual source versions, definitions, premises, domains, labels, and logical seams.
+- Ask whether the explanation strengthens a theorem, hides a premise, changes an object, or skips a
+  necessary connection; report the exact defective step and strongest surviving statement.
+- Re-run only the underlying checks made load-bearing by the editorial change. Record what was not
+  replayed; do not pretend a bounded fidelity review re-proved every source package.
+- A review verdict applies to the synthesis. It does not upgrade source evidence, adopt a premise,
+  establish empirical truth, or confer canonical status.
 
 ## Cross-model escalation (load-bearing calls — P4)
 For NATIVE-vs-IMPORT classifications, "must-quantize"-class verdicts, and CANON candidates, ALSO

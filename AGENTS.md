@@ -6,9 +6,11 @@ strengthen claims.
 ## Mandatory startup
 
 Use branch `grok`. Do not trust branch, hash, status, process, or result claims in a prompt
-or handoff. On every fresh session run, in order:
+or handoff. Before switching branches, inspect the current checkout so unrelated work cannot be
+hidden by the switch. On every fresh session run, in order:
 
 ```bash
+git status --short --branch
 git checkout grok
 git fetch origin
 git pull --ff-only origin grok
@@ -62,6 +64,33 @@ Before doing research work, give Charles a short orientation: actual HEAD and di
 claim with premise stamps, open gate, and proposed bounded next action. Do not mutate files or start
 a long solve before that orientation.
 
+## Scoped synthesis and documentation
+
+Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific
+premises. Current status comes from the current status documents; scientific grades and ownership
+come from the exact premise/result registry and its reviewed sources. Historical field, action,
+carrier, boundary, topology, and finite-cell examples are branch-specific unless current evidence
+admits them. A coverage checklist is premise-relative: it can expose omissions, but completing it is
+not an if-and-only-if proof that a solution space is exhausted.
+
+Within an authorized synthesis, faithfully organize accepted material, explain definitions,
+reconstruct source arguments from the same premises, check small algebraic or sign steps, and make
+already-established dependencies explicit. Standard mathematics and numerical methods are allowed
+as methods when their hypotheses are checked. Do not add a physical premise, replace an equation,
+import a fitted profile, or invent a missing scientific connection. Mark an unsupported join open;
+a new lemma or physical bridge is research, not an editorial repair.
+
+A labeled draft or candidate-synthesis checkpoint may be saved and committed without
+promoting its contents into accepted science. It must state its source snapshot, scope, premises,
+limitations, and review state, and it may not become an accepted dependency silently. Scientific
+promotion retains the existing preregistration, scope, independent-review, and premise-audit gates.
+
+Review documentation in proportion to what changed. Organization or faithful explanation needs a
+bounded fidelity check; changed definitions, normalization, assumptions, theorem scope, dependency,
+or physical interpretation need substantive review. Record what was and was not checked. Review of
+a synthesis does not upgrade its source evidence, adopt a premise, establish empirical truth, or
+make the document canon. A claimed independent reviewer must be an actual separate context.
+
 ## Protected local work
 
 Preserve unrelated dirty and untracked files. In particular, do not stage, modify, delete, mine, or
@@ -91,40 +120,12 @@ Disk evidence wins over conversational memory.
 
 ## Binding UDT research rules
 
-- Remain pure to UDT: **the metric is the theory**. Universal Reciprocity/DDR is
-  `OWNER_ADOPTED_PROVISIONAL_POSTULATE` (2026-08-31); G312's quiet-GR/local-metric premises are
-  `OWNER_ADOPTED_PROVISIONAL_POSTULATES` (2026-09-01). None is derived or canon. G313 maps a
-  multibranch arena; G314 keeps bootstrap optional. G315--G320: data/quotients, no selection.
-  G330--G332 separate Ricci/Hopf rigidity and embed irregular data. G333 gives
-  a topology-free first response. G334 carries it through finite boosts on inherited transport;
-  arbitrary pair carry, evolution, stability, occupancy, and scale remain open.
-- G129--G165 are bounded controls, not the active kernel. Use their registry guards; never
-  reconstruct old selector/carry architecture from root prose.
-- The founding source derives `D(delta)=diag(exp(-delta),exp(+delta))` on **supplied ordered depth**,
-  not observer/event/path assignment. Pointwise `phi` is a presentation potential; terminal
-  `phi_pair` a conditional readout. Pair reversal negates `delta_AB`, not `phi`; conjugation differs.
-- Angular, screen, and mixing enter the complete pullback before readout. Never bolt them on
-  afterward or promote a conditional readout into a unique observer law.
-- `WORKING_FOUNDATIONAL_CLARIFICATION` (G176): Dual Reciprocity applies to the completed physical
-  observer-pair pullback after angular, screen, mixing, and shift contributions enter. On a supplied
-  regular pair this fixes the reciprocal ruler density by
-  `m=T*L_sigma=sqrt(-det(h_sigma))`. Other calibrations are controls; events/germs stay unselected.
-  G177--G178 check/accept; G179 extends to arbitrary coframes; G180 glues smooth regular families,
-  placing angular effects in the completed tape map.
-- **Primary-kernel regression gate:** the active scalar route is `primary metric -> supplied pair
-  germ -> h=F^*g -> complete-pair Dual Reciprocity -> endpoint Phi values -> endpoint difference`.
-  The G142--G160 abstract carrier/carry/score architecture remains conditional historical control
-  evidence. Do not import its `R/M/C`, calibration-torsor, score, or history-selection variables to
-  define or repair the primary reciprocal kernel. Use those packages only for an explicitly scoped
-  covariance or negative-control question. See
-  `archive/scaffolded_kernel_controls_2026-08-19/README.md`.
-- G253 is the externally verified bounded compression audit for this gate. It separates three typed
-  chains: direct conditional endpoint redshift, metric/Jacobi angular response as a sibling channel,
-  and optional downstream absolute-unit attachment. It does not select history or germ population.
-  P1, G116, G189, fits, observational outcomes, `X_max`, and protected work are not construction
-  inputs to the compressed kernel.
-- G254 verifies that current evaluators own no ambient-history residual. Do not launch ODE/PDE/GPU
-  history solves until a natural metric or global relation law is independently owned and preregistered.
+- Remain pure to UDT: **the metric is the theory**. Obtain the current scientific objects, grades,
+  construction route, and open boundary from `LIVE.md`, `CURRENT_RESEARCH_PROGRAM.md`, and the exact
+  registry—not from this method file or historical root prose. Do not turn a conditional evaluator
+  into a selector, a bounded control into an input, or an adopted premise into a derivation or canon.
+- **Primary-kernel regression gate:** use only the registry-cited current route; historical controls
+  are never construction inputs.
 - `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
   frame readouts, not automatically local signal speeds.
 - Angular cancellation alone owns loud--quiet--loud.

@@ -199,14 +199,14 @@ def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None
         premise_guard.validate_startup_surface(root)
 
 
-def test_catch_agents_universal_reciprocity_adoption_demotion(tmp_path: Path) -> None:
+def test_catch_agents_method_premise_boundary_removal(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
     _replace(
         root / "AGENTS.md",
-        "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
-        "NEW_CANDIDATE_POSTULATE_NOT_ADOPTED",
+        "do not supply scientific",
+        "may supply scientific",
     )
-    with pytest.raises(SystemExit, match="AGENTS lacks Universal Reciprocity/DDR"):
+    with pytest.raises(SystemExit, match="scoped-synthesis guard|method guard"):
         premise_guard.validate_startup_surface(root)
 
 
@@ -459,10 +459,79 @@ def test_catch_obsolete_completeness_target(tmp_path: Path) -> None:
     path = root / ".claude/skills/completeness-map/SKILL.md"
     _replace(
         path,
-        "`archive/SOLVER_COMPLETENESS_MAP.md` and subsumed",
-        "use root `SOLVER_COMPLETENESS_MAP.md`",
+        "premise-relative coverage",
+        "inherited ten-item inventory",
     )
-    with pytest.raises(SystemExit, match="completeness skill"):
+    with pytest.raises(SystemExit, match="premise-relative method boundary"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_synthesis_draft_promotion_boundary_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    path = root / ".claude/skills/verifier-before-record/SKILL.md"
+    _replace(path, "does not promote science", "automatically promotes science")
+    with pytest.raises(SystemExit, match="blocks or promotes labeled draft checkpoints"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_synthesis_standard_method_permission_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "AGENTS.md", "Standard mathematics and numerical methods are allowed", "Standard methods are forbidden")
+    with pytest.raises(SystemExit, match="scoped-synthesis guard"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_synthesis_open_join_rule_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / "AGENTS.md", "Mark an unsupported join open", "Smooth an unsupported join")
+    with pytest.raises(SystemExit, match="scoped-synthesis guard"):
+        premise_guard.validate_startup_surface(root)
+
+
+@pytest.mark.parametrize(
+    "contradiction",
+    (
+        "Historical action and carrier examples are current premises.",
+        "An authorized synthesis may add a physical premise.",
+        "An authorized synthesis may fit observational data.",
+        "Protected local work may be accessed without dispatch.",
+    ),
+)
+def test_catch_synthesis_contradictory_permission(tmp_path: Path, contradiction: str) -> None:
+    root = _startup_copy(tmp_path)
+    agents = root / "AGENTS.md"
+    agents.write_text(agents.read_text(encoding="utf-8") + "\n" + contradiction + "\n", encoding="utf-8")
+    with pytest.raises(SystemExit, match="synthesis contradiction"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_protected_dispatch_guard_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "AGENTS.md",
+        "do not stage, modify, delete, mine, or",
+        "protected paths may be inspected without a dispatch",
+    )
+    with pytest.raises(SystemExit, match="scoped-synthesis guard"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_synthesis_review_independence_removal(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(
+        root / "AGENTS.md",
+        "A claimed independent reviewer must be an actual separate context",
+        "The author may simulate an independent reviewer",
+    )
+    with pytest.raises(SystemExit, match="scoped-synthesis guard"):
+        premise_guard.validate_startup_surface(root)
+
+
+def test_catch_claude_stale_canon_summary(tmp_path: Path) -> None:
+    root = _startup_copy(tmp_path)
+    claude = root / "CLAUDE.md"
+    claude.write_text(claude.read_text(encoding="utf-8") + "\nThe finite-cell canon is current.\n", encoding="utf-8")
+    with pytest.raises(SystemExit, match="finite-cell canon"):
         premise_guard.validate_startup_surface(root)
 
 

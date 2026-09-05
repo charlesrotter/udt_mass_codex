@@ -1,37 +1,40 @@
 ---
 name: completeness-map
-description: Use every push to declare solver coverage before trusting a result. The ten completeness criteria + the standing questions; anti per-step-inflation (every result is ONE tile).
+description: Map premise-relative coverage for the declared problem before trusting a completeness claim; every result is one scoped tile.
 ---
 
-# Completeness map (the solver-architect view)
+# Completeness map (premise-relative coverage)
 
-The real project is a COMPLETE, numerically-tractable, UDT-native solver that drops NO
-potentially-emergent sector/effect/operator and is honest about its regime of validity. Track
-COVERAGE, not just the next step. Every result is ONE TILE with a regime stamp, next to the
-still-blank sectors. The former root `SOLVER_COMPLETENESS_MAP.md` is preserved at
-`archive/SOLVER_COMPLETENESS_MAP.md` and subsumed; it is not a live file to update. Record the criteria below in the task's preregistration, package ledger,
-or current program only when the task actually runs a solve.
+Method instructions do not supply scientific premises. Start from the objects, equations, domains,
+and premises admitted by the current work order and the current premise/result registry. Do not add a
+field, action, carrier, boundary, topology, source, or selection rule merely because one appeared in
+a historical branch or familiar theory.
 
-## The ten completeness criteria (a variational theory's full solution space is exhausted iff all ten are covered)
-LAYER 1 — what you're solving:
- 1. FIELDS — every varying DOF (10 g_munu + matter + phi).
- 2. ACTION TERMS — every term (L2, L4, gravity, seal/boundary); the "operators".
- 3. FULL EQUATIONS — every variation of every field, NEVER a subset (the #55 scar).
- 4. DOMAIN & COORDINATES — r,theta,psi,t live unless a STATED symmetry (the 2-D-in-4-D scar).
- 5. BOUNDARY & REGULARITY — seal, center/axis, finite cell (they SELECT solutions).
-LAYER 2 — which world:
- 6. TOPOLOGICAL SECTOR — winding/charge m (each a disconnected world).
- 7. DYNAMICAL CHARACTER — static / stationary / time-periodic / dynamic; elliptic vs eigenvalue
-    vs hyperbolic (the time-selector lives in "ring").
-LAYER 3 — what emerges:
- 8. BRANCH / BIFURCATION — are there OTHER disconnected solutions? (= the catalog).
- 9. STABILITY SPECTRUM — which solutions persist; a "particle" = a STABLE solution.
- 10. REGIME OF VALIDITY — scale/coupling range; where the math changes character.
+Track coverage of the declared problem, not an inherited universal inventory. A coverage checklist
+can expose omissions and blind spots; completing it is not an if-and-only-if proof that a solution
+space is exhausted. A completeness theorem needs its own mathematical argument. Every result remains
+one tile with its actual regime and quantifiers attached.
 
-## Standing questions (run every push)
-1. For EACH criterion: what does this push cover, and what does it DROP (explicitly)?
-2. Could any DROPPED criterion host emergent structure? If yes => flagged blind-spot, not a closure.
-3. State the REGIME OF VALIDITY (criterion 10) of the result.
-4. Is every technique category-A (conditioning) — not category-B (physics simplification)?
-5. What tooling/tractability step covers the dropped criteria next?
-6. (anti-inflation) This is ONE tile — how much of the ten-criteria space is still blank?
+## Premise-relative map
+
+For the exact problem being solved or synthesized, record only the applicable entries:
+
+1. Admitted objects and degrees of freedom, with their scientific source and status.
+2. Governing equations or relations, distinguishing derived, adopted, conditional, and supplied.
+3. Domain, dimension, chart, regularity, signature, and positivity assumptions.
+4. Boundary or initial data actually present; do not presume either when absent.
+5. Symmetry, gauge, quotient, rank, and branch restrictions.
+6. Dynamical character and the meaning of any evolution parameter, when the problem is dynamical.
+7. Source, population, carrier, action, and physical interpretation only when explicitly admitted.
+8. Numerical or analytic method, approximation status, and certification domain.
+9. Branches, degeneracies, counterexamples, and alternative solutions within the declared scope.
+10. Quantifiers and conclusion ceiling: witness, bounded classification, or proved completeness.
+
+## Standing questions
+
+1. What does this work cover, and what does it explicitly leave out?
+2. Which omissions are absent premises, which are deliberate restrictions, and which are blind spots?
+3. Do the source objects, domains, and quantifiers match across every claimed connection?
+4. Is each borrowed technique a method applied to the admitted equations rather than imported physics?
+5. Does the evidence justify existence, a bounded classification, or an actual completeness theorem?
+6. What remains blank, and what further authority or argument would be required to fill it?
