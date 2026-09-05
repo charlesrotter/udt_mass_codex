@@ -1,0 +1,29 @@
+{
+  "caught": 21,
+  "failed": [],
+  "mutations": {
+    "assert_global_bare_sewing": true,
+    "claim_numerical_observer_invariance": true,
+    "claim_orientation_free_signed_determinant": true,
+    "delete_rank_one": true,
+    "delete_rank_zero": true,
+    "force_positive_oriented_determinant": true,
+    "insert_target_observer_factor": true,
+    "invent_degenerate_rank_zero_order": true,
+    "make_full_flow_singular_at_caustic": true,
+    "make_inverse_scalar_finite_at_caustic": true,
+    "nonsymmetric_tide": true,
+    "nonsymplectic_flow": true,
+    "omit_absolute_value": true,
+    "omit_reversal_adjoint": true,
+    "promote_to_light_distance_scale_or_Xmax": true,
+    "sum_or_select_path_labels": true,
+    "wrong_Jacobi_curvature_sign": true,
+    "wrong_affine_power": true,
+    "wrong_rank_one_zero_order": true,
+    "wrong_reversal_sign": true,
+    "wrong_source_observer_power": true
+  },
+  "status": "PASS",
+  "total": 21
+}

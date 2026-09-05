@@ -1,0 +1,28 @@
+{
+  "assertions": 39542,
+  "failed": [],
+  "landing": "GENERIC_METRIC_NULL_SCREEN_AREA_THEOREM_CLOSES_WITH_SINGULAR_STRATA__LEVI_CIVITA_QUOTIENT_CONNECTION_SELF_ADJOINT_TIDE_AND_SYMPLECTIC_FLOW__SOURCE_FREQUENCY_SQUARED_DIRECTIONAL_AREAS_AND_GENERIC_OBSERVER_COVARIANCE__WRONSKIAN_FORCES_CONJUGATE_ZERO_ORDER_EQUAL_TO_KERNEL_DIMENSION__TYPE_I_GENERATOR_INVERSE_SCALAR_AND_STATIONARY_SEWING_ARE_CHARTWISE__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED",
+  "maxima": {
+    "B_reverse_adjoint": 3.3306690738754696e-16,
+    "GL2_B": 3.3306690738754696e-16,
+    "GL2_oriented_density": 7.744193650264557e-16,
+    "GL2_unsigned_area": 5.879935814757787e-16,
+    "absolute_determinant_reversal": 2.220446049250313e-16,
+    "affine_area": 3.8772433626147785e-16,
+    "composition": 8.881784197001252e-16,
+    "direct_reversal": 1.7763568394002505e-15,
+    "inverse_reversal": 1.980253995116733e-15,
+    "observer_screen_target_orthogonal": 5.684341886080802e-14,
+    "rank_one_centered_first_derivative": 3.335443555201157e-09,
+    "rank_zero_centered_second_derivative": 3.32911276323955e-09,
+    "stationary_area_sewing": 9.195402785990906e-16,
+    "symplectic": 1.9984014443252818e-15
+  },
+  "noncommuting_profiles": 420,
+  "observer_cases": 420,
+  "preregistration_commit": "23e50369",
+  "reflected_frames": 210,
+  "selected_alternatives": ["A", "Q1", "J1", "R1", "A1", "O1", "C1", "X1", "S1", "W1", "P1"],
+  "sewing_cases": 420,
+  "status": "PASS"
+}

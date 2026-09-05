@@ -1,0 +1,19 @@
+G348 preregistration chronology (documentary; verify against repository only when access is authorized)
+
+commit 17c35cc6f3043a587965d31bde18c3a9e8e2f2f2
+AuthorDate: Fri Sep 4 20:24:31 2026 -0400
+CommitDate: Fri Sep 4 20:24:31 2026 -0400
+Subject: Preregister G348 generic null-screen theorem
+
+Seven outcome-unseen files were created: COMMANDS.md, COMPLETENESS_MAP.md, MAP.md,
+PREMISE_LEDGER.tsv, PREREGISTRATION.md, SOURCE_SCOPE.tsv, and STATUS_LEDGER.tsv.
+
+commit 23e5036905aaca3163da0119c331b1cbc805eb9f
+AuthorDate: Fri Sep 4 20:26:04 2026 -0400
+CommitDate: Fri Sep 4 20:26:04 2026 -0400
+Subject: Refine G348 crossing alternatives before execution
+
+Before outcome execution, MAP.md, PREMISE_LEDGER.tsv, and PREREGISTRATION.md were changed to freeze
+the Wronskian-transversality alternative against a genuine higher-order crossing counterexample.
+
+Both commits were pushed to origin/grok before the first production command was executed.

@@ -38,8 +38,16 @@ frequency squared, and each directional area by its source factor squared; rever
 sewing remain covariant. Fresh `gpt-5.6-sol` review accepted without repair. This is geometry, not
 observer invariance, preferred population, finite-beam/light transfer, distance, scale, or `X_max`.
 
+G348 lifts that fixed-spacetime result to every supplied smooth time-oriented four-dimensional
+Lorentzian metric and supplied regular affine future-null geodesic. The quotient-screen Jacobi flow,
+directional areas, and finite-timelike observer law are coordinate-free; rank-one conjugacy gives a
+simple signed-area zero/sign flip and rank-zero conjugacy a double zero/no flip. Full phase space
+remains regular while generator/inverse-area charts fail at conjugacy. Fresh `gpt-5.6-sol` review
+accepted without scientific repair. This is general Lorentzian geometry, not a UDT selector or a
+finite-beam/light-transfer/distance law.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G347 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G348 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -47,13 +55,13 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348.
 
 W5 is noncanon normalized projective position. `X_max` is not an input or derived scale.
 R2--R5 in `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats;
 184,300 covariance rows are unresolved and no preferred scale follows. Raw:
 `/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/`. Authority:
-`CURRENT_SCIENTIFIC_PREMISES.tsv` (330 rows through G347). Archives:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` (331 rows through G348). Archives:
 `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
 `archive/startup_surface_2026-08-22_pre_cleanup/`,
@@ -67,11 +75,11 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: starting from G343--G347, test whether the observer-covariant directional-area package
-extends as a coordinate-free theorem to every supplied regular null segment of an arbitrary
-four-dimensional Lorentzian UDT metric. Rederive it from the metric and classify conjugate/rank-loss
-crossings and orientation signs. Keep it infinitesimal and geometric: no finite-beam, brightness,
-flux, luminosity, probability, transfer, observational-distance, preferred observer/route/population,
-occupancy, scale, `X_max`, stability, or canon.
+Next: starting from G348, test the coordinate-free finite geometric null-exponential/wavefront map
+of a supplied small celestial patch. Retain folds, caustics, overlapping sheets, path labels, and
+multiplicity; distinguish multiplicity-weighted absolute-Jacobian area from physical image-union
+area. Keep every metric/geodesic/observer/patch/cut/path supplied and import no light, transfer,
+brightness, flux, luminosity, probability, detector, distance, population, history, scale, `X_max`,
+or canon.
 
 <!-- STARTUP_CURRENT_END -->

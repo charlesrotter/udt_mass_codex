@@ -1,10 +1,11 @@
 item	status	note
-G348_preregistration	READY_UNBANKED	outcomes unseen; must commit and push before execution
-production	NOT_RUN	frozen command in COMMANDS.md
-independent_verification	NOT_RUN	implementation-distinct smooth-variable-tide route required
-hostile_mutations	NOT_RUN	minimum mutation list frozen
-external_review	NOT_REQUESTED	fresh sealed adversarial review required before result banking
-generic_null_screen_theorem	OPEN	alternatives A through D frozen
-rank_orientation_classification	OPEN	all rank strata and sign branches retained
+G348_preregistration	PASS	17c35cc6 and outcome-unseen crossing refinement 23e50369 committed and pushed
+production	PASS	39542 of 39542 after one recorded diagnostic-only repair
+independent_verification	PASS	9759 of 9759 smooth-variable-tide RK4 and rapidity checks
+hostile_mutations	PASS	21 of 21 caught
+aggregate_no_write_replay	PASS	18 of 18 before review and 19 of 19 after exact external-response import
+external_review	PASS	fresh gpt-5.6-sol authenticated 33 payloads and accepted without mathematical repair
+generic_null_screen_theorem	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	alternative A with Q1 J1 R1 A1 O1 C1 X1 S1 W1 P1
+rank_orientation_classification	PASS	Wronskian forces zero order equal to kernel dimension
 light_distance_population_scale_Xmax	OPEN_NOT_DERIVED	outside maximum conclusion
 canon	OPEN	Charles alone canonizes

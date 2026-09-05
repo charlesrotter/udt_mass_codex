@@ -1,0 +1,28 @@
+{
+  "all_passed": true,
+  "checks": {
+    "aggregate_replay_changes_no_bytes": true,
+    "bounded_physical_scope": true,
+    "chartwise_not_global_sewing": true,
+    "first_failure_and_repair_recorded": true,
+    "fresh_external_acceptance": true,
+    "frozen_preregistration_hashes": true,
+    "frozen_script_hashes": true,
+    "frozen_source_hashes": true,
+    "generic_metric_theorem_wording": true,
+    "hostile_21_of_21": true,
+    "independent_9759_of_9759": true,
+    "metric_only_provenance": true,
+    "no_bytecode_or_special_output": true,
+    "observer_covariance_generic": true,
+    "production_39542_of_39542": true,
+    "rank_and_crossing_classification": true,
+    "registered_no_write_replays": true,
+    "selected_alternatives": true,
+    "stdlib_only_imports": true
+  },
+  "checks_passed": 19,
+  "checks_total": 19,
+  "landing": "GENERIC_METRIC_NULL_SCREEN_AREA_THEOREM_CLOSES_WITH_SINGULAR_STRATA__LEVI_CIVITA_QUOTIENT_CONNECTION_SELF_ADJOINT_TIDE_AND_SYMPLECTIC_FLOW__SOURCE_FREQUENCY_SQUARED_DIRECTIONAL_AREAS_AND_GENERIC_OBSERVER_COVARIANCE__WRONSKIAN_FORCES_CONJUGATE_ZERO_ORDER_EQUAL_TO_KERNEL_DIMENSION__TYPE_I_GENERATOR_INVERSE_SCALAR_AND_STATIONARY_SEWING_ARE_CHARTWISE__NO_LIGHT_DISTANCE_POPULATION_HISTORY_SCALE_OR_XMAX_SELECTED",
+  "review_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED"
+}

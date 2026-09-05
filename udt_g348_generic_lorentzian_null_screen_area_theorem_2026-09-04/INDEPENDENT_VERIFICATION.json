@@ -1,0 +1,18 @@
+{
+  "assertions": 9759,
+  "failed": [],
+  "maxima": {
+    "independent_double_order": 3.32911276323955e-09,
+    "independent_simple_order": 3.335443555201157e-09,
+    "rapidity_target_orthogonal": 2.842170943040401e-14,
+    "smooth_B_Wronskian": 2.3869795029440866e-15,
+    "smooth_B_adjoint": 3.1086244689504383e-15,
+    "smooth_composition": 2.377154029176154e-12,
+    "smooth_reversal": 2.0317081350640365e-14,
+    "smooth_symplectic": 1.887379141862766e-14
+  },
+  "method": "independent smooth-variable-tide RK4 and rapidity observer reconstruction; imports no production or G343-G347 code",
+  "near_null_cases": 21,
+  "smooth_variable_tide_cases": 150,
+  "status": "PASS"
+}

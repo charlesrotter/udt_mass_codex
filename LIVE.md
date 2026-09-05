@@ -57,8 +57,18 @@ Null timing and geometric beam response require no phenomenological light model,
 brightness, transfer, detection, route/population, generic stability, occupancy/history, topology,
 scale, `X_max`, and canon remain open. Metric, kernel, angular sector, and equation are unchanged.
 
+G348 removes the single-spacetime restriction. For every supplied smooth time-oriented
+four-dimensional Lorentzian metric and supplied regular affine future-null geodesic, the intrinsic
+quotient screen, self-adjoint curvature tide, Jacobi symplectic flow, two directional infinitesimal
+areas, and arbitrary finite-timelike endpoint-observer covariance follow directly from the metric.
+Conjugate crossings are retained: rank-one loss is a simple signed-area zero and sign flip; rank-zero
+loss is a double zero without sign flip. The full phase-space flow remains regular while a
+configuration-space generator or inverse area scalar is only chartwise. Fresh `gpt-5.6-sol` review
+accepted without scientific repair. This is a general Lorentzian geometric theorem, not a uniquely
+UDT selector or finite-beam/light-transfer/distance result.
+
 Route: G190--G198 are formula-level regression controls excluding G116/G189 and construction inputs;
-G215--G276 reconstruction; G277--G281 observations; G282--G347 history/dynamics. Evaluator:
+G215--G276 reconstruction; G277--G281 observations; G282--G348 history/dynamics. Evaluator:
 `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`.
 
 Guards:
@@ -66,9 +76,9 @@ G197/G215/G216/G217/G218/G219/G220/G221/G222/G223/G224/G225/G226/G227/G228/G229/
 G236/G237/G238/G239/G240/G241/G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264;
 G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6;
 G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316;
-G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347.
+G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348.
 
-Authority: the exact 330-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G347 external
+Authority: the exact 331-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through final G348 external
 acceptance without required repair and with non-blocking scope caveats retained.
 Archives: `archive/startup_surface_2026-08-17_pre_zoomout/`,
 `archive/startup_surface_2026-08-21_pre_g197/`,
@@ -93,12 +103,11 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G343--G347, test whether the observer-covariant directional-area package is a
-coordinate-free theorem on every supplied regular null segment of an arbitrary four-dimensional
-Lorentzian UDT metric, rather than a property of the supplied Taub/Kasner example. Rederive the
-quotient-screen Jacobi propagator, symplectic reversal, two directional areas, and arbitrary
-endpoint-observer law directly from the metric; classify conjugate/rank-loss crossings and
-orientation signs without deleting them. Do not infer finite beams, light/brightness/transfer,
-observational distance, preferred observer/route/population, occupancy, matter, scale, `X_max`,
-stability, or canon.
+Starting from G348, test whether its infinitesimal null-screen Jacobian integrates into a
+coordinate-free finite geometric null-exponential/wavefront patch map on a supplied small celestial
+patch of an arbitrary smooth metric. Retain folds, caustics, overlapping sheets, path labels, and
+multiplicity; distinguish the multiplicity-weighted integral of the absolute Jacobian from the area
+of the physical image union. Keep the metric, geodesic, source observer, patch, affine cut, and paths
+supplied. Do not infer a light/emission/brightness/flux/luminosity/probability/detector model,
+observational distance, preferred observer/route/population, history, matter, scale, `X_max`, or canon.
 <!-- STARTUP_CURRENT_END -->
