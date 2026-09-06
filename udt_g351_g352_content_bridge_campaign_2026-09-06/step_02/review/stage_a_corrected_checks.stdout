@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "implementation": "independent source-first coordinate pullback; no Step2 author exposure",
+  "full_translation_residual_before_ODE": "Matrix([[2*A*x*a(u) - 2*A*y*c(u) + A*a(u)**2 - A*c(u)**2 - 2*x*Derivative(a(u), (u, 2)) - 2*y*Derivative(c(u), (u, 2)) - a(u)*Derivative(a(u), (u, 2)) - c(u)*Derivative(c(u), (u, 2)), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "full_translation_residual_after_ODE": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "translation_determinant": "1",
+  "full_homothety_residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "homothety_beta_residual": "Matrix([[0], [0], [0], [0]])",
+  "homothety_determinant": "h**4",
+  "both_sign_transverse_Cauchy_reach": [
+    {
+      "A_sign": 1,
+      "initial_data": [
+        "X",
+        "Y",
+        "P",
+        "Q"
+      ]
+    },
+    {
+      "A_sign": -1,
+      "initial_data": [
+        "X",
+        "Y",
+        "P",
+        "Q"
+      ]
+    }
+  ],
+  "missing_v_shift_residual_ux": "Derivative(a(u), u)",
+  "wrong_v_scaling_residual_uv": "h*(h - 1)",
+  "coordinate_amplitude_control": "A changes to A/alpha**2 for the same pulled-back tensors",
+  "measure_controls": {
+    "Delta": "3/2",
+    "unit_square_amount": "3/2",
+    "side_2_square_amount": "6"
+  },
+  "finite_witnesses_are_not_general_proof": true
+}

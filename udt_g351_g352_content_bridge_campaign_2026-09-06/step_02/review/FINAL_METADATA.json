@@ -1,0 +1,62 @@
+{
+  "seal_utc": "2026-09-06T20:10:04.021761+00:00",
+  "records": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220",
+        "--",
+        "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+        "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+        "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md",
+        "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+        "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+        "udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md",
+        "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "actual_exit": 0,
+      "stdout_file": "final_source_snapshot_diff.stdout",
+      "stderr_file": "final_source_snapshot_diff.stderr"
+    },
+    {
+      "command": [
+        "sha256sum",
+        "--check",
+        "STAGE_A_SHA256SUMS"
+      ],
+      "cwd": "/tmp/udt-content-step02-review-fJvt8Q",
+      "actual_exit": 0,
+      "stdout_file": "final_stage_a_auth.stdout",
+      "stderr_file": "final_stage_a_auth.stderr"
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "actual_exit": 0,
+      "stdout_file": "final_repository_status.stdout",
+      "stderr_file": "final_repository_status.stderr"
+    }
+  ],
+  "report_sha256": "c151956601b855a3d7295ee51a97d4b4435d84f65954ccbc7e1c02eb0174f097",
+  "verdict_sha256": "822b9bb3cf7097f2355e47fd13be302435bd6a8adc64d3cc94ef250b4c0b4baf",
+  "science_sources_compared_against_snapshot": [
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+    "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md"
+  ],
+  "stage_a_campaign_log_hash_is_historical_exposure_not_current_status_lock": true
+}

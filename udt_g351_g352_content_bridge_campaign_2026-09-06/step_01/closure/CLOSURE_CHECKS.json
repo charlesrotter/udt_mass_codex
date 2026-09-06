@@ -1,0 +1,916 @@
+{
+  "status": "PASS_DOCUMENTATION_ARCHIVE_FIDELITY",
+  "utc": "2026-09-06T20:03:49.728673+00:00",
+  "reviewed_commit": "9fb783cb0ffa90a0d25d677730139cf50fade16c",
+  "actual_head": "9aa8dc44b0a7afe92765960851b678e9b6f355fe",
+  "actual_branch": "grok",
+  "status_metadata": "## grok...origin/grok\n M udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md\n?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+  "archive_files": 55,
+  "manifest_payloads": 54,
+  "archive_rows": [
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/ARCHIVE_FILES.txt",
+      "sha256": "6a058139b7f446b04f9d6bff0b5c2f383f44f14487abc3a1f7869016ea735ad0",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/CLOSURE_WRONG_CWD_TOOL_RESULT.json",
+      "sha256": "80acc94b21c801ff29f84d47c5c9bf3ad58c1eb8a7ea3372a1a8aa55577d8f69",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/FINAL_METADATA.json",
+      "sha256": "4f26abb9e75c615faec2f0181c9262aa0579ca7ec92e306999c0db8642950334",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_SHA256SUMS",
+      "sha256": "754a0f7d7fb928bb5c4e009ff11398354502975a10fc49885154d30e71a1a715",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json",
+      "sha256": "5533e13d3c259bcf29d2f8c2537d013e2182bc5a48a2c02bef28b54e0ed3f849",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_RUN.json",
+      "sha256": "df8065283926f6a0aeb1fd8d77168e23d2deebc1b8869996991376ac43d52e48",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_SHA256SUMS",
+      "sha256": "e665a73f0eaaf39913c900d09f7ad81ac216ca53c02cb00c0f7d8862a94505fa",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_SOURCE_FIRST_REVIEW.md",
+      "sha256": "53071319d593604dc75a75fd483efc6cb19a67a7c74e81a76a6c2ebc92fa2f18",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_SOURCE_METADATA.json",
+      "sha256": "64aff1524fda0752b577521afc80398f8e9c026972db026f2f8a93da2bfe2dd9",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md",
+      "sha256": "7366f388587ab9b2506ee9c2645d0b89c59d10968a73a8dbb2776e203c97ceee",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_PARSER_DIAGNOSTIC.json",
+      "sha256": "c701df903254c5fb074d2f5ae28e6dc24720180e4e68f8c82a4a89b70ab9677c",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_PARSER_DIAGNOSTIC_PLAN.md",
+      "sha256": "225ea5b79e48fcc79ed791f979482d2f4bb15d29d3d5ad3496207fbc6a20c03c",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_REPLAY_RESULTS.json",
+      "sha256": "d62e47428012dba9bac5063dc73fd856bf746efa25180808b31aaf569e1950a7",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/capture_source_metadata.py",
+      "sha256": "5931e0d8fce28c4f96a71b86897a265c77d8946e48875ccbb2312eda74a7edfa",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_repository_metadata.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_repository_metadata.stdout",
+      "sha256": "807251b648796d43d5dfea0d3e26177f82d397c4717db184cf57353b28e05d68",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_source_diff.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_source_diff.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/run_review_checks.py",
+      "sha256": "55cc1ed873b4d256cb0b8dd0f10eefd3e48fd611628c59c5dfd4012ce62402e0",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/seal_review_archive.py",
+      "sha256": "7c222ecf3775670185c67e5aec414d0068e9bdb004cb63a59a44ad36cb7fa8a4",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_checks.py",
+      "sha256": "1107ed8dc32e442fd2743bc25058b0c786501bcebd24cc62959e910aeeb43b6a",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_checks.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_checks.stdout",
+      "sha256": "baab4d46d53f1357f2f315d9b4051c334d6696690263b47ccf388d06549e865e",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_final_auth.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_final_auth.stdout",
+      "sha256": "708092c069274b4d5ce0d4548c71a4e6098ca7e745c7e5a5b51f55d6fdcaadbc",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_author_baseline.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_author_baseline.stdout",
+      "sha256": "a9d0f415caba096a15d75c44bb8bc8dff08ba365eed200b38592e9ea1793be25",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_candidate_auth.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_candidate_auth.stdout",
+      "sha256": "d0c2523f9f1508dec5e3e41dfb93ddd0df490f82254fb0446829ae947f06ae31",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_coordinate_area_identity.stderr",
+      "sha256": "8f3f7f7e9d63de80cdd33c7ed1fd62c4cb4348fe0b220f1ff168c2fbba0e44c8",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_coordinate_area_identity.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_diagnostic_capture.py",
+      "sha256": "2c2e85e14f8b9beb6e2e3f07cafe56c243a2b1d977d927da1ebe8d017ef58d2b",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_erase_weight.stderr",
+      "sha256": "4fd1003d27a63ce4c26107991d24bfc08bede13370d8b962a3fa40902f442249",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_erase_weight.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_frozen_diff.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_frozen_diff.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_gauge_rebuild_mu.stderr",
+      "sha256": "690598401014da4e417d09139e9795c5bbb46b19031200e99bb4ac221f1e0580",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_gauge_rebuild_mu.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent.stdout",
+      "sha256": "9028c4cb556e80935274d8abcaa3c578ef906d098a0b167c4c2760296d14a9a1",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent_witnesses.py",
+      "sha256": "cf8b788860d9e10427214ccc2efc7da538d678a32daa256c3bd47442ceebf5ef",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_observer_weighted_mu.stderr",
+      "sha256": "35ce78e4a5287ebeabb379eb098b466ce6f68e0275353beaaead73e758de6ef5",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_observer_weighted_mu.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_check.py",
+      "sha256": "ef338017fed7362b315fa058c4fd46b603162cd228efd839910f19db32f076a0",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_diff.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_diff.stdout",
+      "sha256": "d942b7a590c97680d4d090cc4ed23cac981c9c46cbb49be3ed8d1284e9e88fb5",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_equivalence.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_equivalence.stdout",
+      "sha256": "a13e0068fb75dbb6f67adee5ee7cbd02bcadf9746a48b6ce244d509df34f8731",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_phase_blind.stderr",
+      "sha256": "5963c9e994290a08d3312a5fe09ced65076bf10cd5d7405469803f6d75d1bf89",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_phase_blind.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_replays.py",
+      "sha256": "1106bb6e5cece75c2ca71d389138a00d1c88a986bbf4e1386353cd464d2e7e86",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_source_auth.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_source_auth.stdout",
+      "sha256": "c75e74e22e7d248fa234096c25aa639ab0df9d726ac9fe482da7f0f79eb6e347",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_stage_a_auth.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_sealed_source_and_worktree": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_stage_a_auth.stdout",
+      "sha256": "708092c069274b4d5ce0d4548c71a4e6098ca7e745c7e5a5b51f55d6fdcaadbc",
+      "matches_sealed_source_and_worktree": true
+    }
+  ],
+  "document_versions": [
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/REVIEW_RECORD.md",
+      "sha256": "02594a10198bb6f9c61f0bb6e7f6f4bb81d21f10725c978c30eeed061c9c673b"
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md",
+      "sha256": "5c6c412be9069ef692461c939456453974cd5814e97ac20323cfb8202f9cef11"
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit": 0,
+      "stdout_sha256": "7d1391b22569667dae5e32afb33f12dfc4d0bab106c906da7d4e0f6853d539a3",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "exit": 0,
+      "stdout_sha256": "766a6033a2ce2b0a42dec23d7cd7959e4f0412b55333b54d123c863dfa49679b",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "exit": 0,
+      "stdout_sha256": "807251b648796d43d5dfea0d3e26177f82d397c4717db184cf57353b28e05d68",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c",
+        "--",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/"
+      ],
+      "exit": 0,
+      "stdout_sha256": "6b2eee7ba6247f2717cdec0bdd901e7806f3a870a13ef151f0c73dc9594a330c",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/ARCHIVE_FILES.txt"
+      ],
+      "exit": 0,
+      "stdout_sha256": "6a058139b7f446b04f9d6bff0b5c2f383f44f14487abc3a1f7869016ea735ad0",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/CLOSURE_WRONG_CWD_TOOL_RESULT.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "80acc94b21c801ff29f84d47c5c9bf3ad58c1eb8a7ea3372a1a8aa55577d8f69",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/FINAL_METADATA.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "4f26abb9e75c615faec2f0181c9262aa0579ca7ec92e306999c0db8642950334",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_SHA256SUMS"
+      ],
+      "exit": 0,
+      "stdout_sha256": "754a0f7d7fb928bb5c4e009ff11398354502975a10fc49885154d30e71a1a715",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "5533e13d3c259bcf29d2f8c2537d013e2182bc5a48a2c02bef28b54e0ed3f849",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_RUN.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "df8065283926f6a0aeb1fd8d77168e23d2deebc1b8869996991376ac43d52e48",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_SHA256SUMS"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e665a73f0eaaf39913c900d09f7ad81ac216ca53c02cb00c0f7d8862a94505fa",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_SOURCE_FIRST_REVIEW.md"
+      ],
+      "exit": 0,
+      "stdout_sha256": "53071319d593604dc75a75fd483efc6cb19a67a7c74e81a76a6c2ebc92fa2f18",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_A_SOURCE_METADATA.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "64aff1524fda0752b577521afc80398f8e9c026972db026f2f8a93da2bfe2dd9",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md"
+      ],
+      "exit": 0,
+      "stdout_sha256": "7366f388587ab9b2506ee9c2645d0b89c59d10968a73a8dbb2776e203c97ceee",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_PARSER_DIAGNOSTIC.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "c701df903254c5fb074d2f5ae28e6dc24720180e4e68f8c82a4a89b70ab9677c",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_PARSER_DIAGNOSTIC_PLAN.md"
+      ],
+      "exit": 0,
+      "stdout_sha256": "225ea5b79e48fcc79ed791f979482d2f4bb15d29d3d5ad3496207fbc6a20c03c",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_REPLAY_RESULTS.json"
+      ],
+      "exit": 0,
+      "stdout_sha256": "d62e47428012dba9bac5063dc73fd856bf746efa25180808b31aaf569e1950a7",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/capture_source_metadata.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "5931e0d8fce28c4f96a71b86897a265c77d8946e48875ccbb2312eda74a7edfa",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_repository_metadata.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_repository_metadata.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "807251b648796d43d5dfea0d3e26177f82d397c4717db184cf57353b28e05d68",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_source_diff.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/final_source_diff.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/run_review_checks.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "55cc1ed873b4d256cb0b8dd0f10eefd3e48fd611628c59c5dfd4012ce62402e0",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/seal_review_archive.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "7c222ecf3775670185c67e5aec414d0068e9bdb004cb63a59a44ad36cb7fa8a4",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_checks.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "1107ed8dc32e442fd2743bc25058b0c786501bcebd24cc62959e910aeeb43b6a",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_checks.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_checks.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "baab4d46d53f1357f2f315d9b4051c334d6696690263b47ccf388d06549e865e",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_final_auth.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_a_final_auth.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "708092c069274b4d5ce0d4548c71a4e6098ca7e745c7e5a5b51f55d6fdcaadbc",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_author_baseline.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_author_baseline.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "a9d0f415caba096a15d75c44bb8bc8dff08ba365eed200b38592e9ea1793be25",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_candidate_auth.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_candidate_auth.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "d0c2523f9f1508dec5e3e41dfb93ddd0df490f82254fb0446829ae947f06ae31",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_coordinate_area_identity.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "8f3f7f7e9d63de80cdd33c7ed1fd62c4cb4348fe0b220f1ff168c2fbba0e44c8",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_coordinate_area_identity.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_diagnostic_capture.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "2c2e85e14f8b9beb6e2e3f07cafe56c243a2b1d977d927da1ebe8d017ef58d2b",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_erase_weight.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "4fd1003d27a63ce4c26107991d24bfc08bede13370d8b962a3fa40902f442249",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_erase_weight.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_frozen_diff.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_frozen_diff.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_gauge_rebuild_mu.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "690598401014da4e417d09139e9795c5bbb46b19031200e99bb4ac221f1e0580",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_gauge_rebuild_mu.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "9028c4cb556e80935274d8abcaa3c578ef906d098a0b167c4c2760296d14a9a1",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent_witnesses.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "cf8b788860d9e10427214ccc2efc7da538d678a32daa256c3bd47442ceebf5ef",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_observer_weighted_mu.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "35ce78e4a5287ebeabb379eb098b466ce6f68e0275353beaaead73e758de6ef5",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_observer_weighted_mu.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_check.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "ef338017fed7362b315fa058c4fd46b603162cd228efd839910f19db32f076a0",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_diff.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_diff.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "d942b7a590c97680d4d090cc4ed23cac981c9c46cbb49be3ed8d1284e9e88fb5",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_equivalence.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_parser_equivalence.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "a13e0068fb75dbb6f67adee5ee7cbd02bcadf9746a48b6ce244d509df34f8731",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_phase_blind.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "5963c9e994290a08d3312a5fe09ced65076bf10cd5d7405469803f6d75d1bf89",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_phase_blind.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_replays.py"
+      ],
+      "exit": 0,
+      "stdout_sha256": "1106bb6e5cece75c2ca71d389138a00d1c88a986bbf4e1386353cd464d2e7e86",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_source_auth.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_source_auth.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "c75e74e22e7d248fa234096c25aa639ab0df9d726ac9fe482da7f0f79eb6e347",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_stage_a_auth.stderr"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_stage_a_auth.stdout"
+      ],
+      "exit": 0,
+      "stdout_sha256": "708092c069274b4d5ce0d4548c71a4e6098ca7e745c7e5a5b51f55d6fdcaadbc",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/REVIEW_RECORD.md"
+      ],
+      "exit": 0,
+      "stdout_sha256": "02594a10198bb6f9c61f0bb6e7f6f4bb81d21f10725c978c30eeed061c9c673b",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md"
+      ],
+      "exit": 0,
+      "stdout_sha256": "5c6c412be9069ef692461c939456453974cd5814e97ac20323cfb8202f9cef11",
+      "stderr": ""
+    }
+  ],
+  "new_scientific_review": false,
+  "step2_evaluated": false
+}

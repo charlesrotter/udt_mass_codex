@@ -1,0 +1,92 @@
+{
+  "records": [
+    {
+      "name": "stage_a_corrected_git",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:01:03.301863+00:00",
+      "wall_seconds": 0.001509,
+      "actual_exit_code": 0
+    },
+    {
+      "name": "stage_a_corrected_status",
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:01:03.303391+00:00",
+      "wall_seconds": 0.031668,
+      "actual_exit_code": 0
+    },
+    {
+      "name": "stage_a_corrected_checks",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "/tmp/udt-content-step02-review-fJvt8Q/stage_a_checks.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:01:03.335096+00:00",
+      "wall_seconds": 0.365019,
+      "actual_exit_code": 0
+    },
+    {
+      "name": "stage_a_source_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "/tmp/udt-content-step02-review-fJvt8Q/STAGE_A_SOURCE_SHA256SUMS"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:01:03.701204+00:00",
+      "wall_seconds": 0.007653,
+      "actual_exit_code": 0
+    }
+  ],
+  "resource_limits": {
+    "address_space_MiB": 512,
+    "CPU_seconds": 60,
+    "wall_seconds_per_child": 60,
+    "one_child_at_a_time": true
+  },
+  "source_hashes": {
+    "AGENTS.md": "a2648f0f6aa2f53482023aea99320c0db635b6affd662580b48738f4f39e2895",
+    "LIVE.md": "ce808f919ab53a44dced5c340a29b82cdfd0f7bf9b53127eb9e4bfe81597209b",
+    "HANDOFF.md": "f3920a601843f4cbe947def9d091f69920ecbb20128c552efb2448d3e823f061",
+    "CURRENT_RESEARCH_PROGRAM.md": "4c85a3abb82f99452d66b5df455becce448959b057abe7b85553f3b2d6924f89",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "044a7067b2e678ddce77b34a328a179338db7e873ec4d73c8e64375e85cbc008",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "INDEX.md": "5f9b6411581f95df477f30f365ca00592c298b4f82580e21a4aff95a243599f6",
+    "MEMORY.md": "76639279d0f4b26ee5e3c68e7f1eb0ce5c64a2e8c05c7636e60ef04db5d839c2",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/solution-space-not-imposition/SKILL.md": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+    ".claude/skills/solver-first/SKILL.md": "b80b1ca9fe5ebccb7170c39b97ca26f32c950650328d9a2f380c3793cb9cd61b",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md": "3e86e25896faa1b917d686bbe1b5d52134f21e25ce8737e1ecde43c217c81a36",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/REVIEW_RECORD.md": "fa21e3dbeca2b945f8091fa60d995ff09ac34e21b70ddbfc9ba05cf49b736b60",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md": "bc8a33881a9e9fcb0d25df82c8648e8e1aba617675432c5855d0f795f548a77a",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md": "d121a132d6cec1ae8a70798f9d1b6ba358c9250fff9ad4f44d0bb9580d13811c",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md": "7366f388587ab9b2506ee9c2645d0b89c59d10968a73a8dbb2776e203c97ceee",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json": "5533e13d3c259bcf29d2f8c2537d013e2182bc5a48a2c02bef28b54e0ed3f849",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/WORK_ORDER.md": "07d230e99a1c0fb55f857a3c6addc6f7bae9f106ea0707452b57b2334c963981",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md": "5c6c412be9069ef692461c939456453974cd5814e97ac20323cfb8202f9cef11"
+  }
+}

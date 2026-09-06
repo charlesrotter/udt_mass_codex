@@ -1,0 +1,18 @@
+{
+  "first_child_command": ["/usr/bin/time", "-v", "python3", "-B", "/tmp/udt-content-step02-review-fJvt8Q/stage_a_checks.py"],
+  "first_child_actual_exit": 1,
+  "raw_streams": ["stage_a_checks.stdout", "stage_a_checks.stderr"],
+  "initial_source_preserved": "INITIAL_stage_a_checks.py",
+  "first_wrapper_exit": 1,
+  "first_wrapper_final_json_not_written": true,
+  "first_child_exact_start_timestamp": "NOT_PRESERVED",
+  "first_child_time_v_wall_seconds": 0.29,
+  "diagnostic_command": "python3 -B -c 'import sympy as S; h=S.symbols(\"h\", positive=True); r=S.simplify(S.expand(h*h-h)); print(repr(r)); print(repr(h*h-h)); print(S.simplify(r-(h*h-h))); print(r.subs(h,2)); assert S.simplify(r-(h*h-h))==0 and r.subs(h,2)==2'",
+  "diagnostic_stdout_exact": "h*(h - 1)\nh**2 - h\n0\n2\n",
+  "diagnostic_stderr_exact": "",
+  "diagnostic_exit_code": 0,
+  "diagnosis": "SymPy structural equality of factored and expanded polynomials; exact difference zero, wrong-scaling residual remains nonzero at h=2",
+  "correction": "Replace structural equality by exact simplified-difference equality; no formula or mathematical hypothesis changed",
+  "scientific_repair": false,
+  "limitations": "The tiny diagnostic child was a direct tool command without an explicit rlimit wrapper; actual elapsed 0.084 seconds. All substantive symbolic children use declared limits. Original failed wrapper stopped before serializing its command/timing records; retained raw time-v output authenticates actual exit and resource observation, not exact chronology."
+}

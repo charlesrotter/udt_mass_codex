@@ -73,7 +73,8 @@ INCOMPLETE and write an exact continuation checkpoint here; never claim completi
 | Step | Question | State | Reviewed dependency / repair use |
 |---|---|---|---|
 | 1 | Do accepted sources identify the curvature candidate's geometric amount as G351/G352 content, or only permit its mathematical type? | VERIFIED-WITH-CAVEATS, UNPROMOTED; b5963bd6 | c19b5fb1 candidate conditional only;0/1 repair |
-| 2 | What can a natural metric/phase-only amount rule select on this branch, and can it supply a dimensionless-count conversion? | WORK ORDER RECORDED; construction/review next | Step1 conditional/source-bounded result plus original recipe;0/1 repair |
+| 2 | What can a natural metric/phase-only amount rule select on this branch, and can it supply a dimensionless-count conversion? | VERIFIED-WITH-CAVEATS, UNPROMOTED;9aa8dc44 | Explicit naturality/global/weight hypotheses only;0/1 repair |
+| 3 | Can less special Ricci-flat wave geometry evade the obstruction while retaining the same recipe as a normalized phase? | WORK ORDER RECORDED | Step2 conditional boundary and original recipe;0/1 repair |
 
 Current checkpoint: startup orientation and synchronization completed; current
 candidate80-file membership and79 manifest payload hashes authenticated;
@@ -96,3 +97,19 @@ This is not a coupled-physics countermodel or a universal impossibility theorem.
 Step2 chosen from that reviewed result: test what explicit geometry-only
 naturality can fix, without adopting it as a physical requirement. Its question,
 assumptions, discriminators and limits are recorded in step_02/WORK_ORDER.md.
+Step1's sealed55-file review archive and Step2 work order were committed/pushed
+at9fb783cb. Step2's exact full-matrix checks passed16 groups in two author runs;
+five deliberate mutations failed at their intended guards. No unexpected
+mathematical failure or author correction in Step2. Candidate/checks frozen and
+pushed at9aa8dc44 before any Step2 reviewer finding was received. Fresh reviewer
+/root/content_campaign_step02_review is independently reconstructing from the
+work order and sources; direct argument disclosure waits for its StageA seal.
+Step2 direct review read20:11 UTC: no required defect; independent full
+pullbacks/scaling, byte-identical baseline and all5mutants passed their stated
+checks.65-file review archive preserved; no scientific repair. Uniform shape
+does not select coefficient; globalfiniteR2 and scalar weight-2 obstructions
+retain their extra mathematical hypotheses, not physical requirements.
+Step3 tests whether less special geometry in the same vacuum equation changes
+that boundary while retaining the chosen normalized-phase recipe. Its question,
+assumptions and discriminators are recorded before computation. No unreviewed
+Step2 result was used; Step1 documentation closure also passed independently.

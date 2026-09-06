@@ -1,0 +1,8 @@
+{
+  "operation": "Initial direct-read command used a guessed checker name check_naturality_obstructions.py",
+  "actual_exit": 2,
+  "stdout": "sed: can't read udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality_obstructions.py: No such file or directory\n",
+  "effect": "Read failed; subsequent chained reads did not execute; no writes or mathematical check ran",
+  "resolution": "rg --files identified actual checker check_naturality.py; exact reads repeated successfully",
+  "scientific_repair": false
+}

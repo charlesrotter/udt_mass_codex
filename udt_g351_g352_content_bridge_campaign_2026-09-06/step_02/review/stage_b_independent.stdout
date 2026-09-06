@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "basis": "frozen source-first coordinate maps differentiated independently",
+  "saved_witnesses": [
+    {
+      "A": "2",
+      "reconstructed_Jacobian": "Matrix([[1, 0, 0, 0], [131689/88200, 1, -1/2, 4/5], [-1/2, 0, 1, 0], [4/5, 0, 0, 1]])",
+      "reconstructed_full_pullback": "Matrix([[-22/225, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+      "full_residual_matches_saved": true,
+      "recipe_beta_u": "-2",
+      "recipe_beta_preserved": true
+    },
+    {
+      "A": "-3",
+      "reconstructed_Jacobian": "Matrix([[1, 0, 0, 0], [-33137/29400, 1, -1/2, 4/5], [-1/2, 0, 1, 0], [4/5, 0, 0, 1]])",
+      "reconstructed_full_pullback": "Matrix([[11/75, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+      "full_residual_matches_saved": true,
+      "recipe_beta_u": "-sqrt(6)",
+      "recipe_beta_preserved": true
+    }
+  ],
+  "homothety_independent_contraction": {
+    "volume_ratio": "h**4",
+    "current_ratio": "h**(-2)",
+    "amount_ratio": "h**2"
+  },
+  "author_code_imported": false,
+  "author_results_exposed": true,
+  "read_only": true,
+  "finite_witnesses_are_not_theorem_proof": true
+}

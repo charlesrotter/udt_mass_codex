@@ -1,0 +1,193 @@
+{
+  "records": [
+    {
+      "name": "stage_b_candidate_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/FROZEN_CANDIDATE_SHA256SUMS"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:23.281750+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.001357
+    },
+    {
+      "name": "stage_b_source_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/SOURCE_SHA256SUMS"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:23.283127+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.003305
+    },
+    {
+      "name": "stage_b_frozen_diff",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "9aa8dc44b0a7afe92765960851b678e9b6f355fe",
+        "--",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:23.286438+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.007342
+    },
+    {
+      "name": "stage_b_stage_a_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "STAGE_A_SHA256SUMS"
+      ],
+      "cwd": "/tmp/udt-content-step02-review-fJvt8Q",
+      "start_utc": "2026-09-06T20:06:23.293788+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.001303
+    },
+    {
+      "name": "stage_b_independent",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "/tmp/udt-content-step02-review-fJvt8Q/stage_b_independent_comparison.py",
+        "--repo",
+        "/home/udt-admin/udt_mass_codex"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:23.295103+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.415237
+    },
+    {
+      "name": "stage_b_author_baseline",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:23.710365+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.265366
+    },
+    {
+      "name": "stage_b_v_shift_sign",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+        "--mutation",
+        "v_shift_sign"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:23.975867+00:00",
+      "actual_exit": 1,
+      "wall_seconds": 0.315294,
+      "expected_first_failing_guard": "full_translation_isometry",
+      "matching_guard_observed": true
+    },
+    {
+      "name": "stage_b_wrong_y_ode",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+        "--mutation",
+        "wrong_y_ode"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:24.291336+00:00",
+      "actual_exit": 1,
+      "wall_seconds": 0.265104,
+      "expected_first_failing_guard": "full_translation_isometry",
+      "matching_guard_observed": true
+    },
+    {
+      "name": "stage_b_homothety_v_power",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+        "--mutation",
+        "homothety_v_power"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:24.556673+00:00",
+      "actual_exit": 1,
+      "wall_seconds": 0.315266,
+      "expected_first_failing_guard": "full_proper_homothety",
+      "matching_guard_observed": true
+    },
+    {
+      "name": "stage_b_density_scale",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+        "--mutation",
+        "density_scale"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:24.872103+00:00",
+      "actual_exit": 1,
+      "wall_seconds": 0.315617,
+      "expected_first_failing_guard": "quotient_amount_area_weight",
+      "matching_guard_observed": true
+    },
+    {
+      "name": "stage_b_component_as_scalar",
+      "command": [
+        "/usr/bin/time",
+        "-v",
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+        "--mutation",
+        "component_as_scalar"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:25.187858+00:00",
+      "actual_exit": 1,
+      "wall_seconds": 0.315217,
+      "expected_first_failing_guard": "passive_null_boost_metric",
+      "matching_guard_observed": true
+    },
+    {
+      "name": "stage_b_final_git",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:06:25.503220+00:00",
+      "actual_exit": 0,
+      "wall_seconds": 0.001577
+    }
+  ],
+  "limits": {
+    "address_space_MiB": 512,
+    "CPU_seconds": 60,
+    "wall_seconds": 60,
+    "one_math_child_at_a_time": true
+  }
+}
