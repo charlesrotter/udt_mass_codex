@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+    "--mutation",
+    "inverse_metric_weight"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-06T20:24:14.506073+00:00",
+  "wall_seconds": 0.51588677700056,
+  "returncode": 1,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 60672
+}

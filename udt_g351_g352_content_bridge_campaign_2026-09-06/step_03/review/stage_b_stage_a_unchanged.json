@@ -1,0 +1,14 @@
+{
+  "command": [
+    "sha256sum",
+    "--check",
+    "STAGE_A_SHA256SUMS"
+  ],
+  "cwd": "/tmp/udt_step03_review_E8OSHa",
+  "start_utc": "2026-09-06T20:24:51.591122+00:00",
+  "wall_seconds": 0.002126685001712758,
+  "returncode": 0,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 8612
+}

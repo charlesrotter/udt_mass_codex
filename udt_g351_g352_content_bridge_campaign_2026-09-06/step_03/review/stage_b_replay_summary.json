@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/tmp/udt_step03_review_E8OSHa/summarize_replays.py",
+    "--artifacts",
+    "/tmp/udt_step03_review_E8OSHa"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-06T20:24:51.484008+00:00",
+  "wall_seconds": 0.03236932199797593,
+  "returncode": 0,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 10752
+}

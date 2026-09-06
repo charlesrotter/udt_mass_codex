@@ -74,7 +74,8 @@ INCOMPLETE and write an exact continuation checkpoint here; never claim completi
 |---|---|---|---|
 | 1 | Do accepted sources identify the curvature candidate's geometric amount as G351/G352 content, or only permit its mathematical type? | VERIFIED-WITH-CAVEATS, UNPROMOTED; b5963bd6 | c19b5fb1 candidate conditional only;0/1 repair |
 | 2 | What can a natural metric/phase-only amount rule select on this branch, and can it supply a dimensionless-count conversion? | VERIFIED-WITH-CAVEATS, UNPROMOTED;9aa8dc44 | Explicit naturality/global/weight hypotheses only;0/1 repair |
-| 3 | Can less special Ricci-flat wave geometry evade the obstruction while retaining the same recipe as a normalized phase? | WORK ORDER RECORDED | Step2 conditional boundary and original recipe;0/1 repair |
+| 3 | Can less special Ricci-flat wave geometry evade the obstruction while retaining the same recipe as a normalized phase? | VERIFIED-WITH-CAVEATS, UNPROMOTED;e6ec23ac | Harmonic local nonzero-root class, optional scalar conversion;0/1 repair |
+| 4 | Can a different aligned phase realize the positive geometric amount in G352, and what exactly makes its fixed-label product possible? | WORK ORDER RECORDED | Step1-3 conditional results;0/1 repair |
 
 Current checkpoint: startup orientation and synchronization completed; current
 candidate80-file membership and79 manifest payload hashes authenticated;
@@ -113,3 +114,21 @@ Step3 tests whether less special geometry in the same vacuum equation changes
 that boundary while retaining the chosen normalized-phase recipe. Its question,
 assumptions and discriminators are recorded before computation. No unreviewed
 Step2 result was used; Step1 documentation closure also passed independently.
+Step3 work order/Step2 review preserved and pushed atc5d537b2. Step3 full
+curvature/dual/root and harmonic/gauge checks passed19groups; five deliberately
+broken variants failed at their intended guards. No unexpected author failure
+or correction. Candidate/checks frozen and pushed ate6ec23ac before the first
+Step3 reviewer finding. Fresh reviewer /root/content_campaign_step03_review
+sealed its source-first argument and has now received the candidate for direct
+review. Parent read the full StageA only after this freeze/disclosure. Reviewer
+also reports actual335-row premise replay PASS; its audit evidence is pending
+archive handoff and is a separate-context same-code check, not a new premise proof.
+Step3 direct report read20:28UTC; no required defect, full independent tensors/
+scalars and all5mutation catches matched.78-file review received; reviewer
+335-row audit actualPASS separately recorded, durationUNMEASURED. Carry its
+wording caveat: cubic bounded intervals are supplied u intervals, NOT a primitive
+of the nonclosed root. Closure/parallelism/conservation remain distinct.
+Step4 follows the reviewed other-phase opening: test the positive geometric
+amount with a different aligned phase, fixed labels and exact product criteria.
+Question/inputs/outcomes are recorded before computation; no physical recipe or
+content identification is adopted. Step2 documentation closure also passed.

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "sha256sum",
+    "--check",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/FROZEN_CANDIDATE_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-06T20:21:42.820908+00:00",
+  "wall_seconds": 0.002258088999951724,
+  "returncode": 0,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 7876
+}

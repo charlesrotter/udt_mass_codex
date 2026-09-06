@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py", line 100, in <module>
+    eq('conversion_homothety_weight',scaled_q,h**-2*qscalar)
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py", line 23, in eq
+    else: assert S.simplify(a-b)==0,name
+AssertionError: conversion_homothety_weight

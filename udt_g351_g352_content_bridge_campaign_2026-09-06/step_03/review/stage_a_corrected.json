@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/tmp/udt_step03_review_E8OSHa/stage_a_independent.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-06T20:17:10.346812+00:00",
+  "wall_seconds": 0.6656107249982597,
+  "returncode": 1,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 60868
+}

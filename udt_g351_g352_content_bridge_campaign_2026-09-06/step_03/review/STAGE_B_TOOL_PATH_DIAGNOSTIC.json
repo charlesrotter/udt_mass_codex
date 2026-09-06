@@ -1,0 +1,8 @@
+{
+  "kind": "Read-only guessed-filename failure",
+  "attempted_missing_files": ["step_03/check_candidate.py", "step_03/AUTHOR_RUN.json", "step_03/MUTATION_RUNS.json"],
+  "actual_filenames_from_frozen_manifest": ["step_03/check_harmonic_wave.py", "step_03/AUTHOR_RUNS.json"],
+  "error": "sed: can't read <attempted path>: No such file or directory",
+  "tool_exit_code": 2,
+  "effect": "No child mathematics, file mutation or evidence overwrite occurred. The actual manifest paths were then read successfully."
+}

@@ -1,0 +1,4 @@
+  File "/tmp/udt_step03_review_E8OSHa/stage_a_independent.py", line 22
+    R={k:simplify(sum(g[k[0],e]*Rup[e,*k[1:]] for e in n)) for k in itertools.product(n,repeat=4)}
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?

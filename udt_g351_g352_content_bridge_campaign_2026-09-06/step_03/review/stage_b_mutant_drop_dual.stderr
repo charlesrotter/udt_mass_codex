@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py", line 74, in <module>
+    eq('full_B_coefficient',B[0,0,0,0],a**2+t**2)
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py", line 23, in eq
+    else: assert S.simplify(a-b)==0,name
+AssertionError: full_B_coefficient

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/udt_step03_review_E8OSHa/stage_a_independent.py", line 84, in <module>
+    require('cubic_q',qw==1/(4*(x*x+y*y)))
+  File "/tmp/udt_step03_review_E8OSHa/stage_a_independent.py", line 11, in require
+    assert ok, name
+AssertionError: cubic_q

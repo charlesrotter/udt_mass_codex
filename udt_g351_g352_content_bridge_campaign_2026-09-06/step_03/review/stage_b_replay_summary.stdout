@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "baseline_guard_groups": 19,
+  "all_five_actual_first_guards_matched": true,
+  "mutants": [
+    {
+      "mutation": "drop_Hu_connection",
+      "observed_first_guard": "variable_profile_connection",
+      "command": [
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+        "--mutation",
+        "drop_Hu_connection"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:24:13.130669+00:00",
+      "wall_seconds": 0.3153951380008948,
+      "returncode": 1,
+      "limit_mib": 512,
+      "timeout_seconds": 60,
+      "max_rss_kib": 59372
+    },
+    {
+      "mutation": "drop_dual",
+      "observed_first_guard": "full_B_coefficient",
+      "command": [
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+        "--mutation",
+        "drop_dual"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:24:13.508831+00:00",
+      "wall_seconds": 0.415298800002347,
+      "returncode": 1,
+      "limit_mib": 512,
+      "timeout_seconds": 60,
+      "max_rss_kib": 60340
+    },
+    {
+      "mutation": "force_closed",
+      "observed_first_guard": "cubic_nonclosure_guard",
+      "command": [
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+        "--mutation",
+        "force_closed"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:24:13.980291+00:00",
+      "wall_seconds": 0.46550820099946577,
+      "returncode": 1,
+      "limit_mib": 512,
+      "timeout_seconds": 60,
+      "max_rss_kib": 60756
+    },
+    {
+      "mutation": "inverse_metric_weight",
+      "observed_first_guard": "conversion_homothety_weight",
+      "command": [
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+        "--mutation",
+        "inverse_metric_weight"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:24:14.506073+00:00",
+      "wall_seconds": 0.51588677700056,
+      "returncode": 1,
+      "limit_mib": 512,
+      "timeout_seconds": 60,
+      "max_rss_kib": 60672
+    },
+    {
+      "mutation": "gauge_linear_force",
+      "observed_first_guard": "full_linear_term_gauge_removal",
+      "command": [
+        "python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+        "--mutation",
+        "gauge_linear_force"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T20:24:15.077290+00:00",
+      "wall_seconds": 0.56592579199787,
+      "returncode": 1,
+      "limit_mib": 512,
+      "timeout_seconds": 60,
+      "max_rss_kib": 61180
+    }
+  ],
+  "evidence_type": "Author replays are regression; independent comparison is separately recorded"
+}

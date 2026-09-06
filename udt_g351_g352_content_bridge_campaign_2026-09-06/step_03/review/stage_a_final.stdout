@@ -1,0 +1,117 @@
+{
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "checks": [
+    "full_Ricci_from_metric",
+    "full_Riemann_support",
+    "harmonic_Ricci_zero",
+    "full_quadratic_tensor",
+    "dual_orientation_cancels",
+    "root_recurrence",
+    "ambient_closure_components",
+    "recurrence_norm",
+    "nonclosed_still_divergence_free",
+    "nonclosed_still_affine",
+    "q_weighted_divergence_free",
+    "constant_norm_harmonic_hessian_forces_constant",
+    "arbitrary_profile_full_isometry_pullback",
+    "arbitrary_profile_full_proper_homothety",
+    "isometry_preserves_variable_root",
+    "homothety_preserves_variable_root",
+    "full_affine_gauge_removal",
+    "wrong_translation_ode_is_detected",
+    "cubic_harmonic",
+    "cubic_S",
+    "cubic_q",
+    "cubic_nonclosed_at_regular_point",
+    "variable_u_phase_branch",
+    "closed_not_parallel_witness",
+    "zero_root_excluded"
+  ],
+  "connection": {
+    "100": "-Derivative(H(u, x, y), u)/2",
+    "102": "-Derivative(H(u, x, y), x)/2",
+    "103": "-Derivative(H(u, x, y), y)/2",
+    "120": "-Derivative(H(u, x, y), x)/2",
+    "130": "-Derivative(H(u, x, y), y)/2",
+    "200": "-Derivative(H(u, x, y), x)/2",
+    "300": "-Derivative(H(u, x, y), y)/2"
+  },
+  "riemann": {
+    "0202": "-Derivative(H(u, x, y), (x, 2))/2",
+    "0203": "-Derivative(H(u, x, y), x, y)/2",
+    "0220": "Derivative(H(u, x, y), (x, 2))/2",
+    "0230": "Derivative(H(u, x, y), x, y)/2",
+    "0302": "-Derivative(H(u, x, y), x, y)/2",
+    "0303": "-Derivative(H(u, x, y), (y, 2))/2",
+    "0320": "Derivative(H(u, x, y), x, y)/2",
+    "0330": "Derivative(H(u, x, y), (y, 2))/2",
+    "2002": "Derivative(H(u, x, y), (x, 2))/2",
+    "2003": "Derivative(H(u, x, y), x, y)/2",
+    "2020": "-Derivative(H(u, x, y), (x, 2))/2",
+    "2030": "-Derivative(H(u, x, y), x, y)/2",
+    "3002": "Derivative(H(u, x, y), x, y)/2",
+    "3003": "Derivative(H(u, x, y), (y, 2))/2",
+    "3020": "-Derivative(H(u, x, y), x, y)/2",
+    "3030": "-Derivative(H(u, x, y), (y, 2))/2"
+  },
+  "weyl_harmonic": {
+    "0202": "-a/2",
+    "0203": "-b/2",
+    "0220": "a/2",
+    "0230": "b/2",
+    "0302": "-b/2",
+    "0303": "a/2",
+    "0320": "b/2",
+    "0330": "-a/2",
+    "2002": "a/2",
+    "2003": "b/2",
+    "2020": "-a/2",
+    "2030": "-b/2",
+    "3002": "b/2",
+    "3003": "-a/2",
+    "3020": "-b/2",
+    "3030": "a/2"
+  },
+  "dual": {
+    "0202": "-b/2",
+    "0203": "a/2",
+    "0220": "b/2",
+    "0230": "-a/2",
+    "0302": "a/2",
+    "0303": "b/2",
+    "0320": "-a/2",
+    "0330": "-b/2",
+    "2002": "b/2",
+    "2003": "-a/2",
+    "2020": "-b/2",
+    "2030": "a/2",
+    "3002": "-a/2",
+    "3003": "-b/2",
+    "3020": "a/2",
+    "3030": "b/2"
+  },
+  "quadratic": {
+    "0000": "a**2 + b**2"
+  },
+  "recurrence": [
+    "Derivative(rho(u, x, y), u)/rho(u, x, y)",
+    "0",
+    "Derivative(rho(u, x, y), x)/rho(u, x, y)",
+    "Derivative(rho(u, x, y), y)/rho(u, x, y)"
+  ],
+  "q": "(Derivative(rho(u, x, y), x)**2 + Derivative(rho(u, x, y), y)**2)/rho(u, x, y)**2",
+  "cubic": {
+    "H": "x**3/3 - x*y**2",
+    "S": "4*x**2 + 4*y**2",
+    "q": "1/(4*(x**2 + y**2))"
+  },
+  "variable_u": {
+    "H": "(u + 1)**2*(x**2 - y**2)",
+    "S": "4*u**4 + 16*u**3 + 24*u**2 + 16*u + 4",
+    "rho_domain": "u>-1",
+    "rho": "sqrt(2)*(u + 1)"
+  }
+}

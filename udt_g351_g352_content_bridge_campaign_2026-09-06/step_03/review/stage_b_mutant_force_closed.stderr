@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py", line 93, in <module>
+    eq('cubic_nonclosure_guard',dBeta[0,2],bc*x/(2*r2))
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py", line 23, in eq
+    else: assert S.simplify(a-b)==0,name
+AssertionError: cubic_nonclosure_guard

@@ -1,0 +1,7 @@
+{
+  "actual": "1/(4*(x**2 + y**2))",
+  "expected": "1/(4*x**2 + 4*y**2)",
+  "structural_equal": false,
+  "exact_difference": "0",
+  "wrong_coefficient_difference": "-1/(4*x**2 + 4*y**2)"
+}

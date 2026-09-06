@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "independence": "Frozen source-first reviewer implementation; no author module imported",
+  "full_array_comparisons": {
+    "Gamma": {
+      "positions": 64,
+      "nonzero": 7
+    },
+    "R": {
+      "positions": 256,
+      "nonzero": 16
+    },
+    "W": {
+      "positions": 256,
+      "nonzero": 16
+    },
+    "starW": {
+      "positions": 256,
+      "nonzero": 16
+    },
+    "B": {
+      "positions": 256,
+      "nonzero": 1
+    }
+  },
+  "ricci_positions": 16,
+  "saved_scalar_fields": "All displayed metric/root/alpha/q/dBeta/variable-profile values match",
+  "cubic": {
+    "coefficient": "1",
+    "S": "36*(x**2 + y**2)",
+    "point": [
+      "1",
+      "2"
+    ],
+    "root": "5**(1/4)*sqrt(6)",
+    "alpha": [
+      "0",
+      "0",
+      "1/10",
+      "1/5"
+    ],
+    "q": "1/20"
+  },
+  "gauge": "All 16 differentiated-map metric entries, all 4 beta entries, det=1",
+  "stage_a_baseline": [
+    "full_Ricci_from_metric",
+    "full_Riemann_support",
+    "harmonic_Ricci_zero",
+    "full_quadratic_tensor",
+    "dual_orientation_cancels",
+    "root_recurrence",
+    "ambient_closure_components",
+    "recurrence_norm",
+    "nonclosed_still_divergence_free",
+    "nonclosed_still_affine",
+    "q_weighted_divergence_free",
+    "constant_norm_harmonic_hessian_forces_constant",
+    "arbitrary_profile_full_isometry_pullback",
+    "arbitrary_profile_full_proper_homothety",
+    "isometry_preserves_variable_root",
+    "homothety_preserves_variable_root",
+    "full_affine_gauge_removal",
+    "wrong_translation_ode_is_detected",
+    "cubic_harmonic",
+    "cubic_S",
+    "cubic_q",
+    "cubic_nonclosed_at_regular_point",
+    "variable_u_phase_branch",
+    "closed_not_parallel_witness",
+    "zero_root_excluded"
+  ]
+}

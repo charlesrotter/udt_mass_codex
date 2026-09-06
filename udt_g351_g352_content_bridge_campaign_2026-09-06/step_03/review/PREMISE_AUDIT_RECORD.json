@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root/content_campaign_step03_review",
+  "command": ["timeout", "900s", "python3", "verify_current_scientific_premises.py"],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "stdout": "premise_audit.stdout",
+  "stderr": "premise_audit.stderr",
+  "actual_child_exit_code": 0,
+  "result": "PASS: 335-row premise registry and reported associated premise guards",
+  "observed_complete_utc": "2026-09-06 20:20 UTC",
+  "exact_start_and_wall_duration": "NOT_CAPTURED",
+  "exact_model": "UNKNOWN",
+  "relation_to_parent_audit": "Separate execution, same existing verifier implementation; not an independent scientific proof",
+  "stage_a_note": "The sealed reconstruction's pending-audit wording records its drafting state. Actual process completion was checked immediately before the Stage A seal message; this separate record preserves the subsequent observed result without rewriting the sealed report.",
+  "limits": "900-second read-only audit allowance; no GPU or production solve"
+}

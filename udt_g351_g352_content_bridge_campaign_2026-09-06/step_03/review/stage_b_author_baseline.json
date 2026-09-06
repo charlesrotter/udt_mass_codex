@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-06T20:22:19.112181+00:00",
+  "wall_seconds": 0.5652267650002614,
+  "returncode": 0,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 49728
+}

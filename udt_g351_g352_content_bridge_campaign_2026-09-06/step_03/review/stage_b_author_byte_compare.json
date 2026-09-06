@@ -1,0 +1,14 @@
+{
+  "command": [
+    "cmp",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/AUTHOR_RESULT.json",
+    "/tmp/udt_step03_review_E8OSHa/stage_b_author_baseline.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "start_utc": "2026-09-06T20:22:19.734604+00:00",
+  "wall_seconds": 0.002200619001087034,
+  "returncode": 0,
+  "limit_mib": 512,
+  "timeout_seconds": 60,
+  "max_rss_kib": 8416
+}
