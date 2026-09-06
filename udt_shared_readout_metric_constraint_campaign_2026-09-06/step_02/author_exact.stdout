@@ -1,0 +1,60 @@
+{
+  "arithmetic": "standard-library Fraction exact rational",
+  "compatible_raw_record": [
+    "2",
+    "20/3",
+    "8"
+  ],
+  "dual_certificate": [
+    "3/2",
+    "3/4",
+    "-1/2"
+  ],
+  "dual_column_values": [
+    "0",
+    "2",
+    "0"
+  ],
+  "dual_record_value": "-1",
+  "evidence_limit": "finite exact regression; analytic proof owns general claims",
+  "guard_count": 22,
+  "guards": [
+    "actual_window_preimages",
+    "exact_inverse_reconstructs_records",
+    "triangle_nonnegative_equivalence",
+    "all_declared_nonnegative_mass_controls_survive",
+    "zero_measure_allowed",
+    "positive_record_can_be_incompatible",
+    "full_null_gradient_and_future_orientation",
+    "full_unit_future_observers",
+    "full_frequency_contractions",
+    "screen_cut_metric",
+    "cuts_on_reference_phase",
+    "raw_compatible_record",
+    "known_observer_rate_normalization",
+    "mass_recovery_from_weighted_readout",
+    "dual_certificate_nonnegative_columns",
+    "dual_certificate_negative_record",
+    "common_affine_phase_spacing_gauge",
+    "direct_measure_matches_weighted_matrix",
+    "distinct_label_measures_same_record",
+    "disjoint_queries_allow_all_declared_nonnegative_records",
+    "zero_column_mass_is_invisible",
+    "nonnegative_kernel_displacement"
+  ],
+  "incompatible_raw_record": [
+    "2/3",
+    "4/3",
+    "6"
+  ],
+  "mutant": null,
+  "nonnegative_mass_controls": 27,
+  "ordinary_cell_masses": [
+    "1",
+    "2",
+    "3"
+  ],
+  "phase_scale_controls": 3,
+  "signed_record_controls": 216,
+  "status": "PASS"
+}

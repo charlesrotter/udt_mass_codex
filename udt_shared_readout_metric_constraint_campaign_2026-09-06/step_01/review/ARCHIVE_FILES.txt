@@ -1,0 +1,15 @@
+ARCHIVE_FILES.txt
+EXPOSURE_RECORD.md
+REVIEW_SHA256SUMS
+SOURCE_READS.tsv
+STAGE_A_SHA256SUMS
+STAGE_A_SOURCE_FIRST.md
+STAGE_B_ADVERSARIAL_REVIEW.md
+STAGE_B_READS.tsv
+authenticate_sources.sh
+source_auth.json
+source_auth.stderr
+source_auth.stdout
+versions.json
+versions.stderr
+versions.stdout

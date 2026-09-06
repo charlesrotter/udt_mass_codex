@@ -1,0 +1,67 @@
+{
+  "evidence_type": "Actual execution of changed formula paths; guard-sensitivity regression, not proof",
+  "mutants": [
+    {
+      "mode": "missing_half",
+      "expected_guard": "exact_inverse_reconstructs_records",
+      "observed": {
+        "guard": "exact_inverse_reconstructs_records",
+        "mutant": "missing_half",
+        "passed_before_failure": [
+          "actual_window_preimages"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    },
+    {
+      "mode": "wrong_overlap",
+      "expected_guard": "actual_window_preimages",
+      "observed": {
+        "guard": "actual_window_preimages",
+        "mutant": "wrong_overlap",
+        "passed_before_failure": [],
+        "status": "FAIL"
+      },
+      "matched": true
+    },
+    {
+      "mode": "positive_is_enough",
+      "expected_guard": "triangle_nonnegative_equivalence",
+      "observed": {
+        "guard": "triangle_nonnegative_equivalence",
+        "mutant": "positive_is_enough",
+        "passed_before_failure": [
+          "actual_window_preimages",
+          "exact_inverse_reconstructs_records"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    },
+    {
+      "mode": "raw_rates",
+      "expected_guard": "known_observer_rate_normalization",
+      "observed": {
+        "guard": "known_observer_rate_normalization",
+        "mutant": "raw_rates",
+        "passed_before_failure": [
+          "actual_window_preimages",
+          "exact_inverse_reconstructs_records",
+          "triangle_nonnegative_equivalence",
+          "all_declared_nonnegative_mass_controls_survive",
+          "zero_measure_allowed",
+          "positive_record_can_be_incompatible",
+          "full_null_gradient_and_future_orientation",
+          "full_unit_future_observers",
+          "full_frequency_contractions",
+          "screen_cut_metric",
+          "cuts_on_reference_phase",
+          "raw_compatible_record"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    }
+  ]
+}

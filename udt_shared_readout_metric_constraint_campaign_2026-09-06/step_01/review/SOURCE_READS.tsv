@@ -1,0 +1,39 @@
+path	sha256	read_command_or_selection	role
+AGENTS.md	104cde45f01695faa06948eeff1e0b5ac0c621ec4b57060ba7ce26ffeb269a65	sed -n '1,260p' AGENTS.md	method/full
+LIVE.md	2287a0f8834b8991ad0a1dd055969dd50fd49c522f36d5bfdc2c3dc8f5e18296	sed -n '3,111p' LIVE.md	startup/current block only
+HANDOFF.md	608da2d997e6e28a2adb62355c87d7479fb3770c4a5d8c0f16ba53dd52504383	sed -n '3,69p' HANDOFF.md	startup/current block only
+CURRENT_RESEARCH_PROGRAM.md	dd909c62224910137879755fdd08dc59529d8a930b9c90543ad986460f15849e	sed -n '1,240p' CURRENT_RESEARCH_PROGRAM.md	startup/full
+CURRENT_SCIENTIFIC_PREMISES.md	dfca2586d98b035e8de5f0b316f9fbf27b143d6e1c61cc926eb0870cff61eaeb	sed -n '1,240p' CURRENT_SCIENTIFIC_PREMISES.md	startup/full
+CURRENT_SCIENTIFIC_PREMISES.tsv	23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429	head -1; rg '^(W4|G261|G312|G321|G322|G348|G351|G352|G355|G356)\t'; rg -n '^W|universal_metric_coupling'	exact load-bearing rows; W5/W6 incidentally exposed by W4 lookup
+CLAUDE.md	b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751	sed -n '9,83p' CLAUDE.md; sed -n '121,134p' CLAUDE.md	method/trigger and repo sections
+.claude/skills/no-shortcuts/SKILL.md	fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1	sed -n '1,260p' .claude/skills/no-shortcuts/SKILL.md	method/full
+.claude/skills/completeness-map/SKILL.md	a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0	sed -n '1,260p' .claude/skills/completeness-map/SKILL.md	method/full
+CROSS_MODEL_VERIFY.md	2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007	sed -n '1,280p' CROSS_MODEL_VERIFY.md	method/full
+INDEX.md	d29c4856bc7b7331040930b71fdd4b163db4efc4f815c5ec354c2897a6270eaa	sed -n '1,120p' INDEX.md	compact pointers/full
+MEMORY.md	0a793371ead8f707c93e7414402dec292c1e09241c8ed4f16c6c3bcf3121dbc0	sed -n '1,120p' MEMORY.md	compact pointers/full
+founding.md	b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75	rg -n 'W4|universal|Physical' founding.md; sed -n '185,215p' founding.md	W4; small preceding historical G260 tail incidentally visible
+startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md	ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1	sed -n '1,230p'	G312 current adoption/full
+udt_shared_readout_metric_constraint_campaign_2026-09-06/WORK_ORDER.md	61b683a90d7d4416256d1cf08779a981e56ed7c52510e9dc2cfb5e4c4f895da8	sed -n '1,300p'	new campaign authorization/full; untracked at pinned HEAD
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md	9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1	sed -n '1,260p'	G351 controlling report/full
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md	37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317	sed -n '1,320p'	G351 argument/full
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md	4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f	sed -n '1,280p'	G352 controlling report/full
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md	70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d	sed -n '1,360p'	G352 argument/full
+udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md	25448d5586d268cfec20b403ff77b6d344903b5d9974fb3376900cba0578c125	sed -n '1,260p'	G261 controlling report/full
+udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md	26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12	sed -n '1,320p'; repeated sed -n '1,260p' after wrapper truncation	G261 argument/full
+udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md	c8f9e5547c13067282d37bfb51db78d13bbdc06b48ef50f8f3f498e196abcb57	sed -n '1,240p'	G312 historical report/full; grade superseded by later adoption
+udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md	90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4	sed -n '1,310p'	G312 historical argument/full; grade superseded by later adoption
+udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md	b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279	sed -n '1,260p'	G348 controlling report/full
+udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md	04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c	sed -n '1,300p'; repeated sed -n '1,360p'; sed -n '361,420p'	G348 argument/full after wrapper truncation
+udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md	975fb68b053c2a11c373677544374e448f2ce84b265d860bb2c1e723d2595d6c	sed -n '1,220p'	G321 controlling report/full
+udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md	27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4	sed -n '1,300p'	G321 argument/full
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md	d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514	sed -n '1,220p'	G322 controlling report/full
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/EXACT_DERIVATION.md	7bf6a0c7b86a2c74cf63c0945640daed261c28e787254b323dcd51f1dafb6d98	sed -n '1,340p'	G322 argument/full
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/DATA_INTERFACE.tsv	6d38af25c1b3f43e1c8b0d494158881e7e682092d14de5ce39172f01973cd4bf	sed -n '1,160p'	G322 8-row data interface/full
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/THEOREM_INTERFACE.tsv	7d439ada36c686410912f169dc11ae259e4172a0e40d985ce29746fc6c0e5fac	sed -n '1,160p'	G322 theorem interface/full
+udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md	750fd4758e87c7c99f58786d5ed4e1ea4b2e1d1386032a7d1f9a106b1d3ad8ff	sed -n '1,280p'	G355/G356 controlling banking/full; G353/G354 summaries incidentally exposed
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md	a007c5a4e34012698687e81a43a13692a2f3799df3db963370b33c3aa92bd3bb	sed -n '1,300p'	banked G355 full argument, 191 lines
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md	1ba59226944652bc4cc444f20d26c4fc9b9c80e1beea8a842be8151d64395849	sed -n '1,330p'	banked G356 full argument, 199 lines
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/REVIEW_RECORD.md	d95f6b0cd0e1abbfd4734104cf13af4127a2b88382b3c2b1cb27663043d11866	sed -n '1,220p'	G355 inherited review scope/full
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/REVIEW_RECORD.md	e89cf5131c7abfc26a2a25aa4c84e4a0919ce50ceae8ba2d3005fdf6d85d7b88	sed -n '1,220p'	G356 inherited review scope/full
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/STAGE_B_ADVERSARIAL_REVIEW.md	28462569691deaea5467f4c76a22363861a4b6a72d057f2b9db0a1a1b8bc6843	sed -n '1,300p'	G355 controlling direct review/full
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review/STAGE_B_ADVERSARIAL_REVIEW.md	0339451ddac6774fbf032af39a29c29e4397a853bbbc1619c51b98025e33b3f1	sed -n '1,310p'	G356 controlling direct review/full

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import pathlib,subprocess,hashlib,json; base='70034a6faa9264bf054eb473d5eb7a0889f3d2de'; rows=[]\nfor line in pathlib.Path('udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS').read_text().splitlines():\n    expected,path=line.split(maxsplit=1); frozen=subprocess.check_output(['git','show',base+':'+path]); actual=hashlib.sha256(frozen).hexdigest(); assert actual==expected,path; rows.append({'path':path,'sha256':actual})\nprint(json.dumps({'snapshot':base,'source_count':len(rows),'sources':rows},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:12:46.606432+00:00",
+  "duration_seconds": 0.05704478400002699,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15360
+}

@@ -1,0 +1,1 @@
+{"guard": "exact_inverse_reconstructs_records", "mutant": "missing_half", "passed_before_failure": ["actual_window_preimages"], "status": "FAIL"}

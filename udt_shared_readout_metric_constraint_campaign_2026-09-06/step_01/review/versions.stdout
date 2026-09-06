@@ -1,0 +1,9 @@
+git version 2.34.1
+GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+Python 3.10.12
+sha256sum (GNU coreutils) 8.32
+x86_64
+8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef  udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py
+572ea2433c25afd11eb9daafd976d4c4ecf874695471188e60fbf2e78a2cd006  udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS
+fba9d61018cd60ec5bfb5b0d19cec9e0707f9a7f9287766b4c674fcc8d37afc6  udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_SHA256SUMS
+06d523db45c42ae8ef3a85e61919d9e68cc8c6d7

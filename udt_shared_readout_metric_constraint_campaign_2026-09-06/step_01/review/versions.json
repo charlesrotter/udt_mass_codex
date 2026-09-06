@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-lc",
+    "git --version; bash --version | head -1; python3 --version; sha256sum --version | head -1; uname -m; sha256sum udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_SHA256SUMS; git rev-parse HEAD"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:16:07.342633+00:00",
+  "duration_seconds": 0.02000814999701106,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14592
+}

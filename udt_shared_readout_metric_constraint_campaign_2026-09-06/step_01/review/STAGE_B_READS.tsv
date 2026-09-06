@@ -1,0 +1,10 @@
+path	sha256	exact_read_selection	stage
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md	6fd638a600a6ef59125001471d432c463201179713811f6b74a25642e1850583	sed -n '1,330p'	exposed direct target
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/QUESTION.md	b8d232f385fb4ef5767be58500e3248c567a6f72da0df8d1d208343da82c397b	sed -n '1,260p'	exposed direct target
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS	572ea2433c25afd11eb9daafd976d4c4ecf874695471188e60fbf2e78a2cd006	sed -n '1,200p'	exposed freeze
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_SHA256SUMS	fba9d61018cd60ec5bfb5b0d19cec9e0707f9a7f9287766b4c674fcc8d37afc6	sed -n '1,140p'	exposed freeze
+CURRENT_SCIENTIFIC_PREMISES.tsv	23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429	rg '^(G335|G336|G337)\t' CURRENT_SCIENTIFIC_PREMISES.tsv	additional exact rows after candidate
+udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md	5b75fae56835a9ef01c92e9278da4533ad9841e19dc352b17ae323df4da326fd	sed -n '1,320p'	additional source after candidate/full
+udt_g336_silent_direction_second_normal_response_2026-09-03/AUDIT_REPORT.md	1c90db0a74c3e5ce08e4647d78d4822a15eac5f4f109627d7296da60092af500	sed -n '1,240p'	additional source after candidate/full
+udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md	2994b28b0436a56c99e748920c41859bd7dfee3f7703733bd77c786132a51175	sed -n '1,240p'	additional source after candidate/full
+udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py	8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef	sed -n '1,300p'	shared I/O/resource utility inspected before reuse/full

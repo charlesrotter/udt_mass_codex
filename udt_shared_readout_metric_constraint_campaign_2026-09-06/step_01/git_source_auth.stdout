@@ -1,0 +1,70 @@
+{
+  "snapshot": "70034a6faa9264bf054eb473d5eb7a0889f3d2de",
+  "source_count": 16,
+  "sources": [
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429"
+    },
+    {
+      "path": "founding.md",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "path": "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md",
+      "sha256": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12"
+    },
+    {
+      "path": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1"
+    },
+    {
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4"
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4"
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514"
+    },
+    {
+      "path": "udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md",
+      "sha256": "5b75fae56835a9ef01c92e9278da4533ad9841e19dc352b17ae323df4da326fd"
+    },
+    {
+      "path": "udt_g336_silent_direction_second_normal_response_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "1c90db0a74c3e5ce08e4647d78d4822a15eac5f4f109627d7296da60092af500"
+    },
+    {
+      "path": "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
+      "sha256": "2994b28b0436a56c99e748920c41859bd7dfee3f7703733bd77c786132a51175"
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md",
+      "sha256": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c"
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317"
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d"
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md",
+      "sha256": "750fd4758e87c7c99f58786d5ed4e1ea4b2e1d1386032a7d1f9a106b1d3ad8ff"
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md",
+      "sha256": "a007c5a4e34012698687e81a43a13692a2f3799df3db963370b33c3aa92bd3bb"
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md",
+      "sha256": "1ba59226944652bc4cc444f20d26c4fc9b9c80e1beea8a842be8151d64395849"
+    }
+  ]
+}

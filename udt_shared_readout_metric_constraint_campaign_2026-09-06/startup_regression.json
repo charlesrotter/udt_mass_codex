@@ -1,0 +1,26 @@
+{
+  "command": [
+    "env",
+    "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "--noconftest",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_startup_surface.py",
+    "-k",
+    "not test_full_foundational_premise_verifier_is_in_pytest"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:13:51.176229+00:00",
+  "duration_seconds": 1.6066557090016431,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 69352
+}
