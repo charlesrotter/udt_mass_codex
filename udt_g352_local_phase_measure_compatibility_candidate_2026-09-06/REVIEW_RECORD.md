@@ -1,5 +1,12 @@
 # Same-context adversarial check — not independent review
 
+Historical creation-stage review record for candidate commit `3c841561`.
+The subsequent authorized separate-context review is recorded in
+`review_2026-09-06/REVIEW_SUMMARY.md` and its original Stage B response. It
+returned `VERIFIED-WITH-CAVEATS` without scientific repair. The original
+same-context observations below are retained as history, not a claim that the
+subsequent review is still outstanding. The candidate remains unpromoted.
+
 Date: 2026-09-06. Reviewer: main Codex controller of this authorized session.
 State: `CANDIDATE_CHECKPOINT_ONLY__SUBSTANTIVE_SEPARATE_REVIEW_OUTSTANDING`.
 

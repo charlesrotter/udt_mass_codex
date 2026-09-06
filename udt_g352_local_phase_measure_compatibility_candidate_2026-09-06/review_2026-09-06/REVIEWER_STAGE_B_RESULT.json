@@ -1,0 +1,73 @@
+{
+  "implementation_probes": {
+    "probes": [
+      {
+        "caught": true,
+        "failure": "observer_1_frequency: -1 != 1",
+        "modified_source_sha256": "52de6546159c3e0cdefb7bb965e2e23b5c2061523b5c094690f407061c852e7b",
+        "probe": "reverse_frequency_sign"
+      },
+      {
+        "caught": true,
+        "failure": "cone_Gamma2: density/(9*spacing) != density/(18*spacing)",
+        "modified_source_sha256": "b840d636ac49ffe5f4b3c23566f53ff0e66b6ec1dde2873cb4365c8c2dbf7487",
+        "probe": "omit_frequency_in_rate"
+      },
+      {
+        "caught": true,
+        "failure": "cone_J1: 2 != 4",
+        "modified_source_sha256": "be9978eca2293c1cc6a8f9b082d3fab353e82ea2e442a874a0634399973207d5",
+        "probe": "area_equals_radius"
+      },
+      {
+        "caught_by_original_86_checks": false,
+        "correct_acceleration": [
+          "t + 1",
+          "0",
+          "0",
+          "t + 1"
+        ],
+        "meaning": "Exposes declared finite-check coverage limit; does not refute analytic Hessian proof or original correct helper.",
+        "original_data_sensitivity_rejections": 8,
+        "probe": "replace_acceleration_by_zero",
+        "reviewer_nonaffine_null_control_catches_it": true
+      }
+    ],
+    "sympy": "1.13.1"
+  },
+  "independent_geometry": {
+    "cuts": [
+      {
+        "area_per_solid_angle": "4",
+        "frequency": "1",
+        "radius": "2",
+        "rate": "5/56"
+      },
+      {
+        "area_per_solid_angle": "9",
+        "frequency": "1/2",
+        "radius": "3",
+        "rate": "5/252"
+      }
+    ],
+    "method": "Fraction Cartesian stereographic derivatives and Lorentzian Gram determinants; nonzero cut gradients",
+    "solid_angle_coefficient": "5184/2401",
+    "sphere_direction": [
+      "24/49",
+      "36/49",
+      "23/49"
+    ],
+    "transfer": "2/9",
+    "unit_square_half_masses": [
+      "1/2",
+      "3/8"
+    ]
+  },
+  "limits": [
+    "No accepted-source replay or scientific promotion",
+    "Three caught code mutations plus one surviving mutant; not exhaustive mutation coverage",
+    "Finite exact arithmetic is not the general local proof"
+  ],
+  "model_identity": "UNKNOWN",
+  "python": "3.10.12"
+}

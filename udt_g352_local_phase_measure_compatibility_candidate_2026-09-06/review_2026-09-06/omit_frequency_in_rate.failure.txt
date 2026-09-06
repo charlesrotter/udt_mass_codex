@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/udt-g352-separate-review-4OjAl5/reviewer_stage_b_checks.py", line 94, in mutated_candidate_probes
+    namespace['collect_checks']()
+  File "<omit_frequency_in_rate>", line 155, in collect_checks
+  File "<omit_frequency_in_rate>", line 31, in check
+AssertionError: cone_Gamma2: density/(9*spacing) != density/(18*spacing)

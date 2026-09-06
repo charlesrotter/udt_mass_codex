@@ -4,6 +4,11 @@ Date: 2026-09-06. **Unpromoted candidate checkpoint.**
 Source HEAD: `0c9c6db68ab08618e750c57c0d8f166434aae043` on `grok`.
 No registry result, physical premise, or selected physical content is added.
 
+Subsequent separate-context review of candidate commit `3c841561` returned
+**VERIFIED-WITH-CAVEATS**, with no required scientific repair. See
+[review summary](review_2026-09-06/REVIEW_SUMMARY.md). The proof and original
+tests remain frozen; their pre-review headers are snapshot provenance.
+
 ## What the test found
 
 A local mathematical realization is possible for compatible supplied ray
@@ -80,12 +85,22 @@ No route is selected here.
 - The existing 335-row premise verifier passed. No accepted source was edited.
 
 General local statements rest on the analytic argument, not assertion counts.
-All work and the adversarial check used the same context. The next permitted
-review step is a source-first separate-context assessment of this pinned
-candidate. It has not been launched. Promotion or using this candidate to
-redirect the frontier awaits substantive review.
+The original work and original adversarial check used the same context.
+The subsequently authorized separate-context review first reconstructed from
+accepted sources, then challenged the candidate and replayed its checks. It
+found no load-bearing mathematical defect and reproduced the nontrivial
+examples with its own exact Cartesian calculation. The reviewer's exact model
+identity is unknown; a different-model review is not claimed.
 
-If the candidate survives, the next informative bounded scientific question is:
+One concrete caveat remains: an always-zero acceleration helper passes the
+original affine-only examples. The reviewer's nonaffine control catches this
+mutant, and the genuine helper returns the correct nonzero result. This limits
+test coverage, not the analytic proof. The false pass and expected mutation
+failures are preserved; no original science or code was repaired. Review is
+complete, but this checkpoint is still unpromoted and not an accepted dependency.
+
+With the bounded candidate surviving review, the next informative scientific
+question remains:
 **For a specified accepted source/family/normalization construction, which of
 these remaining data are already fixed, which are conventions or initial data,
 and which are still absent?** An explicit accepted construction is needed to

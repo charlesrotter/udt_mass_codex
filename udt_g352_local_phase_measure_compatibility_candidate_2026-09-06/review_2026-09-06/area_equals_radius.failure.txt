@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/udt-g352-separate-review-4OjAl5/reviewer_stage_b_checks.py", line 94, in mutated_candidate_probes
+    namespace['collect_checks']()
+  File "<area_equals_radius>", line 152, in collect_checks
+  File "<area_equals_radius>", line 31, in check
+AssertionError: cone_J1: 2 != 4
