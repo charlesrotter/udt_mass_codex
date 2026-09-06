@@ -1,0 +1,95 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py"
+    ],
+    "start_utc": "2026-09-06T20:34:05.357676+00:00",
+    "elapsed_seconds": 0.3516201570018893,
+    "returncode": 0,
+    "stdout": "{\n  \"kind\": \"conditional chosen-product compatibility, not physical content identity\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"mutation\": null,\n  \"passed_groups\": [\n    \"harmonic_stationary_cubic\",\n    \"intrinsic_recurrence_q_from_Hessian\",\n    \"new_full_phase_is_closed\",\n    \"new_phase_null\",\n    \"new_phase_primitive\",\n    \"intrinsic_polar_cut_area\",\n    \"finite_dimensionless_label_amount\",\n    \"product_equals_original_geometric_amount\",\n    \"original_geometric_amount_value\",\n    \"converted_current_conservation\",\n    \"full_unit_observer_1\",\n    \"fixed_current_readout_1\",\n    \"full_unit_observer_3\",\n    \"fixed_current_readout_3\",\n    \"observer_rate_ratio\",\n    \"fixed_measure_phase_spacing_gauge\",\n    \"fixed_D_changed_phase_only_measure_not_fixed\",\n    \"dimensionless_mu_homothety\",\n    \"count_current_rate_homothety\",\n    \"variable_factorized_product\",\n    \"variable_aligned_phase_primitive\",\n    \"mixed_profile_harmonic\",\n    \"nonseparable_product_discriminator\",\n    \"negative_control_positive_q\",\n    \"finite_positive_cross_ratio_not_one\"\n  ],\n  \"group_count\": 25,\n  \"metric_shape\": [\n    4,\n    4\n  ],\n  \"witness\": {\n    \"length_unit\": \"supplied L; printed coordinates in L units\",\n    \"kappa\": \"2\",\n    \"Delta\": \"3/2\",\n    \"polar_patch\": {\n      \"r\": [\n        \"1\",\n        \"4\"\n      ],\n      \"angle\": [\n        \"0\",\n        \"1\"\n      ]\n    },\n    \"u_interval\": [\n      \"0\",\n      \"1\"\n    ],\n    \"mu_total\": \"3*sqrt(6)/8\",\n    \"Xi_total\": \"sqrt(6)/2\",\n    \"point_r\": \"2\",\n    \"observer_Uu\": [\n      \"1\",\n      \"3\"\n    ],\n    \"rates\": [\n      \"sqrt(3)/8\",\n      \"3*sqrt(3)/8\"\n    ],\n    \"phase\": \"-2*u\"\n  },\n  \"negative\": {\n    \"H\": \"u*(x**4 - 6*x**2*y**2 + y**4) + x**3 - 3*x*y**2\",\n    \"point\": [\n      \"0\",\n      \"1\",\n      \"0\"\n    ],\n    \"mixed_log_derivative\": \"5\",\n    \"positive_cross_ratio_fourth_power\": \"2008387814976/678223072849\"\n  }\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 49992
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py",
+      "--mutation",
+      "old_root_as_phase"
+    ],
+    "mutation": "old_root_as_phase",
+    "start_utc": "2026-09-06T20:35:03.030536+00:00",
+    "elapsed_seconds": 0.25938992299779784,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 35, in <module>\n    eq('new_full_phase_is_closed',dk,S.zeros(4))\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 25, in eq\n    if isinstance(a,S.MatrixBase): assert (a-b).applyfunc(S.simplify)==S.zeros(*a.shape),name\nAssertionError: new_full_phase_is_closed\n",
+    "max_RSS_KiB": 59852
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py",
+      "--mutation",
+      "omit_polar_J"
+    ],
+    "mutation": "omit_polar_J",
+    "start_utc": "2026-09-06T20:35:03.289935+00:00",
+    "elapsed_seconds": 0.2619265590001305,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 42, in <module>\n    eq('intrinsic_polar_cut_area',J,r)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 26, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: intrinsic_polar_cut_area\n",
+    "max_RSS_KiB": 59852
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py",
+      "--mutation",
+      "omit_conversion_q"
+    ],
+    "mutation": "omit_conversion_q",
+    "start_utc": "2026-09-06T20:35:03.551873+00:00",
+    "elapsed_seconds": 0.27494995199958794,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 46, in <module>\n    eq('finite_dimensionless_label_amount',total,3*S.sqrt(6)/8)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 26, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: finite_dimensionless_label_amount\n",
+    "max_RSS_KiB": 61164
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py",
+      "--mutation",
+      "phase_measure_rebuild_gauge"
+    ],
+    "mutation": "phase_measure_rebuild_gauge",
+    "start_utc": "2026-09-06T20:35:03.826830+00:00",
+    "elapsed_seconds": 0.28901933299857774,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 63, in <module>\n    eq('fixed_measure_phase_spacing_gauge',(a*kappa)/(a*Delta)*new_s/J,kappa/Delta*s/J)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 26, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: fixed_measure_phase_spacing_gauge\n",
+    "max_RSS_KiB": 61672
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py",
+      "--mutation",
+      "phase_blind_product"
+    ],
+    "mutation": "phase_blind_product",
+    "start_utc": "2026-09-06T20:35:04.115857+00:00",
+    "elapsed_seconds": 0.3547197359985148,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 81, in <module>\n    eq('nonseparable_product_discriminator',mixed,5)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py\", line 26, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: nonseparable_product_discriminator\n",
+    "max_RSS_KiB": 61780
+  }
+]

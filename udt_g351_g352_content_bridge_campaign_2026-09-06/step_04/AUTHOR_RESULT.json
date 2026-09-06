@@ -1,0 +1,79 @@
+{
+  "kind": "conditional chosen-product compatibility, not physical content identity",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutation": null,
+  "passed_groups": [
+    "harmonic_stationary_cubic",
+    "intrinsic_recurrence_q_from_Hessian",
+    "new_full_phase_is_closed",
+    "new_phase_null",
+    "new_phase_primitive",
+    "intrinsic_polar_cut_area",
+    "finite_dimensionless_label_amount",
+    "product_equals_original_geometric_amount",
+    "original_geometric_amount_value",
+    "converted_current_conservation",
+    "full_unit_observer_1",
+    "fixed_current_readout_1",
+    "full_unit_observer_3",
+    "fixed_current_readout_3",
+    "observer_rate_ratio",
+    "fixed_measure_phase_spacing_gauge",
+    "fixed_D_changed_phase_only_measure_not_fixed",
+    "dimensionless_mu_homothety",
+    "count_current_rate_homothety",
+    "variable_factorized_product",
+    "variable_aligned_phase_primitive",
+    "mixed_profile_harmonic",
+    "nonseparable_product_discriminator",
+    "negative_control_positive_q",
+    "finite_positive_cross_ratio_not_one"
+  ],
+  "group_count": 25,
+  "metric_shape": [
+    4,
+    4
+  ],
+  "witness": {
+    "length_unit": "supplied L; printed coordinates in L units",
+    "kappa": "2",
+    "Delta": "3/2",
+    "polar_patch": {
+      "r": [
+        "1",
+        "4"
+      ],
+      "angle": [
+        "0",
+        "1"
+      ]
+    },
+    "u_interval": [
+      "0",
+      "1"
+    ],
+    "mu_total": "3*sqrt(6)/8",
+    "Xi_total": "sqrt(6)/2",
+    "point_r": "2",
+    "observer_Uu": [
+      "1",
+      "3"
+    ],
+    "rates": [
+      "sqrt(3)/8",
+      "3*sqrt(3)/8"
+    ],
+    "phase": "-2*u"
+  },
+  "negative": {
+    "H": "u*(x**4 - 6*x**2*y**2 + y**4) + x**3 - 3*x*y**2",
+    "point": [
+      "0",
+      "1",
+      "0"
+    ],
+    "mixed_log_derivative": "5",
+    "positive_cross_ratio_fourth_power": "2008387814976/678223072849"
+  }
+}
