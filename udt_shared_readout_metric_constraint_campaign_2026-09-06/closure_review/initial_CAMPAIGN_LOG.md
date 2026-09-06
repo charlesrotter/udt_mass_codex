@@ -1,7 +1,7 @@
 # Adaptive campaign — compact log
 
-Status: COMPLETE at the five-reviewed-step scientific scope; final preservation
-handoff follows this record. All five steps reviewed with caveats; no result promoted.
+Status: SCIENTIFIC WORK COMPLETE; closure checks in progress. All five steps
+reviewed with caveats; no result promoted.
 Budget: six substantive reviewed steps or eight hours; start22:02:38 UTC
 2026-09-06, deadline06:02:38 UTC2026-09-07.
 
@@ -74,8 +74,8 @@ Budget: six substantive reviewed steps or eight hours; start22:02:38 UTC
    guards. No unexpected author failure. tri_step05_review sealed its source-first
    argument/checks before direct review; no findings were received before freeze.
    Reviewer reported a real author harness false pass: rejecting every nonzero
-   record could pass. Initial analytic argument survives; one same-premise
-   verification repair was required and completed. Initial frozen code/evidence stays intact;
+   record could pass. Initial analytic argument survives, but one same-premise
+   verification repair is underway. Initial frozen code/evidence stays intact;
    repaired script adds explicit returned-status feasibility guard and real
    reject_nonzero mutant. Baseline17 groups/1887 assertions passes; new mutant
    fails expected guard. Focused re-review passed; original corruption independently
@@ -101,45 +101,3 @@ No further quota example or open-ended recipe/measurement investigation begun.
 Final work is evidence/fidelity
 review, operational-pointer refresh, preservation/startup checks and candidate
 commit/push; not scientific banking. Stop for a load-bearing unresolved objection.
-
-## Closure evidence and return
-
-- Scientific/review artifacts through the completed SC4/SC5 reviews and check
-  repair were committed/pushed at e93f49ebc92d527a39f04c4ce72c51408f74b679;
-  observed HEAD/origin divergence0/0. The final containing commit adds reviewed
-  operational pointers, this brief/log and closure evidence, not new science.
-- Full final339-row premise audit PASS, actual exit0,398.079937478s,
-  105792KiB maximum child RSS,2GiB/900s caps, empty stderr, no timeout.
-  Separate stdout/stderr and exact argv/wrapper/version are retained in
-  closure_premise_audit.*. Its repository archive-integrity checks do not
-  verify external backups or ScratchDisk.
-- Final self-contained startup regression:107 passed,1 deselected in1.64s;
-  actual subprocess1.726905716s. Only the duplicate full-audit test was omitted
-  because that audit ran separately. No test/instruction/scientific source changed.
-- All four preservation hashes match; all46 unrelated untracked status entries
-  match the startup metadata. Tracked changes stay within this package plus
-  LIVE/HANDOFF/CURRENT_RESEARCH_PROGRAM/INDEX/MEMORY operational updates.
-- Initial final-fidelity review passed scientific/root-summary scope with one
-  packaging finding P1: stale repair-underway wording. Corrected to completed
-  history here; candidate/reviewer originals unchanged. The initial17-file
-  archive and16 payload hashes match; its report preserves snapshots of the
-  initial brief/log/roots. CLOSURE_REVIEW_INPUT_SHA256SUMS is historical after
-  this factual delta, not a current-file pass claim.
-- At checkpoint e93 the strict whitespace check found four space-only lines in
-  one raw review diff; WHITESPACE_CHECK_DISPOSITION.json retains that history.
-  After staging final review evidence, the actual strict delta check finds14
-  such lines in exactly3 immutable raw diff transcripts, and remains exit2.
-  Excluding only those3 exact paths gives exit0; FINAL_ASSEMBLY_CHECK_RECORD.json
-  preserves commands, raw output and exclusions. No evidence was sanitized or
-  strict whole-diff pass claimed.
-- The manuscript's known stock live339/fixed335 input mismatch is not repaired,
-  rerun or relabeled as passed. This campaign checks its unchanged bytes, not
-  a fresh full fixed-edition review.
-
-Scientific steps finished23:08:34 UTC (65m56s); final runtime/preservation checks
-finished by23:19:40 UTC (77m02s). No resource/access or unresolved scientific-review
-blocker remains. Final factual-delta fidelity and containing commit/push are
-recorded in CLOSURE_REVIEW_RECORD.md and the final handoff, without reopening science.
-Next owner decision: conditional mathematical promotion of SC2--SC5 at exact
-reviewed scope, not physical recipe adoption; SC1 remains a source map.
-No sixth step, new physical law, scientific banking or further campaign begun.

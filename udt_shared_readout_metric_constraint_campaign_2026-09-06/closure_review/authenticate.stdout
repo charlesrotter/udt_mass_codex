@@ -1,0 +1,438 @@
+e93f49ebc92d527a39f04c4ce72c51408f74b679
+grok
+LIVE.md: OK
+HANDOFF.md: OK
+CURRENT_RESEARCH_PROGRAM.md: OK
+INDEX.md: OK
+MEMORY.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/CAMPAIGN_LOG.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/REVIEW_RECORD.md: OK
+UDT_METRIC_KERNEL_DEVELOPMENT.md: OK
+UDT_METRIC_KERNEL_COVERAGE.tsv: OK
+CANON.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+Accepted-pin byte match: UDT_METRIC_KERNEL_DEVELOPMENT.md
+Accepted-pin byte match: UDT_METRIC_KERNEL_COVERAGE.tsv
+Accepted-pin byte match: CANON.md
+Accepted-pin byte match: CURRENT_SCIENTIFIC_PREMISES.tsv
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/QUESTION.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+founding.md: OK
+udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md: OK
+startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md: OK
+udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK
+udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md: OK
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md: OK
+udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md: OK
+udt_g336_silent_direction_second_normal_response_2026-09-03/AUDIT_REPORT.md: OK
+udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md: OK
+udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md: OK
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md: OK
+ARCHIVE_FILES.txt: OK
+EXPOSURE_RECORD.md: OK
+SOURCE_READS.tsv: OK
+STAGE_A_SHA256SUMS: OK
+STAGE_A_SOURCE_FIRST.md: OK
+STAGE_B_ADVERSARIAL_REVIEW.md: OK
+STAGE_B_READS.tsv: OK
+authenticate_sources.sh: OK
+source_auth.json: OK
+source_auth.stderr: OK
+source_auth.stdout: OK
+versions.json: OK
+versions.stderr: OK
+versions.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/QUESTION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/check_exact.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/author_exact.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/MUTATION_DISPOSITION.json: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/REVIEW_RECORD.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK
+PHASE_A_NOTES.md: OK
+PHASE_B_ADVERSARIAL_REVIEW.md: OK
+author_baseline.json: OK
+author_baseline.stderr: OK
+author_baseline.stdout: OK
+author_mutant_missing_half.json: OK
+author_mutant_missing_half.stderr: OK
+author_mutant_missing_half.stdout: OK
+author_mutant_positive_is_enough.json: OK
+author_mutant_positive_is_enough.stderr: OK
+author_mutant_positive_is_enough.stdout: OK
+author_mutant_raw_rates.json: OK
+author_mutant_raw_rates.stderr: OK
+author_mutant_raw_rates.stdout: OK
+author_mutant_wrong_overlap.json: OK
+author_mutant_wrong_overlap.stderr: OK
+author_mutant_wrong_overlap.stdout: OK
+author_output_correspondence.json: OK
+author_output_correspondence.stderr: OK
+author_output_correspondence.stdout: OK
+final_frozen_auth.json: OK
+final_frozen_auth.stderr: OK
+final_frozen_auth.stdout: OK
+frozen_manifests_check.json: OK
+frozen_manifests_check.stderr: OK
+frozen_manifests_check.stdout: OK
+independent_exact.json: OK
+independent_exact.py: OK
+independent_exact.stderr: OK
+independent_exact.stdout: OK
+independent_seal_before_author_code.json: OK
+independent_seal_before_author_code.stderr: OK
+independent_seal_before_author_code.stdout: OK
+phase_A_note_seal.json: OK
+phase_A_note_seal.stderr: OK
+phase_A_note_seal.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/QUESTION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/check_exact.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/author_exact.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/MUTATION_DISPOSITION.json: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+founding.md: OK
+udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md: OK
+startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md: OK
+udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md: OK
+udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/REVIEW_RECORD.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK
+COMMANDS.md: OK
+PHASE_B_ADVERSARIAL_REVIEW.md: OK
+STAGE_A.md: OK
+STAGE_A_RESULT.md: OK
+authenticate_review.py: OK
+authentication.json: OK
+authentication.stderr: OK
+authentication.stdout: OK
+author_replay_baseline.json: OK
+author_replay_baseline.stderr: OK
+author_replay_baseline.stdout: OK
+author_replay_missing_mixed.json: OK
+author_replay_missing_mixed.stderr: OK
+author_replay_missing_mixed.stdout: OK
+author_replay_omit_cyclic.json: OK
+author_replay_omit_cyclic.stderr: OK
+author_replay_omit_cyclic.stdout: OK
+author_replay_same_null_sign.json: OK
+author_replay_same_null_sign.stderr: OK
+author_replay_same_null_sign.stdout: OK
+author_replay_wrong_scalar.json: OK
+author_replay_wrong_scalar.stderr: OK
+author_replay_wrong_scalar.stdout: OK
+compare_candidate_constraints.py: OK
+compare_constraints.json: OK
+compare_constraints.stderr: OK
+compare_constraints.stdout: OK
+independent_tensor.py: OK
+source_first.json: OK
+source_first.stderr: OK
+source_first.stdout: OK
+stage_a_seal.json: OK
+stage_a_seal.stderr: OK
+stage_a_seal.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/QUESTION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/check_symbolic.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/check_symbolic_initial_failed.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/DIAGNOSTIC_PLAN.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/author_symbolic_recheck.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/MUTATION_DISPOSITION.json: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md: OK
+udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md: OK
+udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md: OK
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/REVIEW_RECORD.md: OK
+PHASE_B_CHECK_PLAN.md: OK
+REVIEW_RESULT.json: OK
+STAGE_A_SHA256SUMS: OK
+STAGE_A_SOURCE_FIRST.md: OK
+STAGE_B_ADVERSARIAL_REVIEW.md: OK
+author_replay_correspondence.json: OK
+author_replay_correspondence.stderr: OK
+author_replay_correspondence.stdout: OK
+final_input_reauthentication.json: OK
+final_input_reauthentication.stderr: OK
+final_input_reauthentication.stdout: OK
+independent_exact.py: OK
+independent_exact_run.json: OK
+independent_exact_run.stderr: OK
+independent_exact_run.stdout: OK
+phase_b_authentication.json: OK
+phase_b_authentication.stderr: OK
+phase_b_authentication.stdout: OK
+post_exposure_diagnostic.py: OK
+post_exposure_diagnostic_run.json: OK
+post_exposure_diagnostic_run.stderr: OK
+post_exposure_diagnostic_run.stdout: OK
+replay_allow_zero.json: OK
+replay_allow_zero.stderr: OK
+replay_allow_zero.stdout: OK
+replay_corrected.json: OK
+replay_corrected.stderr: OK
+replay_corrected.stdout: OK
+replay_initial_failure.json: OK
+replay_initial_failure.stderr: OK
+replay_initial_failure.stdout: OK
+replay_omit_spatial_force.json: OK
+replay_omit_spatial_force.stderr: OK
+replay_omit_spatial_force.stdout: OK
+replay_past_root.json: OK
+replay_past_root.stderr: OK
+replay_past_root.stdout: OK
+replay_wrong_characteristic_sign.json: OK
+replay_wrong_characteristic_sign.stderr: OK
+replay_wrong_characteristic_sign.stdout: OK
+reviewed_input_inventory.json: OK
+reviewed_input_inventory.stderr: OK
+reviewed_input_inventory.stdout: OK
+source_audit.json: OK
+source_audit.stderr: OK
+source_audit.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/QUESTION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/check_exact.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/author_exact.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/MUTATION_DISPOSITION.json: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/REVIEW_RECORD.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/review/PHASE_B_ADVERSARIAL_REVIEW.md: OK
+PHASE_A_NOTES.md: OK
+PHASE_B_ADVERSARIAL_REVIEW.md: OK
+authenticate_sources.py: OK
+author_baseline.json: OK
+author_baseline.stderr: OK
+author_baseline.stdout: OK
+author_mutant_fixed_weights.json: OK
+author_mutant_fixed_weights.stderr: OK
+author_mutant_fixed_weights.stdout: OK
+author_mutant_missing_half.json: OK
+author_mutant_missing_half.stderr: OK
+author_mutant_missing_half.stdout: OK
+author_mutant_unrelaxed.json: OK
+author_mutant_unrelaxed.stderr: OK
+author_mutant_unrelaxed.stdout: OK
+author_mutant_wrong_sign.json: OK
+author_mutant_wrong_sign.stderr: OK
+author_mutant_wrong_sign.stdout: OK
+check_correspondence.py: OK
+correspondence.json: OK
+correspondence.stderr: OK
+correspondence.stdout: OK
+false_pass_overreject.json: OK
+false_pass_overreject.py: OK
+false_pass_overreject.stderr: OK
+false_pass_overreject.stdout: OK
+frozen_manifests.json: OK
+frozen_manifests.stderr: OK
+frozen_manifests.stdout: OK
+independent_exact.py: OK
+independent_exact_run.json: OK
+independent_exact_run.stderr: OK
+independent_exact_run.stdout: OK
+phase_A_seal.json: OK
+phase_A_seal.stderr: OK
+phase_A_seal.stdout: OK
+source_auth.json: OK
+source_auth.stderr: OK
+source_auth.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/REPAIR_PLAN.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/REPAIR_RECORD.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/check_exact.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/author_exact.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/MUTATION_DISPOSITION.json: OK
+FOCUSED_REVIEW.md: OK
+REVIEW_SCOPE.md: OK
+authenticate.json: OK
+authenticate.stderr: OK
+authenticate.stdout: OK
+focused_checks.json: OK
+focused_checks.stderr: OK
+focused_checks.stdout: OK
+initial_review_auth.json: OK
+initial_review_auth.stderr: OK
+initial_review_auth.stdout: OK
+original_false_pass_reapplied.json: OK
+original_false_pass_reapplied.stderr: OK
+original_false_pass_reapplied.stdout: OK
+reapply_original_false_pass.py: OK
+repair_delta.json: OK
+repair_delta.stderr: OK
+repair_delta.stdout: OK
+repaired_baseline.json: OK
+repaired_baseline.stderr: OK
+repaired_baseline.stdout: OK
+repaired_mutant_fixed_weights.json: OK
+repaired_mutant_fixed_weights.stderr: OK
+repaired_mutant_fixed_weights.stdout: OK
+repaired_mutant_missing_half.json: OK
+repaired_mutant_missing_half.stderr: OK
+repaired_mutant_missing_half.stdout: OK
+repaired_mutant_reject_nonzero.json: OK
+repaired_mutant_reject_nonzero.stderr: OK
+repaired_mutant_reject_nonzero.stdout: OK
+repaired_mutant_unrelaxed.json: OK
+repaired_mutant_unrelaxed.stderr: OK
+repaired_mutant_unrelaxed.stdout: OK
+repaired_mutant_wrong_sign.json: OK
+repaired_mutant_wrong_sign.stderr: OK
+repaired_mutant_wrong_sign.stdout: OK
+verify_focused.py: OK
+104cde45f01695faa06948eeff1e0b5ac0c621ec4b57060ba7ce26ffeb269a65  AGENTS.md
+b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751  CLAUDE.md
+9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac  .claude/skills/verifier-before-record/SKILL.md
+a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0  .claude/skills/completeness-map/SKILL.md
+fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1  .claude/skills/no-shortcuts/SKILL.md
+dfca2586d98b035e8de5f0b316f9fbf27b143d6e1c61cc926eb0870cff61eaeb  CURRENT_SCIENTIFIC_PREMISES.md
+8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef  udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py
+c15572c7328d785a61804b67d4ec437d7cc1dcaf6fd1810e979126b2c7109800  udt_shared_readout_metric_constraint_campaign_2026-09-06/CLOSURE_CHECK_PLAN.md
+61b683a90d7d4416256d1cf08779a981e56ed7c52510e9dc2cfb5e4c4f895da8  udt_shared_readout_metric_constraint_campaign_2026-09-06/WORK_ORDER.md
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index d44f47c3..61335024 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -71,11 +71,15 @@ physical identification remains OPEN. Its CHOSEN curvature/
+ derivative recipes, optional naturality class and fixed-label product conditions remain explicit.
+ No fifth compatibility example is requested.
+ 
+-Charles's next choice is among the bounded directions in
+-`udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`:
+-finite-readout common-measure constraints (recommended), joint clock/ruler/null-probe realizability,
+-or propagation of a declared phase/product condition under lawful metric development.
+-These are source-grounded proposals, not launched derivations; no new campaign is authorized.
++Charles subsequently authorized one adaptive campaign across all three proposed directions.
++Its five reviewed steps are complete; SC1 is a source map and SC2--SC5 remain conditional
++mathematical candidates UNPROMOTED. The new constraints concern shared ideal readouts and bounded
++weight uncertainty, a finite eventwise algebraic Einstein-curvature query, and local phase-data/
++compact-real-phase domains. Pointwise algebraic sufficiency is not full lawful-data/PDE realization;
++local free-phase propagation does not establish chosen curvature-recipe/product persistence.
++See `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and its compact log.
++Conditional mathematical promotion at exact reviewed scopes is Charles's next decision, not an
++action authorized by that campaign. Beyond this completed work order, no new campaign is authorized.
+ The G352 physical-realization gap does not imply that a new physical premise is necessary.
+ Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
+ not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 95d0cdd2..e860e0dd 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -59,10 +59,14 @@ Next: G353--G356 conditional mathematical banking is complete at its owner-autho
+ The prior campaign is complete. The G352 physical-realization remainder is not closed:
+ physical identification remains OPEN; no metric-native carried object is physically selected.
+ Keep the owner-provisional premises, CHOSEN recipes and product explicit.
+-Charles chooses the next direction; no new campaign is authorized. The proposal at
+-`udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md` recommends finite-readout
+-common-measure constraints over more compatibility examples, and gives two materially different
+-alternatives. Ordinary initial/query data need not be uniquely selected; instrument identification
++Charles's subsequent authorized three-direction campaign has completed five reviewed steps.
++Its shared ideal-readout/weight-robustness, eventwise algebraic Einstein-curvature query, and local
++phase-data/compact-domain results remain conditional candidates UNPROMOTED, with all caveats.
++No full metric-data realization, automatic recipe/product persistence or physical content follows.
++See `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and CAMPAIGN_LOG.md
++in that package. Conditional mathematical promotion now requires Charles's decision; it was not
++authorized by this campaign. Beyond this completed work order, no new campaign is authorized.
++Ordinary initial/query data need not be uniquely selected; instrument identification
+ may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
+ frontier tracking. History, matter, scale, `X_max`, and canon stay open.
+ 
+diff --git a/INDEX.md b/INDEX.md
+index 40d1b1f3..27a61e29 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -54,8 +54,11 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
+   `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md`.
+ - Completed, unchanged four-step evidence:
+   `udt_g351_g352_content_bridge_campaign_2026-09-06/`.
+-- Next-direction choice, not campaign authorization:
++- Historical next-direction proposal, subsequently authorized as an adaptive campaign:
+   `udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
++- Completed five-reviewed-step three-direction campaign; conditional candidates UNPROMOTED:
++  `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md`;
++  scope, evidence/review history and closure: its `CAMPAIGN_LOG.md`.
+ 
+ ## Retained comparison and observational lanes
+ 
+diff --git a/LIVE.md b/LIVE.md
+index 682a08f8..d04c5888 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -100,10 +100,15 @@ The four-step campaign is complete, not waiting for a fifth compatibility exampl
+ The G352 physical-realization question remains: physical identification remains OPEN. Its
+ owner-provisional premises and chosen product are unchanged; a metric-native carried object is
+ not physically selected by the banked mathematical realizations.
+-Charles must choose the next direction; no new campaign is authorized. The reviewed proposal
+-compares finite-readout common-measure constraints (recommended), joint metric-probe realizability,
+-and lawful-data propagation of a declared phase/product condition. See
+-`udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
++Charles authorized the subsequent adaptive three-direction campaign; its five reviewed steps
++are complete, with conditional candidates UNPROMOTED. Shared ideal-readout constraints and their
++bounded-weight robustness, an eventwise algebraic Einstein-curvature query constraint, and local
++phase-data/compact-domain results retain their source assumptions and review caveats. Algebraic
++compatibility is not full metric-development realization; free phase propagation is not curvature-
++recipe/product persistence. See
++`udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and its compact log.
++Charles's next decision is conditional mathematical promotion at the exact reviewed scopes;
++it has not been authorized here. Beyond this completed work order, no new campaign is authorized.
+ Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
+ or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
+ Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
+diff --git a/MEMORY.md b/MEMORY.md
+index d809af54..3fe12579 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -27,10 +27,15 @@ readouts, and all physical identities remain distinct/open.
+ 
+ G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;
+ integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.
+-G352 physical identification remains OPEN. No fifth step or new campaign is authorized.
+-Charles must choose the next direction; the recommendation is finite-readout common-measure
+-constraints, with joint metric-probe realizability and lawful-data propagation as distinct alternatives.
+-See `udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
++G352 physical identification remains OPEN. No fifth step in that old campaign is requested.
++Charles's subsequent three-direction campaign completed five reviewed steps: source gate, shared
++ideal-readout constraints, eventwise algebraic Einstein-curvature queries, local phase-data/
++compact-domain results and weight-uncertainty robustness. SC2--SC5 remain conditional candidates
++UNPROMOTED; SC1 is a source map. Full metric-data realization and curvature-recipe/product
++persistence are not established. See
++`udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and its compact log.
++Charles must decide conditional mathematical promotion; beyond the completed work order,
++no new campaign is authorized.
+ Do not demand unique initial/query data or hide an extra measurement rule in a definition.
+ The central manuscript remains the fixed through-G352 edition, not current tracking.
+ Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.
+git version 2.34.1
+GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Python 3.10.12
+sha256sum (GNU coreutils) 8.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Ulrich Drepper, Scott Miller, and David Madore.
+All explicitly scoped correspondence checks passed.

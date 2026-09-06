@@ -1,0 +1,28 @@
+HEAD e93f49ebc92d527a39f04c4ce72c51408f74b679
+BRANCH grok
+LOCAL TRACKING DIVERGENCE 0	0
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/CLOSURE_FINAL_INPUT_SHA256SUMS 16
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/PRESERVED_FILES_SHA256SUMS 4
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/REVIEW_SHA256SUMS 16
+INITIAL ARCHIVE PASS 17 files including its 16-payload manifest; seal triple byte-identical
+UNCHANGED ROOTS, WORK ORDER, CLOSURE PLAN AND HISTORICAL INPUT MANIFEST PASS
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_SHA256SUMS 2
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS 16
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/review/REVIEW_SHA256SUMS 14
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/CANDIDATE_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/SOURCE_SHA256SUMS 6
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/review/REVIEW_SHA256SUMS 36
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/SOURCE_SHA256SUMS 9
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/review/REVIEW_SHA256SUMS 34
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/CANDIDATE_SHA256SUMS 7
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/SOURCE_SHA256SUMS 10
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/review/SHA256SUMS 46
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/CANDIDATE_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/SOURCE_SHA256SUMS 6
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/review/REVIEW_SHA256SUMS 39
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/REPAIR_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/REVIEW_SHA256SUMS 37
+AUDIT CAPTURE CORRESPONDENCE PASS 398.07993747800356 105792 independent audit NOT rerun
+REGRESSION CAPTURE CORRESPONDENCE PASS 1.7269057159937802 suite NOT rerun
+PRESERVATION CAPTURE CORRESPONDENCE PASS 0.004477217000385281

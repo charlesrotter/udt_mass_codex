@@ -1,0 +1,14 @@
+{
+  "command": [
+    "bash",
+    "/tmp/tri_closure_final_delta.XLU1Mh/seal.sh"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T23:26:31.825459+00:00",
+  "duration_seconds": 0.004362277999462094,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7400
+}

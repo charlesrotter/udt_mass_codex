@@ -1,0 +1,20 @@
+{
+  "strict_command": "git diff --check 70034a6faa9264bf054eb473d5eb7a0889f3d2de",
+  "strict_result": {
+    "chunk_id": "71bd15",
+    "wall_time_seconds": 0.0000027,
+    "exit_code": 2,
+    "original_token_count": 127,
+    "output": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:10: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:16: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:18: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:19: trailing whitespace.\n+ \n"
+  },
+  "narrowed_command": "git diff --check 70034a6faa9264bf054eb473d5eb7a0889f3d2de -- . ':(exclude)udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout'",
+  "narrowed_result": {
+    "chunk_id": "a89416",
+    "wall_time_seconds": 0.000002344,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "disposition": "Strict whole-diff check remains FAILED (exit2) only at four space-only unified-diff context lines in immutable raw review stdout. Preserve exact evidence, no whitespace sanitation. Narrowed check excludes only that file and passes. No claim of strict whole-diff PASS; no scientific or infrastructure change.",
+  "evidence_scope": "actual tool command outputs; sed -n l verified raw space-only context lines; reviewer archive checksum remains valid"
+}

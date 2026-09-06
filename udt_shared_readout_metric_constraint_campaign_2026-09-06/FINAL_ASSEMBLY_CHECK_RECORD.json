@@ -1,0 +1,26 @@
+{
+  "strict_command": "git diff --check 70034a6faa9264bf054eb473d5eb7a0889f3d2de",
+  "strict_result": {
+    "chunk_id": "cff506",
+    "wall_time_seconds": 0.000003287,
+    "exit_code": 2,
+    "original_token_count": 440,
+    "output": "udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout:38: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout:43: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout:49: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout:69: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout:76: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout:317: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout:357: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout:372: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout:374: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout:404: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:10: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:16: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:18: trailing whitespace.\n+ \nudt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout:19: trailing whitespace.\n+ \n"
+  },
+  "narrowed_command": "git diff --check 70034a6faa9264bf054eb473d5eb7a0889f3d2de -- . ':(exclude)udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout' ':(exclude)udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout' ':(exclude)udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout'",
+  "narrowed_result": {
+    "chunk_id": "3b8ca9",
+    "wall_time_seconds": 0.000002329,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "exact_raw_transcript_exclusions": [
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_focused_review/factual_retry.stdout",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/authenticate.stdout",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/repair_delta.stdout"
+  ],
+  "warning_count": 14,
+  "disposition": "Actual assembled delta: strict check remains exit2 at14 preserved space-only unified-diff context lines in exactly3 immutable raw reviewer stdout files. Narrowed check excluding exactly those3 files exits0. No sanitation, test weakening, source change or strict-PASS claim. The earlier one-file/four-line result is historical at checkpoint e93.",
+  "scope": "Final staged review evidence included; only later JSON/Markdown accounting and manifests remain to add, followed by a final confirmation. Raw command output is preserved losslessly as JSON strings to avoid introducing a new raw-diff whitespace loop."
+}

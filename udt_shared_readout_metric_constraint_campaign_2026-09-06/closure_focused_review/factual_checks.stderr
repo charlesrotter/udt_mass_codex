@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/tri_closure_final_delta.XLU1Mh/check_factual_delta.py", line 80, in <module>
+    current_status = git('status', '--short', '--branch')
+  File "/tmp/tri_closure_final_delta.XLU1Mh/check_factual_delta.py", line 15, in git
+    result = subprocess.run(['git', *args], cwd=repo, capture_output=True, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'status', '--short', '--branch']' returned non-zero exit status 128.

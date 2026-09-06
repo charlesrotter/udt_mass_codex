@@ -1,0 +1,17 @@
+FOCUSED_FIDELITY_REVIEW.md: OK
+REVIEWED_FINAL_INPUT_SHA256SUMS: OK
+check_factual_delta.py: OK
+check_factual_delta_initial.py: OK
+factual_checks.json: OK
+factual_checks.stderr: OK
+factual_checks.stdout: OK
+factual_retry.json: OK
+factual_retry.stderr: OK
+factual_retry.stdout: OK
+seal.sh: OK
+status_diagnostic.json: OK
+status_diagnostic.stderr: OK
+status_diagnostic.stdout: OK
+Payload count: 14
+fefbd97c013d51caef9b71fd51494591c56a35ce6a89f4e9e7d4060f573c931a  REVIEW_SHA256SUMS
+6d6d8d271ad6fc65a9c59f35c576828c7fa0c38fac92c85648f58041f1327dc9  FOCUSED_FIDELITY_REVIEW.md

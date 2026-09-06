@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/tmp/tri_closure_final_delta.XLU1Mh/check_factual_delta.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T23:24:06.471450+00:00",
+  "duration_seconds": 0.14657696100039175,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14784
+}

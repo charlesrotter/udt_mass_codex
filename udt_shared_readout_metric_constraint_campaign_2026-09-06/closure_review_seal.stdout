@@ -1,0 +1,19 @@
+INITIAL_FIDELITY_REVIEW.md: OK
+INITIAL_INPUT_SHA256SUMS: OK
+authenticate.json: OK
+authenticate.sh: OK
+authenticate.stderr: OK
+authenticate.stdout: OK
+initial_CAMPAIGN_LOG.md: OK
+initial_CLOSURE_CHECK_PLAN.md: OK
+initial_CURRENT_RESEARCH_PROGRAM.md: OK
+initial_DECISION_BRIEF.md: OK
+initial_HANDOFF.md: OK
+initial_INDEX.md: OK
+initial_LIVE.md: OK
+initial_MEMORY.md: OK
+initial_WORK_ORDER.md: OK
+seal.sh: OK
+Payload count: 16
+7df06dc3b8b525c686907b9de161d51255b0cae20ebd50b30830ea68e1c34aae  REVIEW_SHA256SUMS
+853349db66ca24146ae900eec6c8746790e1c5f637848a51d3f4f610ab806595  INITIAL_FIDELITY_REVIEW.md

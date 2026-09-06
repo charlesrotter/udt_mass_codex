@@ -1,0 +1,132 @@
+HEAD e93f49ebc92d527a39f04c4ce72c51408f74b679
+BRANCH grok
+LOCAL TRACKING DIVERGENCE 0	0
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/CLOSURE_FINAL_INPUT_SHA256SUMS 16
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/PRESERVED_FILES_SHA256SUMS 4
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_review/REVIEW_SHA256SUMS 16
+INITIAL ARCHIVE PASS 17 files including its 16-payload manifest; seal triple byte-identical
+UNCHANGED ROOTS, WORK ORDER, CLOSURE PLAN AND HISTORICAL INPUT MANIFEST PASS
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_SHA256SUMS 2
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS 16
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/review/REVIEW_SHA256SUMS 14
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/CANDIDATE_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/SOURCE_SHA256SUMS 6
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/review/REVIEW_SHA256SUMS 36
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/SOURCE_SHA256SUMS 9
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/review/REVIEW_SHA256SUMS 34
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/CANDIDATE_SHA256SUMS 7
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/SOURCE_SHA256SUMS 10
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/review/SHA256SUMS 46
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/CANDIDATE_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/SOURCE_SHA256SUMS 6
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/review/REVIEW_SHA256SUMS 39
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/REPAIR_SHA256SUMS 5
+MANIFEST PASS udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/review/REVIEW_SHA256SUMS 37
+AUDIT CAPTURE CORRESPONDENCE PASS 398.07993747800356 105792 independent audit NOT rerun
+REGRESSION CAPTURE CORRESPONDENCE PASS 1.7269057159937802 suite NOT rerun
+PRESERVATION CAPTURE CORRESPONDENCE PASS 0.004477217000385281
+EXACT 46 UNRELATED STATUS ENTRIES AND 379 TRACKED PATHS PASS; metadata only, no protected payload inspected
+WHITESPACE REPLAY strict 2
+WHITESPACE REPLAY narrowed 0
+EXACT IMMUTABLE RAW-DIFF WHITESPACE EXCEPTION PASS; not a strict whole-diff PASS
+BEGIN REVIEWED FACTUAL DELTA DECISION_BRIEF.md
+--- /tmp/tri_closure_fidelity.5CGThc/initial_DECISION_BRIEF.md	2026-09-06 19:14:35.923476936 -0400
++++ /home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md	2026-09-06 19:20:54.567803454 -0400
+@@ -1,7 +1,7 @@
+ # Decision brief — constraints gained without choosing physical content
+ 
+-Scientific campaign complete: five reviewed steps; final integration checks
+-are in progress. All scientific results remain conditional candidates, UNPROMOTED.
++Campaign complete: five reviewed steps with caveats. All scientific results
++remain conditional candidates, UNPROMOTED; no sixth quota step was added.
+ 
+ The campaign examined all three proposed directions in five bounded steps:
+ one reviewed source/domain gate, three distinct mathematical investigations,
+@@ -117,6 +117,16 @@
+ one permitted same-premise guard repair passed focused re-review. The reviewer
+ independently reapplied the original corruption and confirmed it now fails.
+ 
++Final runtime checks: the full339-row premise audit passed (actual exit0,
++398.079937478s), and startup regression passed107 tests with its duplicate
++full-audit test deselected. Four preservation hashes and all46 unrelated
++untracked status entries match. Strict whole-diff whitespace checking retains
++an exit2 warning for four space-only lines in the immutable raw review diff;
++the check excluding only that transcript passes. No raw evidence was altered.
++Initial final-fidelity review found only stale repair-status wording, corrected
++in the final log; its scientific-summary verdict and snapshots are retained.
++Final factual-delta disposition is in CLOSURE_REVIEW_RECORD.md.
++
+ Recommended next owner decision: consider conditional mathematical banking of
+ the reviewed SC2--SC5 families at exactly these scopes, with SC1 retained as a
+ source map. This campaign does not authorize or perform that promotion.
+END REVIEWED FACTUAL DELTA DECISION_BRIEF.md
+BEGIN REVIEWED FACTUAL DELTA CAMPAIGN_LOG.md
+--- /tmp/tri_closure_fidelity.5CGThc/initial_CAMPAIGN_LOG.md	2026-09-06 19:14:35.924476953 -0400
++++ /home/udt-admin/udt_mass_codex/udt_shared_readout_metric_constraint_campaign_2026-09-06/CAMPAIGN_LOG.md	2026-09-06 19:20:54.501802351 -0400
+@@ -1,7 +1,7 @@
+ # Adaptive campaign — compact log
+ 
+-Status: SCIENTIFIC WORK COMPLETE; closure checks in progress. All five steps
+-reviewed with caveats; no result promoted.
++Status: COMPLETE at the five-reviewed-step scientific scope; final preservation
++handoff follows this record. All five steps reviewed with caveats; no result promoted.
+ Budget: six substantive reviewed steps or eight hours; start22:02:38 UTC
+ 2026-09-06, deadline06:02:38 UTC2026-09-07.
+ 
+@@ -74,8 +74,8 @@
+    guards. No unexpected author failure. tri_step05_review sealed its source-first
+    argument/checks before direct review; no findings were received before freeze.
+    Reviewer reported a real author harness false pass: rejecting every nonzero
+-   record could pass. Initial analytic argument survives, but one same-premise
+-   verification repair is underway. Initial frozen code/evidence stays intact;
++   record could pass. Initial analytic argument survives; one same-premise
++   verification repair was required and completed. Initial frozen code/evidence stays intact;
+    repaired script adds explicit returned-status feasibility guard and real
+    reject_nonzero mutant. Baseline17 groups/1887 assertions passes; new mutant
+    fails expected guard. Focused re-review passed; original corruption independently
+@@ -101,3 +101,42 @@
+ Final work is evidence/fidelity
+ review, operational-pointer refresh, preservation/startup checks and candidate
+ commit/push; not scientific banking. Stop for a load-bearing unresolved objection.
++
++## Closure evidence and return
++
++- Scientific/review artifacts through the completed SC4/SC5 reviews and check
++  repair were committed/pushed at e93f49ebc92d527a39f04c4ce72c51408f74b679;
++  observed HEAD/origin divergence0/0. The final containing commit adds reviewed
++  operational pointers, this brief/log and closure evidence, not new science.
++- Full final339-row premise audit PASS, actual exit0,398.079937478s,
++  105792KiB maximum child RSS,2GiB/900s caps, empty stderr, no timeout.
++  Separate stdout/stderr and exact argv/wrapper/version are retained in
++  closure_premise_audit.*. Its repository archive-integrity checks do not
++  verify external backups or ScratchDisk.
++- Final self-contained startup regression:107 passed,1 deselected in1.64s;
++  actual subprocess1.726905716s. Only the duplicate full-audit test was omitted
++  because that audit ran separately. No test/instruction/scientific source changed.
++- All four preservation hashes match; all46 unrelated untracked status entries
++  match the startup metadata. Tracked changes stay within this package plus
++  LIVE/HANDOFF/CURRENT_RESEARCH_PROGRAM/INDEX/MEMORY operational updates.
++- Initial final-fidelity review passed scientific/root-summary scope with one
++  packaging finding P1: stale repair-underway wording. Corrected to completed
++  history here; candidate/reviewer originals unchanged. The initial17-file
++  archive and16 payload hashes match; its report preserves snapshots of the
++  initial brief/log/roots. CLOSURE_REVIEW_INPUT_SHA256SUMS is historical after
++  this factual delta, not a current-file pass claim.
++- Strict whole-diff whitespace check remains exit2 for four space-only context
++  lines in the preserved raw unified-diff review transcript. Excluding ONLY
++  that immutable transcript gives exit0. WHITESPACE_CHECK_DISPOSITION.json
++  retains both actual results; raw evidence was not sanitized.
++- The manuscript's known stock live339/fixed335 input mismatch is not repaired,
++  rerun or relabeled as passed. This campaign checks its unchanged bytes, not
++  a fresh full fixed-edition review.
++
++Scientific steps finished23:08:34 UTC (65m56s); final runtime/preservation checks
++finished by23:19:40 UTC (77m02s). No resource/access or unresolved scientific-review
++blocker remains. Final factual-delta fidelity and containing commit/push are
++recorded in CLOSURE_REVIEW_RECORD.md and the final handoff, without reopening science.
++Next owner decision: conditional mathematical promotion of SC2--SC5 at exact
++reviewed scope, not physical recipe adoption; SC1 remains a source map.
++No sixth step, new physical law, scientific banking or further campaign begun.
+END REVIEWED FACTUAL DELTA CAMPAIGN_LOG.md
+ALL BOUNDED FACTUAL CORRESPONDENCE CHECKS PASS; no scientific proof, remote freshness, future commit/push or backup claim
