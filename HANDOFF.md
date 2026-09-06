@@ -6,6 +6,11 @@
 
 ## Resume anchor — 2026-09-05
 
+Pre-reboot operational state is recorded in `RESTART_CHECKPOINT.md`. That checkpoint is a deployment
+and preservation record only: it does not change the scientific frontier below or authorize a new
+scientific solve. The owner performs the reboot/CLI update; a new Codex process then executes the
+post-restart phase of `UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md` without resume or fork.
+
 Only on a supplied regular calibrated pair, `phi_pair=delta_AB` is `DERIVED_CONDITIONAL`; conditional
 `c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed. On a supplied regular germ,
 `B,Q,S,Y,Z` enters `h=F^*g` before readout. Completed-pair Dual Reciprocity remains

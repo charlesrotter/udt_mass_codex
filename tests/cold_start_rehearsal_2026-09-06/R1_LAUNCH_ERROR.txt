@@ -1,0 +1,12 @@
+Script started on 2026-09-06 00:50:35-04:00 [<not executed on terminal>]
+This is a fresh UDT orientation in a controller-supplied clone pinned to a synchronized production HEAD. Follow the repository's current startup instructions using only this checkout and read-only operations. Because this is a deliberately read-only subject, do not checkout, fetch, or pull and do not claim that you performed synchronization; inspect and report the pinned Git state supplied by the controller instead. Discover the actual scientific frontier, authority hierarchy, completed documentation/infrastructure, open questions, protected boundaries, and next permitted bounded action. Perform the required bounded reads and checks where the sandbox supports them. Do not resume another conversation, inspect protected/untracked scientific content, make changes, use the internet, or launch a solve. Report exactly what you read, what you executed, what could not be checked, and the source of each key conclusion.
+error: unexpected argument '-a' found
+
+  tip: to pass '-a' as a value, use '-- -a'
+
+Usage: codex exec [OPTIONS] [PROMPT]
+       codex exec [OPTIONS] <COMMAND> [ARGS]
+
+For more information, try '--help'.
+
+Script done on 2026-09-06 00:50:37-04:00 [COMMAND_EXIT_CODE="2"]
