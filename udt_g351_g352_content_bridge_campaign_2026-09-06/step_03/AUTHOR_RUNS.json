@@ -1,0 +1,95 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py"
+    ],
+    "start_utc": "2026-09-06T20:15:14.331145+00:00",
+    "elapsed_seconds": 0.4952987340002437,
+    "returncode": 0,
+    "stdout": "{\n  \"kind\": \"exact algebra and finite controls; not physical content identification\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"mutation\": null,\n  \"passed_groups\": [\n    \"variable_profile_connection\",\n    \"full_du_parallel\",\n    \"full_Ricci_harmonic_criterion\",\n    \"all_lower_Riemann_components\",\n    \"full_B_support\",\n    \"full_B_coefficient\",\n    \"harmonic_Hessian_norm_Bochner_identity\",\n    \"cubic_full_recurrence\",\n    \"cubic_nonclosure_guard\",\n    \"cubic_positive_conversion\",\n    \"root_current_conserved\",\n    \"converted_current_conserved\",\n    \"conversion_homothety_weight\",\n    \"variable_quadratic_root\",\n    \"variable_quadratic_primitive\",\n    \"variable_quadratic_not_parallel\",\n    \"full_linear_term_gauge_removal\",\n    \"gauge_du_preserved\",\n    \"variable_centered_wave_homothety\"\n  ],\n  \"group_count\": 19,\n  \"metric_shape\": [\n    4,\n    4\n  ],\n  \"generic_B_uuuu\": \"a**2 + t**2\",\n  \"Ricci_uu\": \"-Derivative(H(u, x, y), (x, 2))/2 - Derivative(H(u, x, y), (y, 2))/2\",\n  \"cubic_point\": {\n    \"x\": \"1\",\n    \"y\": \"2\",\n    \"root_magnitude\": \"5**(1/4)*sqrt(6)\",\n    \"alpha\": [\n      \"0\",\n      \"0\",\n      \"1/10\",\n      \"1/5\"\n    ],\n    \"q\": \"1/20\",\n    \"dBeta_ux\": \"5**(1/4)*sqrt(6)/10\",\n    \"dBeta_uy\": \"5**(1/4)*sqrt(6)/5\"\n  },\n  \"variable_quadratic\": {\n    \"domain\": \"u>-1 in supplied length units\",\n    \"root\": \"sqrt(2)*(u + 1)\",\n    \"primitive\": \"-sqrt(2)*(u**2/2 + u)\",\n    \"root_derivative\": \"sqrt(2)\"\n  }\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 49792
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+      "--mutation",
+      "drop_Hu_connection"
+    ],
+    "mutation": "drop_Hu_connection",
+    "start_utc": "2026-09-06T20:16:07.164141+00:00",
+    "elapsed_seconds": 0.250724507997802,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 30, in <module>\n    eq('variable_profile_connection',G.get((1,0,0),0),-S.diff(H,u)/2)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 23, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: variable_profile_connection\n",
+    "max_RSS_KiB": 59240
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+      "--mutation",
+      "drop_dual"
+    ],
+    "mutation": "drop_dual",
+    "start_utc": "2026-09-06T20:16:07.414873+00:00",
+    "elapsed_seconds": 0.4014250930013077,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 74, in <module>\n    eq('full_B_coefficient',B[0,0,0,0],a**2+t**2)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 23, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: full_B_coefficient\n",
+    "max_RSS_KiB": 60264
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+      "--mutation",
+      "force_closed"
+    ],
+    "mutation": "force_closed",
+    "start_utc": "2026-09-06T20:16:07.816305+00:00",
+    "elapsed_seconds": 0.45040446300117765,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 93, in <module>\n    eq('cubic_nonclosure_guard',dBeta[0,2],bc*x/(2*r2))\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 23, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: cubic_nonclosure_guard\n",
+    "max_RSS_KiB": 60564
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+      "--mutation",
+      "inverse_metric_weight"
+    ],
+    "mutation": "inverse_metric_weight",
+    "start_utc": "2026-09-06T20:16:08.266717+00:00",
+    "elapsed_seconds": 0.47994979500072077,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 100, in <module>\n    eq('conversion_homothety_weight',scaled_q,h**-2*qscalar)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 23, in eq\n    else: assert S.simplify(a-b)==0,name\nAssertionError: conversion_homothety_weight\n",
+    "max_RSS_KiB": 61244
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py",
+      "--mutation",
+      "gauge_linear_force"
+    ],
+    "mutation": "gauge_linear_force",
+    "start_utc": "2026-09-06T20:16:08.746673+00:00",
+    "elapsed_seconds": 0.5153525880014058,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 116, in <module>\n    eq('full_linear_term_gauge_removal',J.T*metric(oldH)*J,metric((X.T*M*X)[0]))\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py\", line 22, in eq\n    assert (a-b).applyfunc(S.simplify)==S.zeros(*a.shape),name\nAssertionError: full_linear_term_gauge_removal\n",
+    "max_RSS_KiB": 61336
+  }
+]
