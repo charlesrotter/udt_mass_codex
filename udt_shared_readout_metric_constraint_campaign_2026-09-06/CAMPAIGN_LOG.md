@@ -61,12 +61,28 @@ Budget: six substantive reviewed steps or eight hours; start22:02:38 UTC
    code/failure; exact entrywise comparison correction changed no formula or
    premise. Rerun18 groups passed;4 actual mutants failed expected guards.
    Fresh tri_step04_review Phase B dispatched after freeze; no findings received.
-5. ACTIVE: robustness of shared overlap constraints to bounded supplied
+5. Candidate frozen: robustness of shared overlap constraints to bounded supplied
    frequency-weight uncertainty; step_05/QUESTION.md. Uses reviewed SC2 only,
    not pending SC4. This tests a limitation of SC2, not a quota example.
+   Argument SHA25650c7f90558bc623f227d5066a84a876017c563218f38426fd7e2f7a80fa5c7c9.
+   Author16 exact groups/1262 assertions passed;625 signed record controls,
+   182 constructed and443 rejected. Four actual formula mutants failed expected
+   guards. No unexpected author failure. tri_step05_review sealed its source-first
+   argument/checks before direct review; no findings were received before freeze.
 6. Unallocated; no useful distinct remaining step presumed.
 
 ## Preservation boundary
 
 Backup completeness and pre-reboot unsaved-state disposition UNVERIFIED.
 ScratchDisk not used; protected work, premises, canon and manuscript excluded.
+
+## Checkpoint / return plan
+
+Checkpoint a4655f39 preserves reviewed SC2/SC3 and frozen SC4 plus its initial
+implementation failure; committed/pushed, observed HEAD/origin divergence0/0.
+SC4/SC5 frozen/source hash checks and accepted-source Git comparisons passed.
+No final result is inferred from those correspondence checks.
+After both pending scientific reviews, return on their actual verdicts.
+Do not allocate Step06 merely to fill the cap. Final work is evidence/fidelity
+review, operational-pointer refresh, preservation/startup checks and candidate
+commit/push; not scientific banking. Stop for a load-bearing unresolved objection.
