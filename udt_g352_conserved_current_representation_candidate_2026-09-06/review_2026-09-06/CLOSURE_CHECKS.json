@@ -1,0 +1,149 @@
+{
+  "recorded_utc": "2026-09-06 18:21:25 UTC",
+  "stage": "Pre-review-commit closure; final commit/sync checked separately.",
+  "frozen_candidate_checks": [
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/ARTIFACT_SHA256SUMS | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "b8c85e257b87ebe24263c262ea74e9bf247ad83d589e9d29d79f6bad8b94230f",
+      "git_blob_sha256": "b8c85e257b87ebe24263c262ea74e9bf247ad83d589e9d29d79f6bad8b94230f",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/CANDIDATE_ARGUMENT.md | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "5f4c31ed10def7e95e1ae25251a24f42a1416d87ee27b6a456fac2f007d2d6cd",
+      "git_blob_sha256": "5f4c31ed10def7e95e1ae25251a24f42a1416d87ee27b6a456fac2f007d2d6cd",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/CHECK_RESULTS.json | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "e8fec43fe67e843cbd53f277bd9b616b46d3575edf5eb3d40b8e7700742f6042",
+      "git_blob_sha256": "e8fec43fe67e843cbd53f277bd9b616b46d3575edf5eb3d40b8e7700742f6042",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/ORIGINAL_UNRELATED_STATUS.txt | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+      "git_blob_sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "d3809f9a41f2a6b040fa4d69f34e0f2b58f5eafb9b718fdfa0b676bd119abd7f",
+      "git_blob_sha256": "d3809f9a41f2a6b040fa4d69f34e0f2b58f5eafb9b718fdfa0b676bd119abd7f",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/README.md | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "2d297a32ec8b1d8df2bd91c6d2b7a6509206176fcf6beca906671a83dde5c5ee",
+      "git_blob_sha256": "2d297a32ec8b1d8df2bd91c6d2b7a6509206176fcf6beca906671a83dde5c5ee",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/REVIEW_RECORD.md | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "a4b9b47fbbf1d4437ff07c4c8935d662dd1ca3abd8481df656b702030dd6f7fc",
+      "git_blob_sha256": "a4b9b47fbbf1d4437ff07c4c8935d662dd1ca3abd8481df656b702030dd6f7fc",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/SAVED_WITNESS_RECOMPUTATION.json | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "8259b4530dcb287187799c0b45318a0625506ea2f00bb8c785be0a52e5e69048",
+      "git_blob_sha256": "8259b4530dcb287187799c0b45318a0625506ea2f00bb8c785be0a52e5e69048",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/SOURCE_SHA256SUMS | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "93bf3313f81ffceb513cd8035776b8c9fc76348aacf672a1102940d619fbd3cf",
+      "git_blob_sha256": "93bf3313f81ffceb513cd8035776b8c9fc76348aacf672a1102940d619fbd3cf",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/WITNESS_INPUTS.json | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "0ef583c73022505e021993013be375f210a7ac97684395e1eabd4d86dff51794",
+      "git_blob_sha256": "0ef583c73022505e021993013be375f210a7ac97684395e1eabd4d86dff51794",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/WORK_ORDER.md | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "b0ef5abd02c7b7d1cf3532d444855ca52b0bd21bcffd35d8cd75a6376e6e40fa",
+      "git_blob_sha256": "b0ef5abd02c7b7d1cf3532d444855ca52b0bd21bcffd35d8cd75a6376e6e40fa",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "51a56695dc316b1e0d381204b0537745dcc37a969aa0e932bffe00dedcafe507",
+      "git_blob_sha256": "51a56695dc316b1e0d381204b0537745dcc37a969aa0e932bffe00dedcafe507",
+      "matches": true
+    },
+    {
+      "command": "set -o pipefail\n git show a4525d2176b0f6dbacf71830bab44f8c34e24627:udt_g352_conserved_current_representation_candidate_2026-09-06/recompute_saved_witness.py | sha256sum",
+      "exit_code": 0,
+      "expected_sha256": "95347709258aab915207622ace588a47149410a848116c1cfdd39608c26aade0",
+      "git_blob_sha256": "95347709258aab915207622ace588a47149410a848116c1cfdd39608c26aade0",
+      "matches": true
+    }
+  ],
+  "checks": [
+    {
+      "command": "sha256sum -c udt_g352_conserved_current_representation_candidate_2026-09-06/ARTIFACT_SHA256SUMS",
+      "chunk_id": "6d058a",
+      "wall_time_seconds": 0.000002352,
+      "exit_code": 0,
+      "original_token_count": 264,
+      "output": "udt_g352_conserved_current_representation_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/CHECK_RESULTS.json: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/ORIGINAL_UNRELATED_STATUS.txt: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/README.md: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/REVIEW_RECORD.md: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/SAVED_WITNESS_RECOMPUTATION.json: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/SOURCE_SHA256SUMS: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/WITNESS_INPUTS.json: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/WORK_ORDER.md: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py: OK\nudt_g352_conserved_current_representation_candidate_2026-09-06/recompute_saved_witness.py: OK\n"
+    },
+    {
+      "command": "sha256sum -c udt_g352_conserved_current_representation_candidate_2026-09-06/SOURCE_SHA256SUMS",
+      "chunk_id": "814257",
+      "wall_time_seconds": 0.000002548,
+      "exit_code": 0,
+      "original_token_count": 254,
+      "output": "AGENTS.md: OK\nCLAUDE.md: OK\nCROSS_MODEL_VERIFY.md: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nverify_current_scientific_premises.py: OK\n.claude/skills/completeness-map/SKILL.md: OK\n.claude/skills/no-shortcuts/SKILL.md: OK\n.claude/skills/solution-space-not-imposition/SKILL.md: OK\n.claude/skills/verifier-before-record/SKILL.md: OK\nudt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md: OK\nudt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/review_2026-09-06/REVIEW_SUMMARY.md: OK\n"
+    },
+    {
+      "command": "git diff --name-only a4525d2176b0f6dbacf71830bab44f8c34e24627 -- udt_g352_conserved_current_representation_candidate_2026-09-06",
+      "chunk_id": "2c206d",
+      "wall_time_seconds": 0.000002543,
+      "exit_code": 0,
+      "original_token_count": 59,
+      "output": "udt_g352_conserved_current_representation_candidate_2026-09-06/ARTIFACT_SHA256SUMS\nudt_g352_conserved_current_representation_candidate_2026-09-06/README.md\nudt_g352_conserved_current_representation_candidate_2026-09-06/REVIEW_RECORD.md\n"
+    },
+    {
+      "command": "git diff --quiet 3a31db478b094efc9bce5291349b552aed95059c -- . ':(exclude)udt_g352_conserved_current_representation_candidate_2026-09-06/**'",
+      "chunk_id": "1033f3",
+      "wall_time_seconds": 0.000001771,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "command": "git diff --check",
+      "chunk_id": "df57b9",
+      "wall_time_seconds": 0.000002091,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "command": "git rev-parse HEAD origin/grok",
+      "chunk_id": "01b8f3",
+      "wall_time_seconds": 0.000002763,
+      "exit_code": 0,
+      "original_token_count": 21,
+      "output": "a4525d2176b0f6dbacf71830bab44f8c34e24627\na4525d2176b0f6dbacf71830bab44f8c34e24627\n"
+    }
+  ],
+  "unrelated_status_byte_identical": true,
+  "original_unrelated_entries": 46
+}

@@ -1,6 +1,9 @@
 # Review and exposure record
 
-Initial state: construction checkpoint; separate-context review IN PROGRESS.
+Current state: VERIFIED-WITH-CAVEATS; UNPROMOTED CONDITIONAL CANDIDATE.
+Separate-context review COMPLETE; no substantive mathematical defect, unresolved
+objection, or required same-premise candidate repair. The initial pre-review
+version remains frozen at a4525d2176b0f6dbacf71830bab44f8c34e24627.
 This file is the maintained review record, not a scientific status registry.
 
 Author context: current parent session. Exact backend model UNKNOWN from exposed
@@ -38,7 +41,37 @@ separate context, different model and physical confirmation remain distinct.
 Different-model review is UNTESTED. Model identity is UNKNOWN unless the reviewer
 has reliable exposed runtime evidence, not inferred from configured preference.
 
-Pending: pin direct-review candidate commit/files; preserve Stage A/source hashes,
-Stage B verdict, actual replays and independent recomputation, objections, repair
-history if any, omitted checks, premise audit and closure/preservation evidence.
+## Completed direct review and closure
+
+Direct-review target: a4525d2176b0f6dbacf71830bab44f8c34e24627. Stage B was disclosed
+only after this commit; all13 frozen candidate files and all20 source-manifest
+entries were authenticated. The reviewer report is preserved byte-identically in
+review_2026-09-06/STAGE_B_REVIEW.md, SHA256
+75a6f69795cff56696ff5e01a3fc0ec81d5fe82ff82c221e63a48d1b4e165ad9.
+
+It verified the general argument and exact smooth aligned-current converse,
+replayed43 baseline assertions and all6 intended code-mutant failures, and
+independently reconstructed the endpoint map, area and exterior-product readout.
+It reproduced the saved2/25 ratio and an additional non-axial observer witness.
+The parent replayed the latter script as regression, not another independent
+review. The natural source-first flowbox argument overlaps the candidate route;
+different-proof and different-model independence are not claimed.
+
+No candidate repair was needed; the authorized same-premise repair allowance was
+unused. The original argument/code/inputs/results/premise ledger remain frozen.
+The parent wrong-cwd manifest invocation and correct-cwd all9-file check are
+preserved in PARENT_MANIFEST_DIAGNOSTIC_AND_REPLAY.json. That invocation defect
+did not require scientific repair or altered reviewer bytes.
+
+The parent closure premise audit passed335 rows, exit0 with empty stderr;12
+focused existing repository policy/startup tests passed. The reviewer did not
+independently rerun the premise audit or accepted-source production suites.
+No full-repository/empirical/global check, human specialist review, or measured
+peak-memory certification is claimed. Exact model UNKNOWN, different-model
+UNTESTED. Smooth compatible identification and local positive area are retained
+conditions; singular/global current extensions and physical realization stay open.
+
+All10 reviewer artifacts are archived identically with a correspondence ledger;
+initial13-file candidate hashes and live closure hashes remain distinct. See
+review_2026-09-06/REVIEW_SUMMARY.md for current limits and the authorized return.
 No acceptance, grade change, premise adoption, manuscript change or canon follows.

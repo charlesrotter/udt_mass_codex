@@ -1,0 +1,8 @@
+{
+  "command": "timeout 60s python3 /tmp/udt-current-review-MVXr11/independent_map_witness.py",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "exit_code": 0,
+  "stdout": "{\n  \"method\": \"full map differentiation plus explicit exterior product\",\n  \"input_source\": \"authenticated WITNESS_INPUTS.json, constants transcribed\",\n  \"saved_witness_reconstruction\": [\n    {\n      \"cut_radius_at_point\": \"2\",\n      \"source_area\": \"4\",\n      \"cut_area\": \"16\",\n      \"omega\": \"1\",\n      \"rho\": \"7/30\",\n      \"gamma_contraction\": \"7/30\",\n      \"gamma_wedge\": \"7/30\",\n      \"absolute_time_screen_form\": \"56/15\"\n    },\n    {\n      \"cut_radius_at_point\": \"5\",\n      \"source_area\": \"4\",\n      \"cut_area\": \"100\",\n      \"omega\": \"1/2\",\n      \"rho\": \"14/375\",\n      \"gamma_contraction\": \"7/375\",\n      \"gamma_wedge\": \"7/375\",\n      \"absolute_time_screen_form\": \"28/15\"\n    }\n  ],\n  \"ratio\": \"2/25\",\n  \"additional_off_origin_transverse_observer\": {\n    \"cut_radius_at_point\": \"944/315\",\n    \"source_area\": \"50625/20449\",\n    \"cut_area\": \"22278400/1002001\",\n    \"omega\": \"245/286\",\n    \"rho\": \"46305/445568\",\n    \"gamma_contraction\": \"11344725/127432448\",\n    \"gamma_wedge\": \"11344725/127432448\",\n    \"absolute_time_screen_form\": \"5788125/2924207\"\n  },\n  \"all_checks_passed\": true\n}\n",
+  "stderr": "",
+  "wall_time_seconds": 0.073713549
+}

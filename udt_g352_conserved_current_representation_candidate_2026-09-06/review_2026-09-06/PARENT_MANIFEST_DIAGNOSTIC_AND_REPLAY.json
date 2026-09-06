@@ -1,0 +1,46 @@
+{
+  "initial_issue": "Initial combined inspection invoked the relative reviewer manifest from repository root and failed to open nine relative filenames; no content mismatch established. This record preserves a separate-stream reproduction, correct-cwd verification, and reviewer-code replay.",
+  "records": [
+    {
+      "command": [
+        "sha256sum",
+        "-c",
+        "/tmp/udt-current-review-MVXr11/REVIEW_SHA256SUMS"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T18:16:35.653117+00:00",
+      "elapsed_seconds": 0.0019923799991374835,
+      "returncode": 1,
+      "stdout": "SOURCE_SHA256.tsv: FAILED open or read\nSTAGE_A_CHECK_RESULT.json: FAILED open or read\nSTAGE_A_SOURCE_FIRST.md: FAILED open or read\nSTAGE_B_INDEPENDENT_RESULT.json: FAILED open or read\nSTAGE_B_REPLAY.json: FAILED open or read\nSTAGE_B_REVIEW.md: FAILED open or read\nindependent_map_witness.py: FAILED open or read\nreplay_frozen.py: FAILED open or read\nsource_first_checks.py: FAILED open or read\n",
+      "stderr": "sha256sum: SOURCE_SHA256.tsv: No such file or directory\nsha256sum: STAGE_A_CHECK_RESULT.json: No such file or directory\nsha256sum: STAGE_A_SOURCE_FIRST.md: No such file or directory\nsha256sum: STAGE_B_INDEPENDENT_RESULT.json: No such file or directory\nsha256sum: STAGE_B_REPLAY.json: No such file or directory\nsha256sum: STAGE_B_REVIEW.md: No such file or directory\nsha256sum: independent_map_witness.py: No such file or directory\nsha256sum: replay_frozen.py: No such file or directory\nsha256sum: source_first_checks.py: No such file or directory\nsha256sum: WARNING: 9 listed files could not be read\n",
+      "purpose": "Reproduce parent wrong-cwd invocation; expected failure opening relative filenames"
+    },
+    {
+      "command": [
+        "sha256sum",
+        "-c",
+        "REVIEW_SHA256SUMS"
+      ],
+      "cwd": "/tmp/udt-current-review-MVXr11",
+      "start_utc": "2026-09-06T18:16:35.727645+00:00",
+      "elapsed_seconds": 0.002157050999812782,
+      "returncode": 0,
+      "stdout": "SOURCE_SHA256.tsv: OK\nSTAGE_A_CHECK_RESULT.json: OK\nSTAGE_A_SOURCE_FIRST.md: OK\nSTAGE_B_INDEPENDENT_RESULT.json: OK\nSTAGE_B_REPLAY.json: OK\nSTAGE_B_REVIEW.md: OK\nindependent_map_witness.py: OK\nreplay_frozen.py: OK\nsource_first_checks.py: OK\n",
+      "stderr": "",
+      "purpose": "Correct manifest-base invocation; expected all9 matches"
+    },
+    {
+      "command": [
+        "python3",
+        "/tmp/udt-current-review-MVXr11/independent_map_witness.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T18:16:35.799301+00:00",
+      "elapsed_seconds": 0.20087341299949912,
+      "returncode": 0,
+      "stdout": "{\n  \"method\": \"full map differentiation plus explicit exterior product\",\n  \"input_source\": \"authenticated WITNESS_INPUTS.json, constants transcribed\",\n  \"saved_witness_reconstruction\": [\n    {\n      \"cut_radius_at_point\": \"2\",\n      \"source_area\": \"4\",\n      \"cut_area\": \"16\",\n      \"omega\": \"1\",\n      \"rho\": \"7/30\",\n      \"gamma_contraction\": \"7/30\",\n      \"gamma_wedge\": \"7/30\",\n      \"absolute_time_screen_form\": \"56/15\"\n    },\n    {\n      \"cut_radius_at_point\": \"5\",\n      \"source_area\": \"4\",\n      \"cut_area\": \"100\",\n      \"omega\": \"1/2\",\n      \"rho\": \"14/375\",\n      \"gamma_contraction\": \"7/375\",\n      \"gamma_wedge\": \"7/375\",\n      \"absolute_time_screen_form\": \"28/15\"\n    }\n  ],\n  \"ratio\": \"2/25\",\n  \"additional_off_origin_transverse_observer\": {\n    \"cut_radius_at_point\": \"944/315\",\n    \"source_area\": \"50625/20449\",\n    \"cut_area\": \"22278400/1002001\",\n    \"omega\": \"245/286\",\n    \"rho\": \"46305/445568\",\n    \"gamma_contraction\": \"11344725/127432448\",\n    \"gamma_wedge\": \"11344725/127432448\",\n    \"absolute_time_screen_form\": \"5788125/2924207\"\n  },\n  \"all_checks_passed\": true\n}\n",
+      "stderr": "",
+      "purpose": "Parent replay of independent reviewer witness; not another independent review"
+    }
+  ]
+}

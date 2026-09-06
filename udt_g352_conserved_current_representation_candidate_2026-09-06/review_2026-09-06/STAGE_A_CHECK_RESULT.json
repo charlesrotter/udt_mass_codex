@@ -1,0 +1,7 @@
+{
+  "command": "timeout 60s python3 /tmp/udt-current-review-MVXr11/source_first_checks.py",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "{\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"evidence_type\": \"exact_symbolic_regression_not_general_proof\",\n  \"checks\": {\n    \"generic_volume_screen_determinant\": true,\n    \"exact_gradient_is_ray_coordinate_vector\": true,\n    \"variable_cut_gradient_cancels\": true,\n    \"phase_dependent_conserved_data\": true,\n    \"phase_dependent_not_fixed_product\": true,\n    \"minkowski_counterexample_divergence\": true,\n    \"minkowski_counterexample_phase_values_differ\": true,\n    \"affine_phase_normalization\": true,\n    \"zero_density_no_division_by_content\": true,\n    \"passive_relabel_density_ratio_invariant\": true,\n    \"passive_density_looks_phase_dependent\": true\n  },\n  \"passed\": 11,\n  \"total\": 11,\n  \"all_passed\": true\n}\n"
+}

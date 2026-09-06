@@ -1,11 +1,14 @@
 # Decision brief — conserved-current representation candidate
 
-Date: 2026-09-06. Initial status: UNREVIEWED, UNPROMOTED CONDITIONAL CANDIDATE.
+Date: 2026-09-06. Current status: VERIFIED-WITH-CAVEATS, UNPROMOTED CONDITIONAL CANDIDATE.
 Accepted-source snapshot: `3a31db478b094efc9bce5291349b552aed95059c`.
-The approved work order includes separate-context review and one bounded repair
-cycle. This initial checkpoint is recoverable evidence, not scientific acceptance.
+Fresh separate-context review of frozen candidate `a4525d21` found no substantive
+mathematical defect or required repair. See the
+[review summary](review_2026-09-06/REVIEW_SUMMARY.md). The authorized verification
+cycle is complete. This remains recoverable candidate evidence, not scientific
+promotion or an accepted dependency; original construction files remain frozen.
 
-## What the argument proposes
+## What the reviewed argument establishes conditionally
 
 The supplied smooth G352 product has a local covariant current representation:
 
@@ -27,10 +30,10 @@ the further condition F=s(lambda)/DeltaTheta, relative to its fixed phase and
 cross-phase identification. That condition is already a supplied realization
 choice, not newly adopted by this candidate.
 
-In plain language: this route would connect the existing measure/readout to a
-spacetime current without adding a physical equation. It would not explain what
-is carried or how much. Failure of a proposed uniqueness-from-metric claim here
-would not exclude every metric-native realization route.
+In plain language: this route connects the supplied smooth measure/readout to a
+spacetime current without adding a physical equation. It does not explain what
+is carried or how much. The remaining data freedom defeats selection by this
+representation alone, not every conceivable metric-native realization route.
 
 ## Ownership and limits
 
@@ -58,16 +61,23 @@ label Jacobian. CHECK_RESULTS.json preserves actual child exits and both streams
 No capture-wrapper exit is used as a test verdict.
 
 A stdlib-only rational recomputation from saved inputs agrees on two cut areas
-16 and 100, frequencies 1 and 1/2, absolute readouts 7/30 and 7/375, and ratio2/25.
+16 and 100, frequencies 1 and 1/2, absolute readouts 7/30 and 7/375, and ratio 2/25.
 It uses a separate implementation but the SAME author/context, not independent
-review. The fresh reviewer first reconstructs from accepted sources without this
-argument/code/results, then directly challenges the frozen candidate.
+review. The fresh reviewer first reconstructed from accepted sources without
+this argument/code/results, then directly challenged the frozen candidate. Its
+independently implemented full-map differentiation and exterior-product check
+also reproduced the readouts, including an off-origin transverse-observer control.
 
 No accepted-source full production suites or empirical/global tests are claimed.
 The parent ran the existing 335-row premise verifier successfully during
-construction; exact closure capture will accompany the completed review record.
-The original candidate must be frozen before direct review; failures and repairs
-remain in the review history.
+construction and at closure; exact streams accompany the completed review record.
+Twelve existing focused policy/startup tests passed. The original 13-file candidate
+was frozen before direct review. No scientific repair was needed; an incorrect
+working-directory manifest invocation and its correct-directory verification are
+retained as operational history. The review found no required unresolved repair.
+Exact reviewer model is UNKNOWN; different-model review is UNTESTED. These claims
+remain local, smooth and conditional; integrated rates still require the accepted
+frequency-integrability condition when asserted.
 
 No accepted scientific grades, sources, LIVE, manuscript or CANON were changed.
 The completed infrastructure audit and fixed-snapshot manuscript remain separate
