@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "udt_g352_conserved_current_representation_candidate_2026-09-06/recompute_saved_witness.py"
+  ],
+  "start_utc": "2026-09-06T18:07:49.395423+00:00",
+  "elapsed_seconds": 0.014287895000961726,
+  "returncode": 0,
+  "stdout": "{\n  \"kind\": \"same-context stdlib rational saved-input recomputation\",\n  \"cut_witness\": [\n    {\n      \"area\": \"16\",\n      \"omega\": \"1\",\n      \"rho\": \"7/30\",\n      \"gamma\": \"7/30\"\n    },\n    {\n      \"area\": \"100\",\n      \"omega\": \"1/2\",\n      \"rho\": \"14/375\",\n      \"gamma\": \"7/375\"\n    }\n  ],\n  \"ratio\": \"2/25\",\n  \"matches_saved\": true\n}\n",
+  "stderr": ""
+}

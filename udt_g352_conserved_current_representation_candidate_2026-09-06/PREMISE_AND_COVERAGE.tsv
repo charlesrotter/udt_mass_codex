@@ -1,0 +1,17 @@
+id	role	owner_or_status	scope	limit_or_open
+G349	dependency_geometry	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED	EXACT_DERIVATION sections1-2 null quotient and variable-cut Gram cancellation	general phase-patch identity rederived here; no global cone theorem extended
+G351	dependency_premise_and_density	OWNER_ADOPTED_PROVISIONAL_PREMISE; accepted conditional consequence	EXACT_DERIVATION sections2-3 same supplied finite measure; smooth regular part s/J	s, population and sources not selected; singular measure outside this candidate
+G352	dependency_readout	OWNER_ADOPTED_PROVISIONAL_PREMISE; accepted conditional consequence	EXACT_DERIVATION sections1-4 Gamma=omega*s/(DeltaTheta*J)	physical identity, atomic counting, detector, energy and calibration open
+G352_PRODUCT	chosen_realization	CHOSEN_AND_SUPPLIED_NOT_DERIVED	continuous |dTheta|, common fixed spacing, same mu and fixed cross-phase label identification	divergence-free current not assumed to imply factorization
+G352_PHASE	conditional_input	SUPPLIED	arbitrary smooth nonzero future exact null gradient in a regular local patch	no physical phase selected or derived
+NC_REVIEW	context_only_not_dependency	VERIFIED_WITH_CAVEATS_UNPROMOTED_CANDIDATE	normalized-cone review at3a31db4; no theorem from it used as accepted input	no promotion or global phase extension inferred
+FLOW_BOX	mathematical_method	FREE_AND_EXPLORED	local product I_r x I_theta x V; connected flow intervals; k=partial_r	no physical preferred slice, affine boundary, or populated family selected
+SMOOTH_CLASS	declared_restriction	FREE_AND_EXPLORED	smooth nonnegative s and rho, positive smooth J, finite retained label measure	no ordinary-density claim for singular/atomic/caustic content
+ORIENTATION	proof_convention	FREE_AND_EXPLORED	local form representative paired with volume orientation; underlying nonnegative density	no spacetime orientability premise or signed physical content
+CURRENT	candidate_representation	UNPROMOTED_CONDITIONAL_CANDIDATE	C defined by contraction of metric volume with supplied quotient3form	no independent physical current field or conservation law adopted
+CONVERSE	candidate_classification	UNPROMOTED_CONDITIONAL_CANDIDATE	all smooth nonnegative aligned currents on fixed flow box; Jrho=F(theta,y)	not all possible physical carriers or global realizations
+PRODUCT_TEST	candidate_restriction	UNPROMOTED_CONDITIONAL_CANDIDATE	F=s(y)/DeltaTheta in fixed phase and fixed identification	passive phase-dependent relabeling handled by transforming identification
+READOUT_TEST	candidate_identity	UNPROMOTED_CONDITIONAL_CANDIDATE	-G(u,C)=Gamma at supplied local observers; ratios only on nonzero support	no detector worldtube or global interception law
+WITNESSES	finite_checks	FREE_AND_EXPLORED_EXACT_REGRESSION	flat, expanding-area, shifted coordinate, zero and nonconserved controls	no typicality, numerical PDE solution, completeness from checks, or physical profile
+PREMISE_AUDIT	control_not_dependency	REPOSITORY_CHECK	335-row current scientific registry audit	verifier and method prose do not supply scientific premises
+PRESERVATION	operational_limit	UNVERIFIED_BACKUP_AND_UNSAVED_STATE	46 unrelated status entries untouched; no protected payload inspection	ScratchDisk only blocks archive-dependent tasks

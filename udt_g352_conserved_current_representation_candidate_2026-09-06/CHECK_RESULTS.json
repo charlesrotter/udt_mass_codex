@@ -1,0 +1,115 @@
+{
+  "capture_contract": "Child exits/stdout/stderr are evidence; wrapper exit alone is not a test verdict.",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py"
+      ],
+      "start_utc": "2026-09-06T18:06:05.891806+00:00",
+      "elapsed_seconds": 0.2999198969991994,
+      "returncode": 0,
+      "stdout": "{\n  \"kind\": \"exact finite regression, not analytic proof\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"mutation\": null,\n  \"passed\": 43,\n  \"checks\": [\n    \"general_volume_screen_determinant\",\n    \"full_gradient_matching\",\n    \"null_norm\",\n    \"variable_cut_gram_0_0\",\n    \"variable_cut_gram_0_1\",\n    \"variable_cut_gram_1_0\",\n    \"variable_cut_gram_1_1\",\n    \"expanding_density_value\",\n    \"expanding_current_conserved\",\n    \"nonconserved_control_detected\",\n    \"zero_content\",\n    \"phase_dependent_current_conserved\",\n    \"phase_dependence_not_product\",\n    \"same_mu_is_product\",\n    \"correlation_mixed_log_derivative\",\n    \"varying_total_mass\",\n    \"varying_total_mass_derivative\",\n    \"initial_data_transport\",\n    \"cartesian_radial_null\",\n    \"cartesian_radial_conservation\",\n    \"cartesian_nonconserved_control\",\n    \"label_density_jacobian\",\n    \"label_ratio_invariant\",\n    \"passive_coefficient_can_vary\",\n    \"passive_full_domain_total\",\n    \"affine_current_invariant\",\n    \"nonlinear_current_changes\",\n    \"nonlinear_current_still_conserved\",\n    \"cut_0_observer_unit\",\n    \"cut_0_full_area\",\n    \"cut_0_clock_rate\",\n    \"cut_0_rest_screen_0\",\n    \"cut_0_rest_screen_1\",\n    \"cut_0_rest_screen_area\",\n    \"cut_0_time_screen_intensity\",\n    \"cut_1_observer_unit\",\n    \"cut_1_full_area\",\n    \"cut_1_clock_rate\",\n    \"cut_1_rest_screen_0\",\n    \"cut_1_rest_screen_1\",\n    \"cut_1_rest_screen_area\",\n    \"cut_1_time_screen_intensity\",\n    \"nonzero_two_cut_ratio\"\n  ],\n  \"cut_witness\": [\n    {\n      \"area\": \"16\",\n      \"omega\": \"1\",\n      \"rho\": \"7/30\",\n      \"gamma\": \"7/30\",\n      \"absolute_form_on_time_screen\": \"56/15\"\n    },\n    {\n      \"area\": \"100\",\n      \"omega\": \"1/2\",\n      \"rho\": \"14/375\",\n      \"gamma\": \"7/375\",\n      \"absolute_form_on_time_screen\": \"28/15\"\n    }\n  ],\n  \"ratio\": \"2/25\"\n}\n",
+      "stderr": "",
+      "mutation": null,
+      "expected_guard": null,
+      "expected_outcome_observed": true
+    },
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "omit_area"
+      ],
+      "start_utc": "2026-09-06T18:06:06.243959+00:00",
+      "elapsed_seconds": 0.24813073699988308,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 89, in <module>\n    eq('expanding_density_value', rho, 3/(2*r*r))\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 24, in eq\n    assert S.simplify(actual - expected) == 0, name\nAssertionError: expanding_density_value\n",
+      "mutation": "omit_area",
+      "expected_guard": "expanding_density_value",
+      "expected_outcome_observed": true
+    },
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "coordinate_divergence"
+      ],
+      "start_utc": "2026-09-06T18:06:06.538071+00:00",
+      "elapsed_seconds": 0.2318814240006759,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 90, in <module>\n    eq('expanding_current_conserved', divergence(g_exp, rho*k, coords), 0)\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 24, in eq\n    assert S.simplify(actual - expected) == 0, name\nAssertionError: expanding_current_conserved\n",
+      "mutation": "coordinate_divergence",
+      "expected_guard": "expanding_current_conserved",
+      "expected_outcome_observed": true
+    },
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "divergence_zero"
+      ],
+      "start_utc": "2026-09-06T18:06:06.820662+00:00",
+      "elapsed_seconds": 0.22873647200140113,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 91, in <module>\n    eq('nonconserved_control_detected', divergence(g_exp, k, coords), 2/r)\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 24, in eq\n    assert S.simplify(actual - expected) == 0, name\nAssertionError: nonconserved_control_detected\n",
+      "mutation": "divergence_zero",
+      "expected_guard": "nonconserved_control_detected",
+      "expected_outcome_observed": true
+    },
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "all_products"
+      ],
+      "start_utc": "2026-09-06T18:06:07.097059+00:00",
+      "elapsed_seconds": 0.23710813899924688,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 95, in <module>\n    truth('phase_dependence_not_product', not product_compatible(F, theta))\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 29, in truth\n    assert bool(statement), name\nAssertionError: phase_dependence_not_product\n",
+      "mutation": "all_products",
+      "expected_guard": "phase_dependence_not_product",
+      "expected_outcome_observed": true
+    },
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "omit_frequency"
+      ],
+      "start_utc": "2026-09-06T18:06:07.381078+00:00",
+      "elapsed_seconds": 0.3176817570001731,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 157, in <module>\n    eq(f'cut_{i}_clock_rate', gamma,\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 24, in eq\n    assert S.simplify(actual - expected) == 0, name\nAssertionError: cut_1_clock_rate\n",
+      "mutation": "omit_frequency",
+      "expected_guard": "cut_1_clock_rate",
+      "expected_outcome_observed": true
+    },
+    {
+      "command": [
+        "python3",
+        "udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "omit_label_jacobian"
+      ],
+      "start_utc": "2026-09-06T18:06:07.745850+00:00",
+      "elapsed_seconds": 0.30397879799966177,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 125, in <module>\n    eq('label_density_jacobian', newF, (2+xp/(1+theta))/(1+theta))\n  File \"/home/udt-admin/udt_mass_codex/udt_g352_conserved_current_representation_candidate_2026-09-06/check_exact.py\", line 24, in eq\n    assert S.simplify(actual - expected) == 0, name\nAssertionError: label_density_jacobian\n",
+      "mutation": "omit_label_jacobian",
+      "expected_guard": "label_density_jacobian",
+      "expected_outcome_observed": true
+    }
+  ]
+}
