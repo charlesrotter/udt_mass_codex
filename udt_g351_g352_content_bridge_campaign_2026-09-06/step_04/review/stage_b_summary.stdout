@@ -1,0 +1,36 @@
+{
+  "author_baseline_groups": 25,
+  "baseline_byte_identical": true,
+  "changed_maintained_sources": [
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md"
+  ],
+  "mutants": [
+    {
+      "mutation": "old_root_as_phase",
+      "observed_first_guard": "new_full_phase_is_closed",
+      "returncode": 1
+    },
+    {
+      "mutation": "omit_polar_J",
+      "observed_first_guard": "intrinsic_polar_cut_area",
+      "returncode": 1
+    },
+    {
+      "mutation": "omit_conversion_q",
+      "observed_first_guard": "finite_dimensionless_label_amount",
+      "returncode": 1
+    },
+    {
+      "mutation": "phase_measure_rebuild_gauge",
+      "observed_first_guard": "fixed_measure_phase_spacing_gauge",
+      "returncode": 1
+    },
+    {
+      "mutation": "phase_blind_product",
+      "observed_first_guard": "nonseparable_product_discriminator",
+      "returncode": 1
+    }
+  ],
+  "stage_a_source_count": 27,
+  "unchanged_nonmaintenance_source_hashes": true
+}

@@ -1,0 +1,11 @@
+fatal: packfile .git/objects/pack/pack-53c0fbf0a98f5e7a80c240d452d1b245a22260e1.pack cannot be mapped, check sys.vm.max_map_count and/or RLIMIT_DATA: Cannot allocate memory
+Traceback (most recent call last):
+  File "/tmp/udt_step03_closure_z8NG5Z/check_closure.py", line 27, in <module>
+    pinned=git('show',pin+':'+prefix+name)
+  File "/tmp/udt_step03_closure_z8NG5Z/check_closure.py", line 9, in <lambda>
+    git=lambda *args:subprocess.check_output(['git',*args],cwd=repo)
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'show', '6a3755bb2b059a30c004ee3c246dd36043f5c8aa:udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/premise_audit.stderr']' returned non-zero exit status 128.

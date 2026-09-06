@@ -1,0 +1,18 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--exit-code",
+    "7cd79a6696a4215aabda484d52f3ae385beb094d",
+    "--",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T20:40:34.704840+00:00",
+  "duration_seconds": 0.005789763999928255,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13248
+}

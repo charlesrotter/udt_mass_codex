@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py", line 35, in <module>
+    eq('new_full_phase_is_closed',dk,S.zeros(4))
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py", line 25, in eq
+    if isinstance(a,S.MatrixBase): assert (a-b).applyfunc(S.simplify)==S.zeros(*a.shape),name
+AssertionError: new_full_phase_is_closed

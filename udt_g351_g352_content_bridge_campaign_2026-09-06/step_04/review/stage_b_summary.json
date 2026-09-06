@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/tmp/udt_step04_review_cNgF3A/summarize_stage_b.py",
+    "--repo",
+    "/home/udt-admin/udt_mass_codex"
+  ],
+  "cwd": "/tmp/udt_step04_review_cNgF3A",
+  "started_utc": "2026-09-06T20:42:07.154478+00:00",
+  "duration_seconds": 0.020670238001912367,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15624
+}

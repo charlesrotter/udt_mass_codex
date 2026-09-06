@@ -1,0 +1,73 @@
+{
+  "annular_mu_total": "1",
+  "checks": [
+    "determinant",
+    "full_raised_phase",
+    "null_phase",
+    "observer_unit",
+    "frequency",
+    "full_cut_gram",
+    "screen_observer_orthogonal",
+    "screen_gram",
+    "geometric_current_rate",
+    "product_rate",
+    "divergence",
+    "homothety_rate",
+    "homothety_current_volume",
+    "harmonic_13",
+    "cubic_N",
+    "cubic_q",
+    "cubic_w_fourth",
+    "cubic_stationarity",
+    "harmonic_18",
+    "mixture_N",
+    "mixture_q",
+    "mixture_w_fourth",
+    "mixed_log_u_at_zero",
+    "mixed_log_ux_at_zero",
+    "mixture_nonzero_product_minor",
+    "finite_annular_label_amount",
+    "point_rate_1",
+    "point_rate_4",
+    "separable_mixed_log",
+    "nonseparable_mixed_log",
+    "phase_spacing_gauge",
+    "fixed_amount_compensated_factorization",
+    "changed_spacing_compensated_factorization"
+  ],
+  "guard_groups": 33,
+  "negative_fourth_minor": "3734393/150994944",
+  "negative_fourth_values": {
+    "(0, 1)": "9/64",
+    "(0, 2)": "9/4096",
+    "(1/4, 1)": "256/81",
+    "(1/4, 2)": "59049/262144"
+  },
+  "negative_log_ux_at_u0": "5",
+  "points": [
+    {
+      "Gamma": "sqrt(6)/8",
+      "Uu": "1/2",
+      "b": "sqrt(6)",
+      "omega": "sqrt(6)/2",
+      "q": "1/4",
+      "s": "1/2",
+      "w": "sqrt(6)/4",
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "Gamma": "3*sqrt(6)/64",
+      "Uu": "3/2",
+      "b": "2*sqrt(6)",
+      "omega": "3*sqrt(6)/2",
+      "q": "1/64",
+      "s": "1/16",
+      "w": "sqrt(6)/32",
+      "x": "4",
+      "y": "0"
+    }
+  ],
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.preloadindex=false",
+    "-c",
+    "index.threads=1",
+    "status",
+    "--short",
+    "--branch"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T20:43:15.727978+00:00",
+  "duration_seconds": 0.03636236499733059,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12480
+}

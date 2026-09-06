@@ -1,134 +1,114 @@
 # Carried-content bridge campaign — compact maintained log
 
-Status: ACTIVE. Nothing in this campaign is accepted science by being saved.
-Authorization: Charles's 2026-09-06 bounded campaign, up to FIVE substantive
-reviewed steps OR SIX hours total, whichever occurs first. Start19:27:27 UTC;
-hard return/checkpoint by2026-09-07 01:27:27 UTC. Fewer useful steps are allowed.
-Starting HEAD and origin/grok: c19b5fb147d6afbfd91ec248b0693dfc834ce220.
-Tracked clean;46 unrelated untracked entries retained without payload inspection.
+Status: RESEARCH CLOSED AT DECISION GATE; evidence handoff in progress.
+Nothing here becomes accepted science by being saved or reviewed.
+Authorization: up to FIVE substantive reviewed steps OR SIX hours total.
+Start2026-09-06 19:27:27 UTC; hard stop2026-09-07 01:27:27 UTC.
+Four steps reviewed by20:46 UTC; no fifth question opened. This is an early
+bounded return, not a runtime interruption or claim that physics is solved.
 
-## Question and operating plan
+## Scope and operating plan
 
-Investigate whether admitted UDT structures connect geometric phase/current
-constructions to G351/G352's requirements for carried content. Begin with the
-accepted-criterion/eligibility examination of the reviewed but UNPROMOTED
-curvature candidate at c19b5fb1. Distinguish mathematical compatibility,
-metric-covariant construction, physical identification, and scientific adoption.
-The chosen curvature recipe never becomes a physically adopted or metric-selected
-law through this campaign.
+Investigate whether admitted structures connect geometric phase/current
+constructions to G351/G352 carried content. Start with the actual c19b5fb1
+candidate, distinguish type compatibility from physical identification, choose
+later questions from reviewed findings, and stop at a meaningful decision gate.
+Each step's work order recorded question, premises, free/CHOSEN data, method,
+scope, discriminating outcomes, resources, maximum claim and stops BEFORE
+computation. Each candidate froze before direct fresh-context review; at most
+ONE same-premise repair/re-review was allowed. No unreviewed new result entered
+a downstream step. All results remain VERIFIED-WITH-CAVEATS, UNPROMOTED.
 
-Step1 is specified in step_01/WORK_ORDER.md. Subsequent questions are chosen
-ONLY from reviewed preceding findings and recorded before their execution.
-Possible directions are retained as options, not promised tasks: a surviving
-accepted bridge and its exact hypotheses; remaining geometric normalization or
-label-measure freedom; a useful obstruction or counterexample; or an early stop
-if progress would require a physical commitment. Do not manufacture five tasks
-or follow a failed route just to use the allowance.
+This is the ONE maintained campaign log. Step work orders, frozen arguments,
+source/premise maps, raw checks/reviews and manifests are evidence, not status
+competitors. Earlier detailed checkpoints remain in Git history.
 
-Before every step: record question/quantifier, sources and premise stamps,
-conditional candidate dependencies, choices, scope, discriminating outcomes,
-checks, budget, stops and maximum claim. Construct/check, freeze exact candidate
-bytes, obtain a FRESH separate-context adversarial review, and allow at most
-ONE same-premise repair with focused re-review for that step. No new
-load-bearing result enters downstream work before that review. A reviewed
-provisional result may be used ONLY with its assumptions/caveats and unpromoted
-status carried forward. Fresh context does not imply a different model.
+Repository-only analytic/source and small exact CPU work, Python3.10.12 /
+SymPy1.13.1. Mathematical children:512 MiB/60 seconds, one per context at a time.
+Separate premise-audit allowance900 seconds. No GPU, production solve, network
+research, disk repair/mount, worktree pruning or infrastructure refactor.
+No physical premise, accepted grade, central manuscript, LIVE/HANDOFF or CANON
+changes. The chosen curvature/recurrence recipes never became physical laws.
 
-Maintain this ONE compact campaign log; per-step work orders, candidates,
-commands/results, reviews and manifests are evidence, not competing status logs.
-Save checkpoints and logical commits/pushes on grok. A commit preserves, not
-accepts. Final return: reviewed promotion-ready conditional results or bounded
-negative findings, dependency/alternative/free-data account, and the exact owner
-decision. Promotion itself is excluded.
+## Actual start and preservation
 
-## Resource and preservation envelope
+Starting HEAD/origin grok: c19b5fb147d6afbfd91ec248b0693dfc834ce220.
+Startup synchronization/orientation completed, tracked clean,46 unrelated
+untracked entries preserved without payload inspection. Original candidate
+80-file membership,79 manifest payloads and controlling source hashes
+authenticated; existing portable comparison replay passed as same-code evidence.
+PRESERVATION_AND_SCOPE_AUDIT.json records the20:43 UTC check: no tracked changes
+outside this package, unchanged46 unrelated status entries, all8 source/freeze
+manifest checks passed. Metadata correspondence is not a protected-payload audit.
+Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED.
+ScratchDisk blocks archive-dependent tasks ONLY; this campaign did not need it.
+Completed infrastructure and fixed-snapshot manuscript are not this frontier.
 
-Repository-only analytic/source work and small CPU symbolic/rational checks.
-Measured Python3.10.12/SymPy1.13.1. No GPU, mesh, production solve, network
-research, archive payload, disk mounting/repair or infrastructure refactor.
-Target512 MiB per mathematical child;60-second mathematical child timeout,
-at most one such check per context and author plus one active reviewer.
-Full read-only premise audit has900-second timeout separately; never infer
-success from wrapper completion alone. No substantial resources may be added.
-Use existing sound utilities where applicable. Preserve stdout/stderr, commands,
-versions, exact inputs, unsuccessful candidates, review exposure and hashes.
-Archive membership checks must include ignored stdout files explicitly.
+## Reviewed step ledger
 
-Workspace: this new package and fresh bounded /tmp reviewer/check directories.
-Existing candidate packages and accepted sources are read-only dependencies.
-No accepted grades, central manuscript, LIVE/HANDOFF, physical premise or CANON
-changes. No protected local work is staged, modified, mined or cited. Backup
-completeness and pre-reboot unsaved-state disposition stay UNVERIFIED.
-ScratchDisk blocks archive-dependent tasks ONLY and is not required here.
-Completed infrastructure and fixed-snapshot manuscript do not resolve this frontier.
+| Step / frozen commit | Question and learning | Conditional scope / repairs |
+|---|---|---|
+| 1 / b5963bd6 | Accepted criterion? Original amount is mathematically eligible, but examined sources and inequivalent nonzero query measures leave physical identification open. | G351/G352 owner-provisional inputs, chosen product/recipe; source-bounded query, not coupled physical solutions;0/1. |
+| 2 / 9aa8dc44 | Can metric-only naturality select amount? Uniform shape survives with arbitrary coefficient; added globally finite R2 and weight-2 scalar targets have scoped obstructions. | Explicit optional naturality/domain/weight class, NOT physical premises or G351 global-finiteness requirement;0/1. |
+| 3 / e6ec23ac | Is that obstruction special to constant A? Harmonic-wave fixed-root phase iff transverse quadratic+affine; obstruction extends there. Nonquadratic recurrence conversion can be positive but its root is not closed. | Smooth local connected nonzero-root harmonic class; chosen recipe; other phases remain possible;0/1. |
+| 4 / 7cd79a66 | Can another aligned phase realize the amount? Exact positive factorization criterion, finite dimensionless cubic realization, and conserved but nonfactorizing mixed-profile failure. | Fixed labels, positive smooth connected product, supplied phase/spacing/patch, chosen D; no physical identity;0/1. |
 
-Stop early for a necessary new physical commitment, unresolved load-bearing
-review disagreement, no useful in-scope continuation, or a genuine
-permission/safety/resource/access blocker. Stop at five reviewed substantive
-steps or six hours even if questions remain. If runtime interrupts work, mark
-INCOMPLETE and write an exact continuation checkpoint here; never claim completion.
+Adaptive sequence: Step1's freedom motivated Step2 naturality; its branch
+boundary motivated Step3 less-special geometry; the reviewed other-phase
+opening motivated Step4. No step was added merely to reach five.
 
-## Step ledger and current continuation point
+## Verification and preserved history
 
-| Step | Question | State | Reviewed dependency / repair use |
-|---|---|---|---|
-| 1 | Do accepted sources identify the curvature candidate's geometric amount as G351/G352 content, or only permit its mathematical type? | VERIFIED-WITH-CAVEATS, UNPROMOTED; b5963bd6 | c19b5fb1 candidate conditional only;0/1 repair |
-| 2 | What can a natural metric/phase-only amount rule select on this branch, and can it supply a dimensionless-count conversion? | VERIFIED-WITH-CAVEATS, UNPROMOTED;9aa8dc44 | Explicit naturality/global/weight hypotheses only;0/1 repair |
-| 3 | Can less special Ricci-flat wave geometry evade the obstruction while retaining the same recipe as a normalized phase? | VERIFIED-WITH-CAVEATS, UNPROMOTED;e6ec23ac | Harmonic local nonzero-root class, optional scalar conversion;0/1 repair |
-| 4 | Can a different aligned phase realize the positive geometric amount in G352, and what exactly makes its fixed-label product possible? | WORK ORDER RECORDED | Step1-3 conditional results;0/1 repair |
+Fresh reviewer contexts /root/content_campaign_step01_review through
+/root/content_campaign_step04_review each sealed source-first reconstruction
+then directly attacked the frozen argument and independently recomputed saved
+quantities. Exact model UNKNOWN; different-model/human-specialist axes UNTESTED.
+Parent received a preliminary Step1 source finding before its argument freeze
+(disclosed); later steps froze before any reviewer findings. Full StageA reports
+were read by parent after each author freeze. Direct stages were exposed reviews.
 
-Current checkpoint: startup orientation and synchronization completed; current
-candidate80-file membership and79 manifest payload hashes authenticated;
-accepted-source manifest unchanged. Full current335-row premise audit PASSED
-(actual child0,399.7813s); prior portable dependency replay PASSED (same-code).
-Step1 exact checks passed60 guard groups; five deliberate mutations failed at
-their intended guards. A pre-freeze reserved-word parser failure and its
-notation-only correction are preserved; no post-review repair used.
-Plan ac7e5699 and frozen Step1 b5963bd6 were committed and pushed.
-Fresh reviewer /root/content_campaign_step01_review froze its source-first
-Stage A before candidate exposure, then received Stage B at19:46 UTC.
-Parent read the full frozen Stage A report only after its own candidate freeze;
-earlier preliminary source-finding exposure is disclosed in the candidate.
-Step1 direct review read19:54 UTC: no required defect; independent Fraction
-recomputation in original coordinates matches all4 saved rows and full cut Gram;
-author baseline and all5 mutations independently replayed. No scientific repair.
-Learning: mathematical type eligibility survives, but the declared reduced query
-conditions and enumerated accepted sources do not identify physical content.
-This is not a coupled-physics countermodel or a universal impossibility theorem.
-Step2 chosen from that reviewed result: test what explicit geometry-only
-naturality can fix, without adopting it as a physical requirement. Its question,
-assumptions, discriminators and limits are recorded in step_02/WORK_ORDER.md.
-Step1's sealed55-file review archive and Step2 work order were committed/pushed
-at9fb783cb. Step2's exact full-matrix checks passed16 groups in two author runs;
-five deliberate mutations failed at their intended guards. No unexpected
-mathematical failure or author correction in Step2. Candidate/checks frozen and
-pushed at9aa8dc44 before any Step2 reviewer finding was received. Fresh reviewer
-/root/content_campaign_step02_review is independently reconstructing from the
-work order and sources; direct argument disclosure waits for its StageA seal.
-Step2 direct review read20:11 UTC: no required defect; independent full
-pullbacks/scaling, byte-identical baseline and all5mutants passed their stated
-checks.65-file review archive preserved; no scientific repair. Uniform shape
-does not select coefficient; globalfiniteR2 and scalar weight-2 obstructions
-retain their extra mathematical hypotheses, not physical requirements.
-Step3 tests whether less special geometry in the same vacuum equation changes
-that boundary while retaining the chosen normalized-phase recipe. Its question,
-assumptions and discriminators are recorded before computation. No unreviewed
-Step2 result was used; Step1 documentation closure also passed independently.
-Step3 work order/Step2 review preserved and pushed atc5d537b2. Step3 full
-curvature/dual/root and harmonic/gauge checks passed19groups; five deliberately
-broken variants failed at their intended guards. No unexpected author failure
-or correction. Candidate/checks frozen and pushed ate6ec23ac before the first
-Step3 reviewer finding. Fresh reviewer /root/content_campaign_step03_review
-sealed its source-first argument and has now received the candidate for direct
-review. Parent read the full StageA only after this freeze/disclosure. Reviewer
-also reports actual335-row premise replay PASS; its audit evidence is pending
-archive handoff and is a separate-context same-code check, not a new premise proof.
-Step3 direct report read20:28UTC; no required defect, full independent tensors/
-scalars and all5mutation catches matched.78-file review received; reviewer
-335-row audit actualPASS separately recorded, durationUNMEASURED. Carry its
-wording caveat: cubic bounded intervals are supplied u intervals, NOT a primitive
-of the nonclosed root. Closure/parallelism/conservation remain distinct.
-Step4 follows the reviewed other-phase opening: test the positive geometric
-amount with a different aligned phase, fixed labels and exact product criteria.
-Question/inputs/outcomes are recorded before computation; no physical recipe or
-content identification is adopted. Step2 documentation closure also passed.
+Author final guards by step:60,16,19,25. Each step's five actual deliberate
+mutants failed at intended first guards; reviewers replayed them. Counts are
+regression organization, not theorem or physical-evidence counts. Analytic
+arguments bear the quantifiers. Step3 additionally compared full connection,
+R/W/dual/B/Ricci arrays; Step4 independently recomputed amounts/rates and the
+negative derivative/cross-ratio. All direct verdicts: VERIFIED-WITH-CAVEATS.
+
+Parent335-row premise audit actual exit0,399.7813s. Step3 reviewer separately
+reran the same verifier: actual exit0/PASS, exact duration UNMEASURED. Neither
+check is a new scientific proof of all sources. Full historical suites,
+different-model/human review, observations and global physical solves omitted.
+
+Preserved diagnostics: Step1 author's pre-freeze reserved-word parser failure;
+reviewer pre-freeze symbolic-equality/syntax errors; packaging wrong-cwd/path
+reads; bounded Git pack/thread resource failures resolved by per-command
+small-window/serial reads under unchanged caps. No persistent config change.
+No author scientific repair needed and no load-bearing disagreement remains.
+Step3 caveat: bounded cubic intervals are supplied u intervals, NOT a primitive
+of its nonclosed root; pointwise q=0 differs from closure on an open patch.
+
+Sealed review memberships by step:55/65/78/68 files, with54/64/77/67 manifest
+payloads. All copied bytes and full membership matched originals, including
+ignored/empty stdout. Step1-3 documentation/archive closure checks also passed;
+their evidence is in each closure directory. No sealed candidate/review rewritten.
+
+## Banking trail and return point
+
+Plan ac7e5699; Step1 freeze b5963bd6; review1/workorder2 9fb783cb;
+Step2 freeze9aa8dc44; review2/workorder3 c5d537b2; Step3 freezee6ec23ac;
+review3/workorder4 6a3755bb; Step4 freeze7cd79a66. All committed/pushed on grok.
+Current task: finish Step4/archive and aggregate decision-brief fidelity,
+final package membership/source/preservation checks, then commit/push handoff.
+
+DECISION_BRIEF.md presents the reviewed conditional results for Charles's
+banking decision. No useful fifth step was identified within this tested route
+that answers physical identification; repeating compatibility or tuning a
+coefficient would not supply its missing criterion. This is not a universal
+no-go or a claim that every future accepted-source bridge is impossible.
+
+Actual remaining scientific gate: whether/why a particular geometric amount is
+physical carried content. Charles's next direction decision is a specified
+physical-identification target/criterion or another route; no new premise is
+proved necessary. There is no unresolved operational/review blocker. Promotion
+of mathematical results, physical adoption, manuscript and canon remain outside
+this campaign and require the applicable owner decisions.

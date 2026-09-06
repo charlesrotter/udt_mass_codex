@@ -1,0 +1,11 @@
+STAGE_A_PLAN.md: OK
+STAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK
+run_capture.py: OK
+seal_stage_a.py: OK
+stage_a_checks.py: OK
+stage_a_independent.json: OK
+stage_a_independent.stderr: OK
+stage_a_independent.stdout: OK
+stage_a_sources.json: OK
+stage_a_sources.stderr: OK
+stage_a_sources.stdout: OK

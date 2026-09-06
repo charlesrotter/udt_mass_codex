@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T20:40:34.783354+00:00",
+  "duration_seconds": 0.36220238199894084,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 50140
+}
