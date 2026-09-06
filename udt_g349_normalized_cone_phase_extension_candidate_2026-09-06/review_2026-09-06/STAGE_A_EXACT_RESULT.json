@@ -1,0 +1,30 @@
+{
+  "alternate": "a*(r - t)**2 + r - t",
+  "ambient_covector_difference_on_cone": [
+    "0",
+    "0"
+  ],
+  "ceiling": "These finite controls do not prove the general local theorem.",
+  "coordinates": "(t,r), zero angular covector entries, r>0",
+  "evidence_type": "exact_symbolic_finite_witness_and_obstruction_control",
+  "future_domain": "1+2*a*(r-t)>0; shrink about the cone",
+  "metric_radial_block": "diag(-1,1)",
+  "nonaffine_acceleration": [
+    "t",
+    "t"
+  ],
+  "nonaffine_tangent": [
+    "t",
+    "t"
+  ],
+  "null_norms": [
+    "0",
+    "0"
+  ],
+  "omega": "exp(-eta)",
+  "omega_difference_on_cone": "0",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "theta": "r - t",
+  "transverse_second_jet_difference": "2*a"
+}

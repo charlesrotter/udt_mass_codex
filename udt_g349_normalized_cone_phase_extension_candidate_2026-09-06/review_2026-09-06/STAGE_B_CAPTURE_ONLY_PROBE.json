@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt-cone-review-0WvbvE/runner_probe/check_exact.py"
+      ],
+      "mutation": null,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/tmp/udt-cone-review-0WvbvE/runner_probe/check_exact.py\", line 4, in <module>\n    raise AssertionError('INTENTIONAL_BASELINE_FAILURE_FOR_CAPTURE_ONLY_PROBE')\nAssertionError: INTENTIONAL_BASELINE_FAILURE_FOR_CAPTURE_ONLY_PROBE\n",
+      "elapsed_seconds": 0.04165062199899694
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt-cone-review-0WvbvE/runner_probe/check_exact.py",
+        "--mutation",
+        "acceleration_zero"
+      ],
+      "mutation": "acceleration_zero",
+      "returncode": 0,
+      "stdout": "INTENTIONAL_UNCAUGHT_MUTANT_FOR_CAPTURE_ONLY_PROBE\n",
+      "stderr": "",
+      "elapsed_seconds": 0.006173358999149059
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt-cone-review-0WvbvE/runner_probe/check_exact.py",
+        "--mutation",
+        "pullback_only"
+      ],
+      "mutation": "pullback_only",
+      "returncode": 0,
+      "stdout": "INTENTIONAL_UNCAUGHT_MUTANT_FOR_CAPTURE_ONLY_PROBE\n",
+      "stderr": "",
+      "elapsed_seconds": 0.007338958001128049
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt-cone-review-0WvbvE/runner_probe/check_exact.py",
+        "--mutation",
+        "omit_frequency"
+      ],
+      "mutation": "omit_frequency",
+      "returncode": 0,
+      "stdout": "INTENTIONAL_UNCAUGHT_MUTANT_FOR_CAPTURE_ONLY_PROBE\n",
+      "stderr": "",
+      "elapsed_seconds": 0.006392347999280901
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/udt-cone-review-0WvbvE/runner_probe/check_exact.py",
+        "--mutation",
+        "area_radius"
+      ],
+      "mutation": "area_radius",
+      "returncode": 0,
+      "stdout": "INTENTIONAL_UNCAUGHT_MUTANT_FOR_CAPTURE_ONLY_PROBE\n",
+      "stderr": "",
+      "elapsed_seconds": 0.0076185520010767505
+    }
+  ]
+}

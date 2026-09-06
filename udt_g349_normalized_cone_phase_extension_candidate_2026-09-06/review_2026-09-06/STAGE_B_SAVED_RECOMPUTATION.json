@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/recompute_saved.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "returncode": 0,
+  "elapsed_seconds": 0.019990408000012394,
+  "stdout": "{\n  \"status\": \"PASS_SAVED_INPUT_RATIONAL_RECOMPUTATION\",\n  \"method\": \"Cartesian finite cut Gram and observer contraction\",\n  \"independence\": \"different implementation; same author/context\",\n  \"results\": {\n    \"jacobians\": [\n      \"9\",\n      \"25\"\n    ],\n    \"omegas\": [\n      \"1\",\n      \"2/3\"\n    ],\n    \"rates\": [\n      \"14/135\",\n      \"28/1125\"\n    ],\n    \"ratio\": \"6/25\"\n  }\n}\n",
+  "stderr": ""
+}

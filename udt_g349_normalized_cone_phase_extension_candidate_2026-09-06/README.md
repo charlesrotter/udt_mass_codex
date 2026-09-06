@@ -1,9 +1,14 @@
 # Decision brief: one normalized cone admits local phase extensions
 
-Status: **candidate only; not independently reviewed or promoted**.
+Status: **VERIFIED-WITH-CAVEATS after fresh separate-context review; unpromoted candidate**.
 Source snapshot: `5ef2f971805ee23383cad694c5cb058124614a5d`.
+Reviewed candidate: `f14098737a7bd571aff79bef09ccffdc22135853`.
+Current review record: [review summary](review_2026-09-06/REVIEW_SUMMARY.md).
+Initial work-order, argument and coverage labels retain their construction-stage
+history; the owner's [review extension](review_2026-09-06/REVIEW_DISPATCH.md)
+authorized the completed review cycle without changing scientific promotion limits.
 
-The bounded test supports compatibility, with substantial freedom left over.
+The reviewed bounded argument supports compatibility, with substantial freedom left over.
 On a small regular piece of G349's supplied cone, away from the vertex and rank
 loss, the candidate construction extends a scalar phase into a neighborhood
 without changing the cone's prescribed affine tangent normalization. It does
@@ -64,14 +69,26 @@ were rejected at the intended checks: zeroed acceleration, tangent-only
 normalization matching, omitted frequency, and radius substituted for area.
 A separate stdlib rational implementation reproduced the saved-input finite
 cut readouts (areas 9 and 25, frequencies 1 and 2/3, ratio 6/25). This is the same
-author/context, not an independent review. The current 335-row premise audit
-passed; it does not establish backup completeness or unsaved-state disposition.
+author/context, not itself an independent review. Subsequently, a fresh reviewer
+reconstructed the general argument from accepted sources before candidate
+exposure, directly scrutinized the proof, independently checked the distinct
+foliation by a pullback-metric calculation, and replayed the recorded checks.
+Its verdict is VERIFIED-WITH-CAVEATS, with no mathematical defect or required
+scientific repair. Exact reviewer model is UNKNOWN; no different-model claim.
+The current 335-row premise audit passed; it does not establish backup
+completeness or unsaved-state disposition.
 
-The next bounded action to authorize is a separate-context review of the local
-construction, especially full-covector matching and affine propagation, followed
-by the fixed-input readout comparison. No new reviewer was launched here. Until
-that gate, this remains a saved candidate, not an accepted dependency or a new
-frontier entry. There is no archive-dependent blocker for this test.
+Operational caveat: `run_checks.py` is capture-only. Exit 0 means capture
+completed, not that the checks passed. Verify baseline exit 0 with the expected
+result, and each mutant's exit 1 at its intended AssertionError; an unrelated
+exception or timeout is not a successful defect catch. The actual child outcomes
+were checked by the reviewer. The frozen scripts and mathematical argument are
+unchanged; the reviewer's own checker failure/repair history is preserved.
+
+This completes the authorized verification cycle at a reviewed conditional
+candidate, not an accepted dependency or new frontier entry. Scientific
+promotion, physical commitments and a new research question remain outside this
+authorization. There is no archive-dependent blocker for the completed review.
 
 The completed infrastructure audit and fixed-snapshot manuscript are unchanged.
 Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED.

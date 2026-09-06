@@ -1,0 +1,14 @@
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CHECK_RESULT.json: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CHECK_RUNS.json: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/COMMANDS_AND_PROVENANCE.md: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/PREMISE_VERIFIER_OUTPUT.txt: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/README.md: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/RECOMPUTATION_RUN.json: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/REVIEW_RECORD.md: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/SOURCE_SHA256SUMS: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/WORK_ORDER.md: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/recompute_saved.py: OK
+udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/run_checks.py: OK

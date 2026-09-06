@@ -1,0 +1,51 @@
+{
+  "python": "3.10.12",
+  "executable": "/usr/bin/python3",
+  "original_payload_count": 14,
+  "manifest_git_match": true,
+  "source_count": 19,
+  "historical_source_matches": 19,
+  "live_source_matches": 18,
+  "artifact_manifest_sha256": "6181adf15ba0342090d7df17665fae9ceab612d5ee389b5ba1d2631650d56368",
+  "baseline_exact_saved_output_match": true,
+  "baseline_assertion_count": 53,
+  "mutations": [
+    {
+      "mutation": "acceleration_zero",
+      "caught_at": "nonaffine_nonzero_component"
+    },
+    {
+      "mutation": "pullback_only",
+      "caught_at": "matching_rejects_hidden_factor_two"
+    },
+    {
+      "mutation": "omit_frequency",
+      "caught_at": "absolute_rate_second_cut"
+    },
+    {
+      "mutation": "area_radius",
+      "caught_at": "metric_area_not_radius"
+    }
+  ],
+  "saved_readout_recomputation": {
+    "status": "PASS_SAVED_INPUT_RATIONAL_RECOMPUTATION",
+    "method": "Cartesian finite cut Gram and observer contraction",
+    "independence": "different implementation; same author/context",
+    "results": {
+      "jacobians": [
+        "9",
+        "25"
+      ],
+      "omegas": [
+        "1",
+        "2/3"
+      ],
+      "rates": [
+        "14/135",
+        "28/1125"
+      ],
+      "ratio": "6/25"
+    }
+  },
+  "ceiling": "Byte authentication and explicit finite child outcomes only."
+}

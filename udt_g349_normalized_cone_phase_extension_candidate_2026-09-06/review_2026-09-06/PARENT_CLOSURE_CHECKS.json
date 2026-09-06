@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "command": "git diff --check",
+      "returncode": 0,
+      "combined_output": ""
+    },
+    {
+      "command": "sha256sum -c udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/ARTIFACT_SHA256SUMS",
+      "returncode": 0,
+      "combined_output": "udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CHECK_RESULT.json: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CHECK_RUNS.json: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/COMMANDS_AND_PROVENANCE.md: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/PREMISE_VERIFIER_OUTPUT.txt: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/README.md: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/RECOMPUTATION_RUN.json: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/REVIEW_RECORD.md: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/SOURCE_SHA256SUMS: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/WORK_ORDER.md: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/recompute_saved.py: OK\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/run_checks.py: OK\n"
+    },
+    {
+      "command": "awk '$2 != \"AGENTS.md\"' udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/SOURCE_SHA256SUMS | sha256sum -c -",
+      "returncode": 0,
+      "combined_output": "CURRENT_SCIENTIFIC_PREMISES.tsv: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCLAUDE.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\n.claude/skills/completeness-map/SKILL.md: OK\n.claude/skills/no-shortcuts/SKILL.md: OK\n.claude/skills/solution-space-not-imposition/SKILL.md: OK\n.claude/skills/verifier-before-record/SKILL.md: OK\nCROSS_MODEL_VERIFY.md: OK\nudt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md: OK\nudt_g349_finite_null_wavefront_patch_area_2026-09-04/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/ADOPTION_RECORD.md: OK\n"
+    },
+    {
+      "command": "git diff --name-only f14098737a7bd571aff79bef09ccffdc22135853 -- udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/ARTIFACT_SHA256SUMS udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CANDIDATE_ARGUMENT.md udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CHECK_RESULT.json udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/CHECK_RUNS.json udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/COMMANDS_AND_PROVENANCE.md udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/PREMISE_VERIFIER_OUTPUT.txt udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/README.md udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/RECOMPUTATION_RUN.json udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/REVIEW_RECORD.md udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/SOURCE_SHA256SUMS udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/WORK_ORDER.md udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/recompute_saved.py udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/run_checks.py",
+      "returncode": 0,
+      "combined_output": "udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/ARTIFACT_SHA256SUMS\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/README.md\nudt_g349_normalized_cone_phase_extension_candidate_2026-09-06/REVIEW_RECORD.md\n"
+    }
+  ],
+  "preservation": {
+    "original_untracked_status_entry_count": 46,
+    "all_original_status_entries_present": true,
+    "content_or_backup_audit_performed": false,
+    "backup_completeness": "UNVERIFIED",
+    "pre_reboot_unsaved_state": "UNVERIFIED"
+  },
+  "scope": "Only README, REVIEW_RECORD, and their artifact manifest differ among original candidate files. The mathematical argument/code/outputs remain at f1409873. AGENTS method change is the declared source-manifest exception."
+}

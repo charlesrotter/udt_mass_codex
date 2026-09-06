@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/tmp/udt-cone-review-0WvbvE/stage_b_parametric_witness.py", line 30, in <module>
+    assert raised_dc_cartesian.subs(c,0) == s.Matrix([1,*m])
+AssertionError

@@ -1,4 +1,19 @@
-# Candidate checking and uncompleted review gate
+# Candidate checking and review history
+
+Current status (2026-09-06): **VERIFIED-WITH-CAVEATS; UNPROMOTED CANDIDATE**.
+The owner extended the original stop-before-review scope, and a fresh separate
+context completed source-first and direct adversarial review of f1409873. No
+mathematical defect or required scientific repair was found. The capture-only
+runner caveat is now explicit in README usage; the frozen argument and code are
+unchanged. See [current review summary](review_2026-09-06/REVIEW_SUMMARY.md) and
+[direct report](review_2026-09-06/STAGE_B_REPORT.md).
+
+The construction-stage record below is retained as history, not the current
+review verdict. Its references to review not yet performed and the next gate
+describe the initial f1409873 snapshot. The earlier full snapshot and hashes
+remain preserved in Git and the review's FROZEN_CANDIDATE_SHA256SUMS.
+
+## Original construction-stage record
 
 Status: `SELF_CHECKED_CANDIDATE__INDEPENDENT_REVIEW_NOT_PERFORMED`.
 Date: 2026-09-06. Author/checker: primary Codex context.
