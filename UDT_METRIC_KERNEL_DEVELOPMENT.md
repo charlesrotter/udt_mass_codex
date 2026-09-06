@@ -6,11 +6,12 @@
 
 - **Edition date:** 2026-09-05
 - **Scientific source snapshot:** `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`
-- **Manuscript state:** `FIDELITY_REVIEWED_FOUNDATIONS_PAIR_KERNEL_AND_PILOT — PARTIAL_MANUSCRIPT`
-- **Complete reviewed chapter coverage:** F1--F4 with G01/G02, G166--G180
+- **Manuscript state:** `COMPLETE_FOR_DECLARED_ACCEPTED_SCOPE_AND_SNAPSHOT__FIDELITY_REVIEWED`
+- **Previously reviewed coverage retained:** F1--F4 with G01/G02, G166--G180
   completed metric and pair kernel, and G350--G351
-- **Supporting definitions used by the transfer pilot:** G348 and G349
-- **Accepted successor acknowledged but not yet synthesized:** G352
+- **New fixed-snapshot coverage fidelity reviewed:** relational/projective
+  typing, G282--G337 response/development, G338--G349 causal/area geometry,
+  complete G352 readout, and G277--G281 observational boundary
 - **Method revision used for drafting:** `657f5485d50fed4005455c33ebf1bf559b3ad516`
 - **Observer-pair fidelity record:**
   [2026-09-05 review](UDT_METRIC_KERNEL_OBSERVER_PAIR_FIDELITY_REVIEW_2026-09-05.md)
@@ -40,6 +41,8 @@ G348 metric null-screen and frequency geometry
   -> G349 finite labelled sheet-area geometry
   -> G350 two-ratio multiplicative transfer classification
   -> G351 owner-provisional conserved label measure
+  + G352 owner-provisional clock-rate readout and chosen continuous realization
+  -> R A^-1 only in that bounded readout class
 ```
 
 The declared completed-pair lineage is:
@@ -57,11 +60,12 @@ G177 and G197 audit the bounded dependency and provenance boundary; G178 is
 the fresh external certification of G176--G177. They are not extra physical
 inputs to the kernel.
 
-G352 is accepted at the selected snapshot and is named at the end of the pilot
-so that this edition does not imply that G351 is the current endpoint. Its
-argument is `NOT_YET_SYNTHESIZED` here. Response-law development and most of
-the causal development are also `NOT_YET_SYNTHESIZED` or partial; their
-headings below are a map for later work, not a claim of coverage.
+The central coverage sidecar inventories every accepted row at the fixed
+snapshot. Body-level synthesis is complete for its declared scope. Separate
+source-first chapter reviews and a final cross-chapter seam review accepted the
+new material after the bounded repairs recorded in Appendix D. The reviewers
+used separate contexts in the same model family; no different-model or human
+peer-review claim is made.
 
 This edition excludes observational fitting, a selected spacetime history,
 physical ray population, source physics, light or detector models, matter,
@@ -91,7 +95,7 @@ excludes protected local work and every unaccepted or unregistered branch.
 - [5. Response-law development](#5-response-law-development)
 - [6. Causal and area geometry](#6-causal-and-area-geometry)
 - [7. Conservation and carried readouts](#7-conservation-and-carried-readouts)
-- [8. Open physical connections](#8-open-physical-connections)
+- [8. Open physical and observational connections](#8-open-physical-and-observational-connections)
 - [Appendix A. Coverage and source map](#appendix-a-coverage-and-source-map)
 - [Appendix B. Unresolved joins](#appendix-b-unresolved-joins)
 - [Appendix C. Evidence and review limits](#appendix-c-evidence-and-review-limits)
@@ -99,7 +103,8 @@ excludes protected local work and every unaccepted or unregistered branch.
 
 ## Reader orientation
 
-This edition contains three source-grounded parts of a larger account.
+This edition contains a dependency-ordered account of the accepted
+metric/kernel lineage at its fixed snapshot.
 The first reconstructs the founding clock/ruler premises, the exact reciprocal
 character they support on a supplied ordered depth, and the declared readout
 that yields the primary static-spherical metric. It also records the crucial
@@ -110,14 +115,20 @@ completed-pair normalization, and terminal scalar readout. It shows exactly
 where angular, screen, mixing, and shift data enter, while keeping the G176
 working clarification visible.
 
-The third part is a later transfer pilot. Suppose a spacetime metric and a
+The response-law chapter then records the exact point at which additional
+owner-provisional premises enter. In one bounded local, metric-only,
+scale-free response class they lead to the trace-free-Ricci vacuum equation.
+The chapter separates that conditional equation from its many lawful initial
+data, developments, topologies, scales, and unselected physical occupancy.
+
+The causal and transfer chapters next suppose a spacetime metric and a
 labelled family of null paths have already been supplied. The metric then lets
 us compare two things between two cuts of one retained path: frequency and
 transverse sheet area. What rules can consistently transfer a scalar-valued
 component using only those two ratios? And what additional restriction follows
 if a finite amount assigned to the path labels is conserved?
 
-The transfer answer comes in two logically separate steps.
+The transfer answer comes in three logically separate steps.
 
 1. G350 proves that every continuous, positive, local, multiplicative rule on
    its chosen full two-ratio domain is
@@ -136,12 +147,19 @@ The transfer answer comes in two logically separate steps.
    Therefore its area weight is \(q=-1\). The observer/frequency weight \(p\)
    remains unselected.
 
+3. G352 adds an owner-provisional clock-rate readout and a separately chosen
+   continuous phase-independent product realization. Only for that declared
+   readout, on its regular nonzero support and G350 domain, the frequency
+   weight is \(p=1\), giving \(T=RA^{-1}\). Atomic crossings and other
+   readouts remain distinct.
+
 In ordinary language, the metric tells us how a labelled sheet changes size,
 but it does not say that anything is present on that sheet. The added
 conservation premise says that the amount attached to the labels is retained.
 Only then does spreading the same amount over a larger area force inverse-area
-dilution. Neither step identifies the carried amount as light, energy,
-probability, brightness, or detector response.
+dilution. The later clock-rate premise chooses how one continuous crossing
+rate is read. None of these steps identifies the carried amount as light,
+energy, probability, brightness, or detector response.
 
 ## 1. Shared notation and conventions
 
@@ -938,127 +956,611 @@ absolute scale, or \(X_{\max}\). In plain language: once a valid pair is handed
 to the metric, the reciprocal instrument is now fully specified locally; the
 theory has not thereby chosen which pairs or universe Nature realizes.
 
+### 4.9 Relational networks reconstruct geometry but do not write its values
+
+G129--G145 separate two questions that had often been run together. At one
+event, a declared family of pair-plane pullbacks is *metric faithful* exactly
+when its linear restriction map on the ten-dimensional space
+\(\operatorname{Sym}^2(T^*M)\) has rank ten. Six explicit clock--ruler planes
+can suffice. Compatible rank-complete reconstructions then descend across a
+supplied regular cover to one metric, up to the stated chart isometry.
+
+That is reconstruction, not generation. Co-presence still means membership in
+a supplied whole solution; neither rank completeness nor cycle closure assigns
+the numerical pair values. The full metric-induced bivector area bilinear is
+also faithful to the metric (with the sign fixed by the UDT clock/ruler
+convention), yet every smooth Lorentz metric supplies such compatible area
+data. G134 therefore turns incompatible independently supplied plane data into
+a real rejection test without turning consistency into a history selector.
+
+G211--G214 preserve that distinction while extending the local bookkeeping.
+They close a declared diagonal scalar basis, retain the determinant-one
+spatial remainder needed for completed information rank, and test compatible
+overlap/carry among regular pair tuples. This improves local tomography and
+chart descent; it still does not generate the values being reconstructed.
+
+On a network of completed incidences sharing one calibrated observer clock,
+G215 gives one endpoint clock potential
+
+\[
+\Phi_X=-\log T_X,
+\qquad T_X^2=-g(u_X,u_X),
+\]
+
+so directed depths telescope around cycles. With a common pair parameter
+\(y\) and a metric-unit observer tangent \(U_X\), G216 sharpens this to
+
+\[
+u_X=\frac{d\tau_X}{dy}U_X,
+\qquad
+\delta_{AB}=-\log\!\left(\frac{d\tau_B}{d\tau_A}\right).
+\]
+
+Changing the common pair-domain parameter cancels; independently
+reparameterizing the two endpoint incidences does not. Normalizing every
+observer tangent separately to unit proper time instead makes the pointwise
+endpoint scalar trivial; the comparison requires a supplied common incidence
+or transport. These facts explain composition once the incidences exist. They
+do not populate the network.
+
+### 4.10 Null relations, screens, and complete projective position
+
+G217 first identifies the proper-clock first jet on supplied paired events.
+G218--G219 then separate possible clock-arrow factorizations and show that a
+dynamic comparison depends on the declared operational protocol. These steps
+type what a later null relation may compare; they do not choose the query or
+its population.
+
+For one supplied regular future-null branch with tangent \(k\) and metric-unit
+endpoint clocks \(U_A,U_B\), G220 derives
+
+\[
+r_{AB}=\frac{d\tau_B}{d\tau_A}
+=\frac{k_A\!\cdot U_A}{k_B\!\cdot U_B}
+=\frac{\omega_A}{\omega_B}>0,
+\qquad
+\delta_{AB}=-\log r_{AB}.
+\]
+
+G221 verifies that lapse, longitudinal ruler, shift, screen, and mixing enter
+the complete-coframe frequency before this scalar is read. G222 then uses the
+same null-incidence family to supply the second tangent of a rank-two pair
+ribbon. Its pullback has
+
+\[
+h=\begin{pmatrix}g(J,J)&-a\\-a&0\end{pmatrix},
+\qquad a=-g(J,k)>0,
+\qquad \det h=-a^2.
+\]
+
+G223--G225 continue the same supplied ribbon through density overlap, vertical
+carry, and shared-event normal-screen comparison. The resulting fiber and
+screen statements are conditional on the regular null ribbons and declared
+carry; they are not a universal transport or history law.
+
+The quotient screen and Jacobi tide are consequently normal channels of the
+same supplied metric geometry, not angular corrections appended after a radial
+answer. Across matched null chains, G226's clock-normalized screen phase map is
+conformally symplectic; the conformal multiplier is the proper-clock ratio.
+G227--G231 show how same-event directional tides must arise from one compatible
+algebraic curvature tensor and how compatible curvature jets are locally and,
+with the Cartan closure data, regionally realizable. These are consistency and
+realization theorems. They do not generate curvature values or a regional
+history.
+
+G244--G248 organize an outcome-blind chain from metric-native sky/area queries
+through local observer null cones and route-labelled incidence networks to a
+regular-branch measure. G249--G252 then show that constant homothety leaves the
+dimensionless geometry unable to name its own absolute multiplier and state
+what a separately calibrated same-object anchor would have to supply. This is
+the predecessor scale-typing chain, not an observational selection.
+
+G269--G273 separate mutual endpoint-clock comparison, ambient transported
+screens, intrinsic pair pullbacks, the primary first-jet interlock, bounded
+rapidity/projective state, and the still-open ownership of physical distance.
+They prevent those objects from being collapsed into one scalar by notation.
+
+W5 is the current `WORKING_FOUNDATIONAL_CLARIFICATION` for normalized physical
+pair position. If the complete endpoint-frame morphism has future clock column
+\(c_{AB}=\Lambda_{AB}e_0\), it declares
+
+\[
+\boldsymbol\chi_{AB}
+=\frac{(c^1_{AB},c^2_{AB},c^3_{AB})}{c^0_{AB}},
+\qquad \lVert\boldsymbol\chi_{AB}\rVert<1.
+\]
+
+The planar stratum is \((\tanh\delta_{AB},0,0)\). G274 proves that the vector
+alone is not a universal nonradial composition law: the full path-labelled
+frame morphism and its screen carry are needed. W5 therefore neither replaces
+proper, radar, optical, or areal distance nor selects a path population.
+
+A constant metric homothety leaves \(\boldsymbol\chi\) unchanged. G275--G276
+show that one independently calibrated same-object observable of nonzero
+homothety weight can attach the one remaining multiplier \(\ell\); for a
+proper-clock record the conditional attachment is
+
+\[
+\ell=\frac{c_E\tau_*}{\bar C}.
+\]
+
+This is calibration of a supplied dimensionless history, not a modification of
+the kernel. The observed \(c_E\) converts the attached time to length but does
+not fix \(\ell\) by itself. A dimensionful representative
+\(\mathbf x=\ell\boldsymbol\chi\) is not automatically \(X_{\max}\); that
+identification additionally needs an owned populated boundary completion.
+
+W6 is a separate `WORKING_FOUNDATIONAL_CLARIFICATION`: co-presence may denote
+nonpropagating membership in one complete relational state, but every
+controllable response remains supported by the completed metric's causal
+structure. It does not select a foliation, population, update law, history, or
+scale.
+
+### 4.11 Primary-profile regularity and angular behavior are filters, not a law
+
+The angular amplitudes of Section 4.6 depend on the value and radial jet of the
+same supplied \(\phi\). G201 makes the limit precise: at \(\phi=0\), both
+displayed angular modes are quiet only when \(p=r\phi'=0\) and
+\(q=r^2\phi''=0\). Zero depth alone does not guarantee cancellation, and the
+sign of \(\phi\) alone does not determine angular loudness.
+
+Global regularity removes some profiles without selecting one. In the primary
+areal chart a smooth center requires \(\phi=O(r^2)\). G204 consequently rules
+out a monotone logarithmic continuation into the center but retains an
+infinite family with a regular inner trough, quiet crossing, and outer
+reciprocal asymptote. G205 proves geodesic completeness and global
+hyperbolicity for its declared family and classifies its null-trapping strata.
+Those are real admissibility results for supplied profiles; parameters,
+population, history, and \(X_{\max}\) remain open.
+
 ## 5. Response-law development
 
-`NOT_YET_SYNTHESIZED`
+### 5.1 What the missing-history result actually said
 
-This part will state adopted premises at their point of entry, reconstruct the
-bounded curvature response, and keep selected initial data, global history,
-topology, occupancy, and scale open unless their cited sources say otherwise.
+The completed evaluator answers: *given a metric and a regular query, what does
+the pair read?* It did not initially answer: *which metric fields are lawful?*
+G282 supplies an exact witness for the difference. One relation and its first
+metric jet can agree while the neighboring transverse curvature, hence Jacobi
+area, differs. A complete value law therefore has to constrain neighboring
+relations or metric curvature; endpoint depth alone cannot do that work.
+
+G293 then rules out two proposed hiding places as standalone selectors.
+Composition of endpoint potentials is exact for arbitrary assignments, and a
+fixed topological Euler total permits arbitrary zero-mean local curvature
+variation. G295 adds the W6 causal lesson: a covariant history law may split
+into constraints and evolution after a foliation is chosen, but causal support
+and constraint preservation are logically distinct and do not select the
+constraint or initial state.
+
+G296 identifies the smallest faithful local metric home without choosing its
+equation. At a point, zeroth-order metric data contain only Lorentz signature,
+and first derivatives can be removed in normal coordinates. For a local
+diffeomorphism-natural metric-only residual, nonidentity dependence first
+appears at curvature, hence at second metric-derivative order. Scalar curvature
+invariants alone are insufficient: trace-free plane waves can carry nonzero
+Riemann tide while familiar scalar contractions vanish.
+The outcome was an architecture map, not a derivation of a response law.
+
+### 5.2 The bounded response-class fork
+
+G301 studies one explicitly bounded candidate class: local, unoriented,
+metric-only, scale-free, symmetric rank-two responses depending through first
+curvature order, differentiable at the flat-curvature origin, with the stated
+nondegeneracy. Naturalness and positive weight-one homogeneity reduce the
+response to
+
+\[
+E_{ab}=aR_{ab}+bR g_{ab}.
+\]
+
+On the nondegenerate full-metric principal stratum \(a\ne0\), there are two
+inequivalent nontrivial zero-set classes. If \(a+4b\ne0\), an invertible trace
+adjustment gives the Ricci-flat class. If \(a+4b=0\), the result is the
+trace-free-Ricci class
+
+\[
+\operatorname{TF}_g(\operatorname{Ric})_{ab}
+=R_{ab}-\frac14R g_{ab}.
+\]
+
+The scalar-only stratum \(a=0,b\ne0\) and the identity stratum \(a=b=0\) fail
+the preregistered gates. The identity-divergence requirement would choose the
+first full-metric class, but that requirement was not owned. G301 therefore
+classified the fork; it did not select UDT dynamics.
+
+### 5.3 Universal Reciprocity / DDR is an adopted bridge
+
+Charles later provisionally adopted one postulate in two formulations. The
+plain-language formulation, **Universal Reciprocity**, says that completed UDT
+spacetime response must remain reciprocal; curvature cannot provide a shortcut
+around reciprocity. The G310 curvature-level formulation, **Differential Dual
+Reciprocity (DDR)**, asks the first admitted symmetric curvature response to
+balance against every infinitesimal reciprocal clock/ruler shape change.
+
+The nine trace-free symmetric metric-shape directions span the tested response
+space. Annihilation on all nine makes the response pure trace. Inside G301's
+nondegenerate class, this condition selects the trace-free-Ricci zero set
+
+\[
+\boxed{R_{ab}-\frac14R g_{ab}=0.}
+\]
+
+This is a conditional consequence of the adopted postulate in the declared
+class. It is not a derivation of the postulate from F1--F4, not canon, and not
+the source of the loud--quiet--loud angular pattern. G311 extends the
+all-plane response-shape argument covariantly using locally realizable regular
+freely falling pair germs, but it also supplies a counterresponse: covariance
+and reciprocity alone do not choose which symmetric response functional is
+being tested.
+
+### 5.4 Two more adopted premises close the response constitution
+
+G312 isolates two independent missing clauses. Charles provisionally adopted
+both after its review:
+
+1. **Full quiet-GR principal-response overlap.** In the intended quiet
+   terrestrial/solar regime, UDT reproduces GR's local principal response and
+   dynamics, not merely some parked solutions shared with GR.
+2. **Local Metric Sufficiency.** In vacuum, the physical response at an event
+   is determined by the completed local metric and finitely many derivatives;
+   no extra remote-history label changes the response after that jet is fixed.
+
+The first is stronger than solution overlap: a curvature-quadratic response
+can accept every Ricci-flat solution while having the wrong flat first
+variation. The second is not a consequence of causality: a retarded nonlocal
+functional can retain the same quiet principal germ while carrying independent
+history or boundary data.
+
+Together with the already declared quiet regularity, metric-only, scale-free,
+and G301 class conditions, these adopted premises close the response
+constitution to G301; Universal Reciprocity then selects the trace-free class.
+The three bridge premises—Universal Reciprocity/DDR, full quiet-GR
+principal-response overlap, and Local Metric Sufficiency—remain owner-adopted
+provisional, not derived or canonized. The other G301 class hypotheses retain
+their bounded conditional status.
+
+Contracted Bianchi now has a concrete consequence. From
+\(R_{ab}=\tfrac14R g_{ab}\),
+
+\[
+\nabla^aR_{ab}=\frac12\nabla_bR
+=\frac14\nabla_bR,
+\]
+
+so \(\nabla_bR=0\) on each connected regular region. Writing
+\(\Lambda=R/4\), the bounded vacuum equation becomes
+
+\[
+\boxed{R_{ab}=\Lambda g_{ab},\qquad \Lambda=\text{one connected constant}.}
+\]
+
+The scalar value and sign are not selected. No source or matter equation is
+contained in this closure.
+
+### 5.5 A law supplies an evolution arena, not a unique universe
+
+G313 exhibits the breadth left by the equation: round positive-curvature
+histories, nonround compact Cauchy data with conditional local developments,
+explicit product solutions, Ricci-flat waves with Weyl tide,
+positive/zero/negative scalar sectors, and homothetic rescalings all remain
+legal in their stated domains. G314 therefore distinguishes ordinary
+field-theory freedom from an optional stronger ambition. A well-defined law
+may accept supplied lawful initial data; a unique-universe bootstrap would
+add a global admissibility predicate and, if several classes survived, an
+actualization or population rule. Current sources supply neither, and the
+field theory does not require them merely to be mathematically coherent.
+
+Homothety \(g\mapsto s^2g\) leaves the trace-free equation unchanged while
+rescaling scalar curvature. Thus the equation fixes no absolute scale.
+Likewise, constant curvature is only a proper subset of the solution space:
+Weyl-active Einstein metrics can obey the same Ricci equation. In compact
+notation the lawful classes form
+
+\[
+\mathcal M=\operatorname{Sol}(\operatorname{Ric}=\Lambda g)/\operatorname{Diff}.
+\]
+
+A global admissibility predicate on \(\mathcal M\), and a population measure
+on whatever passes it, would be further objects rather than consequences of
+the equation.
+
+### 5.6 Lawful initial data and the conformal generator
+
+On a spacelike hypersurface, G315 records data \((\gamma_{ij},K_{ij})\)
+satisfying
+
+\[
+{}^{(3)}R+K^2-K_{ij}K^{ij}=2\Lambda,
+\qquad
+D_j(K^{ij}-\gamma^{ij}K)=0.
+\]
+
+Lapse and shift are gauge. The generic local remainder is two metric
+configuration modes and their rates, not one freely supplied \(\phi\)
+profile. On null data the expansion/shear equation is a geometric consequence
+inside the same bounded law, not a source or light equation.
+
+G316 uses the conformal construction
+
+\[
+\gamma=\psi^4\bar\gamma,
+\qquad
+A^{ij}=\psi^{-10}(\bar A_{TT}+\bar L W)^{ij}
+\]
+
+to solve the coupled Hamiltonian/vector constraints. The seed metric,
+transverse-traceless tensor, mean curvature, and \(\Lambda\) are inputs;
+\(\psi,W\) are solved variables; conformal-Killing degeneracies and gauge are
+tracked separately. This is a lawful-data generator, not a selector.
+
+### 5.7 Exact non-CMC families and physical inequivalence
+
+G317--G319 construct explicit compact nonconstant-mean-curvature branches. In
+G319's ratio-free variables the reduced system has
+
+\[
+B'=3H(A-B),\qquad AB=F[\psi],
+\]
+
+with a first integral that retains an arbitrary positive profile on the
+declared stratum. G320 then quotients coordinate and scale artifacts. Its
+invariant integrated-curvature quantity obeys
+
+\[
+Q_R[\psi_n]=n^2Q_R[\psi_1],
+\]
+
+so the integer-labelled examples include genuinely inequivalent initial
+geometries. The construction is not exhaustive of all lawful data.
+
+### 5.8 From local development to one explicit MGHD
+
+G321 and G322 use standard smooth Cauchy and maximal globally hyperbolic
+development theorems as **imported mathematical methods with checked
+hypotheses**. Conditional on them, each fixed lawful marked datum has a locally
+unique development and one maximal globally hyperbolic development, up to the
+appropriate data-preserving isometry. The theorems neither become UDT
+premises nor select the datum.
+
+G323 identifies the common local Ricci-flat form of an explicit quotient
+family and separates its compact lattice modulus. G324 writes the same local
+geometry in Kasner form with exponents
+\((-1/3,2/3,2/3)\), proves future timelike completeness, and finds the past
+curvature blow-up
+
+\[
+R_{abcd}R^{abcd}=\frac{12\mu^2}{R^6}.
+\]
+
+Each registered quotient is the smooth MGHD of its own data and admits no
+proper time-oriented \(C^2\) Lorentzian extension through that past endpoint.
+This is not two-sided completeness, stability, physical occupancy, or a claim
+of past \(C^0\)-inextendibility.
+
+### 5.9 Bounded perturbations map nearby legal behavior
+
+G325--G329 take exact first variations of the adopted bounded equation around
+the G324 family. The complete homogeneous sector contains gauge, compact
+lattice/frame moduli, two local shear modes, and the connected scalar mode.
+Primitive axial, transverse, and strictly oblique Fourier tiles each retain two
+physical second-order amplitudes after periodic gauge is removed, with their
+reported Bessel/time branches left unfiltered.
+
+These results show that the equation supports structured local propagation and
+that the authors did not discard inconvenient past branches. They are not a
+full Fourier census, generic linear stability theorem, nonlinear stability
+result, or occupancy rule. Exact first variation is a legitimate scoped
+object; it does not establish the fate of finite perturbations.
+
+### 5.10 Metric-native lines and pair-response jets
+
+G330 finds an intrinsic simple spatial-Ricci eigenline on nonround Berger
+\(S^3\) data. Its integral curves are Hopf circles and its normalized
+orientation-blind helicity is one. This is a metric-native topological object
+on that stratum, but the round limit loses the eigenvalue gap and other legal
+topologies have no such object. G331 proves the eigenline projector persists
+under a uniform gap while closed Hopf fibres do not: arbitrarily nearby
+nonhomogeneous weighted-contact, \(U(2)\)-breaking metrics can have nonclosed
+dense eigenflow while retaining toric symmetry. The metric-native
+eigenline/orbit structure distinguishes supplied histories; topology alone
+does not select or preserve the Hopf-fibration property.
+
+G332 embeds a wide weighted-contact family, including irregular eigenflows, as
+exact lawful vacuum-constraint data. G333--G337 then read successive initial
+pair-response jets directly from those complete data. They show that the full
+pair metric can retain directional deformation when the terminal scalar is
+blind, that raw components depend on declared frame transport, that strict
+nonzero response persists for a datum-specific local interval, and that silent
+directions require higher jets rather than a guessed extra field. The third
+jet on the double-silent stratum depends on spatial derivatives of the full
+initial fields and cannot be compressed to a short pointwise tuple.
+
+This is a coherent response hierarchy inside supplied lawful data. It selects
+neither root, topology, physical history, mass, matter, scale, nor finite-time
+stability.
 
 ## 6. Causal and area geometry
 
-`PARTIAL — SUPPORTING DEFINITIONS ONLY`
+This chapter follows the metric into causal and transverse-area questions. It
+does not add a light model. G338--G347 are exact Taub/Kasner witness tiles;
+G348 gives the generic regular infinitesimal theorem, and G349 extends it to a
+supplied finite labelled patch.
 
-### 6.1 Supplied geometry and path family
+### 6.1 A finite-time pair evaluator and the carry boundary
 
-The transfer pilot begins downstream of several choices. It assumes:
-
-- a smooth four-dimensional Lorentzian metric \(g\);
-- a supplied labelled family of null paths and ordered cuts \(i,j,k\);
-- a retained label \(\lambda\) referring to the same neighboring path at each
-  cut;
-- a future-directed null tangent \(k\) and supplied future-directed timelike
-  endpoint observers \(u_i\); and
-- a common source-celestial presentation for the finite null sheet.
-
-These are inputs to the result. G348 and G349 derive geometrical consequences
-once they are supplied; they do not select the metric, the paths, their
-population, or their physical interpretation.
-
-### 6.2 Frequency and sheet-area state variables
-
-At cut \(i\), the metric frequency read by observer \(u_i\) is
+On the supplied G324 history, G338 evolves one chosen spatial pair direction.
+If \(u=T/T_0\) and \(\rho\) is the share along the distinguished axis, its
+spatial norm factor is
 
 \[
-\omega_i=-g(k,u_i)>0.
+G=\rho u^{-2/3}+(1-\rho)u^{4/3}.
 \]
 
-Let \(X_i\) be the source-label-to-cut map. On the regular transverse stratum,
-its metric sheet-area Jacobian is a finite positive number \(J_i>0\). In local
-label coordinates \(\lambda\), the pulled-back metric area is
+For the registered boosted pullback, \(\det h=-G\); completion gives
+\(m=\sqrt G\), while its lapse combination \(\Delta\) gives
+\(\Phi=-\tfrac12\log\Delta\) and \(\chi=(1-\Delta)/(1+\Delta)\). At zero
+boost the terminal scalar can be silent while \(m\) changes. The direction
+\(\rho=2/3\) is silent at first order but not second order.
+
+G339 immediately qualifies this by carry. Its bounded diagnostic family,
+with \(0\le\lambda\le1\), is
 
 \[
-d\alpha_i=J_i\,d\lambda.
+G_\lambda=\rho u^{-2(1-\lambda)/3}
+ +(1-\rho)u^{4(1-\lambda)/3},
 \]
 
-The finite sheet area counts sheets by preimage. It is not automatically the
-area of the geometric image union when several labels reach the same image
-point.
+with connecting carry at \(\lambda=0\) and parallel carry at \(\lambda=1\).
+Raw component evolution is not a carry-independent observable, and this
+diagnostic interpolation selects no physical carry.
 
-### 6.3 Ratio orientation and sewing
+### 6.2 Separated observers and four relational outputs
 
-For transfer from cut \(i\) to cut \(j\), define
+G340 keeps same-slice proper distance, one-leg null arrival, endpoint
+frequency/projective comparison, and a supplied two-leg radar protocol
+separate. For a null leg,
 
 \[
-R_{ji}=\frac{\omega_j}{\omega_i},
+r=\frac{\omega_e}{\omega_r},\qquad
+\delta=-\log r,\qquad
+\chi=\frac{1-r^2}{1+r^2}.
+\]
+
+The four outputs do not collapse into one distance. G341 proves a unique
+future null leg for each nonzero lift in its declared mixed-direction domain
+and finds trivial natural quotient-screen rotation. Separately, the nonzero
+G269 endpoint-clock mismatch makes the transported-source and target-local
+G298 pair planes distinct when both principal momenta are nonzero. Even
+\(\delta=0\) need not mean identical transported pair planes.
+
+### 6.3 Jacobi beams and bilocal phase flow
+
+G342 evolves neighboring null paths with a two-dimensional Jacobi map. In its
+diagonal witness,
+
+\[
+\mathcal T=\operatorname{diag}(-q,+q),\quad q\ge0,
 \qquad
+D_\parallel''-qD_\parallel=0,
+\quad D_Z''+qD_Z=0.
+\]
+
+The signed area is \(\det D\). Before rank loss, expansion and shear obey
+\(\Theta'=-(\Theta^2+w^2)/2\). G343 retains transverse position and momentum
+in the phase propagator
+
+\[
+M=\begin{pmatrix}A&B\\C&D\end{pmatrix},\qquad
+M_{20}=M_{21}M_{10},\qquad M^TJM=J.
+\]
+
+Thus \(\det M=1\) and reversal is \(M_{01}=M_{10}^{-1}\). This is screen
+geometry on the supplied ray, not transported physical content.
+
+### 6.4 Generating functions and determinant density
+
+On the chart \(\det B\ne0\), G344 constructs
+
+\[
+S^0_{10}=\tfrac12x_1^TDB^{-1}x_1-x_0^TB^{-1}x_1
+ +\tfrac12x_0^TB^{-1}Ax_0.
+\]
+
+It yields \(p_1=\partial_{x_1}S\), \(p_0=-\partial_{x_0}S\),
+\(K_{10}=B^{-T}\), and \(\Delta_{10}=1/|\det B|\). Endpoint coboundaries
+leave the canonical relation unchanged. Stationary sewing includes an
+intermediate Hessian factor, so determinant densities do not combine by a
+naive endpoint quotient.
+
+### 6.5 Clock-normalized area reciprocity
+
+G345 removes common affine normalization with
+
+\[
+\widehat K=\frac{K}{\sqrt{\omega_1\omega_0}},\qquad
+\widehat\Delta=
+\frac{|\det K|}{\omega_1\omega_0\sqrt{\det q_1\det q_0}}.
+\]
+
+G346's directional areas then obey
+
+\[
+\frac{A_{(1\leftarrow0)}}{A_{(0\leftarrow1)}}
+=\left(\frac{\omega_0}{\omega_1}\right)^2,
+\qquad
+\sqrt{A_{(1\leftarrow0)}A_{(0\leftarrow1)}}=\widehat\Delta^{-1}.
+\]
+
+G347 shows that arbitrary future-timelike endpoint observer changes rescale
+the two directional areas by the square of their respective source-endpoint
+frequency factors while preserving the form of reversal and sewing. This is
+metric sky/screen geometry, not luminosity or detector physics.
+
+### 6.6 Generic Lorentzian null-screen area
+
+G348 replaces the special witness with a supplied smooth four-dimensional
+Lorentz metric and regular affine null segment. The intrinsic screen is
+
+\[
+Q_k=k^\perp/\operatorname{span}(k).
+\]
+
+Self-adjoint screen tide gives symplectic Jacobi flow and
+\(B_{01}=-B_{10}^*\), hence the exact area ratio
+\((\omega_0/\omega_1)^2\). At a conjugate point, Wronskian transversality
+makes the zero order of \(\det B\) equal to \(\dim\ker B\). The ordinary
+determinant-density chart fails at rank loss; no global absence of caustics is
+claimed.
+
+### 6.7 Finite patches, sheet area, and multiplicity
+
+For a supplied compact label patch, G349 studies
+\(F(n)=\gamma_n(\tau(n))\). Since
+
+\[
+dF(v)=J_v+d\tau(v)k,
+\]
+
+the cut-gradient term adds no transverse metric area. The area formula is
+
+\[
+A_{\rm mult}=\int_U J_gF\,d\Omega
+=\int_{F(U)_{\rm sp}}N_s(F,U;y)\,dA_g,
+\qquad
+A_{\rm union}=\int_{F(U)_{\rm sp}}1\,dA_g.
+\]
+
+Here \(F(U)_{\rm sp}\) is the spacelike, transverse-screen-rank-two image and
+\(N_s\) is its rank-two preimage multiplicity. The left side counts sheets by
+preimage; geometric union area counts an image location once, so
+\(A_{\rm union}\le A_{\rm mult}\), with equality when \(N_s=1\) almost
+everywhere—not only under strict injectivity. Ordinary-rank-two but
+screen-rank-one null sheets have zero metric area. Rank loss, folds/cusps,
+orientation, and multiplicity are distinct; rank one alone does not identify a
+fold. Observer change preserves the multiplicity-weighted sheet-area measure
+after its celestial Jacobian is included.
+
+### 6.8 Input/output boundary
+
+At cut \(i\), define
+
+\[
+\omega_i=-g(k,u_i)>0,\qquad d\alpha_i=J_i\,d\lambda,
+\]
+
+and, on the common screen-rank-two stratum with \(J_i,J_j>0\), orient transfer
+from \(i\) to \(j\) using one common source presentation and retained label:
+
+\[
+R_{ji}=\frac{\omega_j}{\omega_i},\qquad
 A_{ji}=\frac{J_j}{J_i}.
 \]
 
-The first index is the destination and the second is the origin. With one
-common path label and compatible cuts,
-
-\[
-R_{ki}=R_{kj}R_{ji},
-\qquad
-A_{ki}=A_{kj}A_{ji}.
-\]
-
-Reversal gives \(R_{ij}=R_{ji}^{-1}\) and
-\(A_{ij}=A_{ji}^{-1}\). These identities are quotient algebra on supplied
-endpoint state values. They do not choose a carried quantity or transfer law.
-
-The ratio \(A_{ji}\) is meaningful only when numerator and denominator refer to
-the same intrinsic neighboring-ray family, common source presentation, and
-retained label. It must not be assembled from unrelated skies, directions, or
-path assignments.
-
-### 6.4 Regularity and object identity
-
-The pointwise density arguments below require the common screen-rank-two
-stratum, where the relevant \(J_i\) are finite and strictly positive. This is a
-transverse metric-rank condition, not merely ordinary coordinate rank.
-
-The following objects remain distinct:
-
-- metric frequency \(\omega_i\) and its ratio \(R_{ji}\);
-- metric sheet-area Jacobian \(J_i\) and its ratio \(A_{ji}\);
-- a measure \(\mu\) carried on label space;
-- an ordinary density of only the absolutely continuous part of that measure;
-- a scalar-valued component assigned an observer weight; and
-- any later physical interpretation such as light or energy.
-
-Sharing a symbol or numerical value would not make two of these the same
-physical object.
-
-### 6.5 Scope of the supporting geometry
-
-G348 works with an arbitrary supplied smooth four-dimensional Lorentzian metric
-and a regular affine null segment. It develops the quotient screen, Jacobi
-transport, endpoint frequency, rank loss, and caustic behavior. G349 passes
-from infinitesimal screen geometry to a supplied finite compact labelled null
-map and defines the positive metric sheet-area Jacobian used here.
-
-These results are metric-derived, but they are general Lorentzian geometry, not
-features shown to distinguish UDT from every other spacetime theory. They do
-not supply a finite beam population, transported physical content, brightness,
-luminosity, distance law, selected history, or scale.
-
-A caustic here is loss of transverse quotient-screen rank. It need not be a
-spacetime singularity, and it is not the same as ordinary endpoint-map rank:
-the ordinary map can retain rank two while its restored tangent plane is
-null-degenerate and has zero metric two-area. The underlying labelled map and a
-measure pushed through it can remain meaningful even when a regular
-two-dimensional density fails.
-
-**Contribution to the pilot:** G348 and G349 supply \(\omega_i\), \(J_i\), the
-regular stratum, and the sheet-versus-image distinction. They do not supply the
-transfer multiplier classified by G350 or the conserved measure posited by
-G351.
-
-**Unresolved join:** the physical population of paths and the physical meaning
-of any content carried on them remain open.
+The ratios reverse and sew only for the same retained labelled family.
+Sections 6.1--6.5 are exact witnesses, 6.6 is the generic infinitesimal
+theorem, and 6.7 is its finite-map layer. None supplies phase, content, source,
+emission, absorption, light energy, detector response, populated paths,
+selected history, scale, or \(X_{\max}\).
 
 ## 7. Conservation and carried readouts
 
@@ -1290,50 +1792,204 @@ evidence. The analytic character theorem and measure-theoretic argument carry
 the mathematical conclusion. External acceptance is evidence of bounded
 review, not experimental confirmation.
 
-### 7.6 Transition to the accepted but unsynthesized readout step
+### 7.6 The provisional clock-rate readout and its chosen realization
 
-At the selected snapshot, G352 is externally accepted in a bounded conditional
-scope. Its two additional inputs must remain separate. First, Charles
-provisionally adopted the clock-rate carried-measure readout premise: a supplied
-conserved sequence of causal phase/event crossings is read as crossings per
-observer proper time per metric sheet area. Second, G352 chose a bounded
-mathematical realization using continuous total phase variation, fixed common
-phase spacing, and a phase-independent nonnegative product with the same G351
-label measure on each phase slice. The metric and G351 do not derive that
-realization. Conditional on both inputs, and within G350's full independent
-positive character domain, G352 fixes \(p=1\) and retains \(q=-1\). Literal
-atomic crossings and other readouts remain distinct. G352 does not identify the
-content as light, energy, a detector signal, or an observational distance.
+G352 adds two inputs, and they remain separately typed. First, Charles adopted
+the `OWNER_ADOPTED_PROVISIONAL_CLOCK_RATE_READOUT`: a supplied conserved
+sequence of causal phase/event crossings is read as crossings per observer
+proper time per metric sheet area. This is a premise, not a consequence of the
+metric or G351. Second, G352 chose one bounded continuous realization. For a
+supplied dimensionless null phase \(\Theta\),
 
-`NOT_YET_SYNTHESIZED`: this edition has not reconstructed G352's definitions,
-proof, degeneracy conditions, or evidence. The strongest safe transition is
-therefore: G351 leaves \(p\) open; an accepted later result reports that one
-separately chosen clock-rate readout fixes it conditionally. That later choice is
-not retroactive evidence that G350 or G351 selected \(p\).
+\[
+k=d\Theta,\qquad \omega_i=-u_i\mathbin{\cdot}k>0,
+\qquad \rho_i=\frac{\omega_i}{\Delta\Theta},
+\]
 
-## 8. Open physical connections
+where the positive phase spacing \(\Delta\Theta\) is common. The chosen product
+measure is
 
-The pilot reaches a mathematically controlled transfer family and one
-premise-conditional inverse-area density law. A physical prediction chain still
-requires documented answers to at least the following joins:
+\[
+d\Xi=\frac{|d\Theta|}{\Delta\Theta}\otimes d\mu.
+\]
 
-1. What physical entity, if any, does the carried label measure represent?
-2. What produces nonzero content and determines its support?
-3. Which labels and paths are physically populated?
-4. Which observer-weighted readout corresponds to an actual measurement?
-5. How do distinct labels combine, including phase or interference if those
-   concepts are eventually present?
-6. What happens at emission, absorption, caustics, and detector registration?
-7. Which admissible metric history and scale are used?
+This realization additionally supplies a nonzero future-raised null gradient,
+the same G351 label measure on every phase slice, phase-independent support and
+weight, no phase-label correlation, label preservation, and measurability. It
+is `CHOSE_BOUNDED_MATHEMATICAL_REALIZATION`, not derived or canon.
 
-Until these joins are supplied or derived in their own accepted scopes,
-inverse-area dilution is not by itself a native law of luminosity or a
-supernova-distance prediction.
+### 7.7 The regular rate and unique character for this readout
+
+On regular absolutely continuous support,
+\(d\mu_{\rm ac}=s(\lambda)d\lambda\) and
+\(d\alpha_i=J_i d\lambda\). Crossings per proper time per sheet area are
+
+\[
+\Gamma_i=\frac{\omega_i}{\Delta\Theta}\frac{s}{J_i}.
+\]
+
+The division-free transfer law is
+
+\[
+\boxed{\Gamma_j=R_{ji}A_{ji}^{-1}\Gamma_i}.
+\]
+
+On common nonzero absolutely continuous regular support, this is equivalently
+\(\Gamma_j/\Gamma_i=R_{ji}A_{ji}^{-1}\).
+
+Inside G350's full independent positive character domain, this chosen readout
+uniquely fixes \((p,q)=(1,-1)\). The uniqueness belongs only to this premise
+and realization. G351's neutral density remains \(p=0\); literal atomic
+crossings and other weighted readouts are different objects.
+
+### 7.8 Normalization, observer covariance, reversal, and sewing
+
+A common positive rescaling
+\((\Theta,k,\omega,\Delta\Theta)\mapsto
+b(\Theta,k,\omega,\Delta\Theta)\) leaves
+\(\omega/\Delta\Theta\) invariant. Nonlinear phase reparameterization lies
+outside the proved scope. If endpoint observer changes rescale frequency by
+\(D_i\), then \(\Gamma_i\mapsto D_i\Gamma_i\) and
+
+\[
+T_{ji}\mapsto \frac{D_j}{D_i}T_{ji}.
+\]
+
+The rate ratios sew as \(T_{ki}=T_{kj}T_{ji}\), have identity one, and reverse
+by reciprocation. Reversal is comparison algebra, not backward causal
+propagation.
+
+### 7.9 Measure-valued continuation and the density boundary
+
+G352's caustic-safe object is the weighted pushforward
+
+\[
+\nu_i(B)=\int_{X_i^{-1}(B)}\frac{\omega_i}{\Delta\Theta}\,d\mu.
+\]
+
+It is finite only when the frequency weight is integrable against the finite
+measure. It can remain meaningful through many-to-one maps and transverse rank
+loss even when an ordinary area density diverges or becomes singular.
+Preimage additivity is neither interference nor a detector summation rule.
+
+### 7.10 Readout ceiling and current grade
+
+If \(\mu=0\), every carried measure vanishes; the rule creates neither phase
+nor content. The controlling registry and repaired audit grade G352 as an
+externally accepted conditional bounded result. Its executable counts are
+regression evidence, not the analytic proof.
+
+G352 does not identify \(\Gamma\) as light, photon rate, energy, brightness,
+flux, luminosity, detector count, probability, or distance. It supplies no
+source, population, history, matter, mass, absolute scale, physical
+\(X_{\max}\), or canon. The fact that this one adopted readout fixes \(p=1\)
+cannot be projected backward into G350 or G351.
+
+## 8. Open physical and observational connections
+
+### 8.1 Evaluation, reconstruction, and prediction are different grades
+
+G279 and G281 separate the chain
+
+```text
+supplied depth -> reciprocal character -> declared primary metric
+-> complete pair pullback -> W1 completed scalar
+-> endpoint-relative depth -> direct log(1+z)
+```
+
+from the later observational interface. The native chain owns the conditional
+redshift relation \(Z=e^{\Delta\phi}\) and can evaluate null/Jacobi geometry on
+a supplied complete history. It does not own one function
+\(d_A(z)\). Transparent transfer, finite basis reconstruction, a Cepheid
+ladder, and survey conventions enter only afterward and retain their imported
+or empirical grades.
+
+### 8.2 What can attach an absolute scale
+
+G277 shows that relative supernova releases with a free magnitude offset are
+rank-deficient for absolute scale. Pantheon+ Cepheid calibrators together with
+Hubble-flow supernovae can identify a shared magnitude and one scale only
+after accepting the published Cepheid ladder and the imported transparent
+luminosity/area same-distance bridge. That is a
+`CONDITIONAL_TRANSFER_OR_DISTANCE_ANCHOR`, not the native G276 proper-clock
+attachment. DES normalization and CMB temperature do not currently own the
+scale.
+
+### 8.3 The calibrated route is a resolution-sensitive lead
+
+G278's primary conditional reconstruction reported
+\(\ell=286.2573\,\mathrm{Mpc}\) at its chosen resolution. The four frozen
+resolutions instead gave (299.2588, 286.2573, 282.3532,
+279.0210\,\mathrm{Mpc}), and their correlated resolution statistic exceeded
+the preregistered ceiling. The DES comparison was a no-retuning holdout, not
+an independent scale measurement because its released distance moduli include
+collaboration normalization. The result is therefore an externally verified
+`RESOLUTION_SENSITIVE_LEAD`, not a unique selected UDT scale.
+
+### 8.4 Projective position is not optical area
+
+G280 gives an exact separator. Projective position
+\(\chi=\tanh\delta\) and a dimensionful representative
+\(x=\ell\chi\) do not solve the Jacobi equation
+
+\[
+D''+\mathcal TD=0,
+\qquad d_A^2=\det D.
+\]
+
+Flat and Brinkmann examples can share endpoint clocks, depth, redshift, and W5
+state while having different \(\det D\). Likewise, two primary radial profiles
+can reach the same depth at different areal radii. Declaring globally that
+\(r=\ell\tanh\phi\) would choose a profile and conflict with the active smooth
+center condition on that branch. No accepted bridge makes W5 an optical
+distance law.
+
+### 8.5 The honest supernova boundary
+
+The required prediction chain is
+
+```text
+z -> phi=log(1+z) -> complete metric history and populated null bundle
+  -> d_A -> d_L and detector observable.
+```
+
+Only the first arrow is native without further inputs. The metric/Jacobi
+evaluator is conditional on a supplied history. The relation
+\(d_L=Z^2d_A\) is an imported transparent-transfer rule, not yet a UDT light
+law. G281 found no complete native pre-data supernova prediction in the audited
+lineage: the old supplied-profile headline used a wrongly typed transfer
+factor, the later P1 family is empirical rather than the reciprocal kernel,
+and the G236/G237/G278 work remains reconstruction, calibration, or control.
+
+### 8.6 Open joins and maximum claim
+
+This edition leaves open: a metric-owned complete astronomical history or
+frozen areal/projective bridge; a native source, transfer, detector, and
+cross-label rule; a representation-independent supernova state; phase/content
+identity; physical path population; unique scale; matter and mass; physical
+\(X_{\max}\); and canon.
+
+G352's phase-weighted carried measure is not an observational light bridge,
+and the earlier G277--G281 work does not validate it. Section 6 supplies area
+evaluation, not a selected history. No accepted source in this snapshot joins
+the bounded vacuum response family to populated astronomical sources. These
+are scientific gaps or supplied inputs, not unfinished prose.
 
 ## Appendix A. Coverage and source map
 
 All paths below are relative to the repository root and refer to scientific
 snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`.
+
+The complete 335-row disposition is generated in
+[UDT_METRIC_KERNEL_COVERAGE.tsv](UDT_METRIC_KERNEL_COVERAGE.tsv) and checked by
+`verify_metric_kernel_account.py`. It contains no copied scientific grade:
+`CURRENT_SCIENTIFIC_PREMISES.tsv` remains the only status owner. The sidecar
+records 65 `MAIN_ARGUMENT`, 123 `SUPPORTING_LEMMA`, 76 `BOUNDARY_RESULT`, 57
+`CONTROL_ONLY`, 12 `OUTSIDE_SCOPE`, and 2 `SUPERSEDED_HISTORICAL` rows. A blank
+upstream list means only `NOT_RECORDED_IN_CENTRAL_MAP`, never independence.
+The detailed entries below expose the most load-bearing normalization and
+transfer joins; all other rows remain traceable through the sidecar to their
+exact controlling source and source hash.
 
 ### G01 — `MAIN_ARGUMENT`, `FIDELITY_REVIEWED`
 
@@ -1510,7 +2166,7 @@ DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ACCEPTED__PR
   supporting provenance controls. G197 is not represented as a separate exact
   registry row in the current 335-row premise table.
 
-### G348 — `SUPPORTING_LEMMA`, `PARTIAL`
+### G348 — `SUPPORTING_LEMMA`, `FIDELITY_REVIEWED`
 
 - **Manuscript use:** Section 6 definitions of metric frequency,
   quotient screen, regular rank, and caustic boundary.
@@ -1527,7 +2183,7 @@ DERIVED_CONDITIONAL__EXTERNALLY_ACCEPTED_WITH_STATED_BOUNDS__REPAIR_ACCEPTED__PR
 EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED__PREREGISTERED_AT_17C35CC6__CROSSING_ALTERNATIVES_REFINED_OUTCOME_UNSEEN_AT_23E50369__FRESH_GPT56SOL_AUTHENTICATED_33_PAYLOADS_AND_ACCEPTED_WITH_NO_MATHEMATICAL_DEFECT_OR_REQUIRED_REPAIR__39542_PRODUCTION_CHECKS__9759_IMPLEMENTATION_DISTINCT_SMOOTH_TIDE_RK4_AND_RAPIDITY_CHECKS__21_OF_21_HOSTILE_MUTATIONS_REPORTED_CAUGHT__EXTERNAL_SCRATCH_RECONSTRUCTION_PASS__19_POSTREVIEW_AGGREGATE_NO_WRITE_AND_RETURN_AUTHENTICATION_GATES__ARBITRARY_SMOOTH_4D_LORENTZIAN_METRIC_AND_REGULAR_AFFINE_NULL_SEGMENT__LEVI_CIVITA_QUOTIENT_CONNECTION__SELF_ADJOINT_TIDE__SYMPLECTIC_PHASE_FLOW_COMPOSITION_AND_REVERSAL__SOURCE_FREQUENCY_SQUARED_DIRECTIONAL_AREAS__ARBITRARY_FINITE_TIMELIKE_ENDPOINT_OBSERVER_COVARIANCE__WRONSKIAN_FORCES_DETERMINANT_ZERO_ORDER_EQUAL_TO_KERNEL_DIMENSION__RANK_ONE_SIMPLE_SIGN_FLIP__RANK_ZERO_DOUBLE_NO_SIGN_FLIP__TYPE_I_GENERATOR_INVERSE_SCALAR_AND_STATIONARY_SEWING_ONLY_CHARTWISE__GENERAL_LORENTZIAN_GEOMETRY_NOT_UNIQUELY_UDT__IMPLEMENTATION_DISTINCT_NOT_PREMISE_INDEPENDENT__UNSIGNED_CHECKSUM_GIT_CHRONOLOGY_AND_TAUTOLOGICAL_HOSTILE_CONTROLS_RETAINED_AS_NONBLOCKING_EVIDENCE_CAVEATS__NO_FINITE_BEAM_LIGHT_TRANSFER_DISTANCE_POPULATION_HISTORY_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED
 ```
 
-### G349 — `SUPPORTING_LEMMA`, `PARTIAL`
+### G349 — `SUPPORTING_LEMMA`, `FIDELITY_REVIEWED`
 
 - **Manuscript use:** Section 6 definition of finite metric sheet-area
   Jacobian, common label presentation, multiplicity, and image-union boundary.
@@ -1581,16 +2237,20 @@ EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_AFTER_PREREGISTERED_R1_R4_REPAIR
 EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PREMISE__PREREGISTERED_AT_42E48241__R1_R5_REPAIRS_PREREGISTERED_BEFORE_EXECUTION__FRESH_GPT56SOL_AUTHENTICATED_42_PAYLOADS_IN_EXACT_44_FILE_INTAKE__INDEPENDENT_ANALYTIC_RECONSTRUCTION_AND_45_OF_45_REPLAY__60325_OF_60325_PRODUCTION__11290_OF_11290_IMPLEMENTATION_DISTINCT__12_OF_12_HOSTILE__STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_LABEL_MEASURE__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_N_EQUALS_S_OVER_J__AREA_TRANSFER_A_INVERSE__WITHIN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN_T_P_EQUALS_R_TO_P_A_INVERSE_AND_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY_DECLARED_OBSERVER_WEIGHT__FINITE_MEASURE_AND_PUSHFORWARD_SURVIVE_CAUSTIC_RANK_LOSS__SINGULAR_PART_HAS_NO_ORDINARY_DENSITY_EXPONENT__EXECUTABLE_COUNTS_ARE_REGRESSION_EVIDENCE_NOT_ANALYTIC_PROOF__DOCUMENTARY_CHRONOLOGY_NOT_TRUSTED_TIMESTAMP__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED
 ```
 
-### G352 — `BOUNDARY_RESULT`, `NOT_YET_SYNTHESIZED`
+### G352 — `MAIN_ARGUMENT`, `FIDELITY_REVIEWED`
 
-- **Manuscript use:** Section 7.6 current-successor notice only.
+- **Manuscript use:** Sections 7.6--7.10, the owner-provisional clock-rate
+  readout, chosen continuous product realization, regular rate, covariance,
+  measure-valued continuation, and exact ceiling.
 - **Source:**
   [G352 exact derivation](udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md),
   [G352 audit report](udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md),
   [G352 initial external review](udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXTERNAL_REVIEW_RESPONSE.md),
   and [G352 accepted repair follow-up](udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXTERNAL_REPAIR_FOLLOWUP_RESPONSE.md).
-- **Dependencies actually asserted here:** only the exact accepted registry
-  status; this manuscript has not reconstructed the source argument.
+- **Dependencies actually used:** the G351 finite carried label measure, a
+  supplied null phase and common positive spacing, the owner-provisional
+  clock-rate readout, and the separately chosen phase-independent continuous
+  product realization.
 - **Exact source grade:**
 
 ```text
@@ -1615,7 +2275,7 @@ than one type.
 | `SCIENTIFIC GAP` | Completed pair state to null-path frequency/area state | Sections 4 and 6 type both objects; no universal identification is made. | A physical null family/query and the exact relation, if any, between \(\Phi\), \(R\), and \(A\). |
 | `SCIENTIFIC GAP` | Metric geometry to carried content | Geometry supplies \(R\) and \(A\), not nonzero content. | A physical source/content premise or derivation. |
 | `OWNER-PROVISIONAL PREMISE` | G350 to G351 | Inverse-area regular density follows after adopting source-free label-measure conservation. | Conservation is not metric-derived. |
-| `DOCUMENTATION GAP` | G351 to G352 | Registry records an accepted conditional clock-rate readout. | Full G352 source reconstruction is not yet in this manuscript. |
+| `DOCUMENTATION CLOSED / OWNER-PROVISIONAL PREMISE` | G351 to G352 | Sections 7.6--7.10 reconstruct the conditional continuous clock-rate result. | Physical identity, atomic/coarse-grained alternatives, source, and observation remain open. |
 | `SCIENTIFIC GAP` | Label measure to light or energy | No identification is made. | Physical identity, units, source, and measurement law. |
 | `SCIENTIFIC GAP` | Labelwise transfer to detector output | Multiplicity is retained mathematically. | Cross-label aggregation, phase/interference, and detector rule. |
 | `SUPPLIED INPUT / OPTIONAL SCIENTIFIC SELECTION GAP` | Admissible geometry to our universe | The completed chapters evaluate supplied metrics and histories. | Initial data/history, occupancy, topology, and scale remain inputs unless a separately authorized selection principle is sought. |
@@ -1649,13 +2309,27 @@ than one type.
 - The external reviews independently reconstructed the bounded central
   arguments, but their co-sealed manifests do not provide trusted external
   timestamps or signatures for historical chronology.
-- This pilot did not replay the complete G348–G352 evidence suites. Its fidelity
-  review is editorial/source-level unless a specific discrepancy makes a small
-  computation load-bearing.
+- This synthesis did not replay the complete G348–G352 evidence suites. Its
+  fidelity review is editorial/source-level unless a specific discrepancy
+  makes a small computation load-bearing.
 - General Lorentzian geometry used as mathematical method is not thereby a
   uniquely UDT prediction.
 
 ## Appendix D. Edition change record
+
+- **2026-09-05, complete fixed-snapshot first edition:** synthesized the
+  relational/projective, provisional response-law, lawful-development,
+  causal/area, complete G352, and observational-boundary obligations; added a
+  curated 335-row coverage/dependency sidecar and update-impact fixture. Two
+  source-first chapter reviews found fourteen bounded wording, typing, and
+  anchor defects; repair-only rereads accepted all fourteen. A new
+  separate-context final seam review found two metadata/navigation defects,
+  accepted the curated-anchor repair, and reported no remaining scientific or
+  cross-chapter defect. Its accepted pre-binding manuscript SHA-256 was
+  `295021d0142378e4bdda90bf3129e5667c0dedea2a2431148446e44eaf738cb5`.
+  Review was within the same model family, and the complete historical evidence
+  suites were not replayed. No scientific source, grade, premise, evidence
+  package, canon statement, protected work, or current-status owner changed.
 
 - **2026-09-05, fidelity-reviewed completed-pair expansion:** added shared conventions
   and a linked contents table; moved transfer-specific prerequisites beside

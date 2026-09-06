@@ -12,6 +12,19 @@ Authority: the exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result I
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
+## Central accepted-science account
+
+- Reader account: `UDT_METRIC_KERNEL_DEVELOPMENT.md`.
+- Exact coverage/dependency sidecar: `UDT_METRIC_KERNEL_COVERAGE.tsv`.
+- Deterministic updater and verifier: `update_metric_kernel_account.py` and
+  `verify_metric_kernel_account.py`.
+
+The account is pinned to scientific snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2` and explains
+the accepted metric/kernel chain through G352 within that declared edition. The sidecar covers every
+row of that snapshot, including supporting, boundary, control, outside-scope, and historical roles.
+Neither file is a second scientific registry: grades and current status remain owned by
+`CURRENT_SCIENTIFIC_PREMISES.tsv`, while `LIVE.md` owns the active frontier.
+
 ## Current relational route
 
 - Founding reciprocal source: `UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md`.

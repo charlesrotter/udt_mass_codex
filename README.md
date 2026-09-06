@@ -29,6 +29,12 @@ Exact relational-geometry execution status and the next gate belong only in `LIV
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` is a retained bounded evidence lane, not the
 current research frontier. Do not reconstruct the frontier from this deliberately low-churn README.
 
+For a readable, source-indexed account of the accepted metric and observer-pair kernel development
+at scientific snapshot `f23199e4a47aaf83acb9ea7d1ad382cd814159c2`, read
+`UDT_METRIC_KERNEL_DEVELOPMENT.md`. Its machine-checked row-by-row coverage companion is
+`UDT_METRIC_KERNEL_COVERAGE.tsv`. These explain and track accepted results; they do not replace
+`LIVE.md` as the current-work owner or `CURRENT_SCIENTIFIC_PREMISES.tsv` as the status authority.
+
 ## Repository rules
 
 - Work on `grok`; preserve unrelated dirt and protected local work.
