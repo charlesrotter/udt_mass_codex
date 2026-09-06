@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py"
+  ],
+  "start_utc": "2026-09-06T19:39:02.231194+00:00",
+  "elapsed_seconds": 0.20411278000028688,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "ValueError: Error from parse_expr with transformed code: 'Integer (1 )+lambda **Integer (2 )'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/sympify.py\", line 481, in sympify\n    expr = parse_expr(a, local_dict=locals, transformations=transformations, evaluate=evaluate)\n  File \"/home/udt-admin/.local/lib/python3.10/site-packages/sympy/parsing/sympy_parser.py\", line 1090, in parse_expr\n    raise e from ValueError(f\"Error from parse_expr with transformed code: {code!r}\")\n  File \"/home/udt-admin/.local/lib/python3.10/site-packages/sympy/parsing/sympy_parser.py\", line 1081, in parse_expr\n    rv = eval_expr(code, local_dict, global_dict)\n  File \"/home/udt-admin/.local/lib/python3.10/site-packages/sympy/parsing/sympy_parser.py\", line 909, in eval_expr\n    expr = eval(\n  File \"<string>\", line 1\n    Integer (1 )+lambda **Integer (2 )\n                 ^^^^^^\nSyntaxError: invalid syntax\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 57, in <module>\n    f = S.sympify(expression.replace('^','**'),locals={'lambda':lam})\n  File \"/home/udt-admin/.local/lib/python3.10/site-packages/sympy/core/sympify.py\", line 483, in sympify\n    raise SympifyError('could not parse %r' % a, exc)\nsympy.core.sympify.SympifyError: Sympify of expression 'could not parse '1+lambda**2'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)\n",
+  "max_RSS_KiB": 57992
+}

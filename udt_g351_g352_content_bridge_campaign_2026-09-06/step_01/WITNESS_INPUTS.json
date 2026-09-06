@@ -1,0 +1,14 @@
+{
+  "status": "free-and-explored exact query witnesses, not selected physical data",
+  "label_domain": "[0,1]^2 with dimensionless labels lambda,nu",
+  "screen_length_L": "2",
+  "L_role": "supplied finite query patch size, not theory-selected scale or boundary",
+  "metric_branch_A": "2",
+  "phase_spacing": "3/2",
+  "observer_frequencies": ["2", "4"],
+  "label_point": ["1/2", "1/3"],
+  "cut_graph_gradient": ["2/5", "-3/7"],
+  "phase_gauge_factor": "3",
+  "weights": ["1", "2", "1+lambda^2", "0"],
+  "expected_total_amounts": ["6", "12", "8", "0"]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "premise_id": "G352",
+    "term": "continuous_phase_clock_rate_carried_measure_readout",
+    "epistemic_label": "MIXED",
+    "active_use": "OWNER_ADOPTED_PROVISIONAL_CLOCK_RATE_READOUT__EXPLICITLY_CHOSEN_CONTINUOUS_TOTAL_PHASE_VARIATION_ON_SUPPLIED_NONZERO_FUTURE_RAISED_NULL_PHASE_GRADIENT__FIXED_POSITIVE_COMMON_PHASE_SPACING__EXPLICIT_PRODUCT_MEASURABLE_SPACE_WITH_SAME_PHASE_INDEPENDENT_G351_LABEL_MEASURE_AND_NO_PHASE_LABEL_CORRELATION__COMMON_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_SUPPORT__ARBITRARY_FINITE_FUTURE_TIMELIKE_LOCAL_OBSERVERS__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__COMMON_POSITIVE_AFFINE_PHASE_RESCALE__IDENTITY_COMPARISON_REVERSAL_AND_THREE_CUT_SEWING__MEASURABLE_FREQUENCY_INTEGRABLE_WEIGHTED_PUSHFORWARD_THROUGH_RANK_LOSS",
+    "open_scope": "physical identity and realization of any carried content; literal atomic event averaging interpolation or coarse graining; emission absorption source magnitude support and populated labels; phase dependent or correlated label content; cross-label aggregation interference and detector law; light photon energy brightness flux luminosity distance and observations; global worldlines path population route selection history occupancy topology matter mass action stability absolute scale physical Xmax and canon",
+    "controlling_source": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+    "precedence_rule": "G352_EXTERNAL_R2_REPAIR_FOLLOWUP_ACCEPTS_THE_BOUNDED_CONTINUOUS_PHASE_CLOCK_RATE_READOUT__OWNER_PROVISIONAL_READOUT_PLUS_EXPLICIT_CHOSEN_NONNEGATIVE_PHASE_LABEL_PRODUCT_GIVES_GAMMA_EQUALS_OMEGA_OVER_DELTATHETA_TIMES_S_OVER_J_AND_T_CLOCK_EQUALS_R_A_INVERSE__P_EQUALS_ONE_Q_EQUALS_MINUS_ONE_ONLY_FOR_THIS_READOUT_IN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN__ATOMIC_CROSSINGS_P_ZERO_OTHER_READOUTS_PHYSICAL_IDENTITY_SOURCE_POPULATION_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_AND_CANON_REMAIN_DISTINCT_OR_OPEN__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G352_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G351",
+    "term": "source_free_labelwise_carried_measure_conservation",
+    "epistemic_label": "MIXED",
+    "active_use": "OWNER_ADOPTED_PROVISIONAL_SOURCE_FREE_LABELWISE_CONSERVATION_OF_ONE_STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_MEASURE_ON_SUPPLIED_MEASURABLE_LABEL_SPACE__REGULAR_CUTS_WITH_FINITE_POSITIVE_TWO_DIMENSIONAL_METRIC_AREA_JACOBIAN__NONZERO_ABSOLUTELY_CONTINUOUS_COMPONENT_ONLY_FOR_Q_EQUALS_MINUS_ONE__DIVISION_FREE_ZERO_DENSITY_LAW_RETAINED__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__ALL_REAL_DECLARED_OBSERVER_WEIGHTS_P_RETAINED__MEASURABLE_PUSHFORWARD_RETAINS_PREIMAGE_MULTIPLICITY_THROUGH_CAUSTICS__SINGULAR_CONTENT_REMAINS_MEASURE_VALUED",
+    "open_scope": "physical identity and observer weight p of any carried readout; source magnitude support and populated labels; local balance and sourced evolution; signed complex or field-valued content; cross-label aggregation interference and detector law; emission absorption light photon energy brightness flux luminosity probability and distance; route germ history topology occupancy matter mass action stability observations scale physical Xmax and canon",
+    "controlling_source": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+    "precedence_rule": "G351_FRESH_EXTERNAL_GPT56SOL_ACCEPTS_THE_BOUNDED_CARRIED_MEASURE_CONSERVATION_RESULT__OWNER_PROVISIONAL_STANDARD_COUNTABLY_ADDITIVE_SOURCE_FREE_LABEL_MEASURE_GIVES_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY__FULL_FINITE_MEASURE_SURVIVES_CAUSTIC_PUSHFORWARD_WHILE_SINGULAR_CONTENT_HAS_NO_ORDINARY_DENSITY_EXPONENT__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G351_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G350",
+    "term": "frequency_area_carried_content_ownership",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_BOUNDED_ONE_SUPPLIED_RETAINED_PATH_LABEL__COMMON_POSITIVE_SCREEN_RANK_TWO_STRATUM__POSITIVE_METRIC_FREQUENCY_RATIO_R_AND_METRIC_SHEET_AREA_RATIO_A__CONTINUOUS_POSITIVE_LOCAL_SCALAR_MULTIPLIER__IDENTITY_REVERSAL_AND_EXACT_MULTIPLICATIVE_SEWING_FOR_EVERY_PAIR_ON_CHOSEN_FULL_ABSTRACT_RPLUS_SQUARED_DOMAIN__ALL_REAL_CHARACTER_WEIGHTS_P_Q_RETAINED__OBSERVER_COVARIANCE_TYPED_AS_ONE_DIMENSIONAL_WEIGHT_REPRESENTATION__CONSISTENTLY_ENDPOINT_ASSIGNED_POSITIVE_ZERO_CHAINS_RETAINED_AS_BROADER_COBOUNDARY_FREEDOM__ONE_SIDED_CAUSTIC_LIMIT_ONLY_UNDER_POSITIVE_DENOMINATOR_AND_FINITE_NONZERO_FREQUENCY_RATIO",
+    "open_scope": "physical identity of carried object or field and its nonzero source value or angular distribution; physical frequency weight p; conservation or local balance selecting area weight q; caustic continuation simultaneous-zero limits and cross-label aggregation; nonlocal additive interacting phase or field-valued transfer classes; emission absorption detector brightness flux luminosity probability and observational distance; physical ray route observer germ path-label population and weighting; selected metric history topology occupancy stability source action matter mass scale physical Xmax observations and canon",
+    "controlling_source": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+    "precedence_rule": "G350_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTS_R1_R4_AND_THE_BOUNDED_FREQUENCY_AREA_CARRIED_CONTENT_OWNERSHIP_CLASSIFICATION__EVERY_CONTINUOUS_POSITIVE_LOCAL_TWO_RATIO_MULTIPLICATIVE_RULE_ON_THE_CHOSEN_FULL_ABSTRACT_DOMAIN_IS_R_TO_P_A_TO_Q_WITH_ARBITRARY_REAL_WEIGHTS__RECIPROCITY_SEWING_AND_OBSERVER_COVARIANCE_SELECT_NO_WEIGHT__INVERSE_AREA_REQUIRES_A_NEW_UNADOPTED_CONSERVATION_PREMISE__SOURCE_CAUSTIC_AND_LABEL_AGGREGATION_REMAIN_SUPPLIED_OR_OPEN__NO_CARRIED_FIELD_LIGHT_FLUX_LUMINOSITY_DISTANCE_HISTORY_SCALE_XMAX_OR_CANON__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G350_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G313",
+    "term": "tracefree_ricci_solution_space_bootstrap_map",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_BOUNDED_G312_REGULAR_LOCAL_METRIC_ONLY_SCALE_FREE_VACUUM_TRACEFREE_RICCI_SOLUTION_SPACE_AND_BOOTSTRAP_TYPE_MAP_ONLY",
+    "open_scope": "nonidentity global admissibility predicate; physical Cauchy or boundary data; topology and global completion; scalar sign and magnitude; physical population; sources matter mass observations scale and physical Xmax; full Einstein-manifold census; stability singular characteristic topology-changing and outside-G312 arenas",
+    "controlling_source": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md",
+    "precedence_rule": "G313_EXTERNALLY_ACCEPTS_AFTER_PREREGISTERED_R1_R4_REPAIRS_THAT_THE_OWNER_ADOPTED_BOUNDED_TRACEFREE_RICCI_EQUATION_COMPLETES_BY_BIANCHI_TO_RIC_AB_EQUALS_LAMBDA_G_AB_WITH_ONE_CONNECTED_CONSTANT_BUT_DEFINES_A_MULTIBRANCH_EINSTEIN_ARENA__EXACT_POSITIVE_PRODUCT_BERGER_S3_LOCAL_DATA_RICCI_FLAT_PLANE_WAVE_AND_HOMOTHETY_WITNESSES_SHOW_ROUND_COSH_WEYL_TOPOLOGY_DATA_SCALAR_MAGNITUDE_SCALE_AND_POPULATION_ARE_NOT_SELECTED__NO_OWNED_NONIDENTITY_GLOBAL_ADMISSIBILITY_PREDICATE_EXISTS__LOCAL_METRIC_SUFFICIENCY_PERMITS_GLOBAL_SELECTION_OF_THE_METRIC_BUT_FORBIDS_A_HIDDEN_REMOTE_HISTORY_LOCAL_RESPONSE_AFTER_THE_JET_IS_FIXED__METRIC_KERNEL_ANGULAR_AND_OBSERVATIONAL_INTERFACES_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G313_SOURCE__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G312",
+    "term": "quiet_gr_response_constitution_discriminator",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_OWNER_ADOPTED_PROVISIONAL_FULL_QUIET_GR_PRINCIPAL_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_WITH_BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ONLY",
+    "open_scope": "covariant extension beyond the registered regular local smooth metric-only scale-free vacuum arena; derivative-order ownership outside existing gates; scalar curvature magnitude and sign; lawful data; topology and boundary completion; global bootstrap or admissibility law; realized history; pair and query population; source action matter mass observation scale and physical Xmax",
+    "controlling_source": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+    "precedence_rule": "OWNER_ADOPTION_2026_09_01_SUPERSEDES_ONLY_THE_HISTORICAL_UNADOPTED_GRADE__G312_EXTERNAL_EVIDENCE_CONTROLS_PREMISE_INDEPENDENCE_AND_CONDITIONAL_CLOSURE__FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP_AND_LOCAL_METRIC_SUFFICIENCY_ARE_OWNER_ADOPTED_PROVISIONALLY_NOT_DERIVED_NOT_CANON__BOUNDED_TRACEFREE_RICCI_IS_ACTIVE__GLOBAL_BOOTSTRAP_SCALAR_SCALE_HISTORY_POPULATION_SOURCE_MATTER_MASS_OBSERVATION_AND_PHYSICAL_XMAX_REMAIN_OPEN__LIVE_THEN_THIS_REGISTRY_THEN_G312_AND_ADOPTION_RECORD__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "G310",
+    "term": "differential_dual_reciprocity_tracefree_ownership",
+    "epistemic_label": "MIXED",
+    "active_use": "ACTIVE_BOUNDED_LOCAL_FOUR_DIMENSIONAL_ALL_PAIR_DIFFERENTIAL_RECIPROCITY_PROVISIONAL_POSTULATE_AND_CONDITIONAL_SUFFICIENCY_THEOREM_INSIDE_G301_RESPONSE_CLASS_ONLY",
+    "open_scope": "covariant extension beyond the bounded conditional G301 arena; canonization; whether all algebraically admissible planes are physically populated; validity of G301 locality metric-only order and response typing; scalar curvature magnitude and sign outside bounded downstream controls; realized global history; source matter mass population observation scale and physical Xmax; higher-order nonlocal auxiliary parity-odd and singular sectors",
+    "controlling_source": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+    "precedence_rule": "OWNER_ADOPTION_2026_08_31_SUPERSEDES_ONLY_THE_HISTORICAL_UNADOPTED_GRADE__G310_EXTERNAL_EVIDENCE_STILL_CONTROLS_THE_BOUNDED_CONSISTENCY_AND_CONDITIONAL_SUFFICIENCY_THEOREM__DDR_IS_NOT_DERIVED_OR_CANON__SELECTS_NO_MAGNITUDE_REALIZED_HISTORY_POPULATION_MASS_SCALE_OR_PHYSICAL_XMAX__ANGULAR_CANCELLATION_SEPARATELY_OWNS_LOUD_QUIET_LOUD__LIVE_THEN_THIS_REGISTRY_THEN_G310_AND_ADOPTION_RECORD__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "W6",
+    "term": "nonsignalling_copresence",
+    "epistemic_label": "WORKING",
+    "active_use": "ACTIVE_WORKING_TYPE_CLARIFICATION_OF_RELATIONAL_MEMBERSHIP_VERSUS_CAUSAL_RESPONSE_ONLY",
+    "open_scope": "nonidentity complete-network constraint and causal preservation update; physical pair graph and population; relation to reciprocal comparison groupoid; owned integrable foliation if global now is required; native response and observation maps; metric history operational distance scale source matter Xmax and empirical tests",
+    "controlling_source": "founding.md",
+    "precedence_rule": "W6_IS_CHARLES_OWNER_ADOPTED_WORKING_TYPE_CLARIFICATION_AFTER_G294__IT_REINTERPRETS_FOUNDATIONAL_CONNECTEDNESS_AS_NONPROPAGATING_RELATIONAL_MEMBERSHIP_WHILE_REQUIRING_METRIC_CAUSAL_CONTROLLABLE_RESPONSE__IT_DOES_NOT_SUPPLY_THE_CONSTRAINT_UPDATE_RESPONSE_MAP_HISTORY_POPULATION_GLOBAL_NOW_DISTANCE_SCALE_OR_XMAX__LIVE_THEN_THIS_REGISTRY_THEN_FOUNDING_AND_G294__CONFLICT_MEANS_STOP"
+  },
+  {
+    "premise_id": "W5",
+    "term": "physical_normalized_projective_pair_position",
+    "epistemic_label": "WORKING",
+    "active_use": "ACTIVE_WORKING_PHYSICAL_INTERPRETATION_OF_THE_COMPLETE_PROJECTIVE_OPEN_BALL_COORDINATE_ONLY",
+    "open_scope": "dimensional scale and same-object operational anchor; proper radar optical and areal distance relations; metric history; relation branch and path population; path independence; global realization; Xmax value profile supremum and completion; source action matter dynamics transfer aggregation and signalling",
+    "controlling_source": "founding.md",
+    "precedence_rule": "W5_IS_CHARLES_OWNER_ADOPTED_WORKING_CLARIFICATION_AFTER_G273_G274_EXTERNAL_LANDINGS__IT_OVERRIDES_ONLY_THEIR_THEN_OPEN_PHYSICAL_POSITION_ADOPTION_STATUS__THEIR_MATHEMATICAL_SCOPE_AND_ALL_SCALE_HISTORY_POPULATION_PATH_AND_XMAX_GUARDS_REMAIN__LIVE_THEN_THIS_REGISTRY_THEN_FOUNDING_AND_CITED_G273_G274_SOURCES__CONFLICT_MEANS_STOP"
+  }
+]

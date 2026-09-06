@@ -1,0 +1,87 @@
+[
+  {
+    "mutation": "erase_weight",
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+      "--mutation",
+      "erase_weight"
+    ],
+    "start_utc": "2026-09-06T19:42:23.309817+00:00",
+    "elapsed_seconds": 0.1975971780011605,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 64, in <module>\n    eq(f'total_amount_{index}',total,S.Rational(inputs['expected_total_amounts'][index]))\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 32, in eq\n    assert S.simplify(a-b)==0,name\nAssertionError: total_amount_1\n",
+    "expected_guard": "total_amount_1",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "phase_blind",
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+      "--mutation",
+      "phase_blind"
+    ],
+    "start_utc": "2026-09-06T19:42:23.507416+00:00",
+    "elapsed_seconds": 0.2275130239977443,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 50, in <module>\n    eq('phase_dependence_detected',phase_derivative(bad),2*theta)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 32, in eq\n    assert S.simplify(a-b)==0,name\nAssertionError: phase_dependence_detected\n",
+    "expected_guard": "phase_dependence_detected",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "observer_weighted_mu",
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+      "--mutation",
+      "observer_weighted_mu"
+    ],
+    "start_utc": "2026-09-06T19:42:23.734932+00:00",
+    "elapsed_seconds": 0.19542699299927335,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 75, in <module>\n    eq(f'current_readout_match_{index}_{w}',rate,-(obs.T*g*Cf)[0])\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 32, in eq\n    assert S.simplify(a-b)==0,name\nAssertionError: current_readout_match_0_4\n",
+    "expected_guard": "current_readout_match_0_4",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "gauge_rebuild_mu",
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+      "--mutation",
+      "gauge_rebuild_mu"
+    ],
+    "start_utc": "2026-09-06T19:42:23.930360+00:00",
+    "elapsed_seconds": 0.1899724309987505,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 78, in <module>\n    eq(f'fixed_measure_gauge_{index}_{w}',gauge*omega/(gauge*Delta)*new_density/J,rate)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 32, in eq\n    assert S.simplify(a-b)==0,name\nAssertionError: fixed_measure_gauge_0_2\n",
+    "expected_guard": "fixed_measure_gauge_0_2",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "coordinate_area_identity",
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+      "--mutation",
+      "coordinate_area_identity"
+    ],
+    "start_utc": "2026-09-06T19:42:24.120337+00:00",
+    "elapsed_seconds": 0.17451032500321162,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 46, in <module>\n    eq('intrinsic_metric_cut_area',J,L**2)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\", line 32, in eq\n    assert S.simplify(a-b)==0,name\nAssertionError: intrinsic_metric_cut_area\n",
+    "expected_guard": "intrinsic_metric_cut_area",
+    "caught_at_expected_guard": true
+  }
+]
