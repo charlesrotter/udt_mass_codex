@@ -1,0 +1,97 @@
+{
+  "kind": "exact algebra/regression; analytic quantifiers require argument review",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutation": null,
+  "passed_groups": [
+    "full_translation_isometry",
+    "full_covector_preserved",
+    "isometry_jacobian",
+    "generator_preserved",
+    "full_proper_homothety",
+    "homothety_beta_fixed",
+    "homothety_volume",
+    "homothety_current_weight",
+    "quotient_amount_area_weight",
+    "passive_null_boost_metric",
+    "passive_null_boost_covector",
+    "rational_isometry_A_2",
+    "rational_isometry_A_-3",
+    "nonconstant_profile_fails_translation",
+    "fixed_point_weight_obstruction_coefficient",
+    "unit_square_countable_partition_first_N_mass"
+  ],
+  "group_count": 16,
+  "metric_shape": [
+    4,
+    4
+  ],
+  "generic_residual": "zero using p_second=A*p, q_second=-A*q",
+  "homothety": {
+    "metric_weight": 2,
+    "beta_weight": 0,
+    "current_weight": -2,
+    "amount_weight": 2
+  },
+  "fixed_point_h_2_coefficient": "3/4",
+  "finite_witnesses": [
+    {
+      "A": "2",
+      "metric_pullback_residual": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "A": "-3",
+      "metric_pullback_residual": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    }
+  ]
+}

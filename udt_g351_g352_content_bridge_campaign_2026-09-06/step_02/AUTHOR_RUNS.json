@@ -1,0 +1,110 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py"
+    ],
+    "start_utc": "2026-09-06T19:58:57.365736+00:00",
+    "elapsed_seconds": 0.24301494499741239,
+    "returncode": 0,
+    "stdout": "{\n  \"kind\": \"exact algebra/regression; analytic quantifiers require argument review\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"mutation\": null,\n  \"passed_groups\": [\n    \"full_translation_isometry\",\n    \"full_covector_preserved\",\n    \"isometry_jacobian\",\n    \"generator_preserved\",\n    \"full_proper_homothety\",\n    \"homothety_beta_fixed\",\n    \"homothety_volume\",\n    \"homothety_current_weight\",\n    \"quotient_amount_area_weight\",\n    \"passive_null_boost_metric\",\n    \"passive_null_boost_covector\",\n    \"rational_isometry_A_2\",\n    \"rational_isometry_A_-3\",\n    \"nonconstant_profile_fails_translation\",\n    \"fixed_point_weight_obstruction_coefficient\",\n    \"unit_square_countable_partition_first_N_mass\"\n  ],\n  \"group_count\": 16,\n  \"metric_shape\": [\n    4,\n    4\n  ],\n  \"generic_residual\": \"zero using p_second=A*p, q_second=-A*q\",\n  \"homothety\": {\n    \"metric_weight\": 2,\n    \"beta_weight\": 0,\n    \"current_weight\": -2,\n    \"amount_weight\": 2\n  },\n  \"fixed_point_h_2_coefficient\": \"3/4\",\n  \"finite_witnesses\": [\n    {\n      \"A\": \"2\",\n      \"metric_pullback_residual\": [\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ]\n      ]\n    },\n    {\n      \"A\": \"-3\",\n      \"metric_pullback_residual\": [\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ]\n      ]\n    }\n  ]\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 47764,
+    "record_note": "Initial tool output transcribed after observation; stdout content matches the separately captured repeat. No independent chronology claim."
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py"
+    ],
+    "mutation": null,
+    "start_utc": "2026-09-06T19:59:20.560641+00:00",
+    "elapsed_seconds": 0.2536624250024033,
+    "returncode": 0,
+    "stdout": "{\n  \"kind\": \"exact algebra/regression; analytic quantifiers require argument review\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"mutation\": null,\n  \"passed_groups\": [\n    \"full_translation_isometry\",\n    \"full_covector_preserved\",\n    \"isometry_jacobian\",\n    \"generator_preserved\",\n    \"full_proper_homothety\",\n    \"homothety_beta_fixed\",\n    \"homothety_volume\",\n    \"homothety_current_weight\",\n    \"quotient_amount_area_weight\",\n    \"passive_null_boost_metric\",\n    \"passive_null_boost_covector\",\n    \"rational_isometry_A_2\",\n    \"rational_isometry_A_-3\",\n    \"nonconstant_profile_fails_translation\",\n    \"fixed_point_weight_obstruction_coefficient\",\n    \"unit_square_countable_partition_first_N_mass\"\n  ],\n  \"group_count\": 16,\n  \"metric_shape\": [\n    4,\n    4\n  ],\n  \"generic_residual\": \"zero using p_second=A*p, q_second=-A*q\",\n  \"homothety\": {\n    \"metric_weight\": 2,\n    \"beta_weight\": 0,\n    \"current_weight\": -2,\n    \"amount_weight\": 2\n  },\n  \"fixed_point_h_2_coefficient\": \"3/4\",\n  \"finite_witnesses\": [\n    {\n      \"A\": \"2\",\n      \"metric_pullback_residual\": [\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ]\n      ]\n    },\n    {\n      \"A\": \"-3\",\n      \"metric_pullback_residual\": [\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ],\n        [\n          \"0\",\n          \"0\",\n          \"0\",\n          \"0\"\n        ]\n      ]\n    }\n  ]\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 47704
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+      "--mutation",
+      "v_shift_sign"
+    ],
+    "mutation": "v_shift_sign",
+    "start_utc": "2026-09-06T19:59:20.814331+00:00",
+    "elapsed_seconds": 0.2673765090003144,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 44, in <module>\n    matrix_equal('full_translation_isometry',T.T*metric(x+p,y+q)*T,g)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 30, in matrix_equal\n    assert residual == S.zeros(*residual.shape), name\nAssertionError: full_translation_isometry\n",
+    "max_RSS_KiB": 59740
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+      "--mutation",
+      "wrong_y_ode"
+    ],
+    "mutation": "wrong_y_ode",
+    "start_utc": "2026-09-06T19:59:21.081734+00:00",
+    "elapsed_seconds": 0.25567220100128907,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 44, in <module>\n    matrix_equal('full_translation_isometry',T.T*metric(x+p,y+q)*T,g)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 30, in matrix_equal\n    assert residual == S.zeros(*residual.shape), name\nAssertionError: full_translation_isometry\n",
+    "max_RSS_KiB": 59944
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+      "--mutation",
+      "homothety_v_power"
+    ],
+    "mutation": "homothety_v_power",
+    "start_utc": "2026-09-06T19:59:21.337436+00:00",
+    "elapsed_seconds": 0.26607489500020165,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 50, in <module>\n    matrix_equal('full_proper_homothety',D.T*metric(h*x,h*y)*D,h**2*g)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 30, in matrix_equal\n    assert residual == S.zeros(*residual.shape), name\nAssertionError: full_proper_homothety\n",
+    "max_RSS_KiB": 60056
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+      "--mutation",
+      "density_scale"
+    ],
+    "mutation": "density_scale",
+    "start_utc": "2026-09-06T19:59:21.603542+00:00",
+    "elapsed_seconds": 0.2696462519998022,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 56, in <module>\n    equal('quotient_amount_area_weight',actual_density_scale,h**2)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 33, in equal\n    assert S.simplify(left-right)==0, name\nAssertionError: quotient_amount_area_weight\n",
+    "max_RSS_KiB": 60192
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py",
+      "--mutation",
+      "component_as_scalar"
+    ],
+    "mutation": "component_as_scalar",
+    "start_utc": "2026-09-06T19:59:21.873216+00:00",
+    "elapsed_seconds": 0.2796301419984957,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 61, in <module>\n    matrix_equal('passive_null_boost_metric',N.T*metric(x,y,new_amp)*N,g)\n  File \"/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py\", line 30, in matrix_equal\n    assert residual == S.zeros(*residual.shape), name\nAssertionError: passive_null_boost_metric\n",
+    "max_RSS_KiB": 60192
+  }
+]
