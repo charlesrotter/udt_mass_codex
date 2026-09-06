@@ -14,11 +14,14 @@ Fill every field. Do not delete rows.
 | **Date** | YYYY-MM-DD |
 | **Mode** | MAP / OBSERVE / PONDER / DERIVE |
 | **Slice scope** | e.g. static SSS, chart origin, N=1580 full STAT+SYS |
-| **Observing or targeting?** | OBSERVE / TARGET — if TARGET: reframe or stop |
+| **Observing or targeting?** | OBSERVE / TARGETED-BOUNDED / ANSWER-FITTED-RISK; state quantifier and why scope is legitimate |
 | **Comparator scaffolds** | e.g. LCDM Om=0.3 residual **reference only** — not target; or NONE |
 | **Verifier status** | NONE / SELF-SCRIPT (list cmds) / BLIND-PENDING / BLIND-PASS (id, date) |
 | **Build-on grade** | DEMO / LEAD / CONDITIONAL / BANKED-FOR-STRUCTURE |
 | **Re-run commands** | shell lines that reproduce numeric claims, or N/A |
+| **Evidence type** | analytic proof / exact arithmetic / floating-point / numerical certification / regression / observation / review / adoption |
+| **Approximation** | exact, or parameter + validity domain + error/convergence support + downstream limits |
+| **Resource contract** | process/device/budget/timeout/checkpoint/stop conditions, or N/A |
 
 ### Premise ledger
 
@@ -47,3 +50,7 @@ Fill every field. Do not delete rows.
 | **BANKED-FOR-STRUCTURE** | Hygiene-clean structure step — still not Charles physics-canon |
 
 **Hard rule:** χ² / residual improvement never upgrades CHOSE → DERIVED.
+
+**Quantifier rule:** a witness may establish scoped existence and a counterexample may refute a
+universal claim; a finite failed search does not establish nonexistence. Targeted bounded questions
+are permitted, but hidden answer-fitting and selective outcome disposal are not.

@@ -96,6 +96,14 @@ MAPPED_SKILL_FILES = (
     ".claude/skills/solution-space-not-imposition/SKILL.md",
 )
 
+METHOD_AUTOMATION_CONTROLS = (
+    ".claude/settings.json",
+    ".claude/hooks/corral_trigger.py",
+    ".claude/guardrail_work_order_metadata.json",
+    "guardrail_import_scanner.py",
+    "tests/guardrail_behavior_cases.json",
+)
+
 STALE_STARTUP_TOKENS = (
     "CMB PEAK OPTIMIZATION",
     "ACTIVE ARC =",
@@ -296,6 +304,9 @@ def validate_startup_surface(root: Path) -> None:
         path = root / relative
         require(path.is_file(), f"missing startup control: {relative}")
         controls[relative] = path.read_text(encoding="utf-8")
+    for relative in METHOD_AUTOMATION_CONTROLS:
+        path = root / relative
+        require(path.is_file(), f"missing method automation control: {relative}")
 
     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
     require(registry.is_file(), "premise registry missing")
@@ -696,6 +707,51 @@ def validate_startup_surface(root: Path) -> None:
     )
     require("update every push" not in completeness_skill,
             "completeness skill retains obsolete update-every-push instruction")
+
+    settings = json.loads((root / ".claude/settings.json").read_text(encoding="utf-8"))
+    hooks = settings.get("hooks", {})
+    require(
+        hooks.get("SessionStart", [{}])[0].get("matcher")
+        == "startup|resume|clear|compact|fork",
+        "Claude SessionStart method routes incomplete",
+    )
+    require(
+        hooks.get("SubagentStart", [{}])[0].get("matcher") == ".*",
+        "Claude SubagentStart method route missing",
+    )
+    require(
+        hooks.get("PreToolUse", [{}])[0].get("matcher") == "Task|Agent|Bash",
+        "Claude PreToolUse method routes incomplete",
+    )
+    hook_source = (root / ".claude/hooks/corral_trigger.py").read_text(encoding="utf-8")
+    for token in (
+        "no guardrail-health claim is made",
+        "only that this hook event ran",
+        "SubagentStart",
+        "guardrail_metadata",
+        "solver_entrypoints",
+        "permission enforcement",
+    ):
+        require(token in hook_source, f"corral hook guard absent: {token}")
+    for stale in ("all guardrails active", "69 passed", "Nr<=16/24"):
+        require(stale.lower() not in hook_source.lower(), f"stale corral hook claim present: {stale}")
+    scanner_source = (root / "guardrail_import_scanner.py").read_text(encoding="utf-8")
+    for token in (
+        "unclassified_dynamic",
+        "potential_runtime",
+        "script_entry",
+        "relative import",
+        "never imports inspected code",
+    ):
+        require(token in scanner_source, f"import-scanner scope guard absent: {token}")
+    behavior = json.loads(
+        (root / "tests/guardrail_behavior_cases.json").read_text(encoding="utf-8")
+    )
+    require(
+        behavior.get("frozen_before_revised_runtime_evaluation") is True,
+        "guardrail behavior cases were not frozen before evaluation",
+    )
+    require(len(behavior.get("cases", [])) >= 18, "guardrail behavior case coverage incomplete")
 
     agents = controls["AGENTS.md"]
     normalized_agents = " ".join(agents.split())

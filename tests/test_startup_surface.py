@@ -119,6 +119,11 @@ def _startup_copy(tmp_path: Path) -> Path:
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source, destination)
+    for relative in premise_guard.METHOD_AUTOMATION_CONTROLS:
+        source = REPO / relative
+        destination = tmp_path / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, destination)
 
     for relative in premise_guard.FIXED_ROOT_PROVENANCE_PATHS:
         source = REPO / relative

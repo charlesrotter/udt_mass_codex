@@ -1,0 +1,6 @@
+{
+  "scope": "Repository-default reminder metadata; this file authorizes no scientific solve.",
+  "solver_entrypoints": [],
+  "resource_budget": "must be declared by the active work order",
+  "stop_conditions": "must be declared by the active work order"
+}

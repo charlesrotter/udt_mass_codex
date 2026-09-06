@@ -1,7 +1,15 @@
-# UDT Mass Codex — Codex Working Instructions
+# UDT Mass Codex — primary working-method authority
 
 Charles canonizes; `CANON.md` requires sign-off. This is an evidence ledger; do not
 strengthen claims.
+
+This file is the single primary authority for current repository method. `CLAUDE.md`,
+`.claude/skills/`, hooks, templates, and runtime-specific instructions are compact adapters or
+expanded procedures; they may not contradict this file or supply scientific premises. Scientific
+status remains owned by the current status documents, exact registry, and reviewed sources named
+below. A loaded instruction, reminder, checklist, or test is not itself scientific evidence.
+Current status comes from the current status documents. A coverage checklist is premise-relative
+and cannot supply an if-and-only-if theorem.
 
 ## Mandatory startup
 
@@ -20,9 +28,10 @@ git log -8 --oneline
 
 If local work blocks pulling, preserve and inspect it; never reset, overwrite, clean, or stash it to
 synchronize. For an untracked/upstream collision, prove byte identity and back it up before moving.
-If network/auth prevents sync, report the failure and mark remote freshness unverified. Continue
-only read-only orientation from HEAD; do not research, bank, or claim closure until
-sync succeeds.
+If network/auth prevents sync, report the failure and mark remote freshness unverified. Pinned
+read-only audits and explicitly authorized bounded offline work may continue without claiming remote
+freshness. Shared promotion or integration must wait for synchronization, conflict, permission, and
+required-review checks. An unavailable check blocks only the claim or action that requires it.
 
 Read from disk in this exact bounded order:
 
@@ -67,29 +76,28 @@ a long solve before that orientation.
 ## Scoped synthesis and documentation
 
 Method instructions, skills, hooks, examples, and dispatch templates do not supply scientific
-premises. Current status comes from the current status documents; scientific grades and ownership
-come from the exact premise/result registry and its reviewed sources. Historical field, action,
-carrier, boundary, topology, and finite-cell examples are branch-specific unless current evidence
-admits them. A coverage checklist is premise-relative: it can expose omissions, but completing it is
-not an if-and-only-if proof that a solution space is exhausted.
+premises. Registry sources own grades. Historical field, action, carrier, boundary, topology, and
+finite-cell examples are branch-specific unless current evidence admits them. A coverage checklist
+finds omissions; it is not a completeness theorem. Within authorized synthesis, reconstruct only
+accepted arguments and same-premise checks. Standard mathematics and numerical methods are allowed
+as methods with hypotheses checked. Do not add a physical premise, replace an equation, import a
+fitted profile, or invent a connection. Mark an unsupported join open.
 
-Within an authorized synthesis, faithfully organize accepted material, explain definitions,
-reconstruct source arguments from the same premises, check small algebraic or sign steps, and make
-already-established dependencies explicit. Standard mathematics and numerical methods are allowed
-as methods when their hypotheses are checked. Do not add a physical premise, replace an equation,
-import a fitted profile, or invent a missing scientific connection. Mark an unsupported join open;
-a new lemma or physical bridge is research, not an editorial repair.
+A labeled draft or candidate-synthesis checkpoint may be saved and committed with snapshot, scope,
+premises, limits, and review state; it is not thereby accepted. Review documentation in proportion
+to what changed and record omissions. Review does not upgrade source evidence, adopt a premise,
+establish empirical truth, or make canon. A claimed independent reviewer must be an actual separate context.
 
-A labeled draft or candidate-synthesis checkpoint may be saved and committed without
-promoting its contents into accepted science. It must state its source snapshot, scope, premises,
-limitations, and review state, and it may not become an accepted dependency silently. Scientific
-promotion retains the existing preregistration, scope, independent-review, and premise-audit gates.
+## Bounded discovery authorization
 
-Review documentation in proportion to what changed. Organization or faithful explanation needs a
-bounded fidelity check; changed definitions, normalization, assumptions, theorem scope, dependency,
-or physical interpretation need substantive review. Record what was and was not checked. Review of
-a synthesis does not upgrade its source evidence, adopt a premise, establish empirical truth, or
-make the document canon. A claimed independent reviewer must be an actual separate context.
+An approved work order names question, premises, methods, workspace, exclusions, budget, stops, and
+maximum conclusion. Inside it, algebra, limits, examples, counterexamples, conditional lemmas, and
+failed-conjecture revision may proceed without repeated permission. New physics or scope still needs
+authority. Keep exploration, candidate verification, and promotion distinct. A commit preserves; it
+does not accept. An authorized counterfactual remains explicitly unadopted and excluded from
+accepted dependencies. An unproved dependency may appear only in an explicitly conditional
+candidate chain; it cannot silently become an accepted input. Without advance authorization use
+`MAP -> OBSERVE -> PONDER -> DERIVE`; with it, proceed until the declared stop or a real blocker.
 
 ## Protected local work
 
@@ -104,89 +112,77 @@ A clean clone may not contain those paths. Their absence is not permission to re
 promote them. Conversely, a clean clone can contain a tracked directory shell while the protected
 local payload is absent; directory presence does not prove that the unbanked work was committed.
 
-## Codex/Claude compatibility
+## Runtime compatibility
 
-`CLAUDE.md` and `.claude/skills/` are binding despite their names. Codex must not assume Claude
-hooks, project memory, background jobs, or automatic skill loading are active. Apply these pauses
-manually:
-
-- before a solve: observing or targeting; whole frame or bounded slice; every physical choice tagged;
-- before explaining a mismatch: solver completeness before any new mechanism;
-- before a commit or verdict: preregistration, bounded scope, independent verification, and premise audit;
-- before *proved*, *settled*, *stable*, *single basin*, *native*, or *derived*: exact regime and
-  remaining open scope.
-
+`CLAUDE.md` and triggered skills expand this method. Codex must not assume hooks, memory,
+jobs, or skill loading are active; apply their pauses manually. A reminder is not enforcement.
 Disk evidence wins over conversational memory.
 
 ## Binding UDT research rules
 
-- Remain pure to UDT: **the metric is the theory**. Obtain the current scientific objects, grades,
-  construction route, and open boundary from `LIVE.md`, `CURRENT_RESEARCH_PROGRAM.md`, and the exact
-  registry—not from this method file or historical root prose. Do not turn a conditional evaluator
-  into a selector, a bounded control into an input, or an adopted premise into a derivation or canon.
-- **Primary-kernel regression gate:** use only the registry-cited current route; historical controls
-  are never construction inputs.
-- `c_E` is an observed clock/ruler calibration scale. Conditional `c_eff` ratios are inter-observer
-  frame readouts, not automatically local signal speeds.
-- Angular cancellation alone owns loud--quiet--loud.
-- `X_max` retains its owner-ratified working asymptotic meaning but is inactive as a local reciprocal
-  kernel input. The native scalar kernel ends at dimensionless `chi=tanh(phi_pair)`. A dimensionful
-  `X_max` may be named only after an independent metric separation, physical relation domain,
-  all-frame finite supremum, and divergent-depth join are derived from a global completion. Its
-  value, realization, and modulation remain `OPEN`; never infer it from `x=X_max chi` or turn it
-  into a preferred center, material wall, seam, finite-cell seal, or boundary term.
-- Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` and inactive unless Charles explicitly
-  reauthorizes it. Measured `c_E` and `G_obs` remain observational anchors.
-- Keep macro WR-L work separate from particle-mass/carrier work.
-- The `S^2` carrier is a `POSIT`, not a derived necessity. The conditional celestial null-direction
-  `S^2` does not derive a fixed round carrier, section, transport, action, or boundary.
-- An EH metric-only action is `CONDITIONAL` through its stated minimality premise, not native UDT by
-  familiarity.
-- Bootstrap/stable-matter is a working hypothesis, not a selection theorem.
-- Do not import Lambda-CDM, Standard Model physics, quantum mechanics, QED, GR field equations,
-  fluids, Q-balls, boson stars, or textbook mechanisms as UDT derivations. Clearly label comparison
-  and readout tools.
-- No fitting, fudge factors, hard physical cutoffs, effective corrections, or invented couplings.
-  Numerical controls are allowed only when they do not alter the tested continuum functional.
-- Use full nonlinear covariant operators. Do not linearize without controlled error and an explicit
-  scope stamp.
-- Audit algebra, signs, boundaries, operator provenance, convergence, raw evidence, and code before
-  accepting or abandoning an approach.
-- Use `DERIVED`, `CHOSE`, `WORKING`, `OPEN`, `CONDITIONAL`, `POSIT`, and `OBSERVED` precisely. A
-  numerical result is `OBSERVED`, not automatically physics or canon.
-- Raw residual/backward error is the certification gate. A preconditioned residual may diagnose or
-  accelerate but may not replace it.
+The following are regression mirrors of current scientific controls, not a second status owner.
+The premise verifier must fail if they drift from their named sources. **Primary-kernel regression gate:**
+the native scalar kernel ends at dimensionless `chi=tanh(phi_pair)` on its supplied regular
+calibrated pair; the complete event/path-to-depth assignment remains open. `c_E` is the observed clock/ruler calibration scale,
+while conditional `c_eff` ratios are not automatically local signal
+speeds. Angular cancellation alone owns loud--quiet--loud. Strong local CSN remains
+`CHALLENGED_OWNER_POSTULATE_NOT_DERIVED`; measured `c_E` and `G_obs` remain observational anchors.
+`X_max` retains its working asymptotic global-completion meaning but is inactive as a local kernel
+input. Its value, realization, and modulation remain `OPEN`; never turn it into a preferred center,
+material wall, seam, cutoff, finite-cell seal, boundary term, or selected scale. The `S^2` carrier is a `POSIT`;
+an EH metric-only action is `CONDITIONAL`; Bootstrap/stable-matter is a working hypothesis.
+
+- Remain pure to UDT: **the metric is the theory**. Obtain scientific objects, grades, routes, and
+  open boundaries from current sources—not method prose. Never turn an evaluator into a selector, a
+  control into an input, or an adopted premise into derivation/canon.
+- Historical controls are not construction inputs. Keep macro and particle/carrier lanes separate.
+  Do not import familiar physics as UDT derivation; label comparisons and readouts.
+- Do not promote fitting, cutoffs, corrections, or invented couplings as native. Authorized
+  calibration remains calibration. Use exact epistemic labels.
+- Controlled approximations require parameter, domain, error/convergence support, and inherited
+  limits. Exact first variations and linear stability are scoped—not global nonlinear claims.
+- Audit algebra, signs, boundaries, provenance, convergence, raw evidence, and code. Original
+  residual/backward error certifies; a preconditioned residual only assists.
 
 Run `python3 verify_current_scientific_premises.py` before banking a high-risk field census, action,
 scale, bootstrap, Maxwell-like, carrier, `X_max`, mass, source, or boundary claim.
 
 ## Method
 
-Default order: `MAP -> OBSERVE -> PONDER -> DERIVE`. MAP and PONDER with Charles are brief and in
-lay language. Derivation starts only after the frame, assumptions, and premise ledger are visible
-and Charles says go.
+Before computation state the question/quantifier/regime; metric- or template-led frame; every
+physical choice and numerical control; omissions; evidence-appropriate freeze; resources/stops; and
+maximum claim. Use `free-and-explored`, `pinned-by-THEORY` with citation, or `pinned-by-HABIT`.
 
-For every proposed computation state:
+Targeted bounded questions are legitimate; hidden answer-fitting is not. A witness may prove scoped
+existence and a counterexample may refute a universal. Neither proves uniqueness, typicality,
+nonexistence, or completeness; a failed finite search is not nonexistence.
 
-1. the whole question and exact bounded regime;
-2. metric-led or template-led;
-3. every value, boundary, sign, chart, source, carrier, and action premise as `free-and-explored`,
-   `pinned-by-THEORY` with citation, or `pinned-by-HABIT`;
-4. all omitted sectors, branches, boundaries, and limits;
-5. preregistered certification/falsification contract and maximum conclusion.
+Certification may reject a numerical claim for residuals, constraints, object type, boundaries,
+error control, or failed claimed convergence. Preserve diagnostic runs; do not infer class absence
+or reject valid admitted objects for unfamiliar appearance.
 
-Characterize solution space; do not filter it to demand a particle, lump, spectrum, smooth shape,
-or expected answer. A negative is premise-scoped. If a premise changes, re-grade every dependent
-negative. On mismatch check omitted sectors/boundaries, numerical bugs/convergence, frozen degrees
-of freedom, and incomplete solution-space coverage before proposing a mechanism.
+On mismatch, freeze a finite diagnostic for implementation, equations, omissions, constraints,
+boundaries, numerical error, frozen choices, and claim-relevant coverage. Then report defect,
+bounded incompatibility, or ambiguity; do not defer forever or invent a repair mechanism. Changed
+sources flag relevant positive and negative descendants without automatically deciding them.
 
 ## Evidence and banking
 
-- Preregister tests, tolerances, classifications, and conclusion wording before outcomes.
+- Observations: freeze model/tuning/estimator/exclusions/uncertainty/decision before confirmation
+  outcomes and disclose exposure. Numerics: freeze equations/scope/tests/tolerances/repairs and keep
+  failures. Mathematics may explore before freezing a candidate; disclose history and review logic.
 - Independently recompute the load-bearing quantity from saved artifacts. Hunt circular checks,
   shared-code false independence, vacuous assertions, loose tolerances, and incomplete sampling.
-- Use a fresh adversarial context and independent implementation for load-bearing results; use a
-  different method/model family when practical. Same-code comparison is regression evidence only.
+- Record reviewer context/model, versions, exposure, and checks. Fresh context, different model,
+  different implementation, and independent argument are separate. A critique names the defect,
+  reason/counterexample, survivor, and smallest repair. Same-code checks are regression only.
+- Match review to the actual change. A packaging-only repair needs reproducibility and unchanged-
+  science checks; a scientific change needs substantive review. Record checks not repeated and
+  reuse sound existing utilities instead of cloning review machinery.
+- Distinguish proof, exact arithmetic, floating point, certification, regression, observation,
+  review, and adoption. Checksums show correspondence, not truth/independence/chronology. Separate
+  dependencies from reviews and controls, and attach them to stable premise/result IDs and source
+  versions.
 - Preserve stdout/stderr, machine-readable output, exact commands, versions, parameters, shapes,
   and SHA-256 manifests.
 - Commit one logical evidence change at a time and push `grok`. Edit live files rather than creating
@@ -194,27 +190,23 @@ of freedom, and incomplete solution-space coverage before proposing a mechanism.
 - Do not edit `CANON.md` without Charles's explicit sign-off. Do not overwrite grid artifacts.
 - Preserve unrelated dirt. Never use destructive git or filesystem commands.
 
-Before banking a verdict report all four gates:
-
-1. preregistered;
-2. full space, or bounded scope justified;
-3. independently verified on the load-bearing premise;
-4. every premise audited.
-
-If any gate is absent, bank a `LEAD`, `OPEN`, or `VERIFIED-WITH-CAVEATS`.
+Before promotion report freeze/discovery history, scope/quantifiers, review independence, and premise
+audit. Missing gates leave a draft, `LEAD`, `OPEN`, or `VERIFIED-WITH-CAVEATS`, not a ban on saving it.
 
 ## Numerical operations
 
-- One GPU process at a time. State process, device, dtype, grid, memory estimate, output names,
-  timeout, checkpoint/restart behavior, and stop conditions before launch.
-- Prefer saved-field recomputation. Long production requires written dispatch and preregistered gates.
-- Check GPU work with independent CPU/symbolic anchors where feasible.
-- For corrected-carrier work use the audited no-null `L2+L4` functional and exact-HVP path; older
-  centered-derivative tools are provenance unless explicitly audited.
-- Relaxation is not physical time evolution; a finite box is not infinite volume; positive sampled
-  Ritz values alone do not certify stability.
+Use one GPU process. State device/dtype/grid/memory/output/timeout/checkpoints/stops from the current
+work order and measured environment, not stale filename lists, caps, or pass counts. Prefer saved
+fields and independent CPU/symbolic anchors. Long production needs written dispatch.
+
+For corrected-carrier work, use the audited no-null `L2+L4` functional and exact-HVP path; older
+centered-derivative tools remain provenance unless explicitly audited. Relaxation is not physical
+time evolution, a finite box is not infinite volume, and positive sampled Ritz values alone do not
+certify stability.
 
 ## Communication
 
-Keep returns concise but retain decisive equations and raw gates. Lead with what was learned, then
-what remains open. Separate observation, inference, and canonization. Charles owns the physics verdict.
+Lead with learning and open scope; separate observation, inference, and canon. For a proposed premise
+or adoption give Charles a lay packet: change, provenance, no-change/alternatives, consequences,
+counterevidence, resources, and exact decision. Approval is authority, not proof. Do not re-ask for
+routine actions already authorized.

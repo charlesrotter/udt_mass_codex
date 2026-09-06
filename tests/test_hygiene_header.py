@@ -13,6 +13,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import re
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -45,7 +46,8 @@ HYGIENE_COVERED_GLOBS = [
     "simple_metric_xmax_POSTULATE.md",
 ]
 
-REQUIREMENT_PATTERNS = {
+BASELINE_COMMIT = "0c71b413bf37553e03a8ea5b1824e3f34a917085"
+LEGACY_REQUIREMENT_PATTERNS = {
     "HYGIENE_HEADER": r"##\s+HYGIENE HEADER",
     "BUILD_ON_GRADE_MARKER": r"Build-on grade",
     "PREMISE_LEDGER": r"Premise ledger",
@@ -53,6 +55,12 @@ REQUIREMENT_PATTERNS = {
     "VERIFIER_STATUS": r"Verifier status",
     "NOT_CLAIMED": r"NOT claimed",
 }
+UPGRADE_REQUIREMENT_PATTERNS = {
+    "EVIDENCE_TYPE": r"Evidence type",
+    "APPROXIMATION": r"Approximation",
+    "RESOURCE_CONTRACT": r"Resource contract",
+}
+REQUIREMENT_PATTERNS = LEGACY_REQUIREMENT_PATTERNS | UPGRADE_REQUIREMENT_PATTERNS
 REQUIRED_MARKERS = list(REQUIREMENT_PATTERNS.values())
 
 # At least one build-on grade token must appear (value filled)
@@ -75,13 +83,13 @@ def _sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def _issues(text: str) -> list[str]:
+def _issues(text: str, patterns: dict[str, str] = REQUIREMENT_PATTERNS) -> list[str]:
     missing = [
         name
-        for name, pattern in REQUIREMENT_PATTERNS.items()
+        for name, pattern in patterns.items()
         if not re.search(pattern, text, re.IGNORECASE)
     ]
-    if not GRADE_TOKEN.search(text):
+    if "BUILD_ON_GRADE_MARKER" in patterns and not GRADE_TOKEN.search(text):
         missing.append("BUILD_ON_GRADE_ALLOWED_VALUE")
     return missing
 
@@ -115,6 +123,17 @@ def _registered_backlog() -> dict[str, dict[str, str]]:
     return {row["path"]: row for row in rows}
 
 
+def _baseline_text(relative: str) -> str | None:
+    result = subprocess.run(
+        ["git", "show", f"{BASELINE_COMMIT}:{relative}"],
+        cwd=REPO,
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    return result.stdout if result.returncode == 0 else None
+
+
 def test_hygiene_template_exists_and_complete():
     tmpl = REPO / "HYGIENE_HEADER_TEMPLATE.md"
     assert tmpl.is_file(), "HYGIENE_HEADER_TEMPLATE.md missing"
@@ -135,19 +154,29 @@ def test_covered_results_have_hygiene_header():
     for path in files:
         text = path.read_text(encoding="utf-8", errors="replace")
         rel = path.relative_to(REPO).as_posix()
-        actual_issues = _issues(text)
+        actual_issues = _issues(text, LEGACY_REQUIREMENT_PATTERNS)
         if rel not in backlog:
             for issue in actual_issues:
                 failures.append(f"{rel}: unregistered missing requirement {issue}")
-            continue
-        row = backlog[rel]
-        if _sha256(path) != row["sha256"]:
-            failures.append(f"{rel}: registered bytes changed")
-        expected_issues = row["missing_requirements"].split(";")
-        if actual_issues != expected_issues:
+        else:
+            row = backlog[rel]
+            if _sha256(path) != row["sha256"]:
+                failures.append(f"{rel}: registered bytes changed")
+            expected_issues = row["missing_requirements"].split(";")
+            if actual_issues != expected_issues:
+                failures.append(
+                    f"{rel}: registered omissions changed "
+                    f"{expected_issues!r} -> {actual_issues!r}"
+                )
+        baseline = _baseline_text(rel)
+        baseline_upgrade_issues = (
+            set(_issues(baseline, UPGRADE_REQUIREMENT_PATTERNS)) if baseline is not None else set()
+        )
+        current_upgrade_issues = set(_issues(text, UPGRADE_REQUIREMENT_PATTERNS))
+        newly_missing = current_upgrade_issues - baseline_upgrade_issues
+        if newly_missing:
             failures.append(
-                f"{rel}: registered omissions changed "
-                f"{expected_issues!r} -> {actual_issues!r}"
+                f"{rel}: new or regressed method fields missing {sorted(newly_missing)}"
             )
     assert not failures, "Hygiene contract violations:\n  " + "\n  ".join(failures)
 
@@ -156,3 +185,12 @@ def test_hygiene_globs_documented():
     """Protocol must mention the test so drivers know the gate exists."""
     proto = (REPO / "STRUCTURE_HYGIENE.md").read_text(encoding="utf-8", errors="replace")
     assert "test_hygiene_header" in proto or "HYGIENE_HEADER" in proto
+
+
+def test_new_method_fields_are_mechanically_required():
+    complete = "Evidence type\nApproximation\nResource contract\n"
+    assert not _issues(complete, UPGRADE_REQUIREMENT_PATTERNS)
+    assert set(_issues("Evidence type\n", UPGRADE_REQUIREMENT_PATTERNS)) == {
+        "APPROXIMATION",
+        "RESOURCE_CONTRACT",
+    }

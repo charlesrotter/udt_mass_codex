@@ -4,33 +4,35 @@ Companion to the P1 purity harness.  The purity gate (`test_solver_integrity.py`
 *imports* of physics literals; THIS gate catches the broader drift from EXPLORING the metric's
 solution space to IMPOSING the physics we expect.
 
-*** GOVERNING PRINCIPLE -- PROVENANCE & HONESTY, NEVER MERIT (skill: solution-space-not-imposition). ***
+*** LEGACY FROZEN PROVENANCE SCOPE -- not the current scientific program. ***
+*** GOVERNING PRINCIPLE -- PROVENANCE, VALIDITY & HONESTY, NEVER AESTHETICS. ***
 Every check here is PHYSICS-BLIND.  It checks only:
   - PROVENANCE: is each import a numeric technique (numpy/torch/scipy/stdlib) or a *registered*
                 project module?  (An import is or isn't numeric -- decidable, no physics judgment.)
   - HONESTY:    is every pinned BC/ansatz/coupling tagged and surfaced so we can choose to free it?
                 (A tag is or isn't present -- decidable, no physics judgment.)
-It NEVER judges MERIT -- whether a solution is smooth / a lump / convergent / the expected answer.
-Judging merit is what turns a guard into an imposing blocker (a drift accumulator).  Merit is
-judged LATER, with Charles.  Do NOT add a check here that throws a class of solutions away on
-physics grounds; that limit is enforced by hand in `verifier-before-record`, deliberately not by a
-machine meta-test (a label is satisfiable by a drifting author; a binding principle is not).
+It NEVER judges AESTHETIC OR INTERPRETIVE MERIT -- whether a solution is a lump or the expected
+answer. Numerical certification may and should check original residuals, constraints, boundary
+treatment, error control, and a claimed convergence test. Do NOT add a check here that throws a
+valid member of its declared class away on interpretive grounds.
 
 Anti-hang: pure AST / source scans + an import-graph walk.  No torch, no solve.  Whole file < 0.1s.
 """
 import os
-import ast
 import sys
+from pathlib import Path
+
 import pytest
+
+from guardrail_import_scanner import EXEC_DEFERRED, resolve_module, scan_file, walk_graph
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # =============================================================================
 # A.  NUMERIC-ONLY IMPORTS  -- traceability: every number is the action + arithmetic
 # =============================================================================
-# The live solver graph, walked transitively from this entry module: p1_residual_general_einstein
-# holds the residual + the derived operator + the continuation driver (continuation_solve_p1).  Add
-# a separate production-driver module here if one is introduced (the dead-entry test keeps this honest).
+# This dated legacy solver graph is walked transitively from p1_residual_general_einstein. It is
+# retained as a regression/provenance scope only and is not the current UDT scientific program.
 # NOTE (verifier 2026-06-25): solver_action.py is NOT in this runtime graph -- the live operator is
 # hand-coded; its EQUALITY to the EL of solver_action is enforced SEPARATELY by
 # tests/test_operator_from_action.py (P2), not by a runtime import.  So this lint governs the RUNTIME
@@ -61,8 +63,8 @@ PROJECT_MODULE_REGISTRY = {
     "full3d_newton":                "numeric-method: vmap-safe 4x4 inverse/determinant + pack/unpack via solver_pack",
     "solver_pack":                  "numeric-method: 5-field <-> flat-vector reshape (pure torch; extracted 2026-06-25 so the live graph stops pulling full3d_solver's physics surface)",
     "whole_metric_3d_core":         "numeric-method: curvature calculus -- finite-diff, metric inverse, Christoffel, Einstein tensor (audited 2026-06-25, no physics pin)",
-    "whole_metric_3d_matter":       "action-EL-derived: matter stress/Lagrangian = Hilbert variation of L_m (target-dimension-agnostic; reused verbatim by the native S^2 3-component carrier)",
-    "free_s2_matter":               "action-EL-derived: the NATIVE S^2 3-component matter carrier (nhat=n/|n|) + its grid-exact dn (field_dn_components_exact); replaced the imported S^3 hedgehog in the live operator (2026-06-25)",
+    "whole_metric_3d_matter":       "legacy-conditional-action-EL: matter stress/Lagrangian under the dated admitted action",
+    "free_s2_matter":               "legacy-conditional-action-EL: three-component S2 carrier POSIT under this frozen historical branch, not current native UDT",
     "spectral_sph_exact":           "numeric-method: spherical-harmonic-EXACT d/dtheta (per-azimuthal-mode associated-Legendre) -- the grid fix so winding sin(theta) matter differentiates exactly",
     "einstein_3d_eval":             "numeric-method: Einstein-tensor evaluator (Weyl form)",
     "einstein_3d_weyl_gen":         "numeric-method: sympy-generated Einstein components (codegen)",
@@ -73,57 +75,18 @@ PROJECT_MODULE_REGISTRY = {
 
 
 def _is_project_module(name):
-    return os.path.exists(os.path.join(REPO, name + ".py"))
-
-
-def _is_main_guard(node):
-    """True for an `if __name__ == "__main__":` test (a block NOT executed on import)."""
-    t = getattr(node, "test", None)
-    return (isinstance(node, ast.If) and isinstance(t, ast.Compare)
-            and isinstance(t.left, ast.Name) and t.left.id == "__name__"
-            and len(t.comparators) == 1 and isinstance(t.comparators[0], ast.Constant)
-            and t.comparators[0].value == "__main__")
-
-
-def _top_level_imports(path):
-    """Module names a source file imports AT IMPORT TIME (first dotted component).  Imports
-    lexically inside `if __name__ == "__main__":` are EXCLUDED -- that block never runs when the
-    module is imported by the solver, so it is not part of the live import-time dependency graph
-    (provenance accuracy, not a merit judgment)."""
-    with open(path) as f:
-        tree = ast.parse(f.read(), filename=path)
-    skip = set()
-    for node in ast.walk(tree):
-        if _is_main_guard(node):
-            for sub in ast.walk(node):
-                if isinstance(sub, (ast.Import, ast.ImportFrom)):
-                    skip.add(id(sub))
-    names = set()
-    for node in ast.walk(tree):
-        if id(node) in skip:
-            continue
-        if isinstance(node, ast.Import):
-            for a in node.names:
-                names.add(a.name.split(".")[0])
-        elif isinstance(node, ast.ImportFrom):
-            if node.level == 0 and node.module:        # absolute import only
-                names.add(node.module.split(".")[0])
-    return names
+    return resolve_module(Path(REPO), name) is not None
 
 
 def _walk_solver_graph():
     """Transitive closure of project-local modules reachable from the solver entries, plus the
     set of every (importer, imported) edge so an offender can be located."""
-    seen, edges, frontier = set(), [], list(SOLVER_ENTRY)
-    while frontier:
-        mod = frontier.pop()
-        if mod in seen or not _is_project_module(mod):
-            continue
-        seen.add(mod)
-        for imp in sorted(_top_level_imports(os.path.join(REPO, mod + ".py"))):
-            edges.append((mod, imp))
-            if _is_project_module(imp) and imp not in seen:
-                frontier.append(imp)
+    # Potential-runtime imports remain part of this conservative provenance inventory, while the
+    # scanner records that they are not guaranteed import-time execution.
+    seen, findings = walk_graph(
+        Path(REPO), SOLVER_ENTRY, script_entries=False, traverse_deferred=True
+    )
+    edges = [(item.importer, item.target) for item in findings]
     return seen, edges
 
 
@@ -136,7 +99,8 @@ def test_solver_imports_are_numeric_or_registered():
     stdlib = sys.stdlib_module_names
     offenders = []
     for importer, imp in edges:
-        if imp in stdlib or imp in NUMERIC_THIRDPARTY:
+        root_name = imp.split(".")[0]
+        if root_name in stdlib or root_name in NUMERIC_THIRDPARTY:
             continue
         if _is_project_module(imp):
             if imp not in PROJECT_MODULE_REGISTRY:
@@ -221,8 +185,8 @@ def test_premise_ledger_tagged_and_synced():
 
 
 @pytest.mark.documented_gap
-@pytest.mark.xfail(reason="known HABIT pins (silent G/P fork; charge-1 core pin) are not yet freed "
-                          "or justified to THEORY; XPASSes when the matter sector is freed.",
+@pytest.mark.xfail(reason="known HABIT pin (silent G/P fork) is not yet freed or justified to "
+                          "THEORY; XPASSes when that branch choice is resolved.",
                    strict=False)
 def test_no_habit_pins():
     """CLEAN target (honesty).  No premise is left tagged HABIT (an unjustified pin = drift).

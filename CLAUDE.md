@@ -1,341 +1,144 @@
-# UDT Mass Codex — Working Charter
+# UDT Claude runtime adapter
 
-Claude drives this project (handed over by Charles 2026-06-10). Charles
-canonizes; nothing is canonical without his sign-off.
+`AGENTS.md` is the primary working-method authority. This file is a compact Claude runtime adapter;
+it may not override `AGENTS.md`, the current status files, or the exact scientific registry. This
+file is binding method, not scientific status. Method files do not introduce scientific premises,
+and a missing scientific connection stays visibly open.
 
-## Charles's working principles (binding, embed in every plan)
+## How we work
 
-1. **Uncover what the metric is doing. Do not import or create
-   mechanisms.** Every coupling, source, operator, or action must be admitted by current scientific
-   evidence or an explicit work order; never presume or posit one because it would help.
-2. **No approximations or linearizations except as short-lived hypothesis
-   development** — never as stated results or as inputs to other
-   calculations. (Legacy warning: exp(-2·phi0) ~ 5 at hadronic depth;
-   linearization is invalid by ~5x there.)
-3. **We are not recreating Standard Model entities or analogs. We match
-   observations.** SM names (quark, color, gauge) are labels only until
-   the metric demands them.
-4. **The GR corpus is a mine**: large bodies of GR mathematics (boundary
-   terms, constraint equations, junction conditions, DtN/Calderon theory,
-   geon/self-trapping literature) can be transformed under positional
-   dilation and explored natively.
-5. **Historical hunches are not premises.** The dated “orchestra” picture may motivate questions,
-   but it supplies no field, action, carrier, boundary, topology, or completion requirement. Use the
-   current premise registry to determine which objects a task actually admits.
-6. **Zoom out often.** No tunnel vision. Re-read the current block of `LIVE.md` and the relevant
-   portion of `CURRENT_RESEARCH_PROGRAM.md`, then step back before each new push.
-7. **Derive UDT's equations NATIVELY; never default to the parent theory's
-   (GR's) standard form** (Charles, 2026-06-18). UDT EXTENDS GR but is NOT
-   GR: derive the metric AND the field equations from the positional-dilation
-   principle. Defaulting to GR's equation-FORM re-imports GR and erases the
-   extension before it can appear. SCAR: assuming standard Einstein
-   (G=8πT/c⁴, the EH R-term) forced "vacuum = GR" and made "UDT's field
-   equations don't depart from GR" — a smuggled artifact, not a result.
-   Interrogate every "this term folds away / reduces to the standard case"
-   step — that is exactly where the parent theory sneaks back in. (Principle 1
-   applied to the EQUATIONS THEMSELVES.)
+Use `MAP -> OBSERVE -> PONDER -> DERIVE`. In the absence of an explicit discovery work order, show
+Charles the frame, premises, choices, and bounded question in plain language before derivation. An
+approved work order may authorize these stages in advance; continue ordinary in-scope work without
+asking again until its stop condition or a genuine scientific, permission, safety, resource, or
+review blocker.
 
-## How we work (binding method — Charles, 2026-06-14)
+A bounded discovery scope names the question, admitted premises, methods, workspace, excluded
+inputs, resource budget, stop conditions, and maximum conclusion. Within it, algebra, limits,
+examples, counterexamples, controlled approximations, conditional lemmas, and revised failed
+conjectures are legitimate. None authorizes a silent physical premise, fitted answer, source,
+action, boundary, carrier, selection law, or canon change.
 
-The bottleneck has been the METHOD, not the physics. The recurring failure
-is AI myopia: (a) collapsing a rich open frame to the nearest TRACTABLE
-SLICE and calling the slice's result the frame's result; (b) silently
-FIXING VALUES to make things solvable (a scale, a BC, a sign, an
-involution, an imported count) that feel like facts, then building a clean
-logical ladder on the bad rung into a cul-de-sac; (c) a bias toward ACTION
-(deriving feels productive) so derivation happens before understanding;
-(d) narrating false CONVERGENCE ("only one thing left" — said dozens of
-times) to make a pile of negatives feel like a trail. The through-line:
-assumptions and framing are not made visible EARLY, so Charles can only
-catch them AFTER a wasted push.
+Keep exploration, candidate verification, and scientific promotion distinct. A labeled draft or
+candidate-synthesis checkpoint may be committed before fidelity review. It remains recoverable work,
+not an accepted dependency. Review is proportional to what changed and does not upgrade sources.
 
-THE GOAL OF THE WORK is to let STRUCTURE EMERGE from solving the metric,
-then ANALYZE and REFINE it together — NOT to derive a result. Do not
-derive a single mass or ratio until Charles says the structure is ready.
-Building a particle is legitimate ONLY if it EMERGES from solving the
-metric, never from inventing mechanisms and patching.
+Controlled approximations state their parameter, domain, error control or convergence
+justification, and inherited downstream limits. Exact first variations, linearized operators, and
+linear stability are valid scoped objects, not global nonlinear conclusions. A targeted bounded
+question is allowed; hidden answer-fitting and selective disposal of valid outcomes are not. One
+witness may establish existence and one counterexample may defeat a universal claim, but a finite
+failed search does not establish nonexistence.
 
-INVERT THE DEFAULT from "derive/launch" to "make-visible-and-ponder."
-Four modes, in order; OBSERVE/PONDER are primary, DERIVE is gated:
-1. MAP (first, no compute). State the frame WHOLE: what it claims, what it
-   ASSUMES, what it leaves open, what exploring ALL of it would take — plus
-   an explicit PREMISE LEDGER: every value / BC / sign / chart / source I
-   would be CHOOSING, tagged provisional, each marked "chose or derived?".
-   Purpose: let Charles catch a smuggled frame or a bad fixed value at the
-   CHEAP stage, before anything is built on it.
-2. OBSERVE (primary). Agents solve the metric in a regime and report WHAT
-   IS THERE — not "show X." Let structure emerge; report it with premises
-   attached. No verdict-hunting.
-3. PONDER (with Charles). Analyze what emerged — meaning, surprises, what
-   it says about the frame — BEFORE deciding anything. Deliverable =
-   understanding. More zooming out and pondering, less deriving.
-4. DERIVE (gated, last). Only after the structure is understood and the
-   premises are clean — and only with Charles's go.
+Numerical validity is not aesthetic merit. Original-equation residuals, constraints, admitted
+object type, boundaries, error control, and claimed convergence may certify or reject a numerical
+claim. Preserve failed or unconverged outputs as diagnostics. Do not reject a valid admitted
+solution because it looks unfamiliar or lacks a desired interpretation.
 
-PRE-DERIVATION / PRE-WORK DISCUSSIONS ARE IN LAY LANGUAGE (binding,
-Charles 2026-06-14). The MAP and PONDER conversations — framing, premises,
-what to explore, what emerged and what it means — are conducted in plain
-terms, not equations/jargon. (Inside agent prompts and results docs the
-math is exact; the THINKING-WITH-CHARLES layer is lay.)
+For a mismatch, freeze a finite solver-first diagnostic plan: implementation; admitted equations;
+omitted sectors; constraints and boundaries; numerical error; frozen choices; and claim-relevant
+coverage. If the mismatch survives, report a bounded incompatibility or remaining numerical
+ambiguity. Do not demand every imaginable solution before reporting adverse evidence and do not add
+an undeclared repair mechanism.
 
-TRIPWIRES (binding): "whole before slice" — never declare a frame's result
-from one corner. "Chose or derived?" — every fixed value gets the tag, out
-loud, before use. "Observing or targeting?" — asked before every agent
-launch; if targeting a desired answer, STOP and ponder. Refusal/elimination
-RUN -> mandatory zoom-out and REFRAME, never "one more thing." Count the
-run; a string of negatives indicts the QUESTION/method, not "the next
-place to drill." "Mismatch -> SOLVER, not MECHANISM" — see below.
+Match evidence handling to its type. Observational confirmation requires outcome separation and
+prior-exposure disclosure. Numerical certification freezes equations, scope, tests, tolerances, and
+repair history. Mathematical discovery may explore before freezing a candidate, then discloses that
+history and reviews the argument. Freeze questions and tests, never desired answers.
 
-MISMATCH -> SOLVER, NOT MECHANISM (binding, Charles 2026-06-19). When a result
-is far from observation, the FIRST hunt is the SOLVER and our application of
-it — NEVER a mechanism. In order: (1) what did we leave OUT of the solver (a
-term/coupling/sector/boundary); (2) is it a NUMERIC problem (convergence,
-box-control, conditioning, a bug, grid); (3) did we FREEZE or forget to turn
-on a degree of freedom; (4) have we explored the solution space with
-EVERYTHING ON, or only a corner — plus the many WAYS to examine the same solve
-(bases, grids, seeds, continuation, gauge tests, independent re-derivation).
-Reaching for a MECHANISM to close a gap is FORBIDDEN until the solver is
-demonstrably complete and the solution space genuinely explored. A mismatch
-indicts the solver's COMPLETENESS first, the metric last, and a mechanism
-never (that is the import reflex). This is Principle 1 applied to our own
-numerics. (Historical instrument = `archive/SOLVER_COMPLETENESS_MAP.md`; forward frame =
-`archive/POST_POSTULATE_PROGRAM.md` — both ARCHIVED/subsumed now the static solver is code-complete;
-the live status is LIVE.md + `pytest tests/`.)
-SCAR it heads off: the year-long catalog/mechanism hunt that read a graveyard
-of contaminated/classical-solver negatives as a verdict on the metric;
-microphysics was UNENTERED, not walled.
+General mathematics and numerical techniques are permitted methods when their hypotheses and
+soundness are checked against the admitted equations. Similarity to GR or another known result is
+not a defect. Importing that theory's equation and calling it a native derivation is.
 
-SOLUTION-SPACE, NOT IMPOSITION (binding, Charles 2026-06-25). The simple goal:
-perform PURE MATH and explore the metric's solution space for WHAT EMERGES,
-which LATER we consider as physics. The recurring drift (multiple times in ~2
-weeks): we slide from EXPLORING the solution space to IMPOSING the physics we
-expect. The purity gate catches IMPORTS; this catches IMPOSITIONS. Before any
-solve/result: (a) tag every BC / matter-sector / coupling / acceptance criterion
-as free-and-explored, pinned-by-THEORY (cite it), or pinned-by-HABIT (= drift
-flag — free or justify); (b) ask "does this diagnostic CHARACTERIZE the solution
-or FILTER it (demand a shape / smoothness / a lump / the expected answer)?" — a
-filter throws solutions away and is an imposition; (c) "observing or TARGETING?"
-checked against the SM-template list (lump/mass/particle/spectrum). GOVERNING
-LIMIT — any gate/guard/lint we build to enforce this may check only PROVENANCE
-(numeric-vs-smuggled import; derived-vs-pinned value) and HONESTY (is the pin
-tagged/surfaced) — NEVER MERIT (is the solution the right shape). A check that
-judges merit becomes a blocker that imposes, and that judgment accumulates into
-the very drift we fight; merit is judged LATER, with Charles. This limit is
-enforced BY HAND (verifier), deliberately not by a machine meta-test (a label is
-satisfiable by a drifting author; a binding principle is not). Skill =
-`solution-space-not-imposition`; gate = `tests/test_solution_space_gate.py`
-(numeric-only imports + premise-ledger tags, both physics-blind). [[solution-space-not-imposition]]
+## DRIVER TRIGGERS
 
-DIVISION OF LABOR (honest): the driver genuinely cannot always see its own
-smuggled assumptions — Charles holding the frame is irreplaceable, the
-verifier catches errors/assembly. The method does not remove this; it moves
-the catching-surface EARLIER by front-loading the frame-map + premise
-ledger so Charles steers at the assumption stage, not after the build.
+These are mnemonic trigger labels, not filesystem paths. They require a pause and provenance check;
+they do not judge physical merit or silently change permissions.
 
-## Discipline skills (full-form protocols — P3, 2026-06-23)
+1. **Approach choice — `apply-purist-logic-proactively`.** Compare the least-imposed route and any
+   easier approximation. A controlled approximation is allowed under the rules above; an undisclosed
+   physics substitution is not.
+2. **Mismatch — `solver-first-not-mechanism`.** Run the finite diagnostic plan, then report its
+   bounded conclusion. A surviving mismatch is not postponed indefinitely.
+3. **Scope — `sweep-whole-not-fragments`.** State the actual quantifiers, regime, choices, and
+   omissions. Ask only for the coverage the claim needs; a coverage list is not a completeness
+   theorem.
+4. **Promotion — `session-handoff-pointer`.** Identify evidence type, source/candidate versions,
+   exact scope, premise audit, reviewer exposure, and independence properties. Draft checkpoints do
+   not need scientific-promotion gates.
+5. **Choices.** Tag each physical value, boundary, sign, chart, source, carrier, and action as
+   `free-and-explored`, `pinned-by-THEORY` with a citation, or `pinned-by-HABIT`. Numerical controls
+   need soundness and disclosure, not a fictitious metric derivation.
+6. **Native versus imported — `derive-natively-not-inherited-form`.** Apply permitted tools to the
+   admitted equations. Do not smuggle in a familiar physical equation, and do not reject an honestly
+   recovered familiar result merely because it is familiar.
 
-The binding disciplines above are kept INLINE here as short tripwires (always in context). Their
-EXPANDED, self-contained full-form lives as auto-loading skills in `.claude/skills/` — invoke the
-relevant one at the relevant moment (the inline tripwire is the trigger, the skill is the protocol):
-- **`solver-first`** — the mismatch -> SOLVER-not-MECHANISM four-question protocol (run on any
-  result far from observation, BEFORE reaching for a mechanism).
-- **`verifier-before-record`** — what a clean blind adversarial pass requires before scientific
-  promotion or a reviewed-synthesis claim. Explicitly labeled draft checkpoints may be committed
-  before review without becoming accepted dependencies.
-- **`no-shortcuts`** — the anti-import/anti-freeze checklist + `python3 -m pytest tests/` (the P1+P2
-  purity harness; run when building/editing solver code or before banking a result).
-- **`completeness-map`** — premise-relative coverage and standing questions for a declared problem;
-  every result is one scoped tile, and no checklist is an if-and-only-if completeness proof.
-- **`solution-space-not-imposition`** — the 4-point anti-imposition audit (ansatz/BC ledger;
-  characterize-not-filter; observe-not-target; solution-space completeness) + the PROVENANCE/
-  HONESTY-never-MERIT limit on any gate we build (run before any solve/result). Gate =
-  `tests/test_solution_space_gate.py`.
+The live protocol mapping is exact: `apply-purist-logic-proactively` and
+`derive-natively-not-inherited-form` use `.claude/skills/no-shortcuts/SKILL.md`;
+`solver-first-not-mechanism` uses `.claude/skills/solver-first/SKILL.md`;
+`sweep-whole-not-fragments` uses `.claude/skills/completeness-map/SKILL.md`;
+`session-handoff-pointer` uses `.claude/skills/verifier-before-record/SKILL.md`;
+`solution-space-not-imposition` maps to its same-named live skill.
 
-(Skills are the expandable text; the inline tripwires remain binding and always-loaded — the skills
-do NOT replace them, they unfold them on demand.)
+## Reviews and decisions
 
-## DRIVER TRIGGERS (binding, always-loaded — fire WITHOUT being challenged)
+Fresh context, a different model, a different implementation, and an independent argument are
+separate review properties. Record reviewer identity/context, exact source and candidate versions,
+what it saw, prior-verdict exposure, checks run, and checks omitted. A substantive objection names
+the defective step, its reason or counterexample, the strongest surviving conclusion, and the
+smallest source-preserving repair. Do not fabricate independence or make an unavailable human review
+a blanket barrier to ordinary work. Use `CROSS_MODEL_VERIFY.md` for escalation.
 
-The double-bracket names below are mnemonic trigger labels, not filesystem paths. Their live
-protocol mapping is: `apply-purist-logic-proactively` and `derive-natively-not-inherited-form` use
-`.claude/skills/no-shortcuts/SKILL.md`; `solver-first-not-mechanism` uses
-`.claude/skills/solver-first/SKILL.md`; `sweep-whole-not-fragments` uses
-`.claude/skills/completeness-map/SKILL.md`; and `session-handoff-pointer` uses
-`.claude/skills/verifier-before-record/SKILL.md`. `solution-space-not-imposition` maps to its
-same-named live skill. Read a mapped skill only when its trigger fires.
+For a proposed physical premise or major adoption, give Charles a lay packet: the change; what is
+derived, chosen, calibrated, or imported; no-change and other alternatives; consequences; evidence
+that could count against it; required resources; and the exact decision. Approval supplies authority,
+not proof.
 
-The cognitive corral above is recall-class: this session it fired only when Charles challenged, not on
-its own (the driver drifted to a "cured" headline; the verifier caught it). These triggers fix that:
-each binds to an OBSERVABLE SELF-OUTPUT TOKEN the driver is about to write — you cannot emit the token
-without owing the procedure. They force a PAUSE + HONESTY/PROVENANCE; they NEVER judge MERIT (is the
-answer the right shape / a lump / the expected mass). (Spec: COGNITIVE_CORRAL_TRIGGERS_SETUP.md.)
+## Runtime guardrails
 
-**LEAVES ROOM FOR THE WORK — the allowed lane (binding; no trigger may fire to block these).** These
-triggers police the SMUGGLE OF PHYSICS, never the BORROWING OF METHOD. CATEGORY-A (conditioning /
-numerical technique / *how* we solve) is ALWAYS GREEN and only needs a soundness/convergence check:
-borrowing JFNK/Newton-Krylov, continuation/homotopy, spectral/collocation, preconditioners, junction-
-condition/DtN/Calderón & geon formalism, machine-precision Taylor replacement — and USING GR AS A
-REFERENCE/LIMIT (flat/Schwarzschild/de Sitter anchors, contrasting to see where UDT departs). A technique
-changes HOW we solve the UDT equations, not the physics: it is NOT a "mechanism/term/coupling" (does not
-trip #2) and need NOT be "derived from the metric" (does not trip #5); only two duties — apply it to the
-UDT equations (don't silently swap in GR's), and soundness-check it. CATEGORY-B (a change to the PHYSICS
-— a mechanism, coupling, equation-form, source, or a structure-holding BC) is gated. Default for a real
-technique or a GR-as-reference comparison is GREEN; progress is the point. *(This clause is non-droppable
-and MUST travel verbatim with any cross-check payload / local-LLM export — a "forbid"-only half over-blocks.)*
+Static instructions, hook loading, a hook reminder, a test result, and an enforced permission are
+different facts. The project hook may report only the event and reminder path it actually exercised.
+It does not prove all rules loaded or guarantee model behavior. Claude project hooks do not prove
+Codex integration; Codex applies the same primary `AGENTS.md` procedure manually unless its own
+runtime confirms otherwise.
 
-Each: **TRIGGER** (the tokens/moment) → **STOP-AND-DO**.
-1. **Purist-logic / anti-tractable-slice.** TRIGGER: before recommending an approach, or writing
-   *easiest / simplest / just / cleaner / for now / tractable*. STOP-AND-DO: name the PUREST/least-imposed
-   option AND the easy one, with the objective cost of each; if the pure option is blocked by a flaw
-   (grid limit, frozen DOF, an import), the action is FIX THE FLAW — name it, refuse the shortcut (legal
-   only as an explicitly-ledgered temporary stand-in). THEN recommend. [[apply-purist-logic-proactively]]
-2. **Solver-first, not mechanism.** TRIGGER: before proposing a new mechanism/coupling/term/BC to explain
-   a gap, or writing *maybe if we add / a mechanism / what if the metric also*. STOP-AND-DO: run the four
-   solver questions — (1) what did we leave OUT? (2) is it NUMERIC (convergence/conditioning/grid/bug)?
-   (3) did we FREEZE a DOF? (4) explored the whole space with everything ON? Mechanism FORBIDDEN until the
-   solver is demonstrably complete; mismatch indicts solver first, metric last, mechanism never. [[solver-first-not-mechanism]]
-3. **Whole before slice.** TRIGGER: before reporting a result, or writing *the metric does / this shows /
-   scale-free / no localization / featureless / continuum*. STOP-AND-DO: name the regime actually solved
-   and the FREE choices held fixed (static / diagonal / branch G-or-P / grid / frozen rows); label the
-   result SCOPED to that regime. Never state a one-corner result as the frame's verdict. [[sweep-whole-not-fragments]]
-4. **Provisional until verified.** TRIGGER: before banking a verdict — committing a result doc, or writing
-   *cured / conclusive / confirmed / dead / no-go / proven / it works*. STOP-AND-DO: confirm all four —
-   pre-registered? full-space (or bounded slice justified)? blind-verified on the load-bearing premise?
-   every forced premise audited? If any is missing, label it PROVISIONAL / a LEAD, not a result. [[session-handoff-pointer]] (verifier-before-record)
-5. **Chose or derived.** TRIGGER: before any numeric value / BC / sign / chart enters a solve or a banked
-   claim. STOP-AND-DO: tag each FREE / THEORY(cite) / HABIT; a HABIT is a drift flag (free or justify it);
-   a result riding a FREE constant is conditioned on it — say so. SCOPE: PHYSICS premises only; conditioning/
-   solver params (grid, tol, continuation step, preconditioner) are category-A (soundness, not derivation).
-6. **Derive natively, not GR's form.** TRIGGER: before writing *folds away / reduces to the standard case /
-   as in GR / vacuum is / the usual Einstein*. STOP-AND-DO: that step is the prime suspect for smuggling GR
-   back in — show the term's fate from the positional-dilation operator NATIVELY; do not assume the
-   inherited form. (GR as reference is allowed (lane #2); ADOPTING GR's answer as UDT's is the smuggle.) [[derive-natively-not-inherited-form]]
+Resource ceilings come from the current work order and measured environment, not old filenames,
+grid caps, hardware descriptions, or copied pass counts. Use one GPU process at a time, explicit
+timeouts, checkpoint/restart behavior, output paths, and stop conditions. An unavailable check blocks
+only the dependent claim/action. Approved pinned offline work stays labeled offline; shared promotion
+waits for synchronization and conflict checks.
 
 ## Documentation synthesis
 
-Method files do not introduce scientific premises or make historical inventories current. Within a
-Charles-authorized synthesis, faithful explanation, same-premise proof reconstruction, and small
-algebra/sign checks are permitted; a missing scientific connection stays visibly open. Standard
-mathematics may be used as method with its hypotheses checked, but it does not become UDT physics by
-appearing in the explanation.
+Method files do not introduce scientific premises. A synthesis may faithfully reconstruct accepted
+arguments at a pinned source snapshot and perform small same-premise checks. It may not invent a
+missing bridge. A labeled draft or candidate-synthesis checkpoint may be committed before fidelity
+review, but review is required before calling it reviewed. A synthesis review does not change source
+grades, premises, evidence, empirical truth, or canon.
 
-A labeled draft or candidate-synthesis checkpoint may be committed before fidelity review. Review is
-required before calling a synthesis reviewed or using it as an accepted scientific dependency, and
-must be proportional to the actual change. Editorial review never upgrades the underlying source
-grade, adopts a premise, establishes empirical truth, or creates canon. See `AGENTS.md` for the
-controlling scoped-synthesis rules.
+## Repo discipline
 
-## Session workflow
-
-- **Maximize the use of subagents to preserve main context** (Charles,
-  2026-06-10): delegate reconnaissance, implementation, verification, and
-  doc-drafting to agents; keep only distilled reports in the main loop.
-  Present the process plan before launching long pushes.
-- **Use the GPU** (Charles, 2026-06-11): a Tesla V100-PCIE-32GB is
-  available via PyTorch (`torch.linalg`, float64, cuda=True; note
-  nvidia-smi/NVML is broken — driver mismatch — but torch works fine;
-  expect an NVML warning, ignore it). Production eigensolves, scans,
-  and flow sweeps should use batched torch float64 (~14 ms per
-  1024² symmetric eigensolve batched; 6x single-solve). Keep mpmath/
-  sympy on CPU for high-precision anchors and symbolic identities;
-  GPU results get CPU spot-checks at a few points per run.
-  KNOWN PITFALL (found 2026-06-11): on this V100/cu121 stack, batched
-  torch.linalg.solve_triangular with a BROADCAST Cholesky factor
-  silently corrupts at large batch (~150+); use explicit inverse +
-  batched matmul, and always run per-batch CPU asserts.
-- **ANTI-HANG (binding operational rule, 2026-06-20 — SIX+ agents hung this
-  way).** The coupled solves are SLOW (jacrev/iteration-bound, minutes to
-  ~1700s). ALWAYS run solves BOUNDED: cap the grid (Nr<=16/24), cap Newton/
-  Krylov iters, and run a SINGLE clean process at a time — NEVER concurrent
-  (GPU contention stalls everything), and NEVER launch-a-solve-and-poll a
-  background task (agents hang waiting). Fixed-background eigenproblems are
-  cheap (5-22s); the dense-LM (jacrev+lstsq) is the flooring tool; recompute
-  on SAVED fields where possible. If a solve would exceed budget, REDUCE and
-  report "throughput-limited" — a bounded honest partial beats a hang.
-  Stability/landscape tests: NEVER blend a field toward a chosen endpoint and
-  call it dynamics (a biased artifact — it cost a wrong headline); use unbiased
-  kicks + NEB + a 3-cell persistence test (a 2-cell test throws look-elsewhere
-  false positives).
-- **CHUNKED AGENT OUTPUTS (binding operational rule, 2026-07-31 — TWO agents died at the
-  64k output-token ceiling, work lost both times).** Every agent dispatch carries: no large
-  symbolic expressions in output/thinking; build files INCREMENTALLY (≤120-line appends,
-  every tool call under ~300 lines); stage banking so partial work survives; final reports
-  ≤50 lines. Timeout extensions are authorized when ceilings are genuinely hit (Charles
-  2026-07-30); chunking enables runtime estimation.
-
-## Repo discipline (use git AS git — Charles 2026-06-24)
-
-- **EDIT files in place; let git history be the audit trail.** Commit per
-  logical change with a clear message; roll back via `git revert`/history if a
-  change regresses. The point of committing is ROLLBACK capability, not freezing.
-  REPEALED (Charles 2026-06-24, "patently absurd... the opposite of using a git
-  repository"): the old "committed scripts are immutable / new work = new files /
-  research-record markdown append-never-edit" rule. It froze improvement and
-  caused SOLVER PROLIFERATION — a stale harnessed path (p1_residual) while the
-  live work moved to an un-harnessed file (branchGP). When you improve a solver,
-  EDIT it (and update its harness); do not spawn branchGP_v2. Append-only is fine
-  for a running LAB-LOG section of a results doc, but correcting/superseding an
-  earlier claim by EDITING (with the change visible in git) is now preferred over
-  piling addenda. A RECONCILIATION is owed: consolidate the proliferated
-  solvers/scripts to ONE canonical solver + its harness, retire the rest.
-- **Verifier-before-record**: every scientific result (positive or negative) gets a blind
-  adversarial verifier pass, recorded with reviewer identity and date, before promotion or an
-  accepted-result commit. A labeled draft checkpoint may be committed before review under the
-  scoped-synthesis rules; it does not change scientific status or become an accepted dependency.
-- **Pre-register before testing**: falsification contracts (frozen model,
-  candidate lists, tolerances, look-elsewhere accounting) are committed
-  BEFORE the test runs. No retuning after.
-- Calibrate, never dramatize. Failures are recorded as failures. Negative
-  results are first-class deliverables.
-- Null-test discipline: exact rational matches are cheap (small-rational
-  coverage ~16-23%, see dimension_ladder_null_audit.md). New value
-  identities must pass the TEST-B-style classifier (generalize, solve,
-  check N-specificity) before being banked as evidence.
-- **Negative results are scoped, never absolute** (Charles, 2026-06-11):
-  every banked negative/no-go carries its PREMISE SET (background,
-  source treatment, boundary conditions, domain class, truncation,
-  method). The living index is NEGATIVES_REGISTRY.md. When any premise
-  is later revised or refuted, every negative carrying it is flagged
-  CONDITIONS-CHANGED in the registry and loses blocking authority until
-  re-graded under the new conditions. Check the registry at every push
-  plan and every premise-changing result.
-- **Hypothesis discipline** (Charles, 2026-06-11: "I'm trying to find
-  what's real, not what confirms my priors"): Charles's physical
-  pictures are direction, not evidence. Aim verifiers hardest at
-  results that would confirm the standing picture; accommodations to a
-  hypothesis are pre-registered, never retrofitted after a residual.
-- **Interrogation discipline** (Charles, 2026-06-11; adopted after the
-  oscillator-thread audit): every push DECLARES up front whether its
-  question is METRIC-LED ("what does derived structure X do?") or
-  TEMPLATE-LED ("can the metric perform mechanism Y?"). Template-led
-  pushes are legal falsification exercises, but their negatives indict
-  the TEMPLATE first, the metric second — and a run of template
-  refusals triggers a REFRAME, not a deeper drill. Watch the questions
-  for smuggled mechanisms (the resonator/mass-as-eigenvalue template
-  ran ten months before being named). Principles 1 and 3 police
-  answers and vocabulary; this rule polices the questions.
-- Commit per result; push to github.com/charlesrotter/udt_mass_codex.
-
-## Canon
-
-Only `CANON.md` records canonized statements, and only Charles may change it. This method charter
-does not summarize, extend, or reinterpret canon.
+- Inspect status before switching. Preserve unrelated dirt and protected local work. Never reset,
+  clean, overwrite, force-push, or auto-stash it to manufacture a clean tree.
+- Work on `grok`; synchronize non-destructively when available. Mark pinned/offline work honestly.
+- Edit maintained files in place; Git is the rollback trail. Do not create versioned duplicates as
+  a substitute for maintenance.
+- Preserve commands, versions, outputs, repair history, and relevant hashes. A checksum establishes
+  byte correspondence, not truth, independent authorship, or chronology.
+- A changed source or premise flags relevant positive and negative descendants for review; it does
+  not automatically change scientific grades.
+- Do not edit `CANON.md` without Charles's explicit sign-off. Only `CANON.md` records canonized statements.
+- Commit logical reviewed changes and push `grok`; stage only authorized paths.
 
 ## Orientation
 
-- Work on `grok` and perform the exact synchronization/status sequence in `AGENTS.md`.
-- `LIVE.md` is the first read and wins every status disagreement. Follow it with `HANDOFF.md`,
-  `CURRENT_RESEARCH_PROGRAM.md`, and `CURRENT_SCIENTIFIC_PREMISES.md`; then run
-  `python3 verify_current_scientific_premises.py` without dumping the exact registry into context.
-- This file is binding method, not scientific status. Always read `How we work`, `DRIVER TRIGGERS`,
-  and `Repo discipline`, then any task-triggered `.claude/skills/*/SKILL.md` protocols.
-- Use `INDEX.md` and `MEMORY.md` as compact pointer checks, then stop and give the orientation report.
-  Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows only afterward when the task makes them
-  load-bearing.
-- `UDT_SCIENTIFIC_FRONTIER_2026-07-19.md` and the byte-identical control snapshots under
-  `archive/startup_orientation_history_2026-08-05/` are historical evidence, not generic startup.
-- `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` is a historical relocation ledger.
-- It is not a current-frontier index. Use `INDEX.md` for current evidence routes; fixed inventories
-  remain snapshots.
-- Run `python3 -m pytest tests/` when verification is required; trust the current run rather than a
-  count copied into this charter.
+- Work on `grok` and follow the exact synchronization sequence in `AGENTS.md`.
+- `LIVE.md` is the first read. Follow it with `HANDOFF.md`, `CURRENT_RESEARCH_PROGRAM.md`, and
+  `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`
+  without dumping the exact registry into context. `CURRENT_SCIENTIFIC_PREMISES.tsv` remains the
+  exact scientific status authority.
+- Always read `How we work`, `DRIVER TRIGGERS`, and `Repo discipline`, then only triggered skills.
+- Read `INDEX.md` and `MEMORY.md` as compact pointers, then stop and give the orientation report.
+- Historical files and `research/_registry/CURRENT_ARTIFACT_PATHS.tsv` are not startup status. The
+  latter is a historical relocation ledger, not a current-frontier index. Use `INDEX.md` for current
+  evidence routes.

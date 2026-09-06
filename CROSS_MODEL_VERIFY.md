@@ -1,40 +1,51 @@
-# CROSS-MODEL VERIFY — protocol (SOLVER_INTEGRITY_UPGRADES_SPEC P4)
+# Independent-review escalation protocol
 
-**Purpose:** for LOAD-BEARING calls, run the blind verifier on a DIFFERENT model (and/or a fresh
-zero-context instance), not another same-context same-model subagent — which shares blind spots.
-**Charles ruling (2026-06-23):** the realized cross-check axis is a **fresh zero-context Claude**,
-optionally a **different Claude tier**. (True non-Claude needs an external API — DEFERRED; Fable was
-attempted and is not accessible in this environment.)
+`AGENTS.md` is the primary method authority. This adapter specifies how to describe review
+independence; it supplies no scientific premise or verdict.
 
-## WHEN (load-bearing only — not every result)
-- NATIVE-vs-IMPORT classifications (is X derived, or an imported/posited assumption?).
-- "MUST-QUANTIZE"-class verdicts and other conclusions that would gate a major direction.
-- CANON candidates and any value/identity about to be banked as evidence.
-(Routine results get the normal single blind verifier; this is the escalation tier.)
+## When to escalate
 
-## HOW
-1. Run the standard blind pass (`verifier-before-record`) first.
-2. For a load-bearing call, ALSO spawn a verifier with **a different model** via the Agent `model`
-   param — fresh zero-context, adversarial, self-contained (point it at the source docs/code, NOT
-   at the prior verdict). Available tiers here: opus / sonnet / haiku. Use a tier different from the
-   driver (e.g. driver=opus -> cross-check on sonnet). Non-Claude is deferred.
-3. The cross-model agent reaches its OWN verdict from the documents.
+Use this tier for native-versus-import classifications, direction-gating conclusions, proposed
+scientific adoption/canon, or another claim whose failure would materially redirect the program.
+Routine editorial changes receive proportionate fidelity review.
 
-## LOGGING (binding — disagreement is NEVER silently dropped)
-- Record in the result's doc: the cross-model agent's **id + model + verdict**, and any
-  DISAGREEMENT or REFINEMENT vs the primary verdict.
-- A disagreement is RESOLVED or ESCALATED to Charles — never dropped. If the cross-model check
-  refines a classification, UPDATE the source-of-truth (e.g. `solver_action.py` ACTION_TERMS
-  evidence) to the more accurate wording.
+## Independence axes
 
-## FIRST USE (2026-06-23 — the e^{2phi} matter-weight classification)
-- Primary (opus, this session, P2): "the e^{2phi} matter weight is UNTRACED -- appears NOWHERE."
-- Cross-model (Sonnet, fresh zero-context, agent af66e7f4a8b64ad09): **PARTIALLY-TRACED.**
-  a(phi)=e^{+phi} is DERIVED for a static POINT-PARTICLE rest-mass; the extension to the full
-  field-matter Lagrangian (e^{2phi}L_m) is an explicitly-FLAGGED **CHOSE** (matter_regrade R3,
-  l.240), NOT derived; scale-symmetry gives angular field-matter weight 1, not e^{2phi}; CANON silent.
-- DISAGREEMENT (logged, not dropped): the cross-model REFINED "appears nowhere" -> "appears as a
-  named CHOSE." Core conclusion (NOT derived for field matter; unsafe to canonize) UNCHANGED and
-  better-grounded. ACTION: `solver_action.py` matter_weight evidence updated to PARTIALLY-TRACED;
-  the P2 guard now asserts the CHOSE flag. (= P4 acceptance "used on the next import classification;
-  disagreement logged.")
+Record each axis separately rather than calling all of them “cross-model”:
+
+| Axis | Required record |
+|---|---|
+| Context | same context, fresh context, or unknown |
+| Model | exact exposed model/runtime; same, different, or unknown |
+| Implementation | shared code/formula, independently implemented, or not computational |
+| Argument | prior proof supplied, source-first reconstruction, or independent route |
+| Exposure | definitions, target claim, proof, code, outputs, prior verdicts, and omitted items |
+
+A fresh same-model review is not a different-model review. Different loops around the same formula
+are not independent implementations. A model identifier alone does not establish an independent
+argument. An unavailable axis is `UNTESTED`, never silently passed.
+
+## Procedure
+
+1. Pin the candidate revision and every reviewed source version.
+2. Prefer a source-first stage that sees admitted definitions and sources but not the proposed proof
+   or prior verdict; then conduct a direct adversarial stage against the candidate.
+3. Recompute only the load-bearing quantities and use a genuinely different implementation or method
+   where practical. Same-code reruns remain regression evidence.
+4. Record actual commands, outputs, skipped checks, and resource/runtime limits.
+5. For every objection, name the defective step, reason or counterexample, strongest surviving
+   conclusion, and smallest source-preserving repair. “No known repair” is allowed.
+6. Resolve or escalate disagreements; never discard them. Scientific status changes remain governed
+   by the registry and Charles's authority, not by this protocol.
+
+## Minimum review record
+
+- reviewer identity/context and date;
+- candidate revision/hash and source versions;
+- independence-axis table and exposure list;
+- checks performed and not performed;
+- verdict with exact scope and residual limitations;
+- disagreements, repairs, and follow-up status.
+
+Human specialist review remains recommended for major physical or canonical claims. If unavailable,
+record that limitation; do not fabricate completion or make it a blanket barrier to unrelated work.

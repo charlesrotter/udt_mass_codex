@@ -5,9 +5,9 @@ description: Use before promoting any scientific result or claiming a synthesis 
 
 # Verifier-before-record (binding)
 
-Every scientific result gets a blind adversarial verifier pass, recorded with the reviewer's
-identity and date, before promotion or an accepted-result commit. Negative scientific results are
-first-class and receive the same scrutiny.
+Every scientific result gets an adversarial verifier pass, recorded with the reviewer's identity,
+context/model, date, candidate/source versions, exposure, and actual checks before promotion or an
+accepted-result commit. Negative scientific results are first-class and receive the same scrutiny.
 
 A draft, failed attempt, incomplete explanation, or candidate synthesis may be saved in a clearly
 labeled checkpoint before review. The checkpoint must identify its source snapshot, scope,
@@ -16,9 +16,8 @@ an accepted dependency. Calling a synthesis `FIDELITY_REVIEWED` still requires a
 review proportional to what the synthesis changed.
 
 ## A clean blind pass requires
-- FRESH ZERO-CONTEXT instance (no conversation history). For load-bearing / native-vs-import /
-  "must-quantize"-class verdicts, use a fresh instance and/or a different model family (P4) — a
-  same-context same-model subagent shares blind spots.
+- State whether the reviewer is fresh-context, a different model, a different implementation, or an
+  independent argument. These are separate properties; none may be inferred from another.
 - ADVERSARIAL stance: try to BREAK the claim, not confirm it. Default to skepticism; concede
   only what cannot be refuted.
 - INDEPENDENTLY RE-RUN the key computation/tests; report the real numbers vs the claim.
@@ -26,8 +25,10 @@ review proportional to what the synthesis changed.
   result, circular references, a check that secretly reuses the thing it tests.
 - For a test harness: REDO the catch-proof (reintroduce each bug, confirm the matching test
   goes RED). An untested guard is decoration.
-- Verdict: VERIFIED / VERIFIED-WITH-CAVEATS / REFUTED, with concrete reasons. Distinguish
-  "PROVEN to machine precision" from "CONSISTENCY-checked / REGRESSION-locked."
+- Verdict: VERIFIED / VERIFIED-WITH-CAVEATS / REFUTED, with concrete reasons. Identify a defective
+  step and reason/counterexample, the strongest surviving conclusion, and smallest source-preserving
+  repair. Distinguish analytic proof, exact arithmetic, floating-point agreement, numerical
+  certification, and regression.
 - Leave the repo EXACTLY as found (restore scratch edits; note UNTRACKED files won't
   `git checkout` back — back them up manually).
 
@@ -42,13 +43,12 @@ review proportional to what the synthesis changed.
   establish empirical truth, or confer canonical status.
 
 ## Cross-model escalation (load-bearing calls — P4)
-For NATIVE-vs-IMPORT classifications, "must-quantize"-class verdicts, and CANON candidates, ALSO
-run a verifier on a DIFFERENT Claude tier (Agent `model=` param, e.g. driver=opus -> sonnet), fresh
-zero-context, pointed at the source docs NOT the prior verdict. Log the cross-model agent's
-id+model+verdict; a DISAGREEMENT is resolved or escalated to Charles, NEVER dropped — and if it
-refines a classification, update the source-of-truth. Protocol = `CROSS_MODEL_VERIFY.md`.
+For native-vs-import classifications, direction-gating conclusions, and canon candidates, use the
+strongest feasible independence axes and record unavailable ones honestly. A disagreement is
+resolved or escalated to Charles, never dropped. Protocol = `CROSS_MODEL_VERIFY.md`.
 
 ## Aim
 Aim verifiers HARDEST at results that CONFIRM the standing hypothesis (hypothesis discipline:
 "find what's real, not what confirms priors"). Record caveats; CLOSE or explicitly SCOPE them
-before banking. Pre-register falsification contracts before the test runs; no retuning after.
+before promotion. Use the evidence-appropriate freeze rules in `AGENTS.md`; mathematical discovery
+does not require advance prediction of its proof.
