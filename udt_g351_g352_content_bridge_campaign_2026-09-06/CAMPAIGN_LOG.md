@@ -1,11 +1,13 @@
 # Carried-content bridge campaign — compact maintained log
 
-Status: RESEARCH CLOSED AT DECISION GATE; evidence handoff in progress.
+Status: CAMPAIGN COMPLETE AT DECISION GATE; evidence handoff committed/pushed.
 Nothing here becomes accepted science by being saved or reviewed.
 Authorization: up to FIVE substantive reviewed steps OR SIX hours total.
 Start2026-09-06 19:27:27 UTC; hard stop2026-09-07 01:27:27 UTC.
 Four steps reviewed by20:46 UTC; no fifth question opened. This is an early
 bounded return, not a runtime interruption or claim that physics is solved.
+Evidence handoff verified2026-09-06 21:04:25 UTC, elapsed1h36m58s from start;
+the remaining log/manifest status commit is procedural bookkeeping only.
 
 ## Scope and operating plan
 
@@ -106,9 +108,14 @@ current-log mismatch is NOT relabeled as a pass or a changed scientific source.
 Plan ac7e5699; Step1 freeze b5963bd6; review1/workorder2 9fb783cb;
 Step2 freeze9aa8dc44; review2/workorder3 c5d537b2; Step3 freezee6ec23ac;
 review3/workorder4 6a3755bb; Step4 freeze7cd79a66. All committed/pushed on grok.
-Four-step decision packet and review4 preserved at2eb82992, pushed. Step4/archive
-and aggregate decision-brief fidelity are complete. Current task: final package
-membership/source/preservation checks, then commit/push the evidence handoff.
+Four-step decision packet and review4 preserved at2eb82992, pushed. Final
+evidence handoff cdcf785f276cd5b4c52f77944d9b08c27909c142 was committed and
+successfully pushed; actual HEAD and origin/grok matched with0/0 divergence.
+All351 package files were present in the Git index with exact manifest
+membership (350 payload hashes plus the manifest), source/freeze/archive and
+diff checks passed, and the46 original unrelated status entries remained.
+The extra historical-log mismatch is disclosed above, not counted as a pass.
+This procedural completion update changes no reviewed scientific statement.
 
 DECISION_BRIEF.md presents the reviewed conditional results for Charles's
 banking decision. No useful fifth step was identified within this tested route
