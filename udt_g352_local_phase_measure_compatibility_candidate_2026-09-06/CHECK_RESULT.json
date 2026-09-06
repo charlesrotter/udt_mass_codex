@@ -1,0 +1,533 @@
+{
+  "assertion_count": 86,
+  "assertion_sensitivity_only": {
+    "confuse_equal_total_with_equal_measure": {
+      "expected": "3/8",
+      "injected_actual": "1/2",
+      "rejected": true,
+      "target": "profile_left_half_mass"
+    },
+    "erase_twist_obstruction": {
+      "expected": "-1",
+      "injected_actual": "0",
+      "rejected": true,
+      "target": "twist_wedge_123"
+    },
+    "omit_clock_frequency_weight": {
+      "expected": "2/9",
+      "injected_actual": "4/9",
+      "rejected": true,
+      "target": "cone_direct_transfer"
+    },
+    "omit_passive_relabel_jacobian": {
+      "expected": "1",
+      "injected_actual": "exp(theta)",
+      "rejected": true,
+      "target": "passive_relabel_mass"
+    },
+    "promote_pointwise_to_neighborhood": {
+      "expected": "-1/5",
+      "injected_actual": "0",
+      "rejected": true,
+      "target": "nearby_twist_nonzero"
+    },
+    "replace_area_by_radius": {
+      "expected": "9",
+      "injected_actual": "3",
+      "rejected": true,
+      "target": "cone_J2"
+    },
+    "reverse_future_phase_sign": {
+      "expected": "1",
+      "injected_actual": "-1",
+      "rejected": true,
+      "target": "observer_1_frequency"
+    },
+    "treat_scaled_beta_as_closed": {
+      "expected": "2",
+      "injected_actual": "0",
+      "rejected": true,
+      "target": "scaled_not_closed_witness_x1"
+    }
+  },
+  "check_script_sha256": "48182a21b95c30f8edc442da7b6b65f6449246792f293d4a919b3b4081df3371",
+  "checks": {
+    "cone_Gamma1": {
+      "actual": "density/(4*spacing)",
+      "expected": "density/(4*spacing)",
+      "pass": true
+    },
+    "cone_Gamma2": {
+      "actual": "density/(18*spacing)",
+      "expected": "density/(18*spacing)",
+      "pass": true
+    },
+    "cone_J1": {
+      "actual": "4",
+      "expected": "4",
+      "pass": true
+    },
+    "cone_J2": {
+      "actual": "9",
+      "expected": "9",
+      "pass": true
+    },
+    "cone_area_jacobian_squared": {
+      "actual": "radius**4",
+      "expected": "radius**4",
+      "pass": true
+    },
+    "cone_area_ratio": {
+      "actual": "9/4",
+      "expected": "9/4",
+      "pass": true
+    },
+    "cone_direct_transfer": {
+      "actual": "2/9",
+      "expected": "2/9",
+      "pass": true
+    },
+    "cone_frequency_ratio": {
+      "actual": "1/2",
+      "expected": "1/2",
+      "pass": true
+    },
+    "cone_screen_gram_determinant": {
+      "actual": "radius**4*sin(a)**2",
+      "expected": "radius**4*sin(a)**2",
+      "pass": true
+    },
+    "integrating_factor_alignment_0": {
+      "actual": "(-x**2 - 1)/(x**2 + 1) + 1",
+      "expected": "0",
+      "pass": true
+    },
+    "integrating_factor_alignment_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "integrating_factor_alignment_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "integrating_factor_alignment_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "measure_mass_double": {
+      "actual": "2",
+      "expected": "2",
+      "pass": true
+    },
+    "measure_mass_same_total_profile": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "measure_mass_unit": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "measure_mass_zero": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nearby_twist_nonzero": {
+      "actual": "-1/5",
+      "expected": "-1/5",
+      "pass": true
+    },
+    "nonlinear_affine_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_affine_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_affine_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_affine_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_aligned_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_aligned_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_aligned_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_aligned_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_frequency_ray_derivative": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "nonlinear_rest_frequency": {
+      "actual": "3*(-t + z)**2 + 1",
+      "expected": "3*(-t + z)**2 + 1",
+      "pass": true
+    },
+    "observer_1_frequency": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "observer_1_norm": {
+      "actual": "-1",
+      "expected": "-1",
+      "pass": true
+    },
+    "observer_2_frequency": {
+      "actual": "1/2",
+      "expected": "1/2",
+      "pass": true
+    },
+    "observer_2_norm": {
+      "actual": "-1",
+      "expected": "-1",
+      "pass": true
+    },
+    "passive_relabel_mass": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "phase_family_cut_derivative": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "phase_family_mass_derivative": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "phase_family_total_mass": {
+      "actual": "theta + 2",
+      "expected": "theta + 2",
+      "pass": true
+    },
+    "plane_affine_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_affine_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_affine_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_affine_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_flow_jacobian_abs_squared": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "plane_gradient_alignment_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_gradient_alignment_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_gradient_alignment_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_gradient_alignment_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_null": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "plane_phase_on_flow": {
+      "actual": "theta",
+      "expected": "theta",
+      "pass": true
+    },
+    "plane_screen_det": {
+      "actual": "1",
+      "expected": "1",
+      "pass": true
+    },
+    "pointwise_not_neighborhood_xyz": {
+      "actual": "-2*z",
+      "expected": "-2*z",
+      "pass": true
+    },
+    "pointwise_zero_012": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "pointwise_zero_013": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "pointwise_zero_023": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "pointwise_zero_123": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "profile_left_half_mass": {
+      "actual": "3/8",
+      "expected": "3/8",
+      "pass": true
+    },
+    "relabel_jacobian": {
+      "actual": "exp(theta)",
+      "expected": "exp(theta)",
+      "pass": true
+    },
+    "scaled_affine_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_affine_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_affine_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_affine_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_dbeta_xz": {
+      "actual": "2*x",
+      "expected": "2*x",
+      "pass": true
+    },
+    "scaled_frobenius_012": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_frobenius_013": {
+      "actual": "2*x*(-x**2 - 1) + 2*x*(x**2 + 1)",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_frobenius_023": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_frobenius_123": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "scaled_not_closed_witness_x1": {
+      "actual": "2",
+      "expected": "2",
+      "pass": true
+    },
+    "scaled_null": {
+      "actual": "(-x**2 - 1)*(x**2 + 1) + (x**2 + 1)**2",
+      "expected": "0",
+      "pass": true
+    },
+    "spherical_affine_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "spherical_affine_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "spherical_affine_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "spherical_affine_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "spherical_null": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "twist_wedge_012": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "twist_wedge_013": {
+      "actual": "-sin(z)",
+      "expected": "-sin(z)",
+      "pass": true
+    },
+    "twist_wedge_023": {
+      "actual": "cos(z)",
+      "expected": "cos(z)",
+      "pass": true
+    },
+    "twist_wedge_123": {
+      "actual": "-1",
+      "expected": "-1",
+      "pass": true
+    },
+    "twisting_affine_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "twisting_affine_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "twisting_affine_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "twisting_affine_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "twisting_null": {
+      "actual": "sin(z)**2 + cos(z)**2 - 1",
+      "expected": "0",
+      "pass": true
+    },
+    "unit_left_half_mass": {
+      "actual": "1/2",
+      "expected": "1/2",
+      "pass": true
+    },
+    "variable_cut_gram_unchanged_0": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "variable_cut_gram_unchanged_1": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "variable_cut_gram_unchanged_2": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "variable_cut_gram_unchanged_3": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    "zero_measure_zero_rate": {
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    }
+  },
+  "limits": [
+    "Finite exact checks, not a proof of Frobenius or general construction",
+    "Same-context implementation, not independent scientific review",
+    "Sensitivity mutations are data-level, not complete code mutation tests",
+    "No floating-point approximation, grid, GPU, field-equation solve, or physical selection"
+  ],
+  "python": "3.10.12",
+  "registry_sha256": "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
+  "saved_spherical_witness": {
+    "Gamma_coefficients_for_density_over_spacing": [
+      "1/4",
+      "1/18"
+    ],
+    "J": [
+      "4",
+      "9"
+    ],
+    "measure_profile": "x+1/2",
+    "metric": "diag(-1,1,r^2,r^2 sin(angle)^2)",
+    "observers_tr": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "5/4",
+        "3/4"
+      ]
+    ],
+    "omega": [
+      "1",
+      "1/2"
+    ],
+    "phase_covector_tr": [
+      "-1",
+      "1"
+    ],
+    "profile_left_half_mass": "3/8",
+    "radii": [
+      "2",
+      "3"
+    ],
+    "transfer": "2/9"
+  },
+  "source_head": "0c9c6db68ab08618e750c57c0d8f166434aae043",
+  "status": "PASS_EXACT_FINITE_WITNESSES__CANDIDATE_ONLY",
+  "sympy": "1.13.1"
+}

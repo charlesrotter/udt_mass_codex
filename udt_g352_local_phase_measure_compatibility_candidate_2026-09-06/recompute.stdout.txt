@@ -1,0 +1,3 @@
+PASS: saved-input rational recomputation; Cartesian areas=(4,9), frequencies=(1,1/2), transfer=2/9
+PASS: equal-total profile has half-patch mass 3/8, not 1/2; twisting control wedge_xyz=-1 at z=0
+SAME CONTEXT: no independent-review claim

@@ -1,0 +1,4 @@
+PASS: 86 exact finite-witness assertions
+PASS: 8/8 data-level assertion-sensitivity mutations rejected
+Spherical direct result: J=(4,9), omega=(1,1/2), Gamma ratio=2/9
+CANDIDATE ONLY: analytic general claims and separate-context review not certified by these counts

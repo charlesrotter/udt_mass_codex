@@ -1,0 +1,25 @@
+{
+  "J_from_cartesian_cross_product": [
+    "4",
+    "9"
+  ],
+  "direct_rates_for_unit_density_and_spacing": [
+    "1/4",
+    "1/18"
+  ],
+  "direct_transfer": "2/9",
+  "input_sha256": "1a3b5a241d6df6769c892e487af64be56374704d9fe729099180ccf87cf1075a",
+  "limits": [
+    "Same context, fully exposed to argument/code/results",
+    "Implementation-distinct finite rational anchors, not independent science",
+    "No general Frobenius, global geometry or physical realization certified"
+  ],
+  "omega_from_rational_contraction": [
+    "1",
+    "1/2"
+  ],
+  "profile_left_half_mass": "3/8",
+  "script_sha256": "6c59586cb63b9eb78eca0e7c91f1ea5760fb602841707243136e2cf749479043",
+  "status": "PASS_SAVED_INPUT_EXACT_RECOMPUTATION__SAME_CONTEXT",
+  "twist_xyz_at_z0": -1
+}
