@@ -97,6 +97,18 @@ accepted dependencies. An unproved dependency may appear only in an explicitly c
 candidate chain; it cannot silently become an accepted input. Without advance authorization use
 `MAP -> OBSERVE -> PONDER -> DERIVE`; with it, proceed until the declared stop or a real blocker.
 
+For future bounded research proposals, include the normal verification cycle by default:
+construction, relevant checks, fresh separate-context adversarial review, and bounded
+source-preserving, same-premise repair/re-review. State the question, review/resource budget,
+return point (reviewed conditional candidate and decision brief, narrowed result, refutation, or
+unresolved objection), and any narrower stopping condition before Charles authorizes the task.
+Charles's “proceed” to that scope authorizes all included stages; do not ask again merely to begin
+an already-included review or repair/re-review. Examine the load-bearing argument and hypotheses,
+not just passing checks; preserve initial candidates and review history. This convention does not
+retroactively override an explicit narrower work order. New physical premises, broader scope,
+substantial additional resources, and scientific promotion still require further authority; all
+permission, protected-work, preservation, resource, and canon boundaries remain in force.
+
 ## Protected local work
 
 Preserve unrelated dirty and untracked files. In particular, do not stage, modify, delete, mine, or

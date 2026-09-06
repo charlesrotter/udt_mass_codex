@@ -754,7 +754,7 @@ def test_catch_missing_current_evidence_target(tmp_path: Path) -> None:
 
 def test_active_orientation_surface_stays_readably_bounded() -> None:
     limits = {
-        "AGENTS.md": (220, 1800),
+        "AGENTS.md": (225, 1950),  # Owner-requested bounded verification-cycle convention.
         "LIVE.md": (135, 900),
         "HANDOFF.md": (100, 600),
             "INDEX.md": (118, 570),
