@@ -1,0 +1,76 @@
+[
+  {
+    "step": 1,
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/stage_b_independent_witnesses.py",
+      "--repo",
+      "/home/udt-admin/udt_mass_codex"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "start_utc": "2026-09-06T20:53:01.004557+00:00",
+    "duration_seconds": 0.020885399000690086,
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"implementation\": \"stdlib Fraction, original Brinkmann coordinates\",\n  \"evidence\": \"saved finite witnesses independently recomputed; analytic source boundary not automated\",\n  \"original_metric_determinant\": \"-1\",\n  \"full_cut_gram\": [\n    [\n      \"4\",\n      \"0\"\n    ],\n    [\n      \"0\",\n      \"4\"\n    ]\n  ],\n  \"J\": \"4\",\n  \"rows\": [\n    {\n      \"input_weight\": \"1\",\n      \"total\": \"6\",\n      \"rate_values\": [\n        \"2\",\n        \"4\"\n      ],\n      \"ratio\": \"2\"\n    },\n    {\n      \"input_weight\": \"2\",\n      \"total\": \"12\",\n      \"rate_values\": [\n        \"4\",\n        \"8\"\n      ],\n      \"ratio\": \"2\"\n    },\n    {\n      \"input_weight\": \"1+lambda^2\",\n      \"total\": \"8\",\n      \"rate_values\": [\n        \"5/2\",\n        \"5\"\n      ],\n      \"ratio\": \"2\"\n    },\n    {\n      \"input_weight\": \"0\",\n      \"total\": \"0\",\n      \"rate_values\": [\n        \"0\",\n        \"0\"\n      ],\n      \"ratio\": null\n    }\n  ]\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 12480,
+    "interpretation": "Parent replay of archived independent implementation; packaging/regression, not another independent review"
+  },
+  {
+    "step": 2,
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review/stage_b_independent_comparison.py",
+      "--repo",
+      "/home/udt-admin/udt_mass_codex"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "start_utc": "2026-09-06T20:53:01.025501+00:00",
+    "duration_seconds": 0.38165111299895216,
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"basis\": \"frozen source-first coordinate maps differentiated independently\",\n  \"saved_witnesses\": [\n    {\n      \"A\": \"2\",\n      \"reconstructed_Jacobian\": \"Matrix([[1, 0, 0, 0], [131689/88200, 1, -1/2, 4/5], [-1/2, 0, 1, 0], [4/5, 0, 0, 1]])\",\n      \"reconstructed_full_pullback\": \"Matrix([[-22/225, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])\",\n      \"full_residual_matches_saved\": true,\n      \"recipe_beta_u\": \"-2\",\n      \"recipe_beta_preserved\": true\n    },\n    {\n      \"A\": \"-3\",\n      \"reconstructed_Jacobian\": \"Matrix([[1, 0, 0, 0], [-33137/29400, 1, -1/2, 4/5], [-1/2, 0, 1, 0], [4/5, 0, 0, 1]])\",\n      \"reconstructed_full_pullback\": \"Matrix([[11/75, -1, 0, 0], [-1, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])\",\n      \"full_residual_matches_saved\": true,\n      \"recipe_beta_u\": \"-sqrt(6)\",\n      \"recipe_beta_preserved\": true\n    }\n  ],\n  \"homothety_independent_contraction\": {\n    \"volume_ratio\": \"h**4\",\n    \"current_ratio\": \"h**(-2)\",\n    \"amount_ratio\": \"h**2\"\n  },\n  \"author_code_imported\": false,\n  \"author_results_exposed\": true,\n  \"read_only\": true,\n  \"finite_witnesses_are_not_theorem_proof\": true\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 49416,
+    "interpretation": "Parent replay of archived independent implementation; packaging/regression, not another independent review"
+  },
+  {
+    "step": 3,
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/stage_b_compare_saved.py",
+      "--repo",
+      "/home/udt-admin/udt_mass_codex",
+      "--author-tensors",
+      "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/stage_b_author_tensors.stdout"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "start_utc": "2026-09-06T20:53:01.407205+00:00",
+    "duration_seconds": 0.8234122500034573,
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"independence\": \"Frozen source-first reviewer implementation; no author module imported\",\n  \"full_array_comparisons\": {\n    \"Gamma\": {\n      \"positions\": 64,\n      \"nonzero\": 7\n    },\n    \"R\": {\n      \"positions\": 256,\n      \"nonzero\": 16\n    },\n    \"W\": {\n      \"positions\": 256,\n      \"nonzero\": 16\n    },\n    \"starW\": {\n      \"positions\": 256,\n      \"nonzero\": 16\n    },\n    \"B\": {\n      \"positions\": 256,\n      \"nonzero\": 1\n    }\n  },\n  \"ricci_positions\": 16,\n  \"saved_scalar_fields\": \"All displayed metric/root/alpha/q/dBeta/variable-profile values match\",\n  \"cubic\": {\n    \"coefficient\": \"1\",\n    \"S\": \"36*(x**2 + y**2)\",\n    \"point\": [\n      \"1\",\n      \"2\"\n    ],\n    \"root\": \"5**(1/4)*sqrt(6)\",\n    \"alpha\": [\n      \"0\",\n      \"0\",\n      \"1/10\",\n      \"1/5\"\n    ],\n    \"q\": \"1/20\"\n  },\n  \"gauge\": \"All 16 differentiated-map metric entries, all 4 beta entries, det=1\",\n  \"stage_a_baseline\": [\n    \"full_Ricci_from_metric\",\n    \"full_Riemann_support\",\n    \"harmonic_Ricci_zero\",\n    \"full_quadratic_tensor\",\n    \"dual_orientation_cancels\",\n    \"root_recurrence\",\n    \"ambient_closure_components\",\n    \"recurrence_norm\",\n    \"nonclosed_still_divergence_free\",\n    \"nonclosed_still_affine\",\n    \"q_weighted_divergence_free\",\n    \"constant_norm_harmonic_hessian_forces_constant\",\n    \"arbitrary_profile_full_isometry_pullback\",\n    \"arbitrary_profile_full_proper_homothety\",\n    \"isometry_preserves_variable_root\",\n    \"homothety_preserves_variable_root\",\n    \"full_affine_gauge_removal\",\n    \"wrong_translation_ode_is_detected\",\n    \"cubic_harmonic\",\n    \"cubic_S\",\n    \"cubic_q\",\n    \"cubic_nonclosed_at_regular_point\",\n    \"variable_u_phase_branch\",\n    \"closed_not_parallel_witness\",\n    \"zero_root_excluded\"\n  ]\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 50152,
+    "interpretation": "Parent replay of archived independent implementation; packaging/regression, not another independent review"
+  },
+  {
+    "step": 4,
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review/stage_b_independent_comparison.py",
+      "--repo",
+      "/home/udt-admin/udt_mass_codex"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "start_utc": "2026-09-06T20:53:02.230676+00:00",
+    "duration_seconds": 0.6895308630009822,
+    "returncode": 0,
+    "stdout": "{\n  \"Xi_total\": \"sqrt(6)/2\",\n  \"comparison_count\": 12,\n  \"independent_stage_a_guards\": [\n    \"determinant\",\n    \"full_raised_phase\",\n    \"null_phase\",\n    \"observer_unit\",\n    \"frequency\",\n    \"full_cut_gram\",\n    \"screen_observer_orthogonal\",\n    \"screen_gram\",\n    \"geometric_current_rate\",\n    \"product_rate\",\n    \"divergence\",\n    \"homothety_rate\",\n    \"homothety_current_volume\",\n    \"harmonic_13\",\n    \"cubic_N\",\n    \"cubic_q\",\n    \"cubic_w_fourth\",\n    \"cubic_stationarity\",\n    \"harmonic_18\",\n    \"mixture_N\",\n    \"mixture_q\",\n    \"mixture_w_fourth\",\n    \"mixed_log_u_at_zero\",\n    \"mixed_log_ux_at_zero\",\n    \"mixture_nonzero_product_minor\",\n    \"finite_annular_label_amount\",\n    \"point_rate_1\",\n    \"point_rate_4\",\n    \"separable_mixed_log\",\n    \"nonseparable_mixed_log\",\n    \"phase_spacing_gauge\",\n    \"fixed_amount_compensated_factorization\",\n    \"changed_spacing_compensated_factorization\"\n  ],\n  \"matches\": [\n    \"full_polar_pullback\",\n    \"full_polar_graph_area\",\n    \"saved_mu_total\",\n    \"saved_Xi_total\",\n    \"saved_rate_0\",\n    \"saved_rate_1\",\n    \"saved_negative_mixed_derivative\",\n    \"saved_negative_fourth_cross_ratio\",\n    \"variable_profile_N\",\n    \"variable_profile_q\",\n    \"variable_profile_w_fourth\",\n    \"variable_phase_primitive\"\n  ],\n  \"mu_total\": \"3*sqrt(6)/8\",\n  \"positive_cross_ratio_fourth_power\": \"2008387814976/678223072849\",\n  \"proof_status\": \"exact checks; analytic quantifiers reviewed separately\",\n  \"rates\": [\n    \"sqrt(3)/8\",\n    \"3*sqrt(3)/8\"\n  ]\n}\n",
+    "stderr": "",
+    "max_RSS_KiB": 52356,
+    "interpretation": "Parent replay of archived independent implementation; packaging/regression, not another independent review"
+  }
+]

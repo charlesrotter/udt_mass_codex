@@ -1,0 +1,309 @@
+{
+  "kind": "final_precommit_correspondence_scope_check_not_scientific_replay",
+  "observed_at": {
+    "current_time": "2026-09-06 21:02:46 UTC"
+  },
+  "head": "2eb8299292b45fb3987bbd48fd95e2e254549e86",
+  "passed": true,
+  "all_four_source_freeze_review_stage_a_artifact_checks_pass": true,
+  "closure_manifest_checks_pass": true,
+  "step4_exact_closure_copy_file_count": 11,
+  "unrelated_status_entries": 46,
+  "unrelated_status_exact_match": true,
+  "outside_package_tracked_diff_empty": true,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "protected_payloads_read": false,
+  "records": [
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "25df44",
+      "wall_time_seconds": 0.000004181,
+      "exit_code": 0,
+      "original_token_count": 400,
+      "output": "CURRENT_SCIENTIFIC_PREMISES.tsv: OK\nfounding.md: OK\nstartup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md: OK\nstartup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md: OK\nudt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md: OK\nudt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md: OK\nudt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/WORK_ORDER.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/ARTIFACT_SHA256SUMS: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/REVIEW_VERDICT.json: OK\nudt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/FROZEN_CANDIDATE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "dea319",
+      "wall_time_seconds": 0.000003468,
+      "exit_code": 0,
+      "original_token_count": 342,
+      "output": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/AUTHOR_RESULT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/AUTHOR_RUN.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/MUTATION_RUNS.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SELECTED_REGISTRY_FIELDS.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_AND_PREMISE_MAP.tsv: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/WITNESS_INPUTS.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/WORK_ORDER.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/INITIAL_check_query_completions.py: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/PARSE_DIAGNOSIS.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/PRE_FREEZE_PARSE_FAILURE.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/DEPENDENCY_REPLAY.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/PREMISE_AUDIT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/STARTING_CANDIDATE_AUTHENTICATION.json: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c REVIEW_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "d5c477",
+      "wall_time_seconds": 0.00000361,
+      "exit_code": 0,
+      "original_token_count": 431,
+      "output": "ARCHIVE_FILES.txt: OK\nCLOSURE_WRONG_CWD_TOOL_RESULT.json: OK\nFINAL_METADATA.json: OK\nREVIEW_VERDICT.json: OK\nSTAGE_A_RUN.json: OK\nSTAGE_A_SHA256SUMS: OK\nSTAGE_A_SOURCE_FIRST_REVIEW.md: OK\nSTAGE_A_SOURCE_METADATA.json: OK\nSTAGE_B_ADVERSARIAL_REVIEW.md: OK\nSTAGE_B_PARSER_DIAGNOSTIC.json: OK\nSTAGE_B_PARSER_DIAGNOSTIC_PLAN.md: OK\nSTAGE_B_REPLAY_RESULTS.json: OK\ncapture_source_metadata.py: OK\nfinal_repository_metadata.stderr: OK\nfinal_repository_metadata.stdout: OK\nfinal_source_diff.stderr: OK\nfinal_source_diff.stdout: OK\nrun_review_checks.py: OK\nseal_review_archive.py: OK\nstage_a_checks.py: OK\nstage_a_checks.stderr: OK\nstage_a_checks.stdout: OK\nstage_a_final_auth.stderr: OK\nstage_a_final_auth.stdout: OK\nstage_b_author_baseline.stderr: OK\nstage_b_author_baseline.stdout: OK\nstage_b_candidate_auth.stderr: OK\nstage_b_candidate_auth.stdout: OK\nstage_b_coordinate_area_identity.stderr: OK\nstage_b_coordinate_area_identity.stdout: OK\nstage_b_diagnostic_capture.py: OK\nstage_b_erase_weight.stderr: OK\nstage_b_erase_weight.stdout: OK\nstage_b_frozen_diff.stderr: OK\nstage_b_frozen_diff.stdout: OK\nstage_b_gauge_rebuild_mu.stderr: OK\nstage_b_gauge_rebuild_mu.stdout: OK\nstage_b_independent.stderr: OK\nstage_b_independent.stdout: OK\nstage_b_independent_witnesses.py: OK\nstage_b_observer_weighted_mu.stderr: OK\nstage_b_observer_weighted_mu.stdout: OK\nstage_b_parser_check.py: OK\nstage_b_parser_diff.stderr: OK\nstage_b_parser_diff.stdout: OK\nstage_b_parser_equivalence.stderr: OK\nstage_b_parser_equivalence.stdout: OK\nstage_b_phase_blind.stderr: OK\nstage_b_phase_blind.stdout: OK\nstage_b_replays.py: OK\nstage_b_source_auth.stderr: OK\nstage_b_source_auth.stdout: OK\nstage_b_stage_a_auth.stderr: OK\nstage_b_stage_a_auth.stdout: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c STAGE_A_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "0d1cf4",
+      "wall_time_seconds": 0.000003722,
+      "exit_code": 0,
+      "original_token_count": 55,
+      "output": "STAGE_A_SOURCE_FIRST_REVIEW.md: OK\nstage_a_checks.py: OK\nSTAGE_A_RUN.json: OK\nstage_a_checks.stdout: OK\nstage_a_checks.stderr: OK\ncapture_source_metadata.py: OK\nrun_review_checks.py: OK\nSTAGE_A_SOURCE_METADATA.json: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/SOURCE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "fc7770",
+      "wall_time_seconds": 0.000002251,
+      "exit_code": 0,
+      "original_token_count": 251,
+      "output": "CURRENT_SCIENTIFIC_PREMISES.tsv: OK\nstartup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md: OK\nstartup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/REVIEW_RECORD.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/FROZEN_CANDIDATE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "74ae3a",
+      "wall_time_seconds": 0.000002711,
+      "exit_code": 0,
+      "original_token_count": 139,
+      "output": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/AUTHOR_RESULT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/AUTHOR_RUNS.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/PREMISE_MAP.tsv: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/SOURCE_SHA256SUMS: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/WORK_ORDER.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/check_naturality.py: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c REVIEW_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "e4f1eb",
+      "wall_time_seconds": 0.00000252,
+      "exit_code": 0,
+      "original_token_count": 499,
+      "output": "ARCHIVE_FILES.txt: OK\nFINAL_METADATA.json: OK\nINITIAL_capture_stage_a.py: OK\nINITIAL_stage_a_checks.py: OK\nREVIEW_VERDICT.json: OK\nSTAGE_A_DIAGNOSTIC_PLAN.md: OK\nSTAGE_A_DIAGNOSTIC_RESULT.json: OK\nSTAGE_A_RUN.json: OK\nSTAGE_A_SHA256SUMS: OK\nSTAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK\nSTAGE_A_SOURCE_SHA256SUMS: OK\nSTAGE_B_ADVERSARIAL_REVIEW.md: OK\nSTAGE_B_REPLAY_RESULTS.json: OK\nSTAGE_B_TOOL_PATH_DIAGNOSTIC.json: OK\ncapture_stage_a.py: OK\nfinal_repository_status.stderr: OK\nfinal_repository_status.stdout: OK\nfinal_source_snapshot_diff.stderr: OK\nfinal_source_snapshot_diff.stdout: OK\nfinal_stage_a_auth.stderr: OK\nfinal_stage_a_auth.stdout: OK\nseal_final_review.py: OK\nseal_stage_a.py: OK\nstage_a_checks.py: OK\nstage_a_checks.stderr: OK\nstage_a_checks.stdout: OK\nstage_a_corrected_checks.stderr: OK\nstage_a_corrected_checks.stdout: OK\nstage_a_corrected_git.stderr: OK\nstage_a_corrected_git.stdout: OK\nstage_a_corrected_status.stderr: OK\nstage_a_corrected_status.stdout: OK\nstage_a_git.stderr: OK\nstage_a_git.stdout: OK\nstage_a_source_auth.stderr: OK\nstage_a_source_auth.stdout: OK\nstage_a_status.stderr: OK\nstage_a_status.stdout: OK\nstage_b_author_baseline.stderr: OK\nstage_b_author_baseline.stdout: OK\nstage_b_candidate_auth.stderr: OK\nstage_b_candidate_auth.stdout: OK\nstage_b_capture_replays.py: OK\nstage_b_component_as_scalar.stderr: OK\nstage_b_component_as_scalar.stdout: OK\nstage_b_density_scale.stderr: OK\nstage_b_density_scale.stdout: OK\nstage_b_final_git.stderr: OK\nstage_b_final_git.stdout: OK\nstage_b_frozen_diff.stderr: OK\nstage_b_frozen_diff.stdout: OK\nstage_b_homothety_v_power.stderr: OK\nstage_b_homothety_v_power.stdout: OK\nstage_b_independent.stderr: OK\nstage_b_independent.stdout: OK\nstage_b_independent_comparison.py: OK\nstage_b_source_auth.stderr: OK\nstage_b_source_auth.stdout: OK\nstage_b_stage_a_auth.stderr: OK\nstage_b_stage_a_auth.stdout: OK\nstage_b_v_shift_sign.stderr: OK\nstage_b_v_shift_sign.stdout: OK\nstage_b_wrong_y_ode.stderr: OK\nstage_b_wrong_y_ode.stdout: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c STAGE_A_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "4dfeda",
+      "wall_time_seconds": 0.000002215,
+      "exit_code": 0,
+      "original_token_count": 177,
+      "output": "INITIAL_capture_stage_a.py: OK\nINITIAL_stage_a_checks.py: OK\nSTAGE_A_DIAGNOSTIC_PLAN.md: OK\nSTAGE_A_DIAGNOSTIC_RESULT.json: OK\nSTAGE_A_RUN.json: OK\nSTAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK\nSTAGE_A_SOURCE_SHA256SUMS: OK\ncapture_stage_a.py: OK\nseal_stage_a.py: OK\nstage_a_checks.py: OK\nstage_a_checks.stderr: OK\nstage_a_checks.stdout: OK\nstage_a_corrected_checks.stderr: OK\nstage_a_corrected_checks.stdout: OK\nstage_a_corrected_git.stderr: OK\nstage_a_corrected_git.stdout: OK\nstage_a_corrected_status.stderr: OK\nstage_a_corrected_status.stdout: OK\nstage_a_git.stderr: OK\nstage_a_git.stdout: OK\nstage_a_source_auth.stderr: OK\nstage_a_source_auth.stdout: OK\nstage_a_status.stderr: OK\nstage_a_status.stdout: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/SOURCE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "e90b23",
+      "wall_time_seconds": 0.000002284,
+      "exit_code": 0,
+      "original_token_count": 296,
+      "output": "CURRENT_SCIENTIFIC_PREMISES.tsv: OK\nstartup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md: OK\nstartup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md: OK\nudt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review/REVIEW_VERDICT.json: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/FROZEN_CANDIDATE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "aae5e2",
+      "wall_time_seconds": 0.00000231,
+      "exit_code": 0,
+      "original_token_count": 139,
+      "output": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/AUTHOR_RESULT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/AUTHOR_RUNS.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/PREMISE_MAP.tsv: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/SOURCE_SHA256SUMS: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/WORK_ORDER.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/check_harmonic_wave.py: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c REVIEW_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "e6e6cf",
+      "wall_time_seconds": 0.00000219,
+      "exit_code": 0,
+      "original_token_count": 642,
+      "output": "ARCHIVE_FILES.txt: OK\nPREMISE_AUDIT_RECORD.json: OK\nREVIEW_VERDICT.json: OK\nSTAGE_A_DIAGNOSTIC.md: OK\nSTAGE_A_PLAN.md: OK\nSTAGE_A_SHA256SUMS: OK\nSTAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK\nSTAGE_B_ADVERSARIAL_REVIEW.md: OK\nSTAGE_B_TOOL_PATH_DIAGNOSTIC.json: OK\ndiagnose_cubic.py: OK\npremise_audit.stderr: OK\npremise_audit.stdout: OK\nrun_capture.py: OK\nseal_review.py: OK\nstage_a_corrected.json: OK\nstage_a_corrected.stderr: OK\nstage_a_corrected.stdout: OK\nstage_a_cubic_diagnosis.json: OK\nstage_a_cubic_diagnosis.stderr: OK\nstage_a_cubic_diagnosis.stdout: OK\nstage_a_final.json: OK\nstage_a_final.stderr: OK\nstage_a_final.stdout: OK\nstage_a_independent.json: OK\nstage_a_independent.py: OK\nstage_a_independent.stderr: OK\nstage_a_independent.stdout: OK\nstage_a_initial_syntax.py: OK\nstage_a_source_hashes.json: OK\nstage_a_source_hashes.stderr: OK\nstage_a_source_hashes.stdout: OK\nstage_a_structural_equality.py: OK\nstage_b_auth_candidate.json: OK\nstage_b_auth_candidate.stderr: OK\nstage_b_auth_candidate.stdout: OK\nstage_b_auth_source.json: OK\nstage_b_auth_source.stderr: OK\nstage_b_auth_source.stdout: OK\nstage_b_author_baseline.json: OK\nstage_b_author_baseline.stderr: OK\nstage_b_author_baseline.stdout: OK\nstage_b_author_byte_compare.json: OK\nstage_b_author_byte_compare.stderr: OK\nstage_b_author_byte_compare.stdout: OK\nstage_b_author_tensors.json: OK\nstage_b_author_tensors.stderr: OK\nstage_b_author_tensors.stdout: OK\nstage_b_candidate_diff.json: OK\nstage_b_candidate_diff.stderr: OK\nstage_b_candidate_diff.stdout: OK\nstage_b_capture_author_tensors.py: OK\nstage_b_compare_saved.py: OK\nstage_b_independent_compare.json: OK\nstage_b_independent_compare.stderr: OK\nstage_b_independent_compare.stdout: OK\nstage_b_mutant_drop_Hu_connection.json: OK\nstage_b_mutant_drop_Hu_connection.stderr: OK\nstage_b_mutant_drop_Hu_connection.stdout: OK\nstage_b_mutant_drop_dual.json: OK\nstage_b_mutant_drop_dual.stderr: OK\nstage_b_mutant_drop_dual.stdout: OK\nstage_b_mutant_force_closed.json: OK\nstage_b_mutant_force_closed.stderr: OK\nstage_b_mutant_force_closed.stdout: OK\nstage_b_mutant_gauge_linear_force.json: OK\nstage_b_mutant_gauge_linear_force.stderr: OK\nstage_b_mutant_gauge_linear_force.stdout: OK\nstage_b_mutant_inverse_metric_weight.json: OK\nstage_b_mutant_inverse_metric_weight.stderr: OK\nstage_b_mutant_inverse_metric_weight.stdout: OK\nstage_b_replay_summary.json: OK\nstage_b_replay_summary.stderr: OK\nstage_b_replay_summary.stdout: OK\nstage_b_stage_a_unchanged.json: OK\nstage_b_stage_a_unchanged.stderr: OK\nstage_b_stage_a_unchanged.stdout: OK\nsummarize_replays.py: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c STAGE_A_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "47cdc0",
+      "wall_time_seconds": 0.000002327,
+      "exit_code": 0,
+      "original_token_count": 168,
+      "output": "STAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK\nSTAGE_A_PLAN.md: OK\nSTAGE_A_DIAGNOSTIC.md: OK\nrun_capture.py: OK\nstage_a_independent.py: OK\nstage_a_initial_syntax.py: OK\nstage_a_structural_equality.py: OK\ndiagnose_cubic.py: OK\nstage_a_independent.stdout: OK\nstage_a_independent.stderr: OK\nstage_a_independent.json: OK\nstage_a_corrected.stdout: OK\nstage_a_corrected.stderr: OK\nstage_a_corrected.json: OK\nstage_a_cubic_diagnosis.stdout: OK\nstage_a_cubic_diagnosis.stderr: OK\nstage_a_cubic_diagnosis.json: OK\nstage_a_final.stdout: OK\nstage_a_final.stderr: OK\nstage_a_final.json: OK\nstage_a_source_hashes.stdout: OK\nstage_a_source_hashes.stderr: OK\nstage_a_source_hashes.json: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/SOURCE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "8a697a",
+      "wall_time_seconds": 0.000002428,
+      "exit_code": 0,
+      "original_token_count": 269,
+      "output": "CURRENT_SCIENTIFIC_PREMISES.tsv: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review/REVIEW_VERDICT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/REVIEW_RECORD.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/REVIEW_VERDICT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/PREMISE_AUDIT_RECORD.json: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/FROZEN_CANDIDATE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "afb687",
+      "wall_time_seconds": 0.000002407,
+      "exit_code": 0,
+      "original_token_count": 141,
+      "output": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/AUTHOR_RESULT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_04/AUTHOR_RUNS.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_04/PREMISE_MAP.tsv: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_04/SOURCE_SHA256SUMS: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_04/WORK_ORDER.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_04/check_product_realization.py: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c REVIEW_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "a29440",
+      "wall_time_seconds": 0.000002393,
+      "exit_code": 0,
+      "original_token_count": 550,
+      "output": "ARCHIVE_FILES.txt: OK\nFINAL_STATUS_DIAGNOSTIC_PLAN.md: OK\nREVIEW_VERDICT.json: OK\nSTAGE_A_PLAN.md: OK\nSTAGE_A_SHA256SUMS: OK\nSTAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK\nSTAGE_B_ADVERSARIAL_REVIEW.md: OK\nfinal_head.json: OK\nfinal_head.stderr: OK\nfinal_head.stdout: OK\nfinal_repository_status.json: OK\nfinal_repository_status.stderr: OK\nfinal_repository_status.stdout: OK\nfinal_repository_status_serial.json: OK\nfinal_repository_status_serial.stderr: OK\nfinal_repository_status_serial.stdout: OK\nfinal_stage_a_auth.json: OK\nfinal_stage_a_auth.stderr: OK\nfinal_stage_a_auth.stdout: OK\nrun_capture.py: OK\nseal_review.py: OK\nseal_stage_a.py: OK\nstage_a_auth.json: OK\nstage_a_auth.stderr: OK\nstage_a_auth.stdout: OK\nstage_a_checks.py: OK\nstage_a_independent.json: OK\nstage_a_independent.stderr: OK\nstage_a_independent.stdout: OK\nstage_a_sources.json: OK\nstage_a_sources.stderr: OK\nstage_a_sources.stdout: OK\nstage_b_author_baseline.json: OK\nstage_b_author_baseline.stderr: OK\nstage_b_author_baseline.stdout: OK\nstage_b_candidate_auth.json: OK\nstage_b_candidate_auth.stderr: OK\nstage_b_candidate_auth.stdout: OK\nstage_b_candidate_diff.json: OK\nstage_b_candidate_diff.stderr: OK\nstage_b_candidate_diff.stdout: OK\nstage_b_independent.json: OK\nstage_b_independent.stderr: OK\nstage_b_independent.stdout: OK\nstage_b_independent_comparison.py: OK\nstage_b_mutant_old_root_as_phase.json: OK\nstage_b_mutant_old_root_as_phase.stderr: OK\nstage_b_mutant_old_root_as_phase.stdout: OK\nstage_b_mutant_omit_conversion_q.json: OK\nstage_b_mutant_omit_conversion_q.stderr: OK\nstage_b_mutant_omit_conversion_q.stdout: OK\nstage_b_mutant_omit_polar_J.json: OK\nstage_b_mutant_omit_polar_J.stderr: OK\nstage_b_mutant_omit_polar_J.stdout: OK\nstage_b_mutant_phase_blind_product.json: OK\nstage_b_mutant_phase_blind_product.stderr: OK\nstage_b_mutant_phase_blind_product.stdout: OK\nstage_b_mutant_phase_measure_rebuild_gauge.json: OK\nstage_b_mutant_phase_measure_rebuild_gauge.stderr: OK\nstage_b_mutant_phase_measure_rebuild_gauge.stdout: OK\nstage_b_source_auth.json: OK\nstage_b_source_auth.stderr: OK\nstage_b_source_auth.stdout: OK\nstage_b_summary.json: OK\nstage_b_summary.stderr: OK\nstage_b_summary.stdout: OK\nsummarize_stage_b.py: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c STAGE_A_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review",
+      "stream_format": "exec combined command output",
+      "chunk_id": "e64ef7",
+      "wall_time_seconds": 0.000003139,
+      "exit_code": 0,
+      "original_token_count": 74,
+      "output": "STAGE_A_PLAN.md: OK\nSTAGE_A_SOURCE_FIRST_RECONSTRUCTION.md: OK\nrun_capture.py: OK\nseal_stage_a.py: OK\nstage_a_checks.py: OK\nstage_a_independent.json: OK\nstage_a_independent.stderr: OK\nstage_a_independent.stdout: OK\nstage_a_sources.json: OK\nstage_a_sources.stderr: OK\nstage_a_sources.stdout: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c CLOSURE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/closure",
+      "stream_format": "exec combined command output",
+      "chunk_id": "41971c",
+      "wall_time_seconds": 0.000002624,
+      "exit_code": 0,
+      "original_token_count": 41,
+      "output": "CLOSURE_FIDELITY.md: OK\nCLOSURE_RUN.json: OK\ncapture_closure.py: OK\ncheck_documentation_closure.py: OK\nclosure.stderr: OK\nclosure.stdout: OK\nseal_closure.py: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/closure",
+      "stream_format": "exec combined command output",
+      "chunk_id": "ecaa0e",
+      "wall_time_seconds": 0.000002352,
+      "exit_code": 0,
+      "original_token_count": 65,
+      "output": "CLOSURE_FIDELITY.md: OK\nDIAGNOSTIC.md: OK\ncheck_closure.py: OK\ncheck_closure_initial.py: OK\nclosure_checks.json: OK\nclosure_checks.stdout: OK\nclosure_checks.stderr: OK\nclosure_bounded_git.json: OK\nclosure_bounded_git.stdout: OK\nclosure_bounded_git.stderr: OK\n"
+    },
+    {
+      "cmd": "sha256sum -c CLOSURE_SHA256SUMS",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/closure",
+      "stream_format": "exec combined command output",
+      "chunk_id": "e1e88a",
+      "wall_time_seconds": 0.000002689,
+      "exit_code": 0,
+      "original_token_count": 61,
+      "output": "ARCHIVE_FILES.txt: OK\nCLOSURE_FIDELITY.md: OK\nCLOSURE_PLAN.md: OK\nOPTIONAL_SUMMARY_TOOL_DIAGNOSTIC.json: OK\ncheck_closure.py: OK\nclosure_checks.json: OK\nclosure_checks.stderr: OK\nclosure_checks.stdout: OK\nrun_capture.py: OK\nseal_closure.py: OK\n"
+    },
+    {
+      "cmd": "rg --files --hidden --no-ignore -0 . | sort -z | xargs -0 sha256sum",
+      "workdir": "/tmp/udt_step04_closure_J0wuDf",
+      "stream_format": "exec combined command output",
+      "chunk_id": "9b1c95",
+      "wall_time_seconds": 0.000002165,
+      "exit_code": 0,
+      "original_token_count": 243,
+      "output": "6075ce698b8c99e7d2746fe37db3376e407df0db45428c05b9e0b783f3791d91  ./ARCHIVE_FILES.txt\n3dc21c0c429508bb2bdfc5676f89aaa34010499ce18bb6ec5645a225b240bb6f  ./CLOSURE_FIDELITY.md\necdda69cc668d165385e208b87c4b4365b85a6abe33f4a952ecc370139b8931c  ./CLOSURE_PLAN.md\n6ab14b7a686436b45a4cc626949631979e33fdd337b8d78871cc86cd02a6e3ac  ./CLOSURE_SHA256SUMS\nbeaa456a60057c2e6bf69642fcb00a654805371e87330673a7f78543ef70ec01  ./OPTIONAL_SUMMARY_TOOL_DIAGNOSTIC.json\neec01b9224e9944dcbecc99883dab20320343edc1d24274667053c43c39d3397  ./check_closure.py\n5733b9f03d8662f5b52d11bd7196257ccd27343fff42257059e7010cfa09c092  ./closure_checks.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./closure_checks.stderr\n525e56e8204e7cdbc65181ba569f9c729c30e81400a70934118a8ea8bf149063  ./closure_checks.stdout\n8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef  ./run_capture.py\n7ed9a09aca94a1b6b828d1a878ae52f9b2c1d24a2687328991f3d249f0f4dbe3  ./seal_closure.py\n"
+    },
+    {
+      "cmd": "rg --files --hidden --no-ignore -0 . | sort -z | xargs -0 sha256sum",
+      "workdir": "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/closure",
+      "stream_format": "exec combined command output",
+      "chunk_id": "931ee8",
+      "wall_time_seconds": 0.000002827,
+      "exit_code": 0,
+      "original_token_count": 243,
+      "output": "6075ce698b8c99e7d2746fe37db3376e407df0db45428c05b9e0b783f3791d91  ./ARCHIVE_FILES.txt\n3dc21c0c429508bb2bdfc5676f89aaa34010499ce18bb6ec5645a225b240bb6f  ./CLOSURE_FIDELITY.md\necdda69cc668d165385e208b87c4b4365b85a6abe33f4a952ecc370139b8931c  ./CLOSURE_PLAN.md\n6ab14b7a686436b45a4cc626949631979e33fdd337b8d78871cc86cd02a6e3ac  ./CLOSURE_SHA256SUMS\nbeaa456a60057c2e6bf69642fcb00a654805371e87330673a7f78543ef70ec01  ./OPTIONAL_SUMMARY_TOOL_DIAGNOSTIC.json\neec01b9224e9944dcbecc99883dab20320343edc1d24274667053c43c39d3397  ./check_closure.py\n5733b9f03d8662f5b52d11bd7196257ccd27343fff42257059e7010cfa09c092  ./closure_checks.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./closure_checks.stderr\n525e56e8204e7cdbc65181ba569f9c729c30e81400a70934118a8ea8bf149063  ./closure_checks.stdout\n8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef  ./run_capture.py\n7ed9a09aca94a1b6b828d1a878ae52f9b2c1d24a2687328991f3d249f0f4dbe3  ./seal_closure.py\n"
+    },
+    {
+      "cmd": "git status --short --untracked-files=normal",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "bf5a02",
+      "wall_time_seconds": 0.000002394,
+      "exit_code": 0,
+      "original_token_count": 1028,
+      "output": " M udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md\n?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/FINAL_OPERATIONAL_NOTE.md\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/PORTABLE_ARCHIVE_REPLAYS.json\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/closure/\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n"
+    },
+    {
+      "cmd": "git diff --name-only c19b5fb147d6afbfd91ec248b0693dfc834ce220 -- . ':!udt_g351_g352_content_bridge_campaign_2026-09-06'",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "af643a",
+      "wall_time_seconds": 0.000001661,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "cmd": "git diff --check",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "8d84ad",
+      "wall_time_seconds": 0.000001735,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "cmd": "git rev-parse HEAD",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "235cc3",
+      "wall_time_seconds": 0.000002123,
+      "exit_code": 0,
+      "original_token_count": 11,
+      "output": "2eb8299292b45fb3987bbd48fd95e2e254549e86\n"
+    },
+    {
+      "cmd": "sha256sum udt_g351_g352_content_bridge_campaign_2026-09-06/DECISION_BRIEF.md",
+      "workdir": "/home/udt-admin/udt_mass_codex",
+      "stream_format": "exec combined command output",
+      "chunk_id": "666e0b",
+      "wall_time_seconds": 0.000003759,
+      "exit_code": 0,
+      "original_token_count": 34,
+      "output": "698038549df858d577e27bb37c008f51f100a9292a3062f1355f7a09740a8361  udt_g351_g352_content_bridge_campaign_2026-09-06/DECISION_BRIEF.md\n"
+    }
+  ],
+  "extra_historical_exposure_manifest_check": {
+    "actual_current_tree_result": {
+      "cmd": "sha256sum -c udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review/STAGE_A_SOURCE_SHA256SUMS",
+      "chunk_id": "565441",
+      "wall_time_seconds": 0.000002594,
+      "exit_code": 1,
+      "original_token_count": 424,
+      "output": "AGENTS.md: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nCLAUDE.md: OK\nCROSS_MODEL_VERIFY.md: OK\nINDEX.md: OK\nMEMORY.md: OK\n.claude/skills/no-shortcuts/SKILL.md: OK\n.claude/skills/verifier-before-record/SKILL.md: OK\n.claude/skills/completeness-map/SKILL.md: OK\n.claude/skills/solution-space-not-imposition/SKILL.md: OK\n.claude/skills/solver-first/SKILL.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/REVIEW_RECORD.md: OK\nudt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/REVIEW_VERDICT.json: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/step_02/WORK_ORDER.md: OK\nudt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md: FAILED\nsha256sum: WARNING: 1 computed checksum did NOT match\n"
+    },
+    "historical_log_checks": [
+      {
+        "cmd": "set -o pipefail\ngit show b5963bd6c1441a7ef55292072c3ada01c99cf9e2:udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md | sha256sum",
+        "chunk_id": "a1f3b8",
+        "wall_time_seconds": 0.000002865,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "55d72acb9d97af3abe040885da32d093fad567522e96151bf74a35e32509e845  -\n"
+      },
+      {
+        "cmd": "set -o pipefail\ngit show 9fb783cb0ffa90a0d25d677730139cf50fade16c:udt_g351_g352_content_bridge_campaign_2026-09-06/CAMPAIGN_LOG.md | sha256sum",
+        "chunk_id": "067667",
+        "wall_time_seconds": 0.000002166,
+        "exit_code": 0,
+        "original_token_count": 17,
+        "output": "5c6c412be9069ef692461c939456453974cd5814e97ac20323cfb8202f9cef11  -\n"
+      }
+    ],
+    "disposition": "EXPECTED CURRENT LOG MISMATCH, NOT A PASS: the 28 other entries match current bytes; the one maintained log entry matches commit 9fb783cb exactly. FINAL_METADATA.json already labels that hash historical exposure, not a current-status lock. Sealed record preserved unchanged.",
+    "capture_note": "The initial final-check orchestration stopped on this extra manifest mismatch; that isolate did not save its accumulated records. This audit preserves the actual repeated diagnostic and full actual re-run of the intended final checks, not an invented original capture."
+  }
+}

@@ -89,16 +89,26 @@ of its nonclosed root; pointwise q=0 differs from closure on an open patch.
 
 Sealed review memberships by step:55/65/78/68 files, with54/64/77/67 manifest
 payloads. All copied bytes and full membership matched originals, including
-ignored/empty stdout. Step1-3 documentation/archive closure checks also passed;
-their evidence is in each closure directory. No sealed candidate/review rewritten.
+ignored/empty stdout. All four documentation/archive closure checks passed;
+their evidence is in each closure directory. Step4 closure also reviewed the
+aggregate decision brief at2eb82992: PASS_DOCUMENTATION_FIDELITY, no correction.
+No sealed candidate/review rewritten. Parent portable replays of all four
+archived independent-comparison programs passed; these are same-code packaging
+checks, NOT additional independent scientific reviews (PORTABLE_ARCHIVE_REPLAYS.json).
+FINAL_OPERATIONAL_NOTE.md preserves the final read-only lookup diagnostics.
+FINAL_SCOPE_AUDIT.json records the final source/freeze/archive and preservation
+checks. An extra Step2 historical exposure manifest retains an expected mismatch
+against the later maintained log; its recorded log hash matches9fb783cb. That
+current-log mismatch is NOT relabeled as a pass or a changed scientific source.
 
 ## Banking trail and return point
 
 Plan ac7e5699; Step1 freeze b5963bd6; review1/workorder2 9fb783cb;
 Step2 freeze9aa8dc44; review2/workorder3 c5d537b2; Step3 freezee6ec23ac;
 review3/workorder4 6a3755bb; Step4 freeze7cd79a66. All committed/pushed on grok.
-Current task: finish Step4/archive and aggregate decision-brief fidelity,
-final package membership/source/preservation checks, then commit/push handoff.
+Four-step decision packet and review4 preserved at2eb82992, pushed. Step4/archive
+and aggregate decision-brief fidelity are complete. Current task: final package
+membership/source/preservation checks, then commit/push the evidence handoff.
 
 DECISION_BRIEF.md presents the reviewed conditional results for Charles's
 banking decision. No useful fifth step was identified within this tested route

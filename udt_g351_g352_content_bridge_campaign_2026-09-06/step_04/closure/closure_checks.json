@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/tmp/udt_step04_closure_J0wuDf/check_closure.py",
+    "--repo",
+    "/home/udt-admin/udt_mass_codex",
+    "--sealed",
+    "/tmp/udt_step04_review_cNgF3A"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T20:55:07.856401+00:00",
+  "duration_seconds": 0.2549315670003125,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15936
+}

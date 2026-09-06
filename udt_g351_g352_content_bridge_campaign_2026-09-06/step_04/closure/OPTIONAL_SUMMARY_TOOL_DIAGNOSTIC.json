@@ -1,0 +1,8 @@
+{
+  "operation": "Optional display-only JSON summary after closure checker had already passed",
+  "command": "jq '{status, pin, actual_head, archive_files, manifest_payloads, source_frozen_manifest_checks, unrelated_status_entries_preserved, out_of_scope_tracked_diff, command_count:(.commands|length), all_commands_rc0:([.commands[].returncode]|all(.==0))}' /tmp/udt_step04_closure_J0wuDf/closure_checks.stdout",
+  "returncode": 127,
+  "stdout": "",
+  "stderr": "/bin/bash: line 1: jq: command not found\n",
+  "disposition": "No check failed or evidence changed. Inspected exact JSON fields with available text tools. No install, resource expansion or mathematical replay."
+}
