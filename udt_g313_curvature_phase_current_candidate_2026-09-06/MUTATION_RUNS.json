@@ -1,0 +1,155 @@
+[
+  {
+    "mutation": "omit_dual",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "omit_dual"
+    ],
+    "start_utc": "2026-09-06T18:56:50.937780+00:00",
+    "elapsed_seconds": 0.28197657500277273,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 83, in <module>\n    tensor_eq('full_quadratic_tensor',B,{(0,0,0,0):4*A*A})\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 56, in tensor_eq\n    assert all(zero_on_nonzero_A(actual.get(key,0)-expected.get(key,0))\nAssertionError: full_quadratic_tensor\n",
+    "max_child_RSS_so_far_KiB": 60188,
+    "expected_guard": "full_quadratic_tensor",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "omit_dual_half",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "omit_dual_half"
+    ],
+    "start_utc": "2026-09-06T18:56:51.219763+00:00",
+    "elapsed_seconds": 0.2770873400004348,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 83, in <module>\n    tensor_eq('full_quadratic_tensor',B,{(0,0,0,0):4*A*A})\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 56, in tensor_eq\n    assert all(zero_on_nonzero_A(actual.get(key,0)-expected.get(key,0))\nAssertionError: full_quadratic_tensor\n",
+    "max_child_RSS_so_far_KiB": 60188,
+    "expected_guard": "full_quadratic_tensor",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "euclidean_contraction",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "euclidean_contraction"
+    ],
+    "start_utc": "2026-09-06T18:56:51.496857+00:00",
+    "elapsed_seconds": 0.2773567969998112,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 83, in <module>\n    tensor_eq('full_quadratic_tensor',B,{(0,0,0,0):4*A*A})\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 56, in tensor_eq\n    assert all(zero_on_nonzero_A(actual.get(key,0)-expected.get(key,0))\nAssertionError: full_quadratic_tensor\n",
+    "max_child_RSS_so_far_KiB": 60188,
+    "expected_guard": "full_quadratic_tensor",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "wrong_root_degree",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "wrong_root_degree"
+    ],
+    "start_utc": "2026-09-06T18:56:51.774220+00:00",
+    "elapsed_seconds": 0.3253680279995024,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 95, in <module>\n    tensor_eq('root_full_fourth_power',power4(beta),B)\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 56, in tensor_eq\n    assert all(zero_on_nonzero_A(actual.get(key,0)-expected.get(key,0))\nAssertionError: root_full_fourth_power\n",
+    "max_child_RSS_so_far_KiB": 60188,
+    "expected_guard": "root_full_fourth_power",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "past_root",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "past_root"
+    ],
+    "start_utc": "2026-09-06T18:56:52.099598+00:00",
+    "elapsed_seconds": 0.30798039300134405,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 96, in <module>\n    eq('future_sign_positive_A',(-(beta.T*U)[0]).subs(A,2),2)\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 45, in eq\n    assert zero_on_nonzero_A(actual-expected), name\nAssertionError: future_sign_positive_A\n",
+    "max_child_RSS_so_far_KiB": 60344,
+    "expected_guard": "future_sign_positive_A",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "differentials_zero",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "differentials_zero"
+    ],
+    "start_utc": "2026-09-06T18:56:52.407583+00:00",
+    "elapsed_seconds": 0.3255505599991011,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 107, in <module>\n    eq('nonclosed_control',exterior_one(control,coordinates,mutation)[1,0],-1)\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 45, in eq\n    assert zero_on_nonzero_A(actual-expected), name\nAssertionError: nonclosed_control\n",
+    "max_child_RSS_so_far_KiB": 60632,
+    "expected_guard": "nonclosed_control",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "homothety_inverse_frozen",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "homothety_inverse_frozen"
+    ],
+    "start_utc": "2026-09-06T18:56:52.733140+00:00",
+    "elapsed_seconds": 0.5867367550017661,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 139, in <module>\n    matrix_eq('homothety_raised_current',Cs,C/hom**2)\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 51, in matrix_eq\n    assert all(zero_on_nonzero_A(a-b) for a,b in zip(actual,expected)), name\nAssertionError: homothety_raised_current\n",
+    "max_child_RSS_so_far_KiB": 61584,
+    "expected_guard": "homothety_raised_current",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "euclidean_cut_area",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "euclidean_cut_area"
+    ],
+    "start_utc": "2026-09-06T18:56:53.319884+00:00",
+    "elapsed_seconds": 0.6139273869994213,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 168, in <module>\n    eq(f'cut_area_A_{av}',area,1)\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 45, in eq\n    assert zero_on_nonzero_A(actual-expected), name\nAssertionError: cut_area_A_2\n",
+    "max_child_RSS_so_far_KiB": 61584,
+    "expected_guard": "cut_area_A_2",
+    "caught_at_expected_guard": true
+  },
+  {
+    "mutation": "phase_gauge_recreates_mu",
+    "command": [
+      "python3",
+      "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "phase_gauge_recreates_mu"
+    ],
+    "start_utc": "2026-09-06T18:56:53.933817+00:00",
+    "elapsed_seconds": 0.6078916570004367,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 174, in <module>\n    eq(f'fixed_current_phase_gauge_A_{av}',\n  File \"/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\", line 45, in eq\n    assert zero_on_nonzero_A(actual-expected), name\nAssertionError: fixed_current_phase_gauge_A_2\n",
+    "max_child_RSS_so_far_KiB": 61584,
+    "expected_guard": "fixed_current_phase_gauge_A_2",
+    "caught_at_expected_guard": true
+  }
+]

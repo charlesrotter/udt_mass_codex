@@ -1,0 +1,16 @@
+{
+  "kind": "exact symbolic diagnosis, no numerical tolerance",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "expression": "-sqrt(2)*A**2/Abs(A**(3/2))",
+  "expected": "-sqrt(2)*sqrt(Abs(A))",
+  "substitute_A_positive_t_difference": "0",
+  "substitute_A_negative_t_difference": "0",
+  "substitute_A_zero_into_division_formula": "nan",
+  "declaring_A_nonzero_alone_simplifies_difference": false,
+  "disposition": "symbolic-domain checker defect; extraction division valid only for A!=0; handle both real nonzero branches exactly, recompute the flat tensor/root separately",
+  "omissions": "no new physical term or changed metric; no floating arithmetic; no claim beyond the fixed constant-A family",
+  "command": "python3 - <<'PY'\nimport sympy as S\nimport json\nA=S.symbols('A',real=True)\nt=S.symbols('t',positive=True)\nc=4*A*A\nz=S.simplify(-c/c**S.Rational(3,4))\ne=-S.sqrt(2*S.Abs(A))\nprint(json.dumps({'extracted':str(z),'expected':str(e),'difference':str(S.simplify(z-e)),'positive_branch_difference':str(S.simplify((z-e).subs(A,t))),'negative_branch_difference':str(S.simplify((z-e).subs(A,-t))),'substituted_zero':str(z.subs(A,0)),'nonzero_symbol':str(S.simplify((z-e).subs(A,S.symbols('a',real=True,nonzero=True))))},indent=2))\nPY",
+  "exit_code": 0,
+  "stderr": ""
+}
