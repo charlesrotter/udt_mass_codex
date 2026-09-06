@@ -1,0 +1,19 @@
+{
+  "classification": "packaging-only path adaptation; not scientific repair or new independence axis",
+  "command": ["timeout", "60s", "/usr/bin/time", "-v", "python3", "-B", "/tmp/udt-curvature-portable-zChlAj/portable_saved_artifact_replay.py", "--review-dir", "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06", "--candidate-dir", "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06"],
+  "cwd": "/tmp",
+  "returncode": 0,
+  "start_utc": "2026-09-06T19:12:17.953744+00:00",
+  "finish_utc": "2026-09-06T19:12:23.875113+00:00",
+  "wall_seconds_from_time": 6.07,
+  "maximum_resident_set_KiB": 52540,
+  "stdout": "PORTABLE_REPLAY.stdout",
+  "stderr": "PORTABLE_REPLAY.stderr",
+  "inspected_path_diff": "PORTABLE_PATH_ONLY.diff",
+  "all_math_and_checks_unchanged": true,
+  "output_equals_frozen_except_execution_timestamps": true,
+  "original_review_manifest_recheck_returncode": 0,
+  "archived_review_manifest_recheck_returncode": 0,
+  "comparison_replays": 1,
+  "original_scratch_absence_simulated": false
+}

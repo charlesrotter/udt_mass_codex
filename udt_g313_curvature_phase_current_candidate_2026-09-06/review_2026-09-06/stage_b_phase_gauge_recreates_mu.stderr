@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py", line 174, in <module>
+    eq(f'fixed_current_phase_gauge_A_{av}',
+  File "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py", line 45, in eq
+    assert zero_on_nonzero_A(actual-expected), name
+AssertionError: fixed_current_phase_gauge_A_2

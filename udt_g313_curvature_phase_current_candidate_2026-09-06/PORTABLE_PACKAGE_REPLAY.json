@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06/portable_saved_artifact_replay.py",
+    "--review-dir",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+    "--candidate-dir",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06"
+  ],
+  "start_utc": "2026-09-06T19:14:28.236626+00:00",
+  "elapsed_seconds": 5.989670989998558,
+  "returncode": 0,
+  "stdout": "{\n  \"all_passed\": true,\n  \"checks\": [\n    \"complete saved connection compared with pre-exposure coordinate reconstruction\",\n    \"complete saved Riemann compared with pre-exposure coordinate reconstruction\",\n    \"complete saved Weyl compared with pre-exposure coordinate reconstruction\",\n    \"complete saved dual_Weyl compared with pre-exposure coordinate reconstruction\",\n    \"complete saved B compared with pre-exposure coordinate reconstruction\",\n    \"each metric inverse separately load-bearing; deliberate substitutions fail full tensor\",\n    \"four saved witness rows independently reconstructed from metric and computed B\",\n    \"phase-dependent translation with b second derivative=A b preserves complete metric\",\n    \"pre-freeze domain correction verified on both symbolic signs; division invalid at zero\"\n  ],\n  \"finish_utc\": \"2026-09-06T19:14:34.197738+00:00\",\n  \"implementation\": \"pre-exposure independent coordinate implementation reused; no author module imported\",\n  \"metric_inverse_mutant_differences\": {\n    \"both_inverse_identity\": {\n      \"(0, 0, 2, 2)\": \"2*A**2\",\n      \"(0, 0, 3, 3)\": \"2*A**2\",\n      \"(2, 2, 0, 0)\": \"2*A**2\",\n      \"(2, 2, 2, 2)\": \"A**2\",\n      \"(2, 2, 3, 3)\": \"A**2\",\n      \"(2, 3, 2, 3)\": \"-A**2\",\n      \"(2, 3, 3, 2)\": \"A**2\",\n      \"(3, 2, 2, 3)\": \"A**2\",\n      \"(3, 2, 3, 2)\": \"-A**2\",\n      \"(3, 3, 0, 0)\": \"2*A**2\",\n      \"(3, 3, 2, 2)\": \"A**2\",\n      \"(3, 3, 3, 3)\": \"A**2\"\n    },\n    \"first_inverse_identity\": {\n      \"(2, 2, 0, 0)\": \"2*A**2\",\n      \"(3, 3, 0, 0)\": \"2*A**2\"\n    },\n    \"second_inverse_identity\": {\n      \"(0, 0, 2, 2)\": \"2*A**2\",\n      \"(0, 0, 3, 3)\": \"2*A**2\"\n    }\n  },\n  \"saved_witnesses\": [\n    {\n      \"A\": \"2\",\n      \"B_uuuu\": \"16\",\n      \"C_v_component\": \"2\",\n      \"Gamma\": \"3\",\n      \"J\": \"1\",\n      \"beta_u\": \"-2\",\n      \"observer\": [\n        \"3/2\",\n        \"21527/21600\",\n        \"1/3\",\n        \"-2/5\"\n      ]\n    },\n    {\n      \"A\": \"-2\",\n      \"B_uuuu\": \"16\",\n      \"C_v_component\": \"2\",\n      \"Gamma\": \"3\",\n      \"J\": \"1\",\n      \"beta_u\": \"-2\",\n      \"observer\": [\n        \"3/2\",\n        \"-3223/21600\",\n        \"1/3\",\n        \"-2/5\"\n      ]\n    },\n    {\n      \"A\": \"8\",\n      \"B_uuuu\": \"256\",\n      \"C_v_component\": \"4\",\n      \"Gamma\": \"6\",\n      \"J\": \"1\",\n      \"beta_u\": \"-4\",\n      \"observer\": [\n        \"3/2\",\n        \"14663/5400\",\n        \"1/3\",\n        \"-2/5\"\n      ]\n    },\n    {\n      \"A\": \"0\",\n      \"B_uuuu\": \"0\",\n      \"C_v_component\": \"0\",\n      \"Gamma\": \"0\",\n      \"J\": \"1\",\n      \"beta_u\": \"0\",\n      \"observer\": [\n        \"3/2\",\n        \"286/675\",\n        \"1/3\",\n        \"-2/5\"\n      ]\n    }\n  ],\n  \"start_utc\": \"2026-09-06T19:14:28.353041+00:00\"\n}\n",
+  "stderr": "",
+  "max_RSS_KiB": 52672,
+  "matches_frozen_except_timestamps": true
+}

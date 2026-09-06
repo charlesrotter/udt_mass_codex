@@ -1,0 +1,261 @@
+{
+  "source": "/tmp/udt-curvature-review-qassiP",
+  "destination": "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+  "exact_membership": true,
+  "files": [
+    {
+      "file": "ARCHIVE_FILES.txt",
+      "bytes": 1214,
+      "sha256": "9fd126fbe677c46e7270e342c67b972ef5b56b1241c5a223de69c4c3ffc719da",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "REVIEW_SHA256SUMS",
+      "bytes": 3836,
+      "sha256": "a82028a638e609da3934159c7b258e252feaebec35899b69bc344dce234bcf83",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "REVIEW_VERDICT.json",
+      "bytes": 1636,
+      "sha256": "661b87bf0089794d891307b3b674ee7c6f91ce8cb6dbcf1737d618997cf2f52e",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "STAGE_A_RECONSTRUCTION.md",
+      "bytes": 14474,
+      "sha256": "ed0be8e967720430eb9633d152e9ffa53d8cf77477d4c20626b3cfddbd2c23e9",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "STAGE_B_ADVERSARIAL_REVIEW.md",
+      "bytes": 16714,
+      "sha256": "bc8a33881a9e9fcb0d25df82c8648e8e1aba617675432c5855d0f795f548a77a",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "STAGE_B_REPLAY_RESULTS.json",
+      "bytes": 4665,
+      "sha256": "289f1d47dbf5c44a2f51fab092e604d8feb6fcfa4c8f0195fc92ed83e6936ad0",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_a_tensor.py",
+      "bytes": 5145,
+      "sha256": "29b1b74ffc2ec66b01dc945903e14f7ad34c29733816b5e0b265388ad73c7549",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_a_tensor.stderr",
+      "bytes": 778,
+      "sha256": "3ed2107e752cd5517f4c4df74d32617088d67b95d6454e7683b2b0cc7222613f",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_a_tensor.stdout",
+      "bytes": 1491,
+      "sha256": "ab8bf9d37a34b5d427d6fbee0b228ee4cdcd16d13712ff86cfcb94f02e064fb5",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_author_replay.stderr",
+      "bytes": 800,
+      "sha256": "d5825e3b7e435aac5c1107a038e5a79396de19d68b903955e586f1fb0137a0df",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_author_replay.stdout",
+      "bytes": 7141,
+      "sha256": "ae17793c9a875ac29af0a2b917f56d6b05dd84c11335cffe13acdf1b2d223c74",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_candidate_auth.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_candidate_auth.stdout",
+      "bytes": 1743,
+      "sha256": "2be2adb9db360feb8866cac0a348e97f1e52a7816de8a321d0c8e88ae1cbdfdd",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_differentials_zero.stderr",
+      "bytes": 465,
+      "sha256": "0f87213438b959ebb661818d494a4d9c0f6463fcaf37aba73ae12cc717ff10c4",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_differentials_zero.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_euclidean_contraction.stderr",
+      "bytes": 475,
+      "sha256": "bb6406f2669c0ebf1f0b30b60bfb61f5809aad6fd92b7e193411933a93895f95",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_euclidean_contraction.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_euclidean_cut_area.stderr",
+      "bytes": 415,
+      "sha256": "4de09b27053d99d4e7354d8aeafe100bb7136739121feafc6112ba5429d5407d",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_euclidean_cut_area.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_homothety_inverse_frozen.stderr",
+      "bytes": 479,
+      "sha256": "f6e83d77470d6c8362076b732a8f81281c12396d1dde2847ade45d753aa1daa5",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_homothety_inverse_frozen.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_independent_artifacts.py",
+      "bytes": 4753,
+      "sha256": "e64ab5b6deeafed7e0762598596eef120e0cdeb4a6d199cbc5924f6443f65174",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_independent_artifacts.stderr",
+      "bytes": 793,
+      "sha256": "02c83ef7f304867d21e35c29cfbd5afecd399d4b0786b75925270ef1db930fe9",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_independent_artifacts.stdout",
+      "bytes": 2640,
+      "sha256": "04ee9ea39f75ad0417d850f84dd067ada7fe09ce5499aa4e0b22348148f98049",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_omit_dual.stderr",
+      "bytes": 475,
+      "sha256": "bb6406f2669c0ebf1f0b30b60bfb61f5809aad6fd92b7e193411933a93895f95",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_omit_dual.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_omit_dual_half.stderr",
+      "bytes": 475,
+      "sha256": "bb6406f2669c0ebf1f0b30b60bfb61f5809aad6fd92b7e193411933a93895f95",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_omit_dual_half.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_past_root.stderr",
+      "bytes": 452,
+      "sha256": "b02c39acf80a280e24cf6cced296ecb2fa2f707ea43e2a0c16e43b1dd2ebf104",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_past_root.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_phase_gauge_recreates_mu.stderr",
+      "bytes": 442,
+      "sha256": "2b0bb4bf4539410895a9f08bdda3975ac2a247798cd1fd6c9cde8eddb24f9650",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_phase_gauge_recreates_mu.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_replays.py",
+      "bytes": 1874,
+      "sha256": "b2fd021a60110e333bd9b1ca7e430aa75e749116c966adfd26ad258162e4b550",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_replays.stderr",
+      "bytes": 783,
+      "sha256": "390c123a50c212a659f5602fe1410a48cd6492cc76524fc23e228d34be74fcbb",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_replays.stdout",
+      "bytes": 3924,
+      "sha256": "f557ddf9c44cb86a4f60425e0bf348fa2656deab8a9626ca69f6511b4b21a934",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_saved_witness_replay.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_saved_witness_replay.stdout",
+      "bytes": 1179,
+      "sha256": "1000b1f559a8717092df9dbd29382bf02048d16106916e191c5756c1b55a7bf0",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_source_auth.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_source_auth.stdout",
+      "bytes": 935,
+      "sha256": "78843ad0e0921fdc9b68a0aabcd67a926dec3c09e3f1e773ad61e92533ac7495",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_wrong_root_degree.stderr",
+      "bytes": 472,
+      "sha256": "ee3fbb87045ec92582cf75f6516981bce95caa92d04ae2df4b233932bb578b30",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "stage_b_wrong_root_degree.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes_identical": true
+    }
+  ],
+  "manifest_command": [
+    "sha256sum",
+    "--check",
+    "REVIEW_SHA256SUMS"
+  ],
+  "manifest_returncode": 0,
+  "manifest_stdout": "ARCHIVE_FILES.txt: OK\nREVIEW_VERDICT.json: OK\nSTAGE_A_RECONSTRUCTION.md: OK\nSTAGE_B_ADVERSARIAL_REVIEW.md: OK\nSTAGE_B_REPLAY_RESULTS.json: OK\nstage_a_tensor.py: OK\nstage_a_tensor.stderr: OK\nstage_a_tensor.stdout: OK\nstage_b_author_replay.stderr: OK\nstage_b_author_replay.stdout: OK\nstage_b_candidate_auth.stderr: OK\nstage_b_candidate_auth.stdout: OK\nstage_b_differentials_zero.stderr: OK\nstage_b_differentials_zero.stdout: OK\nstage_b_euclidean_contraction.stderr: OK\nstage_b_euclidean_contraction.stdout: OK\nstage_b_euclidean_cut_area.stderr: OK\nstage_b_euclidean_cut_area.stdout: OK\nstage_b_homothety_inverse_frozen.stderr: OK\nstage_b_homothety_inverse_frozen.stdout: OK\nstage_b_independent_artifacts.py: OK\nstage_b_independent_artifacts.stderr: OK\nstage_b_independent_artifacts.stdout: OK\nstage_b_omit_dual.stderr: OK\nstage_b_omit_dual.stdout: OK\nstage_b_omit_dual_half.stderr: OK\nstage_b_omit_dual_half.stdout: OK\nstage_b_past_root.stderr: OK\nstage_b_past_root.stdout: OK\nstage_b_phase_gauge_recreates_mu.stderr: OK\nstage_b_phase_gauge_recreates_mu.stdout: OK\nstage_b_replays.py: OK\nstage_b_replays.stderr: OK\nstage_b_replays.stdout: OK\nstage_b_saved_witness_replay.stderr: OK\nstage_b_saved_witness_replay.stdout: OK\nstage_b_source_auth.stderr: OK\nstage_b_source_auth.stdout: OK\nstage_b_wrong_root_degree.stderr: OK\nstage_b_wrong_root_degree.stdout: OK\n",
+  "manifest_stderr": ""
+}

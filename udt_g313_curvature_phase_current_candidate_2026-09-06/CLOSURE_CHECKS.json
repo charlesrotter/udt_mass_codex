@@ -1,0 +1,193 @@
+{
+  "recorded_at_utc": "2026-09-06T19:15:47.657373+00:00",
+  "checks": [
+    {
+      "command": [
+        "sha256sum",
+        "-c",
+        "udt_g313_curvature_phase_current_candidate_2026-09-06/SOURCE_SHA256SUMS"
+      ],
+      "cwd": "repository root",
+      "returncode": 0,
+      "stdout": "AGENTS.md: OK\nCLAUDE.md: OK\nCROSS_MODEL_VERIFY.md: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nverify_current_scientific_premises.py: OK\n.claude/skills/no-shortcuts/SKILL.md: OK\n.claude/skills/completeness-map/SKILL.md: OK\n.claude/skills/solution-space-not-imposition/SKILL.md: OK\n.claude/skills/verifier-before-record/SKILL.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md: OK\nudt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md: OK\nudt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md: OK\nudt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "sha256sum",
+        "-c",
+        "REVIEW_SHA256SUMS"
+      ],
+      "cwd": "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06",
+      "returncode": 0,
+      "stdout": "ARCHIVE_FILES.txt: OK\nREVIEW_VERDICT.json: OK\nSTAGE_A_RECONSTRUCTION.md: OK\nSTAGE_B_ADVERSARIAL_REVIEW.md: OK\nSTAGE_B_REPLAY_RESULTS.json: OK\nstage_a_tensor.py: OK\nstage_a_tensor.stderr: OK\nstage_a_tensor.stdout: OK\nstage_b_author_replay.stderr: OK\nstage_b_author_replay.stdout: OK\nstage_b_candidate_auth.stderr: OK\nstage_b_candidate_auth.stdout: OK\nstage_b_differentials_zero.stderr: OK\nstage_b_differentials_zero.stdout: OK\nstage_b_euclidean_contraction.stderr: OK\nstage_b_euclidean_contraction.stdout: OK\nstage_b_euclidean_cut_area.stderr: OK\nstage_b_euclidean_cut_area.stdout: OK\nstage_b_homothety_inverse_frozen.stderr: OK\nstage_b_homothety_inverse_frozen.stdout: OK\nstage_b_independent_artifacts.py: OK\nstage_b_independent_artifacts.stderr: OK\nstage_b_independent_artifacts.stdout: OK\nstage_b_omit_dual.stderr: OK\nstage_b_omit_dual.stdout: OK\nstage_b_omit_dual_half.stderr: OK\nstage_b_omit_dual_half.stdout: OK\nstage_b_past_root.stderr: OK\nstage_b_past_root.stdout: OK\nstage_b_phase_gauge_recreates_mu.stderr: OK\nstage_b_phase_gauge_recreates_mu.stdout: OK\nstage_b_replays.py: OK\nstage_b_replays.stderr: OK\nstage_b_replays.stdout: OK\nstage_b_saved_witness_replay.stderr: OK\nstage_b_saved_witness_replay.stdout: OK\nstage_b_source_auth.stderr: OK\nstage_b_source_auth.stdout: OK\nstage_b_wrong_root_degree.stderr: OK\nstage_b_wrong_root_degree.stdout: OK\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "sha256sum",
+        "-c",
+        "PORTABILITY_SHA256SUMS"
+      ],
+      "cwd": "udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06",
+      "returncode": 0,
+      "stdout": "PORTABILITY_NOTE.md: OK\nPORTABLE_PATH_ONLY.diff: OK\nPORTABLE_REPLAY.stderr: OK\nPORTABLE_REPLAY.stdout: OK\nPORTABLE_REPLAY_RUN.json: OK\nportable_saved_artifact_replay.py: OK\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--name-only",
+        "b304c89f567b9bc301239b631d7a84c91485767d"
+      ],
+      "cwd": "repository root",
+      "returncode": 0,
+      "stdout": "udt_g313_curvature_phase_current_candidate_2026-09-06/AUTHOR_RESULT.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/AUTHOR_RUN.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md\nudt_g313_curvature_phase_current_candidate_2026-09-06/DISCOVERY_AND_EXPOSURE.md\nudt_g313_curvature_phase_current_candidate_2026-09-06/FROZEN_CANDIDATE_SHA256SUMS\nudt_g313_curvature_phase_current_candidate_2026-09-06/MUTATION_RUNS.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/ORIGINAL_UNRELATED_STATUS.txt\nudt_g313_curvature_phase_current_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv\nudt_g313_curvature_phase_current_candidate_2026-09-06/PREMISE_AUDIT.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/README.md\nudt_g313_curvature_phase_current_candidate_2026-09-06/SAVED_WITNESS_RECOMPUTATION.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/SOURCE_SHA256SUMS\nudt_g313_curvature_phase_current_candidate_2026-09-06/WITNESS_INPUTS.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/WORK_ORDER.md\nudt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py\nudt_g313_curvature_phase_current_candidate_2026-09-06/curvature_recipe.py\nudt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/DIAGNOSTIC_PLAN.md\nudt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/DOMAIN_DIAGNOSIS.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/INITIAL_BASELINE_FAILURE.json\nudt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/INITIAL_check_candidate.py\nudt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/INITIAL_curvature_recipe.py\nudt_g313_curvature_phase_current_candidate_2026-09-06/recompute_saved_witnesses.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=normal"
+      ],
+      "cwd": "repository root",
+      "returncode": 0,
+      "stdout": " M udt_g313_curvature_phase_current_candidate_2026-09-06/README.md\n?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/DECISION_BRIEF.md\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/PORTABILITY_ARCHIVE_CORRESPONDENCE.json\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/PORTABLE_PACKAGE_REPLAY.json\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/REPOSITORY_CHECKS.json\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/REVIEW_ARCHIVE_CORRESPONDENCE.json\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/REVIEW_RECORD.md\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06/\n?? udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "repository root",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "frozen_commit": "ae211af7763da3a359f4f1455aef329a6d671a54",
+  "frozen_payloads": [
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/AUTHOR_RESULT.json",
+      "sha256": "ae17793c9a875ac29af0a2b917f56d6b05dd84c11335cffe13acdf1b2d223c74",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/AUTHOR_RUN.json",
+      "sha256": "c1b83a252d413203ab44a7fc61d21251c6526cd69dd7bc6e3df922f66b5f7880",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md",
+      "sha256": "3e86e25896faa1b917d686bbe1b5d52134f21e25ce8737e1ecde43c217c81a36",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/DISCOVERY_AND_EXPOSURE.md",
+      "sha256": "fe1a6d422f594be7bb401d09c91a8ac36288c623b40dc26383705c677d032bfe",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/MUTATION_RUNS.json",
+      "sha256": "943aada8130ebf9eb2f106845922576530dffd27423622bd10f9ad5c587e80a3",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/ORIGINAL_UNRELATED_STATUS.txt",
+      "sha256": "55e7c4508622f912730f9c068cc571c370b3977bc1110eb0a48a8218dbe024c2",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/PREMISE_AND_COVERAGE.tsv",
+      "sha256": "85f2ce77c0755eae968c7151be64ec6d5101ee6a10568a9265a5b70503d8ae75",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/PREMISE_AUDIT.json",
+      "sha256": "b535a1997f227903cb327da5bee8885e881c533cd039010a9e69d9edcba15387",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/README.md",
+      "sha256": "d8fb37f63a2eab4137c3a7e74b3b629c832b846bcf31cd671afd2ef0f97e701d",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/SAVED_WITNESS_RECOMPUTATION.json",
+      "sha256": "a1cd10d888b8131bb40d995733d11097f8f1880bdeab7e7cc961d426ad99b0a0",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/SOURCE_SHA256SUMS",
+      "sha256": "2071feb7806bd53643890a9da1c0b837b1fba65e7195c0fa4ba5c72859bdec22",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/WITNESS_INPUTS.json",
+      "sha256": "192b50f7433c0c4d67d75ed6b5a019b3271fb5745d896de4f3b6d196c876ff53",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/WORK_ORDER.md",
+      "sha256": "c89f7e5d9cedbc4460bb1060c5776a4aaa9105860fbee57dd9fd8011bde360ca",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "sha256": "12616f95845bed231b37001546e4385d3bb97af8ca0cf6c9a6031d87b01e35ea",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/curvature_recipe.py",
+      "sha256": "d7c260cf4004887675686147ba0f578d583d8d7244e39bea1ce3d1d14af1b3a9",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/DIAGNOSTIC_PLAN.md",
+      "sha256": "4b4a91a0bdffa2cd0b75f82dc5cd1685cac9db48c52402c060ea10493c36a023",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/DOMAIN_DIAGNOSIS.json",
+      "sha256": "44361fac350ad8a65c575428b738700cac707e0e93f3f00d2ca4a6cff6addd33",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/INITIAL_BASELINE_FAILURE.json",
+      "sha256": "f0efe8719a31590bf670a6c879501102264e20b231643134e608ce9d4fa2e3b0",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/INITIAL_check_candidate.py",
+      "sha256": "946de8722e0439cb96641aeef43f0523c13987456bf18db2c3cf0dc0ec3924b2",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/diagnostics/INITIAL_curvature_recipe.py",
+      "sha256": "d7c260cf4004887675686147ba0f578d583d8d7244e39bea1ce3d1d14af1b3a9",
+      "git_object_bytes_match": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/recompute_saved_witnesses.py",
+      "sha256": "8752abe23272fab5d7e58cdd1fdb962bc0efc6958d5026059748859ba34ac02a",
+      "git_object_bytes_match": true
+    }
+  ],
+  "changed_tracked_paths_scoped_to_candidate": true,
+  "original_unrelated_entries": 46,
+  "original_unrelated_status_metadata_identical": true,
+  "protected_payloads_inspected": false,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "ScratchDisk": "UNUSED; archive-dependent tasks only",
+  "additional_diagnostic_method_source": {
+    "path": ".claude/skills/solver-first/SKILL.md",
+    "sha256": "b80b1ca9fe5ebccb7170c39b97ca26f32c950650328d9a2f380c3793cb9cd61b",
+    "role": "method only; no scientific premise"
+  }
+}

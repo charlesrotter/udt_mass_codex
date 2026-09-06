@@ -1,0 +1,11 @@
+--- frozen/stage_b_independent_artifacts.py
++++ in-memory/path-adapted-stage_b_independent_artifacts.py
+@@ -8,7 +8,7 @@
+ import runpy
+ import sympy as s
+ 
+-scratch=pathlib.Path('/tmp/udt-curvature-review-qassiP')
++scratch=pathlib.Path('/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06')
+ pkg=pathlib.Path('/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06')
+ start=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ with contextlib.redirect_stdout(io.StringIO()):

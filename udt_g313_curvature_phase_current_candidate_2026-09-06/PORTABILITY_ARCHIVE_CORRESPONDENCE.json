@@ -1,0 +1,45 @@
+{
+  "source": "/tmp/udt-curvature-portable-zChlAj",
+  "destination": "udt_g313_curvature_phase_current_candidate_2026-09-06/replay_2026-09-06",
+  "exact_membership": true,
+  "files": [
+    {
+      "file": "PORTABILITY_NOTE.md",
+      "sha256": "a8140438fba5db12e30e162220aef94b6646654ca236c97a80ed4082f1fe3123",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "PORTABILITY_SHA256SUMS",
+      "sha256": "027433fedaa91f42c19012000606b4e0eb7795aca897162cb9ee497fafece728",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "PORTABLE_PATH_ONLY.diff",
+      "sha256": "4cbb0c7b2174d805e5144b89e063647c61d993a75027410de5e8b38889538c97",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "PORTABLE_REPLAY.stderr",
+      "sha256": "fa5a6ade2d1182a5606d52d62698542b1f5590907ea9637b67e055bf51acb2a4",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "PORTABLE_REPLAY.stdout",
+      "sha256": "30193d5b57aab8864bc59c7b5fa5a61a4ca3aeb32285a746fd0bb19c5c967fc7",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "PORTABLE_REPLAY_RUN.json",
+      "sha256": "a6ce7ff5ca1090f287ee1ee9971078a902ae4049ba238ba75cef6846e0186d0e",
+      "source_bytes_identical": true
+    },
+    {
+      "file": "portable_saved_artifact_replay.py",
+      "sha256": "1fa8415700589c80d5367649b393e828f3814eb7dd7c70477af1ea7be3b4b003",
+      "source_bytes_identical": true
+    }
+  ],
+  "returncode": 0,
+  "stdout": "PORTABILITY_NOTE.md: OK\nPORTABLE_PATH_ONLY.diff: OK\nPORTABLE_REPLAY.stderr: OK\nPORTABLE_REPLAY.stdout: OK\nPORTABLE_REPLAY_RUN.json: OK\nportable_saved_artifact_replay.py: OK\n",
+  "stderr": ""
+}

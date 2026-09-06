@@ -1,0 +1,160 @@
+[
+  {
+    "name": "saved_witness_replay",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/recompute_saved_witnesses.py"
+    ],
+    "start_utc": "2026-09-06T19:05:15.901117+00:00",
+    "elapsed_seconds": 0.022512644001835724,
+    "returncode": 0,
+    "expected_returncode": 0,
+    "expected_guard": null,
+    "guard_seen": true
+  },
+  {
+    "name": "omit_dual",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "omit_dual"
+    ],
+    "start_utc": "2026-09-06T19:05:15.923782+00:00",
+    "elapsed_seconds": 0.2918567400010943,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "full_quadratic_tensor",
+    "guard_seen": true
+  },
+  {
+    "name": "omit_dual_half",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "omit_dual_half"
+    ],
+    "start_utc": "2026-09-06T19:05:16.215791+00:00",
+    "elapsed_seconds": 0.28859614199973294,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "full_quadratic_tensor",
+    "guard_seen": true
+  },
+  {
+    "name": "euclidean_contraction",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "euclidean_contraction"
+    ],
+    "start_utc": "2026-09-06T19:05:16.504608+00:00",
+    "elapsed_seconds": 0.29205781999917235,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "full_quadratic_tensor",
+    "guard_seen": true
+  },
+  {
+    "name": "wrong_root_degree",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "wrong_root_degree"
+    ],
+    "start_utc": "2026-09-06T19:05:16.796890+00:00",
+    "elapsed_seconds": 0.34086882599876844,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "root_full_fourth_power",
+    "guard_seen": true
+  },
+  {
+    "name": "past_root",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "past_root"
+    ],
+    "start_utc": "2026-09-06T19:05:17.137934+00:00",
+    "elapsed_seconds": 0.3212416940004914,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "future_sign_positive_A",
+    "guard_seen": true
+  },
+  {
+    "name": "differentials_zero",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "differentials_zero"
+    ],
+    "start_utc": "2026-09-06T19:05:17.459318+00:00",
+    "elapsed_seconds": 0.3394094729992503,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "nonclosed_control",
+    "guard_seen": true
+  },
+  {
+    "name": "homothety_inverse_frozen",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "homothety_inverse_frozen"
+    ],
+    "start_utc": "2026-09-06T19:05:17.798892+00:00",
+    "elapsed_seconds": 0.61386518099971,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "homothety_raised_current",
+    "guard_seen": true
+  },
+  {
+    "name": "euclidean_cut_area",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "euclidean_cut_area"
+    ],
+    "start_utc": "2026-09-06T19:05:18.412916+00:00",
+    "elapsed_seconds": 0.6199700630022562,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "cut_area_A_2",
+    "guard_seen": true
+  },
+  {
+    "name": "phase_gauge_recreates_mu",
+    "command": [
+      "python3",
+      "-B",
+      "/home/udt-admin/udt_mass_codex/udt_g313_curvature_phase_current_candidate_2026-09-06/check_candidate.py",
+      "--mutation",
+      "phase_gauge_recreates_mu"
+    ],
+    "start_utc": "2026-09-06T19:05:19.033074+00:00",
+    "elapsed_seconds": 0.6217719870001019,
+    "returncode": 1,
+    "expected_returncode": 1,
+    "expected_guard": "fixed_current_phase_gauge_A_2",
+    "guard_seen": true
+  }
+]
