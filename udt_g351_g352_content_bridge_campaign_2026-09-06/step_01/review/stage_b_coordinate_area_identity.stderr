@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py", line 46, in <module>
+    eq('intrinsic_metric_cut_area',J,L**2)
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py", line 32, in eq
+    assert S.simplify(a-b)==0,name
+AssertionError: intrinsic_metric_cut_area

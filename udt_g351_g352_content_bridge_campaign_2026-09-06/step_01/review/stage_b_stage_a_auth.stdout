@@ -1,0 +1,8 @@
+STAGE_A_SOURCE_FIRST_REVIEW.md: OK
+stage_a_checks.py: OK
+STAGE_A_RUN.json: OK
+stage_a_checks.stdout: OK
+stage_a_checks.stderr: OK
+capture_source_metadata.py: OK
+run_review_checks.py: OK
+STAGE_A_SOURCE_METADATA.json: OK

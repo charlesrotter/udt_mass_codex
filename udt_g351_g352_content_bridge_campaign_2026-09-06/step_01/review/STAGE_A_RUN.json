@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/tmp/udt-content-step01-review-TLyFmx/stage_a_checks.py"
+  ],
+  "cwd": "/tmp/udt-content-step01-review-TLyFmx",
+  "start_utc": "2026-09-06T19:36:18.887317+00:00",
+  "end_utc": "2026-09-06T19:36:18.899632+00:00",
+  "duration_seconds": 0.012307356002565939,
+  "child_exit": 0,
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "memory_limit_bytes": 536870912,
+  "timeout_seconds": 60,
+  "max_child_rss_kib": 9984,
+  "stdout_sha256": "baab4d46d53f1357f2f315d9b4051c334d6696690263b47ccf388d06549e865e",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

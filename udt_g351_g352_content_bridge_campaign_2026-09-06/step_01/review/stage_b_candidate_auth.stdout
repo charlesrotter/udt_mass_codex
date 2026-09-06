@@ -1,0 +1,16 @@
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/AUTHOR_RESULT.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/AUTHOR_RUN.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/MUTATION_RUNS.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SELECTED_REGISTRY_FIELDS.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_AND_PREMISE_MAP.tsv: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/WITNESS_INPUTS.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/WORK_ORDER.md: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/INITIAL_check_query_completions.py: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/PARSE_DIAGNOSIS.md: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/PRE_FREEZE_PARSE_FAILURE.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/DEPENDENCY_REPLAY.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/PREMISE_AUDIT.json: OK
+udt_g351_g352_content_bridge_campaign_2026-09-06/STARTING_CANDIDATE_AUTHENTICATION.json: OK

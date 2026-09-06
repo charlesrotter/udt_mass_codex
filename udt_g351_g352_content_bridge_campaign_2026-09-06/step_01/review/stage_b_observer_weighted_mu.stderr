@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py", line 75, in <module>
+    eq(f'current_readout_match_{index}_{w}',rate,-(obs.T*g*Cf)[0])
+  File "/home/udt-admin/udt_mass_codex/udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py", line 32, in eq
+    assert S.simplify(a-b)==0,name
+AssertionError: current_readout_match_0_4

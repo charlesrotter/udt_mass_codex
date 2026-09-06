@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "implementation": "stdlib Fraction, original Brinkmann coordinates",
+  "evidence": "saved finite witnesses independently recomputed; analytic source boundary not automated",
+  "original_metric_determinant": "-1",
+  "full_cut_gram": [
+    [
+      "4",
+      "0"
+    ],
+    [
+      "0",
+      "4"
+    ]
+  ],
+  "J": "4",
+  "rows": [
+    {
+      "input_weight": "1",
+      "total": "6",
+      "rate_values": [
+        "2",
+        "4"
+      ],
+      "ratio": "2"
+    },
+    {
+      "input_weight": "2",
+      "total": "12",
+      "rate_values": [
+        "4",
+        "8"
+      ],
+      "ratio": "2"
+    },
+    {
+      "input_weight": "1+lambda^2",
+      "total": "8",
+      "rate_values": [
+        "5/2",
+        "5"
+      ],
+      "ratio": "2"
+    },
+    {
+      "input_weight": "0",
+      "total": "0",
+      "rate_values": [
+        "0",
+        "0"
+      ],
+      "ratio": null
+    }
+  ]
+}

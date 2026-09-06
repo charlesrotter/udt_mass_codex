@@ -1,0 +1,12 @@
+--- udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/INITIAL_check_query_completions.py	2026-09-06 15:40:03.659785873 -0400
++++ udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py	2026-09-06 15:40:03.877789609 -0400
+@@ -54,7 +54,8 @@
+ gauge = S.Rational(inputs['phase_gauge_factor'])
+ rows=[]
+ for index,expression in enumerate(inputs['weights']):
+-    f = S.sympify(expression.replace('^','**'),locals={'lambda':lam})
++    # lambda is a Python keyword; the parser-only alias denotes the same symbol.
++    f = S.sympify(expression.replace('^','**').replace('lambda','ell'),locals={'ell':lam})
+     assert f.is_nonnegative is True
+     checks.append(f'nonnegative_weight_{index}')
+     computed = S.Integer(1) if mutation=='erase_weight' else f

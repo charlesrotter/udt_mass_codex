@@ -1,0 +1,516 @@
+{
+  "utc": "2026-09-06T19:39:15.221377+00:00",
+  "branch": "grok",
+  "head": "ac7e569938785df625b5e59c8a567edc6314aef5",
+  "snapshot": "c19b5fb147d6afbfd91ec248b0693dfc834ce220",
+  "remote_freshness": "UNVERIFIED_IN_REVIEWER_CONTEXT",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "a2648f0f6aa2f53482023aea99320c0db635b6affd662580b48738f4f39e2895",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "LIVE.md",
+      "sha256": "ce808f919ab53a44dced5c340a29b82cdfd0f7bf9b53127eb9e4bfe81597209b",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "f3920a601843f4cbe947def9d091f69920ecbb20128c552efb2448d3e823f061",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "4c85a3abb82f99452d66b5df455becce448959b057abe7b85553f3b2d6924f89",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "044a7067b2e678ddce77b34a328a179338db7e873ec4d73c8e64375e85cbc008",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "5f9b6411581f95df477f30f365ca00592c298b4f82580e21a4aff95a243599f6",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "76639279d0f4b26ee5e3c68e7f1eb0ce5c64a2e8c05c7636e60ef04db5d839c2",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md",
+      "sha256": "3e86e25896faa1b917d686bbe1b5d52134f21e25ce8737e1ecde43c217c81a36",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/REVIEW_RECORD.md",
+      "sha256": "fa21e3dbeca2b945f8091fa60d995ff09ac34e21b70ddbfc9ba05cf49b736b60",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md",
+      "sha256": "bc8a33881a9e9fcb0d25df82c8648e8e1aba617675432c5855d0f795f548a77a",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "c8f9e5547c13067282d37bfb51db78d13bbdc06b48ef50f8f3f498e196abcb57",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "70acd17b86812a4dc1da42467dc81fe4c0af817152fd635d090ccbd851af88aa",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "85e1073e9284ec9e8e543eea63c712d4015fdd4c2277ce0d8081a7d9002731ed",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": ".claude/skills/solution-space-not-imposition/SKILL.md",
+      "sha256": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "equals_source_snapshot": true
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "equals_source_snapshot": true
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stdout": "grok\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stdout": "ac7e569938785df625b5e59c8a567edc6314aef5\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stdout": "## grok...origin/grok\n?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/DEPENDENCY_REPLAY.json\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/PREMISE_AUDIT.json\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SELECTED_REGISTRY_FIELDS.json\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/WITNESS_INPUTS.json\n?? udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "log",
+        "-8",
+        "--oneline"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stdout": "ac7e5699 Freeze bounded carried-content bridge campaign and first question\nc19b5fb1 Record reviewed curvature phase-current candidate without scientific promotion\nae211af7 Preserve curvature phase-current candidate and exact pre-review checks\n6ac76b46 Freeze bounded curvature-to-phase recipe and review work order\nb304c89f Record separate-context conserved-current review without scientific promotion\na4525d21 Preserve unreviewed smooth conserved-current representation candidate\n8f4470dd Freeze bounded conserved-current representation work order\n3a31db47 Record separate-context normalized-cone review with operational caveat\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:AGENTS.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "a2648f0f6aa2f53482023aea99320c0db635b6affd662580b48738f4f39e2895",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:LIVE.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "ce808f919ab53a44dced5c340a29b82cdfd0f7bf9b53127eb9e4bfe81597209b",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:HANDOFF.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "f3920a601843f4cbe947def9d091f69920ecbb20128c552efb2448d3e823f061",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:CURRENT_RESEARCH_PROGRAM.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "4c85a3abb82f99452d66b5df455becce448959b057abe7b85553f3b2d6924f89",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:CURRENT_SCIENTIFIC_PREMISES.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "044a7067b2e678ddce77b34a328a179338db7e873ec4d73c8e64375e85cbc008",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:CURRENT_SCIENTIFIC_PREMISES.tsv"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:CLAUDE.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:INDEX.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "5f9b6411581f95df477f30f365ca00592c298b4f82580e21a4aff95a243599f6",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:MEMORY.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "76639279d0f4b26ee5e3c68e7f1eb0ce5c64a2e8c05c7636e60ef04db5d839c2",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "3e86e25896faa1b917d686bbe1b5d52134f21e25ce8737e1ecde43c217c81a36",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g313_curvature_phase_current_candidate_2026-09-06/REVIEW_RECORD.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "fa21e3dbeca2b945f8091fa60d995ff09ac34e21b70ddbfc9ba05cf49b736b60",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g313_curvature_phase_current_candidate_2026-09-06/review_2026-09-06/STAGE_B_ADVERSARIAL_REVIEW.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "bc8a33881a9e9fcb0d25df82c8648e8e1aba617675432c5855d0f795f548a77a",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "c8f9e5547c13067282d37bfb51db78d13bbdc06b48ef50f8f3f498e196abcb57",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/EXACT_DERIVATION.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "90ae2841153754087e64ba14d0a61c408d0b5767b5c8ed9f558da0b49ab30ea4",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "70acd17b86812a4dc1da42467dc81fe4c0af817152fd635d090ccbd851af88aa",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "85e1073e9284ec9e8e543eea63c712d4015fdd4c2277ce0d8081a7d9002731ed",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:.claude/skills/no-shortcuts/SKILL.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:.claude/skills/completeness-map/SKILL.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:.claude/skills/solution-space-not-imposition/SKILL.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    },
+    {
+      "command": [
+        "git",
+        "show",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220:.claude/skills/verifier-before-record/SKILL.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stderr": "",
+      "stdout_sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+      "stdout_note": "exact source bytes retained in named read-only repository path"
+    }
+  ]
+}

@@ -72,11 +72,27 @@ INCOMPLETE and write an exact continuation checkpoint here; never claim completi
 
 | Step | Question | State | Reviewed dependency / repair use |
 |---|---|---|---|
-| 1 | Do accepted sources identify the curvature candidate's geometric amount as G351/G352 content, or only permit its mathematical type? | IN PROGRESS: sources/checks | c19b5fb1 candidate conditional only;0/1 repair |
+| 1 | Do accepted sources identify the curvature candidate's geometric amount as G351/G352 content, or only permit its mathematical type? | VERIFIED-WITH-CAVEATS, UNPROMOTED; b5963bd6 | c19b5fb1 candidate conditional only;0/1 repair |
+| 2 | What can a natural metric/phase-only amount rule select on this branch, and can it supply a dimensionless-count conversion? | WORK ORDER RECORDED; construction/review next | Step1 conditional/source-bounded result plus original recipe;0/1 repair |
 
 Current checkpoint: startup orientation and synchronization completed; current
 candidate80-file membership and79 manifest payload hashes authenticated;
-accepted-source manifest unchanged. Full current premise audit is running.
-Next: read controlling G351/G352 definitions and the actual scope of candidate
-bridges named by current sources, then freeze/check Step1 and obtain its fresh
-adversarial review before selecting Step2.
+accepted-source manifest unchanged. Full current335-row premise audit PASSED
+(actual child0,399.7813s); prior portable dependency replay PASSED (same-code).
+Step1 exact checks passed60 guard groups; five deliberate mutations failed at
+their intended guards. A pre-freeze reserved-word parser failure and its
+notation-only correction are preserved; no post-review repair used.
+Plan ac7e5699 and frozen Step1 b5963bd6 were committed and pushed.
+Fresh reviewer /root/content_campaign_step01_review froze its source-first
+Stage A before candidate exposure, then received Stage B at19:46 UTC.
+Parent read the full frozen Stage A report only after its own candidate freeze;
+earlier preliminary source-finding exposure is disclosed in the candidate.
+Step1 direct review read19:54 UTC: no required defect; independent Fraction
+recomputation in original coordinates matches all4 saved rows and full cut Gram;
+author baseline and all5 mutations independently replayed. No scientific repair.
+Learning: mathematical type eligibility survives, but the declared reduced query
+conditions and enumerated accepted sources do not identify physical content.
+This is not a coupled-physics countermodel or a universal impossibility theorem.
+Step2 chosen from that reviewed result: test what explicit geometry-only
+naturality can fix, without adopting it as a physical requirement. Its question,
+assumptions, discriminators and limits are recorded in step_02/WORK_ORDER.md.

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "sympy": "1.13.1",
+  "original_error": "Sympify of expression 'could not parse '1+lambda**2'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+  "corrected_expression": "lambda**2 + 1",
+  "same_original_coordinate": true
+}

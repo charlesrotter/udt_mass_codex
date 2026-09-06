@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "evidence_type": "exact_rational_reduced_query_witnesses",
+  "actual_geometry_scope": "conditional constant-A=2 candidate; J=1 only",
+  "full_G350_domain_reproved": false,
+  "coupled_physical_UDT_solutions_claimed": false,
+  "label_identification_and_endpoint_maps_fixed": true,
+  "spacing": "3/2",
+  "frequency_inputs": [
+    "2",
+    "5",
+    "7"
+  ],
+  "results": {
+    "candidate": {
+      "affine_weight": [
+        "1",
+        "0"
+      ],
+      "total_amount": "3/2",
+      "left_half_amount": "3/4",
+      "rates_at_x_1_over_3": [
+        "2",
+        "5",
+        "7"
+      ]
+    },
+    "doubled": {
+      "affine_weight": [
+        "2",
+        "0"
+      ],
+      "total_amount": "3",
+      "left_half_amount": "3/2",
+      "rates_at_x_1_over_3": [
+        "4",
+        "10",
+        "14"
+      ]
+    },
+    "same_total_changed_profile": {
+      "affine_weight": [
+        "1/2",
+        "1"
+      ],
+      "total_amount": "3/2",
+      "left_half_amount": "9/16",
+      "rates_at_x_1_over_3": [
+        "5/3",
+        "25/6",
+        "35/6"
+      ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "records": [
+    {
+      "name": "stage_b_candidate_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/FROZEN_CANDIDATE_SHA256SUMS"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:28.907496+00:00",
+      "duration_seconds": 0.0019289060001028702,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "expected_guard": null,
+      "stdout_sha256": "d0c2523f9f1508dec5e3e41dfb93ddd0df490f82254fb0446829ae947f06ae31",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stage_b_source_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/SOURCE_SHA256SUMS"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:28.909485+00:00",
+      "duration_seconds": 0.005040160998760257,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "expected_guard": null,
+      "stdout_sha256": "c75e74e22e7d248fa234096c25aa639ab0df9d726ac9fe482da7f0f79eb6e347",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stage_b_stage_a_auth",
+      "command": [
+        "sha256sum",
+        "--check",
+        "STAGE_A_SHA256SUMS"
+      ],
+      "cwd": "/tmp/udt-content-step01-review-TLyFmx",
+      "start_utc": "2026-09-06T19:49:28.914591+00:00",
+      "duration_seconds": 0.0015848919974814635,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "expected_guard": null,
+      "stdout_sha256": "708092c069274b4d5ce0d4548c71a4e6098ca7e745c7e5a5b51f55d6fdcaadbc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stage_b_frozen_diff",
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "b5963bd6c1441a7ef55292072c3ada01c99cf9e2",
+        "--",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:28.916204+00:00",
+      "duration_seconds": 0.005713844999263529,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "expected_guard": null,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stage_b_independent",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/tmp/udt-content-step01-review-TLyFmx/stage_b_independent_witnesses.py",
+        "--repo",
+        "/home/udt-admin/udt_mass_codex"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:28.922032+00:00",
+      "duration_seconds": 0.026116183998965425,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "expected_guard": null,
+      "stdout_sha256": "9028c4cb556e80935274d8abcaa3c578ef906d098a0b167c4c2760296d14a9a1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stage_b_author_baseline",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:28.948184+00:00",
+      "duration_seconds": 0.25726943900008337,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "expected_guard": null,
+      "stdout_sha256": "a9d0f415caba096a15d75c44bb8bc8dff08ba365eed200b38592e9ea1793be25",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "stage_b_erase_weight",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+        "--mutation",
+        "erase_weight"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:29.205587+00:00",
+      "duration_seconds": 0.20756648799942923,
+      "child_exit": 1,
+      "expected_exit": 1,
+      "expected_guard": "total_amount_1",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "4fd1003d27a63ce4c26107991d24bfc08bede13370d8b962a3fa40902f442249"
+    },
+    {
+      "name": "stage_b_phase_blind",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+        "--mutation",
+        "phase_blind"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:29.413196+00:00",
+      "duration_seconds": 0.2331242629988992,
+      "child_exit": 1,
+      "expected_exit": 1,
+      "expected_guard": "phase_dependence_detected",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "5963c9e994290a08d3312a5fe09ced65076bf10cd5d7405469803f6d75d1bf89"
+    },
+    {
+      "name": "stage_b_observer_weighted_mu",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+        "--mutation",
+        "observer_weighted_mu"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:29.646361+00:00",
+      "duration_seconds": 0.1972452189984324,
+      "child_exit": 1,
+      "expected_exit": 1,
+      "expected_guard": "current_readout_match_0_4",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "35ce78e4a5287ebeabb379eb098b466ce6f68e0275353beaaead73e758de6ef5"
+    },
+    {
+      "name": "stage_b_gauge_rebuild_mu",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+        "--mutation",
+        "gauge_rebuild_mu"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:29.843649+00:00",
+      "duration_seconds": 0.19634231399686541,
+      "child_exit": 1,
+      "expected_exit": 1,
+      "expected_guard": "fixed_measure_gauge_0_2",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "690598401014da4e417d09139e9795c5bbb46b19031200e99bb4ac221f1e0580"
+    },
+    {
+      "name": "stage_b_coordinate_area_identity",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py",
+        "--mutation",
+        "coordinate_area_identity"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:49:30.040031+00:00",
+      "duration_seconds": 0.1950269750013831,
+      "child_exit": 1,
+      "expected_exit": 1,
+      "expected_guard": "intrinsic_metric_cut_area",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "8f3f7f7e9d63de80cdd33c7ed1fd62c4cb4348fe0b220f1ff168c2fbba0e44c8"
+    }
+  ],
+  "baseline_byte_identical": true,
+  "target_memory_bytes": 536870912,
+  "child_timeout_seconds": 60,
+  "max_child_rss_kib": 59684
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "command": [
+        "diff",
+        "-u",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/diagnostics/INITIAL_check_query_completions.py",
+        "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/check_query_completions.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:50:53.267181+00:00",
+      "duration_seconds": 0.0015374549984699115,
+      "child_exit": 1,
+      "expected_exit": 1,
+      "stdout_sha256": "d942b7a590c97680d4d090cc4ed23cac981c9c46cbb49be3ed8d1284e9e88fb5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/tmp/udt-content-step01-review-TLyFmx/stage_b_parser_check.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "start_utc": "2026-09-06T19:50:53.268754+00:00",
+      "duration_seconds": 0.15194719200007967,
+      "child_exit": 0,
+      "expected_exit": 0,
+      "stdout_sha256": "a13e0068fb75dbb6f67adee5ee7cbd02bcadf9746a48b6ce244d509df34f8731",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "utc": "2026-09-06T19:55:28.134142+00:00",
+  "commands": [
+    {
+      "command": [
+        "sha256sum",
+        "--check",
+        "STAGE_A_SHA256SUMS"
+      ],
+      "cwd": "/tmp/udt-content-step01-review-TLyFmx",
+      "exit": 0,
+      "stdout_sha256": "708092c069274b4d5ce0d4548c71a4e6098ca7e745c7e5a5b51f55d6fdcaadbc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "c19b5fb147d6afbfd91ec248b0693dfc834ce220",
+        "--",
+        "founding.md",
+        "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+        "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "exit": 0,
+      "stdout_sha256": "807251b648796d43d5dfea0d3e26177f82d397c4717db184cf57353b28e05d68",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

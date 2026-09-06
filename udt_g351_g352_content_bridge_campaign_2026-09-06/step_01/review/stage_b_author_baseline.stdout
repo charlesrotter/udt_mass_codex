@@ -1,0 +1,118 @@
+{
+  "kind": "exact bounded query-completion evidence, not physical solutions or source-selection proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutation": null,
+  "checks": [
+    "metric_determinant",
+    "full_null_gradient",
+    "intrinsic_metric_cut_area",
+    "base_current_conservation",
+    "phase_dependent_control_still_conserved",
+    "phase_dependence_detected",
+    "generator_dependent_control_not_conserved",
+    "nonnegative_weight_0",
+    "total_amount_0",
+    "phase_independent_0",
+    "conserved_current_0",
+    "unit_observer_0_2",
+    "current_readout_match_0_2",
+    "fixed_measure_gauge_0_2",
+    "unit_observer_0_4",
+    "current_readout_match_0_4",
+    "fixed_measure_gauge_0_4",
+    "observer_neutral_measure_0",
+    "division_free_rate_transfer_0",
+    "nonzero_rate_ratio_0",
+    "nonnegative_weight_1",
+    "total_amount_1",
+    "phase_independent_1",
+    "conserved_current_1",
+    "unit_observer_1_2",
+    "current_readout_match_1_2",
+    "fixed_measure_gauge_1_2",
+    "unit_observer_1_4",
+    "current_readout_match_1_4",
+    "fixed_measure_gauge_1_4",
+    "observer_neutral_measure_1",
+    "division_free_rate_transfer_1",
+    "nonzero_rate_ratio_1",
+    "nonnegative_weight_2",
+    "total_amount_2",
+    "phase_independent_2",
+    "conserved_current_2",
+    "unit_observer_2_2",
+    "current_readout_match_2_2",
+    "fixed_measure_gauge_2_2",
+    "unit_observer_2_4",
+    "current_readout_match_2_4",
+    "fixed_measure_gauge_2_4",
+    "observer_neutral_measure_2",
+    "division_free_rate_transfer_2",
+    "nonzero_rate_ratio_2",
+    "nonnegative_weight_3",
+    "total_amount_3",
+    "phase_independent_3",
+    "conserved_current_3",
+    "unit_observer_3_2",
+    "current_readout_match_3_2",
+    "fixed_measure_gauge_3_2",
+    "unit_observer_3_4",
+    "current_readout_match_3_4",
+    "fixed_measure_gauge_3_4",
+    "observer_neutral_measure_3",
+    "division_free_rate_transfer_3",
+    "nonconstant_current_dual_not_closed",
+    "two_nonzero_inequivalent_same_query_completions"
+  ],
+  "guard_groups_passed": 60,
+  "metric_shape": [
+    4,
+    4
+  ],
+  "cut_area": "4",
+  "weights": [
+    {
+      "weight": "1",
+      "amount": "6",
+      "rates_at_label_point": [
+        "2",
+        "4"
+      ],
+      "transfer_ratio": "2",
+      "zero_ratio_not_formed": false
+    },
+    {
+      "weight": "2",
+      "amount": "12",
+      "rates_at_label_point": [
+        "4",
+        "8"
+      ],
+      "transfer_ratio": "2",
+      "zero_ratio_not_formed": false
+    },
+    {
+      "weight": "lambda**2 + 1",
+      "amount": "8",
+      "rates_at_label_point": [
+        "5/2",
+        "5"
+      ],
+      "transfer_ratio": "2",
+      "zero_ratio_not_formed": false
+    },
+    {
+      "weight": "0",
+      "amount": "0",
+      "rates_at_label_point": [
+        "0",
+        "0"
+      ],
+      "transfer_ratio": null,
+      "zero_ratio_not_formed": true
+    }
+  ],
+  "phase_dependent_divergence": "0",
+  "phase_dependent_product_defect": "2*theta"
+}
