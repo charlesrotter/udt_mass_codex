@@ -772,6 +772,13 @@ def validate_startup_surface(root: Path) -> None:
     ):
         require(phrase in normalized_agents, f"AGENTS scoped-synthesis guard missing or changed: {phrase}")
     normalized_agents_lower = normalized_agents.lower()
+    for phrase in (
+        "Codex/ChatGPT is the active development deployment",
+        "shared instructions in the active Codex/ChatGPT startup chain",
+        "inactive compatibility infrastructure",
+        "live Claude-hook testing is not applicable",
+    ):
+        require(phrase in normalized_agents, f"Codex runtime-scope guard missing: {phrase}")
     for forbidden in (
         "historical action and carrier examples are current premises",
         "an authorized synthesis may add a physical premise",
@@ -793,6 +800,12 @@ def validate_startup_surface(root: Path) -> None:
         "Only `CANON.md` records canonized statements",
     ):
         require(phrase in normalized_claude_synthesis, f"CLAUDE synthesis alignment missing or changed: {phrase}")
+    require(
+        "shared instructions in the active Codex/ChatGPT startup chain"
+        in normalized_claude_synthesis
+        and "live hook testing is not applicable" in normalized_claude_synthesis,
+        "historically named shared instructions misstate the active runtime",
+    )
     require("finite-cell canon" not in claude, "CLAUDE retains dated finite-cell canon summary")
 
     require(

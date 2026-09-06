@@ -30,6 +30,20 @@ def test_one_primary_method_authority_and_no_science_from_method():
         assert "scientific premise" in text or "science" in text
 
 
+def test_codex_is_active_and_claude_named_files_remain_shared_not_live_hooks():
+    agents = normalized("AGENTS.md")
+    claude = normalized("CLAUDE.md")
+    setup = normalized("COGNITIVE_CORRAL_TRIGGERS_SETUP.md")
+    metadata = json.loads(read(".claude/guardrail_work_order_metadata.json"))
+    assert "codex/chatgpt is the active development deployment" in agents
+    assert "shared instructions in the active codex/chatgpt startup chain" in agents
+    assert "not evidence that claude code is the active deployment" in claude
+    assert "inactive compatibility infrastructure" in agents
+    assert "not applicable" in agents
+    assert "not_applicable" in setup and "not passed" in setup
+    assert "claude hooks are retained inactive compatibility" in metadata["runtime_scope"].lower()
+
+
 def test_bounded_discovery_approximation_quantifier_and_solver_permissions():
     combined = " ".join(
         normalized(path)

@@ -1,9 +1,10 @@
-# UDT Claude runtime adapter
+# UDT shared runtime instructions (historical filename)
 
-`AGENTS.md` is the primary working-method authority. This file is a compact Claude runtime adapter;
-it may not override `AGENTS.md`, the current status files, or the exact scientific registry. This
-file is binding method, not scientific status. Method files do not introduce scientific premises,
-and a missing scientific connection stays visibly open.
+`AGENTS.md` is the primary working-method authority. Despite this file's historical name, its
+specified sections are shared instructions in the active Codex/ChatGPT startup chain; the file is
+not evidence that Claude Code is the active deployment. It may not override `AGENTS.md`, current
+status, or the exact scientific registry. This file is binding method, not scientific status. Method
+files do not introduce scientific premises, and a missing scientific connection stays visibly open.
 
 ## How we work
 
@@ -98,9 +99,10 @@ not proof.
 
 Static instructions, hook loading, a hook reminder, a test result, and an enforced permission are
 different facts. The project hook may report only the event and reminder path it actually exercised.
-It does not prove all rules loaded or guarantee model behavior. Claude project hooks do not prove
-Codex integration; Codex applies the same primary `AGENTS.md` procedure manually unless its own
-runtime confirms otherwise.
+It does not prove all rules loaded or guarantee model behavior. Codex/ChatGPT is the active
+deployment and follows `AGENTS.md` plus its explicit shared-file startup reads. The retained Claude
+project-hook configuration is inactive compatibility infrastructure here: live hook testing is
+not applicable, is not marked passed, and cannot block completion of the Codex workflow.
 
 Resource ceilings come from the current work order and measured environment, not old filenames,
 grid caps, hardware descriptions, or copied pass counts. Use one GPU process at a time, explicit

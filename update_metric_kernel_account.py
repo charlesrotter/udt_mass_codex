@@ -2,8 +2,10 @@
 """Generate/check the metric-kernel manuscript coverage sidecar.
 
 The scientific registry remains the only status owner. This file stores editorial roles,
-manuscript locations, exact controlling-source hashes, and an intentionally bounded dependency
-map. A missing dependency entry means not recorded here, never scientific independence.
+manuscript locations, current and last-reviewed controlling-source hashes, and an intentionally
+bounded dependency map. Ordinary regeneration preserves the last-reviewed hash and invalidates
+changed rows plus descendants. Only an explicit review record tied to the new source bytes can
+advance that binding. A missing dependency entry means not recorded here, never independence.
 """
 
 from __future__ import annotations
@@ -12,6 +14,7 @@ import argparse
 import csv
 import hashlib
 import io
+import json
 from pathlib import Path
 
 
@@ -81,10 +84,15 @@ ROLE_NOTES = {
 
 FIELDS = [
     "premise_id", "role", "manuscript_anchor", "documentation_status",
-    "scientific_snapshot", "controlling_source", "source_sha256", "source_section",
+    "scientific_snapshot", "controlling_source", "source_sha256",
+    "reviewed_source_sha256", "source_review_id", "source_section",
     "upstream_ids", "dependency_type", "claim_polarity", "scope_note",
     "reviewed_manuscript_version",
 ]
+
+SOURCE_CHANGED_STATUS = "SOURCE_CHANGED__FIDELITY_REVIEW_REQUIRED"
+UPSTREAM_CHANGED_STATUS = "UPSTREAM_SOURCE_CHANGED__DEPENDENCY_REVIEW_REQUIRED"
+SOURCE_REVIEW_SCHEMA = "udt-metric-kernel-source-review-1.0"
 
 
 def sha256(path: Path) -> str:
@@ -171,15 +179,82 @@ def registry_rows() -> list[dict[str, str]]:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
-def build_rows() -> list[dict[str, str]]:
+def sidecar_rows() -> list[dict[str, str]]:
+    if not SIDECAR.is_file():
+        raise ValueError("coverage sidecar missing; reviewed source bindings cannot be inferred")
+    with SIDECAR.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def _previous_bindings(previous_rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
+    bindings: dict[str, dict[str, str]] = {}
+    for row in previous_rows:
+        premise_id = row["premise_id"]
+        reviewed_hash = row.get("reviewed_source_sha256") or row.get("source_sha256")
+        review_id = row.get("source_review_id") or row.get("reviewed_manuscript_version")
+        if not reviewed_hash or not review_id:
+            raise ValueError(f"missing reviewed-source binding: {premise_id}")
+        bindings[premise_id] = {
+            "reviewed_source_sha256": reviewed_hash,
+            "source_review_id": review_id,
+        }
+    return bindings
+
+
+def _validate_review_record(
+    review_record: dict[str, object],
+    output: list[dict[str, str]],
+    changed_ids: set[str],
+    affected_ids: set[str],
+) -> tuple[str, set[str]]:
+    if review_record.get("schema") != SOURCE_REVIEW_SCHEMA:
+        raise ValueError("source review record schema mismatch")
+    review_id = review_record.get("review_id")
+    if not isinstance(review_id, str) or not review_id.strip():
+        raise ValueError("source review record needs a nonempty review_id")
+    if review_record.get("scientific_snapshot") != SCIENTIFIC_SNAPSHOT:
+        raise ValueError("source review record scientific snapshot mismatch")
+    manuscript_hash = sha256(ROOT / "UDT_METRIC_KERNEL_DEVELOPMENT.md")
+    if review_record.get("manuscript_sha256") != manuscript_hash:
+        raise ValueError("source review record is not tied to the current manuscript bytes")
+    if manuscript_hash != REVIEWED_MANUSCRIPT_SHA256:
+        raise ValueError("fixed-snapshot manuscript changed; source review cannot rebind it")
+    sources = review_record.get("sources")
+    if not isinstance(sources, dict) or not sources:
+        raise ValueError("source review record needs exact changed-source hashes")
+    expected_sources = {
+        row["controlling_source"]: row["source_sha256"]
+        for row in output
+        if row["premise_id"] in changed_ids
+    }
+    if sources != expected_sources:
+        raise ValueError("source review record does not match every changed source version")
+    covered = review_record.get("covered_premise_ids")
+    if not isinstance(covered, list) or not all(isinstance(item, str) for item in covered):
+        raise ValueError("source review record needs covered_premise_ids")
+    covered_ids = set(covered)
+    if covered_ids != affected_ids:
+        raise ValueError("source review must cover exactly the changed rows and their descendants")
+    return review_id, covered_ids
+
+
+def build_rows(
+    previous_rows: list[dict[str, str]] | None = None,
+    review_record: dict[str, object] | None = None,
+) -> list[dict[str, str]]:
     roles = role_map()
     rows = registry_rows()
+    if previous_rows is None:
+        previous_rows = sidecar_rows()
+    bindings = _previous_bindings(previous_rows)
     registry_ids = {row["premise_id"] for row in rows}
     if set(roles) != registry_ids:
         raise ValueError(
             f"disposition mismatch: missing={sorted(registry_ids-set(roles))}, "
             f"extra={sorted(set(roles)-registry_ids)}"
         )
+    if set(bindings) != registry_ids:
+        raise ValueError("coverage sidecar reviewed-source bindings do not match the registry")
     output = []
     for row in rows:
         premise_id = row["premise_id"]
@@ -188,6 +263,7 @@ def build_rows() -> list[dict[str, str]]:
         if not source.is_file():
             raise ValueError(f"controlling source missing: {row['controlling_source']}")
         upstream = DEPENDENCIES.get(premise_id, [])
+        binding = bindings[premise_id]
         output.append(
             {
                 "premise_id": premise_id,
@@ -197,6 +273,8 @@ def build_rows() -> list[dict[str, str]]:
                 "scientific_snapshot": SCIENTIFIC_SNAPSHOT,
                 "controlling_source": row["controlling_source"],
                 "source_sha256": sha256(source),
+                "reviewed_source_sha256": binding["reviewed_source_sha256"],
+                "source_review_id": binding["source_review_id"],
                 "source_section": "Registry controlling source; exact hypotheses remain source-owned",
                 "upstream_ids": ";".join(upstream),
                 "dependency_type": "SCIENTIFIC" if upstream else "NOT_RECORDED_IN_CENTRAL_MAP",
@@ -205,6 +283,33 @@ def build_rows() -> list[dict[str, str]]:
                 "reviewed_manuscript_version": REVIEWED_MANUSCRIPT_VERSION,
             }
         )
+
+    changed_ids = {
+        row["premise_id"]
+        for row in output
+        if row["source_sha256"] != row["reviewed_source_sha256"]
+    }
+    affected_ids = descendants(output, changed_ids)
+    if review_record is not None:
+        if not changed_ids:
+            raise ValueError("no changed source version is awaiting review")
+        review_id, covered_ids = _validate_review_record(
+            review_record, output, changed_ids, affected_ids
+        )
+        for row in output:
+            if row["premise_id"] in changed_ids:
+                row["reviewed_source_sha256"] = row["source_sha256"]
+            if row["premise_id"] in covered_ids:
+                row["source_review_id"] = review_id
+        changed_ids = set()
+        affected_ids = set()
+
+    for row in output:
+        premise_id = row["premise_id"]
+        if premise_id in changed_ids:
+            row["documentation_status"] = SOURCE_CHANGED_STATUS
+        elif premise_id in affected_ids:
+            row["documentation_status"] = UPSTREAM_CHANGED_STATUS
     return output
 
 
@@ -247,9 +352,21 @@ def stale_after_source_changes(
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--write", action="store_true", help="write the generated sidecar")
+    parser.add_argument(
+        "--record-review",
+        type=Path,
+        help="write only after validating a review record tied to changed source bytes",
+    )
     args = parser.parse_args()
-    rendered = render(build_rows())
-    if args.write:
+    if args.write and args.record_review:
+        parser.error("--write and --record-review are mutually exclusive")
+    review_record = None
+    if args.record_review:
+        review_record = json.loads(args.record_review.read_text(encoding="utf-8"))
+        if not isinstance(review_record, dict):
+            raise ValueError("source review record must be a JSON object")
+    rendered = render(build_rows(review_record=review_record))
+    if args.write or args.record_review:
         SIDECAR.write_text(rendered, encoding="utf-8")
         print(f"WROTE {SIDECAR.name}")
         return 0

@@ -24,6 +24,9 @@ the accepted metric/kernel chain through G352 within that declared edition. The 
 row of that snapshot, including supporting, boundary, control, outside-scope, and historical roles.
 Neither file is a second scientific registry: grades and current status remain owned by
 `CURRENT_SCIENTIFIC_PREMISES.tsv`, while `LIVE.md` owns the active frontier.
+The ordinary updater preserves source-change invalidation. Restoring a reviewed coverage status
+requires `update_metric_kernel_account.py --record-review REVIEW_RECORD.json` with a record tied
+to the exact changed source bytes, fixed manuscript, snapshot, and affected dependency closure.
 
 ## Current relational route
 

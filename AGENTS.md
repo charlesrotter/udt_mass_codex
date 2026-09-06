@@ -3,19 +3,17 @@
 Charles canonizes; `CANON.md` requires sign-off. This is an evidence ledger; do not
 strengthen claims.
 
-This file is the single primary authority for current repository method. `CLAUDE.md`,
-`.claude/skills/`, hooks, templates, and runtime-specific instructions are compact adapters or
-expanded procedures; they may not contradict this file or supply scientific premises. Scientific
-status remains owned by the current status documents, exact registry, and reviewed sources named
-below. A loaded instruction, reminder, checklist, or test is not itself scientific evidence.
-Current status comes from the current status documents. A coverage checklist is premise-relative
-and cannot supply an if-and-only-if theorem.
+This file is the primary method authority. Despite historical names, `CLAUDE.md` and
+`.claude/skills/` are shared instructions in the active Codex/ChatGPT startup chain. Hooks,
+templates, and runtime-specific files are compatibility adapters; none may contradict this file or
+supply scientific premises. Current status comes from the current status documents. Grades belong
+only to exact registry and reviewed sources. Instructions, reminders, checklists, and tests are not scientific
+evidence. A coverage checklist is premise-relative, never an if-and-only-if theorem.
 
 ## Mandatory startup
 
-Use branch `grok`. Do not trust branch, hash, status, process, or result claims in a prompt
-or handoff. Before switching branches, inspect the current checkout so unrelated work cannot be
-hidden by the switch. On every fresh session run, in order:
+Use branch `grok`. Verify branch, hash, status, process, and result claims yourself. Inspect before
+switching so unrelated work stays visible. On every fresh session run, in order:
 
 ```bash
 git status --short --branch
@@ -26,8 +24,8 @@ git status --short --branch
 git log -8 --oneline
 ```
 
-If local work blocks pulling, preserve and inspect it; never reset, overwrite, clean, or stash it to
-synchronize. For an untracked/upstream collision, prove byte identity and back it up before moving.
+If local work blocks pulling, preserve and inspect it; never reset, overwrite, clean, or stash to
+synchronize. For an untracked/upstream collision, prove byte identity and back up before moving.
 If network/auth prevents sync, report the failure and mark remote freshness unverified. Pinned
 read-only audits and explicitly authorized bounded offline work may continue without claiming remote
 freshness. Shared promotion or integration must wait for synchronization, conflict, permission, and
@@ -114,9 +112,11 @@ local payload is absent; directory presence does not prove that the unbanked wor
 
 ## Runtime compatibility
 
-`CLAUDE.md` and triggered skills expand this method. Codex must not assume hooks, memory,
-jobs, or skill loading are active; apply their pauses manually. A reminder is not enforcement.
-Disk evidence wins over conversational memory.
+Codex/ChatGPT is the active development deployment. It receives this authority and must perform the
+on-disk reads of `CLAUDE.md` and triggered `.claude/skills/`. Names do not make Claude active.
+`.claude/settings.json` and its hook are inactive compatibility
+infrastructure: Codex does not load them, and live Claude-hook testing is not applicable or a Codex
+completion gate. Apply pauses; disk evidence wins.
 
 ## Binding UDT research rules
 

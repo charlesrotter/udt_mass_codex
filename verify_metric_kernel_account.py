@@ -10,7 +10,6 @@ import update_metric_kernel_account as account
 
 
 def main() -> int:
-    expected = account.build_rows()
     if not account.SIDECAR.is_file():
         raise SystemExit("coverage sidecar missing")
     with account.SIDECAR.open(encoding="utf-8", newline="") as handle:
@@ -18,6 +17,7 @@ def main() -> int:
         if reader.fieldnames != account.FIELDS:
             raise SystemExit("coverage sidecar schema mismatch")
         actual = list(reader)
+    expected = account.build_rows(previous_rows=actual)
     if actual != expected:
         raise SystemExit("coverage sidecar is stale; run update_metric_kernel_account.py --write")
     ids = {row["premise_id"] for row in actual}
@@ -29,6 +29,16 @@ def main() -> int:
             raise SystemExit(f"missing manuscript anchor: {row['premise_id']}")
         if row["documentation_status"].startswith("NOT_YET"):
             raise SystemExit(f"documentation placeholder remains: {row['premise_id']}")
+        current_hash = account.sha256(account.ROOT / row["controlling_source"])
+        if row["source_sha256"] != current_hash:
+            raise SystemExit(f"current source hash mismatch: {row['premise_id']}")
+        if not row["reviewed_source_sha256"] or not row["source_review_id"]:
+            raise SystemExit(f"reviewed-source binding missing: {row['premise_id']}")
+        if (
+            row["documentation_status"] == "FIDELITY_REVIEWED"
+            and row["source_sha256"] != row["reviewed_source_sha256"]
+        ):
+            raise SystemExit(f"changed source falsely labeled reviewed: {row['premise_id']}")
     counts = Counter(row["role"] for row in actual)
     expected_counts = {
         "MAIN_ARGUMENT": 65,

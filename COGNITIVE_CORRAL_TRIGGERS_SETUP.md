@@ -1,22 +1,27 @@
-# Cognitive corral: current runtime implementation
+# Cognitive corral: Codex deployment and retained compatibility
 
 `AGENTS.md` is the primary method authority. This document describes the reminder implementation;
 it does not supply scientific premises, decide merit, or enlarge permissions.
 
+Codex/ChatGPT is the active development deployment. Its effective chain is `AGENTS.md`, followed by
+the exact `CLAUDE.md` sections and task-triggered `.claude/skills/` reads required there. Those
+shared files retain historical names. Claude Code hooks are not active in this deployment; their
+configuration is preserved as inactive compatibility infrastructure and live testing is
+`NOT_APPLICABLE`, not passed.
+
 ## What the implementation can and cannot do
 
-The active layers are distinct:
+The instruction and compatibility layers are distinct:
 
 1. `AGENTS.md`: primary method and permissions boundary.
-2. `CLAUDE.md`: compact Claude runtime adapter.
-3. `.claude/skills/*/SKILL.md`: expanded procedures used only when triggered.
-4. `.claude/hooks/corral_trigger.py`: nonblocking event reminders.
+2. `CLAUDE.md`: shared expanded method instructions with a historical filename.
+3. `.claude/skills/*/SKILL.md`: shared procedures read only when triggered.
+4. `.claude/hooks/corral_trigger.py`: inactive Claude-compatibility reminders in the Codex deployment.
 5. repository tests: mechanical checks within their declared coverage.
 
-A hook message proves only that the named hook event ran and returned context. It does not prove all
-instructions loaded, that the model obeyed them, that a permission is enforced, or that science is
-valid. Claude hook behavior does not prove Codex hook integration; Codex follows `AGENTS.md` manually
-unless its own runtime exposes and verifies an equivalent facility.
+A hook message, when that compatibility runtime is used, proves only that the named event returned
+context. It does not prove all instructions loaded, model obedience, permission enforcement, or
+science. Codex does not use the Claude hook as its instruction-chain proof.
 
 ## Current method reminders
 
@@ -32,11 +37,12 @@ unless its own runtime exposes and verifies an equivalent facility.
 - **Native/imported:** known mathematics is an allowed method; a known physical equation cannot be
   relabeled native merely because it helps.
 
-## Claude hook configuration
+## Inactive Claude compatibility configuration
 
 Project settings are in `.claude/settings.json`. The dispatcher reads a JSON object from stdin and
 returns documented `hookSpecificOutput.additionalContext`; it never executes a scientific command
-or rewrites tool input. Nonblocking reminders are not permission gates.
+or rewrites tool input. These files are retained and unit-tested for compatibility, but they are not
+loaded by the active Codex deployment. Nonblocking reminders are not permission gates.
 
 The intended event coverage is:
 
@@ -60,7 +66,8 @@ inspect arbitrary arguments and is advisory rather than complete coverage.
 
 ## Runtime facts and schema basis
 
-- Locally inspected Claude Code runtime on 2026-09-05: `2.1.201`.
+- Active development runtime on 2026-09-05: Codex/ChatGPT.
+- Locally installed but inactive Claude Code compatibility runtime: `2.1.201`.
 - Official hooks reference checked on 2026-09-05:
   `https://code.claude.com/docs/en/hooks`.
 - Official project-memory and subagent references checked on 2026-09-05:
@@ -73,9 +80,9 @@ only and supports startup/resume/clear/compact/fork. Project hooks run in subage
 current documentation, but child receipt remains a deployment behavior to exercise rather than
 assume on the installed runtime.
 
-Configuration-schema review and direct dispatcher tests establish portable behavior. A real CLI
-session is required to claim deployed hook loading. If authentication or runtime access prevents
-that test, record it as untested without blocking unrelated repository work.
+Configuration-schema review and direct dispatcher tests establish portable compatibility behavior.
+No live Claude session is required for this Codex deployment, and none is claimed. If Claude becomes
+active again, its deployed hook loading would need a new runtime test before being called tested.
 
 ## Testing contract
 

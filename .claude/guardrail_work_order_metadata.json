@@ -1,5 +1,6 @@
 {
   "scope": "Repository-default reminder metadata; this file authorizes no scientific solve.",
+  "runtime_scope": "Codex/ChatGPT is active; Claude hooks are retained inactive compatibility infrastructure.",
   "solver_entrypoints": [],
   "resource_budget": "must be declared by the active work order",
   "stop_conditions": "must be declared by the active work order"

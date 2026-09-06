@@ -12,11 +12,12 @@
 
 | Goal | Status | Reason |
 |---|---|---|
-| A. Guardrail and discovery-workflow implementation | **PARTIAL** | The initial audited portable implementation is complete and passes its static, unit, regression, and two-sided behavior checks. The configured Claude deployment itself was not invoked because that would transmit repository material to a separately operated provider without provider-specific authorization. Its installed `SessionStart`, `SubagentStart`, and `PreToolUse` behavior therefore remains untested in the real Claude runtime. |
+| A. Guardrail and discovery-workflow implementation | **COMPLETE for the active Codex/ChatGPT deployment** | The initial audited implementation passes static, unit, regression, two-sided behavior, and zero-context Codex instruction-chain checks. Claude hooks are retained inactive compatibility infrastructure; live Claude-hook testing is `NOT_APPLICABLE` to this deployment, not passed. |
 | B. Central accepted-science account and tracking | **COMPLETE for the declared accepted scope and fixed snapshot** | All 335 registry rows are dispositioned, every main-argument row has a reviewed manuscript anchor, the source-indexed sidecar is generated from the existing registry, navigation and invalidation checks pass, and the completed manuscript has passed chapter and cross-chapter fidelity review. |
 
-These labels are deliberately asymmetric. A portable hook implementation is not counted as a
-tested deployment. Open physical questions are not counted as missing documentation.
+Historically named `CLAUDE.md` and `.claude/skills/` remain shared instructions in the explicit
+Codex startup chain. Their names do not make Claude active. Open physical questions are not counted
+as missing documentation.
 
 ## Baseline and preservation
 
@@ -38,7 +39,7 @@ own scientific grades.
 
 | Rule | Final disposition | Implemented location and check |
 |---|---|---|
-| R1 coherent authority/no hidden science | `VERIFIED_WITH_RUNTIME_LIMIT` | `AGENTS.md` is the primary method authority; `CLAUDE.md` and four active skills are compact adapters. Static/startup tests check authority, nested wording, and retained science guards. Live Claude loading is the unresolved runtime item. |
+| R1 coherent authority/no hidden science | `VERIFIED` | `AGENTS.md` is primary; its specified `CLAUDE.md` sections and triggered `.claude/skills/` remain shared instructions despite historical names. Static tests and a read-only zero-context Codex rehearsal verify the effective chain. |
 | R2 bounded discovery | `VERIFIED` | `AGENTS.md` permits authorized algebra, limits, examples, counterexamples, and conditional lemmas while keeping counterfactual physics unadopted. Behavioral cases `NUMERIC_METHOD` and `HELD_ALREADY_AUTHORIZED` pass. |
 | R3 exploration/candidate/promotion | `VERIFIED` | Recoverable checkpoints and conditional unproved dependencies are explicitly typed. `FAILED_CHECKPOINT` passes without promoting the draft. |
 | R4 controlled approximations/linear work | `VERIFIED` | Domain, error, and inherited downstream bounds replace the former absolute ban. `CONTROLLED_APPROXIMATION` and `FIRST_VARIATION` pass. |
@@ -49,22 +50,23 @@ own scientific grades.
 | R9 proportional review | `VERIFIED` | Packaging-only and scientific review are distinguished; existing sound utilities are reused; targeted and closure regressions are required. Static policy tests cover both clauses. |
 | R10 concrete independence/objections | `VERIFIED` | Context, model exposure, implementation, source versions, and prior-verdict exposure are separate fields. `REVIEW_INDEPENDENCE` passes. |
 | R11 evidence/dependency/impact tracking | `VERIFIED` | Stable IDs/source versions and review of both positive and negative descendants are required. `UPSTREAM_CHANGE` passes; the manuscript sidecar implements source/dependency tracking without becoming a second registry. |
-| R12 honest automation | `IMPLEMENTED_BUT_DEPLOYMENT_PARTIAL` | The AST import scanner and reminder hook are repaired and unit-tested; the banner says what it reminds rather than claiming enforcement. Installed Claude runtime behavior remains unexercised for the reason above. |
+| R12 honest automation | `VERIFIED_FOR_ACTIVE_DEPLOYMENT_SCOPE` | The AST scanner is active repository automation and tested. The Claude reminder hook is retained and unit-tested only as inactive compatibility code; no live-hook or Codex-enforcement claim is made. |
 | R13 sync/offline/resources | `VERIFIED` | Non-destructive sync, commit-pinned offline audits, explicit budgets, timeouts, and single-GPU safety are retained. `HELD_OFFLINE_AUDIT` now permits the scoped audit without claiming freshness. |
 | R14 assessable decisions | `VERIFIED` | New physical decisions require a lay account of change, provenance, alternatives, falsifiers, cost, and requested authority; already-authorized bounded work proceeds autonomously. |
 
 ### Automation delivered
 
-- `.claude/hooks/corral_trigger.py` handles documented hook events, wrapper-aware command parsing,
-  visible metadata errors, and conservative solver reminders without pretending to enforce policy.
-- `.claude/settings.json` registers `SessionStart`, `SubagentStart`, and relevant `PreToolUse`
-  matchers with documented command-plus-arguments input.
+- Codex/ChatGPT loads `AGENTS.md`; that file explicitly requires the bounded shared reads from
+  `CLAUDE.md` and task-triggered `.claude/skills/`. The zero-context rehearsal found this chain.
+- `.claude/hooks/corral_trigger.py` and `.claude/settings.json` retain tested portable compatibility
+  behavior but are inactive in the Codex deployment. No live Claude test is claimed.
 - `.claude/guardrail_work_order_metadata.json` is the safe project-local default metadata source
   and authorizes no solver by default.
 - `guardrail_import_scanner.py` is static-only. It handles exact main guards, nested/compound and
   alternate branches, definitions and handlers, package/relative imports, dynamic-import aliases,
   namespace packages, and execution-mode-aware transitive reachability without importing target
   code.
+- The Codex rehearsal record is `tests/codex_instruction_chain_rehearsal_2026-09-05.md`.
 - The behavior fixtures and full actual before/after responses are in
   `tests/guardrail_behavior_cases.json` and
   `tests/guardrail_behavior_evaluation_2026-09-05.json`.
@@ -94,7 +96,7 @@ metric/kernel scope at snapshot `f23199e4`. Its state marker is
 `3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e` and is bound by the verifier.
 
 The generated `UDT_METRIC_KERNEL_COVERAGE.tsv` contains all 335 exact registry rows and has SHA-256
-`40bb4cb3b067ed7064a1347905d3f89df11cd20f7bec27fa11c82fc88ad90134`.
+`b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4`.
 The fixed-snapshot disposition is:
 
 | Role | Rows |
@@ -109,8 +111,11 @@ The fixed-snapshot disposition is:
 
 Every `MAIN_ARGUMENT` row has a body-level manuscript anchor. The other rows have an explicit
 role, controlling source and hash, dependencies where applicable, scope/open-boundary note, and
-Appendix coverage disposition. `update_metric_kernel_account.py` regenerates the sidecar from the
-scientific registry and flags both positive and negative descendants of a changed source;
+Appendix coverage disposition. The sidecar now separates the currently observed source hash from
+the last fidelity-reviewed source hash and its review ID. An ordinary
+`update_metric_kernel_account.py --write` flags both positive and negative descendants of a changed
+source and preserves that invalidation. Only `--record-review` with an exact new-source hash,
+manuscript hash, affected-ID closure, snapshot, and review ID can restore reviewed status.
 `verify_metric_kernel_account.py` checks exact bytes, source hashes, dependencies, counts,
 anchors, placeholders, and the final manuscript hash. `README.md` and `INDEX.md` route readers to
 the account, sidecar, updater, and verifier.
@@ -129,14 +134,16 @@ same model family; not human specialist review and not claimed as a different-mo
 
 ## Closure checks
 
-Environment: Python 3.10.12, pytest 9.1.1, Codex CLI 0.144.5, Claude Code 2.1.201.
+Environment: Python 3.10.12, pytest 9.1.1, Codex CLI 0.144.5. Claude Code 2.1.201 is installed but
+inactive and not part of the completion gate.
 
 | Command/check | Outcome |
 |---|---|
 | `python3 verify_current_scientific_premises.py` | `PASS` — exact 335-row registry/startup/premise guards and 754 historical dispositions |
 | `python3 verify_metric_kernel_account.py` | `PASS` — 335 rows, exact role counts, source/dependency/anchor/hash checks |
-| `python3 -m pytest tests/test_metric_kernel_account.py -q` | `3 passed` |
-| `python3 -m pytest tests/test_import_scanner.py tests/test_solution_space_gate.py tests/test_corral_trigger.py tests/test_guardrail_policy.py tests/test_hygiene_header.py tests/test_metric_kernel_account.py tests/test_startup_surface.py -q` | `118 passed, 1 xfailed` in 404.70 s |
+| `python3 -m pytest tests/test_metric_kernel_account.py -q` | `4 passed`, including the isolated end-to-end invalidation/review replay |
+| Zero-context Codex instruction-chain rehearsal | `PASS_FOR_CURRENT_CODEX_INSTRUCTION_CHAIN_SCOPE` |
+| `python3 -m pytest tests/test_import_scanner.py tests/test_solution_space_gate.py tests/test_corral_trigger.py tests/test_guardrail_policy.py tests/test_hygiene_header.py tests/test_metric_kernel_account.py tests/test_startup_surface.py -q` | `120 passed, 1 xfailed` in 404.92 s |
 | `python3 -m py_compile` on the changed Python implementation and tests | `PASS` |
 | `git diff --check` | `PASS` |
 
@@ -160,9 +167,14 @@ matter or mass law, native light/detector interpretation, absolute scale, or phy
 `X_max`; it does not canonize the provisional premises. Those are genuine scientific choices or
 research problems, not missing chapters in this fixed-snapshot edition.
 
-## Resumption item
+## Follow-up repairs and remaining deployment limits
 
-The only incomplete infrastructure check is live exercise of the configured Claude hooks. It
-requires explicit authorization to transmit the bounded test prompt and applicable repository
-instructions to that external provider. Until then, the portable code and fixtures are tested,
-but Goal A remains `PARTIAL`.
+The source-invalidation defect was reproduced before repair: changing a controlling source in an
+isolated copy and running the ordinary updater restored `FIDELITY_REVIEWED`. The new end-to-end
+regression now requires the ordinary updater to retain `SOURCE_CHANGED__FIDELITY_REVIEW_REQUIRED`
+or descendant dependency-review status across repeated runs. Its simulated explicit review succeeds
+only when the record is tied to the exact new source, unchanged manuscript, snapshot, and complete
+affected-ID closure.
+
+The actual Codex rehearsal passed. Live Claude hooks remain untested because they are inactive and
+not applicable to this deployment; that is neither a pass nor a remaining Codex-workflow blocker.
