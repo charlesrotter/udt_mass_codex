@@ -1,0 +1,14 @@
+id	owner_or_source	role_and_status	retained_scope	open_or_excluded
+M1	G349 EXACT_DERIVATION sections 1-2	SUPPLIED smooth time-oriented 4D Lorentzian g and cone data	arbitrary supplied metric; signature -+++	no metric equation or physical development selected
+M2	G349 EXACT_DERIVATION equations 1-5	CONDITIONAL_GEOMETRY k=u+n; affine rays; Jacobi orthogonality	prescribed source normalization kept; TN=k-perp on regular branch	no scalar gradient at multiray vertex
+Q1	WORK_ORDER.md	AUTHORIZED_QUERY_RESTRICTION locally embedded regular null hypersurface	germ near each point; screen rank two; k nonzero	global cone; rank loss; intersecting branches; arbitrary distant-cut coverage
+D1	CANDIDATE_ARGUMENT sections 2-4	CANDIDATE mathematical extension with full ambient first jet	spacelike proof slice; smooth data; Hamilton ODE; local inverse function theorem	no physical initial-data selection; no numerical PDE solve
+D2	CANDIDATE_ARGUMENT section 5	CANDIDATE residual freedom	arbitrary smooth initial remainder; explicit distinct-foliation witnesses	no classification of all global extensions; no selected neighboring physical source
+P1	G351 EXACT_DERIVATION sections 2-3 and AUDIT_REPORT	OWNER_ADOPTED_PROVISIONAL_PREMISE conservation of supplied finite nonnegative countably additive mu	source-free labels; ac density s/J; singular part retained separately	mu and support not generated; no density ratio at zero
+P2	G352 ADOPTION_RECORD and AUDIT_REPORT	OWNER_ADOPTED_PROVISIONAL_PREMISE clock-rate readout	conditional continuous readout only	no light energy detector or literal atomic smooth rate
+P3	G352 EXACT_DERIVATION sections 1-2	CHOSE_BOUNDED_MATHEMATICAL_REALIZATION continuous phase-independent product	fixed positive spacing; same mu per phase; supplied label identification	not derived from geometry or from conservation; correlated phase content open
+D3	CANDIDATE_ARGUMENT section 6 using G352 equations 6 and 14	CANDIDATE extension-independent original-cut readout	common phase domain; fixed ambient gradient and all other readout data; integrability for finite weighted measure	no neighboring-phase or finite-worldline prediction; no existence through caustics
+T1	check_exact.py and CHECK_RUNS.json	EXACT_SYMBOLIC_AND_RATIONAL_WITNESSES plus scoped code mutation catches	53 assertions; four intentionally altered helpers rejected	not a general smooth proof; not exhaustive mutation testing
+T2	recompute_saved.py and RECOMPUTATION_RUN.json	SAME_CONTEXT_DIFFERENT_IMPLEMENTATION saved-input exact arithmetic	Cartesian Gram and frequency contraction; no production import	not independent reviewer or different model
+R1	REVIEW_RECORD.md	INDEPENDENT_REVIEW_NOT_PERFORMED	self-inspection and executable support only	no promotion or accepted-result grade
+B1	Charles's repository-only authorization	PRESERVATION_BOUNDARY	unrelated and protected local work left alone	backup completeness and pre-reboot unsaved state UNVERIFIED; ScratchDisk archive-only blocker

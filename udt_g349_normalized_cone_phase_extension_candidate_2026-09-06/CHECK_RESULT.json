@@ -1,0 +1,130 @@
+{
+  "status": "PASS_EXACT_WITNESSES_NOT_GENERAL_PROOF",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutation": null,
+  "assertion_count": 53,
+  "checks": [
+    "initial_value",
+    "initial_derivative_rho",
+    "initial_derivative_v",
+    "initial_derivative_w",
+    "future_null_branch_norm",
+    "future_branch_rational_clock",
+    "implicit_denominator",
+    "implicit_ift_on_cone",
+    "implicit_eikonal",
+    "ambient_cone_component_0",
+    "ambient_cone_component_1",
+    "ambient_cone_component_2",
+    "ambient_cone_component_3",
+    "implicit_off_cone_value",
+    "implicit_off_cone_D",
+    "implicit_off_cone_component_0",
+    "implicit_off_cone_component_1",
+    "implicit_off_cone_component_2",
+    "implicit_off_cone_component_3",
+    "not_same_foliation_normal",
+    "implicit_off_cone_future",
+    "reparameterized_eikonal",
+    "reparameterized_cone_component_0",
+    "reparameterized_cone_component_1",
+    "reparameterized_cone_component_2",
+    "reparameterized_cone_component_3",
+    "off_cone_rescaled_clock",
+    "cone_affine_component_0",
+    "cone_affine_component_1",
+    "cone_affine_component_2",
+    "cone_affine_component_3",
+    "nonaffine_nonzero_component",
+    "nonaffine_parallel_component",
+    "matching_accepts_prescribed_beta",
+    "matching_rejects_hidden_factor_two",
+    "scaled_beta_still_zero_pullback_0",
+    "scaled_beta_still_zero_pullback_1",
+    "scaled_beta_still_zero_pullback_2",
+    "scaled_beta_changes_observer_clock",
+    "cut_gram_00",
+    "cut_gram_01",
+    "cut_gram_10",
+    "cut_gram_11",
+    "metric_area_not_radius",
+    "observer_unit_0",
+    "observer_future_0",
+    "observer_unit_1",
+    "observer_future_1",
+    "clock_at_second_cut",
+    "absolute_rate_first_cut",
+    "absolute_rate_second_cut",
+    "transfer_ratio",
+    "zero_measure_zero_rate"
+  ],
+  "implicit_off_cone_gradient": [
+    "-1",
+    "0",
+    "1",
+    "0"
+  ],
+  "base_off_cone_gradient": [
+    "-1",
+    "sqrt(10001)/10001",
+    "100*sqrt(10001)/10001",
+    "0"
+  ],
+  "saved_readout_inputs": {
+    "direction": [
+      "3/5",
+      "4/5",
+      "0"
+    ],
+    "screen1": [
+      "4/5",
+      "-3/5",
+      "0"
+    ],
+    "screen2": [
+      "0",
+      "0",
+      "1"
+    ],
+    "cut_gradients": [
+      "1/3",
+      "-2/7"
+    ],
+    "radii": [
+      "3",
+      "5"
+    ],
+    "observers": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "13/12",
+        "1/4",
+        "1/3",
+        "0"
+      ]
+    ],
+    "spacing": "3/2",
+    "density": "7/5"
+  },
+  "readout_outputs": {
+    "jacobians": [
+      "9",
+      "25"
+    ],
+    "omegas": [
+      "1",
+      "2/3"
+    ],
+    "rates": [
+      "14/135",
+      "28/1125"
+    ],
+    "ratio": "6/25"
+  }
+}

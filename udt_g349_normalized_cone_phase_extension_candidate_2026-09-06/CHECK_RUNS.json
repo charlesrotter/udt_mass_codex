@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py"
+      ],
+      "mutation": null,
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS_EXACT_WITNESSES_NOT_GENERAL_PROOF\",\n  \"python\": \"3.10.12\",\n  \"sympy\": \"1.13.1\",\n  \"mutation\": null,\n  \"assertion_count\": 53,\n  \"checks\": [\n    \"initial_value\",\n    \"initial_derivative_rho\",\n    \"initial_derivative_v\",\n    \"initial_derivative_w\",\n    \"future_null_branch_norm\",\n    \"future_branch_rational_clock\",\n    \"implicit_denominator\",\n    \"implicit_ift_on_cone\",\n    \"implicit_eikonal\",\n    \"ambient_cone_component_0\",\n    \"ambient_cone_component_1\",\n    \"ambient_cone_component_2\",\n    \"ambient_cone_component_3\",\n    \"implicit_off_cone_value\",\n    \"implicit_off_cone_D\",\n    \"implicit_off_cone_component_0\",\n    \"implicit_off_cone_component_1\",\n    \"implicit_off_cone_component_2\",\n    \"implicit_off_cone_component_3\",\n    \"not_same_foliation_normal\",\n    \"implicit_off_cone_future\",\n    \"reparameterized_eikonal\",\n    \"reparameterized_cone_component_0\",\n    \"reparameterized_cone_component_1\",\n    \"reparameterized_cone_component_2\",\n    \"reparameterized_cone_component_3\",\n    \"off_cone_rescaled_clock\",\n    \"cone_affine_component_0\",\n    \"cone_affine_component_1\",\n    \"cone_affine_component_2\",\n    \"cone_affine_component_3\",\n    \"nonaffine_nonzero_component\",\n    \"nonaffine_parallel_component\",\n    \"matching_accepts_prescribed_beta\",\n    \"matching_rejects_hidden_factor_two\",\n    \"scaled_beta_still_zero_pullback_0\",\n    \"scaled_beta_still_zero_pullback_1\",\n    \"scaled_beta_still_zero_pullback_2\",\n    \"scaled_beta_changes_observer_clock\",\n    \"cut_gram_00\",\n    \"cut_gram_01\",\n    \"cut_gram_10\",\n    \"cut_gram_11\",\n    \"metric_area_not_radius\",\n    \"observer_unit_0\",\n    \"observer_future_0\",\n    \"observer_unit_1\",\n    \"observer_future_1\",\n    \"clock_at_second_cut\",\n    \"absolute_rate_first_cut\",\n    \"absolute_rate_second_cut\",\n    \"transfer_ratio\",\n    \"zero_measure_zero_rate\"\n  ],\n  \"implicit_off_cone_gradient\": [\n    \"-1\",\n    \"0\",\n    \"1\",\n    \"0\"\n  ],\n  \"base_off_cone_gradient\": [\n    \"-1\",\n    \"sqrt(10001)/10001\",\n    \"100*sqrt(10001)/10001\",\n    \"0\"\n  ],\n  \"saved_readout_inputs\": {\n    \"direction\": [\n      \"3/5\",\n      \"4/5\",\n      \"0\"\n    ],\n    \"screen1\": [\n      \"4/5\",\n      \"-3/5\",\n      \"0\"\n    ],\n    \"screen2\": [\n      \"0\",\n      \"0\",\n      \"1\"\n    ],\n    \"cut_gradients\": [\n      \"1/3\",\n      \"-2/7\"\n    ],\n    \"radii\": [\n      \"3\",\n      \"5\"\n    ],\n    \"observers\": [\n      [\n        \"1\",\n        \"0\",\n        \"0\",\n        \"0\"\n      ],\n      [\n        \"13/12\",\n        \"1/4\",\n        \"1/3\",\n        \"0\"\n      ]\n    ],\n    \"spacing\": \"3/2\",\n    \"density\": \"7/5\"\n  },\n  \"readout_outputs\": {\n    \"jacobians\": [\n      \"9\",\n      \"25\"\n    ],\n    \"omegas\": [\n      \"1\",\n      \"2/3\"\n    ],\n    \"rates\": [\n      \"14/135\",\n      \"28/1125\"\n    ],\n    \"ratio\": \"6/25\"\n  }\n}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.3403401579998899
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "acceleration_zero"
+      ],
+      "mutation": "acceleration_zero",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 111, in <module>\n    equal('nonaffine_nonzero_component', ell_acc[0], 1+t)\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 28, in equal\n    require(name, S.simplify(actual - expected) == 0)\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 23, in require\n    raise AssertionError(name)\nAssertionError: nonaffine_nonzero_component\n",
+      "elapsed_seconds": 0.30148304700014705
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "pullback_only"
+      ],
+      "mutation": "pullback_only",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 123, in <module>\n    require('matching_rejects_hidden_factor_two', not ambient_match(2*beta, beta, tangents))\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 23, in require\n    raise AssertionError(name)\nAssertionError: matching_rejects_hidden_factor_two\n",
+      "elapsed_seconds": 0.33870300899980066
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "omit_frequency"
+      ],
+      "mutation": "omit_frequency",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 149, in <module>\n    equal('absolute_rate_second_cut', rates[1], S.Rational(28, 1125))\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 28, in equal\n    require(name, S.simplify(actual - expected) == 0)\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 23, in require\n    raise AssertionError(name)\nAssertionError: absolute_rate_second_cut\n",
+      "elapsed_seconds": 0.3825207379995845
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py",
+        "--mutation",
+        "area_radius"
+      ],
+      "mutation": "area_radius",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 136, in <module>\n    equal('metric_area_not_radius', area(gram), r*r)\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 28, in equal\n    require(name, S.simplify(actual - expected) == 0)\n  File \"/home/udt-admin/udt_mass_codex/udt_g349_normalized_cone_phase_extension_candidate_2026-09-06/check_exact.py\", line 23, in require\n    raise AssertionError(name)\nAssertionError: metric_area_not_radius\n",
+      "elapsed_seconds": 0.38349078000101144
+    }
+  ]
+}
