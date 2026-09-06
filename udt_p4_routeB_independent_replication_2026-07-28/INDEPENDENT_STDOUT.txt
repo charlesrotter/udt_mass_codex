@@ -1,0 +1,45 @@
+PASS A1_my_basis_in_so13 -- all 6 M_ab satisfy lam^T eta + eta lam = 0
+PASS A1_rank6 
+PASS A2_same_algebra_as_production -- my basis and the production basis span the SAME so(1,3); same defining-representation adjoint action
+PASS B1_split_stabilizer_dim2 -- upper-right-zero preserved exactly by span(M01, M23): dim 2
+PASS B1_direct_sum -- [M01, M23] = 0: so(1,1) + so(2) direct sum
+PASS B2_fixedH_stabilizer_dim1 -- adding fixed H cuts to span(M23): dim 1
+PASS B3_triangular_stabilizer_dim0 -- adding K[1,0]=0 cuts to {0}: the triangular chart is a gauge section
+PASS B3_obstruction_entry -- [M23, X]_[3,2] = d - a (adjudicates the production sign d-a: CORRECT for R23 = E23 - E32)
+PASS B4_trace_invariant_any_X -- tr[lam, X] = 0 for ANY X: det-one condition fully covariant
+PASS B4_det_also_invariant -- delta(det X) = 0 too: det X = -a*d is ANOTHER fully covariant function on the class -- 'unique stratum condition' must be quantified over the package's OWN stratum/chart condition list (F-D note), where it holds
+PASS B5_E04_dim1 
+PASS B5_E05_fullK_dim1 
+PASS B5_E05_triangular_dim0 
+PASS B5_E06_dim1 
+PASS B6_so2_fixed_set_triangular_is_isotropic_line -- [M23,X]=0 in the TRIANGULAR class iff b=0, C=0, a=d
+PASS B6_so2_fixed_set_chartfree_is_bigger -- in the CHART-FREE full-K class the so(2)-fixed set is {a=d, k21=-b, C=0}: 2 moduli (lambda, rotation) -- the 'isotropic line' fixed-set statement is triangular-chart-scoped (verifier scope note)
+PASS B7_centralizer_generic_dim1 
+PASS B7_centralizer_dims_3_3_1 -- lambda=+1: 3, lambda=-1: 3, lambda=0: 1 -- matches the cited 1/3/3/1
+PASS B8_e07_sign_chart -- pi/2 screen rotation flips the sign of k; invariant is |k|
+PASS C1_M_by_integration -- M(phi) = int_0^phi e^{tH} dt = diag(1-e^{-phi}, e^{phi}-1)
+PASS C2_closed_form_solves_ODE -- F' = X_C F, F(0) = I: closed form is exp(phi X_C) by uniqueness
+PASS C2_matrix_exp_spot_check -- sympy 4x4 .exp() at phi=1, C=[[2,3],[5,7]] agrees exactly
+PASS C3_full_C_cocycle -- lower-left = C2 M(phi2) e^{phi1 H} + C1 M(phi1): CONFIRMED
+PASS C4_E08_sigma_law -- sigma_tot = sigma1 + e^{-phi1} sigma2: CONFIRMED (clock-channel weight e^{-phi1})
+PASS C4_associative_path_ordered 
+PASS C5_history_dependence_witness -- sbar(T/2,T/2) - sbar(T,0) = (s2-s1) e^{-T/2}(1-e^{-T/2})/(1-e^{-T}), nonzero at exact witness point: history dependence CONFIRMED
+PASS D1_diagonal_finite_form 
+PASS D2_metric_readout_source_convention -- g = (diag(c,1,1,1) Lambda)^T eta (diag(c,1,1,1) Lambda): entry m -> e^{2m phi}; matches the 07-25 source spectator readout convention
+PASS D2_E07_record_reproduced -- (a,d)=(-k,+k) gives screen metric diag(e^{-2k phi}, e^{+2k phi}) = the banked E07 record, signs included
+PASS D3_volume_exponent_a_plus_d -- sqrt|det g| = c e^{(a+d)phi}: 4D chart volume exponent a+d; base pair contributes (-1)+(+1)=0
+PASS D3_blind_iff_antidiagonal -- phi-independent iff a+d=0 exactly
+PASS D4_axes_change -- (a,d) = (lambda-k, lambda+k); E07 seat and isotropic seat are orthogonal axes: DECOMPOSITION confirmed
+PASS D5_three_name_coincidence -- E07 line {(-k,+k)} = {a+d=0} (surjective parametrization) = det-one line (tr X = a+d) = 4D volume-blind line: three names, one line
+PASS D6_orbit_vs_chart_functionals_distinct -- 1+2lambda (cited 3D orbit exponent) and 2lambda (4D chart exponent on the isotropic line) are distinct functionals with distinct blind loci (-1/2 vs 0): conflation would be an error; package keeps them separate
+PASS D7_banked_pins_on_k_zero_axis -- (1,1), (-1,-1), (0,0) all have k=0; NOTE: the truthful strong claim is only 'no banked gate pins k != 0' -- banked supplied gates DO constrain k conditionally (they force k=0): see verifier report
+PASS E1_bracket_block_formula -- [X1,X2] block formula and triangular bracket-stability: CONFIRMED
+PASS E2_L8_closes -- L8 = {[[sH,0],[C,K_tri]]} closes as a Lie algebra: CONFIRMED
+PASS E3_nonclosure_witness_E05 -- base = I, screen != I; class element with base I is I: total-phi=0 non-closure CONFIRMED
+PASS E3_E03_internal_witness -- det-one members (a,d)=(1,-1) and (-1,1): exp(-phi X2) exp(phi X1) = diag(1,1,e^{2phi},e^{-2phi}) -- an E03-INTERNAL witness exists (repairs the garbled TSV E03/C2 parenthetical)
+PASS E4_diagonal_weighted_mean_modulus -- diagonal subfamily abelian; composed modulus = phi-weighted mean: CONFIRMED
+PASS E5_detM_zero_iff_phi_zero -- det M(phi) = 0 iff phi = 0: CONFIRMED
+PASS E6_E08_finite_form -- banked E08 finite form s(1-e^{-phi}) IS exp(phi X_s): CONFIRMED
+PASS E7_so13_perfect -- bracket span rank 6: perfectness cross-check CONFIRMED
+
+INDEPENDENT REDERIVATION: ALL PASS
