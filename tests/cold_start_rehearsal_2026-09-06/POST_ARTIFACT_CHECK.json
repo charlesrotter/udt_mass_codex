@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SAVED_ARITHMETIC_ARTIFACT_CHECK_ONLY",
+  "normalized_outputs": [
+    "2",
+    "3/2",
+    "3/2"
+  ],
+  "artifact_sha256": "6d316edac1c4ee0b97eec4d51299d05e902c06574027127c3b845540b01e93ed",
+  "reviewer": "fresh controller, source-exposed, same model; independently recomputed from saved artifact without importing subject code; not independent science",
+  "R2": {
+    "completed_commands": 22,
+    "completed_turns": 1,
+    "elapsed_seconds": 537.833,
+    "tracked_diff_empty": true,
+    "status_scope_matches": true,
+    "thread_id": "01a076fd-766b-7ae3-9e36-f670829408af"
+  },
+  "R3": {
+    "completed_commands": 31,
+    "completed_turns": 1,
+    "elapsed_seconds": 527.309,
+    "tracked_diff_empty": true,
+    "status_scope_matches": true,
+    "thread_id": "01a07705-c37a-7ec2-aa04-a97879bd3639"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "ARITHMETIC_WORKFLOW_CHECK_ONLY",
+  "supplied_identity": "n=s/J",
+  "scope": "Exactly the three supplied positive rational pairs; no physical equation or interpretation is imported.",
+  "method": {
+    "frame": "Template-led by the user-supplied identity and cases.",
+    "arithmetic": "Python standard-library fractions.Fraction; exact integer rational arithmetic",
+    "device": "CPU only",
+    "python_version": "3.10.12",
+    "approximations": "None",
+    "physical_choices": "None; inputs are supplied arithmetic values, not physical selections.",
+    "case_limit": 3,
+    "time_limit_minutes": 20,
+    "maximum_claim": "Exact evaluation of n=s/J for these three supplied pairs only."
+  },
+  "cases": [
+    {
+      "s": "3/2",
+      "J": "3/4",
+      "n": "2/1"
+    },
+    {
+      "s": "7",
+      "J": "14/3",
+      "n": "3/2"
+    },
+    {
+      "s": "5/9",
+      "J": "10/27",
+      "n": "3/2"
+    }
+  ],
+  "distinctions": {
+    "supplied_identity": "n=s/J is supplied for this workflow check; these substitutions do not derive it from a metric or establish physical ownership.",
+    "provisional_premise_readout": "G351 adds owner-provisional source-free conservation of a standard finite nonnegative countably additive label measure. G352 adds an owner-provisional continuous clock-rate readout with an explicitly chosen total-phase-variation, phase-independent product realization. The accepted conditional T_clock=R A^-1 applies to its nonzero absolutely continuous regular density; (p,q)=(1,-1) is unique only for this readout inside the declared full independent positive character domain.",
+    "arithmetic_consequence": "The exact quotients in the supplied order are 2/1, 3/2, and 3/2.",
+    "physical_interpretation": "No identification of s with R or J with A is supplied. The calculations establish no metric-native carried object, phase, populated labels, source, detector response, or physical-light transfer law. Physical realization remains open."
+  },
+  "proposed_inference": {
+    "claim": "These three calculations prove T_clock=R A^-1 is a universal physical-light transfer law.",
+    "verdict": "REJECTED_UNSUPPORTED",
+    "reason": "Three substitutions into a supplied identity neither prove a universal claim nor establish its physical premises. G352 is conditional on provisional premises and a chosen realization; it does not establish a universal physical-light law.",
+    "rejection_scope": "The proposed proof inference is unsupported; this is not a proof that a physical realization is impossible."
+  },
+  "orientation": {
+    "branch": "grok",
+    "head": "76a8d249d96082b36e02ee65b0d3677ad26a080d",
+    "initial_worktree": "Clean according to git status --short --branch.",
+    "synchronization": "Controller-supplied synchronized production pin; no checkout, fetch, pull, or independent remote-freshness verification performed.",
+    "premise_verifier": {
+      "command": "python3 verify_current_scientific_premises.py",
+      "invocations": 1,
+      "exit_code": 0,
+      "result": "PASS: 335-row premise registry and current startup/premise guards; waited for the original process to finish."
+    },
+    "load_bearing_registry_rows": [
+      "G350",
+      "G351",
+      "G352"
+    ],
+    "open_gate": "Whether a metric-native carried object realizes the required phase and conserved label measure."
+  },
+  "review_scope": "Exact arithmetic workflow and source-scope check by this session; no independent scientific review or promotion.",
+  "stop": "Stop after writing and verifying this one scratch artifact; no further scientific work authorized by this case."
+}

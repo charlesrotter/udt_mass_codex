@@ -1,0 +1,249 @@
+{
+  "timestamp_utc": "2026-09-06T13:53:40Z",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "origin/grok"
+      ],
+      "exit_code": 0,
+      "stdout": "76a8d249d96082b36e02ee65b0d3677ad26a080d\n76a8d249d96082b36e02ee65b0d3677ad26a080d\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=normal"
+      ],
+      "exit_code": 0,
+      "stdout": "?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? tests/cold_start_rehearsal_2026-09-06/POST_R2_EVENTS.jsonl\n?? tests/cold_start_rehearsal_2026-09-06/POST_R2_INVOCATION.json\n?? tests/cold_start_rehearsal_2026-09-06/POST_R2_STDERR.txt\n?? tests/cold_start_rehearsal_2026-09-06/POST_RESTART_PLAN.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-list",
+        "--left-right",
+        "--count",
+        "HEAD...origin/grok"
+      ],
+      "exit_code": 0,
+      "stdout": "0\t0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "sha256sum",
+        "--check",
+        "tests/cold_start_rehearsal_2026-09-06/REPAIRED_SOURCE_HASHES.sha256"
+      ],
+      "exit_code": 0,
+      "stdout": "AGENTS.md: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nCLAUDE.md: OK\nINDEX.md: OK\nMEMORY.md: OK\nUDT_COMPLETION_REPORT.md: OK\nverify_current_scientific_premises.py: OK\nverify_metric_kernel_account.py: OK\ntests/codex_instruction_chain_rehearsal_2026-09-05.md: OK\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "sha256sum",
+        "CURRENT_SCIENTIFIC_PREMISES.tsv",
+        "CURRENT_SCIENTIFIC_PREMISES.md",
+        "CANON.md",
+        "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+        "UDT_METRIC_KERNEL_COVERAGE.tsv"
+      ],
+      "exit_code": 0,
+      "stdout": "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f  CURRENT_SCIENTIFIC_PREMISES.tsv\n044a7067b2e678ddce77b34a328a179338db7e873ec4d73c8e64375e85cbc008  CURRENT_SCIENTIFIC_PREMISES.md\n047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250  CANON.md\n3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e  UDT_METRIC_KERNEL_DEVELOPMENT.md\nb9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4  UDT_METRIC_KERNEL_COVERAGE.tsv\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Python 3.10.12\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "pytest",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "pytest 9.1.1\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "stdout": "worktree /home/udt-admin/udt_mass_codex\nHEAD 76a8d249d96082b36e02ee65b0d3677ad26a080d\nbranch refs/heads/grok\n\nworktree /home/udt-admin/udt_mass_codex/.claude/worktrees/p4-routeB\nHEAD 56f564bb4ebe80492381e0a6eedd698b873897e8\nbranch refs/heads/p4-routeB\n\nworktree /tmp/udt_bootstrap_closure_ownership_20260801\nHEAD a90954c51a54cb0ad468854c20a7861024f68e29\nbranch refs/heads/codex/stability-family-ontology-audit-2026-08-01\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_global_metric_assembly_20260722\nHEAD 0f4d75b47d82d13fdfac50f56439fc580fc67645\nbranch refs/heads/codex/udt-metric-frontier-reference-2026-07-22\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_joint_realization_closure_20260801\nHEAD 686336343878e8a9e39a4b72df08d23754243631\nbranch refs/heads/codex/joint-realization-closure-audit-2026-08-01\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_jr_cert_native_20260801\nHEAD df2b35fcb6fc709e1ad0639b9f46222d64ee99cd\nbranch refs/heads/codex/jr-cert-native-derivation-2026-08-01\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_angular_toric_handoff_20260719\nHEAD ca2bf9eb042783cc028c5dd42fab84158c83a608\nbranch refs/heads/codex/angular-toric-handoff-integration-2026-07-19\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_angular_toric_selector_20260719\nHEAD 671206e94b9a842a919b014c1dc47ef0713e2964\nbranch refs/heads/codex/angular-toric-closure-selector-2026-07-19\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_bootstrap_selector_20260718\nHEAD 378eac0ae0b615f4e64828d50bbe5d7d027393c1\nbranch refs/heads/codex/bootstrap-variation-selector-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_clock_optical_scale_20260719\nHEAD 9e82c9d7ca53a0bb5138c09be689c1df44261d6d\nbranch refs/heads/codex/reciprocal-clock-optical-scale-selector-2026-07-19\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_copresence_causal_accessibility_20260719\nHEAD b083deea5711aa4dc6f571036114e5304272955d\nbranch refs/heads/codex/copresence-causal-accessibility-selector-2026-07-19\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_copresence_gr_constraint_regrade_20260719\nHEAD 28628be883dd37b0982dfb8ceeb41e46f1aa0d9b\nbranch refs/heads/codex/scientific-checkpoint-integration-2026-07-19\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_gr_constraint_trial_20260718\nHEAD 7b0e07fcad2ffdee94bcc1acda582d7ebab074d0\nbranch refs/heads/codex/gr-constraint-paired-trial-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_hopfion_native_topology_20260719\nHEAD cc7b08381281fa104661df5b6af9fb030cabac95\nbranch refs/heads/codex/null-section-hopfion-audit-2026-07-19\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_infinite_c_adjudication_20260718\nHEAD f813572826bcabd8c2dfe3c247f6a709e3eee508\nbranch refs/heads/codex/infinite-c-reciprocity-adjudication-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_invariant_causal_flow_20260718\nHEAD 2092a047da4b1267eabdb6be59e5b50b41e3db62\nbranch refs/heads/codex/invariant-reciprocal-causal-flow-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r0_20260718\nHEAD 4b226472c8f7c22dfcdd2c328a109e92d1df5abd\nbranch refs/heads/codex/reorg-r1a-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1_checkpoint_20260718\nHEAD b59005dba9acaf6c575185876655bd6a5c792094\nbranch refs/heads/codex/reorg-r1-checkpoint-integration-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1b_20260718\nHEAD 07c67bfbe661705c6b936243fa1ed697f23c1644\nbranch refs/heads/codex/reorg-r1b-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1c_20260718\nHEAD 204f3637f134811f05df12aa7494ef41289ee3b4\nbranch refs/heads/codex/reorg-r1c-lane-index-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1c_correction_20260718\nHEAD b3c50109df90658378d157c65fc723b1265c48c8\nbranch refs/heads/codex/reorg-r1c-correction-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1d_s8_20260718\nHEAD b4e839c31583f1b220eabc390f235fb794578af9\nbranch refs/heads/codex/reorg-r1d-s8-canary-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1e_batch_plan_20260718\nHEAD 14ba31a77aed1553c5df8ecd59b0f7a000c10e20\nbranch refs/heads/codex/reorg-r1e-batch-plan-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1f_checkpoint_integration_20260718\nHEAD 8015342a81b2d27cc310dde95ab7f386c6441a77\nbranch refs/heads/codex/reorg-r1f-checkpoint-integration-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1f_macro_quartet_20260718\nHEAD 3bb88a6b6cfc223d308b8bae6e27d69b1a1b119f\nbranch refs/heads/codex/reorg-r1f-macro-verifier-quartet-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1g_checkpoint_integration_20260718\nHEAD 2058f69db3f5c3a4322c5a9404e7145a62eeef2d\nbranch refs/heads/codex/reorg-r1g-checkpoint-integration-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1g_provenance_audit_20260718\nHEAD ec18725237d93e5821ce7eae555ba02b4e4ecbd7\nbranch refs/heads/codex/reorg-r1g-provenance-audit-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1h_checkpoint_integration_20260718\nHEAD 3f0d716bd07f9c9f5d8438638bdced28a7b45bda\nbranch refs/heads/codex/reorg-r1h-checkpoint-integration-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_r1h_effective_registry_20260718\nHEAD 80acad3edbf40c0026289cc676217319820edf95\nbranch refs/heads/codex/reorg-r1h-effective-registry-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_reciprocal_line_selector_20260718\nHEAD b3cd93bd92960b89935b9946b88f2e6017195c99\nbranch refs/heads/codex/reciprocal-line-realization-selector-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_mass_codex_reciprocity_constraint_20260718\nHEAD 9e08bccaf6a2ad9d7b464850560bc5f01d8349bf\nbranch refs/heads/codex/reciprocity-offshell-constraint-selector-2026-07-18\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_motif_hopf_20260722_zpmwYU/repo\nHEAD 9f313b5b665acdb81802f59001052cf895ff5a47\nbranch refs/heads/codex/udt-motif-hopf-correspondence-2026-07-22\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_p4_cold_review_20260801\nHEAD 5adeb59dde063770c0619d37b76b03f735d82038\nbranch refs/heads/codex/p4-review-repair-integration-2026-08-01\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_review_perspective_20260728\nHEAD 6cd9a15f8ae432ae53b21de0c7f8b9bdb3b1eb17\nbranch refs/heads/review/external-perspective-2026-07-28\nprunable gitdir file points to non-existent location\n\nworktree /tmp/udt_stability_foundations_20260801\nHEAD 089e2044be1b2e801f9b4f07e83efb5296dc1375\nbranch refs/heads/codex/stability-foundations-audit-2026-08-01\nprunable gitdir file points to non-existent location\n\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "branch",
+        "--format=%(refname:short) %(objectname) %(upstream:short)",
+        "--list",
+        "stageA-complete-metric-sweep",
+        "whole-metric-3d-gate"
+      ],
+      "exit_code": 0,
+      "stdout": "stageA-complete-metric-sweep 33d3a508c49d7c8c84e397a0ccbb06e486a1d759 \nwhole-metric-3d-gate 32e2ff892edba8bef40b4dc98bf501df3f705601 \n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-C",
+        "/home/udt-admin/udt_mass_codex/.claude/worktrees/p4-routeB",
+        "status",
+        "--short",
+        "--branch"
+      ],
+      "exit_code": 0,
+      "stdout": "## p4-routeB...origin/p4-routeB\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "uptime",
+        "-s"
+      ],
+      "exit_code": 0,
+      "stdout": "2026-09-06 09:43:01\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "uname",
+        "-r"
+      ],
+      "exit_code": 0,
+      "stdout": "6.8.0-138-generic\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "ps",
+        "-p",
+        "5687",
+        "-o",
+        "pid,lstart,args"
+      ],
+      "exit_code": 0,
+      "stdout": "    PID                  STARTED COMMAND\n   5687 Sun Sep  6 09:44:31 2026 codex\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "readlink",
+        "-f",
+        "/proc/5687/exe"
+      ],
+      "exit_code": 0,
+      "stdout": "/home/udt-admin/.codex/packages/standalone/releases/0.153.4-x86_64-unknown-linux-musl/bin/codex\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "nvidia-smi",
+        "--query-gpu=name,memory.total,memory.used,utilization.gpu",
+        "--format=csv,noheader"
+      ],
+      "exit_code": 0,
+      "stdout": "Tesla V100-PCIE-32GB, 32768 MiB, 4 MiB, 0 %\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "nvidia-smi",
+        "--query-compute-apps=pid,process_name,used_memory",
+        "--format=csv,noheader"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "findmnt",
+        "-T",
+        "/media/udt-admin/ScratchDisk",
+        "-o",
+        "TARGET,SOURCE,FSTYPE,OPTIONS"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "stat",
+        "-c",
+        "%n %F",
+        "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "stat: cannot statx '/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14': No such file or directory\n"
+    },
+    {
+      "argv": [
+        "lsblk",
+        "-o",
+        "NAME,FSTYPE,LABEL,SIZE,MOUNTPOINTS"
+      ],
+      "exit_code": 0,
+      "stdout": "NAME        FSTYPE   LABEL         SIZE MOUNTPOINTS\nloop0       squashfs                 4K /snap/bare/5\nloop1       squashfs             188.2M /snap/chromium/3499\nloop2       squashfs             193.4M /snap/chromium/3507\nloop3       squashfs                74M /snap/core22/2411\nloop4       squashfs                74M /snap/core22/2437\nloop5       squashfs              66.8M /snap/core24/1587\nloop6       squashfs              66.8M /snap/core24/1643\nloop7       squashfs              49.1M /snap/cups/1229\nloop8       squashfs              47.9M /snap/cups/1238\nloop9       squashfs             260.3M /snap/firefox/8763\nloop10      squashfs             261.1M /snap/firefox/8803\nloop11      squashfs             531.4M /snap/gnome-42-2204/247\nloop12      squashfs             531.5M /snap/gnome-42-2204/263\nloop13      squashfs             606.1M /snap/gnome-46-2404/153\nloop14      squashfs             614.5M /snap/gnome-46-2404/164\nloop15      squashfs              91.7M /snap/gtk-common-themes/1535\nloop16      squashfs               395M /snap/mesa-2404/1165\nloop17      squashfs               402M /snap/mesa-2404/1839\nloop18      squashfs              12.9M /snap/snap-store/1113\nloop19      squashfs              12.2M /snap/snap-store/1216\nloop20      squashfs              50.1M /snap/snapd/27591\nloop21      squashfs              50.1M /snap/snapd/27710\nloop22      squashfs               828K /snap/snapd-desktop-integration/387\nloop23      squashfs               828K /snap/snapd-desktop-integration/391\nsda                              461.9G \n\u2514\u2500sda1      vfat     USB321FD    461.9G /media/udt-admin/USB321FD\nnvme0n1                          931.5G \n\u251c\u2500nvme0n1p1 vfat                   512M /boot/efi\n\u2514\u2500nvme0n1p2 ext4                   931G /\nnvme1n1                            3.6T \n\u2514\u2500nvme1n1p1 ext4     ScratchDisk   3.6T \n",
+      "stderr": ""
+    }
+  ],
+  "session_meta": {
+    "id": "01a076f6-afa1-7411-87e7-82a25d358913",
+    "timestamp": "2026-09-06T13:44:33.447Z",
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "originator": "codex-tui",
+    "cli_version": "0.153.4",
+    "source": "cli",
+    "model_provider": "openai",
+    "forked_from_id": null
+  },
+  "instruction_check": {
+    "complete_match": true,
+    "disk_bytes": 14164,
+    "sha256": "b9c4e7a0d90c66868281ced3e96da3a16a19797a91cb100b64b4b85620ff2f34"
+  },
+  "turn_context": {
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "approval_policy": "on-request",
+    "sandbox_policy": {
+      "type": "workspace-write",
+      "network_access": false,
+      "exclude_tmpdir_env_var": false,
+      "exclude_slash_tmp": false
+    }
+  }
+}
