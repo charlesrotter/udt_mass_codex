@@ -1,0 +1,16 @@
+{
+  "command": "env PYTHONDONTWRITEBYTECODE=1 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 prlimit --as=536870912 --cpu=60 -- timeout 60s python3 -B -m pytest --noconftest -q tests/test_startup_surface.py -k 'not test_full_foundational_premise_verifier_is_in_pytest'",
+  "resource_limits": {
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "wall_timeout_seconds": 60
+  },
+  "capture_kind": "exact unified exec output; stdout/stderr not separately captured",
+  "result": {
+    "chunk_id": "dc473d",
+    "wall_time_seconds": 1.000998502,
+    "exit_code": 0,
+    "original_token_count": 28,
+    "output": "........................................................................ [ 67%]\n...................................                                      [100%]\n107 passed, 1 deselected in 1.47s\n"
+  }
+}

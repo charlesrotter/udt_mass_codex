@@ -1,0 +1,17 @@
+{
+  "command": [
+    "bash",
+    "-o",
+    "pipefail",
+    "-c",
+    "git show :udt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch | sha256sum"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T21:48:18.447385+00:00",
+  "duration_seconds": 0.00604001099782181,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12480
+}

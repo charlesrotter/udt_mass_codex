@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -25,10 +25,15 @@ readouts, and all physical identities remain distinct/open.
 
 ## Open gate
 
-MAP/PONDER whether any metric-native carried object realizes G352's required phase and conserved
-label measure. Keep the owner-provisional premises and chosen product factorization explicit; do
-not import a familiar light/energy/source/detector interpretation. Population, cross-label physics,
-realized history, matter, scale, `X_max`, and canon remain open.
+G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;
+integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.
+G352 physical identification remains OPEN. No fifth step or new campaign is authorized.
+Charles must choose the next direction; the recommendation is finite-readout common-measure
+constraints, with joint metric-probe realizability and lawful-data propagation as distinct alternatives.
+See `udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
+Do not demand unique initial/query data or hide an extra measurement rule in a definition.
+The central manuscript remains the fixed through-G352 edition, not current tracking.
+Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.
 
 Use `INDEX.md` for current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for historical
 startup surfaces. R2--R5 remain verified with caveats; 184,300 covariance rows are unresolved and

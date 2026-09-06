@@ -1,0 +1,16 @@
+{
+  "command": "env PYTHONDONTWRITEBYTECODE=1 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 prlimit --as=536870912 --cpu=60 -- timeout 60s python3 -B -m pytest --noconftest -q tests/test_startup_surface.py -k 'not test_full_foundational_premise_verifier_is_in_pytest'",
+  "resource_limits": {
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "wall_timeout_seconds": 60
+  },
+  "capture_kind": "exact unified exec output; stdout/stderr not separately captured",
+  "result": {
+    "chunk_id": "006a82",
+    "wall_time_seconds": 1.0006461759999998,
+    "exit_code": 1,
+    "original_token_count": 488,
+    "output": "........................................................................ [ 67%]\n...............................F...                                      [100%]\n=================================== FAILURES ===================================\n____________ test_active_orientation_surface_stays_readably_bounded ____________\n\n    def test_active_orientation_surface_stays_readably_bounded() -> None:\n        limits = {\n            \"AGENTS.md\": (225, 1950),  # Owner-requested bounded verification-cycle convention.\n            \"LIVE.md\": (135, 900),\n            \"HANDOFF.md\": (100, 600),\n                \"INDEX.md\": (118, 570),\n            \"MEMORY.md\": (70, 450),\n            \"CURRENT_RESEARCH_PROGRAM.md\": (155, 1100),\n                \"CURRENT_SCIENTIFIC_PREMISES.md\": (140, 1320),\n            \"README.md\": (100, 400),\n            \"research/README.md\": (80, 300),\n            \"research/_registry/README.md\": (80, 280),\n            \"INFLIGHT_STATE.md\": (40, 150),\n        }\n        for relative, (maximum_lines, maximum_words) in limits.items():\n            text = (REPO / relative).read_text(encoding=\"utf-8\")\n            lines = text.splitlines()\n            words = text.split()\n            assert len(lines) <= maximum_lines, (\n                f\"{relative} regrew to {len(lines)} lines (limit {maximum_lines})\"\n            )\n            assert len(words) <= maximum_words, (\n                f\"{relative} regrew to {len(words)} words (limit {maximum_words})\"\n            )\n            longest = max((len(line) for line in lines), default=0)\n>           assert longest <= 220, f\"{relative} contains a {longest}-character compressed line\"\nE           AssertionError: CURRENT_RESEARCH_PROGRAM.md contains a 306-character compressed line\nE           assert 306 <= 220\n\ntests/test_startup_surface.py:881: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_startup_surface.py::test_active_orientation_surface_stays_readably_bounded\n1 failed, 106 passed, 1 deselected in 1.54s\n"
+  }
+}

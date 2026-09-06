@@ -1,0 +1,113 @@
+{
+  "verdict": "PASS_BYTE_CORRESPONDENCE_ONLY",
+  "snapshot": "c92588ad31f3fd79868378e6e3a318af2de1235f",
+  "pin_sha256": "fd3f6a0551267e044df2396ae6039b3fcf372b21644804681417df9e40efd024",
+  "candidates": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "104cde45f01695faa06948eeff1e0b5ac0c621ec4b57060ba7ce26ffeb269a65",
+      "bytes": 15205
+    },
+    {
+      "path": "LIVE.md",
+      "sha256": "4f727c65ac63ad2f2b051667baeff05e767f7d24f5038d7bbd9de990094df1db",
+      "bytes": 7102
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "0dd2aabcbe1dbcc9d3a89d833bcbfd8178154c55f74ecc40e492bfbc4341affa",
+      "bytes": 4593
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "158ec7fb9dae0d02f715181555c96646f9543617372278ec2e3a525fd607a6f8",
+      "bytes": 5679
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "5106a0108c355617baa5d534f0f5b6056b36143e2c85ae57637e7a3a0e169862",
+      "bytes": 7554
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429",
+      "bytes": 734327
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "d29c4856bc7b7331040930b71fdd4b163db4efc4f815c5ec354c2897a6270eaa",
+      "bytes": 5379
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "3a148abb904483267607abb04c0ace8ba4d553c884ce4cede7a6e4649462abd7",
+      "bytes": 2597
+    },
+    {
+      "path": "verify_current_scientific_premises.py",
+      "sha256": "599d3e067a48492063c22f1b95b7ec4b8ede921fdd2eeb6af3127e416c5a77ab",
+      "bytes": 991893
+    },
+    {
+      "path": "tests/test_startup_surface.py",
+      "sha256": "44b1e682480f6878c63bd036a6ef5be72da97219dd8fa494141a0ed7b90407a4",
+      "bytes": 42685
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md",
+      "sha256": "871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540",
+      "bytes": 10603
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md",
+      "sha256": "fbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6",
+      "bytes": 9032
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md",
+      "sha256": "9ddd50c883801a513566f9ba1cbfaf7b6061ceae11b702e30282332321b3e903",
+      "bytes": 2992
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py",
+      "sha256": "11d8e4813af5631d5686a1f0a158998252ea3581ad974a5d1886e9ed82a403f1",
+      "bytes": 2290
+    }
+  ],
+  "old_registry_sha256": "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
+  "old_data_rows": 335,
+  "new_data_rows": 339,
+  "added_ids": [
+    "G353",
+    "G354",
+    "G355",
+    "G356"
+  ],
+  "campaign_payload_hashes": 350,
+  "exact_campaign_membership": 351,
+  "integration_payload_hashes": 9,
+  "exact_integration_membership": 10,
+  "preserved_fixed_files": [
+    {
+      "path": "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e"
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4"
+    },
+    {
+      "path": "CANON.md",
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    {
+      "path": "verify_metric_kernel_account.py",
+      "sha256": "e942eca174899db528732d00229ce84bdc92f7e9f30d5277f0fa8a037d2a5a59"
+    },
+    {
+      "path": "update_metric_kernel_account.py",
+      "sha256": "57de14340e6efce04bf29d4afc5d5e1b20c5281a8ff6b479cb36b90887601720"
+    }
+  ],
+  "full_premise_audit_run": false
+}

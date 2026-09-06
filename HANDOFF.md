@@ -4,12 +4,12 @@
 
 `LIVE.md` wins.
 
-## Resume anchor — 2026-09-05
+## Current handoff anchor — 2026-09-06
 
-Pre-reboot operational state is recorded in `RESTART_CHECKPOINT.md`. That checkpoint is a deployment
-and preservation record only: it does not change the scientific frontier below or authorize a new
-scientific solve. The owner performs the reboot/CLI update; a new Codex process then executes the
-post-restart phase of `UDT_Cold_Start_Rehearsal_and_Workstation_Restart.md` without resume or fork.
+Pre-reboot operational state remains recorded in `RESTART_CHECKPOINT.md`, not as scientific
+authority. Charles accepted the post-restart audit for repository-only bounded work. Backup
+completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks only
+archive-dependent work. No further disk operation or infrastructure refactor is authorized.
 
 Only on a supplied regular calibrated pair, `phi_pair=delta_AB` is `DERIVED_CONDITIONAL`; conditional
 `c_eff/c_E=exp(-2 delta_AB)` is not automatically signal speed. On a supplied regular germ,
@@ -36,7 +36,13 @@ G352 then provisionally types one continuous clock-rate readout. External R2 rep
 realization. Atomic crossings, `p=0`, other readouts, and every physical interpretation remain
 distinct or open.
 
-Authority: the exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+G353--G356 add owner-authorized conditional mathematical banking, VERIFIED-WITH-CAVEATS, for the
+completed four-step content-bridge campaign. Original frozen evidence remains unchanged.
+Source-bounded nonselection, optional symmetry/conversion limits, the harmonic-wave root/phase
+class, and the different-phase product criterion retain all assumptions and review limitations.
+CHOSEN recipes are not physical content/count laws. Banking integration/fidelity checks passed.
+
+Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
 Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
 covariance rows are unresolved, no preferred scale follows, and the raw archive is
@@ -49,10 +55,15 @@ Protected—do not stage, modify, mine, or cite without dispatch:
 - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`
 - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`
 
-Next: MAP/PONDER the G352 physical-realization remainder—whether any metric-native carried object
-supplies the phase and conserved label measure needed by the accepted conditional clock-rate
-readout. Keep the owner-provisional premises and chosen product explicit. Do not relabel the result
-as light, energy, brightness, detector response, source, or population; history, matter, scale,
-`X_max`, and canon stay open.
+Next: G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.
+The prior campaign is complete. The G352 physical-realization remainder is not closed:
+physical identification remains OPEN; no metric-native carried object is physically selected.
+Keep the owner-provisional premises, CHOSEN recipes and product explicit.
+Charles chooses the next direction; no new campaign is authorized. The proposal at
+`udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md` recommends finite-readout
+common-measure constraints over more compatibility examples, and gives two materially different
+alternatives. Ordinary initial/query data need not be uniquely selected; instrument identification
+may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
+frontier tracking. History, matter, scale, `X_max`, and canon stay open.
 
 <!-- STARTUP_CURRENT_END -->

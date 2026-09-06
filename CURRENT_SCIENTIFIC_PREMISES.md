@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -43,6 +43,10 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G350 | Nonunique local multiplicative family `T_(p,q)=R^p A^q`; weights/content/conservation unselected |
 | G351 | Conditional `T_p=R^p A^-1` for nonzero absolutely continuous regular density; `p` and physical content remain open |
 | G352 | Conditional `T_clock=R A^-1`; `(p,q)=(1,-1)` only for the chosen continuous clock-rate readout |
+| G353 | Conditional fixed-query type eligibility and nonselection; examined-source physical identification remains open |
+| G354 | Optional naturality fixes uniform shape, not coefficient; scoped whole-plane and scalar-conversion obstructions |
+| G355 | Local nonzero-root harmonic-wave phase class; positive CHOSEN recurrence conversion outside fixed-root closure |
+| G356 | Positive smooth fixed-label product iff criterion; different-phase finite geometric realizations and conserved nonfactorizing failure |
 
 G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
 premise, not a metric derivation: a standard finite nonnegative countably additive measure on
@@ -61,6 +65,16 @@ instantaneous rate; `p=0` and other readouts remain distinct. The phase, source,
 physical carried object, detector, light/energy meaning, history, and scale remain supplied or open.
 
 ## Scale, carrier, action, and observations
+
+G353--G356 are owner-authorized BANKED_DERIVED_CONDITIONAL results, VERIFIED-WITH-CAVEATS,
+with completed integration/fidelity checks. They adopt no physical premise or recipe and establish no
+physical counting. Their exact original CB claims, local domains, optional naturality/weight/global
+hypotheses, supplied data and review limitations are controlled by
+`udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md` and its unchanged source campaign.
+In G356 existence of some aligned phase differs from compatibility with an already fixed phase.
+The positive construction uses a DIFFERENT phase, not a repaired original curvature root.
+Pointwise q=0 is not closure throughout a region. Model identities are UNKNOWN and different-model/
+human-specialist review remains UNTESTED. No prior registry grade or physical premise changes.
 
 | Object | Status | Guard |
 |---|---|---|

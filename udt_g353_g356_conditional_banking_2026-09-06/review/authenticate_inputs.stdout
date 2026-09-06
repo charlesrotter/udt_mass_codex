@@ -1,0 +1,164 @@
+{
+  "verdict": "PASS_BYTE_CORRESPONDENCE_ONLY",
+  "snapshot": "c92588ad31f3fd79868378e6e3a318af2de1235f",
+  "metadata": {
+    "head": "c92588ad31f3fd79868378e6e3a318af2de1235f",
+    "branch": "grok"
+  },
+  "sources": [
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md",
+      "bytes": 10282,
+      "sha256": "d121a132d6cec1ae8a70798f9d1b6ba358c9250fff9ad4f44d0bb9580d13811c",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/REVIEW_RECORD.md",
+      "bytes": 2243,
+      "sha256": "02594a10198bb6f9c61f0bb6e7f6f4bb81d21f10725c978c30eeed061c9c673b",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md",
+      "bytes": 13777,
+      "sha256": "7366f388587ab9b2506ee9c2645d0b89c59d10968a73a8dbb2776e203c97ceee",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md",
+      "bytes": 9480,
+      "sha256": "affb80d6e40fddb06465c9dc7bf11b5fa52bb3c5d14efb3d06daa3e84423925e",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/REVIEW_RECORD.md",
+      "bytes": 1678,
+      "sha256": "62f9691324030e1fce9cfe8be96ed12f9987ea3d1fcd6122d19154b3bdab65d1",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_02/review/STAGE_B_ADVERSARIAL_REVIEW.md",
+      "bytes": 15199,
+      "sha256": "c151956601b855a3d7295ee51a97d4b4435d84f65954ccbc7e1c02eb0174f097",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md",
+      "bytes": 9998,
+      "sha256": "a007c5a4e34012698687e81a43a13692a2f3799df3db963370b33c3aa92bd3bb",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/REVIEW_RECORD.md",
+      "bytes": 2118,
+      "sha256": "d95f6b0cd0e1abbfd4734104cf13af4127a2b88382b3c2b1cb27663043d11866",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/STAGE_B_ADVERSARIAL_REVIEW.md",
+      "bytes": 16553,
+      "sha256": "28462569691deaea5467f4c76a22363861a4b6a72d057f2b9db0a1a1b8bc6843",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md",
+      "bytes": 10246,
+      "sha256": "1ba59226944652bc4cc444f20d26c4fc9b9c80e1beea8a842be8151d64395849",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/REVIEW_RECORD.md",
+      "bytes": 2349,
+      "sha256": "e89cf5131c7abfc26a2a25aa4c84e4a0919ce50ceae8ba2d3005fdf6d85d7b88",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review/STAGE_B_ADVERSARIAL_REVIEW.md",
+      "bytes": 14539,
+      "sha256": "0339451ddac6774fbf032af39a29c29e4397a853bbbc1619c51b98025e33b3f1",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/DECISION_BRIEF.md",
+      "bytes": 9654,
+      "sha256": "698038549df858d577e27bb37c008f51f100a9292a3062f1355f7a09740a8361",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_g352_content_bridge_campaign_2026-09-06/ARTIFACT_SHA256SUMS",
+      "bytes": 37949,
+      "sha256": "048e2870eb229943d029c8383ae82c5609a0d3e1e77c4d910916e4b3ece87dcb",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+      "bytes": 7616,
+      "sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+      "bytes": 7786,
+      "sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/AUDIT_REPORT.md",
+      "bytes": 3366,
+      "sha256": "b264f4a8959a557884f3e6a668aab68d2831b477caf693f95db7b524c01bd279",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+      "bytes": 5647,
+      "sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/AUDIT_REPORT.md",
+      "bytes": 2336,
+      "sha256": "25448d5586d268cfec20b403ff77b6d344903b5d9974fb3376900cba0578c125",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md",
+      "bytes": 3689,
+      "sha256": "975fb68b053c2a11c373677544374e448f2ce84b265d860bb2c1e723d2595d6c",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md",
+      "bytes": 3055,
+      "sha256": "d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g335_local_pair_response_persistence_2026-09-03/AUDIT_REPORT.md",
+      "bytes": 1851,
+      "sha256": "f534ae0e2a4e1ae580870f747aa852404dbeb55fa1adccf08ec8491dfd097905",
+      "equals_snapshot": true
+    },
+    {
+      "path": "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
+      "bytes": 1805,
+      "sha256": "2994b28b0436a56c99e748920c41859bd7dfee3f7703733bd77c786132a51175",
+      "equals_snapshot": true
+    }
+  ],
+  "candidates": [
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md",
+      "bytes": 10603,
+      "sha256": "871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540",
+      "equals_initial_pin": true
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md",
+      "bytes": 9032,
+      "sha256": "fbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6",
+      "equals_initial_pin": true
+    }
+  ],
+  "science_recomputed": false,
+  "full_premise_audit_run": false
+}

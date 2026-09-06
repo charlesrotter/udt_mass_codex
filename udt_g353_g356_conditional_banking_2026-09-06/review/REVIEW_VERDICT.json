@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/banking_brief_fidelity_review",
+  "date": "2026-09-06",
+  "verdict": "FIDELITY_REVIEWED_WITH_CAVEATS",
+  "required_defects": [],
+  "required_repair": null,
+  "scope": "Initial BANKING_RECORD.md and NEXT_CAMPAIGN_DECISION_BRIEF.md exact draft bytes only",
+  "source_snapshot": "c92588ad31f3fd79868378e6e3a318af2de1235f",
+  "banking_sha256": "871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540",
+  "brief_sha256": "fbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6",
+  "context": "fresh separate context",
+  "model": "UNKNOWN",
+  "different_model": "UNTESTED",
+  "science_reproved_or_recomputed": false,
+  "full_premise_audit_run": false,
+  "source_files_authenticated": 23,
+  "candidate_files_authenticated": 2,
+  "recommendation_distinct_from_transfer_formula": true,
+  "measurement_interface_explicitly_open": true,
+  "new_campaign_authorized": false,
+  "physical_premise_or_canon_adopted": false,
+  "final_integration_followup": "PENDING"
+}

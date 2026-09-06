@@ -1,0 +1,501 @@
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.tsv b/CURRENT_SCIENTIFIC_PREMISES.tsv
+index edd0fe65..6f906216 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.tsv
++++ b/CURRENT_SCIENTIFIC_PREMISES.tsv
+@@ -1,4 +1,8 @@
+ premise_id	term	current_status	epistemic_label	active_use	open_scope	forbidden_regression	controlling_source	precedence_rule
++G356	fixed_label_aligned_phase_geometric_product_compatibility	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	CB4_PRODUCT_CB4_WITNESS_CB4_FAILURE_DATA__G353_G355_CONDITIONAL_DEPENDENCIES__CHOSEN_WEYL_FIRST_DUAL_ROOT_AND_RECURRENCE_CURRENT_D_EQUALS_Q_BETA_SHARP__SMOOTH_LOCAL_HARMONIC_WAVE_METRIC__B_POSITIVE_Q_POSITIVE_CONNECTED_PRODUCT_I_TIMES_V__FIXED_CROSS_PHASE_LABELS_AND_NULL_RAYS__DIFFERENT_ALIGNED_PHASE_DTHETA_EQUALS_MINUS_KAPPA_U_DU__POSITIVE_FIXED_SPACING_DELTA__ONE_PHASE_INDEPENDENT_MEASURE_EXISTS_IFF_W_EQUALS_KAPPA_U_S_Z_OVER_DELTA_IFF_MIXED_U_TRANSVERSE_LOG_W_DERIVATIVES_VANISH__FOR_ALREADY_FIXED_KAPPA_REQUIRE_W_OVER_KAPPA_PHASE_INDEPENDENT__SUPPLIED_COMPACT_REGULAR_FINITE_PATCH_OR_SEPARATE_INTEGRABILITY__POSITIVE_STATIONARY_AND_FACTORIZED_NONSTATIONARY_WITNESSES__MIXED_CUBIC_QUARTIC_WITNESS_HAS_MIXED_DERIVATIVE_FIVE_DESPITE_CONSERVATION__GAMMA_EQUALS_W_U_U_EQUALS_MINUS_G_U_D__CONDITIONAL_GEOMETRIC_CONTINUOUS_INTENSITY_ONLY	physical identification remains OPEN; recipe and coefficient selection; phase origin normalization and spacing; cross-phase label identity and support; supplied observers and integrability of integrated frequency-weighted rates; other phases labels null families geometries singular or atomic measures and readouts; physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; geometric dimensionless amount called physical count or population; different phase called original curvature root or another root of fixed B; changing phase alone at fixed Delta while holding D fixed called fixed-mu affine gauge; conservation called sufficient for fixed-label product; local failure universalized to every G352 realization; noncompact finiteness or observer-weighted integrability assumed; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md	G356_BANKS_ONLY_CB4_PRODUCT_CB4_WITNESS_CB4_FAILURE_DATA_FROM_FROZEN_STEP_04_CANDIDATE_ARGUMENT_AND_REVIEW_RECORD_WITH_DIRECT_ADVERSARIAL_REVIEW__G351_G352_OWNER_PROVISIONAL_STAMPS_AND_CHOSEN_PRODUCT_REMAIN__FIXED_LABEL_POSITIVE_SMOOTH_CONNECTED_PRODUCT_QUANTIFIERS_RETAINED__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
++G355	harmonic_wave_chosen_root_phase_class_and_recurrence_conversion_boundary	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	CB3_ROOT_CB3_PHASE_CLASS_CB3_CONVERSION_BOUNDARY__CHOSEN_WEYL_FIRST_DUAL_RECIPE__SUPPLIED_SMOOTH_LOCAL_HARMONIC_WAVE_METRIC_G_EQUALS_MINUS_TWO_DU_DV_PLUS_DX2_PLUS_DY2_PLUS_H_DU2__H_XX_PLUS_H_YY_EQUALS_ZERO__CONNECTED_TRANSVERSE_PATCH_AND_NONZERO_ROOT_N_EQUALS_H_XX_SQUARED_PLUS_H_XY_SQUARED__B_EQUALS_N_DU_TENSOR4__BETA_EQUALS_MINUS_N_ONE_QUARTER_DU__ROOT_CURRENT_CONSERVED_AND_AFFINELY_GEODESIC__ROOT_CLOSED_ON_PATCH_IFF_H_TRANSVERSELY_QUADRATIC_PLUS_AFFINE_WITH_TRACEFREE_M_U__OPTIONAL_LOCAL_NATURAL_SMOOTH_SCALAR_WEIGHT_MINUS_TWO_CLASS_WITH_NO_EXTRA_OBSERVER_BOUNDARY_SCALE_VANISHES_ON_PHASE_COMPATIBLE_CLASS__CHOSEN_RECURRENCE_ALPHA_AND_Q_EQUALS_G_INVERSE_ALPHA_ALPHA_NONNEGATIVE__POINTWISE_Q_ZERO_IFF_POINTWISE_D_BETA_ZERO__CUBIC_WITNESS_HAS_POSITIVE_Q_AND_NONCLOSED_ROOT__G354_SYMMETRY_HYPOTHESES_CHECKED_LOCALLY	physical identification remains OPEN; selected recipe and coefficient; other metric classes constructions or phases; nonzero-root extension and regularity through zeros; non-scalar or differently typed conversions and extra data; global completion and physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; conservation or affine geodesicity called phase closure; closed root called parallel without b_u zero; pointwise zero called closure on a neighborhood; supplied u intervals called primitive of nonclosed root; scalar obstruction universalized beyond its naturality homothety and class hypotheses; local symmetries called global physical completion; positive geometric conversion called physical count identity; different phase called same fixed-B root; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md	G355_BANKS_ONLY_CB3_ROOT_CB3_PHASE_CLASS_CB3_CONVERSION_BOUNDARY_FROM_FROZEN_STEP_03_CANDIDATE_ARGUMENT_AND_REVIEW_RECORD_WITH_DIRECT_ADVERSARIAL_REVIEW__BOUNDED_PHASE_COORDINATE_INTERVALS_MEANS_SUPPLIED_U_INTERVALS_NOT_PRIMITIVE_OF_NONCLOSED_ROOT__POINTWISE_AND_OPEN_PATCH_CLOSURE_DISTINGUISHED__INHERITED_OWNER_PROVISIONAL_VACUUM_ARENA_NOT_HISTORY_SELECTION__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
++G354	constant_plane_wave_natural_aligned_measure_and_optional_scalar_obstructions	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	CB2_SHAPE_CB2_FINITE_CB2_CONVERSION__G353_REDUCED_QUERY_AND_ORIGINAL_CHOSEN_RECIPE_CONDITIONAL__CONSTANT_REAL_A_NONZERO_PLANE_WAVE_WITH_SUPPLIED_TIME_ORIENTATION_PHASE_SPACING__OPTIONAL_LOCAL_RESTRICTION_COMPATIBLE_NATURAL_SCALAR_ASSIGNMENT_FROM_METRIC_BETA_DELTA_AND_ORIENTATION_ONLY__ALIGNED_SMOOTH_NONNEGATIVE_PHASE_INDEPENDENT_C_EQUALS_F_C0_CLASS__SYMMETRIES_FORCE_F_CONSTANT_K_NONNEGATIVE_BUT_SELECT_NO_COEFFICIENT__SUPPLIED_FINITE_AREA_PATCH_RETAINS_NONZERO_FINITE_AREA_VALUED_MEASURE__SEPARATE_COMPLETE_R2_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_BOREL_MEASURE_INVARIANT_UNDER_ALL_TRANSLATIONS_IS_ZERO__OPTIONAL_LOCAL_NATURAL_SMOOTH_SCALAR_WEIGHT_MINUS_TWO_UNDER_CONSTANT_METRIC_HOMOTHETY_WITH_BETA_DELTA_FIXED_AND_NO_EXTRA_DIMENSIONAL_DATA_IS_ZERO	physical identification remains OPEN; physical naturality or count interpretation and coefficient; other current classes geometries nonlocal or nonscalar conversions; supplied boundaries observers material lengths finite windows and different global geometry; physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; optional naturality count conversion or whole-plane finiteness called G351 G312 or physical premise; fixed-recipe unique root used to select carried-current coefficient; global finite invariant-plane zero result applied to locally finite area measure or supplied finite patch; component A called invariant scalar; observer-dependent rebuilt measure called same fixed query; scoped scalar obstruction called universal no-go or proof a new premise is necessary; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md	G354_BANKS_ONLY_CB2_SHAPE_CB2_FINITE_CB2_CONVERSION_FROM_FROZEN_STEP_02_CANDIDATE_ARGUMENT_AND_REVIEW_RECORD_WITH_DIRECT_ADVERSARIAL_REVIEW__GLOBAL_FINITE_COMPLETE_PLANE_HYPOTHESES_ARE_SEPARATE_FROM_SUPPLIED_FINITE_QUERY__OPTIONAL_NATURALITY_AND_COUNT_CONVERSION_CLASSES_NOT_ADOPTED_PHYSICS__SUPPLEMENTARY_REVIEWER_BOREL_CLASSIFICATION_NOT_BANKED_AS_AUTHOR_DEPENDENCY__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
++G353	chosen_geometric_amount_type_eligibility_and_source_bounded_query_nonselection	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	CB1_TYPE_CB1_FREEDOM_CB1_SOURCE_BOUNDARY__CONDITIONAL_ORIGINAL_UNPROMOTED_CHOSEN_WEYL_FIRST_DUAL_RECIPE_ON_CONSTANT_REAL_A_NONZERO_PLANE_WAVE__SUPPLIED_TIME_ORIENTATION_PHASE_SPACING_FIXED_LABELS_FINITE_AREA_PATCH_CUTS_AND_OBSERVERS__G351_G352_OWNER_PROVISIONAL_CONSERVATION_AND_READOUT_WITH_CHOSEN_PHASE_INDEPENDENT_PRODUCT__SMOOTH_NONNEGATIVE_INTEGRABLE_TRANSVERSE_F_GIVES_MU_F_EQUALS_DELTA_F_DXDY_AND_C_F_EQUALS_F_C0__NONZERO_FIXED_QUERY_COUNTERCOMPLETIONS_F_ONE_AND_TWO_PRESERVE_TRANSFER_BUT_CHANGE_AMOUNT__TYPE_ELIGIBILITY_DOES_NOT_IDENTIFY_PHYSICAL_CONTENT__AREA_VALUED_AMOUNT_IS_NOT_AUTOMATICALLY_DIMENSIONLESS_COUNT__SOURCE_BOUNDED_NONSELECTION_ONLY	physical identification remains OPEN; recipe selection and coefficient; normalization distribution support and populated labels; amount or count meaning and justified conversion; accepted-source bridges beyond examined sources and coupled source matter response; physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; type eligibility conservation covariance or correct transfer exponent called physical identity; reduced-query completions called physically populated coupled UDT universes; f C0 called another fourth root of fixed B; phase dependent or observer rebuilt measure called same phase-independent fixed query; common phase-spacing affine gauge used to rebuild mu; area units called dimensionless count; source-bounded nonselection called universal no-go or proof a new premise is necessary; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md	G353_BANKS_ONLY_CB1_TYPE_CB1_FREEDOM_CB1_SOURCE_BOUNDARY_FROM_FROZEN_STEP_01_CANDIDATE_ARGUMENT_AND_REVIEW_RECORD_WITH_DIRECT_ADVERSARIAL_REVIEW__ORIGINAL_C19B5FB1_CURVATURE_RECIPE_REMAINS_AN_EXPLICIT_CONDITIONAL_DEPENDENCY_NOT_SEPARATELY_PROMOTED__G351_G352_OWNER_PROVISIONAL_STAMPS_RETAINED__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
+ G352	continuous_phase_clock_rate_carried_measure_readout	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PREMISE__PREREGISTERED_AT_F5EE3393__R1_SIGN_REPAIR_PREREGISTERED_AT_14AFC199__R2_REPAIRS_PREREGISTERED_AT_B0BC9F24__FRESH_REVIEW_REPAIR_RETURNED__SEALED_R2_GPT56SOL_AUTHENTICATED_42_PAYLOADS_IN_EXACT_44_FILE_INTAKE__R2_REPAIR_COMPLETION_ACCEPTED__103648_OF_103648_PRODUCTION_OVER_2400_DISTINCT_STATES__73889_OF_73889_IMPLEMENTATION_DISTINCT_OVER_2700_DISTINCT_STATES__18_OF_18_HOSTILE__49_OF_49_FINAL_AGGREGATE__OWNER_PROVISIONAL_CLOCK_RATE_READOUT__CHOSE_CONTINUOUS_TOTAL_PHASE_VARIATION_AND_PHASE_INDEPENDENT_NONNEGATIVE_PRODUCT_MEASURE__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_GAMMA_EQUALS_OMEGA_OVER_DELTATHETA_TIMES_S_OVER_J__T_CLOCK_EQUALS_R_A_INVERSE__P_EQUALS_ONE_AND_Q_EQUALS_MINUS_ONE_UNIQUE_ONLY_FOR_THIS_READOUT_IN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN__ATOMIC_CROSSINGS_P_ZERO_AND_OTHER_READOUTS_REMAIN_DISTINCT__MEASURE_VALUED_CAUSTIC_FORM_FINITE_ONLY_UNDER_FREQUENCY_INTEGRABILITY__EXECUTABLE_COUNTS_REGRESSION_NOT_ANALYTIC_PROOF__UNSIGNED_COSEALED_MANIFEST_NOT_TRUSTED_ORIGIN_OR_TIMESTAMP__NO_LIGHT_ENERGY_DETECTOR_DISTANCE_SOURCE_POPULATION_HISTORY_MATTER_MASS_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED	MIXED	OWNER_ADOPTED_PROVISIONAL_CLOCK_RATE_READOUT__EXPLICITLY_CHOSEN_CONTINUOUS_TOTAL_PHASE_VARIATION_ON_SUPPLIED_NONZERO_FUTURE_RAISED_NULL_PHASE_GRADIENT__FIXED_POSITIVE_COMMON_PHASE_SPACING__EXPLICIT_PRODUCT_MEASURABLE_SPACE_WITH_SAME_PHASE_INDEPENDENT_G351_LABEL_MEASURE_AND_NO_PHASE_LABEL_CORRELATION__COMMON_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_SUPPORT__ARBITRARY_FINITE_FUTURE_TIMELIKE_LOCAL_OBSERVERS__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__COMMON_POSITIVE_AFFINE_PHASE_RESCALE__IDENTITY_COMPARISON_REVERSAL_AND_THREE_CUT_SEWING__MEASURABLE_FREQUENCY_INTEGRABLE_WEIGHTED_PUSHFORWARD_THROUGH_RANK_LOSS	physical identity and realization of any carried content; literal atomic event averaging interpolation or coarse graining; emission absorption source magnitude support and populated labels; phase dependent or correlated label content; cross-label aggregation interference and detector law; light photon energy brightness flux luminosity distance and observations; global worldlines path population route selection history occupancy topology matter mass action stability absolute scale physical Xmax and canon	continuous total-phase intensity called literal atomic crossing rate; chosen product sigma algebra or phase-independent factorization called derived from G351 metric reciprocity DDR or owner premise; p=1 universalized beyond this readout or chosen from familiar light formulas; p=0 atomic crossings singular content or other readouts silently excluded; ordinary finite density required at caustic; frequency-weighted measure called finite without measurability and integrability; local observer tangent promoted to global interception worldline; zero source made nonzero; preimage multiplicity promoted to detector physics; assertion counts called analytic proof; unsigned co-seal called trusted provenance or timestamp; light energy detector distance source population history matter mass scale Xmax canon or protected work imported	udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md	G352_EXTERNAL_R2_REPAIR_FOLLOWUP_ACCEPTS_THE_BOUNDED_CONTINUOUS_PHASE_CLOCK_RATE_READOUT__OWNER_PROVISIONAL_READOUT_PLUS_EXPLICIT_CHOSEN_NONNEGATIVE_PHASE_LABEL_PRODUCT_GIVES_GAMMA_EQUALS_OMEGA_OVER_DELTATHETA_TIMES_S_OVER_J_AND_T_CLOCK_EQUALS_R_A_INVERSE__P_EQUALS_ONE_Q_EQUALS_MINUS_ONE_ONLY_FOR_THIS_READOUT_IN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN__ATOMIC_CROSSINGS_P_ZERO_OTHER_READOUTS_PHYSICAL_IDENTITY_SOURCE_POPULATION_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_AND_CANON_REMAIN_DISTINCT_OR_OPEN__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G352_SOURCE__CONFLICT_MEANS_STOP
+ G351	source_free_labelwise_carried_measure_conservation	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_ON_OWNER_ADOPTED_PROVISIONAL_PREMISE__PREREGISTERED_AT_42E48241__R1_R5_REPAIRS_PREREGISTERED_BEFORE_EXECUTION__FRESH_GPT56SOL_AUTHENTICATED_42_PAYLOADS_IN_EXACT_44_FILE_INTAKE__INDEPENDENT_ANALYTIC_RECONSTRUCTION_AND_45_OF_45_REPLAY__60325_OF_60325_PRODUCTION__11290_OF_11290_IMPLEMENTATION_DISTINCT__12_OF_12_HOSTILE__STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_LABEL_MEASURE__NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_N_EQUALS_S_OVER_J__AREA_TRANSFER_A_INVERSE__WITHIN_G350_FULL_INDEPENDENT_POSITIVE_CHARACTER_DOMAIN_T_P_EQUALS_R_TO_P_A_INVERSE_AND_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY_DECLARED_OBSERVER_WEIGHT__FINITE_MEASURE_AND_PUSHFORWARD_SURVIVE_CAUSTIC_RANK_LOSS__SINGULAR_PART_HAS_NO_ORDINARY_DENSITY_EXPONENT__EXECUTABLE_COUNTS_ARE_REGRESSION_EVIDENCE_NOT_ANALYTIC_PROOF__DOCUMENTARY_CHRONOLOGY_NOT_TRUSTED_TIMESTAMP__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED	MIXED	OWNER_ADOPTED_PROVISIONAL_SOURCE_FREE_LABELWISE_CONSERVATION_OF_ONE_STANDARD_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_MEASURE_ON_SUPPLIED_MEASURABLE_LABEL_SPACE__REGULAR_CUTS_WITH_FINITE_POSITIVE_TWO_DIMENSIONAL_METRIC_AREA_JACOBIAN__NONZERO_ABSOLUTELY_CONTINUOUS_COMPONENT_ONLY_FOR_Q_EQUALS_MINUS_ONE__DIVISION_FREE_ZERO_DENSITY_LAW_RETAINED__FULL_G350_INDEPENDENT_POSITIVE_R_A_CHARACTER_DOMAIN__ALL_REAL_DECLARED_OBSERVER_WEIGHTS_P_RETAINED__MEASURABLE_PUSHFORWARD_RETAINS_PREIMAGE_MULTIPLICITY_THROUGH_CAUSTICS__SINGULAR_CONTENT_REMAINS_MEASURE_VALUED	physical identity and observer weight p of any carried readout; source magnitude support and populated labels; local balance and sourced evolution; signed complex or field-valued content; cross-label aggregation interference and detector law; emission absorption light photon energy brightness flux luminosity probability and distance; route germ history topology occupancy matter mass action stability observations scale physical Xmax and canon	conservation called derived from metric reciprocity or DDR; measure weakened to merely finitely additive while retaining Radon Nikodym claims; q=-1 widened to zero singular or caustic density; p selected by conservation covariance habit or observation; nonzero content or label population generated; measure pushforward called finite pointwise density or geometric image-union area; preimage multiplicity called detector addition interference or cross-label physics; large executable counts or implementation distinction called analytic or proof-independent completeness; documentary chronology called trusted timestamp; light transfer distance source matter history scale Xmax canon or protected work imported	udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md	G351_FRESH_EXTERNAL_GPT56SOL_ACCEPTS_THE_BOUNDED_CARRIED_MEASURE_CONSERVATION_RESULT__OWNER_PROVISIONAL_STANDARD_COUNTABLY_ADDITIVE_SOURCE_FREE_LABEL_MEASURE_GIVES_NONZERO_ABSOLUTELY_CONTINUOUS_REGULAR_DENSITY_AREA_WEIGHT_Q_EQUALS_MINUS_ONE__P_REMAINS_ARBITRARY__FULL_FINITE_MEASURE_SURVIVES_CAUSTIC_PUSHFORWARD_WHILE_SINGULAR_CONTENT_HAS_NO_ORDINARY_DENSITY_EXPONENT__NO_SOURCE_POPULATION_CROSS_LABEL_PHYSICS_LIGHT_DISTANCE_HISTORY_SCALE_XMAX_MATTER_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G351_SOURCE__CONFLICT_MEANS_STOP
+ G350	frequency_area_carried_content_ownership	EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED_AFTER_PREREGISTERED_R1_R4_REPAIRS__PREREGISTERED_AT_2B050A38__FRESH_GPT56SOL_AUTHENTICATED_37_PAYLOADS_AND_ACCEPTED_WITH_TWELVE_PRECISION_AND_EVIDENCE_CAVEATS__R1_R4_REPAIRS_PREREGISTERED_BEFORE_EXECUTION__REPAIR_FOLLOWUP_AUTHENTICATED_48_PAYLOADS_AND_ACCEPTED_WITH_NO_REMAINING_DEFECT_OR_SCIENTIFIC_REGRESSION__120010_FROZEN_PRODUCTION_CHECKS__35295_IMPLEMENTATION_DISTINCT_EXACT_FORMULA_CHECKS__HISTORICAL_25_OF_25_ROUTE_LIMITED_TO_HARD_CODED_CONTRACT_ENUMERATION__14_OF_14_SEMANTIC_MUTANTS__4000_OF_4000_REPAIR_NUMERICS_WITH_2000_WIDE_LOG_CASES__33_OF_33_FINAL_AGGREGATE_NO_WRITE_GATES__CONTINUOUS_POSITIVE_LOCAL_TWO_RATIO_MULTIPLICATIVE_CLASS_ON_FULL_ABSTRACT_RPLUS_SQUARED_DOMAIN__T_EQUALS_R_TO_P_A_TO_Q_FOR_ARBITRARY_REAL_P_Q__IDENTITY_REVERSAL_SEWING_AND_OBSERVER_COVARIANCE_SELECT_NO_WEIGHT__INVERSE_AREA_REQUIRES_NEW_UNADOPTED_CONSERVATION_PREMISE__NONZERO_SOURCE_CAUSTIC_CONTINUATION_AND_CROSS_LABEL_AGGREGATION_REMAIN_SUPPLIED_OR_OPEN__NO_CARRIED_FIELD_LIGHT_FLUX_LUMINOSITY_DISTANCE_HISTORY_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED	MIXED	ACTIVE_BOUNDED_ONE_SUPPLIED_RETAINED_PATH_LABEL__COMMON_POSITIVE_SCREEN_RANK_TWO_STRATUM__POSITIVE_METRIC_FREQUENCY_RATIO_R_AND_METRIC_SHEET_AREA_RATIO_A__CONTINUOUS_POSITIVE_LOCAL_SCALAR_MULTIPLIER__IDENTITY_REVERSAL_AND_EXACT_MULTIPLICATIVE_SEWING_FOR_EVERY_PAIR_ON_CHOSEN_FULL_ABSTRACT_RPLUS_SQUARED_DOMAIN__ALL_REAL_CHARACTER_WEIGHTS_P_Q_RETAINED__OBSERVER_COVARIANCE_TYPED_AS_ONE_DIMENSIONAL_WEIGHT_REPRESENTATION__CONSISTENTLY_ENDPOINT_ASSIGNED_POSITIVE_ZERO_CHAINS_RETAINED_AS_BROADER_COBOUNDARY_FREEDOM__ONE_SIDED_CAUSTIC_LIMIT_ONLY_UNDER_POSITIVE_DENOMINATOR_AND_FINITE_NONZERO_FREQUENCY_RATIO	physical identity of carried object or field and its nonzero source value or angular distribution; physical frequency weight p; conservation or local balance selecting area weight q; caustic continuation simultaneous-zero limits and cross-label aggregation; nonlocal additive interacting phase or field-valued transfer classes; emission absorption detector brightness flux luminosity probability and observational distance; physical ray route observer germ path-label population and weighting; selected metric history topology occupancy stability source action matter mass scale physical Xmax observations and canon	continuous local two-ratio character classification called unique physical transfer or light law; p selected by observer covariance; q=-1 inferred without the explicitly new conservation premise; zero source claimed to generate nonzero content; endpoint factor allowed to depend on comparison partner while called a sewing coboundary; one-sided caustic limit widened to division at zero or simultaneous-zero classification; path labels summed weighted or populated physically; abstract domain witness called realized metric data; historical hard-coded contract route called semantic hostile proof; implementation-distinct exact formula checks called completeness proof; mixed normalized diagnostic called relative error; internal checksum or documentary Git chronology called external signature or trusted timestamp; general Lorentzian geometry called uniquely UDT; photon energy transfer distance fit source matter mass scale Xmax canon or protected work imported	udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md	G350_EXTERNAL_REPAIR_FOLLOWUP_ACCEPTS_R1_R4_AND_THE_BOUNDED_FREQUENCY_AREA_CARRIED_CONTENT_OWNERSHIP_CLASSIFICATION__EVERY_CONTINUOUS_POSITIVE_LOCAL_TWO_RATIO_MULTIPLICATIVE_RULE_ON_THE_CHOSEN_FULL_ABSTRACT_DOMAIN_IS_R_TO_P_A_TO_Q_WITH_ARBITRARY_REAL_WEIGHTS__RECIPROCITY_SEWING_AND_OBSERVER_COVARIANCE_SELECT_NO_WEIGHT__INVERSE_AREA_REQUIRES_A_NEW_UNADOPTED_CONSERVATION_PREMISE__SOURCE_CAUSTIC_AND_LABEL_AGGREGATION_REMAIN_SUPPLIED_OR_OPEN__NO_CARRIED_FIELD_LIGHT_FLUX_LUMINOSITY_DISTANCE_HISTORY_SCALE_XMAX_OR_CANON__LIVE_THEN_THIS_REGISTRY_THEN_CITED_G350_SOURCE__CONFLICT_MEANS_STOP
+diff --git a/tests/test_startup_surface.py b/tests/test_startup_surface.py
+index 70542030..065cc4d9 100644
+--- a/tests/test_startup_surface.py
++++ b/tests/test_startup_surface.py
+@@ -102,6 +102,7 @@ CURRENT_TARGETS = (
+     "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+     "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+     "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
++    premise_guard.CONDITIONAL_BANKING_SOURCE,
+     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+ )
+@@ -142,6 +143,7 @@ def _startup_copy(tmp_path: Path) -> Path:
+         if relative in (
+             "CURRENT_SCIENTIFIC_PREMISES.tsv",
+             "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
++            premise_guard.CONDITIONAL_BANKING_SOURCE,
+         ):
+             shutil.copy2(REPO / relative, destination)
+         else:
+@@ -184,6 +186,92 @@ def _replace(path: Path, old: str, new: str) -> None:
+     path.write_text(text.replace(old, new), encoding="utf-8")
+ 
+ 
++def _banking_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
++    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.CONDITIONAL_BANKING_SOURCE):
++        destination = tmp_path / relative
++        destination.parent.mkdir(parents=True, exist_ok=True)
++        shutil.copy2(REPO / relative, destination)
++    if evidence:
++        campaign = premise_guard.CONDITIONAL_BANKING_CAMPAIGN
++        shutil.copytree(REPO / campaign, tmp_path / campaign)
++        for step in range(1, 5):
++            manifest = REPO / campaign / f"step_{step:02d}/SOURCE_SHA256SUMS"
++            for line in manifest.read_text().splitlines():
++                _, relative = line.split(maxsplit=1)
++                if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv":
++                    continue
++                destination = tmp_path / relative
++                destination.parent.mkdir(parents=True, exist_ok=True)
++                shutil.copy2(REPO / relative, destination)
++    return tmp_path
++
++
++def _change_registry_field(root: Path, premise_id: str, field: str, value: str) -> None:
++    path = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
++    lines = path.read_text().splitlines(keepends=True)
++    index = lines[0].rstrip("\n").split("\t").index(field)
++    matching = [i for i, line in enumerate(lines) if line.startswith(premise_id + "\t")]
++    assert len(matching) == 1
++    row_number = matching[0]
++    fields = lines[row_number].rstrip("\n").split("\t")
++    fields[index] = value
++    lines[row_number] = "\t".join(fields) + "\n"
++    path.write_text("".join(lines))
++
++
++def test_conditional_banking_frozen_evidence_passes() -> None:
++    premise_guard.validate_conditional_banking(REPO)
++
++
++@pytest.mark.parametrize("premise_id", premise_guard.CONDITIONAL_BANKING_IDS)
++@pytest.mark.parametrize("field,value,error", (
++    ("current_status", "PHYSICAL_CONTENT_DERIVED", "conditional banking grade changed"),
++    ("controlling_source", "CANON.md", "conditional banking source changed"),
++    ("active_use", "UNRESTRICTED_GEOMETRIC_RESULT", "active scope lacks"),
++    ("open_scope", "physical identification established", "open scope lacks"),
++    ("forbidden_regression", "none", "guard lacks"),
++    ("precedence_rule", "FRESH_DIFFERENT_MODEL_PROOF", "review independence scope changed"),
++))
++def test_catch_conditional_banking_row_scope(
++    tmp_path: Path, premise_id: str, field: str, value: str, error: str,
++) -> None:
++    root = _banking_copy(tmp_path)
++    _change_registry_field(root, premise_id, field, value)
++    with pytest.raises(SystemExit, match=error):
++        premise_guard.validate_conditional_banking(root, authenticate_sources=False)
++
++
++def test_catch_conditional_banking_old_row_rewrite(tmp_path: Path) -> None:
++    root = _banking_copy(tmp_path)
++    _change_registry_field(root, "G352", "current_status", "PHYSICAL_CONTENT_DERIVED")
++    with pytest.raises(SystemExit, match="changed an existing scientific registry row"):
++        premise_guard.validate_conditional_banking(root, authenticate_sources=False)
++
++
++def test_catch_conditional_banking_frozen_argument_rewrite(tmp_path: Path) -> None:
++    root = _banking_copy(tmp_path, evidence=True)
++    argument = root / premise_guard.CONDITIONAL_BANKING_CAMPAIGN / "step_03/CANDIDATE_ARGUMENT.md"
++    _replace(argument, "direct review pending", "physical content established")
++    with pytest.raises(SystemExit, match="frozen campaign payload changed"):
++        premise_guard.validate_conditional_banking(root)
++
++
++def test_catch_conditional_banking_scientific_source_rewrite(tmp_path: Path) -> None:
++    root = _banking_copy(tmp_path, evidence=True)
++    source = root / "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md"
++    source.write_text(source.read_text() + "\nMutated scientific source.\n")
++    with pytest.raises(SystemExit, match="scientific source changed since snapshot"):
++        premise_guard.validate_conditional_banking(root)
++
++
++def test_catch_conditional_banking_physical_adoption_record(tmp_path: Path) -> None:
++    root = _banking_copy(tmp_path)
++    _replace(root / premise_guard.CONDITIONAL_BANKING_SOURCE,
++             "physical identification remains OPEN", "physical identification established")
++    with pytest.raises(SystemExit, match="conditional banking record lacks physical identification"):
++        premise_guard.validate_conditional_banking(root, authenticate_sources=False)
++
++
+ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
+     result = subprocess.run(
+         [sys.executable, str(REPO / "verify_current_scientific_premises.py")],
+@@ -418,10 +506,23 @@ def test_catch_unattributed_g352_next_gate(tmp_path: Path) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(
+         root / "LIVE.md",
+-        "G352's externally accepted conditional clock-rate readout",
+-        "the accepted clock-rate readout",
++        "G352 physical-realization",
++        "physical-realization",
+     )
+-    with pytest.raises(SystemExit, match="LIVE next gate lacks bound G352 attribution"):
++    with pytest.raises(SystemExit, match="LIVE next gate lacks bounded conditional banking status"):
++        premise_guard.validate_startup_surface(root)
++
++
++@pytest.mark.parametrize("name", ("LIVE.md", "HANDOFF.md"))
++@pytest.mark.parametrize("token", (
++    "conditional mathematical banking",
++    "physical identification remains OPEN",
++    "no new campaign is authorized",
++))
++def test_catch_conditional_banking_next_gate_scope(tmp_path: Path, name: str, token: str) -> None:
++    root = _startup_copy(tmp_path)
++    _replace(root / name, token, "REMOVED_BANKING_SCOPE")
++    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+@@ -557,8 +658,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
+ 
+ def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
+     root = _startup_copy(tmp_path)
+-    _replace(root / "AGENTS.md", "335-row exact registry", "320-row exact registry")
+-    with pytest.raises(SystemExit, match="current route lacks 335-row exact registry"):
++    _replace(root / "AGENTS.md", "339-row exact registry", "335-row exact registry")
++    with pytest.raises(SystemExit, match="current route lacks 339-row exact registry"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+diff --git a/verify_current_scientific_premises.py b/verify_current_scientific_premises.py
+index 01fe3c0d..a517c580 100644
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -17,6 +17,15 @@ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parent
+ 
++CONDITIONAL_BANKING_SNAPSHOT = "c92588ad31f3fd79868378e6e3a318af2de1235f"
++CONDITIONAL_BANKING_IDS = ("G353", "G354", "G355", "G356")
++CONDITIONAL_BANKING_SOURCE = "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md"
++CONDITIONAL_BANKING_CAMPAIGN = "udt_g351_g352_content_bridge_campaign_2026-09-06"
++CONDITIONAL_BANKING_STATUS = (
++    "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED"
++    "__NOT_PHYSICAL_ADOPTION__NOT_CANON"
++)
++
+ PREMISE_REGISTRY_CONTROLS = (
+     "AGENTS.md",
+     "LIVE.md",
+@@ -225,6 +234,7 @@ def replay_package_with_current_registry_rows_removed(
+ ) -> dict:
+     """Replay a frozen package in /tmp after removing only declared later registry rows."""
+     legacy_later_rows = (
++        "G356", "G355", "G354", "G353",
+         "G352", "G351", "G350", "G349", "G348", "G347", "G346", "G345", "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
+     ) if include_legacy_later_rows else ()
+@@ -295,6 +305,135 @@ def marked_current_block(path: Path) -> str:
+     return text[start:stop]
+ 
+ 
++def validate_conditional_banking(root: Path, *, authenticate_sources: bool = True) -> None:
++    """Guard only the four authorized mathematical additions and their frozen evidence.
++
++    Historical campaign source hashes are checked at the authorized snapshot, not
++    relabeled as hashes of the updated live registry/status documents. This is
++    correspondence and scope regression, not another scientific review or proof.
++    """
++    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    prefixes = tuple(f"{item}\t".encode() for item in CONDITIONAL_BANKING_IDS)
++    old_bytes = b"".join(
++        line for line in registry_bytes.splitlines(keepends=True)
++        if not line.startswith(prefixes)
++    )
++    require(hashlib.sha256(old_bytes).hexdigest()
++            == "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
++            "conditional banking changed an existing scientific registry row")
++    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++    by_id = {row["premise_id"]: row for row in rows}
++    require(len(rows) == len(by_id) == 339,
++            "conditional banking must add exactly four distinct rows to 335")
++    record_path = root / CONDITIONAL_BANKING_SOURCE
++    require(record_path.is_file(), "conditional banking record missing")
++    record = " ".join(record_path.read_text(encoding="utf-8").split())
++    for token in (
++        *CONDITIONAL_BANKING_IDS, CONDITIONAL_BANKING_SNAPSHOT,
++        "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
++        "physical identification remains OPEN", "no new campaign is authorized",
++        "UNKNOWN", "UNTESTED",
++    ):
++        require(token in record, f"conditional banking record lacks {token}")
++
++    active_scopes = {
++        "G353": ("ORIGINAL_UNPROMOTED_CHOSEN", "FINITE_AREA_PATCH",
++                 "G351_G352_OWNER_PROVISIONAL", "CHOSEN_PHASE_INDEPENDENT_PRODUCT",
++                 "NONZERO_FIXED_QUERY_COUNTERCOMPLETIONS", "SOURCE_BOUNDED_NONSELECTION_ONLY"),
++        "G354": ("CONSTANT_REAL_A_NONZERO", "OPTIONAL_LOCAL_RESTRICTION_COMPATIBLE",
++                 "ALIGNED_SMOOTH_NONNEGATIVE_PHASE_INDEPENDENT", "SELECT_NO_COEFFICIENT",
++                 "SEPARATE_COMPLETE_R2_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE",
++                 "WEIGHT_MINUS_TWO", "BETA_DELTA_FIXED"),
++        "G355": ("CHOSEN_WEYL_FIRST_DUAL_RECIPE", "SMOOTH_LOCAL_HARMONIC_WAVE",
++                 "CONNECTED_TRANSVERSE_PATCH_AND_NONZERO_ROOT", "ROOT_CLOSED_ON_PATCH_IFF",
++                 "OPTIONAL_LOCAL_NATURAL_SMOOTH_SCALAR_WEIGHT_MINUS_TWO",
++                 "POINTWISE_Q_ZERO_IFF_POINTWISE_D_BETA_ZERO", "NONCLOSED_ROOT"),
++        "G356": ("CHOSEN_WEYL_FIRST_DUAL_ROOT", "B_POSITIVE_Q_POSITIVE_CONNECTED_PRODUCT",
++                 "FIXED_CROSS_PHASE_LABELS_AND_NULL_RAYS", "DIFFERENT_ALIGNED_PHASE",
++                 "FOR_ALREADY_FIXED_KAPPA_REQUIRE_W_OVER_KAPPA_PHASE_INDEPENDENT",
++                 "FINITE_PATCH_OR_SEPARATE_INTEGRABILITY", "MIXED_DERIVATIVE_FIVE_DESPITE_CONSERVATION",
++                 "CONDITIONAL_GEOMETRIC_CONTINUOUS_INTENSITY_ONLY"),
++    }
++    forbidden_scopes = {
++        "G353": ("reduced-query completions called physically populated coupled UDT universes",
++                 "source-bounded nonselection called universal no-go"),
++        "G354": ("optional naturality count conversion or whole-plane finiteness called G351 G312 or physical premise",
++                 "global finite invariant-plane zero result applied to locally finite area measure or supplied finite patch"),
++        "G355": ("pointwise zero called closure on a neighborhood",
++                 "supplied u intervals called primitive of nonclosed root",
++                 "scalar obstruction universalized beyond its naturality homothety and class hypotheses"),
++        "G356": ("different phase called original curvature root or another root of fixed B",
++                 "conservation called sufficient for fixed-label product",
++                 "local failure universalized to every G352 realization"),
++    }
++    for premise_id in CONDITIONAL_BANKING_IDS:
++        require(premise_id in by_id, f"conditional banking row missing: {premise_id}")
++        row = by_id[premise_id]
++        require(row["current_status"] == CONDITIONAL_BANKING_STATUS
++                and row["epistemic_label"] == "MIXED",
++                f"{premise_id} conditional banking grade changed")
++        require(row["controlling_source"] == CONDITIONAL_BANKING_SOURCE,
++                f"{premise_id} conditional banking source changed")
++        for token in active_scopes[premise_id]:
++            require(token in row["active_use"], f"{premise_id} active scope lacks {token}")
++        for token in ("physical identification remains OPEN",
++                      "physical population count energy detector source history matter mass scale Xmax and canon"):
++            require(token in row["open_scope"], f"{premise_id} open scope lacks {token}")
++        for token in (*forbidden_scopes[premise_id], "chosen recipe called physically selected",
++                      "review counts called analytic proof",
++                      "UNKNOWN runtime model or UNTESTED different-model review upgraded"):
++            require(token in row["forbidden_regression"], f"{premise_id} guard lacks {token}")
++        require("FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED"
++                in row["precedence_rule"], f"{premise_id} review independence scope changed")
++    if not authenticate_sources:
++        return
++
++    campaign = root / CONDITIONAL_BANKING_CAMPAIGN
++    manifest = campaign / "ARTIFACT_SHA256SUMS"
++    require(manifest.is_file(), "conditional banking frozen campaign manifest missing")
++    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
++            == "048e2870eb229943d029c8383ae82c5609a0d3e1e77c4d910916e4b3ece87dcb",
++            "conditional banking frozen campaign manifest changed")
++    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
++    require(len(entries) == len({item[1] for item in entries}) == 350,
++            "conditional banking frozen campaign manifest membership changed")
++    for expected, relative in entries:
++        payload = campaign / relative
++        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
++                f"conditional banking frozen campaign payload changed: {relative}")
++
++    historical_sources: dict[str, bytes] = {}
++    for step in range(1, 5):
++        directory = campaign / f"step_{step:02d}"
++        review = json.loads((directory / "review/REVIEW_VERDICT.json").read_text())
++        require(review["verdict"] == "VERIFIED-WITH-CAVEATS"
++                and review["required_defects"] == [],
++                f"G{352 + step} retained review verdict changed")
++        require(review.get("exact_runtime_model", review.get("runtime_model")) == "UNKNOWN"
++                and review.get("different_model_review", review.get("different_model")) == "UNTESTED",
++                f"G{352 + step} retained model-independence limit changed")
++        require(hashlib.sha256((directory / "CANDIDATE_ARGUMENT.md").read_bytes()).hexdigest()
++                == review["candidate_argument_sha256"],
++                f"G{352 + step} argument no longer matches its direct review")
++        for line in (directory / "SOURCE_SHA256SUMS").read_text().splitlines():
++            expected, relative = line.split(maxsplit=1)
++            if relative not in historical_sources:
++                frozen = subprocess.run(
++                    ["git", "show", f"{CONDITIONAL_BANKING_SNAPSHOT}:{relative}"],
++                    cwd=ROOT, capture_output=True, check=False, timeout=10,
++                )
++                require(frozen.returncode == 0,
++                        f"conditional banking historical source unavailable: {relative}")
++                historical_sources[relative] = frozen.stdout
++            require(hashlib.sha256(historical_sources[relative]).hexdigest() == expected,
++                    f"conditional banking historical source hash changed: {relative}")
++            if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
++                current = root / relative
++                require(current.is_file() and current.read_bytes() == historical_sources[relative],
++                        f"conditional banking scientific source changed since snapshot: {relative}")
++    require(old_bytes == historical_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"],
++            "conditional banking is not an additive four-row change from the authorized snapshot")
++
+ 
+ 
+ def validate_startup_surface(root: Path) -> None:
+@@ -311,11 +450,12 @@ def validate_startup_surface(root: Path) -> None:
+     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+     require(registry.is_file(), "premise registry missing")
+     registry_rows = read_tsv(registry)
+-    require(len(registry_rows) == 335, "premise registry must contain exactly 335 rows")
++    require(len(registry_rows) == 339, "premise registry must contain exactly 339 rows")
+     require(
+-        len({row["premise_id"] for row in registry_rows}) == 335,
++        len({row["premise_id"] for row in registry_rows}) == 339,
+         "premise registry contains duplicate ids",
+     )
++    validate_conditional_banking(root, authenticate_sources=False)
+ 
+     for control in PREMISE_REGISTRY_CONTROLS:
+         require(
+@@ -351,7 +491,7 @@ def validate_startup_surface(root: Path) -> None:
+         "T_clock=R A^-1",
+         "continuous",
+         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+-        "335-row",
++        "339-row",
+         "archive/STARTUP_SURFACE_HISTORY.md",
+         "udt_observed_angular_pattern_raw_restart_2026-08-12",
+         "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
+@@ -372,21 +512,20 @@ def validate_startup_surface(root: Path) -> None:
+     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
+     live_next = " ".join(live_next_parts[1].split())
+     for token in (
+-        "G352's externally accepted conditional clock-rate readout",
+-        "metric-native carried object",
+-        "owner-provisional premises",
+-        "no derivation or computation begins",
++        "G353--G356", "conditional mathematical banking",
++        "G352 physical-realization", "physical identification remains OPEN",
++        "Charles", "no new campaign is authorized",
+     ):
+-        require(token in live_next, f"LIVE next gate lacks bound G352 attribution: {token}")
++        require(token in live_next, f"LIVE next gate lacks bounded conditional banking status: {token}")
+     handoff_next_parts = handoff.split("Next:", 1)
+     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
+     handoff_next = " ".join(handoff_next_parts[1].split())
+     for token in (
+-        "G352 physical-realization remainder",
+-        "metric-native carried object",
+-        "owner-provisional premises",
++        "G353--G356", "conditional mathematical banking",
++        "G352 physical-realization", "physical identification remains OPEN",
++        "Charles", "no new campaign is authorized",
+     ):
+-        require(token in handoff_next, f"HANDOFF next gate lacks bound G352 attribution: {token}")
++        require(token in handoff_next, f"HANDOFF next gate lacks bounded conditional banking status: {token}")
+ 
+     contradictory_promotions = (
+         r"\buniversal reciprocity(?:\s*/\s*(?:differential dual reciprocity|ddr))?\s+is\s+(?:already\s+)?derived\b",
+@@ -434,7 +573,7 @@ def validate_startup_surface(root: Path) -> None:
+         "AGENTS.md": (
+             "Stop the startup read here",
+             "does not make full scripts",
+-            "335-row exact registry",
++            "339-row exact registry",
+             "without dumping its wide rows into model context",
+             "1,114 data rows plus its header",
+             "not a startup read or a current-frontier index",
+@@ -455,6 +594,7 @@ def validate_startup_surface(root: Path) -> None:
+             "udt_g350_frequency_area_carried_content_ownership_2026-09-05/",
+             "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/",
+             "udt_g352_clock_rate_carried_measure_readout_2026-09-05/",
++            CONDITIONAL_BANKING_SOURCE,
+             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
+             "R5_OUTCOME_REPORT.md",
+             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",
+@@ -467,7 +607,7 @@ def validate_startup_surface(root: Path) -> None:
+             "verify_current_scientific_premises.py",
+         ),
+         "MEMORY.md": (
+-            "335-row",
++            "339-row",
+             "B,Q,S,Y,Z",
+             "Universal Reciprocity/DDR",
+             "owner-adopted provisional premises",
+@@ -482,7 +622,7 @@ def validate_startup_surface(root: Path) -> None:
+             "archive/STARTUP_SURFACE_HISTORY.md",
+         ),
+         "CURRENT_RESEARCH_PROGRAM.md": (
+-            "335-row",
++            "339-row",
+             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+             "G129--G198",
+             "G199--G276",
+@@ -500,7 +640,7 @@ def validate_startup_surface(root: Path) -> None:
+             "physical-realization",
+         ),
+         "CURRENT_SCIENTIFIC_PREMISES.md": (
+-            "335-row",
++            "339-row",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
+             "one postulate with two formulations",
+@@ -940,15 +1080,17 @@ def validate_startup_surface(root: Path) -> None:
+         "udt_g350_frequency_area_carried_content_ownership_2026-09-05/AUDIT_REPORT.md",
+         "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+         "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
++        CONDITIONAL_BANKING_SOURCE,
+     ):
+         require((root / relative).is_file(), f"current startup target missing: {relative}")
+ 
+ 
+ def main() -> None:
+     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-    require(len(rows) == 335, "premise registry must contain exactly 335 rows")
++    require(len(rows) == 339, "premise registry must contain exactly 339 rows")
+     by_id = {row["premise_id"]: row for row in rows}
+-    require(len(by_id) == 335, "duplicate premise id")
++    require(len(by_id) == 339, "duplicate premise id")
++    validate_conditional_banking(ROOT)
+     latest_rows = {
+         "G277": (
+             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
+@@ -1715,7 +1857,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines
+@@ -1790,7 +1932,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
+@@ -1869,7 +2011,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
+@@ -1962,7 +2104,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines
+@@ -5663,7 +5805,7 @@ def main() -> None:
+             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                 source_bytes = b"".join(
+                     line for line in source_bytes.splitlines(keepends=True)
+-                    if not line.startswith(b"G352\t")
++                    if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
+                 )
+             destination = g351_root / source_name
+             destination.parent.mkdir(parents=True, exist_ok=True)
+@@ -18689,7 +18831,8 @@ def main() -> None:
+         f"PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: {len(rows)}-row premise "
+         "registry, current bounded startup route, archive integrity, "
+         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
+-        "and corrected DOF semantics"
++        "and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking "
++        "with unchanged frozen sources and physical-identification limits"
+     )
+ 
+ 

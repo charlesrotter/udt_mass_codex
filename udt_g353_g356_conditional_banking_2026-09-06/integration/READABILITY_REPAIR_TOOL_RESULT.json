@@ -1,0 +1,16 @@
+{
+  "command": "env PYTHONDONTWRITEBYTECODE=1 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 prlimit --as=536870912 --cpu=60 -- timeout 60s python3 -B -m pytest --noconftest -q tests/test_startup_surface.py -k 'test_active_orientation_surface_stays_readably_bounded'",
+  "resource_limits": {
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "wall_timeout_seconds": 60
+  },
+  "capture_kind": "exact unified exec output; stdout/stderr not separately captured",
+  "result": {
+    "chunk_id": "4bda03",
+    "wall_time_seconds": 0.112025947,
+    "exit_code": 0,
+    "original_token_count": 29,
+    "output": ".                                                                        [100%]\n1 passed, 107 deselected in 0.14s\n"
+  }
+}

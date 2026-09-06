@@ -1,0 +1,209 @@
+{
+  "kind": "final_procedural_transition_and_archive_authentication",
+  "observed_at": {
+    "current_time": "2026-09-06 21:44:47 UTC"
+  },
+  "source_snapshot": "c92588ad31f3fd79868378e6e3a318af2de1235f",
+  "completion_diff_review": "Main inspected all exact diffs versus the preserved14-file reviewer snapshot:8 unchanged;6 changed only pending-to-complete status plus actual successful check pointers. Execution record factual completion diff separately inspected. Original proposal/registry/verifier/tests/scientific argument bytes unchanged.",
+  "completion_diffs": [
+    {
+      "file": "AGENTS.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/AGENTS.md' 'AGENTS.md'",
+      "chunk_id": "66c42c",
+      "wall_time_seconds": 0.000002112,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "LIVE.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/LIVE.md' 'LIVE.md'",
+      "chunk_id": "2f53e4",
+      "wall_time_seconds": 0.000003015,
+      "exit_code": 1,
+      "original_token_count": 391,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/LIVE.md b/LIVE.md\nindex 8cc15d82..682a08f8 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/LIVE.md\n+++ b/LIVE.md\n@@ -72,7 +72,7 @@ completion consequence—not a local input, wall, center, or numerical scale.\n   obstructions; the local harmonic-wave fixed-root phase class; and a different-phase product\n   criterion with positive and failed geometric realizations. All supplied data, CHOSEN recipes,\n   optional hypotheses and review limitations survive. No physical content or counting law is adopted.\n-  Final banking integration checks are pending; the scientific campaign itself is complete.\n+  Banking integration/fidelity checks passed; the scientific campaign is complete.\n \n Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G356. Use `INDEX.md` for\n current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical\n@@ -95,7 +95,7 @@ Do not stage, modify, mine, or cite without dispatch:\n \n ### Next gate\n \n-G353--G356 conditional mathematical banking is owner-authorized; final integration checks pending.\n+G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.\n The four-step campaign is complete, not waiting for a fifth compatibility example.\n The G352 physical-realization question remains: physical identification remains OPEN. Its\n owner-provisional premises and chosen product are unchanged; a metric-native carried object is\n"
+    },
+    {
+      "file": "HANDOFF.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/HANDOFF.md' 'HANDOFF.md'",
+      "chunk_id": "0d3b9e",
+      "wall_time_seconds": 0.000002503,
+      "exit_code": 1,
+      "original_token_count": 420,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/HANDOFF.md b/HANDOFF.md\nindex dca5a04a..95d0cdd2 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/HANDOFF.md\n+++ b/HANDOFF.md\n@@ -40,7 +40,7 @@ G353--G356 add owner-authorized conditional mathematical banking, VERIFIED-WITH-\n completed four-step content-bridge campaign. Original frozen evidence remains unchanged.\n Source-bounded nonselection, optional symmetry/conversion limits, the harmonic-wave root/phase\n class, and the different-phase product criterion retain all assumptions and review limitations.\n-CHOSEN recipes are not physical content/count laws. Final integration checks are pending.\n+CHOSEN recipes are not physical content/count laws. Banking integration/fidelity checks passed.\n \n Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.\n Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in\n@@ -55,7 +55,7 @@ Protected—do not stage, modify, mine, or cite without dispatch:\n - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`\n - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`\n \n-Next: G353--G356 conditional mathematical banking is owner-authorized; final integration checks pending.\n+Next: G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.\n The prior campaign is complete. The G352 physical-realization remainder is not closed:\n physical identification remains OPEN; no metric-native carried object is physically selected.\n Keep the owner-provisional premises, CHOSEN recipes and product explicit.\n"
+    },
+    {
+      "file": "CURRENT_RESEARCH_PROGRAM.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_RESEARCH_PROGRAM.md' 'CURRENT_RESEARCH_PROGRAM.md'",
+      "chunk_id": "dab27c",
+      "wall_time_seconds": 0.000004103,
+      "exit_code": 1,
+      "original_token_count": 240,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md\nindex 094ffd91..d44f47c3 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_RESEARCH_PROGRAM.md\n+++ b/CURRENT_RESEARCH_PROGRAM.md\n@@ -66,8 +66,8 @@ scale follows. Imported transfer in earlier observational controls stays importe\n \n ## Current next gate\n \n-The four-step campaign is complete. G353--G356 conditional mathematical banking is owner-authorized,\n-with final integration checks pending; physical identification remains OPEN. Its CHOSEN curvature/\n+The four-step campaign and owner-authorized G353--G356 conditional mathematical banking are complete;\n+physical identification remains OPEN. Its CHOSEN curvature/\n derivative recipes, optional naturality class and fixed-label product conditions remain explicit.\n No fifth compatibility example is requested.\n \n"
+    },
+    {
+      "file": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_SCIENTIFIC_PREMISES.md' 'CURRENT_SCIENTIFIC_PREMISES.md'",
+      "chunk_id": "2bf6e3",
+      "wall_time_seconds": 0.000002123,
+      "exit_code": 1,
+      "original_token_count": 260,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md\nindex 0404d105..8bf71a42 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_SCIENTIFIC_PREMISES.md\n+++ b/CURRENT_SCIENTIFIC_PREMISES.md\n@@ -67,7 +67,7 @@ physical carried object, detector, light/energy meaning, history, and scale rema\n ## Scale, carrier, action, and observations\n \n G353--G356 are owner-authorized BANKED_DERIVED_CONDITIONAL results, VERIFIED-WITH-CAVEATS,\n-with final integration checks pending. They adopt no physical premise or recipe and establish no\n+with completed integration/fidelity checks. They adopt no physical premise or recipe and establish no\n physical counting. Their exact original CB claims, local domains, optional naturality/weight/global\n hypotheses, supplied data and review limitations are controlled by\n `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md` and its unchanged source campaign.\n"
+    },
+    {
+      "file": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/CURRENT_SCIENTIFIC_PREMISES.tsv' 'CURRENT_SCIENTIFIC_PREMISES.tsv'",
+      "chunk_id": "7b6b69",
+      "wall_time_seconds": 0.00000228,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "INDEX.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/INDEX.md' 'INDEX.md'",
+      "chunk_id": "3e6222",
+      "wall_time_seconds": 0.000002089,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "MEMORY.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/MEMORY.md' 'MEMORY.md'",
+      "chunk_id": "d79966",
+      "wall_time_seconds": 0.000003448,
+      "exit_code": 1,
+      "original_token_count": 233,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/MEMORY.md b/MEMORY.md\nindex 7f20e149..d809af54 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/MEMORY.md\n+++ b/MEMORY.md\n@@ -26,7 +26,7 @@ readouts, and all physical identities remain distinct/open.\n ## Open gate\n \n G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;\n-final integration checks are pending. Optional conditions and CHOSEN recipes are not physical laws.\n+integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.\n G352 physical identification remains OPEN. No fifth step or new campaign is authorized.\n Charles must choose the next direction; the recommendation is finite-readout common-measure\n constraints, with joint metric-probe realizability and lawful-data propagation as distinct alternatives.\n"
+    },
+    {
+      "file": "verify_current_scientific_premises.py",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/verify_current_scientific_premises.py' 'verify_current_scientific_premises.py'",
+      "chunk_id": "5de8eb",
+      "wall_time_seconds": 0.000002128,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "tests/test_startup_surface.py",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/tests/test_startup_surface.py' 'tests/test_startup_surface.py'",
+      "chunk_id": "e408c4",
+      "wall_time_seconds": 0.000002231,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md' 'udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md'",
+      "chunk_id": "8fa3aa",
+      "wall_time_seconds": 0.000003088,
+      "exit_code": 1,
+      "original_token_count": 467,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md b/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\nindex 09d758aa..5dd76321 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\n+++ b/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\n@@ -1,8 +1,8 @@\n # G353--G356 conditional mathematical banking\n \n Date: 2026-09-06. Owner: Charles Rotter.\n-Status: OWNER AUTHORIZATION RECEIVED; integration checks/review pending.\n-Target disposition: BANKED_DERIVED_CONDITIONAL, VERIFIED-WITH-CAVEATS.\n+Status: BANKED_DERIVED_CONDITIONAL, VERIFIED-WITH-CAVEATS, OWNER_AUTHORIZED.\n+The authorized mathematical banking and integration/fidelity gates are complete.\n This is mathematical result banking, NOT a new physical premise or canon.\n \n ## Authorization and exact source edition\n@@ -166,6 +166,14 @@ Direct report SHA256 values, Steps1--4 respectively:\n \n ## Integration and fixed-edition boundary\n \n+The clean339-row premise audit passed (actual exit0,397.957934201 seconds,\n+empty stderr); CLEAN_PREMISE_AUDIT.json preserves the command and streams.\n+Self-contained startup tests passed107 with the long audit test separately\n+deselected. Fresh source/registry/tracking/code fidelity found no required\n+defect; review/INTEGRATION_FIDELITY_REVIEW.md records its exact scope,\n+independence limits and permitted procedural completion. This banking does\n+not upgrade the inherited scientific premises or the original recipe.\n+\n The registry grows additively from335 to339 rows; no original row changes.\n Original campaign/source manifests remain historical bindings to c92588ad.\n Their then-current registry hash is authenticated against that snapshot, not\n"
+    },
+    {
+      "file": "udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md' 'udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md'",
+      "chunk_id": "28000e",
+      "wall_time_seconds": 0.000002806,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md' 'udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md'",
+      "chunk_id": "6ada3d",
+      "wall_time_seconds": 0.000002019,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "file": "udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py",
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py' 'udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py'",
+      "chunk_id": "22f971",
+      "wall_time_seconds": 0.000001945,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "cmd": "git diff --no-index -- 'udt_g353_g356_conditional_banking_2026-09-06/review/INITIAL_EXECUTION_RECORD.md' 'udt_g353_g356_conditional_banking_2026-09-06/EXECUTION_RECORD.md'",
+      "chunk_id": "9b3709",
+      "wall_time_seconds": 0.00000251,
+      "exit_code": 1,
+      "original_token_count": 1184,
+      "output": "diff --git a/udt_g353_g356_conditional_banking_2026-09-06/review/INITIAL_EXECUTION_RECORD.md b/udt_g353_g356_conditional_banking_2026-09-06/EXECUTION_RECORD.md\nindex 82e85835..47e1d9f7 100644\n--- a/udt_g353_g356_conditional_banking_2026-09-06/review/INITIAL_EXECUTION_RECORD.md\n+++ b/udt_g353_g356_conditional_banking_2026-09-06/EXECUTION_RECORD.md\n@@ -1,13 +1,13 @@\n # Mathematical banking — compact execution record\n \n-Status: AUTHORIZED INTEGRATION; clean full audit/final fidelity gates pending.\n+Status: AUTHORIZED BANKING GATES COMPLETE; commit/push handoff in progress.\n This is not another research campaign. No new scientific construction occurred.\n \n Starting synchronized grok HEAD:\n c92588ad31f3fd79868378e6e3a318af2de1235f.\n The completed four-step campaign remains byte-identical at its351-file edition.\n-Initial bank-package/registry drafts are recoverable work, not a claim that\n-pending integration checks have already passed.\n+Initial pending bank-package/registry drafts remain preserved in the review\n+archive. Their former pending gates are now closed by the actual checks below.\n \n ## Authorization and evidence\n \n@@ -24,10 +24,10 @@ existing independent-review procedure governs this fidelity-only integration;\n instruction files supply no scientific premise. The integration implementer\n is not counted as an independent reviewer of its own changes.\n \n-Fresh /root/banking_brief_fidelity_review returned an initial\n-FIDELITY_REVIEWED_WITH_CAVEATS for BANKING_RECORD.md and the next-direction\n-brief: no required correction. Final registry/tracking/code fidelity is\n-separate and still pending. Exact model UNKNOWN; different-model and human\n+Fresh /root/banking_brief_fidelity_review returned\n+FIDELITY_REVIEWED_WITH_CAVEATS for BANKING_RECORD.md, the next-direction\n+brief and the final registry/tracking/code integration: no required correction.\n+Both initial and follow-up reports are preserved in review/. Exact model UNKNOWN; different-model and human\n specialist axes UNTESTED. No new theorem or empirical review is claimed.\n \n ## Scope of edits\n@@ -39,9 +39,11 @@ No infrastructure refactor, solver, old package repair, deployed setting,\n disk action, worktree pruning, protected payload read or old campaign edit.\n \n The fourteen intended integration files froze in\n-INTEGRATION_CANDIDATE_SHA256SUMS before final integration fidelity. Final\n-pending-to-complete wording may change only after actual gate completion;\n-that factual procedural transition does not strengthen the reviewed science.\n+INTEGRATION_CANDIDATE_SHA256SUMS before final integration fidelity. Following\n+the actual gate completion, only the reviewed pending-to-complete wording\n+and actual check records changed. That manifest remains a HISTORICAL freeze;\n+it is not asserted against those six final status-edited files. The final\n+package manifest binds final bytes. No reviewed scientific statement changed.\n \n ## Actual checks and retained diagnostics\n \n@@ -63,12 +65,22 @@ that factual procedural transition does not strengthen the reviewed science.\n   could not map under512 MiB. Its actual diagnostic is retained.\n - The initial full premise audit overlapped the four-row addition at21:19:58\n   UTC and exited1 at the obsolete335-row count. It is NOT a promotion gate.\n-  A clean post-edit audit started21:30 UTC with900-second wall and2 GiB address\n-  space caps; its actual final result is pending here. No duplicate full audit.\n+  The clean post-edit audit started2026-09-06T21:29:47.669888+00:00 with\n+  900-second wall and2 GiB address-space caps; actual exit0 after397.957934201s,\n+  empty stderr and339-row/G353--G356 PASS. CLEAN_PREMISE_AUDIT.json preserves\n+  the actual command and streams. No duplicate full audit by the reviewer.\n - git diff --check and scoped preservation checks pass. Original46 unrelated\n   status entries and manuscript/sidecar/canon hashes are unchanged.\n \n Exact implementation captures and failures are sealed in integration/.\n+Fresh fidelity evidence is sealed in review/:68 files,67 manifest payloads.\n+The reviewer independently replayed startup107/1deselected and both stock\n+account failure/adapted fixed-edition pass. Follow-up report SHA256:\n+2c1801fb0bb2eb3c6e7ff3373e998d7e60c5c568e41dc74b35ea45f3fc0205b8.\n+Review manifest SHA256:\n+1ab640fbdd3c3d554d362d3fdbb70de61a5c8b28a5fd26b4cb4ae4f11e7ceb9c.\n+The reviewer explicitly permitted only the observed procedural completion\n+updates after gates passed; it did not certify future commit/push in advance.\n INITIAL_CHECK_RECORDS.json retains parent checks and read-only display\n diagnostics, including a wrong-cwd hash display whose compound-command exit0\n is NOT treated as success of each individual command. No untruncated capture\n"
+    }
+  ],
+  "archive_copy_checks": [
+    {
+      "origin": "/tmp/udt-banking-fidelity-meEiJ3/sealed",
+      "destination": "/home/udt-admin/udt_mass_codex/udt_g353_g356_conditional_banking_2026-09-06/review",
+      "cmd": "rg --files --hidden --no-ignore -0 . | sort -z | xargs -0 sha256sum",
+      "original": {
+        "chunk_id": "b466f2",
+        "wall_time_seconds": 0.000002098,
+        "exit_code": 0,
+        "original_token_count": 1772,
+        "output": "34c53e29b609eac96031117126cc0db6144ddea9ba6ef1f4da6bec4a62cace00  ./ARCHIVE_FILES.txt\n30e1ce3c8c9238ac9512d765dc562d1380f13703b3889aa87fcaeb7979c6ccba  ./FIDELITY_REVIEW.md\n871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540  ./INITIAL_BANKING_RECORD.md\nc3b8a59f7813f26f3b18de1fb30225c7a83b1bc17e6e250fc10c63efc0e56cff  ./INITIAL_EXECUTION_RECORD.md\nfbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6  ./INITIAL_NEXT_CAMPAIGN_DECISION_BRIEF.md\n00a9df5f8001335ee2b9ca3fb47a6e0c711209080e3638c11fd7a3df2f441be9  ./INITIAL_REVIEW_SHA256SUMS\n11673ee440fb52330028511d712adad017b715ead951b8892b826135287fca44  ./INTEGRATION_DIFF_DIAGNOSTIC_PLAN.md\n2c1801fb0bb2eb3c6e7ff3373e998d7e60c5c568e41dc74b35ea45f3fc0205b8  ./INTEGRATION_FIDELITY_REVIEW.md\nc17a8f0561445098bd623c0d5ca19a8935b3cdf4dbb97a18338ad229d6cf8df3  ./INTEGRATION_REVIEW_VERDICT.json\n5bde84e2b6cd874447260e1221c10e9d7a49c2fbd77829c1719f7159b08142d4  ./PARENT_CLEAN_PREMISE_AUDIT.json\n1ab640fbdd3c3d554d362d3fdbb70de61a5c8b28a5fd26b4cb4ae4f11e7ceb9c  ./REVIEW_SHA256SUMS\n4dfecea4920e3a87d11482fef7cb23b15a06fc54976fd5c5f880d89f541bac9e  ./REVIEW_VERDICT.json\n3420f0c424d5648750680215857c10225503a577d3bc89718f34b726a1266adb  ./authenticate_fidelity_inputs.py\n5854ff1886b1287f76403b7e0516d88eca987cea6942c6eac33ffba72e655fa4  ./authenticate_inputs.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./authenticate_inputs.stderr\n2b0ff54f96b928fdb1dfcd854f188c6433cd168a833492feec6e6e54af02c57c  ./authenticate_inputs.stdout\n9aa6169f2db9b556be9211a626ec06ca80fa4d10cec77df04394f35d9f2eda99  ./authenticate_integration.py\na59b25d7686024f5ff0a983a9bcf400c62a10933b04477f68ac7f7adb0a1832c  ./campaign_manifest_count.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./campaign_manifest_count.stderr\n03971379540ecf59ff2d5b7f138e45af1b684c69a19b281de08f6550945308cb  ./campaign_manifest_count.stdout\nfbda268ebca813b8ed691f835e95df9825cf6e251fa0c1f7cdd75d16a2543de5  ./campaign_tracked_count.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./campaign_tracked_count.stderr\n81648ca9fc259570270d372dc503656aea57fb7494f293fa0c0a2fae9dcf4fd3  ./campaign_tracked_count.stdout\n3ac53f0ad71a6952e69fdf5129a1784a31229aafdef24660fc9dae82ed13619e  ./check_execution_preservation.py\n3c3a256d2a813ee93f34e13e79eab51aa41b1a6e18f6f27a0f886a90d9facdb4  ./execution_preservation.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./execution_preservation.stderr\n47ce4741b83b183b010095811f510ae6af1d1c1c9dbcb1ba77955441f477d756  ./execution_preservation.stdout\n55801ff67058b0893551423e60dfeca568bea759752350f2e80dc9d992e3e7dc  ./integration_authentication.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_authentication.stderr\ndb64603cb57d6f0d345108bf11813c7f8404ee5c164130e620e7d235ffb6097c  ./integration_authentication.stdout\n104cde45f01695faa06948eeff1e0b5ac0c621ec4b57060ba7ce26ffeb269a65  ./integration_candidate/AGENTS.md\n158ec7fb9dae0d02f715181555c96646f9543617372278ec2e3a525fd607a6f8  ./integration_candidate/CURRENT_RESEARCH_PROGRAM.md\n5106a0108c355617baa5d534f0f5b6056b36143e2c85ae57637e7a3a0e169862  ./integration_candidate/CURRENT_SCIENTIFIC_PREMISES.md\n23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429  ./integration_candidate/CURRENT_SCIENTIFIC_PREMISES.tsv\n0dd2aabcbe1dbcc9d3a89d833bcbfd8178154c55f74ecc40e492bfbc4341affa  ./integration_candidate/HANDOFF.md\nd29c4856bc7b7331040930b71fdd4b163db4efc4f815c5ec354c2897a6270eaa  ./integration_candidate/INDEX.md\n4f727c65ac63ad2f2b051667baeff05e767f7d24f5038d7bbd9de990094df1db  ./integration_candidate/LIVE.md\n3a148abb904483267607abb04c0ace8ba4d553c884ce4cede7a6e4649462abd7  ./integration_candidate/MEMORY.md\n44b1e682480f6878c63bd036a6ef5be72da97219dd8fa494141a0ed7b90407a4  ./integration_candidate/tests/test_startup_surface.py\n871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\nfd3f6a0551267e044df2396ae6039b3fcf372b21644804681417df9e40efd024  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/INTEGRATION_CANDIDATE_SHA256SUMS\nfbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md\n9ddd50c883801a513566f9ba1cbfaf7b6061ceae11b702e30282332321b3e903  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md\n11d8e4813af5631d5686a1f0a158998252ea3581ad974a5d1886e9ed82a403f1  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py\n599d3e067a48492063c22f1b95b7ec4b8ede921fdd2eeb6af3127e416c5a77ab  ./integration_candidate/verify_current_scientific_premises.py\n70876c8d95ede381d815d4481028a9bedb2ca6c99aced33463a4eb80779a13b7  ./integration_diff_check.json\n589861a8b1f1eae59294389bb2fe42f025abd8f69f65b9008bad37544600ba0d  ./integration_diff_check.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_diff_check.stdout\n62877237e1bd52ffed73bdd3aa081834f1fae313916f62c8edfd8d0829f6d11e  ./integration_diff_check_serial.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_diff_check_serial.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_diff_check_serial.stdout\nf421ee0eec0a666a90406360390886f29a11daad421bd12004d72b98fc23954d  ./integration_final_authentication.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_final_authentication.stderr\ndb64603cb57d6f0d345108bf11813c7f8404ee5c164130e620e7d235ffb6097c  ./integration_final_authentication.stdout\n44af5ecefac26d2ad20e067b2106630c1505cc96d420e5840517e2308c8c41a9  ./integration_fixed_edition.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_fixed_edition.stderr\n43f2dc88348ae125244b3fdf9f4e9479abbcbc191f9b6f8919911dfe6817e8d8  ./integration_fixed_edition.stdout\n9c9361e3c9ccd7b4bb520ce8213659b55ede842b7b6af9f4c698d0f2a6c406f5  ./integration_startup_tests.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_startup_tests.stderr\n999457a4a6b68f0afc42578e6631f91e60ad7ef2d09e916931711ba74035340f  ./integration_startup_tests.stdout\n6d78b7e73e9bebe43da5d9f5d4da275dfa2dedbbe31127191d4b65ace66000cf  ./integration_stock_account.json\n05caafd1959bd934d8f502cec98c71bdf8eee55152d6866212c5eccdf170d1e7  ./integration_stock_account.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_stock_account.stdout\n8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef  ./run_capture.py\n4efe1f00cbd5b5390a85ac2c9184110fd6658a7157d770d0abbfc13bb64bc5ab  ./seal_review.py\nd6478d64249a1a86bcfdaffca426205d01ff1f35615203954b5331c24f0ab817  ./source_campaign_diff.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./source_campaign_diff.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./source_campaign_diff.stdout\n"
+      },
+      "copied": {
+        "chunk_id": "4ed578",
+        "wall_time_seconds": 0.000003509,
+        "exit_code": 0,
+        "original_token_count": 1772,
+        "output": "34c53e29b609eac96031117126cc0db6144ddea9ba6ef1f4da6bec4a62cace00  ./ARCHIVE_FILES.txt\n30e1ce3c8c9238ac9512d765dc562d1380f13703b3889aa87fcaeb7979c6ccba  ./FIDELITY_REVIEW.md\n871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540  ./INITIAL_BANKING_RECORD.md\nc3b8a59f7813f26f3b18de1fb30225c7a83b1bc17e6e250fc10c63efc0e56cff  ./INITIAL_EXECUTION_RECORD.md\nfbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6  ./INITIAL_NEXT_CAMPAIGN_DECISION_BRIEF.md\n00a9df5f8001335ee2b9ca3fb47a6e0c711209080e3638c11fd7a3df2f441be9  ./INITIAL_REVIEW_SHA256SUMS\n11673ee440fb52330028511d712adad017b715ead951b8892b826135287fca44  ./INTEGRATION_DIFF_DIAGNOSTIC_PLAN.md\n2c1801fb0bb2eb3c6e7ff3373e998d7e60c5c568e41dc74b35ea45f3fc0205b8  ./INTEGRATION_FIDELITY_REVIEW.md\nc17a8f0561445098bd623c0d5ca19a8935b3cdf4dbb97a18338ad229d6cf8df3  ./INTEGRATION_REVIEW_VERDICT.json\n5bde84e2b6cd874447260e1221c10e9d7a49c2fbd77829c1719f7159b08142d4  ./PARENT_CLEAN_PREMISE_AUDIT.json\n1ab640fbdd3c3d554d362d3fdbb70de61a5c8b28a5fd26b4cb4ae4f11e7ceb9c  ./REVIEW_SHA256SUMS\n4dfecea4920e3a87d11482fef7cb23b15a06fc54976fd5c5f880d89f541bac9e  ./REVIEW_VERDICT.json\n3420f0c424d5648750680215857c10225503a577d3bc89718f34b726a1266adb  ./authenticate_fidelity_inputs.py\n5854ff1886b1287f76403b7e0516d88eca987cea6942c6eac33ffba72e655fa4  ./authenticate_inputs.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./authenticate_inputs.stderr\n2b0ff54f96b928fdb1dfcd854f188c6433cd168a833492feec6e6e54af02c57c  ./authenticate_inputs.stdout\n9aa6169f2db9b556be9211a626ec06ca80fa4d10cec77df04394f35d9f2eda99  ./authenticate_integration.py\na59b25d7686024f5ff0a983a9bcf400c62a10933b04477f68ac7f7adb0a1832c  ./campaign_manifest_count.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./campaign_manifest_count.stderr\n03971379540ecf59ff2d5b7f138e45af1b684c69a19b281de08f6550945308cb  ./campaign_manifest_count.stdout\nfbda268ebca813b8ed691f835e95df9825cf6e251fa0c1f7cdd75d16a2543de5  ./campaign_tracked_count.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./campaign_tracked_count.stderr\n81648ca9fc259570270d372dc503656aea57fb7494f293fa0c0a2fae9dcf4fd3  ./campaign_tracked_count.stdout\n3ac53f0ad71a6952e69fdf5129a1784a31229aafdef24660fc9dae82ed13619e  ./check_execution_preservation.py\n3c3a256d2a813ee93f34e13e79eab51aa41b1a6e18f6f27a0f886a90d9facdb4  ./execution_preservation.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./execution_preservation.stderr\n47ce4741b83b183b010095811f510ae6af1d1c1c9dbcb1ba77955441f477d756  ./execution_preservation.stdout\n55801ff67058b0893551423e60dfeca568bea759752350f2e80dc9d992e3e7dc  ./integration_authentication.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_authentication.stderr\ndb64603cb57d6f0d345108bf11813c7f8404ee5c164130e620e7d235ffb6097c  ./integration_authentication.stdout\n104cde45f01695faa06948eeff1e0b5ac0c621ec4b57060ba7ce26ffeb269a65  ./integration_candidate/AGENTS.md\n158ec7fb9dae0d02f715181555c96646f9543617372278ec2e3a525fd607a6f8  ./integration_candidate/CURRENT_RESEARCH_PROGRAM.md\n5106a0108c355617baa5d534f0f5b6056b36143e2c85ae57637e7a3a0e169862  ./integration_candidate/CURRENT_SCIENTIFIC_PREMISES.md\n23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429  ./integration_candidate/CURRENT_SCIENTIFIC_PREMISES.tsv\n0dd2aabcbe1dbcc9d3a89d833bcbfd8178154c55f74ecc40e492bfbc4341affa  ./integration_candidate/HANDOFF.md\nd29c4856bc7b7331040930b71fdd4b163db4efc4f815c5ec354c2897a6270eaa  ./integration_candidate/INDEX.md\n4f727c65ac63ad2f2b051667baeff05e767f7d24f5038d7bbd9de990094df1db  ./integration_candidate/LIVE.md\n3a148abb904483267607abb04c0ace8ba4d553c884ce4cede7a6e4649462abd7  ./integration_candidate/MEMORY.md\n44b1e682480f6878c63bd036a6ef5be72da97219dd8fa494141a0ed7b90407a4  ./integration_candidate/tests/test_startup_surface.py\n871a817662842e6dba2094b7d5b8ac215ee2000cc2d05ac7d8d0755444617540  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\nfd3f6a0551267e044df2396ae6039b3fcf372b21644804681417df9e40efd024  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/INTEGRATION_CANDIDATE_SHA256SUMS\nfbb9376559ea4b96edc7367b09863d6838f33012e1147b9efb0ffd305909a6e6  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md\n9ddd50c883801a513566f9ba1cbfaf7b6061ceae11b702e30282332321b3e903  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md\n11d8e4813af5631d5686a1f0a158998252ea3581ad974a5d1886e9ed82a403f1  ./integration_candidate/udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py\n599d3e067a48492063c22f1b95b7ec4b8ede921fdd2eeb6af3127e416c5a77ab  ./integration_candidate/verify_current_scientific_premises.py\n70876c8d95ede381d815d4481028a9bedb2ca6c99aced33463a4eb80779a13b7  ./integration_diff_check.json\n589861a8b1f1eae59294389bb2fe42f025abd8f69f65b9008bad37544600ba0d  ./integration_diff_check.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_diff_check.stdout\n62877237e1bd52ffed73bdd3aa081834f1fae313916f62c8edfd8d0829f6d11e  ./integration_diff_check_serial.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_diff_check_serial.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_diff_check_serial.stdout\nf421ee0eec0a666a90406360390886f29a11daad421bd12004d72b98fc23954d  ./integration_final_authentication.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_final_authentication.stderr\ndb64603cb57d6f0d345108bf11813c7f8404ee5c164130e620e7d235ffb6097c  ./integration_final_authentication.stdout\n44af5ecefac26d2ad20e067b2106630c1505cc96d420e5840517e2308c8c41a9  ./integration_fixed_edition.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_fixed_edition.stderr\n43f2dc88348ae125244b3fdf9f4e9479abbcbc191f9b6f8919911dfe6817e8d8  ./integration_fixed_edition.stdout\n9c9361e3c9ccd7b4bb520ce8213659b55ede842b7b6af9f4c698d0f2a6c406f5  ./integration_startup_tests.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_startup_tests.stderr\n999457a4a6b68f0afc42578e6631f91e60ad7ef2d09e916931711ba74035340f  ./integration_startup_tests.stdout\n6d78b7e73e9bebe43da5d9f5d4da275dfa2dedbbe31127191d4b65ace66000cf  ./integration_stock_account.json\n05caafd1959bd934d8f502cec98c71bdf8eee55152d6866212c5eccdf170d1e7  ./integration_stock_account.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./integration_stock_account.stdout\n8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef  ./run_capture.py\n4efe1f00cbd5b5390a85ac2c9184110fd6658a7157d770d0abbfc13bb64bc5ab  ./seal_review.py\nd6478d64249a1a86bcfdaffca426205d01ff1f35615203954b5331c24f0ab817  ./source_campaign_diff.json\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./source_campaign_diff.stderr\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./source_campaign_diff.stdout\n"
+      }
+    },
+    {
+      "origin": "/tmp/udt_g353_g356_integration_thOMA8/sealed",
+      "destination": "/home/udt-admin/udt_mass_codex/udt_g353_g356_conditional_banking_2026-09-06/integration",
+      "cmd": "rg --files --hidden --no-ignore -0 . | sort -z | xargs -0 sha256sum",
+      "original": {
+        "chunk_id": "3714a9",
+        "wall_time_seconds": 0.000002073,
+        "exit_code": 0,
+        "original_token_count": 247,
+        "output": "a4e288fb57dd3907212bd231a997df13d2d3798caac69cb7d6715285b84ccfff  ./ARCHIVE_FILES.txt\n0ef7c8fd92b26f4a82047b96dc99dd2f92c2bcd52de498ebabcf6da3d577b286  ./BANKING_COLLECTION_FAILURE_TOOL_RESULT.json\na9b5428133fb60a6b9361377f605535b436c1a706f3203d11d9fc426e2438e15  ./BANKING_TEST_TARGETED_TOOL_RESULT.json\n155624d78108c1580121129f14c22dca8f77bc7969a496b0e9f5d2fc0778cdb6  ./FROZEN_INTEGRATION_FILES_SHA256SUMS\n44e82bb07ad2888a51adefed0637bddfec1ea37fe2f6207c4601368853b95f9c  ./IMPLEMENTATION_DIFF.patch\n9227f0f136a81a14605b419af3c0ee959003d7e5ba5526323e1274d800944961  ./IMPLEMENTATION_NOTE.md\n81b770deb5a2b61d8f72f794acc35f1f89fdc2a8c16a36df72f7b77614a40857  ./READABILITY_REPAIR_TOOL_RESULT.json\nbd9f541b4b84ef457c7250a954ab8d006176b8ef677acd116118689b08bc534e  ./SHA256SUMS\nd00ba2e32341b5885365976b7fa66a3b7e75241ad81bb118d9b949d41c6486c3  ./STARTUP_TEST_FINAL_TOOL_RESULT.json\nb2562f63be3b85fb549a09ffd52a53fdabbb5b203056fdc8fdf1d3a20bcb0bb7  ./STARTUP_TEST_INITIAL_TOOL_RESULT.json\n"
+      },
+      "copied": {
+        "chunk_id": "3bd751",
+        "wall_time_seconds": 0.000002783,
+        "exit_code": 0,
+        "original_token_count": 247,
+        "output": "a4e288fb57dd3907212bd231a997df13d2d3798caac69cb7d6715285b84ccfff  ./ARCHIVE_FILES.txt\n0ef7c8fd92b26f4a82047b96dc99dd2f92c2bcd52de498ebabcf6da3d577b286  ./BANKING_COLLECTION_FAILURE_TOOL_RESULT.json\na9b5428133fb60a6b9361377f605535b436c1a706f3203d11d9fc426e2438e15  ./BANKING_TEST_TARGETED_TOOL_RESULT.json\n155624d78108c1580121129f14c22dca8f77bc7969a496b0e9f5d2fc0778cdb6  ./FROZEN_INTEGRATION_FILES_SHA256SUMS\n44e82bb07ad2888a51adefed0637bddfec1ea37fe2f6207c4601368853b95f9c  ./IMPLEMENTATION_DIFF.patch\n9227f0f136a81a14605b419af3c0ee959003d7e5ba5526323e1274d800944961  ./IMPLEMENTATION_NOTE.md\n81b770deb5a2b61d8f72f794acc35f1f89fdc2a8c16a36df72f7b77614a40857  ./READABILITY_REPAIR_TOOL_RESULT.json\nbd9f541b4b84ef457c7250a954ab8d006176b8ef677acd116118689b08bc534e  ./SHA256SUMS\nd00ba2e32341b5885365976b7fa66a3b7e75241ad81bb118d9b949d41c6486c3  ./STARTUP_TEST_FINAL_TOOL_RESULT.json\nb2562f63be3b85fb549a09ffd52a53fdabbb5b203056fdc8fdf1d3a20bcb0bb7  ./STARTUP_TEST_INITIAL_TOOL_RESULT.json\n"
+      }
+    }
+  ],
+  "final_startup_test": {
+    "launch": {
+      "cmd": "env PYTHONDONTWRITEBYTECODE=1 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 prlimit --as=536870912 --cpu=60 -- timeout 60s python3 -B -m pytest --noconftest -p no:cacheprovider --basetemp /tmp/udt-bank-final-tests-KnKt2A -q tests/test_startup_surface.py -k 'not test_full_foundational_premise_verifier_is_in_pytest'",
+      "chunk_id": "289e26",
+      "wall_time_seconds": 1.000692267,
+      "session_id": 12134,
+      "original_token_count": 21,
+      "output": "........................................................................ [ 67%]\n..."
+    },
+    "completion": {
+      "chunk_id": "feb6a9",
+      "wall_time_seconds": 0.000002172,
+      "exit_code": 0,
+      "original_token_count": 28,
+      "output": "................................                                      [100%]\n107 passed, 1 deselected in 1.51s\n"
+    },
+    "stream_format": "unified tool stdout/stderr; launch and completion concatenate in order",
+    "disposition": "PASS107; one full-audit test deselected because CLEAN_PREMISE_AUDIT.json records its separate actual clean execution"
+  },
+  "review_science_not_replayed": true,
+  "stock_current_account_check": "FAILED_FIXED_SNAPSHOT_INPUT_MISMATCH",
+  "fixed_edition_input_adapted_check": "PASS335_SAME_CODE_REPRODUCTION_ONLY",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "commit_and_push": "not yet performed at this record snapshot"
+}

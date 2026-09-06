@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/verify_metric_kernel_account.py", line 65, in <module>
+    raise SystemExit(main())
+  File "/home/udt-admin/udt_mass_codex/verify_metric_kernel_account.py", line 20, in main
+    expected = account.build_rows(previous_rows=actual)
+  File "/home/udt-admin/udt_mass_codex/update_metric_kernel_account.py", line 246, in build_rows
+    rows = registry_rows()
+  File "/home/udt-admin/udt_mass_codex/update_metric_kernel_account.py", line 177, in registry_rows
+    raise ValueError("registry bytes differ from the fixed scientific snapshot")
+ValueError: registry bytes differ from the fixed scientific snapshot

@@ -1,0 +1,20 @@
+{
+  "reviewer": "/root/banking_brief_fidelity_review",
+  "date": "2026-09-06",
+  "verdict": "NO_REQUIRED_DEFECT_BOUNDED_PACKAGING_AND_STATUS_FIDELITY",
+  "required_repairs": [],
+  "whole_stage_whitespace_returncode": 2,
+  "whole_stage_whitespace_status": "FAILED_RETAINED_NOT_RECLASSIFIED",
+  "single_authenticated_patch_exception": true,
+  "flagged_single_space_context_lines": 19,
+  "scoped_remaining_stage_returncode": 0,
+  "archived_patch_sha256": "44e82bb07ad2888a51adefed0637bddfec1ea37fe2f6207c4601368853b95f9c",
+  "permitted_changed_status_targets": 6,
+  "unchanged_other_review_targets": 8,
+  "historical_fourteen_target_manifest_unchanged": true,
+  "science_or_tests_repeated": false,
+  "prior_sixty_eight_file_seal_changed": false,
+  "runtime_model": "UNKNOWN",
+  "different_model": "UNTESTED",
+  "future_package_edits_commit_push": "NOT_CERTIFIED"
+}

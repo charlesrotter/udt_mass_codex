@@ -1,0 +1,100 @@
+{
+  "kind": "packaging_only_no_scientific_tests",
+  "changed_targets": [
+    {
+      "path": "LIVE.md",
+      "sha256": "2287a0f8834b8991ad0a1dd055969dd50fd49c522f36d5bfdc2c3dc8f5e18296",
+      "diff": "--- reviewed/LIVE.md\n+++ final/LIVE.md\n@@ -72,7 +72,7 @@\n   obstructions; the local harmonic-wave fixed-root phase class; and a different-phase product\n   criterion with positive and failed geometric realizations. All supplied data, CHOSEN recipes,\n   optional hypotheses and review limitations survive. No physical content or counting law is adopted.\n-  Final banking integration checks are pending; the scientific campaign itself is complete.\n+  Banking integration/fidelity checks passed; the scientific campaign is complete.\n \n Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G356. Use `INDEX.md` for\n current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical\n@@ -95,7 +95,7 @@\n \n ### Next gate\n \n-G353--G356 conditional mathematical banking is owner-authorized; final integration checks pending.\n+G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.\n The four-step campaign is complete, not waiting for a fifth compatibility example.\n The G352 physical-realization question remains: physical identification remains OPEN. Its\n owner-provisional premises and chosen product are unchanged; a metric-native carried object is\n"
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "608da2d997e6e28a2adb62355c87d7479fb3770c4a5d8c0f16ba53dd52504383",
+      "diff": "--- reviewed/HANDOFF.md\n+++ final/HANDOFF.md\n@@ -40,7 +40,7 @@\n completed four-step content-bridge campaign. Original frozen evidence remains unchanged.\n Source-bounded nonselection, optional symmetry/conversion limits, the harmonic-wave root/phase\n class, and the different-phase product criterion retain all assumptions and review limitations.\n-CHOSEN recipes are not physical content/count laws. Final integration checks are pending.\n+CHOSEN recipes are not physical content/count laws. Banking integration/fidelity checks passed.\n \n Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.\n Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in\n@@ -55,7 +55,7 @@\n - `udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/`\n - `udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/`\n \n-Next: G353--G356 conditional mathematical banking is owner-authorized; final integration checks pending.\n+Next: G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.\n The prior campaign is complete. The G352 physical-realization remainder is not closed:\n physical identification remains OPEN; no metric-native carried object is physically selected.\n Keep the owner-provisional premises, CHOSEN recipes and product explicit.\n"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "dd909c62224910137879755fdd08dc59529d8a930b9c90543ad986460f15849e",
+      "diff": "--- reviewed/CURRENT_RESEARCH_PROGRAM.md\n+++ final/CURRENT_RESEARCH_PROGRAM.md\n@@ -66,8 +66,8 @@\n \n ## Current next gate\n \n-The four-step campaign is complete. G353--G356 conditional mathematical banking is owner-authorized,\n-with final integration checks pending; physical identification remains OPEN. Its CHOSEN curvature/\n+The four-step campaign and owner-authorized G353--G356 conditional mathematical banking are complete;\n+physical identification remains OPEN. Its CHOSEN curvature/\n derivative recipes, optional naturality class and fixed-label product conditions remain explicit.\n No fifth compatibility example is requested.\n \n"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "dfca2586d98b035e8de5f0b316f9fbf27b143d6e1c61cc926eb0870cff61eaeb",
+      "diff": "--- reviewed/CURRENT_SCIENTIFIC_PREMISES.md\n+++ final/CURRENT_SCIENTIFIC_PREMISES.md\n@@ -67,7 +67,7 @@\n ## Scale, carrier, action, and observations\n \n G353--G356 are owner-authorized BANKED_DERIVED_CONDITIONAL results, VERIFIED-WITH-CAVEATS,\n-with final integration checks pending. They adopt no physical premise or recipe and establish no\n+with completed integration/fidelity checks. They adopt no physical premise or recipe and establish no\n physical counting. Their exact original CB claims, local domains, optional naturality/weight/global\n hypotheses, supplied data and review limitations are controlled by\n `udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md` and its unchanged source campaign.\n"
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "0a793371ead8f707c93e7414402dec292c1e09241c8ed4f16c6c3bcf3121dbc0",
+      "diff": "--- reviewed/MEMORY.md\n+++ final/MEMORY.md\n@@ -26,7 +26,7 @@\n ## Open gate\n \n G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;\n-final integration checks are pending. Optional conditions and CHOSEN recipes are not physical laws.\n+integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.\n G352 physical identification remains OPEN. No fifth step or new campaign is authorized.\n Charles must choose the next direction; the recommendation is finite-readout common-measure\n constraints, with joint metric-probe realizability and lawful-data propagation as distinct alternatives.\n"
+    },
+    {
+      "path": "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md",
+      "sha256": "750fd4758e87c7c99f58786d5ed4e1ea4b2e1d1386032a7d1f9a106b1d3ad8ff",
+      "diff": "--- reviewed/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\n+++ final/udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md\n@@ -1,8 +1,8 @@\n # G353--G356 conditional mathematical banking\n \n Date: 2026-09-06. Owner: Charles Rotter.\n-Status: OWNER AUTHORIZATION RECEIVED; integration checks/review pending.\n-Target disposition: BANKED_DERIVED_CONDITIONAL, VERIFIED-WITH-CAVEATS.\n+Status: BANKED_DERIVED_CONDITIONAL, VERIFIED-WITH-CAVEATS, OWNER_AUTHORIZED.\n+The authorized mathematical banking and integration/fidelity gates are complete.\n This is mathematical result banking, NOT a new physical premise or canon.\n \n ## Authorization and exact source edition\n@@ -166,6 +166,14 @@\n \n ## Integration and fixed-edition boundary\n \n+The clean339-row premise audit passed (actual exit0,397.957934201 seconds,\n+empty stderr); CLEAN_PREMISE_AUDIT.json preserves the command and streams.\n+Self-contained startup tests passed107 with the long audit test separately\n+deselected. Fresh source/registry/tracking/code fidelity found no required\n+defect; review/INTEGRATION_FIDELITY_REVIEW.md records its exact scope,\n+independence limits and permitted procedural completion. This banking does\n+not upgrade the inherited scientific premises or the original recipe.\n+\n The registry grows additively from335 to339 rows; no original row changes.\n Original campaign/source manifests remain historical bindings to c92588ad.\n Their then-current registry hash is authenticated against that snapshot, not\n"
+    }
+  ],
+  "unchanged_targets": [
+    "AGENTS.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "INDEX.md",
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py",
+    "udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md",
+    "udt_g353_g356_conditional_banking_2026-09-06/WORK_ORDER.md",
+    "udt_g353_g356_conditional_banking_2026-09-06/check_fixed_edition.py"
+  ],
+  "execution_record_diff": "--- reviewed/EXECUTION_RECORD.md\n+++ final/EXECUTION_RECORD.md\n@@ -1,13 +1,13 @@\n # Mathematical banking \u2014 compact execution record\n \n-Status: AUTHORIZED INTEGRATION; clean full audit/final fidelity gates pending.\n+Status: AUTHORIZED BANKING GATES COMPLETE; commit/push handoff in progress.\n This is not another research campaign. No new scientific construction occurred.\n \n Starting synchronized grok HEAD:\n c92588ad31f3fd79868378e6e3a318af2de1235f.\n The completed four-step campaign remains byte-identical at its351-file edition.\n-Initial bank-package/registry drafts are recoverable work, not a claim that\n-pending integration checks have already passed.\n+Initial pending bank-package/registry drafts remain preserved in the review\n+archive. Their former pending gates are now closed by the actual checks below.\n \n ## Authorization and evidence\n \n@@ -24,10 +24,10 @@\n instruction files supply no scientific premise. The integration implementer\n is not counted as an independent reviewer of its own changes.\n \n-Fresh /root/banking_brief_fidelity_review returned an initial\n-FIDELITY_REVIEWED_WITH_CAVEATS for BANKING_RECORD.md and the next-direction\n-brief: no required correction. Final registry/tracking/code fidelity is\n-separate and still pending. Exact model UNKNOWN; different-model and human\n+Fresh /root/banking_brief_fidelity_review returned\n+FIDELITY_REVIEWED_WITH_CAVEATS for BANKING_RECORD.md, the next-direction\n+brief and the final registry/tracking/code integration: no required correction.\n+Both initial and follow-up reports are preserved in review/. Exact model UNKNOWN; different-model and human\n specialist axes UNTESTED. No new theorem or empirical review is claimed.\n \n ## Scope of edits\n@@ -39,9 +39,11 @@\n disk action, worktree pruning, protected payload read or old campaign edit.\n \n The fourteen intended integration files froze in\n-INTEGRATION_CANDIDATE_SHA256SUMS before final integration fidelity. Final\n-pending-to-complete wording may change only after actual gate completion;\n-that factual procedural transition does not strengthen the reviewed science.\n+INTEGRATION_CANDIDATE_SHA256SUMS before final integration fidelity. Following\n+the actual gate completion, only the reviewed pending-to-complete wording\n+and actual check records changed. That manifest remains a HISTORICAL freeze;\n+it is not asserted against those six final status-edited files. The final\n+package manifest binds final bytes. No reviewed scientific statement changed.\n \n ## Actual checks and retained diagnostics\n \n@@ -63,12 +65,28 @@\n   could not map under512 MiB. Its actual diagnostic is retained.\n - The initial full premise audit overlapped the four-row addition at21:19:58\n   UTC and exited1 at the obsolete335-row count. It is NOT a promotion gate.\n-  A clean post-edit audit started21:30 UTC with900-second wall and2 GiB address\n-  space caps; its actual final result is pending here. No duplicate full audit.\n+  The clean post-edit audit started2026-09-06T21:29:47.669888+00:00 with\n+  900-second wall and2 GiB address-space caps; actual exit0 after397.957934201s,\n+  empty stderr and339-row/G353--G356 PASS. CLEAN_PREMISE_AUDIT.json preserves\n+  the actual command and streams. No duplicate full audit by the reviewer.\n - git diff --check and scoped preservation checks pass. Original46 unrelated\n   status entries and manuscript/sidecar/canon hashes are unchanged.\n \n Exact implementation captures and failures are sealed in integration/.\n+Fresh fidelity evidence is sealed in review/:68 files,67 manifest payloads.\n+The reviewer independently replayed startup107/1deselected and both stock\n+account failure/adapted fixed-edition pass. Follow-up report SHA256:\n+2c1801fb0bb2eb3c6e7ff3373e998d7e60c5c568e41dc74b35ea45f3fc0205b8.\n+Review manifest SHA256:\n+1ab640fbdd3c3d554d362d3fdbb70de61a5c8b28a5fd26b4cb4ae4f11e7ceb9c.\n+The reviewer explicitly permitted only the observed procedural completion\n+updates after gates passed; it did not certify future commit/push in advance.\n+The later whole-stage whitespace check returned exit2 solely for standard\n+single-space blank-context lines in the sealed IMPLEMENTATION_DIFF.patch.\n+That FAILED whole-stage check remains recorded, not passed. The same check\n+excluding only that exact authenticated evidence file returned exit0; no code,\n+guard, config or sealed patch was changed. STAGED_WHITESPACE_DIAGNOSTIC.json\n+preserves the actual repeated diagnostic and scoped alternative.\n INITIAL_CHECK_RECORDS.json retains parent checks and read-only display\n diagnostics, including a wrong-cwd hash display whose compound-command exit0\n is NOT treated as success of each individual command. No untruncated capture\n",
+  "execution_record_sha256": "6da6b0e477c174da2acc64d8cc6eda9318beee2a125261488bd7a3f806529649",
+  "archived_patch_sha256": "44e82bb07ad2888a51adefed0637bddfec1ea37fe2f6207c4601368853b95f9c",
+  "whole_stage_command": [
+    "git",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "index.threads=1",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "whole_stage_returncode": 2,
+  "whole_stage_stdout": "udt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:36: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:37: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:152: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:153: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:155: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:163: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:164: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:170: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:172: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:195: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:196: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:326: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:327: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:341: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:380: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:434: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:435: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:500: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:501: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:500: new blank line at EOF.\n",
+  "whole_stage_stderr": "",
+  "flagged_blank_context_lines": [
+    36,
+    37,
+    152,
+    153,
+    155,
+    163,
+    164,
+    170,
+    172,
+    195,
+    196,
+    326,
+    327,
+    341,
+    380,
+    434,
+    435,
+    500,
+    501
+  ],
+  "scoped_command": [
+    "git",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "index.threads=1",
+    "diff",
+    "--cached",
+    "--check",
+    "--",
+    ".",
+    ":!udt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch"
+  ],
+  "scoped_returncode": 0,
+  "scoped_stdout": "",
+  "scoped_stderr": "",
+  "historical_candidate_manifest_unchanged": true,
+  "staged_diagnostic_sha256": "a2f6ff3d1abd1f131123fd5e47eeb1a9d09f8286f02544510e8886fc59455dd4"
+}

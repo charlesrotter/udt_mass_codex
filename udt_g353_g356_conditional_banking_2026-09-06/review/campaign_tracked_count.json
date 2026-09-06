@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "git ls-tree -r --name-only c92588ad31f3fd79868378e6e3a318af2de1235f -- udt_g351_g352_content_bridge_campaign_2026-09-06 | wc -l"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T21:29:01.825186+00:00",
+  "duration_seconds": 0.004584457998134894,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7344
+}

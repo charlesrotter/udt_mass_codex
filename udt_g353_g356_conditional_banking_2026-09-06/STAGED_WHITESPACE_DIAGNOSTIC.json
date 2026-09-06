@@ -1,0 +1,21 @@
+{
+  "initial_whole_stage_check": {
+    "chunk_id": "8d5dd8",
+    "wall_time_seconds": 0.000002406,
+    "exit_code": 2,
+    "original_token_count": 560,
+    "output": "udt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:36: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:37: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:152: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:153: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:155: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:163: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:164: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:170: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:172: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:195: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:196: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:326: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:327: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:341: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:380: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:434: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:435: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:500: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:501: trailing whitespace.\n+ \nudt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch:500: new blank line at EOF.\n"
+  },
+  "disposition": "Actual exit2 retained, NOT PASSED. Every flagged line is a literal single-space unified-diff blank-context line in the immutable archived IMPLEMENTATION_DIFF.patch, including its final context blank lines. This is evidence syntax, not a source-code trailing-whitespace defect.",
+  "retained_patch_sha256": "44e82bb07ad2888a51adefed0637bddfec1ea37fe2f6207c4601368853b95f9c",
+  "scoped_remaining_stage_check": {
+    "cmd": "git diff --cached --check -- . ':!udt_g353_g356_conditional_banking_2026-09-06/integration/IMPLEMENTATION_DIFF.patch'",
+    "chunk_id": "8d6e42",
+    "wall_time_seconds": 0.00000215,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "scope": "Only this one authenticated archived diff artifact excluded; all other staged files checked unchanged. No source formatting guard, persistent Git configuration or frozen evidence was changed.",
+  "capture_note": "The first orchestrated staged check stopped before saving its result; this is the actual repeated diagnostic, not an invented original capture."
+}

@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-05
+## CURRENT STATE — 2026-09-06
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -67,7 +67,14 @@ completion consequence—not a local input, wall, center, or numerical scale.
   crossings, G351's `p=0` density, and all other readout types remain distinct/open. No light,
   energy, source, population, detector, distance, history, matter, scale, `X_max`, or canon follows.
 
-Authority: the exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G352. Use `INDEX.md` for
+- G353--G356 bank the completed four-step campaign as owner-authorized conditional mathematics,
+  VERIFIED-WITH-CAVEATS: source-bounded fixed-query nonselection; optional naturality/conversion
+  obstructions; the local harmonic-wave fixed-root phase class; and a different-phase product
+  criterion with positive and failed geometric realizations. All supplied data, CHOSEN recipes,
+  optional hypotheses and review limitations survive. No physical content or counting law is adopted.
+  Banking integration/fidelity checks passed; the scientific campaign is complete.
+
+Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G356. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -88,12 +95,17 @@ Do not stage, modify, mine, or cite without dispatch:
 
 ### Next gate
 
-Starting from G352's externally accepted conditional clock-rate readout, MAP and PONDER the
-physical-realization question: whether any metric-native carried object realizes the required phase
-and conserved label measure. Do not call
-the readout light, energy, brightness, or detector response and do not choose a source or population
-by familiarity. The next bounded test must separate what the metric supplies from the G351/G352
-owner-provisional premises and chosen product realization. History, matter, scale, `X_max`, and
-canon remain open; no derivation or computation begins until the realization question and its
-falsification ceiling are explicit.
+G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.
+The four-step campaign is complete, not waiting for a fifth compatibility example.
+The G352 physical-realization question remains: physical identification remains OPEN. Its
+owner-provisional premises and chosen product are unchanged; a metric-native carried object is
+not physically selected by the banked mathematical realizations.
+Charles must choose the next direction; no new campaign is authorized. The reviewed proposal
+compares finite-readout common-measure constraints (recommended), joint metric-probe realizability,
+and lawful-data propagation of a declared phase/product condition. See
+`udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
+Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
+or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
+Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
+archive-dependent tasks only. The central manuscript remains its fixed through-G352 edition.
 <!-- STARTUP_CURRENT_END -->

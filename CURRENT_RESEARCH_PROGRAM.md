@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-09-05
+Date: 2026-09-06
 
-`LIVE.md` controls status; the exact 335-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -40,6 +40,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G350 | Exact `R^p A^q` classification in the declared local multiplicative class | Selection of weights, conservation, source content, or cross-label/caustic law |
 | G351 | Owner-provisional source-free label-measure conservation; regular density has `R^p A^-1` | Selection of `p`, source/population, cross-label physics, detector, or light |
 | G352 | Owner-provisional continuous clock-rate readout; chosen product realization has `T_clock=R A^-1` | Atomic crossing rate, physical carried object, source/population, detector, light, or energy |
+| G353--G356 | Conditional nonselection, optional conversion bounds, harmonic-wave phase class, different-phase product | Physical content/counting or recipe adoption; universal no-go; selected data |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
 formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
@@ -65,10 +66,17 @@ scale follows. Imported transfer in earlier observational controls stays importe
 
 ## Current next gate
 
-Starting from G352's externally accepted conditional clock-rate result, MAP/PONDER the
-physical-realization question: does any metric-native carried object supply the phase and conserved label
-measure required by that readout? Keep the G351/G352 premises and chosen product factorization
-visible. Do not identify the object with light, energy, brightness, detector response, a source, or
-a population by familiarity. No derivation or computation begins until the bounded realization
-question and falsification ceiling are explicit. History, matter, scale, `X_max`, and canon remain
-open.
+The four-step campaign and owner-authorized G353--G356 conditional mathematical banking are complete;
+physical identification remains OPEN. Its CHOSEN curvature/
+derivative recipes, optional naturality class and fixed-label product conditions remain explicit.
+No fifth compatibility example is requested.
+
+Charles's next choice is among the bounded directions in
+`udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`:
+finite-readout common-measure constraints (recommended), joint clock/ruler/null-probe realizability,
+or propagation of a declared phase/product condition under lawful metric development.
+These are source-grounded proposals, not launched derivations; no new campaign is authorized.
+The G352 physical-realization gap does not imply that a new physical premise is necessary.
+Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
+not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains
+unchanged through G352. History, matter, scale, `X_max`, and canon remain open.
