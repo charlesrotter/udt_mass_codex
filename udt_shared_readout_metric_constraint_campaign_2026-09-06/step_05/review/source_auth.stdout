@@ -1,0 +1,62 @@
+{
+  "accepted_pin": "70034a6faa9264bf054eb473d5eb7a0889f3d2de",
+  "sources": [
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429",
+      "matches_pin": true
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "9fe05975201708714983e03ca592f75bd40ccb16ea4079b7e4a33c9dfe4b48c1",
+      "matches_pin": true
+    },
+    {
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+      "matches_pin": true
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+      "sha256": "4f1925a1d11d00d55bea6bf3858cbedf2878e63c8e4e14e5a22211b4e03d9f8f",
+      "matches_pin": true
+    },
+    {
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+      "sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+      "matches_pin": true
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/WORK_ORDER.md",
+      "sha256": "61b683a90d7d4416256d1cf08779a981e56ed7c52510e9dc2cfb5e4c4f895da8"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/QUESTION.md",
+      "sha256": "175852ee10087205843f6df70b8a08e340f710da771d2bc2dc9ddc474c1a292c"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md",
+      "sha256": "6fd638a600a6ef59125001471d432c463201179713811f6b74a25642e1850583"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/REVIEW_RECORD.md",
+      "sha256": "5ce2b33e28e1e74b5ff5dda9e239fffbb1d0c45e0b39a1bb48feffb2d9c64e3f"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md",
+      "sha256": "41bb97aa12ba9d8e30d34d73a324095103a54c520d154889a8b514c1f036b5cf"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/REVIEW_RECORD.md",
+      "sha256": "ea10191f3be94e2d68ebb281f8d41aa871b7e4bf907d5a1e7ea40bd25bec83d2"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/review/PHASE_B_ADVERSARIAL_REVIEW.md",
+      "sha256": "56c2450bacfdb63d2c9ef7cc2c12f9c70db1c3d318b758786664636caca84707"
+    },
+    {
+      "path": "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "sha256": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef"
+    }
+  ]
+}

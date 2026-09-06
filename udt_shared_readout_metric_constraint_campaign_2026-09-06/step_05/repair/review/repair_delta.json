@@ -1,0 +1,16 @@
+{
+  "command": [
+    "diff",
+    "-u",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/check_exact.py",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/check_exact.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T23:05:56.049386+00:00",
+  "duration_seconds": 0.0014969339972594753,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7204
+}

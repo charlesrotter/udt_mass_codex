@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "/tmp/tri_step05_focused.UkLQok/reapply_original_false_pass.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T23:06:11.735152+00:00",
+  "duration_seconds": 0.01831228000082774,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12672
+}

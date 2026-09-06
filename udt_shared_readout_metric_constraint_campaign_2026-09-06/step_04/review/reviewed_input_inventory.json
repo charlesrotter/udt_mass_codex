@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "sha256sum udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/{QUESTION.md,CANDIDATE_ARGUMENT.md,CANDIDATE_SHA256SUMS,SOURCE_SHA256SUMS,DIAGNOSTIC_PLAN.md,check_symbolic.py,check_symbolic_initial_failed.py,MUTATION_DISPOSITION.json,symbolic_version.*,author_symbolic.*,author_symbolic_recheck.*,jacobian_diagnostic.*,mutant_past_root.*,mutant_omit_spatial_force.*,mutant_wrong_characteristic_sign.*,mutant_allow_zero.*} && sha256sum .claude/skills/{no-shortcuts,completeness-map,verifier-before-record,solution-space-not-imposition,solver-first}/SKILL.md"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:58:29.987611+00:00",
+  "duration_seconds": 0.0034851300006266683,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7404
+}

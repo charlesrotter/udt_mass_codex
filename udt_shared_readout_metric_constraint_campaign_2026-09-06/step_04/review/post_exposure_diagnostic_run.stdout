@@ -1,0 +1,33 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "projector_vs_coordinate_differences": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "axis_actual": "Matrix([[1, 0, 0], [0, (r0 - t)/r0, 0], [0, 0, (r0 - t)/r0]])",
+  "axis_expected": "Matrix([[1, 0, 0], [0, 1 - t/r0, 0], [0, 0, 1 - t/r0]])",
+  "structural_equal": false,
+  "exact_entrywise_differences": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "critical_point_real_normal_roots": "{0}",
+  "wrong_jacobian_rejected": true,
+  "nonzero_critical_normal_rejected": true,
+  "classification": "representation-only structural-equality defect; exact zero testing is a valid repair"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "post_exposure_diagnostic.py"
+  ],
+  "cwd": "/tmp/udt-step04-independent-review.M7qd40",
+  "started_utc": "2026-09-06T22:57:34.552835+00:00",
+  "duration_seconds": 0.436779468000168,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 47724
+}

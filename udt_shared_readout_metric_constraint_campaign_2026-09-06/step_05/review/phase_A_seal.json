@@ -1,0 +1,22 @@
+{
+  "command": [
+    "sha256sum",
+    "PHASE_A_NOTES.md",
+    "independent_exact.py",
+    "independent_exact_run.stdout",
+    "independent_exact_run.stderr",
+    "independent_exact_run.json",
+    "authenticate_sources.py",
+    "source_auth.stdout",
+    "source_auth.stderr",
+    "source_auth.json"
+  ],
+  "cwd": "/tmp/tri_step05_review.NCKABt",
+  "started_utc": "2026-09-06T23:00:09.123652+00:00",
+  "duration_seconds": 0.0014272260013967752,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7360
+}

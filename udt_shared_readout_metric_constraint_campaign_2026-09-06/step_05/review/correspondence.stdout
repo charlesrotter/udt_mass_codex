@@ -1,0 +1,74 @@
+{
+  "baseline_byte_match": true,
+  "mutations": [
+    {
+      "mutant": "unrelaxed",
+      "first_failure": "sharp_boundary_not_rejected"
+    },
+    {
+      "mutant": "wrong_sign",
+      "first_failure": "sharp_boundary_not_rejected"
+    },
+    {
+      "mutant": "missing_half",
+      "first_failure": "original_weighted_integrals_reconstruct"
+    },
+    {
+      "mutant": "fixed_weights",
+      "first_failure": "original_weighted_integrals_reconstruct"
+    }
+  ],
+  "false_pass_overreject": {
+    "assertions": 377,
+    "constructed_records": 5,
+    "control_records": 625,
+    "evidence_type": "same-context exact regression and controls, not independent proof",
+    "guard_groups": [
+      "closed_form_threshold_equivalence",
+      "constructed_mass_positivity",
+      "constructed_weight_bounds",
+      "constructed_window_amounts",
+      "explicit_original_integral_sharpness",
+      "fixed_unit_weight_counterexample",
+      "observer_future_unit",
+      "one_positive_excluded_below_one",
+      "original_frequency_contraction",
+      "original_weighted_integrals_reconstruct",
+      "pointwise_pair_certificate",
+      "sharp_boundary_not_rejected",
+      "strict_subthreshold_exclusion",
+      "target_threshold",
+      "triangle_interval_bounds",
+      "zero_record_separate"
+    ],
+    "mutant": null,
+    "not_checked": [
+      "arbitrary measurable integration theorem",
+      "actual calibration bound",
+      "actual device identity",
+      "physical content",
+      "arbitrary fixed-kernel sufficiency"
+    ],
+    "rejected_records": 620,
+    "sharpness_masses": [
+      "5/4",
+      "0",
+      "5/4"
+    ],
+    "sharpness_original_integrals": [
+      "1",
+      "1",
+      "3"
+    ],
+    "sharpness_weights": [
+      "4/5",
+      "4/5",
+      "6/5"
+    ],
+    "status": "PASS",
+    "strict_subthreshold_residual": "-1/2",
+    "target_threshold": "1/5"
+  },
+  "phase_A_seal_unchanged": true,
+  "author_manifests_unchanged": true
+}

@@ -1,0 +1,36 @@
+{
+  "exact_declared_delta_only": true,
+  "baseline_byte_match": true,
+  "baseline_assertions": 1887,
+  "guard_groups": 17,
+  "record_counts": [
+    625,
+    182,
+    443
+  ],
+  "registered_mutations": [
+    {
+      "mutant": "unrelaxed",
+      "first_failure": "sharp_boundary_not_rejected"
+    },
+    {
+      "mutant": "wrong_sign",
+      "first_failure": "sharp_boundary_not_rejected"
+    },
+    {
+      "mutant": "missing_half",
+      "first_failure": "original_weighted_integrals_reconstruct"
+    },
+    {
+      "mutant": "fixed_weights",
+      "first_failure": "original_weighted_integrals_reconstruct"
+    },
+    {
+      "mutant": "reject_nonzero",
+      "first_failure": "record_feasibility_not_silently_discarded"
+    }
+  ],
+  "original_false_pass_now_caught": true,
+  "initial_candidate_sources_review_and_repair_hashes_verified": true,
+  "verdict": "VERIFIED-WITH-CAVEATS; focused regression repair accepted; no theorem or premise change"
+}

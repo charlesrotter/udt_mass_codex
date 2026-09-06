@@ -1,0 +1,1 @@
+{"checks": 1542, "conclusion": "exact finite regression; analytic notes own universal quantifiers", "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]", "records": 1080, "threshold_integrals": ["1", "1", "3"]}

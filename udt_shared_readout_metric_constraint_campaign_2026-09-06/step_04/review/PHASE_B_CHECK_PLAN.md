@@ -1,0 +1,11 @@
+# Phase B bounded checks
+
+Parent authorized Phase B after candidate freeze. Expected argument SHA256: 42f4c5881c9bf2f914b7682e50b030a30e50784fc9a671b2c77a2f427ff944ad; question SHA256: 7d78ffd9985e33fb25dd0df8f0b6d1cc5d93649d3aded5f56a0fdcdc6c3d5ddb. Both matched before reading candidate. Stage A notes and implementation remain unedited.
+
+Exposure now includes current candidate, author check code and preserved failed script, diagnostic plan, original failure and diagnostic/corrected outputs, mutation disposition, all source/candidate manifests, and extra cited G322/G351/SC1 scope documents. The solver-first protocol has been read for the diagnostic history. No current Step02/03 proof/code/results is used.
+
+The author diagnostic plan is replayed in its unchanged bounded scope. Actual original failed script, corrected script and four mutant paths have been rerun through the inspected shared capture wrapper, sequentially, at 512 MiB/60 seconds per child. Expected failure exits are evidence, not a failed baseline silently discarded. Raw outputs will be compared with the authored saved quantities; only stdout equality is expected because execution metadata necessarily differs.
+
+One additional independent post-exposure diagnostic is fixed here: derive the incoming radial projection derivative via the explicit radial/tangential projector decomposition; compare all entries with coordinate differentiation and check the reported structural-vs-algebraic equality at the positive radial axis. Confirm the real roots of the critical-point null quadratic are exactly {0}. Deliberately wrong Jacobian and nonzero critical normal are negative controls. Use exact symbolic zero tests only, no tolerance or altered formula/domain. Stop on any unexplained discrepancy and retain it. This check supplements the pre-exposure independently implemented full Jacobian/non-diagonal-metric checks; it does not certify the smooth ODE theorem or the compact maximum argument.
+
+Review conclusion ceiling remains conditional SC4-JET/LOCAL/COMPACT and source fidelity only. No scientific promotion or code change in the campaign is authorized in this review. The post-exposure diagnostics are not called blind or independent of the disclosed defect description.

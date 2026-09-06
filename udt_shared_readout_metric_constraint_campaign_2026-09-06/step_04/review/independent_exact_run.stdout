@@ -1,0 +1,29 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "Euler_positive_degree_one": true,
+    "full_original_null_residual": true,
+    "time_parametrized_ray_is_null": true,
+    "canonical_variation_PdX_constant": true,
+    "non_diagonal_spatial_metric_positive_at_control": true,
+    "future_root_sign": true,
+    "past_root_rejected": true,
+    "arbitrary_independent_normal_rejected": true,
+    "pullback_alone_misses_normal": true,
+    "critical_point_forces_zero_full_null_covector": true,
+    "flat_characteristic_momentum_unit": true,
+    "flat_projection_determinant": true,
+    "flat_variation_matches_initial_phase": true,
+    "focus_rank_one": true,
+    "focus_nonzero_momentum": true,
+    "focus_position_zero": true,
+    "flat_spacetime_phase_original_residual": true,
+    "flat_phase_matches_initial_real_data": true
+  },
+  "passed": 18,
+  "total": 18,
+  "exact_control_norm_squared": "109",
+  "focus_J": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 1]])",
+  "scope": "Exact symbolic controls, not proof of ODE theorem or compact extremum argument."
+}

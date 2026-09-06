@@ -1,0 +1,35 @@
+--- udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/check_exact.py	2026-09-06 18:58:30.445339334 -0400
++++ udt_shared_readout_metric_constraint_campaign_2026-09-06/step_05/repair/check_exact.py	2026-09-06 19:03:56.841796649 -0400
+@@ -1,11 +1,11 @@
+-"""Exact controls for bounded-weight overlap constraints, not physical calibration."""
++"""Same-premise repaired controls; initial frozen check_exact.py remains unchanged."""
+ import argparse
+ from fractions import Fraction as Q
+ from itertools import product
+ import json
+ 
+ ap = argparse.ArgumentParser()
+-ap.add_argument('--mutant', choices=('unrelaxed', 'wrong_sign', 'missing_half', 'fixed_weights'))
++ap.add_argument('--mutant', choices=('unrelaxed', 'wrong_sign', 'missing_half', 'fixed_weights', 'reject_nonzero'))
+ mode = ap.parse_args().mutant
+ guards = []
+ 
+@@ -28,6 +28,8 @@
+ 
+ 
+ def construct(z, e):
++    if mode == 'reject_nonzero' and any(z):
++        return None
+     if min(z) < 0 or min(residuals(z, e)) < 0:
+         return None
+     a, b = 1-e, 1+e
+@@ -67,6 +69,9 @@
+     for zz in product((Q(-1), Q(0), Q(1, 2), Q(1), Q(3)), repeat=3):
+         control_records += 1
+         result = construct(zz, e)
++        feasible = min(zz) >= 0 and (sum(zz) == 0 or
++                    e >= max(Q(0), 2*max(zz)/sum(zz)-1))
++        check('record_feasibility_not_silently_discarded', (result is not None) == feasible)
+         if result is None:
+             rejected += 1
+             continue

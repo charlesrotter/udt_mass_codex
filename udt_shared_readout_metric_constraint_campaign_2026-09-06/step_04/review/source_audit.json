@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "git diff --exit-code 70034a6faa9264bf054eb473d5eb7a0889f3d2de -- CURRENT_SCIENTIFIC_PREMISES.tsv udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md udt_g335_local_pair_response_persistence_2026-09-03/AUDIT_REPORT.md udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md && sha256sum CURRENT_SCIENTIFIC_PREMISES.tsv AGENTS.md CLAUDE.md CROSS_MODEL_VERIFY.md udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md udt_g335_local_pair_response_persistence_2026-09-03/AUDIT_REPORT.md udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md udt_shared_readout_metric_constraint_campaign_2026-09-06/WORK_ORDER.md udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/QUESTION.md udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:44:41.964975+00:00",
+  "duration_seconds": 0.014634261002356652,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13632
+}
