@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "/tmp/tri_step02_review.TH0g73/independent_exact.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:28:11.056064+00:00",
+  "duration_seconds": 0.12901594399954774,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17088
+}

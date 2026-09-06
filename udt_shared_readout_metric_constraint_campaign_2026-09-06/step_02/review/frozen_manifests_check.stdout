@@ -1,0 +1,11 @@
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/QUESTION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/check_exact.py: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/author_exact.stdout: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/MUTATION_DISPOSITION.json: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md: OK
+udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/REVIEW_RECORD.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_01/review/STAGE_B_ADVERSARIAL_REVIEW.md: OK

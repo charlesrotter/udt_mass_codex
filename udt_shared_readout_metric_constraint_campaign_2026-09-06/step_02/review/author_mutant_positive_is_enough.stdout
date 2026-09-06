@@ -1,0 +1,1 @@
+{"guard": "triangle_nonnegative_equivalence", "mutant": "positive_is_enough", "passed_before_failure": ["actual_window_preimages", "exact_inverse_reconstructs_records"], "status": "FAIL"}

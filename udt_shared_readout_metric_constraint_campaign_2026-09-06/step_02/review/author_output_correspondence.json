@@ -1,0 +1,15 @@
+{
+  "command": [
+    "cmp",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/author_exact.stdout",
+    "/tmp/tri_step02_review.TH0g73/author_baseline.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:30:59.674069+00:00",
+  "duration_seconds": 0.0017355009986204095,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7536
+}

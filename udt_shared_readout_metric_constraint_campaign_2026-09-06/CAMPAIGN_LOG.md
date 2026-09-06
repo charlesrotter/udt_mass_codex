@@ -1,6 +1,6 @@
 # Adaptive campaign — compact log
 
-Status: ACTIVE. No new result reviewed or promoted yet.
+Status: ACTIVE. Steps01--03 reviewed with caveats; no result promoted.
 Budget: six substantive reviewed steps or eight hours; start22:02:38 UTC
 2026-09-06, deadline06:02:38 UTC2026-09-07.
 
@@ -34,17 +34,37 @@ Budget: six substantive reviewed steps or eight hours; start22:02:38 UTC
    Candidate/work order checkpoint06d523db committed and pushed; HEAD/origin
    divergence0/0. Subsequent git-source authentication matched all16 sources
    to70034a6f. Source hashes are correspondence evidence, not scientific proof.
-2. Candidate frozen: SC2-CONE, SC2-OVERLAP, SC2-INVISIBLE; direct review pending
-   from fresh tri_step02_review. Argument SHA256
+2. REVIEWED-WITH-CAVEATS: SC2-CONE, SC2-OVERLAP, SC2-INVISIBLE; fresh
+   tri_step02_review found no required defect,0/1 repairs. Argument SHA256
    41bb97aa12ba9d8e30d34d73a324095103a54c520d154889a8b514c1f036b5cf.
    Author22 exact guard groups passed; all4 changed-formula paths failed
    intended guards. No unexpected failure. No reviewer findings before freeze.
-3. ACTIVE: independent finite eventwise timelike/null curvature protocol,
-   per step_03/QUESTION.md. Uses reviewed SC1 and accepted sources, NOT SC2.
-   This construction can proceed while SC2 review runs without downstream use
-   of an unreviewed scientific result.
-4--6. Unallocated pending results; phase-domain/persistence remains next.
-   No obligation to use every slot.
+   Main read both full reports and verified the37-file/36-payload archive.
+   Retained caveat: author's disjoint-control arithmetic identity is regression,
+   not independent feasibility proof; analytic/independent evidence survives.
+3. REVIEWED-WITH-CAVEATS: SC3-COMPATIBILITY/RECONSTRUCTION/BLINDNESS, fresh
+   tri_step03_review found no required defect,0/1 repairs. Argument SHA256
+   1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903.
+   Author15 exact groups passed, ranks11/13/6/10;4 real formula mutants failed
+   expected guards. No unexpected author failure or reviewer finding before freeze.
+   Main read complete reports, verified35-file/34-payload archive; independent
+   generic bivector construction confirms image/annihilator and blind directions.
+   Retain hard-coded normalization and orbit-symmetry regression limitations.
+   Uses reviewed SC1 and accepted sources, NOT SC2.
+4. Candidate frozen: initial phase compatibility/local propagation/compact-domain gate,
+   per step_04/QUESTION.md. Uses reviewed SC1 and accepted sources, NOT SC2/SC3.
+   Independent construction while SC3 review runs is not downstream use of
+   an unreviewed scientific result. Argument SHA256
+   42f4c5881c9bf2f914b7682e50b030a30e50784fc9a671b2c77a2f427ff944ad.
+   First author check failed at structural symbolic matrix equality; frozen
+   solver-first diagnostic proved all entry differences zero. Preserved original
+   code/failure; exact entrywise comparison correction changed no formula or
+   premise. Rerun18 groups passed;4 actual mutants failed expected guards.
+   Fresh tri_step04_review Phase B dispatched after freeze; no findings received.
+5. ACTIVE: robustness of shared overlap constraints to bounded supplied
+   frequency-weight uncertainty; step_05/QUESTION.md. Uses reviewed SC2 only,
+   not pending SC4. This tests a limitation of SC2, not a quota example.
+6. Unallocated; no useful distinct remaining step presumed.
 
 ## Preservation boundary
 

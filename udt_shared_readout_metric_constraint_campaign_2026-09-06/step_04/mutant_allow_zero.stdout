@@ -1,0 +1,1 @@
+{"guard": "zero_initial_phase_gradient_excluded", "mutant": "allow_zero", "passed_before_failure": ["degree_one_euler_identity", "momentum_hessian_contraction", "mixed_derivative_euler_identity", "full_variational_covector_identity", "full_initial_null_residual", "full_initial_future_root", "initial_tangential_pullback", "independent_normal_magnitude_rejected"], "status": "FAIL"}

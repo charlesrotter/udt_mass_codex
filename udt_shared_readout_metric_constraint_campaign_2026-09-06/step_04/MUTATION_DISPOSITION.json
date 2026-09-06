@@ -1,0 +1,142 @@
+{
+  "classification": "expected actual mutated-code failures, not unexpected baseline failures",
+  "results": [
+    {
+      "mutant": "past_root",
+      "result": {
+        "guard": "full_initial_future_root",
+        "mutant": "past_root",
+        "passed_before_failure": [
+          "degree_one_euler_identity",
+          "momentum_hessian_contraction",
+          "mixed_derivative_euler_identity",
+          "full_variational_covector_identity",
+          "full_initial_null_residual"
+        ],
+        "status": "FAIL"
+      },
+      "execution": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/check_symbolic.py",
+          "--mutant",
+          "past_root"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-06T22:52:47.389363+00:00",
+        "duration_seconds": 0.6239618359977612,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 60,
+        "maxrss_kib": 48588
+      }
+    },
+    {
+      "mutant": "omit_spatial_force",
+      "result": {
+        "guard": "full_variational_covector_identity",
+        "mutant": "omit_spatial_force",
+        "passed_before_failure": [
+          "degree_one_euler_identity",
+          "momentum_hessian_contraction",
+          "mixed_derivative_euler_identity"
+        ],
+        "status": "FAIL"
+      },
+      "execution": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/check_symbolic.py",
+          "--mutant",
+          "omit_spatial_force"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-06T22:52:48.078828+00:00",
+        "duration_seconds": 0.6976806879974902,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 60,
+        "maxrss_kib": 49312
+      }
+    },
+    {
+      "mutant": "wrong_characteristic_sign",
+      "result": {
+        "guard": "phase_constant_on_correct_characteristics",
+        "mutant": "wrong_characteristic_sign",
+        "passed_before_failure": [
+          "degree_one_euler_identity",
+          "momentum_hessian_contraction",
+          "mixed_derivative_euler_identity",
+          "full_variational_covector_identity",
+          "full_initial_null_residual",
+          "full_initial_future_root",
+          "initial_tangential_pullback",
+          "independent_normal_magnitude_rejected",
+          "zero_initial_phase_gradient_excluded",
+          "nonzero_initial_phase_gradient_admitted",
+          "original_flat_phase_eikonal",
+          "original_flat_phase_future",
+          "full_gradient_affine_geodesic_identity"
+        ],
+        "status": "FAIL"
+      },
+      "execution": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/check_symbolic.py",
+          "--mutant",
+          "wrong_characteristic_sign"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-06T22:52:48.833588+00:00",
+        "duration_seconds": 0.6936854570012656,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 60,
+        "maxrss_kib": 48916
+      }
+    },
+    {
+      "mutant": "allow_zero",
+      "result": {
+        "guard": "zero_initial_phase_gradient_excluded",
+        "mutant": "allow_zero",
+        "passed_before_failure": [
+          "degree_one_euler_identity",
+          "momentum_hessian_contraction",
+          "mixed_derivative_euler_identity",
+          "full_variational_covector_identity",
+          "full_initial_null_residual",
+          "full_initial_future_root",
+          "initial_tangential_pullback",
+          "independent_normal_magnitude_rejected"
+        ],
+        "status": "FAIL"
+      },
+      "execution": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/check_symbolic.py",
+          "--mutant",
+          "allow_zero"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-06T22:52:49.583014+00:00",
+        "duration_seconds": 0.6268726739945123,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 60,
+        "maxrss_kib": 48580
+      }
+    }
+  ]
+}

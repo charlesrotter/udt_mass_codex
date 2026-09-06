@@ -1,0 +1,20 @@
+{
+  "command": [
+    "sha256sum",
+    "STAGE_A.md",
+    "STAGE_A_RESULT.md",
+    "COMMANDS.md",
+    "independent_tensor.py",
+    "source_first.stdout",
+    "source_first.stderr",
+    "source_first.json"
+  ],
+  "cwd": "/tmp/tri_step03_review.pUqgBY2V",
+  "started_utc": "2026-09-06T22:34:00.737821+00:00",
+  "duration_seconds": 0.0015143860000534914,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7392
+}

@@ -1,0 +1,5 @@
+actual Matrix([[1, 0, 0], [0, (r0 - t)/r0, 0], [0, 0, (r0 - t)/r0]])
+expected Matrix([[1, 0, 0], [0, 1 - t/r0, 0], [0, 0, 1 - t/r0]])
+structural_equality False
+entrywise_differences [0, 0, 0, 0, 0, 0, 0, 0, 0]
+determinant (r0 - t)**2/r0**2

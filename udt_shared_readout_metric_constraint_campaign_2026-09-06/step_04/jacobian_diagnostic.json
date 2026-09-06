@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import sympy as s; x,y,z,t=s.symbols(\"x y z t\",real=True); r0=s.symbols(\"r0\",positive=True); v=s.Matrix([x,y,z]); flow=(1-t/s.sqrt(v.dot(v)))*v; actual=s.simplify(flow.jacobian(v).subs({x:r0,y:0,z:0})); expected=s.diag(1,1-t/r0,1-t/r0); print(\"actual\",actual); print(\"expected\",expected); print(\"structural_equality\",actual==expected); differences=[s.simplify(d) for d in actual-expected]; print(\"entrywise_differences\",differences); print(\"determinant\",s.factor(actual.det())); assert all(d==0 for d in differences)"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:52:33.558885+00:00",
+  "duration_seconds": 0.22642496600019513,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 46836
+}

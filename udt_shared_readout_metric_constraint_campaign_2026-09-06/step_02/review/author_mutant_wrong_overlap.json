@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_02/check_exact.py",
+    "--mutant",
+    "wrong_overlap"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-06T22:28:45.580736+00:00",
+  "duration_seconds": 0.017880603001685813,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 11712
+}

@@ -1,0 +1,22 @@
+{
+  "candidate_hash": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903",
+  "implementation": "independent bivector constraint route; no candidate code read/import",
+  "checks": {
+    "candidate_constraint_rank_13": true,
+    "all_candidate_constraints_annihilate_independent_image": true,
+    "exact_image_equals_candidate_constraint_kernel": true,
+    "candidate_mixed_inverse_all_5_components": true,
+    "even_counterexample_traces_pass_even_fails": true,
+    "odd_counterexample_first12_pass_last_fails": true
+  },
+  "actual_changed_formula_controls": {
+    "factor_2_to_1_changes_constraint_image": true,
+    "omit_cyclic_sum_admits_bad_record": true,
+    "wrong_mixed_diagonal_sign_fails_tensor_reconstruction": true
+  },
+  "ranks": {
+    "candidate_constraints": 13,
+    "constraint_omitting_cyclic_sum": 12
+  },
+  "all_pass": true
+}

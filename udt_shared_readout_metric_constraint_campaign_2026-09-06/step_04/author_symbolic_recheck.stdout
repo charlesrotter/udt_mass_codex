@@ -1,0 +1,73 @@
+{
+  "compact_control_gradient": [
+    "0",
+    "0",
+    "0"
+  ],
+  "evidence_type": "exact/symbolic identities and scoped controls, not independent proof",
+  "guard_count": 18,
+  "guards": [
+    "degree_one_euler_identity",
+    "momentum_hessian_contraction",
+    "mixed_derivative_euler_identity",
+    "full_variational_covector_identity",
+    "full_initial_null_residual",
+    "full_initial_future_root",
+    "initial_tangential_pullback",
+    "independent_normal_magnitude_rejected",
+    "zero_initial_phase_gradient_excluded",
+    "nonzero_initial_phase_gradient_admitted",
+    "original_flat_phase_eikonal",
+    "original_flat_phase_future",
+    "full_gradient_affine_geodesic_identity",
+    "phase_constant_on_correct_characteristics",
+    "projection_radial_transverse_eigenvalues",
+    "projection_boundary",
+    "torus_critical_point_control",
+    "critical_null_covector_must_vanish"
+  ],
+  "hypotheses_not_machine_proved": [
+    "actual smooth supplied metric",
+    "positive spatial metric",
+    "local ODE existence/smooth dependence",
+    "projection inverse domain",
+    "compact maximum theorem",
+    "physical interpretation"
+  ],
+  "incoming_projection_determinant": "(r0 - t)**2/r0**2",
+  "incoming_projection_jacobian_at_axis": [
+    [
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "(r0 - t)/r0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "(r0 - t)/r0"
+    ]
+  ],
+  "initial_covector": [
+    "-5",
+    "3",
+    "2",
+    "0"
+  ],
+  "initial_raised_vector": [
+    "5",
+    "3",
+    "8",
+    "0"
+  ],
+  "mutant": null,
+  "status": "PASS",
+  "symbolic_euler_residual": "0",
+  "symbolic_variational_residual": "0",
+  "sympy_version": "1.13.1",
+  "wrong_normal_null_residual": "9"
+}

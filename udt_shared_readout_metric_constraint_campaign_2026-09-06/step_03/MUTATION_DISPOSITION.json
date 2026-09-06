@@ -1,0 +1,67 @@
+{
+  "evidence_type": "actual changed-formula executions; regression only",
+  "rows": [
+    {
+      "mode": "missing_mixed",
+      "expected_guard": "record_map_rank_eleven",
+      "observed": {
+        "guard": "record_map_rank_eleven",
+        "mutant": "missing_mixed",
+        "passed_before_failure": [
+          "all_riemann_pair_symmetries",
+          "full_first_bianchi",
+          "full_einstein_ricci_contraction"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    },
+    {
+      "mode": "wrong_scalar",
+      "expected_guard": "full_einstein_ricci_contraction",
+      "observed": {
+        "guard": "full_einstein_ricci_contraction",
+        "mutant": "wrong_scalar",
+        "passed_before_failure": [
+          "all_riemann_pair_symmetries",
+          "full_first_bianchi"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    },
+    {
+      "mode": "same_null_sign",
+      "expected_guard": "all_thirteen_constraints_on_tensor_basis",
+      "observed": {
+        "guard": "all_thirteen_constraints_on_tensor_basis",
+        "mutant": "same_null_sign",
+        "passed_before_failure": [
+          "all_riemann_pair_symmetries",
+          "full_first_bianchi",
+          "full_einstein_ricci_contraction",
+          "record_map_rank_eleven"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    },
+    {
+      "mode": "omit_cyclic",
+      "expected_guard": "constraint_rank_thirteen",
+      "observed": {
+        "guard": "constraint_rank_thirteen",
+        "mutant": "omit_cyclic",
+        "passed_before_failure": [
+          "all_riemann_pair_symmetries",
+          "full_first_bianchi",
+          "full_einstein_ricci_contraction",
+          "record_map_rank_eleven",
+          "all_thirteen_constraints_on_tensor_basis"
+        ],
+        "status": "FAIL"
+      },
+      "matched": true
+    }
+  ]
+}
