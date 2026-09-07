@@ -1,0 +1,50 @@
+{
+  "runtime": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "checks": [
+    "original_general_H_Ricci",
+    "parallel_V_all_slots",
+    "full_256_Weyl_FIRST_dual_B",
+    "full_null_pair_screen",
+    "ideal_tide_full_contraction",
+    "full_graph_normal",
+    "original_intrinsic_constraints_general_H",
+    "harmonic_conjugates",
+    "rotating_Hessian_norm",
+    "positive_anchor_values",
+    "angle_derivative_full_data",
+    "recurrence_all_16",
+    "phase_null_future_direction",
+    "full_graph_flux_density",
+    "changed_phase_residual"
+  ],
+  "general_Ricci": "Matrix([[-(Derivative(H(u, x, y), (x, 2)) + Derivative(H(u, x, y), (y, 2)))/2, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "full_B_nonzero": {
+    "(0, 0, 0, 0)": "Derivative(H(u, x, y), (x, 2))**2 + Derivative(H(u, x, y), x, y)**2"
+  },
+  "general_tide": "Matrix([[-Derivative(H(u, x, y), (x, 2))/2, -Derivative(H(u, x, y), x, y)/2], [-Derivative(H(u, x, y), x, y)/2, -Derivative(H(u, x, y), (y, 2))/2]])",
+  "gamma": "Matrix([[H(u, x, y) + 4, 0, 0], [0, 1, 0], [0, 0, 1]])",
+  "K": "Matrix([[Derivative(H(u, x, y), u)/(2*sqrt(H(u, x, y) + 4)), Derivative(H(u, x, y), x)/(2*sqrt(H(u, x, y) + 4)), Derivative(H(u, x, y), y)/(2*sqrt(H(u, x, y) + 4))], [Derivative(H(u, x, y), x)/(2*sqrt(H(u, x, y) + 4)), 0, 0], [Derivative(H(u, x, y), y)/(2*sqrt(H(u, x, y) + 4)), 0, 0]])",
+  "R3": "-(2*H(u, x, y)*Derivative(H(u, x, y), (x, 2)) + 2*H(u, x, y)*Derivative(H(u, x, y), (y, 2)) - Derivative(H(u, x, y), x)**2 + 8*Derivative(H(u, x, y), (x, 2)) - Derivative(H(u, x, y), y)**2 + 8*Derivative(H(u, x, y), (y, 2)))/(2*(H(u, x, y) + 4)**2)",
+  "Hamiltonian": "-(Derivative(H(u, x, y), (x, 2)) + Derivative(H(u, x, y), (y, 2)))/(H(u, x, y) + 4)",
+  "momentum": [
+    "(Derivative(H(u, x, y), (x, 2)) + Derivative(H(u, x, y), (y, 2)))/(2*sqrt(H(u, x, y) + 4))",
+    "0",
+    "0"
+  ],
+  "P": "x**4 + x**3 - 6*x**2*y**2 - 3*x*y**2 + y**4",
+  "Qpoly": "4*x**3*y + 3*x**2*y - 4*x*y**3 - y**3",
+  "N0": "36*(x**2 + y**2)*(4*x**2 + 4*x + 4*y**2 + 1)",
+  "q0": "(16*x**2 + 8*x + 16*y**2 + 1)/(4*(x**2 + y**2)*(4*x**2 + 4*x + 4*y**2 + 1))",
+  "positive_anchor": {
+    "N": 324,
+    "b": "3*sqrt(2)",
+    "q": "25/36",
+    "w": "25*sqrt(2)/12"
+  },
+  "registered_tide_anchor": "Matrix([[-9*c0, -9*s0], [-9*s0, 9*c0]])",
+  "Hu_anchor": "-2*sin(theta(u))*Derivative(theta(u), u)",
+  "changed_phase_density_residual": "-w*(k0 - ka)/k0"
+}

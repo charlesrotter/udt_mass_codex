@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/source_first_constraints.py", line 27, in <module>
+    assert ham==0 and mom==[0,0,0]
+AssertionError

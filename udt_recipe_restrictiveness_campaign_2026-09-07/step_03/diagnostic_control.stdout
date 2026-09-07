@@ -1,0 +1,6 @@
+{
+  "computed": "2*y*(-6*x**2 - 3*x + 2*y**2)",
+  "target": "-12*x**2*y - 6*x*y + 4*y**3",
+  "expanded_difference": "0",
+  "active_value": "-14"
+}

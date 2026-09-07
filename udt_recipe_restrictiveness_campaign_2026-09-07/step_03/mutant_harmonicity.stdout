@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "mode": "nonharmonic_conjugate",
+  "checks": {
+    "original_exact_Ricci": false
+  },
+  "failed": "original_exact_Ricci"
+}

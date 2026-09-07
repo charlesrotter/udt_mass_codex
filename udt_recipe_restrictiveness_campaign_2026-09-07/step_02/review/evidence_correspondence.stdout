@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "manifest_entries": {
+    "CANDIDATE_SHA256SUMS": 20,
+    "SOURCE_SHA256SUMS": 15,
+    "STAGE_A_SHA256SUMS.stdout": 50
+  },
+  "replay_stdout_byte_equality": {
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/author_replay.stdout": true,
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/replay_completion.stdout": true,
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/replay_dual.stdout": true
+  },
+  "initial_author_diagnostic": {
+    "status": "FAIL",
+    "mode": "none",
+    "checks": {
+      "original_exact_Ricci": true,
+      "Lorentzian_nonzero_determinant": true,
+      "any_fourth_root_obstructed": true,
+      "coordinate_null_line_recurrent": true,
+      "line_recurrence_not_closed": true,
+      "spacelike_common_patch": true,
+      "original_constraint_projections": true,
+      "general_algebraic_Ricci_zero": true,
+      "general_first_Bianchi": true,
+      "full_energy_and_null_saturation": true,
+      "saturation_complete_two_parameter_class": false
+    },
+    "failed": "saturation_complete_two_parameter_class"
+  },
+  "all_original_checks_retained": true
+}
+Author initial-to-corrected diff:
+--- initial_check_exact_boundary.py
++++ check_exact_boundary.py
+@@ -56,8 +56,11 @@
+ variables=(a,b,cE,d,f,m,nM,p,q,t)
+ solution=s.linsolve(zero_squares,variables)
+ expected=(a,b,0,-a,0,b,-a,0,-b,0)
+-check('saturation_complete_two_parameter_class',solution==s.FiniteSet(expected))
++actual=next(iter(solution))
++rank=s.linear_eq_to_matrix(zero_squares,variables)[0].rank()
++equivalent=all(s.simplify(actual[i]-expected[i].subs({a:actual[0],b:actual[1]},simultaneous=True) if hasattr(expected[i],'subs') else actual[i]-expected[i])==0 for i in range(10))
++check('saturation_complete_two_parameter_class',rank==8 and equivalent and all(s.expand(z.subs(dict(zip(variables,expected))))==0 for z in zero_squares))
+ sub=dict(zip(variables,expected));ell=s.Matrix([1,0,0,1]);lf=eta*ell
+ check('all64_full_curvature_annihilation',all(s.expand(sum(Q[i,j,k,l].subs(sub)*ell[k] for k in I))==0 for i,j,l in itertools.product(I,repeat=3)))
+ check('all256_converse_root',all(s.expand(BB[key].subs(sub)-4*(a*a+b*b)*s.prod(lf[j] for j in key))==0 for key in slots))
+-print(json.dumps({'status':'PASS','mode':mode,'checks':checks,'sympy':s.__version__,'exact_metric':str(g),'Ricci':str(Ric),'S':str(S),'gamma':str(gamma),'B_exact_nonzero':{str(k):str(s.factor(z)) for k,z in B.items() if z!=0},'rank_one_minors_at_point':minor_point,'line_recurrence':str(omega),'algebraic_B0000':str(s.factor(BB[0,0,0,0])),'algebraic_B0003':str(s.factor(BB[0,0,0,3])),'sum_of_squares':str(sos),'saturation_solution':str(solution),'scope':'EXACT_LOCAL_FAMILY_AND_FINITE_DIMENSIONAL_ALGEBRA_NOT_GENERIC_PDE_OR_PHYSICS'},indent=2))
++print(json.dumps({'status':'PASS','mode':mode,'checks':checks,'sympy':s.__version__,'exact_metric':str(g),'Ricci':str(Ric),'S':str(S),'gamma':str(gamma),'B_exact_nonzero':{str(k):str(s.factor(z)) for k,z in B.items() if z!=0},'rank_one_minors_at_point':minor_point,'line_recurrence':str(omega),'algebraic_B0000':str(s.factor(BB[0,0,0,0])),'algebraic_B0003':str(s.factor(BB[0,0,0,3])),'sum_of_squares':str(sos),'saturation_solution':str(solution),'saturation_rank':rank,'structural_comparison_false_failure':str(solution!=s.FiniteSet(expected)),'scope':'EXACT_LOCAL_FAMILY_AND_FINITE_DIMENSIONAL_ALGEBRA_NOT_GENERIC_PDE_OR_PHYSICS'},indent=2))
+

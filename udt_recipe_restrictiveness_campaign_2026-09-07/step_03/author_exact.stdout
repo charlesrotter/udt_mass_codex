@@ -1,0 +1,23 @@
+{
+  "status": "FAIL",
+  "mode": "none",
+  "checks": {
+    "original_exact_Ricci": true,
+    "conjugate_Hessian": true,
+    "all16_parallel_seed": true,
+    "full_functional_curvature_norm_invariant": true,
+    "all256_same_fixed_B": true,
+    "same_full_recurrence_scalar": true,
+    "nonzero_positive_query_domain": true,
+    "same_normalized_root_current": true,
+    "conservation_original_volume": true,
+    "unchanged_fixed_measure_product": true,
+    "fixed_phase_matching_not_automatic": true,
+    "changed_phase_at_fixed_mu_detected": true,
+    "full_ideal_query_normalization": true,
+    "tidal_query_is_full_curvature_contraction": true,
+    "same_recipe_distinct_registered_tide": true,
+    "transverse_angle_variation_not_generally_admitted": false
+  },
+  "failed": "transverse_angle_variation_not_generally_admitted"
+}

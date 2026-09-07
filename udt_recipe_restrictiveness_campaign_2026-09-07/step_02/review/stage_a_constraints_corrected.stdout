@@ -1,0 +1,11 @@
+{
+  "independent_intrinsic_H": "0",
+  "independent_intrinsic_M": [
+    "0",
+    "0",
+    "0"
+  ],
+  "intrinsic_scalar": "(4*e**4*x**6 + 144*e**3*u*x**2*y + 144*e**2*u**2 - 36*e**2*x**5 - 36*e**2*x**3*y**2 + 144*e**2*x**2 - 432*e*u*x*y + 81*x**4 + 162*x**2*y**2 + 81*y**4)/(2*(e**2*x**4 - 12*e*u*y - 3*x**3 + 9*x*y**2 - 12)**2)",
+  "trace_K": "sqrt(3)*e*(e**2*x**4*y + 6*e*u*x**2 - 12*e*u*y**2 - 12*x**3*y + 9*x*y**3 - 18*y)/(sqrt(-e**2*x**4 + 12*e*u*y + 3*x**3 - 9*x*y**2 + 12)*(e**2*x**4 - 12*e*u*y - 3*x**3 + 9*x*y**2 - 12))",
+  "full_open_patch": true
+}

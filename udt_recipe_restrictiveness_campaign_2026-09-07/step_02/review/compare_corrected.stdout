@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": {
+    "full256_saved_B": true,
+    "ambient_root_obstruction": true,
+    "all_obstruction_permutations": true,
+    "nonzero_minor_all_points": true,
+    "full_saved_gamma": true,
+    "full_saved_S": true,
+    "all16_coordinate_recurrence": true,
+    "active_recurrence_curvature": true,
+    "coordinate_line_curvature_nonzero": true,
+    "general_c_kappa_Ricci": true,
+    "omitted_completion_control_active": true,
+    "saved_energy": true,
+    "saved_flux": true,
+    "saved_sum_of_squares": true,
+    "dropped_dual_control_active": true
+  },
+  "full_tensor_slots": 256,
+  "full64_algebraic_annihilation": true,
+  "general_Ricci": "Matrix([[e**2*x**2*(-6*c - kappa + 2), 0, 0, -e*(kappa + 2)/2], [0, 0, 0, 0], [0, 0, 0, 0], [-e*(kappa + 2)/2, 0, 0, 0]])",
+  "root_minor": "-4*e**4",
+  "line_curvature": {
+    "(0, 3, 0)": "e",
+    "(3, 0, 0)": "-e"
+  },
+  "independent_code": "sealed reviewer source_first_metric.py and source_first_algebra.py; no author scientific imports"
+}

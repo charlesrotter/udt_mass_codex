@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "mode": "ignore_fixed_phase",
+  "checks": {
+    "original_exact_Ricci": true,
+    "conjugate_Hessian": true,
+    "all16_parallel_seed": true,
+    "full_functional_curvature_norm_invariant": true,
+    "all256_same_fixed_B": true,
+    "same_full_recurrence_scalar": true,
+    "nonzero_positive_query_domain": true,
+    "same_normalized_root_current": true,
+    "conservation_original_volume": true,
+    "unchanged_fixed_measure_product": true,
+    "fixed_phase_matching_not_automatic": false
+  },
+  "failed": "fixed_phase_matching_not_automatic"
+}

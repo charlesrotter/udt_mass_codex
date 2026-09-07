@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,pathlib; base=pathlib.Path(\"udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review\"); sources=[\"AGENTS.md\",\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"CURRENT_SCIENTIFIC_PREMISES.md\",\"CURRENT_SCIENTIFIC_PREMISES.tsv\",\"CLAUDE.md\",\"INDEX.md\",\"MEMORY.md\",\"CROSS_MODEL_VERIFY.md\",\".claude/skills/no-shortcuts/SKILL.md\",\".claude/skills/solution-space-not-imposition/SKILL.md\",\".claude/skills/completeness-map/SKILL.md\",\".claude/skills/verifier-before-record/SKILL.md\",\".claude/skills/solver-first/SKILL.md\",\"udt_recipe_restrictiveness_campaign_2026-09-07/WORK_ORDER.md\",\"udt_recipe_restrictiveness_campaign_2026-09-07/step_02/PLAN.md\",\"udt_recipe_restrictiveness_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md\",\"udt_recipe_restrictiveness_campaign_2026-09-07/step_01/REVIEW_RECORD.md\",\"udt_recipe_restrictiveness_campaign_2026-09-07/step_01/review/PHASE_B_ADVERSARIAL_REVIEW.md\",\"udt_recipe_restrictiveness_campaign_2026-09-07/STARTUP_PREMISE_AUDIT.json\",\"udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md\",\"udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md\",\"udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md\",\"udt_phase_current_product_persistence_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md\",\"udt_phase_current_product_persistence_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md\",\"udt_phase_current_product_persistence_campaign_2026-09-07/step_03/CANDIDATE_ARGUMENT.md\",\"udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py\"]; paths=sorted([pathlib.Path(q) for q in sources]+[p for p in base.rglob(\"*\") if p.is_file()]); [print(hashlib.sha256(p.read_bytes()).hexdigest()+\"  \"+str(p)) for p in paths]"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:16:37.539400+00:00",
+  "duration_seconds": 0.0193527079973137,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14208
+}

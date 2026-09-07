@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "mode": "omit_quadratic_completion",
+  "checks": {
+    "original_exact_Ricci": false
+  },
+  "failed": "original_exact_Ricci"
+}

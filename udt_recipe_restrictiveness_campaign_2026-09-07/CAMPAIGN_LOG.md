@@ -26,6 +26,11 @@
 - RC2 pre-freeze discovery: exact quadratic completion is Ricci-flat but its
   unchanged B has a nonzero rank-one minor. A general full-root SOS/commutator
   argument makes a parallel representative necessary within the Ricci-flat
-  FULL recurrent-root class. Candidate only, fresh review pending.13 corrected
+  FULL recurrent-root class. Fresh RC2 review VERIFIED-WITH-CAVEATS,0/1
+  scientific repairs; retain late pre-seal method-hint exposure caveat.13 corrected
   author groups pass;2 actual mutants fail. Retained initial symbolic free-
   parameter naming comparison false failure; no scientific premise changed.
+- RC3 begins after RC2 review: test functional metric freedom at ONE fixed
+  phase/product, and a precisely normalized already admitted ideal tidal query.
+  This asks an inverse-data question; the old amplitude/phase matching example
+  is not counted as another result. No RC3 result exists yet.

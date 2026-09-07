@@ -1,0 +1,22 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/STAGE_A_PLAN.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/STAGE_A_SOURCE_FIRST.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_first.py",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_first.stdout",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_first.stderr",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_first.json",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_hashes.stdout",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_hashes.stderr",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_hashes.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:33:41.141290+00:00",
+  "duration_seconds": 0.0014493929920718074,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7376
+}

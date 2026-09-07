@@ -1,0 +1,50 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scientific_disposition": "UNPROMOTED_CONDITIONAL_MATHEMATICS",
+  "reviewer_context": "/root/restrictiveness_rc2_review",
+  "review_date_utc": "2026-09-07",
+  "candidate_commit": "f5d95618257cb7533dae6e202fba83eea239ba24",
+  "scientific_baseline": "5e022dff9346707563bed18b4ed7dd4150ab2b94",
+  "argument_sha256": "a860d35b1dbd23ef9d046ce59db6f634485220547378c3d1fd7c6a33602e5bc6",
+  "candidate_manifest_sha256": "9c8944f1f671becc84eb0d9a2b9bfc5a753a623a0b7646fc52dbf74d40306888",
+  "stage_a_manifest_sha256": "9789cefeff1b223818d8780a89c6b2142a7fa0683fde03c3f0c5f92e4bd464ba",
+  "fresh_context": true,
+  "source_first_reconstruction": true,
+  "whole_stage_a_proof_blind": false,
+  "preseal_exposure_caveat": "Late parent method and diagnostic hints after independent metric/algebra computations, before Stage A seal; no new candidate/proof/code/output files read before seal. See EXPOSURE_CORRECTION.md.",
+  "independently_implemented_metric_algebra_and_intrinsic_constraints": true,
+  "exact_runtime_model": "UNKNOWN",
+  "different_model_review": "UNTESTED",
+  "different_CAS": "UNTESTED",
+  "human_specialist_review": "UNTESTED",
+  "formal_proof": "UNTESTED",
+  "required_scientific_defects": [],
+  "unresolved_load_bearing_objections": [],
+  "author_postreview_repair_cycles_used": 0,
+  "maximum_author_repair_cycles": 1,
+  "independent_comparison_groups_passed": 15,
+  "author_replay_groups_passed": 13,
+  "actual_author_mutations_rerun": {
+    "omit_quadratic_completion": "FAIL_AT_original_exact_Ricci_EXIT1",
+    "drop_FIRST_dual": "FAIL_AT_full_energy_and_null_saturation_EXIT1"
+  },
+  "root_tensor_slots_compared": 256,
+  "intrinsic_original_constraints": "ALL_EXACT_ZERO_ON_DECLARED_OPEN_PATCH",
+  "reviewer_diagnostics_preserved": [
+    "Unevaluated 0*sqrt(3) failed structural momentum-zero comparison; exact simplify restored literal zeros without changing formulas.",
+    "Factored-versus-expanded gamma failed structural comparison; exact component-difference simplification passed with formulas unchanged."
+  ],
+  "accepted_scope": [
+    "Exact Ricci-flat finite-parameter completion of the reviewed RC1 tangent.",
+    "No covector fourth root for the unchanged full Weyl/FIRST-dual quadratic at every nonzero real parameter.",
+    "Full smooth nonzero future-null recurrent-root recipe locally implies a suitable parallel null representative on actual Ricci-flat neighborhoods.",
+    "At nonzero B, the development-level local converse holds; the old initial-data forward theorem keeps its separate wave-method hypothesis."
+  ],
+  "excluded_claims": [
+    "Genericity, codimension, nonlinear stability or arbitrary root-only development classification.",
+    "Global, nonzero-Lambda, zero-root or singular-domain extension.",
+    "Physical identification, chosen-recipe adoption, source/population, detector, scale, X_max or canon."
+  ],
+  "parent_full_premise_audit": "INSPECTED_EXIT0_346_ROWS_399.077024916_SECONDS_NOT_RERUN",
+  "writes_confined_to": "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/"
+}

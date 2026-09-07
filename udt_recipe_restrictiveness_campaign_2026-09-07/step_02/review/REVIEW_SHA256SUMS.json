@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,pathlib; base=pathlib.Path(\"udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review\"); sources=[base.parent/\"CANDIDATE_ARGUMENT.md\",base.parent/\"CANDIDATE_SHA256SUMS\",base.parent/\"SOURCE_SHA256SUMS\"]; paths=sorted(sources+[p for p in base.rglob(\"*\") if p.is_file()]); [print(hashlib.sha256(p.read_bytes()).hexdigest()+\"  \"+str(p)) for p in paths]"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:25:04.309290+00:00",
+  "duration_seconds": 0.017977609008084983,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13824
+}

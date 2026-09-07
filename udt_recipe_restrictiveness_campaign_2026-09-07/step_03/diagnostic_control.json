@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import sympy as s,json; x,y,e=s.symbols(\"x y e\",real=True); P=x**3-3*x*y**2+x**4-6*x*x*y*y+y**4; Q=3*x*x*y-y**3+4*x**3*y-4*x*y**3; H=s.cos(e*x)*P+s.sin(e*x)*Q; r=s.simplify(-s.diff(s.diff(H,x,2)+s.diff(H,y,2),e).subs(e,0)/2); target=-s.diff(Q,x); print(json.dumps({\"computed\":str(r),\"target\":str(target),\"expanded_difference\":str(s.expand(r-target)),\"active_value\":str(r.subs({x:1,y:1}))},indent=2)); assert s.expand(r-target)==0 and r.subs({x:1,y:1})==-14"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:29:48.952075+00:00",
+  "duration_seconds": 0.25898734098882414,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 47452
+}
