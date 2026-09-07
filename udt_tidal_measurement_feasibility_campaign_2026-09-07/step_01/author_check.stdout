@@ -1,0 +1,22 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "type": "AUTHOR_EXACT_SYMBOLIC_CHECK_NOT_INDEPENDENT_REVIEW",
+  "checks": [
+    "three full signed baselines and half-differences",
+    "full symmetric reconstruction",
+    "full angular acceleration reconstruction",
+    "centrifugal matrix identity",
+    "trace with rotation correction",
+    "E2 conventional gradient inversion",
+    "missing factor two detected",
+    "wrong gradient sign detected",
+    "uncorrected rotation trace detected",
+    "angular-rate error term",
+    "absolute scalar bias degeneracy",
+    "pointwise tracefree projection erases scalar",
+    "time difference erases constant"
+  ],
+  "count": 13,
+  "pass": true
+}

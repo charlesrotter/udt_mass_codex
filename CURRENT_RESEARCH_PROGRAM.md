@@ -95,9 +95,11 @@ original campaign/reviews remain unchanged. Ideal-query calibration is not an in
 Remaining in the preserved class, leaving this construction, and violating original admitted
 equations are different outcomes. Recipe failure is not a verdict against UDT.
 Geometric theory followed by observational calibration and possible emergence are parallel;
-neither is prerequisite. The proposed tidal instrument/held-out-constraint feasibility campaign
-is mapped in that banking package's `NEXT_CAMPAIGN_PROPOSAL.md`, not begun or fitted.
-Charles's direction decision is required; no new campaign is authorized.
+neither is prerequisite. Charles approved the tidal instrument/held-out-constraint feasibility
+campaign mapped in that banking package's `NEXT_CAMPAIGN_PROPOSAL.md`.
+Active scope/log: `udt_tidal_measurement_feasibility_campaign_2026-09-07/WORK_ORDER.md` and
+`CAMPAIGN_LOG.md`: at most three reviewed steps or four hours; no observations fitted.
+Beyond that bounded scope no new campaign is authorized; no physical adoption or promotion.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

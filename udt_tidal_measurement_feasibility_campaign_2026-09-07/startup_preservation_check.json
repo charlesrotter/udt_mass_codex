@@ -1,0 +1,16 @@
+{
+  "command": [
+    "env",
+    "PYTHONPATH=.",
+    "python3",
+    "udt_tidal_measurement_feasibility_campaign_2026-09-07/check_preservation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T16:35:45.552913+00:00",
+  "duration_seconds": 0.1909289860050194,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 57792
+}

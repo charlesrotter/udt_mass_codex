@@ -113,8 +113,10 @@ Exact scopes and reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_
 G364--G366 bank RC1--RC3 conditionally, retaining RC2 exposure and all reviewed limits:
 `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 Geometric calibration/testing and emergence remain parallel, neither prerequisite.
-Charles's direction decision is next; no new campaign is authorized.
-Proposed tidal measurement/calibration/test audit: that package's `NEXT_CAMPAIGN_PROPOSAL.md`.
+Charles approved that package's tidal measurement/calibration/test proposal.
+Active bounded campaign: `udt_tidal_measurement_feasibility_campaign_2026-09-07/WORK_ORDER.md`;
+at most three reviewed steps or four hours, documentation/synthetic checks only, no data fitting.
+Beyond this bounded scope no new campaign is authorized; no physical adoption or promotion.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
 Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
