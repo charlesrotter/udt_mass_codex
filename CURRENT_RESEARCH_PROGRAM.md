@@ -122,16 +122,25 @@ The historical trace-threshold monitoring flag prompts a0202 applicability/selec
 not a claim of current censoring or trace erasure. Release-specific retained response,
 calibration/support/error bounds and arm/channel convention still require evidence.
 Equivalent trusted documentation or justified bounds may suffice without every raw sample.
-Charles approved the enquiry wording and will submit the clean message himself.
-GOCE status is APPROVED FOR SUBMISSION — NOT SENT, product eligibility OPEN.
-Only actual reported submission permits AWAITING_EXTERNAL_DOCUMENTATION status.
-Official destination and send-ready message:
-`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/DESTINATION_AND_STATUS.md`.
-Do not repeat completed searches or begin empirical analysis without new evidence/authority.
-The independent proposal compares finite timelike tidal reconstruction/unused constraints with
-root-only aligned-phase eligibility; it recommends the former, FOR APPROVAL ONLY:
-`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
-No new constraint or phase theorem is claimed; no new campaign is authorized.
+Charles PARKED GOCE, with eligibility UNRESOLVED/OPEN, not rejected and not awaiting a reply.
+Preserve the UNSENT approved enquiry and all prior findings; no contact, repeated searches or
+further GOCE analysis. The prior submission/proposal package retains its historical recorded state.
+The practical observational-route selection campaign is COMPLETE at three fresh-reviewed steps,
+VERIFIED-WITH-CAVEATS, without observational fitting or scientific promotion. C (laboratory
+clocks), R (solar radio tracking) and W (GW strain) were compared. The shortest documented
+next route is a conditional published-summary clock-gradient benchmark, with roughly24%
+relative gradient sensitivity under the source's error model—not a unique UDT signal.
+Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
+The proposed two-step/two-hour benchmark work order is NOT started; Charles's direction decision
+is the next gate. Independent gravimetry/geometry and supplied instrument controls predict a
+clock gradient without retuning; published outcome exposure and shared control/error limitations
+remain explicit. Ratios alone do not attach scale; dimensional anchors may fix it within an
+identified family. Full geometry/history and physical content remain unselected.
+Source and review repairs are preserved. Existing SNe assessments were reused without fits.
+Ideal complementary tides remain mathematical groundwork, not an available real-data experiment;
+coherent geometric calibration and emergence remain parallel, neither a prerequisite for the other.
+No correspondence, purchases, physical adoption, grades, canon or fixed-manuscript changes;
+no new campaign is authorized.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is

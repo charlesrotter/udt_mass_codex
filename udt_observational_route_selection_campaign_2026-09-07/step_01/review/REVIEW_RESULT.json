@@ -1,0 +1,31 @@
+{
+  "review_id": "ORS1_FRESH_CONTEXT_REVIEW",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "reviewer_context": "/root/ors_step1_review",
+  "exact_model": "UNKNOWN",
+  "different_model_review": "UNTESTED",
+  "human_or_formal_review": "UNTESTED",
+  "date_utc": "2026-09-07T20:24:00Z",
+  "baseline_head": "b57d9383d8347390a82bf62c34a616a365c6f452",
+  "candidate_sha256": "91fd8ac38452f3449b3c1f85bb81f2988f2d73f2ad49b72bffb9fd983ca1992b",
+  "preserved_initial_candidate_sha256": "7a31d96b5d9754bd8b9e02759258c1851b56d131dbf42839f7c773b03cf7bac7",
+  "source_first_seal_sha256": "c789c9cb314824aaaa020e768d2f953cd02c849fb0eba295ce19e7e1f7b464ef",
+  "initial_review_sha256": "a74ccdbf09f6ae7c86540fcd4cfe042fd8574c5c4fefe665a450863545e91f0a",
+  "source_first_then_direct_review": true,
+  "parent_source_hints_exposed": true,
+  "observational_outcomes_blind": false,
+  "repairs": {
+    "R1_height_measurement_provenance": "CLOSED",
+    "R2_incomparable_precision_ranking": "CLOSED",
+    "R3_wavelength_arm_regime": "CLOSED"
+  },
+  "unresolved_load_bearing_disagreements": [],
+  "maximum_conclusion": "Reviewed source-bounded conditional C/R/W shortlist, with controlled clocks provisionally the clearest next metrology assessment in the inspected corpus.",
+  "scientific_promotion": false,
+  "instrument_certification": false,
+  "new_physical_premise": false,
+  "new_fit_or_rank_calculation": false,
+  "different_2023_clock_source_reviewed": false,
+  "full_registry_audit": "PARENT_SAVED_PASS_INSPECTED_NOT_REPLAYED",
+  "checks_omitted": ["source theorem re-proofs", "new observational error certification", "raw arrays", "detector holdout rank", "different-model review", "human specialist review"]
+}

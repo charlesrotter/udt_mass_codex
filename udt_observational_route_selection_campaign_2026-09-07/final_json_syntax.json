@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import json; from pathlib import Path; paths=sorted(Path(\"udt_observational_route_selection_campaign_2026-09-07\").rglob(\"*.json\")); [json.loads(p.read_text()) for p in paths]; print(\"PASS: parsed\",len(paths),\"existing campaign JSON records; syntax only\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:50:19.236130+00:00",
+  "duration_seconds": 0.016250422995653935,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 10368
+}

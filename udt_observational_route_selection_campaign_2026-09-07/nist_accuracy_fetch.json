@@ -1,0 +1,26 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "10000000",
+    "--silent",
+    "--show-error",
+    "--output",
+    "/tmp/udt-observation-sources-Kk6TO6/nist_accuracy.pdf",
+    "--write-out",
+    "%{http_code} %{size_download} %{url_effective}\\n",
+    "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=904590"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:14:09.281785+00:00",
+  "duration_seconds": 0.7219474110024748,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13056
+}

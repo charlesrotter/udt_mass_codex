@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json; from pathlib import Path; p=Path(\"udt_observational_route_selection_campaign_2026-09-07/PRESERVATION_CHECK.json\"); r=json.loads(p.read_text()); [None for name,digest in r[\"unchanged_sha256\"].items() if hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest or (_ for _ in ()).throw(AssertionError(name))]; assert not Path(\"udt_local_clock_metric_benchmark_campaign_2026-09-07\").exists(); print(\"PASS: nine explicitly authorized unchanged hashes; proposed next package absent; protected payloads not read\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:49:22.379137+00:00",
+  "duration_seconds": 0.016853979002917185,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14892
+}

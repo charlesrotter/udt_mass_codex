@@ -1,0 +1,16 @@
+{
+  "command": [
+    "sha256sum",
+    "--check",
+    "--quiet",
+    "udt_observational_route_selection_campaign_2026-09-07/MANIFEST.sha256"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:50:40.105798+00:00",
+  "duration_seconds": 0.0024651900021126494,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7364
+}

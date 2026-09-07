@@ -90,13 +90,21 @@ not another compatibility campaign. Current assessment and UNSENT ESA enquiry:
 their review status. Historical header/configuration pointers, approximate attitude covariance
 and trace-monitoring flag are distinguished from actual0202 behavior. Release-specific
 retained-response, selection/support, errors and arm/channel convention remain OPEN.
-Charles approved the substantive enquiry. GOCE is APPROVED FOR SUBMISSION — NOT SENT;
-Charles will submit it himself. Clean message/destination and a repository-only campaign proposal:
-`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/DESTINATION_AND_STATUS.md`;
-`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
-Do not record awaiting external documentation until actual submission is reported.
-Product eligibility remains OPEN; no repeated completed searches or empirical analysis without
-new evidence/authority. The next campaign requires Charles's approval; no new campaign is authorized.
+Charles PARKED GOCE: eligibility remains UNRESOLVED/OPEN, not rejected and not awaiting a reply.
+The approved enquiry remains UNSENT and preserved with all previous findings/reviews. Do not send,
+repeat completed searches or continue GOCE analysis. Prior submission/proposal package is historical
+at its recorded state, not authority to submit or to start its ideal-tidal campaign.
+The observational-route selection campaign is COMPLETE at three fresh-reviewed steps,
+VERIFIED-WITH-CAVEATS, without fitting or scientific promotion. C (laboratory clocks),
+R (solar radio tracking) and W (GW strain) were compared; a conditional published-summary
+clock-gradient benchmark is recommended, not a unique UDT prediction or full metric inference.
+Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
+The proposed two-step/two-hour work order is NOT started; Charles's direction decision is next.
+Ratios alone do not fix scale; dimensional anchors may fix it in an identified family.
+Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
+Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
+No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
+no new campaign is authorized.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

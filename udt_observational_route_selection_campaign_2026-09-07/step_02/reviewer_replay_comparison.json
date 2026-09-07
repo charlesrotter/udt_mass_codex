@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import json; from pathlib import Path; p=Path(\"udt_observational_route_selection_campaign_2026-09-07/step_02\"); actual=json.loads((p/\"reviewer_implementation_replay.stdout\").read_text()); recorded=json.loads((p/\"review/REVIEW_CHECK_RESULT.json\").read_text())[\"output\"]; assert actual == recorded; print(\"PASS: reviewer implementation replay matches saved independent output; parent replay is regression, not a new independent review\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:45:30.252211+00:00",
+  "duration_seconds": 0.01850714899774175,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 10176
+}

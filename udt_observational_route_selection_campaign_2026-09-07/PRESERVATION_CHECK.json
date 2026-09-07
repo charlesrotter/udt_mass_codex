@@ -1,0 +1,49 @@
+{
+  "baseline_head": "b57d9383d8347390a82bf62c34a616a365c6f452",
+  "branch": "grok",
+  "initial_sync": "checkout grok, fetch origin, pull --ff-only origin grok succeeded",
+  "precommit_ls_remote": "b57d9383d8347390a82bf62c34a616a365c6f452 refs/heads/grok; exit0",
+  "unrelated_untracked_metadata": {
+    "baseline_count": 46,
+    "current_count_excluding_authorized_campaign": 46,
+    "exact_status_name_list_equal": true,
+    "protected_payloads_read_or_hashed": false,
+    "limit": "metadata preservation check, not a content audit of protected payloads"
+  },
+  "tracked_diff_from_baseline_before_packaging": [
+    "CURRENT_RESEARCH_PROGRAM.md", "HANDOFF.md", "LIVE.md"
+  ],
+  "unchanged_sha256": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "AGENTS.md": "4b30e3d839d546299e2177fa33dcdc7f0a5305feb78a4c1f48bde11043b7b43d",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "verify_current_scientific_premises.py": "fd99b85a4d0bfb9548ecea5d3f358c7cbc7b96319b38b4114c43429296a24f5c",
+    "udt_goce_submission_and_independent_campaign_proposal_2026-09-07/ESA_ENQUIRY.md": "6c21f117209c4c69587dc34256cd4d8daaea1058aef532853b2aee0deb8664f4",
+    "udt_goce_documentation_followup_2026-09-07/ESA_ENQUIRY_DRAFT.md": "bb5d4a093df8878c9195f4b737e74d6d1cb780b90dacb03781d9bcf7d4405a18"
+  },
+  "prior_GOCE_packages_diff_from_baseline": "empty; submission/proposal, documentation-followup and product-audit packages unchanged",
+  "GOCE": {"route": "PARKED", "eligibility": "UNRESOLVED/OPEN", "enquiry": "UNSENT", "awaiting_reply": false, "rejected": false},
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "ScratchDisk": "not used; blocker only for archive-dependent tasks",
+  "host_process_inventory": "not verified globally; sandbox process listing is not host-wide evidence",
+  "proposed_next_package_exists": false,
+  "no_scientific_fit_solve_or_physical_adoption": true,
+  "checks": [
+    "full349-row startup premise audit PASS; STARTUP_PREMISE_AUDIT.json",
+    "parent Decimal/exact-graph method check PASS; step_02/analytic_run.*",
+    "reviewer independent Laplacian/float/homothety checks PASS; step_02/review/REVIEW_CHECK_RESULT.json",
+    "parent replay of reviewer implementation byte-value matches saved JSON output; regression only, step_02/reviewer_replay_comparison.*",
+    "scoped startup surface validator PASS after parking edit; not full audit replay",
+    "git diff --check PASS before final packaging"
+  ],
+  "diagnostic_limits": [
+    "jq absent; JSON parsing used standard library; no installation",
+    "one log apply_patch context mismatch made no edits, corrected patch applied",
+    "two attempts to read reviewer INITIAL_REVIEW.md before its creation returned exit2; not treated as review or science failure",
+    "source publisher redirect prevented Cassini full-paper retrieval; no exhaustive repeated search"
+  ]
+}

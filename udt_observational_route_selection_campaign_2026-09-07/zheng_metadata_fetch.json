@@ -1,0 +1,26 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "10000000",
+    "--silent",
+    "--show-error",
+    "--output",
+    "/tmp/udt-observation-sources-Kk6TO6/zheng_metadata.json",
+    "--write-out",
+    "%{http_code} %{size_download} %{url_effective}\\n",
+    "https://zenodo.org/api/records/8184043"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:22:52.530754+00:00",
+  "duration_seconds": 0.6694139549945248,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12672
+}

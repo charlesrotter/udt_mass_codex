@@ -1,0 +1,48 @@
+{
+  "classification": "analytic method/regression and preliminary sensitivity; no observation fit",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "precision_decimal_digits": 60,
+  "inputs": {
+    "c_E_m_s": "299792458",
+    "g_m_s2_magnitude": "9.803",
+    "height_m": "0.01",
+    "uncertainties_1e19_per_cm": {
+      "stat": "0.7",
+      "sys": "2.5",
+      "reference_upper_bound": "0.1"
+    },
+    "reference_gradient_magnitude_1e19_per_cm": "10.9"
+  },
+  "graph": {
+    "shape": [
+      10,
+      5
+    ],
+    "exact_rank": 4,
+    "cycle_dimension": 6,
+    "linear_height_rank": 1,
+    "nonlinear_node_contrast_directions": 3,
+    "with_free_bias_shape": [
+      10,
+      10
+    ],
+    "with_free_bias_rank": 4
+  },
+  "sensitivity": {
+    "log_rate_magnitude_1cm": "1.09073084994936214906026039254050419477286404551580561568925E-18",
+    "quadrature_summary_uncertainty_1e19_per_cm": "2.59615099714943391040703583282765081553059554105655308808830",
+    "including_reference_bound_fraction": "0.238355615720487700944143991950349408294881456946382655237038",
+    "reported_total_fraction": "0.238532110091743119266055045871559633027522935779816513761468",
+    "exponential_remainder_upper_bound": "5.9484689351562898445242447290497516533309497566069750480774E-37",
+    "equivalent_potential_difference_u_m2_s2": "0.02336763464715725864",
+    "equivalent_height_u_m": "0.00238372280395361202080995613587677241660716107314087524227277",
+    "gradient_bound_B_threshold_s_minus2_at_full_u": "467.3526929431451728"
+  },
+  "omissions": [
+    "no observed gradient/residual/p-value/fit read or calculated",
+    "no raw covariance reconstruction or empirical rank certification",
+    "no stationarity/acceleration-gradient bound measured here",
+    "no atomic/instrument theory derived from UDT"
+  ]
+}

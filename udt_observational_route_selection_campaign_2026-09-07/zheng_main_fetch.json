@@ -1,0 +1,26 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "10000000",
+    "--silent",
+    "--show-error",
+    "--output",
+    "/tmp/udt-observation-sources-Kk6TO6/zheng_main.pdf",
+    "--write-out",
+    "%{http_code} %{size_download} %{url_effective}\\n",
+    "https://www.nature.com/articles/s41467-023-40629-8.pdf"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T20:22:41.308203+00:00",
+  "duration_seconds": 2.842522375009139,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13632
+}
