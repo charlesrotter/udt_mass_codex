@@ -1,0 +1,13 @@
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/FIDELITY_REVIEW.md: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/INPUT_SHA256SUMS.json: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/INPUT_SHA256SUMS.stderr: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/INPUT_SHA256SUMS.stdout: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/REVIEW_SCOPE.md: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/VERDICT.json: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.json: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.py: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.stderr: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.stdout: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/correspondence_replay.json: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/correspondence_replay.stderr: OK
+udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/correspondence_replay.stdout: OK

@@ -69,12 +69,9 @@ history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 No full metric-data realization, automatic recipe/product persistence or physical content follows.
 G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
 Scope/reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Charles authorized that proposal; the three restrictiveness steps now return RC1--RC3,
-VERIFIED-WITH-CAVEATS and UNPROMOTED. Scoped tangent departure, exact lawful recipe failure/
-local Ricci-flat recurrent-root necessity, and fixed-product freedom detectable by a registered
-eventwise ideal tide are recorded in
-`udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md` and its campaign log/reviews.
-Retain RC2's late-hint exposure and all local, recipe, query and execution caveats.
+Charles authorized that proposal; RC1--RC3 return VERIFIED-WITH-CAVEATS and UNPROMOTED.
+Exact scopes/reviews: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`
+and its campaign log. Retain RC2's exposure and all local/recipe/query/execution caveats.
 Old evidence is unchanged; no generic persistence, stability or physical identification follows.
 Charles's conditional-banking/direction decision is next; no new campaign is authorized.
 Ordinary initial/query data need not be uniquely selected; instrument identification

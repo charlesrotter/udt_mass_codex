@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "current_integration_members": 11,
+  "historical_context_correspondence": [
+    {
+      "manifest": "step_01/review/STAGE_A_SHA256SUMS",
+      "baseline_context_hashes_verified": 6
+    },
+    {
+      "manifest": "step_02/review/STAGE_A_SHA256SUMS.stdout",
+      "baseline_context_hashes_verified": 6
+    },
+    {
+      "manifest": "step_03/review/source_hashes.stdout",
+      "baseline_context_hashes_verified": 6
+    }
+  ],
+  "current_surface_sizes": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "lines": 101,
+      "words": 931
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "lines": 121,
+      "words": 1293
+    },
+    "HANDOFF.md": {
+      "lines": 81,
+      "words": 595
+    },
+    "INDEX.md": {
+      "lines": 99,
+      "words": 484
+    },
+    "LIVE.md": {
+      "lines": 123,
+      "words": 897
+    },
+    "MEMORY.md": {
+      "lines": 50,
+      "words": 413
+    }
+  },
+  "retained_regression_runs": [
+    {
+      "run": "startup_integration_tests",
+      "exit": 1,
+      "duration_seconds": 3.1059178550058277,
+      "maxrss_kib": 69936,
+      "observed_marker": "947 words"
+    },
+    {
+      "run": "startup_integration_tests_bounded",
+      "exit": 1,
+      "duration_seconds": 3.0692068899952574,
+      "maxrss_kib": 69856,
+      "observed_marker": "913 words"
+    },
+    {
+      "run": "startup_integration_tests_final",
+      "exit": 0,
+      "duration_seconds": 3.1356959889963036,
+      "maxrss_kib": 70160,
+      "observed_marker": "193 passed, 1 deselected"
+    }
+  ],
+  "science_exception": "NONE; all scientific entries are separately checked against actual current bytes by the fully inspected unchanged helper.",
+  "full_premise_audit": "MAIN_ONLY_NOT_RERUN",
+  "scope": "CORRESPONDENCE_AND_REGRESSION_EVIDENCE_NOT_SCIENCE"
+}

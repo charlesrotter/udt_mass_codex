@@ -51,3 +51,28 @@
   Initial startup suite192 passed/1 failed/1 deselected: real status-word-limit
   overrun. Initial frozen text/failure checkpoint preserved before pointer-only
   shortening; no test, scientific premise or reviewed result is being repaired.
+- Final bounded startup suite:193 passed,1 deselected, exit0,3.135696seconds,
+  empty stderr,70160KiB RSS. Both earlier real word-limit failures and exact
+  initial/intermediate texts survive; test limits and reviewed science unchanged.
+- Source-fidelity review by the SAME exposed RC3 context passes with caveats,
+  no editorial repair required. Exact11-file text freeze29ff7689 remains intact;
+  thirteen-payload fidelity seal b841b0b0. This is not another scientific proof.
+  Main read full report and actual check_text_freeze.py/output, authenticated
+  the seal. Initial guessed check_fidelity.py read found no file; the actual
+  named checker was then read, not a failed computation or omitted check.
+- Final full premise audit PASS: started14:56:02.860825UTC,398.808554seconds,
+  exit0,empty stderr,105600KiB RSS under2GiB/900seconds. FINAL_PREMISE_AUDIT.json
+  retains exact command/streams.346 accepted rows unchanged through G363.
+- 15:03UTC: scientific and editorial review/check gates complete. No fourth
+  step, banking, new physical premise, manuscript change or canon. Final scope/
+  manifest authentication and commit/push correspondence are recorded in
+  CLOSURE_RECEIPT.json after execution; that nonrecursive receipt is outside
+  CAMPAIGN_SHA256SUMS. All other campaign payloads are included except generated
+  caches and the manifest itself. Do not call checksums truth or review independence.
+- Return: DECISION_BRIEF.md. Next decision is Charles's conditional banking of
+  exact RC1--RC3 scopes, not physical adoption. No successor campaign is authorized.
+  Review limits (especially RC2 late hints) and all failures remain.46 unrelated
+  untracked metadata entries are preserved; protected bytes not inspected.
+  Backup completeness/pre-reboot unsaved-state disposition remain UNVERIFIED;
+  ScratchDisk is archive-only and unused. No actual repository blocker remains
+  if the final receipt's push/authentication gates pass.

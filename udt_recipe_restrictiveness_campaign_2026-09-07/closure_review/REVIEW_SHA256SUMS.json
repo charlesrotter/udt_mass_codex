@@ -1,0 +1,26 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/FIDELITY_REVIEW.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/INPUT_SHA256SUMS.json",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/INPUT_SHA256SUMS.stderr",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/INPUT_SHA256SUMS.stdout",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/REVIEW_SCOPE.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/VERDICT.json",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.json",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.py",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.stderr",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/check_text_freeze.stdout",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/correspondence_replay.json",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/correspondence_replay.stderr",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/closure_review/correspondence_replay.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T15:00:55.331311+00:00",
+  "duration_seconds": 0.0016787819913588464,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7624
+}

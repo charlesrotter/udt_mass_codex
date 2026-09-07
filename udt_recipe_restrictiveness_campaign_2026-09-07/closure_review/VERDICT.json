@@ -1,0 +1,28 @@
+{
+  "verdict": "FIDELITY_REVIEWED_WITH_CAVEATS",
+  "required_editorial_defects": [],
+  "main_text_repair_required": false,
+  "reviewer_context": "/root/restrictiveness_rc3_review",
+  "context_axis": "SAME_CONTEXT_AS_SEALED_RC3_SCIENTIFIC_REVIEW; EXPOSED_SOURCE_FIDELITY",
+  "fresh_fourth_scientific_review": false,
+  "exact_model": "UNKNOWN",
+  "different_model": "UNTESTED",
+  "human": "UNTESTED",
+  "formal": "UNTESTED",
+  "integration_manifest_sha256": "29ff76893f13070b8a516f2212bd80a3751d892c96ef1c78ea3b9ee2800d3827",
+  "integration_members": 11,
+  "observed_head": "9f4c17fa5a1bd84b7545a3cc3805c6d23a530e78",
+  "source_baseline": "5e022dff9346707563bed18b4ed7dd4150ab2b94",
+  "historical_context_only": "SIX_EXPLICIT_CURRENT_STATUS_PATHS; MATCH_BASELINE_BLOBS",
+  "scientific_hash_exceptions": "NONE",
+  "main_focused_regression": "193_PASSED_1_DESELECTED_RC0; SAVED_RESULTS_INSPECTED_NOT_RERUN_HERE",
+  "main_full_premise_audit": "PENDING_AT_REVIEW_NOT_RERUN",
+  "scientific_recomputation": "NONE_IN_FIDELITY_PASS",
+  "promotion": "NOT_AUTHORIZED",
+  "main_remaining_gates": [
+    "Current full346-row premise audit",
+    "Final membership and unchanged-source checks",
+    "Scoped commit/push and remote HEAD",
+    "Factual final closure receipt"
+  ]
+}

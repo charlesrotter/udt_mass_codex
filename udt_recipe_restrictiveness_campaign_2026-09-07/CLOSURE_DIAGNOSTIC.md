@@ -31,3 +31,16 @@ pointer prose, keep all controlling premise/grade/boundary tokens and refer
 to the full reviewed brief. Do not loosen the test, rewrite old scientific
 sources or remove caveats from the candidate/review evidence. Re-freeze the
 same maintained files and repeat the complete focused suite before fidelity.
+
+Initial text,11-member integration freeze and failure are preserved at
+9f4c17fa5a1bd84b7545a3cc3805c6d23a530e78. Measured LIVE947>900 and
+HANDOFF627>600; the other four maintained files are within unchanged limits.
+Only the new LIVE/HANDOFF pointer paragraphs were shortened; the reviewed
+scientific brief, all scientific sources and test limits remain unchanged.
+
+The first shortening still left LIVE913>900 while HANDOFF595 passed; the
+second full suite again returned192/1/1, retained as startup_integration_tests_bounded.
+INTERMEDIATE_STATUS_SHORTENING.patch reconstructs that exact intermediate
+pair from9f4c17fa. The final LIVE pointer is shortened further and measured
+before another full regression run. This is continued editorial correction
+of the same documented defect, not a scientific repair or relaxed threshold.

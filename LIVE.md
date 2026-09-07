@@ -111,14 +111,11 @@ Algebraic compatibility is not full metric-development realization; free phase p
 curvature-recipe/product persistence. The original completed campaign remains unchanged.
 G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
 Exact scopes and reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Charles authorized that restrictiveness proposal; its three scientific steps are now reviewed.
-RC1--RC3 remain UNPROMOTED conditional candidates, VERIFIED-WITH-CAVEATS:
-constrained tangent departure; exact lawful recipe failure and local Ricci-flat recurrent-root/
-parallel necessity; fixed-product functional freedom detected by a registered ideal tidal query.
-Return: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`; exact limits/reviews
-and closure evidence: its `CAMPAIGN_LOG.md` and step review records. RC2's late-hint exposure stays.
+Authorized restrictiveness campaign: RC1--RC3 VERIFIED-WITH-CAVEATS, UNPROMOTED.
+Scope/reviews/caveats (including RC2 exposure):
+`udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`.
 Charles's conditional-banking/direction decision is next; no new campaign is authorized.
-No generic persistence, all-isometry classification or physical adoption follows.
+No generic persistence or physical adoption.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
 Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
