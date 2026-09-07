@@ -8,7 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -56,9 +56,13 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   `udt_g351_g352_content_bridge_campaign_2026-09-06/`.
 - Historical next-direction proposal, subsequently authorized as an adaptive campaign:
   `udt_g353_g356_conditional_banking_2026-09-06/NEXT_CAMPAIGN_DECISION_BRIEF.md`.
-- Completed five-reviewed-step three-direction campaign; conditional candidates UNPROMOTED:
+- Completed unchanged five-reviewed-step three-direction source campaign:
   `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md`;
   scope, evidence/review history and closure: its `CAMPAIGN_LOG.md`.
+- G357--G360 owner-authorized conditional mathematical banking of SC2--SC5; SC1 stays a source map:
+  `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+- Proposed recipe-persistence campaign on admitted developments, awaiting Charles's direction:
+  `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
 
 ## Retained comparison and observational lanes
 

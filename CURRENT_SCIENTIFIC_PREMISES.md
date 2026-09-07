@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -47,6 +47,10 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G354 | Optional naturality fixes uniform shape, not coefficient; scoped whole-plane and scalar-conversion obstructions |
 | G355 | Local nonzero-root harmonic-wave phase class; positive CHOSEN recurrence conversion outside fixed-root closure |
 | G356 | Positive smooth fixed-label product iff criterion; different-phase finite geometric realizations and conserved nonfactorizing failure |
+| G357 | Finite shared ideal-query cone/dual constraints and cell-mass fibres; not full measure or instrument identification |
+| G358 | Thirteen constraints on24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |
+| G359 | Full initial future-null covector and unique local phase; optional whole-compact-slice real-phase obstruction |
+| G360 | Robust overlap exclusions; existential bounded-kernel class threshold, not every fixed kernel or measured accuracy |
 
 G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
 premise, not a metric derivation: a standard finite nonnegative countably additive measure on
@@ -75,6 +79,14 @@ In G356 existence of some aligned phase differs from compatibility with an alrea
 The positive construction uses a DIFFERENT phase, not a repaired original curvature root.
 Pointwise q=0 is not closure throughout a region. Model identities are UNKNOWN and different-model/
 human-specialist review remains UNTESTED. No prior registry grade or physical premise changes.
+
+G357--G360 likewise bank SC2--SC5 at exactly their owner-authorized reviewed conditional scopes;
+SC1 remains a source map. Their authority is
+`udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md` and unchanged source evidence.
+The SC4 structural false failure and SC5 real false-pass/1-of-1 reviewed regression repair remain
+preserved. Finite checks do not own analytic quantifiers; review model identities remain UNKNOWN,
+different-model/human axes UNTESTED. No device law, physical content, general recipe persistence,
+metric-selected initial data or canon follows. The next persistence campaign is a proposal only.
 
 | Object | Status | Guard |
 |---|---|---|

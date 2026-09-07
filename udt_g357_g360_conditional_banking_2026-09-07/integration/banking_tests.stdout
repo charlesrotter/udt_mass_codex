@@ -1,0 +1,41 @@
+..............................F......................................... [ 91%]
+F......                                                                  [100%]
+=================================== FAILURES ===================================
+____________ test_shared_constraint_banking_frozen_evidence_passes _____________
+
+    def test_shared_constraint_banking_frozen_evidence_passes() -> None:
+>       premise_guard.validate_shared_constraint_banking(REPO)
+
+tests/test_startup_surface.py:291: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+verify_current_scientific_premises.py:543: in validate_shared_constraint_banking
+    require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+condition = False
+message = 'shared-constraint banking frozen campaign payload changed: udt_shared_readout_metric_constraint_campaign_2026-09-06/ASSEMBLY_REVIEW_INPUT_SHA256SUMS'
+
+    def require(condition: bool, message: str) -> None:
+        if not condition:
+>           raise SystemExit(message)
+E           SystemExit: shared-constraint banking frozen campaign payload changed: udt_shared_readout_metric_constraint_campaign_2026-09-06/ASSEMBLY_REVIEW_INPUT_SHA256SUMS
+
+verify_current_scientific_premises.py:288: SystemExit
+________ test_catch_shared_constraint_banking_scientific_source_rewrite ________
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-10/test_catch_shared_constraint_b41')
+
+    def test_catch_shared_constraint_banking_scientific_source_rewrite(tmp_path: Path) -> None:
+        root = _banking_copy(tmp_path, evidence=True, shared_constraints=True)
+        source = root / "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md"
+        source.write_bytes(source.read_bytes() + b"\nMutated scientific source.\n")
+>       with pytest.raises(SystemExit, match="scientific source changed since snapshot"):
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'scientific source changed since snapshot'
+E         Actual message: 'shared-constraint banking frozen campaign payload changed: udt_shared_readout_metric_constraint_campaign_2026-09-06/ASSEMBLY_REVIEW_INPUT_SHA256SUMS'
+
+tests/test_startup_surface.py:358: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_shared_constraint_banking_frozen_evidence_passes
+FAILED tests/test_startup_surface.py::test_catch_shared_constraint_banking_scientific_source_rewrite
+2 failed, 77 passed, 73 deselected in 1.15s

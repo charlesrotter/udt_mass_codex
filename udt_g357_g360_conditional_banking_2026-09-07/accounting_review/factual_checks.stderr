@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/tmp/udt-sc-banking-accounting-JVpuu9xS/check_closure_accounting.py", line 102, in <module>
+    assert data.endswith(b'\n\n'), path
+AssertionError: udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout

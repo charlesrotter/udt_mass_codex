@@ -103,6 +103,7 @@ CURRENT_TARGETS = (
     "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
     "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
     premise_guard.CONDITIONAL_BANKING_SOURCE,
+    premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
 )
@@ -144,6 +145,7 @@ def _startup_copy(tmp_path: Path) -> Path:
             "CURRENT_SCIENTIFIC_PREMISES.tsv",
             "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
             premise_guard.CONDITIONAL_BANKING_SOURCE,
+            premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
         ):
             shutil.copy2(REPO / relative, destination)
         else:
@@ -186,15 +188,19 @@ def _replace(path: Path, old: str, new: str) -> None:
     path.write_text(text.replace(old, new), encoding="utf-8")
 
 
-def _banking_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
-    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.CONDITIONAL_BANKING_SOURCE):
+def _banking_copy(tmp_path: Path, *, evidence: bool = False,
+                  shared_constraints: bool = False) -> Path:
+    record = (premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE if shared_constraints
+              else premise_guard.CONDITIONAL_BANKING_SOURCE)
+    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", record):
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(REPO / relative, destination)
     if evidence:
-        campaign = premise_guard.CONDITIONAL_BANKING_CAMPAIGN
+        campaign = (premise_guard.SHARED_CONSTRAINT_BANKING_CAMPAIGN if shared_constraints
+                    else premise_guard.CONDITIONAL_BANKING_CAMPAIGN)
         shutil.copytree(REPO / campaign, tmp_path / campaign)
-        for step in range(1, 5):
+        for step in range(1, 6 if shared_constraints else 5):
             manifest = REPO / campaign / f"step_{step:02d}/SOURCE_SHA256SUMS"
             for line in manifest.read_text().splitlines():
                 _, relative = line.split(maxsplit=1)
@@ -270,6 +276,96 @@ def test_catch_conditional_banking_physical_adoption_record(tmp_path: Path) -> N
              "physical identification remains OPEN", "physical identification established")
     with pytest.raises(SystemExit, match="conditional banking record lacks physical identification"):
         premise_guard.validate_conditional_banking(root, authenticate_sources=False)
+
+
+def test_conditional_banking_historical_339_projection_passes(tmp_path: Path) -> None:
+    root = _banking_copy(tmp_path)
+    registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    prefixes = tuple((item + "\t").encode() for item in premise_guard.SHARED_CONSTRAINT_BANKING_IDS)
+    registry.write_bytes(b"".join(line for line in registry.read_bytes().splitlines(keepends=True)
+                                  if not line.startswith(prefixes)))
+    premise_guard.validate_conditional_banking(root, authenticate_sources=False)
+
+
+def test_shared_constraint_banking_frozen_evidence_passes() -> None:
+    premise_guard.validate_shared_constraint_banking(REPO)
+
+
+@pytest.mark.parametrize("premise_id", premise_guard.SHARED_CONSTRAINT_BANKING_IDS)
+@pytest.mark.parametrize("field,value,error", (
+    ("current_status", "PHYSICAL_CONTENT_DERIVED", "shared-constraint banking grade changed"),
+    ("epistemic_label", "CANON", "shared-constraint banking grade changed"),
+    ("controlling_source", "CANON.md", "shared-constraint banking source changed"),
+    ("active_use", "UNRESTRICTED_GEOMETRIC_RESULT", "active scope lacks"),
+    ("open_scope", "physical identification established", "open scope lacks"),
+    ("forbidden_regression", "none", "guard lacks"),
+    ("precedence_rule", "FRESH_DIFFERENT_MODEL_PROOF", "review independence scope changed"),
+))
+def test_catch_shared_constraint_banking_row_scope(
+    tmp_path: Path, premise_id: str, field: str, value: str, error: str,
+) -> None:
+    root = _banking_copy(tmp_path, shared_constraints=True)
+    _change_registry_field(root, premise_id, field, value)
+    with pytest.raises(SystemExit, match=error):
+        premise_guard.validate_shared_constraint_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("premise_id", ("G352", "G353", "G356"))
+def test_catch_shared_constraint_banking_old_row_rewrite(tmp_path: Path, premise_id: str) -> None:
+    root = _banking_copy(tmp_path, shared_constraints=True)
+    _change_registry_field(root, premise_id, "current_status", "PHYSICAL_CONTENT_DERIVED")
+    with pytest.raises(SystemExit, match="changed an existing scientific registry row"):
+        premise_guard.validate_shared_constraint_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("duplicate", (False, True))
+def test_catch_shared_constraint_banking_row_membership(tmp_path: Path, duplicate: bool) -> None:
+    root = _banking_copy(tmp_path, shared_constraints=True)
+    registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    lines = registry.read_bytes().splitlines(keepends=True)
+    row = next(line for line in lines if line.startswith(b"G360\t"))
+    registry.write_bytes(b"".join(lines + [row] if duplicate else [line for line in lines if line != row]))
+    with pytest.raises(SystemExit, match="add exactly four distinct rows to 339"):
+        premise_guard.validate_shared_constraint_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("token", (
+    "SC1 remains a source map", "physical identification remains OPEN", "false-pass", "1/1",
+))
+def test_catch_shared_constraint_banking_record_limits(tmp_path: Path, token: str) -> None:
+    root = _banking_copy(tmp_path, shared_constraints=True)
+    _replace(root / premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE, token, "REMOVED_LIMIT")
+    with pytest.raises(SystemExit, match="shared-constraint banking record lacks"):
+        premise_guard.validate_shared_constraint_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("relative", (
+    "step_03/CANDIDATE_ARGUMENT.md", "step_05/review/PHASE_B_ADVERSARIAL_REVIEW.md",
+    "step_05/repair/review/FOCUSED_REVIEW.md", "step_01/CANDIDATE_ARGUMENT.md",
+))
+def test_catch_shared_constraint_banking_evidence_rewrite(tmp_path: Path, relative: str) -> None:
+    root = _banking_copy(tmp_path, evidence=True, shared_constraints=True)
+    source = root / premise_guard.SHARED_CONSTRAINT_BANKING_CAMPAIGN / relative
+    source.write_bytes(source.read_bytes() + b"\nMutated frozen evidence.\n")
+    with pytest.raises(SystemExit, match="frozen campaign payload changed"):
+        premise_guard.validate_shared_constraint_banking(root)
+
+
+def test_catch_shared_constraint_banking_scientific_source_rewrite(tmp_path: Path) -> None:
+    root = _banking_copy(tmp_path, evidence=True, shared_constraints=True)
+    source = root / "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md"
+    source.write_bytes(source.read_bytes() + b"\nMutated scientific source.\n")
+    with pytest.raises(SystemExit, match="scientific source changed since snapshot"):
+        premise_guard.validate_shared_constraint_banking(root)
+
+
+@pytest.mark.parametrize("name", ("LIVE.md", "HANDOFF.md"))
+@pytest.mark.parametrize("token", ("G357--G360", "SC1 remains a source map"))
+def test_catch_shared_constraint_banking_next_gate(tmp_path: Path, name: str, token: str) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / name, token, "REMOVED_BANKING_STATUS")
+    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
+        premise_guard.validate_startup_surface(root)
 
 
 def test_full_foundational_premise_verifier_is_in_pytest() -> None:
@@ -658,8 +754,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
 
 def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "AGENTS.md", "339-row exact registry", "335-row exact registry")
-    with pytest.raises(SystemExit, match="current route lacks 339-row exact registry"):
+    _replace(root / "AGENTS.md", "343-row exact registry", "339-row exact registry")
+    with pytest.raises(SystemExit, match="current route lacks 343-row exact registry"):
         premise_guard.validate_startup_surface(root)
 
 

@@ -1,0 +1,74 @@
+{
+  "result": "PASS_FACTUAL_CLOSURE_ACCOUNTING_WITH_RETAINED_WHITESPACE_FAILURE",
+  "review_context": "same already-exposed banking fidelity reviewer; no new scientific review",
+  "versions": {
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  },
+  "frozen_integration_files_in_worktree_and_index": {
+    "AGENTS.md": "f1634dfb24e7e69125f0cc788666fb95fa40bca41a377a2c35e3c874154e50b0",
+    "LIVE.md": "8a82a4bc62a540cb438cf1b7c40a96efdcf8e564769502bb8c6761fab1683336",
+    "HANDOFF.md": "f67f38b239fb9973091106b9e0b3a3d96f7c102b6185100eb38aad0e9b32dd43",
+    "CURRENT_RESEARCH_PROGRAM.md": "066d62611d9cea17eeda3315b60076ffb019b9964cf3ea61ceb288d9c019d50e",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "f0fb9b5de82fbc09914af91bfe8935661851ed9425c44860f642595b2a308033",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
+    "INDEX.md": "4a8d38ce38dd5a8ed75a364c582e86e44ab534d563f3ffc0667ad1d59a106452",
+    "MEMORY.md": "0f1433a0447868df5eadf79ec9dffca226f79cdd3ba168e698c9f185e2e2c221",
+    "verify_current_scientific_premises.py": "281c027f8bb1fce4b816404e7235c5dcf4ac39646ebc5fe9e23e894ea967d7f2",
+    "tests/test_startup_surface.py": "e754390f906ac841afe5e518457d2e6df57ad57cd0663408d5aa8c12050d215c",
+    "udt_g357_g360_conditional_banking_2026-09-07/WORK_ORDER.md": "3fe175ce7d9ed21aa0c18dacbdff1d0d642ac575f33d5ab23ce88ed10841985d",
+    "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md": "34588fee0d20bbfb2de12dc2dc31d743e36f300af94bfe5ccb58595c2ac73a1a",
+    "udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md": "1c12a487694a942d09f85b44ed27235781005d8934c62884cbeee91e1640cfbf"
+  },
+  "frozen_manifest_sha256": "9e040712379a96d229af25644b67f64fbb2b4351b6da1c97f5b10a3d3a2702bd",
+  "audit_record_sha256": "c6181b2311346687410885fb346748e086fd78a1c7645d1f30dc2f30c0f280ea",
+  "audit_actual_result": {
+    "address_space_bytes": 2147483648,
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "verify_current_scientific_premises.py"
+    ],
+    "cpu_seconds": 900,
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "duration_seconds": 398.7381667880036,
+    "maxrss_kib": 105792,
+    "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "returncode": 0,
+    "started_utc": "2026-09-07T04:07:50.851390+00:00",
+    "stderr": "",
+    "stdout": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 343-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources\n",
+    "timeout": false
+  },
+  "audit_reexecuted": false,
+  "copied_review_files": 55,
+  "copied_review_payloads": 54,
+  "all_review_bytes_match_original_seal": true,
+  "source_campaign_files": 442,
+  "strict_whitespace_exit_code": 2,
+  "strict_whitespace_warning_count": 51,
+  "strict_whitespace_per_file_counts": {
+    "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md": 1,
+    "udt_g357_g360_conditional_banking_2026-09-07/INTEGRATION_DIFF.json": 1,
+    "udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md": 1,
+    "udt_g357_g360_conditional_banking_2026-09-07/STARTUP_PREMISE_AUDIT.json": 1,
+    "udt_g357_g360_conditional_banking_2026-09-07/STARTUP_WORKSPACE.json": 1,
+    "udt_g357_g360_conditional_banking_2026-09-07/WORK_ORDER.md": 1,
+    "udt_g357_g360_conditional_banking_2026-09-07/integration/banking_tests.stdout": 3,
+    "udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout": 42
+  },
+  "six_nonraw_warnings_are_blank_eof_only": true,
+  "raw_output_warnings": {
+    "udt_g357_g360_conditional_banking_2026-09-07/integration/banking_tests.stdout": 3,
+    "udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout": 42
+  },
+  "maintained_ten_file_whitespace_exit_code": 0,
+  "reviewed_execution_sha256": "17c25c5db51b270aaf6b55c71b37a0894e9b6dcbff5f492fd7b1b4a0b9bb59ef",
+  "reviewed_execution_text": "# Banking execution record\n\nTask: owner-authorized SC2--SC5 banking and a proposed next campaign only.\nStart2026-09-07 about03:49UTC; baseline ed2f7432f068aa7a72628382b890596b3efba06a,\ngrok synchronized by the mandatory checkout/fetch/ff-only pull sequence.\nInitial tracked worktree clean;46 unrelated untracked status entries preserved.\nMain runtime model UNKNOWN. No claim of different-model/human verification.\n\n## Scope, method and history\n\nThe main read the on-disk startup chain in its bounded order and gave the\norientation before file mutation. Verifier-before-record, no-shortcuts,\ncompleteness-map and solution-space protocols required exact source ownership,\nexplicit quantifiers, retained failure evidence and separate-context review.\nThey supplied no scientific premise. No new scientific campaign or solve began.\n\nThe main read all four candidate arguments, their REVIEW_RECORD files, direct\nreviews, SC5 focused review, prior G353--G356 banking procedure and G355/G356\narguments. It read the exact load-bearing registry rows and G321/G332/G335\naudit reports for the proposal. No protected payload or external archive read.\nCurrent tracking updates are additive banking status, not a manuscript update.\n\nSubtasks explicitly bounded by the repository review protocol:\n- /root/sc_banking_integration: only registry, existing premise verifier,\n  self-contained startup tests and integration evidence. No scientific repair.\n- /root/sc_banking_fidelity: fresh separate context, source-first scope\n  reconstruction, direct banking/proposal/integration fidelity review and\n  bounded preservation/replay checks. Not a new blind reproof of all science.\n\nThe original SC2/3/4 direct scientific reviews used0/1 post-review repairs.\nSC4's symbolic structural-equality correction preceded freeze and is retained.\nSC5 used1/1 reviewed regression repair after a REAL reject-all-nonzero false\npass. Original analytic argument and sources stayed unchanged. Those original\nreviews, with their recorded exposure/implementation/model limits, remain\ncontrolling. The new banking review does not upgrade them or establish physics.\n\n## Actual checks and diagnostics\n\n1. STARTUP_PREMISE_AUDIT.json: clean unchanged339-row audit, exit0,\n   399.148295447 seconds,105600KiB maximum child RSS, no timeout, empty stderr.\n  2GiB address space/900s CPU/wall. Completed before permission to edit live\n   registry/verifier. It was not a snapshot-overlapped integration audit.\n\n2. integration/banking_tests.*: first new/old banking selection returned\n   2 failures,77 passes,73 deselected. The new guard incorrectly interpreted\n   this campaign's repo-relative manifest paths as campaign-relative.\n   The actual failures caught that integration bug. Only payload path base\n   changed to root/relative; no frozen source, hash expectation or scope changed.\n\n3. integration/startup_tests.*: after that correction,150 passed,1 failed,\n   1 deselected. The existing900-word LIVE cap caught929 words. Only additive\n   summary wording was shortened to884; the guard was not relaxed.\n\n4. integration/startup_tests_final.*: actual155 passed,1 deselected,\n   exit0 in2.448627211 seconds,69572KiB, empty stderr, no timeout.\n   The additional four tests reject removal of new-bank/SC1 next-gate tokens.\n   Only the duplicate full-foundational-audit pytest entry is excluded.\n   Plugin autoload, cache and bytecode disabled, --noconftest isolates these\n   self-contained tests from unrelated global solver fixtures.\n   Same512MiB/60-second check ceiling throughout. Mutation tests are regression,\n   not analytic proof or a scientific grade selector.\n\n5. PRESERVATION_CHECK.* failed before completing git-blob comparison.\n   PRESERVATION_GIT_DIAGNOSTIC.* reproduces exact git-show exit128:\n   a packed object could not be mapped under the512MiB child limit.\n   PRESERVATION_GIT_WINDOW_DIAGNOSTIC.* succeeds with transient command options\n   core.packedGitLimit=64m and core.packedGitWindowSize=8m, at the SAME cap.\n   No persistent config, disk repair or resource escalation was used.\n   PRESERVATION_WINDOW_RETRY.* then passes:442/442 source-campaign files match\n   exact ed2 Git bytes, removal of only new4 rows recovers exact339 old bytes,\n   manuscript/sidecar/CANON match their initial bytes,46 unrelated untracked\n   entries match initial status metadata. No protected payload bytes were read.\n   The original failed command and all diagnostic streams remain preserved.\n\n6. The banking reviewer disclosed TWO accidental full-audit launches contrary\n   to its no-full-audit dispatch. Both are excluded from every gate. It reports\n   session44982 interrupted with Ctrl-C/exit130, and its earlier direct verifier\n   PID458401 (start03:57:45UTC) stopped by targeted SIGINT at04:03:31.799UTC\n   after identification outside the sandbox's PID-isolated view. Exact launch/\n   termination records and exposure limits remain in the review bundle.\n   No completed result or PASS is inferred, and none replaced the parent's\n   clean audits. This is a procedural failure, not scientific counterevidence.\n   Parent required termination of only the reviewer's own jobs and no repeat.\n\n7. INTEGRATION_CANDIDATE_SHA256SUMS freezes all ten maintained files plus\n   work order, banking record and next-campaign proposal. Assigned code/registry\n   and all thirteen files remain fixed during the clean343-row audit launched\n   after final test pass. Final audit/review/commit disposition follows below.\n\n## Preservation and omitted checks\n\nThe manuscript and coverage sidecar stay at their fixed through-G352/335-row\nedition f23199e4a47aaf83acb9ea7d1ad382cd814159c2. Their byte preservation is\nchecked; no claim that the stock current-registry manuscript verifier passed\non the expanded343-row registry is made. That command's fixed-versus-live\ninput limitation remains, and neither it nor the manuscript was repaired.\nOld source mathematics/full suites are not independently reproved by banking;\nfrozen source manifests and reviewed evidence are authenticated.\n\nBackup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED.\nScratchDisk is unused, blocking archive-dependent tasks only. Sandbox process\ninspection is not evidence of host-wide absence of unrelated scientific jobs.\nNo disks mounted/repaired, worktrees pruned, protected payload mined, GPU used,\nphysical recipe adopted, premise changed or canon edited.\n\n## Closure\n\nClean343-row premise audit PASSED: started04:07:50.851390UTC, duration\n398.738166788 seconds,105792KiB maximum child RSS, exit0, empty stderr,\nno timeout under unchanged2GiB/900s ceilings. CLEAN_PREMISE_AUDIT.json\npreserves exact launcher, result, separate stdout/stderr strings and tool capture.\nAll13 integration-frozen files remained fixed; a final hash recheck is retained.\n\nFresh review /root/sc_banking_fidelity returned VERIFIED-WITH-CAVEATS with\nno required scope correction or unresolved load-bearing fidelity objection.\nFinal report SHA256:\nf656e6710c36c7e5f91e587e180da059db5a8f07714c1b96fe968000a7f8308e.\nThe55-file review bundle has54 authenticated manifest payloads; manifest SHA256\n80ee082ed3ec4575b43c021459dfa23eb6d42162706a7d36085cb7788cf7d713.\nIts48 focused actual tests pass; old SC5 false-pass/repaired/reapplied-corruption\nreplays match frozen outputs. The first reviewer pytest invocation failed4\nat global-conftest Torch loading under512MiB; isolated --noconftest retry\npassed at the same cap. Both commands/streams remain in the review bundle.\nEphemeral copied pytest fixture trees are omitted, not scientific evidence.\n\nIntegration preservation also had a threaded Git lstat failure at512MiB,\nretained in integration/preservation.*. Only transient serial-index options\nwere added at the same cap; integration/preservation_serial_git.* passes.\nReview assembly copied only its declared55 files. The first manifest check\nused repository cwd and failed to find the relative manifest; rerunning in\nreview/ authenticated all54 payloads. REVIEW_ASSEMBLY.json retains both\ndispositions. No review byte changed, and no failure is relabeled PASS.\n\nRemote references were refreshed again during closure and both HEAD and\norigin/grok still equaled ed2f7432. No synchronization conflict was present.\nScientific banking gates are now satisfied; scoped commit/push and assembly\nreceipts follow. The proposed next campaign remains unstarted and unauthorized.\n\nThe complete staged whitespace check returns2 with51 warnings: six extra\nblank EOF lines in frozen reviewed/new text artifacts, three raw pytest\nfailure-output spaces and42 warnings inside the unchanged raw review diff\n(including its final blank line). WHITESPACE_CHECK.json preserves the exact\noutput and per-file counts. These bytes remain intact; the strict check is\nNOT called passed. A separately scoped check of the ten maintained registry,\ntracking and verifier/test files passes. No content, manifest or guard is\naltered to erase the cosmetic warnings, and they supply no scientific verdict.\n",
+  "read_receipt_hashes": {
+    "WHITESPACE_CHECK.json": "cec9dc6c434388c36079cc8fe2c454022ec04096a987376b96bf1ae596b663ef",
+    "REVIEW_ASSEMBLY.json": "08eb16fe3b3302ff89159187b0fe1f5c8ab838a7dae64ef647c35b0b004282dc"
+  },
+  "commit_push_outcome": "not asserted; parent responsibility",
+  "scientific_claim_or_premise_changed": false
+}

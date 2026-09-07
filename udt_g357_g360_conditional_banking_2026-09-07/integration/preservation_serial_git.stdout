@@ -1,0 +1,24 @@
+{
+  "result": "PASS_CORRESPONDENCE_ONLY",
+  "snapshot": "ed2f7432f068aa7a72628382b890596b3efba06a",
+  "registry_rows": 343,
+  "unchanged_old_rows": 339,
+  "old_registry_sha256": "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429",
+  "campaign_manifest_payloads": 441,
+  "original_untracked_status_entries": 46,
+  "protected_payloads_read": false,
+  "unchanged_tracked_scope": [
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06",
+    "udt_g353_g356_conditional_banking_2026-09-06",
+    "CANON.md",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv"
+  ],
+  "assigned_file_sha256": {
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
+    "verify_current_scientific_premises.py": "281c027f8bb1fce4b816404e7235c5dcf4ac39646ebc5fe9e23e894ea967d7f2",
+    "tests/test_startup_surface.py": "e754390f906ac841afe5e518457d2e6df57ad57cd0663408d5aa8c12050d215c"
+  },
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+}

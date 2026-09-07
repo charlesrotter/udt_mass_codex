@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import collections,hashlib,json,pathlib,subprocess,sys\nroot=pathlib.Path.cwd()\nsnapshot=\"ed2f7432f068aa7a72628382b890596b3efba06a\"\ngit=[\"git\",\"-c\",\"core.preloadIndex=false\",\"-c\",\"index.threads=1\",\"-c\",\"core.packedGitLimit=64m\",\"-c\",\"core.packedGitWindowSize=8m\"]\nregistry=(root/\"CURRENT_SCIENTIFIC_PREMISES.tsv\").read_bytes()\nids=(\"G357\",\"G358\",\"G359\",\"G360\")\nprefixes=tuple((item+\"\\t\").encode() for item in ids)\nlines=registry.splitlines(keepends=True)\nold=b\"\".join(line for line in lines if not line.startswith(prefixes))\nfrozen=subprocess.check_output(git+[\"show\",snapshot+\":CURRENT_SCIENTIFIC_PREMISES.tsv\"])\nassert old==frozen\nassert len(lines)-1==343 and len(old.splitlines())-1==339\ncounts=collections.Counter(line.split(b\"\\t\",1)[0].decode() for line in lines[1:])\nassert len(counts)==343 and all(counts[item]==1 for item in ids)\ncampaign=\"udt_shared_readout_metric_constraint_campaign_2026-09-06\"\nmanifest=(root/campaign/\"ARTIFACT_SHA256SUMS\").read_bytes()\nassert hashlib.sha256(manifest).hexdigest()==\"32daf9c0b69ec4107b310f9275a6bc1e2b674f7c40fb456811f0f6d122a26cfe\"\nentries=[line.split(maxsplit=1) for line in manifest.decode().splitlines()]\nassert len(entries)==len({relative for _,relative in entries})==441\nfor expected,relative in entries:\n    assert hashlib.sha256((root/relative).read_bytes()).hexdigest()==expected,relative\nprotected_status=json.loads((root/\"udt_g357_g360_conditional_banking_2026-09-07/STARTUP_WORKSPACE.json\").read_text())\noriginal={line for line in protected_status[\"status_tool_result\"][\"output\"].splitlines() if line.startswith(\"?? \")}\ncurrent=set(subprocess.check_output(git+[\"status\",\"--short\",\"--branch\"],text=True).splitlines())\nassert len(original)==46 and original<=current\nunchanged_paths=[campaign,\"udt_g351_g352_content_bridge_campaign_2026-09-06\",\"udt_g353_g356_conditional_banking_2026-09-06\",\"CANON.md\",\"UDT_METRIC_KERNEL_DEVELOPMENT.md\",\"UDT_METRIC_KERNEL_COVERAGE.tsv\"]\ncheck=subprocess.run(git+[\"diff\",\"--no-ext-diff\",\"--exit-code\",snapshot,\"--\",*unchanged_paths],capture_output=True)\nassert check.returncode==0,check.stderr.decode()\nhashes={name:hashlib.sha256((root/name).read_bytes()).hexdigest() for name in [\"CURRENT_SCIENTIFIC_PREMISES.tsv\",\"verify_current_scientific_premises.py\",\"tests/test_startup_surface.py\"]}\nprint(json.dumps(dict(result=\"PASS_CORRESPONDENCE_ONLY\",snapshot=snapshot,registry_rows=343,unchanged_old_rows=339,old_registry_sha256=hashlib.sha256(old).hexdigest(),campaign_manifest_payloads=441,original_untracked_status_entries=46,protected_payloads_read=False,unchanged_tracked_scope=unchanged_paths,assigned_file_sha256=hashes,python_version=sys.version),indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T04:08:38.360146+00:00",
+  "duration_seconds": 0.07565972400334431,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 19308
+}

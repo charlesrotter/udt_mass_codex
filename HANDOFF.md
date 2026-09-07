@@ -4,7 +4,7 @@
 
 `LIVE.md` wins.
 
-## Current handoff anchor — 2026-09-06
+## Current handoff anchor — 2026-09-07
 
 Pre-reboot operational state remains recorded in `RESTART_CHECKPOINT.md`, not as scientific
 authority. Charles accepted the post-restart audit for repository-only bounded work. Backup
@@ -42,7 +42,11 @@ Source-bounded nonselection, optional symmetry/conversion limits, the harmonic-w
 class, and the different-phase product criterion retain all assumptions and review limitations.
 CHOSEN recipes are not physical content/count laws. Banking integration/fidelity checks passed.
 
-Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+G357--G360 bank SC2--SC5 at their owner-authorized conditional mathematical scopes,
+VERIFIED-WITH-CAVEATS. SC1 remains a source map; initial and repaired false-pass evidence stays
+unchanged. No physical identification, recipe adoption or canon follows.
+
+Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
 Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
 covariance rows are unresolved, no preferred scale follows, and the raw archive is
@@ -59,13 +63,14 @@ Next: G353--G356 conditional mathematical banking is complete at its owner-autho
 The prior campaign is complete. The G352 physical-realization remainder is not closed:
 physical identification remains OPEN; no metric-native carried object is physically selected.
 Keep the owner-provisional premises, CHOSEN recipes and product explicit.
-Charles's subsequent authorized three-direction campaign has completed five reviewed steps.
-Its shared ideal-readout/weight-robustness, eventwise algebraic Einstein-curvature query, and local
-phase-data/compact-domain results remain conditional candidates UNPROMOTED, with all caveats.
+Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from that completed
+five-reviewed-step campaign. SC1 remains a source map. Exact scopes and preserved review/repair
+history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 No full metric-data realization, automatic recipe/product persistence or physical content follows.
-See `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and CAMPAIGN_LOG.md
-in that package. Conditional mathematical promotion now requires Charles's decision; it was not
-authorized by this campaign. Beyond this completed work order, no new campaign is authorized.
+Charles's next direction decision concerns the proposed recipe-persistence campaign on admitted
+developments: at most three reviewed steps or four hours, with full data/domain gates.
+See `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+The source campaign remains unchanged; no new campaign is authorized.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
 frontier tracking. History, matter, scale, `X_max`, and canon stay open.

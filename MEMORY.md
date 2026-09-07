@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -28,14 +28,14 @@ readouts, and all physical identities remain distinct/open.
 G353--G356 conditionally bank the completed four-step content-bridge campaign at its reviewed scope;
 integration/fidelity checks passed. Optional conditions and CHOSEN recipes are not physical laws.
 G352 physical identification remains OPEN. No fifth step in that old campaign is requested.
-Charles's subsequent three-direction campaign completed five reviewed steps: source gate, shared
-ideal-readout constraints, eventwise algebraic Einstein-curvature queries, local phase-data/
-compact-domain results and weight-uncertainty robustness. SC2--SC5 remain conditional candidates
-UNPROMOTED; SC1 is a source map. Full metric-data realization and curvature-recipe/product
-persistence are not established. See
-`udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and its compact log.
-Charles must decide conditional mathematical promotion; beyond the completed work order,
-no new campaign is authorized.
+Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from the completed
+five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
+history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Full metric-data realization and curvature-recipe/product persistence remain unestablished.
+Charles's next direction decision is the proposed bounded persistence campaign on admitted metric
+developments, at most three reviewed steps or four hours:
+`udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+The old source campaign is unchanged; no new campaign is authorized.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.
 Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.

@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-06
+## CURRENT STATE — 2026-09-07
 
 Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
 description.
@@ -74,7 +74,11 @@ completion consequence—not a local input, wall, center, or numerical scale.
   optional hypotheses and review limitations survive. No physical content or counting law is adopted.
   Banking integration/fidelity checks passed; the scientific campaign is complete.
 
-Authority: the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G356. Use `INDEX.md` for
+- G357--G360 bank SC2--SC5 conditionally, VERIFIED-WITH-CAVEATS: shared-readout constraints,
+  eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
+  robustness. Assumptions and reviews remain controlling; no physical identification or canon.
+
+Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G360. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -100,15 +104,15 @@ The four-step campaign is complete, not waiting for a fifth compatibility exampl
 The G352 physical-realization question remains: physical identification remains OPEN. Its
 owner-provisional premises and chosen product are unchanged; a metric-native carried object is
 not physically selected by the banked mathematical realizations.
-Charles authorized the subsequent adaptive three-direction campaign; its five reviewed steps
-are complete, with conditional candidates UNPROMOTED. Shared ideal-readout constraints and their
-bounded-weight robustness, an eventwise algebraic Einstein-curvature query constraint, and local
-phase-data/compact-domain results retain their source assumptions and review caveats. Algebraic
-compatibility is not full metric-development realization; free phase propagation is not curvature-
-recipe/product persistence. See
-`udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and its compact log.
-Charles's next decision is conditional mathematical promotion at the exact reviewed scopes;
-it has not been authorized here. Beyond this completed work order, no new campaign is authorized.
+Charles authorized G357--G360 conditional mathematical banking of SC2--SC5. SC1 remains a source map.
+Exact scopes and preserved false-pass/repair history:
+`udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Algebraic compatibility is not full metric-development realization; free phase propagation is not
+curvature-recipe/product persistence. The original completed campaign remains unchanged.
+Charles's next direction decision concerns
+`udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`:
+at most three reviewed steps or four hours on admitted-development recipe/data compatibility
+and preservation. Proposal only; no new campaign is authorized.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
 Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks

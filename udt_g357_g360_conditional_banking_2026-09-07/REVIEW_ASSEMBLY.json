@@ -1,0 +1,18 @@
+{
+  "source": "/tmp/udt-sc-banking-fidelity-pHLUdApB",
+  "copy": "cp -n only the 55 ARCHIVE_FILES.txt entries; no pytest fixture tree copied",
+  "initial_validation": {
+    "cwd": "repository root",
+    "command": "sha256sum -c REVIEW_SHA256SUMS",
+    "returncode": 1,
+    "output": "sha256sum: REVIEW_SHA256SUMS: No such file or directory\n",
+    "disposition": "Validation invocation used repository cwd after successful copy; corrected cwd only, no payload changed."
+  },
+  "retry": {
+    "chunk_id": "b6ff96",
+    "wall_time_seconds": 0.000003463,
+    "exit_code": 0,
+    "original_token_count": 498,
+    "output": "ARCHIVE_FILES.txt: OK\nDISPATCH_VIOLATION_AND_TERMINATION.json: OK\nFINAL_FIDELITY_REVIEW.md: OK\nINITIAL_DIRECT_FIDELITY_REVIEW.md: OK\nPHASE_A_SOURCE_SCOPE.md: OK\nREVIEW_VERDICT.json: OK\nauthenticate_final_integration.py: OK\nauthenticate_review_inputs.py: OK\nfinal_integration_authentication.json: OK\nfinal_integration_authentication.stderr: OK\nfinal_integration_authentication.stdout: OK\nhost_audit_absence.json: OK\nhost_audit_absence.stderr: OK\nhost_audit_absence.stdout: OK\ninitial_input_authentication.json: OK\ninitial_input_authentication.stderr: OK\ninitial_input_authentication.stdout: OK\nintegration_manifest_auth.json: OK\nintegration_manifest_auth.stderr: OK\nintegration_manifest_auth.stdout: OK\nphase_a_seal.json: OK\nphase_a_seal.stderr: OK\nphase_a_seal.stdout: OK\npost_interrupt_process_check.json: OK\npost_interrupt_process_check.stderr: OK\npost_interrupt_process_check.stdout: OK\nreviewed_integration_diff.json: OK\nreviewed_integration_diff.stderr: OK\nreviewed_integration_diff.stdout: OK\nsc5_original_corruption_repaired.json: OK\nsc5_original_corruption_repaired.stderr: OK\nsc5_original_corruption_repaired.stdout: OK\nsc5_original_false_pass.json: OK\nsc5_original_false_pass.stderr: OK\nsc5_original_false_pass.stdout: OK\nsc5_repaired_baseline.json: OK\nsc5_repaired_baseline.stderr: OK\nsc5_repaired_baseline.stdout: OK\nscoped_integration_tests.json: OK\nscoped_integration_tests.stderr: OK\nscoped_integration_tests.stdout: OK\nscoped_integration_tests_isolated.json: OK\nscoped_integration_tests_isolated.stderr: OK\nscoped_integration_tests_isolated.stdout: OK\nseal_review.py: OK\nsource_auth.json: OK\nsource_auth.stderr: OK\nsource_auth.stdout: OK\nterminate_orphan_audit.json: OK\nterminate_orphan_audit.stderr: OK\nterminate_orphan_audit.stdout: OK\nversions.json: OK\nversions.stderr: OK\nversions.stdout: OK\n80ee082ed3ec4575b43c021459dfa23eb6d42162706a7d36085cb7788cf7d713  REVIEW_SHA256SUMS\nf656e6710c36c7e5f91e587e180da059db5a8f07714c1b96fe968000a7f8308e  FINAL_FIDELITY_REVIEW.md\n55\n"
+  }
+}

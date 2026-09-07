@@ -1,0 +1,95 @@
+udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md:261: new blank line at EOF.
+udt_g357_g360_conditional_banking_2026-09-07/INTEGRATION_DIFF.json:13: new blank line at EOF.
+udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md:186: new blank line at EOF.
+udt_g357_g360_conditional_banking_2026-09-07/STARTUP_PREMISE_AUDIT.json:23: new blank line at EOF.
+udt_g357_g360_conditional_banking_2026-09-07/STARTUP_WORKSPACE.json:17: new blank line at EOF.
+udt_g357_g360_conditional_banking_2026-09-07/WORK_ORDER.md:47: new blank line at EOF.
+udt_g357_g360_conditional_banking_2026-09-07/integration/banking_tests.stdout:9: trailing whitespace.
++tests/test_startup_surface.py:291: 
+udt_g357_g360_conditional_banking_2026-09-07/integration/banking_tests.stdout:10: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_g357_g360_conditional_banking_2026-09-07/integration/banking_tests.stdout:13: trailing whitespace.
++_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:20: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:23: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:26: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:28: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:34: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:40: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:70: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:74: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:84: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:90: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:120: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:122: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:125: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:131: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:169: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:174: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:187: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:189: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:196: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:200: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:206: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:215: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:247: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:250: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:252: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:298: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:299: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:322: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:323: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:418: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:426: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:427: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:440: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:475: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:476: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:595: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:611: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:692: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:693: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:760: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:761: trailing whitespace.
++ 
+udt_g357_g360_conditional_banking_2026-09-07/review/reviewed_integration_diff.stdout:760: new blank line at EOF.

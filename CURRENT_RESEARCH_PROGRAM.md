@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-09-06
+Date: 2026-09-07
 
-`LIVE.md` controls status; the exact 339-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -41,6 +41,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G351 | Owner-provisional source-free label-measure conservation; regular density has `R^p A^-1` | Selection of `p`, source/population, cross-label physics, detector, or light |
 | G352 | Owner-provisional continuous clock-rate readout; chosen product realization has `T_clock=R A^-1` | Atomic crossing rate, physical carried object, source/population, detector, light, or energy |
 | G353--G356 | Conditional nonselection, optional conversion bounds, harmonic-wave phase class, different-phase product | Physical content/counting or recipe adoption; universal no-go; selected data |
+| G357--G360 | Conditional shared-query constraints, eventwise curvature, local phase and robust weights | Device identity, general PDE realization or recipe persistence; SC1 stays a source map |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
 formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
@@ -71,15 +72,17 @@ physical identification remains OPEN. Its CHOSEN curvature/
 derivative recipes, optional naturality class and fixed-label product conditions remain explicit.
 No fifth compatibility example is requested.
 
-Charles subsequently authorized one adaptive campaign across all three proposed directions.
-Its five reviewed steps are complete; SC1 is a source map and SC2--SC5 remain conditional
-mathematical candidates UNPROMOTED. The new constraints concern shared ideal readouts and bounded
-weight uncertainty, a finite eventwise algebraic Einstein-curvature query, and local phase-data/
-compact-real-phase domains. Pointwise algebraic sufficiency is not full lawful-data/PDE realization;
-local free-phase propagation does not establish chosen curvature-recipe/product persistence.
-See `udt_shared_readout_metric_constraint_campaign_2026-09-06/DECISION_BRIEF.md` and its compact log.
-Conditional mathematical promotion at exact reviewed scopes is Charles's next decision, not an
-action authorized by that campaign. Beyond this completed work order, no new campaign is authorized.
+Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from the completed
+five-reviewed-step campaign. SC1 remains a source map. Shared ideal readout/weight constraints,
+eventwise algebraic curvature and local phase/optional compact results retain exact reviewed scope.
+See `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`; all original evidence,
+including initial and repaired false passes, remains unchanged. Pointwise algebraic sufficiency is
+not full lawful-data/PDE realization; free phase propagation is not recipe/product persistence.
+Charles's next direction decision is the proposed bounded persistence campaign on admitted metric
+developments: at most three reviewed steps or four hours, starting with recipe-domain and complete
+initial-data compatibility. See
+`udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+This is a proposal only; no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

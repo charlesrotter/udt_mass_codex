@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "<string>", line 6, in git
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'show', 'ed2f7432f068aa7a72628382b890596b3efba06a:udt_shared_readout_metric_constraint_campaign_2026-09-06/closure_accounting_review/accounting_check.stderr']' returned non-zero exit status 128.

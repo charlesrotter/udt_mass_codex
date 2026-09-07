@@ -1,0 +1,42 @@
+{
+  "reviewer": "/root/sc_banking_fidelity",
+  "date_utc": "2026-09-07",
+  "violation": "Two full premise verifiers were inadvertently launched during startup despite explicit no-full-audit reviewer dispatch. The reviewer incorrectly followed the general startup command over the narrower dispatch.",
+  "command_each": "python3 verify_current_scientific_premises.py",
+  "cwd_each": "/home/udt-admin/udt_mass_codex",
+  "first_launch": {
+    "requested_exec_yield_ms": 10000,
+    "session_id": null,
+    "session_id_loss": "The orchestration forwarded only command/output/exit_code; it omitted the tool session_id. No result was recorded.",
+    "authenticated_host_pid": 458401,
+    "authenticated_parent_pid": 458400,
+    "authenticated_process_group": 458400,
+    "host_ps_launch_time_local": "Sun Sep 6 23:57:45 2026",
+    "host_ps_launch_time_utc": "2026-09-07T03:57:45Z",
+    "host_ps_elapsed_seconds": 319,
+    "authentication_tool_chunk": "b2983a",
+    "termination": "SIGINT to precisely PID 458401 after host command/launch-time authentication",
+    "termination_command_capture": "terminate_orphan_audit.json",
+    "termination_command_start_utc": "2026-09-07T04:03:31.799293+00:00",
+    "signal_command_returncode": 0,
+    "underlying_audit_exit_code": null,
+    "underlying_audit_output": "Unavailable: original session handle was lost; no result claimed."
+  },
+  "second_launch": {
+    "requested_exec_yield_ms": 1000,
+    "session_id": 44982,
+    "launch_exact_timestamp": null,
+    "launch_timestamp_limit": "Tool transcript preserves order and command, but no exact UTC launch time was captured.",
+    "termination": "write_stdin(session_id=44982, chars=Ctrl-C, yield_time_ms=1000)",
+    "termination_tool_chunk": "4d3ae4",
+    "termination_reported_before_utc": "2026-09-07T04:02:30.126703+00:00",
+    "termination_returncode": 130,
+    "termination_output": ""
+  },
+  "process_visibility": "Ordinary exec commands have their own PID namespace. Initial sandbox ps no-match did not certify host absence. Host-visible read-only inspection was separately approved and identified the remaining verifier. Only that authenticated PID was signaled.",
+  "post_termination_host_check": "ps -p 458401 showed header only; anchored pgrep of the direct verifier command returned 1 with no matches, tool chunk 59476b. A later host_audit_absence capture preserves the same anchored check.",
+  "impact": "Both launches exceeded the reviewer scope and overlapped changing current integration surfaces; neither is valid frozen-snapshot verification. No output from either is used as a pass, scientific conclusion, banking gate or review-independence claim. Source fidelity instead uses authenticated unchanged campaign evidence and the parent's separately controlled audits.",
+  "parent_notified": true,
+  "further_full_audits_launched_by_reviewer": false,
+  "status": "Both identified accidental direct audit processes terminated; no successful audit result claimed."
+}

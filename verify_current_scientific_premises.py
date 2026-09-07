@@ -25,6 +25,10 @@ CONDITIONAL_BANKING_STATUS = (
     "BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED"
     "__NOT_PHYSICAL_ADOPTION__NOT_CANON"
 )
+SHARED_CONSTRAINT_BANKING_SNAPSHOT = "ed2f7432f068aa7a72628382b890596b3efba06a"
+SHARED_CONSTRAINT_BANKING_IDS = ("G357", "G358", "G359", "G360")
+SHARED_CONSTRAINT_BANKING_SOURCE = "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md"
+SHARED_CONSTRAINT_BANKING_CAMPAIGN = "udt_shared_readout_metric_constraint_campaign_2026-09-06"
 
 PREMISE_REGISTRY_CONTROLS = (
     "AGENTS.md",
@@ -234,6 +238,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
+        "G360", "G359", "G358", "G357",
         "G356", "G355", "G354", "G353",
         "G352", "G351", "G350", "G349", "G348", "G347", "G346", "G345", "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
@@ -313,6 +318,11 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
     correspondence and scope regression, not another scientific review or proof.
     """
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    later_prefixes = tuple(f"{item}\t".encode() for item in SHARED_CONSTRAINT_BANKING_IDS)
+    registry_bytes = b"".join(
+        line for line in registry_bytes.splitlines(keepends=True)
+        if not line.startswith(later_prefixes)
+    )
     prefixes = tuple(f"{item}\t".encode() for item in CONDITIONAL_BANKING_IDS)
     old_bytes = b"".join(
         line for line in registry_bytes.splitlines(keepends=True)
@@ -321,7 +331,8 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
     require(hashlib.sha256(old_bytes).hexdigest()
             == "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
             "conditional banking changed an existing scientific registry row")
-    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+            if row["premise_id"] not in SHARED_CONSTRAINT_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 339,
             "conditional banking must add exactly four distinct rows to 335")
@@ -435,6 +446,124 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
             "conditional banking is not an additive four-row change from the authorized snapshot")
 
 
+def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+    """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
+    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    prefixes = tuple(f"{item}\t".encode() for item in SHARED_CONSTRAINT_BANKING_IDS)
+    old_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                         if not line.startswith(prefixes))
+    require(hashlib.sha256(old_bytes).hexdigest()
+            == "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429",
+            "shared-constraint banking changed an existing scientific registry row")
+    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    by_id = {row["premise_id"]: row for row in rows}
+    require(len(rows) == len(by_id) == 343,
+            "shared-constraint banking must add exactly four distinct rows to 339")
+    record_path = root / SHARED_CONSTRAINT_BANKING_SOURCE
+    require(record_path.is_file(), "shared-constraint banking record missing")
+    record = " ".join(record_path.read_text(encoding="utf-8").split())
+    claims = {
+        "G357": ("SC2-CONE", "SC2-OVERLAP", "SC2-INVISIBLE"),
+        "G358": ("SC3-COMPATIBILITY", "SC3-RECONSTRUCTION", "SC3-BLINDNESS"),
+        "G359": ("SC4-JET", "SC4-LOCAL", "SC4-COMPACT"),
+        "G360": ("SC5-ROBUST", "SC5-CLASS", "SC5-THRESHOLD"),
+    }
+    for token in (
+        *SHARED_CONSTRAINT_BANKING_IDS, SHARED_CONSTRAINT_BANKING_SNAPSHOT,
+        *(claim for values in claims.values() for claim in values),
+        "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
+        "SC1 remains a source map", "physical identification remains OPEN",
+        "no new campaign is authorized", "UNKNOWN", "UNTESTED", "false-pass", "1/1",
+    ):
+        require(token in record, f"shared-constraint banking record lacks {token}")
+    active_scopes = {
+        "G357": ("FINITE_NONEMPTY_MEASURABLE_PARTITION", "BOUNDED_NONNEGATIVE_SIMPLE_KERNELS",
+                 "G351_G352_OWNER_PROVISIONAL", "CHOSEN_PHASE_INDEPENDENT_PRODUCT",
+                 "FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_MEASURE", "CONE_AND_DUAL_CERTIFICATE",
+                 "FIXED_SHARED_LABELS", "CELL_MASS_KERNEL_FIBRES"),
+        "G358": ("EVENTWISE_ALGEBRAIC_EINSTEIN_CURVATURE", "G312_OWNER_PROVISIONAL",
+                 "EXPLICIT_Q_ABCD_SLOT_CONVENTION", "SUPPLIED_EVENT_FRAME_AFFINE_NORMALIZATION",
+                 "TWENTY_FOUR_RECORDS_THIRTEEN_INDEPENDENT_CONSTRAINTS_ELEVEN_PARAMETERS",
+                 "NECESSARY_ON_ACTUAL_ADMITTED_METRIC", "NO_FULL_CAUCHY_DATA_PDE_REALIZATION"),
+        "G359": ("ACTUAL_SUPPLIED_SMOOTH_LORENTZIAN_METRIC", "SMOOTH_SPACELIKE_SLICE",
+                 "NONZERO_SPATIAL_PHASE_GRADIENT", "FULL_FUTURE_NULL_INITIAL_COVECTOR",
+                 "UNIQUE_LOCAL_SMOOTH_PHASE_ON_COMMON_REGULAR_CHARACTERISTIC_GRAPH",
+                 "OPTIONAL_COMPACT_BOUNDARY_FREE_WHOLE_SLICE_REAL_PHASE_OBSTRUCTION",
+                 "CHOSEN_PRODUCT_AND_CURVATURE_RECIPE_PERSISTENCE_NOT_DERIVED"),
+        "G360": ("G357_SC2_CONDITIONAL_DEPENDENCY", "G351_G352_OWNER_PROVISIONAL",
+                 "CHOSEN_PHASE_INDEPENDENT_PRODUCT", "EXACT_SHARED_WINDOWS_AND_REGISTRATION",
+                 "SUPPLIED_UNIFORM_RELATIVE_BOUND_ZERO_LE_E_LT_ONE",
+                 "NECESSITY_FOR_EVERY_FIXED_BOUND_VALID_MEASURABLE_KERNEL",
+                 "SUFFICIENCY_EXISTS_ALLOWED_KERNELS_AND_MEASURE",
+                 "ZERO_RECORD_SEPARATE", "SHARP_ONE_FIFTH_EXAMPLE_NOT_EMPIRICAL_TOLERANCE"),
+    }
+    forbidden_scopes = {
+        "G357": ("finite simple-kernel cone closure generalized to arbitrary kernels",
+                 "cell masses called full measure identification"),
+        "G358": ("algebraic sufficiency called full lawful-data or Einstein PDE realization",
+                 "one-point curvature called metric derivatives finite transport or history"),
+        "G359": ("optional global real phase obstruction called refutation of local queries or compact metric developments",
+                 "free phase extension called curvature-recipe or product persistence"),
+        "G360": ("existential uncertainty-class sufficiency called sufficiency for every fixed actual kernel",
+                 "one-fifth diagnostic called measured calibration tolerance",
+                 "initial false-pass or 1/1 focused repair history erased"),
+    }
+    for premise_id in SHARED_CONSTRAINT_BANKING_IDS:
+        require(premise_id in by_id, f"shared-constraint banking row missing: {premise_id}")
+        row = by_id[premise_id]
+        require(row["current_status"] == CONDITIONAL_BANKING_STATUS
+                and row["epistemic_label"] == "MIXED",
+                f"{premise_id} shared-constraint banking grade changed")
+        require(row["controlling_source"] == SHARED_CONSTRAINT_BANKING_SOURCE,
+                f"{premise_id} shared-constraint banking source changed")
+        for token in (*claims[premise_id], *active_scopes[premise_id]):
+            require(token in row["active_use"], f"{premise_id} active scope lacks {token}")
+        for token in ("physical identification remains OPEN", "instrument-to-readout identification",
+                      "physical population count energy detector source history matter mass scale Xmax and canon"):
+            require(token in row["open_scope"], f"{premise_id} open scope lacks {token}")
+        for token in (*forbidden_scopes[premise_id], "review counts called analytic proof",
+                      "UNKNOWN runtime model or UNTESTED different-model review upgraded"):
+            require(token in row["forbidden_regression"], f"{premise_id} guard lacks {token}")
+        require("FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED"
+                in row["precedence_rule"], f"{premise_id} review independence scope changed")
+    if not authenticate_sources:
+        return
+
+    campaign = root / SHARED_CONSTRAINT_BANKING_CAMPAIGN
+    manifest = campaign / "ARTIFACT_SHA256SUMS"
+    require(manifest.is_file(), "shared-constraint banking frozen campaign manifest missing")
+    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
+            == "32daf9c0b69ec4107b310f9275a6bc1e2b674f7c40fb456811f0f6d122a26cfe",
+            "shared-constraint banking frozen campaign manifest changed")
+    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    require(len(entries) == len({item[1] for item in entries}) == 441,
+            "shared-constraint banking frozen campaign manifest membership changed")
+    for expected, relative in entries:
+        payload = root / relative
+        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+                f"shared-constraint banking frozen campaign payload changed: {relative}")
+    historical_sources: dict[str, bytes] = {}
+    for step in range(1, 6):
+        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
+            expected, relative = line.split(maxsplit=1)
+            if relative not in historical_sources:
+                frozen = subprocess.run(
+                    ["git", "show", f"{SHARED_CONSTRAINT_BANKING_SNAPSHOT}:{relative}"],
+                    cwd=ROOT, capture_output=True, check=False, timeout=10,
+                )
+                require(frozen.returncode == 0,
+                        f"shared-constraint banking historical source unavailable: {relative}")
+                historical_sources[relative] = frozen.stdout
+            require(hashlib.sha256(historical_sources[relative]).hexdigest() == expected,
+                    f"shared-constraint banking historical source hash changed: {relative}")
+            if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                current = root / relative
+                require(current.is_file() and current.read_bytes() == historical_sources[relative],
+                        f"shared-constraint banking scientific source changed since snapshot: {relative}")
+    require(old_bytes == historical_sources["CURRENT_SCIENTIFIC_PREMISES.tsv"],
+            "shared-constraint banking is not additive from the authorized snapshot")
+
+
 
 def validate_startup_surface(root: Path) -> None:
     """Fail closed on semantic startup authority without requiring duplicated chronology."""
@@ -450,12 +579,13 @@ def validate_startup_surface(root: Path) -> None:
     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
     require(registry.is_file(), "premise registry missing")
     registry_rows = read_tsv(registry)
-    require(len(registry_rows) == 339, "premise registry must contain exactly 339 rows")
+    require(len(registry_rows) == 343, "premise registry must contain exactly 343 rows")
     require(
-        len({row["premise_id"] for row in registry_rows}) == 339,
+        len({row["premise_id"] for row in registry_rows}) == 343,
         "premise registry contains duplicate ids",
     )
     validate_conditional_banking(root, authenticate_sources=False)
+    validate_shared_constraint_banking(root, authenticate_sources=False)
 
     for control in PREMISE_REGISTRY_CONTROLS:
         require(
@@ -491,7 +621,7 @@ def validate_startup_surface(root: Path) -> None:
         "T_clock=R A^-1",
         "continuous",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
-        "339-row",
+        "343-row",
         "archive/STARTUP_SURFACE_HISTORY.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12",
         "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
@@ -512,7 +642,7 @@ def validate_startup_surface(root: Path) -> None:
     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
     live_next = " ".join(live_next_parts[1].split())
     for token in (
-        "G353--G356", "conditional mathematical banking",
+        "G353--G356", "G357--G360", "SC1 remains a source map", "conditional mathematical banking",
         "G352 physical-realization", "physical identification remains OPEN",
         "Charles", "no new campaign is authorized",
     ):
@@ -521,7 +651,7 @@ def validate_startup_surface(root: Path) -> None:
     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
     handoff_next = " ".join(handoff_next_parts[1].split())
     for token in (
-        "G353--G356", "conditional mathematical banking",
+        "G353--G356", "G357--G360", "SC1 remains a source map", "conditional mathematical banking",
         "G352 physical-realization", "physical identification remains OPEN",
         "Charles", "no new campaign is authorized",
     ):
@@ -573,7 +703,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "339-row exact registry",
+            "343-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -595,6 +725,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/",
             "udt_g352_clock_rate_carried_measure_readout_2026-09-05/",
             CONDITIONAL_BANKING_SOURCE,
+            SHARED_CONSTRAINT_BANKING_SOURCE,
             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
             "R5_OUTCOME_REPORT.md",
             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",
@@ -607,7 +738,7 @@ def validate_startup_surface(root: Path) -> None:
             "verify_current_scientific_premises.py",
         ),
         "MEMORY.md": (
-            "339-row",
+            "343-row",
             "B,Q,S,Y,Z",
             "Universal Reciprocity/DDR",
             "owner-adopted provisional premises",
@@ -622,7 +753,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/STARTUP_SURFACE_HISTORY.md",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
-            "339-row",
+            "343-row",
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
             "G129--G198",
             "G199--G276",
@@ -640,7 +771,7 @@ def validate_startup_surface(root: Path) -> None:
             "physical-realization",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
-            "339-row",
+            "343-row",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
             "one postulate with two formulations",
@@ -1081,16 +1212,18 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/AUDIT_REPORT.md",
         "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
         CONDITIONAL_BANKING_SOURCE,
+        SHARED_CONSTRAINT_BANKING_SOURCE,
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 339, "premise registry must contain exactly 339 rows")
+    require(len(rows) == 343, "premise registry must contain exactly 343 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 339, "duplicate premise id")
+    require(len(by_id) == 343, "duplicate premise id")
     validate_conditional_banking(ROOT)
+    validate_shared_constraint_banking(ROOT)
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1857,7 +1990,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -1932,7 +2065,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2011,7 +2144,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2104,7 +2237,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -5805,7 +5938,7 @@ def main() -> None:
             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 source_bytes = b"".join(
                     line for line in source_bytes.splitlines(keepends=True)
-                    if not line.startswith((b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
+                    if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
                 )
             destination = g351_root / source_name
             destination.parent.mkdir(parents=True, exist_ok=True)
@@ -18832,7 +18965,9 @@ def main() -> None:
         "registry, current bounded startup route, archive integrity, "
         "relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, "
         "and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking "
-        "with unchanged frozen sources and physical-identification limits"
+        "with unchanged frozen sources and physical-identification limits; "
+        "PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, "
+        "SC5 false-pass repair history and unchanged frozen sources"
     )
 
 

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib,subprocess\nroot=pathlib.Path.cwd()\npin=\"ed2f7432f068aa7a72628382b890596b3efba06a\"\ncampaign=\"udt_shared_readout_metric_constraint_campaign_2026-09-06\"\ndef git(*args):\n r=subprocess.run([\"git\",*args],capture_output=True,check=True,timeout=30)\n return r.stdout\npaths=git(\"ls-tree\",\"-r\",\"--name-only\",pin,\"--\",campaign).decode().splitlines()\nassert len(paths)==442\nfor name in paths:\n assert (root/name).read_bytes()==git(\"show\",pin+\":\"+name),name\nfixed=[\"UDT_METRIC_KERNEL_DEVELOPMENT.md\",\"UDT_METRIC_KERNEL_COVERAGE.tsv\",\"CANON.md\"]\nhashes={}\nfor name in fixed:\n data=(root/name).read_bytes()\n assert data==git(\"show\",pin+\":\"+name),name\n hashes[name]=hashlib.sha256(data).hexdigest()\nregistry=(root/\"CURRENT_SCIENTIFIC_PREMISES.tsv\").read_bytes()\nold=b\"\".join(x for x in registry.splitlines(keepends=True) if not x.startswith((b\"G357\\t\",b\"G358\\t\",b\"G359\\t\",b\"G360\\t\")))\nassert old==git(\"show\",pin+\":CURRENT_SCIENTIFIC_PREMISES.tsv\")\nassert hashlib.sha256(old).hexdigest()==\"23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429\"\ninitial=json.loads((root/\"udt_g357_g360_conditional_banking_2026-09-07/STARTUP_WORKSPACE.json\").read_text())[\"status_tool_result\"][\"output\"].splitlines()\nbefore=[x for x in initial if x.startswith(\"?? \")]\nstatus=git(\"-c\",\"core.preloadIndex=false\",\"--no-optional-locks\",\"status\",\"--short\",\"--branch\").decode()\nafter=[x for x in status.splitlines() if x.startswith(\"?? \") and not x.startswith(\"?? udt_g357_g360_conditional_banking_2026-09-07/\")]\nassert before==after\nprint(json.dumps(dict(result=\"PASS\",source_pin=pin,campaign_files_byte_identical=len(paths),fixed_hashes=hashes,old_registry_sha256=hashlib.sha256(old).hexdigest(),unrelated_untracked_entries=len(after),protected_payloads_read=False,backup_completeness=\"UNVERIFIED\",pre_reboot_unsaved_state_disposition=\"UNVERIFIED\",scratchdisk=\"unused; archive-dependent tasks only\"),sort_keys=True))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T04:05:33.818941+00:00",
+  "duration_seconds": 0.08732221600075718,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 25216
+}
