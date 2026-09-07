@@ -157,3 +157,12 @@ trailing-space display lines. Actual final staged inventory is95 warnings,
 exactly51 original plus44 newly preserved diagnostic lines; no unexpected
 warning class appears. FINAL_ASSEMBLY_CHECK.json captures the final output
 losslessly as JSON, avoiding another raw-diagnostic whitespace duplication.
+
+Banking committed and pushed as005f73185b0a8410e91665de6ac2d53aa6c76da3.
+Actual push succeeded; HEAD, origin/grok and git ls-remote agreed on that
+hash. Tracked worktree was clean and the46 original untracked entries remained.
+COMMIT_PUSH_RECEIPT.json preserves the command/tool results and precommit
+authorized-target/116-payload authentication. This later receipt-only update
+and manifest refresh record completion without changing the13 reviewed files,
+source science or proposal. No duplicate full scientific audit/review is
+claimed for the factual receipt. The next campaign still awaits Charles.
