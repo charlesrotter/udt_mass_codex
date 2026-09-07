@@ -1,0 +1,5 @@
+Reading additional input from stdin...
+2026-09-07T23:12:54.543898Z ERROR codex_core::tools::router: error=code-mode host exited with status signal: 5 (SIGTRAP) (core dumped)
+2026-09-07T23:12:59.246891Z ERROR codex_core::tools::router: error=code-mode host closed its stdout
+2026-09-07T23:13:02.556707Z ERROR codex_core::tools::router: error=code-mode host exited with status signal: 5 (SIGTRAP) (core dumped)
+Failed to write last message file "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/CLI_FINAL_MESSAGE.md": No such file or directory (os error 2)

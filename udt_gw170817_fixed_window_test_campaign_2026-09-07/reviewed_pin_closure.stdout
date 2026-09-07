@@ -1,0 +1,17 @@
+{
+  "scope": "packaging, exact reviewed-version and saved-result consistency; not new scientific review",
+  "FW1": "VERIFIED-WITH-CAVEATS",
+  "FW2": "VERIFIED-WITH-CAVEATS",
+  "initial_evidence_preserved": true,
+  "reviewed_pins_match": true,
+  "counts": [
+    5,
+    3,
+    3
+  ],
+  "event_unexamined": true,
+  "scientific_promotion": false,
+  "full349_audit_replayed": false,
+  "full349_saved_PASS_verified": true,
+  "failed_execution_records_preserved": true
+}

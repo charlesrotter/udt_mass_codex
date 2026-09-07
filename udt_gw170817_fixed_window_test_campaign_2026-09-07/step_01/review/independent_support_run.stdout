@@ -1,0 +1,130 @@
+{
+  "conditional_rank_resolution": 0.045454545454545456,
+  "eligible": [
+    1187008516,
+    1187009016,
+    1187009116,
+    1187009216,
+    1187009416,
+    1187009516,
+    1187009616,
+    1187009716,
+    1187009816,
+    1187009916,
+    1187010016,
+    1187010116,
+    1187010216,
+    1187010316,
+    1187010416,
+    1187010616,
+    1187010716,
+    1187010816,
+    1187010916,
+    1187011016,
+    1187011116,
+    1187011216,
+    1187011316,
+    1187011416,
+    1187011516,
+    1187011616,
+    1187011716,
+    1187011816,
+    1187012016,
+    1187012116,
+    1187012216,
+    1187012316,
+    1187012416
+  ],
+  "failures": {
+    "1187009316": [
+      {
+        "detector": "H1",
+        "dq": 19,
+        "gps": 1187009326,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 19,
+        "gps": 1187009327,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 31,
+        "gps": 1187009328,
+        "inj": 23
+      }
+    ],
+    "1187010516": [
+      {
+        "detector": "H1",
+        "dq": 19,
+        "gps": 1187010566,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 19,
+        "gps": 1187010567,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 31,
+        "gps": 1187010568,
+        "inj": 23
+      }
+    ],
+    "1187011916": [
+      {
+        "detector": "H1",
+        "dq": 31,
+        "gps": 1187011982,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 31,
+        "gps": 1187011983,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 31,
+        "gps": 1187011984,
+        "inj": 23
+      },
+      {
+        "detector": "H1",
+        "dq": 31,
+        "gps": 1187011985,
+        "inj": 23
+      }
+    ]
+  },
+  "field_reader": "reviewer h5dump text parser; raw producer masks not reused",
+  "files": {
+    "H1": {
+      "bytes": 129345626,
+      "md5": "60bfe0c6d9e18faf600dc014c8391e25",
+      "sha256": "56cbb619502124202e423a7c3e097e0988693b2a5b35cdd3919a6ed8c32a321e"
+    },
+    "L1": {
+      "bytes": 129746664,
+      "md5": "0825d68e92faaeb7627ed11a3947185e",
+      "sha256": "9d550a48d0b24c545c514360ef95981641172ae0268c07a92029b36afcad307f"
+    },
+    "V1": {
+      "bytes": 129470192,
+      "md5": "8c8d9d2f3f43b7d59970ba197098e8a4",
+      "sha256": "b7afb9df82510fcc2cc436339e8f151d8450e60530a947bd23a446b7a5de85cd"
+    }
+  },
+  "note": "Rank resolution requires exchangeability for coverage; no statistical coverage asserted.",
+  "producer_metadata_code_imported": false,
+  "proposed_count": 36,
+  "reference_count": 21,
+  "strain_samples_inspected": false,
+  "training_count": 12
+}

@@ -157,10 +157,20 @@ The complementary-observable campaign is complete at its two reviewed conditiona
 `udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`.
 CO1 supplies the scoped wave-tidal/readout and free-waveform null relation; CO2 checks
 nominal H1/L1/V1 rank2/condition5.62 with one contrast, not three independent holdouts.
-Supplied response/astrometry/error assumptions remain; no strain/PSD analysis or eligibility
-promotion. CO1 repair history and both separate-context reviews are preserved.
-Next is Charles's decision on the proposed matched-release fixed-window strain test,
-including its error/power and upstream-processing gates; no new campaign is authorized.
+Supplied response/astrometry/error assumptions remain; CO1/CO2 did not include strain/PSD
+analysis or eligibility promotion. CO1 repair history and both separate-context reviews are preserved.
+The authorized fixed-window campaign is COMPLETE after TWO reviewed steps in
+`udt_gw170817_fixed_window_test_campaign_2026-09-07/`, stopping at its frozen sensitivity gate.
+FW1/FW2 R1 are VERIFIED-WITH-CAVEATS at exact narrowed scopes, not accepted-grade promotions.
+The33 off-source supports give target crossings5/168,3/168,3/168 versus required152/168;
+one retained reference dominates the maximum threshold. Independent recomputation/review
+closed the inclusive-bin repair; original failures and exposure history are preserved.
+No event samples/contrast were examined and FW3 was not begun. No geometric constraint,
+population-power claim or instrument/UDT-wide verdict follows. Physical response/error
+eligibility remains OPEN; the transient runtime blocker is resolved. The actual349-row
+premise audit passed; accepted science/canon/fixed-snapshot manuscript remain unchanged.
+Next is Charles's choice on the proposed bounded response-error/robustness design gate
+in this campaign's NEXT_WORK_ORDER.md (or another direction); no new campaign is authorized.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,

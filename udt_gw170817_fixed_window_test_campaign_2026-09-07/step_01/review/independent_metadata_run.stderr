@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_01/review/independent_metadata.py", line 87, in <module>
+    result = {name:summarize(name) for name in ['H1','L1','V1']}
+  File "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_01/review/independent_metadata.py", line 87, in <dictcomp>
+    result = {name:summarize(name) for name in ['H1','L1','V1']}
+  File "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_01/review/independent_metadata.py", line 71, in summarize
+    assert dqnames == ['DATA','CBC_CAT1','CBC_CAT2','CBC_CAT3','BURST_CAT1','BURST_CAT2','BURST_CAT3']
+AssertionError

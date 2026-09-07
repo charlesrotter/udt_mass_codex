@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5",
+      "url": "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/H-H1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5",
+      "bytes": 129345626,
+      "sha256": "56cbb619502124202e423a7c3e097e0988693b2a5b35cdd3919a6ed8c32a321e"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5",
+      "url": "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/L-L1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5",
+      "bytes": 129746664,
+      "sha256": "9d550a48d0b24c545c514360ef95981641172ae0268c07a92029b36afcad307f"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5",
+      "url": "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/V-V1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5",
+      "bytes": 129470192,
+      "sha256": "b7afb9df82510fcc2cc436339e8f151d8450e60530a947bd23a446b7a5de85cd"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/official_O2_4k_hdf_md5.txt",
+      "url": "https://gwosc.org/archive/md5/O2_4KHZ_R1/strain-hdf.txt",
+      "bytes": 727090,
+      "sha256": "3e4d278612f837fb76676ade8c5caf37a535576c236214a52ee9491b433942b8"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/LIGO_O2_cal_uncertainty.tgz",
+      "url": "https://dcc.ligo.org/public/0177/T2100313/003/LIGO_O2_cal_uncertainty.tgz",
+      "bytes": 26350494,
+      "sha256": "9518f3bd719ff5a7cbddea8ebdb504ab120a0b1344cd4d6887c06d355705bbc3"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/Virgo_O2_cal_uncertainty.tgz",
+      "url": "https://dcc.ligo.org/public/0177/T2100313/003/Virgo_O2_cal_uncertainty.tgz",
+      "bytes": 1626,
+      "sha256": "e3f0973bfff2028d870db81d0e8874de00397dc5908ad3485f77ca7d9021a36b"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/noise_subtraction.pdf",
+      "url": "https://arxiv.org/pdf/1809.05348",
+      "bytes": 1345988,
+      "sha256": "2d22004c70119dcfe61c70213d46b85b652779118b60298d0d1800226e258468"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/swope.pdf",
+      "url": "https://arxiv.org/pdf/1710.05452",
+      "bytes": 6042986,
+      "sha256": "4c27bfb57aa7394bb204323b3ae930d85b9777d6421187c906f2799c88dda39e"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/H1_links.json",
+      "url": "https://gwosc.org/archive/links/O2_4KHZ_R1/H1/1187008700/1187008950/json/",
+      "bytes": 1309,
+      "sha256": "d20f34c2aba9519fe6223d5e29a561c81bc088dc91675cb1dd551b2a5ab770e2"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/L1_links.json",
+      "url": "https://gwosc.org/archive/links/O2_4KHZ_R1/L1/1187008700/1187008950/json/",
+      "bytes": 1307,
+      "sha256": "869d261e251a56d77298fd7fa13f71566203ebb3035c76099e349b8c09803a1c"
+    },
+    {
+      "path": "/tmp/udt-gw170817-fixed-window-xshnIR/V1_links.json",
+      "url": "https://gwosc.org/archive/links/O2_4KHZ_R1/V1/1187008700/1187008950/json/",
+      "bytes": 1307,
+      "sha256": "bafe9e2b5e4a33c17e1b36b97a81278d8a8c898b36de316fdb910e8db262726a"
+    }
+  ],
+  "network_body_bytes": 423034589,
+  "cap_bytes": 1073741824,
+  "accounting": "Initial partials plus exact continuations equal complete H/L sizes; local copies and extracted text/masks are not extra network bytes. HTTP framing/headers excluded. No repeat full strain transfer.",
+  "partials_preserved": [
+    "H1.hdf5",
+    "L1.hdf5"
+  ],
+  "source_grade": "public observation/measurement documentation, not native UDT law"
+}

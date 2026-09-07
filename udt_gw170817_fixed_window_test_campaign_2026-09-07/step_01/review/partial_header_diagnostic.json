@@ -1,0 +1,16 @@
+{
+  "command": [
+    "h5dump",
+    "--enable-error-stack=2",
+    "-H",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/H1.hdf5"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:51:06.395504+00:00",
+  "duration_seconds": 0.046789200001512654,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 123612
+}

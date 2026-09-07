@@ -1,0 +1,65 @@
+{
+  "PSD_bad_cases_caught": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "added_controls": [
+    "PSD_validity",
+    "hrss_normalization",
+    "numeric_guard",
+    "rng"
+  ],
+  "changed_initial_fields": [
+    "version"
+  ],
+  "clipped_before_check_false_pass": true,
+  "correct_constant_hrss": 1e-21,
+  "corrected_dimensionless_residual": 1.0,
+  "exact_effect_definition": "sqrt(sum samples_squared/fs) before Hann",
+  "loose_absolute_false_pass": true,
+  "missing_sample_duration_caught": true,
+  "pinned_sha256": {
+    "CANDIDATE.md": "0a485434b9647ffa96dc76d5dd9bae921619d5ca6264e5025237ba6565c3ab76",
+    "FREEZE.json": "fa0506eaea5ef20dcd92aabf3b2d1a0efc7fb75ef6c7272c00e5e6764c591324",
+    "initial/CANDIDATE.md": "5cf764588c4b2abc627d89b7256837ad60975e61068bb93af8b83f0f4a139b08",
+    "initial/FREEZE.json": "05a3fdfc8920e4255603696d0abc3a98fc388b09645647b8aee468a500cb8b7d",
+    "metadata_filtered_run.stdout": "9e6c1d6fa98e14e0b2c060e18d4e7b46aacc35890aff46c51474ca03ce1f74af"
+  },
+  "positive90s_bins_inclusive_30_to_500": 42301,
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "relative_guard_caught": true,
+  "scope": "Finite independent method controls only; no FW2 implementation, strain or population power tested.",
+  "seeds": [
+    352170817,
+    352170818,
+    352170819,
+    352170820,
+    352170821,
+    352170822,
+    352170823,
+    352170824,
+    352171817,
+    352171818,
+    352171819,
+    352171820,
+    352171821,
+    352171822,
+    352171823,
+    352171824,
+    352172817,
+    352172818,
+    352172819,
+    352172820,
+    352172821,
+    352172822,
+    352172823,
+    352172824
+  ],
+  "target_rms": 1.0540925533894597e-22,
+  "threshold_crossings_needed_per_family": 152,
+  "welch4s_segments_per90s": 44,
+  "wrong_euclidean_hrss": 6.4e-20
+}

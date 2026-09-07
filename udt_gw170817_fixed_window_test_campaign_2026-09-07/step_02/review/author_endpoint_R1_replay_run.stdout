@@ -1,0 +1,43 @@
+{
+  "endpoint_catchproof": [
+    {
+      "band_hz": [
+        30,
+        500
+      ],
+      "nominal_lower_bin_hz": 29.999999999999996,
+      "original_count": 46060,
+      "corrected_count": 46061,
+      "expected_inclusive_count": 46061,
+      "original_guard": "EXPECTED_ASSERTION_FAILURE",
+      "corrected_guard": "PASS"
+    },
+    {
+      "band_hz": [
+        30,
+        100
+      ],
+      "nominal_lower_bin_hz": 29.999999999999996,
+      "original_count": 6860,
+      "corrected_count": 6861,
+      "expected_inclusive_count": 6861,
+      "original_guard": "EXPECTED_ASSERTION_FAILURE",
+      "corrected_guard": "PASS"
+    },
+    {
+      "band_hz": [
+        100,
+        500
+      ],
+      "nominal_lower_bin_hz": 99.99999999999999,
+      "original_count": 39200,
+      "corrected_count": 39201,
+      "expected_inclusive_count": 39201,
+      "original_guard": "EXPECTED_ASSERTION_FAILURE",
+      "corrected_guard": "PASS"
+    }
+  ],
+  "core_statistic_bin_membership_unchanged": true,
+  "frozen_controls_unchanged": true,
+  "scope": "same-author implementation catchproof only"
+}

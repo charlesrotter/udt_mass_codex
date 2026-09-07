@@ -1,0 +1,262 @@
+{
+  "direct_quadratic_max_relative_error": 4.108770631406165e-15,
+  "families": [
+    {
+      "band_hz": [
+        30,
+        500
+      ],
+      "crossing_fractions": [
+        0.023809523809523808,
+        0.023809523809523808,
+        0.023809523809523808,
+        0.02976190476190476,
+        0.02976190476190476,
+        0.02976190476190476,
+        0.03571428571428571,
+        0.047619047619047616,
+        0.047619047619047616
+      ],
+      "finite_90percent_crossing_hrss": 1.1748757429839625e-18,
+      "survives_target": false,
+      "target_crossing_fraction": 0.02976190476190476
+    },
+    {
+      "band_hz": [
+        30,
+        100
+      ],
+      "crossing_fractions": [
+        0.017857142857142856,
+        0.017857142857142856,
+        0.017857142857142856,
+        0.017857142857142856,
+        0.017857142857142856,
+        0.02976190476190476,
+        0.041666666666666664,
+        0.047619047619047616,
+        0.047619047619047616
+      ],
+      "finite_90percent_crossing_hrss": 1.1364513015735747e-18,
+      "survives_target": false,
+      "target_crossing_fraction": 0.017857142857142856
+    },
+    {
+      "band_hz": [
+        100,
+        500
+      ],
+      "crossing_fractions": [
+        0.017857142857142856,
+        0.017857142857142856,
+        0.017857142857142856,
+        0.017857142857142856,
+        0.017857142857142856,
+        0.02976190476190476,
+        0.041666666666666664,
+        0.047619047619047616,
+        0.047619047619047616
+      ],
+      "finite_90percent_crossing_hrss": 1.1864345748421623e-18,
+      "survives_target": false,
+      "target_crossing_fraction": 0.017857142857142856
+    }
+  ],
+  "freeze_sha256": "fa0506eaea5ef20dcd92aabf3b2d1a0efc7fb75ef6c7272c00e5e6764c591324",
+  "grid_hrss": [
+    1e-23,
+    3e-23,
+    1e-22,
+    3e-22,
+    1e-21,
+    3e-21,
+    1e-20,
+    3e-20,
+    1e-19
+  ],
+  "interpretation": "finite in-sample fractions, NOT population power/confidence/physical event constraint",
+  "max_over_min_Q": 34778.94552955844,
+  "median_Q_first10": 0.9614095112160421,
+  "median_Q_last11": 1.0611169003860474,
+  "metadata_sha256": "9e6c1d6fa98e14e0b2c060e18d4e7b46aacc35890aff46c51474ca03ce1f74af",
+  "mode": "frozen offsource descriptive sensitivity",
+  "observed_strain_scope": "33 offsource supports only; event UNEXAMINED",
+  "producer_sha256": "d8229dbd658f9503bcb59e2356f99ae160d5a96d98bf2e4155fd12f9f3326396",
+  "rank_resolution_if_exchangeable": 0.045454545454545456,
+  "reference_Q": [
+    0.9388275248150628,
+    1.2179720664963316,
+    0.9127307602530116,
+    0.9647740221821953,
+    0.9003711715640865,
+    1.0184421164486277,
+    1.1472691332931226,
+    1.026277147522372,
+    0.9553807126771843,
+    0.958045000249889,
+    1.058821268616906,
+    1.0166097907666876,
+    31313.95993221208,
+    1.0182386710303748,
+    1.0228919273592878,
+    1.0889237613864209,
+    1.1251829139013187,
+    0.9227387935221848,
+    1.0611169003860474,
+    1.1150797176939817,
+    1.1438588464803061
+  ],
+  "reference_core_gps": [
+    1187010216,
+    1187010316,
+    1187010416,
+    1187010616,
+    1187010716,
+    1187010816,
+    1187010916,
+    1187011016,
+    1187011116,
+    1187011216,
+    1187011316,
+    1187011416,
+    1187011516,
+    1187011616,
+    1187011716,
+    1187011816,
+    1187012016,
+    1187012116,
+    1187012216,
+    1187012316,
+    1187012416
+  ],
+  "reinjection_coefficients_sha256": "0bc7cf0bb448636fdb691fd4b538ee9983a003b69dc3b9148b4a07051194831b",
+  "survives_all_families": false,
+  "synthetic_field_hashes": [
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "e1f4d37b59ad141a70bdf4949b1901d17e693b86cbc26ea60f7c3da1a589d468",
+      "phase": 0
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "8d93abfa2fcbf59f7cb69ce07b670d583760e7dfa7c1ad5f6dd35570df1d33ef",
+      "phase": 1
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "e58f9b7b7d3df9df1a824ee69870e3d2ec0cea5208677b1c9d682f3294cceb48",
+      "phase": 2
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "6423439b81822cb43f56df37ae35875f6258c4037f6dd77d65cabfd38cb723cf",
+      "phase": 3
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "0afd6b6ef30cea9e8a5c58900dd3bd1988407c5047ca12d790ef40b9f603dc4c",
+      "phase": 4
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "be4e15db16f1a44a762b0e6c45bb776d58f6e85f07150f2d3781f80282bab7c9",
+      "phase": 5
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "263c5f77494a1f65642ae9427e92dd3a007f1198024470b7a3ed3e63a00c7ae5",
+      "phase": 6
+    },
+    {
+      "family": 0,
+      "full_scaled_f64_sha256": "c7b713801e5418edb96faa1d65c231eaf4f10ac8e58a7bfe4b845604099478a3",
+      "phase": 7
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "bb70edbb58cc6561ff7881d3bda15f68e816b89bd133334098c2f04980a110eb",
+      "phase": 0
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "37f6d334512cabd19a7e44aa0a46e3de849f8f442de078b625c445f297be7ec9",
+      "phase": 1
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "68a318fb89aa429943b8c527b15a4006cf3b077ec7223b98fde7f7b2cdd5f08f",
+      "phase": 2
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "151f3944464f54d3d1c21617b1d06d05392df3fd72f4d68c095a570e3edf29d1",
+      "phase": 3
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "a70bbf5edabf06319fffa9fe116090a9431030e638deb33fc0d78522ca0be5cc",
+      "phase": 4
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "94ee7b154e4eef5e714c67049df2d3cf6a95aaad8e19b8d4fc0d90c447e7a6ee",
+      "phase": 5
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "4f574a696e33ac29d63b1608f9d0f4dde7af96b41393443ed99e9bd251dfec27",
+      "phase": 6
+    },
+    {
+      "family": 1,
+      "full_scaled_f64_sha256": "0d723c93594c79a635fa7fdddaafd92be422798f9c444fc47ab3d4dfa3984fb2",
+      "phase": 7
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "a6703c66b7053caafe4c27f9fd7de5b05556a84db25e24a5806baf93e1ddd2d8",
+      "phase": 0
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "9f8c304afb4f397076e1e23400eca761be331ccddbafd17b54f73830d5fe1073",
+      "phase": 1
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "2048f8c51ed9217fd48e8eaf877c01e25c14303cec3cb60e7d0a3842be10c59c",
+      "phase": 2
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "a91991826ded7450330e13c7ed23115f8e53271f00266ee065d17488bdba59a7",
+      "phase": 3
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "f19c546603ac4aff6232291675af72f57cffb1cc6149cc53b6c1534f087d2260",
+      "phase": 4
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "2b3fe3ba72f4e863fa740f0825542961e6d59a7bb9b0ea7b48dd4c8fdec6ac0f",
+      "phase": 5
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "5b8a6bddf6e7302e8ec4547f9551edf20842b7a9231d38ce38c41539cafb7daf",
+      "phase": 6
+    },
+    {
+      "family": 2,
+      "full_scaled_f64_sha256": "231cd6e47fc61d270d29d805825dfee6721e1c05ddae8a6cbafcba7fa7f26377",
+      "phase": 7
+    }
+  ],
+  "threshold": 31313.95993221208,
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  }
+}

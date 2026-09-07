@@ -1,0 +1,34 @@
+{
+  "scope": "synthetic finite method checks only; source-first; no observed arrays",
+  "python": "3.10.12",
+  "numpy": "2.2.6",
+  "b_determinant": [
+    0.4723561064125053,
+    0.9125510036953598,
+    1.0
+  ],
+  "measured": {
+    "correct_relative": 6.049590999240436e-15,
+    "wrong_sign_relative": 0.5483454127764814,
+    "omit_H_relative": 0.3455808378469031,
+    "premature_taper_relative": 0.01080184664656545
+  },
+  "checks": {
+    "matrix_original_relative": true,
+    "correct_finite_operator": true,
+    "wrong_sign_rejected": true,
+    "omitted_H_rejected": true,
+    "premature_taper_noncommutation": true,
+    "quadratic_direct_identity": true,
+    "direct_DFT_parseval": true,
+    "periodic_Hann_norm": true,
+    "complex_covariance_row_conjugation": true,
+    "absolute_strain_guard_false_pass": true,
+    "all_passed": true
+  },
+  "Q_direct": 0.0395155320273064,
+  "Q_expanded": 0.03951553202730639,
+  "complex_covariance_variance": 3.0,
+  "threshold_min_crossings": 152,
+  "conditional_rank_resolution": 0.045454545454545456
+}

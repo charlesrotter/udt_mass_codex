@@ -1,0 +1,89 @@
+{
+  "PSD_artifact_sha256": "6cf4c75cac9a38318311da37a16de0bb6b7c629643d52008b2eb2b8b70b758ea",
+  "PSD_units": "(strain*1e21)^2/Hz; divide by1e42 for strain2/Hz",
+  "b": [
+    0.4723561064125053,
+    0.9125510036953598,
+    1.0
+  ],
+  "cross_term_relative_band_L2": 2.746978772466508e-05,
+  "event_samples_read": false,
+  "method_checks": {
+    "V_injection_roundtrip_relative": 7.058028321816517e-16,
+    "b": [
+      0.4723561064125053,
+      0.9125510036953598,
+      1.0
+    ],
+    "correct_null_relative": 4.3814831238784364e-16,
+    "exact_domain": "finite cyclic zeroDC/Nyquist static response only; not upstream/continuum retention",
+    "injection_hrss_scaled": 1.0,
+    "missing_H_term_relative": 0.34911176942380306,
+    "physical_scale_correct_relative": 4.404470662003821e-16,
+    "physical_scale_wrong_relative": 0.34911176942380173,
+    "tau_seconds": [
+      0.018826632251513074,
+      0.015560840809109985,
+      -0.006330543633799644
+    ],
+    "wrong_sign_relative": 0.8682305893922481
+  },
+  "mode": "offsource PSD training",
+  "noise_independence_assumed": false,
+  "records": [
+    {
+      "core_gps": 1187008516,
+      "covariance_reconstruction_relative": 3.875092870780787e-16
+    },
+    {
+      "core_gps": 1187009016,
+      "covariance_reconstruction_relative": 3.0484782012452126e-16
+    },
+    {
+      "core_gps": 1187009116,
+      "covariance_reconstruction_relative": 2.571602324555037e-16
+    },
+    {
+      "core_gps": 1187009216,
+      "covariance_reconstruction_relative": 1.8305743352422989e-16
+    },
+    {
+      "core_gps": 1187009416,
+      "covariance_reconstruction_relative": 1.8957870435112922e-16
+    },
+    {
+      "core_gps": 1187009516,
+      "covariance_reconstruction_relative": 2.0232001803269026e-16
+    },
+    {
+      "core_gps": 1187009616,
+      "covariance_reconstruction_relative": 1.9867232072082257e-16
+    },
+    {
+      "core_gps": 1187009716,
+      "covariance_reconstruction_relative": 1.6239647487684859e-16
+    },
+    {
+      "core_gps": 1187009816,
+      "covariance_reconstruction_relative": 3.8398011905627057e-16
+    },
+    {
+      "core_gps": 1187009916,
+      "covariance_reconstruction_relative": 3.124032858290961e-16
+    },
+    {
+      "core_gps": 1187010016,
+      "covariance_reconstruction_relative": 1.6324470230029117e-16
+    },
+    {
+      "core_gps": 1187010116,
+      "covariance_reconstruction_relative": 1.3717521786113304e-16
+    }
+  ],
+  "retained_floor_count": 0,
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.12",
+    "scipy": "1.15.3"
+  }
+}

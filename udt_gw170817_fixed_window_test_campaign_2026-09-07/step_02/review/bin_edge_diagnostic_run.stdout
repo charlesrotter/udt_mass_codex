@@ -1,0 +1,54 @@
+{
+  "scope": "frozen inclusive-bin fidelity, no strain input",
+  "failure": "floating low-edge label rounds below exact inclusive cutoff",
+  "rows": [
+    {
+      "band": [
+        30,
+        500
+      ],
+      "intended_count": 46061,
+      "producer_count": 46060,
+      "omitted_indices": [
+        2940
+      ],
+      "omitted_float_labels": [
+        29.999999999999996
+      ],
+      "floating_gate_actually_failed": true,
+      "integer_correction_passed": true
+    },
+    {
+      "band": [
+        30,
+        100
+      ],
+      "intended_count": 6861,
+      "producer_count": 6860,
+      "omitted_indices": [
+        2940
+      ],
+      "omitted_float_labels": [
+        29.999999999999996
+      ],
+      "floating_gate_actually_failed": true,
+      "integer_correction_passed": true
+    },
+    {
+      "band": [
+        100,
+        500
+      ],
+      "intended_count": 39201,
+      "producer_count": 39200,
+      "omitted_indices": [
+        9800
+      ],
+      "omitted_float_labels": [
+        99.99999999999999
+      ],
+      "floating_gate_actually_failed": true,
+      "integer_correction_passed": true
+    }
+  ]
+}

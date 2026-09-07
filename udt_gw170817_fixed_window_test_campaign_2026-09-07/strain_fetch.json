@@ -1,0 +1,30 @@
+{
+  "command": [
+    "curl",
+    "-L",
+    "--fail",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "160000000",
+    "-w",
+    "%{http_code} %{size_download}\\n",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/H1.hdf5",
+    "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/H-H1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/L1.hdf5",
+    "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/L-L1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/V1.hdf5",
+    "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/V-V1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:45:48.456411+00:00",
+  "duration_seconds": 60.002954137991765,
+  "returncode": null,
+  "timeout": true,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12480
+}

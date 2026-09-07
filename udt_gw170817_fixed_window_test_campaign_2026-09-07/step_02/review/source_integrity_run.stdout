@@ -1,0 +1,26 @@
+{
+  "scope": "whole-file byte hashing only; no HDF5 strain arrays opened or re-extracted",
+  "all_original_sources_match_FW1": true,
+  "all_three_author_repeat_bytes_match": true,
+  "event_samples_read": false,
+  "records": [
+    {
+      "detector": "H1",
+      "source_sha256": "56cbb619502124202e423a7c3e097e0988693b2a5b35cdd3919a6ed8c32a321e",
+      "source_bytes": 129345626,
+      "original_and_repeated_offsource_sha256": "5b332269f53c4ba957fbd06d6a4a5e356aebd48144daede3054acf015f723c25"
+    },
+    {
+      "detector": "L1",
+      "source_sha256": "9d550a48d0b24c545c514360ef95981641172ae0268c07a92029b36afcad307f",
+      "source_bytes": 129746664,
+      "original_and_repeated_offsource_sha256": "5790670061dbddd3e6452ccc3afb4c5f5aa23b166786b6c9d06a5079d4aee005"
+    },
+    {
+      "detector": "V1",
+      "source_sha256": "b7afb9df82510fcc2cc436339e8f151d8450e60530a947bd23a446b7a5de85cd",
+      "source_bytes": 129470192,
+      "original_and_repeated_offsource_sha256": "5484491cd729a060588da17d677e1e517d6715a93086913e7cfc1ecb01ce25b9"
+    }
+  ]
+}

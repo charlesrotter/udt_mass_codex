@@ -1,0 +1,17 @@
+{
+  "reviewer_only_failure": true,
+  "same_Fourier_sum_no_tolerance_relaxation": true,
+  "physical_claim": false,
+  "rows": [
+    {
+      "core": 1187010216,
+      "unreduced_argument_relative_error": 2.805771923400329e-10,
+      "integer_modular_argument_relative_error": 2.8251136725528214e-14
+    },
+    {
+      "core": 1187011516,
+      "unreduced_argument_relative_error": 1.0135069187749189e-11,
+      "integer_modular_argument_relative_error": 4.58723103731933e-16
+    }
+  ]
+}

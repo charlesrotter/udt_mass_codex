@@ -1,0 +1,27 @@
+{
+  "command": [
+    "curl",
+    "-sS",
+    "-L",
+    "--fail",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "160000000",
+    "-C",
+    "55996416",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5",
+    "-w",
+    "%{http_code} %{size_download}\\n",
+    "https://gwosc.org/archive/data/O2_4KHZ_R1/1186988032/L-L1_GWOSC_O2_4KHZ_R1-1187008512-4096.hdf5"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:52:58.340927+00:00",
+  "duration_seconds": 15.041164288006257,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12672
+}

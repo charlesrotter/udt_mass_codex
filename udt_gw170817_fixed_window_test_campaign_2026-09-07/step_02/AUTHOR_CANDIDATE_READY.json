@@ -1,0 +1,18 @@
+{
+  "candidate_sha256": "d4ec21b1cab3fd8672f7b4b2be8bf67d78e5f460bd78930fbafe386baa458f82",
+  "producer_sha256": "fa865d46e6b728d2ac978e962067260ea4e9052d8f1b17f0e01a6f523de23ba2",
+  "evaluation_sha256": "6d8abeba36f7c4d26983bdde1a5343158bf3678ca77079cac1e547fff69e9bc8",
+  "training_sha256": "33a7cff5cc4504888f8550d9925c0a3a445b10919a05b1a84e1788ce406e527a",
+  "diagnostic_sha256": "15c2d0328daff630af79aeda79a5a8b05d7ee6be5ea3b894498ec958471ce023",
+  "psd_sha256": "6cf4c75cac9a38318311da37a16de0bb6b7c629643d52008b2eb2b8b70b758ea",
+  "coefficients_sha256": "6b3406738442832c25286cdf7abce2a8e8c64b728963bc4b97ed10a3189b7932",
+  "extract_directory": "/tmp/udt-gw170817-fixed-window-xshnIR/offsource",
+  "extract_format": "{H1,L1,V1}_{core_gps}_98s_f64le.bin;401408 little-endian float64 samples; exact cores in FW1metadata",
+  "extract_manifests": [
+    "H1_extract_run.stdout",
+    "L1_extract_run.stdout",
+    "V1_extract_run.stdout"
+  ],
+  "sample_scope": "33 predeclared OFFSOURCE supports ONLY. Forbidden event exclusion[1187008680,1187008980) remains UNEXAMINED.",
+  "review_request": "Independent actual-Q/PSD/reinjection recomputation; diagnose large reference under unchanged freeze, no retuning/physical classification. Inspect catch_run evidence as same-author regression only."
+}

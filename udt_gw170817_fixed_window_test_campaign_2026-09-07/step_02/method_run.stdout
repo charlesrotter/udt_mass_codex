@@ -1,0 +1,20 @@
+{
+  "V_injection_roundtrip_relative": 7.058028321816517e-16,
+  "b": [
+    0.4723561064125053,
+    0.9125510036953598,
+    1.0
+  ],
+  "correct_null_relative": 4.3814831238784364e-16,
+  "exact_domain": "finite cyclic zeroDC/Nyquist static response only; not upstream/continuum retention",
+  "injection_hrss_scaled": 1.0,
+  "missing_H_term_relative": 0.34911176942380306,
+  "physical_scale_correct_relative": 4.404470662003821e-16,
+  "physical_scale_wrong_relative": 0.34911176942380173,
+  "tau_seconds": [
+    0.018826632251513074,
+    0.015560840809109985,
+    -0.006330543633799644
+  ],
+  "wrong_sign_relative": 0.8682305893922481
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/screen.py",
+    "train"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T23:22:35.616855+00:00",
+  "duration_seconds": 1.550958072009962,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 206048
+}

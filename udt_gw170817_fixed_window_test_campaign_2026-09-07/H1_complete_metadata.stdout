@@ -1,0 +1,306 @@
+HDF5 "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5" {
+GROUP "/meta" {
+   DATASET "Description" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "DescriptionURL" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "Detector" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "Duration" {
+      DATATYPE  H5T_STD_I64LE
+      DATASPACE  SCALAR
+   }
+   DATASET "FrameType" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "GPSstart" {
+      DATATYPE  H5T_STD_I64LE
+      DATASPACE  SCALAR
+   }
+   DATASET "Observatory" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "StrainChannel" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "Type" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+   DATASET "UTCstart" {
+      DATATYPE  H5T_STRING {
+         STRSIZE H5T_VARIABLE;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+   }
+}
+GROUP "/quality" {
+   GROUP "detail" {
+   }
+   GROUP "injections" {
+      DATASET "GWOSCmeta" {
+         DATATYPE  H5T_STRING {
+            STRSIZE H5T_VARIABLE;
+            STRPAD H5T_STR_NULLTERM;
+            CSET H5T_CSET_ASCII;
+            CTYPE H5T_C_S1;
+         }
+         DATASPACE  SCALAR
+      }
+      DATASET "InjDescriptions" {
+         DATATYPE  H5T_STRING {
+            STRSIZE 29;
+            STRPAD H5T_STR_NULLPAD;
+            CSET H5T_CSET_ASCII;
+            CTYPE H5T_C_S1;
+         }
+         DATASPACE  SIMPLE { ( 5 ) / ( 5 ) }
+      }
+      DATASET "InjShortnames" {
+         DATATYPE  H5T_STRING {
+            STRSIZE 17;
+            STRPAD H5T_STR_NULLPAD;
+            CSET H5T_CSET_ASCII;
+            CTYPE H5T_C_S1;
+         }
+         DATASPACE  SIMPLE { ( 5 ) / ( 5 ) }
+      }
+      DATASET "Injmask" {
+         DATATYPE  H5T_STD_U32LE
+         DATASPACE  SIMPLE { ( 4096 ) / ( 4096 ) }
+         ATTRIBUTE "Bits" {
+            DATATYPE  H5T_STD_I64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 5
+            }
+         }
+         ATTRIBUTE "Description" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "A bitmask encoded as an integer-valued timeseries. The first "Bits" bits might be used, for each there is an entry in "Bits", "Shortnames", "Descriptions", one for each bit."
+            }
+         }
+         ATTRIBUTE "Npoints" {
+            DATATYPE  H5T_STD_I64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 4096
+            }
+         }
+         ATTRIBUTE "Xlabel" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "GPS time"
+            }
+         }
+         ATTRIBUTE "Xspacing" {
+            DATATYPE  H5T_IEEE_F64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 1
+            }
+         }
+         ATTRIBUTE "Xstart" {
+            DATATYPE  H5T_STD_I64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 1187008512
+            }
+         }
+         ATTRIBUTE "Xunits" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "second"
+            }
+         }
+         ATTRIBUTE "Ylabel" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "Injmask"
+            }
+         }
+      }
+   }
+   GROUP "simple" {
+      DATASET "DQDescriptions" {
+         DATATYPE  H5T_STRING {
+            STRSIZE 24;
+            STRPAD H5T_STR_NULLPAD;
+            CSET H5T_CSET_ASCII;
+            CTYPE H5T_C_S1;
+         }
+         DATASPACE  SIMPLE { ( 7 ) / ( 7 ) }
+      }
+      DATASET "DQShortnames" {
+         DATATYPE  H5T_STRING {
+            STRSIZE 10;
+            STRPAD H5T_STR_NULLPAD;
+            CSET H5T_CSET_ASCII;
+            CTYPE H5T_C_S1;
+         }
+         DATASPACE  SIMPLE { ( 7 ) / ( 7 ) }
+      }
+      DATASET "DQmask" {
+         DATATYPE  H5T_STD_U32LE
+         DATASPACE  SIMPLE { ( 4096 ) / ( 4096 ) }
+         ATTRIBUTE "Bits" {
+            DATATYPE  H5T_STD_I64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 7
+            }
+         }
+         ATTRIBUTE "Description" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "A bitmask encoded as an integer-valued timeseries. The first "Bits" bits might be used, for each there is an entry in "Bits", "Shortnames", "Descriptions", one for each bit."
+            }
+         }
+         ATTRIBUTE "Npoints" {
+            DATATYPE  H5T_STD_I64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 4096
+            }
+         }
+         ATTRIBUTE "Xlabel" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "GPS time"
+            }
+         }
+         ATTRIBUTE "Xspacing" {
+            DATATYPE  H5T_IEEE_F64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 1
+            }
+         }
+         ATTRIBUTE "Xstart" {
+            DATATYPE  H5T_STD_I64LE
+            DATASPACE  SCALAR
+            DATA {
+            (0): 1187008512
+            }
+         }
+         ATTRIBUTE "Xunits" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "second"
+            }
+         }
+         ATTRIBUTE "Ylabel" {
+            DATATYPE  H5T_STRING {
+               STRSIZE H5T_VARIABLE;
+               STRPAD H5T_STR_NULLTERM;
+               CSET H5T_CSET_ASCII;
+               CTYPE H5T_C_S1;
+            }
+            DATASPACE  SCALAR
+            DATA {
+            (0): "DQmask"
+            }
+         }
+      }
+      DATASET "GWOSCmeta" {
+         DATATYPE  H5T_STRING {
+            STRSIZE H5T_VARIABLE;
+            STRPAD H5T_STR_NULLTERM;
+            CSET H5T_CSET_ASCII;
+            CTYPE H5T_C_S1;
+         }
+         DATASPACE  SCALAR
+      }
+   }
+}
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--sandbox",
+    "workspace-write",
+    "--json",
+    "-C",
+    "/home/udt-admin/udt_mass_codex",
+    "-o",
+    "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/CLI_FINAL_MESSAGE.md",
+    "Read and faithfully execute only /home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/REVIEW_DISPATCH.md. This is an authorized fresh separate-context scientific review; no resume or fork."
+  ],
+  "started_utc": "2026-09-07T23:12:46.974724+00:00",
+  "duration_seconds": 23.82582126800844,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 2147483648,
+  "cpu_seconds": 900,
+  "scope": "fresh existing Codex review, no resume/fork/config modification"
+}

@@ -1,0 +1,123 @@
+HDF5-DIAG: Error detected in HDF5 (1.14.6):
+  #000: H5F.c line 827 in H5Fopen(): unable to synchronously open file
+    major: File accessibility
+    minor: Unable to open file
+  #001: H5F.c line 788 in H5F__open_api_common(): unable to open file
+    major: File accessibility
+    minor: Unable to open file
+  #002: H5VLcallback.c line 3680 in H5VL_file_open(): open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: H5VLcallback.c line 3514 in H5VL__file_open(): open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #004: H5VLnative_file.c line 128 in H5VL__native_file_open(): unable to open file
+    major: File accessibility
+    minor: Unable to open file
+  #005: H5Fint.c line 2085 in H5F_open(): unable to read superblock
+    major: File accessibility
+    minor: Read failed
+  #006: H5Fsuper.c line 590 in H5F__super_read(): truncated file: eof = 120016701, sblock->base_addr = 0, stored_eof = 129345626
+    major: File accessibility
+    minor: File has been truncated
+HDF5-DIAG: Error detected in HDF5 (1.14.6):
+  #000: H5Pfapl.c line 1310 in H5Pset_driver_by_name(): can't set driver info
+    major: Property lists
+    minor: Can't set value
+  #001: H5Pfapl.c line 1260 in H5P_set_driver_by_name(): unable to register VFD
+    major: Virtual File Layer
+    minor: Unable to register new ID
+  #002: H5FDint.c line 3150 in H5FD_register_driver_by_name(): unable to load VFD
+    major: Virtual File Layer
+    minor: Unable to initialize object
+  #003: H5PLint.c line 264 in H5PL_load(): can't find plugin. Check either HDF5_VOL_CONNECTOR, HDF5_PLUGIN_PATH, default location, or path set by H5PLxxx functions
+    major: Plugin for dynamically loaded library
+    minor: Object not found
+  #004: H5PLpath.c line 805 in H5PL__find_plugin_in_path_table(): search in path /usr/local/hdf5/lib/plugin encountered an error
+    major: Plugin for dynamically loaded library
+    minor: Can't get value
+  #005: H5PLpath.c line 857 in H5PL__find_plugin_in_path(): can't open directory (/usr/local/hdf5/lib/plugin). Please verify its existence
+    major: Plugin for dynamically loaded library
+    minor: Can't open directory or file
+HDF5-DIAG: Error detected in HDF5 (1.14.6):
+  #000: H5Pfapl.c line 1310 in H5Pset_driver_by_name(): can't set driver info
+    major: Property lists
+    minor: Can't set value
+  #001: H5Pfapl.c line 1260 in H5P_set_driver_by_name(): unable to register VFD
+    major: Virtual File Layer
+    minor: Unable to register new ID
+  #002: H5FDint.c line 3150 in H5FD_register_driver_by_name(): unable to load VFD
+    major: Virtual File Layer
+    minor: Unable to initialize object
+  #003: H5PLint.c line 264 in H5PL_load(): can't find plugin. Check either HDF5_VOL_CONNECTOR, HDF5_PLUGIN_PATH, default location, or path set by H5PLxxx functions
+    major: Plugin for dynamically loaded library
+    minor: Object not found
+  #004: H5PLpath.c line 805 in H5PL__find_plugin_in_path_table(): search in path /usr/local/hdf5/lib/plugin encountered an error
+    major: Plugin for dynamically loaded library
+    minor: Can't get value
+  #005: H5PLpath.c line 857 in H5PL__find_plugin_in_path(): can't open directory (/usr/local/hdf5/lib/plugin). Please verify its existence
+    major: Plugin for dynamically loaded library
+    minor: Can't open directory or file
+HDF5-DIAG: Error detected in HDF5 (1.14.6):
+  #000: H5F.c line 827 in H5Fopen(): unable to synchronously open file
+    major: File accessibility
+    minor: Unable to open file
+  #001: H5F.c line 788 in H5F__open_api_common(): unable to open file
+    major: File accessibility
+    minor: Unable to open file
+  #002: H5VLcallback.c line 3683 in H5VL_file_open(): open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+  #003: H5VLcallback.c line 3514 in H5VL__file_open(): open failed
+    major: Virtual Object Layer
+    minor: Can't open object
+h5dump error: unable to open file "/tmp/udt-gw170817-fixed-window-xshnIR/H1.hdf5"
+H5tools-DIAG: Error detected in HDF5:tools (1.14.6):
+  #000: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function
+  #001: h5tools.c line 591 in h5tools_set_fapl_vfd(): Onion VFD info is invalid
+    major: Failure in tools library
+    minor: error in function
+  #002: h5tools.c line 585 in h5tools_set_fapl_vfd(): The Subfiling VFD is not enabled
+    major: Failure in tools library
+    minor: error in function
+  #003: h5tools.c line 577 in h5tools_set_fapl_vfd(): The HDFS VFD is not enabled
+    major: Failure in tools library
+    minor: error in function
+  #004: h5tools.c line 567 in h5tools_set_fapl_vfd(): Read-only S3 VFD is not enabled
+    major: Failure in tools library
+    minor: error in function
+  #005: h5tools.c line 602 in h5tools_set_fapl_vfd(): can't load VFD plugin by driver name 'splitter'
+    major: Failure in tools library
+    minor: error in function
+  #006: h5tools.c line 602 in h5tools_set_fapl_vfd(): can't load VFD plugin by driver name 'mirror'
+    major: Failure in tools library
+    minor: error in function
+  #007: h5tools.c line 553 in h5tools_set_fapl_vfd(): MPI-I/O VFD is not enabled
+    major: Failure in tools library
+    minor: error in function
+  #008: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function
+  #009: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function
+  #010: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function
+  #011: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function
+  #012: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function
+  #013: h5tools.c line 507 in h5tools_set_fapl_vfd(): Windows VFD is not enabled
+    major: Failure in tools library
+    minor: error in function
+  #014: h5tools.c line 491 in h5tools_set_fapl_vfd(): Direct VFD is not enabled
+    major: Failure in tools library
+    minor: error in function
+  #015: h5tools.c line 981 in h5tools_fopen(): failed to open file using specified FAPL
+    major: Failure in tools library
+    minor: error in function

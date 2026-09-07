@@ -1,0 +1,131 @@
+{
+  "scope": "same-author exposed-record implementation/data diagnosis, NOT retuned analysis or physical classification",
+  "unchanged_frozen_statistic": true,
+  "records": [
+    {
+      "core_gps": 1187010216,
+      "Q": 0.9388275248150649,
+      "weighted_detector_diagonal_Q": [
+        0.02158414890715715,
+        0.047673496097671464,
+        0.8712537749441794
+      ],
+      "cross_terms_HL_HV_LV": [
+        -0.00019313701011470925,
+        -0.000303760521789894,
+        -0.001186997602038477
+      ],
+      "decomposition_relative_error": 1.1825633519254284e-16,
+      "raw_statistics": [
+        {
+          "detector": "H1",
+          "raw_peak_absolute_strain": 1.1132880299761869e-18,
+          "raw_peak_gps": 1187010277.5881348,
+          "raw_rms_strain": 5.244882477137217e-19
+        },
+        {
+          "detector": "L1",
+          "raw_peak_absolute_strain": 3.6146392830460337e-19,
+          "raw_peak_gps": 1187010260.2805176,
+          "raw_rms_strain": 9.226627726753072e-20
+        },
+        {
+          "detector": "V1",
+          "raw_peak_absolute_strain": 3.888355962269829e-18,
+          "raw_peak_gps": 1187010286.293457,
+          "raw_rms_strain": 9.626241577888606e-19
+        }
+      ]
+    },
+    {
+      "core_gps": 1187011516,
+      "Q": 31313.959932212074,
+      "weighted_detector_diagonal_Q": [
+        0.021382671831228377,
+        0.047437571919810295,
+        31314.137606136464
+      ],
+      "cross_terms_HL_HV_LV": [
+        2.5405298137551503e-05,
+        -0.09225546261118261,
+        -0.15426411082164812
+      ],
+      "decomposition_relative_error": 2.323550783718921e-16,
+      "raw_statistics": [
+        {
+          "detector": "H1",
+          "raw_peak_absolute_strain": 1.151653294137881e-18,
+          "raw_peak_gps": 1187011535.7199707,
+          "raw_rms_strain": 5.341426430523959e-19,
+          "reextract_command": [
+            "h5dump",
+            "-d",
+            "/strain/Strain",
+            "-s",
+            "12288000",
+            "-c",
+            "401408",
+            "-b",
+            "LE",
+            "-o",
+            "/tmp/udt-gw170817-fixed-window-xshnIR/diagnostic/H1_1187011516_repeat.bin",
+            "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+          ],
+          "reextract_sha256": "5b332269f53c4ba957fbd06d6a4a5e356aebd48144daede3054acf015f723c25",
+          "original_sha256": "5b332269f53c4ba957fbd06d6a4a5e356aebd48144daede3054acf015f723c25",
+          "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 12288000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+          "stderr": ""
+        },
+        {
+          "detector": "L1",
+          "raw_peak_absolute_strain": 3.5302531248848914e-19,
+          "raw_peak_gps": 1187011555.9665527,
+          "raw_rms_strain": 9.542520517840475e-20,
+          "reextract_command": [
+            "h5dump",
+            "-d",
+            "/strain/Strain",
+            "-s",
+            "12288000",
+            "-c",
+            "401408",
+            "-b",
+            "LE",
+            "-o",
+            "/tmp/udt-gw170817-fixed-window-xshnIR/diagnostic/L1_1187011516_repeat.bin",
+            "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+          ],
+          "reextract_sha256": "5790670061dbddd3e6452ccc3afb4c5f5aa23b166786b6c9d06a5079d4aee005",
+          "original_sha256": "5790670061dbddd3e6452ccc3afb4c5f5aa23b166786b6c9d06a5079d4aee005",
+          "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 12288000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+          "stderr": ""
+        },
+        {
+          "detector": "V1",
+          "raw_peak_absolute_strain": 7.5758976513699e-17,
+          "raw_peak_gps": 1187011544.0222168,
+          "raw_rms_strain": 1.3536255556683298e-18,
+          "reextract_command": [
+            "h5dump",
+            "-d",
+            "/strain/Strain",
+            "-s",
+            "12288000",
+            "-c",
+            "401408",
+            "-b",
+            "LE",
+            "-o",
+            "/tmp/udt-gw170817-fixed-window-xshnIR/diagnostic/V1_1187011516_repeat.bin",
+            "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+          ],
+          "reextract_sha256": "5484491cd729a060588da17d677e1e517d6715a93086913e7cfc1ecb01ce25b9",
+          "original_sha256": "5484491cd729a060588da17d677e1e517d6715a93086913e7cfc1ecb01ce25b9",
+          "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 12288000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+          "stderr": ""
+        }
+      ]
+    }
+  ],
+  "event_samples_read": false
+}

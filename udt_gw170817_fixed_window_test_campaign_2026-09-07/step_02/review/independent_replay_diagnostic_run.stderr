@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/independent_replay.py", line 197, in <module>
+    raise AssertionError('Independent versus author finite fractions disagree')
+AssertionError: Independent versus author finite fractions disagree

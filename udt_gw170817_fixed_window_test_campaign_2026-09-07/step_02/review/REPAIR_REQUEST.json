@@ -1,0 +1,20 @@
+{
+  "reviewer": "/root/fw2_fresh_capacity_check",
+  "context": "fresh built-in; source-first seal before target/sample exposure",
+  "exact_model": "UNKNOWN",
+  "repair_cycle": 1,
+  "status": "initial inclusive-generator fidelity refuted; final review pending one same-premise repair",
+  "load_bearing_objection": "Floating rfftfreq lower endpoints round below the frozen inclusive cut, omitting one bin per family and changing PCG64 waveforms/counts.",
+  "source_correct_target_counts_out_of_168": [5, 3, 3],
+  "initial_author_target_counts_out_of_168": [4, 3, 4],
+  "survivor": "Independent PSD, all reference Q and extreme-record decomposition agree; corrected-definition finite screen still fails every family; event remains prohibited.",
+  "required_repair": [
+    "Preserve all initial candidate/source/coefficients/results and ready pins.",
+    "Use exact integer Fourier-bin inequalities for inclusive k/98 bands; keep source freeze, seeds, real-then-imag draw order and all other procedure choices unchanged.",
+    "Recompute affected synthetic/method/catch/evaluation outputs and candidate values/provenance; retain unchanged PSD and reference evidence.",
+    "Actually reject reinserted legacy floating mask with an inclusive-endpoint/count guard.",
+    "If retained, label beyond-grid quadratic roots as threshold-equality roots/strict-crossing infima rather than guaranteed crossings at equality."
+  ],
+  "ready_request": "AUTHOR_REPAIR_READY.json with same candidate/producer/evaluation/training/diagnostic/psd/coefficients SHA256 keys and explicit initial-preservation map plus repair method/catch pins.",
+  "prohibited": "No new data/window/veto/threshold/band/seed/PSD/event unseal or physical premise; no scientific promotion."
+}

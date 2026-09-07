@@ -1,0 +1,571 @@
+{
+  "commands": [
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/Detector",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/GPSstart",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/Duration",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/FrameType",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/StrainChannel",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Xspacing",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Npoints",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Xstart",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/simple/DQShortnames",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/injections/InjShortnames",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/simple/DQmask",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/injections/Injmask",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/Detector",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/GPSstart",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/Duration",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/FrameType",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/StrainChannel",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Xspacing",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Npoints",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Xstart",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/simple/DQShortnames",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/injections/InjShortnames",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/simple/DQmask",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/injections/Injmask",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/Detector",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/GPSstart",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/Duration",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/FrameType",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/meta/StrainChannel",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Xspacing",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Npoints",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-a",
+      "/strain/Strain/Xstart",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/simple/DQShortnames",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/injections/InjShortnames",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/simple/DQmask",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ],
+    [
+      "h5dump",
+      "-y",
+      "-w0",
+      "-m",
+      "%.17g",
+      "-d",
+      "/quality/injections/Injmask",
+      "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+    ]
+  ],
+  "h5dump_version": "h5dump: Version 1.14.6",
+  "outcome_exposure": "No strain samples, PSD or event contrast; only whitelisted metadata and masks.",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "results": {
+    "H1": {
+      "bytes": 129345626,
+      "core_dq_counts": {
+        "127": 90
+      },
+      "core_inj_counts": {
+        "23": 90
+      },
+      "dq_mask_counts": {
+        "19": 4,
+        "31": 6,
+        "127": 4086
+      },
+      "dq_names": [
+        "DATA",
+        "CBC_CAT1",
+        "CBC_CAT2",
+        "CBC_CAT3",
+        "BURST_CAT1",
+        "BURST_CAT2",
+        "BURST_CAT3"
+      ],
+      "field_dump_sha256": {
+        "/meta/Detector": "ce3ee8e514201ed0de1a2c013b086d0ea45b0040c5b1cf4481cebb9d49805e95",
+        "/meta/Duration": "9be4d1f39e0e066f8851718e67e92e8ff8666609273c66041962832775717c31",
+        "/meta/FrameType": "e716fb7dc86e70a6f2e3f99fd9fda25e2dd47557046e39fa500c89d6b325133d",
+        "/meta/GPSstart": "d37fafe2d2d2a66835487ba212f8f9cb0b20bd2d42fb2f4dcc76bba158ca141c",
+        "/meta/StrainChannel": "0882486cce0ff1d27dc917f3767617ccb97775acb2f064e05bb8604e3f55f663",
+        "/strain/Strain/Npoints": "5ed3dc0f2a95e414da05f9f17fd1d6288ef405f393a50a67acf1d3b3b86627b3",
+        "/strain/Strain/Xspacing": "3365a375900e65dfa6cefa57701fc9518d7209800ff6f48e2985dcce63d4658f",
+        "/strain/Strain/Xstart": "a00b634736d3bbe79d11071b2a2e5f665f1ab833b305c4958a38a1e631697040",
+        "DQmask": "fe56fb34f1f7bb235568cb08161c425428161192a7275ac4f9260dd15ffaeef8",
+        "Injmask": "f1834f6e2455e31f1f3967b1d638229e8915e97f80517c7f918e8323be824093"
+      },
+      "file": "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5",
+      "inj_names": [
+        "NO_CBC_HW_INJ",
+        "NO_BURST_HW_INJ",
+        "NO_DETCHAR_HW_INJ",
+        "NO_CW_HW_INJ",
+        "NO_STOCH_HW_INJ"
+      ],
+      "injection_mask_counts": {
+        "23": 4096
+      },
+      "meta": {
+        "Detector": "H1",
+        "Duration": 4096,
+        "FrameType": "H1_CLEANED_HOFT_C02",
+        "GPSstart": 1187008512,
+        "Npoints": 16777216,
+        "StrainChannel": "H1:DCH-CLEAN_STRAIN_C02",
+        "Xspacing": 0.000244140625,
+        "Xstart": 1187008512
+      },
+      "note": "Two published mask predicates are diagnostics, not an outcome-selected window rule.",
+      "proposed_core_pass": {
+        "DATA_all_NO_HW_INJ": false,
+        "all_DQ_all_NO_HW_INJ": false
+      },
+      "valid_segments": {
+        "DATA_all_NO_HW_INJ": [],
+        "all_DQ_all_NO_HW_INJ": []
+      }
+    },
+    "L1": {
+      "bytes": 129746664,
+      "core_dq_counts": {
+        "127": 90
+      },
+      "core_inj_counts": {
+        "23": 90
+      },
+      "dq_mask_counts": {
+        "31": 4,
+        "127": 4092
+      },
+      "dq_names": [
+        "DATA",
+        "CBC_CAT1",
+        "CBC_CAT2",
+        "CBC_CAT3",
+        "BURST_CAT1",
+        "BURST_CAT2",
+        "BURST_CAT3"
+      ],
+      "field_dump_sha256": {
+        "/meta/Detector": "80022c7189c7f9630ac39cfd5f4a5d8735f29afba06ce94e8b7a64386d47b6a0",
+        "/meta/Duration": "8cbf4e337ca8bf78b45fd20bb3d4ffb729d0fa9d8b51c3ded7770e93529d4e15",
+        "/meta/FrameType": "402816b36cdaaaf58ee02c2ef1bc13cbf1fbe9d4b0b802aa74b659b2840f6080",
+        "/meta/GPSstart": "f7ca0c438e8db94c229b331ba36f9e0eb9b513d91909d8c7453eab2dd1f86dc9",
+        "/meta/StrainChannel": "f67327beb4cf3fb80b281d5e54c286ec0bb6d81d824fda64a8ff28846d62716d",
+        "/strain/Strain/Npoints": "bfdc09b71a41591403e3a97efd3649e2dc7f7ee8e7ebe0b64a9ec44056db31f8",
+        "/strain/Strain/Xspacing": "8df0b9f75492b866ab083e6b67918610c55259a6761b42764ab9154a5df573f4",
+        "/strain/Strain/Xstart": "b31a533a1c57bde4d058609604ce302c0fff31fdf0a37f412284b2574860a0d9",
+        "DQmask": "93f94157094568c22fbb67d584693ed1e9e5ca85989ae5079690e8b7cea8cad9",
+        "Injmask": "99b427c1544e3583b0946fa0c6b96979fcd2cd181158e0d4a688830b03c45fc2"
+      },
+      "file": "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5",
+      "inj_names": [
+        "NO_CBC_HW_INJ",
+        "NO_BURST_HW_INJ",
+        "NO_DETCHAR_HW_INJ",
+        "NO_CW_HW_INJ",
+        "NO_STOCH_HW_INJ"
+      ],
+      "injection_mask_counts": {
+        "23": 4096
+      },
+      "meta": {
+        "Detector": "L1",
+        "Duration": 4096,
+        "FrameType": "L1_CLEANED_HOFT_C02",
+        "GPSstart": 1187008512,
+        "Npoints": 16777216,
+        "StrainChannel": "L1:DCH-CLEAN_STRAIN_C02",
+        "Xspacing": 0.000244140625,
+        "Xstart": 1187008512
+      },
+      "note": "Two published mask predicates are diagnostics, not an outcome-selected window rule.",
+      "proposed_core_pass": {
+        "DATA_all_NO_HW_INJ": false,
+        "all_DQ_all_NO_HW_INJ": false
+      },
+      "valid_segments": {
+        "DATA_all_NO_HW_INJ": [],
+        "all_DQ_all_NO_HW_INJ": []
+      }
+    },
+    "V1": {
+      "bytes": 129470192,
+      "core_dq_counts": {
+        "127": 90
+      },
+      "core_inj_counts": {
+        "31": 90
+      },
+      "dq_mask_counts": {
+        "127": 4096
+      },
+      "dq_names": [
+        "DATA",
+        "CBC_CAT1",
+        "CBC_CAT2",
+        "CBC_CAT3",
+        "BURST_CAT1",
+        "BURST_CAT2",
+        "BURST_CAT3"
+      ],
+      "field_dump_sha256": {
+        "/meta/Detector": "c0f08204d577d4e954ca65a0fedc34d07a0310b199d37ac708b9ff879b9b3588",
+        "/meta/Duration": "23920c666618db797bb9e3c6ddad8b2b18129c559fad7362ee8768b04985566b",
+        "/meta/FrameType": "4a176b5c5136f1b912168d09e757192b2aa4108f04a240afc36e9dd40184b044",
+        "/meta/GPSstart": "63157ce1eb28e3c16c339205c989ecbbd00b62a6d587ee8fbc4069e3d10e3676",
+        "/meta/StrainChannel": "27c1309682e8ccbcaf314b588ef37f229bf9f741646d7f336bae76e7bcafc581",
+        "/strain/Strain/Npoints": "b79c9344b3d861b3a74c49d8ffe198bdf5372c24372a199e771faecd4f6980ba",
+        "/strain/Strain/Xspacing": "34a9d77ce84629390eb6f88dda3a6d5bf5299bb1db8820097e4b1f0d36a8182e",
+        "/strain/Strain/Xstart": "0634c9213ffaf07e380d9fba262a35a85e308b2f83f1d4eb1991efda1d514273",
+        "DQmask": "f2d6b4df0a6d21194f131a4236f1a57216fa233261c84a90eed382e0e1e56273",
+        "Injmask": "0e79758dde5a222967e9146da516d7a463c63134061429b5dfe22c1344f91f56"
+      },
+      "file": "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5",
+      "inj_names": [
+        "NO_CBC_HW_INJ",
+        "NO_BURST_HW_INJ",
+        "NO_DETCHAR_HW_INJ",
+        "NO_CW_HW_INJ",
+        "NO_STOCH_HW_INJ"
+      ],
+      "injection_mask_counts": {
+        "31": 4096
+      },
+      "meta": {
+        "Detector": "V1",
+        "Duration": 4096,
+        "FrameType": "V1O2Repro2A",
+        "GPSstart": 1187008512,
+        "Npoints": 16777216,
+        "StrainChannel": "V1:Hrec_hoft_V1O2Repro2A_16384Hz",
+        "Xspacing": 0.000244140625,
+        "Xstart": 1187008512
+      },
+      "note": "Two published mask predicates are diagnostics, not an outcome-selected window rule.",
+      "proposed_core_pass": {
+        "DATA_all_NO_HW_INJ": true,
+        "all_DQ_all_NO_HW_INJ": true
+      },
+      "valid_segments": {
+        "DATA_all_NO_HW_INJ": [
+          [
+            1187008512,
+            1187012608
+          ]
+        ],
+        "all_DQ_all_NO_HW_INJ": [
+          [
+            1187008512,
+            1187012608
+          ]
+        ]
+      }
+    }
+  }
+}

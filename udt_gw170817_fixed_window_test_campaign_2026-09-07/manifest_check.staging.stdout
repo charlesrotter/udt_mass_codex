@@ -1,0 +1,12 @@
+{
+  "scope": "exact staged formatting exception and allowlist audit; not scientific review",
+  "normal_cached_whitespace_check_returncode": 2,
+  "raw_stdout": "udt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/INITIAL_independent_math.py:82: new blank line at EOF.\nudt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/INITIAL_independent_operator.py:76: new blank line at EOF.\nudt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/INITIAL_independent_replay.py:232: new blank line at EOF.\nudt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/PRE_R1_independent_replay.py:237: new blank line at EOF.\nudt_gw170817_fixed_window_test_campaign_2026-09-07/step_02/review/PRE_REPAIR_independent_replay.py:237: new blank line at EOF.\n",
+  "raw_stderr": "",
+  "disposition": "EXACT DOCUMENTED FORMATTING EXCEPTION, not ordinary PASS: preserve five byte-pinned initial reviewer snapshots including trailing blank lines; no scientific code or global rule changed",
+  "original_snapshot_hashes_match": true,
+  "other_whitespace_errors": false,
+  "staged_authorized_files": 222,
+  "unrelated_names": 46,
+  "unrelated_name_hash": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea"
+}

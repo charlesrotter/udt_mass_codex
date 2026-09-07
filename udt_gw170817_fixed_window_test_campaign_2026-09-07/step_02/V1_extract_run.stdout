@@ -1,0 +1,999 @@
+{
+  "detector": "V1",
+  "event_samples_read": false,
+  "mode": "offsource extraction only",
+  "records": [
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "0",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187008516_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187008516,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023962377992575057,
+      "returncode": 0,
+      "sample_start": 0,
+      "sha256": "5deafbf704d97851c08c465543fc879de0de8288b151484c3f1e361f3a2de755",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 0 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187008512,
+        1187008610
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "2048000",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009016_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009016,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023645769004360773,
+      "returncode": 0,
+      "sample_start": 2048000,
+      "sha256": "adb8bd71188a6b8c5706b5a009ceba476f028480fe18c736b5d2627ddb52f178",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 2048000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009012,
+        1187009110
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "2457600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009116_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009116,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.024325350997969508,
+      "returncode": 0,
+      "sample_start": 2457600,
+      "sha256": "8b648db2fa446d1be4b726df4b3e43459681767386ccd502b7cc5da4ccf8059e",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 2457600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009112,
+        1187009210
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "2867200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009216_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009216,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.022902569005964324,
+      "returncode": 0,
+      "sample_start": 2867200,
+      "sha256": "9909d1b8d3df320f424c3a0199a81ae40031614e095a5fd30d94fd9691b7bee0",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 2867200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009212,
+        1187009310
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "3686400",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009416_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009416,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.026287768996553496,
+      "returncode": 0,
+      "sample_start": 3686400,
+      "sha256": "f9a31261da44db6fbdb299581ba0dcc9223c43ffe5b72a57042273eb608bfe91",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 3686400 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009412,
+        1187009510
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "4096000",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009516_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009516,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02291858299577143,
+      "returncode": 0,
+      "sample_start": 4096000,
+      "sha256": "b1861ab795971e879c8ee9fdda644639db565a012079c9d6355ded7e7ece3870",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 4096000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009512,
+        1187009610
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "4505600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009616_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009616,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023491835992899723,
+      "returncode": 0,
+      "sample_start": 4505600,
+      "sha256": "d409800b1af9262341e913b131d12d730f405a09047142016b91891172fa9487",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 4505600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009612,
+        1187009710
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "4915200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009716_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009716,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.0236017129936954,
+      "returncode": 0,
+      "sample_start": 4915200,
+      "sha256": "c8e9acc019a925665d013ad9bb4a122ce569a055f5370413f2dd903ca562abaf",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 4915200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009712,
+        1187009810
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "5324800",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009816_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009816,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023726915998850018,
+      "returncode": 0,
+      "sample_start": 5324800,
+      "sha256": "39efd2e5fc2975e52fd72a7c2a5b564981f12033acd127d994160fa235dc5ce6",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 5324800 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009812,
+        1187009910
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "5734400",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187009916_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187009916,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02388968601007946,
+      "returncode": 0,
+      "sample_start": 5734400,
+      "sha256": "b17d13c03a1576e74ed865ea91436c977781f5368229da450aaafafb7acd462e",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 5734400 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187009912,
+        1187010010
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "6144000",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010016_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010016,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.0277209199994104,
+      "returncode": 0,
+      "sample_start": 6144000,
+      "sha256": "2f78b2754962c43edb2c314398769a3c6051729d21c73fa6a670a986a3163674",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 6144000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010012,
+        1187010110
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "6553600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010116_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010116,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023119256002246402,
+      "returncode": 0,
+      "sample_start": 6553600,
+      "sha256": "855bf51c81c7fa02045f00b454315d83267874d9686032a7a96802c657e11759",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 6553600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010112,
+        1187010210
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "6963200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010216_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010216,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02345351099211257,
+      "returncode": 0,
+      "sample_start": 6963200,
+      "sha256": "585535528da0a175faff3d3bd0c2b0b8b4661588261315ce7e4795fbc63003a2",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 6963200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010212,
+        1187010310
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "7372800",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010316_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010316,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02321915999345947,
+      "returncode": 0,
+      "sample_start": 7372800,
+      "sha256": "049c65ec9386ad295ed1615024b69e93ea3acc3210522b1d18ea184aad06277b",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 7372800 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010312,
+        1187010410
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "7782400",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010416_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010416,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02448045799974352,
+      "returncode": 0,
+      "sample_start": 7782400,
+      "sha256": "092b383428132807e34bdccbee6238ba87a9dd7f84e337c486f6986410afc040",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 7782400 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010412,
+        1187010510
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "8601600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010616_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010616,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.0237554149935022,
+      "returncode": 0,
+      "sample_start": 8601600,
+      "sha256": "85a529e1a5a5ce7326089856347bde4a9c2f10cb0f331dd19c3d063eafd66cc7",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 8601600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010612,
+        1187010710
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "9011200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010716_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010716,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023721039993688464,
+      "returncode": 0,
+      "sample_start": 9011200,
+      "sha256": "95b154555904b3c2220a8b820a0e1f6dbfc15ce19f945f9a527a18796e8b7f78",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 9011200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010712,
+        1187010810
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "9420800",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010816_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010816,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023914956997032277,
+      "returncode": 0,
+      "sample_start": 9420800,
+      "sha256": "1c8c7408df8671aff1e030ece8e555cc9580c983a6aecf59b5ec9abcc8a288a5",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 9420800 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010812,
+        1187010910
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "9830400",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187010916_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187010916,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.024328687009983696,
+      "returncode": 0,
+      "sample_start": 9830400,
+      "sha256": "8f37118b74af33f9f59f5c9c894bae3fe2fd2058e8228e9b7c7b1f3cbee46a3b",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 9830400 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187010912,
+        1187011010
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "10240000",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011016_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011016,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.024135676998412237,
+      "returncode": 0,
+      "sample_start": 10240000,
+      "sha256": "b077890e905a38071c124bd1f54178995ca37c358c75f398cf0d18e3b3c8bf01",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 10240000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011012,
+        1187011110
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "10649600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011116_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011116,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023734920992865227,
+      "returncode": 0,
+      "sample_start": 10649600,
+      "sha256": "db1b201fd2dfba691f8314891fc628609f3073a04310c7426ed564524ec8abba",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 10649600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011112,
+        1187011210
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "11059200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011216_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011216,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02362973100389354,
+      "returncode": 0,
+      "sample_start": 11059200,
+      "sha256": "64a57a729f3d86846e283fef2e5eb44303fabcddd24bb913b703385034e646d9",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 11059200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011212,
+        1187011310
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "11468800",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011316_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011316,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.024298324991832487,
+      "returncode": 0,
+      "sample_start": 11468800,
+      "sha256": "a05ec85936b6c7d24f2a6ed2406a15f302db8cfe673e50a6aa45067e71f974b1",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 11468800 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011312,
+        1187011410
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "11878400",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011416_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011416,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.024200568004744127,
+      "returncode": 0,
+      "sample_start": 11878400,
+      "sha256": "55ef490f9b5e15619766e5ee617b5972daeb7b027b18551951e94913d490bf5b",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 11878400 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011412,
+        1187011510
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "12288000",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011516_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011516,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023678939003730193,
+      "returncode": 0,
+      "sample_start": 12288000,
+      "sha256": "5484491cd729a060588da17d677e1e517d6715a93086913e7cfc1ecb01ce25b9",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 12288000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011512,
+        1187011610
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "12697600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011616_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011616,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023964616004377604,
+      "returncode": 0,
+      "sample_start": 12697600,
+      "sha256": "07356af78aeb3ddf5b2cc3fed53067ba0a77df4e5bc3c5b604f353c7353fc941",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 12697600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011612,
+        1187011710
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "13107200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011716_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011716,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023565105992020108,
+      "returncode": 0,
+      "sample_start": 13107200,
+      "sha256": "f040c1d9ae2b5b666a9f884ba493492e0c1ea560148d8ee2bd34fcef88a7f683",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 13107200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011712,
+        1187011810
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "13516800",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187011816_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187011816,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02456247499503661,
+      "returncode": 0,
+      "sample_start": 13516800,
+      "sha256": "fc47d681ef5b32e89249525491bbe855a09230fdd9381b595f7727e917bfba54",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 13516800 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187011812,
+        1187011910
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "14336000",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187012016_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187012016,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02374550499371253,
+      "returncode": 0,
+      "sample_start": 14336000,
+      "sha256": "ae4a88e80465ef0367930a7b40237f681e3f9501b74d1b1688cb5d80cd6aa009",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 14336000 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187012012,
+        1187012110
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "14745600",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187012116_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187012116,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023990376997971907,
+      "returncode": 0,
+      "sample_start": 14745600,
+      "sha256": "9b3841624b23d6e265c1860b43173e3df9c8ad7f9e6c23b743df89d2064ce41f",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 14745600 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187012112,
+        1187012210
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "15155200",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187012216_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187012216,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02374271499866154,
+      "returncode": 0,
+      "sample_start": 15155200,
+      "sha256": "b9e1d465be8bed5ef5b1bf2d419ba213d7aeadda06bebd9525cdbaca3a56ca74",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 15155200 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187012212,
+        1187012310
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "15564800",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187012316_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187012316,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.02466192298743408,
+      "returncode": 0,
+      "sample_start": 15564800,
+      "sha256": "d25c3b2e802f6a284b6fd6069b4906d61d53aead0cc35f73b027171fb69cc240",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 15564800 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187012312,
+        1187012410
+      ]
+    },
+    {
+      "bytes": 3211264,
+      "command": [
+        "h5dump",
+        "-d",
+        "/strain/Strain",
+        "-s",
+        "15974400",
+        "-c",
+        "401408",
+        "-b",
+        "LE",
+        "-o",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/offsource/V1_1187012416_98s_f64le.bin",
+        "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+      ],
+      "core_gps": 1187012416,
+      "count": 401408,
+      "dtype": "<f8",
+      "duration_seconds": 0.023519391994341277,
+      "returncode": 0,
+      "sample_start": 15974400,
+      "sha256": "5f3d41b795269bf37c26a69ef8e04e473908480fe32d8d19b90dc337b4650378",
+      "stderr": "",
+      "stdout": "HDF5 \"/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5\" {\nDATASET \"/strain/Strain\" {\n   DATATYPE  H5T_IEEE_F64LE\n   DATASPACE  SIMPLE { ( 16777216 ) / ( 16777216 ) }\n   SUBSET {\n      START ( 15974400 );\n      STRIDE ( 1 );\n      COUNT ( 401408 );\n      BLOCK ( 1 );\n      DATA {\n      }\n   }\n}\n}\n",
+      "support_gps": [
+        1187012412,
+        1187012510
+      ]
+    }
+  ],
+  "reserved_support_guard_rejects": true,
+  "source_sha256": "b7afb9df82510fcc2cc436339e8f151d8450e60530a947bd23a446b7a5de85cd"
+}

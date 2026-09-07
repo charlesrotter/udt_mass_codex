@@ -1,0 +1,33 @@
+{
+  "command": [
+    "curl",
+    "-L",
+    "--fail",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "40000000",
+    "-w",
+    "%{http_code} %{size_download}\\n",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/LIGO_O2_cal_uncertainty.tgz",
+    "https://dcc.ligo.org/public/0177/T2100313/003/LIGO_O2_cal_uncertainty.tgz",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/Virgo_O2_cal_uncertainty.tgz",
+    "https://dcc.ligo.org/public/0177/T2100313/003/Virgo_O2_cal_uncertainty.tgz",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/noise_subtraction.pdf",
+    "https://arxiv.org/pdf/1809.05348",
+    "-o",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/swope.pdf",
+    "https://arxiv.org/pdf/1710.05452"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:44:58.156021+00:00",
+  "duration_seconds": 3.5074001850007335,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13632
+}

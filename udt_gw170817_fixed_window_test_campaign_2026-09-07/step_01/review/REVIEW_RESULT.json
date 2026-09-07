@@ -1,0 +1,36 @@
+{
+  "reviewer": "/root/fw1_release_review",
+  "date_utc": "2026-09-07T23:12:00Z",
+  "context": "fresh separate context",
+  "exact_model": "UNKNOWN",
+  "different_model": "UNTESTED",
+  "human_specialist": "UNTESTED",
+  "formal_verification": "UNTESTED",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Matched release metadata and R1 off-source-only finite-statistic freeze",
+  "candidate_sha256": "0a485434b9647ffa96dc76d5dd9bae921619d5ca6264e5025237ba6565c3ab76",
+  "freeze_sha256": "fa0506eaea5ef20dcd92aabf3b2d1a0efc7fb75ef6c7272c00e5e6764c591324",
+  "source_first_seal_sha256": "3928ce7fb67a5a44e379bbdd365203cc000177c9421905b5373c76079b0dd623",
+  "repair_cycles": 1,
+  "repair_status": "closed, original candidate/freeze preserved",
+  "unresolved_load_bearing_objections_at_reviewed_scope": [],
+  "offsource_screen_may_proceed_under_existing_authority": true,
+  "event_unseal_cleared": false,
+  "empirical_event_result": false,
+  "population_power_or_confidence_verified": false,
+  "full_physical_response_verified": false,
+  "scientific_promotion": false,
+  "strain_samples_inspected": false,
+  "independent_implementation": "standard-library calibration archive parsing, h5dump text masks and streaming checksums; producer parsers not imported",
+  "argument_exposure": "source-first requirements; CO1/CO2 disclosed dependencies; direct finite-model reasoning after FW1 candidate exposure",
+  "remaining_fw2_gates": [
+    "actual frozen operator implementation and numerical scaling/units",
+    "actual sign/coefficient and other load-bearing catchproofs",
+    "actual off-source measurement/reinjection output and fresh review"
+  ],
+  "remaining_event_gates": [
+    "complete physical response/finite-window/error contract",
+    "supported response/calibration/upstream nuisance treatment",
+    "supported sensitivity and interpretation"
+  ]
+}

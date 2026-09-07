@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib\np=pathlib.Path('udt_gw170817_fixed_window_test_campaign_2026-09-07')\nsha=lambda q:hashlib.sha256(q.read_bytes()).hexdigest()\ns1=p/'step_01';s2=p/'step_02'\nr1=json.loads((s1/'review/REVIEW_RESULT.json').read_text())\nr2=json.loads((s2/'review/REVIEW_RESULT.json').read_text())\nready=json.loads((s2/'AUTHOR_REPAIR_READY.json').read_text())\nassert r1['verdict']==r2['verdict']=='VERIFIED-WITH-CAVEATS'\nassert r2['remaining_load_bearing_objections']==[]\nassert sha(s1/'CANDIDATE.md')==r1['candidate_sha256']\nassert sha(s1/'FREEZE.json')==r1['freeze_sha256']==r2['freeze_unchanged_sha256']\nfor key,name in ready['artifact_paths'].items():\n assert sha(s2/name)==ready[key+'_sha256'],key\nfor key,rec in ready['initial_preservation'].items():\n assert sha(s2/rec['path'])==rec['sha256'] and rec['initial_pin_matches'],key\nfor key in ['candidate','producer','evaluation','coefficients']:\n assert r2[key+'_sha256']==ready[key+'_sha256']\nassert sha(s2/'AUTHOR_REPAIR_READY.json')==r2['author_repair_ready_sha256']\nassert sha(s2/'review/FINAL_REVIEW.md')=='37485eeaeb63bc3ddf0654d19a1f79215307c2f165d43481f522ae96e2770f79'\nassert sha(s2/'review/REVIEW_RESULT.json')=='da021c21c456cd98c87fb020731e5468239b35c9350ea1de6d904242319f6f2c'\nassert sha(s2/'review'/r2['independent_result_path'])==r2['independent_result_sha256']\nind=json.loads((s2/'review'/r2['independent_result_path']).read_text())\nout=json.loads((s2/ready['artifact_paths']['evaluation']).read_text())\ncounts=[round(f['target_crossing_fraction']*168) for f in out['families']]\nassert counts==ind['target_direct_counts_out_of_168']==r2['target_direct_counts_out_of_168']==[5,3,3]\nassert ind['direct_target_recomputations']==504 and not out['survives_all_families']\nassert not r2['event_samples_read'] and not r2['event_unseal_cleared'] and not r2['scientific_promotion']\naudit=json.loads((p/'STARTUP_PREMISE_AUDIT.json').read_text())\nassert audit['returncode']==0 and not audit['timeout'] and audit['stderr']==''\nassert 'PASS: 349-row premise registry' in audit['stdout']\nassert sha(p/'STARTUP_PREMISE_AUDIT.json')=='f775459039552d8604e4f9efd1777217611506b6e872c1f75d898cda5f513d38'\nfor name in ['method_R1_singlethread_run','catch_R1_singlethread_run','endpoint_catch_run','evaluation_R1_run']:\n rec=json.loads((s2/(name+'.json')).read_text())\n assert rec['returncode']==0 and not rec['timeout'] and (s2/(name+'.stderr')).read_text()==''\nfor name in ['method_R1_run','catch_R1_run']:\n assert json.loads((s2/(name+'.json')).read_text())['returncode']==-9\nprint(json.dumps(dict(scope='packaging, exact reviewed-version and saved-result consistency; not new scientific review',FW1=r1['verdict'],FW2=r2['verdict'],initial_evidence_preserved=True,reviewed_pins_match=True,counts=counts,event_unexamined=True,scientific_promotion=False,full349_audit_replayed=False,full349_saved_PASS_verified=True,failed_execution_records_preserved=True),indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T23:55:32.634308+00:00",
+  "duration_seconds": 0.019900081999367103,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15744
+}

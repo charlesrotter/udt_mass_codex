@@ -1,0 +1,26 @@
+{
+  "all_original_pins_preserved": true,
+  "preserved_hashes": {
+    "candidate": "d4ec21b1cab3fd8672f7b4b2be8bf67d78e5f460bd78930fbafe386baa458f82",
+    "producer": "fa865d46e6b728d2ac978e962067260ea4e9052d8f1b17f0e01a6f523de23ba2",
+    "evaluation": "6d8abeba36f7c4d26983bdde1a5343158bf3678ca77079cac1e547fff69e9bc8",
+    "training": "33a7cff5cc4504888f8550d9925c0a3a445b10919a05b1a84e1788ce406e527a",
+    "diagnostic": "15c2d0328daff630af79aeda79a5a8b05d7ee6be5ea3b894498ec958471ce023",
+    "psd": "6cf4c75cac9a38318311da37a16de0bb6b7c629643d52008b2eb2b8b70b758ea",
+    "coefficients": "6b3406738442832c25286cdf7abce2a8e8c64b728963bc4b97ed10a3189b7932"
+  },
+  "freeze_unchanged": true,
+  "changed_function_definitions": [
+    "synthetic",
+    "evaluate"
+  ],
+  "core_band_membership_unchanged": true,
+  "root_semantics": "threshold-equality roots; strict-crossing infima, not directly injected beyond-grid trials",
+  "stable_90percent_root_hrss": [
+    1.1748757429839627e-18,
+    1.1364513015735747e-18,
+    1.1864345748421619e-18
+  ],
+  "root_equality_max_relative_error": 5.808876959297301e-16,
+  "ready_sha256": "a6b67a34835e5d15f4ece720b534b61a077f72169b1b7e9a47016d2fcc3cc1fe"
+}

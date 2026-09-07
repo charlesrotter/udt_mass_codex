@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_gw170817_fixed_window_test_campaign_2026-09-07/step_01/metadata_checks.py", line 35, in <module>
+    if name=='dq': assert np.all((z&127)==127)
+AssertionError

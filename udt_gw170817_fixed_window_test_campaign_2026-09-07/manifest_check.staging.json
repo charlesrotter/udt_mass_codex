@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib,subprocess\np=pathlib.Path('udt_gw170817_fixed_window_test_campaign_2026-09-07')\ngit=['git','-c','core.preloadIndex=false']\nr=subprocess.run(git+['diff','--cached','--check'],capture_output=True,text=True)\nrows=r.stdout.splitlines()\nexpected={'INITIAL_independent_math.py':82,'INITIAL_independent_operator.py':76,'INITIAL_independent_replay.py':232,'PRE_R1_independent_replay.py':237,'PRE_REPAIR_independent_replay.py':237}\nwant={str(p/'step_02/review'/name)+':'+str(line)+': new blank line at EOF.' for name,line in expected.items()}\nassert r.returncode==2 and set(rows)==want and len(rows)==5 and r.stderr==''\nmanifest={}\nfor line in (p/'SHA256SUMS').read_text().splitlines():\n h,name=line.split('  ',1);manifest[name]=h\nfor name in expected:\n f=p/'step_02/review'/name\n assert hashlib.sha256(f.read_bytes()).hexdigest()==manifest[str(f)]\nfiles=[str(q) for q in p.rglob('*') if q.is_file() and '__pycache__' not in q.parts and q.suffix!='.pyc']\nstaged=set(subprocess.check_output(git+['diff','--cached','--name-only'],text=True).splitlines())\nassert staged==set(files+['LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md'])\nnames=sorted(x for x in subprocess.check_output(git+['status','--short'],text=True).splitlines() if x.startswith('?? '))\nnh=hashlib.sha256('\\n'.join(names).encode()).hexdigest()\nassert len(names)==46 and nh=='d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea'\nprint(json.dumps(dict(scope='exact staged formatting exception and allowlist audit; not scientific review',normal_cached_whitespace_check_returncode=r.returncode,raw_stdout=r.stdout,raw_stderr=r.stderr,disposition='EXACT DOCUMENTED FORMATTING EXCEPTION, not ordinary PASS: preserve five byte-pinned initial reviewer snapshots including trailing blank lines; no scientific code or global rule changed',original_snapshot_hashes_match=True,other_whitespace_errors=False,staged_authorized_files=len(staged),unrelated_names=len(names),unrelated_name_hash=nh),indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T23:59:09.947930+00:00",
+  "duration_seconds": 0.07274745700124186,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14784
+}

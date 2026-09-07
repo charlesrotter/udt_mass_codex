@@ -1,0 +1,29 @@
+{
+  "source_first": true,
+  "observed_arrays": false,
+  "N": 401408,
+  "M": 368640,
+  "retained_bin_count": 42301,
+  "method": "full FFT operator; direct Fourier sum anchors; no author imports",
+  "relative_errors": {
+    "correct": 3.2489542428400327e-16,
+    "wrong_sign": 0.831296294514478,
+    "omitted_H": 0.3341454383675072
+  },
+  "actually_failed_bad_zero_assertions": {
+    "wrong_sign": true,
+    "omitted_H": true
+  },
+  "maximum_hrss_norm_error": 8.215650382226158e-15,
+  "roundtrip_errors": [
+    5.79428845740077e-16,
+    5.694640392631118e-16,
+    5.816038268303441e-16
+  ],
+  "direct_fourier_anchor_errors": [
+    1.0905882430384928e-11,
+    1.4482172142078138e-12,
+    5.550371332443979e-12
+  ],
+  "operator_source_sha256": "bfab0835029e2d73a7b8b2d5ead5a303c14cb3a1d34080fd1f524464b47105eb"
+}

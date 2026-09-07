@@ -1,0 +1,30 @@
+{
+  "command": [
+    "h5dump",
+    "-y",
+    "-w0",
+    "-m",
+    "%.17g",
+    "-g",
+    "/meta",
+    "-g",
+    "/quality",
+    "-a",
+    "/strain/Strain/Xspacing",
+    "-a",
+    "/strain/Strain/Npoints",
+    "-a",
+    "/strain/Strain/Xstart",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/H1_complete.hdf5",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/L1_complete.hdf5",
+    "/tmp/udt-gw170817-fixed-window-xshnIR/V1_complete.hdf5"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:58:09.442428+00:00",
+  "duration_seconds": 0.01537401499808766,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7488
+}

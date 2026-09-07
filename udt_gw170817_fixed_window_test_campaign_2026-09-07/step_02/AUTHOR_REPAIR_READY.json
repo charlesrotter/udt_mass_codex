@@ -1,0 +1,76 @@
+{
+  "candidate_sha256": "f32a1ec5bd01ac5922fbc5da7cdefa77d90f8c9bfa3ca6e9f377493352d0f1e5",
+  "producer_sha256": "d8229dbd658f9503bcb59e2356f99ae160d5a96d98bf2e4155fd12f9f3326396",
+  "evaluation_sha256": "d61503205be13c68d9137a289cf78d704cf5ce544ab9831c1e94a301a43a9c9f",
+  "training_sha256": "33a7cff5cc4504888f8550d9925c0a3a445b10919a05b1a84e1788ce406e527a",
+  "diagnostic_sha256": "15c2d0328daff630af79aeda79a5a8b05d7ee6be5ea3b894498ec958471ce023",
+  "psd_sha256": "6cf4c75cac9a38318311da37a16de0bb6b7c629643d52008b2eb2b8b70b758ea",
+  "coefficients_sha256": "0bc7cf0bb448636fdb691fd4b538ee9983a003b69dc3b9148b4a07051194831b",
+  "method_sha256": "a0db4567b790c39d4b07c66ee06693794b4b58034dca60c988ab3e49d3d26138",
+  "catch_sha256": "885969e391d05461eb5c0f9639060d1c91ccc6be5d7d76ac8f50fb377fe16117",
+  "endpoint_catch_sha256": "4c2a3288ef71e7f07f1d2d39ef0220a81bf816eda9d651b0d9c8398892971eed",
+  "endpoint_catch_producer_sha256": "ae4b6bbb02f5e233e82dceaa6016e5729b0b927d429f781fec785528d75ffa51",
+  "artifact_paths": {
+    "candidate": "CANDIDATE.md",
+    "producer": "screen.py",
+    "evaluation": "evaluation_R1_run.stdout",
+    "training": "training_run.stdout",
+    "diagnostic": "diagnostic_run.stdout",
+    "psd": "PSD_training.npz",
+    "coefficients": "reinjection_coefficients_R1.npz",
+    "method": "method_R1_singlethread_run.stdout",
+    "catch": "catch_R1_singlethread_run.stdout",
+    "endpoint_catch": "endpoint_catch_run.stdout",
+    "endpoint_catch_producer": "endpoint_catch_checks.py"
+  },
+  "initial_preservation": {
+    "candidate": {
+      "path": "initial/CANDIDATE.md",
+      "sha256": "d4ec21b1cab3fd8672f7b4b2be8bf67d78e5f460bd78930fbafe386baa458f82",
+      "initial_pin_matches": true
+    },
+    "producer": {
+      "path": "initial/screen.py",
+      "sha256": "fa865d46e6b728d2ac978e962067260ea4e9052d8f1b17f0e01a6f523de23ba2",
+      "initial_pin_matches": true
+    },
+    "evaluation": {
+      "path": "evaluation_run.stdout",
+      "sha256": "6d8abeba36f7c4d26983bdde1a5343158bf3678ca77079cac1e547fff69e9bc8",
+      "initial_pin_matches": true
+    },
+    "training": {
+      "path": "training_run.stdout",
+      "sha256": "33a7cff5cc4504888f8550d9925c0a3a445b10919a05b1a84e1788ce406e527a",
+      "initial_pin_matches": true
+    },
+    "diagnostic": {
+      "path": "diagnostic_run.stdout",
+      "sha256": "15c2d0328daff630af79aeda79a5a8b05d7ee6be5ea3b894498ec958471ce023",
+      "initial_pin_matches": true
+    },
+    "psd": {
+      "path": "PSD_training.npz",
+      "sha256": "6cf4c75cac9a38318311da37a16de0bb6b7c629643d52008b2eb2b8b70b758ea",
+      "initial_pin_matches": true
+    },
+    "coefficients": {
+      "path": "reinjection_coefficients.npz",
+      "sha256": "6b3406738442832c25286cdf7abce2a8e8c64b728963bc4b97ed10a3189b7932",
+      "initial_pin_matches": true
+    }
+  },
+  "repair_cycle": 1,
+  "initial_ready_sha256": "442f39011dfeb553a4b03a77908e2f444272767a8366a8b26c4e9bd33e296b0e",
+  "repair_request_sha256": "65e442939b55ca2120354fc19b82eb4f59e108a752cfdf0b052e8cca5db27266",
+  "freeze_unchanged_sha256": "fa0506eaea5ef20dcd92aabf3b2d1a0efc7fb75ef6c7272c00e5e6764c591324",
+  "sample_scope": "33 predeclared OFFSOURCE supports ONLY. Forbidden event exclusion[1187008680,1187008980) remains UNEXAMINED.",
+  "extract_directory": "/tmp/udt-gw170817-fixed-window-xshnIR/offsource",
+  "extract_format": "{H1,L1,V1}_{core_gps}_98s_f64le.bin;401408 little-endian float64 samples; exact cores in FW1metadata",
+  "extract_manifests": [
+    "H1_extract_run.stdout",
+    "L1_extract_run.stdout",
+    "V1_extract_run.stdout"
+  ],
+  "review_request": "Focused R1 inclusive integer-bin repair and affected method/catch/reinjection recomputation; PSD, data and freeze unchanged. No event or promotion."
+}
