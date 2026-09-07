@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_recipe_restrictiveness_campaign_2026-09-07/check_closure_correspondence.py", line 67, in <module>
+    changed = git('diff', '--name-only', BASE, '--').decode().splitlines()
+  File "/home/udt-admin/udt_mass_codex/udt_recipe_restrictiveness_campaign_2026-09-07/check_closure_correspondence.py", line 14, in git
+    return subprocess.run(['git', *args], cwd=ROOT, capture_output=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'diff', '--name-only', '5e022dff9346707563bed18b4ed7dd4150ab2b94', '--']' returned non-zero exit status 128.

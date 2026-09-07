@@ -67,7 +67,10 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
 - G361--G363 owner-authorized conditional mathematical banking of PC1--PC3:
   `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-  Proposed restrictiveness campaign, awaiting direction: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+  Historical restrictiveness proposal, subsequently authorized: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+- Three reviewed UNPROMOTED restrictiveness candidates RC1--RC3, awaiting conditional-banking/direction:
+  `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`;
+  exact scope, diagnostics, review and closure routes: its `CAMPAIGN_LOG.md` and step review records.
 
 ## Retained comparison and observational lanes
 

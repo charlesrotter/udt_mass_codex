@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    "saved_polynomial_and_profile",
+    "saved_full_Ricci",
+    "saved_N_q_w",
+    "saved_all_recurrence_covector_slots",
+    "saved_anchor_values",
+    "saved_all_tidal_entries",
+    "saved_registered_tide_anchor",
+    "saved_wrong_phase_density",
+    "saved_off_equation_control",
+    "adverse_control_active_arbitrarily_near_anchor",
+    "full_spatial_seed_scalar",
+    "full_spatial_seed_vector",
+    "full_seed_norm_and_decomposition",
+    "full_registered_isometry_pullback",
+    "timelike_normalization_translation",
+    "derivative_freedom_in_complete_K"
+  ],
+  "all_saved_scientific_expressions": "EXACT_MATCH",
+  "general_registered_pullback_difference": "Matrix([[-H1(u, x, y) + H2(u, x, y) - 2*Derivative(f(u, x, y), u), 0, -Derivative(f(u, x, y), x), -Derivative(f(u, x, y), y)], [0, 0, 0, 0], [-Derivative(f(u, x, y), x), 0, 0, 0], [-Derivative(f(u, x, y), y), 0, 0, 0]])",
+  "original_control_at_1_1_tenth": "-449/250",
+  "near_anchor_control": "-2*eta*(9 - 2*eta**2)",
+  "K_uu_for_angle_pi_over2_plus_a_u_at_anchor": "-a/2",
+  "independence": "Imports only sealed reviewer scientific implementation; saved author strings are comparison targets."
+}

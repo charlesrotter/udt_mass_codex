@@ -83,11 +83,18 @@ G361--G363 bank PC1--PC3 at exactly the owner-authorized reviewed conditional sc
 Record: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`; the original
 three-step campaign remains unchanged. Restricted seed class, chosen recipe, local wave-method
 hypothesis, initial phase/product matching and all review caveats remain load-bearing.
-Next direction proposal: its `NEXT_CAMPAIGN_PROPOSAL.md` examines admissible-data variations,
-distinguishing sufficient conditions, class-relative necessities and unresolved breadth.
+Charles authorized its restrictiveness proposal; all three scientific steps have now been reviewed.
+RC1--RC3 are UNPROMOTED conditional candidates, VERIFIED-WITH-CAVEATS:
+constrained tangent departure; exact lawful recipe failure and local parallel-representative
+necessity in the full Ricci-flat nonzero recurrent-root class; and functional metric freedom at
+the SAME fixed recipe/product detected by a registered eventwise ideal tidal query.
+The forward initial-data wave-method hypothesis remains; root-only, other sectors/global domains,
+genericity, stability and all-isometry classification are unresolved here. RC2's exposure caveat stays.
+Return and exact review/closure routes: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`
+and its `CAMPAIGN_LOG.md`. The supplied ideal-query calibration is not an instrument law.
 Remaining in the preserved class, leaving this construction, and violating original admitted
 equations are different outcomes. Recipe failure is not a verdict against UDT.
-Charles's direction is required; no new campaign is authorized.
+Charles's conditional-banking/direction decision is required; no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/REVIEW_SHA256SUMS.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:48:49.445355+00:00",
+  "duration_seconds": 0.0028432410035748035,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7396
+}

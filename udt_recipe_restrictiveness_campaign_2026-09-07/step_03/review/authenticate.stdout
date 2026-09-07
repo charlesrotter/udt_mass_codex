@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "manifest_members": {
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/CANDIDATE_SHA256SUMS": 34,
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/SOURCE_SHA256SUMS": 16,
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/STAGE_A_SHA256SUMS.stdout": 9,
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/source_hashes.stdout": 35
+  },
+  "retained_initial_capture_overlap_seconds": 0.0419158935546875,
+  "corrected_serial_capture_gaps_seconds": [
+    0.06763459836656693,
+    0.060195176673005335
+  ],
+  "three_author_serial_output_pairs": "BYTE_IDENTICAL",
+  "chronology_limit": "Capture interval overlap is not separately measured simultaneous instruction execution."
+}

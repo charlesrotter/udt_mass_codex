@@ -34,9 +34,13 @@ history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 Generic metric-data realization and unrestricted recipe/product persistence remain open.
 G361--G363 bank PC1--PC3 conditionally; exact restricted scope and reviews:
 `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Its `NEXT_CAMPAIGN_PROPOSAL.md` tests restrictiveness using admissible-data variations.
+Its restrictiveness proposal was authorized; three reviewed UNPROMOTED candidates RC1--RC3 now
+separate tangent departure, exact lawful recipe failure/local Ricci-flat recurrent-root necessity,
+and fixed-product metric freedom detected by a registered eventwise ideal tide.
+Return/review/closure routes: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`
+and its campaign log. Keep all conditional limits and RC2's late-hint exposure caveat.
 Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
-Charles's direction is next; no new campaign is authorized.
+Charles's conditional-banking/direction decision is next; no new campaign is authorized.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.
 Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.

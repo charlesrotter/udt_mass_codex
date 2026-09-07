@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "strict_serial_capture_intervals": true,
+  "actual_replays": [
+    {
+      "run": "replay_author",
+      "exit": 0,
+      "failed_guard": null,
+      "duration_seconds": 1.2437801389896777,
+      "maxrss_kib": 49832,
+      "stdout_stderr": "BYTE_IDENTICAL_TO_FROZEN_SERIAL"
+    },
+    {
+      "run": "replay_nonharmonic",
+      "exit": 1,
+      "failed_guard": "original_exact_Ricci",
+      "duration_seconds": 0.8045269659924088,
+      "maxrss_kib": 48764,
+      "stdout_stderr": "BYTE_IDENTICAL_TO_FROZEN_SERIAL"
+    },
+    {
+      "run": "replay_fixed_phase",
+      "exit": 1,
+      "failed_guard": "fixed_phase_matching_not_automatic",
+      "duration_seconds": 1.0778023690072587,
+      "maxrss_kib": 49780,
+      "stdout_stderr": "BYTE_IDENTICAL_TO_FROZEN_SERIAL"
+    }
+  ]
+}

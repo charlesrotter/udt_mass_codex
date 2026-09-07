@@ -33,4 +33,21 @@
 - RC3 begins after RC2 review: test functional metric freedom at ONE fixed
   phase/product, and a precisely normalized already admitted ideal tidal query.
   This asks an inverse-data question; the old amplitude/phase matching example
-  is not counted as another result. No RC3 result exists yet.
+  is not counted as another result.
+- RC3 frozen at e2875119 after preserved structural-comparison and brief
+  serial-launch diagnostics;16 strictly serial author groups pass and2 actual
+  mutants fail, byte-identical to the retained earlier outputs. Fresh source-
+  first/direct review VERIFIED-WITH-CAVEATS,0/1 scientific repairs. Arbitrary
+  smooth u-only profile freedom preserves the SAME recipe/product but changes
+  the registered EVENTWISE null-pair-calibrated ideal tide. No all-isometry or
+  physical detector/content claim. Main authenticated all38 final review entries.
+- 14:49UTC: all3 scientific steps reviewed; no fourth step. Closure only:
+  DECISION_BRIEF.md, six current tracking files, source-fidelity review,
+  source/preservation correspondence, focused regression and full premise audit,
+  then scoped commit/push. Accepted registry, prior evidence, manuscript and
+  canon remain unchanged. No mathematical banking is authorized in this turn.
+- Closure diagnostic: default threaded Git lstat failed at512MiB; command-local
+  serial Git passed without config/cap changes, then full correspondence passed.
+  Initial startup suite192 passed/1 failed/1 deselected: real status-word-limit
+  overrun. Initial frozen text/failure checkpoint preserved before pointer-only
+  shortening; no test, scientific premise or reviewed result is being repaired.

@@ -1,0 +1,39 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "status": "UNPROMOTED_CONDITIONAL_MATHEMATICS",
+  "reviewer_context": "/root/restrictiveness_rc3_review",
+  "fresh_separate_context": true,
+  "exact_runtime_model": "UNKNOWN",
+  "different_model_review": "UNTESTED",
+  "human_specialist_review": "UNTESTED",
+  "formal_proof_assistant_review": "UNTESTED",
+  "source_first": "PLAN/OLD-SOURCE-EXPOSED; NEW-CANDIDATE-PROOF/CODE/OUTPUT/VERDICT-BLIND UNTIL STAGE A SEAL",
+  "source_review_caveat": "RC2 late pre-seal method/diagnostic hint exposure retained",
+  "candidate_commit": "e2875119592dd2b71630331807be2d10538b4b8a",
+  "candidate_argument_sha256": "50e70d1bb711f7108d1e9e93f8dca0c713be8a956a2be3d3619fc8ffb0542a41",
+  "candidate_manifest_sha256": "ddfaff103655e40e2ef0cb0b6bb91ff26a7145626e4507f7c11f7c2ab82a2704",
+  "stage_a_manifest_sha256": "685d3b8196e4912ff73bb9d3721266f180c398b3319f23348cf12e144de32871",
+  "required_scientific_defects": [],
+  "smallest_required_repair": "NONE",
+  "author_scientific_repair_cycles_used": 0,
+  "maximum_scientific_repair_cycles": 1,
+  "independent_implementation": "Generic metric/connection/curvature/full FIRST dual and intrinsic constraints; no author scientific imports",
+  "independent_comparison_groups": 16,
+  "author_baseline_groups": 16,
+  "actual_author_mutants_rerun": 2,
+  "same_code_reruns": "REGRESSION_ONLY; BYTE_IDENTICAL_TO_FROZEN_SERIAL_OUTPUTS",
+  "execution_limits": "ONE COMPLETED CHILD AT A TIME;512MiB;60-second CPU/wall;python3 -B",
+  "retained_diagnostics": [
+    "Pre-freeze structural polynomial equality false failure",
+    "Initial author capture interval overlap; serial reruns corrected procedure without replacing evidence"
+  ],
+  "scope": "Functional freedom in the specified actual Ricci-flat metric/complete-data family with fixed recipe/current/phase/product and fixed registration, detected by the declared ideal tidal query",
+  "exclusions": [
+    "All-isometry classification",
+    "Genericity or nonlinear stability",
+    "Physical instrument/content/count identification",
+    "Global/compact/caustic completion",
+    "Scientific promotion or canon",
+    "Fourth substantive campaign question"
+  ]
+}

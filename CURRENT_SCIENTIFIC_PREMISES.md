@@ -97,7 +97,12 @@ The CHOSEN recipe, restricted full seed class on ACTUAL developments, local wave
 hypothesis, nonzero/positive domains and independent initial phase/product matching remain explicit.
 These do not prove generic persistence, stability, physical identification or canon. The original
 campaign and review diagnostics are unchanged; model identities remain UNKNOWN, other-model/human
-axes UNTESTED. The proposed admissible-data restrictiveness campaign awaits Charles's direction.
+axes UNTESTED. The subsequently authorized restrictiveness campaign has returned three reviewed,
+UNPROMOTED conditional candidates RC1--RC3; these are NOT additional registry rows or accepted grades.
+Their local Ricci-flat recipe boundary and fixed-registration query/data freedom retain all
+assumptions and review/execution caveats, including RC2's late pre-seal hints.
+See `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md` and its log/review records.
+Conditional banking requires Charles's decision; no successor campaign or physical adoption is authorized.
 
 | Object | Status | Guard |
 |---|---|---|

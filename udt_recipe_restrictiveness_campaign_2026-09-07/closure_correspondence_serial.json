@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/check_closure_correspondence.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:52:19.478397+00:00",
+  "duration_seconds": 0.17424407000362407,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 17184
+}
