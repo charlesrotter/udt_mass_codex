@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import pathlib,hashlib,json,difflib\np=pathlib.Path('udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md')\ncurrent=p.read_text()\nnew=\"PE1 and this brief: VERIFIED-WITH-CAVEATS at their document-only scope.\\nFinal premise, preservation and review checks passed. No scientific banking or data fit.\\n\"\nold=\"PE1 scientific review: VERIFIED-WITH-CAVEATS at its document-only scope;\\nfinal packaging review/checks pending. No scientific banking or data fit.\\n\"\nassert current.count(new)==1\nprevious=current.replace(new,old)\nassert hashlib.sha256(previous.encode()).hexdigest()=='e2d434397673475678ca4043d4d6ef95393529aa1903dfb8837abe3dbe4f15df'\nprint(json.dumps(dict(reviewed_substance_sha256=hashlib.sha256(previous.encode()).hexdigest(),final_sha256=hashlib.sha256(current.encode()).hexdigest(),status_only=True,diff=''.join(difflib.unified_diff(previous.splitlines(True),current.splitlines(True),fromfile='reviewed_pending_status',tofile='completed_status'))),sort_keys=True))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:49:04.839316+00:00",
+  "duration_seconds": 0.016498358992976137,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14016
+}

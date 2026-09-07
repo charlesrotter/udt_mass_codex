@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import hashlib,json,pathlib\np=pathlib.Path('udt_goce_product_eligibility_audit_2026-09-07/step_01/review/check_matrix_conventions.py')\ntext=p.read_text()\nnew=\"\"\"'nonrotating_witness_diagonal_same': [str(same_symbol[i, i].subs(\n        {**witness, wx: 0, wy: 0, wz: 0})) for i in range(3)],\"\"\"\nold=\"'nonrotating_witness_diagonal_same': ['4', '6', '10'],\"\nassert text.count(new)==1\ninitial=text.replace(new,old)\nh=hashlib.sha256(initial.encode()).hexdigest()\nassert h=='f6260be66743845085bd9a1cb769fe8ed2c578c749bb7f7dc78d9b536f28c988'\nprint(json.dumps(dict(reconstructed_original_sha256=h,original_reporting_constant_recoverable=True,original_outputs_retained=True,chronology='reconstruction now, not falsely claimed initial file capture')))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:47:36.840592+00:00",
+  "duration_seconds": 0.01651012799993623,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13988
+}

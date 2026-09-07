@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_goce_product_eligibility_audit_2026-09-07/step_01/review/check_matrix_conventions.py", line 50, in <module>
+    assert s.simplify(same_symbol - V) == zero, 'mutant: half length treated as full'
+AssertionError: mutant: half length treated as full

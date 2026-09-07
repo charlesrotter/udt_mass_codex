@@ -1,0 +1,2 @@
+{"algorithm_full_separation": ["2", "3", "5"], "algorithm_same_symbol": ["4", "6", "10"], "differences": ["-2", "-6", "-15"], "gradient": ["2", "3", "5"], "half_separations": ["1", "2", "3"], "intro": ["2", "3", "5"], "mutant": false}
+PASS: 3 exact diagnostic assertions; not flight-processing validation

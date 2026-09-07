@@ -77,7 +77,14 @@ TM1/TM2, VERIFIED-WITH-CAVEATS, not promoted. No third example or observations f
 Brief/reviews: `udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md`.
 An unused scalar contrast can survive absolute-scalar bias degeneracy in the declared finite
 linear class; a real product's processing/calibration/error eligibility remains OPEN.
-Charles's next direction/banking decision is required; no new campaign is authorized.
+Charles authorized the product-specific GOCE eligibility audit; PE1 returned a fresh-reviewed
+VERIFIED-WITH-CAVEATS document audit, not scientific promotion. Exact2018 TN3397 was recovered;
+baseline0202 and cached one-item processor07.00 metadata are distinguished from actual deployed
+configuration. No final-stage trace projection is imposed by Algorithm16, but end-to-end retained
+signal, calibration/raw-support/error provenance and a written arm-length ambiguity remain OPEN.
+The audit stopped after one reviewed step at that evidence gate; no second example or data fit.
+Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
+TM1/TM2 remain unpromoted. Charles's next direction decision is required; no new campaign is authorized.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

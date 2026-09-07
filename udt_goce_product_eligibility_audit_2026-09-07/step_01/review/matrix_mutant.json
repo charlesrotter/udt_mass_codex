@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "udt_goce_product_eligibility_audit_2026-09-07/step_01/review/check_matrix_conventions.py",
+    "--wrong-length-convention"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:33:38.769431+00:00",
+  "duration_seconds": 0.2768064370029606,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 59752
+}

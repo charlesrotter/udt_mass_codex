@@ -104,7 +104,16 @@ scalar erasure and duplicated inputs can erase the proposed signal information. 
 fixed linear pre-processing nuisance class and independently justified errors are essential.
 Real product/version/calibration/error eligibility remains OPEN. No observations fitted,
 third example, new instrument law, physical identification, or accepted-grade change.
-Charles's next direction/banking decision is required; no new campaign is authorized.
+The owner-authorized GOCE product eligibility audit returned one fresh-reviewed document result,
+PE1 VERIFIED-WITH-CAVEATS, not promoted: exact2018 TN3397 recovered; baseline0202 and cached
+one-item processor07.00 metadata distinguished from deployed configuration. Final Algorithm16
+does not itself project away trace, but upstream target retention, external calibration/support,
+error bounds and a half/full-arm convention ambiguity remain unresolved. It stopped after one
+reviewed step at the indispensable evidence gate, with no manufactured second example or data fit.
+Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
+No whole-product ineligibility, flight bug or new-physics requirement follows. TM1/TM2 remain
+unpromoted; original scientific sources, registry, fixed manuscript and canon are unchanged.
+Charles's next direction decision is required; no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

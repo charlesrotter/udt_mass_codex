@@ -1,0 +1,20 @@
+{
+  "command": [
+    "sha256sum",
+    "/tmp/goce_pe1_review.28tzLa/catalog.html",
+    "/tmp/goce_pe1_review.28tzLa/algorithms_response",
+    "/tmp/goce_pe1_review.28tzLa/algorithms.pdf",
+    "/tmp/goce_pe1_review.28tzLa/algorithms.txt",
+    "/tmp/goce_pe1_review.28tzLa/egu2018.pdf",
+    "/tmp/goce_pe1_review.28tzLa/egu2018_slide7.png",
+    "/tmp/goce_pe1_review.28tzLa/algorithms_page61.png"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:24:36.046395+00:00",
+  "duration_seconds": 0.021098615994560532,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7684
+}

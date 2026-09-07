@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import hashlib,json,pathlib,subprocess\nroot=pathlib.Path('.')\nmanifest=root/'udt_tidal_measurement_feasibility_campaign_2026-09-07/ARTIFACT_SHA256SUMS'\npaths={'LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md'}\nout={}\nfor line in manifest.read_text().splitlines():\n expected,p=line.split('  ',1)\n if p in paths:\n  data=subprocess.check_output(['git','show','56cf5e47cf6250b62d7169fdc9011611f6a9688b:'+p])\n  actual=hashlib.sha256(data).hexdigest()\n  assert actual==expected,p\n  out[p]=dict(historical_sha256=actual,current_live_equal=hashlib.sha256((root/p).read_bytes()).hexdigest()==expected)\nassert set(out)==paths\nprint(json.dumps(dict(snapshot='56cf5e47cf6250b62d7169fdc9011611f6a9688b',historical_tracking_entries=out,pass_at_historical_snapshot=True),sort_keys=True))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:47:36.968386+00:00",
+  "duration_seconds": 0.026204185996903107,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14208
+}

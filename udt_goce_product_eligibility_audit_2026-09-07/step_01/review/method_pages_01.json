@@ -1,0 +1,23 @@
+{
+  "command": [
+    "pdftoppm",
+    "-f",
+    "7",
+    "-l",
+    "7",
+    "-scale-to",
+    "1600",
+    "-png",
+    "-singlefile",
+    "/tmp/goce_pe1_review.28tzLa/egu2018.pdf",
+    "/tmp/goce_pe1_review.28tzLa/egu2018_slide7"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:23:25.984086+00:00",
+  "duration_seconds": 0.35062813400872983,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 20892
+}

@@ -1,0 +1,1 @@
+{"full_separation_identity": "V", "identities": 4, "nonrotating_witness_diagonal_same": ["4", "6", "10"], "rotating_witness_trace_expected": "10", "rotating_witness_trace_full_separation": "10", "rotating_witness_trace_same_symbol": "3040032/148225", "same_symbol_identity": "2*V - Omega^2", "sympy_version": "1.13.1"}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import hashlib,json,pathlib\np=pathlib.Path('udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md')\ncurrent=p.read_bytes()\ntext=current.decode()\npairs=[\n('The controlling test assumes the owner-provisional connected Ric=Lambda g\\narena, W4 WORKING/POSIT ideal coupling and the explicitly SUPPLIED TM1\\ninstrument interface; none is an empirical device validation:\\n','The controlling test remains conditional:\\n'),\n('noiseless structural test dimension rank(P)-rank(M), not a demonstrated\\ndetectability or significance. The retrieved dossier does not yet justify\\n','test dimension rank(P)-rank(M). The retrieved dossier does not yet justify\\n')]\nfor new,old in pairs:\n    assert text.count(new)==1\n    text=text.replace(new,old)\ncurrent_hash=hashlib.sha256(current).hexdigest()\nreconstructed=hashlib.sha256(text.encode()).hexdigest()\nassert current_hash=='e2d434397673475678ca4043d4d6ef95393529aa1903dfb8837abe3dbe4f15df'\nassert reconstructed=='39e4b55d63b195eadd7a79abca14fe111ba8be1a127308f73a08cef91c1233bb'\nprint(json.dumps(dict(current_sha256=current_hash,reconstructed_initial_sha256=reconstructed,exact_replacements=2,other_changes=False)))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:41:19.295344+00:00",
+  "duration_seconds": 0.015811060002306476,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14016
+}

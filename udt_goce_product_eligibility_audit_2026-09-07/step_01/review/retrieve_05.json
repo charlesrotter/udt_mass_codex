@@ -1,0 +1,23 @@
+{
+  "command": [
+    "curl",
+    "--location",
+    "--max-time",
+    "45",
+    "--silent",
+    "--show-error",
+    "--output",
+    "/tmp/goce_pe1_review.28tzLa/egu2018.pdf",
+    "--write-out",
+    "http_code=%{http_code}\\ncontent_type=%{content_type}\\nurl_effective=%{url_effective}\\nsize_download=%{size_download}\\n",
+    "https://presentations.copernicus.org/EGU2018/EGU2018-5319_presentation.pdf"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:22:48.672144+00:00",
+  "duration_seconds": 2.107495343996561,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13248
+}
