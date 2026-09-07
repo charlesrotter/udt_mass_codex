@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -32,10 +32,11 @@ Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from 
 five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
 history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 Generic metric-data realization and unrestricted recipe/product persistence remain open.
-The approved persistence campaign completed three reviewed steps within four hours:
-`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its compact log.
-PC1--PC3 are reviewed conditional candidates: local sufficient-class preservation; banking awaits Charles.
-Old evidence is unchanged. Beyond this completed campaign, no new campaign is authorized.
+G361--G363 bank PC1--PC3 conditionally; exact restricted scope and reviews:
+`udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Its `NEXT_CAMPAIGN_PROPOSAL.md` tests restrictiveness using admissible-data variations.
+Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
+Charles's direction is next; no new campaign is authorized.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.
 Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.

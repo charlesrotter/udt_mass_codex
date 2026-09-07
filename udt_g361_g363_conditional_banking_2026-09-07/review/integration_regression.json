@@ -1,0 +1,19 @@
+{
+  "command": [
+    "env",
+    "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "python3",
+    "-B",
+    "-c",
+    "import tempfile, pytest; from pathlib import Path; review_dir=Path(\"udt_g361_g363_conditional_banking_2026-09-07/review\").resolve(); context=tempfile.TemporaryDirectory(prefix=\"review_pytest_\", dir=review_dir); result=pytest.main([\"-q\", \"--noconftest\", \"-p\", \"no:cacheprovider\", \"--basetemp\", context.name, \"tests/test_startup_surface.py\", \"-k\", \"persistence_banking and not next_gate\"]); context.cleanup(); raise SystemExit(result)"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T13:32:12.603143+00:00",
+  "duration_seconds": 0.6140939589968184,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 69776
+}

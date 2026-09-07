@@ -46,7 +46,7 @@ G357--G360 bank SC2--SC5 at their owner-authorized conditional mathematical scop
 VERIFIED-WITH-CAVEATS. SC1 remains a source map; initial and repaired false-pass evidence stays
 unchanged. No physical identification, recipe adoption or canon follows.
 
-Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
 Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
 covariance rows are unresolved, no preferred scale follows, and the raw archive is
@@ -67,12 +67,11 @@ Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from 
 five-reviewed-step campaign. SC1 remains a source map. Exact scopes and preserved review/repair
 history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 No full metric-data realization, automatic recipe/product persistence or physical content follows.
-The approved recipe-persistence campaign completed three reviewed steps within four hours.
-Full data/domain gates and closure:
-`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`,
-`udt_phase_current_product_persistence_campaign_2026-09-07/CAMPAIGN_LOG.md`.
-PC1--PC3 are reviewed conditional candidates: local sufficient-class preservation; banking awaits Charles.
-Old evidence is unchanged. Beyond this completed campaign, no new campaign is authorized.
+G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
+Scope/reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Its `NEXT_CAMPAIGN_PROPOSAL.md` tests admissible-data variations and construction boundaries.
+Old evidence is unchanged; no generic persistence, stability or physical identification follows.
+Charles's direction is next; no new campaign is authorized.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
 frontier tracking. History, matter, scale, `X_max`, and canon stay open.

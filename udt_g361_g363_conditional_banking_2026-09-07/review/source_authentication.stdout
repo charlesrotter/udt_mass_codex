@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "git_version": "git version 2.34.1",
+  "baseline": "c663c3ebee1755c348388170df4906eb00d1a8e8",
+  "observed_head": "c663c3ebee1755c348388170df4906eb00d1a8e8",
+  "branch": "grok",
+  "manifests": [
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/CAMPAIGN_SHA256SUMS",
+      "sha256": "603f2e1166e80877b23ffb822c430cf15ce5657ac7ab3b7e93f825a83b2c9107",
+      "entries": 241,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/FREEZE_SHA256SUMS",
+      "sha256": "129d821c8ce063a589880528ac053df78cba3676e844ff01bf00f0fd55798db3",
+      "entries": 30,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/SOURCE_SHA256SUMS",
+      "sha256": "24a33a841191db8179cafc97d697aa0597b8faaa25f8cfde902460343aca0fc6",
+      "entries": 15,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+      "sha256": "b31c3abb0df6f77a1e29488995cfa33119eaff6cf63dd0090fb54672bf314b46",
+      "entries": 35,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/FREEZE_SHA256SUMS",
+      "sha256": "affe7f54cde3b8cd66726b69dc2a9956197c578382f67f80c8f3323f84bb13e7",
+      "entries": 32,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/SOURCE_SHA256SUMS",
+      "sha256": "4628bb50f29156470cfb4c164103a6ce398de3e09c4aea7f0259100eb9a9b04e",
+      "entries": 20,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+      "sha256": "3d394e2a056c85e23d2db15dc4be5dee7dce66457255dd7a1be6447733cfa829",
+      "entries": 40,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/FREEZE_SHA256SUMS",
+      "sha256": "361c4d61e4b71e226c3461051bc1f066d0f3b6b2e14096c32cade22a64e46dd2",
+      "entries": 20,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/SOURCE_SHA256SUMS",
+      "sha256": "5b28e4c4dbf3131e3e600c98855de29df16db1eb918067fba06cedd51cff01e6",
+      "entries": 31,
+      "result": "PASS"
+    },
+    {
+      "manifest": "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/review/REVIEW_SHA256SUMS",
+      "sha256": "fabcd473babfa5671f491b3bac14c709b7a7c34a6d8812813500427b5ee7f648",
+      "entries": 31,
+      "result": "PASS"
+    }
+  ],
+  "candidate_commit_pins": [
+    {
+      "commit": "2112f80867d38e4707c5f69898bd84914754c407",
+      "path": "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md",
+      "sha256": "0c3cb5256c91004e76a3c5e5644088dfc6d8e6765b4c90892d757de013ef78dc",
+      "result": "PASS"
+    },
+    {
+      "commit": "e4071d092b8c1b84d8732534f54d0278b226f6ba",
+      "path": "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md",
+      "sha256": "3233097fa91f55252eb127d7ccc14e6d5f74ef0b29a7047077b45dff5006ff39",
+      "result": "PASS"
+    },
+    {
+      "commit": "167519b259069fefb17463f2e68e030064b851da",
+      "path": "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/CANDIDATE_ARGUMENT.md",
+      "sha256": "19c8e3203d23d473ecdbd9c0af1155e51a58e81e46168df7276ca5b0a761a058",
+      "result": "PASS"
+    }
+  ],
+  "tracked_campaign_files": 243,
+  "campaign_diff_against_baseline": [],
+  "review_membership": "EXACT",
+  "campaign_membership": "EXACT_241_PLUS_MANIFEST_AND_RECEIPT",
+  "registry_authentication": "HISTORICAL_MANIFEST_HASH_CHECKED_AGAINST_PINNED_BASELINE_BLOB",
+  "scientific_computations": "NONE",
+  "remote_freshness": "NOT_CHECKED_BY_THIS_REVIEW"
+}

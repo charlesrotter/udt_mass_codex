@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -51,6 +51,9 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G358 | Thirteen constraints on24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |
 | G359 | Full initial future-null covector and unique local phase; optional whole-compact-slice real-phase obstruction |
 | G360 | Robust overlap exclusions; existential bounded-kernel class threshold, not every fixed kernel or measured accuracy |
+| G361 | Full spacelike seed and exact chosen-root gate within that Einstein class; nonempty lawful local data |
+| G362 | Conditional local parallel-null/normalized-recipe preservation and initial screen scalar; not generic stability |
+| G363 | Full initial aligned phase and fixed-product match persist locally; ideal readout identity, not physical content |
 
 G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
 premise, not a metric derivation: a standard finite nonnegative countably additive measure on
@@ -86,7 +89,15 @@ SC1 remains a source map. Their authority is
 The SC4 structural false failure and SC5 real false-pass/1-of-1 reviewed regression repair remain
 preserved. Finite checks do not own analytic quantifiers; review model identities remain UNKNOWN,
 different-model/human axes UNTESTED. No device law, physical content, general recipe persistence,
-metric-selected initial data or canon follows. The next persistence campaign is a proposal only.
+metric-selected initial data or canon follows from G357--G360.
+
+G361--G363 bank PC1--PC3 as owner-authorized BANKED_DERIVED_CONDITIONAL mathematics,
+VERIFIED-WITH-CAVEATS, through `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+The CHOSEN recipe, restricted full seed class on ACTUAL developments, local wave-method
+hypothesis, nonzero/positive domains and independent initial phase/product matching remain explicit.
+These do not prove generic persistence, stability, physical identification or canon. The original
+campaign and review diagnostics are unchanged; model identities remain UNKNOWN, other-model/human
+axes UNTESTED. The proposed admissible-data restrictiveness campaign awaits Charles's direction.
 
 | Object | Status | Guard |
 |---|---|---|

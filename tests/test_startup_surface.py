@@ -104,6 +104,7 @@ CURRENT_TARGETS = (
     "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
     premise_guard.CONDITIONAL_BANKING_SOURCE,
     premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
+    premise_guard.PERSISTENCE_BANKING_SOURCE,
     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
 )
@@ -146,6 +147,7 @@ def _startup_copy(tmp_path: Path) -> Path:
             "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
             premise_guard.CONDITIONAL_BANKING_SOURCE,
             premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
+            premise_guard.PERSISTENCE_BANKING_SOURCE,
         ):
             shutil.copy2(REPO / relative, destination)
         else:
@@ -379,6 +381,110 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
     assert result.returncode == 0, result.stdout + result.stderr
     registry_rows = len((REPO / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_text(encoding="utf-8").splitlines()) - 1
     assert f"PASS: {registry_rows}-row premise registry" in result.stdout
+
+
+def _persistence_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
+    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.PERSISTENCE_BANKING_SOURCE):
+        destination = tmp_path / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(REPO / relative, destination)
+    if evidence:
+        campaign = premise_guard.PERSISTENCE_BANKING_CAMPAIGN
+        shutil.copytree(REPO / campaign, tmp_path / campaign)
+        for step in range(1, 4):
+            for line in (REPO / campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
+                _, relative = line.split(maxsplit=1)
+                if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                    continue
+                destination = tmp_path / relative
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(REPO / relative, destination)
+    return tmp_path
+
+
+def test_persistence_banking_frozen_evidence_passes() -> None:
+    premise_guard.validate_persistence_banking(REPO)
+
+
+@pytest.mark.parametrize("premise_id", premise_guard.PERSISTENCE_BANKING_IDS)
+@pytest.mark.parametrize("field,value,error", (
+    ("current_status", "PHYSICAL_CONTENT_DERIVED", "persistence banking grade changed"),
+    ("epistemic_label", "CANON", "persistence banking grade changed"),
+    ("controlling_source", "CANON.md", "persistence banking source changed"),
+    ("active_use", "GENERIC_PERSISTENCE", "active scope lacks"),
+    ("open_scope", "physical identification established", "open scope lacks"),
+    ("forbidden_regression", "none", "guard lacks"),
+    ("precedence_rule", "DIFFERENT_MODEL_PROOF", "review independence scope changed"),
+))
+def test_catch_persistence_banking_row_scope(
+    tmp_path: Path, premise_id: str, field: str, value: str, error: str,
+) -> None:
+    root = _persistence_copy(tmp_path)
+    _change_registry_field(root, premise_id, field, value)
+    with pytest.raises(SystemExit, match=error):
+        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("duplicate", (False, True))
+def test_catch_persistence_banking_membership(tmp_path: Path, duplicate: bool) -> None:
+    root = _persistence_copy(tmp_path)
+    registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+    lines = registry.read_bytes().splitlines(keepends=True)
+    row = next(line for line in lines if line.startswith(b"G363\t"))
+    registry.write_bytes(b"".join(lines + [row] if duplicate else [line for line in lines if line != row]))
+    with pytest.raises(SystemExit, match="exactly three distinct rows"):
+        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("premise_id", ("G352", "G360"))
+def test_catch_persistence_banking_old_row_rewrite(tmp_path: Path, premise_id: str) -> None:
+    root = _persistence_copy(tmp_path)
+    _change_registry_field(root, premise_id, "current_status", "PHYSICAL_CONTENT_DERIVED")
+    with pytest.raises(SystemExit, match="changed an existing scientific registry row"):
+        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("token", ("CHOSEN", "local wave-method", "independent initial phase/",
+                                    "physical identification remains OPEN", "no new campaign is authorized"))
+def test_catch_persistence_banking_record_limits(tmp_path: Path, token: str) -> None:
+    root = _persistence_copy(tmp_path)
+    _replace(root / premise_guard.PERSISTENCE_BANKING_SOURCE, token, "REMOVED_LIMIT")
+    with pytest.raises(SystemExit, match="persistence banking record lacks"):
+        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
+
+
+@pytest.mark.parametrize("relative", ("step_01/CANDIDATE_ARGUMENT.md",
+    "step_02/review/PHASE_B_ADVERSARIAL_REVIEW.md", "step_03/CANDIDATE_ARGUMENT.md"))
+def test_catch_persistence_banking_evidence_rewrite(tmp_path: Path, relative: str) -> None:
+    root = _persistence_copy(tmp_path, evidence=True)
+    path = root / premise_guard.PERSISTENCE_BANKING_CAMPAIGN / relative
+    path.write_bytes(path.read_bytes() + b"\nChanged frozen science.\n")
+    with pytest.raises(SystemExit, match="frozen campaign payload changed"):
+        premise_guard.validate_persistence_banking(root)
+
+
+def test_catch_persistence_banking_source_rewrite(tmp_path: Path) -> None:
+    root = _persistence_copy(tmp_path, evidence=True)
+    path = root / "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md"
+    path.write_bytes(path.read_bytes() + b"\nChanged source science.\n")
+    with pytest.raises(SystemExit, match="scientific source changed since snapshot"):
+        premise_guard.validate_persistence_banking(root)
+
+
+def test_catch_persistence_banking_receipt_rewrite(tmp_path: Path) -> None:
+    root = _persistence_copy(tmp_path, evidence=True)
+    path = root / premise_guard.PERSISTENCE_BANKING_CAMPAIGN / "CLOSURE_RECEIPT.json"
+    path.write_bytes(path.read_bytes() + b"\nChanged receipt.\n")
+    with pytest.raises(SystemExit, match="original closure receipt changed"):
+        premise_guard.validate_persistence_banking(root)
+
+
+@pytest.mark.parametrize("name", ("LIVE.md", "HANDOFF.md"))
+def test_catch_persistence_banking_next_gate(tmp_path: Path, name: str) -> None:
+    root = _startup_copy(tmp_path)
+    _replace(root / name, "G361--G363", "REMOVED_NEW_BANK")
+    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
+        premise_guard.validate_startup_surface(root)
 
 
 def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
@@ -754,8 +860,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
 
 def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
     root = _startup_copy(tmp_path)
-    _replace(root / "AGENTS.md", "343-row exact registry", "339-row exact registry")
-    with pytest.raises(SystemExit, match="current route lacks 343-row exact registry"):
+    _replace(root / "AGENTS.md", "346-row exact registry", "343-row exact registry")
+    with pytest.raises(SystemExit, match="current route lacks 346-row exact registry"):
         premise_guard.validate_startup_surface(root)
 
 

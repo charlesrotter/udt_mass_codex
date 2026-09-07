@@ -2,7 +2,7 @@
 
 Date: 2026-09-07
 
-`LIVE.md` controls status; the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -42,6 +42,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G352 | Owner-provisional continuous clock-rate readout; chosen product realization has `T_clock=R A^-1` | Atomic crossing rate, physical carried object, source/population, detector, light, or energy |
 | G353--G356 | Conditional nonselection, optional conversion bounds, harmonic-wave phase class, different-phase product | Physical content/counting or recipe adoption; universal no-go; selected data |
 | G357--G360 | Conditional shared-query constraints, eventwise curvature, local phase and robust weights | Device identity, general PDE realization or recipe persistence; SC1 stays a source map |
+| G361--G363 | Conditional full-data/root gate, local invariant recipe class and fixed phase/product preservation | Generic persistence, stability, physical content or recipe adoption |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
 formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
@@ -78,13 +79,15 @@ eventwise algebraic curvature and local phase/optional compact results retain ex
 See `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`; all original evidence,
 including initial and repaired false passes, remains unchanged. Pointwise algebraic sufficiency is
 not full lawful-data/PDE realization; free phase propagation is not recipe/product persistence.
-The approved persistence campaign completed three reviewed steps within four hours.
-Work order: `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
-its compact `CAMPAIGN_LOG.md` owns closure; `DECISION_BRIEF.md` gives the return.
-PC1--PC3 are reviewed conditional candidates: full initial-data/root gate, local invariant
-recipe class, and preservation of independently compatible phase/product/readout.
-These are sufficient-class results, not generic stability or physical content. Banking awaits
-Charles; no promotion. Beyond this completed campaign, no new campaign is authorized.
+G361--G363 bank PC1--PC3 at exactly the owner-authorized reviewed conditional scopes.
+Record: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`; the original
+three-step campaign remains unchanged. Restricted seed class, chosen recipe, local wave-method
+hypothesis, initial phase/product matching and all review caveats remain load-bearing.
+Next direction proposal: its `NEXT_CAMPAIGN_PROPOSAL.md` examines admissible-data variations,
+distinguishing sufficient conditions, class-relative necessities and unresolved breadth.
+Remaining in the preserved class, leaving this construction, and violating original admitted
+equations are different outcomes. Recipe failure is not a verdict against UDT.
+Charles's direction is required; no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

@@ -29,6 +29,10 @@ SHARED_CONSTRAINT_BANKING_SNAPSHOT = "ed2f7432f068aa7a72628382b890596b3efba06a"
 SHARED_CONSTRAINT_BANKING_IDS = ("G357", "G358", "G359", "G360")
 SHARED_CONSTRAINT_BANKING_SOURCE = "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md"
 SHARED_CONSTRAINT_BANKING_CAMPAIGN = "udt_shared_readout_metric_constraint_campaign_2026-09-06"
+PERSISTENCE_BANKING_SNAPSHOT = "c663c3ebee1755c348388170df4906eb00d1a8e8"
+PERSISTENCE_BANKING_IDS = ("G361", "G362", "G363")
+PERSISTENCE_BANKING_SOURCE = "udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md"
+PERSISTENCE_BANKING_CAMPAIGN = "udt_phase_current_product_persistence_campaign_2026-09-07"
 
 PREMISE_REGISTRY_CONTROLS = (
     "AGENTS.md",
@@ -238,6 +242,7 @@ def replay_package_with_current_registry_rows_removed(
 ) -> dict:
     """Replay a frozen package in /tmp after removing only declared later registry rows."""
     legacy_later_rows = (
+        "G363", "G362", "G361",
         "G360", "G359", "G358", "G357",
         "G356", "G355", "G354", "G353",
         "G352", "G351", "G350", "G349", "G348", "G347", "G346", "G345", "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
@@ -318,7 +323,8 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
     correspondence and scope regression, not another scientific review or proof.
     """
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_prefixes = tuple(f"{item}\t".encode() for item in SHARED_CONSTRAINT_BANKING_IDS)
+    later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS
+    later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(
         line for line in registry_bytes.splitlines(keepends=True)
         if not line.startswith(later_prefixes)
@@ -332,7 +338,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
             == "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
             "conditional banking changed an existing scientific registry row")
     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-            if row["premise_id"] not in SHARED_CONSTRAINT_BANKING_IDS]
+            if row["premise_id"] not in later_ids]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 339,
             "conditional banking must add exactly four distinct rows to 335")
@@ -449,13 +455,17 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
 def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    later_prefixes = tuple(f"{item}\t".encode() for item in PERSISTENCE_BANKING_IDS)
+    registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                              if not line.startswith(later_prefixes))
     prefixes = tuple(f"{item}\t".encode() for item in SHARED_CONSTRAINT_BANKING_IDS)
     old_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                          if not line.startswith(prefixes))
     require(hashlib.sha256(old_bytes).hexdigest()
             == "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429",
             "shared-constraint banking changed an existing scientific registry row")
-    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+            if row["premise_id"] not in PERSISTENCE_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 343,
             "shared-constraint banking must add exactly four distinct rows to 339")
@@ -565,6 +575,109 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
 
 
 
+def validate_persistence_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+    """Guard only additive PC1--PC3 banking; correspondence is not proof."""
+    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    prefixes = tuple(f"{item}\t".encode() for item in PERSISTENCE_BANKING_IDS)
+    old_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                         if not line.startswith(prefixes))
+    require(hashlib.sha256(old_bytes).hexdigest()
+            == "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
+            "persistence banking changed an existing scientific registry row")
+    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    by_id = {row["premise_id"]: row for row in rows}
+    require(len(rows) == len(by_id) == 346,
+            "persistence banking must add exactly three distinct rows to 343")
+    record_path = root / PERSISTENCE_BANKING_SOURCE
+    require(record_path.is_file(), "persistence banking record missing")
+    record = " ".join(record_path.read_text().split())
+    for token in (*PERSISTENCE_BANKING_IDS, PERSISTENCE_BANKING_SNAPSHOT,
+                  "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
+                  "restricted full spacelike initial-data class", "local wave-method",
+                  "independent initial phase/", "physical identification remains OPEN",
+                  "no new campaign is authorized", "UNKNOWN", "UNTESTED"):
+        require(token in record, f"persistence banking record lacks {token}")
+    scopes = {
+        "G361": ("PC1-SEED", "PC1-CURVATURE", "PC1-CAUCHY",
+                 "FULL_OPEN_SPACELIKE_SEED_CLASS",
+                 "ORIGINAL_HAMILTONIAN_MOMENTUM_CONSTRAINTS",
+                 "NONZERO_FULL_REAL_ROOT_IFF_LAMBDA_ZERO_AND_TRANSVERSE_CURVATURE_NONZERO_WITHIN_SEED_CLASS",
+                 "TANGENTIAL_RECURRENCE_ONLY_AT_THIS_STEP"),
+        "G362": ("PC2-PARALLEL", "PC2-RECIPE", "PC2-INITIAL-SCALAR",
+                 "G361_CONDITIONAL_DEPENDENCY", "FULL_OPEN_SPACELIKE_SEED_CLASS",
+                 "LOCAL_WAVE_METHOD_HYPOTHESIS", "BOTH_ZERO_INITIAL_DEFECT_DATA",
+                 "INITIAL_Q_SCREEN_GRADIENT_SQUARE_WITH_NORMAL_SUBTRACTION",
+                 "EXACT_LOCAL_FLOW_TUBE_PRESERVATION_ONLY"),
+        "G363": ("PC3-PHASE", "PC3-PRODUCT", "PC3-READOUT",
+                 "G362_CONDITIONAL_DEPENDENCY", "LOCAL_WAVE_METHOD_HYPOTHESIS",
+                 "COMPLETE_SPACELIKE_INITIAL_MATCH",
+                 "FIXED_PHASE_LABELS_SPACING_AND_MEASURE",
+                 "INDEPENDENTLY_FIXED_MU_MUST_ACTUALLY_MATCH",
+                 "CONSERVATION_ALONE_NOT_PRODUCT",
+                 "FINITE_QUERY_OR_SEPARATE_INTEGRABILITY"),
+    }
+    for premise_id, tokens in scopes.items():
+        require(premise_id in by_id, f"persistence banking row missing: {premise_id}")
+        row = by_id[premise_id]
+        require(row["current_status"] == CONDITIONAL_BANKING_STATUS
+                and row["epistemic_label"] == "MIXED",
+                f"{premise_id} persistence banking grade changed")
+        require(row["controlling_source"] == PERSISTENCE_BANKING_SOURCE,
+                f"{premise_id} persistence banking source changed")
+        for token in (*tokens, "CHOSEN"):
+            require(token in row["active_use"], f"{premise_id} active scope lacks {token}")
+        for token in ("physical identification remains OPEN", "generic recipe-compatible data without the seed",
+                      "physical population count energy detector source history matter mass scale Xmax and canon"):
+            require(token in row["open_scope"], f"{premise_id} open scope lacks {token}")
+        for token in ("chosen recipe called physically selected",
+                      "restricted sufficient class called generic persistence or stability",
+                      "recipe failure called violation of admitted UDT equations",
+                      "review counts called analytic proof",
+                      "UNKNOWN runtime model or UNTESTED different-model review upgraded"):
+            require(token in row["forbidden_regression"], f"{premise_id} guard lacks {token}")
+        require("FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED"
+                in row["precedence_rule"], f"{premise_id} review independence scope changed")
+    if not authenticate_sources:
+        return
+    campaign = root / PERSISTENCE_BANKING_CAMPAIGN
+    manifest = campaign / "CAMPAIGN_SHA256SUMS"
+    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
+            == "603f2e1166e80877b23ffb822c430cf15ce5657ac7ab3b7e93f825a83b2c9107",
+            "persistence banking frozen campaign manifest changed")
+    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    require(len(entries) == len({relative for _, relative in entries}) == 241,
+            "persistence banking frozen campaign membership changed")
+    for expected, relative in entries:
+        payload = root / relative
+        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
+                f"persistence banking frozen campaign payload changed: {relative}")
+    # The excluded later receipt is historical evidence too, not a source of science.
+    receipt = subprocess.run(
+        ["git", "show", f"{PERSISTENCE_BANKING_SNAPSHOT}:{PERSISTENCE_BANKING_CAMPAIGN}/CLOSURE_RECEIPT.json"],
+        cwd=ROOT, capture_output=True, check=False, timeout=10)
+    require(receipt.returncode == 0
+            and (campaign / "CLOSURE_RECEIPT.json").read_bytes() == receipt.stdout,
+            "persistence banking original closure receipt changed")
+    historical: dict[str, bytes] = {}
+    for step in range(1, 4):
+        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
+            expected, relative = line.split(maxsplit=1)
+            if relative not in historical:
+                frozen = subprocess.run(
+                    ["git", "show", f"{PERSISTENCE_BANKING_SNAPSHOT}:{relative}"],
+                    cwd=ROOT, capture_output=True, check=False, timeout=10)
+                require(frozen.returncode == 0, f"persistence banking source unavailable: {relative}")
+                historical[relative] = frozen.stdout
+            require(hashlib.sha256(historical[relative]).hexdigest() == expected,
+                    f"persistence banking frozen source hash changed: {relative}")
+            if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                current = root / relative
+                require(current.is_file() and current.read_bytes() == historical[relative],
+                        f"persistence banking scientific source changed since snapshot: {relative}")
+    require(old_bytes == historical["CURRENT_SCIENTIFIC_PREMISES.tsv"],
+            "persistence banking is not additive from the authorized snapshot")
+
+
 def validate_startup_surface(root: Path) -> None:
     """Fail closed on semantic startup authority without requiring duplicated chronology."""
     controls: dict[str, str] = {}
@@ -579,13 +692,14 @@ def validate_startup_surface(root: Path) -> None:
     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
     require(registry.is_file(), "premise registry missing")
     registry_rows = read_tsv(registry)
-    require(len(registry_rows) == 343, "premise registry must contain exactly 343 rows")
+    require(len(registry_rows) == 346, "premise registry must contain exactly 346 rows")
     require(
-        len({row["premise_id"] for row in registry_rows}) == 343,
+        len({row["premise_id"] for row in registry_rows}) == 346,
         "premise registry contains duplicate ids",
     )
     validate_conditional_banking(root, authenticate_sources=False)
     validate_shared_constraint_banking(root, authenticate_sources=False)
+    validate_persistence_banking(root, authenticate_sources=False)
 
     for control in PREMISE_REGISTRY_CONTROLS:
         require(
@@ -621,7 +735,7 @@ def validate_startup_surface(root: Path) -> None:
         "T_clock=R A^-1",
         "continuous",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
-        "343-row",
+        "346-row",
         "archive/STARTUP_SURFACE_HISTORY.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12",
         "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
@@ -642,7 +756,7 @@ def validate_startup_surface(root: Path) -> None:
     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
     live_next = " ".join(live_next_parts[1].split())
     for token in (
-        "G353--G356", "G357--G360", "SC1 remains a source map", "conditional mathematical banking",
+        "G353--G356", "G357--G360", "G361--G363", "SC1 remains a source map", "conditional mathematical banking",
         "G352 physical-realization", "physical identification remains OPEN",
         "Charles", "no new campaign is authorized",
     ):
@@ -651,7 +765,7 @@ def validate_startup_surface(root: Path) -> None:
     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
     handoff_next = " ".join(handoff_next_parts[1].split())
     for token in (
-        "G353--G356", "G357--G360", "SC1 remains a source map", "conditional mathematical banking",
+        "G353--G356", "G357--G360", "G361--G363", "SC1 remains a source map", "conditional mathematical banking",
         "G352 physical-realization", "physical identification remains OPEN",
         "Charles", "no new campaign is authorized",
     ):
@@ -703,7 +817,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "343-row exact registry",
+            "346-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -726,6 +840,7 @@ def validate_startup_surface(root: Path) -> None:
             "udt_g352_clock_rate_carried_measure_readout_2026-09-05/",
             CONDITIONAL_BANKING_SOURCE,
             SHARED_CONSTRAINT_BANKING_SOURCE,
+            PERSISTENCE_BANKING_SOURCE,
             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
             "R5_OUTCOME_REPORT.md",
             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",
@@ -738,7 +853,7 @@ def validate_startup_surface(root: Path) -> None:
             "verify_current_scientific_premises.py",
         ),
         "MEMORY.md": (
-            "343-row",
+            "346-row",
             "B,Q,S,Y,Z",
             "Universal Reciprocity/DDR",
             "owner-adopted provisional premises",
@@ -753,7 +868,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/STARTUP_SURFACE_HISTORY.md",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
-            "343-row",
+            "346-row",
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
             "G129--G198",
             "G199--G276",
@@ -771,7 +886,7 @@ def validate_startup_surface(root: Path) -> None:
             "physical-realization",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
-            "343-row",
+            "346-row",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
             "one postulate with two formulations",
@@ -1213,17 +1328,19 @@ def validate_startup_surface(root: Path) -> None:
         "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
         CONDITIONAL_BANKING_SOURCE,
         SHARED_CONSTRAINT_BANKING_SOURCE,
+        PERSISTENCE_BANKING_SOURCE,
     ):
         require((root / relative).is_file(), f"current startup target missing: {relative}")
 
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 343, "premise registry must contain exactly 343 rows")
+    require(len(rows) == 346, "premise registry must contain exactly 346 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 343, "duplicate premise id")
+    require(len(by_id) == 346, "duplicate premise id")
     validate_conditional_banking(ROOT)
     validate_shared_constraint_banking(ROOT)
+    validate_persistence_banking(ROOT)
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -1990,7 +2107,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -2065,7 +2182,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2144,7 +2261,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2237,7 +2354,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -5938,7 +6055,7 @@ def main() -> None:
             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 source_bytes = b"".join(
                     line for line in source_bytes.splitlines(keepends=True)
-                    if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
+                    if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
                 )
             destination = g351_root / source_name
             destination.parent.mkdir(parents=True, exist_ok=True)
@@ -18967,7 +19084,9 @@ def main() -> None:
         "and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking "
         "with unchanged frozen sources and physical-identification limits; "
         "PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, "
-        "SC5 false-pass repair history and unchanged frozen sources"
+        "SC5 false-pass repair history and unchanged frozen sources; "
+        "PASS: G361/G362/G363 conditional local persistence banking with "
+        "restricted seed, wave-method, fixed-product and physical-identification limits"
     )
 
 

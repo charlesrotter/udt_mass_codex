@@ -1,0 +1,53 @@
+{
+  "reviewer_context": "/root/pc_banking_fidelity_review",
+  "date_utc": "2026-09-07",
+  "baseline": "c663c3ebee1755c348388170df4906eb00d1a8e8",
+  "review_status": "FIDELITY_REVIEWED",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Owner-authorized PC1--PC3 conditional banking, new unexecuted restrictiveness proposal, exact additive registry and narrow maintained integration, plus corrected execution checkpoint",
+  "integration_manifest_sha256": "2eb724c313c2461eea7c8ad7547679ca616221c6139d6fb4be4ff245495b5c0d",
+  "stage_a_manifest_sha256": "8409855cba14f7b6731e36548734779cfa56d52684a848ff92c4c807f6ebc7c7",
+  "execution_checkpoint_sha256": "c2fe45fa84778adccd3d3b1c583b1c717b15b4af9e823ebb6494b9fff6d105e9",
+  "required_scientific_or_integration_defects": [],
+  "editorial_objection": {
+    "initial": "Execution record wording described the38 new checks as mutations",
+    "correction": "One baseline plus37 actual mutations",
+    "focused_review_status": "CLOSED_EXACT_TEXT_ONLY_CORRECTION_NO_OTHER_CHANGE"
+  },
+  "proposal_formatting_change": "Exact two-bar Markdown table escape; initial text preserved; no semantic change",
+  "scientific_source_or_integration_repairs_used": 0,
+  "new_scientific_derivations_or_variation_tests": 0,
+  "new_campaign_authorized": false,
+  "independence": {
+    "fresh_context": true,
+    "exact_model": "UNKNOWN",
+    "different_model": "UNTESTED",
+    "argument": "SOURCE_FIRST_RELATIVE_TO_NEW_SYNTHESIS_ONLY_OLD_PROOFS_AND_VERDICTS_EXPOSED",
+    "implementation": "INDEPENDENT_BYTE_MANIFEST_COMPARISON_AUTHOR_TESTS_SAME_CODE_REGRESSION",
+    "human_specialist": "UNTESTED",
+    "formal_proof_assistant": "UNTESTED"
+  },
+  "actual_review_checks": {
+    "original_campaign_payloads": 241,
+    "original_review_memberships": [35, 40, 31],
+    "candidate_commits_authenticated": ["2112f80867d38e4707c5f69898bd84914754c407", "e4071d092b8c1b84d8732534f54d0278b226f6ba", "167519b259069fefb17463f2e68e030064b851da"],
+    "old_rows_recovered_exactly": 343,
+    "current_distinct_rows": 346,
+    "added_ids": ["G361", "G362", "G363"],
+    "integration_sealed_files": 13,
+    "targeted_author_tests_replayed_passed": 36,
+    "targeted_tests_composition": "ONE_BASELINE_PLUS35_MUTANTS",
+    "next_gate_mutants_not_rerun_here": 2,
+    "parent_full_startup_result_observed": "193_PASSED_1_DESELECTED",
+    "parent_baseline_premise_result_observed": "343_ROWS_PASS401.024657_SECONDS",
+    "parent_final_premise_result_observed": "346_ROWS_PASS400.633073_SECONDS",
+    "own_full_premise_audits": 0,
+    "retained_operational_failures": ["threaded_lstat_default", "threaded_lstat_index_threads_only"],
+    "operational_resolution": "UNCHANGED_SCRIPT_SAME512MiB_60s_CAP_WITH_TRANSIENT_PRELOAD_OFF_SERIAL_INDEX_AND_BOUNDED_PACK_WINDOWS"
+  },
+  "remaining_main_closure_gates": ["final_assembly_correspondence", "authorized_commit_push_and_actual_remote_hash"],
+  "source_limits": ["CHOSEN_RECIPE_NOT_PHYSICALLY_ADOPTED", "SUFFICIENT_CLASS_NOT_GENERIC_NECESSITY", "ACTUAL_ADMITTED_DEVELOPMENT", "LOCAL_WAVE_METHOD_CONDITIONAL", "FULL_INITIAL_PHASE_AND_FIXED_PRODUCT_MATCH", "LOCAL_NONZERO_POSITIVE_REGULAR_FINITE_DOMAINS", "NO_PHYSICAL_IDENTIFICATION_OR_CANON"],
+  "writes": "NEW_PACKAGE_REVIEW_ONLY_TEMPORARY_TEST_FIXTURES_CLEANED",
+  "protected_payload_bytes": "NOT_INSPECTED_UNVERIFIED",
+  "report": "review/FINAL_FIDELITY_REVIEW.md"
+}

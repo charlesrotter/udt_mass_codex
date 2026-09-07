@@ -1,0 +1,18 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/CAMPAIGN_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/SOURCE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/SOURCE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/SOURCE_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T13:23:26.133748+00:00",
+  "duration_seconds": 0.01475235000543762,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7492
+}

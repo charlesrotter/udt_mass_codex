@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": {
+    "current_time": "2026-09-07 13:45:03 UTC"
+  },
+  "review_membership": {
+    "command": "cmp <(awk '{print $2}' udt_g361_g363_conditional_banking_2026-09-07/review/REVIEW_SHA256SUMS | LC_ALL=C sort) <(rg --files --hidden --no-ignore udt_g361_g363_conditional_banking_2026-09-07/review | rg -v '/REVIEW_SHA256SUMS$' | LC_ALL=C sort)\n",
+    "chunk_id": "1945bf",
+    "wall_time_seconds": 0.000002076,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "sealed_payload_count": 28,
+    "exact_membership": true
+  },
+  "frozen_hashes": {
+    "chunk_id": "2e1a27",
+    "wall_time_seconds": 0.00000251,
+    "exit_code": 0,
+    "original_token_count": 732,
+    "output": "AGENTS.md: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\nCURRENT_SCIENTIFIC_PREMISES.md: OK\nCURRENT_SCIENTIFIC_PREMISES.tsv: OK\nMEMORY.md: OK\nINDEX.md: OK\nverify_current_scientific_premises.py: OK\ntests/test_startup_surface.py: OK\nudt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md: OK\nudt_g361_g363_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md: OK\nudt_g361_g363_conditional_banking_2026-09-07/WORK_ORDER.md: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/FINAL_FIDELITY_REVIEW.md: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/REVIEW_VERDICT.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/STAGE_A_SHA256SUMS: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/STAGE_A_SOURCE_RECONSTRUCTION.md: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/STAGE_B_TEXT_REVIEW.md: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/authenticate_source.py: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/check_integration_correspondence.py: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/execution_count_correction.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/execution_count_correction.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/execution_count_correction.stdout: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence.stdout: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence_no_preload.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence_no_preload.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence_no_preload.stdout: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence_serial.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence_serial.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_correspondence_serial.stdout: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_regression.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_regression.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/integration_regression.stdout: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/source_authentication.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/source_authentication.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/source_authentication.stdout: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/text_freeze_authentication.json: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/text_freeze_authentication.stderr: OK\nudt_g361_g363_conditional_banking_2026-09-07/review/text_freeze_authentication.stdout: OK\n"
+  },
+  "source_and_old_registry_correspondence": {
+    "chunk_id": "c6da3b",
+    "wall_time_seconds": 0.000001992,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "unrelated_untracked_path_status_count": 46,
+  "unrelated_metadata_equal": true,
+  "protected_payload_bytes": "UNVERIFIED_NOT_INSPECTED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "new_campaign_begun": false
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "from pathlib import Path; import hashlib,json; p=Path(\"udt_g361_g363_conditional_banking_2026-09-07/EXECUTION_RECORD.md\"); current=p.read_bytes(); new=b\"The38 new checks include one valid-evidence baseline\\n  and37 actual mutations of\"; old=b\"New38 checks actually mutate\"; assert current.count(new)==1; reconstructed=current.replace(new,old); h=lambda data:hashlib.sha256(data).hexdigest(); assert h(reconstructed)==\"102a5604ea6589d5b9056bc5a7ae89f7760042b188d49df47294888907f6ce28\"; assert h(current)==\"c2fe45fa84778adccd3d3b1c583b1c717b15b4af9e823ebb6494b9fff6d105e9\"; print(json.dumps({\"status\":\"PASS\",\"initial_sha256\":h(reconstructed),\"corrected_sha256\":h(current),\"exact_change\":\"38 baseline-and-mutation cases clarified as1 baseline plus37 mutations\",\"other_changes\":False,\"scientific_repair\":False}))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T13:37:23.373286+00:00",
+  "duration_seconds": 0.01488823999534361,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13760
+}

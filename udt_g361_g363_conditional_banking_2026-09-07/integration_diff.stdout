@@ -1,0 +1,702 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 75520896..23fd6cce 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -37,7 +37,7 @@ Read from disk in this exact bounded order:
+ 2. `HANDOFF.md` — only its matching current block.
+ 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
+ 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
+-   verifier audits the 343-row exact registry without dumping its wide rows into model context.
++   verifier audits the 346-row exact registry without dumping its wide rows into model context.
+    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
+ 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
+    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 5b4ebe8d..40f1b6a0 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -2,7 +2,7 @@
+ 
+ Date: 2026-09-07
+ 
+-`LIVE.md` controls status; the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
++`LIVE.md` controls status; the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+ 
+ ## Architecture
+ 
+@@ -42,6 +42,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
+ | G352 | Owner-provisional continuous clock-rate readout; chosen product realization has `T_clock=R A^-1` | Atomic crossing rate, physical carried object, source/population, detector, light, or energy |
+ | G353--G356 | Conditional nonselection, optional conversion bounds, harmonic-wave phase class, different-phase product | Physical content/counting or recipe adoption; universal no-go; selected data |
+ | G357--G360 | Conditional shared-query constraints, eventwise curvature, local phase and robust weights | Device identity, general PDE realization or recipe persistence; SC1 stays a source map |
++| G361--G363 | Conditional full-data/root gate, local invariant recipe class and fixed phase/product preservation | Generic persistence, stability, physical content or recipe adoption |
+ 
+ The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
+ formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
+@@ -78,13 +79,15 @@ eventwise algebraic curvature and local phase/optional compact results retain ex
+ See `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`; all original evidence,
+ including initial and repaired false passes, remains unchanged. Pointwise algebraic sufficiency is
+ not full lawful-data/PDE realization; free phase propagation is not recipe/product persistence.
+-The approved persistence campaign completed three reviewed steps within four hours.
+-Work order: `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
+-its compact `CAMPAIGN_LOG.md` owns closure; `DECISION_BRIEF.md` gives the return.
+-PC1--PC3 are reviewed conditional candidates: full initial-data/root gate, local invariant
+-recipe class, and preservation of independently compatible phase/product/readout.
+-These are sufficient-class results, not generic stability or physical content. Banking awaits
+-Charles; no promotion. Beyond this completed campaign, no new campaign is authorized.
++G361--G363 bank PC1--PC3 at exactly the owner-authorized reviewed conditional scopes.
++Record: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`; the original
++three-step campaign remains unchanged. Restricted seed class, chosen recipe, local wave-method
++hypothesis, initial phase/product matching and all review caveats remain load-bearing.
++Next direction proposal: its `NEXT_CAMPAIGN_PROPOSAL.md` examines admissible-data variations,
++distinguishing sufficient conditions, class-relative necessities and unresolved breadth.
++Remaining in the preserved class, leaving this construction, and violating original admitted
++equations are different outcomes. Recipe failure is not a verdict against UDT.
++Charles's direction is required; no new campaign is authorized.
+ The G352 physical-realization gap does not imply that a new physical premise is necessary.
+ Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
+ not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index b0b703e1..2114b12e 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -1,6 +1,6 @@
+ # Current scientific premises — bounded orientation
+ 
+-`LIVE.md` owns current status. The exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
++`LIVE.md` owns current status. The exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+ grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
+ 
+ ## Foundational and adopted layer
+@@ -51,6 +51,9 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
+ | G358 | Thirteen constraints on24 declared ideal tides; unique eventwise algebraic Einstein curvature, not PDE realization |
+ | G359 | Full initial future-null covector and unique local phase; optional whole-compact-slice real-phase obstruction |
+ | G360 | Robust overlap exclusions; existential bounded-kernel class threshold, not every fixed kernel or measured accuracy |
++| G361 | Full spacelike seed and exact chosen-root gate within that Einstein class; nonempty lawful local data |
++| G362 | Conditional local parallel-null/normalized-recipe preservation and initial screen scalar; not generic stability |
++| G363 | Full initial aligned phase and fixed-product match persist locally; ideal readout identity, not physical content |
+ 
+ G330--G350 are conditional or general metric geometry. G351 adds an owner-provisional conservation
+ premise, not a metric derivation: a standard finite nonnegative countably additive measure on
+@@ -86,7 +89,15 @@ SC1 remains a source map. Their authority is
+ The SC4 structural false failure and SC5 real false-pass/1-of-1 reviewed regression repair remain
+ preserved. Finite checks do not own analytic quantifiers; review model identities remain UNKNOWN,
+ different-model/human axes UNTESTED. No device law, physical content, general recipe persistence,
+-metric-selected initial data or canon follows. The next persistence campaign is a proposal only.
++metric-selected initial data or canon follows from G357--G360.
++
++G361--G363 bank PC1--PC3 as owner-authorized BANKED_DERIVED_CONDITIONAL mathematics,
++VERIFIED-WITH-CAVEATS, through `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
++The CHOSEN recipe, restricted full seed class on ACTUAL developments, local wave-method
++hypothesis, nonzero/positive domains and independent initial phase/product matching remain explicit.
++These do not prove generic persistence, stability, physical identification or canon. The original
++campaign and review diagnostics are unchanged; model identities remain UNKNOWN, other-model/human
++axes UNTESTED. The proposed admissible-data restrictiveness campaign awaits Charles's direction.
+ 
+ | Object | Status | Guard |
+ |---|---|---|
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.tsv b/CURRENT_SCIENTIFIC_PREMISES.tsv
+index 754b5b50..bd9459a3 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.tsv
++++ b/CURRENT_SCIENTIFIC_PREMISES.tsv
+@@ -1,4 +1,7 @@
+ premise_id	term	current_status	epistemic_label	active_use	open_scope	forbidden_regression	controlling_source	precedence_rule
++G363	local_fixed_phase_product_readout_persistence_in_parallel_seed_class	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	PC3-PHASE__PC3-PRODUCT__PC3-READOUT__G362_CONDITIONAL_DEPENDENCY__G359_FULL_PHASE_UNIQUENESS__G351_G352_OWNER_PROVISIONAL__CHOSEN_PHASE_INDEPENDENT_PRODUCT__LOCAL_WAVE_METHOD_HYPOTHESIS__POSITIVE_B_Q_REGULAR_LOCAL_CLASS__FULL_INITIAL_ALIGNMENT_DPHI_EQUALS_LAMBDA_Y_FLAT_LAMBDA_POSITIVE__DIFFERENT_PHASE_NOT_NONCLOSED_BETA__COMPLETE_SPACELIKE_INITIAL_MATCH__FIXED_PHASE_LABELS_SPACING_AND_MEASURE__P_EQUALS_Q_B_F_J3_EQUALS_SIGMA_OVER_DELTA__SOME_MEASURE_AT_FIXED_PHASE_IFF_PHASE_DERIVATIVE_P_ZERO_PLUS_FINITENESS__INDEPENDENTLY_FIXED_MU_MUST_ACTUALLY_MATCH__FULL_COAREA_J3_EQUALS_J2_OVER_LAMBDA_F__INITIAL_PRODUCT_IFF_SAME_PRODUCT_PERSISTS_LOCALLY__CONSERVATION_ALONE_NOT_PRODUCT__REGULAR_CUT_GAMMA_EQUALS_MINUS_G_OBSERVER_D__FINITE_QUERY_OR_SEPARATE_INTEGRABILITY__COMMON_AFFINE_PHASE_SPACING_GAUGE_DISTINCT_FROM_CHANGED_MEASURE	physical identification remains OPEN; instrument-to-readout identification; generic recipe-compatible data without the seed and nonlinear stability; global compact zero and caustic continuation; physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; restricted sufficient class called generic persistence or stability; recipe failure called violation of admitted UDT equations; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded; initial product equality hidden in definition of current or inferred from conservation; changing supplied measure called fixed-query preservation; positive smooth branch generalized to all singular G351 measures; one null cut called complete compatible spacelike data; ideal readout identity called physical counting	udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md	G363_BANKS_ONLY_FROZEN_PC3_WITH_FULL_PC1_PC2_AND_REVIEW_LIMITS__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__NO_POST_REVIEW_AUTHOR_REPAIR__UNCHANGED_FROZEN_ARGUMENT_REVIEW_AND_DIAGNOSTICS__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
++G362	local_parallel_null_recipe_preservation_from_full_spatial_seed	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	PC2-PARALLEL__PC2-RECIPE__PC2-INITIAL-SCALAR__G361_CONDITIONAL_DEPENDENCY__G312_OWNER_PROVISIONAL__CHOSEN_WEYL_FIRST_DUAL_ROOT_CURRENT_RECIPE__ACTUAL_SMOOTH_FOUR_DIMENSIONAL_RICCI_FLAT_DEVELOPMENT__FULL_OPEN_SPACELIKE_SEED_CLASS__LOCAL_WAVE_METHOD_HYPOTHESIS__FINITE_RANK_NORMALLY_HYPERBOLIC_CAUCHY_EXISTENCE_UNIQUENESS_CONDITIONAL__FULL_GRADIENT_WAVE_AND_BOTH_ZERO_INITIAL_DEFECT_DATA__UNIQUE_LOCAL_PARALLEL_FUTURE_NULL_V__FIXED_NORMALIZED_BETA_EQUALS_B_V_FLAT__FULL_RECURRENCE_ALPHA_EQUALS_D_LOG_B__Q_NONNEGATIVE_AND_V_Q_ZERO__POINTWISE_Q_ZERO_IFF_D_BETA_ZERO_NOT_OPEN_SET_CLOSURE__CONSERVED_AFFINE_C0_AND_D_WITH_ZERO_CURRENT_RETAINED__POSITIVE_Q_REQUIRED_FOR_POSITIVE_CURRENT__INITIAL_Q_SCREEN_GRADIENT_SQUARE_WITH_NORMAL_SUBTRACTION__EXACT_LOCAL_FLOW_TUBE_PRESERVATION_ONLY	physical identification remains OPEN; instrument-to-readout identification; generic recipe-compatible data without the seed and nonlinear stability; global compact zero and caustic continuation; physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; restricted sufficient class called generic persistence or stability; recipe failure called violation of admitted UDT equations; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded; auxiliary wave-method hypothesis called new physical field or proved by finite checks; only initial defect value used without normal derivative; normal recurrence value independently tuned; pointwise closure called open-set closure; nonclosed beta called phase	udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md	G362_BANKS_ONLY_FROZEN_PC2_WITH_G361_AND_EXPLICIT_METHOD_CEILING__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__NO_POST_REVIEW_AUTHOR_REPAIR__UNCHANGED_FROZEN_ARGUMENT_REVIEW_AND_DIAGNOSTICS__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
++G361	full_initial_null_seed_and_chosen_root_domain_in_admitted_einstein_class	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	PC1-SEED__PC1-CURVATURE__PC1-CAUCHY__G312_OWNER_PROVISIONAL__CHOSEN_WEYL_FIRST_DUAL_ROOT_CURRENT_RECIPE__ACTUAL_SMOOTH_FOUR_DIMENSIONAL_EINSTEIN_DEVELOPMENT__FULL_OPEN_SPACELIKE_SEED_CLASS__ELL_EQUALS_F_N_PLUS_Y_F_POSITIVE_Y_NORM_F__DF_EQUALS_K_Y_AND_D_Y_EQUALS_F_K_SHARP__ORIGINAL_HAMILTONIAN_MOMENTUM_CONSTRAINTS__SPATIAL_INTEGRABILITY_LEAVES_THREE_PARAMETER_SCALAR_BRANCH__NONZERO_FULL_REAL_ROOT_IFF_LAMBDA_ZERO_AND_TRANSVERSE_CURVATURE_NONZERO_WITHIN_SEED_CLASS__FULL_WEYL_SUBTRACTION_AT_NONZERO_LAMBDA__FIXED_FUTURE_ROOT_NORMALIZATION__NONEMPTY_ACTUAL_HARMONIC_SPACELIKE_DATA__NO_ARBITRARY_ALGEBRAIC_METRIC_REALIZATION__TANGENTIAL_RECURRENCE_ONLY_AT_THIS_STEP	physical identification remains OPEN; instrument-to-readout identification; generic recipe-compatible data without the seed and nonlinear stability; global compact zero and caustic continuation; physical population count energy detector source history matter mass scale Xmax and canon	chosen recipe called physically selected; restricted sufficient class called generic persistence or stability; recipe failure called violation of admitted UDT equations; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded; spatial seed alone called Lambda selection; seed condition called necessary for every possible recipe-compatible geometry; R-quadratic substituted for Weyl at nonzero Lambda; eventwise curvature or single null cut called complete lawful Cauchy data; local harmonic witness called compact embedding	udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md	G361_BANKS_ONLY_FROZEN_PC1_WITH_SCALAR_COUNTERBRANCH_AND_COMPLETE_DATA_LIMITS__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__NO_POST_REVIEW_AUTHOR_REPAIR__UNCHANGED_FROZEN_ARGUMENT_REVIEW_AND_DIAGNOSTICS__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
+ G360	shared_overlap_ideal_readout_bounded_weight_robustness	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	SC5-ROBUST_SC5-CLASS_SC5-THRESHOLD__G357_SC2_CONDITIONAL_DEPENDENCY__G351_G352_OWNER_PROVISIONAL_CONSERVATION_AND_READOUT__CHOSEN_PHASE_INDEPENDENT_PRODUCT__COMMON_FINITE_NONNEGATIVE_COUNTABLY_ADDITIVE_LABEL_MEASURE__EXACT_SHARED_WINDOWS_AND_REGISTRATION_PQ_QR_PR__SUPPLIED_POSITIVE_REFERENCE_RATES_AND_SPACING__SUPPLIED_UNIFORM_RELATIVE_BOUND_ZERO_LE_E_LT_ONE__BOUNDED_MEASURABLE_ACTIVE_WEIGHTS_ONE_MINUS_E_LE_F_LE_ONE_PLUS_E__NECESSITY_FOR_EVERY_FIXED_BOUND_VALID_MEASURABLE_KERNEL__NONNEGATIVE_Z_AND_RELAXED_TRIANGLE_CERTIFICATES__SUFFICIENCY_EXISTS_ALLOWED_KERNELS_AND_MEASURE_NOT_EVERY_FIXED_ACTUAL_KERNEL__CONSTANT_OBSERVER_MINKOWSKI_SUBCLASS_SUPPORTS_CONVERSE__ZERO_RECORD_SEPARATE__NONZERO_THRESHOLD_MAX_ZERO_TWO_MAX_Z_OVER_SUM_Z_MINUS_ONE__ONE_POSITIVE_RECORD_EXCLUDED_FOR_E_LT_ONE__SHARP_ONE_FIFTH_EXAMPLE_NOT_EMPIRICAL_TOLERANCE	physical identification remains OPEN; supported instrument-to-readout identification and calibration bounds; registration error record noise sources and finite-time integration; fixed actual kernels and finer content distribution; physical population count energy detector source history matter mass scale Xmax and canon	chosen product or geometric measure called physical content; existential uncertainty-class sufficiency called sufficiency for every fixed actual kernel; one-fifth diagnostic called measured calibration tolerance; e bound used to absorb registration record noise source or device assumptions; zero-record division or extension to e equal one inferred; initial false-pass or 1/1 focused repair history erased; repaired threshold-relative finite guard called independent proof or universal bug coverage; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md	G360_BANKS_ONLY_FROZEN_SC5_ARGUMENT_WITH_REVIEW_RECORD_INITIAL_DIRECT_AND_FOCUSED_REPAIR_REVIEW__INITIAL_ARGUMENT_AND_FALSE_PASS_RETAINED__ONE_OF_ONE_SAME_PREMISE_CHECK_REPAIR_WITH_NO_THEOREM_OR_PREMISE_CHANGE__FOCUSED_REVIEW_SAME_ALREADY_EXPOSED_REVIEWER_CONTEXT__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__SC1_SOURCE_MAP_NOT_SEPARATELY_BANKED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
+ G359	spacelike_initial_phase_local_extension_and_optional_compact_domain_obstruction	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	SC4-JET_SC4-LOCAL_SC4-COMPACT__ACTUAL_SUPPLIED_SMOOTH_LORENTZIAN_METRIC_AND_TIME_ORIENTATION__SMOOTH_SPACELIKE_SLICE__SUPPLIED_SMOOTH_REAL_INITIAL_PHASE_WITH_NONZERO_SPATIAL_PHASE_GRADIENT__FULL_FUTURE_NULL_INITIAL_COVECTOR_DPHI_PLUS_NORM_DPHI_N_FLAT__NORMAL_DERIVATIVE_EQUALS_MINUS_SPATIAL_NORM__UNIQUE_LOCAL_SMOOTH_PHASE_ON_COMMON_REGULAR_CHARACTERISTIC_GRAPH_FOR_FIXED_DATA__NONZERO_FUTURE_NULL_GRADIENT_AND_AFFINELY_GEODESIC_RAISED_FIELD__PROJECTION_AND_SMOOTH_DOMAIN_LIMITS__OPTIONAL_COMPACT_BOUNDARY_FREE_WHOLE_SLICE_REAL_PHASE_OBSTRUCTION__G321_G335_IMPORTED_DEVELOPMENT_HYPOTHESES_INHERITED_IF_USED__CHOSEN_PRODUCT_AND_CURVATURE_RECIPE_PERSISTENCE_NOT_DERIVED	physical identification remains OPEN; chosen phase normalization spacing and label-measure data; supported instrument-to-readout identification; uniform duration global phase beyond projection failure circle-valued or atlas constructions; curvature-recipe and fixed-label product persistence; compact lawful-data embedding of G356 waves; physical population count energy detector source history matter mass scale Xmax and canon	optional global real phase obstruction called refutation of local queries or compact metric developments; free phase extension called curvature-recipe or product persistence; initial tangential agreement called full ambient covector compatibility; supplied phase called uniquely metric-selected; local duration called uniform or global; characteristic projection failure called spacetime singularity; pre-freeze structural-equality correction called scientific premise repair; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md	G359_BANKS_ONLY_FROZEN_SC4_ARGUMENT_WITH_REVIEW_RECORD_AND_DIRECT_ADVERSARIAL_REVIEW__LOCAL_SMOOTH_CHARACTERISTIC_VARIATIONAL_PROOF_AND_OPTIONAL_COMPACT_EXTREMUM_ARGUMENT_OWN_QUANTIFIERS__ORIGINAL_SYMBOLIC_FALSE_FAILURE_AND_EXACT_EQUALITY_CORRECTION_RETAINED__NO_POST_REVIEW_REPAIR_REQUIRED__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__SC1_SOURCE_MAP_NOT_SEPARATELY_BANKED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
+ G358	eventwise_joint_timelike_null_algebraic_einstein_curvature_constraints	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	SC3-COMPATIBILITY_SC3-RECONSTRUCTION_SC3-BLINDNESS__EVENTWISE_ALGEBRAIC_EINSTEIN_CURVATURE_RIC_EQUALS_LAMBDA_G__G312_OWNER_PROVISIONAL_BOUNDED_EINSTEIN_ARENA__EXPLICIT_Q_ABCD_SLOT_CONVENTION_G_R_EA_EB_EC_ED__SUPPLIED_EVENT_FRAME_AFFINE_NORMALIZATION_AND_CYCLIC_SCREENS__W4_WORKING_POSIT_AND_G261_ONE_METRIC_FREEFALL_QUERY_SCOPE__G348_IDEAL_INFINITESIMAL_JACOBI_TIDES__TWENTY_FOUR_RECORDS_THIRTEEN_INDEPENDENT_CONSTRAINTS_ELEVEN_PARAMETERS__SIX_NULL_TRACES_SIX_EVEN_RELATIONS_ONE_ODD_CYCLIC_SUM__UNIQUE_ALGEBRAIC_RECONSTRUCTION_E_AND_SYMMETRIC_TRACEFREE_MIXED_B__LAMBDA_EQUALS_MINUS_TRACE_E__TIMELIKE_MISSES_FIVE_MIXED_COMPONENTS_NULL_MISSES_CONSTANT_CURVATURE_SCALAR__NECESSARY_ON_ACTUAL_ADMITTED_METRIC__NO_FULL_CAUCHY_DATA_PDE_REALIZATION	physical identification remains OPEN; supported instrument-to-readout identification shared-event calibration and normalization; full lawful metric-data or Einstein PDE realization of arbitrary compatible algebraic records; derivatives finite transport developments occupancy and scalar-sector selection; physical population count energy detector source history matter mass scale Xmax and canon	algebraic sufficiency called full lawful-data or Einstein PDE realization; one-point curvature called metric derivatives finite transport or history; ideal Jacobi tide called detected record without supported interface; mixed curvature B called independent field or carried content; normalization-at-event called along-segment calibration; orbit-built symmetry or norm-only guard called independent physical calibration; review counts called analytic proof; UNKNOWN runtime model or UNTESTED different-model review upgraded	udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md	G358_BANKS_ONLY_FROZEN_SC3_ARGUMENT_WITH_REVIEW_RECORD_AND_DIRECT_ADVERSARIAL_REVIEW__GENERIC_BIVECTOR_SOURCE_FIRST_RECONSTRUCTION_DISTINCT_FROM_AUTHOR_E_B_IMPLEMENTATION__MIXED_VARIABLE_SIGN_TRANSLATION_IS_SLOT_CONVENTION_NOT_REPAIR__NO_REQUIRED_REPAIR__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__SC1_SOURCE_MAP_NOT_SEPARATELY_BANKED__LIVE_THEN_THIS_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
+diff --git a/HANDOFF.md b/HANDOFF.md
+index cbf40f03..481cd34c 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -46,7 +46,7 @@ G357--G360 bank SC2--SC5 at their owner-authorized conditional mathematical scop
+ VERIFIED-WITH-CAVEATS. SC1 remains a source map; initial and repaired false-pass evidence stays
+ unchanged. No physical identification, recipe adoption or canon follows.
+ 
+-Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
++Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+ Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
+ `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
+ covariance rows are unresolved, no preferred scale follows, and the raw archive is
+@@ -67,12 +67,11 @@ Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from
+ five-reviewed-step campaign. SC1 remains a source map. Exact scopes and preserved review/repair
+ history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+ No full metric-data realization, automatic recipe/product persistence or physical content follows.
+-The approved recipe-persistence campaign completed three reviewed steps within four hours.
+-Full data/domain gates and closure:
+-`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`,
+-`udt_phase_current_product_persistence_campaign_2026-09-07/CAMPAIGN_LOG.md`.
+-PC1--PC3 are reviewed conditional candidates: local sufficient-class preservation; banking awaits Charles.
+-Old evidence is unchanged. Beyond this completed campaign, no new campaign is authorized.
++G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
++Scope/reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
++Its `NEXT_CAMPAIGN_PROPOSAL.md` tests admissible-data variations and construction boundaries.
++Old evidence is unchanged; no generic persistence, stability or physical identification follows.
++Charles's direction is next; no new campaign is authorized.
+ Ordinary initial/query data need not be uniquely selected; instrument identification
+ may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
+ frontier tracking. History, matter, scale, `X_max`, and canon stay open.
+diff --git a/INDEX.md b/INDEX.md
+index 3c2dd43a..47e56406 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -8,7 +8,7 @@
+ 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+ 7. After orientation, query only load-bearing evidence.
+ 
+-Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
++Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+ grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
+ path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
+ 
+@@ -61,10 +61,13 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
+   scope, evidence/review history and closure: its `CAMPAIGN_LOG.md`.
+ - G357--G360 owner-authorized conditional mathematical banking of SC2--SC5; SC1 stays a source map:
+   `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+-- Completed recipe-persistence campaign: three reviewed conditional candidates, unpromoted:
++- Completed unchanged recipe-persistence source campaign:
+   `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
+   closure: its `CAMPAIGN_LOG.md`; owner return: its `DECISION_BRIEF.md`. Historical approved proposal remains
+   `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
++- G361--G363 owner-authorized conditional mathematical banking of PC1--PC3:
++  `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
++  Proposed restrictiveness campaign, awaiting direction: its `NEXT_CAMPAIGN_PROPOSAL.md`.
+ 
+ ## Retained comparison and observational lanes
+ 
+diff --git a/LIVE.md b/LIVE.md
+index 75164245..7341c8a8 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -78,7 +78,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
+   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
+   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
+ 
+-Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G360. Use `INDEX.md` for
++Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G363. Use `INDEX.md` for
+ current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
+ startup surfaces.
+ 
+@@ -109,10 +109,10 @@ Exact scopes and preserved false-pass/repair history:
+ `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+ Algebraic compatibility is not full metric-development realization; free phase propagation is not
+ curvature-recipe/product persistence. The original completed campaign remains unchanged.
+-The approved persistence campaign completed all3 reviewed steps within4hours. Scope/log:
+-`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its
+-`CAMPAIGN_LOG.md`. PC1--PC3 are reviewed conditional candidates: local sufficient-class preservation.
+-Banking awaits Charles; no promotion. Beyond this completed campaign, no new campaign is authorized.
++G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
++Exact scopes and reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
++Its `NEXT_CAMPAIGN_PROPOSAL.md` tests restrictiveness through admissible-data variations.
++Charles's direction is next; no new campaign is authorized. No generic persistence or physical adoption.
+ Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
+ or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
+ Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks
+diff --git a/MEMORY.md b/MEMORY.md
+index 9d143769..810b5659 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -1,6 +1,6 @@
+ # MEMORY — compact pointer only
+ 
+-`LIVE.md` wins. Exact premise authority is the 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
++`LIVE.md` wins. Exact premise authority is the 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+ 
+ ## Current picture
+ 
+@@ -32,10 +32,11 @@ Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from
+ five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
+ history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+ Generic metric-data realization and unrestricted recipe/product persistence remain open.
+-The approved persistence campaign completed three reviewed steps within four hours:
+-`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its compact log.
+-PC1--PC3 are reviewed conditional candidates: local sufficient-class preservation; banking awaits Charles.
+-Old evidence is unchanged. Beyond this completed campaign, no new campaign is authorized.
++G361--G363 bank PC1--PC3 conditionally; exact restricted scope and reviews:
++`udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
++Its `NEXT_CAMPAIGN_PROPOSAL.md` tests restrictiveness using admissible-data variations.
++Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
++Charles's direction is next; no new campaign is authorized.
+ Do not demand unique initial/query data or hide an extra measurement rule in a definition.
+ The central manuscript remains the fixed through-G352 edition, not current tracking.
+ Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.
+diff --git a/tests/test_startup_surface.py b/tests/test_startup_surface.py
+index 13671193..776dd830 100644
+--- a/tests/test_startup_surface.py
++++ b/tests/test_startup_surface.py
+@@ -104,6 +104,7 @@ CURRENT_TARGETS = (
+     "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+     premise_guard.CONDITIONAL_BANKING_SOURCE,
+     premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
++    premise_guard.PERSISTENCE_BANKING_SOURCE,
+     "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+     "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+ )
+@@ -146,6 +147,7 @@ def _startup_copy(tmp_path: Path) -> Path:
+             "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+             premise_guard.CONDITIONAL_BANKING_SOURCE,
+             premise_guard.SHARED_CONSTRAINT_BANKING_SOURCE,
++            premise_guard.PERSISTENCE_BANKING_SOURCE,
+         ):
+             shutil.copy2(REPO / relative, destination)
+         else:
+@@ -381,6 +383,110 @@ def test_full_foundational_premise_verifier_is_in_pytest() -> None:
+     assert f"PASS: {registry_rows}-row premise registry" in result.stdout
+ 
+ 
++def _persistence_copy(tmp_path: Path, *, evidence: bool = False) -> Path:
++    for relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", premise_guard.PERSISTENCE_BANKING_SOURCE):
++        destination = tmp_path / relative
++        destination.parent.mkdir(parents=True, exist_ok=True)
++        shutil.copy2(REPO / relative, destination)
++    if evidence:
++        campaign = premise_guard.PERSISTENCE_BANKING_CAMPAIGN
++        shutil.copytree(REPO / campaign, tmp_path / campaign)
++        for step in range(1, 4):
++            for line in (REPO / campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
++                _, relative = line.split(maxsplit=1)
++                if relative == "CURRENT_SCIENTIFIC_PREMISES.tsv":
++                    continue
++                destination = tmp_path / relative
++                destination.parent.mkdir(parents=True, exist_ok=True)
++                shutil.copy2(REPO / relative, destination)
++    return tmp_path
++
++
++def test_persistence_banking_frozen_evidence_passes() -> None:
++    premise_guard.validate_persistence_banking(REPO)
++
++
++@pytest.mark.parametrize("premise_id", premise_guard.PERSISTENCE_BANKING_IDS)
++@pytest.mark.parametrize("field,value,error", (
++    ("current_status", "PHYSICAL_CONTENT_DERIVED", "persistence banking grade changed"),
++    ("epistemic_label", "CANON", "persistence banking grade changed"),
++    ("controlling_source", "CANON.md", "persistence banking source changed"),
++    ("active_use", "GENERIC_PERSISTENCE", "active scope lacks"),
++    ("open_scope", "physical identification established", "open scope lacks"),
++    ("forbidden_regression", "none", "guard lacks"),
++    ("precedence_rule", "DIFFERENT_MODEL_PROOF", "review independence scope changed"),
++))
++def test_catch_persistence_banking_row_scope(
++    tmp_path: Path, premise_id: str, field: str, value: str, error: str,
++) -> None:
++    root = _persistence_copy(tmp_path)
++    _change_registry_field(root, premise_id, field, value)
++    with pytest.raises(SystemExit, match=error):
++        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
++
++
++@pytest.mark.parametrize("duplicate", (False, True))
++def test_catch_persistence_banking_membership(tmp_path: Path, duplicate: bool) -> None:
++    root = _persistence_copy(tmp_path)
++    registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
++    lines = registry.read_bytes().splitlines(keepends=True)
++    row = next(line for line in lines if line.startswith(b"G363\t"))
++    registry.write_bytes(b"".join(lines + [row] if duplicate else [line for line in lines if line != row]))
++    with pytest.raises(SystemExit, match="exactly three distinct rows"):
++        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
++
++
++@pytest.mark.parametrize("premise_id", ("G352", "G360"))
++def test_catch_persistence_banking_old_row_rewrite(tmp_path: Path, premise_id: str) -> None:
++    root = _persistence_copy(tmp_path)
++    _change_registry_field(root, premise_id, "current_status", "PHYSICAL_CONTENT_DERIVED")
++    with pytest.raises(SystemExit, match="changed an existing scientific registry row"):
++        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
++
++
++@pytest.mark.parametrize("token", ("CHOSEN", "local wave-method", "independent initial phase/",
++                                    "physical identification remains OPEN", "no new campaign is authorized"))
++def test_catch_persistence_banking_record_limits(tmp_path: Path, token: str) -> None:
++    root = _persistence_copy(tmp_path)
++    _replace(root / premise_guard.PERSISTENCE_BANKING_SOURCE, token, "REMOVED_LIMIT")
++    with pytest.raises(SystemExit, match="persistence banking record lacks"):
++        premise_guard.validate_persistence_banking(root, authenticate_sources=False)
++
++
++@pytest.mark.parametrize("relative", ("step_01/CANDIDATE_ARGUMENT.md",
++    "step_02/review/PHASE_B_ADVERSARIAL_REVIEW.md", "step_03/CANDIDATE_ARGUMENT.md"))
++def test_catch_persistence_banking_evidence_rewrite(tmp_path: Path, relative: str) -> None:
++    root = _persistence_copy(tmp_path, evidence=True)
++    path = root / premise_guard.PERSISTENCE_BANKING_CAMPAIGN / relative
++    path.write_bytes(path.read_bytes() + b"\nChanged frozen science.\n")
++    with pytest.raises(SystemExit, match="frozen campaign payload changed"):
++        premise_guard.validate_persistence_banking(root)
++
++
++def test_catch_persistence_banking_source_rewrite(tmp_path: Path) -> None:
++    root = _persistence_copy(tmp_path, evidence=True)
++    path = root / "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md"
++    path.write_bytes(path.read_bytes() + b"\nChanged source science.\n")
++    with pytest.raises(SystemExit, match="scientific source changed since snapshot"):
++        premise_guard.validate_persistence_banking(root)
++
++
++def test_catch_persistence_banking_receipt_rewrite(tmp_path: Path) -> None:
++    root = _persistence_copy(tmp_path, evidence=True)
++    path = root / premise_guard.PERSISTENCE_BANKING_CAMPAIGN / "CLOSURE_RECEIPT.json"
++    path.write_bytes(path.read_bytes() + b"\nChanged receipt.\n")
++    with pytest.raises(SystemExit, match="original closure receipt changed"):
++        premise_guard.validate_persistence_banking(root)
++
++
++@pytest.mark.parametrize("name", ("LIVE.md", "HANDOFF.md"))
++def test_catch_persistence_banking_next_gate(tmp_path: Path, name: str) -> None:
++    root = _startup_copy(tmp_path)
++    _replace(root / name, "G361--G363", "REMOVED_NEW_BANK")
++    with pytest.raises(SystemExit, match="next gate lacks bounded conditional banking status"):
++        premise_guard.validate_startup_surface(root)
++
++
+ def test_catch_scaffolded_kernel_regression_gate_removal(tmp_path: Path) -> None:
+     root = _startup_copy(tmp_path)
+     _replace(root / "AGENTS.md", "Primary-kernel regression gate", "REMOVED_KERNEL_GATE")
+@@ -754,8 +860,8 @@ def test_catch_chosen_family_mislabeled_current(tmp_path: Path) -> None:
+ 
+ def test_catch_stale_agents_registry_count(tmp_path: Path) -> None:
+     root = _startup_copy(tmp_path)
+-    _replace(root / "AGENTS.md", "343-row exact registry", "339-row exact registry")
+-    with pytest.raises(SystemExit, match="current route lacks 343-row exact registry"):
++    _replace(root / "AGENTS.md", "346-row exact registry", "343-row exact registry")
++    with pytest.raises(SystemExit, match="current route lacks 346-row exact registry"):
+         premise_guard.validate_startup_surface(root)
+ 
+ 
+diff --git a/verify_current_scientific_premises.py b/verify_current_scientific_premises.py
+index f0a0de7a..50567c9e 100644
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -29,6 +29,10 @@ SHARED_CONSTRAINT_BANKING_SNAPSHOT = "ed2f7432f068aa7a72628382b890596b3efba06a"
+ SHARED_CONSTRAINT_BANKING_IDS = ("G357", "G358", "G359", "G360")
+ SHARED_CONSTRAINT_BANKING_SOURCE = "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md"
+ SHARED_CONSTRAINT_BANKING_CAMPAIGN = "udt_shared_readout_metric_constraint_campaign_2026-09-06"
++PERSISTENCE_BANKING_SNAPSHOT = "c663c3ebee1755c348388170df4906eb00d1a8e8"
++PERSISTENCE_BANKING_IDS = ("G361", "G362", "G363")
++PERSISTENCE_BANKING_SOURCE = "udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md"
++PERSISTENCE_BANKING_CAMPAIGN = "udt_phase_current_product_persistence_campaign_2026-09-07"
+ 
+ PREMISE_REGISTRY_CONTROLS = (
+     "AGENTS.md",
+@@ -238,6 +242,7 @@ def replay_package_with_current_registry_rows_removed(
+ ) -> dict:
+     """Replay a frozen package in /tmp after removing only declared later registry rows."""
+     legacy_later_rows = (
++        "G363", "G362", "G361",
+         "G360", "G359", "G358", "G357",
+         "G356", "G355", "G354", "G353",
+         "G352", "G351", "G350", "G349", "G348", "G347", "G346", "G345", "G344", "G343", "G342", "G341", "G340", "G339", "G338", "G337", "G336", "G335", "G334", "G333", "G332", "G331", "G330", "G329", "G328", "G327", "G326", "G325", "G324", "G323", "G322", "G321", "G320", "G319", "G318", "G317", "G316", "G315", "G314", "G313", "G312", "G311", "G310", "G309", "G308", "G307", "G306", "G305", "G290", "G289", "G288", "G287", "G286", "G285", "G284", "G283", "G282", "G281", "G280", "G279", "G278", "G277", "G276",
+@@ -318,7 +323,8 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+     correspondence and scope regression, not another scientific review or proof.
+     """
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_prefixes = tuple(f"{item}\t".encode() for item in SHARED_CONSTRAINT_BANKING_IDS)
++    later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS
++    later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(
+         line for line in registry_bytes.splitlines(keepends=True)
+         if not line.startswith(later_prefixes)
+@@ -332,7 +338,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+             == "3743533cfe1cc6a047e11cf182d90561c100727fc506aca3c5ff7a33779b2c3f",
+             "conditional banking changed an existing scientific registry row")
+     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-            if row["premise_id"] not in SHARED_CONSTRAINT_BANKING_IDS]
++            if row["premise_id"] not in later_ids]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 339,
+             "conditional banking must add exactly four distinct rows to 335")
+@@ -449,13 +455,17 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    later_prefixes = tuple(f"{item}\t".encode() for item in PERSISTENCE_BANKING_IDS)
++    registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
++                              if not line.startswith(later_prefixes))
+     prefixes = tuple(f"{item}\t".encode() for item in SHARED_CONSTRAINT_BANKING_IDS)
+     old_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                          if not line.startswith(prefixes))
+     require(hashlib.sha256(old_bytes).hexdigest()
+             == "23096ecbbdace34bb9f3add2cc288c9c62edd264a096620955be04b0510a7429",
+             "shared-constraint banking changed an existing scientific registry row")
+-    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++    rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++            if row["premise_id"] not in PERSISTENCE_BANKING_IDS]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 343,
+             "shared-constraint banking must add exactly four distinct rows to 339")
+@@ -565,6 +575,109 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
+ 
+ 
+ 
++def validate_persistence_banking(root: Path, *, authenticate_sources: bool = True) -> None:
++    """Guard only additive PC1--PC3 banking; correspondence is not proof."""
++    registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    prefixes = tuple(f"{item}\t".encode() for item in PERSISTENCE_BANKING_IDS)
++    old_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
++                         if not line.startswith(prefixes))
++    require(hashlib.sha256(old_bytes).hexdigest()
++            == "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
++            "persistence banking changed an existing scientific registry row")
++    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++    by_id = {row["premise_id"]: row for row in rows}
++    require(len(rows) == len(by_id) == 346,
++            "persistence banking must add exactly three distinct rows to 343")
++    record_path = root / PERSISTENCE_BANKING_SOURCE
++    require(record_path.is_file(), "persistence banking record missing")
++    record = " ".join(record_path.read_text().split())
++    for token in (*PERSISTENCE_BANKING_IDS, PERSISTENCE_BANKING_SNAPSHOT,
++                  "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS", "CHOSEN",
++                  "restricted full spacelike initial-data class", "local wave-method",
++                  "independent initial phase/", "physical identification remains OPEN",
++                  "no new campaign is authorized", "UNKNOWN", "UNTESTED"):
++        require(token in record, f"persistence banking record lacks {token}")
++    scopes = {
++        "G361": ("PC1-SEED", "PC1-CURVATURE", "PC1-CAUCHY",
++                 "FULL_OPEN_SPACELIKE_SEED_CLASS",
++                 "ORIGINAL_HAMILTONIAN_MOMENTUM_CONSTRAINTS",
++                 "NONZERO_FULL_REAL_ROOT_IFF_LAMBDA_ZERO_AND_TRANSVERSE_CURVATURE_NONZERO_WITHIN_SEED_CLASS",
++                 "TANGENTIAL_RECURRENCE_ONLY_AT_THIS_STEP"),
++        "G362": ("PC2-PARALLEL", "PC2-RECIPE", "PC2-INITIAL-SCALAR",
++                 "G361_CONDITIONAL_DEPENDENCY", "FULL_OPEN_SPACELIKE_SEED_CLASS",
++                 "LOCAL_WAVE_METHOD_HYPOTHESIS", "BOTH_ZERO_INITIAL_DEFECT_DATA",
++                 "INITIAL_Q_SCREEN_GRADIENT_SQUARE_WITH_NORMAL_SUBTRACTION",
++                 "EXACT_LOCAL_FLOW_TUBE_PRESERVATION_ONLY"),
++        "G363": ("PC3-PHASE", "PC3-PRODUCT", "PC3-READOUT",
++                 "G362_CONDITIONAL_DEPENDENCY", "LOCAL_WAVE_METHOD_HYPOTHESIS",
++                 "COMPLETE_SPACELIKE_INITIAL_MATCH",
++                 "FIXED_PHASE_LABELS_SPACING_AND_MEASURE",
++                 "INDEPENDENTLY_FIXED_MU_MUST_ACTUALLY_MATCH",
++                 "CONSERVATION_ALONE_NOT_PRODUCT",
++                 "FINITE_QUERY_OR_SEPARATE_INTEGRABILITY"),
++    }
++    for premise_id, tokens in scopes.items():
++        require(premise_id in by_id, f"persistence banking row missing: {premise_id}")
++        row = by_id[premise_id]
++        require(row["current_status"] == CONDITIONAL_BANKING_STATUS
++                and row["epistemic_label"] == "MIXED",
++                f"{premise_id} persistence banking grade changed")
++        require(row["controlling_source"] == PERSISTENCE_BANKING_SOURCE,
++                f"{premise_id} persistence banking source changed")
++        for token in (*tokens, "CHOSEN"):
++            require(token in row["active_use"], f"{premise_id} active scope lacks {token}")
++        for token in ("physical identification remains OPEN", "generic recipe-compatible data without the seed",
++                      "physical population count energy detector source history matter mass scale Xmax and canon"):
++            require(token in row["open_scope"], f"{premise_id} open scope lacks {token}")
++        for token in ("chosen recipe called physically selected",
++                      "restricted sufficient class called generic persistence or stability",
++                      "recipe failure called violation of admitted UDT equations",
++                      "review counts called analytic proof",
++                      "UNKNOWN runtime model or UNTESTED different-model review upgraded"):
++            require(token in row["forbidden_regression"], f"{premise_id} guard lacks {token}")
++        require("FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED"
++                in row["precedence_rule"], f"{premise_id} review independence scope changed")
++    if not authenticate_sources:
++        return
++    campaign = root / PERSISTENCE_BANKING_CAMPAIGN
++    manifest = campaign / "CAMPAIGN_SHA256SUMS"
++    require(manifest.is_file() and hashlib.sha256(manifest.read_bytes()).hexdigest()
++            == "603f2e1166e80877b23ffb822c430cf15ce5657ac7ab3b7e93f825a83b2c9107",
++            "persistence banking frozen campaign manifest changed")
++    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
++    require(len(entries) == len({relative for _, relative in entries}) == 241,
++            "persistence banking frozen campaign membership changed")
++    for expected, relative in entries:
++        payload = root / relative
++        require(payload.is_file() and hashlib.sha256(payload.read_bytes()).hexdigest() == expected,
++                f"persistence banking frozen campaign payload changed: {relative}")
++    # The excluded later receipt is historical evidence too, not a source of science.
++    receipt = subprocess.run(
++        ["git", "show", f"{PERSISTENCE_BANKING_SNAPSHOT}:{PERSISTENCE_BANKING_CAMPAIGN}/CLOSURE_RECEIPT.json"],
++        cwd=ROOT, capture_output=True, check=False, timeout=10)
++    require(receipt.returncode == 0
++            and (campaign / "CLOSURE_RECEIPT.json").read_bytes() == receipt.stdout,
++            "persistence banking original closure receipt changed")
++    historical: dict[str, bytes] = {}
++    for step in range(1, 4):
++        for line in (campaign / f"step_{step:02d}/SOURCE_SHA256SUMS").read_text().splitlines():
++            expected, relative = line.split(maxsplit=1)
++            if relative not in historical:
++                frozen = subprocess.run(
++                    ["git", "show", f"{PERSISTENCE_BANKING_SNAPSHOT}:{relative}"],
++                    cwd=ROOT, capture_output=True, check=False, timeout=10)
++                require(frozen.returncode == 0, f"persistence banking source unavailable: {relative}")
++                historical[relative] = frozen.stdout
++            require(hashlib.sha256(historical[relative]).hexdigest() == expected,
++                    f"persistence banking frozen source hash changed: {relative}")
++            if relative != "CURRENT_SCIENTIFIC_PREMISES.tsv":
++                current = root / relative
++                require(current.is_file() and current.read_bytes() == historical[relative],
++                        f"persistence banking scientific source changed since snapshot: {relative}")
++    require(old_bytes == historical["CURRENT_SCIENTIFIC_PREMISES.tsv"],
++            "persistence banking is not additive from the authorized snapshot")
++
++
+ def validate_startup_surface(root: Path) -> None:
+     """Fail closed on semantic startup authority without requiring duplicated chronology."""
+     controls: dict[str, str] = {}
+@@ -579,13 +692,14 @@ def validate_startup_surface(root: Path) -> None:
+     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+     require(registry.is_file(), "premise registry missing")
+     registry_rows = read_tsv(registry)
+-    require(len(registry_rows) == 343, "premise registry must contain exactly 343 rows")
++    require(len(registry_rows) == 346, "premise registry must contain exactly 346 rows")
+     require(
+-        len({row["premise_id"] for row in registry_rows}) == 343,
++        len({row["premise_id"] for row in registry_rows}) == 346,
+         "premise registry contains duplicate ids",
+     )
+     validate_conditional_banking(root, authenticate_sources=False)
+     validate_shared_constraint_banking(root, authenticate_sources=False)
++    validate_persistence_banking(root, authenticate_sources=False)
+ 
+     for control in PREMISE_REGISTRY_CONTROLS:
+         require(
+@@ -621,7 +735,7 @@ def validate_startup_surface(root: Path) -> None:
+         "T_clock=R A^-1",
+         "continuous",
+         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+-        "343-row",
++        "346-row",
+         "archive/STARTUP_SURFACE_HISTORY.md",
+         "udt_observed_angular_pattern_raw_restart_2026-08-12",
+         "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
+@@ -642,7 +756,7 @@ def validate_startup_surface(root: Path) -> None:
+     require(len(live_next_parts) == 2, "LIVE next-gate section missing")
+     live_next = " ".join(live_next_parts[1].split())
+     for token in (
+-        "G353--G356", "G357--G360", "SC1 remains a source map", "conditional mathematical banking",
++        "G353--G356", "G357--G360", "G361--G363", "SC1 remains a source map", "conditional mathematical banking",
+         "G352 physical-realization", "physical identification remains OPEN",
+         "Charles", "no new campaign is authorized",
+     ):
+@@ -651,7 +765,7 @@ def validate_startup_surface(root: Path) -> None:
+     require(len(handoff_next_parts) == 2, "HANDOFF next-gate statement missing")
+     handoff_next = " ".join(handoff_next_parts[1].split())
+     for token in (
+-        "G353--G356", "G357--G360", "SC1 remains a source map", "conditional mathematical banking",
++        "G353--G356", "G357--G360", "G361--G363", "SC1 remains a source map", "conditional mathematical banking",
+         "G352 physical-realization", "physical identification remains OPEN",
+         "Charles", "no new campaign is authorized",
+     ):
+@@ -703,7 +817,7 @@ def validate_startup_surface(root: Path) -> None:
+         "AGENTS.md": (
+             "Stop the startup read here",
+             "does not make full scripts",
+-            "343-row exact registry",
++            "346-row exact registry",
+             "without dumping its wide rows into model context",
+             "1,114 data rows plus its header",
+             "not a startup read or a current-frontier index",
+@@ -726,6 +840,7 @@ def validate_startup_surface(root: Path) -> None:
+             "udt_g352_clock_rate_carried_measure_readout_2026-09-05/",
+             CONDITIONAL_BANKING_SOURCE,
+             SHARED_CONSTRAINT_BANKING_SOURCE,
++            PERSISTENCE_BANKING_SOURCE,
+             "udt_observed_angular_pattern_raw_restart_2026-08-12/",
+             "R5_OUTCOME_REPORT.md",
+             "R5_EXTERNAL_FOLLOWUP_REVIEW.md",
+@@ -738,7 +853,7 @@ def validate_startup_surface(root: Path) -> None:
+             "verify_current_scientific_premises.py",
+         ),
+         "MEMORY.md": (
+-            "343-row",
++            "346-row",
+             "B,Q,S,Y,Z",
+             "Universal Reciprocity/DDR",
+             "owner-adopted provisional premises",
+@@ -753,7 +868,7 @@ def validate_startup_surface(root: Path) -> None:
+             "archive/STARTUP_SURFACE_HISTORY.md",
+         ),
+         "CURRENT_RESEARCH_PROGRAM.md": (
+-            "343-row",
++            "346-row",
+             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+             "G129--G198",
+             "G199--G276",
+@@ -771,7 +886,7 @@ def validate_startup_surface(root: Path) -> None:
+             "physical-realization",
+         ),
+         "CURRENT_SCIENTIFIC_PREMISES.md": (
+-            "343-row",
++            "346-row",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
+             "one postulate with two formulations",
+@@ -1213,17 +1328,19 @@ def validate_startup_surface(root: Path) -> None:
+         "udt_g352_clock_rate_carried_measure_readout_2026-09-05/AUDIT_REPORT.md",
+         CONDITIONAL_BANKING_SOURCE,
+         SHARED_CONSTRAINT_BANKING_SOURCE,
++        PERSISTENCE_BANKING_SOURCE,
+     ):
+         require((root / relative).is_file(), f"current startup target missing: {relative}")
+ 
+ 
+ def main() -> None:
+     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-    require(len(rows) == 343, "premise registry must contain exactly 343 rows")
++    require(len(rows) == 346, "premise registry must contain exactly 346 rows")
+     by_id = {row["premise_id"]: row for row in rows}
+-    require(len(by_id) == 343, "duplicate premise id")
++    require(len(by_id) == 346, "duplicate premise id")
+     validate_conditional_banking(ROOT)
+     validate_shared_constraint_banking(ROOT)
++    validate_persistence_banking(ROOT)
+     latest_rows = {
+         "G277": (
+             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
+@@ -1990,7 +2107,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines
+@@ -2065,7 +2182,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
+@@ -2144,7 +2261,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
+@@ -2237,7 +2354,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines
+@@ -5938,7 +6055,7 @@ def main() -> None:
+             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                 source_bytes = b"".join(
+                     line for line in source_bytes.splitlines(keepends=True)
+-                    if not line.startswith((b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
++                    if not line.startswith((b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
+                 )
+             destination = g351_root / source_name
+             destination.parent.mkdir(parents=True, exist_ok=True)
+@@ -18967,7 +19084,9 @@ def main() -> None:
+         "and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking "
+         "with unchanged frozen sources and physical-identification limits; "
+         "PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, "
+-        "SC5 false-pass repair history and unchanged frozen sources"
++        "SC5 false-pass repair history and unchanged frozen sources; "
++        "PASS: G361/G362/G363 conditional local persistence banking with "
++        "restricted seed, wave-method, fixed-product and physical-identification limits"
+     )
+ 
+ 

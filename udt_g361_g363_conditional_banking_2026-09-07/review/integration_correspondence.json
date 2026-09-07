@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_g361_g363_conditional_banking_2026-09-07/review/check_integration_correspondence.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T13:33:10.009495+00:00",
+  "duration_seconds": 0.06321300900890492,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 31652
+}

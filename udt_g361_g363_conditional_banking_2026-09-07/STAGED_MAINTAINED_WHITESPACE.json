@@ -1,0 +1,8 @@
+{
+  "command": "git -c core.preloadIndex=false -c index.threads=1 -c core.packedGitLimit=64m -c core.packedGitWindowSize=8m diff --cached --check -- AGENTS.md LIVE.md HANDOFF.md CURRENT_RESEARCH_PROGRAM.md CURRENT_SCIENTIFIC_PREMISES.md CURRENT_SCIENTIFIC_PREMISES.tsv MEMORY.md INDEX.md verify_current_scientific_premises.py tests/test_startup_surface.py",
+  "chunk_id": "fc367c",
+  "wall_time_seconds": 0.00000207,
+  "exit_code": 0,
+  "original_token_count": 0,
+  "output": ""
+}

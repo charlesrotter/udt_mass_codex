@@ -78,7 +78,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
 
-Authority: the exact 343-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G360. Use `INDEX.md` for
+Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G363. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -109,10 +109,10 @@ Exact scopes and preserved false-pass/repair history:
 `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 Algebraic compatibility is not full metric-development realization; free phase propagation is not
 curvature-recipe/product persistence. The original completed campaign remains unchanged.
-The approved persistence campaign completed all3 reviewed steps within4hours. Scope/log:
-`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its
-`CAMPAIGN_LOG.md`. PC1--PC3 are reviewed conditional candidates: local sufficient-class preservation.
-Banking awaits Charles; no promotion. Beyond this completed campaign, no new campaign is authorized.
+G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
+Exact scopes and reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Its `NEXT_CAMPAIGN_PROPOSAL.md` tests restrictiveness through admissible-data variations.
+Charles's direction is next; no new campaign is authorized. No generic persistence or physical adoption.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
 Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks

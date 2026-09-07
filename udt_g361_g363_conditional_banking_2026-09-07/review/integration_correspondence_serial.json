@@ -1,0 +1,19 @@
+{
+  "command": [
+    "env",
+    "GIT_CONFIG_COUNT=1",
+    "GIT_CONFIG_KEY_0=index.threads",
+    "GIT_CONFIG_VALUE_0=1",
+    "python3",
+    "-B",
+    "udt_g361_g363_conditional_banking_2026-09-07/review/check_integration_correspondence.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T13:33:33.367482+00:00",
+  "duration_seconds": 0.07376611200743355,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 31980
+}

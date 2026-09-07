@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "baseline": "c663c3ebee1755c348388170df4906eb00d1a8e8",
+  "observed_head": "c663c3ebee1755c348388170df4906eb00d1a8e8",
+  "seals": [
+    {
+      "path": "udt_g361_g363_conditional_banking_2026-09-07/INTEGRATION_CANDIDATE_SHA256SUMS",
+      "sha256": "2eb724c313c2461eea7c8ad7547679ca616221c6139d6fb4be4ff245495b5c0d",
+      "payloads": 13,
+      "result": "PASS"
+    },
+    {
+      "path": "udt_g361_g363_conditional_banking_2026-09-07/TEXT_FREEZE_SHA256SUMS",
+      "sha256": "a3341f7ddf46b93ced615fb27b93ee08d0667691e485aeb677bb5da031967a98",
+      "payloads": 3,
+      "result": "PASS"
+    },
+    {
+      "path": "udt_g361_g363_conditional_banking_2026-09-07/review/STAGE_A_SHA256SUMS",
+      "sha256": "8409855cba14f7b6731e36548734779cfa56d52684a848ff92c4c807f6ebc7c7",
+      "payloads": 5,
+      "result": "PASS"
+    }
+  ],
+  "old_registry_rows": 343,
+  "new_registry_rows": 346,
+  "added_ids": [
+    "G361",
+    "G362",
+    "G363"
+  ],
+  "old_registry_bytes_exact": true,
+  "old_registry_sha256": "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
+  "exact_changed_tracked_paths": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py"
+  ],
+  "unchanged_fixed_files": [
+    {
+      "path": "CANON.md",
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+      "sha256": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e"
+    },
+    {
+      "path": "UDT_METRIC_KERNEL_COVERAGE.tsv",
+      "sha256": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4"
+    }
+  ],
+  "proposal_change": "EXACTLY_ESCAPE_TWO_MARKDOWN_TABLE_VERTICAL_BARS_NO_SEMANTIC_CHANGE",
+  "proposal_initial_sha256": "09f6d2bc705f4d4a014d557f33d31a623a99daf282c9fb5f7f9b370c0742ddd1",
+  "proposal_current_sha256": "c5506a250b15d3ae63c344cdd9ddcb1393e5bfdec4bf9c5aeaf1dbd3a59b190d",
+  "scientific_calculations": "NONE",
+  "new_campaign_tests": "NONE"
+}

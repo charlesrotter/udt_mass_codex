@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "set -e\ncmp <(git -c core.packedGitLimit=64m -c core.packedGitWindowSize=8m show c663c3ebee1755c348388170df4906eb00d1a8e8:CURRENT_SCIENTIFIC_PREMISES.tsv) <(awk \"!/^G36[123]\\\\t/\" CURRENT_SCIENTIFIC_PREMISES.tsv)\ngit -c core.packedGitLimit=64m -c core.packedGitWindowSize=8m diff --exit-code c663c3ebee1755c348388170df4906eb00d1a8e8 -- CANON.md UDT_METRIC_KERNEL_DEVELOPMENT.md UDT_METRIC_KERNEL_COVERAGE.tsv CLAUDE.md .claude/skills udt_phase_current_product_persistence_campaign_2026-09-07 udt_g353_g356_conditional_banking_2026-09-06 udt_g357_g360_conditional_banking_2026-09-07 udt_g351_g352_content_bridge_campaign_2026-09-06 udt_shared_readout_metric_constraint_campaign_2026-09-06\nsha256sum CANON.md UDT_METRIC_KERNEL_DEVELOPMENT.md UDT_METRIC_KERNEL_COVERAGE.tsv\nawk \"!/^G36[123]\\\\t/\" CURRENT_SCIENTIFIC_PREMISES.tsv | sha256sum"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T13:31:37.175278+00:00",
+  "duration_seconds": 0.020603463010047562,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13824
+}
