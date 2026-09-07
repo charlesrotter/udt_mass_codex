@@ -1,0 +1,81 @@
+{
+  "task": "Owner-authorized RC1–RC3 conditional banking and next-direction planning; no next campaign",
+  "recorded_utc": "2026-09-07T16:10:07Z",
+  "baseline": "554b0be4b369aa11aa3afa073f7b1ee954a76a87",
+  "banking_commit": "d2725f30e7086f1be740b71cf4cdfe22610253d5",
+  "branch": "grok",
+  "disposition": "G364=RC1; G365=RC2; G366=RC3; BANKED_DERIVED_CONDITIONAL; VERIFIED-WITH-CAVEATS; OWNER_AUTHORIZED; NOT_PHYSICAL_ADOPTION; NOT_CANON",
+  "old_registry_rows": 346,
+  "new_registry_rows": 349,
+  "all_old_rows_byte_identical": true,
+  "artifact_manifest": {
+    "path": "udt_g364_g366_conditional_banking_2026-09-07/ARTIFACT_SHA256SUMS",
+    "sha256": "f98463b1795adea9f0bd13d80caefa46526c352df8ad29ebb4f9df1c7c2029b9",
+    "entries": 98,
+    "package_payloads": 88,
+    "maintained_files": 10,
+    "authenticated": 98,
+    "excluded": [
+      "ARTIFACT_SHA256SUMS",
+      "COMMIT_PUSH_RECEIPT.json"
+    ]
+  },
+  "staged_and_committed_exact_paths": 99,
+  "full_premise_audit": "349-row PASS before exposure-only editorial correction; code/registry/science/status unchanged; no full rerun claimed after wording correction",
+  "final_targeted_regression": "233 passed, 1 deselected; full audit separately executed",
+  "fresh_fidelity": "VERIFIED-WITH-CAVEATS; one exact editorial exposure correction, no scientific repair; focused follow-up in same now-exposed reviewer context",
+  "review_model": "UNKNOWN",
+  "different_model_human_formal": "UNTESTED",
+  "strict_staged_whitespace": "Initial 81-package-file stage returned2, four warnings in retained pytest raw traceback. Not relabeled PASS.",
+  "nonraw_final_staged_whitespace": "PASS; raw *.stdout excluded explicitly",
+  "preservation": {
+    "fixed_manuscript_sidecar_canon_original_science": "BYTE_IDENTICAL",
+    "unrelated_untracked_entries": 46,
+    "metadata_match": true,
+    "protected_payload_bytes": "NOT_INSPECTED",
+    "backup_completeness": "UNVERIFIED",
+    "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+    "ScratchDisk": "UNUSED; archive-dependent blocker only"
+  },
+  "commit": {
+    "command": "git -c core.preloadIndex=false -c index.threads=1 commit -m \"Bank RC1-RC3 conditionally and map calibrated tidal-test campaign\"",
+    "result": {
+      "chunk_id": "9ecf5b",
+      "wall_time_seconds": 0.000002819,
+      "exit_code": 0,
+      "original_token_count": 2191,
+      "output": "[grok d2725f30] Bank RC1-RC3 conditionally and map calibrated tidal-test campaign\n 99 files changed, 2967 insertions(+), 59 deletions(-)\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/ARTIFACT_SHA256SUMS\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/CLEAN_PREMISE_AUDIT.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/DIRECT_REVIEW_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/DIRECT_REVIEW_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/DIRECT_REVIEW_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/EXECUTION_RECORD.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/EXTERNAL_SOURCE_NOTES.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/PACKAGING_NOTE.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/PRESERVATION_METADATA.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/STARTUP_PREMISE_AUDIT.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/WORK_ORDER.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/diagnostics/BANKING_RECORD_INITIAL.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/diagnostics/EXECUTION_RECORD_INITIAL.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/maintained_whitespace.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/maintained_whitespace.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/maintained_whitespace.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/nonraw_staged_whitespace.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/nonraw_staged_whitespace.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/nonraw_staged_whitespace.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/preservation_bytes.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/preservation_bytes.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/preservation_bytes.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/BYTE_CHECK_DIAGNOSTIC.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_REVIEW_AUTHENTICATE.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_REVIEW_AUTHENTICATE.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_REVIEW_AUTHENTICATE.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/EXECUTION_CLOSURE_FIDELITY.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_CORRECTION.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_CORRECTION.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_CORRECTION.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_CORRECTION_REVIEW.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_GUARD.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_GUARD.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_GUARD.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_INPUT_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_INPUT_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/FOCUSED_INPUT_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/GIT_SCOPE_DIAGNOSTIC.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/GIT_SCOPE_DIAGNOSTIC.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/GIT_SCOPE_DIAGNOSTIC.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/GUARD_REPLAY.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/GUARD_REPLAY.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/GUARD_REPLAY.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INDEPENDENT_BYTES.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INDEPENDENT_BYTES.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INDEPENDENT_BYTES.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INDEPENDENT_BYTES_CORRECTED.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INDEPENDENT_BYTES_CORRECTED.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INDEPENDENT_BYTES_CORRECTED.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INITIAL_REVIEW_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INITIAL_REVIEW_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/INITIAL_REVIEW_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/PHASE_B_FIDELITY_REVIEW.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_INPUT_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_INPUT_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_INPUT_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/SOURCE_CAMPAIGN_AUTHENTICATE.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/SOURCE_CAMPAIGN_AUTHENTICATE.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/SOURCE_CAMPAIGN_AUTHENTICATE.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/STAGE_A_SHA256SUMS.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/STAGE_A_SHA256SUMS.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/STAGE_A_SHA256SUMS.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/STAGE_A_SOURCE_FIRST.md\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/check_bytes_independent.py\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/check_focused_correction.py\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review/initial_check_bytes_independent.py\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review_authentication.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review_authentication.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/review_authentication.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression_final.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression_final.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression_final.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression_initial.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression_initial.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/startup_regression_initial.stdout\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/strict_staged_whitespace.json\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/strict_staged_whitespace.stderr\n create mode 100644 udt_g364_g366_conditional_banking_2026-09-07/strict_staged_whitespace.stdout\n"
+    }
+  },
+  "push": {
+    "command": "git push origin grok",
+    "initial_result": {
+      "chunk_id": "0ca483",
+      "wall_time_seconds": 1.00156117,
+      "session_id": 65679,
+      "original_token_count": 0,
+      "output": ""
+    },
+    "completed_result": {
+      "chunk_id": "8f4788",
+      "wall_time_seconds": 0.000002114,
+      "exit_code": 0,
+      "original_token_count": 23,
+      "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   554b0be4..d2725f30  grok -> grok\n"
+    }
+  },
+  "remote_verification": {
+    "command": "git ls-remote origin refs/heads/grok",
+    "result": {
+      "chunk_id": "6a15de",
+      "wall_time_seconds": 0.245596374,
+      "exit_code": 0,
+      "original_token_count": 15,
+      "output": "d2725f30e7086f1be740b71cf4cdfe22610253d5\trefs/heads/grok\n"
+    },
+    "head_and_origin": "d2725f30e7086f1be740b71cf4cdfe22610253d5"
+  },
+  "actual_blocker": "NONE for completed banking/planning; measurement/data eligibility unverified and next campaign awaits direction",
+  "next_scope": "Proposed maximum3 reviewed steps/4h measurement-interface and no-retuning tidal-test feasibility; no observations fitted or physical assumption adopted",
+  "receipt_self_scope": "This excluded later receipt records the already-pushed banking commit. Its own later commit/push hash is verified at handoff, not recursively embedded here."
+}
