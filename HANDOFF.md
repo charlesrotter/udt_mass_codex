@@ -84,7 +84,13 @@ configuration. No final-stage trace projection is imposed by Algorithm16, but en
 signal, calibration/raw-support/error provenance and a written arm-length ambiguity remain OPEN.
 The audit stopped after one reviewed step at that evidence gate; no second example or data fit.
 Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
-TM1/TM2 remain unpromoted. Charles's next direction decision is required; no new campaign is authorized.
+TM1/TM2 remain unpromoted. Charles authorized a focused GOCE documentation follow-up,
+not another compatibility campaign. Current assessment and UNSENT ESA enquiry:
+`udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`; review records control
+their review status. Historical header/configuration pointers, approximate attitude covariance
+and trace-monitoring flag are distinguished from actual0202 behavior. Release-specific
+retained-response, selection/support, errors and arm/channel convention remain OPEN.
+Charles's approval is required before sending the enquiry; no new campaign is authorized.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

@@ -1,6 +1,7 @@
 # GOCE documentation follow-up — decision brief
 
-Initial brief; fresh separate-context review pending. Eligibility remains OPEN.
+Documentation-only follow-up. Eligibility remains OPEN. Review history and
+its limitations are recorded in the accompanying review/ records.
 
 **Recommendation: await a reply after you approve the enquiry.** The new
 documentation narrows what to ask; it does not yet establish an independent
@@ -10,12 +11,14 @@ Resolved: the handbook identifies processor/configuration-reference fields;
 the April2018 calibration presentation describes model matching and weighting;
 TN3397's attitude covariance explicitly approximates expected correlations;
 and the additional on-orbit calibration note is2008 preflight, not a modern
-release dossier. Full-pair-distance terminology helps frame the arm question
+release dossier. The historical handbook also defines trace-threshold
+monitoring; its0202 applicability and effect on selection need clarification.
+Full-pair-distance terminology helps frame the arm question
 but does not authenticate the deployed convention.
 
 Five questions remain:0202-to-processor/configuration applicability; which
 scalar information calibration constrains or absorbs; temporal/shared-input
-support; justified joint errors or conservative contrast bounds; and the
+support and trace-flag use; justified joint errors or conservative contrast bounds; and the
 arm/channel convention crosswalk. [The unsent enquiry](ESA_ENQUIRY_DRAFT.md)
 asks ESA User Services for the documents/support records establishing these.
 No raw-sample census, current form category or named specialist is presumed.

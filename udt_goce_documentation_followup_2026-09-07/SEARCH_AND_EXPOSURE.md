@@ -87,3 +87,15 @@ authenticated prior PE1 temporary directories. New source text was read
 through tool output only; preserve paraphrases/locators/hashes, not whole
 copyrighted sources. No new scientific computation or source theorem replay.
 The previous exact convention checks remain the unchanged prior evidence.
+
+## One bounded review repair
+
+After initial author freeze18:18:26UTC and preservation commit8ebd7d02,
+main read the new sealed source-first report. It independently identified
+the historical handbook Table43 trace-monitoring flag, missing as an explicit
+question from the first draft. Main then used pdftotext -layout PDF106–108
+and visually inspected a pdftoppm render of PDF107/printed93. No new network
+search or observation read was required. The explicit applicability/selection
+question was added as R1; this source discovery is reviewer-led, not claimed
+independent main discovery. Initial candidate, enquiry and search record
+remain recoverable at8ebd7d02. No0202 flag use or flight censoring is inferred.

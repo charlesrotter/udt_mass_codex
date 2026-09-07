@@ -113,7 +113,17 @@ reviewed step at the indispensable evidence gate, with no manufactured second ex
 Brief/review: `udt_goce_product_eligibility_audit_2026-09-07/DECISION_BRIEF.md`.
 No whole-product ineligibility, flight bug or new-physics requirement follows. TM1/TM2 remain
 unpromoted; original scientific sources, registry, fixed manuscript and canon are unchanged.
-Charles's next direction decision is required; no new campaign is authorized.
+Charles authorized a focused GOCE documentation follow-up, not another compatibility campaign.
+Current assessment and UNSENT enquiry, with controlling review records:
+`udt_goce_documentation_followup_2026-09-07/DECISION_BRIEF.md`.
+Historical processor/configuration-reference fields provide exact enquiry locators;
+TN3397's approximate attitude covariance is not a validated scalar-contrast error model.
+The historical trace-threshold monitoring flag prompts a0202 applicability/selection question,
+not a claim of current censoring or trace erasure. Release-specific retained response,
+calibration/support/error bounds and arm/channel convention still require evidence.
+Equivalent trusted documentation or justified bounds may suffice without every raw sample.
+Sending the draft needs Charles's approval; no new campaign is authorized.
+This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

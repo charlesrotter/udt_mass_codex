@@ -1,0 +1,23 @@
+{
+  "command": [
+    "curl",
+    "--location",
+    "--max-time",
+    "45",
+    "--silent",
+    "--show-error",
+    "--output",
+    "/tmp/udt-goce-docs-CvpkoQ/support.html",
+    "--write-out",
+    "http=%{http_code} type=%{content_type} size=%{size_download}\\n",
+    "https://esatellus.service-now.com/csp?id=esa_simple_request"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T18:13:12.328744+00:00",
+  "duration_seconds": 1.246716005000053,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12864
+}

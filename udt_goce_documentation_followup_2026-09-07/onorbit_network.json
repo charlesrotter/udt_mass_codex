@@ -1,0 +1,23 @@
+{
+  "command": [
+    "curl",
+    "--location",
+    "--max-time",
+    "45",
+    "--silent",
+    "--show-error",
+    "--output",
+    "/tmp/udt-goce-docs-CvpkoQ/onorbit.pdf",
+    "--write-out",
+    "http=%{http_code} type=%{content_type} size=%{size_download}\\n",
+    "https://earth.esa.int/eogateway/documents/20142/37627/Gradiometer+On-Orbit+Calibration+Procedure+Analysis.pdf/c428332f-d8fe-c8a2-6db7-22070e786eae?t=1739980779475"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T18:13:16.441359+00:00",
+  "duration_seconds": 2.1367305510066217,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12864
+}

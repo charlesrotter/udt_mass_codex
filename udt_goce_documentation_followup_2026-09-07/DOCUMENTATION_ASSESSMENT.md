@@ -1,7 +1,8 @@
 # Minimum GOCE documentation assessment
 
-Initial candidate, separate-context review pending. Document follow-up only;
-product eligibility OPEN. Source snapshot1e89bc9f; PE1 and TM1/TM2 unchanged.
+Document follow-up only; product eligibility OPEN. Review history is recorded
+in review/DIRECT_REVIEW.md and the focused follow-up record. Source
+snapshot1e89bc9f; PE1 and TM1/TM2 unchanged.
 Exact URLs, hashes, new reads and exposure: SEARCH_AND_EXPOSURE.md and prior
 PE1 step_01/SOURCE_LEDGER.tsv. No data fitted or new theorem claimed.
 
@@ -41,6 +42,14 @@ PE1 step_01/SOURCE_LEDGER.tsv. No data fitted or new theorem claimed.
    weights. These permit asking for settings/support by stage or an equivalent
    end-to-end support certificate. They do not certify a guard-gap duration
    or that two processed intervals are unused relative to one another.
+   The reviewer identified an additional historical dependency: handbook
+   Table43, printed93/PDF107, defines a trace-threshold monitoring flag
+   `Qual_Flag_Ggt`. Main independently checked its text and layout after the
+   initial candidate freeze. Whether0202 retains this flag, merely annotates
+   values, or uses it for calibration, processing, weighting or exclusions
+   is OPEN. A historical monitoring flag is not proof of current censoring
+   or numerical trace projection; its possible selection role belongs in
+   the release-specific enquiry.
 
 4. **One covariance has a known limited purpose.** TN3397 §8.2, printed54–58,
    expects temporal and shared-input correlations but uses a block-diagonal
@@ -67,7 +76,7 @@ PE1 step_01/SOURCE_LEDGER.tsv. No data fitted or new theorem claimed.
 | --- | --- | --- |
 | Which implementation? | Applicable release note/configuration identifiers and validity ranges, representative header reference chain or processing-team attestation |0202 ↔ processor/configuration/TN3397 crosswalk, including exceptions |
 | What was fitted or enforced? | External estimator specification with parameter basis, constraints/priors, weighting and input/epoch provenance; equivalent validated end-to-end target-response record | Whether and how constant or varying trace directions were absorbed, constrained or retained, including indirect model conditioning |
-| Which information is reused? | Support/selection map for fitted parameters, masks and filters, or justified influence/support bounds | Shared science/shaking/attitude/orbit/gravity-model inputs and validity windows; unused-target claim versus merely separate output rows |
+| Which information is reused? | Support/selection map for fitted parameters, masks and filters, or justified influence/support bounds | Shared science/shaking/attitude/orbit/gravity-model inputs and validity windows; role/applicability of trace-monitoring flags and recommended exclusions; unused-target claim versus merely separate output rows |
 | What uncertainty is justified? | Joint contrast covariance with justified statistical model, or conservative deterministic/systematic bounds including relevant shared effects | Practical sensitivity and correlation/remainder bounds; no independence or Gaussianity assumed |
 | Which units/conventions? | Arm/channel/sign/frame mapping tied to applicable auxiliary configuration, plus clarification of the displayed symbols | Half versus full length in intro/Algorithm16, actual calibrated differential-channel normalization |
 

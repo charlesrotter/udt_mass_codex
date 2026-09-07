@@ -1,0 +1,18 @@
+{
+  "command": [
+    "sha256sum",
+    "/tmp/udt-pe-primary-wacMzS/algorithms_2018.pdf",
+    "/tmp/udt-pe-primary-wacMzS/handbook.pdf",
+    "/tmp/goce_pe1_review.28tzLa/egu2018.pdf",
+    "/tmp/udt-goce-docs-CvpkoQ/onorbit.pdf",
+    "/tmp/udt-goce-docs-CvpkoQ/support.html"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T18:14:24.504141+00:00",
+  "duration_seconds": 0.028923638004926033,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7400
+}

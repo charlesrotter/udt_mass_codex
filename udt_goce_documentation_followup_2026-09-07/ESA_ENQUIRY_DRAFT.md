@@ -28,6 +28,9 @@ For EGG_NOM_1B baseline0202, which documents or support records establish:
    gap/edge treatment and adaptive masking, or equivalent support bounds;
    and any validated end-to-end sensitivity to trace departures, including
    calibration refitting/selection when inputs are reused?
+   Does the2008 L1b handbook's Table43 trace-threshold flag `Qual_Flag_Ggt`
+   have a0202 counterpart, and does it only annotate records or influence
+   calibration, processing, weighting or recommended exclusions?
 4. Appropriate joint uncertainty/correlation information or conservative
    bounds for a contrast of the diagonal sum, including calibration and
    angular-rate contributions and cross-epoch/cross-channel effects?
@@ -51,4 +54,5 @@ Public reference: [TN3397](https://earth.esa.int/eogateway/documents/d/earth-onl
 
 Internal handling note (not part of message): no repository paths, candidate
 artifacts, unpublished claims, observations or attachments are included in
-the proposed message. Review is pending. Do not submit without approval.
+the proposed message. Review status is recorded separately. Do not submit
+without approval.
