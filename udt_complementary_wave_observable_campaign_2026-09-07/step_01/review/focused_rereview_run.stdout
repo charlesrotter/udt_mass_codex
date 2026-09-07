@@ -1,0 +1,10 @@
+{
+  "R1_correct_variance": 3.0,
+  "R1_initial_wrong_variance": 1.0,
+  "actual_wrong_conjugation_expression_mutation_rejected": true,
+  "all_original_result_fields_unchanged_except_added_guard": true,
+  "python": "3.10.12",
+  "repaired_stdout_byte_identical": true,
+  "scope": "Focused finite repair verification; no event data or instrument recertification",
+  "source_hashes_and_preserved_originals_match": true
+}

@@ -1,0 +1,54 @@
+{
+  "candidate_imports": false,
+  "checks": {
+    "channel_specific_nuisance_saturation": true,
+    "direct_linearized_riemann_ricci_zero": true,
+    "electric_tide_sign_and_factor": true,
+    "near_aligned_full_rank_noise_amplification": true,
+    "nine_exact_waveform_recovery_cases": true,
+    "nonzero_alternative_invisible_to_null_separator": true,
+    "physical_unit_arm_detector_projection": true,
+    "rank_one_predictable_and_unpredictable_holdout_separator": true,
+    "three_channel_rank_two_null_dimension_one": true
+  },
+  "detector_rows": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "-7/25",
+      "24/25"
+    ],
+    [
+      "-119/169",
+      "120/169"
+    ]
+  ],
+  "electric_tide": [
+    [
+      "-3",
+      "2",
+      "0"
+    ],
+    [
+      "2",
+      "3",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "evidence_kind": "finite exact-rational independent anchors, not observational data",
+  "near_aligned_inverse_cross_coefficient": "1000000000002000000000001/3999999999996000000",
+  "near_aligned_spurious_cross_from_0.001_channel_error": 250.00000000075,
+  "null_vector": [
+    "2016/4225",
+    "-120/169",
+    "24/25"
+  ],
+  "python": "3.10.12"
+}

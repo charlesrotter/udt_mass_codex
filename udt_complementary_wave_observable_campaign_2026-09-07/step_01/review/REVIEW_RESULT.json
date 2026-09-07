@@ -1,0 +1,96 @@
+{
+  "review_id": "CO1",
+  "reviewer": "/root/co1_geometry_review",
+  "completed_utc": "2026-09-07T22:13:00Z",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Conditional local weak tensor wave tidal readout and fixed-sky two-arbitrary-waveform rank/null/holdout criterion; not empirical instrument certification or scientific promotion",
+  "pinned_head": "9ed73efe3d7d24a5fd6666bd904557cf0b24e0fd",
+  "branch": "grok",
+  "independence": {
+    "context": "fresh separate context",
+    "exact_model": "UNKNOWN",
+    "different_model": "UNTESTED",
+    "human_specialist": "UNTESTED",
+    "formal_verification": "UNTESTED",
+    "argument": "source-first independent reconstruction sealed before CO1 candidate/code/output exposure",
+    "implementation": "independent standard-library rational metric-jet and linear algebra anchors; same-code SymPy replay separately classified as regression",
+    "exposure": "Task question and proposed EM-sky route; previous ORS1 and LC2 outcomes; primary public outcome summaries; after seal, parent candidate outline and parent-disclosed Z typo; then direct CO1 candidate/code/output"
+  },
+  "reviewed_artifacts": {
+    "step_01/CANDIDATE.md": "c5dd7945858f287845ebfbf6f38e0bdf9bc929e66463abd8b08105959a3d7ad0",
+    "step_01/geometry_checks.py": "48766db54bbff840ac3fad54c54f8d18061bcc9290480694e6f02f8ebbdc6819",
+    "step_01/repair_run.stdout": "37854cc5c016d268181f8fd071c078f1b94abd1b40be8a01832416c90fefd9c5",
+    "step_01/INITIAL_CANDIDATE.md": "478100481ea75cc363b8c0c60c0f7e2338fbdc600db0bee140b1a2d16feb92b4",
+    "step_01/INITIAL_geometry_checks.py": "df61009c19d4755e3ec17fcc60219ae0e0f01aa0f66045531d75dc588a5a02a1",
+    "step_01/geometry_run.stdout": "1ce4666a64540ee8eec49bc82ffc1b64a9264e0e9eb68752244612c527a4e9e5",
+    "step_01/review/SOURCE_FIRST_SEAL.md": "39f13d608c7c205782f481c02227dc50d81c7917ab8ad8db0b3cf3a25251dab2",
+    "step_01/review/INITIAL_REVIEW.md": "67f45bebef4c6742e288b08f3a16f69fc60b57cbf234332c9390bf432e913582",
+    "step_01/review/independent_checks.py": "abf1bb4fcaa78e8aea98a257ed25e2398700de18d86c489144ac7ea6ff2c9bc4",
+    "step_01/review/independent_run.stdout": "5f5874c58ba9268ebba8fca427b317554e3aaf39bdc3b1ef56d507d54378cc7b",
+    "step_01/review/independent_ppwave.py": "56ed6b5521fc26791a1049eb5b7e64c2526ae0dbdb260b736bb04e9d6d5df795",
+    "step_01/review/ppwave_run.stdout": "918c002ebe200e405f13114eeccedc00e388134139d74101e1231a99d7fa1279",
+    "step_01/review/complex_variance_diagnostic.py": "b760f603a1f22ed66d46bc0acf580326e89877803b882d4376549798af888425",
+    "step_01/review/complex_variance_run.stdout": "dc0dce56c34f97f22bab3aabb7c7b20b917f39df24783df3893c7fd3de8d7848",
+    "step_01/review/focused_rereview.py": "53d87c7fe148bddd6bd382e08ea59acb2c048b5934932ca5ae660077421fd76a",
+    "step_01/review/focused_rereview_run.stdout": "217941036f6b6c8c9a40b16e0949b8943216520e57703cfe6c3d974ec3c7dd8d"
+  },
+  "repair": {
+    "rounds_used": 1,
+    "initial_verdict": "REPAIR_REQUIRED__CORE_LANDING_RETAINED",
+    "R1a": "CLOSED: columns of N-by-(N-r) Z span ker(F^dagger); parent-disclosed and independently confirmed",
+    "R1b": "CLOSED: complex coefficient-row covariance is b C b^dagger; centered stochastic error and nonzero bias/second-moment distinction explicit; reviewer-discovered positive-definite 3-versus-1 counterexample retained",
+    "optional_rank_one_clarification": "ACCEPTED: holdout predictability iff row belongs to training rowspace",
+    "originals_preserved": true,
+    "unresolved_load_bearing_objections": []
+  },
+  "checks": {
+    "independent_linearized_riemann_and_rational_detector_algebra": "PASS; nine waveform cases and degeneracy/separator examples",
+    "independent_exact_ppwave_metric_jet_reconstruction": "PASS; three jets, not a finite proof of arbitrary-function theorem",
+    "initial_candidate_replay": "PASS; byte-identical stdout",
+    "repaired_candidate_replay": "PASS; byte-identical stdout and unchanged original result fields except added block/guard",
+    "actual_wrong_conjugation_expression_mutation": "REJECTED by repaired numerical assertion",
+    "independent_complex_covariance": "correct3 versus initial1",
+    "repaired_prose_diff_and_centering": "PASS",
+    "source_first_pins_and_preserved_originals": "PASS"
+  },
+  "premise_audit": {
+    "artifact": "STARTUP_PREMISE_AUDIT.json",
+    "sha256": "31691c686f06aca6b5eafe221b4d760b5b5ff4b81a9f17b78f7e58f438cfb48c",
+    "actual_parent_result": "exit0/PASS349/empty stderr/401.315662 seconds",
+    "reviewer_independently_replayed": false,
+    "reviewer_inspected_and_hashed": true
+  },
+  "resources": {
+    "python": "3.10.12",
+    "sympy_shared_replay": "1.13.1",
+    "per_check_address_space_bytes": 536870912,
+    "per_check_cpu_wall_seconds": 60,
+    "max_short_cpu_children_per_context": 1,
+    "gpu_processes": 0,
+    "within_30_minute_review_allowance": true,
+    "focused_rereview_duration_seconds": 0.3710549740062561
+  },
+  "caveats": [
+    "W4 working premise and G312 owner-provisional premises are not derived or canon",
+    "Instrument response/calibration/units, detector worldlines and query sky are supplied",
+    "Weak-plane-wave/long-wavelength/frozen-frame approximation needs bounded corrections before precision testing",
+    "Rank and algebraic null information do not establish noise-limited sensitivity, statistical independence or significance",
+    "EM counterpart association and astrometry, GW-triggered event selection and public outcome exposure remain conditional",
+    "Sky or nuisance fitted on a contrast makes it a fitted model residual requiring calibrated selection/error treatment",
+    "Arbitrary channel errors erase restrictions; null tests cannot identify every alternative polarization",
+    "No DC/full Weyl/full metric reconstruction or global joining to the clock benchmark follows",
+    "No strain/PSD arrays, real detector conditioning, source dynamics, metrology recertification or complete theorem suites replayed",
+    "Full349-row premise audit inspected, not independently replayed"
+  ],
+  "permissions_and_scope": {
+    "writes_only_assigned_review_directory": true,
+    "protected_payloads_read_or_hashed": false,
+    "goce_work": false,
+    "observational_fit": false,
+    "scientific_promotion": false,
+    "canon_or_fixed_manuscript_change": false,
+    "git_write": false,
+    "co2_geometry_or_data_analysis_performed_by_reviewer": false,
+    "authorized_co2_design_may_proceed_with_own_review": true
+  }
+}

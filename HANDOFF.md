@@ -112,9 +112,12 @@ Ratios alone do not fix scale; dimensional anchors may fix it in an identified f
 Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
 Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
 No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
-The benchmark authorization is exhausted; no new campaign is authorized.
-Next is Charles's direction decision on a complementary geometric observable or the
-parallel geometric/emergence line, not another repetition of this scalar comparison.
+The clock benchmark authorization is exhausted. Charles now authorized the complementary
+observable direction; its two-step/two-hour scope and fresh-review cycle are recorded in
+`udt_complementary_wave_observable_campaign_2026-09-07/CAMPAIGN_LOG.md`.
+Examine wave tidal geometry, unrestricted tensor-waveform network information and a practical
+fixed-query design, with supplied instrument/astrometric assumptions; no fitting or promotion.
+Beyond this bounded task, no new campaign is authorized; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

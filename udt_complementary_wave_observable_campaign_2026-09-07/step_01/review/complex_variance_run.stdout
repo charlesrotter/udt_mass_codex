@@ -1,0 +1,9 @@
+{
+  "python": "3.10.12",
+  "candidate_convention": "w=(-F_J F_T^-1,1), with row r=w d",
+  "correct_row_covariance_w_C_wdagger": 3.0,
+  "incorrect_column_covariance_using_unconjugated_entries": 1.0,
+  "positive_definite_covariance": true,
+  "all_arithmetic_exactly_representable_dyadic_complex": true,
+  "repair": "Declare row b=(-F_J F_T^-1,1), r=b d, Var(r)=b C b^dagger; or set column w=b^dagger."
+}

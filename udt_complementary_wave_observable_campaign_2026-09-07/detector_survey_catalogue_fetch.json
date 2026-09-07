@@ -1,0 +1,24 @@
+{
+  "command": [
+    "curl",
+    "-L",
+    "--fail",
+    "--max-time",
+    "45",
+    "--max-filesize",
+    "2000000",
+    "-o",
+    "/tmp/udt-complementary-wave-sources-C72KZ2/T980044.html",
+    "-w",
+    "%{http_code} %{size_download}\\n",
+    "https://dcc.ligo.org/T980044/public"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:04:12.825376+00:00",
+  "duration_seconds": 0.37516996799968183,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12864
+}

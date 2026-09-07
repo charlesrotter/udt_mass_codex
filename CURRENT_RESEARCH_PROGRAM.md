@@ -149,9 +149,12 @@ Source and review repairs are preserved. Existing SNe assessments were reused wi
 Ideal complementary tides remain mathematical groundwork, not an available real-data experiment;
 coherent geometric calibration and emergence remain parallel, neither a prerequisite for the other.
 No correspondence, purchases, physical adoption, grades, canon or fixed-manuscript changes;
-The benchmark authorization is exhausted; no new campaign is authorized.
-Next is Charles's direction decision on a complementary geometric observable or the
-parallel geometric/emergence line, not another repetition of this scalar comparison.
+The clock benchmark authorization is exhausted. Charles now authorized the complementary
+observable direction; its two-step/two-hour scope and fresh-review cycle are recorded in
+`udt_complementary_wave_observable_campaign_2026-09-07/CAMPAIGN_LOG.md`.
+Examine wave tidal geometry, unrestricted tensor-waveform network information and a practical
+fixed-query design, with supplied instrument/astrometric assumptions; no fitting or promotion.
+Beyond this bounded task, no new campaign is authorized; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is

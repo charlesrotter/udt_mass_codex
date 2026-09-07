@@ -1,0 +1,38 @@
+{
+  "status": "PASS_SYMBOLIC_GEOMETRY_AND_FINITE_ALGEBRA",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "coordinate_order": [
+    "u",
+    "v",
+    "x",
+    "y"
+  ],
+  "metric_determinant": "-1",
+  "Ricci": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "R_uiuj": "Matrix([[-A(u), -B(u)], [-B(u), A(u)]])",
+  "generic_null_vector": "Matrix([[c*f - d*e], [-a*f + b*e], [a*d - b*c]])",
+  "generic_null_identity": "Matrix([[0, 0]])",
+  "finite_F": "Matrix([[1, 0], [0, 1], [2, 3]])",
+  "finite_null": "Matrix([[-2], [-3], [1]])",
+  "nonwhite_signal_null_noise_covariance": "Matrix([[4], [3]])",
+  "rank_deficient_null_dimension": 2,
+  "complex_covariance_R1": {
+    "coefficient_row": "Matrix([[-I, 0, 1]])",
+    "positive_definite_covariance": "Matrix([[1, 0, I/2], [0, 1, 0], [-I/2, 0, 1]])",
+    "correct_variance": "3",
+    "wrong_unconjugated_column_variance": "1"
+  },
+  "finite_defects_rejected": [
+    "wrong_tidal_sign",
+    "lost_cross_polarization",
+    "false_null_vector",
+    "two_detector_unused_channel",
+    "rank_deficient_still_two_reconstructible",
+    "arbitrary_covariance_independence",
+    "R1_missing_complex_conjugation"
+  ],
+  "scope": "Exact pp-wave Ricci/tides and polynomial null identity; finite controls are not proof of all metrology or statistical independence",
+  "no_data_fit": true,
+  "physical_identification": false
+}
