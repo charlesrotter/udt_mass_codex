@@ -1,0 +1,15 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/author_commutator_active.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/author_commutator_replay.stdout && cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/author_recipe_data.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/author_recipe_replay.stdout && cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/mutant_omit_div_curvature.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/replay_omit_div_curvature.stdout && cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/mutant_omit_Ricci.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/replay_omit_Ricci.stdout && cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/mutant_half_curvature.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/replay_half_curvature.stdout && cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/mutant_free_normal.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/replay_free_normal.stdout && cmp udt_phase_current_product_persistence_campaign_2026-09-07/step_02/mutant_omit_projection.stdout udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/replay_omit_projection.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T05:07:54.104357+00:00",
+  "duration_seconds": 0.00620038399938494,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7764
+}

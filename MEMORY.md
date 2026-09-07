@@ -31,11 +31,11 @@ G352 physical identification remains OPEN. No fifth step in that old campaign is
 Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from the completed
 five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
 history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Full metric-data realization and curvature-recipe/product persistence remain unestablished.
+Generic metric-data realization and recipe/product persistence remain open.
 Charles approved the bounded persistence campaign on admitted metric developments,
 at most three reviewed steps or four hours:
 `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its compact log.
-PC1 initial-data/root-domain candidate reviewed; PC2 propagation candidate frozen; no promotion.
+PC1/PC2 conditionally reviewed: local sufficient-class preservation. PC3 phase/product frozen for review; no promotion.
 Old evidence is unchanged. Beyond this work order, no new campaign is authorized.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.

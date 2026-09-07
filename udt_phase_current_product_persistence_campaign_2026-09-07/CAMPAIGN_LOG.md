@@ -6,8 +6,8 @@ Owner authorized the existing proposal in full. No scientific promotion authoriz
 | Step | Question | State | Review/repair |
 |---|---|---|---|
 | PC1 | Recipe domain and full spacelike lawful-data interface | VERIFIED-WITH-CAVEATS; frozen2112f808 | Fresh source-first/direct review closed;0/1 repairs |
-| PC2 | Parallel-seed propagation and full old recipe preservation on eligible class | Candidate frozen; complete bundle identity and initial normal data argument | New fresh source-first context active;0/1 repairs |
-| PC3 | Only a distinct useful boundary left by PC2 | Not dispatched | Not presumed necessary |
+| PC2 | Parallel-seed propagation and full old recipe preservation on eligible class | VERIFIED-WITH-CAVEATS; frozen e4071d09 | Fresh source-first/direct review closed;0/1 repairs |
+| PC3 | Fixed phase/labels/product persistence on the reviewed invariant class | Candidate frozen;16 author groups and4 mutant catches | Final step; fresh source-first seal ready; direct review pending;0/1 repairs |
 
 Startup:343-row main premise audit PASS399.252s; exact command/streams preserved.
 No existing registry/status/verifier file changed during that audit.46 unrelated

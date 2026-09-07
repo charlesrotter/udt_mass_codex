@@ -1,0 +1,1 @@
+{"status": "FAIL", "guard": "initial_q_is_screen_square", "mutant": "omit_projection", "passed": ["normal_not_independent"]}

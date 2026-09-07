@@ -1,0 +1,1 @@
+{"status": "FAIL", "guard": "full_future_phase_normalization", "mutant": "past_phase", "passed": ["generic_full_schur_coarea", "nonorthogonal_phase_labels_retained", "complete_sloped_spacelike_graph", "positive_initial_flux_factor"]}

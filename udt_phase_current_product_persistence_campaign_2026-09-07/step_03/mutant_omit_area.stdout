@@ -1,0 +1,1 @@
+{"status": "FAIL", "guard": "full_phase_label_volume_coarea", "mutant": "omit_area", "passed": ["generic_full_schur_coarea", "nonorthogonal_phase_labels_retained", "complete_sloped_spacelike_graph", "positive_initial_flux_factor", "full_future_phase_normalization"]}
