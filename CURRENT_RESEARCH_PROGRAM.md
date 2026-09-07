@@ -122,7 +122,16 @@ The historical trace-threshold monitoring flag prompts a0202 applicability/selec
 not a claim of current censoring or trace erasure. Release-specific retained response,
 calibration/support/error bounds and arm/channel convention still require evidence.
 Equivalent trusted documentation or justified bounds may suffice without every raw sample.
-Sending the draft needs Charles's approval; no new campaign is authorized.
+Charles approved the enquiry wording and will submit the clean message himself.
+GOCE status is APPROVED FOR SUBMISSION — NOT SENT, product eligibility OPEN.
+Only actual reported submission permits AWAITING_EXTERNAL_DOCUMENTATION status.
+Official destination and send-ready message:
+`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/DESTINATION_AND_STATUS.md`.
+Do not repeat completed searches or begin empirical analysis without new evidence/authority.
+The independent proposal compares finite timelike tidal reconstruction/unused constraints with
+root-only aligned-phase eligibility; it recommends the former, FOR APPROVAL ONLY:
+`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+No new constraint or phase theorem is claimed; no new campaign is authorized.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is

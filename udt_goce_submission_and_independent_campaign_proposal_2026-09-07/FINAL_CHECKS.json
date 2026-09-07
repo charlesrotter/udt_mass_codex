@@ -1,0 +1,22 @@
+{
+  "baseline": "49407792b70c156f7bdca800b667935589f34a08",
+  "scope": "submission presentation, official route, proposal and tracking fidelity only",
+  "submission_status": "APPROVED_FOR_SUBMISSION__NOT_SENT",
+  "product_eligibility": "OPEN",
+  "full_premise_audit": "PASS; main-context run, before status edits",
+  "post_edit_startup_status": "PASS; existing scoped validator, not full replay",
+  "approved_message_fidelity": "PASS after explicit formatting/signature substitutions",
+  "review": "VERIFIED_WITH_CAVEATS; fresh separate context; no post-freeze substantive repair",
+  "prior_followup_payload_manifest": "PASS, 59 payloads",
+  "scientific_source_diffs": "empty for named existing source targets",
+  "core_hashes": "unchanged including registry, canon and actual fixed manuscript/coverage",
+  "unrelated_untracked_names": {"count": 46, "unchanged": true, "payload_inspection": false},
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "scratch_disk": "not used; archive-dependent blocker only",
+  "new_campaign_started": false,
+  "empirical_analysis_started": false,
+  "message_sent": false,
+  "repository_material_attached": false,
+  "integration": "commit/push outcome to be independently checked after this evidence freeze"
+}

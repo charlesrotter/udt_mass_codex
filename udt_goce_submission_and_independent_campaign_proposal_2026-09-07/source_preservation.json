@@ -1,0 +1,32 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "index.threads=1",
+    "diff",
+    "--exit-code",
+    "49407792b70c156f7bdca800b667935589f34a08",
+    "--",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CANON.md",
+    "UDT_CENTRAL_MANUSCRIPT.md",
+    "UDT_CENTRAL_MANUSCRIPT_COVERAGE.tsv",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "verify_current_scientific_premises.py",
+    "udt_goce_documentation_followup_2026-09-07",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06",
+    "udt_g334_boosted_pair_first_jet_response_2026-09-03"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T19:31:16.341873+00:00",
+  "duration_seconds": 0.008487048005918041,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14016
+}

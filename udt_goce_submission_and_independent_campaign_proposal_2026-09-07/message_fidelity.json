@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path; import json; p=Path(\"/home/udt-admin/udt_mass_codex\"); src=(p/\"udt_goce_documentation_followup_2026-09-07/ESA_ENQUIRY_DRAFT.md\").read_text(); a=src[src.index(\"Subject:\"):].split(\"\\nInternal handling note\")[0].strip(); pairs=[(\"baseline0202\",\"baseline 0202\"),(\"Level1b\",\"Level 1b\"),(\"EGG_NOM07.00\",\"EGG_NOM 07.00\"),(\"issue1.0\",\"issue 1.0\"),(\"27Aug2018\",\"27 August 2018\"),(\"the2008\",\"the 2008\"),(\"Table43\",\"Table 43\"),(\"a0202\",\"a baseline 0202\"),(\"eqs6\",\"equations 6\"),(\"Algorithm16\",\"Algorithm 16\"),(\"factor2\",\"factor 2\"),(\"[Name]\",\"Charles Rotter\")];\nfor old,new in pairs: a=a.replace(old,new)\nu=\"https://earth.esa.int/eogateway/documents/d/earth-online/goce-level-1b-gravity-gradient-processing-algorithms\"; a=a.replace(\"[TN3397](\"+u+\").\",u).replace(chr(96),\"\"); b=(p/\"udt_goce_submission_and_independent_campaign_proposal_2026-09-07/ESA_ENQUIRY.md\").read_text(); norm=lambda s:\" \".join(s.split()); matched=norm(a)==norm(b); print(json.dumps(dict(approved_body_matches_after_declared_copyedits=matched,transformations=pairs,public_reference_formatting_only=True,signature=\"Charles Rotter\",no_internal_heading_or_note=all(x not in b for x in [\"Internal handling\",\"DRAFT FOR\",\"/home/\",\"/tmp/\",\"udt_\"]),not_a_scientific_test=True))); assert matched"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T19:25:54.690681+00:00",
+  "duration_seconds": 0.014169272006256506,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 10560
+}

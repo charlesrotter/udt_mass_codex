@@ -131,7 +131,13 @@ not another compatibility campaign. Current assessment and UNSENT ESA enquiry:
 their review status. Historical header/configuration pointers, approximate attitude covariance
 and trace-monitoring flag are distinguished from actual0202 behavior. Release-specific
 retained-response, selection/support, errors and arm/channel convention remain OPEN.
-Charles's approval is required before sending the enquiry; no new campaign is authorized.
+Charles approved the substantive enquiry. GOCE is APPROVED FOR SUBMISSION — NOT SENT;
+Charles will submit it himself. Clean message/destination and a repository-only campaign proposal:
+`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/DESTINATION_AND_STATUS.md`;
+`udt_goce_submission_and_independent_campaign_proposal_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
+Do not record awaiting external documentation until actual submission is reported.
+Product eligibility remains OPEN; no repeated completed searches or empirical analysis without
+new evidence/authority. The next campaign requires Charles's approval; no new campaign is authorized.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.

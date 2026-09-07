@@ -1,0 +1,20 @@
+{
+  "command": [
+    "sha256sum",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "CANON.md",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "verify_current_scientific_premises.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T19:31:50.174548+00:00",
+  "duration_seconds": 0.008741318000829779,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7376
+}
