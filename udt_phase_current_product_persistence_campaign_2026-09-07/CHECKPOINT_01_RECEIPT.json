@@ -1,0 +1,21 @@
+{
+  "baseline": "94b1141119894f4ad75f3d338f0ec8d41df0bc42",
+  "commit": "2112f80867d38e4707c5f69898bd84914754c407",
+  "branch": "grok",
+  "push": {
+    "command": "git push origin grok",
+    "returncode": 0,
+    "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   94b11411..2112f808  grok -> grok\n"
+  },
+  "remote_check_initial": {
+    "command": "git ls-remote origin refs/heads/grok",
+    "returncode": 128,
+    "stderr": "fatal: unable to access 'https://github.com/charlesrotter/udt_mass_codex.git/': Could not resolve host: github.com\n"
+  },
+  "remote_check_escalated": {
+    "command": "git ls-remote origin refs/heads/grok",
+    "returncode": 0,
+    "stdout": "2112f80867d38e4707c5f69898bd84914754c407\trefs/heads/grok\n"
+  },
+  "scope": "Candidate checkpoint only, not scientific promotion; reviewer StageB still running at this receipt."
+}

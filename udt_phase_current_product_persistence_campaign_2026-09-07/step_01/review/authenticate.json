@@ -1,0 +1,17 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/FREEZE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/SOURCE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/review/STAGE_A_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T04:52:34.599440+00:00",
+  "duration_seconds": 0.005839163997734431,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7864
+}

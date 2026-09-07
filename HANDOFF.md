@@ -71,7 +71,7 @@ Charles approved the recipe-persistence campaign on admitted developments: at mo
 steps or four hours, with full data/domain gates. Active work order and log:
 `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`,
 `udt_phase_current_product_persistence_campaign_2026-09-07/CAMPAIGN_LOG.md`.
-PC1 initial-data/root-domain candidate is frozen for fresh review; propagation is not yet established.
+PC1 initial-data/root-domain candidate reviewed; PC2 propagation candidate frozen for fresh review.
 The old source campaigns remain unchanged. Beyond this work order, no new campaign is authorized.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

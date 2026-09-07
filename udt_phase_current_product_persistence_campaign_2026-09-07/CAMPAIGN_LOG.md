@@ -5,8 +5,9 @@ Owner authorized the existing proposal in full. No scientific promotion authoriz
 
 | Step | Question | State | Review/repair |
 |---|---|---|---|
-| PC1 | Recipe domain and full spacelike lawful-data interface | Candidate frozen after finite scalar/Weyl diagnostic;17 author checks and3 mutant catches | Fresh source-first context active; direct review pending;0/1 repairs |
-| Subsequent | Chosen from the reviewed preceding result | Not yet dispatched | Not presumed necessary |
+| PC1 | Recipe domain and full spacelike lawful-data interface | VERIFIED-WITH-CAVEATS; frozen2112f808 | Fresh source-first/direct review closed;0/1 repairs |
+| PC2 | Parallel-seed propagation and full old recipe preservation on eligible class | Candidate frozen; complete bundle identity and initial normal data argument | New fresh source-first context active;0/1 repairs |
+| PC3 | Only a distinct useful boundary left by PC2 | Not dispatched | Not presumed necessary |
 
 Startup:343-row main premise audit PASS399.252s; exact command/streams preserved.
 No existing registry/status/verifier file changed during that audit.46 unrelated
@@ -17,3 +18,8 @@ TypeError/code correction. No mathematical premise or accepted source changed.
 Full spacelike seed equations and original general-H constraint residuals checked.
 The candidate root gate is conditional on this declared sufficient class;
 normal recurrence and propagation remain open pending a distinct reviewed step.
+PC2 uses a declared conditional local linear-wave method on the ACTUAL metric,
+not a metric production solve or physical field. An off-equation commutator
+control first failed its term-activity guard; original evidence retained and
+control changed before freeze. Full16-component identity and11 recipe/data
+groups pass; all5 actual omissions fail. PDE proof remains under fresh review.

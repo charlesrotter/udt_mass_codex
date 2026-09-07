@@ -81,7 +81,7 @@ not full lawful-data/PDE realization; free phase propagation is not recipe/produ
 Charles approved the bounded persistence campaign on admitted metric developments: at most three
 reviewed steps or four hours, starting with recipe-domain and complete initial-data compatibility.
 Active work order: `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
-its compact `CAMPAIGN_LOG.md` owns candidate/review progress. PC1 is frozen for fresh review,
+its compact `CAMPAIGN_LOG.md` owns progress. PC1 reviewed; PC2 propagation candidate frozen for review,
 not a persistence result or accepted scientific grade. Beyond this work order, no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is

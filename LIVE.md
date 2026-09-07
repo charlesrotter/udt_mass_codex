@@ -111,7 +111,7 @@ Algebraic compatibility is not full metric-development realization; free phase p
 curvature-recipe/product persistence. The original completed campaign remains unchanged.
 Charles approved the persistence campaign: max3 reviewed steps/4hours. Scope/log:
 `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its
-`CAMPAIGN_LOG.md`. PC1 initial-data/root-domain candidate is frozen for review;
+`CAMPAIGN_LOG.md`. PC1 initial-data/root-domain candidate reviewed; PC2 propagation candidate frozen;
 no persistence conclusion or scientific promotion yet. Beyond this work order, no new campaign is authorized.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.

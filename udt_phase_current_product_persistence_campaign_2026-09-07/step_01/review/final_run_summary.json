@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib; r=pathlib.Path('udt_phase_current_product_persistence_campaign_2026-09-07/step_01/review'); p=r.parent; names=['authenticate','compare_frozen','author_replay','replay_drop_dual','replay_wrong_K_sign','replay_erase_scalar']; records={n:json.loads((r/(n+'.json')).read_text()) for n in names}; assert [records[n]['returncode'] for n in names]==[0,0,0,1,1,1]; assert (p/'author_exact.stdout').read_bytes()==(r/'author_replay.stdout').read_bytes(); failures={n:json.loads((r/(n+'.stdout')).read_text())['guard'] for n in names[3:]}; assert list(failures.values())==['full_fourth_power_coefficient','K_from_full_ambient_definition','scalar_not_erased']; print(json.dumps({'status':'PASS','baseline_byte_identical':True,'mutation_first_guards':failures,'checked_manifests':[len((f).read_text().splitlines()) for f in [p/'FREEZE_SHA256SUMS',p/'SOURCE_SHA256SUMS',r/'STAGE_A_SHA256SUMS']],'report_sha256':hashlib.sha256((r/'PHASE_B_ADVERSARIAL_REVIEW.md').read_bytes()).hexdigest()},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T04:55:38.621541+00:00",
+  "duration_seconds": 0.015664441001717933,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14016
+}

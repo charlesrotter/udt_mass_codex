@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "B_components_compared": 256,
+  "parameter_translation": "author(c,i,j)=(-Lambda,z19,-z20)",
+  "checks": {
+    "gamma": true,
+    "K": true,
+    "scalar_three": true,
+    "hamiltonian": true,
+    "momentum": true,
+    "f": true,
+    "Y": true,
+    "full_root_obstruction": true
+  },
+  "hamiltonian": "(-Derivative(H(u, x, y), (x, 2)) - Derivative(H(u, x, y), (y, 2)))/(2*c + H(u, x, y))",
+  "momentum": [
+    "(Derivative(H(u, x, y), (x, 2)) + Derivative(H(u, x, y), (y, 2)))/(2*sqrt(2*c + H(u, x, y)))",
+    "0",
+    "0"
+  ],
+  "implementation": "independent reviewer tensor code plus exposed general-graph comparison; no author imports",
+  "exposure": "candidate, author code and saved results exposed before this comparator was written"
+}

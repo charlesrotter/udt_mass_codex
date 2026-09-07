@@ -1,0 +1,90 @@
+{
+  "B0000": "2*Lambda**2/3 + 4*z19**2 + 4*z20**2",
+  "B0011": "4*Lambda**2/9 - 4*Lambda*z20/3",
+  "B1111": "2*Lambda**2/3",
+  "Lambda": "Lambda",
+  "Lambda0_fourth_coefficient": "4*(z19**2 + z20**2)",
+  "Weyl_quartic_minor": "4*Lambda**2*(5*Lambda**2 + 24*Lambda*z20 + 54*z19**2 + 18*z20**2)/81",
+  "author_imports": false,
+  "complete_graph": {
+    "H": "x**3 - 3*x*y**2",
+    "Hamiltonian": "0",
+    "K": "Matrix([[0, (3*x**2 - 3*y**2)/(2*sqrt(x**3 - 3*x*y**2 + 2)), -3*x*y/sqrt(x**3 - 3*x*y**2 + 2)], [(3*x**2 - 3*y**2)/(2*sqrt(x**3 - 3*x*y**2 + 2)), 0, 0], [-3*x*y/sqrt(x**3 - 3*x*y**2 + 2), 0, 0]])",
+    "L": "x**3 - 3*x*y**2 + 2",
+    "R3": "9*(x**4 + 2*x**2*y**2 + y**4)/(2*(x**6 - 6*x**4*y**2 + 4*x**3 + 9*x**2*y**4 - 12*x*y**2 + 4))",
+    "Y": "Matrix([[-1/(x**3 - 3*x*y**2 + 2)], [0], [0]])",
+    "f": "1/sqrt(x**3 - 3*x*y**2 + 2)",
+    "gamma": "Matrix([[x**3 - 3*x*y**2 + 2, 0, 0], [0, 1, 0], [0, 0, 1]])",
+    "momentum": [
+      "0",
+      "0",
+      "0"
+    ],
+    "null_norm": "0",
+    "seed_normal": [
+      "0",
+      "0",
+      "0"
+    ],
+    "seed_tangent": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "constraint_rank": 19,
+  "curvature_variables": 22,
+  "electric_matrix": "Matrix([[z20, -z19, 0], [-z19, -z20, 0], [0, 0, -Lambda]])",
+  "exact": true,
+  "full_annihilation_defect": [
+    "-Lambda",
+    "Lambda"
+  ],
+  "python": "3.10.12",
+  "remaining_parameters": [
+    "Lambda",
+    "z19",
+    "z20"
+  ],
+  "sources": {
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/solution-space-not-imposition/SKILL.md": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "AGENTS.md": "f1634dfb24e7e69125f0cc788666fb95fa40bca41a377a2c35e3c874154e50b0",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
+    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+    "udt_g313_curvature_phase_current_candidate_2026-09-06/CANDIDATE_ARGUMENT.md": "3e86e25896faa1b917d686bbe1b5d52134f21e25ce8737e1ecde43c217c81a36",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+    "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/EXACT_DERIVATION.md": "27ed748fd4d944746d88b6227eb0f4f186628770f4b1a6a9fc9d84563ccc84f4",
+    "udt_g335_local_pair_response_persistence_2026-09-03/EXACT_DERIVATION.md": "5b75fae56835a9ef01c92e9278da4533ad9841e19dc352b17ae323df4da326fd",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md": "a007c5a4e34012698687e81a43a13692a2f3799df3db963370b33c3aa92bd3bb",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/REVIEW_RECORD.md": "d95f6b0cd0e1abbfd4734104cf13af4127a2b88382b3c2b1cb27663043d11866",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/STAGE_B_ADVERSARIAL_REVIEW.md": "28462569691deaea5467f4c76a22363861a4b6a72d057f2b9db0a1a1b8bc6843",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md": "1ba59226944652bc4cc444f20d26c4fc9b9c80e1beea8a842be8151d64395849",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/REVIEW_RECORD.md": "e89cf5131c7abfc26a2a25aa4c84e4a0919ce50ceae8ba2d3005fdf6d85d7b88",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review/STAGE_B_ADVERSARIAL_REVIEW.md": "0339451ddac6774fbf032af39a29c29e4397a853bbbc1619c51b98025e33b3f1",
+    "udt_g353_g356_conditional_banking_2026-09-06/BANKING_RECORD.md": "750fd4758e87c7c99f58786d5ed4e1ea4b2e1d1386032a7d1f9a106b1d3ad8ff",
+    "udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md": "34588fee0d20bbfb2de12dc2dc31d743e36f300af94bfe5ccb58595c2ac73a1a",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md": "7965d72565bca6facb12355b7e07989174c1e96fe2101068e31e310705dd8a24",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/QUESTION.md": "4cd7d6273b4e0d4f6619e2060d0930615f0a12caf89c5994086035e06f2a2dc3",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903"
+  },
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

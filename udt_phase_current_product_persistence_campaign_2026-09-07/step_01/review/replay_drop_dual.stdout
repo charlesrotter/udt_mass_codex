@@ -1,0 +1,1 @@
+{"status": "FAIL", "guard": "full_fourth_power_coefficient", "mutant": "drop_dual", "passed": ["complete_seed_linear_rank_eight", "entire_three_parameter_solution", "scalar_not_erased", "ambient_annihilation_iff_scalar_zero"]}

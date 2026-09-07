@@ -35,7 +35,7 @@ Full metric-data realization and curvature-recipe/product persistence remain une
 Charles approved the bounded persistence campaign on admitted metric developments,
 at most three reviewed steps or four hours:
 `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its compact log.
-PC1 initial-data/root-domain candidate is frozen for fresh review; no propagation or promotion yet.
+PC1 initial-data/root-domain candidate reviewed; PC2 propagation candidate frozen; no promotion.
 Old evidence is unchanged. Beyond this work order, no new campaign is authorized.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "baseline_byte_identical": true,
+  "mutation_first_guards": {
+    "replay_drop_dual": "full_fourth_power_coefficient",
+    "replay_wrong_K_sign": "K_from_full_ambient_definition",
+    "replay_erase_scalar": "scalar_not_erased"
+  },
+  "checked_manifests": [
+    30,
+    15,
+    11
+  ],
+  "report_sha256": "15a84fd6601ba7627364882ee9b0662d72021a894ec69b98ac1bb418c020a749"
+}

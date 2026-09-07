@@ -1,0 +1,23 @@
+{
+  "arithmetic": "exact symbolic, no floating tolerance",
+  "guard_count": 11,
+  "guards": [
+    "normal_not_independent",
+    "initial_q_is_screen_square",
+    "unit_seed_sphere_control",
+    "null_annihilation",
+    "screen_scalar",
+    "pointwise_closure_kernel",
+    "full_spacelike_initial_scalar_matches_ambient",
+    "full_recurrence_identity",
+    "full_q_contraction",
+    "current_divergence_and_affine_acceleration",
+    "invariant_q_and_root_scale"
+  ],
+  "initial_scalar": "(Derivative(b(u, x, y), x)**2 + Derivative(b(u, x, y), y)**2)/b(u, x, y)**2",
+  "mutant": null,
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "scope": "algebraic initial-data and already harmonic-class controls; general propagation uses analytic proof",
+  "status": "PASS",
+  "sympy": "1.13.1"
+}
