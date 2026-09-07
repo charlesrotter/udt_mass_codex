@@ -1,0 +1,57 @@
+{
+  "K": "Matrix([[Derivative(H(u, x, y), u)/(2*sqrt(2*c + H(u, x, y))), Derivative(H(u, x, y), x)/(2*sqrt(2*c + H(u, x, y))), Derivative(H(u, x, y), y)/(2*sqrt(2*c + H(u, x, y)))], [Derivative(H(u, x, y), x)/(2*sqrt(2*c + H(u, x, y))), 0, 0], [Derivative(H(u, x, y), y)/(2*sqrt(2*c + H(u, x, y))), 0, 0]])",
+  "Y": [
+    "-1/(2*c + H(u, x, y))",
+    "0",
+    "0"
+  ],
+  "arithmetic": "exact symbolic, no floating tolerance",
+  "f": "1/sqrt(2*c + H(u, x, y))",
+  "gamma": "Matrix([[2*c + H(u, x, y), 0, 0], [0, 1, 0], [0, 0, 1]])",
+  "guard_count": 17,
+  "guards": [
+    "complete_seed_linear_rank_eight",
+    "entire_three_parameter_solution",
+    "scalar_not_erased",
+    "ambient_annihilation_iff_scalar_zero",
+    "full_fourth_power_coefficient",
+    "nonzero_scalar_root_obstruction",
+    "zero_tensor_excluded_separately",
+    "induced_full_spacelike_metric",
+    "future_unit_normal",
+    "K_from_full_ambient_definition",
+    "full_seed_decomposition",
+    "null_seed_spatial_norm",
+    "normal_seed_equations",
+    "tangential_seed_equations",
+    "original_hamiltonian_residual",
+    "original_momentum_residual",
+    "nonempty_regular_harmonic_patch"
+  ],
+  "hamiltonian": "(-Derivative(H(u, x, y), (x, 2)) - Derivative(H(u, x, y), (y, 2)))/(2*c + H(u, x, y))",
+  "momentum": [
+    "(Derivative(H(u, x, y), (x, 2)) + Derivative(H(u, x, y), (y, 2)))/(2*sqrt(2*c + H(u, x, y)))",
+    "0",
+    "0"
+  ],
+  "mutant": null,
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "scalar_three": "(-(2*c + H(u, x, y))*(Derivative(H(u, x, y), (x, 2)) + Derivative(H(u, x, y), (y, 2))) - (2*c + H(u, x, y))*Derivative(H(u, x, y), (x, 2)) - (2*c + H(u, x, y))*Derivative(H(u, x, y), (y, 2)) + Derivative(H(u, x, y), x)**2 + Derivative(H(u, x, y), y)**2)/(2*(2*c + H(u, x, y))**2)",
+  "scope": "initial data and algebra only; no recurrence normal derivative or propagation proof",
+  "seed_rank": 8,
+  "solution": [
+    "-j",
+    "j",
+    "c",
+    "-i",
+    "0",
+    "0",
+    "-i",
+    "i",
+    "j",
+    "0",
+    "0"
+  ],
+  "status": "PASS",
+  "sympy": "1.13.1"
+}

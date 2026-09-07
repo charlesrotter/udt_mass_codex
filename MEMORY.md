@@ -32,10 +32,11 @@ Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from 
 five-reviewed-step campaign. SC1 remains a source map. Exact scope and preserved review/false-pass
 history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 Full metric-data realization and curvature-recipe/product persistence remain unestablished.
-Charles's next direction decision is the proposed bounded persistence campaign on admitted metric
-developments, at most three reviewed steps or four hours:
-`udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
-The old source campaign is unchanged; no new campaign is authorized.
+Charles approved the bounded persistence campaign on admitted metric developments,
+at most three reviewed steps or four hours:
+`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md` and its compact log.
+PC1 initial-data/root-domain candidate is frozen for fresh review; no propagation or promotion yet.
+Old evidence is unchanged. Beyond this work order, no new campaign is authorized.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.
 Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.

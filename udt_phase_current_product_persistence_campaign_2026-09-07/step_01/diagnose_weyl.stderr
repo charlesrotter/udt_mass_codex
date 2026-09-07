@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_phase_current_product_persistence_campaign_2026-09-07/step_01/diagnose_weyl.py", line 14, in <module>
+    assert all(s.expand(sum(eta[a]*Q[a,b,c,a] for a in I)-lam*eta[b]*(b==c))==0
+  File "/home/udt-admin/udt_mass_codex/udt_phase_current_product_persistence_campaign_2026-09-07/step_01/diagnose_weyl.py", line 14, in <genexpr>
+    assert all(s.expand(sum(eta[a]*Q[a,b,c,a] for a in I)-lam*eta[b]*(b==c))==0
+TypeError: unsupported operand type(s) for *: 'Add' and 'bool'

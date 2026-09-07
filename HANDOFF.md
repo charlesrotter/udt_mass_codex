@@ -67,10 +67,12 @@ Charles authorized G357--G360 conditional mathematical banking of SC2--SC5 from 
 five-reviewed-step campaign. SC1 remains a source map. Exact scopes and preserved review/repair
 history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 No full metric-data realization, automatic recipe/product persistence or physical content follows.
-Charles's next direction decision concerns the proposed recipe-persistence campaign on admitted
-developments: at most three reviewed steps or four hours, with full data/domain gates.
-See `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
-The source campaign remains unchanged; no new campaign is authorized.
+Charles approved the recipe-persistence campaign on admitted developments: at most three reviewed
+steps or four hours, with full data/domain gates. Active work order and log:
+`udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`,
+`udt_phase_current_product_persistence_campaign_2026-09-07/CAMPAIGN_LOG.md`.
+PC1 initial-data/root-domain candidate is frozen for fresh review; propagation is not yet established.
+The old source campaigns remain unchanged. Beyond this work order, no new campaign is authorized.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
 frontier tracking. History, matter, scale, `X_max`, and canon stay open.

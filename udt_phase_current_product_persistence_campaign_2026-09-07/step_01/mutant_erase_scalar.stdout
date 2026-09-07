@@ -1,0 +1,1 @@
+{"status": "FAIL", "guard": "scalar_not_erased", "mutant": "erase_scalar", "passed": ["complete_seed_linear_rank_eight", "entire_three_parameter_solution"]}
