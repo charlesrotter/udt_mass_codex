@@ -1,0 +1,180 @@
+{
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "source_first_comparisons": [
+    {
+      "quantity": "reference",
+      "candidate": -10.907308499493622,
+      "independent": -10.907308499493622
+    },
+    {
+      "quantity": "residual",
+      "candidate": -1.4926915005063786,
+      "independent": -1.4926915005063786
+    },
+    {
+      "quantity": "zero_mismatch_displacement",
+      "candidate": 1.4926915005063786,
+      "independent": 1.4926915005063786
+    },
+    {
+      "quantity": "Q_width",
+      "candidate": 2.6019223662515376,
+      "independent": 2.6019223662515376
+    },
+    {
+      "quantity": "Q_lower",
+      "candidate": -4.094613866757916,
+      "independent": -4.094613866757916
+    },
+    {
+      "quantity": "Q_upper",
+      "candidate": 1.109230865745159,
+      "independent": 1.109230865745159
+    },
+    {
+      "quantity": "Q_threshold",
+      "candidate": 1.109230865745159,
+      "independent": 1.109230865745159
+    },
+    {
+      "quantity": "C_width",
+      "candidate": 2.7,
+      "independent": 2.7
+    },
+    {
+      "quantity": "C_lower",
+      "candidate": -4.1926915005063785,
+      "independent": -4.1926915005063785
+    },
+    {
+      "quantity": "C_upper",
+      "candidate": 1.2073084994936214,
+      "independent": 1.2073084994936214
+    },
+    {
+      "quantity": "C_threshold",
+      "candidate": 1.2073084994936214,
+      "independent": 1.2073084994936214
+    },
+    {
+      "quantity": "effective_linear_kappa_up_per_m",
+      "candidate": 1.24e-16,
+      "independent": 1.24e-16
+    },
+    {
+      "quantity": "standard_uncertainty_per_m",
+      "candidate": 2.6e-17,
+      "independent": 2.6e-17
+    },
+    {
+      "quantity": "equivalent_support_acceleration_m_s2",
+      "candidate": 11.144564216336539,
+      "independent": 11.144564216336539
+    },
+    {
+      "quantity": "standard_uncertainty_acceleration_m_s2",
+      "candidate": 2.336763464715726,
+      "independent": 2.336763464715726
+    },
+    {
+      "quantity": "clock_band_lower",
+      "candidate": 9.8e-17,
+      "independent": 9.8e-17
+    },
+    {
+      "quantity": "clock_band_upper",
+      "candidate": 1.5e-16,
+      "independent": 1.5e-16
+    },
+    {
+      "quantity": "shift_center_-1",
+      "candidate": -3.9926915005063783,
+      "independent": -3.9926915005063783
+    },
+    {
+      "quantity": "shift_center_-0.5",
+      "candidate": -2.7426915005063783,
+      "independent": -2.7426915005063783
+    },
+    {
+      "quantity": "shift_center_0",
+      "candidate": -1.4926915005063786,
+      "independent": -1.4926915005063786
+    },
+    {
+      "quantity": "shift_center_0.5",
+      "candidate": -0.2426915005063785,
+      "independent": -0.2426915005063785
+    },
+    {
+      "quantity": "shift_center_1",
+      "candidate": 1.0073084994936214,
+      "independent": 1.0073084994936214
+    }
+  ],
+  "candidate_replay_matches_saved": true,
+  "declared_seven_catch_proofs_replayed": true,
+  "hostile_checks": [
+    {
+      "case": "sign",
+      "rejected": true,
+      "guard": "reference sign"
+    },
+    {
+      "case": "cm_omitted",
+      "rejected": true,
+      "guard": "inverse dimension/sign mapping"
+    },
+    {
+      "case": "statistical_only",
+      "rejected": true,
+      "guard": "stat-only/double-counted uncertainty"
+    },
+    {
+      "case": "duplicate",
+      "rejected": true,
+      "guard": "duplicate experiment"
+    },
+    {
+      "case": "target_reference",
+      "rejected": true,
+      "guard": "target-derived reference"
+    },
+    {
+      "case": "literal_old_center_rule",
+      "rejected": true,
+      "guard": "R1 moving-band criterion"
+    },
+    {
+      "case": "hard_coverage",
+      "rejected": true,
+      "guard": "unsupported coverage"
+    },
+    {
+      "case": "wrong_acceleration_uncertainty",
+      "rejected": true,
+      "guard": "acceleration uncertainty conversion"
+    },
+    {
+      "case": "wrong_clock_only_band",
+      "rejected": true,
+      "guard": "clock-only band endpoints"
+    },
+    {
+      "case": "wrong_zero_mismatch_displacement",
+      "rejected": true,
+      "guard": "zero-mismatch displacement"
+    },
+    {
+      "case": "coherent_negative_standard_uncertainty_width",
+      "rejected": true,
+      "guard": "negative standard uncertainty width"
+    }
+  ],
+  "interpretation": "R1 closed: four original false passes are rejected by matching new guards; science unchanged; finite checks are not exhaustive validation or empirical certification.",
+  "original_scientific_result_exactly_unchanged": true,
+  "original_scientific_limits_exactly_unchanged": true,
+  "original_candidates_and_output_preserved": true,
+  "final_original_independent_comparison_count": 22,
+  "R1": "CLOSED"
+}

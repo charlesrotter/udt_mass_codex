@@ -1,0 +1,237 @@
+{
+  "C_upper_SD_U": {
+    "float": 2.7,
+    "fraction": "27/10"
+  },
+  "D_U": {
+    "float": -1.4926915005063786,
+    "fraction": "-167695527042067342/112344397342102205"
+  },
+  "Q_upper_SD_U": 2.6019223662515376,
+  "Q_upper_variance_U2": {
+    "float": 6.77,
+    "fraction": "677/100"
+  },
+  "a_clock_SD_m_s2": {
+    "float": 2.336763464715726,
+    "fraction": "292095433089465733/125000000000000000"
+  },
+  "a_clock_band_m_s2": [
+    8.807800751620812,
+    13.481327681052264
+  ],
+  "a_clock_m_s2": {
+    "float": 11.144564216336539,
+    "fraction": "696535263521033671/62500000000000000"
+  },
+  "all_shift_threshold_C_U": {
+    "float": 1.2073084994936214,
+    "fraction": "271268691563217223/224688794684204410"
+  },
+  "all_shift_threshold_Q_U": 1.109230865745159,
+  "covariance_endpoint_checks": [
+    {
+      "rho": "-1",
+      "u_ref": "0",
+      "variance": "169/25"
+    },
+    {
+      "rho": "0",
+      "u_ref": "0",
+      "variance": "169/25"
+    },
+    {
+      "rho": "1",
+      "u_ref": "0",
+      "variance": "169/25"
+    },
+    {
+      "rho": "-1",
+      "u_ref": "1/20",
+      "variance": "2809/400"
+    },
+    {
+      "rho": "0",
+      "u_ref": "1/20",
+      "variance": "541/80"
+    },
+    {
+      "rho": "1",
+      "u_ref": "1/20",
+      "variance": "2601/400"
+    },
+    {
+      "rho": "-1",
+      "u_ref": "1/10",
+      "variance": "729/100"
+    },
+    {
+      "rho": "0",
+      "u_ref": "1/10",
+      "variance": "677/100"
+    },
+    {
+      "rho": "1",
+      "u_ref": "1/10",
+      "variance": "25/4"
+    }
+  ],
+  "implementation": "Fraction for input/algebra/membership; math.sqrt for Q display only",
+  "kappa_SD_per_m": {
+    "float": 2.6e-17,
+    "fraction": "13/500000000000000000"
+  },
+  "kappa_band_per_m": [
+    9.8e-17,
+    1.5e-16
+  ],
+  "kappa_up_per_m": {
+    "float": 1.24e-16,
+    "fraction": "31/250000000000000000"
+  },
+  "limits": "512MiB address space and 60s CPU/wall enforced by existing capture runner; one CPU child, no GPU/grid",
+  "mu_U": {
+    "float": -10.907308499493622,
+    "fraction": "-245075000000000000/22468879468420441"
+  },
+  "nominal_C_band_U": [
+    -4.1926915005063785,
+    1.2073084994936214
+  ],
+  "nominal_Q_band_U": [
+    -4.094613866757916,
+    1.109230865745159
+  ],
+  "old_center_rule_counterexample": {
+    "D": "-3/2",
+    "U": "13/5",
+    "b": "-3/2",
+    "correct_rule_includes": false,
+    "wrong_rule_includes": true
+  },
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "scenarios": [
+    {
+      "C_band": [
+        -6.6926915005063785,
+        -1.2926915005063786
+      ],
+      "C_zero_inclusion_exact_comparison": false,
+      "D_plus_b": {
+        "float": -3.9926915005063783,
+        "fraction": "-897113040794645709/224688794684204410"
+      },
+      "Q_band": [
+        -6.594613866757916,
+        -1.3907691342548407
+      ],
+      "Q_zero_inclusion_exact_squared_comparison": false,
+      "b": {
+        "float": -2.5,
+        "fraction": "-5/2"
+      },
+      "t": "-1"
+    },
+    {
+      "C_band": [
+        -5.4426915005063785,
+        -0.04269150050637851
+      ],
+      "C_zero_inclusion_exact_comparison": false,
+      "D_plus_b": {
+        "float": -2.7426915005063783,
+        "fraction": "-1232504094878780393/449377589368408820"
+      },
+      "Q_band": [
+        -5.344613866757916,
+        -0.14076913425484072
+      ],
+      "Q_zero_inclusion_exact_squared_comparison": false,
+      "b": {
+        "float": -1.25,
+        "fraction": "-5/4"
+      },
+      "t": "-0.5"
+    },
+    {
+      "C_band": [
+        -4.1926915005063785,
+        1.2073084994936214
+      ],
+      "C_zero_inclusion_exact_comparison": true,
+      "D_plus_b": {
+        "float": -1.4926915005063786,
+        "fraction": "-167695527042067342/112344397342102205"
+      },
+      "Q_band": [
+        -4.094613866757916,
+        1.109230865745159
+      ],
+      "Q_zero_inclusion_exact_squared_comparison": true,
+      "b": {
+        "float": 0.0,
+        "fraction": "0"
+      },
+      "t": "0"
+    },
+    {
+      "C_band": [
+        -2.9426915005063785,
+        2.4573084994936214
+      ],
+      "C_zero_inclusion_exact_comparison": true,
+      "D_plus_b": {
+        "float": -0.2426915005063785,
+        "fraction": "-109060121457758343/449377589368408820"
+      },
+      "Q_band": [
+        -2.844613866757916,
+        2.3592308657451593
+      ],
+      "Q_zero_inclusion_exact_squared_comparison": true,
+      "b": {
+        "float": 1.25,
+        "fraction": "5/4"
+      },
+      "t": "0.5"
+    },
+    {
+      "C_band": [
+        -1.6926915005063785,
+        3.7073084994936214
+      ],
+      "C_zero_inclusion_exact_comparison": true,
+      "D_plus_b": {
+        "float": 1.0073084994936214,
+        "fraction": "226330932626376341/224688794684204410"
+      },
+      "Q_band": [
+        -1.5946138667579162,
+        3.6092308657451593
+      ],
+      "Q_zero_inclusion_exact_squared_comparison": true,
+      "b": {
+        "float": 2.5,
+        "fraction": "5/2"
+      },
+      "t": "1"
+    }
+  ],
+  "scope": "conditional rounded published-summary benchmark; no empirical certification or coverage probability",
+  "source_hashes": {
+    "/home/udt-admin/udt_mass_codex/udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+    "/home/udt-admin/udt_mass_codex/udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md": "cc66be850523fac561b411b32d7532069d838a6d6e6800568afd72f5560b862d",
+    "/home/udt-admin/udt_mass_codex/udt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/COMPARISON_CONTRACT.md": "ac6cbaeb359713d90abb71b43e83a47bc2e7d669f878c01c1b1455cb1c8541e4",
+    "/home/udt-admin/udt_mass_codex/udt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/INPUTS.json": "a006e39a03b2ee70418ecee614c9056fe3e1c4a04b110478cdb536d01f410b9f",
+    "/tmp/udt-observation-sources-Kk6TO6/zheng_main.pdf": "1cb85cfaf2783841e7dc29f8ef38edec258437eec38071b5aba5594ceec4c3b6",
+    "/tmp/udt-observation-sources-Kk6TO6/zheng_metadata.json": "827c6152b6a0cc32e4a2991c9acd2910da2006451add08a423eaa9f5371185cc",
+    "/tmp/udt-observation-sources-Kk6TO6/zheng_supp.pdf": "111b47f8a3625391178b7d8c5d0753ae8bedbe9f38ea07d6ebdad56cb06f7432"
+  },
+  "status": "PASS_SOURCE_FIRST_EXACT_RATIONAL_AND_BINARY64_ARITHMETIC",
+  "unbounded_bias": "For every proposed true slope theta, beta=y-theta explains the same y; slope is unidentifiable without bias restriction.",
+  "zero_mismatch_b0_U": {
+    "float": 1.4926915005063786,
+    "fraction": "167695527042067342/112344397342102205"
+  }
+}

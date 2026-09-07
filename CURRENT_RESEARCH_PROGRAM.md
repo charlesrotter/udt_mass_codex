@@ -131,11 +131,17 @@ clocks), R (solar radio tracking) and W (GW strain) were compared. The shortest 
 next route is a conditional published-summary clock-gradient benchmark, with roughly24%
 relative gradient sensitivity under the source's error model—not a unique UDT signal.
 Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
-Charles APPROVED the two-step/two-hour benchmark work order; the comparison contract and
-conditional result each receive fresh review within
-`udt_local_clock_metric_benchmark_campaign_2026-09-07/CAMPAIGN_LOG.md`.
-No raw-pair fit or experimental recertification is included. Independent gravimetry/geometry
-and supplied instrument controls predict a
+Charles's approved local clock benchmark is COMPLETE at two fresh-reviewed steps,
+VERIFIED-WITH-CAVEATS; brief/reviews/log:
+`udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`.
+It constrains effective upward d ln N/dh=(1.24±0.26)e-16 m^-1 under supplied
+stationary, near-linear, finite-cloud and metrology assumptions. Residual about-1.5
+in units10^-19/cm gives zero-inclusion in both displayed difference bands (standard-uncertainty widths2.60/2.70),
+not confidence coverage or distinctive UDT acceptance. Cross-correlation bounds do not
+cover arbitrary omitted bias; unrestricted additive gradient bias destroys identifiability.
+Initial false passes and one same-premise repair per step are preserved.
+No raw-pair fit or experimental recertification occurred. Independent gravimetry/geometry
+and supplied instrument controls predicted a
 clock gradient without retuning; published outcome exposure and shared control/error limitations
 remain explicit. Ratios alone do not attach scale; dimensional anchors may fix it within an
 identified family. Full geometry/history and physical content remain unselected.
@@ -143,7 +149,9 @@ Source and review repairs are preserved. Existing SNe assessments were reused wi
 Ideal complementary tides remain mathematical groundwork, not an available real-data experiment;
 coherent geometric calibration and emergence remain parallel, neither a prerequisite for the other.
 No correspondence, purchases, physical adoption, grades, canon or fixed-manuscript changes;
-Beyond this approved clock benchmark, no new campaign is authorized.
+The benchmark authorization is exhausted; no new campaign is authorized.
+Next is Charles's direction decision on a complementary geometric observable or the
+parallel geometric/emergence line, not another repetition of this scalar comparison.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is

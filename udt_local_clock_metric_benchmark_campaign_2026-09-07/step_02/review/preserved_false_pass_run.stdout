@@ -1,0 +1,16 @@
+{
+  "status": "PASS_PRESERVED_INITIAL_FALSE_PASSES_AND_REPAIRED_REJECTIONS",
+  "initial_validator_imported_from": "step_02/INITIAL_evaluate_benchmark.py",
+  "initial_driver_unchanged": true,
+  "initial_full_result_replay_agrees": true,
+  "initial_actual_false_passes": [
+    "coherent_negative_standard_uncertainty_width",
+    "wrong_acceleration_uncertainty",
+    "wrong_clock_only_band",
+    "wrong_zero_mismatch_displacement"
+  ],
+  "initial_seven_advertised_defects_rejected": true,
+  "final_all_eleven_defects_rejected": true,
+  "final_output_sha256": "f95d98a75634ec70baba71daf527e7f9c1a7378a9a9b137e675c36c5184c8c25",
+  "note": "The original inspector targets the historical active-code hash; this adapter changes only its import path to preserved initial code. Final re-review uses final pins in the separate focused adapter."
+}

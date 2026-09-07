@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/evaluate_benchmark.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T21:30:26.936347+00:00",
+  "duration_seconds": 0.021188897007959895,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15552
+}

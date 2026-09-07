@@ -1,0 +1,6 @@
+{
+  "description": "Name-only unrelated untracked status metadata captured at campaign startup; no payloads read or hashed",
+  "count": 46,
+  "encoding": "SHA256 of sorted ?? status lines joined by newline, no final newline",
+  "sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea"
+}

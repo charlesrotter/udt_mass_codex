@@ -1,0 +1,153 @@
+{
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "decimal_digits": 60,
+  "arithmetic_tolerance": "1E-45",
+  "result": {
+    "input_sha256": "a006e39a03b2ee70418ecee614c9056fe3e1c4a04b110478cdb536d01f410b9f",
+    "contract_sha256": "ac6cbaeb359713d90abb71b43e83a47bc2e7d669f878c01c1b1455cb1c8541e4",
+    "experiment_count": 1,
+    "reference_origin": "independent_calibration",
+    "measurement_uncertainty_origin": "reported_total",
+    "error_hard_bound_or_confidence_coverage_claimed": false,
+    "gradient_coefficient_units": "1e-19 per cm, downward ordering",
+    "y": "-12.4",
+    "measurement_standard_uncertainty": "2.6",
+    "reference": "-10.9073084994936214906026039254050419477286404551580561568925",
+    "reference_standard_uncertainty_cap": "0.1",
+    "printed_reference_difference": "-0.0073084994936214906026039254050419477286404551580561568925",
+    "residual": "-1.4926915005063785093973960745949580522713595448419438431075",
+    "bands": {
+      "Q": {
+        "width": "2.60192236625153749032662892505382711713744459381014517784849",
+        "lower": "-4.09461386675791599972402499964878516940880413865208902095599",
+        "upper": "1.10923086574515898092923285045886906486608504896820133474099",
+        "zero_in_band": true,
+        "all_displacements_threshold": "1.10923086574515898092923285045886906486608504896820133474099"
+      },
+      "C": {
+        "width": "2.7",
+        "lower": "-4.1926915005063785093973960745949580522713595448419438431075",
+        "upper": "1.2073084994936214906026039254050419477286404551580561568925",
+        "zero_in_band": true,
+        "all_displacements_threshold": "1.2073084994936214906026039254050419477286404551580561568925"
+      }
+    },
+    "normalized_difference_fixed_reference": "-0.136852414193261117617056003264306844843415281036417423237784",
+    "Q_standardized_difference_using_upper_width": "-0.573687946983916461319363431039936605109529492756603501537558",
+    "C_standardized_difference_using_upper_width": "-0.552848703891251299776813360961095574915318349941460682632407",
+    "clock_only": {
+      "effective_linear_kappa_up_per_m": "1.24E-16",
+      "standard_uncertainty_per_m": "2.6E-17",
+      "band_lower_per_m": "9.8E-17",
+      "band_upper_per_m": "1.50E-16",
+      "equivalent_support_acceleration_m_s2": "11.144564216336538736",
+      "standard_uncertainty_acceleration_m_s2": "2.336763464715725864",
+      "independent_gravimeter_measurement": false
+    },
+    "zero_mismatch_displacement": "1.4926915005063785093973960745949580522713595448419438431075",
+    "diagnostic_displacements": [
+      {
+        "multiplier": "-1",
+        "displacement": "-2.5",
+        "center": "-3.9926915005063785093973960745949580522713595448419438431075",
+        "Q_zero_in_shifted_band": false,
+        "C_zero_in_shifted_band": false
+      },
+      {
+        "multiplier": "-0.5",
+        "displacement": "-1.25",
+        "center": "-2.7426915005063785093973960745949580522713595448419438431075",
+        "Q_zero_in_shifted_band": false,
+        "C_zero_in_shifted_band": false
+      },
+      {
+        "multiplier": "0",
+        "displacement": "0.0",
+        "center": "-1.4926915005063785093973960745949580522713595448419438431075",
+        "Q_zero_in_shifted_band": true,
+        "C_zero_in_shifted_band": true
+      },
+      {
+        "multiplier": "0.5",
+        "displacement": "1.25",
+        "center": "-0.2426915005063785093973960745949580522713595448419438431075",
+        "Q_zero_in_shifted_band": true,
+        "C_zero_in_shifted_band": true
+      },
+      {
+        "multiplier": "1",
+        "displacement": "2.5",
+        "center": "1.0073084994936214906026039254050419477286404551580561568925",
+        "Q_zero_in_shifted_band": true,
+        "C_zero_in_shifted_band": true
+      }
+    ],
+    "interpretation": "retrospective conditional effective-linear metric benchmark; not a fit or unique UDT test"
+  },
+  "catch_proofs": [
+    {
+      "mutation": "sign_reversal",
+      "rejected": true,
+      "guard": "reference sign"
+    },
+    {
+      "mutation": "missing_cm_conversion",
+      "rejected": true,
+      "guard": "inverse dimension/sign mapping"
+    },
+    {
+      "mutation": "statistical_only_uncertainty",
+      "rejected": true,
+      "guard": "stat-only/double-counted uncertainty"
+    },
+    {
+      "mutation": "same_experiment_counted_twice",
+      "rejected": true,
+      "guard": "duplicate experiment"
+    },
+    {
+      "mutation": "circular_reference",
+      "rejected": true,
+      "guard": "target-derived reference"
+    },
+    {
+      "mutation": "R1_old_center_rule",
+      "rejected": true,
+      "guard": "R1 moving-band criterion"
+    },
+    {
+      "mutation": "unsupported_coverage_label",
+      "rejected": true,
+      "guard": "unsupported coverage"
+    },
+    {
+      "mutation": "R1_wrong_acceleration_uncertainty",
+      "rejected": true,
+      "guard": "acceleration uncertainty conversion"
+    },
+    {
+      "mutation": "R1_wrong_clock_only_band",
+      "rejected": true,
+      "guard": "clock-only band endpoints"
+    },
+    {
+      "mutation": "R1_wrong_zero_mismatch_displacement",
+      "rejected": true,
+      "guard": "zero-mismatch displacement"
+    },
+    {
+      "mutation": "R1_coherent_negative_standard_uncertainty_width",
+      "rejected": true,
+      "guard": "negative standard uncertainty width"
+    }
+  ],
+  "limits": [
+    "rounded source errors assumed adequate/centered",
+    "no Gaussian, confidence-coverage or realized-error bound",
+    "C varies only cross-correlation of the two summaries",
+    "bias scenarios not fitted or added uncertainty",
+    "source local stationary/linear readout model supplied",
+    "no raw fit, new independent experiment or physical adoption"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "sha256sum",
+    "--check",
+    "--quiet",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/MANIFEST.sha256"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T21:42:24.929751+00:00",
+  "duration_seconds": 0.0025345129979541525,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7364
+}

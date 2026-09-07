@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib,subprocess\nroot=pathlib.Path.cwd()\np=root/'udt_local_clock_metric_benchmark_campaign_2026-09-07'\npins={\n'LIVE.md':'0a2de5b70dc370a2730b656b19c2c72636b1921006f7924faf9b9f7e3b3f3f88',\n'HANDOFF.md':'2aa800b15ef2236ba6fc0cc550bc6aec978f6647f19359d2706161023c8d03a8',\n'CURRENT_RESEARCH_PROGRAM.md':'2278c9db53ddc910dbe5a2b767bd04b6cef9b1a81a419f29571503706137d32f',\nstr((p/'CAMPAIGN_LOG.md').relative_to(root)):'b231dbebea9b58486b9efe2387f84a13dd16b428ffaf6401a99dba0e69985269',\nstr((p/'step_02/CANDIDATE_RESULT.md').relative_to(root)):'1ba9a49fd103188983ebb34e9c02c8236513a0c8c597e9fc1ff0a546f1d90918',\nstr((p/'step_02/evaluate_benchmark.py').relative_to(root)):'989150132a9d54b9384a3884c1dc61c0f75e419c7cf7c84cb0d299628828172a',\nstr((p/'DECISION_BRIEF.md').relative_to(root)):'128e93d4b898a185284163cd9c38ef3780657fa84b0f61e46e95ab5e914dd7ca',\nstr((p/'step_02/review/FINAL_REVIEW.md').relative_to(root)):'113fae20d9b203b4cad01b2e96e448937e5ca82ae1976800736ad2428605c488',\nstr((p/'step_02/review/REVIEW_RESULT.json').relative_to(root)):'f229b59a24902364e599c8f80b09b3b30fafc869d248ade168c030e53bff514b'}\nfor path,expected in pins.items():\n assert hashlib.sha256((root/path).read_bytes()).hexdigest()==expected,path\ninitial=json.loads((p/'step_02/benchmark_run.stdout').read_text())\nfinal=json.loads((p/'step_02/repair_run.stdout').read_text())\nassert initial['result']==final['result'] and initial['limits']==final['limits']\nfreeze_entries=0\nfor line in (p/'step_01/FREEZE_MANIFEST.sha256').read_text().splitlines():\n expected,path=line.split('  ',1)\n assert path.startswith(p.name+'/step_01/')\n assert hashlib.sha256((root/path).read_bytes()).hexdigest()==expected\n freeze_entries+=1\nassert freeze_entries==12\ncaptured=json.loads((p/'return_check.json').read_text())\nreturned=json.loads((p/'return_check.stdout').read_text())\nassert captured['returncode']==0 and not captured['timeout']\nassert (p/'return_check.stderr').read_bytes()==b''\nassert returned['immutable_LC1_entries_verified']==12\nassert returned['unrelated_untracked_name_count']==46\nassert 'not a full premise replay' in returned['scope']\nprint(json.dumps({'status':'PASS_PACKAGING_CORRESPONDENCE','pins':pins,'LC1_frozen_entries_independently_verified':freeze_entries,'scientific_result_and_limits_unchanged':True,'parent_return_capture_inspected_not_replayed':captured,'review_scope':'status packaging and byte correspondence only; no scientific-source, GOCE or protected-payload reads; no full premise replay; no final-manifest/push check yet'},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T21:39:36.802511+00:00",
+  "duration_seconds": 0.044059784995624796,
+  "returncode": 1,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 26008
+}

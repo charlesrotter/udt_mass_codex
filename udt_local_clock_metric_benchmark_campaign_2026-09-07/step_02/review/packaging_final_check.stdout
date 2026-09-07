@@ -1,0 +1,34 @@
+{
+  "status": "PASS_PACKAGING_CORRESPONDENCE",
+  "pins": {
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/PRESERVATION_AND_REPLAY.md": "c1798bd27c898a35e8fef2f82a89e0c27f81452b8d324194ddadd6872387159b",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/verify_return.py": "c23b7be4cea0b3bc68647591722ef778c3d7148c841e25db062b62f3c934ae88",
+    "LIVE.md": "b6e8ba8bbd70fe8e7272b652d0cd07fe58b287c7baf9ed0ebe981d175604eca5",
+    "HANDOFF.md": "61bd7adae1e58fb6ba7b47785f287fa0f1f1f82e28655ad060bc395e90646bfe",
+    "CURRENT_RESEARCH_PROGRAM.md": "fbb84289b7225c1bca3529888ad9dc1762532fe60212c3b106cfd39144dd02c1",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/CAMPAIGN_LOG.md": "b231dbebea9b58486b9efe2387f84a13dd16b428ffaf6401a99dba0e69985269",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/CANDIDATE_RESULT.md": "1ba9a49fd103188983ebb34e9c02c8236513a0c8c597e9fc1ff0a546f1d90918",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/evaluate_benchmark.py": "989150132a9d54b9384a3884c1dc61c0f75e419c7cf7c84cb0d299628828172a",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md": "128e93d4b898a185284163cd9c38ef3780657fa84b0f61e46e95ab5e914dd7ca",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md": "113fae20d9b203b4cad01b2e96e448937e5ca82ae1976800736ad2428605c488",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/review/REVIEW_RESULT.json": "f229b59a24902364e599c8f80b09b3b30fafc869d248ade168c030e53bff514b"
+  },
+  "LC1_frozen_entries_independently_verified": 12,
+  "scientific_result_and_limits_unchanged": true,
+  "parent_return_capture_inspected_not_replayed": {
+    "command": [
+      "python3",
+      "-B",
+      "udt_local_clock_metric_benchmark_campaign_2026-09-07/verify_return.py"
+    ],
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "started_utc": "2026-09-07T21:37:38.666259+00:00",
+    "duration_seconds": 0.12293147000309546,
+    "returncode": 0,
+    "timeout": false,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "maxrss_kib": 24140
+  },
+  "review_scope": "status packaging and byte correspondence only; no scientific-source, GOCE or protected-payload reads; no full premise replay; no final-manifest/push check yet"
+}

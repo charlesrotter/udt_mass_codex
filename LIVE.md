@@ -140,15 +140,22 @@ VERIFIED-WITH-CAVEATS, without fitting or scientific promotion. C (laboratory cl
 R (solar radio tracking) and W (GW strain) were compared; a conditional published-summary
 clock-gradient benchmark is recommended, not a unique UDT prediction or full metric inference.
 Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
-Charles APPROVED the two-step/two-hour local clock benchmark. Execution is bounded by
-`udt_local_clock_metric_benchmark_campaign_2026-09-07/CAMPAIGN_LOG.md`: freeze/review the
-published-summary comparison, then evaluate/review its conditional constraint and robustness.
-No raw-pair fit or experimental recertification; return after two reviewed steps or two hours.
+Charles's approved local clock benchmark is COMPLETE at two fresh-reviewed steps,
+VERIFIED-WITH-CAVEATS; brief and reviews:
+`udt_local_clock_metric_benchmark_campaign_2026-09-07/DECISION_BRIEF.md`.
+The published summary gives effective upward d ln N/dh=(1.24±0.26)e-16 m^-1
+under supplied stationary, near-linear, finite-cloud and metrology assumptions.
+Residual about-1.5 in units10^-19/cm gives zero-inclusion in both displayed difference
+bands (standard-uncertainty widths2.60/2.70), not a confidence/UDT acceptance test or raw recertification.
+Cross-correlation bounds do not cover arbitrary omitted bias; unrestricted additive
+gradient bias destroys identifiability. Initial false passes and one repair per step survive.
 Ratios alone do not fix scale; dimensional anchors may fix it in an identified family.
 Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
 Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
 No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
-Beyond this approved clock benchmark, no new campaign is authorized.
+The benchmark authorization is exhausted; no new campaign is authorized.
+Next is Charles's direction decision on a complementary geometric observable or the
+parallel geometric/emergence line, not another repetition of this scalar comparison.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.

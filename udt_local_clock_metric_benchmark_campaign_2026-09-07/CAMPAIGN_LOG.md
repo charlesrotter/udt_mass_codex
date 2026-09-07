@@ -114,3 +114,63 @@ One same-premise repair/focused re-review; no additional substantive step.
 Outcomes: descriptive compatibility, conditional tension, narrower scope or
 unidentifiability under the stated freedom. Any adverse scenario is retained.
 Return a short result/decision brief; do not promote or begin another campaign.
+
+## LC2 execution and same-premise repair —21:30 UTC
+
+LC1 was committed/pushed at dd6260e64094ab4b59e5d49fdf6a82c9f3bbf7a3
+before first benchmark execution21:21:40 UTC. Fresh reviewer
+`/root/clock_step2_review` sealed an independent source-first Fraction calculation
+before candidate/code/output exposure; exact model UNKNOWN, different-model/
+human/formal axes UNTESTED. General variance and bias-threshold arguments were
+examined separately from finite arithmetic/regression evidence.
+
+The actual result agrees with the independent calculation: residual about-1.5U,
+upper standard uncertainties2.60U(Q) and2.70U(C); nominal zero-inclusion in both
+displayed bands, without confidence/realized-error claims. The clock-only
+effective upward logarithmic lapse gradient is(1.24±0.26)e-16m^-1. Counterfactual
+negative correction displacements can remove overlap; the negative-half C
+scenario is fragile to source rounding. Unrestricted additive gradient bias
+leaves the metric contribution unidentifiable. Nothing was fitted or retuned.
+
+Initial review found four output-guard false passes, not an erroneous scientific
+result. One grouped R1 repair adds missing acceleration-uncertainty conversion,
+clock-only band endpoint, zero-mismatch displacement and nonnegative-width
+checks and four matching hostile cases. Initial code/candidate/brief and run,
+review counterexamples and exact diagnostics are preserved. Repaired execution
+exit0 at21:30:26 UTC; scientific result object exactly unchanged, all eleven
+advertised hostile cases rejected. This is finite regression, not certification
+of the experiment or an exhaustive checker. Focused re-review followed below.
+
+## LC2 return and campaign close —21:37 UTC
+
+LC2 VERIFIED-WITH-CAVEATS, R1 CLOSED at21:35:43 UTC; no unresolved load-bearing
+objection within the exact conditional scope. Final review
+SHA256113fae20d9b203b4cad01b2e96e448937e5ca82ae1976800736ad2428605c488;
+machine resultf229b59a24902364e599c8f80b09b3b30fafc869d248ade168c030e53bff514b.
+The reviewer reproduced the four false passes from preserved original code,
+then verified all eleven rejections and22 numeric comparisons with the sealed
+independent Fraction calculation. Original inspector unchanged; small in-memory
+path/pin adapters make initial and repaired review evidence reproducible.
+Source-first analytical arguments, finite checks and inherited empirical
+assumptions remain separate. Different-model/human/formal axes remain UNTESTED.
+
+Two substantive reviewed steps completed in about35minutes, within the two-hour
+ceiling; no third step manufactured. Only preservation/status/manifest checks
+and commit/push packaging follow, within the same campaign budget. The result
+and brief remain the exact bytes reviewed above. One same-premise repair per
+step was used, both closed; all initial wording/code/results and review history
+survive. No promotion, new physical commitment, fit, raw processing or new
+research question. No actual in-scope blocker remains.
+
+The decision brief owns the plain-language return. More of the same scalar
+comparison adds little: Charles's next direction decision is a genuinely
+complementary geometric observable or the parallel geometric/emergence line.
+This result does not demand a new premise. No follow-on campaign is authorized.
+GOCE stays parked/eligibility unresolved/enquiry unsent. Backup completeness
+and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk remains
+an archive-only blocker, not a blocker to the completed repository work.
+
+Final packaging evidence: PRESERVATION_AND_REPLAY.md, verify_return.py and its
+captured return_check.*, the packaging fidelity review, and MANIFEST_SCOPE.md
+with MANIFEST.sha256. Scientific grades, source packages, fixed manuscript,
+canon, protected payloads and unrelated dirt are not integrated or rewritten.
