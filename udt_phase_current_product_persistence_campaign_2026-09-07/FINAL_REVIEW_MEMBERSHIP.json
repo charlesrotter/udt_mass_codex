@@ -1,0 +1,29 @@
+{
+  "scope": "Review directory payload membership independent of SHA verification; frozen scientific candidate/source correspondence captured separately.",
+  "checks": [
+    {
+      "step": 1,
+      "manifest_payloads": 35,
+      "actual_payloads": 35,
+      "duplicates": 0,
+      "missing": [],
+      "extraneous": []
+    },
+    {
+      "step": 2,
+      "manifest_payloads": 40,
+      "actual_payloads": 40,
+      "duplicates": 0,
+      "missing": [],
+      "extraneous": []
+    },
+    {
+      "step": 3,
+      "manifest_payloads": 31,
+      "actual_payloads": 31,
+      "duplicates": 0,
+      "missing": [],
+      "extraneous": []
+    }
+  ]
+}

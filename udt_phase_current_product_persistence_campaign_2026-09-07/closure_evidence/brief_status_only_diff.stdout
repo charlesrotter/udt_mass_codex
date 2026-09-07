@@ -1,0 +1,47 @@
+--- udt_phase_current_product_persistence_campaign_2026-09-07/closure_evidence/REVIEWED_BRIEF_DRAFT.md	2026-09-07 01:30:50.565699533 -0400
++++ udt_phase_current_product_persistence_campaign_2026-09-07/DECISION_BRIEF.md	2026-09-07 01:29:53.327751110 -0400
+@@ -1,8 +1,8 @@
+ # Persistence campaign — decision brief
+ 
+-DRAFT RETURN: PC1/PC2 reviewed; PC3 direct review still pending.
++FINAL SCIENTIFIC RETURN: PC1--PC3 reviewed, VERIFIED-WITH-CAVEATS and UNPROMOTED.
+ No scientific promotion or physical adoption is authorized by this document.
+-The approved campaign is at its third/final substantive step, not yet closed.
++All three authorized substantive steps are complete; no further step will begin.
+ 
+ ## What the campaign has found
+ 
+@@ -15,7 +15,7 @@
+ |---|---|---|
+ | PC1 — reviewed | A spatially parallel null seed alone does not select zero scalar curvature. But within that seed class, the old nonzero real full-root recipe requires the Ricci-flat sector. Complete local spacelike data exist. | Actual Einstein arena, exact old full Weyl/dual recipe; not arbitrary algebraic-data realization or compact embedding. |
+ | PC2 — reviewed | Eligible initial data force a locally parallel null extension; the normalized root, full recurrence and chosen current are then preserved. | PC1, actual smooth Ricci-flat development and the explicitly conditional standard local auxiliary-wave method. Not generic persistence or perturbative stability. |
+-| PC3 — candidate pending review | If the separately supplied phase and ONE fixed-label product match on the whole initial patch, that exact match persists locally, with the ideal G352 readout equal to the current contraction. | PC2 plus full initial alignment/product equality, fixed labels/spacing/measure, regular finite query and G359 local phase uniqueness. Initial product equality is NOT derived. |
++| PC3 — reviewed | If the separately supplied phase and ONE fixed-label product match on the whole initial patch, that exact match persists locally, with the ideal G352 readout equal to the current contraction. | PC2 plus full initial alignment/product equality, fixed labels/spacing/measure, regular finite query and G359 local phase uniqueness. Initial product equality is NOT derived. |
+ 
+ ## Precise mathematical boundary
+ 
+@@ -74,20 +74,21 @@
+ 
+ ## Return and decision boundary
+ 
+-The intended return is three reviewed CONDITIONAL MATHEMATICAL CANDIDATES,
++The return is three reviewed CONDITIONAL MATHEMATICAL CANDIDATES,
+ with source-first/direct review evidence, not accepted registry entries.
+ Each fresh context records model UNKNOWN; different-model/human review is
+ UNTESTED. Standard PDE existence/uniqueness remains an explicit method
+ condition, not a machine proof. Exact checks support the arguments; they
+ do not prove physical truth. Diagnostics and false-pass controls are retained.
+ 
+-If PC3 review closes, the next owner decision is whether to bank these
++The next owner decision is whether to bank these
+ results at their exact reviewed conditional scopes. No further compatibility
+ example is needed to complete this campaign. A broader research direction
+ would need a separate choice; none is launched by this return.
+ 
+ No permission, safety, resource or access blocker has been found for this
+-repository-only campaign. Scientific review/closure checks remain pending.
++repository-only campaign. All three fresh scientific reviews are complete;
++final repository check and synchronization receipts are recorded in the campaign log.
+ Accepted343-row grades, all earlier banked evidence, CANON.md and the fixed
+ through-G352 manuscript are unchanged. Backup completeness and pre-reboot
+ unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks archive tasks

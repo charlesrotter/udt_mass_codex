@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "G352_readout_equality": "PASS",
+    "actual_current_readout": "PASS",
+    "coarea_density": "PASS",
+    "conserved_correlated_product_rejected": "PASS",
+    "correlation_mixed_log": "PASS",
+    "cubic_exact_q": "PASS",
+    "cubic_harmonic": "PASS",
+    "full_aligned_covector": "PASS",
+    "full_cut_area_squared": "PASS",
+    "full_initial_flux_density": "PASS",
+    "full_initial_future_completion": "PASS",
+    "full_lorentzian_determinant": "PASS",
+    "full_null_covector": "PASS",
+    "full_observer_frequency": "PASS",
+    "graph_slopes_preserve_full_gram": "PASS",
+    "initial_normal_phase": "PASS",
+    "initial_positive_flux_factor": "PASS",
+    "initial_volume_squared": "PASS",
+    "mixed_harmonic": "PASS",
+    "mixed_initial_phase_dependence": "PASS",
+    "normal_time_metric": "PASS",
+    "normal_unit": "PASS",
+    "observer_full_unit": "PASS",
+    "observer_screen_gram": "PASS",
+    "observer_screen_orthogonality": "PASS",
+    "omitted_normal_flux_rejected": "PASS",
+    "omitted_screen_area_rejected": "PASS",
+    "phase_spatial_norm_squared": "PASS",
+    "slice_only_product_false_pass": "PASS",
+    "spatial_extension_annihilates_normal": "PASS",
+    "stationary_fixed_label_product": "PASS",
+    "wrong_normal_exact_residual": "PASS",
+    "wrong_normal_rejected": "PASS"
+  },
+  "outputs": {
+    "initial_flux_density": "6*t**2*w*z/kappa",
+    "metric": [
+      [
+        "0",
+        "1/kappa",
+        "0",
+        "0"
+      ],
+      [
+        "1/kappa",
+        "c/kappa**2 - (-H/kappa - c/kappa)/kappa",
+        "2*e*z/kappa",
+        "3*d*t**2/kappa"
+      ],
+      [
+        "0",
+        "2*e*z/kappa",
+        "4*z**2",
+        "0"
+      ],
+      [
+        "0",
+        "3*d*t**2/kappa",
+        "0",
+        "9*t**4"
+      ]
+    ],
+    "mixed_log_derivative": 5,
+    "normal": [
+      [
+        "-(-H - 2*c + d**2 + e**2)/sqrt(H + 2*c - d**2 - e**2)"
+      ],
+      [
+        "-kappa/sqrt(H + 2*c - d**2 - e**2)"
+      ],
+      [
+        "e/(2*z*sqrt(H + 2*c - d**2 - e**2))"
+      ],
+      [
+        "d/(3*t**2*sqrt(H + 2*c - d**2 - e**2))"
+      ]
+    ],
+    "omega": "a*kappa",
+    "phase_norm_squared": "kappa**2/(H + 2*c - d**2 - e**2)",
+    "rate": "a*w",
+    "screen_area": "6*t**2*z"
+  },
+  "python": "3.10.12",
+  "source_sha256": {
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/solution-space-not-imposition/SKILL.md": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "AGENTS.md": "f1634dfb24e7e69125f0cc788666fb95fa40bca41a377a2c35e3c874154e50b0",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md": "a007c5a4e34012698687e81a43a13692a2f3799df3db963370b33c3aa92bd3bb",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/REVIEW_RECORD.md": "d95f6b0cd0e1abbfd4734104cf13af4127a2b88382b3c2b1cb27663043d11866",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_03/review/STAGE_B_ADVERSARIAL_REVIEW.md": "28462569691deaea5467f4c76a22363861a4b6a72d057f2b9db0a1a1b8bc6843",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md": "1ba59226944652bc4cc444f20d26c4fc9b9c80e1beea8a842be8151d64395849",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/REVIEW_RECORD.md": "e89cf5131c7abfc26a2a25aa4c84e4a0919ce50ceae8ba2d3005fdf6d85d7b88",
+    "udt_g351_g352_content_bridge_campaign_2026-09-06/step_04/review/STAGE_B_ADVERSARIAL_REVIEW.md": "0339451ddac6774fbf032af39a29c29e4397a853bbbc1619c51b98025e33b3f1",
+    "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/ADOPTION_RECORD.md": "fe6d0c85634b324beb110cb48d945a02bbd9fddd5204beb5ffffd9a5f0655f6c",
+    "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md": "7965d72565bca6facb12355b7e07989174c1e96fe2101068e31e310705dd8a24",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md": "0c3cb5256c91004e76a3c5e5644088dfc6d8e6765b4c90892d757de013ef78dc",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/REVIEW_RECORD.md": "475f8f1524024beafeb053438a1216c4b281f82e908d54f6bab4149b448a2b6b",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/review/PHASE_B_ADVERSARIAL_REVIEW.md": "15a84fd6601ba7627364882ee9b0662d72021a894ec69b98ac1bb418c020a749",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md": "3233097fa91f55252eb127d7ccc14e6d5f74ef0b29a7047077b45dff5006ff39",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/REVIEW_RECORD.md": "f57b4bdcc2d7688aaa680c1b8e546341c43e42376d4b184a5c5fd0a92399d7d4",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/PHASE_B_ADVERSARIAL_REVIEW.md": "a95c18ad9567be94d0babdae4edb581fc70ed9b3215c315a918a4f2121a42a0e",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/QUESTION.md": "76d94280a6b397241b945bb4001392420f4bde3e9995657c5d944ff9b2c378a1",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/CANDIDATE_ARGUMENT.md": "42f4c5881c9bf2f914b7682e50b030a30e50784fc9a671b2c77a2f427ff944ad",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/REVIEW_RECORD.md": "f25e7f8020aae33f1d7cf03e8bfddb1b7413b3edad2d3e888c73aa0164a9fbe4",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_04/review/STAGE_B_ADVERSARIAL_REVIEW.md": "07180232e064e4c996792e3594d184274d841582d7409f8761ce57f6cb1611be"
+  },
+  "sympy": "1.13.1"
+}

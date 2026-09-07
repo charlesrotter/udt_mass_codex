@@ -1,0 +1,10 @@
+{
+  "baseline_untracked_count": 46,
+  "current_unrelated_untracked_count": 46,
+  "exact_path_metadata_equal": true,
+  "scope": "Path/status metadata only; no protected payload inspected. Content/unsaved-state and backups NOT thereby verified.",
+  "accepted_preservation_command": "git -c core.packedGitLimit=64m -c core.packedGitWindowSize=8m diff --exit-code 94b1141119894f4ad75f3d338f0ec8d41df0bc42 -- AGENTS.md CLAUDE.md .claude/skills CANON.md CURRENT_SCIENTIFIC_PREMISES.tsv CURRENT_SCIENTIFIC_PREMISES.md verify_current_scientific_premises.py UDT_METRIC_KERNEL_DEVELOPMENT.md UDT_METRIC_KERNEL_COVERAGE.tsv udt_g353_g356_conditional_banking_2026-09-06 udt_g357_g360_conditional_banking_2026-09-07 udt_g351_g352_content_bridge_campaign_2026-09-06 udt_shared_readout_metric_constraint_campaign_2026-09-06",
+  "accepted_diff_returncode": 0,
+  "fixed_manuscript_snapshot": "f23199e4a47aaf83acb9ea7d1ad382cd814159c2",
+  "registry_sha256": "064c6a9ef9f07ba970d20c3701546838b90f5602ea15d34b6ad77990f9e62827"
+}

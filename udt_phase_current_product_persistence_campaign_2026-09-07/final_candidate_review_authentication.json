@@ -1,0 +1,23 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/FREEZE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/SOURCE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/FREEZE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/SOURCE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/FREEZE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/SOURCE_SHA256SUMS",
+    "udt_phase_current_product_persistence_campaign_2026-09-07/step_03/review/REVIEW_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T05:30:15.378412+00:00",
+  "duration_seconds": 0.009850179005297832,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7224
+}

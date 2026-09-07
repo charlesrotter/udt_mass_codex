@@ -1,0 +1,45 @@
+{
+  "argument_sha256": "19c8e3203d23d473ecdbd9c0af1155e51a58e81e46168df7276ca5b0a761a058",
+  "replays": [
+    {
+      "byte_identical": true,
+      "duration": 0.3588709750038106,
+      "guard": null,
+      "maxrss_kib": 48712,
+      "replay": "replay_author",
+      "returncode": 0
+    },
+    {
+      "byte_identical": true,
+      "duration": 0.3198803080013022,
+      "guard": "full_phase_label_volume_coarea",
+      "maxrss_kib": 48204,
+      "replay": "replay_omit_area",
+      "returncode": 1
+    },
+    {
+      "byte_identical": true,
+      "duration": 0.34801580399653176,
+      "guard": "current_flux_matches_quotient",
+      "maxrss_kib": 48684,
+      "replay": "replay_omit_normal_flux",
+      "returncode": 1
+    },
+    {
+      "byte_identical": true,
+      "duration": 0.2635147430046345,
+      "guard": "full_future_phase_normalization",
+      "maxrss_kib": 47860,
+      "replay": "replay_past_phase",
+      "returncode": 1
+    },
+    {
+      "byte_identical": true,
+      "duration": 0.34678441700089024,
+      "guard": "conserved_nonproduct_rejected",
+      "maxrss_kib": 48864,
+      "replay": "replay_ignore_product",
+      "returncode": 1
+    }
+  ]
+}

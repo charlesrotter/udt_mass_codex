@@ -1,0 +1,81 @@
+{
+  "checks": {
+    "coarea_from_inverse": "PASS",
+    "flux_vs_metric_volume": "PASS",
+    "full_future_normalization": "PASS",
+    "full_normal_unit": "PASS",
+    "full_observer_frequency": "PASS",
+    "saved_Gamma": "PASS",
+    "saved_J2": "PASS",
+    "saved_J3": "PASS",
+    "saved_gamma_graph": "PASS",
+    "saved_gamma_phase": "PASS",
+    "saved_initial_flux": "PASS",
+    "saved_nonproduct_derivative": "PASS",
+    "variable_phase_flow_normalization": "PASS",
+    "variable_phase_full_closure": "PASS",
+    "variable_phase_full_null": "PASS",
+    "variable_phase_nonconstant_control": "PASS",
+    "variable_phase_raises_to_same_ray": "PASS",
+    "volume_from_full_minor": "PASS"
+  },
+  "manifests": {
+    "FREEZE_SHA256SUMS": {
+      "count": 20,
+      "sha256": "361c4d61e4b71e226c3461051bc1f066d0f3b6b2e14096c32cade22a64e46dd2"
+    },
+    "SOURCE_SHA256SUMS": {
+      "count": 31,
+      "sha256": "5b28e4c4dbf3131e3e600c98855de29df16db1eb918067fba06cedd51cff01e6"
+    },
+    "review/STAGE_A_SHA256SUMS": {
+      "count": 5,
+      "sha256": "3d59e608979476b2ee2250e79908d3d91e873b0eef1f8091a732a696e9616793"
+    }
+  },
+  "outputs": {
+    "J2": "2*z1",
+    "J3": "2*z1*sqrt(-A**2 - B**2 + 2*c + h)/kappa",
+    "flux": "2*w*z1/kappa",
+    "gamma_graph": [
+      [
+        "2*c + h",
+        "-A",
+        "-B"
+      ],
+      [
+        "-A",
+        "1",
+        "0"
+      ],
+      [
+        "-B",
+        "0",
+        "1"
+      ]
+    ],
+    "gamma_phase": [
+      [
+        "(2*c + h)/kappa**2",
+        "(2*A*z1 + B*Lshear)/kappa",
+        "B/kappa"
+      ],
+      [
+        "(2*A*z1 + B*Lshear)/kappa",
+        "Lshear**2 + 4*z1**2",
+        "Lshear"
+      ],
+      [
+        "B/kappa",
+        "Lshear",
+        "1"
+      ]
+    ],
+    "rate": "au*w",
+    "variable_lambda": "3*u**2 + 1",
+    "variable_phase": "-u**3 - u"
+  },
+  "python": "3.10.12",
+  "stage_a_source_count": 29,
+  "sympy": "1.13.1"
+}

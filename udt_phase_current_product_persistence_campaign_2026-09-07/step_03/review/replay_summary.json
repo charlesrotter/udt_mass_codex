@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib\nroot=pathlib.Path(\"/home/udt-admin/udt_mass_codex\")\nstep=root/\"udt_phase_current_product_persistence_campaign_2026-09-07/step_03\"\ncases=[(\"replay_author\",\"author_exact\",0,None),(\"replay_omit_area\",\"mutant_omit_area\",1,\"full_phase_label_volume_coarea\"),(\"replay_omit_normal_flux\",\"mutant_omit_normal_flux\",1,\"current_flux_matches_quotient\"),(\"replay_past_phase\",\"mutant_past_phase\",1,\"full_future_phase_normalization\"),(\"replay_ignore_product\",\"mutant_ignore_product\",1,\"conserved_nonproduct_rejected\")]\nsummary=[]\nfor replay,old,code,guard in cases:\n    record=json.loads((step/\"review\"/(replay+\".json\")).read_text())\n    assert record[\"returncode\"]==code and not record[\"timeout\"]\n    for suffix in [\".stdout\",\".stderr\"]:\n        assert (step/\"review\"/(replay+suffix)).read_bytes()==(step/(old+suffix)).read_bytes(),(replay,suffix)\n    data=json.loads((step/\"review\"/(replay+\".stdout\")).read_text())\n    if guard is not None: assert data[\"guard\"]==guard and data[\"status\"]==\"FAIL\"\n    else: assert data[\"status\"]==\"PASS\" and data[\"guard_count\"]==16\n    summary.append(dict(replay=replay,byte_identical=True,returncode=code,guard=guard,duration=record[\"duration_seconds\"],maxrss_kib=record[\"maxrss_kib\"]))\nfor prefix in [\"source_first\",\"compare_frozen\"]:\n    assert (step/\"review\"/(prefix+\".stderr\")).stat().st_size==0\nprint(json.dumps(dict(replays=summary,argument_sha256=hashlib.sha256((step/\"CANDIDATE_ARGUMENT.md\").read_bytes()).hexdigest()),indent=2,sort_keys=True))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T05:21:33.508812+00:00",
+  "duration_seconds": 0.02102463699702639,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14016
+}

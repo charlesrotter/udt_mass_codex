@@ -1,0 +1,25 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.packedGitLimit=64m",
+    "-c",
+    "core.packedGitWindowSize=8m",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "index.threads=1",
+    "--no-optional-locks",
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=normal"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T05:21:37.382066+00:00",
+  "duration_seconds": 0.03485415899922373,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12672
+}

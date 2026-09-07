@@ -1,0 +1,27 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.packedGitLimit=64m",
+    "-c",
+    "core.packedGitWindowSize=8m",
+    "diff",
+    "--check",
+    "94b1141119894f4ad75f3d338f0ec8d41df0bc42",
+    "--",
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "MEMORY.md",
+    "INDEX.md",
+    "udt_phase_current_product_persistence_campaign_2026-09-07"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T05:30:50.651798+00:00",
+  "duration_seconds": 0.008767880994128063,
+  "returncode": 2,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13824
+}

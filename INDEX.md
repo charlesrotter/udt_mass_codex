@@ -61,9 +61,9 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   scope, evidence/review history and closure: its `CAMPAIGN_LOG.md`.
 - G357--G360 owner-authorized conditional mathematical banking of SC2--SC5; SC1 stays a source map:
   `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-- Approved recipe-persistence campaign on admitted developments, max3 reviewed steps/4hours:
+- Completed recipe-persistence campaign: three reviewed conditional candidates, unpromoted:
   `udt_phase_current_product_persistence_campaign_2026-09-07/WORK_ORDER.md`;
-  candidate/review state: its `CAMPAIGN_LOG.md`. Historical approved proposal remains
+  closure: its `CAMPAIGN_LOG.md`; owner return: its `DECISION_BRIEF.md`. Historical approved proposal remains
   `udt_g357_g360_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md`.
 
 ## Retained comparison and observational lanes
