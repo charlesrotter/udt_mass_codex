@@ -8,7 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -68,9 +68,12 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
 - G361--G363 owner-authorized conditional mathematical banking of PC1--PC3:
   `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
   Historical restrictiveness proposal, subsequently authorized: its `NEXT_CAMPAIGN_PROPOSAL.md`.
-- Three reviewed UNPROMOTED restrictiveness candidates RC1--RC3, awaiting conditional-banking/direction:
+- Completed unchanged restrictiveness source campaign:
   `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`;
   exact scope, diagnostics, review and closure routes: its `CAMPAIGN_LOG.md` and step review records.
+- G364--G366 conditional banking of RC1--RC3:
+  `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+  Proposed calibration/test campaign, awaiting direction: its `NEXT_CAMPAIGN_PROPOSAL.md`.
 
 ## Retained comparison and observational lanes
 

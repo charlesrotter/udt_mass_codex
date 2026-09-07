@@ -1,0 +1,31 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/STAGE_A_SOURCE_FIRST.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/WORK_ORDER.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_01/REVIEW_RECORD.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_01/review/PHASE_B_ADVERSARIAL_REVIEW.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/REVIEW_RECORD.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/PHASE_B_ADVERSARIAL_REVIEW.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_02/review/EXPOSURE_CORRECTION.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/CANDIDATE_ARGUMENT.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/REVIEW_RECORD.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/review/PHASE_B_ADVERSARIAL_REVIEW.md",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_03/EXECUTION_NOTE.md",
+    "udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/CAMPAIGN_SHA256SUMS",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/CLOSURE_RECEIPT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T15:46:04.188860+00:00",
+  "duration_seconds": 0.0021619539911625907,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7596
+}

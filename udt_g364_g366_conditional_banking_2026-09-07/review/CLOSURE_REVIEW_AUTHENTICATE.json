@@ -1,0 +1,16 @@
+{
+  "command": [
+    "sha256sum",
+    "--quiet",
+    "-c",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_SHA256SUMS.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T16:05:20.391565+00:00",
+  "duration_seconds": 0.0028336569957900792,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7748
+}

@@ -1,0 +1,52 @@
+{
+  "added_ids": [
+    "G364",
+    "G365",
+    "G366"
+  ],
+  "baseline": "554b0be4b369aa11aa3afa073f7b1ee954a76a87",
+  "current_registry_sha256": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+  "direct_freeze": {
+    "entries": 16,
+    "sha256": "84eb40897d37b982db5466e3ae15d9228256c14a2752ec97f7534c03387bd60d"
+  },
+  "fixed_payload_sha256": {
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md": "9b6486a5180e3937aaf4827ddaa489c107a026293c4c0b55b22b8ea512b23582",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/CLOSURE_RECEIPT.json": "fcf59c0b2a2b609ce50de52f4b135cd2d8ec1a86793863579a222dfbf5f10699",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md": "1d9ec37b3c7cbec4c308ea2177a824077052a2b5541cb34e23e005730a21d903"
+  },
+  "full_premise_audit": "NOT_RUN",
+  "new_rows": 349,
+  "observed_head": "554b0be4b369aa11aa3afa073f7b1ee954a76a87",
+  "old_registry_sha256": "cec92ba28f9877b329ce7982677ee2adeee3cb606ca2c97735ab83f7828835ae",
+  "old_rows": 346,
+  "old_rows_byte_identical": true,
+  "protected_payload_bytes": "NOT_READ",
+  "runtime_python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "scientific_recomputation": "NOT_RUN",
+  "scope": "byte correspondence and exact tracked change scope only",
+  "source_campaign": {
+    "entries": 281,
+    "sha256": "66b21e83705a3abf4dc4cfae4b28f02f77f686e3ff3bdd34f52e8948ae904545"
+  },
+  "stage_a": {
+    "entries": 18,
+    "sha256": "85c9a1ac71715e6431686f253d765b565c0d997c0b8cbf24c692f5cde49066c3"
+  },
+  "status": "PASS",
+  "tracked_change_paths": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "tests/test_startup_surface.py",
+    "verify_current_scientific_premises.py"
+  ]
+}

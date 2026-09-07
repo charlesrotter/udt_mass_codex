@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "only_difference": [
+    "parameter-diagnostic and SOS/commutator hints",
+    "parameter-diagnostic and SOS method hints"
+  ],
+  "original_bank_sha256": "3ff6eb0245b805e5e50a41a6e2bfd906c8af2fdfaaf3b9aecd50a87e83d7490f",
+  "corrected_bank_sha256": "43eb154ac1fe3b778941616da9785391c3114b027be66eb22a6b61633e18a9d3",
+  "other_frozen_targets_identical": [
+    "udt_g364_g366_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md",
+    "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md",
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md",
+    "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/AUDIT_REPORT.md"
+  ],
+  "audit_inspected_not_rerun": {
+    "file": "udt_g364_g366_conditional_banking_2026-09-07/CLEAN_PREMISE_AUDIT.json",
+    "sha256": "3c8894acb692d3dd00d969febd8447e281f7dac0c54de24873ce4fb467a56e08",
+    "exit_code": 0,
+    "elapsed_seconds": 400.0563452630013,
+    "maxrss_kib": 105984
+  },
+  "scientific_rederivation": "NOT_PERFORMED"
+}

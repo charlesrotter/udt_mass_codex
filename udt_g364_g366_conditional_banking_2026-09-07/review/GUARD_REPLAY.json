@@ -1,0 +1,27 @@
+{
+  "command": [
+    "env",
+    "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1",
+    "python3",
+    "-B",
+    "-m",
+    "pytest",
+    "--noconftest",
+    "-p",
+    "no:cacheprovider",
+    "-q",
+    "tests/test_startup_surface.py",
+    "-k",
+    "restrictiveness",
+    "--basetemp",
+    "/home/udt-admin/udt_mass_codex/udt_g364_g366_conditional_banking_2026-09-07/review/pytest_tmp"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T15:54:15.161415+00:00",
+  "duration_seconds": 0.6115534959972138,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 70180
+}

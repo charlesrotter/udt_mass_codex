@@ -1,0 +1,24 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_g364_g366_conditional_banking_2026-09-07/DIRECT_REVIEW_SHA256SUMS.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/EXECUTION_RECORD.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/EXTERNAL_SOURCE_NOTES.md",
+    "udt_g314_global_admissibility_actualization_type_classification_2026-09-01/AUDIT_REPORT.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/STARTUP_PREMISE_AUDIT.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression_initial.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression_initial.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression_initial.stderr",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression.stderr"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T16:00:06.338890+00:00",
+  "duration_seconds": 0.001619185000890866,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7224
+}

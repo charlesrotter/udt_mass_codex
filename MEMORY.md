@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -34,13 +34,15 @@ history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 Generic metric-data realization and unrestricted recipe/product persistence remain open.
 G361--G363 bank PC1--PC3 conditionally; exact restricted scope and reviews:
 `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Its restrictiveness proposal was authorized; three reviewed UNPROMOTED candidates RC1--RC3 now
+G364--G366 bank RC1--RC3 conditionally:
 separate tangent departure, exact lawful recipe failure/local Ricci-flat recurrent-root necessity,
 and fixed-product metric freedom detected by a registered eventwise ideal tide.
-Return/review/closure routes: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`
-and its campaign log. Keep all conditional limits and RC2's late-hint exposure caveat.
+`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Keep all conditional limits and RC2's late-hint exposure caveat.
 Leaving this construction is not failure of admitted UDT equations. Old evidence is unchanged.
-Charles's conditional-banking/direction decision is next; no new campaign is authorized.
+Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+Charles's direction decision is next; no new campaign is authorized.
+Proposed tidal measurement/calibration/test audit: that package's `NEXT_CAMPAIGN_PROPOSAL.md`.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.
 Population, cross-label physics, realized history, matter, scale, `X_max`, and canon remain open.

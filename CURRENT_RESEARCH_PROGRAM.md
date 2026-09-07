@@ -2,7 +2,7 @@
 
 Date: 2026-09-07
 
-`LIVE.md` controls status; the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -43,6 +43,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G353--G356 | Conditional nonselection, optional conversion bounds, harmonic-wave phase class, different-phase product | Physical content/counting or recipe adoption; universal no-go; selected data |
 | G357--G360 | Conditional shared-query constraints, eventwise curvature, local phase and robust weights | Device identity, general PDE realization or recipe persistence; SC1 stays a source map |
 | G361--G363 | Conditional full-data/root gate, local invariant recipe class and fixed phase/product preservation | Generic persistence, stability, physical content or recipe adoption |
+| G364--G366 | Conditional tangent/exact recipe departure, local recurrent-root necessity and fixed-product functional freedom | Genericity, all-isometry census, physical identification or instrument law |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
 formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
@@ -83,18 +84,20 @@ G361--G363 bank PC1--PC3 at exactly the owner-authorized reviewed conditional sc
 Record: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`; the original
 three-step campaign remains unchanged. Restricted seed class, chosen recipe, local wave-method
 hypothesis, initial phase/product matching and all review caveats remain load-bearing.
-Charles authorized its restrictiveness proposal; all three scientific steps have now been reviewed.
-RC1--RC3 are UNPROMOTED conditional candidates, VERIFIED-WITH-CAVEATS:
+G364--G366 bank RC1--RC3 as conditional mathematics, VERIFIED-WITH-CAVEATS:
 constrained tangent departure; exact lawful recipe failure and local parallel-representative
 necessity in the full Ricci-flat nonzero recurrent-root class; and functional metric freedom at
 the SAME fixed recipe/product detected by a registered eventwise ideal tidal query.
 The forward initial-data wave-method hypothesis remains; root-only, other sectors/global domains,
 genericity, stability and all-isometry classification are unresolved here. RC2's exposure caveat stays.
-Return and exact review/closure routes: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`
-and its `CAMPAIGN_LOG.md`. The supplied ideal-query calibration is not an instrument law.
+Exact banking: `udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`;
+original campaign/reviews remain unchanged. Ideal-query calibration is not an instrument law.
 Remaining in the preserved class, leaving this construction, and violating original admitted
 equations are different outcomes. Recipe failure is not a verdict against UDT.
-Charles's conditional-banking/direction decision is required; no new campaign is authorized.
+Geometric theory followed by observational calibration and possible emergence are parallel;
+neither is prerequisite. The proposed tidal instrument/held-out-constraint feasibility campaign
+is mapped in that banking package's `NEXT_CAMPAIGN_PROPOSAL.md`, not begun or fitted.
+Charles's direction decision is required; no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

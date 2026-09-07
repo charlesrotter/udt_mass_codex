@@ -46,7 +46,7 @@ G357--G360 bank SC2--SC5 at their owner-authorized conditional mathematical scop
 VERIFIED-WITH-CAVEATS. SC1 remains a source map; initial and repaired false-pass evidence stays
 unchanged. No physical identification, recipe adoption or canon follows.
 
-Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+Authority: the exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
 Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
 `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
 covariance rows are unresolved, no preferred scale follows, and the raw archive is
@@ -69,11 +69,11 @@ history: `udt_g357_g360_conditional_banking_2026-09-07/BANKING_RECORD.md`.
 No full metric-data realization, automatic recipe/product persistence or physical content follows.
 G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
 Scope/reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Charles authorized that proposal; RC1--RC3 return VERIFIED-WITH-CAVEATS and UNPROMOTED.
-Exact scopes/reviews: `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`
-and its campaign log. Retain RC2's exposure and all local/recipe/query/execution caveats.
-Old evidence is unchanged; no generic persistence, stability or physical identification follows.
-Charles's conditional-banking/direction decision is next; no new campaign is authorized.
+G364--G366 bank RC1--RC3 conditionally, retaining RC2 exposure and all reviewed limits:
+`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+Charles's direction decision is next; no new campaign is authorized.
+Proposed tidal measurement/calibration/test audit: that package's `NEXT_CAMPAIGN_PROPOSAL.md`.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current
 frontier tracking. History, matter, scale, `X_max`, and canon stay open.

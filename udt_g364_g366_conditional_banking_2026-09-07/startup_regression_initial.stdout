@@ -1,0 +1,59 @@
+........................................................................ [ 30%]
+.................................F..F................................... [ 61%]
+........................................................................ [ 92%]
+.................                                                        [100%]
+=================================== FAILURES ===================================
+___ test_catch_restrictiveness_banking_record_limits[NOT wholly proof-blind] ___
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-20/test_catch_restrictiveness_ban27')
+token = 'NOT wholly proof-blind'
+
+    @pytest.mark.parametrize("token", ("CHOSEN", "local wave-method hypothesis",
+        "NOT wholly proof-blind", "NOT an all-isometry classification", "serial-launch lapse",
+        "physical identification remains OPEN", "no new campaign is authorized"))
+    def test_catch_restrictiveness_banking_record_limits(tmp_path: Path, token: str) -> None:
+        root = _restrictiveness_copy(tmp_path)
+>       _replace(root / premise_guard.RESTRICTIVENESS_BANKING_SOURCE, token, "REMOVED_LIMIT")
+
+tests/test_startup_surface.py:455: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = PosixPath('/tmp/pytest-of-udt-admin/pytest-20/test_catch_restrictiveness_ban27/udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md')
+old = 'NOT wholly proof-blind', new = 'REMOVED_LIMIT'
+
+    def _replace(path: Path, old: str, new: str) -> None:
+        text = path.read_text(encoding="utf-8")
+>       assert old in text, f"catch-proof fixture token absent: {old}"
+E       AssertionError: catch-proof fixture token absent: NOT wholly proof-blind
+E       assert 'NOT wholly proof-blind' in '# RC1--RC3 conditional mathematical banking\n\n2026-09-07 UTC. Preservation/source baseline:\n554b0be4b369aa11aa3afa0... not permission to strengthen\nthe source. The next decision concerns direction, not acceptance of physical content.\n'
+
+tests/test_startup_surface.py:191: AssertionError
+_ test_catch_restrictiveness_banking_record_limits[physical identification remains OPEN] _
+
+tmp_path = PosixPath('/tmp/pytest-of-udt-admin/pytest-20/test_catch_restrictiveness_ban30')
+token = 'physical identification remains OPEN'
+
+    @pytest.mark.parametrize("token", ("CHOSEN", "local wave-method hypothesis",
+        "NOT wholly proof-blind", "NOT an all-isometry classification", "serial-launch lapse",
+        "physical identification remains OPEN", "no new campaign is authorized"))
+    def test_catch_restrictiveness_banking_record_limits(tmp_path: Path, token: str) -> None:
+        root = _restrictiveness_copy(tmp_path)
+>       _replace(root / premise_guard.RESTRICTIVENESS_BANKING_SOURCE, token, "REMOVED_LIMIT")
+
+tests/test_startup_surface.py:455: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = PosixPath('/tmp/pytest-of-udt-admin/pytest-20/test_catch_restrictiveness_ban30/udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md')
+old = 'physical identification remains OPEN', new = 'REMOVED_LIMIT'
+
+    def _replace(path: Path, old: str, new: str) -> None:
+        text = path.read_text(encoding="utf-8")
+>       assert old in text, f"catch-proof fixture token absent: {old}"
+E       AssertionError: catch-proof fixture token absent: physical identification remains OPEN
+E       assert 'physical identification remains OPEN' in '# RC1--RC3 conditional mathematical banking\n\n2026-09-07 UTC. Preservation/source baseline:\n554b0be4b369aa11aa3afa0... not permission to strengthen\nthe source. The next decision concerns direction, not acceptance of physical content.\n'
+
+tests/test_startup_surface.py:191: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_startup_surface.py::test_catch_restrictiveness_banking_record_limits[NOT wholly proof-blind]
+FAILED tests/test_startup_surface.py::test_catch_restrictiveness_banking_record_limits[physical identification remains OPEN]
+2 failed, 231 passed, 1 deselected in 3.70s

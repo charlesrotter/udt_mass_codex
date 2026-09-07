@@ -1,0 +1,29 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/NEXT_CAMPAIGN_PROPOSAL.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "AGENTS.md",
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "INDEX.md",
+    "MEMORY.md",
+    "verify_current_scientific_premises.py",
+    "tests/test_startup_surface.py",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md",
+    "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md",
+    "udt_g277_observational_scale_anchor_ownership_2026-08-26/AUDIT_REPORT.md",
+    "udt_g279_native_kernel_observational_interface_provenance_audit_2026-08-27/AUDIT_REPORT.md"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T15:52:12.233028+00:00",
+  "duration_seconds": 0.008852151993778534,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7232
+}

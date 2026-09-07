@@ -3,8 +3,7 @@
 <!-- STARTUP_CURRENT_BEGIN -->
 ## CURRENT STATE — 2026-09-07
 
-Branch: `grok`. Synchronize and inspect dirt before work. This block overrides every older status
-description.
+Branch: `grok`. Synchronize and inspect dirt. This block overrides older status.
 
 ### Honest claim
 
@@ -78,7 +77,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
 
-Authority: the exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G363. Use `INDEX.md` for
+Authority: the exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G366. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -100,7 +99,7 @@ Do not stage, modify, mine, or cite without dispatch:
 ### Next gate
 
 G353--G356 conditional mathematical banking is complete at its owner-authorized reviewed scope.
-The four-step campaign is complete, not waiting for a fifth compatibility example.
+The four-step campaign is complete; no fifth example.
 The G352 physical-realization question remains: physical identification remains OPEN. Its
 owner-provisional premises and chosen product are unchanged; a metric-native carried object is
 not physically selected by the banked mathematical realizations.
@@ -111,11 +110,11 @@ Algebraic compatibility is not full metric-development realization; free phase p
 curvature-recipe/product persistence. The original completed campaign remains unchanged.
 G361--G363 bank PC1--PC3 conditionally: restricted local seed/recipe/phase/product preservation.
 Exact scopes and reviews: `udt_g361_g363_conditional_banking_2026-09-07/BANKING_RECORD.md`.
-Authorized restrictiveness campaign: RC1--RC3 VERIFIED-WITH-CAVEATS, UNPROMOTED.
-Scope/reviews/caveats (including RC2 exposure):
-`udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md`.
-Charles's conditional-banking/direction decision is next; no new campaign is authorized.
-No generic persistence or physical adoption.
+G364--G366 bank RC1--RC3 conditionally, retaining RC2 exposure and all reviewed limits:
+`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+Charles's direction decision is next; no new campaign is authorized.
+Proposed tidal measurement/calibration/test audit: that package's `NEXT_CAMPAIGN_PROPOSAL.md`.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,
 or presume a new premise. History, matter, scale, `X_max`, and canon remain open.
 Backup completeness and pre-reboot unsaved-state disposition remain UNVERIFIED; ScratchDisk blocks

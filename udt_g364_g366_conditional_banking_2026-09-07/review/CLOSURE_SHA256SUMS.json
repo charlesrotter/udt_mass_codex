@@ -1,0 +1,27 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/EXECUTION_CLOSURE_FIDELITY.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/EXECUTION_RECORD.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/diagnostics/EXECUTION_RECORD_INITIAL.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/REVIEW_SHA256SUMS.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_REVIEW_AUTHENTICATE.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_REVIEW_AUTHENTICATE.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/review/CLOSURE_REVIEW_AUTHENTICATE.stderr",
+    "udt_g364_g366_conditional_banking_2026-09-07/preservation_bytes.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/preservation_bytes.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/preservation_bytes.stderr",
+    "udt_g364_g366_conditional_banking_2026-09-07/PRESERVATION_METADATA.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/maintained_whitespace.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/maintained_whitespace.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/maintained_whitespace.stderr"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T16:05:45.772101+00:00",
+  "duration_seconds": 0.0016200810059672222,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7580
+}

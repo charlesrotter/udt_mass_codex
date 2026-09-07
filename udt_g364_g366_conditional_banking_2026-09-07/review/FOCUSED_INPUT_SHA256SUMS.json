@@ -1,0 +1,19 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/diagnostics/BANKING_RECORD_INITIAL.md",
+    "udt_g364_g366_conditional_banking_2026-09-07/CLEAN_PREMISE_AUDIT.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression_final.json",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression_final.stdout",
+    "udt_g364_g366_conditional_banking_2026-09-07/startup_regression_final.stderr"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T16:02:49.395822+00:00",
+  "duration_seconds": 0.0014154599921312183,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7560
+}

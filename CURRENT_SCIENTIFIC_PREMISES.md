@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 346-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 349-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -97,12 +97,12 @@ The CHOSEN recipe, restricted full seed class on ACTUAL developments, local wave
 hypothesis, nonzero/positive domains and independent initial phase/product matching remain explicit.
 These do not prove generic persistence, stability, physical identification or canon. The original
 campaign and review diagnostics are unchanged; model identities remain UNKNOWN, other-model/human
-axes UNTESTED. The subsequently authorized restrictiveness campaign has returned three reviewed,
-UNPROMOTED conditional candidates RC1--RC3; these are NOT additional registry rows or accepted grades.
-Their local Ricci-flat recipe boundary and fixed-registration query/data freedom retain all
-assumptions and review/execution caveats, including RC2's late pre-seal hints.
-See `udt_recipe_restrictiveness_campaign_2026-09-07/DECISION_BRIEF.md` and its log/review records.
-Conditional banking requires Charles's decision; no successor campaign or physical adoption is authorized.
+axes UNTESTED. G364--G366 bank RC1--RC3 conditionally at their exact reviewed local scopes:
+`udt_g364_g366_conditional_banking_2026-09-07/BANKING_RECORD.md`.
+Chosen recipe, domain/method restrictions, RC2 late-hint exposure and all review/execution caveats
+remain. Original evidence stays unchanged. No generic behavior or physical identification follows.
+Geometric calibration/testing and emergence remain parallel, neither prerequisite.
+The proposed measurement-route campaign awaits Charles's direction; no new physical adoption.
 
 | Object | Status | Guard |
 |---|---|---|
