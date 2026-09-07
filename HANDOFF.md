@@ -112,12 +112,15 @@ Ratios alone do not fix scale; dimensional anchors may fix it in an identified f
 Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
 Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
 No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
-The clock benchmark authorization is exhausted. Charles now authorized the complementary
-observable direction; its two-step/two-hour scope and fresh-review cycle are recorded in
-`udt_complementary_wave_observable_campaign_2026-09-07/CAMPAIGN_LOG.md`.
-Examine wave tidal geometry, unrestricted tensor-waveform network information and a practical
-fixed-query design, with supplied instrument/astrometric assumptions; no fitting or promotion.
-Beyond this bounded task, no new campaign is authorized; emergence remains parallel.
+The complementary-observable campaign is complete at its two reviewed conditional steps:
+`udt_complementary_wave_observable_campaign_2026-09-07/DECISION_BRIEF.md`.
+CO1 supplies the scoped wave-tidal/readout and free-waveform null relation; CO2 checks
+nominal H1/L1/V1 rank2/condition5.62 with one contrast, not three independent holdouts.
+Supplied response/astrometry/error assumptions remain; no strain/PSD analysis or eligibility
+promotion. CO1 repair history and both separate-context reviews are preserved.
+Next is Charles's decision on the proposed matched-release fixed-window strain test,
+including its error/power and upstream-processing gates; no new campaign is authorized.
+Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

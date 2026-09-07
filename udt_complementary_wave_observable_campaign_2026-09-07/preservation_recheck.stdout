@@ -1,0 +1,117 @@
+{
+  "backup_completeness": "UNVERIFIED",
+  "baseline": "9ed73efe3d7d24a5fd6666bd904557cf0b24e0fd",
+  "branch": "grok",
+  "capture_records": [
+    {
+      "duration_seconds": 0.28637631100718863,
+      "path": "detector_constants_fetch.json",
+      "returncode": 22
+    },
+    {
+      "duration_seconds": 0.4424923350015888,
+      "path": "detector_constants_gitlab_fetch.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.1788593450037297,
+      "path": "detector_constants_mirror_fetch.json",
+      "returncode": 22
+    },
+    {
+      "duration_seconds": 0.37516996799968183,
+      "path": "detector_survey_catalogue_fetch.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.18717092400765978,
+      "path": "gw170817_tests_fetch.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.09607295600289945,
+      "path": "preservation_precheck.json",
+      "returncode": 1
+    },
+    {
+      "duration_seconds": 1.628855293005472,
+      "path": "source_metadata_fetch.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.3053725619975012,
+      "path": "step_01/geometry_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.2971830059977947,
+      "path": "step_01/repair_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.30934411300404463,
+      "path": "step_01/review/candidate_replay.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.014464292005868629,
+      "path": "step_01/review/complex_variance_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.3710549740062561,
+      "path": "step_01/review/focused_rereview_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.016970526994555257,
+      "path": "step_01/review/independent_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.2987300339882495,
+      "path": "step_01/review/ppwave_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.3701710449968232,
+      "path": "step_02/design_run.json",
+      "returncode": 0
+    },
+    {
+      "duration_seconds": 0.028055804010364227,
+      "path": "step_02/review/independent_run.json",
+      "returncode": 0
+    }
+  ],
+  "empirical_strain_analysis": false,
+  "full_startup_audit_record_verified_not_replayed": true,
+  "head": "9da534d34fbc4555131244684ce9f2315b6de291",
+  "host_process_inventory": "UNVERIFIED",
+  "immutable_source_bytes_match_baseline": {
+    "AGENTS.md": "4b30e3d839d546299e2177fa33dcdc7f0a5305feb78a4c1f48bde11043b7b43d",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "b50697a68e8d78d9bd2ae21904ef5dc0fd55c9292d4407e5ee6dfcb53f756f42",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv": "b9a8d84d58b60dd6381af6512d89a63c8fa26750f0068e444dd039d329e74bc4",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md": "3b625d8f43620a37c99d9f4f0fdc9390c3a12306b1da87281c143ce84d40a81e",
+    "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1",
+    "udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+    "udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md": "cc66be850523fac561b411b32d7532069d838a6d6e6800568afd72f5560b862d",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/AUDIT_REPORT.md": "b7df75cee891ed23dcf4796aba0a3d25e101ee89e4c1add95c8ef842987e418e",
+    "udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md": "7bf8dd3b081ff0d37ee23c8ea462abc451f9f4a3510283ea5e9ef87dd042b6bf",
+    "udt_local_clock_metric_benchmark_campaign_2026-09-07/step_02/review/FINAL_REVIEW.md": "113fae20d9b203b4cad01b2e96e448937e5ca82ae1976800736ad2428605c488",
+    "udt_observational_route_selection_campaign_2026-09-07/SOURCE_LEDGER.md": "7c1f34922e77c44bebae18ee47b9223ce3abcfc401bed2c17a6fe644eb1e46d0",
+    "verify_current_scientific_premises.py": "fd99b85a4d0bfb9548ecea5d3f358c7cbc7b96319b38b4114c43429296a24f5c"
+  },
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "protected_payloads_inspected": false,
+  "scientific_promotion": false,
+  "scope": "Packaging/preservation and scoped startup only, not full scientific replay",
+  "scoped_startup_surface_pass": true,
+  "scoped_tracked_paths_only": true,
+  "scratchdisk": "UNUSED; archive-dependent scope only",
+  "unrelated_untracked_name_count": 46,
+  "untracked_names_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea"
+}

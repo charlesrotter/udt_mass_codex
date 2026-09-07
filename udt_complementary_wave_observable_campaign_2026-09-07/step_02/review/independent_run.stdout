@@ -1,0 +1,404 @@
+{
+  "ERA_angle_residual": 5.372103637490966e-07,
+  "ERA_rad": 2.7249917156935055,
+  "F": [
+    [
+      0.07637694310459264,
+      0.8871504798012284
+    ],
+    [
+      0.13294972949970554,
+      -0.7412364124394046
+    ],
+    [
+      -0.15740052456055756,
+      0.2573650857062322
+    ]
+  ],
+  "basis_singular_errors": [
+    5.551115123125783e-17,
+    5.551115123125783e-17,
+    0.0
+  ],
+  "control_rejections": [
+    "forced-rank-two negative control rejected",
+    "one-sign-corrupted null rejected by original response residual",
+    "double-normalized overhead response rejected"
+  ],
+  "corrupted_null_residual": 0.584519543535652,
+  "degrees": [
+    197.45037083333332,
+    -23.381486111111112
+  ],
+  "delays": [
+    0.018826632251513074,
+    0.015560840809109985,
+    -0.006330543633799642
+  ],
+  "design": {
+    "condition": 5.619289606634778,
+    "gram": [
+      0.04828399314398574,
+      -0.07129873830189432,
+      1.4027041802781652
+    ],
+    "gram_determinant": 0.06264464894014904,
+    "gram_determinant_subtractive": 0.06264464894014905,
+    "holdouts": [
+      {
+        "heldout": 0,
+        "original_response_residual": 1.1102230246251565e-16,
+        "prediction_coefficients": [
+          -1.9319132140073059,
+          -2.1170468348443627
+        ],
+        "residual_norm": 3.0354861171450898,
+        "training": [
+          1,
+          2
+        ],
+        "training_condition": 7.8542916204982935,
+        "training_inverse_operator_norm": 9.759928623001665,
+        "training_norm": 2.8660383750711667
+      },
+      {
+        "heldout": 1,
+        "original_response_residual": 6.938893903907228e-18,
+        "prediction_coefficients": [
+          -0.5176215953954432,
+          -1.0958291601790122
+        ],
+        "residual_norm": 1.5712331667573605,
+        "training": [
+          0,
+          2
+        ],
+        "training_condition": 5.36222643154854,
+        "training_inverse_operator_norm": 5.801922168638466,
+        "training_norm": 1.211929727467052
+      },
+      {
+        "heldout": 2,
+        "original_response_residual": 5.551115123125783e-17,
+        "prediction_coefficients": [
+          -0.4723561064125047,
+          -0.912551003695359
+        ],
+        "residual_norm": 1.4338304033638667,
+        "training": [
+          0,
+          1
+        ],
+        "training_condition": 7.660349703188478,
+        "training_inverse_operator_norm": 6.624486137591255,
+        "training_norm": 1.0275551691323384
+      }
+    ],
+    "minors": [
+      -0.08245438161403598,
+      -0.15929470939295717,
+      -0.17455978761504407
+    ],
+    "null": [
+      0.32943652561999254,
+      0.63644277702192,
+      0.697432553845929
+    ],
+    "original_null_residual": 8.326672684688674e-17,
+    "rank": 2,
+    "row_norms": [
+      0.8904321485939015,
+      0.7530651032281898,
+      0.30168147518950333
+    ],
+    "singular_values": [
+      1.185937228829662,
+      0.21104753658352265
+    ]
+  },
+  "finite_stress_comparisons": [
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 2.6645352591003757e-15,
+      "ddec": -0.01,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 6.554002132674874e-17,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 0.0,
+      "ddec": 0.0,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 3.496552006265752e-17,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7763568394002505e-15,
+      "ddec": 0.01,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 3.241764495731658e-17,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 3.552713678800501e-15,
+      "ddec": -0.01,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 5.87366526944022e-17,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 4.440892098500626e-15,
+      "ddec": 0.0,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 0.0,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 3.552713678800501e-15,
+      "ddec": 0.01,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 2.225324959026498e-17,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.0658141036401503e-14,
+      "ddec": -0.01,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 2.2285775655439544e-16,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.0658141036401503e-14,
+      "ddec": 0.0,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 5.898059818321144e-16,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.1546319456101628e-14,
+      "ddec": 0.01,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 4.444686806104325e-16,
+      "seconds": 0.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6956536619261442e-08,
+      "ddec": -0.01,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 2.904283356777032e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6937421243312656e-08,
+      "ddec": 0.0,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 7.040559083003675e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6918316525504906e-08,
+      "ddec": 0.01,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 1.0039152493254017e-09,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6974483152409903e-08,
+      "ddec": -0.01,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 3.977459451208476e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6955337578394847e-08,
+      "ddec": 0.0,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 7.03780557269329e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6936213320661864e-08,
+      "ddec": 0.01,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 9.424427037385552e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.699243501462888e-08,
+      "ddec": -0.01,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 4.614279494521284e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6973269012510173e-08,
+      "ddec": 0.0,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 7.036982880084808e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.6954124326673536e-08,
+      "ddec": 0.01,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 9.016191454460504e-10,
+      "seconds": -10.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7604915569791046e-07,
+      "ddec": -0.01,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 6.76235690534599e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7585016021115507e-07,
+      "ddec": 0.0,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 7.043966606182228e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7565140097985932e-07,
+      "ddec": 0.01,
+      "dra": -0.01,
+      "matrix_delta_norm_error": 7.318330963804187e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.762363677215717e-07,
+      "ddec": -0.01,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 6.771071205460832e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7603715019021138e-07,
+      "ddec": 0.0,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 7.04582673628773e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7583816980248912e-07,
+      "ddec": 0.01,
+      "dra": 0.0,
+      "matrix_delta_norm_error": 7.313680687112689e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7642378313809104e-07,
+      "ddec": -0.01,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 6.779480969665297e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7622435066755315e-07,
+      "ddec": 0.0,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 7.047706206825266e-09,
+      "seconds": -100.0
+    },
+    {
+      "comparator": "same nominal R; fixed-pole Earth rotation approximation",
+      "condition_error": 1.7602514645886913e-07,
+      "ddec": 0.01,
+      "dra": 0.01,
+      "matrix_delta_norm_error": 7.309349896178485e-09,
+      "seconds": -100.0
+    }
+  ],
+  "implementation": "stdlib scalar arm projections, Gram eigen2x2, minors/null ratios; no SVD or producer imports",
+  "matrix_max_error": 1.1102230246251565e-16,
+  "max_epsilon_error": 0.0,
+  "noise": [
+    {
+      "condition": 5.619289606634778,
+      "holdout_sigma": {
+        "H1": 3.0354861171450898,
+        "L1": 1.5712331667573605,
+        "V1": 1.4338304033638667
+      },
+      "null_sigma": 1.0,
+      "virgo_sigma_ratio": 1.0
+    },
+    {
+      "condition": 7.288124118491634,
+      "holdout_sigma": {
+        "H1": 6.713365353887484,
+        "L1": 3.4749828849517335,
+        "V1": 3.171099119486899
+      },
+      "null_sigma": 2.2116277574023244,
+      "virgo_sigma_ratio": 3.0
+    },
+    {
+      "condition": 7.624107676080014,
+      "holdout_sigma": {
+        "H1": 21.28194114170297,
+        "L1": 11.01599232688021,
+        "V1": 10.052654854594909
+      },
+      "null_sigma": 7.011048748171803,
+      "virgo_sigma_ratio": 10.0
+    }
+  ],
+  "omissions": [
+    "producer replay",
+    "independent full astrometry/IERS validation",
+    "strain/PSD/calibration arrays",
+    "actual release header validation",
+    "statistical power or coverage",
+    "349-row premise audit replay"
+  ],
+  "pins": {
+    "header": "82ac49e8042d4eab0f890e63e3599ae227967aee16c76cd5f6b6b729c8798684",
+    "inputs": "2d17901bfe84069ff4ac2c43eb500f0b3bd844b3136a8ba6d5582a7d710eb38c",
+    "target": "b89c8e432788842cdbddc1270c3135043e60f12c557cb24725d2162560fdfac2"
+  },
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "rank_one": {
+    "gram": [
+      14.0,
+      28.0,
+      56.0
+    ],
+    "gram_determinant": 0.0,
+    "rank": 1,
+    "singular_values": [
+      8.366600265340756,
+      0.0
+    ]
+  },
+  "reviewer": "/root/co2_design_review",
+  "rotation_angle_rad": 2.7249911784831418,
+  "supplied_coordinate_input": "target nominal c2t06a rotation; not an independent astrometry certificate",
+  "utc": "2017-08-17T12:41:04.430000+00:00",
+  "verdict": "PASS finite independent geometry/linear algebra and coarse rotation checks only"
+}

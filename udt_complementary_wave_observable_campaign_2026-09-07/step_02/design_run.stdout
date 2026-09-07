@@ -1,0 +1,504 @@
+{
+  "F_HLV_plus_cross": [
+    [
+      0.07637694310459259,
+      0.8871504798012285
+    ],
+    [
+      0.1329497294997055,
+      -0.7412364124394045
+    ],
+    [
+      -0.15740052456055761,
+      0.25736508570623207
+    ]
+  ],
+  "arm_cross_dots": [
+    -7.743086088973783e-09,
+    1.9059303493773605e-07,
+    -2.347899652477281e-12
+  ],
+  "arm_lengths_m": [
+    [
+      3995.084,
+      3995.044
+    ],
+    [
+      3995.15,
+      3995.15
+    ],
+    [
+      3000.0,
+      3000.0
+    ]
+  ],
+  "arm_norm_squared_errors": [
+    [
+      -1.6653345369377348e-15,
+      3.1676883338604966e-12
+    ],
+    [
+      -7.108980071279802e-12,
+      2.688516076432279e-12
+    ],
+    [
+      1.9111379145897445e-12,
+      9.305889392408062e-12
+    ]
+  ],
+  "arrival_minus_geocenter_seconds": [
+    0.018826632251513074,
+    0.015560840809109985,
+    -0.006330543633799644
+  ],
+  "checks": {
+    "holdout_original_residuals": true,
+    "iers_historical_not_extrapolated": true,
+    "original_null_residual": true,
+    "overhead_factor_anchor": true,
+    "polarization_basis_invariance": true,
+    "rank_one_separator": true
+  },
+  "design": {
+    "condition": 5.619289606634774,
+    "holdouts": [
+      {
+        "heldout": "H1",
+        "prediction_coefficients": [
+          -1.9319132140073054,
+          -2.11704683484436
+        ],
+        "residual_row": [
+          1.0,
+          1.9319132140073054,
+          2.11704683484436
+        ],
+        "residual_sigma_equal_unit_noise": 3.0354861171450875,
+        "training": [
+          "L1",
+          "V1"
+        ],
+        "training_condition": 7.854291620498285,
+        "training_inverse_operator_norm": 9.759928623001658
+      },
+      {
+        "heldout": "L1",
+        "prediction_coefficients": [
+          -0.5176215953954434,
+          -1.0958291601790113
+        ],
+        "residual_row": [
+          0.5176215953954434,
+          1.0,
+          1.0958291601790113
+        ],
+        "residual_sigma_equal_unit_noise": 1.5712331667573598,
+        "training": [
+          "H1",
+          "V1"
+        ],
+        "training_condition": 5.362226431548539,
+        "training_inverse_operator_norm": 5.801922168638464
+      },
+      {
+        "heldout": "V1",
+        "prediction_coefficients": [
+          -0.4723561064125053,
+          -0.9125510036953598
+        ],
+        "residual_row": [
+          0.4723561064125053,
+          0.9125510036953598,
+          1.0
+        ],
+        "residual_sigma_equal_unit_noise": 1.4338304033638674,
+        "training": [
+          "H1",
+          "L1"
+        ],
+        "training_condition": 7.660349703188481,
+        "training_inverse_operator_norm": 6.624486137591257
+      }
+    ],
+    "null_residual": 2.7755575615628914e-17,
+    "null_unit": [
+      0.32943652561999276,
+      0.6364427770219202,
+      0.6974325538459286
+    ],
+    "rank": 2,
+    "singular_values": [
+      1.1859372288296615,
+      0.21104753658352274
+    ]
+  },
+  "diagnostic_noise": [
+    {
+      "fixed_normalized_null_sigma": 0.9999999999999999,
+      "holdout_sigmas": {
+        "H1": 3.0354861171450875,
+        "L1": 1.5712331667573598,
+        "V1": 1.4338304033638674
+      },
+      "sigma_HLV": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "weighted_condition": 5.619289606634774
+    },
+    {
+      "fixed_normalized_null_sigma": 2.211627757402324,
+      "holdout_sigmas": {
+        "H1": 6.713365353887478,
+        "L1": 3.4749828849517312,
+        "V1": 3.1710991194869
+      },
+      "sigma_HLV": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "weighted_condition": 7.288124118491633
+    },
+    {
+      "fixed_normalized_null_sigma": 7.0110487481718,
+      "holdout_sigmas": {
+        "H1": 21.28194114170294,
+        "L1": 11.0159923268802,
+        "V1": 10.052654854594909
+      },
+      "sigma_HLV": [
+        1.0,
+        1.0,
+        10.0
+      ],
+      "weighted_condition": 7.624107676080019
+    }
+  ],
+  "epsilon_arm": {
+    "100.0": [
+      [
+        0.008373076913678812,
+        0.008372993079877935
+      ],
+      [
+        0.008373215239450263,
+        0.008373215239450263
+      ],
+      [
+        0.006287535065855045,
+        0.006287535065855045
+      ]
+    ],
+    "30.0": [
+      [
+        0.0025119230741036435,
+        0.00251189792396338
+      ],
+      [
+        0.002511964571835078,
+        0.002511964571835078
+      ],
+      [
+        0.0018862605197565133,
+        0.0018862605197565133
+      ]
+    ],
+    "500.0": [
+      [
+        0.04186538456839406,
+        0.041864965399389664
+      ],
+      [
+        0.0418660761972513,
+        0.0418660761972513
+      ],
+      [
+        0.03143767532927522,
+        0.03143767532927522
+      ]
+    ]
+  },
+  "evidence": "finite float64 geometric design, no observational arrays or physical error certification",
+  "finite_stress": [
+    {
+      "condition": 5.617225571782435,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.0003222696195394891,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.615674874233008,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.0002565708523658084,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.614125996416373,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.00028964646874330937,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.620841799279974,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.00017285376305898402,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.619289606634774,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.0,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.617739235555656,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.00017285571547790899,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.6244609034716335,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.00028966022679511753,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.622907213703698,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.000256578791959052,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.621355347337448,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.0003222187851544526,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": 0.0
+    },
+    {
+      "condition": 5.632346549737404,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.0008055400199146925,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.630789597334586,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.0008170812600955887,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.629234472334275,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.0008613227384582251,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.635974795053921,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.0010575865042521566,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.634416339077637,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.0010736849029913276,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.63285971234692,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.0011146950860379974,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.639605917818432,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.0013114891967281133,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.638045956234263,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.0013302965316163205,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.6364878257410735,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.0013692162082541942,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": -10.0
+    },
+    {
+      "condition": 5.770694486297325,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.010458480016618386,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.76907963022,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.010486052600763135,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.767466672416857,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.010516152318821366,
+      "ra_offset_deg": -0.01,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.7744308957759305,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.010715363025267478,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.772814458499393,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.010742943812982996,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.771199921428523,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.01077299055772691,
+      "ra_offset_deg": 0.0,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.778170178352986,
+      "dec_offset_deg": -0.01,
+      "matrix_change_operator_norm": 0.010972254776308905,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.77655215778172,
+      "dec_offset_deg": 0.0,
+      "matrix_change_operator_norm": 0.010999842446591638,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": -100.0
+    },
+    {
+      "condition": 5.774936039349963,
+      "dec_offset_deg": 0.01,
+      "matrix_change_operator_norm": 0.011029837753183391,
+      "ra_offset_deg": 0.01,
+      "rank": 2,
+      "seconds": -100.0
+    }
+  ],
+  "iers_file_sha256": "44843ded91da89688dfa1d35f5831c22eefb40ffd315ecc42f9c4da469cf3c1a",
+  "input_sha256": "2d17901bfe84069ff4ac2c43eb500f0b3bd844b3136a8ba6d5582a7d710eb38c",
+  "n_itrs": [
+    0.6887397336499795,
+    0.6057854130239927,
+    -0.3983235025191281
+  ],
+  "nominal_query_degrees": [
+    197.45037083333332,
+    -23.381486111111112
+  ],
+  "official_source_decimal_match": true,
+  "p_itrs": [
+    -0.6602614471162677,
+    0.7510356326718757,
+    0.0005476395600058834
+  ],
+  "q_itrs": [
+    0.29948689577957727,
+    0.2626204710690052,
+    0.9172448350532186
+  ],
+  "rotation": [
+    [
+      -0.9144683264161361,
+      0.40465445215122303,
+      0.0015666320131815588
+    ],
+    [
+      -0.4046539352493374,
+      -0.9144696674305762,
+      0.0006481023349651294
+    ],
+    [
+      0.0016948949513734767,
+      -4.127475161955765e-05,
+      0.9999985628127165
+    ]
+  ],
+  "scope": "Static response and finite stress controls only; no measured PSD, statistical power, coverage, or release eligibility",
+  "time": {
+    "dut1_seconds": 0.3408252313747105,
+    "iers_status": 0,
+    "tt_jd": [
+      2457983.0,
+      0.029324236111883843
+    ],
+    "ut1_jd": [
+      2457983.0,
+      0.028527440107617343
+    ],
+    "utc": "2017-08-17T12:41:04.430",
+    "xp_rad": 1.0956866714698987e-06,
+    "yp_rad": 1.8544679861441713e-06
+  },
+  "versions": {
+    "astropy": "6.1.7",
+    "iers_data": "0.2026.1.26.0.43.56",
+    "numpy": "2.2.6",
+    "pyerfa": "2.0.1.5",
+    "python": "3.10.12"
+  }
+}

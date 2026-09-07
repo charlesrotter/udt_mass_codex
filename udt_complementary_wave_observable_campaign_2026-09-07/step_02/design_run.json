@@ -1,0 +1,18 @@
+{
+  "command": [
+    "env",
+    "OPENBLAS_NUM_THREADS=1",
+    "python3",
+    "-B",
+    "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_checks.py",
+    "/tmp/udt-complementary-wave-sources-C72KZ2/LALDetectors_gitlab.h"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:19:25.816610+00:00",
+  "duration_seconds": 0.3701710449968232,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 112120
+}

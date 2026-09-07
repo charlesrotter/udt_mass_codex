@@ -153,3 +153,65 @@ approximations. Possible outcomes: full-rank useful design; full-rank but poor
 conditioning or weak heldout channel; rank loss; or mismatched public support.
 Positive rank does not establish measured power. Recommend at most one next
 executable work order; it is a proposal, not current analysis authorization.
+
+## CO2 closure —22:29UTC
+
+VERIFIED-WITH-CAVEATS in fresh source-first context `/root/co2_design_review`,
+exact model UNKNOWN; different-model/human/formal and independent complete
+astrometry axes UNTESTED. No repair or unresolved load-bearing objection.
+Candidate SHA bd06415b173dc2a0b32f05f5beb6cdb0cd3ab3a0e08ad0a055bf7653f4f4c087;
+review SHA1a3cb941541f8f9aea5a1edae936798e59a0b94d68d8569bb32bb9549a5052b8.
+Independent source-arm scalar contractions/Gram minors, without SVD or parent
+imports, reproduce F within1.12e-16 and condition5.61929. The nominal rotation
+is a shared supplied input, checked only by independent coarse sign/time
+comparators. Parent read full review, implementation and key saved output.
+Parent design run0.370171s/112120KiB and reviewer0.028056s/15360KiB both
+exit0/empty stderr under512MiB/60s. CO2 producer was not replayed by reviewer;
+independent quantity recomputation, not a same-code pass, is its numerical check.
+
+Survivor: additional band-limited tidal readout plus one algebraic network
+contrast for two free waveforms, with an actual finite H/L/V design and a
+documented possible C02/Repro2A route. No measured PSD, contrast, power,
+coverage, release-header validation or product eligibility. The3 holdouts
+are proportional; finite weighted conditioning does not prevent residual
+noise from diverging when the third channel becomes arbitrarily noisy.
+CO1 exact wave geometry remains local/conditional, not a selected source law.
+
+The next work order and decision brief were fidelity-reviewed with CO2.
+Controlling review caveat for any future execution: injecting AFTER archival
+preprocessing checks only downstream analysis, not upstream signal retention;
+retain the separate upstream documentation/support/error component. No
+exhaustive raw-servo demand. A source/error/power limitation may terminate or
+narrow the future test without rejecting UDT or all processed observations.
+The review's original brief SHA116d6a2158a1fb61cd93cfba8029ff78c3cf88102d20233054cae6b2082a1292
+is preserved by exact status-only reconstruction at closure; its science and
+proposed work-order text are unchanged. Frozen candidate files retain their
+creation-time pending labels; subsequent FINAL_REVIEW files own review state.
+
+## Packaging/preservation and terminal scope
+
+CO1 evidence committed/pushed9da534d34fbc4555131244684ce9f2315b6de291.
+Full startup audit PASS as above; final scoped startup/preservation checks do
+not claim another full349-row replay. Immutable accepted sources, registry,
+canon, fixed manuscript and prior clock evidence match baseline9ed73efe.
+46 unrelated untracked STATUS NAMES still hash
+d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea;
+this is not a protected-payload content/backup audit. No payload was opened.
+
+First packaging precheck hit git's threaded-lstat resource error within the
+512MiB child cap. It remains a recorded FAILURE, with initial script/stdout/
+stderr. Per-child `git -c core.preloadIndex=false` (no config change or new
+infrastructure) permitted the same checks to pass in0.199271s. No scientific
+repair or resource-limit increase was made. All initial failures and fetch404s
+remain distinct from passes. Manifest and final captured check close packaging.
+
+Two substantive steps complete; no third step, strain data analysis, fit,
+physical premise, accepted-grade/canon/manuscript edit, GOCE work or external
+contact. Stop at the reviewed recommendation. Next action needs Charles's
+direction approval of NEXT_WORK_ORDER.md, not another routine review approval.
+Geometry/calibration and emergence remain parallel. GOCE PARKED, eligibility
+UNRESOLVED/OPEN, enquiry UNSENT. Backup completeness/pre-reboot unsaved-state
+disposition and host-wide process inventory remain UNVERIFIED; ScratchDisk
+unused, archive-dependent blocker only. No unresolved in-scope access or
+scientific-review blocker. Closure is within the two-hour cap; final integration
+time is recorded by the packaging/commit evidence, not guessed from filenames.

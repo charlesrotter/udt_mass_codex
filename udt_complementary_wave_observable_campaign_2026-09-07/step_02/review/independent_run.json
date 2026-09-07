@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_complementary_wave_observable_campaign_2026-09-07/step_02/review/independent_geometry.py",
+    "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_run.stdout",
+    "udt_complementary_wave_observable_campaign_2026-09-07/step_02/design_inputs.json",
+    "/tmp/udt-complementary-wave-sources-C72KZ2/LALDetectors_gitlab.h"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:23:53.094922+00:00",
+  "duration_seconds": 0.028055804010364227,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 15360
+}

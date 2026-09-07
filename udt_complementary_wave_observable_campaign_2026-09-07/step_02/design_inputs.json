@@ -1,0 +1,30 @@
+{
+  "source_url": "https://git.ligo.org/lscsoft/lalsuite/-/raw/master/lal/lib/tools/LALDetectors.h",
+  "source_sha256": "82ac49e8042d4eab0f890e63e3599ae227967aee16c76cd5f6b6b729c8798684",
+  "constant_policy": "Published decimals, no unit-arm renormalization; current source snapshot, not historical calibration certification",
+  "detector_order": ["H1", "L1", "V1"],
+  "detectors": {
+    "H1": {"source_prefix": "LHO_4K", "a": [-0.22389266154, 0.79983062746, 0.55690487831], "b": [-0.91397818574, 0.02609403989, -0.40492342125], "r_m": [-2161414.92636, -3834695.17889, 4600350.22664], "arm_midpoints_m": [1997.542, 1997.522]},
+    "L1": {"source_prefix": "LLO_4K", "a": [-0.95457412153, -0.14158077340, -0.26218911324], "b": [0.29774156894, -0.48791033647, -0.82054461286], "r_m": [-74276.0447238, -5496283.71971, 3224257.01744], "arm_midpoints_m": [1997.575, 1997.575]},
+    "V1": {"source_prefix": "VIRGO", "a": [-0.70045821479, 0.20848948619, 0.68256166277], "b": [-0.05379255368, -0.96908180549, 0.24080451708], "r_m": [4546374.09900, 842989.697626, 4378576.96241], "arm_midpoints_m": [1500.0, 1500.0]}
+  },
+  "query": {
+    "event": "GW170817",
+    "gps": 1187008882.43,
+    "ra_hms": [13, 9, 48.089],
+    "dec_negative_dms": [23, 22, 53.35],
+    "sky_source": "https://gcn.nasa.gov/circulars/21529",
+    "time_source": "https://gwosc.org/events/GW170817/",
+    "coordinate_scope": "Nominal optical ICRS-like distant-source coordinates identified with GCRS for static design only; no full aberration/astrometry uncertainty model"
+  },
+  "controls": {
+    "c_E_m_per_s": 299792458.0,
+    "numeric_tolerance": 1e-12,
+    "rank_threshold": 1e-12,
+    "ra_dec_stress_degrees": [-0.01, 0.0, 0.01],
+    "time_offsets_seconds": [0.0, -10.0, -100.0],
+    "virgo_to_ligo_noise_sigma_ratios": [1.0, 3.0, 10.0],
+    "arm_control_frequencies_hz": [30.0, 100.0, 500.0],
+    "physical_error_bound_claimed": false
+  }
+}

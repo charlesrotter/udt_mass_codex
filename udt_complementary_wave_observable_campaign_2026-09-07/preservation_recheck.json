@@ -1,0 +1,17 @@
+{
+  "command": [
+    "env",
+    "OPENBLAS_NUM_THREADS=1",
+    "python3",
+    "-B",
+    "udt_complementary_wave_observable_campaign_2026-09-07/verify_return.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T22:27:11.677676+00:00",
+  "duration_seconds": 0.19927051500417292,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 23344
+}
