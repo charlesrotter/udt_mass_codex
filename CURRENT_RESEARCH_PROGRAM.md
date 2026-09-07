@@ -95,11 +95,16 @@ original campaign/reviews remain unchanged. Ideal-query calibration is not an in
 Remaining in the preserved class, leaving this construction, and violating original admitted
 equations are different outcomes. Recipe failure is not a verdict against UDT.
 Geometric theory followed by observational calibration and possible emergence are parallel;
-neither is prerequisite. Charles approved the tidal instrument/held-out-constraint feasibility
-campaign mapped in that banking package's `NEXT_CAMPAIGN_PROPOSAL.md`.
-Active scope/log: `udt_tidal_measurement_feasibility_campaign_2026-09-07/WORK_ORDER.md` and
-`CAMPAIGN_LOG.md`: at most three reviewed steps or four hours; no observations fitted.
-Beyond that bounded scope no new campaign is authorized; no physical adoption or promotion.
+neither is prerequisite. The approved tidal instrument/held-out-constraint feasibility campaign
+returned two reviewed provisional findings, TM1/TM2, VERIFIED-WITH-CAVEATS, not banked.
+`udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md` and its compact log
+record the conditional local instrument map and finite-design identifiability/test criteria.
+Absolute scalar bias degeneracy need not erase every unused contrast; unrestricted offsets,
+scalar erasure and duplicated inputs can erase the proposed signal information. The declared
+fixed linear pre-processing nuisance class and independently justified errors are essential.
+Real product/version/calibration/error eligibility remains OPEN. No observations fitted,
+third example, new instrument law, physical identification, or accepted-grade change.
+Charles's next direction/banking decision is required; no new campaign is authorized.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
 not made legitimate by calling it a definition. The fixed-snapshot central manuscript remains

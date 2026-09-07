@@ -1,0 +1,30 @@
+[
+  {
+    "name": "alias",
+    "before": "identifiable=M.rank()>Q.rank()",
+    "after": "identifiable=M.rank()>=Q.rank()",
+    "expected_guard": "absolute_alias_but_three_tests",
+    "path": "/tmp/tm2_review_mutants.o141yW/alias.py"
+  },
+  {
+    "name": "signal_rank",
+    "before": "'CP':(C*P).rank()",
+    "after": "'CP':C.rank()",
+    "expected_guard": "centering:signal-rank",
+    "path": "/tmp/tm2_review_mutants.o141yW/signal_rank.py"
+  },
+  {
+    "name": "training",
+    "before": "K=s.Matrix([[-1,2],[-2,3]])",
+    "after": "K=s.Matrix([[1,2],[-2,3]])",
+    "expected_guard": "training_predicts_without_unique_parameters",
+    "path": "/tmp/tm2_review_mutants.o141yW/training.py"
+  },
+  {
+    "name": "covariance",
+    "before": "cov=CA*Sigma*CA.T",
+    "after": "cov=CA*s.diag(*Sigma.diagonal())*CA.T",
+    "expected_guard": "shared_constant_noise_cancels_without_independence",
+    "path": "/tmp/tm2_review_mutants.o141yW/covariance.py"
+  }
+]

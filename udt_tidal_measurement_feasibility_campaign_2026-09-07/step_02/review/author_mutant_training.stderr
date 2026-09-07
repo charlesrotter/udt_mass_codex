@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/tm2_review_mutants.o141yW/training.py", line 42, in <module>
+    guard('training_predicts_without_unique_parameters',K*MA==MB and MA.rank()<M.cols)
+  File "/tmp/tm2_review_mutants.o141yW/training.py", line 10, in guard
+    assert condition,name
+AssertionError: training_predicts_without_unique_parameters

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/tm2_review_mutants.o141yW/alias.py", line 36, in <module>
+    guard('absolute_alias_but_three_tests',not absolute and (C*I).rank()==3)
+  File "/tmp/tm2_review_mutants.o141yW/alias.py", line 10, in guard
+    assert condition,name
+AssertionError: absolute_alias_but_three_tests

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/tm2_review_mutants.o141yW/signal_rank.py", line 62, in <module>
+    M,C,absolute=design('centering',P,one)
+  File "/tmp/tm2_review_mutants.o141yW/signal_rank.py", line 23, in design
+    guard(name+':signal-rank',ranks['CP']==ranks['P']-ranks['M'])
+  File "/tmp/tm2_review_mutants.o141yW/signal_rank.py", line 10, in guard
+    assert condition,name
+AssertionError: centering:signal-rank
