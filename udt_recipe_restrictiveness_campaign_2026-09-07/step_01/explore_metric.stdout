@@ -1,0 +1,11 @@
+{
+  "sympy": "1.13.1",
+  "metric": "Matrix([[d*epsilon**2*x**4 + epsilon*kappa*v*y + x**3 - 3*x*y**2, -1, 0, epsilon*x**2], [-1, 0, 0, 0], [0, 0, 1, 0], [epsilon*x**2, 0, 0, 1]])",
+  "det": "-1",
+  "ricci_nonzero": {
+    "(0, 0)": "epsilon**2*x**2*(-6*d - kappa + 2)",
+    "(0, 3)": "epsilon*(-kappa - 2)/2",
+    "(3, 0)": "epsilon*(-kappa - 2)/2"
+  },
+  "first_variation": "Matrix([[0, 0, 0, -kappa/2 - 1], [0, 0, 0, 0], [0, 0, 0, 0], [-kappa/2 - 1, 0, 0, 0]])"
+}
