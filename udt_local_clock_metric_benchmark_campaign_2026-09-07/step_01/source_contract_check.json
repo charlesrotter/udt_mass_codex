@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json; from pathlib import Path; p=Path(\"udt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/INPUTS.json\"); d=json.loads(p.read_text()); files={\"G261_exact_sha256\":\"udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md\",\"G276_report_sha256\":\"udt_g276_proper_clock_ce_scale_anchor_reconciliation_2026-08-26/AUDIT_REPORT.md\",\"ORS2_candidate_sha256\":\"udt_observational_route_selection_campaign_2026-09-07/step_02/CANDIDATE.md\",\"work_order_sha256\":\"udt_observational_route_selection_campaign_2026-09-07/NEXT_WORK_ORDER.md\",\"main_pdf_sha256\":\"/tmp/udt-observation-sources-Kk6TO6/zheng_main.pdf\",\"supplement_pdf_sha256\":\"/tmp/udt-observation-sources-Kk6TO6/zheng_supp.pdf\",\"deposited_metadata_sha256\":\"/tmp/udt-observation-sources-Kk6TO6/zheng_metadata.json\"}; result={k:hashlib.sha256(Path(v).read_bytes()).hexdigest()==d[\"source_pins\"][k] for k,v in files.items()}; assert all(result.values()); print(json.dumps({\"source_hash_correspondence\":result,\"benchmark_evaluated\":False},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T21:14:06.056251+00:00",
+  "duration_seconds": 0.017465254000853747,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14976
+}

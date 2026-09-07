@@ -1,0 +1,20 @@
+{
+  "review": "LC1",
+  "reviewer": "/root/clock_step1_review",
+  "model_identity": "UNKNOWN",
+  "new_benchmark_outcome_calculated": false,
+  "resources": {"address_space_bytes": 536870912, "cpu_seconds": 60, "wall_seconds": 60, "gpu": false},
+  "unavailable_attempt": {
+    "command": "timeout 60 prlimit --as=536870912 --cpu=60 -- jq -e '.measurement.corrected_gradient == \"-12.4\" and .measurement.total_standard_uncertainty == \"2.6\" and .measurement.independent_experiment_count == 1 and .calibration.metres_per_centimetre == \"0.01\" and .calibration.reference_from_clock_target == false and .statistical_contract.actual_error_hard_bound_claimed == false and .statistical_contract.gaussian_or_validated_confidence_coverage_claimed == false and .diagnostic_controls.systematic_shift_multipliers == [\"-1\", \"-0.5\", \"0\", \"0.5\", \"1\"]' udt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/INPUTS.json",
+    "returncode": 127,
+    "reported_output": "prlimit: failed to execute jq: No such file or directory\n",
+    "result": "NOT_RUN_MISSING_OPTIONAL_UTILITY"
+  },
+  "completed_check": {
+    "command": "timeout 60 prlimit --as=536870912 --cpu=60 -- python3 -c 'import json,sys; from fractions import Fraction as F; p=json.load(open(\"udt_local_clock_metric_benchmark_campaign_2026-09-07/step_01/INPUTS.json\")); assert p[\"measurement\"][\"corrected_gradient\"]==\"-12.4\"; assert p[\"measurement\"][\"total_standard_uncertainty\"]==\"2.6\"; assert p[\"measurement\"][\"independent_experiment_count\"]==1; assert p[\"calibration\"][\"metres_per_centimetre\"]==\"0.01\"; assert p[\"calibration\"][\"reference_from_clock_target\"] is False; assert p[\"statistical_contract\"][\"actual_error_hard_bound_claimed\"] is False; assert p[\"statistical_contract\"][\"gaussian_or_validated_confidence_coverage_claimed\"] is False; assert p[\"diagnostic_controls\"][\"systematic_shift_multipliers\"]==[\"-1\",\"-0.5\",\"0\",\"0.5\",\"1\"]; U=F(1); D=F(3,4); b=F(1,2); old_center_membership=D-U<=D+b<=D+U; shifted_band_zero_inclusion=abs(D+b)<=U; assert old_center_membership and not shifted_band_zero_inclusion; print(json.dumps({\"input_semantic_checks\":\"PASS\", \"exact_hypothetical_counterexample\":{\"U\":str(U),\"D\":str(D),\"b\":str(b),\"old_center_membership\":old_center_membership,\"shifted_band_zero_inclusion\":shifted_band_zero_inclusion},\"new_benchmark_outcome_calculated\":False,\"python\":sys.version}))'",
+    "returncode": 0,
+    "stdout": "{\"input_semantic_checks\": \"PASS\", \"exact_hypothetical_counterexample\": {\"U\": \"1\", \"D\": \"3/4\", \"b\": \"1/2\", \"old_center_membership\": true, \"shifted_band_zero_inclusion\": false}, \"new_benchmark_outcome_calculated\": false, \"python\": \"3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]\"}\n",
+    "stderr": "",
+    "interpretation": "Input parsing/semantic regression and exact hypothetical decision-rule counterexample, not numerical benchmark validation or empirical certification."
+  }
+}

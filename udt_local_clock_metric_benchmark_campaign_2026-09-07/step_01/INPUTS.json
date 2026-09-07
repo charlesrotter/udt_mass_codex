@@ -1,0 +1,57 @@
+{
+  "schema": "LC1_source_summary_contract_v1",
+  "measurement_units": "1e-19 fractional frequency per centimetre, top-to-bottom ordering",
+  "measurement": {
+    "corrected_gradient": "-12.4",
+    "total_standard_uncertainty": "2.6",
+    "statistical_standard_uncertainty_documentation_only": "0.7",
+    "systematic_standard_uncertainty_sensitivity_only": "2.5",
+    "total_correction_documentation_only": "122.8",
+    "analysis": "first/runwise analysis; Table1/main Methods; one published summary",
+    "independent_experiment_count": 1,
+    "interpretation": "effective linear gradient under source geometry/readout/error assumptions"
+  },
+  "calibration": {
+    "g_magnitude_m_s2": "9.803",
+    "c_E_m_s": "299792458",
+    "metres_per_centimetre": "0.01",
+    "fractional_frequency_unit": "1e-19",
+    "printed_reference_gradient_rounding_check_only": "-10.9",
+    "reference_standard_uncertainty_upper_cap": "0.1",
+    "rounding_check_absolute_tolerance": "0.05",
+    "reference_from_clock_target": false,
+    "geometry": "independent source gravimetry and DDS/lattice/camera height; no Fig4 inversion",
+    "array_extent_cm_documentation_only": "1.00(0.01)",
+    "tilt_adjusted_height_cm_documentation_only": "0.99(0.01)"
+  },
+  "statistical_contract": {
+    "source_marginal_standard_uncertainties_and_centered_errors_assumed": true,
+    "Q_cross_covariance": "zero for comparator only; not certified by source review",
+    "C_cross_correlation_range": [-1, 1],
+    "actual_error_hard_bound_claimed": false,
+    "gaussian_or_validated_confidence_coverage_claimed": false,
+    "arbitrary_omitted_bias_covered": false
+  },
+  "diagnostic_controls": {
+    "systematic_shift_multipliers": ["-1", "-0.5", "0", "0.5", "1"],
+    "meaning": "counterfactual additive correction displacement, not fitted or added uncertainty",
+    "independent_of_source_uncertainty": false
+  },
+  "resources": {"decimal_digits": 60, "address_space_bytes": 536870912, "cpu_wall_seconds_per_check": 60, "gpu": false},
+  "source_pins": {
+    "work_order_sha256": "f7e79ab1a5c9aa5164feac71b99ff32e8ce329c63de1cae06f1b89e82cef0054",
+    "repository_baseline": "46955846e76975fbef374ef702527f8e7389bc35",
+    "G261_exact_sha256": "26897a999e6ad83e1f50c75ba76efe47e9c4c02edd896022a54a69810e57dc12",
+    "G276_report_sha256": "cc66be850523fac561b411b32d7532069d838a6d6e6800568afd72f5560b862d",
+    "ORS2_candidate_sha256": "2f46277bdac5669fc597a38f38c650aad039c5a554c459a8b93b8af1689d7340",
+    "main_paper_url": "https://www.nature.com/articles/s41467-023-40629-8",
+    "main_pdf_sha256": "1cb85cfaf2783841e7dc29f8ef38edec258437eec38071b5aba5594ceec4c3b6",
+    "supplement_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40629-8/MediaObjects/41467_2023_40629_MOESM1_ESM.pdf",
+    "supplement_pdf_sha256": "111b47f8a3625391178b7d8c5d0753ae8bedbe9f38ea07d6ebdad56cb06f7432",
+    "data_record": "https://zenodo.org/records/8184043",
+    "deposited_metadata_sha256": "827c6152b6a0cc32e4a2991c9acd2910da2006451add08a423eaa9f5371185cc",
+    "prior_source_ledger": "udt_observational_route_selection_campaign_2026-09-07/SOURCE_LEDGER.md"
+  },
+  "exposure": "published outcomes and prior review already known; no blind confirmation",
+  "classification": "conditional measurement/statistical model, not new adopted UDT physics"
+}

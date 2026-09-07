@@ -99,12 +99,15 @@ VERIFIED-WITH-CAVEATS, without fitting or scientific promotion. C (laboratory cl
 R (solar radio tracking) and W (GW strain) were compared; a conditional published-summary
 clock-gradient benchmark is recommended, not a unique UDT prediction or full metric inference.
 Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
-The proposed two-step/two-hour work order is NOT started; Charles's direction decision is next.
+Charles APPROVED the two-step/two-hour local clock benchmark. Execution is bounded by
+`udt_local_clock_metric_benchmark_campaign_2026-09-07/CAMPAIGN_LOG.md`: freeze/review the
+published-summary comparison, then evaluate/review its conditional constraint and robustness.
+No raw-pair fit or experimental recertification; return after two reviewed steps or two hours.
 Ratios alone do not fix scale; dimensional anchors may fix it in an identified family.
 Preserve supplied metrology, source error/correlation limits, known outcome exposure and repairs.
 Ideal tides remain mathematical groundwork, not an available experiment; emergence remains parallel.
 No fitting, correspondence, physical adoption, grades/canon/manuscript changes were performed;
-no new campaign is authorized.
+Beyond this approved clock benchmark, no new campaign is authorized.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification
 may not be hidden in a definition. The fixed-snapshot manuscript remains through G352, not current

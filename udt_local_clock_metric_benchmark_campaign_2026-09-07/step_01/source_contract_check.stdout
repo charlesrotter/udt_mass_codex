@@ -1,0 +1,12 @@
+{
+  "source_hash_correspondence": {
+    "G261_exact_sha256": true,
+    "G276_report_sha256": true,
+    "ORS2_candidate_sha256": true,
+    "work_order_sha256": true,
+    "main_pdf_sha256": true,
+    "supplement_pdf_sha256": true,
+    "deposited_metadata_sha256": true
+  },
+  "benchmark_evaluated": false
+}

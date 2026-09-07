@@ -131,8 +131,11 @@ clocks), R (solar radio tracking) and W (GW strain) were compared. The shortest 
 next route is a conditional published-summary clock-gradient benchmark, with roughly24%
 relative gradient sensitivity under the source's error model—not a unique UDT signal.
 Brief/log/reviews: `udt_observational_route_selection_campaign_2026-09-07/DECISION_BRIEF.md`.
-The proposed two-step/two-hour benchmark work order is NOT started; Charles's direction decision
-is the next gate. Independent gravimetry/geometry and supplied instrument controls predict a
+Charles APPROVED the two-step/two-hour benchmark work order; the comparison contract and
+conditional result each receive fresh review within
+`udt_local_clock_metric_benchmark_campaign_2026-09-07/CAMPAIGN_LOG.md`.
+No raw-pair fit or experimental recertification is included. Independent gravimetry/geometry
+and supplied instrument controls predict a
 clock gradient without retuning; published outcome exposure and shared control/error limitations
 remain explicit. Ratios alone do not attach scale; dimensional anchors may fix it within an
 identified family. Full geometry/history and physical content remain unselected.
@@ -140,7 +143,7 @@ Source and review repairs are preserved. Existing SNe assessments were reused wi
 Ideal complementary tides remain mathematical groundwork, not an available real-data experiment;
 coherent geometric calibration and emergence remain parallel, neither a prerequisite for the other.
 No correspondence, purchases, physical adoption, grades, canon or fixed-manuscript changes;
-no new campaign is authorized.
+Beyond this approved clock benchmark, no new campaign is authorized.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.
 Supplied initial fields and query geometry are legitimate data; an unsupported instrument law is
