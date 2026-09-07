@@ -1,0 +1,75 @@
+{
+  "campaign_status": "COMPLETE_AFTER_TWO_SUBSTANTIVE_REVIEWED_STEPS",
+  "recorded_utc": "2026-09-07T17:07:12Z",
+  "campaign_started_utc": "2026-09-07T16:18:18Z",
+  "elapsed_to_receipt_seconds": 2934,
+  "deadline_utc": "2026-09-07T20:18:18Z",
+  "third_step": "NOT_STARTED_NO_FORCED_EXAMPLE",
+  "baseline": "508eb238d1321a3bdce9a45eb47a97b63fb1b541",
+  "branch": "grok",
+  "payload_commit": "8459820734b006dbe7746b407b2c7ee32554b732",
+  "remote_payload_commit_verified": "8459820734b006dbe7746b407b2c7ee32554b732\trefs/heads/grok",
+  "payload_push": {
+    "chunk_id": "994a44",
+    "wall_time_seconds": 0.000002052,
+    "exit_code": 0,
+    "original_token_count": 23,
+    "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   f5024a51..84598207  grok -> grok\n"
+  },
+  "tracked_clean_at_payload_delivery": true,
+  "unrelated_untracked_metadata_entries_unchanged": 46,
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state_disposition": "UNVERIFIED",
+  "protected_payload_bytes": "NOT_INSPECTED_OR_AUTHENTICATED",
+  "ScratchDisk": "UNUSED_ARCHIVE_DEPENDENT_TASKS_ONLY",
+  "registry_rows": 349,
+  "registry_sha256": "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+  "accepted_science_change": false,
+  "manuscript_change": false,
+  "canon_change": false,
+  "physical_adoption": false,
+  "observations_fitted": false,
+  "observation_payloads_downloaded": false,
+  "exposure": "INCIDENTAL_QUALITATIVE_PRIMARY_METHOD_ABSTRACT_AND_TECHNICAL_PROSE_DISCLOSED_NOT_PRISTINE_OUTCOME_BLINDNESS",
+  "TM1": {
+    "verdict": "VERIFIED-WITH-CAVEATS",
+    "candidate_sha256": "680378622607ea82dad018620fd2408ae989854e3b8539e56e1ef07cf4b94163",
+    "repairs_used": 1,
+    "initial_candidate_commit": "1e3517f24f5528784237474e6f402b0eb0def08c",
+    "released_channel_eligibility": "OPEN"
+  },
+  "TM2": {
+    "verdict": "VERIFIED-WITH-CAVEATS",
+    "candidate_sha256": "8660e9077d6fb29b041bd5e7d9875c53658b7f8ab5683f60a170d071ead7990b",
+    "repairs_used": 0,
+    "initial_candidate_commit": "f5024a512f1bf37ee6fabd0f4126ed76b35e7a3d",
+    "pre_processing_nuisance_class": "LOAD_BEARING",
+    "actual_errors_and_sensitivity": "UNVERIFIED"
+  },
+  "reviewer_contexts": [
+    "/root/tidal_tm1_review",
+    "/root/tidal_tm2_review"
+  ],
+  "model_identities": "UNKNOWN",
+  "different_model_review": "UNTESTED",
+  "scientific_promotion": false,
+  "full_premise_audit": "STARTUP_PASS_399.178_SECONDS_NOT_REPEATED_FOR_UNCHANGED_REGISTERED_SCIENCE",
+  "final_preservation_and_startup_surface": "PASS_SAVED_FINAL_PRESERVATION_CHECK",
+  "final_source_and_review_authentication": "PASS_95_HASH_IDENTITIES_PLUS_UNCHANGED_ORIGINAL_SOURCE_DIFF",
+  "sealed_campaign_payloads": 108,
+  "sealed_maintained_status_files": 3,
+  "artifact_manifest_sha256": "e86e954076b2e6e2ac0a62c0654a68afdae6885ceb80fa313cfe1925ba04a86b",
+  "artifact_validation": {
+    "chunk_id": "0816d1",
+    "wall_time_seconds": 0.000003458,
+    "exit_code": 0,
+    "original_token_count": 2496,
+    "output": "udt_tidal_measurement_feasibility_campaign_2026-09-07/CAMPAIGN_LOG.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/README.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/SOURCE_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/STARTUP_PREMISE_AUDIT.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/STARTUP_UNTRACKED_METADATA.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/WORK_ORDER.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/check_preservation.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/final_evidence_auth.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/final_evidence_auth.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/final_evidence_auth.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/final_preservation_check.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/final_preservation_check.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/final_preservation_check.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/startup_preservation_check.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/startup_preservation_check.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/startup_preservation_check.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_FREEZE.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/PLAN.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/REPAIR_RECORD.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/SOURCE_ACCESS_AND_EXPOSURE.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/SOURCE_LEDGER.tsv: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/author_check.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/author_check.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/author_check.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/check_interface.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/COMMANDS.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/DIRECT_ADVERSARIAL_REVIEW.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/FOCUSED_REVIEW.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/PRIMARY_SOURCES.tsv: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/REVIEW_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/SOURCE_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A_CHECK_PLAN.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A_PRIMARY_ADDENDUM.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/STAGE_A_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/VERDICT.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/author_replay.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/author_replay.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/author_replay.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/direct_exact.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/focused_auth.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/review/stage_a_exact.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_FREEZE.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/PLAN.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/author_check.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/author_check.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/author_check.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/check_designs.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/AUTHOR_MUTATIONS.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/DIRECT_ADVERSARIAL_REVIEW.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/REVIEW_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/SOURCE_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_ARGUMENT.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_CHECK_PLAN.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_RECORD.md: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/STAGE_A_SHA256SUMS: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/VERDICT.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_alias.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_alias.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_alias.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_covariance.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_covariance.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_covariance.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_signal_rank.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_signal_rank.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_signal_rank.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_training.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_training.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_mutant_training.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_replay.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_replay.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/author_replay.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.sh: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/brief_auth.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/direct_exact.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_covariance.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_covariance.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_covariance.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_training_error.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_training_error.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_drop_training_error.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_omit_nuisance.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_omit_nuisance.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_omit_nuisance.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_pretend_unique.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_pretend_unique.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/mutant_pretend_unique.stdout: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.json: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.py: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.stderr: OK\nudt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/review/stage_a_exact.stdout: OK\nLIVE.md: OK\nHANDOFF.md: OK\nCURRENT_RESEARCH_PROGRAM.md: OK\n"
+  },
+  "manifest_exclusions": [
+    "ARTIFACT_SHA256SUMS",
+    "COMMIT_PUSH_RECEIPT.json"
+  ],
+  "receipt_commit": "SEPARATE_RECEIPT_ONLY_COMMIT_NOT_SELF_EMBEDDED",
+  "next_permission_boundary": "Charles chooses exact-scope banking and/or further product-specific metrology eligibility; no new task, fit, or physical premise authorized"
+}
