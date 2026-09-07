@@ -18,10 +18,19 @@ G364--G366 banking and fixed through-G352 manuscript remain unchanged.
 
 | Step | Question | State | Downstream use |
 |---|---|---|---|
-| TM1 | Can the documented GOCE channel/interface retain an independent tidal trace, without target-based calibration or unbounded corrections? | Source/argument exploration; step_01/PLAN.md controls | None before fresh review |
-| TM2 | Chosen after TM1 review: identifiability, independent residual and complementary-query question | Not begun | None |
+| TM1 | Can the documented GOCE channel/interface retain an independent tidal trace, without target-based calibration or unbounded corrections? | VERIFIED-WITH-CAVEATS after1/1 fixed-linearity repair; actual released-channel eligibility OPEN | Conditional scope only |
+| TM2 | Which scalar calibration and unused finite-design contrasts survive specified processing/nuisances? | step_02/PLAN.md recorded after TM1 focused review; construction/review cycle begun | None before fresh review |
 | TM3 | Prospective protocol or reviewed negative feasibility brief if useful | Not begun | None |
 
 All findings remain conditional candidates. Review exposure/model/implementation
 axes and actual checks are recorded per step; unknown or untested axes stay so.
 Backup completeness/pre-reboot unsaved state UNVERIFIED. ScratchDisk unused.
+
+Initial work order/TM1 candidate preserved and pushed at
+1e3517f24f5528784237474e6f402b0eb0def08c. Review history is being appended;
+commit is not acceptance. Startup preservation/current-surface check passed;
+registry, canon, fixed manuscript/sidecar and original campaign sources unchanged.
+Reviewer identified that the stated H1=0 implication needs fixed linear H;
+one same-premise repair and focused review closed R1. Initial false statement
+and counterexample retained. Fresh-context model UNKNOWN; different-model
+review UNTESTED. TM2 now uses only the explicitly conditional reviewed scope.

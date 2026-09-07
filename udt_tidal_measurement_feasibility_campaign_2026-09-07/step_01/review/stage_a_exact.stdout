@@ -1,0 +1,24 @@
+{
+  "D": "Matrix([[t11 - wy**2 - wz**2, -az + t12 + wx*wy, ay + t13 + wx*wz], [az + t12 + wx*wy, t22 - wx**2 - wz**2, -ax + t23 + wy*wz], [-ay + t13 + wx*wz, ax + t23 + wy*wz, t33 - wx**2 - wy**2]])",
+  "checks": {
+    "absolute_scalar_bias_alias": true,
+    "angular_acceleration_antisymmetric_part": true,
+    "compensation_gradient": true,
+    "constant_removed_by_centering": true,
+    "gravity_potential_gradient_opposite_tide": true,
+    "missing_half_difference_factor_rejected": true,
+    "opposite_rotation_sign_rejected": true,
+    "potential_equals_tide_sign_rejected": true,
+    "rotation_jet_orthogonality_through_order_2": true,
+    "rotation_leaves_isotropic_scalar_unchanged_at_jet_order_2": true,
+    "symmetric_inversion": true,
+    "trace_correction": true
+  },
+  "kind": "exact_symbolic_and_synthetic_no_observations",
+  "limitations": "Local ideal conditional interface; not a physical sensor calibration or GOCE data validation.",
+  "python": "3.10.12",
+  "scalar_alias": "T -> T+qI; additive compensation-gradient bias -> bias-qI",
+  "sympy": "1.13.1",
+  "trace_T": "t11 + t22 + t33",
+  "wrong_rotation_sign_trace_residual": "-4*wx**2 - 4*wy**2 - 4*wz**2"
+}

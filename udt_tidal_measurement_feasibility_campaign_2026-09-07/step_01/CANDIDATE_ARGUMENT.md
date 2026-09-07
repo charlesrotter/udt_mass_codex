@@ -91,7 +91,7 @@ information could remove it; uniqueness of every initial field is unnecessary.
 A fixed difference z_a-z_b removes constant kappa and constant b, leaving
 an available constancy test IF time-dependent errors and processing response
 are independently bounded and the proposed deviation is retained. Likewise,
-an operator H with H1=0 is blind to constant kappa, while a pointwise
+a fixed linear operator H with H1=0 is blind to constant kappa, while a pointwise
 trace-free projection removes the scalar at every event. Neither is a claim
 that these operators describe every released GOCE product. A trace fitted
 or enforced in calibration is not an unused confirmation of that same trace.

@@ -1,0 +1,55 @@
+{
+  "T": [
+    [
+      "2",
+      "3/2",
+      "-5/3"
+    ],
+    [
+      "3/2",
+      "-7",
+      "11/5"
+    ],
+    [
+      "-5/3",
+      "11/5",
+      "13"
+    ]
+  ],
+  "checks": {
+    "H_one_zero_does_not_imply_constant_blindness": true,
+    "angular_rate_and_bias_trace_error": true,
+    "antisymmetric_angular_acceleration": true,
+    "factor_two_defect_detected": true,
+    "fixed_linear_contrasts_remove_constant": true,
+    "full_matrix_from_cross_product_force_fixture": true,
+    "opposite_rotation_sign_detected": true,
+    "potential_sign": true,
+    "saved_author_evidence_consistency": true,
+    "scalar_bias_alias": true,
+    "trace_map": true
+  },
+  "count": 11,
+  "kind": "INDEPENDENT_RATIONAL_RECOMPUTATION_AND_ANALYTIC_COUNTEREXAMPLE",
+  "python": "3.10.12",
+  "recovered_T": [
+    [
+      "2",
+      "3/2",
+      "-5/3"
+    ],
+    [
+      "3/2",
+      "-7",
+      "11/5"
+    ],
+    [
+      "-5/3",
+      "11/5",
+      "13"
+    ]
+  ],
+  "repair_needed": "Qualify H as fixed linear, or explicitly require annihilation of all constants.",
+  "trace": "8",
+  "trace_error": "670114078241/821494211835"
+}

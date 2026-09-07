@@ -1,0 +1,32 @@
+{
+  "step": "TM1",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "candidate_sha256": "680378622607ea82dad018620fd2408ae989854e3b8539e56e1ef07cf4b94163",
+  "initial_candidate_sha256": "589eff684d768831a1390b525e2257ba78f0048b6966c8ae2579097585d1ec44",
+  "reviewer_context": "/root/tidal_tm1_review",
+  "fresh_source_first_context": true,
+  "focused_review_context": "SAME_EXPOSED_REVIEWER",
+  "exact_model": "UNKNOWN",
+  "different_model_review": "UNTESTED",
+  "human_specialist_review": "UNTESTED",
+  "formal_verification": "UNTESTED",
+  "independent_argument": "Source-first local rotation-jet and force-difference reconstruction, controlling geometry and primary-source analysis",
+  "independent_implementation": "Source-first SymPy plus direct standard-library rational cross-product reconstruction; no author-code import",
+  "shared_infrastructure": "Unchanged run_capture.py; source-first symbolic pass shares SymPy library with author",
+  "repair_cycles_used": 1,
+  "resolved_objection": "R1: H1=0 requires fixed linear H to infer invisibility of arbitrary constants",
+  "remaining_required_objections": [],
+  "interface_disposition": "REVIEWED_CONDITIONAL_LOCAL_IDEAL_MODEL",
+  "released_GOCE_channel_eligibility": "OPEN",
+  "physical_adoption": false,
+  "scientific_promotion": false,
+  "flight_payloads_used": false,
+  "exposure_limit": "Incidental qualitative historical performance prose/search/abstract exposure preserved; no numerical flight residual or payload used",
+  "limitations": [
+    "W4 ideal coupling does not derive the finite device response",
+    "No demonstrated instrument error, DC/bias or finite-baseline bound",
+    "No full modern released-product calibration/processing audit",
+    "No empirical success, failure, sensitivity or universal instrument impossibility",
+    "No complete Einstein-observation protocol or full metric reconstruction"
+  ]
+}
