@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checks": {
+    "saved_gamma0": true,
+    "saved_delta_gamma": true,
+    "saved_K0": true,
+    "saved_delta_K": true,
+    "all256_saved_B1": true,
+    "saved_root_tangent": true,
+    "saved_root_direction": true,
+    "saved_differential_obstruction": true,
+    "finite_saved_Ricci": true,
+    "finite_scalar_zero": true,
+    "finite_saved_S": true,
+    "saved_Hamiltonian_projection": true,
+    "saved_momentum_projection": true,
+    "independent_intrinsic_linear_constraints": true,
+    "spatial_only_integrability_converse": true,
+    "full_spatial_substitution": true,
+    "omitted_vterm_activity": true,
+    "omitted_transverse_root_activity": true,
+    "wrong_K_variation_detected": true
+  },
+  "exact_Ricci": [
+    [
+      "4*epsilon**2*x**2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "spatial_solution": "{(0, a1, -y/(3*x**2 + 3*y**2), -x/(3*x**2 + 3*y**2))}",
+  "independence": "reviewer implementation only; saved author strings used solely as comparison targets"
+}

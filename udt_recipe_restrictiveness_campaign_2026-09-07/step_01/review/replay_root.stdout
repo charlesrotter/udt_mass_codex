@@ -1,0 +1,13 @@
+{
+  "mutation": "omit_root_transverse_tangent",
+  "checks": {
+    "original_linearized_Ricci": true,
+    "original_linearized_Hamiltonian": true,
+    "original_linearized_momentum": true,
+    "finite_epsilon_not_mislabeled_vacuum": true,
+    "complete_gamma_variation": true,
+    "Ricci_zero_through_first_order": true,
+    "full256_root_tangent": false
+  },
+  "failed": "full256_root_tangent"
+}

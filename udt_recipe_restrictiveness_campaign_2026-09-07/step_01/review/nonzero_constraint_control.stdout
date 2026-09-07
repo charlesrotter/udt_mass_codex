@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "epsilon": "1/5",
+  "diagnostic_type": "OFF_EQUATION_NOT_AN_ADMITTED_COUNTEREXAMPLE",
+  "intrinsic_H": "8*x**2/(20*u*y - x**4 + 25*x**3 - 75*x*y**2 + 100)",
+  "intrinsic_M": [
+    "-4*x**2/(5*sqrt(20*u*y - x**4 + 25*x**3 - 75*x*y**2 + 100))",
+    "0",
+    "0"
+  ],
+  "H_at_point": "2/31",
+  "M_at_point": [
+    "-2*sqrt(31)/155",
+    "0",
+    "0"
+  ],
+  "identity_scope": "exact expressions on regular graph for epsilon=1/5; analytic Gauss/Codazzi owns general identity"
+}

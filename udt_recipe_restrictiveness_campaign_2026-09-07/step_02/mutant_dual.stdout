@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "mode": "drop_FIRST_dual",
+  "checks": {
+    "original_exact_Ricci": true,
+    "Lorentzian_nonzero_determinant": true,
+    "any_fourth_root_obstructed": true,
+    "coordinate_null_line_recurrent": true,
+    "line_recurrence_not_closed": true,
+    "spacelike_common_patch": true,
+    "original_constraint_projections": true,
+    "general_algebraic_Ricci_zero": true,
+    "general_first_Bianchi": true,
+    "full_energy_and_null_saturation": false
+  },
+  "failed": "full_energy_and_null_saturation"
+}

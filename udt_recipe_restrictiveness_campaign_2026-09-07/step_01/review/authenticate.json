@@ -1,0 +1,18 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "--quiet",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_01/CANDIDATE_SHA256SUMS",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_01/SOURCE_SHA256SUMS",
+    "udt_recipe_restrictiveness_campaign_2026-09-07/step_01/review/STAGE_A_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T14:01:09.817743+00:00",
+  "duration_seconds": 0.004731086999527179,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7676
+}

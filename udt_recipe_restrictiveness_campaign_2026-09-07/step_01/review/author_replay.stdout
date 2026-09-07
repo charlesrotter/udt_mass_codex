@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "mutation": "none",
+  "sympy": "1.13.1",
+  "checks": {
+    "original_linearized_Ricci": true,
+    "original_linearized_Hamiltonian": true,
+    "original_linearized_momentum": true,
+    "finite_epsilon_not_mislabeled_vacuum": true,
+    "complete_gamma_variation": true,
+    "Ricci_zero_through_first_order": true,
+    "full256_root_tangent": true,
+    "all256_background_root": true,
+    "null_root_tangent": true,
+    "full_spatial_integrability_converse": true,
+    "seed_differential_obstruction": true,
+    "no_connection_cancellation": true
+  },
+  "metric": "Matrix([[-2*epsilon*v*y + x**3 - 3*x*y**2, -1, 0, epsilon*x**2], [-1, 0, 0, 0], [0, 0, 1, 0], [epsilon*x**2, 0, 0, 1]])",
+  "S": "-epsilon**2*x**4 - 2*epsilon*v*y + x**3 - 3*x*y**2 + 4",
+  "gamma0": "Matrix([[x**3 - 3*x*y**2 + 4, 0, 0], [0, 1, 0], [0, 0, 1]])",
+  "delta_gamma": "Matrix([[4*u*y, 0, x**2], [0, 0, 0], [x**2, 0, 0]])",
+  "K0": "Matrix([[0, (3*x**2 - 3*y**2)/(2*sqrt(x**3 - 3*x*y**2 + 4)), -3*x*y/sqrt(x**3 - 3*x*y**2 + 4)], [(3*x**2 - 3*y**2)/(2*sqrt(x**3 - 3*x*y**2 + 4)), 0, 0], [-3*x*y/sqrt(x**3 - 3*x*y**2 + 4), 0, 0]])",
+  "delta_K": "Matrix([[y*(-2*x**3 - 3*x*y**2 + 6)/sqrt(x**3 - 3*x*y**2 + 4), 3*u*y*(-x**2 + y**2)/(x**3 - 3*x*y**2 + 4)**(3/2), 2*u*(x**3 + 4)/(x**3 - 3*x*y**2 + 4)**(3/2)], [3*u*y*(-x**2 + y**2)/(x**3 - 3*x*y**2 + 4)**(3/2), 0, x/sqrt(x**3 - 3*x*y**2 + 4)], [2*u*(x**3 + 4)/(x**3 - 3*x*y**2 + 4)**(3/2), x/sqrt(x**3 - 3*x*y**2 + 4), 0]])",
+  "Hamiltonian_projection": "-8*epsilon**2*x**2/(epsilon**2*x**4 - 4*epsilon*u*y - x**3 + 3*x*y**2 - 4)",
+  "momentum_projection": "Matrix([[-4*epsilon**2*x**2/sqrt(-epsilon**2*x**4 + 4*epsilon*u*y + x**3 - 3*x*y**2 + 4)], [0], [0]])",
+  "Ricci": "Matrix([[4*epsilon**2*x**2, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "delta_B_nonzero": {
+    "(0, 0, 0, 2)": "12*y",
+    "(0, 0, 0, 3)": "12*x",
+    "(0, 0, 2, 0)": "12*y",
+    "(0, 0, 3, 0)": "12*x",
+    "(0, 2, 0, 0)": "12*y",
+    "(0, 3, 0, 0)": "12*x",
+    "(2, 0, 0, 0)": "12*y",
+    "(3, 0, 0, 0)": "12*x"
+  },
+  "relative_root_tangent": [
+    "0",
+    "0",
+    "y/(3*x**2 + 3*y**2)",
+    "x/(3*x**2 + 3*y**2)"
+  ],
+  "root_direction_variation": "Matrix([[0], [0], [-y/(3*x**2 + 3*y**2)], [-x/(3*x**2 + 3*y**2)]])",
+  "spatial_integrability_solution": "{(0, a1, -y/(3*x**2 + 3*y**2), -x/(3*x**2 + 3*y**2))}",
+  "seed_derivative_obstruction": "(x - y)*(x + y)/(3*(x**2 + y**2)**2)",
+  "epsilon_scope": "EXACT_FIRST_VARIATION_ONLY",
+  "independence": "SAME_AUTHOR_SHARED_GEOMETRY_REGRESSION"
+}
