@@ -1,0 +1,22 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--output",
+    "/tmp/udt-pe-primary-wacMzS/paper_record.html",
+    "--write-out",
+    "http=%{http_code} url=%{url_effective} bytes=%{size_download}\\n",
+    "https://repository.tudelft.nl/record/uuid:e7701ecb-4458-4098-8739-6528e738b755"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:25:14.922012+00:00",
+  "duration_seconds": 1.3807303339999635,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13056
+}

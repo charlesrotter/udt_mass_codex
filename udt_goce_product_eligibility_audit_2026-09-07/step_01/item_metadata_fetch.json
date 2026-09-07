@@ -1,0 +1,22 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--output",
+    "/tmp/udt-pe-primary-wacMzS/item_metadata.html",
+    "--write-out",
+    "http=%{http_code} url=%{url_effective} bytes=%{size_download}\\n",
+    "https://eocat.esa.int/eo-catalogue/collections/GOCE_Level_1/items/GO_CONS_EGG_NOM_1b_20091111T013534_20091111T030518_0202?httpAccept=text%2Fhtml"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:28:59.971252+00:00",
+  "duration_seconds": 45.005327400998794,
+  "returncode": 28,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 10368
+}

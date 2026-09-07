@@ -1,0 +1,13 @@
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+CANON.md: OK
+UDT_METRIC_KERNEL_DEVELOPMENT.md: OK
+UDT_METRIC_KERNEL_COVERAGE.tsv: OK
+AGENTS.md: OK
+CLAUDE.md: OK
+verify_current_scientific_premises.py: OK
+udt_g261_universal_metric_coupling_parent_operator_ownership_2026-08-25/EXACT_DERIVATION.md: OK
+udt_g313_tracefree_ricci_solution_space_bootstrap_map_2026-09-01/EXACT_DERIVATION.md: OK
+udt_shared_readout_metric_constraint_campaign_2026-09-06/step_03/CANDIDATE_ARGUMENT.md: OK
+udt_tidal_measurement_feasibility_campaign_2026-09-07/step_01/CANDIDATE_ARGUMENT.md: OK
+udt_tidal_measurement_feasibility_campaign_2026-09-07/step_02/CANDIDATE_ARGUMENT.md: OK
+udt_tidal_measurement_feasibility_campaign_2026-09-07/DECISION_BRIEF.md: OK

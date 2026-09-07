@@ -1,0 +1,22 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--output",
+    "/tmp/udt-pe-primary-wacMzS/document_search.html",
+    "--write-out",
+    "http=%{http_code} url=%{url_effective} bytes=%{size_download}\\n",
+    "https://earth.esa.int/eogateway/search?text=GOCE%20Level%201b%20Gravity%20Gradient%20Processing%20Algorithms"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:21:55.254886+00:00",
+  "duration_seconds": 1.5267098780022934,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13248
+}

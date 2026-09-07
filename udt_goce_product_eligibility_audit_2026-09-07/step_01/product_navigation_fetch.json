@@ -1,0 +1,24 @@
+{
+  "command": [
+    "curl",
+    "--fail",
+    "--location",
+    "--max-time",
+    "45",
+    "--data-urlencode",
+    "p0=EGG_NOM_1B",
+    "--output",
+    "/tmp/udt-pe-primary-wacMzS/product_navigation.html",
+    "--write-out",
+    "http=%{http_code} url=%{url_effective} bytes=%{size_download}\\n",
+    "https://goce-ds.eo.esa.int/oads/access/collection/GOCE_Level_1/tree"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-07T17:21:19.228568+00:00",
+  "duration_seconds": 0.5131506940088002,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 12864
+}
