@@ -1,0 +1,43 @@
+{
+  "current_target_sha256": {
+    "AGENTS.md": "fc2d7545e73a3190b551c153d35b70a1d5b4a729e94514296c19c8e49bb348bc",
+    "CURRENT_RESEARCH_PROGRAM.md": "ad041cdbb4855a4a4b45c28c99105e4a1ee25e693137630d4c454504507203f4",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "e55395a09a0d3c21247d4ec8405bbe80ead830cf8d005d09912c9e5c72f6cd50",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "1bbb790281fec94a57d63f101f0bd2b909022348587473864190b6965aa17900",
+    "HANDOFF.md": "583c352127d9bd1dbad45fae1401d409fa399f6456fbf89c4753ff0b9f91bf78",
+    "INDEX.md": "bc223e2a301ffd67395f958a4145c91f2716a306f30986e58ef2328aaf01ca63",
+    "LIVE.md": "9857c026959adbace3c4336638802348095b87fb9a83668fd3768f56a8f58bf6",
+    "MEMORY.md": "4cf4c6a26c5dd51e80abcac2b37aa8894712d2dc2c63d7fb83e1183a93eb6870",
+    "udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md": "f62c31c414a3b12d22a329a8c3c26ff5e9c4b9f4274b47faa815692578e940b8",
+    "udt_g370_g371_conditional_banking_2026-09-08/INITIAL_VERIFIER_DIFF.patch": "97962863207b069bbd5d0e8577d3515f1782dc8849f3a3c4b18f55e716a2c6b2",
+    "udt_g370_g371_conditional_banking_2026-09-08/INTEGRATION_REPAIR.md": "d4d8ca9345f0cf1e3a9ad6ebfba0815240c2a55439df027be96515075dcc3ce2",
+    "udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md": "d7b9c77ed82f2f77d021586078c79d94db7b9e178da6de516852a95831c374f1",
+    "udt_g370_g371_conditional_banking_2026-09-08/check_banking.py": "f5352a1a7c84eb81b582619621a9dc0182eac3c6b867fecb016fe95c06513484",
+    "udt_g370_g371_conditional_banking_2026-09-08/prebank352.tool-output.txt": "b86ffac9a1e545100ade98706f9b878eb1c243618b743df4a2ccb334f70d1e2d",
+    "verify_current_scientific_premises.py": "fb130c18cd0f71d21397cbe05857ea804230b67fefcdd42f1dcc5b6f3002fbac"
+  },
+  "full354_receipt_sha256": {
+    "full354.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full354.stdout": "174fcdf678b58c4e642528611d0a4140362b720cd7e6a98370e98cd2f6f6dd10",
+    "full354.time": "81fb9a5d2da2ce9a7bf4931995862a5da5e9c790edd6e5581259448c203ed43e"
+  },
+  "initial_fidelity_report_sha256": "0acd4207c1b0d52b33a1705a682141d5b68b5d7c906574a5db0f9790f04fd258",
+  "meaning": "three completion-only replacements and receipt correspondence; no full audit rerun",
+  "parent_completion_guard_receipt": {
+    "address_space_bytes": 536870912,
+    "command": [
+      "python3",
+      "-B",
+      "udt_g370_g371_conditional_banking_2026-09-08/check_banking.py"
+    ],
+    "cpu_seconds": 60,
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "duration_seconds": 0.5221497670281678,
+    "maxrss_kib": 58368,
+    "returncode": 0,
+    "started_utc": "2026-09-08T12:19:55.334742+00:00",
+    "timeout": false
+  },
+  "publication": "NOT_VERIFIED_BY_REVIEWER",
+  "status": "PASS"
+}

@@ -8,7 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -79,9 +79,14 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   its `EXECUTION_RECORD.md` owns integration/fidelity completion.
 - Original source--metric campaign, unchanged including review/repair history:
   `udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`.
-- Current authorized bounded metric-only reconstructibility test:
+- Completed unchanged bounded metric-only reconstructibility test:
   `udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`;
   its `CAMPAIGN_LOG.md` owns step questions, outcomes and review state.
+- G370--G371 owner-authorized exact-scope conditional banking of RT1--RT2:
+  `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+  its `EXECUTION_RECORD.md` owns promotion gate completion.
+- Current theory direction proposal, NOT authorization to begin:
+  `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
 
 ## Retained comparison and observational lanes
 

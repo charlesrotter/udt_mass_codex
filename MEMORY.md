@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -44,9 +44,15 @@ Geometric calibration/testing and emergence remain parallel, neither prerequisit
 G367--G369 owner-authorized exact-scope SM1--SM3 banking is complete:
 `udt_g367_g369_conditional_banking_2026-09-08/BANKING_RECORD.md`.
 Its EXECUTION_RECORD records full352/fresh fidelity gates. Original repair/exposure limits remain.
-Then Charles-authorized metric-only reconstructibility testing is bounded by
-`udt_metric_source_reconstructibility_campaign_2026-09-08/WORK_ORDER.md`.
-Beyond that scope, no new campaign is authorized. LIVE owns current completion/status.
+The metric-only reconstructibility campaign is COMPLETE at RT1--RT2.
+Charles authorizes their exact-scope conditional banking as G370--G371:
+`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+its EXECUTION_RECORD owns promotion gate completion. Whole original evidence is unchanged.
+Keep optional nonvacuum status, fixed/free data and full ambient closure explicit.
+Reused G369 source assessment selects no physical source law; reconstruction
+is not independently supplied-data coupled evolution. Current direction proposal:
+`udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+Charles's direction decision is next; no new campaign is authorized. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.

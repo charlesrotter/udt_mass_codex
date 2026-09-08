@@ -1,8 +1,8 @@
 # Current UDT research program
 
-Date: 2026-09-07
+Date: 2026-09-08
 
-`LIVE.md` controls status; the exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -44,6 +44,8 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G357--G360 | Conditional shared-query constraints, eventwise curvature, local phase and robust weights | Device identity, general PDE realization or recipe persistence; SC1 stays a source map |
 | G361--G363 | Conditional full-data/root gate, local invariant recipe class and fixed phase/product preservation | Generic persistence, stability, physical content or recipe adoption |
 | G364--G366 | Conditional tangent/exact recipe departure, local recurrent-root necessity and fixed-product functional freedom | Genericity, all-isometry census, physical identification or instrument law |
+| G367--G369 | Conditional full-tube current, optional tensor-class restriction and source-comparison/data interface | Admitted physical source law, content identity or coupled existence |
+| G370--G371 | Conditional optional nonzero reconstruction and full-covector fixed/free product-data compatibility | Admitted nonvacuum extension, physical source selection or independently supplied-data coupled evolution |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
 formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
@@ -187,11 +189,19 @@ The approved metric-only reconstructibility campaign completed2 reviewed scienti
 `udt_metric_source_reconstructibility_campaign_2026-09-08/DECISION_BRIEF.md`.
 RT1 gives local optional nonzero-curvature reconstruction criteria and phase-data freedom;
 RT2 gives full-covector fixed-product compatibility and the fixed/free data distinctions.
-Both are VERIFIED-WITH-CAVEATS, NOT BANKED; whole reviewed scopes/history remain controlling.
-No author scientific repair; RT2 reviewer syntax-only failure/correction retained. These
-nonzero comparison results are NOT an admitted extension of G312's bounded vacuum S=0 arena.
-Banking7dd52b7a and RT1 b85a14cc are pushed; final handoff gates: CLOSURE_RECORD.md.
-Next is Charles's RT banking/direction decision; no new campaign is authorized.
+Charles authorizes G370=RT1 and G371=RT2 conditional banking at EXACT reviewed scopes:
+`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Promotion integration is COMPLETE: full354 audit and fresh fidelity PASS_WITH_CAVEATS.
+Its EXECUTION_RECORD.md owns exact checks and preservation/publication history.
+Original candidates/reviews/history remain unchanged, including the reviewer syntax failure.
+The optional NONZERO comparison is NOT an admitted extension of G312's bounded vacuum S=0 arena.
+Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
+Completed G369 source assessment is reused: the examined admitted fragment does not select
+this source law. Reconstruction from a metric is not independent-data coupled evolution.
+Direction proposal: `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+It recommends a bounded OPTIONAL coupled-data/development assessment, not a UDT source derivation,
+and compares returning to carried structures in admitted vacuum geometry.
+Next is Charles's direction decision; no new campaign is authorized.
 Physical source-response identification remains OPEN. No observations or coupled solve.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.

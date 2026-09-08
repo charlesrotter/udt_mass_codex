@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -57,6 +57,18 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G367 | Full supplied regular4D tube current and every-observer continuous readout; fixed product stronger than conservation |
 | G368 | Universal conservation classifies optional algebraic natural tensors of only g,q,n>0; constants remain free |
 | G369 | Optional unadopted constant source comparison: curvature/initial constraints, not physical closure or coupled existence |
+| G370 | Local optional nonzero Ricci reconstruction iff list and all increasing-phase decompositions; no minimality or physical source law |
+| G371 | Full ambient-covector fixed-product matching and fixed/free phase-label-measure classification; no coupled independent-data evolution |
+
+G370--G371 are Charles-authorized conditional banking of RT1--RT2 at exactly
+their reviewed scopes: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Its EXECUTION_RECORD.md owns promotion gate completion. ENTIRE original candidates,
+results and reviews remain controlling and unchanged, including RT2's reviewer
+syntax failure and both post-exposure addenda. Fixed/free-data distinctions,
+nonzero positive local domains, optional nonvacuum comparison, full AMBIENT
+neighborhood closure and review limitations survive. No source extension or
+physical carried content is adopted. Models UNKNOWN; other-model/human/formal
+review UNTESTED. No earlier registry row, canon or fixed manuscript is changed.
 
 G367--G369 are Charles-authorized conditional banking of SM1--SM3, exactly at
 their reviewed scopes. Promotion completion is recorded in
@@ -114,7 +126,7 @@ axes UNTESTED. G364--G366 bank RC1--RC3 conditionally at their exact reviewed lo
 Chosen recipe, domain/method restrictions, RC2 late-hint exposure and all review/execution caveats
 remain. Original evidence stays unchanged. No generic behavior or physical identification follows.
 Geometric calibration/testing and emergence remain parallel, neither prerequisite.
-The proposed measurement-route campaign awaits Charles's direction; no new physical adoption.
+The current theory-direction proposal awaits Charles's choice; no new campaign or physical adoption.
 
 | Object | Status | Guard |
 |---|---|---|

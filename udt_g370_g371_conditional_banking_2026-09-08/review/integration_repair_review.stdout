@@ -1,0 +1,49 @@
+{
+  "actual_rejection_and_success_replays": {
+    "both_current_counts_repaired": "PASS",
+    "first_count_only": "current route lacks 352-row: CURRENT_SCIENTIFIC_PREMISES.md",
+    "initial": "current route lacks 352-row: CURRENT_RESEARCH_PROGRAM.md"
+  },
+  "exact_changes": [
+    {
+      "after": "354-row",
+      "before": "352-row",
+      "control": "CURRENT_RESEARCH_PROGRAM.md"
+    },
+    {
+      "after": "354-row",
+      "before": "352-row",
+      "control": "CURRENT_SCIENTIFIC_PREMISES.md"
+    }
+  ],
+  "frozen_targets": {
+    "AGENTS.md": "fc2d7545e73a3190b551c153d35b70a1d5b4a729e94514296c19c8e49bb348bc",
+    "CURRENT_RESEARCH_PROGRAM.md": "eb1e402395308ee2cbe04638e5c3157676b7019e37f7bc2a45b38016f0b0bf21",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "e55395a09a0d3c21247d4ec8405bbe80ead830cf8d005d09912c9e5c72f6cd50",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "1bbb790281fec94a57d63f101f0bd2b909022348587473864190b6965aa17900",
+    "HANDOFF.md": "6e3616354549fe87eefce2b8a125173bafdf35f8609f69b8471ffd6f809044fc",
+    "INDEX.md": "bc223e2a301ffd67395f958a4145c91f2716a306f30986e58ef2328aaf01ca63",
+    "LIVE.md": "5085e19092b718b1598a3ad020c34ff5cb6445ab6e06054ad11434ca035de216",
+    "MEMORY.md": "4cf4c6a26c5dd51e80abcac2b37aa8894712d2dc2c63d7fb83e1183a93eb6870",
+    "udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md": "f62c31c414a3b12d22a329a8c3c26ff5e9c4b9f4274b47faa815692578e940b8",
+    "udt_g370_g371_conditional_banking_2026-09-08/INITIAL_VERIFIER_DIFF.patch": "97962863207b069bbd5d0e8577d3515f1782dc8849f3a3c4b18f55e716a2c6b2",
+    "udt_g370_g371_conditional_banking_2026-09-08/INTEGRATION_REPAIR.md": "d4d8ca9345f0cf1e3a9ad6ebfba0815240c2a55439df027be96515075dcc3ce2",
+    "udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md": "d7b9c77ed82f2f77d021586078c79d94db7b9e178da6de516852a95831c374f1",
+    "udt_g370_g371_conditional_banking_2026-09-08/check_banking.py": "f5352a1a7c84eb81b582619621a9dc0182eac3c6b867fecb016fe95c06513484",
+    "udt_g370_g371_conditional_banking_2026-09-08/prebank352.tool-output.txt": "b86ffac9a1e545100ade98706f9b878eb1c243618b743df4a2ccb334f70d1e2d",
+    "verify_current_scientific_premises.py": "fb130c18cd0f71d21397cbe05857ea804230b67fefcdd42f1dcc5b6f3002fbac"
+  },
+  "git_apply_stderr": "",
+  "git_apply_stdout": "",
+  "initial_reconstructed_verifier_sha256": "aeedbf85089e11ee2030b79de4e89fc117ee88eace97b5d89ebbab8cec5dc187",
+  "meaning": "exact two-token integration repair and frozen-target correspondence; shared startup-guard replay only",
+  "original_failed_and_repaired_receipts_preserved": true,
+  "reconstruct_command_in_temporary_fixture": [
+    "git",
+    "apply",
+    "--recount",
+    "/home/udt-admin/udt_mass_codex/udt_g370_g371_conditional_banking_2026-09-08/INITIAL_VERIFIER_DIFF.patch"
+  ],
+  "repaired_verifier_sha256": "fb130c18cd0f71d21397cbe05857ea804230b67fefcdd42f1dcc5b6f3002fbac",
+  "status": "PASS"
+}

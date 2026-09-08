@@ -1,7 +1,7 @@
 # LIVE — current state only
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — 2026-09-07
+## CURRENT STATE — 2026-09-08
 
 Branch: `grok`. Synchronize and inspect dirt. This block overrides older status.
 
@@ -77,7 +77,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
 
-Authority: the exact 352-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G369. Use `INDEX.md` for
+Authority: the exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G371. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -191,11 +191,19 @@ The approved metric-only reconstructibility campaign completed2 reviewed scienti
 `udt_metric_source_reconstructibility_campaign_2026-09-08/DECISION_BRIEF.md`.
 RT1 gives local optional nonzero-curvature reconstruction criteria and phase-data freedom;
 RT2 gives full-covector fixed-product compatibility and the fixed/free data distinctions.
-Both are VERIFIED-WITH-CAVEATS, NOT BANKED; whole reviewed scopes/history remain controlling.
-No author scientific repair; RT2 reviewer syntax-only failure/correction retained. These
-nonzero comparison results are NOT an admitted extension of G312's bounded vacuum S=0 arena.
-Banking7dd52b7a and RT1 b85a14cc are pushed; final handoff gates: CLOSURE_RECORD.md.
-Next is Charles's RT banking/direction decision; no new campaign is authorized.
+Charles authorizes G370=RT1 and G371=RT2 conditional banking at EXACT reviewed scopes:
+`udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Promotion integration is COMPLETE: full354 audit and fresh fidelity PASS_WITH_CAVEATS.
+Its EXECUTION_RECORD.md owns exact checks and preservation/publication history.
+Original candidates/reviews/history remain unchanged, including the reviewer syntax failure.
+The optional NONZERO comparison is NOT an admitted extension of G312's bounded vacuum S=0 arena.
+Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
+Completed G369 source assessment is reused: the examined admitted fragment does not select
+this source law. Reconstruction from a metric is not independent-data coupled evolution.
+Direction proposal: `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+It recommends a bounded OPTIONAL coupled-data/development assessment, not a UDT source derivation,
+and compares returning to carried structures in admitted vacuum geometry.
+Next is Charles's direction decision; no new campaign is authorized.
 Physical source-response identification remains OPEN. No observations or coupled solve.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
