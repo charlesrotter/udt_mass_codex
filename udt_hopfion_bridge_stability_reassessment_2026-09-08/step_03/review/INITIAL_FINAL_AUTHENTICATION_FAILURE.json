@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-08T17:20:17.695553+00:00",
+  "operation": "short unwrapped Python bookkeeping: compare every source hash from SOURCE_AUTHENTICATION.json",
+  "returncode": 1,
+  "stdout_summary": "direct 12 matches; author replay byte-identical; two author failures and pin-only checker change authenticated",
+  "stderr": "AssertionError: [udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/REVIEWED_RESULT.md]",
+  "failed_source_sha256_before": "17471b521f6ba9347d7a6a58bc54fcf36b045c3eaface8d88f498d74b4919b28",
+  "failed_source_sha256_now": "414e8c42dd5b0cf7b7bc478f801fe822645c66e712dccec988f06dbffb218fbe",
+  "note": "Actual failed freshness assertion retained; not PASS. The tool combined output, not separate raw shell streams, supplied this diagnostic."
+}

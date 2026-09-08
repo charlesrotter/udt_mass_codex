@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-08T17:20:39.104852+00:00",
+  "before_sha256": "17471b521f6ba9347d7a6a58bc54fcf36b045c3eaface8d88f498d74b4919b28",
+  "after_sha256": "414e8c42dd5b0cf7b7bc478f801fe822645c66e712dccec988f06dbffb218fbe",
+  "exact_reconstruction": true,
+  "diff": "--- source-first HB2 wrapper\n+++ parent-finalized HB2 wrapper\n@@ -1,7 +1,7 @@\n # HB2 reviewed conditional first-normal-jet result \u2014 UNPROMOTED\n \n Initial argument d5238bc2ef9407e3de483d386823b65a128eddaea6e10d7b0e85c33e9b42260c\n-and ENTIRE fresh review4982cb33d09abd86aac98116124ce28a1275b833ae4234d2d8e7431cb369905b\n+and ENTIRE final fresh reviewfbcef93d482f6b7546f4ecd450b52c2f88e66877a1035f6258a6bbab40122c81\n control. VERIFIED-WITH-CAVEATS; no mandatory scientific repair or unresolved\n load-bearing objection. Initial argument, code, exploration and failures are\n unchanged. The parent read the full review and independent argument/code.\n",
+  "interpretation": "Only the final-review pin and word final changed; replacing exactly those two strings reconstructs the source-first hash without any newline change. The unchanged scientific argument, result and ENTIRE review were already read and authenticated before source-first seal; no new scientific premise or result.",
+  "reviewer_mutated_source": false
+}

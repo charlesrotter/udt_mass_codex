@@ -152,8 +152,12 @@ Chosen recipe, domain/method restrictions, RC2 late-hint exposure and all review
 remain. Original evidence stays unchanged. No generic behavior or physical identification follows.
 Geometric calibration/testing and emergence remain parallel, neither prerequisite.
 The core vacuum/common-scale campaign's two substantive reviews are complete.
-Only its exact-scope G374--G375 banking and the bounded Hopfion reassessment are
-now authorized; no physical adoption, further promotion or automatic successor.
+Its exact-scope G374--G375 banking is complete. The bounded Hopfion reassessment
+completed three reviewed steps: source map, full initial Ricci-line drift and
+conditional local closed/nonclosed curve structure. The new HB2/HB3 results
+remain UNPROMOTED with their strict family/domain and imported-method limits;
+see `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`.
+No physical adoption, further promotion, fourth step or automatic successor.
 
 | Object | Status | Guard |
 |---|---|---|

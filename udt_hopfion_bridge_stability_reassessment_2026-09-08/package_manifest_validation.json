@@ -1,0 +1,17 @@
+{
+  "command": [
+    "sha256sum",
+    "--quiet",
+    "-c",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/EVIDENCE_SHA256SUMS",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/CURRENT_TRACKING_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T17:33:17.080174+00:00",
+  "duration_seconds": 0.01074234102270566,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7556
+}

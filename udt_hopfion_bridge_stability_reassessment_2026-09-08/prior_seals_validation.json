@@ -1,0 +1,17 @@
+{
+  "command": [
+    "sha256sum",
+    "--quiet",
+    "-c",
+    "udt_g374_g375_conditional_banking_2026-09-08/EVIDENCE_SHA256SUMS",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_01/EVIDENCE_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T17:25:52.552778+00:00",
+  "duration_seconds": 0.0035675920080393553,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7368
+}

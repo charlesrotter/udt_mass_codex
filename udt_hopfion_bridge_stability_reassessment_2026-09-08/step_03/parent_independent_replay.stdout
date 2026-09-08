@@ -1,0 +1,332 @@
+{
+  "kind": "exact metric-inversion and quotient algebra; finite anchors",
+  "ratio_derivative": "-120*p*(p - q)/(gap*q*root)",
+  "denominator_square": "d*u**2/2 - 6*d*u + 18*d + u**3/2 - 6*u**2 + 18*u",
+  "records": [
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "-45/416",
+        "15/208"
+      ],
+      "ratio_derivative": "-15/52",
+      "wrong_coefficient_residual": "-3/26",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "45/416",
+        "-15/208"
+      ],
+      "ratio_derivative": "15/52",
+      "wrong_coefficient_residual": "3/26",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "-45/416",
+        "15/208"
+      ],
+      "ratio_derivative": "-15/52",
+      "wrong_coefficient_residual": "-3/26",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/4",
+        "1/2"
+      ],
+      "x": "2/5",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "45/416",
+        "-15/208"
+      ],
+      "ratio_derivative": "15/52",
+      "wrong_coefficient_residual": "3/26",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "15/208",
+        "-45/416"
+      ],
+      "ratio_derivative": "15/13",
+      "wrong_coefficient_residual": "6/13",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "-15/208",
+        "45/416"
+      ],
+      "ratio_derivative": "-15/13",
+      "wrong_coefficient_residual": "-6/13",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "15/208",
+        "-45/416"
+      ],
+      "ratio_derivative": "15/13",
+      "wrong_coefficient_residual": "6/13",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/4"
+      ],
+      "x": "3/5",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-221/4",
+      "R": "-1/2",
+      "gap": "13/4",
+      "Y": [
+        "-15/208",
+        "45/416"
+      ],
+      "ratio_derivative": "-15/13",
+      "wrong_coefficient_residual": "-6/13",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "3",
+        "4"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-492/11",
+      "R": "226/11",
+      "gap": "-80/11",
+      "Y": [
+        "9/4",
+        "-9/8"
+      ],
+      "ratio_derivative": "99/128",
+      "wrong_coefficient_residual": "99/320",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "3",
+        "4"
+      ],
+      "x": "1/3",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-492/11",
+      "R": "226/11",
+      "gap": "-80/11",
+      "Y": [
+        "-9/4",
+        "9/8"
+      ],
+      "ratio_derivative": "-99/128",
+      "wrong_coefficient_residual": "-99/320",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "3",
+        "4"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-492/11",
+      "R": "226/11",
+      "gap": "-80/11",
+      "Y": [
+        "9/4",
+        "-9/8"
+      ],
+      "ratio_derivative": "99/128",
+      "wrong_coefficient_residual": "99/320",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "3",
+        "4"
+      ],
+      "x": "1/3",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-492/11",
+      "R": "226/11",
+      "gap": "-80/11",
+      "Y": [
+        "-9/4",
+        "9/8"
+      ],
+      "ratio_derivative": "-99/128",
+      "wrong_coefficient_residual": "-99/320",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "-3",
+      "root": "-16",
+      "Lambda": "-54",
+      "R": "2",
+      "gap": "2",
+      "Y": [
+        "0",
+        "0"
+      ],
+      "ratio_derivative": "0",
+      "wrong_coefficient_residual": "0",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "-3",
+      "root": "16",
+      "Lambda": "-54",
+      "R": "2",
+      "gap": "2",
+      "Y": [
+        "0",
+        "0"
+      ],
+      "ratio_derivative": "0",
+      "wrong_coefficient_residual": "0",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "3",
+      "root": "-16",
+      "Lambda": "-54",
+      "R": "2",
+      "gap": "2",
+      "Y": [
+        "0",
+        "0"
+      ],
+      "ratio_derivative": "0",
+      "wrong_coefficient_residual": "0",
+      "global_gap": true,
+      "global_root": true
+    },
+    {
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "x": "2/3",
+      "C": "3",
+      "root": "16",
+      "Lambda": "-54",
+      "R": "2",
+      "gap": "2",
+      "Y": [
+        "0",
+        "0"
+      ],
+      "ratio_derivative": "0",
+      "wrong_coefficient_residual": "0",
+      "global_gap": true,
+      "global_root": true
+    }
+  ],
+  "versions": {
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+    "sympy": "1.13.1",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+  }
+}

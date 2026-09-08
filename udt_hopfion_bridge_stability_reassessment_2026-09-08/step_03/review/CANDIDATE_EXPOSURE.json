@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-08T17:15:44.118777+00:00",
+  "stage": "freeze read and candidate/code/receipt hashes authenticated; about to read argument and code",
+  "candidate_hashes": {
+    "CANDIDATE_INITIAL.md": "ab7f21be2bd32dad93bd89c9059bbc235c617592dec9182efc01575e7cbe78d4",
+    "check_orbits.py": "57a152c36e90fbd091acba80b21905088df293c3def2b61077d05ae96c5c843b",
+    "author_check_final_pin.json": "95e3df09daa454a50a27ccc4512815d419c5ff1dfa25b1e6d2909b649ca2d2ec",
+    "CANDIDATE_FREEZE.md": "d49863b06bf43fb9bade08454603119bf17a8c3500faeb6c740399b2547d993b"
+  },
+  "source_first_seal_sha256": "7a93896e35ca2bab9764cb32e2ecbaf6001490744cabde9d4eef361b0f257a0a",
+  "source_first_files_unchanged": true
+}

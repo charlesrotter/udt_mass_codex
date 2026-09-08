@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-08T17:12:26.921290+00:00",
+  "hb3_author_exposure": false,
+  "question_direction_exposed": true,
+  "files": {
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/COMMAND_PROVENANCE.md": "8713822deb2c4b3393f5333651122bc4641ceb229dd35eee076af24ac521045a",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/SOURCE_AUTHENTICATION.json": "a26a51ab409688b00e71fc1ef4fbb3b065d277da12e9e8f6ed412b85f41cc667",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/SOURCE_FIRST_ARGUMENT.md": "6f5453f7650cc4f2118290d0b59f0f394795f5f02bb39d8793f0fad4da394ea0",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/SOURCE_FIRST_REQUIREMENTS.md": "57503d59bce5769ba4a3787e25b23aac33d5eea9e0ac658256961153a520f581",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/independent_ratio_check.py": "120f71533c6de6d573cd76b5083981973631dc893cdfe43fe2a49c2fc128378b",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/source_first_ratio.json": "50c07fce6dd66deaaa8793b0d20ce2b9cd544b001ec772d6c80c5bc09077feb4",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/source_first_ratio.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/source_first_ratio.stdout": "500755176bff9e2b5f6bd0850d1df608a5a723a80b4e96c09f21e1291c94d52f"
+  },
+  "note": "Source-first requirement/argument and metric-route exact check sealed before HB3 author candidate/code/output. Hashes certify correspondence, not independent authorship or chronology by themselves."
+}

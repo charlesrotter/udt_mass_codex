@@ -47,3 +47,43 @@ HB2 thread01a081e2-f777-7673-b61b-9aca409f2ccc, terminal session61501,
 timeout2700s. HB1 had exited before HB2 launch; only one alternate reviewer
 process active at a time. No resume/fork or model switch. Exact HB2 command
 will be retained in its execution evidence; the scientific result is still open.
+
+Exact HB2 command, launched16:38:51UTC (2700s deadline about17:23:51):
+
+    timeout 2700 codex exec --ephemeral --sandbox workspace-write --json --output-last-message /home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/review/CLI_LAST_MESSAGE.md 'Fresh review-only subcontext. Before any startup command read udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/REVIEW_DISPATCH.md. Parent has synchronized and passed full358. Explicitly reuse those receipts: do NOT checkout, fetch, pull, or launch another full audit. No shared Git mutation, resume, fork, new agent or model switch. Follow the dispatch for HB2 source-first adversarial review.'
+
+HB2 source-first seal16:48:59, manifest7a4b20777c25368e0a679374336fac87b189aec146bd876f4ca2c4753154e4da;
+candidate exposure16:57:22. Parent read independent proof/code only after its
+own freeze. Two more parent event polls were truncated; no complete raw CLI
+event transcript is claimed. Actual scientific child invocations have saved
+commands, versions, separate streams, resource receipts and original failures.
+
+HB2 finished with exit0 and VERIFIED-WITH-CAVEATS, no scientific repair.
+Before exit its reviewer appended only a return-status paragraph to the record;
+the final hash is fbcef93d, not the intake4982cb33. Both versions and the
+exact reconstruction/pin-failure history are preserved. No final reviewer
+artifact was edited by the parent. HB2's109 payload seal is now fixed.
+
+HB3 began approximately17:05UTC, after HB2 exited, again as a NEW ephemeral
+context with unchanged configuration and normal workspace-write sandbox after
+scoped initialization escalation. Thread01a081fb-cc47-7801-9954-2b1e30116d15,
+terminal55913,2700s invocation limit inside20:02UTC; no resume/fork/model switch.
+Exact command:
+
+    timeout 2700 codex exec --ephemeral --sandbox workspace-write --json --output-last-message /home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/review/CLI_LAST_MESSAGE.md 'Fresh HB3 review-only context. Before any startup command read udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/REVIEW_DISPATCH.md. Parent synchronization and successful full358 audits are to be authenticated and reused: no checkout, fetch, pull or duplicate full audit. No shared Git mutation, resume, fork, new agent or model switch. Independently examine the declared orbit-closure question, seal before HB3 author exposure, and complete the bounded adversarial review.'
+
+HB3 source-first seal7a93896e35ca2bab9764cb32e2ecbaf6001490744cabde9d4eef361b0f257a0a
+was recorded17:12:26; candidate exposure17:15:44. The parent froze its own
+argument/check before reading the independent reconstruction. The first parent
+CLI poll was truncated (78395 tokens before truncation); again no complete
+raw event transcript is claimed. Substantive review calculations preserve
+their own exact code/argv/versions/streams/resource receipts and exposure.
+The method instruction and OpenAI Docs skill affected only this fresh-review
+execution mechanism, not scientific premises or the argument.
+
+HB3 completed with VERIFIED-WITH-CAVEATS, final whole review
+da6b3a9872eda767b9c3885e9d01fb9f209412f735474bbd85280cf4604fc4d7.
+Its invocation exited0 by17:26UTC, with no mandatory scientific repair.
+The final return was read before freezing its complete package. No alternate
+review invocation remains running from this campaign; this is not a host-wide
+process assertion. The substantive three-step cycle is complete.

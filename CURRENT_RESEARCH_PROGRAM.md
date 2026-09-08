@@ -216,11 +216,16 @@ Integration is COMPLETE after full358 and fresh fidelity gates; its EXECUTION_RE
 Fixed supplied base geometry, local positive domains, fixed/free target scalar and all review caveats remain.
 No particle stability, physical size or absolute scale follows; original evidence remains unchanged.
 G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
-The Hopfion bridge-and-stability reassessment is AUTHORIZED and IN PROGRESS:
-`udt_hopfion_bridge_stability_reassessment_2026-09-08/WORK_ORDER.md` and CAMPAIGN_LOG.md.
-At most3 substantive reviewed steps/4h, fresh review and one same-premise repair per step;
-no new campaign is authorized beyond this bounded scope and no automatic promotion.
-New Hopfion results stay unpromoted. Carrier/action/boundary/evolution adoption is not authorized.
+The Hopfion bridge-and-stability research/review is COMPLETE at three reviewed steps:
+`udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`; its execution/publication receipts own repository closure.
+HB1 recovers the surviving conditional finite-box carrier result and later intrinsic geometric bridge.
+HB2 gives full first-normal Ricci-line drift; HB3 gives the local closed/nonclosed spatial-curve alternative.
+Both new mathematical candidates remain UNPROMOTED, with strict G331/G332 family/gap/root,
+marked normal slices and imported smooth Cauchy/isometry-method restrictions. No topology-change,
+particle stability, physical size, scale or old-carrier Hessian transfer follows.
+Further banking or a successor campaign awaits Charles; no new campaign is authorized.
+No fourth step or physical adoption is authorized.
+Carrier/action/boundary/evolution adoption remains unauthorized.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.

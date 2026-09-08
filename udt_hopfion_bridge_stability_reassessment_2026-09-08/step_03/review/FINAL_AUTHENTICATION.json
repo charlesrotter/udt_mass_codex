@@ -1,0 +1,66 @@
+{
+  "utc": "2026-09-08T17:21:34.901822+00:00",
+  "head": "53d52ea3bd4fe5f2dbb5138107bfa7250ab6edcc",
+  "author_replay_stdout_byte_identical": true,
+  "successful_stderr_empty": true,
+  "source_first_sealed_files_unchanged": true,
+  "frozen_candidate_files_unchanged": true,
+  "all_other_pinned_sources_unchanged": true,
+  "only_changed_source": {
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_02/REVIEWED_RESULT.md": "414e8c42dd5b0cf7b7bc478f801fe822645c66e712dccec988f06dbffb218fbe"
+  },
+  "source_change_resolution": "HB2_WRAPPER_FINALIZATION.json exact pin-and-word-only reconstruction",
+  "author_checker_only_pin_changed": true,
+  "preserved_author_failures": [
+    {
+      "stem": "author_check_initial",
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-08T17:11:07.910082+00:00",
+        "duration_seconds": 0.1634822729974985,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 60,
+        "maxrss_kib": 54084
+      },
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py\", line 17, in <module>\n    assert hashlib.sha256((hb2/'review/REVIEW_RECORD.md').read_bytes()).hexdigest() == '4982cb33d09abd86aac98116124ce28a1275b833ae4234d2d8e7431cb369905b'\nAssertionError\n"
+    },
+    {
+      "stem": "author_check_complete",
+      "receipt": {
+        "command": [
+          "python3",
+          "-B",
+          "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py"
+        ],
+        "cwd": "/home/udt-admin/udt_mass_codex",
+        "started_utc": "2026-09-08T17:12:41.870453+00:00",
+        "duration_seconds": 0.16043165398878045,
+        "returncode": 1,
+        "timeout": false,
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 60,
+        "maxrss_kib": 54140
+      },
+      "stderr": "Traceback (most recent call last):\n  File \"/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits.py\", line 17, in <module>\n    assert hashlib.sha256((hb2/'review/REVIEW_RECORD.md').read_bytes()).hexdigest() == '4982cb33d09abd86aac98116124ce28a1275b833ae4234d2d8e7431cb369905b'\nAssertionError\n"
+    }
+  ],
+  "post_exposure_hashes": {
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/DEPENDENCY_HASH_FINALIZATION.md": "dffec6abd1cd98c225cd646b07fcc97a599ae89c129f7ff5de0c69df5c7edc26",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/check_orbits_initial_pin.py": "98abed2731055dbeb7b9baef98fe2a02e1f89827520b42205af2a78af852dd5d",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_initial.json": "afa2810f3b565d76c651aad48835ce67cb36a787d2b2492006d65519c33e58fc",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_initial.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_initial.stderr": "a8353ce7080474ac0be24c02df1ce6be738b1dd0ba4c8164b0b87909872423c0",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_complete.json": "a7735f7baacb15e838b3c9492a8f9bea2064feccb0fb1406e800086950b2e6a8",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_complete.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_complete.stderr": "a8353ce7080474ac0be24c02df1ce6be738b1dd0ba4c8164b0b87909872423c0",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_final_pin.stdout": "61041abca88c827ef5ae38b340295b55caeee0a00ba41bc16257764c26e0a0c1",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_03/author_check_final_pin.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

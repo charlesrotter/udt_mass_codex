@@ -2,8 +2,9 @@
 
 - G374--G375 exact-scope VS banking and completion gates:
   `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
-- Authorized Hopfion reassessment, current compact log:
-  `udt_hopfion_bridge_stability_reassessment_2026-09-08/CAMPAIGN_LOG.md`.
+- Completed three-step Hopfion reassessment; new candidates UNPROMOTED:
+  `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`;
+  same package CAMPAIGN_LOG.md and execution/publication receipts own closure.
 
 1. Follow `AGENTS.md`.
 2. Read the current blocks in `LIVE.md` and `HANDOFF.md`.
