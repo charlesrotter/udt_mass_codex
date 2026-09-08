@@ -85,8 +85,11 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
 - G370--G371 owner-authorized exact-scope conditional banking of RT1--RT2:
   `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`;
   its `EXECUTION_RECORD.md` owns promotion gate completion.
-- Current theory direction proposal, NOT authorization to begin:
+- Approved bounded theory direction proposal (historical proposal wording retained):
   `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+- Authorized optional independent-data coupled-development campaign:
+  `udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md`;
+  its `CAMPAIGN_LOG.md` owns current step/review state, not scientific grades.
 
 ## Retained comparison and observational lanes
 

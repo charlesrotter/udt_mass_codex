@@ -52,7 +52,9 @@ Keep optional nonvacuum status, fixed/free data and full ambient closure explici
 Reused G369 source assessment selects no physical source law; reconstruction
 is not independently supplied-data coupled evolution. Current direction proposal:
 `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
-Charles's direction decision is next; no new campaign is authorized. LIVE wins.
+Charles approved its two-step/four-hour optional coupled-development campaign:
+`udt_optional_coupled_development_campaign_2026-09-08/CAMPAIGN_LOG.md`.
+CD1 is reviewed conditionally; CD2 underway, no banking/adoption. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.

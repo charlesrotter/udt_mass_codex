@@ -159,11 +159,13 @@ The optional NONZERO comparison is NOT an admitted extension of G312's bounded v
 Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
 Completed G369 source assessment is reused: the examined admitted fragment does not select
 this source law. Reconstruction from a metric is not independent-data coupled evolution.
-Direction proposal: `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
-It recommends a bounded OPTIONAL coupled-data/development assessment, not a UDT source derivation,
-and compares returning to carried structures in admitted vacuum geometry.
-Next is Charles's direction decision; no new campaign is authorized.
-Physical source-response identification remains OPEN. No observations or coupled solve.
+Charles approved the bounded OPTIONAL coupled-data/development assessment:
+`udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md` and its compact CAMPAIGN_LOG.md.
+CD1 has a fresh reviewed conditional varying initial-data construction; CD2 is now assessing
+joint local development and original-product propagation. Two reviewed steps/four hours maximum,
+one same-premise repair per step; no automatic banking, physical adoption or successor campaign.
+This tests optional dynamical coherence, not a UDT source derivation. The vacuum-carried alternative
+remains available. Physical source-response identification remains OPEN; no observations.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification

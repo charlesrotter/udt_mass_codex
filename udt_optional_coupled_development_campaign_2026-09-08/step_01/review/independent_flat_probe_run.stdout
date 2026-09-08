@@ -1,0 +1,44 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "full_flat_H_after_algebraic_elimination",
+      "residual": "0"
+    },
+    {
+      "name": "full_flat_M_0",
+      "residual": "0"
+    },
+    {
+      "name": "full_flat_M_1",
+      "residual": "0"
+    },
+    {
+      "name": "full_flat_M_2",
+      "residual": "0"
+    },
+    {
+      "name": "coarea_E2_detgamma_equals_actual_cut_Gram",
+      "residual": "0"
+    }
+  ],
+  "count": 5,
+  "negative_controls": {
+    "reversed_momentum_sign": {
+      "expression": "-2*beta*s(y, z)*Derivative(F(x), x)**2",
+      "nonzero_exact_value": "60"
+    },
+    "lost_transverse_divergence": {
+      "expression": "Derivative(B(x, y, z), y) + Derivative(C(x, y, z), z)",
+      "nonzero_exact_value": "18"
+    },
+    "missing_density_source_H": {
+      "expression": "-2*beta*s(y, z)*Derivative(F(x), x)**2",
+      "nonzero_exact_value": "60"
+    },
+    "wrong_spatial_volume_as_screen_area": "7389934/11025",
+    "conservation_does_not_force_fixed_product": "32"
+  },
+  "scope": "symbolic flat constraint normal-form and nonorthogonal coarea diagnostics; no existence theorem"
+}

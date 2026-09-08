@@ -1,0 +1,166 @@
+{
+  "python": "3.10.12",
+  "arithmetic": "fractions.Fraction exact",
+  "geometry_utility": "udt_source_metric_connection_campaign_2026-09-08/step_03/review/independent_interface_check.py",
+  "geometry_utility_sha256": "06c96d1df44bc67f697ebbe9a6100cdc0f281e20d681e61fdb7ed7c423cb8071",
+  "checks_passed": 56,
+  "checks": [
+    "jet_0_intrinsic_scalar",
+    "jet_0_full_H",
+    "jet_0_full_M_0",
+    "jet_0_negative_K_Gauss_Codazzi_0",
+    "jet_0_full_M_1",
+    "jet_0_negative_K_Gauss_Codazzi_1",
+    "jet_0_full_M_2",
+    "jet_0_negative_K_Gauss_Codazzi_2",
+    "jet_0_normal_Gauss_Codazzi",
+    "jet_0_fixed_product",
+    "jet_0_phase_flux",
+    "jet_1_intrinsic_scalar",
+    "jet_1_full_H",
+    "jet_1_full_M_0",
+    "jet_1_negative_K_Gauss_Codazzi_0",
+    "jet_1_full_M_1",
+    "jet_1_negative_K_Gauss_Codazzi_1",
+    "jet_1_full_M_2",
+    "jet_1_negative_K_Gauss_Codazzi_2",
+    "jet_1_normal_Gauss_Codazzi",
+    "jet_1_fixed_product",
+    "jet_1_phase_flux",
+    "jet_2_intrinsic_scalar",
+    "jet_2_full_H",
+    "jet_2_full_M_0",
+    "jet_2_negative_K_Gauss_Codazzi_0",
+    "jet_2_full_M_1",
+    "jet_2_negative_K_Gauss_Codazzi_1",
+    "jet_2_full_M_2",
+    "jet_2_negative_K_Gauss_Codazzi_2",
+    "jet_2_normal_Gauss_Codazzi",
+    "jet_2_fixed_product",
+    "jet_2_phase_flux",
+    "jet_3_intrinsic_scalar",
+    "jet_3_full_H",
+    "jet_3_full_M_0",
+    "jet_3_negative_K_Gauss_Codazzi_0",
+    "jet_3_full_M_1",
+    "jet_3_negative_K_Gauss_Codazzi_1",
+    "jet_3_full_M_2",
+    "jet_3_negative_K_Gauss_Codazzi_2",
+    "jet_3_normal_Gauss_Codazzi",
+    "jet_3_fixed_product",
+    "jet_3_phase_flux",
+    "crossing_H_-1/5",
+    "crossing_Mx_-1/5",
+    "crossing_My_-1/5",
+    "crossing_Mz_-1/5",
+    "crossing_H_0",
+    "crossing_Mx_0",
+    "crossing_My_0",
+    "crossing_Mz_0",
+    "crossing_H_2/7",
+    "crossing_Mx_2/7",
+    "crossing_My_2/7",
+    "crossing_Mz_2/7"
+  ],
+  "red": [
+    {
+      "name": "reversed_momentum_sign",
+      "residual": "50/7",
+      "guard": "RED"
+    },
+    {
+      "name": "dropped_warp_connection",
+      "residual": "-104872/178605",
+      "guard": "RED"
+    },
+    {
+      "name": "wrong_scalar_sign_in_elimination",
+      "residual": "-1648/2025",
+      "guard": "RED"
+    },
+    {
+      "name": "dropped_phase_from_product",
+      "residual": "2/3",
+      "guard": "RED"
+    }
+  ],
+  "jets": [
+    {
+      "rho": "9/4",
+      "rho_prime": "2/5",
+      "rho_second": "-1/3",
+      "s0": "1",
+      "E": "5/3",
+      "beta": "-4/7",
+      "Lambda": "0",
+      "A": "-37762/19845",
+      "B": "7/5",
+      "Bprime": "742747/357210",
+      "R3": "-824/2025",
+      "H": "-50/7",
+      "M": [
+        "-25/7",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rho": "16/25",
+      "rho_prime": "-3/7",
+      "rho_second": "2/9",
+      "s0": "1",
+      "E": "3/2",
+      "beta": "5/8",
+      "Lambda": "-2",
+      "A": "395131/483840",
+      "B": "-3/4",
+      "Bprime": "2693251/36126720",
+      "R3": "-28225/32256",
+      "H": "-11/5",
+      "M": [
+        "9/10",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rho": "2",
+      "rho_prime": "0",
+      "rho_second": "1/5",
+      "s0": "2",
+      "E": "4/3",
+      "beta": "-1",
+      "Lambda": "3/2",
+      "A": "-71/45",
+      "B": "1",
+      "Bprime": "16/9",
+      "R3": "1/5",
+      "H": "-37/9",
+      "M": [
+        "-32/9",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "rho": "4/9",
+      "rho_prime": "1/2",
+      "rho_second": "-7/8",
+      "s0": "1",
+      "E": "2",
+      "beta": "3/5",
+      "Lambda": "5/11",
+      "A": "-72011/168960",
+      "B": "-2",
+      "Bprime": "-3834973/2703360",
+      "R3": "-1071/128",
+      "H": "502/165",
+      "M": [
+        "16/15",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "scope": "finite original-equation metric-jet diagnostics; no ODE/PDE existence proof"
+}

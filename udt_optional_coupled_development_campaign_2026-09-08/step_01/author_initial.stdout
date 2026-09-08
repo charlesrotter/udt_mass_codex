@@ -1,0 +1,49 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "shape": "3x3 intrinsic metric, covariant K and all three momentum components",
+  "arithmetic": "exact symbolic/rational; no discretization or fitted data",
+  "checks": [
+    "full_intrinsic_R3",
+    "full_H",
+    "full_Mx",
+    "full_My",
+    "full_Mz",
+    "joint_H",
+    "joint_Mx",
+    "symmetric_covariant_K",
+    "initial_eikonal",
+    "future_normal_raised",
+    "initial_screen_area",
+    "initial_product",
+    "full_initial_flux",
+    "rational_H_beta_-1",
+    "rational_M_beta_-1",
+    "rational_H_beta_1",
+    "rational_M_beta_1"
+  ],
+  "passed": 17,
+  "red_controls": [
+    {
+      "name": "wrong_momentum_source_sign",
+      "nonzero_exact_residual": "64/27"
+    },
+    {
+      "name": "omit_warp_connection",
+      "nonzero_exact_residual": "-454201/178605"
+    },
+    {
+      "name": "wrong_intrinsic_scalar_sign",
+      "nonzero_exact_residual": "112/405"
+    },
+    {
+      "name": "omit_phase_intensity_from_three_form",
+      "nonzero_exact_residual": "1/2"
+    },
+    {
+      "name": "arbitrary_density_with_fixed_area_fails_product",
+      "nonzero_exact_residual": "11/4"
+    }
+  ],
+  "ceiling": "regression/algebra diagnostics, not local ODE or PDE theorem"
+}

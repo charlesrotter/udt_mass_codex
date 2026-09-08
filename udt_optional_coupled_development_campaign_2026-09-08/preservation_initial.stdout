@@ -1,0 +1,18 @@
+{
+  "status": "PASS_CORRESPONDENCE_NOT_SCIENTIFIC_PROOF",
+  "baseline": "e1b6cdbef96f9a0ce8878d42d160a5ebe1f267f7",
+  "head": "e1b6cdbef96f9a0ce8878d42d160a5ebe1f267f7",
+  "source_and_control_pins": 18,
+  "prior_bank_payloads": 46,
+  "immutable_initial_pins": {
+    "step_01": 3
+  },
+  "registry_rows": 354,
+  "unrelated_untracked_names": 46,
+  "unrelated_names_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "changed_tracked_paths": [],
+  "protected_payloads": "NOT_INSPECTED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "host_wide_processes": "UNVERIFIED"
+}
