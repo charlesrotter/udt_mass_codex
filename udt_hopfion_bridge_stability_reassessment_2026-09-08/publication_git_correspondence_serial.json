@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "git_prefix = ['git','-c','core.preloadIndex=false','-c','index.threads=1']\nimport subprocess,json,hashlib\nfrom pathlib import Path\nbank='udt_g374_g375_conditional_banking_2026-09-08'\npkg='udt_hopfion_bridge_stability_reassessment_2026-09-08'\nroots=['AGENTS.md','LIVE.md','HANDOFF.md','CURRENT_RESEARCH_PROGRAM.md','CURRENT_SCIENTIFIC_PREMISES.md','CURRENT_SCIENTIFIC_PREMISES.tsv','INDEX.md','MEMORY.md','verify_current_scientific_premises.py']\npaths=subprocess.check_output(git_prefix + ['ls-files','--',bank,pkg,*roots],text=True).splitlines()\nassert paths and len(paths)==len(set(paths))\nargv=git_prefix + ['-c','core.packedGitWindowSize=16m','-c','core.packedGitLimit=64m','cat-file','--batch']\nout=subprocess.run(argv,input=''.join('HEAD:'+p+'\\n' for p in paths).encode(),capture_output=True,check=True).stdout\npos=0\nfor p in paths:\n end=out.index(b'\\n',pos); hdr=out[pos:end].split(); assert len(hdr)==3 and hdr[1]==b'blob'\n size=int(hdr[2]); pos=end+1\n assert out[pos:pos+size]==Path(p).read_bytes(),p\n pos+=size;assert out[pos:pos+1]==b'\\n';pos+=1\nassert pos==len(out)\nbase='7e6d144a9f45fc2cee6d041448e6b6ee9e324cc3'\nunchanged=['CANON.md','UDT_METRIC_KERNEL_DEVELOPMENT.md','UDT_METRIC_KERNEL_COVERAGE.tsv','udt_vacuum_common_scale_campaign_2026-09-08']\nassert not subprocess.check_output(git_prefix + ['diff',base,'--name-only','--',*unchanged])\nassert not subprocess.check_output(git_prefix + ['diff','--name-only'])\nassert not subprocess.check_output(git_prefix + ['diff','--cached','--name-only'])\nstatus=subprocess.check_output(git_prefix + ['status','--short'],text=True).splitlines()\nnames=sorted(t for t in status if t.startswith('?? ') and not t[3:].startswith((bank+'/',pkg+'/')))\ndigest=hashlib.sha256('\\n'.join(names).encode()).hexdigest()\nassert len(names)==46 and digest=='d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea'\nhead=subprocess.check_output(git_prefix + ['rev-parse','HEAD'],text=True).strip()\nremote=subprocess.check_output(git_prefix + ['rev-parse','origin/grok'],text=True).strip()\nassert head==remote\nprint(json.dumps({'status':'PASS_COMMITTED_RAW_BYTE_CORRESPONDENCE_NOT_SCIENTIFIC_PROOF','head':head,'origin_grok':remote,'committed_files_byte_matched':len(paths),'bank_files':sum(p.startswith(bank+'/') for p in paths),'campaign_files':sum(p.startswith(pkg+'/') for p in paths),'root_tracking_files':len(roots),'original_science_canon_manuscript_diff':False,'tracked_dirt':False,'unrelated_name_entries':len(names),'unrelated_names_sha256':digest,'protected_payload_contents':'NOT_INSPECTED','backup_completeness':'UNVERIFIED','pre_reboot_unsaved_state':'UNVERIFIED','host_wide_process_state':'UNVERIFIED'},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T17:40:45.097807+00:00",
+  "duration_seconds": 0.2469316410133615,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 22848
+}

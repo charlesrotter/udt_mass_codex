@@ -1,0 +1,17 @@
+{
+  "status": "PASS_COMMITTED_RAW_BYTE_CORRESPONDENCE_NOT_SCIENTIFIC_PROOF",
+  "head": "09f89bfd73848fc15ac872ac0084cdaa65236409",
+  "origin_grok": "09f89bfd73848fc15ac872ac0084cdaa65236409",
+  "committed_files_byte_matched": 300,
+  "bank_files": 58,
+  "campaign_files": 233,
+  "root_tracking_files": 9,
+  "original_science_canon_manuscript_diff": false,
+  "tracked_dirt": false,
+  "unrelated_name_entries": 46,
+  "unrelated_names_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "protected_payload_contents": "NOT_INSPECTED",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "host_wide_process_state": "UNVERIFIED"
+}
