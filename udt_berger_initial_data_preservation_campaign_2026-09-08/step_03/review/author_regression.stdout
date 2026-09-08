@@ -1,0 +1,606 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_sha256": "3525ab5ae013eb8826ee31463368a67ccc9ee5f5faa334f26842de4d17698d4b",
+  "checks": [
+    {
+      "name": "full nonlinear original Hamiltonian identity",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "all three original momentum equations with connection",
+      "residuals": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "actual noncharacteristic matrix",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "normal matrix at base point identity",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "normal matrix determinant at base point",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "control algebraic K",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "control F and first partials",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "constant control solves full momentum",
+      "residuals": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "CK second-jet recursion uniquely fixes all nine normal entries",
+      "determinant": "-1",
+      "solution": "{(0, 0, 0, 0, 0, 0, 0, 0, 0)}"
+    },
+    {
+      "name": "full Ricci variation of realized two-jet",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (0, 0)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (0, 1)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (0, 2)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (0, 0)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (0, 1)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (0, 2)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (1, 0)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (1, 1)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (1, 2)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (1, 0)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (1, 1)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (1, 2)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (2, 0)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (2, 1)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "differentiated original momentum (2, 2)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (2, 0)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (2, 1)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "second original Hamiltonian (2, 2)",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "full raising and projector contribution",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "pointwise control raising contributes no drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "epsilon zero drift control",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "fixed sector control H",
+      "residuals": [
+        "0"
+      ]
+    },
+    {
+      "name": "fixture full projector drift",
+      "residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "F": "m + (E - m**2 + r**2 + w**2)/(2*m)",
+  "noncharacteristic_matrix": "Matrix([[1, -b1/2, -b2/2], [E*b1/(2*m**2) - b1/2 + b1*r**2/(2*m**2) + b1*w**2/(2*m**2), -b1*r/m + 1, -b1*w/m], [E*b2/(2*m**2) - b2/2 + b2*r**2/(2*m**2) + b2*w**2/(2*m**2), -b2*r/m, -b2*w/m + 1]])",
+  "normal_determinant": "(E*b1**2 + E*b2**2 - b1**2*m**2 + b1**2*r**2 + b1**2*w**2 - 4*b1*m*r - b2**2*m**2 + b2**2*r**2 + b2**2*w**2 - 4*b2*m*w + 4*m**2)/(4*m**2)",
+  "normal_second_jet_solution": "{(0, 0, 0, 0, 0, 0, 0, 0, 0)}",
+  "Ricci_dot_difference": "Matrix([[0, 0, 0], [0, 0, epsilon], [0, epsilon, 0]])",
+  "Pdot": "Matrix([[0, 0, 0], [0, 0, epsilon/(q*(-p + q))], [0, epsilon/(q*(-p + q)), 0]])",
+  "fixtures": [
+    {
+      "a": "1",
+      "c": "3/2",
+      "h": -1,
+      "Lambda": "19/4",
+      "epsilon": -2,
+      "Y2": "-2/5"
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "h": -1,
+      "Lambda": "19/4",
+      "epsilon": 0,
+      "Y2": "0"
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "h": -1,
+      "Lambda": "19/4",
+      "epsilon": 2,
+      "Y2": "2/5"
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "h": 1,
+      "Lambda": "19/4",
+      "epsilon": -2,
+      "Y2": "-2/5"
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "h": 1,
+      "Lambda": "19/4",
+      "epsilon": 0,
+      "Y2": "0"
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "h": 1,
+      "Lambda": "19/4",
+      "epsilon": 2,
+      "Y2": "2/5"
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "h": -1,
+      "Lambda": "63/16",
+      "epsilon": -2,
+      "Y2": "8/3"
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "h": -1,
+      "Lambda": "63/16",
+      "epsilon": 0,
+      "Y2": "0"
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "h": -1,
+      "Lambda": "63/16",
+      "epsilon": 2,
+      "Y2": "-8/3"
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "h": 1,
+      "Lambda": "63/16",
+      "epsilon": -2,
+      "Y2": "8/3"
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "h": 1,
+      "Lambda": "63/16",
+      "epsilon": 0,
+      "Y2": "0"
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "h": 1,
+      "Lambda": "63/16",
+      "epsilon": 2,
+      "Y2": "-8/3"
+    }
+  ],
+  "limits": [
+    "CK analytic convergence/realization is a theorem application, not a finite-check result",
+    "only local open Berger patch; no global compact data or gluing",
+    "two-jet control alone is not the existence argument",
+    "no stability or orbit-closure consequence"
+  ]
+}

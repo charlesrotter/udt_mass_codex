@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "report_sha256": "304eea827a56455d75ebbcbfb6a7f2b6a69de5dd38d13cdf2c993240676143ef",
+  "result_sha256": "141addf314b0e56f925587090daadaac9a7bd4e4c4c773f251e3a82716326deb",
+  "execution_record_sha256": "791c1bc90138ef51c01d733e5b1e9b751faed8f5c4fd28666d98ce643929b23b"
+}

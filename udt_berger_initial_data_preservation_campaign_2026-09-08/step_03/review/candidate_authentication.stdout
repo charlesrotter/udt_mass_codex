@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "authenticated_utc": "2026-09-08T18:50:13.128562+00:00",
+  "exposure": "Candidate freeze first opened after source-first seal. Author proof/code/results now read. No BI2 scientific package, campaign log or whiteboard opened.",
+  "candidate_hashes": {
+    "CANDIDATE_FREEZE.md": "8e48eac4f3ab2a8e40dd6921b79a14da68b40e0aa8f807a069464f8ca135816d",
+    "CANDIDATE_INITIAL.md": "c4b285c4b080fcda9d91c8e70c605fccec132f0a8335638d91b2297d32673ade",
+    "check_bi3.py": "3525ab5ae013eb8826ee31463368a67ccc9ee5f5faa334f26842de4d17698d4b",
+    "author_check_01.stdout": "9addd55b65014f187f23746b420cbc39d97071358d1b4edb06a9046f183fa821",
+    "author_check_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "author_check_01.json": "283555efa5997bd3f5064585b8907618ad8291cbddeefbc593fab98e461de8c0",
+    "author_mutations_01.stdout": "ec8dbe18bcd8e049b8697d15fca8e149bd8cd5cfc636471a2c72d4bb64c13499",
+    "author_mutations_01.stderr": "8796b06180fdca209b4b64f4df1c8abf6a3a2bb3acd7ad6058196fc1d4c03070",
+    "author_mutations_01.json": "658f04fd7776d066b96105610ad016187194b8340186cea0e06a6bde197f22d9"
+  },
+  "source_first_seal_sha256": "83f2a8769c28d89fdcf9ef72599b0feaf17b0ec9ec70523c2ddf151e60c9eb57",
+  "preserved_candidate_files": 9,
+  "author_check_count": 55,
+  "author_fixture_count": 12,
+  "saved_mutations": 5,
+  "parent_no_review_exposure": "Attested in CANDIDATE_FREEZE.md; not independently observed."
+}

@@ -1,5 +1,9 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
+- Completed three-step Berger initial-data campaign; BI1--BI3 UNPROMOTED:
+  `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`;
+  per-step REVIEWED_RESULT files pin full reviews; CAMPAIGN_LOG and publication receipt own closure.
+
 - G374--G375 exact-scope VS banking and completion gates:
   `udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md`.
 - Completed three-step Hopfion reassessment; new candidates UNPROMOTED:

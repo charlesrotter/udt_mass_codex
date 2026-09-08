@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import ast,pathlib,hashlib,json,sys; driver=pathlib.Path(\"udt_berger_initial_data_preservation_campaign_2026-09-08/step_02/probe_bi2.py\"); tree=ast.parse(driver.read_text().replace(\"check_bi2.py\",\"check_bi3.py\").replace(\"<BI2 \",\"<BI3 \")); mutations=[(\"wrong Hamiltonian elimination\",\"z=(E-m*m+r*r+w*w)/(2*m)\",\"z=(E-m*m-r*r-w*w)/(2*m)\"),(\"omit original momentum connection\",\"G[j][j][l]*K[l,i]+G[j][i][l]*K[j,l]\",\"s.S.Zero\"),(\"ignore normal-frame mixing\",\"tangent[i,j]+[b1,b2][i]*normal[j]\",\"tangent[i,j]\"),(\"wrong normal two-jet recursion\",\"Q[1][0,j]+Q[2][1,j]\",\"Q[1][0,j]+Q[2][0,j]\"),(\"reverse Ricci variation sign\",\"zero(\\u0027full Ricci variation of realized two-jet\\u0027\",\"Sdot=-Sdot\\nzero(\\u0027full Ricci variation of realized two-jet\\u0027\")]; nodes=[n for n in tree.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id==\"mutations\" for t in n.targets)]; assert len(nodes)==1; nodes[0].value=ast.parse(repr(mutations),mode=\"eval\").body; ast.fix_missing_locations(tree); print(json.dumps({\"reused_driver\":str(driver),\"driver_sha256\":hashlib.sha256(driver.read_bytes()).hexdigest(),\"adapted_driver\":ast.unparse(tree)}),file=sys.stderr); exec(compile(tree,\"<BI3 reused mutation driver>\",\"exec\"),{\"__name__\":\"__main__\",\"__file__\":str(pathlib.Path(\"udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/virtual_probe.py\").resolve())})"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T18:42:18.711391+00:00",
+  "duration_seconds": 0.3064587810076773,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 50400
+}

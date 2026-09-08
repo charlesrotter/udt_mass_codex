@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,subprocess; prefix=\"udt_berger_initial_data_preservation_campaign_2026-09-08/\"; git=[\"git\",\"-c\",\"core.preloadIndex=false\",\"-c\",\"index.threads=1\"]; status=subprocess.check_output(git+[\"status\",\"--short\"],text=True); lines=sorted(x for x in status.splitlines() if x.startswith(\"?? \") and not x[3:].startswith(prefix)); digest=hashlib.sha256(\"\\n\".join(lines).encode()).hexdigest(); changed=subprocess.check_output(git+[\"diff\",\"--name-only\",\"8593f11cd96a575be3513d1ec56e92ac4f5811ff\"],text=True).splitlines(); allowed={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"INDEX.md\",\"MEMORY.md\"}; assert len(lines)==46 and digest==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\"; assert all(p in allowed or p.startswith(prefix) for p in changed); print(json.dumps(dict(status=\"PASS\",unrelated_name_count=len(lines),unrelated_name_hash=digest,changed=changed,payload_inspection=False)))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T18:12:44.870685+00:00",
+  "duration_seconds": 0.0912378049979452,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14400
+}

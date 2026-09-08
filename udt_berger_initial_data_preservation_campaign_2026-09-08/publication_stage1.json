@@ -1,0 +1,30 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "index.threads=1",
+    "add",
+    "-f",
+    "--",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/whiteboard",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/WORK_ORDER.md",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.json",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.stdout",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.stderr",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.command.txt",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/SOURCE_SHA256SUMS",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/SOURCE_SHA256SUMS_INITIAL_MALFORMED",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/PIN_DIAGNOSTIC.md"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T19:06:15.153554+00:00",
+  "duration_seconds": 0.02247662001173012,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 13056
+}

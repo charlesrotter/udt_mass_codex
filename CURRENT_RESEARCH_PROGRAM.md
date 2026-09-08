@@ -223,8 +223,18 @@ HB2 gives full first-normal Ricci-line drift; HB3 gives the local closed/nonclos
 Both new mathematical candidates remain UNPROMOTED, with strict G331/G332 family/gap/root,
 marked normal slices and imported smooth Cauchy/isometry-method restrictions. No topology-change,
 particle stability, physical size, scale or old-carrier Hessian transfer follows.
-Further banking or a successor campaign awaits Charles; no new campaign is authorized.
-No fourth step or physical adoption is authorized.
+The separate Berger initial-data campaign is COMPLETE at three reviewed steps:
+`udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`.
+BI1 gives the full first-normal image/projector criterion and lawful homogeneous K quadric.
+BI2 gives actual homogeneous local branch/circle preservation, with direct unaveraged
+quotient-metric preservation iff horizontal shear vanishes. BI3 realizes local analytic
+inhomogeneous constraint data with nonzero line drift; no global compact extension follows.
+All remain reviewed conditional UNPROMOTED candidates. Full reviews retain harness caveats;
+BI2's one fresh focused review clears isolation without erasing its original exposure.
+Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
+analytic/local-method restrictions and no physical-stability/scale inference remain.
+HB2/HB3 and BI1--BI3 banking remain unauthorized; no new campaign is authorized.
+The proposed global-constraint successor awaits Charles. Execution/publication receipts own closure.
 Carrier/action/boundary/evolution adoption remains unauthorized.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.

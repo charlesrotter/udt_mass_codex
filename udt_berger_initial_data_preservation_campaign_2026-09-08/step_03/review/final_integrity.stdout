@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "source_first_payloads_unchanged": true,
+  "declared_sources_unchanged": true,
+  "frozen_candidate_unchanged": true,
+  "snapshots_match": true,
+  "author_regression_byte_identical": true,
+  "report_sha256": "304eea827a56455d75ebbcbfb6a7f2b6a69de5dd38d13cdf2c993240676143ef",
+  "receipts": {
+    "authentication": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/authenticate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:42:31.398594+00:00",
+      "duration_seconds": 0.06561710301321,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 27212
+    },
+    "authentication_retry": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/authenticate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:42:55.927846+00:00",
+      "duration_seconds": 0.06519577599829063,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 16436
+    },
+    "source_first_run": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/source_first_check.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:42:31.526372+00:00",
+      "duration_seconds": 0.39072706500883214,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 48868
+    },
+    "source_first_seal_run": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/seal_source_first.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:43:30.582579+00:00",
+      "duration_seconds": 0.017227997013833374,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 14016
+    },
+    "preserve_sources_run": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/preserve_sources.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:44:11.023071+00:00",
+      "duration_seconds": 0.018021169991698116,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 15168
+    },
+    "candidate_authentication": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/authenticate_candidate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:50:13.113222+00:00",
+      "duration_seconds": 0.01719802600564435,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 14976
+    },
+    "candidate_comparison": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/compare_candidate.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:50:13.200705+00:00",
+      "duration_seconds": 0.48925855100969784,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 49008
+    },
+    "mutation_probe_run": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/review/mutation_probe.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:51:33.482130+00:00",
+      "duration_seconds": 0.45791259201359935,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 51852
+    },
+    "author_regression": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_berger_initial_data_preservation_campaign_2026-09-08/step_03/check_bi3.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T18:51:33.995382+00:00",
+      "duration_seconds": 0.2804431770055089,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 49092
+    }
+  },
+  "final_git_status": "## grok...origin/grok\n M CURRENT_RESEARCH_PROGRAM.md\n M HANDOFF.md\n M INDEX.md\n M LIVE.md\n M MEMORY.md\n?? 8_25/\n?? UDT_Complete_Guardrails_and_Central_Science_Tracking.md\n?? UDT_Next_Step_After_Two_Stages.md\n?? UDT_Sequenced_Guardrails_and_Development_Work_Order.md\n?? udt_berger_initial_data_preservation_campaign_2026-09-08/\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/CANDIDATE_LAW_MAP.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/DERIVATION_RESULT.json\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/EQUATION_OWNERSHIP_ATLAS.tsv\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/SOURCE_SCOPE_CLARIFICATION.md\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/derive_owner_atlas.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/run_catch_proofs.py\n?? udt_native_onshell_timelive_reset_owner_audit_2026-08-10/verify_owner_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/ADVERSARIAL_REVIEW_REQUEST.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/AUDIT_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/DERIVATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EVIDENCE_GATES.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/EXACT_DERIVATION.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/LAY_REPORT.md\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/STATUS_LEDGER.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/VERIFICATION_RESULT.json\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/WITNESS_ATLAS.tsv\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/build_review_intake.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/derive_regime_flow.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/run_catch_proofs.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_independent.py\n?? udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/verify_package.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/AUDIT_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/CATCH_PROOF_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/DERIVATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EVIDENCE_GATES.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/EXACT_DERIVATION.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_RADAU_REPLAY.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/INDEPENDENT_VERIFICATION.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/LAY_REPORT.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PREREGISTRATION_EXECUTION_NOTE.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/PROFILE_COMPATIBILITY_ATLAS.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/REVIEW_DISPATCH.md\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/RUN_CHECKPOINT.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/STATUS_LEDGER.tsv\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/VERIFICATION_RESULT.json\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/build_review_manifest.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/derive_compatibility_atlas.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/run_catch_proofs.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_independent.py\n?? udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/verify_package.py",
+  "scope": "Correspondence and bounded evidence validation only. No source audit execution, synchronization or promotion."
+}

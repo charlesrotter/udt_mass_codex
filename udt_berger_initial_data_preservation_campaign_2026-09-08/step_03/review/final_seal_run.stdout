@@ -1,0 +1,7 @@
+{
+  "status": "FINAL_REVIEW_SEALED",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "seal_sha256": "fb3a588809757a813d3b72c2c43a9ef03b3943f734c91ac59c90477fb5a61c4c",
+  "report_sha256": "304eea827a56455d75ebbcbfb6a7f2b6a69de5dd38d13cdf2c993240676143ef",
+  "sealed_file_count": 80
+}

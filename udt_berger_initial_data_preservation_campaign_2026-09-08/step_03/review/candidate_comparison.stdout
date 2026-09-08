@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "check_count": 44,
+  "checks": [
+    "author_subfamily_exact_Hamiltonian",
+    "all_author_momenta_from_sealed_general_Koszul",
+    "author_CK_nondegenerate_at_marked_point",
+    "author_F_partial_at_base",
+    "actual_CK_Hessian_mnormal0",
+    "actual_CK_Hessian_mnormal1",
+    "actual_CK_Hessian_mnormal2",
+    "actual_CK_Hessian_rnormal0",
+    "actual_CK_Hessian_rnormal1",
+    "actual_CK_Hessian_rnormal2",
+    "actual_CK_Hessian_wnormal0",
+    "actual_CK_Hessian_wnormal1",
+    "actual_CK_Hessian_wnormal2",
+    "author_jet_full_covariant_and_direct_Ricci",
+    "full_raised_derivative_eigenprojector_relation",
+    "saved_normal_matrix_all_entries",
+    "saved_normal_determinant",
+    "saved_Ricci_tensor_all_entries",
+    "saved_projector_all_entries",
+    "fixture_0_same_Lambda",
+    "fixture_0_drift",
+    "fixture_1_same_Lambda",
+    "fixture_1_drift",
+    "fixture_2_same_Lambda",
+    "fixture_2_drift",
+    "fixture_3_same_Lambda",
+    "fixture_3_drift",
+    "fixture_4_same_Lambda",
+    "fixture_4_drift",
+    "fixture_5_same_Lambda",
+    "fixture_5_drift",
+    "fixture_6_same_Lambda",
+    "fixture_6_drift",
+    "fixture_7_same_Lambda",
+    "fixture_7_drift",
+    "fixture_8_same_Lambda",
+    "fixture_8_drift",
+    "fixture_9_same_Lambda",
+    "fixture_9_drift",
+    "fixture_10_same_Lambda",
+    "fixture_10_drift",
+    "fixture_11_same_Lambda",
+    "fixture_11_drift",
+    "formal_jet_is_not_an_exact_nonlinear_datum"
+  ],
+  "full_Ricci": "Matrix([[0, 0, 0], [0, 0, epsilon], [0, epsilon, 0]])",
+  "full_Bdot": "Matrix([[2*h*(p*q - q**2/2), 0, 0], [0, 2*h*(p*q - q**2/2), epsilon], [0, epsilon, h*q**2]])",
+  "full_Pdot": "Matrix([[0, 0, 0], [0, 0, epsilon/(q*(-p + q))], [0, epsilon/(q*(-p + q)), 0]])",
+  "fixtures": [
+    {
+      "index": 0,
+      "Delta": "5",
+      "Y2": "-2/5"
+    },
+    {
+      "index": 1,
+      "Delta": "5",
+      "Y2": "0"
+    },
+    {
+      "index": 2,
+      "Delta": "5",
+      "Y2": "2/5"
+    },
+    {
+      "index": 3,
+      "Delta": "5",
+      "Y2": "-2/5"
+    },
+    {
+      "index": 4,
+      "Delta": "5",
+      "Y2": "0"
+    },
+    {
+      "index": 5,
+      "Delta": "5",
+      "Y2": "2/5"
+    },
+    {
+      "index": 6,
+      "Delta": "-3/4",
+      "Y2": "8/3"
+    },
+    {
+      "index": 7,
+      "Delta": "-3/4",
+      "Y2": "0"
+    },
+    {
+      "index": 8,
+      "Delta": "-3/4",
+      "Y2": "-8/3"
+    },
+    {
+      "index": 9,
+      "Delta": "-3/4",
+      "Y2": "8/3"
+    },
+    {
+      "index": 10,
+      "Delta": "-3/4",
+      "Y2": "0"
+    },
+    {
+      "index": 11,
+      "Delta": "-3/4",
+      "Y2": "-8/3"
+    }
+  ],
+  "independence": "No author code imported; generic sealed Koszul/covariant machinery reused and separately contracted connection variation. Author subfamily/seed comparison is post-exposure.",
+  "scope": "Algebra and saved-output comparison only; analytic existence remains the independently reviewed noncharacteristic CK proof."
+}
