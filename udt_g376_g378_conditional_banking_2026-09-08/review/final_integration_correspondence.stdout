@@ -1,0 +1,46 @@
+{
+  "all_prior_registry_bytes_equal_base": true,
+  "base": "32d23fb47dc4e440acc8c721aef6cb8201796ded",
+  "changed_tracked_files": [
+    "AGENTS.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "verify_current_scientific_premises.py"
+  ],
+  "current_count": 361,
+  "new_entries": {
+    "G376": "BI1 full marked Ricci-line criterion and homogeneous constraint quadric: required prerequisite",
+    "G377": "BG1 fixed-Berger global small-TT nonlinear constraint family",
+    "G378": "BG2 arbitrary-small global lawful full marked Ricci-line drift"
+  },
+  "prior_count": 358,
+  "reviewed_sha256": {
+    "AGENTS.md": "6c992f5317b05ac4a02f7ab7995c00af4182d82361d41e1456cd3ce1352836f8",
+    "CURRENT_RESEARCH_PROGRAM.md": "70b4b72d3349b5af02590dc53291fbea3c1a5c049c85a38f84ed27173a7fc511",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "603736f1e7b94885e193cd63aeceeedabf3adf9f958e00b3def15fb13b41c71d",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "8984ebb242864dbb9a77d65847713acf8befc90a4904a25a59fcc13ef4eb6446",
+    "HANDOFF.md": "6e127fe74247464dfe50b63d267076adf856c4afcab25ae81cf29a6a455c343b",
+    "INDEX.md": "7e4a3747f4c3080b8ec7fadabb417243294f8ac27f5a3e970514b65ef3410396",
+    "LIVE.md": "082603aab76cbea7481441415770f1257c372b4c671d582309dab5259e6ec62c",
+    "MEMORY.md": "61681a7b3600711240812096002682f966a5b125329ad8729a085e8802098e28",
+    "udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md": "dec0b26292a5b4cf1ec6ce9984d202a23242ba3c4e3ff44ef7ba8d075b49066c",
+    "udt_g376_g378_conditional_banking_2026-09-08/INITIAL_BANKING_CLAIMS.tsv": "08435c65729aa005fcb317191cc627e3c66164e2456ea31fabffe643f02b7feb",
+    "udt_g376_g378_conditional_banking_2026-09-08/INITIAL_BANKING_RECORD.md": "789e8f2bc54cabab3069439ac91ad1805d80cbb72fddbc6ef8fdfb753894882c",
+    "udt_g376_g378_conditional_banking_2026-09-08/REPAIR_RECORD.md": "55e855890de174849378f2b2245c8097e7efc740ff0824fb4417af210f6cecdb",
+    "udt_g376_g378_conditional_banking_2026-09-08/SOURCE_EVIDENCE_SHA256SUMS": "43ceb5808c8f7fb1ea40a212b486dd84de183eab6c5b258c9826aad27b20bdc1",
+    "udt_g376_g378_conditional_banking_2026-09-08/WORK_ORDER.md": "0e4d1b3b76721ec34512966fbe0d7e72cb405263a5f4d8534fc254b292b81176",
+    "verify_current_scientific_premises.py": "6c931bfec4b95b7c720eebe154c270fc725899106c6b7aaac21b41c5984c1854"
+  },
+  "scope": "independent byte/row correspondence and reviewed file hashes, not scientific proof",
+  "unchanged_canon_and_fixed_manuscript": [
+    "CANON.md",
+    "UDT_METRIC_KERNEL_DEVELOPMENT.md",
+    "UDT_METRIC_KERNEL_COVERAGE.tsv"
+  ],
+  "verdict": "PASS"
+}

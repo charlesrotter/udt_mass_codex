@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import verify_current_scientific_premises as v; v.validate_berger_banking(v.ROOT); v.validate_startup_surface(v.ROOT); print(\"PASS: Berger additive correspondence and all startup/banking scope guards\")"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T20:39:17.461985+00:00",
+  "duration_seconds": 0.12877774698426947,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 52608
+}

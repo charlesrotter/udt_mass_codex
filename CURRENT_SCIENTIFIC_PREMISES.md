@@ -1,7 +1,17 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
+
+G376=BI1 (separately required prerequisite), G377=BG1 and G378=BG2 now carry
+Charles's exact-scope conditional banking authorization. Integration/fidelity
+receipts are owned by `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`
+and its EXECUTION_RECORD.md; no completion is inferred from this orientation.
+ENTIRE source candidates/results/reviews and false-pass evidence control; no old
+row changes. BI1's arbitrary-smooth operator, not its homogeneous restriction,
+feeds BG2. HB2/HB3 and BI2/BI3 remain UNPROMOTED. The separately authorized
+closed-fibre persistence campaign is ACTIVE; all its NEW results remain UNPROMOTED.
+No physical identification, stability, new premise, canon or fixed-manuscript change.
 
 ## Foundational and adopted layer
 
@@ -157,7 +167,8 @@ completed three reviewed steps: source map, full initial Ricci-line drift and
 conditional local closed/nonclosed curve structure. The new HB2/HB3 results
 remain UNPROMOTED with their strict family/domain and imported-method limits;
 see `udt_hopfion_bridge_stability_reassessment_2026-09-08/DECISION_BRIEF.md`.
-No physical adoption, further promotion, fourth step or automatic successor.
+No physical adoption or fourth step in that completed Hopfion campaign. Current
+banking and the separately authorized closed-fibre successor are scoped above.
 
 | Object | Status | Guard |
 |---|---|---|

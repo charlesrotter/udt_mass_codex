@@ -1,0 +1,11 @@
+udt_g337_double_silent_third_normal_ownership_2026-09-03/EXACT_DERIVATION.md: OK
+udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md: OK
+udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md: OK
+udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/REVIEWED_RESULT.md: OK
+udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md: OK
+udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_check.py: OK
+udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stdout: OK
+udt_berger_global_constraint_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md: OK
+udt_berger_global_constraint_campaign_2026-09-08/step_01/REVIEWED_RESULT.md: OK
+udt_berger_global_constraint_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md: OK
+udt_berger_global_constraint_campaign_2026-09-08/step_01/review/REVIEW_DISPOSITION.json: OK

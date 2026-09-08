@@ -1,0 +1,26 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/check_bi1.py",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_02.stdout",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_01/check_baseline.stdout",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/check_bg2.py",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/check_baseline.stdout",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/inherited_fulltensor_replay.stdout",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/REVIEW_REPORT.md"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T20:27:45.574330+00:00",
+  "duration_seconds": 0.002671915019163862,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7432
+}

@@ -77,7 +77,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
 
-Authority: the exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G375. Use `INDEX.md` for
+Authority: the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G378. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -230,7 +230,7 @@ BI1 gives the full first-normal image/projector criterion and lawful homogeneous
 BI2 gives actual homogeneous local branch/circle preservation, with direct unaveraged
 quotient-metric preservation iff horizontal shear vanishes. BI3 realizes local analytic
 inhomogeneous constraint data with nonzero line drift; no global compact extension follows.
-All remain reviewed conditional UNPROMOTED candidates. Full reviews retain harness caveats;
+Original candidates retain their UNPROMOTED history. Full reviews retain harness caveats;
 BI2's one fresh focused review clears isolation without erasing its original exposure.
 Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
 analytic/local-method restrictions and no physical-stability/scale inference remain.
@@ -241,11 +241,20 @@ with trace determined rather than additionally fixed; baseline-mean fixing is ri
 BG2 gives arbitrary-small GLOBAL lawful data with nonzero full marked Ricci-line
 drift at any marked point of each fixed nonround Berger background. Actual short
 normal-time departure remains conditional on the smooth marked Cauchy method.
-Both are VERIFIED-WITH-CAVEATS, UNPROMOTED: retain h!=0, compact boundary-free
+Both original candidates are VERIFIED-WITH-CAVEATS; retain h!=0, compact boundary-free
 domain, small-data/method restrictions, full tensor and all review caveats.
 Three actual symbol-only false passes and the reviewer assembly repair stay.
 No orbit-closure/fibration-loss, topology-change, physical-stability or scale claim.
-HB2/HB3, BI1--BI3 and BG1--BG2 banking remain unauthorized; no new campaign is authorized.
+Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisite),
+G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+`udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
+`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+It tests smooth Hopf-fibration equivalence under supplied normal marking on
+ACTUAL global constraint data/developments, not first drift or homotopy alone.
+New campaign results remain UNPROMOTED; no physical stability or carrier adoption.
+Beyond this explicitly approved scope, no new campaign is authorized.
 Execution/publication receipts own closure; prior evidence remains unchanged.
 Carrier/action/boundary/evolution adoption remains unauthorized.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.

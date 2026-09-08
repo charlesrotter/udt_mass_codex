@@ -1,0 +1,15 @@
+{
+  "command": [
+    "sha256sum",
+    "-c",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/SOURCE_PINS_SHA256SUMS"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T20:26:44.359955+00:00",
+  "duration_seconds": 0.0017213209939654917,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7560
+}

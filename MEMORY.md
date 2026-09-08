@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -16,14 +16,20 @@ The separate Berger initial-data campaign completed three reviewed conditional s
 BI1: lawful homogeneous K census/full first-normal criterion. BI2: local circles persist
 throughout that class; direct quotient metric needs zero horizontal shear. BI3: lawful
 local analytic spatial variation can move the line; that prescribed seed was not glued globally.
-BI1--BI3 remain UNPROMOTED, with all source/method/domain/review caveats and no physical
+Original BI1--BI3 evidence remains unchanged, with all source/method/domain/review caveats and no physical
 stability or scale claim. One fresh BI2 focused review cleared isolation; old exposure stays.
 The separate global-data successor completed TWO reviewed conditional steps:
 `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`.
 BG1: small global TT data lift to exact nonlinear constraints with free trace.
 BG2: arbitrary-small global lawful data can move the marked Ricci line at any
 point of each fixed nonround background. No closure, topology or stability inference.
-All remain UNPROMOTED with full reviews/false passes; no physical adoption or banking.
+Charles authorizes exact-scope G376=BI1 (required prerequisite), G377=BG1 and
+G378=BG2 conditional banking; exact gate receipts are recorded in
+`udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+HB2/HB3 and BI2/BI3 remain UNPROMOTED; no physical adoption.
+The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
+`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+NEW results remain UNPROMOTED; exact closure/fibration, not just first drift.
 
 The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
 conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal
@@ -87,9 +93,11 @@ Optional source-model branch PAUSED. The core vacuum/common-scale campaign retur
 two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md.
 VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
 Integration gates remain in the banking package; the bounded Hopfion successor is complete.
-No fourth step in that completed campaign or new banking is authorized.
+No fourth step in that completed Hopfion campaign is authorized. New banking is
+limited to the currently approved G376--G378 dependency-closed scope below.
 The Berger initial-data and two-step global-constraint campaigns above are complete.
-Banking remains a separate decision; no new campaign is authorized. LIVE owns current state.
+Authorized dependency-closed banking and the new closed-fibre campaign are scoped
+above; no broader campaign or physical adoption. LIVE owns current state.
 G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.

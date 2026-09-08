@@ -1,10 +1,14 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
-- Completed two-step Berger global-constraint campaign; BG1/BG2 UNPROMOTED:
+- G376=BI1 required-prerequisite / G377=BG1 / G378=BG2 authorized conditional banking:
+  `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`; exact gates in its execution record.
+- ACTIVE closed-fibre persistence campaign, NEW results UNPROMOTED:
+  `udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+- Completed two-step Berger global-constraint campaign; original evidence unchanged:
   `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`;
   per-step REVIEWED_RESULT files pin entire reviews and retained false-pass evidence.
 
-- Completed three-step Berger initial-data campaign; BI1--BI3 UNPROMOTED:
+- Completed three-step Berger initial-data campaign; BI2/BI3 remain UNPROMOTED:
   `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`;
   per-step REVIEWED_RESULT files pin full reviews; CAMPAIGN_LOG and publication receipt own closure.
 
@@ -22,7 +26,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 358-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
