@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "conserved_phase_dependent_counterexample": true,
+    "expanding_flat_tube_conservation": true,
+    "full_adapted_determinant": true,
+    "full_covector_inverse": true,
+    "measure_rescaling_not_gauge": true,
+    "mutation_missing_area_rejected": true,
+    "mutation_missing_spacing_rejected": true,
+    "mutation_readout_sign_rejected": true,
+    "negative_chart_jacobian_ratio": true,
+    "observer_readout": true,
+    "observer_span_anchor": true,
+    "observer_unit": true,
+    "phase_spacing_gauge": true,
+    "positive_label_jacobian_ratio": true
+  },
+  "kind": "same-author finite exact anchors, not independent proof",
+  "passed": 14,
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

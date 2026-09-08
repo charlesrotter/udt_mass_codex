@@ -1,0 +1,221 @@
+{
+  "arithmetic": "stdlib fractions.Fraction exact rational",
+  "checks": [
+    "metric_jet_0_ricci_symmetry",
+    "metric_jet_0_hamiltonian",
+    "metric_jet_0_momentum",
+    "metric_jet_0_spatial_evolution",
+    "metric_jet_1_ricci_symmetry",
+    "metric_jet_1_hamiltonian",
+    "metric_jet_1_momentum",
+    "metric_jet_1_spatial_evolution",
+    "metric_jet_4_ricci_symmetry",
+    "metric_jet_4_hamiltonian",
+    "metric_jet_4_momentum",
+    "metric_jet_4_spatial_evolution",
+    "metric_jet_7_ricci_symmetry",
+    "metric_jet_7_hamiltonian",
+    "metric_jet_7_momentum",
+    "metric_jet_7_spatial_evolution",
+    "q_null",
+    "cross_null_normalization",
+    "second_null",
+    "frame_0_scalar",
+    "frame_0_same_null",
+    "frame_0_mixed_null",
+    "frame_0_complementary_null",
+    "frame_0_observer_Ricci",
+    "frame_0_tracefree_nilpotence",
+    "frame_0_Ricci_square",
+    "frame_0_normal_source",
+    "frame_0_momentum_source",
+    "residual_defined_tautology",
+    "frame_1_scalar",
+    "frame_1_same_null",
+    "frame_1_mixed_null",
+    "frame_1_complementary_null",
+    "frame_1_observer_Ricci",
+    "frame_1_tracefree_nilpotence",
+    "frame_1_Ricci_square",
+    "frame_1_normal_source",
+    "frame_1_momentum_source",
+    "frame_2_scalar",
+    "frame_2_same_null",
+    "frame_2_mixed_null",
+    "frame_2_complementary_null",
+    "frame_2_observer_Ricci",
+    "frame_2_tracefree_nilpotence",
+    "frame_2_Ricci_square",
+    "frame_2_normal_source",
+    "frame_2_momentum_source",
+    "frame_3_scalar",
+    "frame_3_same_null",
+    "frame_3_mixed_null",
+    "frame_3_complementary_null",
+    "frame_3_observer_Ricci",
+    "frame_3_tracefree_nilpotence",
+    "frame_3_Ricci_square",
+    "frame_3_normal_source",
+    "frame_3_momentum_source"
+  ],
+  "checks_passed": 56,
+  "python": "3.10.12",
+  "red_paths": [
+    {
+      "name": "reversed_normal_projection",
+      "residual": [
+        "18/77"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "reversed_momentum_projection",
+      "residual": [
+        "-391/539",
+        "-1047/1078",
+        "-101/154"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "wrong_spatial_Ricci_sign",
+      "residual": [
+        "723/1078",
+        "-629/1078",
+        "-293/539",
+        "-629/1078",
+        "179/154",
+        "-9/539",
+        "-293/539",
+        "-9/539",
+        "-515/539"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "failed_metric_term_absorption",
+      "residual": [
+        "-8/5"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "same_null_erasure_false_pass",
+      "residual": [
+        "-35/9"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "clock_rate_mistaken_for_tensor_readout",
+      "residual": [
+        "-5197/120"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "tautology_does_not_match_independent_class",
+      "residual": [
+        "29149/840",
+        "-175/8",
+        "-175/6",
+        "0",
+        "-175/8",
+        "4167/280",
+        "35/2",
+        "0",
+        "-175/6",
+        "35/2",
+        "5269/210",
+        "0",
+        "0",
+        "0",
+        "0",
+        "123/70"
+      ],
+      "status": "RED"
+    }
+  ],
+  "values": {
+    "frame_0": {
+      "G352_Gamma": "25/4",
+      "P_N_N": "-4447/120",
+      "Ric_N_N": "-32101/1260",
+      "Ric_ell_ell": "0",
+      "Ric_ell_k": "-41/35",
+      "Ric_k_k": "-35/9",
+      "beta": "-35/9",
+      "lambda_eff": "41/35"
+    },
+    "frame_1": {
+      "G352_Gamma": "35/8",
+      "P_N_N": "557/16",
+      "Ric_N_N": "-2433/32",
+      "Ric_ell_ell": "0",
+      "Ric_ell_k": "6",
+      "Ric_k_k": "-105/8",
+      "beta": "-105/8",
+      "lambda_eff": "-6"
+    },
+    "frame_2": {
+      "G352_Gamma": "5/2",
+      "P_N_N": "23/2",
+      "Ric_N_N": "-3",
+      "Ric_ell_ell": "0",
+      "Ric_ell_k": "-3",
+      "Ric_k_k": "0",
+      "beta": "0",
+      "lambda_eff": "3"
+    },
+    "frame_3": {
+      "G352_Gamma": "5",
+      "P_N_N": "3",
+      "Ric_N_N": "-6",
+      "Ric_ell_ell": "0",
+      "Ric_ell_k": "-6",
+      "Ric_k_k": "0",
+      "beta": "0",
+      "lambda_eff": "6"
+    },
+    "jet_0": {
+      "H": "9/77",
+      "M": [
+        "-391/1078",
+        "-1047/2156",
+        "-101/308"
+      ],
+      "R": "-536/539",
+      "Ric00": "599/1078"
+    },
+    "jet_1": {
+      "H": "115/1078",
+      "M": [
+        "-124/539",
+        "-71/308",
+        "-48/539"
+      ],
+      "R": "-1004/539",
+      "Ric00": "193/196"
+    },
+    "jet_4": {
+      "H": "445/1078",
+      "M": [
+        "-29/1078",
+        "733/2156",
+        "677/2156"
+      ],
+      "R": "-365/539",
+      "Ric00": "1175/2156"
+    },
+    "jet_7": {
+      "H": "129/154",
+      "M": [
+        "1163/2156",
+        "1415/2156",
+        "47/1078"
+      ],
+      "R": "709/1078",
+      "Ric00": "97/1078"
+    }
+  }
+}

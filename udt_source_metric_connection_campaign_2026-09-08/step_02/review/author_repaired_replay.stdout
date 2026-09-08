@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "chain_transport_coefficient": true,
+    "extra_transported_scalar_not_constant": true,
+    "first_stabilizer_constraint": true,
+    "full_stabilizer_sufficiency": true,
+    "linear_density_sufficient": true,
+    "mutation_quadratic_expansion_rejected": true,
+    "mutation_untransported_weight_rejected": true,
+    "null_rotation_covector": true,
+    "null_rotation_metric": true,
+    "quadratic_false_pass_on_zero_expansion": true,
+    "ratio_ode_equivalence": true,
+    "remaining_matrix_form": true,
+    "second_stabilizer_constraint": true,
+    "variable_metric_coefficient_rejected": true
+  },
+  "kind": "same-author exact anchors and mutations; not independent proof",
+  "passed": 14,
+  "python": "3.10.12",
+  "sympy": "1.13.1"
+}

@@ -1,0 +1,90 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "method": "full Christoffel contraction on outgoing spherical tube; exact arithmetic",
+  "checks": [
+    {
+      "name": "general_adapted_metric_determinant",
+      "passed": true,
+      "detail": "-q11*q22 + q12**2"
+    },
+    {
+      "name": "future_null_gradient",
+      "passed": true,
+      "detail": "[0, 1, 0, 0]"
+    },
+    {
+      "name": "affine_generator",
+      "passed": true,
+      "detail": "[0, 0, 0, 0]"
+    },
+    {
+      "name": "expanding_tube_not_parallel",
+      "passed": true,
+      "detail": "2/radius"
+    },
+    {
+      "name": "current_covariant_divergence",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "future_unit_timelike_observer",
+      "passed": true,
+      "detail": "-1"
+    },
+    {
+      "name": "observer_readout",
+      "passed": true,
+      "detail": "(-sin(alpha) + 2/sin(alpha))*(sin(beta) + 2)**2/(delta*radius**2)"
+    },
+    {
+      "name": "observer_screen_metric",
+      "passed": true,
+      "detail": "Matrix([[radius**2, 0], [0, radius**2*sin(alpha)**2]])"
+    },
+    {
+      "name": "observer_screen_orthogonality",
+      "passed": true,
+      "detail": "zero contractions"
+    },
+    {
+      "name": "phase_dependent_conserved_control",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "fixed_product_control_actually_fails",
+      "passed": true,
+      "detail": "25/2"
+    },
+    {
+      "name": "missing_area_mutation_detected",
+      "passed": true,
+      "detail": "5/6"
+    },
+    {
+      "name": "phase_and_spacing_gauge",
+      "passed": true,
+      "detail": "[0, (sin(beta) + 2)**2*(cos(alpha)**2 + 1)/(delta*radius**2*sin(alpha)), 0, 0]"
+    },
+    {
+      "name": "fixed_label_density_gauge",
+      "passed": true,
+      "detail": "[0, (sin(beta) + 2)**2*(cos(alpha)**2 + 1)/(delta*radius**2*sin(alpha)), 0, 0]"
+    },
+    {
+      "name": "phase_only_is_not_gauge",
+      "passed": true,
+      "detail": "nonzero difference 5/36 at b=2"
+    },
+    {
+      "name": "amplitude_is_not_gauge",
+      "passed": true,
+      "detail": "doubling supplied measure doubles current"
+    }
+  ],
+  "passed": 16,
+  "total": 16,
+  "interpretation": "finite diagnostic/regression only"
+}

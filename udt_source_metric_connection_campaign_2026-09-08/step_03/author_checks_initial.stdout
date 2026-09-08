@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "complementary_null_signal": true,
+    "constant_metric_term_absorption": true,
+    "eikonal_spatial_data": true,
+    "hamiltonian_density_factor": true,
+    "hamiltonian_full_geometry": true,
+    "mixed_null_scalar": true,
+    "momentum_density_factor": true,
+    "momentum_full_geometry": true,
+    "nonzero_momentum_anchor": true,
+    "null_frame_normalization": true,
+    "readout_tensor_weight_distinct": true,
+    "same_null_blindness": true,
+    "time_symmetric_nonzero_source_rejected": true,
+    "trace_relation": true,
+    "tracefree_bianchi_coefficient": true,
+    "vacuum_not_nonzero_coupling": true,
+    "wrong_codazzi_sign_rejected": true
+  },
+  "kind": "same-author exact identities/finite controls, not coupled existence",
+  "passed": 17,
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "values": {
+    "hamiltonian_full_geometry": "2*(-t**2 + x**2)/(t**2*x**2 + 2*t*x + 1)",
+    "momentum_full_geometry": "Matrix([[2/(t*x + 1)], [0], [0]])",
+    "nonzero_momentum_anchor": "2/(t*x + 1)"
+  }
+}

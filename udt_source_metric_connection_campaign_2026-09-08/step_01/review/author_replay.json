@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_source_metric_connection_campaign_2026-09-08/step_01/check_current.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T01:44:25.842083+00:00",
+  "duration_seconds": 0.24425932700978592,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 47176
+}

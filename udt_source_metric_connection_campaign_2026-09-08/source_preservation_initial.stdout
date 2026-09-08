@@ -1,0 +1,27 @@
+{
+  "backup_completeness": "UNVERIFIED",
+  "baseline": "cc71a324a61bf2711a4b52c8ebee8a8e4d9b8269",
+  "checks": {
+    "grok": true,
+    "no_frozen_source_or_manuscript_changes": true,
+    "source_pin:G312 adoption": true,
+    "source_pin:G313": true,
+    "source_pin:G315": true,
+    "source_pin:G348": true,
+    "source_pin:G349": true,
+    "source_pin:G351": true,
+    "source_pin:G352": true,
+    "source_pin:G353-G356 bank": true,
+    "source_pin:capture utility": true,
+    "tracked_change_scope": true,
+    "unrelated_untracked_count": true,
+    "unrelated_untracked_name_hash": true
+  },
+  "head": "cc71a324a61bf2711a4b52c8ebee8a8e4d9b8269",
+  "host_wide_process_inventory": "UNVERIFIED",
+  "kind": "source correspondence and names-only preservation; not proof",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "protected_payloads": "NOT_INSPECTED",
+  "unrelated_names_sha256": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "unrelated_untracked_count": 46
+}

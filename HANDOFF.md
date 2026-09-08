@@ -135,8 +135,14 @@ sharp norm-budget readout intervals and a supplied arm-transfer bound. These are
 changes or actual-product/UDT no-go results. Complete target-level response/support control remains
 OPEN; RD2 was NOT STARTED. No new strain/event samples or existing33 development records were
 opened. The fresh349 audit passed; premises/canon/fixed-snapshot manuscript remain unchanged.
-This particular procedure is parked at its design gate. Next is Charles's choice on a justified
-bounded-data/measurement-error bridge or another route; no new campaign is authorized.
+This particular GW procedure remains parked at its design gate.
+The theory-first source–metric connection campaign completed its3 reviewed scientific steps:
+`udt_source_metric_connection_campaign_2026-09-08/DECISION_BRIEF.md`; compact evidence/status in its CAMPAIGN_LOG.md.
+SM1 gives a regular4D conserved current; SM2 constrains an OPTIONAL algebraic tensor class;
+SM3 gives metric-data/curvature consequences only under an UNADOPTED source comparison.
+All are reviewed conditional CANDIDATES, NOT_BANKED; physical identification and source-response
+closure remain OPEN. No accepted grade, premise, canon or fixed-snapshot manuscript changed;
+no observations or coupled solve. Next is Charles's banking/direction decision; no new campaign is authorized.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Ordinary initial/query data need not be uniquely selected; instrument identification

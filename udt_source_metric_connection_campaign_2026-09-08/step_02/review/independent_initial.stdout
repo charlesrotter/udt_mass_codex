@@ -1,0 +1,43 @@
+{
+  "checks": [
+    "stabilizer_generators_lorentz",
+    "stabilizer_generators_fix_covector",
+    "full_stabilizer_nullity_two",
+    "metric_and_null_square_invariant",
+    "rotation_only_false_pass_has_four_parameters",
+    "preferred_time_mutant_passes_rotation_only",
+    "preferred_time_mutant_rejected_by_null_rotation",
+    "spherical_phase_is_null",
+    "spherical_phase_affine",
+    "spherical_expansion",
+    "spherical_product_current_conserved",
+    "full_cartesian_divergence_matches_general_reduction",
+    "classified_tensor_spherical_divergence_zero",
+    "quadratic_density_mutant_rejected_on_expansion",
+    "quadratic_density_exact_expected_divergence",
+    "quadratic_density_mutant_passes_parallel_family",
+    "variable_metric_coefficient_rejected",
+    "parallel_family_isolates_A_derivative",
+    "extra_scalar_transported",
+    "extra_transport_data_tensor_conserved",
+    "nontransported_scalar_mutant_rejected",
+    "nontransported_scalar_full_residual",
+    "phase_and_spacing_gauge_invariant",
+    "phase_only_scaling_is_not_gauge",
+    "measure_scaling_changes_tensor_null_part"
+  ],
+  "count": 25,
+  "evidence": "exact symbolic diagnostics",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "values": {
+    "full_stabilizer_nullity_two": "2",
+    "nontransported_scalar_mutant_rejected": "Matrix([[1], [1/3], [2/3], [2/3]])",
+    "preferred_time_mutant_rejected_by_null_rotation": "Matrix([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "quadratic_density_mutant_rejected_on_expansion": "Matrix([[-2/3], [-2/9], [-4/9], [-4/9]])",
+    "rotation_only_false_pass_has_four_parameters": "4",
+    "spherical_expansion": "2/sqrt(x**2 + y**2 + z**2)",
+    "spherical_product_current_conserved": "0",
+    "variable_metric_coefficient_rejected": "Matrix([[0], [1], [0], [0]])"
+  }
+}
