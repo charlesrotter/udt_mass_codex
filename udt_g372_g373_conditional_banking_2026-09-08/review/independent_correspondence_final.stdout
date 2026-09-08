@@ -1,0 +1,23 @@
+{
+  "baseline": "180c1a114bf80f953752c8d6e8ecabcf61626ee9",
+  "in_memory_guard_catches": {
+    "new_row_duplicated": {
+      "caught": "duplicate registry ID"
+    },
+    "old_row_modified": {
+      "caught": "earlier registry bytes changed"
+    },
+    "source_payload_modified": {
+      "caught": "original campaign byte change"
+    }
+  },
+  "only_added_registry_ids": [
+    "G372",
+    "G373"
+  ],
+  "original_campaign_files": 81,
+  "prior_registry_rows_unchanged": 354,
+  "protected_payloads_accessed": false,
+  "registry_current_sha256": "af5918070b387320f6b53b561707c17474400e78bd4c947617931218a1d2e18a",
+  "verdict": "PASS_BYTE_CORRESPONDENCE_NOT_SCIENTIFIC_PROOF"
+}

@@ -8,7 +8,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 
@@ -91,7 +91,12 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
   `udt_optional_coupled_development_campaign_2026-09-08/WORK_ORDER.md`;
   its `CAMPAIGN_LOG.md` owns step/review state, not scientific grades;
   `DECISION_BRIEF.md` owns the conditional result/next decision and
-  `COMPLETION_RECORD.md` records delivery/preservation gates. CD1--CD2 NOT_BANKED.
+  `COMPLETION_RECORD.md` preserves the original delivery/preservation gates and then-NOT_BANKED state.
+- G372--G373 owner-authorized exact-scope conditional banking of CD1--CD2:
+  `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+  its `EXECUTION_RECORD.md` owns promotion completion. Three vacuous checks stay excluded.
+  Optional source-model branch PAUSED. `NEXT_CAMPAIGN_PROPOSAL.md` proposes a core
+  vacuum/common-scale constraint campaign; it is not authorized or begun.
 
 ## Retained comparison and observational lanes
 

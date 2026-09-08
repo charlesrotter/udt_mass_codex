@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 ## Foundational and adopted layer
@@ -59,6 +59,21 @@ center, or scale. Strong local CSN is `CHALLENGED_OWNER_POSTULATE_NOT_DERIVED` a
 | G369 | Optional unadopted constant source comparison: curvature/initial constraints, not physical closure or coupled existence |
 | G370 | Local optional nonzero Ricci reconstruction iff list and all increasing-phase decompositions; no minimality or physical source law |
 | G371 | Full ambient-covector fixed-product matching and fixed/free phase-label-measure classification; no coupled independent-data evolution |
+| G372 | Every smooth seed in the restricted initial-data family solves all four constraints and the initial product; no CD1 ambient development |
+| G373 | LOCAL REAL ANALYTIC joint development, analytic geometric uniqueness and original-product propagation; not smooth well-posedness or stability |
+
+G372--G373 carry Charles's exact-scope conditional banking authority for CD1--CD2:
+`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Its EXECUTION_RECORD.md owns promotion gate completion. ENTIRE original candidates,
+results, reviews and execution caveats control; all original bytes remain unchanged.
+THREE vacuous author product checks are EXCLUDED from supporting evidence.
+The source law stays OPTIONAL and UNADOPTED; the restricted initial-data family,
+local REAL ANALYTIC method limit and analytic-category uniqueness remain explicit.
+CD1's unwrapped duplicate review-audit omission and CD2's partial implementation
+independence/exposure remain disclosed. Models UNKNOWN; different-model review UNTESTED.
+The optional source-model branch is PAUSED. No physical identification, UDT selection,
+smooth well-posedness, stability, earlier-grade, canon or fixed-manuscript change.
+The core vacuum/common-scale campaign is PROPOSAL ONLY, awaiting Charles's direction.
 
 G370--G371 are Charles-authorized conditional banking of RT1--RT2 at exactly
 their reviewed scopes: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.

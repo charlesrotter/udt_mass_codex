@@ -2,7 +2,7 @@
 
 Date: 2026-09-08
 
-`LIVE.md` controls status; the exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -46,6 +46,7 @@ connected scalar. None supplies population, realized history, matter, absolute s
 | G364--G366 | Conditional tangent/exact recipe departure, local recurrent-root necessity and fixed-product functional freedom | Genericity, all-isometry census, physical identification or instrument law |
 | G367--G369 | Conditional full-tube current, optional tensor-class restriction and source-comparison/data interface | Admitted physical source law, content identity or coupled existence |
 | G370--G371 | Conditional optional nonzero reconstruction and full-covector fixed/free product-data compatibility | Admitted nonvacuum extension, physical source selection or independently supplied-data coupled evolution |
+| G372--G373 | Conditional restricted independent initial data and LOCAL ANALYTIC joint development with original product | Smooth well-posedness, stability, physical content or UDT source selection; optional branch PAUSED |
 
 The active evaluator is `udt_uncompressed_pair_kernel_reconstruction_2026-08-14/`. G190--G198 are
 formula-level regression and provenance controls excluding G116/G189, P1, fitted kernels,
@@ -198,17 +199,20 @@ The optional NONZERO comparison is NOT an admitted extension of G312's bounded v
 Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
 Completed G369 source assessment is reused: the examined admitted fragment does not select
 this source law. Reconstruction from a metric is not independent-data coupled evolution.
-The authorized OPTIONAL coupled-data/development assessment has reached its two-reviewed-step stop:
-`udt_optional_coupled_development_campaign_2026-09-08/DECISION_BRIEF.md`; CAMPAIGN_LOG.md records
-history and COMPLETION_RECORD.md owns final delivery checks. CD1 supplies a reviewed conditional
-smooth constrained initial-data family; CD2 supplies its LOCAL REAL ANALYTIC joint development,
-analytic geometric uniqueness and original-product propagation. Both are VERIFIED-WITH-CAVEATS,
-NOT_BANKED; THREE vacuous author product checks are excluded and preserved with false-pass evidence.
-Optional law, chosen product, restricted data/method class and all review caveats remain explicit.
-No smooth well-posedness, stability, physical identification or UDT source derivation follows.
-Charles's next gate is conditional banking/direction; no new campaign is authorized.
-The vacuum-carried alternative remains available; source-response identification is OPEN.
-No physical adoption, observations, accepted-grade, canon or fixed-manuscript change.
+Charles authorizes G372=CD1 and G373=CD2 conditional mathematical banking at EXACT reviewed scopes:
+`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Promotion integration is COMPLETE after full356 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+CD1 supplies a restricted smooth constrained initial-data family; CD2 supplies LOCAL REAL ANALYTIC
+joint development, analytic geometric uniqueness and original-product propagation, VERIFIED-WITH-CAVEATS.
+THREE vacuous author product checks remain EXCLUDED from evidence; original candidate/review bytes stay fixed.
+Optional source law, chosen product, restricted family and method/review limitations remain explicit.
+No smooth well-posedness, stability, physical identification or selection by UDT follows.
+The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
+The proposed core vacuum/common-scale campaign is PROPOSAL ONLY:
+`udt_g372_g373_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
+Charles's direction decision is next; no new campaign is authorized.
+No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 This instrument-specific evidence gap does not block geometric or emergence research.
 The G352 physical-realization gap does not imply that a new physical premise is necessary.

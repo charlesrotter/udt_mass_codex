@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -54,11 +54,17 @@ is not independently supplied-data coupled evolution. Current direction proposal
 `udt_g370_g371_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
 Charles approved its two-step/four-hour optional coupled-development campaign:
 `udt_optional_coupled_development_campaign_2026-09-08/CAMPAIGN_LOG.md`.
-CD1--CD2 reached the two-reviewed-step stop: smooth initial data, then LOCAL
-ANALYTIC joint development/original-product propagation; both conditional,
-NOT_BANKED. Three vacuous author product checks are excluded and preserved.
-See its DECISION_BRIEF.md and COMPLETION_RECORD.md; banking/direction requires
-Charles, with no automatic successor campaign or physical adoption. LIVE wins.
+CD1--CD2 reached the two-reviewed-step stop; Charles authorizes exact-scope
+conditional banking as G372--G373:
+`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
+its EXECUTION_RECORD owns promotion completion. All original evidence remains fixed.
+Restricted smooth initial data, then LOCAL REAL ANALYTIC joint development and
+original-product propagation; three vacuous author product checks remain EXCLUDED.
+Optional law, restricted family, analytic-only uniqueness and all review limits survive.
+No smooth well-posedness, stability, physical identification or UDT selection follows.
+Optional source-model branch PAUSED. Its newbank NEXT_CAMPAIGN_PROPOSAL.md proposes
+a core vacuum/common-scale constraint question only; Charles's direction is next.
+G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
 The central manuscript remains the fixed through-G352 edition, not current tracking.

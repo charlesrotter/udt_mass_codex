@@ -1,0 +1,60 @@
+{
+  "final_full_audit_receipts": {
+    "full356.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full356.stdout": "99ec8ccceb6f850e8dc8188299594eb6413890e0e6492767ef580b4766fd3cb6",
+    "full356.time": "3d9d631d870a4bb5a345132e23f09f90b2c52baa4c7493db5cd140979e85a4ed"
+  },
+  "parent_final_focused_result": "PASS_356_ROWS_11_EXPECTED_MUTANTS",
+  "publication_checked": false,
+  "targets": {
+    "AGENTS.md": {
+      "current_sha256": "322d867b49fdd6254e4f671ce8b100c56d6b4709035e37dec22259ecdb7af07c",
+      "only_completion_sentence_changed": false
+    },
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "current_sha256": "ce10e0f17cf9edfd93389389fe46f42cdfa20f6cdea56903fb0121e0b64eb140",
+      "only_completion_sentence_changed": true
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.md": {
+      "current_sha256": "bb8989fcccfc00dcd5af7a2a1a429715ee4c0200c3565622dfea3f077ad3517c",
+      "only_completion_sentence_changed": false
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "current_sha256": "af5918070b387320f6b53b561707c17474400e78bd4c947617931218a1d2e18a",
+      "only_completion_sentence_changed": false
+    },
+    "HANDOFF.md": {
+      "current_sha256": "c96d71c2ff98b97989e3423b9e4eee8ad642c913ac26b6b4359b9941c71fa04c",
+      "only_completion_sentence_changed": true
+    },
+    "INDEX.md": {
+      "current_sha256": "d9a27e7ae7d8ee7bc9df4060051e35a492210e3c9bda50e40aac6085b1899f36",
+      "only_completion_sentence_changed": false
+    },
+    "LIVE.md": {
+      "current_sha256": "bcccc12549ab6106f0410a3342208a656d4baf1ae6b49708cd1bf611e595960e",
+      "only_completion_sentence_changed": true
+    },
+    "MEMORY.md": {
+      "current_sha256": "0e1872f1dcc46e3d606ceb011e4830caa5492f6bebe4225b6c36c58264668c6f",
+      "only_completion_sentence_changed": false
+    },
+    "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md": {
+      "current_sha256": "45f774b2393f81c2d84754be57cd35db88301b9c281ea53be1a07e82a7bfacbe",
+      "only_completion_sentence_changed": false
+    },
+    "udt_g372_g373_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md": {
+      "current_sha256": "08f3d07b9b92926cd686aa0cfafa13d48fd99dc9381f0f82daf7977527d08962",
+      "only_completion_sentence_changed": false
+    },
+    "udt_g372_g373_conditional_banking_2026-09-08/check_banking.py": {
+      "current_sha256": "2236e30b62b083f5f894658b30a3d634a73c4d958ae9b9a79d831e94e6a13375",
+      "only_completion_sentence_changed": false
+    },
+    "verify_current_scientific_premises.py": {
+      "current_sha256": "cb14a18ff6843b3f9224eaffb99f7cbfe0121b0d13ac3f1d7b554401fb41a929",
+      "only_completion_sentence_changed": false
+    }
+  },
+  "verdict": "PASS_EXACT_COMPLETION_DELTA_AND_RECEIPT_CORRESPONDENCE"
+}

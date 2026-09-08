@@ -77,7 +77,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
 
-Authority: the exact 354-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G371. Use `INDEX.md` for
+Authority: the exact 356-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G373. Use `INDEX.md` for
 current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
 startup surfaces.
 
@@ -200,17 +200,20 @@ The optional NONZERO comparison is NOT an admitted extension of G312's bounded v
 Fixed/free data distinctions and FULL ambient-neighborhood covector closure remain controlling.
 Completed G369 source assessment is reused: the examined admitted fragment does not select
 this source law. Reconstruction from a metric is not independent-data coupled evolution.
-The authorized OPTIONAL coupled-data/development assessment has reached its two-reviewed-step stop:
-`udt_optional_coupled_development_campaign_2026-09-08/DECISION_BRIEF.md`; CAMPAIGN_LOG.md records
-history and COMPLETION_RECORD.md owns final delivery checks. CD1 supplies a reviewed conditional
-smooth constrained initial-data family; CD2 supplies its LOCAL REAL ANALYTIC joint development,
-analytic geometric uniqueness and original-product propagation. Both are VERIFIED-WITH-CAVEATS,
-NOT_BANKED; THREE vacuous author product checks are excluded and preserved with false-pass evidence.
-Optional law, chosen product, restricted data/method class and all review caveats remain explicit.
-No smooth well-posedness, stability, physical identification or UDT source derivation follows.
-Charles's next gate is conditional banking/direction; no new campaign is authorized.
-The vacuum-carried alternative remains available; source-response identification is OPEN.
-No physical adoption, observations, accepted-grade, canon or fixed-manuscript change.
+Charles authorizes G372=CD1 and G373=CD2 conditional mathematical banking at EXACT reviewed scopes:
+`udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+Promotion integration is COMPLETE after full356 and fresh fidelity gates; its EXECUTION_RECORD.md owns completion.
+CD1 supplies a restricted smooth constrained initial-data family; CD2 supplies LOCAL REAL ANALYTIC
+joint development, analytic geometric uniqueness and original-product propagation, VERIFIED-WITH-CAVEATS.
+THREE vacuous author product checks remain EXCLUDED from evidence; original candidate/review bytes stay fixed.
+Optional source law, chosen product, restricted family and method/review limitations remain explicit.
+No smooth well-posedness, stability, physical identification or selection by UDT follows.
+The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
+The proposed core vacuum/common-scale campaign is PROPOSAL ONLY:
+`udt_g372_g373_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
+Charles's direction decision is next; no new campaign is authorized.
+No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.
 Do not hide an instrument law in a measurement definition, demand unique initial/query inputs,

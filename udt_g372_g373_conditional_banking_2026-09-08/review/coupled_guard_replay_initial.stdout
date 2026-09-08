@@ -1,0 +1,24 @@
+{
+  "author_mutants_caught": {
+    "analytic_called_smooth": "G373 scope lacks REAL_ANALYTIC_SEEDS_LOCAL_REGULAR_POSITIVE_TUBE_ONLY",
+    "chart_called_law": "G372 scope lacks B_NONZERO_SUFFICIENT_CHART_NOT_NECESSARY_LAW",
+    "duplicate_new_row": "coupled banking must add exactly two distinct rows to 354",
+    "initial_product_replaced": "G373 scope lacks ORIGINAL_PHASE_LABEL_MEASURE_PRODUCT_MATCH_AND_PROPAGATION",
+    "missing_new_row": "coupled banking must add exactly two distinct rows to 354",
+    "old_row_changed": "coupled banking changed an existing scientific registry row",
+    "other_model_claimed": "G373 review independence changed",
+    "physical_grade_substitute": "G373 banking grade changed",
+    "record_exclusion_erased": "coupled banking record lacks THREE EXCLUDED",
+    "uniqueness_all_categories": "G373 scope lacks ANALYTIC_LOCAL_GEOMETRIC_UNIQUENESS_AT_IDENTIFIED_INITIAL_DATA",
+    "vacuous_checks_counted": "G373 scope lacks THREE_VACUOUS_AUTHOR_PRODUCT_CHECKS_EXCLUDED"
+  },
+  "kind": "SHARED_GUARD_REGRESSION_WITH_ACTUAL_REJECTION_PATHS_NOT_SCIENTIFIC_PROOF",
+  "old_guard_or_scientific_replay": false,
+  "positive_new_guard": "PASS",
+  "reviewer_source_mutants_caught": {
+    "false_pass_probe_altered": "coupled frozen evidence changed: udt_optional_coupled_development_campaign_2026-09-08/step_02/review/author_product_assertion_probe.py",
+    "frozen_manifest_altered": "coupled original manifest changed",
+    "original_completion_altered": "coupled original completion receipt changed"
+  },
+  "scratch_scope": "/home/udt-admin/udt_mass_codex/udt_g372_g373_conditional_banking_2026-09-08/review"
+}

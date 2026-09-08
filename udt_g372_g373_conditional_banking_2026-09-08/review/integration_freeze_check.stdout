@@ -1,0 +1,12 @@
+AGENTS.md: OK
+LIVE.md: OK
+HANDOFF.md: OK
+CURRENT_RESEARCH_PROGRAM.md: OK
+CURRENT_SCIENTIFIC_PREMISES.md: OK
+CURRENT_SCIENTIFIC_PREMISES.tsv: OK
+INDEX.md: OK
+MEMORY.md: OK
+verify_current_scientific_premises.py: OK
+udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md: OK
+udt_g372_g373_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md: OK
+udt_g372_g373_conditional_banking_2026-09-08/check_banking.py: OK
