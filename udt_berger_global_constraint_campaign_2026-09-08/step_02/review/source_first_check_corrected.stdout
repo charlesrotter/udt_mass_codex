@@ -1,0 +1,37 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "exact_checks": 17,
+  "checks": [
+    "TT_symbol_trace",
+    "TT_symbol_transverse",
+    "TT_symbol_idempotent",
+    "TT_symbol_annihilates_longitudinal",
+    "full_Ricci_symbol_on_TT",
+    "polarization_TT",
+    "drift_principal_nonzero",
+    "Berger_Ricci_direct",
+    "FULL_tensor_Koszul_vs_uncommuted",
+    "nonzero_mixed_lower_order_anchor",
+    "nonzero_second_mixed_lower_order_anchor",
+    "constant_pure_trace_S_zero",
+    "full_homogeneous_momentum",
+    "projector_commutation_derivative",
+    "projector_idempotency_derivative",
+    "projector_moving_selfadjoint_derivative",
+    "raised_Ricci_mixed_anchor"
+  ],
+  "mutations": {
+    "Ricci_variation_sign": "CAUGHT",
+    "dropped_derivative_index_connection": "CAUGHT",
+    "dropped_inverse_metric_term": "CAUGHT",
+    "TT_projection_wrong_sign": "CAUGHT",
+    "missing_projector_metric_dual_term": "CAUGHT"
+  },
+  "principal_polarization": "Matrix([[0, 0, 1], [0, 0, 0], [1, 0, 0]])",
+  "principal_frequency": "Matrix([[0], [1], [0]])",
+  "principal_drift_numerator": "Matrix([[-1], [0], [0]])",
+  "full_direct_S": "Matrix([[-2*p**2*u + 2*p**2*v - q**2*v + q**2*w, -4*b*p**2 + b*q**2, -2*c*p*q - c*q**2], [-4*b*p**2 + b*q**2, 2*p**2*u - 2*p**2*v - q**2*u + q**2*w, -2*d*p*q - d*q**2], [-2*c*p*q - c*q**2, -2*d*p*q - d*q**2, q**2*u + q**2*v - 2*q**2*w]])",
+  "full_raised_Bdot": "Matrix([[-2*p**2*u + 2*p**2*v + 2*p*q*u - q**2*u - q**2*v + q**2*w, -4*b*p**2 + 2*b*p*q, -2*c*p*q], [-4*b*p**2 + 2*b*p*q, 2*p**2*u - 2*p**2*v + 2*p*q*v - q**2*u - q**2*v + q**2*w, -2*d*p*q], [-2*c*q**2, -2*d*q**2, q**2*u + q**2*v - q**2*w]])",
+  "scope": "exact algebra anchors, not global elliptic/IFT certification"
+}

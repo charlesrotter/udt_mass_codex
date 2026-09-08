@@ -1,0 +1,30 @@
+{
+  "completed_utc": "2026-09-08T19:54:16.827099+00:00",
+  "all_source_first_and_author_pins_unchanged": true,
+  "review_report_sha256": "56a16d21ca942d39684eb6f887ba89b372fbbb867d83404f562d9bd946b7b0b8",
+  "machine_disposition_sha256": "120244ccf9c78fa1d2a1fc528aad7ddee65b48cdf894867ea7d6e6b118abdde8",
+  "review_sha256": {
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/PRESEAL_FAILURE.md": "d298957a1d9395cdc3e4a8c31eb9e8dd7ddb92534af41dce678874562cac428c",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/REVIEW_DISPOSITION.json": "120244ccf9c78fa1d2a1fc528aad7ddee65b48cdf894867ea7d6e6b118abdde8",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/REVIEW_REPORT.md": "56a16d21ca942d39684eb6f887ba89b372fbbb867d83404f562d9bd946b7b0b8",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/REVIEW_SCOPE.md": "f43deec79cf0dfaae029d93ca43fc1dd4acb4240469ce71ced8b2116ad2bbb64",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/SOURCE_FIRST.md": "d927edbd0089176f75c05c06a3bb8270a19313ca0e95e9851202e6c0da8190f1",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/SOURCE_FIRST_SEAL.json": "813bc09f33964e1f9ff769a0edc59d75beee065ccbb68c2fb16c56066bc8c50e",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/SOURCE_FIRST_SEAL.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/SOURCE_FIRST_SEAL.stdout": "a0bc4951c1a9ccec33de4fad5f3bffc981a760c87f149e9f98b36f86c67c2bf2",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/final_integrity.py": "9f65a8390fa6cea18ef6e1adf169ac6d3baca20d83fcf279e2c800ff8a12b7d8",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/independent_check.py": "723fe4d6dd1df2713c60fcb2fb969daca83643a3ccbe09ac8e3b96ed5e31ca8b",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/independent_check_initial_failed.py": "47a8ea9fa3e8f6d6e64c733eb80a9938ef5ee8ff99acaf4758ec6e46e95185fc",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/post_exposure_check.json": "064ec30c506fcfffd151fea394f37414c47784dd212ff1836afa38fe60b21d4e",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/post_exposure_check.py": "3d9e245bd97496b167af466299d660760dc3d8aae92fd78d2c33ecc345be9cc3",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/post_exposure_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/post_exposure_check.stdout": "fe719351784865f530d069f84c4847766ce324088596157609dc7c6940166005",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/seal_source_first.py": "285b83584c6128d92c19b8a90e7a45109337b8a5195b9773b37b51793077084c",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/source_first_check.json": "fe07bd03cadacfbc2a49aba224bef20b72eaa4b2c6e36eca7f1fd306d6f4f2d7",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/source_first_check.stderr": "95d7d9cf10bb0c025d004275bee9eaaa8cef42498487d16246e3ef950c4255d1",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/source_first_check.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/source_first_check_corrected.json": "7fc4892fb041254a941d634e0a5259d9a255937e5e1b4b47e7623a8f1c00318a",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/source_first_check_corrected.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/review/source_first_check_corrected.stdout": "0761bed3c046bb888e2645a8ed8476fa1f374765d8b450a56bd282113701a6d5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tracked_scope_matches_authorization": true,
+  "changed_tracked_path_count": 86,
+  "unrelated_untracked_names": 46,
+  "name_digest_without_final_LF": "d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea",
+  "seals_returncodes": {
+    "udt_berger_global_constraint_campaign_2026-09-08/SOURCE_PINS_SHA256SUMS": 0,
+    "udt_berger_global_constraint_campaign_2026-09-08/BG1_EVIDENCE_SHA256SUMS": 0,
+    "udt_berger_global_constraint_campaign_2026-09-08/BG2_EVIDENCE_SHA256SUMS": 0,
+    "udt_berger_global_constraint_campaign_2026-09-08/step_02/SOURCE_PINS_SHA256SUMS": 0,
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/EVIDENCE_SHA256SUMS": 0
+  },
+  "protected_payload_bytes": "UNVERIFIED: deliberately not read; name/status comparison and nonaccess attestation only",
+  "backup_completeness": "UNVERIFIED",
+  "pre_reboot_unsaved_state": "UNVERIFIED",
+  "host_wide_process_state": "UNVERIFIED",
+  "ScratchDisk": "unused; archive-only blocker",
+  "core_science_canon_and_fixed_manuscript": "unchanged exact pins"
+}

@@ -1,0 +1,267 @@
+{
+  "K_entries": "x y z u=12 v=13 w=23",
+  "Ricci": "Matrix([[p*q - q**2/2, 0, 0], [0, p*q - q**2/2, 0], [0, 0, q**2/2]])",
+  "all_pass": true,
+  "brackets": {
+    "p": "2/c",
+    "q": "2c/a^2"
+  },
+  "checks": [
+    {
+      "name": "Koszul Ricci eigenvalues",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "covariant uncommuted versus direct Koszul derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "smooth Ricci variation symmetric after bracket commutator",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "all-six homogeneous momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "Hamiltonian all six entries",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "homogeneous constrained image numerator",
+      "pass": true,
+      "residual": "Matrix([[0], [0]])"
+    },
+    {
+      "name": "homogeneous constrained projector complementary block",
+      "pass": true,
+      "residual": "Matrix([[0], [0]])"
+    },
+    {
+      "name": "raising-index mixed-block difference",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "raising-index mixed-block difference second",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "round momentum unrestricted",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "s nonzero parametrization",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "s zero original quadratic",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "complete sign reversal preserves Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "declared rational Berger scalar",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonaxisymmetric sign -1 original Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonaxisymmetric sign -1 original momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "singular s=0 circle sign -1 original Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "singular s=0 circle sign -1 original momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "singular s=0 point sign -1 original Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "singular s=0 point sign -1 original momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "nonaxisymmetric sign 1 original Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonaxisymmetric sign 1 original momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "singular s=0 circle sign 1 original Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "singular s=0 circle sign 1 original momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "singular s=0 point sign 1 original Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "singular s=0 point sign 1 original momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    }
+  ],
+  "homogeneous_Ricci_dot": "Matrix([[-2*p**2*x + 2*p**2*y - q**2*y + q**2*z, -4*p**2*u + q**2*u, -2*p*q*v - q**2*v], [-4*p**2*u + q**2*u, 2*p**2*x - 2*p**2*y - q**2*x + q**2*z, -2*p*q*w - q**2*w], [-2*p*q*v - q**2*v, -2*p*q*w - q**2*w, q**2*x + q**2*y - 2*q**2*z]])",
+  "homogeneous_endomorphism_dot": "Matrix([[-2*p**2*x + 2*p**2*y - q**2*y + q**2*z + q*x*(2*p - q), 2*p*u*(-2*p + q), -2*p*q*v], [2*p*u*(-2*p + q), 2*p**2*x - 2*p**2*y - q**2*x + q**2*z + q*y*(2*p - q), -2*p*q*w], [-2*q**2*v, -2*q**2*w, q**2*(x + y - z)]])",
+  "hostile_controls": [
+    {
+      "detected": true,
+      "lawful_witness": false,
+      "name": "drop raising index changes mixed image numerator",
+      "nonzero_residual": "9"
+    },
+    {
+      "detected": true,
+      "lawful_witness": false,
+      "name": "treat invariant K components as parallel loses Ricci derivative",
+      "nonzero_residual": "-17"
+    },
+    {
+      "detected": true,
+      "lawful_witness": false,
+      "name": "drop momentum connection admits invalid mixed K",
+      "nonzero_residual": "-5/3"
+    },
+    {
+      "detected": true,
+      "lawful_witness": false,
+      "name": "image versus projector difference",
+      "nonzero_residual": "10"
+    }
+  ],
+  "method": "symbolic differentiated Koszul curvature versus uncommuted covariant tensor jets",
+  "python": "3.10.12",
+  "smooth_mixed_Ricci_dot": [
+    "2*e1_u*p - e1e2_w + e1e3_y - e2_x*p - e2_x*q/2 + e2_y*p - e2_y*q/2 + 3*e2_z*q/2 + e2e2_v - e2e3_u - e3_w*q - 2*p*q*v - q**2*v",
+    "-e1_x*p + e1_x*q/2 + e1_y*p + e1_y*q/2 - 3*e1_z*q/2 + e1e1_w - e1e2_v - e1e3_u - 2*e2_u*p + e2e3_x + 2*e3_v*q - 2*p*q*w - q**2*w"
+  ],
+  "smooth_momentum": [
+    "-e1_y - e1_z + e2_u + e3_v - p*w + q*w",
+    "e1_u - e2_x - e2_z + e3_w + p*v - q*v",
+    "e1_v + e2_w - e3_x - e3_y"
+  ],
+  "sympy": "1.13.1",
+  "witnesses": [
+    {
+      "Hamiltonian_residual": "0",
+      "Lambda": "3",
+      "entries": [
+        "-1",
+        "0",
+        "-9/4",
+        "-1",
+        "0",
+        "0"
+      ],
+      "name": "nonaxisymmetric",
+      "sign": -1
+    },
+    {
+      "Hamiltonian_residual": "0",
+      "Lambda": "3/4",
+      "entries": [
+        "-1",
+        "1",
+        "-2",
+        "0",
+        "0",
+        "0"
+      ],
+      "name": "singular s=0 circle",
+      "sign": -1
+    },
+    {
+      "Hamiltonian_residual": "0",
+      "Lambda": "7/4",
+      "entries": [
+        "0",
+        "0",
+        "3",
+        "0",
+        "0",
+        "0"
+      ],
+      "name": "singular s=0 point",
+      "sign": -1
+    },
+    {
+      "Hamiltonian_residual": "0",
+      "Lambda": "3",
+      "entries": [
+        "1",
+        "0",
+        "9/4",
+        "1",
+        "0",
+        "0"
+      ],
+      "name": "nonaxisymmetric",
+      "sign": 1
+    },
+    {
+      "Hamiltonian_residual": "0",
+      "Lambda": "3/4",
+      "entries": [
+        "1",
+        "-1",
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      "name": "singular s=0 circle",
+      "sign": 1
+    },
+    {
+      "Hamiltonian_residual": "0",
+      "Lambda": "7/4",
+      "entries": [
+        "0",
+        "0",
+        "-3",
+        "0",
+        "0",
+        "0"
+      ],
+      "name": "singular s=0 point",
+      "sign": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "-c",
+    "import hashlib,json,pathlib,subprocess; root=pathlib.Path.cwd(); prefix=\"udt_berger_global_constraint_campaign_2026-09-08/\"; status=subprocess.check_output([\"git\",\"-c\",\"core.preloadIndex=false\",\"-c\",\"index.threads=1\",\"status\",\"--short\"],text=True).splitlines(); unrelated=sorted(x for x in status if x.startswith(\"?? \") and not x.startswith(\"?? \"+prefix)); digest=hashlib.sha256(\"\\n\".join(unrelated).encode()).hexdigest(); assert len(unrelated)==46 and digest==\"d65d71d63a56b95aabfd61f33317b1f1f2b2a62a85ded8258c525b99a5e156ea\"; changed=subprocess.check_output([\"git\",\"-c\",\"core.preloadIndex=false\",\"-c\",\"index.threads=1\",\"diff\",\"--name-only\",\"8784f168bf08473b202fc9485eedefcfff920859\"],text=True).splitlines(); allowed={\"LIVE.md\",\"HANDOFF.md\",\"CURRENT_RESEARCH_PROGRAM.md\",\"INDEX.md\",\"MEMORY.md\"}; assert all(x in allowed or x.startswith(prefix) for x in changed); seals={}; paths=[\"SOURCE_PINS_SHA256SUMS\",\"BG1_EVIDENCE_SHA256SUMS\",\"BG2_EVIDENCE_SHA256SUMS\",\"step_02/SOURCE_PINS_SHA256SUMS\"]; paths=[prefix+x for x in paths]+[\"udt_berger_initial_data_preservation_campaign_2026-09-08/EVIDENCE_SHA256SUMS\"]; [seals.update({name:subprocess.run([\"sha256sum\",\"--strict\",\"-c\",name],capture_output=True,text=True).returncode}) for name in paths]; assert all(v==0 for v in seals.values()); print(json.dumps({\"tracked_scope_matches_authorization\":True,\"changed_tracked_path_count\":len(changed),\"unrelated_untracked_names\":len(unrelated),\"name_digest_without_final_LF\":digest,\"seals_returncodes\":seals,\"protected_payload_bytes\":\"UNVERIFIED: deliberately not read; name/status comparison and nonaccess attestation only\",\"backup_completeness\":\"UNVERIFIED\",\"pre_reboot_unsaved_state\":\"UNVERIFIED\",\"host_wide_process_state\":\"UNVERIFIED\",\"ScratchDisk\":\"unused; archive-only blocker\",\"core_science_canon_and_fixed_manuscript\":\"unchanged exact pins\"},indent=2))"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T20:02:17.650337+00:00",
+  "duration_seconds": 0.10947643301915377,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14592
+}

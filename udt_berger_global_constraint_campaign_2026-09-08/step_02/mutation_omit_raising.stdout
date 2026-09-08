@@ -1,0 +1,217 @@
+{
+  "kind": "exact_symbol_plus_full_tensor_anchors_not_global_existence_proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "mutant": "omit_raising",
+  "symbol_only": false,
+  "checks": [
+    {
+      "name": "Q_tracefree_0",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_transverse_0",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "Q_idempotent_0",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "Q_longitudinal_kernel_0",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "full_principal_Ricci_from_connection_0",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "principal_on_TT_0",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "TT_symbol_rank_0",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_tracefree_1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_transverse_1",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "Q_idempotent_1",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "Q_longitudinal_kernel_1",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "full_principal_Ricci_from_connection_1",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "principal_on_TT_1",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "TT_symbol_rank_1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_tracefree_2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_transverse_2",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "Q_idempotent_2",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "Q_longitudinal_kernel_2",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "full_principal_Ricci_from_connection_2",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "principal_on_TT_2",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "TT_symbol_rank_2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_tracefree_3",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Q_transverse_3",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "Q_idempotent_3",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "Q_longitudinal_kernel_3",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "full_principal_Ricci_from_connection_3",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "principal_on_TT_3",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "TT_symbol_rank_3",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "chosen_polarization_fixed",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "nonzero_full_operator_leading_image",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "vertical_frequency_silent_control",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "inherited_anchor_replay_byte_identity",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "full_all_nine_Ricci_derivatives_independent_Koszul",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "full_all_nine_raised_Ricci_derivatives",
+      "pass": false,
+      "residual": "Matrix([[q*x*(-2*p + q), q*u*(-2*p + q), -q**2*v], [q*u*(-2*p + q), q*y*(-2*p + q), -q**2*w], [q*v*(-2*p + q), q*w*(-2*p + q), -q**2*z]])"
+    },
+    {
+      "name": "full_image_block_independent_Koszul",
+      "pass": false,
+      "residual": "Matrix([[q*v/(p - q)], [q*w/(p - q)], [0]])"
+    },
+    {
+      "name": "full_nonsymmetric_projector_blocks",
+      "pass": false,
+      "residual": "Matrix([[0, 0, q*v/(p - q)], [0, 0, q*w/(p - q)], [q*v/(p - q), q*w/(p - q), 0]])"
+    },
+    {
+      "name": "full_baseline_inverse_metric_term_not_zero",
+      "pass": false,
+      "residual": "Matrix([[h*q*(-2*p + q), 0, 0], [0, h*q*(-2*p + q), 0], [0, 0, -h*q**2]])"
+    },
+    {
+      "name": "image_projector_difference_retained",
+      "pass": true,
+      "residual": "0"
+    }
+  ],
+  "count": 38,
+  "pass": false,
+  "anchors": {
+    "all_six_homogeneous_components": "formal diagnostics, not constrained witnesses",
+    "S": "Matrix([[-2*p**2*x + 2*p**2*y - q**2*y + q**2*z, -4*p**2*u + q**2*u, -2*p*q*v - q**2*v], [-4*p**2*u + q**2*u, 2*p**2*x - 2*p**2*y - q**2*x + q**2*z, -2*p*q*w - q**2*w], [-2*p*q*v - q**2*v, -2*p*q*w - q**2*w, q**2*x + q**2*y - 2*q**2*z]])",
+    "Bdot": "Matrix([[-2*p**2*x + 2*p**2*y - q**2*y + q**2*z, -4*p**2*u + q**2*u, -2*p*q*v - q**2*v], [-4*p**2*u + q**2*u, 2*p**2*x - 2*p**2*y - q**2*x + q**2*z, -2*p*q*w - q**2*w], [-2*p*q*v - q**2*v, -2*p*q*w - q**2*w, q**2*x + q**2*y - 2*q**2*z]])",
+    "Y": "Matrix([[(-2*p*q*v - q**2*v)/(-p*q + q**2)], [(-2*p*q*w - q**2*w)/(-p*q + q**2)], [0]])",
+    "Pdot": "Matrix([[0, 0, (-2*p*q*v - q**2*v)/(-p*q + q**2)], [0, 0, (-2*p*q*w - q**2*w)/(-p*q + q**2)], [-2*v + (-2*p*q*v - q**2*v)/(-p*q + q**2), -2*w + (-2*p*q*w - q**2*w)/(-p*q + q**2), 0]])",
+    "inherited_actual_independence": "reused sealed prior Koszul argument/code, not new fresh context",
+    "limitations": "Homogeneous full anchor alone does not certify all inhomogeneous lower-order identities."
+  },
+  "omissions": [
+    "global TT projection functional theorem",
+    "oscillatory remainder estimate",
+    "BG1 nonlinear IFT realization",
+    "explicit N or amplitude/lifetime bounds",
+    "genericity or orbit closure"
+  ]
+}

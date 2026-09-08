@@ -233,15 +233,18 @@ All remain reviewed conditional UNPROMOTED candidates. Full reviews retain harne
 BI2's one fresh focused review clears isolation without erasing its original exposure.
 Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
 analytic/local-method restrictions and no physical-stability/scale inference remain.
-HB2/HB3 and BI1--BI3 banking remain unauthorized; no new campaign is authorized
-beyond the now-approved two-step/three-hour Berger global-constraint successor.
-The global-constraint campaign is ACTIVE, budget19:11--22:11UTC2026-09-08:
-`udt_berger_global_constraint_campaign_2026-09-08/WORK_ORDER.md`.
-BG1's global nonlinear constraint family is reviewed VERIFIED-WITH-CAVEATS and
-UNPROMOTED, with free trace, fixed gamma/Lambda and compact elliptic/IFT limits.
-Its full review excludes the hard-coded conformal-weight check as transformation
-evidence. BG2 is ACTIVE: global constraint-compatible full Ricci-line drift,
-with fresh separate-context review before downstream use or a final result.
+The Berger global-constraint campaign is COMPLETE at two freshly reviewed steps:
+`udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`.
+BG1 gives a global small-TT nonlinear constraint family at fixed gamma/Lambda,
+with trace determined rather than additionally fixed; baseline-mean fixing is rigid.
+BG2 gives arbitrary-small GLOBAL lawful data with nonzero full marked Ricci-line
+drift at any marked point of each fixed nonround Berger background. Actual short
+normal-time departure remains conditional on the smooth marked Cauchy method.
+Both are VERIFIED-WITH-CAVEATS, UNPROMOTED: retain h!=0, compact boundary-free
+domain, small-data/method restrictions, full tensor and all review caveats.
+Three actual symbol-only false passes and the reviewer assembly repair stay.
+No orbit-closure/fibration-loss, topology-change, physical-stability or scale claim.
+HB2/HB3, BI1--BI3 and BG1--BG2 banking remain unauthorized; no new campaign is authorized.
 Execution/publication receipts own closure; prior evidence remains unchanged.
 Carrier/action/boundary/evolution adoption remains unauthorized.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
