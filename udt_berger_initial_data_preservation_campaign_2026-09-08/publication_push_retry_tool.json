@@ -1,0 +1,19 @@
+{
+  "command": "timeout 60 git -c core.preloadIndex=false -c index.threads=1 push origin grok",
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "scope": "Normal Git runtime; timeout60, no scientific-check resource changes. Tool combined output, not separately captured stdout/stderr.",
+  "initial_result": {
+    "chunk_id": "6b5cca",
+    "wall_time_seconds": 1.001271529,
+    "session_id": 2140,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "completion": {
+    "chunk_id": "e4d7a2",
+    "wall_time_seconds": 0.00000169,
+    "exit_code": 0,
+    "original_token_count": 23,
+    "output": "To https://github.com/charlesrotter/udt_mass_codex.git\n   8593f11c..4aa7394e  grok -> grok\n"
+  }
+}

@@ -1,0 +1,18 @@
+fatal error: failed to reserve page summary memory
+
+runtime stack:
+runtime.throw({0x100f97d?, 0x40ff85?})
+	runtime/panic.go:992 +0x71 fp=0x7ffedca9f9d8 sp=0x7ffedca9f9a8 pc=0x4364b1
+runtime.(*pageAlloc).sysInit(0x2424f08)
+	runtime/mpagealloc_64bit.go:78 +0x153 fp=0x7ffedca9fa58 sp=0x7ffedca9f9d8 pc=0x42d373
+runtime.(*pageAlloc).init(0x2424f08, 0x2424f00, 0x0?)
+	runtime/mpagealloc.go:331 +0x70 fp=0x7ffedca9fa80 sp=0x7ffedca9fa58 pc=0x42afb0
+runtime.(*mheap).init(0x2424f00)
+	runtime/mheap.go:723 +0x125 fp=0x7ffedca9fab8 sp=0x7ffedca9fa80 pc=0x4285a5
+runtime.mallocinit()
+	runtime/malloc.go:487 +0xca fp=0x7ffedca9fae0 sp=0x7ffedca9fab8 pc=0x40e56a
+runtime.schedinit()
+	runtime/proc.go:691 +0xab fp=0x7ffedca9fb40 sp=0x7ffedca9fae0 pc=0x439d2b
+runtime.rt0_go()
+	runtime/asm_amd64.s:322 +0x11c fp=0x7ffedca9fb48 sp=0x7ffedca9fb40 pc=0x46355c
+fatal: could not read Username for 'https://github.com': No such device or address
