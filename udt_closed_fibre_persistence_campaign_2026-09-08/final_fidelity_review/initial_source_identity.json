@@ -1,0 +1,21 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_baseline.stdout",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_01/REVIEWED_RESULT.md",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/check_cf2.py",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/check_baseline.stdout"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T21:10:06.986225+00:00",
+  "duration_seconds": 0.0016239550022874027,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 7372
+}

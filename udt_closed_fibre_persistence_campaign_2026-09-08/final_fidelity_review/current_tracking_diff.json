@@ -1,0 +1,26 @@
+{
+  "command": [
+    "git",
+    "-c",
+    "core.preloadIndex=false",
+    "-c",
+    "index.threads=1",
+    "diff",
+    "e1d165c65c857c8c4e4e343b605482f3da0f19b6",
+    "--",
+    "LIVE.md",
+    "HANDOFF.md",
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "CURRENT_SCIENTIFIC_PREMISES.md",
+    "INDEX.md",
+    "MEMORY.md"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T21:19:06.425025+00:00",
+  "duration_seconds": 0.006927328009624034,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14784
+}

@@ -2,8 +2,10 @@
 
 - G376=BI1 required-prerequisite / G377=BG1 / G378=BG2 authorized conditional banking:
   `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`; exact gates in its execution record.
-- ACTIVE closed-fibre persistence campaign, NEW results UNPROMOTED:
-  `udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+- Completed TWO-step closed-fibre campaign, CF1/CF2 UNPROMOTED:
+  `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`;
+  exact global lawful-data/actual-time nonclosure counterexample with method/review caveats,
+  preserving G330 Hopf examples; no physical instability or UDT-failure conclusion.
 - Completed two-step Berger global-constraint campaign; original evidence unchanged:
   `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`;
   per-step REVIEWED_RESULT files pin entire reviews and retained false-pass evidence.

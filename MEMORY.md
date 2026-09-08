@@ -27,9 +27,16 @@ Charles authorizes exact-scope G376=BI1 (required prerequisite), G377=BG1 and
 G378=BG2 conditional banking; exact gate receipts are recorded in
 `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
 HB2/HB3 and BI2/BI3 remain UNPROMOTED; no physical adoption.
-The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
-`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
-NEW results remain UNPROMOTED; exact closure/fibration, not just first drift.
+Banking COMPLETE after full361/fresh fidelity gates. Closed-fibre campaign
+COMPLETE at TWO reviewed conditional steps:
+`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
+CF1 exact closure/fibration discriminator. CF2 constructs arbitrary-small global
+lawful data on every fixed nonround/signed-h!=0 background with some nonclosed
+leaves at every sufficiently small nonzero actual normal time; leaf may vary with t.
+Retain marking/gap, torus-plus-conjugation data symmetry and full TT/IFT/smooth
+Cauchy/isometry methods; G330 pure-trace survivors and all false-pass caveats.
+CF1/CF2 UNPROMOTED; no physical stability, topology change or UDT-failure inference.
+No third step or successor authorized at this return point.
 
 The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
 conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal

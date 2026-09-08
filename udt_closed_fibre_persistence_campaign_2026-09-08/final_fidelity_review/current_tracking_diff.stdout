@@ -1,0 +1,145 @@
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 28938082..31502dc0 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -248,11 +248,19 @@ Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisi
+ G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+ `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+ HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+-The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+-It tests smooth Hopf-fibration equivalence under supplied normal marking on
+-ACTUAL global constraint data/developments, not first drift or homotopy alone.
+-New campaign results remain UNPROMOTED; no physical stability or carrier adoption.
++Banking is COMPLETE after full361 and fresh dependency/fidelity gates.
++The closed-fibre campaign completed TWO reviewed conditional steps:
++`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
++CF1 separates closure, regular fibration and arbitrary-diffeomorphism equivalence.
++CF2: for each fixed nonround Berger S3/signed h!=0, arbitrarily small ACTUAL
++global lawful K at fixed gamma/Lambda yield SOME nonclosed Ricci-line leaves at
++EVERY sufficiently small nonzero actual normal time. The leaf may depend on time.
++Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
++conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
++G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
++stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
++Whole reviews/false-pass evidence control, including CF2 lost intermediate
++reviewer-probe streams. No third step; owner decision before promotion/successor.
+ Beyond this explicitly approved scope, no new campaign is authorized.
+ Execution/publication receipts own closure; prior evidence remains unchanged.
+ Carrier/action/boundary/evolution adoption remains unauthorized.
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index a1df460a..b44c601a 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -10,7 +10,11 @@ and its EXECUTION_RECORD.md; no completion is inferred from this orientation.
+ ENTIRE source candidates/results/reviews and false-pass evidence control; no old
+ row changes. BI1's arbitrary-smooth operator, not its homogeneous restriction,
+ feeds BG2. HB2/HB3 and BI2/BI3 remain UNPROMOTED. The separately authorized
+-closed-fibre persistence campaign is ACTIVE; all its NEW results remain UNPROMOTED.
++closed-fibre campaign is COMPLETE at TWO reviewed conditional results, CF1/CF2,
++both UNPROMOTED. CF2 gives arbitrary-small global lawful data with some nonclosed
++leaves at every sufficiently short nonzero actual normal time, under its exact
++marking/gap/symmetry/TT/IFT/Cauchy/isometry-method scope. The leaf can depend on time.
++G330 preserving examples remain. Entire reviews and false-pass/repair limits control.
+ No physical identification, stability, new premise, canon or fixed-manuscript change.
+ 
+ ## Foundational and adopted layer
+diff --git a/HANDOFF.md b/HANDOFF.md
+index fbd86cb0..3795a49e 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -208,11 +208,19 @@ Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisi
+ G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+ `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+ HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+-The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+-It tests smooth Hopf-fibration equivalence under supplied normal marking on
+-ACTUAL global constraint data/developments, not first drift or homotopy alone.
+-New campaign results remain UNPROMOTED; no physical stability or carrier adoption.
++Banking is COMPLETE after full361 and fresh dependency/fidelity gates.
++The closed-fibre campaign completed TWO reviewed conditional steps:
++`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
++CF1 separates closure, regular fibration and arbitrary-diffeomorphism equivalence.
++CF2: for each fixed nonround Berger S3/signed h!=0, arbitrarily small ACTUAL
++global lawful K at fixed gamma/Lambda yield SOME nonclosed Ricci-line leaves at
++EVERY sufficiently small nonzero actual normal time. The leaf may depend on time.
++Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
++conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
++G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
++stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
++Whole reviews/false-pass evidence control, including CF2 lost intermediate
++reviewer-probe streams. No third step; owner decision before promotion/successor.
+ Beyond this explicitly approved scope, no new campaign is authorized.
+ Execution/publication receipts own closure; prior evidence remains unchanged.
+ Carrier/action/boundary/evolution adoption remains unauthorized.
+diff --git a/INDEX.md b/INDEX.md
+index a12198ef..81cd616a 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -2,8 +2,10 @@
+ 
+ - G376=BI1 required-prerequisite / G377=BG1 / G378=BG2 authorized conditional banking:
+   `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`; exact gates in its execution record.
+-- ACTIVE closed-fibre persistence campaign, NEW results UNPROMOTED:
+-  `udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
++- Completed TWO-step closed-fibre campaign, CF1/CF2 UNPROMOTED:
++  `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`;
++  exact global lawful-data/actual-time nonclosure counterexample with method/review caveats,
++  preserving G330 Hopf examples; no physical instability or UDT-failure conclusion.
+ - Completed two-step Berger global-constraint campaign; original evidence unchanged:
+   `udt_berger_global_constraint_campaign_2026-09-08/DECISION_BRIEF.md`;
+   per-step REVIEWED_RESULT files pin entire reviews and retained false-pass evidence.
+diff --git a/LIVE.md b/LIVE.md
+index 736d26a3..c8f5b353 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -249,11 +249,19 @@ Charles authorizes exact-scope conditional banking G376=BI1 (required prerequisi
+ G377=BG1 and G378=BG2; exact integration/fidelity gate receipts are recorded in
+ `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+ HB2/HB3 and BI2/BI3 remain UNPROMOTED; no unrelated prerequisite is promoted.
+-The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+-It tests smooth Hopf-fibration equivalence under supplied normal marking on
+-ACTUAL global constraint data/developments, not first drift or homotopy alone.
+-New campaign results remain UNPROMOTED; no physical stability or carrier adoption.
++Banking is COMPLETE after full361 and fresh dependency/fidelity gates.
++The closed-fibre campaign completed TWO reviewed conditional steps:
++`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
++CF1 separates closure, regular fibration and arbitrary-diffeomorphism equivalence.
++CF2: for each fixed nonround Berger S3/signed h!=0, arbitrarily small ACTUAL
++global lawful K at fixed gamma/Lambda yield SOME nonclosed Ricci-line leaves at
++EVERY sufficiently small nonzero actual normal time. The leaf may depend on time.
++Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
++conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
++G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
++stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
++Whole reviews/false-pass evidence control, including CF2 lost intermediate
++reviewer-probe streams. No third step; owner decision before promotion/successor.
+ Beyond this explicitly approved scope, no new campaign is authorized.
+ Execution/publication receipts own closure; prior evidence remains unchanged.
+ Carrier/action/boundary/evolution adoption remains unauthorized.
+diff --git a/MEMORY.md b/MEMORY.md
+index 64cd606e..5677c76e 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -27,9 +27,16 @@ Charles authorizes exact-scope G376=BI1 (required prerequisite), G377=BG1 and
+ G378=BG2 conditional banking; exact gate receipts are recorded in
+ `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`.
+ HB2/HB3 and BI2/BI3 remain UNPROMOTED; no physical adoption.
+-The closed-fibre persistence campaign is ACTIVE, max3 reviewed steps/four hours:
+-`udt_closed_fibre_persistence_campaign_2026-09-08/WORK_ORDER.md`.
+-NEW results remain UNPROMOTED; exact closure/fibration, not just first drift.
++Banking COMPLETE after full361/fresh fidelity gates. Closed-fibre campaign
++COMPLETE at TWO reviewed conditional steps:
++`udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`.
++CF1 exact closure/fibration discriminator. CF2 constructs arbitrary-small global
++lawful data on every fixed nonround/signed-h!=0 background with some nonclosed
++leaves at every sufficiently small nonzero actual normal time; leaf may vary with t.
++Retain marking/gap, torus-plus-conjugation data symmetry and full TT/IFT/smooth
++Cauchy/isometry methods; G330 pure-trace survivors and all false-pass caveats.
++CF1/CF2 UNPROMOTED; no physical stability, topology change or UDT-failure inference.
++No third step or successor authorized at this return point.
+ 
+ The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
+ conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal

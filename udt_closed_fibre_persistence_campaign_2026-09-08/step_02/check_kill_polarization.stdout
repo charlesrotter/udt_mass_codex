@@ -1,0 +1,45 @@
+{
+  "kind": "exact finite symbolic controls NOT global existence or closure proof",
+  "mode": "kill_polarization",
+  "sympy_version": "1.13.1",
+  "checks": {
+    "coframe_dual_e2": true,
+    "coframe_dual_xi": true,
+    "polarization_tracefree": true,
+    "polarization_radial_transverse": true,
+    "metric_reflection_invariant": true,
+    "polarization_reflection_invariant": true,
+    "torus_invariance_alone_does_not_remove_cross_term": true,
+    "reflection_rejects_radial_cross_term": true,
+    "actual_symbol_projection_fixes_E": true,
+    "full_radial_slope_symbol": false,
+    "center_symbol": false,
+    "real_odd_phase_third_derivative": true,
+    "center_N3_coefficient": false,
+    "both_gap_signs_retained": true,
+    "coordinate_initial_ricci_vertical": true,
+    "coordinate_initial_ricci_horizontal": true,
+    "full_inverse_raising_contribution": true,
+    "coordinate_full_third_jet_anchor": true,
+    "coordinate_no_radial_image": true,
+    "coordinate_full_variation_symmetric": true,
+    "constraint_trace_is_not_additionally_fixed": true
+  },
+  "passed": 18,
+  "failed": [
+    "full_radial_slope_symbol",
+    "center_symbol",
+    "center_N3_coefficient"
+  ],
+  "general_symbol": "0",
+  "full_coordinate_slope_operator_a1_c2": "sqrt(1 - s)*(4*s**4*Derivative(f(s), (s, 2)) + 8*s**3*Derivative(f(s), s) - 8*s**3*Derivative(f(s), (s, 2)) - 12*s**2*Derivative(f(s), s) + 4*s**2*Derivative(f(s), (s, 2)) + 4*s*Derivative(f(s), s) - f(s))/(6*s**(3/2)*(s - 1)**2)",
+  "no_inverse_coordinate_slope_operator_a1_c2": "-(4*s**4*Derivative(f(s), (s, 2)) + 8*s**3*Derivative(f(s), s) - 8*s**3*Derivative(f(s), (s, 2)) + 16*s**2*f(s) - 12*s**2*Derivative(f(s), s) + 4*s**2*Derivative(f(s), (s, 2)) - 16*s*f(s) + 4*s*Derivative(f(s), s) - f(s))/(6*s**(3/2)*sqrt(1 - s)*(s - 1))",
+  "full_third_jet": "1/3",
+  "omissions": [
+    "no global Q computation",
+    "no nonlinear constraint solve",
+    "no Cauchy solve",
+    "no numerical orbit integration",
+    "finite controls do not certify methods or universal quantifiers"
+  ]
+}

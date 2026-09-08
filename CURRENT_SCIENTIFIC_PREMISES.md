@@ -10,7 +10,11 @@ and its EXECUTION_RECORD.md; no completion is inferred from this orientation.
 ENTIRE source candidates/results/reviews and false-pass evidence control; no old
 row changes. BI1's arbitrary-smooth operator, not its homogeneous restriction,
 feeds BG2. HB2/HB3 and BI2/BI3 remain UNPROMOTED. The separately authorized
-closed-fibre persistence campaign is ACTIVE; all its NEW results remain UNPROMOTED.
+closed-fibre campaign is COMPLETE at TWO reviewed conditional results, CF1/CF2,
+both UNPROMOTED. CF2 gives arbitrary-small global lawful data with some nonclosed
+leaves at every sufficiently short nonzero actual normal time, under its exact
+marking/gap/symmetry/TT/IFT/Cauchy/isometry-method scope. The leaf can depend on time.
+G330 preserving examples remain. Entire reviews and false-pass/repair limits control.
 No physical identification, stability, new premise, canon or fixed-manuscript change.
 
 ## Foundational and adopted layer

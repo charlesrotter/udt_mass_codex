@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/review/post_exposure_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T21:04:32.797821+00:00",
+  "duration_seconds": 46.405555942998035,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 68864
+}

@@ -1,0 +1,84 @@
+{
+  "kind": "finite exact controls NOT proof",
+  "mode": "baseline",
+  "checks": {
+    "closure_1": true,
+    "interior_period_1": true,
+    "axis_periods_1": true,
+    "axis_holonomy_orders_1": true,
+    "regular_1": true,
+    "closure_3/2": true,
+    "interior_period_3/2": true,
+    "axis_periods_3/2": true,
+    "axis_holonomy_orders_3/2": true,
+    "regular_3/2": true,
+    "closure_2/3": true,
+    "interior_period_2/3": true,
+    "axis_periods_2/3": true,
+    "axis_holonomy_orders_2/3": true,
+    "regular_2/3": true,
+    "closure_7/5": true,
+    "interior_period_7/5": true,
+    "axis_periods_7/5": true,
+    "axis_holonomy_orders_7/5": true,
+    "regular_7/5": true,
+    "closure_5/7": true,
+    "interior_period_5/7": true,
+    "axis_periods_5/7": true,
+    "axis_holonomy_orders_5/7": true,
+    "regular_5/7": true,
+    "sqrt2_exactly_not_rational": true,
+    "irrational_positive_near_Hopf": true,
+    "representative_rescaling_leaves_slope": true,
+    "rational_sampling_false_pass_retained": true
+  },
+  "passed": 29,
+  "failed": [],
+  "fixtures": [
+    {
+      "slope": "1",
+      "period_units_2pi": "1",
+      "axis_orders": [
+        1,
+        1
+      ]
+    },
+    {
+      "slope": "3/2",
+      "period_units_2pi": "2",
+      "axis_orders": [
+        2,
+        3
+      ]
+    },
+    {
+      "slope": "2/3",
+      "period_units_2pi": "3",
+      "axis_orders": [
+        3,
+        2
+      ]
+    },
+    {
+      "slope": "7/5",
+      "period_units_2pi": "5",
+      "axis_orders": [
+        5,
+        7
+      ]
+    },
+    {
+      "slope": "5/7",
+      "period_units_2pi": "7",
+      "axis_orders": [
+        7,
+        5
+      ]
+    }
+  ],
+  "rational_sampling_false_pass": true,
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  }
+}

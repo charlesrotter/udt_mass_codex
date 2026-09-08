@@ -1,0 +1,3 @@
+CF1 is **VERIFIED-WITH-CAVEATS**. The classification survives independent reconstruction sealed before author exposure. One additional harness false pass was reproduced and caught; all evidence is preserved. CF2’s lawful-development connection remains open.
+
+Saved [review report](/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md) and [machine disposition](/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/review/REVIEW_RESULT.json). Writes stayed within `step_01/review`; no shared Git mutation or promotion.

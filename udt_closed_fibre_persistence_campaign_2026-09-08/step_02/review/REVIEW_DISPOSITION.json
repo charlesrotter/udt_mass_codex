@@ -1,0 +1,227 @@
+{
+  "disposition": "VERIFIED-WITH-CAVEATS",
+  "candidate": "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/CANDIDATE_INITIAL.md",
+  "candidate_sha256": "80a0193cc7f0d3bc43fbe046b6997bc13bd70677f381508eac3a86da4a5433eb",
+  "review_scope": "CF2 initial frozen conditional mathematical candidate; no promotion or author repair",
+  "universal_persistence_assertion": "REFUTED_CONDITIONALLY_BY_EXISTENCE_COUNTEREXAMPLE",
+  "hypotheses": [
+    "each fixed smooth compact boundary-free Berger S3, a,c>0, a!=c",
+    "each signed h!=0, fixed gamma and Lambda=R/2+3h^2",
+    "each finite C^{k,alpha} norm k>=3, 0<alpha<1; smooth data with allowed higher norm control",
+    "G310/G312 owner-provisional bounded vacuum arena; G315/G330/G337 conditional source scope",
+    "entire reviewed BI1/BG1/BG2 and CF1 dependencies and limitations",
+    "genuine global TT projection, kernel complement elliptic/IFT/smoothness and pseudodifferential methods",
+    "imported smooth Einstein-Cauchy existence/geometric uniqueness and initial-isometry extension",
+    "supplied Gaussian normal marking; short positive metric collar with continued simple Ricci branch gap"
+  ],
+  "quantifier": "For each allowed fixed background, arbitrarily small actual smooth global lawful K exist; each such constructed fixed datum has some delta>0 with nonclosed Ricci-line leaves for every 0<|t|<delta. No uniform delta or genericity.",
+  "symmetry": "Torus plus simultaneous complex conjugation is freely chosen data restriction, retained by exact projection, unique small nonlinear lift and actual marked development; putative Hopf diffeomorphisms need not be equivariant.",
+  "unresolved_load_bearing_objections": [],
+  "scientific_repair_required": false,
+  "author_repair_cycles_consumed_by_reviewer": 0,
+  "smallest_same_premise_repair": "Retain independent full-tensor comparison and disclose two false passes. Optional author checker repair adds constant and linear profiles, nontransverse tracefree projection input and matching executed mutants; author decides.",
+  "survivors": [
+    "pure-trace G330 actual local Berger/Hopf developments",
+    "homogeneous and other preserving data remain lawful",
+    "fixed topology and smooth line bundle remain; no topology-change or physical-instability inference"
+  ],
+  "defects": [
+    {
+      "name": "discard_Ricci_lower_jets",
+      "returncode": 0,
+      "passed": 21,
+      "catches": {
+        "constant_center_expected": "-4/3",
+        "constant_center_mutant": "16/3",
+        "linear_one_fifth_expected": "1",
+        "linear_one_fifth_mutant": "0"
+      },
+      "source_sha256": "d297f3a6144798ae9875f053fdffeeedc66cc8c3439d15704d0cf786ee0f84ca"
+    },
+    {
+      "name": "reverse_TT_projection_sign",
+      "returncode": 0,
+      "passed": 21,
+      "catches": {
+        "nontransverse_tracefree_input": "ds tensor ds - |ds|^2 gamma/3",
+        "wrong_projection_divergence": [
+          "16*s*(1 - s)/(3*a**2)",
+          "0",
+          "0"
+        ]
+      },
+      "source_sha256": "2a18e1c4583c5d6ca5bfcf222f102ad375f6906cd19585e6ff40d9a1724d57af"
+    }
+  ],
+  "focused_catches": [
+    {
+      "name": "discard_Ricci_lower_jets",
+      "returncode": 1,
+      "passed": 21,
+      "failed": [
+        "reviewer_constant_profile",
+        "reviewer_linear_profile"
+      ],
+      "source_sha256": "e946900cf2432407887bca99fd985cb7217b87a0f47dd2030ce3652e240a3066"
+    },
+    {
+      "name": "reverse_TT_projection_sign",
+      "returncode": 1,
+      "passed": 21,
+      "failed": [
+        "reviewer_nontransverse_projection"
+      ],
+      "source_sha256": "4d9f3c04b5cffbee06bfbb054825364ba07b41ed285920fb68225dd8ac327e7b"
+    }
+  ],
+  "replays": [
+    {
+      "mode": "baseline",
+      "returncode": 0,
+      "byte_match": true,
+      "failed": [],
+      "passed": 21
+    },
+    {
+      "mode": "omit_inverse",
+      "returncode": 1,
+      "byte_match": true,
+      "failed": [
+        "full_inverse_raising_contribution"
+      ],
+      "passed": 20
+    },
+    {
+      "mode": "kill_polarization",
+      "returncode": 1,
+      "byte_match": true,
+      "failed": [
+        "full_radial_slope_symbol",
+        "center_symbol",
+        "center_N3_coefficient"
+      ],
+      "passed": 18
+    },
+    {
+      "mode": "wrong_slope",
+      "returncode": 1,
+      "byte_match": true,
+      "failed": [
+        "full_radial_slope_symbol",
+        "center_symbol",
+        "center_N3_coefficient"
+      ],
+      "passed": 18
+    },
+    {
+      "mode": "wrong_phase",
+      "returncode": 1,
+      "byte_match": true,
+      "failed": [
+        "real_odd_phase_third_derivative",
+        "center_N3_coefficient"
+      ],
+      "passed": 19
+    }
+  ],
+  "independent_anchors": [
+    {
+      "s": "1/2",
+      "slope": "-(4*F0 - F2)/3",
+      "all9_dRic_match": true,
+      "all9_independent_routes_match": true
+    },
+    {
+      "s": "1/5",
+      "slope": "-(625*F0 - 240*F1 - 64*F2)/240",
+      "all9_dRic_match": true,
+      "all9_independent_routes_match": true
+    },
+    {
+      "s": "4/5",
+      "slope": "-(625*F0 + 240*F1 - 64*F2)/240",
+      "all9_dRic_match": true,
+      "all9_independent_routes_match": true
+    },
+    {
+      "s": "1/10",
+      "slope": "-(2500*F0 - 720*F1 - 81*F2)/405",
+      "all9_dRic_match": true,
+      "all9_independent_routes_match": true
+    }
+  ],
+  "reviewer_failure": {
+    "capture": "post_exposure_check.json",
+    "returncode": 1,
+    "duration_seconds": 28.736358143010875,
+    "timeout": false,
+    "cause": "xreplace unintentionally erased f''; author guard caught it; aggregate predicted false pass and failed before output flush",
+    "preserved": "original script, empty stdout, stderr traceback and receipt; broader mutant separately replayed",
+    "limitation": "initial intermediate in-memory streams not saved",
+    "repair": "protect f'' in lower-jet mutation and emit partial evidence on later failures; no author/source-first alteration"
+  },
+  "checks": {
+    "source_first": {
+      "assertions": 54,
+      "local_fixtures": 9,
+      "defect_discriminators": 6,
+      "discriminator_not_end_to_end_mutation_count": true,
+      "returncode": 0,
+      "duration_seconds": 0.9532577030186076,
+      "maxrss_kib": 50852
+    },
+    "post_exposure": {
+      "status": "PASS_WITH_PRESERVED_FALSE_PASSES",
+      "returncode": 0,
+      "duration_seconds": 46.405555942998035,
+      "maxrss_kib": 68864,
+      "timeout": false
+    }
+  },
+  "independence": {
+    "context": "fresh user-dispatched review-only",
+    "source_first": true,
+    "first_author_exposure_utc": "2026-09-08T20:59:22.079851+00:00",
+    "seal_sha256": "35f8a90819c250b035d4c91eeed258dfef779c88cadd29297fabe836dcf0e214",
+    "backend_authentication": "UNKNOWN",
+    "configured_dispatch_label": "gpt-6-astra/xhigh",
+    "different_model": "UNTESTED",
+    "argument": "independently reconstructed from declared question/sources",
+    "implementation": "two independently assembled coordinate/covariant routines; coordinate method overlaps author; shared SymPy1.13.1",
+    "author_replays": "same-code regression",
+    "human_formal_review": "UNTESTED"
+  },
+  "premise_audit": {
+    "parent_receipts": "prebank358 and postbank361 authenticated/reused, not duplicated; snapshot correspondence only",
+    "initial_head": "32d23fb47dc4e440acc8c721aef6cb8201796ded",
+    "later_readonly_head": "e1d165c65c857c8c4e4e343b605482f3da0f19b6",
+    "branch": "grok",
+    "source_snapshot_changes_observed": [
+      "parent banking EXECUTION_RECORD.md only"
+    ],
+    "new_remote_freshness_claim": false
+  },
+  "resources": {
+    "memory_bytes": 536870912,
+    "cpu_wall_seconds_per_capture": 60,
+    "library_threads": 1,
+    "grid_gpu": false,
+    "first_clock_sample_utc": "2026-09-08T20:50:43+00:00",
+    "exact_launch_second": "NOT_SEPARATELY_CAPTURED; dispatch read preceded first clock sample",
+    "conservative_deadline_utc": "2026-09-08T21:35:00+00:00"
+  },
+  "omissions": [
+    "numerical global TT/constraint/Cauchy solves",
+    "explicit frequency/amplitude/lifetime bounds",
+    "genericity or complete invariant-data census",
+    "long-time/arbitrary-slicing or excluded-limit claims",
+    "external PDE theorem reproof",
+    "original source suites/full audit/synchronization replay",
+    "physical validation, protected payloads, archives and raw grids",
+    "host-wide process/backup certification",
+    "other-model/human/formal proof",
+    "promotion/canon/manuscript/shared Git changes"
+  ],
+  "report": "REVIEW_REPORT.md",
+  "recorded_utc": "2026-09-08T21:05:55.513139+00:00"
+}

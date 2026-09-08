@@ -1,0 +1,167 @@
+{
+  "kind": "assembly and byte-correspondence verification, not scientific evidence",
+  "utc": "2026-09-08T20:43:36.648005+00:00",
+  "head": "32d23fb47dc4e440acc8c721aef6cb8201796ded",
+  "branch": "grok",
+  "all_assembly_checks_passed": true,
+  "retained_expected_receipts": [
+    {
+      "prefix": "source_first_run",
+      "returncode": 0,
+      "duration_seconds": 0.0216345899971202,
+      "maxrss_kib": 11136
+    },
+    {
+      "prefix": "author_replay_driver",
+      "returncode": 0,
+      "duration_seconds": 0.8775968400004786,
+      "maxrss_kib": 43460
+    },
+    {
+      "prefix": "false_pass_either_axis",
+      "returncode": 0,
+      "duration_seconds": 0.15569464600412175,
+      "maxrss_kib": 46760
+    },
+    {
+      "prefix": "catch_either_axis",
+      "returncode": 1,
+      "duration_seconds": 0.16143004098557867,
+      "maxrss_kib": 46104
+    }
+  ],
+  "source_snapshot_changes": [
+    {
+      "path": "AGENTS.md",
+      "sealed_sha256": "e53221344ab5aaf687cfc9b48a94c94b476fa4ad34b8964995601a77a5239970",
+      "current_sha256": "6c992f5317b05ac4a02f7ab7995c00af4182d82361d41e1456cd3ce1352836f8",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "LIVE.md",
+      "sealed_sha256": "faaa146d81f8bd441ff7b8ccc647628dc422ba38072ef1bf0d8a6dffb929adb9",
+      "current_sha256": "220ea1f2b3642b74693ce35b8c7029e50eef26d36e7c34f83247597ce616bc00",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "HANDOFF.md",
+      "sealed_sha256": "b9f3740f20c0cb5aa3d835a6fb1b984eb8c1a2190dd8694eb8d73b4f2afcb964",
+      "current_sha256": "a6923f3e0826727320c8d69c65bc9f0322f59633400f6868cf1f88d29b0b2c00",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sealed_sha256": "89b9160b289152965193a9038b19e04d4e4a3ef2d2f5143265209860a3478658",
+      "current_sha256": "17c24fc80e4a32fe50b1a4bf26e83bd8ac8a93a5332c99fadb4d48fabe25a981",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sealed_sha256": "4d45673f58d9c180a6d774c917d6b776578933c962227cfb9ce1bcf218579dd0",
+      "current_sha256": "0f0b82c259c03b0549a667df5f4e97d564cef5a71879fd9163f3da78c7a7b32d",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sealed_sha256": "2bb885062dce0f47f7ea37562aee882d5d5d41f25cb539e9dd37755bbe722b63",
+      "current_sha256": "8984ebb242864dbb9a77d65847713acf8befc90a4904a25a59fcc13ef4eb6446",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "verify_current_scientific_premises.py",
+      "sealed_sha256": "5eac2b421d52b7b45e060332d4b2c2d333e57f177f4103f9c30abf9e28df0540",
+      "current_sha256": "6c931bfec4b95b7c720eebe154c270fc725899106c6b7aaac21b41c5984c1854",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "INDEX.md",
+      "sealed_sha256": "5a2c5fa968c2c94f873479970fbdc92b63a53f346120d6208b60b8ec4e4ac995",
+      "current_sha256": "4d993c6f632b1e5f79e193242f1ef781af60e02b89277585b3d654154ad7ebb8",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    },
+    {
+      "path": "MEMORY.md",
+      "sealed_sha256": "e514acf16fd699ede18ff8b1269a279668934c315ea6abcaf5bd1dae0cb8f915",
+      "current_sha256": "7ee5d9bf86a049b2fa149605bbd13b46cf533497ffbbdebaaea1e7e3b0ea1d85",
+      "classification": "concurrent shared surface; not covered by reused snapshot audit"
+    }
+  ],
+  "author_artifact_pins": [
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/CANDIDATE_FREEZE.md",
+      "sha256": "5276ee4859ca0ca0bf3758c122c498a1897f6a58bd397cb8aeddcbae29bf0b8e"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+      "sha256": "35263178061ec4ad2e65add33b43e8f66c008a6447a76bf2fb1263f8f42b92ea"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py",
+      "sha256": "3272d699a432c86f4137505a99e44af18588e942fcf310d375acde35ee7367c9"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/QUESTION.md",
+      "sha256": "1341c99eaa3d36b35c4225d7bfd48bd565f7db0623bdd540a5a7653525e472de"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_baseline.stdout",
+      "sha256": "ac9d854ced7c7b0daf46e66f7a888083a9dc8e1958902062346907083a1c4d41"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_baseline.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_baseline.json",
+      "sha256": "3ea3dfb8af77cbfb8c9aa99f24578605d2fc37c5be4dc555ff0a8daacebddd60"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_integer_only.stdout",
+      "sha256": "8ce33a0f70fa93db22e15cb0dce404ecc3b8e9531e941145e9631b7d1a1a811b"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_integer_only.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_integer_only.json",
+      "sha256": "09085451ab5f153acf3a02af9d48e648bd8e4b87bdda2b6060961eb1d77a22b6"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_all_rational_regular.stdout",
+      "sha256": "7f50a9181e6b0c6915022f9a5d2173e8f20dad7cef6d453b0f7f2beea3ef1ef7"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_all_rational_regular.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_all_rational_regular.json",
+      "sha256": "f29fc633b56c5790570894221eecd530b98386b416b39a53573270a907d657e1"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_wrong_period.stdout",
+      "sha256": "6761c51307956496340a0c1dc3f44cdf6e37781f6174ac65e1dd15fcb8cc72c9"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_wrong_period.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_wrong_period.json",
+      "sha256": "75dc7828d9d5426f97d68677819c6368188e0fbae19a13487030f2706ce3859a"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_swap_axes.stdout",
+      "sha256": "c8d891b108f82ee5988c7756c24cc13ba605768cd001d43bad0ed79285699b68"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_swap_axes.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_swap_axes.json",
+      "sha256": "8ed52670c41720657ab9c3ba70639a7090ff4d480fb0094cdfc4182580612061"
+    }
+  ]
+}

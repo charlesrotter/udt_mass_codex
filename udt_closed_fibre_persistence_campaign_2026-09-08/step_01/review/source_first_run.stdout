@@ -1,0 +1,2474 @@
+{
+  "scope": "finite exact rational/Cartesian checks; proof owns real/smooth quantifiers",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "cases": [
+    {
+      "p": 1,
+      "q": 1,
+      "slope": "1",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 2,
+      "slope": "1/2",
+      "interior_period_in_2pi": 2,
+      "axis0_holonomy_order": 2,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "slope": "1/3",
+      "interior_period_in_2pi": 3,
+      "axis0_holonomy_order": 3,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 4,
+      "slope": "1/4",
+      "interior_period_in_2pi": 4,
+      "axis0_holonomy_order": 4,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 5,
+      "slope": "1/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 6,
+      "slope": "1/6",
+      "interior_period_in_2pi": 6,
+      "axis0_holonomy_order": 6,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 7,
+      "slope": "1/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 8,
+      "slope": "1/8",
+      "interior_period_in_2pi": 8,
+      "axis0_holonomy_order": 8,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 1,
+      "q": 9,
+      "slope": "1/9",
+      "interior_period_in_2pi": 9,
+      "axis0_holonomy_order": 9,
+      "axis1_holonomy_order": 1
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "slope": "2",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 2
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "slope": "2/3",
+      "interior_period_in_2pi": 3,
+      "axis0_holonomy_order": 3,
+      "axis1_holonomy_order": 2
+    },
+    {
+      "p": 2,
+      "q": 5,
+      "slope": "2/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 2
+    },
+    {
+      "p": 2,
+      "q": 7,
+      "slope": "2/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 2
+    },
+    {
+      "p": 2,
+      "q": 9,
+      "slope": "2/9",
+      "interior_period_in_2pi": 9,
+      "axis0_holonomy_order": 9,
+      "axis1_holonomy_order": 2
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "slope": "3",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 3
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "slope": "3/2",
+      "interior_period_in_2pi": 2,
+      "axis0_holonomy_order": 2,
+      "axis1_holonomy_order": 3
+    },
+    {
+      "p": 3,
+      "q": 4,
+      "slope": "3/4",
+      "interior_period_in_2pi": 4,
+      "axis0_holonomy_order": 4,
+      "axis1_holonomy_order": 3
+    },
+    {
+      "p": 3,
+      "q": 5,
+      "slope": "3/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 3
+    },
+    {
+      "p": 3,
+      "q": 7,
+      "slope": "3/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 3
+    },
+    {
+      "p": 3,
+      "q": 8,
+      "slope": "3/8",
+      "interior_period_in_2pi": 8,
+      "axis0_holonomy_order": 8,
+      "axis1_holonomy_order": 3
+    },
+    {
+      "p": 4,
+      "q": 1,
+      "slope": "4",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 4
+    },
+    {
+      "p": 4,
+      "q": 3,
+      "slope": "4/3",
+      "interior_period_in_2pi": 3,
+      "axis0_holonomy_order": 3,
+      "axis1_holonomy_order": 4
+    },
+    {
+      "p": 4,
+      "q": 5,
+      "slope": "4/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 4
+    },
+    {
+      "p": 4,
+      "q": 7,
+      "slope": "4/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 4
+    },
+    {
+      "p": 4,
+      "q": 9,
+      "slope": "4/9",
+      "interior_period_in_2pi": 9,
+      "axis0_holonomy_order": 9,
+      "axis1_holonomy_order": 4
+    },
+    {
+      "p": 5,
+      "q": 1,
+      "slope": "5",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 2,
+      "slope": "5/2",
+      "interior_period_in_2pi": 2,
+      "axis0_holonomy_order": 2,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 3,
+      "slope": "5/3",
+      "interior_period_in_2pi": 3,
+      "axis0_holonomy_order": 3,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 4,
+      "slope": "5/4",
+      "interior_period_in_2pi": 4,
+      "axis0_holonomy_order": 4,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 6,
+      "slope": "5/6",
+      "interior_period_in_2pi": 6,
+      "axis0_holonomy_order": 6,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 7,
+      "slope": "5/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 8,
+      "slope": "5/8",
+      "interior_period_in_2pi": 8,
+      "axis0_holonomy_order": 8,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 5,
+      "q": 9,
+      "slope": "5/9",
+      "interior_period_in_2pi": 9,
+      "axis0_holonomy_order": 9,
+      "axis1_holonomy_order": 5
+    },
+    {
+      "p": 6,
+      "q": 1,
+      "slope": "6",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 6
+    },
+    {
+      "p": 6,
+      "q": 5,
+      "slope": "6/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 6
+    },
+    {
+      "p": 6,
+      "q": 7,
+      "slope": "6/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 6
+    },
+    {
+      "p": 7,
+      "q": 1,
+      "slope": "7",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 2,
+      "slope": "7/2",
+      "interior_period_in_2pi": 2,
+      "axis0_holonomy_order": 2,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 3,
+      "slope": "7/3",
+      "interior_period_in_2pi": 3,
+      "axis0_holonomy_order": 3,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 4,
+      "slope": "7/4",
+      "interior_period_in_2pi": 4,
+      "axis0_holonomy_order": 4,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 5,
+      "slope": "7/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 6,
+      "slope": "7/6",
+      "interior_period_in_2pi": 6,
+      "axis0_holonomy_order": 6,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 8,
+      "slope": "7/8",
+      "interior_period_in_2pi": 8,
+      "axis0_holonomy_order": 8,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 7,
+      "q": 9,
+      "slope": "7/9",
+      "interior_period_in_2pi": 9,
+      "axis0_holonomy_order": 9,
+      "axis1_holonomy_order": 7
+    },
+    {
+      "p": 8,
+      "q": 1,
+      "slope": "8",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 8
+    },
+    {
+      "p": 8,
+      "q": 3,
+      "slope": "8/3",
+      "interior_period_in_2pi": 3,
+      "axis0_holonomy_order": 3,
+      "axis1_holonomy_order": 8
+    },
+    {
+      "p": 8,
+      "q": 5,
+      "slope": "8/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 8
+    },
+    {
+      "p": 8,
+      "q": 7,
+      "slope": "8/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 8
+    },
+    {
+      "p": 8,
+      "q": 9,
+      "slope": "8/9",
+      "interior_period_in_2pi": 9,
+      "axis0_holonomy_order": 9,
+      "axis1_holonomy_order": 8
+    },
+    {
+      "p": 9,
+      "q": 1,
+      "slope": "9",
+      "interior_period_in_2pi": 1,
+      "axis0_holonomy_order": 1,
+      "axis1_holonomy_order": 9
+    },
+    {
+      "p": 9,
+      "q": 2,
+      "slope": "9/2",
+      "interior_period_in_2pi": 2,
+      "axis0_holonomy_order": 2,
+      "axis1_holonomy_order": 9
+    },
+    {
+      "p": 9,
+      "q": 4,
+      "slope": "9/4",
+      "interior_period_in_2pi": 4,
+      "axis0_holonomy_order": 4,
+      "axis1_holonomy_order": 9
+    },
+    {
+      "p": 9,
+      "q": 5,
+      "slope": "9/5",
+      "interior_period_in_2pi": 5,
+      "axis0_holonomy_order": 5,
+      "axis1_holonomy_order": 9
+    },
+    {
+      "p": 9,
+      "q": 7,
+      "slope": "9/7",
+      "interior_period_in_2pi": 7,
+      "axis0_holonomy_order": 7,
+      "axis1_holonomy_order": 9
+    },
+    {
+      "p": 9,
+      "q": 8,
+      "slope": "9/8",
+      "interior_period_in_2pi": 8,
+      "axis0_holonomy_order": 8,
+      "axis1_holonomy_order": 9
+    }
+  ],
+  "checks": [
+    {
+      "name": "interior_return_1_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_1",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_2",
+      "actual": "[2]",
+      "expected": "[2]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_2",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_2",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_2",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_2",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_3",
+      "actual": "[3]",
+      "expected": "[3]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_3",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_3",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_4",
+      "actual": "[4]",
+      "expected": "[4]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_4",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_4",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_4",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_4",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_5",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_6",
+      "actual": "[6]",
+      "expected": "[6]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_6",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_6",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_6",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_6",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_7",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_8",
+      "actual": "[8]",
+      "expected": "[8]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_8",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_8",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_8",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_8",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "interior_return_1_9",
+      "actual": "[9]",
+      "expected": "[9]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_1_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_1_9",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_1_9",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_1_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "interior_return_2_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_2_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_2_1",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_2_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_2_1",
+      "actual": "1/2",
+      "expected": "1/2",
+      "passed": true
+    },
+    {
+      "name": "interior_return_2_3",
+      "actual": "[3]",
+      "expected": "[3]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_2_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_2_3",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_2_3",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_2_3",
+      "actual": "3/2",
+      "expected": "3/2",
+      "passed": true
+    },
+    {
+      "name": "interior_return_2_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_2_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_2_5",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_2_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_2_5",
+      "actual": "5/2",
+      "expected": "5/2",
+      "passed": true
+    },
+    {
+      "name": "interior_return_2_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_2_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_2_7",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_2_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_2_7",
+      "actual": "7/2",
+      "expected": "7/2",
+      "passed": true
+    },
+    {
+      "name": "interior_return_2_9",
+      "actual": "[9]",
+      "expected": "[9]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_2_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_2_9",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_2_9",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_2_9",
+      "actual": "9/2",
+      "expected": "9/2",
+      "passed": true
+    },
+    {
+      "name": "interior_return_3_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_3_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_3_1",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_3_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_3_1",
+      "actual": "1/3",
+      "expected": "1/3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_3_2",
+      "actual": "[2]",
+      "expected": "[2]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_3_2",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_3_2",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_3_2",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_3_2",
+      "actual": "2/3",
+      "expected": "2/3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_3_4",
+      "actual": "[4]",
+      "expected": "[4]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_3_4",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_3_4",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_3_4",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_3_4",
+      "actual": "4/3",
+      "expected": "4/3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_3_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_3_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_3_5",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_3_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_3_5",
+      "actual": "5/3",
+      "expected": "5/3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_3_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_3_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_3_7",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_3_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_3_7",
+      "actual": "7/3",
+      "expected": "7/3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_3_8",
+      "actual": "[8]",
+      "expected": "[8]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_3_8",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_3_8",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_3_8",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_3_8",
+      "actual": "8/3",
+      "expected": "8/3",
+      "passed": true
+    },
+    {
+      "name": "interior_return_4_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_4_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_4_1",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_4_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_4_1",
+      "actual": "1/4",
+      "expected": "1/4",
+      "passed": true
+    },
+    {
+      "name": "interior_return_4_3",
+      "actual": "[3]",
+      "expected": "[3]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_4_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_4_3",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_4_3",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_4_3",
+      "actual": "3/4",
+      "expected": "3/4",
+      "passed": true
+    },
+    {
+      "name": "interior_return_4_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_4_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_4_5",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_4_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_4_5",
+      "actual": "5/4",
+      "expected": "5/4",
+      "passed": true
+    },
+    {
+      "name": "interior_return_4_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_4_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_4_7",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_4_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_4_7",
+      "actual": "7/4",
+      "expected": "7/4",
+      "passed": true
+    },
+    {
+      "name": "interior_return_4_9",
+      "actual": "[9]",
+      "expected": "[9]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_4_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_4_9",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_4_9",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_4_9",
+      "actual": "9/4",
+      "expected": "9/4",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_1",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_1",
+      "actual": "1/5",
+      "expected": "1/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_2",
+      "actual": "[2]",
+      "expected": "[2]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_2",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_2",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_2",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_2",
+      "actual": "2/5",
+      "expected": "2/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_3",
+      "actual": "[3]",
+      "expected": "[3]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_3",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_3",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_3",
+      "actual": "3/5",
+      "expected": "3/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_4",
+      "actual": "[4]",
+      "expected": "[4]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_4",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_4",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_4",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_4",
+      "actual": "4/5",
+      "expected": "4/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_6",
+      "actual": "[6]",
+      "expected": "[6]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_6",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_6",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_6",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_6",
+      "actual": "6/5",
+      "expected": "6/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_7",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_7",
+      "actual": "7/5",
+      "expected": "7/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_8",
+      "actual": "[8]",
+      "expected": "[8]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_8",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_8",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_8",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_8",
+      "actual": "8/5",
+      "expected": "8/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_5_9",
+      "actual": "[9]",
+      "expected": "[9]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_5_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_5_9",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_5_9",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_5_9",
+      "actual": "9/5",
+      "expected": "9/5",
+      "passed": true
+    },
+    {
+      "name": "interior_return_6_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_6_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_6_1",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_6_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_6_1",
+      "actual": "1/6",
+      "expected": "1/6",
+      "passed": true
+    },
+    {
+      "name": "interior_return_6_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_6_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_6_5",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_6_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_6_5",
+      "actual": "5/6",
+      "expected": "5/6",
+      "passed": true
+    },
+    {
+      "name": "interior_return_6_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_6_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_6_7",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_6_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_6_7",
+      "actual": "7/6",
+      "expected": "7/6",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_1",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_1",
+      "actual": "1/7",
+      "expected": "1/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_2",
+      "actual": "[2]",
+      "expected": "[2]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_2",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_2",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_2",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_2",
+      "actual": "2/7",
+      "expected": "2/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_3",
+      "actual": "[3]",
+      "expected": "[3]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_3",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_3",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_3",
+      "actual": "3/7",
+      "expected": "3/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_4",
+      "actual": "[4]",
+      "expected": "[4]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_4",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_4",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_4",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_4",
+      "actual": "4/7",
+      "expected": "4/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_5",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_5",
+      "actual": "5/7",
+      "expected": "5/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_6",
+      "actual": "[6]",
+      "expected": "[6]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_6",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_6",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_6",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_6",
+      "actual": "6/7",
+      "expected": "6/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_8",
+      "actual": "[8]",
+      "expected": "[8]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_8",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_8",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_8",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_8",
+      "actual": "8/7",
+      "expected": "8/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_7_9",
+      "actual": "[9]",
+      "expected": "[9]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_7_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_7_9",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_7_9",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_7_9",
+      "actual": "9/7",
+      "expected": "9/7",
+      "passed": true
+    },
+    {
+      "name": "interior_return_8_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_8_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_8_1",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_8_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_8_1",
+      "actual": "1/8",
+      "expected": "1/8",
+      "passed": true
+    },
+    {
+      "name": "interior_return_8_3",
+      "actual": "[3]",
+      "expected": "[3]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_8_3",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_8_3",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_8_3",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_8_3",
+      "actual": "3/8",
+      "expected": "3/8",
+      "passed": true
+    },
+    {
+      "name": "interior_return_8_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_8_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_8_5",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_8_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_8_5",
+      "actual": "5/8",
+      "expected": "5/8",
+      "passed": true
+    },
+    {
+      "name": "interior_return_8_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_8_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_8_7",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_8_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_8_7",
+      "actual": "7/8",
+      "expected": "7/8",
+      "passed": true
+    },
+    {
+      "name": "interior_return_8_9",
+      "actual": "[9]",
+      "expected": "[9]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_8_9",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_8_9",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_8_9",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_8_9",
+      "actual": "9/8",
+      "expected": "9/8",
+      "passed": true
+    },
+    {
+      "name": "interior_return_9_1",
+      "actual": "[1]",
+      "expected": "[1]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_9_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_9_1",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_9_1",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_9_1",
+      "actual": "1/9",
+      "expected": "1/9",
+      "passed": true
+    },
+    {
+      "name": "interior_return_9_2",
+      "actual": "[2]",
+      "expected": "[2]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_9_2",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_9_2",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_9_2",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_9_2",
+      "actual": "2/9",
+      "expected": "2/9",
+      "passed": true
+    },
+    {
+      "name": "interior_return_9_4",
+      "actual": "[4]",
+      "expected": "[4]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_9_4",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_9_4",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_9_4",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_9_4",
+      "actual": "4/9",
+      "expected": "4/9",
+      "passed": true
+    },
+    {
+      "name": "interior_return_9_5",
+      "actual": "[5]",
+      "expected": "[5]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_9_5",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_9_5",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_9_5",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_9_5",
+      "actual": "5/9",
+      "expected": "5/9",
+      "passed": true
+    },
+    {
+      "name": "interior_return_9_7",
+      "actual": "[7]",
+      "expected": "[7]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_9_7",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_9_7",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_9_7",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_9_7",
+      "actual": "7/9",
+      "expected": "7/9",
+      "passed": true
+    },
+    {
+      "name": "interior_return_9_8",
+      "actual": "[8]",
+      "expected": "[8]",
+      "passed": true
+    },
+    {
+      "name": "axis0_order_9_8",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "name": "axis1_order_9_8",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "name": "both_axes_trivial_9_8",
+      "actual": "False",
+      "expected": "False",
+      "passed": true
+    },
+    {
+      "name": "axis1_time_9_8",
+      "actual": "8/9",
+      "expected": "8/9",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_1",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_2/3",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_2/3",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_7/5",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))_7/5",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_1",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_2/3",
+      "actual": "4/9",
+      "expected": "4/9",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_2/3",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_7/5",
+      "actual": "49/25",
+      "expected": "49/25",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1))_7/5",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_1",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_2/3",
+      "actual": "29/45",
+      "expected": "29/45",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_2/3",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_7/5",
+      "actual": "1009/625",
+      "expected": "1009/625",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(3, 5), Fraction(0, 1), Fraction(4, 5), Fraction(0, 1))_7/5",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_1",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_1",
+      "actual": "1",
+      "expected": "1",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_1",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_2/3",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_2/3",
+      "actual": "13/18",
+      "expected": "13/18",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_2/3",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "tangency_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "s_conserved_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_7/5",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "norm_formula_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_7/5",
+      "actual": "37/25",
+      "expected": "37/25",
+      "passed": true
+    },
+    {
+      "name": "nonzero_(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))_7/5",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "reduce_6_4_axis0",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "reduce_6_4_axis1",
+      "actual": "3",
+      "expected": "3",
+      "passed": true
+    },
+    {
+      "name": "rescale_speed_same_3_2",
+      "actual": "3/2",
+      "expected": "3/2",
+      "passed": true
+    },
+    {
+      "name": "invert_leaf_orientation_order",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "rational_implies_regular",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "one_trivial_axis_suffices",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "other_trivial_axis_suffices",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "near_one_implies_regular",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    }
+  ],
+  "defect_catches": [
+    {
+      "mutation": "rational_implies_regular",
+      "proposed_regular": true,
+      "actual_axis_orders": [
+        2,
+        3
+      ],
+      "caught": true
+    },
+    {
+      "mutation": "one_trivial_axis_suffices",
+      "proposed_regular": true,
+      "actual_axis_orders": [
+        1,
+        2
+      ],
+      "caught": true
+    },
+    {
+      "mutation": "other_trivial_axis_suffices",
+      "proposed_regular": true,
+      "actual_axis_orders": [
+        2,
+        1
+      ],
+      "caught": true
+    },
+    {
+      "mutation": "near_one_implies_regular",
+      "proposed_regular": true,
+      "actual_axis_orders": [
+        100,
+        101
+      ],
+      "caught": true
+    }
+  ],
+  "all_passed": true
+}

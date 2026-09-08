@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/check_campaign_assembly.py", line 58, in <module>
+    check(f'nonempty_CF{step}_freeze',len(pins)>=3)
+  File "/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/check_campaign_assembly.py", line 20, in check
+    assert x,n
+AssertionError: nonempty_CF1_freeze

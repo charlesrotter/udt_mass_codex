@@ -1,0 +1,622 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "polarization_trace",
+      "pass": true
+    },
+    {
+      "name": "polarization_transverse",
+      "pass": true
+    },
+    {
+      "name": "polarization_mixed",
+      "pass": true
+    },
+    {
+      "name": "conjugation_even",
+      "pass": true
+    },
+    {
+      "name": "Hopf_norm",
+      "pass": true
+    },
+    {
+      "name": "angular_symbol",
+      "pass": true
+    },
+    {
+      "name": "exact_symbol_projection",
+      "pass": true
+    },
+    {
+      "name": "projection_fixes_E",
+      "pass": true
+    },
+    {
+      "name": "order_three_real_phase",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_1_3/2_1/3_even",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_1_3/2_1/3_even",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_1_3/2_1/3_even",
+      "pass": true
+    },
+    {
+      "name": "radial_parity_1_3/2_1/3_even",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_1_3/2_1/3_even",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_1_3/2_1/3_all_entries",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_1_3/2_1/3_all_entries",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_1_3/2_1/3_all_entries",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_1_3/2_1/3_all_entries",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_1_3/2_1/3_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_1_3/2_1/3_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_1_3/2_1/3_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "pure_trace_Ricci_survivor_1_3/2_1/3_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "pure_trace_line_survivor_1_3/2_1/3_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_1_3/2_1/3_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_2_1_2/5_even",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_2_1_2/5_even",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_2_1_2/5_even",
+      "pass": true
+    },
+    {
+      "name": "radial_parity_2_1_2/5_even",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_2_1_2/5_even",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_2_1_2/5_all_entries",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_2_1_2/5_all_entries",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_2_1_2/5_all_entries",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_2_1_2/5_all_entries",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_2_1_2/5_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_2_1_2/5_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_2_1_2/5_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "pure_trace_Ricci_survivor_2_1_2/5_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "pure_trace_line_survivor_2_1_2/5_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_2_1_2/5_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_1_3_1/4_even",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_1_3_1/4_even",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_1_3_1/4_even",
+      "pass": true
+    },
+    {
+      "name": "radial_parity_1_3_1/4_even",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_1_3_1/4_even",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_1_3_1/4_all_entries",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_1_3_1/4_all_entries",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_1_3_1/4_all_entries",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_1_3_1/4_all_entries",
+      "pass": true
+    },
+    {
+      "name": "all9_Ricci_variation_1_3_1/4_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "Ricci_Hopf_branch_1_3_1/4_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "full_image_block_1_3_1/4_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "pure_trace_Ricci_survivor_1_3_1/4_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "pure_trace_line_survivor_1_3_1/4_pure_trace",
+      "pass": true
+    },
+    {
+      "name": "projector_idempotent_derivative_1_3_1/4_pure_trace",
+      "pass": true
+    }
+  ],
+  "mutation_discriminators": {
+    "wrong_S_sign": true,
+    "drop_derivative_index": true,
+    "omit_raising": true,
+    "lambda_h_for_image": true,
+    "omit_moving_dual": true,
+    "Q_plus": true
+  },
+  "symbol_b": "a**2*c**2*s*(s - 1)/((a - c)*(a + c))",
+  "fixtures": [
+    {
+      "name": "1_3/2_1/3_even",
+      "S": [
+        [
+          "465/8",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "68183/1458",
+          "4154/729"
+        ],
+        [
+          "0",
+          "4154/729",
+          "118859/5832"
+        ]
+      ],
+      "Bdot": [
+        [
+          "4081/81",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "41243/972",
+          "-10981/1944"
+        ],
+        [
+          "0",
+          "43897/486",
+          "88939/972"
+        ]
+      ],
+      "Y": [
+        "0",
+        "-3481/540",
+        "3481/270"
+      ],
+      "slope_dot": "3481/120"
+    },
+    {
+      "name": "1_3/2_1/3_all_entries",
+      "S": [
+        [
+          "465/8",
+          "-197/27",
+          "-154/27"
+        ],
+        [
+          "-197/27",
+          "68183/1458",
+          "4154/729"
+        ],
+        [
+          "-154/27",
+          "4154/729",
+          "118859/5832"
+        ]
+      ],
+      "Bdot": [
+        [
+          "4081/81",
+          "0",
+          "0"
+        ],
+        [
+          "-520/81",
+          "41243/972",
+          "-10981/1944"
+        ],
+        [
+          "-520/81",
+          "43897/486",
+          "88939/972"
+        ]
+      ],
+      "Y": [
+        "0",
+        "-3481/540",
+        "3481/270"
+      ],
+      "slope_dot": "3481/120"
+    },
+    {
+      "name": "1_3/2_1/3_pure_trace",
+      "S": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "Bdot": [
+        [
+          "2/3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-34/9",
+          "-20/9"
+        ],
+        [
+          "0",
+          "-40/9",
+          "-14/9"
+        ]
+      ],
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "slope_dot": "0"
+    },
+    {
+      "name": "2_1_2/5_even",
+      "S": [
+        [
+          "105251/5400",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "481/120",
+          "-40507/12500"
+        ],
+        [
+          "0",
+          "-40507/12500",
+          "61651/18750"
+        ]
+      ],
+      "Bdot": [
+        [
+          "119993/22500",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-319889/450000",
+          "339229/75000"
+        ],
+        [
+          "0",
+          "-480927/100000",
+          "1361873/150000"
+        ]
+      ],
+      "Y": [
+        "0",
+        "16477/67500",
+        "-16477/45000"
+      ],
+      "slope_dot": "-16477/27000"
+    },
+    {
+      "name": "2_1_2/5_all_entries",
+      "S": [
+        [
+          "105251/5400",
+          "-699/250",
+          "1203/500"
+        ],
+        [
+          "-699/250",
+          "481/120",
+          "-40507/12500"
+        ],
+        [
+          "1203/500",
+          "-40507/12500",
+          "61651/18750"
+        ]
+      ],
+      "Bdot": [
+        [
+          "119993/22500",
+          "0",
+          "0"
+        ],
+        [
+          "117/50",
+          "-319889/450000",
+          "339229/75000"
+        ],
+        [
+          "117/50",
+          "-480927/100000",
+          "1361873/150000"
+        ]
+      ],
+      "Y": [
+        "0",
+        "16477/67500",
+        "-16477/45000"
+      ],
+      "slope_dot": "-16477/27000"
+    },
+    {
+      "name": "2_1_2/5_pure_trace",
+      "S": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "Bdot": [
+        [
+          "-7/6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-17/30",
+          "2/5"
+        ],
+        [
+          "0",
+          "3/5",
+          "-23/30"
+        ]
+      ],
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "slope_dot": "0"
+    },
+    {
+      "name": "1_3_1/4_even",
+      "S": [
+        [
+          "-4727/27",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "287971/192",
+          "50617/96"
+        ],
+        [
+          "0",
+          "50617/96",
+          "39565/192"
+        ]
+      ],
+      "Bdot": [
+        [
+          "-22877/144",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4661/144",
+          "931/18"
+        ],
+        [
+          "0",
+          "18143/18",
+          "7903/48"
+        ]
+      ],
+      "Y": [
+        "0",
+        "-2177/768",
+        "2177/256"
+      ],
+      "slope_dot": "2177/64"
+    },
+    {
+      "name": "1_3_1/4_all_entries",
+      "S": [
+        [
+          "-4727/27",
+          "0",
+          "-189/4"
+        ],
+        [
+          "0",
+          "287971/192",
+          "50617/96"
+        ],
+        [
+          "-189/4",
+          "50617/96",
+          "39565/192"
+        ]
+      ],
+      "Bdot": [
+        [
+          "-22877/144",
+          "0",
+          "0"
+        ],
+        [
+          "-28/3",
+          "4661/144",
+          "931/18"
+        ],
+        [
+          "-28/3",
+          "18143/18",
+          "7903/48"
+        ]
+      ],
+      "Y": [
+        "0",
+        "-2177/768",
+        "2177/256"
+      ],
+      "slope_dot": "2177/64"
+    },
+    {
+      "name": "1_3_1/4_pure_trace",
+      "S": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "Bdot": [
+        [
+          "56/3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-40/3",
+          "-32/3"
+        ],
+        [
+          "0",
+          "-32",
+          "8"
+        ]
+      ],
+      "Y": [
+        "0",
+        "0",
+        "0"
+      ],
+      "slope_dot": "0"
+    }
+  ],
+  "limits": "Exact local algebra controls, not global TT or PDE numerical witnesses. Analytic proof owns existence and closure."
+}

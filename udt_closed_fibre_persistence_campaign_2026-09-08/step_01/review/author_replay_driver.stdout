@@ -1,0 +1,78 @@
+{
+  "kind": "same-code regression, not implementation independence",
+  "rows": [
+    {
+      "mode": "baseline",
+      "actual_returncode": 0,
+      "failed_guards": [],
+      "passed": 29,
+      "saved_stdout_byte_identical": true,
+      "wrapper_stdout": "{\"address_space_bytes\": 536870912, \"command\": [\"/usr/bin/python3\", \"-B\", \"/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py\", \"baseline\"], \"cpu_seconds\": 60, \"cwd\": \"/home/udt-admin/udt_mass_codex\", \"duration_seconds\": 0.1517091809946578, \"maxrss_kib\": 43456, \"returncode\": 0, \"started_utc\": \"2026-09-08T20:37:47.478079+00:00\", \"timeout\": false}\n",
+      "wrapper_stderr": ""
+    },
+    {
+      "mode": "integer_only",
+      "actual_returncode": 1,
+      "failed_guards": [
+        "closure_3/2",
+        "closure_2/3",
+        "closure_7/5",
+        "closure_5/7",
+        "rational_sampling_false_pass_retained"
+      ],
+      "passed": 24,
+      "saved_stdout_byte_identical": true,
+      "wrapper_stdout": "{\"address_space_bytes\": 536870912, \"command\": [\"/usr/bin/python3\", \"-B\", \"/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py\", \"integer_only\"], \"cpu_seconds\": 60, \"cwd\": \"/home/udt-admin/udt_mass_codex\", \"duration_seconds\": 0.1503635499975644, \"maxrss_kib\": 43460, \"returncode\": 1, \"started_utc\": \"2026-09-08T20:37:47.648454+00:00\", \"timeout\": false}\n",
+      "wrapper_stderr": ""
+    },
+    {
+      "mode": "all_rational_regular",
+      "actual_returncode": 1,
+      "failed_guards": [
+        "regular_3/2",
+        "regular_2/3",
+        "regular_7/5",
+        "regular_5/7"
+      ],
+      "passed": 25,
+      "saved_stdout_byte_identical": true,
+      "wrapper_stdout": "{\"address_space_bytes\": 536870912, \"command\": [\"/usr/bin/python3\", \"-B\", \"/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py\", \"all_rational_regular\"], \"cpu_seconds\": 60, \"cwd\": \"/home/udt-admin/udt_mass_codex\", \"duration_seconds\": 0.15362254899810068, \"maxrss_kib\": 43184, \"returncode\": 1, \"started_utc\": \"2026-09-08T20:37:47.816927+00:00\", \"timeout\": false}\n",
+      "wrapper_stderr": ""
+    },
+    {
+      "mode": "wrong_period",
+      "actual_returncode": 1,
+      "failed_guards": [
+        "interior_period_3/2",
+        "interior_period_2/3",
+        "interior_period_7/5",
+        "interior_period_5/7"
+      ],
+      "passed": 25,
+      "saved_stdout_byte_identical": true,
+      "wrapper_stdout": "{\"address_space_bytes\": 536870912, \"command\": [\"/usr/bin/python3\", \"-B\", \"/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py\", \"wrong_period\"], \"cpu_seconds\": 60, \"cwd\": \"/home/udt-admin/udt_mass_codex\", \"duration_seconds\": 0.15449937799712643, \"maxrss_kib\": 43432, \"returncode\": 1, \"started_utc\": \"2026-09-08T20:37:47.988329+00:00\", \"timeout\": false}\n",
+      "wrapper_stderr": ""
+    },
+    {
+      "mode": "swap_axes",
+      "actual_returncode": 1,
+      "failed_guards": [
+        "axis_holonomy_orders_3/2",
+        "axis_holonomy_orders_2/3",
+        "axis_holonomy_orders_7/5",
+        "axis_holonomy_orders_5/7"
+      ],
+      "passed": 25,
+      "saved_stdout_byte_identical": true,
+      "wrapper_stdout": "{\"address_space_bytes\": 536870912, \"command\": [\"/usr/bin/python3\", \"-B\", \"/home/udt-admin/udt_mass_codex/udt_closed_fibre_persistence_campaign_2026-09-08/step_01/check_cf1.py\", \"swap_axes\"], \"cpu_seconds\": 60, \"cwd\": \"/home/udt-admin/udt_mass_codex\", \"duration_seconds\": 0.15374087300733663, \"maxrss_kib\": 43096, \"returncode\": 1, \"started_utc\": \"2026-09-08T20:37:48.160398+00:00\", \"timeout\": false}\n",
+      "wrapper_stderr": ""
+    }
+  ],
+  "all_expected_outcomes": true,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

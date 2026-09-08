@@ -1,0 +1,122 @@
+{
+  "status": "PASS_CORRESPONDENCE_ONLY",
+  "recorded_utc": "2026-09-08T21:10:15.935520+00:00",
+  "HEAD": "e1d165c65c857c8c4e4e343b605482f3da0f19b6",
+  "branch": "grok",
+  "source_snapshot_changes": {
+    "udt_g376_g378_conditional_banking_2026-09-08/EXECUTION_RECORD.md": {
+      "sealed": "41f5cc74c6b6286cef412f4217751f1d3eb41f6464885d4f8acce03806ea3276",
+      "current": "45659bd6b911582d2c519ab67fb4c1a47cbedd84b11b997970c3d4b927f1d915"
+    }
+  },
+  "author_freeze_pins": {
+    "QUESTION.md": true,
+    "CANDIDATE_INITIAL.md": true,
+    "check_cf2.py": true,
+    "check_baseline.stdout": true
+  },
+  "parent_audits": {
+    "prebank_358": {
+      "receipt_sha256": "70acf575ef75ad52700317b2f6ef2ac2c0be2d59e08fb05915a4e3b9fddfd745",
+      "separate_streams_match": true,
+      "replayed": false
+    },
+    "postbank_361": {
+      "receipt_sha256": "44d5f9c7f6b33ba545bd5703a1aff6e64f03fbf0bf65dbf7cf4a8019560779c7",
+      "separate_streams_match": true,
+      "replayed": false
+    }
+  },
+  "captures": {
+    "source_first_check": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/review/independent_check.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T20:58:04.626578+00:00",
+      "duration_seconds": 0.9532577030186076,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 50852
+    },
+    "post_exposure_check": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/review/post_exposure_check.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T21:02:24.680440+00:00",
+      "duration_seconds": 28.736358143010875,
+      "returncode": 1,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 73236
+    },
+    "post_exposure_check_corrected": {
+      "command": [
+        "python3",
+        "-B",
+        "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/review/post_exposure_check.py"
+      ],
+      "cwd": "/home/udt-admin/udt_mass_codex",
+      "started_utc": "2026-09-08T21:04:32.797821+00:00",
+      "duration_seconds": 46.405555942998035,
+      "returncode": 0,
+      "timeout": false,
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "maxrss_kib": 68864
+    }
+  },
+  "author_file_sha256": {
+    "check_omit_inverse.json": "6bf46ddaa47b15c1ccaa7d7a4a13dbe85702a83bbeb3760c08ab66d220bcdaae",
+    "check_kill_polarization.stdout": "6c42a7c56d2a12e7d58190399d5b5e01e0124cf198f942421fc929dc3497b95a",
+    "check_baseline.stdout": "25fb61d35b5457c1938443da6451e2ab9d5726b59f5c14129f7d9c3e5fb56b5f",
+    "check_baseline.json": "274ca32f977e305fe6a14e63469429d57caafa13ff06f0ab65de6e6c8a4f55e5",
+    "QUESTION.md": "adbbfead8a28e3a998585545567580acecd89d813497f789cf4d84e3a4f50b70",
+    "check_omit_inverse.stdout": "c48403d9207cac64abb16dea4f9305fa65be1a15db2fa25dff3efaf869d56d61",
+    "check_wrong_slope.json": "e37274cdc9b6d41c21106e79d816904529d7531b36de207f5637abedc09222c7",
+    "check_wrong_phase.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CANDIDATE_INITIAL.md": "80a0193cc7f0d3bc43fbe046b6997bc13bd70677f381508eac3a86da4a5433eb",
+    "check_wrong_slope.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check_baseline.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check_wrong_slope.stdout": "28acf5e588b4d3ccaf533641f7a7a397cbbf7fa9e1813e3b0edd7a28130054bb",
+    "check_omit_inverse.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check_wrong_phase.json": "69ae9b6eb40301fd0b98e9a1db5a85a16e22a7d2be92b8a56bac4e6c5e96ca6b",
+    "check_wrong_phase.stdout": "88efb672a32f0ba22d8205d5ddc1a50659e79125a029a341a50480744d05fa7d",
+    "check_kill_polarization.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "REVIEW_DISPATCH.md": "1776be214d1bdd43896490948d71e2054f92ea1e3202f66ae0cfcc3146d4455d",
+    "CANDIDATE_FREEZE.md": "e69ac41987d57b1f97de98f2821c91cd977b51c9b6cb930602bacff5b9944091",
+    "check_kill_polarization.json": "cab0ef7cd2b508df07b9ceda00510f5ccaadc95e637d569b70510476b7a9993e",
+    "check_cf2.py": "be55afd0794b4b1faadcfc53476db5dd4d5c025656577ea541293af3050247d3"
+  },
+  "review_file_sha256": {
+    "post_exposure_check.stderr": "1f03d80ed981a3e84dca240b318daef2cb42f7dd3b94ee674450fb09a830580c",
+    "post_exposure_check_initial_failed.py": "3628a89f357875bffacf0b5322b9aef2743ab8a2b9741aa1b274e570ef21ccd5",
+    "SOURCE_SNAPSHOT.json": "819bf784277e12ec5f8c843a80b38b987175fc17ee8b4a09d6707e8abd783ada",
+    "source_first_check.json": "c934513c0af1838376f6e0445244ba068ae271302306cd971a6f160c72a84a5e",
+    "source_first_check.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "REVIEWER_PROBE_REPAIR.md": "a6e9da38fbbe1110434af4c81d2abcfee9fb9595967bedf40a12cb94ca482372",
+    "SOURCE_FIRST_ARGUMENT.md": "09d8327fd32932b886b81eb27c35ae4b330c31c03694134bec7295f60366e2ec",
+    "post_exposure_check.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "independent_check.py": "87e085de5cef18ac7f5305a1b426ddf74c5404a55392d6191c0a731c53c73dbe",
+    "post_exposure_check.py": "3141f77491c9fa51efbf7436441b7559892c566928dc3fb651d1a543ac60125c",
+    "post_exposure_check_corrected.stdout": "18b144d972b2d00cb5aeeceed809bc1ea2e73feba257ad6bd2ebe448deebc8b0",
+    "SOURCE_FIRST_SEAL.md": "35f8a90819c250b035d4c91eeed258dfef779c88cadd29297fabe836dcf0e214",
+    "post_exposure_check_corrected.json": "96b6d9b3b0af91d0597e70c5351e1956a04929f33c2e200792b51d167f5cf13b",
+    "REVIEW_DISPOSITION.json": "633e2d437a258f50342a365c307a9f90e65ff7535c8be528331f60a64edc9e03",
+    "EXPOSURE_AND_REVIEW_NOTES.md": "78128a34523963bb9966037e246b8d2cb29d1c122b40103d2755f0867f59ff42",
+    "post_exposure_check_corrected.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "REVIEW_REPORT.md": "9570f12cc70ee86b147df12011d5fbebb839415de0ec72e1d5c6f961b0c12e3d",
+    "source_first_check.stdout": "2b3197b8441b3fe76035a297958fd77cdba4bc7512ed90df45d31372e9074e4a",
+    "post_exposure_check.json": "edb01cdfb75bf5cec13926a6aa5848f46af54e541634d26b92d0040a4ea5c14a",
+    "final_integrity.py": "4d4745cb50190caa7528df976d3ce00745432e425f7811b837244feb6616b805"
+  },
+  "limits": "Hashes/receipts check correspondence; no fresh scientific proof, network sync, full audit or host-wide preservation claim."
+}
