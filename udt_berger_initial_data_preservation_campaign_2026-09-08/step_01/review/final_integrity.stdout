@@ -1,0 +1,234 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "sealed manifest unchanged",
+      "pass": true
+    },
+    {
+      "name": "sealed payload AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload CLAUDE.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload CURRENT_SCIENTIFIC_PREMISES.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "pass": true
+    },
+    {
+      "name": "sealed payload verify_current_scientific_premises.py",
+      "pass": true
+    },
+    {
+      "name": "sealed payload .claude/skills/no-shortcuts/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload .claude/skills/completeness-map/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload .claude/skills/solution-space-not-imposition/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload .claude/skills/verifier-before-record/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/WORK_ORDER.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/QUESTION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/REVIEW_DISPATCH.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/AUDIT_REPORT.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_g337_double_silent_third_normal_ownership_2026-09-03/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_SCOPE.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/SOURCE_FIRST_ARGUMENT.md",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_check.py",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stdout",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stderr",
+      "pass": true
+    },
+    {
+      "name": "sealed payload udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.json",
+      "pass": true
+    },
+    {
+      "name": "source seal unchanged",
+      "pass": true
+    },
+    {
+      "name": "candidate freeze unchanged",
+      "pass": true
+    },
+    {
+      "name": "frozen author payload CANDIDATE_INITIAL.md",
+      "pass": true
+    },
+    {
+      "name": "frozen author payload check_bi1.py",
+      "pass": true
+    },
+    {
+      "name": "frozen author payload author_check_02.stdout",
+      "pass": true
+    },
+    {
+      "name": "author regression exact bytes",
+      "pass": true
+    },
+    {
+      "name": "capture success source_first_run",
+      "pass": true
+    },
+    {
+      "name": "capture resources source_first_run",
+      "pass": true
+    },
+    {
+      "name": "capture success source_first_hashes",
+      "pass": true
+    },
+    {
+      "name": "capture resources source_first_hashes",
+      "pass": true
+    },
+    {
+      "name": "capture success intake_authentication",
+      "pass": true
+    },
+    {
+      "name": "capture resources intake_authentication",
+      "pass": true
+    },
+    {
+      "name": "capture success candidate_comparison",
+      "pass": true
+    },
+    {
+      "name": "capture resources candidate_comparison",
+      "pass": true
+    },
+    {
+      "name": "capture success author_regression",
+      "pass": true
+    },
+    {
+      "name": "capture resources author_regression",
+      "pass": true
+    },
+    {
+      "name": "capture success mutation_probe_run",
+      "pass": true
+    },
+    {
+      "name": "capture resources mutation_probe_run",
+      "pass": true
+    },
+    {
+      "name": "saved exact checks source_first_run",
+      "pass": true
+    },
+    {
+      "name": "saved exact checks intake_authentication",
+      "pass": true
+    },
+    {
+      "name": "saved exact checks candidate_comparison",
+      "pass": true
+    },
+    {
+      "name": "mutation blind spots preserved",
+      "pass": true
+    },
+    {
+      "name": "each mutant code hash",
+      "pass": true
+    },
+    {
+      "name": "final result verdict",
+      "pass": true
+    }
+  ],
+  "closed_utc": "2026-09-08T18:21:13.727857+00:00",
+  "review_artifact_manifest_sha256": {
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/EXECUTION_RECORD.md": "240bf73414e6fc5876bea79149211924f30a538d71876a4d4266f2843f0d03d1",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md": "f68aeba4a80fa7b095122d7ea07bc45e3d0213bddbee1d23d64f96e2cd538c80",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_RESULT.json": "1b4b1a1e0241651827a7ff2ff97b056222d7d8c7637247141e0c1a3db4588b5b",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_SCOPE.md": "2533ffa7c9ae91c8ee742b83e992ad189f07362ba6ae9ad756a6975b72011b8b",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/SOURCE_FIRST_ARGUMENT.md": "4b996ca25ceb6b55a6bc4b8abd2d135618cea71138ddb94c75f9cddf1cfe0d40",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/SOURCE_FIRST_SEAL.md": "eae600025c2602e6fb704497d7b11f0eab2b6c5f08cd56aebb1fd148baed7a6e",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/authenticate_intake.py": "c3dd4cebb594104498e2f7e4b6c0a2c1935479781c859b2d074a38d3abdced4b",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/author_regression.json": "1fc236aa1698708dc7a403964fdb09fd2cf2a6f119d8e1077543fc7fc7210169",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/author_regression.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/author_regression.stdout": "8766710bb1c300614b4edb3adabeca0a653fe3a6323f04ad6c58e1d1a3d8910b",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/candidate_comparison.json": "047180db94a2cdd474541391cfdff3d3c19f5b96db2cb0ca28cfd6c546c7c303",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/candidate_comparison.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/candidate_comparison.stdout": "2481636fb95c08706264b98c6f8e12a1e73999dec79cca899a3453369d58d3ff",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/compare_candidate.py": "5f8ae08031f072243c0457d1b82d8565d9a756fb2e414ad911a1637ec8a5f873",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/final_integrity.py": "603a3a5f63feb720920ec6770f207a002dc899c3b4f7644f123abefa515bcc0e",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/intake_authentication.json": "eb0c6ba148e240f56958ea239a3cc5e8a29cac028bd450dd8ed53214f389ef80",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/intake_authentication.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/intake_authentication.stdout": "28c1f9cc2a2ad2124886747f87f84ece7cc3b9c7c8e123483a9ff98c791dec00",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/mutation_probe.py": "5daa050502f48d14d64bb95caaec80d7924921dbd4a5850934f6aa6e79bd5353",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/mutation_probe_run.json": "86fdac52e1e502e2da2551d5b555135a302edec9d714521a144cb3701765edfe",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/mutation_probe_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/mutation_probe_run.stdout": "7f9dd1404e76d79d13a1b256312885d91e3a648f315b5c4ac22ce9aafc86231d",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_check.py": "68b688510bdece7ba704e0a59bb76f773cf17c57b8f7ff8dbefb3de8a86fa895",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_hashes.json": "9fcb08c543f39da50b802e6cb0d1a82a3dab6799ac70da612988e5c20f44a04a",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_hashes.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_hashes.stdout": "f33db4ea6bb25ebc090ec83bd7b7cbce443484aa22ee1e24430b0efed9227bec",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.json": "9bef857ce51ad7d7df8702f07ee241f9362efc424b7d39b334808921b686c601",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stdout": "7444f2aabdcf89e436ef48997501c3f84f74b3fda1f830aa4fd79e6ba4f7c4b4"
+  },
+  "scope": "Correspondence only; excludes this capture stdout/stderr/receipt because they are generated after this script exits. Final review seal hashes those separately."
+}

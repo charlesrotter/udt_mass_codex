@@ -1,0 +1,457 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "all nine saved Ricci variations equal independent Koszul derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "all nine saved projector variations equal independent result",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "all three saved momentum expressions equal independent result",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 0 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 0 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 0 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 1 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 1 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 1 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 2 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 2 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 2 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 3 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 3 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 3 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 4 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 4 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 4 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 5 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 5 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 5 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 6 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 6 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 6 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 7 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 7 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 7 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 8 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 8 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 8 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 9 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 9 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 9 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 10 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 10 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 10 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 11 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 11 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 11 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 12 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 12 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 12 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 13 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 13 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 13 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 14 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 14 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 14 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 15 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 15 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 15 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 16 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 16 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 16 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "fixture 17 exact Hamiltonian",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "fixture 17 independent momentum",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "fixture 17 independent projector derivative",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "quadric chart inverse",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0], [0]])"
+    },
+    {
+      "name": "quadric exactly original constraint",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadric full sign reversal",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "J bracket automorphism 01",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "J bracket automorphism 12",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "J bracket automorphism 20",
+      "pass": true,
+      "residual": "Matrix([[0], [0], [0]])"
+    },
+    {
+      "name": "J invariance full horizontal-shear K",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "mixed block index/metric identity",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "all allowed homogeneous first image zero",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "all allowed homogeneous full projector zero",
+      "pass": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    }
+  ],
+  "count": 67,
+  "fixtures_recomputed": [
+    {
+      "Hamiltonian": "0",
+      "index": 0,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 1,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 2,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 3,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 4,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 5,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 6,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 7,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 8,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 9,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 10,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 11,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 12,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 13,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 14,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 15,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 16,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "Hamiltonian": "0",
+      "index": 17,
+      "momentum": "Matrix([[0], [0], [0]])",
+      "projector_dot": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    }
+  ],
+  "independence": "author tensors from uncommuted covariant derivatives; reviewer Ricci derivative from sealed differentiated Koszul curvature; common SymPy/brackets and projector identities disclosed",
+  "limits": [
+    "comparison against author output occurred after source-first seal",
+    "symbolic identities support bounded analytic proof, not a smooth constraint census",
+    "J is only used to establish first-jet naturality here; no local development conclusion"
+  ]
+}

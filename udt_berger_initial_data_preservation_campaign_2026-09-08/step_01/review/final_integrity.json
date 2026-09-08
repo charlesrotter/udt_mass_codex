@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/final_integrity.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T18:21:13.711567+00:00",
+  "duration_seconds": 0.01839798002038151,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "maxrss_kib": 14344
+}

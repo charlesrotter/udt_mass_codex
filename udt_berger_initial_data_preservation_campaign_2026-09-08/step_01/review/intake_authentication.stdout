@@ -1,0 +1,342 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "freeze contains three declared payloads",
+      "pass": true
+    },
+    {
+      "name": "frozen CANDIDATE_INITIAL.md",
+      "pass": true
+    },
+    {
+      "name": "frozen check_bi1.py",
+      "pass": true
+    },
+    {
+      "name": "frozen author_check_02.stdout",
+      "pass": true
+    },
+    {
+      "name": "sealed source AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source CLAUDE.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source CURRENT_SCIENTIFIC_PREMISES.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "pass": true
+    },
+    {
+      "name": "sealed source verify_current_scientific_premises.py",
+      "pass": true
+    },
+    {
+      "name": "sealed source .claude/skills/no-shortcuts/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source .claude/skills/completeness-map/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source .claude/skills/solution-space-not-imposition/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source .claude/skills/verifier-before-record/SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/WORK_ORDER.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/QUESTION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/REVIEW_DISPATCH.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/AUDIT_REPORT.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_g337_double_silent_third_normal_ownership_2026-09-03/EXACT_DERIVATION.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_SCOPE.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/SOURCE_FIRST_ARGUMENT.md",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_check.py",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stdout",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stderr",
+      "pass": true
+    },
+    {
+      "name": "sealed source udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.json",
+      "pass": true
+    },
+    {
+      "name": "seal manifest hash",
+      "pass": true
+    },
+    {
+      "name": "source first seal hash",
+      "pass": true
+    },
+    {
+      "name": "parent full audit command",
+      "pass": true
+    },
+    {
+      "name": "parent full audit cwd",
+      "pass": true
+    },
+    {
+      "name": "parent full audit successful no timeout",
+      "pass": true
+    },
+    {
+      "name": "parent full audit 358 row statement",
+      "pass": true
+    },
+    {
+      "name": "parent full audit stdout byte correspondence",
+      "pass": true
+    },
+    {
+      "name": "parent full audit stderr byte correspondence",
+      "pass": true
+    },
+    {
+      "name": "parent full audit resource bounds",
+      "pass": true
+    },
+    {
+      "name": "registry matches audit declaration",
+      "pass": true
+    },
+    {
+      "name": "verifier matches audit declaration",
+      "pass": true
+    },
+    {
+      "name": "local HEAD and origin grok match parent",
+      "pass": true
+    },
+    {
+      "name": "branch grok",
+      "pass": true
+    },
+    {
+      "name": "FETCH_HEAD contains parent snapshot",
+      "pass": true
+    },
+    {
+      "name": "only prefreeze scalar iteration repair",
+      "pass": true
+    },
+    {
+      "name": "saved author output code identity",
+      "pass": true
+    },
+    {
+      "name": "saved author counts/flags",
+      "pass": true
+    }
+  ],
+  "fetch_record": {
+    "content": "8593f11cd96a575be3513d1ec56e92ac4f5811ff\t\tbranch 'grok' of https://github.com/charlesrotter/udt_mass_codex\n",
+    "exists": true,
+    "mtime_ns": 1788889840182454398,
+    "sha256": "61f5d7cec7c57dc3c9bff48520d58195fa1696247733ed638374be3fc8d6cef2"
+  },
+  "git_records": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD",
+        "refs/remotes/origin/grok"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "8593f11cd96a575be3513d1ec56e92ac4f5811ff\n8593f11cd96a575be3513d1ec56e92ac4f5811ff\n"
+    },
+    {
+      "command": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "grok\n"
+    },
+    {
+      "command": [
+        "git",
+        "reflog",
+        "-3",
+        "--date=iso-strict",
+        "refs/remotes/origin/grok"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "8593f11c refs/remotes/origin/grok@{2026-09-08T13:42:18-04:00}: update by push\n09f89bfd refs/remotes/origin/grok@{2026-09-08T13:38:32-04:00}: update by push\n53d52ea3 refs/remotes/origin/grok@{2026-09-08T12:44:10-04:00}: update by push\n"
+    }
+  ],
+  "hashes": {
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/solution-space-not-imposition/SKILL.md": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    ".git/FETCH_HEAD": "61f5d7cec7c57dc3c9bff48520d58195fa1696247733ed638374be3fc8d6cef2",
+    "AGENTS.md": "e53221344ab5aaf687cfc9b48a94c94b476fa4ad34b8964995601a77a5239970",
+    "CLAUDE.md": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "4d45673f58d9c180a6d774c917d6b776578933c962227cfb9ce1bcf218579dd0",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "2bb885062dce0f47f7ea37562aee882d5d5d41f25cb539e9dd37755bbe722b63",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/CAMPAIGN_LOG.md": "b0a8c5196f255052e43ed1dc486ed50a897d76def96b5faf0670e44bf70441c0",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.command.txt": "b344413992e737f54b2f4732d104f49524c355b96baaaee2c52ea932d1ff5e23",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.json": "57f0349a304aa49eeaa7a8961a62935d889d745ad94e540512206f31c6031b99",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/STARTUP_AUDIT.stdout": "8dd15c719eaa6fc179cfa517a9ac96b0baac2b2d6c2681a275eaebe8d1e1861c",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/WORK_ORDER.md": "22880232d947b6642f59189eef20f82c6e268572b18f5e8411f745fae1ebedca",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/CANDIDATE_FREEZE.md": "4733699b0158ccc9d443b58467058157ec562543b526fe228d8393bd9499dfb1",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/CANDIDATE_INITIAL.md": "ce6b36dce14c07049ee9be193ca07989c5ea2f2507d8587c7b978317d0980fbc",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/QUESTION.md": "54e501f73067b6f3e772916d020f3f0d326b49938575736c8c4e06719238a82d",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/REVIEW_DISPATCH.md": "25b2ce1057988d87228d034c50945094d961c0a5af81633abd323d18c9ac84e3",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_01.json": "28573f2a68704643bd2d3e8e48f9136aa2ce1133ee7e64941339d40932531b89",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_01.stderr": "67fc9f072d6b5933c72d2566001c3b8b6faeb42703bffe503300478b6f8022d2",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_01.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_02.json": "941bc041a6dd50c1c25ea56d4b6e0fa025dd5266062c0f3fd91eabb2a39ec015",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_02.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/author_check_02.stdout": "8766710bb1c300614b4edb3adabeca0a653fe3a6323f04ad6c58e1d1a3d8910b",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/check_bi1.py": "eefd2af95978c2f2a17be3e3510b9f25f94f58d1b714d17a42b91d4a994df1f0",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/check_bi1_initial_failed.py": "4a069c857b99acd12093fe99c4d000b0688587599f23e43f084375f56a7cfeba",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_SCOPE.md": "2533ffa7c9ae91c8ee742b83e992ad189f07362ba6ae9ad756a6975b72011b8b",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/SOURCE_FIRST_ARGUMENT.md": "4b996ca25ceb6b55a6bc4b8abd2d135618cea71138ddb94c75f9cddf1cfe0d40",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/SOURCE_FIRST_SEAL.md": "eae600025c2602e6fb704497d7b11f0eab2b6c5f08cd56aebb1fd148baed7a6e",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_check.py": "68b688510bdece7ba704e0a59bb76f773cf17c57b8f7ff8dbefb3de8a86fa895",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_hashes.stdout": "f33db4ea6bb25ebc090ec83bd7b7cbce443484aa22ee1e24430b0efed9227bec",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.json": "9bef857ce51ad7d7df8702f07ee241f9362efc424b7d39b334808921b686c601",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/source_first_run.stdout": "7444f2aabdcf89e436ef48997501c3f84f74b3fda1f830aa4fd79e6ba4f7c4b4",
+    "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md": "8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63",
+    "udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/AUDIT_REPORT.md": "9e7eeb08f669a1cf27ec18f459cafddf38a833a4f20bec2548de0caffcd13250",
+    "udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/EXACT_DERIVATION.md": "92a070f5aeeee1241da9465b379c14c75b11cc033b7560709ba8db2ef32f6afb",
+    "udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/EXACT_DERIVATION.md": "1e1ce4ee663c292285adf09b52c7ac4aa437eaea84be6670123fbff843c5cef6",
+    "udt_g337_double_silent_third_normal_ownership_2026-09-03/EXACT_DERIVATION.md": "bdd8916b4a4bb1566115e61b26046940281bd38221720aeea41920ac55946826",
+    "udt_shared_readout_metric_constraint_campaign_2026-09-06/run_capture.py": "8ff5469ace76bdfc84188915242abbf3baff35516f9ee3f9ba4b1cbfeb2573ef",
+    "verify_current_scientific_premises.py": "5eac2b421d52b7b45e060332d4b2c2d333e57f177f4103f9c30abf9e28df0540"
+  },
+  "limits": [
+    "receipt authentication and source-byte correspondence reuse the parent execution; not an independent full358 replay",
+    "local refs/FETCH_HEAD and parent campaign log authenticate snapshot consistency; this reviewer did not observe parent network commands live",
+    "hashes alone do not prove truth, author independence or chronology"
+  ],
+  "parent_audit_receipt": {
+    "address_space_bytes": 2147483648,
+    "command": [
+      "python3",
+      "-B",
+      "verify_current_scientific_premises.py"
+    ],
+    "cpu_seconds": 900,
+    "cwd": "/home/udt-admin/udt_mass_codex",
+    "duration_seconds": 401.24592392801424,
+    "maxrss_kib": 105408,
+    "returncode": 0,
+    "started_utc": "2026-09-08T17:55:28.329394+00:00",
+    "stderr": "",
+    "stdout": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 358-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale\n",
+    "timeout": false,
+    "wall_seconds": 900
+  },
+  "registry_columns": [
+    "premise_id",
+    "term",
+    "current_status",
+    "epistemic_label",
+    "active_use",
+    "open_scope",
+    "forbidden_regression",
+    "controlling_source",
+    "precedence_rule"
+  ],
+  "selected_registry_fields": [
+    {
+      "controlling_source": "udt_g337_double_silent_third_normal_ownership_2026-09-03/AUDIT_REPORT.md",
+      "current_status": "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_SEALED_REPLAY_REPAIR__INDEPENDENTLY_VERIFIED_DERIVED_CONDITIONAL_BOUNDED__FRESH_GPT54_REDERIVATION_RETAINED_MATHEMATICS__R1_REPAIR_FOLLOWUP_AUTHENTICATED_39_PAYLOADS_41_FILES_AND_GITLESS_69_GATE_REPLAY__REGISTERED_OUTPUTS_BYTE_IDENTICAL__SEALED_SOURCE_LAYOUT_R1_PREREGISTERED_AT_0B8CFC45_AND_EXTERNALLY_ACCEPTED__PREREGISTERED_AT_96135E03__EXPLORATORY_TENSOR_STRUCTURE_DISCLOSED__149_EXACT_PRODUCTION_CHECKS__26_IMPLEMENTATION_DISTINCT_EXACT_CHECKS__17_OF_17_HOSTILE_MUTATIONS_CAUGHT__69_AGGREGATE_GATES__FULL_INITIAL_FIELDS_OWN_INHERITED_DOUBLE_SILENT_THIRD_JET__POINTWISE_R_B_C_LAMBDA_MU_TUPLE_DOES_NOT__RICCI_VARIATION_RETAINS_SPATIAL_JETS__EXACT_INVARIANTLY_DISTINCT_POINTWISE_TWINS__EQUAL_WEIGHT_HOMOGENEOUS_S2_EQUALS_8_B_MU__BOTH_STRICT_ROOTS_RETAINED_AND_RESPONSE_REVERSES__FINITE_BOOST_MATRIX_RETAINS_S2_WHILE_TERMINAL_PHI_IS_ZERO_BOOST_BLIND__NO_FINITE_TIME_STABILITY_HISTORY_SELECTION_MATTER_MASS_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED",
+      "forbidden_regression": "compressed pointwise tuple called complete initial state; spatial derivatives called an imported mechanism rather than supplied field data; covariant Ricci variation inverse-metric or cubic K terms dropped; momentum constraint used as if covariant derivatives commute; either G332 root or exact silence discarded; terminal Phi called complete response; initial third jet promoted to finite-time evolution stability occupancy or history selection; owner-provisional equation called derived or canon; topology matter mass source action fit observation scale Xmax or protected work imported; metric kernel or angular sector changed",
+      "premise_id": "G337"
+    },
+    {
+      "controlling_source": "udt_g332_weighted_contact_vacuum_constraint_embedding_2026-09-03/AUDIT_REPORT.md",
+      "current_status": "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R2_EVIDENCE_REPAIR__PREREGISTERED_AT_352837D9__REPAIRS_PREREGISTERED_AT_F5417715__FRESH_GPT54_REDERIVATION_RETAINED_BOUNDED_LANDING__REPAIR_FOLLOWUP_GPT54_AUTHENTICATED_44_PAYLOADS_AND_ACCEPTED__642_EXACT_PRODUCTION_CHECKS_OVER_80_CASES__65_IMPLEMENTATION_DISTINCT_EXACT_CHECKS__9_OF_9_HOSTILE_MUTATIONS_CAUGHT__94_FINAL_AGGREGATE_GATES__EXACT_EXTRINSIC_CURVATURE_WITNESS_EMBEDS_COMPLETE_POSITIVE_WEIGHT_WEIGHTED_CONTACT_S3_FAMILY_IN_ACTIVE_PROVISIONAL_VACUUM_CONSTRAINT_MANIFOLD__IRRATIONAL_UNEQUAL_WEIGHTS_RETAIN_GENERIC_NONCLOSED_DENSE_RICCI_EIGENFLOW__INITIAL_CONSTRAINTS_DO_NOT_FORCE_HOPF_ORBIT_RIGIDITY__NO_FULL_K_CENSUS_EVOLUTION_STABILITY_OCCUPANCY_MATTER_MASS_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED",
+      "forbidden_regression": "existence witness called full K census uniqueness or selector; fixed finite Lambda or auxiliary C called UDT-derived physical constants scales or Xmax; initial constraint satisfaction called evolution dynamic persistence stability occupancy or a complete history; irregular spatial eigenflow called a permanent spacetime invariant; imported constraint equations called founded rather than conditional on owner-provisional G310/G312 arena; weighted contact family called selected topology or universe; index placement blurred between contravariant momentum tensor and covariant extrinsic curvature; old carrier action matter source fit observation or protected work imported; metric kernel angular equation or canon changed",
+      "premise_id": "G332"
+    },
+    {
+      "controlling_source": "udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/AUDIT_REPORT.md",
+      "current_status": "EXTERNALLY_ACCEPTED_AFTER_PREREGISTERED_R1_R3_REPAIRS__PREREGISTERED_AT_ADD519AE__REPAIRS_PREREGISTERED_AT_4D9B1CD8__R3_COMPLETION_PREREGISTERED_AT_C739BE6C__FRESH_GPT54_REDERIVATION_RETAINED_BOUNDED_LANDING__FINAL_R3_GPT54_AUTHENTICATED_48_PAYLOADS_AND_ACCEPTED__39_EXACT_PRODUCTION_CHECKS__40_IMPLEMENTATION_DISTINCT_EXACT_CHECKS__8_OF_8_HOSTILE_MUTATIONS_CAUGHT__181_FINAL_AGGREGATE_GATES__NONROUND_BERGER_S3_SPATIAL_RICCI_DEFINES_SIMPLE_INTRINSIC_HOPF_EIGENLINE__FIBRE_LENGTH_NORMALIZED_ABSOLUTE_HELICITY_ONE__CONDITIONAL_LOCAL_MARKED_EINSTEIN_DEVELOPMENT_PRESERVES_WHILE_EIGENGAP_OPEN__ROUND_AND_OTHER_TOPOLOGY_CONTROLS_BLOCK_UNIVERSAL_SELECTOR__NO_OLD_CARRIER_ACTION_STABILITY_OCCUPANCY_MATTER_MASS_SCALE_XMAX_OR_CANON__METRIC_KERNEL_ANGULAR_EQUATION_UNCHANGED",
+      "forbidden_regression": "nonround Berger result called universal topology or universe selector; local eigengap persistence called global conservation energetic stability or nonlinear stability; imported smooth marked Einstein-Cauchy theorem and standard isometry-extension consequence called native UDT derivation; G321 scoped application called proof of the general theorem; metric fibre length normalization called an external scale or physical Xmax; historical independent S2 carrier or L2+L4 action revived or transferred; supplied S3 datum called selected occupancy; absolute helicity sign called orientation invariant rather than its magnitude; round limit claimed to select a Hopf member; owner-provisional tracefree Ricci called derived canon; metric kernel angular equation matter mass source action observation scale Xmax or protected work imported or changed",
+      "premise_id": "G330"
+    },
+    {
+      "controlling_source": "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md",
+      "current_status": "EXTERNALLY_ACCEPTED_DERIVED_CONDITIONAL_BOUNDED__PREREGISTERED_AT_6D26CA34__72_PRODUCTION_ASSERTIONS__89_IMPLEMENTATION_DISTINCT_ASSERTIONS__17_OF_17_HOSTILE_CATCHES__15_ROW_DATA_INTERFACE_ATLAS__ALL_35_SEALED_PAYLOADS_AUTHENTICATED__FOUR_EXTERNAL_REPLAYS_PASS__FIVE_GENERATED_OUTPUTS_BYTE_IDENTICAL__ADM_CONSTRAINTS_AND_MINUS_LAMBDA_EVOLUTION_SIGN_UPHELD__GENERIC_LOCAL_COUNT_IS_FOUR_PHASE_SPACE_FUNCTIONS_OR_TWO_CONFIGURATION_MODES_PLUS_RATES__SAME_NULL_LAMBDA_CANCELLATION_AND_MIXED_NULL_MINUS_LAMBDA_UPHELD__CAUCHY_AND_CHARACTERISTIC_DATA_LAWFUL_BUT_FREELY_SUPPLIED__PAIR_KERNEL_REMAINS_DOWNSTREAM_AND_UNCHANGED",
+      "forbidden_regression": "arbitrary seeds called lawful data; lapse shift coordinates or null normalization promoted to physical selection; four phase-space functions called four configuration modes; one null sheet called a complete universe; same-null Lambda cancellation called shear Weyl or Lambda independence; conditional PDE methods called UDT postulates or global completion; pair evaluator called an evolution residual; G315 called a selected history universe scale source matter law or metric kernel angular observational change",
+      "premise_id": "G315"
+    },
+    {
+      "controlling_source": "udt_g312_quiet_gr_response_constitution_discriminator_2026-09-01/AUDIT_REPORT.md",
+      "current_status": "EXTERNALLY_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__PREREGISTERED_AT_0C139B1C__FRESH_REVIEW_G312_REPAIRABLE_DEFECTS_LANDING_RETAINED__REPAIR_PREREGISTERED_AT_8175B112__PACKAGING_REPAIR_BANKED_AT_F68F1F2D__REPAIR_FOLLOWUP_G312_ACCEPTED_WITH_TWO_PREMISE_BOUNDARY__TF_G_A_RIC_PLUS_B_R_G_EQUALS_A_S__NONZERO_RICCI_COEFFICIENT_REQUIRED__GR_SOLUTION_OVERLAP_DOES_NOT_IMPLY_FULL_QUIET_PRINCIPAL_OVERLAP__LOCAL_CURVATURE_QUADRATIC_WITNESS__FULL_QUIET_GR_PRINCIPAL_OVERLAP_DOES_NOT_IMPLY_LOCALITY__SCALE_FREE_CAUSAL_NONLOCAL_METRIC_HISTORY_WITNESS__TWO_LOGICALLY_INDEPENDENT_PREMISES__OWNER_ADOPTED_PROVISIONAL_POSTULATES_AUTHORIZED_BY_CHARLES_ROTTER_2026_09_01__FULL_QUIET_GR_PRINCIPAL_RESPONSE_OVERLAP__LOCAL_METRIC_SUFFICIENCY_EQUIVALENT_LOCAL_FINITE_JET_RESPONSE_CONSTITUTION__NOT_DERIVED__NOT_CANON__BOUNDED_G301_TRACEFREE_RICCI_CLOSURE_ACTIVE__4690_PRODUCTION_CHECKS__4824_DEPENDENCY_FREE_INDEPENDENT_CHECKS__6_SEMANTIC_REGRESSION_CATCHES__NO_METRIC_KERNEL_ANGULAR_OBSERVATION_SOURCE_ACTION_MATTER_MASS_SCALE_XMAX_OR_PROTECTED_INPUT",
+      "forbidden_regression": "owner-adopted premises called derived canonized or observationally proved; adoption omitted or demoted to open; Local Metric Sufficiency called proof that global bootstrap is impossible or that the local metric is independent of global construction; identical admitted local jets allowed different vacuum responses solely by a hidden remote-history label; bounded trace-free Ricci closure called a selected universe global history fixed scalar scale or physical Xmax; conditional scope extended to singular auxiliary source or matter sectors; metric kernel or angular cancellation called changed; loud quiet loud attributed to reciprocity or the G312 premises",
+      "premise_id": "G312"
+    },
+    {
+      "controlling_source": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/AUDIT_REPORT.md",
+      "current_status": "EXTERNALLY_VERIFIED_AFTER_PREREGISTERED_EVIDENCE_REPAIRS__PREREGISTERED_AT_2ECD25F4__REPAIRS_PREREGISTERED_AT_71F45256__REPAIRS_BANKED_AT_A57F05B8__REPAIR_FOLLOWUP_G310_R1_R2_REPAIRS_ACCEPTED_SCIENTIFIC_LANDING_UNCHANGED__ONE_NEW_DIFFERENTIAL_DUAL_RECIPROCITY_POSTULATE_SELECTS_G301_TRACEFREE_CLASS__NOT_DERIVED__OWNER_PROVISIONALLY_ADOPTED_BY_CHARLES_ROTTER_2026_08_31__NOT_CANON__ALL_PAIR_RECIPROCAL_SHAPE_SPAN_RANK_NINE__ANNIHILATOR_SPAN_G_AB__NONDEGENERATE_G301_STRATUM_GIVES_S_AB_ZERO__ONE_CONNECTED_SCALAR_DATUM_REMAINS__14_PRODUCTION_CHECKS__32_INDEPENDENT_CHECKS__7_HOSTILE_MUTATIONS__NO_METRIC_KERNEL_OBSERVATION_SOURCE_ACTION_MATTER_SCALE_XMAX_OR_PROTECTED_INPUT",
+      "forbidden_regression": "Universal Reciprocity and DDR falsely split into separate unresolved premises; DDR called derived from algebraic Dual Reciprocity; provisional adoption called canonization proof or observational validation; owner adoption omitted or demoted to unadopted candidate; trace-free Ricci called selected without conditional G301 arena and nonzero Ricci coefficient; pure trace response called zero response; one scalar datum called fixed scale or realized history; loud quiet loud attributed to DDR rather than angular cancellation; action source matter mass fit Xmax or protected work imported; metric or kernel change claimed",
+      "premise_id": "G310"
+    }
+  ]
+}

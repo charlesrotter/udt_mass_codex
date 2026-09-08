@@ -1,0 +1,41 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Exact frozen BI1 conditional smooth first-normal formula and exhaustive nonround left-invariant constraint tile",
+  "candidate_sha256": "ce6b36dce14c07049ee9be193ca07989c5ea2f2507d8587c7b978317d0980fbc",
+  "candidate_freeze_sha256": "4733699b0158ccc9d443b58467058157ec562543b526fe228d8393bd9499dfb1",
+  "source_first_seal_sha256": "eae600025c2602e6fb704497d7b11f0eab2b6c5f08cd56aebb1fd148baed7a6e",
+  "source_first_before_author_exposure": true,
+  "actual_backend_model": "UNKNOWN",
+  "different_model_review": "UNTESTED",
+  "shared_sources_and_sympy": true,
+  "independent_curvature_method": "Differentiated invariant Koszul curvature, sealed before author exposure",
+  "parent_full358_authenticated_and_reused": true,
+  "full358_replayed": false,
+  "parent_sync_snapshot_authenticated": true,
+  "parent_network_execution_live_observation": false,
+  "source_first_exact_checks": 26,
+  "source_first_nonzero_discriminators": 4,
+  "intake_correspondence_checks": 45,
+  "independent_comparison_checks": 67,
+  "author_fixtures_independently_recomputed": 18,
+  "author_regression_checks": 67,
+  "author_regression_byte_identical": true,
+  "actual_mutants": 8,
+  "author_harness_mutants_rejected": 6,
+  "author_harness_survivors": [
+    "wrong negative K sign in covariant Ricci variation",
+    "drop derivative-index connection"
+  ],
+  "surviving_mutants_detected_by_sealed_independent_method": 2,
+  "original_candidate_scientific_defect_found": false,
+  "post_review_candidate_repair_cycles_used": 0,
+  "caveats": [
+    "Author nonzero omission contrasts do not establish eight end-to-end mutation rejections",
+    "Shared source formulas and symbolic library; partial argument/method overlap is disclosed",
+    "No arbitrary smooth inhomogeneous constraint census",
+    "Zero first derivative is not actual-time persistence, closed leaves or physical stability",
+    "Parent execution receipt reused; no independent network or full-audit replay",
+    "No source-grade upgrade, scientific promotion, adoption or canon"
+  ],
+  "controlling_report": "REVIEW_REPORT.md"
+}

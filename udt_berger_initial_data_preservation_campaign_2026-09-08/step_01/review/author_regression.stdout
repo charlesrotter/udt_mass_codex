@@ -1,0 +1,728 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_sha256": "eefd2af95978c2f2a17be3e3510b9f25f94f58d1b714d17a42b91d4a994df1f0",
+  "checks": [
+    {
+      "name": "Ricci from Koszul",
+      "pass_": true
+    },
+    {
+      "name": "all six momentum entries",
+      "pass_": true
+    },
+    {
+      "name": "Ricci variation symmetric",
+      "pass_": true
+    },
+    {
+      "name": "projector derivative idempotence",
+      "pass_": true
+    },
+    {
+      "name": "full differentiated commutator",
+      "pass_": true
+    },
+    {
+      "name": "moving-metric self adjointness",
+      "pass_": true
+    },
+    {
+      "name": "homogeneous full projector stationarity",
+      "pass_": true
+    },
+    {
+      "name": "round momentum control",
+      "pass_": true
+    },
+    {
+      "name": "full Hamiltonian quadric",
+      "pass_": true
+    },
+    {
+      "name": "nonzero horizontal mean branch",
+      "pass_": true
+    },
+    {
+      "name": "zero horizontal mean branch",
+      "pass_": true
+    },
+    {
+      "name": "image fixed formal control",
+      "pass_": true
+    },
+    {
+      "name": "projector need not fixed formal control",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    },
+    {
+      "name": "fixture H",
+      "pass_": true
+    },
+    {
+      "name": "fixture M",
+      "pass_": true
+    },
+    {
+      "name": "fixture Pdot",
+      "pass_": true
+    }
+  ],
+  "fixtures": [
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": -2,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-19/8"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": -2,
+      "K": [
+        [
+          "-2/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "-4/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "151/72"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": -2,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-23/12"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": 0,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-11/8"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": 0,
+      "K": [
+        [
+          "-2/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "-4/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "79/72"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": 0,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-5/4"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": 3,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/8"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": 3,
+      "K": [
+        [
+          "-2/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "-4/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-29/72"
+        ]
+      ]
+    },
+    {
+      "a": "1",
+      "c": "3/2",
+      "Lambda": 3,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1/4"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": -2,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-63/32"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": -2,
+      "K": [
+        [
+          "-2/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "-4/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "487/288"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": -2,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-79/48"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": 0,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-31/32"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": 0,
+      "K": [
+        [
+          "-2/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "-4/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "199/288"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": 0,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-47/48"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": 3,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "17/32"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": 3,
+      "K": [
+        [
+          "-2/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "-4/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-233/288"
+        ]
+      ]
+    },
+    {
+      "a": "2",
+      "c": "1",
+      "Lambda": 3,
+      "K": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/48"
+        ]
+      ]
+    }
+  ],
+  "hostiles_caught": [
+    "omit raising term",
+    "symmetric projector for mixed K",
+    "omit momentum connection",
+    "allow vertical shear off constraint",
+    "erase horizontal shear Hamiltonian",
+    "wrong norm sign Hamiltonian",
+    "wrong negative K sign",
+    "drop derivative-index connection"
+  ],
+  "symbolic_momentum": [
+    "-p*t + q*t",
+    "p*r - q*r",
+    "0"
+  ],
+  "symbolic_S": [
+    [
+      "-2*p**2*u + 2*p**2*w + q**2*v - q**2*w",
+      "-4*p**2*z + q**2*z",
+      "-2*p*q*r - q**2*r"
+    ],
+    [
+      "-4*p**2*z + q**2*z",
+      "2*p**2*u - 2*p**2*w - q**2*u + q**2*v",
+      "-2*p*q*t - q**2*t"
+    ],
+    [
+      "-2*p*q*r - q**2*r",
+      "-2*p*q*t - q**2*t",
+      "q**2*u - 2*q**2*v + q**2*w"
+    ]
+  ],
+  "symbolic_Pdot": [
+    [
+      "0",
+      "0",
+      "2*p*r/(p - q)"
+    ],
+    [
+      "0",
+      "0",
+      "2*p*t/(p - q)"
+    ],
+    [
+      "2*q*r/(p - q)",
+      "2*q*t/(p - q)",
+      "0"
+    ]
+  ],
+  "limitations": [
+    "finite checks support but do not prove analytic quantifiers",
+    "formal mixed-jet control not a lawful-data witness",
+    "no time persistence or inhomogeneous constraint census"
+  ]
+}
