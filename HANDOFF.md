@@ -168,10 +168,11 @@ THREE vacuous author product checks remain EXCLUDED from evidence; original cand
 Optional source law, chosen product, restricted family and method/review limitations remain explicit.
 No smooth well-posedness, stability, physical identification or selection by UDT follows.
 The optional source-model branch is PAUSED after its completed bounded dynamical-coherence campaign.
-The proposed core vacuum/common-scale campaign is PROPOSAL ONLY:
-`udt_g372_g373_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+The approved core vacuum/common-scale campaign returned two reviewed conditional candidates:
+`udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md`.
+VS1--VS2 are VERIFIED-WITH-CAVEATS, NOT_BANKED; its execution/log records own publication state.
 G131 reduced-control conformal blindness is NOT blindness of G176/G180 completed tape/depth.
-Charles's direction decision is next; no new campaign is authorized.
+Charles's banking/direction decision is next; no new campaign is authorized and no automatic promotion.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.
 No physical adoption, generic instrument certification or distinctive UDT signal follows.

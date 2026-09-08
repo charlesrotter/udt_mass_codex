@@ -95,8 +95,12 @@ to the exact changed source bytes, fixed manuscript, snapshot, and affected depe
 - G372--G373 owner-authorized exact-scope conditional banking of CD1--CD2:
   `udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md`;
   its `EXECUTION_RECORD.md` owns promotion completion. Three vacuous checks stay excluded.
-  Optional source-model branch PAUSED. `NEXT_CAMPAIGN_PROPOSAL.md` proposes a core
-  vacuum/common-scale constraint campaign; it is not authorized or begun.
+  Optional source-model branch PAUSED. Its `NEXT_CAMPAIGN_PROPOSAL.md` is the
+  historical proposal subsequently approved by Charles.
+- Core vacuum/common-scale campaign, two reviewed conditional candidates, NOT_BANKED:
+  `udt_vacuum_common_scale_campaign_2026-09-08/WORK_ORDER.md`;
+  its `DECISION_BRIEF.md` and `CAMPAIGN_LOG.md` own results/review state, not accepted grades.
+  VS1 compatibility/finite-data and VS2 fixed-domain rigidity/null-sector boundary await owner decision.
 
 ## Retained comparison and observational lanes
 

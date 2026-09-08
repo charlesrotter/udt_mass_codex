@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_vacuum_common_scale_campaign_2026-09-08/step_02/check_boundary.py", line 120, in <module>
+    equal('product_development_original_Ricci',ric2,product)
+  File "/home/udt-admin/udt_mass_codex/udt_vacuum_common_scale_campaign_2026-09-08/step_02/check_boundary.py", line 27, in equal
+    raise AssertionError(name+': nonzero residual '+str(residual))
+AssertionError: product_development_original_Ricci: nonzero residual Matrix([[0, 0, 0, 0], [0, -sinh(2*t)*tanh(t)/2 + cosh(2*t)/2 - 1/2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])

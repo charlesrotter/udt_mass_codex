@@ -1,0 +1,10 @@
+{
+  "kind": "post-exposure exact normalizer validation; no metric/proof change",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "initial_simplify": "-sinh(2*t)*tanh(t)/2 + cosh(2*t)/2 - 1/2",
+  "expanded_residual": "0",
+  "independent_Laurent_residual": "0",
+  "injected_nonzero_residual_survives": "1",
+  "domain": "real t, q=exp(t)>0; cosh(t)>0 excludes denominator zero"
+}

@@ -1,0 +1,39 @@
+{
+  "actual_rejection_paths": {
+    "Einstein_is_not_necessarily_constant_curvature": "Einstein_is_not_necessarily_constant_curvature: nonzero residual Matrix([[-2*cosh(t)**2/3]])",
+    "affine_coordinate_profile_not_automatically_vacuum": "affine_coordinate_profile_not_automatically_vacuum: nonzero residual Matrix([[2*r*x/(x + 1), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "discarding_nonzero_null_Weyl_sector": "discarding_nonzero_null_Weyl_sector: nonzero residual Matrix([[2]])",
+    "pointwise_Weyl_pass_is_not_extension": "pointwise_Weyl_pass_is_not_extension: nonzero residual Matrix([[-1]])"
+  },
+  "checks": {
+    "actual_rescaled_pp_wave_original_Ricci": true,
+    "all_connection_zero_at_origin": true,
+    "all_curvature_zero_at_origin": true,
+    "differentiated_compatibility_obstruction": true,
+    "dr_is_null": true,
+    "nonzero_pp_wave_curvature": true,
+    "nonzero_product_Weyl": true,
+    "null_annihilator_tensor_dimension": true,
+    "parallel_null_dr_hessian": true,
+    "pp_wave_determinant": true,
+    "pp_wave_original_Ricci": true,
+    "product_development_original_Ricci": true,
+    "product_scalar": true,
+    "spacelike_annihilator_tensor_dimension": true,
+    "timelike_annihilator_tensor_dimension": true,
+    "unrestricted_algebraic_Weyl_dimension": true
+  },
+  "kind": "VS2 exact finite algebra and original-coordinate Ricci controls, NOT general-proof ownership",
+  "python": "3.10.12",
+  "shared_method": "SHA-pinned geometry function only; no optional-source tests run",
+  "sympy": "1.13.1",
+  "tensor_shapes": "general Weyl: symmetric6x6 bivector matrix/21 variables then Bianchi+trace; metric4x4; full Riemann4^4",
+  "values": {
+    "null_annihilator_tensor_dimension": 2,
+    "positive_domain": "r>-1, restricted to small connected chart",
+    "product_domain": "0<theta<pi; no global sphere-coordinate assertion",
+    "spacelike_annihilator_tensor_dimension": 0,
+    "timelike_annihilator_tensor_dimension": 0,
+    "trial_bad_tf_rr": "2*r*x/(x + 1)"
+  }
+}

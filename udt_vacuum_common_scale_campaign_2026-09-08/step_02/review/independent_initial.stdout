@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "original_wave_Ricci_zero",
+    "null_potential_parallel",
+    "null_potential_nonzero_and_null",
+    "original_nonconstant_wave_conformal_Ricci_zero",
+    "nonzero_Weyl_null_line_rank3",
+    "pointwise_Weyl_all_zero_at_flat_event",
+    "bad_null_profile_original_residual_rejected",
+    "pointwise_only_false_pass_at_origin",
+    "pointwise_only_original_residual_away_rejected",
+    "nonzero_scalar_base_original_Ricci",
+    "nonzero_scalar_does_not_force_constant_factor",
+    "Einstein_product_Weyl_injective_rank4"
+  ],
+  "count": 12,
+  "kind": "exact source-first review fixtures; shared geometry utility; proof separate",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "values": {
+    "Einstein_product_Weyl_injective_rank4": "4",
+    "bad_null_profile_original_residual_rejected": "Matrix([[4/(s**2 + 1), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "nonzero_Weyl_null_line_rank3": "[Matrix([\n[1],\n[0],\n[0],\n[0]])]",
+    "original_nonconstant_wave_conformal_Ricci_zero": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "original_wave_Ricci_zero": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+    "pointwise_only_original_residual_away_rejected": "Matrix([[2*s*x/(x + 1), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+  }
+}

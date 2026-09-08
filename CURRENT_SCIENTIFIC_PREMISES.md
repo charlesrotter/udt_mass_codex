@@ -73,7 +73,9 @@ CD1's unwrapped duplicate review-audit omission and CD2's partial implementation
 independence/exposure remain disclosed. Models UNKNOWN; different-model review UNTESTED.
 The optional source-model branch is PAUSED. No physical identification, UDT selection,
 smooth well-posedness, stability, earlier-grade, canon or fixed-manuscript change.
-The core vacuum/common-scale campaign is PROPOSAL ONLY, awaiting Charles's direction.
+The bounded core vacuum/common-scale campaign returned VS1--VS2 reviewed conditional
+candidates; udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md owns the synthesis.
+They are NOT_BANKED and do not change this registry's scientific grades; owner decision is next.
 
 G370--G371 are Charles-authorized conditional banking of RT1--RT2 at exactly
 their reviewed scopes: `udt_g370_g371_conditional_banking_2026-09-08/BANKING_RECORD.md`.
@@ -141,7 +143,8 @@ axes UNTESTED. G364--G366 bank RC1--RC3 conditionally at their exact reviewed lo
 Chosen recipe, domain/method restrictions, RC2 late-hint exposure and all review/execution caveats
 remain. Original evidence stays unchanged. No generic behavior or physical identification follows.
 Geometric calibration/testing and emergence remain parallel, neither prerequisite.
-The current theory-direction proposal awaits Charles's choice; no new campaign or physical adoption.
+The core vacuum/common-scale campaign's two substantive reviews are complete;
+no physical adoption, scientific banking or automatic successor is authorized.
 
 | Object | Status | Guard |
 |---|---|---|

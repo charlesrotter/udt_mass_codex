@@ -62,8 +62,9 @@ Restricted smooth initial data, then LOCAL REAL ANALYTIC joint development and
 original-product propagation; three vacuous author product checks remain EXCLUDED.
 Optional law, restricted family, analytic-only uniqueness and all review limits survive.
 No smooth well-posedness, stability, physical identification or UDT selection follows.
-Optional source-model branch PAUSED. Its newbank NEXT_CAMPAIGN_PROPOSAL.md proposes
-a core vacuum/common-scale constraint question only; Charles's direction is next.
+Optional source-model branch PAUSED. The core vacuum/common-scale campaign returned
+two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08/DECISION_BRIEF.md.
+VS1--VS2 NOT_BANKED; owner banking/direction decision is next, no automatic successor.
 G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.
