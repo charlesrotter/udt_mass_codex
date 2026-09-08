@@ -3,8 +3,9 @@
 2026-09-08. This operational record does not bank a result or supply a proof.
 Two substantive steps have completed fresh separate-context review. Scientific
 work is stopped. Final audit and packaging-fidelity gates PASS at their stated
-scopes; delivery remains pending below until actually observed. No third
-question is authorized. Earlier pending state remains visible in git history.
+scopes; scientific delivery was actually confirmed below. Campaign COMPLETE
+at its two-reviewed-step stop, within the four-hour cap. No third question is
+authorized. Earlier pending state remains visible in git history.
 
 ## Scientific freeze and review
 
@@ -105,9 +106,32 @@ evidence. The79-payload manifest covers that inventory minus its two declared
 exclusions. git diff --cached --check returned0. This record's receipt-only
 update is the sole subsequent precommit edit and changes no frozen evidence.
 
-PENDING commit and push of CD2/completion artifacts.
-Final audit/fidelity passed as documented above; neither constitutes acceptance.
-The CD1 checkpoint73544430 is already committed/pushed. Final gate completion
-will be recorded from actual tool evidence, not from a planned commit or an
-elapsed budget. Four-hour deadline16:39:11UTC; conservative campaign
-start12:39:11UTC.
+DELIVERED: scientific/completion evidence commit
+3823213479c60a84c9f2896ddfe30a60f88042d9,52 changed paths, was actually pushed
+to origin/grok with exit0, observed13:39:22UTC. Actual local HEAD and
+origin/grok both returned that full hash. A subsequent independent server
+readback, `git ls-remote --heads origin grok`, returned the same hash and
+refs/heads/grok, exit0. The CD1 checkpoint73544430 was already pushed.
+This receipt-only follow-up does not modify the delivered79 frozen payloads
+or five status files; its enclosing git commit identifies the later receipt.
+
+After the evidence push, `git status --porcelain --untracked-files=no`
+returned empty output, exit0. check_preservation.py was also rerun directly
+with explicit threads1, read-only packed-git settings and512MiB/60s limits:
+
+    env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 GIT_CONFIG_COUNT=2 GIT_CONFIG_KEY_0=core.packedGitLimit GIT_CONFIG_VALUE_0=32m GIT_CONFIG_KEY_1=core.packedGitWindowSize GIT_CONFIG_VALUE_1=1m timeout 60s bash -c 'ulimit -v 524288; ulimit -t 60; exec python3 -B udt_optional_coupled_development_campaign_2026-09-08/check_preservation.py'
+
+Actual exit0 and tool stdout PASS_CORRESPONDENCE_NOT_SCIENTIFIC_PROOF at
+HEAD38232134:18 source/control pins,46 prior-bank payloads,3+4 initial pins,
+354 registry rows,46 unchanged protected/unrelated NAMES with the exact hash
+above. All baseline-to-current tracked changes are the authorized package
+and five current-status files. This final direct read-only packaging check
+has tool output, not an additional timing/RSS or separated-stream claim.
+
+Final audit/fidelity and publication do not bank a result or adopt physical
+content. No unresolved load-bearing review objection or present repository
+access/resource blocker remains. Charles's next decision is exact conditional
+banking and research direction; neither follows automatically. Backup/unsaved-
+state/host-process uncertainties and archive-only ScratchDisk limit remain
+exactly as recorded above, not relabeled passed. Four-hour deadline16:39:11UTC;
+conservative campaign start12:39:11UTC, scientific delivery13:39:22UTC.
