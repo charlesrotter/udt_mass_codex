@@ -1,6 +1,6 @@
 # Current scientific premises — bounded orientation
 
-`LIVE.md` owns current status. The exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+`LIVE.md` owns current status. The exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
 grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
 
 G376=BI1 (separately required prerequisite), G377=BG1 and G378=BG2 now carry
@@ -11,10 +11,19 @@ ENTIRE source candidates/results/reviews and false-pass evidence control; no old
 row changes. BI1's arbitrary-smooth operator, not its homogeneous restriction,
 feeds BG2. HB2/HB3 and BI2/BI3 remain UNPROMOTED. The separately authorized
 closed-fibre campaign is COMPLETE at TWO reviewed conditional results, CF1/CF2,
-both UNPROMOTED. CF2 gives arbitrary-small global lawful data with some nonclosed
+now authorized for exact-scope banking as G379/G380; completion gates are in
+`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
+No extra prerequisite is needed; original UNPROMOTED history stays unchanged.
+CF2 gives arbitrary-small global lawful data with some nonclosed
 leaves at every sufficiently short nonzero actual normal time, under its exact
 marking/gap/symmetry/TT/IFT/Cauchy/isometry-method scope. The leaf can depend on time.
 G330 preserving examples remain. Entire reviews and false-pass/repair limits control.
+Lost intermediate reviewer outputs remain LOST, not recovered or preserved.
+The admitted equations do not universally preserve closed Hopf fibres of this
+continued Ricci eigenline even under smooth deformation, at that conditional scope.
+This automatic Hopfion-stabilization identification is PAUSED; no rescue carrier,
+energy functional or added restriction. The next-direction proposal is not authorized
+research; no generic failure, physical instability, topology change or UDT failure.
 No physical identification, stability, new premise, canon or fixed-manuscript change.
 
 ## Foundational and adopted layer

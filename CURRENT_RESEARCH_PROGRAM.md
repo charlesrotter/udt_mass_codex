@@ -2,7 +2,7 @@
 
 Date: 2026-09-08
 
-`LIVE.md` controls status; the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+`LIVE.md` controls status; the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
 
 ## Architecture
 
@@ -258,9 +258,23 @@ EVERY sufficiently small nonzero actual normal time. The leaf may depend on time
 Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
 conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
 G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
-stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
-Whole reviews/false-pass evidence control, including CF2 lost intermediate
-reviewer-probe streams. No third step; owner decision before promotion/successor.
+stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
+conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
+`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
+No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
+evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
+intermediate buffered reviewer outputs were LOST, not preserved or recovered.
+The admitted equations do not universally preserve closed Hopf fibres of this
+continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
+This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
+No restrictions, carrier or energy functional will be added to rescue it.
+Further investigation needs an independently motivated question, not another example.
+Next-direction comparison/proposal only; no successor campaign has begun:
+`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+Recommended: neighboring ideal tidal-record consistency versus one lawful metric
+development; alternative: regular label-current versus caustic weak-current bridge.
+These are unresolved questions, not new theorems, carriers or conservation laws.
+No third CF step; owner direction decision before any successor.
 Beyond this explicitly approved scope, no new campaign is authorized.
 Execution/publication receipts own closure; prior evidence remains unchanged.
 Carrier/action/boundary/evolution adoption remains unauthorized.

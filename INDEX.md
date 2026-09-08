@@ -2,7 +2,12 @@
 
 - G376=BI1 required-prerequisite / G377=BG1 / G378=BG2 authorized conditional banking:
   `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`; exact gates in its execution record.
-- Completed TWO-step closed-fibre campaign, CF1/CF2 UNPROMOTED:
+- G379=CF1/G380=CF2 exact-scope conditional banking and current gates:
+  `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record owns completion.
+  Hopf-fibre automatic-stabilization identification PAUSED, not an old-carrier or UDT failure.
+- Next-direction proposal ONLY, awaiting Charles's choice:
+  `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+- Completed TWO-step closed-fibre campaign, original UNPROMOTED evidence unchanged:
   `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`;
   exact global lawful-data/actual-time nonclosure counterexample with method/review caveats,
   preserving G330 Hopf examples; no physical instability or UDT-failure conclusion.
@@ -28,7 +33,7 @@
 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
 7. After orientation, query only load-bearing evidence.
 
-Authority: the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+Authority: the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
 grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
 path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
 

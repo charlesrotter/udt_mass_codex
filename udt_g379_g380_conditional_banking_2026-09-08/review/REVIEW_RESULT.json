@@ -1,0 +1,69 @@
+{
+  "disposition": "PASS_WITH_CAVEATS",
+  "reviewer": "/root/cf_banking_fidelity_review",
+  "review_type": "separate-context source/dependency and proportional banking/proposal fidelity",
+  "base_head": "b1dda6724fae599f9684b5f3f03d421221569fe5",
+  "branch": "grok",
+  "report": "REVIEW_REPORT.md",
+  "scope": [
+    "G379=CF1 exact entire reviewed positive torus-slope classification",
+    "G380=CF2 exact entire reviewed conditional lawful local nonpreservation",
+    "two additive registry rows; nine tracked integration files",
+    "two-direction proposal only; no successor execution"
+  ],
+  "required_dependencies": ["G379 for G380", "G376", "G377", "G378", "G310/G312 provisional arena", "G315/G330/G337 inherited geometry and conditional methods"],
+  "extra_unpromoted_prerequisite": false,
+  "unrelated_predecessor_promotion": false,
+  "unresolved_load_bearing_objections": [],
+  "documentation_findings": [
+    {"issue": "source-first wording could overstate this banking review's independence", "status": "RESOLVED_IN_GROUPED_PACKAGING_CLARIFICATION"},
+    {"issue": "proposed successor lacked explicit workspace", "status": "RESOLVED_IN_GROUPED_PACKAGING_CLARIFICATION"}
+  ],
+  "banking_record_sha256": "f7725eafb4e4bc542fdb0b341b405cd9a12e6f1b3d06111ad6bb08d95e06c454",
+  "proposal_sha256": "0454d11878df90199937386b835f4eca5583c712a26351355ada7ad87a0963d0",
+  "registry_sha256": "ae78d872143a62d6f3811d77ca909d1b90a2dee2f259b0ec862c1fd502e23afe",
+  "verifier_sha256": "75ee9084236535779176eeebb0222ea2fa590e26279deba0d4045fcf266da642",
+  "source_manifest_sha256": "d25ba1fd84817aa3db38a69604a17b6496395d9b21d033c5e4f9a4d26aec91d6",
+  "independence": {
+    "context": "separate from author",
+    "backend_authentication": "UNKNOWN; runtime instructions identify Codex based on GPT-6",
+    "different_model": "UNTESTED",
+    "argument": "direct source-to-packet fidelity; original proofs and verdicts exposed",
+    "source_first_scientific_reconstruction": false,
+    "implementation": "independent standard-library byte checker; parent guard replay is same code",
+    "human_specialist": "UNTESTED",
+    "formal_proof": "UNTESTED"
+  },
+  "checks": {
+    "independent_final_correspondence": 193,
+    "original_cf_files_equal_baseline_and_manifest": 149,
+    "inherited_source_pins_authenticated": 25,
+    "prior_rows_byte_identical": 361,
+    "added_ids": ["G379", "G380"],
+    "same_code_guard_checks": 69,
+    "actual_scope_record_mutations_caught": 60,
+    "actual_manifest_payload_corruptions_caught": 2,
+    "guard_replay_streams_byte_identical": true,
+    "planning_source_pins_authenticated": 14,
+    "proposed_successor_directory_present": false,
+    "prebank361_parent_audit": "PASS_AUTHENTICATED_NOT_RERUN",
+    "postbank363_parent_audit": "PASS_AUTHENTICATED_NOT_RERUN"
+  },
+  "reviewer_failure": {
+    "initial_capture": "correspondence_initial",
+    "cause": "Git packed-object mapping exceeded inherited 512MiB address-space cap",
+    "source_mismatch": false,
+    "initial_partial_in_memory_results": "NOT_PRESERVED; initial stdout empty",
+    "correction": "per-command 16MiB Git window and 64MiB cache, exception-output hook; unchanged limits and assertions",
+    "history": "REVIEWER_CHECK_REPAIR.md",
+    "author_scientific_repair": false
+  },
+  "resource_limits": {"address_space_bytes": 536870912, "cpu_wall_seconds": 60, "library_threads": 1},
+  "original_scientific_suites_replayed": false,
+  "new_theorem_or_direction_result": false,
+  "different_model_human_formal_axes": "UNTESTED",
+  "protected_payloads": "NOT_INSPECTED",
+  "scientific_adoption_or_canon": false,
+  "shared_git_mutation": false,
+  "later_parent_execution_completion_and_publication": "SEPARATE_ADMINISTRATION_NOT_SILENTLY_INCLUDED_IN_EARLIER_EXECUTION_PIN"
+}

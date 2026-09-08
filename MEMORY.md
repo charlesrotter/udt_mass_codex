@@ -1,6 +1,6 @@
 # MEMORY — compact pointer only
 
-`LIVE.md` wins. Exact premise authority is the 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+`LIVE.md` wins. Exact premise authority is the 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
 
 ## Current picture
 
@@ -35,8 +35,20 @@ lawful data on every fixed nonround/signed-h!=0 background with some nonclosed
 leaves at every sufficiently small nonzero actual normal time; leaf may vary with t.
 Retain marking/gap, torus-plus-conjugation data symmetry and full TT/IFT/smooth
 Cauchy/isometry methods; G330 pure-trace survivors and all false-pass caveats.
-CF1/CF2 UNPROMOTED; no physical stability, topology change or UDT-failure inference.
-No third step or successor authorized at this return point.
+Charles authorizes exact-scope conditional banking G379=CF1/G380=CF2:
+`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record
+owns gate completion. No extra prerequisite; original UNPROMOTED evidence stays.
+LOST intermediate reviewer outputs are not called preserved or recovered.
+No universal closed-Hopf-fibre preservation for this continued Ricci line, even
+allowing smooth deformation. No generic failure, physical instability, topology
+change or failure of UDT/the older conditional carrier model. This automatic
+Hopfion-stabilization identification is PAUSED; no rescue restrictions/carrier/action.
+Only the next-direction proposal is requested, not successor execution:
+`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
+Recommended: differential consistency of neighboring ideal tidal records with one
+lawful metric development. Alternative: caustic extension of the regular carried
+current, not a new assumed metric-derived carrier or conservation law.
+No third CF step; Charles chooses before a successor begins.
 
 The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
 conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal
@@ -101,9 +113,9 @@ two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08
 VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
 Integration gates remain in the banking package; the bounded Hopfion successor is complete.
 No fourth step in that completed Hopfion campaign is authorized. New banking is
-limited to the currently approved G376--G378 dependency-closed scope below.
+limited to the currently approved G379--G380 dependency-closed scope above.
 The Berger initial-data and two-step global-constraint campaigns above are complete.
-Authorized dependency-closed banking and the new closed-fibre campaign are scoped
+Authorized dependency-closed banking and next-direction planning are scoped
 above; no broader campaign or physical adoption. LIVE owns current state.
 G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.

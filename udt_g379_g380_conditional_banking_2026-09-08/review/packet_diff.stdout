@@ -1,0 +1,681 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index a7612897..9eb7a987 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -37,7 +37,7 @@ Read from disk in this exact bounded order:
+ 2. `HANDOFF.md` — only its matching current block.
+ 3. `CURRENT_RESEARCH_PROGRAM.md` — concise dependency spine and next gate.
+ 4. `CURRENT_SCIENTIFIC_PREMISES.md`, then run `python3 verify_current_scientific_premises.py`. The
+-   verifier audits the 361-row exact registry without dumping its wide rows into model context.
++   verifier audits the 363-row exact registry without dumping its wide rows into model context.
+    Query exact `CURRENT_SCIENTIFIC_PREMISES.tsv` rows after orientation only when load-bearing.
+ 5. `CLAUDE.md` sections `How we work`, `DRIVER TRIGGERS`, and repo discipline, then only the
+    `.claude/skills/*/SKILL.md` protocols triggered by the actual task.
+diff --git a/CURRENT_RESEARCH_PROGRAM.md b/CURRENT_RESEARCH_PROGRAM.md
+index 31502dc0..4fa8091b 100644
+--- a/CURRENT_RESEARCH_PROGRAM.md
++++ b/CURRENT_RESEARCH_PROGRAM.md
+@@ -2,7 +2,7 @@
+ 
+ Date: 2026-09-08
+ 
+-`LIVE.md` controls status; the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
++`LIVE.md` controls status; the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv` controls ownership.
+ 
+ ## Architecture
+ 
+@@ -258,9 +258,23 @@ EVERY sufficiently small nonzero actual normal time. The leaf may depend on time
+ Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
+ conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
+ G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
+-stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
+-Whole reviews/false-pass evidence control, including CF2 lost intermediate
+-reviewer-probe streams. No third step; owner decision before promotion/successor.
++stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
++conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
++`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
++No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
++evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
++intermediate buffered reviewer outputs were LOST, not preserved or recovered.
++The admitted equations do not universally preserve closed Hopf fibres of this
++continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
++This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
++No restrictions, carrier or energy functional will be added to rescue it.
++Further investigation needs an independently motivated question, not another example.
++Next-direction comparison/proposal only; no successor campaign has begun:
++`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
++Recommended: neighboring ideal tidal-record consistency versus one lawful metric
++development; alternative: regular label-current versus caustic weak-current bridge.
++These are unresolved questions, not new theorems, carriers or conservation laws.
++No third CF step; owner direction decision before any successor.
+ Beyond this explicitly approved scope, no new campaign is authorized.
+ Execution/publication receipts own closure; prior evidence remains unchanged.
+ Carrier/action/boundary/evolution adoption remains unauthorized.
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.md b/CURRENT_SCIENTIFIC_PREMISES.md
+index b44c601a..66eeca01 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.md
++++ b/CURRENT_SCIENTIFIC_PREMISES.md
+@@ -1,6 +1,6 @@
+ # Current scientific premises — bounded orientation
+ 
+-`LIVE.md` owns current status. The exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
++`LIVE.md` owns current status. The exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv` owns row-level
+ grades and source paths; run `python3 verify_current_scientific_premises.py` before querying it.
+ 
+ G376=BI1 (separately required prerequisite), G377=BG1 and G378=BG2 now carry
+@@ -11,10 +11,19 @@ ENTIRE source candidates/results/reviews and false-pass evidence control; no old
+ row changes. BI1's arbitrary-smooth operator, not its homogeneous restriction,
+ feeds BG2. HB2/HB3 and BI2/BI3 remain UNPROMOTED. The separately authorized
+ closed-fibre campaign is COMPLETE at TWO reviewed conditional results, CF1/CF2,
+-both UNPROMOTED. CF2 gives arbitrary-small global lawful data with some nonclosed
++now authorized for exact-scope banking as G379/G380; completion gates are in
++`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
++No extra prerequisite is needed; original UNPROMOTED history stays unchanged.
++CF2 gives arbitrary-small global lawful data with some nonclosed
+ leaves at every sufficiently short nonzero actual normal time, under its exact
+ marking/gap/symmetry/TT/IFT/Cauchy/isometry-method scope. The leaf can depend on time.
+ G330 preserving examples remain. Entire reviews and false-pass/repair limits control.
++Lost intermediate reviewer outputs remain LOST, not recovered or preserved.
++The admitted equations do not universally preserve closed Hopf fibres of this
++continued Ricci eigenline even under smooth deformation, at that conditional scope.
++This automatic Hopfion-stabilization identification is PAUSED; no rescue carrier,
++energy functional or added restriction. The next-direction proposal is not authorized
++research; no generic failure, physical instability, topology change or UDT failure.
+ No physical identification, stability, new premise, canon or fixed-manuscript change.
+ 
+ ## Foundational and adopted layer
+diff --git a/CURRENT_SCIENTIFIC_PREMISES.tsv b/CURRENT_SCIENTIFIC_PREMISES.tsv
+index 25514e77..2345e73c 100644
+--- a/CURRENT_SCIENTIFIC_PREMISES.tsv
++++ b/CURRENT_SCIENTIFIC_PREMISES.tsv
+@@ -1,4 +1,6 @@
+ premise_id	term	current_status	epistemic_label	active_use	open_scope	forbidden_regression	controlling_source	precedence_rule
++G379	positive_torus_slope_closed_leaf_and_hopf_fibration_discriminator	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	CF1__SUPPLIED_SMOOTH_S3_GLOBAL_ROTATIONS_POSITIVE_SMOOTH_SLOPE__ALL_LEAVES_CLOSED_IFF_CONSTANT_POSITIVE_RATIONAL__REGULAR_CIRCLE_FIBRATION_AND_ANY_DIFFEO_HOPF_EQUIVALENCE_IFF_SLOPE_ONE__BOTH_PRIMITIVE_AXIS_HOLONOMY_ORDERS_REQUIRED__SMOOTH_CONNECTED_TIME_FAMILY_FROM_HOPF_ALL_CLOSED_FORCES_SLOPE_ONE__ACTUAL_SMOOTH_FAMILY_MIXED_DERIVATIVE_ONLY_NOT_LAWFUL_VACUUM_DATA__INTERIOR_NONCONSTANT_SLOPE_TEST_DOES_NOT_NEED_AXIS_NORMALIZATION__EITHER_AXIS_FALSE_PASS_29_OF_29_INDEPENDENT_37_OF_39_CATCH__WEAK_RESCALING_AND_FINITE_RATIONAL_SAMPLING_NOT_PROOF__FAILED_ANCILLARY_EXACT_VERSION_FETCH_RETAINED	physical identification remains OPEN; generic failure and all-perturbations claims; physical instability particle stability physical size absolute scale; topology change or failure of UDT or older conditional carrier model; arbitrary slicing global time uniform lifetime excluded limits; carrier action energy functional population observation and canon	scope sector weakened; marked drift or homotopy called nonclosure; actual global data or development replaced by formal jet; arbitrary diffeomorphism restricted to equivariance; preserving examples erased; original false pass or failure erased; LOST reviewer outputs claimed preserved; six discriminators called six mutation catches; review counts called proof; paused identification rescued by added carrier or energy functional	udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md	OWNER_AUTHORIZED_EXACT_SCOPE_BANKING_OF_ENTIRE_FROZEN_CF_CANDIDATE_RESULT_AND_PRINCIPAL_REVIEW__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__ORIGINAL_UNPROMOTED_HISTORY_UNCHANGED__DEPENDENCY_CLOSED_NO_UNRELATED_PROMOTION__LIVE_THEN_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
++G380	lawful_local_vacuum_nonpreservation_of_closed_ricci_hopf_fibres	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	CF2__REQUIRES_G379_G376_G377_G378_AND_OWNER_PROVISIONAL_G310_G312__G315_G330_G337_CONVENTIONS_GEOMETRY_CONDITIONAL_METHODS__EVERY_FIXED_POSITIVE_NONROUND_COMPACT_BOUNDARY_FREE_BERGER_S3__SIGNED_H_NONZERO_FIXED_GAMMA_LAMBDA_R_OVER2_PLUS3H_SQUARED__ANY_FIXED_FINITE_C_K_ALPHA_K_GE3_ALPHA_BETWEEN_ZERO_ONE__ARBITRARILY_SMALL_ACTUAL_GLOBAL_CONSTRAINT_DATA__SUPPLIED_GAUSSIAN_NORMAL_SLICING_MARKING_NEGATIVE_K__CONDITIONAL_SMOOTH_LOCAL_CAUCHY_UNIQUENESS_AND_ISOMETRY_EXTENSION__POSITIVE_SLICE_METRIC_SIMPLE_BRANCH_GAPS_FROM_BOTH_OTHER_EIGENVALUES__DATUM_DEPENDENT_INTERVAL_EVERY_SHORT_NONZERO_TIME_SOME_NONCLOSED_FULL_LEAVES__LEAF_OR_TORUS_MAY_DEPEND_ON_TIME_NOT_ALL_LEAVES__EXCLUDES_ANY_SMOOTH_DIFFEO_HOPF_IMAGE_NOT_JUST_FIXED_MARKED_DIRECTION__CHOSEN_TORUS_PLUS_CONJUGATION_DATA_SYMMETRY_NOT_PHYSICAL_LAW__GENUINE_GLOBAL_TT_KERNEL_COMPLEMENT_UNIQUE_NONLINEAR_IFT_LIFT__ONE_FINITE_FREQUENCY_SEED_BEFORE_SMALL_AMPLITUDE_TRACE_CONSTRAINT_DETERMINED__ELLIPTIC_REGULARITY_OSCILLATORY_METHOD_HYPOTHESES_RETAINED__G330_PURE_TRACE_PRESERVING_EXAMPLES_SURVIVE__TWO_21_OF_21_FALSE_PASSES_INDEPENDENT_FULL_TENSOR_NONTRANSVERSE_CATCHES__SIX_DISCRIMINATORS_NOT_SIX_MUTATION_CATCHES_BOOKKEEPING_EXCLUDED__LOST_INTERMEDIATE_REVIEWER_OUTPUTS_NOT_PRESERVED_OR_RECOVERED__REVIEWER_ONLY_PROBE_REPAIR_NOT_AUTHOR_SCIENCE_REPAIR__ENTIRE_CF1_BI1_BG1_BG2_FALSE_PASS_REPAIR_EXPOSURE_METHOD_CAVEATS	physical identification remains OPEN; generic failure and all-perturbations claims; physical instability particle stability physical size absolute scale; topology change or failure of UDT or older conditional carrier model; arbitrary slicing global time uniform lifetime excluded limits; carrier action energy functional population observation and canon	scope sector weakened; marked drift or homotopy called nonclosure; actual global data or development replaced by formal jet; arbitrary diffeomorphism restricted to equivariance; preserving examples erased; original false pass or failure erased; LOST reviewer outputs claimed preserved; six discriminators called six mutation catches; review counts called proof; paused identification rescued by added carrier or energy functional	udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md	OWNER_AUTHORIZED_EXACT_SCOPE_BANKING_OF_ENTIRE_FROZEN_CF_CANDIDATE_RESULT_AND_PRINCIPAL_REVIEW__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__ORIGINAL_UNPROMOTED_HISTORY_UNCHANGED__DEPENDENCY_CLOSED_NO_UNRELATED_PROMOTION__LIVE_THEN_REGISTRY_THEN_BANKING_RECORD_AND_UNCHANGED_REVIEWED_SOURCES__CONFLICT_MEANS_STOP
+ G376	BI1 full marked Ricci-line criterion and homogeneous constraint quadric: required prerequisite	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	BI1_REQUIRED_PREREQUISITE_SEPARATE_FROM_BG1_BG2__OWNER_PROVISIONAL_G310_G312__FIXED_POSITIVE_NONROUND_BERGER_S3__EVERY_SMOOTH_K_FULL_UNCOMMUTED_RICCI_VARIATION__INVERSE_METRIC_AND_MOVING_DUAL_RETAINED__IMAGE_Y_ZERO_PROJECTOR_Y_AND_K_ZERO_DISTINCT__CONSTRAINTS_IMPOSED_SEPARATELY__LEFT_INVARIANT_SIX_ENTRY_CENSUS_ONLY__FIXED_ANY_FINITE_LAMBDA_DIVISION_FREE_QUADRIC__ALL_SIGNS_ZERO_MEAN_ROOT_CONE_STRATA_RETAINED__HOMOGENEOUS_ZERO_FIRST_DRIFT_NOT_TIME_PERSISTENCE__ACTUAL_6_OF_8_AUTHOR_CATCHES_TWO_FALSE_PASSES_INDEPENDENT_FULL_TENSOR_CATCH__ORIGINAL_PREFREEZE_FAILURE_AND_EXPOSURE_RETAINED	physical identification remains OPEN; particle stability; physical size; absolute scale; carrier/action; genericity; global-time evolution; fibration loss or topology change; canon; smooth Cauchy is an inherited conditional method, not proved by these finite checks	old row or unrelated predecessor promoted; full image/projector conflated; smooth K classified by homogeneous tile; all zero strata omitted; trace fixed without authority; principal-symbol checks called full tensor certification; original false pass or failure erased; method hypothesis called UDT derivation; review counts called proof; marked drift called fibration loss; free data demanded unique	udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md	ENTIRE_ORIGINAL_CANDIDATE_RESULT_REVIEW_CONTROLS__udt_berger_initial_data_preservation_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md__SHA256_f68aeba4a80fa7b095122d7ea07bc45e3d0213bddbee1d23d64f96e2cd538c80__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__ORIGINAL_FALSE_PASS_FAILURE_EXPOSURE_HISTORY_RETAINED__OWNER_AUTHORIZED_EXACT_SCOPE_ONLY
+ G377	BG1 fixed-Berger global small-TT nonlinear constraint family	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	BG1__OWNER_PROVISIONAL_G310_G312__FIXED_POSITIVE_NONROUND_COMPACT_BOUNDARY_FREE_BERGER_S3__SIGNED_H_NONZERO_FIXED_GAMMA_LAMBDA__EVERY_SUFFICIENTLY_SMALL_SMOOTH_GLOBAL_TT_SEED__ACTUAL_GLOBAL_NONLINEAR_ORIGINAL_CONSTRAINTS__C_K_ALPHA_K_GE3_ALPHA_BETWEEN_ZERO_ONE__TRACE_DETERMINED_NOT_ADDITIONALLY_FIXED__FIXED_BASELINE_MEAN_RIGIDITY_IS_EXTRA_DATA_RESTRICTION__COVARIANT_COTTON_EXCLUDES_PROPER_CONFORMAL_KILLING__KILLING_KERNEL_COMPLEMENT_INVERSE_ONLY__FREDHOLM_SCHAUDER_IFT_QUASILINEAR_METHOD_HYPOTHESES__NO_UNIFORM_EXCLUDED_LIMIT_BOUND__EXP_MINUS6T_BOOKKEEPING_ONLY__REVIEWER_AUXILIARY_KILLING_FAMILY_NOT_DEPENDENCY	physical identification remains OPEN; particle stability; physical size; absolute scale; carrier/action; genericity; global-time evolution; fibration loss or topology change; canon; smooth Cauchy is an inherited conditional method, not proved by these finite checks	old row or unrelated predecessor promoted; full image/projector conflated; smooth K classified by homogeneous tile; all zero strata omitted; trace fixed without authority; principal-symbol checks called full tensor certification; original false pass or failure erased; method hypothesis called UDT derivation; review counts called proof; marked drift called fibration loss; free data demanded unique	udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md	ENTIRE_ORIGINAL_CANDIDATE_RESULT_REVIEW_CONTROLS__udt_berger_global_constraint_campaign_2026-09-08/step_01/review/REVIEW_REPORT.md__SHA256_7d7902e456ee3f146f0bafbcbfd9c20b3cde501c974b5fd8c555570910eee5cb__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__ORIGINAL_FALSE_PASS_FAILURE_EXPOSURE_HISTORY_RETAINED__OWNER_AUTHORIZED_EXACT_SCOPE_ONLY
+ G378	BG2 arbitrary-small global lawful full marked Ricci-line drift	BANKED_DERIVED_CONDITIONAL__VERIFIED_WITH_CAVEATS__OWNER_AUTHORIZED__NOT_PHYSICAL_ADOPTION__NOT_CANON	MIXED	BG2__BG1_FAMILY_HYPOTHESES_BI1_ARBITRARY_SMOOTH_OPERATOR_ENTIRE_REVIEWS__REQUIRES_G376_AND_G377__EVERY_FIXED_NONROUND_BACKGROUND_SIGNED_H_NONZERO_MARKED_POINT__ARBITRARY_SMALL_SMOOTH_GLOBAL_LAWFUL_DATA_C_K_ALPHA_K_GE3__FIXED_GAMMA_LAMBDA_TRACE_RESPONSE_ALLOWED__GENUINE_GLOBAL_TT_GENERALIZED_INVERSE_NOT_PARAMETRIX__FULL_DRIFT_OPERATOR_NONZERO_SYMBOL_AND_CONTROLLED_REMAINDER__ONE_FINITE_FREQUENCY_SEED_BEFORE_NONLINEAR_AMPLITUDE_LIMIT__NONLOCAL_TAILS_NO_PRESCRIBED_LOCAL_SEED_GLUING__NONZERO_FULL_MARKED_RICCI_IMAGE_DRIFT__SHORT_NORMAL_TIME_CONDITIONAL_SMOOTH_MARKED_CAUCHY_METHOD_AND_GAP__THREE_ACTUAL_SYMBOL_ONLY_FALSE_PASSES_FULL_TENSOR_CATCHES__REVIEWER_ASSEMBLY_FAILURE_CORRECTION_RETAINED__PRESERVING_DATA_REMAIN_LAWFUL	physical identification remains OPEN; particle stability; physical size; absolute scale; carrier/action; genericity; global-time evolution; fibration loss or topology change; canon; smooth Cauchy is an inherited conditional method, not proved by these finite checks	old row or unrelated predecessor promoted; full image/projector conflated; smooth K classified by homogeneous tile; all zero strata omitted; trace fixed without authority; principal-symbol checks called full tensor certification; original false pass or failure erased; method hypothesis called UDT derivation; review counts called proof; marked drift called fibration loss; free data demanded unique	udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md	ENTIRE_ORIGINAL_CANDIDATE_RESULT_REVIEW_CONTROLS__udt_berger_global_constraint_campaign_2026-09-08/step_02/review/REVIEW_REPORT.md__SHA256_56a16d21ca942d39684eb6f887ba89b372fbbb867d83404f562d9bd946b7b0b8__FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED__ORIGINAL_FALSE_PASS_FAILURE_EXPOSURE_HISTORY_RETAINED__OWNER_AUTHORIZED_EXACT_SCOPE_ONLY
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 3795a49e..763d490e 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -46,7 +46,7 @@ G357--G360 bank SC2--SC5 at their owner-authorized conditional mathematical scop
+ VERIFIED-WITH-CAVEATS. SC1 remains a source map; initial and repaired false-pass evidence stays
+ unchanged. No physical identification, recipe adoption or canon follows.
+ 
+-Authority: the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
++Authority: the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. Evidence routes: `INDEX.md`.
+ Historical surfaces: `archive/STARTUP_SURFACE_HISTORY.md`. R2--R5 in
+ `udt_observed_angular_pattern_raw_restart_2026-08-12/` remain verified with caveats; 184,300
+ covariance rows are unresolved, no preferred scale follows, and the raw archive is
+@@ -218,9 +218,23 @@ EVERY sufficiently small nonzero actual normal time. The leaf may depend on time
+ Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
+ conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
+ G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
+-stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
+-Whole reviews/false-pass evidence control, including CF2 lost intermediate
+-reviewer-probe streams. No third step; owner decision before promotion/successor.
++stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
++conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
++`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
++No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
++evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
++intermediate buffered reviewer outputs were LOST, not preserved or recovered.
++The admitted equations do not universally preserve closed Hopf fibres of this
++continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
++This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
++No restrictions, carrier or energy functional will be added to rescue it.
++Further investigation needs an independently motivated question, not another example.
++Next-direction comparison/proposal only; no successor campaign has begun:
++`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
++Recommended: neighboring ideal tidal-record consistency versus one lawful metric
++development; alternative: regular label-current versus caustic weak-current bridge.
++These are unresolved questions, not new theorems, carriers or conservation laws.
++No third CF step; owner direction decision before any successor.
+ Beyond this explicitly approved scope, no new campaign is authorized.
+ Execution/publication receipts own closure; prior evidence remains unchanged.
+ Carrier/action/boundary/evolution adoption remains unauthorized.
+diff --git a/INDEX.md b/INDEX.md
+index 81cd616a..e13ddf43 100644
+--- a/INDEX.md
++++ b/INDEX.md
+@@ -2,7 +2,12 @@
+ 
+ - G376=BI1 required-prerequisite / G377=BG1 / G378=BG2 authorized conditional banking:
+   `udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md`; exact gates in its execution record.
+-- Completed TWO-step closed-fibre campaign, CF1/CF2 UNPROMOTED:
++- G379=CF1/G380=CF2 exact-scope conditional banking and current gates:
++  `udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record owns completion.
++  Hopf-fibre automatic-stabilization identification PAUSED, not an old-carrier or UDT failure.
++- Next-direction proposal ONLY, awaiting Charles's choice:
++  `udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
++- Completed TWO-step closed-fibre campaign, original UNPROMOTED evidence unchanged:
+   `udt_closed_fibre_persistence_campaign_2026-09-08/DECISION_BRIEF.md`;
+   exact global lawful-data/actual-time nonclosure counterexample with method/review caveats,
+   preserving G330 Hopf examples; no physical instability or UDT-failure conclusion.
+@@ -28,7 +33,7 @@
+ 6. Read `INDEX.md` and `MEMORY.md`, then stop and give the orientation report.
+ 7. After orientation, query only load-bearing evidence.
+ 
+-Authority: the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
++Authority: the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`. For any result ID, its current
+ grade, maximum conclusion, and evidence `source_path` belong there. For a known pre-reorganization
+ path only, query `research/_registry/CURRENT_ARTIFACT_PATHS.tsv`; it is not a frontier index.
+ 
+diff --git a/LIVE.md b/LIVE.md
+index c8f5b353..9444265b 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -77,7 +77,7 @@ completion consequence—not a local input, wall, center, or numerical scale.
+   eventwise algebraic curvature, local phase/optional compact obstruction, and bounded-weight
+   robustness. Assumptions and reviews remain controlling; no physical identification or canon.
+ 
+-Authority: the exact 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G378. Use `INDEX.md` for
++Authority: the exact 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`, through G380. Use `INDEX.md` for
+ current evidence routes and `archive/STARTUP_SURFACE_HISTORY.md` for nonauthoritative historical
+ startup surfaces.
+ 
+@@ -259,9 +259,23 @@ EVERY sufficiently small nonzero actual normal time. The leaf may depend on time
+ Retain supplied Gaussian marking, positive metrics/simple gap, chosen torus-plus-
+ conjugation data symmetry, exact global TT/IFT and smooth Cauchy/isometry methods.
+ G330 pure-trace Hopf survivors remain; no genericity, topology-change, physical
+-stability, carrier adoption or UDT-failure inference. Both results UNPROMOTED.
+-Whole reviews/false-pass evidence control, including CF2 lost intermediate
+-reviewer-probe streams. No third step; owner decision before promotion/successor.
++stability, carrier adoption or UDT-failure inference. Charles authorizes exact-scope
++conditional banking G379=CF1 and G380=CF2; dependency/integration/fidelity gates:
++`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md` and its execution record.
++No extra prerequisite or unrelated predecessor promotion. Original UNPROMOTED
++evidence remains unchanged. Whole reviews/false-pass evidence control; CF2
++intermediate buffered reviewer outputs were LOST, not preserved or recovered.
++The admitted equations do not universally preserve closed Hopf fibres of this
++continued Ricci eigenline, even allowing smooth deformation, at that exact scope.
++This identification as an automatic Hopfion-stabilization mechanism is PAUSED.
++No restrictions, carrier or energy functional will be added to rescue it.
++Further investigation needs an independently motivated question, not another example.
++Next-direction comparison/proposal only; no successor campaign has begun:
++`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
++Recommended: neighboring ideal tidal-record consistency versus one lawful metric
++development; alternative: regular label-current versus caustic weak-current bridge.
++These are unresolved questions, not new theorems, carriers or conservation laws.
++No third CF step; owner direction decision before any successor.
+ Beyond this explicitly approved scope, no new campaign is authorized.
+ Execution/publication receipts own closure; prior evidence remains unchanged.
+ Carrier/action/boundary/evolution adoption remains unauthorized.
+diff --git a/MEMORY.md b/MEMORY.md
+index 5677c76e..4ae19a8d 100644
+--- a/MEMORY.md
++++ b/MEMORY.md
+@@ -1,6 +1,6 @@
+ # MEMORY — compact pointer only
+ 
+-`LIVE.md` wins. Exact premise authority is the 361-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
++`LIVE.md` wins. Exact premise authority is the 363-row `CURRENT_SCIENTIFIC_PREMISES.tsv`.
+ 
+ ## Current picture
+ 
+@@ -35,8 +35,20 @@ lawful data on every fixed nonround/signed-h!=0 background with some nonclosed
+ leaves at every sufficiently small nonzero actual normal time; leaf may vary with t.
+ Retain marking/gap, torus-plus-conjugation data symmetry and full TT/IFT/smooth
+ Cauchy/isometry methods; G330 pure-trace survivors and all false-pass caveats.
+-CF1/CF2 UNPROMOTED; no physical stability, topology change or UDT-failure inference.
+-No third step or successor authorized at this return point.
++Charles authorizes exact-scope conditional banking G379=CF1/G380=CF2:
++`udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md`; its execution record
++owns gate completion. No extra prerequisite; original UNPROMOTED evidence stays.
++LOST intermediate reviewer outputs are not called preserved or recovered.
++No universal closed-Hopf-fibre preservation for this continued Ricci line, even
++allowing smooth deformation. No generic failure, physical instability, topology
++change or failure of UDT/the older conditional carrier model. This automatic
++Hopfion-stabilization identification is PAUSED; no rescue restrictions/carrier/action.
++Only the next-direction proposal is requested, not successor execution:
++`udt_g379_g380_conditional_banking_2026-09-08/NEXT_CAMPAIGN_PROPOSAL.md`.
++Recommended: differential consistency of neighboring ideal tidal records with one
++lawful metric development. Alternative: caustic extension of the regular carried
++current, not a new assumed metric-derived carrier or conservation law.
++No third CF step; Charles chooses before a successor begins.
+ 
+ The founded reciprocal kernel acts on supplied ordered depth. Complete-pair evaluation is
+ conditional and places `B,Q,S,Y,Z` before readout. W5/W6 are working clarifications. Universal
+@@ -101,9 +113,9 @@ two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08
+ VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
+ Integration gates remain in the banking package; the bounded Hopfion successor is complete.
+ No fourth step in that completed Hopfion campaign is authorized. New banking is
+-limited to the currently approved G376--G378 dependency-closed scope below.
++limited to the currently approved G379--G380 dependency-closed scope above.
+ The Berger initial-data and two-step global-constraint campaigns above are complete.
+-Authorized dependency-closed banking and the new closed-fibre campaign are scoped
++Authorized dependency-closed banking and next-direction planning are scoped
+ above; no broader campaign or physical adoption. LIVE owns current state.
+ G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
+ The earlier tidal proposal is historical, not a pending permission gate.
+diff --git a/verify_current_scientific_premises.py b/verify_current_scientific_premises.py
+index 9e651f24..df8a7789 100644
+--- a/verify_current_scientific_premises.py
++++ b/verify_current_scientific_premises.py
+@@ -56,6 +56,9 @@ VACUUM_SCALE_BANKING_CAMPAIGN = "udt_vacuum_common_scale_campaign_2026-09-08"
+ BERGER_BANKING_SNAPSHOT = "32d23fb47dc4e440acc8c721aef6cb8201796ded"
+ BERGER_BANKING_IDS = ("G376", "G377", "G378")
+ BERGER_BANKING_SOURCE = "udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md"
++CLOSED_FIBRE_BANKING_SNAPSHOT = "b1dda6724fae599f9684b5f3f03d421221569fe5"
++CLOSED_FIBRE_BANKING_IDS = ("G379", "G380")
++CLOSED_FIBRE_BANKING_SOURCE = "udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md"
+ 
+ PREMISE_REGISTRY_CONTROLS = (
+     "AGENTS.md",
+@@ -272,7 +275,7 @@ def replay_package_with_current_registry_rows_removed(
+         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
+     ) if include_legacy_later_rows else ()
+     removed_ids = tuple(
+-        dict.fromkeys(legacy_later_rows + removed_ids)
++        dict.fromkeys(CLOSED_FIBRE_BANKING_IDS + legacy_later_rows + removed_ids)
+     )
+     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
+         root = Path(directory)
+@@ -346,7 +349,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+     correspondence and scope regression, not another scientific review or proof.
+     """
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
++    later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(
+         line for line in registry_bytes.splitlines(keepends=True)
+@@ -478,7 +481,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
+ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_ids = PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
++    later_ids = PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+@@ -602,7 +605,7 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
+ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Guard only additive PC1--PC3 banking; correspondence is not proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_ids = RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
++    later_ids = RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+@@ -710,7 +713,7 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
+ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Additive RC1--RC3 fidelity/correspondence guard, not scientific proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_ids = SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
++    later_ids = SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
+     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+@@ -812,7 +815,7 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
+ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Additive SM1--SM3 scope/correspondence guard; not new scientific proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
++    later_prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+     prefixes = tuple(f"{item}\t".encode() for item in SOURCE_METRIC_BANKING_IDS)
+@@ -822,7 +825,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
+             == "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
+             "source-metric banking changed an existing scientific registry row")
+     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-            if row["premise_id"] not in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS]
++            if row["premise_id"] not in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 352,
+             "source-metric banking must add exactly three distinct rows to 349")
+@@ -903,7 +906,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
+ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Additive RT1--RT2 fidelity/correspondence guard, not scientific proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later_prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
++    later_prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later_prefixes))
+     prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS)
+@@ -913,7 +916,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool =
+             == "629735b28289e75998b00ff491bca123e6a995c8310980c6dc785f1829f8a31c",
+             "reconstruction banking changed an existing scientific registry row")
+     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-            if row["premise_id"] not in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS]
++            if row["premise_id"] not in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 354,
+             "reconstruction banking must add exactly two distinct rows to 352")
+@@ -1003,7 +1006,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool =
+ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Exact-scope CD1/CD2 banking correspondence, never a scientific proof."""
+     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    later = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
++    later = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
+     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
+                               if not line.startswith(later))
+     prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS)
+@@ -1013,7 +1016,7 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
+             == "1bbb790281fec94a57d63f101f0bd2b909022348587473864190b6965aa17900",
+             "coupled banking changed an existing scientific registry row")
+     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-            if row["premise_id"] not in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS]
++            if row["premise_id"] not in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 356,
+             "coupled banking must add exactly two distinct rows to 354")
+@@ -1106,14 +1109,14 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
+ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """VS1/VS2 exact-scope banking correspondence; never scientific proof."""
+     raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    prefixes = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
++    prefixes = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
+     old = b"".join(line for line in raw.splitlines(keepends=True)
+                    if not line.startswith(prefixes))
+     require(hashlib.sha256(old).hexdigest()
+             == "af5918070b387320f6b53b561707c17474400e78bd4c947617931218a1d2e18a",
+             "vacuum-scale banking changed an existing scientific registry row")
+     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-            if row["premise_id"] not in BERGER_BANKING_IDS]
++            if row["premise_id"] not in BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 358,
+             "vacuum-scale banking must add exactly two distinct rows to 356")
+@@ -1201,13 +1204,14 @@ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = Tr
+ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+     """Exact BI1/BG1/BG2 source/dependency correspondence, not a new proof."""
+     raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+-    prefixes = tuple(f"{item}\t".encode() for item in BERGER_BANKING_IDS)
++    prefixes = tuple(f"{item}\t".encode() for item in BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
+     old = b"".join(line for line in raw.splitlines(keepends=True)
+                    if not line.startswith(prefixes))
+     require(hashlib.sha256(old).hexdigest()
+             == "2bb885062dce0f47f7ea37562aee882d5d5d41f25cb539e9dd37755bbe722b63",
+             "Berger banking changed an existing scientific registry row")
+-    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++    rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++            if row["premise_id"] not in CLOSED_FIBRE_BANKING_IDS]
+     by_id = {row["premise_id"]: row for row in rows}
+     require(len(rows) == len(by_id) == 361,
+             "Berger banking must add exactly three distinct rows to 358")
+@@ -1313,6 +1317,132 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
+             "Berger banking is not additive from authorized baseline")
+ 
+ 
++def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = True) -> None:
++    """Exact CF1/CF2 source/dependency banking correspondence; not a proof."""
++    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
++    prefixes = tuple(f"{item}\t".encode() for item in CLOSED_FIBRE_BANKING_IDS)
++    old = b"".join(line for line in raw.splitlines(keepends=True)
++                   if not line.startswith(prefixes))
++    require(hashlib.sha256(old).hexdigest()
++            == "8984ebb242864dbb9a77d65847713acf8befc90a4904a25a59fcc13ef4eb6446",
++            "closed-fibre banking changed an existing scientific registry row")
++    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
++    by_id = {row["premise_id"]: row for row in rows}
++    require(len(rows) == len(by_id) == 363,
++            "closed-fibre banking must add exactly two distinct rows to 361")
++    for dependency in ("G376", "G377", "G378"):
++        require(by_id[dependency]["current_status"] == CONDITIONAL_BANKING_STATUS,
++                f"closed-fibre required accepted dependency changed: {dependency}")
++    record = " ".join((root / CLOSED_FIBRE_BANKING_SOURCE).read_text().split())
++    for token in (*CLOSED_FIBRE_BANKING_IDS, CLOSED_FIBRE_BANKING_SNAPSHOT,
++                  "ENTIRE", "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
++                  "HB2/HB3 and BI2/BI3 remain UNPROMOTED",
++                  "BOTH", "ANY smooth ambient diffeomorphism", "SUPPLIED Gaussian",
++                  "DATUM-DEPENDENT", "EVERY 0<|t|<delta", "SOME NONCLOSED",
++                  "leaf or torus may depend on time", "preserving examples SURVIVE",
++                  "FALSE PASS29/29", "TWO additional FALSE PASSES",
++                  "SIX DISCRIMINATORS, NOT SIX MUTATION CATCHES",
++                  "LOST, not preserved or recovered", "PAUSED",
++                  "physical identification remains OPEN", "no new campaign is authorized",
++                  "UNKNOWN", "UNTESTED"):
++        require(token in record, f"closed-fibre banking record lacks {token}")
++    scopes = {
++            "G379": [
++                    "CF1",
++                    "SUPPLIED_SMOOTH_S3_GLOBAL_ROTATIONS_POSITIVE_SMOOTH_SLOPE",
++                    "ALL_LEAVES_CLOSED_IFF_CONSTANT_POSITIVE_RATIONAL",
++                    "REGULAR_CIRCLE_FIBRATION_AND_ANY_DIFFEO_HOPF_EQUIVALENCE_IFF_SLOPE_ONE",
++                    "BOTH_PRIMITIVE_AXIS_HOLONOMY_ORDERS_REQUIRED",
++                    "SMOOTH_CONNECTED_TIME_FAMILY_FROM_HOPF_ALL_CLOSED_FORCES_SLOPE_ONE",
++                    "ACTUAL_SMOOTH_FAMILY_MIXED_DERIVATIVE_ONLY_NOT_LAWFUL_VACUUM_DATA",
++                    "INTERIOR_NONCONSTANT_SLOPE_TEST_DOES_NOT_NEED_AXIS_NORMALIZATION",
++                    "EITHER_AXIS_FALSE_PASS_29_OF_29_INDEPENDENT_37_OF_39_CATCH",
++                    "WEAK_RESCALING_AND_FINITE_RATIONAL_SAMPLING_NOT_PROOF",
++                    "FAILED_ANCILLARY_EXACT_VERSION_FETCH_RETAINED"
++            ],
++            "G380": [
++                    "CF2",
++                    "REQUIRES_G379_G376_G377_G378_AND_OWNER_PROVISIONAL_G310_G312",
++                    "G315_G330_G337_CONVENTIONS_GEOMETRY_CONDITIONAL_METHODS",
++                    "EVERY_FIXED_POSITIVE_NONROUND_COMPACT_BOUNDARY_FREE_BERGER_S3",
++                    "SIGNED_H_NONZERO_FIXED_GAMMA_LAMBDA_R_OVER2_PLUS3H_SQUARED",
++                    "ANY_FIXED_FINITE_C_K_ALPHA_K_GE3_ALPHA_BETWEEN_ZERO_ONE",
++                    "ARBITRARILY_SMALL_ACTUAL_GLOBAL_CONSTRAINT_DATA",
++                    "SUPPLIED_GAUSSIAN_NORMAL_SLICING_MARKING_NEGATIVE_K",
++                    "CONDITIONAL_SMOOTH_LOCAL_CAUCHY_UNIQUENESS_AND_ISOMETRY_EXTENSION",
++                    "POSITIVE_SLICE_METRIC_SIMPLE_BRANCH_GAPS_FROM_BOTH_OTHER_EIGENVALUES",
++                    "DATUM_DEPENDENT_INTERVAL_EVERY_SHORT_NONZERO_TIME_SOME_NONCLOSED_FULL_LEAVES",
++                    "LEAF_OR_TORUS_MAY_DEPEND_ON_TIME_NOT_ALL_LEAVES",
++                    "EXCLUDES_ANY_SMOOTH_DIFFEO_HOPF_IMAGE_NOT_JUST_FIXED_MARKED_DIRECTION",
++                    "CHOSEN_TORUS_PLUS_CONJUGATION_DATA_SYMMETRY_NOT_PHYSICAL_LAW",
++                    "GENUINE_GLOBAL_TT_KERNEL_COMPLEMENT_UNIQUE_NONLINEAR_IFT_LIFT",
++                    "ONE_FINITE_FREQUENCY_SEED_BEFORE_SMALL_AMPLITUDE_TRACE_CONSTRAINT_DETERMINED",
++                    "ELLIPTIC_REGULARITY_OSCILLATORY_METHOD_HYPOTHESES_RETAINED",
++                    "G330_PURE_TRACE_PRESERVING_EXAMPLES_SURVIVE",
++                    "TWO_21_OF_21_FALSE_PASSES_INDEPENDENT_FULL_TENSOR_NONTRANSVERSE_CATCHES",
++                    "SIX_DISCRIMINATORS_NOT_SIX_MUTATION_CATCHES_BOOKKEEPING_EXCLUDED",
++                    "LOST_INTERMEDIATE_REVIEWER_OUTPUTS_NOT_PRESERVED_OR_RECOVERED",
++                    "REVIEWER_ONLY_PROBE_REPAIR_NOT_AUTHOR_SCIENCE_REPAIR",
++                    "ENTIRE_CF1_BI1_BG1_BG2_FALSE_PASS_REPAIR_EXPOSURE_METHOD_CAVEATS"
++            ]
++    }
++    for premise_id, tokens in scopes.items():
++        row = by_id[premise_id]
++        require(row["current_status"] == CONDITIONAL_BANKING_STATUS
++                and row["epistemic_label"] == "MIXED", f"{premise_id} banking grade changed")
++        require(row["controlling_source"] == CLOSED_FIBRE_BANKING_SOURCE,
++                f"{premise_id} banking source changed")
++        for token in tokens:
++            require(token in row["active_use"], f"{premise_id} scope lacks {token}")
++        for token in ("physical identification remains OPEN", "generic failure",
++                      "physical instability", "topology change", "older conditional carrier model",
++                      "arbitrary slicing", "global time", "canon"):
++            require(token in row["open_scope"], f"{premise_id} open scope lacks {token}")
++        for token in ("original false pass or failure erased", "LOST reviewer outputs claimed preserved",
++                      "six discriminators called six mutation catches", "review counts called proof",
++                      "paused identification rescued by added carrier or energy functional"):
++            require(token in row["forbidden_regression"], f"{premise_id} guard lacks {token}")
++        require("FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED"
++                in row["precedence_rule"], f"{premise_id} review independence changed")
++    if not authenticate_sources:
++        return
++    manifest = root / "udt_g379_g380_conditional_banking_2026-09-08/SOURCE_EVIDENCE_SHA256SUMS"
++    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
++            == "d25ba1fd84817aa3db38a69604a17b6496395d9b21d033c5e4f9a4d26aec91d6",
++            "closed-fibre source manifest changed")
++    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
++    require(len(entries) == len({path for _, path in entries}) == 149,
++            "closed-fibre source membership changed")
++    for expected, relative in entries:
++        require(relative.startswith("udt_closed_fibre_persistence_campaign_2026-09-08/")
++                and ".." not in Path(relative).parts and not Path(relative).is_absolute()
++                and re.fullmatch(r"[0-9a-f]{64}", expected) is not None,
++                "closed-fibre unsafe source manifest target")
++        target = root / relative
++        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
++                f"closed-fibre original evidence changed: {relative}")
++    frozen = subprocess.run(["git", "show",
++        f"{CLOSED_FIBRE_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
++        cwd=ROOT, capture_output=True, check=False, timeout=10)
++    require(frozen.returncode == 0 and frozen.stdout == old,
++            "closed-fibre banking is not additive from authorized baseline")
++    pins = root / "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/SOURCE_PINS_SHA256SUMS"
++    pin_rows = [line.split(maxsplit=1) for line in pins.read_text().splitlines()]
++    require(len(pin_rows) == len({name for _, name in pin_rows}) == 25,
++            "closed-fibre dependency pin count changed")
++    for expected, relative in pin_rows:
++        if relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", "verify_current_scientific_premises.py"):
++            snapshot = subprocess.run(["git", "show",
++                f"{CLOSED_FIBRE_BANKING_SNAPSHOT}:{relative}"],
++                cwd=ROOT, capture_output=True, check=False, timeout=10)
++            require(snapshot.returncode == 0, f"closed-fibre historical source absent: {relative}")
++            data = snapshot.stdout
++        else:
++            data = (root / relative).read_bytes()
++        require(hashlib.sha256(data).hexdigest() == expected,
++                f"closed-fibre source pin changed: {relative}")
++
++
+ def validate_startup_surface(root: Path) -> None:
+     """Fail closed on semantic startup authority without requiring duplicated chronology."""
+     controls: dict[str, str] = {}
+@@ -1327,9 +1457,9 @@ def validate_startup_surface(root: Path) -> None:
+     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
+     require(registry.is_file(), "premise registry missing")
+     registry_rows = read_tsv(registry)
+-    require(len(registry_rows) == 361, "premise registry must contain exactly 361 rows")
++    require(len(registry_rows) == 363, "premise registry must contain exactly 363 rows")
+     require(
+-        len({row["premise_id"] for row in registry_rows}) == 361,
++        len({row["premise_id"] for row in registry_rows}) == 363,
+         "premise registry contains duplicate ids",
+     )
+     validate_conditional_banking(root, authenticate_sources=False)
+@@ -1341,6 +1471,15 @@ def validate_startup_surface(root: Path) -> None:
+     validate_coupled_banking(root, authenticate_sources=False)
+     validate_vacuum_scale_banking(root, authenticate_sources=False)
+     validate_berger_banking(root, authenticate_sources=False)
++    validate_closed_fibre_banking(root, authenticate_sources=False)
++
++    for relative in ("LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md"):
++        current = " ".join(controls[relative].split())
++        for token in ("G379=CF1", "G380=CF2", "LOST, not preserved or recovered",
++                      "automatic Hopfion-stabilization mechanism is PAUSED",
++                      "even allowing smooth deformation", CLOSED_FIBRE_BANKING_SOURCE,
++                      "no successor campaign has begun"):
++            require(token in current, f"closed-fibre current tracking lacks {token}: {relative}")
+ 
+     for control in PREMISE_REGISTRY_CONTROLS:
+         require(
+@@ -1376,7 +1515,7 @@ def validate_startup_surface(root: Path) -> None:
+         "T_clock=R A^-1",
+         "continuous",
+         "CURRENT_SCIENTIFIC_PREMISES.tsv",
+-        "361-row",
++        "363-row",
+         "archive/STARTUP_SURFACE_HISTORY.md",
+         "udt_observed_angular_pattern_raw_restart_2026-08-12",
+         "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
+@@ -1458,7 +1597,7 @@ def validate_startup_surface(root: Path) -> None:
+         "AGENTS.md": (
+             "Stop the startup read here",
+             "does not make full scripts",
+-            "361-row exact registry",
++            "363-row exact registry",
+             "without dumping its wide rows into model context",
+             "1,114 data rows plus its header",
+             "not a startup read or a current-frontier index",
+@@ -1497,7 +1636,7 @@ def validate_startup_surface(root: Path) -> None:
+             "verify_current_scientific_premises.py",
+         ),
+         "MEMORY.md": (
+-            "361-row",
++            "363-row",
+             "B,Q,S,Y,Z",
+             "Universal Reciprocity/DDR",
+             "owner-adopted provisional premises",
+@@ -1512,7 +1651,7 @@ def validate_startup_surface(root: Path) -> None:
+             "archive/STARTUP_SURFACE_HISTORY.md",
+         ),
+         "CURRENT_RESEARCH_PROGRAM.md": (
+-            "361-row",
++            "363-row",
+             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
+             "G129--G198",
+             "G199--G276",
+@@ -1530,7 +1669,7 @@ def validate_startup_surface(root: Path) -> None:
+             "physical-realization",
+         ),
+         "CURRENT_SCIENTIFIC_PREMISES.md": (
+-            "361-row",
++            "363-row",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
+             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
+             "one postulate with two formulations",
+@@ -1979,9 +2118,9 @@ def validate_startup_surface(root: Path) -> None:
+ 
+ def main() -> None:
+     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+-    require(len(rows) == 361, "premise registry must contain exactly 361 rows")
++    require(len(rows) == 363, "premise registry must contain exactly 363 rows")
+     by_id = {row["premise_id"]: row for row in rows}
+-    require(len(by_id) == 361, "duplicate premise id")
++    require(len(by_id) == 363, "duplicate premise id")
+     validate_conditional_banking(ROOT)
+     validate_shared_constraint_banking(ROOT)
+     validate_persistence_banking(ROOT)
+@@ -1991,6 +2130,7 @@ def main() -> None:
+     validate_coupled_banking(ROOT)
+     validate_vacuum_scale_banking(ROOT)
+     validate_berger_banking(ROOT)
++    validate_closed_fibre_banking(ROOT)
+     latest_rows = {
+         "G277": (
+             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
+@@ -2757,7 +2897,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines
+@@ -2832,7 +2972,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
+@@ -2911,7 +3051,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
+@@ -3004,7 +3144,7 @@ def main() -> None:
+     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
+     registry_lines = tuple(
+         line for line in registry_lines
+-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
++        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+     )
+     frozen_registry = b"".join(
+         line for line in registry_lines
+@@ -6705,7 +6845,7 @@ def main() -> None:
+             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
+                 source_bytes = b"".join(
+                     line for line in source_bytes.splitlines(keepends=True)
+-                    if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
++                    if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
+                 )
+             destination = g351_root / source_name
+             destination.parent.mkdir(parents=True, exist_ok=True)
+@@ -19748,7 +19888,10 @@ def main() -> None:
+         "PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, "
+         "fixed-target scalar and review limits; no particle stability, size or absolute scale; "
+         "PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking "
+-        "with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion"
++        "with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; "
++        "PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, "
++        "lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; "
++        "no generic failure, physical instability, topology change or UDT-failure promotion"
+     )
+ 
+ 

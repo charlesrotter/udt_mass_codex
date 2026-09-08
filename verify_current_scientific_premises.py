@@ -56,6 +56,9 @@ VACUUM_SCALE_BANKING_CAMPAIGN = "udt_vacuum_common_scale_campaign_2026-09-08"
 BERGER_BANKING_SNAPSHOT = "32d23fb47dc4e440acc8c721aef6cb8201796ded"
 BERGER_BANKING_IDS = ("G376", "G377", "G378")
 BERGER_BANKING_SOURCE = "udt_g376_g378_conditional_banking_2026-09-08/BANKING_RECORD.md"
+CLOSED_FIBRE_BANKING_SNAPSHOT = "b1dda6724fae599f9684b5f3f03d421221569fe5"
+CLOSED_FIBRE_BANKING_IDS = ("G379", "G380")
+CLOSED_FIBRE_BANKING_SOURCE = "udt_g379_g380_conditional_banking_2026-09-08/BANKING_RECORD.md"
 
 PREMISE_REGISTRY_CONTROLS = (
     "AGENTS.md",
@@ -272,7 +275,7 @@ def replay_package_with_current_registry_rows_removed(
         "G299", "G298", "G297", "G296", "G295", "W6", "G275", "W5", "G274", "G273", "G272", "G271", "G270", "G269", "G268",
     ) if include_legacy_later_rows else ()
     removed_ids = tuple(
-        dict.fromkeys(legacy_later_rows + removed_ids)
+        dict.fromkeys(CLOSED_FIBRE_BANKING_IDS + legacy_later_rows + removed_ids)
     )
     with tempfile.TemporaryDirectory(prefix=f"{package.name}_replay_", dir="/tmp") as directory:
         root = Path(directory)
@@ -346,7 +349,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
     correspondence and scope regression, not another scientific review or proof.
     """
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
+    later_ids = SHARED_CONSTRAINT_BANKING_IDS + PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(
         line for line in registry_bytes.splitlines(keepends=True)
@@ -478,7 +481,7 @@ def validate_conditional_banking(root: Path, *, authenticate_sources: bool = Tru
 def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Guard additive SC2--SC5 banking; hashes and guards are not scientific proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_ids = PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
+    later_ids = PERSISTENCE_BANKING_IDS + RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
@@ -602,7 +605,7 @@ def validate_shared_constraint_banking(root: Path, *, authenticate_sources: bool
 def validate_persistence_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Guard only additive PC1--PC3 banking; correspondence is not proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_ids = RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
+    later_ids = RESTRICTIVENESS_BANKING_IDS + SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
@@ -710,7 +713,7 @@ def validate_persistence_banking(root: Path, *, authenticate_sources: bool = Tru
 def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Additive RC1--RC3 fidelity/correspondence guard, not scientific proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_ids = SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS
+    later_ids = SOURCE_METRIC_BANKING_IDS + RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS
     later_prefixes = tuple(f"{item}\t".encode() for item in later_ids)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
@@ -812,7 +815,7 @@ def validate_restrictiveness_banking(root: Path, *, authenticate_sources: bool =
 def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Additive SM1--SM3 scope/correspondence guard; not new scientific proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
+    later_prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
     prefixes = tuple(f"{item}\t".encode() for item in SOURCE_METRIC_BANKING_IDS)
@@ -822,7 +825,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
             == "ccd1fd2752a5884dfa2864fc9f3904f9dcc7e22557f6d4057e92ec2c54caf81f",
             "source-metric banking changed an existing scientific registry row")
     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-            if row["premise_id"] not in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS]
+            if row["premise_id"] not in RECONSTRUCTION_BANKING_IDS + COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 352,
             "source-metric banking must add exactly three distinct rows to 349")
@@ -903,7 +906,7 @@ def validate_source_metric_banking(root: Path, *, authenticate_sources: bool = T
 def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Additive RT1--RT2 fidelity/correspondence guard, not scientific proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later_prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
+    later_prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later_prefixes))
     prefixes = tuple(f"{item}\t".encode() for item in RECONSTRUCTION_BANKING_IDS)
@@ -913,7 +916,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = 
             == "629735b28289e75998b00ff491bca123e6a995c8310980c6dc785f1829f8a31c",
             "reconstruction banking changed an existing scientific registry row")
     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-            if row["premise_id"] not in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS]
+            if row["premise_id"] not in COUPLED_BANKING_IDS + VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 354,
             "reconstruction banking must add exactly two distinct rows to 352")
@@ -1003,7 +1006,7 @@ def validate_reconstruction_banking(root: Path, *, authenticate_sources: bool = 
 def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Exact-scope CD1/CD2 banking correspondence, never a scientific proof."""
     registry_bytes = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    later = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
+    later = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
     registry_bytes = b"".join(line for line in registry_bytes.splitlines(keepends=True)
                               if not line.startswith(later))
     prefixes = tuple(f"{item}\t".encode() for item in COUPLED_BANKING_IDS)
@@ -1013,7 +1016,7 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
             == "1bbb790281fec94a57d63f101f0bd2b909022348587473864190b6965aa17900",
             "coupled banking changed an existing scientific registry row")
     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-            if row["premise_id"] not in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS]
+            if row["premise_id"] not in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 356,
             "coupled banking must add exactly two distinct rows to 354")
@@ -1106,14 +1109,14 @@ def validate_coupled_banking(root: Path, *, authenticate_sources: bool = True) -
 def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """VS1/VS2 exact-scope banking correspondence; never scientific proof."""
     raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    prefixes = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS)
+    prefixes = tuple(f"{item}\t".encode() for item in VACUUM_SCALE_BANKING_IDS + BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
     old = b"".join(line for line in raw.splitlines(keepends=True)
                    if not line.startswith(prefixes))
     require(hashlib.sha256(old).hexdigest()
             == "af5918070b387320f6b53b561707c17474400e78bd4c947617931218a1d2e18a",
             "vacuum-scale banking changed an existing scientific registry row")
     rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-            if row["premise_id"] not in BERGER_BANKING_IDS]
+            if row["premise_id"] not in BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 358,
             "vacuum-scale banking must add exactly two distinct rows to 356")
@@ -1201,13 +1204,14 @@ def validate_vacuum_scale_banking(root: Path, *, authenticate_sources: bool = Tr
 def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) -> None:
     """Exact BI1/BG1/BG2 source/dependency correspondence, not a new proof."""
     raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
-    prefixes = tuple(f"{item}\t".encode() for item in BERGER_BANKING_IDS)
+    prefixes = tuple(f"{item}\t".encode() for item in BERGER_BANKING_IDS + CLOSED_FIBRE_BANKING_IDS)
     old = b"".join(line for line in raw.splitlines(keepends=True)
                    if not line.startswith(prefixes))
     require(hashlib.sha256(old).hexdigest()
             == "2bb885062dce0f47f7ea37562aee882d5d5d41f25cb539e9dd37755bbe722b63",
             "Berger banking changed an existing scientific registry row")
-    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    rows = [row for row in read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+            if row["premise_id"] not in CLOSED_FIBRE_BANKING_IDS]
     by_id = {row["premise_id"]: row for row in rows}
     require(len(rows) == len(by_id) == 361,
             "Berger banking must add exactly three distinct rows to 358")
@@ -1313,6 +1317,132 @@ def validate_berger_banking(root: Path, *, authenticate_sources: bool = True) ->
             "Berger banking is not additive from authorized baseline")
 
 
+def validate_closed_fibre_banking(root: Path, *, authenticate_sources: bool = True) -> None:
+    """Exact CF1/CF2 source/dependency banking correspondence; not a proof."""
+    raw = (root / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes()
+    prefixes = tuple(f"{item}\t".encode() for item in CLOSED_FIBRE_BANKING_IDS)
+    old = b"".join(line for line in raw.splitlines(keepends=True)
+                   if not line.startswith(prefixes))
+    require(hashlib.sha256(old).hexdigest()
+            == "8984ebb242864dbb9a77d65847713acf8befc90a4904a25a59fcc13ef4eb6446",
+            "closed-fibre banking changed an existing scientific registry row")
+    rows = read_tsv(root / "CURRENT_SCIENTIFIC_PREMISES.tsv")
+    by_id = {row["premise_id"]: row for row in rows}
+    require(len(rows) == len(by_id) == 363,
+            "closed-fibre banking must add exactly two distinct rows to 361")
+    for dependency in ("G376", "G377", "G378"):
+        require(by_id[dependency]["current_status"] == CONDITIONAL_BANKING_STATUS,
+                f"closed-fibre required accepted dependency changed: {dependency}")
+    record = " ".join((root / CLOSED_FIBRE_BANKING_SOURCE).read_text().split())
+    for token in (*CLOSED_FIBRE_BANKING_IDS, CLOSED_FIBRE_BANKING_SNAPSHOT,
+                  "ENTIRE", "BANKED_DERIVED_CONDITIONAL", "VERIFIED-WITH-CAVEATS",
+                  "HB2/HB3 and BI2/BI3 remain UNPROMOTED",
+                  "BOTH", "ANY smooth ambient diffeomorphism", "SUPPLIED Gaussian",
+                  "DATUM-DEPENDENT", "EVERY 0<|t|<delta", "SOME NONCLOSED",
+                  "leaf or torus may depend on time", "preserving examples SURVIVE",
+                  "FALSE PASS29/29", "TWO additional FALSE PASSES",
+                  "SIX DISCRIMINATORS, NOT SIX MUTATION CATCHES",
+                  "LOST, not preserved or recovered", "PAUSED",
+                  "physical identification remains OPEN", "no new campaign is authorized",
+                  "UNKNOWN", "UNTESTED"):
+        require(token in record, f"closed-fibre banking record lacks {token}")
+    scopes = {
+            "G379": [
+                    "CF1",
+                    "SUPPLIED_SMOOTH_S3_GLOBAL_ROTATIONS_POSITIVE_SMOOTH_SLOPE",
+                    "ALL_LEAVES_CLOSED_IFF_CONSTANT_POSITIVE_RATIONAL",
+                    "REGULAR_CIRCLE_FIBRATION_AND_ANY_DIFFEO_HOPF_EQUIVALENCE_IFF_SLOPE_ONE",
+                    "BOTH_PRIMITIVE_AXIS_HOLONOMY_ORDERS_REQUIRED",
+                    "SMOOTH_CONNECTED_TIME_FAMILY_FROM_HOPF_ALL_CLOSED_FORCES_SLOPE_ONE",
+                    "ACTUAL_SMOOTH_FAMILY_MIXED_DERIVATIVE_ONLY_NOT_LAWFUL_VACUUM_DATA",
+                    "INTERIOR_NONCONSTANT_SLOPE_TEST_DOES_NOT_NEED_AXIS_NORMALIZATION",
+                    "EITHER_AXIS_FALSE_PASS_29_OF_29_INDEPENDENT_37_OF_39_CATCH",
+                    "WEAK_RESCALING_AND_FINITE_RATIONAL_SAMPLING_NOT_PROOF",
+                    "FAILED_ANCILLARY_EXACT_VERSION_FETCH_RETAINED"
+            ],
+            "G380": [
+                    "CF2",
+                    "REQUIRES_G379_G376_G377_G378_AND_OWNER_PROVISIONAL_G310_G312",
+                    "G315_G330_G337_CONVENTIONS_GEOMETRY_CONDITIONAL_METHODS",
+                    "EVERY_FIXED_POSITIVE_NONROUND_COMPACT_BOUNDARY_FREE_BERGER_S3",
+                    "SIGNED_H_NONZERO_FIXED_GAMMA_LAMBDA_R_OVER2_PLUS3H_SQUARED",
+                    "ANY_FIXED_FINITE_C_K_ALPHA_K_GE3_ALPHA_BETWEEN_ZERO_ONE",
+                    "ARBITRARILY_SMALL_ACTUAL_GLOBAL_CONSTRAINT_DATA",
+                    "SUPPLIED_GAUSSIAN_NORMAL_SLICING_MARKING_NEGATIVE_K",
+                    "CONDITIONAL_SMOOTH_LOCAL_CAUCHY_UNIQUENESS_AND_ISOMETRY_EXTENSION",
+                    "POSITIVE_SLICE_METRIC_SIMPLE_BRANCH_GAPS_FROM_BOTH_OTHER_EIGENVALUES",
+                    "DATUM_DEPENDENT_INTERVAL_EVERY_SHORT_NONZERO_TIME_SOME_NONCLOSED_FULL_LEAVES",
+                    "LEAF_OR_TORUS_MAY_DEPEND_ON_TIME_NOT_ALL_LEAVES",
+                    "EXCLUDES_ANY_SMOOTH_DIFFEO_HOPF_IMAGE_NOT_JUST_FIXED_MARKED_DIRECTION",
+                    "CHOSEN_TORUS_PLUS_CONJUGATION_DATA_SYMMETRY_NOT_PHYSICAL_LAW",
+                    "GENUINE_GLOBAL_TT_KERNEL_COMPLEMENT_UNIQUE_NONLINEAR_IFT_LIFT",
+                    "ONE_FINITE_FREQUENCY_SEED_BEFORE_SMALL_AMPLITUDE_TRACE_CONSTRAINT_DETERMINED",
+                    "ELLIPTIC_REGULARITY_OSCILLATORY_METHOD_HYPOTHESES_RETAINED",
+                    "G330_PURE_TRACE_PRESERVING_EXAMPLES_SURVIVE",
+                    "TWO_21_OF_21_FALSE_PASSES_INDEPENDENT_FULL_TENSOR_NONTRANSVERSE_CATCHES",
+                    "SIX_DISCRIMINATORS_NOT_SIX_MUTATION_CATCHES_BOOKKEEPING_EXCLUDED",
+                    "LOST_INTERMEDIATE_REVIEWER_OUTPUTS_NOT_PRESERVED_OR_RECOVERED",
+                    "REVIEWER_ONLY_PROBE_REPAIR_NOT_AUTHOR_SCIENCE_REPAIR",
+                    "ENTIRE_CF1_BI1_BG1_BG2_FALSE_PASS_REPAIR_EXPOSURE_METHOD_CAVEATS"
+            ]
+    }
+    for premise_id, tokens in scopes.items():
+        row = by_id[premise_id]
+        require(row["current_status"] == CONDITIONAL_BANKING_STATUS
+                and row["epistemic_label"] == "MIXED", f"{premise_id} banking grade changed")
+        require(row["controlling_source"] == CLOSED_FIBRE_BANKING_SOURCE,
+                f"{premise_id} banking source changed")
+        for token in tokens:
+            require(token in row["active_use"], f"{premise_id} scope lacks {token}")
+        for token in ("physical identification remains OPEN", "generic failure",
+                      "physical instability", "topology change", "older conditional carrier model",
+                      "arbitrary slicing", "global time", "canon"):
+            require(token in row["open_scope"], f"{premise_id} open scope lacks {token}")
+        for token in ("original false pass or failure erased", "LOST reviewer outputs claimed preserved",
+                      "six discriminators called six mutation catches", "review counts called proof",
+                      "paused identification rescued by added carrier or energy functional"):
+            require(token in row["forbidden_regression"], f"{premise_id} guard lacks {token}")
+        require("FRESH_SEPARATE_CONTEXT_MODEL_UNKNOWN_DIFFERENT_MODEL_UNTESTED"
+                in row["precedence_rule"], f"{premise_id} review independence changed")
+    if not authenticate_sources:
+        return
+    manifest = root / "udt_g379_g380_conditional_banking_2026-09-08/SOURCE_EVIDENCE_SHA256SUMS"
+    require(hashlib.sha256(manifest.read_bytes()).hexdigest()
+            == "d25ba1fd84817aa3db38a69604a17b6496395d9b21d033c5e4f9a4d26aec91d6",
+            "closed-fibre source manifest changed")
+    entries = [line.split(maxsplit=1) for line in manifest.read_text().splitlines()]
+    require(len(entries) == len({path for _, path in entries}) == 149,
+            "closed-fibre source membership changed")
+    for expected, relative in entries:
+        require(relative.startswith("udt_closed_fibre_persistence_campaign_2026-09-08/")
+                and ".." not in Path(relative).parts and not Path(relative).is_absolute()
+                and re.fullmatch(r"[0-9a-f]{64}", expected) is not None,
+                "closed-fibre unsafe source manifest target")
+        target = root / relative
+        require(target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == expected,
+                f"closed-fibre original evidence changed: {relative}")
+    frozen = subprocess.run(["git", "show",
+        f"{CLOSED_FIBRE_BANKING_SNAPSHOT}:CURRENT_SCIENTIFIC_PREMISES.tsv"],
+        cwd=ROOT, capture_output=True, check=False, timeout=10)
+    require(frozen.returncode == 0 and frozen.stdout == old,
+            "closed-fibre banking is not additive from authorized baseline")
+    pins = root / "udt_closed_fibre_persistence_campaign_2026-09-08/step_02/SOURCE_PINS_SHA256SUMS"
+    pin_rows = [line.split(maxsplit=1) for line in pins.read_text().splitlines()]
+    require(len(pin_rows) == len({name for _, name in pin_rows}) == 25,
+            "closed-fibre dependency pin count changed")
+    for expected, relative in pin_rows:
+        if relative in ("CURRENT_SCIENTIFIC_PREMISES.tsv", "verify_current_scientific_premises.py"):
+            snapshot = subprocess.run(["git", "show",
+                f"{CLOSED_FIBRE_BANKING_SNAPSHOT}:{relative}"],
+                cwd=ROOT, capture_output=True, check=False, timeout=10)
+            require(snapshot.returncode == 0, f"closed-fibre historical source absent: {relative}")
+            data = snapshot.stdout
+        else:
+            data = (root / relative).read_bytes()
+        require(hashlib.sha256(data).hexdigest() == expected,
+                f"closed-fibre source pin changed: {relative}")
+
+
 def validate_startup_surface(root: Path) -> None:
     """Fail closed on semantic startup authority without requiring duplicated chronology."""
     controls: dict[str, str] = {}
@@ -1327,9 +1457,9 @@ def validate_startup_surface(root: Path) -> None:
     registry = root / "CURRENT_SCIENTIFIC_PREMISES.tsv"
     require(registry.is_file(), "premise registry missing")
     registry_rows = read_tsv(registry)
-    require(len(registry_rows) == 361, "premise registry must contain exactly 361 rows")
+    require(len(registry_rows) == 363, "premise registry must contain exactly 363 rows")
     require(
-        len({row["premise_id"] for row in registry_rows}) == 361,
+        len({row["premise_id"] for row in registry_rows}) == 363,
         "premise registry contains duplicate ids",
     )
     validate_conditional_banking(root, authenticate_sources=False)
@@ -1341,6 +1471,15 @@ def validate_startup_surface(root: Path) -> None:
     validate_coupled_banking(root, authenticate_sources=False)
     validate_vacuum_scale_banking(root, authenticate_sources=False)
     validate_berger_banking(root, authenticate_sources=False)
+    validate_closed_fibre_banking(root, authenticate_sources=False)
+
+    for relative in ("LIVE.md", "HANDOFF.md", "CURRENT_RESEARCH_PROGRAM.md"):
+        current = " ".join(controls[relative].split())
+        for token in ("G379=CF1", "G380=CF2", "LOST, not preserved or recovered",
+                      "automatic Hopfion-stabilization mechanism is PAUSED",
+                      "even allowing smooth deformation", CLOSED_FIBRE_BANKING_SOURCE,
+                      "no successor campaign has begun"):
+            require(token in current, f"closed-fibre current tracking lacks {token}: {relative}")
 
     for control in PREMISE_REGISTRY_CONTROLS:
         require(
@@ -1376,7 +1515,7 @@ def validate_startup_surface(root: Path) -> None:
         "T_clock=R A^-1",
         "continuous",
         "CURRENT_SCIENTIFIC_PREMISES.tsv",
-        "361-row",
+        "363-row",
         "archive/STARTUP_SURFACE_HISTORY.md",
         "udt_observed_angular_pattern_raw_restart_2026-08-12",
         "/media/udt-admin/ScratchDisk/Data/UDT_BOSS_R3_2026-08-14/",
@@ -1458,7 +1597,7 @@ def validate_startup_surface(root: Path) -> None:
         "AGENTS.md": (
             "Stop the startup read here",
             "does not make full scripts",
-            "361-row exact registry",
+            "363-row exact registry",
             "without dumping its wide rows into model context",
             "1,114 data rows plus its header",
             "not a startup read or a current-frontier index",
@@ -1497,7 +1636,7 @@ def validate_startup_surface(root: Path) -> None:
             "verify_current_scientific_premises.py",
         ),
         "MEMORY.md": (
-            "361-row",
+            "363-row",
             "B,Q,S,Y,Z",
             "Universal Reciprocity/DDR",
             "owner-adopted provisional premises",
@@ -1512,7 +1651,7 @@ def validate_startup_surface(root: Path) -> None:
             "archive/STARTUP_SURFACE_HISTORY.md",
         ),
         "CURRENT_RESEARCH_PROGRAM.md": (
-            "361-row",
+            "363-row",
             "udt_uncompressed_pair_kernel_reconstruction_2026-08-14/",
             "G129--G198",
             "G199--G276",
@@ -1530,7 +1669,7 @@ def validate_startup_surface(root: Path) -> None:
             "physical-realization",
         ),
         "CURRENT_SCIENTIFIC_PREMISES.md": (
-            "361-row",
+            "363-row",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATE",
             "OWNER_ADOPTED_PROVISIONAL_POSTULATES",
             "one postulate with two formulations",
@@ -1979,9 +2118,9 @@ def validate_startup_surface(root: Path) -> None:
 
 def main() -> None:
     rows = read_tsv(ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv")
-    require(len(rows) == 361, "premise registry must contain exactly 361 rows")
+    require(len(rows) == 363, "premise registry must contain exactly 363 rows")
     by_id = {row["premise_id"]: row for row in rows}
-    require(len(by_id) == 361, "duplicate premise id")
+    require(len(by_id) == 363, "duplicate premise id")
     validate_conditional_banking(ROOT)
     validate_shared_constraint_banking(ROOT)
     validate_persistence_banking(ROOT)
@@ -1991,6 +2130,7 @@ def main() -> None:
     validate_coupled_banking(ROOT)
     validate_vacuum_scale_banking(ROOT)
     validate_berger_banking(ROOT)
+    validate_closed_fibre_banking(ROOT)
     latest_rows = {
         "G277": (
             "EXTERNAL_REPAIR_ACCEPTED__BOUNDED_LANDING_UNCHANGED",
@@ -2757,7 +2897,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -2832,7 +2972,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G304\t", b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -2911,7 +3051,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines if not line.startswith((b"G305\t", b"G306\t", b"G307\t", b"G308\t", b"G309\t", b"G310\t", b"G311\t", b"G312\t", b"G313\t", b"G314\t", b"G315\t", b"G316\t", b"G317\t", b"G318\t", b"G319\t", b"G320\t", b"G321\t", b"G322\t", b"G323\t", b"G324\t", b"G325\t", b"G326\t", b"G327\t", b"G328\t", b"G329\t", b"G330\t", b"G331\t", b"G332\t", b"G333\t", b"G334\t", b"G335\t", b"G336\t", b"G337\t", b"G338\t", b"G339\t", b"G340\t", b"G341\t", b"G342\t", b"G343\t"))
@@ -3004,7 +3144,7 @@ def main() -> None:
     registry_lines = (ROOT / "CURRENT_SCIENTIFIC_PREMISES.tsv").read_bytes().splitlines(keepends=True)
     registry_lines = tuple(
         line for line in registry_lines
-        if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
+        if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t", b"G351\t", b"G350\t", b"G349\t", b"G348\t", b"G347\t", b"G346\t", b"G345\t", b"G344\t"))
     )
     frozen_registry = b"".join(
         line for line in registry_lines
@@ -6705,7 +6845,7 @@ def main() -> None:
             if source_name == "CURRENT_SCIENTIFIC_PREMISES.tsv":
                 source_bytes = b"".join(
                     line for line in source_bytes.splitlines(keepends=True)
-                    if not line.startswith((b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
+                    if not line.startswith((b"G380\t", b"G379\t", b"G378\t", b"G377\t", b"G376\t", b"G375\t", b"G374\t", b"G373\t", b"G372\t", b"G371\t", b"G370\t", b"G369\t", b"G368\t", b"G367\t", b"G366\t", b"G365\t", b"G364\t", b"G363\t", b"G362\t", b"G361\t", b"G360\t", b"G359\t", b"G358\t", b"G357\t", b"G356\t", b"G355\t", b"G354\t", b"G353\t", b"G352\t"))
                 )
             destination = g351_root / source_name
             destination.parent.mkdir(parents=True, exist_ok=True)
@@ -19748,7 +19888,10 @@ def main() -> None:
         "PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, "
         "fixed-target scalar and review limits; no particle stability, size or absolute scale; "
         "PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking "
-        "with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion"
+        "with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; "
+        "PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, "
+        "lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; "
+        "no generic failure, physical instability, topology change or UDT-failure promotion"
     )
 
 

@@ -1,0 +1,19 @@
+{
+  "initial_unscoped_same_result": "prior tool invocation exit2, all warnings same raw captured Git diff; no repair between invocations",
+  "actual_captured_replay": {
+    "cmd": "git diff --cached --check",
+    "chunk_id": "f34370",
+    "wall_time_seconds": 0.000002535,
+    "exit_code": 2,
+    "original_token_count": 623,
+    "output": "udt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:19: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:21: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:24: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:26: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:60: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:64: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:85: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:105: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:143: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:159: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:164: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:172: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:177: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:211: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:214: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:216: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:237: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:263: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:401: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:402: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:557: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:606: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:680: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:681: trailing whitespace.\n+ \nudt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout:680: new blank line at EOF.\n"
+  },
+  "scoped_check": {
+    "cmd": "git diff --cached --check -- . ':(exclude)udt_g379_g380_conditional_banking_2026-09-08/review/packet_diff.stdout'",
+    "chunk_id": "1d763c",
+    "wall_time_seconds": 0.000002986,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  }
+}

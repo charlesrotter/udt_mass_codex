@@ -1,0 +1,11 @@
+fatal: packfile .git/objects/pack/pack-53c0fbf0a98f5e7a80c240d452d1b245a22260e1.pack cannot be mapped, check sys.vm.max_map_count and/or RLIMIT_DATA: Cannot allocate memory
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_g379_g380_conditional_banking_2026-09-08/review/check_correspondence.py", line 61, in <module>
+    data == git("show", BASE + ":" + name) and digest(data) == expected)
+  File "/home/udt-admin/udt_mass_codex/udt_g379_g380_conditional_banking_2026-09-08/review/check_correspondence.py", line 24, in git
+    return subprocess.check_output(
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '-c', 'core.preloadIndex=false', '-c', 'index.threads=1', 'show', 'b1dda6724fae599f9684b5f3f03d421221569fe5:udt_closed_fibre_persistence_campaign_2026-09-08/assembly_corrected.stderr']' returned non-zero exit status 128.
