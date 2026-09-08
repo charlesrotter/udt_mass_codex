@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/review/independent_check.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-09-08T19:28:50.364883+00:00",
+  "finished_utc": "2026-09-08T19:28:50.943697+00:00",
+  "returncode": 0,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "wall_timeout_seconds": 60,
+  "library_threads": 1
+}

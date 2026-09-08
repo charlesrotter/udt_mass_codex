@@ -1,0 +1,181 @@
+{
+  "Cotton_C132": "4*c*(-a**2 + c**2)/a**6",
+  "Cotton_norm_squared": "192*c**2*(a - c)**2*(a + c)**2/a**12",
+  "Ricci": [
+    [
+      "2*(2*a**2 - c**2)/a**4",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "2*(2*a**2 - c**2)/a**4",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "2*c**2/a**4"
+    ]
+  ],
+  "checks": [
+    {
+      "name": "Hamiltonian_tracefree_split",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "implicit_u_derivative",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "original_Hamiltonian_rank_one",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "original_momentum_rank_one",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "family_trace_norm_relation",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "signed_base_h",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "trace_excess_identity",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_11",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_12",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_13",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_21",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_22",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_23",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_31",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_32",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Ricci_from_brackets_33",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonround_Cotton_component_C132",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cotton_norm_formula",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "round_Cotton_control",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "invariant_momentum_1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "invariant_momentum_2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "invariant_momentum_3",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "horizontal_tracefree_TT_1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "horizontal_tracefree_TT_2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "horizontal_tracefree_TT_3",
+      "pass": true,
+      "residual": "0"
+    }
+  ],
+  "executed_mutations": [
+    {
+      "caught": true,
+      "name": "wrong_rank_one_factor_1_instead_3_over_2",
+      "residual": "-2*h**2*u/(u - 1)"
+    },
+    {
+      "caught": true,
+      "name": "wrong_Killing_acceleration_sign",
+      "residual": "-3*h*u/(2*x*sqrt(1 - u))"
+    },
+    {
+      "caught": true,
+      "name": "omit_derivative_of_beta",
+      "residual": "3*h*u*(9*u - 10)/(4*x*sqrt(1 - u)*(3*u - 2))"
+    },
+    {
+      "caught": true,
+      "name": "claim_nonround_Cotton_zero",
+      "residual": "-4*c*(a - c)*(a + c)/a**6"
+    }
+  ],
+  "implementation_sha256": "f2516fb3caa00a94672b3b97b7a84af7b2aaa2fa8e7c3d5509a78fb7d5a64e89",
+  "invariant_momentum": [
+    "-2*q23*(a - c)*(a + c)/(a**2*c)",
+    "2*q13*(a - c)*(a + c)/(a**2*c)",
+    "0"
+  ],
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "scope": "Fresh source-first exact algebra; mathematical proof is in SOURCE_FIRST.md.",
+  "seconds": 0.4261584430059884,
+  "sympy": "1.13.1"
+}

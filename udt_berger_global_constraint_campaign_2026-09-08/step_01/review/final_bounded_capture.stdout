@@ -1,0 +1,9 @@
+{
+  "author_freeze_authenticated": 3,
+  "source_first_seal_authenticated": 10,
+  "baseline_pass": true,
+  "actual_mutations_caught": 6,
+  "all_stdout_stderr_byte_identical": true,
+  "symbol_determinant": "-4*(z1**2 + z2**2 + z3**2)**3/3",
+  "norm_weight_residual": "0"
+}

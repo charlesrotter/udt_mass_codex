@@ -1,5 +1,9 @@
 # INDEX — compact current pointers; `LIVE.md` wins
 
+- ACTIVE two-step/three-hour Berger global-constraint campaign, no promotion:
+  `udt_berger_global_constraint_campaign_2026-09-08/WORK_ORDER.md`;
+  question, frozen candidate and review state belong to its per-step artifacts.
+
 - Completed three-step Berger initial-data campaign; BI1--BI3 UNPROMOTED:
   `udt_berger_initial_data_preservation_campaign_2026-09-08/DECISION_BRIEF.md`;
   per-step REVIEWED_RESULT files pin full reviews; CAMPAIGN_LOG and publication receipt own closure.

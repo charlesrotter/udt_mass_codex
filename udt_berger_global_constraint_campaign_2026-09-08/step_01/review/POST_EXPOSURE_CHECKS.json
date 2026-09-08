@@ -1,0 +1,488 @@
+{
+  "recorded_utc": "2026-09-08T19:34:25.968888+00:00",
+  "exposure_stage": "After sealed source-first reconstruction and explicit author permission",
+  "source_first_seal_payloads": [
+    {
+      "file": "SOURCE_FIRST.md",
+      "sha256": "e51bdd43c64be98ed0d67beb7c95ed0e2149813c3cb12b090c7d0f7c9197e895"
+    },
+    {
+      "file": "independent_check.py",
+      "sha256": "f2516fb3caa00a94672b3b97b7a84af7b2aaa2fa8e7c3d5509a78fb7d5a64e89"
+    },
+    {
+      "file": "run_check.py",
+      "sha256": "d79737c62e0cb2743fbc7241b391bc2f9a53271794eecad78acc2a1bab95418c"
+    },
+    {
+      "file": "seal_source_first.py",
+      "sha256": "7b06812b2caf05d77874b283f0ba34a4b8588d7f764bd30727e503aadd24eb93"
+    },
+    {
+      "file": "independent_check.stdout",
+      "sha256": "1e2fbeadc81915aeeb51e1c3e9bc8607933f3b5503339addb7caf5746758dd74"
+    },
+    {
+      "file": "independent_check.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "independent_check.run.json",
+      "sha256": "baa255cd91a63c273ba94efa558daa430dd533f0ad68404ff22537ecdc6c8f7e"
+    },
+    {
+      "file": "SOURCE_REGISTRY_ROWS.tsv",
+      "sha256": "783073b68bbbb1d44917f8d9d7f7ed67d05165470fa97b46f42a559be5ccf99a"
+    },
+    {
+      "file": "SOURCE_INPUT_SHA256SUMS",
+      "sha256": "be0d29e7d6af9c140b46cb8e8d053cf8e394104851666c931f771286b06facc0"
+    },
+    {
+      "file": "SOURCE_FIRST_SEAL.json",
+      "sha256": "de5b0b1f21049aeb563be8de8589705c4549efefe9d30fa335b21c44bc89504a"
+    }
+  ],
+  "source_input_payloads": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "e53221344ab5aaf687cfc9b48a94c94b476fa4ad34b8964995601a77a5239970"
+    },
+    {
+      "file": "CLAUDE.md",
+      "sha256": "b7e524a5b06760e57877a408630228767ae9a394134095f9851bef5d06e17751"
+    },
+    {
+      "file": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "sha256": "2bb885062dce0f47f7ea37562aee882d5d5d41f25cb539e9dd37755bbe722b63"
+    },
+    {
+      "file": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+    },
+    {
+      "file": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1"
+    },
+    {
+      "file": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+    },
+    {
+      "file": ".claude/skills/solution-space-not-imposition/SKILL.md",
+      "sha256": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c"
+    },
+    {
+      "file": "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "sha256": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5"
+    },
+    {
+      "file": "startup_surface_g312_two_premise_adoption_refresh_2026-09-01/ADOPTION_RECORD.md",
+      "sha256": "ebeae075307e7a325a840f4c2d9dcd973c18d9a3be21e6e6eccacce1ae8856f1"
+    },
+    {
+      "file": "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/EXACT_DERIVATION.md",
+      "sha256": "8653bb2162b54965c9fe0a74a17aa5cb1da9114b6289b15fb8f46cc4b30b2a63"
+    },
+    {
+      "file": "udt_g315_conditional_cauchy_characteristic_data_interface_2026-09-01/AUDIT_REPORT.md",
+      "sha256": "ab440d575124654f3707eb04a7c2e4877e7ad3bf830eb1ed25c19d999149f9db"
+    },
+    {
+      "file": "udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/EXACT_DERIVATION.md",
+      "sha256": "92a070f5aeeee1241da9465b379c14c75b11cc033b7560709ba8db2ef32f6afb"
+    },
+    {
+      "file": "udt_g330_berger_hopf_eigenline_local_persistence_2026-09-02/AUDIT_REPORT.md",
+      "sha256": "9e7eeb08f669a1cf27ec18f459cafddf38a833a4f20bec2548de0caffcd13250"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/WORK_ORDER.md",
+      "sha256": "e6d977c5891dce5ea97b4b54852d9bb7b84887a8f9a24f27899a900df48e4fb2"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/step_01/QUESTION.md",
+      "sha256": "bc66507a7081d907181d20288958844db314579e426cfa10d936121b233458e5"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/step_01/REVIEW_DISPATCH.md",
+      "sha256": "ead6ed1362ab1ef68a1b48d215cded187c3e7ee7cc6ff30f1a1f14080447b098"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/STARTUP_AUDIT.json",
+      "sha256": "8cb2ff19753f23e6fb9694554deab7ca1ffb5d798dfafc9681eb3da915591f02"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/STARTUP_AUDIT.command.txt",
+      "sha256": "3713cc88f99f075130313418c9ccf6dec76a18039ffd9e33e0bcd125a4c2cd25"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/STARTUP_AUDIT.stdout",
+      "sha256": "8dd15c719eaa6fc179cfa517a9ac96b0baac2b2d6c2681a275eaebe8d1e1861c"
+    },
+    {
+      "file": "udt_berger_global_constraint_campaign_2026-09-08/STARTUP_AUDIT.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "author_freeze_payloads": [
+    {
+      "file": "CANDIDATE_INITIAL.md",
+      "sha256": "ea499eede1127128eb5426e46a591cac71b9422f87b8982d9f7cf17212e55b9a"
+    },
+    {
+      "file": "check_bg1.py",
+      "sha256": "aba081f421ff440d66a0f22e3047fced037cc579e14b67346c1f5eec747a35d8"
+    },
+    {
+      "file": "check_baseline.stdout",
+      "sha256": "651052a2acf22b4f7406d7f2202fe44a3fb15473d26b42b734959f042a72aea8"
+    }
+  ],
+  "candidate_freeze_sha256": "b53c763e94b0cc25eef0cf7c172c05c19a9f6eeec50f01049abb1d75bce259e4",
+  "method_sources_sha256": "d1ebfa18ce74f816322c23c319b93a94570dd54b85f889941fd4bea0b3afda53",
+  "replays": [
+    {
+      "mutant": "none",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py"
+      ],
+      "returncode": 0,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    },
+    {
+      "mutant": "cotton_half",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+        "--mutant",
+        "cotton_half"
+      ],
+      "returncode": 1,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [
+        {
+          "name": "Cotton_full_covariant_norm",
+          "pass": false,
+          "residual": "-9*q**4*(p - q)**2/4"
+        },
+        {
+          "name": "Cotton_321_component",
+          "pass": false,
+          "residual": "q**2*(-p + q)/2"
+        }
+      ],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    },
+    {
+      "mutant": "positive_h_only",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+        "--mutant",
+        "positive_h_only"
+      ],
+      "returncode": 1,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [
+        {
+          "name": "basepoint_h=-2",
+          "pass": false,
+          "residual": "4.00000000000000"
+        },
+        {
+          "name": "basepoint_h=-7/3",
+          "pass": false,
+          "residual": "4.66666666666667"
+        },
+        {
+          "name": "quadratic_H_response_h=-3",
+          "pass": false,
+          "residual": "2*u**2/9 + 2*v**2/9 + x**2/9 + y**2/9 + 2*z**2/9 + (x + y)**2/9"
+        }
+      ],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    },
+    {
+      "mutant": "hamiltonian_denominator",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+        "--mutant",
+        "hamiltonian_denominator"
+      ],
+      "returncode": 1,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [
+        {
+          "name": "original_Hamiltonian_h=1",
+          "pass": false,
+          "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+        },
+        {
+          "name": "H_derivative_h=1",
+          "pass": false,
+          "residual": "sqrt(3)*(2*x + y)/(6*sqrt(2*u**2 + 2*v**2 + x**2 + y**2 + 2*z**2 + (x + y)**2 + 3))"
+        },
+        {
+          "name": "original_Hamiltonian_h=-2",
+          "pass": false,
+          "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+        },
+        {
+          "name": "H_derivative_h=-2",
+          "pass": false,
+          "residual": "sqrt(6)*(-2*x - y)/(12*sqrt(u**2 + v**2 + x**2 + x*y + y**2 + z**2 + 6))"
+        },
+        {
+          "name": "original_Hamiltonian_h=3/5",
+          "pass": false,
+          "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+        },
+        {
+          "name": "H_derivative_h=3/5",
+          "pass": false,
+          "residual": "5*sqrt(3)*(2*x + y)/(6*sqrt(50*u**2 + 50*v**2 + 50*x**2 + 50*x*y + 50*y**2 + 50*z**2 + 27))"
+        },
+        {
+          "name": "original_Hamiltonian_h=-7/3",
+          "pass": false,
+          "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+        },
+        {
+          "name": "H_derivative_h=-7/3",
+          "pass": false,
+          "residual": "(-x - y/2)/sqrt(6*u**2 + 6*v**2 + 6*x**2 + 6*x*y + 6*y**2 + 6*z**2 + 49)"
+        },
+        {
+          "name": "quadratic_H_response_h=2",
+          "pass": false,
+          "residual": "u**2/6 + v**2/6 + x**2/6 + x*y/6 + y**2/6 + z**2/6"
+        },
+        {
+          "name": "quadratic_H_response_h=-3",
+          "pass": false,
+          "residual": "-u**2/9 - v**2/9 - x**2/9 - x*y/9 - y**2/9 - z**2/9"
+        }
+      ],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    },
+    {
+      "mutant": "momentum_one",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+        "--mutant",
+        "momentum_one"
+      ],
+      "returncode": 1,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [
+        {
+          "name": "original_momentum_0",
+          "pass": false,
+          "residual": "x"
+        },
+        {
+          "name": "original_momentum_1",
+          "pass": false,
+          "residual": "y"
+        },
+        {
+          "name": "original_momentum_2",
+          "pass": false,
+          "residual": "z"
+        }
+      ],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    },
+    {
+      "mutant": "L_trace_one",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+        "--mutant",
+        "L_trace_one"
+      ],
+      "returncode": 1,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [
+        {
+          "name": "L_tracefree_symbol",
+          "pass": false,
+          "residual": "-w0*xi0 - w1*xi1 - w2*xi2"
+        },
+        {
+          "name": "P_symbol_00",
+          "pass": false,
+          "residual": "xi0**2/3"
+        },
+        {
+          "name": "P_symbol_01",
+          "pass": false,
+          "residual": "xi0*xi1/3"
+        },
+        {
+          "name": "P_symbol_02",
+          "pass": false,
+          "residual": "xi0*xi2/3"
+        },
+        {
+          "name": "P_symbol_10",
+          "pass": false,
+          "residual": "xi0*xi1/3"
+        },
+        {
+          "name": "P_symbol_11",
+          "pass": false,
+          "residual": "xi1**2/3"
+        },
+        {
+          "name": "P_symbol_12",
+          "pass": false,
+          "residual": "xi1*xi2/3"
+        },
+        {
+          "name": "P_symbol_20",
+          "pass": false,
+          "residual": "xi0*xi2/3"
+        },
+        {
+          "name": "P_symbol_21",
+          "pass": false,
+          "residual": "xi1*xi2/3"
+        },
+        {
+          "name": "P_symbol_22",
+          "pass": false,
+          "residual": "xi2**2/3"
+        },
+        {
+          "name": "P_nonzero_covector_determinant",
+          "pass": false,
+          "residual": "xi0**6/3 + xi0**4*xi1**2 + xi0**4*xi2**2 + xi0**2*xi1**4 + 2*xi0**2*xi1**2*xi2**2 + xi0**2*xi2**4 + xi1**6/3 + xi1**4*xi2**2 + xi1**2*xi2**4 + xi2**6/3"
+        },
+        {
+          "name": "P_adjoint_energy_symbol",
+          "pass": false,
+          "residual": "w0**2*xi0**2/2 + w0*w1*xi0*xi1 + w0*w2*xi0*xi2 + w1**2*xi1**2/2 + w1*w2*xi1*xi2 + w2**2*xi2**2/2"
+        }
+      ],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    },
+    {
+      "mutant": "P_sign",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/udt-admin/udt_mass_codex/udt_berger_global_constraint_campaign_2026-09-08/step_01/check_bg1.py",
+        "--mutant",
+        "P_sign"
+      ],
+      "returncode": 1,
+      "stdout_byte_match": true,
+      "stderr_byte_match": true,
+      "check_count": 44,
+      "failed_checks": [
+        {
+          "name": "P_symbol_00",
+          "pass": false,
+          "residual": "8*xi0**2/3 + 2*xi1**2 + 2*xi2**2"
+        },
+        {
+          "name": "P_symbol_01",
+          "pass": false,
+          "residual": "2*xi0*xi1/3"
+        },
+        {
+          "name": "P_symbol_02",
+          "pass": false,
+          "residual": "2*xi0*xi2/3"
+        },
+        {
+          "name": "P_symbol_10",
+          "pass": false,
+          "residual": "2*xi0*xi1/3"
+        },
+        {
+          "name": "P_symbol_11",
+          "pass": false,
+          "residual": "2*xi0**2 + 8*xi1**2/3 + 2*xi2**2"
+        },
+        {
+          "name": "P_symbol_12",
+          "pass": false,
+          "residual": "2*xi1*xi2/3"
+        },
+        {
+          "name": "P_symbol_20",
+          "pass": false,
+          "residual": "2*xi0*xi2/3"
+        },
+        {
+          "name": "P_symbol_21",
+          "pass": false,
+          "residual": "2*xi1*xi2/3"
+        },
+        {
+          "name": "P_symbol_22",
+          "pass": false,
+          "residual": "2*xi0**2 + 2*xi1**2 + 8*xi2**2/3"
+        },
+        {
+          "name": "P_nonzero_covector_determinant",
+          "pass": false,
+          "residual": "8*xi0**6/3 + 8*xi0**4*xi1**2 + 8*xi0**4*xi2**2 + 8*xi0**2*xi1**4 + 16*xi0**2*xi1**2*xi2**2 + 8*xi0**2*xi2**4 + 8*xi1**6/3 + 8*xi1**4*xi2**2 + 8*xi1**2*xi2**4 + 8*xi2**6/3"
+        },
+        {
+          "name": "P_adjoint_energy_symbol",
+          "pass": false,
+          "residual": "8*w0**2*xi0**2/3 + 2*w0**2*xi1**2 + 2*w0**2*xi2**2 + 4*w0*w1*xi0*xi1/3 + 4*w0*w2*xi0*xi2/3 + 2*w1**2*xi0**2 + 8*w1**2*xi1**2/3 + 2*w1**2*xi2**2 + 4*w1*w2*xi1*xi2/3 + 2*w2**2*xi0**2 + 2*w2**2*xi1**2 + 8*w2**2*xi2**2/3"
+        }
+      ],
+      "address_space_bytes": 536870912,
+      "cpu_seconds": 60,
+      "wall_seconds": 60
+    }
+  ],
+  "independent_symbol_determinant": "-4*(z1**2 + z2**2 + z3**2)**3/3",
+  "three_inverse_metric_weight_residual": "0",
+  "limits": [
+    "Author replays are regression, not independent implementations.",
+    "Post-exposure symbol code was written after reading author code.",
+    "Cotton conformal invariance and Fredholm/IFT are analytical methods, not numerical certifications."
+  ]
+}

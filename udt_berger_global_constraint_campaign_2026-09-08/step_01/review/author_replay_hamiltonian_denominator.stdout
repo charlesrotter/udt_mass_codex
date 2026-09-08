@@ -1,0 +1,239 @@
+{
+  "kind": "exact_finite_algebra_not_global_existence_proof",
+  "mutant": "hamiltonian_denominator",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "Koszul_Ric_00",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_01",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_02",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_10",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_11",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_12",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_20",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_21",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Koszul_Ric_22",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cotton_full_covariant_norm",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cotton_321_component",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "round_Cotton_control",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "covariant_rank3_norm_weight",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "original_Hamiltonian_h=1",
+      "pass": false,
+      "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+    },
+    {
+      "name": "basepoint_h=1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "H_derivative_h=1",
+      "pass": false,
+      "residual": "sqrt(3)*(2*x + y)/(6*sqrt(2*u**2 + 2*v**2 + x**2 + y**2 + 2*z**2 + (x + y)**2 + 3))"
+    },
+    {
+      "name": "original_Hamiltonian_h=-2",
+      "pass": false,
+      "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+    },
+    {
+      "name": "basepoint_h=-2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "H_derivative_h=-2",
+      "pass": false,
+      "residual": "sqrt(6)*(-2*x - y)/(12*sqrt(u**2 + v**2 + x**2 + x*y + y**2 + z**2 + 6))"
+    },
+    {
+      "name": "original_Hamiltonian_h=3/5",
+      "pass": false,
+      "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+    },
+    {
+      "name": "basepoint_h=3/5",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "H_derivative_h=3/5",
+      "pass": false,
+      "residual": "5*sqrt(3)*(2*x + y)/(6*sqrt(50*u**2 + 50*v**2 + 50*x**2 + 50*x*y + 50*y**2 + 50*z**2 + 27))"
+    },
+    {
+      "name": "original_Hamiltonian_h=-7/3",
+      "pass": false,
+      "residual": "2*u**2 + 2*v**2 + 2*x**2 + 2*x*y + 2*y**2 + 2*z**2"
+    },
+    {
+      "name": "basepoint_h=-7/3",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "H_derivative_h=-7/3",
+      "pass": false,
+      "residual": "(-x - y/2)/sqrt(6*u**2 + 6*v**2 + 6*x**2 + 6*x*y + 6*y**2 + 6*z**2 + 49)"
+    },
+    {
+      "name": "original_momentum_0",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "original_momentum_1",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "original_momentum_2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "L_tracefree_symbol",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_00",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_01",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_02",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_10",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_11",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_12",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_20",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_21",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_symbol_22",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_nonzero_covector_determinant",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "P_adjoint_energy_symbol",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "no_linear_H_response_h=2",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadratic_H_response_h=2",
+      "pass": false,
+      "residual": "u**2/6 + v**2/6 + x**2/6 + x*y/6 + y**2/6 + z**2/6"
+    },
+    {
+      "name": "no_linear_H_response_h=-3",
+      "pass": true,
+      "residual": "0"
+    },
+    {
+      "name": "quadratic_H_response_h=-3",
+      "pass": false,
+      "residual": "-u**2/9 - v**2/9 - x**2/9 - x*y/9 - y**2/9 - z**2/9"
+    }
+  ],
+  "count": 44,
+  "pass": false,
+  "Cotton_norm": "3*q**4*(p - q)**2",
+  "omissions": [
+    "Fredholm/Schauder theorem proof",
+    "Banach IFT proof",
+    "elliptic regularity proof",
+    "infinite-dimensional coverage",
+    "actual PDE computation",
+    "line drift or time evolution"
+  ]
+}

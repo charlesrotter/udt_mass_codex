@@ -1,0 +1,12 @@
+{
+  "sealed_utc": "2026-09-08T19:31:42.525979+00:00",
+  "reviewer": "/root/bg1_review",
+  "fresh_context": true,
+  "different_model": "UNTESTED",
+  "author_candidate_exposure": false,
+  "author_code_or_outputs_exposure": false,
+  "startup_receipt_streams_authenticated": true,
+  "startup_independently_replayed": false,
+  "parent_reported_HEAD": "8784f168bf08473b202fc9485eedefcfff920859",
+  "command": "python3 -B udt_berger_global_constraint_campaign_2026-09-08/step_01/review/seal_source_first.py"
+}

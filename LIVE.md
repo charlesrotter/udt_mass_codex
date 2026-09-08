@@ -234,8 +234,16 @@ All remain reviewed conditional UNPROMOTED candidates. Full reviews retain harne
 BI2's one fresh focused review clears isolation without erasing its original exposure.
 Supplied nonround geometry, original vacuum premises, normal marking, spectral gaps,
 analytic/local-method restrictions and no physical-stability/scale inference remain.
-HB2/HB3 and BI1--BI3 banking remain unauthorized; no new campaign is authorized.
-The proposed global-constraint successor awaits Charles. Execution/publication receipts own closure.
+HB2/HB3 and BI1--BI3 banking remain unauthorized; no new campaign is authorized
+beyond the now-approved two-step/three-hour Berger global-constraint successor.
+The global-constraint campaign is ACTIVE, budget19:11--22:11UTC2026-09-08:
+`udt_berger_global_constraint_campaign_2026-09-08/WORK_ORDER.md`.
+BG1's global nonlinear constraint family is reviewed VERIFIED-WITH-CAVEATS and
+UNPROMOTED, with free trace, fixed gamma/Lambda and compact elliptic/IFT limits.
+Its full review excludes the hard-coded conformal-weight check as transformation
+evidence. BG2 is ACTIVE: global constraint-compatible full Ricci-line drift,
+with fresh separate-context review before downstream use or a final result.
+Execution/publication receipts own closure; prior evidence remains unchanged.
 Carrier/action/boundary/evolution adoption remains unauthorized.
 No physical adoption, earlier-grade, canon, fixed-manuscript or observation change.
 Clock and complementary campaigns are exhausted; emergence remains parallel.

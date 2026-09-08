@@ -83,7 +83,10 @@ two reviewed conditional candidates: udt_vacuum_common_scale_campaign_2026-09-08
 VS1--VS2 now have exact-scope G374--G375 banking authority; original NOT_BANKED evidence is unchanged.
 Integration gates remain in the banking package; the bounded Hopfion successor is complete.
 No fourth step in that completed campaign or new banking is authorized.
-The separate Berger initial-data campaign above is complete; no successor is authorized.
+The separate Berger initial-data campaign above is complete. Its global-constraint
+successor is now authorized for two reviewed steps/three hours, not banking:
+`udt_berger_global_constraint_campaign_2026-09-08/WORK_ORDER.md`.
+No new campaign is authorized beyond that bounded scope; LIVE owns current state.
 G131 reduced-control blindness is not G176/G180 completed tape/depth blindness. LIVE wins.
 The earlier tidal proposal is historical, not a pending permission gate.
 Do not demand unique initial/query data or hide an extra measurement rule in a definition.

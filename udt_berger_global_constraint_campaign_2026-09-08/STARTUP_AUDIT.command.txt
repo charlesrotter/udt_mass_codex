@@ -1,0 +1,2 @@
+python3 -B verify_current_scientific_premises.py
+Launched via Python subprocess with RLIMIT_AS=2147483648, RLIMIT_CPU=900, wall timeout900; OPENBLAS/OMP/MKL/NUMEXPR_NUM_THREADS=1 and PYTHONDONTWRITEBYTECODE=1. Tool session78020. Exact captured streams and measured resource record transcribed from completed tool JSON; not a second run.
