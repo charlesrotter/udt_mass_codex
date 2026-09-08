@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "python3",
+    "-B",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_01/review/independent_source_checks.py"
+  ],
+  "started_utc": "2026-09-08T16:25:53.352513+00:00",
+  "duration_seconds": 0.01727529300842434,
+  "returncode": 0,
+  "timeout": false,
+  "address_space_bytes": 536870912,
+  "cpu_seconds": 60,
+  "wall_seconds": 60,
+  "maxrss_kib": 10560,
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+}

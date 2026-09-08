@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-09-08T16:26:35.783712+00:00",
+  "source_first_requirements_unmodified": true,
+  "registry_exposure": "Initially read startup/selected rows at through-G373 snapshot; at seal hash capture row count was already 358, reflecting concurrent parent integration. After seal read exact G374/G375 rows and BANKING_RECORD.md.",
+  "parent_receipt_stream_fidelity": "JSON stdout matches separate stdout after one additional final newline; stderr matches exactly and is empty. Do not claim byte-identical stdout.",
+  "integration_status_from_banking_record": "PENDING full358 audit and fresh fidelity review; not a new completed gate.",
+  "changed_since_source_seal": [
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sealed_sha256": "80ab03dbead4064b2b9cfa9d4358bc68a7ff902337a09f25f065d501512b44aa",
+      "current_sha256": "a68a4faeaafc42fa419bc0b8d2b58f6259b43ea47da3f6a7c6e610bc64223c9a"
+    }
+  ],
+  "candidate_state": "No author candidate file existed at the 16:23 post-seal directory inventory; no HB1 candidate exposure yet.",
+  "postseal_additional_sources": [
+    {
+      "path": "udt_g374_g375_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "sha256": "263af84c8a64c54679adf68667c09105ec14913eb0b2afac4165db5a2dc694f3"
+    }
+  ]
+}

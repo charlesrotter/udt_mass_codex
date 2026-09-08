@@ -1,0 +1,30 @@
+{
+  "duplicate_audit_command": [
+    "python3",
+    "verify_current_scientific_premises.py"
+  ],
+  "tool_session_id": 81732,
+  "returned_exit_code": 1,
+  "reported_output": "G351 dependency-free no-write replay failed: \n",
+  "streams_separated": false,
+  "duration_seconds": null,
+  "reason_for_duplicate": "Mandatory startup ran before task-specific dispatch directing reuse.",
+  "interpretation": "Unresolved execution failure; not a scientific refutation or a premise audit PASS. No duplicate replay attempted.",
+  "git_attempts": [
+    {
+      "command": "git checkout grok",
+      "exit_code": 0,
+      "output": "Already on grok; up to date with cached origin/grok."
+    },
+    {
+      "command": "git fetch origin",
+      "exit_code": 255,
+      "output": "error: cannot open .git/FETCH_HEAD: Read-only file system"
+    },
+    {
+      "command": "git pull --ff-only origin grok",
+      "exit_code": 1,
+      "output": "error: cannot open .git/FETCH_HEAD: Read-only file system"
+    }
+  ]
+}

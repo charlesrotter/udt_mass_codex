@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-09-08T16:35:53.378828+00:00",
+  "state": "REVIEW_COMPLETE",
+  "candidate_sha256": "9e8ec897653d12b33b9333f8cb473787045de7590dca1ae8a609bf4f4513e637",
+  "requirements_sha256": "b825527f4be0dfdf7b22b4d8792bb7b4e0aad785509bcedb26f9987c11788952",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "review_record": "REVIEW_RECORD.md",
+  "hb2_executed": false
+}

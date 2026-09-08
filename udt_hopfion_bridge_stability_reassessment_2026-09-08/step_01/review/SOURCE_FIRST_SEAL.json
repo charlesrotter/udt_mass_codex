@@ -1,0 +1,19 @@
+{
+  "sealed_utc": "2026-09-08T16:23:00.680375+00:00",
+  "head": "7e6d144a9f45fc2cee6d041448e6b6ee9e324cc3",
+  "requirements_sha256": "b825527f4be0dfdf7b22b4d8792bb7b4e0aad785509bcedb26f9987c11788952",
+  "source_manifest_sha256": "0401493bcf12f00978014e32b9f4bb753d2a73b5b56cb98f0dbfa960366d4956",
+  "hb1_candidate_exposure": "NONE",
+  "parent_audit_receipt_authentication": {
+    "returncode": 0,
+    "duration_seconds": 401.5931578509917,
+    "stdout_exact_match": false,
+    "stderr_exact_match": true,
+    "stdout_file_bytes": 1822,
+    "stdout_json_bytes": 1821,
+    "stdout_match_after_single_final_newline": true,
+    "stderr_empty": true,
+    "row_count": 358
+  },
+  "remote_freshness": "not independently verified; parent dispatch receipt reused at matched HEAD"
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "python3",
+    "-B",
+    "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_01/check_sources.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "env": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "classification": "same-code source correspondence regression; not scientific proof"
+}

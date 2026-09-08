@@ -1,0 +1,3 @@
+HB1 review: **VERIFIED-WITH-CAVEATS**. No load-bearing refutation or mandatory scientific repair. The proposed first-variation question remains a defensible bounded next step; HB2 was not started.
+
+[Review report](/home/udt-admin/udt_mass_codex/udt_hopfion_bridge_stability_reassessment_2026-09-08/step_01/review/REVIEW_RECORD.md) records the scope, checks, precision caveats, exposure history, and startup audit failure.

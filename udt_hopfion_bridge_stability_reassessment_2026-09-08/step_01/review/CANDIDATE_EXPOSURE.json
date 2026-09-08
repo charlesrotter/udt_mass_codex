@@ -1,0 +1,10 @@
+{
+  "candidate_path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_01/CANDIDATE_INITIAL.md",
+  "sha256": "9e8ec897653d12b33b9333f8cb473787045de7590dca1ae8a609bf4f4513e637",
+  "freeze_path": "udt_hopfion_bridge_stability_reassessment_2026-09-08/step_01/CANDIDATE_FREEZE.md",
+  "freeze_sha256": "3232d901a35c68848d0eb3a53416b7843ce30c04df6cf222cd627b2d44dfc54f",
+  "first_candidate_read_utc": "2026-09-08T16:28:57.231628+00:00",
+  "requirements_sha256": "b825527f4be0dfdf7b22b4d8792bb7b4e0aad785509bcedb26f9987c11788952",
+  "source_first_seal_preceded_candidate_freeze": true,
+  "author_freeze_statement_authenticated": "Candidate hash matches signed text; authorship/claimed exposure chronology is a recorded declaration, not proved by hash."
+}

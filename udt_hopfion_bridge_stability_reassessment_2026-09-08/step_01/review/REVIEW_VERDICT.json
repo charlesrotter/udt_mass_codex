@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-09-08T16:35:53.378828+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Frozen HB1 source-bounded reassessment and direction gate only; UNPROMOTED",
+  "candidate_sha256": "9e8ec897653d12b33b9333f8cb473787045de7590dca1ae8a609bf4f4513e637",
+  "requirements_sha256": "b825527f4be0dfdf7b22b4d8792bb7b4e0aad785509bcedb26f9987c11788952",
+  "review_sha256": "2463c4261445bcbf53213f6dd8a1ebd570e20d0f454fad69c1f803f3439f1ad3",
+  "actual_head_at_return": "7e6d144a9f45fc2cee6d041448e6b6ee9e324cc3",
+  "scientific_sources_match_baseline": true,
+  "mandatory_scientific_repairs": [],
+  "precision_caveats": [
+    "Particular quotient metric differs from a common fixed carrier target.",
+    "G305/G307 are checked additional coverage; do not label them missing.",
+    "Reuse G337 Ricci variation with raising-index/normal-flow/eigengap controls before HB2."
+  ],
+  "hb2_executed": false,
+  "parent_banking_gates_certified_by_this_review": false,
+  "duplicate_startup_audit": "FAILED; preserved; parent356 receipt reused",
+  "remote_freshness": "not independently verified",
+  "original_candidate_and_source_first_seal_unchanged": true,
+  "reviewer_writes": "step_01/review only",
+  "complete_machine_transcript_available": false
+}

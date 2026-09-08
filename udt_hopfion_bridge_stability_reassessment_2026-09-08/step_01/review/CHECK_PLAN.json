@@ -1,0 +1,21 @@
+{
+  "written_utc": "2026-09-08T16:25:53.287882+00:00",
+  "question": "Do direct bracket curvature, homogeneous Lorentz projective differential, and K eigenvalue contraction reproduce the selected G330/G289/G332 source anchors, retaining their countercontrols?",
+  "quantifiers": "Three rational Berger metrics; nine boost/direction pairs; four Hamiltonian branch/sign cases. Momentum checked analytically in sealed requirements, not by this script.",
+  "frame": "metric-led source-fidelity; no physical values selected",
+  "physical_choices": "Berger a,c, beta, n, C,Lambda,R are source-bounded free-and-explored fixtures, not selected physical data. Signature, bracket normalization and equations pinned to the cited sources.",
+  "method": "Python standard-library exact Fraction arithmetic; newly written reviewer implementation; source formulas/proofs exposed; no author HB1 exposure",
+  "resources": {
+    "children": 1,
+    "address_space_bytes": 536870912,
+    "cpu_seconds": 60,
+    "wall_seconds": 60,
+    "OPENBLAS_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1,
+    "MKL_NUM_THREADS": 1,
+    "gpu": false
+  },
+  "stop": "first error or time/resource limit; preserve output; no numeric tolerance",
+  "maximum_claim": "Finite exact source anchors and nonvacuity controls only; not old-field/inertia replay, continuum proof, numerical certification, or a new adopted result.",
+  "omissions": "Full parameter quantifiers, global topology, constraint flow, dynamical stability, raw field charge, old inertia and boundary evidence are not computationally tested."
+}
